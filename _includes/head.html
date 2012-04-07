@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} &ndash; {% endif %}Made Mistakes</title>
+<meta name="description" content="{{ page.description }}">
+<meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+<meta property="fb:app_id" content="212382918792808">
+<meta property="fb:admins" content="718376550">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ site.base_url }}{{ page.url }}">
+<meta property="og:site_name" content="Made Mistakes">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{% if page.thumb %}{{ site.base_url }}/images/{{ page.thumb }}{% else %}{{ site.base_url }}/images/no-thumb.png{% endif %}">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo">
+<meta name="msvalidate.01" content="D81F4C18A6CB3018F64D7C827D953DFD">
+<meta name="alexaVerifyID" content="Y5DYjZ4VWlrQzBP5kcQJeOKLNas">
+{% capture canonical %}{{ site.base_url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">
+<link rel="icon" href="{{ site.base_url }}/favicon.ico">
+<link rel="apple-touch-icon" href="{{ site.base_url }}/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300">
+<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/css/style.css">
+<!--[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" href="{{ site.base_url }}/css/ie.css">
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Made Mistakes" href="http://feeds.feedburner.com/MadeMistakes">
+<link rel="author" href="{{ site.base_url }}/humans.txt">

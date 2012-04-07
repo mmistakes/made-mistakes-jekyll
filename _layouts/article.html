@@ -1,0 +1,84 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+{% include head.html %}
+{% if page.css %}<link rel="stylesheet" href="{{ site.base_url }}/css/{{ page.css }}">{% endif %}
+<script src="{{ site.base_url }}/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body id="post">
+<!--[if lt IE 8]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+<header role="banner">
+<div id="branding">
+<div id="logo">
+<a href="{{ site.base_url }}" title="Made Mistakes">
+<img src="{{ site.base_url }}/images/retro-logo.png" alt="Made Mistakes" />
+</a>
+</object>
+</div><!-- /#logo -->	
+<hgroup class="visuallyhidden">
+<h1><a href="{{ site.base_url }}" title="Home">Made Mistakes</a></h1>
+<h2>Design Faux Pas</h2>
+</hgroup>
+{% include navbar.html %}
+</div><!-- /#branding -->
+<nav role="navigation">
+{% include nav.html %}
+</nav>
+</header>
+	
+<article>
+{% if page.image %}<figure class="articleImage">
+<img src="{{ site.base_url }}/images/{{ page.image }}" alt="article image" />
+</figure>
+<div id="main" role="main">
+<header>
+<h1 class="articleTitle">{{ page.title }}</h1></header>
+{% else %}<div id="main" role="main">
+<header>
+<h1 class="postTitle">{{ page.title }}</h1>
+</header>{% endif %}	
+{{ content }}
+</div><!-- /#main -->
+<footer role="contentinfo">
+<div id="published">
+<p>This article was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" rel="me">Michael Rose</a>.</p>
+</div><!-- /#published -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'mmistakes';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<!-- /Disqus script -->
+</footer><!-- /#postFooter -->
+<nav id="postNavigation">
+{% if page.previous.url %}
+<a href="{{ site.base_url }}{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="circlePrev">
+<span>&larr; Previous</span>
+<div style="background-image:url({{ site.base_url }}/images/{{ page.previous.thumb }});"></div>
+</a>
+{% endif %}
+{% if page.next.url %}
+<a href="{{ site.base_url }}{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="circleNext">
+<span>Next &rarr;</span>
+<div style="background-image:url({{ site.base_url }}/images/{{ page.next.thumb }});"></div>
+</a>
+{% endif %}</nav><!-- /#postNavigation -->
+</article>
+
+<footer id="footer">
+{% include footer.html %}
+</footer>	
+
+{% include scripts.html %}	        
+
+</body>
+</html>

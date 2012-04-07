@@ -1,0 +1,56 @@
+@import "lib/variables.less"; // LESS variables
+@import "lib/elements.less"; // Common elements mixins
+@import "lib/grid.less"; // Semantic.gs grid mixins
+@total-width: 100%;
+
+/* Global Page Style Overrides
+----------------------------------------------------------------------------------------*/
+@customColor: #fff;
+@accentColor: #182985;
+
+body { background: @accentColor url(../images/going-static-background.jpg) repeat; }
+body, #published p { color: @customColor; }
+a { color: @customColor; }
+a:visited { color: darken(@customColor, 20%); }
+#published { border-top: 1px solid @customColor; }
+.rgba #published { border-top: 1px solid fade(@customColor, 30%); }
+.articleTitle { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+// Heading Typography
+@font-face {
+    font-family: 'MenschBold';
+    src: url('../fonts/mensch-bold-wf.eot');
+    src: url('../fonts/mensch-bold-wf.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mensch-bold-wf.woff') format('woff'),
+         url('../fonts/mensch-bold-wf.ttf') format('truetype'),
+         url('../fonts/mensch-bold-wf.svg#MenschMenschBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+	font-family: "MenschBold", "Myriad Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+.rgba #main h1, .rgba #main h2, .rgba #main h3 {
+	text-shadow: 2px 2px fade(@accentColor, 80%);	
+}
+
+/* 240px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 200px) {
+}
+
+/* 720px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 720px) {
+	// Navigation
+	.rgba header[role="banner"]:hover {
+		background: fade(@baseColor, 50%) url(../images/DotGrid2.png) repeat;
+	}
+	#intro p {
+		font-size: @baseFontSize + .3; 
+		line-height: @baseLineHeight .3;
+	}
+	.rgba #intro p {
+		text-shadow: 1px 1px fade(@accentColor, 80%);
+	}
+}

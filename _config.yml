@@ -1,0 +1,68 @@
+safe:        false
+auto:        false
+server:      false
+server_port: 4000
+base_url:    http://localhost:4000
+base_url:    http://10.0.1.2:4000
+#base_url:    http://10.0.2.2:4000
+base_url:    http://mademistakes.com
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+pygments:    false
+markdown:    maruku
+permalink:   /:categories/:title.html
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+#
+# Template Variables
+# Variable  Description
+# year   Year from the post’s filename
+# month  Month from the post’s filename
+# day  Day from the post’s filename
+# title  Title from the post’s filename
+# categories   The specified categories for this post. Jekyll automatically parses out double slashes in the URLs, so if no categories are present, it basically ignores this.   
+
+# Built-in styles
+# Name  Template
+# date  /:categories/:year/:month/:day/:title.html
+# pretty  /:categories/:year/:month/:day/:title
+# none  /:categories/:title.html
+# simple /:categories/:title
+
+# Examples
+# None specified. /2009/04/29/slap-chop.html
+# permalink: pretty /2009/04/29/slap-chop/index.html
+# permalink: /:month-:day-:year/:title.html /04-29-2009/slap-chop.html
+# permalink: /blog/:year/:month/:day/:title /blog/2009/04/29/slap-chop/index.html
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+  
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "mademistakes.sublime-project", "mademistakes.sublime-workspace"]

@@ -1,0 +1,44 @@
+@import "lib/variables.less"; // LESS variables
+@import "lib/elements.less"; // Common elements mixins
+@import "lib/grid.less"; // Semantic.gs grid mixins
+@total-width: 100%;
+
+article #main,
+article footer {
+	.column(10);
+	.push(1);
+}
+section h3 {
+	margin-bottom: 0;
+}
+section h4 {
+	margin: 0;
+}
+#other {
+	h2 {
+		margin-bottom: @baseLineHeight/4;
+	}
+	h4 {
+		a {
+			text-decoration: none;
+		}
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* 720px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 720px) {
+	#about {
+		.column(6);
+	}
+	#other {
+		.column(5);
+		.push(1);
+	}
+}
+
+@import "zocial.css"; // Zocial icon and button styles

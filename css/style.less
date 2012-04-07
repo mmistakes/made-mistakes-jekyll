@@ -1,0 +1,44 @@
+/*
+Author: Michael Rose - @mmistakes
+Version: 1.0
+URL: http://mademistakes.com
+*/
+
+@import "lib/base.less"; // Base styles
+@import "lib/240.less"; // 240px wide and up styles
+@import "lib/320.less"; // 320px wide and up styles
+@import "lib/480.less"; // 480px wide and up styles
+@import "lib/720.less"; // 720px wide and up styles
+@import "lib/960.less"; // 960px wide and up styles
+@import "lib/print.less"; // Print styles
+
+/* 240px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 200px) {
+	.240up();
+}
+/* 320px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 300px) {
+	.320up();
+}
+/* 480px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 470px) {
+	.480up();
+}
+/* 720px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 720px) {
+	.720up();
+}
+/* 960px WIDE AND UP
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 960px) {
+	.960up();
+}
+/* PRINT STYLES
+----------------------------------------------------------------------------------------*/
+@media print {
+	.print();
+}

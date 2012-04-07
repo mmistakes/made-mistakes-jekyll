@@ -1,0 +1,18 @@
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ site.base_url }}/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<!-- FitVid -->
+<script src="{{ site.base_url }}/js/libs/jquery.fitvids.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#main").fitVids();
+  });
+</script>
+<!-- Asynchronous Google Analytics snippet.
+     mathiasbynens.be/notes/async-analytics-snippet -->
+<script>
+	var _gaq=[['_setAccount','UA-2011187-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>

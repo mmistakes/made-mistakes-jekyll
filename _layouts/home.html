@@ -1,0 +1,74 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+{% include head.html %}
+{% for post in site.posts limit:1 %}
+{% if post.css %}<link rel="stylesheet" href="{{ site.base_url }}/css/{{ post.css }}">{% endif %}
+<script src="{{ site.base_url }}/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body id="post">
+<!--[if lt IE 8]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+<header role="banner">
+<div id="branding">
+<div id="logo">
+<a href="{{ site.base_url }}" title="Made Mistakes">
+<img src="{{ site.base_url }}/images/retro-logo.png" alt="Made Mistakes" />
+</a>
+</object>
+</div><!-- /#logo -->	
+<hgroup class="visuallyhidden">
+<h1><a href="{{ site.base_url }}" title="Home">Made Mistakes</a></h1>
+<h2>Design Faux Pas</h2>
+</hgroup>
+{% include navbar.html %}
+</div><!-- /#branding -->
+<nav role="navigation">
+{% include nav.html %}
+</nav>
+</header>
+
+<article>
+{% if post.image %}<figure class="articleImage">
+<img src="{{ site.base_url }}/images/{{ post.image }}" alt="article image" />
+</figure>
+<div id="main" role="main">
+<header>
+<h1 class="articleTitle">{{ post.title }}</h1></header>
+{% else %}<div id="main" role="main">
+<header>
+<h1 class="postTitle">{{ post.title }}</h1>
+</header>{% endif %}	
+{{ post.content }}
+</div><!-- /#main -->
+<footer role="contentinfo">
+<div id="published">
+<p>This article was published on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" rel="me">Michael Rose</a>.</p>
+</div><!-- /#published -->
+</footer><!-- /#postFooter -->
+<nav id="postNavigation">
+{% if post.previous.url %}
+<a href="{{ site.base_url }}{{ post.previous.url }}" rel="previous" title="{{ post.previous.title }}" class="circlePrev">
+<span>&larr; Previous</span>
+<div style="background-image:url({{ site.base_url }}/images/{{ post.previous.thumb }});"></div>
+</a>
+{% endif %}
+{% if page.next.url %}
+<a href="{{ site.base_url }}{{ post.next.url }}" rel="next" title="{{ post.next.title }}" class="circleNext">
+<span>Next &rarr;</span>
+<div style="background-image:url({{ site.base_url }}/images/{{ post.next.thumb }});"></div>
+</a>
+{% endif %}</nav><!-- /#postNavigation -->
+</article>
+{% endfor %}
+<footer id="footer">
+{% include footer.html %}
+</footer>	
+
+{% include scripts.html %}	        
+
+</body>
+</html>

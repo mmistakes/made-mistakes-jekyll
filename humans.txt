@@ -1,0 +1,9 @@
+/* ABOUT */
+  Graphic Designer: Michael Rose
+  Site: mademistakes.com
+  Twitter: @mmistakes
+  Location: Tonawanda, New York USA
+
+/* SITE */
+  Components: Jekyll, LESS, HTML5 Boilerplate, Modernizr, Semantic.gs
+  Software: Adobe Photoshop, Adobe Illustrator, TextMate, Cyberduck, MAMP

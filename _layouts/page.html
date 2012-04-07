@@ -1,0 +1,57 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+{% include head.html %}
+{% if page.css %}<link rel="stylesheet" href="{{ site.base_url }}/css/{{ page.css }}">{% endif %}
+<script src="{{ site.base_url }}/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body id="post">
+<!--[if lt IE 8]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+<header role="banner">
+<div id="branding">
+<div id="logo">
+<a href="{{ site.base_url }}" title="Made Mistakes">
+<img src="{{ site.base_url }}/images/retro-logo.png" alt="Made Mistakes" />
+</a>
+</object>
+</div><!-- /#logo -->	
+<hgroup class="visuallyhidden">
+<h1><a href="{{ site.base_url }}" title="Home">Made Mistakes</a></h1>
+<h2>Design Faux Pas</h2>
+</hgroup>
+{% include navbar.html %}
+</div><!-- /#branding -->
+<nav role="navigation">
+{% include nav.html %}
+</nav>
+</header>
+	
+<article>
+{% if page.image %}<figure class="articleImage">
+<img src="{{ site.base_url }}/images/{{ page.image }}" alt="article image" />
+</figure>
+<div id="main" role="main">
+<header>
+<h1 class="postTitle visuallyhidden">{{ page.title }}</h1>
+{% else %}<div id="main" role="main">
+<header>
+<h1 class="postTitle visuallyhidden">{{ page.title }}</h1>
+</header>{% endif %}	
+{{ content }}
+</div><!-- /#main -->
+<footer role="contentinfo">
+</footer><!-- /#postFooter -->
+</article>
+
+<footer id="footer">
+{% include footer.html %}
+</footer>	
+
+{% include scripts.html %}	        
+
+</body>
+</html>

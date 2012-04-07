@@ -1,0 +1,30 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Made Mistakes</title>
+<subtitle type="text">Design Faux Pas</subtitle>
+<link rel="self" type="application/atom+xml" href="{{ site.base_url }}/atom.xml" />
+<link rel="alternate" type="text/html" href="{{ site.base_url }}" />
+<updated>{{ site.time | date_to_xmlschema }}</updated>
+<id>{{ site.base_url }}/</id>
+<author>
+	<name>Michael Rose</name>
+	<uri>{{ site.base_url }}/</uri>
+	<email>michael@mademistakes.com</email>
+</author>
+<rights>Copyright (c) 2012, Michael Rose; all rights reserved.</rights>
+{% for post in site.posts %}
+
+<entry>
+	<title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
+	<link rel="alternate" type="text/html" href="{{ site.base_url }}{{ post.url }}" />
+	<id>{{ site.base_url }}{{ post.id }}</id>
+	<updated>{{ post.date | date_to_xmlschema }}</updated>
+	<content type="html">{% if post.screenshot %}<![CDATA[<a href="{{ site.base_url }}{{ post.url }}"><img src="{{ site.base_url }}/images/{{ post.screenshot }}" alt="{{ post.title }} screenshot image" /></a><p>Do yourself a favor and click the screenshot above to read this article as I intended. Newsreaders strip out all the time and effort I put into the design and typography, and that's no fun!</p>]]>
+	{% else %}{{ post.content | xml_escape }}{% endif %}
+	<![CDATA[<p><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a> was originally published by <a href="href="{{ site.base_url }}/about.html">Michael Rose</a> at <a href="{{ site.base_url }}">Made Mistakes</a> on {{ post.date | date: "%B %d, %Y" }}.</p>]]></content>
+</entry>
+{% endfor %}
+s</feed>
