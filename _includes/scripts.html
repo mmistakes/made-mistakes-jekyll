@@ -1,6 +1,15 @@
-<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ site.base_url }}/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ site.base_url }}/js/jquery-1.7.2.min.js"><\/script>')</script>
+<!-- Google Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Magra:700,400" rel="stylesheet" type="text/css">
+<!-- FitText -->
+<script src="{{ site.base_url }}/js/jquery.fittext.js"></script>
+<script type="text/javascript">
+	$("#responsive-h1").fitText(1.2, { maxFontSize: '90px' });
+	$("#responsive-h2").fitText(1.2, { minFontSize: '18px', maxFontSize: '40px' });
+	$("#responsive-h3").fitText(1.2, { minFontSize: '21px', maxFontSize: '30px' });
+</script>
 <!-- FitVid -->
 <script src="{{ site.base_url }}/js/libs/jquery.fitvids.js"></script>
 <script>
@@ -8,6 +17,8 @@
     $("#main").fitVids();
   });
 </script>
+<!-- MBP - Mobile boilerplate helper functions -->
+<script src="{{ site.base_url }}/js/helper.js"></script>
 <!-- Asynchronous Google Analytics snippet.
      mathiasbynens.be/notes/async-analytics-snippet -->
 <script>
