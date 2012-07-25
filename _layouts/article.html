@@ -25,24 +25,10 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <body>
 <!--[if lt IE 8]><div class="alert alert-info"><strong>Your browser is really old!</strong> <a href="http://browsehappy.com/">Why not upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better enjoy this site?</div><![endif]-->
 
-<header role="banner">
-<div id="branding">
-<div id="logo">
-<a href="{{ site.base_url }}" title="Made Mistakes">
-<img src="{{ site.base_url }}/images/retro-logo.png" alt="Made Mistakes" />
-</a>
-</object>
-</div><!-- /#logo -->	
-<hgroup class="visuallyhidden">
-<h1><a href="{{ site.base_url }}" title="Home">Made Mistakes</a></h1>
-<h2>Design Faux Pas</h2>
-</hgroup>
-{% include navbar.html %}
-</div><!-- /#branding -->
 <nav role="navigation">
-{% include nav.html %}
+    <a href="#" id="branding"><i class="icon-home visible-phone"></i><span class="hidden-phone"> Website Name</span></a>
+    {% include nav.html %}
 </nav>
-</header>
 	
 <article>
 {% if page.image %}<figure class="articleImage">
