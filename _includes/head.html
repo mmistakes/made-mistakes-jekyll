@@ -17,12 +17,45 @@
 <meta name="alexaVerifyID" content="Y5DYjZ4VWlrQzBP5kcQJeOKLNas">
 {% capture canonical %}{{ site.base_url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
-<link rel="icon" href="{{ site.base_url }}/favicon.ico">
-<link rel="apple-touch-icon" href="{{ site.base_url }}/apple-touch-icon.png">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300">
-<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/css/style.css">
-<!--[if (lt IE 9) & (!IEMobile)]>
-<link rel="stylesheet" href="{{ site.base_url }}/css/ie.css">
-<![endif]-->
 <link rel="alternate" type="application/rss+xml" title="Made Mistakes" href="http://feeds.feedburner.com/MadeMistakes">
 <link rel="author" href="{{ site.base_url }}/humans.txt">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link type="text/css" rel="stylesheet" href="{{ site.base_url }}/css/320andup.css">
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="js/selectivizr-min.js"></script>
+<![endif]-->
+
+<!-- JavaScript -->
+<script src="{{ site.base_url }}/js/modernizr-2.5.3-min.js"></script>
+
+<!-- For iPhone 4 -->
+<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.base_url }}/images/h/apple-touch-icon.png"> -->
+<!-- For iPad 1-->
+<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.base_url }}/images/m/apple-touch-icon.png"> -->
+<!-- For the new iPad -->
+<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.base_url }}/images/h/apple-touch-icon-144x144-precomposed.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<!-- <link rel="apple-touch-icon-precomposed" href="{{ site.base_url }}/images/l/apple-touch-icon-precomposed.png"> -->
+<!-- For Nokia -->
+<!-- <link rel="shortcut icon" href="{{ site.base_url }}/images/l/apple-touch-icon.png"> -->
+<!-- For everything else -->
+<link rel="shortcut icon" href="{{ site.base_url }}/favicon.ico">
+
+<!--iOS -->
+<!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+<!-- <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+<!-- <link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/splash.png"> -->
+
+<!-- <script>(function(){var p,l,r=window.devicePixelRatio;if(navigator.platform==="iPad"){p=r===2?"{{ site.base_url }}/images/startup/startup-tablet-portrait-retina.png":"{{ site.base_url }}/images/startup/startup-tablet-portrait.png";l=r===2?"{{ site.base_url }}/images/startup/startup-tablet-landscape-retina.png":"{{ site.base_url }}/images/startup/startup-tablet-landscape.png";document.write('<link rel="apple-touch-startup-image" href="'+l+'" media="screen and (orientation: landscape)"/><link rel="apple-touch-startup-image" href="'+p+'" media="screen and (orientation: portrait)"/>');}else{p=r===2?"{{ site.base_url }}/images/startup/startup-retina.png":"{{ site.base_url }}/images/startup/startup.png";document.write('<link rel="apple-touch-startup-image" href="'+p+'"/>');}})()</script> -->
+<!--Microsoft -->
+
+<!-- Prevents links from opening in mobile Safari -->
+<!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
+<meta http-equiv="cleartype" content="on">
