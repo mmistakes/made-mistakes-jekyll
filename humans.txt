@@ -5,5 +5,5 @@
   Location: Tonawanda, New York USA
 
 /* SITE */
-  Components: Jekyll, LESS, HTML5 Boilerplate, Modernizr, Semantic.gs
-  Software: Adobe Photoshop, Adobe Illustrator, TextMate, Cyberduck, MAMP
+  Components: Jekyll, 320andUp, HTML5 Boilerplate, Modernizr, LESS, Semantic.gs, The Font Awesome webfont, Frameless Grid, Bootstrap
+  Software: Adobe Creative Suite, TextMate, Cyberduck, MAMP
