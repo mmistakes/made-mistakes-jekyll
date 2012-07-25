@@ -1,0 +1,165 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* Banner =================================================== */
+[role="banner"] {
+	margin: 0 auto;
+	margin-bottom: @baselineheight * 1.5;
+	width: 100%;
+	position: relative;
+	img {
+		height: auto;
+		width: 100%;
+	}
+	hgroup {
+		bottom: 0;
+		/* height: 130px; */
+		left: 0;
+		position: absolute;
+		right: 0;
+		width: 100%;
+	}
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		white-space: nowrap;
+		display: block;
+		padding: 0 @baselineheight / 8 @baselineheight / 8;
+		margin-bottom: 0;
+		color: @white;
+		.text-shadow();
+		a,
+		a:visited {
+			color: @white;
+			.opacity(0.8);
+		}
+		a:hover {
+			text-decoration: none;
+			.opacity(1);
+			.transition(0.5s);
+		}
+	}
+	h2 {
+		text-align: center;
+		white-space: nowrap;
+		font-family: @altfont;
+		font-style: italic;
+		display: block;
+		padding-bottom: @baselineheight / 4;
+		margin-bottom: 0;
+		color: @white;
+		.text-shadow();
+		span {
+			border-top: 4px double @white;
+		}
+	}
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+		white-space: nowrap;
+		display: block;
+		margin-bottom: 0;
+		span {
+			background-color: @white;
+			padding: 2px 4px;
+		}
+	}
+}
+.header-wrapper {
+	background: url(../images/DotGrid2.png);
+	padding-bottom: @baselineheight;
+}
+
+/* Navigation =================================================== */
+[role="navigation"] {
+	margin: 0 auto;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 80;
+	background-color: @black;
+	.box-shadow();
+	a {
+		font-family: @baseheadingfont;
+		font-weight: @baseheadingfontweight;
+		color: @white;
+		text-decoration: none;
+		text-transform: uppercase;
+		z-index: 90;
+		&:hover {
+			background-color: @basecolor;
+			.transition(0.2s);
+		}
+	}
+	#branding {
+		padding: 5px 10px;
+		display: inline-block;
+	}
+	ul {
+		float: right;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		li {
+			float: left;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			a {
+				padding: 5px 10px;
+				display: inline-block;
+				&:hover {
+					background-color: @basecolor;
+					.transition(0.2s);
+				}
+			}
+		}
+	}
+}
+
+/* Content =================================================== */
+.content, .listing, .credits, [role="complementary"], footer {
+	margin: 0 auto;
+	width: 90%; 
+}
+#intro p {
+	.font-size(18);
+}
+.credits {
+	p, li {
+		font-family: @baseheadingfont;
+		font-weight: 300;
+		.font-size(16);
+	}
+	li {
+		display: inline;
+		padding-right: @gutterwidth;
+	}
+}
+[role="contentinfo"] {
+	margin: 0 auto;
+	width: 90%;
+	small {
+		display: block;
+		margin: 0 auto @baselineheight;
+		width: 90%; 
+	}
+}
+footer {
+	font-family: @baseheadingfont;
+	font-weight: 300;
+	p {
+		.font-size(14);
+		color: lighten(@basecolor, 40%);
+	}
+	a,
+	a:visited {
+		color: lighten(@basecolor, 40%);
+	}
+}
