@@ -30,42 +30,37 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     {% include nav.html %}
 </nav>
 
-
-
-	
-<article>
-<div id="main" role="main">
-<header>
-<h1 class="postTitle">{{ page.title }}</h1>
-</header>
-{% for post in site.posts %}
-{% unless post.next %}
-<ul id="filter">
-<li>Filter:</li>
-<li class="current"><a href="#">All</a></li>
-<li><a href="#">{{ post.date | date: '%Y' }}</a></li>
-{% else %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-{% if year != nyear %}	
-<li><a href="#">{{ post.date | date: '%Y' }}</a></li>
-{% endif %}
-{% endunless %}	
-{% endfor %}
-</ul>
-{% for post in site.posts %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-{% if year != nyear %}
-{% endif %}
-<article class="{{ post.date | date: "%Y" }}">
-<div class="postDate"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></div> 
-<h2><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{ post.description }}</p>
-</article><!-- /.{{ post.date | date: "%Y" }} -->
-{% endfor %}
+<div id="main" role="main" class="clearfix">
+    <header role="banner">
+        <img src="http://placehold.it/960x300" alt="Marquee image 960 x 300"/>
+        <hgroup>
+            <div class="header-wrapper">
+                <h3 id="responsive-h3"><span>The Latest</span></h3>
+                <h1 id="responsive-h1"><a href="#">Short Headline Article Goes Here</a></h1>
+                <h2 id="responsive-h2" class="hidden-phone"><span>Sub-headline Could Go Here</span></h2>
+            </div><!-- /.header-wrapper -->
+        </hgroup>
+    </header>
+    
+    <div class="center">
+        <article class="listing clearfix">
+            <header>
+                <h1>Posts &amp; Diatribes</h1>
+            </header>
+            <ul class="leaders">
+                {% for post in site.posts %}
+				{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+				{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+				{% if year != nyear %}
+				{% endif %}
+                <li><span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></span><span><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span></li>
+                {% endfor %}
+            </ul>
+        </article><!-- /.listing -->
+    </div><!-- /.center -->
 </div><!-- /#main -->
-</article>
+
+<hr />
 
 <footer>
 {% include footer.html %}
