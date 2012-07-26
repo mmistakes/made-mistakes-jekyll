@@ -30,16 +30,18 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 </nav>
 
 <div id="main" role="main" class="clearfix">
+    {% for post in site.posts limit:1 %}
     <header role="banner">
-        <img src="http://placehold.it/960x300" alt="Marquee image 960 x 300"/>
+        <img src="{{ site.base_url }}/images/{{ post.image }}" alt="{{ post.title }} article image" />
         <hgroup>
             <div class="header-wrapper">
                 <h3 id="responsive-h3"><span>The Latest</span></h3>
-                <h1 id="responsive-h1"><a href="#">Short Headline Article Goes Here</a></h1>
-                <h2 id="responsive-h2" class="hidden-phone"><span>Sub-headline Could Go Here</span></h2>
+                <h1 id="responsive-h1"><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
+                <h2 id="responsive-h2" class="hidden-phone"><span>{{ post.subheadline }}</span></h2>
             </div><!-- /.header-wrapper -->
         </hgroup>
     </header>
+    {% endfor %}
     
     <div class="center">
         <article class="listing clearfix">

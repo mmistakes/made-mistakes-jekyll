@@ -2631,10 +2631,17 @@ footer a:visited {
     width: 760px;
     margin: 0 auto;
   }
-  article.content {
+  .content {
     display: inline;
     float: left;
     width: 340px;
+    margin: 0 5px;
+    margin-left: 55px;
+  }
+  .content-wide {
+    display: inline;
+    float: left;
+    width: 540px;
     margin: 0 5px;
     margin-left: 55px;
   }
@@ -2682,7 +2689,7 @@ footer a:visited {
     width: 140px;
     margin: 0 5px;
   }
-  article.content {
+  .content {
     display: inline;
     float: left;
     width: 440.00000000000006px;
