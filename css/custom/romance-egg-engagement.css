@@ -1,0 +1,7 @@
+html {
+  background: #ffffff url();
+}
+ul.leaders span:first-child,
+ul.leaders span + span {
+  background: #ffffff;
+}
