@@ -2392,15 +2392,12 @@ table tbody tr:hover th {
 [role="banner"] h1 a,
 [role="banner"] h1 a:visited {
   color: #ffffff;
-  -webkit-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
 }
 [role="banner"] h1 a:hover {
   text-decoration: none;
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
