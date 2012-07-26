@@ -29,52 +29,37 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     <a href="#" id="branding"><i class="icon-home visible-phone"></i><span class="hidden-phone"> Website Name</span></a>
     {% include nav.html %}
 </nav>
-	
-<article>
-{% if page.image %}<figure class="articleImage">
-<img src="{{ site.base_url }}/images/{{ page.image }}" alt="article image" />
-</figure>
-<div id="main" role="main">
-<header>
-<h1 class="articleTitle">{{ page.title }}</h1></header>
-{% else %}<div id="main" role="main">
-<header>
-<h1 class="postTitle">{{ page.title }}</h1>
-</header>{% endif %}	
-{{ content }}
-</div><!-- /#main -->
-<footer role="contentinfo">
-<div id="published">
-<p>This article was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" rel="me">Michael Rose</a>.</p>
-</div><!-- /#published -->
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'mmistakes';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<!-- /Disqus script -->
-</footer><!-- /#postFooter -->
-<nav id="postNavigation">
-{% if page.previous.url %}
-<a href="{{ site.base_url }}{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="circlePrev">
-<span>&larr; Previous</span>
-<div style="background-image:url({{ site.base_url }}/images/{{ page.previous.thumb }});"></div>
-</a>
-{% endif %}
-{% if page.next.url %}
-<a href="{{ site.base_url }}{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="circleNext">
-<span>Next &rarr;</span>
-<div style="background-image:url({{ site.base_url }}/images/{{ page.next.thumb }});"></div>
-</a>
-{% endif %}</nav><!-- /#postNavigation -->
-</article>
 
-<footer id="footer">
+<div id="main" role="main" class="clearfix">
+	<header role="banner">
+        <img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" />
+        <hgroup>
+            <div class="header-wrapper">
+                <h1 id="responsive-h1"><a href="{{ site.base_url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.headline }}</a></h1>
+                <h2 id="responsive-h2" class="hidden-phone"><span>{{ page.subheadline }}</span></h2>
+            </div><!-- /.header-wrapper -->
+        </hgroup>
+    </header>
+    <div class="center">
+       	<div class="credits hidden-phone">
+         	<aside id="published">
+            	<p>This article was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" rel="me">Michael Rose</a>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
+             	<ul class="icons unstyled">
+                	<li><i class="icon-twitter-sign"></i> <a href="#" title="Michael Rose on Twitter">Twitter</a></li>
+                	<li><i class="icon-facebook-sign"></i> <a href="#" title="Michael Rose on Facebook">Facebook</a></li>
+                	<li><i class="icon-linkedin-sign"></i> <a href="#" title="Michael Rose on LinkedIn">LinkedIn</a></li>
+                	<li><i class="icon-google-plus-sign"></i> <a href="#" title="Michael Rose on Google+">Google+</a></li>
+                	<li><i class="icon-rss"></i> <a href="#" title="Made Mistakes RSS Feed">RSS</a></li>
+                </ul>
+            </aside><!-- /#published -->
+       	</div><!-- /.credits -->
+       	{{ content }}
+    </div><!-- /.center -->
+</div><!-- /#main -->
+
+<hr />
+
+<footer>
 {% include footer.html %}
 </footer>	
 

@@ -5,16 +5,22 @@
 <link href="http://fonts.googleapis.com/css?family=Magra:700,400" rel="stylesheet" type="text/css">
 <!-- FitText -->
 <script src="{{ site.base_url }}/js/jquery.fittext.js"></script>
+<script type="text/javascript" src="{{ site.base_url }}/js/jquery.fancybox.min.js?v=2.0.6"></script>
 <script type="text/javascript">
-	$("#responsive-h1").fitText(1.2, { maxFontSize: '90px' });
-	$("#responsive-h2").fitText(1.2, { minFontSize: '18px', maxFontSize: '40px' });
-	$("#responsive-h3").fitText(1.2, { minFontSize: '21px', maxFontSize: '30px' });
-</script>
-<!-- FitVid -->
-<script src="{{ site.base_url }}/js/libs/jquery.fitvids.js"></script>
-<script>
-  $(document).ready(function(){
-    $("#main").fitVids();
+  <!-- FitText options -->
+  $("#responsive-h1").fitText(1.2, { maxFontSize: '90px' });
+  $("#responsive-h2").fitText(1.2, { minFontSize: '18px', maxFontSize: '40px' });
+  <!-- FancyBox options -->
+  $(document).ready(function() {
+    $(".fancybox").fancybox({
+      openEffect  : 'elastic',
+      closeEffect : 'elastic',
+      helpers : {
+        title : {
+          type : 'inside'
+          }
+        }
+      });
   });
 </script>
 <!-- MBP - Mobile boilerplate helper functions -->
