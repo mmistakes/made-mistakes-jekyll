@@ -145,18 +145,20 @@ ul.leaders li:after {
  ". . . . . . . . . . . . . . . . . . . . "}
 ul.leaders span:first-child {
     padding-right: 0.33em;
-    background: white;
+    background: @bodycolor;
 }
 ul.leaders span + span {
     float: right;
     padding-left: 0.33em;
-    background: white;
+    background: @bodycolor;
     position: relative;
     z-index: 1;
 }
+ul.leaders li a {
+		.transition(0.2s linear);
+}
 ul.leaders li a:hover {
 	padding-left: 10px;
-	.transition(0.2s);
 	text-decoration: none;
 }
 

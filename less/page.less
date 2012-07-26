@@ -37,11 +37,11 @@
 		a,
 		a:visited {
 			color: @white;
+			.transition(.2s linear);
 		}
 		a:hover {
 			text-decoration: none;
 			.opacity(0.8);
-			.transition(0.5s);
 		}
 	}
 	h2 {
@@ -91,9 +91,9 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		z-index: 90;
+		.transition(.2s linear);
 		&:hover {
 			background-color: @basecolor;
-			.transition(0.2s);
 		}
 	}
 	#branding {
@@ -113,9 +113,9 @@
 			a {
 				padding: 5px 10px;
 				display: inline-block;
+				.transition(.2s linear);
 				&:hover {
 					background-color: @basecolor;
-					.transition(0.2s);
 				}
 			}
 		}
@@ -123,7 +123,7 @@
 }
 
 /* Content =================================================== */
-.content, .listing, .credits, [role="complementary"], footer {
+.content, .content-wide, .listing, .credits, [role="complementary"], footer {
 	margin: 0 auto;
 	width: 90%; 
 }

@@ -177,7 +177,7 @@ body:after {
 }
 /* Page =================================================== */
 html {
-  background: #fffffb;
+  background: #ebebeb;
   font-size: 62.5%;
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: #f3f3f3;
@@ -335,22 +335,24 @@ ul.leaders li:after {
 }
 ul.leaders span:first-child {
   padding-right: 0.33em;
-  background: white;
+  background: #ebebeb;
 }
 ul.leaders span + span {
   float: right;
   padding-left: 0.33em;
-  background: white;
+  background: #ebebeb;
   position: relative;
   z-index: 1;
 }
+ul.leaders li a {
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
 ul.leaders li a:hover {
   padding-left: 10px;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
   text-decoration: none;
 }
 blockquote {
@@ -2392,17 +2394,17 @@ table tbody tr:hover th {
 [role="banner"] h1 a,
 [role="banner"] h1 a:visited {
   color: #ffffff;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 [role="banner"] h1 a:hover {
   text-decoration: none;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
 }
 [role="banner"] h2 {
   text-align: center;
@@ -2452,14 +2454,14 @@ table tbody tr:hover th {
   text-decoration: none;
   text-transform: uppercase;
   z-index: 90;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 [role="navigation"] a:hover {
   background-color: #343434;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
 }
 [role="navigation"] #branding {
   padding: 5px 10px;
@@ -2480,17 +2482,18 @@ table tbody tr:hover th {
 [role="navigation"] ul li a {
   padding: 5px 10px;
   display: inline-block;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 [role="navigation"] ul li a:hover {
   background-color: #343434;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
 }
 /* Content =================================================== */
 .content,
+.content-wide,
 .listing,
 .credits,
 [role="complementary"],
