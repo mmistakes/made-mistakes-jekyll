@@ -58,6 +58,21 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
                 {% endfor %}
             </ul>
         </article><!-- /.listing -->
+        <aside class="flickr">
+        	<header>
+                <h2>Latest Photography &amp; Illustrations</h2>
+            </header>
+            <div id="flickr-images">
+            	<ul class="unstyled"></ul>
+			</div><!-- /#flickr-images -->
+        </aside><!-- /.flickr -->
+
+        <aside class="aboutme">
+        	<header>
+                <h2>About Me</h2>
+                <p>Hi. I’m Michael Rose, just another boring, tattooed, time traveling, graphic designer from Buffalo, New York. <a href="#" class="btn btn-mini">Learn more</a></p>
+            </header>
+        </aside><!-- /.aboutme -->
     </div><!-- /.center -->
 </div><!-- /#main -->
 
@@ -68,6 +83,20 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 </footer>
 
 {% include scripts.html %}
+<!-- Flickr images -->
+<script type="text/javascript">
+$(document).ready(function() {
+       $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=97235127@N00&format=json&jsoncallback=?", function(data) {
+               var target = "#flickr-images ul"; // Name of container surrounding images.
+               for (i = 0; i <= 4; i = i + 1) { // Loop through the 6 most recent, [0-4]
+               		var pic = data.items[i];
+               		var liNumber = i + 1; // Add class to each LI (1-4)
+					var largeImage = (pic.media.m).replace("_m.jpg", ".jpg"); // Replace _m with larger image size
+               		$(target).append("<li><a title='" + pic.title + "' href='" + pic.link + "' target='_blank'><img src='" + largeImage + "' /></a></li>");
+               }
+       });
+});
+</script>
   
 </body>
 </html>

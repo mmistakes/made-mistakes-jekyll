@@ -37,7 +37,6 @@ display : table-header-group;
 	}
 }
 .center,
-.listing,
 footer {
 	width: 760px;
 	margin: 0 auto;
@@ -50,6 +49,22 @@ footer {
 .content-wide {
 	.column(11);
 	.push(1);
+}
+.listing,
+.flickr {
+	.column(15);
+}
+.flickr {
+	ul {
+		.row(15);
+		li {
+			.column(3,15);
+		}
+	}
+}
+.aboutme {
+	.column(8);
+	.pull(7)
 }
 //   MAIN    				==============================
 //   COMPLEMENTARY 			==============================

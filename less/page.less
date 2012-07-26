@@ -123,7 +123,7 @@
 }
 
 /* Content =================================================== */
-.content, .content-wide, .listing, .credits, [role="complementary"], footer {
+.content, .content-wide, .listing, .credits, [role="complementary"], .flickr, .aboutme, footer {
 	margin: 0 auto;
 	width: 90%; 
 }
@@ -149,6 +149,12 @@
 		margin: 0 auto @baselineheight;
 		width: 90%; 
 	}
+}
+.flickr, .aboutme {
+	padding-top: @baselineheight;
+}
+.flickr ul li {
+	margin-bottom: 5px;
 }
 footer {
 	font-family: @baseheadingfont;

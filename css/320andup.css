@@ -2500,6 +2500,8 @@ table tbody tr:hover th {
 .listing,
 .credits,
 [role="complementary"],
+.flickr,
+.aboutme,
 footer {
   margin: 0 auto;
   width: 90%;
@@ -2527,6 +2529,13 @@ footer {
   display: block;
   margin: 0 auto 1.5em;
   width: 90%;
+}
+.flickr,
+.aboutme {
+  padding-top: 1.5em;
+}
+.flickr ul li {
+  margin-bottom: 5px;
 }
 footer {
   font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
@@ -2629,7 +2638,6 @@ footer a:visited {
     width: 90%;
   }
   .center,
-  .listing,
   footer {
     width: 760px;
     margin: 0 auto;
@@ -2647,6 +2655,49 @@ footer a:visited {
     width: 540px;
     margin: 0 5px;
     margin-left: 55px;
+  }
+  .listing,
+  .flickr {
+    display: inline;
+    float: left;
+    width: 740px;
+    margin: 0 5px;
+  }
+  .flickr ul {
+    display: block;
+    width: 760.0000000000001px;
+    margin: 0 -5px;
+    *zoom: 1;
+    *zoom: 1;
+  }
+  .flickr ul:before,
+  .flickr ul:after {
+    display: table;
+    content: "";
+  }
+  .flickr ul:after {
+    clear: both;
+  }
+  .flickr ul:before,
+  .flickr ul:after {
+    content: "";
+    display: table;
+  }
+  .flickr ul:after {
+    clear: both;
+  }
+  .flickr ul li {
+    display: inline;
+    float: left;
+    width: 140px;
+    margin: 0 5px;
+  }
+  .aboutme {
+    display: inline;
+    float: left;
+    width: 390px;
+    margin: 0 5px;
+    margin-right: 355px;
   }
   .credits {
     display: inline;
@@ -2681,7 +2732,6 @@ footer a:visited {
     padding-top: 0.25em;
   }
   .center,
-  .listing,
   footer {
     width: 960px;
     margin: 0 auto;
@@ -2698,6 +2748,50 @@ footer a:visited {
     width: 440.00000000000006px;
     margin: 0 5px;
     margin-left: 55px;
+  }
+  .listing,
+  .flickr {
+    display: inline;
+    float: left;
+    width: 740px;
+    margin: 0 5px;
+    margin-left: 105px;
+  }
+  .flickr ul {
+    display: block;
+    width: 760.0000000000001px;
+    margin: 0 -5px;
+    *zoom: 1;
+    *zoom: 1;
+  }
+  .flickr ul:before,
+  .flickr ul:after {
+    display: table;
+    content: "";
+  }
+  .flickr ul:after {
+    clear: both;
+  }
+  .flickr ul:before,
+  .flickr ul:after {
+    content: "";
+    display: table;
+  }
+  .flickr ul:after {
+    clear: both;
+  }
+  .flickr ul li {
+    display: inline;
+    float: left;
+    width: 140px;
+    margin: 0 5px;
+  }
+  .aboutme {
+    display: inline;
+    float: left;
+    width: 390px;
+    margin: 0 5px;
+    margin-left: 105px;
   }
   [role="complementary"] {
     display: inline;
