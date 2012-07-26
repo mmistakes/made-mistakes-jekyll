@@ -31,6 +31,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <div id="main" role="main" class="clearfix">
     {% for post in site.posts limit:1 %}
+    {% if post.css %}<link rel="stylesheet" href="{{ site.base_url }}/css/custom/{{ post.css }}">{% endif %}
     <header role="banner">
         <img src="{{ site.base_url }}/images/{{ post.image }}" alt="{{ post.title }} article image" />
         <hgroup>
@@ -70,7 +71,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
         <aside class="aboutme">
         	<header>
                 <h2>About Me</h2>
-                <p>Hi. I’m Michael Rose, just another boring, tattooed, time traveling, graphic designer from Buffalo, New York. <a href="#" class="btn btn-mini">Learn more</a></p>
+                <p>Hi. I’m Michael Rose, just another boring, tattooed, time traveling, graphic designer from Buffalo, New York. <a href="{{ site.base_url }}/about.html" class="btn btn-mini">Learn more</a></p>
             </header>
         </aside><!-- /.aboutme -->
     </div><!-- /.center -->
