@@ -195,6 +195,9 @@ body {
   line-height: 1.5em;
   color: #414140;
 }
+.push-right {
+  float: right;
+}
 /* Typography =================================================== */
 h1,
 h2,
