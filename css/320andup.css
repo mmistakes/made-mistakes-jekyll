@@ -177,7 +177,7 @@ body:after {
 }
 /* Page =================================================== */
 html {
-  background: #ebebeb;
+  background: #ebebeb url(../images/body-background.jpg);
   font-size: 62.5%;
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: #f3f3f3;
