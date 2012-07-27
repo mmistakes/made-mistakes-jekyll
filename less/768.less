@@ -13,6 +13,13 @@ body {
 display : table; 
 border-collapse : collapse; }
 // 2. TYPOGRAPHY 			==============================
+ul.leaders li a {
+		.transition(0.2s linear);
+}
+ul.leaders li a:hover {
+	padding-left: 10px;
+	text-decoration: none;
+}
 // 3. COLOUR 				==============================
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
@@ -26,6 +33,9 @@ border-collapse : collapse; }
 		span {
 			padding-top: @baselineheight / 8;
 		}
+	}
+	h3 {
+		.font-size(24);
 	}
 }
 //   NAVIGATION 			==============================

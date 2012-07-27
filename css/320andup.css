@@ -347,15 +347,7 @@ ul.leaders span + span {
   position: relative;
   z-index: 1;
 }
-ul.leaders li a {
-  -webkit-transition: 0.2s linear;
-  -moz-transition: 0.2s linear;
-  -ms-transition: 0.2s linear;
-  -o-transition: 0.2s linear;
-  transition: 0.2s linear;
-}
 ul.leaders li a:hover {
-  padding-left: 10px;
   text-decoration: none;
 }
 blockquote {
@@ -2377,8 +2369,6 @@ table tbody tr:hover th {
 }
 [role="banner"] hgroup {
   bottom: 0;
-  /* height: 130px; */
-
   left: 0;
   position: absolute;
   right: 0;
@@ -2389,7 +2379,7 @@ table tbody tr:hover th {
   text-transform: uppercase;
   white-space: nowrap;
   display: block;
-  padding: 0 0.1875em 0.1875em;
+  padding: 0 0.75em 0.1875em 0.75em;
   margin-bottom: 0;
   color: #ffffff;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
@@ -2415,7 +2405,7 @@ table tbody tr:hover th {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-style: italic;
   display: block;
-  padding-bottom: 0.375em;
+  padding: 0 3em 0.375em 3em;
   margin-bottom: 0;
   color: #ffffff;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
@@ -2429,6 +2419,7 @@ table tbody tr:hover th {
   white-space: nowrap;
   display: block;
   margin-bottom: 0;
+  font-weight: 300;
 }
 [role="banner"] h3 span {
   background-color: #ffffff;
@@ -2436,7 +2427,7 @@ table tbody tr:hover th {
 }
 .header-wrapper {
   background: url(../images/DotGrid2.png);
-  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 /* Navigation =================================================== */
 [role="navigation"] {
@@ -2495,6 +2486,9 @@ table tbody tr:hover th {
   background-color: #343434;
 }
 /* Content =================================================== */
+#main {
+  margin-top: 25px;
+}
 .content,
 .content-wide,
 .listing,
@@ -2528,7 +2522,7 @@ footer {
 [role="contentinfo"] small {
   display: block;
   margin: 0 auto 1.5em;
-  width: 90%;
+  width: 100%;
 }
 .flickr,
 .aboutme {
@@ -2623,12 +2617,27 @@ footer a:visited {
     display: table;
     border-collapse: collapse;
   }
+  ul.leaders li a {
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  ul.leaders li a:hover {
+    padding-left: 10px;
+    text-decoration: none;
+  }
   [role="banner"] hgroup {
     /* height: 230px; */
   
   }
   [role="banner"] h2 span {
     padding-top: 0.1875em;
+  }
+  [role="banner"] h3 {
+    font-size: 24px;
+    font-size: 2.4rem;
   }
   [role="navigation"] {
     display: table-header-group;

@@ -1,10 +1,12 @@
 ---
 layout: article
-title: Going Static
+title: "Going Static with Jekyll"
+headline: "Going Static with Jekyll"
+subheadline: "Saying Goodbye to Wordpress"
 description: "The process of taking Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll, LESS, and The Semantic Grid System."
 date: 2012-03-19
 thumb: going-static-thumb.jpg
-image: going-static-header.png
+image: going-static-header.jpg
 screenshot: going-static-screenshot.jpg
 css: "going-static.css"
 category: articles
@@ -23,58 +25,60 @@ keywords:
 - responsive
 - Made Mistakes
 ---
-<section id="intro">
-	<p>If you follow the trends in modern web design and development, it&rsquo;s hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like <a href="http://www.alistapart.com/"><em>A List Apart</em></a> and <a href="http://www.smashingmagazine.com/"><em>Smashing Magazine</em></a>.</p>
-	<p>Which got me thinking <em>&ldquo;Shit. I don&rsquo;t know anything about these new technologies or techniques, I better learn fast.&rdquo;</em> And the only real way I was going to pickup all this was to create a project for myself. So began the process of evaluating how to build my personal website and how I&rsquo;d like it to function.</p>
-</section>
+<article class="content-wide clearfix">
+	<section id="intro">
+		<p>If you follow the trends in modern web design and development, it&rsquo;s hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like <a href="http://www.alistapart.com/"><em>A List Apart</em></a> and <a href="http://www.smashingmagazine.com/"><em>Smashing Magazine</em></a>.</p>
+		<p>Which got me thinking <em>&ldquo;Shit. I don&rsquo;t know anything about these new technologies or techniques, I better learn fast.&rdquo;</em> And the only real way I was going to pickup all this was to create a project for myself. So began the process of evaluating how to build my personal website and how I&rsquo;d like it to function.</p>
+	</section>
 
-<section id="why">
-	<h2>Why Go Static</h2>
-	<p>For the last ten years I&rsquo;ve used a <abbr title="Content Management System">CMS</abbr> to hold and present personal blogs and portfolios of my design work. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update my Wordpress powered website from an iPhone application. As much as that feature sounds awesome, I never once found myself away from a computer wanting to post something in long form.</p>
-	<p>A common problem facing Wordpress sites are their speed, due to a number of reasons. To be honest I never really had issues with <em>Made Mistakes</em> because it was relatively small and low on the traffic. But worrying about constant upgrades to the core, plugins to combat security hacks. or if I had <a href="http://wordpress.org/extend/plugins/w3-total-cache/">W3 Total Cache</a> configured correctly started to get old fast.</p>
-	<h3>Designers Are Control Freaks</h3>
-	<p>But the real reason that prompted me to look at going back to my web roots was <em>control</em>. Trying to tame content inside of a <abbr>CMS</abbr> filled with loops, functions, and code I didn&rsquo;t need or know how they worked became an exercise in wasting time. And for what? In six months I&rsquo;d abandon a site and cease updating even though I had the tools to update from <em>anywhere</em> and at <em>anytime</em>. Which lead to this conclusion &ndash; I'd much rather build something from the ground up than strip away a bunch of useless bells &amp; whistles I didn't need.</p>
-</section>
+	<section id="why">
+		<h2>Why Go Static</h2>
+		<p>For the last ten years I&rsquo;ve used a <abbr title="Content Management System">CMS</abbr> to hold and present personal blogs and portfolios of my design work. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update my Wordpress powered website from an iPhone application. As much as that feature sounds awesome, I never once found myself away from a computer wanting to post something in long form.</p>
+		<p>A common problem facing Wordpress sites are their speed, due to a number of reasons. To be honest I never really had issues with <em>Made Mistakes</em> because it was relatively small and low on the traffic. But worrying about constant upgrades to the core, plugins to combat security hacks. or if I had <a href="http://wordpress.org/extend/plugins/w3-total-cache/">W3 Total Cache</a> configured correctly started to get old fast.</p>
+		<h3>Designers Are Control Freaks</h3>
+		<p>But the real reason that prompted me to look at going back to my web roots was <em>control</em>. Trying to tame content inside of a <abbr>CMS</abbr> filled with loops, functions, and code I didn&rsquo;t need or know how they worked became an exercise in wasting time. And for what? In six months I&rsquo;d abandon a site and cease updating even though I had the tools to update from <em>anywhere</em> and at <em>anytime</em>. Which lead to this conclusion &ndash; I'd much rather build something from the ground up than strip away a bunch of useless bells &amp; whistles I didn't need.</p>
+	</section>
 
-<section id="journey">
-	<h2>The Journey to a Static Website</h2>
-	<p>And so began the process of building a website/blog/portfolio using static pages that I could control from <code>&lt;p&gt;</code> tag out. But where to start? <em>Do I build a few disconnected pages in a text editor like TextMate and upload via FTP?</em> Or is there a better way using a static-site generator like <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://nanoc.stoneship.org/">nanoc</a>, <a href="http://middlemanapp.com/">Middleman</a>, <a href="http://staticmatic.rubyforge.org/">StaticMatic</a>, <a href="https://github.com/benschwarz/bonsai">Bonsai</a>, <a href="http://subdimension.co.uk/pages/projects.html">subDimension</a>, or <a href="http://octopress.org/">Octopress</a>?</p>
-	<h3>Generating the Site with Jekyll</h3>
-	<p>I eventually settled on Jekyll as my static-site generator of choice &ndash; mostly because I could grasp how to pull and filter data using <a href="http://liquidmarkup.org/">Liquid</a>. The general idea goes something like this:</p>
-	<ol>
-		<li>Create a text file for each page/post written in HTML, Markdown, etc.</li>
-		<li>Add some YAML to top of these files to indicate which layout to use and meta data to include.</li>
-		<li>Run the Jekyll compiler that spits out your website or project.</li>
-		<li>Transfer these files to your web server, and you&rsquo;re done.</li>
-	</ol>
-	<p>Now, there are <a href="http://jekyllbootstrap.com/">more steps to the process</a>. But for the most part it&rsquo;s fairly straight forward after you&rsquo;ve built all the necessary layouts, includes, styles, and plugins. What made this process appealing to me opposed to using Wordpress or another <abbr>CMS</abbr> was total control. I can set how I want my file structure to look like, how my pages are constructed, etc etc etc. Sure it&rsquo;s possible to do all this in a <abbr>CMS</abbr>, but it&rsquo;s not as transparent and obvious.</p>
-	<p>I will say this about using Jekyll. It&rsquo;s not for everyone. I had to get my hands dirty and figure out or research ways of creating sitemaps and <abbr title="Really Simple Syndication">RSS</abbr>/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do the heavy lifting.</p>
-	<p>Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of <abbr>HTML5</abbr> and <abbr>CSS3</abbr>, be able to <em>&ldquo;art direct&rdquo;</em> every page and post easily if I wanted, get nice with <a href="http://lesscss.org/"><abbr>LESS</abbr></a> to create dynamic stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop experiences.</p>
-</section>
+	<section id="journey">
+		<h2>The Journey to a Static Website</h2>
+		<p>And so began the process of building a website/blog/portfolio using static pages that I could control from <code>&lt;p&gt;</code> tag out. But where to start? <em>Do I build a few disconnected pages in a text editor like TextMate and upload via FTP?</em> Or is there a better way using a static-site generator like <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://nanoc.stoneship.org/">nanoc</a>, <a href="http://middlemanapp.com/">Middleman</a>, <a href="http://staticmatic.rubyforge.org/">StaticMatic</a>, <a href="https://github.com/benschwarz/bonsai">Bonsai</a>, <a href="http://subdimension.co.uk/pages/projects.html">subDimension</a>, or <a href="http://octopress.org/">Octopress</a>?</p>
+		<h3>Generating the Site with Jekyll</h3>
+		<p>I eventually settled on Jekyll as my static-site generator of choice &ndash; mostly because I could grasp how to pull and filter data using <a href="http://liquidmarkup.org/">Liquid</a>. The general idea goes something like this:</p>
+		<ol>
+			<li>Create a text file for each page/post written in HTML, Markdown, etc.</li>
+			<li>Add some YAML to top of these files to indicate which layout to use and meta data to include.</li>
+			<li>Run the Jekyll compiler that spits out your website or project.</li>
+			<li>Transfer these files to your web server, and you&rsquo;re done.</li>
+		</ol>
+		<p>Now, there are <a href="http://jekyllbootstrap.com/">more steps to the process</a>. But for the most part it&rsquo;s fairly straight forward after you&rsquo;ve built all the necessary layouts, includes, styles, and plugins. What made this process appealing to me opposed to using Wordpress or another <abbr>CMS</abbr> was total control. I can set how I want my file structure to look like, how my pages are constructed, etc etc etc. Sure it&rsquo;s possible to do all this in a <abbr>CMS</abbr>, but it&rsquo;s not as transparent and obvious.</p>
+		<p>I will say this about using Jekyll. It&rsquo;s not for everyone. I had to get my hands dirty and figure out or research ways of creating sitemaps and <abbr title="Really Simple Syndication">RSS</abbr>/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do the heavy lifting.</p>
+		<p>Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of <abbr>HTML5</abbr> and <abbr>CSS3</abbr>, be able to <em>&ldquo;art direct&rdquo;</em> every page and post easily if I wanted, get nice with <a href="http://lesscss.org/"><abbr>LESS</abbr></a> to create dynamic stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop experiences.</p>
+	</section>
 
-<section id="frameworks">
-	<h2>Inspirational Frameworks</h2>
-	<h3>HTML5 Boilerplate</h3>
-	<p>One of the most beneficial things I did to familiarize myself with the HTML5 spec was download the <a href="http://html5boilerplate.com/"><em>HTML5 Boilerplate</em></a> and reading every line of code. The files contained within are heavily commented and explain what is going on and why. Often with links to the source material to get more context behind a specific technique or approach. When this wasn&rsquo;t enough I&rsquo;d hit up  <a href="http://html5doctor.com/"><em>HTML5 Doctor</em></a> to learn more about the header, article, section, nav, footer, figure tags.</p>
-	<h3>Art Directed Blog Posts are So Passé</h3>
-	<p>Back when I still had a website powered by Wordpress, I toyed with the idea of designing art directed blog posts. Essentially posts that deviated from the blog&rsquo;s theme and became something unique based on the posts content. Think of the editorial design work done in print magazines and you&rsquo;ll get the idea.</p>
-	<p>To achieve this you could install any number of <a href="http://wordpress.org/extend/plugins/art-direction/">art direction Wordpress plugins</a> to include custom <abbr>CSS</abbr> styles into a post&rsquo;s layout overriding the defaults. The process seemed bulky to me in a <abbr>CMS</abbr>, but with static flat files; so much easier to implement the workflow. Using a Liquid <a href="http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless">If statement</a> in my templates I'm able to include custom stylesheets per post or page throughout my entire website. Allowing me to do the simple &ndash; changing the background color of my recent blog post, or the complicated &ndash; modifying the grid, fonts, images, and more of my <a href="{{ site.base_url }}/about.html"><em>About page</em></a>.</p>
-	<h3>LESS Is More</h3>
-	<p>When I first heard about <a href="http://lesscss.org/">LESS</a> and <a href="http://sass-lang.com/about.html">Sass</a> I rejected the idea of a <abbr>CSS</abbr> preprocessor. Feeling like I&rsquo;ve sharpened my <abbr>CSS</abbr> skills to a razor sharp edge, I in no way wanted to add another layer of complexity to my stylesheets. With a second look at LESS I decided it made a lot of sense to at least experiment with and see how I could utilize it in my next project.</p>
-	<p>Bare minimum I figured I could use some global variables for the site&rsquo;s color palette and default typography and maybe a mixin or two. The beauty of LESS is that you don&rsquo;t have to alter your current <abbr>CSS</abbr> files. Just changed the .css extension to .less and you&rsquo;re done. Then use as little or <em>as less</em> of LESS that you want.</p>
-	<p>Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how code should be reused and maintained to keep a nice flow and rhythm throughout. And I didn&rsquo;t even have to worry about using Javascript or a separate app to convert compiled CSS files. I simply installed the <a href=="http://rubygems.org/gems/jekyll-less">Jekyll-less</a> Ruby Gem and any time I deploy my site, the LESS to <abbr>CSS</abbr> conversion is handled automatically.</p>
-	<h3>But What About the Grid System?</h3>
-	<p>Another added benefit of using LESS are the wealth of user created mixins out there. I knew I wanted an easy way to establish a grid system in my layouts, but really didn&rsquo;t want to go the semantically un-friendly route of using classes like <code>.grid_x</code>, <code>.push_x</code>, or <code>col_x</code>. Instead I stumbled upon <a href="http://semantic.gs/">The Semantic Grid System</a> from an article on <a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/">Smashing Magazine</a> describing semantics and grid frameworks.</p>
-	<p>Using The Semantic Grid System allowed me to define fluid grids for each of my site&rsquo;s major page layouts with a few lines of LESS code. Top that off with a few carefully thought out <code>@media</code> queries and my grids were now responsive and flowed well on mobile devices, tablets, desktops, and beyond.</p>
-</section>
+	<section id="frameworks">
+		<h2>Inspirational Frameworks</h2>
+		<h3>HTML5 Boilerplate</h3>
+		<p>One of the most beneficial things I did to familiarize myself with the HTML5 spec was download the <a href="http://html5boilerplate.com/"><em>HTML5 Boilerplate</em></a> and reading every line of code. The files contained within are heavily commented and explain what is going on and why. Often with links to the source material to get more context behind a specific technique or approach. When this wasn&rsquo;t enough I&rsquo;d hit up  <a href="http://html5doctor.com/"><em>HTML5 Doctor</em></a> to learn more about the header, article, section, nav, footer, figure tags.</p>
+		<h3>Art Directed Blog Posts are So Passé</h3>
+		<p>Back when I still had a website powered by Wordpress, I toyed with the idea of designing art directed blog posts. Essentially posts that deviated from the blog&rsquo;s theme and became something unique based on the posts content. Think of the editorial design work done in print magazines and you&rsquo;ll get the idea.</p>
+		<p>To achieve this you could install any number of <a href="http://wordpress.org/extend/plugins/art-direction/">art direction Wordpress plugins</a> to include custom <abbr>CSS</abbr> styles into a post&rsquo;s layout overriding the defaults. The process seemed bulky to me in a <abbr>CMS</abbr>, but with static flat files; so much easier to implement the workflow. Using a Liquid <a href="http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless">If statement</a> in my templates I'm able to include custom stylesheets per post or page throughout my entire website. Allowing me to do the simple &ndash; changing the background color of my recent blog post, or the complicated &ndash; modifying the grid, fonts, images, and more of my <a href="{{ site.base_url }}/about.html"><em>About page</em></a>.</p>
+		<h3>LESS Is More</h3>
+		<p>When I first heard about <a href="http://lesscss.org/">LESS</a> and <a href="http://sass-lang.com/about.html">Sass</a> I rejected the idea of a <abbr>CSS</abbr> preprocessor. Feeling like I&rsquo;ve sharpened my <abbr>CSS</abbr> skills to a razor sharp edge, I in no way wanted to add another layer of complexity to my stylesheets. With a second look at LESS I decided it made a lot of sense to at least experiment with and see how I could utilize it in my next project.</p>
+		<p>Bare minimum I figured I could use some global variables for the site&rsquo;s color palette and default typography and maybe a mixin or two. The beauty of LESS is that you don&rsquo;t have to alter your current <abbr>CSS</abbr> files. Just changed the .css extension to .less and you&rsquo;re done. Then use as little or <em>as less</em> of LESS that you want.</p>
+		<p>Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how code should be reused and maintained to keep a nice flow and rhythm throughout. And I didn&rsquo;t even have to worry about using Javascript or a separate app to convert compiled CSS files. I simply installed the <a href=="http://rubygems.org/gems/jekyll-less">Jekyll-less</a> Ruby Gem and any time I deploy my site, the LESS to <abbr>CSS</abbr> conversion is handled automatically.</p>
+		<h3>But What About the Grid System?</h3>
+		<p>Another added benefit of using LESS are the wealth of user created mixins out there. I knew I wanted an easy way to establish a grid system in my layouts, but really didn&rsquo;t want to go the semantically un-friendly route of using classes like <code>.grid_x</code>, <code>.push_x</code>, or <code>col_x</code>. Instead I stumbled upon <a href="http://semantic.gs/">The Semantic Grid System</a> from an article on <a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/">Smashing Magazine</a> describing semantics and grid frameworks.</p>
+		<p>Using The Semantic Grid System allowed me to define fluid grids for each of my site&rsquo;s major page layouts with a few lines of LESS code. Top that off with a few carefully thought out <code>@media</code> queries and my grids were now responsive and flowed well on mobile devices, tablets, desktops, and beyond.</p>
+	</section>
 
-<section id="left">
-	<h2>What&rsquo;s Left to Do?</h2>
-	<p>So now that I finally got around to migrating my Wordpress website, developed a process for publishing content, redesigned everything from the ground up, tinkered with responsive web design, and learned some new tricks&hellip; what&rsquo;s next? Well for starters, I need to finish cleaning-up and re-publishing around fifty old blog posts. Many of these originated from Tumblr and Wordpress, and when I migrated them over to Jekyll the outputted files were a mess. Plus I&rsquo;d like to design some of these pages to make them  visually interesting.</p>
-	<h3>Portfolio Layout</h3>
-	<p>You might have noticed in the main navigation up top <em>(or maybe you didn&rsquo;t)</em> a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the <a href="{{ site.base_url }}/articles.html">Articles page</a> using a grid of thumbnails to represent each article that I think will work better as a portfolio. Either that or combination of a <a href="http://www.woothemes.com/flexslider/">responsive slider</a> for featured work and smaller thumbnails below for the rest. We&rsquo;ll see&hellip;</p>
-	<h3>Serving Mobile Optimized Images</h3>
-	<p>I think I have a solid handle on how to serve mobile optimized pages using <code>@media</code> queries and page widths. But what I don&rsquo;t have figured out are the images. Sure they scale and look decent at various breakpoints, but I didn&rsquo;t exactly follow the mobile first methodology with them. I started big and scaled down, which means the iPhone and other mobile devices download large images regardless. Something tells me <a href="http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/">cracking this nut</a> is going to be hard.
-	<h3>Version Control this Suckah</h3>
-	<p>With a 1.0 release under my belt, I think now is the time to take a look at starting a repository on GitHub. Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck&rsquo;s Synchronize feature every time I want to publish new content.</p>
-</section>
+	<section id="left">
+		<h2>What&rsquo;s Left to Do?</h2>
+		<p>So now that I finally got around to migrating my Wordpress website, developed a process for publishing content, redesigned everything from the ground up, tinkered with responsive web design, and learned some new tricks&hellip; what&rsquo;s next? Well for starters, I need to finish cleaning-up and re-publishing around fifty old blog posts. Many of these originated from Tumblr and Wordpress, and when I migrated them over to Jekyll the outputted files were a mess. Plus I&rsquo;d like to design some of these pages to make them  visually interesting.</p>
+		<h3>Portfolio Layout</h3>
+		<p>You might have noticed in the main navigation up top <em>(or maybe you didn&rsquo;t)</em> a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the <a href="{{ site.base_url }}/articles.html">Articles page</a> using a grid of thumbnails to represent each article that I think will work better as a portfolio. Either that or combination of a <a href="http://www.woothemes.com/flexslider/">responsive slider</a> for featured work and smaller thumbnails below for the rest. We&rsquo;ll see&hellip;</p>
+		<h3>Serving Mobile Optimized Images</h3>
+		<p>I think I have a solid handle on how to serve mobile optimized pages using <code>@media</code> queries and page widths. But what I don&rsquo;t have figured out are the images. Sure they scale and look decent at various breakpoints, but I didn&rsquo;t exactly follow the mobile first methodology with them. I started big and scaled down, which means the iPhone and other mobile devices download large images regardless. Something tells me <a href="http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/">cracking this nut</a> is going to be hard.
+		<h3>Version Control this Suckah</h3>
+		<p>With a 1.0 release under my belt, I think now is the time to take a look at starting a repository on GitHub. Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck&rsquo;s Synchronize feature every time I want to publish new content.</p>
+	</section>
+</article><!-- /.content -->

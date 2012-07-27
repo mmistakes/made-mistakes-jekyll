@@ -19,7 +19,7 @@
 	}
 	hgroup {
 		bottom: 0;
-		/* height: 130px; */
+		// height: 130px;
 		left: 0;
 		position: absolute;
 		right: 0;
@@ -30,7 +30,7 @@
 		text-transform: uppercase;
 		white-space: nowrap;
 		display: block;
-		padding: 0 @baselineheight / 8 @baselineheight / 8;
+		padding: 0 @baselineheight / 2 @baselineheight / 8 @baselineheight / 2;
 		margin-bottom: 0;
 		color: @white;
 		.text-shadow();
@@ -50,7 +50,7 @@
 		font-family: @altfont;
 		font-style: italic;
 		display: block;
-		padding-bottom: @baselineheight / 4;
+		padding: 0  @baselineheight * 2 @baselineheight / 4 @baselineheight * 2 ;
 		margin-bottom: 0;
 		color: @white;
 		.text-shadow();
@@ -64,6 +64,7 @@
 		white-space: nowrap;
 		display: block;
 		margin-bottom: 0;
+		font-weight: 300;
 		span {
 			background-color: @white;
 			padding: 2px 4px;
@@ -72,7 +73,7 @@
 }
 .header-wrapper {
 	background: url(../images/DotGrid2.png);
-	padding-bottom: @baselineheight;
+	margin-bottom: @baselineheight;
 }
 
 /* Navigation =================================================== */
@@ -123,6 +124,9 @@
 }
 
 /* Content =================================================== */
+#main {
+	margin-top: 25px;
+}
 .content, .content-wide, .listing, .credits, [role="complementary"], .flickr, .aboutme, footer {
 	margin: 0 auto;
 	width: 90%; 
@@ -147,7 +151,7 @@
 	small {
 		display: block;
 		margin: 0 auto @baselineheight;
-		width: 90%; 
+		width: 100%; 
 	}
 }
 .flickr, .aboutme {
