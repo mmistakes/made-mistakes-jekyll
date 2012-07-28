@@ -31,7 +31,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <div id="main" role="main" class="clearfix">
 	<header role="banner">
-        <img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" />
+        {% if page.image %}<img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" />{% else %}<img src="{{ site.base_url }}/images/mademistakes-feature.jpg" alt="{{ page.title }} article image" />{% endif %}
         <hgroup>
             <div class="header-wrapper">
                 <h1 id="responsive-h1"><a href="{{ site.base_url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.headline }}</a></h1>
