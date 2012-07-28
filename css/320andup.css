@@ -2437,7 +2437,6 @@ table tbody tr:hover th {
 [role="navigation"] {
   margin: 0 auto;
   width: 100%;
-  position: fixed;
   top: 0;
   z-index: 80;
   background-color: #000000;
@@ -2466,13 +2465,11 @@ table tbody tr:hover th {
   display: inline-block;
 }
 [role="navigation"] ul {
-  float: right;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 [role="navigation"] ul li {
-  float: left;
   margin: 0;
   padding: 0;
   position: relative;
@@ -2480,6 +2477,7 @@ table tbody tr:hover th {
 [role="navigation"] ul li a {
   padding: 5px 10px;
   display: inline-block;
+  width: 100%;
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   -ms-transition: 0.2s linear;
@@ -2490,9 +2488,6 @@ table tbody tr:hover th {
   background-color: #343434;
 }
 /* Content =================================================== */
-#main {
-  margin-top: 25px;
-}
 .content,
 .content-wide,
 .listing,
@@ -2610,6 +2605,18 @@ footer a:visited {
 }
 @media only screen and (min-width: 600px) {
   /* 600 =================================================== */
+  [role="navigation"] {
+    position: fixed;
+  }
+  [role="navigation"] ul {
+    float: right;
+  }
+  [role="navigation"] ul li {
+    float: left;
+  }
+  [role="navigation"] ul li a {
+    width: auto;
+  }
   [role="banner"] hgroup {
     /* height: 200px; */
   

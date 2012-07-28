@@ -80,7 +80,6 @@
 [role="navigation"] {
 	margin: 0 auto;
 	width: 100%;
-	position: fixed;
 	top: 0;
 	z-index: 80;
 	background-color: @black;
@@ -102,18 +101,17 @@
 		display: inline-block;
 	}
 	ul {
-		float: right;
 		list-style: none;
 		padding: 0;
 		margin: 0;
 		li {
-			float: left;
 			margin: 0;
 			padding: 0;
 			position: relative;
 			a {
 				padding: 5px 10px;
 				display: inline-block;
+				width: 100%;
 				.transition(.2s linear);
 				&:hover {
 					background-color: @basecolor;
@@ -124,9 +122,6 @@
 }
 
 /* Content =================================================== */
-#main {
-	margin-top: 25px;
-}
 .content, .content-wide, .listing, .credits, [role="complementary"], .flickr, .aboutme, footer {
 	margin: 0 auto;
 	width: 90%; 
