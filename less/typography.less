@@ -125,39 +125,22 @@ ol.unstyled {
 }
 
 // dot leaders
-ul.leaders {
-    padding: 0;
-	margin: 0;
-    overflow-x: hidden;
-    list-style: none;
-}
-ul.leaders li:after {
-    float: left;
-    width: 0;
-    white-space: nowrap;
-    content:
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "}
-ul.leaders span:first-child {
-    padding-right: 0.33em;
-    background: @bodycolor;
-}
 ul.leaders span + span {
-    float: right;
-    padding-left: 0.33em;
-    background: @bodycolor;
-    position: relative;
-    z-index: 1;
+	display: none;
 }
-ul.leaders li a:hover {
-	text-decoration: none;
+ul.leaders {
+    list-style: none;
+    li {
+    	a {
+    		padding: 1em 0;
+    		display: block;
+    		border-top: 1px solid @bordercolor;
+    		border-bottom: 1px solid @white;
+    	}
+    }
 }
 
+// add underline for article links
 article p > a,
 article li > a {
 	text-decoration: underline;
