@@ -12,15 +12,15 @@
   $("#responsive-h2").fitText(3, { minFontSize: '16px', maxFontSize: '30px' });
   <!-- FancyBox options -->
   $(document).ready(function() {
-    $(".fancybox").fancybox({
+    $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
       openEffect  : 'elastic',
       closeEffect : 'elastic',
       helpers : {
         title : {
           type : 'inside'
-          }
         }
-      });
+      }
+    });
   });
 </script>
 <!-- MBP - Mobile boilerplate helper functions -->
