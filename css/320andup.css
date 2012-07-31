@@ -2366,6 +2366,8 @@ table tbody tr:hover th {
   position: absolute;
   right: 0;
   width: 100%;
+  background: url(../images/DotGrid2.png);
+  margin-bottom: 1.5em;
 }
 [role="banner"] h1 {
   text-align: center;
@@ -2417,10 +2419,6 @@ table tbody tr:hover th {
 [role="banner"] h3 span {
   background-color: #ffffff;
   padding: 2px 4px;
-}
-.header-wrapper {
-  background: url(../images/DotGrid2.png);
-  margin-bottom: 1.5em;
 }
 /* Navigation =================================================== */
 [role="navigation"] {
@@ -2588,10 +2586,6 @@ footer a:visited {
 }
 @media only screen and (min-width: 480px) {
   /* 480 =================================================== */
-  [role="banner"] hgroup {
-    /* height: 170px; */
-  
-  }
 }
 @media only screen and (min-width: 600px) {
   /* 600 =================================================== */
@@ -2631,10 +2625,6 @@ footer a:visited {
   [role="navigation"] {
     position: fixed;
   }
-  [role="banner"] hgroup {
-    /* height: 200px; */
-  
-  }
   #flickr-images {
     margin-bottom: 1.5em;
   }
@@ -2655,10 +2645,6 @@ footer a:visited {
   ul.leaders li a:hover {
     padding-left: 10px;
     text-decoration: none;
-  }
-  [role="banner"] hgroup {
-    /* height: 230px; */
-  
   }
   [role="banner"] h2 span {
     padding-top: 0.1875em;
@@ -2761,10 +2747,6 @@ footer a:visited {
 }
 @media only screen and (min-width: 992px) {
   /* 992 =================================================== */
-  [role="banner"] hgroup {
-    /* height: 275px; */
-  
-  }
   [role="banner"] h2 span {
     padding-top: 0.25em;
   }
@@ -2842,10 +2824,6 @@ footer a:visited {
   /* 1382 =================================================== */
   body {
     max-width: 1440px;
-  }
-  [role="banner"] hgroup {
-    /* height: 290px; */
-  
   }
   [role="banner"] h2 span {
     padding-top: 0.25em;

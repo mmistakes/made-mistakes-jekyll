@@ -35,11 +35,9 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     <header role="banner">
         <img src="{{ site.base_url }}/images/{{ post.image }}" alt="{{ post.title }} article image" />
         <hgroup>
-            <div class="header-wrapper">
-                <h3 id="responsive-h3"><span>Latest Article</span></h3>
-                <h1 id="responsive-h1"><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
-                <h2 id="responsive-h2" class="hidden-phone"><span>{{ post.subheadline }}</span></h2>
-            </div><!-- /.header-wrapper -->
+            <h3 id="responsive-h3"><span>Latest Article</span></h3>
+            <h1 id="responsive-h1"><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
+            <h2 id="responsive-h2" class="hidden-phone"><span>{{ post.subheadline }}</span></h2>
         </hgroup>
     </header>
     {% endfor %}
@@ -55,7 +53,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 				{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 				{% if year != nyear %}
 				{% endif %}
-                <li><span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></span><span><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span></li>
+                <li><span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></span><span><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span></li>
                 {% endfor %}
             </ul>
         </article><!-- /.listing -->
