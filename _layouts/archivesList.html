@@ -53,7 +53,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 				{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 				{% if year != nyear %}
 				{% endif %}
-                <li><span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></span><span><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span></li>
+                <li><span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></span><span><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></span></li>
                 {% endfor %}
             </ul>
         </article><!-- /.listing -->
