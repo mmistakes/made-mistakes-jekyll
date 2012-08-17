@@ -8,7 +8,6 @@ date: 2012-03-19
 thumb: going-static-thumb.jpg
 image: going-static-header.jpg
 screenshot: going-static-screenshot.jpg
-css: "going-static.css"
 category: articles
 keywords: 
 - static
@@ -65,7 +64,7 @@ keywords:
 		<h3>LESS Is More</h3>
 		<p>When I first heard about <a href="http://lesscss.org/">LESS</a> and <a href="http://sass-lang.com/about.html">Sass</a> I rejected the idea of a <abbr>CSS</abbr> preprocessor. Feeling like I&rsquo;ve sharpened my <abbr>CSS</abbr> skills to a razor sharp edge, I in no way wanted to add another layer of complexity to my stylesheets. With a second look at LESS I decided it made a lot of sense to at least experiment with and see how I could utilize it in my next project.</p>
 		<p>Bare minimum I figured I could use some global variables for the site&rsquo;s color palette and default typography and maybe a mixin or two. The beauty of LESS is that you don&rsquo;t have to alter your current <abbr>CSS</abbr> files. Just changed the .css extension to .less and you&rsquo;re done. Then use as little or <em>as less</em> of LESS that you want.</p>
-		<p>Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how code should be reused and maintained to keep a nice flow and rhythm throughout. And I didn&rsquo;t even have to worry about using Javascript or a separate app to convert compiled CSS files. I simply installed the <a href=="http://rubygems.org/gems/jekyll-less">Jekyll-less</a> Ruby Gem and any time I deploy my site, the LESS to <abbr>CSS</abbr> conversion is handled automatically.</p>
+		<p>Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how code should be reused and maintained to keep a nice flow and rhythm throughout. And I didn&rsquo;t even have to worry about using Javascript or a separate app to convert compiled CSS files. I simply installed the <a href="http://rubygems.org/gems/jekyll-less">Jekyll-less</a> Ruby Gem and any time I deploy my site, the LESS to <abbr>CSS</abbr> conversion is handled automatically.</p>
 		<h3>But What About the Grid System?</h3>
 		<p>Another added benefit of using LESS are the wealth of user created mixins out there. I knew I wanted an easy way to establish a grid system in my layouts, but really didn&rsquo;t want to go the semantically un-friendly route of using classes like <code>.grid_x</code>, <code>.push_x</code>, or <code>col_x</code>. Instead I stumbled upon <a href="http://semantic.gs/">The Semantic Grid System</a> from an article on <a href="http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/">Smashing Magazine</a> describing semantics and grid frameworks.</p>
 		<p>Using The Semantic Grid System allowed me to define fluid grids for each of my site&rsquo;s major page layouts with a few lines of LESS code. Top that off with a few carefully thought out <code>@media</code> queries and my grids were now responsive and flowed well on mobile devices, tablets, desktops, and beyond.</p>
