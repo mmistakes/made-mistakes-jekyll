@@ -1759,6 +1759,7 @@ figure figcaption {
 }
 .es-carousel ul {
   display: none;
+  list-style: none;
 }
 .es-carousel ul li {
   height: 100%;
