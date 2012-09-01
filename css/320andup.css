@@ -1742,6 +1742,60 @@ figure figcaption {
   background: #000;
   background: rgba(0, 0, 0, 0.8);
 }
+/* Elastislide Style */
+.es-carousel-wrapper {
+  margin-bottom: 2.25em;
+  background: #000000;
+  padding: 10px 37px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  clear: both;
+}
+.es-carousel {
+  overflow: hidden;
+  background: #000000;
+}
+.es-carousel ul {
+  display: none;
+}
+.es-carousel ul li {
+  height: 100%;
+  float: left;
+  display: lock;
+}
+.es-carousel ul li a {
+  display: block;
+  border-style: solid;
+  border-color: #404040;
+}
+.es-carousel ul li a img {
+  display: block;
+  border: none;
+  max-height: 100%;
+  max-width: 100%;
+}
+.es-nav span {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  background: transparent url(../images/nav.png) no-repeat top left;
+  width: 14px;
+  height: 26px;
+  margin-top: -13px;
+  text-indent: -9000px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.es-nav span.es-nav-next {
+  right: 12px;
+  left: auto;
+  background-position: top right;
+}
+.es-nav span:hover {
+  opacity: 1.0;
+}
 /* Forms =================================================== */
 form {
   margin: 0 0 1.5em 0;
