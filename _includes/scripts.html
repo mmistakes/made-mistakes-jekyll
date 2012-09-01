@@ -5,11 +5,21 @@
 <link href="http://fonts.googleapis.com/css?family=Magra:700,400" rel="stylesheet" type="text/css">
 <!-- FitText -->
 <script src="{{ site.base_url }}/js/jquery.fittext.js"></script>
+<!-- Elastislide -->
+<script type="text/javascript" src="{{ site.base_url }}/js/jquery.elastislide.min.js"></script>
+<!-- Fancybox -->
 <script type="text/javascript" src="{{ site.base_url }}/js/jquery.fancybox.min.js?v=2.0.6"></script>
 <script type="text/javascript">
   <!-- FitText options -->
   $("#responsive-h1").fitText(1.2, { maxFontSize: '90px' });
   $("#responsive-h2").fitText(3, { minFontSize: '16px', maxFontSize: '30px' });
+  <!-- Elastislide options -->
+  $('#carousel').elastislide({
+    imageW: 150,
+    onClick : function( $item ) {
+    return true;
+    }
+  });
   <!-- FancyBox options -->
   $(document).ready(function() {
     $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
@@ -23,6 +33,7 @@
     });
   });
 </script>
+
 <!-- MBP - Mobile boilerplate helper functions -->
 <script src="{{ site.base_url }}/js/helper.js"></script>
 <!-- Asynchronous Google Analytics snippet.
