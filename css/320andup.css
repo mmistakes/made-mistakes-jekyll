@@ -1769,7 +1769,10 @@ figure figcaption {
 .es-carousel ul li a {
   display: block;
   border-style: solid;
-  border-color: #404040;
+  border-color: #343434;
+}
+.es-carousel ul li a:hover {
+  border-color: #ffffff;
 }
 .es-carousel ul li a img {
   display: block;
