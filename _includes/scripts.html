@@ -1,13 +1,41 @@
-<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ site.base_url }}/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-<!-- FitVid -->
-<script src="{{ site.base_url }}/js/libs/jquery.fitvids.js"></script>
-<script>
-  $(document).ready(function(){
-    $("#main").fitVids();
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ site.base_url }}/js/jquery-1.7.2.min.js"><\/script>')</script>
+<!-- Google Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Magra:700,400" rel="stylesheet" type="text/css">
+<!-- FitText -->
+<script src="{{ site.base_url }}/js/jquery.fittext.js"></script>
+<!-- Elastislide -->
+<script type="text/javascript" src="{{ site.base_url }}/js/jquery.elastislide.min.js"></script>
+<!-- Fancybox -->
+<script type="text/javascript" src="{{ site.base_url }}/js/jquery.fancybox.min.js?v=2.0.6"></script>
+<script type="text/javascript">
+  <!-- FitText options -->
+  $("#responsive-h1").fitText(1.2, { maxFontSize: '90px' });
+  $("#responsive-h2").fitText(3, { minFontSize: '16px', maxFontSize: '30px' });
+  <!-- Elastislide options -->
+  $('#carousel').elastislide({
+    imageW: 150,
+    onClick : function( $item ) {
+    return true;
+    }
+  });
+  <!-- FancyBox options -->
+  $(document).ready(function() {
+    $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
+      openEffect  : 'elastic',
+      closeEffect : 'elastic',
+      helpers : {
+        title : {
+          type : 'inside'
+        }
+      }
+    });
   });
 </script>
+
+<!-- MBP - Mobile boilerplate helper functions -->
+<script src="{{ site.base_url }}/js/helper.js"></script>
 <!-- Asynchronous Google Analytics snippet.
      mathiasbynens.be/notes/async-analytics-snippet -->
 <script>

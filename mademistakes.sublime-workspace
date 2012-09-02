@@ -3,15 +3,30 @@
 	{
 		"selected_items":
 		[
+			[
+				"base",
+				"baseLineHeight"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_posts/2012-04-04-romance-egg-engagement.html",
+			"file": "_layouts/article.html",
 			"settings":
 			{
-				"buffer_size": 2186,
+				"buffer_size": 3553,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "---\nlayout: article\ntitle: \"Blinded By The Light &ndash; Sunshine Movie Impressions\"\nheadline: \"Blinded By The Light\"\nsubheadline: \"Impressions of Danny Boyle&rsquo;s Sunshine\"\ndescription: \"The film Sunshine directed by Danny Boyle is science fiction without the big bang.\"\ndate: 2007-07-28\ncategory: articles\nimage: sunshine.jpg\nthumb: sunshine-340x340.jpg\nkeywords: \n- Sunshine\n- science\n- fiction\n- scifi\n- movie\n- review\n- Danny Boyle\n---\n<article class=\"content-wide clearfix\">\n	<p>Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle&rsquo;s new film <a title=\"Sunshine official movie website\" href=\"http://www.sunshinedna.com/\"><strong>Sunshine</strong></a>, when I saw a trailer before <strong>Sicko</strong> a month or so ago. I couldn&rsquo;t tell you any of the actors&rsquo; names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the <em>Human Torch</em> in Fantastic Four &amp; <strong>Rise of the Silver Surfer</strong>).</p>\n	<p><strong>Armageddon</strong>, <strong>Deep Impact</strong>, <strong>The Core</strong>&hellip; yeah this film is nothing like that garbage. Things start off in space where we are quickly brought up to speed on Earth&rsquo;s dire condition through some brief narration. About 50 years in the future, 8 scientists are taking a nuke to the Sun in hopes of reigniting it and saving the entire population from certain doom.</p>\n	<p>We learn that they are the second group to attempt this mission after <em>Icarus I</em> lost contact about six and a half years ago. Before passing into the dead zone they compose their final video messages to send back to their family on Earth since communication will be cut from here on in. Cillian&rsquo;s character is the only scientist we see recording his message.</p>\n	<p>Shit hits the fan after Icarus II picks up a distress beacon from the missing Icarus I. The eight decide to change course and intercept Icarus I &ndash; which always means disaster in these flicks. The idea of igniting a dying star with a nuclear warhead being hypothetical and all &ndash; regaining control of Icarus I means two tries. Makes sense to me&hellip;</p>\n	<p>Somewhere along the third act this film takes a right turn into a different kind of film. I won&rsquo;t ruin anything for you, but it&rsquo;s nothing crazy like blood thirsty aliens showing up. It&rsquo;s very plausible and works well with the rest of the film up to that point.</p>\n	<p><strong>Sunshine</strong> never tries to insult your intelligence with over simplified scientific babble a 5 year old could understand. In fact there really is little explanation about what is going on or what they are doing. Instead it focuses on philosophical themes and how expendable life is in the greater scheme of things.</p>\n	<p>If you&rsquo;re looking for a big budget science fiction action adventure skip this one. You'll think the story moves along too slowly and not enough shit blows up. If you enjoy your sci-fi cut from the indie vein or dug <a title=\"Primer (2004)\" href=\"http://imdb.com/title/tt0390384/\"><strong>Primer&rsquo;s</strong></a> realistic explanation of time travel, then you can’t go wrong. B+</p>\n</article><!-- /.content-wide -->",
+			"file": "_posts/2007-07-28-sunshine-movie-impressions.html",
+			"file_size": 3251,
+			"file_write_time": 1343433400000000,
+			"settings":
+			{
+				"buffer_size": 3249,
 				"line_ending": "Unix"
 			}
 		}
@@ -40,17 +55,66 @@
 	},
 	"file_history":
 	[
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2007-11-17-upgrade-imac-g5-osx-leopard.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2007-12-12-rriiccee-show-last-night-soundlab.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2008-04-06-using-rasterbator.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2009-03-29-birds-bird-cage-tattoos.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2010-06-25-iphone4-impressions.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-25-record-art-review-agna-moraines-autobiography-7-inch.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-21-collecting-records-artwork.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/scripts.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-04-makings-mistake.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-19-record-art-review-corn-on-macabre-7-inch.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/typography.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/home.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/page.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/about.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/archivesList.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/site.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/variables.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/768.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-08-urban-outfitters-typography-goof.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2012-04-04-romance-egg-engagement.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/article.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/custom/romance-egg-engagement.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2012-03-19-going-static.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/page.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/terms.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/footer.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/404.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/992.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/nav.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_site/less/site.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_site/less/variables.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_config.yml",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/archivesThumb.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/head.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/navbar.html",
+		"/Users/michael/Dropbox/Sites/320andup Prototype/js/script.js",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/240.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/base.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/css/going-static.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/css/style.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-10-free-aboutme-business-cards.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/.gitignore",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/720.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/variables.less",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/minify.rb",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/css/zocial.css",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-12-typography-urban-outfitters.html",
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2008-07-18-display-problems-imac-g5.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/.htaccess"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/michael/Dropbox/Sites/mademistakes.com/less"
 		]
 	},
 	"find_state":
@@ -58,6 +122,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"em",
+			"img-right",
+			"article nav a.circleNext",
+			"#listing #"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -65,6 +133,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"strong"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -75,31 +144,60 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2012-04-04-romance-egg-engagement.html",
+					"file": "_layouts/article.html",
 					"settings":
 					{
-						"buffer_size": 2186,
+						"buffer_size": 3553,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								765,
-								765
+								1322,
+								1322
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 498.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2007-07-28-sunshine-movie-impressions.html",
+					"settings":
+					{
+						"buffer_size": 3249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 201.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -113,7 +211,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -140,7 +238,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -163,6 +261,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 253.0,
+	"side_bar_width": 409.0,
 	"status_bar_visible": true
 }

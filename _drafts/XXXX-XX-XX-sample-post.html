@@ -1,18 +1,33 @@
 ---
 layout: article
-title: 
-description: ""
-date: 2012-04-04
-image: 
-css: ""
+title: "Article Title Goes Here"
+headline: "Headline Goes Here"
+subheadline: "Subheadline Goes Here"
+description: "A short description of the article."
+date: YYYY-MM-DD
+image: large-marque-image-name.jpg
+thumb: square-thumbnail-image.jpg
+screenshot: screenshot-of-custom-designed-article-for-feed.jpg
 category: articles
 keywords: 
-- engagement
-- proposal
-- romantic
-- Easter
-- egg hunt
-- ring
-- diamond
-- anniversary
+- keyword1
+- keyword2
+- keyword3
 ---
+<article class="content-wide clearfix">
+	<section id="intro">
+		<p>Intro text goes here.</p>
+	</section>
+	<section>
+		<p>Main content here.</p>
+		<figure><img src="{{ site.base_url }}/images/image-name.jpg" alt="Image description for screen readers" />
+			<figcaption>Image caption</figcaption>
+		</figure>
+	</section>
+</article><!-- /.content-wide -->
+<aside role="complementary">
+	<figure>
+		<a href="{{ site.base_url }}/images/image-name.jpg" title="Title goes here"><img src="{{ site.base_url }}/images/COM-record-sleeve-typography-300.jpg" alt="Image description goes here" /></a>
+		<figcaption>Image caption goes here</figcaption>
+	</figure>
+</aside>

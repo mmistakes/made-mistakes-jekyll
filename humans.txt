@@ -1,9 +1,39 @@
-/* ABOUT */
-  Graphic Designer: Michael Rose
-  Site: mademistakes.com
-  Twitter: @mmistakes
-  Location: Tonawanda, New York USA
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+   Designer: 	Michael Rose
+   Twitter: 	@mmistakes
+   Location: 	Tonawanda, New York USA
 
 /* SITE */
-  Components: Jekyll, LESS, HTML5 Boilerplate, Modernizr, Semantic.gs
-  Software: Adobe Photoshop, Adobe Illustrator, TextMate, Cyberduck, MAMP
+
+   Language: 	English
+   Standards: 	HTML5, CSS3
+   Built With: 	Jekyll <http://jekyllrb.com/>
+   				320andUp <http://stuffandnonsense.co.uk/projects/320andup/>
+				LESS <http://lesscss.org/>
+				jQuery <http://jquery.com/>
+				The Semantic Grid System <http://semantic.gs/>
+				FitText <http://fittextjs.com/>
+				Fancybox <http://fancyapps.com/fancybox/>
+   Software: 	Adobe Creative Suite
+   				Sublime Text 2
+				SimpLESS
+				Gitbox
+				Cyberduck
+				MAMP
+				Multi-Browser Viewer
+   Fonts:		Magra <http://www.google.com/webfonts/specimen/Magra>
+   				Yanone Kaffeesatz <http://www.google.com/webfonts/specimen/Yanone+Kaffeesatz>
+				Font Awesome <http://fortawesome.github.com/Font-Awesome/>
+				Garamond
+
+/* THANKS */
+
+   HTML5 Boilerplate <http://html5boilerplate.com/>
+   Twitter Bootstrap <http://twitter.github.com/bootstrap/>
+   Modernizr <http://modernizr.com/>
+   Frameless Grid <http://framelessgrid.com/>
+   
