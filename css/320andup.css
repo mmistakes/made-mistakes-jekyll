@@ -341,7 +341,13 @@ ul.leaders li a:hover {
 }
 article p > a,
 article li > a {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px dotted #b3b3b3;
+}
+article p > a:hover,
+article li > a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #343434;
 }
 blockquote {
   margin: 0 0 1.5em -20px;
