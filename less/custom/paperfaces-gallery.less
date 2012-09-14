@@ -29,17 +29,20 @@ hr {
 	height: 100%;
 }
 .pe-thumbs li{
-	float:left;
+	float: left;
 	position: relative;
 }
 .pe-thumbs li a,
-.pe-thumbs li a img{
+.pe-thumbs li a img {
 	display: block;
 	position: relative;
 }
-.pe-thumbs li a img{
+.pe-thumbs li a img {
 	width: 75px;
 	opacity: 0.6;
+}
+.no-canvas .pe-thumbs li a img {
+	width: inherit;
 }
 .pe-thumbs li a div.pe-description{
 	width: 200px;
@@ -67,7 +70,6 @@ hr {
 		width: 450px;
 	}
 }
-
 // 600px
 @media only screen and (min-width: 600px) {
 	[role="banner"] {
@@ -77,7 +79,6 @@ hr {
 		width: 600px;
 	}
 }
-
 // 768px
 @media only screen and (min-width: 768px) {
 	[role="banner"] {
@@ -87,7 +88,6 @@ hr {
 		width: 750px;
 	}
 }
-
 // 992px
 @media only screen and (min-width: 992px) {
 	[role="banner"] {
