@@ -3,7 +3,7 @@ layout: article
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "#PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
-description: "#PaperFaces Project. Daily iPad Portraits with Paper by FiftyThree and a stylus."
+description: "#PaperFaces Project. Personal project to draw a portrait a day with an iPad, Paper by FiftyThree and a stylus."
 date: 2012-08-31
 image: paperfaces-featured-image-lg.jpg
 thumb: paperfaces-project-thumb.jpg
@@ -34,16 +34,16 @@ keywords:
 <div id="carousel" class="es-carousel-wrapper">
 	<div class="es-carousel">
 		<ul>
-			<li><a href="{{ site.base_url }}/images/paperfaces-CatDrawingGuy-twitter-lg.jpg" title="@CatDrawingGuy on Twitter"><img src="{{ site.base_url }}/images/paperfaces-CatDrawingGuy-twitter-150.jpg" alt="@CatDrawingGuy #PaperFaces portrait" /></a></li>
+			<li><a href="{{ site.base_url }}/images/paperfaces-mjchamplin-twitter-lg.jpg" title="@mjchamplin on Twitter"><img src="{{ site.base_url }}/images/paperfaces-mjchamplin-twitter-150.jpg" alt="@mjchamplin #PaperFaces portrait" /></a></li>
+            <li><a href="{{ site.base_url }}/images/paperfaces-eggsteff-twitter-lg.jpg" title="@EggSteff on Twitter"><img src="{{ site.base_url }}/images/paperfaces-eggsteff-twitter-150.jpg" alt="@EggSteff #PaperFaces portrait" /></a></li>
+            <li><a href="{{ site.base_url }}/images/paperfaces-zinfiend-twitter-lg.jpg" title="@zinfiend on Twitter"><img src="{{ site.base_url }}/images/paperfaces-zinfiend-twitter-150.jpg" alt="@zinfiend #PaperFaces portrait" /></a></li>
+            <li><a href="{{ site.base_url }}/images/paperfaces-jakesutton-twitter-lg.jpg" title="@jakesutton on Twitter"><img src="{{ site.base_url }}/images/paperfaces-jakesutton-twitter-150.jpg" alt="@jakesutton #PaperFaces portrait" /></a></li>
+            <li><a href="{{ site.base_url }}/images/paperfaces-CatDrawingGuy-twitter-lg.jpg" title="@CatDrawingGuy on Twitter"><img src="{{ site.base_url }}/images/paperfaces-CatDrawingGuy-twitter-150.jpg" alt="@CatDrawingGuy #PaperFaces portrait" /></a></li>
 			<li><a href="{{ site.base_url }}/images/paperfaces-TonjaC-twitter-lg.jpg" title="@TonjaC on Twitter"><img src="{{ site.base_url }}/images/paperfaces-TonjaC-twitter-150.jpg" alt="@TonjaC #PaperFaces portrait" /></a></li>
 			<li><a href="{{ site.base_url }}/images/paperfaces-kristysf-twitter-lg.jpg" title="@kristysf on Twitter"><img src="{{ site.base_url }}/images/paperfaces-kristysf-twitter-150.jpg" alt="@kristysf #PaperFaces portrait" /></a></li>
 			<li><a href="{{ site.base_url }}/images/paperfaces-uwenna-twitter-lg.jpg" title="@uwenna on Twitter"><img src="{{ site.base_url }}/images/paperfaces-uwenna-twitter-150.jpg" alt="@uwenna #PaperFaces portrait" /></a></li>
 			<li><a href="{{ site.base_url }}/images/paperfaces-markgurman-twitter-lg.jpg" title="@markgurman on Twitter"><img src="{{ site.base_url }}/images/paperfaces-markgurman-twitter-150.jpg" alt="@markgurman #PaperFaces portrait" /></a></li>
 			<li><a href="{{ site.base_url }}/images/paperfaces-bradleyjp-twitter-lg.jpg" title="@bradleyjp on Twitter"><img src="{{ site.base_url }}/images/paperfaces-bradleyjp-twitter-150.jpg" alt="@bradleyjp #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-natalyokay-twitter-lg.jpg" title="@natalyokay on Twitter"><img src="{{ site.base_url }}/images/paperfaces-natalyokay-twitter-150.jpg" alt="@natalyokay #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-tedwinder-twitter-lg.jpg" title="@tedwinder on Twitter"><img src="{{ site.base_url }}/images/paperfaces-tedwinder-twitter-150.jpg" alt="@tedwinder #PaperFaces portrait" /></a></li>
-            <li><a href="{{ site.base_url }}/images/paperfaces-kevinwoodland-twitter-lg.jpg" title="@kevinwoodland on Twitter"><img src="{{ site.base_url }}/images/paperfaces-kevinwoodland-twitter-150.jpg" alt="@kevinwoodland #PaperFaces portrait" /></a></li>
-            <li><a href="{{ site.base_url }}/images/paperfaces-khollybell-twitter-lg.jpg" title="@khollybell on Twitter"><img src="{{ site.base_url }}/images/paperfaces-khollybell-twitter-150.jpg" alt="@khollybell #PaperFaces portrait" /></a></li>
             <li><a href="{{ site.base_url }}/articles/paperfaces-portrait-gallery.html" title="#PaperFaces Portrait Gallery"><img src="{{ site.base_url }}/images/see-more-circle-150.png" all="See more #PaperFaces portraits" border="0" /></a></li>
 		</ul>
 	</div><!-- /.es-carousel -->
@@ -67,7 +67,7 @@ keywords:
         <form class="well" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="XAVAR6MGZGVLY">
-			<select name="os0">
+			<select name="os0" onFocus=”_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'donation options']);”>
 				<option value="Buy me a fancy cup of tea">Buy me a fancy cup of tea $5.00 USD</option>
 				<option value="Buy me some hot wings">Buy me some hot wings $10.00 USD</option>
 				<option value="Buy a pack of diapers for my twins">Buy a pack of diapers for my twins $20.00 USD</option>
@@ -75,9 +75,9 @@ keywords:
 			</select>
 			<input type="hidden" name="on1" value="Twitter username">
 			<label>Twitter username</label>
-			<input type="text" name="os1" maxlength="200">
+			<input type="text" name="os1" maxlength="200" onFocus=”_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'Twitter username']);”>
 			<input type="hidden" name="currency_code" value="USD">
-			<input type="image" src="{{ site.base_url }}/images/buy-now-paypal-btn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="background:transparent;">
+			<input type="image" src="{{ site.base_url }}/images/buy-now-paypal-btn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="background:transparent;" onSubmit="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			<span class="help-inline">Please note. This is for a digital version of the drawing only. You will not receive a print snail mailed to you.</span>
 		</form>
