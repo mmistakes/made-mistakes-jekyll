@@ -27,4 +27,4 @@ layout: nil
 	<![CDATA[<p><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a> was originally published by <a href="href="{{ site.base_url }}/about.html">Michael Rose</a> at <a href="{{ site.base_url }}">Made Mistakes</a> on {{ post.date | date: "%B %d, %Y" }}.</p>]]></content>
 </entry>
 {% endfor %}
-s</feed>
+</feed>
