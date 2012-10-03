@@ -3,7 +3,7 @@ layout: article
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "#PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by 53"
-description: "#PaperFaces Project. iPad portrait art by Michael Rose, using Paper by FiftyThree and a AluPen stylus."
+description: "PaperFaces is a new project by graphic designer Michael Rose. Each day he draws portraits using an iPad, the Paper by FiftyThree iOS app, and an AluPen stylus."
 date: 2012-08-31
 image: paperfaces-featured-image-lg.jpg
 thumb: paperfaces-project-thumb.jpg
@@ -25,6 +25,51 @@ keywords:
 - FiftyThree
 - Michael Rose
 - Mike Rose
+pictures:
+  - large: paperfaces-brohatch-twitter-lg.jpg
+    thumb: paperfaces-brohatch-twitter-150.jpg
+    title: @Brohatch on Twitter
+    alt: @Brohatch #PaperFaces portrait
+  - large: paperfaces-cranekicker-twitter-lg.jpg
+    thumb: paperfaces-cranekicker-twitter-150.jpg
+    title: @cranekicker on Twitter
+    alt: @cranekicker #PaperFaces portrait
+  - large: paperfaces-bi11jon-twitter-lg.jpg
+    thumb: paperfaces-bi11jon-twitter-150.jpg
+    title: @bi11jon on Twitter
+    alt: @bi11jon #PaperFaces portrait
+  - large: paperfaces-eliglazier-twitter-lg.jpg
+    thumb: paperfaces-eliglazier-twitter-150.jpg
+    title: @eliglazier on Twitter
+    alt: @eliglazier #PaperFaces portrait
+  - large: paperfaces-marianeville-84-twitter-lg.jpg
+    thumb: paperfaces-marianeville-84-twitter-150.jpg
+    title: @marianeville_84 on Twitter
+    alt: @marianeville_84 #PaperFaces portrait
+  - large: paperfaces-joshuaskaroff-twitter-lg.jpg
+    thumb: paperfaces-joshuaskaroff-twitter-150.jpg
+    title: @joshuaskaroff on Twitter
+    alt: @joshuaskaroff #PaperFaces portrait
+  - large: paperfaces-arbitral-twitter-lg.jpg
+    thumb: paperfaces-arbitral-twitter-150.jpg
+    title: @arbitral on Twitter
+    alt: @arbitral #PaperFaces portrait
+  - large: paperfaces-flexbrowne-twitter-lg.jpg
+    thumb: paperfaces-flexbrowne-twitter-150.jpg
+    title: @flexbrowne on Twitter
+    alt: @flexbrowne #PaperFaces portrait
+  - large: paperfaces-guylschmidt-twitter-lg.jpg
+    thumb: paperfaces-guylschmidt-twitter-150.jpg
+    title: @guylschmidt on Twitter
+    alt: @guylschmidt #PaperFaces portrait
+  - large: paperfaces-kessler-twitter-lg.jpg
+    thumb: paperfaces-kessler-twitter-150.jpg
+    title: @kessler on Twitter
+    alt: @kessler #PaperFaces portrait
+  - large: paperfaces-4lala-twitter-lg.jpg
+    thumb: paperfaces-4lala-twitter-150.jpg
+    title: @4lala on Twitter
+    alt: @4lala #PaperFaces portrait
 ---
 <noscript>
 	<style>
@@ -36,16 +81,9 @@ keywords:
 <div id="carousel" class="es-carousel-wrapper">
 	<div class="es-carousel">
 		<ul>
-			<li><a href="{{ site.base_url }}/images/paperfaces-eliglazier-twitter-lg.jpg" title="@eliglazier on Twitter"><img src="{{ site.base_url }}/images/paperfaces-eliglazier-twitter-150.jpg" alt="@eliglazier #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-marianeville-84-twitter-lg.jpg" title="@marianeville_84 on Twitter"><img src="{{ site.base_url }}/images/paperfaces-marianeville-84-twitter-150.jpg" alt="@marianeville_84 #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-joshuaskaroff-twitter-lg.jpg" title="@joshuaskaroff on Twitter"><img src="{{ site.base_url }}/images/paperfaces-joshuaskaroff-twitter-150.jpg" alt="@joshuaskaroff #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-arbitral-twitter-lg.jpg" title="@arbitral on Twitter"><img src="{{ site.base_url }}/images/paperfaces-arbitral-twitter-150.jpg" alt="@arbitral #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-flexbrowne-twitter-lg.jpg" title="@flexbrowne on Twitter"><img src="{{ site.base_url }}/images/paperfaces-flexbrowne-twitter-150.jpg" alt="@flexbrowne #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-guylschmidt-twitter-lg.jpg" title="@guylschmidt on Twitter"><img src="{{ site.base_url }}/images/paperfaces-guylschmidt-twitter-150.jpg" alt="@guylschmidt #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-kessler-twitter-lg.jpg" title="@kessler on Twitter"><img src="{{ site.base_url }}/images/paperfaces-kessler-twitter-150.jpg" alt="@kessler #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-4lala-twitter-lg.jpg" title="@4lala on Twitter"><img src="{{ site.base_url }}/images/paperfaces-4lala-twitter-150.jpg" alt="@4lala #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-dhm-twitter-lg.jpg" title="@dhm on Twitter"><img src="{{ site.base_url }}/images/paperfaces-dhm-twitter-150.jpg" alt="@dhm #PaperFaces portrait" /></a></li>
-			<li><a href="{{ site.base_url }}/images/paperfaces-bengiroux-twitter-lg.jpg" title="@BenGiroux on Twitter"><img src="{{ site.base_url }}/images/paperfaces-bengiroux-twitter-150.jpg" alt="@BenGiroux #PaperFaces portrait" /></a></li>
+			{% for pic in page.pictures %}
+            <li><a href="{{ site.base_url }}/images/{{ pic.large }}" title="{{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a></li>
+            {% endfor %}
             <li><a href="{{ site.base_url }}/articles/paperfaces-portrait-gallery.html" title="#PaperFaces Portrait Gallery" onClick="_gaq.push(['_trackEvent', 'PaperFaces', 'click', 'See more circle']);"><img src="{{ site.base_url }}/images/see-more-circle-150.png" all="See more #PaperFaces portraits" border="0" /></a></li>
 		</ul>
 	</div><!-- /.es-carousel -->
