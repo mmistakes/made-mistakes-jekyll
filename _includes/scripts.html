@@ -23,7 +23,21 @@
   <!-- FancyBox options -->
   $(document).ready(function() {
     $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
-      openEffect  : 'elastic',
+      beforeShow: function () {
+            if (this.title) {
+                // New line
+                this.title += '<br />';
+                // Add Pinterest button
+				this.title += '<a class="pin-it-button" href="http://pinterest.com/pin/create/button/?url='+
+          encodeURIComponent(document.location.href)+
+          '&media='+
+          encodeURIComponent(''+this.href)+
+          '&description=Pin from MadeMistakes.com">'+
+          '<img title="Pin It" src="http://assets.pinterest.com/images/PinExt.png" alt="" border="0" /></a>';
+
+            }
+        },
+	  openEffect  : 'elastic',
       closeEffect : 'elastic',
       helpers : {
         title : {
