@@ -198,6 +198,27 @@ body {
 .push-right {
   float: right;
 }
+.photo_left {
+  float: left;
+  left: -130px;
+  margin-right: -110px;
+  position: relative;
+}
+.blockquote_left {
+  width: 445px;
+  float: left;
+  left: -130px;
+  position: relative;
+  text-align: right;
+  margin: 3px -110px 20px 0;
+}
+.blockquote_right {
+  width: 445px;
+  float: right;
+  right: -130px;
+  position: relative;
+  margin: 3px 0 20px -110px;
+}
 /* Typography =================================================== */
 h1,
 h2,
@@ -2489,7 +2510,8 @@ table tbody tr:hover th {
   margin: 0 auto;
   width: 100%;
   top: 0;
-  z-index: 80;
+  z-index: 9999;
+  position: relative;
   background-color: #000000;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
