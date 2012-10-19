@@ -1,10 +1,9 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.base_url }}/js/jquery-1.8.2.min.js"><\/script>')</script>
-<!-- Google Webfonts -->
-<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Magra:700,400" rel="stylesheet" type="text/css">
 <!-- FitText -->
 <script src="{{ site.base_url }}/js/jquery.fittext.js"></script>
+<!-- FitVids -->
+<script src="{{ site.base_url }}/js/jquery.fitvids.js"></script>
 <!-- Elastislide -->
 <script type="text/javascript" src="{{ site.base_url }}/js/jquery.elastislide.min.js"></script>
 <!-- Fancybox -->
@@ -13,6 +12,10 @@
   <!-- FitText options -->
   $("#responsive-h1").fitText(1.2, { maxFontSize: '90px' });
   $("#responsive-h2").fitText(3, { minFontSize: '16px', maxFontSize: '30px' });
+  <!-- FitVids options -->
+  $(".content").fitVids();
+  $(".content-wide").fitVids();
+  $("aside").fitVids();
   <!-- Elastislide options -->
   $('#carousel').elastislide({
     imageW: 150,
