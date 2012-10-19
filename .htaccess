@@ -534,21 +534,26 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
   php_value session.cookie_httponly true
 </IfModule>
 
+# ----------------------------------------------------------------------
+# mod_pagespeed Options
+# ----------------------------------------------------------------------
+
+# ModPagespeed off
+# ModPagespeedEnableFilters lazyload_images
+
+# ----------------------------------------------------------------------
+# Redirects
+# ----------------------------------------------------------------------
+
 # Redirect index.html to root
 RewriteEngine on 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
 RewriteRule ^index\.html$ http://mademistakes.com/ [R=301,L] 
 
 # Feed Redirects
-redirect 301 /atom/ http://feeds.feedburner.com/MadeMistakes
-redirect 301 /rss/ http://feeds.feedburner.com/MadeMistakes
-redirect 301 /test/atom.xml http://feeds.feedburner.com/MadeMistakes
-<IfModule mod_rewrite.c>
- RewriteEngine on
- RewriteCond %{HTTP_USER_AGENT} !FeedBurner    [NC]
- RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
- RewriteRule ^atom.xml$ http://feeds.feedburner.com/MadeMistakes [R=301,L]
-</IfModule>
+redirect 301 /atom/ http://mademistakes.com/atom.xml
+redirect 301 /rss/ http://mademistakes.com/atom.xml
+redirect 301 /test/atom.xml http://mademistakes.com/atom.xml
 
 # Sitemap Redirects
 redirect 301 /sitemap.xml.gz http://mademistakes.com/sitemap.xml
@@ -561,3 +566,5 @@ redirect 301 /free-aboutme-business-cards/ http://mademistakes.com/articles/free
 redirect 301 /futura-movie-credits/ http://mademistakes.com/articles/futura-movie-credits.html
 redirect 301 /about-made-mistakes/ http://mademistakes.com/about.html
 redirect 301 /test/articles.html http://mademistakes.com/articles.html
+redirect 301 /articles/face http://mademistakes.com/articles/faces-made-with-paper-ipad.html
+redirect 301 /paperfaces http://mademistakes.com/articles/faces-made-with-paper-ipad.html
