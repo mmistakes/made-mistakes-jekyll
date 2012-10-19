@@ -5,7 +5,7 @@ headline: "#PaperFaces Project Gallery"
 subheadline: "Daily iPad Portraits by Michael Rose"
 description: "PaperFaces Project gallery of each portrait Michael Rose draws &mdash; using an iPad, Paper by FiftyThree app, and an AluPen stylus."
 date: 2012-10-17
-image: paperfaces-gallery-featured.jpg
+image: paperfaces-gallery-featured-lg.jpg
 thumb: paperfaces-gallery-thumb.jpg
 screenshot: paperfaces-gallery-screenshot.jpg
 css: paperfaces-gallery.css
@@ -383,7 +383,7 @@ pictures:
     title: @veganwendy on Twitter
     alt: @veganwendy #PaperFaces portrait 
 ---
-<section class="pe-container clearfix">
+<section class="pe-container">
 		<ul id="pe-thumbs" class="pe-thumbs">
 			{% for pic in page.pictures %}
             <li><a href="{{ site.base_url }}/images/{{ pic.large }}" title="{{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a></li>

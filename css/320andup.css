@@ -2573,6 +2573,33 @@ footer {
   margin: 0 auto;
   width: 90%;
 }
+.content,
+.content-wide {
+  *zoom: 1;
+  *zoom: 1;
+}
+.content:before,
+.content-wide:before,
+.content:after,
+.content-wide:after {
+  display: table;
+  content: "";
+}
+.content:after,
+.content-wide:after {
+  clear: both;
+}
+.content:before,
+.content-wide:before,
+.content:after,
+.content-wide:after {
+  content: "";
+  display: table;
+}
+.content:after,
+.content-wide:after {
+  clear: both;
+}
 #intro p {
   font-size: 18px;
   font-size: 1.8rem;
