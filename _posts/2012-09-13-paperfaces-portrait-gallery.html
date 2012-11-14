@@ -26,6 +26,26 @@ keywords:
 - Michael Rose
 - Mike Rose
 pictures:
+  - large: paperfaces-d-agostino-twitter-lg.jpg
+    thumb: paperfaces-d-agostino-twitter-150.jpg
+    title: @D_AGOSTINO on Twitter
+    alt: Dark haired girl holding a water pistol @D_AGOSTINO iPad portrait
+  - large: paperfaces-theordovician-twitter-lg.jpg
+    thumb: paperfaces-theordovician-twitter-150.jpg
+    title: @theordovician on Twitter
+    alt: Dark haired girl with red lips @theordovician iPad portrait
+  - large: paperfaces-akaheini-twitter-lg.jpg
+    thumb: paperfaces-akaheini-twitter-150.jpg
+    title: @akaHeini on Twitter
+    alt: Guy in muted tones @akaHeini iPad portrait
+  - large: paperfaces-meggandeth-twitter-lg.jpg
+    thumb: paperfaces-meggandeth-twitter-150.jpg
+    title: @MegganDeth on Twitter
+    alt: Girl with dark hair @Meggandeth iPad portrait
+  - large: paperfaces-davidpoblador-twitter-lg.jpg
+    thumb: paperfaces-davidpoblador-twitter-150.jpg
+    title: @davidpoblador on Twitter
+    alt: Dude wearing a scarf and green Spotify headphones @davidpoblador iPad portrait
   - large: paperfaces-geekbabe-twitter-lg.jpg
     thumb: paperfaces-geekbabe-twitter-150.jpg
     title: @geekbabe on Twitter
@@ -530,7 +550,7 @@ pictures:
 <section class="pe-container clearfix">
 		<ul id="pe-thumbs" class="pe-thumbs">
 			{% for pic in page.pictures %}
-            <li><a href="{{ site.base_url }}/images/{{ pic.large }}" title="iPad drawing of {{ pic.title }}"><img src="{{ site.base_url }}/images/grey.gif" data-original="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" class="lazy" /><noscript><img src="{{ site.base_url }}/images/{{ pic.thumb }}" /></noscript></a></li>
+            <li><a href="{{ site.base_url }}/images/{{ pic.large }}" title="iPad drawing of {{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a></li>
             {% endfor %}
 		</ul>
 </section>
