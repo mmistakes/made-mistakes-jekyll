@@ -18,13 +18,8 @@
 		width: 100%;
 	}
 	hgroup {
-		bottom: 0;
-		left: 0;
-		position: absolute;
-		right: 0;
 		width: 100%;
-		background: url(../images/DotGrid2.png);
-		margin-bottom: @baselineheight;
+		margin: @baselineheight inherit;
 	}
 	h1 {
 		text-align: center;
@@ -33,31 +28,22 @@
 		display: block;
 		padding: 0 @baselineheight / 2 @baselineheight / 8 @baselineheight / 2;
 		margin-bottom: 0;
-		color: @white;
-		.text-shadow();
 		a,
 		a:visited {
-			color: @white;
 			.transition(.2s linear);
+			color: @textcolor;
 		}
 		a:hover {
 			text-decoration: none;
-			.opacity(0.8);
 		}
 	}
 	h2 {
 		text-align: center;
-		white-space: nowrap;
 		font-family: @altfont;
 		font-style: italic;
 		display: block;
 		padding: 0  @baselineheight * 2 @baselineheight / 4 @baselineheight * 2 ;
 		margin-bottom: 0;
-		color: @white;
-		.text-shadow();
-		span {
-			border-top: 4px double @white;
-		}
 	}
 	h3 {
 		text-align: center;

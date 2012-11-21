@@ -54,6 +54,50 @@ ul.leaders li a {
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
+[role="banner"] {
+    hgroup {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        background: url(../images/DotGrid2.png);
+        margin-bottom: @baselineheight;
+    }
+    h1 {
+        color: @white;
+        .text-shadow();
+        a,
+        a:visited {
+            color: @white;
+            .transition(.2s linear);
+        }
+        a:hover {
+            text-decoration: none;
+            .opacity(0.8);
+        }
+    }
+    h2 {
+        white-space: nowrap;
+        color: @white;
+        .text-shadow();
+        span {
+            border-top: 4px double @white;
+        }
+    }
+    h3 {
+        text-align: center;
+        text-transform: uppercase;
+        white-space: nowrap;
+        display: block;
+        margin-bottom: 0;
+        font-weight: 300;
+        span {
+            background-color: @white;
+            padding: 2px 4px;
+        }
+    }
+}
 //   NAVIGATION             ==============================
 [role="navigation"] {
 	position: fixed;

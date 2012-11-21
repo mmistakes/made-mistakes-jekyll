@@ -2584,13 +2584,8 @@ table tbody tr:hover th {
   width: 100%;
 }
 [role="banner"] hgroup {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
   width: 100%;
-  background: url(../images/DotGrid2.png);
-  margin-bottom: 1.5em;
+  margin: 1.5em inherit;
 }
 [role="banner"] h1 {
   text-align: center;
@@ -2599,37 +2594,26 @@ table tbody tr:hover th {
   display: block;
   padding: 0 0.75em 0.1875em 0.75em;
   margin-bottom: 0;
-  color: #ffffff;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
 }
 [role="banner"] h1 a,
 [role="banner"] h1 a:visited {
-  color: #ffffff;
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   -ms-transition: 0.2s linear;
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
+  color: #414140;
 }
 [role="banner"] h1 a:hover {
   text-decoration: none;
-  -webkit-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
 }
 [role="banner"] h2 {
   text-align: center;
-  white-space: nowrap;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-style: italic;
   display: block;
   padding: 0 3em 0.375em 3em;
   margin-bottom: 0;
-  color: #ffffff;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
-}
-[role="banner"] h2 span {
-  border-top: 4px double #ffffff;
 }
 [role="banner"] h3 {
   text-align: center;
@@ -2872,6 +2856,54 @@ footer a:visited {
   }
   ul.leaders li aa:hover {
     text-decoration: none;
+  }
+  [role="banner"] hgroup {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background: url(../images/DotGrid2.png);
+    margin-bottom: 1.5em;
+  }
+  [role="banner"] h1 {
+    color: #ffffff;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  }
+  [role="banner"] h1 a,
+  [role="banner"] h1 a:visited {
+    color: #ffffff;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  [role="banner"] h1 a:hover {
+    text-decoration: none;
+    -webkit-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+  }
+  [role="banner"] h2 {
+    white-space: nowrap;
+    color: #ffffff;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  }
+  [role="banner"] h2 span {
+    border-top: 4px double #ffffff;
+  }
+  [role="banner"] h3 {
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: block;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+  [role="banner"] h3 span {
+    background-color: #ffffff;
+    padding: 2px 4px;
   }
   [role="navigation"] {
     position: fixed;
