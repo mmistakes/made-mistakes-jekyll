@@ -1718,7 +1718,7 @@ figure figcaption {
   text-shadow: none;
 }
 .fancybox-opened {
-  z-index: 8030;
+  z-index: 9999;
 }
 .fancybox-opened .fancybox-skin {
   -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
