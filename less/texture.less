@@ -16,134 +16,137 @@
 // https://github.com/twitter/bootstrap/blob/master/less/alerts.less"
 
 .alert {
-margin-bottom : @baselineheight;
-padding : 8px 35px 8px 14px;
-background-color : @alertcolor;
-border : @alertborderwidth @alertborderstyle @alertbordercolor;
-.rounded(2px);
-font-family : @basefont;
-.font-size(14);
-color : @alerttext;
-
-.alert-heading {
-color : inherit; }
-
-.close {
-position : relative;
-top : -2px;
-right : -21px;
-float : right;
-.font-size(21);
-font-weight : bold;
-line-height : 18px;
-color : inherit; } 
+	margin-bottom: @baselineheight;
+	padding: 8px 35px 8px 14px;
+	background-color : @alertcolor;
+	border: @alertborderwidth @alertborderstyle @alertbordercolor;
+	.rounded(2px);
+	font-family: @basefont;
+	.font-size(14);
+	text-align: center;
+	color: @alerttext;
+	.alert-heading {
+		color: inherit; 
+	}
+	.close {
+		position: relative;
+		top: -2px;
+		right: -21px;
+		float: right;
+		.font-size(21);
+		font-weight: bold;
+		line-height: 18px;
+		color: inherit; 
+	} 
 }
-
 .alert-success {
-background-color : @alertsuccesscolor;
-border-color : @alertsuccessborder;
-color : @alertsuccesstext; }
-
-.alert-warning {
-background-color : @alertwarningcolor;
-border-color : @alertwarningborder;
-color : @alertwarningtext; }
-
-.alert-error {
-background-color : @alerterrorcolor;
-border-color : @alerterrorborder;
-color : @alerterrortext; }
-
-.alert-inverse {
-background-color : @alertinversecolor;
-border-color : @alertinverseborder;
-color : @alertinversetext; }
-
-.alert-info {
-background-color: @alertinfocolor;
-border-color: @alertinfoborder;
-color: @alertinfotext;
+	background-color: @alertsuccesscolor;
+	border-color: @alertsuccessborder;
+	color: @alertsuccesstext; 
 }
-
-// alert block
-
+.alert-warning {
+	background-color: @alertwarningcolor;
+	border-color: @alertwarningborder;
+	color: @alertwarningtext;
+}
+.alert-error {
+	background-color: @alerterrorcolor;
+	border-color: @alerterrorborder;
+	color: @alerterrortext;
+}
+.alert-inverse {
+	background-color: @alertinversecolor;
+	border-color: @alertinverseborder;
+	color: @alertinversetext;
+}
+.alert-info {
+	background-color: @alertinfocolor;
+	border-color: @alertinfoborder;
+	color: @alertinfotext;
+}
 .alert-block {
-padding-top : 14px;
-padding-bottom : 14px;
-
-.alert-heading {
-margin-bottom : @baselineheight / 8;
-font-size : inherit;
-font-weight : bold; }
-
-> p,
-> ul {
-margin-bottom : 0; }
-
-p + p {
-margin-top : 5px; }
+	padding-top: 14px;
+	padding-bottom: 14px;
+	.alert-heading {
+		margin-bottom: @baselineheight / 8;
+		font-size: inherit;
+		font-weight: bold; 
+	}
+	> p,
+	> ul {
+		margin-bottom: 0;
+	}
+	p + p {
+		margin-top: 5px;
+	}
+}
+.alert-fixed-top {
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+	border: none;
 }
 
 // BADGES ====================================================
 
 .badge {
-padding : 1px 9px 2px;
-.font-size(12); 
-font-weight : bold;
-white-space : nowrap;
-color : @badgecolor;
-background-color : @badgebackground;
-.rounded(9px);
-.transition(background-color .25s 0 linear);
-
-&:hover {
-color : @badgecolor;
-text-decoration : none;
-cursor : pointer; }
+	padding: 1px 9px 2px;
+	.font-size(12); 
+	font-weight: bold;
+	white-space: nowrap;
+	color: @badgecolor;
+	background-color: @badgebackground;
+	.rounded(9px);
+	.transition(background-color .25s 0 linear);
+	&:hover {
+		color: @badgecolor;
+		text-decoration: none;
+		cursor: pointer; 
+	}
 }
 
 .badge-error {
-background-color : @errorcolor;
-color : @white;
-
-&:hover {
-background-color : darken(@errorcolor, 20%);
-color : @white; }
+	background-color: @errorcolor;
+	color: @white;
+	&:hover {
+		background-color: darken(@errorcolor, 20%);
+		color: @white; 
+	}
 }
 
 .badge-warning {
-background-color : @warningcolor; 
-color : @white;
-
-&:hover {
-background-color : darken(@warningcolor, 20%);
-color : @white; }
+	background-color: @warningcolor; 
+	color: @white;
+	&:hover {
+		background-color: darken(@warningcolor, 20%);
+		color: @white; 
+	}
 }
 
 .badge-success {
-background-color : @successcolor; 
-color : @white;
-
-&:hover {
-background-color : darken(@successcolor, 20%);
-color : @white; }
+	background-color: @successcolor; 
+	color: @white;
+	&:hover {
+		background-color: darken(@successcolor, 20%);
+		color: @white; 
+	}
 }
 
 .badge-info {
-background-color : @infocolor;
-color : darken(@infocolor, 50%); 
-
-&:hover {
-background-color : darken(@infocolor, 20%); }
+	background-color: @infocolor;
+	color: darken(@infocolor, 50%); 
+	&:hover {
+		background-color: darken(@infocolor, 20%); 
+	}
 }
 
 .badge-inverse {
-background-color : @inverscolor; 
-color : @white;
-
-&:hover {
-background-color : darken(@inverscolor, 20%);
-color : @white; }
+	background-color: @inverscolor; 
+	color: @white;
+	&:hover {
+		background-color: darken(@inverscolor, 20%);
+		color: @white; 
+	}
 }
 
 // GRADIENTS ====================================================
@@ -171,21 +174,23 @@ color : @white; }
 // WELL ====================================================
 
 .well {
-min-height : 21px;
-padding : 11px;
-margin-bottom : @baselineheight;
-background-color : @wellbackground;
-border : @wellborderwidth @wellborderstyle @wellbordercolor;
-.rounded(4px);
-.box-shadow(inset 0 1px @wellshadowblur @wellshadow); 
-
-p:last-child {
-margin-bottom : 0; }
+	min-height: 21px;
+	padding: 11px;
+	margin-bottom: @baselineheight;
+	background-color: @wellbackground;
+	border: @wellborderwidth @wellborderstyle @wellbordercolor;
+	.rounded(4px);
+	.box-shadow(inset 0 1px @wellshadowblur @wellshadow); 
+	p:last-child {
+		margin-bottom: 0; 
+	}
 }
 
 .well-large {
-padding : 22px; }
+	padding: 22px; 
+}
 
 .well-small {
-padding : 6px;
-.rounded(2px); }
+	padding: 6px;
+	.rounded(2px); 
+}

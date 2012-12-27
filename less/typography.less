@@ -65,35 +65,6 @@ h6,
 	text-transform: uppercase; 
 }
 
-// header
-.header h1,
-.header h2,
-.header h3 {
-	float: left; 
-	margin-right: @gutterwidth; 
-	a {
-		display: block;
-		position: relative;
-		top: 6px;
-		float: right;
-		padding: 4px 12px;
-		.font-size(14);
-		background-color: lighten(@basecolor, 75%); 
-	}
-		&:hover {
-			background-color: lighten(@basecolor, 75%); 
-		}
-	}
-[role="navigation"] .a-rss,
-[role="navigation"] .a-rss:hover {
-	float: left; 
-	width: 16px;
-	height: 16px;
-	padding: 0;
-	background: transparent url(../images/a-rss.png) no-repeat 0 0;
-	.hide-text; 
-}
-
 // TYPOGRAPHY ====================================================
 p, 
 ol, 
@@ -109,7 +80,7 @@ small {
 }
 ul, 
 ol { 
-	margin: 0 0 @baselineheight -@gutterwidth; 
+	margin: 0 0 @baselineheight 0; 
 	padding: 0 0 0 @gutterwidth; 
 }
 li ul, 
@@ -123,26 +94,6 @@ ol.unstyled {
 	padding-left: 0;
 	list-style: none;
 }
-
-// dot leaders
-ul.leaders span + span {
-	display: none;
-}
-ul.leaders {
-    list-style: none;
-    li {
-    	a {
-    		padding: 1em 0;
-    		display: block;
-    		border-top: 1px solid @bordercolor;
-    		border-bottom: 1px solid @white;
-    		&:hover {
-    			text-decoration: none;
-    		}
-    	}
-    }
-}
-
 // add underline for article links
 article p > a,
 article li > a {
@@ -154,14 +105,120 @@ article li > a:hover {
 	text-decoration: none;
 	border-bottom: 1px dotted @basecolor;
 }
+// footer styling
+.footer-wrapper {
+	clear: both;
+}
+.footer-wrapper footer {
+	font-family: @baseheadingfont;
+	font-weight: 300;
+	color: lighten(@basecolor, 40%);
+	a,
+	a:visited {
+		color: lighten(@basecolor, 40%);
+		border-bottom: none;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+		border-bottom: none;
+		color: @black;
+	}
+	h2 {
+		color: @basecolor;
+	}
+	h4 {
+		margin-top: @baselineheight;
+		a {
+			&:hover {
+				border-bottom: none;
+				color: @black;
+			}
+		}
+	}
+}
+// footer styling inverse
+.feature .footer-wrapper {
+	clear: both;
+	background: @basecolor url(../images/twinkle_twinkle.png);
+}
+.feature .footer-wrapper footer {
+	padding-top: @baselineheight;
+	font-family: @baseheadingfont;
+	font-weight: 300;
+	color: lighten(@basecolor, 40%);
+	a,
+	a:visited {
+		color: lighten(@basecolor, 40%);
+		border-bottom: none;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+		border-bottom: none;
+		color: lighten(@basecolor, 60%);
+	}
+	h2 {
+		color: lighten(@basecolor, 40%);
+	}
+	h4 {
+		margin-top: @baselineheight;
+		a {
+			&:hover {
+				border-bottom: none;
+				color: lighten(@basecolor, 40%);
+			}
+		}
+	}
+}
+.footer-icons {
+	margin-bottom: @baselineheight;
+	.font-size(32);
+	li {
+		display: inline;
+	}
+	a {
+		color: lighten(@basecolor, 40%);
+		.transition(.4s linear);
+		&:hover {
+			text-decoration: none;
+			border-bottom: none;
+			.icon-twitter,
+			.icon-twitter-sign {
+				color: #2aa9df;
+			}
+			.icon-facebook,
+			.icon-facebook-sign {
+				color: #3a5a98;
+			}
+			.icon-linkedin,
+			.icon-linkedin-sign {
+				color: #4093cf;
+			}
+			.icon-google-plus,
+			.icon-google-plus-sign {
+				color: #b63324;
+			}
+			.icon-lastfm,
+			.icon-lastfm-sign {
+				color: #d80049;
+			}
+		}
+		i {
+			padding: 0 5px;
+		}
+	}
+}
 
 // blockquote
 blockquote  { 
-	margin: 0 0 @baselineheight -@gutterwidth; 
-	padding-left: @gutterwidth; 
-	border-left: 2px solid @bordercolor;
-	font-family: @altfont;
+	margin: @baselineheight 0;
+	font-family: @baseheadingfont;
+	.font-size(32);
 	font-style: normal; 
+	text-transform: uppercase;
+	line-height: 0.75 * (@baselineheight);
+	color: @black;
 }
 q { 
 	quotes: none; 

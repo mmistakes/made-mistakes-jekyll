@@ -13,83 +13,85 @@ body {
 display : table; 
 border-collapse : collapse; }
 // 2. TYPOGRAPHY 			==============================
-ul.leaders li a {
-		.transition(0.2s linear);
-}
-ul.leaders li a:hover {
-	padding-left: 10px;
-	text-decoration: none;
-}
 // 3. COLOUR 				==============================
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
-// 6. LAYOUT 				==============================
-//   BANNER 				==============================
-[role="banner"] {
-	h2 {
-		span {
-			padding-top: @baselineheight / 8;
-		}
-	}
-	h3 {
-		.font-size(24);
+figure {
+	figcaption {
+		padding: inherit;
 	}
 }
-//   NAVIGATION 			==============================
-[role="navigation"] {
-display : table-header-group; 
-	p {
-		margin : 0 auto;
-		width : 90%; 
-	}
-}
-.center,
-footer {
-	width: 760px;
-	margin: 0 auto;
-}
-//   CONTENT 				==============================
-.content {
-	.column(7);
-	.push(1);
-}
-.content-wide {
-	.column(11);
-	.push(1);
-}
-.listing,
-.flickr {
-	.column(15);
-}
-.flickr {
-	ul {
-		.row(15);
-		li {
-			.column(3,15);
-		}
-	}
-}
-.aboutme {
-	.column(8);
-	.pull(7)
-}
-//   MAIN    				==============================
-//   COMPLEMENTARY 			==============================
-.credits {
-	.column(2);
+.image-grid {
+	.row(6);
 	li {
-		display: list-item;
-		padding-right: 0;
-	}
-	p, li {
-		.font-size(14);
+		.column(1,6);
+		width: 16%;
+		margin: 0 .666666666666664% .666666666666664% 0;
+		&:nth-child(6) {
+			margin-right: 0;
+		}
+   }
+}
+// 6. LAYOUT 				==============================
+
+.toc-wrapper {
+	padding: 100px (@basewidth * 3.25) 0;
+}
+.cover-wrapper {
+	hgroup {
+		position: absolute;
+		bottom: 10%;
+		left: 10%;
+		right: 10%;
+		width: 80%;
+		padding: 0;
+		z-index: 1;
+		text-align: center;
+		h1 {
+			color: @white;
+			.text-shadow();
+			.font-size(80);
+			.lineheight(80);
+			// border-top: 4px double @white;
+		}
+		h2 {
+			.font-size(30);
+			.lineheight(30);
+			color: @white;
+			.text-shadow();
+			margin-bottom: (@basewidth * 1.25);
+		}
 	}
 }
-[role="complementary"] {
-	.column(4);
-	.push(1);
+.content-wrapper,
+.photo-wrapper {
+	padding: inherit (@basewidth * 1.25) 0 (@basewidth / 2);
 }
-//   CONTENTINFO 			==============================
+.quote-wrapper {
+	blockquote {
+		top: 30%;
+		.font-size(44);
+		small {
+			.font-size(22);
+		}
+	}
+}
+.footer-wrapper {
+	padding: 0 0 (@basewidth * 3) 0;
+	text-align: center;
+	ul.related-articles { 
+		.clearfix;
+		margin: 0 auto;
+		width: 600px;
+		li {
+			display: inline;
+			float: left;
+			width: 102px;
+			margin: 0 (@basewidth / 2);
+			text-align: left;
+		}
+	}
+}
 //  7. VENDOR-SPECIFIC 		==============================
 //  8. MODERNIZR 			==============================
 //  9. TEMPLATE SPECIFICS 	==============================

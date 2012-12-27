@@ -17,10 +17,15 @@
 font-size : @font-size * 1px;
 font-size : ~"@{rem}rem"; }
 
+.lineheight(@font-size: 16){
+@rem: (@font-size / 10);
+line-height: @font-size * 1px;
+line-height: ~"@{rem}rem"; }
+
 .text-overflow() {
-overflow : hidden;
-text-overflow : ellipsis;
-white-space : nowrap; }
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap; }
 
 // 3. COLOUR 				==============================
 // 4. TEXTURE 				==============================
@@ -197,14 +202,6 @@ background-clip : @clip; }
 -moz-box-sizing : @boxsize;
 -ms-box-sizing : @boxsize;
 box-sizing : @boxsize; }
-
-// Chrome Frame
-
-.chromeframe() { 
-margin : .2em 0; 
-background : @lightgrey; 
-color : @black; 
-padding : .2em 0; }
 
 // Contain floats
 

@@ -10,102 +10,18 @@
 /* 600 =================================================== */
 // 1. ROOT 					==============================
 // 2. TYPOGRAPHY 			==============================
-//   DOT LEADERS            ==============================
-ul.leaders {
-	padding: 0;
-	margin: 0;
-	overflow-x: hidden;
-	list-style: none;
-}
-ul.leaders li:after {
-    float: left;
-    width: 0;
-    white-space: nowrap;
-    content:
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "}
-ul.leaders span:first-child {
-    padding-right: 0.33em;
-    background: @bodycolor;
-    display: inline-block;
-}
-ul.leaders span + span {
-    display: block;
-    float: right;
-    padding-left: 0.33em;
-    background: @bodycolor;
-    position: relative;
-    z-index: 1;
-}
-ul.leaders li a {
-	padding: 0;
-	display: inline-block;
-	border: 0 solid transparent;
-	&a:hover {
-		text-decoration: none;
-	}
-}
 // 3. COLOUR 				==============================
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
+.image-grid {
+	.row(4);
+	li {
+		.column(1,4);
+        width: 24%;
+        margin: 0 1% 1% 0;
+   }
+}
 // 6. LAYOUT 				==============================
-[role="banner"] {
-    hgroup {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        right: 0;
-        width: 100%;
-        background: url(../images/DotGrid2.png);
-        margin-bottom: @baselineheight;
-    }
-    h1 {
-        color: @white;
-        .text-shadow();
-        a,
-        a:visited {
-            color: @white;
-            .transition(.2s linear);
-        }
-        a:hover {
-            text-decoration: none;
-            .opacity(0.8);
-        }
-    }
-    h2 {
-        white-space: nowrap;
-        color: @white;
-        .text-shadow();
-        span {
-            border-top: 4px double @white;
-        }
-    }
-    h3 {
-        text-align: center;
-        text-transform: uppercase;
-        white-space: nowrap;
-        display: block;
-        margin-bottom: 0;
-        font-weight: 300;
-        span {
-            background-color: @white;
-            padding: 2px 4px;
-        }
-    }
-}
-//   NAVIGATION             ==============================
-[role="navigation"] {
-	position: fixed;
-}
-//   CONTENT                ==============================
-#flickr-images {
-	margin-bottom: @baselineheight * 1;
-}
 // 7. VENDOR-SPECIFIC 		==============================
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================

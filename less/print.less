@@ -17,7 +17,8 @@ color : black !important;
 box-shadow : none !important; 
 text-shadow : none !important; 
 filter : none !important; 
--ms-filter : none !important; }
+-ms-filter : none !important;
+position: static !important; }
 
 @page { 
 margin : 0.5cm; }
@@ -35,7 +36,8 @@ widows : 3; }
 
 pre, blockquote { 
 border : 1px solid @grey; 
-page-break-inside : avoid; }
+page-break-inside : avoid;
+padding: 1em; }
 
 abbr[title]:after { 
 content: " (" attr(title) ")"; }
@@ -66,6 +68,40 @@ page-break-inside : avoid; }
 
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
+.menu,
+.byline,
+.toc {
+	.hidden();
+}
+.cover-wrapper {
+	img {
+		position: static;
+		top: auto;
+		left: auto;
+		min-width: 100%;
+		min-height: 100%;
+		page-break-inside: avoid;
+	}
+	hgroup {
+		h1, h2, h3 {
+			color: @black !important;
+		}
+	}
+}
+.quote-wrapper {
+	img {
+		position: static;
+		top: auto;
+		left: auto;
+		page-break-inside: avoid;
+	}
+	blockquote {
+		position: static;
+		top: auto;
+		left: auto;
+		right: auto;
+	}
+}
 // 7. VENDOR-SPECIFIC 		==============================
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================
