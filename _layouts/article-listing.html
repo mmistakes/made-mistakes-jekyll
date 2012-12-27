@@ -30,31 +30,24 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <div id="main">
     <div class="toc-wrapper">
       {% for post in site.posts limit:1 %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-      {% endif %}
-      <h1>The Latest</h1>
+      <h1>Posts &amp; Diatribes</h1>
       <div data-picture data-alt="Feature article image" class="wrapper-image" data-class="feature-image">
         <img src="{{ site.base_url }}/images/{{ post.image }}" alt="{{ post.title }} article image" class="feature-image" />
       </div><!-- /.cover-image -->
-      <article class="feature-article-list">
-        <span><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
-        <h1><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
-        <p>{{ post.description }}</p>
-      </article>
       {% endfor %}
-      {% for post in site.posts offset:1 limit:2 %}
-      <article class="simple-article-list">
-        <h1><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
-        <p>{{ post.description }}</p>
-      </article>
-      {% endfor %}
+      <div class="article-listing">
+        {% for post in site.posts %}  
+          <article class="article-list">
+            <h1><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
+            <p>{{ post.description }}</p>
+          </article>
+        {% endfor %}
+    </div><!-- /.article-listing -->
     </div><!-- /.toc-wrapper -->
     <div class="footer-wrapper">
-      <footer class="site-footer" role="contentinfo">
-        {% include footer.html %}
-      </footer>
+          <footer class="site-footer" role="contentinfo">
+            {% include footer.html %}
+          </footer>
     </div><!-- /.footer-wrapper -->
 </div><!-- /#main -->
 

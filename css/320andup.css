@@ -359,6 +359,7 @@ article li > a:hover {
 }
 .footer-wrapper footer h4 {
   margin-top: 1.5em;
+  font-weight: 300;
 }
 .footer-wrapper footer h4 a:hover {
   border-bottom: none;

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: feature-article
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by 53"
@@ -819,11 +819,10 @@ pictures:
     title: @veganwendy on Twitter
     alt: Girl covered her face with tattooed arm and bird dress @veganwendy iPad portrait 
 ---
-<article class="content-wide">
-	<section id="intro">
-            <div class="content-wrapper">
-                <p>PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose&thinsp;&mdash;&thinsp;that&rsquo;s me! It began in August 2012, when I started drawing portraits on my iPad using the <a href="http://www.fiftythree.com/paper" target="_blank">Paper by FiftyThree app</a>. Each day when a drawing is completed, I post the image to <a href="http://twitter.com/mmistakes" target="_blank">Twitter</a>, <a href="http://instagram.com/mmistakes" target="_blank">Instagram</a>, <a href="http://mademistakes.tumblr.com" target="_blank">Tumblr</a>, and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.</p>
-            </div><!-- /.content-wrapper -->
+	<section id="slide1">
+    <div class="content-wrapper">
+        <p>PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose&thinsp;&mdash;&thinsp;that&rsquo;s me! It began in August 2012, when I started drawing portraits on my iPad using the <a href="http://www.fiftythree.com/paper" target="_blank">Paper by FiftyThree app</a>. Each day when a drawing is completed, I post the image to <a href="http://twitter.com/mmistakes" target="_blank">Twitter</a>, <a href="http://instagram.com/mmistakes" target="_blank">Instagram</a>, <a href="http://mademistakes.tumblr.com" target="_blank">Tumblr</a>, and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.</p>
+    </div><!-- /.content-wrapper -->
   </section>
   <section id="slide2">
       <div class="content-wrapper">
@@ -884,52 +883,30 @@ pictures:
       </form>
       </div><!-- /.content-wrapper -->
   </section>
-</article><!-- /.content-wide -->
-
-<aside role="complementary">
-	<figure>
-		<a href="http://www.fiftythree.com/paper" target="_blank"><img src="{{ site.base_url }}/images/paper-icon-300.jpg" alt="Paper by 53 for iPad logo icon" /></a>
-	</figure>
-    <figure>
-	  <a href="{{ site.base_url }}/images/paper-ipad-ui-tools-sketch-640.jpg" title="Paper UI and drawing tools"><img src="{{ site.base_url }}/images/paper-ipad-ui-tools-sketch-300.jpg" alt="Screenshot of the tools available to draw and paint with in Paper by 53." /></a>
-		<figcaption>Tools available to draw and paint with.</figcaption>
-	</figure>
-  <figure>
-        <a href="{{ site.base_url }}/images/blind-contour-stripes-paper-ipad-lg.jpg" title="Blind contour figure drawing drawn with Paper for iPad"><img src="{{ site.base_url }}/images/blind-contour-stripes-paper-ipad-600.jpg" alt="Blind contour figure illustration I drew using a stylus and Paper for iPad." /></a>
-      <figcaption>Blind contour figure illustration I drew using Paper for iPad and an AluPen stylus.</figcaption>
-    </figure>
-	<figure>
-		<img src="{{ site.base_url }}/images/paper-portrait-in-process-300.gif" alt="Animation of my drawing process using Paper by FiftyThree on iPad." />
-		<figcaption>Animation of my drawing process using Paper by FiftyThree.</figcaption>
-	</figure>
-    <figure>
-	  <a href="{{ site.base_url }}/images/milkshake-noface-lg.jpg" title="Milkshake girl no face"><img src="{{ site.base_url }}/images/milkshake-noface-300.jpg" alt="Milkshake girl no face drawing" /></a>
-		<figcaption>Flirting with faceless portraits &ndash; the beginning of Project #PaperFaces.</figcaption>
-	</figure>
-    <figure>
-	  <a href="{{ site.base_url }}/images/hipster-noface-lg.jpg" title="Hipster girl no face and handwritting"><img src="{{ site.base_url }}/images/hipster-noface-300.jpg" alt="Hipster girl no face drawing and handwritting" /></a>
-		<figcaption>Faceless hipster girl and handwritten text.</figcaption>
-	</figure>
-  <figure>
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/NEOjUwRFtbQ?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
-    <figcaption>Time lapse videos of me drawing and painting iPad portraits.</figcaption>
-  </figure>
-</aside>
-
-<noscript>
-  <style>
-    .es-carousel ul{
-      display:block;
-    }
-  </style>
-</noscript>
-<div id="carousel" class="es-carousel-wrapper">
-  <div class="es-carousel">
-    <ul>
-      {% for pic in page.pictures %}
-            <li><a href="{{ site.base_url }}/images/{{ pic.large }}" title="{{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a></li>
+  <section class="slide3">
+    <div class="content-wrapper">
+        <ul id="portrait-gallery" class="image-grid unstyled">
+            {% for pic in page.pictures %}
+            <li data-bottom-top="opacity:0;" data--150-bottom="opacity:1;">
+              <a href="{{ site.base_url }}/images/{{ pic.large }}" title="iPad drawing of {{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a>
+            </li>
             {% endfor %}
-            <li><a href="{{ site.base_url }}/articles/paperfaces-portrait-gallery.html" title="#PaperFaces Portrait Gallery" onClick="_gaq.push(['_trackEvent', 'PaperFaces', 'click', 'See more circle']);"><img src="{{ site.base_url }}/images/see-more-circle-150.png" all="See more #PaperFaces portraits" border="0" /></a></li>
-    </ul>
-  </div><!-- /.es-carousel -->
-</div><!-- /#carousel -->
+        </ul>
+    </div><!-- /.content-wrapper -->
+    <aside class="fixed-left">
+      <h1>PaperFaces iPad Portraits Gallery</h1>
+        <p>Click thumbnail images to view each portrait in full screen glory.</p>
+        <p>I make every effort to update the gallery daily with the latest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on <a href="http://twitter.com/mmistakes" target="_blank">Twitter</a> or <a href="http://mademistakes.tumblr.com" target="_blank">Tumblr</a>. You won&rsquo;t be able to grab the full size originals (2048&times;1536 pixels) there, but&hellip;</p>
+    </aside>
+  </section>
+  <section id="slide4">
+      <div class="content-wrapper">
+        <h1>PaperFaces Video Tutorials</h1>
+          <p>I use the term &ldquo;tutorial&rdquo; loosely. What you&rsquo;ll find here are glorified slideshows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slideshow with them using Aperture for Mac OS X. It&rsquo;s not quite the same thing as a true time lapse video, but it does show I attacked some of the portraits.</p>
+          <figure>
+          <iframe width="560" height="315" src="http://www.youtube.com/embed/g6r-pZY3Awc?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0" allowfullscreen></iframe>
+          <figcaption>View more PaperFaces video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">my YouTube channel</a>.</figcaption>
+        </figure>
+      </div><!-- /.content-wrapper -->
+  </section>
+</article><!-- /.slides -->
