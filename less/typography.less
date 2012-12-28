@@ -96,12 +96,14 @@ ol.unstyled {
 }
 // add underline for article links
 article p > a,
-article li > a {
+article li > a,
+article em > a {
 	text-decoration: none;
 	border-bottom: 1px dotted lighten(@basecolor, 50%);
 }
 article p > a:hover,
-article li > a:hover {
+article li > a:hover,
+article em > a:hover {
 	text-decoration: none;
 	border-bottom: 1px dotted @basecolor;
 }

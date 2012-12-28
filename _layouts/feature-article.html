@@ -31,7 +31,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     <article class="slides">
         <section class="cover" id="start">
           <div class="cover-wrapper"> 
-              <div data-picture data-alt="{{ post.title }} article image" data-class="feature-image" class="wrapper-image">
+              <div data-picture data-alt="{{ page.title }} article image" data-class="feature-image" class="wrapper-image">
                     <div data-src="{{ site.base_url }}/images/{{ page.image }}-s.jpg"></div>
                     <div data-src="{{ site.base_url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 768px)"></div>
                     <div data-src="{{ site.base_url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 1024px)"></div>
@@ -41,7 +41,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
                     <![endif]-->
                     <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
                     <noscript>
-                        <img src="{{ site.base_url }}/images/{{ page.image }}-s.jpg" alt="{{ post.title }} article image" class="feature-image">
+                        <img src="{{ site.base_url }}/images/{{ page.image }}-s.jpg" alt="{{ page.title }} article image" class="feature-image">
                     </noscript>
               </div><!-- /.wrapper-image -->
               <hgroup>
@@ -62,7 +62,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
         <ul class="related-articles unstyled">
             {% for post in site.related_posts limit:4 %}
             <li>
-                <a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{% if post.image %}<img src="{{ site.base_url }}/images/{{ post.image }}" alt="{{ post.title }} article image" />{% else %}<img src="{{ site.base_url }}/images/mademistakes-feature.jpg" alt="{{ post.title }} article image" class="feature-image" />{% endif %}</a>
+                <a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{% if post.image %}<img src="{{ site.base_url }}/images/{{ post.image }}-s.jpg" alt="{{ post.title }} article image" />{% else %}<img src="{{ site.base_url }}/images/mademistakes-feature-s.jpg" alt="{{ post.title }} article image" class="feature-image" />{% endif %}</a>
                 <p>{{ post.description }}</a>
             </li>
             {% endfor %}

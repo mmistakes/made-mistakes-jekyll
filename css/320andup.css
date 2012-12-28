@@ -326,12 +326,14 @@ ol.unstyled {
   list-style: none;
 }
 article p > a,
-article li > a {
+article li > a,
+article em > a {
   text-decoration: none;
   border-bottom: 1px dotted #b3b3b3;
 }
 article p > a:hover,
-article li > a:hover {
+article li > a:hover,
+article em > a:hover {
   text-decoration: none;
   border-bottom: 1px dotted #343434;
 }
@@ -2985,7 +2987,7 @@ table tbody tr:hover th {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url(../images/noisy-texture.png);
+  background-image: url(../images/DotGrid2.png);
   opacity: 0.4;
 }
 .footer-wrapper {
