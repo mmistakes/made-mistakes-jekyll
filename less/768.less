@@ -33,7 +33,18 @@ figure {
    }
 }
 // 6. LAYOUT 				==============================
-
+// NAVIGATION
+[role="navigation"] {
+	.transition(.4s linear);
+	ul {
+		padding: 0 (@basewidth * 3.25);
+	}
+}
+.feature [role="navigation"] {
+	ul {
+		padding: 0 (@basewidth / 2);
+	}
+}
 .toc-wrapper {
 	padding: 100px (@basewidth * 3.25) 0;
 }

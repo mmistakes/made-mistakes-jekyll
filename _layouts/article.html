@@ -21,7 +21,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 {% include head.html %}
 </head>
 
-<body class="articles">
+<body class="article">
 
 {% include chrome-frame.html %}
 {% include nav.html %}
@@ -30,8 +30,8 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     <div class="toc-wrapper">
       <h1>{{ page.title }}</h1>
       {% if page.image %}<div data-picture data-alt="Feature article image" class="wrapper-image" data-class="feature-image">
-        <img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" class="feature-image" />{% else %}
-      </div><!-- /.cover-image -->{% endif %}
+        <img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" class="feature-image" /></div><!-- /.cover-image -->{% else %}
+      {% endif %}
       <div class="content-wrapper">
           {{ content }}
       </div><!-- /.content-wrapper -->

@@ -50,8 +50,7 @@ aside figure {
 }
 // 6. LAYOUT 				==============================
 // NAVIGATION
-[role="navigation"] {
-	.transition(.4s linear);
+.feature [role="navigation"] {
 	ul {
 		padding: 0 (@basewidth * 3.25);
 	}
@@ -90,7 +89,7 @@ aside figure {
 }
 .no-svg .article-listing,
 .no-svg .feature-article-list,
-.no-svg .articles .content-wrapper {
+.no-svg .article .content-wrapper {
 	&:after {
 		content: "";
 		height: 300px;
@@ -107,7 +106,7 @@ aside figure {
 }
 .svg .article-listing,
 .svg .feature-article-list,
-.svg .articles .content-wrapper {
+.svg .article .content-wrapper {
 	&:after {
 		content: "";
 		height: 300px;
@@ -120,6 +119,12 @@ aside figure {
 		font-weight: bold;
 		background: transparent url(../images/mm-circle-vector.svg) no-repeat;
 		opacity: 0.4;
+	}
+}
+.no-svg .article .content-wrapper,
+.svg .article .content-wrapper {
+	&:after {
+		left: -66.66666666666666%;
 	}
 }
 .simple-article-list {

@@ -3,9 +3,9 @@ layout: feature-article
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by 53"
-description: "PaperFaces is a new project by graphic designer Michael Rose. Each day he draws a portrait using iPad, the Paper by FiftyThree iOS app, and a stylus."
+description: "PaperFaces is a new project by graphic designer Michael Rose. Each day he draws a portrait using an iPad, the Paper by FiftyThree iOS app, and a stylus."
 date: 2012-12-15
-image: paperfaces-featured-image-lg.jpg
+image: paperfaces-featured-image
 thumb: paperfaces-project-thumb.jpg
 screenshot: paperfaces-project-screenshot.jpg
 category: articles
@@ -25,6 +25,7 @@ tags:
 - Michael Rose
 - Mike Rose
 - graphic design
+- 365
 pictures:
   - large: paperfaces-m0rph3v5-twitter-lg.jpg
     thumb: paperfaces-m0rph3v5-twitter-150.jpg
@@ -821,10 +822,9 @@ pictures:
 ---
 <nav role="navigation" class="hidden-phone">
     <ul>
-        <li class="current"><a href="{{ site.base_url }}{{ post.url }}">PaperFaces Project</a></li>
         <li><a href="#slide1">Introduction</a></li>
-        <li><a href="#slide2">FAQs</a></li>
-        <li><a href="#slide3">Portrait Gallery</a></li>
+        <li><a href="#slide2">Portrait Gallery</a></li>
+        <li><a href="#slide3">FAQs</a></li>
         <li><a href="#slide4">Video Tutorials</a></li>
         <li><a href="#slide5">Fan Art &amp; Homages</a></li>
     </ul>
@@ -835,6 +835,22 @@ pictures:
   </div><!-- /.content-wrapper -->
 </section>
 <section id="slide2">
+  <div class="content-wrapper">
+      <ul id="portrait-gallery" class="image-grid unstyled">
+          {% for pic in page.pictures %}
+          <li>
+            <a href="{{ site.base_url }}/images/{{ pic.large }}" title="iPad drawing of {{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a>
+          </li>
+          {% endfor %}
+      </ul>
+  </div><!-- /.content-wrapper -->
+  <aside class="fixed-left">
+    <h1>PaperFaces iPad Portraits Gallery</h1>
+      <p>Click thumbnail images to view each portrait in full screen glory.</p>
+      <p>I make every effort to update the gallery daily with the latest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on <a href="http://twitter.com/mmistakes" target="_blank">Twitter</a> or <a href="http://mademistakes.tumblr.com" target="_blank">Tumblr</a>. You won&rsquo;t be able to grab the full size originals (2048&times;1536 pixels) there, but&hellip;</p>
+  </aside>
+</section>
+<section id="slide3">
     <div class="content-wrapper">
       <h1>PaperFaces Frequently Asked Questions</h1>
       <ul>
@@ -893,22 +909,6 @@ pictures:
     </form>
     </div><!-- /.content-wrapper -->
 </section>
-<section id="slide3">
-  <div class="content-wrapper">
-      <ul id="portrait-gallery" class="image-grid unstyled">
-          {% for pic in page.pictures %}
-          <li data-bottom-top="opacity:0;" data--150-bottom="opacity:1;">
-            <a href="{{ site.base_url }}/images/{{ pic.large }}" title="iPad drawing of {{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a>
-          </li>
-          {% endfor %}
-      </ul>
-  </div><!-- /.content-wrapper -->
-  <aside class="fixed-left">
-    <h1>PaperFaces iPad Portraits Gallery</h1>
-      <p>Click thumbnail images to view each portrait in full screen glory.</p>
-      <p>I make every effort to update the gallery daily with the latest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on <a href="http://twitter.com/mmistakes" target="_blank">Twitter</a> or <a href="http://mademistakes.tumblr.com" target="_blank">Tumblr</a>. You won&rsquo;t be able to grab the full size originals (2048&times;1536 pixels) there, but&hellip;</p>
-  </aside>
-</section>
 <section id="slide4">
     <div class="content-wrapper">
       <h1>PaperFaces Video Tutorials</h1>
@@ -922,9 +922,10 @@ pictures:
 <section id="slide5">
     <div class="content-wrapper">
         <ul id="fanart-gallery" class="image-grid unstyled">
-        <li data-bottom-top="opacity:0;" data--150-bottom="opacity:1;"><a href="http://mademistakes.com/images/paperfaces-raquibahasan-twitter-lg.jpg" title="@raquibahasan on Twitter"><img src="{{ site.url }}/images/150x150.gif" data-original="http://mademistakes.com/images/paperfaces-raquibahasan-twitter-150.jpg" alt="Man in suit using an iPhone @raquibahasan iPad portrait" /> </a></li>
-        <li data-bottom-top="opacity:0;" data--150-bottom="opacity:1;"><a href="http://mademistakes.com/images/paperfaces-carriehammer-twitter-lg.jpg" title="@carriehammer on Twitter"><img src="{{ site.url }}/images/150x150.gif" data-original="http://mademistakes.com/images/paperfaces-carriehammer-twitter-150.jpg" alt="Grayscale girl with long dark hair @carriehammer iPad portrait" /> </a></li>
-        <li data-bottom-top="opacity:0;" data--150-bottom="opacity:1;"><a href="http://mademistakes.com/images/paperfaces-ajkonieckijr-twitter-lg.jpg" title="@ajkonieckijr on Twitter"><img src="{{ site.url }}/images/150x150.gif" data-original="http://mademistakes.com/images/paperfaces-ajkonieckijr-twitter-150.jpg" alt="Dude smoking a cigar in a life guard shirt @ajkonieckijr iPad portrait" /> </a></li>
+        <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg" title="PaperFaces homage drawn by @Pepfre on Twitter"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre on Twitter" /></a></li>
+        <li><a href="{{ site.url }}/images/homage-missshrestha-rosebuds-lg.jpg" title="PaperFaces homage drawn by @missshrestha on Instagram"><img src="{{ site.url }}/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagra" /></a></li>
+        <li><a href="{{ site.url }}/images/homage-morgantj-mmistakes-lg.jpg" title="PaperFaces homage drawn by @morgantj on Twitter"><img src="{{ site.url }}/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj on Twitter" /></a></li>
+        <li><a href="{{ site.url }}/images/homage-tortadecereja-mmistakes-lg.jpg" title="PaperFaces homage drawn by @tortadecereja on Twitter"><img src="{{ site.url }}/images/homage-tortadecereja-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @tortadecereja on Twitter" /></a></li>
       </ul>
     </div><!-- /.content-wrapper -->
     <aside class="fixed-left">

@@ -359,6 +359,8 @@ article li > a:hover {
 }
 .footer-wrapper footer h4 {
   margin-top: 1.5em;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 .footer-wrapper footer h4 a:hover {
@@ -2992,6 +2994,10 @@ table tbody tr:hover th {
   padding-top: 0;
 }
 /* Content =================================================== */
+.content-wrapper {
+  display: inline;
+  float: left;
+}
 .content-wrapper p:first-child {
   font-size: 20px;
   font-size: 2rem;
@@ -3173,6 +3179,9 @@ table tbody tr:hover th {
     width: 24%;
     margin: 0 1% 1% 0;
   }
+  .toc-wrapper .content-wrapper {
+    padding-left: 0;
+  }
 }
 @media only screen and (min-width: 768px) {
   /* 768 =================================================== */
@@ -3216,6 +3225,19 @@ table tbody tr:hover th {
   }
   .image-grid li:nth-child(6) {
     margin-right: 0;
+  }
+  [role="navigation"] {
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+  }
+  [role="navigation"] ul {
+    padding: 0 156px;
+  }
+  .feature [role="navigation"] ul {
+    padding: 0 24px;
   }
   .toc-wrapper {
     padding: 100px 156px 0;
@@ -3347,14 +3369,7 @@ table tbody tr:hover th {
   aside figure {
     margin-right: inherit;
   }
-  [role="navigation"] {
-    -webkit-transition: 0.4s linear;
-    -moz-transition: 0.4s linear;
-    -ms-transition: 0.4s linear;
-    -o-transition: 0.4s linear;
-    transition: 0.4s linear;
-  }
-  [role="navigation"] ul {
+  .feature [role="navigation"] ul {
     padding: 0 156px;
   }
   .toc-wrapper article:last-child h1,
@@ -3388,7 +3403,7 @@ table tbody tr:hover th {
   }
   .no-svg .article-listing:after,
   .no-svg .feature-article-list:after,
-  .no-svg .articles .content-wrapper:after {
+  .no-svg .article .content-wrapper:after {
     content: "";
     height: 300px;
     width: 300px;
@@ -3404,7 +3419,7 @@ table tbody tr:hover th {
   }
   .svg .article-listing:after,
   .svg .feature-article-list:after,
-  .svg .articles .content-wrapper:after {
+  .svg .article .content-wrapper:after {
     content: "";
     height: 300px;
     width: 300px;
@@ -3417,6 +3432,10 @@ table tbody tr:hover th {
     font-weight: bold;
     background: transparent url(../images/mm-circle-vector.svg) no-repeat;
     opacity: 0.4;
+  }
+  .no-svg .article .content-wrapper:after,
+  .svg .article .content-wrapper:after {
+    left: -66.66666666666666%;
   }
   .simple-article-list {
     display: inline;
