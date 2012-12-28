@@ -2734,6 +2734,7 @@ table tbody tr:hover th {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  border-bottom: solid 0 transparent;
   z-index: 90;
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
@@ -3317,7 +3318,7 @@ table tbody tr:hover th {
   ol {
     margin-left: -20px;
   }
-  blockquote {
+  blockquote.inline {
     display: inline;
     float: left;
     width: 33.33333333333333%;
@@ -3386,7 +3387,8 @@ table tbody tr:hover th {
     padding-left: 210px;
   }
   .no-svg .article-listing:after,
-  .no-svg .feature-article-list:after {
+  .no-svg .feature-article-list:after,
+  .no-svg .articles .content-wrapper:after {
     content: "";
     height: 300px;
     width: 300px;
@@ -3401,7 +3403,8 @@ table tbody tr:hover th {
     opacity: 0.4;
   }
   .svg .article-listing:after,
-  .svg .feature-article-list:after {
+  .svg .feature-article-list:after,
+  .svg .articles .content-wrapper:after {
     content: "";
     height: 300px;
     width: 300px;

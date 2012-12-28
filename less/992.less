@@ -25,7 +25,7 @@
 ul, ol {
 	margin-left: -@gutterwidth;
 }
-blockquote {
+blockquote.inline {
 	.column(4);
 	margin: 0 (@basewidth / 2) @baselineheight (-(@basewidth) * 1);
 	border-right: 4px solid @black;
@@ -89,7 +89,8 @@ aside figure {
 	padding-left: 210px;
 }
 .no-svg .article-listing,
-.no-svg .feature-article-list {
+.no-svg .feature-article-list,
+.no-svg .articles .content-wrapper {
 	&:after {
 		content: "";
 		height: 300px;
@@ -105,7 +106,8 @@ aside figure {
 	}
 }
 .svg .article-listing,
-.svg .feature-article-list {
+.svg .feature-article-list,
+.svg .articles .content-wrapper {
 	&:after {
 		content: "";
 		height: 300px;

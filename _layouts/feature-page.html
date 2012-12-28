@@ -31,7 +31,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     <article class="slides">
         <section class="cover" id="start" data-top-top="opacity:1" data-top-bottom="opacity:0">
           <div class="cover-wrapper"> 
-              <div data-picture data-alt="feature article image" data-class="cover-image" class="wrapper-image">
+              <div data-picture data-alt="feature article image" data-class="cover-image" class="cover-image">
                 <img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" class="feature-image" />
               </div><!-- /.cover-image -->
               <hgroup>
@@ -46,23 +46,11 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <div class="footer-wrapper">
       <footer class="site-footer" role="contentinfo">
-        <p>{{ page.title }} was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" rel="me">Michael Rose</a>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
-        {% if site.related_posts.size > 1 %}
-        <h2>You might also be interested in:</h2>
-        <ul class="related-articles unstyled">
-            {% for post in site.related_posts limit:4 %}
-            <li>
-                <a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{% if post.image %}<img src="{{ site.base_url }}/images/{{ post.image }}" alt="{{ post.title }} article image" />{% else %}<img src="{{ site.base_url }}/images/mademistakes-feature.jpg" alt="{{ post.title }} article image" class="feature-image" />{% endif %}</a>
-                <p>{{ post.description }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-        {% endif %}
         {% include footer.html %}
       </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}	        
+{% include scripts.html %}          
 
 </body>
 </html>

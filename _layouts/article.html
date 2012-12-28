@@ -19,49 +19,41 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <head>
 {% include head.html %}
-{% if page.css %}<link rel="stylesheet" href="{{ site.base_url }}/css/custom/{{ page.css }}">{% endif %}
 </head>
 
-<body>
+<body class="articles">
 
 {% include chrome-frame.html %}
+{% include nav.html %}
 
-<nav role="navigation">
-    {% include nav.html %}
-</nav>
-
-<div id="main" role="main" class="clearfix">
-	<header role="banner">
-        {% if page.image %}<img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" />{% else %}<img src="{{ site.base_url }}/images/mademistakes-feature.jpg" alt="{{ page.title }} article image" />{% endif %}
-        <hgroup>
-            <div class="header-wrapper">
-                <h1 id="responsive-h1"><a href="{{ site.base_url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.headline }}</a></h1>
-                <h2 id="responsive-h2"><span>{{ page.subheadline }}</span></h2>
-            </div><!-- /.header-wrapper -->
-        </hgroup>
-    </header>
-    <div class="center">
-       	<div class="credits hidden-phone">
-         	<aside id="published">
-            	<p>This article was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" rel="me">Michael Rose</a>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
-             	<ul class="icons unstyled">
-                	<li><i class="icon-twitter-sign"></i> <a href="http://twitter.com/mmistakes" title="Michael Rose on Twitter" target="_blank">Twitter</a></li>
-                	<li><i class="icon-facebook-sign"></i> <a href="http://facebook.com/michaelrose" title="Michael Rose on Facebook" target="_blank">Facebook</a></li>
-                	<li><i class="icon-linkedin-sign"></i> <a href="http://www.linkedin.com/in/michaelrose" title="Michael Rose on LinkedIn" target="_blank">LinkedIn</a></li>
-                	<li><i class="icon-google-plus-sign"></i> <a href="https://plus.google.com/u/0/118238196859537351707/about?rel=author" title="Michael Rose on Google+" target="_blank">Google+</a></li>
-                	<li><i class="icon-rss"></i> <a href="http://mademistakes.com/atom.xml" title="Made Mistakes RSS Feed" target="_blank">RSS</a></li>
-                </ul>
-            </aside><!-- /#published -->
-       	</div><!-- /.credits -->
-       	{{ content }}
-    </div><!-- /.center -->
+<div id="main">
+    <div class="toc-wrapper">
+      <h1>{{ page.title }}</h1>
+      {% if page.image %}<div data-picture data-alt="Feature article image" class="wrapper-image" data-class="feature-image">
+        <img src="{{ site.base_url }}/images/{{ page.image }}" alt="{{ page.title }} article image" class="feature-image" />{% else %}
+      </div><!-- /.cover-image -->{% endif %}
+      <div class="content-wrapper">
+          {{ content }}
+      </div><!-- /.content-wrapper -->
+    </div><!-- /.toc-wrapper -->
 </div><!-- /#main -->
-
-<hr />
-
-<footer>
-{% include footer.html %}
-</footer>	
+<div class="footer-wrapper">
+  <footer class="site-footer" role="contentinfo">
+    <p>{{ page.title }} was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" rel="me">Michael Rose</a>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
+    {% if site.related_posts.size > 1 %}
+    <h2>You might also be interested in:</h2>
+    <ul class="related-articles unstyled">
+        {% for post in site.related_posts limit:4 %}
+        <li>
+            <a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{% if post.image %}<img src="{{ site.base_url }}/images/{{ post.image }}" alt="{{ post.title }} article image" />{% else %}<img src="{{ site.base_url }}/images/mademistakes-feature.jpg" alt="{{ post.title }} article image" class="feature-image" />{% endif %}</a>
+            <p>{{ post.description }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}	        
 
