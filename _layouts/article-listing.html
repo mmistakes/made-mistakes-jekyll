@@ -31,18 +31,8 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     <div class="toc-wrapper">
       {% for post in site.posts limit:1 %}
       <h1>Posts &amp; Diatribes</h1>
-      <div data-picture data-alt="{{ post.title }} article image" data-class="feature-image" class="wrapper-image">
-          <div data-src="{{ site.base_url }}/images/{{ post.image }}-s.jpg"></div>
-          <div data-src="{{ site.base_url }}/images/{{ post.image }}-m.jpg" data-media="(min-width: 768px)"></div>
-          <div data-src="{{ site.base_url }}/images/{{ post.image }}-l.jpg" data-media="(min-width: 1024px)"></div>
-          <div data-src="{{ site.base_url }}/images/{{ post.image }}-xl.jpg" data-media="(min-width: 1280px)"></div>
-          <!--[if (lte IE 8) & (!IEMobile)]>
-              <div data-src="{{ site.base_url }}/images/{{ post.image }}-l.jpg"></div>
-          <![endif]-->
-          <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-          <noscript>
-              <img src="{{ site.base_url }}/images/{{ post.image }}-s.jpg" alt="{{ post.title }} article image" class="feature-image">
-          </noscript>
+      <div class="wrapper-image">
+            <img src="{{ site.base_url }}/images/{{ post.image }}-xl.jpg" alt="{{ post.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->
       {% endfor %}
       <div class="article-listing">

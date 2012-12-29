@@ -1816,6 +1816,7 @@ figure figcaption {
 }
 .feature-image {
   width: 100%;
+  height: auto;
 }
 .pin-it-button img {
   vertical-align: top;

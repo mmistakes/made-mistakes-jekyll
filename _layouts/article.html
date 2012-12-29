@@ -30,18 +30,8 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
     <div class="toc-wrapper">
       <h1>{{ page.title }}</h1>
       {% if page.image %}
-      <div data-picture data-alt="{{ post.title }} article image" data-class="feature-image" class="wrapper-image">
-          <div data-src="{{ site.base_url }}/images/{{ page.image }}-s.jpg"></div>
-          <div data-src="{{ site.base_url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 768px)"></div>
-          <div data-src="{{ site.base_url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 1024px)"></div>
-          <div data-src="{{ site.base_url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 1280px)"></div>
-          <!--[if (lte IE 8) & (!IEMobile)]>
-              <div data-src="{{ site.base_url }}/images/{{ page.image }}-l.jpg"></div>
-          <![endif]-->
-          <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-          <noscript>
-              <img src="{{ site.base_url }}/images/{{ page.image }}-s.jpg" alt="{{ page.title }} article image" class="feature-image">
-          </noscript>
+      <div class="wrapper-image">
+          <img src="{{ site.base_url }}/images/{{ page.image }}-xl.jpg" alt="{{ page.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->{% else %}
       {% endif %}
       <div class="content-wrapper">
