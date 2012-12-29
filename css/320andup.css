@@ -2818,23 +2818,17 @@ table tbody tr:hover th {
   width: 100%;
 }
 .cover-wrapper hgroup {
-  padding: 48px 60px 0 24px;
+  padding: 0 24px;
+  text-align: center;
 }
 .cover-wrapper hgroup h1 {
   margin-bottom: 0;
   text-transform: uppercase;
-  font-size: 50px;
-  font-size: 5rem;
-  line-height: 50px;
-  line-height: 5rem;
+  font-weight: 300;
 }
 .cover-wrapper hgroup h2 {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-style: italic;
-  font-size: 30px;
-  font-size: 3rem;
-  line-height: 30px;
-  line-height: 3rem;
   margin-bottom: 0;
 }
 .cover-wrapper hgroup h3 {
@@ -2940,7 +2934,7 @@ table tbody tr:hover th {
   *zoom: 1;
   *zoom: 1;
   position: relative;
-  padding: 3em 60px 0 24px;
+  padding: 1.5em 24px 0 24px;
 }
 .toc-wrapper:before,
 .content-wrapper:before,
@@ -3000,18 +2994,12 @@ table tbody tr:hover th {
   display: inline;
   float: left;
 }
-.content-wrapper p:first-child {
-  font-size: 20px;
-  font-size: 2rem;
-}
 .toc-wrapper {
   padding-top: 80px;
 }
 .toc-wrapper h1 {
   font-weight: 300;
-  margin-bottom: 0.375em;
-  font-size: 72px;
-  font-size: 7.2rem;
+  margin-bottom: 0.25em;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -3019,18 +3007,19 @@ table tbody tr:hover th {
   text-transform: uppercase;
 }
 .feature-article-list span {
-  display: block;
   margin-bottom: 0.75em;
+  padding: 2px 6px;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: inherit;
   text-rendering: optimizelegibility;
-  font-size: 18px;
-  font-size: 1.8rem;
 }
 .feature-article-list h1 {
-  font-size: 32px;
-  font-size: 3.2rem;
+  font-size: 28px;
+  font-size: 2.8rem;
 }
 .feature-article-list p {
   font-size: 16px;
@@ -3228,6 +3217,7 @@ table tbody tr:hover th {
   .image-grid li:nth-child(6) {
     margin-right: 0;
   }
+  /* Navigation =================================================== */
   [role="navigation"] {
     -webkit-transition: 0.4s linear;
     -moz-transition: 0.4s linear;
@@ -3241,6 +3231,7 @@ table tbody tr:hover th {
   .feature [role="navigation"] ul {
     padding: 0 24px;
   }
+  /* Sections =================================================== */
   .toc-wrapper {
     padding: 100px 156px 0;
   }
@@ -3252,7 +3243,6 @@ table tbody tr:hover th {
     width: 80%;
     padding: 0;
     z-index: 1;
-    text-align: center;
   }
   .cover-wrapper hgroup h1 {
     color: #ffffff;
@@ -3261,6 +3251,7 @@ table tbody tr:hover th {
     font-size: 8rem;
     line-height: 80px;
     line-height: 8rem;
+    font-weight: 400;
   }
   .cover-wrapper hgroup h2 {
     font-size: 30px;
@@ -3317,6 +3308,11 @@ table tbody tr:hover th {
     margin: 0 24px;
     text-align: left;
   }
+  /* Content =================================================== */
+  .content-wrapper p:first-child {
+    font-size: 20px;
+    font-size: 2rem;
+  }
 }
 @media only screen and (min-width: 992px) {
   /* 992 =================================================== */
@@ -3371,9 +3367,11 @@ table tbody tr:hover th {
   aside figure {
     margin-right: inherit;
   }
+  /* Navigation =================================================== */
   .feature [role="navigation"] ul {
     padding: 0 156px;
   }
+  /* Article Listing =================================================== */
   .toc-wrapper article:last-child h1,
   .toc-wrapper article:last-child h2,
   .toc-wrapper article:last-child p {
@@ -3447,10 +3445,12 @@ table tbody tr:hover th {
     padding-top: 1.5em;
     border-top: 5px solid #000000;
   }
+  /* Sections =================================================== */
   .byline li {
     display: list-item;
   }
   .cover-wrapper hgroup {
+    margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
   .cover-wrapper hgroup h1 {
@@ -3492,6 +3492,21 @@ table tbody tr:hover th {
   .footer-wrapper h3,
   .footer-wrapper h4 {
     text-align: center;
+  }
+  /* Content =================================================== */
+  .toc-wrapper h1 {
+    margin-bottom: 0.375em;
+    font-size: 60px;
+    font-size: 6rem;
+  }
+  .feature-article-list h1 {
+    font-size: 32px;
+    font-size: 3.2rem;
+  }
+  .article-list h1,
+  .simple-article-list h1 {
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 @media only screen and (min-width: 1382px) {

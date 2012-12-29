@@ -49,13 +49,13 @@ aside figure {
 	margin-right: inherit;
 }
 // 6. LAYOUT 				==============================
-// NAVIGATION
+/* Navigation =================================================== */
 .feature [role="navigation"] {
 	ul {
 		padding: 0 (@basewidth * 3.25);
 	}
 }
-// ARTICLE LISTING
+/* Article Listing =================================================== */
 .toc-wrapper {
 	article:last-child {
 		h1, h2, p {
@@ -135,7 +135,7 @@ aside figure {
 	padding-top: @baselineheight;
 	border-top: 5px solid @black;
 }
-// CURTAINS
+/* Sections =================================================== */
 .byline {
 	li {
 		display: list-item;
@@ -143,6 +143,7 @@ aside figure {
 }
 .cover-wrapper {
 	hgroup {
+		margin-top: @baselineheight;
 		margin-bottom: @baselineheight;
 		h1 {
 			.font-size(100);
@@ -174,6 +175,24 @@ aside figure {
 	}
 	h2, h3, h4 {
 		text-align: center;
+	}
+}
+/* Content =================================================== */
+.toc-wrapper {
+	h1 {
+		margin-bottom: @baselineheight / 4;
+		.font-size(60);
+	}
+}
+.feature-article-list {
+	h1 {
+		.font-size(32);
+	}
+}
+.article-list,
+.simple-article-list {
+	h1 {
+		.font-size(18);
 	}
 }
 // 7. VENDOR-SPECIFIC 		==============================

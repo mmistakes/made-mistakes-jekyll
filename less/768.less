@@ -33,7 +33,7 @@ figure {
    }
 }
 // 6. LAYOUT 				==============================
-// NAVIGATION
+/* Navigation =================================================== */
 [role="navigation"] {
 	.transition(.4s linear);
 	ul {
@@ -45,6 +45,7 @@ figure {
 		padding: 0 (@basewidth / 2);
 	}
 }
+/* Sections =================================================== */
 .toc-wrapper {
 	padding: 100px (@basewidth * 3.25) 0;
 }
@@ -57,13 +58,12 @@ figure {
 		width: 80%;
 		padding: 0;
 		z-index: 1;
-		text-align: center;
 		h1 {
 			color: @white;
 			.text-shadow();
 			.font-size(80);
 			.lineheight(80);
-			// border-top: 4px double @white;
+			font-weight: 400;
 		}
 		h2 {
 			.font-size(30);
@@ -101,6 +101,12 @@ figure {
 			margin: 0 (@basewidth / 2);
 			text-align: left;
 		}
+	}
+}
+/* Content =================================================== */
+.content-wrapper {
+	p:first-child {
+		.font-size(20);
 	}
 }
 //  7. VENDOR-SPECIFIC 		==============================
