@@ -95,10 +95,6 @@
 }
 .cover-wrapper {
 	position: relative;
-	img {
-		height: auto;
-		width: 100%;
-	}
 	hgroup {
 		padding: 0 (@basewidth / 2);
 		text-align: center;
@@ -246,6 +242,10 @@
 	float: left;
 }
 .toc-wrapper {
+	.content-wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	padding-top: 80px;
 	h1 {
 		font-weight: 300;

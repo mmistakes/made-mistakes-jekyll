@@ -9,11 +9,11 @@
 
 /* 992 =================================================== */
 // 1. ROOT 					==============================
-.fixed-left {
+.fixed-left,
+.feature .fixed-left {
 	.column(2);
-	.push(1);
-	margin-left: -80%;
 	padding-top: @basewidth;
+	padding-left: @basewidth;
 }
 .pull-left {
 	.column(2);
@@ -34,27 +34,26 @@ blockquote.inline {
 // 3. COLOUR 				==============================
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
-figure {
-	margin-right: -(@basewidth) * 2;
-	&.half img,
-	&.half div {
-		.column(6);
+.content-wrapper {
+	figure {
+		margin-left: -(@basewidth) * 2;
+		&.half img,
+		&.half div {
+			.column(6);
+		}
+		&.third img,
+		&.third div {
+			.column(4);
+		}
 	}
-	&.third img,
-	&.third div {
-		.column(4);
+	figcaption {
+		margin-left: (@basewidth * 2);
 	}
 }
 aside figure {
 	margin-right: inherit;
 }
 // 6. LAYOUT 				==============================
-/* Navigation =================================================== */
-.feature [role="navigation"] {
-	ul {
-		padding: 0 (@basewidth * 3.25);
-	}
-}
 /* Article Listing =================================================== */
 .toc-wrapper {
 	article:last-child {
@@ -121,12 +120,6 @@ aside figure {
 		opacity: 0.4;
 	}
 }
-.no-svg .article .content-wrapper,
-.svg .article .content-wrapper {
-	&:after {
-		left: -66.66666666666666%;
-	}
-}
 .simple-article-list {
 	display: inline;
 	float: left;
@@ -155,10 +148,15 @@ aside figure {
 		}
 	}
 }
-.content-wrapper {
+.content-wrapper,
+.feature .content-wrapper {
 	.column(6);
-	.push(4);
+	.push(2);
 	padding-bottom: @baselineheight;
+}
+.article .content-wrapper {
+	margin-left: 0;
+	padding-left: 210px;
 }
 .photo-wrapper {
 	.column(6);

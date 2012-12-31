@@ -12,6 +12,10 @@
 body {
 display : table; 
 border-collapse : collapse; }
+.feature .fixed-left {
+	.column(7);
+	.push(2);
+}
 // 2. TYPOGRAPHY 			==============================
 // 3. COLOUR 				==============================
 // 4. TEXTURE 				==============================
@@ -36,14 +40,6 @@ figure {
 /* Navigation =================================================== */
 [role="navigation"] {
 	.transition(.4s linear);
-	ul {
-		padding: 0 (@basewidth * 3.25);
-	}
-}
-.feature [role="navigation"] {
-	ul {
-		padding: 0 (@basewidth / 2);
-	}
 }
 /* Sections =================================================== */
 .toc-wrapper {
@@ -74,10 +70,6 @@ figure {
 		}
 	}
 }
-.content-wrapper,
-.photo-wrapper {
-	padding: inherit (@basewidth * 1.25) 0 (@basewidth / 2);
-}
 .quote-wrapper {
 	blockquote {
 		top: 30%;
@@ -103,11 +95,14 @@ figure {
 		}
 	}
 }
-/* Content =================================================== */
 .content-wrapper {
 	p:first-child {
 		.font-size(20);
 	}
+}
+.feature .content-wrapper {
+	.column(7);
+	.push(2);
 }
 //  7. VENDOR-SPECIFIC 		==============================
 //  8. MODERNIZR 			==============================

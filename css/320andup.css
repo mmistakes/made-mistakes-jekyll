@@ -219,6 +219,7 @@ body {
 }
 .push-right {
   float: right;
+  margin-left: 0 !important;
 }
 .photo_left {
   float: left;
@@ -369,33 +370,41 @@ article em > a:hover {
   border-bottom: none;
   color: #000000;
 }
+.article .footer-wrapper,
 .feature .footer-wrapper {
   clear: both;
   background: #343434 url(../images/twinkle_twinkle.png);
 }
+.article .footer-wrapper footer,
 .feature .footer-wrapper footer {
   padding-top: 1.5em;
   font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #9a9a9a;
 }
+.article .footer-wrapper footer a,
 .feature .footer-wrapper footer a,
+.article .footer-wrapper footer a:visited,
 .feature .footer-wrapper footer a:visited {
   color: #9a9a9a;
   border-bottom: none;
   text-decoration: none;
 }
+.article .footer-wrapper footer a:hover,
 .feature .footer-wrapper footer a:hover {
   text-decoration: none;
   border-bottom: none;
   color: #cdcdcd;
 }
+.article .footer-wrapper footer h2,
 .feature .footer-wrapper footer h2 {
   color: #9a9a9a;
 }
+.article .footer-wrapper footer h4,
 .feature .footer-wrapper footer h4 {
   margin-top: 1.5em;
 }
+.article .footer-wrapper footer h4 a:hover,
 .feature .footer-wrapper footer h4 a:hover {
   border-bottom: none;
   color: #9a9a9a;
@@ -1744,6 +1753,7 @@ hr {
 }
 img {
   max-width: 100%;
+  height: auto;
   border-width: 0;
   vertical-align: middle;
   -ms-interpolation-mode: bicubic;
@@ -1755,6 +1765,7 @@ figure {
   margin-bottom: 1.5em;
 }
 figure img {
+  width: 100%;
   margin-bottom: 0.375em;
 }
 figure figcaption {
@@ -2031,64 +2042,6 @@ figure figcaption {
   padding: 10px;
   background: #000;
   background: rgba(0, 0, 0, 0.8);
-}
-/* Elastislide Style */
-.es-carousel-wrapper {
-  margin-bottom: 2.25em;
-  background: #000000;
-  padding: 10px 37px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  position: relative;
-  clear: both;
-}
-.es-carousel {
-  overflow: hidden;
-  background: #000000;
-}
-.es-carousel ul {
-  display: none;
-  list-style: none;
-}
-.es-carousel ul li {
-  height: 100%;
-  float: left;
-  display: block;
-}
-.es-carousel ul li a {
-  display: block;
-  border-style: solid;
-  border-color: #343434;
-}
-.es-carousel ul li a:hover {
-  border-color: #ffffff;
-}
-.es-carousel ul li a img {
-  display: block;
-  border: none;
-  max-height: 100%;
-  max-width: 100%;
-}
-.es-nav span {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  background: transparent url(../images/nav.png) no-repeat top left;
-  width: 14px;
-  height: 26px;
-  margin-top: -13px;
-  text-indent: -9000px;
-  cursor: pointer;
-  opacity: 0.8;
-}
-.es-nav span.es-nav-next {
-  right: 12px;
-  left: auto;
-  background-position: top right;
-}
-.es-nav span:hover {
-  opacity: 1.0;
 }
 /* Forms =================================================== */
 form {
@@ -2814,10 +2767,6 @@ table tbody tr:hover th {
 .cover-wrapper {
   position: relative;
 }
-.cover-wrapper img {
-  height: auto;
-  width: 100%;
-}
 .cover-wrapper hgroup {
   padding: 0 24px;
   text-align: center;
@@ -2998,6 +2947,10 @@ table tbody tr:hover th {
 .toc-wrapper {
   padding-top: 80px;
 }
+.toc-wrapper .content-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
 .toc-wrapper h1 {
   font-weight: 300;
   margin-bottom: 0.25em;
@@ -3171,15 +3124,19 @@ table tbody tr:hover th {
     width: 24%;
     margin: 0 1% 1% 0;
   }
-  .toc-wrapper .content-wrapper {
-    padding-left: 0;
-  }
 }
 @media only screen and (min-width: 768px) {
   /* 768 =================================================== */
   body {
     display: table;
     border-collapse: collapse;
+  }
+  .feature .fixed-left {
+    display: inline;
+    float: left;
+    width: 58.333333333333336%;
+    margin: 0 0%;
+    margin-left: 16.666666666666664%;
   }
   figure figcaption {
     padding: inherit;
@@ -3226,12 +3183,6 @@ table tbody tr:hover th {
     -o-transition: 0.4s linear;
     transition: 0.4s linear;
   }
-  [role="navigation"] ul {
-    padding: 0 156px;
-  }
-  .feature [role="navigation"] ul {
-    padding: 0 24px;
-  }
   /* Sections =================================================== */
   .toc-wrapper {
     padding: 100px 156px 0;
@@ -3262,10 +3213,6 @@ table tbody tr:hover th {
     color: #ffffff;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
     margin-bottom: 60px;
-  }
-  .content-wrapper,
-  .photo-wrapper {
-    padding: inherit 60px 0 24px;
   }
   .quote-wrapper blockquote {
     top: 30%;
@@ -3309,22 +3256,28 @@ table tbody tr:hover th {
     margin: 0 24px;
     text-align: left;
   }
-  /* Content =================================================== */
   .content-wrapper p:first-child {
     font-size: 20px;
     font-size: 2rem;
   }
+  .feature .content-wrapper {
+    display: inline;
+    float: left;
+    width: 58.333333333333336%;
+    margin: 0 0%;
+    margin-left: 16.666666666666664%;
+  }
 }
 @media only screen and (min-width: 992px) {
   /* 992 =================================================== */
-  .fixed-left {
+  .fixed-left,
+  .feature .fixed-left {
     display: inline;
     float: left;
     width: 16.666666666666664%;
     margin: 0 0%;
-    margin-left: 8.333333333333332%;
-    margin-left: -80%;
     padding-top: 48px;
+    padding-left: 48px;
   }
   .pull-left {
     display: inline;
@@ -3348,29 +3301,28 @@ table tbody tr:hover th {
     border-right: 4px solid #000000;
     padding-right: 24px;
   }
-  figure {
-    margin-right: -96px;
+  .content-wrapper figure {
+    margin-left: -96px;
   }
-  figure.half img,
-  figure.half div {
+  .content-wrapper figure.half img,
+  .content-wrapper figure.half div {
     display: inline;
     float: left;
     width: 50%;
     margin: 0 0%;
   }
-  figure.third img,
-  figure.third div {
+  .content-wrapper figure.third img,
+  .content-wrapper figure.third div {
     display: inline;
     float: left;
     width: 33.33333333333333%;
     margin: 0 0%;
   }
+  .content-wrapper figcaption {
+    margin-left: 96px;
+  }
   aside figure {
     margin-right: inherit;
-  }
-  /* Navigation =================================================== */
-  .feature [role="navigation"] ul {
-    padding: 0 156px;
   }
   /* Article Listing =================================================== */
   .toc-wrapper article:last-child h1,
@@ -3434,10 +3386,6 @@ table tbody tr:hover th {
     background: transparent url(../images/mm-circle-vector.svg) no-repeat;
     opacity: 0.4;
   }
-  .no-svg .article .content-wrapper:after,
-  .svg .article .content-wrapper:after {
-    left: -66.66666666666666%;
-  }
   .simple-article-list {
     display: inline;
     float: left;
@@ -3466,13 +3414,18 @@ table tbody tr:hover th {
     line-height: 40px;
     line-height: 4rem;
   }
-  .content-wrapper {
+  .content-wrapper,
+  .feature .content-wrapper {
     display: inline;
     float: left;
     width: 50%;
     margin: 0 0%;
-    margin-left: 33.33333333333333%;
+    margin-left: 16.666666666666664%;
     padding-bottom: 1.5em;
+  }
+  .article .content-wrapper {
+    margin-left: 0;
+    padding-left: 210px;
   }
   .photo-wrapper {
     display: inline;
