@@ -2924,7 +2924,7 @@ table tbody tr:hover th {
   margin: 30px auto;
   position: relative;
 }
-.wrapper-image:before {
+.wrapper-image:after {
   content: "";
   position: absolute;
   top: 0;
@@ -3468,7 +3468,4 @@ table tbody tr:hover th {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* 2x =================================================== */
-  .cover {
-    background-image: url(../images/twinkle_twinkle_@2X.png);
-  }
 }
