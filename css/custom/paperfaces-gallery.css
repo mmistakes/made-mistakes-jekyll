@@ -30,6 +30,16 @@ html {
 [role="banner"] {
   height: 100px;
 }
+[role="banner"] h1 {
+  color: #ffffff;
+}
+[role="banner"] h1 a,
+[role="banner"] h1 a:visited {
+  color: #ffffff;
+}
+[role="banner"] h2 {
+  color: #ffffff;
+}
 hr {
   border-bottom: 0 solid transparent;
 }
