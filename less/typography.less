@@ -9,7 +9,7 @@
 
 /* Typography =================================================== */
 
-// HEADINGS ====================================================
+// HEADINGS =================================================
 h1, 
 h2, 
 h3, 
@@ -65,7 +65,7 @@ h6,
 	text-transform: uppercase; 
 }
 
-// TYPOGRAPHY ====================================================
+// MAIN ================================================
 p, 
 ol, 
 ul, 
@@ -107,7 +107,20 @@ article em > a:hover {
 	text-decoration: none;
 	border-bottom: 1px dotted @basecolor;
 }
-// footer styling
+// FOOTNOTES
+.footnotes {
+	hr {
+		margin: @baselineheight inherit (@baselineheight * 3) 0;
+		width: 8em;
+	}
+	ol {
+		list-style-type: decimal;
+	}
+	p {
+		.font-size(12);
+	}
+}
+// FOOTER
 .footer-wrapper {
 	clear: both;
 }
@@ -141,7 +154,7 @@ article em > a:hover {
 		}
 	}
 }
-// footer styling inverse
+// FOOTER INVERSE
 .article .footer-wrapper,
 .feature .footer-wrapper {
 	clear: both;
@@ -215,8 +228,7 @@ article em > a:hover {
 		}
 	}
 }
-
-// blockquote
+// BLOCKQUOTE
 blockquote  { 
 	margin: @baselineheight 0;
 	font-family: @baseheadingfont;

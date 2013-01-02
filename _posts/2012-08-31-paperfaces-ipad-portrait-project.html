@@ -871,10 +871,11 @@ pictures:
 </section>
 <section id="slide2">
   <div class="content-wrapper">
-      <ul id="portrait-gallery" class="image-grid unstyled">
+      <div class="holder"></div><!-- /.holder -->
+      <ul id="itemContainer" class="image-grid unstyled">
           {% for pic in page.pictures %}
           <li>
-            <a href="{{ site.base_url }}/images/{{ pic.large }}" title="iPad drawing of {{ pic.title }}"><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}" /></a>
+            <a href="{{ site.base_url }}/images/{{ pic.large }}" title="PaperFaces portrait of {{ pic.title }}"><img src="{{ site.base_url }}/images/preload.gif" data-original="{{ site.base_url }}/images/{{ pic.thumb }}" class="lazy" alt="{{ pic.alt }}" /><noscript><img src="{{ site.base_url }}/images/{{ pic.thumb }}" alt="{{ pic.alt }}"></noscript></a>
           </li>
           {% endfor %}
       </ul>
