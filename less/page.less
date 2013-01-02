@@ -294,3 +294,38 @@
 		font-weight: 300;
 	}
 }
+/* jPages and Lazy Load =========================================== */
+// Navigation holder
+.holder {
+	margin: 15px 0;
+	a {
+		cursor: pointer;
+		margin: 0 5px;
+	}
+	a.jp-previous {
+		margin-right: 15px;
+	}
+	a.jp-next {
+		margin-left: 15px;
+	}
+	a.jp-current {
+		font-weight: bold;
+	}
+	a.jp-disabled, 
+	a.jp-disabled:hover {
+	}
+	a.jp-current, 
+	a.jp-current:hover,  
+	a.jp-disabled, 
+	a.jp-disabled:hover {
+		cursor: default;
+		background: none;
+	}
+	span {
+		margin: 0 5px;
+	}
+}
+// Remove duplicate images when Javascript is disabled
+.lazy {
+	display: none;
+}
