@@ -47,7 +47,7 @@
   $(function() {
 
     /* initiate lazyload defining a custom event to trigger image loading  */
-    $("img.lazy").lazyload({
+    $("img.lazy").show().lazyload({
       event : "turnPage",
       effect : "fadeIn"
     });
