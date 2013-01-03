@@ -338,6 +338,14 @@ article em > a:hover {
   text-decoration: none;
   border-bottom: 1px dotted #343434;
 }
+.footnote hr {
+  margin: 1.5em inherit 4.5em 0;
+  width: 8em;
+}
+.footnote p {
+  font-size: 12px !important;
+  font-size: 1.2rem !important;
+}
 .footer-wrapper {
   clear: both;
 }
@@ -2999,6 +3007,120 @@ table tbody tr:hover th {
 .simple-article-list p {
   font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
   font-weight: 300;
+}
+/* jPages and Lazy Load =========================================== */
+.holder {
+  margin: 15px 0;
+}
+.holder a {
+  cursor: pointer;
+  margin: 0 5px;
+}
+.holder a.jp-previous {
+  margin-right: 15px;
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  padding: 6px 11px 6px;
+  margin-bottom: 0;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #404040;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#d9d9d9));
+  background-image: -webkit-linear-gradient(top, #ffffff, #d9d9d9);
+  background-color: #d9d9d9;
+  background-image: -moz-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -ms-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -o-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: linear-gradient(top, #ffffff, #d9d9d9);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  *margin-left: .3em;
+}
+.holder a.jp-previous [class^="icon-"],
+.holder a.jp-previous [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+
+  line-height: .9em;
+}
+.holder a.jp-previous:visited,
+.holder a.jp-previous:hover {
+  color: #404040;
+  text-decoration: none;
+}
+.holder a.jp-next {
+  margin-left: 15px;
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  padding: 6px 11px 6px;
+  margin-bottom: 0;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #404040;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#d9d9d9));
+  background-image: -webkit-linear-gradient(top, #ffffff, #d9d9d9);
+  background-color: #d9d9d9;
+  background-image: -moz-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -ms-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -o-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: linear-gradient(top, #ffffff, #d9d9d9);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  *margin-left: .3em;
+}
+.holder a.jp-next [class^="icon-"],
+.holder a.jp-next [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+
+  line-height: .9em;
+}
+.holder a.jp-next:visited,
+.holder a.jp-next:hover {
+  color: #404040;
+  text-decoration: none;
+}
+.holder a.jp-current {
+  font-weight: bold;
+}
+.holder a.jp-current,
+.holder a.jp-current:hover,
+.holder a.jp-disabled,
+.holder a.jp-disabled:hover {
+  cursor: default;
+  background: none;
+}
+.holder span {
+  margin: 0 5px;
+}
+.lazy {
+  display: none;
 }
 @media print {
   /* Print =================================================== */
