@@ -328,21 +328,31 @@ ol.unstyled {
 }
 article p > a,
 article li > a,
-article em > a {
+article em > a,
+article a > em,
+.content-wrapper p > a,
+.content-wrapper li > a,
+.content-wrapper em > a,
+.content-wrapper a > em {
   text-decoration: none;
   border-bottom: 1px dotted #b3b3b3;
 }
 article p > a:hover,
 article li > a:hover,
-article em > a:hover {
+article em > a:hover,
+article a:hover > em,
+.content-wrapper p > a:hover,
+.content-wrapper li > a:hover,
+.content-wrapper em > a:hover,
+.content-wrapper a:hover > em {
   text-decoration: none;
   border-bottom: 1px dotted #343434;
 }
 .footnote hr {
-  margin: 1.5em inherit 4.5em 0;
+  margin: 1.5em 0;
   width: 8em;
 }
-.footnote p {
+.footnote li {
   font-size: 12px !important;
   font-size: 1.2rem !important;
 }
