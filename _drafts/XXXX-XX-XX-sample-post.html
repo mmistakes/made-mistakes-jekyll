@@ -1,33 +1,26 @@
 ---
-layout: article
+layout: feature-article
 title: "Article Title Goes Here"
 headline: "Headline Goes Here"
 subheadline: "Subheadline Goes Here"
 description: "A short description of the article."
 date: YYYY-MM-DD
-image: large-marque-image-name.jpg
+image: large-marque-image-name
 thumb: square-thumbnail-image.jpg
 screenshot: screenshot-of-custom-designed-article-for-feed.jpg
 category: articles
-keywords: 
+tags: 
 - keyword1
 - keyword2
 - keyword3
 ---
-<article class="content-wide clearfix">
-	<section id="intro">
-		<p>Intro text goes here.</p>
-	</section>
-	<section>
-		<p>Main content here.</p>
-		<figure><img src="{{ site.base_url }}/images/image-name.jpg" alt="Image description for screen readers" />
-			<figcaption>Image caption</figcaption>
+<section>
+    <div class="content-wrapper">
+		<p></p>
+	</div><!-- /.content-wrapper -->
+	<aside role="complementary" class="fixed-left">
+		<figure>
+			<img src="{{ site.base_url }}/images/FILENAME.jpg" alt="" />
 		</figure>
-	</section>
-</article><!-- /.content-wide -->
-<aside role="complementary">
-	<figure>
-		<a href="{{ site.base_url }}/images/image-name.jpg" title="Title goes here"><img src="{{ site.base_url }}/images/COM-record-sleeve-typography-300.jpg" alt="Image description goes here" /></a>
-		<figcaption>Image caption goes here</figcaption>
-	</figure>
-</aside>
+	</aside>
+</section>
