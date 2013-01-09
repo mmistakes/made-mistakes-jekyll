@@ -2975,6 +2975,10 @@ table tbody tr:hover th {
   line-height: 1;
   text-transform: uppercase;
 }
+.toc-wrapper h1 a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #343434;
+}
 .toc-wrapper h2 {
   text-transform: uppercase;
 }
@@ -2990,12 +2994,14 @@ table tbody tr:hover th {
   text-rendering: optimizelegibility;
 }
 .feature-article-list h1 {
+  margin-bottom: 0.5em;
   font-size: 28px;
   font-size: 2.8rem;
 }
 .feature-article-list p {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  padding-top: 5px;
 }
 .article-list span,
 .simple-article-list span {
