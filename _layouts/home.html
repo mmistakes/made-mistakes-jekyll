@@ -38,7 +38,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
           <img src="{{ site.base_url }}/images/{{ post.image }}-xl.jpg" alt="{{ post.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->
       <article class="feature-article-list">
-        <span><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
+        <span>Updated <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
         <h1><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
         <p>{{ post.description }}</p>
       </article>
