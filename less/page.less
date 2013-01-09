@@ -252,6 +252,12 @@
 		margin-bottom: @baselineheight / 6;
 		line-height: 1;
 		text-transform: uppercase;
+		a {
+			&:hover {
+				text-decoration: none;
+				border-bottom: 1px dotted @basecolor;
+			}
+		}
 	}
 	h2 {
 		text-transform: uppercase;
@@ -269,10 +275,13 @@
 		text-rendering: optimizelegibility;
 	}
 	h1 {
+		margin-bottom: @baselineheight / 3;
 		.font-size(28);
 	}
 	p {
-		.font-size(16);
+		font-family: @baseheadingfont;
+		font-weight: 300;
+		padding-top: 5px;
 	}
 }
 .article-list,
