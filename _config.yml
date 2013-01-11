@@ -66,4 +66,4 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: style
 
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "mademistakes.sublime-project", "mademistakes.sublime-workspace"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "codekit-config.json", "mademistakes.sublime-project", "mademistakes.sublime-workspace"]

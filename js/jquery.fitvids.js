@@ -1,4 +1,3 @@
-/*global jQuery */
 /*! 
 * FitVids 1.0
 *
