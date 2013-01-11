@@ -15,12 +15,16 @@
                 320andUp <http://stuffandnonsense.co.uk/projects/320andup/>
                 LESS <http://lesscss.org/>
                 jQuery <http://jquery.com/>
+                head.js <http://headjs.com/>
+                Selectivizr <http://selectivizr.com/>
                 The Semantic Grid System <http://semantic.gs/>
                 FitVids <http://fitvidsjs.com/>
                 Fancybox <http://fancyapps.com/fancybox/>
+                jQuery jPages <https://github.com/luis-almeida/>
+                Lazy Load <http://www.appelsiini.net/projects/lazyload/>
    Software:    Adobe Creative Suite
                 Sublime Text 2
-                SimpLESS
+                CodeKit
                 Gitbox
                 Cyberduck
                 MAMP
@@ -33,4 +37,3 @@
 
    HTML5 Boilerplate <http://html5boilerplate.com/>
    Twitter Bootstrap <http://twitter.github.com/bootstrap/>
-   Modernizr <http://modernizr.com/>   
