@@ -4,11 +4,13 @@ server:      false
 server_port: 4000
 base_url:    http://localhost:4000
 base_url:    http://10.0.1.3:4000
-base_url:    http://mademistakes.com
+#base_url:    http://mademistakes.com
 
 source:      .
 destination: ./_site
 plugins:     ./_plugins
+
+ga_account:  UA-2011187-1
 
 future:      true
 lsi:         false
@@ -47,7 +49,7 @@ maruku:
   png_url:    /images/latex
 
 rdiscount:
-  extensions: []
+  extensions: [smart]
 
 kramdown:
   auto_ids: true,
