@@ -68,9 +68,12 @@ page-break-inside : avoid; }
 
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
+nav,
 .menu,
 .byline,
-.toc {
+.toc, 
+footer,
+.chrome-frame {
 	.hidden();
 }
 .cover-wrapper {
@@ -79,7 +82,6 @@ page-break-inside : avoid; }
 		top: auto;
 		left: auto;
 		min-width: 100%;
-		min-height: 100%;
 		page-break-inside: avoid;
 	}
 	hgroup {
