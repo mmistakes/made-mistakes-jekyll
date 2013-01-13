@@ -1,0 +1,157 @@
+<!doctype html>
+
+<!-- 
+320 and Up by Andy Clarke
+Version: 3.0
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+-->
+
+<!-- HTML5 Mobile Boilerplate -->
+<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+{% include head.html %}
+{% if page.css %}<link rel="stylesheet" href="{{ site.base_url }}/css/custom/{{ page.css }}">{% endif %}
+<style type="text/css">
+	.lazy { display: none; }
+</style>
+</head>
+
+<body>
+
+{% include chrome-frame.html %}
+
+<nav role="navigation">
+    {% include nav.html %}
+</nav>
+
+<div id="main" role="main" class="clearfix">
+	<header role="banner">
+        <hgroup>
+            <div class="header-wrapper">
+                <h1 id="responsive-h1"><a href="{{ site.base_url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.headline }}</a></h1>
+                <h2 id="responsive-h2"><span>{{ page.subheadline }}</span></h2>
+            </div><!-- /.header-wrapper -->
+        </hgroup>
+    </header>
+    <div class="center">
+       	<div class="credits hidden-phone">
+         	<aside id="published">
+            	<p>This article was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" rel="me">Michael Rose</a>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
+             	<ul class="icons unstyled">
+                	<li><i class="icon-twitter-sign"></i> <a href="http://twitter.com/mmistakes" title="Michael Rose on Twitter" target="_blank">Twitter</a></li>
+                	<li><i class="icon-facebook-sign"></i> <a href="http://facebook.com/michaelrose" title="Michael Rose on Facebook" target="_blank">Facebook</a></li>
+                	<li><i class="icon-linkedin-sign"></i> <a href="http://www.linkedin.com/in/michaelrose" title="Michael Rose on LinkedIn" target="_blank">LinkedIn</a></li>
+                	<li><i class="icon-google-plus-sign"></i> <a href="https://plus.google.com/u/0/118238196859537351707/about?rel=author" title="Michael Rose on Google+" target="_blank">Google+</a></li>
+                	<li><i class="icon-rss"></i> <a href="http://feeds.feedburner.com/MadeMistakes" title="Made Mistakes RSS Feed" target="_blank">RSS</a></li>
+                </ul>
+            </aside><!-- /#published -->
+       	</div><!-- /.credits -->
+       	{{ content }}
+    </div><!-- /.center -->
+</div><!-- /#main -->
+
+<hr />
+
+<footer>
+{% include footer.html %}
+</footer>	
+
+{% include scripts.html %}
+<script type="text/javascript" src="{{ site.base_url }}/js/jquery.proximity.min.js"></script>
+    <!-- jQuery Proximity script options -->
+    <script type="text/javascript">
+        $(function() {
+            
+            var Photo	= (function() {
+                    
+                    // list of thumbs
+                var $list		= $('#pe-thumbs'),
+                    // the images
+                    $elems		= $list.find('img'),
+                    // maxScale : maximum scale value the image will have
+                    // minOpacity / maxOpacity : minimum (set in the CSS) and maximum values for the image's opacity
+                    settings	= {
+                        maxScale	: 1.4,
+                        maxOpacity	: 0.9,
+                        minOpacity	: Number( $elems.css('opacity') )
+                    },
+                    init		= function() {
+                        
+                        // minScale will be set in the CSS
+                        settings.minScale = _getScaleVal() || 1;
+                        _initEvents();
+                    
+                    },
+                    // Get Value of CSS Scale through JavaScript:
+                    // http://css-tricks.com/get-value-of-css-rotation-through-javascript/
+                    _getScaleVal= function() {
+                    
+                        var st = window.getComputedStyle($elems.get(0), null),
+                            tr = st.getPropertyValue("-webkit-transform") ||
+                                 st.getPropertyValue("-moz-transform") ||
+                                 st.getPropertyValue("-ms-transform") ||
+                                 st.getPropertyValue("-o-transform") ||
+                                 st.getPropertyValue("transform") ||
+                                 "fail...";
+
+                        if( tr !== 'none' ) {	 
+
+                            var values = tr.split('(')[1].split(')')[0].split(','),
+                                a = values[0],
+                                b = values[1],
+                                c = values[2],
+                                d = values[3];
+
+                            return Math.sqrt( a * a + b * b );
+                        
+                        }
+                        
+                    },
+                    _initEvents	= function() {
+                        
+                        // the proximity event
+                        $elems.on('proximity.Photo', { max: 80, throttle: 10, fireOutOfBounds : true }, function( event, proximity, distance ) {
+                            
+                            var $el			= $(this),
+                                $li			= $el.closest('li'),
+                                scaleVal	= proximity * ( settings.maxScale - settings.minScale ) + settings.minScale,
+                                scaleExp	= 'scale(' + scaleVal + ')';
+                            
+                            // change the z-index of the element once it reaches the maximum scale value
+                            ( scaleVal === settings.maxScale ) ? $li.css( 'z-index', 1000 ) : $li.css( 'z-index', 1 );
+                            
+                            $el.css({
+                                '-webkit-transform'	: scaleExp,
+                                '-moz-transform'	: scaleExp,
+                                '-o-transform'		: scaleExp,
+                                '-ms-transform'		: scaleExp,
+                                'transform'			: scaleExp,
+                                'opacity'			: ( proximity * ( settings.maxOpacity - settings.minOpacity ) + settings.minOpacity )
+                            });
+
+                        });
+                    
+                    }
+                
+                return {
+                    init	: init
+                };
+            
+            })();
+            
+            Photo.init();
+            
+        });
+</script>	        
+
+</body>
+</html>

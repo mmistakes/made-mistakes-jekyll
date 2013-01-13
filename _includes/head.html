@@ -28,143 +28,14 @@
 <!-- Google Webfonts -->
 <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300" rel="stylesheet" type="text/css">
 <!-- For all browsers -->
-<link href="{{ site.base_url }}/css/style.css" rel="stylesheet">
+<link href="{{ site.base_url }}/css/style.css?v011213" rel="stylesheet">
 <link href="{{ site.base_url }}/css/animate.css" rel="stylesheet">
 
 <!--[if (lt IE 9) & (!IEMobile)]>
-<script src="{{ site.base_url }}/js/selectivizr.min.js"></script>
+<script src="{{ site.base_url }}/js/selectivizr-min.js"></script>
 <![endif]-->
 
-<!-- JavaScript -->
-<script src="{{ site.base_url }}/js/head.min.js"></script>
-<script>
-// execute function after all scripts have been loaded
-head.js("//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js", "{{ site.base_url }}/js/jquery.jpages.min.js", "{{ site.base_url }}/js/jquery.fancybox.min.js", "{{ site.base_url }}/js/jquery.fitvids.min.js", "{{ site.base_url }}/js/jquery.lazyload.min.js", function() {
-	// Avoid `console` errors in browsers that lack a console.
-	(function() {
-		var method;
-		var noop = function () {};
-		var methods = [
-			'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
-			'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-			'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
-			'timeStamp', 'trace', 'warn'
-		];
-		var length = methods.length;
-		var console = (window.console = window.console || {});
-	
-		while (length--) {
-			method = methods[length];
-	
-			// Only stub undefined methods.
-			if (!console[method]) {
-				console[method] = noop;
-			}
-		}
-	}());
-	
-	// Asynchronous Google Analytics snippet
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', '{{ site.ga_account }}']);
-	_gaq.push(['_trackPageview']);
-	
-	(function() {
-	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	})();
-	
-	// Load Tweet Button Script & Associate Google Analytics Tracking
-	var e = document.createElement('script');
-	e.type="text/javascript"; e.async = true;
-	e.src = 'http://platform.twitter.com/widgets.js';
-	document.getElementsByTagName('head')[0].appendChild(e);
-	$(e).load(function() {
-	  function tweetIntentToAnalytics(intent_event) {
-	    if (intent_event) {
-	      var label = intent_event.data.tweet_id;
-	      _gaq.push(['_trackEvent', 'twitter_web_intents',
-		    intent_event.type, label]);
-	      clicky.log(document.location.href,'Twitter '+label);
-	    }
-	  }
-	  function followIntentToAnalytics(intent_event) {
-	    if (intent_event) {
-	      var label = intent_event.data.user_id + " (" +
-		   intent_event.data.screen_name + ")";
-	      _gaq.push(['_trackEvent', 'twitter_web_intents',
-		   intent_event.type, label]);
-	      clicky.log(document.location.href,'Twitter '+label);
-	    }
-	  }
-	  twttr.events.bind('tweet',    tweetIntentToAnalytics);
-	  twttr.events.bind('follow',   followIntentToAnalytics);
-	});
-
-	// Place any jQuery/helper plugins in here
-	
-	// FitVids options
-	$(".content-wrapper").fitVids();
-	
-	// FancyBox options
-	$(document).ready(function() {
-	  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
-		beforeShow: function () {
-		if (this.title) {
-		// Add tweet button
-		this.title += '<br /><a href="https://twitter.com/share" class="twitter-share-button" data-url="' + this.href + '" data-text="' + this.title + '" data-via="mmistakes" data-lang="en">Tweet</a>';
-		// Add Pinterest button
-		this.title += '<a class="pin-it-button" href="http://pinterest.com/pin/create/button/?url='+
-	  encodeURIComponent(document.location.href)+
-	  '&media='+
-	  encodeURIComponent(''+this.href)+
-	  '&description=Pin from Made Mistakes">'+
-	  '<img title="Pin It" src="http://assets.pinterest.com/images/PinExt.png" alt="" border="0" /></a>';
-		}
-	  },
-	  afterShow: function() {
-		// Render tweet button
-		twttr.widgets.load();
-		},
-	  padding: 0,
-	  openEffect: 'elastic',
-		closeEffect: 'elastic',
-		helpers: {
-				title: {
-			type: 'outside'
-				}
-		}
-	  });
-	});
-	
-	// lazyload
-	$(function() {
-	  /* initiate lazyload defining a custom event to trigger image loading  */
-	  $("img.lazy").show().lazyload({
-		event: "turnPage",
-		effect: "fadeIn"
-	  });
-	  /* initiate plugin */
-	  $("div.holder").jPages({
-			containerID: "itemContainer",
-		previous: "←",
-		next: "→",
-		perPage: 30,
-		midRange: 3,
-		direction: "random",
-		animation: "flipInY",
-		minHeight: false,
-		callback: function( pages, items ){
-		/* lazy load current images */
-		items.showing.find("img").trigger("turnPage");
-		/* lazy load next page images */
-		items.oncoming.find("img").trigger("turnPage");
-	  }
-	  });
-	});
-
-});
-</script>
+<script src="{{ site.base_url }}/js/modernizr-2.6.2.custom.min.js"></script>
 
 <!-- For iPhone 4 -->
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.base_url }}/images/h/apple-touch-icon.png">
