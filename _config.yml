@@ -4,7 +4,7 @@ server:      false
 server_port: 4000
 base_url:    http://localhost:4000
 base_url:    http://10.0.1.3:4000
-#base_url:    http://mademistakes.com
+base_url:    http://mademistakes.com
 
 source:      .
 destination: ./_site
@@ -66,4 +66,4 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: style
 
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "mademistakes.sublime-project", "mademistakes.sublime-workspace"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "mademistakes.sublime-project", "mademistakes.sublime-workspace", "codekit-config.json"]
