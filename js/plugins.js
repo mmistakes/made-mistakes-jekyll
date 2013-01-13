@@ -28,33 +28,30 @@ $(".content-wrapper").fitVids();
 
 // FancyBox options
 $(document).ready(function() {
-  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
-	beforeShow: function () {
-	if (this.title) {
-	// Add tweet button
-	this.title += '<br /><a href="https://twitter.com/share" class="twitter-share-button" data-url="' + this.href + '" data-text="' + this.title + '" data-via="mmistakes" data-lang="en">Tweet</a>';
-	// Add Pinterest button
-	this.title += '<a class="pin-it-button" href="http://pinterest.com/pin/create/button/?url='+
-  encodeURIComponent(document.location.href)+
-  '&media='+
-  encodeURIComponent(''+this.href)+
-  '&description=Pin from MadeMistakes.com">'+
-  '<img title="Pin It" src="http://assets.pinterest.com/images/PinExt.png" alt="" border="0" /></a>';
-	}
-  },
-  afterShow: function() {
-	// Render tweet button
-	twttr.widgets.load();
-	},
-  padding: 0,
-  openEffect: 'elastic',
-	closeEffect: 'elastic',
-	helpers: {
-            title: {
-		type: 'outside'
-            }
-	}
-  });
+	$("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
+		beforeShow: function () {
+			if (this.title) {
+				// New line
+				//this.title += '<br />';
+				// Add tweet button
+                //this.title += '<a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-url="'+this.href+'">Tweet</a> ';
+				// Add Pinterest button
+		        this.title = ''+this.title+'<br /><a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-text="'+this.title+'" data-hashtags="PaperFaces" data-via="mmistakes" data-url="'+this.href+'">Tweet</a> <a class="pin-it-button" href="http://pinterest.com/pin/create/button/?url='+encodeURIComponent(document.location.href)+'&media='+encodeURIComponent(this.href)+'&description='+encodeURIComponent(this.title)+'">'+'<img title="Pin It" src="http://assets.pinterest.com/images/PinExt.png" alt="" border="0" /></a>';
+			}
+		},
+		afterShow: function() {
+            // Render tweet button
+            twttr.widgets.load();
+        },
+		padding: 0,
+		openEffect: 'elastic',
+		closeEffect: 'elastic',
+		helpers: {
+			title: {
+				type: 'outside'
+			}
+		}
+	});
 });
 
 // lazyload
