@@ -37,27 +37,42 @@
 
 <script src="{{ site.base_url }}/js/modernizr-2.6.2.custom.min.js"></script>
 
-<!-- For iPhone 4 -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.base_url }}/images/h/apple-touch-icon.png">
-<!-- For iPad 1-->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.base_url }}/images/m/apple-touch-icon.png">
-<!-- For the new iPad -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.base_url }}/images/h/apple-touch-icon-144x144-precomposed.png">
-<!-- For iPhone 3G, iPod Touch and Android -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.base_url }}/images/l/apple-touch-icon-precomposed.png">
-<!-- For Nokia -->
-<link rel="shortcut icon" href="{{ site.base_url }}/images/l/apple-touch-icon.png">
-<!-- For everything else -->
+<!-- Icons -->
+<!-- 16x16 -->
 <link rel="shortcut icon" href="{{ site.base_url }}/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="{{ site.base_url }}/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="{{ site.base_url }}/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.base_url }}/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.base_url }}/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.base_url }}/images/apple-touch-icon-144x144-precomposed.png">
 
 <!-- iOS home screen stuff -->
 <meta name="apple-mobile-web-app-title" content="MM">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/splash.png">
-<script>(function(){var p,l,r=window.devicePixelRatio;if(navigator.platform==="iPad"){p=r===2?"{{ site.base_url }}/images/startup/startup-tablet-portrait-retina.png":"{{ site.base_url }}/images/startup/startup-tablet-portrait.png";l=r===2?"{{ site.base_url }}/images/startup/startup-tablet-landscape-retina.png":"{{ site.base_url }}/images/startup/startup-tablet-landscape.png";document.write('<link rel="apple-touch-startup-image" href="'+l+'" media="screen and (orientation: landscape)"/><link rel="apple-touch-startup-image" href="'+p+'" media="screen and (orientation: portrait)"/>');}else{p=r===2?"{{ site.base_url }}/images/startup/startup-retina.png":"{{ site.base_url }}/images/startup/startup.png";document.write('<link rel="apple-touch-startup-image" href="'+p+'"/>');}})()</script>
-<!-- Prevents links from opening in mobile Safari -->
-<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
 
-<!-- Microsoft -->
+<!-- Startup images -->
+<!-- iPhone 3GS, pre-2011 iPod Touch -->
+<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-320x460.png" media="screen and (max-device-width:320px)">
+<!-- iPhone 4, 4S and 2011 iPod Touch-->
+<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-640x920.png" media="screen and (max-device-width:480px) and (-webkit-min-device-pixel-ratio:2)">
+<!-- iPhone 5 and 2012 iPod Touch -->
+<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-640x1096.png" media="screen and (max-device-width:548px) and (-webkit-min-device-pixel-ratio:2)">
+<!-- 1st generation iPad, iPad 2 and iPad mini Landscape -->
+<link rel="apple-touch-startup-image" sizes="1024x748" href="{{ site.base_url }}/images/startup/startup-1024x748.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape)">
+<!-- 1st generation iPad, iPad 2 and iPad mini Portrait -->
+<link rel="apple-touch-startup-image" sizes="768x1004" href="{{ site.base_url }}/images/startup/startup-768x1004.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait)">
+<!-- iPad 3rd and 4th generation Landscape --> 
+<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-2048x1496.png" media="screen and (device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2)" />
+<!-- iPad 3rd and 4th generation Portrait -->
+<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-1536x2008.png" media="screen and (device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2)" />
+
+<!-- Windows 8 / RT -->
+<meta name="msapplication-TileImage" content="{{ site.base_url }}/apple-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileColor" content="#000">
 <meta http-equiv="cleartype" content="on">
