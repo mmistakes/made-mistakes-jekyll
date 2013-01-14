@@ -7,10 +7,6 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 -->
 
-<!-- HTML5 Mobile Boilerplate -->
-<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
-<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-
 <!-- HTML5 Boilerplate -->
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -38,7 +34,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
           <img src="{{ site.base_url }}/images/{{ post.image }}-xl.jpg" alt="{{ post.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->
       <article class="feature-article-list">
-        <span>Updated <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
+        <span>{% if post.modified %}Updated <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%B %d, %Y" }}</time>{% else %}Published <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>{% endif %}</span>
         <h1><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
         <p>{{ post.description }}</p>
       </article>

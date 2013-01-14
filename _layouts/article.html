@@ -7,10 +7,6 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 -->
 
-<!-- HTML5 Mobile Boilerplate -->
-<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
-<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-
 <!-- HTML5 Boilerplate -->
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -26,22 +22,22 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 {% include chrome-frame.html %}
 {% include nav.html %}
 
-<div id="main">
+<div id="main" role="main" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="toc-wrapper">
-      <h1>{{ page.title }}</h1>
+      <h1 itemprop="name headline">{{ page.title }}</h1>
       {% if page.image %}
       <div class="wrapper-image">
           <img src="{{ site.base_url }}/images/{{ page.image }}-xl.jpg" alt="{{ page.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->{% else %}
       {% endif %}
-      <div class="content-wrapper">
+      <div class="content-wrapper" itemprop="articleBody">
           {{ content }}
       </div><!-- /.content-wrapper -->
     </div><!-- /.toc-wrapper -->
 </div><!-- /#main -->
 <div class="footer-wrapper">
   <footer class="site-footer" role="contentinfo">
-    <p>{{ page.title }} was published on <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</time> by <a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" rel="me">Michael Rose</a>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
+    <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
     {% if site.related_posts.size > 1 %}
     <h2>You might also be interested in:</h2>
     <ul class="related-articles unstyled">
