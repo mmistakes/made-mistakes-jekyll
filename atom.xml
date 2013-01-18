@@ -5,6 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Made Mistakes</title>
 <subtitle type="text">Design Faux Pas</subtitle>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<icon>{{ site.base_url }}/images/apple-touch-icon-114x114-precomposed.png</icon>
 <link rel="self" type="application/atom+xml" href="{{ site.base_url }}/atom.xml" />
 <link rel="alternate" type="text/html" href="{{ site.base_url }}" />
 <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -14,14 +16,21 @@ layout: nil
 	<uri>{{ site.base_url }}/</uri>
 	<email>michael@mademistakes.com</email>
 </author>
-<rights>Copyright (c) 2012, Michael Rose; all rights reserved.</rights>
+<rights>Unless otherwise noted, all content is published under a Creative Commons Attribution-Noncommercial-NoDerivs 3.0 United States License.</rights>
 {% for post in site.posts %}
 
 <entry>
 	<title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
 	<link rel="alternate" type="text/html" href="{{ site.base_url }}{{ post.url }}" />
 	<id>{{ site.base_url }}{{ post.id }}</id>
-	<updated>{{ post.date | date_to_xmlschema }}</updated>
+	{% if post.modified %}<updated>{{ post.modified | date_to_xmlschema }}</updated>
+	<published>{{ post.date | date_to_xmlschema }}</published>
+	{% else %}<updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
+	<author>
+		<name>Michael Rose</name>
+		<uri>{{ site.base_url }}/</uri>
+		<email>michael@mademistakes.com</email>
+	</author>
 	<content type="html">{% if post.screenshot %}<![CDATA[<a href="{{ site.base_url }}{{ post.url }}"><img src="{{ site.base_url }}/images/{{ post.screenshot }}" alt="{{ post.title }} screenshot image" /></a><p>Do yourself a favor and click the screenshot above to read this article as I intended. Newsreaders strip out all the time and effort I put into the design and typography, and that's no fun!</p>]]>
 	{% else %}{{ post.content | xml_escape }}{% endif %}
 	<![CDATA[<p><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a> was originally published by <a href="href="{{ site.base_url }}/about.html">Michael Rose</a> at <a href="{{ site.base_url }}">Made Mistakes</a> on {{ post.date | date: "%B %d, %Y" }}.</p>]]></content>
