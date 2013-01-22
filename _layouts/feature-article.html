@@ -11,11 +11,11 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-
-<head>
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]--><head>
 {% include head.html %}
-{% if page.css %}<link rel="stylesheet" href="{{ site.base_url }}/css/custom/{{ page.css }}">{% endif %}
+{% if page.css %}
+
+<link rel="stylesheet" href="{{ site.base_url }}/css/custom/{{ page.css }}">{% endif %}
 </head>
 
 <body class="feature">
@@ -42,7 +42,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <div class="footer-wrapper">
       <footer class="site-footer" role="contentinfo">
-        <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.base_url }}/about.html" rel="author" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
+        <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.base_url }}/about.html" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
         {% if site.related_posts.size > 1 %}
         <h2>You might also be interested in:</h2>
         <ul class="related-articles unstyled">
