@@ -53,19 +53,19 @@ figure {
   	margin-bottom: @baselineheight / 4; 
   	padding-bottom: @baselineheight / 4; 
   	border-bottom: 1px dashed @bordercolor; 
-	&:last-child {
-	  margin-bottom: 0; 
-	  padding-bottom: 0; 
-	  border-bottom-width: 0; 
-	}
+  	&:last-child {
+  	  margin-bottom: 0; 
+  	  padding-bottom: 0; 
+  	  border-bottom-width: 0; 
+  	}
   }
 }
 .image-grid {
-	.row(2);
-	li {
-		.column(1,2);
-    width: 49%;
-    margin: 0 1% 1% 0;
+  .row(4);
+  li {
+    .column(1,4);
+        width: 24%;
+        margin: 0 1% 1% 0;
    }
 }
 .feature-image {
