@@ -60,13 +60,12 @@ $(function() {
 
   /* initiate plugin */
   $("div.holder").jPages({
-        containerID: "itemContainer",
+    containerID: "itemContainer",
 	previous: "←",
 	next: "→",
 	perPage: 30,
 	midRange: 3,
 	direction: "random",
-	animation: "flipInY",
 	minHeight: false,
 	callback: function( pages, items ){
 	/* lazy load current images */
