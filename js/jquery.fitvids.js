@@ -1,5 +1,5 @@
-/*global jQuery */
-/*! 
+/* global jQuery */
+/*!
 * FitVids 1.0
 *
 * Copyright 2011, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
@@ -14,12 +14,12 @@
   $.fn.fitVids = function( options ) {
     var settings = {
       customSelector: null
-    }
+    };
     
     var div = document.createElement('div'),
         ref = document.getElementsByTagName('base')[0] || document.getElementsByTagName('script')[0];
         
-  	div.className = 'fit-vids-style';
+    div.className = 'fit-vids-style';
     div.innerHTML = '&shy;<style>         \
       .fluid-width-video-wrapper {        \
          width: 100%;                     \
@@ -40,16 +40,16 @@
                       
     ref.parentNode.insertBefore(div,ref);
     
-    if ( options ) { 
+    if ( options ) {
       $.extend( settings, options );
     }
     
     return this.each(function(){
       var selectors = [
-        "iframe[src*='player.vimeo.com']", 
-        "iframe[src*='www.youtube.com']",  
-        "iframe[src*='www.kickstarter.com']", 
-        "object", 
+        "iframe[src*='player.vimeo.com']",
+        "iframe[src*='www.youtube.com']",
+        "iframe[src*='www.kickstarter.com']",
+        "object",
         "embed"
       ];
       
@@ -73,5 +73,5 @@
       });
     });
   
-  }
+  };
 })( jQuery );
