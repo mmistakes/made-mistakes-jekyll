@@ -1,25 +1,21 @@
-// ==========================================================
+// ===========================================================
 
 // 320 and Up by Andy Clarke
 // Version: 3.0
 // URL: http://stuffandnonsense.co.uk/projects/320andup/
 // Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
 
-// ==========================================================
-
-/* Page =================================================== */
-
-// 1. ROOT 					==============================
+// ===========================================================/
 
 html {
-	background: @bodycolor; 
+	background: @bodycolor url(../images/body-background.jpg); 
 	font-size: 62.5%;
 	-webkit-overflow-scrolling: touch; 
 	-webkit-tap-highlight-color: lighten(@basecolor, 75%); 
 	-webkit-text-size-adjust: 100%; 
 	-ms-text-size-adjust: 100%; 
 }
-
 body { 
 	margin: 0;
 	padding: 0;
@@ -30,12 +26,19 @@ body {
 	line-height: @baselineheight;
 	color: @textcolor; 
 }
+/* Selection ============================================= */
+::-moz-selection { 
+	background-color : lighten(@basecolor, 65%); 
+	color : @basecolor; 
+	text-shadow : none; 
+}  	
+::selection { 
+	background-color : lighten(@basecolor, 65%); 
+	color : @basecolor; 
+	text-shadow : none; 
+}
 
-// 2. TYPOGRAPHY 			==============================
-// 3. COLOUR 				==============================
-// 4. TEXTURE 				==============================
-// 5. ELEMENTS 				==============================
-// 6. LAYOUT 				==============================
+/* Global classes ======================================== */
 .push-right {
 	float: right;
 	margin-left: 0 !important;
@@ -53,6 +56,3 @@ body {
 .pull-left {
 	padding: 0 (@basewidth * 1.25) 0 (@basewidth / 2);
 }
-// 7. VENDOR-SPECIFIC 		==============================
-// 8. MODERNIZR 			==============================
-// 9. TEMPLATE SPECIFICS 	==============================

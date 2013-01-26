@@ -1,16 +1,14 @@
-// ==========================================================
+// ===========================================================
 
 // 320 and Up by Andy Clarke
 // Version: 3.0
 // URL: http://stuffandnonsense.co.uk/projects/320andup/
 // Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
 
-// ==========================================================
+// ===========================================================/
 
-/* Texture =================================================== */
-
-// ALERT ====================================================
-
+/* ALERT ================================================= */
 // For more alert styles: 
 // http://twitter.github.com/bootstrap/components.html#alerts"
 // https://github.com/twitter/bootstrap/blob/master/less/alerts.less"
@@ -87,8 +85,7 @@
 	border: none;
 }
 
-// BADGES ====================================================
-
+/* BADGES ================================================= */
 .badge {
 	padding: 1px 9px 2px;
 	.font-size(12); 
@@ -104,7 +101,6 @@
 		cursor: pointer; 
 	}
 }
-
 .badge-error {
 	background-color: @errorcolor;
 	color: @white;
@@ -113,7 +109,6 @@
 		color: @white; 
 	}
 }
-
 .badge-warning {
 	background-color: @warningcolor; 
 	color: @white;
@@ -122,7 +117,6 @@
 		color: @white; 
 	}
 }
-
 .badge-success {
 	background-color: @successcolor; 
 	color: @white;
@@ -131,7 +125,6 @@
 		color: @white; 
 	}
 }
-
 .badge-info {
 	background-color: @infocolor;
 	color: darken(@infocolor, 50%); 
@@ -139,7 +132,6 @@
 		background-color: darken(@infocolor, 20%); 
 	}
 }
-
 .badge-inverse {
 	background-color: @inverscolor; 
 	color: @white;
@@ -149,30 +141,22 @@
 	}
 }
 
-// GRADIENTS ====================================================
-
+/* GRADIENTS ================================================ */
 .greygrad {
 .vertical(@white, darken(@lightergrey, 5%)); }
-
 .basegrad {
 .vertical(@basecolor, darken(@basecolor, 10%)); }
-
 .infograd {
 .vertical(@infocolor, darken(@infocolor, 10%)); }
-
 .inversegrad {
 .vertical(@inverscolor, darken(@inverscolor, 10%)); }
-
 .successgrad {
 .vertical(@successcolor, darken(@successcolor, 10%)); }
-
 .warninggrad {
 .vertical(@warningcolor, darken(@warningcolor, 10%)); }
-
 // For additional gradients see: https://github.com/twitter/bootstrap/blob/master/less/mixins.less
 
-// WELL ====================================================
-
+/* WELL ==================================================== */
 .well {
 	min-height: 21px;
 	padding: 11px;
@@ -185,11 +169,9 @@
 		margin-bottom: 0; 
 	}
 }
-
 .well-large {
 	padding: 22px; 
 }
-
 .well-small {
 	padding: 6px;
 	.rounded(2px); 

@@ -1,15 +1,14 @@
-// ==========================================================
+// ===========================================================
 
 // 320 and Up by Andy Clarke
 // Version: 3.0
 // URL: http://stuffandnonsense.co.uk/projects/320andup/
 // Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
 
-// ==========================================================
+// ===========================================================/
 
-/* Typography =================================================== */
-
-// HEADINGS =================================================
+/* Headings ============================================== */
 h1, 
 h2, 
 h3, 
@@ -65,7 +64,28 @@ h6,
 	text-transform: uppercase; 
 }
 
-// MAIN ================================================
+/* Links ================================================= */
+a { 
+	text-decoration : none;
+	color : @linkcolor; 
+	&:visited { 
+		color : @linkcolorvisited; 
+	}
+	&:hover { 
+		text-decoration : underline;
+		color : @linkcolorhover; 
+	}
+	&:focus { 
+		outline : thin dotted; 
+		color : @linkcolorfocus; 
+	}
+	&:hover, 
+	&:active { 
+		outline : 0; 
+	}
+}
+
+/* Body typography ======================================= */
 p, 
 ol, 
 ul, 
@@ -94,7 +114,7 @@ ol.unstyled {
 	padding-left: 0;
 	list-style: none;
 }
-// add underline for article links
+/* Add underline for article links ======================= */
 article p > a,
 article li > a,
 article em > a,
@@ -117,7 +137,7 @@ article a:hover > em,
 	text-decoration: none;
 	border-bottom: 1px dotted @basecolor;
 }
-// footnotes
+/* Article footnotes ===================================== */
 .footnote {
 	hr {
 		margin: @baselineheight 0;
@@ -127,7 +147,7 @@ article a:hover > em,
 		.font-size(12) !important;
 	}
 }
-// footer
+/* Footer typography ===================================== */
 .footer-wrapper {
 	clear: both;
 }
@@ -161,7 +181,7 @@ article a:hover > em,
 		}
 	}
 }
-// footer inverse
+/* Footer inverse (on dark background) ================== */
 .article .footer-wrapper,
 .feature .footer-wrapper {
 	clear: both;
@@ -235,7 +255,7 @@ article a:hover > em,
 		}
 	}
 }
-// blockquote
+/* Blockquotes ============================================== */
 blockquote  { 
 	margin: @baselineheight 0;
 	font-family: @baseheadingfont;
@@ -278,8 +298,7 @@ dt {
 		margin-left: 22.78%; 
 	} 
 }
-
-// text-level
+/* Text-level ============================================= */
 abbr[title] { 
 	border-bottom: 1px dotted @bordercolor; 
 	cursor: help; 

@@ -1,40 +1,40 @@
-// ==========================================================
+// ===========================================================
 
 // 320 and Up by Andy Clarke
 // Version: 3.0
 // URL: http://stuffandnonsense.co.uk/projects/320andup/
 // Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
 
-// ==========================================================
+// ===========================================================/
 
-/* Buttons =================================================== */
-
+/* default button ======================================== */
 .btn {
-display : inline-block;
-*display : inline;
-/* IE7 inline-block hack */
-*zoom : 1;
-padding : 6px 11px 6px;
-margin-bottom : 0;
-font-family : @basefont;
-.font-size(12);
-font-weight : bold;
-line-height : @baselineheight;
-color : @buttoncolor;
-text-align : center;
-vertical-align : middle;
-background-color : @buttonbackground;
-.greygrad;
-border : @buttonborderwidth @buttonborderstyle @buttonbordercolor;
-border-bottom-color : @buttonbottombordercolor;
-.rounded(4px);
-cursor : pointer;
-*margin-left : .3em; 
-
-&:visited,
-&:hover {
-color : @buttoncolor;
-text-decoration : none; }
+	display : inline-block;
+	*display : inline;
+	/* IE7 inline-block hack */
+	*zoom : 1;
+	padding : 6px 11px 6px;
+	margin-bottom : 0;
+	font-family : @basefont;
+	.font-size(12);
+	font-weight : bold;
+	line-height : @baselineheight;
+	color : @buttoncolor;
+	text-align : center;
+	vertical-align : middle;
+	background-color : @buttonbackground;
+	.greygrad;
+	border : @buttonborderwidth @buttonborderstyle @buttonbordercolor;
+	border-bottom-color : @buttonbottombordercolor;
+	.rounded(4px);
+	cursor : pointer;
+	*margin-left : .3em; 
+	&:visited,
+	&:hover {
+		color : @buttoncolor;
+		text-decoration : none; 
+	}
 }
 
 input[type="submit"].btn:hover {
@@ -43,67 +43,60 @@ border-color : @buttonbordercolor; }
 .btn:first-child {
 *margin-left : 0; }
 
-// disabled
-
+/* disabled button ===================================== */
 .btn-disabled {
 .opacity(.5); 
 cursor : default; }
 
-// info
-
+/* info button ========================================= */
 .btn-info {
 .infograd;
-border-color : darken(@infocolor, 15%);
-border-bottom-color : darken(@infocolor, 20%); 
-color : darken(@infocolor, 50%);
-
-&:visited,
-&:hover {
-color : darken(@infocolor, 50%); }
+	border-color : darken(@infocolor, 15%);
+	border-bottom-color : darken(@infocolor, 20%); 
+	color : darken(@infocolor, 50%);
+	&:visited,
+	&:hover {
+		color : darken(@infocolor, 50%); 
+	}
 }
 
-// inverse
-
+/* inverse button ====================================== */
 .btn-inverse {
 .inversegrad;
-border-color : darken(@inverscolor, 15%);
-border-bottom-color : darken(@inverscolor, 20%); 
-color : @white; 
-
-&:visited,
-&:hover {
-color : @white; }
+	border-color : darken(@inverscolor, 15%);
+	border-bottom-color : darken(@inverscolor, 20%); 
+	color : @white; 
+	&:visited,
+	&:hover {
+		color : @white; 
+	}
 }
 
-// primary
-
+/* primary button ====================================== */
 .btn-primary {
 .basegrad;
-border-color : darken(@basecolor, 15%);
-border-bottom-color : darken(@basecolor, 20%);
-color : @white; 
-
-&:visited,
-&:hover {
-color : @white; }
+	border-color : darken(@basecolor, 15%);
+	border-bottom-color : darken(@basecolor, 20%);
+	color : @white; 
+	&:visited,
+	&:hover {
+		color : @white; 
+	}
 }
 
-// success
-
+/* success button ====================================== */
 .btn-success {
 .successgrad;
 border-color : darken(@successcolor, 15%);
 border-bottom-color : darken(@successcolor, 20%); }
 
-// warning
-
+/* warning button ====================================== */
 .btn-warning {
 .warninggrad;
 border-color : darken(@warningcolor, 15%);
 border-bottom-color : darken(@warningcolor, 20%); }
 
-// sizes
-
+/* sizes =============================================== */
 .btn-extlarge {
 padding : 11px 22px;
 .font-size(21);

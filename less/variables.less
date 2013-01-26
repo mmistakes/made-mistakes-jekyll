@@ -1,21 +1,18 @@
-// ==========================================================
+// ===========================================================
 
 // 320 and Up by Andy Clarke
 // Version: 3.0
 // URL: http://stuffandnonsense.co.uk/projects/320andup/
 // Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
 
-// ==========================================================
+// ===========================================================/
 
-/* Variables =================================================== */
-
-// 1. ROOT 					==============================
-
+// ROOT ======================================================
 @bodycolor: #ffffff;
 @textcolor: #414140;
 
-// 2. TYPOGRAPHY 			==============================
-
+// TYPOGRAPHY ================================================
 @basefont: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 @basefontsize: 16;
 @baselineheight: 1.5em;
@@ -28,30 +25,23 @@
 
 @codefont: Monaco, Courier New, monospace;
 
-// 3. COLOUR 				==============================
-
+// COLOR ====================================================
 @basecolor 		: #343434;	  
 @compcolor 		: spin(@basecolor, 180); 
 @bordercolor    : lighten(@basecolor, 60%);
-
-// Links
-
+/* Links ================================================= */
 @linkcolor 		    : #343434;
 @linkcolorhover 	: darken(@linkcolor, 10);
 @linkcolorvisited   : darken(@linkcolorhover, 10);
 @linkcolorfocus 	: darken(@linkcolorvisited, 10);
-
-// greyscale
-
+/* Greyscale ============================================= */
 @black 			: rgb(0,0,0);
 @darkgrey 		: lighten(@black, 25%);
 @grey 			: lighten(@black, 50%);
 @lightgrey 		: lighten(@black, 75%);
 @lightergrey 	: lighten(@black, 90%);
 @white 			: rgb(255,255,255);
-
-// colour palettes
-
+/* Color palettes ======================================= */
 @alertcolor 	: rgb(252,248,227);
 @errorcolor 	: rgb(218,79,73);
 @infocolor 		: rgb(217,237,247);
@@ -59,47 +49,38 @@
 @successcolor 	: rgb(91,183,91);
 @warningcolor 	: rgb(250,167,50);
 
-// 4. TEXTURE 				==============================years
-
-// alert
-
+// TEXTURE ==================================================
+/* Alerts ================================================ */
 @alertbordercolor	: darken(@alertcolor, 20%);
 @alertborderwidth 	: 1px;
 @alertborderstyle 	: solid;
 @alerttext			: darken(@alertcolor, 60%);
-
-// alert-error
+/* alert-error =========================================== */
 @alerterrorcolor 	: lighten(@errorcolor, 30%);
 @alerterrorborder  	: lighten(@errorcolor, 20%);
 @alerterrortext 	: @errorcolor; 
-
-// alert-info
+/* alert-info =========================================== */
 @alertinfocolor 	: @infocolor;
 @alertinfoborder  	: lighten(@infocolor, 20%);
 @alertinfotext 		: darken(@infocolor, 50%);  
-
-// alert-inverse
+/* alert-inverse ======================================== */
 @alertinversecolor 	: @inverscolor;
 @alertinverseborder : @black;
 @alertinversetext 	: @white;  
-
-// alert-success
+/* alert-success ======================================== */
 @alertsuccesscolor 	: lighten(@successcolor, 30%);
 @alertsuccessborder : lighten(@successcolor, 20%);
 @alertsuccesstext 	: darken(@successcolor, 20%); 
-
-// alert-warning
+/* alert-warning ======================================== */
 @alertwarningcolor 	: lighten(@warningcolor, 30%);
 @alertwarningborder : lighten(@warningcolor, 20%);
 @alertwarningtext 	: darken(@warningcolor, 20%); 
 
-// badges 
-
+/* Badges =============================================== */
 @badgebackground 	: @lightergrey;
 @badgecolor 		: @grey;
 
-// buttons
-
+/* Buttons ============================================== */
 @buttonbackground 	: @lightergrey;
 @buttonbordercolor 	: darken(@buttonbackground, 10%);
 @buttonbottombordercolor: darken(@buttonbordercolor, 10%);
@@ -107,8 +88,7 @@
 @buttonborderwidth	: 1px;
 @buttonborderstyle	: solid;
 
-// boxes (well)
-
+/* Wells ================================================ */
 @wellbackground		: lighten(@basecolor, 75%);
 @wellbordercolor	: darken(@wellbackground, 20%); 
 @wellborderwidth	: 1px;
@@ -116,8 +96,7 @@
 @wellshadow			: darken(@wellbackground, 10%);
 @wellshadowblur		: 10px;
 
-// tables 
-
+/* Tables =============================================== */
 @tablebackground 	: transparent;
 @tablestripe 		: lighten(@basecolor, 60%);
 @tablehover 		: lighten(@basecolor, 50%);
@@ -125,8 +104,7 @@
 @tableborderwidth	: 1px;
 @tableborderstyle	: solid;
 
-// forms 
-
+/* Forms ================================================= */
 @inputbackground 	: @white; 
 @inputborder 		: lighten(@basecolor, 40%);
 @inputborderwidth	: 1px;
@@ -135,13 +113,8 @@
 @inputfocus 		: @basecolor, 40%;
 @placeholdercolor 	: @lightgrey;
 
-// 6. LAYOUT 				==============================
-
-@baseline: @baselineheight;
-@gutterwidth: 20px;
-@goldenratio: 1.61803399;
-@basewidth: 48px;
-
-//  7. VENDOR-SPECIFIC 		==============================
-//  8. MODERNIZR 			==============================
-//  9. TEMPLATE SPECIFICS 	==============================
+// LAYOUT ===================================================
+@baseline			: @baselineheight;
+@gutterwidth		: 20px;
+@goldenratio		: 1.61803399;
+@basewidth			: 48px;

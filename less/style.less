@@ -1,110 +1,79 @@
-/* ============================================================
+// ===========================================================
 
-320 and Up by Andy Clarke
-Version: 3.0
-URL: http://stuffandnonsense.co.uk/projects/320andup/
-Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
 
-============================================================ */
+// ===========================================================/
 
-// 1. ROOT 					==============================
-// CSS reset
+// ROOT =======================================================
+/* CSS reset =============================================== */
 @import "reset.less";
-
-// Variables and mixins
+/* Variables and mixins ==================================== */
 @import "variables.less";
 @import "mixins.less";
 @import "grid.less";
-@import "responsive-utilities.less";
-
-// Site wide styles (html, body)
+/* Site wide styles (html, body, global classes) =========== */
 @import "site.less";
 
-// 2. TYPOGRAPHY 			==============================
-
-// Block level (h1, p) and text-level (em, strong) type
+// TYPOGRAPHY =================================================
+/* Block level (h1, p) and text-level (em, strong) type ==== */
 @import "typography.less";
 
-// 3. COLOUR 				==============================
-
-// Colour interaction semantics
-@import "colour.less";
-
-// 4. TEXTURE 				==============================
-
-// Alerts, badges, boxes and gradients
+// TEXTURE ====================================================
+/* Alerts, badges, boxes, gradients,and wells ============== */
 @import "texture.less";
-
-// Font Awesome icon fonts (optional)
+/* Font Awesome icon fonts ================================= */
 @import "font-awesome.less";
 
-// 5. ELEMENTS 				==============================
-
-// Figures, images and other elements
+// ELEMENTS ===================================================
+/* Figures, images, social media, other elements =========== */
 @import "elements.less";
-
-// FancyBox lightbox for image galleries
+/* FancyBox lightbox ======================================= */
 @import "fancybox.less";
-
-// Standard form controls
+/* Standard form controls ================================== */
 @import "forms.less";
-
-// Button styles (optional)
+/* Button styles =========================================== */
 @import "buttons.less";
-
-// Tables
+/* Tables ================================================== */
 @import "tables.less";
 
-// 6. LAYOUT 			==============================
-
-// Page level layout styles (banner, navigation, curtains, content, contentinfo)
+// LAYOUT =====================================================
+/* Page level layout styles (banner, navigation, curtains, content, contentinfo) */
 @import "page.less";
 
-//  7. VENDOR-SPECIFIC 		==============================
-//  8. MODERNIZR 			==============================
-
-// @import "modernizr.less";
-
-//  9. TEMPLATE SPECIFICS 	==============================
-//  10. MEDIA QUERIES 		==============================
-
+// VENDOR-SPECIFIC ============================================
+// MODERNIZR ==================================================
+// MEDIA QUERIES ==============================================
+/* Print =================================================== */
 @media print {
 @import "print.less";
 }
-
-// 480px
+/* 480px wide ============================================== */
 @media only screen and (min-width: 480px) {
 @import "480.less";
 }
-
-// 600px
+/* 600px wide ============================================== */
 @media only screen and (min-width: 600px) {
 @import "600.less";
 }
-
-// 768px
+/* 768px wide ============================================== */
 @media only screen and (min-width: 768px) {
 @import "768.less";
 }
-
-// 992px
+/* 992px wide ============================================== */
 @media only screen and (min-width: 992px) {
 @import "992.less";
 }
-
-// 1382px
+/* 1382px wide ============================================= */
 @media only screen and (min-width: 1382px) {
 @import "1382.less";
 }
-
-// 2x
+/* 2x for retina displays ================================== */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5), 
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
 @import "2x.less"; }
-
-//  11. UPSTARTS 			==============================
-
-// @import "upstarts/320andup-modules/upstart.less";
-// @import "upstarts/320andup-panels/upstart.less";
