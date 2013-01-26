@@ -1,33 +1,7 @@
-// Avoid `console` errors in browsers that lack a console.
-(function() {
-    var method;
-    var noop = function () {};
-    var methods = [
-        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
-        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
-        'timeStamp', 'trace', 'warn'
-    ];
-    var length = methods.length;
-    var console = (window.console = window.console || {});
-
-    while (length--) {
-        method = methods[length];
-
-        // Only stub undefined methods.
-        if (!console[method]) {
-            console[method] = noop;
-        }
-    }
-}());
-
 // Place any jQuery/helper plugins in here
 
-// FitVids options
-$(".content-wrapper").fitVids();
-
 // FancyBox options
-$(document).ready(function() {
+$(function() {
 	$("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
 		beforeShow: function () {
 			if (this.title) {
@@ -41,6 +15,11 @@ $(document).ready(function() {
 		padding: 0,
 		openEffect: 'elastic',
 		closeEffect: 'elastic',
+		overlay: {
+            css: {
+            	'background': 'rgba(0,0,0,0.5)'
+            }
+        },
 		helpers: {
 			title: {
 				type: 'outside'
@@ -49,7 +28,7 @@ $(document).ready(function() {
 	});
 });
 
-// lazyload
+// Lazyload
 $(function() {
 
   /* initiate lazyload defining a custom event to trigger image loading  */
@@ -75,4 +54,9 @@ $(function() {
   }
   });
 
+});
+
+// FitVids options
+$(function() {
+	$(".content-wrapper").fitVids();
 });
