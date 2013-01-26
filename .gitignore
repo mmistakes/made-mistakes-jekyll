@@ -1,6 +1,5 @@
 _site
-_tumblr
-_tumblr_files
 .ds_store
 mademistakes.sublime-project
 mademistakes.sublime-workspace
+codekit-config.json
