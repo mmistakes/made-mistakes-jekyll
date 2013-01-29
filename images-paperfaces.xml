@@ -1,6 +1,22 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-b-sheehan-twitter-lg.jpg
+    thumb: paperfaces-b-sheehan-twitter-150.jpg
+    title: @B_Sheehan
+    alt: Fire fighter @B_Sheehan iPad portrait
+  - large: paperfaces-coffeeplz-twitter-lg.jpg
+    thumb: paperfaces-coffeeplz-twitter-150.jpg
+    title: @CoffeePlz
+    alt: @CoffeePlz iPad portrait
+  - large: paperfaces-kyle-bridget-lg.jpg
+    thumb: paperfaces-kyle-bridget-150.jpg
+    title: Kyle and Bridget
+    alt: Kyle and Bridget, and dog iPad portrait
+  - large: paperfaces-andrewjbryk-twitter-lg.jpg
+    thumb: paperfaces-andrewjbryk-twitter-150.jpg
+    title: @andrewjbryk
+    alt: Three boys sitting next to each other @andrewjbryk iPad portrait
   - large: paperfaces-jamesonroot-twitter-lg.jpg
     thumb: paperfaces-jamesonroot-twitter-150.jpg
     title: @jamesonroot
