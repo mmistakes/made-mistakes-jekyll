@@ -36,6 +36,7 @@
 	z-index: 1000;
 	position: fixed;
 	background-color: @black;
+	.opacity(@opacity : .8)
 	.box-shadow();
 	-webkit-transform: translate3d(0,0,0);
     -webkit-backface-visibility: hidden;
@@ -54,18 +55,15 @@
 			background-color: @basecolor;
 		}
 	}
-	#branding {
-		padding: 5px 10px;
-		display: inline-block;
-	}
 	ul {
 		list-style: none;
-		padding: 0 0 0 24px;
 		margin: 0;
+		padding: 0;
+		text-align: center;
 		li {
-			float: left;
 			margin: 0;
 			padding: 0;
+			display: inline;
 			position: relative;
 			&.current {
 				color: @black;
