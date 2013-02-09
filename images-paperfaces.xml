@@ -1,6 +1,10 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-ihamzadev-twitter-lg.jpg
+    thumb: paperfaces-ihamzadev-twitter-150.jpg
+    title: @iHamzaDev
+    alt: Guy in glasses with red headphones @iHamzaDev iPad portrait
   - large: paperfaces-rt44man-twitter-lg.jpg
     thumb: paperfaces-rt44man-twitter-150.jpg
     title: @Rt44man
