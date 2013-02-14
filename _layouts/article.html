@@ -24,7 +24,13 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <div id="main" role="main" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="toc-wrapper">
+      {% if page.headline %}
+      <hgroup>
+        <h1 itemprop="name headline">{{ page.headline }}</h1>
+        <h2><span>{{ page.subheadline }}</span></h2>
+      </hgroup>{% else %}
       <h1 itemprop="name headline">{{ page.title }}</h1>
+      {% endif %}
       {% if page.image %}
       <div class="wrapper-image">
           <img src="{{ site.base_url }}/images/{{ page.image }}-xl.jpg" alt="{{ page.title }} article image" class="feature-image">
