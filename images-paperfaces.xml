@@ -1,6 +1,26 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-mscynthialee-twitter-lg.jpg
+    thumb: paperfaces-mscynthialee-twitter-150.jpg
+    title: @mscynthialee
+    alt: Long black hair in dark clothes @mscynthialee iPad portrait
+  - large: paperfaces-generala-ron-twitter-lg.jpg
+    thumb: paperfaces-generala-ron-twitter-150.jpg
+    title: @GeneralA_Ron
+    alt: Tony Stark look a like @GeneralA_Ron iPad portrait
+  - large: paperfaces-kendallina-twitter-lg.jpg
+    thumb: paperfaces-kendallina-twitter-150.jpg
+    title: @kendallina
+    alt: High contrast beautiful long hair @kendallina iPad portrait
+  - large: paperfaces-vmasto-2-twitter-lg.jpg
+    thumb: paperfaces-vmasto-2-twitter-150.jpg
+    title: @vmasto
+    alt: Black and white v-neck @vmasto-2 iPad portrait
+  - large: paperfaces-vmasto-twitter-lg.jpg
+    thumb: paperfaces-vmasto-twitter-150.jpg
+    title: @vmasto
+    alt: Golden yellow tones of a beard against a wall @vmasto iPad portrait
   - large: paperfaces-tr4y-twitter-lg.jpg
     thumb: paperfaces-tr4y-twitter-150.jpg
     title: @tr4y
