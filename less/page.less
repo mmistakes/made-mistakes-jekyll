@@ -34,7 +34,6 @@
 	width: 100%;
 	top: 0;
 	z-index: 1000;
-	position: fixed;
 	background-color: @black;
 	.box-shadow();
 	-webkit-transform: translate3d(0,0,0);
@@ -100,7 +99,6 @@
 		h1 {
 			margin-bottom: 0;
 			text-transform: uppercase;
-			font-weight: 300;
 		}
 		h2 {
 			font-family: @altfont;
@@ -219,7 +217,7 @@
 	padding: @baselineheight (@basewidth / 2) 0 (@basewidth / 2);
 }
 .wrapper-image { 
-    margin: 30px auto;
+    margin: 0 auto 30px;
     position: relative;
 	&:after {
 		content: "";
@@ -250,7 +248,6 @@
 	}
 	padding-top: 80px;
 	h1 {
-		font-weight: 300;
 		margin-bottom: @baselineheight / 6;
 		line-height: 1;
 		text-transform: uppercase;
@@ -262,8 +259,10 @@
 		}
 	}
 	h2 {
-		font-family: @altfont;
-		font-style: italic;
+		span {
+			font-family: @altfont;
+			font-style: italic;
+		}
 	}
 }
 .feature-article-list {
