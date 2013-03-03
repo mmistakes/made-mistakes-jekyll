@@ -1,6 +1,30 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-stefanhartwig-twitter-lg.jpg
+    thumb: paperfaces-stefanhartwig-twitter-150.jpg
+    title: @stefanhartwig
+    alt: Guy in grayscale with circles behind him @stefanhartwig iPad portrait
+  - large: paperfaces-lovisaslife-twitter-lg.jpg
+    thumb: paperfaces-lovisaslife-twitter-150.jpg
+    title: @LovisasLife
+    alt: Girl with long blonde hair and blue striped shirt @LovisasLife iPad portrait
+  - large: paperfaces-fraulein-doktor-twitter-lg.jpg
+    thumb: paperfaces-fraulein-doktor-twitter-150.jpg
+    title: @fraulein_doktor
+    alt: Girl drinking from a red plastic cup @fraulein_doktor iPad portrait
+  - large: paperfaces-danmurillo-twitter-lg.jpg
+    thumb: paperfaces-danmurillo-twitter-150.jpg
+    title: @danmurillo
+    alt: In a suit @danmurillo iPad portrait
+  - large: paperfaces-macjaeger-twitter-lg.jpg
+    thumb: paperfaces-macjaeger-twitter-150.jpg
+    title: @macjaeger
+    alt: Organe tones @macjaeger iPad portrait
+  - large: paperfaces-kilsey-twitter-lg.jpg
+    thumb: paperfaces-kilsey-twitter-150.jpg
+    title: @kilsey
+    alt: Guy with a bacon moustache @kilsey iPad portrait
   - large: paperfaces-tinyrach-twitter-lg.jpg
     thumb: paperfaces-tinyrach-twitter-150.jpg
     title: @tinyrach
