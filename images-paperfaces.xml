@@ -1,6 +1,26 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-agentkyle-twitter-lg.jpg
+    thumb: paperfaces-agentkyle-twitter-150.jpg
+    title: @AgentKyle
+    alt: Guy in a scuba mask underwater @AgentKyle iPad portrait
+  - large: paperfaces-hamkate-twitter-lg.jpg
+    thumb: paperfaces-hamkate-twitter-150.jpg
+    title: @hamkate
+    alt: Girl with hair drawn like fire @hamkate iPad portrait
+  - large: paperfaces-lord-faethor-twitter-lg.jpg
+    thumb: paperfaces-lord-faethor-twitter-150.jpg
+    title: @Lord_Faethor
+    alt: Line drawing of a dude in a mask @Lord_Faethor iPad portrait
+  - large: paperfaces-h3pps-twitter-lg.jpg
+    thumb: paperfaces-h3pps-twitter-150.jpg
+    title: @h3pps
+    alt: Lips in a dull green hooded sweatshirt @h3pps iPad portrait
+  - large: paperfaces-ginacrat-twitter-lg.jpg
+    thumb: paperfaces-ginacrat-twitter-150.jpg
+    title: @ginacrat
+    alt: Girl with her mouth open holding a Twister DVD @ginacrat iPad portrait
   - large: paperfaces-dopplegl-twitter-lg.jpg
     thumb: paperfaces-dopplegl-twitter-150.jpg
     title: @dopplegl
