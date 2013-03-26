@@ -1,6 +1,34 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-rdewind151-twitter-lg.jpg
+    thumb: paperfaces-rdewind151-twitter-150.jpg
+    title: @rdewind151
+    alt: Guy in a knit hat wearing sunglasses @redwind151 iPad portrait
+  - large: paperfaces-likejunx-twitter-lg.jpg
+    thumb: paperfaces-likejunx-twitter-150.jpg
+    title: @LikeJunx
+    alt: Kid with side swept hair in a hoodie @LikeJunx iPad portrait
+  - large: paperfaces-fiips-twitter-lg.jpg
+    thumb: paperfaces-fiips-twitter-150.jpg
+    title: @Fiips_
+    alt: Cat face guy taking a selfie in the bathroom @Fiips_ iPad portrait
+  - large: paperfaces-dicappucinos-twitter-lg.jpg
+    thumb: paperfaces-dicappucinos-twitter-150.jpg
+    title: @dicappucinos
+    alt: Girl with bright red lipstick and no eyes @dicappucinos iPad portrait
+  - large: paperfaces-aripalo-twitter-lg.jpg
+    thumb: paperfaces-aripalo-twitter-150.jpg
+    title: @aripalo
+    alt: Serious developer slash designer @aripalo iPad portrait
+  - large: paperfaces-blumentoast-twitter-lg.jpg
+    thumb: paperfaces-blumentoast-twitter-150.jpg
+    title: @Blumentoast
+    alt: Girl with painted joker smile @Blumentoast iPad portrait
+  - large: paperfaces-aarongreenlee-twitter-lg.jpg
+    thumb: paperfaces-aarongreenlee-twitter-150.jpg
+    title: @aarongreenlee
+    alt: Blue man group lookalike @aarongreenlee iPad portrait
   - large: paperfaces-agentkyle-twitter-lg.jpg
     thumb: paperfaces-agentkyle-twitter-150.jpg
     title: @AgentKyle
