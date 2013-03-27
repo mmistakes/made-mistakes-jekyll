@@ -1,6 +1,26 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-shamaiela-2-twitter-lg.jpg
+    thumb: paperfaces-shamaiela-2-twitter-150.jpg
+    title: @Shamaiela
+    alt: Violets and purples @Shamaiela iPad portrait
+  - large: paperfaces-gattermann-twitter-lg.jpg
+    thumb: paperfaces-gattermann-twitter-150.jpg
+    title: @gattermann
+    alt: Black and white face in shadows @gattermann iPad portrait
+  - large: paperfaces-xshordiex-twitter-lg.jpg
+    thumb: paperfaces-xshordiex-twitter-150.jpg
+    title: @xShordiex
+    alt: Long haired girl against striped wall @xShordiex iPad portrait
+  - large: paperfaces-timonus-twitter-lg.jpg
+    thumb: paperfaces-timonus-twitter-150.jpg
+    title: @timonus
+    alt: Pale in glasses @timonus iPad portrait
+  - large: paperfaces-rwangsa-twitter-lg.jpg
+    thumb: paperfaces-rwangsa-twitter-150.jpg
+    title: @rwangsa
+    alt: Guy backpacking in a scarf @rwangsa iPad portrait
   - large: paperfaces-rdewind151-twitter-lg.jpg
     thumb: paperfaces-rdewind151-twitter-150.jpg
     title: @rdewind151
