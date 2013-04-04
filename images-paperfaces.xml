@@ -1,6 +1,18 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-a-erza-twitter-lg.jpg
+    thumb: paperfaces-a-erza-twitter-150.jpg
+    title: @A_Erza
+    alt: Woman in glasses wearing a houndstooth @A_Erza iPad portrait
+  - large: paperfaces-jpkoudstaal-twitter-lg.jpg
+    thumb: paperfaces-jpkoudstaal-twitter-150.jpg
+    title: @JPKoudstaal
+    alt: Kind of looks like Slenderman @JPKoudstaal iPad portrait
+  - large: paperfaces-gaptone-twitter-lg.jpg
+    thumb: paperfaces-gaptone-twitter-150.jpg
+    title: @gaptone
+    alt: Bearded fella wearing a bowtie @gaptone iPad portrait
   - large: paperfaces-pixelgraphix-twitter-lg.jpg
     thumb: paperfaces-pixelgraphix-twitter-150.jpg
     title: @pixelgraphix
