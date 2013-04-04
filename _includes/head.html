@@ -3,7 +3,10 @@
 <meta name="description" content="{{ page.description }}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} &ndash; {% endif %}Made Mistakes">
+<meta name="twitter:description" content="{{ page.description }}">
 <meta name="twitter:creator" content="@mmistakes">
+<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.base_url }}/images/{{ page.thumb }}{% else %}{{ site.base_url }}/images/no-thumb.png{% endif %}">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &ndash; {% endif %}Made Mistakes">
 <meta property="og:description" content="{{ page.description }}">
