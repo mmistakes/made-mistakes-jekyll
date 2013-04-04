@@ -561,6 +561,7 @@ redirect 301 /post-sitemap.xml http://mademistakes.com/sitemap.xml
 redirect 301 /category-sitemap.xml http://mademistakes.com/sitemap.xml
 
 # Page Redirects
+RedirectMatch permanent /lifestream http://mademistakes.com/articles.html
 redirect 301 /test/articles/birds-bird-cage-tattoos.html http://mademistakes.com/articles/birds-bird-cage-tattoos.html
 redirect 301 /free-aboutme-business-cards/ http://mademistakes.com/articles/free-aboutme-business-cards.html
 redirect 301 /futura-movie-credits/ http://mademistakes.com/articles/futura-movie-credits.html
