@@ -3,3 +3,4 @@ _site
 mademistakes.sublime-project
 mademistakes.sublime-workspace
 codekit-config.json
+node_modules
