@@ -1,6 +1,26 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-tylerflowers-twitter-lg.jpg
+    thumb: paperfaces-tylerflowers-twitter-150.jpg
+    title: @tylerflowers
+    alt: Curly haired guy drawn in sepia tones @tylerflowers iPad portrait
+  - large: paperfaces-etowow-twitter-lg.jpg
+    thumb: paperfaces-etowow-twitter-150.jpg
+    title: @etowow
+    alt: Long haired girl in a restaurant with green light @etowow iPad portrait
+  - large: paperfaces-bjoerndemming-twitter-lg.jpg
+    thumb: paperfaces-bjoerndemming-twitter-150.jpg
+    title: @bjoerndemming
+    alt: Overcast sky and a guy in shadow @bjoerndemming iPad portrait
+  - large: paperfaces-charlietuna-twitter-lg.jpg
+    thumb: paperfaces-charlietuna-twitter-150.jpg
+    title: @charlietuna
+    alt: Bride and groom @charlietuna iPad portrait
+  - large: paperfaces-alec-eiffel-facebook-lg.jpg
+    thumb: paperfaces-alec-eiffel-facebook-150.jpg
+    title: Alec Eiffel
+    alt: Black and white shirtless guy wearing a military helmet, Alec Eiffel iPad portrait
   - large: paperfaces-soulxheart-twitter-lg.jpg
     thumb: paperfaces-soulxheart-twitter-150.jpg
     title: @soulxheart
