@@ -32,7 +32,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
       {% endif %}
       {% if page.image %}
       <div class="wrapper-image">
-          <img src="{{ site.base_url }}/images/{{ page.image }}-xl.jpg" alt="{{ page.title }} article image" class="feature-image">
+          <img src="{{ site.url }}/images/{{ page.image }}-xl.jpg" alt="{{ page.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->{% else %}
       {% endif %}
       <div class="content-wrapper" itemprop="articleBody">
@@ -42,13 +42,13 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 </div><!-- /#main -->
 <div class="footer-wrapper">
   <footer class="site-footer" role="contentinfo">
-    <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.base_url }}/about.html" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
+    <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about.html" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
     {% if site.related_posts.size > 1 %}
     <h2>You might also be interested in:</h2>
     <ul class="related-articles unstyled">
         {% for post in site.related_posts limit:4 %}
         <li>
-            <a href="{{ site.base_url }}{{ post.url }}" title="{{ post.title }}">{% if post.image %}<img src="{{ site.base_url }}/images/{{ post.image }}-s.jpg" alt="{{ post.title }} article image" />{% else %}<img src="{{ site.base_url }}/images/mademistakes-feature-s.jpg" alt="{{ post.title }} article image" class="feature-image" />{% endif %}</a>
+            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{% if post.image %}<img src="{{ site.url }}/images/{{ post.image }}-s.jpg" alt="{{ post.title }} article image" />{% else %}<img src="{{ site.url }}/images/mademistakes-feature-s.jpg" alt="{{ post.title }} article image" class="feature-image" />{% endif %}</a>
             <p>{{ post.description }}</p>
         </li>
         {% endfor %}

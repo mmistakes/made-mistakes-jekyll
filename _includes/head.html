@@ -6,20 +6,20 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &ndash; {% endif %}Made Mistakes">
 <meta name="twitter:description" content="{{ page.description }}">
 <meta name="twitter:creator" content="@mmistakes">
-<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.base_url }}/images/{{ page.thumb }}{% else %}{{ site.base_url }}/images/no-thumb.png{% endif %}">
+<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &ndash; {% endif %}Made Mistakes">
 <meta property="og:description" content="{{ page.description }}">
-<meta property="og:url" content="{{ site.base_url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="Made Mistakes">
 <meta property="og:type" content="article">
-<meta property="og:image" content="{% if page.thumb %}{{ site.base_url }}/images/{{ page.thumb }}{% else %}{{ site.base_url }}/images/no-thumb.png{% endif %}">
+<meta property="og:image" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">
 <meta name="google-site-verification" content="geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo">
 <meta name="msvalidate.01" content="D81F4C18A6CB3018F64D7C827D953DFD">
 <meta name="alexaVerifyID" content="Y5DYjZ4VWlrQzBP5kcQJeOKLNas">
-{% capture canonical %}{{ site.base_url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
-<link href="{{ site.base_url }}/atom.xml" type="application/atom+xml" rel="alternate" title="Made Mistakes ATOM Feed">
+<link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="Made Mistakes ATOM Feed">
 <link rel="author" href="https://plus.google.com/118238196859537351707/posts">
 
 <!-- http://t.co/dKP3o1e -->
@@ -30,27 +30,27 @@
 <!-- Google Webfonts -->
 <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300" rel="stylesheet" type="text/css">
 <!-- For all browsers -->
-<link href="{{ site.base_url }}/css/style.css?v=1.8" rel="stylesheet">
+<link href="{{ site.url }}/css/style.css?v=1.8" rel="stylesheet">
 
 <!--[if (lt IE 9) & (!IEMobile)]>
-<script src="{{ site.base_url }}/js/selectivizr-min.js"></script>
+<script src="{{ site.url }}/js/selectivizr-min.js"></script>
 <![endif]-->
 
-<script src="{{ site.base_url }}/js/modernizr-2.6.2.custom.min.js"></script>
+<script src="{{ site.url }}/js/modernizr-2.6.2.custom.min.js"></script>
 
 <!-- Icons -->
 <!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.base_url }}/favicon.ico">
+<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
 <!-- 32x32 -->
-<link rel="shortcut icon" href="{{ site.base_url }}/favicon.png">
+<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
 <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.base_url }}/images/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-precomposed.png">
 <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.base_url }}/images/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/apple-touch-icon-72x72-precomposed.png">
 <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.base_url }}/images/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.base_url }}/images/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
 
 <!-- iOS home screen stuff -->
 <meta name="apple-mobile-web-app-title" content="MM">
@@ -59,21 +59,21 @@
 
 <!-- iOS splash screens -->
 <!-- iPhone 3GS, pre-2011 iPod Touch -->
-<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-320x460.png "media="(device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio:1)">
+<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-320x460.png "media="(device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio:1)">
 <!-- iPhone 4, 4S and 2011 iPod Touch-->
-<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-640x920.png" media="(device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio:2)">
+<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-640x920.png" media="(device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio:2)">
 <!-- iPhone 5 and 2012 iPod Touch -->
-<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-640x1096.png" media="(device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2)">
+<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-640x1096.png" media="(device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2)">
 <!-- 1st generation iPad, iPad 2 and iPad mini Landscape -->
-<link rel="apple-touch-startup-image" sizes="1024x748" href="{{ site.base_url }}/images/startup/startup-1024x748.png" media="(device-width:768px) and (device-height:1024px) and (orientation:landscape) and (-webkit-device-pixel-ratio:1)">
+<link rel="apple-touch-startup-image" sizes="1024x748" href="{{ site.url }}/images/startup/startup-1024x748.png" media="(device-width:768px) and (device-height:1024px) and (orientation:landscape) and (-webkit-device-pixel-ratio:1)">
 <!-- 1st generation iPad, iPad 2 and iPad mini Portrait -->
-<link rel="apple-touch-startup-image" sizes="768x1004" href="{{ site.base_url }}/images/startup/startup-768x1004.png" media="(device-width:768px) and (device-height:1024px) and (orientation:portrait) and (-webkit-device-pixel-ratio:1)">
+<link rel="apple-touch-startup-image" sizes="768x1004" href="{{ site.url }}/images/startup/startup-768x1004.png" media="(device-width:768px) and (device-height:1024px) and (orientation:portrait) and (-webkit-device-pixel-ratio:1)">
 <!-- iPad 3rd and 4th generation Landscape --> 
-<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-2048x1496.png" media="(device-width:768px) and (device-height:1024px) and (orientation:landscape) and (-webkit-device-pixel-ratio:2)">
+<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-2048x1496.png" media="(device-width:768px) and (device-height:1024px) and (orientation:landscape) and (-webkit-device-pixel-ratio:2)">
 <!-- iPad 3rd and 4th generation Portrait -->
-<link rel="apple-touch-startup-image" href="{{ site.base_url }}/images/startup/startup-1536x2008.png" media="(device-width:768px) and (device-height:1024px) and (orientation:portrait) and (-webkit-device-pixel-ratio:2)">
+<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-1536x2008.png" media="(device-width:768px) and (device-height:1024px) and (orientation:portrait) and (-webkit-device-pixel-ratio:2)">
 
 <!-- Windows 8 / RT -->
-<meta name="msapplication-TileImage" content="{{ site.base_url }}/images/apple-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileImage" content="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
 <meta name="msapplication-TileColor" content="#000">
 <meta http-equiv="cleartype" content="on">

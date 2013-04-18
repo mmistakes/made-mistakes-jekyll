@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 {% include head.html %}
-<script src="{{ site.base_url }}/js/libs/modernizr-2.5.3.min.js"></script>
+<script src="{{ site.url }}/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body id="archives">
@@ -15,13 +15,13 @@
 <header role="banner">
 <div id="branding">
 <div id="logo">
-<a href="{{ site.base_url }}" title="Made Mistakes">
-<img src="{{ site.base_url }}/images/retro-logo.png" alt="Made Mistakes" />
+<a href="{{ site.url }}" title="Made Mistakes">
+<img src="{{ site.url }}/images/retro-logo.png" alt="Made Mistakes" />
 </a>
 </object>
 </div><!-- /#logo -->	
 <hgroup class="visuallyhidden">
-<h1><a href="{{ site.base_url }}" title="Home">Made Mistakes</a></h1>
+<h1><a href="{{ site.url }}" title="Home">Made Mistakes</a></h1>
 <h2>Design Faux Pas</h2>
 </hgroup>
 {% include navbar.html %}
@@ -35,8 +35,8 @@
 <h1 style="color:white;">Portfolio Work is Coming Soon&hellip;</h1>
 <ul>
 {% for post in site.categories.portfolio %}
-<li{% if page.url == post.url %} class="active"{% endif %} style="background-image: url({{ site.base_url }}/images/{{ post.thumb }}); background-repeat: no-repeat;">
-<h2><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}
+<li{% if page.url == post.url %} class="active"{% endif %} style="background-image: url({{ site.url }}/images/{{ post.thumb }}); background-repeat: no-repeat;">
+<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}
 <span><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a>
 </h2>
 </li>{% endfor %}

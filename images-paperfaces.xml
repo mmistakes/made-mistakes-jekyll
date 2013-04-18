@@ -1298,7 +1298,7 @@ pictures:
         <loc>http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html</loc>
         {% for pic in page.pictures %}
 		<image:image>
-     		<image:loc>{{ site.base_url }}/images/{{ pic.large }}</image:loc>
+     		<image:loc>{{ site.url }}/images/{{ pic.large }}</image:loc>
 			<image:caption>{{ pic.alt }}</image:caption>
 			<image:title>iPad portrait of {{ pic.title }}</image:title>
 			<image:license>http://creativecommons.org/licenses/by-nc/3.0/</image:license>

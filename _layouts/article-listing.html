@@ -27,13 +27,13 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
       {% for post in site.posts limit:1 %}
       <h1>Posts &amp; Diatribes</h1>
       <div class="wrapper-image">
-            <img src="{{ site.base_url }}/images/{{ post.image }}-xl.jpg" alt="{{ post.title }} article image" class="feature-image">
+            <img src="{{ site.url }}/images/{{ post.image }}-xl.jpg" alt="{{ post.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->
       {% endfor %}
       <div class="article-listing">
         {% for post in site.posts %}  
           <article class="article-list">
-            <h1><a href="{{ site.base_url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
+            <h1><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h1>
             <p>{{ post.description }}</p>
           </article>
         {% endfor %}

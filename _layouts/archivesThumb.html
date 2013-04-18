@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 {% include head.html %}
-<script src="{{ site.base_url }}/js/libs/modernizr-2.5.3.min.js"></script>
+<script src="{{ site.url }}/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body id="archives">
@@ -15,7 +15,7 @@
 <header role="banner">
 <div id="branding">
 <hgroup>
-<h1><a href="{{ site.base_url }}" title="Home">Made Mistakes</a></h1>
+<h1><a href="{{ site.url }}" title="Home">Made Mistakes</a></h1>
 <h2>Design Faux Pas</h2>
 </hgroup>
 </div>
@@ -29,8 +29,8 @@
 <ul id="pe-thumbs" class="pe-thumbs">
 {% for post in site.posts %}
 <li{% if page.url == post.url %} class="active"{% endif %}>
-<a href="{{ site.base_url }}{{ post.url }}">
-<img src="{{ site.base_url }}/images/{{ post.thumb }}" />
+<a href="{{ site.url }}{{ post.url }}">
+<img src="{{ site.url }}/images/{{ post.thumb }}" />
 <div class="pe-description">
 <h2>{{ post.title }}</h2>
 <span><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
@@ -45,12 +45,12 @@
 </footer>
 
 {% include scripts.html %}	        
-<script type="text/javascript" src="{{ site.base_url }}/js/libs/jquery.proximity.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/libs/jquery.proximity.min.js"></script>
 <!-- Proximity Scaling of Thumbnails -->
 <script type="text/javascript">
 			Modernizr.load({
 			    test: Modernizr.touch,
-			    nope: '{{ site.base_url }}/js/libs/jquery.proximity.min.js',
+			    nope: '{{ site.url }}/js/libs/jquery.proximity.min.js',
 			    callback: function () {
 			      //Run this when the 'mycustomtest' condition is met
 							$(function() {
