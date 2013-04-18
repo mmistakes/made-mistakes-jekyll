@@ -1,6 +1,6 @@
 _site
-.ds_store
-mademistakes.sublime-project
-mademistakes.sublime-workspace
+.DS_Store
+*.sublime-*
+*.sublime-*
 codekit-config.json
 node_modules
