@@ -31,9 +31,9 @@ layout: nil
 		<uri>{{ site.base_url }}/</uri>
 		<email>michael@mademistakes.com</email>
 	</author>
-	<content type="html">{% if post.screenshot %}<![CDATA[<a href="{{ site.base_url }}{{ post.url }}"><img src="{{ site.base_url }}/images/{{ post.screenshot }}" alt="{{ post.title }} screenshot image" /></a><p>Do yourself a favor and click the screenshot above to read this article as I intended. Newsreaders strip out all the time and effort I put into the design and typography, and that's no fun!</p>]]>
+	<content type="html">{% if post.screenshot %}&lt;a href=&quot;{{ site.base_url }}{{ post.url }}&quot;&gt;&lt;img src=&quot;{{ site.base_url }}/images/{{ post.screenshot }}&quot; alt=&quot;{{ post.title }} screenshot image&quot; /&gt;&lt;/a&gt;&lt;p&gt;Do yourself a favor and click the screenshot above to read this article as I intended. Newsreaders strip out all the time and effort I put into the design and typography, and that's no fun!&lt;/p&gt;
 	{% else %}{{ post.content | xml_escape }}{% endif %}
-	<![CDATA[<p><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a> was originally published by <a href="href="{{ site.base_url }}/about.html">Michael Rose</a> at <a href="{{ site.base_url }}">Made Mistakes</a> on {{ post.date | date: "%B %d, %Y" }}.</p>]]></content>
+	&lt;p&gt;&lt;a href=&quot;{{ site.base_url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by &lt;a href=&quot;href=&quot;{{ site.base_url }}/about.html&quot;&gt;Michael Rose&lt;/a&gt; at &lt;a href=&quot;{{ site.base_url }}&quot;&gt;Made Mistakes&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 </entry>
 {% endfor %}
 </feed>
