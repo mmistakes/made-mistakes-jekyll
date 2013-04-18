@@ -11,25 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_layouts/article.html",
-			"settings":
-			{
-				"buffer_size": 3553,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: article\ntitle: \"Blinded By The Light &ndash; Sunshine Movie Impressions\"\nheadline: \"Blinded By The Light\"\nsubheadline: \"Impressions of Danny Boyle&rsquo;s Sunshine\"\ndescription: \"The film Sunshine directed by Danny Boyle is science fiction without the big bang.\"\ndate: 2007-07-28\ncategory: articles\nimage: sunshine.jpg\nthumb: sunshine-340x340.jpg\nkeywords: \n- Sunshine\n- science\n- fiction\n- scifi\n- movie\n- review\n- Danny Boyle\n---\n<article class=\"content-wide clearfix\">\n	<p>Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle&rsquo;s new film <a title=\"Sunshine official movie website\" href=\"http://www.sunshinedna.com/\"><strong>Sunshine</strong></a>, when I saw a trailer before <strong>Sicko</strong> a month or so ago. I couldn&rsquo;t tell you any of the actors&rsquo; names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the <em>Human Torch</em> in Fantastic Four &amp; <strong>Rise of the Silver Surfer</strong>).</p>\n	<p><strong>Armageddon</strong>, <strong>Deep Impact</strong>, <strong>The Core</strong>&hellip; yeah this film is nothing like that garbage. Things start off in space where we are quickly brought up to speed on Earth&rsquo;s dire condition through some brief narration. About 50 years in the future, 8 scientists are taking a nuke to the Sun in hopes of reigniting it and saving the entire population from certain doom.</p>\n	<p>We learn that they are the second group to attempt this mission after <em>Icarus I</em> lost contact about six and a half years ago. Before passing into the dead zone they compose their final video messages to send back to their family on Earth since communication will be cut from here on in. Cillian&rsquo;s character is the only scientist we see recording his message.</p>\n	<p>Shit hits the fan after Icarus II picks up a distress beacon from the missing Icarus I. The eight decide to change course and intercept Icarus I &ndash; which always means disaster in these flicks. The idea of igniting a dying star with a nuclear warhead being hypothetical and all &ndash; regaining control of Icarus I means two tries. Makes sense to me&hellip;</p>\n	<p>Somewhere along the third act this film takes a right turn into a different kind of film. I won&rsquo;t ruin anything for you, but it&rsquo;s nothing crazy like blood thirsty aliens showing up. It&rsquo;s very plausible and works well with the rest of the film up to that point.</p>\n	<p><strong>Sunshine</strong> never tries to insult your intelligence with over simplified scientific babble a 5 year old could understand. In fact there really is little explanation about what is going on or what they are doing. Instead it focuses on philosophical themes and how expendable life is in the greater scheme of things.</p>\n	<p>If you&rsquo;re looking for a big budget science fiction action adventure skip this one. You'll think the story moves along too slowly and not enough shit blows up. If you enjoy your sci-fi cut from the indie vein or dug <a title=\"Primer (2004)\" href=\"http://imdb.com/title/tt0390384/\"><strong>Primer&rsquo;s</strong></a> realistic explanation of time travel, then you can’t go wrong. B+</p>\n</article><!-- /.content-wide -->",
-			"file": "_posts/2007-07-28-sunshine-movie-impressions.html",
-			"file_size": 3251,
-			"file_write_time": 1343433400000000,
-			"settings":
-			{
-				"buffer_size": 3249,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -55,6 +36,18 @@
 	},
 	"file_history":
 	[
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_config.yml",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_plugins/jekyll-asset-pipeline.rb",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/head.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_site/assets/global-074c140f063c241d8047bb10ff1a7ab3.css",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_plugins/ext.rb",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/Gemfile",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.gitignore",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/terms.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/mademistakes.sublime-workspace",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/article.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2007-07-28-sunshine-movie-impressions.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2007-11-17-upgrade-imac-g5-osx-leopard.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2007-12-12-rriiccee-show-last-night-soundlab.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2008-04-06-using-rasterbator.html",
@@ -111,7 +104,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/michael/Dropbox/Sites/mademistakes.com/less"
@@ -144,64 +137,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_layouts/article.html",
-					"settings":
-					{
-						"buffer_size": 3553,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1322,
-								1322
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 498.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2007-07-28-sunshine-movie-impressions.html",
-					"settings":
-					{
-						"buffer_size": 3249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								19
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
