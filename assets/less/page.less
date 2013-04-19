@@ -1,0 +1,345 @@
+// ===========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
+
+// ===========================================================/
+
+/* Branding ============================================== */
+#branding {
+	position: fixed;
+	z-index: 9000;
+	h1 {
+		margin: 0;
+		padding: 0;
+		.font-size(17);
+		text-transform: uppercase;
+		color: @white;
+		a {
+			color: @white;
+			&:hover {
+				color: @white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+/* Navigation ============================================ */
+[role="navigation"] {
+	margin: 0 auto;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	background-color: @black;
+	.box-shadow();
+	-webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform-style: flat;
+	a {
+		.font-size(12);
+		color: @white;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-bottom: solid 0 transparent;
+		z-index: 90;
+		.transition(.2s linear);
+		&:hover {
+			background-color: @basecolor;
+		}
+	}
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		li {
+			margin: 0;
+			padding: 0;
+			display: inline;
+			position: relative;
+			&.current {
+				color: @black;
+				background-color: @white;
+				a {
+					color: @black;
+					&:hover {
+						color: @white;
+					}
+				}
+			}
+			a {
+				padding: 8px 12px;
+				display: inline-block;
+				.transition(.2s linear);
+				&:hover {
+					background-color: @basecolor;
+				}
+			}
+		}
+	}
+}
+
+/* Sections ================================================== */
+.slides > section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	.clearfix();
+}
+.cover-wrapper {
+	position: relative;
+	hgroup {
+		padding: 0 (@basewidth / 2);
+		text-align: center;
+		h1 {
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+		h2 {
+			font-family: @altfont;
+			font-style: italic;
+			margin-bottom: 0;
+		}
+		h3 {
+			text-align: center;
+			text-transform: uppercase;
+			white-space: nowrap;
+			display: block;
+			margin-bottom: 0;
+			font-weight: 300;
+			span {
+				background-color: @white;
+				padding: 2px 4px;
+			}
+		}
+	}
+}
+.quote-wrapper {
+	position: relative;
+	img {
+		height: auto;
+		width: 100%;
+	}
+	blockquote {
+		position: absolute;
+		top: 50px;
+		left: (@basewidth / 2);
+		right: (@basewidth * 1.25);
+		margin: 0 auto;
+		color: @white;
+		text-align: center;
+		padding: @baselineheight;
+		border: 6px double @white;
+		.text-shadow();
+		small {
+			display: block;
+			&:before {
+				content: "\2014 ";
+			.text-shadow();
+			}
+		}
+	}
+}
+.byline {
+	&:hover {
+		p, li, a {
+			color: @black;
+		}
+	}
+	p, li {
+		font-family: @baseheadingfont;
+		font-weight: @baseheadingfontweight;
+		color: lighten(@basecolor, 30%);
+	}
+	p {
+		a {
+			border-bottom: none;
+			color: lighten(@basecolor, 30%);
+		}
+	}
+	li {
+		padding-right: @gutterwidth;
+		display: inline;
+		a {
+			border-bottom: none;
+			color: lighten(@basecolor, 30%);
+		}
+	}
+}
+
+/* Table of Contents menu ============================= */
+.toc-menu {
+	border: 6px double @black;
+	li {
+		a {
+			display: block;
+			padding: 10px 10px 0;
+			text-align: center;
+			position: relative;
+			z-index: 10;
+			border-bottom: none;
+			span {
+				display: block;
+				&:first-child {
+					font-family: @baseheadingfont;
+					font-weight: @baseheadingfontweight;
+					.font-size(16);
+					&:before, &:after {
+						content: "\00d7";
+				  	}
+				}
+				&:nth-child(2) {
+				  font-style: italic;
+				  .font-size(22);
+				}
+			}
+			&:hover {
+				border-bottom: none;
+			}
+		}
+		&:last-child {
+			padding-bottom: 10px;
+		}
+	}
+}
+
+.toc-wrapper,
+.content-wrapper,
+.photo-wrapper,
+.footer-wrapper {
+	.clearfix();
+	position: relative;
+	padding: @baselineheight (@basewidth / 2) 0 (@basewidth / 2);
+}
+.wrapper-image { 
+    margin: 0 auto 30px;
+    position: relative;
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: url(../images/DotGrid2.png);
+		opacity: 0.4;
+	}
+}
+.footer-wrapper { 
+	position: inherit;
+	margin: 50px auto 0;
+	padding-top: 0;
+}
+
+/* Content ================================================ */
+.content-wrapper {
+	display: inline;
+	float: left;
+}
+.toc-wrapper {
+	.content-wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	padding-top: 80px;
+	h1 {
+		margin-bottom: @baselineheight / 6;
+		line-height: 1;
+		text-transform: uppercase;
+		a {
+			&:hover {
+				text-decoration: none;
+				border-bottom: 1px dotted @basecolor;
+			}
+		}
+	}
+	h2 {
+		span {
+			font-family: @altfont;
+			font-style: italic;
+		}
+	}
+}
+.feature-article-list {
+	span {
+		margin-bottom: @baselineheight / 2;
+		padding: 2px 6px;
+		color: @white;
+		background-color: @black;
+		.font-size(14);
+		font-family: @baseheadingfont;
+		font-weight: 300;
+		text-rendering: optimizelegibility;
+	}
+	h1 {
+		margin-bottom: @baselineheight / 3;
+		.font-size(28);
+	}
+	p {
+		font-family: @baseheadingfont;
+		font-weight: 300;
+		padding-top: 5px;
+	}
+}
+.article-list,
+.simple-article-list {
+	span {
+		display: block;
+		margin-bottom: @baselineheight / 2;
+		font-family: @baseheadingfont;
+		font-weight: 300;
+		color: @baseheadingfontcolor;
+		text-rendering: optimizelegibility;
+		.font-size(32);
+	}
+	h1 {
+		.font-size(18);
+	}
+	p {
+		font-family: @baseheadingfont;
+		font-weight: 300;
+	}
+}
+
+/* jPages and Lazy Load ========================================= */
+/* Navigation holder ============================================ */
+.holder {
+	margin: 15px 0;
+	a {
+		cursor: pointer;
+		margin: 0 5px;
+	}
+	a.jp-previous {
+		margin-right: 15px;
+		.btn();
+	}
+	a.jp-next {
+		margin-left: 15px;
+		.btn();
+	}
+	a.jp-current {
+		font-weight: bold;
+	}
+	a.jp-disabled, 
+	a.jp-disabled:hover {
+	}
+	a.jp-current, 
+	a.jp-current:hover,  
+	a.jp-disabled, 
+	a.jp-disabled:hover {
+		cursor: default;
+		background: none;
+	}
+	span {
+		margin: 0 5px;
+	}
+}
+/* Remove duplicate images when Javascript is disabled =========== */
+.lazy {
+	display: none;
+}

@@ -1,0 +1,359 @@
+// ===========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
+
+// ===========================================================/
+
+/* Headings ============================================== */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	margin: 0;
+	font-family: @baseheadingfont;
+	font-weight: @baseheadingfontweight;
+	color: @baseheadingfontcolor;
+	text-rendering: optimizelegibility;
+}
+h1 small, 
+h2 small {
+	font-weight: normal;
+	color: @lightgrey; 
+}
+h1,
+.h1 { 
+	margin-bottom: @baselineheight / 2;
+	.font-size(32);
+	line-height: 1.2; 
+}
+h2,
+.h2 { 
+	margin-bottom: @baselineheight / 2;
+	.font-size(24);
+	line-height: 1.2; 
+}
+h3,
+.h3 { 
+	margin-bottom: @baselineheight / 1.5;
+	.font-size(21);
+	line-height: 1.3; 
+}
+h4,
+.h4 { 
+	margin-bottom: @baselineheight;
+	.font-size(18);
+	line-height: 1.25; 
+}
+h5,
+.h5 { 
+	.font-size(16);
+	margin-bottom: @baselineheight; 
+}
+h6,
+.h6 { 
+	margin-bottom: @baselineheight;
+	.font-size(14); 
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase; 
+}
+
+/* Links ================================================= */
+a { 
+	text-decoration : none;
+	color : @linkcolor; 
+	&:visited { 
+		color : @linkcolorvisited; 
+	}
+	&:hover { 
+		text-decoration : underline;
+		color : @linkcolorhover; 
+	}
+	&:focus { 
+		outline : thin dotted; 
+		color : @linkcolorfocus; 
+	}
+	&:hover, 
+	&:active { 
+		outline : 0; 
+	}
+}
+
+/* Body typography ======================================= */
+p, 
+ol, 
+ul, 
+dl, 
+address { 
+	margin-bottom: @baselineheight; 
+	.font-size(16);
+	line-height: @baselineheight; 
+}
+small { 
+	.font-size(14); 
+}
+ul, 
+ol { 
+	margin: 0 0 @baselineheight 0; 
+	padding: 0 0 0 @gutterwidth; 
+}
+ul {
+	list-style-type: square
+}
+li ul, 
+li ol { 
+	margin: 0;
+	.font-size(16); 
+}
+ul.unstyled,
+ol.unstyled {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+/* Add underline for article links ======================= */
+article p > a,
+article li > a,
+article em > a,
+article a > em,
+.content-wrapper p > a,
+.content-wrapper li > a,
+.content-wrapper em > a,
+.content-wrapper a > em {
+	text-decoration: none;
+	border-bottom: 1px dotted lighten(@basecolor, 50%);
+}
+article p > a:hover,
+article li > a:hover,
+article em > a:hover,
+article a:hover > em,
+.content-wrapper p > a:hover,
+.content-wrapper li > a:hover,
+.content-wrapper em > a:hover,
+.content-wrapper a:hover > em {
+	text-decoration: none;
+	border-bottom: 1px dotted @basecolor;
+}
+/* Add some padding below each list item ================= */
+.content-wrapper li {
+	margin-bottom: (@baselineheight / 4);
+}
+/* Article footnotes ===================================== */
+.footnote {
+	hr {
+		margin: @baselineheight 0;
+		width: 8em;
+	}
+	li {
+		.font-size(12) !important;
+	}
+}
+/* Footer typography ===================================== */
+.footer-wrapper {
+	clear: both;
+}
+.footer-wrapper footer {
+	font-family: @baseheadingfont;
+	font-weight: 300;
+	color: lighten(@basecolor, 40%);
+	a,
+	a:visited {
+		color: lighten(@basecolor, 40%);
+		border-bottom: none;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+		border-bottom: none;
+		color: @black;
+	}
+	h2 {
+		color: @basecolor;
+	}
+	h4 {
+		margin-top: @baselineheight;
+		.font-size(16);
+		font-weight: 300;
+		a {
+			&:hover {
+				border-bottom: none;
+				color: @black;
+			}
+		}
+	}
+}
+/* Footer inverse (on dark background) ================== */
+.article .footer-wrapper,
+.feature .footer-wrapper {
+	clear: both;
+	background: @basecolor url(../images/twinkle_twinkle.png);
+}
+.article .footer-wrapper footer,
+.feature .footer-wrapper footer {
+	padding-top: @baselineheight;
+	font-family: @baseheadingfont;
+	font-weight: 300;
+	color: lighten(@basecolor, 40%);
+	a,
+	a:visited {
+		color: lighten(@basecolor, 40%);
+		border-bottom: none;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+		border-bottom: none;
+		color: lighten(@basecolor, 60%);
+	}
+	h2 {
+		color: lighten(@basecolor, 40%);
+	}
+	h4 {
+		margin-top: @baselineheight;
+		a {
+			&:hover {
+				border-bottom: none;
+				color: lighten(@basecolor, 40%);
+			}
+		}
+	}
+}
+.footer-icons {
+	margin-bottom: @baselineheight;
+	.font-size(32);
+	li {
+		display: inline;
+	}
+	a {
+		color: lighten(@basecolor, 40%);
+		.transition(.4s linear);
+		&:hover {
+			text-decoration: none;
+			border-bottom: none;
+			.icon-twitter,
+			.icon-twitter-sign {
+				color: #2aa9df;
+			}
+			.icon-facebook,
+			.icon-facebook-sign {
+				color: #3a5a98;
+			}
+			.icon-linkedin,
+			.icon-linkedin-sign {
+				color: #4093cf;
+			}
+			.icon-google-plus,
+			.icon-google-plus-sign {
+				color: #b63324;
+			}
+			.icon-lastfm,
+			.icon-lastfm-sign {
+				color: #d80049;
+			}
+		}
+		i {
+			padding: 0 5px;
+		}
+	}
+}
+.related-articles p {
+	line-height: (2 / @baselineheight); 
+	padding-top: @baselineheight;
+}
+/* Blockquotes ============================================== */
+blockquote  { 
+	margin: @baselineheight 0;
+	font-family: @baseheadingfont;
+	.font-size(32);
+	font-style: normal; 
+	text-transform: uppercase;
+	line-height: 0.75 * (@baselineheight);
+	color: @black;
+}
+q { 
+	quotes: none; 
+}
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {
+	content: '';
+	content: none; 
+}
+cite {
+	font-style: normal; 
+} 
+
+// definition lists
+dl, 
+dd { 
+	margin-bottom: @baselineheight;  
+}
+dt { 
+	font-weight: bold; 
+}
+.dl-horizontal {
+	dt {
+		float: left;
+		clear: left;
+		width: 20.25%;
+		text-align: right; 
+	}
+	dd {
+		margin-left: 22.78%; 
+	} 
+}
+/* Text-level ============================================= */
+abbr[title] { 
+	border-bottom: 1px dotted @bordercolor; 
+	cursor: help; 
+}
+b, strong { 
+	font-weight: 700; 
+}
+dfn { 
+	font-style: italic; 
+}
+ins { 
+	background-color: lighten(@basecolor, 75%); 
+	color: @textcolor; 
+	text-decoration: none; 
+}
+mark { 
+	background-color: lighten(@basecolor, 75%); 
+	color: @textcolor; 
+	font-style: italic; 
+	font-weight: bold; 
+}
+pre, 
+code, 
+kbd, 
+samp { 
+	font-family: @codefont;
+	.font-size(14);
+	line-height: @baselineheight; 
+}
+pre { 
+	white-space: pre; 
+	white-space: pre-wrap; 
+	word-wrap: break-word; 
+}
+sub, 
+sup { 
+	position: relative;
+	.font-size(12);
+	line-height: 0; 
+	vertical-align: baselineheight; 
+}
+sup { 
+	top: -.5em; 
+}
+sub { 
+	bottom: -.25em; 
+}

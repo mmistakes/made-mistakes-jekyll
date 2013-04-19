@@ -1,0 +1,102 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
+
+// ==========================================================
+
+// ROOT =====================================================
+* { 
+background : transparent !important; 
+color : black !important; 
+box-shadow : none !important; 
+text-shadow : none !important; 
+filter : none !important; 
+-ms-filter : none !important;
+position: static !important; }
+
+@page { 
+margin : 0.5cm; }
+
+// TYPOGRAPHY ===============================================
+h2, h3 { 
+orphans : 3; 
+widows : 3; 
+page-break-after : avoid; }
+
+p { 
+orphans : 3; 
+widows : 3; }
+
+pre, blockquote { 
+border : 1px solid @grey; 
+page-break-inside : avoid;
+padding: 1em; }
+
+abbr[title]:after { 
+content: " (" attr(title) ")"; }
+
+a, a:visited { 
+text-decoration : underline; }
+
+a[href]:after { 
+content : " (" attr(href) ")"; }
+
+a[href^="javascript:"]:after, 
+a[href^="#"]:after { 
+content : ""; }
+
+// TEXTURE ===============================================
+img { 
+max-width : 100% !important;
+page-break-inside : avoid; }
+
+thead { 
+display : table-header-group; } 
+
+tr { 
+page-break-inside : avoid; }
+
+// ELEMENTS ==============================================
+// LAYOUT ================================================
+nav,
+.menu,
+.byline,
+.toc, 
+footer,
+.chrome-frame {
+	.hidden();
+}
+.cover-wrapper {
+	img {
+		position: static;
+		top: auto;
+		left: auto;
+		min-width: 100%;
+		page-break-inside: avoid;
+	}
+	hgroup {
+		h1, h2, h3 {
+			color: @black !important;
+		}
+	}
+}
+.quote-wrapper {
+	img {
+		position: static;
+		top: auto;
+		left: auto;
+		page-break-inside: avoid;
+	}
+	blockquote {
+		position: static;
+		top: auto;
+		left: auto;
+		right: auto;
+	}
+}
+// VENDOR-SPECIFIC =======================================
+// MODERNIZR =============================================

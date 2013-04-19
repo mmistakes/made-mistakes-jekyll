@@ -1,0 +1,58 @@
+// ===========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
+
+// ===========================================================/
+
+html {
+	background: @bodycolor url(../images/body-background.jpg); 
+	font-size: 62.5%;
+	-webkit-overflow-scrolling: touch; 
+	-webkit-tap-highlight-color: lighten(@basecolor, 75%); 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+body { 
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: transparent;
+	font-family: @basefont;
+	.font-size();
+	line-height: @baselineheight;
+	color: @textcolor; 
+}
+/* Selection ============================================= */
+::-moz-selection { 
+	background-color : lighten(@basecolor, 65%); 
+	color : @basecolor; 
+	text-shadow : none; 
+}  	
+::selection { 
+	background-color : lighten(@basecolor, 65%); 
+	color : @basecolor; 
+	text-shadow : none; 
+}
+
+/* Global classes ======================================== */
+.push-right {
+	float: right;
+	margin-left: 0 !important;
+}
+.photo_left {
+	float: left;
+	left: -130px;
+	margin-right: -110px;
+	position: relative;
+}
+.sidebar {
+	margin-bottom: @baselineheight;
+	padding: 0 @basewidth 0 (@basewidth / 2);
+}
+.pull-left {
+	padding: 0 (@basewidth * 1.25) 0 (@basewidth / 2);
+}

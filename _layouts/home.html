@@ -1,13 +1,5 @@
 <!doctype html>
 
-<!-- 
-320 and Up by Andy Clarke
-Version: 3.0
-URL: http://stuffandnonsense.co.uk/projects/320andup/
-Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
--->
-
-<!-- HTML5 Boilerplate -->
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
@@ -31,7 +23,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
       {% endif %}
       <h1>The Latest</h1>
       <div class="wrapper-image">
-          <img src="{{ site.url }}/images/{{ post.image }}-xl.jpg" alt="{{ post.title }} article image" class="feature-image">
+          <img src="{{ site.url }}/assets/images/{{ post.image }}-xl.jpg" alt="{{ post.title }} article image" class="feature-image">
       </div><!-- /.wrapper-image -->
       <article class="feature-article-list">
         <span>{% if post.modified %}Updated <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%B %d, %Y" }}</time>{% else %}Published <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>{% endif %}</span>
