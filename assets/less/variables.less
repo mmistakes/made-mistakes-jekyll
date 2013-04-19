@@ -1,0 +1,120 @@
+// ===========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+// Modified by: Michael Rose
+
+// ===========================================================/
+
+// ROOT ======================================================
+@bodycolor: #ffffff;
+@textcolor: #414140;
+
+// TYPOGRAPHY ================================================
+@basefont: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+@basefontsize: 16;
+@baselineheight: 1.5em;
+@baseheadingfont: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+@baseheadingfontweight: 400;
+@baseheadingfontcolor: inherit;
+
+@altfont: @basefont;
+@altlineheight: 1.35em;
+
+@codefont: Monaco, Courier New, monospace;
+
+// COLOR ====================================================
+@basecolor 		: #343434;	  
+@compcolor 		: spin(@basecolor, 180); 
+@bordercolor    : lighten(@basecolor, 60%);
+/* Links ================================================= */
+@linkcolor 		    : #343434;
+@linkcolorhover 	: darken(@linkcolor, 10);
+@linkcolorvisited   : lighten(@linkcolorhover, 20);
+@linkcolorfocus 	: darken(@linkcolorvisited, 10);
+/* Greyscale ============================================= */
+@black 			: rgb(0,0,0);
+@darkgrey 		: lighten(@black, 25%);
+@grey 			: lighten(@black, 50%);
+@lightgrey 		: lighten(@black, 75%);
+@lightergrey 	: lighten(@black, 90%);
+@white 			: rgb(255,255,255);
+/* Color palettes ======================================= */
+@alertcolor 	: rgb(252,248,227);
+@errorcolor 	: rgb(218,79,73);
+@infocolor 		: rgb(217,237,247);
+@inverscolor 	: rgb(65,65,65);
+@successcolor 	: rgb(91,183,91);
+@warningcolor 	: rgb(250,167,50);
+
+// TEXTURE ==================================================
+/* Alerts ================================================ */
+@alertbordercolor	: darken(@alertcolor, 20%);
+@alertborderwidth 	: 1px;
+@alertborderstyle 	: solid;
+@alerttext			: darken(@alertcolor, 60%);
+/* alert-error =========================================== */
+@alerterrorcolor 	: lighten(@errorcolor, 30%);
+@alerterrorborder  	: lighten(@errorcolor, 20%);
+@alerterrortext 	: @errorcolor; 
+/* alert-info =========================================== */
+@alertinfocolor 	: @infocolor;
+@alertinfoborder  	: lighten(@infocolor, 20%);
+@alertinfotext 		: darken(@infocolor, 50%);  
+/* alert-inverse ======================================== */
+@alertinversecolor 	: @inverscolor;
+@alertinverseborder : @black;
+@alertinversetext 	: @white;  
+/* alert-success ======================================== */
+@alertsuccesscolor 	: lighten(@successcolor, 30%);
+@alertsuccessborder : lighten(@successcolor, 20%);
+@alertsuccesstext 	: darken(@successcolor, 20%); 
+/* alert-warning ======================================== */
+@alertwarningcolor 	: lighten(@warningcolor, 30%);
+@alertwarningborder : lighten(@warningcolor, 20%);
+@alertwarningtext 	: darken(@warningcolor, 20%); 
+
+/* Badges =============================================== */
+@badgebackground 	: @lightergrey;
+@badgecolor 		: @grey;
+
+/* Buttons ============================================== */
+@buttonbackground 	: @lightergrey;
+@buttonbordercolor 	: darken(@buttonbackground, 10%);
+@buttonbottombordercolor: darken(@buttonbordercolor, 10%);
+@buttoncolor 		: @darkgrey;
+@buttonborderwidth	: 1px;
+@buttonborderstyle	: solid;
+
+/* Wells ================================================ */
+@wellbackground		: lighten(@basecolor, 75%);
+@wellbordercolor	: darken(@wellbackground, 20%); 
+@wellborderwidth	: 1px;
+@wellborderstyle	: solid;
+@wellshadow			: darken(@wellbackground, 10%);
+@wellshadowblur		: 10px;
+
+/* Tables =============================================== */
+@tablebackground 	: transparent;
+@tablestripe 		: lighten(@basecolor, 60%);
+@tablehover 		: lighten(@basecolor, 50%);
+@tableborder 		: lighten(@basecolor, 40%);
+@tableborderwidth	: 1px;
+@tableborderstyle	: solid;
+
+/* Forms ================================================= */
+@inputbackground 	: @white; 
+@inputborder 		: lighten(@basecolor, 40%);
+@inputborderwidth	: 1px;
+@inputborderstyle	: solid;
+@inputhover 		: lighten(@basecolor, 20%);
+@inputfocus 		: @basecolor, 40%;
+@placeholdercolor 	: @lightgrey;
+
+// LAYOUT ===================================================
+@baseline			: @baselineheight;
+@gutterwidth		: 20px;
+@goldenratio		: 1.61803399;
+@basewidth			: 48px;
