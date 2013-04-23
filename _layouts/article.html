@@ -1,11 +1,12 @@
 <!doctype html>
-
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include head.html %}
+{% if page.css %}
+<link rel="stylesheet" href="{{ site.url }}/css/custom/{{ page.css }}">{% endif %}
 </head>
 
 <body class="article">
@@ -13,42 +14,48 @@
 {% include chrome-frame.html %}
 {% include nav.html %}
 
+<div class="image-wrap">
+  <div data-picture data-alt="{{ page.title }} article image">
+        <div data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></div>
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} article image">
+        </noscript>
+    </div>
+</div><!-- /.image-wrap -->
+
 <div id="main" role="main" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="toc-wrapper">
-      {% if page.headline %}
-      <hgroup>
-        <h1 itemprop="name headline">{{ page.headline }}</h1>
-        <h2><span>{{ page.subheadline }}</span></h2>
-      </hgroup>{% else %}
-      <h1 itemprop="name headline">{{ page.title }}</h1>
-      {% endif %}
-      {% if page.image %}
-      <div class="wrapper-image">
-          <img src="{{ site.url }}/assets/images/{{ page.image }}-xl.jpg" alt="{{ page.title }} article image" class="feature-image">
-      </div><!-- /.wrapper-image -->{% else %}
-      {% endif %}
-      <div class="content-wrapper" itemprop="articleBody">
-          {{ content }}
-      </div><!-- /.content-wrapper -->
-    </div><!-- /.toc-wrapper -->
+  <article itemprop="articleBody">
+    <div class="headline-wrap">
+      <h1 itemprop="name headline">{{ page.headline }}</h1>
+      <h2>{{ page.subheadline }}</h2>
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      {{ content }}
+      <hr />
+      <footer role="contentinfo">
+        <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about.html" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  </article>
 </div><!-- /#main -->
-<div class="footer-wrapper">
-  <footer class="site-footer" role="contentinfo">
-    <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about.html" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
-    {% if site.related_posts.size > 1 %}
-    <h2>You might also be interested in:</h2>
-    <ul class="related-articles unstyled">
-        {% for post in site.related_posts limit:4 %}
-        <li>
-            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{% if post.image %}<img src="{{ site.url }}/assets/images/{{ post.image }}-s.jpg" alt="{{ post.title }} article image" />{% else %}<img src="{{ site.url }}/assets/images/mademistakes-feature-s.jpg" alt="{{ post.title }} article image" class="feature-image" />{% endif %}</a>
-            <p>{{ post.description }}</p>
-        </li>
-        {% endfor %}
+
+<div class="footer-wrap">
+  <div class="related-articles">
+    <h4>You might also be interested in</h4>
+    <ul class="unstyled-list">
+    {% for post in site.related_posts limit:4 %}
+      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
     </ul>
-    {% endif %}
+  </div><!-- /.related-articles -->
+  <footer>
     {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrapper -->
+</div><!-- /.footer-wrap -->
 
 {% include scripts.html %}	        
 

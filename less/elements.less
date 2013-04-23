@@ -1,0 +1,35 @@
+hr { 
+    display: block; 
+    margin: 1em 0; 
+    padding: 0;
+    height: 1px; 
+    border: 0; 
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff; 
+}
+/* Figures and images ==================================== */
+article img {
+  max-width: 100%;
+  height: auto;
+  border-width: 0; 
+  vertical-align: middle; 
+  -ms-interpolation-mode: bicubic; 
+}
+svg:not(:root) {
+    overflow: hidden; 
+}
+/* Buttons =============================================== */
+.btn {
+    display: block;
+    width: 60%;
+    margin: 0 20%;
+    padding: 10px 0;
+    font-weight: bold;
+    background-color: fadeout(@black, 30%);
+    .rounded(20px);
+    border-bottom: 0 solid transparent;
+    .transition(0.2s ease-in-out);
+    &:hover {
+      background-color: @accentcolor;
+    }
+}

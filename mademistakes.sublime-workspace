@@ -11,6 +11,86 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 1040,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_layouts/home.html",
+			"settings":
+			{
+				"buffer_size": 1596,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/page.less",
+			"settings":
+			{
+				"buffer_size": 6293,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/480.less",
+			"settings":
+			{
+				"buffer_size": 776,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/600.less",
+			"settings":
+			{
+				"buffer_size": 776,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/768.less",
+			"settings":
+			{
+				"buffer_size": 2264,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/992.less",
+			"settings":
+			{
+				"buffer_size": 3725,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/style.less",
+			"settings":
+			{
+				"buffer_size": 3055,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/less/typography.less",
+			"settings":
+			{
+				"buffer_size": 6315,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 5773,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -36,17 +116,91 @@
 	},
 	"file_history":
 	[
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_config.yml",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_plugins/jekyll-asset-pipeline.rb",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/site.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/variables.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/article.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/feature-article.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/page.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/site.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/variables.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/typography.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/typography.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/mixins.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/terms.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/page.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2010-06-25-iphone4-impressions.html",
+		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/_layouts/home.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/head.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/icomoon.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/style.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/footer.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.htaccess",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/css/style.css",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.gitignore",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/scripts.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_config.yml",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/feature-page.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/home.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/article-listing.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-06-20-bridge-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-06-23-room-1408-hour-repeat.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-07-27-dark-knight-viral-marketing-game.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-08-04-rescue-dawn-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-08-19-little-miss-sunshine-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-09-01-rocket-science-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-09-06-deep-fried-hot-pepper-chips.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-09-14-one-week-new-ipod-classic.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-10-15-palm-centro-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2008-03-26-funny-games-americanized-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2008-10-08-xbox360-red-ring-death.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2008-11-18-new-xbox-experience.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2008-11-19-nxe-avatar-comparison.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2008-12-04-first-attempt-light-painting.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2009-01-05-animal-crossing-city-folk-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2009-01-13-fail-jumping-3d.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2009-01-14-palm-pre-for-me.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2009-02-09-animal-crossing-city-folk-impressions-part2.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2009-02-21-webos-palm-centro.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2009-06-06-home-with-palm-pre.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2009-06-09-palm-pre-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2011-04-14-futura-movie-credits.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/XXXX-XX-XX-sample-post.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2006-09-23-feeling-kinda-stuck-half-nelson.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2006-10-25-ipod-battery-settlement.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2007-06-05-la-moustache-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2007-06-10-tale-two-sisters-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2007-11-17-upgrade-imac-g5-osx-leopard.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2007-12-12-rriiccee-show-last-night-soundlab.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2008-01-29-diving-bell-butterfly-impressions.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2008-04-06-using-rasterbator.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2008-07-18-display-problems-imac-g5.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2009-01-25-blurb-book-quality-printing.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2009-03-29-birds-bird-cage-tattoos.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2009-12-13-doppleganger-credit-card-scammer.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-04-04-makings-mistake.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-04-06-knowing-grids-means-breaking-grids.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-04-12-typography-urban-outfitters.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-04-21-collecting-records-artwork.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-04-25-record-art-review-agna-moraines-autobiography-7-inch.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-05-08-urban-outfitters-typography-goof.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-05-10-free-aboutme-business-cards.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-05-19-record-art-review-corn-on-macabre-7-inch.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-04-04-romance-egg-engagement.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-02-13-madewithpaper-drawing-guide.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/404.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/nav.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/archivesThumb.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/paperfaces.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/portfolio.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-03-19-going-static.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/atom.xml",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/images-paperfaces.xml",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_plugins/jekyll-asset-pipeline.rb",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_site/assets/global-074c140f063c241d8047bb10ff1a7ab3.css",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_plugins/ext.rb",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/Gemfile",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.gitignore",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/terms.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/mademistakes.sublime-workspace",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/article.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2007-07-28-sunshine-movie-impressions.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2007-11-17-upgrade-imac-g5-osx-leopard.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2007-12-12-rriiccee-show-last-night-soundlab.html",
@@ -89,14 +243,7 @@
 		"/Users/michael/Dropbox/Sites/mademistakes.com/css/going-static.less",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/css/style.less",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-10-free-aboutme-business-cards.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/.gitignore",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/720.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/variables.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/minify.rb",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/css/zocial.css",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-12-typography-urban-outfitters.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2008-07-18-display-problems-imac-g5.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/.htaccess"
+		"/Users/michael/Dropbox/Sites/mademistakes.com/.gitignore"
 	],
 	"find":
 	{
@@ -107,14 +254,19 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"E:\\Users\\Michael.Rose\\Documents\\Repositories\\made-mistakes\\_drafts,E:\\Users\\Michael.Rose\\Documents\\Repositories\\made-mistakes\\_posts",
+			"E:\\Users\\Michael.Rose\\Documents\\Repositories\\made-mistakes",
+			"/Users/michael/Dropbox/Sites/mademistakes.com/",
 			"/Users/michael/Dropbox/Sites/mademistakes.com/less"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"images/",
+			"{{ site.base_url }}",
 			"em",
 			"img-right",
 			"article nav a.circleNext",
@@ -126,19 +278,291 @@
 		"regex": false,
 		"replace_history":
 		[
+			"assets/images/",
+			"{{ site.url }}",
+			"",
 			"strong"
 		],
 		"reverse": false,
 		"show_context": true,
-		"use_buffer2": true,
+		"use_buffer2": false,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
+			"selected": 9,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 1040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/home.html",
+					"settings":
+					{
+						"buffer_size": 1596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/less/page.less",
+					"settings":
+					{
+						"buffer_size": 6293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2164,
+								2164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/less/480.less",
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/less/600.less",
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/less/768.less",
+					"settings":
+					{
+						"buffer_size": 2264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1397,
+								1418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/less/992.less",
+					"settings":
+					{
+						"buffer_size": 3725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1597,
+								1597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1485.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/less/style.less",
+					"settings":
+					{
+						"buffer_size": 3055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/less/typography.less",
+					"settings":
+					{
+						"buffer_size": 6315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1157,
+								1157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 503.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_includes/head.html",
+					"settings":
+					{
+						"buffer_size": 5773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2186,
+								2075
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -173,6 +597,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 213.0
+	},
 	"replace":
 	{
 		"height": 64.0
@@ -198,6 +626,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 409.0,
+	"side_bar_width": 270.0,
 	"status_bar_visible": true
 }

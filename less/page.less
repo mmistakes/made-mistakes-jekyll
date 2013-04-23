@@ -1,0 +1,115 @@
+html {
+	background: @bodycolor url(../images/body-background.jpg);
+	font-family: @basefont;
+	font-color: @textcolor;
+	font-size: 90%;
+}
+/* Navigation ============================================ */
+#branding {
+	display: none;
+}
+/* Main ================================================== */
+.image-wrap {
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: auto;
+		-ms-interpolation-mode: bicubic;
+	}
+}
+#main,
+.footer-wrap {
+	.container();/* This sets up the basic 960 Container for columns to use. */
+	.clearfix();
+}
+
+.headline-wrap,
+.article-wrap,
+.related-articles,
+.footer-wrap footer {
+	.grid(12,10);
+	.prefix(12,1);
+	.suffix(12,1);
+}
+.headline-wrap {
+	h1 {
+		.beta();
+	}
+	h2 {
+		.zeta();
+		text-transform: uppercase;
+	}
+}
+.article-wrap {
+	h2 {
+		.gamma();
+	}
+	h3 {
+		.delta();
+	}
+}
+.footer-wrap {
+	background: @black url(../images/twinkle_twinkle.png);
+	h4 {
+		.zeta();
+		text-transform: uppercase;
+	}
+	a,
+	a:active,
+	a:visited,
+	p,
+	h4,
+	h6 {
+		color: darken(@white, 25);
+	}
+	a {
+		border-bottom: 0 solid transparent;
+		&:hover {
+			color: @white;
+			border-bottom: 0 solid transparent;
+		}
+	}
+}
+.byline {
+	font-size: 80%;
+}
+/* Footer ================================================ */
+/* Sponsors ============================================== */
+.sponsors {
+	em {
+		display: block;
+		text-indent: -999em;
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+	a {
+		display: block;
+		opacity: .75;
+		.transition(opacity 0.2s ease-in-out);
+		&.mt {
+			em {
+				width: 180px;
+				height: 15px;
+				background-image: url(../images/mt-logo-wide-white.png);
+				border-bottom: 0 solid transparent;
+			}
+		}
+		&:hover {
+			border-bottom: 0 solid transparent;
+			opacity: 1;
+		}
+	}
+}
+.svg .sponsors a.mt em {
+	background-image: url(../images/mt-logo-wide-white.svg);
+}
+/* Chrome Frame ======================================= */
+.chrome-frame {
+	background: #000;
+	text-align: center;
+	p {
+		margin: 0;
+		padding: 10px;
+		text-align: center;
+	}
+}
