@@ -4,6 +4,6 @@ codekit-config.json
 node_modules
 
 # SublimeText project files
-/*.sublime-project
+*.sublime-project
 *.sublime-workspace
 sftp-config*.json
