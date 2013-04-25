@@ -166,9 +166,6 @@ html{background:#ffffff url(../images/body-background.jpg);font-family:'PT Serif
 .headline-wrap h2{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;text-transform:uppercase;}
 .article-wrap h2{font-size:36px;font-size:2rem;margin-bottom:0.825rem;}
 .article-wrap h3{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;}
-.footer-wrap{background:#000000 url(../images/twinkle_twinkle.png);}.footer-wrap h4{font-size:18px;font-size:1rem;margin-bottom:1.65rem;text-transform:uppercase;}
-.footer-wrap a,.footer-wrap a:active,.footer-wrap a:visited,.footer-wrap p,.footer-wrap h4,.footer-wrap h6{color:#bfbfbf;}
-.footer-wrap a{border-bottom:0 solid transparent;}.footer-wrap a:hover{color:#ffffff;border-bottom:0 solid transparent;}
 .byline{clear:both;font-size:80%;}
 .article-author-top{display:none;}
 .article-author-bottom .bio-photo{float:left;margin-right:25px;}
@@ -194,6 +191,15 @@ html{background:#ffffff url(../images/body-background.jpg);font-family:'PT Serif
 .holder a.jp-current{font-weight:bold;}
 .holder a.jp-current,.holder a.jp-current:hover,.holder a.jp-disabled,.holder a.jp-disabled:hover{cursor:default;background:none;}
 .holder span{margin:0 5px;}
+.related-articles h4{font-size:21px;font-size:1.1666666666666667rem;margin-bottom:1.4142857142857141rem;text-transform:uppercase;margin-bottom:0;}
+.related-articles li{margin-bottom:0;color:#ffffff;}
+.footer-wrap{padding-top:2em;padding-bottom:3em;background:#000000 url(../images/twinkle_twinkle.png);}.footer-wrap a,.footer-wrap a:active,.footer-wrap a:visited,.footer-wrap p,.footer-wrap h4,.footer-wrap h6{color:#bfbfbf;}
+.footer-wrap a{border-bottom:0 solid transparent;}.footer-wrap a:hover{color:#ffffff;border-bottom:0 solid transparent;}
+.footer-icons li{display:inline-block;padding-right:5px;}.footer-icons li a{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;color:#9a9a9a;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;}.footer-icons li a:hover{text-decoration:none;border-bottom:none;}.footer-icons li a:hover .icon-twitter,.footer-icons li a:hover .icon-twitter-sign{color:#2aa9df;}
+.footer-icons li a:hover .icon-facebook,.footer-icons li a:hover .icon-facebook-sign{color:#3a5a98;}
+.footer-icons li a:hover .icon-instagram,.footer-icons li a:hover .icon-instagram-sign{color:#306088;}
+.footer-icons li a:hover .icon-google-plus,.footer-icons li a:hover .icon-google-plus-sign{color:#b63324;}
+.footer-icons li a:hover .icon-lastfm,.footer-icons li a:hover .icon-lastfm-sign{color:#d80049;}
 .sponsors em{display:block;text-indent:-999em;background-position:left top;background-repeat:no-repeat;}
 .sponsors a{display:block;opacity:.75;-webkit-transition:opacity 0.2s ease-in-out;-moz-transition:opacity 0.2s ease-in-out;-ms-transition:opacity 0.2s ease-in-out;-o-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out;}.sponsors a.mt em{width:180px;height:15px;background-image:url(../images/mt-logo-wide-white.png);border-bottom:0 solid transparent;}
 .sponsors a:hover{border-bottom:0 solid transparent;opacity:1;}

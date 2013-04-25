@@ -48,28 +48,6 @@ html {
 		.delta();
 	}
 }
-.footer-wrap {
-	background: @black url(../images/twinkle_twinkle.png);
-	h4 {
-		.zeta();
-		text-transform: uppercase;
-	}
-	a,
-	a:active,
-	a:visited,
-	p,
-	h4,
-	h6 {
-		color: darken(@white, 25);
-	}
-	a {
-		border-bottom: 0 solid transparent;
-		&:hover {
-			color: @white;
-			border-bottom: 0 solid transparent;
-		}
-	}
-}
 .byline {
 	clear: both;
 	font-size: 80%;
@@ -186,7 +164,74 @@ html {
 		margin: 0 5px;
 	}
 }
+/* Related Articles ====================================== */
+.related-articles {
+	h4 {
+		.epsilon();
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+	li {
+		margin-bottom: 0;
+		color: @white;
+	}
+}
 /* Footer ================================================ */
+.footer-wrap {
+	padding-top: 2em;
+	padding-bottom: 3em;
+	background: @black url(../images/twinkle_twinkle.png);
+	a,
+	a:active,
+	a:visited,
+	p,
+	h4,
+	h6 {
+		color: darken(@white, 25);
+	}
+	a {
+		border-bottom: 0 solid transparent;
+		&:hover {
+			color: @white;
+			border-bottom: 0 solid transparent;
+		}
+	}
+}
+.footer-icons {
+	li {
+		display: inline-block;
+		padding-right: 5px;
+		a {
+			.delta();
+			color: lighten(@basecolor, 40%);
+			.transition(.4s linear);
+			&:hover {
+				text-decoration: none;
+				border-bottom: none;
+				.icon-twitter,
+				.icon-twitter-sign {
+					color: #2aa9df;
+				}
+				.icon-facebook,
+				.icon-facebook-sign {
+					color: #3a5a98;
+				}
+				.icon-instagram,
+				.icon-instagram-sign {
+					color: #306088;
+				}
+				.icon-google-plus,
+				.icon-google-plus-sign {
+					color: #b63324;
+				}
+				.icon-lastfm,
+				.icon-lastfm-sign {
+					color: #d80049;
+				}
+			}
+		}
+	}
+}
 /* Sponsors ============================================== */
 .sponsors {
 	em {

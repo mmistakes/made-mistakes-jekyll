@@ -56,11 +56,12 @@
 <div class="footer-wrap">
   <div class="related-articles">
     <h4>You might also be interested in</h4>
-    <ul class="unstyled-list">
-    {% for post in site.related_posts limit:4 %}
+    <ul>
+    {% for post in site.related_posts limit:3 %}
       <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
+    <hr />
   </div><!-- /.related-articles -->
   <footer>
     {% include footer.html %}
