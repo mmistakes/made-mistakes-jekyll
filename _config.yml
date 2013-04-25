@@ -14,7 +14,7 @@ ga_account:  UA-2011187-1
 future:      true
 lsi:         false
 pygments:    false
-markdown:    maruku
+markdown:    kramdown
 permalink:   /:categories/:title.html
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

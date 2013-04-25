@@ -11,20 +11,20 @@ html {
 /* Main ================================================== */
 .image-wrap {
 	overflow: hidden;
+	max-height: 500px;
 	img {
 		width: 100%;
 		height: auto;
 		-ms-interpolation-mode: bicubic;
 	}
 }
+.image-wrap,
 #main,
 .footer-wrap {
-	.container();/* This sets up the basic 960 Container for columns to use. */
+	.container(); /* This sets up the basic 960 Container for columns to use. */
 	.clearfix();
 }
-
-.headline-wrap,
-.article-wrap,
+#main article,
 .related-articles,
 .footer-wrap footer {
 	.grid(12,10);
@@ -36,7 +36,7 @@ html {
 		.beta();
 	}
 	h2 {
-		.zeta();
+		.delta();
 		text-transform: uppercase;
 	}
 }
@@ -72,6 +72,53 @@ html {
 }
 .byline {
 	font-size: 80%;
+}
+.article-author-top {
+	display: none;
+}
+/* Table of Contents ===================================== */
+.toc {
+	display: none;
+	font-size: 95%;
+	header {
+		background: lighten(@black, 10);
+	}
+	h1 {
+		margin: 0;
+		padding: 5px 10px;
+		color: @white;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	ul {
+		margin: 2px 0 0;
+		padding: 0;
+		background: lighten(@black, 30);
+		line-height: 1;
+	}
+	li {
+		display: block;
+		margin: 0;
+		padding: 0;
+		font-family: @baseheadingfont;
+		border-bottom: 1px solid darken(@white, 50);
+		&:last-child {
+			border-bottom: 0 solid transparent;
+		}
+		a, a:hover {
+			color: @white;
+			border-bottom: 0 solid transparent;
+		}
+		a { 
+			padding: 10px;
+			display: block;
+		}
+		ul {
+			margin: 0;
+			border-top: 1px solid darken(@white, 50);
+		}
+	}
 }
 /* Footer ================================================ */
 /* Sponsors ============================================== */

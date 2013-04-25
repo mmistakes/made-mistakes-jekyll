@@ -32,10 +32,6 @@ b, strong {
 }
 
 /* Lists ============================================== */
-ul, ol {
-	padding-left: 0;
-	margin: 1em 0 1.5em 0;
-}
 ul {
 	li {
 		list-style-type: square
@@ -66,14 +62,15 @@ footer a:hover {
 
 /* Figure caption ===================================== */
 figcaption {
+	margin-top: (@indent-val / 2);
+	line-height: 1.25;
 	font-family: @baseheadingfont;
 	.zeta();
 	strong {
 		padding-right: 2px;
 		text-transform: uppercase;
 		&:after {
-			content: "\22C5";
-			padding-left: 2px;
+			content: "\003A";
 		}
 	}
 }

@@ -12,82 +12,82 @@
 	"buffers":
 	[
 		{
-			"file": "_config.yml",
+			"file": "_layouts/article.html",
 			"settings":
 			{
-				"buffer_size": 1040,
+				"buffer_size": 3792,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_layouts/home.html",
+			"file": "less/style.less",
 			"settings":
 			{
-				"buffer_size": 1596,
+				"buffer_size": 2459,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/less/page.less",
+			"file": "less/elements.less",
 			"settings":
 			{
-				"buffer_size": 6293,
+				"buffer_size": 771,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/less/480.less",
+			"file": "less/page.less",
 			"settings":
 			{
-				"buffer_size": 776,
+				"buffer_size": 2449,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/less/600.less",
+			"file": "less/600.less",
 			"settings":
 			{
-				"buffer_size": 776,
+				"buffer_size": 653,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/less/768.less",
+			"file": "less/768.less",
 			"settings":
 			{
-				"buffer_size": 2264,
+				"buffer_size": 410,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/less/992.less",
+			"file": "less/992.less",
 			"settings":
 			{
-				"buffer_size": 3725,
+				"buffer_size": 412,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/less/style.less",
+			"file": "less/1382.less",
 			"settings":
 			{
-				"buffer_size": 3055,
+				"buffer_size": 632,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/less/typography.less",
+			"file": "less/typography.less",
 			"settings":
 			{
-				"buffer_size": 6315,
+				"buffer_size": 1249,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_includes/head.html",
+			"file": "_posts/2012-08-31-paperfaces-ipad-portrait-project.md",
 			"settings":
 			{
-				"buffer_size": 5773,
+				"buffer_size": 76928,
 				"line_ending": "Windows"
 			}
 		}
@@ -116,31 +116,64 @@
 	},
 	"file_history":
 	[
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/mixins.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/js/plugins.js",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/scripts.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/head.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/variables.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.md",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-02-13-madewithpaper-drawing-guide.md",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_config.yml",
+		"/E/Users/Michael.Rose/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/E/Users/Michael.Rose/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-03-19-going-static.md",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-04-24-markdown-test.md",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/typeplate.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/js/picturefill.js",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/grid.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/typography.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/footer.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/site.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-02-13-madewithpaper-drawing-guide.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/page.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/js/plugins.min.js",
+		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/less/elements.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/768.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/nav.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-03-19-going-static.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/ie.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/feature-page.html",
+		"/E/Users/Michael.Rose/Desktop/gridpak/README.md",
+		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/less/variables.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/1382.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/480.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/600.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/992.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/992.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/768.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/600.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/480.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/page.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/home.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/style.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/typography.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/site.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/variables.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/article.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/feature-article.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/page.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/site.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/variables.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/typography.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/typography.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/mixins.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/terms.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/page.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2010-06-25-iphone4-impressions.html",
 		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/_layouts/home.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/head.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/icomoon.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/less/style.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/footer.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.htaccess",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/assets/css/style.css",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.gitignore",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/scripts.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_config.yml",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/feature-page.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/home.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/article-listing.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-06-20-bridge-impressions.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_drafts/2007-06-23-room-1408-hour-repeat.html",
@@ -186,14 +219,10 @@
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-05-10-free-aboutme-business-cards.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2011-05-19-record-art-review-corn-on-macabre-7-inch.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-04-04-romance-egg-engagement.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-02-13-madewithpaper-drawing-guide.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/404.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/nav.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/archivesThumb.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/paperfaces.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/portfolio.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-03-19-going-static.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/atom.xml",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/images-paperfaces.xml",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_plugins/jekyll-asset-pipeline.rb",
@@ -214,36 +243,7 @@
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-19-record-art-review-corn-on-macabre-7-inch.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/less/typography.less",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/home.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/less/page.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/about.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/archivesList.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/less/site.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/less/variables.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/less/768.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-08-urban-outfitters-typography-goof.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2012-04-04-romance-egg-engagement.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/article.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/less/custom/romance-egg-engagement.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2012-03-19-going-static.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/page.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/terms.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/footer.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/404.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/less/992.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/nav.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_site/less/site.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_site/less/variables.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_config.yml",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_layouts/archivesThumb.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/head.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/navbar.html",
-		"/Users/michael/Dropbox/Sites/320andup Prototype/js/script.js",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/240.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/css/lib/base.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/css/going-static.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/css/style.less",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-10-free-aboutme-business-cards.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/.gitignore"
+		"/Users/michael/Dropbox/Sites/mademistakes.com/less/page.less"
 	],
 	"find":
 	{
@@ -265,6 +265,23 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"&rsquo;",
+			"&hellip;",
+			"minute",
+			"&rsquo;",
+			"css",
+			"</em>",
+			"<em>",
+			"&amp;",
+			"&rdquo;",
+			"&rsquo;",
+			"&ldquo;",
+			"creepy",
+			"creey",
+			"h1",
+			"h2",
+			"h1",
+			"small",
 			"images/",
 			"{{ site.base_url }}",
 			"em",
@@ -278,6 +295,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'",
+			"...",
+			"'",
+			"*",
+			"&",
+			"\"",
+			"'",
+			"\"",
 			"assets/images/",
 			"{{ site.url }}",
 			"",
@@ -292,51 +317,23 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_config.yml",
+					"file": "_layouts/article.html",
 					"settings":
 					{
-						"buffer_size": 1040,
+						"buffer_size": 3792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								852,
-								852
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_layouts/home.html",
-					"settings":
-					{
-						"buffer_size": 1596,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								566,
-								566
+								1449,
+								1449
 							]
 						],
 						"settings":
@@ -346,31 +343,58 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "assets/less/page.less",
+					"buffer": 1,
+					"file": "less/style.less",
 					"settings":
 					{
-						"buffer_size": 6293,
+						"buffer_size": 2459,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2164,
-								2164
+								999,
+								999
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/elements.less",
+					"settings":
+					{
+						"buffer_size": 771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -380,44 +404,45 @@
 				},
 				{
 					"buffer": 3,
-					"file": "assets/less/480.less",
+					"file": "less/page.less",
 					"settings":
 					{
-						"buffer_size": 776,
+						"buffer_size": 2449,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1476,
+								1476
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "assets/less/600.less",
+					"file": "less/600.less",
 					"settings":
 					{
-						"buffer_size": 776,
+						"buffer_size": 653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								537,
+								537
 							]
 						],
 						"settings":
@@ -432,72 +457,70 @@
 				},
 				{
 					"buffer": 5,
-					"file": "assets/less/768.less",
+					"file": "less/768.less",
 					"settings":
 					{
-						"buffer_size": 2264,
+						"buffer_size": 410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1397,
-								1418
+								346,
+								346
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "assets/less/992.less",
+					"file": "less/992.less",
 					"settings":
 					{
-						"buffer_size": 3725,
+						"buffer_size": 412,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1597,
-								1597
+								348,
+								348
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1485.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "assets/less/style.less",
+					"file": "less/1382.less",
 					"settings":
 					{
-						"buffer_size": 3055,
+						"buffer_size": 632,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								699,
-								699
+								508,
+								508
 							]
 						],
 						"settings":
@@ -512,18 +535,18 @@
 				},
 				{
 					"buffer": 8,
-					"file": "assets/less/typography.less",
+					"file": "less/typography.less",
 					"settings":
 					{
-						"buffer_size": 6315,
+						"buffer_size": 1249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1157,
-								1157
+								572,
+								572
 							]
 						],
 						"settings":
@@ -532,33 +555,35 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 503.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "_includes/head.html",
+					"file": "_posts/2012-08-31-paperfaces-ipad-portrait-project.md",
 					"settings":
 					{
-						"buffer_size": 5773,
+						"buffer_size": 76928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2186,
-								2075
+								61059,
+								61059
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 19591.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -626,6 +651,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 270.0,
+	"side_bar_width": 259.0,
 	"status_bar_visible": true
 }

@@ -28,6 +28,11 @@
 </div><!-- /.image-wrap -->
 
 <div id="main" role="main" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-author-top">
+    <a href="#" title="Follow Michael Rose on Twitter"><img src="http://placehold.it/100x100.jpg" title="Michael Rose"/></a>
+    <h4><a href="#" title="Follow Michael Rose on Twitter">Michael Rose</a></h4>
+    <p>Michael Rose is just another boring, time traveling, tattooed, designer from Buffalo New York.</p>
+  </div>
   <article itemprop="articleBody">
     <div class="headline-wrap">
       <h1 itemprop="name headline">{{ page.headline }}</h1>
@@ -37,6 +42,11 @@
       {{ content }}
       <hr />
       <footer role="contentinfo">
+        <div class="article-author-bottom">
+          <a href="#" title="Follow Michael Rose on Twitter"><img src="http://placehold.it/100x100.jpg" title="Michael Rose"/></a>
+          <h4><a href="#" title="Follow Michael Rose on Twitter">Michael Rose</a></h4>
+          <p>Michael Rose is just another boring, time traveling, tattooed, designer from Buffalo New York.</p>
+        </div>
         <p class="byline">{{ page.title }} was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about.html" title="About Michael Rose" itemprop="url">Michael Rose</a></span></span>. <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" title="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)" target="_blank">Some Rights Reserved</a>.</p>
       </footer>
     </div><!-- /.article-wrap -->

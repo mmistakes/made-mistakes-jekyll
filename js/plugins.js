@@ -60,3 +60,10 @@ $(function() {
 $(function() {
 	$("article").fitVids();
 });
+
+// Table of Contents toggle
+$(function() {
+	$(".toc h1").click(function () {
+		$("#drawer").toggleClass("hidden");
+	});
+});

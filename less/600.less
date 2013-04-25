@@ -6,12 +6,28 @@ html {
 // TEXTURE ====================================================
 // ELEMENTS ===================================================
 // LAYOUT =====================================================
-.headline-wrap,
-.article-wrap,
+#main article {
+	.grid(12,6);
+	.prefix(12,0);
+	.suffix(12,0);
+}
 .related-articles,
 .footer-wrap footer {
-	.grid(12,8);
-	.prefix(12,2);
-	.suffix(12,2);
+	.grid(12,6);
+	.prefix(12,3);
+	.suffix(12,3);
+}
+.article-author-top,
+.toc {
+	display: block;
+	.grid(12,2);
+	.prefix(12,0.5);
+	.suffix(12,0.5);
+}
+.toc {
+	position: fixed;
+	top: 25px;
+	right: 0;
+	.box-shadow(0 0 5px rgba(0,0,0,.50));
 }
 // VENDOR-SPECIFIC ============================================
