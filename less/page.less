@@ -19,6 +19,9 @@ html {
 	}
 }
 .image-wrap,
+#main {
+	margin-top: 1em;
+}
 #main,
 .footer-wrap {
 	.container(); /* This sets up the basic 960 Container for columns to use. */
@@ -71,10 +74,33 @@ html {
 	}
 }
 .byline {
+	clear: both;
 	font-size: 80%;
 }
 .article-author-top {
 	display: none;
+}
+.article-author-bottom {
+	.bio-photo {
+		float: left;
+		margin-right: 25px;
+	}
+}
+.article-author-top,
+.article-author-bottom {
+	h4 {
+		margin-bottom: 0.5em;
+	}
+	p {
+		font-size: 80%;
+		font-style: italic;
+	}
+	a, a:hover {
+		border-bottom: 0 solid transparent;
+	}
+	.bio-photo img {
+		.rounded(100px);
+	}
 }
 /* Table of Contents ===================================== */
 .toc {

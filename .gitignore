@@ -1,6 +1,9 @@
 _site
 .DS_Store
-*.sublime-*
-*.sublime-*
 codekit-config.json
 node_modules
+
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+sftp-config*.json
