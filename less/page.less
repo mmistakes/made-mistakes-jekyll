@@ -4,11 +4,25 @@ html {
 	font-color: @textcolor;
 	font-size: 90%;
 }
-/* Navigation ============================================ */
 #branding {
 	display: none;
+	.prefix(12,1);
+	position: absolute;
+	top: 0;
+	background: @black;
+	h1 {
+		.delta();
+		margin: 0;
+		padding: 5px 10px;
+	}
+	a {
+		color: @white;
+		border-bottom: 0 solid transparent;
+		&:hover {
+			border-bottom: 0 solid transparent;
+		}
+	}
 }
-/* Main ================================================== */
 #main {
 	counter-reset: captions; /* Sets up CSS counters used to number figcaptions automatically. */
 }
@@ -21,13 +35,19 @@ html {
 		-ms-interpolation-mode: bicubic;
 	}
 }
+.articles .image-wrap {
+	max-height: 250px;
+}
 #main,
+#index,
 .footer-wrap {
 	.container(); /* This sets up the basic 960 Container for columns to use. */
 	.clearfix();
+	clear: both;
 	margin-top: 1em;
 }
 #main article,
+#index,
 .related-articles,
 .footer-wrap footer {
 	.grid(12,10);
@@ -80,7 +100,6 @@ html {
 		.rounded(100px);
 	}
 }
-/* Table of Contents ===================================== */
 .toc {
 	display: none;
 	font-size: 95%;
@@ -124,7 +143,6 @@ html {
 		}
 	}
 }
-/* Image Grid ============================================ */
 .image-grid {
 	.clearfix();
 	list-style: none;
@@ -167,7 +185,6 @@ html {
 		margin: 0 5px;
 	}
 }
-/* Related Articles ====================================== */
 .related-articles {
 	h4 {
 		.epsilon();
@@ -177,6 +194,17 @@ html {
 	li {
 		margin-bottom: 0;
 		color: @white;
+	}
+}
+#index {
+	article {
+		h2 {
+			.delta();
+			margin-bottom: 0;
+		}
+		p+p {
+			text-indent: 0;
+		}
 	}
 }
 /* Footer ================================================ */
