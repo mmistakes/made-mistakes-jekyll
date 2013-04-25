@@ -1,43 +1,51 @@
 <!doctype html>
-
-<!-- 
-320 and Up by Andy Clarke
-Version: 3.0
-URL: http://stuffandnonsense.co.uk/projects/320andup/
-Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
--->
-
-<!-- HTML5 Boilerplate -->
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-
 <head>
 {% include head.html %}
 </head>
 
-<body class="page articles">
+<body class="page">
 
 {% include chrome-frame.html %}
 {% include nav.html %}
 
+<div class="image-wrap">
+  <div data-picture data-alt="{{ page.title }} article image">
+        <div data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></div>
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} article image">
+        </noscript>
+    </div>
+</div><!-- /.image-wrap -->
+
 <div id="main" role="main">
-    <div class="toc-wrapper">
-      <h1>{{ page.title }}</h1>
-      {% if page.image %}<div data-picture data-alt="Feature article image" class="wrapper-image" data-class="feature-image">
-        <img src="{{ site.url }}/images/{{ page.image }}" alt="{{ page.title }} article image" class="feature-image" />{% else %}
-      </div><!-- /.cover-image -->{% endif %}
-      <div class="content-wrapper">
-          {{ content }}
-      </div><!-- /.content-wrapper -->
-    </div><!-- /.toc-wrapper -->
-</div><!-- /#main -->
-<div class="footer-wrapper">
-  <footer class="site-footer" role="contentinfo">
+  <div class="article-author-top">
+    <a href="{{ site.url }}/about.html" title="Learn more about Michael Rose" class="bio-photo"><img src="http://placehold.it/100x100.jpg" title="Michael Rose"/></a>
+    <h4><a href="{{ site.url }}/about.html" title="Learn more about Michael Rose">Michael Rose</a></h4>
+    <p>Michael Rose is just another boring, time traveling, tattooed, designer from Buffalo New York.</p>
+  </div>
+  <article itemprop="articleBody">
+    <div class="headline-wrap">
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      {{ content }}
+    </div><!-- /.article-wrap -->
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
     {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrapper -->
+</div><!-- /.footer-wrap -->
 
 {% include scripts.html %}          
 

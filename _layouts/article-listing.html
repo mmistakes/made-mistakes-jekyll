@@ -28,10 +28,10 @@
 <div id="index">
   <div class="headline-wrap">
     <h1>Articles</h1>
-    <h2>Posts &amp Diatribes</h2>
+    <h2>Posts &amp; Diatribes</h2>
   </div><!--/ .headline-wrap -->
   {% for post in site.posts %}  
-  <article itemprop="articleBody">
+  <article>
     <h2><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
     <p class="byline"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
     <p>{{ post.description }}</p>
