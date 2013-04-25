@@ -18,14 +18,11 @@ html {
 		-ms-interpolation-mode: bicubic;
 	}
 }
-.image-wrap,
-#main {
-	margin-top: 1em;
-}
 #main,
 .footer-wrap {
 	.container(); /* This sets up the basic 960 Container for columns to use. */
 	.clearfix();
+	margin-top: 1em;
 }
 #main article,
 .related-articles,
@@ -144,6 +141,50 @@ html {
 			margin: 0;
 			border-top: 1px solid darken(@white, 50);
 		}
+	}
+}
+/* Image Grid ============================================ */
+.image-grid {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li {
+		.grid(12,6);
+	}
+}
+.holder {
+	clear:both;
+	padding: 15px 0;
+	font-family: @baseheadingfont;
+	a {
+		cursor: pointer;
+		margin: 0 5px;
+	}
+	a.jp-previous {
+		margin-left: 0;
+		margin-right: 15px;
+		.btn();
+	}
+	a.jp-next {
+		margin-left: 15px;
+		margin-right: 0;
+		.btn();
+	}
+	a.jp-current {
+		font-weight: bold;
+	}
+	a.jp-disabled, 
+	a.jp-disabled:hover {
+	}
+	a.jp-current, 
+	a.jp-current:hover,  
+	a.jp-disabled, 
+	a.jp-disabled:hover {
+		cursor: default;
+		background: none;
+	}
+	span {
+		margin: 0 5px;
 	}
 }
 /* Footer ================================================ */
