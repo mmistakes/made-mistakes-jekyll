@@ -64,13 +64,12 @@ footer a:hover {
 figcaption {
 	margin-top: (@indent-val / 2);
 	line-height: 1.25;
-	font-family: @baseheadingfont;
 	.zeta();
-	strong {
-		padding-right: 2px;
+	font-family: @baseheadingfont;
+	counter-increment: captions;
+	&:before {
+		font-weight: 700;
 		text-transform: uppercase;
-		&:after {
-			content: "\003A";
-		}
+		content: "Figure " counter(captions) ": ";
 	}
 }
