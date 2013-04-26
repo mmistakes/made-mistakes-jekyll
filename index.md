@@ -1,9 +1,9 @@
 ---
-layout: article-listing
+layout: home
 description: "Made Mistakes is the personal website and portfolio of Buffalo NY designer &amp; illustrator Michael Rose."
 headline: "Made Mistakes"
 subheadline: "Design Faux Pas"
-image: mademistakes-feature
+image: sepia-tree
 tags: 
   - Michael Rose
   - portfolio

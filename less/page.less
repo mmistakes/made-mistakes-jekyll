@@ -30,6 +30,7 @@ html {
 	position: relative;
 	overflow: hidden;
 	max-height: 500px;
+	margin-bottom: 2em;
 	img {
 		width: 100%;
 		height: auto;
@@ -40,7 +41,6 @@ html {
 	max-height: 250px;
 }
 #main,
-#index,
 .footer-wrap {
 	.container(); /* This sets up the basic 960 Container for columns to use. */
 	.clearfix();
@@ -152,6 +152,10 @@ html {
 			border-top: 1px solid darken(@white, 50);
 		}
 	}
+}
+.home article,
+.articles article {
+	margin-bottom: 2em;
 }
 .image-grid {
 	.clearfix();
