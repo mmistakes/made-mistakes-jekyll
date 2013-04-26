@@ -1,1 +1,1 @@
-// @codekit-append "jquery.fancybox.js", "jquery.jPages.js", "jquery.lazyload.js", "jquery.fitvids.js";
+// @codekit-append "jquery.fancybox.js", "jquery.jPages.js", "jquery.lazyload.js", "jquery.fitvids.js", "picturefill.js";
