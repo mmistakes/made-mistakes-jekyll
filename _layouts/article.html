@@ -47,7 +47,7 @@
 </div><!-- /#main -->
 
 <div class="footer-wrap">
-  <div class="related-articles">
+  {% if site.related_posts.size > 1 %}<div class="related-articles">
     <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url}}/articles.html">See all articles</a>)</small></h4>
     <ul>
     {% for post in site.related_posts limit:3 %}
@@ -55,7 +55,7 @@
     {% endfor %}
     </ul>
     <hr />
-  </div><!-- /.related-articles -->
+  </div><!-- /.related-articles -->{% endif %}
   <footer>
     {% include footer.html %}
   </footer>
