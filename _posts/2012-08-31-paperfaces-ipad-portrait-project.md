@@ -1366,6 +1366,10 @@ pictures:
 
 PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.
 
+## PaperFaces Gallery
+
+I make every effort to update the gallery weekly with the newest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on [Twitter](http://twitter.com/mmistakes) or [Tumblr](http://mademistakes.tumblr.com). You won't be able to grab the full size originals (2048&times;1536 pixels) there, but...
+
 <ul id="itemContainer" class="image-grid unstyled">
     {% for pic in page.pictures %}
     <li>
@@ -1381,17 +1385,11 @@ PaperFaces is an iPad drawing project by time traveling designer/illustrator Mic
   </ul>
 </div><!-- /.footnote -->
 
-## PaperFaces iPad Portraits Gallery
+## Frequently Asked Questions
 
-Click thumbnail images to view each portrait in full screen glory.
+### Draw Me! Draw Me! 
 
-I make every effort to update the gallery weekly with the newest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on [Twitter](http://twitter.com/mmistakes) or [Tumblr](http://mademistakes.tumblr.com). You won't be able to grab the full size originals (2048&times;1536 pixels) there, but...
-
-## PaperFaces Frequently Asked Questions
-
-### How do I get a PaperFaces portrait of my own? 
-
-You can do any (or all) of the following to request a PaperFaces portrait. (Please keep in mind, this project is called "PaperFaces" for a reason. So think real hard before requesting a drawing if your avatar doesn't include your face or is a cartoon character. Sure, I've drawn logos, cats, and a caricature of The Mona Lisa, but I'm really trying to limit the scope to just people.)
+You can do any (or all) of the following to request a PaperFaces portrait from moi. (Please keep in mind, this project is called "PaperFaces" for a reason. So think real hard before requesting a drawing if your avatar doesn't include your face or is a cartoon character. Sure, I've drawn logos, cats, and a caricature of The Mona Lisa, but I'm really trying to limit the scope to just people.)
 
 * [Retweet this message](http://twitter.com/mmistakes/status/240601384477659136).
 * Donate between $5--50 via PayPal to the Project.
@@ -1422,8 +1420,6 @@ Donating guarantees that I'll draw your portrait, and moves you up to the top of
 
 PaperFaces is the name that I coined for the portraits I was drawing with the Paper by 53 iPad app. Most of the Paper creations share the #MadeWithPaper hashtag, so I thought [#PaperFaces](https://twitter.com/search?q=%23PaperFaces&src=typd) would fit in with that theme and decided to start tagging each portrait with it.
 
-### How did you come up with PaperFaces?
-
 One night, out of sheer boredom, I decided I'd try to recreate <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg" title="iPad drawing of @veganwendy" rel="gallery">my wife's Twitter avatar</a> with Paper by 53. The positive response that resulted from that drawing prompted me to create one of <a href="{{ site.url }}/images/paperfaces-mmistakes-twitter-lg.jpg" title="iPad drawing of @mmistakes" rel="gallery">my own avatar</a>, which also went over well with my small group of Twitter and Instagram followers.
 
 Due to the positive comments that I received, I decided to put a call out for more portrait volunteers. Without really considering the implications of my actions, I posted the following:
@@ -1434,7 +1430,7 @@ A few hours later, while grocery shopping with my wife, my iPhone started blowin
 
 When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I decided to put up a page to better explain the project and a PayPal button on the site for those who really really *really* wanted me to draw their portrait. Curious to know how that process works, <a href="#faq7">click here</a>.
 
-### What's with the creepy blank faces?
+### Why the Blank Faces?
 
 When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 is its small toolset, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and ultimately grow as an artist.
 
@@ -1443,7 +1439,7 @@ When I began the project I attempted to draw each face as detailed and accuratel
   <figcaption>PaperFaces iPad portrait of my two twin girls</figcaption>
 </figure>
 
-### What's your process?
+### What's Your Process Like?
 
 It all starts with a list. If there are any donators in the queue, I work on their portraits first. With over 1,700 portrait requests, I need a way to accurately check who has retweeted my initial post. I use [Favstar.fm](http://favstar.fm/) to view all my retweets and determine who is next, then grab their Twitter avatar and save it to my iPhone's camera roll. It's by no means a perfect system, and requests do fall through the cracks, but it's the best I've come up with so far.
 
@@ -1457,15 +1453,13 @@ And yes, I use a stylus. For the first 50 or so portraits I drew exclusively wit
 [lunatik]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [pogoconnect]: http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B009K448L4
 
-### How many requests for portraits have you received?
+### When are You Going to Stop?
 
-At the moment, around 1,700. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. I'm committed to drawing a minimum of 730 with the hopes of doing more, if I don't burn out on them.
-
-### How much time do you put into PaperFaces?
+At the moment, there is a *waiting list* of about 1,500. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. I'm committed to drawing a minimum of 730 with the hopes of doing more --- if I don't burn out on them.
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour and a half to complete, while others might take a few hours. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
-## Paper by 53 Video Tutorials
+## Video Tutorials
 
 I use the term "tutorial" loosely. What you'll find here are glorified slideshows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slideshow with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/articles/madewithpaper-drawing-guide.html "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
@@ -1476,9 +1470,9 @@ I use the term "tutorial" loosely. What you'll find here are glorified slideshow
   <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or read about <a href="{{ site.url }}/articles/madewithpaper-drawing-guide.html" title="How I draw with Paper by 53 and an iPad">my drawing process</a> here.</figcaption>
 </figure>
 
-## PaperFaces Fan Art & Homages
+## Homages
 
-I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is something amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style."" If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
+I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is something amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
 
 <ul id="fanart-gallery" class="image-grid unstyled">
   <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg" title="PaperFaces homage drawn by @Pepfre"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre" /></a></li>
@@ -1492,7 +1486,7 @@ I've been completely humbled by all the support and attention coming my way sinc
   <li><a href="http://instagram.com/p/QTn7jWJkHj/" title="PaperFaces homage drawn by @ramesstudios" target="_blank"><img src="{{ site.url }}/images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram" /></a></li>
 </ul>
 
-## PaperFaces Featured On
+## Featured On
 
 Just sharing the love with some links back to articles and galleries that have featured my PaperFaces artwork and story.
     
