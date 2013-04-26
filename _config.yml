@@ -65,4 +65,10 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: style
 
+asset_bundler:
+  compress:
+    js: false
+  base_path: /js/
+  remove_bundled: false
+
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", mademistakes.sublime-project", "mademistakes.sublime-workspace", "codekit-config.json"]
