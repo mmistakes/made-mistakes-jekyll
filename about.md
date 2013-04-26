@@ -28,7 +28,7 @@ tags:
 </div>
 </section><!-- /#table-of-contents -->
 
-## What Is This All About?
+## What's a Made Mistakes?
 
 So why the title &ldquo;made mistakes?&rdquo; It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
