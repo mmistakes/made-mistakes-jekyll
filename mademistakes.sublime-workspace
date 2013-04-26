@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-indent"
+			],
+			[
+				"counter",
+				"counter-reset"
+			],
+			[
+				"count",
+				"counter-reset"
+			],
+			[
+				"counter-",
+				"counter-increment"
+			],
+			[
 				"base",
 				"baseLineHeight"
 			]
@@ -15,15 +31,31 @@
 			"file": "_layouts/article.html",
 			"settings":
 			{
-				"buffer_size": 3920,
+				"buffer_size": 3808,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "less/style.less",
+			"file": "_layouts/article-listing.html",
 			"settings":
 			{
-				"buffer_size": 2459,
+				"buffer_size": 1923,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_layouts/page.html",
+			"settings":
+			{
+				"buffer_size": 2125,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about.md",
+			"settings":
+			{
+				"buffer_size": 4099,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +71,7 @@
 			"file": "less/page.less",
 			"settings":
 			{
-				"buffer_size": 3706,
+				"buffer_size": 4699,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +79,7 @@
 			"file": "less/480.less",
 			"settings":
 			{
-				"buffer_size": 493,
+				"buffer_size": 429,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +87,7 @@
 			"file": "less/600.less",
 			"settings":
 			{
-				"buffer_size": 915,
+				"buffer_size": 827,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,34 +111,15 @@
 			"file": "less/1382.less",
 			"settings":
 			{
-				"buffer_size": 632,
+				"buffer_size": 798,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "less/typography.less",
+			"file": "less/typeplate.less",
 			"settings":
 			{
-				"buffer_size": 1249,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2012-08-31-paperfaces-ipad-portrait-project.md",
-			"settings":
-			{
-				"buffer_size": 76945,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "form { \n	margin : 0 0 @baselineheight 0;\n	fieldset { \n		margin-bottom : @baselineheight; \n		padding : 0; \n		border-width : 0; \n	}\n	legend { \n		display : block;\n		width : 100%;\n		margin-bottom : @baselineheight * 2;\n		*margin-left : -7px; \n		padding : 0;\n		color : @textcolor;\n		border : 0;\n		border-bottom : @inputborderwidth @inputborderstyle @inputborder;\n		white-space : normal; \n		small {\n			.font-size(14);\n		}\n	}\n	p {\n		margin-bottom : @baselineheight / 2; \n	}\n	ul {\n		list-style-type : none; \n		margin : 0 0 @baselineheight 0;\n		padding : 0; }\n		\n	br {\n		display : none; \n	}\n}\n\nlabel,\ninput,\nbutton,\nselect,\ntextarea {\n	.font-size(14); \n	vertical-align : baseline; \n	*vertical-align : middle; \n}\n\ninput,\nbutton,\nselect,\ntextarea {\n	font-family : @basefont; \n	.box-sizing(border-box); \n}\n\nlabel {\n	display : block;\n	margin-bottom : @baseline / 8;\n	font-weight : bold;\n	color : @textcolor;\n	cursor : pointer; \n	input,\n	textarea,\n	select {\n		display : block; \n	}\n}\n\ninput,\ntextarea,\nselect {\n	display : inline-block;\n	width : 100%;\n	padding : 4px;\n	margin-bottom : @baselineheight / 4;\n	background-color : @inputbackground;\n	border : @inputborderwidth @inputborderstyle @inputborder;\n	color : @textcolor; \n	&:hover {\n		border-color : @inputhover; \n	}\n}\n\n.input-mini { \nwidth : 60px; }\n\n.input-small { \nwidth : 90px; }\n\ninput[type=\"image\"],\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\nwidth : auto;\nheight : auto;\npadding : 0;\nmargin : 3px 0;\n*margin-top : 0;\nline-height : normal;\ncursor : pointer;\n.rounded(0);\nborder : 0 \\9; }\n\ninput[type=\"checkbox\"], \ninput[type=\"radio\"] {  \n.box-sizing(border-box);\npadding : 0; \n*width : 13px; \n*height : 13px; }\n\ninput[type=\"image\"] {\nborder : 0; \n.box-shadow(none); }\n\ninput[type=\"file\"] {\nwidth : auto;\npadding : initial;\nline-height : initial;\nborder : initial;\nbackground-color : transparent;\nbackground-color : initial;\n.box-shadow(none); }\n\ninput[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\nwidth : auto;\nheight : auto;\ncursor : pointer;\n*overflow : visible; }\n\nselect,\ninput[type=\"file\"] {\nheight : 28px; \n*margin-top : 4px; \nline-height : 28px; }\n\nselect {\nwidth : auto;\nbackground-color : @inputbackground;\n.font-size(13); }\n\nselect[multiple],\nselect[size] {\nheight : auto; }\n\ntextarea {\n.resize(vertical);\nheight : auto;\noverflow : auto; \nvertical-align : top; }\n\ninput[type=\"hidden\"] {\ndisplay : none; }\n\n.radio,\n.checkbox {\npadding-left : 18px; \nfont-weight : normal; }\n\n.radio input[type=\"radio\"],\n.checkbox input[type=\"checkbox\"] {\nfloat : left;\nmargin-left : -18px; }\n\n.radio.inline,\n.checkbox.inline {\ndisplay : inline-block;\npadding-top : 5px;\nmargin-bottom : 0;\nvertical-align : middle; }\n\n.radio.inline + .radio.inline,\n.checkbox.inline + .checkbox.inline {\nmargin-left : 10px; }\n\n/* disabled ==================================== */\ninput[disabled],\nselect[disabled],\ntextarea[disabled],\ninput[readonly],\nselect[readonly],\ntextarea[readonly] {\n.opacity(.5);\ncursor : not-allowed; }\n\n/* focus and active ============================ */\ninput:focus,\ntextarea:focus {\nborder-color : @inputfocus;\noutline : 0;\noutline : thin dotted \\9; }\n\ninput[type=\"file\"]:focus,\ninput[type=\"radio\"]:focus,\ninput[type=\"checkbox\"]:focus,\nselect:focus {\n.box-shadow(none); }\n\n::-webkit-input-placeholder {\n.font-size(14); }\n\ninput:-moz-placeholder { \n.font-size(14); }\n\n/* help text ==================================== */\n.help-block,\n.help-inline {\ncolor : @grey; }\n\n.help-block {\ndisplay : block; \nmargin-bottom : @baselineheight / 2; }\n\n.help-inline {\ndisplay : inline-block;\nvertical-align : middle;\npadding-left : 5px; }\n\n/* .form-inline ================================= */\n.form-inline input,\n.form-inline textarea,\n.form-inline select {\ndisplay : inline-block;\nmargin-bottom : 0; }\n\n.form-inline label {\ndisplay : inline-block; }\n\n.form-inline .radio,\n.form-inline .checkbox,\n.form-inline .radio {\npadding-left : 0;\nmargin-bottom : 0;\nvertical-align : middle; }\n\n.form-inline .radio input[type=\"radio\"],\n.form-inline .checkbox input[type=\"checkbox\"] {\nfloat : left;\nmargin-left : 0;\nmargin-right : 3px; }\n\n/* .form-search ================================= */\n.form-search input,\n.form-search textarea,\n.form-search select {\ndisplay : inline-block;\nmargin-bottom : 0; }\n\n.form-search .search-query {\npadding-left : 14px;\npadding-right : 14px;\nmargin-bottom : 0; \n.rounded(14px); }\n\n.form-search label {\ndisplay : inline-block; }\n\n.form-search .radio,\n.form-search .checkbox,\n.form-inline .radio {\npadding-left : 0;\nmargin-bottom : 0;\nvertical-align : middle; }\n\n.form-search .radio input[type=\"radio\"],\n.form-search .checkbox input[type=\"checkbox\"] {\nfloat : left;\nmargin-left : 0;\nmargin-right : 3px; }",
-			"file": "less/forms.less",
-			"file_size": 4901,
-			"file_write_time": 130113747904910237,
-			"settings":
-			{
-				"buffer_size": 4671,
+				"buffer_size": 17687,
 				"line_ending": "Windows"
 			}
 		}
@@ -135,19 +148,26 @@
 	},
 	"file_history":
 	[
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/articles.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.md",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/nav.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/js/plugins.js",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-03-19-going-static.md",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-02-13-madewithpaper-drawing-guide.md",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/typography.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/footer.html",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/forms.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/style.less",
+		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/less/typography.less",
+		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.gitignore",
 		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/less/forms.less",
 		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/less/buttons.less",
 		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/less/page.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/480.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-02-13-madewithpaper-drawing-guide.md",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-03-19-going-static.md",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/.gitignore",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/head.html",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/js/plugins.js",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/mixins.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/scripts.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/variables.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.md",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_config.yml",
 		"/E/Users/Michael.Rose/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/E/Users/Michael.Rose/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -156,15 +176,12 @@
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/js/picturefill.js",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-08-31-paperfaces-ipad-portrait-project.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/grid.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/typography.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/footer.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/site.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2013-02-13-madewithpaper-drawing-guide.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/eko-wave/app/less/page.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/js/plugins.min.js",
 		"/E/Users/Michael.Rose/Dropbox/Sites/mademistakes.com/less/elements.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/768.less",
-		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_includes/nav.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_posts/2012-03-19-going-static.html",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/less/ie.less",
 		"/E/Users/Michael.Rose/Documents/Repositories/made-mistakes/_layouts/feature-page.html",
@@ -258,11 +275,7 @@
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2008-04-06-using-rasterbator.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2009-03-29-birds-bird-cage-tattoos.html",
 		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2010-06-25-iphone4-impressions.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-25-record-art-review-agna-moraines-autobiography-7-inch.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-21-collecting-records-artwork.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_includes/scripts.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-04-makings-mistake.html",
-		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-05-19-record-art-review-corn-on-macabre-7-inch.html"
+		"/Users/michael/Dropbox/Sites/mademistakes.com/_posts/2011-04-25-record-art-review-agna-moraines-autobiography-7-inch.html"
 	],
 	"find":
 	{
@@ -284,6 +297,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"margin-bottom",
+			"height",
+			"@baseline",
+			"@inputborder",
+			"@inputborderstyle",
+			"@inputborderwidth",
+			"@baselineheight",
+			"baselineheight",
+			"inputborder",
+			" @",
 			"baselineheight",
 			"&rsquo;",
 			"&hellip;",
@@ -315,6 +338,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"10px",
+			"lighten(@black, 80)",
+			"solid",
+			"1px",
+			"5px",
+			"10px",
 			"'",
 			"...",
 			"'",
@@ -337,7 +366,7 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -345,15 +374,15 @@
 					"file": "_layouts/article.html",
 					"settings":
 					{
-						"buffer_size": 3920,
+						"buffer_size": 3808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1699,
-								1699
+								1735,
+								1318
 							]
 						],
 						"settings":
@@ -370,32 +399,90 @@
 				},
 				{
 					"buffer": 1,
-					"file": "less/style.less",
+					"file": "_layouts/article-listing.html",
 					"settings":
 					{
-						"buffer_size": 2459,
+						"buffer_size": 1923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								999,
-								999
+								1876,
+								1769
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "_layouts/page.html",
+					"settings":
+					{
+						"buffer_size": 2125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1891,
+								1891
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "about.md",
+					"settings":
+					{
+						"buffer_size": 4099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2784,
+								2784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "less/elements.less",
 					"settings":
 					{
@@ -417,25 +504,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 76.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "less/page.less",
 					"settings":
 					{
-						"buffer_size": 3706,
+						"buffer_size": 4699,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2628,
-								2628
+								685,
+								685
 							]
 						],
 						"settings":
@@ -444,25 +531,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2131.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "less/480.less",
 					"settings":
 					{
-						"buffer_size": 493,
+						"buffer_size": 429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								320,
+								320
 							]
 						],
 						"settings":
@@ -476,19 +563,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "less/600.less",
 					"settings":
 					{
-						"buffer_size": 915,
+						"buffer_size": 827,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								844,
-								844
+								564,
+								564
 							]
 						],
 						"settings":
@@ -503,7 +590,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "less/768.less",
 					"settings":
 					{
@@ -529,7 +616,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "less/992.less",
 					"settings":
 					{
@@ -555,19 +642,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "less/1382.less",
 					"settings":
 					{
-						"buffer_size": 632,
+						"buffer_size": 798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								508,
-								508
+								584,
+								584
 							]
 						],
 						"settings":
@@ -581,74 +668,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "less/typography.less",
-					"settings":
-					{
-						"buffer_size": 1249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								572,
-								572
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "_posts/2012-08-31-paperfaces-ipad-portrait-project.md",
-					"settings":
-					{
-						"buffer_size": 76945,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								60982,
-								60982
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 19404.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 11,
-					"file": "less/forms.less",
+					"file": "less/typeplate.less",
 					"settings":
 					{
-						"buffer_size": 4671,
+						"buffer_size": 17687,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23,
-								23
+								5898,
+								5911
 							]
 						],
 						"settings":
@@ -657,7 +689,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 618.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

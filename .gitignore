@@ -2,8 +2,5 @@ _site
 .DS_Store
 codekit-config.json
 node_modules
-
-# SublimeText project files
-*.sublime-project
-*.sublime-workspace
-sftp-config*.json
+mademistakes.sublime-project
+mademistakes.sublime-workspace

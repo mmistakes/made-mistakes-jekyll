@@ -13,23 +13,21 @@
 {% include nav.html %}
 
 <div class="image-wrap">
-  <div data-picture data-alt="{{ page.title }} article image">
+  <div data-picture data-alt="{{ page.title }} page image">
         <div data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></div>
         <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
         <noscript>
-            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} article image">
+            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} page image">
         </noscript>
     </div>
 </div><!-- /.image-wrap -->
 
 <div id="main" role="main">
   <div class="article-author-top">
-    <a href="{{ site.url }}/about.html" title="Learn more about Michael Rose" class="bio-photo"><img src="http://placehold.it/100x100.jpg" title="Michael Rose"/></a>
-    <h4><a href="{{ site.url }}/about.html" title="Learn more about Michael Rose">Michael Rose</a></h4>
-    <p>Michael Rose is just another boring, time traveling, tattooed, designer from Buffalo New York.</p>
+    {% include author-bio.html %}
   </div>
   <article itemprop="articleBody">
     <div class="headline-wrap">

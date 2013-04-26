@@ -48,7 +48,7 @@ Unless otherwise noted, all content on this site is published under a <a href="h
 
 If you would like to use something for any other use, feel free to get in touch to talk specifics.
 
-## Elsewhere
+## Social
 
 * <a href="mailto:michael@mademistakes.com">Email me</a>
 * <a href="http://twitter.com/mmistakes" rel="me" title="Michael Rose on Twitter">Twitter</a>

@@ -13,23 +13,23 @@
 {% include nav.html %}
 
 <div class="image-wrap">
-  <div data-picture data-alt="{{ page.title }} article image">
+  <div class="headline-wrap">
+    <h1>{{ page.headline }}</h1>
+    <h2>{{ page.subheadline }}</h2>
+  </div><!--/ .headline-wrap -->
+  <div data-picture data-alt="{{ page.title }} page image">
         <div data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></div>
         <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
         <noscript>
-            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} article image">
+            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} page image">
         </noscript>
     </div>
 </div><!-- /.image-wrap -->
 
 <div id="index">
-  <div class="headline-wrap">
-    <h1>Articles</h1>
-    <h2>Posts &amp; Diatribes</h2>
-  </div><!--/ .headline-wrap -->
   {% for post in site.posts %}  
   <article>
     <h2><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
