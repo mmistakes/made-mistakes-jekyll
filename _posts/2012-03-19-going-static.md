@@ -108,10 +108,10 @@ So now that I finally got around to migrating my Wordpress website, developed a 
 
 You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Articles page]({{ site.url }}/articles.html) using a grid of thumbnails to represent each article that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
 
-### Serving Mobile Optimized Images
+### Responsive Images
 
 I think I have a solid handle on how to serve mobile optimized pages using `@media` queries and page widths. But what I don't have figured out are the images. Sure they scale and look decent at various breakpoints, but I didn't exactly follow the mobile first methodology with them. I started big and scaled down, which means the iPhone and other mobile devices download large images regardless. Something tells me [cracking this nut](http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/ "Responsive Images How They Almost Worked and What We Need") is going to be hard.
 
-### Version Control this Suckah
+### Version Control
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a repository on GitHub. Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck's Synchronize feature every time I want to publish new content.
