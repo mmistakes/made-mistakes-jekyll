@@ -50,7 +50,7 @@ Every drawing is different and I try to keep that in mind before launching Paper
 
 ## Block Out Your Composition
 
-When I begin a new [PaperFaces portrait]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html), I start by sketching an imperfect square with the pen tool. I use the square as a rough guide for the composition because I like the look of shapes and lines bleeding outside the border. An alternative would be to use the eraser to straighten up the edges, if you like things neat and tidy. You could of course forgo the square and fill the entire pag --- whatever works for you.
+When I begin a new [PaperFaces portrait]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html), I start by sketching an imperfect square with the pen tool. I use the square as a rough guide for the composition because I like the look of shapes and lines bleeding outside the border. An alternative would be to use the eraser to straighten up the edges, if you like things neat and tidy. You could of course forgo the square and fill the entire page --- whatever works for you.
 
 ## Rough Sketches
 
