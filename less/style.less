@@ -1,79 +1,62 @@
 // ===========================================================
-
-// 320 and Up by Andy Clarke
-// Version: 3.0
-// URL: http://stuffandnonsense.co.uk/projects/320andup/
-// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
-// Modified by: Michael Rose
-
+// Made Mistakes
+// By: Michael Rose
 // ===========================================================/
 
 // ROOT =======================================================
-/* CSS reset =============================================== */
-@import "reset.less";
+/* CSS Normalize =========================================== */
+@import "normalize.less";
 /* Variables and mixins ==================================== */
 @import "variables.less";
-@import "mixins.less";
-@import "grid.less";
 /* Site wide styles (html, body, global classes) =========== */
 @import "site.less";
-
 // TYPOGRAPHY =================================================
-/* Block level (h1, p) and text-level (em, strong) type ==== */
+/* Typeplate.com typographic starter pack ================== */
+@import "typeplate.less";
 @import "typography.less";
-
-// TEXTURE ====================================================
-/* Alerts, badges, boxes, gradients,and wells ============== */
-@import "texture.less";
-/* Font Awesome icon fonts ================================= */
-@import "font-awesome.less";
-
+/* Icomoon custom webfont with site iconography ============ */
+@import "icomoon.less";
+// MIXINS =====================================================
+@import "mixins.less";
+@import "grid.less";
 // ELEMENTS ===================================================
 /* Figures, images, social media, other elements =========== */
 @import "elements.less";
-/* FancyBox lightbox ======================================= */
-@import "fancybox.less";
 /* Standard form controls ================================== */
 @import "forms.less";
-/* Button styles =========================================== */
-@import "buttons.less";
-/* Tables ================================================== */
-@import "tables.less";
-
 // LAYOUT =====================================================
-/* Page level layout styles (banner, navigation, curtains, content, contentinfo) */
+/* Page level layout styles ================================ */
 @import "page.less";
-
-// VENDOR-SPECIFIC ============================================
 // MODERNIZR ==================================================
+// PLUGINS  ===================================================
+/* jQuery Fancybox ========================================= */
+@import "fancybox.less";
 // MEDIA QUERIES ==============================================
 /* Print =================================================== */
 @media print {
-@import "print.less";
+	@import "print.less";
 }
 /* 480px wide ============================================== */
 @media only screen and (min-width: 480px) {
-@import "480.less";
+	@import "480.less";
 }
 /* 600px wide ============================================== */
 @media only screen and (min-width: 600px) {
-@import "600.less";
+	@import "600.less";
 }
 /* 768px wide ============================================== */
 @media only screen and (min-width: 768px) {
-@import "768.less";
+	@import "768.less";
 }
 /* 992px wide ============================================== */
 @media only screen and (min-width: 992px) {
-@import "992.less";
+	@import "992.less";
 }
 /* 1382px wide ============================================= */
 @media only screen and (min-width: 1382px) {
-@import "1382.less";
+	@import "1382.less";
 }
 /* 2x for retina displays ================================== */
-@media
-only screen and (-webkit-min-device-pixel-ratio: 1.5), 
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-@import "2x.less"; }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	@import "2x.less"; 
+}

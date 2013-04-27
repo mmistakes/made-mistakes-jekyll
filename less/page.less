@@ -1,325 +1,185 @@
-// ===========================================================
-
-// 320 and Up by Andy Clarke
-// Version: 3.0
-// URL: http://stuffandnonsense.co.uk/projects/320andup/
-// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
-// Modified by: Michael Rose
-
-// ===========================================================/
-
-/* Branding ============================================== */
+html {
+	background: @bodycolor url(../images/body-background.jpg);
+	font-family: @basefont;
+	font-color: @textcolor;
+	font-size: 90%;
+}
 #branding {
-	position: fixed;
-	z-index: 9000;
-	h1 {
-		margin: 0;
-		padding: 0;
-		.font-size(17);
-		text-transform: uppercase;
-		color: @white;
-		a {
-			color: @white;
-			&:hover {
-				color: @white;
-				text-decoration: none;
-			}
-		}
-	}
-}
-
-/* Navigation ============================================ */
-[role="navigation"] {
-	margin: 0 auto;
-	width: 100%;
+	display: none;
+	.prefix(12,1);
+	position: absolute;
 	top: 0;
-	z-index: 1000;
-	background-color: @black;
-	.box-shadow();
-	-webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform-style: flat;
-	a {
-		.font-size(12);
-		color: @white;
-		text-decoration: none;
-		text-transform: uppercase;
-		border-bottom: solid 0 transparent;
-		z-index: 90;
-		.transition(.2s linear);
-		&:hover {
-			background-color: @basecolor;
-		}
-	}
-	ul {
-		list-style: none;
+	background: @black;
+	h1 {
+		.delta();
 		margin: 0;
-		padding: 0;
-		text-align: center;
-		li {
-			margin: 0;
-			padding: 0;
-			display: inline;
-			position: relative;
-			&.current {
-				color: @black;
-				background-color: @white;
-				a {
-					color: @black;
-					&:hover {
-						color: @white;
-					}
-				}
-			}
-			a {
-				padding: 8px 12px;
-				display: inline-block;
-				.transition(.2s linear);
-				&:hover {
-					background-color: @basecolor;
-				}
-			}
-		}
+		padding: 5px 10px;
 	}
-}
-
-/* Sections ================================================== */
-.slides > section {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	.clearfix();
-}
-.cover-wrapper {
-	position: relative;
-	hgroup {
-		padding: 0 (@basewidth / 2);
-		text-align: center;
-		h1 {
-			margin-bottom: 0;
-			text-transform: uppercase;
-		}
-		h2 {
-			font-family: @altfont;
-			font-style: italic;
-			margin-bottom: 0;
-		}
-		h3 {
-			text-align: center;
-			text-transform: uppercase;
-			white-space: nowrap;
-			display: block;
-			margin-bottom: 0;
-			font-weight: 300;
-			span {
-				background-color: @white;
-				padding: 2px 4px;
-			}
-		}
-	}
-}
-.quote-wrapper {
-	position: relative;
-	img {
-		height: auto;
-		width: 100%;
-	}
-	blockquote {
-		position: absolute;
-		top: 50px;
-		left: (@basewidth / 2);
-		right: (@basewidth * 1.25);
-		margin: 0 auto;
+	a {
 		color: @white;
-		text-align: center;
-		padding: @baselineheight;
-		border: 6px double @white;
-		.text-shadow();
-		small {
-			display: block;
-			&:before {
-				content: "\2014 ";
-			.text-shadow();
-			}
+		border-bottom: 0 solid transparent;
+		&:hover {
+			border-bottom: 0 solid transparent;
 		}
+	}
+}
+#main {
+	counter-reset: captions; /* Sets up CSS counters used to number figcaptions automatically. */
+}
+.image-wrap {
+	position: relative;
+	overflow: hidden;
+	max-height: 500px;
+	margin-bottom: 2em;
+	img {
+		width: 100%;
+		height: auto;
+		-ms-interpolation-mode: bicubic;
+	}
+}
+.articles .image-wrap {
+	max-height: 250px;
+}
+#main,
+.footer-wrap {
+	.container(); /* This sets up the basic 960 Container for columns to use. */
+	.clearfix();
+	clear: both;
+	margin-top: 1em;
+}
+#main article,
+#index,
+.related-articles,
+.footer-wrap footer {
+	.grid(12,10);
+	.prefix(12,1);
+	.suffix(12,1);
+}
+.image-wrap .headline-wrap {
+	position: absolute;
+	bottom: 25px;
+	.prefix(12,1);
+	h1, h2 {
+		color: @white;
+		.text-shadow(0 1px 2px rgba(0,0,0,.25));
+	}
+}
+.headline-wrap {
+	h1 {
+		.beta();
+	}
+	h2 {
+		.delta();
+		text-transform: uppercase;
+	}
+}
+.article-wrap {
+	h2 {
+		.gamma();
+	}
+	h3 {
+		.delta();
 	}
 }
 .byline {
-	&:hover {
-		p, li, a {
-			color: @black;
-		}
+	clear: both;
+	font-size: 80%;
+}
+.article-author-top {
+	display: none;
+}
+.article-author-bottom {
+	.bio-photo {
+		float: left;
+		margin-right: 25px;
 	}
-	p, li {
-		font-family: @baseheadingfont;
-		font-weight: @baseheadingfontweight;
-		color: lighten(@basecolor, 30%);
+}
+.article-author-top,
+.article-author-bottom {
+	h4 {
+		margin-bottom: 0.5em;
 	}
 	p {
-		a {
-			border-bottom: none;
-			color: lighten(@basecolor, 30%);
-		}
+		font-size: 80%;
+		font-style: italic;
 	}
-	li {
-		padding-right: @gutterwidth;
-		display: inline;
-		a {
-			border-bottom: none;
-			color: lighten(@basecolor, 30%);
-		}
+	a, a:hover {
+		border-bottom: 0 solid transparent;
+	}
+	.bio-photo img {
+		.rounded(100px);
 	}
 }
-
-/* Table of Contents menu ============================= */
-.toc-menu {
-	border: 6px double @black;
-	li {
-		a {
-			display: block;
-			padding: 10px 10px 0;
-			text-align: center;
-			position: relative;
-			z-index: 10;
-			border-bottom: none;
-			span {
-				display: block;
-				&:first-child {
-					font-family: @baseheadingfont;
-					font-weight: @baseheadingfontweight;
-					.font-size(16);
-					&:before, &:after {
-						content: "\00d7";
-				  	}
-				}
-				&:nth-child(2) {
-				  font-style: italic;
-				  .font-size(22);
-				}
-			}
-			&:hover {
-				border-bottom: none;
-			}
-		}
-		&:last-child {
-			padding-bottom: 10px;
-		}
+.toc {
+	display: none;
+	font-size: 95%;
+	header {
+		background: lighten(@black, 10);
 	}
-}
-
-.toc-wrapper,
-.content-wrapper,
-.photo-wrapper,
-.footer-wrapper {
-	.clearfix();
-	position: relative;
-	padding: @baselineheight (@basewidth / 2) 0 (@basewidth / 2);
-}
-.wrapper-image { 
-    margin: 0 auto 30px;
-    position: relative;
-	&:after {
-		content: "";
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background-image: url(../images/DotGrid2.png);
-		opacity: 0.4;
-	}
-}
-.footer-wrapper { 
-	position: inherit;
-	margin: 50px auto 0;
-	padding-top: 0;
-}
-
-/* Content ================================================ */
-.content-wrapper {
-	display: inline;
-	float: left;
-}
-.toc-wrapper {
-	.content-wrapper {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	padding-top: 80px;
 	h1 {
-		margin-bottom: @baselineheight / 6;
-		line-height: 1;
-		text-transform: uppercase;
-		a {
-			&:hover {
-				text-decoration: none;
-				border-bottom: 1px dotted @basecolor;
-			}
-		}
-	}
-	h2 {
-		span {
-			font-family: @altfont;
-			font-style: italic;
-		}
-	}
-}
-.feature-article-list {
-	span {
-		margin-bottom: @baselineheight / 2;
-		padding: 2px 6px;
+		margin: 0;
+		padding: 5px 10px;
 		color: @white;
-		background-color: @black;
-		.font-size(14);
-		font-family: @baseheadingfont;
-		font-weight: 300;
-		text-rendering: optimizelegibility;
+		&:hover {
+			cursor: pointer;
+		}
 	}
-	h1 {
-		margin-bottom: @baselineheight / 3;
-		.font-size(28);
+	ul {
+		margin: 2px 0 0;
+		padding: 0;
+		background: lighten(@black, 30);
+		line-height: 1;
 	}
-	p {
-		font-family: @baseheadingfont;
-		font-weight: 300;
-		padding-top: 5px;
-	}
-}
-.article-list,
-.simple-article-list {
-	span {
+	li {
 		display: block;
-		margin-bottom: @baselineheight / 2;
+		margin: 0;
+		padding: 0;
 		font-family: @baseheadingfont;
-		font-weight: 300;
-		color: @baseheadingfontcolor;
-		text-rendering: optimizelegibility;
-		.font-size(32);
-	}
-	h1 {
-		.font-size(18);
-	}
-	p {
-		font-family: @baseheadingfont;
-		font-weight: 300;
+		border-bottom: 1px solid darken(@white, 50);
+		&:last-child {
+			border-bottom: 0 solid transparent;
+		}
+		a, a:hover {
+			color: @white;
+			border-bottom: 0 solid transparent;
+		}
+		a { 
+			padding: 10px;
+			display: block;
+		}
+		ul {
+			margin: 0;
+			border-top: 1px solid darken(@white, 50);
+		}
 	}
 }
-
-/* jPages and Lazy Load ========================================= */
-/* Navigation holder ============================================ */
+.home article,
+.articles article {
+	margin-bottom: 2em;
+}
+.image-grid {
+	.clearfix();
+	list-style: none;
+	margin: 0 0 1em;
+	padding: 0;
+	li {
+		.grid(12,6);
+	}
+}
 .holder {
-	margin: 15px 0;
+	font-family: @baseheadingfont;
 	a {
 		cursor: pointer;
 		margin: 0 5px;
 	}
 	a.jp-previous {
+		margin-left: 0;
 		margin-right: 15px;
 		.btn();
 	}
 	a.jp-next {
 		margin-left: 15px;
+		margin-right: 0;
 		.btn();
 	}
 	a.jp-current {
@@ -339,7 +199,120 @@
 		margin: 0 5px;
 	}
 }
-/* Remove duplicate images when Javascript is disabled =========== */
-.lazy {
-	display: none;
+.related-articles {
+	h4 {
+		.epsilon();
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+	li {
+		margin-bottom: 0;
+		color: @white;
+	}
+}
+#index {
+	article {
+		h2 {
+			.delta();
+			margin-bottom: 0;
+		}
+		p+p {
+			text-indent: 0;
+		}
+	}
+}
+/* Footer ================================================ */
+.footer-wrap {
+	padding-top: 2em;
+	padding-bottom: 3em;
+	background: @black url(../images/twinkle_twinkle.png);
+	a,
+	a:active,
+	a:visited,
+	p,
+	h4,
+	h6 {
+		color: darken(@white, 25);
+	}
+	a {
+		border-bottom: 0 solid transparent;
+		&:hover {
+			color: @white;
+			border-bottom: 0 solid transparent;
+		}
+	}
+}
+.footer-icons {
+	li {
+		display: inline-block;
+		padding-right: 5px;
+		a {
+			.delta();
+			color: lighten(@basecolor, 40%);
+			.transition(.4s linear);
+			&:hover {
+				text-decoration: none;
+				border-bottom: none;
+				.icon-twitter,
+				.icon-twitter-sign {
+					color: #2aa9df;
+				}
+				.icon-facebook,
+				.icon-facebook-sign {
+					color: #3a5a98;
+				}
+				.icon-instagram,
+				.icon-instagram-sign {
+					color: #306088;
+				}
+				.icon-google-plus,
+				.icon-google-plus-sign {
+					color: #b63324;
+				}
+				.icon-lastfm,
+				.icon-lastfm-sign {
+					color: #d80049;
+				}
+			}
+		}
+	}
+}
+/* Sponsors ============================================== */
+.sponsors {
+	em {
+		display: block;
+		text-indent: -999em;
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+	a {
+		display: block;
+		opacity: .75;
+		.transition(opacity 0.2s ease-in-out);
+		&.mt {
+			em {
+				width: 180px;
+				height: 15px;
+				background-image: url(../images/mt-logo-wide-white.png);
+				border-bottom: 0 solid transparent;
+			}
+		}
+		&:hover {
+			border-bottom: 0 solid transparent;
+			opacity: 1;
+		}
+	}
+}
+.svg .sponsors a.mt em {
+	background-image: url(../images/mt-logo-wide-white.svg);
+}
+/* Chrome Frame ======================================= */
+.chrome-frame {
+	background: #000;
+	text-align: center;
+	p {
+		margin: 0;
+		padding: 10px;
+		text-align: center;
+	}
 }

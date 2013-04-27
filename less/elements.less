@@ -1,25 +1,14 @@
-// ===========================================================
-
-// 320 and Up by Andy Clarke
-// Version: 3.0
-// URL: http://stuffandnonsense.co.uk/projects/320andup/
-// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
-// Modified by: Michael Rose
-
-// ===========================================================/
-
 hr { 
-  display: block; 
-  margin: 1em 0; 
-  padding: 0;
-  height: 1px; 
-  border: 0; 
-  border-top: 1px solid @bordercolor;
-  border-bottom: 1px solid @white; 
+    display: block; 
+    margin: 1em 0; 
+    padding: 0;
+    height: 1px; 
+    border: 0; 
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff; 
 }
-
 /* Figures and images ==================================== */
-img {
+article img {
   max-width: 100%;
   height: auto;
   border-width: 0; 
@@ -27,56 +16,37 @@ img {
   -ms-interpolation-mode: bicubic; 
 }
 svg:not(:root) {
-  overflow: hidden; }
-figure {
-  margin-bottom: @baselineheight; 
-  img {
-	   width: 100%;
-	   margin-bottom: @baselineheight / 4;
-  }
-  figcaption {
-    	display: block;
-    	font-family: @baseheadingfont;
-    	font-weight: 300;
-    	.font-size(14); 
-    	color: @basecolor;
-  }
+    overflow: hidden; 
 }
-.photo-wide img {
-	width: 100%;
-}
-.list-bordered {
-  list-style-type: none; 
-  margin: 0 0 @baselineheight 0;
-  padding: 0; 
-  li {
-  	margin-bottom: @baselineheight / 4; 
-  	padding-bottom: @baselineheight / 4; 
-  	border-bottom: 1px dashed @bordercolor; 
-  	&:last-child {
-  	  margin-bottom: 0; 
-  	  padding-bottom: 0; 
-  	  border-bottom-width: 0; 
-  	}
+/* Buttons =============================================== */
+.btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 6px 11px 6px;
+  margin-bottom: 0;
+  font-family: @baseheadingfont;
+  .font-size(12);
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #e6e6e6;
+  .vertical(@white, #d9d9d9);
+  border: 1px solid #ccc;
+  border-bottom-color: #b3b3b3;
+  .rounded(4px);
+  cursor: pointer;
+  *margin-left: .3em; 
+  &:visited,
+  &:hover {
+    text-decoration: none; 
   }
 }
-.image-grid {
-  .row(4);
-  li {
-    .column(1,4);
-        width: 24%;
-        margin: 0 1% 1% 0;
-   }
+input[type="submit"].btn:hover {
+  border-color: #b3b3b3; 
 }
-.feature-image {
-	width: 100%;
-  height: auto;
-}
-
-/* Social media  ======================================= */
-.pin-it-button img {
-	vertical-align: top;
-}
-.twt-border blockquote {
-	display: block;
+.btn:first-child {
+  *margin-left: 0; 
 }

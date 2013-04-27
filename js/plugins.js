@@ -58,5 +58,12 @@ $(function() {
 
 // FitVids options
 $(function() {
-	$(".content-wrapper").fitVids();
+	$("article").fitVids();
+});
+
+// Table of Contents toggle
+$(function() {
+	$(".toc h1").click(function () {
+		$("#drawer").toggleClass("hidden");
+	});
 });
