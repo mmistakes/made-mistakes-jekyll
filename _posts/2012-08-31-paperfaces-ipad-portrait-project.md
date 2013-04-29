@@ -3,7 +3,7 @@ layout: article
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
-description: "An experiment in humanizing the web&thinsp;&mdash;&thinsp;designer Michael Rose draws a portrait a day using an iPad and Paper by FiftyThree."
+description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by FiftyThree."
 modified: 2013-04-16
 image: paperfaces-featured-image
 thumb: paperfaces-project-thumb.jpg
@@ -1424,7 +1424,7 @@ One night, out of sheer boredom, I decided I'd try to recreate <a href="{{ site.
 
 Due to the positive comments that I received, I decided to put a call out for more portrait volunteers. Without really considering the implications of my actions, I posted the following:
 
-<blockquote class="twitter-tweet"><p>Retweet and I'll draw your profile picture using Paper on my iPad <a href="https://twitter.com/search/%23MadeWithPaper">#MadeWithPaper</a> <a href="http://t.co/5oqH4bJt" title="http://twitter.com/mmistakes/status/240601384477659136/photo/1">twitter.com/mmistakes/stat…</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/240601384477659136" data-datetime="2012-08-29T00:06:55+00:00">August 29, 2012</a></blockquote>
+<blockquote class="twitter-tweet"><p>Retweet and I'll draw your profile picture using Paper on my iPad <a href="https://twitter.com/search/%23MadeWithPaper">#MadeWithPaper</a> <a href="http://t.co/5oqH4bJt" title="http://twitter.com/mmistakes/status/240601384477659136/photo/1">twitter.com/mmistakes/stat…</a></p>&#8212; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/240601384477659136" data-datetime="2012-08-29T00:06:55+00:00">August 29, 2012</a></blockquote>
 
 A few hours later, while grocery shopping with my wife, my iPhone started blowing up with retweet and @reply notifications. By the end of the day I had amassed around 300 volunteers and figured that turning it into a formal 365 day project might be fun.
 

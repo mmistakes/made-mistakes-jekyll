@@ -3,7 +3,7 @@ layout: article
 title: "La Moustache Quick Review"
 headline: "La Moustache"
 subheadline: "Quick Impressions"
-description: "My quick impressions of La Moustache &ndash; a French film about a dude shaving his mustache."
+description: "My quick impressions of La Moustache &#8212; a French film about a dude shaving his mustache."
 date: 2007-06-05
 category: articles
 image: la-moustache-feature

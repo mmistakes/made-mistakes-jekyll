@@ -56,18 +56,18 @@ Not sure how much it added to the production cost, but I sure like the way vellu
 Apparently my asshole cat shares a taste for vellum too. Maybe it was the smell, or maybe it was the way the sun caught the metallic ink, but he sure couldn't help himself from biting into it --- bastard. So much for selling this Corn On Macabre record in mint condition.
 
 <figure>
-	<a href="{{ site.url }}/images/COM-record-sleeve-typography.jpg" title="Trajan is overused for a reason &mdash; it looks pretty good here, even if there are a few widows."><img src="{{ site.url }}/images/COM-record-sleeve-typography-300.jpg" alt="Record sleeve typography" /></a>
+	<a href="{{ site.url }}/images/COM-record-sleeve-typography.jpg" title="Trajan is overused for a reason &#8212; it looks pretty good here, even if there are a few widows."><img src="{{ site.url }}/images/COM-record-sleeve-typography-300.jpg" alt="Record sleeve typography" /></a>
 	<figcaption>Record sleeve typography</figcaption>
 </figure>
 
 <figure>
 	<a href="{{ site.url }}/images/COM-punk-is-undead.jpg" title="Look, more Trajan. Suppose it was choosen to tie together horror themes in the songs with typography usually associated with horror film posters."><img src="{{ site.url }}/images/COM-punk-is-undead-300.jpg" alt="Corn on Macabre - punk is undead" /></a>
-	<figcaption>Corn on Macabre &mdash; punk is undead</figcaption>
+	<figcaption>Corn on Macabre &#8212; punk is undead</figcaption>
 </figure>
 
 <figure>
 	<a href="{{ site.url }}/images/COM-record-sleeve.jpg" title="Less is more. Printed in only two colors really benefits this piece."><img src="{{ site.url }}/images/COM-record-sleeve-300.jpg" alt="Linear notes and images" /></a>
-	<figcaption>Inside record sleeve &mdash; linear notes and images</figcaption>
+	<figcaption>Inside record sleeve &#8212; linear notes and images</figcaption>
 </figure>
 
 <figure>
