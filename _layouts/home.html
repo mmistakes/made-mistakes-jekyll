@@ -21,6 +21,9 @@
         <div data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
         <div data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></div>
+        <!--[if (lt IE 9) & (!IEMobile)]>
+          <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
+        <![endif]-->
         <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
         <noscript>
             <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} page image">
