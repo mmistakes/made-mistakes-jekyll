@@ -200,7 +200,7 @@ html{background:#ffffff url(../images/body-background.jpg);font-family:'PT Serif
 .related-articles li{margin-bottom:0;color:#ffffff;}
 #index article h2{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;margin-bottom:0;}
 #index article p+p{text-indent:0;}
-.footer-wrap{padding-top:2em;padding-bottom:3em;background:#000000 url(../images/twinkle_twinkle.png);}.footer-wrap a,.footer-wrap a:active,.footer-wrap a:visited,.footer-wrap p,.footer-wrap h4,.footer-wrap h6{color:#bfbfbf;}
+.footer-wrap{padding-top:2em;padding-bottom:3em;background:#000000 url(../images/twinkle_twinkle.png);}.footer-wrap a,.footer-wrap a:active,.footer-wrap a:visited,.footer-wrap p,.footer-wrap h4,.footer-wrap h5,.footer-wrap h6{color:#bfbfbf;}
 .footer-wrap a{border-bottom:0 solid transparent;}.footer-wrap a:hover{color:#ffffff;border-bottom:0 solid transparent;}
 .footer-icons li{display:inline-block;padding-right:5px;}.footer-icons li a{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;color:#9a9a9a;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;}.footer-icons li a:hover{text-decoration:none;border-bottom:none;}.footer-icons li a:hover .icon-twitter,.footer-icons li a:hover .icon-twitter-sign{color:#2aa9df;}
 .footer-icons li a:hover .icon-facebook,.footer-icons li a:hover .icon-facebook-sign{color:#3a5a98;}
