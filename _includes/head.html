@@ -30,11 +30,7 @@
 <!-- Google Webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 <!-- For all browsers -->
-{% bundle %} [/css/style.css] {% endbundle %}
-
-<!--[if (lt IE 9) & (!IEMobile)]>
-{% bundle %} [/css/ie.css] {% endbundle %}
-<![endif]-->
+<link href="{{ site.url }}/css/style.css?v=20130426" rel="stylesheet">
 
 <script src="{{ site.url }}/js/modernizr-2.6.2.custom.min.js"></script>
 
