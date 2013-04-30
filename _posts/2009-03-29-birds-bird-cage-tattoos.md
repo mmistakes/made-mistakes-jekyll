@@ -61,5 +61,5 @@ I didn't get much done... just some lines, ink splats, and squiggles to fill in 
 
 <figure>
     <a title="Michael's bird in a tree forearm tattoo" href="{{ site.url }}/images/bird-in-tree-forearm-tattoo-l.jpg"><img src="{{ site.url }}/images/bird-in-tree-forearm-tattoo-s.jpg" alt="Bird in a tree forearm tattoo" /></a>
-    <figcaption>And here is my bird related tattoo&hellip;</figcaption>
+    <figcaption>And here is my bird related tattoo&#8230;</figcaption>
 </figure>

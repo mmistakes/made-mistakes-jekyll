@@ -43,9 +43,9 @@ A hour later Mac OS X Leopard booted up for the first time and I ran the Migrati
 
 ## Do All My Beloved Applications Work?
 
-Next came firing up Adobe Creative Suite 1 applications to see if they’d launch and function properly. Photoshop... check, Illustrator... check, InDesign... check. I didn't really poke around to much but all of those applications launched, opened documents, saved documents, printed, and seemed to function fine. I guess InDesign is the most buggy of the bunch but I rarely use it so I’m sure I’ll be fine.
+Next came firing up Adobe Creative Suite 1 applications to see if they'd launch and function properly. Photoshop... check, Illustrator... check, InDesign... check. I didn't really poke around to much but all of those applications launched, opened documents, saved documents, printed, and seemed to function fine. I guess InDesign is the most buggy of the bunch but I rarely use it so I'm sure I'll be fine.
 
-QuarkXpress 6.1 and 6.5 opened fine for me as well. There were a few buggy things with the cursor, but nothing that would cause me any headaches. Certainly wasn't as bad as trying to run QuarkXpress 4 in Classic mode... yuk! I’ve read of some bugs with Saving pages as <abbr>EPS</abbr> files, but that seemed fine to me, as did exporting <abbr>PDF</abbr> files. I didn’t try to save a <abbr title="postscript">PS</abbr> file and run it through Distiller but I don't see why that would give me any problems. The real test will be doing some serious work in QuarkXpress and Photoshop, but I rarely do that at home. So I should be fine for now.
+QuarkXpress 6.1 and 6.5 opened fine for me as well. There were a few buggy things with the cursor, but nothing that would cause me any headaches. Certainly wasn't as bad as trying to run QuarkXpress 4 in Classic mode... yuk! I've read of some bugs with Saving pages as <abbr>EPS</abbr> files, but that seemed fine to me, as did exporting <abbr>PDF</abbr> files. I didn't try to save a <abbr title="postscript">PS</abbr> file and run it through Distiller but I don't see why that would give me any problems. The real test will be doing some serious work in QuarkXpress and Photoshop, but I rarely do that at home. So I should be fine for now.
 
 ## Trouble in Missing Sync Land?
 

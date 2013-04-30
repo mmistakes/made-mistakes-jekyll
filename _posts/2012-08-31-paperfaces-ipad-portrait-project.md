@@ -23,1336 +23,1336 @@ tags:
 pictures:
   - large: paperfaces-missloulouxx-twitter-lg.jpg
     thumb: paperfaces-missloulouxx-twitter-150.jpg
-    title: @MissLoulouxx
-    alt: Sideways girl laying on a red leather couch @MissLoulouxx iPad portrait
+    title: "@MissLoulouxx"
+    alt: "Sideways girl laying on a red leather couch @MissLoulouxx iPad portrait"
   - large: paperfaces-rgheissari-twitter-lg.jpg
     thumb: paperfaces-rgheissari-twitter-150.jpg
-    title: @rgheissari
-    alt: Dark haired girl in gray @rgheissari iPad portrait
+    title: "@rgheissari"
+    alt: "Dark haired girl in gray @rgheissari iPad portrait"
   - large: paperfaces-twe4ked-twitter-lg.jpg
     thumb: paperfaces-twe4ked-twitter-150.jpg
-    title: @twe4ked
-    alt: Dude with a pipe in a sweet hat @twe4ked iPad portrait
+    title: "@twe4ked"
+    alt: "Dude with a pipe in a sweet hat @twe4ked iPad portrait"
   - large: paperfaces-hergimerc-twitter-lg.jpg
     thumb: paperfaces-hergimerc-twitter-150.jpg
-    title: @hergimerc
-    alt: Pretty sunset @hergimerc iPad portrait
+    title: "@hergimerc"
+    alt: "Pretty sunset @hergimerc iPad portrait"
   - large: paperfaces-elektrojunge-twitter-lg.jpg
     thumb: paperfaces-elektrojunge-twitter-150.jpg
-    title: @Elektrojunge
-    alt: Tattooed guy standing in a forest @Elektrojunge iPad portrait
+    title: "@Elektrojunge"
+    alt: "Tattooed guy standing in a forest @Elektrojunge iPad portrait"
   - large: paperfaces-katebudko-twitter-lg.jpg
     thumb: paperfaces-katebudko-twitter-150.jpg
-    title: @KateBudko
-    alt: Girl wearing a cheetah print headband @KateBudko iPad portrait
+    title: "@KateBudko"
+    alt: "Girl wearing a cheetah print headband @KateBudko iPad portrait"
   - large: paperfaces-superlucyj-twitter-lg.jpg
     thumb: paperfaces-superlucyj-twitter-150.jpg
-    title: @superlucyj
-    alt: Blonde haired girl in red @superlucyj iPad portrait
+    title: "@superlucyj"
+    alt: "Blonde haired girl in red @superlucyj iPad portrait"
   - large: paperfaces-pauladamdavis-twitter-lg.jpg
     thumb: paperfaces-pauladamdavis-twitter-150.jpg
-    title: @PaulAdamDavis
-    alt: Guy at a bowling alley wearing a monkey shirt @PaulAdamDavis iPad portrait
+    title: "@PaulAdamDavis"
+    alt: "Guy at a bowling alley wearing a monkey shirt @PaulAdamDavis iPad portrait"
   - large: paperfaces-lsanza-twitter-lg.jpg
     thumb: paperfaces-lsanza-twitter-150.jpg
-    title: @lsanza
-    alt: Guy in a blue wintery scene @lsanza iPad portrait
+    title: "@lsanza"
+    alt: "Guy in a blue wintery scene @lsanza iPad portrait"
   - large: paperfaces-codeprincess-twitter-lg.jpg
     thumb: paperfaces-codeprincess-twitter-150.jpg
-    title: @codePrincess
-    alt: Girl in glasses with red hair @codePrincess iPad portrait
+    title: "@codePrincess"
+    alt: "Girl in glasses with red hair @codePrincess iPad portrait"
   - large: paperfaces-imnk-twitter-lg.jpg
     thumb: paperfaces-imnk-twitter-150.jpg
-    title: @imnk
-    alt: Grayscale guy with a mustache @imnk iPad portrait
+    title: "@imnk"
+    alt: "Grayscale guy with a mustache @imnk iPad portrait"
   - large: paperfaces-tylerflowers-twitter-lg.jpg
     thumb: paperfaces-tylerflowers-twitter-150.jpg
-    title: @tylerflowers
-    alt: Curly haired guy drawn in sepia tones @tylerflowers iPad portrait
+    title: "@tylerflowers"
+    alt: "Curly haired guy drawn in sepia tones @tylerflowers iPad portrait"
   - large: paperfaces-etowow-twitter-lg.jpg
     thumb: paperfaces-etowow-twitter-150.jpg
-    title: @etowow
-    alt: Long haired girl in a restaurant with green light @etowow iPad portrait
+    title: "@etowow"
+    alt: "Long haired girl in a restaurant with green light @etowow iPad portrait"
   - large: paperfaces-bjoerndemming-twitter-lg.jpg
     thumb: paperfaces-bjoerndemming-twitter-150.jpg
-    title: @bjoerndemming
-    alt: Overcast sky and a guy in shadow @bjoerndemming iPad portrait
+    title: "@bjoerndemming"
+    alt: "Overcast sky and a guy in shadow @bjoerndemming iPad portrait"
   - large: paperfaces-charlietuna-twitter-lg.jpg
     thumb: paperfaces-charlietuna-twitter-150.jpg
-    title: @charlietuna
-    alt: Bride and groom @charlietuna iPad portrait
+    title: "@charlietuna"
+    alt: "Bride and groom @charlietuna iPad portrait"
   - large: paperfaces-alec-eiffel-facebook-lg.jpg
     thumb: paperfaces-alec-eiffel-facebook-150.jpg
-    title: Alec Eiffel
-    alt: Black and white shirtless guy wearing a military helmet, Alec Eiffel iPad portrait
+    title: "Alec Eiffel"
+    alt: "Black and white shirtless guy wearing a military helmet, Alec Eiffel iPad portrait"
   - large: paperfaces-soulxheart-twitter-lg.jpg
     thumb: paperfaces-soulxheart-twitter-150.jpg
-    title: @soulxheart
-    alt: Guy in glasses listening wearing headphones @soulxheart iPad portrait
+    title: "@soulxheart"
+    alt: "Guy in glasses listening wearing headphones @soulxheart iPad portrait"
   - large: paperfaces-zoecho-twitter-lg.jpg
     thumb: paperfaces-zoecho-twitter-150.jpg
-    title: @_ZoeCho
-    alt: Girl with long brown hair @_ZoeCho iPad portrait
+    title: "@_ZoeCho"
+    alt: "Girl with long brown hair @_ZoeCho iPad portrait"
   - large: paperfaces-normanholz-twitter-lg.jpg
     thumb: paperfaces-normanholz-twitter-150.jpg
-    title: @normanholz
-    alt: In shadows with dramatic lighting @normanholz iPad portrait
+    title: "@normanholz"
+    alt: "In shadows with dramatic lighting @normanholz iPad portrait"
   - large: paperfaces-the-wards-lg.jpg
     thumb: paperfaces-the-wards-150.jpg
-    title: The In Laws
-    alt: The Inlaws iPad portrait
+    title: "The In Laws"
+    alt: "The Inlaws iPad portrait"
   - large: paperfaces-mstr-dee-twitter-lg.jpg
     thumb: paperfaces-mstr-dee-twitter-150.jpg
-    title: @Mstr_Dee
-    alt: Guy in neon green short sleeve tshirt @Mstr_Dee iPad portrait
+    title: "@Mstr_Dee"
+    alt: "Guy in neon green short sleeve tshirt @Mstr_Dee iPad portrait"
   - large: paperfaces-kingspacelaser-twitter-lg.jpg
     thumb: paperfaces-kingspacelaser-twitter-150.jpg
-    title: @KingSpaceLaser
-    alt: Heart shaped glasses with adorning ladies getting grabby @KingSpaceLaser iPad portrait
+    title: "@KingSpaceLaser"
+    alt: "Heart shaped glasses with adorning ladies getting grabby @KingSpaceLaser iPad portrait"
   - large: paperfaces-bookety-twitter-lg.jpg
     thumb: paperfaces-bookety-twitter-150.jpg
-    title: @Bookety
-    alt: Shag hair cut in plaid @Bookety iPad portrait
+    title: "@Bookety"
+    alt: "Shag hair cut in plaid @Bookety iPad portrait"
   - large: paperfaces-a-erza-twitter-lg.jpg
     thumb: paperfaces-a-erza-twitter-150.jpg
-    title: @A_Erza
-    alt: Woman in glasses wearing a houndstooth @A_Erza iPad portrait
+    title: "@A_Erza"
+    alt: "Woman in glasses wearing a houndstooth @A_Erza iPad portrait"
   - large: paperfaces-jpkoudstaal-twitter-lg.jpg
     thumb: paperfaces-jpkoudstaal-twitter-150.jpg
-    title: @JPKoudstaal
-    alt: Kind of looks like Slenderman @JPKoudstaal iPad portrait
+    title: "@JPKoudstaal"
+    alt: "Kind of looks like Slenderman @JPKoudstaal iPad portrait"
   - large: paperfaces-gaptone-twitter-lg.jpg
     thumb: paperfaces-gaptone-twitter-150.jpg
-    title: @gaptone
-    alt: Bearded fella wearing a bowtie @gaptone iPad portrait
+    title: "@gaptone"
+    alt: "Bearded fella wearing a bowtie @gaptone iPad portrait"
   - large: paperfaces-pixelgraphix-twitter-lg.jpg
     thumb: paperfaces-pixelgraphix-twitter-150.jpg
-    title: @pixelgraphix
-    alt: Red hoodie and glasses in the shadows @pixelgraphix iPad portrait
+    title: "@pixelgraphix"
+    alt: "Red hoodie and glasses in the shadows @pixelgraphix iPad portrait"
   - large: paperfaces-voidet-twitter-lg.jpg
     thumb: paperfaces-voidet-twitter-150.jpg
-    title: @voidet
-    alt: Long curly hair in a red scarf @voidet iPad portrait
+    title: "@voidet"
+    alt: "Long curly hair in a red scarf @voidet iPad portrait"
   - large: paperfaces-ryanfarrellstl-twitter-lg.jpg
     thumb: paperfaces-ryanfarrellstl-twitter-150.jpg
-    title: @RyanFarrellStl
-    alt: Guy and girl all bloodied up @RyanFarrellStl iPad portrait
+    title: "@RyanFarrellStl"
+    alt: "Guy and girl all bloodied up @RyanFarrellStl iPad portrait"
   - large: paperfaces-jonarnold-twitter-lg.jpg
     thumb: paperfaces-jonarnold-twitter-150.jpg
-    title: @jonarnold
-    alt: Guy in glasses wearing a v neck shirt @jonarnold iPad portrait
+    title: "@jonarnold"
+    alt: "Guy in glasses wearing a v neck shirt @jonarnold iPad portrait"
   - large: paperfaces-shamaiela-2-twitter-lg.jpg
     thumb: paperfaces-shamaiela-2-twitter-150.jpg
-    title: @Shamaiela
-    alt: Violets and purples @Shamaiela iPad portrait
+    title: "@Shamaiela"
+    alt: "Violets and purples @Shamaiela iPad portrait"
   - large: paperfaces-gattermann-twitter-lg.jpg
     thumb: paperfaces-gattermann-twitter-150.jpg
-    title: @gattermann
-    alt: Black and white face in shadows @gattermann iPad portrait
+    title: "@gattermann"
+    alt: "Black and white face in shadows @gattermann iPad portrait"
   - large: paperfaces-xshordiex-twitter-lg.jpg
     thumb: paperfaces-xshordiex-twitter-150.jpg
-    title: @xShordiex
-    alt: Long haired girl against striped wall @xShordiex iPad portrait
+    title: "@xShordiex"
+    alt: "Long haired girl against striped wall @xShordiex iPad portrait"
   - large: paperfaces-timonus-twitter-lg.jpg
     thumb: paperfaces-timonus-twitter-150.jpg
-    title: @timonus
-    alt: Pale in glasses @timonus iPad portrait
+    title: "@timonus"
+    alt: "Pale in glasses @timonus iPad portrait"
   - large: paperfaces-rwangsa-twitter-lg.jpg
     thumb: paperfaces-rwangsa-twitter-150.jpg
-    title: @rwangsa
-    alt: Guy backpacking in a scarf @rwangsa iPad portrait
+    title: "@rwangsa"
+    alt: "Guy backpacking in a scarf @rwangsa iPad portrait"
   - large: paperfaces-rdewind151-twitter-lg.jpg
     thumb: paperfaces-rdewind151-twitter-150.jpg
-    title: @rdewind151
-    alt: Guy in a knit hat wearing sunglasses @redwind151 iPad portrait
+    title: "@rdewind151"
+    alt: "Guy in a knit hat wearing sunglasses @redwind151 iPad portrait"
   - large: paperfaces-likejunx-twitter-lg.jpg
     thumb: paperfaces-likejunx-twitter-150.jpg
-    title: @LikeJunx
-    alt: Kid with side swept hair in a hoodie @LikeJunx iPad portrait
+    title: "@LikeJunx"
+    alt: "Kid with side swept hair in a hoodie @LikeJunx iPad portrait"
   - large: paperfaces-fiips-twitter-lg.jpg
     thumb: paperfaces-fiips-twitter-150.jpg
-    title: @Fiips_
-    alt: Cat face guy taking a selfie in the bathroom @Fiips_ iPad portrait
+    title: "@Fiips_"
+    alt: "Cat face guy taking a selfie in the bathroom @Fiips_ iPad portrait"
   - large: paperfaces-dicappucinos-twitter-lg.jpg
     thumb: paperfaces-dicappucinos-twitter-150.jpg
-    title: @dicappucinos
-    alt: Girl with bright red lipstick and no eyes @dicappucinos iPad portrait
+    title: "@dicappucinos"
+    alt: "Girl with bright red lipstick and no eyes @dicappucinos iPad portrait"
   - large: paperfaces-aripalo-twitter-lg.jpg
     thumb: paperfaces-aripalo-twitter-150.jpg
-    title: @aripalo
-    alt: Serious developer slash designer @aripalo iPad portrait
+    title: "@aripalo"
+    alt: "Serious developer slash designer @aripalo iPad portrait"
   - large: paperfaces-blumentoast-twitter-lg.jpg
     thumb: paperfaces-blumentoast-twitter-150.jpg
-    title: @Blumentoast
-    alt: Girl with painted joker smile @Blumentoast iPad portrait
+    title: "@Blumentoast"
+    alt: "Girl with painted joker smile @Blumentoast iPad portrait"
   - large: paperfaces-aarongreenlee-twitter-lg.jpg
     thumb: paperfaces-aarongreenlee-twitter-150.jpg
-    title: @aarongreenlee
-    alt: Blue man group lookalike @aarongreenlee iPad portrait
+    title: "@aarongreenlee"
+    alt: "Blue man group lookalike @aarongreenlee iPad portrait"
   - large: paperfaces-agentkyle-twitter-lg.jpg
     thumb: paperfaces-agentkyle-twitter-150.jpg
-    title: @AgentKyle
-    alt: Guy in a scuba mask underwater @AgentKyle iPad portrait
+    title: "@AgentKyle"
+    alt: "Guy in a scuba mask underwater @AgentKyle iPad portrait"
   - large: paperfaces-hamkate-twitter-lg.jpg
     thumb: paperfaces-hamkate-twitter-150.jpg
-    title: @hamkate
-    alt: Girl with hair drawn like fire @hamkate iPad portrait
+    title: "@hamkate"
+    alt: "Girl with hair drawn like fire @hamkate iPad portrait"
   - large: paperfaces-lord-faethor-twitter-lg.jpg
     thumb: paperfaces-lord-faethor-twitter-150.jpg
-    title: @Lord_Faethor
-    alt: Line drawing of a dude in a mask @Lord_Faethor iPad portrait
+    title: "@Lord_Faethor"
+    alt: "Line drawing of a dude in a mask @Lord_Faethor iPad portrait"
   - large: paperfaces-h3pps-twitter-lg.jpg
     thumb: paperfaces-h3pps-twitter-150.jpg
-    title: @h3pps
-    alt: Lips in a dull green hooded sweatshirt @h3pps iPad portrait
+    title: "@h3pps"
+    alt: "Lips in a dull green hooded sweatshirt @h3pps iPad portrait"
   - large: paperfaces-ginacrat-twitter-lg.jpg
     thumb: paperfaces-ginacrat-twitter-150.jpg
-    title: @ginacrat
-    alt: Girl with her mouth open holding a Twister DVD @ginacrat iPad portrait
+    title: "@ginacrat"
+    alt: "Girl with her mouth open holding a Twister DVD @ginacrat iPad portrait"
   - large: paperfaces-dopplegl-twitter-lg.jpg
     thumb: paperfaces-dopplegl-twitter-150.jpg
-    title: @dopplegl
-    alt: Guy illustrated in purple and blue tones @dopplegl iPad portrait
+    title: "@dopplegl"
+    alt: "Guy illustrated in purple and blue tones @dopplegl iPad portrait"
   - large: paperfaces-missrachilli-twitter-lg.jpg
     thumb: paperfaces-missrachilli-twitter-150.jpg
-    title: @missrachilli
-    alt: Girl with long hair wearing a fashion scarf @missrachilli iPad portrait
+    title: "@missrachilli"
+    alt: "Girl with long hair wearing a fashion scarf @missrachilli iPad portrait"
   - large: paperfaces-togsy-twitter-lg.jpg
     thumb: paperfaces-togsy-twitter-150.jpg
-    title: @Togsy
-    alt: Guy wearing a big fur hat @Togsy iPad portrait 
+    title: "@Togsy"
+    alt: "Guy wearing a big fur hat @Togsy iPad portrait "
   - large: paperfaces-ancratyne-twitter-lg.jpg
     thumb: paperfaces-ancratyne-twitter-150.jpg
-    title: @Ancratyne
-    alt: Girl in blue dress cleavage @Ancratyne iPad portrait
+    title: "@Ancratyne"
+    alt: "Girl in blue dress cleavage @Ancratyne iPad portrait"
   - large: paperfaces-n8foo-twitter-lg.jpg
     thumb: paperfaces-n8foo-twitter-150.jpg
-    title: @n8foo
-    alt: Guy holding a camera in front of his face @n8foo iPad portrait
+    title: "@n8foo"
+    alt: "Guy holding a camera in front of his face @n8foo iPad portrait"
   - large: paperfaces-sdtechgirl-twitter-lg.jpg
     thumb: paperfaces-sdtechgirl-twitter-150.jpg
-    title: @SDTechGirl
-    alt: Blonde girl in the dark cuddling her white pussy cat @SDTechGirl iPad portrait
+    title: "@SDTechGirl"
+    alt: "Blonde girl in the dark cuddling her white pussy cat @SDTechGirl iPad portrait"
   - large: paperfaces-gudmundur-twitter-lg.jpg
     thumb: paperfaces-gudmundur-twitter-150.jpg
-    title: @gudmundur
-    alt: Muted tones of a guy with his mouth a gap @gudmundur iPad portrait
+    title: "@gudmundur"
+    alt: "Muted tones of a guy with his mouth a gap @gudmundur iPad portrait"
   - large: paperfaces-ferisb-twitter-lg.jpg
     thumb: paperfaces-ferisb-twitter-150.jpg
-    title: @FerisB
-    alt: Side profile of a girl illuminated in red and purple light @FerisB iPad portrait
+    title: "@FerisB"
+    alt: "Side profile of a girl illuminated in red and purple light @FerisB iPad portrait"
   - large: paperfaces-asinrope-twitter-lg.jpg
     thumb: paperfaces-asinrope-twitter-150.jpg
-    title: @asinrope
-    alt: Guy in a winter a tight winter hat @asinrope iPad portrait
+    title: "@asinrope"
+    alt: "Guy in a winter a tight winter hat @asinrope iPad portrait"
   - large: paperfaces-stefanhartwig-twitter-lg.jpg
     thumb: paperfaces-stefanhartwig-twitter-150.jpg
-    title: @stefanhartwig
-    alt: Guy in grayscale with circles behind him @stefanhartwig iPad portrait
+    title: "@stefanhartwig"
+    alt: "Guy in grayscale with circles behind him @stefanhartwig iPad portrait"
   - large: paperfaces-lovisaslife-twitter-lg.jpg
     thumb: paperfaces-lovisaslife-twitter-150.jpg
-    title: @LovisasLife
-    alt: Girl with long blonde hair and blue striped shirt @LovisasLife iPad portrait
+    title: "@LovisasLife"
+    alt: "Girl with long blonde hair and blue striped shirt @LovisasLife iPad portrait"
   - large: paperfaces-fraulein-doktor-twitter-lg.jpg
     thumb: paperfaces-fraulein-doktor-twitter-150.jpg
-    title: @fraulein_doktor
-    alt: Girl drinking from a red plastic cup @fraulein_doktor iPad portrait
+    title: "@fraulein_doktor"
+    alt: "Girl drinking from a red plastic cup @fraulein_doktor iPad portrait"
   - large: paperfaces-danmurillo-twitter-lg.jpg
     thumb: paperfaces-danmurillo-twitter-150.jpg
-    title: @danmurillo
-    alt: In a suit @danmurillo iPad portrait
+    title: "@danmurillo"
+    alt: "In a suit @danmurillo iPad portrait"
   - large: paperfaces-macjaeger-twitter-lg.jpg
     thumb: paperfaces-macjaeger-twitter-150.jpg
-    title: @macjaeger
-    alt: Organe tones @macjaeger iPad portrait
+    title: "@macjaeger"
+    alt: "Organe tones @macjaeger iPad portrait"
   - large: paperfaces-kilsey-twitter-lg.jpg
     thumb: paperfaces-kilsey-twitter-150.jpg
-    title: @kilsey
-    alt: Guy with a bacon moustache @kilsey iPad portrait
+    title: "@kilsey"
+    alt: "Guy with a bacon moustache @kilsey iPad portrait"
   - large: paperfaces-tinyrach-twitter-lg.jpg
     thumb: paperfaces-tinyrach-twitter-150.jpg
-    title: @tinyrach
-    alt: Girl with rosey cheeks drawn in a circle with an illustrative background @tinyrach iPad portrait
+    title: "@tinyrach"
+    alt: "Girl with rosey cheeks drawn in a circle with an illustrative background @tinyrach iPad portrait"
   - large: paperfaces-designhawg-twitter-lg.jpg
     thumb: paperfaces-designhawg-twitter-150.jpg
-    title: @designhawg
-    alt: Guy wearing large goggles drawn in black and white @designhawg iPad portrait
+    title: "@designhawg"
+    alt: "Guy wearing large goggles drawn in black and white @designhawg iPad portrait"
   - large: paperfaces-tylr-twitter-lg.jpg
     thumb: paperfaces-tylr-twitter-150.jpg
-    title: @tylr
-    alt: Man with a moustache sitting in the dark @tylr iPad portrait
+    title: "@tylr"
+    alt: "Man with a moustache sitting in the dark @tylr iPad portrait"
   - large: paperfaces-cliqueasaurus-twitter-lg.jpg
     thumb: paperfaces-cliqueasaurus-twitter-150.jpg
-    title: @Cliqueasaurus
-    alt: Girl in pink hoodie with a heart on the hand @Cliqueasaurus iPad portrait
+    title: "@Cliqueasaurus"
+    alt: "Girl in pink hoodie with a heart on the hand @Cliqueasaurus iPad portrait"
   - large: paperfaces-josephedjohn-twitter-lg.jpg
     thumb: paperfaces-josephedjohn-twitter-150.jpg
-    title: @josephedjohn
-    alt: Winter wonderland, guy holding his girl outside @josephedjohn iPad portrait
+    title: "@josephedjohn"
+    alt: "Winter wonderland, guy holding his girl outside @josephedjohn iPad portrait"
   - large: paperfaces-ijango-twitter-lg.jpg
     thumb: paperfaces-ijango-twitter-150.jpg
-    title: @ijango
-    alt: Van dyke moustachio drinking from a cat mug @ijango iPad portrait
+    title: "@ijango"
+    alt: "Van dyke moustachio drinking from a cat mug @ijango iPad portrait"
   - large: paperfaces-mlucus-twitter-lg.jpg
     thumb: paperfaces-mlucus-twitter-150.jpg
-    title: @mlucus
-    alt: Blonde girl with an up do against a dark red background @mlucus iPad portrait
+    title: "@mlucus"
+    alt: "Blonde girl with an up do against a dark red background @mlucus iPad portrait"
   - large: paperfaces-doertedev-twitter-lg.jpg
     thumb: paperfaces-doertedev-twitter-150.jpg
-    title: @DoerteDev
-    alt: Metal dude drinking a beer and smoking a cigar @DoerteDev iPad portrait
+    title: "@DoerteDev"
+    alt: "Metal dude drinking a beer and smoking a cigar @DoerteDev iPad portrait"
   - large: paperfaces-neikura-twitter-lg.jpg
     thumb: paperfaces-neikura-twitter-150.jpg
-    title: @Neikura
-    alt: Long haired girl with purple and red highlights @Neikura iPad portrait
+    title: "@Neikura"
+    alt: "Long haired girl with purple and red highlights @Neikura iPad portrait"
   - large: paperfaces-itonus-twitter-lg.jpg
     thumb: paperfaces-itonus-twitter-150.jpg
-    title: @iTonus
-    alt: Guy wearing nerd glasses and a bowtie @iTonus iPad portrait
+    title: "@iTonus"
+    alt: "Guy wearing nerd glasses and a bowtie @iTonus iPad portrait"
   - large: paperfaces-mscynthialee-twitter-lg.jpg
     thumb: paperfaces-mscynthialee-twitter-150.jpg
-    title: @mscynthialee
-    alt: Long black hair in dark clothes @mscynthialee iPad portrait
+    title: "@mscynthialee"
+    alt: "Long black hair in dark clothes @mscynthialee iPad portrait"
   - large: paperfaces-generala-ron-twitter-lg.jpg
     thumb: paperfaces-generala-ron-twitter-150.jpg
-    title: @GeneralA_Ron
-    alt: Tony Stark look a like @GeneralA_Ron iPad portrait
+    title: "@GeneralA_Ron"
+    alt: "Tony Stark look a like @GeneralA_Ron iPad portrait"
   - large: paperfaces-kendallina-twitter-lg.jpg
     thumb: paperfaces-kendallina-twitter-150.jpg
-    title: @kendallina
-    alt: High contrast beautiful long hair @kendallina iPad portrait
+    title: "@kendallina"
+    alt: "High contrast beautiful long hair @kendallina iPad portrait"
   - large: paperfaces-vmasto-2-twitter-lg.jpg
     thumb: paperfaces-vmasto-2-twitter-150.jpg
-    title: @vmasto
-    alt: Black and white v-neck @vmasto-2 iPad portrait
+    title: "@vmasto"
+    alt: "Black and white v-neck @vmasto-2 iPad portrait"
   - large: paperfaces-vmasto-twitter-lg.jpg
     thumb: paperfaces-vmasto-twitter-150.jpg
-    title: @vmasto
-    alt: Golden yellow tones of a beard against a wall @vmasto iPad portrait
+    title: "@vmasto"
+    alt: "Golden yellow tones of a beard against a wall @vmasto iPad portrait"
   - large: paperfaces-tr4y-twitter-lg.jpg
     thumb: paperfaces-tr4y-twitter-150.jpg
-    title: @tr4y
-    alt: S baseball cap in black and white @tr4y iPad portrait
+    title: "@tr4y"
+    alt: "S baseball cap in black and white @tr4y iPad portrait"
   - large: paperfaces-sbach-twitter-lg.jpg
     thumb: paperfaces-sbach-twitter-150.jpg
-    title: @sbach
-    alt: Looking downward dark jacket and shirt @sbach iPad portrait
+    title: "@sbach"
+    alt: "Looking downward dark jacket and shirt @sbach iPad portrait"
   - large: paperfaces-jupiter909-twitter-lg.jpg
     thumb: paperfaces-jupiter909-twitter-150.jpg
-    title: @jupiter909
-    alt: Playing strings in the forest @jupiter iPad portrait
+    title: "@jupiter909"
+    alt: "Playing strings in the forest @jupiter iPad portrait"
   - large: paperfaces-ihamzadev-twitter-lg.jpg
     thumb: paperfaces-ihamzadev-twitter-150.jpg
-    title: @iHamzaDev
-    alt: Guy in glasses with red headphones @iHamzaDev iPad portrait
+    title: "@iHamzaDev"
+    alt: "Guy in glasses with red headphones @iHamzaDev iPad portrait"
   - large: paperfaces-rt44man-twitter-lg.jpg
     thumb: paperfaces-rt44man-twitter-150.jpg
-    title: @Rt44man
-    alt: Guy wearing a plad shirt leaning against a blue wall @rt44man iPad portrait
+    title: "@Rt44man"
+    alt: "Guy wearing a plad shirt leaning against a blue wall @rt44man iPad portrait"
   - large: paperfaces-lisablackler-twitter-lg.jpg
     thumb: paperfaces-lisablackler-twitter-150.jpg
-    title: @lLisaBlackler
-    alt: Girl in pink and bright violet tones @lisablackler iPad portrait
+    title: "@lLisaBlackler"
+    alt: "Girl in pink and bright violet tones @lisablackler iPad portrait"
   - large: paperfaces-pichfl-twitter-lg.jpg
     thumb: paperfaces-pichfl-twitter-150.jpg
-    title: @pichfl
-    alt: Guy with glasses wearing a plaid scarf @pichfl iPad portrait
+    title: "@pichfl"
+    alt: "Guy with glasses wearing a plaid scarf @pichfl iPad portrait"
   - large: paperfaces-antoninygaard-twitter-lg.jpg
     thumb: paperfaces-antoninygaard-twitter-150.jpg
-    title: @antoninygaard
-    alt: Guy sitting in front of a ornate frame and candle holders @antoninygaard iPad portrait
+    title: "@antoninygaard"
+    alt: "Guy sitting in front of a ornate frame and candle holders @antoninygaard iPad portrait"
   - large: paperfaces-padulantonio-twitter-lg.jpg
     thumb: paperfaces-padulantonio-twitter-150.jpg
-    title: @padulantonio
-    alt: Dramatic gray bricks and guy in vneck sweater @padulantonio iPad portrait
+    title: "@padulantonio"
+    alt: "Dramatic gray bricks and guy in vneck sweater @padulantonio iPad portrait"
   - large: paperfaces-justkimolly-twitter-lg.jpg
     thumb: paperfaces-justkimolly-twitter-150.jpg
-    title: @justkimolly
-    alt: Black and white girl in sunglasses @justkimolly iPad portrait
+    title: "@justkimolly"
+    alt: "Black and white girl in sunglasses @justkimolly iPad portrait"
   - large: paperfaces-nick-aylward-twitter-lg.jpg
     thumb: paperfaces-nick-aylward-twitter-150.jpg
-    title: @nick_aylward
-    alt: Guy and his gal in Washington DC @nick_aylward iPad portrait
+    title: "@nick_aylward"
+    alt: "Guy and his gal in Washington DC @nick_aylward iPad portrait"
   - large: paperfaces-manjumadhav93-twitter-lg.jpg
     thumb: paperfaces-manjumadhav93-twitter-150.jpg
-    title: @manjumadhav93
-    alt: Guy in sunglasses chilling in the street @manjumadhav93 iPad portrait
+    title: "@manjumadhav93"
+    alt: "Guy in sunglasses chilling in the street @manjumadhav93 iPad portrait"
   - large: paperfaces-sjr-online-twitter-lg.jpg
     thumb: paperfaces-sjr-online-twitter-150.jpg
-    title: @SJR_Online
-    alt: Black and white 3/4 view @SJR_Online iPad portrait
+    title: "@SJR_Online"
+    alt: "Black and white 3/4 view @SJR_Online iPad portrait"
   - large: paperfaces-shamaiela-twitter-lg.jpg
     thumb: paperfaces-shamaiela-twitter-150.jpg
-    title: @shamaiela
-    alt: Girl with long hair against a bright red background @shamaiela iPad portrait
+    title: "@shamaiela"
+    alt: "Girl with long hair against a bright red background @shamaiela iPad portrait"
   - large: paperfaces-slaunchaman-twitter-lg.jpg
     thumb: paperfaces-slaunchaman-twitter-150.jpg
-    title: @slaunchaman
-    alt: Guy in purple long sleeve dress shirt @slaunchaman iPad portrait
+    title: "@slaunchaman"
+    alt: "Guy in purple long sleeve dress shirt @slaunchaman iPad portrait"
   - large: paperfaces-juanrod82-twitter-lg.jpg
     thumb: paperfaces-juanrod82-twitter-150.jpg
-    title: @JuanRod82
-    alt: Guy and his girl and two dogs @JuanRod82 iPad portrait
+    title: "@JuanRod82"
+    alt: "Guy and his girl and two dogs @JuanRod82 iPad portrait"
   - large: paperfaces-b-sheehan-twitter-lg.jpg
     thumb: paperfaces-b-sheehan-twitter-150.jpg
-    title: @B_Sheehan
-    alt: Fire fighter @B_Sheehan iPad portrait
+    title: "@B_Sheehan"
+    alt: "Fire fighter @B_Sheehan iPad portrait"
   - large: paperfaces-coffeeplz-twitter-lg.jpg
     thumb: paperfaces-coffeeplz-twitter-150.jpg
-    title: @CoffeePlz
-    alt: @CoffeePlz iPad portrait
+    title: "@CoffeePlz"
+    alt: "@CoffeePlz iPad portrait"
   - large: paperfaces-kyle-bridget-lg.jpg
     thumb: paperfaces-kyle-bridget-150.jpg
-    title: Kyle and Bridget
-    alt: Kyle and Bridget, and dog iPad portrait
+    title: "Kyle and Bridget"
+    alt: "Kyle and Bridget, and dog iPad portrait"
   - large: paperfaces-andrewjbryk-twitter-lg.jpg
     thumb: paperfaces-andrewjbryk-twitter-150.jpg
-    title: @andrewjbryk
-    alt: Three boys sitting next to each other @andrewjbryk iPad portrait
+    title: "@andrewjbryk"
+    alt: "Three boys sitting next to each other @andrewjbryk iPad portrait"
   - large: paperfaces-jamesonroot-twitter-lg.jpg
     thumb: paperfaces-jamesonroot-twitter-150.jpg
-    title: @jamesonroot
-    alt: Guy and gal standing in front of water @jamesonroot iPad portrait
+    title: "@jamesonroot"
+    alt: "Guy and gal standing in front of water @jamesonroot iPad portrait"
   - large: paperfaces-ryandawidjan-twitter-lg.jpg
     thumb: paperfaces-ryandawidjan-twitter-150.jpg
-    title: @ryandawidjan
-    alt: Guy in a suit in a landscape @ryandawidjan iPad portrait
+    title: "@ryandawidjan"
+    alt: "Guy in a suit in a landscape @ryandawidjan iPad portrait"
   - large: paperfaces-bradykent-twitter-lg.jpg
     thumb: paperfaces-bradykent-twitter-150.jpg
-    title: @bradykent
-    alt: Guy in front of some architecture wearing plaid @bradykent iPad portrait
+    title: "@bradykent"
+    alt: "Guy in front of some architecture wearing plaid @bradykent iPad portrait"
   - large: paperfaces-cynthia-2-twitter-lg.jpg
     thumb: paperfaces-cynthia-2-twitter-150.jpg
-    title: @cynthia
-    alt: Long haired girl in grayscale @cynthia iPad portrait
+    title: "@cynthia"
+    alt: "Long haired girl in grayscale @cynthia iPad portrait"
   - large: paperfaces-parisba-2-twitter-lg.jpg
     thumb: paperfaces-parisba-2-twitter-150.jpg
-    title: @parisba
-    alt: Dude in a hat @parisba iPad portrait
+    title: "@parisba"
+    alt: "Dude in a hat @parisba iPad portrait"
   - large: paperfaces-gimmeapuck-twitter-lg.jpg
     thumb: paperfaces-gimmeapuck-twitter-150.jpg
-    title: @gimmeapuck
-    alt: Girl with sunglasses @gimmeapuck iPad portrait
+    title: "@gimmeapuck"
+    alt: "Girl with sunglasses @gimmeapuck iPad portrait"
   - large: paperfaces-guy1067-twitter-lg.jpg
     thumb: paperfaces-guy1067-twitter-150.jpg
-    title: @guy1067
-    alt: Light orange toned background @guy1067 iPad portrait
+    title: "@guy1067"
+    alt: "Light orange toned background @guy1067 iPad portrait"
   - large: paperfaces-oog-twitter-lg.jpg
     thumb: paperfaces-oog-twitter-150.jpg
-    title: @Oog
-    alt: In shadows, black and white girl @Oog iPad portrait
+    title: "@Oog"
+    alt: "In shadows, black and white girl @Oog iPad portrait"
   - large: paperfaces-miemzzz-twitter-lg.jpg
     thumb: paperfaces-miemzzz-twitter-150.jpg
-    title: @MiemZzz
-    alt: Black and white girl @MiemZzz iPad portrait
+    title: "@MiemZzz"
+    alt: "Black and white girl @MiemZzz iPad portrait"
   - large: paperfaces-genevasands-twitter-lg.jpg
     thumb: paperfaces-genevasands-twitter-150.jpg
-    title: @genevasands
-    alt: Long haired girl wearing a striped shirt @genevasands iPad portrait
+    title: "@genevasands"
+    alt: "Long haired girl wearing a striped shirt @genevasands iPad portrait"
   - large: paperfaces-melaniejcooke-twitter-lg.jpg
     thumb: paperfaces-melaniejcooke-twitter-150.jpg
-    title: @melaniejcooke
-    alt: Long haired girl with red lipstick @melaniejcooke iPad portrait
+    title: "@melaniejcooke"
+    alt: "Long haired girl with red lipstick @melaniejcooke iPad portrait"
   - large: paperfaces-shinfu-twitter-lg.jpg
     thumb: paperfaces-shinfu-twitter-150.jpg
-    title: @Shinfu
-    alt: Blue sky landscape with a guy jumping really high @Shinfu iPad portrait
+    title: "@Shinfu"
+    alt: "Blue sky landscape with a guy jumping really high @Shinfu iPad portrait"
   - large: paperfaces-rudy-lg.jpg
     thumb: paperfaces-rudy-150.jpg
-    title: Rudy
-    alt: Guy in a black motorcycle jacket Rudy iPad portrait
+    title: "Rudy"
+    alt: "Guy in a black motorcycle jacket Rudy iPad portrait"
   - large: paperfaces-vragal-twitter-lg.jpg
     thumb: paperfaces-vragal-twitter-150.jpg
-    title: @Vragal
-    alt: Guy in a gray hoodie @Vragal iPad portrait
+    title: "@Vragal"
+    alt: "Guy in a gray hoodie @Vragal iPad portrait"
   - large: paperfaces-moriartied-twitter-lg.jpg
     thumb: paperfaces-moriartied-twitter-150.jpg
-    title: @Moriartied
-    alt: Black and white girl with glasses and short hair @Moriartied iPad portrait
+    title: "@Moriartied"
+    alt: "Black and white girl with glasses and short hair @Moriartied iPad portrait"
   - large: paperfaces-cenk-twitter-lg.jpg
     thumb: paperfaces-cenk-twitter-150.jpg
-    title: @Cenk
-    alt: Black and white with a beard @Cenk iPad portrait
+    title: "@Cenk"
+    alt: "Black and white with a beard @Cenk iPad portrait"
   - large: paperfaces-rasmusfisker-twitter-lg.jpg
     thumb: paperfaces-rasmusfisker-twitter-150.jpg
-    title: @rasmusfisker
-    alt: Yellow and violet tones @rasmusfisker iPad portrait
+    title: "@rasmusfisker"
+    alt: "Yellow and violet tones @rasmusfisker iPad portrait"
   - large: paperfaces-slace-twitter-lg.jpg
     thumb: paperfaces-slace-twitter-150.jpg
-    title: @slace
-    alt: Dude in a hat @slace iPad portrait
+    title: "@slace"
+    alt: "Dude in a hat @slace iPad portrait"
   - large: paperfaces-gothamity-twitter-lg.jpg
     thumb: paperfaces-gothamity-twitter-150.jpg
-    title: @gothamity
-    alt: Short haired girl with red lipstick @gothamity iPad portrait 
+    title: "@gothamity"
+    alt: "Short haired girl with red lipstick @gothamity iPad portrait "
   - large: paperfaces-aaronrustad-twitter-lg.jpg
     thumb: paperfaces-aaronrustad-twitter-150.jpg
-    title: @aaronrustad
-    alt: Guy in glasses in front of green water @aaronrustad iPad portrait 
+    title: "@aaronrustad"
+    alt: "Guy in glasses in front of green water @aaronrustad iPad portrait "
   - large: paperfaces-tellyoumore-twitter-lg.jpg
     thumb: paperfaces-tellyoumore-twitter-150.jpg
-    title: @TellYouMore
-    alt: Lots of orange hues of a guy in a scarf thinking @TellYouMore iPad portrait 
+    title: "@TellYouMore"
+    alt: "Lots of orange hues of a guy in a scarf thinking @TellYouMore iPad portrait "
   - large: paperfaces-slicknet-twitter-lg.jpg
     thumb: paperfaces-slicknet-twitter-150.jpg
-    title: @slicknet
-    alt: Dude in a suit and hat talking on a mobile phone @slicknet iPad portrait 
+    title: "@slicknet"
+    alt: "Dude in a suit and hat talking on a mobile phone @slicknet iPad portrait "
   - large: paperfaces-swiftkickcoach-twitter-lg.jpg
     thumb: paperfaces-swiftkickcoach-twitter-150.jpg
-    title: @SwiftKickCoach_
-    alt: Girl in sunglasses with green stuffed animal @SwiftKickCoach_ iPad portrait 
+    title: "@SwiftKickCoach_"
+    alt: "Girl in sunglasses with green stuffed animal @SwiftKickCoach_ iPad portrait "
   - large: paperfaces-chrbutler-twitter-lg.jpg
     thumb: paperfaces-chrbutler-twitter-150.jpg
-    title: @chrbutler
-    alt: Yellow and blue tones @chrbutler iPad portrait 
+    title: "@chrbutler"
+    alt: "Yellow and blue tones @chrbutler iPad portrait "
   - large: paperfaces-ssetlik-twitter-lg.jpg
     thumb: paperfaces-ssetlik-twitter-150.jpg
-    title: @ssetlik
-    alt: Profile of a guy listening to music next to a window @ssetlik iPad portrait
+    title: "@ssetlik"
+    alt: "Profile of a guy listening to music next to a window @ssetlik iPad portrait"
   - large: paperfaces-calwahab-twitter-lg.jpg
     thumb: paperfaces-calwahab-twitter-150.jpg
-    title: @calwahab
-    alt: Girl and guy laying on a towel at the beach @calwahab iPad portrait
+    title: "@calwahab"
+    alt: "Girl and guy laying on a towel at the beach @calwahab iPad portrait"
   - large: paperfaces-munkimatt-twitter-lg.jpg
     thumb: paperfaces-munkimatt-twitter-150.jpg
-    title: @munkimatt
-    alt: Hands with a curly mustache @munkimatt iPad portrait
+    title: "@munkimatt"
+    alt: "Hands with a curly mustache @munkimatt iPad portrait"
   - large: paperfaces-campbell-soupp-twitter-lg.jpg
     thumb: paperfaces-campbell-soupp-twitter-150.jpg
-    title: @campbell_soupp
-    alt: Blonde haired girl taking a self pic @campbell_soupp iPad portrait
+    title: "@campbell_soupp"
+    alt: "Blonde haired girl taking a self pic @campbell_soupp iPad portrait"
   - large: paperfaces-thebrady-khollybell-twitter-lg.jpg
     thumb: paperfaces-thebrady-khollybell-twitter-150.jpg
-    title: @theBrady and @khollybell
-    alt: Guy in a Batman mask with his girlfriend @theBrady and @khollybell iPad portrait
+    title: "@theBrady and @khollybell"
+    alt: "Guy in a Batman mask with his girlfriend @theBrady and @khollybell iPad portrait"
   - large: paperfaces-njklas-twitter-lg.jpg
     thumb: paperfaces-njklas-twitter-150.jpg
-    title: @njklas
-    alt: Dude in sunglasses with side swiped hair and hat @njklas iPad portrait
+    title: "@njklas"
+    alt: "Dude in sunglasses with side swiped hair and hat @njklas iPad portrait"
   - large: paperfaces-lemon-lime-twitter-lg.jpg
     thumb: paperfaces-lemon-lime-twitter-150.jpg
-    title: @lemon_lime
-    alt: Guy in yellow lime colored shirt @lemon_lime iPad portrait
+    title: "@lemon_lime"
+    alt: "Guy in yellow lime colored shirt @lemon_lime iPad portrait"
   - large: paperfaces-bradyv-twitter-lg.jpg
     thumb: paperfaces-bradyv-twitter-150.jpg
-    title: @bradyv
-    alt: Guy in the dark weargin a bright orange knit hat @bradyv iPad portrait
+    title: "@bradyv"
+    alt: "Guy in the dark weargin a bright orange knit hat @bradyv iPad portrait"
   - large: paperfaces-jamesslock-twitter-lg.jpg
     thumb: paperfaces-jamesslock-twitter-150.jpg
-    title: @JamesSLock
-    alt: Dude in glases with swallow neck tattoos @JamesSLock iPad portrait
+    title: "@JamesSLock"
+    alt: "Dude in glases with swallow neck tattoos @JamesSLock iPad portrait"
   - large: paperfaces-michael-rose-lg.jpg
     thumb: paperfaces-michael-rose-150.jpg
-    title: @mmistakes
-    alt: Self portrait of Michael Rose in a muted field @mmistakes iPad portrait
+    title: "@mmistakes"
+    alt: "Self portrait of Michael Rose in a muted field @mmistakes iPad portrait"
   - large: paperfaces-eighthree-twitter-lg.jpg
     thumb: paperfaces-eighthree-twitter-150.jpg
-    title: @eighthree
-    alt: High brightness front view of @eighthree iPad portrait
+    title: "@eighthree"
+    alt: "High brightness front view of @eighthree iPad portrait"
   - large: paperfaces-ihatealexwright-twitter-lg.jpg
     thumb: paperfaces-ihatealexwright-twitter-150.jpg
-    title: @ihatealexwright
-    alt: Girl in a furry hat snuggling a siamese cat @ihatealexwright iPad portrait
+    title: "@ihatealexwright"
+    alt: "Girl in a furry hat snuggling a siamese cat @ihatealexwright iPad portrait"
   - large: paperfaces-keyflake-twitter-lg.jpg
     thumb: paperfaces-keyflake-twitter-150.jpg
-    title: @keyflake
-    alt: Girl in front of a ferris wheel at night @keyflake iPad portrait
+    title: "@keyflake"
+    alt: "Girl in front of a ferris wheel at night @keyflake iPad portrait"
   - large: paperfaces-patrickleary-twitter-lg.jpg
     thumb: paperfaces-patrickleary-twitter-150.jpg
-    title: @PatrickLeary
-    alt: Man in sunglasses standing in a field of sunflowers @PatrickLeary iPad portrait
+    title: "@PatrickLeary"
+    alt: "Man in sunglasses standing in a field of sunflowers @PatrickLeary iPad portrait"
   - large: paperfaces-m0rph3v5-twitter-lg.jpg
     thumb: paperfaces-m0rph3v5-twitter-150.jpg
-    title: @m0rph3v5
-    alt: Guy in a gray and blue striped hoodie @m0rph3v5 iPad portrait
+    title: "@m0rph3v5"
+    alt: "Guy in a gray and blue striped hoodie @m0rph3v5 iPad portrait"
   - large: paperfaces-amy-lew-twitter-lg.jpg
     thumb: paperfaces-amy-lew-twitter-150.jpg
-    title: @amy_lew
-    alt: Long haired girl in violet @amy_lew iPad portrait
+    title: "@amy_lew"
+    alt: "Long haired girl in violet @amy_lew iPad portrait"
   - large: paperfaces-mriddickw-twitter-lg.jpg
     thumb: paperfaces-mriddickw-twitter-150.jpg
-    title: @MRiddickW
-    alt: Guy in a hat with a steam punk aesthetic @MRiddickW iPad portrait
+    title: "@MRiddickW"
+    alt: "Guy in a hat with a steam punk aesthetic @MRiddickW iPad portrait"
   - large: paperfaces-mattlawton87-twitter-lg.jpg
     thumb: paperfaces-mattlawton87-twitter-150.jpg
-    title: @mattlawton87
-    alt: A couple @mattlawton87 iPad portrait
+    title: "@mattlawton87"
+    alt: "A couple @mattlawton87 iPad portrait"
   - large: paperfaces-wiremum-twitter-lg.jpg
     thumb: paperfaces-wiremum-twitter-150.jpg
-    title: @wiremum
-    alt: Lady in purple blouse using a white iPhone @wiremum iPad portrait
+    title: "@wiremum"
+    alt: "Lady in purple blouse using a white iPhone @wiremum iPad portrait"
   - large: paperfaces-wiretillidie-twitter-lg.jpg
     thumb: paperfaces-wiretillidie-twitter-150.jpg
-    title: @WIRETILLIDIE
-    alt: Man holding a baby on a leather couch @WIRETILLIDIE iPad portrait
+    title: "@WIRETILLIDIE"
+    alt: "Man holding a baby on a leather couch @WIRETILLIDIE iPad portrait"
   - large: paperfaces-santa-claus-lg.jpg
     thumb: paperfaces-santa-claus-150.jpg
-    title: Santa Claus
-    alt: Santa Claus iPad portrait
+    title: "Santa Claus"
+    alt: "Santa Claus iPad portrait"
   - large: paperfaces-kimkimcachoo-twitter-lg.jpg
     thumb: paperfaces-kimkimcachoo-twitter-150.jpg
-    title: @kimkimcachoo
-    alt: Long haired girl leaning forward @kimkimcachoo iPad portrait
+    title: "@kimkimcachoo"
+    alt: "Long haired girl leaning forward @kimkimcachoo iPad portrait"
   - large: paperfaces-londonwebdev-twitter-lg.jpg
     thumb: paperfaces-londonwebdev-twitter-150.jpg
-    title: @LondonWebDev
-    alt: Fella with a goatee tugging his earlobe @LondonWebDev iPad portrait
+    title: "@LondonWebDev"
+    alt: "Fella with a goatee tugging his earlobe @LondonWebDev iPad portrait"
   - large: paperfaces-michaeltomko-twitter-lg.jpg
     thumb: paperfaces-michaeltomko-twitter-150.jpg
-    title: @michaeltomko
-    alt: Wedding couple wearing mustache and lip disguises @michaeltomko iPad portrait
+    title: "@michaeltomko"
+    alt: "Wedding couple wearing mustache and lip disguises @michaeltomko iPad portrait"
   - large: paperfaces-psychoticmilkma-twitter-lg.jpg
     thumb: paperfaces-psychoticmilkma-twitter-150.jpg
-    title: @psychoticmilkma
-    alt: Orange hoodie and Raiden hat @psychoticmilkma iPad portrait
+    title: "@psychoticmilkma"
+    alt: "Orange hoodie and Raiden hat @psychoticmilkma iPad portrait"
   - large: paperfaces-leahchu-twitter-lg.jpg
     thumb: paperfaces-leahchu-twitter-150.jpg
-    title: @leahchu
-    alt: Frosty blue snowflake bokeh @leahchu iPad portrait
+    title: "@leahchu"
+    alt: "Frosty blue snowflake bokeh @leahchu iPad portrait"
   - large: paperfaces-adeirra-twitter-lg.jpg
     thumb: paperfaces-adeirra-twitter-150.jpg
-    title: @adeirra
-    alt: Fancy pants hat tip @adeirra iPad portrait
+    title: "@adeirra"
+    alt: "Fancy pants hat tip @adeirra iPad portrait"
   - large: paperfaces-sushobhan-twitter-lg.jpg
     thumb: paperfaces-sushobhan-twitter-150.jpg
-    title: @sushobhan
-    alt: Gray tones and striped shirt @sushobhan iPad portrait
+    title: "@sushobhan"
+    alt: "Gray tones and striped shirt @sushobhan iPad portrait"
   - large: paperfaces-aragost-twitter-lg.jpg
     thumb: paperfaces-aragost-twitter-150.jpg
-    title: @aragost
-    alt: Orange hues and a big grin @aragost iPad portrait
+    title: "@aragost"
+    alt: "Orange hues and a big grin @aragost iPad portrait"
   - large: paperfaces-mukealicious-twitter-lg.jpg
     thumb: paperfaces-mukealicious-twitter-150.jpg
-    title: @Mukealicious
-    alt: Dude in a camo hat against some floral wallpaper @Mukealicious iPad portrait 
+    title: "@Mukealicious"
+    alt: "Dude in a camo hat against some floral wallpaper @Mukealicious iPad portrait "
   - large: paperfaces-carlfriend-twitter-lg.jpg
     thumb: paperfaces-carlfriend-twitter-150.jpg
-    title: @CarlFriend
-    alt: A man and his dog @Carlfriend iPad portrait
+    title: "@CarlFriend"
+    alt: "A man and his dog @Carlfriend iPad portrait"
   - large: paperfaces-ottmark-twitter-lg.jpg
     thumb: paperfaces-ottmark-twitter-150.jpg
-    title: @ottmark
-    alt: Dramatic lighting in a brown room @ottmark iPad portrait
+    title: "@ottmark"
+    alt: "Dramatic lighting in a brown room @ottmark iPad portrait"
   - large: paperfaces-quimeraimantada-twitter-lg.jpg
     thumb: paperfaces-quimeraimantada-twitter-150.jpg
-    title: @Quimeraimantada
-    alt: Flower girl in a grass field @Quimeraimantada iPad portrait
+    title: "@Quimeraimantada"
+    alt: "Flower girl in a grass field @Quimeraimantada iPad portrait"
   - large: paperfaces-maique-twitter-lg.jpg
     thumb: paperfaces-maique-twitter-150.jpg
-    title: @maique
-    alt: Bearded fella sticking out his tongue in a large ornate frame @maique iPad portrait
+    title: "@maique"
+    alt: "Bearded fella sticking out his tongue in a large ornate frame @maique iPad portrait"
   - large: paperfaces-fra-cek-twitter-lg.jpg
     thumb: paperfaces-fra-cek-twitter-150.jpg
-    title: @fra_cek
-    alt: Guy in glasses wearing plaid @fra_cek iPad portrait
+    title: "@fra_cek"
+    alt: "Guy in glasses wearing plaid @fra_cek iPad portrait"
   - large: paperfaces-jonikorpi-twitter-lg.jpg
     thumb: paperfaces-jonikorpi-twitter-150.jpg
-    title: @jonikorpi
-    alt: Dude looking at his mobile device intensely @jonikorpi iPad portrait
+    title: "@jonikorpi"
+    alt: "Dude looking at his mobile device intensely @jonikorpi iPad portrait"
   - large: paperfaces-ameeko-twitter-lg.jpg
     thumb: paperfaces-ameeko-twitter-150.jpg
-    title: @ameeko
-    alt: Girl with long flowing hair in a red tank top @ameeko iPad portrait
+    title: "@ameeko"
+    alt: "Girl with long flowing hair in a red tank top @ameeko iPad portrait"
   - large: paperfaces-alextrott-twitter-lg.jpg
     thumb: paperfaces-alextrott-twitter-150.jpg
-    title: @alextrott_
-    alt: Dude sitting in the dark wearing a gray hoodie @alextrott_ iPad portrait
+    title: "@alextrott_"
+    alt: "Dude sitting in the dark wearing a gray hoodie @alextrott_ iPad portrait"
   - large: paperfaces-yaraher-twitter-lg.jpg
     thumb: paperfaces-yaraher-twitter-150.jpg
-    title: @Yaraher
-    alt: 3/4 view of a guy against an orange background @Yaraher iPad portrait
+    title: "@Yaraher"
+    alt: "3/4 view of a guy against an orange background @Yaraher iPad portrait"
   - large: paperfaces-tarungangwani-twitter-lg.jpg
     thumb: paperfaces-tarungangwani-twitter-150.jpg
-    title: @tarungangwani
-    alt: Guy in blue dress shirt @tarungangwani iPad portrait
+    title: "@tarungangwani"
+    alt: "Guy in blue dress shirt @tarungangwani iPad portrait"
   - large: paperfaces-eberth-twitter-lg.jpg
     thumb: paperfaces-eberth-twitter-150.jpg
-    title: @Eberth
-    alt: Black and white @Eberth iPad portrait
+    title: "@Eberth"
+    alt: "Black and white @Eberth iPad portrait"
   - large: paperfaces-vilkina-twitter-lg.jpg
     thumb: paperfaces-vilkina-twitter-150.jpg
-    title: @vilkina
-    alt: Girl with blonde hair wearing a purple floarl dress outside by some steps @vilkina iPad portrait
+    title: "@vilkina"
+    alt: "Girl with blonde hair wearing a purple floarl dress outside by some steps @vilkina iPad portrait"
   - large: paperfaces-getoutyourmap-twitter-lg.jpg
     thumb: paperfaces-getoutyourmap-twitter-150.jpg
-    title: @getoutyourmap
-    alt: Girl with long hair wearing a green knit hat @getoutyourmap iPad portrait
+    title: "@getoutyourmap"
+    alt: "Girl with long hair wearing a green knit hat @getoutyourmap iPad portrait"
   - large: paperfaces-a-farlow44-twitter-lg.jpg
     thumb: paperfaces-a-farlow44-twitter-150.jpg
-    title: @A_Farlow44
-    alt: High contrast blue and yellow composition @A_Farlow44 iPad portrait
+    title: "@A_Farlow44"
+    alt: "High contrast blue and yellow composition @A_Farlow44 iPad portrait"
   - large: paperfaces-bradenransome-twitter-lg.jpg
     thumb: paperfaces-bradenransome-twitter-150.jpg
-    title: @BradenRansome
-    alt: High contrast blue and yellow composition @BradenRansome iPad portrait
+    title: "@BradenRansome"
+    alt: "High contrast blue and yellow composition @BradenRansome iPad portrait"
   - large: paperfaces-jkusunoki-twitter-lg.jpg
     thumb: paperfaces-jkusunoki-twitter-150.jpg
-    title: @jkusunoki
-    alt: Guy in an argyle sweater drinking wine @jkusunoki iPad portrait
+    title: "@jkusunoki"
+    alt: "Guy in an argyle sweater drinking wine @jkusunoki iPad portrait"
   - large: paperfaces-zachfulkerson-twitter-lg.jpg
     thumb: paperfaces-zachfulkerson-twitter-150.jpg
-    title: @zachfulkerson
-    alt: Bearded fella wearing a striped scarf @zachfulkerson iPad portrait
+    title: "@zachfulkerson"
+    alt: "Bearded fella wearing a striped scarf @zachfulkerson iPad portrait"
   - large: paperfaces-mattdusenbury-twitter-lg.jpg
     thumb: paperfaces-mattdusenbury-twitter-150.jpg
-    title: @MattDusenbury
-    alt: Guy holdig an iPad in front of his face @MattDusenbury iPad portrait
+    title: "@MattDusenbury"
+    alt: "Guy holdig an iPad in front of his face @MattDusenbury iPad portrait"
   - large: paperfaces-berniecakez-twitter-lg.jpg
     thumb: paperfaces-berniecakez-twitter-150.jpg
-    title: @berniecakez
-    alt: Girl with bright red colored hair @berniecakez iPad portrait
+    title: "@berniecakez"
+    alt: "Girl with bright red colored hair @berniecakez iPad portrait"
   - large: paperfaces-daigansf-twitter-lg.jpg
     thumb: paperfaces-daigansf-twitter-150.jpg
-    title: @Daigansf
-    alt: Dude holding a hand fan in sepia tones @Daigansf iPad portrait
+    title: "@Daigansf"
+    alt: "Dude holding a hand fan in sepia tones @Daigansf iPad portrait"
   - large: paperfaces-annraoiod-twitter-lg.jpg
     thumb: paperfaces-annraoiod-twitter-150.jpg
-    title: @AnnraoiOD
-    alt: Beret wearing dude in black @AnnraoiOD iPad portrait
+    title: "@AnnraoiOD"
+    alt: "Beret wearing dude in black @AnnraoiOD iPad portrait"
   - large: paperfaces-krkwd-twitter-lg.jpg
     thumb: paperfaces-krkwd-twitter-150.jpg
-    title: @krkwd
-    alt: Dude in front of a lime green background @krkwd iPad portrait
+    title: "@krkwd"
+    alt: "Dude in front of a lime green background @krkwd iPad portrait"
   - large: paperfaces-chelseawears-twitter-lg.jpg
     thumb: paperfaces-chelseawears-twitter-150.jpg
-    title: @ChelseaWears
-    alt: Girl standing in front of vines and branches @ChelseaWears iPad portrait
+    title: "@ChelseaWears"
+    alt: "Girl standing in front of vines and branches @ChelseaWears iPad portrait"
   - large: paperfaces-christyxcore-twitter-lg.jpg
     thumb: paperfaces-christyxcore-twitter-150.jpg
-    title: @christyxcore
-    alt: Dr. Who superfan @christyxcore iPad portrait
+    title: "@christyxcore"
+    alt: "Dr. Who superfan @christyxcore iPad portrait"
   - large: paperfaces-kennedysgarage-twitter-lg.jpg
     thumb: paperfaces-kennedysgarage-twitter-150.jpg
-    title: @kennedysgarage
-    alt: Guy in a car at night @kennedysgarage iPad portrait
+    title: "@kennedysgarage"
+    alt: "Guy in a car at night @kennedysgarage iPad portrait"
   - large: paperfaces-jloupe-twitter-lg.jpg
     thumb: paperfaces-jloupe-twitter-150.jpg
-    title: @jloupe
-    alt: Guy in front of a face in a black tshirt @jloupe iPad portrait
+    title: "@jloupe"
+    alt: "Guy in front of a face in a black tshirt @jloupe iPad portrait"
   - large: paperfaces-dave-buxton-twitter-lg.jpg
     thumb: paperfaces-dave-buxton-twitter-150.jpg
-    title: @Dave_Buxton
-    alt: Dude in glasses wearing a suit @Dave_Buxton iPad portrait
+    title: "@Dave_Buxton"
+    alt: "Dude in glasses wearing a suit @Dave_Buxton iPad portrait"
   - large: paperfaces-joelmartinez-twitter-lg.jpg
     thumb: paperfaces-joelmartinez-twitter-150.jpg
-    title: @joelmartinez
-    alt: Dude in a sweater siting in an office cube @joelmartinez iPad portrait
+    title: "@joelmartinez"
+    alt: "Dude in a sweater siting in an office cube @joelmartinez iPad portrait"
   - large: paperfaces-liamdaly-twitter-lg.jpg
     thumb: paperfaces-liamdaly-twitter-150.jpg
-    title: @liamdaly
-    alt: Black and white, full frame @liamdaly iPad portrait
+    title: "@liamdaly"
+    alt: "Black and white, full frame @liamdaly iPad portrait"
   - large: paperfaces-karenkho-twitter-lg.jpg
     thumb: paperfaces-karenkho-twitter-150.jpg
-    title: @karenkho
-    alt: Girl smiling @karenkho iPad portrait
+    title: "@karenkho"
+    alt: "Girl smiling @karenkho iPad portrait"
   - large: paperfaces-benjaminzamayo-twitter-lg.jpg
     thumb: paperfaces-benjaminzamayo-twitter-150.jpg
-    title: @BenjaminZAMayo
-    alt: Guy in jean jacket and hood @BenjaminZAMayo iPad portrait
+    title: "@BenjaminZAMayo"
+    alt: "Guy in jean jacket and hood @BenjaminZAMayo iPad portrait"
   - large: paperfaces-stottle-twitter-lg.jpg
     thumb: paperfaces-stottle-twitter-150.jpg
-    title: @Stottle
-    alt: Silouette of a man @Stottle iPad portrait
+    title: "@Stottle"
+    alt: "Silouette of a man @Stottle iPad portrait"
   - large: paperfaces-ichris-twitter-lg.jpg
     thumb: paperfaces-ichris-twitter-150.jpg
-    title: @iChris
-    alt: Guy in black and white @iChris iPad portrait
+    title: "@iChris"
+    alt: "Guy in black and white @iChris iPad portrait"
   - large: paperfaces-parisba-twitter-lg.jpg
     thumb: paperfaces-parisba-twitter-150.jpg
-    title: @parisba
-    alt: Goofy grey cat @parisba iPad portrait
+    title: "@parisba"
+    alt: "Goofy grey cat @parisba iPad portrait"
   - large: paperfaces-alittlebluestar-twitter-lg.jpg
     thumb: paperfaces-alittlebluestar-twitter-150.jpg
-    title: @alittlebluestar
-    alt: Girl in dark in front a blue background @alittlebluestar iPad portrait
+    title: "@alittlebluestar"
+    alt: "Girl in dark in front a blue background @alittlebluestar iPad portrait"
   - large: paperfaces-xavdog-twitter-lg.jpg
     thumb: paperfaces-xavdog-twitter-150.jpg
-    title: @xavdog
-    alt: Standing in front of wood paneling @xavdog iPad portrait
+    title: "@xavdog"
+    alt: "Standing in front of wood paneling @xavdog iPad portrait"
   - large: paperfaces-theejana-twitter-lg.jpg
     thumb: paperfaces-theejana-twitter-150.jpg
-    title: @theejana
-    alt: Black and white girl wearing a hood @theejana iPad portrait
+    title: "@theejana"
+    alt: "Black and white girl wearing a hood @theejana iPad portrait"
   - large: paperfaces-acostamt-twitter-lg.jpg
     thumb: paperfaces-acostamt-twitter-150.jpg
-    title: @acostamt
-    alt: Fellow iPad illustrator @acostamt iPad portrait
+    title: "@acostamt"
+    alt: "Fellow iPad illustrator @acostamt iPad portrait"
   - large: paperfaces-jarrardcole-twitter-lg.jpg
     thumb: paperfaces-jarrardcole-twitter-150.jpg
-    title: @jarrardcole
-    alt: Guy doing video editing in a theater @jarrardcole iPad portrait
+    title: "@jarrardcole"
+    alt: "Guy doing video editing in a theater @jarrardcole iPad portrait"
   - large: paperfaces-chris-obyrne-twitter-lg.jpg
     thumb: paperfaces-chris-obyrne-twitter-150.jpg
-    title: @chris_OByrne
-    alt: Guy in a blue shirt wearing an orange safety cone on his head @chris_OByrne iPad portrait
+    title: "@chris_OByrne"
+    alt: "Guy in a blue shirt wearing an orange safety cone on his head @chris_OByrne iPad portrait"
   - large: paperfaces-pjrvswp-twitter-lg.jpg
     thumb: paperfaces-pjrvswp-twitter-150.jpg
-    title: @pjrvswp
-    alt: Dude with full sleeve tattoos @pjrvswp iPad portrait
+    title: "@pjrvswp"
+    alt: "Dude with full sleeve tattoos @pjrvswp iPad portrait"
   - large: paperfaces-commadelimited-twitter-lg.jpg
     thumb: paperfaces-commadelimited-twitter-150.jpg
-    title: @commadelimited
-    alt: Epic beard! @commadelimited iPad portrait
+    title: "@commadelimited"
+    alt: "Epic beard! @commadelimited iPad portrait"
   - large: paperfaces-sarelrivera-twitter-lg.jpg
     thumb: paperfaces-sarelrivera-twitter-150.jpg
-    title: @sarelrivera
-    alt: Girl in gray @sarelrivera iPad portrait
+    title: "@sarelrivera"
+    alt: "Girl in gray @sarelrivera iPad portrait"
   - large: paperfaces-pepfre-twitter-lg.jpg
     thumb: paperfaces-pepfre-twitter-150.jpg
-    title: @Pepfre
-    alt: Fancy dude in a suit @Pepfre iPad portrait
+    title: "@Pepfre"
+    alt: "Fancy dude in a suit @Pepfre iPad portrait"
   - large: paperfaces-katypegg-twitter-lg.jpg
     thumb: paperfaces-katypegg-twitter-150.jpg
-    title: @katypegg
-    alt: Blonde girl clapping @katypegg iPad portrait
+    title: "@katypegg"
+    alt: "Blonde girl clapping @katypegg iPad portrait"
   - large: paperfaces-torop4in-twitter-lg.jpg
     thumb: paperfaces-torop4in-twitter-150.jpg
-    title: @torop4in
-    alt: Guy in front of a rock wall @torop4in iPad portrait
+    title: "@torop4in"
+    alt: "Guy in front of a rock wall @torop4in iPad portrait"
   - large: paperfaces-soaps-twitter-lg.jpg
     thumb: paperfaces-soaps-twitter-150.jpg
-    title: @_soaps
-    alt: Blonde girl with long hair in black and white @_soaps iPad portrait
+    title: "@_soaps"
+    alt: "Blonde girl with long hair in black and white @_soaps iPad portrait"
   - large: paperfaces-unlockthedoc-twitter-lg.jpg
     thumb: paperfaces-unlockthedoc-twitter-150.jpg
-    title: @unlockthedoc
-    alt: Dude with a beard @unlockthedoc iPad portrait
+    title: "@unlockthedoc"
+    alt: "Dude with a beard @unlockthedoc iPad portrait"
   - large: paperfaces-superbeffie-twitter-lg.jpg
     thumb: paperfaces-superbeffie-twitter-150.jpg
-    title: @superbeffie
-    alt: Darked haired girl in purple @superbeffie iPad portrait
+    title: "@superbeffie"
+    alt: "Darked haired girl in purple @superbeffie iPad portrait"
   - large: paperfaces-neckbeard-twitter-lg.jpg
     thumb: paperfaces-neckbeard-twitter-150.jpg
-    title: @_neckbeard
-    alt: Upsidedown dude @_neckbeard iPad portrait
+    title: "@_neckbeard"
+    alt: "Upsidedown dude @_neckbeard iPad portrait"
   - large: paperfaces-d-agostino-twitter-lg.jpg
     thumb: paperfaces-d-agostino-twitter-150.jpg
-    title: @D_AGOSTINO
-    alt: Dark haired girl holding a water pistol @D_AGOSTINO iPad portrait
+    title: "@D_AGOSTINO"
+    alt: "Dark haired girl holding a water pistol @D_AGOSTINO iPad portrait"
   - large: paperfaces-theordovician-twitter-lg.jpg
     thumb: paperfaces-theordovician-twitter-150.jpg
-    title: @theordovician
-    alt: Dark haired girl with red lips @theordovician iPad portrait
+    title: "@theordovician"
+    alt: "Dark haired girl with red lips @theordovician iPad portrait"
   - large: paperfaces-akaheini-twitter-lg.jpg
     thumb: paperfaces-akaheini-twitter-150.jpg
-    title: @akaHeini
-    alt: Guy in muted tones @akaHeini iPad portrait
+    title: "@akaHeini"
+    alt: "Guy in muted tones @akaHeini iPad portrait"
   - large: paperfaces-meggandeth-twitter-lg.jpg
     thumb: paperfaces-meggandeth-twitter-150.jpg
-    title: @MegganDeth
-    alt: Girl with dark hair @Meggandeth iPad portrait
+    title: "@MegganDeth"
+    alt: "Girl with dark hair @Meggandeth iPad portrait"
   - large: paperfaces-davidpoblador-twitter-lg.jpg
     thumb: paperfaces-davidpoblador-twitter-150.jpg
-    title: @davidpoblador
-    alt: Dude wearing a scarf and green Spotify headphones @davidpoblador iPad portrait
+    title: "@davidpoblador"
+    alt: "Dude wearing a scarf and green Spotify headphones @davidpoblador iPad portrait"
   - large: paperfaces-geekbabe-twitter-lg.jpg
     thumb: paperfaces-geekbabe-twitter-150.jpg
-    title: @geekbabe
-    alt: Woman in black top @geekbabe iPad portrait
+    title: "@geekbabe"
+    alt: "Woman in black top @geekbabe iPad portrait"
   - large: paperfaces-tasselflower-twitter-lg.jpg
     thumb: paperfaces-tasselflower-twitter-150.jpg
-    title: @tasselflower
-    alt: 3/4 view of a girl in grayscale @tasselflower iPad portrait
+    title: "@tasselflower"
+    alt: "3/4 view of a girl in grayscale @tasselflower iPad portrait"
   - large: paperfaces-jen-twitter-lg.jpg
     thumb: paperfaces-jen-twitter-150.jpg
-    title: @jen
-    alt: Dark haired girl with bright red lips @jen iPad portrait
+    title: "@jen"
+    alt: "Dark haired girl with bright red lips @jen iPad portrait"
   - large: paperfaces-mh-twitter-lg.jpg
     thumb: paperfaces-mh-twitter-150.jpg
-    title: @mh
-    alt: Dude in sunglasses and a hoodie @mh iPad portrait
+    title: "@mh"
+    alt: "Dude in sunglasses and a hoodie @mh iPad portrait"
   - large: paperfaces-kerby-twitter-lg.jpg
     thumb: paperfaces-kerby-twitter-150.jpg
-    title: @kerby
-    alt: Dude in blue shirt @kerby iPad portrait
+    title: "@kerby"
+    alt: "Dude in blue shirt @kerby iPad portrait"
   - large: paperfaces-raquibahasan-twitter-lg.jpg
     thumb: paperfaces-raquibahasan-twitter-150.jpg
-    title: @raquibahasan
-    alt: Man in suit using an iPhone @raquibahasan iPad portrait
+    title: "@raquibahasan"
+    alt: "Man in suit using an iPhone @raquibahasan iPad portrait"
   - large: paperfaces-carriehammer-twitter-lg.jpg
     thumb: paperfaces-carriehammer-twitter-150.jpg
-    title: @carriehammer
-    alt: Grayscale girl with long dark hair @carriehammer iPad portrait
+    title: "@carriehammer"
+    alt: "Grayscale girl with long dark hair @carriehammer iPad portrait"
   - large: paperfaces-ajkonieckijr-twitter-lg.jpg
     thumb: paperfaces-ajkonieckijr-twitter-150.jpg
-    title: @ajkonieckijr
-    alt: Dude smoking a cigar in a life guard shirt @ajkonieckijr iPad portrait
+    title: "@ajkonieckijr"
+    alt: "Dude smoking a cigar in a life guard shirt @ajkonieckijr iPad portrait"
   - large: paperfaces-curlycrazy-twitter-lg.jpg
     thumb: paperfaces-curlycrazy-twitter-150.jpg
-    title: @curlycrazy
-    alt: Side profile with lots of curly locks of hair @curlycrazy iPad portrait
+    title: "@curlycrazy"
+    alt: "Side profile with lots of curly locks of hair @curlycrazy iPad portrait"
   - large: paperfaces-fitt-kimberley-twitter-lg.jpg
     thumb: paperfaces-fitt-kimberley-twitter-150.jpg
-    title: @Fitt_Kimberley
-    alt: Lady in red @Fitt_Kimberley iPad portrait
+    title: "@Fitt_Kimberley"
+    alt: "Lady in red @Fitt_Kimberley iPad portrait"
   - large: paperfaces-mr-craig-twitter-lg.jpg
     thumb: paperfaces-mr-craig-twitter-150.jpg
-    title: @mr_craig
-    alt: Glasses wearing guy in front of a book shelves @mr_craig iPad portrait
+    title: "@mr_craig"
+    alt: "Glasses wearing guy in front of a book shelves @mr_craig iPad portrait"
   - large: paperfaces-karen-melgar-twitter-lg.jpg
     thumb: paperfaces-karen-melgar-twitter-150.jpg
-    title: @Karen_Melgar
-    alt: Girl with a face mask @Karen_Melgar iPad portrait
+    title: "@Karen_Melgar"
+    alt: "Girl with a face mask @Karen_Melgar iPad portrait"
   - large: paperfaces-andrew-shaw23-twitter-lg.jpg
     thumb: paperfaces-andrew-shaw23-twitter-150.jpg
-    title: @andrew_shaw23
-    alt: Vegan werewolf @andrew_shaw23 iPad portrait
+    title: "@andrew_shaw23"
+    alt: "Vegan werewolf @andrew_shaw23 iPad portrait"
   - large: paperfaces-joshthecantor-twitter-lg.jpg
     thumb: paperfaces-joshthecantor-twitter-150.jpg
-    title: @JoshTheCantor
-    alt: Goatee and blue v-neck shirt @JoshTheCantor iPad portrait
+    title: "@JoshTheCantor"
+    alt: "Goatee and blue v-neck shirt @JoshTheCantor iPad portrait"
   - large: paperfaces-laurel-renee-twitter-lg.jpg
     thumb: paperfaces-laurel-renee-twitter-150.jpg
-    title: @laurel_renee
-    alt: Darked haired girl in glasses @Laurel_Renee iPad portrait
+    title: "@laurel_renee"
+    alt: "Darked haired girl in glasses @Laurel_Renee iPad portrait"
   - large: paperfaces-rbartolome-twitter-lg.jpg
     thumb: paperfaces-rbartolome-twitter-150.jpg
-    title: @rbartolome
-    alt: Glasses and dark spikey hair @rbartolome iPad portrait
+    title: "@rbartolome"
+    alt: "Glasses and dark spikey hair @rbartolome iPad portrait"
   - large: paperfaces-realpaul8rown-twitter-lg.jpg
     thumb: paperfaces-realpaul8rown-twitter-150.jpg
-    title: @RealPaul8rown
-    alt: Orange afro wearing dude @RealPaul8rown iPad portrait
+    title: "@RealPaul8rown"
+    alt: "Orange afro wearing dude @RealPaul8rown iPad portrait"
   - large: paperfaces-eternallife-twitter-lg.jpg
     thumb: paperfaces-eternallife-twitter-150.jpg
-    title: @eternallife_
-    alt: Short haired girl with heart shaped earrings @EternalLife_ iPad portrait
+    title: "@eternallife_"
+    alt: "Short haired girl with heart shaped earrings @EternalLife_ iPad portrait"
   - large: paperfaces-farrenbennett-twitter-lg.jpg
     thumb: paperfaces-farrenbennett-twitter-150.jpg
-    title: @farrenbennett
-    alt: Man in suit and tie against gray backdrop @farrenbennett iPad portrait
+    title: "@farrenbennett"
+    alt: "Man in suit and tie against gray backdrop @farrenbennett iPad portrait"
   - large: paperfaces-toberl-twitter-lg.jpg
     thumb: paperfaces-toberl-twitter-150.jpg
-    title: @toberl
-    alt: Black and white bearded fella wearing glasses @toberl iPad portrait
+    title: "@toberl"
+    alt: "Black and white bearded fella wearing glasses @toberl iPad portrait"
   - large: paperfaces-kealey-twitter-lg.jpg
     thumb: paperfaces-kealey-twitter-150.jpg
-    title: @kealey
-    alt: Girl holding a large atmark @kealey iPad portrait
+    title: "@kealey"
+    alt: "Girl holding a large atmark @kealey iPad portrait"
   - large: paperfaces-the-boii-twitter-lg.jpg
     thumb: paperfaces-the-boii-twitter-150.jpg
-    title: @the_boii
-    alt: Blue collard shirt with muted backdrop @the_boii iPad portrait
+    title: "@the_boii"
+    alt: "Blue collard shirt with muted backdrop @the_boii iPad portrait"
   - large: paperfaces-jfskjaerbaek-twitter-lg.jpg
     thumb: paperfaces-jfskjaerbaek-twitter-150.jpg
-    title: @JFSkjaerbaek
-    alt: Black and white scruff @JFSkjaerbaek iPad portrait
+    title: "@JFSkjaerbaek"
+    alt: "Black and white scruff @JFSkjaerbaek iPad portrait"
   - large: paperfaces-bdf413-twitter-lg.jpg
     thumb: paperfaces-bdf413-twitter-150.jpg
-    title: @BDF413
-    alt: Girl wearing a scarf in moody lit room @BDF413 iPad portrait
+    title: "@BDF413"
+    alt: "Girl wearing a scarf in moody lit room @BDF413 iPad portrait"
   - large: paperfaces-morganmiller250-twitter-lg.jpg
     thumb: paperfaces-morganmiller250-twitter-150.jpg
-    title: @morganmiller250
-    alt: Long haired girl in pink stripes against a blue backdrop @morganmiller250 iPad portrait
+    title: "@morganmiller250"
+    alt: "Long haired girl in pink stripes against a blue backdrop @morganmiller250 iPad portrait"
   - large: paperfaces-choise-twitter-lg.jpg
     thumb: paperfaces-choise-twitter-150.jpg
-    title: @choise
-    alt: Black and white closeup of a guy in glasses and hat @choise iPad portrait
+    title: "@choise"
+    alt: "Black and white closeup of a guy in glasses and hat @choise iPad portrait"
   - large: paperfaces-ncfc-mad-twitter-lg.jpg
     thumb: paperfaces-ncfc-mad-twitter-150.jpg
-    title: @NCFC_Mad
-    alt: Sports cap wearing sir in a gray room @NCFC_Mad iPad portrait
+    title: "@NCFC_Mad"
+    alt: "Sports cap wearing sir in a gray room @NCFC_Mad iPad portrait"
   - large: paperfaces-ruth-goodwin-2-twitter-lg.jpg
     thumb: paperfaces-ruth-goodwin-2-twitter-150.jpg
-    title: @Ruth_Goodwin
-    alt: Sunglass wearing friends chillin @Ruth_Goodwin iPad portrait
+    title: "@Ruth_Goodwin"
+    alt: "Sunglass wearing friends chillin @Ruth_Goodwin iPad portrait"
   - large: paperfaces-ruth-goodwin-twitter-lg.jpg
     thumb: paperfaces-ruth-goodwin-twitter-150.jpg
-    title: @Ruth_Goodwin
-    alt: Long hair spaghetti strap wearing girl @Ruth_Goodwin iPad portrait
+    title: "@Ruth_Goodwin"
+    alt: "Long hair spaghetti strap wearing girl @Ruth_Goodwin iPad portrait"
   - large: paperfaces-M1RRN-twitter-lg.jpg
     thumb: paperfaces-M1RRN-twitter-150.jpg
-    title: @M1RRN
-    alt: In a red shirt on train or bus @M1RRN iPad portrait
+    title: "@M1RRN"
+    alt: "In a red shirt on train or bus @M1RRN iPad portrait"
   - large: paperfaces-allara-twitter-lg.jpg
     thumb: paperfaces-allara-twitter-150.jpg
-    title: @allara
-    alt: Dude in gray standing on a bridge in the woods @allara iPad portrait
+    title: "@allara"
+    alt: "Dude in gray standing on a bridge in the woods @allara iPad portrait"
   - large: paperfaces-ewalshe2-twitter-lg.jpg
     thumb: paperfaces-ewalshe2-twitter-150.jpg
-    title: @ewalshe2
-    alt: Blonde girl adorned with a flower @ewalshe2 iPad portrait
+    title: "@ewalshe2"
+    alt: "Blonde girl adorned with a flower @ewalshe2 iPad portrait"
   - large: paperfaces-hallaek-twitter-lg.jpg
     thumb: paperfaces-hallaek-twitter-150.jpg
-    title: @hallaek
-    alt: Unicorn hair flowing on the floor @hallaek iPad portrait
+    title: "@hallaek"
+    alt: "Unicorn hair flowing on the floor @hallaek iPad portrait"
   - large: paperfaces-brackin-twitter-lg.jpg
     thumb: paperfaces-brackin-twitter-150.jpg
-    title: @brackin
-    alt: Dude in blue @brackin iPad portrait
+    title: "@brackin"
+    alt: "Dude in blue @brackin iPad portrait"
   - large: paperfaces-moonflowerchild-twitter-lg.jpg
     thumb: paperfaces-moonflowerchild-twitter-150.jpg
-    title: @Moonflowerchild
-    alt: Sunglasses and bangs @Moonflowerchild iPad portrait
+    title: "@Moonflowerchild"
+    alt: "Sunglasses and bangs @Moonflowerchild iPad portrait"
   - large: paperfaces-faresf-twitter-lg.jpg
     thumb: paperfaces-faresf-twitter-150.jpg
-    title: @FaresF
-    alt: All suited up @FaresF iPad portrait
+    title: "@FaresF"
+    alt: "All suited up @FaresF iPad portrait"
   - large: paperfaces-sarakenobi-twitter-lg.jpg
     thumb: paperfaces-sarakenobi-twitter-150.jpg
-    title: @Sarakenobi
-    alt: Kids in 3D glasses and red hats @Sarakenobi iPad portrait
+    title: "@Sarakenobi"
+    alt: "Kids in 3D glasses and red hats @Sarakenobi iPad portrait"
   - large: paperfaces-cassini-twitter-lg.jpg
     thumb: paperfaces-cassini-twitter-150.jpg
-    title: @cassini_
-    alt: Solar flares and blue lighting @cassini_ iPad portrait
+    title: "@cassini_"
+    alt: "Solar flares and blue lighting @cassini_ iPad portrait"
   - large: paperfaces-hugeshark-twitter-lg.jpg
     thumb: paperfaces-hugeshark-twitter-150.jpg
-    title: @hugeshark
-    alt: Short hair with pink bangs @hugeshark iPad portrait
+    title: "@hugeshark"
+    alt: "Short hair with pink bangs @hugeshark iPad portrait"
   - large: paperfaces-jbenton-twitter-lg.jpg
     thumb: paperfaces-jbenton-twitter-150.jpg
-    title: @jbenton
-    alt: Monochromatic blue beard and sunglasses @jbenton iPad portrait
+    title: "@jbenton"
+    alt: "Monochromatic blue beard and sunglasses @jbenton iPad portrait"
   - large: paperfaces-marianoabdala-twitter-lg.jpg
     thumb: paperfaces-marianoabdala-twitter-150.jpg
-    title: @marianoabdala
-    alt: White headphones and relaxin @marianoabdala iPad portrait
+    title: "@marianoabdala"
+    alt: "White headphones and relaxin @marianoabdala iPad portrait"
   - large: paperfaces-andreikharlanov-twitter-lg.jpg
     thumb: paperfaces-andreikharlanov-twitter-150.jpg
-    title: @andreikharlanov
-    alt: Bright lighting and glasses @andreikharlanov iPad portrait
+    title: "@andreikharlanov"
+    alt: "Bright lighting and glasses @andreikharlanov iPad portrait"
   - large: paperfaces-ladygeekgeek-twitter-lg.jpg
     thumb: paperfaces-ladygeekgeek-twitter-150.jpg
-    title: @ladygeekgeek
-    alt: Girl with the curl and some ducks @ladygeekgeek iPad portrait
+    title: "@ladygeekgeek"
+    alt: "Girl with the curl and some ducks @ladygeekgeek iPad portrait"
   - large: paperfaces-fenderf4i-twitter-lg.jpg
     thumb: paperfaces-fenderf4i-twitter-150.jpg
-    title: @fenderf4i
-    alt: Guy with big black glasses @fenderf4i iPad portrait
+    title: "@fenderf4i"
+    alt: "Guy with big black glasses @fenderf4i iPad portrait"
   - large: paperfaces-maxquattromani-twitter-lg.jpg
     thumb: paperfaces-maxquattromani-twitter-150.jpg
-    title: @maxquattromani
-    alt: Another dude with a beard in black and white @maxquattromani iPad portrait
+    title: "@maxquattromani"
+    alt: "Another dude with a beard in black and white @maxquattromani iPad portrait"
   - large: paperfaces-mommanofool-twitter-lg.jpg
     thumb: paperfaces-mommanofool-twitter-150.jpg
-    title: @MommaNoFool
-    alt: Blonde girl with dangling earrings @MommaNoFool iPad portrait
+    title: "@MommaNoFool"
+    alt: "Blonde girl with dangling earrings @MommaNoFool iPad portrait"
   - large: paperfaces-karensd-twitter-lg.jpg
     thumb: paperfaces-karensd-twitter-150.jpg
-    title: @karensd
-    alt: Black and white girl @karensd iPad portrait
+    title: "@karensd"
+    alt: "Black and white girl @karensd iPad portrait"
   - large: paperfaces-fostermatt-twitter-lg.jpg
     thumb: paperfaces-fostermatt-twitter-150.jpg
-    title: @fostermatt
-    alt: Guy in a LA cap on the beach @fostermatt iPad portrait
+    title: "@fostermatt"
+    alt: "Guy in a LA cap on the beach @fostermatt iPad portrait"
   - large: paperfaces-editorialism-twitter-lg.jpg
     thumb: paperfaces-editorialism-twitter-150.jpg
-    title: @editorialism
-    alt: Girl with red lips and shirt @editorialism iPad portrait
+    title: "@editorialism"
+    alt: "Girl with red lips and shirt @editorialism iPad portrait"
   - large: paperfaces-melchoyce-twitter-lg.jpg
     thumb: paperfaces-melchoyce-twitter-150.jpg
-    title: @melchoyce
-    alt: Surprise face hiding in a sweater @melchoyce iPad portrait
+    title: "@melchoyce"
+    alt: "Surprise face hiding in a sweater @melchoyce iPad portrait"
   - large: paperfaces-omri-mor-twitter-lg.jpg
     thumb: paperfaces-omri-mor-twitter-150.jpg
-    title: @omri_mor
-    alt: Guy in black and white sitting on some steps @omri_mor iPad portrait
+    title: "@omri_mor"
+    alt: "Guy in black and white sitting on some steps @omri_mor iPad portrait"
   - large: paperfaces-jaceanderson-twitter-lg.jpg
     thumb: paperfaces-jaceanderson-twitter-150.jpg
-    title: @jaceanderson
-    alt: Guy with beard in front of a brick wall @jaceanderson iPad portrait
+    title: "@jaceanderson"
+    alt: "Guy with beard in front of a brick wall @jaceanderson iPad portrait"
   - large: paperfaces-dereklakin-twitter-lg.jpg
     thumb: paperfaces-dereklakin-twitter-150.jpg
-    title: @dereklakin
-    alt: Guy with glasses resting on his head @dereklakin iPad portrait
+    title: "@dereklakin"
+    alt: "Guy with glasses resting on his head @dereklakin iPad portrait"
   - large: paperfaces-matt-mullin-twitter-lg.jpg
     thumb: paperfaces-matt-mullin-twitter-150.jpg
-    title: @matt_mullin
-    alt: Free Boosie basketball shirt @matt_mullin iPad portrait
+    title: "@matt_mullin"
+    alt: "Free Boosie basketball shirt @matt_mullin iPad portrait"
   - large: paperfaces-niall-obrien-twitter-lg.jpg
     thumb: paperfaces-niall-obrien-twitter-150.jpg
-    title: @niall_obrien
-    alt: Baby in light blue @niall_obrien iPad portrait
+    title: "@niall_obrien"
+    alt: "Baby in light blue @niall_obrien iPad portrait"
   - large: paperfaces-lightnessalways-twitter-lg.jpg
     thumb: paperfaces-lightnessalways-twitter-150.jpg
-    title: @lightnessalways
-    alt: Girl vamped out in costume @lightnessalways iPad portrait
+    title: "@lightnessalways"
+    alt: "Girl vamped out in costume @lightnessalways iPad portrait"
   - large: paperfaces-brohatch-twitter-lg.jpg
     thumb: paperfaces-brohatch-twitter-150.jpg
-    title: @Brohatch
-    alt: Red haird girl in green sunglasses @Brohatch iPad portrait
+    title: "@Brohatch"
+    alt: "Red haird girl in green sunglasses @Brohatch iPad portrait"
   - large: paperfaces-cranekicker-twitter-lg.jpg
     thumb: paperfaces-cranekicker-twitter-150.jpg
-    title: @cranekicker
-    alt: Goofy dude doing the crane kick @cranekicker iPad portrait
+    title: "@cranekicker"
+    alt: "Goofy dude doing the crane kick @cranekicker iPad portrait"
   - large: paperfaces-bi11jon-twitter-lg.jpg
     thumb: paperfaces-bi11jon-twitter-150.jpg
-    title: @bi11jon
-    alt: Guy in organge hat @bi11jon iPad portrait
+    title: "@bi11jon"
+    alt: "Guy in organge hat @bi11jon iPad portrait"
   - large: paperfaces-eliglazier-twitter-lg.jpg
     thumb: paperfaces-eliglazier-twitter-150.jpg
-    title: @eliglazier
-    alt: Dude in sunglasses on a boat @eliglazier iPad portrait
+    title: "@eliglazier"
+    alt: "Dude in sunglasses on a boat @eliglazier iPad portrait"
   - large: paperfaces-marianeville-84-twitter-lg.jpg
     thumb: paperfaces-marianeville-84-twitter-150.jpg
-    title: @marianeville_84
-    alt: Bokeh and light colors @marianeville_84 iPad portrait
+    title: "@marianeville_84"
+    alt: "Bokeh and light colors @marianeville_84 iPad portrait"
   - large: paperfaces-joshuaskaroff-twitter-lg.jpg
     thumb: paperfaces-joshuaskaroff-twitter-150.jpg
-    title: @joshuaskaroff
-    alt: Stretched ears in front a red brick wall @joshuaskaroff iPad portrait
+    title: "@joshuaskaroff"
+    alt: "Stretched ears in front a red brick wall @joshuaskaroff iPad portrait"
   - large: paperfaces-arbitral-twitter-lg.jpg
     thumb: paperfaces-arbitral-twitter-150.jpg
-    title: @arbitral
-    alt: Black and white closeup of an eye @arbitral iPad portrait
+    title: "@arbitral"
+    alt: "Black and white closeup of an eye @arbitral iPad portrait"
   - large: paperfaces-flexbrowne-twitter-lg.jpg
     thumb: paperfaces-flexbrowne-twitter-150.jpg
-    title: @flexbrowne
-    alt: Smiling in a dark room @flexbrowne iPad portrait
+    title: "@flexbrowne"
+    alt: "Smiling in a dark room @flexbrowne iPad portrait"
   - large: paperfaces-guylschmidt-twitter-lg.jpg
     thumb: paperfaces-guylschmidt-twitter-150.jpg
-    title: @guylschmidt
-    alt: Bearded fella in a car @guylschmidt iPad portrait
+    title: "@guylschmidt"
+    alt: "Bearded fella in a car @guylschmidt iPad portrait"
   - large: paperfaces-kessler-twitter-lg.jpg
     thumb: paperfaces-kessler-twitter-150.jpg
-    title: @kessler
-    alt: Happy beard in plaid shirt @kessler iPad portrait
+    title: "@kessler"
+    alt: "Happy beard in plaid shirt @kessler iPad portrait"
   - large: paperfaces-4lala-twitter-lg.jpg
     thumb: paperfaces-4lala-twitter-150.jpg
-    title: @4lala
-    alt: Purple lollipop and sunglasses gal @4lala iPad portrait
+    title: "@4lala"
+    alt: "Purple lollipop and sunglasses gal @4lala iPad portrait"
   - large: paperfaces-dhm-twitter-lg.jpg
     thumb: paperfaces-dhm-twitter-150.jpg
-    title: @dhm
-    alt: Beards and pink hat @dhm iPad portrait
+    title: "@dhm"
+    alt: "Beards and pink hat @dhm iPad portrait"
   - large: paperfaces-bengiroux-twitter-lg.jpg
     thumb: paperfaces-bengiroux-twitter-150.jpg
-    title: @BenGiroux
-    alt: Blue backgrounded dude @BenGiroux iPad portrait
+    title: "@BenGiroux"
+    alt: "Blue backgrounded dude @BenGiroux iPad portrait"
   - large: paperfaces-marissa-twitter-lg.jpg
     thumb: paperfaces-marissa-twitter-150.jpg
-    title: @marissa
-    alt: Darked haired girl @marissa iPad portrait    
+    title: "@marissa"
+    alt: "Darked haired girl @marissa iPad portrait    "
   - large: paperfaces-bulletproofjenn-twitter-lg.jpg
     thumb: paperfaces-bulletproofjenn-twitter-150.jpg
-    title: @BulletProofJenn
-    alt: Striped swimsuit girl on the beach @BulletProofJenn iPad portrait   
+    title: "@BulletProofJenn"
+    alt: "Striped swimsuit girl on the beach @BulletProofJenn iPad portrait   "
   - large: paperfaces-danimal-twitter-lg.jpg
     thumb: paperfaces-danimal-twitter-150.jpg
-    title: @danimal
-    alt: Goatee @danimal iPad portrait 
+    title: "@danimal"
+    alt: "Goatee @danimal iPad portrait "
   - large: paperfaces-cynthia-twitter-lg.jpg
     thumb: paperfaces-cynthia-twitter-150.jpg
-    title: @cynthia
-    alt: Girl in sunglasses in front of some toxic looking water @cynthia iPad portrait 
+    title: "@cynthia"
+    alt: "Girl in sunglasses in front of some toxic looking water @cynthia iPad portrait "
   - large: paperfaces-ochaukin-lg.jpg
     thumb: paperfaces-ochaukin-150.jpg
-    title: O. Chaukin
-    alt: In scuba gear O. Chaukin iPad portrait 
+    title: "O. Chaukin"
+    alt: "In scuba gear O. Chaukin iPad portrait "
   - large: paperfaces-timespace-twitter-lg.jpg
     thumb: paperfaces-timespace-twitter-150.jpg
-    title: @timespace
-    alt: Hoodie wearing beaded dude with dark glasses @timespace iPad portrait 
+    title: "@timespace"
+    alt: "Hoodie wearing beaded dude with dark glasses @timespace iPad portrait "
   - large: paperfaces-therealamylou-twitter-lg.jpg
     thumb: paperfaces-therealamylou-twitter-150.jpg
-    title: @therealamylou
-    alt: Mother and baby @therealamylou iPad portrait     
+    title: "@therealamylou"
+    alt: "Mother and baby @therealamylou iPad portrait     "
   - large: paperfaces-hotdogwithsauce-twitter-lg.jpg
     thumb: paperfaces-hotdogwithsauce-twitter-150.jpg
-    title: @HotdogWithSauce
-    alt: Girl in light blue hoodie with her dog @HotdogWithSauce iPad portrait     
+    title: "@HotdogWithSauce"
+    alt: "Girl in light blue hoodie with her dog @HotdogWithSauce iPad portrait     "
   - large: paperfaces-jossvalo-twitter-lg.jpg
     thumb: paperfaces-jossvalo-twitter-150.jpg
-    title: @jossvalo
-    alt: Dramatic lighting and white hoodie @jossvalo iPad portrait     
+    title: "@jossvalo"
+    alt: "Dramatic lighting and white hoodie @jossvalo iPad portrait     "
   - large: paperfaces-karahesse-twitter-lg.jpg
     thumb: paperfaces-karahesse-twitter-150.jpg
-    title: @karahesse
-    alt: Smiling girl with a hat @karahesse iPad portrait 
+    title: "@karahesse"
+    alt: "Smiling girl with a hat @karahesse iPad portrait "
   - large: paperfaces-mike-ftw-twitter-lg.jpg
     thumb: paperfaces-mike-ftw-twitter-150.jpg
-    title: @mike_FTW
-    alt: Blue pig faced mask @mike_FTW iPad portrait 
+    title: "@mike_FTW"
+    alt: "Blue pig faced mask @mike_FTW iPad portrait "
   - large: paperfaces-clamteeth-twitter-lg.jpg
     thumb: paperfaces-clamteeth-twitter-150.jpg
-    title: @clamteeth
-    alt: Guy wearing a Cookie Monster shirt @clamteeth iPad portrait 
+    title: "@clamteeth"
+    alt: "Guy wearing a Cookie Monster shirt @clamteeth iPad portrait "
   - large: paperfaces-mjchamplin-twitter-lg.jpg
     thumb: paperfaces-mjchamplin-twitter-150.jpg
-    title: @mjchamplin
-    alt: Guy holding a camera with some spooky lighting @mjchamplin iPad portrait 
+    title: "@mjchamplin"
+    alt: "Guy holding a camera with some spooky lighting @mjchamplin iPad portrait "
   - large: paperfaces-eggsteff-twitter-lg.jpg
     thumb: paperfaces-eggsteff-twitter-150.jpg
-    title: @EggSteff
-    alt: Girl with big sunglasses on the beach @EggSteff iPad portrait 
+    title: "@EggSteff"
+    alt: "Girl with big sunglasses on the beach @EggSteff iPad portrait "
   - large: paperfaces-zinfiend-twitter-lg.jpg
     thumb: paperfaces-zinfiend-twitter-150.jpg
-    title: @zinfiend
-    alt: Wine and cheese @zinfiend iPad portrait 
+    title: "@zinfiend"
+    alt: "Wine and cheese @zinfiend iPad portrait "
   - large: paperfaces-jakesutton-twitter-lg.jpg
     thumb: paperfaces-jakesutton-twitter-150.jpg
-    title: @jakesutton
-    alt: White car and sunglasses @jakesutton iPad portrait 
+    title: "@jakesutton"
+    alt: "White car and sunglasses @jakesutton iPad portrait "
   - large: paperfaces-CatDrawingGuy-twitter-lg.jpg
     thumb: paperfaces-CatDrawingGuy-twitter-150.jpg
-    title: @CatDrawingGuy
-    alt: Black hoodie and gray backgrop @CatDrawingGuy iPad portrait 
+    title: "@CatDrawingGuy"
+    alt: "Black hoodie and gray backgrop @CatDrawingGuy iPad portrait "
   - large: paperfaces-TonjaC-twitter-lg.jpg
     thumb: paperfaces-TonjaC-twitter-150.jpg
-    title: @TonjaC
-    alt: Long blonde haired girl in front a brick wall @TonjaC iPad portrait 
+    title: "@TonjaC"
+    alt: "Long blonde haired girl in front a brick wall @TonjaC iPad portrait "
   - large: paperfaces-kristysf-twitter-lg.jpg
     thumb: paperfaces-kristysf-twitter-150.jpg
-    title: @kristysf
-    alt: Girl with fiery blonde hair curling about @kristysf iPad portrait     
+    title: "@kristysf"
+    alt: "Girl with fiery blonde hair curling about @kristysf iPad portrait     "
   - large: paperfaces-uwenna-twitter-lg.jpg
     thumb: paperfaces-uwenna-twitter-150.jpg
-    title: @uwenna
-    alt: Dark haired girl with glasses @uwenna iPad portrait     
+    title: "@uwenna"
+    alt: "Dark haired girl with glasses @uwenna iPad portrait     "
   - large: paperfaces-markgurman-twitter-lg.jpg
     thumb: paperfaces-markgurman-twitter-150.jpg
-    title: @markgurman
-    alt: Dude wearing a backpack @markgurman iPad portrait 
+    title: "@markgurman"
+    alt: "Dude wearing a backpack @markgurman iPad portrait "
   - large: paperfaces-bradleyjp-twitter-lg.jpg
     thumb: paperfaces-bradleyjp-twitter-150.jpg
-    title: @bradleyjp
-    alt: Beard and black vneck shirt @bradleyjp iPad portrait 
+    title: "@bradleyjp"
+    alt: "Beard and black vneck shirt @bradleyjp iPad portrait "
   - large: paperfaces-natalyokay-twitter-lg.jpg
     thumb: paperfaces-natalyokay-twitter-150.jpg
-    title: @natalyokay
-    alt: Girl balancing on a log in the forest @natalyokay iPad portrait 
+    title: "@natalyokay"
+    alt: "Girl balancing on a log in the forest @natalyokay iPad portrait "
   - large: paperfaces-tedwinder-twitter-lg.jpg
     thumb: paperfaces-tedwinder-twitter-150.jpg
-    title: @tedwinder
-    alt: Dude in glasses and blue sitting in front of some photographs @tedwinder iPad portrait 
+    title: "@tedwinder"
+    alt: "Dude in glasses and blue sitting in front of some photographs @tedwinder iPad portrait "
   - large: paperfaces-kevinwoodland-twitter-lg.jpg
     thumb: paperfaces-kevinwoodland-twitter-150.jpg
-    title: @kevinwoodland
-    alt: Dramatic angle of dude in plaid and glasses @kevinwoodland iPad portrait 
+    title: "@kevinwoodland"
+    alt: "Dramatic angle of dude in plaid and glasses @kevinwoodland iPad portrait "
   - large: paperfaces-khollybell-twitter-lg.jpg
     thumb: paperfaces-khollybell-twitter-150.jpg
-    title: @khollybell
-    alt: Girl hiding behind a decorative fan @khollybell iPad portrait 
+    title: "@khollybell"
+    alt: "Girl hiding behind a decorative fan @khollybell iPad portrait "
   - large: paperfaces-frivmo-twitter-lg.jpg
     thumb: paperfaces-frivmo-twitter-150.jpg
-    title: @frivmo
-    alt: Black and white dude in long overcoat @frivmo iPad portrait 
+    title: "@frivmo"
+    alt: "Black and white dude in long overcoat @frivmo iPad portrait "
   - large: paperfaces-robinbailey-2-twitter-lg.jpg
     thumb: paperfaces-robinbailey-2-twitter-150.jpg
-    title: @RobinBailey
-    alt: Guy posing in front of a skyline and water @RobinBailey iPad portrait 
+    title: "@RobinBailey"
+    alt: "Guy posing in front of a skyline and water @RobinBailey iPad portrait "
   - large: paperfaces-ashleymnunn-twitter-lg.jpg
     thumb: paperfaces-ashleymnunn-twitter-150.jpg
-    title: @ashleymnunn
-    alt: Girl in blonde smiling @ashleymnunn iPad portrait 
+    title: "@ashleymnunn"
+    alt: "Girl in blonde smiling @ashleymnunn iPad portrait "
   - large: paperfaces-allegedlymark-twitter-lg.jpg
     thumb: paperfaces-allegedlymark-twitter-150.jpg
-    title: @allegedlymark
-    alt: Cropped face @allegedlymark iPad portrait 
+    title: "@allegedlymark"
+    alt: "Cropped face @allegedlymark iPad portrait "
   - large: paperfaces-paulmwatson-twitter-lg.jpg
     thumb: paperfaces-paulmwatson-twitter-150.jpg
-    title: @paulmwatson
-    alt: Dude in white tshirt and glasses at the table @paulmwatson iPad portrait 
+    title: "@paulmwatson"
+    alt: "Dude in white tshirt and glasses at the table @paulmwatson iPad portrait "
   - large: paperfaces-mitchellnicola-twitter-lg.jpg
     thumb: paperfaces-mitchellnicola-twitter-150.jpg
-    title: @mitchellnicola
-    alt: Fancy girl in purple dress @mitchellnicola iPad portrait 
+    title: "@mitchellnicola"
+    alt: "Fancy girl in purple dress @mitchellnicola iPad portrait "
   - large: paperfaces-errade-twitter-lg.jpg
     thumb: paperfaces-errade-twitter-150.jpg
-    title: @errade
-    alt: Dude and his dog @errade iPad portrait     
+    title: "@errade"
+    alt: "Dude and his dog @errade iPad portrait     "
   - large: paperfaces-robinbailey-twitter-lg.jpg
     thumb: paperfaces-robinbailey-twitter-150.jpg
-    title: @RobinBailey
-    alt: Black and white with the city in the background @RobinBailey iPad portrait    
+    title: "@RobinBailey"
+    alt: "Black and white with the city in the background @RobinBailey iPad portrait    "
   - large: paperfaces-stephenrevesz-twitter-lg.jpg
     thumb: paperfaces-stephenrevesz-twitter-150.jpg
-    title: @StephenRevesz
-    alt: Sir with FIU banner in the background @StephenRevesz iPad portrait    
+    title: "@StephenRevesz"
+    alt: "Sir with FIU banner in the background @StephenRevesz iPad portrait    "
   - large: paperfaces-thebrady-twitter-lg.jpg
     thumb: paperfaces-thebrady-twitter-150.jpg
-    title: @theBrady
-    alt: Guy in 3D glasses and hoodie playing video games @theBrady iPad portrait 
+    title: "@theBrady"
+    alt: "Guy in 3D glasses and hoodie playing video games @theBrady iPad portrait "
   - large: paperfaces-rattazong-twitter-lg.jpg
     thumb: paperfaces-rattazong-twitter-150.jpg
-    title: @rattazong
-    alt: Black and white sir in dark shirt @rattazong iPad portrait 
+    title: "@rattazong"
+    alt: "Black and white sir in dark shirt @rattazong iPad portrait "
   - large: paperfaces-dev-jac-twitter-lg.jpg
     thumb: paperfaces-dev-jac-twitter-150.jpg
-    title: @dev_jac
-    alt: Guy in pilot headphones @dev_jac iPad portrait 
+    title: "@dev_jac"
+    alt: "Guy in pilot headphones @dev_jac iPad portrait "
   - large: paperfaces-lsinger-twitter-lg.jpg
     thumb: paperfaces-lsinger-twitter-150.jpg
-    title: @lsinger
-    alt: Black and white sir in dark shirt @lsinger iPad portrait 
+    title: "@lsinger"
+    alt: "Black and white sir in dark shirt @lsinger iPad portrait "
   - large: paperfaces-theskull-com-tumblr-lg.jpg
     thumb: paperfaces-theskull-com-tumblr-150.jpg
-    title: @theskull-com on Tumblr
-    alt: Dark hat and flannel coat @theskull-com iPad portrait 
+    title: "@theskull-com on Tumblr"
+    alt: "Dark hat and flannel coat @theskull-com iPad portrait "
   - large: paperfaces-sippey-twitter-lg.jpg
     thumb: paperfaces-sippey-twitter-150.jpg
-    title: @sippey
-    alt: Purple shirted sir @sippey iPad portrait 
+    title: "@sippey"
+    alt: "Purple shirted sir @sippey iPad portrait "
   - large: paperfaces-joaosevilhano-twitter-lg.jpg
     thumb: paperfaces-joaosevilhano-twitter-150.jpg
-    title: @joaosevilhano
-    alt: Low contrast dude at the beach @joaosevilhano iPad portrait 
+    title: "@joaosevilhano"
+    alt: "Low contrast dude at the beach @joaosevilhano iPad portrait "
   - large: paperfaces-kennwhite-twitter-lg.jpg
     thumb: paperfaces-kennwhite-twitter-150.jpg
-    title: @kennwhite
-    alt: Bright and muted colors @kennwhite iPad portrait     
+    title: "@kennwhite"
+    alt: "Bright and muted colors @kennwhite iPad portrait     "
   - large: paperfaces-zainjoyce-twitter-lg.jpg
     thumb: paperfaces-zainjoyce-twitter-150.jpg
-    title: @zainjoyce
-    alt: Black and white dude holding a white iPhone @zainjoyce iPad portrait      
+    title: "@zainjoyce"
+    alt: "Black and white dude holding a white iPhone @zainjoyce iPad portrait      "
   - large: paperfaces-sheng-ching-twitter-lg.jpg
     thumb: paperfaces-sheng-ching-twitter-150.jpg
-    title: @sheng_ching
-    alt: Guy taking a self portrait @sheng_ching iPad portrait 
+    title: "@sheng_ching"
+    alt: "Guy taking a self portrait @sheng_ching iPad portrait "
   - large: paperfaces-rraacchheeaall-instagram-lg.jpg
     thumb: paperfaces-rraacchheeaall-instagram-150.jpg
-    title: @rraacchheeaall on Instagram
-    alt: Girl with long hair and geometric patterens in the background @rraacchheeaall iPad portrait   
+    title: "@rraacchheeaall on Instagram"
+    alt: "Girl with long hair and geometric patterens in the background @rraacchheeaall iPad portrait   "
   - large: paperfaces-ryandwillis-twitter-lg.jpg
     thumb: paperfaces-ryandwillis-twitter-150.jpg
-    title: @ryandwillis
-    alt: Girl and guy dressed up in the car @ryandwillis iPad portrait   
+    title: "@ryandwillis"
+    alt: "Girl and guy dressed up in the car @ryandwillis iPad portrait   "
   - large: paperfaces-pop-ultra-twitter-lg.jpg
     thumb: paperfaces-pop-ultra-twitter-150.jpg
-    title: @Pop_Ultra
-    alt: Lens flared friend in front of some window blinds @Pop_Ultra iPad portrait   
+    title: "@Pop_Ultra"
+    alt: "Lens flared friend in front of some window blinds @Pop_Ultra iPad portrait   "
   - large: paperfaces-ssgetchel-instagram-lg.jpg
     thumb: paperfaces-ssgetchel-instagram-150.jpg
-    title: @ssgetchel on Instagram
-    alt: Girl in sunglasses at the beach @ssgetchel iPad portrait   
+    title: "@ssgetchel on Instagram"
+    alt: "Girl in sunglasses at the beach @ssgetchel iPad portrait   "
   - large: paperfaces-ohhoe-twitter-lg.jpg
     thumb: paperfaces-ohhoe-twitter-150.jpg
-    title: @ohhoe
-    alt: Long haired girl and forearm tattoos @ohhoe iPad portrait  
+    title: "@ohhoe"
+    alt: "Long haired girl and forearm tattoos @ohhoe iPad portrait  "
   - large: paperfaces-anniejz-twitter-lg.jpg
     thumb: paperfaces-anniejz-twitter-150.jpg
-    title: @anniejz
-    alt: Mona Lisa caricature @anniejz iPad portrait 
+    title: "@anniejz"
+    alt: "Mona Lisa caricature @anniejz iPad portrait "
   - large: paperfaces-ashtonjames-twitter-lg.jpg
     thumb: paperfaces-ashtonjames-twitter-150.jpg
-    title: @AshtonJames
-    alt: Short dark haired fella @AshtonJames iPad portrait 
+    title: "@AshtonJames"
+    alt: "Short dark haired fella @AshtonJames iPad portrait "
   - large: paperfaces-endonend-twitter-lg.jpg
     thumb: paperfaces-endonend-twitter-150.jpg
-    title: @endonend
-    alt: Friend in sepia tones @endonend iPad portrait 
+    title: "@endonend"
+    alt: "Friend in sepia tones @endonend iPad portrait "
   - large: paperfaces-endonend-instagram-lg.jpg
     thumb: paperfaces-endonend-instagram-150.jpg
-    title: @endonend on Instagram
-    alt: Red backdrop and beards @endonend iPad portrait 
+    title: "@endonend on Instagram"
+    alt: "Red backdrop and beards @endonend iPad portrait "
   - large: paperfaces-cellobiafra-twitter-lg.jpg
     thumb: paperfaces-cellobiafra-twitter-150.jpg
-    title: @CelloBiafra
-    alt: Girl lifting her white dress @CelloBiafra iPad portrait 
+    title: "@CelloBiafra"
+    alt: "Girl lifting her white dress @CelloBiafra iPad portrait "
   - large: paperfaces-arialem-instagram-lg.jpg
     thumb: paperfaces-arialem-instagram-150.jpg
-    title: @arialem on Instagram
-    alt: Red haired girl smiling @arialem iPad portrait 
+    title: "@arialem on Instagram"
+    alt: "Red haired girl smiling @arialem iPad portrait "
   - large: paperfaces-mmistakes-twitter-lg.jpg
     thumb: paperfaces-mmistakes-twitter-150.jpg
-    title: @mmistakes
-    alt: Double exposured dude with scruffy beard and hat @mmistakes iPad portrait 
+    title: "@mmistakes"
+    alt: "Double exposured dude with scruffy beard and hat @mmistakes iPad portrait "
   - large: paperfaces-veganwendy-twitter-lg.jpg
     thumb: paperfaces-veganwendy-twitter-150.jpg
-    title: @veganwendy
-    alt: Girl covering her face with tattooed arm and bird dress @veganwendy iPad portrait 
+    title: "@veganwendy"
+    alt: "Girl covering her face with tattooed arm and bird dress @veganwendy iPad portrait "
 ---
 <section id="table-of-contents" class="toc">
   <header>
@@ -1413,7 +1413,7 @@ Donating guarantees that I'll draw your portrait, and moves you up to the top of
   <input type="hidden" name="currency_code" value="USD">
   <input type="image" src="http://mademistakes.com/images/donate-paypal-btn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="background:transparent;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  <p class="help-block"><small>Please note. This is for a digital version of the drawing only. You will <strong>not</strong> receive a print snail mailed to you. Although the 2048&times;1536 .jpg sent should look nice as an 8&times;10 (or A4 for my European friends) if you decide to print it yourself&hellip;</small></p>
+  <p class="help-block"><small>Please note. This is for a digital version of the drawing only. You will <strong>not</strong> receive a print snail mailed to you. Although the 2048&times;1536 .jpg sent should look nice as an 8&times;10 (or A4 for my European friends) if you decide to print it yourself&#8230;</small></p>
 </form>
 
 ### What is PaperFaces?

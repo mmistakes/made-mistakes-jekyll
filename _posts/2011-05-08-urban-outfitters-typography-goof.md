@@ -50,5 +50,5 @@ I've tired trying to discover any sort of detail on the clothing and product sol
 
 <figure>
 	<img src="{{ site.url }}/images/UO-MAY11-unreadable-mess.jpg" alt="Urban Outfitters May 2011 unreadable mess" />
-	<figcaption>Looks like someone's RETURN key is busted. Unless it was intentionally set to generate headaches&hellip;</figcaption>
+	<figcaption>Looks like someone's RETURN key is busted. Unless it was intentionally set to generate headaches&#8230;</figcaption>
 </figure>
