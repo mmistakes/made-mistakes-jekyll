@@ -4,9 +4,7 @@ Source Code of Made Mistakes at [mademistakes.com](http://mademistakes.com)
 This is the source code of Made Mistakes, a personal blog and portfolio on http://mademistakes.com, hosted by 
 [Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c).
 
-## Setup
-
-### Jekyll
+## Install Jekyll
 
 The following terminal command will install Jekyll and any required RubyGems if you have [Bundler](http://gembundler.com/) installed.
 
@@ -20,11 +18,11 @@ Or you can just install [Jekyll](http://jekyllrb.com/) via [RubyGems](http://rub
 $ gem install jekyll
 
 ```
-### Jekyll Plugins
+## Jekyll Plugins
 
 The only plugin that needs installing is the [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle) RubyGem.The other plugins are already installed in the `_plugins` folder and should be set to go. 
 
-#### [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle)
+### [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle)
 
 This plugin requires Ruby 1.9.3 so if you don't want to use it just remove the `{% ministamp %}` Liquid tags in `head.html` and `scripts.html`.
 
@@ -33,19 +31,19 @@ To install Jekyll-minibundle use the following terminal command:
 $ gem install jekyll-minibundle
 ```
 
-#### [related_posts](https://github.com/LawrenceWoodman/related_posts-jekyll_plugin)
+### [related_posts](https://github.com/LawrenceWoodman/related_posts-jekyll_plugin)
 
 Overrides the built in related_posts function to calculate related posts based on a posts’ tags. Used in `article.html` layout.
 
-#### [Sitemap.xml Generator](http://www.kinnetica.com/projects/jekyll-sitemap-generator/)
+### [Sitemap.xml Generator](http://www.kinnetica.com/projects/jekyll-sitemap-generator/)
 
 Generates a `sitemap.xml` file by traversing all of the available posts and pages.
 
-#### svg_mime_type
+### svg_mime_type
 
 Serves SVG files with the correct MIME type when running `$ jekyll --server`.
 
-### Useful Commands
+## Useful Commands
 
 Run Jekyll:
 ``` bash
@@ -61,7 +59,7 @@ Minify all .html files in `_site` folder using HTML-compressor:
 $ rake minify
 ```
 
-### Deployment
+## Deployment
 
 Nothing fancy here.
 
