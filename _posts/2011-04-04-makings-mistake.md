@@ -37,7 +37,7 @@ But you know what? I'm alright with that. I've always been alright with that. Th
 
 <figure>
     <img src="{{ site.url }}/images/faded-leaf-design-2001.jpg" alt="Faded Leaf Design Splash Screen" />
-    <figcaption>November 2001 &ndash; Splash screen for Faded Leaf design website that launched a popup window containing Flash documents. Looking back at this now I can't help but see a huge usability nightmare for visitors.</figcaption>
+    <figcaption>November 2001 &#8212; Splash screen for Faded Leaf design website that launched a popup window containing Flash documents. Looking back at this now I can't help but see a huge usability nightmare for visitors.</figcaption>
 </figure>
 
 ## Is it a Portfolio or is it a Blog?
@@ -61,6 +61,6 @@ Now I want to see what I can do to enrich my eye and skills as a designer. I've 
 </figure>
 
 <figure>
-    <a href="{{ site.url }}/images/made-mistakes-sketch.jpg"><img src="{{ site.url }}/images/made-mistakes-sketch.jpg" alt="Made Mistakes Website Sketch"  /></a>
+    <a href="{{ site.url }}/images/made-mistakes-sketch.jpg"><img src="{{ site.url }}/images/made-mistakes-sketch.jpg" alt="Made Mistakes Website Sketch" /></a>
     <figcaption>Redesign sketch that never happened.</figcaption>
 </figure>

@@ -51,9 +51,9 @@ Something I've been trying to do more of with my print grids, is adhering to a s
 
 ## Getting Obvious with Fine Details
 
-I often have a problem with adding to much complexity to a design as a way to give it depth. It's refreshing to see such a modern and minimal approach in this piece. A minor detail I'm willing to bet non-designers never noticed was the thought put into border shapes and frames. In each of the *health problems'* icons, the bottom corner is formed at a perfect 90&deg; angle instead of rounded. This contrast in shape creates an arrow that helps direct you down to the next line of text.
+I often have a problem with adding to much complexity to a design as a way to give it depth. It's refreshing to see such a modern and minimal approach in this piece. A minor detail I'm willing to bet non-designers never noticed was the thought put into border shapes and frames. In each of the *health problems'* icons, the bottom corner is formed at a perfect 90 degree angle instead of rounded. This contrast in shape creates an arrow that helps direct you down to the next line of text.
 
-If I've learned anything as a designer, it's to make more insightful moves with my grid and other invisible elements. Hopeful this will let the content of each design do the communicating and draw attention. That's really the point of all this—isn't it?
+If I've learned anything as a designer, it's to make more insightful moves with my grid and other invisible elements. Hopeful this will let the content of each design do the communicating and draw attention. That's really the point of all this --- isn't it?
 
 <figure>
     <a href="{{ site.url }}/images/owh-grid-cover-800x452.jpg" title="Calendar cover"><img src="{{ site.url }}/images/owh-grid-cover-300.jpg" alt="Office on Women's Health 2011 calendar cover" /></a>

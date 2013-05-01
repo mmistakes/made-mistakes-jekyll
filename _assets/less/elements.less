@@ -1,0 +1,52 @@
+hr { 
+    display: block; 
+    margin: 1em 0; 
+    padding: 0;
+    height: 1px; 
+    border: 0; 
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff; 
+}
+/* Figures and images ==================================== */
+article img {
+  max-width: 100%;
+  height: auto;
+  border-width: 0; 
+  vertical-align: middle; 
+  -ms-interpolation-mode: bicubic; 
+}
+svg:not(:root) {
+    overflow: hidden; 
+}
+/* Buttons =============================================== */
+.btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 6px 11px 6px;
+  margin-bottom: 0;
+  font-family: @baseheadingfont;
+  .font-size(12);
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #e6e6e6;
+  .vertical(@white, #d9d9d9);
+  border: 1px solid #ccc;
+  border-bottom-color: #b3b3b3;
+  .rounded(4px);
+  cursor: pointer;
+  *margin-left: .3em; 
+  &:visited,
+  &:hover {
+    text-decoration: none; 
+  }
+}
+input[type="submit"].btn:hover {
+  border-color: #b3b3b3; 
+}
+.btn:first-child {
+  *margin-left: 0; 
+}

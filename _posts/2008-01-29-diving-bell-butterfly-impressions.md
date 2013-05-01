@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Seeing Through Blurred Eyes &ndash; The Diving Bell and The Butterfly"
+title: "Seeing Through Blurred Eyes &#8212; The Diving Bell and The Butterfly"
 headline: "Seeing Through Blurred Eyes"
 subheadline: "The Diving Bell and The Butterfly"
 description: "Quick impressions of the film, The Diving Bell and The Butterfly."

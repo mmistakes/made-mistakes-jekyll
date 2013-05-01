@@ -1,0 +1,48 @@
+// ROOT =======================================================
+html {
+	font-size: 95%;
+}
+// TYPOGRAPHY =================================================
+// TEXTURE ====================================================
+// ELEMENTS ===================================================
+// LAYOUT =====================================================
+.image-wrap .headline-wrap {
+	.prefix(12,3);
+}
+#branding {
+	.prefix(12,0.5);
+}
+#main article,
+#index {
+	.grid(12,6);
+	.prefix(12,0);
+	.suffix(12,0);
+}
+.related-articles,
+.footer-wrap footer {
+	.grid(12,6);
+	.prefix(12,3);
+	.suffix(12,3);
+}
+.article-author-top,
+.toc {
+	display: block;
+	.grid(12,2);
+	.prefix(12,0.5);
+	.suffix(12,0.5);
+}
+.article-author-bottom {
+	display: none;
+}
+.toc {
+	position: fixed;
+	top: 25px;
+	right: 0;
+	.box-shadow(0 0 5px rgba(0,0,0,.50));
+}
+.image-grid {
+	li {
+		width: 25%;
+	}
+}
+// VENDOR-SPECIFIC ============================================

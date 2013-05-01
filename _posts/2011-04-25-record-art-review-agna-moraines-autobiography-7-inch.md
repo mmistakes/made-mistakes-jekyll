@@ -2,7 +2,7 @@
 layout: article
 title: "Agna Moraine's Autobiography Handwritten Record Art"
 headline: "Handwritten Record Art"
-subheadline: "Agna Moraine's Autobiography &mdash; Self-Titled"
+subheadline: "Agna Moraine's Autobiography &#8212; Self-Titled"
 description: "I couldn't begin to tell you what the artwork in this emo record means. But silk screening lyrics on fabric scrapes is kind of cool."
 category: articles
 date: 2011-04-25
