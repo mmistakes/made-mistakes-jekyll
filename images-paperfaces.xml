@@ -1,6 +1,26 @@
 ---
 layout: nil
 pictures:
+  - large: paperfaces-taylorotwell-twitter-lg.jpg
+    thumb: paperfaces-taylorotwell-twitter-150.jpg
+    title: "@taylorotwell"
+    alt: "Guy speaking at a conference @taylorotwell iPad portrait"
+  - large: paperfaces-natraybould-twitter-lg.jpg
+    thumb: paperfaces-natraybould-twitter-150.jpg
+    title: "@NatRaybould"
+    alt: "Girl in glasses with lasers coming out of her eyes @NatRaybould iPad portrait"
+  - large: paperfaces-cyrisxd-twitter-lg.jpg
+    thumb: paperfaces-cyrisxd-twitter-150.jpg
+    title: "@CyrisXD"
+    alt: "Guy wearing a blazer and tshirt @CyrisXD iPad portrait"
+  - large: paperfaces-focusaurus-twitter-lg.jpg
+    thumb: paperfaces-focusaurus-twitter-150.jpg
+    title: "@focusaurus"
+    alt: "Dude with a large pink mohawk @focusaurus iPad portrait"
+  - large: paperfaces-cthrin-twitter-lg.jpg
+    thumb: paperfaces-cthrin-twitter-150.jpg
+    title: "@cthrin"
+    alt: "Long haired girl outside in nature @cthrin iPad portrait"
   - large: paperfaces-missloulouxx-twitter-lg.jpg
     thumb: paperfaces-missloulouxx-twitter-150.jpg
     title: "@MissLoulouxx"

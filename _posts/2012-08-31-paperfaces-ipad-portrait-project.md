@@ -4,7 +4,7 @@ title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by FiftyThree."
-modified: 2013-04-16
+modified: 2013-05-01
 image: paperfaces-featured-image
 thumb: paperfaces-project-thumb.jpg
 screenshot: paperfaces-project-screenshot.jpg
@@ -21,6 +21,26 @@ tags:
 - Michael Rose
 - graphic design
 pictures:
+  - large: paperfaces-taylorotwell-twitter-lg.jpg
+    thumb: paperfaces-taylorotwell-twitter-150.jpg
+    title: "@taylorotwell"
+    alt: "Guy speaking at a conference @taylorotwell iPad portrait"
+  - large: paperfaces-natraybould-twitter-lg.jpg
+    thumb: paperfaces-natraybould-twitter-150.jpg
+    title: "@NatRaybould"
+    alt: "Girl in glasses with lasers coming out of her eyes @NatRaybould iPad portrait"
+  - large: paperfaces-cyrisxd-twitter-lg.jpg
+    thumb: paperfaces-cyrisxd-twitter-150.jpg
+    title: "@CyrisXD"
+    alt: "Guy wearing a blazer and tshirt @CyrisXD iPad portrait"
+  - large: paperfaces-focusaurus-twitter-lg.jpg
+    thumb: paperfaces-focusaurus-twitter-150.jpg
+    title: "@focusaurus"
+    alt: "Dude with a large pink mohawk @focusaurus iPad portrait"
+  - large: paperfaces-cthrin-twitter-lg.jpg
+    thumb: paperfaces-cthrin-twitter-150.jpg
+    title: "@cthrin"
+    alt: "Long haired girl outside in nature @cthrin iPad portrait"
   - large: paperfaces-missloulouxx-twitter-lg.jpg
     thumb: paperfaces-missloulouxx-twitter-150.jpg
     title: "@MissLoulouxx"
