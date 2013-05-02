@@ -24,29 +24,36 @@ svg:not(:root) {
   *display: inline;
   /* IE7 inline-block hack */
   *zoom: 1;
-  padding: 6px 11px 6px;
+  padding: 12px;
   margin-bottom: 2em;
-  font-family: @baseheadingfont;
-  .font-size(12);
-  font-weight: 700;
   line-height: 1;
   text-align: center;
+  text-transform: uppercase;
   vertical-align: middle;
-  background-color: #e6e6e6;
-  .vertical(@white, #d9d9d9);
-  border: 1px solid #ccc;
-  border-bottom-color: #b3b3b3;
-  .rounded(4px);
+  border: 4px double @textcolor;
   cursor: pointer;
-  *margin-left: .3em; 
-  &:visited,
-  &:hover {
-    text-decoration: none; 
+  *margin-left: .3em;
+  .transition(.4s linear); 
+  &:visited {
+    border-color: @linkcolorvisited;
   }
-}
-input[type="submit"].btn:hover {
-  border-color: #b3b3b3; 
+  &:hover {
+    border-color: @linkcolorhover;
+  }
 }
 .btn:first-child {
   *margin-left: 0; 
+}
+.btn-inverse {
+  border: 4px double @white;
+  color: @white;
+  background-color: @black;
+  &:visited {
+    color: @white;
+    border-color: @white;
+  }
+  &:hover {
+    color: @white;
+    border-color: @white;
+  }
 }
