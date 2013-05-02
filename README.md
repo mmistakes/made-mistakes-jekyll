@@ -52,6 +52,7 @@ $ jekyll
 Start a Jekyll server at <http://localhost:4000/>, (make sure to enable this url in `_config.yml` so all assets and images have correct absolute url's via the `{{ site.url }}` Liquid tag:
 ``` bash
 $ jekyll --server
+```
 
 Minify all .html files in `_site` folder using HTML-compressor:
 ``` bash
