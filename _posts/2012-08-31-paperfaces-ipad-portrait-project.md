@@ -1448,7 +1448,7 @@ Due to the positive comments that I received, I decided to put a call out for mo
 
 A few hours later, while grocery shopping with my wife, my iPhone started blowing up with retweet and @reply notifications. By the end of the day I had amassed around 300 volunteers and figured that turning it into a formal 365 day project might be fun.
 
-When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I decided to put up a page to better explain the project and a PayPal button on the site for those who really really *really* wanted me to draw their portrait. Curious to know how that process works, <a href="#faq7">click here</a>.
+When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I decided to put up a page to better explain the project and a PayPal button on the site for those who really really *really* wanted me to draw their portrait. [Request a PaperFaces drawing](#draw-me-draw-me) of your portrait now.
 
 ### Why the Blank Faces?
 
@@ -1515,5 +1515,8 @@ Just sharing the love with some links back to articles and galleries that have f
 * [53 Outstanding Works of Art Made with Paper by FiftyThree](http://designshack.net/articles/inspiration/53-outstanding-works-of-art-made-with-paper-by-fiftythree/)
 * [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
+
+**Note:** Since starting PaperFaces I've received a few inquiries on my illustration techniques. You can read the compilation of those responses in a short [How To Draw and Paint with Paper by 53 Guide](http://{{ site.url }}/articles/madewithpaper-drawing-guide.html) I wrote.
+{: .notice}
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
