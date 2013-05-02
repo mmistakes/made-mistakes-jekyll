@@ -36,7 +36,7 @@
 </div>
 
 <div id="index">
-  <h3>The Latest</h3>
+  <h3>The Latest Articles</h3>
   <hr />
   {% for post in site.posts limit:5 %}  
   <article>
@@ -44,6 +44,7 @@
     <p>{{ post.description }}</p>
   </article>
   {% endfor %}
+  <a href="{{ site.url}}/articles.html" class="btn">View all articles</a>
 </div><!-- /#index -->
 
 <div class="footer-wrap">
