@@ -23,9 +23,11 @@ GEM
       yajl-ruby (~> 1.1.0)
     rake (10.0.4)
     syntax (1.0.0)
+    yajl-ruby (1.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
