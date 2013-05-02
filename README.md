@@ -16,7 +16,6 @@ Or you can just install [Jekyll](http://jekyllrb.com/) via [RubyGems](http://rub
 
 ``` bash
 $ gem install jekyll
-
 ```
 ## Jekyll Plugins
 
