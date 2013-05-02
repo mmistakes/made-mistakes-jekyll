@@ -314,9 +314,16 @@ html {
 .chrome-frame {
 	background: #000;
 	text-align: center;
-	p {
-		margin: 0;
-		padding: 10px;
-		text-align: center;
+	margin: 0 0 2em 0;
+	padding: 10px;
+	text-align: center;
+	color: @white;
+	a {
+		color: @white;
+		border-bottom: 1px dotted @white;
+		text-decoration: none;
+		&:hover {
+			border-bottom: 1px solid @white;
+		}
 	}
 }

@@ -308,7 +308,7 @@ html{background:#ffffff url(../images/body-background.jpg);font-family:'PT Serif
 .sponsors a{display:block;opacity:.75;-webkit-transition:opacity 0.2s ease-in-out;-moz-transition:opacity 0.2s ease-in-out;-ms-transition:opacity 0.2s ease-in-out;-o-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out;}.sponsors a.mt em{width:180px;height:15px;background-image:url(../images/mt-logo-wide-white.png);border-bottom:0 solid transparent;}
 .sponsors a:hover{border-bottom:0 solid transparent;opacity:1;}
 .svg .sponsors a.mt em{background-image:url(../images/mt-logo-wide-white.svg);}
-.chrome-frame{background:#000;text-align:center;}.chrome-frame p{margin:0;padding:10px;text-align:center;}
+.chrome-frame{background:#000;margin:0 0 2em 0;padding:10px;text-align:center;color:#ffffff;}.chrome-frame a{color:#ffffff;border-bottom:1px dotted #ffffff;text-decoration:none;}.chrome-frame a:hover{border-bottom:1px solid #ffffff;}
 .fancybox-tmp iframe,.fancybox-tmp object{vertical-align:top;padding:0;margin:0;}
 .fancybox-wrap{position:absolute;top:0;left:0;z-index:8020;}
 .fancybox-skin{position:relative;padding:0;margin:0;background:#ffffff;color:#343434;text-shadow:none;}
