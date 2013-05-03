@@ -56,7 +56,7 @@ $(function() {
 
 // Table of Contents toggle
 $(function() {
-	$(".toc h1").click(function () {
+	$(".toc h3").click(function () {
 		$("#drawer").toggleClass("hidden");
 	});
 });

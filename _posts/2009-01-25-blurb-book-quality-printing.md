@@ -16,7 +16,7 @@ tags:
 ---
 <section id="table-of-contents" class="toc">
   <header>
-    <h1 class="delta">Contents</h1>
+    <h3 class="delta">Contents</h3>
   </header>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents

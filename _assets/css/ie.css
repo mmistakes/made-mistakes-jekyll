@@ -184,7 +184,7 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 .article-author-top a,.article-author-bottom a,.article-author-top a:hover,.article-author-bottom a:hover{border-bottom:0 solid transparent;}
 .article-author-top .bio-photo img,.article-author-bottom .bio-photo img{-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;}
 .toc{display:none;font-size:95%;}.toc header{background:#1a1a1a;}
-.toc h1{margin:0;padding:5px 10px;color:#ffffff;}.toc h1:hover{cursor:pointer;}
+.toc h3{margin:0;padding:5px 10px;color:#ffffff;}.toc h3:hover{cursor:pointer;}
 .toc ul{margin:2px 0 0;padding:0;background:#4d4d4d;line-height:1;}
 .toc li{display:block;margin:0;padding:0;font-family:'PT Sans Narrow',sans-serif;border-bottom:1px solid #808080;}.toc li:last-child{border-bottom:0 solid transparent;}
 .toc li a,.toc li a:hover{color:#ffffff;border-bottom:0 solid transparent;}
