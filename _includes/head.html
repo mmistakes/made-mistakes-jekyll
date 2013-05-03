@@ -14,9 +14,9 @@
 <meta property="og:site_name" content="Made Mistakes">
 <meta property="og:type" content="article">
 <meta property="og:image" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">
-<meta name="google-site-verification" content="geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo">
-<meta name="msvalidate.01" content="D81F4C18A6CB3018F64D7C827D953DFD">
-<meta name="alexaVerifyID" content="Y5DYjZ4VWlrQzBP5kcQJeOKLNas">
+<meta name="google-site-verification" content="{{ site.google_verify }}">
+<meta name="msvalidate.01" content="{{ site.bing_verify }}">
+<meta name="alexaVerifyID" content="{{ site.alexa_verify }}">
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
 <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="Made Mistakes ATOM Feed">
