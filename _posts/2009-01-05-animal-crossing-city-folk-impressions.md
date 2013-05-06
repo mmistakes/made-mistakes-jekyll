@@ -112,6 +112,8 @@ This could have been great, instead you get another under realized implementatio
 
 I get it --- Nintendo wants to keep it family friendly and safe by sticking with this awful friend code business. But why in the world do you force me to check with Copper every time I want to see if a friend is online? Why can't the Wii be online all the time and notify me when a friend is available ala Xbox Live or any other online service? Get with it Nintendo! Guess that's what you get when you duct tape two Gamecubes together...
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/aF78u3LQduw" frameborder="0"> </iframe>
+
 #### Removed Wild World Features?
 
 I haven't come across these yet so I'm not sure if they were removed or what.
