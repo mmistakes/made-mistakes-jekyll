@@ -391,3 +391,40 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+/**
+ * Fade-zoom animation for first dialog
+ */
+
+/* start state */
+.mfp-fade .zoom-anim-dialog {
+  opacity: 0;
+  .transition(all 0.2s ease-in-out); 
+  .scale(0.8);
+}
+
+/* animate in */
+.mfp-fade.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+  .scale(1);
+}
+
+/* animate out */
+.mfp-fade.mfp-removing .zoom-anim-dialog {
+ .scale(0.8); 
+  opacity: 0;
+}
+
+/* Dark overlay, start state */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  .transition(opacity 0.3s ease-out); 
+}
+/* animate in */
+.mfp-fade.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+/* animate out */
+.mfp-fade.mfp-removing.mfp-bg {
+  opacity: 0;
+}
