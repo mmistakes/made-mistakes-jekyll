@@ -4,7 +4,7 @@ title: "Going Static with Jekyll"
 headline: "Going Static with Jekyll"
 subheadline: "Saying Goodbye to Wordpress"
 description: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
-modified: 2013-04-24
+modified: 2013-05-06
 thumb: going-static-thumb.jpg
 image: going-static-header
 category: articles
@@ -115,3 +115,6 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 ### Version Control
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a repository on GitHub. Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck's Synchronize feature every time I want to publish new content.
+
+**Update 05/06/2013:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to Github if you want to see how I use Jekyll. Feel free to fork my repo, use my `_layouts`, `_includes`, design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and site...
+{: .notice}
