@@ -1,25 +1,6 @@
-// @codekit-append "jquery.fancybox.js", "jquery.jPages.js", "jquery.lazyload.js", "jquery.fitvids.js", "picturefill.js", "matchmedia.js";
+// @codekit-append "jquery.jPages.js", "jquery.lazyload.js", "jquery.fitvids.js", "picturefill.js", "matchmedia.js";
 
 /*! Plugin options and other jQuery stuff */
-
-// FancyBox options
-$(function() {
-	$("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox({
-		padding: 0,
-		openEffect: 'elastic',
-		closeEffect: 'elastic',
-		overlay: {
-            css: {
-            	'background': 'rgba(0,0,0,0.5)'
-            }
-        },
-		helpers: {
-			title: {
-				type: 'outside'
-			}
-		}
-	});
-});
 
 // Lazyload
 $(function() {
@@ -59,4 +40,25 @@ $(function() {
 	$(".toc h3").click(function () {
 		$("#drawer").toggleClass("hidden");
 	});
+});
+
+// Magnific-Popup options
+$(document).ready(function() {
+  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: function(item) {
+        return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+      }
+    }
+  });
 });
