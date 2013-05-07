@@ -96,7 +96,7 @@ ol li{list-style-type:upper-roman;}
 p>a,li>a,em>a,a>em,footer a{text-decoration:none;border-bottom:1px dotted #b3b3b1;}
 p>a:hover,li>a:hover,em>a:hover,footer a:hover{text-decoration:none;border-bottom:1px solid #b3b3b1;}
 figcaption{margin-top:0.75em;line-height:1.25;font-size:18px;font-size:1rem;margin-bottom:1.65rem;font-family:'PT Sans Narrow',sans-serif;counter-increment:captions;}figcaption:before{font-weight:700;text-transform:uppercase;content:"Figure " counter(captions) ": ";}
-.notice{text-indent:0;margin-top:1.5em;padding:.5em 1em;background-color:#ddd;border-left:10px solid #ccc;}
+.notice{margin-top:1.5em;padding:.5em 1em;text-indent:0;font-size:90%;background-color:#ddd;border-left:10px solid #ccc;}
 blockquote{font-style:italic;margin-left:0;padding-left:1em;border-left:10px solid #ccc;}blockquote p+p{text-indent:0;margin-top:0;}
 @font-face{font-family:'icomoon';src:url('../fonts/icomoon.eot');src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),url('../fonts/icomoon.woff') format('woff'),url('../fonts/icomoon.ttf') format('truetype'),url('../fonts/icomoon.svg#icomoon') format('svg');font-weight:normal;font-style:normal;}[data-icon]:before{font-family:'icomoon';content:attr(data-icon);speak:none;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;}
 .icon-twitter,.icon-feed,.icon-instagram,.icon-facebook,.icon-google-plus,.icon-github{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;}
