@@ -258,6 +258,7 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 #branding a{color:#ffffff;border-bottom:0 solid transparent;}#branding a:hover{border-bottom:0 solid transparent;}
 #main{counter-reset:captions;}
 .image-wrap{position:relative;overflow:hidden;max-height:500px;margin-bottom:2em;}.image-wrap img{width:100%;height:auto;-ms-interpolation-mode:bicubic;}
+.image .image-wrap{max-height:100%;}
 .articles .image-wrap{max-height:250px;}
 #main,.footer-wrap{margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;}#main:before,.footer-wrap:before,#main:after,.footer-wrap:after{display:table;content:"";}
 #main:after,.footer-wrap:after{clear:both;}
