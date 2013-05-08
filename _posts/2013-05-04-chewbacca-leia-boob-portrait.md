@@ -16,6 +16,6 @@ tags:
 - iPad art
 ---
 
-May the 4th be with you!
+Just for giggles. Because hey, Chewbacca is a perv. *May the 4th be with you!*
 
 {% include paperfaces-boilerplate.html %}

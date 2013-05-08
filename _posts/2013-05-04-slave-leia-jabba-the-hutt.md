@@ -16,6 +16,6 @@ tags:
 - iPad art
 ---
 
-May the 4th be with you!
+"Yang chas Solo chone Wookiee!" *May the 4th be with you!*
 
 {% include paperfaces-boilerplate.html %}
