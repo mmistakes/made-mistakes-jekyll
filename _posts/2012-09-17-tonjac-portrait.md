@@ -2,8 +2,8 @@
 layout: paperfaces
 title: "PaperFaces portrait of @TonjaC"
 description: "PaperFaces portrait of @TonjaC drawn with Paper by 53 on an iPad."
-image: paperfaces-tonjac-twitter-lg
-thumb: paperfaces-tonjac-twitter-150.jpg
+image: paperfaces-TonjaC-twitter-lg
+thumb: paperfaces-TonjaC-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces
