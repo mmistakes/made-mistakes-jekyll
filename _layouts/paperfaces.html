@@ -1,0 +1,72 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body class="image">
+
+{% include chrome-frame.html %}
+
+<div class="image-wrap">
+  <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image">
+  <div class="pagination">
+    {% for post in site.categories.paperfaces %}
+    {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+    {% endif %}
+    {% endfor %}
+    {% for post in site.categories.paperfaces %}
+        {% if post_index0 == forloop.index %}
+            {% assign next_post = post.url %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+            {% assign prev_post = post.url %}
+        {% endif %}
+    {% endfor %}
+    {% if next_post %}
+        <a href="{{ next_post }}" class="mfp-arrow mfp-arrow-right hide-text" title="Next image">Next image</a>
+    {% endif %}
+    {% if prev_post %}
+        <a href="{{ prev_post }}" class="mfp-arrow mfp-arrow-left hide-text" title="Previous image">Previous image</a>
+    {% endif %}
+  </div><!-- /.pagination -->
+</div><!-- /.image-wrap -->
+
+<div id="main" role="main">
+  <div class="article-author-top">
+    {% include author-bio.html %}
+  </div>
+  <article itemprop="articleBody">
+    <div class="headline-wrap">
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      {{ content }}
+    </div><!-- /.article-wrap -->
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+    <h4>Latest PaperFaces Portraits</h4>
+    <ul class="recent-grid unstyled-list">
+    {% for post in site.categories.paperfaces limit:5 %}
+      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
+    {% endfor %}
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include scripts.html %}          
+
+</body>
+</html>
