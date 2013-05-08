@@ -6,14 +6,14 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}Made Mistakes">
 <meta name="twitter:description" content="{{ page.description }}">
 <meta name="twitter:creator" content="@mmistakes">
-{% if page.layout contains 'paperfaces' %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}.jpg">{% else %}<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">{% endif %}
+{% if page.layout != 'article' %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}.jpg">{% else %}<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">{% endif %}
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}Made Mistakes">
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="Made Mistakes">
-{% if page.layout contains 'paperfaces' %}{% else %}<meta property="og:type" content="article">{% endif %}
-{% if page.layout contains 'paperfaces' %}{% else %}<meta property="og:image" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">{% endif %}
+{% if page.layout != 'article' %}{% else %}<meta property="og:type" content="article">{% endif %}
+{% if page.layout != 'article' %}{% else %}<meta property="og:image" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">{% endif %}
 <meta name="google-site-verification" content="{{ site.google_verify }}">
 <meta name="msvalidate.01" content="{{ site.bing_verify }}">
 <meta name="alexaVerifyID" content="{{ site.alexa_verify }}">
