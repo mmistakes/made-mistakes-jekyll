@@ -3,8 +3,8 @@ layout: article
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
-description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by FiftyThree."
-modified: 2013-05-06
+description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
+modified: 2013-05-08
 image: paperfaces-featured-image
 thumb: paperfaces-project-thumb.jpg
 screenshot: paperfaces-project-screenshot.jpg
@@ -12,7 +12,7 @@ category: articles
 tags: 
 - PaperFaces
 - MadeWithPaper
-- Paper by FiftyThree
+- Paper by 53
 - iPad
 - portrait
 - drawing
@@ -32,7 +32,7 @@ tags:
 </div>
 </section><!-- /#table-of-contents -->
 
-PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.
+PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.
 
 ## Latest Portraits
 
@@ -44,7 +44,7 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 {% endfor %}
 </ul>
 
-**License:** Each of these portraits are protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
+**License:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
 {: .notice}
 
 ## Frequently Asked Questions
