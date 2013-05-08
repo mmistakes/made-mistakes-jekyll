@@ -2,11 +2,11 @@
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}Made Mistakes</title>
 <meta name="description" content="{{ page.description }}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
-<meta name="twitter:card" content="summary">
+{% if page.layout contains 'paperfaces' %}<meta name="twitter:card" content="photo">{% else %}<meta name="twitter:card" content="summary">{% endif %}
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}Made Mistakes">
 <meta name="twitter:description" content="{{ page.description }}">
 <meta name="twitter:creator" content="@mmistakes">
-<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">
+{% if page.layout contains 'paperfaces' %}<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}.jpg">{% else %}<meta name="twitter:image:src" content="{% if page.thumb %}{{ site.url }}/images/{{ page.thumb }}{% else %}{{ site.url }}/images/no-thumb.png{% endif %}">{% endif %}
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}Made Mistakes">
 <meta property="og:description" content="{{ page.description }}">
