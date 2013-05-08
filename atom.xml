@@ -17,7 +17,7 @@ layout: nil
 	<email>michael@mademistakes.com</email>
 </author>
 <rights>Unless otherwise noted, all content is published under a Creative Commons Attribution-Noncommercial-NoDerivs 3.0 United States License.</rights>
-{% for post in site.posts %}
+{% for post in site.posts limit:20 %}
 
 <entry>
 	<title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
