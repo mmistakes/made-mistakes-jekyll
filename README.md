@@ -50,12 +50,12 @@ There are three main content `_layouts` used on the site: `article.html`, `page.
 
 ### Articles and Pages
 
-The `article.html` and `page.html` layouts are very similar --- both have large *feature* images that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). They use [Picturefill](https://github.com/scottjehl/picturefill) to serve appropriately sized images for the feature area. For this to work you need your image saved in 4 different sizes (don't have to be these exact dimensions, just a guideline) with the following naming convention:
+The `article.html` and `page.html` layouts are very similar: both have large *feature* images that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). They use [Picturefill](https://github.com/scottjehl/picturefill) to serve appropriately sized images for the feature area. For this to work you need your image saved in 4 different sizes (don't have to be these exact dimensions, just a guideline) with the following naming convention:
 
-*	`feature-image-name-**s**.jpg` 320px x 160xp
-*	`feature-image-name-**m**.jpg` 768px x 384px
-*	`feature-image-name-**l**.jpg` 1024px x 512px
-*	`feature-image-name-**xl**.jpg` 1280px x 640px
+*	`feature-image-name-s.jpg` 320px x 160xp
+*	`feature-image-name-m.jpg` 768px x 384px
+*	`feature-image-name-l.jpg` 1024px x 512px
+*	`feature-image-name-xl.jpg` 1280px x 640px
 
 If you're lazy just replace the `picturefill.js` specific code in the article and page `_layouts`:
 
