@@ -106,14 +106,14 @@ Needs some love, but does work. There is some hard coding that will eventually n
 
 ## Useful Commands
 
-Run Jekyll:
+Compile site:
 ``` bash
-$ jekyll
+$ jekyll build
 ```
 
 Start a Jekyll server at <http://localhost:4000/>, (make sure to enable this url in `_config.yml` so all assets and images have correct absolute url's via the `{{ site.url }}` Liquid tag:
 ``` bash
-$ jekyll --server
+$ jekyll serve
 ```
 
 Minify all .html files in `_site` folder using HTML-compressor:
@@ -126,7 +126,7 @@ $ rake minify
 Nothing fancy here.
 
 1. Enable correct `{{ site.url }}` in `_config.yml` (ie: http://mademistakes.com)
-2. Run Jekyll `$ jekyll`
+2. Run Jekyll `$ jekyll build`
 3. Minify HTML `$ rake minify`
 4. FTP the contents of the `_site` folder to your webserver
 
