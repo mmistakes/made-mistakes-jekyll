@@ -115,6 +115,18 @@ blockquote{font-style:italic;margin-left:0;padding-left:1em;border-left:10px sol
 @media (max-width:767px){.visible-phone{display:inherit !important;} .hidden-phone{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;}}@media (min-width:768px) and (max-width:979px){.visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;}}hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}
 article img{max-width:100%;height:auto;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
 svg:not(:root){overflow:hidden;}
+.half{margin:0 auto;width:100%;*zoom:1;}.half:before,.half:after{display:table;content:"";}
+.half:after{clear:both;}
+.half:before,.half:after{content:"";display:table;}
+.half:after{clear:both;}
+.half img{display:inline;float:left;width:50%;}
+.half figcaption{display:inline;float:left;width:100%;}
+.third{margin:0 auto;width:100%;*zoom:1;}.third:before,.third:after{display:table;content:"";}
+.third:after{clear:both;}
+.third:before,.third:after{content:"";display:table;}
+.third:after{clear:both;}
+.third img{display:inline;float:left;width:33.333333333333336%;}
+.third figcaption{display:inline;float:left;width:100%;}
 .btn{display:inline-block;*display:inline;*zoom:1;padding:12px;margin-bottom:2em;line-height:1;text-align:center;text-transform:uppercase;vertical-align:middle;border:4px double #333332;cursor:pointer;*margin-left:.3em;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;}.btn:visited{border:4px double #4e4e4e;}
 .btn:hover{border:4px double #1a1a1a;}
 .btn:first-child{*margin-left:0;}
@@ -203,8 +215,8 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 .recent-grid:after{clear:both;}
 .recent-grid:before,.recent-grid:after{content:"";display:table;}
 .recent-grid:after{clear:both;}
-.recent-grid li{display:inline;}
-.recent-grid img{width:19%;}
+.recent-grid li{display:inline;}.recent-grid li a{border-bottom:0 solid transparent;}.recent-grid li a:hover{border-bottom:0 solid transparent;}
+.recent-grid img{width:19%;margin-bottom:1%;}
 .holder{font-family:'PT Sans Narrow',sans-serif;}.holder a{cursor:pointer;margin:0 5px;}
 .holder a.jp-previous{margin-left:0;margin-right:15px;}
 .holder a.jp-next{margin-left:15px;margin-right:0;}

@@ -18,6 +18,26 @@ article img {
 svg:not(:root) {
     overflow: hidden; 
 }
+.half {
+  .container();
+  .clearfix();
+  img {
+    .grid(12,6);
+  }
+  figcaption {
+    .grid(12,12);
+  }
+}
+.third {
+  .container();
+  .clearfix();
+  img {
+    .grid(12,4);
+  }
+  figcaption {
+    .grid(12,12);
+  }
+}
 /* Buttons =============================================== */
 .btn {
   display: inline-block;
