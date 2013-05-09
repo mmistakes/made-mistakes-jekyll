@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In front of a face.
+**Project Donator.** In front of a face.
 
 {% include paperfaces-boilerplate.html %}

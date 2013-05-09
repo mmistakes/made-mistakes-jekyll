@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Plaid in glasses.
+**Project Donator.** Plaid in glasses.
 
 {% include paperfaces-boilerplate.html %}

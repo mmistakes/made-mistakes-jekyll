@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Clapping. Let's clap.
+**Project Donator.** Clapping. Let's clap.
 
 {% include paperfaces-boilerplate.html %}

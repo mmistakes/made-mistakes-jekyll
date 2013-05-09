@@ -13,6 +13,8 @@ tags:
 - iPad art
 ---
 
-Van dyke moustachio drinking from a cat mug.
+**Project Donator.** Van dyke moustachio drinking from a cat mug.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9XA2_0nysm8" frameborder="0"> </iframe>
 
 {% include paperfaces-boilerplate.html %}

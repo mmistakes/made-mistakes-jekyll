@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Guy and his gal in Washington DC.
+**Project Donator.** Guy and his gal in Washington DC.
 
 {% include paperfaces-boilerplate.html %}

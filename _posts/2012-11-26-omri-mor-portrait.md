@@ -15,4 +15,6 @@ tags:
 
 Sitting on some steps in black and white.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/c2sYfotHIl0" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

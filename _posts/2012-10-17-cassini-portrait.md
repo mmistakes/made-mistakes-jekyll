@@ -15,4 +15,6 @@ tags:
 
 Solar flares and blue lighting.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/suObiibat7A" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

@@ -15,4 +15,6 @@ tags:
 
 In a blue dress shirt.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/1Q6fjg5G_GA" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

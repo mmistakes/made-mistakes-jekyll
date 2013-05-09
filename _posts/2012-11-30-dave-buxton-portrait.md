@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Wearing a suit.
+**Project Donator.** Wearing a suit.
 
 {% include paperfaces-boilerplate.html %}

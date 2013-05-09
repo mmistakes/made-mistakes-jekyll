@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-A couple.
+**Project Donator.** A couple.
 
 {% include paperfaces-boilerplate.html %}

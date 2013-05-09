@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Three boys sitting next to each other.
+**Project Donator.** Three boys sitting next to each other.
 
 {% include paperfaces-boilerplate.html %}

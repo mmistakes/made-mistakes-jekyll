@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sweaters in office cubes.
+**Project Donator.** Sweaters in office cubes.
 
 {% include paperfaces-boilerplate.html %}

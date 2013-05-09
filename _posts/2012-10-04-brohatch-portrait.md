@@ -15,4 +15,6 @@ tags:
 
 Red hair, green sunglasses, not quite Christmas.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/Csxhdfrtbuo" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

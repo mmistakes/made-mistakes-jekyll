@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Large ornate frames are the best for sticking out your tongue in.
+**Project Donator.** Large ornate frames are the best for sticking out your tongue in.
 
 {% include paperfaces-boilerplate.html %}

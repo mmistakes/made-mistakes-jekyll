@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Bearded sir in a striped scarf.
+**Project Donator.** Bearded sir in a striped scarf.
 
 {% include paperfaces-boilerplate.html %}

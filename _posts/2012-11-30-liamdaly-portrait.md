@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Black and white, full frame.
+**Project Donator.** Black and white, full frame.
 
 {% include paperfaces-boilerplate.html %}

@@ -15,4 +15,6 @@ tags:
 
 Plaid in front of some architecture.
 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/M5Ya9B-a0Mk" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

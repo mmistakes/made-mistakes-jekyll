@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Drawing in black and white.
+**Project Donator.** Drawing in black and white.
 
 {% include paperfaces-boilerplate.html %}

@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-iPhone holding purple blouse.
+**Project Donator.** iPhone holding purple blouse.
 
 {% include paperfaces-boilerplate.html %}

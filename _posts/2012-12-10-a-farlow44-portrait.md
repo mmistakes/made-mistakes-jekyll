@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-High contrast blue and yellow composition.
+**Project Donator.** High contrast blue and yellow composition.
 
 {% include paperfaces-boilerplate.html %}

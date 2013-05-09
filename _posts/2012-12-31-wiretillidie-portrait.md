@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Holding a baby on a leather couch.
+**Project Donator.** Holding a baby on a leather couch.
 
 {% include paperfaces-boilerplate.html %}

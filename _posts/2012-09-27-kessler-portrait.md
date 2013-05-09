@@ -15,4 +15,6 @@ tags:
 
 Happy beard in plaid.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/g6r-pZY3Awc" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

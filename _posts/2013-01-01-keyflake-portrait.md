@@ -15,4 +15,6 @@ tags:
 
 In front of a ferris wheel at night.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/6yUmJRwXAdE" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

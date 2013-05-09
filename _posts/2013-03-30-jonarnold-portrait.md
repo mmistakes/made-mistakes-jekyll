@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Glasses wearing a v-neck shirt.
+**Project Donator.** lasses wearing a v-neck shirt.
 
 {% include paperfaces-boilerplate.html %}

@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blue shirt.
+**Project Donator.** Blue shirt.
 
 {% include paperfaces-boilerplate.html %}

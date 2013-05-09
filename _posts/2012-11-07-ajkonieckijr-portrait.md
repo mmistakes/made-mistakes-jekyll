@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Life guard smoking a cigar.
+**Project Donator.** Life guard smoking a cigar.
 
 {% include paperfaces-boilerplate.html %}

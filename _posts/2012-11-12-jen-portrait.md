@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Bright red lips.
+**Project Donator.** Bright red lips.
 
 {% include paperfaces-boilerplate.html %}

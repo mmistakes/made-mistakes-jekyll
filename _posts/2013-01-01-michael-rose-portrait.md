@@ -17,4 +17,6 @@ tags:
 
 Self portrait of the scruffy artist (hey that's me) in an autumn field.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/NqcGVymOiPo" frameborder="0"> </iframe>
+
 {% include paperfaces-boilerplate.html %}

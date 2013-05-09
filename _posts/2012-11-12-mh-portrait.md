@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sunglasses and a hoodie.
+**Project Donator.** Sunglasses and a hoodie.
 
 {% include paperfaces-boilerplate.html %}

@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Curly locks of hair.
+**Project Donator.** Curly locks of hair.
 
 {% include paperfaces-boilerplate.html %}
