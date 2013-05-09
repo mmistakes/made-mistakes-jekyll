@@ -132,6 +132,11 @@ html {
 .toc {
 	display: none;
 	font-size: 95%;
+	.opacity(0.7);
+	.transition(opacity 0.2s ease-in-out);
+	&:hover {
+		.opacity(1);
+	}
 	header {
 		background: lighten(@black, 10);
 	}

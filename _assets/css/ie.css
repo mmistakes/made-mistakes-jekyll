@@ -198,7 +198,8 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 .article-author-top p,.article-author-bottom p{font-size:80%;font-style:italic;}
 .article-author-top a,.article-author-bottom a,.article-author-top a:hover,.article-author-bottom a:hover{border-bottom:0 solid transparent;}
 .article-author-top .bio-photo img,.article-author-bottom .bio-photo img{-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;}
-.toc{display:none;font-size:95%;}.toc header{background:#1a1a1a;}
+.toc{display:none;font-size:95%;-webkit-opacity:0.7;-moz-opacity:0.7;opacity:0.7;-webkit-transition:opacity 0.2s ease-in-out;-moz-transition:opacity 0.2s ease-in-out;-ms-transition:opacity 0.2s ease-in-out;-o-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out;}.toc:hover{-webkit-opacity:1;-moz-opacity:1;opacity:1;}
+.toc header{background:#1a1a1a;}
 .toc h3{margin:0;padding:5px 10px;color:#ffffff;}.toc h3:hover{cursor:pointer;}
 .toc ul{margin:2px 0 0;padding:0;background:#4d4d4d;line-height:1;}
 .toc li{display:block;margin:0;padding:0;font-family:'PT Sans Narrow',sans-serif;border-bottom:1px solid #808080;}.toc li:last-child{border-bottom:0 solid transparent;}
