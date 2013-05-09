@@ -1,34 +1,4 @@
-// @codekit-append "jquery.jPages.js", "jquery.lazyload.js", "jquery.fitvids.js", "picturefill.js", "matchmedia.js", "jquery.magnific-popup.js";
-
 /*! Plugin options and other jQuery stuff */
-
-// Lazyload and j
-$(function() {
-
-  /* initiate lazyload defining a custom event to trigger image loading  */
-  $("img.lazy").show().lazyload({
-	event: "turnPage",
-	effect: "fadeIn"
-  });
-
-  /* initiate plugin */
-  $("div.holder").jPages({
-    containerID: "itemContainer",
-	previous: "Previous",
-	next: "Next",
-	perPage: 30,
-	midRange: 3,
-	direction: "random",
-	minHeight: false,
-	callback: function( pages, items ){
-	/* lazy load current images */
-	items.showing.find("img").trigger("turnPage");
-	/* lazy load next page images */
-	items.oncoming.find("img").trigger("turnPage");
-  }
-  });
-
-});
 
 // FitVids options
 $(function() {

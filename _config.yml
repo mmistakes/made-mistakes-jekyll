@@ -15,6 +15,7 @@ google_verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
 bing_verify:   D81F4C18A6CB3018F64D7C827D953DFD
 alexa_verify:  Y5DYjZ4VWlrQzBP5kcQJeOKLNas
 
+timezone:    America/New_York
 future:      true
 lsi:         false
 pygments:    true
@@ -68,4 +69,5 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "mademistakes.sublime-project", "mademistakes.sublime-workspace", "codekit-config.json", "Gemfile", "Gemfile.lock", "README.md"]

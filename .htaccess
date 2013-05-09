@@ -569,5 +569,4 @@ redirect 301 /about-made-mistakes/ http://mademistakes.com/about.html
 redirect 301 /test/articles.html http://mademistakes.com/articles.html
 redirect 301 /articles/face http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
 redirect 301 /articles/faces-made-with-paper-ipad.html http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
-redirect 301 /paperfaces http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
-redirect 301 /articles/paperfaces-portrait-gallery.html http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
+redirect 301 /articles/paperfaces-portrait-gallery.html http://mademistakes.com/paperfaces/index.html

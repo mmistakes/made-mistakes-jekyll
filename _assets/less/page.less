@@ -37,6 +37,9 @@ html {
 		-ms-interpolation-mode: bicubic;
 	}
 }
+.image .image-wrap {
+	max-height: 100%;
+}
 .articles .image-wrap {
 	max-height: 250px;
 }
@@ -82,6 +85,11 @@ html {
 	h2 {
 		.delta();
 		text-transform: uppercase;
+	}
+}
+.image .headline-wrap {
+	h1 {
+		.gamma();
 	}
 }
 .article-wrap {
@@ -175,6 +183,23 @@ html {
 	padding: 0;
 	li {
 		.grid(12,6);
+	}
+}
+.recent-grid {
+	.clearfix();
+	list-style: none;
+	margin: 1em 0;
+	li {
+		display: inline;
+		a { 
+			border-bottom: 0 solid transparent;
+			&:hover {
+				border-bottom: 0 solid transparent;
+			}
+		}
+	}
+	img {
+		width: 19%;
 	}
 }
 .holder {

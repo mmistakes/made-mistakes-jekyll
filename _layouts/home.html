@@ -38,7 +38,7 @@
 <div id="index">
   <h3>The Latest Articles</h3>
   <hr />
-  {% for post in site.posts limit:5 %}  
+  {% for post in site.categories.articles limit:5 %}    
   <article>
     <h2><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
     <p>{{ post.description }}</p>
