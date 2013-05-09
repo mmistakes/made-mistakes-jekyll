@@ -1,8 +1,10 @@
-Source Code of Made Mistakes at [mademistakes.com](http://mademistakes.com)
+Source Code of [Made Mistakes](http://mademistakes.com)
 ===========================================================================
 
 This is the source code of Made Mistakes, a personal blog and portfolio on http://mademistakes.com, hosted by 
-[Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c).
+[Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c). My overall goal with the site design was to create visually interesting pages that look great and readable on mobile, tablet, and desktop viewports.
+
+The article layouts are the most fleshed out and *finished*. Everything else works and get's the job done, but could use some more love.
 
 ## Install Jekyll
 
@@ -41,6 +43,50 @@ Generates a `sitemap.xml` file by traversing all of the available posts and page
 ### svg_mime_type
 
 Serves SVG files with the correct MIME type when running `$ jekyll --server`.
+
+## Adding Posts and Pages
+
+There are three main content `_layouts` used on the site: `article.html`, `page.html`, and `paperfaces.html`.
+
+### Articles and Pages
+
+The `article.html` and `page.html` layouts are very similar --- both have large *feature* images that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). They use [Picturefill](https://github.com/scottjehl/picturefill) to serve appropriately sized images for the feature area. For this to work you need your image saved in 4 different sizes (don't have to be these exact dimensions, just a guideline) with the following naming convention:
+
+*	`feature-image-name-**s**.jpg` 320px x 160xp
+*	`feature-image-name-**m**.jpg` 768px x 384px
+*	`feature-image-name-**l**.jpg` 1024px x 512px
+*	`feature-image-name-**xl**.jpg` 1280px x 640px
+
+If you're lazy just replace the `picturefill.js` specific code in the article and page `_layouts`:
+
+``` html
+<div class="image-wrap">
+  <div data-picture data-alt="{{ page.title }} article image">
+        <div data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
+        <div data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></div>
+        <!--[if (lt IE 9) & (!IEMobile)]>
+          <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg""></div>
+        <![endif]-->
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} article image">
+        </noscript>
+    </div>
+</div><!-- /.image-wrap -->
+```
+
+With something like this: 
+``` html
+<div class="image-wrap">
+    <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} article image">
+</div><!-- /.image-wrap -->
+```
+
+### Photo/Image Layout
+
+Needs some love, but does work. There is some hard coding that will eventually need cleanup in `paperfaces.html` that are specific to the PaperFaces series of portraits I've been posting, but it can be easily adapted for photo galleries or portfolios.
 
 ## Useful Commands
 
