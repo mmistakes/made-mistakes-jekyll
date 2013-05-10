@@ -4,7 +4,7 @@ title: "A Guide to Drawing with Paper by 53"
 headline: "A Guide to Drawing with Paper by 53"
 subheadline: "Methods and Techniques of a Non-Artist"
 description: "Learn how to use Paper by FiftyThree to draw blank faced portraits and landscapes on an iPad with retina display."
-modified: 2013-04-25
+modified: 2013-05-10
 image: madewithpaper-guide-feature
 thumb: madewithpaper-guide-thumb.jpg
 category: articles
@@ -87,6 +87,9 @@ Two things to keep in mind when working with the marker tool:
 I saved the best for last. When I first started using Paper by 53, I was enamored with the thick and thins of the fountain pen and how true to life the watercolor brush handled. But then I rediscovered an old friend, in a digital world --- Mr. Pencil.
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white pencil on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
+
+**Protip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}/articles/how-to-draw-hair-paper-53.html).
+{: .notice}
 
 <figure>
     <img src="{{ site.url }}/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
