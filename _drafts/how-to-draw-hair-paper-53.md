@@ -3,7 +3,7 @@ layout: article
 title: "How to Draw Realistic Hair with Paper by 53"
 headline: "How to Draw Realistic Hair"
 subheadline: "with an iPad and Paper by 53"
-description: ""
+description: "I'm asked often what my technique for drawing hair is. What follows is my answer."
 image: how-to-draw-hair
 thumb:
 category: articles
