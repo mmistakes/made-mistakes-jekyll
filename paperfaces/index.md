@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "PaperFaces Project Gallery"
 headline: "PaperFaces Project Gallery"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"

@@ -561,12 +561,13 @@ redirect 301 /post-sitemap.xml http://mademistakes.com/sitemap.xml
 redirect 301 /category-sitemap.xml http://mademistakes.com/sitemap.xml
 
 # Page Redirects
-RedirectMatch permanent /lifestream http://mademistakes.com/articles.html
+RedirectMatch permanent /lifestream http://mademistakes.com/articles/
 redirect 301 /test/articles/birds-bird-cage-tattoos.html http://mademistakes.com/articles/birds-bird-cage-tattoos.html
 redirect 301 /free-aboutme-business-cards/ http://mademistakes.com/articles/free-aboutme-business-cards.html
 redirect 301 /futura-movie-credits/ http://mademistakes.com/articles/futura-movie-credits.html
 redirect 301 /about-made-mistakes/ http://mademistakes.com/about.html
-redirect 301 /test/articles.html http://mademistakes.com/articles.html
+redirect 301 /test/articles.html http://mademistakes.com/articles/
+redirect 301 /articles.html http://mademistakes.com/articles/
 redirect 301 /articles/face http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
 redirect 301 /articles/faces-made-with-paper-ipad.html http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
-redirect 301 /articles/paperfaces-portrait-gallery.html http://mademistakes.com/paperfaces/index.html
+redirect 301 /articles/paperfaces-portrait-gallery.html http://mademistakes.com/paperfaces/
