@@ -14,7 +14,7 @@ tags:
 - zoom tool
 ---
 
-**Project Donators.** Long hair with a slight curl. First illustration done with the newly updated Paper by 53 app. Really like how zoom was implemented and the explore feature.
+**Project Donator.** Long hair with a slight curl. First illustration done with the newly updated Paper by 53 app. Really like how zoom was implemented and the explore feature.
 
 I also recorded my iPad's screen for this portrait that shows the new zoom tool in action. <del>Just have to edit the raw capture in Adobe AfterEffects and then post to YouTube. Should be up soon...</del>
 
