@@ -100,6 +100,14 @@ For any article or page that you want a *table of contents* to render insert the
 </section><!-- /#table-of-contents -->
 ```
 
+#### Videos
+
+Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+
+``` html
+<iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
+```
+
 ### Photo/Image Layout
 
 Needs some love, but does work. There is some hard coding that will eventually need cleanup in `paperfaces.html` that are specific to the PaperFaces series of portraits I've been posting, but it can be easily adapted for photo galleries or portfolios.
