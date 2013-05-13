@@ -10,15 +10,13 @@
 /* SITE */
 
    Language:    English
-   Built With:  Jekyll (http://jekyllrb.com/)
-                HTML5 Boilerplate (http://html5boilerplate.com/)
-                320andUp (http://stuffandnonsense.co.uk/projects/320andup/)
+   Built with:  Jekyll (http://jekyllrb.com/)
                 Less (http://lesscss.org/)
                 jQuery (http://jquery.com/)
                 Magnific Popup (https://github.com/dimsemenov/Magnific-Popup)
-                FitVids (http://fitvidsjs.com/)
                 Picturefill (https://github.com/scottjehl/picturefill)
-   Software:    Adobe Creative Suite
+                FitVids (http://fitvidsjs.com/)
+   Software:    Adobe Creative Suite (RIP)
                 Sublime Text (http://www.sublimetext.com/)
                 CodeKit (http://incident57.com/codekit/)
                 SourceTree (http://sourcetreeapp.com/)
@@ -27,10 +25,14 @@
                 WinLess (http://winless.org/)
                 MAMP
                 Multi-Browser Viewer (http://www.multibrowserviewer.com/)
+                HTML Compressor (https://code.google.com/p/htmlcompressor/)
+                YUI Compressor (http://yui.github.io/yuicompressor/)
    Fonts:       PT Serif (http://www.google.com/fonts/specimen/PT+Serif)
                 PT Sans Narrow (http://www.google.com/fonts/specimen/PT+Sans+Narrow)
                 IcoMoon (http://icomoon.io/)
 
 /* SPECIAL THANKS */
 
+   HTML5 Boilerplate (http://html5boilerplate.com/)
    Twitter Bootstrap (http://twitter.github.com/bootstrap/)
+   320 and Up (http://stuffandnonsense.co.uk/projects/320andup/)
