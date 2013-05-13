@@ -46,7 +46,7 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 
 <a markdown="0" href="{{ site.url }}/paperfaces" class="btn" style="margin-bottom:0;">View all PaperFaces Portraits</a>
 
-**License:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
+**Usage:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
 {: .notice}
 
 ## Frequently Asked Questions
