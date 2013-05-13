@@ -7,32 +7,32 @@
 {% include head.html %}
 </head>
 
-<body class="image">
+<body class="image" itemscope itemtype="http://schema.org/CreativeWork">
 
 {% include chrome-frame.html %}
 
 <div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image">
+  <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image" itemprop="image">
   <div class="pagination">
     {% for post in site.categories.paperfaces %}
-    {% if post.url == page.url %}
+      {% if post.url == page.url %}
         {% assign post_index0 = forloop.index0 %}
         {% assign post_index1 = forloop.index %}
-    {% endif %}
+      {% endif %}
     {% endfor %}
     {% for post in site.categories.paperfaces %}
-        {% if post_index0 == forloop.index %}
-            {% assign next_post = post.url %}
-        {% endif %}
-        {% if post_index1 == forloop.index0 %}
-            {% assign prev_post = post.url %}
-        {% endif %}
+      {% if post_index0 == forloop.index %}
+        {% assign next_post = post.url %}
+      {% endif %}
+      {% if post_index1 == forloop.index0 %}
+        {% assign prev_post = post.url %}
+      {% endif %}
     {% endfor %}
     {% if next_post %}
-        <a href="{{ next_post }}" class="mfp-arrow mfp-arrow-right hide-text" title="Next image">Next image</a>
+      <a href="{{ next_post }}" class="mfp-arrow mfp-arrow-right hide-text" title="Next image">Next image</a>
     {% endif %}
     {% if prev_post %}
-        <a href="{{ prev_post }}" class="mfp-arrow mfp-arrow-left hide-text" title="Previous image">Previous image</a>
+      <a href="{{ prev_post }}" class="mfp-arrow mfp-arrow-left hide-text" title="Previous image">Previous image</a>
     {% endif %}
   </div><!-- /.pagination -->
 </div><!-- /.image-wrap -->
@@ -41,7 +41,7 @@
   <div class="article-author-top">
     {% include author-bio.html %}
   </div>
-  <article itemprop="articleBody">
+  <article>
     <div class="headline-wrap">
       <h1 itemprop="name headline">{{ page.title }}</h1>
     </div><!--/ .headline-wrap -->
