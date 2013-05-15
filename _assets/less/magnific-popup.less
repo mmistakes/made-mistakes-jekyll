@@ -1,4 +1,6 @@
 /* Magnific Popup CSS */
+// Modified by Michael Rose
+
 .mfp-bg {
   top: 0;
   left: 0;
@@ -177,6 +179,8 @@ button::-moz-focus-inner {
   padding: 0;
   width: 90px;
   height: 110px;
+  background-color: @black;
+  .transition(opacity 0.2s ease-in-out);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 .mfp-arrow:active {
@@ -211,20 +215,22 @@ button::-moz-focus-inner {
   border-bottom-width: 20px; }
 
 .mfp-arrow-left {
-  left: 0; }
+  left: 0; 
+  .border-radius(5px, 5px, 0, 0); }
   .mfp-arrow-left:after,
   .mfp-arrow-left .mfp-a {
-    border-right: 12px solid black;
+    border-right: 12px solid white;
     left: 5px; }
   .mfp-arrow-left:before,
   .mfp-arrow-left .mfp-b {
     border-right: 20px solid white; }
 
 .mfp-arrow-right {
-  right: 0; }
+  right: 0; 
+  .border-radius(0, 0, 5px, 5px); }
   .mfp-arrow-right:after,
   .mfp-arrow-right .mfp-a {
-    border-left: 12px solid black;
+    border-left: 12px solid white;
     left: 3px; }
   .mfp-arrow-right:before,
   .mfp-arrow-right .mfp-b {
