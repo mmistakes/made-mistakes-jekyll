@@ -14,6 +14,6 @@ tags:
 - bird
 ---
 
-Put a bird on it... or your shoulder.
+Put a bird on it... or your shoulder in the case of this illustration.
 
 {% include paperfaces-boilerplate.html %}
