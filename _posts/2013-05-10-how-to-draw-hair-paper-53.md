@@ -66,5 +66,5 @@ Working an area too much with the pencil can cause your hair to flatten out. To 
 
 If you're a maniac with the pencil and prefer to draw in all the gradations then feel free to omit this step. I'm much too lazy for that and prefer to paint over the strokes to achieve the same effect. A warm light gray works great for brunettes and a light orange or pink for redheads. Experimentation is the key here. If you don't like the result just two finger rewind that noise and try another color. Lighter layers of watercolor that are built up gradually allow for subtler tones than a stroke of black would.
 
-**Note:** I wrote another short article describing some more [drawing with Paper tips and techniques]({{ site.url }}/articles/madewithpaper-drawing-guide.html), if you're interested.
+**PS:** I wrote another short article/tutorial describing some more [drawing with Paper tips and techniques]({{ site.url }}/articles/madewithpaper-drawing-guide.html), if you're interested.
 {: .notice}
