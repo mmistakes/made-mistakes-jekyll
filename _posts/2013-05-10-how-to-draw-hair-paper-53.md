@@ -27,11 +27,6 @@ tags:
 </div>
 </section><!-- /#table-of-contents -->
 
-<figure>
-	<a href="{{ site.ur }}/images/drawing-hair-paper-53-cheatsheet-lg.jpg"><img src="{{ site.url }}/images/drawing-hair-paper-53-cheatsheet-600.jpg" alt="Drawing hair with Paper by 53 cheatsheet" /></a>
-	<figcaption>Drawing hair with Paper by 53 cheat sheet.</figcaption>
-</figure>
-
 ## Block Out the Hair
 
 I like to rough out a general shape of the subject's hair using watercolor loaded with black or dark brown. Depending on what the overall palette is I might adjust the brown --- usually mixing in red to warm it up or blue to cool it down.
@@ -65,6 +60,11 @@ Working an area too much with the pencil can cause your hair to flatten out. To 
 ## Watercolor for Dimension
 
 If you're a maniac with the pencil and prefer to draw in all the gradations then feel free to omit this step. I'm much too lazy for that and prefer to paint over the strokes to achieve the same effect. A warm light gray works great for brunettes and a light orange or pink for redheads. Experimentation is the key here. If you don't like the result just two finger rewind that noise and try another color. Lighter layers of watercolor that are built up gradually allow for subtler tones than a stroke of black would.
+
+<figure>
+	<a href="{{ site.ur }}/images/drawing-hair-paper-53-cheatsheet-lg.jpg"><img src="{{ site.url }}/images/drawing-hair-paper-53-cheatsheet-600.jpg" alt="Drawing hair with Paper by 53 cheatsheet" /></a>
+	<figcaption>Drawing hair with Paper by 53 cheat sheet.</figcaption>
+</figure>
 
 **PS:** I wrote another short article/tutorial describing some more [drawing with Paper tips and techniques]({{ site.url }}/articles/madewithpaper-drawing-guide.html), if you're interested.
 {: .notice}
