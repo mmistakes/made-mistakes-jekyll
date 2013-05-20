@@ -4,7 +4,7 @@ title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-05-08
+modified: 2013-05-20
 image: paperfaces-featured-image
 thumb: paperfaces-project-thumb.jpg
 screenshot: paperfaces-project-screenshot.jpg
@@ -131,7 +131,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slideshow
 {: .notice}
 
 <figure>
-  <iframe width="560" height="315" src="http://www.youtube.com/embed/wWHJPy9FIhA?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
   <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or read about <a href="{{ site.url }}/articles/madewithpaper-drawing-guide.html" title="How I draw with Paper by 53 and an iPad">my drawing process</a> here.</figcaption>
 </figure>
 
@@ -160,7 +160,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 
-**Note:** Since starting PaperFaces I've received a few inquiries on my illustration techniques. You can read the compilation of those responses in a short [How To Draw and Paint with Paper by 53 Guide]({{ site.url }}/articles/madewithpaper-drawing-guide.html) article I wrote.
+**PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques. You can read the compilation of those responses in a short [How To Draw and Paint with Paper by 53 Guide]({{ site.url }}/articles/madewithpaper-drawing-guide.html) article I wrote.
 {: .notice}
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

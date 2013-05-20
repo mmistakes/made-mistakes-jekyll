@@ -101,7 +101,7 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 I hope some of this has been helpful. To better describe and show my process, I've recorded numerous speed paintings done with an iPad 3, Paper by 53, the Mac OS X application [Reflector](http://reflectorapp.com/), and Adobe AfterEffects. The time lapse video that demonstrates my techniques the best is embedded below *(pro-tip: watch it fullscreen)*. Feel free to comment, like, or [subscribe](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see. If I missed anything or you want some additional pointers, reach out via [Twitter](http://twitter.com/mmistakes) or [email](mailto:michael@mademistakes.com).
 
 <figure>
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/wWHJPy9FIhA" frameborder="0"> </iframe>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>
 </figure>
 
 **PS:** I wrote two short articles describing [how to draw realistic hair]({{ site.url }}/articles/how-to-draw-hair-paper-53.html) and [my technique for drawing faces without faces]({{ site.url }}/articles/drawing-faces-paper-53.html). If there are other Paper by 53 tips or tutorials you'd like to see hit [me up on the Twitter](http://twitter.com/mmistakes) and I'll see what I can do.
