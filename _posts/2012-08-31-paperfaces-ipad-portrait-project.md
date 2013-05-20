@@ -139,7 +139,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slideshow
 
 I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is something amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
 
-<ul id="fanart-gallery" class="image-grid unstyled">
+<ul id="fanart-gallery" class="recent-grid unstyled-list">
   <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg" title="PaperFaces homage drawn by @Pepfre"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre" /></a></li>
   <li><a href="{{ site.url }}/images/homage-missshrestha-rosebuds-lg.jpg" title="PaperFaces homage drawn by @missshrestha on Instagram"><img src="{{ site.url }}/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagra" /></a></li>
   <li><a href="{{ site.url }}/images/homage-morgantj-mmistakes-lg.jpg" title="PaperFaces homage drawn by @morgantj"><img src="{{ site.url }}/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj" /></a></li>
