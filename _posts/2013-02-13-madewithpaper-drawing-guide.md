@@ -4,7 +4,7 @@ title: "A Guide to Drawing with Paper by 53"
 headline: "A Guide to Drawing with Paper by 53"
 subheadline: "Methods and Techniques of a Non-Artist"
 description: "Learn how to use Paper by FiftyThree to draw blank faced portraits and landscapes on an iPad with retina display."
-modified: 2013-05-10
+modified: 2013-05-20
 image: madewithpaper-guide-feature
 thumb: madewithpaper-guide-thumb.jpg
 category: articles
@@ -103,3 +103,6 @@ I hope some of this has been helpful. To better describe and show my process, I'
 <figure>
     <iframe width="560" height="315" src="http://www.youtube.com/embed/wWHJPy9FIhA" frameborder="0"> </iframe>
 </figure>
+
+**PS:** I wrote two short articles describing [how to draw realistic hair]({{ site.url }}/articles/how-to-draw-hair-paper-53.html) and [my technique for drawing faces without faces]({{ site.url }}/articles/drawing-faces-paper-53.html). If there are other Paper by 53 tips or tutorials you'd like to see hit [me up on the Twitter](http://twitter.com/mmistakes) and I'll see what I can do.
+{: .notice}

@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Drawing Faces without Faces"
+title: "Drawing Faces without Faces with Paper by 53"
 headline: "Drawing Faces without Faces"
 subheadline: "The PaperFaces Technique"
-description: "Short on time? Here's the quick and fun way to paint portraits with Paper by 53."
+description: "Short on time? Here's the quick and fun way to draw and paint portraits using Paper by 53."
 image: paper-53-draw-face-feature
 thumb: paper-53-draw-face-thumb.jpg
 category: articles
@@ -105,7 +105,7 @@ To finish the face take care to observe the direction and tilt of the head. Care
 	<figcaption>Cross your face and then you're done.</figcaption>
 </figure>
 
-<a markdown="0" href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download Drawing PaperFaces Cheat Sheet</a>
+<a markdown="0" href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download a Drawing PaperFaces Guide</a>
 
 **PS:** I wrote two short articles describing some more [drawing with Paper tips and techniques]({{ site.url }}/articles/madewithpaper-drawing-guide.html) and [how to draw realistic hair]({{ site.url }}/articles/how-to-draw-hair-paper-53.html). If there are other Paper by 53 tips or tutorials you'd like to see hit [me up on the Twitter](http://twitter.com/mmistakes) and I'll see what I can do.
 {: .notice}
