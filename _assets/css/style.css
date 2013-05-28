@@ -421,7 +421,8 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 .mfp-preloader a:hover{color:white;}
 .mfp-s-ready .mfp-preloader{display:none;}
 .mfp-s-error .mfp-content{display:none;}
-button.mfp-close,button.mfp-arrow{overflow:visible;cursor:pointer;background:transparent;border:0;-webkit-appearance:none;display:block;padding:0;z-index:506;}
+button.mfp-close,button.mfp-arrow{overflow:visible;cursor:pointer;border:0;-webkit-appearance:none;display:block;padding:0;z-index:506;}
+button.mfp-close{background:transparent;}
 button::-moz-focus-inner{padding:0;border:0;}
 .mfp-close{width:44px;height:44px;line-height:44px;position:absolute;right:0;top:0;text-decoration:none;text-align:center;opacity:0.65;padding:0 0 18px 10px;color:white;font-style:normal;font-size:28px;font-family:Arial, Baskerville, monospace;}
 .mfp-close:hover,.mfp-close:focus{opacity:1;}
