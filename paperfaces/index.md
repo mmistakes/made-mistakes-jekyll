@@ -26,4 +26,5 @@ tags:
 {% endfor %}
 </ul>
 
-{% include paperfaces-boilerplate.html %}
+PaperFaces is an iPad drawing project by designer/illustrator Michael Rose — that's me! If you're interested in becoming part of the experiment or just want to learn more, [jump on over here]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html)
+{: .notice}
