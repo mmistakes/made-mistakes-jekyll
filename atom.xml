@@ -32,7 +32,7 @@ layout: nil
 		<email>michael@mademistakes.com</email>
 	</author>
 	<content type="html">{% if post.screenshot %}&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;&lt;img src=&quot;{{ site.url }}/images/{{ post.screenshot }}&quot; alt=&quot;{{ post.title }} screenshot image&quot; /&gt;&lt;/a&gt;&lt;p&gt;Do yourself a favor and click the screenshot above to read this article as I intended. Newsreaders strip out all the time and effort I put into the design and typography, and that's no fun!&lt;/p&gt;
-	{% else %}{% if page.layout != 'article' %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image }}.jpg&quot; alt=&quot;{{ post.title }} page image&quot;&gt;{% else %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image }}-l.jpg&quot; alt=&quot;{{ post.title }} page image&quot;&gt;{% endif %}&lt;br/&gt;{{ post.content | xml_escape }}{% endif %}
+	{% else %}{% if post.category == 'paperfaces' %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image }}.jpg&quot; alt=&quot;{{ post.title }} page image&quot;&gt;{% else %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image }}-l.jpg&quot; alt=&quot;{{ post.title }} page image&quot;&gt;{% endif %}&lt;br/&gt;{{ post.content | xml_escape }}{% endif %}
 	&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by &lt;a href=&quot;href=&quot;{{ site.url }}/about.html&quot;&gt;Michael Rose&lt;/a&gt; at &lt;a href=&quot;{{ site.url }}&quot;&gt;Made Mistakes&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 </entry>
 {% endfor %}
