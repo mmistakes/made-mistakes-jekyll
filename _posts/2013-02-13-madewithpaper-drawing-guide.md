@@ -4,7 +4,7 @@ title: "A Guide to Drawing with Paper by 53"
 headline: "A Guide to Drawing with Paper by 53"
 subheadline: "Methods and Techniques of a Non-Artist"
 description: "Learn how to use Paper by FiftyThree to draw blank faced portraits and landscapes on an iPad with retina display."
-modified: 2013-05-20
+modified: 2013-05-29
 image: madewithpaper-guide-feature
 thumb: madewithpaper-guide-thumb.jpg
 category: articles
@@ -58,11 +58,12 @@ Usually I pencil in quick gestural outlines as a guide for painting forms later.
 
 <figure>
     <img src="{{ site.url }}/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
+    <figcaption>Face study using watercolor and some default colors.</figcaption>
 </figure>
 
 ## Watercolor without Water
 
-If you ask me, this tool is what sets Paper by 53 apart from all the other iPad drawing apps like Procreate and Sketchbook Pro. I use the watercolor brush in two ways... well maybe three.
+If you ask me, this tool is what sets Paper by 53 apart from all the other iPad drawing apps like *Procreate* and *Sketchbook Pro*. I use the watercolor brush in two ways... well maybe three.
 
 1.  When crisp edges aren't a concern, I'll block in color quickly with the watercolor brush. I achieve continuous tones by painting slowly and never removing the stylus (or my finger) from the screen. If I want to create a smooth gradation in color I move the brush progressively faster to fade it out.
 2.  Brightening existing areas is easily achieved with the watercolor brush. Mix enough white into a color and the brush can be used to lighten. This technique is perfect for adding highlights or correcting mistakes when an eraser's edges might be too harsh. When working with white my general rule of thumb is to move fast. If you stick around in one location too long it'll lighten too fast. The same is true when using full black...
@@ -74,7 +75,7 @@ I don't use the fountain pen  or marker tools all that much because I like my il
 
 <figure>
     <img src="{{ site.url }}/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
-    <figcaption>Filling in shapes using the fountain pen gets the job done.</figcaption>
+    <figcaption>Filling in shapes using the fountain pen gets the job done quickly.</figcaption>
 </figure>
 
 Two things to keep in mind when working with the marker tool:
@@ -86,7 +87,7 @@ Two things to keep in mind when working with the marker tool:
 
 I saved the best for last. When I first started using Paper by 53, I was enamored with the thick and thins of the fountain pen and how true to life the watercolor brush handled. But then I rediscovered an old friend, in a digital world --- Mr. Pencil.
 
-Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white pencil on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
+Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
 **Protip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}/articles/how-to-draw-hair-paper-53.html).
 {: .notice}
@@ -98,11 +99,11 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 
 ## Closing Thoughts and Questions
 
-I hope some of this has been helpful. To better describe and show my process, I've recorded numerous speed paintings done with an iPad 3, Paper by 53, the Mac OS X application [Reflector](http://reflectorapp.com/), and Adobe AfterEffects. The time lapse video that demonstrates my techniques the best is embedded below *(pro-tip: watch it fullscreen)*. Feel free to comment, like, or [subscribe](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see. If I missed anything or you want some additional pointers, reach out via [Twitter](http://twitter.com/mmistakes) or [email](mailto:michael@mademistakes.com).
+I hope some of this has been helpful. To better describe and show my process, I've recorded numerous speed paintings done with an iPad 3, Paper by 53, the Mac OS X application [Reflector](http://reflectorapp.com/), and edited with Adobe AfterEffects. A time lapse video that demonstrates some of my techniques is embedded below *(pro-tip: watch it fullscreen)*. Feel free to comment, like, or [subscribe](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see. If I missed anything or you want some additional pointers, reach out via [Twitter](http://twitter.com/mmistakes) or [email](mailto:michael@mademistakes.com).
 
 <figure>
     <iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>
 </figure>
 
-**PS:** I wrote two short articles describing [how to draw realistic hair]({{ site.url }}/articles/how-to-draw-hair-paper-53.html) and [my technique for drawing faces without faces]({{ site.url }}/articles/drawing-faces-paper-53.html). If there are other Paper by 53 tips or tutorials you'd like to see hit [me up on the Twitter](http://twitter.com/mmistakes) and I'll see what I can do.
+**PS:** I wrote two short articles describing [how to draw realistic hair]({{ site.url }}/articles/how-to-draw-hair-paper-53.html) and [my technique for drawing faces without faces]({{ site.url }}/articles/drawing-faces-paper-53.html). If there are other Paper by 53 tips or tutorials you'd like to see [email](mailto:michael@mademistakes.com) or [message me on Twitter](http://twitter.com/mmistakes) and I'll see what I can do.
 {: .notice}
