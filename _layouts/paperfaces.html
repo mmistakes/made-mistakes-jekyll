@@ -7,12 +7,12 @@
 {% include head.html %}
 </head>
 
-<body class="image" itemscope itemtype="http://schema.org/CreativeWork">
+<body class="image" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
 
 <div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image" itemprop="image">
+  <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image" itemprop="primaryImageOfPage">
   <div class="pagination">
     {% for post in site.categories.paperfaces %}
       {% if post.url == page.url %}
@@ -37,15 +37,15 @@
   </div><!-- /.pagination -->
 </div><!-- /.image-wrap -->
 
-<div id="main" role="main">
+<div id="main" role="main" itemscope itemtype="http://schema.org/CreativeWork">
   <div class="article-author-top">
     {% include author-bio.html %}
   </div>
   <article>
     <div class="headline-wrap">
-      <h1 itemprop="name headline">{{ page.title }}</h1>
+      <h1 itemprop="headline">{{ page.title }}</h1>
     </div><!--/ .headline-wrap -->
-    <div class="article-wrap">
+    <div class="article-wrap" itemprop="text">
       {{ content }}
     </div><!-- /.article-wrap -->
   </article>
