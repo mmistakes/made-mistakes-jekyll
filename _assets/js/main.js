@@ -71,8 +71,16 @@ $(document).ready(function() {
             
             $.ajax({
                 type: 'POST',
-                url: 'sendmessage.php',
+                url: 'http://mademistakes.com/sendmessage.php',
                 data: $("#contact").serialize(),
+                success: function(data) {
+                      if(data == "true") {
+                          $("#contact").fadeOut("fast", function(){
+                              $(this).before("<p style='margin-top:1em;text-indent:0;'><strong>Your message has been sent!</strong></p>");
+                              setTimeout("$.fancybox.close()", 3000);
+                          });
+                      }
+                  }
             });
         }
     });
