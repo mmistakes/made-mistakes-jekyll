@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body class="articles">
+<body class="articles" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
 
@@ -35,12 +35,12 @@
   {% include author-bio.html %}
 </div>
 
-<div id="index">
+<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   {% for post in site.categories.articles %}  
-  <article>
-    <h2><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
+  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
     <p class="byline"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
-    <p>{{ post.description }}</p>
+    <p itemprop="text">{{ post.description }}</p>
   </article>
   {% endfor %}
 </div><!-- /#index -->

@@ -1,6 +1,6 @@
 safe:   false
 port:   4000
-#url:    http://mademistakes.com
+url:    http://mademistakes.com
 
 source:      .
 destination: ./_site

@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body class="home">
+<body class="home" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
 
@@ -35,7 +35,7 @@
   {% include author-bio.html %}
 </div>
 
-<div id="index">
+<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <h3>Latest PaperFaces Portraits</h3>
   <hr />
   <ul class="recent-grid unstyled-list">
@@ -47,9 +47,9 @@
   <h3>Latest Articles</h3>
   <hr />
   {% for post in site.categories.articles limit:3 %}    
-  <article>
-    <h2><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
-    <p>{{ post.description }}</p>
+  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
+    <p itemprop="text">{{ post.description }}</p>
   </article>
   {% endfor %}
   <a href="{{ site.url}}/articles" class="btn">View all articles</a>
