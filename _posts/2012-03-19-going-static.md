@@ -4,24 +4,11 @@ title: "Going Static with Jekyll"
 headline: "Going Static with Jekyll"
 subheadline: "Saying Goodbye to Wordpress"
 description: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
-modified: 2013-05-06
+modified: 2013-05-28
 thumb: going-static-thumb.jpg
 image: going-static-header
 category: articles
-tags: 
-- static
-- website
-- web development
-- design
-- Jekyll
-- LESS
-- Semantic Grid System
-- mobile first
-- blog
-- HTML5
-- CSS3
-- responsive
-- Made Mistakes
+tags: [Jekyll, static, website, web development, design, responsive, Made Mistakes]
 ---
 <section id="table-of-contents" class="toc">
   <header>
@@ -110,11 +97,14 @@ You might have noticed in the main navigation up top *(or maybe you didn't)* a c
 
 ### Responsive Images
 
-I think I have a solid handle on how to serve mobile optimized pages using `@media` queries and page widths. But what I don't have figured out are the images. Sure they scale and look decent at various breakpoints, but I didn't exactly follow the mobile first methodology with them. I started big and scaled down, which means the iPhone and other mobile devices download large images regardless. Something tells me [cracking this nut](http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/ "Responsive Images How They Almost Worked and What We Need") is going to be hard.
+I think I have a solid handle on how to serve mobile optimized pages using `@media` queries and page widths. But what I don't have figured out are the images. Sure they scale and look decent at various breakpoints, but I didn't exactly follow a mobile first methodology with them. I started big and scaled down, which means the iPhone and other mobile devices download large images regardless. Something tells me [cracking this nut](http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/ "Responsive Images How They Almost Worked and What We Need") is going to be hard.
 
 ### Version Control
 
-With a 1.0 release under my belt, I think now is the time to take a look at starting a repository on GitHub. Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck's Synchronize feature every time I want to publish new content.
+With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck's Synchronize feature every time I want to publish new content.
 
 **Update 05/06/2013:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to Github if you want to see how I use Jekyll. Feel free to fork my repo, use my `_layouts`, `_includes`, design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and site...
+{: .notice}
+
+**Update 05/28/2013:** Just pushed a Jekyll theme I'm calling [Minimal Mistakes]({{ site.url }}/articles/minimal-mistakes-jekyll-theme.html) to Github. It's essentially the same codebase I use on Made Mistakes with some simplifactions to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/minimal-mistakes).
 {: .notice}
