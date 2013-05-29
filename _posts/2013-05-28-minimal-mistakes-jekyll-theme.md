@@ -29,4 +29,4 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 2. Fork the [Minimal Mistakes repo](http://github.com/mmistakes/minimal-mistakes/)
 3. Make it your own and customize, customize, customize.
 
-<a markdown="0" href="http://mmistakes.github.io/minimal-mistakes" class="btn">Preview the Theme</a>
+<a markdown="0" href="http://mmistakes.github.io/minimal-mistakes" class="btn btn-inverse">Preview the Theme</a>
