@@ -23,7 +23,7 @@ tags:
 
 <ul class="recent-grid unstyled-list">
 {% for post in site.categories.paperfaces %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="" /></a></li>
 {% endfor %}
 </ul>
 
