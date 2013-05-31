@@ -1,5 +1,6 @@
 ---
 layout: article-listing
+permalink: /articles/index.html
 title: "Articles"
 headline: "Articles"
 subheadline: "Posts &amp; Diatribes"
