@@ -38,7 +38,7 @@ I've since decided to go <abbr>CMS</abbr>-free and utilize black magick and [Jek
 
 ## And Who Are You Again?
 
-Oh hey. I'm Michael Rose, just another boring, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing faceless portraits[^1] of strangers on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
+Oh hey. I'm Michael Rose, just another boring, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
 
 Oh, and I'm a recent father of twin girls and will someday help redesign [my wife's blog](http://2littlerosebuds.com "2 Little Rosebuds")...
 
@@ -57,5 +57,3 @@ Oh, and I'm a recent father of twin girls and will someday help redesign [my wif
 	    <button id="send" class="btn btn-inverse" style="margin-top:1em;margin-bottom:0">Send Message</button>
 	</form>
 </div>
-
-[^1]: One of my many faceless portraits drawn on an iPad using the Paper by 53 app can be seen up top. That bearded fella be me.
