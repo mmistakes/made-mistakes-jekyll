@@ -11,7 +11,6 @@ google_verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
 bing_verify:   D81F4C18A6CB3018F64D7C827D953DFD
 alexa_verify:  Y5DYjZ4VWlrQzBP5kcQJeOKLNas
 
-timezone:    America/New_York
 future:      true
 lsi:         false
 pygments:    true
