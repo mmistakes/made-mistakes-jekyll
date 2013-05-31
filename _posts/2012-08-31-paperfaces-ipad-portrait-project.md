@@ -4,7 +4,7 @@ title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-05-20
+modified: 2013-05-31
 image: paperfaces-featured-image
 thumb: paperfaces-project-thumb.jpg
 screenshot: paperfaces-project-screenshot.jpg
@@ -44,7 +44,7 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 {% endfor %}
 </ul>
 
-<a markdown="0" href="{{ site.url }}/paperfaces" class="btn" style="margin-bottom:0;">View all PaperFaces Portraits</a>
+<a markdown="0" href="{{ site.url }}/paperfaces" class="btn btn-inverse btn-small" style="margin-bottom:0;">View all PaperFaces Portraits</a>
 
 **Usage:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
 {: .notice}
@@ -62,23 +62,25 @@ You can do any (or all) of the following to request a PaperFaces portrait from m
 
 Donating guarantees that I'll draw your portrait, and moves you up to the top of the list. Depending on the amount of generous souls throwing cash my way, you could get your drawing as early as the next day. If you're going the retweet-only route, I'd caution against an old style RT or quoting it --- I get the funny feeling Favstar.fm doesn't track all of those. When in doubt, follow me and let me know about your interest in a portrait. I'm more likely to notice then...
 
-<form class="well" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="XAVAR6MGZGVLY">
-  <select name="os0" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'donation options']);">
-    <option value="a. Donate">a. Donate $5.00 USD</option>
-    <option value="b. Donate">b. Donate $15.00 USD</option>
-    <option value="c. Donate">c. Donate $30.00 USD</option>
-    <option value="d. Donate">d. Donate $50.00 USD</option>
-  </select>
-  <input type="hidden" name="on1" value="Twitter username">
-  <label>Twitter username you want me to draw</label>
-  <input type="text" name="os1" maxlength="75" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'Twitter username']);">
-  <input type="hidden" name="currency_code" value="USD">
-  <input type="image" src="http://mademistakes.com/images/donate-paypal-btn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="background:transparent;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
-  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  <p class="help-block"><small>Please note. This is for a digital version of the drawing only. You will <strong>not</strong> receive a print snail mailed to you. Although the 2048&times;1536 .jpg sent should look nice as an 8&times;10 (or A4 for my European friends) if you decide to print it yourself&#8230;</small></p>
-</form>
+<div class="well">
+  <form class="well" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom:0;">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="XAVAR6MGZGVLY">
+    <select name="os0" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'donation options']);">
+      <option value="a. Donate">a. Donate $5.00 USD</option>
+      <option value="b. Donate">b. Donate $15.00 USD</option>
+      <option value="c. Donate">c. Donate $30.00 USD</option>
+      <option value="d. Donate">d. Donate $50.00 USD</option>
+    </select>
+    <input type="hidden" name="on1" value="Twitter username">
+    <label>Twitter username you want me to draw</label>
+    <input type="text" name="os1" maxlength="75" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'Twitter username']);">
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="image" src="{{ site.url }}/images/donate-paypal-btn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="background:transparent;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    <p class="help-block" style="margin-bottom:0;"><small>Please note. This is for a digital version of the drawing only. You will <strong>not</strong> receive a print snail mailed to you. Although the 2048&times;1536 .jpg sent should look nice as an 8&times;10 (or A4 for my European friends) if you decide to print it yourself&#8230;</small></p>
+  </form>
+</div><!-- /.well -->
 
 ### What is PaperFaces?
 
