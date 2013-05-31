@@ -340,7 +340,7 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 .top-navigation li a{decoration:none;border-bottom:0 solid transparent;}
 #main{counter-reset:captions;}
 .image-wrap{position:relative;overflow:hidden;margin-bottom:2em;}.image-wrap img{width:100%;height:auto;-ms-interpolation-mode:bicubic;}
-.articles .image-wrap{max-height:250px;}
+.home .image-wrap,.articles .image-wrap{max-height:350px;}
 #main,.footer-wrap{margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;}#main:before,.footer-wrap:before,#main:after,.footer-wrap:after{display:table;content:"";}
 #main:after,.footer-wrap:after{clear:both;}
 #main:before,.footer-wrap:before,#main:after,.footer-wrap:after{content:"";display:table;}
@@ -350,6 +350,8 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 .image-wrap:after{content:" ";display:block;position:absolute;bottom:-1px;left:8%;width:0;height:0;border:20px solid transparent;border-bottom-color:#ebebeb;}
 .headline-wrap h1{font-size:48px;font-size:2.6666666666666665rem;margin-bottom:0.61875rem;}
 .headline-wrap h2{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;text-transform:uppercase;}
+.home h1,.articles h1{font-size:60px;font-size:3.3333333333333335rem;margin-bottom:0.495rem;}
+.home h2,.articles h2{font-size:36px;font-size:2rem;margin-bottom:0.825rem;}
 .image .headline-wrap h1{font-size:36px;font-size:2rem;margin-bottom:0.825rem;}
 .article-wrap h2{font-size:36px;font-size:2rem;margin-bottom:0.825rem;}
 .article-wrap h3{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;}
@@ -390,6 +392,7 @@ html{background:#ebebeb url(../images/body-background.jpg);font-family:'PT Serif
 .related-articles li{margin-bottom:0;color:#ffffff;}
 #index article h2{font-size:24px;font-size:1.3333333333333332rem;margin-bottom:1.2375rem;margin-bottom:0;}
 #index article p+p{text-indent:0;}
+#index .recent-grid img{-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;}
 .contact-form{min-height:20px;padding:19px;margin-bottom:20px;background-color:#f5f5f5;border:1px solid #e3e3e3;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}.contact-form label{margin-right:12px;margin-bottom:9px;display:block;}
 .contact-form .txt{display:inline-block;margin-bottom:10px;padding:5px 9px;font-size:1.2em;line-height:1.4em;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
 .contact-form .txtarea{display:block;resize:none;margin-bottom:10px;height:150px;padding:5px 9px;font-size:1.2em;line-height:1.4em;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}

@@ -57,8 +57,9 @@ html {
 		-ms-interpolation-mode: bicubic;
 	}
 }
+.home .image-wrap,
 .articles .image-wrap {
-	max-height: 250px;
+	max-height: 350px;
 }
 #main,
 .footer-wrap {
@@ -102,6 +103,14 @@ html {
 	h2 {
 		.delta();
 		text-transform: uppercase;
+	}
+}
+.home, .articles {
+	h1 {
+		.alpha();
+	}
+	h2 {
+		.gamma();
 	}
 }
 .image .headline-wrap {
@@ -275,6 +284,11 @@ html {
 		}
 		p+p {
 			text-indent: 0;
+		}
+	}
+	.recent-grid {
+		img {
+			.rounded(100px);
 		}
 	}
 }
