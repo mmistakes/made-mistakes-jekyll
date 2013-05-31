@@ -44,13 +44,14 @@ svg:not(:root) {
   *display: inline;
   /* IE7 inline-block hack */
   *zoom: 1;
-  padding: 12px;
+  padding: 12px 24px;
   margin-bottom: 2em;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
   border: 4px double @textcolor;
+  .rounded(50px);
   cursor: pointer;
   *margin-left: .3em;
   .transition(.4s linear); 
@@ -76,4 +77,8 @@ svg:not(:root) {
     color: @white;
     border-color: @white;
   }
+}
+.btn-small {
+  font-size: 60%;
+  padding: 6px 12px;
 }
