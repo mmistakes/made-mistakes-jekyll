@@ -36,23 +36,23 @@
 </div>
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h3>Latest PaperFaces Portraits</h3>
+  <a href="{{ site.url}}/paperfaces" class="btn btn-small pull-right">View all portraits</a>
+  <h3>PaperFaces Portraits</h3>
   <hr />
   <ul class="recent-grid unstyled-list">
   {% for post in site.categories.paperfaces limit:5 %}
     <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
   {% endfor %}
   </ul>
-  <a href="{{ site.url}}/paperfaces" class="btn">View all portraits</a>
-  <h3>Latest Articles</h3>
+  <a href="{{ site.url}}/articles" class="btn btn-small pull-right">View all articles</a>
+  <h3>Posts &amp; Diatribes</h3>
   <hr />
-  {% for post in site.categories.articles limit:3 %}    
+  {% for post in site.categories.articles limit:5 %}    
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
     <p itemprop="text">{{ post.description }}</p>
   </article>
   {% endfor %}
-  <a href="{{ site.url}}/articles" class="btn">View all articles</a>
 </div><!-- /#index -->
 
 <div class="footer-wrap">
