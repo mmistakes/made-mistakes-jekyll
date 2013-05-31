@@ -139,4 +139,4 @@ Nothing fancy here.
 
 ## License
 
-All original content (ie: articles, blog posts, illustrations, artwork, photographs, code) available on Made Mistakes is released under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) unless otherwise noted. Basically this means you are free to share, transmit, distribute, alter, transform, and build on my work just as long as you don't use it for commercial purposes $$$ or pass it off as your own thing. So don't be a dick and make a carbon copy of my site please.
+All original content (ie: articles, blog posts, illustrations, artwork, photographs, code) available on Made Mistakes is released under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) unless otherwise noted. Basically this means you are free to share, transmit, distribute, alter, transform, and build on my work just as long as you don't sell it as a theme or pass it off as your own thing. So don't be a dick and make a carbon copy of my site please.
