@@ -3,7 +3,6 @@ layout: article
 title: Feeling Kinda Stuck In A Half Nelson
 headline: "Feeling Kinda Stuck"
 subheadline: "Impressions of the Film Half Nelson"
-date: 2006-09-23
 description: "My impressions of the film Half Nelson, starring Ryan Gosling."
 category: articles
 image: half-nelson-feature

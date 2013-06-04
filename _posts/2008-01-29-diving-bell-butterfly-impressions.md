@@ -4,7 +4,6 @@ title: "Seeing Through Blurred Eyes &#8212; The Diving Bell and The Butterfly"
 headline: "Seeing Through Blurred Eyes"
 subheadline: "The Diving Bell and The Butterfly"
 description: "Quick impressions of the film, The Diving Bell and The Butterfly."
-date: 2008-01-29
 category: articles
 image: diving-bell-butterfly-underwater-still
 thumb: diving-bell-butterfly-underwater-still-thumb.jpg

@@ -4,7 +4,6 @@ title: "Makings of a Mistake, Designing the Site"
 headline: "Makings of a Mistake"
 subheadline: "Constantly Re-designing the Website"
 description: "As a designer we've all been there. When was the last time you got bored with a design and decided to just burn it and start anew?"
-date: 2011-04-04
 category: articles
 image: mademistakes-feature
 thumb: fadedlead-home-340x340.jpg

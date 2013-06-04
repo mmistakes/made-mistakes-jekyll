@@ -5,7 +5,6 @@ description: "My favorite thing about this Corn On Macabre 7-inch record is the 
 headline: "Vellum and Metallic Ink Bliss"
 subheadline: "Corn On Macabre Sleeve Design"
 category: articles
-date: 2011-05-19
 image: COM-outside-record-sleeve
 thumb: COM-record-sleeve-340x340.jpg
 tags: 

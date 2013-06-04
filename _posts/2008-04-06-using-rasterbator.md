@@ -4,7 +4,6 @@ title: "How to Use the Rasterbator to Print out a Wall Sized Owl"
 headline: "Using the Rasterbator"
 subheadline: "Wall Sized Owl Fun"
 description: "A quick tutorial and time lapse video of how to assemble a wall sized poster using The Rasterbator."
-date: 2008-04-06
 category: articles
 image: owl-rasterbator
 thumb: rasterbator-thumb.jpg

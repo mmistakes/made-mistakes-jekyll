@@ -7,7 +7,6 @@ description: "How the rawness found in DIY released emo and hardcore records sta
 category: articles
 image: collecting-records
 thumb: collecting-records-340x340.jpg
-date: 2011-04-21
 modified: 2013-04-26
 tags: 
 - record 

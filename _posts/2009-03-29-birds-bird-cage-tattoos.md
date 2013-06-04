@@ -4,7 +4,6 @@ title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
 headline: "Escaping Birds"
 subheadline: "Wendy's New Forearm Tattoos"
 description: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
-date: 2009-03-29
 modified: 2013-04-26
 category: articles
 image: bird-cage-tattoo-healed

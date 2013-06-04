@@ -4,7 +4,6 @@ title: "Bizarro Me, A Credit Card Scammer?"
 headline: "Bizarro Me"
 subheadline: "A Credit Card Scammer?"
 description: "Apparently there is a bizarro version of me in Niagara County using scammed credit cards."
-date: 2009-12-13
 category: articles
 image: mademistakes-feature
 thumb: michael-the-fugitive.jpg

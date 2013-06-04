@@ -4,7 +4,6 @@ title: RRIICCEE Show Last Night
 headline: "RRIICCEE Show"
 subheadline: "Buffalo NY (Soundlab) &#8211; December 2007"
 description: "Musically &#8212; RRIICCEE is fine, but not something I really want to see live again."
-date: 2007-12-12
 category: articles
 image: rriiccee-feature
 thumb: rriiccee-thumb.jpg

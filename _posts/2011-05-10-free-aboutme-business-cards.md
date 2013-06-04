@@ -5,7 +5,6 @@ headline: "Business Cards on the Cheap"
 subheadline: "Turn an About.me Profile into a Stack of Cards"
 description: "How 5 minutes spent creating an About.me profile nabbed me custom Moo business cards of my own design."
 category: articles
-date: 2011-05-10
 thumb: mademistakes-business-cards-front-148x148.jpg
 image: about-me-featured
 tags: 

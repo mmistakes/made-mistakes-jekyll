@@ -5,7 +5,6 @@ headline: "Typography No No's"
 subheadline: "with Urban Outfitters"
 description: "The typography in Urban Outfitters latest catalog has some serious readability issues."
 category: articles
-date: 2011-04-12
 modified: 2013-04-26
 image: UO11-spring-featured
 thumb: UO-april11-340x340.jpg

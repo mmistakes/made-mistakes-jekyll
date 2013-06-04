@@ -4,7 +4,6 @@ title: "Upgrading an iMac G5 to OS X Leopard"
 headline: "Clean Install Time"
 subheadline: "Upgrading an iMac G5 to OS X Leopard"
 description: "What I went through upgrading an iMac G5 to Mac OS X Leopard (10.5)."
-date: 2007-11-17
 category: articles
 image: starfield-leopard
 thumb: 65-thumb.jpg

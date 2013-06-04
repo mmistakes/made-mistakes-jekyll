@@ -4,7 +4,6 @@ title: "Impressions of iPhone 4 from a Long Time Palm User"
 headline: "iPhone 4 Impressions"
 subheadline: "From a Long Time Palm User"
 description: "The following are some of my experiences and observations transitioning from Palm to iOS after nearly 10 years of baggage."
-date: 2010-06-25
 category: articles
 image: mademistakes-feature
 thumb: iphone4-impressions-340x340.jpg

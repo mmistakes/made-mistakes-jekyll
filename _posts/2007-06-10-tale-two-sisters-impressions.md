@@ -4,7 +4,6 @@ title: "A Tale of Two Sisters (Janghwa, Hongryeon)"
 headline: "A Tale of Two Sisters"
 subheadline: "Almost the Film Version of Fatal Frame"
 description: "A Korean horror flick that reminded me of the Fatal Frame video game franchise."
-date: 2007-06-10
 category: articles
 image: tale-two-sisters-floor-blood
 thumb: two-sisters-340x340.jpg

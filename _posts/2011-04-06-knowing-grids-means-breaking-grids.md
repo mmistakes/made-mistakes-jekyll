@@ -5,7 +5,6 @@ headline: "Knowing Grids"
 subheadline: "Means Breaking Grids"
 description: "Exploring what it means to develop a grid system that helps facilitate strong design with purpose."
 category: articles
-date: 2011-04-06
 modified: 2013-04-26
 image: knowing-grids-feature
 thumb: owh-grid-spread-340x340.jpg

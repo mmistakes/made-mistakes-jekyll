@@ -4,7 +4,6 @@ title: "Isn't it Romantic?"
 headline: "Romance or Something Close To It"
 subheadline: "Easter Egg Marriage Proposal"
 description: "Two years ago on this day, I proposed to my wife Wendy by leading her on an Easter egg scavenger hunt."
-date: 2012-04-04
 image: engagement-photo
 thumb: romance-engagement-thumb.jpg
 category: articles

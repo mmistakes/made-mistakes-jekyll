@@ -4,7 +4,6 @@ title: "iPod Battery Settlement Program Status"
 headline: "iPod Battery Settlement"
 subheadline: "Program Status Update"
 description: "A short update on the status of my iPod 3G battery settlement claim."
-date: 2006-10-25
 category: articles
 image: mademistakes-feature
 thumb: ipod-classic-340x340.jpg

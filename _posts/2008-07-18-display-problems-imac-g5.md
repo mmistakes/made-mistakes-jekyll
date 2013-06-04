@@ -4,7 +4,6 @@ title: "Three Years of Problems with an iMac G5"
 headline: "Faulty Logic Board"
 subheadline: "Three Years of Problems with an iMac G5"
 description: "Faulty logic boards, ambient sensors, and displays oh my!"
-date: 2008-07-18
 category: articles
 image: imac-glitch
 thumb: imac-glitch-340x340.jpg
