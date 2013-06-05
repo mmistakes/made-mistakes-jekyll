@@ -4,6 +4,7 @@ title: "PaperFaces portrait of Michael Rose"
 description: "PaperFaces portrait of Michael Rose drawn with Paper by 53 on an iPad."
 image: paperfaces-michael-rose-beard-lg
 thumb: paperfaces-michael-rose-beard-150.jpg
+modified: 2013-06-05
 category: paperfaces
 tags: 
 - PaperFaces
@@ -26,7 +27,7 @@ Thirty-four years and still kicking --- a PaperFaces self portrait on my birthda
 
 <figure>
 	<a href="{{ site.url }}/images/michael-rose-beard-process-4-lg.jpg"><img src="{{ site.url }}/images/michael-rose-beard-process-4-600.jpg" alt="Screenshot. Adding beard detail with the pencil."></a>
-	<figcaption>Without the new zoom tool adding detail to the beeard would have been a pain.</figcaption>
+	<figcaption>The new zoom tool is a beast and makes adding beard detail fun and easy.</figcaption>
 </figure>
 
 {% include paperfaces-boilerplate.html %}
