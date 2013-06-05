@@ -1,7 +1,11 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
+_  ________ ____   _  ______________  _________ 
+|\/||__||  \|___   |\/||[__  | |__||_/ |___[__  
+|  ||  ||__/|___   |  ||___] | |  || \_|______] 
+                                                
+/* mademistakes.com */
+/* design faux pas */
 
-/* TEAM */
+/* ABOUT */
 
    Designer:    Michael Rose
    Twitter:     @mmistakes
@@ -11,7 +15,7 @@
 
    Language:    English
    Built with:  Jekyll (http://jekyllrb.com/)
-                Less (http://lesscss.org/)
+                LESS (http://lesscss.org/)
                 jQuery (http://jquery.com/)
                 Magnific Popup (https://github.com/dimsemenov/Magnific-Popup)
                 Picturefill (https://github.com/scottjehl/picturefill)
