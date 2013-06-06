@@ -210,7 +210,7 @@ html {
 .image-grid {
 	.clearfix();
 	list-style: none;
-	margin: 0 0 1em;
+	margin: 0;
 	padding: 0;
 	li {
 		.grid(12,6);
@@ -221,7 +221,9 @@ html {
 	list-style: none;
 	margin: 1em 0;
 	li {
-		display: inline;
+		display: block;
+		float: left;
+		width: 20%;
 		a { 
 			border-bottom: 0 solid transparent;
 			&:hover {
@@ -230,8 +232,7 @@ html {
 		}
 	}
 	img {
-		width: 19%;
-		margin-bottom: 1%;
+		width: 100%;
 	}
 }
 .holder {
