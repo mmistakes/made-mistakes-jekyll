@@ -37,7 +37,7 @@
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <h3><a href="{{ site.url}}/articles/paperfaces-ipad-portrait-project.html">PaperFaces iPad Portraits</a></h3>
-  {% for post in site.categories.paperfaces limit:1 %}<img src="{{ site.url }}/images/{{ post.image }}.jpg" alt="{{ post.title }} image" style="width:100%;">{% endfor %}
+  {% for post in site.categories.paperfaces limit:1 %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image }}.jpg" alt="{{ post.title }} image" style="width:100%;"></a>{% endfor %}
   <ul class="recent-grid unstyled-list">
   {% for post in site.categories.paperfaces limit:5 offset:1 %}
     <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="{{ post.title }} thumb" /></a></li>
