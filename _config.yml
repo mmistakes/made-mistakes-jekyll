@@ -1,6 +1,6 @@
 safe:   false
 port:   4000
-url:    http://mademistakes.com
+#url:    http://mademistakes.com
 
 source:      .
 destination: ./_site
@@ -15,30 +15,17 @@ future:      true
 lsi:         false
 pygments:    true
 markdown:    kramdown
+# https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title.html
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-#
-# Template Variables
-# Variable  Description
-# year   Year from the post’s filename
-# month  Month from the post’s filename
-# day  Day from the post’s filename
-# title  Title from the post’s filename
-# categories   The specified categories for this post. Jekyll automatically parses out double slashes in the URLs, so if no categories are present, it basically ignores this.   
-
-# Built-in styles
-# Name  Template
-# date  /:categories/:year/:month/:day/:title.html
-# pretty  /:categories/:year/:month/:day/:title
-# none  /:categories/:title.html
-# simple /:categories/:title
-
-# Examples
-# None specified. /2009/04/29/slap-chop.html
-# permalink: pretty /2009/04/29/slap-chop/index.html
-# permalink: /:month-:day-:year/:title.html /04-29-2009/slap-chop.html
-# permalink: /blog/:year/:month/:day/:title /blog/2009/04/29/slap-chop/index.html
+# Internal pages/posts to include in top navigation
+links:
+  - title: About
+    url: /about
+  - title: Articles
+    url: /articles
+  - title: PaperFaces
+    url: /articles/paperfaces-ipad-portrait-project.html
 
 maruku:
   use_tex:    false

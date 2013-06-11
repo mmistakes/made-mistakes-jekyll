@@ -2,6 +2,7 @@
 layout: article
 title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
+subheadline: "Built for Jekyll"
 description: "A responsive Jekyll theme with editorial tendencies and clean typography by designer Michael Rose."
 image: minimal-mistakes-theme
 category: articles

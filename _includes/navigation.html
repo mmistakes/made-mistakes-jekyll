@@ -5,9 +5,7 @@
 	<div class="top-navigation">
 		<nav role="navigation">
 		    <ul>
-		        <li><a href="{{ site.url }}/about">About</a></li>
-		        <li><a href="{{ site.url }}/articles">Articles</a></li>
-		        <li><a href="{{ site.url }}/articles/paperfaces-ipad-portrait-project.html">PaperFaces</a></li>
+		        {% for link in site.links %}<li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>{% endfor %}
 		        <li><i class="icon-feed"></i> <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">Feed</a>
 		    </ul>
 		</nav>
