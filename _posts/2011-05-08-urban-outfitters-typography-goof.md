@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Urban Outfitters, Ya Typography Dun Goofed Again"
 headline: "Urban Outfitter"
 subheadline: "Ya Typography Dun Goofed Again"

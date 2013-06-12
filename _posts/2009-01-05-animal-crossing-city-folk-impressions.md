@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Those City Folk in Animal Crossing Still Love the Gossip"
 headline: "Some Things Never Change in Beetus"
 subheadline: "A Review of Animal Crossing: City Folk"

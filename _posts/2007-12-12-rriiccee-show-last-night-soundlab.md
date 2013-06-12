@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: RRIICCEE Show Last Night
 headline: "RRIICCEE Show"
 subheadline: "Buffalo NY (Soundlab) &#8211; December 2007"

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Typography No No's with Urban Outfitters"
 headline: "Typography No No's"
 subheadline: "with Urban Outfitters"

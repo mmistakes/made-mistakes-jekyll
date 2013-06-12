@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Impressions of iPhone 4 from a Long Time Palm User"
 headline: "iPhone 4 Impressions"
 subheadline: "From a Long Time Palm User"

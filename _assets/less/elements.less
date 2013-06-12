@@ -7,8 +7,46 @@ hr {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #fff; 
 }
-/* Figures and images ==================================== */
-article img {
+
+// Figures and images
+// --------------------------------------------------
+
+figure {
+  margin: 0;
+  &.large {
+    @media @large {
+      margin-right: -120px;
+      margin-left: -50px;
+      figcaption { 
+        margin-left: 50px; 
+      }
+    }
+  }
+  &.half {
+    @media @large {
+      a {
+        width: 280px;
+        float: left;
+        margin-left: 10px;
+        &:first-child {
+          margin-right: 10px;
+          margin-left: 0;
+        }
+      }
+      figcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        clear: left;
+      }
+    }
+  }
+}
+@media @large {
+  #feature .half a {
+    width: 250px;
+  }
+}
+img {
   max-width: 100%;
   height: auto;
   border-width: 0; 
@@ -16,58 +54,37 @@ article img {
   -ms-interpolation-mode: bicubic; 
 }
 svg:not(:root) {
-    overflow: hidden; 
+  overflow: hidden; 
 }
-/* Buttons =============================================== */
-.btn {
-  display: inline-block;
-  *display: inline;
-  /* IE7 inline-block hack */
-  *zoom: 1;
-  padding: 12px 24px;
-  margin-bottom: 2em;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: middle;
-  border: 4px double @textcolor;
-  .rounded(50px);
-  cursor: pointer;
-  *margin-left: .3em;
-  .transition(.4s linear); 
-  &:visited {
-    border: 4px double @linkcolorvisited;
-  }
-  &:hover {
-    border: 4px double @linkcolorhover;
+.feature {
+  @media @large {
+    margin-left: -20px;
+    max-width: 980px;
+    .clearfix();
   }
 }
-.btn:first-child {
-  *margin-left: 0; 
-}
-.btn-inverse {
-  border: 4px double @white;
-  color: @white;
-  background-color: @black;
-  &:visited {
-    color: @white;
-    border-color: @white;
+.recent-grid {
+  li {
+    float: left;
+    padding: 2px;
   }
-  &:hover {
-    color: @white;
-    border-color: @white;
+  img {
+    width: 110px;
+    height: 110px;
+  }
+  .clearfix();
+}
+#feature .recent-grid img {
+    @media @large {
+    width: 100px;
+    height: 100px;
   }
 }
-.btn-small {
-  font-size: 60%;
-  padding: 6px 12px;
-}
+
+// Well
+// --------------------------------------------------
+
 .well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  border: 1px solid @comp-color;
   .rounded(4px);
-  .box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.05));
 }

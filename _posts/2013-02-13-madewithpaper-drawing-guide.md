@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "A Guide to Drawing with Paper by 53"
 headline: "A Guide to Drawing with Paper by 53"
 subheadline: "Methods and Techniques of a Non-Artist"
@@ -18,6 +18,7 @@ tags:
 - design
 - iPad
 - app
+- feature
 ---
 <section id="table-of-contents" class="toc">
   <header>

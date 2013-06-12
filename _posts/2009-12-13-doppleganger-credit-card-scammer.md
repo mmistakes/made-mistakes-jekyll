@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Bizarro Me, A Credit Card Scammer?"
 headline: "Bizarro Me"
 subheadline: "A Credit Card Scammer?"

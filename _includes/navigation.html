@@ -1,13 +1,11 @@
-<div class="navigation-wrapper">
-	<div class="site-name">
-		<a href="{{ site.url }}">Made Mistakes</a>
-	</div><!-- /.site-name -->
-	<div class="top-navigation">
-		<nav role="navigation">
-		    <ul>
-		        {% for link in site.links %}<li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>{% endfor %}
-		        <li><i class="icon-feed"></i> <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">Feed</a>
-		    </ul>
-		</nav>
-	</div><!-- /.top-navigation -->
-</div><!-- /.navigation-wrapper -->
+<header role="banner">
+	<span class="branding"><a href="{{ site.url }}" title="Home">{{ site.title }}</a></span>
+	<nav role="navigation" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	    <ul>
+	        {% for link in site.links %}
+			<li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+	        {% endfor %}
+	        <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
+	    </ul>
+	</nav><!-- /.site-nav -->
+</header>

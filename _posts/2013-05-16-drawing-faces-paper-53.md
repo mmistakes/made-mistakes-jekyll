@@ -1,21 +1,14 @@
 ---
-layout: article
+layout: post
 title: "Drawing Faces without Faces with Paper by 53"
 headline: "Drawing Faces without Faces"
 subheadline: "The PaperFaces Technique"
 description: "Short on time? Here's the quick and fun way to draw and paint portraits using Paper by 53."
-image: paper-53-draw-face-feature
-thumb: paper-53-draw-face-thumb.jpg
+image: 
+  feature: paper-53-draw-face-feature-xl.jpg
+  thumb: paper-53-draw-face-thumb.jpg
 category: articles
-tags: 
-- Paper by 53
-- tutorial
-- tips
-- drawing
-- face
-- portrait
-- iPad
-- MadeWithPaper
+tags: [Paper by 53, tutorial, tips, drawing, face, portrait, iPad, MadeWithPaper, feature]
 ---
 
 <section id="table-of-contents" class="toc">

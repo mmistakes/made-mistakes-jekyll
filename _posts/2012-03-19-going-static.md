@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Going Static with Jekyll"
 headline: "Going Static with Jekyll"
 subheadline: "Saying Goodbye to Wordpress"
@@ -8,7 +8,7 @@ modified: 2013-05-28
 thumb: going-static-thumb.jpg
 image: going-static-header
 category: articles
-tags: [Jekyll, static, website, web development, design, responsive, Made Mistakes]
+tags: [Jekyll, static, website, web development, design, responsive, Made Mistakes, feature]
 ---
 <section id="table-of-contents" class="toc">
   <header>

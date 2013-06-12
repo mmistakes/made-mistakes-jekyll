@@ -3,30 +3,12 @@ layout: page
 title: About
 headline: What's a Made Mistakes?
 subheadline: Behind the Name and Designer
-date: 2013-05-29
+modified: 2013-06-12
 description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
-image: paperfaces-michael-rose-beard
-tags: 
-- Michael Rose
-- graphic design
-- design
-- designer
-- Buffalo
-- print
-- catalog design
-- web design
-- made mistakes
-- mmistakes
+image: 
+  feature: paperfaces-michael-rose-beard-xl.jpg
+tags: [Michael Rose, graphic design, design, designer, Buffalo, print, catalog design, web design, made mistakes, mmistakes]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 ## What's a Made Mistakes?
 

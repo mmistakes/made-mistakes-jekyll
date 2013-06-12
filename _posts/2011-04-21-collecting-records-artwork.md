@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Collecting Records for the Artwork"
 headline: "Collecting Records"
 subheadline: "Mostly for the Artwork &amp; Sometimes the Music"

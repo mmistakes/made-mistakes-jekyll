@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Blinded By The Light &#8212; Sunshine Movie Impressions"
 headline: "Blinded By The Light"
 subheadline: "Impressions of Danny Boyle's Sunshine"

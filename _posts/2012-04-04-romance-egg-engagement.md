@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Isn't it Romantic?"
 headline: "Romance or Something Close To It"
 subheadline: "Easter Egg Marriage Proposal"

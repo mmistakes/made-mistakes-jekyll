@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Getting the Sold Out iPhone 4 at Launch"
 description: "Looks like I might actually get two iPhone 4's on launch day."
 headline: "Sold Out"

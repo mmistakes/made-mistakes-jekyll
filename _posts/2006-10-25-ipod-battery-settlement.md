@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "iPod Battery Settlement Program Status"
 headline: "iPod Battery Settlement"
 subheadline: "Program Status Update"

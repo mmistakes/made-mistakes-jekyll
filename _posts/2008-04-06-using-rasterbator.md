@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "How to Use the Rasterbator to Print out a Wall Sized Owl"
 headline: "Using the Rasterbator"
 subheadline: "Wall Sized Owl Fun"

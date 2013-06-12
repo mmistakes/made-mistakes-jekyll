@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "The Quality of My First Blurb Book is Great"
 headline: "The Quality of My First Blurb Book is Great"
 description: "Designing a book with Blurb was painless and having it printed was equaly enjoyable. I'm really happy with how my first photography book turned out."

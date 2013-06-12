@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Feeling Kinda Stuck In A Half Nelson
 headline: "Feeling Kinda Stuck"
 subheadline: "Impressions of the Film Half Nelson"

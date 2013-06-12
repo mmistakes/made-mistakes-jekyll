@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Three Years of Problems with an iMac G5"
 headline: "Faulty Logic Board"
 subheadline: "Three Years of Problems with an iMac G5"

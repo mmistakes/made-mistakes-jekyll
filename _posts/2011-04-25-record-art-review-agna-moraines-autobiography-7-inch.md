@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Agna Moraine's Autobiography Handwritten Record Art"
 headline: "Handwritten Record Art"
 subheadline: "Agna Moraine's Autobiography &#8212; Self-Titled"

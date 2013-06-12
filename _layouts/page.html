@@ -7,42 +7,35 @@
 {% include head.html %}
 </head>
 
-<body class="page" itemscope itemtype="http://schema.org/WebPage">
+<body id="{% if page.tags contains 'feature' %}feature{% else %}page{% endif %}" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
+{% include navigation.html %}
 
-<div class="image-wrap">
-  <span data-picture data-alt="{{ page.title }} page image">
-        <span data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></span>
-        <span data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></span>
-        <span data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></span>
-        <span data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></span>
-        <!--[if (lt IE 9) & (!IEMobile)]>
-          <span data-src="{{ site.url }}/images/{{ page.image }}-l.jpg"></span>
-        <![endif]-->
-        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-        <noscript>
-            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} page image">
-        </noscript>
-    </span>
-</div><!-- /.image-wrap -->
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <div class="post-wrap">
+    <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+      {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="feature" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">{% endif %}
+      <header class="headline-wrap">
+        <h1 itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+        {% if page.subheadline %}<h2>{{ page.subheadline }}</h2>{% endif %}
+      </header><!--/ .headline-wrap -->
+      <div class="content-wrap" itemprop="text">
+        {{ content }}
+      </div><!-- /.content-wrap -->
+      <footer role="contentinfo">
+        <p class="byline">{% if page.modified %} Page updated on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time> by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.{% else %}Page updated by <span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>{% endif %}</p>
+      </footer>
+    </article>
+    <aside>
+      {% include author-bio.html %}
+    </aside>
+  </div><!-- /.post-wrap -->
 
-<div id="main" role="main" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="article-author-top">
-    {% include author-bio.html %}
-  </div>
-  <article itemprop="articleBody">
-    <div class="headline-wrap">
-      <h1 itemprop="headline">{{ page.title }}</h1>
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#index -->
+</div><!-- /#main -->
 
 <div class="footer-wrap">
-  <footer>
+  <footer role="contentinfo">
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->

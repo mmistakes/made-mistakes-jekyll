@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "One Week with the New iPod classic"
 headline: "One Week with the New iPod classic"
 subheadline: "A short review"

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Knowing Grids Means Breaking Grids"
 headline: "Knowing Grids"
 subheadline: "Means Breaking Grids"

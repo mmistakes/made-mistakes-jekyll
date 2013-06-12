@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Seeing Through Blurred Eyes &#8212; The Diving Bell and The Butterfly"
 headline: "Seeing Through Blurred Eyes"
 subheadline: "The Diving Bell and The Butterfly"

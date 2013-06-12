@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "A Tale of Two Sisters (Janghwa, Hongryeon)"
 headline: "A Tale of Two Sisters"
 subheadline: "Almost the Film Version of Fatal Frame"

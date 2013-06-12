@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "How to Draw Realistic Hair with Paper by 53"
 headline: "How to Draw Realistic Hair"
 subheadline: "with an iPad and Paper by 53"
@@ -15,6 +15,7 @@ tags:
 - MadeWithPaper
 - tutorial
 - tips
+- feature
 ---
 
 <section id="table-of-contents" class="toc">

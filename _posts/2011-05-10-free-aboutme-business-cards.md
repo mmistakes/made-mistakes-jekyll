@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "My About.me Profile and Free Moo Business Cards"
 headline: "Business Cards on the Cheap"
 subheadline: "Turn an About.me Profile into a Stack of Cards"

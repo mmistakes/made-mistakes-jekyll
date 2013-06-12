@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "La Moustache Quick Review"
 headline: "La Moustache"
 subheadline: "Quick Impressions"

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Upgrading an iMac G5 to OS X Leopard"
 headline: "Clean Install Time"
 subheadline: "Upgrading an iMac G5 to OS X Leopard"

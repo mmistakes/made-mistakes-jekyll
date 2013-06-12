@@ -7,15 +7,15 @@
 {% include head.html %}
 </head>
 
-<body id="photo" itemscope itemtype="http://schema.org/WebPage">
+<body id="{% if page.tags contains 'feature' %}feature{% else %}post{% endif %}" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
 {% include navigation.html %}
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork">
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <div class="post-wrap">
-    <article>
-      <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image" itemprop="primaryImageOfPage">
+    <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+      {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="feature" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">{% endif %}
       <header class="headline-wrap">
         <h1 itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% if page.subheadline %}<h2>{{ page.subheadline }}</h2>{% endif %}
@@ -24,7 +24,7 @@
         {{ content }}
       </div><!-- /.content-wrap -->
       <footer role="contentinfo">
-        <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" rel="dct:type">work</span></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">Michael Rose</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
+        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.</p>
       </footer>
     </article>
     <aside>
@@ -33,13 +33,13 @@
   </div><!-- /.post-wrap -->
   <nav class="pager" role="navigation">
     <ul>
-    {% for post in site.categories.paperfaces %}
+    {% for post in site.categories.articles %}
     {% if post.url == page.url %}
       {% assign post_index0 = forloop.index0 %}
       {% assign post_index1 = forloop.index %}
     {% endif %}
     {% endfor %}
-    {% for post in site.categories.paperfaces %}
+    {% for post in site.categories.articles %}
       {% if post_index0 == forloop.index %}
         {% assign next_post = post.url %}
         {% assign next_title = post.title %}
@@ -64,7 +64,7 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include scripts.html %}          
+{% include scripts.html %}	        
 
 </body>
 </html>

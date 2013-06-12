@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
@@ -20,6 +20,7 @@ tags:
 - painting
 - Michael Rose
 - graphic design
+- feature
 ---
 
 <section id="table-of-contents" class="toc">

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
 headline: "Escaping Birds"
 subheadline: "Wendy's New Forearm Tattoos"
@@ -20,6 +20,7 @@ tags:
 - design
 - tree
 - Michael Rose
+- feature
 ---
 <section id="table-of-contents" class="toc">
   <header>

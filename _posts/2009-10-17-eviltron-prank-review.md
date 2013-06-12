@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Eviltron and a Scary Movie Makes for a Great Prank"
 headline: "Eviltron"
 subheadline: "+ Scary Movie Scares"

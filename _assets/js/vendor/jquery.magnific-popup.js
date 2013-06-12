@@ -1,4 +1,4 @@
-/*! Magnific Popup - v0.8.8 - 2013-05-26
+/*! Magnific Popup - v0.8.9 - 2013-06-04
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2013 Dmitry Semenov; */
 ;(function($) {
@@ -15,6 +15,7 @@
  * Private static constants
  */
 var CLOSE_EVENT = 'Close',
+	AFTER_CLOSE_EVENT = 'AfterClose',
 	BEFORE_APPEND_EVENT = 'BeforeAppend',
 	MARKUP_PARSE_EVENT = 'MarkupParse',
 	OPEN_EVENT = 'Open',
@@ -227,7 +228,7 @@ MagnificPopup.prototype = {
 
 			mfp.container = _getEl('container', mfp.wrap);
 		}
-		
+
 		mfp.contentContainer = _getEl('content');
 		if(mfp.st.preloader) {
 			mfp.preloader = _getEl('preloader', mfp.container, mfp.st.tLoading);
@@ -308,7 +309,7 @@ MagnificPopup.prototype = {
 		var bodyStyles = {};
 
 		if( mfp.fixedContentPos ) {
-            if(mfp._hasScrollBar()){
+            if(mfp._hasScrollBar(windowHeight)){
                 var s = mfp._getScrollbarSize();
                 if(s) {
                     bodyStyles.paddingRight = s;
@@ -415,11 +416,11 @@ MagnificPopup.prototype = {
 		mfp._removeClassFromMFP(classesToRemove);
 
 		if(mfp.fixedContentPos) {
-			var bodyStyles = {paddingRight: 0};
+			var bodyStyles = {paddingRight: ''};
 			if(mfp.isIE7) {
-				$('body, html').css('overflow', 'auto');
+				$('body, html').css('overflow', '');
 			} else {
-				bodyStyles.overflow = 'visible';
+				bodyStyles.overflow = '';
 			}
 			_body.css(bodyStyles);
 		}
@@ -446,6 +447,8 @@ MagnificPopup.prototype = {
 		mfp.content = null;
 		mfp.currTemplate = null;
 		mfp.prevHeight = 0;
+
+		_mfpTrigger(AFTER_CLOSE_EVENT);
 	},
 	
 	updateSize: function(winHeight) {
@@ -458,6 +461,10 @@ MagnificPopup.prototype = {
 			mfp.wH = height;
 		} else {
 			mfp.wH = winHeight || _window.height();
+		}
+		// Fixes #84: popup incorrectly positioned with position:relative on body
+		if(!mfp.fixedContentPos) {
+			mfp.wrap.css('height', mfp.wH);
 		}
 
 		_mfpTrigger('Resize');
@@ -707,9 +714,8 @@ MagnificPopup.prototype = {
 		mfp.wrap.removeClass(cName);
 	},
 	_hasScrollBar: function(winHeight) {
-		return (document.body.clientHeight > (winHeight || _window.height()) )
+		return (  (mfp.isIE7 ? _document.height() : document.body.scrollHeight) > (winHeight || _window.height()) )
 	},
-
 	_parseMarkup: function(template, values, item) {
 		var arr;
 		if(item.data) {
@@ -950,7 +956,8 @@ $.magnificPopup.registerModule(INLINE_NS, {
 				if(el.length) {
 
 					// If target element has parent - we replace it with placeholder and put it back after popup is closed
-					if(el[0].parentNode !== null) {
+					var parent = el[0].parentNode;
+					if(parent && parent.tagName) {
 						if(!_inlinePlaceholder) {
 							_hiddenClass = inlineSt.hiddenClass;
 							_inlinePlaceholder = _getEl(_hiddenClass);
@@ -1019,10 +1026,14 @@ $.magnificPopup.registerModule(AJAX_NS, {
 			var opts = $.extend({
 				url: item.src,
 				success: function(data, textStatus, jqXHR) {
+					var temp = {
+						data:data,
+						xhr:jqXHR
+					};
 
-					_mfpTrigger('ParseAjax', jqXHR);
+					_mfpTrigger('ParseAjax', temp);
 
-					mfp.appendContent( $(jqXHR.responseText), AJAX_NS );
+					mfp.appendContent( $(temp.data), AJAX_NS );
 
 					item.finished = true;
 
@@ -1036,6 +1047,7 @@ $.magnificPopup.registerModule(AJAX_NS, {
 
 					mfp.updateStatus('ready');
 
+					_mfpTrigger('AjaxContentAdded');
 				},
 				error: function() {
 					_removeAjaxCursor();

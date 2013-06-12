@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Makings of a Mistake, Designing the Site"
 headline: "Makings of a Mistake"
 subheadline: "Constantly Re-designing the Website"
