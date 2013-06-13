@@ -13,11 +13,14 @@ hr {
 
 figure {
   margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   &.large {
     @media @large {
       margin-right: -120px;
       margin-left: -50px;
       figcaption { 
+        margin-right: 150px;
         margin-left: 50px; 
       }
     }
@@ -35,8 +38,6 @@ figure {
         }
       }
       figcaption {
-        padding-top: 10px;
-        padding-bottom: 10px;
         clear: left;
       }
     }
@@ -56,8 +57,6 @@ figure {
         }
       }
       figcaption {
-        padding-top: 10px;
-        padding-bottom: 10px;
         clear: left;
       }
     }
@@ -82,7 +81,7 @@ img {
 svg:not(:root) {
   overflow: hidden; 
 }
-.feature {
+#feature .feature {
   @media @large {
     margin-left: -20px;
     max-width: 980px;
@@ -111,6 +110,7 @@ svg:not(:root) {
 // --------------------------------------------------
 
 .well {
+  padding: 20px;
   border: 1px solid @comp-color;
   .rounded(4px);
 }
