@@ -519,7 +519,7 @@ header[role="banner"] ul li:first-child:before{content:"";padding-left:0;}
 .post-wrap:after{clear:both;}
 .post-wrap article{position:relative;counter-reset:captions;}.post-wrap article header h1{font-family:'PT Serif',serif;font-size:28px;font-size:1.75rem;line-height:0.8571;margin-bottom:0;}@media only screen and (min-width: 768px){.post-wrap article header h1{font-size:36px;font-size:2.25rem;line-height:0.6667;line-height:1;}}@media only screen and (min-width: 768px){.post-wrap article header h1{font-size:40px;font-size:2.5rem;line-height:0.6;line-height:1;}}
 .post-wrap article header h2{font-size:16px;font-size:1rem;line-height:1.5;}@media only screen and (min-width: 768px){.post-wrap article header h2{font-size:18px;font-size:1.125rem;line-height:1.3333;}}@media only screen and (min-width: 1000px){.post-wrap article header h2{font-size:20px;font-size:1.25rem;line-height:1.2;}}
-.post-wrap article p>a{border-bottom:1px dotted #343434;}.post-wrap article p>a:hover{border-bottom-style:solid;}
+.post-wrap article p>a{border-bottom:1px dotted #b3b3b3;}.post-wrap article p>a:hover{border-bottom-style:solid;}
 @media only screen and (min-width: 768px){.post-wrap article{max-width:580px;margin-right:auto;margin-left:auto;}}@media only screen and (min-width: 1000px){.post-wrap article{width:580px;}}.post-wrap article ul li,.post-wrap article ol li{padding-bottom:10px;}
 .post-wrap aside{padding-bottom:40px;position:relative;}.post-wrap aside .bio-photo{margin-right:20px;width:100px;float:left;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;}
 .post-wrap aside .bio-content{float:left;width:460px;}@media only screen and (min-width: 1000px){.post-wrap aside .bio-content{width:100%;float:none;}}
