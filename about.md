@@ -7,7 +7,7 @@ modified: 2013-06-12
 description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
 image: 
   feature: paperfaces-michael-rose-beard-xl.jpg
-tags: [Michael Rose, graphic design, design, designer, Buffalo, print, catalog design, web design, made mistakes, mmistakes]
+tags: [Michael Rose, graphic design, design, designer, Buffalo, print, catalog design, web design, made mistakes, mmistakes, feature]
 ---
 
 ## What's a Made Mistakes?
