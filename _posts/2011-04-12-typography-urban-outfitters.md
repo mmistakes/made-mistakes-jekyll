@@ -7,7 +7,7 @@ description: "The typography in Urban Outfitters latest catalog has some serious
 category: articles
 modified: 2013-04-26
 image: 
-  featur: UO11-spring-featured.jpg
+  feature: UO11-spring-featured.jpg
   small: UO11-spring-340x100.jpg
   thumb: UO11-spring-thumb.jpg
 tags: [catalog, design, graphic design, typography, critique, Urban Outfitters, mistakes, readability, feature]

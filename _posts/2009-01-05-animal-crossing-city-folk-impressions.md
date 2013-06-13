@@ -10,7 +10,7 @@ image:
   feature: animal-crossing-stuck-in-hole.jpg
   small: animal-crossing-stuck-in-hole-340x100.jpg
   thumb: animal-crossing-me-wendy-thumb.jpg
-tags: [Animal Crossing, City Folk, Nintendo, Wii, video games, review, feature]
+tags: [Animal Crossing, City Folk, Nintendo, Wii, video games, review]
 ---
 
 Some things get better and some things never change. Going in I knew **Animal Crossing: City Folk** (for the Nintendo Wii) would be remaining mostly unchanged from its predecessor AC: Wild World on the DS. But frankly I didn't care and wanted to try it out for myself even after reading a few lackluster reviews. What really surprised me after playing was how it was able to hook me in...again. Which is pretty admirable seeing how it's the same damn game I've played TWICE before.

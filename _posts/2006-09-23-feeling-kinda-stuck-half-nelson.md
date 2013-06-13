@@ -25,7 +25,7 @@ My gosh! I ate a bowl of generic Honeycomb cereal for lunch and have been starvi
 
 The reviews were fairly good for Half Nelson and I really enjoyed the feel of the website and trailer. Everything in this film seemed extremely subtle and understated to me. The typography used in the opening credits was made up of a serif typeface... all lowercase... white on black... very traditional with a hint of organic imperfection. Nothing too flashy. Just a story about an average guy smoking crack in the school he happens to be teaching at.
 
-<figure>
+<figure class="large">
 	<img src="{{ site.url }}/images/600full-half-nelson-screenshot.jpg" alt="Half Nelson (2006)" />
 	<figcaption>Still shot from Half Nelson (2006)</figcaption>
 </figure>

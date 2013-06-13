@@ -22,7 +22,7 @@ Took some quick measurements of the wall's dimensions and uploaded the image to 
 
 Anyways. After cutting out all the pages I setup my JVC mini-DV camcorder and recorded myself taping each page to the wall. Figured this would be a fun excuse to use the camcorder since I rarely break the thing out after buying it 4 years ago. Took the 2 hours of footage and imported it into iMovie and made a quick time lapse video by speeding it up 4x. I think it came out good and laugh every time I see my stupid cats walking around watching me in confusion.
 
-<figure>
+<figure class="large">
     <iframe width="420" height="315" src="http://www.youtube.com/embed/05Qy88RUJHA" frameborder="0"> </iframe>
     <figcaption>Video time lapse of the process of putting up a Rasterbator poster</figcaption>
 </figure>
