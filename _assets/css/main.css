@@ -106,8 +106,9 @@ figcaption{margin-top:10px;font-size:14px;font-size:0.875rem;line-height:1.7143;
 .visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{position:static;clip:auto;height:auto;width:auto;margin:0;overflow:visible;}
 hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}
 figure{margin:0;}@media only screen and (min-width: 1000px){figure.large{margin-right:-120px;margin-left:-50px;}figure.large figcaption{margin-left:50px;}}
-@media only screen and (min-width: 1000px){figure.half a{width:280px;float:left;margin-left:10px;}figure.half a:first-child{margin-right:10px;margin-left:0;} figure.half figcaption{padding-top:10px;padding-bottom:10px;clear:left;}}
-@media only screen and (min-width: 1000px){#feature .half a{width:250px;}}img{max-width:100%;height:auto;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
+@media only screen and (min-width: 1000px){figure.half a{width:280px;float:left;}figure.half a:nth-child(odd){margin-right:10px;} figure.half a:nth-child(even){margin-left:10px;} figure.half figcaption{padding-top:10px;padding-bottom:10px;clear:left;}}
+@media only screen and (min-width: 1000px){figure.third a{width:180px;float:left;margin-right:10px;margin-left:10px;}figure.third a:first-child{margin-left:0;} figure.third a:nth-child(3){margin-right:0;} figure.third figcaption{padding-top:10px;padding-bottom:10px;clear:left;}}
+@media only screen and (min-width: 1000px){#feature .half a{width:250px;} #feature .third a{width:160px;}}img{max-width:100%;height:auto;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
 svg:not(:root){overflow:hidden;}
 @media only screen and (min-width: 1000px){.feature{margin-left:-20px;max-width:980px;*zoom:1;}.feature:before,.feature:after{display:table;content:"";line-height:0;} .feature:after{clear:both;}}
 .recent-grid{*zoom:1;}.recent-grid li{float:left;padding:2px;}
@@ -516,7 +517,9 @@ header[role="banner"] ul li:first-child:before{content:"";padding-left:0;}
 .intro-wrap aside{margin:20px auto;max-width:280px;}@media only screen and (min-width: 768px){.intro-wrap aside{float:left;width:30%;margin-right:5%;margin-left:5%;}}
 .post-wrap{position:relative;padding-right:20px;padding-left:20px;*zoom:1;}@media only screen and (min-width: 1000px){.post-wrap{margin-right:auto;margin-left:auto;padding-right:40px;padding-left:40px;max-width:940px;}}.post-wrap:before,.post-wrap:after{display:table;content:"";line-height:0;}
 .post-wrap:after{clear:both;}
-.post-wrap article{position:relative;counter-reset:captions;}.post-wrap article p>a{border-bottom:1px dotted #343434;}.post-wrap article p>a:hover{border-bottom-style:solid;}
+.post-wrap article{position:relative;counter-reset:captions;}.post-wrap article header h1{font-family:'PT Serif',serif;font-size:28px;font-size:1.75rem;line-height:0.8571;margin-bottom:0;}@media only screen and (min-width: 768px){.post-wrap article header h1{font-size:36px;font-size:2.25rem;line-height:0.6667;line-height:1;}}@media only screen and (min-width: 768px){.post-wrap article header h1{font-size:40px;font-size:2.5rem;line-height:0.6;line-height:1;}}
+.post-wrap article header h2{font-size:16px;font-size:1rem;line-height:1.5;}@media only screen and (min-width: 768px){.post-wrap article header h2{font-size:18px;font-size:1.125rem;line-height:1.3333;}}@media only screen and (min-width: 1000px){.post-wrap article header h2{font-size:20px;font-size:1.25rem;line-height:1.2;}}
+.post-wrap article p>a{border-bottom:1px dotted #343434;}.post-wrap article p>a:hover{border-bottom-style:solid;}
 @media only screen and (min-width: 768px){.post-wrap article{max-width:580px;margin-right:auto;margin-left:auto;}}@media only screen and (min-width: 1000px){.post-wrap article{width:580px;}}
 .post-wrap aside{position:relative;}.post-wrap aside .bio-photo{margin-right:20px;width:100px;float:left;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;}
 .post-wrap aside .bio-content{float:left;width:460px;}@media only screen and (min-width: 1000px){.post-wrap aside .bio-content{width:100%;float:none;}}
@@ -538,8 +541,9 @@ ol.index a:hover p{bottom:-10px;}
 ol.index header{margin-left:2.5em;}@media only screen and (min-width: 1000px){ol.index header{width:45%;}}
 ol.index blockquote{display:none;background-color:rgba(0, 0, 0, 0.8);}@media only screen and (min-width: 768px){ol.index blockquote{display:block;-webkit-opacity:0;-moz-opacity:0;opacity:0;position:absolute;top:0;right:0;padding:0 10px;width:320px;height:100%;overflow:hidden;}}
 ol.index p{margin:0;font-family:'Open Sans',sans-serif;font-size:14px;font-size:0.875rem;line-height:1.7143;line-height:1.5;text-shadow:0 2px 3px rgba(0, 0, 0, 0.25);}@media only screen and (min-width: 768px){ol.index p{position:relative;color:#ffffff;}}
-@media only screen and (min-width: 1000px){#feature .post-wrap article{float:left;}}@media only screen and (min-width: 1000px){#feature .post-wrap article header{margin:-100px 0 0;padding:30px;position:relative;background-color:#ebebeb;}#feature .post-wrap article header h1{margin:0;}}
-@media only screen and (min-width: 1000px){#feature .post-wrap article .content-wrap{position:relative;margin-top:-30px;padding:0 30px 30px;background-color:#ebebeb;}}
+@media only screen and (min-width: 1000px){#feature .post-wrap article{float:left;}}@media only screen and (min-width: 1000px){#feature .post-wrap article header{top:-100px;margin:0;padding:30px 30px 0 30px;position:relative;background-color:#ebebeb;}#feature .post-wrap article header h1{margin:0;} #feature .post-wrap article header h2{margin-bottom:0;}}
+@media only screen and (min-width: 1000px){#feature .post-wrap article .content-wrap{position:relative;top:-100px;padding:0 30px 30px;background-color:#ebebeb;}#feature .post-wrap article .content-wrap p:first-child{margin-top:0;padding-top:1em;}}
+@media only screen and (min-width: 1000px){#feature .post-wrap article footer{position:relative;top:-100px;}}
 #feature .post-wrap aside{font-family:'Open Sans',sans-serif;}@media only screen and (min-width: 1000px){#feature .post-wrap aside{width:240px;top:560px;float:right;}#feature .post-wrap aside .bio-photo{float:none;}}
 @media only screen and (min-width: 768px){#photo .post-wrap article{max-width:100%;width:100%;}}
 @media only screen and (min-width: 768px){#photo .post-wrap header{max-width:580px;margin-right:auto;margin-left:auto;}}

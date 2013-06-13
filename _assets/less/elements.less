@@ -27,10 +27,32 @@ figure {
       a {
         width: 280px;
         float: left;
+        &:nth-child(odd) {
+          margin-right: 10px;
+        }
+        &:nth-child(even) {
+          margin-left: 10px;
+        }
+      }
+      figcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        clear: left;
+      }
+    }
+  }
+  &.third {
+    @media @large {
+      a {
+        width: 180px;
+        float: left;
+        margin-right: 10px;
         margin-left: 10px;
         &:first-child {
-          margin-right: 10px;
           margin-left: 0;
+        }
+        &:nth-child(3) {
+          margin-right: 0;
         }
       }
       figcaption {
@@ -41,9 +63,13 @@ figure {
     }
   }
 }
+// image width overrides for #feature articles
 @media @large {
   #feature .half a {
     width: 250px;
+  }
+  #feature .third a {
+    width: 160px;
   }
 }
 img {

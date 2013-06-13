@@ -126,6 +126,30 @@ header[role="banner"] {
 	article {
 		position: relative;
 		counter-reset: captions;
+		header {
+			h1 {
+				font-family: @base-font;
+				.font(28);
+				margin-bottom: 0;
+				@media @medium {
+					.font(36);
+					line-height: 1;
+				}
+				@media @medium {
+					.font(40);
+					line-height: 1;
+				}
+			}
+			h2 {
+				.font(16);
+				@media @medium {
+					.font(18);
+				}
+				@media @large {
+					.font(20);
+				}
+			}
+		}
 		p > a {
 			border-bottom: 1px dotted @link-color;
 			&:hover {
@@ -292,18 +316,30 @@ ol.index {
 		header {
 			@media @large {
 				h1 { margin: 0; }
-				margin: -100px 0 0;
-				padding: 30px;
+				top: -100px;
+				margin: 0;
+				padding: 30px 30px 0 30px;
 				position: relative;
 				background-color: @body-color;
+				h2 { margin-bottom: 0;}
 			}
 		}
 		.content-wrap {
 			@media @large {
 				position: relative;
-				margin-top: -30px;
+				top: -100px;
 				padding: 0 30px 30px;
 				background-color: @body-color;
+				p:first-child { 
+					margin-top: 0;
+					padding-top: 1em; 
+				}
+			}
+		}
+		footer {
+			@media @large {
+				position: relative;
+				top: -100px;
 			}
 		}
 	}
