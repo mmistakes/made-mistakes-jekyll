@@ -10,7 +10,7 @@ image:
   feature: UO11-spring-featured.jpg
   small: UO11-spring-340x100.jpg
   thumb: UO11-spring-thumb.jpg
-tags: [catalog, design, graphic design, typography, critique, Urban Outfitters, mistakes, readability, feature]
+tags: [catalog, design, graphic design, typography, critique, Urban Outfitters, mistakes, readability]
 ---
 
 I think it is very clear that the April 2011 *Urban Outfitters* catalog was more concerned with style and art direction than typography. Now, I'm not trying to weigh the implications of, or reasons for this. Being a designer who values legibility and hierarchy, this catalog sure is filled with a bunch of head scratching typographic choices.

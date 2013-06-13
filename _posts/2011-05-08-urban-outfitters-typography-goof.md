@@ -9,7 +9,7 @@ image:
   feature: UO-may11-feature.jpg
   small: UO-may11-340x100.jpg
   thumb: UO-MAY11-serifs-italics-340.jpg
-tags: [Urban Outfitters, catalog design, critique, graphic design, mistakes, typography, feature]
+tags: [Urban Outfitters, catalog design, critique, graphic design, mistakes, typography]
 ---
 
 ## A Step in the Right Direction

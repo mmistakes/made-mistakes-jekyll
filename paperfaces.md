@@ -10,7 +10,7 @@ image:
   feature: paperfaces-gallery-featured-xl.jpg
   thumb: paperfaces-gallery-thumb.jpg
 category: paperfaces
-tags: [PaperFaces, MadeWithPaper, Paper by 53, iPad, portrait, drawing, illustration, painting, Michael Rose, feature]
+tags: [PaperFaces, MadeWithPaper, Paper by 53, iPad, portrait, drawing, illustration, painting, Michael Rose]
 ---
 
 <ul class="recent-grid unstyled-list">

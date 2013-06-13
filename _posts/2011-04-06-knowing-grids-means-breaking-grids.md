@@ -10,14 +10,7 @@ image:
   feature: knowing-grids-feature.jpg
   small: knowing-grids-340x100.jpg
   thumb: owh-grid-spread-340x340.jpg
-tags: 
-- critique
-- grid
-- system
-- graphic design
-- inspiration
-- typography
-- feature
+tags: [critique, grid, system, graphic design, inspiration, typography]
 ---
 
 Of all the things to grab my attention, the grid system used in a women's health calendar was certainly not high on my list.

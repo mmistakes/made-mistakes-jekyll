@@ -10,7 +10,7 @@ image:
   feature: agna-moraines-autobiography-feature.jpg
   small: agna-moraines-autobiography-340x100.jpg
   thumb: agna-moraines-340x340.jpg
-tags: [Agna Moraines Autobiography, emo, punk, record, artwork, graphic design, design, diy, silk screen, vinyl, critique, inspiration, feature]
+tags: [Agna Moraines Autobiography, emo, punk, record, artwork, graphic design, design, diy, silk screen, vinyl, critique, inspiration]
 ---
 
 ## Twinkle Twinkle, Whining in Sweaters

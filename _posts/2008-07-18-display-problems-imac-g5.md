@@ -9,7 +9,7 @@ image:
   feature: imac-glitch-feature.jpg
   small: imac-glitch-340x100.jpg
   thumb: imac-glitch-thumb.jpg
-tags: [iMac, G5, logic board, display, hardware, screen, broken, Apple Care, feature]
+tags: [iMac, G5, logic board, display, hardware, screen, broken, Apple Care]
 ---
 
 ## A Little Trip Down Macintosh Memory Lane
