@@ -11,7 +11,6 @@
 
 {% include chrome-frame.html %}
 {% include navigation.html %}
-
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork">
   <div class="post-wrap">
     <article>
@@ -31,33 +30,29 @@
       {% include author-bio.html %}
     </aside>
   </div><!-- /.post-wrap -->
-  <nav class="pager" role="navigation">
-    <ul>
+  <nav class="pagination" role="navigation">
     {% for post in site.categories.paperfaces %}
-    {% if post.url == page.url %}
-      {% assign post_index0 = forloop.index0 %}
-      {% assign post_index1 = forloop.index %}
-    {% endif %}
+      {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+      {% endif %}
     {% endfor %}
     {% for post in site.categories.paperfaces %}
       {% if post_index0 == forloop.index %}
         {% assign next_post = post.url %}
-        {% assign next_title = post.title %}
-        {% assign next_image = post.image.small %}
       {% endif %}
       {% if post_index1 == forloop.index0 %}
         {% assign prev_post = post.url %}
-        {% assign prev_title = post.title %}
-        {% assign prev_image = post.image.small %}
       {% endif %}
     {% endfor %}
-    {% if prev_post %}<li class="previous"><a href="{{ site.url }}{{ prev_post }}"><span>{{ prev_title | truncate: 35 }}</span><i class="icon-chevron-left icon-large"></i><img src="{{ site.url }}/images/{{ prev_image }}" alt=""></a></li>{% else %}<li class="previous"><a href="{{ site.url }}"><span>Home</span><i class="icon-home icon-large"></i><img src="{{ site.url }}/images/340x100.gif" alt=""></a></li>
+    {% if next_post %}
+      <a href="{{ next_post }}" class="mfp-arrow mfp-arrow-right hide-text" title="Next image">Next image</a>
     {% endif %}
-    {% if next_post %}<li class="next"><a href="{{ site.url }}{{ next_post }}"><span>{{ next_title | truncate: 35 }}</span><i class="icon-chevron-right icon-large"></i><img src="{{ site.url }}/images/{{ next_image }}" alt=""></a></li>{% endif %}
-    </ul>
-  </nav><!-- /.pager -->
+    {% if prev_post %}
+      <a href="{{ prev_post }}" class="mfp-arrow mfp-arrow-left hide-text" title="Previous image">Previous image</a>
+    {% endif %}
+  </nav><!-- /.pagination -->
 </div><!-- /#main -->
-
 <div class="footer-wrap">
   <footer role="contentinfo">
     {% include footer.html %}
