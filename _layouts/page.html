@@ -23,13 +23,7 @@
       <div class="content-wrap" itemprop="text">
         {{ content }}
       </div><!-- /.content-wrap -->
-      <footer role="contentinfo">
-        <p class="byline">{% if page.modified %} Page updated on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time> by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.{% else %}Page updated by <span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>{% endif %}</p>
-      </footer>
     </article>
-    <aside>
-      {% include author-bio.html %}
-    </aside>
   </div><!-- /.post-wrap -->
 
 </div><!-- /#main -->
