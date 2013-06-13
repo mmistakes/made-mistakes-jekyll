@@ -164,6 +164,10 @@ header[role="banner"] {
 		@media @large {
 			width: 580px;
 		}
+		ul li,
+		ol li {
+			padding-bottom: 20px;
+		}
 	}
 	aside {
 		.bio-photo {
@@ -197,7 +201,8 @@ header[role="banner"] {
 		margin-top: 40px;
 		.font(14);
 		font-family: @heading-font;
-		border-top: 1px solid @text-color;
+		border-top: 2px solid lighten(@text-color, 60);
+		border-top-color: fade(@black, 10);
 		p > a {
 			border-bottom: 0 solid;
 		}
@@ -233,6 +238,7 @@ ol.index {
 		display: relative;
 		list-style-type: none;
 		border-top: 4px solid lighten(@text-color, 60);
+		border-top-color: fade(@black, 10);
 		.clearfix();
 	}
 	a {
@@ -312,6 +318,7 @@ ol.index {
 	article {
 		@media @large {
 			float: left;
+			margin-bottom: -100px;
 		}
 		header {
 			@media @large {
@@ -320,7 +327,7 @@ ol.index {
 				margin: 0;
 				padding: 30px 30px 0 30px;
 				position: relative;
-				background-color: @body-color;
+				background-color: @white;
 				h2 { margin-bottom: 0;}
 			}
 		}
@@ -329,7 +336,7 @@ ol.index {
 				position: relative;
 				top: -100px;
 				padding: 0 30px 30px;
-				background-color: @body-color;
+				background-color: @white;
 				p:first-child { 
 					margin-top: 0;
 					padding-top: 1em; 
@@ -390,15 +397,18 @@ ol.index {
 nav.pager {
 	position: relative;
 	padding-bottom: 20px;
+	background-color: @white;
 	.clearfix();
 	ul {
-		padding: 0 40px;
+		padding: 0 20px;
 		list-style-type: none;
 		position: relative;
 		font-weight: 700;
 		.font(18);
 		.clearfix();
 		@media @medium {
+			padding-right: 40px;
+			padding-left: 40px;
 			margin: 0 auto;
 		}
 	}
@@ -470,9 +480,11 @@ nav.pager {
 }
 
 #main nav.pager {
-	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 4px solid lighten(@text-color, 60);
+	border-top-color: fade(@black, 10);
 	@media @medium {
-		margin-top: 50px;
+		margin-top: 20px;
 	}
 }
 
@@ -482,6 +494,8 @@ nav.pager {
 .footer-wrap {
 	padding: 30px 20px;
 	background-color: darken(@comp-color, 15);
+	border-top: 4px solid lighten(@text-color, 60);
+	border-top-color: fade(@black, 10);
 	.clearfix();
 	@media @large {
 		padding-top: 40px;
