@@ -567,6 +567,7 @@ nav.pager li img{display:none;}@media only screen and (min-width: 768px){nav.pag
 .footer-wrap:after{clear:both;}
 @media only screen and (min-width: 1000px){.footer-wrap{padding-top:40px;padding-bottom:40px;}}.footer-wrap footer{margin-left:auto;margin-right:auto;text-align:center;text-shadow:0 1px 1px #000000;}.footer-wrap footer p{font-size:12px;font-size:0.75rem;line-height:2;color:#b3b3b3;}.footer-wrap footer p a{color:#b3b3b3;}
 @media only screen and (min-width: 1000px){.footer-wrap footer{max-width:940px;}}
+.chrome-frame{padding:10px;text-align:center;}
 .mfp-bg{top:0;left:0;width:100%;height:100%;z-index:502;overflow:hidden;position:fixed;background:#0b0b0b;opacity:0.8;filter:alpha(opacity=80);}
 .mfp-wrap{top:0;left:0;width:100%;height:100%;z-index:503;position:fixed;outline:none !important;-webkit-backface-visibility:hidden;}
 .mfp-container{text-align:center;position:absolute;width:100%;height:100%;left:0;top:0;padding:0 8px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
