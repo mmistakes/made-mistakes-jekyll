@@ -31,7 +31,7 @@ layout: nil
 		<uri>{{ site.url }}/</uri>
 		<email>{{ site.owner.email }}</email>
 	</author>
-	<content type="html">{% if post.category == 'paperfaces' %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image }}.jpg&quot; alt=&quot;{{ post.title }} page image&quot;&gt;{% else %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image }}-l.jpg&quot; alt=&quot;{{ post.title }} page image&quot;&gt;{% endif %}&lt;br/&gt;{{ post.content | xml_escape }}{% endif %}
+	<content type="html">{% if post.category == 'paperfaces' %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image }}.jpg&quot; alt=&quot;{{ post.title }} page image&quot;&gt;{% endif %}&lt;br/&gt;{{ post.content | xml_escape }}
 	&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by &lt;a href=&quot;href=&quot;{{ site.url }}/about.html&quot;&gt;Michael Rose&lt;/a&gt; at &lt;a href=&quot;{{ site.url }}&quot;&gt;Made Mistakes&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 </entry>
 {% endfor %}
