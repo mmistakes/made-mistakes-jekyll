@@ -4,29 +4,13 @@ title: "How to Draw Realistic Hair with Paper by 53"
 headline: "How to Draw Realistic Hair"
 subheadline: "with an iPad and Paper by 53"
 description: "I'm often asked what my technique for drawing hair is. What follows is my answer to that question."
-image: how-to-draw-hair
-thumb: how-to-draw-hair-thumb.jpg
+image: 
+  feature: how-to-draw-hair-feature.jpg
+  small: how-to-draw-hair-340x100.jpg
+  thumb: how-to-draw-hair-thumb.jpg
 category: articles
-tags: 
-- Paper by 53
-- drawing
-- hair
-- iPad
-- MadeWithPaper
-- tutorial
-- tips
-- feature
+tags: [Paper by 53, drawing, hair, iPad, MadeWithPaper, tutorial, tips, feature]
 ---
-
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 ## Block Out the Hair
 

@@ -5,17 +5,11 @@ headline: "Business Cards on the Cheap"
 subheadline: "Turn an About.me Profile into a Stack of Cards"
 description: "How 5 minutes spent creating an About.me profile nabbed me custom Moo business cards of my own design."
 category: articles
-thumb: mademistakes-business-cards-front-148x148.jpg
-image: about-me-featured
-tags: 
-- aboutme
-- about.me
-- business cards
-- moo cards
-- graphic design
-- design
-- Michael Rose
-- made mistakes
+image: 
+  feature: about-me-featured.jpg
+  small: about-me-340x100.jpg
+  thumb: mademistakes-business-cards-front-148x148.jpg
+tags: [aboutme, business cards, moo cards, graphic design, design, Michael Rose, feature]
 ---
 Pretty much the only reason I created an About.me page was to get free customized business cards printed by Moo.
 

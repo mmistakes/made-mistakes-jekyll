@@ -4,8 +4,10 @@ title: "The Quality of My First Blurb Book is Great"
 headline: "The Quality of My First Blurb Book is Great"
 description: "Designing a book with Blurb was painless and having it printed was equaly enjoyable. I'm really happy with how my first photography book turned out."
 modified: 2013-01-26
-thumb: blurb-book-featured-thumb.jpg
-image: blurb-book-featured
+image: 
+  feature: blurb-book-featured.jpg
+  small: blurb-book-340x100.jpg
+  thumb: blurb-book-thumb.jpg
 category: articles
 tags: 
 - Blurb
@@ -13,16 +15,8 @@ tags:
 - design
 - printing
 - graphic design
+- feature
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 Designing a book with Blurb was painless and having it printed was equaly enjoyable. I'm really happy with how my first photography book turned out.
 

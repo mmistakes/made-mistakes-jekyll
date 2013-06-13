@@ -6,31 +6,12 @@ subheadline: "Agna Moraine's Autobiography &#8212; Self-Titled"
 description: "I couldn't begin to tell you what the artwork in this emo record means. But silk screening lyrics on fabric scrapes is kind of cool."
 category: articles
 modified: 2013-04-26
-thumb: agna-moraines-340x340.jpg
-image: agna-moraines-autobiography
-tags: 
-- Agna Moraines Autobiography
-- emo
-- punk
-- record
-- artwork
-- graphic design
-- design
-- diy
-- silk screen
-- vinyl
-- critique
-- inspiration
+image: 
+  feature: agna-moraines-autobiography-feature.jpg
+  small: agna-moraines-autobiography-340x100.jpg
+  thumb: agna-moraines-340x340.jpg
+tags: [Agna Moraines Autobiography, emo, punk, record, artwork, graphic design, design, diy, silk screen, vinyl, critique, inspiration, feature]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 ## Twinkle Twinkle, Whining in Sweaters
 

@@ -5,27 +5,12 @@ headline: "Faulty Logic Board"
 subheadline: "Three Years of Problems with an iMac G5"
 description: "Faulty logic boards, ambient sensors, and displays oh my!"
 category: articles
-image: imac-glitch
-thumb: imac-glitch-340x340.jpg
-tags: 
-- iMac
-- G5
-- logic board
-- display
-- hardware
-- screen
-- broken
-- Apple
+image: 
+  feature: imac-glitch-feature.jpg
+  small: imac-glitch-340x100.jpg
+  thumb: imac-glitch-thumb.jpg
+tags: [iMac, G5, logic board, display, hardware, screen, broken, Apple Care, feature]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 ## A Little Trip Down Macintosh Memory Lane
 
@@ -54,11 +39,6 @@ It was the middle of the day so no one was in the store except for a few goons w
 ## Three Times the Charm!
 
 Yesterday I woke up for work and went to check my email. Walked into my office and noticed my iMac was pretty loud with the fans were going full blast. "Uh oh... that funny pixelated pattern flashing on my screen doesn't look good either." I didn't panic yet since I thought maybe it was software related and just needed a fresh restart. Force rebooted my machine and the gray Apple logo came up fine.
-
-<figure>
-    <img src="{{ site.url }}/images/imac-glitch-sm.jpg" alt="Scrambled iMac display" />
-    <figcaption>Oh no! Looks like the logic board went poo poo.</figcaption>
-</figure>
 
 Then the funny pixels and static showed up again. Tried to run the diagnostic disc that came with Apple Care to see what was wrong, but that wouldn't work either. Everything seemed to be functioning fine except for the display. Made an appointment with a Genius later in the day and hoped that I'd be eligible for the [iMac G5 Power & Video Repair Extension Program](http://docs.info.apple.com/article.html?artnum=302181) since my Apple Care Warranty ran out in February.
 

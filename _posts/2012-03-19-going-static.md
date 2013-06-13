@@ -5,20 +5,13 @@ headline: "Going Static with Jekyll"
 subheadline: "Saying Goodbye to Wordpress"
 description: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
 modified: 2013-05-28
-thumb: going-static-thumb.jpg
-image: going-static-header
+image: 
+  feature: going-static-feature.jpg
+  small: going-static-340x100.jpg
+  thumb: going-static-thumb.jpg
 category: articles
 tags: [Jekyll, static, website, web development, design, responsive, Made Mistakes, feature]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://www.alistapart.com/) and [Smashing Magazine](http://www.smashingmagazine.com/).
 

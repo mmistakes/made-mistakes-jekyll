@@ -6,25 +6,12 @@ subheadline: "A Review of Animal Crossing: City Folk"
 description: "Some things never change, a lengthy review of Animal Crossing City Folk."
 modified: 2013-05-03
 category: articles
-image: animal-crossing-stuck-in-hole
-thumb: animal-crossing-me-wendy-thumb.jpg
-tags: 
-- Animal Crossing
-- City Folk
-- Nintendo
-- Wii
-- video games
-- review
+image: 
+  feature: animal-crossing-stuck-in-hole.jpg
+  small: animal-crossing-stuck-in-hole-340x100.jpg
+  thumb: animal-crossing-me-wendy-thumb.jpg
+tags: [Animal Crossing, City Folk, Nintendo, Wii, video games, review, feature]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 Some things get better and some things never change. Going in I knew **Animal Crossing: City Folk** (for the Nintendo Wii) would be remaining mostly unchanged from its predecessor AC: Wild World on the DS. But frankly I didn't care and wanted to try it out for myself even after reading a few lackluster reviews. What really surprised me after playing was how it was able to hook me in...again. Which is pretty admirable seeing how it's the same damn game I've played TWICE before.
 

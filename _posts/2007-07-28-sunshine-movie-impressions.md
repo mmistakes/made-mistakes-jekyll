@@ -6,8 +6,10 @@ subheadline: "Impressions of Danny Boyle's Sunshine"
 description: "The film Sunshine directed by Danny Boyle is science fiction without the big bang."
 modified: 2013-04-26
 category: articles
-image: sunshine-horizontal
-thumb: sunshine-340x340.jpg
+image: 
+  feature: sunshine-horizontal-xl.jpg
+  small: sunshine-340x100.jpg
+  thumb: sunshine-thumb.jpg
 tags: 
 - Sunshine
 - science
@@ -18,16 +20,8 @@ tags:
 - Danny Boyle
 - astronaut
 - space
+- feature
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle's new film *Sunshine*[^1], when I saw a trailer before *Sicko* a month or so ago. I couldn't tell you any of the actors' names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the Human Torch in *Fantastic Four & Rise of the Silver Surfer*).
 

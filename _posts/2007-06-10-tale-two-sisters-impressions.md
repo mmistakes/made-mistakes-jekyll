@@ -5,8 +5,10 @@ headline: "A Tale of Two Sisters"
 subheadline: "Almost the Film Version of Fatal Frame"
 description: "A Korean horror flick that reminded me of the Fatal Frame video game franchise."
 category: articles
-image: tale-two-sisters-floor-blood
-thumb: two-sisters-340x340.jpg
+image: 
+  feature: tale-two-sisters-floor-blood-xl.jpg
+  small: tale-two-sisters-floor-blood-340x100.jpg
+  thumb: two-sisters-340x340.jpg
 tags: 
 - two sisters
 - foreign
@@ -16,7 +18,9 @@ tags:
 - movie
 - review
 - critique
+- feature
 ---
+
 Netflix has been on a roll lately with the Korean films it's suggested I watch. First it was Chan-wook Park's three revenge flicks ([*Old Boy*][old-boy], [*Sympathy for Mr Vengeance*][mr-vengeance], and [*Lady Vengeance*][lady-vengeance]) and now [*A Tale of Two Sisters*][two-sisters].
 
 Like most of the other Korean films I've seen, the story starts off really slow with most of the interesting and shocking events happening near the end. *A Tale of Two Sisters*[^1] really confused me right up until the end. The plot summary from Netflix leverages the horror and scary aspects of the film more than it should.

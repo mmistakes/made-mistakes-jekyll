@@ -6,24 +6,18 @@ subheadline: "A short review"
 description: "Quick impressions of the new iPod classic 60GB."
 modified: 2013-05-03
 category: articles
-image: ipod-classic-feature
-thumb: ipod-classic-340x340.jpg
+image: 
+  feature: ipod-classic-feature.jpg
+  small: ipod-classic-340x100.jpg
+  thumb: ipod-classic-thumb.jpg
 tags: 
 - iPod
 - classic
 - Apple
 - mp3 player
 - review
+- feature
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 Last week Apple finally unveiled a new generation of iPods. The last iPod I purchased was a 3rd generation model with 40GB of hard drive space and have been waiting for a decent successor. My iTunes Music Library has finally outgrown the 3rd gen so I decided this was the time to get a replacement. I figured an iPod that resembled the iPhone would be just around the corner and pleasantly surprised when the *iPod touch* was announced.
 

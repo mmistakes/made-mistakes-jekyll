@@ -5,8 +5,9 @@ headline: "iPhone 4 Impressions"
 subheadline: "From a Long Time Palm User"
 description: "The following are some of my experiences and observations transitioning from Palm to iOS after nearly 10 years of baggage."
 category: articles
-image: mademistakes-feature
-thumb: iphone4-impressions-340x340.jpg
+image: 
+  small: mademistakes-340x100.jpg
+  thumb: iphone4-impressions-340x340.jpg
 tags: 
 - iPhone
 - Apple
@@ -16,15 +17,6 @@ tags:
 - technology
 - tech geek
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 <figure>
 	<img src="{{ site.url }}/images/my-phone-progression.jpg" alt="My smartphone progression over the years." />

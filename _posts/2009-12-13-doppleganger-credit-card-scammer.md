@@ -5,14 +5,16 @@ headline: "Bizarro Me"
 subheadline: "A Credit Card Scammer?"
 description: "Apparently there is a bizarro version of me in Niagara County using scammed credit cards."
 category: articles
-image: mademistakes-feature
-thumb: michael-the-fugitive.jpg
+image: 
+  small: mademistakes-340x100.jpg
+  thumb: michael-the-fugitive.jpg
 tags: 
 - doppleganger
 - bizarro
 - me
 - Michael Rose
 ---
+
 <figure>
     <img src="{{ site.url }}/images/michael-the-fugitive.jpg" alt="Me the fugitive?" />
     <figcaption>I think my bizarro twin is running some sort of credit card scam.</figcaption>

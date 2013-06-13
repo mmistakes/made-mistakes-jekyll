@@ -6,27 +6,12 @@ subheadline: "with Urban Outfitters"
 description: "The typography in Urban Outfitters latest catalog has some serious readability issues."
 category: articles
 modified: 2013-04-26
-image: UO11-spring-featured
-thumb: UO-april11-340x340.jpg
-tags: 
-- catalog
-- design
-- graphic design
-- typography
-- critique
-- Urban Outfitters
-- mistakes
-- readability
+image: 
+  featur: UO11-spring-featured.jpg
+  small: UO11-spring-340x100.jpg
+  thumb: UO11-spring-thumb.jpg
+tags: [catalog, design, graphic design, typography, critique, Urban Outfitters, mistakes, readability, feature]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 I think it is very clear that the April 2011 *Urban Outfitters* catalog was more concerned with style and art direction than typography. Now, I'm not trying to weigh the implications of, or reasons for this. Being a designer who values legibility and hierarchy, this catalog sure is filled with a bunch of head scratching typographic choices.
 
