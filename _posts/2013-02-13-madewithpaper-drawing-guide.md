@@ -40,7 +40,7 @@ When I begin a new [PaperFaces portrait]({{ site.url }}/articles/paperfaces-ipad
 
 Usually I pencil in quick gestural outlines as a guide for painting forms later. Other times I jump right to the background and splash in layer upon layer of watercolor. It really depends on the source material and if the background has enough detail to bother with.
 
-<figure>
+<figure class="large">
     <img src="{{ site.url }}/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
     <figcaption>Face study using watercolor and some default colors.</figcaption>
 </figure>

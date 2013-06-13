@@ -1,13 +1,13 @@
 ---
 layout: home
 headline: "A Design Faux Pas"
-subheadline: "Just the website of designer Michael Rose"
+subheadline: "Personal website of designer Michael Rose"
 description: "Made Mistakes is the personal website and portfolio of Buffalo NY designer &amp; illustrator Michael Rose."
 image: 
   main: 340x440.jpg
 tags: [Michael Rose, portfolio, blog, graphic design, web design, designer, Buffalo, New York, mmistakes]
 ---
 
-American apparel mumblecore swag, freegan VHS gastropub pitchfork velit eu consequat asymmetrical nisi 90's hella. Schlitz swag retro synth. Banh mi aliquip chambray aesthetic pug forage. Mollit +1 Terry Richardson Schlitz, flexitarian umami freegan small batch Brooklyn roof party Portland velit DIY Cosby sweater. 
+Oh hey --- I'm Michael Rose, just another bearded, tattooed, time traveling, designer slash illustrator working in Buffalo, New York. Most of my day is spent looking at liquid crystals as I manipulate type and image to produce marketing materials and print catalogs. I'm also into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) via the interweb and an iPad, movie theater popcorn, chicken wings done right, dust collecting record collections, and over using ellipses and em-dashes.
 
-Whatever odio vegan messenger bag Williamsburg. Aute meggings leggings Neutra est nihil. Cred butcher polaroid, Odd Future banh mi pour-over freegan labore Schlitz salvia mumblecore seitan.
+Lately I've been "blogging" about my drawing and painting techniques using the Paper iPad app and other nonsense about Jekyll and design. You can find the more fleshed out articles below or check out the [full listing here]({{ site.url }}/articles).
