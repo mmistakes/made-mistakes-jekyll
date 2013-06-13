@@ -166,10 +166,11 @@ header[role="banner"] {
 		}
 		ul li,
 		ol li {
-			padding-bottom: 20px;
+			padding-bottom: 10px;
 		}
 	}
 	aside {
+		padding-bottom: 40px;
 		.bio-photo {
 			margin-right: 20px;
 			width: 100px;
@@ -189,6 +190,10 @@ header[role="banner"] {
 		}
 		p {
 			.font(14);
+			margin-top: 0;
+		}
+		p + p {
+			margin-top: 10px;
 		}
 		@media @medium {
 			max-width: 580px;
@@ -474,6 +479,7 @@ nav.pager {
 			display: none;
 			@media @medium {
 				display: block;
+				margin-top: 10px;
 			}
 		}
 	}
