@@ -31,10 +31,6 @@ To install Jekyll-minibundle use the following terminal command:
 $ gem install jekyll-minibundle
 ```
 
-### [related_posts](https://github.com/LawrenceWoodman/related_posts-jekyll_plugin)
-
-Overrides the built in related_posts function to calculate related posts based on a posts’ tags. Used in `article.html` layout.
-
 ### [Sitemap.xml Generator](http://www.kinnetica.com/projects/jekyll-sitemap-generator/)
 
 Generates a `sitemap.xml` file by traversing all of the available posts and pages.
@@ -43,61 +39,21 @@ Generates a `sitemap.xml` file by traversing all of the available posts and page
 
 Serves SVG files with the correct MIME type when running `$ jekyll --server`.
 
-## Adding Posts and Pages
+## Layouts
 
-There are three main content `_layouts` used on the site: `article.html`, `page.html`, and `paperfaces.html`.
+There are three main content `_layouts` used on the site: `post.html`, `page.html`, and `paperfaces.html`.
 
-### Articles and Pages
+### Text layouts
 
-The `article.html` and `page.html` layouts are very similar: both have large *feature* images that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). They use [Picturefill](https://github.com/scottjehl/picturefill) to serve appropriately sized images for the feature area. For this to work you need your image saved in 4 different sizes (don't have to be these exact dimensions, just a guideline) with the following naming convention:
+The `post.html` and `page.html` layouts are very similar: both pull in large feature images when specified, and both are meant for text heavy blog posts (or articles). Adding the tag *feature* to a posts' front matter activates an alternate post layout that stretches the feature image and overlays the main content some. Ideal for posts you want to give more attention to.
 
-*	`feature-image-name-s.jpg` 320px x 160xp
-*	`feature-image-name-m.jpg` 768px x 384px
-*	`feature-image-name-l.jpg` 1024px x 512px
-*	`feature-image-name-xl.jpg` 1280px x 640px
+### Photo/Image Layout
 
-If you're lazy just replace the `picturefill.js` specific code in the article and page `_layouts`:
+Needs some love, but does work. There is some hard coding in `paperfaces.html` that is specific to the PaperFaces series of portraits I've been posting, but it can be easily adapted for photo galleries or portfolios.
 
-``` html
-<div class="image-wrap">
-  <div data-picture data-alt="{{ page.title }} article image">
-        <div data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></div>
-        <div data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></div>
-        <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></div>
-        <div data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></div>
-        <!--[if (lt IE 9) & (!IEMobile)]>
-          <div data-src="{{ site.url }}/images/{{ page.image }}-l.jpg""></div>
-        <![endif]-->
-        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-        <noscript>
-            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} article image">
-        </noscript>
-    </div>
-</div><!-- /.image-wrap -->
-```
+## Home and Index Pages
 
-With something like this: 
-``` html
-<div class="image-wrap">
-    <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} article image">
-</div><!-- /.image-wrap -->
-```
-
-#### Table of Contents
-
-For any article or page that you want a *table of contents* to render insert the following HTML in your post before the actual content. Kramdown will take care of the rest and convert any headlines into a table of contents list. Currently the TOC only shows on tablet and desktops and is hidden via media queries for phones until I can add a responsive drop down menu.
-
-``` html
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
-```
+Home page uses the `home.html` layout and is designed to pull in the 15 most recent posts that are tagged `feature`. Articles page uses the `post-index.html` layout and is designed to display all posts in the category `articles`. The images that display to the right of each post title are 340x100 px and designated as `image.main` in each post's front matter.
 
 #### Videos
 
@@ -106,10 +62,6 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 ``` html
 <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
 ```
-
-### Photo/Image Layout
-
-Needs some love, but does work. There is some hard coding that will eventually need cleanup in `paperfaces.html` that are specific to the PaperFaces series of portraits I've been posting, but it can be easily adapted for photo galleries or portfolios.
 
 ## Useful Commands
 
