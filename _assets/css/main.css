@@ -34,7 +34,7 @@ a:focus{outline:thin dotted;color:#010101;}
 a:hover,a:active{outline:0;}
 ul li{list-style-type:square;}
 ol li{list-style-type:upper-roman;}
-figcaption{margin-top:10px;font-size:14px;font-size:0.875rem;line-height:1.7143;line-height:1.3;color:#4d4d4d;counter-increment:captions;}figcaption:before{font-family:'Open Sans Condensed',sans-serif;font-weight:700;content:"Fig. " counter(captions) ". ";}
+figcaption{padding-top:10px;font-size:14px;font-size:0.875rem;line-height:1.7143;line-height:1.3;color:#4d4d4d;counter-increment:captions;}figcaption:before{font-family:'Open Sans Condensed',sans-serif;font-weight:700;content:"Fig. " counter(captions) ". ";}
 .notice{margin-top:1.5em;padding:.5em 1em;text-indent:0;font-size:90%;background-color:#ddd;border-left:10px solid #ccc;}
 .footnotes{font-size:12px;font-size:0.75rem;line-height:2;font-family:'Open Sans',sans-serif;}
 .highlight{background-color:#dedede;font-family:Monaco,Courier New,monospace;font-size:14px;font-size:0.875rem;line-height:1.7143;}
