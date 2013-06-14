@@ -14,13 +14,8 @@ header[role="banner"] {
 	margin: 0;
 	padding: 20px;
 	.clearfix();
-	@media @medium {
-		margin: 0 auto;
-		padding-right: 40px;
-		padding-left: 40px;
-	}
 	nav {
-		float: right;
+		clear: both;
 		text-transform: uppercase;
 	}
 	ul {
@@ -31,18 +26,71 @@ header[role="banner"] {
 		font-weight: 700;
 		li {
 			list-style-type: none;
-			display: inline;
-			&:before {
-				content: "";
-				padding: 0 10px;
+			display: block;
+			width: 100%;
+			background-color: @black;
+			margin-top: 1px;
+			a {
+				width: 100%;
+				padding: 10px;
+				display: block;
+				color: @white;
 			}
-			&:first-child:before {
-				content: "";
-				padding-left: 0;
+		}
+	}
+	@media @medium {
+		margin: 0 auto;
+		padding-right: 40px;
+		padding-left: 40px;
+		nav {
+			clear: none;
+			float: right;
+		}
+		ul li {
+			width: auto;
+			margin-top: 0;
+			display: inline;
+			background-color: @white;
+			a {
+				width: auto;
+				padding: auto;
+				display: inline;
+				color: @text-color;
 			}
 		}
 	}
 }
+// Responsive nav toggle stuff
+.js #site-nav {
+	clip: rect(0 0 0 0);
+	max-height: 0;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+	.clearfix();
+	@media @medium {
+		position: relative;
+		&.closed {
+			max-height: none;
+		}
+	}
+	&.opened {
+		max-height: 9999px;
+	}
+}	
+#nav-toggle { 
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-family: @heading-font;
+	font-weight: 700;
+	text-align: right;
+	@media @medium {
+		display: none;
+	}
+}
+
 .branding {
 	float: left;
 	.font(20);
@@ -51,6 +99,7 @@ header[role="banner"] {
 		color: @black;
 	}
 }
+
 
 // Main
 // --------------------------------------------------
@@ -75,7 +124,7 @@ header[role="banner"] {
 		header {
 			h1 {
 				font-family: @base-font;
-				.font(24);
+				.font(32);
 				margin-bottom: 0;
 				@media @medium {
 					.font(36);
@@ -93,6 +142,13 @@ header[role="banner"] {
 					.font(20);
 				}
 			}
+		}
+		p:first-of-type { 
+			.font(18);
+		}
+		p + p {
+			text-indent: 1.5em;
+			margin: 0;
 		}
 		@media @medium {
 			float: right;
