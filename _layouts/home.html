@@ -7,53 +7,49 @@
 {% include head.html %}
 </head>
 
-<body class="home" itemscope itemtype="http://schema.org/WebPage">
+<body id="home" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
+{% include navigation.html %}
 
-<div class="image-wrap">
-  <div class="headline-wrap">
-    <h1>{{ page.headline }}</h1>
-    <h2>{{ page.subheadline }}</h2>
-  </div><!--/ .headline-wrap -->
-  <span data-picture data-alt="{{ page.title }} page image">
-        <span data-src="{{ site.url }}/images/{{ page.image }}-s.jpg"></span>
-        <span data-src="{{ site.url }}/images/{{ page.image }}-m.jpg" data-media="(min-width: 480px)"></span>
-        <span data-src="{{ site.url }}/images/{{ page.image }}-l.jpg" data-media="(min-width: 768px)"></span>
-        <span data-src="{{ site.url }}/images/{{ page.image }}-xl.jpg" data-media="(min-width: 992px)"></span>
-        <!--[if (lt IE 9) & (!IEMobile)]>
-          <span data-src="{{ site.url }}/images/{{ page.image }}-l.jpg"></span>
-        <![endif]-->
-        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-        <noscript>
-            <img src="{{ site.url }}/images/{{ page.image }}-m.jpg" alt="{{ page.title }} page image">
-        </noscript>
-    </span>
-</div><!-- /.image-wrap -->
-
-<div class="article-author-top">
-  {% include author-bio.html %}
-</div>
-
-<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h3><a href="{{ site.url}}/articles/paperfaces-ipad-portrait-project.html">PaperFaces iPad Portraits</a></h3>
-  {% for post in site.categories.paperfaces limit:1 %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image }}.jpg" alt="{{ post.title }} image" style="width:100%;"></a>{% endfor %}
-  <ul class="recent-grid unstyled-list">
-  {% for post in site.categories.paperfaces limit:5 offset:1 %}
-    <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="{{ post.title }} thumb" /></a></li>
-  {% endfor %}
-  </ul>
-  <hr />
-  <h3><a href="{{ site.url}}/articles">Posts &amp; Diatribes</a></h3>{% for post in site.categories.articles limit:5 %}
-  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-    <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.headline }}</a></h2>
-    <p itemprop="text">{{ post.description }}</p>
-  </article>{% endfor %}
-  <hr />
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <div class="intro-wrap">
+    <article>
+      <header class="headline-wrap">
+        <h1 itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+        {% if page.subheadline %}<h2>{{ page.subheadline }}</h2>{% endif %}
+      </header><!--/ .headline-wrap -->
+      {{ content }}
+    </article>
+    {% if page.image.main %}<aside>
+      <figure>
+        <img src="{{ site.url }}/images/{{ page.image.main }}" alt="{{ page.title }} main image">
+      </figure>
+    </aside>{% endif %}
+  </div><!-- /.intro-wrap -->
+  <nav role="navigation">
+    <ol class="index">
+      {% for post in site.tags.feature limit:15 %} 
+      <li itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" style="background-image:url({% if post.image.small %}{{ site.url }}/images/{{ post.image.small }}{% else %}{{ site.url }}/images/340x100.gif{% endif %})">
+          <article>
+            <header>
+              <h2 itemprop="headline">{% if post.headline %}{{ post.headline }}{% else %}{{ post.title }}</h2>{% endif %}
+              {% if post.subheadline %}<h3>{{ post.subheadline }}</h3>{% endif %}
+            </header>
+            <blockquote>
+              <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+            </blockquote>
+          </article>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
 </div><!-- /#index -->
 
 <div class="footer-wrap">
-  <footer>
+  <footer role="contentinfo">
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->

@@ -1,37 +1,16 @@
 ---
-layout: article
+layout: post
 title: "Corn On Macabre Record Art, Vellum and Metallic Ink Bliss"
 description: "My favorite thing about this Corn On Macabre 7-inch record is the use of vellum and metallic inks in the sleeve."
 headline: "Vellum and Metallic Ink Bliss"
 subheadline: "Corn On Macabre Sleeve Design"
 category: articles
-image: COM-outside-record-sleeve
-thumb: COM-record-sleeve-340x340.jpg
-tags: 
-- Corn On Macabre 
-- record
-- artwork
-- sleeve
-- DIY
-- vellum
-- Trajan
-- punk
-- screamo
-- hardcore
-- critique
-- graphic design
-- inspiration
-- typography
+image: 
+  feature: COM-feature.jpg
+  small: COM-340x100.jpg
+  thumb: COM-record-sleeve-340x340.jpg
+tags: [Corn On Macabre, record, artwork, sleeve, DIY, vellum, punk, screamo, hardcore, critique, graphic design, inspiration, typography]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 My favorite thing about this Corn On Macabre record has nothing to do with the band or the music. Sense of sight and touch often influence me more than sounds...
 

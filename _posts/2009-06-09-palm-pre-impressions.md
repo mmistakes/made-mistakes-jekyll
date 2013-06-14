@@ -1,12 +1,13 @@
 ---
-layout: article
+layout: post
 title: "The iPhone is Great, but the Palm Pre Better Fits My Style"
 headline: "The iPhone is a Great Device, But"
 subheadline: "But the Palm Pre Better Fits My Style"
 description: "Quick impressions of the Palm Pre from a long time smartphone user."
 modified: 2013-05-03
 category: articles
-image: mademistakes-feature
+image: 
+  small: palm-pre-340x100.jpg
 tags: 
 - Palm Pre
 - iPhone
@@ -54,11 +55,11 @@ Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS
 *	Device does get warm after prolonged usage. *(To be fair so did my Centro)*
 *	Audio speaker isn't that loud.
 
-So there you have it. Can't say that I was excited about the thought of paying an extra $20 a month for the required Sprint Everything Data plan. But seeing how I'm getting more anytime minutes, Sprint Navigation, Sprint TV, and nights that start at 7pm instead of 9pm --- I'll live. My only real Palm Pre complaints stem from it's software or lack of applications, which I'm pretty confident will be addressed with future firmware and software updates. I hope ;-)
+So there you have it. Can't say that I was excited about the thought of paying an extra $20 a month for the required Sprint Everything Data plan. But seeing how I'm getting more anytime minutes, Sprint Navigation, Sprint TV, and nights that start at 7pm instead of 9pm --- I'll live. My only real Palm Pre complaints stem from its software or lack of applications, which I'm pretty confident will be addressed with future firmware and software updates. I hope ;-)
 
 If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walkthroughs.
 
-<ul class="image-grid unstyled">
+<ul class="recent-grid unstyled-list">
 	<li><a href="{{ site.url }}/images/354.jpg"><img src="{{ site.url }}/images/354t.jpg" alt="Palm Pre lock screen" /></a></li>
 	<li><a href="{{ site.url }}/images/355.jpg"><img src="{{ site.url }}/images/355t.jpg" alt="Palm Pre closed" /></a></li>
 	<li><a href="{{ site.url }}/images/356.jpg"><img src="{{ site.url }}/images/356t.jpg" alt="Palm Pre open" /></a></li>

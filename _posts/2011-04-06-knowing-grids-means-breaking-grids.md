@@ -1,30 +1,17 @@
 ---
-layout: article
+layout: post
 title: "Knowing Grids Means Breaking Grids"
 headline: "Knowing Grids"
 subheadline: "Means Breaking Grids"
 description: "Exploring what it means to develop a grid system that helps facilitate strong design with purpose."
 category: articles
 modified: 2013-04-26
-image: knowing-grids-feature
-thumb: owh-grid-spread-340x340.jpg
-tags: 
-- critique
-- grid
-- system
-- graphic design
-- inspiration
-- typography
+image: 
+  feature: knowing-grids-feature.jpg
+  small: knowing-grids-340x100.jpg
+  thumb: owh-grid-spread-340x340.jpg
+tags: [critique, grid, system, graphic design, inspiration, typography]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 Of all the things to grab my attention, the grid system used in a women's health calendar was certainly not high on my list.
 

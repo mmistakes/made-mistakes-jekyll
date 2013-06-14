@@ -3,30 +3,12 @@ layout: page
 title: About
 headline: What's a Made Mistakes?
 subheadline: Behind the Name and Designer
-date: 2013-05-29
+modified: 2013-06-12
 description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
-image: paperfaces-michael-rose-beard
-tags: 
-- Michael Rose
-- graphic design
-- design
-- designer
-- Buffalo
-- print
-- catalog design
-- web design
-- made mistakes
-- mmistakes
+image: 
+  feature: paperfaces-michael-rose-beard-xl.jpg
+tags: [Michael Rose, graphic design, design, designer, Buffalo, print, catalog design, web design, made mistakes, mmistakes, feature]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 ## What's a Made Mistakes?
 
@@ -38,10 +20,9 @@ I've since decided to go <abbr>CMS</abbr>-free and utilize black magick and [Jek
 
 ## And Who Are You Again?
 
-Oh hey. I'm Michael Rose, just another boring, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
 
 Oh, and I'm a recent father of twin girls and will someday help redesign [my wife's blog](http://2littlerosebuds.com "2 Little Rosebuds")...
-
 
 ## Contact Me
 

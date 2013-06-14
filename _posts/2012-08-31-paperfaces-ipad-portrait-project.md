@@ -1,36 +1,17 @@
 ---
-layout: article
+layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by FiftyThree"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
 modified: 2013-05-31
-image: paperfaces-featured-image
-thumb: paperfaces-project-thumb.jpg
-screenshot: paperfaces-project-screenshot.jpg
+image: 
+  feature: paperfaces-project-feature.jpg
+  small: paperfaces-project-340x100.jpg
+  thumb: paperfaces-project-thumb.jpg
 category: articles
-tags: 
-- PaperFaces
-- MadeWithPaper
-- Paper by 53
-- iPad
-- portrait
-- drawing
-- illustration
-- painting
-- Michael Rose
-- graphic design
+tags: [PaperFaces, MadeWithPaper, Paper by 53, iPad, portrait, drawing, illustration, painting, Michael Rose, graphic design, feature]
 ---
-
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.
 
@@ -63,7 +44,7 @@ You can do any (or all) of the following to request a PaperFaces portrait from m
 Donating guarantees that I'll draw your portrait, and moves you up to the top of the list. Depending on the amount of generous souls throwing cash my way, you could get your drawing as early as the next day. If you're going the retweet-only route, I'd caution against an old style RT or quoting it --- I get the funny feeling Favstar.fm doesn't track all of those. When in doubt, follow me and let me know about your interest in a portrait. I'm more likely to notice then...
 
 <div class="well">
-  <form class="well" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom:0;">
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom:0;">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="XAVAR6MGZGVLY">
     <select name="os0" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'donation options']);">
@@ -100,7 +81,7 @@ When the count hit 700, I revised my initial goal of 365 to 730 (that's two a da
 
 When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 is its small toolset, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and ultimately grow as an artist.
 
-<figure>
+<figure class="large">
   <img src="{{ site.url }}/images/paperfaces-rosebud-twins-l.jpg" alt="PaperFaces iPad portrait of the Rosebud twins" />
   <figcaption>PaperFaces iPad portrait of my two twin girls</figcaption>
 </figure>
@@ -132,7 +113,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slideshow
 **Update:** I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows iOS devices to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
 {: .notice}
 
-<figure>
+<figure class="large">
   <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
   <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or read about <a href="{{ site.url }}/articles/madewithpaper-drawing-guide.html" title="How I draw with Paper by 53 and an iPad">my drawing process</a> here.</figcaption>
 </figure>
