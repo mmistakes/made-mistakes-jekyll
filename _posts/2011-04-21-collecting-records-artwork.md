@@ -3,7 +3,7 @@ layout: post
 title: "Collecting Records for the Artwork"
 headline: "Collecting Records"
 subheadline: "Mostly for the Artwork &amp; Sometimes the Music"
-description: "How the rawness found in DIY released emo and hardcore records started my collecting addiction and influenced the usage of texture in my work as a graphic designer."
+description: "How the hand crafted aesthic found in DIY released emo and hardcore records started my collecting addiction."
 category: articles
 image: 
   feature: collecting-records-feature.jpg

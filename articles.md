@@ -8,4 +8,4 @@ description: "Posts &amp; diatribes. A collection of Michael Rose&rsquo;s though
 tags: [blog, articles, mistakes, inspiration, thoughts, design]
 ---
 
-Introductory copy about this page goes here.
+A collection of my thoughts, inspirations, mistakes, and other minutia. Usually pertaining to something only I care about...

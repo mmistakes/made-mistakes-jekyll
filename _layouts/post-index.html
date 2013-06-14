@@ -21,11 +21,11 @@
       </header><!--/ .headline-wrap -->
       {{ content }}
     </article>
-    <aside>
+    {% if page.image.main %}<aside>
       <figure>
         <img src="{{ site.url }}/images/{{ page.image.main }}" alt="{{ page.title }} main image">
       </figure>
-    </aside>
+    </aside>{% endif %}
   </div><!-- /.intro-wrap -->
   <nav role="navigation">
     <ol class="index">
