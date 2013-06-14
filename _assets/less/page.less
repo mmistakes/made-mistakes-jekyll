@@ -241,10 +241,10 @@ header[role="banner"] {
 		}
 		.bio-content {
 			float: left;
-			width: 460px;
-			@media @large {
-				width: 100%;
-				float: none;
+			width: 75%;
+			p.social {
+				display: inline;
+				padding-right: 10px;
 			}
 		}
 		h4 { 
@@ -385,23 +385,21 @@ ol.index {
 	article {
 		@media @large {
 			float: left;
-			margin-bottom: -100px;
 		}
 		header {
 			@media @large {
 				h1 { margin: 0; }
-				top: -100px;
 				margin: 0;
+				margin-top: -100px;
 				padding: 30px 30px 0 30px;
 				position: relative;
 				background-color: @white;
-				h2 { margin-bottom: 0;}
+				h2 { margin-bottom: 0; }
 			}
 		}
 		.content-wrap {
 			@media @large {
 				position: relative;
-				top: -100px;
 				padding: 0 30px 30px;
 				background-color: @white;
 				p:first-child { 
@@ -413,7 +411,6 @@ ol.index {
 		footer {
 			@media @large {
 				position: relative;
-				top: -100px;
 			}
 		}
 	}
@@ -424,6 +421,14 @@ ol.index {
 			top: 560px;
 			float: right;
 			.bio-photo { float: none; }
+			.bio-content {
+				float: none;
+				width: 75%;
+				p.social {
+					display: block;
+					margin: 0;
+				}
+			}
 		}
 	}
 }
@@ -548,6 +553,7 @@ nav.pager {
 }
 
 #main nav.pager {
+	margin-top: 20px;
 	padding-top: 20px;
 	border-top: 4px solid lighten(@text-color, 60);
 	border-top-color: fade(@black, 10);
@@ -583,6 +589,20 @@ nav.pager {
 		}
 		@media @large {
 			max-width: 940px;
+		}
+	}
+}
+.footer-icons {
+	li {
+		display: inline-block;
+		padding: 0 5px;
+		a {
+			color: lighten(@comp-color, 50);
+			&:hover .icon-twitter { color: #2aa9df; }
+			&:hover .icon-facebook { color: #3a5a98; }
+			&:hover .icon-instagram { color: #306088; }
+			&:hover .icon-google-plus { color: #b63324; }
+			&:hover .icon-github { color: #4183c4; }
 		}
 	}
 }
