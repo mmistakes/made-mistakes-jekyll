@@ -1,29 +1,16 @@
 ---
-layout: article
+layout: post
 title: "How to Use the Rasterbator to Print out a Wall Sized Owl"
 headline: "Using the Rasterbator"
 subheadline: "Wall Sized Owl Fun"
 description: "A quick tutorial and time lapse video of how to assemble a wall sized poster using The Rasterbator."
 category: articles
-image: owl-rasterbator
-thumb: rasterbator-thumb.jpg
-tags: 
-- poster
-- rasterbator
-- print
-- timelapse
-- owl
-- tech geek
+image: 
+  feature: owl-rasterbator-feature.jpg
+  small: owl-rasterbator-340x100.jpg
+  thumb: rasterbator-thumb.jpg
+tags: [poster, rasterbator, print, time lapse, owl, tech geek, feature]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 A few weekends ago I decided to cover one of the walls in the office with a large poster. I've toyed around with black and white rasterbated images before, but I really wanted to see how well a full color one would look. My office walls are a lime green color and I figured something with dark greens would contrast nicely. Choosing a forest scene with a huge owl seemed right up my alley so I got to work on it's creation.
 
@@ -35,7 +22,7 @@ Took some quick measurements of the wall's dimensions and uploaded the image to 
 
 Anyways. After cutting out all the pages I setup my JVC mini-DV camcorder and recorded myself taping each page to the wall. Figured this would be a fun excuse to use the camcorder since I rarely break the thing out after buying it 4 years ago. Took the 2 hours of footage and imported it into iMovie and made a quick time lapse video by speeding it up 4x. I think it came out good and laugh every time I see my stupid cats walking around watching me in confusion.
 
-<figure>
+<figure class="large">
     <iframe width="420" height="315" src="http://www.youtube.com/embed/05Qy88RUJHA" frameborder="0"> </iframe>
     <figcaption>Video time lapse of the process of putting up a Rasterbator poster</figcaption>
 </figure>

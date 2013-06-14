@@ -1,12 +1,15 @@
 ---
-layout: article
+layout: post
 title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 subheadline: "Built for Jekyll"
-description: "A responsive Jekyll theme with editorial tendencies and clean typography by designer Michael Rose."
-image: minimal-mistakes-theme
+description: "A responsive Jekyll theme full width imagery and clean typography by designer Michael Rose."
+modified: 2013-06-13
+image: 
+  feature: minimal-mistakes-theme-feature.jpg
+  small: minimal-mistakes-theme-340x100.jpg
 category: articles
-tags: [Jekyll, theme, responsive, blog, template, Made Mistakes]
+tags: [Jekyll, theme, responsive, blog, template, Made Mistakes, feature]
 ---
 
 Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)**, a responsive Jekyll theme with editorial tendencies. 

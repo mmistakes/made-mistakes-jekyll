@@ -1,29 +1,17 @@
 ---
-layout: article
+layout: post
 title: "One Week with the New iPod classic"
 headline: "One Week with the New iPod classic"
 subheadline: "A short review"
 description: "Quick impressions of the new iPod classic 60GB."
 modified: 2013-05-03
 category: articles
-image: ipod-classic-feature
-thumb: ipod-classic-340x340.jpg
-tags: 
-- iPod
-- classic
-- Apple
-- mp3 player
-- review
+image: 
+  feature: ipod-classic-feature.jpg
+  small: ipod-classic-340x100.jpg
+  thumb: ipod-classic-thumb.jpg
+tags: [iPod, classic, Apple, mp3 player, review]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 Last week Apple finally unveiled a new generation of iPods. The last iPod I purchased was a 3rd generation model with 40GB of hard drive space and have been waiting for a decent successor. My iTunes Music Library has finally outgrown the 3rd gen so I decided this was the time to get a replacement. I figured an iPod that resembled the iPhone would be just around the corner and pleasantly surprised when the *iPod touch* was announced.
 
@@ -47,7 +35,7 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 
 ### Photo Gallery
 
-<ul class="image-grid unstyled">
+<ul class="recent-grid unstyled-list">
 	<li><a href="{{ site.url }}/images/80.jpg"><img src="{{ site.url }}/images/80t.jpg" alt="iPod classic syncing next to a 40GB iPod"/></a></li>
 	<li><a href="{{ site.url }}/images/81.jpg"><img src="{{ site.url }}/images/81t.jpg" alt="iPod classic thickness compared to an old 40GB iPod"/></a></li>
 	<li><a href="{{ site.url }}/images/82.jpg"><img src="{{ site.url }}/images/82t.jpg" alt="New interface menu. Album artwork fades in and out randomly on the side as you navigate through the menus."/></a></li>

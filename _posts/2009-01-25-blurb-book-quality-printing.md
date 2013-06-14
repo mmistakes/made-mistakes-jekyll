@@ -1,11 +1,13 @@
 ---
-layout: article
+layout: post
 title: "The Quality of My First Blurb Book is Great"
 headline: "The Quality of My First Blurb Book is Great"
 description: "Designing a book with Blurb was painless and having it printed was equaly enjoyable. I'm really happy with how my first photography book turned out."
 modified: 2013-01-26
-thumb: blurb-book-featured-thumb.jpg
-image: blurb-book-featured
+image: 
+  feature: blurb-book-featured.jpg
+  small: blurb-book-340x100.jpg
+  thumb: blurb-book-thumb.jpg
 category: articles
 tags: 
 - Blurb
@@ -14,15 +16,6 @@ tags:
 - printing
 - graphic design
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 Designing a book with Blurb was painless and having it printed was equaly enjoyable. I'm really happy with how my first photography book turned out.
 
@@ -34,12 +27,8 @@ They offer some guidance on [color management](http://www.blurb.com/color-manage
 
 ## Sample Pages
 
-<figure>
+<figure class="half">
 	<a href="{{ site.url }}/images/six-month-walk-interior-1-1024.jpg" title="Photograph of interior page spread of book, A Six Month Walk"><img src="{{ site.url }}/images/six-month-walk-interior-1-320.jpg" alt="Photograph of interior page spread of book, A Six Month Walk" /></a>
-	<figcaption>Photograph of interior page spread of book, A Six Month Walk.</figcaption>
-</figure>
-
-<figure>
 	<a href="{{ site.url }}/images/six-month-walk-detail-print-1024.jpg" title="Detail photograph of printed page of book, A Six Month Walk"><img src="{{ site.url }}/images/six-month-walk-detail-print-320.jpg" alt="Detail photograph of printed page of book, A Six Month Walk" /></a>
-	<figcaption>Detail photograph of printed page of book, A Six Month Walk.</figcaption>
+	<figcaption>Detail photographs of a printedbook.</figcaption>
 </figure>

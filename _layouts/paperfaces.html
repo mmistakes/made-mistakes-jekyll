@@ -7,13 +7,30 @@
 {% include head.html %}
 </head>
 
-<body class="image" itemscope itemtype="http://schema.org/WebPage">
+<body id="photo" itemscope itemtype="http://schema.org/WebPage">
 
 {% include chrome-frame.html %}
-
-<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image" itemprop="primaryImageOfPage">
-  <div class="pagination">
+{% include navigation.html %}
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="post-wrap">
+    <article>
+      <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image" itemprop="primaryImageOfPage">
+      <header class="headline-wrap">
+        <h1 itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+        {% if page.subheadline %}<h2>{{ page.subheadline }}</h2>{% endif %}
+      </header><!--/ .headline-wrap -->
+      <div class="content-wrap" itemprop="text">
+        {{ content }}
+      </div><!-- /.content-wrap -->
+      <footer role="contentinfo">
+        <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" rel="dct:type">work</span></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">Michael Rose</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
+      </footer>
+    </article>
+    <aside>
+      {% include author-bio.html %}
+    </aside>
+  </div><!-- /.post-wrap -->
+  <nav class="pagination" role="navigation">
     {% for post in site.categories.paperfaces %}
       {% if post.url == page.url %}
         {% assign post_index0 = forloop.index0 %}
@@ -34,34 +51,10 @@
     {% if prev_post %}
       <a href="{{ prev_post }}" class="mfp-arrow mfp-arrow-left hide-text" title="Previous image">Previous image</a>
     {% endif %}
-  </div><!-- /.pagination -->
-</div><!-- /.image-wrap -->
-
-<div id="main" role="main" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="article-author-top">
-    {% include author-bio.html %}
-  </div>
-  <article>
-    <div class="headline-wrap">
-      <h1 itemprop="headline">{{ page.title }}</h1>
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#index -->
-
+  </nav><!-- /.pagination -->
+</div><!-- /#main -->
 <div class="footer-wrap">
-  <div class="related-articles">
-    <h4>Latest PaperFaces Portraits <small class="pull-right">(<a href="{{ site.url}}/paperfaces">View all portraits</a>)</small></h4>
-    <ul class="recent-grid unstyled-list">
-    {% for post in site.categories.paperfaces limit:5 %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
-    {% endfor %}
-    </ul>
-    <hr />
-  </div><!-- /.related-articles -->
-  <footer>
+  <footer role="contentinfo">
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->

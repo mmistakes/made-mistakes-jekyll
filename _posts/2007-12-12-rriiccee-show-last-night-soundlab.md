@@ -1,12 +1,14 @@
 ---
-layout: article
+layout: post
 title: RRIICCEE Show Last Night
 headline: "RRIICCEE Show"
 subheadline: "Buffalo NY (Soundlab) &#8211; December 2007"
 description: "Musically &#8212; RRIICCEE is fine, but not something I really want to see live again."
 category: articles
-image: rriiccee-feature
-thumb: rriiccee-thumb.jpg
+image: 
+  feature: rriiccee-feature.jpg
+  small: rriiccee-340x100.jpg
+  thumb: rriiccee-thumb.jpg
 tags: 
 - RRIICCEE
 - Vincent Gallo
@@ -17,6 +19,7 @@ tags:
 - New York
 - review
 ---
+
 So I no longer have any drive to go see bands perform live. The one or two shows I force myself to attend yearly always leave me questioning my intentions about ten minutes after arriving at the bar. Maybe I'm getting less patient with my age but I can't stand it when bands don't start playing until three+ hours after doors open. On a work night that just sucks.
 
 But really, I can live with all that if the band is amazing and puts on a mind blowing performance (something that has yet to happen as of late). So when I heard that Vincent Gallo was going to actually play Buffalo *at Soundlab*, a city that he always rips on in interviews --- I was excited to puchase my ticket and go.

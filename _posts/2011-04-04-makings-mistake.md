@@ -1,12 +1,13 @@
 ---
-layout: article
+layout: post
 title: "Makings of a Mistake, Designing the Site"
 headline: "Makings of a Mistake"
 subheadline: "Constantly Re-designing the Website"
 description: "As a designer we've all been there. When was the last time you got bored with a design and decided to just burn it and start anew?"
 category: articles
-image: mademistakes-feature
-thumb: fadedlead-home-340x340.jpg
+image: 
+  small: fadedleaf-340x100.jpg
+  thumb: fadedlead-home-340x340.jpg
 tags: 
 - CMS
 - graphic design
@@ -16,15 +17,6 @@ tags:
 - Made Mistakes
 - Michael Rose
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 As a designer we've all been there. When was the last time you got bored with a design and decided to just scrap it and start from scratch? Yeah, that's what I thought.
 

@@ -1,12 +1,14 @@
 ---
-layout: article
+layout: post
 title: Feeling Kinda Stuck In A Half Nelson
 headline: "Feeling Kinda Stuck"
 subheadline: "Impressions of the Film Half Nelson"
 description: "My impressions of the film Half Nelson, starring Ryan Gosling."
 category: articles
-image: half-nelson-feature
-thumb: half-nelson-thumb.jpg
+image: 
+  feature: half-nelson-feature.jpg
+  small: half-nelson-340x100.jpg
+  thumb: half-nelson-thumb.jpg
 tags:
 - Ryan Gosling
 - film
@@ -17,11 +19,12 @@ tags:
 - independent
 - indie
 ---
+
 My gosh! I ate a bowl of generic Honeycomb cereal for lunch and have been starving ever since. Completely devoured the large bucket at Dipson tonight and got a refill of my favorite popcorns before *Half Nelson*[^1] even started. Sometimes I wonder if all the old people sitting around me are super artsy and enjoy these films... or if they just live across from the theater and straggle in to take advantage of a senior citizens discount.
 
 The reviews were fairly good for Half Nelson and I really enjoyed the feel of the website and trailer. Everything in this film seemed extremely subtle and understated to me. The typography used in the opening credits was made up of a serif typeface... all lowercase... white on black... very traditional with a hint of organic imperfection. Nothing too flashy. Just a story about an average guy smoking crack in the school he happens to be teaching at.
 
-<figure>
+<figure class="large">
 	<img src="{{ site.url }}/images/600full-half-nelson-screenshot.jpg" alt="Half Nelson (2006)" />
 	<figcaption>Still shot from Half Nelson (2006)</figcaption>
 </figure>

@@ -1,35 +1,17 @@
 ---
-layout: article
+layout: post
 title: "Collecting Records for the Artwork"
 headline: "Collecting Records"
 subheadline: "Mostly for the Artwork &amp; Sometimes the Music"
-description: "How the rawness found in DIY released emo and hardcore records started my collecting addiction and influenced the usage of texture in my work as a graphic designer."
+description: "How the hand crafted aesthic found in DIY released emo and hardcore records started my collecting addiction."
 category: articles
-image: collecting-records
-thumb: collecting-records-340x340.jpg
+image: 
+  feature: collecting-records-feature.jpg
+  small: collecting-records-340x100.jpg
+  thumb: collecting-records-thumb.jpg
 modified: 2013-04-26
-tags: 
-- record 
-- artwork
-- emo
-- hardcore
-- zine
-- DIY
-- vinyl
-- critique
-- graphic design
-- design
-- inspiration
+tags: [record, artwork, emo, hardcore, zine, DIY, vinyl, critique, graphic design, design, inspiration]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 ## Hand-lettered, the Stuff of My Dreams
 

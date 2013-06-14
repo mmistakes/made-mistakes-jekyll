@@ -4,26 +4,9 @@ title: "Terms &amp; Conditions"
 headline: "Website Policies"
 subheadline: "Or that Legal Stuff No One Reads"
 description: "Made Mistakes website policies, terms &amp; conditions, license, and other legal stuff you won't read."
-image: mademistakes-feature
-date: 2013-04-29
-tags:
-- license
-- privacy
-- policy
-- site
-- disclaimer
-- terms
-- copyright
+modified: 2013-04-29
+tags: [license, privacy, policy, disclaimer, terms, copyright]
 ---
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3 class="delta">Contents</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
 
 ## Legal Stuff
 
