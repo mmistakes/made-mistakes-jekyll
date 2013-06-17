@@ -1,7 +1,7 @@
 # [Made Mistakes](http://mademistakes.com) Source Code
 
 This is the source code of Made Mistakes, a personal blog and portfolio on http://mademistakes.com, hosted by 
-[Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c). My overall goal with the site design was to create visually interesting pages that look great and readable on mobile, tablet, and desktop viewports.
+[Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c). My overall goal with the site design was to create visually interesting pages that look great and are readable on mobile, tablet, and desktop viewports.
 
 The article layouts are the most fleshed out and *finished*. Everything else works and get's the job done, but could use some more love.
 
