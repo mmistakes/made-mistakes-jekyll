@@ -296,10 +296,10 @@ overflow: visible; }
 // MEDIA QUERIES
 // --------------------------------------------------
 
-@small:       ~"only screen and (min-width: 480px)";
-@medium:      ~"only screen and (min-width: 768px)";
-@large:       ~"only screen and (min-width: 1000px)";
+@small:       ~"only screen and (min-width: 30em)";
+@medium:      ~"only screen and (min-width: 48em)";
+@large:       ~"only screen and (min-width: 62.5em)";
 @highdensity: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
-              ~"only screen and (min--moz-device-pixel-ratio: 1.5)",
               ~"only screen and (-o-min-device-pixel-ratio: 3/2)",
-              ~"only screen and (min-device-pixel-ratio: 1.5)";
+              ~"only screen and (min-resolution: 144dpi)",
+              ~"only screen and (min-resolution: 1.5dppx)";
