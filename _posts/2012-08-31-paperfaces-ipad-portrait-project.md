@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "iPad Portraits with Paper by FiftyThree"
+title: "iPad Portraits with Paper by 53"
 headline: "PaperFaces Project"
-subheadline: "Daily iPad Portraits with Paper by FiftyThree"
+subheadline: "Daily iPad Portraits with Paper by 53"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
 modified: 2013-05-31
 image: 

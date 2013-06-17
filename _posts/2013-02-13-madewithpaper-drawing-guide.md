@@ -3,7 +3,7 @@ layout: post
 title: "A Guide to Drawing with Paper by 53"
 headline: "A Guide to Drawing with Paper by 53"
 subheadline: "Methods and Techniques of a Non-Artist"
-description: "Learn how to use Paper by FiftyThree to draw blank faced portraits and landscapes on an iPad with retina display."
+description: "Learn how to use Paper by 53 to draw blank faced portraits and landscapes on an iPad with retina display."
 modified: 2013-05-29
 image: 
   feature: madewithpaper-guide-feature.jpg
