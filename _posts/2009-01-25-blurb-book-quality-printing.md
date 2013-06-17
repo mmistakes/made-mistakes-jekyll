@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "The Quality of My First Blurb Book is Great"
-headline: "The Quality of My First Blurb Book is Great"
-description: "Designing a book with Blurb was painless and having it printed was equaly enjoyable. I'm really happy with how my first photography book turned out."
+headline: "The Quality is Great"
+subheadline: "Printing a Photography Book with Blurb"
+description: "Using Blurb's BookSmart software was painless and having it printed was equally enjoyable."
 modified: 2013-01-26
 image: 
   feature: blurb-book-featured.jpg
@@ -17,7 +18,7 @@ tags:
 - graphic design
 ---
 
-Designing a book with Blurb was painless and having it printed was equaly enjoyable. I'm really happy with how my first photography book turned out.
+Designing a book with Blurb was painless and having it printed was equally enjoyable. I'm really happy with how my first photography book turned out.
 
 ## Options to Satisfy
 
@@ -30,5 +31,5 @@ They offer some guidance on [color management](http://www.blurb.com/color-manage
 <figure class="half">
 	<a href="{{ site.url }}/images/six-month-walk-interior-1-1024.jpg" title="Photograph of interior page spread of book, A Six Month Walk"><img src="{{ site.url }}/images/six-month-walk-interior-1-320.jpg" alt="Photograph of interior page spread of book, A Six Month Walk" /></a>
 	<a href="{{ site.url }}/images/six-month-walk-detail-print-1024.jpg" title="Detail photograph of printed page of book, A Six Month Walk"><img src="{{ site.url }}/images/six-month-walk-detail-print-320.jpg" alt="Detail photograph of printed page of book, A Six Month Walk" /></a>
-	<figcaption>Detail photographs of a printedbook.</figcaption>
+	<figcaption>Detail photographs of a printed book.</figcaption>
 </figure>
