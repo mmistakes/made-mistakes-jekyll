@@ -591,7 +591,7 @@ header[role="banner"] ul{margin:0;padding:0;list-style-type:none;font-family:'Op
 .post-wrap article p>a{border-bottom:1px dotted #b3b3b3;}.post-wrap article p>a:hover{border-bottom-style:solid;}
 @media only screen and (min-width: 768px){.post-wrap article{max-width:580px;margin-right:auto;margin-left:auto;}}@media only screen and (min-width: 1000px){.post-wrap article{width:580px;}}.post-wrap article ul li,.post-wrap article ol li{padding-bottom:10px;}
 .post-wrap aside{padding-bottom:40px;position:relative;}.post-wrap aside .bio-photo{margin-right:20px;width:100px;float:left;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;}
-.post-wrap aside .bio-content{float:left;width:75%;}.post-wrap aside .bio-content p.social{display:inline;padding-right:10px;}
+.post-wrap aside .bio-content{float:left;width:75%;padding-bottom:20px;}.post-wrap aside .bio-content p.social{display:inline;padding-right:10px;}
 .post-wrap aside h4{margin:0;}
 .post-wrap aside p{font-size:14px;font-size:0.875rem;line-height:1.7143;margin-top:0;}
 .post-wrap aside p+p{margin-top:10px;}
