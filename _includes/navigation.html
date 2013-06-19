@@ -1,11 +1,13 @@
 <header role="banner" id="header">
-	<span class="branding"><a href="{{ site.url }}" title="Home">{{ site.title }}</a></span>
-	<nav role="navigation" id="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
-	    <ul>
-	        {% for link in site.links %}
-			<li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
-	        {% endfor %}
-	        <li><a href="{{ site.url }}/atom.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
-	    </ul>
-	</nav><!-- /#site-nav -->
+	<div class="header-wrap">
+		<span class="branding"><a href="{{ site.url }}" title="Home">{{ site.title }}</a></span>
+		<nav role="navigation" id="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+		    <ul>
+		        {% for link in site.links %}
+				<li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+		        {% endfor %}
+		        <li><a href="{{ site.url }}/atom.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
+		    </ul>
+		</nav><!-- /#site-nav -->
+	</div><!-- /.header-wrap -->
 </header><!-- /#header -->

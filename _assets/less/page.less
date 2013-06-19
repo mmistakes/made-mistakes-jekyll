@@ -7,8 +7,16 @@ body {
 
 // Header
 // --------------------------------------------------
-
-header[role="banner"] {
+header[role="banner"] { 
+	width: 100%;
+	z-index: 100;
+}
+.header-fixed {
+	position: fixed;
+	top: 0;
+	background-color: @white;
+}
+.header-wrap {
 	position: relative;
 	max-width: 940px;
 	margin: 0;
