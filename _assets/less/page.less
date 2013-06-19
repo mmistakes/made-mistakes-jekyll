@@ -7,14 +7,20 @@ body {
 
 // Header
 // --------------------------------------------------
-header[role="banner"] { 
+#header { 
+	top: 0;
 	width: 100%;
 	z-index: 100;
-}
-.header-fixed {
-	position: fixed;
-	top: 0;
-	background-color: @white;
+	&.detached {
+		position: fixed;
+		background-color: @white;
+	}
+	&.visible {
+		.opacity(1);
+	}
+	&.hidden {
+		.opacity(0);
+	}
 }
 .header-wrap {
 	position: relative;

@@ -563,8 +563,9 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .form-inline .radio,.form-inline .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle;}
 .form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px;}
 body{margin:0;padding:0;width:100%;background-color:#ffffff;}
-header[role="banner"]{width:100%;z-index:100;}
-.header-fixed{position:fixed;top:0;background-color:#ffffff;}
+#header{top:0;width:100%;z-index:100;}#header.detached{position:fixed;background-color:#ffffff;}
+#header.visible{-webkit-opacity:1;-moz-opacity:1;opacity:1;}
+#header.hidden{-webkit-opacity:0;-moz-opacity:0;opacity:0;}
 .header-wrap{position:relative;max-width:940px;margin:0;padding:20px;*zoom:1;}.header-wrap:before,.header-wrap:after{display:table;content:"";line-height:0;}
 .header-wrap:after{clear:both;}
 .header-wrap nav{clear:both;text-transform:uppercase;}
