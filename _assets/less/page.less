@@ -7,8 +7,16 @@ body {
 
 // Header
 // --------------------------------------------------
-
-header[role="banner"] {
+header[role="banner"] { 
+	width: 100%;
+	z-index: 100;
+}
+.header-fixed {
+	position: fixed;
+	top: 0;
+	background-color: @white;
+}
+.header-wrap {
 	position: relative;
 	max-width: 940px;
 	margin: 0;
@@ -36,6 +44,12 @@ header[role="banner"] {
 				display: block;
 				color: @white;
 			}
+			&:hover {
+				background-color: @white;
+				a {
+					color: @black;
+				}
+			}
 		}
 	}
 	@media @medium {
@@ -49,13 +63,16 @@ header[role="banner"] {
 		ul li {
 			width: auto;
 			margin-top: 0;
-			display: inline;
+			display: inline-block;
 			background-color: @white;
 			a {
 				width: auto;
 				padding: auto;
-				display: inline;
+				display: inline-block;
 				color: @text-color;
+				&:hover {
+					.scale(1.1);
+				}
 			}
 		}
 	}
@@ -212,7 +229,8 @@ header[role="banner"] {
 				}
 			}
 		}
-		p > a {
+		p > a,
+		li > a {
 			border-bottom: 1px dotted lighten(@link-color, 50);
 			&:hover {
 				border-bottom-style: solid;

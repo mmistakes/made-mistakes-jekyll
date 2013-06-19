@@ -2650,6 +2650,28 @@ $(document).ready(function() {
   });
 });
 
+// Fix top header on scroll up
+$(document).ready(function() {
+    var previousScroll = 0,
+        headerOrgOffset = $('#header').offset().top;
+
+    $(window).scroll(function() {
+        var currentScroll = $(this).scrollTop();
+        if(currentScroll > headerOrgOffset) {
+            if (currentScroll > previousScroll) {
+                $('#header').fadeOut();
+            } else {
+                $('#header').fadeIn();
+                $('#header').addClass('header-fixed');
+            }
+        } else {
+             $('#header').removeClass('header-fixed');   
+        }
+        previousScroll = currentScroll;
+    });
+
+});
+
 // Contact Form
 function validateEmail(email) { 
     var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
