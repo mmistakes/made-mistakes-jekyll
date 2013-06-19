@@ -2659,13 +2659,14 @@ $(document).ready(function() {
         var currentScroll = $(this).scrollTop();
         if(currentScroll > headerOrgOffset) {
             if (currentScroll > previousScroll) {
-                $('#header').fadeOut();
+                $('#header').addClass('hidden');
+                $('#header').removeClass('visible');
             } else {
-                $('#header').fadeIn();
-                $('#header').addClass('header-fixed');
+                $('#header').addClass('visible detached');
+                $('#header').removeClass('hidden');
             }
         } else {
-             $('#header').removeClass('header-fixed');   
+             $('#header').removeClass('detached');   
         }
         previousScroll = currentScroll;
     });
