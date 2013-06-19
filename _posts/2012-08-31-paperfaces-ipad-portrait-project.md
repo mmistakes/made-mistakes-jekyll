@@ -4,7 +4,7 @@ title: "iPad Portraits with Paper by 53"
 headline: "PaperFaces Project"
 subheadline: "Daily iPad Portraits with Paper by 53"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-05-31
+modified: 2013-06-17
 image: 
   feature: paperfaces-project-feature.jpg
   small: paperfaces-project-340x100.jpg
@@ -94,7 +94,7 @@ Next, I fire up Paper on my iPad, draw a black square with the pen tool, and sta
 
 Upon the portrait's completion, I share it from within the Paper by 53 app to Twitter and Tumblr, repost a cropped version to Instagram, and @reply the volunteer to notify them. If they donated or ask nicely, I send them a larger sized version in case they'd like to print it out. Using Evernote, I mark the drawing complete in my fancy PaperFaces notebook and move on to the next portrait.
 
-And yes, I use a stylus. For the first 50 or so portraits I drew exclusively with a [Just Mobile AP-818 Universal AluPen Stylus][alupen] until the tip wore out. I now use a [LunaTik Alloy Touch Pen Stylus/Ink Pen][lunatik] with hopes of purchasing a [Pogo Connect Bluetooth 4.0 Smart Pen][pogoconnect] sometime in the future.
+And yes, I use a stylus. For the first 50 or so portraits I drew exclusively with a [Just Mobile AP-818 Universal AluPen Stylus][alupen] until the tip wore out. I moved on to a [LunaTik Alloy Touch Pen Stylus/Ink Pen][lunatik] and am now using a [Pogo Connect Bluetooth 4.0 Smart Pen][pogoconnect] with all that pressure sensitive goodness.
 
 [alupen]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
 [lunatik]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
@@ -102,15 +102,15 @@ And yes, I use a stylus. For the first 50 or so portraits I drew exclusively wit
 
 ### When are You Going to Stop?
 
-At the moment, there is a *waiting list* of about 1,500. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. I'm committed to drawing a minimum of 730 with the hopes of doing more --- if I don't burn out on them.
+At the moment, there is a *waiting list* of about 1,300. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} portraits.
 
-Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour and a half to complete, while others might take a few hours. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
+Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour, while others might take a few. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
 ## Video Tutorials
 
 I use the term "tutorial" loosely. What you'll find here are glorified slideshows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slideshow with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/articles/madewithpaper-drawing-guide.html "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
-**Update:** I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows iOS devices to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
+**Update:** I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
 {: .notice}
 
 <figure class="large">
