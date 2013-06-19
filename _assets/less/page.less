@@ -44,6 +44,12 @@ header[role="banner"] {
 				display: block;
 				color: @white;
 			}
+			&:hover {
+				background-color: @white;
+				a {
+					color: @black;
+				}
+			}
 		}
 	}
 	@media @medium {
@@ -57,13 +63,16 @@ header[role="banner"] {
 		ul li {
 			width: auto;
 			margin-top: 0;
-			display: inline;
+			display: inline-block;
 			background-color: @white;
 			a {
 				width: auto;
 				padding: auto;
-				display: inline;
+				display: inline-block;
 				color: @text-color;
+				&:hover {
+					.scale(1.1);
+				}
 			}
 		}
 	}
