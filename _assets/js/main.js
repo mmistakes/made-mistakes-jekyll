@@ -2651,27 +2651,29 @@ $(document).ready(function() {
 });
 
 // Fix top header on scroll up
-$(document).ready(function() {
-    var previousScroll = 0,
-        headerOrgOffset = $('#header').offset().top;
+if (Modernizr.touch) {
+  } else {
+  $(document).ready(function() {
+      var previousScroll = 0,
+          headerOrgOffset = $('#header').offset().top;
 
-    $(window).scroll(function() {
-        var currentScroll = $(this).scrollTop();
-        if(currentScroll > headerOrgOffset) {
-            if (currentScroll > previousScroll) {
-                $('#header').addClass('hidden');
-                $('#header').removeClass('visible');
-            } else {
-                $('#header').addClass('visible detached');
-                $('#header').removeClass('hidden');
-            }
-        } else {
-             $('#header').removeClass('detached');   
-        }
-        previousScroll = currentScroll;
-    });
-
-});
+      $(window).scroll(function() {
+          var currentScroll = $(this).scrollTop();
+          if(currentScroll > headerOrgOffset) {
+              if (currentScroll > previousScroll) {
+                  $('#header').addClass('hidden');
+                  $('#header').removeClass('visible');
+              } else {
+                  $('#header').addClass('visible detached');
+                  $('#header').removeClass('hidden');
+              }
+          } else {
+               $('#header').removeClass('detached');   
+          }
+          previousScroll = currentScroll;
+      });
+  });
+}
 
 // Contact Form
 function validateEmail(email) { 
