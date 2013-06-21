@@ -17,7 +17,7 @@ layout: nil
 	<email>{{ site.owner.email }}</email>
 </author>
 <rights>Unless otherwise noted, all content is published under a Creative Commons Attribution-Noncommercial-NoDerivs 3.0 United States License.</rights>
-{% for post in site.posts limit:50 %}
+{% for post in site.posts limit:25 %}
 <entry>
 	<title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
 	<link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
