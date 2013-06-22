@@ -2718,7 +2718,7 @@ body {
   counter-reset: captions;
 }
 .post-wrap article header h1 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 28px;
   font-size: 1.75rem;
   line-height: 0.8571;
@@ -2726,6 +2726,7 @@ body {
 }
 @media only screen and (min-width: 48em) {
   .post-wrap article header h1 {
+    font-family: 'PT Serif', serif;
     font-size: 36px;
     font-size: 2.25rem;
     line-height: 0.6667;
