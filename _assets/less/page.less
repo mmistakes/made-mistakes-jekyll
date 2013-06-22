@@ -146,10 +146,11 @@ body {
 		max-width: 580px;
 		header {
 			h1 {
-				font-family: @base-font;
+				font-family: @caption-font;
 				.font(32);
 				margin-bottom: 0;
 				@media @medium {
+					font-family: @base-font;
 					.font(36);
 				}
 				@media @medium {
@@ -157,21 +158,18 @@ body {
 				}
 			}
 			h2 {
-				.font(16);
+				.font(22);
+				font-family: @caption-font;
 				@media @medium {
-					.font(18);
+					font-family: @heading-font;
 				}
 				@media @large {
-					.font(20);
+					.font(22);
 				}
 			}
 		}
 		p:first-of-type { 
 			.font(18);
-		}
-		p + p {
-			text-indent: 1.5em;
-			margin: 0;
 		}
 		@media @medium {
 			float: right;
