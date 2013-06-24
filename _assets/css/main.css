@@ -2592,7 +2592,8 @@ body {
   color: #000000;
 }
 #home .header-wrap,
-#post-index .header-wrap {
+#post-index .header-wrap,
+#index .header-wrap {
   border-bottom: 4px solid #cccccc;
   border-bottom-color: rgba(0, 0, 0, 0.1);
 }
@@ -2708,7 +2709,13 @@ body {
 }
 @media only screen and (min-width: 48em) {
   #index .intro-wrap article {
+    padding-left: 40px;
     float: left;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  #index .intro-wrap article {
+    padding-left: 0;
   }
 }
 .post-wrap {
