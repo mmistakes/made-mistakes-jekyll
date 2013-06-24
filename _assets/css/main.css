@@ -2456,8 +2456,9 @@ body {
 .header-wrap {
   position: relative;
   max-width: 940px;
-  margin: 0;
-  padding: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   *zoom: 1;
 }
 .header-wrap:before,
@@ -2489,7 +2490,7 @@ body {
 }
 .header-wrap ul li a {
   width: 100%;
-  padding: 10px;
+  padding: 0 10px;
   display: block;
   color: #ffffff;
 }
@@ -2501,9 +2502,9 @@ body {
 }
 @media only screen and (min-width: 48em) {
   .header-wrap {
-    margin: 0 auto;
-    padding-right: 40px;
-    padding-left: 40px;
+    margin: 0 60px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .header-wrap nav {
     clear: none;
@@ -2527,6 +2528,11 @@ body {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .header-wrap {
+    margin: 0 auto;
   }
 }
 .js #site-nav {
@@ -2558,6 +2564,9 @@ body {
 .js #site-nav.opened {
   max-height: 9999px;
 }
+.js #site-nav.opened li {
+  padding: 10px;
+}
 #nav-toggle {
   position: absolute;
   top: 20px;
@@ -2573,13 +2582,19 @@ body {
 }
 .branding {
   float: left;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 1.2;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
 }
 .branding a {
   color: #000000;
+}
+#home .header-wrap,
+#post-index .header-wrap {
+  border-bottom: 4px solid #cccccc;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
 }
 #main {
   *zoom: 1;
@@ -2635,11 +2650,11 @@ body {
     line-height: 0.6667;
   }
 }
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 62.5em) {
   .intro-wrap article header h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    line-height: 0.6;
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 0.5;
   }
 }
 .intro-wrap article header h2 {
@@ -2661,15 +2676,22 @@ body {
   }
 }
 .intro-wrap article p:first-of-type {
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 1.3333;
+  margin-bottom: 0;
+}
+.intro-wrap article p + p {
+  margin: 0;
+  text-indent: 1.5em;
 }
 @media only screen and (min-width: 48em) {
   .intro-wrap article {
     float: right;
     margin-right: 5%;
     width: 55%;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .intro-wrap article {
+    margin-top: 2em;
   }
 }
 .intro-wrap aside {
@@ -2938,7 +2960,7 @@ ol.index a:hover p {
   }
 }
 ol.index header {
-  margin-left: 2.5em;
+  margin-left: 3.5em;
 }
 @media only screen and (min-width: 62.5em) {
   ol.index header {
