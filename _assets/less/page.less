@@ -129,7 +129,8 @@ body {
 	}
 }
 #home .header-wrap,
-#post-index .header-wrap {
+#post-index .header-wrap,
+#index .header-wrap {
 	border-bottom: 4px solid lighten(@text-color, 60);
 	border-bottom-color: fade(@black, 10);
 }
@@ -208,7 +209,11 @@ body {
 // Post index intro float override
 #index .intro-wrap article {
 	@media @medium {
+		padding-left: 40px;
 		float: left;
+	}
+	@media @large {
+		padding-left: 0;
 	}
 }
 .post-wrap {
