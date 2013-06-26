@@ -3,8 +3,8 @@ layout: post
 title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 subheadline: "Built for Jekyll"
-description: "A responsive Jekyll theme full width imagery and clean typography by designer Michael Rose."
-modified: 2013-06-13
+description: "A responsive Jekyll theme featuring full width imagery and clean typography by designer Michael Rose."
+modified: 2013-06-24
 image: 
   feature: minimal-mistakes-theme-feature.jpg
   small: minimal-mistakes-theme-340x100.jpg
