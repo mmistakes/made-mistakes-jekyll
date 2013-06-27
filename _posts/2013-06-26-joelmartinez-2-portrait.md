@@ -8,6 +8,8 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-**Project Donator.** Wind blowing blue green skies.
+**Project Donator.** Wind blowing blue green skies. Check out the making of video capture below where I speed up an hour's worth of drawing in Paper by 53 into 5 minutes.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/WjmQYBgHjFI" frameborder="0"> </iframe>
 
 {% include paperfaces-boilerplate-2.html %}
