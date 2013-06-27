@@ -1,15 +1,13 @@
 ---
 layout: post
 title: "Three Years of Problems with an iMac G5"
-headline: "Faulty Logic Board"
-subheadline: "Three Years of Problems with an iMac G5"
 description: "Faulty logic boards, ambient sensors, and displays oh my!"
 category: articles
 image: 
   feature: imac-glitch-feature.jpg
   small: imac-glitch-340x100.jpg
   thumb: imac-glitch-thumb.jpg
-tags: [iMac, G5, logic board, display, hardware, screen, broken, Apple Care]
+tags: [iMac, logic board, Apple]
 ---
 
 ## A Little Trip Down Macintosh Memory Lane

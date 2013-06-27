@@ -15,20 +15,10 @@ figure {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  &.large {
-    @media @large {
-      margin-right: -120px;
-      margin-left: -50px;
-      figcaption { 
-        margin-right: 150px;
-        margin-left: 50px; 
-      }
-    }
-  }
   &.half {
     @media @large {
       a {
-        width: 280px;
+        width: 310px;
         float: left;
         &:nth-child(odd) {
           margin-right: 10px;
@@ -45,7 +35,7 @@ figure {
   &.third {
     @media @large {
       a {
-        width: 180px;
+        width: 200px;
         float: left;
         margin-right: 10px;
         margin-left: 10px;
@@ -62,15 +52,6 @@ figure {
     }
   }
 }
-// image width overrides for #feature articles
-@media @large {
-  #feature .half a {
-    width: 250px;
-  }
-  #feature .third a {
-    width: 160px;
-  }
-}
 img {
   max-width: 100%;
   height: auto;
@@ -81,34 +62,44 @@ img {
 svg:not(:root) {
   overflow: hidden; 
 }
-#feature .feature {
-  @media @large {
-    margin-left: -20px;
-    max-width: 980px;
-    .clearfix();
-  }
-}
 .recent-grid {
   li {
     float: left;
     padding: 2px !important;
   }
   img {
-    width: 110px;
-    height: 110px;
+    width: 106px;
+    height: 106px;
+    @media @large {
+      width: 150px;
+      height: 150px;
+    }
   }
   .clearfix();
 }
-#feature .recent-grid img {
-    @media @large {
-    width: 100px;
-    height: 100px;
+
+// Buttons
+// --------------------------------------------------
+.btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  .font-rem(14);
+  background-color: @black;
+  color: @white;
+  border: 2px solid @black !important;
+  .rounded(20px);
+  &:visited {
+    color: @white;
+  }
+  &:hover {
+    background-color: @white;
+    color: @black;
   }
 }
 
 // Well
 // --------------------------------------------------
-
 .well {
   padding: 20px;
   border: 1px solid @comp-color;

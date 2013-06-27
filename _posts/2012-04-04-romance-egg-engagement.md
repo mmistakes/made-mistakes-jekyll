@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "Isn't it Romantic?"
-headline: "Romance or Something Close To It"
-subheadline: "Easter Egg Marriage Proposal"
+title: "Easter Egg Marriage Proposal"
 description: "Two years ago on this day, I proposed to my wife Wendy by leading her on an Easter egg scavenger hunt."
 image: 
   feature: romance-engagement-feature.jpg
   small: romance-engagement-340x100.jpg
   thumb: romance-engagement-thumb.jpg
 category: articles
-tags: [engagement, proposal, romantic, romance, Easter, egg, scavenger hunt, ring, diamond]
+tags: [engagement, proposal, romance]
 ---
 
 I've always been one of those guys who didn't understand why women enjoyed receiving dead flowers. So two years ago when I decided to propose marriage to [my girlfriend Wendy](http://2littlerosebuds.com/), I was at a slight disadvantage --- I'm not a romantic, I don't do romance.

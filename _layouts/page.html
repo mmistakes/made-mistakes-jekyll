@@ -7,32 +7,30 @@
 {% include head.html %}
 </head>
 
-<body id="{% if page.tags contains 'feature' %}feature{% else %}page{% endif %}" itemscope itemtype="http://schema.org/WebPage">
+<body id="page" itemscope itemtype="http://schema.org/WebPage">
 
-{% include chrome-frame.html %}
+{% include browser-upgrade.html %}
 {% include navigation.html %}
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <div class="post-wrap">
-    <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="feature" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">{% endif %}
-      <header class="headline-wrap">
-        <h1 itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-        {% if page.subheadline %}<h2>{{ page.subheadline }}</h2>{% endif %}
-      </header><!--/ .headline-wrap -->
-      <div class="content-wrap" itemprop="text">
+  <article class="hentry" itemscope itemtype="http://schema.org/Blogpageing" itemprop="blogpage">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}">{% endif %}
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+      </header>
+      <div class="entry-content">
         {{ content }}
-      </div><!-- /.content-wrap -->
-    </article>
-  </div><!-- /.post-wrap -->
-
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
 </div><!-- /#main -->
 
-<div class="footer-wrap">
+<div class="footer-wrapper">
   <footer role="contentinfo">
     {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrap -->
+</div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}          
 
