@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /articles/index.html
+title: "Articles"
+description: "Posts &amp; diatribes. A collection of Michael Rose&rsquo;s thoughts, inspiration, mistakes, and other minutia."
+tags: [blog, articles, mistakes, inspiration, thoughts, design]
+---
+
+{% for post in site.categories.articles %} 
+<ul class="post-list">
+  <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+</ul>
+{% endfor %}

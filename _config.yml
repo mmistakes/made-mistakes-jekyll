@@ -1,13 +1,15 @@
 title:            Made Mistakes
 tagline:          Design Faux Pas
-description:      Made Mistakes is the personal website and portfolio of Buffalo NY designer &amp; illustrator Michael Rose.
+description:      "Personal website of designer Michael Rose."
+logo:             site-logo.png
+disqus_shortname: mademistakes
 # Comment out url when working locally to resolve base urls correctly
 #url:              http://mademistakes.com
 
 # Owner/author information
 owner:
   name:           Michael Rose
-  avatar:         michael-rose-beard-bio-200.jpg
+  avatar:         michael-rose-photo.jpg
   bio:            "Just another bearded, tattooed, time traveling, designer hailing from Buffalo New York."
   email:          michael@mademistakes.com
   twitter:        "mmistakes"

@@ -1,0 +1,12 @@
+---
+layout: page
+title: Featured Posts
+description: "Made Mistakes is the personal website of Buffalo NY designer &amp; illustrator Michael Rose."
+tags: [Michael Rose, portfolio, blog, graphic design, web design]
+---
+
+{% for post in site.tags.feature limit:15 %}
+<ul class="post-list">
+  <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+</ul>
+{% endfor %}

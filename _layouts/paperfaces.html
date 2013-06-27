@@ -9,55 +9,59 @@
 
 <body id="photo" itemscope itemtype="http://schema.org/WebPage">
 
-{% include chrome-frame.html %}
+{% include browser-upgrade.html %}
 {% include navigation.html %}
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="post-wrap">
-    <article>
-      <img src="{{ site.url }}/images/{{ page.image }}.jpg" alt="{{ page.title }} large image" itemprop="primaryImageOfPage">
-      <header class="headline-wrap">
-        <h1 itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-        {% if page.subheadline %}<h2>{{ page.subheadline }}</h2>{% endif %}
-      </header><!--/ .headline-wrap -->
-      <div class="content-wrap" itemprop="text">
-        {{ content }}
-      </div><!-- /.content-wrap -->
-      <footer role="contentinfo">
-        <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" rel="dct:type">work</span></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">Michael Rose</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
+    {% if page.image %}<img src="{{ site.url }}/images/{{ page.image }}.jpg" class="entry-feature-image" alt="{{ page.title }}">{% endif %}
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
+        <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+      </header>
+      <footer class="entry-meta">
+        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
+        <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
+        <span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></span>
+        {% if page.comments %}<span class="entry-comments"><a href="#disqus_thread">Comment</a></span>{% endif %}
+        <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></span>
       </footer>
-    </article>
-    <aside>
-      {% include author-bio.html %}
-    </aside>
-  </div><!-- /.post-wrap -->
-  <nav class="pagination" role="navigation">
-    {% for post in site.categories.paperfaces %}
-      {% if post.url == page.url %}
-        {% assign post_index0 = forloop.index0 %}
-        {% assign post_index1 = forloop.index %}
+      <div class="entry-content">
+        {{ content }}
+        {% if page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      {% for post in site.categories.paperfaces %}
+        {% if post.url == page.url %}
+          {% assign post_index0 = forloop.index0 %}
+          {% assign post_index1 = forloop.index %}
+        {% endif %}
+      {% endfor %}
+      {% for post in site.categories.paperfaces %}
+        {% if post_index0 == forloop.index %}
+          {% assign next_post = post.url %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+          {% assign prev_post = post.url %}
+        {% endif %}
+      {% endfor %}
+      {% if prev_post %}
+        <a href="{{ prev_post }}" class="btn" title="Previous image">Previous image</a>
       {% endif %}
-    {% endfor %}
-    {% for post in site.categories.paperfaces %}
-      {% if post_index0 == forloop.index %}
-        {% assign next_post = post.url %}
+      {% if next_post %}
+        <a href="{{ next_post }}" class="btn" title="Next image">Next image</a>
       {% endif %}
-      {% if post_index1 == forloop.index0 %}
-        {% assign prev_post = post.url %}
-      {% endif %}
-    {% endfor %}
-    {% if next_post %}
-      <a href="{{ next_post }}" class="mfp-arrow mfp-arrow-right hide-text" title="Next image">Next image</a>
-    {% endif %}
-    {% if prev_post %}
-      <a href="{{ prev_post }}" class="mfp-arrow mfp-arrow-left hide-text" title="Previous image">Previous image</a>
-    {% endif %}
-  </nav><!-- /.pagination -->
+    </nav><!-- /.pagination -->
+  </article>
 </div><!-- /#main -->
-<div class="footer-wrap">
+
+<div class="footer-wrapper">
   <footer role="contentinfo">
     {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrap -->
+</div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}          
 
