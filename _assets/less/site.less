@@ -12,9 +12,34 @@
 	text-shadow: none; 
 }
 
+// Webkit Custom Scrollbar
+// --------------------------------------------------
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px fade(@black,30); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.2); 
+}
+
 // Global Classes
 // --------------------------------------------------
 
+.wrap {
+	margin: 0 auto;
+}
 .all-caps {
 	text-transform: uppercase;
 }

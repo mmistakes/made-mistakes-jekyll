@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "The iPhone is Great, but the Palm Pre Better Fits My Style"
-headline: "The iPhone is a Great Device, But"
-subheadline: "But the Palm Pre Better Fits My Style"
 description: "Quick impressions of the Palm Pre from a long time smartphone user."
 modified: 2013-05-03
 category: articles

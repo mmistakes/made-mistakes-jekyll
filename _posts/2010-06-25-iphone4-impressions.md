@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Impressions of iPhone 4 from a Long Time Palm User"
-headline: "iPhone 4 Impressions"
-subheadline: "From a Long Time Palm User"
 description: "The following are some of my experiences and observations transitioning from Palm to iOS after nearly 10 years of baggage."
 category: articles
 image: 
@@ -11,10 +9,8 @@ image:
 tags: 
 - iPhone
 - Apple
-- Palm
 - Palm Pre
 - review
-- technology
 - tech geek
 ---
 
@@ -30,7 +26,7 @@ With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS a
 ## iPhone 4 Hardware Impressions
 
 *	iPhone 4 is solid, feels great in your hand, and the screen is extra crispy and responsive. The Pre was awfully good at lagging with incoming phone calls or not responding to taps.
-*	Reception was crap in my house until I realized I was "[holding it wrong](http://www.engadget.com/2010/06/24/apple-responds-over-iphone-4-reception-issues-youre-holding-th/).""
+*	Reception was crap in my house until I realized I was "[holding it wrong](http://www.engadget.com/2010/06/24/apple-responds-over-iphone-4-reception-issues-youre-holding-th/)."
 *	Camera is amazing and takes great stills & HD videos. Any photographer will tell you, having more megapixels doesn't make for better images. Glad to see Apple gets this and focused on getting more light to the sensor.
 *	GPS in this thing seems super accurate and fast. Not sure if it's the hardware or the software but I get accurate locks almost instantly' something my Palm Pre had troubles with.
 *	Battery life is excellent. Makes it through a full day with juice to spare.

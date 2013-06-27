@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Eviltron and a Scary Movie Makes for a Great Prank"
-headline: "Eviltron"
-subheadline: "+ Scary Movie Scares"
 description: "The Eviltron device, when setup properly, can land some convincing scares."
 modified: 2013-04-26
 image: 
@@ -12,10 +10,8 @@ category: articles
 tags: 
 - Eviltron
 - prank
-- scary
-- noise
+- horror
 - review
-- technlogy
 - tech geek
 ---
 

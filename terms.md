@@ -4,19 +4,23 @@ title: "Terms &amp; Conditions"
 headline: "Website Policies"
 subheadline: "Or that Legal Stuff No One Reads"
 description: "Made Mistakes website policies, terms &amp; conditions, license, and other legal stuff you won't read."
-modified: 2013-04-29
-tags: [license, privacy, policy, disclaimer, terms, copyright]
+modified: 2013-06-27
+tags: [disclaimer, terms, copyright, license]
 ---
+
+This policy is valid from June 27th, 2013.
 
 ## Legal Stuff
 
-This is my personal website. All content provided is for informational purposes only. The writings and posts on this website are my own and don't necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
+This is my personal website written and edited by me. For questions about this site, please contact Michael Rose at <michael@mademistakes>. All content provided is for informational purposes only. The writings and posts on this website are my own and don't necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
-Product names, logos, brands and other trademarks featured or referred to on mademistakes.com are the property of their respective owners. These trademark holders are not affiliated with this website.
+This site accepts forms of cash advertising, sponsorship, paid insertions or other forms of compensation.
 
-## Privacy Policy
+The compensation received may influence the advertising content, topics or posts made on this site. That content, advertising space or post may not always be identified as paid or sponsored content. Even though I receive compensation for my posts through affiliate marketing links, I always give honest opinions, findings, beliefs, or experiences on topics or products.
 
-The owner of this website (hey thats me Michael Rose) does not share personal information with third-parties nor does the owner store information collected about your visit for use other than to analyze content performance through the use of cookies, which you can turn off at anytime by modifying your Internet browser's settings. I am not responsible for the republishing of the content found on Made Mistakes on other websites, blogs, or media without permission.
+This site does not contain any content which might present a conflict of interest.
+
+I am not responsible for the republishing of the content found on Made Mistakes on other websites, blogs, or media without my permission.
 
 ## License
 

@@ -1,44 +1,47 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description }}">
-<meta name="keywords" content="{{ page.tags | join: ', ' }}">
-<!-- Twitter Card and Open Graph meta -->
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+<!-- Twitter Card and Open Graph tags -->
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
 {% if page.layout == 'paperfaces' %}
 <meta name="twitter:card" content="photo">
-{% if page.image %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">{% endif %}
+{% if page.image %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}.jpg">{% endif %}
 {% else %}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image:src" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/default-thumb.png{% endif %}">
-<meta property="og:type" content="article">
-<meta property="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/default-thumb.png{% endif %}">
+<meta name="twitter:image:src" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
 {% endif %}
 <meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 
 <!-- Webmaster Tools verfication -->
-<meta name="google-site-verification" content="{{ site.google_verify }}">
-<meta name="msvalidate.01" content="{{ site.bing_verify }}">
+{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-<link rel="author" href="{{ site.owner.google_plus }}">
+{% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google Webfonts -->
-<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic|Open+Sans+Condensed:300,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/main.css css/main.css %}">
+<!-- Animations -->
+<link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/animate.css css/animate.css %}">
+
+<meta http-equiv="cleartype" content="on">
 
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/{% ministamp _assets/js/vendor/modernizr-2.6.2.custom.min.js js/vendor/modernizr.js %}"></script>
@@ -56,29 +59,3 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
-
-<!-- iOS home screen stuff -->
-<meta name="apple-mobile-web-app-title" content="MM">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-<!-- iOS splash screens -->
-<!-- iPhone 3GS, pre-2011 iPod Touch -->
-<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-320x460.png "media="(device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio:1)">
-<!-- iPhone 4, 4S and 2011 iPod Touch-->
-<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-640x920.png" media="(device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio:2)">
-<!-- iPhone 5 and 2012 iPod Touch -->
-<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-640x1096.png" media="(device-width:320px) and (device-height:568px) and (-webkit-device-pixel-ratio:2)">
-<!-- 1st generation iPad, iPad 2 and iPad mini Landscape -->
-<link rel="apple-touch-startup-image" sizes="1024x748" href="{{ site.url }}/images/startup/startup-1024x748.png" media="(device-width:768px) and (device-height:1024px) and (orientation:landscape) and (-webkit-device-pixel-ratio:1)">
-<!-- 1st generation iPad, iPad 2 and iPad mini Portrait -->
-<link rel="apple-touch-startup-image" sizes="768x1004" href="{{ site.url }}/images/startup/startup-768x1004.png" media="(device-width:768px) and (device-height:1024px) and (orientation:portrait) and (-webkit-device-pixel-ratio:1)">
-<!-- iPad 3rd and 4th generation Landscape --> 
-<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-2048x1496.png" media="(device-width:768px) and (device-height:1024px) and (orientation:landscape) and (-webkit-device-pixel-ratio:2)">
-<!-- iPad 3rd and 4th generation Portrait -->
-<link rel="apple-touch-startup-image" href="{{ site.url }}/images/startup/startup-1536x2008.png" media="(device-width:768px) and (device-height:1024px) and (orientation:portrait) and (-webkit-device-pixel-ratio:2)">
-
-<!-- Windows 8 / RT -->
-<meta name="msapplication-TileImage" content="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
-<meta name="msapplication-TileColor" content="#000">
-<meta http-equiv="cleartype" content="on">

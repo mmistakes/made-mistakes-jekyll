@@ -7,62 +7,61 @@
 {% include head.html %}
 </head>
 
-<body id="{% if page.tags contains 'feature' %}feature{% else %}post{% endif %}" itemscope itemtype="http://schema.org/WebPage">
+<body id="post" itemscope itemtype="http://schema.org/WebPage">
 
-{% include chrome-frame.html %}
+{% include browser-upgrade.html %}
 {% include navigation.html %}
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <div class="post-wrap">
-    <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-      {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="feature" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">{% endif %}
-      <header class="headline-wrap">
-        <h1 itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-        {% if page.subheadline %}<h2>{{ page.subheadline }}</h2>{% endif %}
-      </header><!--/ .headline-wrap -->
-      <div class="content-wrap" itemprop="text">
-        {{ content }}
-      </div><!-- /.content-wrap -->
-      <footer role="contentinfo">
-        <p class="byline"><em>{{ page.title }}</em> was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about.html" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.</p>
+  <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}">{% endif %}
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
+        <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+      </header>
+      <footer class="entry-meta">
+        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
+        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
+        <span class="entry-date date updated"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></span>
+        {% if page.comments %}<span class="entry-comments"><a href="#disqus_thread">Comment</a></span>{% endif %}
+        <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></span>
       </footer>
-    </article>
-    <aside>
-      {% include author-bio.html %}
-    </aside>
-  </div><!-- /.post-wrap -->
-  <nav class="pager" role="navigation">
-    <ul>
-    {% for post in site.categories.articles %}
-    {% if post.url == page.url %}
-      {% assign post_index0 = forloop.index0 %}
-      {% assign post_index1 = forloop.index %}
-    {% endif %}
-    {% endfor %}
-    {% for post in site.categories.articles %}
-      {% if post_index0 == forloop.index %}
-        {% assign next_post = post.url %}
-        {% assign next_title = post.title %}
-        {% assign next_image = post.image.small %}
+      <div class="entry-content">
+        {{ content }}
+        {% if page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      {% for post in site.categories.articles %}
+        {% if post.url == page.url %}
+          {% assign post_index0 = forloop.index0 %}
+          {% assign post_index1 = forloop.index %}
+        {% endif %}
+      {% endfor %}
+      {% for post in site.categories.articles %}
+        {% if post_index0 == forloop.index %}
+          {% assign next_post = post.url %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+          {% assign prev_post = post.url %}
+        {% endif %}
+      {% endfor %}
+      {% if prev_post %}
+        <a href="{{ prev_post }}" class="btn" title="Previous article">Previous article</a>
       {% endif %}
-      {% if post_index1 == forloop.index0 %}
-        {% assign prev_post = post.url %}
-        {% assign prev_title = post.title %}
-        {% assign prev_image = post.image.small %}
+      {% if next_post %}
+        <a href="{{ next_post }}" class="btn" title="Next article">Next article</a>
       {% endif %}
-    {% endfor %}
-    {% if prev_post %}<li class="previous"><a href="{{ site.url }}{{ prev_post }}"><span>{{ prev_title | truncate: 35 }}</span><i class="icon-chevron-left icon-large"></i><img src="{{ site.url }}/images/{{ prev_image }}" alt=""></a></li>{% else %}<li class="previous"><a href="{{ site.url }}"><span>Home</span><i class="icon-home icon-large"></i><img src="{{ site.url }}/images/mademistakes-340x100.jpg" alt=""></a></li>
-    {% endif %}
-    {% if next_post %}<li class="next"><a href="{{ site.url }}{{ next_post }}"><span>{{ next_title | truncate: 35 }}</span><i class="icon-chevron-right icon-large"></i><img src="{{ site.url }}/images/{{ next_image }}" alt=""></a></li>{% endif %}
-    </ul>
-  </nav><!-- /.pager -->
+    </nav><!-- /.pagination -->
+  </article>
 </div><!-- /#main -->
 
-<div class="footer-wrap">
+<div class="footer-wrapper">
   <footer role="contentinfo">
     {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrap -->
+</div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}	        
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Feeling Kinda Stuck In A Half Nelson
-headline: "Feeling Kinda Stuck"
-subheadline: "Impressions of the Film Half Nelson"
 description: "My impressions of the film Half Nelson, starring Ryan Gosling."
 category: articles
 image: 
@@ -10,13 +8,8 @@ image:
   small: half-nelson-340x100.jpg
   thumb: half-nelson-thumb.jpg
 tags:
-- Ryan Gosling
 - film
-- movie
 - review
-- Half Nelson
-- addiction
-- independent
 - indie
 ---
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "La Moustache Quick Review"
-headline: "La Moustache"
-subheadline: "Quick Impressions"
 description: "My quick impressions of La Moustache &#8212; a French film about a dude shaving his mustache."
 category: articles
 image: 
@@ -10,12 +8,9 @@ image:
   small: la-moustache-340x100.jpg
   thumb: la-moustache-thumb.jpg
 tags: 
-- La Moustache
 - mustache
-- movie
+- film
 - review
-- critique
-- French
 - foreign
 ---
 

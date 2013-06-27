@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "A Guide to Drawing with Paper by 53"
-headline: "A Guide to Drawing with Paper by 53"
-subheadline: "Methods and Techniques of a Non-Artist"
 description: "Learn how to use Paper by 53 to draw blank faced portraits and landscapes on an iPad with retina display."
 modified: 2013-05-29
 image: 
@@ -10,7 +8,8 @@ image:
   small: madewithpaper-guide-340x100.jpg
   thumb: madewithpaper-guide-thumb.jpg
 category: articles
-tags: [Paper by 53, tutorial, drawing, painting, stylus, PaperFaces, design, iPad, app, feature]
+tags: [Paper by 53, tutorial, drawing, iPad, feature]
+comments: true
 ---
 
 How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.

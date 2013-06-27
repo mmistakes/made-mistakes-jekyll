@@ -2,16 +2,14 @@
 layout: post
 title: "Getting the Sold Out iPhone 4 at Launch"
 description: "Looks like I might actually get two iPhone 4's on launch day."
-headline: "Sold Out"
-subheadline: "Getting an iPhone 4 on Launch Day"
 modified: 2013-05-03
 category: articles
 image: 
   small: iphone-4-340x100.jpg
 tags: 
 - iPhone
-- iPhone4
 - Apple
+- tech geek
 ---
 
 Looks like I might actually get an **iPhone 4** on launch day. Took AT&T all day to process the order I made at 6:50 AM EST (6/15/2010), but everything is looking good. Guessing I had no problems getting through because I was a new customer and didn't have to deal with the servers looking up my account info for upgrade eligibility.

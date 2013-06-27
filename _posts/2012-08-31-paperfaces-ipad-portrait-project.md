@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "iPad Portraits with Paper by 53"
-headline: "PaperFaces Project"
-subheadline: "Daily iPad Portraits with Paper by 53"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
 modified: 2013-06-17
 image: 
@@ -10,7 +8,8 @@ image:
   small: paperfaces-project-340x100.jpg
   thumb: paperfaces-project-thumb.jpg
 category: articles
-tags: [PaperFaces, MadeWithPaper, Paper by 53, iPad, portrait, drawing, illustration, painting, Michael Rose, graphic design, feature]
+tags: [Paper by 53, iPad, drawing, illustration, Michael Rose, feature]
+comments: true
 ---
 
 PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.
@@ -20,7 +19,7 @@ PaperFaces is an iPad drawing project by time traveling designer/illustrator Mic
 I make every effort to update the gallery weekly with the newest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on [Twitter](http://twitter.com/mmistakes) or [Tumblr](http://mademistakes.tumblr.com). You won't be able to grab the full size originals (2048&times;1536 pixels) there, but...
 
 <ul class="recent-grid unstyled-list">
-{% for post in site.categories.paperfaces limit:5 %}
+{% for post in site.categories.paperfaces limit:4 %}
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
 {% endfor %}
 </ul>
