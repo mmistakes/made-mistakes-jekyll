@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Collecting Records for the Artwork"
-headline: "Collecting Records"
-subheadline: "Mostly for the Artwork &amp; Sometimes the Music"
 description: "How the hand crafted aesthic found in DIY released emo and hardcore records started my collecting addiction."
 category: articles
 image: 
@@ -10,7 +8,7 @@ image:
   small: collecting-records-340x100.jpg
   thumb: collecting-records-thumb.jpg
 modified: 2013-04-26
-tags: [record, artwork, emo, hardcore, zine, DIY, vinyl, critique, graphic design, design, inspiration]
+tags: [punk, records, inspiration, DIY, critique, design]
 ---
 
 ## Hand-lettered, the Stuff of My Dreams

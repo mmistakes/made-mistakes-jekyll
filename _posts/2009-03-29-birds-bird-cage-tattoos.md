@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
-headline: "Escaping Birds"
-subheadline: "Wendy's New Forearm Tattoos"
 description: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
 modified: 2013-04-26
 category: articles
@@ -13,13 +11,8 @@ image:
 tags: 
 - bird
 - tattoo
-- tattoos
-- arm
-- cage
-- birdcage
+- bird cage
 - vegan
-- polka trash
-- design
 - tree
 - Michael Rose
 - feature

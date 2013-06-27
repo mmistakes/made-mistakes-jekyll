@@ -1,15 +1,13 @@
 ---
 layout: post
 title: "Urban Outfitters, Ya Typography Dun Goofed Again"
-headline: "Urban Outfitter"
-subheadline: "Ya Typography Dun Goofed Again"
 description: "Glad to see improvements in the May 2011 Urban Outfitters catalog. Especially since I took a few issues with their typography last month."
 category: articles
 image: 
   feature: UO-may11-feature.jpg
   small: UO-may11-340x100.jpg
   thumb: UO-MAY11-serifs-italics-340.jpg
-tags: [Urban Outfitters, catalog design, critique, graphic design, mistakes, typography]
+tags: [catalog, critique, design, typography]
 ---
 
 ## A Step in the Right Direction
