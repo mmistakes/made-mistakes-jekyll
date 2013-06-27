@@ -344,6 +344,7 @@ RewriteRule ^index\.html$ http://mademistakes.com/ [R=301,L]
 redirect 301 /atom/ http://mademistakes.com/atom.xml
 redirect 301 /rss/ http://mademistakes.com/atom.xml
 redirect 301 /test/atom.xml http://mademistakes.com/atom.xml
+redirect 301 /feed.xml http://mademistakes.com/atom.xml
 
 # Sitemap Redirects
 redirect 301 /sitemap.xml.gz http://mademistakes.com/sitemap.xml
