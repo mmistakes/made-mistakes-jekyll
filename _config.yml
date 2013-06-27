@@ -2,7 +2,7 @@ title:            Made Mistakes
 tagline:          Design Faux Pas
 description:      "Personal website of designer Michael Rose."
 logo:             site-logo.png
-disqus_shortname: mademistakes
+disqus_shortname: mmistakes
 # Comment out url when working locally to resolve base urls correctly
 #url:              http://mademistakes.com
 
