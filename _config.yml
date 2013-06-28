@@ -4,7 +4,7 @@ description:      "Personal website of designer Michael Rose."
 logo:             site-logo.png
 disqus_shortname: mmistakes
 # Comment out url when working locally to resolve base urls correctly
-#url:              http://mademistakes.com
+url:              http://mademistakes.com
 
 # Owner/author information
 owner:
@@ -19,7 +19,7 @@ owner:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    "http://plus.google.com/118238196859537351707"
 
-ga_account:    UA-2011187-1
+google_analytics: UA-2011187-1
 google_verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
 bing_verify:   D81F4C18A6CB3018F64D7C827D953DFD
 alexa_verify:  Y5DYjZ4VWlrQzBP5kcQJeOKLNas
