@@ -8,8 +8,9 @@ image:
   small: madewithpaper-guide-340x100.jpg
   thumb: madewithpaper-guide-thumb.jpg
 category: articles
-tags: [Paper by 53, tutorial, drawing, iPad, feature]
+tags: [Paper by 53, tutorial, drawing, iPad]
 comments: true
+feature: true
 ---
 
 How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.

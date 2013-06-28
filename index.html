@@ -5,8 +5,8 @@ description: "Made Mistakes is the personal website of Buffalo NY designer &amp;
 tags: [Michael Rose, portfolio, blog, graphic design, web design]
 ---
 
-{% for post in site.tags.feature limit:15 %}
+{% for post in site.posts %}
 <ul class="post-list">
-  <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  {% if post.feature %}<li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>{% endif %}
 </ul>
 {% endfor %}

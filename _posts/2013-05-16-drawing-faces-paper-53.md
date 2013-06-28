@@ -7,8 +7,9 @@ image:
   small: paper-53-draw-face-340x100.jpg
   thumb: paper-53-draw-face-thumb.jpg
 category: articles
-tags: [Paper by 53, tutorial, drawing, portrait, iPad, feature]
+tags: [Paper by 53, tutorial, drawing, portrait, iPad]
 comments: true
+feature: true
 ---
 
 I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html "PaperFaces iPad Portrait Project") for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](http://2littlerosebuds.com/ title="2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.

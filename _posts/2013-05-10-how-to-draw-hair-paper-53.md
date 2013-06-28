@@ -7,8 +7,9 @@ image:
   small: how-to-draw-hair-340x100.jpg
   thumb: how-to-draw-hair-thumb.jpg
 category: articles
-tags: [Paper by 53, drawing, hair, iPad, tutorial, feature]
+tags: [Paper by 53, drawing, hair, iPad, tutorial]
 comments: true
+feature: true
 ---
 
 ## Block Out the Hair
