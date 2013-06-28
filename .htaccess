@@ -341,10 +341,11 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://mademistakes.com/ [R=301,L] 
 
 # Feed Redirects
-redirect 301 /atom/ http://mademistakes.com/atom.xml
-redirect 301 /rss/ http://mademistakes.com/atom.xml
-redirect 301 /test/atom.xml http://mademistakes.com/atom.xml
-redirect 301 /feed.xml http://mademistakes.com/atom.xml
+redirect 301 /atom/ http://feeds.feedburner.com/MadeMistakes
+redirect 301 /rss/ http://feeds.feedburner.com/MadeMistakes
+redirect 301 /test/atom.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /feed.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /atom.xml http://feeds.feedburner.com/MadeMistakes
 
 # Sitemap Redirects
 redirect 301 /sitemap.xml.gz http://mademistakes.com/sitemap.xml
