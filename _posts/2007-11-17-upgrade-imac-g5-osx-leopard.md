@@ -10,7 +10,6 @@ image:
 tags: 
 - iMac
 - Leopard
-- 10.5
 - tech geek
 ---
 
