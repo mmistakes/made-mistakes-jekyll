@@ -19,7 +19,8 @@ module Jekyll
       if site.layouts.key? 'tag_index'
         dir = site.config['tag_dir'] || 'tag'
         site.tags.keys.each do |tag|
-          write_tag_index(site, File.join(dir, tag), tag)
+          # replace spaces with hyphens and downcase tag
+          write_tag_index(site, File.join(dir, tag.gsub(/[^[:alnum:]]+/, '-').downcase), tag)
         end
       end
     end
@@ -30,4 +31,4 @@ module Jekyll
       site.pages << index
     end
   end
-  	end
+end
