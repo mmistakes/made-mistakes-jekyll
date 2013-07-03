@@ -20,7 +20,7 @@ PaperFaces is an iPad drawing project by time traveling designer/illustrator Mic
 I make every effort to update the gallery weekly with the newest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on [Twitter](http://twitter.com/mmistakes) or [Tumblr](http://mademistakes.tumblr.com). You won't be able to grab the full size originals (2048&times;1536 pixels) there, but...
 
 <ul class="recent-grid unstyled-list">
-{% for post in site.categories.paperfaces limit:4 %}
+{% for post in site.categories.paperfaces limit:8 %}
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
 {% endfor %}
 </ul>
