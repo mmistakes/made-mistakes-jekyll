@@ -2,7 +2,7 @@
 layout: post
 title: "Going Static without a CMS using Jekyll"
 description: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
-modified: 2013-05-28
+modified: 2013-07-04
 image: 
   feature: going-static-feature.jpg
   small: going-static-340x100.jpg
@@ -96,8 +96,8 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck's Synchronize feature every time I want to publish new content.
 
-**Update 05/06/2013:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to Github if you want to see how I use Jekyll. Feel free to fork my repo, use my `_layouts`, `_includes`, design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and site...
+**Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to Github if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and site...
 {: .notice}
 
-**Update 05/28/2013:** Just pushed a Jekyll theme I'm calling [Minimal Mistakes]({{ site.url }}/articles/minimal-mistakes-jekyll-theme.html) to Github. It's essentially the same codebase I use on Made Mistakes with some simplifactions to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/minimal-mistakes).
+Or you can grab it as a Jeklly theme I'm calling [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme.html). It's essentially the same code base I use on *Made Mistakes* with simplification to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
 {: .notice}
