@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @codePrincess"
+title: "Glasses in red hair"
 description: "PaperFaces portrait of @codePrincess drawn with Paper by 53 on an iPad."
 image: paperfaces-codeprincess-twitter-lg
 thumb: paperfaces-codeprincess-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Glasses in red hair.
+PaperFaces portrait of [@codePrincess](http://twitter.com/codePrincess).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @josearato"
+title: "No eyes, 95% face"
 description: "PaperFaces portrait of @josearato drawn with Paper by 53 on an iPad."
 image: paperfaces-josearato-twitter-lg
 thumb: paperfaces-josearato-twitter-150.jpg
@@ -8,7 +8,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-**Project Donator**. No eyes, 95% face --- because well, I had to leave something unfinished.
+PaperFaces portrait of project donator [@josearato](http://twitter.com/josearato). Why did I almost draw the entire face this team --- because well, I had to leave something unfinished.
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-josearato-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-josearato-process-1-600.jpg" alt="Work in process screenshot"></a>
@@ -27,4 +27,5 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 	<a href="{{ site.url }}/images/paperfaces-josearato-process-5-lg.jpg"><img src="{{ site.url }}/images/paperfaces-josearato-process-5-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Short quick pencil marks can make for convincing facial hair. Pinch to zoom in and work dark to light from the edge in.</figcaption>
 </figure>
+
 {% include paperfaces-boilerplate-2.html %}

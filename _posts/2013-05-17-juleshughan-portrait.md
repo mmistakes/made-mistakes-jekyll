@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @juleshughan"
+title: "At the salon"
 description: "PaperFaces portrait of @juleshughan drawn with Paper by 53 on an iPad."
 image: paperfaces-juleshughan-twitter-lg
 thumb: paperfaces-juleshughan-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-At the salon.
+PaperFaces portrait of [@juleshughan](http://twitter.com/juleshughan).
 
 {% include paperfaces-boilerplate.html %}

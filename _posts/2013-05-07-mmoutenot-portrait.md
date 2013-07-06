@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @mmoutenot"
+title: "Remember to always wear a helmet"
 description: "PaperFaces portrait of @mmoutenot drawn with Paper by 53 on an iPad."
 image: paperfaces-mmoutenot-twitter-lg
 thumb: paperfaces-mmoutenot-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Remember to always wear a helmet.
+PaperFaces portrait of [@mmoutenot](http://twitter.com/mmoutenot).
 
 {% include paperfaces-boilerplate.html %}

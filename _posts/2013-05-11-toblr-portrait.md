@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @toblr"
+title: "Hold the iPhone steady as you frame your shot"
 description: "PaperFaces portrait of @toblr drawn with Paper by 53 on an iPad."
 image: paperfaces-toblr-twitter-lg
 thumb: paperfaces-toblr-twitter-150.jpg
@@ -14,6 +14,6 @@ tags:
 - hoodie
 ---
 
-Hold the iPhone steady as you frame your shot.
+PaperFaces portrait of [@toblr](http://twitter.com/toblr).
 
 {% include paperfaces-boilerplate.html %}

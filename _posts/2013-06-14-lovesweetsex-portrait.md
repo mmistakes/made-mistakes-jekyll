@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @lovesweetsex"
+title: "Blanket party with puppy"
 description: "PaperFaces portrait of @lovesweetsex drawn with Paper by 53 on an iPad."
 image: paperfaces-lovesweetsex-twitter-lg
 thumb: paperfaces-lovesweetsex-twitter-150.jpg
@@ -8,7 +8,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-**Project Donator.** Blanket party with puppy.
+PaperFaces portrait of project donator [@lovesweetsex](http://twitter.com/lovesweetsex).
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-lovesweetsex-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lovesweetsex-process-1-600.jpg" alt="Drawing lightly with the pencil"></a>

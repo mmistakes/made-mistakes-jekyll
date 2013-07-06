@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @chadtafolla"
+title: "Scarf beard"
 description: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
 image: paperfaces-chadtafolla-twitter-lg
 thumb: paperfaces-chadtafolla-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Scarf beard.
+PaperFaces portrait of [@chadtafolla](http://twitter.com/chadtafolla).
 
 {% include paperfaces-boilerplate.html %}

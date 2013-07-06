@@ -6,7 +6,6 @@ image: paperfaces-boba-fett-lg
 thumb: paperfaces-boba-fett-150.jpg
 category: paperfaces
 tags: 
-- Boba Fett
 - Star Wars
 - PaperFaces
 - portrait
@@ -15,7 +14,7 @@ tags:
 - iPad art
 ---
 
-May the 4th be with you!
+Starting Star Wars Day off with a portrait of my dude Boba. May the 4th be with you! Speed painting video is embedded below for your viewing pleasure.
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>
 

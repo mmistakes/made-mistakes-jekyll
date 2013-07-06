@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @katebudko"
+title: "Wearing a cheetah print headband"
 description: "PaperFaces portrait of @katebudko drawn with Paper by 53 on an iPad."
 image: paperfaces-katebudko-twitter-lg
 thumb: paperfaces-katebudko-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Wearing a cheetah print headband.
+PaperFaces portrait of [@katebudko](http://twitter.com/katebudko).
 
 {% include paperfaces-boilerplate.html %}

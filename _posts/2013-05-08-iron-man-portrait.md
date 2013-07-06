@@ -7,7 +7,6 @@ thumb: paperfaces-iron-man-3-150.jpg
 category: paperfaces
 tags: 
 - Iron Man
-- Tony Stark
 - PaperFaces
 - portrait
 - illustration

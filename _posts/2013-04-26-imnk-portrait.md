@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @imnk"
+title: "Grayscale mustache"
 description: "PaperFaces portrait of @imnk drawn with Paper by 53 on an iPad."
 image: paperfaces-imnk-twitter-lg
 thumb: paperfaces-imnk-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Grayscale mustache.
+PaperFaces portrait of [@imnk](http://twitter.com/imnk).
 
 {% include paperfaces-boilerplate.html %}

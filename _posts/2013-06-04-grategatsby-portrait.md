@@ -1,13 +1,13 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Grategatsby"
+title: "Brand New shirt pulling a light switch"
 description: "PaperFaces portrait of @Grategatsby drawn with Paper by 53 on an iPad."
 image: paperfaces-grategatsby-twitter-lg
 thumb: paperfaces-grategatsby-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Brand New]
+tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-Brand New shirt pulling a light switch.
+PaperFaces portrait of [@Grategatsby](http://twitter.com/Grategatsby).
 
 {% include paperfaces-boilerplate-2.html %}

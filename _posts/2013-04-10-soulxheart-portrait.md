@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @soulxheart"
+title: "Glasses wearing a pair of headphones"
 description: "PaperFaces portrait of @soulxheart drawn with Paper by 53 on an iPad."
 image: paperfaces-soulxheart-twitter-lg
 thumb: paperfaces-soulxheart-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Glasses wearing a pair of headphones.
+PaperFaces portrait of [@soulxheart](http://twitter.com/soulxheart).
 
 {% include paperfaces-boilerplate.html %}
