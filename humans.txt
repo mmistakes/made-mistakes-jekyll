@@ -31,10 +31,6 @@ _  ________ ____   _  ______________  _________
                 Multi-Browser Viewer (http://www.multibrowserviewer.com/)
                 HTML Compressor (https://code.google.com/p/htmlcompressor/)
                 YUI Compressor (http://yui.github.io/yuicompressor/)
-   Fonts:       PT Serif (http://www.google.com/fonts/specimen/PT+Serif)
-                Open Sans (http://www.google.com/fonts/specimen/Open+Sans)
-                Open Sans Condensed (http://www.google.com/fonts/specimen/Open+Sans+Condensed)
-                Font Awesome (http://fortawesome.github.io/Font-Awesome/)
 
 /* SPECIAL THANKS */
 
