@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Fiips_"
+title: "Cat face bathroom selfie"
 description: "PaperFaces portrait of @Fiips_ drawn with Paper by 53 on an iPad."
 image: paperfaces-fiips-twitter-lg
 thumb: paperfaces-fiips-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Cat face taking a bathroom selfie.
+PaperFaces portrait of [@Fiips_](http://twitter.com/Fiips_).
 
 {% include paperfaces-boilerplate.html %}

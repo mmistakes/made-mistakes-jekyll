@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @sbach"
+title: "Dark jacket looking downward"
 description: "PaperFaces portrait of @sbach drawn with Paper by 53 on an iPad."
 image: paperfaces-sbach-twitter-lg
 thumb: paperfaces-sbach-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dark jacket looking downward.
+PaperFaces portrait of [@sbach](http://twitter.com/sbach).
 
 {% include paperfaces-boilerplate.html %}

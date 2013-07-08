@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @asinrope"
+title: "Tight winter hat"
 description: "PaperFaces portrait of @asinrope drawn with Paper by 53 on an iPad."
 image: paperfaces-asinrope-twitter-lg
 thumb: paperfaces-asinrope-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Tight winter hat.
+PaperFaces portrait of [@asinrope](http://twitter.com/asinrope).
 
 {% include paperfaces-boilerplate.html %}

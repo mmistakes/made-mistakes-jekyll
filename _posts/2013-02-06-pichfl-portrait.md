@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @pichfl"
+title: "Glasses wearing a plaid scarf"
 description: "PaperFaces portrait of @pichfl drawn with Paper by 53 on an iPad."
 image: paperfaces-pichfl-twitter-lg
 thumb: paperfaces-pichfl-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Glasses wearing a plaid scarf.
+PaperFaces portrait of [@pichfl](http://twitter.com/pichfl).
 
 {% include paperfaces-boilerplate.html %}

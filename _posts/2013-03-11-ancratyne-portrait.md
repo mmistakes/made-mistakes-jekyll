@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ancratyne"
+title: "Blue dress curved"
 description: "PaperFaces portrait of @ancratyne drawn with Paper by 53 on an iPad."
 image: paperfaces-ancratyne-twitter-lg
 thumb: paperfaces-ancratyne-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blue dress curved.
+PaperFaces portrait of [@ancratyne](http://twitter.com/ancratyne).
 
 {% include paperfaces-boilerplate.html %}

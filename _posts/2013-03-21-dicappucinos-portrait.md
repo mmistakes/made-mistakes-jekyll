@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @dicappucinos"
+title: "No eyes, bright red lipstick"
 description: "PaperFaces portrait of @dicappucinos drawn with Paper by 53 on an iPad."
 image: paperfaces-dicappucinos-twitter-lg
 thumb: paperfaces-dicappucinos-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-No eyes, bright red lipstick.
+PaperFaces portrait of [@dicappucinos](http://twitter.com/dicappucinos).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @timonus"
+title: "Glasses in a washed out palette"
 description: "PaperFaces portrait of @timonus drawn with Paper by 53 on an iPad."
 image: paperfaces-timonus-twitter-lg
 thumb: paperfaces-timonus-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Glasses in a washed out palette.
+PaperFaces portrait of [@timonus](http://twitter.com/timonus).
 
 {% include paperfaces-boilerplate.html %}

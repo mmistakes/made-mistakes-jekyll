@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ginacrat"
+title: "Holding a Twister DVD"
 description: "PaperFaces portrait of @ginacrat drawn with Paper by 53 on an iPad."
 image: paperfaces-ginacrat-twitter-lg
 thumb: paperfaces-ginacrat-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Mouth open holding a Twister DVD case.
+PaperFaces portrait of [@ginacrat](http://twitter.com/ginacrat).
 
 {% include paperfaces-boilerplate.html %}

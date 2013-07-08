@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @cliqueasaurus"
+title: "Pink hoodie hearted hand"
 description: "PaperFaces portrait of @cliqueasaurus drawn with Paper by 53 on an iPad."
 image: paperfaces-cliqueasaurus-twitter-lg
 thumb: paperfaces-cliqueasaurus-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Pink hoodie hearted hand.
+PaperFaces portrait of [@cliqueasaurus](http://twitter.com/cliqueasaurus).
 
 {% include paperfaces-boilerplate.html %}

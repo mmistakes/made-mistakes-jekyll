@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @gudmundur"
+title: "Mouth open in muted tones"
 description: "PaperFaces portrait of @gudmundur drawn with Paper by 53 on an iPad."
 image: paperfaces-gudmundur-twitter-lg
 thumb: paperfaces-gudmundur-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Mouth open in muted tones.
+PaperFaces portrait of [@gudmundur](http://twitter.com/gudmundur).
 
 {% include paperfaces-boilerplate.html %}
