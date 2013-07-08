@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @wiremum"
+title: "iPhone holding purple blouse"
 description: "PaperFaces portrait of @wiremum drawn with Paper by 53 on an iPad."
 image: paperfaces-wiremum-twitter-lg
 thumb: paperfaces-wiremum-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** iPhone holding purple blouse.
+PaperFaces portrait commissioned of [@wiremum](http://twitter.com/wiremum).
 
 {% include paperfaces-boilerplate.html %}

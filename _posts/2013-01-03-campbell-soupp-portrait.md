@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @campbell_soupp"
+title: "Blonde hair taking a selfie"
 description: "PaperFaces portrait of @campbell_soupp drawn with Paper by 53 on an iPad."
 image: paperfaces-campbell-soupp-twitter-lg
 thumb: paperfaces-campbell-soupp-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blonde hair taking a self pic.
+PaperFaces portrait of [@campbell_soupp](http://twitter.com/campbell_soupp).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @leahchu"
+title: "Frosty blue snowflake bokeh"
 description: "PaperFaces portrait of @leahchu drawn with Paper by 53 on an iPad."
 image: paperfaces-leahchu-twitter-lg
 thumb: paperfaces-leahchu-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Frosty blue snowflake bokeh.
+PaperFaces portrait of [@leahchu](http://twitter.com/leahchu).
 
 {% include paperfaces-boilerplate.html %}

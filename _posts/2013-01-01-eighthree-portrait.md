@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @eighthree"
+title: "High brightness front view"
 description: "PaperFaces portrait of @eighthree drawn with Paper by 53 on an iPad."
 image: paperfaces-eighthree-twitter-lg
 thumb: paperfaces-eighthree-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-High brightness front view.
+PaperFaces portrait of [@eighthree](http://twitter.com/eighthree).
 
 {% include paperfaces-boilerplate.html %}

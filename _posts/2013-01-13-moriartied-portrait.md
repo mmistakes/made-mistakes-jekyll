@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @moriartied"
+title: "Glasses and short hair"
 description: "PaperFaces portrait of @moriartied drawn with Paper by 53 on an iPad."
 image: paperfaces-moriartied-twitter-lg
 thumb: paperfaces-moriartied-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Glasses and short hair in black and white.
+PaperFaces portrait of [@moriartied](http://twitter.com/moriartied).
 
 {% include paperfaces-boilerplate.html %}

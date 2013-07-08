@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @wiretillidie"
+title: "Holding a baby on a leather couch"
 description: "PaperFaces portrait of @wiretillidie drawn with Paper by 53 on an iPad."
 image: paperfaces-wiretillidie-twitter-lg
 thumb: paperfaces-wiretillidie-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Holding a baby on a leather couch.
+PaperFaces portrait commissioned of [@wiretillidie](http://twitter.com/wiretillidie).
 
 {% include paperfaces-boilerplate.html %}

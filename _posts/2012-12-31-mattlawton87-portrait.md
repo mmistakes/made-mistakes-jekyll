@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @mattlawton87"
+title: "A couple"
 description: "PaperFaces portrait of @mattlawton87 drawn with Paper by 53 on an iPad."
 image: paperfaces-mattlawton87-twitter-lg
 thumb: paperfaces-mattlawton87-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** A couple.
+PaperFaces portrait of project donator [@mattlawton87](http://twitter.com/mattlawton87).
 
 {% include paperfaces-boilerplate.html %}

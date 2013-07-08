@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Yaraher"
+title: "3/4 view against an orange background"
 description: "PaperFaces portrait of @Yaraher drawn with Paper by 53 on an iPad."
 image: paperfaces-yaraher-twitter-lg
 thumb: paperfaces-yaraher-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-3/4 view against an orange background.
+PaperFaces portrait of [@Yaraher](http://twitter.com/Yaraher).
 
 {% include paperfaces-boilerplate.html %}

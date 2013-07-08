@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @keyflake"
+title: "Ferris wheel at night"
 description: "PaperFaces portrait of @keyflake drawn with Paper by 53 on an iPad."
 image: paperfaces-keyflake-twitter-lg
 thumb: paperfaces-keyflake-twitter-150.jpg
@@ -13,7 +13,7 @@ tags:
 - iPad art
 ---
 
-In front of a ferris wheel at night.
+PaperFaces portrait of [@keyflake](http://twitter.com/keyflake).
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/6yUmJRwXAdE" frameborder="0"> </iframe>
 

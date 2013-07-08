@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @LondonWebDev"
+title: "Goatee earlobe tugging"
 description: "PaperFaces portrait of @LondonWebDev drawn with Paper by 53 on an iPad."
 image: paperfaces-londonwebdev-twitter-lg
 thumb: paperfaces-londonwebdev-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Goatee earlobe tugging.
+PaperFaces portrait of [@LondonWebDev](http://twitter.com/LondonWebDev).
 
 {% include paperfaces-boilerplate.html %}

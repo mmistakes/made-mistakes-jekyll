@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @rasmusfisker"
+title: "Yellow and violet tones"
 description: "PaperFaces portrait of @rasmusfisker drawn with Paper by 53 on an iPad."
 image: paperfaces-rasmusfisker-twitter-lg
 thumb: paperfaces-rasmusfisker-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Yellow and violet tones.
+PaperFaces portrait of [@rasmusfisker](http://twitter.com/rasmusfisker).
 
 {% include paperfaces-boilerplate.html %}

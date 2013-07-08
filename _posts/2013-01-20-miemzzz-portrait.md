@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @MiemZzz"
+title: "Drawn in black and white"
 description: "PaperFaces portrait of @MiemZzz drawn with Paper by 53 on an iPad."
 image: paperfaces-miemzzz-twitter-lg
 thumb: paperfaces-miemzzz-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Drawn in black and white.
+PaperFaces portrait of [@MiemZzz](http://twitter.com/MiemZzz).
 
 {% include paperfaces-boilerplate.html %}
