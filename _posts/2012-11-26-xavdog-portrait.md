@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @xavdog"
+title: "Standing in front of wood paneling"
 description: "PaperFaces portrait of @xavdog drawn with Paper by 53 on an iPad."
 image: paperfaces-xavdog-twitter-lg
 thumb: paperfaces-xavdog-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Standing in front of wood paneling.
+PaperFaces portrait of [@xavdog](http://twitter.com/xavdog).
 
 {% include paperfaces-boilerplate.html %}

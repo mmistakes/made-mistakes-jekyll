@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @lsinger"
+title: "Black and white sir in dark shirt"
 description: "PaperFaces portrait of @lsinger drawn with Paper by 53 on an iPad."
 image: paperfaces-lsinger-twitter-lg
 thumb: paperfaces-lsinger-twitter-150.jpg
@@ -11,8 +11,9 @@ tags:
 - illustration
 - Paper by 53
 - iPad art
+- black and white
 ---
 
-**Project Donator.**Black and white sir in dark shirt.
+PaperFaces portrait of project donator [@lsinger](http://twitter.com/lsinger).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @melaniejcooke"
+title: "Long hair and red lipstick"
 description: "PaperFaces portrait of @melaniejcooke drawn with Paper by 53 on an iPad."
 image: paperfaces-melaniejcooke-twitter-lg
 thumb: paperfaces-melaniejcooke-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair with red lipstick.
+PaperFaces portrait of [@melaniejcooke](http://twitter.com/melaniejcooke).
 
 {% include paperfaces-boilerplate.html %}

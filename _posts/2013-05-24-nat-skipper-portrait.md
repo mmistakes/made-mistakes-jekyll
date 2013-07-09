@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Nat_Skipper"
+title: "365th PaperFaces portrait"
 description: "PaperFaces portrait of @Nat_Skipper drawn with Paper by 53 on an iPad."
 image: paperfaces-nat-skipper-twitter-lg
 thumb: paperfaces-nat-skipper-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-My 365th PaperFaces portrait! Halfway to my goal...
+Halfway to my goal... PaperFaces portrait of [@Nat_Skipper](http://twitter.com/Nat_Skipper).
 
 {% include paperfaces-boilerplate.html %}

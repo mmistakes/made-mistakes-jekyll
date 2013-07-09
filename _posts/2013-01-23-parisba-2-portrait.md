@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @parisba"
+title: "In a hat, but not a cowboy"
 description: "PaperFaces portrait of @parisba drawn with Paper by 53 on an iPad."
 image: paperfaces-parisba-2-twitter-lg
 thumb: paperfaces-parisba-2-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In a hat, but not a cowboy.
+PaperFaces portrait of [@parisba](http://twitter.com/parisba).
 
 {% include paperfaces-boilerplate.html %}

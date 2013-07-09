@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @lovisaslife"
+title: "Long hair and blue striped shirt"
 description: "PaperFaces portrait of @lovisaslife drawn with Paper by 53 on an iPad."
 image: paperfaces-lovisaslife-twitter-lg
 thumb: paperfaces-lovisaslife-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long blonde hair and blue striped shirt.
+PaperFaces portrait of [@lovisaslife](http://twitter.com/lovisaslife).
 
 {% include paperfaces-boilerplate.html %}

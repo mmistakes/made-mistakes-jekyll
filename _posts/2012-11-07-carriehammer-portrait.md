@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @carriehammer"
+title: "Long hair in grayscale"
 description: "PaperFaces portrait of @carriehammer drawn with Paper by 53 on an iPad."
 image: paperfaces-carriehammer-twitter-lg
 thumb: paperfaces-carriehammer-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair in grayscale.
+PaperFaces portrait of [@carriehammer](http://twitter.com/carriehammer).
 
 {% include paperfaces-boilerplate.html %}

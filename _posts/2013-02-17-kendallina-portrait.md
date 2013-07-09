@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @kendallina"
+title: "High contrast beautiful long hair"
 description: "PaperFaces portrait of @kendallina drawn with Paper by 53 on an iPad."
 image: paperfaces-kendallina-twitter-lg
 thumb: paperfaces-kendallina-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-High contrast beautiful long hair.
+PaperFaces portrait of [@kendallina](http://twitter.com/kendallina).
 
 {% include paperfaces-boilerplate.html %}

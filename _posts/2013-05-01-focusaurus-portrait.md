@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @focusaurus"
+title: "Pink mohawk"
 description: "PaperFaces portrait of @focusaurus drawn with Paper by 53 on an iPad."
 image: paperfaces-focusaurus-twitter-lg
 thumb: paperfaces-focusaurus-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Large pink mohawk.
+PaperFaces portrait of [@focusaurus](http://twitter.com/focusaurus).
 
 {% include paperfaces-boilerplate.html %}

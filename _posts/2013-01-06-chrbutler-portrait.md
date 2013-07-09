@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @chrbutler"
+title: "Yellow and blue tones"
 description: "PaperFaces portrait of @chrbutler drawn with Paper by 53 on an iPad."
 image: paperfaces-chrbutler-twitter-lg
 thumb: paperfaces-chrbutler-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Yellow and blue tones.
+PaperFaces portrait of [@chrbutler](http://twitter.com/chrbutler).
 
 {% include paperfaces-boilerplate.html %}

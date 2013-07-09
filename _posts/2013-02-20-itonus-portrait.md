@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @itonus"
+title: "Bowtie and nerd glasses"
 description: "PaperFaces portrait of @itonus-ron drawn with Paper by 53 on an iPad."
 image: paperfaces-itonus-twitter-lg
 thumb: paperfaces-itonus-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Bowtie and nerd glasses.
+PaperFaces portrait of [@itonus](http://twitter.com/itonus).
 
 {% include paperfaces-boilerplate.html %}

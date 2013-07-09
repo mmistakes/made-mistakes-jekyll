@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @benmarsh"
+title: "A study in gray"
 description: "PaperFaces portrait of @benmarsh drawn with Paper by 53 on an iPad."
 image: paperfaces-benmarsh-twitter-lg
 thumb: paperfaces-benmarsh-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** A study in gray.
+PaperFaces portrait of [@benmarsh](http://twitter.com/benmarsh).
 
 {% include paperfaces-boilerplate.html %}

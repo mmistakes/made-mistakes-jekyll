@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Vragal"
+title: "In a gray hoodie"
 description: "PaperFaces portrait of @Vragal drawn with Paper by 53 on an iPad."
 image: paperfaces-vragal-twitter-lg
 thumb: paperfaces-vragal-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In a gray hoodie.
+PaperFaces portrait of [@Vragal](http://twitter.com/Vragal).
 
 {% include paperfaces-boilerplate.html %}

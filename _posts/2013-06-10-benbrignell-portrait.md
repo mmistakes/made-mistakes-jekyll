@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @benbrignell"
+title: "Please excuse the face, sometimes I draw them"
 description: "PaperFaces portrait of @benbrignell drawn with Paper by 53 on an iPad."
 image: paperfaces-benbrignell-twitter-lg
 thumb: paperfaces-benbrignell-twitter-150.jpg
@@ -8,7 +8,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, beard]
 ---
 
-Please excuse the face, sometimes I actually draw the features.
+PaperFaces portrait of [@benbrignell](http://twitter.com/benbrignell).
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-benbrignell-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-benbrignell-process-1-600.jpg" alt="Adding detail with the pencil tool."></a>

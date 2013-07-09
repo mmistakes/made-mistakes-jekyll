@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @thetombell"
+title: "Yellow and blue stripes, view from below"
 description: "PaperFaces portrait of @thetombell drawn with Paper by 53 on an iPad."
 image: paperfaces-thetombell-twitter-lg
 thumb: paperfaces-thetombell-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Yellow and blue stripes, view from below.
+PaperFaces portrait of project donator [@thetombell](http://twitter.com/thetombell).
 
 {% include paperfaces-boilerplate.html %}

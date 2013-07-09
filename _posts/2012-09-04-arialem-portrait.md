@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @arialem"
+title: "Red hair and full of smiles"
 description: "PaperFaces portrait of @arialem drawn with Paper by 53 on an iPad."
 image: paperfaces-arialem-instagram-lg
 thumb: paperfaces-arialem-instagram-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Red hair and full of smiles.
+PaperFaces portrait of [@arialem](http://instagram.com/arialem).
 
 {% include paperfaces-boilerplate.html %}

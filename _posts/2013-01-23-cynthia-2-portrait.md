@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @cynthia"
+title: "Long hair in grayscale"
 description: "PaperFaces portrait of @cynthia drawn with Paper by 53 on an iPad."
 image: paperfaces-cynthia-2-twitter-lg
 thumb: paperfaces-cynthia-2-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair in grayscale.
+PaperFaces portrait of [@cynthia](http://twitter.com/cynthia).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @andreikharlanov"
+title: "Bright lighting and glasses"
 description: "PaperFaces portrait of @andreikharlanov drawn with Paper by 53 on an iPad."
 image: paperfaces-andreikharlanov-twitter-lg
 thumb: paperfaces-andreikharlanov-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Bright lighting and glasses.
+PaperFaces portrait of [@andreikharlanov](http://twitter.com/andreikharlanov).
 
 {% include paperfaces-boilerplate.html %}

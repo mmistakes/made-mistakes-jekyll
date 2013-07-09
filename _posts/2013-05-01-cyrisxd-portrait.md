@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @CyrisXD"
+title: "Blazer and t-shirt"
 description: "PaperFaces portrait of @CyrisXD drawn with Paper by 53 on an iPad."
 image: paperfaces-cyrisxd-twitter-lg
 thumb: paperfaces-cyrisxd-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blazer and t-shirt.
+PaperFaces portrait of [@CyrisXD](http://twitter.com/CyrisXD).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @njklas"
+title: "Sunglasses with side swiped hair"
 description: "PaperFaces portrait of @njklas drawn with Paper by 53 on an iPad."
 image: paperfaces-njklas-twitter-lg
 thumb: paperfaces-njklas-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sunglasses with side swiped hair and hat.
+PaperFaces portrait of [@njklas](http://twitter.com/njklas).
 
 {% include paperfaces-boilerplate.html %}

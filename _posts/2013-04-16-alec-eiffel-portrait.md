@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of Alec Eiffel"
+title: "Shirtless military"
 description: "PaperFaces portrait of Alec Eiffel drawn with Paper by 53 on an iPad."
 image: paperfaces-alec-eiffel-facebook-lg
 thumb: paperfaces-alec-eiffel-facebook-150.jpg

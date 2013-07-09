@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jamesIII"
+title: "The king has risen"
 description: "PaperFaces portrait of @jamesIII drawn with Paper by 53 on an iPad."
 image: paperfaces-jamesiii-twitter-lg
 thumb: paperfaces-jamesiii-twitter-150.jpg
@@ -13,7 +13,7 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** The king has risen.
+PaperFaces portrait of project donator [@jamesIII](http://twitter.com/jamesIII).
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/ntWqGHiApsE" frameborder="0"> </iframe>
 

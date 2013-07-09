@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @4lala"
+title: "Purple lollipop and sunglasses gal"
 description: "PaperFaces portrait of @4lala drawn with Paper by 53 on an iPad."
 image: paperfaces-4lala-twitter-lg
 thumb: paperfaces-4lala-twitter-150.jpg
@@ -13,7 +13,7 @@ tags:
 - iPad art
 ---
 
-Purple lollipop and sunglasses gal.
+PaperFaces portrait of [@4lala](http://twitter.com/4lala).
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/xvpF730pDQk" frameborder="0"> </iframe>
 

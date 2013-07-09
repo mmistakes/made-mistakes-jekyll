@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @SwiftKickCoach_"
+title: "Sunglasses with green stuffed animal"
 description: "PaperFaces portrait of @SwiftKickCoach_ drawn with Paper by 53 on an iPad."
 image: paperfaces-swiftkickcoach-twitter-lg
 thumb: paperfaces-swiftkickcoach-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sunglasses with green stuffed animal.
+PaperFaces portrait of [@SwiftKickCoach_](http://twitter.com/SwiftKickCoach_).
 
 {% include paperfaces-boilerplate.html %}

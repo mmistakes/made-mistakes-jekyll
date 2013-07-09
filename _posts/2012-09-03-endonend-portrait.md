@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @endonend"
+title: "Red backdrop and beard"
 description: "PaperFaces portrait of @endonend drawn with Paper by 53 on an iPad."
 image: paperfaces-endonend-instagram-lg
 thumb: paperfaces-endonend-instagram-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Red backdrop and bear
+PaperFaces portrait of [@endonend](http://instagram.com/endonend).
 
 {% include paperfaces-boilerplate.html %}

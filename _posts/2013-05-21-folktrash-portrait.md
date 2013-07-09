@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @folktrash"
+title: "Working in grayscale is totally my jam"
 description: "PaperFaces portrait of @folktrash drawn with Paper by 53 on an iPad."
 image: paperfaces-folktrash-twitter-lg
 thumb: paperfaces-folktrash-twitter-150.jpg
@@ -12,10 +12,9 @@ tags:
 - Paper by 53
 - iPad art
 - black and white
-- grayscale
 - beard
 ---
 
-Working in grayscale is totally my jam.
+PaperFaces portrait of [@folktrash](http://twitter.com/folktrash).
 
 {% include paperfaces-boilerplate.html %}

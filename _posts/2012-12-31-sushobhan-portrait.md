@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @sushobhan"
+title: "Gray tones and striped shirts"
 description: "PaperFaces portrait of @sushobhan drawn with Paper by 53 on an iPad."
 image: paperfaces-sushobhan-twitter-lg
 thumb: paperfaces-sushobhan-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Gray tones and striped shirts.
+PaperFaces portrait of [@sushobhan](http://twitter.com/sushobhan).
 
 {% include paperfaces-boilerplate.html %}

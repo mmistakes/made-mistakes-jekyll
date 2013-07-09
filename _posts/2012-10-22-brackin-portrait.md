@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @brackin"
+title: "Dude in blue"
 description: "PaperFaces portrait of @brackin drawn with Paper by 53 on an iPad."
 image: paperfaces-brackin-twitter-lg
 thumb: paperfaces-brackin-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dude in blue.
+PaperFaces portrait of [@brackin](http://twitter.com/brackin).
 
 {% include paperfaces-boilerplate.html %}

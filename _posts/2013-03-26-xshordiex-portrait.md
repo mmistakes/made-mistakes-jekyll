@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @xShordiex"
+title: "Against striped walls"
 description: "PaperFaces portrait of @xShordiex drawn with Paper by 53 on an iPad."
 image: paperfaces-xshordiex-twitter-lg
 thumb: paperfaces-xshordiex-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair against striped walls.
+PaperFaces portrait of [@xShordiex](http://twitter.com/xShordiex).
 
 {% include paperfaces-boilerplate.html %}

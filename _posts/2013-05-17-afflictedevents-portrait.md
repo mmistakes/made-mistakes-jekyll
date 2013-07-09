@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @afflictedevents"
+title: "Goatee reflected glasses"
 description: "PaperFaces portrait of @afflictedevents drawn with Paper by 53 on an iPad."
 image: paperfaces-afflictedevents-twitter-lg
 thumb: paperfaces-afflictedevents-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project donator.** Goatee reflected glasses.
+PaperFaces portrait of project donator [@afflictedevents](http://twitter.com/afflictedevents).
 
 {% include paperfaces-boilerplate.html %}

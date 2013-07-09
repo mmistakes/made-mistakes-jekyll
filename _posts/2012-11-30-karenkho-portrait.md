@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @karenkho"
+title: "Smiling girl"
 description: "PaperFaces portrait of @karenkho drawn with Paper by 53 on an iPad."
 image: paperfaces-karenkho-twitter-lg
 thumb: paperfaces-karenkho-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Girl smiling.
+PaperFaces portrait of [@karenkho](http://twitter.com/karenkho).
 
 {% include paperfaces-boilerplate.html %}

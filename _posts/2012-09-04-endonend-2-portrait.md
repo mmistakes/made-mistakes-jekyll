@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @endonend"
+title: "Sepia toned beard"
 description: "PaperFaces portrait of @endonend drawn with Paper by 53 on an iPad."
 image: paperfaces-endonend-twitter-lg
 thumb: paperfaces-endonend-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sepia toned beards.
+PaperFaces portrait of [@endonend](http://twitter.com/endonend).
 
 {% include paperfaces-boilerplate.html %}

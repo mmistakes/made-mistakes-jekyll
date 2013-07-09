@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ssetlik"
+title: "Listening to music, window style"
 description: "PaperFaces portrait of @ssetlik drawn with Paper by 53 on an iPad."
 image: paperfaces-ssetlik-twitter-lg
 thumb: paperfaces-ssetlik-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Listening to music next to a window.
+PaperFaces portrait of [@ssetlik](http://twitter.com/ssetlik).
 
 {% include paperfaces-boilerplate.html %}

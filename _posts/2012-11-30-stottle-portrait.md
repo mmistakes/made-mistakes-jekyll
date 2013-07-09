@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Stottle"
+title: "Silhouette of a man"
 description: "PaperFaces portrait of @Stottle drawn with Paper by 53 on an iPad."
 image: paperfaces-stottle-twitter-lg
 thumb: paperfaces-stottle-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Silouette of a man.
+PaperFaces portrait of [@Stottle](http://twitter.com/Stottle).
 
 {% include paperfaces-boilerplate.html %}

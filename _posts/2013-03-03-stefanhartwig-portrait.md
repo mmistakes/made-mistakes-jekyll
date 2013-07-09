@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @stefanhartwig"
+title: "Circles behind grayscale"
 description: "PaperFaces portrait of @stefanhartwig drawn with Paper by 53 on an iPad."
 image: paperfaces-stefanhartwig-twitter-lg
 thumb: paperfaces-stefanhartwig-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Circles behind in grayscale.
+PaperFaces portrait of [@stefanhartwig](http://twitter.com/stefanhartwig).
 
 {% include paperfaces-boilerplate.html %}

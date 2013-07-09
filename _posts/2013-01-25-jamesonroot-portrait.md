@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jamesonroot"
+title: "Couple in front of water"
 description: "PaperFaces portrait of @jamesonroot drawn with Paper by 53 on an iPad."
 image: paperfaces-jamesonroot-twitter-lg
 thumb: paperfaces-jamesonroot-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Couple in front of water.
+PaperFaces portrait of project donator [@jamesonroot](http://twitter.com/jamesonroot).
 
 {% include paperfaces-boilerplate.html %}

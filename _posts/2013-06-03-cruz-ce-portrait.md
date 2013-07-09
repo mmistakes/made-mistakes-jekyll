@@ -1,13 +1,13 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @cruz_ce"
+title: "Long hair near them stairs"
 description: "PaperFaces portrait of @cruz_ce drawn with Paper by 53 on an iPad."
 image: paperfaces-cruz-ce-twitter-lg
 thumb: paperfaces-cruz-ce-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white, hair]
+tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
 ---
 
-Long hair in black and white near stairs.
+PaperFaces portrait of [@cruz_ce](http://twitter.com/cruz_ce).
 
 {% include paperfaces-boilerplate-2.html %}

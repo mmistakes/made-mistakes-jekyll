@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jkusunoki"
+title: "Drinking wine in an argyle sweater"
 description: "PaperFaces portrait of @jkusunoki drawn with Paper by 53 on an iPad."
 image: paperfaces-jkusunoki-twitter-lg
 thumb: paperfaces-jkusunoki-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Drinking wine in an argyle sweater.
+PaperFaces portrait of [@jkusunoki](http://twitter.com/jkusunoki).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @gimmeapuck"
+title: "In sunglasses"
 description: "PaperFaces portrait of @gimmeapuck drawn with Paper by 53 on an iPad."
 image: paperfaces-gimmeapuck-twitter-lg
 thumb: paperfaces-gimmeapuck-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In sunglasses.
+PaperFaces portrait of [@gimmeapuck](http://twitter.com/gimmeapuck).
 
 {% include paperfaces-boilerplate.html %}

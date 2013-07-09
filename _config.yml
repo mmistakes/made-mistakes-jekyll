@@ -1,6 +1,6 @@
 title:            Made Mistakes
 tagline:          Design Faux Pas
-description:      "Personal website of designer Michael Rose."
+description:      "Personal website of designer slash illustrator Michael Rose."
 logo:             site-logo.png
 disqus_shortname: mmistakes
 # Comment out url when working locally to resolve base urls correctly
@@ -10,7 +10,7 @@ url:              http://mademistakes.com
 owner:
   name:           Michael Rose
   avatar:         michael-rose-photo.jpg
-  bio:            "Just another bearded, tattooed, time traveling, designer hailing from Buffalo New York."
+  bio:            "Just another boring, tattooed, time traveling, designer hailing from Buffalo New York."
   email:          michael@mademistakes.com
   twitter:        "mmistakes"
   instagram:      "mmistakes"

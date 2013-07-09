@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @RyanFarrellStl"
+title: "Guy and gal all bloodied up"
 description: "PaperFaces portrait of @RyanFarrellStl drawn with Paper by 53 on an iPad."
 image: paperfaces-ryanfarrellstl-twitter-lg
 thumb: paperfaces-ryanfarrellstl-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Guy and girl all bloodied up.
+PaperFaces portrait of project donator [@RyanFarrellStl](http://twitter.com/RyanFarrellStl).
 
 {% include paperfaces-boilerplate.html %}

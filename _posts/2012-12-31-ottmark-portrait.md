@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ottmark"
+title: "Dramatic lighting in a brown room"
 description: "PaperFaces portrait of @ottmark drawn with Paper by 53 on an iPad."
 image: paperfaces-ottmark-twitter-lg
 thumb: paperfaces-ottmark-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dramatic lighting in a brown room.
+PaperFaces portrait of [@ottmark](http://twitter.com/ottmark).
 
 {% include paperfaces-boilerplate.html %}

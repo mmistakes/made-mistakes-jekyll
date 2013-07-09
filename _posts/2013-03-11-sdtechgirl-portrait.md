@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @SDTechGirl"
+title: "Blonde in the dark cuddling a white pussy cat"
 description: "PaperFaces portrait of @SDTechGirl drawn with Paper by 53 on an iPad."
 image: paperfaces-sdtechgirl-twitter-lg
 thumb: paperfaces-sdtechgirl-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blonde in the dark cuddling a white pussy cat.
+PaperFaces portrait of [@SDTechGirl](http://twitter.com/SDTechGirl).
 
 {% include paperfaces-boilerplate.html %}

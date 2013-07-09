@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @toberl"
+title: "Black and white bearded fella wearing glasses"
 description: "PaperFaces portrait of @toberl drawn with Paper by 53 on an iPad."
 image: paperfaces-toberl-twitter-lg
 thumb: paperfaces-toberl-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Black and white bearded fella wearing glasses.
+PaperFaces portrait of [@toberl](http://twitter.com/toberl).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Karen_Melgar"
+title: "Face mask without the face"
 description: "PaperFaces portrait of @Karen_Melgar drawn with Paper by 53 on an iPad."
 image: paperfaces-karen-melgar-twitter-lg
 thumb: paperfaces-karen-melgar-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Face mask without the face.
+PaperFaces portrait of [@Karen_Melgar](http://twitter.com/Karen_Melgar).
 
 {% include paperfaces-boilerplate.html %}

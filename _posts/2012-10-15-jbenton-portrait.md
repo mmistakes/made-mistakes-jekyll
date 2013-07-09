@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jbenton"
+title: "Monochromatic blue beard"
 description: "PaperFaces portrait of @jbenton drawn with Paper by 53 on an iPad."
 image: paperfaces-jbenton-twitter-lg
 thumb: paperfaces-jbenton-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Monochromatic blue beard.
+PaperFaces portrait of [@jbenton](http://twitter.com/jbenton).
 
 {% include paperfaces-boilerplate.html %}

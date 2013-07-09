@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jonikorpi"
+title: "Looking at a mobile device intensely"
 description: "PaperFaces portrait of @jonikorpi drawn with Paper by 53 on an iPad."
 image: paperfaces-jonikorpi-twitter-lg
 thumb: paperfaces-jonikorpi-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Looking at a mobile device intensely.
+PaperFaces portrait of [@jonikorpi](http://twitter.com/jonikorpi).
 
 {% include paperfaces-boilerplate.html %}

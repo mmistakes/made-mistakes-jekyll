@@ -1,13 +1,13 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @lulomx"
+title: "I am from the future, Google Glass"
 description: "PaperFaces portrait of @lulomx drawn with Paper by 53 on an iPad."
 image: paperfaces-lulomx-twitter-lg
 thumb: paperfaces-lulomx-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Google Glass, glasshole]
+tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-I am from the future, Google Glass.
+PaperFaces portrait of [@lulomx](http://twitter.com/lulomx).
 
 {% include paperfaces-boilerplate-2.html %}

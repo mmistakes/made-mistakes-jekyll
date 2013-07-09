@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Shamaiela"
+title: "Violets and purples"
 description: "PaperFaces portrait of @Shamaiela drawn with Paper by 53 on an iPad."
 image: paperfaces-shamaiela-2-twitter-lg
 thumb: paperfaces-shamaiela-2-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Violets and purples.
+PaperFaces portrait of [@Shamaiela](http://twitter.com/Shamaiela).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @dereklakin"
+title: "Resting glasses"
 description: "PaperFaces portrait of @dereklakin drawn with Paper by 53 on an iPad."
 image: paperfaces-dereklakin-twitter-lg
 thumb: paperfaces-dereklakin-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Resting glasses.
+PaperFaces portrait of [@dereklakin](http://twitter.com/dereklakin).
 
 {% include paperfaces-boilerplate.html %}

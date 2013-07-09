@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @curlycrazy"
+title: "Curly locks of hair"
 description: "PaperFaces portrait of @curlycrazy drawn with Paper by 53 on an iPad."
 image: paperfaces-curlycrazy-twitter-lg
 thumb: paperfaces-curlycrazy-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Curly locks of hair.
+PaperFaces portrait of project donator [@curlycrazy](http://twitter.com/curlycrazy).
 
 {% include paperfaces-boilerplate.html %}

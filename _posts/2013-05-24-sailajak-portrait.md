@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @sailajak"
+title: "Blouse made of turquoise"
 description: "PaperFaces portrait of @sailajak drawn with Paper by 53 on an iPad."
 image: paperfaces-sailajak-twitter-lg
 thumb: paperfaces-sailajak-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blouse made of turquoise.
+aperFaces portrait of [@sailajak](http://twitter.com/sailajak).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @TellYouMore"
+title: "In a scarf thinking lots of orange hues"
 description: "PaperFaces portrait of @TellYouMore drawn with Paper by 53 on an iPad."
 image: paperfaces-tellyoumore-twitter-lg
 thumb: paperfaces-tellyoumore-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In a scarf thinking with lots of orange hues.
+PaperFaces portrait of [@TellYouMore](http://twitter.com/TellYouMore).
 
 {% include paperfaces-boilerplate.html %}

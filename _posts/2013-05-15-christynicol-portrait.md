@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @christynicol"
+title: "Put a bird on it"
 description: "PaperFaces portrait of @christynicol drawn with Paper by 53 on an iPad."
 image: paperfaces-christynicol-twitter-lg
 thumb: paperfaces-christynicol-twitter-150.jpg
@@ -14,6 +14,6 @@ tags:
 - bird
 ---
 
-Put a bird on it... or your shoulder in the case of this illustration.
+Put a bird on it... or your shoulder in the case of this illustration. PaperFaces portrait of [@christynicol](http://twitter.com/christynicol).
 
 {% include paperfaces-boilerplate.html %}

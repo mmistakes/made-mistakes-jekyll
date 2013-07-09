@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @togsy"
+title: "Bug fur hat"
 description: "PaperFaces portrait of @togsy drawn with Paper by 53 on an iPad."
 image: paperfaces-togsy-twitter-lg
 thumb: paperfaces-togsy-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Big fut hat.
+PaperFaces portrait of [@togsy](http://twitter.com/togsy).
 
 {% include paperfaces-boilerplate.html %}

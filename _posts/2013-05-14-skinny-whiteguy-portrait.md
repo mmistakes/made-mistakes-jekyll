@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @skinny_whiteguy"
+title: "Deal with it"
 description: "PaperFaces portrait of @skinny_whiteguy drawn with Paper by 53 on an iPad."
 image: paperfaces-skinny-whiteguy-twitter-lg
 thumb: paperfaces-skinny-whiteguy-twitter-150.jpg
@@ -11,9 +11,9 @@ tags:
 - illustration
 - Paper by 53
 - iPad art
-- sunglasses
+- glasses
 ---
 
-Deal with it.
+PaperFaces portrait of [@skinny_whiteguy](http://twitter.com/skinny_whiteguy).
 
 {% include paperfaces-boilerplate.html %}

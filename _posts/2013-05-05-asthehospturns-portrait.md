@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @asthehosptuRNs"
+title: "Thumbs up Giants"
 description: "PaperFaces portrait of @asthehosptuRNs drawn with Paper by 53 on an iPad."
 image: paperfaces-asthehospturns-twitter-lg
 thumb: paperfaces-asthehospturns-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Thumbs up Giants.
+PaperFaces portrait of [@asthehosptuRNs](http://twitter.com/asthehosptuRNs).
 
 {% include paperfaces-boilerplate.html %}

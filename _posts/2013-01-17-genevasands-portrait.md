@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @genevasands"
+title: "Long hair wearing a striped shirt"
 description: "PaperFaces portrait of @genevasands drawn with Paper by 53 on an iPad."
 image: paperfaces-genevasands-twitter-lg
 thumb: paperfaces-genevasands-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair wearing a striped shirt.
+PaperFaces portrait of [@genevasands](http://twitter.com/genevasands).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @roblawton"
+title: "Man of Steel"
 description: "PaperFaces portrait of @roblawton drawn with Paper by 53 on an iPad."
 image: paperfaces-roblawton-twitter-lg
 thumb: paperfaces-roblawton-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Superman shirt.
+PaperFaces portrait of [@roblawton](http://twitter.com/roblawton).
 
 {% include paperfaces-boilerplate.html %}

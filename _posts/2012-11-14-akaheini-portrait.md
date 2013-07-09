@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @akaheini"
+title: "Muted tones"
 description: "PaperFaces portrait of @akaheini drawn with Paper by 53 on an iPad."
 image: paperfaces-akaheini-twitter-lg
 thumb: paperfaces-akaheini-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Muted tones.
+PaperFaces portrait of [@akaheini](http://twitter.com/akaheini).
 
 {% include paperfaces-boilerplate.html %}

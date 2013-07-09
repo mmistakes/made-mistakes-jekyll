@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Bookety"
+title: "Shag cut in plaid"
 description: "PaperFaces portrait of @Bookety drawn with Paper by 53 on an iPad."
 image: paperfaces-bookety-twitter-lg
 thumb: paperfaces-bookety-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Shag cut in plaid.
+PaperFaces portrait of [@Bookety](http://twitter.com/Bookety).
 
 {% include paperfaces-boilerplate.html %}

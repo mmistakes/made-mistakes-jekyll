@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @eberth"
+title: "Drawing in black and white"
 description: "PaperFaces portrait of @eberth drawn with Paper by 53 on an iPad."
 image: paperfaces-eberth-twitter-lg
 thumb: paperfaces-eberth-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Drawing in black and white.
+PaperFaces portrait of project donator [@eberth](http://twitter.com/eberth).
 
 {% include paperfaces-boilerplate.html %}

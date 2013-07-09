@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @acostamt"
+title: "Fellow iPad illustrator"
 description: "PaperFaces portrait of @acostamt drawn with Paper by 53 on an iPad."
 image: paperfaces-acostamt-twitter-lg
 thumb: paperfaces-acostamt-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Fellow iPad illustrator.
+PaperFaces portrait of [@acostamt](http://twitter.com/acostamt).
 
 {% include paperfaces-boilerplate.html %}

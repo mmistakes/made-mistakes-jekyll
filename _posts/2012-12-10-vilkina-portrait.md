@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @vilkina"
+title: "Floral dress outside the steps"
 description: "PaperFaces portrait of @vilkina drawn with Paper by 53 on an iPad."
 image: paperfaces-vilkina-twitter-lg
 thumb: paperfaces-vilkina-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Floral dress outside the steps.
+PaperFaces portrait of [@vilkina](http://twitter.com/vilkina).
 
 {% include paperfaces-boilerplate.html %}

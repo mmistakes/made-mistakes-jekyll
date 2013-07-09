@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @dopplegl"
+title: "Illustrated in purble and blue tones"
 description: "PaperFaces portrait of @dopplegl drawn with Paper by 53 on an iPad."
 image: paperfaces-dopplegl-twitter-lg
 thumb: paperfaces-dopplegl-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Illustrated in purple and blue tones.
+PaperFaces portrait of [@dopplegl](http://twitter.com/dopplegl).
 
 {% include paperfaces-boilerplate.html %}
