@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ssgetchel"
+title: "Sunglasses at the beach"
 description: "PaperFaces portrait of @ssgetchel drawn with Paper by 53 on an iPad."
 image: paperfaces-ssgetchel-instagram-lg
 thumb: paperfaces-ssgetchel-instagram-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sunglasses at the beach.
+PaperFaces portrait of [@ssgetchel](http://instagram.com/ssgetchel).
 
 {% include paperfaces-boilerplate.html %}

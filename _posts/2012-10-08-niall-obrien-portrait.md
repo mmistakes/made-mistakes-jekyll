@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @niall-obrien"
+title: "Baby in light blue"
 description: "PaperFaces portrait of @niall-obrien drawn with Paper by 53 on an iPad."
 image: paperfaces-niall-obrien-twitter-lg
 thumb: paperfaces-niall-obrien-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Baby in light blue.
+PaperFaces portrait of [@niall-obrien](http://twitter.com/niall-obrien).
 
 {% include paperfaces-boilerplate.html %}

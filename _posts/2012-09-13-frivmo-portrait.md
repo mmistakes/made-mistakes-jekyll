@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @frivmo"
+title: "Black and white in a long overcoat"
 description: "PaperFaces portrait of @frivmo drawn with Paper by 53 on an iPad."
 image: paperfaces-frivmo-twitter-lg
 thumb: paperfaces-frivmo-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Black and white in a long overcoat.
+PaperFaces portrait of [@frivmo](http://twitter.com/frivmo).
 
 {% include paperfaces-boilerplate.html %}

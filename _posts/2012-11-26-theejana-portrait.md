@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @theejana"
+title: "Black and white wearing a hood"
 description: "PaperFaces portrait of @theejana drawn with Paper by 53 on an iPad."
 image: paperfaces-theejana-twitter-lg
 thumb: paperfaces-theejana-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Black and white wearing a hood.
+PaperFaces portrait of [@theejana](http://twitter.com/theejana).
 
 {% include paperfaces-boilerplate.html %}

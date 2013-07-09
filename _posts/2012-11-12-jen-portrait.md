@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jen"
+title: "Bright red lips"
 description: "PaperFaces portrait of @jen drawn with Paper by 53 on an iPad."
 image: paperfaces-jen-twitter-lg
 thumb: paperfaces-jen-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Bright red lips.
+PaperFaces portrait of project donator [@jen](http://twitter.com/jen).
 
 {% include paperfaces-boilerplate.html %}

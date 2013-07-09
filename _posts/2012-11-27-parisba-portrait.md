@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @parisba"
+title: "Goofy grey cat"
 description: "PaperFaces portrait of @parisba drawn with Paper by 53 on an iPad."
 image: paperfaces-parisba-twitter-lg
 thumb: paperfaces-parisba-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Goofy grey cat.
+PaperFaces avatar portrait for [@parisba](http://twitter.com/parisba).
 
 {% include paperfaces-boilerplate.html %}

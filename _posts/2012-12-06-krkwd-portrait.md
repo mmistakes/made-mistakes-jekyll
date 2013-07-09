@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @krkwd"
+title: "In front of a lime green background"
 description: "PaperFaces portrait of @krkwd drawn with Paper by 53 on an iPad."
 image: paperfaces-krkwd-twitter-lg
 thumb: paperfaces-krkwd-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In front of a lime green background.
+PaperFaces portrait of [@krkwd](http://twitter.com/krkwd).
 
 {% include paperfaces-boilerplate.html %}

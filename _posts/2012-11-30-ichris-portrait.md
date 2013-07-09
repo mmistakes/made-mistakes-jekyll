@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ichris"
+title: "Drawn in black and white"
 description: "PaperFaces portrait of @ichris drawn with Paper by 53 on an iPad."
 image: paperfaces-ichris-twitter-lg
 thumb: paperfaces-ichris-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Drawn in black and white.
+PaperFaces portrait of [@ichris](http://twitter.com/ichris).
 
 {% include paperfaces-boilerplate.html %}

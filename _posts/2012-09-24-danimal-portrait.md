@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @danimal"
+title: "Goatee"
 description: "PaperFaces portrait of @danimal drawn with Paper by 53 on an iPad."
 image: paperfaces-danimal-twitter-lg
 thumb: paperfaces-danimal-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Goatee.
+PaperFaces portrait of project donator [@danimal](http://twitter.com/danimal).
 
 {% include paperfaces-boilerplate.html %}

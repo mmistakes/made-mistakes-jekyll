@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @hugeshark"
+title: "Short hair, pink bangs"
 description: "PaperFaces portrait of @hugeshark drawn with Paper by 53 on an iPad."
 image: paperfaces-hugeshark-twitter-lg
 thumb: paperfaces-hugeshark-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Short hair with pink bangs.
+PaperFaces portrait of [@hugeshark](http://twitter.com/hugeshark).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @sarakenobi"
+title: "Kids in 3D glasses and red hats"
 description: "PaperFaces portrait of @sarakenobi drawn with Paper by 53 on an iPad."
 image: paperfaces-sarakenobi-twitter-lg
 thumb: paperfaces-sarakenobi-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Kids in 3D glasses and red hats.
+PaperFaces portrait avatar for [@sarakenobi](http://twitter.com/sarakenobi).
 
 {% include paperfaces-boilerplate.html %}

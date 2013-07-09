@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @CatDrawingGuy"
+title: "Remember when he was on Shark Tank?"
 description: "PaperFaces portrait of @CatDrawingGuy drawn with Paper by 53 on an iPad."
 image: paperfaces-CatDrawingGuy-twitter-lg
 thumb: paperfaces-CatDrawingGuy-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Remember when he was on Shark Tank?
+PaperFaces portrait of [@CatDrawingGuy](http://twitter.com/CatDrawingGuy).
 
 {% include paperfaces-boilerplate.html %}

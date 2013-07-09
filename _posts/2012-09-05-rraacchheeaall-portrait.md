@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @rraacchheeaall"
+title: "Long hair and geometric patterns"
 description: "PaperFaces portrait of @rraacchheeaall drawn with Paper by 53 on an iPad."
 image: paperfaces-rraacchheeaall-instagram-lg
 thumb: paperfaces-rraacchheeaall-instagram-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair and geometric patterns.
+PaperFaces portrait of [@rraacchheeaall](http://instagram.com/rraacchheeaall).
 
 {% include paperfaces-boilerplate.html %}

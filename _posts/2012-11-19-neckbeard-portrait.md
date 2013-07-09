@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @_neckbeard"
+title: "Upside down"
 description: "PaperFaces portrait of @_neckbeard drawn with Paper by 53 on an iPad."
 image: paperfaces-neckbeard-twitter-lg
 thumb: paperfaces-neckbeard-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Upside down.
+PaperFaces portrait of project donator [@_neckbeard](http://twitter.com/_neckbeard).
 
 {% include paperfaces-boilerplate.html %}

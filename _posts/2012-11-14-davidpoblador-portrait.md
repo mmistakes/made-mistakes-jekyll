@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @davidpoblador"
+title: "Rockin' some Spotify tunes in a scarf"
 description: "PaperFaces portrait of @davidpoblador drawn with Paper by 53 on an iPad."
 image: paperfaces-davidpoblador-twitter-lg
 thumb: paperfaces-davidpoblador-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Rockin' some Spotify tunes in a scarf.
+PaperFaces portrait of [@davidpoblador](http://twitter.com/davidpoblador).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @hotdogwithsauce"
+title: "Light blue hoodies"
 description: "PaperFaces portrait of @hotdogwithsauce drawn with Paper by 53 on an iPad."
 image: paperfaces-hotdogwithsauce-twitter-lg
 thumb: paperfaces-hotdogwithsauce-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Wearing a light blue hoodie with woman's best friend.
+PaperFaces portrait of [@hotdogwithsauce](http://twitter.com/hotdogwithsauce).
 
 {% include paperfaces-boilerplate.html %}

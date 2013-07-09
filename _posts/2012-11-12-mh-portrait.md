@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @mh"
+title: "Sunglasses and a hoodie"
 description: "PaperFaces portrait of @mh drawn with Paper by 53 on an iPad."
 image: paperfaces-mh-twitter-lg
 thumb: paperfaces-mh-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Sunglasses and a hoodie.
+PaperFaces portrait of project donator [@mh](http://twitter.com/mh).
 
 {% include paperfaces-boilerplate.html %}

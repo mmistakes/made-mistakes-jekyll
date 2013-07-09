@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ladygeekgeek"
+title: "Girl with the curl, and some ducks"
 description: "PaperFaces portrait of @ladygeekgeek drawn with Paper by 53 on an iPad."
 image: paperfaces-ladygeekgeek-twitter-lg
 thumb: paperfaces-ladygeekgeek-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Girl with the curl, and some ducks.
+PaperFaces portrait of [@ladygeekgeek](http://twitter.com/ladygeekgeek).
 
 {% include paperfaces-boilerplate.html %}

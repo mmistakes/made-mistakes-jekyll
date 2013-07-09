@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @editorialism"
+title: "Red lips and shirt"
 description: "PaperFaces portrait of @editorialism drawn with Paper by 53 on an iPad."
 image: paperfaces-editorialism-twitter-lg
 thumb: paperfaces-editorialism-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Red lips and shirt.
+PaperFaces portrait of [@editorialism](http://twitter.com/editorialism).
 
 {% include paperfaces-boilerplate.html %}

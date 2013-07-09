@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @kerby"
+title: "Blue shirt"
 description: "PaperFaces portrait of @kerby drawn with Paper by 53 on an iPad."
 image: paperfaces-kerby-twitter-lg
 thumb: paperfaces-kerby-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Blue shirt.
+PaperFaces portrait of [@kerby](http://twitter.com/kerby).
 
 {% include paperfaces-boilerplate.html %}

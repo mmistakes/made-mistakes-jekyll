@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @mmistakes"
+title: "Hey scruffy beard, double exposure self portrait"
 description: "PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
 image: paperfaces-mmistakes-twitter-lg
 thumb: paperfaces-mmistakes-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Hey scruffy beard, check out this double exposured self portrait.
+PaperFaces portrait of [@mmistakes](http://twitter.com/mmistakes).
 
 {% include paperfaces-boilerplate.html %}

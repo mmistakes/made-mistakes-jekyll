@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jloupe"
+title: "In front of a face"
 description: "PaperFaces portrait of @jloupe drawn with Paper by 53 on an iPad."
 image: paperfaces-jloupe-twitter-lg
 thumb: paperfaces-jloupe-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** In front of a face.
+PaperFaces portrait of project donator [@jloupe](http://twitter.com/jloupe).
 
 {% include paperfaces-boilerplate.html %}

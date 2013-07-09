@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ryandwillis"
+title: "Dressed up in the car"
 description: "PaperFaces portrait of @ryandwillis drawn with Paper by 53 on an iPad."
 image: paperfaces-ryandwillis-twitter-lg
 thumb: paperfaces-ryandwillis-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dressed up in the car.
+PaperFaces portrait of [@ryandwillis](http://twitter.com/ryandwillis).
 
 {% include paperfaces-boilerplate.html %}

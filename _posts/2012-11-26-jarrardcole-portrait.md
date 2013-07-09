@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jarrardcole"
+title: "Doing video editing in a theater"
 description: "PaperFaces portrait of @jarrardcole drawn with Paper by 53 on an iPad."
 image: paperfaces-jarrardcole-twitter-lg
 thumb: paperfaces-jarrardcole-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Doing video editing in a theater.
+PaperFaces portrait of [@jarrardcole](http://twitter.com/jarrardcole).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @raquibahasan"
+title: "iPhone man in a suit"
 description: "PaperFaces portrait of @raquibahasan drawn with Paper by 53 on an iPad."
 image: paperfaces-raquibahasan-twitter-lg
 thumb: paperfaces-raquibahasan-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-iPhone man in a suit.
+PaperFaces portrait of [@raquibahasan](http://twitter.com/raquibahasan).
 
 {% include paperfaces-boilerplate.html %}

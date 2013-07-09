@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @therealamylou"
+title: "Mother and little one"
 description: "PaperFaces portrait of @therealamylou drawn with Paper by 53 on an iPad."
 image: paperfaces-therealamylou-twitter-lg
 thumb: paperfaces-therealamylou-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Mother and little one.
+PaperFaces portrait of project donator [@therealamylou](http://twitter.com/therealamylou).
 
 {% include paperfaces-boilerplate.html %}

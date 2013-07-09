@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @TonjaC"
+title: "Long blonde hairs in front of a brick wall"
 description: "PaperFaces portrait of @TonjaC drawn with Paper by 53 on an iPad."
 image: paperfaces-TonjaC-twitter-lg
 thumb: paperfaces-TonjaC-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long blonde hairs in front of a brick wall.
+PaperFaces portrait of [@TonjaC](http://twitter.com/TonjaC).
 
 {% include paperfaces-boilerplate.html %}

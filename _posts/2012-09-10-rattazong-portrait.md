@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @rattazong"
+title: "Nintendo is mind control"
 description: "PaperFaces portrait of @rattazong drawn with Paper by 53 on an iPad."
 image: paperfaces-rattazong-twitter-lg
 thumb: paperfaces-rattazong-twitter-150.jpg
@@ -11,8 +11,9 @@ tags:
 - illustration
 - Paper by 53
 - iPad art
+- black and white
 ---
 
-**Project Donator.** Nintendo is mind control.
+PaperFaces portrait of [@rattazong](http://twitter.com/rattazong).
 
 {% include paperfaces-boilerplate.html %}

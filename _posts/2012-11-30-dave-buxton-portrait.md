@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Dave_Buxton"
+title: "Wearing a suit"
 description: "PaperFaces portrait of @Dave_Buxton drawn with Paper by 53 on an iPad."
 image: paperfaces-dave-buxton-twitter-lg
 thumb: paperfaces-dave-buxton-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Wearing a suit.
+PaperFaces portrait of project donator [@Dave_Buxton](http://twitter.com/Dave_Buxton).
 
 {% include paperfaces-boilerplate.html %}

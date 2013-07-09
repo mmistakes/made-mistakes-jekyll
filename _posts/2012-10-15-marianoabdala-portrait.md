@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @marianoabdala"
+title: "White headphone chillaxin"
 description: "PaperFaces portrait of @marianoabdala drawn with Paper by 53 on an iPad."
 image: paperfaces-marianoabdala-twitter-lg
 thumb: paperfaces-marianoabdala-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-White headphone chillaxin.
+PaperFaces portrait of [@marianoabdala](http://twitter.com/marianoabdala).
 
 {% include paperfaces-boilerplate.html %}

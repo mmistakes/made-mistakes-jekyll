@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @cellobiafra"
+title: "Lifting up a white dress in a purple room"
 description: "PaperFaces portrait of @cellobiafra drawn with Paper by 53 on an iPad."
 image: paperfaces-cellobiafra-twitter-lg
 thumb: paperfaces-cellobiafra-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Lifting up a white dress in a purple room.
+PaperFaces portrait of [@cellobiafra](http://twitter.com/cellobiafra).
 
 {% include paperfaces-boilerplate.html %}

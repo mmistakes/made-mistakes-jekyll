@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @joaosevilhano"
+title: "Low contrast at the beach"
 description: "PaperFaces portrait of @joaosevilhano drawn with Paper by 53 on an iPad."
 image: paperfaces-joaosevilhano-twitter-lg
 thumb: paperfaces-joaosevilhano-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Low contrast at the beach.
+PaperFaces portrait of [@joaosevilhano](http://twitter.com/joaosevilhano).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @allara"
+title: "In gray on a bridge in the wilderness"
 description: "PaperFaces portrait of @allara drawn with Paper by 53 on an iPad."
 image: paperfaces-allara-twitter-lg
 thumb: paperfaces-allara-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In gray on a bridge in the wilderness.
+PaperFaces portrait of [@allara](http://twitter.com/allara).
 
 {% include paperfaces-boilerplate.html %}

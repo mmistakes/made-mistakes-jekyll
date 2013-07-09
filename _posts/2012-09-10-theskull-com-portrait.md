@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of theskull-com"
+title: "Dark hat and flannet coat"
 description: "PaperFaces portrait of theskull-com drawn with Paper by 53 on an iPad."
 image: paperfaces-theskull-com-tumblr-lg
 thumb: paperfaces-theskull-com-tumblr-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dark hat and flannel coat.
+PaperFaces portrait of theskull-com.
 
 {% include paperfaces-boilerplate.html %}
