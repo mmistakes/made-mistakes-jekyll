@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @davglass"
+title: "Work shirting it"
 description: "PaperFaces portrait of @davglass drawn with Paper by 53 on an iPad."
 image: paperfaces-davglass-twitter-lg
 thumb: paperfaces-davglass-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Work shirting it.
+PaperFaces portrait of [@davglass](http://twitter.com/davglass).
 
 {% include paperfaces-boilerplate-2.html %}

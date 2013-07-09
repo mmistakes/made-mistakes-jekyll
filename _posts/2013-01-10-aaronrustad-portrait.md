@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @aaronrustad"
+title: "Glasses in front of green water"
 description: "PaperFaces portrait of @aaronrustad drawn with Paper by 53 on an iPad."
 image: paperfaces-aaronrustad-twitter-lg
 thumb: paperfaces-aaronrustad-twitter-150.jpg
@@ -13,7 +13,7 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Glasses in front of green water.
+PaperFaces portrait of project donator [@aaronrustad](http://twitter.com/aaronrustad).
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/zrpoGw7A_hY" frameborder="0"> </iframe>
 

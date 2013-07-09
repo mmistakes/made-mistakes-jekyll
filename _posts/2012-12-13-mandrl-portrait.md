@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @mandrl"
+title: "3/4 view in rust tones"
 description: "PaperFaces portrait of @mandrl drawn with Paper by 53 on an iPad."
 image: paperfaces-mandrl-twitter-lg
 thumb: paperfaces-mandrl-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** 3/4 view in rust tones.
+PaperFaces portrait of project donator [@mandrl](http://twitter.com/mandrl).
 
 {% include paperfaces-boilerplate.html %}

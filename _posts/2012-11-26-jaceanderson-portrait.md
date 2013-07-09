@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jaceanderson"
+title: "Brick wall beards"
 description: "PaperFaces portrait of @jaceanderson drawn with Paper by 53 on an iPad."
 image: paperfaces-jaceanderson-twitter-lg
 thumb: paperfaces-jaceanderson-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Brick wall beards.
+PaperFaces portrait of [@jaceanderson](http://twitter.com/jaceanderson).
 
 {% include paperfaces-boilerplate.html %}

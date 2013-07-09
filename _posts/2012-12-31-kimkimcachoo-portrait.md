@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @kimkimcachoo"
+title: "Long hair leaning forward"
 description: "PaperFaces portrait of @kimkimcachoo drawn with Paper by 53 on an iPad."
 image: paperfaces-kimkimcachoo-twitter-lg
 thumb: paperfaces-kimkimcachoo-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair leaning forward.
+PaperFaces portrait of [@kimkimcachoo](http://twitter.com/kimkimcachoo).
 
 {% include paperfaces-boilerplate.html %}

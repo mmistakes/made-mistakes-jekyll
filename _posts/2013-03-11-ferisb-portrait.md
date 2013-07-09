@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @FerisB"
+title: "Red and purple illuminated side"
 description: "PaperFaces portrait of @FerisB drawn with Paper by 53 on an iPad."
 image: paperfaces-ferisb-twitter-lg
 thumb: paperfaces-ferisb-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Red and purple illuminated side profile.
+PaperFaces portrait of [@FerisB](http://twitter.com/FerisB).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @pauladamdavis"
+title: "Mail Chimp shirt at the bowling alley"
 description: "PaperFaces portrait of @pauladamdavis drawn with Paper by 53 on an iPad."
 image: paperfaces-pauladamdavis-twitter-lg
 thumb: paperfaces-pauladamdavis-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Mail Chimp shirt at the bowling alley.
+PaperFaces portrait of [@pauladamdavis](http://twitter.com/pauladamdavis).
 
 {% include paperfaces-boilerplate.html %}

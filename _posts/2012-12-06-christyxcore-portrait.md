@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @christyxcore"
+title: "Dr. Who Superfan"
 description: "PaperFaces portrait of @christyxcore drawn with Paper by 53 on an iPad."
 image: paperfaces-christyxcore-twitter-lg
 thumb: paperfaces-christyxcore-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dr. Who superfan.
+PaperFaces portrait of [@christyxcore](http://twitter.com/christyxcore).
 
 {% include paperfaces-boilerplate.html %}

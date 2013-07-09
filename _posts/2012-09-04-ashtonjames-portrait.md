@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ashtonjames"
+title: "Sketchy strokes, short dark haired fella"
 description: "PaperFaces portrait of @ashtonjames drawn with Paper by 53 on an iPad."
 image: paperfaces-ashtonjames-twitter-lg
 thumb: paperfaces-ashtonjames-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sketchy strokes, short dark haired fella.
+PaperFaces portrait of [@ashtonjames](http://twitter.com/ashtonjames).
 
 {% include paperfaces-boilerplate.html %}

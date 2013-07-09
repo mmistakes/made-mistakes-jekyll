@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ChelseaWears"
+title: "Standing in front of vines and branches"
 description: "PaperFaces portrait of @ChelseaWears drawn with Paper by 53 on an iPad."
 image: paperfaces-chelseawears-twitter-lg
 thumb: paperfaces-chelseawears-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Standing in front of vines and branches.
+PaperFaces portrait of [@ChelseaWears](http://twitter.com/ChelseaWears).
 
 {% include paperfaces-boilerplate.html %}

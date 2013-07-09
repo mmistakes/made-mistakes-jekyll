@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @zinfiend"
+title: "Wine and cheese"
 description: "PaperFaces portrait of @zinfiend drawn with Paper by 53 on an iPad."
 image: paperfaces-zinfiend-twitter-lg
 thumb: paperfaces-zinfiend-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Wine and cheese.
+PaperFaces portrait of [@zinfiend](http://twitter.com/zinfiend).
 
 {% include paperfaces-boilerplate.html %}

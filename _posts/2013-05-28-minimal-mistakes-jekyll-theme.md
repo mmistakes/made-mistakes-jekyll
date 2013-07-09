@@ -4,7 +4,7 @@ title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 subheadline: "Built for Jekyll"
 description: "A responsive Jekyll theme featuring full width imagery and clean typography by designer Michael Rose."
-modified: 2013-06-24
+modified: 2013-07-04
 image: 
   feature: minimal-mistakes-theme-feature.jpg
   small: minimal-mistakes-theme-340x100.jpg
@@ -22,7 +22,7 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 * Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
 * Minimal embellishments. Content first --- other widget nonsense never.
 * Large feature images for blog posts and pages.
-* Simple and clean permalink structure *(ie: domain.com/category/post-title)*
+* Simple and clean permalink structure[^1].
 
 <figure>
 	<img src="{{ site.url }}/images/mm-theme-post-600.jpg" alt="Screenshot of Minimal Mistakes theme">
@@ -36,3 +36,8 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 3. Make it your own and customize, customize, customize.
 
 <a markdown="0" href="http://mmistakes.github.io/minimal-mistakes" class="btn btn-inverse">Preview the Theme</a>
+
+**Like this theme?** I just released my second theme for Jekyll, and if you ask me it's way better than *Minimal Mistakes*. I'm calling it [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme.html) and it's essentially the same code base I use on *Made Mistakes* with simplification to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
+{: .notice}
+
+[^1]: Example: *domain.com/category-name/post-title*

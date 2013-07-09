@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @h3pps"
+title: "Lips in a dull green hoodie"
 description: "PaperFaces portrait of @h3pps drawn with Paper by 53 on an iPad."
 image: paperfaces-h3pps-twitter-lg
 thumb: paperfaces-h3pps-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Lips in a dull green hooded sweatshirt.
+PaperFaces portrait of [@h3pps](http://twitter.com/h3pps).
 
 {% include paperfaces-boilerplate.html %}

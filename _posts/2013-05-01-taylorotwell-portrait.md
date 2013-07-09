@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @taylorotwell"
+title: "Speaking at a conference"
 description: "PaperFaces portrait of @taylorotwell drawn with Paper by 53 on an iPad."
 image: paperfaces-taylorotwell-twitter-lg
 thumb: paperfaces-taylorotwell-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Speaking at a conference.
+PaperFaces portrait of [@taylorotwell](http://twitter.com/taylorotwell).
 
 {% include paperfaces-boilerplate.html %}

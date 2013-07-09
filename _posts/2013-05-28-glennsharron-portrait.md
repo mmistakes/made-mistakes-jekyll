@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @glennsharron"
+title: "Purple glow"
 description: "PaperFaces portrait of @glennsharron drawn with Paper by 53 on an iPad."
 image: paperfaces-glennsharron-twitter-lg
 thumb: paperfaces-glennsharron-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Purple glow. 
+PaperFaces portrait of project donator [@glennsharron](http://twitter.com/glennsharron).
 
 {% include paperfaces-boilerplate.html %}

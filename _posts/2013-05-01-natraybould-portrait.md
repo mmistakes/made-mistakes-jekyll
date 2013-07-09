@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @NatRaybould"
+title: "Pew Pew Pew!"
 description: "PaperFaces portrait of @NatRaybould drawn with Paper by 53 on an iPad."
 image: paperfaces-natraybould-twitter-lg
 thumb: paperfaces-natraybould-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Glasses shooting lasers. Pew pew pew!
+Glasses shooting lasers. PaperFaces portrait of [@NatRaybould](http://twitter.com/NatRaybould).
 
 {% include paperfaces-boilerplate.html %}

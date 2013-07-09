@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @mr_craig"
+title: "In front of book shelves"
 description: "PaperFaces portrait of @mr_craig drawn with Paper by 53 on an iPad."
 image: paperfaces-mr-craig-twitter-lg
 thumb: paperfaces-mr-craig-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In front of book shelves.
+PaperFaces portrait of [@mr_craig](http://twitter.com/mr_craig).
 
 {% include paperfaces-boilerplate.html %}

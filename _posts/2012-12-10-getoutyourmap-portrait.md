@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @getoutyourmap"
+title: "Wearing a green knit hat"
 description: "PaperFaces portrait of @getoutyourmap drawn with Paper by 53 on an iPad."
 image: paperfaces-getoutyourmap-twitter-lg
 thumb: paperfaces-getoutyourmap-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Wearing a green knit hat.
+PaperFaces portrait of [@getoutyourmap](http://twitter.com/getoutyourmap).
 
 {% include paperfaces-boilerplate.html %}

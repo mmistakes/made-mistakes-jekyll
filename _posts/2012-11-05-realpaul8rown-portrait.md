@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @RealPaul8rown"
+title: "Wearing an orange afro"
 description: "PaperFaces portrait of @RealPaul8rown drawn with Paper by 53 on an iPad."
 image: paperfaces-realpaul8rown-twitter-lg
 thumb: paperfaces-realpaul8rown-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Wearing an orange afro.
+PaperFaces portrait of [@RealPaul8rown](http://twitter.com/RealPaul8rown).
 
 {% include paperfaces-boilerplate.html %}

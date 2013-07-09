@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @slace"
+title: "In a hat"
 description: "PaperFaces portrait of @slace drawn with Paper by 53 on an iPad."
 image: paperfaces-slace-twitter-lg
 thumb: paperfaces-slace-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In a hat.
+PaperFaces portrait of [@slace](http://twitter.com/slace).
 
 {% include paperfaces-boilerplate.html %}

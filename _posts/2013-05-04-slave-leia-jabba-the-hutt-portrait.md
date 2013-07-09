@@ -6,8 +6,6 @@ image: paperfaces-slave-leia-jabba-the-hutt-lg
 thumb: paperfaces-slave-leia-jabba-the-hutt-150.jpg
 category: paperfaces
 tags: 
-- Slave Leia
-- Jabba the Hutt
 - Star Wars
 - PaperFaces
 - portrait

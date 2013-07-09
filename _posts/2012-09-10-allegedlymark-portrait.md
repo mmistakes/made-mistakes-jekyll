@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @allegedlymark"
+title: "Cropped face"
 description: "PaperFaces portrait of @allegedlymark drawn with Paper by 53 on an iPad."
 image: paperfaces-allegedlymark-twitter-lg
 thumb: paperfaces-allegedlymark-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Cropped face.
+PaperFaces portrait of [@allegedlymark](http://twitter.com/allegedlymark).
 
 {% include paperfaces-boilerplate.html %}

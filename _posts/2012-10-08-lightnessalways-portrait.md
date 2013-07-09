@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @lightnessalways"
+title: "Vamped out in costume"
 description: "PaperFaces portrait of @lightnessalways drawn with Paper by 53 on an iPad."
 image: paperfaces-lightnessalways-twitter-lg
 thumb: paperfaces-lightnessalways-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Vamped out in costume.
+PaperFaces portrait of [@lightnessalways](http://twitter.com/lightnessalways).
 
 {% include paperfaces-boilerplate.html %}

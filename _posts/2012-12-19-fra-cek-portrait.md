@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @fra_cek"
+title: "Plaid in glasses"
 description: "PaperFaces portrait of @fra_cek drawn with Paper by 53 on an iPad."
 image: paperfaces-fra-cek-twitter-lg
 thumb: paperfaces-fra-cek-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Plaid in glasses.
+PaperFaces portrait of project donator [@fra_cek](http://twitter.com/fra_cek).
 
 {% include paperfaces-boilerplate.html %}

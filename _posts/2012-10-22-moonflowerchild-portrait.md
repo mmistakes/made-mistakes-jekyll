@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @moonflowerchild"
+title: "Sunglasses and bangs"
 description: "PaperFaces portrait of @moonflowerchild drawn with Paper by 53 on an iPad."
 image: paperfaces-moonflowerchild-twitter-lg
 thumb: paperfaces-moonflowerchild-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sunglasses and bangs.
+PaperFaces portrait of [@moonflowerchild](http://twitter.com/moonflowerchild).
 
 {% include paperfaces-boilerplate.html %}

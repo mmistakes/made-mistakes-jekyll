@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @padulantonio"
+title: "Dramatic looking gray bricks"
 description: "PaperFaces portrait of @padulantonio drawn with Paper by 53 on an iPad."
 image: paperfaces-padulantonio-twitter-lg
 thumb: paperfaces-padulantonio-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-V-neck sweater near some dramatic looking gray bricks.
+PaperFaces portrait of [@padulantonio](http://twitter.com/padulantonio).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @tr4y"
+title: "S basecball cap in black and white"
 description: "PaperFaces portrait of @tr4y drawn with Paper by 53 on an iPad."
 image: paperfaces-tr4y-twitter-lg
 thumb: paperfaces-tr4y-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-S baseball cap in black and white.
+PaperFaces portrait of [@tr4y](http://twitter.com/tr4y).
 
 {% include paperfaces-boilerplate.html %}

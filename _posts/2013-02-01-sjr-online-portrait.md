@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @SJR_online"
+title: "Black and white 3/4 view"
 description: "PaperFaces portrait of @SJR_online drawn with Paper by 53 on an iPad."
 image: paperfaces-sjr-online-twitter-lg
 thumb: paperfaces-sjr-online-twitter-150.jpg
@@ -11,8 +11,9 @@ tags:
 - illustration
 - Paper by 53
 - iPad art
+- black and white
 ---
 
-Black and white 3/4 view.
+PaperFaces portrait of [@SJR_online](http://twitter.com/SJR_online).
 
 {% include paperfaces-boilerplate.html %}

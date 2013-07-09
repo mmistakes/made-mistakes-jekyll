@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jupiter909"
+title: "Playing strings in the forest"
 description: "PaperFaces portrait of @jupiter909 drawn with Paper by 53 on an iPad."
 image: paperfaces-jupiter909-twitter-lg
 thumb: paperfaces-jupiter909-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Playing strings in the forest.
+PaperFaces portrait of project donator [@jupiter909](http://twitter.com/jupiter909).
 
 {% include paperfaces-boilerplate.html %}

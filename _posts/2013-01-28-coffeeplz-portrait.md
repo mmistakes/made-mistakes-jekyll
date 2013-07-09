@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Coffeeplz"
+title: "3/4 pose"
 description: "PaperFaces portrait of @Coffeeplz drawn with Paper by 53 on an iPad."
 image: paperfaces-coffeeplz-twitter-lg
 thumb: paperfaces-coffeeplz-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-3/4 pose.
+PaperFaces portrait of [@Coffeeplz](http://twitter.com/Coffeeplz).
 
 {% include paperfaces-boilerplate.html %}

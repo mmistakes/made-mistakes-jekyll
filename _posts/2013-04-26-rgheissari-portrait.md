@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @rgheissari"
+title: "Dark hair in gray"
 description: "PaperFaces portrait of @rgheissari drawn with Paper by 53 on an iPad."
 image: paperfaces-rgheissari-twitter-lg
 thumb: paperfaces-rgheissari-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dark hair in gray.
+PaperFaces portrait of [@rgheissari](http://twitter.com/rgheissari).
 
 {% include paperfaces-boilerplate.html %}

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @tasselflower"
+title: "3/4 view in grayscale"
 description: "PaperFaces portrait of @tasselflower drawn with Paper by 53 on an iPad."
 image: paperfaces-tasselflower-twitter-lg
 thumb: paperfaces-tasselflower-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-3/4 view in grayscale.
+PaperFaces portrait of [@tasselflower](http://twitter.com/tasselflower).
 
 {% include paperfaces-boilerplate.html %}

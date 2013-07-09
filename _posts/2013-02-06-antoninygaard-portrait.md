@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @antoninygaard"
+title: "In front of an ornate frame and candle holder"
 description: "PaperFaces portrait of @antoninygaard drawn with Paper by 53 on an iPad."
 image: paperfaces-antoninygaard-twitter-lg
 thumb: paperfaces-antoninygaard-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sitting in front of an ornate frame and candle holder.
+PaperFaces portrait of [@antoninygaard](http://twitter.com/antoninygaard).
 
 {% include paperfaces-boilerplate.html %}

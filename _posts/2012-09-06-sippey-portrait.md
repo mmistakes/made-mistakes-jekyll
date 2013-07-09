@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @sippey"
+title: "Purple shirted sir"
 description: "PaperFaces portrait of @sippey drawn with Paper by 53 on an iPad."
 image: paperfaces-sippey-twitter-lg
 thumb: paperfaces-sippey-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Purple shirted sir.
+PaperFaces portrait of [@sippey](http://twitter.com/sippey).
 
 {% include paperfaces-boilerplate.html %}

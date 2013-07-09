@@ -1,13 +1,13 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @caziebaby"
+title: "Hey, my eyes are up here!"
 description: "PaperFaces portrait of @caziebaby drawn with Paper by 53 on an iPad."
 image: paperfaces-caziebaby-twitter-lg
 thumb: paperfaces-caziebaby-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, boobs, rose, tattoo]
+tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, tattoo]
 ---
 
-Hey, my eyes are up here!
+PaperFaces portrait of [@caziebaby](http://twitter.com/caziebaby).
 
 {% include paperfaces-boilerplate-2.html %}

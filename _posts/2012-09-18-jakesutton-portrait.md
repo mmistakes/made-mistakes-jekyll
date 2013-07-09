@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jakesutton"
+title: "White car and sunglasses"
 description: "PaperFaces portrait of @jakesutton drawn with Paper by 53 on an iPad."
 image: paperfaces-jakesutton-twitter-lg
 thumb: paperfaces-jakesutton-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-White car and sunglasses.
+PaperFaces portrait of [@jakesutton](http://twitter.com/jakesutton).
 
 {% include paperfaces-boilerplate.html %}

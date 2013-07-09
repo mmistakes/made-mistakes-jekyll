@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Fitt_Kimberley"
+title: "Lady in red"
 description: "PaperFaces portrait of @Fitt_Kimberley drawn with Paper by 53 on an iPad."
 image: paperfaces-fitt-kimberley-twitter-lg
 thumb: paperfaces-fitt-kimberley-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Lady in red.
+PaperFaces portrait of [@Fitt_Kimberley](http://twitter.com/Fitt_Kimberley).
 
 {% include paperfaces-boilerplate.html %}

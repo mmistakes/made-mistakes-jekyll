@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @superlucyj"
+title: "Blonde hair in red"
 description: "PaperFaces portrait of @superlucyj drawn with Paper by 53 on an iPad."
 image: paperfaces-superlucyj-twitter-lg
 thumb: paperfaces-superlucyj-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blonde hair in red.
+PaperFaces portrait of [@superlucyj](http://twitter.com/superlucyj).
 
 {% include paperfaces-boilerplate.html %}

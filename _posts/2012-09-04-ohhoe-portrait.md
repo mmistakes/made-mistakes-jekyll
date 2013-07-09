@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ohhoe"
+title: "Long hair and forearm tattoos"
 description: "PaperFaces portrait of @ohhoe drawn with Paper by 53 on an iPad."
 image: paperfaces-ohhoe-twitter-lg
 thumb: paperfaces-ohhoe-twitter-150.jpg
@@ -11,8 +11,9 @@ tags:
 - illustration
 - Paper by 53
 - iPad art
+- tattoo
 ---
 
-Long hair and forearm tattoos.
+PaperFaces portrait of [@ohhoe](http://twitter.com/ohhoe).
 
 {% include paperfaces-boilerplate.html %}

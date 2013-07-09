@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @bobbydharrell"
+title: "Hats in a car"
 description: "PaperFaces portrait of @bobbydharrell drawn with Paper by 53 on an iPad."
 image: paperfaces-bobbydharrell-twitter-lg
 thumb: paperfaces-bobbydharrell-twitter-150.jpg
@@ -8,7 +8,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-**Project Donator.** Hats in a car.
+PaperFaces portrait of project donator [@bobbydharrell](http://twitter.com/bobbydharrell).
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-bobbydharrell-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bobbydharrell-process-1-600.jpg" alt="In process screenshot"></a>

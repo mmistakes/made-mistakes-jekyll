@@ -6,7 +6,6 @@ image: paperfaces-darth-vader-lg
 thumb: paperfaces-darth-vader-150.jpg
 category: paperfaces
 tags: 
-- Darth Vader
 - Star Wars
 - PaperFaces
 - portrait

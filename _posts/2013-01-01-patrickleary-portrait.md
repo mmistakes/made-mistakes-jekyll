@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @PatrickLeary"
+title: "Standing in a field of sunflowers"
 description: "PaperFaces portrait of @PatrickLeary drawn with Paper by 53 on an iPad."
 image: paperfaces-patrickleary-twitter-lg
 thumb: paperfaces-patrickleary-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sunglasses standing in a field of sunflowers.
+PaperFaces portrait of [@PatrickLeary](http://twitter.com/PatrickLeary).
 
 {% include paperfaces-boilerplate.html %}

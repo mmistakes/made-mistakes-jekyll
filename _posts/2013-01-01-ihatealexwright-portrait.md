@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @ihatealexwright"
+title: "Furry hat snuggling a Siamese cat"
 description: "PaperFaces portrait of @ihatealexwright drawn with Paper by 53 on an iPad."
 image: paperfaces-ihatealexwright-twitter-lg
 thumb: paperfaces-ihatealexwright-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In a furry hat snuggling a siamese cat.
+PaperFaces portrait of [@ihatealexwright](http://twitter.com/ihatealexwright).
 
 {% include paperfaces-boilerplate.html %}

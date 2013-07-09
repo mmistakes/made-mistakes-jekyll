@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @chris_Obyrne"
+title: "Wearing an orange safety cone can be fun"
 description: "PaperFaces portrait of @chris_Obyrne drawn with Paper by 53 on an iPad."
 image: paperfaces-chris-obyrne-twitter-lg
 thumb: paperfaces-chris-obyrne-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Wearing an orange safety cone can be fun.
+PaperFaces portrait of [@chris_Obyrne](http://twitter.com/chris_Obyrne).
 
 {% include paperfaces-boilerplate.html %}

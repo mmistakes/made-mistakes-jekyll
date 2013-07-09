@@ -11,10 +11,8 @@ tags:
 - illustration
 - Paper by 53
 - iPad art
-- veganwendy
 - twins
 - baby
-- Mothers Day
 ---
 
 [For her](http://2littlerosebuds.com) first Mother's Day as a new mom, a drawing of my wife and twin girls. Babies without faces kind of look extra creepy huh?

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @tinyrach"
+title: "Rosey cheeks against an illustrative background"
 description: "PaperFaces portrait of @tinyrach drawn with Paper by 53 on an iPad."
 image: paperfaces-tinyrach-twitter-lg
 thumb: paperfaces-tinyrach-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Rosey cheeks against an illustrative background.
+PaperFaces portrait of [@tinyrach](http://twitter.com/tinyrach).
 
 {% include paperfaces-boilerplate.html %}

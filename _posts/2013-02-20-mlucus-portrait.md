@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @mlucus"
+title: "Blonde up against a dark red background"
 description: "PaperFaces portrait of @mlucus drawn with Paper by 53 on an iPad."
 image: paperfaces-mlucus-twitter-lg
 thumb: paperfaces-mlucus-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blonde up against a dark red background.
+PaperFaces portrait of [@mlucus](http://twitter.com/mlucus).
 
 {% include paperfaces-boilerplate.html %}

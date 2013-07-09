@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @macjaeger"
+title: "Orange tones"
 description: "PaperFaces portrait of @macjaeger drawn with Paper by 53 on an iPad."
 image: paperfaces-macjaeger-twitter-lg
 thumb: paperfaces-macjaeger-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Orange tones.
+PaperFaces portrait of [@macjaeger](http://twitter.com/macjaeger).
 
 {% include paperfaces-boilerplate.html %}

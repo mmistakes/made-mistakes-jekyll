@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @kealey"
+title: "That's a really large atmark"
 description: "PaperFaces portrait of @kealey drawn with Paper by 53 on an iPad."
 image: paperfaces-kealey-twitter-lg
 thumb: paperfaces-kealey-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-That's a really large atmark.
+PaperFaces portrait of [@kealey](http://twitter.com/kealey).
 
 {% include paperfaces-boilerplate.html %}

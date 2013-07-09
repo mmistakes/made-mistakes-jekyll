@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @theBrady and @khollybell"
+title: "Batman and his girl"
 description: "PaperFaces portrait of @theBrady and @khollybell drawn with Paper by 53 on an iPad."
 image: paperfaces-thebrady-khollybell-twitter-lg
 thumb: paperfaces-thebrady-khollybell-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Batman and his girl.
+PaperFaces portrait of project donator [@theBrady](http://twitter.com/theBrady) and [@khollybell](http://twitter.com/khollybell).
 
 {% include paperfaces-boilerplate.html %}

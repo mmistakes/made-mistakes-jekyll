@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @AgentKyle"
+title: "Scuba mask underwater"
 description: "PaperFaces portrait of @AgentKyle drawn with Paper by 53 on an iPad."
 image: paperfaces-agentkyle-twitter-lg
 thumb: paperfaces-agentkyle-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Scuba mask underwater.
+PaperFaces portrait of [@AgentKyle](http://twitter.com/AgentKyle).
 
 {% include paperfaces-boilerplate.html %}

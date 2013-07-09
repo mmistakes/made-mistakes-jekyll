@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of Michael Rose"
+title: "PaperFaces self portrait of Michael Rose"
 description: "PaperFaces portrait of Michael Rose drawn with Paper by 53 on an iPad."
 image: paperfaces-michael-rose-beard-lg
 thumb: paperfaces-michael-rose-beard-150.jpg

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @rwangsa"
+title: "Backpacking in a scarf"
 description: "PaperFaces portrait of @rwangsa drawn with Paper by 53 on an iPad."
 image: paperfaces-rwangsa-twitter-lg
 thumb: paperfaces-rwangsa-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Backpacking in a scarf.
+PaperFaces portrait of [@rwangsa](http://twitter.com/rwangsa).
 
 {% include paperfaces-boilerplate.html %}

@@ -43,11 +43,20 @@
 .all-caps {
 	text-transform: uppercase;
 }
-.pull-left {
-	float: left;
+.image-left {
+	@media @large {
+		float: left;
+	}
 }
-.pull-right {
-	float:right;
+.image-right {
+	@media @medium {
+		float: right;
+		margin-left: 2em;
+		img {
+			float: left;
+			padding-right: .5em;
+		}
+	}
 }
 .unstyled-list {
 	list-style: none;

@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @faresf"
+title: "All suited up"
 description: "PaperFaces portrait of @faresf drawn with Paper by 53 on an iPad."
 image: paperfaces-faresf-twitter-lg
 thumb: paperfaces-faresf-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-All suited up.
+PaperFaces portrait of [@faresf](http://twitter.com/faresf).
 
 {% include paperfaces-boilerplate.html %}

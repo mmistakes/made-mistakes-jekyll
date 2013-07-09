@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Mstr_Dee"
+title: "Neon green short sleeve shirt"
 description: "PaperFaces portrait of @Mstr_Dee drawn with Paper by 53 on an iPad."
 image: paperfaces-mstr-dee-twitter-lg
 thumb: paperfaces-mstr-dee-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Neon green short sleeve shirt.
+PaperFaces portrait of [@Mstr_Dee](http://twitter.com/Mstr_Dee).
 
 {% include paperfaces-boilerplate.html %}

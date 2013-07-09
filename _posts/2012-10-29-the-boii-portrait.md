@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @the_boii"
+title: "Blue collard shirt with muted backdrop"
 description: "PaperFaces portrait of @the_boii drawn with Paper by 53 on an iPad."
 image: paperfaces-the-boii-twitter-lg
 thumb: paperfaces-the-boii-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Blue collard shirt with muted backdrop.
+PaperFaces portrait of [@the_boii](http://twitter.com/the_boii).
 
 {% include paperfaces-boilerplate.html %}

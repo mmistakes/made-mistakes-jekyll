@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @GeneralA_Ron"
+title: "Tony Stark look-a-like"
 description: "PaperFaces portrait of @GeneralA_Ron-ron drawn with Paper by 53 on an iPad."
 image: paperfaces-generala-ron-twitter-lg
 thumb: paperfaces-generala-ron-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Tony Stark look a like.
+PaperFaces portrait of project donator [@GeneralA_Ron](http://twitter.com/GeneralA_Ron).
 
 {% include paperfaces-boilerplate.html %}

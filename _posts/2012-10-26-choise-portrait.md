@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @choise"
+title: "Black and white glasses hat"
 description: "PaperFaces portrait of @choise drawn with Paper by 53 on an iPad."
 image: paperfaces-choise-twitter-lg
 thumb: paperfaces-choise-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Black and white glasses and hat.
+PaperFaces portrait of [@choise](http://twitter.com/choise).
 
 {% include paperfaces-boilerplate.html %}

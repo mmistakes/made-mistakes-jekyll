@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Daigansf"
+title: "Holding a fan in sepia tones"
 description: "PaperFaces portrait of @Daigansf drawn with Paper by 53 on an iPad."
 image: paperfaces-daigansf-twitter-lg
 thumb: paperfaces-daigansf-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Holding a fan in sepia tones.
+PaperFaces portrait of [@Daigansf](http://twitter.com/Daigansf).
 
 {% include paperfaces-boilerplate.html %}

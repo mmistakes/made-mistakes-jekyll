@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @jamesslock"
+title: "Swallow neck tattoos and glasses"
 description: "PaperFaces portrait of @jamesslock drawn with Paper by 53 on an iPad."
 image: paperfaces-jamesslock-twitter-lg
 thumb: paperfaces-jamesslock-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Swallow neck tattoos and glasses.
+PaperFaces portrait of [@jamesslock](http://twitter.com/jamesslock).
 
 {% include paperfaces-boilerplate.html %}

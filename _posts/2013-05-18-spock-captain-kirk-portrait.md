@@ -12,9 +12,6 @@ tags:
 - Paper by 53
 - iPad art
 - Star Trek
-- Into Darkness
-- Spock
-- Captain Kirk
 ---
 
 Mr. Spock and Captain Kirk --- a scene from the motion picture, *Star Trek Into Darkness*.

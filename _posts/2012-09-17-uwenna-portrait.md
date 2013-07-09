@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @uwenna"
+title: "Dark hair and eye glasses"
 description: "PaperFaces portrait of @uwenna drawn with Paper by 53 on an iPad."
 image: paperfaces-uwenna-twitter-lg
 thumb: paperfaces-uwenna-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Dark hair and eye glasses.
+PaperFaces portrait of [@uwenna](http://twitter.com/uwenna).
 
 {% include paperfaces-boilerplate.html %}

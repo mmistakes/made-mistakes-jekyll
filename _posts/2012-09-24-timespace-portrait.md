@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @timespace"
+title: "Hoodies and beards, a perfect combination"
 description: "PaperFaces portrait of @timespace drawn with Paper by 53 on an iPad."
 image: paperfaces-timespace-twitter-lg
 thumb: paperfaces-timespace-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Hoodies and beards --- a perfect combination.
+PaperFaces portrait of project donator [@timespace](http://twitter.com/timespace).
 
 {% include paperfaces-boilerplate.html %}

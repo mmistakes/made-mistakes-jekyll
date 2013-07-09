@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @geekbabe"
+title: "In a black top"
 description: "PaperFaces portrait of @geekbabe drawn with Paper by 53 on an iPad."
 image: paperfaces-geekbabe-twitter-lg
 thumb: paperfaces-geekbabe-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-In a black top.
+PaperFaces portrait of [@geekbabe](http://twitter.com/geekbabe).
 
 {% include paperfaces-boilerplate.html %}

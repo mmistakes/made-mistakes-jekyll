@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @matt-mullin"
+title: "Free Boosie"
 description: "PaperFaces portrait of @matt-mullin drawn with Paper by 53 on an iPad."
 image: paperfaces-matt-mullin-twitter-lg
 thumb: paperfaces-matt-mullin-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Free Boosie --- whatever that means.
+PaperFaces portrait of [@matt-mullin](http://twitter.com/matt-mullin).
 
 {% include paperfaces-boilerplate.html %}

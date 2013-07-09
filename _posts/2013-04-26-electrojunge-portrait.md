@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Elektrojunge"
+title: "Tattooed in trees"
 description: "PaperFaces portrait of @Elektrojunge drawn with Paper by 53 on an iPad."
 image: paperfaces-elektrojunge-twitter-lg
 thumb: paperfaces-elektrojunge-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Tattooed and standing in a forest.
+PaperFaces portrait of [@Elektrojunge](http://twitter.com/Elektrojunge).
 
 {% include paperfaces-boilerplate.html %}

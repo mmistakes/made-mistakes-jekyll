@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @andrewjbryk"
+title: "Three boys sitting side by side"
 description: "PaperFaces portrait of @andrewjbryk drawn with Paper by 53 on an iPad."
 image: paperfaces-andrewjbryk-twitter-lg
 thumb: paperfaces-andrewjbryk-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-**Project Donator.** Three boys sitting next to each other.
+PaperFaces portrait for project donator [@andrewjbryk](http://twitter.com/andrewjbryk).
 
 {% include paperfaces-boilerplate.html %}

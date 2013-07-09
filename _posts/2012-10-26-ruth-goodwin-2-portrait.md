@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Ruth_Goodwin"
+title: "Sunglass chillin friends"
 description: "PaperFaces portrait of @Ruth_Goodwin drawn with Paper by 53 on an iPad."
 image: paperfaces-ruth-goodwin-2-twitter-lg
 thumb: paperfaces-ruth-goodwin-2-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Sunglass chillin friends.
+PaperFaces portrait of project donator [@Ruth_Goodwin](http://twitter.com/Ruth_Goodwin).
 
 {% include paperfaces-boilerplate.html %}

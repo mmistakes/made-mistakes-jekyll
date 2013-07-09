@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @joshuaskaroff"
+title: "Stretched ears and brick walls"
 description: "PaperFaces portrait of @joshuaskaroff drawn with Paper by 53 on an iPad."
 image: paperfaces-joshuaskaroff-twitter-lg
 thumb: paperfaces-joshuaskaroff-twitter-150.jpg
@@ -13,7 +13,7 @@ tags:
 - iPad art
 ---
 
-Stretched ears and brick walls.
+PaperFaces portrait of [@joshuaskaroff](http://twitter.com/joshuaskaroff).
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/NEOjUwRFtbQ" frameborder="0"> </iframe>
 

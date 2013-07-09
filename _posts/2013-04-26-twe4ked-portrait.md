@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @twe4ked"
+title: "Faux pipe smoking in a sweet hat"
 description: "PaperFaces portrait of @twe4ked drawn with Paper by 53 on an iPad."
 image: paperfaces-twe4ked-twitter-lg
 thumb: paperfaces-twe4ked-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Faux pipe smoking in a sweet hat.
+PaperFaces portrait of [@twe4ked](http://twitter.com/twe4ked).
 
 {% include paperfaces-boilerplate.html %}

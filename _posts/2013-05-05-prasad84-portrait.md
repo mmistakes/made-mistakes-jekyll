@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @prasad84"
+title: "Mute colored wall"
 description: "PaperFaces portrait of @prasad84 drawn with Paper by 53 on an iPad."
 image: paperfaces-prasad84-twitter-lg
 thumb: paperfaces-prasad84-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Mute colored wall.
+PaperFaces portrait of [@prasad84](http://twitter.com/prasad84).
 
 {% include paperfaces-boilerplate.html %}

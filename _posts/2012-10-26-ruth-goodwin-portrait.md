@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @Ruth_Goodwin"
+title: "Long hair spathetti straps"
 description: "PaperFaces portrait of @Ruth_Goodwin drawn with Paper by 53 on an iPad."
 image: paperfaces-ruth-goodwin-twitter-lg
 thumb: paperfaces-ruth-goodwin-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Long hair spaghetti straps.
+PaperFaces portrait of project donator [@Ruth_Goodwin](http://twitter.com/Ruth_Goodwin).
 
 {% include paperfaces-boilerplate.html %}

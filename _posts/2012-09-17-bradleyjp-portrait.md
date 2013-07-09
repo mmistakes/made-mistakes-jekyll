@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "PaperFaces portrait of @bradleyjp"
+title: "Beard and black v-neck shirt"
 description: "PaperFaces portrait of @bradleyjp drawn with Paper by 53 on an iPad."
 image: paperfaces-bradleyjp-twitter-lg
 thumb: paperfaces-bradleyjp-twitter-150.jpg
@@ -13,6 +13,6 @@ tags:
 - iPad art
 ---
 
-Beard and black v-neck shirt.
+PaperFaces portrait of [@bradleyjp](http://twitter.com/bradleyjp).
 
 {% include paperfaces-boilerplate.html %}
