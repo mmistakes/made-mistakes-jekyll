@@ -3,12 +3,15 @@ layout: page
 title: About
 headline: What's a Made Mistakes?
 subheadline: Behind the Name and Designer
-modified: 2013-06-12
+modified: 2013-07-11
 description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
 image: 
   feature: paperfaces-michael-rose-beard-xl.jpg
 tags: [Michael Rose, graphic design, design, designer, Buffalo, print, catalog design, web design, made mistakes, mmistakes, feature]
 ---
+
+<link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/form.css css/form.css %}">
+<script src="{{ site.url }}/{% ministamp _assets/js/vendor/wufoo.js js/vendor/wufoo.js %}"></script>
 
 So why the title *made mistakes*? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
@@ -22,17 +25,51 @@ Oh hey --- I'm Michael Rose, just another bearded, tattooed, time traveling, des
 
 Oh, and I'm a recent father of twin girls and will someday help redesign [my wife's blog](http://2littlerosebuds.com "2 Little Rosebuds")...
 
-### Contact Me
+## Contact Me
 
-#### Send a short message below or [@reply me on Twitter](http://twitter.com/mmistakes).
-{:.no_toc}
+Send a short message below or [@reply me on Twitter](http://twitter.com/mmistakes).
 
-<div class="contact-form">
-	<form id="contact" name="contact" action="#" method="post">
-	    <label for="email">Your E-mail:</label>
-	    <input type="email" id="email" name="email" class="txt">
-	    <label for="msg">Your Message:</label>
-	    <textarea id="msg" name="msg" class="txtarea"></textarea>
-	    <button id="send" class="btn btn-inverse" style="margin-top:1em;margin-bottom:0">Send Message</button>
-	</form>
-</div>
+<form id="form1" name="form1" class="wufoo  page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+action="https://mademistakes.wufoo.com/forms/z7x4m1/#public">
+    <ul>
+      <li id="foli1" 
+class="notranslate      ">
+        <label class="desc" id="title1" for="Field1"> Message <span id="req_1" class="req">*</span> </label>
+        <div>
+          <textarea id="Field1" 
+name="Field1" 
+class="field textarea medium" 
+spellcheck="true" 
+rows="10" cols="50" 
+tabindex="1" 
+onkeyup=""
+required  ></textarea>
+        </div>
+      </li>
+      <li id="foli7" class="notranslate      ">
+        <label class="desc" id="title7" for="Field7"> Name </label>
+        <div>
+          <input id="Field7" name="Field7" type="text" class="field text medium" value="" maxlength="255" tabindex="2" onkeyup="" />
+        </div>
+      </li>
+      <li id="foli2" class="notranslate      ">
+        <label class="desc" id="title2" for="Field2"> Email Address <span id="req_2" class="req">*</span> </label>
+        <div>
+          <input id="Field2" name="Field2" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="3" required />
+        </div>
+        <p class="instruct" id="instruct2"><small>Your email address will remain private and won't be shared with anyone.</small></p>
+      </li>
+      <li class="buttons ">
+        <div>
+          <input id="saveForm" name="saveForm" class="btTxt submit btn btn-inverse" 
+    type="submit" value="Send Message"
+ />
+        </div>
+      </li>
+      <li class="hidden">
+        <label for="comment">Do Not Fill This Out</label>
+        <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+        <input type="hidden" id="idstamp" name="idstamp" value="DXSyHZyBYpNZI+88LvVOKO8dSfd/5lyIeCQAXFVxeJY=" />
+      </li>
+    </ul>
+  </form>
