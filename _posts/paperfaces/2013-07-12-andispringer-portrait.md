@@ -1,6 +1,6 @@
 ---
 layout: paperfaces
-title: "Curly hair on the grass"
+title: "Dramatic contrast and a hint of smile"
 description: "PaperFaces portrait of @andispringer drawn with Paper by 53 on an iPad."
 image: paperfaces-andispringer-twitter-lg
 thumb: paperfaces-andispringer-twitter-150.jpg
