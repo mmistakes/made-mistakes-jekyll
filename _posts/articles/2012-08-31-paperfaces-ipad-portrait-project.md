@@ -43,8 +43,9 @@ Reference images should be high resolution to help accurately capture detail and
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="K3FZ3DHU22URC">
     <select name="os0">
-      <option value="Portrait (one face)">Portrait (one face) $5.00 USD</option>
-      <option value="Portrait (one face) + making of video">Portrait (one face) + making of video $15.00 USD</option>
+      <option value="Portrait (one face)">Portrait (one face) $7.50 USD</option>
+      <option value="Portrait (one face) + making of video">Portrait (one face) + making of video $10.00 USD</option>
+      <option value="Portrait (multiple faces)">Portrait (multiple faces) $15.00 USD</option>
       <option value="Portrait (multiple faces) + making of video">Portrait (multiple faces) + making of video $30.00 USD</option>
     </select>
     <input type="hidden" name="on1" value="Twitter username">
