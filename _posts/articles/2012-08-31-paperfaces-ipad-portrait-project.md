@@ -2,7 +2,7 @@
 layout: post
 title: "iPad Portraits with Paper by 53"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-06-17
+modified: 2013-07-12
 image: 
   feature: paperfaces-project-feature.jpg
   small: paperfaces-project-340x100.jpg
@@ -34,30 +34,25 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 
 ### Draw Me! Draw Me! 
 
-You can do any (or all) of the following to request a PaperFaces portrait from moi. (Please keep in mind, this project is called "PaperFaces" for a reason. So think real hard before requesting a drawing if your avatar doesn't include your face or is a cartoon character. Sure, I've drawn logos, cats, and a caricature of The Mona Lisa, but I'm really trying to limit the scope to just people.)
+Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar fill out the PayPal form below. If you don't want me to use an avatar as reference leave a note in the special instructions field during checkout. Just let me know you're going to email me an image and send it to [michael@mademistakes.com](mailto:michael@mademistakes.com) or [tweet me the URL](http://twitter.com/mmistakes). 
 
-* [Retweet this message](http://twitter.com/mmistakes/status/240601384477659136).
-* Donate between $5--50 via PayPal to the Project.
-* Follow me and mention that you retweeted me.
-* Kill me with kindness and ask nicely.
-
-Donating guarantees that I'll draw your portrait, and moves you up to the top of the list. Depending on the amount of generous souls throwing cash my way, you could get your drawing as early as the next day. If you're going the retweet-only route, I'd caution against an old style RT or quoting it --- I get the funny feeling Favstar.fm doesn't track all of those. When in doubt, follow me and let me know about your interest in a portrait. I'm more likely to notice then...
+Reference images should be high resolution to help accurately capture detail and likeness. Depending on the subject I sometimes draw the entire face (but usually don't), so keep that in mind before requesting a portrait.
 
 <div class="well">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom:0;">
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="XAVAR6MGZGVLY">
-    <select name="os0" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'donation options']);">
-      <option value="a. Donate">a. Donate $5.00 USD</option>
-      <option value="b. Donate">b. Donate $15.00 USD</option>
-      <option value="c. Donate">c. Donate $30.00 USD</option>
-      <option value="d. Donate">d. Donate $50.00 USD</option>
+    <input type="hidden" name="hosted_button_id" value="K3FZ3DHU22URC">
+    <select name="os0">
+      <option value="Portrait (one face)">Portrait (one face) $5.00 USD</option>
+      <option value="Portrait (one face) + making of video">Portrait (one face) + making of video $15.00 USD</option>
+      <option value="Portrait (multiple faces) + making of video">Portrait (multiple faces) + making of video $30.00 USD</option>
     </select>
     <input type="hidden" name="on1" value="Twitter username">
-    <label>Twitter username you want me to draw</label>
-    <input type="text" name="os1" maxlength="75" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'Twitter username']);">
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="image" src="{{ site.url }}/images/donate-paypal-btn.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="background:transparent;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
+    <label style="margin:10px 0;">Twitter username</label>
+    <input type="text" name="os1" maxlength="200">
+    </table>
+    <input type="hidden" name="currency_code" value="USD" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'Twitter username']);">
+    <input type="submit" value="Pay Now" class="btn btn-inverse" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     <p class="help-block" style="margin-bottom:0;"><small>Please note. This is for a digital version of the drawing only. You will <strong>not</strong> receive a print snail mailed to you. Although the 2048&times;1536 .jpg sent should look nice as an 8&times;10 (or A4 for my European friends) if you decide to print it yourself&#8230;</small></p>
   </form>
