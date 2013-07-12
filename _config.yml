@@ -38,7 +38,7 @@ links:
   - title: Articles
     url: /articles
   - title: PaperFaces
-    url: /articles/paperfaces-ipad-portrait-project.html
+    url: /paperfaces
 
 maruku:
   use_tex:    false
