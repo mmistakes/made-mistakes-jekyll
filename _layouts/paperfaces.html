@@ -52,6 +52,13 @@
       </footer>
       <div class="entry-content">
         {{ content }}
+        <hr />
+        <h2>Latest Portraits<span class="pull-right"><small><a href="{{ site.url }}/paperfaces/" title="View all PaperFaces Portraits" class="btn btn-inverse">View all</a></small></span></h2>
+        <ul class="recent-grid unstyled-list">
+          {% for post in site.categories.paperfaces limit:4 %}
+            <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
+          {% endfor %}
+        </ul>
         {% if page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
