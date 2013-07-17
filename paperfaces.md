@@ -17,6 +17,9 @@ PaperFaces is an illustration project by designer Michael Rose --- hey that's me
 
 <ul class="recent-grid unstyled-list">
 {% for post in site.categories.paperfaces %}
-	<li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="" width="110" height="110" /></a></li>
+	<li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+		<img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.thumb }}" alt="" width="110" height="110">
+		<noscript><img src="{{ site.url }}/images/{{ post.thumb }}" alt="" width="110" height="110"></noscript>
+	</a></li>
 	{% endfor %}
 </ul>
