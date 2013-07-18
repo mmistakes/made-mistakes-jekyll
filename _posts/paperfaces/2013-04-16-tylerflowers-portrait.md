@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Curly hair drawn in sepia tones"
 description: "PaperFaces portrait of @tylerflowers drawn with Paper by 53 on an iPad."
-image: paperfaces-tylerflowers-twitter-lg
-thumb: paperfaces-tylerflowers-twitter-150.jpg
+image: 
+  feature: paperfaces-tylerflowers-twitter-lg.jpg
+  thumb: paperfaces-tylerflowers-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

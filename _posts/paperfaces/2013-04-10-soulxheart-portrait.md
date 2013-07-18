@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Glasses wearing a pair of headphones"
 description: "PaperFaces portrait of @soulxheart drawn with Paper by 53 on an iPad."
-image: paperfaces-soulxheart-twitter-lg
-thumb: paperfaces-soulxheart-twitter-150.jpg
+image: 
+  feature: paperfaces-soulxheart-twitter-lg.jpg
+  thumb: paperfaces-soulxheart-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

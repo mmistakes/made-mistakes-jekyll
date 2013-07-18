@@ -1,14 +1,17 @@
 ---
-layout: paperfaces
+layout: work
 title: "Flickering lights of rain"
 description: "PaperFaces portrait of @endouz drawn with Paper by 53 on an iPad."
-image: paperfaces-endouz-twitter-lg
-thumb: paperfaces-endouz-twitter-150.jpg
+image: 
+  feature: paperfaces-endouz-twitter-lg.jpg
+  thumb: paperfaces-endouz-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
 PaperFaces portrait of [@endouz](http://twitter.com/endouz). Using white to paint lights that could be rain drop refractions... or not.
+
+{% include paperfaces-boilerplate-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-endouz-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-endouz-process-1-600.jpg" alt="Background in process screenshot"></a>
@@ -33,5 +36,3 @@ PaperFaces portrait of [@endouz](http://twitter.com/endouz). Using white to pain
 	<a href="{{ site.url }}/images/paperfaces-endouz-process-8-lg.jpg"><img src="{{ site.url }}/images/paperfaces-endouz-process-8-600.jpg" alt="In process screenshot"></a>
 	<figcaption>Block in clothing with the fountain pen and marker tools and apply any shadows with gradual applications of watercolor.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

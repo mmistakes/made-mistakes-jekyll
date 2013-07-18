@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Don't I know this guy from somewhere..."
 description: "PaperFaces portrait of @Lord_Faethor drawn with Paper by 53 on an iPad."
-image: paperfaces-lord-faethor-twitter-lg
-thumb: paperfaces-lord-faethor-twitter-150.jpg
+image: 
+  feature: paperfaces-lord-faethor-twitter-lg.jpg
+  thumb: paperfaces-lord-faethor-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

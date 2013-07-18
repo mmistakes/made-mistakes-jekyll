@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Pink stripes against blue backdrops"
 description: "PaperFaces portrait of @morganmiller250 drawn with Paper by 53 on an iPad."
-image: paperfaces-morganmiller250-twitter-lg
-thumb: paperfaces-morganmiller250-twitter-150.jpg
+image: 
+  feature: paperfaces-morganmiller250-twitter-lg.jpg
+  thumb: paperfaces-morganmiller250-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

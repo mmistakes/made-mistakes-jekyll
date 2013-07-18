@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In a nice suit"
 description: "PaperFaces portrait of @pepfre drawn with Paper by 53 on an iPad."
-image: paperfaces-pepfre-twitter-lg
-thumb: paperfaces-pepfre-twitter-150.jpg
+image: 
+  feature: paperfaces-pepfre-twitter-lg.jpg
+  thumb: paperfaces-pepfre-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

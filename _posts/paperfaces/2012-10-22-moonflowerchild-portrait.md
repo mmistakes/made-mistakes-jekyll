@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Sunglasses and bangs"
 description: "PaperFaces portrait of @moonflowerchild drawn with Paper by 53 on an iPad."
-image: paperfaces-moonflowerchild-twitter-lg
-thumb: paperfaces-moonflowerchild-twitter-150.jpg
+image: 
+  feature: paperfaces-moonflowerchild-twitter-lg.jpg
+  thumb: paperfaces-moonflowerchild-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

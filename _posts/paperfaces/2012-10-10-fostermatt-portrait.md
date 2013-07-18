@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "LA cap on the beach"
 description: "PaperFaces portrait of @fostermatt drawn with Paper by 53 on an iPad."
-image: paperfaces-fostermatt-twitter-lg
-thumb: paperfaces-fostermatt-twitter-150.jpg
+image: 
+  feature: paperfaces-fostermatt-twitter-lg.jpg
+  thumb: paperfaces-fostermatt-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

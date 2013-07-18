@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Beard in golden yellow tones"
 description: "PaperFaces portrait of @vmasto drawn with Paper by 53 on an iPad."
-image: paperfaces-vmasto-twitter-lg
-thumb: paperfaces-vmasto-twitter-150.jpg
+image: 
+  feature: paperfaces-vmasto-twitter-lg.jpg
+  thumb: paperfaces-vmasto-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

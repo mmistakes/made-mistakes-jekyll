@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Listening to music, window style"
 description: "PaperFaces portrait of @ssetlik drawn with Paper by 53 on an iPad."
-image: paperfaces-ssetlik-twitter-lg
-thumb: paperfaces-ssetlik-twitter-150.jpg
+image: 
+  feature: paperfaces-ssetlik-twitter-lg.jpg
+  thumb: paperfaces-ssetlik-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Brightly colored hair"
 description: "PaperFaces portrait of @berniecakez drawn with Paper by 53 on an iPad."
-image: paperfaces-berniecakez-twitter-lg
-thumb: paperfaces-berniecakez-twitter-150.jpg
+image: 
+  feature: paperfaces-berniecakez-twitter-lg.jpg
+  thumb: paperfaces-berniecakez-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

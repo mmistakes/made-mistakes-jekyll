@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white face in shadow"
 description: "PaperFaces portrait of @gattermann drawn with Paper by 53 on an iPad."
-image: paperfaces-gattermann-twitter-lg
-thumb: paperfaces-gattermann-twitter-150.jpg
+image: 
+  feature: paperfaces-gattermann-twitter-lg.jpg
+  thumb: paperfaces-gattermann-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

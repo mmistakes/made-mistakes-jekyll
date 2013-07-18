@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Jean jacket and hood"
 description: "PaperFaces portrait of @BenjaminZAMayo drawn with Paper by 53 on an iPad."
-image: paperfaces-benjaminzamayo-twitter-lg
-thumb: paperfaces-benjaminzamayo-twitter-150.jpg
+image: 
+  feature: paperfaces-benjaminzamayo-twitter-lg.jpg
+  thumb: paperfaces-benjaminzamayo-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

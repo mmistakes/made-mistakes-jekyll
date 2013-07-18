@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "High contrast blue and yellow composition"
 description: "PaperFaces portrait of @A_Farlow44 drawn with Paper by 53 on an iPad."
-image: paperfaces-a-farlow44-twitter-lg
-thumb: paperfaces-a-farlow44-twitter-150.jpg
+image: 
+  feature: paperfaces-a-farlow44-twitter-lg.jpg
+  thumb: paperfaces-a-farlow44-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

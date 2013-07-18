@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Dark haired girl in purple"
 description: "PaperFaces portrait of @superbeffie drawn with Paper by 53 on an iPad."
-image: paperfaces-superbeffie-twitter-lg
-thumb: paperfaces-superbeffie-twitter-150.jpg
+image: 
+  feature: paperfaces-superbeffie-twitter-lg.jpg
+  thumb: paperfaces-superbeffie-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

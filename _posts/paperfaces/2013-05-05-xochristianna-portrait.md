@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Dressed up all fancy"
 description: "PaperFaces portrait of @xochristianna drawn with Paper by 53 on an iPad."
-image: paperfaces-xochristianna-twitter-lg
-thumb: paperfaces-xochristianna-twitter-150.jpg
+image: 
+  feature: paperfaces-xochristianna-twitter-lg.jpg
+  thumb: paperfaces-xochristianna-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

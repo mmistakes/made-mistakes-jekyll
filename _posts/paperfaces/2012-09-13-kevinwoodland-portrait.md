@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Dramatic plaid angle"
 description: "PaperFaces portrait of @kevinwoodland drawn with Paper by 53 on an iPad."
-image: paperfaces-kevinwoodland-twitter-lg
-thumb: paperfaces-kevinwoodland-twitter-150.jpg
+image: 
+  feature: paperfaces-kevinwoodland-twitter-lg.jpg
+  thumb: paperfaces-kevinwoodland-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

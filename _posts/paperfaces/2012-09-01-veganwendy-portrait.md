@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "PaperFaces portrait that started it all"
 description: "PaperFaces portrait of @veganwendy drawn with Paper by 53 on an iPad."
-image: paperfaces-veganwendy-twitter-lg
-thumb: paperfaces-veganwendy-twitter-150.jpg
+image: 
+  feature: paperfaces-veganwendy-twitter-lg.jpg
+  thumb: paperfaces-veganwendy-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

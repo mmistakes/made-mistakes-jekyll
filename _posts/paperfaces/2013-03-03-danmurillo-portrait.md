@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In a suit"
 description: "PaperFaces portrait of @danmurillo drawn with Paper by 53 on an iPad."
-image: paperfaces-danmurillo-twitter-lg
-thumb: paperfaces-danmurillo-twitter-150.jpg
+image: 
+  feature: paperfaces-danmurillo-twitter-lg.jpg
+  thumb: paperfaces-danmurillo-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

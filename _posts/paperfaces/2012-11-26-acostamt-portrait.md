@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Fellow iPad illustrator"
 description: "PaperFaces portrait of @acostamt drawn with Paper by 53 on an iPad."
-image: paperfaces-acostamt-twitter-lg
-thumb: paperfaces-acostamt-twitter-150.jpg
+image: 
+  feature: paperfaces-acostamt-twitter-lg.jpg
+  thumb: paperfaces-acostamt-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

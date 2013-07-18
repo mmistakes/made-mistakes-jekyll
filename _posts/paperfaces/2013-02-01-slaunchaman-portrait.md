@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Purple long sleeve dress shirt"
 description: "PaperFaces portrait of @slaunchaman drawn with Paper by 53 on an iPad."
-image: paperfaces-slaunchaman-twitter-lg
-thumb: paperfaces-slaunchaman-twitter-150.jpg
+image: 
+  feature: paperfaces-slaunchaman-twitter-lg.jpg
+  thumb: paperfaces-slaunchaman-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

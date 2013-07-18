@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "All suited up"
 description: "PaperFaces portrait of @faresf drawn with Paper by 53 on an iPad."
-image: paperfaces-faresf-twitter-lg
-thumb: paperfaces-faresf-twitter-150.jpg
+image: 
+  feature: paperfaces-faresf-twitter-lg.jpg
+  thumb: paperfaces-faresf-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

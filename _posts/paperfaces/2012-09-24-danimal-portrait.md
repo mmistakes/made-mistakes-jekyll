@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Goatee"
 description: "PaperFaces portrait of @danimal drawn with Paper by 53 on an iPad."
-image: paperfaces-danimal-twitter-lg
-thumb: paperfaces-danimal-twitter-150.jpg
+image: 
+  feature: paperfaces-danimal-twitter-lg.jpg
+  thumb: paperfaces-danimal-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

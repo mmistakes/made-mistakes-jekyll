@@ -6,9 +6,9 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
-{% if page.layout == 'paperfaces' %}
+{% if page.layout == 'work' %}
 <meta name="twitter:card" content="photo">
-{% if page.image %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}.jpg">{% endif %}
+{% if page.image.feature %}<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
 {% else %}
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image:src" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">

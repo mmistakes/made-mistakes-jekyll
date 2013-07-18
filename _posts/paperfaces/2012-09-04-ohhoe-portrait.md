@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Long hair and forearm tattoos"
 description: "PaperFaces portrait of @ohhoe drawn with Paper by 53 on an iPad."
-image: paperfaces-ohhoe-twitter-lg
-thumb: paperfaces-ohhoe-twitter-150.jpg
+image: 
+  feature: paperfaces-ohhoe-twitter-lg.jpg
+  thumb: paperfaces-ohhoe-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

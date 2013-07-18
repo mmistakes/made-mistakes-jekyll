@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In a gray hoodie"
 description: "PaperFaces portrait of @Vragal drawn with Paper by 53 on an iPad."
-image: paperfaces-vragal-twitter-lg
-thumb: paperfaces-vragal-twitter-150.jpg
+image: 
+  feature: paperfaces-vragal-twitter-lg.jpg
+  thumb: paperfaces-vragal-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

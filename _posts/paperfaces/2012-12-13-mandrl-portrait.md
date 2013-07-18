@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "3/4 view in rust tones"
 description: "PaperFaces portrait of @mandrl drawn with Paper by 53 on an iPad."
-image: paperfaces-mandrl-twitter-lg
-thumb: paperfaces-mandrl-twitter-150.jpg
+image: 
+  feature: paperfaces-mandrl-twitter-lg.jpg
+  thumb: paperfaces-mandrl-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

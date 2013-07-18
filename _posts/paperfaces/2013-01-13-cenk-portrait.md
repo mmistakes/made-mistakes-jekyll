@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white beard"
 description: "PaperFaces portrait of @Cenk drawn with Paper by 53 on an iPad."
-image: paperfaces-cenk-twitter-lg
-thumb: paperfaces-cenk-twitter-150.jpg
+image: 
+  feature: paperfaces-cenk-twitter-lg.jpg
+  thumb: paperfaces-cenk-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

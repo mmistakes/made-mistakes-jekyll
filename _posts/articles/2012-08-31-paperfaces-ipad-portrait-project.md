@@ -21,7 +21,7 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 
 <ul class="recent-grid unstyled-list">
 {% for post in site.categories.paperfaces limit:8 %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.thumb }}" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumb" /></a></li>
 {% endfor %}
 </ul>
 

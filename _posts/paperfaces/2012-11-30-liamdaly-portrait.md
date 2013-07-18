@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white, full frame"
 description: "PaperFaces portrait of @liamdaly drawn with Paper by 53 on an iPad."
-image: paperfaces-liamdaly-twitter-lg
-thumb: paperfaces-liamdaly-twitter-150.jpg
+image: 
+  feature: paperfaces-liamdaly-twitter-lg.jpg
+  thumb: paperfaces-liamdaly-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

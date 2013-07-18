@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Long curly hair in a red scarf"
 description: "PaperFaces portrait of @voidet drawn with Paper by 53 on an iPad."
-image: paperfaces-voidet-twitter-lg
-thumb: paperfaces-voidet-twitter-150.jpg
+image: 
+  feature: paperfaces-voidet-twitter-lg.jpg
+  thumb: paperfaces-voidet-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

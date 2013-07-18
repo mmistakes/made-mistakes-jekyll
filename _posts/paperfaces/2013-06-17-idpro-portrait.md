@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Winking, but you can't tell"
 description: "PaperFaces portrait of @idPro drawn with Paper by 53 on an iPad."
-image: paperfaces-idpro-twitter-lg
-thumb: paperfaces-idpro-twitter-150.jpg
+image: 
+  feature: paperfaces-idpro-twitter-lg.jpg
+  thumb: paperfaces-idpro-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

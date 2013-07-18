@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Yellow lime colored shirt"
 description: "PaperFaces portrait of @lemon_lime drawn with Paper by 53 on an iPad."
-image: paperfaces-lemon-lime-twitter-lg
-thumb: paperfaces-lemon-lime-twitter-150.jpg
+image: 
+  feature: paperfaces-lemon-lime-twitter-lg.jpg
+  thumb: paperfaces-lemon-lime-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Large goggles in black and white"
 description: "PaperFaces portrait of @designhawg drawn with Paper by 53 on an iPad."
-image: paperfaces-designhawg-twitter-lg
-thumb: paperfaces-designhawg-twitter-150.jpg
+image: 
+  feature: paperfaces-designhawg-twitter-lg.jpg
+  thumb: paperfaces-designhawg-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

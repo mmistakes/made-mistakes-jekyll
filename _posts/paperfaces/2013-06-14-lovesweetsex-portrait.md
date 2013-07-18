@@ -1,14 +1,17 @@
 ---
-layout: paperfaces
+layout: work
 title: "Blanket party with puppy"
 description: "PaperFaces portrait of @lovesweetsex drawn with Paper by 53 on an iPad."
-image: paperfaces-lovesweetsex-twitter-lg
-thumb: paperfaces-lovesweetsex-twitter-150.jpg
+image: 
+  feature: paperfaces-lovesweetsex-twitter-lg.jpg
+  thumb: paperfaces-lovesweetsex-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
 PaperFaces portrait of project donator [@lovesweetsex](http://twitter.com/lovesweetsex).
+
+{% include paperfaces-boilerplate-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-lovesweetsex-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lovesweetsex-process-1-600.jpg" alt="Drawing lightly with the pencil"></a>
@@ -27,5 +30,3 @@ PaperFaces portrait of project donator [@lovesweetsex](http://twitter.com/lovesw
 	<a href="{{ site.url }}/images/paperfaces-lovesweetsex-process-6-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lovesweetsex-process-6-600.jpg" alt="Adding hair highlights with the pencil"></a>
 	<figcaption>Adding more watercolor layers and refining edges with the pencil.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

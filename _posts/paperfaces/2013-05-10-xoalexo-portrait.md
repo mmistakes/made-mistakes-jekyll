@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Muted tones in a cozy sweater"
 description: "PaperFaces portrait of @xoalexo drawn with Paper by 53 on an iPad."
-image: paperfaces-xoalexo-twitter-lg
-thumb: paperfaces-xoalexo-twitter-150.jpg
+image: 
+  feature: paperfaces-xoalexo-twitter-lg.jpg
+  thumb: paperfaces-xoalexo-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

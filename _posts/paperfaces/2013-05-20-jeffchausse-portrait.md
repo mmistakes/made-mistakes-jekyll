@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Grinning in front of a red curtain"
 description: "PaperFaces portrait of @JeffChausse drawn with Paper by 53 on an iPad."
-image: paperfaces-jeffchausse-twitter-lg
-thumb: paperfaces-jeffchausse-twitter-150.jpg
+image: 
+  feature: paperfaces-jeffchausse-twitter-lg.jpg
+  thumb: paperfaces-jeffchausse-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces
