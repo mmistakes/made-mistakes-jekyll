@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Dressed up in the car"
 description: "PaperFaces portrait of @ryandwillis drawn with Paper by 53 on an iPad."
-image: paperfaces-ryandwillis-twitter-lg
-thumb: paperfaces-ryandwillis-twitter-150.jpg
+image: 
+  feature: paperfaces-ryandwillis-twitter-lg.jpg
+  thumb: paperfaces-ryandwillis-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

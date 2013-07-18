@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In a blue wintery scene"
 description: "PaperFaces portrait of @lsanza drawn with Paper by 53 on an iPad."
-image: paperfaces-lsanza-twitter-lg
-thumb: paperfaces-lsanza-twitter-150.jpg
+image: 
+  feature: paperfaces-lsanza-twitter-lg.jpg
+  thumb: paperfaces-lsanza-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

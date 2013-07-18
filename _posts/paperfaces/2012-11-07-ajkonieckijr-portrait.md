@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Life guard smoking a cigar"
 description: "PaperFaces portrait of @ajkonieckijr drawn with Paper by 53 on an iPad."
-image: paperfaces-ajkonieckijr-twitter-lg
-thumb: paperfaces-ajkonieckijr-twitter-150.jpg
+image: 
+  feature: paperfaces-ajkonieckijr-twitter-lg.jpg
+  thumb: paperfaces-ajkonieckijr-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

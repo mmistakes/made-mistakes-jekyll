@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Girl in gray"
 description: "PaperFaces portrait of @sarelrivera drawn with Paper by 53 on an iPad."
-image: paperfaces-sarelrivera-twitter-lg
-thumb: paperfaces-sarelrivera-twitter-150.jpg
+image: 
+  feature: paperfaces-sarelrivera-twitter-lg.jpg
+  thumb: paperfaces-sarelrivera-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Dude in blue"
 description: "PaperFaces portrait of @brackin drawn with Paper by 53 on an iPad."
-image: paperfaces-brackin-twitter-lg
-thumb: paperfaces-brackin-twitter-150.jpg
+image: 
+  feature: paperfaces-brackin-twitter-lg.jpg
+  thumb: paperfaces-brackin-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

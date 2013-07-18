@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Unicorn hair flowing on the floor"
 description: "PaperFaces portrait of @hallaek drawn with Paper by 53 on an iPad."
-image: paperfaces-hallaek-twitter-lg
-thumb: paperfaces-hallaek-twitter-150.jpg
+image: 
+  feature: paperfaces-hallaek-twitter-lg.jpg
+  thumb: paperfaces-hallaek-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

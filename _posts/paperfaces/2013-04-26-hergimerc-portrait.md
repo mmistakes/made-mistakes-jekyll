@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Pretty sunset"
 description: "PaperFaces portrait of @hergimerc drawn with Paper by 53 on an iPad."
-image: paperfaces-hergimerc-twitter-lg
-thumb: paperfaces-hergimerc-twitter-150.jpg
+image: 
+  feature: paperfaces-hergimerc-twitter-lg.jpg
+  thumb: paperfaces-hergimerc-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

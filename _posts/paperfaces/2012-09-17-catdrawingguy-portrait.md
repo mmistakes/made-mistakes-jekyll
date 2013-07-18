@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Remember when he was on Shark Tank?"
 description: "PaperFaces portrait of @CatDrawingGuy drawn with Paper by 53 on an iPad."
-image: paperfaces-CatDrawingGuy-twitter-lg
-thumb: paperfaces-CatDrawingGuy-twitter-150.jpg
+image: 
+  feature: paperfaces-CatDrawingGuy-twitter-lg.jpg
+  thumb: paperfaces-CatDrawingGuy-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

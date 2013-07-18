@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Fancy pants hat tip"
 description: "PaperFaces portrait of @adeirra drawn with Paper by 53 on an iPad."
-image: paperfaces-adeirra-twitter-lg
-thumb: paperfaces-adeirra-twitter-150.jpg
+image: 
+  feature: paperfaces-adeirra-twitter-lg.jpg
+  thumb: paperfaces-adeirra-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

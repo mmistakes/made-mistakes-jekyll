@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Chillin' at the game"
 description: "PaperFaces portrait of @mentalground0 drawn with Paper by 53 on an iPad."
-image: paperfaces-mentalground0-twitter-lg
-thumb: paperfaces-mentalground0-twitter-150.jpg
+image: 
+  feature: paperfaces-mentalground0-twitter-lg.jpg
+  thumb: paperfaces-mentalground0-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

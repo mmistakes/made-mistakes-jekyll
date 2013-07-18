@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Winter wonderland couple outside"
 description: "PaperFaces portrait of @josephedjohn drawn with Paper by 53 on an iPad."
-image: paperfaces-josephedjohn-twitter-lg
-thumb: paperfaces-josephedjohn-twitter-150.jpg
+image: 
+  feature: paperfaces-josephedjohn-twitter-lg.jpg
+  thumb: paperfaces-josephedjohn-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

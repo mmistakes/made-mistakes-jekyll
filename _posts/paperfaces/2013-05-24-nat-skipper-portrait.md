@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "365th PaperFaces portrait"
 description: "PaperFaces portrait of @Nat_Skipper drawn with Paper by 53 on an iPad."
-image: paperfaces-nat-skipper-twitter-lg
-thumb: paperfaces-nat-skipper-twitter-150.jpg
+image: 
+  feature: paperfaces-nat-skipper-twitter-lg.jpg
+  thumb: paperfaces-nat-skipper-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

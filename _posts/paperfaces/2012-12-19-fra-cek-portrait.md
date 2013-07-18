@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Plaid in glasses"
 description: "PaperFaces portrait of @fra_cek drawn with Paper by 53 on an iPad."
-image: paperfaces-fra-cek-twitter-lg
-thumb: paperfaces-fra-cek-twitter-150.jpg
+image: 
+  feature: paperfaces-fra-cek-twitter-lg.jpg
+  thumb: paperfaces-fra-cek-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

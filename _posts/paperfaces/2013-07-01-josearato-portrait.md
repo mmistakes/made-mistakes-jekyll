@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "No eyes, 95% face"
 description: "PaperFaces portrait of @josearato drawn with Paper by 53 on an iPad."
-image: paperfaces-josearato-twitter-lg
-thumb: paperfaces-josearato-twitter-150.jpg
+image: 
+  feature: paperfaces-josearato-twitter-lg.jpg
+  thumb: paperfaces-josearato-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

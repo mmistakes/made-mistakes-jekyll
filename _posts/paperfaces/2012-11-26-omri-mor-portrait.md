@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Sitting on some steps in black and white"
 description: "PaperFaces portrait of @omri_mor drawn with Paper by 53 on an iPad."
-image: paperfaces-omri-mor-twitter-lg
-thumb: paperfaces-omri-mor-twitter-150.jpg
+image: 
+  feature: paperfaces-omri-mor-twitter-lg.jpg
+  thumb: paperfaces-omri-mor-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

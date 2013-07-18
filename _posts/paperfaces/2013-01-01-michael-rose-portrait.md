@@ -1,10 +1,11 @@
 ---
-layout: paperfaces
+layout: work
 title: "Self portrait of the scruffy artist"
 description: "PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
 modified: 2013-06-05
-image: paperfaces-michael-rose-lg
-thumb: paperfaces-michael-rose-150.jpg
+image: 
+  feature: paperfaces-michael-rose-lg.jpg
+  thumb: paperfaces-michael-rose-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Michael Rose, self portrait]
 ---

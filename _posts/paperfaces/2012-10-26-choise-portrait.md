@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white glasses hat"
 description: "PaperFaces portrait of @choise drawn with Paper by 53 on an iPad."
-image: paperfaces-choise-twitter-lg
-thumb: paperfaces-choise-twitter-150.jpg
+image: 
+  feature: paperfaces-choise-twitter-lg.jpg
+  thumb: paperfaces-choise-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

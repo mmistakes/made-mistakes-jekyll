@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white beard"
 description: "PaperFaces portrait of @maxquattromani drawn with Paper by 53 on an iPad."
-image: paperfaces-maxquattromani-twitter-lg
-thumb: paperfaces-maxquattromani-twitter-150.jpg
+image: 
+  feature: paperfaces-maxquattromani-twitter-lg.jpg
+  thumb: paperfaces-maxquattromani-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

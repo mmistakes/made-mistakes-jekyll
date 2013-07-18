@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white stubble"
 description: "PaperFaces portrait of @JFSkjaerbaek drawn with Paper by 53 on an iPad."
-image: paperfaces-jfskjaerbaek-twitter-lg
-thumb: paperfaces-jfskjaerbaek-twitter-150.jpg
+image: 
+  feature: paperfaces-jfskjaerbaek-twitter-lg.jpg
+  thumb: paperfaces-jfskjaerbaek-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

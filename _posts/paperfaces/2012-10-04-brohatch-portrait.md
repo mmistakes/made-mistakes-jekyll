@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Red hair, green sunglases, not quite Christmas"
 description: "PaperFaces portrait of @brohatch drawn with Paper by 53 on an iPad."
-image: paperfaces-brohatch-twitter-lg
-thumb: paperfaces-brohatch-twitter-150.jpg
+image: 
+  feature: paperfaces-brohatch-twitter-lg.jpg
+  thumb: paperfaces-brohatch-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

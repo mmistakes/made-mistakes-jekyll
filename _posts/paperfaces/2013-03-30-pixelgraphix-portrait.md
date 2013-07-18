@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Red hoodie and glasses in the shadows"
 description: "PaperFaces portrait of @pixelgraphix drawn with Paper by 53 on an iPad."
-image: paperfaces-pixelgraphix-twitter-lg
-thumb: paperfaces-pixelgraphix-twitter-150.jpg
+image: 
+  feature: paperfaces-pixelgraphix-twitter-lg.jpg
+  thumb: paperfaces-pixelgraphix-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

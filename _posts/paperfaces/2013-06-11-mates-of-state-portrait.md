@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "PaperFaces portrait of Mates of State"
 description: "PaperFaces portrait of Mates of State drawn with Paper by 53 on an iPad."
-image: paperfaces-mates-of-state-lg
-thumb: paperfaces-mates-of-state-150.jpg
+image: 
+  feature: paperfaces-mates-of-state-lg.jpg
+  thumb: paperfaces-mates-of-state-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Mates of State]
 ---

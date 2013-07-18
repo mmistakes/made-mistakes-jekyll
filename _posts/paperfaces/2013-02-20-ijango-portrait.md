@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Van dyke moustachio drinking cat"
 description: "PaperFaces portrait of @ijango drawn with Paper by 53 on an iPad."
-image: paperfaces-ijango-twitter-lg
-thumb: paperfaces-ijango-twitter-150.jpg
+image: 
+  feature: paperfaces-ijango-twitter-lg.jpg
+  thumb: paperfaces-ijango-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

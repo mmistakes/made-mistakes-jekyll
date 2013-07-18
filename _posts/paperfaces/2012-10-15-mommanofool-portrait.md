@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Dangling earrings"
 description: "PaperFaces portrait of @mommanofool drawn with Paper by 53 on an iPad."
-image: paperfaces-mommanofool-twitter-lg
-thumb: paperfaces-mommanofool-twitter-150.jpg
+image: 
+  feature: paperfaces-mommanofool-twitter-lg.jpg
+  thumb: paperfaces-mommanofool-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

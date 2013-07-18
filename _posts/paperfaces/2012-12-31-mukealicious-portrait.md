@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Camo hat and floral wallpapers"
 description: "PaperFaces portrait of @mukealicious drawn with Paper by 53 on an iPad."
-image: paperfaces-mukealicious-twitter-lg
-thumb: paperfaces-mukealicious-twitter-150.jpg
+image: 
+  feature: paperfaces-mukealicious-twitter-lg.jpg
+  thumb: paperfaces-mukealicious-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

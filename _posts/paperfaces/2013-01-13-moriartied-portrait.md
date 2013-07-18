@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Glasses and short hair"
 description: "PaperFaces portrait of @moriartied drawn with Paper by 53 on an iPad."
-image: paperfaces-moriartied-twitter-lg
-thumb: paperfaces-moriartied-twitter-150.jpg
+image: 
+  feature: paperfaces-moriartied-twitter-lg.jpg
+  thumb: paperfaces-moriartied-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

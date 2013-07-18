@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In a black motorcycle jacket"
 description: "PaperFaces portrait of Rudy drawn with Paper by 53 on an iPad."
-image: paperfaces-rudy-lg
-thumb: paperfaces-rudy-150.jpg
+image: 
+  feature: paperfaces-rudy-lg.jpg
+  thumb: paperfaces-rudy-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "FIU banners away"
 description: "PaperFaces portrait of @stephenrevesz drawn with Paper by 53 on an iPad."
-image: paperfaces-stephenrevesz-twitter-lg
-thumb: paperfaces-stephenrevesz-twitter-150.jpg
+image: 
+  feature: paperfaces-stephenrevesz-twitter-lg.jpg
+  thumb: paperfaces-stephenrevesz-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

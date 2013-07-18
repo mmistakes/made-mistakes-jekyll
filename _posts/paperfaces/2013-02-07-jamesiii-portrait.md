@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "The king has risen"
 description: "PaperFaces portrait of @jamesIII drawn with Paper by 53 on an iPad."
-image: paperfaces-jamesiii-twitter-lg
-thumb: paperfaces-jamesiii-twitter-150.jpg
+image: 
+  feature: paperfaces-jamesiii-twitter-lg.jpg
+  thumb: paperfaces-jamesiii-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

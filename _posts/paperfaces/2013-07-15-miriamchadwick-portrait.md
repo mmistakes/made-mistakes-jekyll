@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Curly hair in a knit hat"
 description: "PaperFaces portrait of @miriamchadwick drawn with Paper by 53 on an iPad."
-image: paperfaces-miriamchadwick-instagram-lg
-thumb: paperfaces-miriamchadwick-instagram-150.jpg
+image: 
+  feature: paperfaces-miriamchadwick-instagram-lg.jpg
+  thumb: paperfaces-miriamchadwick-instagram-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

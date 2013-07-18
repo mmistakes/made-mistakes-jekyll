@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In a blue dress shirt"
 description: "PaperFaces portrait of @tarungangwani drawn with Paper by 53 on an iPad."
-image: paperfaces-tarungangwani-twitter-lg
-thumb: paperfaces-tarungangwani-twitter-150.jpg
+image: 
+  feature: paperfaces-tarungangwani-twitter-lg.jpg
+  thumb: paperfaces-tarungangwani-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

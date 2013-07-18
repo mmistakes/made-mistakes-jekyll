@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In a hat"
 description: "PaperFaces portrait of @slace drawn with Paper by 53 on an iPad."
-image: paperfaces-slace-twitter-lg
-thumb: paperfaces-slace-twitter-150.jpg
+image: 
+  feature: paperfaces-slace-twitter-lg.jpg
+  thumb: paperfaces-slace-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

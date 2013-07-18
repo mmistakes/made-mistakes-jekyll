@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Pew Pew Pew!"
 description: "PaperFaces portrait of @NatRaybould drawn with Paper by 53 on an iPad."
-image: paperfaces-natraybould-twitter-lg
-thumb: paperfaces-natraybould-twitter-150.jpg
+image: 
+  feature: paperfaces-natraybould-twitter-lg.jpg
+  thumb: paperfaces-natraybould-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

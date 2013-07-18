@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Wanna fight?"
 description: "PaperFaces portrait of @melissabalkon drawn with Paper by 53 on an iPad."
-image: paperfaces-melissabalkon-twitter-lg
-thumb: paperfaces-melissabalkon-twitter-150.jpg
+image: 
+  feature: paperfaces-melissabalkon-twitter-lg.jpg
+  thumb: paperfaces-melissabalkon-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
 ---

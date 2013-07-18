@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white iPhone selfie"
 description: "PaperFaces portrait of @zainjoyce drawn with Paper by 53 on an iPad."
-image: paperfaces-zainjoyce-twitter-lg
-thumb: paperfaces-zainjoyce-twitter-150.jpg
+image: 
+  feature: paperfaces-zainjoyce-twitter-lg.jpg
+  thumb: paperfaces-zainjoyce-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

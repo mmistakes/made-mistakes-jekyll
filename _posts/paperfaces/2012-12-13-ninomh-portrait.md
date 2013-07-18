@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "I wear my sunglasses at night..."
 description: "PaperFaces portrait of @ninoMH drawn with Paper by 53 on an iPad."
-image: paperfaces-ninomh-twitter-lg
-thumb: paperfaces-ninomh-twitter-150.jpg
+image: 
+  feature: paperfaces-ninomh-twitter-lg.jpg
+  thumb: paperfaces-ninomh-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

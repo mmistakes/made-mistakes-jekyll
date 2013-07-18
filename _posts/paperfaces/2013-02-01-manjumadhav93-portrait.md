@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Sunglasses chilling in the street"
 description: "PaperFaces portrait of @manjumadhav93 drawn with Paper by 53 on an iPad."
-image: paperfaces-manjumadhav93-twitter-lg
-thumb: paperfaces-manjumadhav93-twitter-150.jpg
+image: 
+  feature: paperfaces-manjumadhav93-twitter-lg.jpg
+  thumb: paperfaces-manjumadhav93-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

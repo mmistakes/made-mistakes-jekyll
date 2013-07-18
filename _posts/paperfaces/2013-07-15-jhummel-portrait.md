@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Posterization"
 description: "PaperFaces portrait of @jhummel drawn with Paper by 53 on an iPad."
-image: paperfaces-jhummel-twitter-lg
-thumb: paperfaces-jhummel-twitter-150.jpg
+image: 
+  feature: paperfaces-jhummel-twitter-lg.jpg
+  thumb: paperfaces-jhummel-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
 ---

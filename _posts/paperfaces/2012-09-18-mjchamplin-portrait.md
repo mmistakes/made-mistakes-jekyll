@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Camera and spooky lighting"
 description: "PaperFaces portrait of @mjchamplin drawn with Paper by 53 on an iPad."
-image: paperfaces-mjchamplin-twitter-lg
-thumb: paperfaces-mjchamplin-twitter-150.jpg
+image: 
+  feature: paperfaces-mjchamplin-twitter-lg.jpg
+  thumb: paperfaces-mjchamplin-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

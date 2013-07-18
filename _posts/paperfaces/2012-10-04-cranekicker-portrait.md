@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Sweep the leg Johnny"
 description: "PaperFaces portrait of @cranekicker drawn with Paper by 53 on an iPad."
-image: paperfaces-cranekicker-twitter-lg
-thumb: paperfaces-cranekicker-twitter-150.jpg
+image: 
+  feature: paperfaces-cranekicker-twitter-lg.jpg
+  thumb: paperfaces-cranekicker-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

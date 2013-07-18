@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Glasses with red headphones"
 description: "PaperFaces portrait of @ihamzadev drawn with Paper by 53 on an iPad."
-image: paperfaces-ihamzadev-twitter-lg
-thumb: paperfaces-ihamzadev-twitter-150.jpg
+image: 
+  feature: paperfaces-ihamzadev-twitter-lg.jpg
+  thumb: paperfaces-ihamzadev-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

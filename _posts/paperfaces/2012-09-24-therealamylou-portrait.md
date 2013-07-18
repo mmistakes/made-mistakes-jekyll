@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Mother and little one"
 description: "PaperFaces portrait of @therealamylou drawn with Paper by 53 on an iPad."
-image: paperfaces-therealamylou-twitter-lg
-thumb: paperfaces-therealamylou-twitter-150.jpg
+image: 
+  feature: paperfaces-therealamylou-twitter-lg.jpg
+  thumb: paperfaces-therealamylou-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

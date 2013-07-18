@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Floating head in grayscale"
 description: "PaperFaces portrait of @ginader drawn with Paper by 53 on an iPad."
-image: paperfaces-ginader-twitter-lg
-thumb: paperfaces-ginader-twitter-150.jpg
+image: 
+  feature: paperfaces-ginader-twitter-lg.jpg
+  thumb: paperfaces-ginader-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white, head]
 ---

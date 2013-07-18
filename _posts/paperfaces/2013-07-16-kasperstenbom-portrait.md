@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Another eye and half face"
 description: "PaperFaces portrait of @KasperStenbom drawn with Paper by 53 on an iPad."
-image: paperfaces-kasperstenbom-twitter-lg
-thumb: paperfaces-kasperstenbom-twitter-150.jpg
+image: 
+  feature: paperfaces-kasperstenbom-twitter-lg.jpg
+  thumb: paperfaces-kasperstenbom-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

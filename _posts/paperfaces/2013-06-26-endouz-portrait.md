@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Flickering lights of rain"
 description: "PaperFaces portrait of @endouz drawn with Paper by 53 on an iPad."
-image: paperfaces-endouz-twitter-lg
-thumb: paperfaces-endouz-twitter-150.jpg
+image: 
+  feature: paperfaces-endouz-twitter-lg.jpg
+  thumb: paperfaces-endouz-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

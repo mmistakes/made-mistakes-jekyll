@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Sitting in gray"
 description: "PaperFaces portrait of @paulmwatson drawn with Paper by 53 on an iPad."
-image: paperfaces-paulmwatson-twitter-lg
-thumb: paperfaces-paulmwatson-twitter-150.jpg
+image: 
+  feature: paperfaces-paulmwatson-twitter-lg.jpg
+  thumb: paperfaces-paulmwatson-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

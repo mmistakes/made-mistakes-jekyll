@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Long flowing hair in a red tank top"
 description: "PaperFaces portrait of @ameeko drawn with Paper by 53 on an iPad."
-image: paperfaces-ameeko-twitter-lg
-thumb: paperfaces-ameeko-twitter-150.jpg
+image: 
+  feature: paperfaces-ameeko-twitter-lg.jpg
+  thumb: paperfaces-ameeko-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

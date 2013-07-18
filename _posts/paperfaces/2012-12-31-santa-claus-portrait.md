@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "The big main in red"
 description: "PaperFaces portrait of Santa Claus drawn with Paper by 53 on an iPad."
-image: paperfaces-santa-claus-lg
-thumb: paperfaces-santa-claus-150.jpg
+image: 
+  feature: paperfaces-santa-claus-lg.jpg
+  thumb: paperfaces-santa-claus-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Raiden wins. Flawless victory!"
 description: "PaperFaces portrait of @psychoticmilkma drawn with Paper by 53 on an iPad."
-image: paperfaces-psychoticmilkma-twitter-lg
-thumb: paperfaces-psychoticmilkma-twitter-150.jpg
+image: 
+  feature: paperfaces-psychoticmilkma-twitter-lg.jpg
+  thumb: paperfaces-psychoticmilkma-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

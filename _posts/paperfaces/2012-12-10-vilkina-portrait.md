@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Floral dress outside the steps"
 description: "PaperFaces portrait of @vilkina drawn with Paper by 53 on an iPad."
-image: paperfaces-vilkina-twitter-lg
-thumb: paperfaces-vilkina-twitter-150.jpg
+image: 
+  feature: paperfaces-vilkina-twitter-lg.jpg
+  thumb: paperfaces-vilkina-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

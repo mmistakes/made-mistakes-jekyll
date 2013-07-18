@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Happy beard in plaid"
 description: "PaperFaces portrait of @kessler drawn with Paper by 53 on an iPad."
-image: paperfaces-kessler-twitter-lg
-thumb: paperfaces-kessler-twitter-150.jpg
+image: 
+  feature: paperfaces-kessler-twitter-lg.jpg
+  thumb: paperfaces-kessler-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

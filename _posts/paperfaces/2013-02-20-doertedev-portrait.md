@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "More metal than a toaster"
 description: "PaperFaces portrait of @doertedev drawn with Paper by 53 on an iPad."
-image: paperfaces-doertedev-twitter-lg
-thumb: paperfaces-doertedev-twitter-150.jpg
+image: 
+  feature: paperfaces-doertedev-twitter-lg.jpg
+  thumb: paperfaces-doertedev-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

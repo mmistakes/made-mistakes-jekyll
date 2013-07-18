@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Backpacking in a scarf"
 description: "PaperFaces portrait of @rwangsa drawn with Paper by 53 on an iPad."
-image: paperfaces-rwangsa-twitter-lg
-thumb: paperfaces-rwangsa-twitter-150.jpg
+image: 
+  feature: paperfaces-rwangsa-twitter-lg.jpg
+  thumb: paperfaces-rwangsa-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

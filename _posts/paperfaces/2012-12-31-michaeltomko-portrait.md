@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Just married mustache lip disguises"
 description: "PaperFaces portrait of @michaeltomko drawn with Paper by 53 on an iPad."
-image: paperfaces-michaeltomko-twitter-lg
-thumb: paperfaces-michaeltomko-twitter-150.jpg
+image: 
+  feature: paperfaces-michaeltomko-twitter-lg.jpg
+  thumb: paperfaces-michaeltomko-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

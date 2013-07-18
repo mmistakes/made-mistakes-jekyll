@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Full sleeve of tattoos"
 description: "PaperFaces portrait of @pjrvswp drawn with Paper by 53 on an iPad."
-image: paperfaces-pjrvswp-twitter-lg
-thumb: paperfaces-pjrvswp-twitter-150.jpg
+image: 
+  feature: paperfaces-pjrvswp-twitter-lg.jpg
+  thumb: paperfaces-pjrvswp-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

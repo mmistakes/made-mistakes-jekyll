@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "PaperFaces portrait of Iron Man"
 description: "PaperFaces portrait of Iron Man drawn with Paper by 53 on an iPad."
-image: paperfaces-iron-man-3-lg
-thumb: paperfaces-iron-man-3-150.jpg
+image: 
+  feature: paperfaces-iron-man-3-lg.jpg
+  thumb: paperfaces-iron-man-3-150.jpg
 category: paperfaces
 tags: 
 - Iron Man

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Blue shirt"
 description: "PaperFaces portrait of @kerby drawn with Paper by 53 on an iPad."
-image: paperfaces-kerby-twitter-lg
-thumb: paperfaces-kerby-twitter-150.jpg
+image: 
+  feature: paperfaces-kerby-twitter-lg.jpg
+  thumb: paperfaces-kerby-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

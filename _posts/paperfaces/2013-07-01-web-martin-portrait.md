@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Blurring backgrounds and curling hair"
 description: "PaperFaces portrait of @web_martin drawn with Paper by 53 on an iPad."
-image: paperfaces-web-martin-twitter-lg
-thumb: paperfaces-web-martin-twitter-150.jpg
+image: 
+  feature: paperfaces-web-martin-twitter-lg.jpg
+  thumb: paperfaces-web-martin-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

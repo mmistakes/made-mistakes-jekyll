@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Happy couple and their two dogs"
 description: "PaperFaces portrait of @juanrod82 drawn with Paper by 53 on an iPad."
-image: paperfaces-juanrod82-twitter-lg
-thumb: paperfaces-juanrod82-twitter-150.jpg
+image: 
+  feature: paperfaces-juanrod82-twitter-lg.jpg
+  thumb: paperfaces-juanrod82-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

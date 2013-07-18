@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Suit in a landscape"
 description: "PaperFaces portrait of @ryandawidjan drawn with Paper by 53 on an iPad."
-image: paperfaces-ryandawidjan-twitter-lg
-thumb: paperfaces-ryandawidjan-twitter-150.jpg
+image: 
+  feature: paperfaces-ryandawidjan-twitter-lg.jpg
+  thumb: paperfaces-ryandawidjan-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

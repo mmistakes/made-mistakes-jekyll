@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Hats in a car"
 description: "PaperFaces portrait of @bobbydharrell drawn with Paper by 53 on an iPad."
-image: paperfaces-bobbydharrell-twitter-lg
-thumb: paperfaces-bobbydharrell-twitter-150.jpg
+image: 
+  feature: paperfaces-bobbydharrell-twitter-lg.jpg
+  thumb: paperfaces-bobbydharrell-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
