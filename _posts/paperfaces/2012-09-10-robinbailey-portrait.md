@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white with the city making lights"
 description: "PaperFaces portrait of @RobinBailey drawn with Paper by 53 on an iPad."
-image: paperfaces-robinbailey-twitter-lg
-thumb: paperfaces-robinbailey-twitter-150.jpg
+image: 
+  feature: paperfaces-robinbailey-twitter-lg.jpg
+  thumb: paperfaces-robinbailey-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

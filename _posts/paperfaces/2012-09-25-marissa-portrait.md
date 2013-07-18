@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Dark hair"
 description: "PaperFaces portrait of @marissa drawn with Paper by 53 on an iPad."
-image: paperfaces-marissa-twitter-lg
-thumb: paperfaces-marissa-twitter-150.jpg
+image: 
+  feature: paperfaces-marissa-twitter-lg.jpg
+  thumb: paperfaces-marissa-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

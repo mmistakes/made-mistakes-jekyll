@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In gray on a bridge in the wilderness"
 description: "PaperFaces portrait of @allara drawn with Paper by 53 on an iPad."
-image: paperfaces-allara-twitter-lg
-thumb: paperfaces-allara-twitter-150.jpg
+image: 
+  feature: paperfaces-allara-twitter-lg.jpg
+  thumb: paperfaces-allara-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

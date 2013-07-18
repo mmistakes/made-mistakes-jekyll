@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Put a bird on it"
 description: "PaperFaces portrait of @christynicol drawn with Paper by 53 on an iPad."
-image: paperfaces-christynicol-twitter-lg
-thumb: paperfaces-christynicol-twitter-150.jpg
+image: 
+  feature: paperfaces-christynicol-twitter-lg.jpg
+  thumb: paperfaces-christynicol-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

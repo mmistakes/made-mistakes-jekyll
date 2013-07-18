@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Flower girl in a grass field"
 description: "PaperFaces portrait of @quimeraimantada drawn with Paper by 53 on an iPad."
-image: paperfaces-quimeraimantada-twitter-lg
-thumb: paperfaces-quimeraimantada-twitter-150.jpg
+image: 
+  feature: paperfaces-quimeraimantada-twitter-lg.jpg
+  thumb: paperfaces-quimeraimantada-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

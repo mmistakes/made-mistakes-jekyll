@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Big grin on those orange hues"
 description: "PaperFaces portrait of @aragost drawn with Paper by 53 on an iPad."
-image: paperfaces-aragost-twitter-lg
-thumb: paperfaces-aragost-twitter-150.jpg
+image: 
+  feature: paperfaces-aragost-twitter-lg.jpg
+  thumb: paperfaces-aragost-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

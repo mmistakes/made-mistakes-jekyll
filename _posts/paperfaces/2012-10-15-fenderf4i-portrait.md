@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Big black glasses"
 description: "PaperFaces portrait of @fenderf4i drawn with Paper by 53 on an iPad."
-image: paperfaces-fenderf4i-twitter-lg
-thumb: paperfaces-fenderf4i-twitter-150.jpg
+image: 
+  feature: paperfaces-fenderf4i-twitter-lg.jpg
+  thumb: paperfaces-fenderf4i-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

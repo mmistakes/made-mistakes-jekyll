@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "In shadows with dramatic lighting"
 description: "PaperFaces portrait of @normanholz drawn with Paper by 53 on an iPad."
-image: paperfaces-normanholz-twitter-lg
-thumb: paperfaces-normanholz-twitter-150.jpg
+image: 
+  feature: paperfaces-normanholz-twitter-lg.jpg
+  thumb: paperfaces-normanholz-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

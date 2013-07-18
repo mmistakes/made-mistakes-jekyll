@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Fiery blond hair curling about"
 description: "PaperFaces portrait of @kristysf drawn with Paper by 53 on an iPad."
-image: paperfaces-kristysf-twitter-lg
-thumb: paperfaces-kristysf-twitter-150.jpg
+image: 
+  feature: paperfaces-kristysf-twitter-lg.jpg
+  thumb: paperfaces-kristysf-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

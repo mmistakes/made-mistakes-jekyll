@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Bright and muted colors"
 description: "PaperFaces portrait of @kennwhite drawn with Paper by 53 on an iPad."
-image: paperfaces-kennwhite-twitter-lg
-thumb: paperfaces-kennwhite-twitter-150.jpg
+image: 
+  feature: paperfaces-kennwhite-twitter-lg.jpg
+  thumb: paperfaces-kennwhite-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

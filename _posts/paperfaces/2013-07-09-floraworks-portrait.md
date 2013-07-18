@@ -1,14 +1,17 @@
 ---
-layout: paperfaces
+layout: work
 title: "Shading hair with blue and magenta"
 description: "PaperFaces portrait of @floraworks drawn with Paper by 53 on an iPad."
-image: paperfaces-floraworks-twitter-lg
-thumb: paperfaces-floraworks-twitter-150.jpg
+image:   
+  feature: paperfaces-floraworks-twitter-lg.jpg
+  thumb: paperfaces-floraworks-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
 PaperFaces portrait of [@floraworks](http://twitter.com/floraworks).
+
+{% include paperfaces-boilerplate-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-floraworks-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-floraworks-process-1-600.jpg" alt="Work in process screenshot"></a>
@@ -21,5 +24,3 @@ PaperFaces portrait of [@floraworks](http://twitter.com/floraworks).
 	<a href="{{ site.url }}/images/paperfaces-floraworks-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-floraworks-process-4-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Building up the hair one strand at a time.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

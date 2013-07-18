@@ -1,14 +1,17 @@
 ---
-layout: paperfaces
+layout: work
 title: "Look ma, I'm a Sim!"
 description: "PaperFaces portrait of @vmalloc drawn with Paper by 53 on an iPad."
-image: paperfaces-vmalloc-twitter-lg
-thumb: paperfaces-vmalloc-twitter-150.jpg
+image: 
+  feature: paperfaces-vmalloc-twitter-lg.jpg
+  thumb: paperfaces-vmalloc-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
 PaperFaces portrait of [@vmalloc](http://twitter.com/vmalloc).
+
+{% include paperfaces-boilerplate-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-vmalloc-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-vmalloc-process-1-600.jpg" alt="Work in process screenshot"></a>
@@ -22,5 +25,3 @@ PaperFaces portrait of [@vmalloc](http://twitter.com/vmalloc).
 	<a href="{{ site.url }}/images/paperfaces-vmalloc-process-5-lg.jpg"><img src="{{ site.url }}/images/paperfaces-vmalloc-process-5-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>The zoom tool is my friend, let's me use the pencil with greater precision.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

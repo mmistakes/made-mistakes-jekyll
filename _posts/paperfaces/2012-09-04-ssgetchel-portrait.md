@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Sunglasses at the beach"
 description: "PaperFaces portrait of @ssgetchel drawn with Paper by 53 on an iPad."
-image: paperfaces-ssgetchel-instagram-lg
-thumb: paperfaces-ssgetchel-instagram-150.jpg
+image: 
+  feature: paperfaces-ssgetchel-instagram-lg.jpg
+  thumb: paperfaces-ssgetchel-instagram-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

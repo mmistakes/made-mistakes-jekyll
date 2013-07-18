@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Bacon mustached"
 description: "PaperFaces portrait of @kilsey drawn with Paper by 53 on an iPad."
-image: paperfaces-kilsey-twitter-lg
-thumb: paperfaces-kilsey-twitter-150.jpg
+image: 
+  feature: paperfaces-kilsey-twitter-lg.jpg
+  thumb: paperfaces-kilsey-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

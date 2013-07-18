@@ -1,14 +1,17 @@
 ---
-layout: paperfaces
+layout: work
 title: "Curly hair on the grass"
 description: "PaperFaces portrait of @lmichelleinc drawn with Paper by 53 on an iPad."
-image: paperfaces-lmichelleinc-twitter-lg
-thumb: paperfaces-lmichelleinc-twitter-150.jpg
+image: 
+  feature: paperfaces-lmichelleinc-twitter-lg.jpg
+  thumb: paperfaces-lmichelleinc-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
 PaperFaces portrait of [@lmichelleinc](http://twitter.com/lmichelleinc).
+
+{% include paperfaces-boilerplate-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-lmichelleinc-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lmichelleinc-process-1-600.jpg" alt="Work in process screenshot"></a>
@@ -25,5 +28,3 @@ PaperFaces portrait of [@lmichelleinc](http://twitter.com/lmichelleinc).
 	<a href="{{ site.url }}/images/paperfaces-lmichelleinc-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lmichelleinc-process-4-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Working the hair by lightly drawing curls and wisps in pencil.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

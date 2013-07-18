@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Mustache sitting in the dark"
 description: "PaperFaces portrait of @tylr drawn with Paper by 53 on an iPad."
-image: paperfaces-tylr-twitter-lg
-thumb: paperfaces-tylr-twitter-150.jpg
+image: 
+  feature: paperfaces-tylr-twitter-lg.jpg
+  thumb: paperfaces-tylr-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

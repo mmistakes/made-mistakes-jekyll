@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Wearing a backpack"
 description: "PaperFaces portrait of @markgurman drawn with Paper by 53 on an iPad."
-image: paperfaces-markgurman-twitter-lg
-thumb: paperfaces-markgurman-twitter-150.jpg
+image: 
+  feature: paperfaces-markgurman-twitter-lg.jpg
+  thumb: paperfaces-markgurman-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "A couple of war paint faces"
 description: "PaperFaces portrait of @Garlick_1989 drawn with Paper by 53 on an iPad."
-image: paperfaces-garlick-1989-twitter-lg
-thumb: paperfaces-garlick-1989-twitter-150.jpg
+image: 
+  feature: paperfaces-garlick-1989-twitter-lg.jpg
+  thumb: paperfaces-garlick-1989-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

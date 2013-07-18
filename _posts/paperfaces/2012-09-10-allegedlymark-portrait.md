@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Cropped face"
 description: "PaperFaces portrait of @allegedlymark drawn with Paper by 53 on an iPad."
-image: paperfaces-allegedlymark-twitter-lg
-thumb: paperfaces-allegedlymark-twitter-150.jpg
+image: 
+  feature: paperfaces-allegedlymark-twitter-lg.jpg
+  thumb: paperfaces-allegedlymark-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

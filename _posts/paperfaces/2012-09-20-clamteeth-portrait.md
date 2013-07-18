@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Cookie monster on the shirt"
 description: "PaperFaces portrait of @clamteeth drawn with Paper by 53 on an iPad."
-image: paperfaces-clamteeth-twitter-lg
-thumb: paperfaces-clamteeth-twitter-150.jpg
+image: 
+  feature: paperfaces-clamteeth-twitter-lg.jpg
+  thumb: paperfaces-clamteeth-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

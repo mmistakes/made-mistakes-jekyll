@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Laying on a blanket at the beach"
 description: "PaperFaces portrait of @calwahab drawn with Paper by 53 on an iPad."
-image: paperfaces-calwahab-twitter-lg
-thumb: paperfaces-calwahab-twitter-150.jpg
+image: 
+  feature: paperfaces-calwahab-twitter-lg.jpg
+  thumb: paperfaces-calwahab-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

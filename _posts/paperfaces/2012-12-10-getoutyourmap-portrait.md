@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Wearing a green knit hat"
 description: "PaperFaces portrait of @getoutyourmap drawn with Paper by 53 on an iPad."
-image: paperfaces-getoutyourmap-twitter-lg
-thumb: paperfaces-getoutyourmap-twitter-150.jpg
+image: 
+  feature: paperfaces-getoutyourmap-twitter-lg.jpg
+  thumb: paperfaces-getoutyourmap-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

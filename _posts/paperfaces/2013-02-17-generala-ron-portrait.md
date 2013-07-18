@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Tony Stark look-a-like"
 description: "PaperFaces portrait of @GeneralA_Ron-ron drawn with Paper by 53 on an iPad."
-image: paperfaces-generala-ron-twitter-lg
-thumb: paperfaces-generala-ron-twitter-150.jpg
+image: 
+  feature: paperfaces-generala-ron-twitter-lg.jpg
+  thumb: paperfaces-generala-ron-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

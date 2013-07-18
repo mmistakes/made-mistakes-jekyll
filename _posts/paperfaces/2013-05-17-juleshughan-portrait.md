@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "At the salon"
 description: "PaperFaces portrait of @juleshughan drawn with Paper by 53 on an iPad."
-image: paperfaces-juleshughan-twitter-lg
-thumb: paperfaces-juleshughan-twitter-150.jpg
+image: 
+  feature: paperfaces-juleshughan-twitter-lg.jpg
+  thumb: paperfaces-juleshughan-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

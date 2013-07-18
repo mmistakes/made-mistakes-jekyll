@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Orange and blue"
 description: "PaperFaces portrait of @Who_Her drawn with Paper by 53 on an iPad."
-image: paperfaces-who-her-twitter-lg
-thumb: paperfaces-who-her-twitter-150.jpg
+image: 
+  feature: paperfaces-who-her-twitter-lg.jpg
+  thumb: paperfaces-who-her-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---

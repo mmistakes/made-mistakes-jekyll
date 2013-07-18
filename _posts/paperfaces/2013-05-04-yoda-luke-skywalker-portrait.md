@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "PaperFaces portrait of Yoda and Luke Skywalker"
 description: "PaperFaces portrait of Yoda and Luke Skywalker drawn with Paper by 53 on an iPad."
-image: paperfaces-yoda-luke-skywalker-lg
-thumb: paperfaces-yoda-luke-skywalker-150.jpg
+image: 
+  feature: paperfaces-yoda-luke-skywalker-lg.jpg
+  thumb: paperfaces-yoda-luke-skywalker-150.jpg
 category: paperfaces
 tags: 
 - Yoda

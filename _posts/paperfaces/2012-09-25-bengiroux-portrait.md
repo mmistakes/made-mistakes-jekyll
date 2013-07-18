@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Blue backgrounds"
 description: "PaperFaces portrait of @bengiroux drawn with Paper by 53 on an iPad."
-image: paperfaces-bengiroux-twitter-lg
-thumb: paperfaces-bengiroux-twitter-150.jpg
+image: 
+  feature: paperfaces-bengiroux-twitter-lg.jpg
+  thumb: paperfaces-bengiroux-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

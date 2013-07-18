@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white closeup of an eye"
 description: "PaperFaces portrait of @arbitral drawn with Paper by 53 on an iPad."
-image: paperfaces-arbitral-twitter-lg
-thumb: paperfaces-arbitral-twitter-150.jpg
+image: 
+  feature: paperfaces-arbitral-twitter-lg.jpg
+  thumb: paperfaces-arbitral-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces
@@ -15,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@arbitral](http://twitter.com/arbitral).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/1VpNH3EQUg8" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/1VpNH3EQUg8" frameborder="0"> </iframe>

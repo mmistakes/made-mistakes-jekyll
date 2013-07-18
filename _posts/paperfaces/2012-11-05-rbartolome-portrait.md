@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Glasses and dark spikes"
 description: "PaperFaces portrait of @rbartolome drawn with Paper by 53 on an iPad."
-image: paperfaces-rbartolome-twitter-lg
-thumb: paperfaces-rbartolome-twitter-150.jpg
+image: 
+  feature: paperfaces-rbartolome-twitter-lg.jpg
+  thumb: paperfaces-rbartolome-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

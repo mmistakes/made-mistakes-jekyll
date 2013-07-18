@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Bearded fella in a car"
 description: "PaperFaces portrait of @guylschmidt drawn with Paper by 53 on an iPad."
-image: paperfaces-guylschmidt-twitter-lg
-thumb: paperfaces-guylschmidt-twitter-150.jpg
+image: 
+  feature: paperfaces-guylschmidt-twitter-lg.jpg
+  thumb: paperfaces-guylschmidt-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

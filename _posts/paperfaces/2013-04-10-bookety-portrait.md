@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Shag cut in plaid"
 description: "PaperFaces portrait of @Bookety drawn with Paper by 53 on an iPad."
-image: paperfaces-bookety-twitter-lg
-thumb: paperfaces-bookety-twitter-150.jpg
+image: 
+  feature: paperfaces-bookety-twitter-lg.jpg
+  thumb: paperfaces-bookety-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

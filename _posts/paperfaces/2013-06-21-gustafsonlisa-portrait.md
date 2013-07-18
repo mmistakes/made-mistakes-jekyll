@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Long hair in black and white"
 description: "PaperFaces portrait of @Gustafsonlisa drawn with Paper by 53 on an iPad."
-image: paperfaces-gustafsonlisa-twitter-lg
-thumb: paperfaces-gustafsonlisa-twitter-150.jpg
+image: 
+  feature: paperfaces-gustafsonlisa-twitter-lg.jpg
+  thumb: paperfaces-gustafsonlisa-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
 ---

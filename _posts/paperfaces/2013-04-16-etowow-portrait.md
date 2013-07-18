@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Restaurant green lights the hair"
 description: "PaperFaces portrait of @etowow drawn with Paper by 53 on an iPad."
-image: paperfaces-etowow-twitter-lg
-thumb: paperfaces-etowow-twitter-150.jpg
+image: 
+  feature: paperfaces-etowow-twitter-lg.jpg
+  thumb: paperfaces-etowow-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

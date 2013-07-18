@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Developer slash designer"
 description: "PaperFaces portrait of @aripalo drawn with Paper by 53 on an iPad."
-image: paperfaces-aripalo-twitter-lg
-thumb: paperfaces-aripalo-twitter-150.jpg
+image: 
+  feature: paperfaces-aripalo-twitter-lg.jpg
+  thumb: paperfaces-aripalo-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

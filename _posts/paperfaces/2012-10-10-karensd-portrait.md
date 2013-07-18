@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Black and white girl"
 description: "PaperFaces portrait of @karensd drawn with Paper by 53 on an iPad."
-image: paperfaces-karensd-twitter-lg
-thumb: paperfaces-karensd-twitter-150.jpg
+image: 
+  feature: paperfaces-karensd-twitter-lg.jpg
+  thumb: paperfaces-karensd-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

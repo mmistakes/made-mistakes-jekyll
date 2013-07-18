@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Blonde black and white"
 description: "PaperFaces portrait of @_soaps drawn with Paper by 53 on an iPad."
-image: paperfaces-soaps-twitter-lg
-thumb: paperfaces-soaps-twitter-150.jpg
+image: 
+  feature: paperfaces-soaps-twitter-lg.jpg
+  thumb: paperfaces-soaps-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

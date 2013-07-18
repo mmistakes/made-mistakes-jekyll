@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Muted tones"
 description: "PaperFaces portrait of @akaheini drawn with Paper by 53 on an iPad."
-image: paperfaces-akaheini-twitter-lg
-thumb: paperfaces-akaheini-twitter-150.jpg
+image: 
+  feature: paperfaces-akaheini-twitter-lg.jpg
+  thumb: paperfaces-akaheini-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

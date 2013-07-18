@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Remember to always wear a helmet"
 description: "PaperFaces portrait of @mmoutenot drawn with Paper by 53 on an iPad."
-image: paperfaces-mmoutenot-twitter-lg
-thumb: paperfaces-mmoutenot-twitter-150.jpg
+image: 
+  feature: paperfaces-mmoutenot-twitter-lg.jpg
+  thumb: paperfaces-mmoutenot-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

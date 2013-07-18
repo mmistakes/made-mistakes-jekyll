@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Suit and tie against gray"
 description: "PaperFaces portrait of @farrenbennett drawn with Paper by 53 on an iPad."
-image: paperfaces-farrenbennett-twitter-lg
-thumb: paperfaces-farrenbennett-twitter-150.jpg
+image: 
+  feature: paperfaces-farrenbennett-twitter-lg.jpg
+  thumb: paperfaces-farrenbennett-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

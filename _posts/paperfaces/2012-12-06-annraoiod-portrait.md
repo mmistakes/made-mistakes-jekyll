@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Beret in black"
 description: "PaperFaces portrait of @AnnraoiOD drawn with Paper by 53 on an iPad."
-image: paperfaces-annraoiod-twitter-lg
-thumb: paperfaces-annraoiod-twitter-150.jpg
+image: 
+  feature: paperfaces-annraoiod-twitter-lg.jpg
+  thumb: paperfaces-annraoiod-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Hand eyes with a curly mustache"
 description: "PaperFaces portrait of @munkimatt drawn with Paper by 53 on an iPad."
-image: paperfaces-munkimatt-twitter-lg
-thumb: paperfaces-munkimatt-twitter-150.jpg
+image: 
+  feature: paperfaces-munkimatt-twitter-lg.jpg
+  thumb: paperfaces-munkimatt-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces

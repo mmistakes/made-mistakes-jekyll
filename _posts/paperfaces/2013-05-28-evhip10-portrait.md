@@ -1,9 +1,10 @@
 ---
-layout: paperfaces
+layout: work
 title: "Glowing glasses made from glowsticks"
 description: "PaperFaces portrait of @EvHip10 drawn with Paper by 53 on an iPad."
-image: paperfaces-evhip10-twitter-lg
-thumb: paperfaces-evhip10-twitter-150.jpg
+image: 
+  feature: paperfaces-evhip10-twitter-lg.jpg
+  thumb: paperfaces-evhip10-twitter-150.jpg
 category: paperfaces
 tags: 
 - PaperFaces
