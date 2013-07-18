@@ -12,6 +12,6 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Michael Rose, 
 
 Self portrait of [@mmistakes](http://twitter.com/mmistakes) (hey that's me) in an autumn field.
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/NqcGVymOiPo" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/NqcGVymOiPo" frameborder="0"> </iframe>

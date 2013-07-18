@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@tarungangwani](http://twitter.com/tarungangwani).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/1Q6fjg5G_GA" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/1Q6fjg5G_GA" frameborder="0"> </iframe>

@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of project donator [@juanrod82](http://twitter.com/juanrod82).
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/ao7naXkW72Y" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/ao7naXkW72Y" frameborder="0"> </iframe>

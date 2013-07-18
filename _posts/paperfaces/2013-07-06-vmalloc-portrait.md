@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 
 PaperFaces portrait of [@vmalloc](http://twitter.com/vmalloc).
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-vmalloc-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-vmalloc-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Lightly outlining the face before using watercolor to render forms.</figcaption>
@@ -23,5 +25,3 @@ PaperFaces portrait of [@vmalloc](http://twitter.com/vmalloc).
 	<a href="{{ site.url }}/images/paperfaces-vmalloc-process-5-lg.jpg"><img src="{{ site.url }}/images/paperfaces-vmalloc-process-5-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>The zoom tool is my friend, let's me use the pencil with greater precision.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

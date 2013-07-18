@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Go, game]
 
 **Project Donator** [@brianjolive](http://twitter.com/brianjolive) commissioned this portrait of his great friend and long time teacher of *Go*. Below are some in process screen captures over the course of an hour as I worked on the illustration. Let me just say this, drawing straight lines on glass and getting the correct perspective isn't easy.
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-go-master-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-go-master-process-1-600.jpg" alt=""></a>
 	<figcaption>Laying down a base coat of watercolor using pencil to outline the game board and figure.</figcaption>
@@ -33,5 +35,3 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Go, game]
 	<a href="{{ site.url }}/images/paperfaces-go-master-process-7-lg.jpg"><img src="{{ site.url }}/images/paperfaces-go-master-process-7-600.jpg" alt="Blocking out the figure using the pencil."></a>
 	<figcaption>Adding highlights and filling in the blue shirt with the pencil &#8212; starting light and darkening with watercolor along the way.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

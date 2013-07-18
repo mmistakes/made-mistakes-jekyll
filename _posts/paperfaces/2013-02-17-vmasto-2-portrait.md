@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of project donator [@vmasto](http://twitter.com/vmasto).
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/-Y9tUzWIcGs" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/-Y9tUzWIcGs" frameborder="0"> </iframe>

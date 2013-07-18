@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 
 PaperFaces portrait of [@endouz](http://twitter.com/endouz). Using white to paint lights that could be rain drop refractions... or not.
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-endouz-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-endouz-process-1-600.jpg" alt="Background in process screenshot"></a>
 	<figcaption>I start each drawing the same way, backgrounds first y'all.</figcaption>
@@ -34,5 +36,3 @@ PaperFaces portrait of [@endouz](http://twitter.com/endouz). Using white to pain
 	<a href="{{ site.url }}/images/paperfaces-endouz-process-8-lg.jpg"><img src="{{ site.url }}/images/paperfaces-endouz-process-8-600.jpg" alt="In process screenshot"></a>
 	<figcaption>Block in clothing with the fountain pen and marker tools and apply any shadows with gradual applications of watercolor.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

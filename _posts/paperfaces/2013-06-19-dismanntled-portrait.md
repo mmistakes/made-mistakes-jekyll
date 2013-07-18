@@ -11,9 +11,9 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, landscape]
 
 PaperFaces portrait of [@dismanntled](http://twitter.com/dismanntled).
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure>
 	<img src="{{ site.url }}/images/paperfaces-dismanntled-process-1-600.jpg" alt="In process screenshot">
 	<figcaption>Work in progress screenshot. Sketching out the body.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

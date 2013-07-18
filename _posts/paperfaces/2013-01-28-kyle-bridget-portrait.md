@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of project donator Kyle and Bridget.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/wWHJPy9FIhA" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/wWHJPy9FIhA" frameborder="0"> </iframe>

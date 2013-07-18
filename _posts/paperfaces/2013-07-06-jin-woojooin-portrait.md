@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 
 PaperFaces portrait of [@JIN_woojooin](http://twitter.com/JIN_woojooin).
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-jin-woojooin-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jin-woojooin-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Lightly outlining the face before using watercolor to render forms.</figcaption>
@@ -22,5 +24,3 @@ PaperFaces portrait of [@JIN_woojooin](http://twitter.com/JIN_woojooin).
 	<a href="{{ site.url }}/images/paperfaces-jin-woojooin-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jin-woojooin-process-4-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Watercolor all day everyday. Using a Pogo Connect pen stylus let's you taper edges like you never thought possible.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

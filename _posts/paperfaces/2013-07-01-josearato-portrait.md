@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 
 PaperFaces portrait of project donator [@josearato](http://twitter.com/josearato). Why did I almost draw the entire face this team --- because well, I had to leave something unfinished.
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-josearato-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-josearato-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Lightly sketch out the composition to act as a guide for painting with watercolor.</figcaption>
@@ -28,5 +30,3 @@ PaperFaces portrait of project donator [@josearato](http://twitter.com/josearato
 	<a href="{{ site.url }}/images/paperfaces-josearato-process-5-lg.jpg"><img src="{{ site.url }}/images/paperfaces-josearato-process-5-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Short quick pencil marks can make for convincing facial hair. Pinch to zoom in and work dark to light from the edge in.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

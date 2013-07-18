@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@4lala](http://twitter.com/4lala).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/xvpF730pDQk" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/xvpF730pDQk" frameborder="0"> </iframe>

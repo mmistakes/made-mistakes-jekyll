@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 
 PaperFaces portrait of project donator [@bobbydharrell](http://twitter.com/bobbydharrell).
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-bobbydharrell-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bobbydharrell-process-1-600.jpg" alt="In process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-bobbydharrell-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bobbydharrell-process-2-600.jpg" alt="In process screenshot"></a>
@@ -22,5 +24,3 @@ PaperFaces portrait of project donator [@bobbydharrell](http://twitter.com/bobby
 	<a href="{{ site.url }}/images/paperfaces-bobbydharrell-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bobbydharrell-process-4-600.jpg" alt="In process screenshot"></a>
 	<figcaption>Rendering the face with various shades of gray and dull and dirty reds.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

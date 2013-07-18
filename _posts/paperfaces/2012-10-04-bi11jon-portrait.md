@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@bi11jon](http://twitter.com/bi11jon).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/dRIxg-RYJ9g" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/dRIxg-RYJ9g" frameborder="0"> </iframe>

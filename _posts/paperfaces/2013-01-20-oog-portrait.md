@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@Oog](http://twitter.com/Oog).
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/bHp3aHMQxA0" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/bHp3aHMQxA0" frameborder="0"> </iframe>

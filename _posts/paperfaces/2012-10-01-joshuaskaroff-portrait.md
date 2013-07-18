@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@joshuaskaroff](http://twitter.com/joshuaskaroff).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/NEOjUwRFtbQ" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/NEOjUwRFtbQ" frameborder="0"> </iframe>

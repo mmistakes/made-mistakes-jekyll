@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, beard]
 
 PaperFaces portrait of [@benbrignell](http://twitter.com/benbrignell).
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-benbrignell-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-benbrignell-process-1-600.jpg" alt="Adding detail with the pencil tool."></a>
 	<a href="{{ site.url }}/images/paperfaces-benbrignell-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-benbrignell-process-2-600.jpg" alt="Using the zoom tool to draw the black and white game pieces."></a>
@@ -22,5 +24,3 @@ PaperFaces portrait of [@benbrignell](http://twitter.com/benbrignell).
 	<a href="{{ site.url }}/images/paperfaces-benbrignell-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-benbrignell-process-4-600.jpg" alt="Using the zoom tool to draw the black and white game pieces."></a>
 	<figcaption>Adding detail and refining edges using the pencil and zoom tools.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

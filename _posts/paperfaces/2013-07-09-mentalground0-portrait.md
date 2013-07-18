@@ -11,6 +11,8 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 
 PaperFaces portrait of [@mentalground0](http://twitter.com/mentalground0).
 
+{% include paperfaces-boilerplate-2.html %}
+
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-mentalground0-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-mentalground0-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Quickly sketching things out and laying down some watercolor.</figcaption>
@@ -20,5 +22,3 @@ PaperFaces portrait of [@mentalground0](http://twitter.com/mentalground0).
 	<a href="{{ site.url }}/images/paperfaces-mentalground0-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-mentalground0-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Building up the faces and background with watercolor.</figcaption>
 </figure>
-
-{% include paperfaces-boilerplate-2.html %}

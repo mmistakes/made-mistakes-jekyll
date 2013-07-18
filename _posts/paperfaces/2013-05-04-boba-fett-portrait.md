@@ -17,6 +17,6 @@ tags:
 
 Starting Star Wars Day off with a portrait of my dude Boba. May the 4th be with you! Speed painting video is embedded below for your viewing pleasure.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>

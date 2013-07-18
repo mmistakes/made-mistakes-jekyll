@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of project donator [@Shinfu](http://twitter.com/Shinfu) jumping really high in a blue sky landscape.
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/eg7iMJTe_U0" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/eg7iMJTe_U0" frameborder="0"> </iframe>

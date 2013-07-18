@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@kessler](http://twitter.com/kessler).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/g6r-pZY3Awc" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/g6r-pZY3Awc" frameborder="0"> </iframe>

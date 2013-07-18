@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@omri_mor](http://twitter.com/omri_mor).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/c2sYfotHIl0" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/c2sYfotHIl0" frameborder="0"> </iframe>

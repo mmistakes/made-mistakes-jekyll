@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of [@maxquattromani](http://twitter.com/maxquattromani).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/8znOwv0XxcI" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/8znOwv0XxcI" frameborder="0"> </iframe>

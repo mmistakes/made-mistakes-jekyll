@@ -16,6 +16,6 @@ tags:
 
 PaperFaces portrait of project donator [@jamesIII](http://twitter.com/jamesIII).
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/ntWqGHiApsE" frameborder="0"> </iframe>
-
 {% include paperfaces-boilerplate.html %}
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/ntWqGHiApsE" frameborder="0"> </iframe>
