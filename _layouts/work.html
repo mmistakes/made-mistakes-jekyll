@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body id="photo" itemscope itemtype="http://schema.org/WebPage">
+<body id="work" itemscope itemtype="http://schema.org/WebPage">
 
 {% include browser-upgrade.html %}
 {% include navigation.html %}
@@ -40,7 +40,7 @@
       <header class="entry-header">
         <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
       </header>
-      <footer class="entry-meta hidden">
+      <footer class="entry-meta">
           <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
           <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
           <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="icon-calendar-empty"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
