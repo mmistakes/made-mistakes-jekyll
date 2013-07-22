@@ -8,6 +8,7 @@ image:
   small: imac-glitch-340x100.jpg
   thumb: imac-glitch-thumb.jpg
 tags: [iMac, logic board, Apple]
+adsense: true
 ---
 
 ## A Little Trip Down Macintosh Memory Lane
