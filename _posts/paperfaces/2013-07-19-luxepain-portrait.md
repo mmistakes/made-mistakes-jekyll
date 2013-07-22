@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-PaperFaces portrait of [@luxepain](http://twitter.com/surjithctly). Always looking to further perfect my hair drawing skills --- boy was there a bunch of hair for me to practice on in this sketch! I'm including a few work in progress screen grabs below showing how I built up the hair with pencil line after pencil line after pencil line.
+PaperFaces portrait of [@luxepain](http://twitter.com/luxepain). Always looking to further perfect my hair drawing skills --- boy was there a bunch of hair for me to practice on in this sketch! I'm including a few work in progress screen grabs below showing how I built up the hair with pencil line after pencil line after pencil line.
 
 {% include paperfaces-boilerplate-2.html %}
 
