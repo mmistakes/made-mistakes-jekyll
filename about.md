@@ -7,7 +7,7 @@ modified: 2013-07-11
 description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
 image: 
   feature: paperfaces-michael-rose-beard-xl.jpg
-tags: [Michael Rose, graphic design, design, designer, Buffalo, print, catalog design, web design, made mistakes, mmistakes, feature]
+tags: [Michael Rose, design, Buffalo, web design, feature]
 ---
 
 <link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/form.css css/form.css %}">
@@ -21,9 +21,13 @@ I've since decided to go <abbr>CMS</abbr>-free and utilize black magick and [Jek
 
 ### And Who Are You Again?
 
-Oh hey --- I'm Michael Rose, just another bearded, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
+<img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo pull-right">
 
-Oh, and I'm a recent father of twin girls and will someday help redesign [my wife's blog](http://2littlerosebuds.com "2 Little Rosebuds")...
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
+
+When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/tag/jekyll), or [building the next great thing](http://ekowave.com), I work as an inhouse web and print designer for a science education company. On any given day I could be designing product catalogs, marketing collateral, landing pages, email promotions and newsletters, or just getting cozy with <abbr>HTML</abbr>, <abbr>CSS</abbr>, and JavaScript.
+
+Oh, and I'm a recent father of twin girls and will someday help redesign [my wife's site](http://2littlerosebuds.com "2 Little Rosebuds")...
 
 ## Contact Me
 
@@ -32,18 +36,10 @@ Send a short message below or [@reply me on Twitter](http://twitter.com/mmistake
 <form id="form1" name="form1" class="wufoo  page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
 action="https://mademistakes.wufoo.com/forms/z7x4m1/#public">
     <ul>
-      <li id="foli1" 
-class="notranslate      ">
+      <li id="foli1" class="notranslate      ">
         <label class="desc" id="title1" for="Field1"> Message <span id="req_1" class="req">*</span> </label>
         <div>
-          <textarea id="Field1" 
-name="Field1" 
-class="field textarea medium" 
-spellcheck="true" 
-rows="10" cols="50" 
-tabindex="1" 
-onkeyup=""
-required  ></textarea>
+          <textarea id="Field1" name="Field1" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="1" onkeyup="" required></textarea>
         </div>
       </li>
       <li id="foli7" class="notranslate      ">
@@ -61,8 +57,7 @@ required  ></textarea>
       </li>
       <li class="buttons ">
         <div>
-          <input id="saveForm" name="saveForm" class="btTxt submit btn btn-inverse" 
-    type="submit" value="Send Message"
+          <input id="saveForm" name="saveForm" class="btTxt submit btn btn-inverse" type="submit" value="Send Message"
  />
         </div>
       </li>
