@@ -10,6 +10,7 @@ category: articles
 tags: [Paper by 53, drawing, hair, iPad, tutorial]
 comments: true
 feature: true
+adsense: true
 ---
 
 ## Block Out the Hair

@@ -10,6 +10,7 @@ image:
 tags: [poster, rasterbator, print, time lapse, tech geek]
 comments: true
 feature: true
+adsense: true
 ---
 
 A few weekends ago I decided to cover one of the walls in the office with a large poster. I've toyed around with black and white rasterbated images before, but I really wanted to see how well a full color one would look. My office walls are a lime green color and I figured something with dark greens would contrast nicely. Choosing a forest scene with a huge owl seemed right up my alley so I got to work on it's creation.

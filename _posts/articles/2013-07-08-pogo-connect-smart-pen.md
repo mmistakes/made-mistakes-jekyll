@@ -9,6 +9,7 @@ category: articles
 tags: [Paper by 53, stylus, illustration, review, iPad]
 comments: true
 feature: true
+adsense: true
 ---
 
 I've been lusting over the promise of pressure sensitive drawing on an iPad ever since I first read about the [Pogo Connect Smart Pen]( http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20). Released back in January for around $80, I held off buying one until the price dropped. Waiting turned out to be smart since my favorite iOS app [**Paper by 53**]({{ site.url }}/tag/paper-by-53) also saw numerous updates to better support the Pogo Connect.
