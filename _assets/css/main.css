@@ -113,7 +113,6 @@ p code{font-size:16px;font-size:1rem;white-space:nowrap;margin:0 2px;padding:0 5
 hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}
 figure{margin:0;padding-top:10px;padding-bottom:10px;}@media only screen and (min-width: 62.5em){figure.half a{width:310px;float:left;}figure.half a:nth-child(odd){margin-right:10px;} figure.half a:nth-child(even){margin-left:10px;} figure.half figcaption{clear:left;}}
 @media only screen and (min-width: 62.5em){figure.third a{width:200px;float:left;margin-right:10px;margin-left:10px;}figure.third a:first-child{margin-left:0;} figure.third a:nth-child(3){margin-right:0;} figure.third figcaption{clear:left;}}
-img{max-width:100%;height:auto;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
 svg:not(:root){overflow:hidden;}
 .recent-grid{*zoom:1;}.recent-grid li{float:left;padding:2px !important;}
 .recent-grid a{border-bottom:0 solid !important;}.recent-grid a:hover{border-bottom:0 solid !important;}
