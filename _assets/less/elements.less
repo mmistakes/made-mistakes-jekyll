@@ -10,11 +10,11 @@ hr {
 
 // Figures and images
 // --------------------------------------------------
-
 figure {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
+  .clearfix();
   &.half {
     @media @large {
       a {
@@ -51,13 +51,6 @@ figure {
       }
     }
   }
-}
-img {
-  max-width: 100%;
-  height: auto;
-  border-width: 0; 
-  vertical-align: middle; 
-  -ms-interpolation-mode: bicubic; 
 }
 svg:not(:root) {
   overflow: hidden; 

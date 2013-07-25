@@ -111,9 +111,10 @@ p code{font-size:16px;font-size:1rem;white-space:nowrap;margin:0 2px;padding:0 5
 .hidden{display:none;visibility:hidden;}
 .visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{position:static;clip:auto;height:auto;width:auto;margin:0;overflow:visible;}
 hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}
-figure{margin:0;padding-top:10px;padding-bottom:10px;}@media only screen and (min-width: 62.5em){figure.half a{width:310px;float:left;}figure.half a:nth-child(odd){margin-right:10px;} figure.half a:nth-child(even){margin-left:10px;} figure.half figcaption{clear:left;}}
+figure{margin:0;padding-top:10px;padding-bottom:10px;*zoom:1;}figure:before,figure:after{display:table;content:"";line-height:0;}
+figure:after{clear:both;}
+@media only screen and (min-width: 62.5em){figure.half a{width:310px;float:left;}figure.half a:nth-child(odd){margin-right:10px;} figure.half a:nth-child(even){margin-left:10px;} figure.half figcaption{clear:left;}}
 @media only screen and (min-width: 62.5em){figure.third a{width:200px;float:left;margin-right:10px;margin-left:10px;}figure.third a:first-child{margin-left:0;} figure.third a:nth-child(3){margin-right:0;} figure.third figcaption{clear:left;}}
-img{max-width:100%;height:auto;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
 svg:not(:root){overflow:hidden;}
 .recent-grid{*zoom:1;}.recent-grid li{float:left;padding:2px !important;}
 .recent-grid a{border-bottom:0 solid !important;}.recent-grid a:hover{border-bottom:0 solid !important;}
@@ -638,11 +639,11 @@ body{margin:0;padding:0;width:100%;background-color:#ffffff;border-top:5px solid
 .navigation-wrapper ul{display:inline-block;vertical-align:top;margin:0 0 50px;padding:4px 20px;background-color:#000000;-webkit-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;*zoom:1;}.navigation-wrapper ul:before,.navigation-wrapper ul:after{display:table;content:"";line-height:0;}
 .navigation-wrapper ul:after{clear:both;}
 .navigation-wrapper li{display:block;float:left;list-style:none;text-align:center;font-size:14px;font-size:0.875rem;text-transform:uppercase;color:#ffffff;}
-.navigation-wrapper a{display:block;padding:6px 10px;color:#ffffff;border:1px solid #000000;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.navigation-wrapper a:hover{border:1px solid #ffffff;border-bottom:1px solid #808080;border:1px solid rgba(255, 255, 255, 0.5);}
+.navigation-wrapper a{display:block;padding:6px 10px;color:#ffffff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.navigation-wrapper a:hover{background-color:#1a1a1a;}
 #site-nav{z-index:9999;display:none;}@media only screen and (min-width: 48em){#site-nav{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-delay:.05s;-moz-animation-delay:.05s;-o-animation-delay:.05s;animation-delay:.05s;}}@media only screen and (min-width: 48em){#site-nav.closed{display:block;}}
 #site-nav.opened{display:block;max-height:100%;}#site-nav.opened li{float:none;}
 .no-js #site-nav{display:block;}
-#nav-toggle{display:block;vertical-align:top;margin:0;padding:4px 20px;background-color:#000000;-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;}@media only screen and (min-width: 48em){#nav-toggle{display:none;}}
+#nav-toggle{display:block;vertical-align:top;margin:0;padding:4px 20px;background-color:#000000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}@media only screen and (min-width: 48em){#nav-toggle{display:none;}}
 .masthead{margin-top:40px;*zoom:1;}.masthead:before,.masthead:after{display:table;content:"";line-height:0;}
 .masthead:after{clear:both;}
 @media only screen and (min-width: 48em){.masthead{margin-top:0;}}.masthead .wrap{text-align:center;max-width:27.5em;padding-right:20px;padding-left:20px;}@media only screen and (min-width: 48em){.masthead .wrap{max-width:45.5em;padding-right:60px;padding-left:60px;}}@media only screen and (min-width: 62.5em){.masthead .wrap{max-width:60em;}}
