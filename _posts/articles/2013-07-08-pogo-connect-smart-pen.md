@@ -2,6 +2,7 @@
 layout: post
 title: "A Pogo Connect Smart Pen Makes Paper by 53 Better"
 description: "In my opinion the Pogo Connect is worth every penny because it enhances Paper by 53 in ways capacitive styluses can't."
+modified: 2013-07-26
 image: 
   feature: pogo-connect-review-feature.jpg
   thumb: pogo-connect-review-thumb.jpg
@@ -23,7 +24,7 @@ For my birthday [my wife](http://2littlerosebuds.com) picked me up one and I sta
 	<figcaption>As you can see the Pogo Connect Smart Pen's tip looks like most other capacitive stylus pens out there. It feels like and drags on the iPad's screen the same too.</figcaption>
 </figure>
 
-So how does the Pogo Connect's feel compare to other styluses? In your hand it doesn't quite have the same solidness as the LunaTik or an [AluPen]( http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20). By no means is it cheap feeling, but it doesn't have the heft as those other two pens. The tip isn't any more accurate than your average rubber nub stylus, so if you're looking for precision look at the [Adonit Jot Pro]( http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) line instead.
+So how does the Pogo Connect's feel compare to other styluses? In your hand it doesn't quite have the same solidness as the LunaTik or an [AluPen]( http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20). By no means is it cheap feeling, but it doesn't have the heft as those other two pens. The tip isn't any more accurate than your average rubber nub stylus, so if you're looking for precision look at the [Adonit Jot Touch 4](http://www.amazon.com/gp/product/B00AO1L1RG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AO1L1RG&linkCode=as2&tag=mademist-20) line instead.
 
 ## Setting it up is a breeze
 
@@ -103,4 +104,17 @@ During my first week with the Pogo I encountered another issue that I thought mi
 	<figcaption>Toggling iPad Cover Lock/Unlock to OFF in Settings will stop the Pogo from turning off your screen if you get to close to the edge.</figcaption>
 </figure>
 
-Even with these hiccups I'm still a big fan of the Pogo Connect. Gives me hope that companies like [Ten One Design]( https://www.tenonedesign.com) will continue to innovate in this space, giving digital creators tools that are even closer to the real thing. Who knows, maybe Apple will rethink that whole "if you see a stylus they blew it" line of thinking and do something to help nurture this.
+Even with these hiccups I'm still a big fan of the Pogo Connect. Gives me hope that companies like [Ten One Design](https://www.tenonedesign.com) will continue to innovate in this space, giving digital creators tools that are even closer to the real thing. Who knows, maybe Apple will rethink that whole "if you see a stylus they blew it" line of thinking and do something to help nurture this.
+
+## Update. Two Months Later
+
+Well that didn't take long. About a month after writing this review and two months of daily drawing, my Pogo Connect finally gave up the ghost. Out of the blue I was drawing and my strokes stopped registering in Paper. I figured it was just a software hiccup and the stylus temporarily lost connectivity, but no.
+
+Removed the rubber tip to find this mess. Like many others, the metal contact that is soldered to the internal circuit board broke free rendering the pressure sensitivity useless.
+
+<figure>
+	<img src="{{ site.url }}/images/pogo-connect-broken-circuit.jpg" alt="Pogo Connect broken circuit connection and tip">
+	<figcaption>I don't think this metal contact is suppose to break off so easily...</figcaption>
+</figure>
+
+I have an email out to Ten One Design to see what can be done. I've heard they respond quickly with free replacements, which could indicate they're aware of a major design flaw and trying to do right by it. I just don't know if I can continue to recommend the product if it's prone to breaking after a few months. I'll let you know things go...
