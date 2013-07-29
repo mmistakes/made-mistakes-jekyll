@@ -14,7 +14,7 @@ adsense: true
 
 Paper by 53 and me were BFFs from the start. Spread across my journals you'd find around 600 pages with creation times ranging from 30 minutes to 4 hours. A conservative estimate has me logged at around 500 hours of drawing and painting in this iOS app --- which is kind of crazy when I think about it. I'm not sure if that qualifies me as a good teacher or what, but I'm going to try and expand on some tips and techniques I've previously written about in a 3 part series.
 
-<< insert Paper journals screenshot >>
+![Paper 53 journals screenshot]({{ site.url }}/images/paper-53-journals.jpg)
 
 This first part is predominantly about the benefits of a stylus, how to use all of the Paper by 53 tools, and basic gestures you'll want to master. Parts 2 and 3 will dig deeper into techniques I use to capture realism in my drawings, advanced features like copying pages, organizing color, making Paper by 53 videos, and getting featured in the *Made With Paper* gallery.
 
@@ -36,7 +36,7 @@ When describing these tools I will be using the following descriptors:
 
 * **Speed:** How does the speed of drawing affect a line's weight.
 * **Character:** Are marks opaque[^opaque] or translucent and how many layers are needed to make a pure color[^pure-color].
-* **Sensitivity:** How are marks and line quality affected by the amount of pressure applied when using a Pogo Connect Smart Pen or [Jot Touch 4](http://www.amazon.com/gp/product/B00AO1L1RG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AO1L1RG&linkCode=as2&tag=mademist-20).
+* **Sensitivity:** How are marks and line quality affected by the amount of pressure applied when using a Pogo Connect Smart Pen.
 
 ### Eraser {#eraser}
 
@@ -44,21 +44,23 @@ The eraser does what its name implies --- it erases. It is not the most precise 
 
 For handling cleanup duty, the eraser is very effective at defining edges and making them straight. By simply running it along an edge you can remove jaggies left by a pencil or watercolor stroke.
 
-<< insert erased edge screenshot >>
+![Erased edge screenshot]({{ site.url }}/images/paper-53-erased-edge.jpg)
 
 * **Speed:** Slow = thin. Fast = thick.
 * **Character:** Completely opaque. One stroke erases down to the egg shell white colored background.
 * **Sensitivity:** Soft = thin. Hard = thick.
 
-<< insert erase line showing thin to thick >>
+![Eraser line showing thin to thick]({{ site.url }}/images/paper-53-eraser-thick-thin.jpg)
 
 ### Fountain pen (Draw) {#fountain-pen}
 
 Along with the eraser, the fountain pen is included for free when you download Paper by FiftyThree from the App Store. This was the tool I originally used the most when experimenting with Paper a year ago. It's hard not to fall in love with the flowing lines it makes when sliding your fingertips across the iPad's glass screen.
 
+![Fountain pen shapes to show the tool's opacity]({{ site.url }}/images/paper-53-fountain-pen-layers.jpg)
+
 My drawing style has involved over the year from crisp line work to soft blended edges and tones. Because of this shift the fountain pen sees less use from me and has been demoted to janitorial status like the eraser. Perfect for getting into tight places it also works well when coloring large blocks of color.
 
-<< insert background fill cover-up screenshot >>
+![Background fill cover-up screenshot]({{ site.url }}/images/paper-53-background-fill.jpg)
 
 **Pro-tip 1:** The eraser removes everything --- including a background filled with color. A fountain pen filled with color that matches the background can be used instead of the eraser to correct mistakes.
 {: .notice}
@@ -71,7 +73,7 @@ My drawing style has involved over the year from crisp line work to soft blended
 
 Versatile and perfect in almost any situation --- this is the one tool you should invest time in learning. The marks created by the pencil have a nice texture to them which makes it perfect for shading and blending colors together gradually. It also works great for lightly sketching to nail your composition before inking and painting.
 
-<< insert pencil sketch screenshot >>
+![Pencil sketch screenshot]({{ site.url }}/images/paper-53-pencil-sketch.jpg)
 
 Shading power is amplified immensely when used with a fancy Bluetooth stylus with pressure sensitivity. If you've used a pencil in real life to draw you already know how to use this digital incarnation --- making it one of the most precise and forgivable tools in Paper's toolbox. 
 
@@ -83,13 +85,16 @@ Shading power is amplified immensely when used with a fancy Bluetooth stylus wit
 
 Unlike the fountain pen, the marker makes transparent marks you can see through. To make sense of the marker I like to think of it behaving like one of those yellow highlighters. If you drew yellow over black it wouldn't show up, the same is true in Paper.
 
-<< insert layers of marker highlighter screenshot >>
+![Layers of marker acting like a highlighter screenshot]({{ site.url }}/images/paper-53-marker-yellow-layers.jpg)
 
 The exception to this rule is when the marker is filled with white. In this case it would act almost identically to the eraser but instead of leaving an off white mark in its wake, you get an almost fully opaque white. 
 
-<< insert eraser vs. marker lines screenshot >>
+<figure>
+	<img src="{{ site.url }}/images/paper-53-eraser-vs-marker.jpg" alt="Eraser vs. marker lines screenshot">
+	<figcaption>If you look closely you can spot the difference in color.</figcaption>
+</figure>
 
-When crisp shadows and values are desired in your illustrations, the marker tool is A+++. I tend to work more photo-realistic and like my gradations on the softer side, but if you want that comic book look the marker might be your new BFF.
+When sharp shadows and values are desired in your illustrations, the marker tool is A+++. I tend to work more photo-realistic and like my gradations on the softer side, but if you want that comic book look the marker might be your new BFF.
 
 << insert comic style shading with marker screenshot >>
 
@@ -124,9 +129,9 @@ It helps to think of you stylus tip as a brush loaded with watered down paint. B
 
 This "thinned out" behavior also factors into how even of a coat you can apply. *Moving the brush faster* doesn't let the paint fully cover a spot and will make it appear choppy. While *moving slowly* allows the paint to flow evenly off the brush and build into a dark even value. Mastering the speed at which you apply color is essential to creating even tones for shading.
 
-It may be helpful to create a few color scales with the primary colors, gray, and black to practice. Below are a couple scales I created for myself after FiftyThree updated Paper to include the the Color Mixer tool.
+It may be helpful to create a few color scales with the primary colors, gray, and black to practice. Below are watercolor tests I created for myself after FiftyThree updated Paper to include the Color Mixer tool.
 
-<< insert color scales screenshot >>
+![Gradations created with the watercolor brush]({{ site.url }}/images/paper-53-watercolor-layers.jpg)
 
 **Pro-tip:** When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots.
 {: .notice}
@@ -139,7 +144,7 @@ Before the Color Mixer existed, you had to get creative if you wanted a color ot
 
 Color theory is a tricky dick --- thankfully FiftyThree did something great with their Color Mixer. Mixing in colors from any of the new palettes will almost always give you something that looks great.
 
-For those who need more control or want a traditional color picker --- one can be accessed by dragging a color swatch onto the mixing wheel, then tapping on it. From here you can adjust a color's hue, saturation, and brightness.
+For those who need more control or want a traditional color picker --- one can be accessed by dragging a color swatch onto the mixing wheel, then tapping on it. From here you can adjust a color's hue, saturation, and luminosity.
 
 << insert color picker screenshot >>
 
