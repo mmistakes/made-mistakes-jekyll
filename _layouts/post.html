@@ -27,6 +27,7 @@
         {% if page.modified %}<span class="entry-date date updated"><time datetime="{{ page.modified }}" itemprop="dateModified"><i class="icon-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
         {% if page.comments %}<span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
         <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}" itemprop="url"><i class="icon-link"></i> Permalink</a></span>
+        {% if page.adsense %}{% include google-adsense.html %}{% endif %}
       </footer>
       <div class="entry-content" itemprop="description">
         {{ content }}
@@ -55,7 +56,6 @@
         {% endif %}
     </nav><!-- /.pagination -->
     {% if page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
-    {% if page.adsense %}{% include google-adsense.html %}{% endif %}
     </div><!-- /.entry-wrapper -->
   </article>
 </div><!-- /#main -->
