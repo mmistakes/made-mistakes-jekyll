@@ -33,12 +33,12 @@
   {% endif %}
 {% endfor %}
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <article class="hentry" itemscope itemtype="http://schema.org/Blogpageing" itemprop="blogpage">
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <article class="entry" itemscope itemtype="http://schema.org/ItemPage">
     {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
       </header>
       <footer class="entry-meta">
           <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
@@ -48,7 +48,7 @@
           {% if page.comments %}<span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
           <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></span>
       </footer>
-      <div class="entry-content">
+      <div class="entry-content" itemprop="description">
         {{ content }}
         <hr />
         <h2><a href="{{ site.url }}/{{ catg_name }}/">View More</a></h2>
@@ -57,6 +57,9 @@
             <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumb" /></a></li>
           {% endfor %}
         </ul>
+        <div class="notice">
+          <h4>Enjoyed this? <a href="http://twitter.com/mmistakes" target="_blank">Follow me on Twitter</a> or <a href="http://feeds.feedburner.com/MadeMistakes">Subscribe to the Feed</a> for more.</h4>
+        </div><!-- /.notice -->
       </div><!-- /.entry-content -->
       <nav class="pagination" role="navigation">
         {% if prev_post %}
