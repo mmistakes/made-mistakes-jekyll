@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Mastering Paper by 53 &ndash; an Expanded Guide Part 1 of 3"
-description: "3 part series on Paper by 53 explaining the tools and how to exploit them for drawing realistic."
+title: "Mastering Paper by 53, an Expanded Guide Part 1 of 3"
+description: "An introduction to Paper's tools and how to exploit them for drawing realistically."
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
