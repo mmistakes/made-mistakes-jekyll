@@ -125,7 +125,7 @@ Like the pencil, the watercolor brush is another tool you really should spend ti
 **Pro-tip:** While there is no obvious way to change the size of your brush in Paper by 53, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one.
 {: .notice}
 
-It helps to think of you stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color with multiple layers.
+It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color with multiple layers.
 
 ![Choppy painting vs. consistent painting screenshot]({{ site.url }}/images/paper-53-watercolor-even-fill.jpg)
 
