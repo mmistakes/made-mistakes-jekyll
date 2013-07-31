@@ -319,9 +319,12 @@ span + .entry-title {
 // Disqus Comments
 #disqus_thread {
 	max-width: 640px;
-	margin-top: 2em;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 2em;
+	border-top: 1px solid lighten(@black,80);
+	border-top: 1px solid fade(@black,10);
+	.clearfix();
 }
 // Pagination
 .pagination {
@@ -329,6 +332,7 @@ span + .entry-title {
 	padding: 2em 0;
 	border-top: 1px solid lighten(@black,80);
 	border-top: 1px solid fade(@black,10);
+	.clearfix();
 	@media @medium {
 		padding: 0;
 		border-top: 0 solid;
