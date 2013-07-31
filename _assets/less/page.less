@@ -322,9 +322,10 @@ span + .entry-title {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 2em;
-	border-top: 1px solid lighten(@black,80);
-	border-top: 1px solid fade(@black,10);
 	.clearfix();
+	@media @large {
+		padding-left: 80px;
+	}
 }
 // Pagination
 .pagination {
