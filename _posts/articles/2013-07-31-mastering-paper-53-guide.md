@@ -37,7 +37,7 @@ Starting with order of appearance you have the following tools at your disposal:
 When describing these tools I will be using the following descriptors:
 
 * **Speed:** How does the speed of drawing affect a line's weight.
-* **Character:** Are marks opaque[^opaque] or translucent and how many layers are needed to make a pure color[^pure-color].
+* **Blending:** Are marks opaque[^opaque] or translucent and how many layers are needed to make a pure color[^pure-color].
 * **Sensitivity:** How are marks and line quality affected by the amount of pressure applied when using a Pogo Connect Smart Pen.
 
 ### Eraser {#eraser}
@@ -49,7 +49,7 @@ For handling cleanup duty, the eraser is very effective at defining edges and ma
 ![Erased edge screenshot]({{ site.url }}/images/paper-53-erased-edge.jpg)
 
 * **Speed:** Slow = thin. Fast = thick.
-* **Character:** Completely opaque. One stroke erases down to the egg shell white colored background.
+* **Blending:** Completely opaque. One stroke erases down to the egg shell white colored background.
 * **Sensitivity:** Soft = thin. Hard = thick.
 
 ![Eraser line showing thin to thick]({{ site.url }}/images/paper-53-eraser-thick-thin.jpg)
@@ -68,7 +68,7 @@ My drawing style has evolved over the year from crisp line work to soft blended 
 {: .notice}
 
 * **Speed:** Slow = thin. Fast = thick.
-* **Character:** Almost fully opaque. Depending on the color it can take 2--3 layers to create a purely opaque color.
+* **Blending:** Almost fully opaque. Depending on the color it can take 2--3 layers to create a purely opaque color.
 * **Sensitivity:** Soft = thin. Hard = thick.
 
 ### Pencil (Sketch) {#pencil}
@@ -80,7 +80,7 @@ Versatile and perfect in almost any situation --- this is the one tool you shoul
 Shading power is amplified immensely when used with a fancy Bluetooth stylus with pressure sensitivity. If you've used a pencil in real life to draw you already know how to use this digital incarnation --- making it one of the most precise and forgivable tools in Paper's toolbox. 
 
 * **Speed:** Slow = dark. Fast = light.
-* **Character:** Translucent --- takes many layers to create a purely opaque color.
+* **Blending:** Semi-transparent --- takes many layers to create a purely opaque color.
 * **Sensitivity:** Soft = light. Hard = dark.
 
 ### Marker (Outline) {#marker}
@@ -101,7 +101,7 @@ When sharp shadows and values are desired in your illustrations, the marker tool
 ![Comic book style shading with marker screenshot]({{ site.url }}/images/paper-53-eraser-sharp-edge.jpg)
 
 * **Speed:** Slow = thick. Fast = thin.
-* **Character**: Transparent, with the exception of white and black.
+* **Blending**: Transparent, with the exception of white and black.
 * **Sensitivity**: Soft = thin. Hard = thick.
 
 ### Ink pen (Write) {#ink-pen}
@@ -115,7 +115,7 @@ If you found the fountain pen's thick/thins undesirable or hard to control the i
 Before I began using a Pogo Connect Smart Pen exclusively, I did all my lettering and writing with the fountain pen. I found the pressure sensitivity of that stylus difficult to control when crafting letter forms, so I switched to the ink pen[^pen-lettering] instead. 
 
 * **Speed:** The difference is barely noticeable. Moving slower will make a slightly thicker line.
-* **Character:** Opaque.
+* **Blending:** Opaque.
 * **Sensitivity:** The difference is barely noticeable. Pressing harder will make a slightly thicker line.
 
 ### Watercolor brush (Color) {#watercolor-brush}
