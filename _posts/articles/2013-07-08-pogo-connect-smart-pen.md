@@ -26,7 +26,7 @@ For my birthday [my wife](http://2littlerosebuds.com) picked me up one and I sta
 
 So how does the Pogo Connect's feel compare to other styluses? In your hand it doesn't quite have the same solidness as the LunaTik or an [AluPen]( http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20). By no means is it cheap feeling, but it doesn't have the heft as those other two pens. The tip isn't any more accurate than your average rubber nub stylus, so if you're looking for precision look at the [Adonit Jot Touch 4](http://www.amazon.com/gp/product/B00AO1L1RG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AO1L1RG&linkCode=as2&tag=mademist-20) line instead.
 
-## Setting it up is a breeze
+## Setting It Up is a Breeze
 
 The Pogo Connect comes with a name brand AAA battery to get you up and running right away. I've been drawing with it every day for over a month and I have around 60% of battery life remaining --- not bad at all. To pair with your iPad just fire up Paper by 53 ([or one of the many supported apps]( https://www.tenonedesign.com/connect.php)) and press the button near the tip. After a few seconds it should connect over Bluetooth and you're set to go.
 
@@ -48,7 +48,7 @@ If you're using Procreate similar options are presented, along with a cool featu
 	<figcaption>Procreate takes advantage of the LED light and will change hues depending on the current color.</figcaption>
 </figure>
 
-## Is the Pogo Connect better for drawing?
+## Is the Pogo Connect Better for Drawing?
 
 I suppose you want to know if the Pogo Connect lives up to the hype. In my opinion, yes --- yes it does. 
 
@@ -78,15 +78,15 @@ If it's not painfully obvious from the sample sketches, the Pogo Connect Smart P
  
 In my opinion the two tools that benefit the most from using a Pogo Connect stylus are the watercolor brush and pencil. Both tools become more responsive and natural to use --- especially the pencil when used for shading and sketching. The watercolor brush gets the added benefit of being able to draw thinner strokes than your finger or other styluses can, which is nice since there is no way to control brush size yet.
 
-### On the subject of Palm Rejection
+### On the Subject of Palm Rejection
 
 Seen this one mentioned on a few other reviews and forums so I figured I'd address it quickly. I've never really had a problem with drawing or writing on an iPad and having my palm make random marks. Not sure if I draw in a way that eliminates this, so I don't really have a way to judge if the Pogo fixes this. What I can say is when activated you can't draw with anything except the Pogo, but gestures like pinch to zoom, rewind, and moving pages around all still work. So in theory there shouldn't be any problem if you rest your palm on the screen while drawing...
 
-## Is it worth the money?
+## Is it Worth the Money?
 
 If you're a watercolor fan or sketch a bunch with the pencil I think the high price of a Pogo Connect is justified. If you're predominantly an inker then it's probably not worth it. I find controlling the fountain pen to be much harder when using a Pogo Connect because it is really sensitive to pressure. This makes drawing smooth lines hard unless you have a steady hand and don't vary the pressure as you draw.
 
-## What's wrong with the Pogo Connect
+## What's Wrong with the Pogo Connect
 
 About those bugs I mentioned earlier. Not sure if they're hardware or software related, but I've experienced a ton of lockups with the Pogo Connect and Paper by 53. The stylus will randomly disconnect or just become unresponsive and I have to force quit the app or remove the AAA battery to make the Pogo Connect behave again. I usually notice it becoming unresponsive when making a bunch of quick strokes, like when I'm [drawing beard whiskers]({{ site.url }}/paperfaces/josearato-portrait.html). Not a deal breaker because it doesn't happen all the time, but it is kind of annoying that it interrupts the creative flow.
 
@@ -95,7 +95,7 @@ About those bugs I mentioned earlier. Not sure if they're hardware or software r
 	<figcaption>Disconnected! Better get used to this screen...</figcaption>
 </figure>
 
-### Lock screen annoyance
+### Lock Screen Annoyance
 
 During my first week with the Pogo I encountered another issue that I thought might have been a bug with Paper. Out of nowhere the iPad's screen would turn off and the lock "chhkk" would sound. After complaining about it on Tumblr [a follower messaged me](http://mbbradbury.tumblr.com/post/51935357080/what-went-wrong-with-your-pogo-connect-i-can-see-me) to say that I needed to turn off the iPad cover lock setting. It never occurred to me that there was a magnet in the tip of the Pogo that could trigger a screen lock when moved near the iPad's outer bezel.
 
@@ -118,3 +118,7 @@ Removed the rubber tip to find this mess. Like many others, the metal contact th
 </figure>
 
 I have an email out to Ten One Design to see what can be done. I've heard they respond quickly with free replacements, which could indicate they're aware of a major design flaw and trying to do right by it. I just don't know if I can continue to recommend the product if it's prone to breaking after a few months. I'll let you know things go...
+
+## Update. A Week Later
+
+And just like that Ten One Design sent me a replacement pen with 2 extra tips free of charge. Excellent customer service if you ask me! Not sure if it's that new car smell effect, but this pen feels more sturdy and responsive. Hoping that means the build quality has been improved and the tip sensor breaking apart is no longer an issue.

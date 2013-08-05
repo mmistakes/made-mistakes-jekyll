@@ -92,5 +92,5 @@ To finish the face take care to observe the direction and tilt of the head. Care
 
 <a markdown="0" href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download a Drawing PaperFaces Guide</a>
 
-**PS:** I wrote two short articles describing some more [drawing with Paper tips and techniques]({{ site.url }}/articles/madewithpaper-drawing-guide.html) and [how to draw realistic hair]({{ site.url }}/articles/how-to-draw-hair-paper-53.html). If there are other Paper by 53 tips or tutorials you'd like to see hit [me up on the Twitter](http://twitter.com/mmistakes) and I'll see what I can do.
+**PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/articles/mastering-paper-53-guide.html), that expands on all these techniques in greater detail.
 {: .notice}

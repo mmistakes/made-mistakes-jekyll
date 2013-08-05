@@ -140,7 +140,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 
-**PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques. You can read the compilation of those responses in a short [How To Draw and Paint with Paper by 53 Guide]({{ site.url }}/articles/madewithpaper-drawing-guide.html) article I wrote.
+**PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote guide called [Mastering Paper by 53]({{ site.url }}/articles/mastering-paper-53-guide.html).
 {: .notice}
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
