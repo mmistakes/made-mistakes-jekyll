@@ -4,6 +4,7 @@ title: "So Simple, a Jekyll Theme"
 headline: "So Simple Theme"
 subheadline: "Built for Jekyll"
 description: "A simple and clean responsive Jekyll theme for words and photos by designer Michael Rose."
+modified: 2013-08-05
 image: 
   feature: so-simple-theme-feature.jpg
   small: so-simple-theme-340x100.jpg
@@ -29,7 +30,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 
 <figure class="large">
 	<a href="http://mmistakes.github.io/so-simple-theme" title="Preview So Simple Theme"><img src="{{ site.url }}/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
-	<figcaption>Page, post, and archive templates in action.</figcaption>
+	<figcaption>Page and post templates in action.</figcaption>
 </figure>
 
 ## Getting started
