@@ -344,7 +344,13 @@ span + .entry-title {
 	@media @medium {
 		position: fixed;
 		top: 50%;
-		font-size: 2em;
+		padding: .25em;
+		font-size: 1.5em;
+		background-color: @white;
+		&:hover {
+			color: @white;
+			background-color: @black;
+		}
 		span {
 			display: none;
 		}
@@ -352,12 +358,14 @@ span + .entry-title {
 }
 .previous-link {
 	@media @medium {
-		left: .25em;
+		left: 0;
+		.border-radius(5px, 5px, 0, 0);
 	}
 }
 .next-link {
 	@media @medium {
-		right: .25em;
+		right: 0;
+		.border-radius(0, 0, 5px, 5px);
 	}
 }
 .archive-link {
