@@ -2,7 +2,7 @@
 layout: post
 title: "A Pogo Connect Smart Pen Makes Paper by 53 Better"
 description: "In my opinion the Pogo Connect is worth every penny because it enhances Paper by 53 in ways capacitive styluses can't."
-modified: 2013-07-26
+modified: 2013-08-05
 image: 
   feature: pogo-connect-review-feature.jpg
   thumb: pogo-connect-review-thumb.jpg
