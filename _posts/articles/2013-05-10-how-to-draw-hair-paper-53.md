@@ -52,5 +52,5 @@ If you're a maniac with the pencil and prefer to draw in all the gradations then
 	<figcaption>Drawing hair with Paper by 53 cheat sheet.</figcaption>
 </figure>
 
-**PS:** I wrote another short article/tutorial describing some more [drawing with Paper tips and techniques]({{ site.url }}/articles/madewithpaper-drawing-guide.html), if you're interested.
+**PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/articles/mastering-paper-53-guide.html), that expands on all these techniques in greater detail.
 {: .notice}

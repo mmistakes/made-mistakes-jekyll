@@ -90,5 +90,5 @@ I hope some of this has been helpful. To better describe and show my process, I'
     <iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>
 </figure>
 
-**PS:** I wrote two short articles describing [how to draw realistic hair]({{ site.url }}/articles/how-to-draw-hair-paper-53.html) and [my technique for drawing faces without faces]({{ site.url }}/articles/drawing-faces-paper-53.html). If there are other Paper by 53 tips or tutorials you'd like to see [email](mailto:michael@mademistakes.com) or [message me on Twitter](http://twitter.com/mmistakes) and I'll see what I can do.
+**PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/articles/mastering-paper-53-guide.html), that expands on all these techniques in greater detail.
 {: .notice}
