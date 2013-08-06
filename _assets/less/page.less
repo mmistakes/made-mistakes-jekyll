@@ -121,6 +121,13 @@ body {
 	    animation-delay: .05s;
 	    .rounded(100px);
 	    border: 4px solid @white;
+	    .translate(0, 0);
+	    -webkit-transition-duration: 0.25s;
+	    -moz-transition-duration: 0.25s;
+	    -o-transition-duration: 0.25s;
+		&:hover {
+			.translate(0, -10px);
+		}
 		@media @medium {
 			width: 150px;
 			height: 150px;
@@ -347,9 +354,10 @@ span + .entry-title {
 		padding: .25em;
 		font-size: 1.5em;
 		background-color: @white;
+		background-color: fade(@white, 50);
 		&:hover {
-			color: @white;
-			background-color: @black;
+			background-color: @white;
+			.box-shadow(@shadow: 0 0 10px rgba(0,0,0,.25))
 		}
 		span {
 			display: none;
