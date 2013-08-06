@@ -354,9 +354,10 @@ span + .entry-title {
 		padding: .25em;
 		font-size: 1.5em;
 		background-color: @white;
+		background-color: fade(@white, 50);
 		&:hover {
-			color: @white;
-			background-color: @black;
+			background-color: @white;
+			.box-shadow(@shadow: 0 0 10px rgba(0,0,0,.25))
 		}
 		span {
 			display: none;
