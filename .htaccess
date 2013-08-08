@@ -364,3 +364,4 @@ redirect 301 /articles/faces-made-with-paper-ipad.html http://mademistakes.com/a
 redirect 301 /articles/paperfaces-portrait-gallery.html http://mademistakes.com/paperfaces/
 redirect 301 /paperfaces/slave-leia-jabba-the-hutt.html http://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait.html/
 redirect 301 /tags.html http://mademistakes.com/tag/
+redirect 301 /about/ http://mademistakes.com/about.html
