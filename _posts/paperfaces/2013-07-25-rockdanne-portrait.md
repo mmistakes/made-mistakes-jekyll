@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rockdanne-twitter-lg.jpg
   thumb: paperfaces-rockdanne-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
 ---
 
 PaperFaces portrait of [@rockdanne](http://twitter.com/rockdanne). Was almost tempted to draw a full face this time...
