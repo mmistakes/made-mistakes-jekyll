@@ -111,13 +111,13 @@ I use the term "tutorial" loosely. What you'll find here are glorified slideshow
 {: .notice}
 
 <figure class="large">
-  <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
+  <iframe width="560" height="315" src="//www.youtube.com/embed/fC_yATccHmk?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
   <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or read about <a href="{{ site.url }}/articles/madewithpaper-drawing-guide.html" title="How I draw with Paper by 53 and an iPad">my drawing process</a> here.</figcaption>
 </figure>
 
 ## Homages
 
-I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is something amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
+I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
 
 <ul id="fanart-gallery" class="recent-grid unstyled-list">
   <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg" title="PaperFaces homage drawn by @Pepfre"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre" /></a></li>
@@ -129,6 +129,9 @@ I've been completely humbled by all the support and attention coming my way sinc
   <li><a href="http://instagram.com/p/VQ4-6HklEU/" title="PaperFaces homage drawn by @m0im0i on Instagram" target="_blank"><img src="{{ site.url }}/images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram" /></a></li>
   <li><a href="https://twitter.com/LovisasLife/status/314699959775662081" title="PaperFaces homage drawn by @LovisasLife" target="_blank"><img src="{{ site.url }}/images/homage-lovisaslife-150.jpg" alt="PaperFaces homage drawn by @LovisasLife on Twitter" /></a></li>
   <li><a href="http://instagram.com/p/QTn7jWJkHj/" title="PaperFaces homage drawn by @ramesstudios" target="_blank"><img src="{{ site.url }}/images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram" /></a></li>
+  <li><a href="http://instagram.com/p/cHexhprrxf/" title="PaperFaces homage drawn by @konstnaren" target="_blank"><img src="{{ site.url }}/images/homage-konstnaren-150.jpg" alt="PaperFaces homage drawn by @konstnaren on Instagram" /></a></li>
+  <li><a href="http://instagram.com/p/aVh8QOJ-uv/" title="PaperFaces homage drawn by @grumz" target="_blank"><img src="{{ site.url }}/images/homage-grumz-150.jpg" alt="PaperFaces homage drawn by @grumz on Instagram" /></a></li>
+  <li><a href="http://eichan68.tumblr.com" title="PaperFaces homage drawn by @eichan68" target="_blank"><img src="{{ site.url }}/images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram" /></a></li>
 </ul>
 
 ## Featured On
@@ -140,7 +143,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 
-**PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote guide called [Mastering Paper by 53]({{ site.url }}/articles/mastering-paper-53-guide.html).
+**PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide called [Mastering Paper by 53]({{ site.url }}/articles/mastering-paper-53-guide.html).
 {: .notice}
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
