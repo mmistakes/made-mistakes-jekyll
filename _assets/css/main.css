@@ -42,9 +42,9 @@ figcaption{padding-top:10px;font-size:14px;font-size:0.875rem;line-height:1.7143
 .notice{margin-top:1.5em;padding:.5em 1em;text-indent:0;font-size:16px;font-size:1rem;background-color:#f2f2f2;border:1px solid #e6e6e6;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.notice h4{text-align:center;}
 blockquote{font-family:'volkhov',serif;font-style:italic;font-size:24px;font-size:1.5rem;line-height:1;margin-bottom:24px;margin-bottom:1.5rem;padding-left:20px;border-left:8px solid #000000;}
 .footnotes{font-size:14px;font-size:0.875rem;line-height:1.7143;font-family:'source-sans-pro',sans-serif;}
-tt,code,kbd,samp,pre{font-family:'source-code-pro',monospace;}
+tt,code,kbd,samp,pre{font-family:monospace;}
 p code{font-size:16px;font-size:1rem;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px solid #e6e6e6;background-color:#f2f2f2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
-.highlight{overflow-x:auto;font-size:12px;font-size:0.75rem;line-height:2;border:1px solid #dedede;}.highlight pre{position:relative;margin:0;padding:1em;}
+.highlight{overflow-x:auto;font-size:16px;font-size:1rem;border:1px solid #dedede;}.highlight pre{position:relative;margin:0;padding:1em;}
 .hll{background-color:#ffffcc;}
 .c{color:#999988;font-style:italic;}
 .err{color:#a61717;background-color:#e3d2d2;}
@@ -668,7 +668,7 @@ body{margin:0;padding:0;width:100%;background-color:#ffffff;border-top:5px solid
 .entry:after,.hentry:after{clear:both;}
 .entry-feature-image{margin:20px 0 40px;width:100%;}@media only screen and (min-width: 48em){.entry-feature-image{margin-top:-75px;}}@media only screen and (min-width: 62.5em){.entry-feature-image{margin-top:-145px;}}
 .entry-header{max-width:640px;width:100%;margin-right:auto;margin-left:auto;}@media only screen and (min-width: 62.5em){.entry-header{max-width:100%;margin-right:0;margin-left:0;}}
-.entry-tags{display:none;margin-top:2em;text-transform:uppercase;font-size:16px;font-size:1rem;font-weight:600;}.entry-tags a{color:#222222;}
+.entry-tags{display:none;margin-top:2em;text-transform:uppercase;font-size:16px;font-size:1rem;font-weight:400;}.entry-tags a{color:#222222;}
 @media only screen and (min-width: 48em){.entry-tags{display:block;}}
 span+.entry-title{margin-top:0;}
 .entry-title{font-family:'volkhov',serif;font-style:italic;font-size:36px;font-size:2.25rem;font-weight:700;line-height:1;letter-spacing:-3px;}.entry-title a{color:#000000;}

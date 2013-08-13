@@ -2,7 +2,7 @@
 layout: post
 title: "Going Static without a CMS using Jekyll"
 description: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
-modified: 2013-07-04
+modified: 2013-08-13
 image: 
   feature: going-static-feature.jpg
   small: going-static-340x100.jpg
@@ -22,7 +22,7 @@ Which got me thinking *"Shit. I don't know anything about these new technologies
 
 For the last ten years I've used a <abbr title="Content Management System">CMS</abbr> to hold and present personal blogs and portfolios of my design work. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update my Wordpress powered website from an iPhone application. As much as that feature sounds awesome, I never once found myself away from a computer wanting to post something in long form.
 
-A common problem facing Wordpress sites are their speed, due to a number of reasons. To be honest I never really had issues with *Made Mistakes* because it was relatively small and low on the traffic. But worrying about constant upgrades to the core, plugins to combat security hacks. or if I had [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/) configured correctly started to get old fast.
+A common problem facing Wordpress sites are their speed, due to a number of reasons. To be honest I never really had issues with *Made Mistakes* because it was relatively small and low on the traffic. But worrying about constant upgrades to the core, plugins to combat security hacks, or if I had [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/) configured correctly started to get old fast.
 
 ### Designers Are Control Freaks
 
@@ -44,16 +44,16 @@ And so began the process of building a website/blog/portfolio using static pages
 
 I eventually settled on Jekyll as my static-site generator of choice --- mostly because I could grasp how to pull and filter data using [Liquid](http://liquidmarkup.org/). The general idea goes something like this:
 
-1.	Create a text file for each page/post written in <abbr>HTML</abbr>, Markdown, etc.
-2.	Add some <abbr>YAML</abbr> to top of these files to indicate which layout to use and meta data to include.
-3.	Run the Jekyll compiler that spits out your website or project.
-4.	Transfer these files to your web server, and you're done.
+1.	Create a text file for each page/post written that is in Markdown, <abbr>HTML</abbr>, etc.
+2.	Add a <abbr>YAML</abbr> front-matter block to the top of these files to indicate layouts, meta data, feature images, or any other variables you want to include.
+3.	Run `jekyll build` to spit out compiled website or project.
+4.	Deploy the files in `_site` to your web server (FTP, rsync, rake script, [GitHub pages](http://pages.github.com/), whatever)
 
-There are [more steps to the process](http://jekyllbootstrap.com/), but for the most part it's fairly straight forward after you've built all the necessary includes and layouts. What made this process appealing to me instead of using Wordpress or another <abbr>CMS</abbr> was --- total control. I can set how I want the folder/file structure to look like, how the pages are constructed, etc etc etc. Sure it's possible to do all this in a <abbr>CMS</abbr>, but sometimes it's not as transparent and obvious.
+There are [more steps to the process](http://jekyllbootstrap.com/), but for the most part it's fairly straight forward after you've built all the necessary `_includes` and `_layouts`. What made this process appealing to me over Wordpress or another <abbr>CMS</abbr> was --- total control. I can set how I want the folder/file structure to look like, how the pages are constructed, use [Grunt.js](http://gruntjs.com/) and other build scripts to optimize everything, etc etc etc. Sure it's possible to do all this in a <abbr>CMS</abbr>, but sometimes it's not as transparent and obvious.
 
 I will say this about using Jekyll --- it's not for everyone. I had to get my hands dirty and figure out or research ways of creating sitemaps, <abbr title="Really Simple Syndication">RSS</abbr>/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do it for you.
 
-Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of <abbr>HTML5</abbr> and <abbr>CSS3</abbr>, be able to *"art direct"* every page without hacks, get nice with [Less](http://lesscss.org/) to create more powerful and efficient stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop experiences.
+Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of <abbr>HTML5</abbr> and <abbr>CSS3</abbr>, be able to *"art direct"* every page without hacks, get nice with [Less](http://lesscss.org/) to create more powerful and efficient stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop screens.
 
 ## Inspirational Frameworks
 
@@ -100,5 +100,5 @@ With a 1.0 release under my belt, I think now is the time to take a look at star
 **Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to Github if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and site...
 {: .notice}
 
-Or you can grab it as a Jeklly theme I'm calling [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme.html). It's essentially the same code base I use on *Made Mistakes* with simplification to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
+Or you can grab it as a Jeklly theme that I'm calling [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme.html). It's essentially the same code base I use on *Made Mistakes*, but simplified to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
 {: .notice}
