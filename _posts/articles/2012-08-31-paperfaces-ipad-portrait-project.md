@@ -10,7 +10,7 @@ image:
 category: articles
 tags: [Paper by 53, iPad, drawing, illustration, Michael Rose]
 comments: true
-feature: true
+homepage: true
 adsense: true
 ---
 

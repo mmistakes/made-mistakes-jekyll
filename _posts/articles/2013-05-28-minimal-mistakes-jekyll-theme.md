@@ -11,7 +11,7 @@ image:
 category: articles
 tags: [Jekyll, theme, responsive, blog]
 comments: true
-feature: true
+homepage: true
 adsense: true
 ---
 

@@ -1,0 +1,61 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="page" itemscope itemtype="http://schema.org/WebPage">
+
+{% include browser-upgrade.html %}
+{% include navigation.html %}
+
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <article class="entry" itemscope itemtype="http://schema.org/ItemPage">
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title" itemprop="name">Projects</h1>
+      </header>
+      <div class="entry-content" itemprop="description">
+        {% for post in site.posts %}
+          {% if post.homepage %}<figure class="project-tease">
+            <img src="{{ site.url }}/images/{{ post.image.feature }}" width="300" height="200" alt="{{ post.title }} teaser">
+            <figcaption>
+              <div class="figcaption-wrap">
+                  <h3>{{ post.title }}</h3>
+                  <p>{{ post.description }}</p>
+              </div><!-- /.figcaption-wrap -->
+            </figcaption>
+          </figure>{% endif %}
+        {% endfor %}
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+  <article class="entry" itemscope itemtype="http://schema.org/ItemPage">
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title" itemprop="name">Latest Articles</h1>
+      </header>
+      <div class="entry-content" itemprop="description">
+        <ul class="post-list">
+        {% for post in site.categories.articles limit:5 %}
+          <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+        {% endfor %}
+        </ul>
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}          
+
+</body>
+</html>

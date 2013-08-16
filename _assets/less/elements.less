@@ -93,6 +93,36 @@ svg:not(:root) {
   }
   .clearfix();
 }
+// Project Teaser
+.project-tease {
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.project-tease img {
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+.project-tease figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  .transition(500ms);
+  .scale(2);
+}
+.project-tease:hover figcaption,
+.project-tease:active figcaption {
+  .scale(1);
+  opacity: 1;
+}
+.project-tease:hover img,
+.project-tease:active img {
+  .scale(1.1);
+}
 
 // Buttons
 // --------------------------------------------------
