@@ -5,7 +5,7 @@ description: "An experiment in humanizing the web &#8212; designer Michael Rose 
 modified: 2013-07-12
 image: 
   feature: paperfaces-project-feature.jpg
-  small: paperfaces-project-340x100.jpg
+  homepage: paperfaces-project-homepage.jpg
   thumb: paperfaces-project-thumb.jpg
 category: articles
 tags: [Paper by 53, iPad, drawing, illustration, Michael Rose]
