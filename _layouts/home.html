@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="page" itemscope itemtype="http://schema.org/WebPage">
+
+{% include browser-upgrade.html %}
+{% include navigation.html %}
+
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <article class="entry" itemscope itemtype="http://schema.org/Blog" style="border-bottom-width:0;">
+      <div class="work-content" itemprop="description">
+        {% for post in site.posts %}
+          {% if post.homepage %}<div class="project-wrap" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ site.url }}{{ post.url }}"><figure class="project-tease">
+            <img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ post.title }} teaser" border="0" itemprop="image">
+            <div class="overlay">
+              <i class="icon-link icon-2x"></i>
+            </div><!-- /.overlay -->
+            <figcaption>
+              <div class="figcaption-wrap">
+                  <h3 itemprop="name">{{ post.title }}</h3>
+                  <p itemprop="description">{{ post.description }}</p>
+              </div><!-- /.figcaption-wrap -->
+            </figcaption>
+          </figure></a></div><!-- /.projet-wrap -->{% endif %}
+        {% endfor %}
+      </div><!-- /.entry-content -->
+  </article>
+  <article class="entry" itemscope itemtype="http://schema.org/Blog">
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title" itemprop="headline">Latest Articles</h1>
+      </header>
+      <div class="entry-content" itemprop="description">
+        <ul class="post-list">
+        {% for post in site.categories.articles limit:5 %}
+          <li><article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ site.url }}{{ post.url }}" itemprop="name">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+        {% endfor %}
+        </ul>
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}          
+
+</body>
+</html>

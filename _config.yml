@@ -4,7 +4,7 @@ description:      "Personal website of designer slash illustrator Michael Rose."
 logo:             site-logo.png
 disqus_shortname: mmistakes
 # Comment out url when working locally to resolve base urls correctly
-url:              http://mademistakes.com
+#url:              http://mademistakes.com
 
 # Owner/author information
 owner:
