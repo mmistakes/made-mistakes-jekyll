@@ -14,7 +14,7 @@
 
 <div id="main" role="main" itemprop="mainContentOfPage">
   <article class="entry" itemscope itemtype="http://schema.org/Blog" style="border-bottom-width:0;">
-      <div class="work-content" itemprop="description">
+      <div class="work-content">
         {% for post in site.posts %}
           {% if post.homepage %}<div class="project-wrap" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ site.url }}{{ post.url }}"><figure class="project-tease">
             <img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ post.title }} teaser" border="0" itemprop="image">
@@ -36,10 +36,10 @@
       <header class="entry-header">
         <h1 class="entry-title" itemprop="headline">Latest Articles</h1>
       </header>
-      <div class="entry-content" itemprop="description">
+      <div class="entry-content">
         <ul class="post-list">
         {% for post in site.categories.articles limit:5 %}
-          <li><article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ site.url }}{{ post.url }}" itemprop="name">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+          <li><article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ site.url }}{{ post.url }}"><strong itemprop="name">{{ post.title }}</strong> <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
         {% endfor %}
         </ul>
       </div><!-- /.entry-content -->
