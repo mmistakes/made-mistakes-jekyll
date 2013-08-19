@@ -7,11 +7,11 @@ description: "A simple and clean responsive Jekyll theme for words and photos by
 modified: 2013-08-16
 image: 
   feature: so-simple-theme-feature.jpg
-  small: so-simple-theme-340x100.jpg
+  homepage: so-simple-theme-homepage.jpg
 category: articles
 tags: [Jekyll, theme, responsive, blog]
 comments: true
-feature: true
+homepage: true
 adsense: true
 ---
 

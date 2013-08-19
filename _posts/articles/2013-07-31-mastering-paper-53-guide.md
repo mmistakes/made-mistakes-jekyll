@@ -5,11 +5,13 @@ description: "An introduction to Paper's tools and how to exploit them for drawi
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
+  homepage: paper-53-expanded-guide-homepage.jpg
 category: articles
 tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 comments: true
 feature: true
 adsense: true
+homepage: true
 ---
 
 Paper by 53 and me were BFFs from the start. Spread across my journals you'd find around 600 pages with creation times ranging from 30 minutes to 4 hours. A conservative estimate has me logged at around 500 hours of drawing and painting in this iOS app --- which is kind of crazy when I think about it. I'm not sure if that qualifies me as a good teacher or not, but I'm going to try and expand on some tips and techniques I've previously written about in this 3 part series.
