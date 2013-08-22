@@ -17,7 +17,7 @@ layout: nil
 	</author>
 	<rights>Unless otherwise noted, all content is published under a Creative Commons Attribution-Noncommercial-NoDerivs 3.0 United States License.</rights>
 	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="{{ site.url }}/atom.xml" />
-	{% for post in site.posts limit:25 %}
+	{% for post in site.posts limit:50 %}
 	<entry>
 		<title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
 		<link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
