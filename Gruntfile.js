@@ -36,7 +36,11 @@ module.exports = function(grunt) {
         }
       }
     },
+<<<<<<< HEAD
     imagemin: {
+=======
+    imgcompress: {
+>>>>>>> hotfix/gruntjs
       dist: {
         options: {
           optimizationLevel: 7,
@@ -90,13 +94,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-imgcompress');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'recess',
     'uglify',
-    'imagemin',
+    'imgcompress',
     'svgmin'
   ]);
   grunt.registerTask('dev', [
