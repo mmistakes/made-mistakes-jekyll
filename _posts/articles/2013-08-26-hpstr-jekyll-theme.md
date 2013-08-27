@@ -7,6 +7,7 @@ image:
   homepage: hpstr-theme-homepage.jpg
 category: articles
 tags: [Jekyll, theme, responsive, blog, modern]
+modified: 2013-08-27
 comments: true
 homepage: true
 adsense: true
@@ -14,23 +15,48 @@ adsense: true
 
 They say three times the charm, so here is another free Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
 
-## What HPSTR brings to the table:
-
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Readable typography to make your words shine.
+* Responsive templates for post, page, and post index `_layouts`.
+* Gracefully degrades in older browsers.  
+* Modern and minimal design with a focus on clean typography.
 * Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Social Sharing links for Facebook, Twitter, and Google+ if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
+* Simple permalink structure[^1].
+* Support for [Disqus](http://disqus.com) comments.
+* Support for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards).
 * Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* Fully compatible with [GitHub Pages](http://pages.github.com/)
-* [Grunt](http://gruntjs.com) build script for easy theme development
+* Support for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+* Compatible with [GitHub Pages](http://pages.github.com/).
 
-<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn btn-info">Install the Theme</a></div>
+<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn btn-info">Demo the Theme</a></div>
+
+<figure class="large">
+	<a href="http://mmistakes.github.io/hpstr-jekyll-theme" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
+	<figcaption>Screen grab of the post-index.html _layout</figcaption>
+</figure>
+
+## What's Different with this Jekyll Theme?
+
+This time around I wanted to see how much of the "branding"[^2] I could remove and deemphasize to make the content sing in contrast. The primary way I went about doing this was by down playing anything that wasn't part of a post or page's content. Collapsing the blog's navigation behind a drop down was one way I slimmed the header, to get at the content quicker.
+
+On desktops and tablets (horizontal orientation) the menu is placed in the top left corner with `position: fixed`[^3] to remain in view as the page is scrolled. Mild CSS3 animations and transforms were utilized to progressively enhance the [drop down menu](http://tympanus.net/codrops/2013/04/19/responsive-multi-level-menu/) for browsers that support these properties, and gracefully degrades on those that do not. *The menu is also completely usable when JavaScript is disabled.*
+
+Everything that isn't `#main` I view as support content--- living one step down from a post or page in the overall hierarchy. In the case of author bylines, post dates, and social sharing links, I used a light gray color to push these elements back, and pull the main content forward. Related posts and comments are sectioned off just enough from the main to keep them connected but visually separated.
+
+### Grunt Build Script for Development
+
+Up until this point I've mostly used tools like [CodeKit](http://incident57.com/codekit/) and [Prepros](http://alphapixels.com/prepros/) to compile my LESS stylesheets and concatenate scripts. Flirting with Grunt on a few personal projects, I wanted to integrate it into this theme as a build tool for messing with the theme's stylesheets.
+
+For those who are unfamiliar with Grunt I encourage you to check out the [getting started guide](http://gruntjs.com/getting-started). Basically how this works is, you [install Node.js](http://nodejs.org/), [install Grunt](http://gruntjs.com/getting-started) and dependencies by running `npm install`, and then run various Grunt tasks defined in the project's [`Gruntfile.js`](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/Gruntfile.js) file.
+
+Currently there are two Grunt tasks: one to build and optimize and the other to watch for changes to any LESS and JavaScript files. For now you need to run `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the `images/` folder. And then run `jekyll build` to pull these changes in when developing locally. 
+
+There are some [Jekyll Grunt plugins](https://github.com/dannygarcia/grunt-jekyll) to help make things work more seamless, but I avoided them to keep the theme compatible with GitHub Pages. While not a perfect solution you can run `grunt watch` in combination with `jekyll build --watch` to watch for LESS and JS file updates to be processed by Grunt and auto-generated by Jekyll.
+
+### Social Sharing Links
+
+Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with a lightweight jQuery plugin by Filament group called [SocialCount](http://filamentgroup.com/lab/socialcount/). Social sharing links are disabled by default and must be turned on at the post or page level by adding `share: true` to its front matter.
+
+<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn btn-info">Theme Demo</a> <a href="http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Setup']);" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Download']);" class="btn btn-info">Download</a></div>
 
 [^1]: Example: *domain.com/post-title/*
+[^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too... but that's a discussion for another day.
+[^3]: On mobile I choose to remove the fixed positioning to keep the menu from interfering with the main content.

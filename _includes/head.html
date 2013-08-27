@@ -4,7 +4,7 @@
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 <!-- Twitter Cards -->
 {% if page.layout == 'work' %}
-	<meta name="twitter:card" content="photo">
+	<meta name="twitter:card" content="summary_large_image">
 	{% if page.image.feature %}<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
 	{% else %}
 	{% if page.image.feature %}

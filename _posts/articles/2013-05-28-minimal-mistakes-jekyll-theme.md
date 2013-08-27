@@ -12,6 +12,7 @@ category: articles
 tags: [Jekyll, theme, responsive, blog]
 comments: true
 adsense: true
+homepage: true
 ---
 
 Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)**, a responsive Jekyll theme with editorial tendencies. 
@@ -35,7 +36,7 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 2. Fork the [Minimal Mistakes repo](http://github.com/mmistakes/minimal-mistakes/)
 3. Make it your own and customize, customize, customize.
 
-<a markdown="0" href="http://mmistakes.github.io/minimal-mistakes" class="btn btn-inverse">Preview the Theme</a>
+<div markdown="0"><a href="http://mmistakes.github.io/minimal-mistakes" onClick="_gaq.push(['_trackEvent', 'Link', 'Minimal Mistakes - Theme Demo']);" class="btn btn-inverse">Demo the Theme</a></div>
 
 **Like this theme?** I just released my second theme for Jekyll, and if you ask me it's way better than *Minimal Mistakes*. I'm calling it [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme.html) and it's essentially the same code base I use on *Made Mistakes* with simplification to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
 {: .notice}
