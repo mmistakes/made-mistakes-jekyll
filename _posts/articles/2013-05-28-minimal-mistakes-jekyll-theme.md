@@ -7,7 +7,7 @@ description: "A responsive Jekyll theme featuring full width imagery and clean t
 modified: 2013-07-04
 image: 
   feature: minimal-mistakes-theme-feature.jpg
-  homepage: minimal-mistakes-theme-homepage.jpg
+  homepage: minimal-mistakes-500x500.png
 category: articles
 tags: [Jekyll, theme, responsive, blog]
 comments: true

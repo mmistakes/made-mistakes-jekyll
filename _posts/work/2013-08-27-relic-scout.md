@@ -4,7 +4,7 @@ title: "Relic Scout"
 description: "Site design and creative for Relic Scout. An app to make collecting simpler, while saving you money."
 image: 
   feature: relic-scout-home-feature.gif
-  homepage: relic-scout-homepage.jpg
+  homepage: relic-scout-500x500.png
   thumb: relic-scout-avatar.png
 category: work
 work:
