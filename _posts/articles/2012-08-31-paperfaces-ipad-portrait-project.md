@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "iPad Portraits with Paper by 53"
+short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
 modified: 2013-07-12
 image: 
   feature: paperfaces-project-feature.jpg
-  homepage: paperfaces-project-homepage.jpg
+  homepage: paperfaces-project-500x500.jpg
+  circle: true
   thumb: paperfaces-project-thumb.jpg
 category: articles
 tags: [Paper by 53, iPad, drawing, illustration, Michael Rose]

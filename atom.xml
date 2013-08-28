@@ -31,7 +31,7 @@ layout: nil
 			<uri>{{ site.url }}</uri>
 			<email>{{ site.owner.email }}</email>
 		</author>
-		<content type="html">{% if post.category == 'paperfaces' %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image.feature }}&quot; width=&quot;1024&quot; height=&quot;768&quot; alt=&quot;{{ post.title }} page image&quot;&gt;&lt;br/&gt;{% endif %}{{ post.content | xml_escape }}
+		<content type="html">{% if post.image.feature %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image.feature }}&quot; alt=&quot;{{ post.title }} page image&quot;&gt;&lt;br/&gt;{% endif %}{{ post.content | xml_escape }}
 		&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by &lt;a href=&quot;{{ site.url }}/about.html&quot;&gt;{{ site.owner.name }}&lt;/a&gt; at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 	</entry>
 	{% endfor %}
