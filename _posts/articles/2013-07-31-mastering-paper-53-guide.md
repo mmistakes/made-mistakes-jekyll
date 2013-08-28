@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Mastering Paper by 53, an Expanded Guide Part 1 of 3"
+short-title: "Mastering Paper by 53"
 description: "An introduction to Paper's tools and how to exploit them for drawing realistically."
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
-  homepage: paper-53-expanded-guide-homepage.jpg
+  homepage: paper-by-53-280x280.jpg
+  circle: true
 category: articles
 tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 comments: true
