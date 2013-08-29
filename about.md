@@ -3,15 +3,18 @@ layout: page
 title: About
 headline: What's a Made Mistakes?
 subheadline: Behind the Name and Designer
-modified: 2013-07-11
+modified: 2013-08-29
 description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
-image: 
-  feature: paperfaces-michael-rose-beard-xl.jpg
 tags: [Michael Rose, design, Buffalo, web design, feature]
 ---
 
 <link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/form.css css/form.css %}">
 <script src="{{ site.url }}/{% ministamp _assets/js/vendor/wufoo.js js/vendor/wufoo.js %}"></script>
+
+<figure>
+  <img src="{{ site.url }}/images/paperfaces-michael-rose-beard-m.jpg" alt="Michael Rose self portrait">
+  <figcaption>Self portrait illustrated with the lovely Paper by 53 iPad app.</figcaption>
+</figure>
 
 So why the title *made mistakes*? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
@@ -20,8 +23,6 @@ In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash spl
 I've since decided to go <abbr>CMS</abbr>-free and utilize black magick and [Jekyll](http://jekyllrb.com/) to [manage the site with static text files]({{ site.url }}/articles/going-static.html). I like knowing how things work behind the scenes so hand-coding the layouts and stylesheets is the only way to go. Not being limited by a <abbr>CMS</abbr> is a wonderful thing...
 
 ### And Who Are You Again?
-
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo pull-right">
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
 
