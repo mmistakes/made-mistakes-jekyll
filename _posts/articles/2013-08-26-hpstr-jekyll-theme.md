@@ -4,8 +4,7 @@ title: "HPSTR, a Jekyll Theme"
 description: "A responsive Jekyll blog theme designed to give your site a modern and almost cliche feel."
 image: 
   feature: hpstr-theme-feature.jpg
-  homepage: hpstr-500x500.jpg
-  circle: true
+  homepage: hpstr-500x500.png
 category: articles
 tags: [Jekyll, theme, responsive, blog, modern]
 modified: 2013-08-27
