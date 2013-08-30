@@ -32,4 +32,4 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 	<figcaption>Some of my favorite portraits I've illustrated.</figcaption>
 </figure>
 
-Here's to another fun year of blank faces. And to the 1,197 of you still waiting for portraits... I'm working on theme, really I am.
+Here's to another fun year of blank faces. And to the 1,197 of you still waiting for portraits... I'm working on them, really I am.
