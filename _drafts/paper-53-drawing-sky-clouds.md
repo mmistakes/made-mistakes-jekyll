@@ -87,4 +87,4 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 
 ![screenshot of sun in silo](http://placehold.it/300x150.jpg) ![screenshot of figure in silo](http://placehold.it/300x150.jpg)
 
-Next up --- the perfect landscape compliment to happy trees and clouds, bodies of water.
+Next up --- the perfect landscape compliment to happy trees and clouds, crashing waves and water.
