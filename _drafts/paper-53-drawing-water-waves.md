@@ -65,6 +65,6 @@ To add in shadows use a variation of the water's base color, mixed with 20--40% 
 
 Boom! And we're done. Combined with a blue sky from part 2 and you'll have a landscape that will look like you drew it with traditional art supplies. Shhhhh...your secret is safe with me.
 
-### Next Up
+## Next Up
 
 The next part will include techniques for drawing various textures using the Paper by 53 tools. Things like wood grain, brick, asphalt, and concrete will all be covered to round out the landscape portion of this guide.
