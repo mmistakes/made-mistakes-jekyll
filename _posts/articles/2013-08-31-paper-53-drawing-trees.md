@@ -115,4 +115,21 @@ One final tip for creating depth is to paint over everything with light gray or 
 
 ![screenshot background blue grass]({{ site.url }}/images/paper-53-grass-blue-shadows.jpg)
 
+## Variations on a Theme
+
+Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
+
+<ul class="recent-grid unstyled-list">
+  <li><a href="{{ site.url }}/paperfaces/isellsoap-portrait.html"><img src="{{ site.url }}/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/thatmiddleway-portrait.html"><img src="{{ site.url }}/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/lmichelleinc-portrait.html"><img src="{{ site.url }}/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/elektrojunge-portrait.html"><img src="{{ site.url }}/images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/jupiter909-portrait.html"><img src="{{ site.url }}/images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/ryandawidjan-portrait.html"><img src="{{ site.url }}/images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/quimeraimantada-portrait.html"><img src="{{ site.url }}/images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/michael-rose-portrait.html"><img src="{{ site.url }}/images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
+</ul>
+
+## Moving Along
+
 In the next article in this series I'll take you through the techniques and steps I use to paint a blue skies, fluffy clouds, and sunsets. All three are the perfect compliments to a well drawn tree...
