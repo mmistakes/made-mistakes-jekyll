@@ -40,7 +40,7 @@ When painting, do not lift the stylus or your finger from the screen until you f
 
 ![screenshot of blue sky with multiple coats]({{ site.url }}/images/paper-53-blue-sky-base-multiple.jpg)
 
-Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}/pogo-connect-smart-pen.html), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
+Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen.html), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
 **Pro-tip:** White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much blue, just rewind and try again.
 {: .notice}
