@@ -47,16 +47,15 @@ body {
 }
 // Responsive nav toggle stuff
 #site-nav {
-	z-index: 9999;
+	z-index: 9000;
 	display: none;
 	@media @medium {
-		-webkit-animation-duration: .05s;
-		-moz-animation-duration: .05s;
-		-o-animation-duration: .05s;
-		animation-duration: .05s;
+		-webkit-animation-duration: 1s;
+		-moz-animation-duration: 1s;
+		-o-animation-duration: 1s;
+		animation-duration: 1s;
 	}
 	&.closed {
-		
 		@media @medium {
 			display: block;
 		}
@@ -66,6 +65,9 @@ body {
 		max-height: 100%;
 		li {
 			float: none;
+			@media @medium {
+				float: left;
+			}
 		}
 	}
 }
@@ -73,6 +75,7 @@ body {
 	display: block;
 }	
 #nav-toggle { 
+	z-index: 9999;
 	display: block;
 	vertical-align: top;
 	margin: 0;
