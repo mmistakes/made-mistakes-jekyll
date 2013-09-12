@@ -492,7 +492,24 @@ span + .entry-title {
 	margin: 1em 0 2em;
 	a {
 		padding: 4px 8px;
-		&:hover { color:@black; }
+		&:hover { 
+			color:@black;
+		}
+		&[href^="http://twitter.com"]:hover {
+			color: #00acee;
+		}
+		&[href^="http://instagram.com"]:hover {
+			color: #a97c58;
+		}
+		&[href^="http://github.com"]:hover {
+			color: @black;
+		}
+		&[href^="http://facebook.com"]:hover {
+			color: #4862a3;
+		}
+		&[href^="http://plus"]:hover {
+			color: #dc4836;
+		}
 	}
 }
 
