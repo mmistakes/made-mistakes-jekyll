@@ -47,16 +47,15 @@ body {
 }
 // Responsive nav toggle stuff
 #site-nav {
-	z-index: 9999;
+	z-index: 9000;
 	display: none;
 	@media @medium {
-		-webkit-animation-duration: .05s;
-		-moz-animation-duration: .05s;
-		-o-animation-duration: .05s;
-		animation-duration: .05s;
+		-webkit-animation-duration: 1s;
+		-moz-animation-duration: 1s;
+		-o-animation-duration: 1s;
+		animation-duration: 1s;
 	}
 	&.closed {
-		
 		@media @medium {
 			display: block;
 		}
@@ -66,6 +65,9 @@ body {
 		max-height: 100%;
 		li {
 			float: none;
+			@media @medium {
+				float: left;
+			}
 		}
 	}
 }
@@ -73,6 +75,7 @@ body {
 	display: block;
 }	
 #nav-toggle { 
+	z-index: 9999;
 	display: block;
 	vertical-align: top;
 	margin: 0;
@@ -325,9 +328,13 @@ span + .entry-title {
 	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
 	max-width: 600px;
 	@media @medium {
 		max-width: 765px;
+		padding-right: 0;
+		padding-left: 0;
 	}
 	@media @large {
 		max-width: 960px;
@@ -368,7 +375,10 @@ span + .entry-title {
 		background-color: fade(@white, 50);
 		&:hover {
 			background-color: @white;
-			.box-shadow(@shadow: 0 0 10px rgba(0,0,0,.25))
+			.box-shadow(@shadow: 0 0 10px rgba(0,0,0,.25));
+		}
+		&:active {
+			.translate(0, 2px);
 		}
 		span {
 			display: none;
@@ -482,7 +492,24 @@ span + .entry-title {
 	margin: 1em 0 2em;
 	a {
 		padding: 4px 8px;
-		&:hover { color:@black; }
+		&:hover { 
+			color:@black;
+		}
+		&[href^="http://twitter.com"]:hover {
+			color: #00acee;
+		}
+		&[href^="http://instagram.com"]:hover {
+			color: #a97c58;
+		}
+		&[href^="http://github.com"]:hover {
+			color: @black;
+		}
+		&[href^="http://facebook.com"]:hover {
+			color: #4862a3;
+		}
+		&[href^="http://plus"]:hover {
+			color: #dc4836;
+		}
 	}
 }
 
