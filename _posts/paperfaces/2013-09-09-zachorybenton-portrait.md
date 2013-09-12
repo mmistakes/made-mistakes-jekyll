@@ -2,6 +2,7 @@
 layout: work
 title: "Is that a hanging noose?"
 description: "PaperFaces portrait of @ZachoryBenton drawn with Paper by 53 on an iPad."
+modified: 2013-09-12
 image: 
   feature: paperfaces-zachorybenton-twitter-lg.jpg
   thumb: paperfaces-zachorybenton-twitter-150.jpg
