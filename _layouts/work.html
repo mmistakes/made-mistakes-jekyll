@@ -55,7 +55,7 @@
         {{ content }}
         {% if page.categories contains 'paperfaces' %}
         <hr />
-        <h2><a href="{{ site.url }}/{{ catg_name }}/">View More</a></h2>
+        <h2><a href="{{ site.url }}/{{ page.category }}/">View More</a></h2>
         <ul class="recent-grid unstyled-list">
           {% for post in catg_posts limit:4 %}
             <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumb" /></a></li>
@@ -70,7 +70,7 @@
         {% if prev_post %}
           <a href="{{ prev_post }}" class="previous-link" title="Previous"><i class="icon-chevron-left icon-large"></i> <span>Previous</span></a>
         {% endif %}
-          <a href="{{ site.url }}/{{ catg_name }}/" class="archive-link"><i class="icon-th icon-large"></i> <span>Archive</span></a>
+          <a href="{{ site.url }}/{{ page.category }}/" class="archive-link"><i class="icon-th icon-large"></i> <span>Archive</span></a>
         {% if next_post %}
           <a href="{{ next_post }}" class="next-link" title="Next"><i class="icon-chevron-right icon-large"></i> <span>Next</span></a>
         {% endif %}
