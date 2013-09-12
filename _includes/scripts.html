@@ -1,5 +1,5 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ site.url }}/{% ministamp _assets/js/vendor/jquery-1.9.1.min.js js/vendor/jquery.js %}"><\/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" data-cfasync="false"></script>
+<script data-cfasync="false">window.jQuery || document.write('<script src="{{ site.url }}/{% ministamp _assets/js/vendor/jquery-1.9.1.min.js js/vendor/jquery.js %}"><\/script>')</script>
 <!-- Webfonts -->
 <script src="//use.edgefonts.net/source-sans-pro:n4,i4,n7,i7;volkhov:i4,i7.js"></script>
 <script src="{{ site.url }}/{% ministamp _assets/js/main.min.js js/main.min.js %}"></script>
@@ -14,7 +14,7 @@
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
