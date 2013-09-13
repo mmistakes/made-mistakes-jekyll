@@ -11,6 +11,21 @@ body {
 
 // Masthead
 // --------------------------------------------------
+.masthead-wrapper {
+	margin: 0 auto;
+	max-width: 440px;
+	padding-right: 20px;
+	padding-left: 20px;
+	.clearfix();
+	@media @medium {
+		max-width: 760px;
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	@media @large {
+		max-width: 960px;
+	}
+}
 #masthead {
 	display: inline-block;
 	float: left;
@@ -19,12 +34,17 @@ body {
 		line-height: 50px; //match logo size to vertically align text
 	}
 	.site-title {
+		padding-bottom: 15px;
 		display: block;
 		font-family: @heading-font;
 		text-transform: uppercase;
 		.font-rem(22);
+		a {
+			color: @black;
+		}
 		@media @medium {
 			margin-left: 10px;
+			padding-bottom: 0;
 			display: inline;
 		}
 	}
@@ -56,6 +76,7 @@ body {
 		padding: 0;
 	}
 	li {
+		padding-bottom: 10px;
 		list-style: none;
 		.font-rem(14);
 		text-transform: uppercase;
@@ -66,8 +87,8 @@ body {
 		}
 	}
 	a {
+		display: block;
 		color: @black;
-		padding-bottom: 10px;
 		.transition(color .2s ease);
 		&:hover {
 			background-image: url(../../images/strike_bg.png);
@@ -75,7 +96,7 @@ body {
 			background-position: left center;
 		}
 		@media @medium {
-			display: block;
+			
 			padding-left: 5px;
 			padding-right: 5px;
 			padding-bottom: 0;
@@ -127,15 +148,15 @@ span + .entry-title {
 	font-family: @heading-font;
 	.font-rem(36);
 	line-height: 1;
-	letter-spacing: -3px;
 	a { color: @black; }
 	@media @medium {
 		max-width: 600px;
-		.font-rem(52);
+		.font-rem(42);
+		text-transform: uppercase;
 	}
 	@media @large {
 		max-width: 800px;
-		.font-rem(68);
+		.font-rem(48);
 	}
 }
 .entry-wrapper {
@@ -274,10 +295,9 @@ span + .entry-title {
 		top: 40%;
 		padding: .25em;
 		font-size: 1.5em;
+		color: @black;
 		background-color: @white;
-		background-color: fade(@white, 50);
 		&:hover {
-			background-color: @white;
 			.box-shadow(@shadow: 0 0 10px rgba(0,0,0,.25));
 		}
 		&:active {
