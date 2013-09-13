@@ -7,6 +7,8 @@ image:
   feature: tale-two-sisters-floor-blood-xl.jpg
   small: tale-two-sisters-floor-blood-340x100.jpg
   thumb: two-sisters-340x340.jpg
+  credit: DVD screengrab from The Movie Database
+  creditlink: http://www.themoviedb.org/movie/4552-janghwa-hongryeon
 tags: 
 - foreign
 - Korean
@@ -27,5 +29,3 @@ It really wasn't a horror film per say, but if you ever played those *Fatal Fram
 [mr-vengeance]: http://imdb.com/title/tt0310775/ "Sympathy for Mr Vengeance entry on IMDb"
 [lady-vengeance]: http://imdb.com/title/tt0451094/ "Lady Vengeance entry on IMDb"
 [two-sisters]: http://www.imdb.com/title/tt0365376/ "A Tale of Two Sisters entry on IMDb"
-
-[^1]: *A Tale of Two Sisters* DVD screengrab from [The Movie Database](http://www.themoviedb.org/movie/4552-janghwa-hongryeon)

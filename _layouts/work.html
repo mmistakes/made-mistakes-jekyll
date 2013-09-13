@@ -34,7 +34,10 @@
 
 <div id="main" role="main" itemprop="mainContentOfPage">
   <article class="entry" itemscope>
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
+    <div class="entry-image">
+      {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
+      {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+    </div><!-- /.entry-image -->
     <div class="entry-wrapper">
       <header class="entry-header">
         <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
@@ -49,7 +52,7 @@
       </footer>
       <div class="entry-content" itemprop="description">
         {% if page.work %}
-        <div markdown="0" style="text-align: center;"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn btn-info">Launch Website</a></div>
+        <div markdown="0" style="text-align: center;"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn">Launch Website</a></div>
         {% endif %}
         {{ content }}
         {% if page.categories contains 'paperfaces' %}
@@ -61,9 +64,6 @@
           {% endfor %}
         </ul>
         {% endif %}
-        <div class="notice">
-          <h4>Enjoyed this? <a href="http://twitter.com/mmistakes" target="_blank">Follow me on Twitter</a> or <a href="http://feeds.feedburner.com/MadeMistakes">Subscribe to the Feed</a> for more.</h4>
-        </div><!-- /.notice -->
       </div><!-- /.entry-content -->
       <nav class="pagination" role="navigation">
         {% if prev_post %}

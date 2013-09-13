@@ -33,7 +33,7 @@ figure {
   &.half {
     @media @large {
       img {
-        width: 310px;
+        width: 290px;
         float: left;
         margin-right: 10px;
       }
@@ -45,7 +45,7 @@ figure {
   &.third {
     @media @large {
       img {
-        width: 200px;
+        width: 180px;
         float: left;
         margin-right: 10px;
       }
@@ -83,8 +83,8 @@ svg:not(:root) {
     width: 106px;
     height: 106px;
     @media @large {
-      width: 150px;
-      height: 150px;
+      width: 140px;
+      height: 140px;
     }
   }
   .clearfix();
@@ -129,9 +129,8 @@ svg:not(:root) {
 .figcaption-wrap {
   padding: 0 10px;
   h3 {
-    font-family: @alt-font;
-    .font-rem(16);
-    font-style: italic;
+    .font-rem(14);
+    font-weight: 400;
     text-align: center;
   }
 }
@@ -143,16 +142,66 @@ svg:not(:root) {
   margin-bottom: 20px;
   padding: 8px 20px;
   .font-rem(14);
-  background-color: @black;
+  background-color: @primary;
   color: @white;
-  border: 2px solid @black !important;
-  .rounded(20px);
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: @primary;
+  .rounded(3px);
   &:visited {
     color: @white;
   }
   &:hover {
     background-color: @white;
-    color: @black;
+    color: @primary;
+  }
+}
+.btn-success {
+  background-color: @success;
+  color: @white;
+  border-color: @success;
+  &:visited {
+    color: @white;
+  }
+  &:hover {
+    background-color: @white;
+    color: @success;
+  }
+}
+.btn-warning {
+  background-color: @warning;
+  color: @white;
+  border-color: @warning;
+  &:visited {
+    color: @white;
+  }
+  &:hover {
+    background-color: @white;
+    color: @warning;
+  }
+}
+.btn-danger {
+  background-color: @danger;
+  color: @white;
+  border-color: @danger;
+  &:visited {
+    color: @white;
+  }
+  &:hover {
+    background-color: @white;
+    color: @danger;
+  }
+}
+.btn-info {
+  background-color: @info;
+  color: @white;
+  border-color: @info;
+  &:visited {
+    color: @white;
+  }
+  &:hover {
+    background-color: @white;
+    color: @info;
   }
 }
 

@@ -26,7 +26,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Support for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
 * Compatible with [GitHub Pages](http://pages.github.com/).
 
-<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn btn-info">Demo the Theme</a></div>
+<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn">Demo the Theme</a></div>
 
 <figure class="large">
 	<a href="http://mmistakes.github.io/hpstr-jekyll-theme" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
@@ -55,7 +55,7 @@ There are some [Jekyll Grunt plugins](https://github.com/dannygarcia/grunt-jekyl
 
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with a lightweight jQuery plugin by Filament group called [SocialCount](http://filamentgroup.com/lab/socialcount/). Social sharing links are disabled by default and must be turned on at the post or page level by adding `share: true` to its front matter.
 
-<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn btn-info">Theme Demo</a> <a href="http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Setup']);" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Download']);" class="btn btn-info">Download</a></div>
+<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn">Theme Demo</a> <a href="http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Setup']);" class="btn">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Download']);" class="btn">Download</a></div>
 
 [^1]: Example: *domain.com/post-title/*
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too... but that's a discussion for another day.
