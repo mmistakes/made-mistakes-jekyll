@@ -36,11 +36,7 @@ module.exports = function(grunt) {
         }
       }
     },
-<<<<<<< HEAD
-    imagemin: {
-=======
     imgcompress: {
->>>>>>> hotfix/gruntjs
       dist: {
         options: {
           optimizationLevel: 7,
