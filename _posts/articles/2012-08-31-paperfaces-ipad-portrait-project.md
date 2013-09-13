@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iPad Portraits with Paper by 53"
+title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
 modified: 2013-07-12
@@ -28,7 +28,7 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 {% endfor %}
 </ul>
 
-<a markdown="0" href="{{ site.url }}/paperfaces" class="btn btn-inverse btn-small" style="margin-bottom:0;">View all PaperFaces Portraits</a>
+<div markdown="0"><a href="{{ site.url }}/paperfaces" class="btn btn-inverse btn-small" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
 
 **Usage:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
 {: .notice}

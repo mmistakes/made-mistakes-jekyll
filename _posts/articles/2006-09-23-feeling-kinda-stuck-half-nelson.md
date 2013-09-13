@@ -7,6 +7,8 @@ image:
   feature: half-nelson-feature.jpg
   small: half-nelson-340x100.jpg
   thumb: half-nelson-thumb.jpg
+  credit: DVD screengrab from DB Cover
+  creditlink: http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1
 tags:
 - film
 - review
@@ -25,5 +27,3 @@ The reviews were fairly good for Half Nelson and I really enjoyed the feel of th
 Overall the movie seemed to plateau about midway. The classroom scenes were all about opposing forces in history which was probably suppose to mirror Danny's (I think that was his name) life... if you want to overanalyze... The conclusion was downplayed and I get why. I guess I was just waiting for the big shocker or turning point to happen --- but secretly sort of glad that event never happened. You could argue that one or two events might have been tha shockah... but it was so subdued that I hardly took.
 
 I didn't hate it. I didn't love it. I'm sure glad I didn't see Ben and Matt's horror flick, *Feast* instead.
-
-[^1]: *Half Nelson* DVD screengrab from [DB Covers](http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1)

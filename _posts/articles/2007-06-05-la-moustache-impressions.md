@@ -7,6 +7,8 @@ image:
   feature: la-moustache-feature.jpg
   small: la-moustache-340x100.jpg
   thumb: la-moustache-thumb.jpg
+  credit: DVD screengrab from The Movie Database
+  creditlink: http://www.themoviedb.org/movie/16998-la-moustache
 tags: 
 - mustache
 - film
@@ -19,5 +21,3 @@ Saw another great French film tonight. This one is called *La Moustache*[^1] and
 His coworkers deny that he ever had a mustache even though he has photos of him wearing one. His wife tells him his father died the year before, when five minutes earlier she was talking about going to see them for dinner. All kinds of head scratching events occur as you witness Marc's madness.
 
 The acting and music are all really good. If you want to see a film that you can discuss "what the hell just happened" with your friends, then see this one.
-
-[^1]: *La Moustache* DVD screengrab from [The Movie Database](http://www.themoviedb.org/movie/16998-la-moustache)

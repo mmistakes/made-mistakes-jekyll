@@ -58,7 +58,7 @@ action="https://mademistakes.wufoo.com/forms/z7x4m1/#public">
       </li>
       <li class="buttons ">
         <div>
-          <input id="saveForm" name="saveForm" class="btTxt submit btn btn-inverse" type="submit" value="Send Message"
+          <input id="saveForm" name="saveForm" class="btn" type="submit" value="Send Message"
  />
         </div>
       </li>

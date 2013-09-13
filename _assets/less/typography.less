@@ -5,12 +5,6 @@ body {
 	color: @text-color;
 }
 
-// Headings
-// --------------------------------------------------
-h1, h2, h3, h4, h5, h6 {
-	font-family: @heading-font;
-}
-
 // Links
 // --------------------------------------------------
 a { 
@@ -37,8 +31,10 @@ a {
 figcaption {
 	padding-top: 10px;
 	.font(14);
+	text-align: center;
 	line-height: 1.3;
 	color: lighten(@text-color, 10);
+	clear: both;
 }
 
 // Note text
@@ -59,11 +55,10 @@ figcaption {
 // Blockquotes
 // --------------------------------------------------
 blockquote {
-	font-family: @alt-font;
 	font-style: italic;
-	.font-size(24);
+	.font-size(18);
 	padding-left: 20px;
-	border-left: 8px solid @black;
+	border-left: 8px solid lighten(@black,50);
 }
 
 // Footnotes
@@ -73,12 +68,31 @@ blockquote {
 	font-family: @base-font;
 }
 
+// Image Credit
+.image-credit {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px 15px;
+	color: @white;
+	background-color: fade(@base-color,50);
+	.font-rem(12);
+	text-align: right;
+	.border-radius(3px,0,0,3px);
+	z-index: 10;
+	a {
+		color: @white;
+		text-decoration: none;
+	}
+}
+
 // Code
 // --------------------------------------------------
 tt, code, kbd, samp, pre {
 	font-family: @code-font;
 }
-p code {
+p code,
+li code {
 	.font-rem(16);
 	white-space: nowrap;
 	margin: 0 2px;
