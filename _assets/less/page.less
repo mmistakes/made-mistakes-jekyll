@@ -34,8 +34,7 @@ body {
 		line-height: 50px; //match logo size to vertically align text
 	}
 	.site-title {
-		padding-bottom: 15px;
-		display: block;
+		display: inlinej;
 		font-family: @heading-font;
 		text-transform: uppercase;
 		.font-rem(22);
@@ -63,9 +62,9 @@ body {
 // --------------------------------------------------
 #site-nav {
 	clear: both;
+	padding-top: 20px;
 	font-family: @heading-font;
 	@media @medium {
-		padding-top: 20px;
 		display: inline-block;
 		clear: none;
 		float: right;
@@ -76,18 +75,17 @@ body {
 		padding: 0;
 	}
 	li {
-		padding-bottom: 10px;
+		display: block;
+		float: left;
 		list-style: none;
 		.font-rem(14);
 		text-transform: uppercase;
 		color: @black;
-		@media @medium {
-			display: block;
-			float: left;
-		}
 	}
 	a {
 		display: block;
+		padding-right: 10px;
+		padding-bottom: 0;
 		color: @black;
 		.transition(color .2s ease);
 		&:hover {
@@ -96,10 +94,8 @@ body {
 			background-position: left center;
 		}
 		@media @medium {
-			
-			padding-left: 5px;
-			padding-right: 5px;
-			padding-bottom: 0;
+			padding-left: 20px;
+			padding-right: 0;
 		}
 	}
 }
@@ -125,7 +121,7 @@ body {
 		padding-left: 20px;
 		.clearfix();
 		@media @medium {
-			max-width: 760px;
+			max-width: 720px;
 			padding-right: 60px;
 			padding-left: 60px;
 		}
@@ -407,7 +403,7 @@ span + .entry-title {
 // Social Icons
 // --------------------------------------------------
 .social-icons {
-	margin: 1em 0 2em;
+	margin: 2em 0;
 	a {
 		padding: 4px 8px;
 		&:hover { 
