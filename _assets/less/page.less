@@ -11,6 +11,21 @@ body {
 
 // Masthead
 // --------------------------------------------------
+.masthead-wrapper {
+	margin: 0 auto;
+	max-width: 440px;
+	padding-right: 20px;
+	padding-left: 20px;
+	.clearfix();
+	@media @medium {
+		max-width: 760px;
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	@media @large {
+		max-width: 960px;
+	}
+}
 #masthead {
 	display: inline-block;
 	float: left;
@@ -19,12 +34,16 @@ body {
 		line-height: 50px; //match logo size to vertically align text
 	}
 	.site-title {
-		display: block;
+		display: inlinej;
 		font-family: @heading-font;
 		text-transform: uppercase;
 		.font-rem(22);
+		a {
+			color: @black;
+		}
 		@media @medium {
 			margin-left: 10px;
+			padding-bottom: 0;
 			display: inline;
 		}
 	}
@@ -43,9 +62,9 @@ body {
 // --------------------------------------------------
 #site-nav {
 	clear: both;
+	padding-top: 20px;
 	font-family: @heading-font;
 	@media @medium {
-		padding-top: 20px;
 		display: inline-block;
 		clear: none;
 		float: right;
@@ -56,18 +75,18 @@ body {
 		padding: 0;
 	}
 	li {
+		display: block;
+		float: left;
 		list-style: none;
 		.font-rem(14);
 		text-transform: uppercase;
 		color: @black;
-		@media @medium {
-			display: block;
-			float: left;
-		}
 	}
 	a {
+		display: block;
+		padding-right: 10px;
+		padding-bottom: 0;
 		color: @black;
-		padding-bottom: 10px;
 		.transition(color .2s ease);
 		&:hover {
 			background-image: url(../../images/strike_bg.png);
@@ -75,10 +94,8 @@ body {
 			background-position: left center;
 		}
 		@media @medium {
-			display: block;
-			padding-left: 5px;
-			padding-right: 5px;
-			padding-bottom: 0;
+			padding-left: 20px;
+			padding-right: 0;
 		}
 	}
 }
@@ -104,7 +121,7 @@ body {
 		padding-left: 20px;
 		.clearfix();
 		@media @medium {
-			max-width: 760px;
+			max-width: 720px;
 			padding-right: 60px;
 			padding-left: 60px;
 		}
@@ -127,15 +144,15 @@ span + .entry-title {
 	font-family: @heading-font;
 	.font-rem(36);
 	line-height: 1;
-	letter-spacing: -3px;
 	a { color: @black; }
 	@media @medium {
 		max-width: 600px;
-		.font-rem(52);
+		.font-rem(42);
+		text-transform: uppercase;
 	}
 	@media @large {
 		max-width: 800px;
-		.font-rem(68);
+		.font-rem(48);
 	}
 }
 .entry-wrapper {
@@ -274,10 +291,9 @@ span + .entry-title {
 		top: 40%;
 		padding: .25em;
 		font-size: 1.5em;
+		color: @black;
 		background-color: @white;
-		background-color: fade(@white, 50);
 		&:hover {
-			background-color: @white;
 			.box-shadow(@shadow: 0 0 10px rgba(0,0,0,.25));
 		}
 		&:active {
@@ -387,7 +403,7 @@ span + .entry-title {
 // Social Icons
 // --------------------------------------------------
 .social-icons {
-	margin: 1em 0 2em;
+	margin: 2em 0;
 	a {
 		padding: 4px 8px;
 		&:hover { 
