@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-PaperFaces portrait of FiftyThree maker, [@Madcap_Laughs](http://twitter.com/Madcap_Laughs).
+PaperFaces portrait of [@Madcap_Laughs](http://twitter.com/Madcap_Laughs).
 
 {% include paperfaces-boilerplate-2.html %}
 
