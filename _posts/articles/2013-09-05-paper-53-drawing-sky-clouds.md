@@ -5,6 +5,7 @@ description: "Learn techniques to draw blue skies, clouds, and pretty sunsets us
 image: 
   feature: paper-53-skies-guide-feature.jpg
   thumb: paper-53-skies-guide-thumb.jpg
+modified: 2013-09-17
 category: articles
 tags: [Paper by 53, tutorial, drawing, painting, iPad, sky, clouds]
 series: mastering-paper
@@ -49,11 +50,11 @@ Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking wit
 
 With the clouds shaped and looking like clumps of cotton, it's time to add a few wispy cirrus clouds and clean the edges up. Again, a [Pogo Connect Smart Pen](http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20) comes in handy, allowing you to work lightly and gradually. Finger painters and normal stylus creators fear not, quick strokes can achieve the same results.
 
-No need to overdo it with this final step. A few well placed wisps on the edges of larger clouds is all that's needed. For the longer streaky clouds, you're looking for something like this:
+No need to overdo it with the wisps, just a few light crosshatches is all that's needed. For those longer streaky clouds your pencil strokes should be longer and more horizontal. I usually stick with just a pencil to create these wisp textures, but if you're feeling adventurous a light touch of white watercolor can be used to finish them off.
 
 ![screenshot of streaky cloud pattern]({{ site.url }}/images/paper-53-streaky-cloud-pattern.jpg)
 
-Don't be afraid to go back into the clouds with the blue color we iniatially painted the sky with. The same "streaky" pencil pattern used to draw wisps, can be used to add subtle cloud shadows. I often flip flop between blue and white to get the detail just right.
+Don't be afraid to go back into the clouds with the blue color we initially painted the sky with. The same "streaky" pencil pattern used to draw wisps (see above) can be used to add subtle cloud shadows. I often flip flop between blue and white to get the detail just right.
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paper-53-cloud-blue-shadow-lg.jpg"><img src="{{ site.url }}/images/paper-53-cloud-blue-shadow-600.jpg" alt="screenshot adding blue shadows to clouds"></a>
@@ -113,7 +114,7 @@ A pencil filled with a pinkish red is also perfect for refining clouds edges or 
 	<figcaption>Color mix and end result of drawing pink wispy clouds with the pencil tool.</figcaption>
 </figure>
 
-An added benefit of painting a sunset, is how it reacts with objects that are placed in silhouette. You can draw or paint almost anything and fill it with a dark color to add drama to your creation. A half circle at the horizon to represent the sun, hills and moutain tops, or the outline of a figure in the foreground are all appropriate choices.
+An added benefit of painting a sunset, is how it reacts with objects that are placed in silhouette. You can draw or paint almost anything and fill it with a dark color to add drama to your creation. The outline of a figure in the foreground, hills and mountain tops, or a half circle at the horizon to represent an eclipsed sun are all appropriate choices.
 
 ![screenshot of sun and hills in silhouette]({{ site.url }}/images/paper-53-sunset-finished.jpg)
 
