@@ -14,26 +14,23 @@ _  ________ ____   _  ______________  _________
 /* SITE */
 
    Language:    English
-   Built with:  Jekyll (http://jekyllrb.com/)
-                LESS (http://lesscss.org/)
-                jQuery (http://jquery.com/)
-                Magnific Popup (https://github.com/dimsemenov/Magnific-Popup)
-                FitVids (http://fitvidsjs.com/)
-                Respond (https://github.com/scottjehl/Respond)
-   Software:    Adobe Creative Suite (RIP)
-                Sublime Text (http://www.sublimetext.com/)
-                CodeKit (http://incident57.com/codekit/)
-                SourceTree (http://sourcetreeapp.com/)
+   Built with:  Jekyll <http://jekyllrb.com>
+                LESS
+                jQuery
+                Magnific Popup <https://github.com/dimsemenov/Magnific-Popup>
+                FitVids <http://fitvidsjs.com>
+                Respond <https://github.com/scottjehl/Respond>
+                Adobe Creative Suite (RIP)
+                Sublime Text
+                SourceTree
                 Cyberduck
                 FileZilla
-                WinLess (http://winless.org/)
-                MAMP
-                Multi-Browser Viewer (http://www.multibrowserviewer.com/)
-                HTML Compressor (https://code.google.com/p/htmlcompressor/)
-                YUI Compressor (http://yui.github.io/yuicompressor/)
+                Multi-Browser Viewer
+                Grunt <http://gruntjs.com>
+                HTML Compressor <https://code.google.com/p/htmlcompressor>
 
 /* SPECIAL THANKS */
 
-   HTML5 Boilerplate (http://html5boilerplate.com/)
-   Twitter Bootstrap (http://twitter.github.com/bootstrap/)
-   320 and Up (http://stuffandnonsense.co.uk/projects/320andup/)
+   HTML5 Boilerplate <http://html5boilerplate.com>
+   Twitter Bootstrap <http://twitter.github.com/bootstrap>
+   320 and Up <http://stuffandnonsense.co.uk/projects/320andup>
