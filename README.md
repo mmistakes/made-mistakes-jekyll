@@ -3,7 +3,7 @@
 This is the source code of Made Mistakes, a personal blog and portfolio on http://mademistakes.com, hosted by 
 [Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c). My overall goal with the site design was to create visually interesting pages that look great and are readable on mobile, tablet, and desktop viewports.
 
-The article layouts are the most fleshed out and *finished*, while the `work.html` used for portfolio and photo pages is still a work in progress.
+The article layouts are the most fleshed out and *finished*, while  `work.html` used for portfolio and photo pages is still a work in progress.
 
 ---
 
@@ -50,15 +50,15 @@ Serves SVG files with the correct MIME type when running `$ jekyll --server`.
 
 There are three main content `_layouts` used on the site: `post.html`, `page.html`, and `work.html`.
 
-### Text layouts
+### Post and Page Layouts
 
-The `post.html` and `page.html` layouts are very similar: both pull in large feature images when specified, and both are meant for text heavy blog posts (or articles). Adding the tag *feature* to a posts' front matter activates an alternate post layout that stretches the feature image and overlays the main content some. Ideal for posts you want to give more attention to.
+The `post.html` and `page.html` layouts are very similar: both pull in large feature images when specified, and both are meant for text heavy blog posts (or articles).
 
-### Portfolio/Image Layout (Work in Progress)
+### Portfolio and Image Layout (Work in Progress)
 
 Needs some love, but does work albeit with some messy looking Liquid to keep post pagination isolated to the current category.
 
-### Home and Index Pages
+### Home and Post Index Layouts
 
 Home page uses the `home.html` layout and is designed to pull in 6 posts (thumbnail image and title) that are tagged `feature` along with the 10 latest posts in `category: articles`. Articles index uses the `post-index.html` layout and is designed to display all posts in the category `articles`.
 
@@ -108,9 +108,10 @@ From the site's root, use `grunt` to rebuild the CSS, concatenate JavaScript fil
 Nothing fancy here.
 
 1. Enable correct `{{ site.url }}` in `_config.yml` (ie: http://mademistakes.com)
-2. Run Jekyll `$ jekyll build`
-3. Minify HTML `$ rake minify`
-4. FTP the contents of the `_site` folder to your webserver
+2. Run Grunt build script `$ grunt`
+3. Run Jekyll `$ jekyll build`
+4. Minify HTML `$ rake minify`
+5. FTP the contents of the `_site` folder to your webserver
 
 ---
 
