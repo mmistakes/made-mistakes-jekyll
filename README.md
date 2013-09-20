@@ -3,7 +3,9 @@
 This is the source code of Made Mistakes, a personal blog and portfolio on http://mademistakes.com, hosted by 
 [Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c). My overall goal with the site design was to create visually interesting pages that look great and are readable on mobile, tablet, and desktop viewports.
 
-The article layouts are the most fleshed out and *finished*. Everything else works and get's the job done, but could use some more love.
+The article layouts are the most fleshed out and *finished*, while the `work.html` used for portfolio and photo pages is still a work in progress.
+
+---
 
 ## Install Jekyll
 
@@ -18,6 +20,9 @@ Or you can just install [Jekyll](http://jekyllrb.com/) via [RubyGems](http://rub
 ``` bash
 $ gem install jekyll
 ```
+
+---
+
 ## Jekyll Plugins
 
 The only plugin that needs installing is the [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle) RubyGem.The other plugins are already installed in the `_plugins` folder and should be set to go. 
@@ -39,29 +44,35 @@ Generates a `sitemap.xml` file by traversing all of the available posts and page
 
 Serves SVG files with the correct MIME type when running `$ jekyll --server`.
 
+---
+
 ## Layouts
 
-There are three main content `_layouts` used on the site: `post.html`, `page.html`, and `paperfaces.html`.
+There are three main content `_layouts` used on the site: `post.html`, `page.html`, and `work.html`.
 
 ### Text layouts
 
 The `post.html` and `page.html` layouts are very similar: both pull in large feature images when specified, and both are meant for text heavy blog posts (or articles). Adding the tag *feature* to a posts' front matter activates an alternate post layout that stretches the feature image and overlays the main content some. Ideal for posts you want to give more attention to.
 
-### Photo/Image Layout
+### Portfolio/Image Layout (Work in Progress)
 
-Needs some love, but does work. There is some hard coding in `paperfaces.html` that is specific to the PaperFaces series of portraits I've been posting, but it can be easily adapted for photo galleries or portfolios.
+Needs some love, but does work albeit with some messy looking Liquid to keep post pagination isolated to the current category.
 
-## Home and Index Pages
+### Home and Index Pages
 
-Home page uses the `home.html` layout and is designed to pull in the 15 most recent posts that are tagged `feature`. Articles page uses the `post-index.html` layout and is designed to display all posts in the category `articles`. The images that display to the right of each post title are 340x100 px and designated as `image.main` in each post's front matter.
+Home page uses the `home.html` layout and is designed to pull in 6 posts (thumbnail image and title) that are tagged `feature` along with the 10 latest posts in `category: articles`. Articles index uses the `post-index.html` layout and is designed to display all posts in the category `articles`.
 
-#### Videos
+---
+
+## Videos
 
 Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
 
 ``` html
 <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
 ```
+
+---
 
 ## Useful Commands
 
@@ -80,6 +91,18 @@ Minify all .html files in `_site` folder using HTML-compressor:
 $ rake minify
 ```
 
+### Grunt Build Script
+
+Grunt build script will compile/minify the LESS files into `main.min.css` and concatenate/minify all scripts into `main.min.js`. [Install Node.js](http://nodejs.org/), then [install Grunt](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:
+
+``` bash
+npm install
+```
+
+From the site's root, use `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the `images/` folder. For local development `grunt watch` used in combination with `jekyll build --watch` will watch for updates to LESS and JS files that Grunt will then automatically re-build which will in turn cause Jekyll to autogenerate a new `_site` folder for testing.
+
+---
+
 ## Deployment
 
 Nothing fancy here.
@@ -88,6 +111,8 @@ Nothing fancy here.
 2. Run Jekyll `$ jekyll build`
 3. Minify HTML `$ rake minify`
 4. FTP the contents of the `_site` folder to your webserver
+
+---
 
 ## License
 
