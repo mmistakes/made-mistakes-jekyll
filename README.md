@@ -120,8 +120,8 @@ Nothing fancy here.
 The following directories and their contents are released under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) unless otherwise noted. 
 
 ```
-_posts
-_images
+_posts/
+images/
 ```
 
 Basically this means you are free to share, transmit, distribute, alter, transform, and build on my work just as long as you don't sell it as a theme or pass it off as your own work. Don't be a dick please.
