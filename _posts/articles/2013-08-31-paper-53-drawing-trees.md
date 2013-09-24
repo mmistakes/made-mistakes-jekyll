@@ -9,7 +9,6 @@ category: articles
 tags: [Paper by 53, tutorial, drawing, painting, iPad, trees, grass]
 series: mastering-paper
 comments: true
-feature: true
 ---
 
 Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({{ site.url }}/work/relic-scout.html), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?

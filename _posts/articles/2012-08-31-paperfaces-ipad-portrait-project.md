@@ -145,7 +145,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 
-**PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide called [Mastering Paper by 53]({{ site.url }}/articles/mastering-paper-53-guide.html).
+**PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/).
 {: .notice}
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
