@@ -43,6 +43,28 @@
 	padding-left: 0;
 	li {
 		list-style-type: none;
+		.clearfix();
+	}
+	h4 {
+		margin: 0;
+	}
+	p {
+		margin-top: 0;
+	}
+	.preview {
+		margin-left: 10px;
+		width: 50px;
+		height: 50px;
+		float: right;
+		.rounded(50px);
+		@media @medium {
+			margin-left: 0;
+			margin-right: 10px;
+			width: 75px;
+			height: 75px;
+			float: left;
+			.rounded(75px);
+		}
 	}
 }
 .inline-list {
