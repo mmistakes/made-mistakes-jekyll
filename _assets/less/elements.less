@@ -89,6 +89,42 @@ svg:not(:root) {
   }
   .clearfix();
 }
+// Stretch grid of thumbnails beyond container width
+.oversized-recent-grid {
+  @media @large {
+    margin-left: -140px;
+    margin-right: -140px;
+  }
+  li {
+    float: left;
+    padding: 2px !important;
+  }
+  a { 
+    border-bottom: 0 solid !important;
+    img {
+      .translate(0, 0);
+      -webkit-transition-duration: 0.25s;
+      -moz-transition-duration: 0.25s;
+      -o-transition-duration: 0.25s;
+      &:hover {
+        .translate(0, -2px);
+        .box-shadow(0 0 5px fade(@black, 20));
+      }
+    }
+    &:hover {
+      border-bottom: 0 solid !important;
+    }
+  }
+  img {
+    width: 75px;
+    height: 75px;
+    @media @medium {
+      width: 106px;
+      height: 106px;
+    }
+  }
+  .clearfix();
+}
 // Projects
 .project-wrap {
   position: relative;
