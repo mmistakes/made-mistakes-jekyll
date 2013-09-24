@@ -9,7 +9,6 @@ image:
 category: articles
 tags: [Paper by 53, stylus, illustration, review, iPad]
 comments: true
-feature: true
 adsense: true
 ---
 
