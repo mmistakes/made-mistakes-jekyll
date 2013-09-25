@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /mastering-paper/index.html
+permalink: /mastering-paper/
 title: Mastering Paper by 53 Guide
 short-title: "Mastering Paper by 53"
 description: "A collection of tutorials and techniques to help master Paper by FiftyThree for iPad."
