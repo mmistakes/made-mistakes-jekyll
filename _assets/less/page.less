@@ -52,9 +52,11 @@ body {
 		    width: 50px;
 		    height: 50px;
 		    .rounded(100px);
-		    .transition(all .2s ease);
+		    .transition(all .2s ease-out);
 		    &:hover {
-		    	.translate(0, -4px);
+		    	-moz-animation: wiggle .3s ease-out;
+				-webkit-animation: wiggle .3s ease-out;
+				animation: wiggle .3s ease-out;
 		    }
 		}
 	}
@@ -401,6 +403,10 @@ span + .entry-title {
 	color: lighten(@text-color,20);
 	a {
 		color: lighten(@text-color,20);
+		.transition(all .2s ease-out);
+		&:hover {
+			color: @text-color;
+		}
 	}
 }
 
@@ -410,8 +416,12 @@ span + .entry-title {
 	margin: 2em 0;
 	a {
 		padding: 4px 8px;
+		display: inline-block;
 		&:hover { 
-			color:@black;
+			color: @black;
+			-moz-animation: wiggle .3s ease-out;
+			-webkit-animation: wiggle .3s ease-out;
+			animation: wiggle .3s ease-out;
 		}
 		&[href^="http://twitter.com"]:hover {
 			color: #00acee;
