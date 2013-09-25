@@ -20,12 +20,10 @@ figure {
   }
   a { 
     img {
-      .translate(0, 0);
-      -webkit-transition-duration: 0.25s;
-      -moz-transition-duration: 0.25s;
-      -o-transition-duration: 0.25s;
       &:hover {
-        .translate(0, -5px);
+        -moz-animation: wiggle .3s ease-out;
+        -webkit-animation: wiggle .3s ease-out;
+        animation: wiggle .3s ease-out;
         .box-shadow(0 0 10px fade(@black, 20));
       }
     }
@@ -66,12 +64,10 @@ svg:not(:root) {
   a { 
     border-bottom: 0 solid !important;
     img {
-      .translate(0, 0);
-      -webkit-transition-duration: 0.25s;
-      -moz-transition-duration: 0.25s;
-      -o-transition-duration: 0.25s;
       &:hover {
-        .translate(0, -2px);
+        -moz-animation: wiggle .3s ease-out;
+        -webkit-animation: wiggle .3s ease-out;
+        animation: wiggle .3s ease-out;
         .box-shadow(0 0 5px fade(@black, 20));
       }
     }
@@ -102,12 +98,10 @@ svg:not(:root) {
   a { 
     border-bottom: 0 solid !important;
     img {
-      .translate(0, 0);
-      -webkit-transition-duration: 0.25s;
-      -moz-transition-duration: 0.25s;
-      -o-transition-duration: 0.25s;
       &:hover {
-        .translate(0, -2px);
+        -moz-animation: wiggle .3s ease-out;
+        -webkit-animation: wiggle .3s ease-out;
+        animation: wiggle .3s ease-out;
         .box-shadow(0 0 5px fade(@black, 20));
       }
     }
@@ -131,12 +125,10 @@ svg:not(:root) {
   float: left;
   width: 40%;
   margin: 10px 5%;
-  .translate(0, 0);
-    -webkit-transition-duration: 0.25s;
-    -moz-transition-duration: 0.25s;
-    -o-transition-duration: 0.25s;
   &:hover {
-    .translate(0, -10px);
+    -moz-animation: wiggle .3s ease-out;
+      -webkit-animation: wiggle .3s ease-out;
+      animation: wiggle .3s ease-out;
   }
   &:nth-child(3) {
     clear: both;
@@ -259,4 +251,41 @@ svg:not(:root) {
   vertical-align: baseline;
   white-space: nowrap;
   background-color: lighten(@primary,50);
+}
+
+// Animations
+// --------------------------------------------------
+@-webkit-keyframes wiggle {
+  25%, 50%, 75%, 100% {
+    -webkit-transform-origin: top center;
+  }
+  25% {
+    -webkit-transform: rotate(8deg);
+  }
+  50% {
+    -webkit-transform: rotate(-4deg);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+@keyframes wiggle {
+  25%, 50%, 75%, 100% {
+    transform-origin: top center;
+  }
+  25% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
