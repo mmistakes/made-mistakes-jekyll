@@ -64,8 +64,14 @@ blockquote {
 // Footnotes
 // --------------------------------------------------
 .footnotes {
+	margin: 3em 0;
 	.font(14);
 	font-family: @base-font;
+	&:before {
+		content: 'Footnotes:';
+		.font-rem(16);
+		font-weight: 700;
+	}
 }
 
 // Image Credit
