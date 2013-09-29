@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mastering Paper by 53: Drawing Skies and Clouds"
-description: "Learn techniques to draw blue skies, clouds, and pretty sunsets using the iPad app, Paper by 53."
+description: "Learn techniques to draw blue skies, clouds, and pretty sunsets using the iPad app Paper by 53."
 image: 
   feature: paper-53-skies-guide-feature.jpg
   thumb: paper-53-skies-guide-thumb.jpg
