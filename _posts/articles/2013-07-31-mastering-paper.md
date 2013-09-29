@@ -40,7 +40,6 @@ In the spirit of being open I've decided to compile everything I've learned abou
 	</li>
 {% endif %}
 {% endfor %}
-	<li><h4><span class="badge">Coming Soon</span> Part 4 &ndash; Drawing Water and Waves</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 5 &ndash; Drawing Textures</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 6 &ndash; Mixing Realistic Skin Tones</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 7 &ndash; Drawing Hair</h4></li>
