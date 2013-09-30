@@ -15,7 +15,7 @@ PaperFaces portrait commissioned by <a href="http://twitter.com/sakkaden">@sakka
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-sakkaden-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-sakkaden-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Working the background with watercolor.</figcaption>
+	<figcaption>Sketching with the pencil.</figcaption>
 </figure>
 
 <figure class="half">
