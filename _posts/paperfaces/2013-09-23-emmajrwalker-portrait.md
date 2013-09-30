@@ -15,7 +15,7 @@ PaperFaces portrait of <a href="http://twitter.com/emmajrwalker">@emmajrwalker</
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-emmajrwalker-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-emmajrwalker-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Working the background with watercolor.</figcaption>
+	<figcaption>Sketching with the pencil.</figcaption>
 </figure>
 
 <figure class="half">
