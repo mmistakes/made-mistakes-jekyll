@@ -36,9 +36,9 @@ links:
   - title: About
     url: /about.html
   - title: Articles
-    url: /articles
-  - title: PaperFaces
-    url: /articles/paperfaces-ipad-portrait-project.html
+    url: /articles/
+  - title: Mastering Paper
+    url: /mastering-paper/
 
 maruku:
   use_tex:    false
