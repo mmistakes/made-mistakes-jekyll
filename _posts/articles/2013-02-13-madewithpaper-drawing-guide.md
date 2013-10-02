@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Guide to Drawing with Paper by 53"
-description: "Learn how to use Paper by 53 to draw blank faced portraits and landscapes on an iPad with retina display."
+description: "Learn how to I use Paper by 53 to draw faceless portraits and landscapes on an iPad."
 modified: 2013-05-29
 image: 
   feature: madewithpaper-guide-feature.jpg
@@ -88,5 +88,5 @@ I hope some of this has been helpful. To better describe and show my process, I'
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/fC_yATccHmk" frameborder="0" allowfullscreen> </iframe>
 
-**PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
+**PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail and then some.
 {: .notice}
