@@ -21,7 +21,7 @@
       <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
     </header>
     <div class="entry-wrapper">
-      <div class="entry-content" itemprop="description">
+      <div class="entry-content" itemprop="articleBody">
         {{ content }}
         {% if page.series %}{% include series.html %}{% endif %}
         <hr />
