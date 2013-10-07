@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Maps and earbuds"
+title: "Monitor reflections"
 description: "PaperFaces portrait of @warrentalmarkes drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-warrentalmarkes-twitter-lg.jpg
