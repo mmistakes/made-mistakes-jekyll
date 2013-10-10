@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /paperfaces/index.html
+permalink: /paperfaces/
 title: "PaperFaces Project Gallery"
 headline: "PaperFaces Project"
 description: "Complete image gallery of every PaperFaces portrait drawn by Michael Rose using Paper by 53."
