@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /work/index.html
+permalink: /work/
 title: "Work"
 description: "Work. Designed, development, or illustrated by Michael Rose."
 category: work
