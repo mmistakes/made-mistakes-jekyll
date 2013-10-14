@@ -3,7 +3,7 @@ layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-07-12
+modified: 2013-10-14
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
@@ -16,7 +16,7 @@ homepage: true
 adsense: true
 ---
 
-PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.
+PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for <s>the next year</s> as long as I can before burning out on faceless faces.
 
 ## Latest Portraits
 
@@ -30,7 +30,7 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 
 <div markdown="0"><a href="{{ site.url }}/paperfaces" class="btn btn-inverse btn-small" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
 
-**Usage:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
+**Usage:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). That means you're free to use them as avatars, share on social media, or print out for personal use.
 {: .notice}
 
 ## Frequently Asked Questions
@@ -39,7 +39,7 @@ I make every effort to update the gallery weekly with the newest portraits. If y
 
 Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar fill out the PayPal form below. If you don't want me to use an avatar as reference leave a note in the special instructions field during checkout. Just let me know you're going to email me an image and send it to [michael@mademistakes.com](mailto:michael@mademistakes.com) or [tweet me the URL](http://twitter.com/mmistakes). 
 
-Reference images should be high resolution to help accurately capture detail and likeness. Depending on the subject I sometimes draw the entire face (but usually don't), so keep that in mind before requesting a portrait.
+Reference images should be high resolution to help me accurately capture detail and likeness. Depending on the subject I sometimes draw the entire face (but usually don't), so keep that in mind before requesting a portrait.
 
 <div class="well">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -58,7 +58,7 @@ Reference images should be high resolution to help accurately capture detail and
     <input type="hidden" name="currency_code" value="USD" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'Twitter username']);">
     <input type="submit" value="Pay Now" class="btn btn-inverse" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    <p class="help-block" style="margin-bottom:0;"><small>Please note. This is for a digital version of the drawing only. You will <strong>not</strong> receive a print snail mailed to you. Although the 2048&times;1536 .jpg sent should look nice as an 8&times;10 (or A4 for my European friends) if you decide to print it yourself&#8230;</small></p>
+    <p class="help-block" style="margin-bottom:0;"><small>Please note: You are purchasing a custom <strong>digital portrait only</strong>. You will receive a 2048&times;1536 .png file with adequate resolution to make an 8&times;10 (or A4 for my European friends) print.</small></p>
   </form>
 </div><!-- /.well -->
 
