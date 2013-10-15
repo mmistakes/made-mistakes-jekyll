@@ -3,7 +3,7 @@ layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-07-12
+modified: 2013-10-14
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
@@ -16,55 +16,31 @@ homepage: true
 adsense: true
 ---
 
-PaperFaces is an iPad drawing project by time traveling designer/illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue for the next year with the goal of completing a minimum of 730 portraits.
+PaperFaces is an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue <s>the next year</s> until I burn out on faceless faces.
 
 ## Latest Portraits
 
-I make every effort to update the gallery weekly with the newest portraits. If you absolutely have to see the latest PaperFaces drawing the second I finish it, best follow me on [Twitter](http://twitter.com/mmistakes) or [Tumblr](http://mademistakes.tumblr.com). You won't be able to grab the full size originals (2048&times;1536 pixels) there, but...
+I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
 
 <ul class="recent-grid unstyled-list">
-{% for post in site.categories.paperfaces limit:8 %}
+{% for post in site.categories.paperfaces limit:12 %}
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumb" /></a></li>
 {% endfor %}
 </ul>
 
-<div markdown="0"><a href="{{ site.url }}/paperfaces" class="btn btn-inverse btn-small" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
-
-**Usage:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). Feel free to use them as avatars, share on social media, or print out for personal use.
-{: .notice}
+<div markdown="0"><a href="{{ site.url }}/paperfaces/" class="btn btn-inverse" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
 
 ## Frequently Asked Questions
 
-### Draw Me! Draw Me! 
+### Will You Draw Me?
 
-Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar fill out the PayPal form below. If you don't want me to use an avatar as reference leave a note in the special instructions field during checkout. Just let me know you're going to email me an image and send it to [michael@mademistakes.com](mailto:michael@mademistakes.com) or [tweet me the URL](http://twitter.com/mmistakes). 
+Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces(tm) style, draw your pet dinosaur, or whatever, follow the link below.
 
-Reference images should be high resolution to help accurately capture detail and likeness. Depending on the subject I sometimes draw the entire face (but usually don't), so keep that in mind before requesting a portrait.
-
-<div class="well">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="K3FZ3DHU22URC">
-    <select name="os0">
-      <option value="Portrait (one face)">Portrait (one face) $7.50 USD</option>
-      <option value="Portrait (one face) + making of video">Portrait (one face) + making of video $10.00 USD</option>
-      <option value="Portrait (multiple faces)">Portrait (multiple faces) $15.00 USD</option>
-      <option value="Portrait (multiple faces) + making of video">Portrait (multiple faces) + making of video $30.00 USD</option>
-    </select>
-    <input type="hidden" name="on1" value="Twitter username">
-    <label style="margin:10px 0;">Twitter username</label>
-    <input type="text" name="os1" maxlength="200">
-    </table>
-    <input type="hidden" name="currency_code" value="USD" onFocus="_gaq.push(['_trackEvent', 'PaperFaces', 'fieldfocus', 'Twitter username']);">
-    <input type="submit" value="Pay Now" class="btn btn-inverse" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    <p class="help-block" style="margin-bottom:0;"><small>Please note. This is for a digital version of the drawing only. You will <strong>not</strong> receive a print snail mailed to you. Although the 2048&times;1536 .jpg sent should look nice as an 8&times;10 (or A4 for my European friends) if you decide to print it yourself&#8230;</small></p>
-  </form>
-</div><!-- /.well -->
+<div markdown="0"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
 
 ### What is PaperFaces?
 
-PaperFaces is the name that I coined for the portraits I was drawing with the Paper by 53 iPad app. Most of the Paper creations share the #MadeWithPaper hashtag, so I thought [#PaperFaces](https://twitter.com/search?q=%23PaperFaces&src=typd) would fit in with that theme and decided to start tagging each portrait with it.
+PaperFaces is the name that I coined for the portraits I was drawing with the Paper by 53 iPad app. Most of the Paper creations share the #MadeWithPaper hashtag, so I thought [PaperFaces](https://twitter.com/search?q=PaperFaces&src=typd) would fit in with that theme and decided to start tagging each portrait with it.
 
 One night, out of sheer boredom, I decided I'd try to recreate <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg" title="iPad drawing of @veganwendy" rel="gallery">my wife's Twitter avatar</a> with Paper by 53. The positive response that resulted from that drawing prompted me to create one of <a href="{{ site.url }}/images/paperfaces-mmistakes-twitter-lg.jpg" title="iPad drawing of @mmistakes" rel="gallery">my own avatar</a>, which also went over well with my small group of Twitter and Instagram followers.
 
@@ -105,6 +81,10 @@ At the moment, there is a *waiting list* of about 1,300. Now I know what you're 
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour, while others might take a few. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
+### Usage and Copyright
+
+Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). That means they're free to use as avatars, share on social media, or print  for personal use only.
+
 ## Video Tutorials
 
 I use the term "tutorial" loosely. What you'll find here are glorified slideshows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slideshow with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/articles/madewithpaper-drawing-guide.html "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
@@ -114,7 +94,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slideshow
 
 <figure class="large">
   <iframe width="560" height="315" src="//www.youtube.com/embed/fC_yATccHmk?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
-  <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or read about <a href="{{ site.url }}/articles/madewithpaper-drawing-guide.html" title="How I draw with Paper by 53 and an iPad">my drawing process</a> here.</figcaption>
+  <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
 </figure>
 
 ## Homages
