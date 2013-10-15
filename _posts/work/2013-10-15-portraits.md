@@ -3,9 +3,12 @@ layout: page
 permalink: /portraits/
 title: "Custom Digital Portraits"
 headline: "Get PaperFaced"
+description: "Order a custom digital portrait drawn on an iPad in my signature faceless style."
 image:
   thumb: portrait-thumb.jpg
-description: "Order a custom digital portrait drawn on an iPad in my signature faceless style."
+  homepage: portrait-500x500.jpg
+tags: [portrait, Paper by 53, drawing, painting, iPad, digital, commission]
+homepage: true
 ---
 
 Want me to draw a faceless portrait for you using only an iPad and the fantabulous app [Paper by FiftyThree](http://www.fiftythree.com/paper)? Well read on friend, here's how it goes down.
