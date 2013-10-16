@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: work
 permalink: /paperfaces/
 title: "PaperFaces Project Gallery"
+short-title: "PaperFaces Project"
 headline: "PaperFaces Project"
-description: "Complete image gallery of every PaperFaces portrait drawn by Michael Rose using Paper by 53."
+description: "An entire gallery of PaperFaces portraits drawn by Michael Rose using Paper by 53 and an iPad."
 modified: 2013-07-12
 image: 
-  thumb: paperfaces-gallery-thumb.jpg
-category: paperfaces
+  thumb: paperfaces-project-250x250.jpg
+category: work
 tags: [PaperFaces, MadeWithPaper, Paper by 53, iPad, portrait, drawing, illustration, painting, Michael Rose]
 ---
 
@@ -21,5 +22,5 @@ PaperFaces is an illustration project by designer Michael Rose --- hey that's me
 		<img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
 		<noscript><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110"></noscript>
 	</a></li>
-	{% endfor %}
+{% endfor %}
 </ul>
