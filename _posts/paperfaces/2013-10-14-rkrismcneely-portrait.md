@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, 8bit]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/rkrismcneely">@rkrismcneely</a>.
+PaperFaces portrait of <a href="http://twitter.com/rkrismcneely">@rkrismcneely</a>.
 
 {% include paperfaces-boilerplate.html %}
 
