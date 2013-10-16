@@ -22,7 +22,7 @@ Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/maste
 
 When choosing a color for the water, I like to mix it dull and gray by knocking the saturation down[^mixer]. I find this helps arrive at a better base color and contrasts nicely against a bright blue sky. But don't let this mix limit your creative vision, make it any color you want.
 
-**Pro-tip:** Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
+**Pro tip:** Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 {: .notice}
 
 [^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({{ site.url }}/articles/paper-53-introduction.html#color-mixer) and what the various sliders mean and do.
@@ -31,7 +31,7 @@ Much like drawing skies, you can choose to mark a horizon line in pencil to act 
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-smart-cover-rule.jpg" alt="using an iPad smart cover as a ruler">
-	<figcaption><strong>Pro-tip:</strong> An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you don&rsquo;t have a ruler handy.</figcaption>
+	<figcaption><strong>Pro tip:</strong> An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you don&rsquo;t have a ruler handy.</figcaption>
 </figure>
 
 ### Base Coating the Water
@@ -50,7 +50,7 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 	<figcaption>In the photo reference to the right you&rsquo;ll notice the water is darkest at the horizon and gradually fades down &mdash; that&rsquo;s the effect you&rsquo;re looking to replicate by increasing the speed of your stroke as you approach the bottom.</figcaption>
 </figure>
 
-**Pro-tip:** Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
+**Pro tip:** Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
 {: .notice}
 
 ### Adding Wave Chop
@@ -63,7 +63,7 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 </figure>
 
 <div class="notice">
-<p><strong>Pro-tip:</strong> If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this &ldquo;sweet spot.&rdquo;</p>
+<p><strong>Pro tip:</strong> If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this &ldquo;sweet spot.&rdquo;</p>
 <figure>
 	<img src="{{ site.url }}/images/paper-53-wave-chop-light.jpg" alt="screenshot of watercolor wave chop lighten technique">
 	<figcaption>And here&rsquo;s an example of lighter wave chops for those areas you may have painted too dark.</figcaption>

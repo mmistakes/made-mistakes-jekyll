@@ -15,7 +15,7 @@ Want me to draw a faceless portrait for you using only an iPad and the fantabulo
 
 ## Choose How Many Faceless Faces
 
-And remember portraits are drawn in a loose watercolor style without facial features. Depending on the source photography I might draw a complete and realistic portrait, but don't hold your breathe on that happening. ([Need a reminder?]({{ site.url }}/paperfaces/))
+And remember portraits are drawn in a loose watercolor style without facial features. Depending on the source photography I might draw a complete and realistic portrait, but don't hold your breath on that happening. ([Need a reminder?]({{ site.url }}/paperfaces/))
 
 <figure>
 	<img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
@@ -59,9 +59,9 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="3VRPLX7UXXDLW">
     <select name="os0" style="width: 100%;">
-      <option value="Portrait (one face)">Portrait (one face) $7.50 USD</option>
-      <option value="Portrait (one face) + making of video">Portrait (one face) + making of video $10.00 USD</option>
-      <option value="Portrait (multiple faces)">Portrait (multiple faces) $15.00 USD</option>
+      <option value="Portrait (one face)">Portrait (one face) $10.00 USD</option>
+      <option value="Portrait (one face) + making of video">Portrait (one face) + making of video $15.00 USD</option>
+      <option value="Portrait (multiple faces)">Portrait (multiple faces) $25.00 USD</option>
       <option value="Portrait (multiple faces) + making of video">Portrait (multiple faces) + making of video $30.00 USD</option>
     </select>
     <input type="hidden" name="on1" value="Inscription">
