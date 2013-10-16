@@ -14,10 +14,10 @@
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="entry-header">
-      <div class="entry-image">
-        {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
+      {% if page.image.feature %}<div class="entry-image">
+        <img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
         {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-      </div><!-- /.entry-image -->
+      </div><!-- /.entry-image -->{% endif %}
       <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
     </header>
     <div class="entry-wrapper">
