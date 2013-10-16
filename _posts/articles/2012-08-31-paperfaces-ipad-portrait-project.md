@@ -12,8 +12,6 @@ image:
 category: articles
 tags: [Paper by 53, iPad, drawing, illustration, Michael Rose]
 comments: true
-homepage: true
-adsense: true
 ---
 
 PaperFaces is an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue <s>the next year</s> until I burn out on faceless faces.
