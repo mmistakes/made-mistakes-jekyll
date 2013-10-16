@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/ddrjr">@ddrjr</a>.
+PaperFaces portrait of <a href="http://twitter.com/ddrjr">@ddrjr</a>.
 
 {% include paperfaces-boilerplate-2.html %}
 
