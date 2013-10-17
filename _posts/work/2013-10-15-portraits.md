@@ -11,7 +11,7 @@ tags: [portrait, Paper by 53, drawing, painting, iPad, digital, commission]
 homepage: true
 ---
 
-Want me to draw a faceless portrait for you using only an iPad and the fantabulous app [Paper by FiftyThree](http://www.fiftythree.com/paper)? Well read on friend, here's how it goes down.
+Want me to draw a faceless portrait for you using only an iPad and the fantabulous app Paper by FiftyThree? Well read on friend, here's how it goes down.
 
 ## Choose How Many Faceless Faces
 
@@ -93,12 +93,16 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
 
 ## What Others are Saying
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thanks so much for making this! Love the no face ;)</p>&mdash; Omri Mor (@omri_mor) <a href="https://twitter.com/omri_mor/statuses/255021100780625922">October 7, 2012</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thanks so much for making this! Love the no face ;)</p>&mdash; Omri Mor (@omri_mor) <a href="https://twitter.com/omri_mor/statuses/255021100780625922">October 7, 2012</a></blockquote>
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/mmistakes">@mmistakes</a>: This is so lovely. Thank you so much! x</p>&mdash; Amanda M. Karby (@editorialism) <a href="https://twitter.com/editorialism/statuses/255440079584108544">October 8, 2012</a></blockquote>
+<blockquote class="twitter-tweet"><p>The talented <a href="https://twitter.com/mmistakes">@mmistakes</a> draws our about page: <a href="https://twitter.com/FiftyThree">@FiftyThree</a> — faces without faces of all the makers <a href="http://t.co/Aynukw2thh">http://t.co/Aynukw2thh</a></p>&mdash; Georg Petschnigg (@georgpetschnigg) <a href="https://twitter.com/georgpetschnigg/statuses/341333760433848321">June 2, 2013</a></blockquote>
 
-<blockquote class="twitter-tweet"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> <a href="https://twitter.com/Mike_FTW">@mike_ftw</a> haha. Awesome sauce. Best one yet!</p>&mdash; Q (@maxquattromani) <a href="https://twitter.com/maxquattromani/statuses/248245003300794368">September 19, 2012</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a>: This is so lovely. Thank you so much! x</p>&mdash; Amanda M. Karby (@editorialism) <a href="https://twitter.com/editorialism/statuses/255440079584108544">October 8, 2012</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> <a href="https://twitter.com/Mike_FTW">@mike_ftw</a> haha. Awesome sauce. Best one yet!</p>&mdash; Q (@maxquattromani) <a href="https://twitter.com/maxquattromani/statuses/248245003300794368">September 19, 2012</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>My last RT is too fucking cool, feel like Rose from Titanic <a href="https://twitter.com/search?q=%23frenchgirl&amp;src=hash">#frenchgirl</a> <a href="https://twitter.com/mmistakes">@mmistakes</a></p>&mdash; callum (@clamteeth) <a href="https://twitter.com/clamteeth/statuses/248683914368004096">September 20, 2012</a></blockquote>
+
+<blockquote class="twitter-tweet" data-media="none"><p>“<a href="https://twitter.com/mmistakes">@mmistakes</a>: <a href="https://twitter.com/search?q=%23PaperFaces&amp;src=hash">#PaperFaces</a> <a href="https://twitter.com/search?q=%23MadeWithPaper&amp;src=hash">#MadeWithPaper</a> <a href="http://t.co/Eo72rx2dEC">pic.twitter.com/Eo72rx2dEC</a>”&#10;&#10;Thank you! I feel honored - this looks very well done!</p>&mdash; Finn (@invalididentity) <a href="https://twitter.com/invalididentity/statuses/348884007892692994">June 23, 2013</a></blockquote>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
