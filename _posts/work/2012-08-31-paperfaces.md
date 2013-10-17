@@ -8,13 +8,16 @@ description: "An entire gallery of PaperFaces portraits drawn by Michael Rose us
 modified: 2013-07-12
 image: 
   thumb: paperfaces-project-250x250.jpg
+  homepage: paperfaces-project-500x500.jpg
+  circle: true
 category: work
+homepage: true
 tags: [PaperFaces, MadeWithPaper, Paper by 53, iPad, portrait, drawing, illustration, painting, Michael Rose]
 ---
 
-PaperFaces is an illustration project by designer Michael Rose --- hey that's me! Each day I draw the face of a stranger using an iPad, a stylus, and the fabulous sketching app *Paper by 53*. If you're interested in becoming part of the experiment or just want to learn more, [jump on over here]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html). 
+PaperFaces is an illustration project by designer Michael Rose --- hey that's me! Each day I draw the face of a stranger using an iPad, a stylus, and the fabulous sketching app *Paper by 53*. ([Learn more]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html))
 
-**{{ site.categories.paperfaces | size }} portraits down**, a ton more to go...
+<div markdown="0" style="text-align:center"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
 
 <ul class="oversized-recent-grid unstyled-list">
 {% for post in site.categories.paperfaces %}

@@ -33,12 +33,14 @@ permalink:   /:categories/:title.html
 
 # Internal pages/posts to include in top navigation
 links:
-  - title: About
-    url: /about.html
+  - title: Work
+    url: /work/
   - title: Articles
     url: /articles/
   - title: Mastering Paper
     url: /mastering-paper/
+  - title: About
+    url: /about.html
 
 maruku:
   use_tex:    false
