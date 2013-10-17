@@ -130,7 +130,7 @@ svg:not(:root) {
       -webkit-animation: wiggle .3s ease-out;
       animation: wiggle .3s ease-out;
   }
-  &:nth-child(3) {
+  &:nth-child(odd) {
     clear: both;
   }
   img {
@@ -140,17 +140,20 @@ svg:not(:root) {
     width: 215px;
     margin-left: 20px;
     margin-right: 20px;
-    &:nth-child(3) {
+    &:nth-child(odd) {
       clear: none;
     }
-    &:nth-child(4) {
+    &:nth-child(3n +4) {
       clear: both;
     }
   }
   @media @large {
     width: 120px;
-    &:nth-child(4) {
+    &:nth-child(3n + 4) {
       clear: none;
+    }
+    &:nth-child(7n + 7) {
+      clear: both;
     }
   }
 }
