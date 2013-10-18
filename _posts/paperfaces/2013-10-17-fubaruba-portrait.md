@@ -11,7 +11,7 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and whit
 
 PaperFaces portrait of <a href="http://twitter.com/Fubaruba">@Fubaruba</a>.
 
-{% include paperfaces-boilerplate.html %}
+{% include paperfaces-boilerplate-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-fubaruba-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-fubaruba-process-1-750.jpg" alt="Work in process screenshot"></a>
