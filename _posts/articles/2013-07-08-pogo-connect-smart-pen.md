@@ -2,7 +2,7 @@
 layout: post
 title: "A Pogo Connect Smart Pen Makes Paper by 53 Better"
 description: "In my opinion the Pogo Connect is worth every penny because it enhances Paper by 53 in ways capacitive styluses can't."
-modified: 2013-08-05
+modified: 2013-10-31
 image: 
   feature: pogo-connect-review-feature.jpg
   thumb: pogo-connect-review-thumb.jpg
@@ -23,7 +23,9 @@ For my birthday [my wife](http://2littlerosebuds.com) picked me up one and I sta
 	<figcaption>As you can see the Pogo Connect Smart Pen's tip looks like most other capacitive stylus pens out there. It feels like and drags on the iPad's screen the same too.</figcaption>
 </figure>
 
-So how does the Pogo Connect's feel compare to other styluses? In your hand it doesn't quite have the same solidness as the LunaTik or an [AluPen]( http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20). By no means is it cheap feeling, but it doesn't have the heft as those other two pens. The tip isn't any more accurate than your average rubber nub stylus, so if you're looking for precision look at the [Adonit Jot Touch 4](http://www.amazon.com/gp/product/B00AO1L1RG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AO1L1RG&linkCode=as2&tag=mademist-20) line instead.
+So how does the Pogo Connect's feel compare to other styluses? In your hand it doesn't quite have the same solidness as the LunaTik or an [AluPen]( http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20). By no means is it cheap feeling, but it doesn't have the heft as those other two pens. The tip isn't any more accurate than your average rubber nub stylus, so if you're looking for precision look at the [Adonit Jot Touch 4](http://www.amazon.com/gp/product/B00AO1L1RG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AO1L1RG&linkCode=as2&tag=mademist-20) line[^adonit-touch] instead.
+
+[^adonit-touch]: At the time of writing this review the Adonit Jot Touch 4 is not supported by Paper. If you were hoping to take advantage of the palm detection and pressure sensitive features you'll need to use a different app --- here's the full list of [Jot ready apps](http://adonit.net/jot-ready-apps/).
 
 ## Setting It Up is a Breeze
 
@@ -79,11 +81,15 @@ In my opinion the two tools that benefit the most from using a Pogo Connect styl
 
 ### On the Subject of Palm Rejection
 
-Seen this one mentioned on a few other reviews and forums so I figured I'd address it quickly. I've never really had a problem with drawing or writing on an iPad and having my palm make random marks. Not sure if I draw in a way that eliminates this, so I don't really have a way to judge if the Pogo fixes this. What I can say is when activated you can't draw with anything except the Pogo, but gestures like pinch to zoom, rewind, and moving pages around all still work. So in theory there shouldn't be any problem if you rest your palm on the screen while drawing...
+Seen this one mentioned on a few other reviews and forums so I figured I'd address it quickly. I've never really had a problem with drawing or writing on an iPad and having my palm make random marks. Not sure if I draw in a way that eliminates this, so I don't really have a way to judge if the Pogo fixes this. What I can say is when activated you can't draw with anything except the Pogo, but gestures like pinch to zoom, rewind, and moving pages around all still work.
+
+But if you rest your palm on the screen while you draw things break down quickly. Because of the way multitouch gestures work in Paper, the palm rejection feature was likely turned off as not to conflict. If you use an app like Procreate, palm rejection works quite nicely when multitouch gestures are turned off on your device.
 
 ## Is it Worth the Money?
 
-If you're a watercolor fan or sketch a bunch with the pencil I think the high price of a Pogo Connect is justified. If you're predominantly an inker then it's probably not worth it. I find controlling the fountain pen to be much harder when using a Pogo Connect because it is really sensitive to pressure. This makes drawing smooth lines hard unless you have a steady hand and don't vary the pressure as you draw.
+If you're a Paper addict and mostly use watercolor and pencil I think the high price of a Pogo Connect is justified. If you're predominantly an inker then it's probably not worth it. I find controlling the fountain pen to be much harder when using a Pogo Connect because it is really sensitive to pressure. This makes drawing smooth lines hard unless you have a steady hand and don't vary the pressure as you draw.
+
+It's worth noting that there appears to be a major design flaw with the internals of the pen (see below). From constant pressure being applied to a soldered circuit board behind the tip, it eventually breaks and ceases to work properly. I don't know anyone in the Paper community who has escaped this. But since it's the only stylus Paper supports with pressure sensitivity you'll have to decide how important that is to you. Buyer beware...
 
 ## What's Wrong with the Pogo Connect
 
@@ -121,3 +127,14 @@ I have an email out to Ten One Design to see what can be done. I've heard they r
 ## Update. A Week Later
 
 And just like that Ten One Design sent me a replacement pen with 2 extra tips free of charge. Excellent customer service if you ask me! Not sure if it's that new car smell effect, but this pen feels more sturdy and responsive. Hoping that means the build quality has been improved and the tip sensor breaking apart is no longer an issue.
+
+## Update. Three Months Later
+
+<figure>
+	<img src="{{ site.url }}/images/pogo-connect-broken-circuit-2.jpg" alt="Seems like a major design flaw to me">
+	<figcaption>All the solder in the world probably isn't going to fix this design flaw.</figcaption>
+</figure>
+
+Feels like Groundhog Day all over again. Sadly my replacement Pogo didn't fair too well and broke in the exact same way after three months of daily usage. Big shout out to Ten One Design's customer service for setting me up with another replacement gratis. I've been told they beefed up the soldering for a new production run in September. Not sure if that will make much of a difference, but will report back after I get my hands on it.
+
+If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back...
