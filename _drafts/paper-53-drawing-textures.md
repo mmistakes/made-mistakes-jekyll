@@ -11,15 +11,39 @@ series: mastering-paper
 comments: true
 ---
 
-Introduction goes here.
+If you've been following along you now know all my Paper techniques[^techniques] and tricks for painting basic landscapes. Trees, grass, skies, clouds, water, and waves --- all the parts for building a solid landscape foundation. This next part of my Mastering Paper guide will cover texture techniques for creating bricks, wood grain, concrete, and rocks.
+
+[^techniques]: I like to draw loose and quick, and avoid anything that takes the fun and energy from the experience. My techniques focus more on getting the best results in the least amount of time, because who really wants to spend more than an hour on a drawing?
 
 ## Drawing Bricks
 
-Lightly sketch perpendicular guide lines
+Bricks can be quite the monotonous subject to draw because of their repetitive nature. Getting the perspective right can also be quite challenging if you're trying to capture a brick road or wall that isn't perfectly flat.
 
-Mix a light brown/rust color
+I'm not going to get into perspective or how to set a vanishing point because it's beyond scope of this guide. Instead, the approach I like to take is to sketch lightly with the pencil --- creating guidelines. An easy way to do this is follow along where the cement is between the bricks and sketch your lines there. A photo reference is a big help here.
 
-Use watercolor to block out brick shapes
+<figure>
+	<img src="http://placehold.it/750x350" alt="Screenshot of brick guide lines">
+	<figcaption>Depending on the orientation of your bricks you may end up with guides resembling this.</figcaption>
+</figure>
+
+The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}/articles/pogo-connect-smart-pen.html) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
+
+**ProTip:** An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you dont have a ruler handy.
+{: .notice}
+
+With a few guidelines placed, we'll next use the mixer to create a base color for the bricks. The mixture I decided on was a brown with some red added in. Remember to mix a color about 50--75% lighter than what you'd like to end with. This is because we'll be applying several layers to the bricks for a more rich and heavy result. If you mix it too dark you'll end up with bricks that are almost black and lack dimension.
+
+<figure>
+	<img src="http://placehold.it/750x350" alt="Screenshot of rusty brown color">
+	<figcaption>To determine if you mixed the color light enough, paint a few layers of watercolor to the side and check the results.</figcaption>
+</figure>
+
+When blocking out bricks, I prefer using the watercolor brush versus the marker or fountain pen. Simply put, it leaves you with a jagged edge that's closer to real life. Painting small bricks is next to impossible without a stylus like the Pogo Connect. Without it you're limited to one size, which is quite wide for this sort of detail work.
+
+<figure>
+	<img src="http://placehold.it/750x350" alt="Screenshot of sample bricks">
+	<figcaption>Marker brick vs. watercolor brick vs. Pogo Connect small brick</figcaption>
+</figure>
 
 Show spacing pattern to follow
 
@@ -87,13 +111,13 @@ Feel free to go in and add more texture using the pencil like we did for gravel.
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html). Below are a few finished pieces to show what is possible just by varying the color and composition.
 
 <ul class="recent-grid unstyled-list">
+  <li><a href="{{ site.url }}/paperfaces/rob-jayne-portrait.html"><img src="{{ site.url }}/images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/padulantonio-portrait.html"><img src="{{ site.url }}/images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/chappers-ma-portrait.html"><img src="{{ site.url }}/images/paperfaces-chappers-ma-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}/paperfaces/andrewbrewer-portrait.html"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/sbrolins-portrait.html"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/bradersk8r-portrait.html"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/iron-man-portrait.html"><img src="{{ site.url }}/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/agentkyle-portrait.html"><img src="{{ site.url }}/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/jamesonroot-portrait.html"><img src="{{ site.url }}/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/aaronrustad-portrait.html"><img src="{{ site.url }}/images/paperfaces-aaronrustad-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/idpro-portrait.html"><img src="{{ site.url }}/images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/rt44man-portrait.html"><img src="{{ site.url }}/images/paperfaces-rt44man-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/omri-mor-portrait.html"><img src="{{ site.url }}/images/paperfaces-omri-mor-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Watch for the Next Tutorial
