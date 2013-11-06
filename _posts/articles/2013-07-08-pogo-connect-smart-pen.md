@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "A Pogo Connect Smart Pen Makes Paper by 53 Better"
-description: "In my opinion the Pogo Connect is worth every penny because it enhances Paper by 53 in ways capacitive styluses can't."
-modified: 2013-10-31
+description: "Perfect for avid Paper by 53 creators looking for enhanced functionality normal capacitive stylus can't offer."
+modified: 2013-11-06
 image: 
   feature: pogo-connect-review-feature.jpg
   thumb: pogo-connect-review-thumb.jpg
@@ -12,7 +12,9 @@ comments: true
 adsense: true
 ---
 
-I've been lusting over the promise of pressure sensitive drawing on an iPad ever since I first read about the [Pogo Connect Smart Pen]( http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20). Released back in January for around $80, I held off buying one until the price dropped. Waiting turned out to be smart since my favorite iOS app [**Paper by 53**]({{ site.url }}/tag/paper-by-53) also saw numerous updates to better support the Pogo Connect.
+I've been lusting over the promise of pressure sensitive drawing on an iPad ever since I first read about the [Pogo Connect Smart Pen]( http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)[^pogo-compatibility]. Released back in January for around $80, I held off buying one until the price dropped. Waiting turned out to be smart since my favorite iOS app [**Paper by 53**]({{ site.url }}/tag/paper-by-53) also received numerous updates to better support the Pogo Connect.
+
+[^pogo-compatibility]: Since publishing this review, Apple released the iPad Mini and iPad Air --- both have some compatibility issues with a Pogo Connect Smart Pen. There's something about these new screens that cause the Pogo to not function properly. In the case of the iPad Air it doesn't work at all. The iPad Mini has better support but a few of the new tips don't work. For the full story check out [Ten One Design's website](http://www.tenonedesign.com/connect).
 
 For my birthday [my wife](http://2littlerosebuds.com) picked me up one and I started the process of learning all its nuances. I've gotten fairly adept at using a [LunaTik Alloy Touch Pen]( http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00821TR7G&linkCode=as2&tag=mademist-20) by drawing with it every day for the last 9 months, but the tip is starting to show signs of tearing --- perfect time to try something new.
 
