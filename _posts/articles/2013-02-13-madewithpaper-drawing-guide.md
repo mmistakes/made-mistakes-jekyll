@@ -31,6 +31,9 @@ How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my iPad stylus of choice.</figcaption>
 </figure>
 
+**Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [this review]({{ site.url }}/articles/pogo-connect-smart-pen.html) I explain the extra features it gives you when used with Paper by 53.
+{: .notice}
+
 Every drawing is different and I try to keep that in mind before launching Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on an iPad 3. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.
 
 ## Block Out Your Composition
@@ -74,7 +77,7 @@ I saved the best for last. When I first started using Paper by 53, I was enamore
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
-**Protip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}/articles/how-to-draw-hair-paper-53.html).
+**ProTip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}/articles/how-to-draw-hair-paper-53.html).
 {: .notice}
 
 <figure>
@@ -84,7 +87,7 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 
 ## Closing Thoughts and Questions
 
-I hope some of this has been helpful. To better describe and show my process, I've recorded numerous speed paintings done with an iPad 3, Paper by 53, the Mac OS X application [Reflector](http://reflectorapp.com/), and edited with Adobe AfterEffects. A time lapse video that demonstrates some of my techniques is embedded below *(Pro tip: watch it fullscreen)*. Feel free to comment, like, or [subscribe](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see. If I missed anything or you want some additional pointers, reach out via [Twitter](http://twitter.com/mmistakes) or [email](mailto:michael@mademistakes.com).
+I hope some of this has been helpful. To better describe and show my process, I've recorded numerous speed paintings done with an iPad 3, Paper by 53, the Mac OS X application [Reflector](http://reflectorapp.com/), and edited with Adobe AfterEffects. A time lapse video that demonstrates some of my techniques is embedded below *(ProTip: watch it fullscreen)*. Feel free to comment, like, or [subscribe](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see. If I missed anything or you want some additional pointers, reach out via [Twitter](http://twitter.com/mmistakes) or [email](mailto:michael@mademistakes.com).
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/fC_yATccHmk" frameborder="0" allowfullscreen> </iframe>
 
