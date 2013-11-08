@@ -25,7 +25,7 @@ Still confused? Here are the general steps I follow for every portrait I draw. D
 
 I decided on a square frame for [my project]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html "PaperFaces iPad Portrait Project"), but you might want to experiment with the shape and canvas placement to better suit your needs. I like to draw the frame freehand with black ink to give it character, but you can use pencil if you want to hide it easier.
 
-**Protip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
+**ProTip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
 {: .notice}
 
 ## Apply a Background
