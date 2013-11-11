@@ -9,6 +9,8 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-PaperFaces portrait commission for Wakas Mir. Making of video to follow soon...
+PaperFaces portrait commission for Wakas Mir. Making of video below.
 
 {% include paperfaces-boilerplate-2.html %}
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/Helg9hmHyuc" frameborder="0"> </iframe>
