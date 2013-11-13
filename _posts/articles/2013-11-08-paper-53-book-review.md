@@ -2,6 +2,7 @@
 layout: post
 title: "Paper by 53: Printing a Book"
 description: "Impressions of a handmade Moleskine book printed with Paper by 53."
+modified: 2013-11-13
 image: 
   feature: paper-53-book-feature.jpg
   thumb: paper-53-book-thumb.jpg
@@ -149,4 +150,27 @@ If you've been holding out printing a book with Paper, I'd encourage you to give
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/ibG41djH_Nk" frameborder="0"> </iframe>
 	<figcaption>Flipping through a book of PaperFaces</figcaption>
+</figure>
+
+## Mastering Paper Reference Book
+
+When my second book didn't show up at the same time as the PaperFaces one, I started to worry that it was lost in the mail. I had ordered them at the same time and received shipping notices within seconds of each other notifying me they were on the way. But all is well and the other book finally showed up.
+
+For this book I took a few of my Paper "cheat sheets" and adapted drawings from my **Mastering Paper** series to fill all 15 pages. If you look closely you'll notice a few teases from upcoming tutorials I'm in the process of writing now. I've also embedded a video flip-through for your viewing pleasure.
+
+<figure class="half">
+	<a href="{{ site.url }}/images/paper-53-ref-book-1-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-1.jpg" alt="Photograph of the cover"></a>
+	<a href="{{ site.url }}/images/paper-53-ref-book-2-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-2.jpg" alt="Page showing strokes made with each tool"></a>
+	<a href="{{ site.url }}/images/paper-53-ref-book-3-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-3.jpg" alt="Page showing stroke layering effects"></a>
+	<a href="{{ site.url }}/images/paper-53-ref-book-4-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-4.jpg" alt="Page showing skin tone reference"></a>
+	<a href="{{ site.url }}/images/paper-53-ref-book-5-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-5.jpg" alt="Page showing hair references"></a>
+	<a href="{{ site.url }}/images/paper-53-ref-book-6-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-6.jpg" alt="Page showing how to draw an eye"></a>
+	<a href="{{ site.url }}/images/paper-53-ref-book-7-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-7.jpg" alt="Page showing how to draw a tree"></a>
+	<a href="{{ site.url }}/images/paper-53-ref-book-8-lg.jpg"><img src="{{ site.url }}/images/paper-53-ref-book-8.jpg" alt="Page showing how to draw grass"></a>
+	<figcaption>Assorted pages from my <strong>Paper Reference Guide</strong> book.</figcaption>
+</figure>
+
+<figure>
+	<iframe width="560" height="315" src="//www.youtube.com/embed/BW8czjeiNzw" frameborder="0"> </iframe>
+	<figcaption>Flipping through a book</figcaption>
 </figure>
