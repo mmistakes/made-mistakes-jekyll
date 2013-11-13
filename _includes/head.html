@@ -1,71 +1,81 @@
-<meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-<!-- Twitter Cards -->
-{% if page.layout == 'work' %}
-	<meta name="twitter:card" content="summary_large_image">
-	{% if page.image.feature %}<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
-	{% else %}
-	{% if page.image.feature %}
+<!doctype html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"><!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+	<!-- Twitter Cards -->
+	{% if page.layout == 'work' %}
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
-		{% else %}<meta name="twitter:card" content="summary">
-		<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
+		{% if page.image.feature %}<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
+		{% else %}
+		{% if page.image.feature %}
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+			{% else %}<meta name="twitter:card" content="summary">
+			<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
+		{% endif %}
 	{% endif %}
-{% endif %}
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
-<!-- Open Graph -->
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="og:site_name" content="{{ site.title }}">
 
-<!-- Webmaster Tools verfication -->
-{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+	<!-- Webmaster Tools verfication -->
+	{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+	{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
-{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-<link rel="canonical" href="{{ canonical }}">
-<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-{% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
+	{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+	<link rel="canonical" href="{{ canonical }}">
+	<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+	{% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="cleartype" content="on">
+	<meta http-equiv="cleartype" content="on">
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/main.min.css css/main.min.css %}">
+	<!-- For all browsers -->
+	<link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/main.min.css css/main.min.css %}">
 
-<!-- Webfonts -->
-<script src="//use.edgefonts.net/lato:n3,i3,n4,i4,n7.js"></script>
+	<!-- Webfonts -->
+	<script src="//use.edgefonts.net/lato:n3,i3,n4,i4,n7.js"></script>
 
-<!-- Load Modernizr -->
-<script src="{{ site.url }}/{% ministamp _assets/js/vendor/modernizr-2.6.2.custom.min.js js/vendor/modernizr.js %}"></script>
+	<!-- HTML5 Shiv -->
+	<!--[if lt IE 9]>
+		<script src="{{ site.url }}/{% ministamp _assets/js/vendor/html5shiv.js js/vendor/html5shiv.js %}"></script>
+	<![endif]-->
 
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-<!-- non-retina iPhone pre iOS 7 -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon57.png" sizes="57x57">
-<!-- non-retina iPad pre iOS 7 -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon72.png" sizes="72x72">
-<!-- non-retina iPad iOS 7 -->
-<link rel="apple-touch-icon" href="{{ site.url }}/images/icon76.png" sizes="76x76">
-<!-- retina iPhone pre iOS 7 -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon114.png" sizes="114x114">
-<!-- retina iPhone iOS 7 -->
-<link rel="apple-touch-icon" href="{{ site.url }}/images/icon120.png" sizes="120x120">
-<!-- retina iPad pre iOS 7 -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon144.png" sizes="144x144">
-<!-- retina iPad iOS 7 -->
-<link rel="apple-touch-icon" href="{{ site.url }}/images/icon152.png" sizes="152x152">
+	<!-- Icons -->
+	<!-- 16x16 -->
+	<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+	<!-- 32x32 -->
+	<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+	<!-- non-retina iPhone pre iOS 7 -->
+	<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon57.png" sizes="57x57">
+	<!-- non-retina iPad pre iOS 7 -->
+	<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon72.png" sizes="72x72">
+	<!-- non-retina iPad iOS 7 -->
+	<link rel="apple-touch-icon" href="{{ site.url }}/images/icon76.png" sizes="76x76">
+	<!-- retina iPhone pre iOS 7 -->
+	<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon114.png" sizes="114x114">
+	<!-- retina iPhone iOS 7 -->
+	<link rel="apple-touch-icon" href="{{ site.url }}/images/icon120.png" sizes="120x120">
+	<!-- retina iPad pre iOS 7 -->
+	<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/icon144.png" sizes="144x144">
+	<!-- retina iPad iOS 7 -->
+	<link rel="apple-touch-icon" href="{{ site.url }}/images/icon152.png" sizes="152x152">
+</head>
