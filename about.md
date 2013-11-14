@@ -69,3 +69,31 @@ action="https://mademistakes.wufoo.com/forms/z7x4m1/#public">
       </li>
     </ul>
   </form>
+
+## Tools of the Trade
+
+Here's a laundry list of hardware and software I use to create Made Mistakes and most of it's content.
+
+### Hardware
+
+* iMac (20-inch, Mid 2007)
+* iPad (Retina 3rd generation)
+* Canon EOS XTi Digital SLR
+
+### Software, Plugins, and Whatever
+
+* [Jekyll](http://jekyllrb.com)
+* [Adobe Creative Suite](http://adobe.com)
+* [Sublime Text 2](http://www.sublimetext.com)
+* [SourceTree](http://www.sourcetreeapp.com)
+* [Paper by FiftyThree](http://fiftythree.com)
+* [Multi-Browser Viewer](http://www.multibrowserviewer.com)
+* [Cyberduck](http://cyberduck.ch)
+* [FileZilla](https://filezilla-project.org)
+* [LESS](http://lesscss.org)
+* [jQuery](http://jquery.com)
+* [Grunt](http://gruntjs.com)
+* [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup)
+* [FitVids](http://fitvidsjs.com)
+* [Font Awesome](http://fontawesome.io)
+* [HTML Compressor](https://code.google.com/p/htmlcompressor)
