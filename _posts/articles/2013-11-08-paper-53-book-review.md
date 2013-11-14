@@ -2,7 +2,7 @@
 layout: post
 title: "Paper by 53: Printing a Book"
 description: "Impressions of a handmade Moleskine book printed with Paper by 53."
-modified: 2013-11-13
+modified: 2013-11-14
 image: 
   feature: paper-53-book-feature.jpg
   thumb: paper-53-book-thumb.jpg
@@ -141,8 +141,13 @@ Not to mention the finished books share the same 4:3 proportion as your Paper cr
 [^page-cost]: Not including shipping costs a Paper Book ends up costing about $2.67 per page.
 
 <figure>
-	<img src="{{ site.url }}/images/paper-53-book-moleskine-comparison.jpg" alt="Photograph comparing Classic Moleskine to Paper Book">
-	<figcaption>Both digital and printed books have the same rounded corners, accordion fold pages, and elastic band around the cover.</figcaption>
+	<img src="{{ site.url }}/images/paper-53-book-moleskine-comparison.jpg" alt="Photograph comparing a classic Moleskine Notebook to a Paper Book">
+	<figcaption>Size comparison between a Classic Moleskine notebook and a Paper Book.</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.url }}/images/paper-53-journal-comparison.jpg" alt="Photograph comparing a digital journal to a Paper Book">
+	<figcaption>Digital journal compared to the printed version &mdash; same accordion fold, same rounded corners, same elastic band cover.</figcaption>
 </figure>
 
 If you've been holding out printing a book with Paper, I'd encourage you to give it a try at least once. I believe they're most effective as gifts to share with friends and family. Why not get a jump on the upcoming holiday season and create a book now. If they're as popular as I predict them to be, it might be a good idea to get an order in early to beat the rush.
