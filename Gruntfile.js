@@ -17,13 +17,22 @@ module.exports = function(grunt) {
       dist: {
         options: {
           compile: true,
-          compress: true
+          compress: false
         },
         files: {
-          '_assets/css/main.min.css': [
+          '_assets/css/main.css': [
             '_assets/less/main.less'
           ]
         }
+      }
+    },
+    cssmin: {
+      minify: {
+        expand: true,
+        cwd: '_assets/css/',
+        src: ['*.css', '!*.min.css'],
+        dest: '_assets/css/',
+        ext: '.min.css'
       }
     },
     uglify: {
@@ -88,6 +97,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-recess');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-imgcompress');
@@ -96,6 +106,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'clean',
     'recess',
+    'cssmin',
     'uglify',
     'imgcompress',
     'svgmin'

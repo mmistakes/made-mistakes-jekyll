@@ -21,6 +21,7 @@
     "grunt-recess": "~0.3.5",
     "grunt-contrib-imagemin": "~0.2.0",
     "grunt-svgmin": "~0.2.0",
-    "grunt-imgcompress": "~0.1.1"
+    "grunt-imgcompress": "~0.1.1",
+    "grunt-contrib-cssmin": "~0.7.0"
   }
 }
