@@ -8,7 +8,7 @@ description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;
 tags: [Michael Rose, design, Buffalo, web design, feature]
 ---
 
-<link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/form.css css/form.css %}">
+<link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/form.min.css css/form.min.css %}">
 <script src="{{ site.url }}/{% ministamp _assets/js/vendor/wufoo.js js/vendor/wufoo.js %}"></script>
 
 <figure>
