@@ -19,10 +19,10 @@ If you've been following along you now know all my Paper techniques[^techniques]
 
 Bricks can be quite the monotonous subject to draw because of their repetitive nature. Getting the perspective right can also be quite challenging if you're trying to capture a brick road or wall that isn't perfectly flat.
 
-I'm not going to get into perspective or how to set a vanishing point because it's beyond scope of this guide. Instead, the approach I like to take is to sketch lightly with the pencil --- creating guidelines. An easy way to do this is follow along where the cement is between the bricks and sketch your lines there. A photo reference is a big help here.
+I'm not going to try and explain perspective or how to set a vanishing point because it's beyond the scope of this guide. Instead, the approach I like to take is to sketch lightly with the pencil --- creating guidelines. An easy way to do this is follow along where the cement is between the bricks and sketch your lines there. A photo reference is a big help here.
 
 <figure>
-	<img src="http://placehold.it/750x350" alt="Screenshot of brick guide lines">
+	<img src="{{ site.url }}/images/paper-53-bricks-guide.jpg" alt="Screenshot of brick guide">
 	<figcaption>Depending on the orientation of your bricks you may end up with guides resembling this.</figcaption>
 </figure>
 
@@ -31,41 +31,42 @@ The color of pencil doesn't really matter, just make it something light (a gray 
 **ProTip:** An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you dont have a ruler handy.
 {: .notice}
 
-With a few guidelines placed, use the color mixer to create a base for the bricks. The mixture I decided on was a brown with some red thrown in. Remember to mix a color about 50--75% lighter than what you'd like to end up with. We'll be applying several layers to the bricks --- if you mix it too dark you'll end up with bricks that are almost black and lack dimension.
+With a few guidelines placed, use the color mixer to create a base for the bricks. The mixture I decided on was a brown with some red or orange thrown in. Remember to mix a color about 25--50% lighter than what you'd like to end up with. We'll be applying several layers to the bricks --- if you mix it too dark you'll end up with bricks that are almost black and lack dimension.
 
 <figure>
-	<img src="http://placehold.it/750x350" alt="Screenshot of rusty brown color">
+	<img src="{{ site.url }}/images/paper-53-bricks-brick-base-mix.jpg" alt="Screenshot of rusty brown color">
 	<figcaption>To determine if you mixed the color light enough, paint a few layers of watercolor to the side and check the results.</figcaption>
 </figure>
 
 When blocking out bricks, I prefer using the watercolor brush versus the marker. Simply put, it leaves you with a jagged edge that's closer to real life. Painting small bricks is next to impossible if you don't have access to a Pogo Connect stylus. Without it you're limited to one brush size, which is quite wide for this sort of detail work.
 
 <figure>
-	<img src="http://placehold.it/750x350" alt="Screenshot of sample bricks">
-	<figcaption>Marker brick vs. watercolor brick vs. Pogo Connect small brick</figcaption>
+	<img src="{{ site.url }}/images/paper-53-bricks-comparison.jpg" alt="Screenshot comparing bricks">
+	<figcaption>Marker bricks vs. watercolor bricks</figcaption>
 </figure>
 
 As you paint each brick, work a row at a time, using the lines to guide you. For each row, take care to stagger bricks depending on the [bonding pattern](http://en.wikipedia.org/wiki/Brickwork#Load_bearing_brick_bonds) you're going for and avoid stacking them vertically --- doing so will look unnatural.
 
 <figure>
-	<img src="http://placehold.it/750x350" alt="Screenshot of brick placement">
+	<img src="{{ site.url }}/images/paper-53-bricks-watercolor-base.jpg" alt="Screenshot of brick placement painted with the brush">
 	<figcaption>Example of a <a href="http://en.wikipedia.org/wiki/File:Brickwork_in_stretching_bond.svg">Stretcher bond</a>. Notice how each successive brick is staggered?</figcaption>
 </figure>
 
 Once all the bricks have been laid, err painted --- apply a second coat of watercolor to each. Painting fast and messy will add texture and a more natural look to the bricks.
 
 <figure>
-  <img src="http://placehold.it/750x350" alt="Screenshot of additional brick layers">
+  <img src="{{ site.url }}/images/paper-53-bricks-watercolor-2.jpg" alt="Screenshot of additional brick layers">
   <figcaption>Layers of watercolor don't need to be exact. Apply until you reach a color of your liking.</figcaption>
 </figure>
 
-When coloring the cement between the bricks I usually handle it in two different ways.
+When coloring the cement between the bricks I usually handle it in three different ways.
 
 1. Don't do anything and leave it blank so the background color shows through.
-2. Mix a light gray and paint with watercolor over all of the bricks and spaces between.
+2. Mix a light gray and paint with the brush over all of the bricks, covering the spaces between them.
+3. Mix a light gray and use the marker tool to cover the bricks and spaces between them. Unlike the watercolor brush, a gray marker won't mess with the brick color --- unless it's really dark.
 
 <figure>
-  <img src="http://placehold.it/750x350" alt="Screenshot of cement styles">
+  <img src="{{ site.url }}/images/paper-53-bricks-cement-styles.jpg" alt="Screenshot of cement styles">
   <figcaption>Blank cement vs. cement and brick painted with gray</figcaption>
 </figure>
 
@@ -76,20 +77,26 @@ At this point you could call it a day and consider your bricks finished. If you 
 
 Add shadows to each of the bricks. Using a darker mix of the rusty brown from before (or a dark gray), paint in some shadows on the bricks. You don't want to cover the entire brick, just one of the corners depending on where the light is positioned.
 
-![Screenshot of adding shadows to bricks](http://placehold.it/750x350)
+![Screenshot of adding shadows to bricks]({{ site.url }}/images/paper-53-bricks-brush-shadows.jpg)
 
 Using this same color (possibly with more black mixed in), a stroke of pencil below each brick is used to add small shadows. It can also be used to draw in cracks or add texture to the bricks.
 
-![Screenshot of adding cracks to bricks](http://placehold.it/750x350)
+![Screenshot of adding cracks to bricks]({{ site.url }}/images/paper-53-bricks-pencil-shadows.jpg)
 
 I use the same technique but with a light orange color to draw in any brick highlights and accentuate the cracks.
 
-![Screenshot of brick highlight color](http://placehold.it/750x350)
-![Screenshot of adding brick highlights](http://placehold.it/750x350)
+<figure class="half">
+  <img src="{{ site.url }}/images/paper-53-bricks-highlight-mix.jpg" alt="Screenshot of brick highlight color">
+  <img src="{{ site.url }}/images/paper-53-bricks-pencil-highlight.jpg" alt="Screenshot of adding brick highlights">
+  <figcaption>Drawing subtle highlights on each brich using a light orange color.</figcaption>
+</figure>
 
 To finish off the bricks I'll use a mixture of gray to further refine the spaces between the bricks and correct any shapes I don't like. This step is completely optional and really depends on how crisp you want your edges to look.
 
-![Screenshot of refining brick edges with gray](http://placehold.it/750x350)
+<figure>
+  <img src="{{ site.url }}/images/paper-53-bricks-refine-edges.jpg" alt="Screenshot of refining brick edges with gray">
+  <figcaption>Refine brick edges using the pencil tool and a color that matches the cement.</figcaption>
+</figure>
 
 ## Drawing Wood Grain
 
