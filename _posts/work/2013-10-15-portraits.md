@@ -6,7 +6,7 @@ headline: "Get PaperFaced"
 description: "Order a custom digital portrait drawn on an iPad in my signature faceless style."
 image:
   thumb: portrait-thumb.jpg
-  homepage: portrait-500x500.jpg
+  homepage: portrait-500x500.gif
 tags: [portrait, Paper by 53, drawing, painting, iPad, digital, commission]
 homepage: true
 ---
