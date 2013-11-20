@@ -11,7 +11,7 @@ tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 
 PaperFaces portrait of <a href="http://twitter.com/JoshTodd">@JoshTodd</a>.
 
-* **Stylus:** None
+* **Stylus:** [Pencil](http://fiftythree.com/pencil)
 * **Application:** [Paper by FiftyThree for iOS](http://www.fiftythree.com/paper)
 
 <figure class="half">
