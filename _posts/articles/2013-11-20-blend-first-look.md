@@ -9,9 +9,7 @@ tags: [Paper by 53, Pencil, Blend, stylus, iPad]
 comments: true
 ---
 
-In case you missed it yesterday, FiftyThree announced their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding a beta version of this stylus to play around with and test. Instead of attempting a review[^review] of the hardware, I figured I'd show some examples of what I've done using one of it's new features, Blend.
-
-[^review]: Expect a full review just as soon as I purchase a production version of Pencil. I want to be completely fair in my assessment and make sure I account for any design alterations that might have occurred from now to release.
+In case you missed it yesterday, FiftyThree announced their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding beta versions of this stylus to play with and test. As soon as I purchase my own Pencil I'll follow up with a full review, but for now here's a taste of what I've done using the new Blend feature.
 
 ## But Does it Blend?
 
@@ -39,7 +37,7 @@ My favorite use of this new *tool* has been to create dreamy and surreal illustr
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-girl-underwater-wip-lg.jpg"><img src="{{ site.url }}/images/paper-53-girl-underwater-wip.jpg" alt="Work in progress blended drawing of a girl underwater"></a>
-	<figcaption>Needs more highlights added for contrasts, but really happy with the blended results.</figcaption>
+	<figcaption>Needs more highlights for added contrast, but really happy with the blended results.</figcaption>
 </figure>
 
 The next couple of months should be fun. I've learned a lot from the Paper community of creators, and I can't wait to see what inspiring works come when more Pencils are out in the wild!
