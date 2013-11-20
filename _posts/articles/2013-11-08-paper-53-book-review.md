@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper by 53: Printing a Book"
+title: "Printing a Moleskine Book with Paper by 53"
 description: "Impressions of a handmade Moleskine book printed with Paper by 53."
 modified: 2013-11-14
 image: 
