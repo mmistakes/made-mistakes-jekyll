@@ -8,7 +8,7 @@ description: "An entire gallery of PaperFaces portraits drawn by Michael Rose us
 modified: 2013-07-12
 image: 
   thumb: paperfaces-project-250x250.jpg
-  homepage: paperfaces-project-500x500.png
+  homepage: paperfaces-project-250x250.jpg
 category: work
 homepage: true
 tags: [PaperFaces, MadeWithPaper, Paper by 53, iPad, portrait, drawing, illustration, painting, Michael Rose]
