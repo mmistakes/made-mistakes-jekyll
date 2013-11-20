@@ -4436,6 +4436,13 @@ span + .entry-title {
 
 .entry-content p:first-child {
   margin-top: 0;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+.entry-content .footnotes p {
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 @media only screen and (min-width: 62.5em) {
