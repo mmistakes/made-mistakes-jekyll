@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pencil by FiftyThree &#8212; First Look at Blend"
-description: "53's Pencil is full of promise. Join me as I take a look at it's most interesting new feature, Blend."
+description: "53's Pencil is full of promise. Here's some draws done using its most interesting new feature, Blend."
 category: articles
 image:
   feature: paper-53-blend-first-look-feature.jpg
