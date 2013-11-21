@@ -12,8 +12,9 @@ tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus, guide]
 homepage: true
 ---
 
-![Mastering Paper reference book]({{ site.url }}/images/mastering-paper-53-small-book.jpg)
-{: .image-right}
+<figure class="image-right">
+	<img src="{{ site.url }}/images/mastering-paper-53-small-book.jpg" width="188" height="250" alt="Mastering Paper reference guide">
+</figure>
 
 In the spirit of openness I've decided to compile everything I've learned using [*Paper by FiftyThree*](http://www.fiftythree.com) into a multi-part series I'm calling **Mastering Paper**. As far as I'm concerned Paper doesn't really need a manual or instruction guide because it's fairly intuitive to use. So what you'll find in the following pages are techniques and time savers I've developed from creating exclusively with the app over the last year and a half.
 
