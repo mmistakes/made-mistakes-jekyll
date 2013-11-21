@@ -45,7 +45,7 @@
         <h2><a href="{{ site.url }}/{{ page.category }}/">View More</a></h2>
         <ul class="recent-grid unstyled-list">
           {% for post in catg_posts limit:4 %}
-            <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumb" /></a></li>
+            <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" /></a></li>
           {% endfor %}
         </ul>
         {% endif %}
