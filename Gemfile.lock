@@ -24,12 +24,17 @@ GEM
     liquid (2.5.3)
     maruku (0.7.0)
     posix-spawn (0.3.6)
+    pygments.rb (0.5.4)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
     rake (10.1.0)
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
+    yajl-ruby (1.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
