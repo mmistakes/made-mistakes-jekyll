@@ -45,12 +45,11 @@ In the spirit of openness I've decided to compile everything I've learned using 
 	</li>
 {% endif %}
 {% endfor %}
-	<li><h4><span class="badge">Coming Soon</span> Part 5 &#8211; Drawing Textures</h4></li>
-	<li><h4><span class="badge">Coming Soon</span> Part 6 &#8211; Drawing Realistic Skin Tones</h4></li>
-	<li><h4><span class="badge">Coming Soon</span> Part 7 &#8211; Drawing Hair</h4></li>
+	<li><h4><span class="badge">Coming Soon</span> Part 6 &#8211; Drawing Skin and Faces (revisited)</h4></li>
+	<li><h4><span class="badge">Coming Soon</span> Part 7 &#8211; Drawing Hair (revisited)</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 8 &#8211; Organizing Palettes and Colors</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 9 &#8211; Managing Journals and Pages</h4></li>
-	<li><h4><span class="badge">Coming Soon</span> Part 10 &#8211; Book and Printing</h4></li>
+	<li><h4><span class="badge">Coming Soon</span> Part 10 &#8211; Books and Printing</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 11 &#8211; Screen Capture Techniques and Animation</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 12 &#8211; Getting the Most Out of Pencil</h4></li>
 </ul>
