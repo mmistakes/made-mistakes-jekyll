@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /about/
 title: About
 headline: What's a Made Mistakes?
 subheadline: Behind the Name and Designer

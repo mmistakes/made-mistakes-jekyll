@@ -31,14 +31,14 @@ How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my iPad stylus of choice.</figcaption>
 </figure>
 
-**Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [this review]({{ site.url }}/articles/pogo-connect-smart-pen.html) I explain the extra features it gives you when used with Paper by 53.
+**Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [this review]({{ site.url }}/articles/pogo-connect-smart-pen/) I explain the extra features it gives you when used with Paper by 53.
 {: .notice}
 
 Every drawing is different and I try to keep that in mind before launching Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on an iPad 3. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.
 
 ## Block Out Your Composition
 
-When I begin a new [PaperFaces portrait]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html), I start by sketching an imperfect square with the pen tool. I use the square as a rough guide for the composition because I like the look of shapes and lines bleeding outside the border. An alternative would be to use the eraser to straighten up the edges, if you like things neat and tidy. You could of course forgo the square and fill the entire page --- whatever works for you.
+When I begin a new [PaperFaces portrait]({{ site.url }}/paperfaces/), I start by sketching an imperfect square with the pen tool. I use the square as a rough guide for the composition because I like the look of shapes and lines bleeding outside the border. An alternative would be to use the eraser to straighten up the edges, if you like things neat and tidy. You could of course forgo the square and fill the entire page --- whatever works for you.
 
 ## Rough Sketches
 
@@ -77,7 +77,7 @@ I saved the best for last. When I first started using Paper by 53, I was enamore
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
-**ProTip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}/articles/how-to-draw-hair-paper-53.html).
+**ProTip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}/articles/how-to-draw-hair-paper-53/).
 {: .notice}
 
 <figure>
