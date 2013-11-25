@@ -95,7 +95,7 @@ It's worth noting that there appears to be a major design flaw with the internal
 
 ## What's Wrong with the Pogo Connect
 
-About those bugs I mentioned earlier. Not sure if they're hardware or software related, but I've experienced a ton of lockups with the Pogo Connect and Paper by 53. The stylus will randomly disconnect or just become unresponsive and I have to force quit the app or remove the AAA battery to make the Pogo Connect behave again. I usually notice it becoming unresponsive when making a bunch of quick strokes, like when I'm [drawing beard whiskers]({{ site.url }}/paperfaces/josearato-portrait.html). Not a deal breaker because it doesn't happen all the time, but it is kind of annoying that it interrupts the creative flow.
+About those bugs I mentioned earlier. Not sure if they're hardware or software related, but I've experienced a ton of lockups with the Pogo Connect and Paper by 53. The stylus will randomly disconnect or just become unresponsive and I have to force quit the app or remove the AAA battery to make the Pogo Connect behave again. I usually notice it becoming unresponsive when making a bunch of quick strokes, like when I'm [drawing beard whiskers]({{ site.url }}/paperfaces/josearato-portrait/). Not a deal breaker because it doesn't happen all the time, but it is kind of annoying that it interrupts the creative flow.
 
 <figure>
 	<img src="{{ site.url }}/images/pogo-connect-paper-53-disconnected.jpg" alt="Pogo Connected disconnected screenshot">

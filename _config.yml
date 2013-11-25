@@ -28,8 +28,8 @@ future:      true
 lsi:         false
 pygments:    true
 markdown:    kramdown
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title.html
+# http://jekyllrb.com/docs/permalinks/
+permalink:   /:categories/:title/
 
 # Internal pages/posts to include in top navigation
 links:
@@ -40,7 +40,7 @@ links:
   - title: Mastering Paper
     url: /mastering-paper/
   - title: About
-    url: /about.html
+    url: /about/
 
 maruku:
   use_tex:    false

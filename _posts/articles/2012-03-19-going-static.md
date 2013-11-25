@@ -69,7 +69,7 @@ To achieve this you could install any number of art direction [Wordpress plugins
 
 ### Less is More
 
-When I first heard about [Less](http://lesscss.org/) and [Sass](http://sass-lang.com/about.html) I rejected the idea of using a <abbr>CSS</abbr> preprocessor. Feeling like I've sharpened my <abbr>CSS</abbr> skills to a razor sharp edge, I in no way wanted to add another layer of complexity to my workflow. With a second look I decided it made a lot of sense to at least experiment with writing Less and see how I could utilize it in my next project.
+When I first heard about [Less](http://lesscss.org/) and [Sass](http://sass-lang.com/about/) I rejected the idea of using a <abbr>CSS</abbr> preprocessor. Feeling like I've sharpened my <abbr>CSS</abbr> skills to a razor sharp edge, I in no way wanted to add another layer of complexity to my workflow. With a second look I decided it made a lot of sense to at least experiment with writing Less and see how I could utilize it in my next project.
 
 Bare minimum I figured I could use global variables for the site's color palette and default typography and maybe a mixin or two. The beauty of Less is that you don't have to alter your current .css files. Just changed the .css extension to .less and you're done. Then use as little or *as less* that you want.
 
@@ -87,7 +87,7 @@ So now that I finally got around to migrating my Wordpress website, developed a 
 
 ### Portfolio Layout
 
-You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Articles page]({{ site.url }}/articles.html) using a grid of thumbnails to represent each article that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
+You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Works page]({{ site.url }}/works/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
 
 ### Responsive Images
 
@@ -100,5 +100,5 @@ With a 1.0 release under my belt, I think now is the time to take a look at star
 **Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to Github if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and site...
 {: .notice}
 
-Or you can grab it as a Jeklly theme that I'm calling [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme.html). It's essentially the same code base I use on *Made Mistakes*, but simplified to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
+Or you can grab it as a Jeklly theme that I'm calling [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme/). It's essentially the same code base I use on *Made Mistakes*, but simplified to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
 {: .notice}

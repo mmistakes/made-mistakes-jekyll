@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /terms/
 title: "Privacy &amp; Disclosure Policy"
 subheadline: "Or that Legal Stuff No One Reads"
 description: "Made Mistakes website policies, terms &amp; conditions, license, and other legal stuff you won't read."
