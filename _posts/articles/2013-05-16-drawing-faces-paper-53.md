@@ -13,9 +13,9 @@ feature: true
 adsense: true
 ---
 
-I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html "PaperFaces iPad Portrait Project") for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](http://2littlerosebuds.com/ title="2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
+I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({{ site.url }}/articles/paperfaces-ipad-portrait-project/" PaperFaces iPad Portrait Project") for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](http://2littlerosebuds.com/ title="2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
 
-*I can't draw and I'm not an artist* --- that's the real reason most of my [PaperFaces illustrations]({{ site.url }}/paperfaces) don't have facial features. Capturing a likeness is tough business yo! Omitting the trickiest part (the face) frees up all kinds of time, which circles back to how I've been able to maintain a daily drawing rhythm. A technically precise illustration that might have taken 8 hours is now squashed down to 30--60 minutes. Half an hour is fun, 10 hours is a chore!
+*I can't draw and I'm not an artist* --- that's the real reason most of my [PaperFaces illustrations]({{ site.url }}/paperfaces/) don't have facial features. Capturing a likeness is tough business yo! Omitting the trickiest part (the face) frees up all kinds of time, which circles back to how I've been able to maintain a daily drawing rhythm. A technically precise illustration that might have taken 8 hours is now squashed down to 30--60 minutes. Half an hour is fun, 10 hours is a chore!
 
 Brevity is at the heart of every one of my portraits. *Can't draw facial features well?* Imply a face with intersecting lines that cross the face instead. *Don't have time to shade and blend skin tones?* Paint a few strategically placed gray blobs instead. *Can't wrap your head around drawing realistic hair?* Drop some black ink and pencil over it with brown for an effect that is sure to wow your mom.
 
@@ -23,7 +23,7 @@ Still confused? Here are the general steps I follow for every portrait I draw. D
 
 ## Shape the Canvas
 
-I decided on a square frame for [my project]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html "PaperFaces iPad Portrait Project"), but you might want to experiment with the shape and canvas placement to better suit your needs. I like to draw the frame freehand with black ink to give it character, but you can use pencil if you want to hide it easier.
+I decided on a square frame for [my project]({{ site.url }}/paperfaces/ "PaperFaces iPad Portrait Project"), but you might want to experiment with the shape and canvas placement to better suit your needs. I like to draw the frame freehand with black ink to give it character, but you can use pencil if you want to hide it easier.
 
 **ProTip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
 {: .notice}
@@ -73,7 +73,7 @@ The trick here is to gradually apply smooth layers of a light color using the wa
 
 Same deal as the background, select the pencil tool and start refining edges that are deep in shadow (hair line, necks, clothing, etc). This will help tighten things up and fix the less than precise strokes of watercolor you laid down earlier. 
 
-Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out]({{ site.url }}/articles/how-to-draw-hair-paper-53.html) one time.
+Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out]({{ site.url }}/articles/how-to-draw-hair-paper-53/) one time.
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paper-53-pencil-detail-face-1-lg.jpg"><img src="{{ site.url }}/images/paper-53-pencil-detail-face-1-400.jpg" alt="Pencil details with Paper 53"></a>

@@ -26,7 +26,7 @@ I'm not going to try and explain perspective or how to set a vanishing point bec
 	<figcaption>Depending on the orientation of the bricks you may end up with guides resembling this.</figcaption>
 </figure>
 
-The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}/articles/pogo-connect-smart-pen.html) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
+The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}/articles/pogo-connect-smart-pen/) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
 
 **ProTip:** An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you dont have a ruler handy.
 {: .notice}

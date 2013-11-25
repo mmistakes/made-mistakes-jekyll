@@ -62,7 +62,7 @@ Options -MultiViews
 # You can customize what Apache returns to the client in case of an error (see
 # http://httpd.apache.org/docs/current/mod/core.html#errordocument), e.g.:
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404/
 
 
 # ##############################################################################
@@ -395,6 +395,13 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://mademistakes.com/ [R=301,L] 
 
 # ----------------------------------------------------------------------
+# Redirect .html to /
+# ----------------------------------------------------------------------
+
+RewriteCond %{THE_REQUEST} \.html
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+# ----------------------------------------------------------------------
 # Feed redirects
 # ----------------------------------------------------------------------
 
@@ -416,16 +423,10 @@ redirect 301 /category-sitemap.xml http://mademistakes.com/sitemap.xml
 # ----------------------------------------------------------------------
 
 RedirectMatch permanent /lifestream http://mademistakes.com/articles/
-redirect 301 /test/articles/birds-bird-cage-tattoos.html http://mademistakes.com/articles/birds-bird-cage-tattoos.html
-redirect 301 /free-aboutme-business-cards/ http://mademistakes.com/articles/free-aboutme-business-cards.html
-redirect 301 /futura-movie-credits/ http://mademistakes.com/articles/futura-movie-credits.html
-redirect 301 /about-made-mistakes/ http://mademistakes.com/about.html
-redirect 301 /test/articles.html http://mademistakes.com/articles/
-redirect 301 /articles.html http://mademistakes.com/articles/
-redirect 301 /articles/face http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
-redirect 301 /articles/faces-made-with-paper-ipad.html http://mademistakes.com/articles/paperfaces-ipad-portrait-project.html
+redirect 301 /about-made-mistakes/ http://mademistakes.com/about/
+redirect 301 /articles/face http://mademistakes.com/articles/paperfaces-ipad-portrait-project/
+redirect 301 /articles/faces-made-with-paper-ipad.html http://mademistakes.com/articles/paperfaces-ipad-portrait-project/
 redirect 301 /articles/paperfaces-portrait-gallery.html http://mademistakes.com/paperfaces/
-redirect 301 /paperfaces/slave-leia-jabba-the-hutt.html http://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait.html/
+redirect 301 /paperfaces/slave-leia-jabba-the-hutt.html http://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait/
 redirect 301 /tags.html http://mademistakes.com/tag/
-redirect 301 /about http://mademistakes.com/about.html
 redirect 301 /articles/mastering-paper-53-guide.html http://mademistakes.com/mastering-paper/

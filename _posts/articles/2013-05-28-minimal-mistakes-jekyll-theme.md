@@ -111,7 +111,7 @@ Having a problem getting something to work or want to know why I setup something
 
 This theme is free and open source software, distributed under the [GNU General Public License](http://mmistakes.github.io/minimal-mistakes/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
 
-**Like this theme?** I just released another one for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTER Theme and you can [learn more about it here]({{ site.url }}/articles/hpstr-jekyll-theme.html).
+**Like this theme?** I just released another one for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTER Theme and you can [learn more about it here]({{ site.url }}/articles/hpstr-jekyll-theme/).
 {: .notice}
 
 [^1]: Example: *domain.com/category-name/post-title*

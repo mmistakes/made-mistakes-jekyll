@@ -11,7 +11,7 @@ series: mastering-paper
 comments: true
 ---
 
-Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({{ site.url }}/work/relic-scout.html), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
+Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({{ site.url }}/work/relic-scout/), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
 
 When I draw trees I select the watercolor brush and jump right in, using one continuous stroke to rough out a general shape. Don't worry about being precise here, we'll refine the edges later. You could start with a light pencil sketch to nail your the composition, but I usually don't --- it keeps the tree feeling organic and less rigid (a happy accident is your friend).
 
@@ -39,7 +39,7 @@ Here are some of my favorite colors to get you started painting leaves:
 
 Once you're happy with the general shape of the tree, it's time to add some shadows. You can continue to use the same base color from before or darken it up depending on how much shadow you have to color. What I like to do is make short strokes to create a blotchy texture. For you traditional painters out there, it's kind of like scumbling, only we're not scraping paint around with a dry brush.
 
-The primary goal here is to give the illusion of leaf clusters and indicate where the branches and trunk flow. A [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen.html) can help immensely to paint branches of varying widths --- an ability no other stylus supports when used with Paper by 53.
+The primary goal here is to give the illusion of leaf clusters and indicate where the branches and trunk flow. A [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) can help immensely to paint branches of varying widths --- an ability no other stylus supports when used with Paper by 53.
 
 ![screenshot of leaf texture strokes]({{ site.url }}/images/paper-53-tree-texture-strokes.jpg)
 
@@ -116,17 +116,17 @@ One final tip for creating depth is to paint over everything with light gray or 
 
 ## Variations on a Theme
 
-Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
+Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
 
 <ul class="recent-grid unstyled-list">
-  <li><a href="{{ site.url }}/paperfaces/isellsoap-portrait.html"><img src="{{ site.url }}/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/thatmiddleway-portrait.html"><img src="{{ site.url }}/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/lmichelleinc-portrait.html"><img src="{{ site.url }}/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/elektrojunge-portrait.html"><img src="{{ site.url }}/images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/jupiter909-portrait.html"><img src="{{ site.url }}/images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/ryandawidjan-portrait.html"><img src="{{ site.url }}/images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/quimeraimantada-portrait.html"><img src="{{ site.url }}/images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/michael-rose-portrait.html"><img src="{{ site.url }}/images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/isellsoap-portrait/"><img src="{{ site.url }}/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/thatmiddleway-portrait/"><img src="{{ site.url }}/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/lmichelleinc-portrait/"><img src="{{ site.url }}/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/elektrojunge-portrait/"><img src="{{ site.url }}/images/paperfaces-elektrojunge-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/jupiter909-portrait/"><img src="{{ site.url }}/images/paperfaces-jupiter909-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/ryandawidjan-portrait/"><img src="{{ site.url }}/images/paperfaces-ryandawidjan-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/quimeraimantada-portrait/"><img src="{{ site.url }}/images/paperfaces-quimeraimantada-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}/paperfaces/michael-rose-portrait/"><img src="{{ site.url }}/images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Moving Along

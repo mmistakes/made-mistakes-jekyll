@@ -9,7 +9,7 @@ tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
 ---
 
-Today my 365 project titled [**PaperFaces**]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) turns one --- holy smokes! In this past year I've managed to illustrate 476 portraits, make a ton of new *Paper friends*, burned through a few pen styli, and rekindled my passion for drawing. 
+Today my 365 project titled [**PaperFaces**]({{ site.url }}/paperfaces/) turns one --- holy smokes! In this past year I've managed to illustrate 476 portraits, make a ton of new *Paper friends*, burned through a few pen styli, and rekindled my passion for drawing. 
 
 I honestly can't believe I've been drawing strangers for 365 days straight. I was half joking when I posted this and had no idea it would take off in the way that it did.
 
@@ -26,9 +26,9 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 * Thank you [FiftyThree]({{ site.url }}/paperfaces/fiftythree-portraits.html) for developing [the app that made all this possible](http://www.fiftythree.com/), fostering a [community of creators](http://madewithpaper.fiftythree.com/) who inspire me daily, and for supporting my project by featuring it in posts and tweets.
 
 <figure class="third">
-	<a href="{{ site.url }}/paperfaces/studioprisoner-portrait.html"><img src="{{ site.url }}/images/paperfaces-studioprisoner-twitter-600.jpg" alt="PaperFaces portrait of a horsehead"></a>
-	<a href="{{ site.url }}/paperfaces/go-master-portrait.html"><img src="{{ site.url }}/images/paperfaces-go-master-600.jpg" alt="PaperFaces portrait of a Go master"></a>
-	<a href="{{ site.url }}/paperfaces/genevasands-portrait.html"><img src="{{ site.url }}/images/paperfaces-genevasands-twitter-600.jpg" alt="PaperFaces portrait of long flowing hair"></a>
+	<a href="{{ site.url }}/paperfaces/studioprisoner-portrait/"><img src="{{ site.url }}/images/paperfaces-studioprisoner-twitter-600.jpg" alt="PaperFaces portrait of a horsehead"></a>
+	<a href="{{ site.url }}/paperfaces/go-master-portrait/"><img src="{{ site.url }}/images/paperfaces-go-master-600.jpg" alt="PaperFaces portrait of a Go master"></a>
+	<a href="{{ site.url }}/paperfaces/genevasands-portrait/"><img src="{{ site.url }}/images/paperfaces-genevasands-twitter-600.jpg" alt="PaperFaces portrait of long flowing hair"></a>
 	<figcaption>Some of my favorite portraits I've illustrated.</figcaption>
 </figure>
 

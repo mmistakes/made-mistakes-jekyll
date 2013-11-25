@@ -81,7 +81,7 @@ Working my day job as a designer, then spending the rest of the evening with my 
 
 ### Usage and Copyright
 
-Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms.html "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). That means they're free to use as avatars, share on social media, or print  for personal use only.
+Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). That means they're free to use as avatars, share on social media, or print  for personal use only.
 
 ## Video Tutorials
 
