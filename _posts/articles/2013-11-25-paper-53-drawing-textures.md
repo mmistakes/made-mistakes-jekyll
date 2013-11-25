@@ -175,14 +175,14 @@ Using the exact same technique, mix a lighter color of the base and speckle in d
 When drawing pebbles and large rocks, use the watercolor brush to create oval shapes instead. Don't linger in a spot too long, the goal is to keep these shapes irregular and loose.
 
 <figure class="half">
-  <a href="{{ site.url }}/images/paper-53-pepples-base-lg.jpg"><img src="{{ site.url }}/images/paper-53-pepples-base.jpg" alt="Screenshot of pebble shapes"></a>
-  <a href="{{ site.url }}/images/paper-53-pepples-color-lg.jpg"><img src="{{ site.url }}/images/paper-53-pepples-color.jpg" alt="Screenshot of pebble shapes with color variations"></a>
+  <a href="{{ site.url }}/images/paper-53-pebbles-base-lg.jpg"><img src="{{ site.url }}/images/paper-53-pebbles-base.jpg" alt="Screenshot of pebble shapes"></a>
+  <a href="{{ site.url }}/images/paper-53-pebbles-color-lg.jpg"><img src="{{ site.url }}/images/paper-53-pebbles-color.jpg" alt="Screenshot of pebble shapes with color variations"></a>
   <figcaption>For more variation feel free to vary the color of the rocks by adding red or blue to the mix.</figcaption>
 </figure>
 
 Using the pencil, draw in shadow lines along the bottom of each rock paying attention to where light is positioned. If the light is on the left, apply a shadow line to the bottom and right edges. If the light is coming from the right, add your shadows to the left. A reference photo will help you determine their placement accurately.
 
-![Screenshot of rock shadows in pencil]({{ site.url }}/images/paper-53-pepples-shadows.jpg)
+![Screenshot of rock shadows in pencil]({{ site.url }}/images/paper-53-pebbles-shadows.jpg)
 
 To harmonize the rock's color I'll apply a layer or two of light gray (or variation of the base) over them all. This helps tie the shadow, highlight, and base colors together by tinting them.
 
