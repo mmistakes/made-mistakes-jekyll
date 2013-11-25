@@ -37,7 +37,7 @@ My favorite use of this new feature has been to create dreamy and surreal illust
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-girl-underwater-wip-lg.jpg"><img src="{{ site.url }}/images/paper-53-girl-underwater-wip.jpg" alt="Work in progress blended drawing of a girl underwater"></a>
-	<figcaption>Needs more highlights for added contrast, but really happy with the blended results.</figcaption>
+	<figcaption>Illustration needs more highlights, but really happy with the blends.</figcaption>
 </figure>
 
 The next couple of months should be fun. I've learned a lot from the Paper community of creators, and I can't wait to see what inspiring works come when more Pencils are out in the wild!
