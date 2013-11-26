@@ -9,7 +9,6 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-
 A scene from **Only God Forgives**. If you enjoyed the elevator scene from **Drive**, this ones for you --- the lighting in this flick is fantastic.
 
 PaperFaces portrait of Ryan Gosling.
