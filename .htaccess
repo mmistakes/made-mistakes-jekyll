@@ -425,8 +425,8 @@ redirect 301 /category-sitemap.xml http://mademistakes.com/sitemap.xml
 RedirectMatch permanent /lifestream http://mademistakes.com/articles/
 redirect 301 /about-made-mistakes/ http://mademistakes.com/about/
 redirect 301 /articles/face http://mademistakes.com/articles/paperfaces-ipad-portrait-project/
-redirect 301 /articles/faces-made-with-paper-ipad.html http://mademistakes.com/articles/paperfaces-ipad-portrait-project/
-redirect 301 /articles/paperfaces-portrait-gallery.html http://mademistakes.com/paperfaces/
-redirect 301 /paperfaces/slave-leia-jabba-the-hutt.html http://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait/
+redirect 301 /articles/faces-made-with-paper-ipad http://mademistakes.com/articles/paperfaces-ipad-portrait-project/
+redirect 301 /articles/paperfaces-portrait-gallery http://mademistakes.com/paperfaces/
+redirect 301 /paperfaces/slave-leia-jabba-the-hutt http://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait/
 redirect 301 /tags.html http://mademistakes.com/tag/
-redirect 301 /articles/mastering-paper-53-guide.html http://mademistakes.com/mastering-paper/
+redirect 301 /articles/mastering-paper-53-guide http://mademistakes.com/mastering-paper/
