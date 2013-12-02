@@ -77,7 +77,7 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
   </form>
 </div><!-- /.well -->
 
-**Usage and Copyright:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/" Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
+**Usage and Copyright:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Attribution-NonCommercial 4.0 International"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
 {: .notice}
 
 ## Some Recent Portraits
