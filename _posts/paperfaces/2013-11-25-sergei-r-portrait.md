@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sergei-r-lg.jpg
   thumb: paperfaces-sergei-r-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend]
+tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend, Sktchy]
 ---
 
 Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/YRsdZH">Sergei R.</a>.
