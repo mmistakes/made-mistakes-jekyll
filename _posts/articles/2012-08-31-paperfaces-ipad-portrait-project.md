@@ -81,7 +81,7 @@ Working my day job as a designer, then spending the rest of the evening with my 
 
 ### Usage and Copyright
 
-Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)"). That means they're free to use as avatars, share on social media, or print  for personal use only.
+Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Attribution-NonCommercial 4.0 International"). That means they're free to use as avatars, share on social media, or print for personal use only.
 
 ## Video Tutorials
 
@@ -91,8 +91,8 @@ I use the term "tutorial" loosely. What you'll find here are glorified slideshow
 {: .notice}
 
 <figure class="large">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/fC_yATccHmk?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
-  <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="http://www.youtube.com/watch?v=g6r-pZY3Awc&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
+  <iframe width="560" height="315" src="//www.youtube.com/embed/zFG6M8PKdlc?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
+  <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
 </figure>
 
 ## Homages
