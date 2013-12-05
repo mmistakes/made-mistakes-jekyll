@@ -73,7 +73,7 @@ action="https://mademistakes.wufoo.com/forms/z7x4m1/#public">
 
 ## Tools of the Trade
 
-Here's a laundry list of hardware and software I use to create Made Mistakes and most of it's content.
+Here's a laundry list of hardware and software I use to create Made Mistakes and most of its content.
 
 ### Hardware
 
