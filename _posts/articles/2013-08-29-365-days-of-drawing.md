@@ -4,6 +4,7 @@ title: "365 Days of Drawing Faces"
 description: "Year one of my 365 day portrait project may be over, but I'm just getting started."
 image: 
   feature: paperfaces-476-portraits-lg.jpg
+  thumb: paperfaces-476-portraits-thumb.jpg
 category: articles
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
