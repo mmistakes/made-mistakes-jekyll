@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
 ---
 
-PaperFaces portrait of <a href="http://sktchy.com/nlpXWH" target="_blank">Wendy Rose</a>.
+PaperFaces portrait of <a href="http://sktchy.com/nlpXWH" target="_blank">Wendy Rose</a>, inspiration found via Sktchy.
 
 {% include paperfaces-boilerplate-2.html %}
 

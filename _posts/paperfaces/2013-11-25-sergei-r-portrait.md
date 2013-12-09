@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend, Sktchy]
 ---
 
-Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/YRsdZH">Sergei R.</a>.
+Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/YRsdZH">Sergei R.</a>, inspiration found via Sktchy.
 
 {% include paperfaces-boilerplate-3.html %}
 
