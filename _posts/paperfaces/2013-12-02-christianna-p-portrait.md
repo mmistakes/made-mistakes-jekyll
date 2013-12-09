@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
 ---
 
-Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/wkGeKD" target="_blank">Christianna P</a>.
+Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/wkGeKD" target="_blank">Christianna P</a>, inspiration found via Sktchy.
 
 {% include paperfaces-boilerplate-2.html %}
 
