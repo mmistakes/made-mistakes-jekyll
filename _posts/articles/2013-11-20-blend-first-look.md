@@ -5,6 +5,7 @@ description: "53's Pencil is full of promise. Here's some draws done using its m
 category: articles
 image:
   feature: paper-53-blend-first-look-feature.jpg
+  thumb: paper-53-blend-first-look-thumb.jpg
 tags: [Paper by 53, Pencil, Blend, stylus, iPad]
 comments: true
 ---

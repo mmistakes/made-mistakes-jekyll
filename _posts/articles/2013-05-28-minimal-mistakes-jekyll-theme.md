@@ -8,6 +8,7 @@ modified: 2013-09-12
 image: 
   feature: minimal-mistakes-theme-feature.jpg
   homepage: minimal-mistakes-500x500.png
+  thumb: minimal-mistakes-250x250.png
 category: articles
 tags: [Jekyll, theme, responsive, blog]
 comments: true

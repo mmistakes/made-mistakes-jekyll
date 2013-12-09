@@ -8,6 +8,7 @@ modified: 2013-08-16
 image: 
   feature: so-simple-theme-feature.jpg
   homepage: so-simple-500x500.png
+  thumb: so-simple-250x250.png
 category: articles
 tags: [Jekyll, theme, responsive, blog]
 comments: true

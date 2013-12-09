@@ -7,8 +7,7 @@ modified: 2013-10-14
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
-  circle: true
-  thumb: paperfaces-project-thumb.jpg
+  thumb: paperfaces-project-250x250.jpg
 category: articles
 tags: [Paper by 53, iPad, drawing, illustration, Michael Rose]
 comments: true
