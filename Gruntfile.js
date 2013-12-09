@@ -74,7 +74,7 @@ module.exports = function(grunt) {
         files: [
           '_assets/less/*.less'
         ],
-        tasks: ['recess']
+        tasks: ['recess', 'cssmin']
       },
       js: {
         files: [
@@ -112,7 +112,11 @@ module.exports = function(grunt) {
     'svgmin'
   ]);
   grunt.registerTask('dev', [
-    'watch'
+    'watch',
+    'clean',
+    'recess',
+    'cssmin',
+    'uglify',
   ]);
 
 };
