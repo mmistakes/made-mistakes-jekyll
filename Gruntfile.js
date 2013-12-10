@@ -45,10 +45,10 @@ module.exports = function(grunt) {
         }
       }
     },
-    imgcompress: {
+    imagemin: {
       dist: {
         options: {
-          optimizationLevel: 7,
+          optimizationLevel: 3,
           progressive: true
         },
         files: [{
@@ -108,7 +108,7 @@ module.exports = function(grunt) {
     'recess',
     'cssmin',
     'uglify',
-    'imgcompress',
+    'imagemin',
     'svgmin'
   ]);
   grunt.registerTask('dev', [
