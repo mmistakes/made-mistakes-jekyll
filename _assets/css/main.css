@@ -277,7 +277,6 @@ body {
 }
 
 .unstyled-list li {
-  margin-bottom: 2em;
   list-style-type: none;
   *zoom: 1;
 }
@@ -4517,8 +4516,8 @@ span + .entry-title {
   }
 }
 
-.post-list li > a {
-  border-bottom-width: 0;
+.post-index li {
+  margin-bottom: 2em;
 }
 
 #disqus_thread {
