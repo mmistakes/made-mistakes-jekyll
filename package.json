@@ -19,9 +19,10 @@
     "grunt-contrib-uglify": "~0.2.2",
     "grunt-contrib-watch": "~0.5.2",
     "grunt-recess": "~0.3.5",
-    "grunt-contrib-imagemin": "~0.2.0",
     "grunt-svgmin": "~0.2.0",
     "grunt-imgcompress": "~0.1.1",
-    "grunt-contrib-cssmin": "~0.7.0"
+    "grunt-contrib-cssmin": "~0.7.0",
+    "jpegtran-bin": "0.2.0",
+    "grunt-contrib-imagemin": "~0.4.0"
   }
 }
