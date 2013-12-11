@@ -56,8 +56,12 @@ There are some [Jekyll Grunt plugins](https://github.com/dannygarcia/grunt-jekyl
 
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with a lightweight jQuery plugin by Filament group called [SocialCount](http://filamentgroup.com/lab/socialcount/). Social sharing links are disabled by default and must be turned on at the post or page level by adding `share: true` to its front matter.
 
-<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn">Theme Demo</a> <a href="http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Setup']);" class="btn">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Download']);" class="btn">Download</a></div>
-
 [^1]: Example: *domain.com/post-title/*
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too... but that's a discussion for another day.
 [^3]: On mobile I choose to remove the fixed positioning to keep the menu from interfering with the main content.
+
+---
+
+If you've found this Jekyll theme useful feel free to show your gratitude by following me on Twitter or by sending a few bucks via [Square Cash](http://square.com/cash). I could always use the extra diaper money for my [twin rosebuds](http://2littlerosebuds.com) <i class="icon-smile"></i><i class="icon-smile"></i>. 
+
+<div markdown="0"><a href="http://twitter.com/mmistakes" onClick="_gaq.push(['_trackEvent', 'Link', 'Twitter']);" class="btn btn-inverse" target="_blank"><i class="icon-twitter"></i> Follow Me</a> <a href="mailto:michael@mademistakes.com?cc=cash@square.com &subject=$1&body=Just sending you cash to thank you for your sweet Jekyll theme." onClick="_gaq.push(['_trackEvent', 'Link', 'Send Cash']);" class="btn btn-inverse" target="_blank"><i class="icon-dollar"></i> Send Cash</a></div>
