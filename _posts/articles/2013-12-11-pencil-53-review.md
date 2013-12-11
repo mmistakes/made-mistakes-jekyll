@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pencil &mdash; A Stylus Built for Paper by 53"
-description: "Impressions of FiftyThree's Pencil from the perspective of an avid Paper."
+description: "Impressions of FiftyThree's Pencil from the perspective of an avid Paper creator."
 category: articles
 tags: [Pencil, Paper by 53, stylus, iPad, Blend]
 image:
