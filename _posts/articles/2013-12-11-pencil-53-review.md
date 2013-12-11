@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pencil &mdash; A Stylus Built for Paper by 53"
-description: "Impressions of FiftyThree's Pencil from the perspective of an avid Paper."
+description: "Impressions of FiftyThree's Pencil from the perspective of an avid Paper creator."
 category: articles
 tags: [Pencil, Paper by 53, stylus, iPad, Blend]
 image:
@@ -108,3 +108,8 @@ There's a lot of opportunity for these tools and I'm very interested to see wher
 ## Questions
 
 Want to know more about Pencil or the new features it enables --- ask away in the comments below and I'll do my best to answer. For those who have enjoyed my set of [Mastering Paper Guides]({{ site.url }}/mastering-paper/) I plan to add *Pencil* and *Blend* into the mix after I've had more time to experiment.
+
+<figure>
+	<iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0"> </iframe>
+	<figcaption>For giggles here's a time lapse of me drawing with Pencil. Check out my sweet green band-aid yo!</figcaption>
+</figure>
