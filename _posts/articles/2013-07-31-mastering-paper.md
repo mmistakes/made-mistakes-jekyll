@@ -53,3 +53,9 @@ In the spirit of openness I've decided to compile everything I've learned using 
 	<li><h4><span class="badge">Coming Soon</span> Part 11 &#8211; Screen Capture Techniques and Animation</h4></li>
 	<li><h4><span class="badge">Coming Soon</span> Part 12 &#8211; Getting the Most Out of Pencil</h4></li>
 </ul>
+
+---
+
+If you've found these Paper guides useful feel free to show your gratitude by following me on Twitter or by sending a few bucks via [Square Cash](http://square.com/cash). I could always use the extra diaper money for my [twin rosebuds](http://2littlerosebuds.com) <i class="icon-smile"></i><i class="icon-smile"></i>. 
+
+<div markdown="0"><a href="http://twitter.com/mmistakes" onClick="_gaq.push(['_trackEvent', 'Link', 'Twitter']);" class="btn btn-inverse" target="_blank"><i class="icon-twitter"></i> Follow Me</a> <a href="mailto:michael@mademistakes.com?cc=cash@square.com &subject=$1&body=Just sending you cash to thank you for your sweet Mastering Paper guides." onClick="_gaq.push(['_trackEvent', 'Link', 'Send Cash']);" class="btn btn-inverse" target="_blank"><i class="icon-dollar"></i> Send Cash</a></div>
