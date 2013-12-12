@@ -4,6 +4,7 @@ title: "Pencil &mdash; A Stylus Built for Paper by 53"
 description: "Impressions of FiftyThree's Pencil from the perspective of an avid Paper creator."
 category: articles
 tags: [Pencil, Paper by 53, stylus, iPad, Blend]
+modified: 12-12-2013
 image:
   feature: pencil-53-feature.jpg
   thumb: pencil-53-thumb.jpg
@@ -103,7 +104,9 @@ To sum it up. If you're a casual doodler looking for a stylus that mimics a trad
 
 And if you're new to Paper and haven't purchased any of the tools from the free app, connecting Pencil [enables all of them](http://support.fiftythree.com/customer/portal/articles/1358809-using-pencil#enabling-tools) for 30 days. As long as you continue to use Pencil with Paper you'll never have to purchase the extra tools, which helps take some of the sting off of Pencil's price.
 
-There's a lot of opportunity for these tools and I'm very interested to see where FiftyThree takes them. I specifically see the eraser tip enhancing each of the tools by allowing you to erase only the selected one. Being able to remove a pencil sketch that might be showing through layers of ink and paint would be awesome. Or what if Blend could react differently to the materials being smudged to produce new and interesting effects?
+There's a lot of opportunity for the built-in eraser and Blend feature, and I'm interested to see where FiftyThree takes them. I would love for an eraser that enabled control over what type of stroke you erased. This would be extremely useful for cleaning up a pencil sketch that might be exposed after inking or painting over. Or what if Blend smudged strokes based more on their real world properties --- ink would blur less than pencil for example.
+
+Soo many possibilities...
 
 ## Questions
 
