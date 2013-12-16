@@ -97,8 +97,6 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
 
 <blockquote class="twitter-tweet"><p>The talented <a href="https://twitter.com/mmistakes">@mmistakes</a> draws our about page: <a href="https://twitter.com/FiftyThree">@FiftyThree</a> — faces without faces of all the makers <a href="http://t.co/Aynukw2thh">http://t.co/Aynukw2thh</a></p>&mdash; Georg Petschnigg (@georgpetschnigg) <a href="https://twitter.com/georgpetschnigg/statuses/341333760433848321">June 2, 2013</a></blockquote>
 
-<blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a>: This is so lovely. Thank you so much! x</p>&mdash; Amanda M. Karby (@editorialism) <a href="https://twitter.com/editorialism/statuses/255440079584108544">October 8, 2012</a></blockquote>
-
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> <a href="https://twitter.com/Mike_FTW">@mike_ftw</a> haha. Awesome sauce. Best one yet!</p>&mdash; Q (@maxquattromani) <a href="https://twitter.com/maxquattromani/statuses/248245003300794368">September 19, 2012</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>My last RT is too fucking cool, feel like Rose from Titanic <a href="https://twitter.com/search?q=%23frenchgirl&amp;src=hash">#frenchgirl</a> <a href="https://twitter.com/mmistakes">@mmistakes</a></p>&mdash; callum (@clamteeth) <a href="https://twitter.com/clamteeth/statuses/248683914368004096">September 20, 2012</a></blockquote>
