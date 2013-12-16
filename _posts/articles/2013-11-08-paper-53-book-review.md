@@ -96,7 +96,7 @@ So the real question is how well have my Paper drawings been reproduced in print
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-book-yoda-luke-lg.jpg"><img src="{{ site.url }}/images/paper-53-book-yoda-luke.jpg" alt="Photograph of a Star Wars drawing"></a>
-	<figcaption>I really like how the pencil work printed &mdash; drawings look super professional.</figcaption>
+	<figcaption>I really like how the pencil work printed &#8212; drawings look super professional.</figcaption>
 </figure>
 
 ### Paper Quality
@@ -105,7 +105,7 @@ The paper stock printed on is thinner than what I was expecting, which is a slig
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-book-bleed-through-lg.jpg"><img src="{{ site.url }}/images/paper-53-book-bleed-through.jpg" alt="Photograph of a paper bleed-through"></a>
-	<figcaption>Some bleed-through is present when viewing the pages from behind &mdash; who&rsquo;s really going to do that though?</figcaption>
+	<figcaption>Some bleed-through is present when viewing the pages from behind &#8212; who&rsquo;s really going to do that though?</figcaption>
 </figure>
 
 ### Accordion Fold
@@ -147,7 +147,7 @@ Not to mention the finished books share the same 4:3 proportion as your Paper cr
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-journal-comparison.jpg" alt="Photograph comparing a digital journal to a Paper Book">
-	<figcaption>Digital journal compared to the printed version &mdash; same accordion fold, same rounded corners, same elastic band cover.</figcaption>
+	<figcaption>Digital journal compared to the printed version &#8212; same accordion fold, same rounded corners, same elastic band cover.</figcaption>
 </figure>
 
 If you've been holding out printing a book with Paper, I'd encourage you to give it a try at least once. I believe they're most effective as gifts to share with friends and family. Why not get a jump on the upcoming holiday season and create a book now. If they're as popular as I predict them to be, it might be a good idea to get an order in early to beat the rush.

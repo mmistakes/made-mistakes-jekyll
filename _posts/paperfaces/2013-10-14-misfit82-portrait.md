@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-<em>I want your skulls &mdash; I need your skulls.</em> PaperFaces avatar portrait of <a href="http://twitter.com/misfit82">@misfit82</a>.
+<em>I want your skulls &#8212; I need your skulls.</em> PaperFaces avatar portrait of <a href="http://twitter.com/misfit82">@misfit82</a>.
 
 {% include paperfaces-boilerplate-2.html %}
 
