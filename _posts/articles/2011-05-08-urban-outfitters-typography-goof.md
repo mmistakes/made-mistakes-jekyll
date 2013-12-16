@@ -18,7 +18,7 @@ I was shocked to see product copy that was almost legible and set in a serif typ
 
 <figure>
 	<img src="{{ site.url }}/images/UO-MAY11-serifs-italics.jpg" alt="Urban Outfitters May 2011 serifs and italics oh my" />
-	<figcaption>The serif typeface used here is quite beautiful &mdash; especially the ampersand glyph and italic set.</figcaption>
+	<figcaption>The serif typeface used here is quite beautiful &#8212; especially the ampersand glyph and italic set.</figcaption>
 </figure>
 
 ## How to Ruin Good Photography with Bad Typography

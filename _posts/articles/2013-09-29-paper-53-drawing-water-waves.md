@@ -40,14 +40,14 @@ With our blue-gray mixed and ready, select the watercolor brush and paint a slow
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-water-base-coat.jpg" alt="screenshot of water with a layer base coat">
-	<figcaption>The slower the stroke the more evenly paint is distributed &mdash; yielding a smooth and even tone.</figcaption>
+	<figcaption>The slower the stroke the more evenly paint is distributed &#8212; yielding a smooth and even tone.</figcaption>
 </figure>
 
 Start with 2--3 even coats filling in the water with as smooth a tone as you can. Depending on how many wave troughs there will be, you may have to gradually fade the tone as you move down. The water I'm painting in this example is fairly flat, so keeping the tone smooth throughout is the goal here.
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-water-fade-reference.jpg" alt="screenshot faded blue water with two coats">
-	<figcaption>In the photo reference to the right you&rsquo;ll notice the water is darkest at the horizon and gradually fades down &mdash; that&rsquo;s the effect you&rsquo;re looking to replicate by increasing the speed of your stroke as you approach the bottom.</figcaption>
+	<figcaption>In the photo reference to the right you&rsquo;ll notice the water is darkest at the horizon and gradually fades down &#8212; that&rsquo;s the effect you&rsquo;re looking to replicate by increasing the speed of your stroke as you approach the bottom.</figcaption>
 </figure>
 
 **ProTip:** Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
