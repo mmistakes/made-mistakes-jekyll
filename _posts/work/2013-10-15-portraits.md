@@ -99,8 +99,12 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
 
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> <a href="https://twitter.com/Mike_FTW">@mike_ftw</a> haha. Awesome sauce. Best one yet!</p>&mdash; Q (@maxquattromani) <a href="https://twitter.com/maxquattromani/statuses/248245003300794368">September 19, 2012</a></blockquote>
 
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thank you so much! I honestly thought you wouldn&#39;t find time! It reminds me a little of slenderman - in an awesome way! 😄</p>&mdash; Anne Køhler Nielsen (@Annekoehler) <a href="https://twitter.com/Annekoehler/statuses/393850987171282944">October 25, 2013</a></blockquote>
+
 <blockquote class="twitter-tweet"><p>My last RT is too fucking cool, feel like Rose from Titanic <a href="https://twitter.com/search?q=%23frenchgirl&amp;src=hash">#frenchgirl</a> <a href="https://twitter.com/mmistakes">@mmistakes</a></p>&mdash; callum (@clamteeth) <a href="https://twitter.com/clamteeth/statuses/248683914368004096">September 20, 2012</a></blockquote>
 
 <blockquote class="twitter-tweet" data-media="none"><p>“<a href="https://twitter.com/mmistakes">@mmistakes</a>: <a href="https://twitter.com/search?q=%23PaperFaces&amp;src=hash">#PaperFaces</a> <a href="https://twitter.com/search?q=%23MadeWithPaper&amp;src=hash">#MadeWithPaper</a> <a href="http://t.co/Eo72rx2dEC">pic.twitter.com/Eo72rx2dEC</a>”&#10;&#10;Thank you! I feel honored - this looks very well done!</p>&mdash; Finn (@invalididentity) <a href="https://twitter.com/invalididentity/statuses/348884007892692994">June 23, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>Whaaat <a href="https://twitter.com/mmistakes">@mmistakes</a> did a portrait of me, and it is beyond sublime. Beyond. <a href="http://t.co/G2txlVXpzW">pic.twitter.com/G2txlVXpzW</a></p>&mdash; Tiny Camera Ryan (@timcameronryan) <a href="https://twitter.com/timcameronryan/statuses/393597807455502336">October 25, 2013</a></blockquote>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
