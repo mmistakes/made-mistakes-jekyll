@@ -4,7 +4,7 @@ title: "Pencil &#8212; A Stylus Built for Paper by 53"
 description: "Impressions of FiftyThree's Pencil from the perspective of an avid Paper creator."
 category: articles
 tags: [Pencil, Paper by 53, stylus, iPad, Blend]
-modified: 12-12-2013
+modified: 12-18-2013
 image:
   feature: pencil-53-feature.jpg
   thumb: pencil-53-thumb.jpg
@@ -40,7 +40,9 @@ Similar to Paper, Pencil shares the same minimally designed aesthetic --- that m
 	<img src="{{ site.url }}/images/pencil-53-pogo-connect-support.jpg" alt="Pogo Connect support" width="250" height="234">
 </figure>
 
-To be honest I was a little disappointed when I discovered Pencil's tip wouldn't be pressure sensitive and support for the [Pogo Connect]({{ site.url }}/articles/pogo-connect-smart-pen/) was temporarily suspended. 
+To be honest I was a little disappointed when I discovered Pencil's tip wouldn't be pressure sensitive and support for the [Pogo Connect]({{ site.url }}/articles/pogo-connect-smart-pen/) was temporarily suspended[^pogo-support].
+
+[^pogo-support]: The 1.5.1 update to Paper re-enabled Pogo Connect support. You can't use a Pencil and Pogo Connect at the same time, but it's easy enough to disconnect one and switch to the other if you're looking to take advantage of Blend. 
 
 As someone who relies on a Pogo Connect for the expressiveness it brings to Paper --- giving that up and switching to Pencil full time is a hard sell. On the flip, Pencil is a perfect companion for casual doodlers and sketch note takers looking to experience everything Paper has to offer.
 
