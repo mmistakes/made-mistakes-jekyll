@@ -132,3 +132,7 @@ Using all of these techniques on their own or in concert, I was able to create l
 ## Moving Along
 
 In the next article in this series I'll take you through the techniques and steps I use to paint a blue skies, fluffy clouds, and sunsets. All three are the perfect compliments to a well drawn tree...
+
+---
+
+{% include support.html %}

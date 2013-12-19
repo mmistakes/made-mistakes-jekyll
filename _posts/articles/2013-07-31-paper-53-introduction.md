@@ -189,9 +189,13 @@ There isn't much else to Zoom, I'm merely mentioning it to increase awareness ar
 
 ## And We're Out
 
-Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app. Part 2 of this series will focus on drawing techniques and how to use the tools to create realistic skies, clouds, skin, hair, landscapes, and lighting effects. While Part 3 will dip into some advanced features like organizing journal pages and color, recording screen capture videos, and how I got my creations featured in the *Made With Paper* gallery. 
+Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app. Part 2 of this series will focus on drawing techniques and how to use the tools to create realistic skies, clouds, skin, hair, landscapes, and lighting effects. While Part 3 will dip into some advanced features like organizing journal pages and color, recording screen capture videos, and how I got my creations featured in the *Made With Paper* gallery.
 
 Be sure to check back soon, add the [Made Mistakes feed](http://feeds.feedburner.com/MadeMistakes) to your RSS reader of choice[^rss-reader] or [follow me on Twitter](http://twitter.com/mmistakes) to know when they drop. And if you're struggling with something or need further explaining, don't hesitate to leave a comment below.
+
+---
+
+{% include support.html %}
 
 [^opaque]: Not transparent or translucent; impenetrable to light; notallowing light to pass through.
 

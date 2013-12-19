@@ -137,3 +137,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
 Next up --- the perfect landscape compliment to happy trees and clouds, crashing waves and water.
 
 [^1]: Watching Bob Ross paint on his PBS show, [**The Joy of Painting**](http://en.wikipedia.org/wiki/The_Joy_of_Painting) was a huge influence on me during my high school years. Many of the techniques I use to paint with Paper by 53 have been adapted from him. RIP in you silly son of a gun.
+
+---
+
+{% include support.html %}

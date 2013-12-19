@@ -31,6 +31,8 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.u
 
 Oh, and I'm a recent father of twin girls and will someday help redesign [my wife's site](http://2littlerosebuds.com "2 Little Rosebuds")...
 
+---
+
 ## Contact Me
 
 Send a short message below or [@reply me on Twitter](http://twitter.com/mmistakes).
@@ -71,6 +73,8 @@ action="https://mademistakes.wufoo.com/forms/z7x4m1/#public">
     </ul>
   </form>
 
+---
+
 ## Tools of the Trade
 
 Here's a laundry list of hardware and software I use to create Made Mistakes and most of its content.
@@ -79,7 +83,7 @@ Here's a laundry list of hardware and software I use to create Made Mistakes and
 
 * iMac (20-inch, Mid 2007)
 * iPad (Retina 3rd generation)
-* Canon EOS XTi Digital SLR
+* [Canon EOS XTi Digital SLR](http://www.amazon.com/gp/product/B000I1ZWRC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000I1ZWRC&linkCode=as2&tag=mademist-20)
 
 ### Software, Plugins, and Whatever
 

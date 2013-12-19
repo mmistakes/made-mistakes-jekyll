@@ -49,6 +49,12 @@ task :sitemapbing do
 end
 
 # rake notify
-desc "Notify various services about new content"
+desc 'Notify various services about new content'
 task :notify => [:pingomatic, :sitemapgoogle, :sitemapbing] do
+end
+
+# rake rsync
+desc 'rsync the contents of ./_site to the server'
+task :rsync do
+  system 'rsync -prvz --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r _site/ ekoagency.com@ekoagency.com:domains/mademistakes.com/html/'
 end
