@@ -144,3 +144,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
 ## Watch for the Next Tutorial
 
 The next part will include techniques for drawing various textures with Paper's tools. Things like wood grain, brick, asphalt, and concrete will all be covered to round out the landscape portion of this guide.
+
+---
+
+{% include support.html %}
