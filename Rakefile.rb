@@ -1,6 +1,7 @@
 # Usage: rake minify
 desc "Minify files"
 task :minify do
+  puts '* Minifying files'
   system "java -jar _build/htmlcompressor.jar -r --type html --compress-js -o _site _site"
 end # task :minify
 
@@ -56,5 +57,11 @@ end
 # rake rsync
 desc 'rsync the contents of ./_site to the server'
 task :rsync do
+  puts '* rsyncing the contents of ./_site to the server'
   system 'rsync -prvz --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r _site/ ekoagency.com@ekoagency.com:domains/mademistakes.com/html/'
+end
+
+# rake deploy
+desc 'Minify files, rsync the files, and notify services about new content'
+task :deploy => [:minify, :rsync, :notify] do
 end
