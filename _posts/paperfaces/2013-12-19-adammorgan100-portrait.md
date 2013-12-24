@@ -3,7 +3,7 @@ layout: work
 title: "Capturing all the details"
 description: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-adammorgan100-2-2-twitter-lg.jpg
+  feature: paperfaces-adammorgan100-2-twitter-lg.jpg
   thumb: paperfaces-adammorgan100-2-twitter-150.jpg
 category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
