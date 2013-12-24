@@ -74,7 +74,7 @@ And yes, I use a stylus. For the first 50 or so portraits I drew exclusively wit
 
 ### When are You Going to Stop?
 
-At the moment, there is a *waiting list* of about 1,300. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} portraits.
+At the moment, there is a *waiting list* of about 1,300. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} finished illustrations.
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour, while others might take a few. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
@@ -84,7 +84,7 @@ Each PaperFaces portrait is protected under a [Creative Commons License]({{ site
 
 ## Video Tutorials
 
-I use the term "tutorial" loosely. What you'll find here are glorified slideshows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slideshow with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/articles/madewithpaper-drawing-guide.html "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
+I use the term "tutorial" loosely. What you'll find here are glorified slide shows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slide show with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/mastering-paper/ "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
 **Update:** I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
 {: .notice}
