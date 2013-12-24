@@ -50,9 +50,6 @@ If you include a Twitter username I'll draw the avatar associated with it. If yo
 
 I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once completed I'll tweet out the drawing and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print. If you ordered the **Making of Video Add-on** the YouTube and Dropbox download links will follow a couple days later.
 
-**Holiday Orders**: If you're hoping for a completed portrait to give as a gift in time for the upcoming holidays, please [contact me]({{ site.url }}/about/index.html#contact-me) to check on timing. I draw one portrait a day and my queue is quickly filling up...
-{: .notice}
-
 [^png-file]: Paper by FiftyThree exports a PNG file measuring 2048&times;1536 pixels, viewable in most graphics software. You get the raw file --- unaltered and without a watermark.
 
 ## Order a Custom Portrait Now
