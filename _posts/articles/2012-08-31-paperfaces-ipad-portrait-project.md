@@ -3,7 +3,7 @@ layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-10-14
+modified: 2013-12-28
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
@@ -31,7 +31,7 @@ I make every effort to update the gallery weekly with the freshest of fresh alon
 
 ### Will You Draw Me?
 
-Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces(tm) style, draw your pet dinosaur, or whatever, follow the link below.
+Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.
 
 <div markdown="0"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
 
@@ -90,7 +90,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 {: .notice}
 
 <figure class="large">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/zFG6M8PKdlc?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
+  <iframe width="560" height="315" src="//www.youtube.com/embed/y1OG2gLk6Jg?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
   <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
 </figure>
 
