@@ -4,6 +4,7 @@ permalink: /portraits/
 title: "Custom Digital Portraits"
 headline: "Get PaperFaced"
 description: "Order a custom digital portrait drawn on an iPad in my signature faceless style."
+modified: 2014-01-02
 image:
   thumb: portrait-thumb.jpg
   homepage: portrait-500x500.gif
@@ -11,11 +12,11 @@ tags: [portrait, Paper by 53, drawing, painting, iPad, digital, commission]
 homepage: true
 ---
 
-Want me to draw a faceless portrait for you using only an iPad and the fantabulous app Paper by FiftyThree? Well read on friend, here's how it goes down.
+Want me to draw a portrait for you using an iPad and the Paper app by FiftyThree? Well read on friend, here's how it goes down.
 
-## Choose How Many Faceless Faces
+## Choose How Many Faces
 
-And remember portraits are drawn in a loose watercolor style without facial features. Depending on the source photography I might draw a complete and realistic portrait, but don't hold your breath on that happening. ([Need a reminder?]({{ site.url }}/paperfaces/))
+And remember portraits are drawn in a loose watercolor and pencil style usually without facial features. If the source photography is well lit and of high quality I've been known to draw a realistic portrait, but don't hold your breath on that happening often. ([Need a reminder?]({{ site.url }}/paperfaces/))
 
 <figure>
 	<img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
@@ -24,27 +25,27 @@ And remember portraits are drawn in a loose watercolor style without facial feat
 
 ## Making of Video
 
-Curious to see how your portrait was made? For a few dollars extra I'll capture the entire drawing process using a magical technology known as AirPlay and send you an edited movie[^movie] file.
+Curious to see how your portrait was made? For a few extra dollars I'll capture the entire drawing process using a magical technology known as AirPlay, edit into a ~5 minute time lapse video, and send you a rendered file[^movie].
 
-[^movie]: Videos are saved as an MP4 movie and uploaded to YouTube and Dropbox. Links will be provided a few days after the drawing since it takes me some time to edit and render the final file.
+[^movie]: Videos are saved as MP4 movies and uploaded to YouTube and Dropbox. Links will be provided a few days after I finish the drawing since it takes me some time to edit and render the final file.
 
 <figure>
 	<a href="http://www.youtube.com/playlist?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" target="_blank"><img src="{{ site.url }}/images/portrait-making-of-video.jpg" alt="making of video samples"></a>
 	<figcaption>Sample videos can be viewed on <a href="http://www.youtube.com/playlist?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" target="_blank">my YouTube Channel</a></figcaption>
 </figure>
 
+## Include a Photo Reference
+
+Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. Don't have it linked up somewhere? No problem. Just email your picture to <michael@mademistakes.com> after completing the transaction and include a note in PayPal's special instructions that you'll be emailing me a photo so I know to expect an attachment.
+
 ## Decide on an Inscription
 
-Typically I write the subject's Twitter username in the lower right corner of the drawing. If you prefer a proper name, no name at all, or something else, please specify in the **inscription** field below when ordering.
+Typically I write the subject's Twitter username in the lower right corner of the drawing. If you prefer a proper name, my signature, no name at all, or something else --- please specify in the **inscription** field below when ordering.
 
 <figure>
 	<img src="{{ site.url }}/images/portrait-inscription.jpg" alt="portrait inscription sample">
 	<figcaption>Inscription placed in the lower right corner&hellip;if you want it.</figcaption>
 </figure>
-
-## Include a Photo Reference
-
-If you include a Twitter username I'll draw the avatar associated with it. If you want me to use an alternate photograph please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. Don't have it linked up somewhere? No problem. Just email me your picture to <michael@mademistakes.com> after completing the PayPal transaction. Please include a note in the special instructions that you'll be emailing me a photo just in case it hits my spam folder.
 
 ## Then I Draw
 
@@ -59,16 +60,16 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="3VRPLX7UXXDLW">
     <select name="os0" style="width: 100%;">
-      <option value="Portrait (one face)">Portrait (one face) $10.00 USD</option>
-      <option value="Portrait (one face) + making of video">Portrait (one face) + making of video $15.00 USD</option>
-      <option value="Portrait (multiple faces)">Portrait (multiple faces) $25.00 USD</option>
-      <option value="Portrait (multiple faces) + making of video">Portrait (multiple faces) + making of video $30.00 USD</option>
+      <option value="One face">One face $10.00 USD</option>
+      <option value="One face + making of video">One face + making of video $15.00 USD</option>
+      <option value="Multiple faces">Multiple faces $25.00 USD</option>
+      <option value="Multiple faces + making of video">Multiple faces + making of video $30.00 USD</option>
     </select>
-    <input type="hidden" name="on1" value="Inscription">
-    <label style="margin:10px 0;">Inscription</label>
-    <input type="text" name="os1" maxlength="200">
-    <input type="hidden" name="on2" value="Portrait reference">
+    <input type="hidden" name="on1" value="Portrait reference">
     <label style="margin:10px 0;">Portrait reference</label>
+    <input type="text" name="os1" maxlength="200">
+    <input type="hidden" name="on2" value="Inscription">
+    <label style="margin:10px 0;">Inscription</label>
     <input type="text" name="os2" maxlength="200">
     </table>
     <input type="hidden" name="currency_code" value="USD">
@@ -91,7 +92,7 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
   {% endfor %}
 </ul>
 
-## What Others are Saying
+## What Others are Saying About PaperFaces
 
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thanks so much for making this! Love the no face ;)</p>&mdash; Omri Mor (@omri_mor) <a href="https://twitter.com/omri_mor/statuses/255021100780625922">October 7, 2012</a></blockquote>
 
