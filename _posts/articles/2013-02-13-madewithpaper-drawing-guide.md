@@ -2,7 +2,7 @@
 layout: post
 title: "A Guide to Drawing with Paper by 53"
 description: "Learn how to I use Paper by 53 to draw faceless portraits and landscapes on an iPad."
-modified: 2013-05-29
+modified: 2014-01-03
 image: 
   feature: madewithpaper-guide-feature.jpg
   small: madewithpaper-guide-340x100.jpg
@@ -10,11 +10,9 @@ image:
 category: articles
 tags: [Paper by 53, tutorial, drawing, iPad]
 comments: true
-feature: true
-adsense: true
 ---
 
-How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.
+How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two. ([Updated drawing guide]({{ site.url }}/mastering-paper/))
 
 ## Tools
 
@@ -31,7 +29,7 @@ How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my iPad stylus of choice.</figcaption>
 </figure>
 
-**Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [this review]({{ site.url }}/articles/pogo-connect-smart-pen/) I explain the extra features it gives you when used with Paper by 53.
+**Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [this review]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by 53.
 {: .notice}
 
 Every drawing is different and I try to keep that in mind before launching Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on an iPad 3. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.
@@ -77,7 +75,7 @@ I saved the best for last. When I first started using Paper by 53, I was enamore
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
-**ProTip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}/articles/how-to-draw-hair-paper-53/).
+**ProTip:** Read in detail [how I draw hair with Paper by 53]({{ site.url }}{% post_url /articles/2013-05-10-how-to-draw-hair-paper-53 %}).
 {: .notice}
 
 <figure>

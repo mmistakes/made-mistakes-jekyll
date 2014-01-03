@@ -6,10 +6,7 @@ modified: 2013-05-03
 category: articles
 image: 
   small: palm-pre-340x100.jpg
-tags: 
-- Palm Pre
-- iPhone
-- review
+tags: [Palm Pre, iPhone, tech geek, review]
 ---
 
 Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS smartphones (Treo 600, Treo 650, Centro), I've come to rely on a proven feature set. The experience of having a device that organizes your life, makes phone calls, and connects online --- has remained unchanged. For the most part the Palm Pre meets or exceeds my expectations, with only a few minor back steps. After the break is a full rundown of my Palm Pre likes and dislikes (mostly software related), in no particular order.
@@ -71,3 +68,6 @@ If you're looking for a more in-depth look at the Palm Pre, check out [Precentra
 	<li><a href="{{ site.url }}/images/364.jpg" target="_blank"><img src="{{ site.url }}/images/364t.jpg" alt="Palm Pre Tweed App" /></a></li>
 	<li><a href="{{ site.url }}/images/365.jpg"><img src="{{ site.url }}/images/365t.jpg" alt="Palm Pre App Catalog" /></a></li>
 </ul>
+
+<meta itemprop="itemreviewed" content="Palm Pre" />
+<meta itemprop="rating" content="3" /> 

@@ -40,9 +40,9 @@ When painting, do not lift the stylus or your finger from the screen until you f
 
 ![screenshot of blue sky with multiple coats]({{ site.url }}/images/paper-53-blue-sky-base-multiple.jpg)
 
-Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
+Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
-**ProTip:** White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much blue, just rewind and try again.
+**ProTip:** White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
 {: .notice}
 
 ![screenshot of fluffed clouds]({{ site.url }}/images/paper-53-fluffed-white-clouds.jpg)
@@ -122,14 +122,14 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
 <ul class="recent-grid unstyled-list">
-  <li><a href="{{ site.url }}/paperfaces/laramulady-portrait/"><img src="{{ site.url }}/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/tipican-portrait/"><img src="{{ site.url }}/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/sbrolins-portrait/"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/technacity-portrait/"><img src="{{ site.url }}/images/paperfaces-technacity-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/dismanntled-portrait/"><img src="{{ site.url }}/images/paperfaces-dismanntled-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/suhairykz-portrait/"><img src="{{ site.url }}/images/paperfaces-suhairykz-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/nick-aylward-portrait/"><img src="{{ site.url }}/images/paperfaces-nick-aylward-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/shinfu-portrait/"><img src="{{ site.url }}/images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-laramulady-portrait %}"><img src="{{ site.url }}/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-tipican-portrait %}"><img src="{{ site.url }}/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-22-technacity-portrait %}"><img src="{{ site.url }}/images/paperfaces-technacity-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-06-19-dismanntled-portrait %}"><img src="{{ site.url }}/images/paperfaces-dismanntled-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-28-suhairykz-portrait %}"><img src="{{ site.url }}/images/paperfaces-suhairykz-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-02-01-nick-aylward-portrait %}"><img src="{{ site.url }}/images/paperfaces-nick-aylward-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-17-shinfu-portrait %}"><img src="{{ site.url }}/images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Watch for the Next Tutorial

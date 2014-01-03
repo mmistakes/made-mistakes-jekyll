@@ -6,12 +6,7 @@ category: articles
 image: 
   small: mademistakes-340x100.jpg
   thumb: iphone4-impressions-340x340.jpg
-tags: 
-- iPhone
-- Apple
-- Palm Pre
-- review
-- tech geek
+tags: [iPhone, Apple, Palm Pre, review, tech geek]
 ---
 
 <figure>
@@ -46,7 +41,10 @@ With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS a
 ## iPhone 4 Software Dislikes
 
 *	Syncing contacts, email, and social media from the cloud is pretty weak. Sure you can link *Facebook* data to contact entries or use *Google Sync* via Microsoft Exchange to push Gmail/calendars/contacts, but they each have some issues. webOS does it much better and with less effort.
-*	Notifications are weak and obtrusive. Palm nailed it in webOS and easily has the best implimentation out there. webOS notifications have nice visual cues and are stackable allowing you to act on them in whatever order you want.
+*	Notifications are weak and obtrusive. Palm nailed it in webOS and easily has the best implementation out there. webOS notifications have nice visual cues and are stackable allowing you to act on them in whatever order you want.
 *	Faux multi-tasking. Well to be fair I don't dislike the feature, I just think it has room to grow. Right now not all applications support it. Which can be jarring when apps don't resume where you left off.
 
 Overall I'm extremely happy with my purchase. Sure I'm paying the Apple tax on a more expensive monthly bill with data capped at 2GB. But I think it's worth it to have a phone that is responsive, reliable, and a joy to use.
+
+<meta itemprop="itemreviewed" content="iPhone 4" />
+<meta itemprop="rating" content="4.5" /> 

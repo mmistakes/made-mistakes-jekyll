@@ -10,7 +10,6 @@ category: articles
 tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 series: mastering-paper
 comments: true
-adsense: true
 ---
 
 Paper by 53 and me were BFFs from the start. Spread across my journals you'd find around 600 pages with creation times ranging from 30 minutes to 4 hours. A conservative estimate has me logged at around 500 hours of drawing and painting in this iOS app --- which is kind of crazy when I think about it. I'm not sure if that qualifies me as a good teacher or not, but I'm going to try and expand on some tips and techniques I've previously written about in this multi-part series.
@@ -28,7 +27,7 @@ Finger painting with Paper can yield some impressive results, but may feel unnat
 **ProTip:** For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen.
 {: .notice}
 
-Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({{ site.url }}/articles/pogo-connect-smart-pen/ "My Pogo Connect Smart Pen Review") here.
+Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %} "My Pogo Connect Smart Pen Review") here.
 
 ![Paper by 53 tools screenshot]({{ site.url }}/images/paper-53-the-tools.jpg)
 

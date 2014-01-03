@@ -3,7 +3,7 @@ layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2013-12-28
+modified: 2014-01-03
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
@@ -60,7 +60,7 @@ When I began the project I attempted to draw each face as detailed and accuratel
 
 ### What's Your Process Like?
 
-It all starts with a list. If there are any donators in the queue, I work on their portraits first. With over 1,700 portrait requests, I need a way to accurately check who has retweeted my initial post. I use [Favstar.fm](http://favstar.fm/) to view all my retweets and determine who is next, then grab their Twitter avatar and save it to my iPhone's camera roll. It's by no means a perfect system, and requests do fall through the cracks, but it's the best I've come up with so far.
+It all starts with a list. If there are paying commissions in the queue, I work on those portraits first. With over 2,300 portrait requests, I need a way to accurately check who has retweeted my initial post. I use [Favstar.fm](http://favstar.fm/) to view all my retweets and determine who is next, then grab their Twitter avatar and save it to my iPhone's camera roll. It's by no means a perfect system, and requests do fall through the cracks, but it's the best I've come up with so far.
 
 Next, I fire up Paper on my iPad, draw a black square with the pen tool, and start roughing out the illustration with the pencil tool. What works well for me is resting an iPhone right on the iPad's screen so I can reference the original photograph as I draw. This allows me to relax in my living room with the family, instead of sitting at a desk in a studio.
 

@@ -122,3 +122,6 @@ Friend Code: 4769-1328-3546
 My native fruit is apples (I have pears, peaches, cherries, oranges, and coconuts).
 I have some golden watering cans for sale, a fountain and am close to having 1,000,000 bells to purchase a lighthouse.
 {: .notice}
+
+<meta itemprop="itemreviewed" content="Animal Crossing City Folk" />
+<meta itemprop="rating" content="4" /> 

@@ -8,7 +8,6 @@ image:
   small: starfield-leopard-340x100.jpg
   thumb: starfield-leopard-thumb.jpg
 tags: [iMac, Leopard, tech geek]
-adsense: true
 ---
 
 I did my research this time around and checked out various websites and forums to see if all the major applications I use daily would be supported in Mac OS X Leopard. A lot of the Adobe crap, QuarkXpress, and 3rd party software I use for syncing my Palm Centro were up in the air in terms of Leopard compatibility. Came to the decision last Friday that I would just purchase a 500GB external hard drive, clone my startup disk to it, and if problems arose in Leopard I would just downgrade back to Tiger.
@@ -22,13 +21,13 @@ I did my research this time around and checked out various websites and forums t
 
 Backing up to the external drive took a few hours to move about 90GBs of data and then I was ready to pop in my Leopard DVD and start the clean install process. Figured it was a good idea to start fresh since my iMac was upgraded from Panther to Tiger and now Leopard... who knows how much crap and clutter was lurking around in the system preferences ready to slow things down and cause problems.
 
-A hour later Mac OS X Leopard booted up for the first time and I ran the Migration Assistant to move over all my user data, network settings, and applications from my external drive. This process took awhile but seemed to do a good job because my wallpaper, user pic, settings, startup items, and applications came over just how they were prior to the clean install. Sweet!
+A hour later Mac OS X Leopard booted up for the first time and I ran the Migration Assistant to move over all my user data, network settings, and applications from my external drive. This process took awhile but seemed to do a good job because my wallpaper, user picture, settings, startup items, and applications came over just how they were prior to the clean install. Sweet!
 
 ## Do All My Beloved Applications Work?
 
 Next came firing up Adobe Creative Suite 1 applications to see if they'd launch and function properly. Photoshop... check, Illustrator... check, InDesign... check. I didn't really poke around to much but all of those applications launched, opened documents, saved documents, printed, and seemed to function fine. I guess InDesign is the most buggy of the bunch but I rarely use it so I'm sure I'll be fine.
 
-QuarkXpress 6.1 and 6.5 opened fine for me as well. There were a few buggy things with the cursor, but nothing that would cause me any headaches. Certainly wasn't as bad as trying to run QuarkXpress 4 in Classic mode... yuk! I've read of some bugs with Saving pages as <abbr>EPS</abbr> files, but that seemed fine to me, as did exporting <abbr>PDF</abbr> files. I didn't try to save a <abbr title="postscript">PS</abbr> file and run it through Distiller but I don't see why that would give me any problems. The real test will be doing some serious work in QuarkXpress and Photoshop, but I rarely do that at home. So I should be fine for now.
+QuarkXpress 6.1 and 6.5 opened fine for me as well. There were a few buggy things with the cursor, but nothing that would cause me any headaches. Certainly wasn't as bad as trying to run QuarkXpress 4 in Classic mode... yuk! I've read of some bugs with Saving pages as <abbr title="Encapsulated postscript">EPS</abbr> files, but that seemed fine to me, as did exporting PDF files. I didn't try to save a <abbr title="postscript">PS</abbr> file and run it through Distiller but I don't see why that would give me any problems. The real test will be doing some serious work in QuarkXpress and Photoshop, but I rarely do that at home. So I should be fine for now.
 
 ## Trouble in Missing Sync Land?
 

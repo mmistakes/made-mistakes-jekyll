@@ -9,7 +9,6 @@ image:
 category: articles
 tags: [Pogo Connect, Paper by 53, stylus, illustration, review, iPad]
 comments: true
-adsense: true
 ---
 
 I've been lusting over the promise of pressure sensitive drawing on an iPad ever since I first read about the [Pogo Connect Smart Pen]( http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)[^pogo-compatibility]. Released back in January for around $80, I held off buying one until the price dropped. Waiting turned out to be smart since my favorite iOS app [**Paper by 53**]({{ site.url }}/tag/paper-by-53) also received numerous updates to better support the Pogo Connect.
@@ -95,7 +94,7 @@ It's worth noting that there appears to be a major design flaw with the internal
 
 ## What's Wrong with the Pogo Connect
 
-About those bugs I mentioned earlier. Not sure if they're hardware or software related, but I've experienced a ton of lockups with the Pogo Connect and Paper by 53. The stylus will randomly disconnect or just become unresponsive and I have to force quit the app or remove the AAA battery to make the Pogo Connect behave again. I usually notice it becoming unresponsive when making a bunch of quick strokes, like when I'm [drawing beard whiskers]({{ site.url }}/paperfaces/josearato-portrait/). Not a deal breaker because it doesn't happen all the time, but it is kind of annoying that it interrupts the creative flow.
+About those bugs I mentioned earlier. Not sure if they're hardware or software related, but I've experienced a ton of lockups with the Pogo Connect and Paper by 53. The stylus will randomly disconnect or just become unresponsive and I have to force quit the app or remove the AAA battery to make the Pogo Connect behave again. I usually notice it becoming unresponsive when making a bunch of quick strokes, like when I'm [drawing beard whiskers]({{ site.url }}{% post_url /paperfaces/2013-07-01-josearato-portrait %}). Not a deal breaker because it doesn't happen all the time, but it is kind of annoying that it interrupts the creative flow.
 
 <figure>
 	<img src="{{ site.url }}/images/pogo-connect-paper-53-disconnected.jpg" alt="Pogo Connected disconnected screenshot">
@@ -104,7 +103,7 @@ About those bugs I mentioned earlier. Not sure if they're hardware or software r
 
 ### Lock Screen Annoyance
 
-During my first week with the Pogo I encountered another issue that I thought might have been a bug with Paper. Out of nowhere the iPad's screen would turn off and the lock "chhkk" would sound. After complaining about it on Tumblr [a follower messaged me](http://mbbradbury.tumblr.com/post/51935357080/what-went-wrong-with-your-pogo-connect-i-can-see-me) to say that I needed to turn off the iPad cover lock setting. It never occurred to me that there was a magnet in the tip of the Pogo that could trigger a screen lock when moved near the iPad's outer bezel.
+During my first week with the Pogo I encountered another issue that I thought might have been a bug with Paper. Out of nowhere the iPad's screen would turn off and the lock "chhkk" would sound. After complaining about it on Tumblr [a friend messaged me](http://mbbradbury.tumblr.com/post/51935357080/what-went-wrong-with-your-pogo-connect-i-can-see-me) to say that I needed to turn off the iPad cover lock setting. It never occurred to me that there was a magnet in the tip of the Pogo that could trigger a screen lock when moved near the iPad's outer bezel.
 
 <figure>
 	<img src="{{ site.url }}/images/ipad-cover-lock-setting.jpg" alt="iPad iOS 6 cover lock setting">
@@ -140,3 +139,6 @@ And just like that Ten One Design sent me a replacement pen with 2 extra tips fr
 Feels like Groundhog Day all over again. Sadly my replacement Pogo didn't fair too well and broke in the exact same way after three months of daily usage. Big shout out to Ten One Design's customer service for setting me up with another replacement gratis. I've been told they beefed up the soldering for a new production run in September. Not sure if that will make much of a difference, but will report back after I get my hands on it.
 
 If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back...
+
+<meta itemprop="itemreviewed" content="Pogo Connect Bluetooth 4.0 Smart Pen T1-PGCT-302" />
+<meta itemprop="rating" content="3" /> 

@@ -24,7 +24,7 @@ Inside front cover starts off with this gem. I absolutely hate when an element i
 
 ## I Hate Full Justified Type
 
-Ok cool, moving on. Pet peeve number 2. Well really this should be numero uno, but seeing how it wasn't the first offence I noticed, I'll cut it some slack. But honestly, I don't get the point of fully [justified type](http://en.wikipedia.org/wiki/Justification_(typesetting)). Pretty sure this isn't a newspaper, magazine, or periodical that's so tight on space that it actually makes sense to squeeze in a few extra characters this way.
+Ok cool, moving on. Pet peeve number 2. Well really this should be numero uno, but seeing how it wasn't the first offense I noticed, I'll cut it some slack. But honestly, I don't get the point of fully [justified type](http://en.wikipedia.org/wiki/Justification_(typesetting)). Pretty sure this isn't a newspaper, magazine, or periodical that's so tight on space that it actually makes sense to squeeze in a few extra characters this way.
 
 I'm probably wrong and this isn't suppose to be a catalog. What would be the point of making the product description readable? Or why would you want to clearly define item SKUs and prices so someone could actually find them and place an order? Lines running into each other without any breaks, hierarchy, or logic always seem to make a ton of design sense. Ugh.
 
