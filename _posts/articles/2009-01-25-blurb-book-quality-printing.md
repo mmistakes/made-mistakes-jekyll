@@ -8,10 +8,7 @@ image:
   small: blurb-book-340x100.jpg
   thumb: blurb-book-thumb.jpg
 category: articles
-tags: 
-- book
-- design
-- printing
+tags: [book, design, printing]
 ---
 
 Designing a book with Blurb was painless and having it printed was equally enjoyable. I'm really happy with how my first photography book turned out.

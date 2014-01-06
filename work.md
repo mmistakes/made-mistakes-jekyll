@@ -2,7 +2,7 @@
 layout: work-index
 permalink: /work/
 title: "Work"
-description: "Work. Designed, illustrated, or developed by Michael Rose."
+description: "Things designed, illustrated, or developed by Michael Rose."
 category: work
 tags: [design, illustration, work, portfolio]
 ---

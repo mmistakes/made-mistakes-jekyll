@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title type="text">{{ site.title }}</title>
 	<subtitle type="html">{{ site.tagline }}</subtitle>
-	<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-	<icon>{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png</icon>
+	<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+	<icon>{{ site.url }}/images/icon152.png</icon>
 	<link rel="alternate" type="text/html" href="{{ site.url }}" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>{{ site.url }}/</id>

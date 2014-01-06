@@ -10,11 +10,7 @@ image:
   thumb: sunshine-thumb.jpg
   credit: DVD screengrab from DVDBeaver
   creditlink: http://www.dvdbeaver.com/film2/DVDReviews34/sunshine_blu-ray.htm
-tags: 
-- scifi
-- film
-- review
-- space
+tags: [scifi, film, review, space]
 ---
 
 Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle's new film *Sunshine*[^1], when I saw a trailer before *Sicko* a month or so ago. I couldn't tell you any of the actors' names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the Human Torch in *Fantastic Four & Rise of the Silver Surfer*).

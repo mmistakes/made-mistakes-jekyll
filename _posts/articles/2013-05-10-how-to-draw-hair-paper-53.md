@@ -2,6 +2,7 @@
 layout: post
 title: "How to Draw Realistic Hair with Paper by 53"
 description: "I'm often asked what my technique for drawing hair is. What follows is my answer to that question."
+modified: 2014-01-03
 image: 
   feature: how-to-draw-hair-feature.jpg
   small: how-to-draw-hair-340x100.jpg
@@ -9,8 +10,6 @@ image:
 category: articles
 tags: [Paper by 53, drawing, hair, iPad, tutorial]
 comments: true
-feature: true
-adsense: true
 ---
 
 ## Block Out the Hair
@@ -19,9 +18,14 @@ I like to rough out a general shape of the subject's hair using watercolor loade
 
 When working with the watercolor brush remember to **layer** numerous strokes to get a rich dark base. Just painting one coat of black won't give great results needed for the next step.
 
+<figure>
+	<a href="{{ site.ur }}/images/drawing-hair-paper-53-cheatsheet-lg.jpg"><img src="{{ site.url }}/images/drawing-hair-paper-53-cheatsheet-600.jpg" alt="Drawing hair with Paper by 53 cheatsheet" /></a>
+	<figcaption>Drawing hair with Paper by 53 cheat sheet.</figcaption>
+</figure>
+
 ## Draw Each Strand
 
-The key here is observation --- look at how each strand(or section) of hair moves, where they start, and where they end. Using the pencil draw each strand of hair from root to tip, following the same paths you observed. For these initial strokes use midtones to shape the major hair sections and parts. Then gradually brighten the color as you draw in hair with highlights. Adding small strokes of white and light yellow can really bring life to the hair, just be careful not to over do it.
+The key here is observation --- look at how each strand(or section) of hair moves, where they start, and where they end. Using the pencil draw each strand of hair from root to tip, following the same paths you observed. For these initial strokes use mid tones to shape the major hair sections and parts. Then gradually brighten the color as you draw in hair with highlights. Adding small strokes of white and light yellow can really bring life to the hair, just be careful not to over do it.
 
 For those new to the app I suggest drawing in grays --- limiting your palette to get a feel for the tools and how they behave. Working with a limitless selection of color could complicate and distract you from learning the tools. Thankfully FiftyThree's excellent color mixer *just works* when you're ready to exploit it.
 
@@ -46,11 +50,6 @@ Working an area too much with the pencil can cause your hair to flatten out. To 
 ## Watercolor for Dimension
 
 If you're a maniac with the pencil and prefer to draw in all the gradations then feel free to omit this step. I'm much too lazy for that and prefer to paint over the strokes to achieve the same effect. A warm light gray works great for brunettes and a light orange or pink for redheads. Experimentation is the key here. If you don't like the result just two finger rewind that noise and try another color. Lighter layers of watercolor that are built up gradually allow for subtler tones than a stroke of black would.
-
-<figure>
-	<a href="{{ site.ur }}/images/drawing-hair-paper-53-cheatsheet-lg.jpg"><img src="{{ site.url }}/images/drawing-hair-paper-53-cheatsheet-600.jpg" alt="Drawing hair with Paper by 53 cheatsheet" /></a>
-	<figcaption>Drawing hair with Paper by 53 cheat sheet.</figcaption>
-</figure>
 
 **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
 {: .notice}

@@ -6,11 +6,7 @@ category: articles
 image: 
   small: fadedleaf-340x100.jpg
   thumb: fadedlead-home-340x340.jpg
-tags: 
-- CMS
-- website
-- design
-- Michael Rose
+tags: [CMS, website, design, Michael Rose]
 ---
 
 As a designer we've all been there. When was the last time you got bored with a design and decided to just scrap it and start from scratch? Yeah, that's what I thought.

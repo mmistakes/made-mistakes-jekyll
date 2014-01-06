@@ -9,15 +9,13 @@ image:
   thumb: rasterbator-thumb.jpg
 tags: [poster, rasterbator, print, time lapse, tech geek]
 comments: true
-feature: true
-adsense: true
 ---
 
 A few weekends ago I decided to cover one of the walls in the office with a large poster. I've toyed around with black and white rasterbated images before, but I really wanted to see how well a full color one would look. My office walls are a lime green color and I figured something with dark greens would contrast nicely. Choosing a forest scene with a huge owl seemed right up my alley so I got to work on it's creation.
 
 ## The Process of Rasterbating
 
-Took some quick measurements of the wall's dimensions and uploaded the image to the [Rasterbator](http://arje.net/rasterbator"). Got things cropped how I liked and outputted the 120 page <abbr>PDF</abbr> file. The next 3 hours I spent trimming the white borders off of each page since my printer doesn't print to the edge. I think next time I do one of these I'm going to leave the borders... cutting these pages consistently was pretty hard. I tried using a trimmer with a rotary blade but the pages slide some regardless of the clamp thing. Oh well.
+Took some quick measurements of the wall's dimensions and uploaded the image to the [Rasterbator](http://arje.net/rasterbator"). Got things cropped how I liked and outputted the 120 page <abbr title="portable document format">PDF</abbr> file. The next 3 hours I spent trimming the white borders off of each page since my printer doesn't print to the edge. I think next time I do one of these I'm going to leave the borders... cutting these pages consistently was pretty hard. I tried using a trimmer with a rotary blade but the pages slide some regardless of the clamp thing. Oh well.
 
 ## Time Lapse Video
 

@@ -1,36 +1,36 @@
 {% include head.html %}
 
-<body id="page" itemscope itemtype="http://schema.org/WebPage">
+<body id="page">
 
 {% include navigation.html %}
 
-<div id="main" role="main" itemprop="mainContentOfPage">
-  <article class="entry" itemscope itemtype="http://schema.org/Blog" style="border-bottom-width:0;">
+<div id="main" role="main">
+  <article class="entry" style="border-bottom-width:0;">
       <div class="work-content">
         {% for post in site.posts %}
-          {% if post.homepage %}<div class="project-wrap" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"><a href="{{ site.url }}{{ post.url }}"><figure class="project-tease">
+          {% if post.homepage %}<div class="project-wrap" itemscope itemtype="http://schema.org/CreativeWork"><a href="{{ site.url }}{{ post.url }}" itemprop="url"><figure class="project-tease">
             <img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ post.title }} teaser" border="0" itemprop="image" {% if post.image.circle %}class="image-rounded"{% endif %}>
             <figcaption>
               <div class="figcaption-wrap">
                   <h3 itemprop="name">{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h3>
               </div><!-- /.figcaption-wrap -->
             </figcaption>
-          </figure></a></div><!-- /.projet-wrap -->{% endif %}
+          </figure></a></div><!-- /.project-wrap -->{% endif %}
         {% endfor %}
       </div><!-- /.work-content -->
   </article>
-  <article class="entry" itemscope itemtype="http://schema.org/Blog">
+  <article class="entry">
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title" itemprop="headline">Latest Articles</h1>
+        <h1 class="entry-title">Latest Articles</h1>
       </header>
       <div class="entry-content">
         <ul class="post-index unstyled-list">
         {% for post in site.categories.articles limit:5 %}
           <li>
-            <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-              <a href="{{ site.url }}{{ post.url }}">
-                {% if post.image.thumb %}<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image">{% else %}<img src="{{ site.url }}/images/{{ site.logo }}" class="preview" alt="preview image">{% endif %}
+            <article itemscope itemtype="http://schema.org/BlogPosting">
+              <a href="{{ site.url }}{{ post.url }}" itemprop="url">
+                {% if post.image.thumb %}<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image" itemprop="image">{% else %}<img src="{{ site.url }}/images/{{ site.logo }}" class="preview" alt="preview image" itemprop="image">{% endif %}
                 <h1 itemprop="name">{{ post.title }}</h1>
                 <p itemprop="description">{{ post.description }}</p>
                 <p class="entry-meta">Published on <span class="entry-date date published"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>

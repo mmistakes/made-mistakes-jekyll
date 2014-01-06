@@ -13,7 +13,6 @@ category: articles
 tags: [Jekyll, theme, responsive, blog]
 comments: true
 homepage: true
-adsense: true
 ---
 
 After having so much fun creating and releasing [my first open source Jekyll theme](http://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple Theme**](http://mmistakes.github.io/so-simple-theme), a responsive Jekyll theme for words and photos. 
@@ -42,7 +41,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 
 <div markdown="0"><a onClick="_gaq.push(['_trackEvent', 'Link', 'So Simple - Theme Demo']);" href="http://mmistakes.github.io/so-simple-theme" class="btn btn-inverse">Demo the Theme</a></div>
 
-**Like this theme?** I just released my third theme for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTER Theme and you can [learn more about it here]({{ site.url }}/articles/hpstr-jekyll-theme.html).
+**Like this theme?** I just released my third theme for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTR and you can [learn more about it here]({{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}).
 {: .notice}
 
 [^1]: Example: *domain.com/category-name/post-title*

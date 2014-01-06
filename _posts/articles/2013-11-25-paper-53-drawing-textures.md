@@ -26,7 +26,7 @@ I'm not going to try and explain perspective or how to set a vanishing point bec
 	<figcaption>Depending on the orientation of the bricks you may end up with guides resembling this.</figcaption>
 </figure>
 
-The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}/articles/pogo-connect-smart-pen/) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
+The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
 
 **ProTip:** An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you dont have a ruler handy.
 {: .notice}
@@ -192,21 +192,21 @@ Depending on the color of this *harmonizing layer*, the highlights and shadows f
 
 ## Variations on a Theme
 
-Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html). Below are a few finished pieces to show what is possible just by varying the color and composition.
+Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}). Below are a few finished pieces to show what is possible just by varying the color and composition.
 
 <ul class="recent-grid unstyled-list">
-  <li><a href="{{ site.url }}/paperfaces/rob-jayne-portrait.html"><img src="{{ site.url }}/images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/padulantonio-portrait.html"><img src="{{ site.url }}/images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/idpro-portrait.html"><img src="{{ site.url }}/images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/imhobson-portrait.html"><img src="{{ site.url }}/images/paperfaces-imhobson-twitter-150.jpg" alt="thumb" /></a></li>  
-  <li><a href="{{ site.url }}/paperfaces/thebrendanbrown-portrait.html"><img src="{{ site.url }}/images/paperfaces-thebrendanbrown-twitter-150.jpg" alt="thumb" /></a></li>  
-  <li><a href="{{ site.url }}/paperfaces/annekoehler-portrait.html"><img src="{{ site.url }}/images/paperfaces-annekoehler-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/seanblezard-portrait.html"><img src="{{ site.url }}/images/paperfaces-seanblezard-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/thatmiddleway-portrait.html"><img src="{{ site.url }}/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/talksinmath-portrait.html"><img src="{{ site.url }}/images/paperfaces-talksinmath-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/rt44man-portrait.html"><img src="{{ site.url }}/images/paperfaces-rt44man-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/chappers-ma-portrait.html"><img src="{{ site.url }}/images/paperfaces-chappers-ma-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}/paperfaces/andrewbrewer-portrait.html"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-10-16-rob-jayne-portrait %}"><img src="{{ site.url }}/images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-02-06-padulantonio-portrait %}"><img src="{{ site.url }}/images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-06-17-idpro-portrait %}"><img src="{{ site.url }}/images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-17-imhobson-portrait %}"><img src="{{ site.url }}/images/paperfaces-imhobson-twitter-150.jpg" alt="thumb" /></a></li>  
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-10-28-thebrendanbrown-portrait %}"><img src="{{ site.url }}/images/paperfaces-thebrendanbrown-twitter-150.jpg" alt="thumb" /></a></li>  
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-10-28-annekoehler-portrait %}"><img src="{{ site.url }}/images/paperfaces-annekoehler-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-09-seanblezard-portrait %}"><img src="{{ site.url }}/images/paperfaces-seanblezard-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-02-thatmiddleway-portrait %}"><img src="{{ site.url }}/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-talksinmath-portrait %}"><img src="{{ site.url }}/images/paperfaces-talksinmath-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-02-06-rt44man-portrait %}"><img src="{{ site.url }}/images/paperfaces-rt44man-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-30-chappers-ma-portrait %}"><img src="{{ site.url }}/images/paperfaces-chappers-ma-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Watch for the Next Tutorial

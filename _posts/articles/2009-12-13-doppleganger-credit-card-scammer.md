@@ -6,8 +6,7 @@ category: articles
 image: 
   small: mademistakes-340x100.jpg
   thumb: michael-the-fugitive.jpg
-tags: 
-- Michael Rose
+tags: [Michael Rose]
 ---
 
 <figure>

@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Introduction and Tool Guide"
 description: "An introduction to Paper's tools and how to exploit them for drawing realistically."
+modified: 2014-01-06
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
@@ -10,7 +11,6 @@ category: articles
 tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 series: mastering-paper
 comments: true
-adsense: true
 ---
 
 Paper by 53 and me were BFFs from the start. Spread across my journals you'd find around 600 pages with creation times ranging from 30 minutes to 4 hours. A conservative estimate has me logged at around 500 hours of drawing and painting in this iOS app --- which is kind of crazy when I think about it. I'm not sure if that qualifies me as a good teacher or not, but I'm going to try and expand on some tips and techniques I've previously written about in this multi-part series.
@@ -28,7 +28,7 @@ Finger painting with Paper can yield some impressive results, but may feel unnat
 **ProTip:** For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen.
 {: .notice}
 
-Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({{ site.url }}/articles/pogo-connect-smart-pen/ "My Pogo Connect Smart Pen Review") here.
+Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %} "My Pogo Connect Smart Pen Review") here.
 
 ![Paper by 53 tools screenshot]({{ site.url }}/images/paper-53-the-tools.jpg)
 
@@ -189,9 +189,7 @@ There isn't much else to Zoom, I'm merely mentioning it to increase awareness ar
 
 ## And We're Out
 
-Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app. Part 2 of this series will focus on drawing techniques and how to use the tools to create realistic skies, clouds, skin, hair, landscapes, and lighting effects. While Part 3 will dip into some advanced features like organizing journal pages and color, recording screen capture videos, and how I got my creations featured in the *Made With Paper* gallery.
-
-Be sure to check back soon, add the [Made Mistakes feed](http://feeds.feedburner.com/MadeMistakes) to your RSS reader of choice[^rss-reader] or [follow me on Twitter](http://twitter.com/mmistakes) to know when they drop. And if you're struggling with something or need further explaining, don't hesitate to leave a comment below.
+Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app.
 
 ---
 
@@ -204,5 +202,3 @@ Be sure to check back soon, add the [Made Mistakes feed](http://feeds.feedburner
 [^pen-lettering]: I suppose I could break the creative flow and switch to a traditional capacitive stylus for just lettering if I wanted to continue using the fountain pen. Nah...
 
 [^ios-zoom]: The iPad has a system wide zoom feature that allows you to enlarge the screen by 3 finger tapping it. To activate, go to **Settings** > **General**. Tap on **Accessibility** and then turn on **Zoom**.
-
-[^rss-reader]: I like to sync all my RSS feeds with [Feedly](http://feedly.com) in a desktop browser along with their mobile apps. [Flipboard](http://flipboard.com) is also quite nice if you prefer the digital magazine approach.
