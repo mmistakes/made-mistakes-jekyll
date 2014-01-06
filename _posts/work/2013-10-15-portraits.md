@@ -1,22 +1,20 @@
 ---
 layout: page
 permalink: /portraits/
-title: "Custom Digital Portraits"
+title: "PaperFaces iPad Portraits"
 headline: "Get PaperFaced"
-description: "Order a custom digital portrait drawn on an iPad in my signature faceless style."
-modified: 2014-01-02
+description: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
+modified: 2014-01-06
 image:
   thumb: portrait-thumb.jpg
   homepage: portrait-500x500.gif
-tags: [portrait, Paper by 53, drawing, painting, iPad, digital, commission]
+tags: [portrait, Paper by 53, drawing, painting, iPad, commission]
 homepage: true
 ---
 
-Want me to draw a portrait for you using an iPad and the Paper app by FiftyThree? Well read on friend, here's how it goes down.
+Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how it goes down.
 
-## Choose How Many Faces
-
-And remember portraits are drawn in a loose watercolor and pencil style usually without facial features. If the source photography is well lit and of high quality I've been known to draw a realistic portrait, but don't hold your breath on that happening often. ([Need a reminder?]({{ site.url }}/paperfaces/))
+I am not an artist and merely doing portraits for fun. I take the supplied reference photograph and draw my interpretation of it, illustrated in a loose watercolor and pencil style. If the source photography is well lit and of high quality I might draw a realistic portrait, but I also might draw a faceless one. I'm not asking much for these drawings so I think that more than makes up for this level of discretion. ([Portrait examples]({{ site.url }}/paperfaces/))
 
 <figure>
 	<img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
@@ -49,7 +47,7 @@ Typically I write the subject's Twitter username in the lower right corner of th
 
 ## Then I Draw
 
-I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once completed I'll tweet out the drawing and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print. If you ordered the **Making of Video Add-on** the YouTube and Dropbox download links will follow a couple days later.
+I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once completed I'll tweet out the drawing so my followers can enjoy it and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print. If you ordered the **Making of Video Add-on** the YouTube and Dropbox download links will follow a couple days later.
 
 [^png-file]: Paper by FiftyThree exports a PNG file measuring 2048&times;1536 pixels, viewable in most graphics software. You get the raw file --- unaltered and without a watermark.
 
@@ -61,9 +59,9 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
     <input type="hidden" name="hosted_button_id" value="3VRPLX7UXXDLW">
     <select name="os0" style="width: 100%;">
       <option value="One face">One face $10.00 USD</option>
-      <option value="One face + making of video">One face + making of video $15.00 USD</option>
+      <option value="One face + video">One face + video $15.00 USD</option>
       <option value="Multiple faces">Multiple faces $25.00 USD</option>
-      <option value="Multiple faces + making of video">Multiple faces + making of video $30.00 USD</option>
+      <option value="Multiple faces + video">Multiple faces + video $30.00 USD</option>
     </select>
     <input type="hidden" name="on1" value="Portrait reference">
     <label style="margin:10px 0;">Portrait reference</label>
