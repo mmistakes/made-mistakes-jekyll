@@ -45,6 +45,3 @@ With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS a
 *	Faux multi-tasking. Well to be fair I don't dislike the feature, I just think it has room to grow. Right now not all applications support it. Which can be jarring when apps don't resume where you left off.
 
 Overall I'm extremely happy with my purchase. Sure I'm paying the Apple tax on a more expensive monthly bill with data capped at 2GB. But I think it's worth it to have a phone that is responsive, reliable, and a joy to use.
-
-<meta itemprop="itemreviewed" content="iPhone 4" />
-<meta itemprop="rating" content="4.5" /> 

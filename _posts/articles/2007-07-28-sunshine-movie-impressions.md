@@ -30,6 +30,3 @@ Somewhere along the third act this film takes a right turn into a different kind
 *Sunshine* never tries to insult your intelligence with over simplified scientific babble a 5 year old could understand. In fact there really is little explanation about what is going on or what they are doing. Instead it focuses on philosophical themes and how expendable life is in the greater scheme of things.
 
 If you're looking for a big budget science fiction action adventure skip this one. You'll think the story moves along too slowly and not enough shit blows up. If you enjoy your sci-fi cut from the indie vein or dug [*Primer*](http://imdb.com/title/tt0390384/) and its realistic explanation of time travel, then you can't go wrong. B+
-
-<meta itemprop="itemreviewed" content="Sunshine" />
-<meta itemprop="rating" content="3.5" /> 

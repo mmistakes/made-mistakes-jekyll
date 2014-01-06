@@ -24,6 +24,3 @@ It really wasn't a horror film per say, but if you ever played those *Fatal Fram
 [mr-vengeance]: http://imdb.com/title/tt0310775/ "Sympathy for Mr Vengeance entry on IMDb"
 [lady-vengeance]: http://imdb.com/title/tt0451094/ "Lady Vengeance entry on IMDb"
 [two-sisters]: http://www.imdb.com/title/tt0365376/ "A Tale of Two Sisters entry on IMDb"
-
-<meta itemprop="itemreviewed" content="A Tale of Two Sisters" />
-<meta itemprop="rating" content="3" /> 

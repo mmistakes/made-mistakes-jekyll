@@ -68,6 +68,3 @@ If you're looking for a more in-depth look at the Palm Pre, check out [Precentra
 	<li><a href="{{ site.url }}/images/364.jpg" target="_blank"><img src="{{ site.url }}/images/364t.jpg" alt="Palm Pre Tweed App" /></a></li>
 	<li><a href="{{ site.url }}/images/365.jpg"><img src="{{ site.url }}/images/365t.jpg" alt="Palm Pre App Catalog" /></a></li>
 </ul>
-
-<meta itemprop="itemreviewed" content="Palm Pre" />
-<meta itemprop="rating" content="3" /> 
