@@ -7,17 +7,12 @@ image:
   feature: rriiccee-feature.jpg
   small: rriiccee-340x100.jpg
   thumb: rriiccee-thumb.jpg
-tags: 
-- RRIICCEE
-- Vincent Gallo
-- Soundlab
-- Buffalo
-- review
+tags: [RRIICCEE, Vincent Gallow, Soundlab, Buffalo, review]
 ---
 
 So I no longer have any drive to go see bands perform live. The one or two shows I force myself to attend yearly always leave me questioning my intentions about ten minutes after arriving at the bar. Maybe I'm getting less patient with my age but I can't stand it when bands don't start playing until three+ hours after doors open. On a work night that just sucks.
 
-But really, I can live with all that if the band is amazing and puts on a mind blowing performance (something that has yet to happen as of late). So when I heard that Vincent Gallo was going to actually play Buffalo *at Soundlab*, a city that he always rips on in interviews --- I was excited to puchase my ticket and go.
+But really, I can live with all that if the band is amazing and puts on a mind blowing performance (something that has yet to happen as of late). So when I heard that Vincent Gallo was going to actually play Buffalo *at Soundlab*, a city that he always rips on in interviews --- I was excited to purchase my ticket and go.
 
 Gallo was bringing along some guy from *Hole* and a few other musicians to play "music" as the band [*RRIICCEE*](http://www.rriiccee.com/). They don't believe in recording albums in a studio and then playing those songs to an audience in some rehearsed manner. Instead they just play and feed of each other giving a unique performance every time. This sounded like it was going to be some sort of noise, jamming, jazz, free form borefest, but I didn't care since I wanted to see Gallo act like the persona I've come to admire --- an asshole with great taste!
 

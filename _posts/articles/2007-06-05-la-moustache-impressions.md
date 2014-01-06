@@ -9,11 +9,7 @@ image:
   thumb: la-moustache-thumb.jpg
   credit: DVD screengrab from The Movie Database
   creditlink: http://www.themoviedb.org/movie/16998-la-moustache
-tags: 
-- mustache
-- film
-- review
-- foreign
+tags: [mustache, film, review, foreign]
 ---
 
 Saw another great French film tonight. This one is called *La Moustache*[^1] and starts right off with the protangonist Marc, deciding to shave off his mustache that he's worn his entire adult life. Thinking his wife and friends will notice the drastic change, he gets mad when they don't. At first he thinks his wife is playing an elaborate prank on him but things gradually progress to a state of great disorientation for Marc.

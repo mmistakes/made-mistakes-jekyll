@@ -2,16 +2,14 @@
 layout: post
 title: "Going Static without a CMS using Jekyll"
 description: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
-modified: 2013-08-13
+modified: 2014-01-03
 image: 
   feature: going-static-feature.jpg
   small: going-static-340x100.jpg
   thumb: going-static-thumb.jpg
 category: articles
-tags: [Jekyll, web development, design, responsive]
+tags: [Jekyll, web development, design, responsive, theme]
 comments: true
-feature: true
-adsense: true
 ---
 
 If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://www.alistapart.com/) and [Smashing Magazine](http://www.smashingmagazine.com/).
@@ -22,15 +20,15 @@ Which got me thinking *"Shit. I don't know anything about these new technologies
 
 For the last ten years I've used a <abbr title="Content Management System">CMS</abbr> to hold and present personal blogs and portfolios of my design work. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update my Wordpress powered website from an iPhone application. As much as that feature sounds awesome, I never once found myself away from a computer wanting to post something in long form.
 
-A common problem facing Wordpress sites are their speed, due to a number of reasons. To be honest I never really had issues with *Made Mistakes* because it was relatively small and low on the traffic. But worrying about constant upgrades to the core, plugins to combat security hacks, or if I had [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/) configured correctly started to get old fast.
+A common problem facing Wordpress sites are their speed, due to a number of reasons. To be honest I never really had issues with *Made Mistakes* because it was relatively small and low on the traffic. But worrying about security exploits, constantly upgrading to the core and plugins, or if I had [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/) configured correctly started to get old fast.
 
 ### Designers Are Control Freaks
 
-But the real reason that prompted me to look at going back to my web roots was *control*. Trying to tame content inside of a <abbr>CMS</abbr> filled with loops, functions, and code I didn't need or know how they worked became an exercise in wasting time. And for what? In six months I'd abandon a site and cease updating even though I had the tools to update from *anywhere* and at *anytime*. Which lead to this conclusion --- I'd much rather build something from the ground up than strip away a bunch of useless bells & whistles I didn't need.
+But the real reason that prompted me to look at going back to my web roots was *control*. Trying to tame content inside of a CMS filled with loops, functions, and code I didn't need or know how they worked became an exercise in wasting time. And for what? In six months I'd abandon a site and cease updating even though I had the tools to update from *anywhere* and at *anytime*. Which lead to this conclusion --- I'd much rather build something from the ground up than strip away a bunch of useless bells & whistles I didn't need.
 
 ## The Journey to a Static Website
 
-And so began the process of building a website/blog/portfolio using static pages that I could control from `<p>` tag out. But where to start? *Do I build a few disconnected pages in a text editor like TextMate and upload via FTP?* Or is there a better way using a static-site generator like [Jekyll][1], [nanoc][2], [Middleman][3], [StaticMatic][4], [Bonsai][5], [subDimension][6], or [Octopress][7]?
+And so began the process of building a blog-portfolio hybrid using static pages that I could control from `<p>` tag out. But where to start? *Do I build a few disconnected pages in a text editor like TextMate and upload via FTP?* Or is there a better way using a static-site generator like [Jekyll][1], [nanoc][2], [Middleman][3], [StaticMatic][4], [Bonsai][5], [subDimension][6], or [Octopress][7]?
 
 [1]: http://jekyllrb.com/
 [2]: http://nanoc.stoneship.org/
@@ -42,30 +40,30 @@ And so began the process of building a website/blog/portfolio using static pages
 
 ### Generating the Site with Jekyll
 
-I eventually settled on Jekyll as my static-site generator of choice --- mostly because I could grasp how to pull and filter data using [Liquid](http://liquidmarkup.org/). The general idea goes something like this:
+I eventually settled on Jekyll as my static-site generator of choice --- mostly because it seemed actively developed and [Liquid](http://liquidmarkup.org/) appeared to do everything I needed to do with my templates. Publishing a new post goes something like this:
 
-1.	Create a text file for each page/post written that is in Markdown, <abbr>HTML</abbr>, etc.
-2.	Add a <abbr>YAML</abbr> front-matter block to the top of these files to indicate layouts, meta data, feature images, or any other variables you want to include.
-3.	Run `jekyll build` to spit out compiled website or project.
-4.	Deploy the files in `_site` to your web server (FTP, rsync, rake script, [GitHub pages](http://pages.github.com/), whatever)
+1.	Create a text file written in Markdown for a new post.
+2.	Add a <abbr>YAML</abbr> front-matter block to the top of these files to indicate which layout to use, the post's meta data, feature image, category, and tags.
+3.	Run `jekyll` from the <abbr title="Command line">CLI</abbr> to spit out the compiled site.
+4.	Deploy `/_site` to my web server using a rake task that minifies all .html files, rsyncs the changes, and pings Google and Bing notifying them that `sitemap.xml` has updated.
 
-There are [more steps to the process](http://jekyllbootstrap.com/), but for the most part it's fairly straight forward after you've built all the necessary `_includes` and `_layouts`. What made this process appealing to me over Wordpress or another <abbr>CMS</abbr> was --- total control. I can set how I want the folder/file structure to look like, how the pages are constructed, use [Grunt.js](http://gruntjs.com/) and other build scripts to optimize everything, etc etc etc. Sure it's possible to do all this in a <abbr>CMS</abbr>, but sometimes it's not as transparent and obvious.
+There can be a few more steps to the process, but for the most part it's fairly straight forward after you've built all the necessary `_layouts` and `_includes`. What made this process appealing to me over Wordpress or another CMS was --- total control. I can set how I want the folder & file structures to look like, how the pages are constructed, use [Grunt](http://gruntjs.com/) and other build scripts to optimize everything, etc etc etc. Sure it's possible to do all this in a CMS, but sometimes it's not as transparent and obvious and you often have to strip out a bunch of code bloat.
 
-I will say this about using Jekyll --- it's not for everyone. I had to get my hands dirty and figure out or research ways of creating sitemaps, <abbr title="Really Simple Syndication">RSS</abbr>/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do it for you.
+I will say this about using Jekyll --- it's not for everyone. I had to get my hands dirty and figure out (or research) ways of creating XML sitemaps, <abbr title="Really Simple Syndication">RSS</abbr>/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do it for you.
 
-Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of <abbr>HTML5</abbr> and <abbr>CSS3</abbr>, be able to *"art direct"* every page without hacks, get nice with [Less](http://lesscss.org/) to create more powerful and efficient stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop screens.
+Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of HTML5 and CSS3 transitions, be able to *"art direct"* every page without hacks, get nice with CSS preprocessors like [Less](http://lesscss.org/) to create more powerful and efficient stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop screens.
 
 ## Inspirational Frameworks
 
 ### HTML5 Boilerplate
 
-One of the most beneficial things I did to familiarize myself with the HTML5 spec was download the [*HTML5 Boilerplate*](http://html5boilerplate.com/) and read through the source code. All of the files are heavily commented and explain what is going on and why. Often with links to the source material to get more context behind a specific technique or approach. When this wasn't enough I'd hit up [*HTML5 Doctor*](http://html5doctor.com/) to learn more about the header, article, section, nav, footer, figure tags.
+One of the most beneficial things I did to familiarize myself with the HTML5 spec was download the [*HTML5 Boilerplate*](http://html5boilerplate.com/) and read through the source code. All of the files are heavily commented and explain what is going on and why. Often with links to the source material to get more context behind a specific technique or approach. When this wasn't enough I'd hit up [*HTML5 Doctor*](http://html5doctor.com/) to learn more about the `header`, `article`, `section`, `nav`, `footer`, `figure` tags.
 
 ### Art Directed Blog Posts are So Passé
 
 Back when I still had a website powered by Wordpress, I toyed with the idea of designing art directed blog posts. Essentially posts that deviated from the blog's theme and became something unique based on the posts content. Think of the editorial design work done in print magazines and you'll get the idea.
 
-To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom <abbr>CSS</abbr> styles into a post's layout overriding the defaults. If you ask me, using [Liquid If statement](http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless) tags in a templates seems less hacky and way more customizable. Loading custom <abbr>CSS </abbr> for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and <abbr title="YAML Ain't Markup Language">YAML</abbr>.
+To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom CSS styles into a post's layout overriding the defaults. If you ask me, using [Liquid If statement](http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless) tags in a templates seems less hacky and way more customizable. Loading custom CSS for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and <abbr title="YAML Ain't Markup Language">YAML</abbr>.
 
 ### Less is More
 
@@ -73,11 +71,11 @@ When I first heard about [Less](http://lesscss.org/) and [Sass](http://sass-lang
 
 Bare minimum I figured I could use global variables for the site's color palette and default typography and maybe a mixin or two. The beauty of Less is that you don't have to alter your current .css files. Just changed the .css extension to .less and you're done. Then use as little or *as less* that you want.
 
-Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how best to reuse my code throughout a project. And I didn't even have to worry about using Javascript or a separate app to convert compiled .css files. I simply installed the [Jekyll-less](http://rubygems.org/gems/jekyll-less) Ruby Gem and any time I run `jekyll` or `jekyll-server`, the .less to .css conversion is handled automatically.
+Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how to best reuse my code throughout a project. And I didn't even have to worry about using JavaScript or a separate app to convert compiled .css files. I simply installed the [Jekyll-less](http://rubygems.org/gems/jekyll-less) Ruby Gem and any time I run `jekyll` or `jekyll-server`, the .less to .css conversion is handled automatically.
 
 ### But What About the Grid System?
 
-Another added benefit of using Less the many user created mixins. I knew I wanted an easy way to establish a grid system in my layouts, but really didn't want to go the semantically un-friendly route of using classes like `.grid_x`, `.push_x`, or `col_x`. Instead I stumbled upon [The Semantic Grid System](http://semantic.gs/) from an [article on Smashing Magazine](http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/ "The Semantic Grid System Page Layout for Tomorrow") about semantics in grid frameworks.
+Another added benefit of using Less are the many user created mixins. I knew I wanted an easy way to establish a grid system in my layouts, but really didn't want to go the semantically unfriendly route of using classes like `.grid_x`, `.push_x`, or `col_x`. Instead I stumbled upon [The Semantic Grid System](http://semantic.gs/) from an [article on Smashing Magazine](http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/ "The Semantic Grid System Page Layout for Tomorrow") about semantics in grid frameworks.
 
 Using The Semantic Grid System allowed me to define fluid grids for each of my site's major page layouts with a few lines of Less. Top that off with a few carefully thought out `@media` queries and my grids were now responsive and adapted well mobile phones, tablets, desktops, and beyond.
 
@@ -95,10 +93,15 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 
 ### Version Control
 
-With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how Rake scripts work to make deploying smoother instead of relying on Cyberduck's Synchronize feature every time I want to publish new content.
+With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how to utilize rsync and rake tasks to make deploying smoother instead of manually FTPing my `_site` folder.
 
-**Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to Github if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and site...
+**Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
 {: .notice}
 
-Or you can grab it as a Jeklly theme that I'm calling [So Simple Theme]({{ site.url }}/articles/so-simple-jekyll-theme/). It's essentially the same code base I use on *Made Mistakes*, but simplified to make it easier for customizing. Documentation and a theme preview can be [found here](http://mmistakes.github.io/so-simple-theme).
-{: .notice}
+## Jekyll Themes
+
+Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few themes on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% supported by [GitHub Pages](http://pages.github.com/) if you want to host your site or blog there for free.
+
+* **Minimal Mistakes:** [Theme preview](http://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %})
+* **So Simple:** [Theme preview](http://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url /articles/2013-06-26-so-simple-jekyll-theme %})
+* **HPSTR RDX:** [Theme preview](mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %})

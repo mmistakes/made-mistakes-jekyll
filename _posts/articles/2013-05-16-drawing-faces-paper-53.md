@@ -1,19 +1,17 @@
 ---
 layout: post
 title: "Drawing Faces without Faces with Paper by 53"
-description: "Short on time? Here's the quick and fun way to draw and paint portraits using Paper by 53."
+description: "Short on time? Here's the quick and fun way I draw portraits using Paper by 53."
 image: 
-  feature: paper-53-draw-face-feature-xl.jpg
+  feature: paper-53-draw-face-feature.jpg
   small: paper-53-draw-face-340x100.jpg
   thumb: paper-53-draw-face-thumb.jpg
 category: articles
 tags: [Paper by 53, tutorial, drawing, portrait, iPad]
 comments: true
-feature: true
-adsense: true
 ---
 
-I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({{ site.url }}/articles/paperfaces-ipad-portrait-project/" PaperFaces iPad Portrait Project") for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](http://2littlerosebuds.com/ title="2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
+I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](http://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
 
 *I can't draw and I'm not an artist* --- that's the real reason most of my [PaperFaces illustrations]({{ site.url }}/paperfaces/) don't have facial features. Capturing a likeness is tough business yo! Omitting the trickiest part (the face) frees up all kinds of time, which circles back to how I've been able to maintain a daily drawing rhythm. A technically precise illustration that might have taken 8 hours is now squashed down to 30--60 minutes. Half an hour is fun, 10 hours is a chore!
 
@@ -73,7 +71,7 @@ The trick here is to gradually apply smooth layers of a light color using the wa
 
 Same deal as the background, select the pencil tool and start refining edges that are deep in shadow (hair line, necks, clothing, etc). This will help tighten things up and fix the less than precise strokes of watercolor you laid down earlier. 
 
-Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out]({{ site.url }}/articles/how-to-draw-hair-paper-53/) one time.
+Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out]({{ site.url }}{% post_url /articles/2013-05-10-how-to-draw-hair-paper-53 %}) one time.
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paper-53-pencil-detail-face-1-lg.jpg"><img src="{{ site.url }}/images/paper-53-pencil-detail-face-1-400.jpg" alt="Pencil details with Paper 53"></a>

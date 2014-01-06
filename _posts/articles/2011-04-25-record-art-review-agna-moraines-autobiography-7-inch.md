@@ -32,7 +32,7 @@ Artwork on the front sleeve appears to have little to do with the song titles or
 
 There is a mix of hand written lyrics silk screened on scraps of fabric (nice touch), and what looks like a poem typed out on a sheet of white paper. The poem sheet includes an illustration of a fish jumping out of water. As far as I can tell this sheet has nothing to do with the record since none of the words appear in the songs.
 
-The record is pressed on black with white labels. Side A lists the 4 song titles, while Side B has a crude line art drawing of a man worshipping the moon near a dead tree and pond.
+The record is pressed on black with white labels. Side A lists the 4 song titles, while Side B has a crude line art drawing of a man worshiping the moon near a dead tree and pond.
 
 Images, sounds, and lyrics are all over the place on this record. But that's ok. Maybe they're meant to be from a dream...
 
