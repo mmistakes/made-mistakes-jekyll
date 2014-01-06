@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Introduction and Tool Guide"
 description: "An introduction to Paper's tools and how to exploit them for drawing realistically."
+modified: 2014-01-06
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
@@ -188,9 +189,7 @@ There isn't much else to Zoom, I'm merely mentioning it to increase awareness ar
 
 ## And We're Out
 
-Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app. Part 2 of this series will focus on drawing techniques and how to use the tools to create realistic skies, clouds, skin, hair, landscapes, and lighting effects. While Part 3 will dip into some advanced features like organizing journal pages and color, recording screen capture videos, and how I got my creations featured in the *Made With Paper* gallery.
-
-Be sure to check back soon, add the [Made Mistakes feed](http://feeds.feedburner.com/MadeMistakes) to your RSS reader of choice[^rss-reader] or [follow me on Twitter](http://twitter.com/mmistakes) to know when they drop. And if you're struggling with something or need further explaining, don't hesitate to leave a comment below.
+Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app.
 
 ---
 
@@ -203,5 +202,3 @@ Be sure to check back soon, add the [Made Mistakes feed](http://feeds.feedburner
 [^pen-lettering]: I suppose I could break the creative flow and switch to a traditional capacitive stylus for just lettering if I wanted to continue using the fountain pen. Nah...
 
 [^ios-zoom]: The iPad has a system wide zoom feature that allows you to enlarge the screen by 3 finger tapping it. To activate, go to **Settings** > **General**. Tap on **Accessibility** and then turn on **Zoom**.
-
-[^rss-reader]: I like to sync all my RSS feeds with [Feedly](http://feedly.com) in a desktop browser along with their mobile apps. [Flipboard](http://flipboard.com) is also quite nice if you prefer the digital magazine approach.
