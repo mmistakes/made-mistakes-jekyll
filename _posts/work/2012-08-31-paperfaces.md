@@ -4,8 +4,8 @@ permalink: /paperfaces/
 title: "PaperFaces Project Gallery"
 short-title: "PaperFaces Project"
 headline: "PaperFaces Project"
-description: "An entire gallery of PaperFaces portraits drawn by Michael Rose using Paper by 53 and an iPad."
-modified: 2013-07-12
+description: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53 for iPad."
+modified: 2014-01-06
 image: 
   thumb: paperfaces-project-250x250.jpg
   homepage: paperfaces-project-250x250.jpg
@@ -18,7 +18,7 @@ PaperFaces is an [illustration project]({{ site.url }}/articles/paperfaces-ipad-
 
 Curious how I use Paper to draw these? Check out my set of [Mastering Paper by 53 Guides]({{ site.url }}/mastering-paper/).
 
-<div markdown="0" style="text-align:center"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
+<div markdown="0" style="text-align:center"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a PaperFaces Portrait</a></div>
 
 <ul class="oversized-recent-grid unstyled-list">
 {% for post in site.categories.paperfaces %}
