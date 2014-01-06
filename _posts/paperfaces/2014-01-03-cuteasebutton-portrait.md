@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
 ---
 
-PaperFaces portrait of [@cuteasebutton](http://instagram.com/cuteasebutton). I rally enjoy drawing long hair, could you tell?
+PaperFaces portrait of [@cuteasebutton](http://instagram.com/cuteasebutton). I really enjoy drawing long hair, couldn't you tell?
 
 {% include paperfaces-boilerplate-2.html %}
 
