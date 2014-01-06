@@ -1,6 +1,6 @@
 {% include head.html %}
 
-<body id="work" itemscope itemtype="http://schema.org/WebPage">
+<body id="work">
 
 {% include navigation.html %}
 
@@ -25,19 +25,19 @@
   {% endif %}
 {% endfor %}
 
-<div id="main" role="main" itemprop="mainContentOfPage">
-  <article class="entry" itemscope>
+<div id="main" role="main">
+  <article class="entry" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.image.feature %}<div class="entry-image">
       <img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
-      {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+      {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
     </div><!-- /.entry-image -->{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
         <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
       </header>
-      <div class="entry-content" itemprop="articleBody">
+      <div class="entry-content" itemprop="description">
         {% if page.work %}
-        <div markdown="0" style="text-align: center;"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn">Launch Website</a></div>
+        <div markdown="0" style="text-align: center;"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs">Launch Website</a></div>
         {% endif %}
         {{ content }}
         {% if page.categories contains 'paperfaces' %}
