@@ -1332,7 +1332,7 @@ svg:not(:root) {
 
 @-webkit-keyframes pop {
   50% {
-    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
@@ -1341,7 +1341,7 @@ svg:not(:root) {
 
 @keyframes pop {
   50% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   100% {
     transform: scale(1);
