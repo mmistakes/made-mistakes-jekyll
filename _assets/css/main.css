@@ -988,9 +988,9 @@ figure a img:hover {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  -webkit-animation: wiggle 0.3s ease-out;
-     -moz-animation: wiggle 0.3s ease-out;
-          animation: wiggle 0.3s ease-out;
+  -webkit-animation: pop .3s linear;
+     -moz-animation: pop .3s linear;
+          animation: pop .3s linear;
 }
 
 @media only screen and (min-width: 62.5em) {
@@ -1036,9 +1036,9 @@ svg:not(:root) {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  -webkit-animation: wiggle 0.3s ease-out;
-     -moz-animation: wiggle 0.3s ease-out;
-          animation: wiggle 0.3s ease-out;
+  -webkit-animation: pop .3s linear;
+     -moz-animation: pop .3s linear;
+          animation: pop .3s linear;
 }
 
 .recent-grid a:hover {
@@ -1092,9 +1092,9 @@ svg:not(:root) {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  -webkit-animation: wiggle 0.3s ease-out;
-     -moz-animation: wiggle 0.3s ease-out;
-          animation: wiggle 0.3s ease-out;
+  -webkit-animation: pop .3s linear;
+     -moz-animation: pop .3s linear;
+          animation: pop .3s linear;
 }
 
 .oversized-recent-grid a:hover {
@@ -1132,9 +1132,9 @@ svg:not(:root) {
 }
 
 .project-wrap:hover {
-  -webkit-animation: wiggle 0.3s ease-out;
-     -moz-animation: wiggle 0.3s ease-out;
-          animation: wiggle 0.3s ease-out;
+  -webkit-animation: pop .3s linear;
+     -moz-animation: pop .3s linear;
+          animation: pop .3s linear;
 }
 
 .project-wrap:nth-child(odd) {
@@ -1327,6 +1327,24 @@ svg:not(:root) {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes pop {
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
@@ -4748,9 +4766,9 @@ span + .entry-title {
 
 .social-icons a:hover {
   color: #000000;
-  -webkit-animation: wiggle 0.3s ease-out;
-     -moz-animation: wiggle 0.3s ease-out;
-          animation: wiggle 0.3s ease-out;
+  -webkit-animation: pop .3s linear;
+     -moz-animation: pop .3s linear;
+          animation: pop .3s linear;
 }
 
 .social-icons a[href^="http://twitter.com"]:hover {

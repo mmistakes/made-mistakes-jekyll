@@ -21,9 +21,9 @@ figure {
   a { 
     img {
       &:hover {
-        -moz-animation: wiggle .3s ease-out;
-        -webkit-animation: wiggle .3s ease-out;
-        animation: wiggle .3s ease-out;
+        -moz-animation: pop .3s linear;
+        -webkit-animation: pop .3s linear;
+        animation: pop .3s linear;
         .box-shadow(0 0 10px fade(@black, 20));
       }
     }
@@ -65,9 +65,9 @@ svg:not(:root) {
     border-bottom: 0 solid !important;
     img {
       &:hover {
-        -moz-animation: wiggle .3s ease-out;
-        -webkit-animation: wiggle .3s ease-out;
-        animation: wiggle .3s ease-out;
+        -moz-animation: pop .3s linear;
+        -webkit-animation: pop .3s linear;
+        animation: pop .3s linear;
         .box-shadow(0 0 5px fade(@black, 20));
       }
     }
@@ -99,9 +99,9 @@ svg:not(:root) {
     border-bottom: 0 solid !important;
     img {
       &:hover {
-        -moz-animation: wiggle .3s ease-out;
-        -webkit-animation: wiggle .3s ease-out;
-        animation: wiggle .3s ease-out;
+        -moz-animation: pop .3s linear;
+        -webkit-animation: pop .3s linear;
+        animation: pop .3s linear;
         .box-shadow(0 0 5px fade(@black, 20));
       }
     }
@@ -126,9 +126,9 @@ svg:not(:root) {
   width: 40%;
   margin: 10px 5%;
   &:hover {
-    -moz-animation: wiggle .3s ease-out;
-      -webkit-animation: wiggle .3s ease-out;
-      animation: wiggle .3s ease-out;
+    -moz-animation: pop .3s linear;
+      -webkit-animation: pop .3s linear;
+      animation: pop .3s linear;
   }
   &:nth-child(odd) {
     clear: both;
@@ -290,5 +290,21 @@ svg:not(:root) {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes pop {
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
