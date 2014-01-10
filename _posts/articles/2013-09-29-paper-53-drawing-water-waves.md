@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Water and Waves"
 description: "Learn techniques for drawing water and waves using the iPad app Paper by 53."
-modified: 2014-01-06
+modified: 2014-01-10
 image: 
   feature: paper-53-water-guide-feature.jpg
   thumb: paper-53-water-guide-thumb.jpg
@@ -13,6 +13,9 @@ comments: true
 ---
 
 Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
+
+* Table of Contents
+{:toc}
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-water-color-mix.jpg" alt="screenshot of blue-gray water mix">
@@ -35,7 +38,7 @@ Much like drawing skies, you can choose to mark a horizon line in pencil to act 
 	<figcaption><strong>ProTip:</strong> An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you don&rsquo;t have a ruler handy.</figcaption>
 </figure>
 
-### Base Coating the Water
+### Base Coat for the Water
 
 With our blue-gray mixed and ready, select the watercolor brush and paint a slow and even stroke to make up this first layer of water. Just like painting skies, you're trying for an even application of watercolor without lifting your stylus or finger off the iPad's screen. Work your stroke from top to bottom, left to right, overlapping the previously painted portion slightly. A slow stroke with a slight zig zag to it will aid in painting an even and homogeneous tone quickly.
 
@@ -111,7 +114,7 @@ Depending on the size of the wave crests it's usually easier to lightly paint in
 	<figcaption>Dabs of white water color can cover an area much faster than the pencil tool.</figcaption>
 </figure>
 
-### Adding Wave Shadows
+### Adding Shadows to the Waves
 
 To add in shadows use a variation of the water's base color, mixed with 20--40% black. Apply the same technique used above but with this darker color instead of white. Focus on putting a few pencil strokes of dark adjacent to the white strokes which will add depth to the waves. As always, if you over work an area just rewind or draw over it using white if it's a shadow, and a shadow color if it's white.
 
@@ -143,6 +146,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
 </ul>
 
 ## Watch for the Next Tutorial
+{:.no_toc}
 
 The next part will include techniques for drawing various textures with Paper's tools. Things like wood grain, brick, asphalt, and concrete will all be covered to round out the landscape portion of this guide.
 

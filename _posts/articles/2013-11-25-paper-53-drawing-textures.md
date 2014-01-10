@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Textures"
 description: "Learn techniques for drawing bricks, wood, and rock textures using the iPad app Paper by 53."
-modified: 2014-01-06
+modified: 2014-01-10
 image: 
   feature: paper-53-texture-guide-feature.jpg
   thumb: paper-53-texture-guide-thumb.jpg
@@ -16,6 +16,9 @@ If you've been following along you now know all my Paper techniques[^techniques]
 
 [^techniques]: I like to draw loose and quick, and avoid anything that takes the fun and energy from the experience. My techniques focus more on getting the best results in the least amount of time, because who really wants to spend more than an hour on a drawing?
 
+* Table of Contents
+{:toc}
+
 ## Drawing Bricks
 
 Bricks can be quite the monotonous subject to draw because of their repetitive shape. Getting the perspective right can also be quite challenging if you're trying to capture a brick road or wall that isn't perfectly flat.
@@ -26,6 +29,8 @@ I'm not going to try and explain perspective or how to set a vanishing point bec
 	<img src="{{ site.url }}/images/paper-53-bricks-guide.jpg" alt="Screenshot of brick guide">
 	<figcaption>Depending on the orientation of the bricks you may end up with guides resembling this.</figcaption>
 </figure>
+
+### Sketching Guidelines
 
 The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
 
@@ -38,6 +43,8 @@ With a few guidelines placed, use the color mixer to create a base for the brick
 	<img src="{{ site.url }}/images/paper-53-bricks-brick-base-mix.jpg" alt="Screenshot of rusty brown color">
 	<figcaption>To determine if you mixed the color light enough, paint a few layers of watercolor to the side and check the results.</figcaption>
 </figure>
+
+### Laying Bricks with Watercolor
 
 When blocking out bricks, I prefer using the watercolor brush versus the marker. Simply put, it leaves you with a jagged edge that's closer to real life. Painting small bricks is next to impossible if you don't have access to a Pogo Connect stylus. Without it you're limited to one brush size, which is quite wide for this sort of detail work.
 
@@ -60,6 +67,8 @@ Once all the bricks have been laid, err painted --- apply a second coat of water
   <figcaption>Layers of watercolor don't need to be exact. Apply until you reach a color to your liking.</figcaption>
 </figure>
 
+### Cement Lines
+
 When coloring the cement between the bricks I usually handle it in three different ways.
 
 1. Don't do anything and leave it blank so the background color shows through.
@@ -75,6 +84,8 @@ At this point you could call it a day and consider the bricks finished. If you w
 
 **ProTip:** Varying brick color is a nice way to add visual interest and break up the space. Painting random bricks with a red or orange mix usually produces favorable results.
 {: .notice}
+
+### Adding Detail to the Bricks
 
 Add shadows to each of the bricks. Using a darker mix of the rusty brown from before (or a dark gray), paint shadow shape on the bricks. You don't want to cover the entire brick, just one of the corners depending on where the light is positioned.
 
@@ -103,6 +114,8 @@ To finish off the bricks I'll use a mixture of gray to further refine the spaces
 
 Wood color varies quite a bit so I'm going to focus more on the process and less on the color. The basic idea is to lay down a medium base and then work lighter colors on top of it.
 
+### Selecting a Base Color
+
 Determine what the mid-tone color of the wood is. Using the following photograph of wood as a reference, we can determine that it's somewhere around a medium brown.
 
 <figure class="half">
@@ -119,6 +132,8 @@ This becomes the base color and will be used to paint the wood's shape with wate
   <figcaption>After a few more applications of watercolor you should have something that looks like this, matching the reference photo.</figcaption>
 </figure>
 
+### Penciling in Grain Texture
+
 Now to begins the fun of penciling in wood grain. Start by selecting the medium brown from before and mixing it about 10% darker. Depending on the temperature of the wood's color it might be better to mix in a dark red to warm it, or a bluish green to cool it. Color is fairly subjective so you might have to play with the hue if the color shifts out of harmony with the base.
 
 Using a pencil, begin sketching in *fuzzy* lines to represent wood grain. If you look back at our photo reference the grains go up and down --- that's the direction to follow.
@@ -134,6 +149,8 @@ Without changing the color switch to the brush and splash in the wood's darker s
 {: .notice}
 
 ![Screenshot of adding darkness to the wood]({{ site.url }}/images/paper-53-wood-shadow-mix.jpg)
+
+### Adding Details
 
 Black or an appropriate dark color can be used to draw in deeper cracks using the same *fuzzy* line technique from before. If wood knots exist, use this color to create oval shapes and fill them. If you keep these pencil strokes loose and sketchy they'll match the other textures and unite visually.
 
@@ -154,6 +171,8 @@ For a final pass, mix a lighter variation of our base color. With this color and
 
 When drawing sidewalks, roads, or any sort of rocky terrain I adapt the following technique to fit most situations. Layer up a few coats of watercolor using the paint brush, mix a darker variant of the base, and finally sketch in random pencil strokes to add texture. *Ble, ble, ble, ble, that's all folks.*
 
+### Painting a Base
+
 Here's how it boils down in visual form. First mix up a base color to paint with. For the purpose of this guide let's go with a gray blue.
 
 ![Screenshot of asphalt base color mix]({{ site.url }}/images/paper-53-asphalt-color-mix.jpg)
@@ -161,6 +180,8 @@ Here's how it boils down in visual form. First mix up a base color to paint with
 Using the watercolor brush, paint a slow and even base layer. Keep adding layers until you're happy with the color. You want it to make up the mid tone of your gravel, rocks, asphalt, or pebbles, so don't go too dark or light because we want an adequate contrast between the shadows and highlights we'll be adding next.
 
 ![Screenshot of asphalt base]({{ site.url }}/images/paper-53-asphalt-base.jpg)
+
+### Applying Texture
 
 Going back to the color mixer, add in black or darken it with the sliders. You're looking to reproduce a dark variation of the base we just painted. Next select the pencil, zoom in, and begin sketching *specks* of dirt and cracks. Keep these strokes loose and fairly random by moving around quickly --- the *fuzzier* the better.
 
@@ -173,6 +194,8 @@ Using the exact same technique, mix a lighter color of the base and speckle in d
 
 ![Screenshot of adding dirt highlights]({{ site.url }}/images/paper-53-asphalt-light-texture.jpg)
 
+### Painting Large Rocks
+
 When drawing pebbles and large rocks, use the watercolor brush to create oval shapes instead. Don't linger in a spot too long, the goal is to keep these shapes irregular and loose.
 
 <figure class="half">
@@ -184,6 +207,8 @@ When drawing pebbles and large rocks, use the watercolor brush to create oval sh
 Using the pencil, draw in shadow lines along the bottom of each rock paying attention to where light is positioned. If the light is on the left, apply a shadow line to the bottom and right edges. If the light is coming from the right, add your shadows to the left. A reference photo will help you determine their placement accurately.
 
 ![Screenshot of rock shadows in pencil]({{ site.url }}/images/paper-53-pebbles-shadows.jpg)
+
+### Harmonizing the Rocks
 
 To harmonize the rock's color I'll apply a layer or two of light gray (or variation of the base) over them all. This helps tie the shadow, highlight, and base colors together by tinting them.
 
@@ -211,6 +236,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
 </ul>
 
 ## Watch for the Next Tutorial
+{:.no_toc}
 
 In the next part I'll share all of my skin tone cheat sheets that serve as a starting point for my PaperFaces portraits. Learn how I use shape, color, and the watercolor brush to enhance the realism of a portrait with little effort.
 

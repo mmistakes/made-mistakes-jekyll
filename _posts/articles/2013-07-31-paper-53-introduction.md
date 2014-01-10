@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Introduction and Tool Guide"
 description: "An introduction to Paper's tools and how to exploit them for drawing realistically."
-modified: 2014-01-06
+modified: 2014-01-10
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
@@ -17,7 +17,10 @@ Paper by 53 and me were BFFs from the start. Spread across my journals you'd fin
 
 ![Paper 53 journals screenshot]({{ site.url }}/images/paper-53-journals.jpg)
 
-In this first part you'll learn about the benefits of a stylus, how all of the Paper by 53 tools work, and basic gestures you'll want to master. Parts 2 and 3 will dig deeper into techniques for realistic drawing, advanced features, making Paper by 53 videos, and how to get featured in the *Made With Paper* gallery.
+In this first part you'll learn about the benefits of a stylus, how all of the Paper by 53 tools work, and basic gestures you'll want to master. The remaining parts will dig deeper into techniques I use when drawing idealistically, page management, advanced features, and how to record the iPad's screen and make time lapse videos of your creations.
+
+* Table of Contents
+{:toc}
 
 ## Is a Stylus Necessary?
 
@@ -162,9 +165,9 @@ For a good shadow color I generally edit the base color I'm shading and crank th
 **ProTip:** Sometimes approaching the "point of no return" is a good thing --- especially when you need a color for lightening. Instead of using pure white, I like to start with the base color I'm working with and crank the luminosity way up to make less dramatic tints when erasing.
 {: .notice}
 
-## Perfect these gestures
+## Gestures to Perfect
 
-If you only learn two gestures for Paper, make them Rewind and Zoom.
+If you only learn two gestures when using Paper, make them Rewind and Zoom.
 
 ### Rewind {#rewind}
 
@@ -188,6 +191,7 @@ There isn't much else to Zoom, I'm merely mentioning it to increase awareness ar
 {: .notice}
 
 ## And We're Out
+{:.no_toc}
 
 Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app.
 
