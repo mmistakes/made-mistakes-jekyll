@@ -15,6 +15,9 @@ Portraiture is the meat and potatoes of what I use Paper by FiftyThree to create
 
 Like the other parts of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/), this one will introduce techniques I utilize and the reasoning behind them. The way I draw and paint has gone through various stages over the year and a half I've been working on my [PaperFaces Project]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}). For this guide I think it makes the most sense to organize it in these same stages, starting with gestural techniques and ending with a more photo realistic approach.
 
+* Table of Contents
+{:toc}
+
 ## Color Palettes for Skin
 
 Before I get into the various techniques I want to share my most used colors for building up skin tones. With this set of seven custom mixes I can pretty much get any skin color I want by layering them. Each color wheel is painted with the brush tool to show how they react when layered. Tapping the circles below will open into larger views allowing you to save[^saving-images] each.
@@ -100,6 +103,7 @@ If you decide to use your own color mix go with one that is fairly light. The le
 8. Don't be afraid to go over the watercolor with pencil strokes following the same "string wrapping" guideline from before. Especially useful for adding in highlights on the bridge of the nose, forehead, and cheeks.
 
 ## Watch for the Next Tutorial
+{:.no_toc}
 
 ---
 
