@@ -8,7 +8,7 @@ image:
   thumb: hpstr-250x250.png
 category: articles
 tags: [Jekyll, theme, responsive, blog, modern]
-modified: 2013-08-27
+modified: 2014-01-10
 comments: true
 homepage: true
 ---
