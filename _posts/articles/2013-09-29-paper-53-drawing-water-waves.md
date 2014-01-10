@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Water and Waves"
 description: "Learn techniques for drawing water and waves using the iPad app Paper by 53."
+modified: 2014-01-06
 image: 
   feature: paper-53-water-guide-feature.jpg
   thumb: paper-53-water-guide-thumb.jpg

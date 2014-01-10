@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Trees and Grass"
 description: "Learn techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper by 53."
+modified: 2014-01-06
 image: 
   feature: paper-53-trees-guide-feature.jpg
   thumb: paper-53-trees-guide-thumb.jpg

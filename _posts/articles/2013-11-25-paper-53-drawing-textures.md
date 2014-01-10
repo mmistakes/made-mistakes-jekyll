@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Textures"
 description: "Learn techniques for drawing bricks, wood, and rock textures using the iPad app Paper by 53."
+modified: 2014-01-06
 image: 
   feature: paper-53-texture-guide-feature.jpg
   thumb: paper-53-texture-guide-thumb.jpg
