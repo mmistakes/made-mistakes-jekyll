@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Skies and Clouds"
 description: "Learn techniques to draw blue skies, clouds, and pretty sunsets using the iPad app Paper by 53."
+modified: 2014-01-10
 image: 
   feature: paper-53-skies-guide-feature.jpg
   thumb: paper-53-skies-guide-thumb.jpg
@@ -13,6 +14,9 @@ comments: true
 ---
 
 Paper by 53 makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here...let me show you how.
+
+* Table of Contents
+{:toc}
 
 ## Blue Skies Fade
 
@@ -28,6 +32,8 @@ With the base sky color mixed, select the pencil tool and draw a line across the
 
 ![screenshot of pencil horizon line in blue]({{ site.url }}/images/paper-53-pencil-horizon-line-blue.jpg)
 
+### Watercolor Base Coat
+
 Prep work complete, now you can start the actual painting of the sky. What you're trying to accomplish with this step is a smooth coat that gradually fades to white as you approach the horizon line. The easiest way to do this is with the watercolor brush, starting from the top of the composition, working down in a slight zig zag pattern.
 
 <figure class="half">
@@ -39,6 +45,8 @@ Prep work complete, now you can start the actual painting of the sky. What you'r
 When painting, do not lift the stylus or your finger from the screen until you finish this first coat. The trick is to move very slow near the top, and progressively speed up the zig zag pattern as you approach the horizon line. Depending on how gradual of a fade you want in the sky, multiple coats may be required. Follow the same pattern from before to keep everything looking smooth.
 
 ![screenshot of blue sky with multiple coats]({{ site.url }}/images/paper-53-blue-sky-base-multiple.jpg)
+
+### Painting Puffy Clouds
 
 Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
@@ -75,6 +83,8 @@ Just like the blue sky from before, paint slowly from left to right, slightly ov
 
 ![screenshot of 1st red coat]({{ site.url }}/images/paper-53-sunset-red-color-wash.jpg)
 
+### Gradations of Color
+
 A few coats to build up the sky into a smooth gradation of color may be necessary. What you're looking for is a darker red at the horizon, that gradually fades into the background about halfway up from the top. I fade the red around halfway to leave room to fade a dark blue-violet down from the top in this next step.
 
 ![screenshot of sunset dull blue color mix]({{ site.url }}/images/paper-53-sunset-blue-color-mix.jpg)
@@ -93,6 +103,8 @@ And paint a light coat over the red, background area in the middle, and graduall
 
 **ProTip:** Paint faster as you approach the blue wash to avoid turning it into a green color. Yellow and blue make...
 {: .notice}
+
+### Sunset Clouds
 
 To add clouds to our sunset let's start by mixing a red into white. You want a pink color that has just enough white in it to lighten while you paint --- some trial and error may be necessary to get the mix right. Once you successfully mixed a pink, fluff in a few clouds using short circular strokes (same technique used in the blue sky).
 
@@ -133,6 +145,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
 </ul>
 
 ## Watch for the Next Tutorial
+{:.no_toc}
 
 Next up --- the perfect landscape compliment to happy trees and clouds, crashing waves and water.
 

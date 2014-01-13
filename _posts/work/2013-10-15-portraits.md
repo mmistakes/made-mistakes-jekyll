@@ -4,7 +4,7 @@ permalink: /portraits/
 title: "PaperFaces iPad Portraits"
 headline: "Get PaperFaced"
 description: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
-modified: 2014-01-06
+modified: 2014-01-10
 image:
   thumb: portrait-thumb.jpg
   homepage: portrait-500x500.gif
@@ -13,6 +13,15 @@ homepage: true
 ---
 
 Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how it goes down.
+
+<ul class="oversized-recent-grid unstyled-list">
+{% for post in site.categories.paperfaces limit:8 %}
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+    <img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
+    <noscript><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110"></noscript>
+  </a></li>
+  {% endfor %}
+</ul>
 
 I am not an artist and merely doing portraits for fun. I take the supplied reference photograph and draw my interpretation of it, illustrated in a loose watercolor and pencil style. If the source photography is well lit and of high quality I might draw a realistic portrait, but I also might draw a faceless one. I'm not asking much for these drawings so I think that more than makes up for this level of discretion. ([Portrait examples]({{ site.url }}/paperfaces/))
 
@@ -78,17 +87,6 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
 
 **Usage and Copyright:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Attribution-NonCommercial 4.0 International"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
 {: .notice}
-
-## Some Recent Portraits
-
-<ul class="oversized-recent-grid unstyled-list">
-{% for post in site.categories.paperfaces limit:8 %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-    <img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
-    <noscript><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110"></noscript>
-  </a></li>
-  {% endfor %}
-</ul>
 
 ## What Others are Saying About PaperFaces
 

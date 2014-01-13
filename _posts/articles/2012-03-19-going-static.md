@@ -104,4 +104,4 @@ Getting more comfortable using Jekyll I wanted to give back to the community, so
 
 * **Minimal Mistakes:** [Theme preview](http://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %})
 * **So Simple:** [Theme preview](http://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url /articles/2013-06-26-so-simple-jekyll-theme %})
-* **HPSTR RDX:** [Theme preview](mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %})
+* **HPSTR RDX:** [Theme preview](http://mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %})

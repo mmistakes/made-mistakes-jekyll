@@ -2,6 +2,7 @@
 layout: post
 title: "Drawing Faces without Faces with Paper by 53"
 description: "Short on time? Here's the quick and fun way I draw portraits using Paper by 53."
+modified: 2014-01-06
 image: 
   feature: paper-53-draw-face-feature.jpg
   small: paper-53-draw-face-340x100.jpg

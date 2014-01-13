@@ -1,7 +1,7 @@
 ---
 layout: work
 title: "Undercut inspiration"
-description: "PaperFaces portrait of Wendy Rose drawn with Paper by 53 on an iPad."
+description: "PaperFaces portrait of Effy E. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-effy-e-lg.jpg
   thumb: paperfaces-effy-e-150.jpg
