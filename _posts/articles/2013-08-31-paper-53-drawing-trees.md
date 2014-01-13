@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Trees and Grass"
 description: "Learn techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper by 53."
+modified: 2014-01-10
 image: 
   feature: paper-53-trees-guide-feature.jpg
   thumb: paper-53-trees-guide-thumb.jpg
@@ -12,6 +13,11 @@ comments: true
 ---
 
 Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({{ site.url }}{% post_url /work/2013-08-27-relic-scout %}), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
+
+* Table of Contents
+{:toc}
+
+## Drawing Trees
 
 When I draw trees I select the watercolor brush and jump right in, using one continuous stroke to rough out a general shape. Don't worry about being precise here, we'll refine the edges later. You could start with a light pencil sketch to nail your the composition, but I usually don't --- it keeps the tree feeling organic and less rigid (a happy accident is your friend).
 
@@ -130,6 +136,7 @@ Using all of these techniques on their own or in concert, I was able to create l
 </ul>
 
 ## Moving Along
+{:.no_toc}
 
 In the next article in this series I'll take you through the techniques and steps I use to paint a blue skies, fluffy clouds, and sunsets. All three are the perfect compliments to a well drawn tree...
 

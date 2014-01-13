@@ -1,7 +1,7 @@
 ---
 layout: work
 title: "She said yes"
-description: "PaperFaces portrait of @theBrady and @khollybell drawn with Paper by 53 on an iPad."
+description: "Engagement PaperFaces portrait of @theBrady and @khollybell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thebrady-khollybell-2-twitter-lg.jpg
   thumb: paperfaces-thebrady-khollybell-2-twitter-150.jpg
