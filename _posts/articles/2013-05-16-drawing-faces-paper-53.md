@@ -2,7 +2,7 @@
 layout: post
 title: "Drawing Faces without Faces with Paper by 53"
 description: "Short on time? Here's the quick and fun way I draw portraits using Paper by 53."
-modified: 2014-01-06
+modified: 2014-01-14
 image: 
   feature: paper-53-draw-face-feature.jpg
   small: paper-53-draw-face-340x100.jpg
@@ -20,11 +20,14 @@ Brevity is at the heart of every one of my portraits. *Can't draw facial feature
 
 Still confused? Here are the general steps I follow for every portrait I draw. Don't worry if you're just starting out --- almost anything you create with Paper by 53 will look beautiful. Just experiment with the tools and have fun with your journey --- the rest will come naturally.
 
+* Table of Contents
+{:toc}
+
 ## Shape the Canvas
 
 I decided on a square frame for [my project]({{ site.url }}/paperfaces/ "PaperFaces iPad Portrait Project"), but you might want to experiment with the shape and canvas placement to better suit your needs. I like to draw the frame freehand with black ink to give it character, but you can use pencil if you want to hide it easier.
 
-**ProTip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
+<i class="fa fa-magic fa-2x"></i> **ProTip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
 {: .notice}
 
 ## Apply a Background
@@ -58,7 +61,7 @@ The background should be nice and heavy now. Using a white pencil, outline the f
 
 A white mixed with a hint of orange or yellow works great too. Experiment with the amount of color you mix because if you add too much the opaque nature of white is removed and it won't "erase" the background beneath.
 
-## Build a Face
+## Build up the Face
 
 The trick here is to gradually apply smooth layers of a light color using the watercolor brush. First few layers are to fill the entire face with whatever skin color you're trying to match. For areas that are in shadow, mix in a dull (almost gray) red or blue and then quickly paint half of the face. Shape really matters --- if you don't get it right just two finger rewind and try again. Move fast and avoid lingering in one spot to keep your edges soft and avoid going too dark.
 
@@ -68,7 +71,7 @@ The trick here is to gradually apply smooth layers of a light color using the wa
 	<figcaption>Move quick and deliberate with watercolor.</figcaption>		
 </figure>
 
-## Pencil in Detail
+## Pencil in Details
 
 Same deal as the background, select the pencil tool and start refining edges that are deep in shadow (hair line, necks, clothing, etc). This will help tighten things up and fix the less than precise strokes of watercolor you laid down earlier. 
 
@@ -80,7 +83,7 @@ Now is a great time to pencil in the hair, mustache, or beard whiskers using bla
 	<figcaption>Use black and white pencils to shade and highlight.</figcaption>		
 </figure>
 
-## Cross the Face
+## Imply Facial Features
 
 To finish the face take care to observe the direction and tilt of the head. Carefully draw a line from the forehead down to where the lips should be, following the same curve of your subject. You could keep it really straight, but I find following this natural curve helps make it look more three-dimensional. For the horizontal line, make it eye to eye in length. A fun tip for exaggerating what a face might be looking at --- extending the horizontal line off the face and into the background on one side.
 
@@ -91,5 +94,5 @@ To finish the face take care to observe the direction and tilt of the head. Care
 
 <div markdown="0"><a href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download a Drawing PaperFaces Guide</a></div>
 
-**PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
+<i class="fa fa-info-circle fa-2x"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
 {: .notice}

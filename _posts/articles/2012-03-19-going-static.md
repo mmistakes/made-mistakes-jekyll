@@ -16,6 +16,9 @@ If you follow the trends in modern web design and development, it's hard to igno
 
 Which got me thinking *"Shit. I don't know anything about these new technologies or techniques, I better learn fast."* And the only real way I was going to pickup all this was to create a project for myself. So began the process of evaluating how to build my personal website and how I'd like it to function.
 
+* Table of Contents
+{:toc}
+
 ## Why Go Static
 
 For the last ten years I've used a <abbr title="Content Management System">CMS</abbr> to hold and present personal blogs and portfolios of my design work. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update my Wordpress powered website from an iPhone application. As much as that feature sounds awesome, I never once found myself away from a computer wanting to post something in long form.
@@ -95,7 +98,7 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how to utilize rsync and rake tasks to make deploying smoother instead of manually FTPing my `_site` folder.
 
-**Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
+<i class="fa fa-info-circle fa-2x"></i> **Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
 {: .notice}
 
 ## Jekyll Themes

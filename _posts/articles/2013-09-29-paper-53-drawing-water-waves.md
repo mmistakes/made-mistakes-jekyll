@@ -26,7 +26,7 @@ Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/maste
 
 When choosing a color for the water, I like to mix it dull and gray by knocking the saturation down[^mixer]. I find this helps arrive at a better base color and contrasts nicely against a bright blue sky. But don't let this mix limit your creative vision, make it any color you want.
 
-**ProTip:** Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
+<i class="fa fa-magic fa-2x"></i> **ProTip:** Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 {: .notice}
 
 [^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#color-mixer) and what the various sliders mean and do.
@@ -54,7 +54,7 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 	<figcaption>In the photo reference to the right you&rsquo;ll notice the water is darkest at the horizon and gradually fades down &#8212; that&rsquo;s the effect you&rsquo;re looking to replicate by increasing the speed of your stroke as you approach the bottom.</figcaption>
 </figure>
 
-**ProTip:** Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
+<i class="fa fa-magic fa-2x"></i> **ProTip:** Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
 {: .notice}
 
 ### Adding Wave Chop
