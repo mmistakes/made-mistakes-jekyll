@@ -2516,12 +2516,6 @@ span + .entry-title {
   display: block;
 }
 
-#work .entry-meta {
-  display: none !important;
-  display: none;
-  visibility: hidden;
-}
-
 .author-photo {
   width: 30px;
   height: 30px;
