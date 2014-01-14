@@ -7,7 +7,7 @@ image:
   feature: paper-53-book-feature.jpg
   thumb: paper-53-book-thumb.jpg
 category: articles
-tags: [Paper by 53, book, printing, review, design]
+tags: [Moleskine, Paper by 53, book, printing, review, design]
 comments: true
 ---
 
@@ -17,7 +17,7 @@ About a month ago FiftyThree added a highly requested feature to their award win
 
 ## Journal to Custom Printed Book
 
-Before I get into my impressions of the physical books, I wanted to quickly discuss the book making process. As expected it was  utilitarian in design and fully integrated into the iOS app. The only problem I had was whittling down hundreds of [PaperFaces portraits]({{ site.url }}/paperfaces/) into a collection of 15 favorites to make up my book.
+Before I get into my impressions of the physical books, I wanted to quickly discuss the book making process. As expected it was utilitarian in design and fully integrated into the iOS app. The only problem I had was whittling down hundreds of [PaperFaces portraits]({{ site.url }}/paperfaces/) into a collection of 15 favorites to make up my book.
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-book-journal-pages.jpg" alt="Screenshot of PaperFaces journal pages">
@@ -46,7 +46,7 @@ As noted earlier, I struggled with selecting 15 pages to turn into a book. I sup
 	<figcaption>Selecting your pages is as easy as tapping on them.</figcaption>
 </figure>
 
-**Page Count:** It's worth noting that if you select less than 15 pages for your book, you'll receive blanks filling the balance. Something I'd like to eventually see would be the option to create books with a higher page count. Maybe at larger predefined increments to keep the spine size fixed as not to mess with the cover's alignment and wrap. Printing pages ala cart would be nice as well.
+<i class="fa fa-info-circle fa-2x"></i> **Page Count:** It's worth noting that if you select less than 15 pages for your book, you'll receive blanks filling the balance. Something I'd like to eventually see would be the option to create books with a higher page count. Maybe at larger predefined increments to keep the spine size fixed as not to mess with the cover's alignment and wrap. Printing pages ala cart would be nice as well.
 {: .notice}
 
 ### Cover Image
@@ -58,7 +58,7 @@ I think the best option is to go fully custom with a cover. What I did was creat
 	<figcaption>Swatches saved in any of your palettes are available for use as a back cover and spine color.</figcaption>
 </figure>
 
-**ProTip:** The custom option affords you the opportunity of selecting a color for the back cover and spine. As far as I can tell you can't use the color mixer here to pick a color, so be sure to save one in your custom palettes if you don't like the defaults.
+<i class="fa fa-magic fa-2x"></i> **ProTip:** The custom option affords you the opportunity of selecting a color for the back cover and spine. As far as I can tell you can't use the color mixer here to pick a color, so be sure to save one in your custom palettes if you don't like the defaults.
 {: .notice}
 
 ### Order the Book

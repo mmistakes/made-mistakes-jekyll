@@ -15,7 +15,7 @@ tags: [blog, articles, mistakes, inspiration, thoughts, design]
 				{% if post.image.thumb %}<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image" itemprop="image">{% else %}<img src="{{ site.url }}/images/{{ site.logo }}" class="preview" alt="preview image" itemprop="image">{% endif %}
 				<h1 itemprop="name">{{ post.title }}</h1>
 				<p itemprop="description">{{ post.description }}</p>
-				<p class="entry-meta"><i class="icon-time"></i> Reading time ~{% if readtime <= 1 %}1 min{% else %}{{ readtime }} min{% endif %} &#8901;Published <span class="entry-date date published"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
+				<p class="entry-meta"><i class="fa fa-clock-o"></i> Reading time ~{% if readtime <= 1 %}1 min{% else %}{{ readtime }} min{% endif %} &#8901;Published <span class="entry-date date published"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
 				{% if post.modified %}<span class="entry-date date updated">(Updated <time datetime="{{ post.modified }}" itemprop="dateModified">{{ post.modified | date: "%m/%d/%Y" }}</time>)</span>{% endif %}
 				</p><!-- /.entry-meta -->
 			</a>

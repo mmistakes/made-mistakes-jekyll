@@ -3,6 +3,7 @@ layout: post
 title: "Potential Pogo Connect Sensitivity Fix"
 description: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware 1.1.0+."
 category: articles
+modified: 2014-01-14
 image:
   thumb: pogo-connect-app-thumb.jpg
 tags: [Pogo Connect, Paper by 53, stylus, iPad]
@@ -45,7 +46,7 @@ After making these changes you can doodle around in the space below to verify th
 
 ![Pogo Connect app doodle test]({{ site.url }}/images/pogo-connect-app-doodle.jpg)
 
-**ProTip:** Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by 53:
+<i class="fa fa-magic fa-2x"></i> **ProTip:** Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by 53:
 {: .notice}
 
 1. Unscrew the cap on the Pogo Connect and take out the battery.
