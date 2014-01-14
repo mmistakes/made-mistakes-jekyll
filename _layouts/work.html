@@ -37,12 +37,14 @@
       </header>
       <div class="entry-content" itemprop="description">
         {% if page.work %}
-        <div markdown="0" style="text-align: center;"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs">Launch Website</a></div>
+        <div class="center-block"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs">Launch Website</a></div>
         {% endif %}
         {{ content }}
         {% if page.categories contains 'paperfaces' %}
         <hr />
-        <h2><a href="{{ site.url }}/{{ page.category }}/">View More</a></h2>
+        <div class="center-block">
+          <a href="{{ site.url }}/{{ page.category }}" class="btn">View More</a>
+        </div><!-- /.center-block -->
         <ul class="recent-grid unstyled-list">
           {% for post in catg_posts limit:4 %}
             <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" /></a></li>
@@ -54,7 +56,7 @@
           <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Published by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span>
           <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></span>
           {% if page.modified %}<span class="entry-date date updated">(Updated on <time datetime="{{ page.modified }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>)</span>{% endif %}
-          <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
+          <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
         </div><!-- .entry-meta -->
       </div><!-- /.entry-content -->
       <nav class="pagination" role="navigation">
