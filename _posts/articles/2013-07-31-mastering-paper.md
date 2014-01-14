@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /mastering-paper/
-title: "Mastering Paper by 53  &#8212; A Reference Guide"
+title: "Mastering Paper by 53"
 short-title: "Mastering Paper by 53"
 description: "A collection of tutorials and techniques to help master Paper by 53 for iPad."
-modified: 2013-11-21
+modified: 2014-01-14
 image: 
   thumb: paper-53-expanded-guide-thumb.jpg
   homepage: paper-by-53-500x500.jpg
@@ -16,7 +16,9 @@ homepage: true
 	<img src="{{ site.url }}/images/mastering-paper-53-small-book.jpg" width="188" height="250" alt="Mastering Paper reference guide">
 </figure>
 
-In the spirit of openness I've decided to compile everything I've learned using [*Paper by FiftyThree*](http://www.fiftythree.com) into a multi-part series I'm calling **Mastering Paper**. As far as I'm concerned Paper doesn't really need a manual or instruction guide because it's fairly intuitive to use. So what you'll find in the following pages are techniques and time savers I've developed from creating exclusively with the app over the last year and a half.
+In the spirit of openness I've decided to compile everything I've learned using [*Paper by FiftyThree*](http://www.fiftythree.com), into a multi-part series I'm dubbing **Mastering Paper**. 
+
+The guide is broken up into several parts explaining specific techniques, shortcuts, and workflows that I use everyday when creating with 53's Paper. Hopefully they help you get more out of the app <i class="fa fa-smile-o"></i>.
 
 {% assign count = '0' %}
 {% assign idx = '0' %}
