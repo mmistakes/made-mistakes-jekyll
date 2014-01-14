@@ -1020,7 +1020,10 @@ svg:not(:root) {
 }
 
 .recent-grid {
+  padding-left: 0;
+  margin-left: 0;
   text-align: center;
+  list-style: none;
   *zoom: 1;
 }
 
@@ -1028,6 +1031,7 @@ svg:not(:root) {
   display: inline-block;
   padding-top: 1px;
   padding-bottom: 1px;
+  list-style-type: none;
 }
 
 .recent-grid a {
@@ -1071,7 +1075,10 @@ svg:not(:root) {
 }
 
 .oversized-recent-grid {
+  padding-left: 0;
+  margin-left: 0;
   text-align: center;
+  list-style: none;
   *zoom: 1;
 }
 
@@ -1086,6 +1093,7 @@ svg:not(:root) {
   display: inline-block;
   padding-top: 1px;
   padding-bottom: 1px;
+  list-style-type: none;
 }
 
 .oversized-recent-grid a {

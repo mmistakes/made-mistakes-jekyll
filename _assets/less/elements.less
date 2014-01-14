@@ -57,9 +57,13 @@ svg:not(:root) {
   overflow: hidden; 
 }
 .recent-grid {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
   text-align: center;
   li {
     display: inline-block;
+    list-style-type: none;
     padding-top: 1px;
     padding-bottom: 1px;
   }
@@ -89,6 +93,9 @@ svg:not(:root) {
 }
 // Stretch grid of thumbnails beyond container width
 .oversized-recent-grid {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
   text-align: center;
   @media @large {
     margin-left: -140px;
@@ -96,6 +103,7 @@ svg:not(:root) {
   }
   li {
     display: inline-block;
+    list-style-type: none;
     padding-top: 1px;
     padding-bottom: 1px;
   }

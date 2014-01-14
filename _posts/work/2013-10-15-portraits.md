@@ -14,11 +14,10 @@ homepage: true
 
 Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how it goes down.
 
-<ul class="oversized-recent-grid unstyled-list">
+<ul class="oversized-recent-grid">
 {% for post in site.categories.paperfaces limit:8 %}
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-    <img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
-    <noscript><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110"></noscript>
+    <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
   </a></li>
   {% endfor %}
 </ul>
@@ -27,7 +26,7 @@ I am not an artist and merely doing portraits for fun. I take the supplied refer
 
 <figure>
 	<img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
-	<figcaption>I&rsquo;ve done quite a few cats, dogs, and even a velociraptor &mdash; the stranger the better!</figcaption>
+	<figcaption>I&rsquo;ve done quite a few cats, dogs, and even a Velociraptor &mdash; the stranger the better!</figcaption>
 </figure>
 
 ## Making of Video
