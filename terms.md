@@ -76,6 +76,4 @@ All original content (ie: articles, blog posts, illustrations, artwork, photogra
 
 If you're inclined to show credit, then a link attributed back to the source article, [Made Mistakes](htt://mademistakes.com), or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing and passing something off as your own.
 
-Your use of this site, in any and all forms, constitutes an acceptance of this Privacy Policy. This Privacy Policy is reviewed and revised from time to time. You will want to revisit it regularly. 
-
-**Last Updated:** July 22, 2013.
+Your use of this site, in any and all forms, constitutes an acceptance of this Privacy Policy. This Privacy Policy is reviewed and revised from time to time. You will want to revisit it regularly.
