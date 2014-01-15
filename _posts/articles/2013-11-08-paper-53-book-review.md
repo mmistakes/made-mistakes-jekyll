@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Printing a Moleskine Book with Paper by 53"
-description: "Impressions of a handmade Moleskine book printed with Paper by 53."
+short-title: "Printing a Moleskine Book"
+description: "Impressions of a handmade Moleskine book printed with the iPad app Paper by 53."
 modified: 2013-11-14
 image: 
   feature: paper-53-book-feature.jpg
   thumb: paper-53-book-thumb.jpg
 category: articles
 tags: [Moleskine, Paper by 53, book, printing, review, design]
+series: mastering-paper
 comments: true
 ---
 

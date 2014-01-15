@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Pencil by FiftyThree &#8212; First Look at Blend"
-description: "53's Pencil is full of promise. Here's some draws done using its most interesting new feature, Blend."
+title: "First Look at Blend and Pencil by 53"
+description: "53's Pencil and new Blend feature is full of promise. Here's a taste of what is possible with both."
 category: articles
+modified: 2014-01-15
 image:
   feature: paper-53-blend-first-look-feature.jpg
   thumb: paper-53-blend-first-look-thumb.jpg
@@ -10,7 +11,7 @@ tags: [Paper by 53, Pencil, Blend, stylus, iPad]
 comments: true
 ---
 
-In case you missed the announcement yesterday, FiftyThree took the wraps off their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding beta versions of this amazing tool to play with and test out. As soon as I purchase my own Pencil I'll follow up with a full review, but for now here's a small sample of drawings I've created using the new Blend feature.
+In case you missed the announcement yesterday, FiftyThree took the wraps off their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding beta versions of this amazing tool to play with and test out. As soon as I purchase my own Pencil I'll follow up with a [full review]({{ site.url }}{% post_url /articles/2013-12-11-pencil-53-review %}), but for now here's a small [sample of drawings]({{ site.url }}/tag/blend/) I've created using the new Blend feature.
 
 ## But Does it Blend?
 

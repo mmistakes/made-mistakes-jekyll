@@ -958,7 +958,8 @@ hr {
   padding: 0;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #fff;
 }
 
@@ -1020,12 +1021,18 @@ svg:not(:root) {
 }
 
 .recent-grid {
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
   *zoom: 1;
 }
 
 .recent-grid li {
-  float: left;
-  padding: 2px !important;
+  display: inline-block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  list-style-type: none;
 }
 
 .recent-grid a {
@@ -1069,6 +1076,10 @@ svg:not(:root) {
 }
 
 .oversized-recent-grid {
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
   *zoom: 1;
 }
 
@@ -1080,8 +1091,10 @@ svg:not(:root) {
 }
 
 .oversized-recent-grid li {
-  float: left;
-  padding: 2px !important;
+  display: inline-block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  list-style-type: none;
 }
 
 .oversized-recent-grid a {
@@ -2250,22 +2263,28 @@ body {
 }
 
 #masthead .site-logo img {
-  width: 50px;
-  height: 50px;
-  -webkit-border-radius: 100px;
-     -moz-border-radius: 100px;
-          border-radius: 100px;
-  -webkit-transition: all 0.2s ease-out;
-     -moz-transition: all 0.2s ease-out;
-      -ms-transition: all 0.2s ease-out;
-       -o-transition: all 0.2s ease-out;
-          transition: all 0.2s ease-out;
+  display: none;
 }
 
-#masthead .site-logo img:hover {
-  -webkit-animation: wiggle 0.3s ease-out;
-     -moz-animation: wiggle 0.3s ease-out;
-          animation: wiggle 0.3s ease-out;
+@media only screen and (min-width: 48em) {
+  #masthead .site-logo img {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+    -webkit-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+  }
+  #masthead .site-logo img:hover {
+    -webkit-animation: wiggle 0.3s ease-out;
+       -moz-animation: wiggle 0.3s ease-out;
+            animation: wiggle 0.3s ease-out;
+  }
 }
 
 #site-nav {
@@ -2516,12 +2535,6 @@ span + .entry-title {
   display: block;
 }
 
-#work .entry-meta {
-  display: none !important;
-  display: none;
-  visibility: hidden;
-}
-
 .author-photo {
   width: 30px;
   height: 30px;
@@ -2535,22 +2548,6 @@ span + .entry-title {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-  }
-}
-
-.ads {
-  display: none;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media only screen and (min-width: 62.5em) {
-  .ads {
-    display: block;
-    float: right;
-    width: 160px;
-    padding: 0;
-    margin-left: 80px;
   }
 }
 
@@ -2636,10 +2633,43 @@ span + .entry-title {
   margin-bottom: 2em;
 }
 
+.ads {
+  display: block;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+@media only screen and (min-width: 48em) {
+  .ads {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 62.5em) {
+  .ads {
+    float: right;
+    width: 160px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 80px;
+  }
+}
+
+.responsive-ads {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 62.5em) {
+  .responsive-ads {
+    margin-top: 40px;
+  }
+}
+
 #disqus_thread {
   margin-top: 2em;
-  margin-right: auto;
-  margin-left: auto;
   *zoom: 1;
 }
 
@@ -2892,11 +2922,6 @@ span + .entry-title {
 .upgrade {
   padding: 10px;
   text-align: center;
-}
-
-.google-ads {
-  margin-top: 40px;
-  text-align: right;
 }
 
 #goog-fixurl ul {
