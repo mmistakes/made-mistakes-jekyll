@@ -49,15 +49,19 @@ body {
 	}
 	.site-logo {
 		img {
-		    width: 50px;
-		    height: 50px;
-		    .rounded(100px);
-		    .transition(all .2s ease-out);
-		    &:hover {
-		    	-moz-animation: wiggle .3s ease-out;
-				-webkit-animation: wiggle .3s ease-out;
-				animation: wiggle .3s ease-out;
-		    }
+		    display: none;
+		    @media @medium {
+			    display: inline;
+			    width: 50px;
+			    height: 50px;
+			    .rounded(100px);
+			    .transition(all .2s ease-out);
+			    &:hover {
+			    	-moz-animation: wiggle .3s ease-out;
+					-webkit-animation: wiggle .3s ease-out;
+					animation: wiggle .3s ease-out;
+			    }
+			}
 		}
 	}
 }
