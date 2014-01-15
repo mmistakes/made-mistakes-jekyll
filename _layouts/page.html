@@ -18,8 +18,7 @@
         {{ content }}
         <hr />
         <div class="entry-meta">
-          {% if page.modified %}<a href="{{ site.url }}/about/"><img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" width="30" height="30"></a>
-          <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> <span class="entry-date date updated"><time datetime="{{ page.modified }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time</span>{% endif %}
+          {% if page.modified %}<span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> <span class="entry-date date updated"><time datetime="{{ page.modified }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time</span>{% endif %}
         </div><!-- .entry-meta -->
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
