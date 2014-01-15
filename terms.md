@@ -4,7 +4,7 @@ permalink: /terms/
 title: "Privacy &amp; Disclosure Policy"
 subheadline: "Or that Legal Stuff No One Reads"
 description: "Made Mistakes website policies, terms &amp; conditions, license, and other legal stuff you won't read."
-modified: 2013-07-22
+modified: 2014-01-15
 tags: [disclaimer, terms, copyright, license]
 ---
 
@@ -74,6 +74,6 @@ All original content (ie: articles, blog posts, illustrations, artwork, photogra
 
 ### Attribution
 
-If you're inclined to show credit, then a link attributed back to the source article, [Made Mistakes](htt://mademistakes.com), or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing and passing something off as your own.
+If you're inclined to show credit, then a link back to the source article attributed to either [Made Mistakes](http://mademistakes.com) or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing and passing something off as your own.
 
 Your use of this site, in any and all forms, constitutes an acceptance of this Privacy Policy. This Privacy Policy is reviewed and revised from time to time. You will want to revisit it regularly.
