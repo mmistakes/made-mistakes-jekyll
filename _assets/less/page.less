@@ -49,15 +49,19 @@ body {
 	}
 	.site-logo {
 		img {
-		    width: 50px;
-		    height: 50px;
-		    .rounded(100px);
-		    .transition(all .2s ease-out);
-		    &:hover {
-		    	-moz-animation: wiggle .3s ease-out;
-				-webkit-animation: wiggle .3s ease-out;
-				animation: wiggle .3s ease-out;
-		    }
+		    display: none;
+		    @media @medium {
+			    display: inline;
+			    width: 50px;
+			    height: 50px;
+			    .rounded(100px);
+			    .transition(all .2s ease-out);
+			    &:hover {
+			    	-moz-animation: wiggle .3s ease-out;
+					-webkit-animation: wiggle .3s ease-out;
+					animation: wiggle .3s ease-out;
+			    }
+			}
 		}
 	}
 }
@@ -204,9 +208,6 @@ span + .entry-title {
 .entry-tags {
 	display: block;
 }
-#work .entry-meta {
-	.hidden();
-}
 .author-photo {
 	width: 30px;
 	height: 30px;
@@ -215,18 +216,6 @@ span + .entry-title {
 		float: left;
 		margin-right: 10px;
 		margin-bottom: 10px;
-	}
-}
-.ads {
-	margin-right: auto;
-	margin-left: auto;
-	display: none;
-	@media @large {
-		display: block;
-		float: right;
-		width: 160px;
-		margin-left: 80px;
-		padding: 0;
 	}
 }
 .entry-content {
@@ -278,10 +267,33 @@ span + .entry-title {
 		margin-bottom: 2em;
 	}
 }
+// Ad column
+.ads {
+	margin-right: -10px;
+	margin-left: -10px;
+	display: block;
+	@media @medium {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	@media @large {
+		margin-right: auto;
+		margin-left: auto;
+		float: right;
+		width: 160px;
+		margin-left: 80px;
+		padding: 0;
+	}
+}
+.responsive-ads {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	@media @large {
+		margin-top: 40px;
+	}
+}
 // Disqus Comments
 #disqus_thread {
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 2em;
 	.clearfix();
 }
@@ -431,13 +443,6 @@ span + .entry-title {
 .upgrade {
 	padding: 10px;
 	text-align: center;
-}
-
-// Google Adsense
-// --------------------------------------------------
-.google-ads {
-	text-align: right;
-	margin-top: 40px;
 }
 
 // Google Search
