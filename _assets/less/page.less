@@ -214,18 +214,6 @@ span + .entry-title {
 		margin-bottom: 10px;
 	}
 }
-.ads {
-	margin-right: auto;
-	margin-left: auto;
-	display: none;
-	@media @large {
-		display: block;
-		float: right;
-		width: 160px;
-		margin-left: 80px;
-		padding: 0;
-	}
-}
 .entry-content {
 	max-width: 600px;
 	width: 100%;
@@ -275,10 +263,33 @@ span + .entry-title {
 		margin-bottom: 2em;
 	}
 }
+// Ad column
+.ads {
+	margin-right: -10px;
+	margin-left: -10px;
+	display: block;
+	@media @medium {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	@media @large {
+		margin-right: auto;
+		margin-left: auto;
+		float: right;
+		width: 160px;
+		margin-left: 80px;
+		padding: 0;
+	}
+}
+.responsive-ads {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	@media @large {
+		margin-top: 40px;
+	}
+}
 // Disqus Comments
 #disqus_thread {
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 2em;
 	.clearfix();
 }
@@ -428,13 +439,6 @@ span + .entry-title {
 .upgrade {
 	padding: 10px;
 	text-align: center;
-}
-
-// Google Adsense
-// --------------------------------------------------
-.google-ads {
-	text-align: right;
-	margin-top: 40px;
 }
 
 // Google Search

@@ -2544,22 +2544,6 @@ span + .entry-title {
   }
 }
 
-.ads {
-  display: none;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media only screen and (min-width: 62.5em) {
-  .ads {
-    display: block;
-    float: right;
-    width: 160px;
-    padding: 0;
-    margin-left: 80px;
-  }
-}
-
 .entry-content {
   width: 100%;
   max-width: 600px;
@@ -2642,10 +2626,43 @@ span + .entry-title {
   margin-bottom: 2em;
 }
 
+.ads {
+  display: block;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+@media only screen and (min-width: 48em) {
+  .ads {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 62.5em) {
+  .ads {
+    float: right;
+    width: 160px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 80px;
+  }
+}
+
+.responsive-ads {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 62.5em) {
+  .responsive-ads {
+    margin-top: 40px;
+  }
+}
+
 #disqus_thread {
   margin-top: 2em;
-  margin-right: auto;
-  margin-left: auto;
   *zoom: 1;
 }
 
@@ -2898,11 +2915,6 @@ span + .entry-title {
 .upgrade {
   padding: 10px;
   text-align: center;
-}
-
-.google-ads {
-  margin-top: 40px;
-  text-align: right;
 }
 
 #goog-fixurl ul {
