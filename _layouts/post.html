@@ -45,11 +45,11 @@
           {% endif %}
         {% endfor %}
         {% if prev_post %}
-          <a href="{{ prev_post }}" class="previous-link" title="Previous article"><i class="icon-chevron-left icon-large"></i> <span>Previous</span></a>
+          <a href="{{ prev_post }}" class="previous-link" title="Previous article"><i class="fa fa-chevron-left fa-lg"></i> <span>Previous</span></a>
         {% endif %}
-          <a href="{{ site.url }}/articles/" class="archive-link"><i class="icon-list-ul icon-large"></i> <span>Archive</span></a>
+          <a href="{{ site.url }}/articles/" class="archive-link"><i class="fa fa-list-ul icon-large"></i> <span>Archive</span></a>
         {% if next_post %}
-          <a href="{{ next_post }}" class="next-link" title="Next article"><span>Next</span> <i class="icon-chevron-right icon-large"></i></a>
+          <a href="{{ next_post }}" class="next-link" title="Next article"><span>Next</span> <i class="fa fa-chevron-right fa-lg"></i></a>
         {% endif %}
     </nav><!-- /.pagination -->
     {% if page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
