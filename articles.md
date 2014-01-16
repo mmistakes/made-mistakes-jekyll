@@ -10,7 +10,7 @@ tags: [blog, articles, mistakes, inspiration, thoughts, design]
 {% for post in site.categories.articles %}
 {% assign readtime = post.content | number_of_words | divided_by:200 %}
 	<li>
-		<article itemscope itemtype="http://schema.org/BlogPosting">
+		<article itemscope itemtype="http://schema.org/Article">
 			<a href="{{ site.url }}{{ post.url }}" itemprop="url">
 				{% if post.image.thumb %}<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image" itemprop="image">{% else %}<img src="{{ site.url }}/images/{{ site.logo }}" class="preview" alt="preview image" itemprop="image">{% endif %}
 				<h1 itemprop="name">{{ post.title }}</h1>
