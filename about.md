@@ -5,7 +5,7 @@ title: About
 headline: About This Nonsense
 modified: 2014-01-16
 description: "Michael Rose is just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
-tags: [Michael Rose, design, Buffalo, web design, feature]
+tags: [Michael Rose, design, Buffalo, web design]
 ---
 
 <link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/form.min.css css/form.min.css %}">
@@ -24,7 +24,7 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.u
 
 ![drawings of my girls]({{ site.url }}/images/paperfaces-my-girls-900.jpg)
 
-And if that wasn't enough --- I'm a husband and new father of twin girls, or as we like to call them [our 2 little rosebuds](http://2littlerosebuds.com "2 Little Rosebuds").
+And if that wasn't enough --- I'm a husband and new father of twin girls or as we like to call them, [our 2 little rosebuds](http://2littlerosebuds.com "2 Little Rosebuds").
 
 ---
 
