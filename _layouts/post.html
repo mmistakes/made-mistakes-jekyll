@@ -22,7 +22,7 @@
           <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
           <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Published by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span>
           <span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>
-          {% if page.modified %}<span class="entry-date">(Updated <time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%m/%d/%Y" }}</time>)</span>{% endif %}
+          {% if page.modified %} <span class="entry-date">(Updated <time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%m/%d/%Y" }}</time>)</span>{% endif %}
         </div><!-- /.entry-meta -->
       </div><!-- /.entry-content -->
       <div class="ads">
