@@ -46,7 +46,7 @@ After making these changes you can doodle around in the space below to verify th
 
 ![Pogo Connect app doodle test]({{ site.url }}/images/pogo-connect-app-doodle.jpg)
 
-<i class="fa fa-magic fa-2x"></i> **ProTip:** Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by 53:
+<i class="fa fa-magic"></i> **ProTip:** Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by 53:
 {: .notice}
 
 1. Unscrew the cap on the Pogo Connect and take out the battery.
