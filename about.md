@@ -2,10 +2,9 @@
 layout: page
 permalink: /about/
 title: About
-headline: What's a Made Mistakes?
-subheadline: Behind the Name and Designer
-modified: 2013-08-29
-description: "You've found the about page of Michael Rose&thinsp;&ndash;&thinsp;just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
+headline: About This Nonsense
+modified: 2014-01-16
+description: "Michael Rose is just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
 tags: [Michael Rose, design, Buffalo, web design, feature]
 ---
 
@@ -17,19 +16,15 @@ tags: [Michael Rose, design, Buffalo, web design, feature]
   <figcaption>Self portrait illustrated with the lovely Paper by 53 iPad app.</figcaption>
 </figure>
 
-So why the title *made mistakes*? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
-
-In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash (hey remember those?) while I worked on building a design portfolio using Movable Type. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about <abbr>HTML</abbr>, <abbr>CSS</abbr>, Javascript, <abbr>PHP</abbr>, and MySQL databases.
-
-I've since decided to go <abbr>CMS</abbr>-free and utilize black magick and [Jekyll](http://jekyllrb.com/) to [manage the site with static text files]({{ site.url }}/articles/going-static.html). I like knowing how things work behind the scenes so hand-coding the layouts and stylesheets is the only way to go. Not being limited by a <abbr>CMS</abbr> is a wonderful thing...
-
-### And Who Are You Again?
+## And Who Are You Again?
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [faceless portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and em-dashes.
 
-When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/tag/jekyll), or [building the next great thing](http://ekowave.com), I work as an inhouse web and print designer for a science education company. On any given day I could be designing product catalogs, marketing collateral, landing pages, email promotions and newsletters, or just getting cozy with <abbr>HTML</abbr>, <abbr>CSS</abbr>, and JavaScript.
+When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/tag/jekyll), or [building the next great thing](http://ekowave.com), I work as an in-house web and print designer for a science education company. On any given day I could be designing product catalogs, marketing collateral, landing pages, email promotions and newsletters, or just getting cozy with <abbr>HTML</abbr>, <abbr>CSS</abbr>, and JavaScript.
 
-Oh, and I'm a recent father of twin girls and will someday help redesign [my wife's site](http://2littlerosebuds.com "2 Little Rosebuds")...
+![drawings of my girls]({{ site.url }}/images/paperfaces-my-girls-900.jpg)
+
+And if that wasn't enough --- I'm a husband and new father of twin girls, or as we like to call them [our 2 little rosebuds](http://2littlerosebuds.com "2 Little Rosebuds").
 
 ---
 
@@ -75,6 +70,14 @@ action="https://mademistakes.wufoo.com/forms/z7x4m1/#public">
 
 ---
 
+## What's a Made Mistakes?
+
+So why the title *made mistakes*? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
+
+In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash (hey remember those?) while I worked on building a design portfolio using Movable Type. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about <abbr>HTML</abbr>, <abbr>CSS</abbr>, Javascript, <abbr>PHP</abbr>, and MySQL databases.
+
+I've since decided to go <abbr>CMS</abbr>-free and utilize black magick and [Jekyll](http://jekyllrb.com/) to [manage the site with static text files]({{ site.url }}/articles/going-static.html). I like knowing how things work behind the scenes so hand-coding the layouts and stylesheets is the only way to go. Not being limited by a <abbr>CMS</abbr> is a wonderful thing...
+
 ## Tools of the Trade
 
 Here's a laundry list of hardware and software I use to create Made Mistakes and most of its content.
@@ -82,8 +85,9 @@ Here's a laundry list of hardware and software I use to create Made Mistakes and
 ### Hardware
 
 * iMac (20-inch, Mid 2007)
-* iPad (Retina 3rd generation)
+* iPad (3rd generation)
 * [Canon EOS XTi Digital SLR](http://www.amazon.com/gp/product/B000I1ZWRC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000I1ZWRC&linkCode=as2&tag=mademist-20)
+* iPhone 5s
 
 ### Software, Plugins, and Whatever
 
