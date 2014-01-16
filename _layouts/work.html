@@ -26,7 +26,7 @@
 {% endfor %}
 
 <div id="main" role="main">
-  <article class="entry" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="hentry" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.image.feature %}<div class="entry-image">
       <img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
       {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
@@ -43,7 +43,7 @@
         <hr />
         <div class="entry-meta">
           <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
-          <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> {% if page.modified %}<span class="entry-date date updated"><time datetime="{{ page.modified }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time</span>{% else %}<span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></span>{% endif %}
+          <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> {% if page.modified %}<span class="entry-date"><time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%B %d, %Y" }}</time></span>{% else %}<span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>{% endif %}
         </div><!-- .entry-meta -->
         {% if page.categories contains 'paperfaces' %}
         <hr />
