@@ -27,7 +27,7 @@ Still confused? Here are the general steps I follow for every portrait I draw. D
 
 I decided on a square frame for [my project]({{ site.url }}/paperfaces/ "PaperFaces iPad Portrait Project"), but you might want to experiment with the shape and canvas placement to better suit your needs. I like to draw the frame freehand with black ink to give it character, but you can use pencil if you want to hide it easier.
 
-<i class="fa fa-magic fa-2x"></i> **ProTip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
+<i class="fa fa-magic"></i> **ProTip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
 {: .notice}
 
 ## Apply a Background
@@ -94,5 +94,5 @@ To finish the face take care to observe the direction and tilt of the head. Care
 
 <div markdown="0"><a href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download a Drawing PaperFaces Guide</a></div>
 
-<i class="fa fa-info-circle fa-2x"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
+<i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
 {: .notice}

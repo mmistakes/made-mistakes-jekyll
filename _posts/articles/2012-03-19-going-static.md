@@ -98,7 +98,7 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how to utilize rsync and rake tasks to make deploying smoother instead of manually FTPing my `_site` folder.
 
-<i class="fa fa-info-circle fa-2x"></i> **Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
+<i class="fa fa-info-circle"></i> **Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
 {: .notice}
 
 ## Jekyll Themes
