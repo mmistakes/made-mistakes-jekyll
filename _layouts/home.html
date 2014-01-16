@@ -9,7 +9,7 @@
       <div class="work-content">
         {% for post in site.posts %}
           {% if post.homepage %}<div class="project-wrap" itemscope itemtype="http://schema.org/CreativeWork"><a href="{{ site.url }}{{ post.url }}" itemprop="url"><figure class="project-tease">
-            <img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ post.title }} teaser" border="0" itemprop="image" {% if post.image.circle %}class="image-rounded"{% endif %}>
+            <img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ post.title }} teaser" itemprop="image" {% if post.image.circle %}class="image-rounded"{% endif %}>
             <figcaption>
               <div class="figcaption-wrap">
                   <h3 itemprop="name">{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h3>
