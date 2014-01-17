@@ -3,7 +3,7 @@ layout: post
 title: "Printing a Moleskine Book with Paper by 53"
 short-title: "Printing a Moleskine Book"
 description: "Impressions of a handmade Moleskine book printed with the iPad app Paper by 53."
-modified: 2013-11-14
+modified: 2014-01-17
 image: 
   feature: paper-53-book-feature.jpg
   thumb: paper-53-book-thumb.jpg
@@ -16,6 +16,9 @@ comments: true
 About a month ago FiftyThree added a highly requested feature to their award winning app Paper --- the ability to print a book. Being a graphic designer I was curious to see the quality of these custom printed Moleskine books first hand. Using a small sampling of my PaperFaces portraits I ordered[^book-disclosure] my first book two weeks ago along with a Mastering Paper book I'm still waiting on.
 
 [^book-disclosure]: In the spirit of full disclosure --- I was reimbursed the cost of two Books (plus shipping) created with Paper in exchange for sharing them through a short video and photographs. I was not compensated in any other way and all opinions and bad grammar are my own.
+
+* Table of Contents
+{:toc}
 
 ## Journal to Custom Printed Book
 
@@ -69,7 +72,7 @@ If you don't have an account you'll be prompted to create one and then verify vi
 
 After ordering you can easily check a book's status by tapping **Order Status** from within the *Print a Book* option. Doing so opens a tab in Safari displaying your order number, status, and shipping method. I would assume selecting one of the expedited options provides you with a tracking number for the package, but I went with Standard Shipping so I can't verify that.
 
-## The Printed Details
+## Printed Book and Packaging
 
 Two weeks later your book(s) will arrive in a small cardboard parcel with a pull tab. Tugging on this rips through the protective packaging to reveal a book wrapped in a protective sheet of paper.
 
