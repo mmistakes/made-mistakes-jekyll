@@ -1,17 +1,20 @@
 ---
 layout: post
-title: "Pencil &#8212; A Stylus Built for Paper by 53"
-description: "Impressions of FiftyThree's Pencil from the perspective of an avid Paper creator."
+title: "Pencil. The Best Stylus Built for Paper by 53?"
+description: "Impressions of FiftyThree's new Pencil stylus from the perspective of an avid Paper creator."
 category: articles
-tags: [Pencil, Paper by 53, stylus, iPad, Blend]
-modified: 2014-01-03
+tags: [Pencil, Paper by 53, stylus, iPad, Blend, pen]
+modified: 2014-01-17
 image:
   feature: pencil-53-feature.jpg
   thumb: pencil-53-thumb.jpg
 comments: true
 ---
 
-For the last month I've had the privilege of using FiftyThree's [first hardware product](http://fiftythree.com/pencil), **Pencil**. A Bluetooth stylus that works exclusively with Paper for iPad, and delivers an experience unlike other styli on the market. 
+For the last month I've had the privilege of using FiftyThree's [first hardware product](http://fiftythree.com/pencil), **Pencil**. A Bluetooth stylus that works exclusively with Paper for iPad, and delivers an experience unlike other styli on the market.
+
+* Table of Contents
+{:toc}
 
 ## Look and Feel
 
@@ -58,7 +61,7 @@ The tip is responsive and as accurate as one can expect from the limitations the
 	<figcaption>As you can see, line weight isn&rsquo;t effected by using the tip or the broad side. Bummer.</figcaption>
 </figure>
 
-### Is the Tip Durable?
+### Is it Durable?
 
 It's by no means the best tip I've used in terms of durability. My first tip wore out after 3--4 hours of drawing, applying the same amount of pressure I use with a Pogo Connect. A pen's tip that I can use for a solid 3 months, *everyday*, before it starts to show signs of wear.
 
