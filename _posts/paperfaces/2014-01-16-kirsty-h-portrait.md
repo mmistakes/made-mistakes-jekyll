@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Motorcycle jacket in soft focus"
+title: "Semi erased"
 description: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kirsty-h-lg.jpg
