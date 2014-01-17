@@ -69,7 +69,6 @@ body {
 // Site Navigation
 // --------------------------------------------------
 #site-nav {
-	clear: both;
 	padding-top: 20px;
 	font-family: @heading-font;
 	@media @medium {
@@ -80,20 +79,27 @@ body {
 	}
 	ul {
 		margin: 0;
-		padding: 0;
+		padding: 20px 0 0;
+		clear: both;
+		@media @medium {
+			padding-top: 0;
+			clear: none;
+		}
 	}
 	li {
 		display: block;
-		float: left;
 		list-style: none;
 		.font-rem(14);
 		text-transform: uppercase;
 		color: @black;
+		@media @medium {
+			float: left;
+		}
 	}
 	a {
 		display: block;
 		margin-right: 20px;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 		padding-bottom: 0;
 		color: @black;
 		.transition(color .2s ease);
@@ -108,6 +114,55 @@ body {
 			margin-bottom: 0;
 		}
 	}
+}
+// Styling the toggle menu link and hiding it
+.nav .navtoogle {	
+	padding: 0;
+	float: right;
+	.font-rem(22);
+	font-weight: normal;
+	text-align: left;
+	background: none;	
+	border: none;
+	cursor: pointer;
+	@media @medium {
+		display: none;
+	}
+}
+.navtoogle i {
+	z-index:-1;
+}
+.icon-menu {
+	position: relative;
+	top: 3px;
+	line-height: 0;
+}
+// When JavaScript is disabled, we hide the toggle button
+.no-js .nav .navtoggle {
+	display: none;
+}
+// When JavaScript is disabled, we show the menu */
+.no-js .nav ul {
+	max-height: 30em;
+	overflow: hidden;
+}
+// When JavaScript is enabled, we hide the menu
+.js .nav ul {
+	max-height: 0;
+	overflow: hidden;
+	@media @medium {
+		max-height: 30em;
+	}
+}
+// Displaying the menu when the user has clicked on the button
+.js .nav .active + ul {		
+	max-height: 30em;
+	overflow: hidden;
+	-webkit-transition: max-height .4s;
+	-moz-transition: max-height .4s;
+	-o-transition: max-height .4s;
+	-ms-transition: max-height .4s;
+	transition: max-height .4s;
 }
 
 // Main
