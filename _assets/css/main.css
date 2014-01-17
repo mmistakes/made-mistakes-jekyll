@@ -228,6 +228,11 @@ body {
   background-color: #dadada;
 }
 
+a,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .wrap {
   margin: 0 auto;
 }
@@ -2289,7 +2294,6 @@ body {
 
 #site-nav {
   padding-top: 20px;
-  clear: both;
   font-family: lato, Calibri, Arial, sans-serif;
 }
 
@@ -2303,13 +2307,20 @@ body {
 }
 
 #site-nav ul {
-  padding: 0;
+  padding: 20px 0 0;
   margin: 0;
+  clear: both;
+}
+
+@media only screen and (min-width: 48em) {
+  #site-nav ul {
+    padding-top: 0;
+    clear: none;
+  }
 }
 
 #site-nav li {
   display: block;
-  float: left;
   font-size: 14px;
   font-size: 0.875rem;
   color: #000000;
@@ -2317,11 +2328,17 @@ body {
   list-style: none;
 }
 
+@media only screen and (min-width: 48em) {
+  #site-nav li {
+    float: left;
+  }
+}
+
 #site-nav a {
   display: block;
   padding-bottom: 0;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #000000;
   -webkit-transition: color 0.2s ease;
      -moz-transition: color 0.2s ease;
@@ -2342,6 +2359,64 @@ body {
     margin-bottom: 0;
     margin-left: 20px;
   }
+}
+
+.nav .navtoogle {
+  float: right;
+  padding: 0;
+  font-size: 22px;
+  font-size: 1.375rem;
+  font-weight: normal;
+  text-align: left;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+@media only screen and (min-width: 48em) {
+  .nav .navtoogle {
+    display: none;
+  }
+}
+
+.navtoogle i {
+  z-index: -1;
+}
+
+.icon-menu {
+  position: relative;
+  top: 3px;
+  line-height: 0;
+}
+
+.no-js .nav .navtoggle {
+  display: none;
+}
+
+.no-js .nav ul {
+  max-height: 30em;
+  overflow: hidden;
+}
+
+.js .nav ul {
+  max-height: 0;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 48em) {
+  .js .nav ul {
+    max-height: 30em;
+  }
+}
+
+.js .nav .active + ul {
+  max-height: 30em;
+  overflow: hidden;
+  -webkit-transition: max-height 0.4s;
+     -moz-transition: max-height 0.4s;
+      -ms-transition: max-height 0.4s;
+       -o-transition: max-height 0.4s;
+          transition: max-height 0.4s;
 }
 
 #main {
