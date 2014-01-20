@@ -301,7 +301,7 @@ span + .entry-title {
 	}
 }
 .work-content {
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 20px;
@@ -416,6 +416,31 @@ span + .entry-title {
 		@media @large {
 			float: none;
 		}
+	}
+}
+// Home layout
+#home {
+	.intro .entry-wrapper {
+		margin-bottom: 2em;
+	}
+	.intro p {
+		.font-rem(22);
+		@media @medium {
+			.font-rem(32);
+			margin-bottom: 0;
+		}	
+	}
+	.intro p > a {
+		border-bottom: 1px dotted lighten(@link-color, 50);
+		&:hover {
+			border-bottom-style: solid;
+		}
+	}
+	.entry-content {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 // Tag index
