@@ -439,3 +439,4 @@ redirect 301 /articles/paperfaces-portrait-gallery http://mademistakes.com/paper
 redirect 301 /paperfaces/slave-leia-jabba-the-hutt http://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait/
 redirect 301 /tags.html http://mademistakes.com/tag/
 redirect 301 /articles/mastering-paper-53-guide http://mademistakes.com/mastering-paper/
+redirect 301 /works/ http://mademistakes.com/work/
