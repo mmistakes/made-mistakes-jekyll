@@ -386,20 +386,29 @@ FileETag None
 # # REDIRECTS                                                                  #
 # ##############################################################################
 
-# ----------------------------------------------------------------------
-# Redirect index.html to root
-# ----------------------------------------------------------------------
-
-RewriteEngine on 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
-RewriteRule ^index\.html$ http://mademistakes.com/ [R=301,L] 
 
 # ----------------------------------------------------------------------
-# Redirect .html to /
+# Remove index.html
 # ----------------------------------------------------------------------
 
-RewriteCond %{THE_REQUEST} \.html
-RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+# If it's a request to index(.html) 
+RewriteCond %{THE_REQUEST} \ /(.+/)?index(\.html)?(\?.*)?\  [NC]
+# Remove it. 
+RewriteRule ^(.+/)?index(\.html)?$ /%1 [R=301,L]
+
+# ----------------------------------------------------------------------
+# Remove .html extensions
+# ----------------------------------------------------------------------
+
+# If it's a request from a browser, not an internal request by Apache/mod_rewrite. 
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+# And the request has a HTML extension. Redirect to remove it. 
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# If the request exists with a .html extension. 
+RewriteCond %{SCRIPT_FILENAME}.html -f
+# And there is no trailing slash, rewrite to add the .html extension. 
+RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
 
 # ----------------------------------------------------------------------
 # Feed redirects
