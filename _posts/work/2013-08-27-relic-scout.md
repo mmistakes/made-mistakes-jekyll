@@ -9,7 +9,7 @@ image:
 category: work
 work:
   url: http://relicscout.com
-tags: [design, 8bit, website, collectibles]
+tags: [design, 8bit, web site, collectibles]
 homepage: true
 ---
 
