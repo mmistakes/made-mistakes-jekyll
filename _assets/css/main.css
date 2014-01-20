@@ -2673,7 +2673,7 @@ span + .entry-title {
   max-width: 600px;
   padding-right: 20px;
   padding-left: 20px;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
@@ -2879,6 +2879,38 @@ span + .entry-title {
   #work .entry-content {
     float: none;
   }
+}
+
+#home .intro .entry-wrapper {
+  margin-bottom: 2em;
+}
+
+#home .intro p {
+  font-size: 22px;
+  font-size: 1.375rem;
+}
+
+@media only screen and (min-width: 48em) {
+  #home .intro p {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-size: 2rem;
+  }
+}
+
+#home .intro p > a {
+  border-bottom: 1px dotted #a2a2a2;
+}
+
+#home .intro p > a:hover {
+  border-bottom-style: solid;
+}
+
+#home .entry-content {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .tag-box {

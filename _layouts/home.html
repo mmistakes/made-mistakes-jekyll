@@ -1,11 +1,16 @@
 {% include head.html %}
 
-<body id="page">
+<body id="home">
 
 {% include navigation.html %}
 
 <div id="main" role="main">
-  <article class="entry" style="border-bottom-width:0;">
+  <section class="entry intro">
+    <div class="entry-wrapper">
+      {{ content }}
+    </div><!-- /.entry-wrapper -->
+  </section><!-- /.entry -->
+  <section class="entry">
       <div class="work-content">
         {% for post in site.posts %}
           {% if post.homepage %}<div class="project-wrap" itemscope itemtype="http://schema.org/CreativeWork"><a href="{{ site.url }}{{ post.url }}" itemprop="url"><figure class="project-tease">
@@ -18,11 +23,11 @@
           </figure></a></div><!-- /.project-wrap -->{% endif %}
         {% endfor %}
       </div><!-- /.work-content -->
-  </article>
-  <article class="entry">
+  </section><!-- /.entry -->
+  <section class="entry">
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">Latest Articles</h1>
+        <h2>Recently Published Articles</h2>
       </header>
       <div class="entry-content">
         <ul class="post-index unstyled-list">
@@ -43,11 +48,9 @@
         {% endfor %}
         </ul><!-- /.unstyled-list -->
       </div><!-- /.entry-content -->
-      <div class="center-block">
-        <a href="{{ site.url }}/articles/" class="btn">View All Articles</a>
-      </div><!-- /.center-block -->
+      <a href="{{ site.url }}/articles/" class="btn">Read More</a>
     </div><!-- /.entry-wrapper -->
-  </article>
+  </section><!-- /.entry -->
 </div><!-- /#main -->
 
 <div class="footer-wrapper">
