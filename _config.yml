@@ -44,16 +44,6 @@ links:
   - title: About
     url: /about/
 
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
-
-rdiscount:
-  extensions: [smart]
-
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -69,4 +59,4 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "mademistakes.sublime-project", "mademistakes.sublime-workspace", "codekit-config.json", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "codekit-config.json", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json"]
