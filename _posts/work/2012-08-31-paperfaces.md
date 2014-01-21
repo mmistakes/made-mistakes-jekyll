@@ -18,7 +18,7 @@ PaperFaces is an [illustration project]({{ site.url }}/articles/paperfaces-ipad-
 
 Curious how I use Paper to draw these? Check out my set of [Mastering Paper by 53 Guides]({{ site.url }}/mastering-paper/).
 
-<div markdown="0" style="text-align:center"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a PaperFaces Portrait</a></div>
+<div markdown="0" style="text-align:center"><a href="{{ site.url }}/portraits/" class="btn" style="margin-bottom:0;">Order a PaperFaces Portrait</a></div>
 
 <ul class="oversized-recent-grid">
 {% for post in site.categories.paperfaces %}
