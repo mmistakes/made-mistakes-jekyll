@@ -96,6 +96,11 @@ Ping Ping-o-matic, Google, and Bing of new content:
 $ rake notify
 ```
 
+Minify, rsync files, and Ping services
+``` bash
+$ rake deploy
+```
+
 ### Grunt Build Script
 
 Grunt build script will compile/minify the LESS files into `main.min.css` and concatenate/minify all scripts into `main.min.js`. [Install Node.js](http://nodejs.org/), then [install Grunt](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:

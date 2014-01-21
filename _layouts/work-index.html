@@ -1,10 +1,8 @@
-{% include head.html %}
+---
+layout: default
+body_id: page
+---
 
-<body id="page">
-
-{% include navigation.html %}
-
-<div id="main" role="main">
   <article class="entry" itemscope itemtype="http://schema.org/WebPage">
     <div class="entry-wrapper">
       <header class="entry-header">
@@ -27,15 +25,3 @@
       {% endfor %}
     </div><!-- /.work-content -->
   </article>
-</div><!-- /#main -->
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-{% include scripts.html %}          
-
-</body>
-</html>

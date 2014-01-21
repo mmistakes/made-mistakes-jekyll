@@ -1,5 +1,3 @@
-{% include browser-upgrade.html %}
-
 <div class="masthead-wrapper">
 	<header id="masthead" itemscope itemtype="http://schema.org/Organization">
 		<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}" itemprop="url"><img src="{{ site.url }}/images/{{ site.logo }}" width="50" height="50" alt="{{ site.title }} logo" itemprop="logo"></a>
@@ -8,7 +6,7 @@
 	<nav role="navigation" id="site-nav" class="nav">
 	    <ul>
 	        {% for link in site.links %}
-			<li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="{{ site.url }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>
+						<li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="{{ site.url }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>
 	        {% endfor %}
 	    </ul>
 	</nav>
