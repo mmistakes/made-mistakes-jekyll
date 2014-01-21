@@ -1203,7 +1203,7 @@ svg:not(:root) {
 .btn {
   display: inline-block;
   padding: 8px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
   font-size: 14px;
   font-size: 0.875rem;
   color: #ffffff;
@@ -1223,6 +1223,21 @@ svg:not(:root) {
 .btn:hover {
   color: #000000;
   background-color: #ffffff;
+}
+
+.btn-inverse {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+.btn-inverse:visited {
+  color: #000000;
+}
+
+.btn-inverse:hover {
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .btn-success {
@@ -2490,6 +2505,7 @@ body {
 @media only screen and (min-width: 62.5em) {
   .entry-header h1 {
     max-width: 960px;
+    padding-right: 140px;
   }
 }
 
@@ -2871,6 +2887,14 @@ span + .entry-title {
 #work .entry-title {
   max-width: 100%;
   text-align: center;
+}
+
+@media only screen and (min-width: 48em) {
+  #home .entry-title,
+  #page .entry-title,
+  #work .entry-title {
+    padding-right: 60px;
+  }
 }
 
 @media only screen and (min-width: 62.5em) {

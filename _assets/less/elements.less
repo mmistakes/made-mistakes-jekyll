@@ -183,7 +183,7 @@ svg:not(:root) {
 // --------------------------------------------------
 .btn {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
   padding: 8px 20px;
   .font-rem(14);
   background-color: @primary;
@@ -198,6 +198,18 @@ svg:not(:root) {
   &:hover {
     background-color: @white;
     color: @primary;
+  }
+}
+.btn-inverse {
+  background-color: @white;
+  color: @black;
+  border-color: @black;
+  &:visited {
+    color: @black;
+  }
+  &:hover {
+    background-color: @black;
+    color: @white;
   }
 }
 .btn-success {
