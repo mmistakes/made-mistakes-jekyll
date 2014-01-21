@@ -1,10 +1,8 @@
-{% include head.html %}
+---
+layout: default
+body_id: home
+---
 
-<body id="home">
-
-{% include navigation.html %}
-
-<div id="main" role="main">
   <section class="entry intro">
     <div class="entry-wrapper">
       {{ content }}
@@ -51,15 +49,3 @@
       <a href="{{ site.url }}/articles/" class="btn">Read More</a>
     </div><!-- /.entry-wrapper -->
   </section><!-- /.entry -->
-</div><!-- /#main -->
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-{% include scripts.html %}          
-
-</body>
-</html>

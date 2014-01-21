@@ -1,8 +1,7 @@
-{% include head.html %}
-
-<body id="work">
-
-{% include navigation.html %}
+---
+layout: default
+body_id: page
+---
 
 {% for category in site.categories %}
   {% assign catg_name = category.first %}
@@ -25,7 +24,6 @@
   {% endif %}
 {% endfor %}
 
-<div id="main" role="main">
   <article class="hentry" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.image.feature %}<div class="entry-image">
       <img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
@@ -70,15 +68,3 @@
       {% if page.comments %}<div id="disqus_thread" class="entry-content"></div><!-- /#disqus_thread -->{% endif %}
     </div><!-- /.entry-wrapper -->
   </article>
-</div><!-- /#main -->
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-{% include scripts.html %}          
-
-</body>
-</html>
