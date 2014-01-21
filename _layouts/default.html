@@ -1,0 +1,23 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7 no-js" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="lt-ie9 lt-ie8 no-js" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="lt-ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+
+{% include _head.html %}
+
+<body id="{{ page.body_id }}">
+
+{% include _browser-upgrade.html %}
+{% include _navigation.html %}
+
+<div id="main" role="main">
+  {{ content }}
+</div><!-- /#main -->
+
+{% include _footer.html %}
+
+{% include _scripts.html %}
+
+</body>
+</html>
