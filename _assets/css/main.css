@@ -1225,8 +1225,8 @@ svg:not(:root) {
   font-size: 14px;
   font-size: 0.875rem;
   color: #ffffff;
-  background-color: #7f8c8d;
-  border-color: #7f8c8d;
+  background-color: #000000;
+  border-color: #000000;
   border-style: solid !important;
   border-width: 2px !important;
   -webkit-border-radius: 3px;
@@ -1239,7 +1239,7 @@ svg:not(:root) {
 }
 
 .btn:hover {
-  color: #7f8c8d;
+  color: #000000;
   background-color: #ffffff;
 }
 
