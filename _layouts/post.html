@@ -27,29 +27,6 @@ body_id: post
 			<div class="ads">
 				{% include _advertising.html %}
 			</div><!-- /.ads -->
-			<nav class="pagination" role="navigation">
-			{% for post in site.categories.articles %}
-			  {% if post.url == page.url %}
-			    {% assign post_index0 = forloop.index0 %}
-			    {% assign post_index1 = forloop.index %}
-			  {% endif %}
-			{% endfor %}
-			{% for post in site.categories.articles %}
-			  {% if post_index0 == forloop.index %}
-			    {% assign next_post = post.url %}
-			  {% endif %}
-			  {% if post_index1 == forloop.index0 %}
-			    {% assign prev_post = post.url %}
-			  {% endif %}
-			{% endfor %}
-			{% if prev_post %}
-				<a href="{{ prev_post }}" class="previous-link" title="Previous article"><i class="fa fa-chevron-left fa-lg"></i> <span>Previous</span></a>
-			{% endif %}
-				<a href="{{ site.url }}/articles/" class="archive-link"><i class="fa fa-list-ul icon-large"></i> <span>Archive</span></a>
-			{% if next_post %}
-				<a href="{{ next_post }}" class="next-link" title="Next article"><span>Next</span> <i class="fa fa-chevron-right fa-lg"></i></a>
-			{% endif %}
-			</nav><!-- /.pagination -->
 		{% if page.comments %}
 			<div id="disqus_thread" class="entry-content" data-disqus-shortname="{{ site.disqus_shortname }}" data-disqus-url="{{ site.url }}{{ page.url }}"></div><!-- /#disqus_thread -->
 			<noscript><div class="upgrade entry-content">Please enable JavaScript to view comments.</div></noscript>
