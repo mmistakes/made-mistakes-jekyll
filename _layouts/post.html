@@ -3,56 +3,56 @@ layout: default
 body_id: post
 ---
 
-  <article class="hentry" itemscope itemtype="http://schema.org/Article">
-  <header class="entry-header">
-      {% if page.image.feature %}<div class="entry-image">
-        <img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
-        {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-      </div><!-- /.entry-image -->{% endif %}
-      <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-    </header>
-    <div class="entry-wrapper">
-      <div class="entry-content" itemprop="articleBody">
-        {{ content }}
-        {% if page.series %}{% include _series.html %}{% endif %}
-        <hr />
-        <div class="entry-meta">
-          <meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
-          <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
-          <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Published by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span>
-          <span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>
-          {% if page.modified %} <span class="entry-date">(Updated <time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%m/%d/%Y" }}</time>)</span>{% endif %}
-        </div><!-- /.entry-meta -->
-      </div><!-- /.entry-content -->
-      <div class="ads">
-        {% include _advertising.html %}
-      </div><!-- /.ads -->
-      <nav class="pagination" role="navigation">
-        {% for post in site.categories.articles %}
-          {% if post.url == page.url %}
-            {% assign post_index0 = forloop.index0 %}
-            {% assign post_index1 = forloop.index %}
-          {% endif %}
-        {% endfor %}
-        {% for post in site.categories.articles %}
-          {% if post_index0 == forloop.index %}
-            {% assign next_post = post.url %}
-          {% endif %}
-          {% if post_index1 == forloop.index0 %}
-            {% assign prev_post = post.url %}
-          {% endif %}
-        {% endfor %}
-        {% if prev_post %}
-          <a href="{{ prev_post }}" class="previous-link" title="Previous article"><i class="fa fa-chevron-left fa-lg"></i> <span>Previous</span></a>
-        {% endif %}
-          <a href="{{ site.url }}/articles/" class="archive-link"><i class="fa fa-list-ul icon-large"></i> <span>Archive</span></a>
-        {% if next_post %}
-          <a href="{{ next_post }}" class="next-link" title="Next article"><span>Next</span> <i class="fa fa-chevron-right fa-lg"></i></a>
-        {% endif %}
-    </nav><!-- /.pagination -->
-    {% if page.comments %}
-      <div id="disqus_thread" class="entry-content" data-disqus-shortname="{{ site.disqus_shortname }}" data-disqus-url="{{ site.url }}{{ page.url }}"></div><!-- /#disqus_thread -->
-      <noscript><div class="upgrade entry-content">Please enable JavaScript to view comments.</div></noscript>
-    {% endif %}
-    </div><!-- /.entry-wrapper -->
-  </article>
+	<article class="hentry" itemscope itemtype="http://schema.org/Article">
+		<header class="entry-header">
+		{% if page.image.feature %}
+			<div class="entry-image">
+			    <img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
+			    {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+			</div><!-- /.entry-image -->{% endif %}
+			<h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+		</header>
+		<div class="entry-wrapper">
+			<div class="entry-content" itemprop="articleBody">
+				{{ content }}
+				{% if page.series %}{% include _series.html %}{% endif %}
+				<hr />
+				<div class="entry-meta">
+					<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
+					<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
+					<span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Published by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span>
+					<span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>{% if page.modified %} <span class="entry-date">(Updated <time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%m/%d/%Y" }}</time>)</span>{% endif %}
+				</div><!-- /.entry-meta -->
+			</div><!-- /.entry-content -->
+			<div class="ads">
+				{% include _advertising.html %}
+			</div><!-- /.ads -->
+			<nav class="pagination" role="navigation">
+			{% for post in site.categories.articles %}
+			  {% if post.url == page.url %}
+			    {% assign post_index0 = forloop.index0 %}
+			    {% assign post_index1 = forloop.index %}
+			  {% endif %}
+			{% endfor %}
+			{% for post in site.categories.articles %}
+			  {% if post_index0 == forloop.index %}
+			    {% assign next_post = post.url %}
+			  {% endif %}
+			  {% if post_index1 == forloop.index0 %}
+			    {% assign prev_post = post.url %}
+			  {% endif %}
+			{% endfor %}
+			{% if prev_post %}
+				<a href="{{ prev_post }}" class="previous-link" title="Previous article"><i class="fa fa-chevron-left fa-lg"></i> <span>Previous</span></a>
+			{% endif %}
+				<a href="{{ site.url }}/articles/" class="archive-link"><i class="fa fa-list-ul icon-large"></i> <span>Archive</span></a>
+			{% if next_post %}
+				<a href="{{ next_post }}" class="next-link" title="Next article"><span>Next</span> <i class="fa fa-chevron-right fa-lg"></i></a>
+			{% endif %}
+			</nav><!-- /.pagination -->
+		{% if page.comments %}
+			<div id="disqus_thread" class="entry-content" data-disqus-shortname="{{ site.disqus_shortname }}" data-disqus-url="{{ site.url }}{{ page.url }}"></div><!-- /#disqus_thread -->
+			<noscript><div class="upgrade entry-content">Please enable JavaScript to view comments.</div></noscript>
+		{% endif %}
+		</div><!-- /.entry-wrapper -->
+	</article>
