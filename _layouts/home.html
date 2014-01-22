@@ -3,49 +3,57 @@ layout: default
 body_id: home
 ---
 
-  <section class="entry intro">
-    <div class="entry-wrapper">
-      {{ content }}
-    </div><!-- /.entry-wrapper -->
-  </section><!-- /.entry -->
-  <section class="entry">
-      <div class="work-content">
-        {% for post in site.posts %}
-          {% if post.homepage %}<div class="project-wrap" itemscope itemtype="http://schema.org/CreativeWork"><a href="{{ site.url }}{{ post.url }}" itemprop="url"><figure class="project-tease">
-            <img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ post.title }} teaser" itemprop="image" {% if post.image.circle %}class="image-rounded"{% endif %}>
-            <figcaption>
-              <div class="figcaption-wrap">
-                  <h3 itemprop="name">{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h3>
-              </div><!-- /.figcaption-wrap -->
-            </figcaption>
-          </figure></a></div><!-- /.project-wrap -->{% endif %}
-        {% endfor %}
-      </div><!-- /.work-content -->
-  </section><!-- /.entry -->
-  <section class="entry">
-    <div class="entry-wrapper">
-      <header class="entry-header">
-        <h2>Recently Published Articles</h2>
-      </header>
-      <div class="entry-content">
-        <ul class="post-index unstyled-list">
-        {% for post in site.categories.articles limit:5 %}
-        {% assign readtime = post.content | number_of_words | divided_by:200 %}
-          <li>
-            <article itemscope itemtype="http://schema.org/Article">
-              <a href="{{ site.url }}{{ post.url }}" itemprop="url">
-                {% if post.image.thumb %}<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image" itemprop="image">{% else %}<img src="{{ site.url }}/images/{{ site.logo }}" class="preview" alt="preview image" itemprop="image">{% endif %}
-                <h1 itemprop="name">{{ post.title }}</h1>
-                <p itemprop="description">{{ post.description }}</p>
-                <p class="entry-meta">
-                  <i class="fa fa-clock-o"></i> Reading time ~{% if readtime <= 1 %}1 min{% else %}{{ readtime }} min{% endif %} &#8901; <span class="entry-date date published"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
-                </p><!-- /.entry-meta -->
-              </a>
-            </article>
-          </li>
-        {% endfor %}
-        </ul><!-- /.unstyled-list -->
-      </div><!-- /.entry-content -->
-      <a href="{{ site.url }}/articles/" class="btn">Read More</a>
-    </div><!-- /.entry-wrapper -->
-  </section><!-- /.entry -->
+	<section class="entry intro">
+		<div class="entry-wrapper">
+			{{ content }}
+		</div><!-- /.entry-wrapper -->
+	</section><!-- /.entry -->
+	<section class="entry">
+		<div class="work-content">
+		{% for post in site.posts %}
+			{% if post.homepage %}
+			<div class="project-wrap" itemscope itemtype="http://schema.org/CreativeWork">
+				<a href="{{ site.url }}{{ post.url }}" itemprop="url">
+					<figure class="project-tease">
+						<img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ post.title }} teaser" itemprop="image" {% if post.image.circle %}class="image-rounded"{% endif %}>
+						<figcaption>
+							<div class="figcaption-wrap">
+								<h3 itemprop="name">{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h3>
+							</div><!-- /.figcaption-wrap -->
+						</figcaption>
+					</figure>
+				</a>
+			</div><!-- /.project-wrap -->
+			{% endif %}
+		{% endfor %}
+		</div><!-- /.work-content -->
+	</section><!-- /.entry -->
+	<section class="entry">
+		<div class="entry-wrapper">
+			<header class="entry-header">
+				<h2>Recently Published Articles</h2>
+			</header>
+			<div class="entry-content">
+				<ul class="post-index unstyled-list">
+				{% for post in site.categories.articles limit:5 %}
+				{% assign readtime = post.content | number_of_words | divided_by:200 %}
+					<li>
+						<article itemscope itemtype="http://schema.org/Article">
+							<a href="{{ site.url }}{{ post.url }}" itemprop="url">
+							{% if post.image.thumb %}
+								<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image" itemprop="image">{% else %}<img src="{{ site.url }}/images/{{ site.logo }}" class="preview" alt="preview image" itemprop="image">
+							{% endif %}
+								<h1 itemprop="name">{{ post.title }}</h1>
+								<p itemprop="description">{{ post.description }}</p>
+								<p class="entry-meta">
+									<i class="fa fa-clock-o"></i> Reading time ~{% if readtime <= 1 %}1 min{% else %}{{ readtime }} min{% endif %} &#8901; <span class="entry-date date published"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
+								</p><!-- /.entry-meta -->
+							</a>
+						</article>
+					</li>
+				{% endfor %}
+				</ul><!-- /.unstyled-list -->
+			</div><!-- /.entry-content -->
+		  <a href="{{ site.url }}/articles/" class="btn">Read More</a>
+		</div><!-- /.entry-wrapper -->
+	</section><!-- /.entry -->

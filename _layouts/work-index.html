@@ -3,25 +3,29 @@ layout: default
 body_id: page
 ---
 
-  <article class="entry" itemscope itemtype="http://schema.org/WebPage">
-    <div class="entry-wrapper">
-      <header class="entry-header">
-        <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-      </header>
-      <div class="entry-content" itemprop="description">
-        {{ content }}
-      </div><!-- /.entry-content -->
-    </div><!-- /.entry-wrapper -->
-    <div class="work-content">
-      {% for post in site.categories.work %}
-        <div class="project-wrap" itemscope itemtype="http://schema.org/CreativeWork"><a href="{{ site.url }}{{ post.url }}" itemprop="url"><figure class="project-tease">
-          <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="{{ post.title }} teaser" itemprop="image">
-          <figcaption>
-            <div class="figcaption-wrap">
-                <h3 itemprop="name">{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h3>
-            </div><!-- /.figcaption-wrap -->
-          </figcaption>
-        </figure></a></div><!-- /.project-wrap -->
-      {% endfor %}
-    </div><!-- /.work-content -->
-  </article>
+	<article class="entry" itemscope itemtype="http://schema.org/WebPage">
+		<div class="entry-wrapper">
+			<header class="entry-header">
+			    <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+			</header>
+			<div class="entry-content" itemprop="description">
+				{{ content }}
+			</div><!-- /.entry-content -->
+		</div><!-- /.entry-wrapper -->
+		<div class="work-content">
+		{% for post in site.categories.work %}
+			<div class="project-wrap" itemscope itemtype="http://schema.org/CreativeWork">
+				<a href="{{ site.url }}{{ post.url }}" itemprop="url">
+					<figure class="project-tease">
+						<img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="{{ post.title }} teaser" itemprop="image">
+						<figcaption>
+							<div class="figcaption-wrap">
+								<h3 itemprop="name">{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h3>
+							</div><!-- /.figcaption-wrap -->
+						</figcaption>
+					</figure>
+				</a>
+			</div><!-- /.project-wrap -->
+		{% endfor %}
+		</div><!-- /.work-content -->
+	</article>
