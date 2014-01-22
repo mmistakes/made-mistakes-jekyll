@@ -27,9 +27,9 @@ body_id: post
 			<div class="ads">
 				{% include _advertising.html %}
 			</div><!-- /.ads -->
-		{% if page.comments %}
-			<div id="disqus_thread" class="entry-content" data-disqus-shortname="{{ site.disqus_shortname }}" data-disqus-url="{{ site.url }}{{ page.url }}"></div><!-- /#disqus_thread -->
-			<noscript><div class="upgrade entry-content">Please enable JavaScript to view comments.</div></noscript>
-		{% endif %}
+			{% if page.comments %}
+			<div id="disqus_thread" class="entry-content"></div><!-- /#disqus_thread -->
+			<noscript><div class="upgrade">Please enable JavaScript to view comments.</div><!-- /.upgrade --></noscript>
+			{% endif %}
 		</div><!-- /.entry-wrapper -->
 	</article>

@@ -36,6 +36,9 @@ body_id: page
 					</ul>
 				{% endif %}
 				</div><!-- /.entry-content -->
-			{% if page.comments %}<div id="disqus_thread" class="entry-content"></div><!-- /#disqus_thread -->{% endif %}
+				{% if page.comments %}
+				<div id="disqus_thread" class="entry-content"></div><!-- /#disqus_thread -->
+				<noscript><div class="upgrade">Please enable JavaScript to view comments.</div><!-- /.upgrade --></noscript>
+				{% endif %}
 		</div><!-- /.entry-wrapper -->
 	</article>
