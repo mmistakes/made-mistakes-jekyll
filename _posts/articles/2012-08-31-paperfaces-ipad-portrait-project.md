@@ -3,7 +3,7 @@ layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2014-01-03
+modified: 2014-01-22
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
@@ -15,6 +15,9 @@ comments: true
 
 PaperFaces is an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue <s>the next year</s> until I burn out on faceless faces.
 
+* Table of Contents 
+{:toc}
+
 ## Latest Portraits
 
 I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
@@ -25,7 +28,7 @@ I make every effort to update the gallery weekly with the freshest of fresh alon
 {% endfor %}
 </ul>
 
-<div markdown="0"><a href="{{ site.url }}/paperfaces/" class="btn btn-inverse" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
+<div markdown="0"><a href="{{ site.url }}/paperfaces/" class="btn" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
 
 ## Frequently Asked Questions
 
@@ -33,7 +36,7 @@ I make every effort to update the gallery weekly with the freshest of fresh alon
 
 Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.
 
-<div markdown="0"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
+<div markdown="0"><a href="{{ site.url }}/portraits/" class="btn" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
 
 ### What is PaperFaces?
 
@@ -78,7 +81,7 @@ At the moment, there is a *waiting list* of about 1,300. Now I know what you're 
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour, while others might take a few. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
-### Usage and Copyright
+## Usage and Copyright
 
 Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Attribution-NonCommercial 4.0 International"). That means they're free to use as avatars, share on social media, or print for personal use only.
 
