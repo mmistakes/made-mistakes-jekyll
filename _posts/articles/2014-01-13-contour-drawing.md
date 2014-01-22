@@ -55,7 +55,7 @@ When applying color to a contour line drawing start by looking for the shadows i
 If you're feeling overwhelmed by color, try working with just black and white. Limiting the selection simplifies the process and causes you to focus more on contour and line quality before tackling advanced color theory principles. I experienced the most learning by being limited to the 9 colors Paper originally shipped with. This led to many hours of mistakes and experimentation, ending with a higher understanding of how the tools and colors behaved.
 
 <i class="fa fa-info-circle"></i> For a refresher on watercolor brush techniques take a look at my set of [Mastering Paper Guides]({{ site.url }}/mastering-paper/). *If you can get the hang of making smooth continuous tones with the brush, there isn't much else you can't do with the app.* 
-{: .notice}
+{: .notice .warning}
 
 ### White on Black
 

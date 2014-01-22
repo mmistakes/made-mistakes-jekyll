@@ -3,7 +3,7 @@ layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2014-01-03
+modified: 2014-01-22
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
@@ -15,6 +15,9 @@ comments: true
 
 PaperFaces is an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue <s>the next year</s> until I burn out on faceless faces.
 
+* Table of Contents 
+{:toc}
+
 ## Latest Portraits
 
 I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
@@ -25,7 +28,7 @@ I make every effort to update the gallery weekly with the freshest of fresh alon
 {% endfor %}
 </ul>
 
-<div markdown="0"><a href="{{ site.url }}/paperfaces/" class="btn btn-inverse" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
+<div markdown="0"><a href="{{ site.url }}/paperfaces/" class="btn" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
 
 ## Frequently Asked Questions
 
@@ -33,7 +36,7 @@ I make every effort to update the gallery weekly with the freshest of fresh alon
 
 Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.
 
-<div markdown="0"><a href="{{ site.url }}/portraits/" class="btn btn-inverse" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
+<div markdown="0"><a href="{{ site.url }}/portraits/" class="btn" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
 
 ### What is PaperFaces?
 
@@ -78,7 +81,7 @@ At the moment, there is a *waiting list* of about 1,300. Now I know what you're 
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour, while others might take a few. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
-### Usage and Copyright
+## Usage and Copyright
 
 Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Attribution-NonCommercial 4.0 International"). That means they're free to use as avatars, share on social media, or print for personal use only.
 
@@ -87,7 +90,7 @@ Each PaperFaces portrait is protected under a [Creative Commons License]({{ site
 I use the term "tutorial" loosely. What you'll find here are glorified slide shows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slide show with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/mastering-paper/ "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
 <i class="fa fa-info-circle"></i> **Update:** I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
-{: .notice}
+{: .notice .warning}
 
 <figure class="large">
   <iframe width="560" height="315" src="//www.youtube.com/embed/y1OG2gLk6Jg?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
@@ -123,6 +126,6 @@ Just sharing the love with some links back to articles and galleries that have f
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 
 <i class="fa fa-info-circle"></i> **PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/).
-{: .notice}
+{: .notice .warning}
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
