@@ -420,20 +420,38 @@ figcaption {
 }
 
 .notice {
-  padding: .5em 1em;
+  position: relative;
+  padding: 1em 2em;
   margin-top: 1.5em;
+  margin-left: -2em;
   font-size: 16px;
   font-size: 1rem;
   text-indent: 0;
-  background-color: #f2f2f2;
-  border: 1px solid #e6e6e6;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  background-color: #d0d5d5;
+}
+
+.notice:before {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-color: transparent #7f8c8d #7f8c8d transparent;
+  border-style: solid;
+  border-width: 5px;
+  content: "";
 }
 
 .notice h4 {
   text-align: center;
+}
+
+.info {
+  background-color: #b6daf2;
+}
+
+.warning {
+  background-color: #f9e8a0;
 }
 
 blockquote {
@@ -1242,8 +1260,8 @@ svg:not(:root) {
 
 .btn-success {
   color: #ffffff;
-  background-color: #5cb85c;
-  border-color: #5cb85c;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
 }
 
 .btn-success:visited {
@@ -1251,14 +1269,14 @@ svg:not(:root) {
 }
 
 .btn-success:hover {
-  color: #5cb85c;
+  color: #2ecc71;
   background-color: #ffffff;
 }
 
 .btn-warning {
   color: #ffffff;
-  background-color: #dd8338;
-  border-color: #dd8338;
+  background-color: #f1c40f;
+  border-color: #f1c40f;
 }
 
 .btn-warning:visited {
@@ -1266,14 +1284,14 @@ svg:not(:root) {
 }
 
 .btn-warning:hover {
-  color: #dd8338;
+  color: #f1c40f;
   background-color: #ffffff;
 }
 
 .btn-danger {
   color: #ffffff;
-  background-color: #c64537;
-  border-color: #c64537;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
 }
 
 .btn-danger:visited {
@@ -1281,14 +1299,14 @@ svg:not(:root) {
 }
 
 .btn-danger:hover {
-  color: #c64537;
+  color: #e74c3c;
   background-color: #ffffff;
 }
 
 .btn-info {
   color: #ffffff;
-  background-color: #308cbc;
-  border-color: #308cbc;
+  background-color: #3498db;
+  border-color: #3498db;
 }
 
 .btn-info:visited {
@@ -1296,7 +1314,7 @@ svg:not(:root) {
 }
 
 .btn-info:hover {
-  color: #308cbc;
+  color: #3498db;
   background-color: #ffffff;
 }
 
@@ -1315,7 +1333,7 @@ svg:not(:root) {
   color: #ffffff;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #808080;
+  background-color: #ffffff;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;

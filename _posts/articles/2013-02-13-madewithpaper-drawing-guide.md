@@ -34,7 +34,7 @@ How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the
 </figure>
 
 <i class="fa fa-info-circle"></i> **Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [this review]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by 53.
-{: .notice}
+{: .notice .warning}
 
 Every drawing is different and I try to keep that in mind before launching Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.
 
@@ -82,7 +82,7 @@ I saved the best for last. When I first started using Paper by 53, I was enamore
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
 <i class="fa fa-info-circle"></i> Read in detail [how I draw hair with Paper by 53]({{ site.url }}{% post_url /articles/2013-05-10-how-to-draw-hair-paper-53 %}).
-{: .notice}
+{: .notice .warning}
 
 <figure>
     <img src="{{ site.url }}/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
@@ -96,4 +96,4 @@ I hope some of this has been helpful. To better describe and show my process, I'
 <iframe width="560" height="315" src="//www.youtube.com/embed/fC_yATccHmk" frameborder="0" allowfullscreen> </iframe>
 
 <i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail and then some.
-{: .notice}
+{: .notice .warning}
