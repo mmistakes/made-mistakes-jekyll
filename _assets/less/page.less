@@ -405,23 +405,6 @@ span + .entry-title {
 		display: none;
 	}
 }
-// Page layout
-#home,
-#page,
-#work {
-	.entry-title {
-		text-align: center;
-		max-width: 100%;
-		@media @medium {
-			padding-right: 60px;
-		}
-	}
-	.entry-content {
-		@media @large {
-			float: none;
-		}
-	}
-}
 // Home layout
 #home {
 	.intro .entry-wrapper {
@@ -475,11 +458,8 @@ span + .entry-title {
 // Footer
 // --------------------------------------------------
 .footer-wrapper {
-	.clearfix();
-	margin: 2em auto;
-	padding-right: 20px;
-	padding-left: 20px;
-	text-align: center;
+	margin-top: 3em;
+	.entry-wrapper();
 	.font-rem(14);
 	color: lighten(@text-color,20);
 	a {
@@ -558,19 +538,5 @@ span + .entry-title {
 	&:hover {
 		background-color: @white;
 		color: @black;
-	}
-}
-
-// Social Share
-// --------------------------------------------------
-.socialcount {
-	.font-rem(16);
-	font-weight: 700;
-	li { 
-		padding-right: 10px;
-	}
-	p > a,
-	li > a {
-		border-bottom-width: 0;
 	}
 }
