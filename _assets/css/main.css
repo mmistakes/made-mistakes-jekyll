@@ -244,6 +244,12 @@ button {
   text-align: center;
 }
 
+@media only screen and (min-width: 48em) {
+  .center-block {
+    text-align: left;
+  }
+}
+
 .all-caps {
   text-transform: uppercase;
 }
@@ -1046,7 +1052,6 @@ svg:not(:root) {
 .recent-grid {
   padding-left: 0;
   margin-left: 0;
-  text-align: center;
   list-style: none;
   *zoom: 1;
 }
@@ -1101,15 +1106,13 @@ svg:not(:root) {
 .oversized-recent-grid {
   padding-left: 0;
   margin-left: 0;
-  text-align: center;
   list-style: none;
   *zoom: 1;
 }
 
 @media only screen and (min-width: 62.5em) {
   .oversized-recent-grid {
-    margin-right: -140px;
-    margin-left: -140px;
+    margin-right: -280px;
   }
 }
 
@@ -2900,29 +2903,6 @@ span + .entry-title {
   }
 }
 
-#home .entry-title,
-#page .entry-title,
-#work .entry-title {
-  max-width: 100%;
-  text-align: center;
-}
-
-@media only screen and (min-width: 48em) {
-  #home .entry-title,
-  #page .entry-title,
-  #work .entry-title {
-    padding-right: 60px;
-  }
-}
-
-@media only screen and (min-width: 62.5em) {
-  #home .entry-content,
-  #page .entry-content,
-  #work .entry-content {
-    float: none;
-  }
-}
-
 #home .intro .entry-wrapper {
   margin-bottom: 2em;
 }
@@ -2998,13 +2978,14 @@ span + .entry-title {
 }
 
 .footer-wrapper {
+  max-width: 440px;
   padding-right: 20px;
   padding-left: 20px;
-  margin: 2em auto;
+  margin: 0 auto;
+  margin-top: 3em;
   font-size: 14px;
   font-size: 0.875rem;
   color: #555555;
-  text-align: center;
   *zoom: 1;
 }
 
@@ -3017,6 +2998,21 @@ span + .entry-title {
 
 .footer-wrapper:after {
   clear: both;
+}
+
+@media only screen and (min-width: 48em) {
+  .footer-wrapper {
+    max-width: 760px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-bottom: 3em;
+  }
+}
+
+@media only screen and (min-width: 62.5em) {
+  .footer-wrapper {
+    max-width: 960px;
+  }
 }
 
 .footer-wrapper a {
@@ -3106,19 +3102,4 @@ span + .entry-title {
 #goog-wm-sb:hover {
   color: #000000;
   background-color: #ffffff;
-}
-
-.socialcount {
-  font-size: 16px;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.socialcount li {
-  padding-right: 10px;
-}
-
-.socialcount p > a,
-.socialcount li > a {
-  border-bottom-width: 0;
 }
