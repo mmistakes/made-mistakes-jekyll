@@ -1340,7 +1340,7 @@ svg:not(:root) {
   color: #ffffff;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #ffffff;
+  background-color: #c2c9c9;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
