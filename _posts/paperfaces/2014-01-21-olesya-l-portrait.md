@@ -13,7 +13,7 @@ PaperFaces portrait of [Olesya L.](http://sktchy.com/REiCy) inspired by Sktchy.
 
 {% include paperfaces-boilerplate-2.html %}
 
-<figure class="half">
+<figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-olesya-l-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-olesya-l-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-olesya-l-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-olesya-l-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-olesya-l-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-olesya-l-process-3-600.jpg" alt="Work in process screenshot"></a>

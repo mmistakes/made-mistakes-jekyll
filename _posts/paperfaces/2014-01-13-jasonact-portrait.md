@@ -13,7 +13,7 @@ PaperFaces portrait portrait of [@jasonact](http://twitter.com/jasonact).
 
 {% include paperfaces-boilerplate-2.html %}
 
-<figure class="half">
+<figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-jasonact-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jasonact-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-jasonact-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jasonact-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-jasonact-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jasonact-process-3-600.jpg" alt="Work in process screenshot"></a>
