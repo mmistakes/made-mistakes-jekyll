@@ -32,7 +32,7 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 	<figcaption>The post template in action.</figcaption>
 </figure>
 
-<div markdown="0"><a href="http://mmistakes.github.io/minimal-mistakes" onClick="_gaq.push(['_trackEvent', 'Link', 'Minimal Mistakes - Theme Demo']);" class="btn btn-inverse">Demo the Theme</a></div>
+<div markdown="0"><a href="http://mmistakes.github.io/minimal-mistakes" onClick="_gaq.push(['_trackEvent', 'Link', 'Minimal Mistakes - Theme Demo']);" class="btn">Demo the Theme</a></div>
 
 ## Basic Setup
 
