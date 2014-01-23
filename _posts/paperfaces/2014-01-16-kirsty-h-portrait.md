@@ -13,12 +13,8 @@ PaperFaces portrait of [Kirsty H.](http://sktchy.com/A73olc) inspired by Sktchy.
 
 {% include paperfaces-boilerplate-4.html %}
 
-<figure>
+<figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-kirsty-h-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-kirsty-h-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Pencil sketch to rough out the composition.</figcaption>
-</figure>
-
-<figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-kirsty-h-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-kirsty-h-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-kirsty-h-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-kirsty-h-process-3-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-kirsty-h-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-kirsty-h-process-4-600.jpg" alt="Work in process screenshot"></a>

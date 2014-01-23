@@ -13,7 +13,7 @@ PaperFaces portrait of [Allyson B.](http://sktchy.com/NogM0C) inspired by Sktchy
 
 {% include paperfaces-boilerplate-2.html %}
 
-<figure class="half">
+<figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-allyson-b-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-allyson-b-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-allyson-b-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-allyson-b-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<a href="{{ site.url }}/images/paperfaces-allyson-b-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-allyson-b-process-3-600.jpg" alt="Work in process screenshot"></a>
