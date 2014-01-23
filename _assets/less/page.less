@@ -240,11 +240,15 @@ span + .entry-title {
 .entry-meta {
 	.font-rem(14);
 	clear: both;
+	color: @base-color;
+	a {
+		color: @base-color;
+	}
 	.tag {
 		display: inline-block;
 		margin: 4px 4px 4px 0;
 		padding: 2px 6px;
-		background-color: lighten(@primary, 25);
+		background-color: @base-color;
 		color: @white;
 		.rounded(3px);
 		color: @white;
@@ -253,7 +257,7 @@ span + .entry-title {
 			.font-rem(10);
 		}
 		&:hover {
-			background-color: @primary;
+			background-color: @text-color;
 		}
 		&:active {
 			.translate(0, 1px);
@@ -445,7 +449,7 @@ span + .entry-title {
 	a { 
 		padding: 4px 6px;
 		margin: 2px;
-		background-color: lighten(@black, 90);
+		background-color: @base-color;
 		.rounded(4px);
 		text-decoration: none;
 		span { 
@@ -461,9 +465,9 @@ span + .entry-title {
 	margin-top: 3em;
 	.entry-wrapper();
 	.font-rem(14);
-	color: lighten(@text-color,20);
+	color: lighten(@base-color,50);
 	a {
-		color: lighten(@text-color,20);
+		color: lighten(@base-color,50);
 		.transition(all .2s ease-out);
 		&:hover {
 			color: @text-color;
@@ -478,8 +482,9 @@ span + .entry-title {
 	a {
 		padding: 4px 8px;
 		display: inline-block;
+		color: lighten(@primary,25);
 		&:hover { 
-			color: @black;
+			color: @primary;
 			-moz-animation: pop .3s linear;
 			-webkit-animation: pop .3s linear;
 			animation: pop .3s linear;
@@ -498,6 +503,9 @@ span + .entry-title {
 		}
 		&[href^="http://plus"]:hover {
 			color: #dc4836;
+		}
+		&[href^="http://feeds"]:hover {
+			color: @warning;
 		}
 	}
 }

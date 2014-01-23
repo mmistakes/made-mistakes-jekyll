@@ -20,23 +20,23 @@ body_id: page
 			    <div class="center-block"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
 		    {% endif %}
 			    {{ content }}
-			    <hr />
-				<div class="entry-meta">
-					<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
-					<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
-					<span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> {% if page.modified %}<span class="entry-date"><time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%B %d, %Y" }}</time></span>{% else %}<span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>{% endif %}
-				</div><!-- .entry-meta -->
 			    {% if page.categories contains 'paperfaces' %}
-				    <hr />
-					<div class="center-block">
-						<a href="{{ site.url }}/{{ page.category }}/" class="btn">View More Portraits</a>
-					</div><!-- /.center-block -->
-					<ul class="recent-grid">
-					{% for post in site.categories.paperfaces limit:4 %}
-						<li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" /></a></li>
-					{% endfor %}
+					<h2 style="margin-top:2em;">Recently Added <a href="#" onclick="(function(btn){var z=document.createElement('script');document.subtomeBtn=btn;z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})(this);_gaq.push(['_trackEvent', 'Link', 'Subscribe']);" data-subtome-resource="{{ site.url }}" data-subtome-feeds="http://feeds.feedburner.com/MadeMistakesPaperFaces" style="color:#E74C3C;"><i class="fa fa-rss fa-fw"></i></a></h2>
+					<ul class="oversized-recent-grid">
+					{% for post in site.categories.paperfaces limit:6 %}
+						<li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+							<img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
+						</a></li>
+						{% endfor %}
+						<li class="gallery-button"><a href="{{ site.url }}/paperfaces/" title="View All PaperFaces"><i class="fa fa-chevron-right fa-2x"></i></a></li>
 					</ul>
 				{% endif %}
+					<hr />
+					<div class="entry-meta">
+						<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
+						<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
+						<span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> {% if page.modified %}<span class="entry-date"><time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%B %d, %Y" }}</time></span>{% else %}<span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>{% endif %}
+					</div><!-- .entry-meta -->
 				</div><!-- /.entry-content -->
 				{% if page.comments %}
 				<div id="disqus_thread" class="entry-content"></div><!-- /#disqus_thread -->
