@@ -529,7 +529,7 @@ li code {
   font-size: 1rem;
   white-space: nowrap;
   background-color: #f2f2f2;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #c2c9c9;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -2617,7 +2617,7 @@ span + .entry-title {
   padding: 2px 6px;
   margin: 4px 4px 4px 0;
   color: #ffffff;
-  background-color: #cdcdcd;
+  background-color: #c2c9c9;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -2630,7 +2630,7 @@ span + .entry-title {
 }
 
 .entry-meta .tag:hover {
-  background-color: #b3b3b3;
+  background-color: #7f8c8d;
 }
 
 .entry-meta .tag:active {
