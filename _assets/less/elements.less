@@ -129,6 +129,26 @@ svg:not(:root) {
   }
   .clearfix();
 }
+// Thumbnail grid button
+.gallery-button {
+  padding: 10px;
+  height: 75px;
+  line-height: 75px;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  @media @medium {
+    height: 106px;
+    margin-left: 15px;
+    line-height: 106px;
+  }
+  a {
+    color: lighten(@primary,25);
+    &:hover {
+      color: @primary;
+    }
+  }
+}
 // Projects
 .project-wrap {
   position: relative;

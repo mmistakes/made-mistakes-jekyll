@@ -1163,6 +1163,31 @@ svg:not(:root) {
   clear: both;
 }
 
+.gallery-button {
+  position: absolute;
+  height: 75px;
+  padding: 10px;
+  line-height: 75px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 48em) {
+  .gallery-button {
+    height: 106px;
+    margin-left: 15px;
+    line-height: 106px;
+  }
+}
+
+.gallery-button a {
+  color: #c2c9c9;
+}
+
+.gallery-button a:hover {
+  color: #7f8c8d;
+}
+
 .project-wrap {
   position: relative;
   float: left;
@@ -2613,6 +2638,11 @@ span + .entry-title {
   clear: both;
   font-size: 14px;
   font-size: 0.875rem;
+  color: #343434;
+}
+
+.entry-meta a {
+  color: #343434;
 }
 
 .entry-meta .tag {
@@ -2620,7 +2650,7 @@ span + .entry-title {
   padding: 2px 6px;
   margin: 4px 4px 4px 0;
   color: #ffffff;
-  background-color: #c2c9c9;
+  background-color: #343434;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -2633,7 +2663,7 @@ span + .entry-title {
 }
 
 .entry-meta .tag:hover {
-  background-color: #7f8c8d;
+  background-color: #222222;
 }
 
 .entry-meta .tag:active {
@@ -2969,7 +2999,7 @@ span + .entry-title {
   padding: 4px 6px;
   margin: 2px;
   text-decoration: none;
-  background-color: #e6e6e6;
+  background-color: #343434;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -2989,7 +3019,7 @@ span + .entry-title {
   margin-top: 3em;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #555555;
+  color: #b3b3b3;
   *zoom: 1;
 }
 
@@ -3020,7 +3050,7 @@ span + .entry-title {
 }
 
 .footer-wrapper a {
-  color: #555555;
+  color: #b3b3b3;
   -webkit-transition: all 0.2s ease-out;
      -moz-transition: all 0.2s ease-out;
       -ms-transition: all 0.2s ease-out;
@@ -3039,10 +3069,11 @@ span + .entry-title {
 .social-icons a {
   display: inline-block;
   padding: 4px 8px;
+  color: #c2c9c9;
 }
 
 .social-icons a:hover {
-  color: #000000;
+  color: #7f8c8d;
   -webkit-animation: pop .3s linear;
      -moz-animation: pop .3s linear;
           animation: pop .3s linear;
@@ -3066,6 +3097,10 @@ span + .entry-title {
 
 .social-icons a[href^="http://plus"]:hover {
   color: #dc4836;
+}
+
+.social-icons a[href^="http://feeds"]:hover {
+  color: #f1c40f;
 }
 
 .upgrade {
