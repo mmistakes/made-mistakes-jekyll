@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /portraits/
-title: "PaperFaces iPad Portraits"
+title: "Order a Digital Portrait"
 headline: "Get PaperFaced"
 description: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
 modified: 2014-01-10
