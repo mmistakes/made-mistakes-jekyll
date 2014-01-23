@@ -21,7 +21,7 @@ body_id: page
 		    {% endif %}
 			    {{ content }}
 			    {% if page.categories contains 'paperfaces' %}
-					<h2 style="margin-top:2em;">Recently Added <a href="#" onclick="(function(btn){var z=document.createElement('script');document.subtomeBtn=btn;z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})(this);_gaq.push(['_trackEvent', 'Link', 'Subscribe']);" data-subtome-resource="{{ site.url }}" data-subtome-feeds="http://feeds.feedburner.com/MadeMistakesPaperFaces" style="color:#E74C3C;"><i class="fa fa-rss fa-fw"></i></a></h2>
+					<h2 style="margin-top:2em;">Recently Added <a href="#" onclick="(function(btn){var z=document.createElement('script');document.subtomeBtn=btn;z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})(this);_gaq.push(['_trackEvent', 'Link', 'Subscribe']);" data-subtome-resource="{{ site.url }}" data-subtome-feeds="http://feeds.feedburner.com/MadeMistakesPaperFaces" style="color:#c2c9c9;"><i class="fa fa-rss fa-fw"></i></a></h2>
 					<ul class="oversized-recent-grid">
 					{% for post in site.categories.paperfaces limit:6 %}
 						<li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
