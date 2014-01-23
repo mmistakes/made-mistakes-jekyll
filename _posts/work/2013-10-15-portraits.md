@@ -79,7 +79,7 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
     <input type="text" name="os2" maxlength="200">
     </table>
     <input type="hidden" name="currency_code" value="USD">
-    <input type="submit" value="Order Now" class="btn btn-inverse" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
+    <input type="submit" value="Order Now" class="btn btn-success" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
   </form>
 </div><!-- /.well -->
