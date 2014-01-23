@@ -1271,6 +1271,7 @@ svg:not(:root) {
 .btn-success:hover {
   color: #2ecc71;
   background-color: #ffffff;
+  border-color: #2ecc71;
 }
 
 .btn-warning {
@@ -1286,6 +1287,7 @@ svg:not(:root) {
 .btn-warning:hover {
   color: #f1c40f;
   background-color: #ffffff;
+  border-color: #f1c40f;
 }
 
 .btn-danger {
@@ -1301,6 +1303,7 @@ svg:not(:root) {
 .btn-danger:hover {
   color: #e74c3c;
   background-color: #ffffff;
+  border-color: #e74c3c;
 }
 
 .btn-info {
@@ -1316,6 +1319,7 @@ svg:not(:root) {
 .btn-info:hover {
   color: #3498db;
   background-color: #ffffff;
+  border-color: #3498db;
 }
 
 .well {
