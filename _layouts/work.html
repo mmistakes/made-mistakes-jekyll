@@ -4,15 +4,17 @@ body_id: page
 ---
 
 	<article class="hentry" itemscope itemtype="http://schema.org/CreativeWork">
-	{% if page.image.feature %}
+		{% if page.image.feature %}
 		<div class="entry-image">
 			<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
 				{% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-		</div><!-- /.entry-image -->{% endif %}
+		</div><!-- /.entry-image -->
+		{% endif %}
+		<header class="entry-header">
+		    <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+		</header>
 		<div class="entry-wrapper">
-			<header class="entry-header">
-			    <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-			</header>
+			
 			<div class="entry-content" itemprop="description">
 		    {% if page.work %}
 			    <div class="center-block"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs">Launch Website</a></div>
