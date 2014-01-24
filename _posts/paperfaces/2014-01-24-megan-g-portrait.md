@@ -9,7 +9,7 @@ category: paperfaces
 tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy, Blend]
 ---
 
-Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFaces portrait of [Mia Di D.](http://sktchy.com/BBBOaH) inspired by Sktchy.
+Another winter scene with a slight smudge to the background of trees to add depth. PaperFaces portrait of [Megan G.](http://sktchy.com/ZRLqgC) inspired by Sktchy.
 
 {% include paperfaces-boilerplate-4.html %}
 
