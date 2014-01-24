@@ -16,7 +16,7 @@ body_id: post
 			<div class="entry-content" itemprop="articleBody">
 				{{ content }}
 				<div class="entry-related">
-					<h2>Related Articles</h2>
+					<h2>Related Articles <a href="#" onclick="(function(btn){var z=document.createElement('script');document.subtomeBtn=btn;z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})(this);_gaq.push(['_trackEvent', 'Link', 'Subscribe']);" data-subtome-resource="{{ site.url }}" data-subtome-feeds="http://feeds.feedburner.com/MadeMistakesArticles"><i class="fa fa-rss fa-fw"></i></a></h2>
 					<ul>
 						{% for post in site.related_posts limit:4 %}
 						<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
