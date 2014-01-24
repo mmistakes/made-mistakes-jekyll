@@ -139,3 +139,5 @@ And just like that Ten One Design sent me a replacement pen with 2 extra tips fr
 Feels like Groundhog Day all over again. Sadly my replacement Pogo didn't fair too well and broke in the exact same way after three months of daily usage. Big shout out to Ten One Design's customer service for setting me up with another replacement gratis. I've been told they beefed up the soldering for a new production run in September. Not sure if that will make much of a difference, but will report back after I get my hands on it.
 
 If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back...
+
+{% include support.html %}
