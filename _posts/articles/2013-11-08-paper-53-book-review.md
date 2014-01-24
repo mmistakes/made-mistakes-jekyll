@@ -184,3 +184,5 @@ For this book I took a few of my Paper "cheat sheets" and adapted drawings from 
 	<iframe width="560" height="315" src="//www.youtube.com/embed/BW8czjeiNzw" frameborder="0"> </iframe>
 	<figcaption>Flipping through a book</figcaption>
 </figure>
+
+{% include support.html %}

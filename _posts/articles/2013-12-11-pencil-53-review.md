@@ -121,3 +121,5 @@ Want to know more about Pencil or the new features it enables --- ask away in th
 	<iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0"> </iframe>
 	<figcaption>For giggles here's a time lapse of me drawing with Pencil. Check out my sweet green band-aid yo!</figcaption>
 </figure>
+
+{% include support.html %}

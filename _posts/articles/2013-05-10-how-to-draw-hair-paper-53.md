@@ -53,3 +53,5 @@ If you're a maniac with the pencil and prefer to draw in all the gradations then
 
 <i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
 {: .notice .warning}
+
+{% include support.html %}

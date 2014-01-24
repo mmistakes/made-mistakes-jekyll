@@ -74,6 +74,4 @@ There is no hard fast rule that says the drawing has to be made up of a single l
 
 If you end up trying out this technique I'd love to see what you've created. Leave a link or attach an image of your work below in the comments.
 
----
-
 {% include support.html %}

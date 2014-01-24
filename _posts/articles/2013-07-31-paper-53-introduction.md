@@ -195,8 +195,6 @@ There isn't much else to Zoom, I'm merely mentioning it to increase awareness ar
 
 Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app.
 
----
-
 {% include support.html %}
 
 [^opaque]: Not transparent or translucent; impenetrable to light; notallowing light to pass through.
