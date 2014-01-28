@@ -37,6 +37,12 @@ $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 // Magnific-Popup options
 $(document).ready(function() {
   $('.image-popup').magnificPopup({
+    disableOn: function() {
+      if( $(window).width() < 500 ) {
+        return false;
+      } 
+      return true;
+    },
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     gallery: {
