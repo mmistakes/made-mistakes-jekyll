@@ -2398,6 +2398,8 @@ body {
   padding-bottom: 10px;
   margin-right: 20px;
   color: #000000;
+  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-transition: color 0.2s ease;
      -moz-transition: color 0.2s ease;
       -ms-transition: color 0.2s ease;
@@ -2417,6 +2419,7 @@ body {
     padding-bottom: 0;
     margin-right: 0;
     margin-left: 20px;
+    border-bottom: 0;
   }
 }
 
