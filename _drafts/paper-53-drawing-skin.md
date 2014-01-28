@@ -120,6 +120,12 @@ Or painting with a cool violet or blue underneath the eyes and neck, to imply di
 
 ![Cool violet for eye shadows glazing](http://placehold.it/750x450.gif)
 
+The complexion of a light-skinned face can be divided into three zones, that are often hard to distinguish between.
+
+1. Forehead is a light golden color. Freer of muscles and surface capillaries.
+2. Forehead to the bottom of the nose is reddish. Cheeks, ears, and noses have more capillaries and therefore *blood*, which causes the red tone.
+3. Bottom of the nose to the chin tends to be blueish, greenish, or grayish in color for men. This is due to hair follicles from a beard or stubble. Accentuating this green color can really bring out the red lips.
+
 #### Painting Shadows
 
 When you need to darken an area, a variation of gray matched in temperature works great. Even better is a dull color with the lightness dialed down allowing for greater flexibility when painting or glazing. A heavy and less translucent color is harder to control because they darken previously painted areas way too fast.
