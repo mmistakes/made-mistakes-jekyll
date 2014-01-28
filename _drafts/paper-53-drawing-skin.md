@@ -92,29 +92,53 @@ With practice you'll become more confident in the lines you are placing. I would
 
 ### Help with Color
 
-Color theory is complicated and way out of the scope of this tutorial. So instead of going down that rabit hole I'll share with you some general color guidelines and pointers I loosely follow.
+Color theory is complicated and way out of the scope of this tutorial. So instead of going down that rabbit hole I'll share with you some general color guidelines and pointers I loosely follow.
 
-#### Painting Shadows
+#### The Basics
 
-When applying shadows, desaturated or dull colors work best. Even better are dull colors with the lightness dialed down for greater control. If you use a bright and heavy color to paint over previously painted areas, they'll darken way too fast.
-
-![Dull shadow vs. bright shadow](http://placehold.it/750x450.gif)
-
-#### Temperature
-
-Be mindful of cool and warm colors and how they effect the skin you've already painted. Cheeks are often brighter and require more saturated mixes of red and orange. Shadows around the eyes and neck are usually cooler with blues and violets mixed in.
-
-Using glazing[^glazing] techniques and alternating between dull reds and blues can leave realistic skin with a realistic glow. If you take a close look at your own face you'll notice all sorts of colors depending on how light and the blood underneath affect the skin's color. 
+Having a general understanding of how colors are mixed will help you produce desirable tones when using a glazing[^glazing] technique to paint. Knowing how a color will react when overlapped with another color becomes crucial, unless you like your colors turning to mud.
 
 [^glazing]: Glazing is a watercolor technique that uses a thin, transparent pigment applied over dry existing washes. Its purpose is to adjust the color and tone of the underlying wash.
 
-#### The Lighter the Better
+##### Primary and Secondary Colors
 
-Keep the lightness cranked up without turning too bright. Allows for greater control and more layers to build up color.
+Going back to elementary school you probably finger painted with red, blue, and yellow. If you combine any two of these colors you'll produce a secondary color.
+
+![Secondary colors mixed on canvas](http://placehold.it/750x450.gif)
+
+I wouldn't suggest going as far as mixing colors directly on canvas to produce secondary colors. But being aware of how these colors react with each other will help you make smarter palette selections when painting.
+
+##### Color Temperature
+
+A color's temperature is worth considering as well. When I'm having trouble getting a mix just right I focus more on whether it is warm or cool and adjust accordingly. If you take a closer look at your own face you'll notice all sorts of temperatures depending on how the blood underneath it affect the skin's color.
+
+A simple thing like glazing cheeks with warm mixes of orange and red can liven a face up. 
+
+![Pink cheek glazing](http://placehold.it/750x450.gif)
+
+Or painting with a cool violet or blue underneath the eyes and neck, to imply divisions in space.
+
+![Cool violet for eye shadows glazing](http://placehold.it/750x450.gif)
+
+The complexion of a light-skinned face can be divided into three zones, that are often hard to distinguish between.
+
+1. Forehead is a light golden color. Freer of muscles and surface capillaries.
+2. Forehead to the bottom of the nose is reddish. Cheeks, ears, and noses have more capillaries and therefore *blood*, which causes the red tone.
+3. Bottom of the nose to the chin tends to be blueish, greenish, or grayish in color for men. This is due to hair follicles from a beard or stubble. Accentuating this green color can really bring out the red lips.
+
+#### Painting Shadows
+
+When you need to darken an area, a variation of gray matched in temperature works great. Even better is a dull color with the lightness dialed down allowing for greater flexibility when painting or glazing. A heavy and less translucent color is harder to control because they darken previously painted areas way too fast.
+
+![Various grays used for glazing](http://placehold.it/750x450.gif)
 
 ### Pencil Cleanup 
 
-To clean up edges use the pencil tool mixed with an appropriate color matching the background. 
+Depending on how accurate of a painter you are, your glazes may have bleed off of the face and into the background some. To clean up these rough edges, use the pencil tool mixed with a color that matches the background closes. Then draw over any blotches or stray marks to cover them up and blend away into the background.
+
+![Pencil edge cleanup](http://placehold.it/750x450.gif)
+
+Don't be afraid to use one of the ink pens for cleanup instead. For stylist reasons I prefer the softness of a pencil to the sharpness of ink --- either tool is acceptable.
 
 ## Colored Pencil and Watercolor
 

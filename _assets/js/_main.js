@@ -13,7 +13,7 @@ var changeClass = function (r,className1,className2) {
 };  
 //  Creating our button in JS for smaller screens
 var menuElements = document.getElementById('site-nav');
-menuElements.insertAdjacentHTML('afterBegin','<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="fa fa-bars"> </i> Menu</button>');
+menuElements.insertAdjacentHTML('afterBegin','<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true">Menu</button>');
 
 //  Toggle the class on click to show / hide the menu
 document.getElementById('menutoggle').onclick = function() {
@@ -37,6 +37,12 @@ $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 // Magnific-Popup options
 $(document).ready(function() {
   $('.image-popup').magnificPopup({
+    disableOn: function() {
+      if( $(window).width() < 500 ) {
+        return false;
+      } 
+      return true;
+    },
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     gallery: {
@@ -63,41 +69,3 @@ $(function() {
 $("img.load").show().lazyload({ 
     effect : "fadeIn"
 });
-
-/* Disqus Comments */
-
-  // Load Disqus comments when visitor scrolls down page to comments
-  // Usage:
-  // Add a div with id "disqus_thread" and data attributes for every Disqus parameter:
-  //
-  // <div id="disqus_thread" data-disqus-shortname="username" data-disqus-url="http://example.com/post/post-name/"></div>
-  // 
-  // @author: Murat Corlu
-  // @link: https://gist.github.com/gists/2290198
-
-  $(function(){
-      var disqus_div = $("#disqus_thread");
-      if (disqus_div.size() > 0 ) {
-          var ds_loaded = false,
-              top = disqus_div.offset().top, // WHERE TO START LOADING
-              disqus_data = disqus_div.data(),
-              check = function(){
-                  if ( !ds_loaded && $(window).scrollTop() + $(window).height() > top ) {
-                      ds_loaded = true;
-                      for (var key in disqus_data) {
-                          if (key.substr(0,6) == 'disqus') {
-                              window['disqus_' + key.replace('disqus','').toLowerCase()] = disqus_data[key];
-                          }
-                      }
-   
-                      var dsq = document.createElement('script'); 
-                      dsq.type = 'text/javascript';
-                      dsq.async = true;
-                      dsq.src = 'http://' + window.disqus_shortname + '.disqus.com/embed.js';
-                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                  }
-              };
-          $(window).scroll(check);
-          check();
-      }
-  });
