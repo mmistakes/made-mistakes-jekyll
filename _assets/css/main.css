@@ -454,6 +454,11 @@ figcaption {
   text-align: center;
 }
 
+.dark {
+  color: #ffffff;
+  background-color: #000000;
+}
+
 .info {
   background-color: #b6daf2;
 }
@@ -1276,7 +1281,7 @@ svg:not(:root) {
 .btn-inverse {
   color: #000000;
   background-color: #ffffff;
-  border-color: #000000;
+  border-color: #ffffff;
 }
 
 .btn-inverse:visited {
