@@ -287,15 +287,15 @@ span + .entry-title {
 	font-family: @heading-font;
 	.font-rem(24);
 	line-height: 1;
+	text-transform: uppercase;
 	a { color: @black; }
 	@media @medium {
 		max-width: 600px;
-		.font-rem(42);
-		text-transform: uppercase;
+		.font-rem(36);
 	}
 	@media @large {
 		max-width: 800px;
-		.font-rem(48);
+		.font-rem(42);
 	}
 }
 .entry-wrapper {
@@ -361,9 +361,11 @@ span + .entry-title {
 	margin-right: auto;
 	margin-left: auto;
 	.font-size(16);
-	p:first-child {
-		margin-top: 0;
-		.font-rem(18);
+	@media @medium {
+		p:first-child {
+			margin-top: 0;
+			.font-rem(18);
+		}
 	}
 	.footnotes p {
 		.font-rem(14);

@@ -288,6 +288,7 @@ button {
 }
 
 .unstyled-list li {
+  margin-top: 24px;
   list-style-type: none;
   *zoom: 1;
 }
@@ -303,18 +304,31 @@ button {
   clear: both;
 }
 
-.unstyled-list h1,
-.unstyled-list h4 {
-  margin: 0;
+@media only screen and (min-width: 48em) {
+  .unstyled-list li {
+    margin-top: 0;
+  }
 }
 
+.unstyled-list h1,
+.unstyled-list h4,
 .unstyled-list p {
   margin: 0;
 }
 
+.unstyled-list h1 {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 1.2632;
+}
+
+.unstyled-list h4 {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 1.2632;
+}
+
 .unstyled-list .entry-meta {
-  margin-bottom: 24px;
-  margin-bottom: 1.5rem;
   clear: none;
   font-size: 14px;
   font-size: 0.875rem;
@@ -325,7 +339,8 @@ button {
   float: right;
   width: 50px;
   height: 50px;
-  margin-left: 0;
+  margin-left: 5px;
+  border: 4px solid #ccc;
   -webkit-border-radius: 50px;
      -moz-border-radius: 50px;
           border-radius: 50px;
@@ -1366,6 +1381,7 @@ svg:not(:root) {
 }
 
 .badge {
+  display: inline-block;
   padding: 2px 9px 4px;
   font-size: 10px;
   font-size: 0.625rem;
@@ -2676,6 +2692,7 @@ span + .entry-title {
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 .entry-title a {
@@ -2685,17 +2702,16 @@ span + .entry-title {
 @media only screen and (min-width: 48em) {
   .entry-title {
     max-width: 600px;
-    font-size: 42px;
-    font-size: 2.625rem;
-    text-transform: uppercase;
+    font-size: 36px;
+    font-size: 2.25rem;
   }
 }
 
 @media only screen and (min-width: 62.5em) {
   .entry-title {
     max-width: 800px;
-    font-size: 48px;
-    font-size: 3rem;
+    font-size: 42px;
+    font-size: 2.625rem;
   }
 }
 
@@ -2808,10 +2824,12 @@ span + .entry-title {
   line-height: 1.5;
 }
 
-.entry-content p:first-child {
-  margin-top: 0;
-  font-size: 18px;
-  font-size: 1.125rem;
+@media only screen and (min-width: 48em) {
+  .entry-content p:first-child {
+    margin-top: 0;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
 }
 
 .entry-content .footnotes p {

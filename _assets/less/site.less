@@ -56,25 +56,33 @@ a, button {
 	margin-left: 0;
 	padding-left: 0;
 	li {
+		margin-top: 0px + @doc-line-height;
 		list-style-type: none;
 		.clearfix();
+		@media @medium {
+			margin-top: 0;
+		}
 	}
-	h1, h4 {
+	h1, h4, p {
 		margin: 0;
 	}
-	p {
-		margin: 0;
+	h1 {
+		.font(19);
+	}
+	h4 {
+		.font(19);
 	}
 	.entry-meta {
 		clear: none;
-		.font-size(14);
+		.font(14);
 	}
 	.preview {
-		margin-left: 0px;
+		margin-left: 5px;
 		width: 50px;
 		height: 50px;
 		float: right;
 		.rounded(50px);
+		border: 4px solid #ccc;
 		@media @medium {
 			margin-left: 0;
 			margin-right: 20px;
