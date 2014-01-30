@@ -16,23 +16,27 @@ body {
 	max-width: 440px;
 	padding-right: 20px;
 	padding-left: 20px;
+	text-align: center;
 	.clearfix();
 	@media @medium {
 		max-width: 760px;
 		padding-right: 60px;
 		padding-left: 60px;
+		text-align: left;
 	}
 	@media @large {
 		max-width: 960px;
 	}
 }
 #masthead {
-	display: inline-block;
-	float: left;
 	padding-top: 20px;
 	line-height: 50px; //match logo size to vertically align text
+	@media @medium {
+		display: inline-block;
+		float: left;
+	}
 	.site-title {
-		display: none;
+		display: block;
 		font-family: @heading-font;
 		text-transform: uppercase;
 		.font-rem(22);
@@ -66,9 +70,9 @@ body {
 // Site Navigation
 // --------------------------------------------------
 #site-nav {
-	padding-top: 20px;
 	font-family: @heading-font;
 	@media @medium {
+		padding-top: 20px;
 		display: inline-block;
 		clear: none;
 		float: right;
@@ -95,7 +99,6 @@ body {
 	}
 	a {
 		display: block;
-		margin-right: 20px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		color: @black;
@@ -119,7 +122,6 @@ body {
 // Styling the toggle menu link and hiding it
 .nav .navtoogle {	
 	padding: 0 10px;
-	float: left;
 	.font-rem(22);
 	font-weight: normal;
 	text-align: left;

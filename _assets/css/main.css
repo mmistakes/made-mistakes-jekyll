@@ -2274,6 +2274,7 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   margin: 0 auto;
+  text-align: center;
   *zoom: 1;
 }
 
@@ -2293,6 +2294,7 @@ body {
     max-width: 760px;
     padding-right: 60px;
     padding-left: 60px;
+    text-align: left;
   }
 }
 
@@ -2303,14 +2305,19 @@ body {
 }
 
 #masthead {
-  display: inline-block;
-  float: left;
   padding-top: 20px;
   line-height: 50px;
 }
 
+@media only screen and (min-width: 48em) {
+  #masthead {
+    display: inline-block;
+    float: left;
+  }
+}
+
 #masthead .site-title {
-  display: none;
+  display: block;
   font-family: lato, Calibri, Arial, sans-serif;
   font-size: 22px;
   font-size: 1.375rem;
@@ -2351,7 +2358,6 @@ body {
 }
 
 #site-nav {
-  padding-top: 20px;
   font-family: lato, Calibri, Arial, sans-serif;
 }
 
@@ -2359,6 +2365,7 @@ body {
   #site-nav {
     display: inline-block;
     float: right;
+    padding-top: 20px;
     clear: none;
     line-height: 50px;
   }
@@ -2396,7 +2403,6 @@ body {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-right: 20px;
   color: #000000;
   border-bottom: 1px solid #cccccc;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -2424,7 +2430,6 @@ body {
 }
 
 .nav .navtoogle {
-  float: left;
   padding: 0 10px;
   font-size: 22px;
   font-size: 1.375rem;
