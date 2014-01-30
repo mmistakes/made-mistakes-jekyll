@@ -543,6 +543,12 @@ span + .entry-title {
 	.entry-wrapper();
 	.font-rem(14);
 	color: lighten(@base-color,50);
+	p {
+		@media @medium {
+			display: inline-block;
+			float: left;
+		}
+	}
 	a {
 		color: lighten(@base-color,50);
 		.transition(all .2s ease-out);
@@ -556,6 +562,12 @@ span + .entry-title {
 // --------------------------------------------------
 .social-icons {
 	margin: 2em 0;
+	@media @medium {
+		display: inline-block;
+		margin: 0;
+		float: right;
+		text-align: right;
+	}
 	a {
 		padding: 4px 8px;
 		display: inline-block;

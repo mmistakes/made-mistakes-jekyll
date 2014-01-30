@@ -3148,6 +3148,13 @@ span + .entry-title {
   }
 }
 
+@media only screen and (min-width: 48em) {
+  .footer-wrapper p {
+    display: inline-block;
+    float: left;
+  }
+}
+
 .footer-wrapper a {
   color: #b3b3b3;
   -webkit-transition: all 0.2s ease-out;
@@ -3163,6 +3170,15 @@ span + .entry-title {
 
 .social-icons {
   margin: 2em 0;
+}
+
+@media only screen and (min-width: 48em) {
+  .social-icons {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    text-align: right;
+  }
 }
 
 .social-icons a {
