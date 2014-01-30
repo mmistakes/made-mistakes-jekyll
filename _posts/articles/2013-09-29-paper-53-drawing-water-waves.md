@@ -135,7 +135,7 @@ Boom! And we're done. Combined with a blue sky from my previous guide and you'll
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished waterscapes to show what is possible just by varying the color and composition.
 
-<ul class="recent-grid unstyled-list">
+<ul class="recent-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{{ site.url }}{% post_url /paperfaces/2013-05-31-bradersk8r-portrait %}"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>

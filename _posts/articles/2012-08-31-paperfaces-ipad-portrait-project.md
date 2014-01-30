@@ -22,7 +22,7 @@ PaperFaces is an iPad drawing project by time traveling designer and illustrator
 
 I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
 
-<ul class="recent-grid unstyled-list">
+<ul class="recent-grid">
 {% for post in site.categories.paperfaces limit:12 %}
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumb" /></a></li>
 {% endfor %}
@@ -101,19 +101,19 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 
 I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
 
-<ul id="fanart-gallery" class="recent-grid unstyled-list">
-  <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg" title="PaperFaces homage drawn by @Pepfre"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre" /></a></li>
-  <li><a href="{{ site.url }}/images/homage-missshrestha-rosebuds-lg.jpg" title="PaperFaces homage drawn by @missshrestha on Instagram"><img src="{{ site.url }}/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagra" /></a></li>
-  <li><a href="{{ site.url }}/images/homage-morgantj-mmistakes-lg.jpg" title="PaperFaces homage drawn by @morgantj"><img src="{{ site.url }}/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj" /></a></li>
-  <li><a href="{{ site.url }}/images/homage-tortadecereja-mmistakes-lg.jpg" title="PaperFaces homage drawn by @tortadecereja"><img src="{{ site.url }}/images/homage-tortadecereja-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @tortadecereja" /></a></li>
-  <li><a href="http://instagram.com/p/W8WaxfAYmG/" title="PaperFaces homage drawn by @lindseyvail_art on Instagram" target="_blank"><img src="{{ site.url }}/images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram" /></a></li>
-  <li><a href="http://instagram.com/p/W5r5EwgYge/" title="PaperFaces homage drawn by @lindseyvail_art on Instagram" target="_blank"><img src="{{ site.url }}/images/homage-lindseyvail-art-2-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram" /></a></li>
-  <li><a href="http://instagram.com/p/VQ4-6HklEU/" title="PaperFaces homage drawn by @m0im0i on Instagram" target="_blank"><img src="{{ site.url }}/images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram" /></a></li>
-  <li><a href="https://twitter.com/LovisasLife/status/314699959775662081" title="PaperFaces homage drawn by @LovisasLife" target="_blank"><img src="{{ site.url }}/images/homage-lovisaslife-150.jpg" alt="PaperFaces homage drawn by @LovisasLife on Twitter" /></a></li>
-  <li><a href="http://instagram.com/p/QTn7jWJkHj/" title="PaperFaces homage drawn by @ramesstudios" target="_blank"><img src="{{ site.url }}/images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram" /></a></li>
-  <li><a href="http://instagram.com/p/cHexhprrxf/" title="PaperFaces homage drawn by @konstnaren" target="_blank"><img src="{{ site.url }}/images/homage-konstnaren-150.jpg" alt="PaperFaces homage drawn by @konstnaren on Instagram" /></a></li>
-  <li><a href="http://instagram.com/p/aVh8QOJ-uv/" title="PaperFaces homage drawn by @grumz" target="_blank"><img src="{{ site.url }}/images/homage-grumz-150.jpg" alt="PaperFaces homage drawn by @grumz on Instagram" /></a></li>
-  <li><a href="http://eichan68.tumblr.com" title="PaperFaces homage drawn by @eichan68" target="_blank"><img src="{{ site.url }}/images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram" /></a></li>
+<ul id="fanart-gallery" class="recent-grid">
+  <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre" /></a></li>
+  <li><a href="{{ site.url }}/images/homage-missshrestha-rosebuds-lg.jpg"><img src="{{ site.url }}/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagra" /></a></li>
+  <li><a href="{{ site.url }}/images/homage-morgantj-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj" /></a></li>
+  <li><a href="{{ site.url }}/images/homage-tortadecereja-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-tortadecereja-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @tortadecereja" /></a></li>
+  <li><a href="http://instagram.com/p/W8WaxfAYmG/"target="_blank"><img src="{{ site.url }}/images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram" /></a></li>
+  <li><a href="http://instagram.com/p/W5r5EwgYge/" target="_blank"><img src="{{ site.url }}/images/homage-lindseyvail-art-2-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram" /></a></li>
+  <li><a href="http://instagram.com/p/VQ4-6HklEU/" target="_blank"><img src="{{ site.url }}/images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram" /></a></li>
+  <li><a href="https://twitter.com/LovisasLife/status/314699959775662081" target="_blank"><img src="{{ site.url }}/images/homage-lovisaslife-150.jpg" alt="PaperFaces homage drawn by @LovisasLife on Twitter" /></a></li>
+  <li><a href="http://instagram.com/p/QTn7jWJkHj/" target="_blank"><img src="{{ site.url }}/images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram" /></a></li>
+  <li><a href="http://instagram.com/p/cHexhprrxf/" target="_blank"><img src="{{ site.url }}/images/homage-konstnaren-150.jpg" alt="PaperFaces homage drawn by @konstnaren on Instagram" /></a></li>
+  <li><a href="http://instagram.com/p/aVh8QOJ-uv/" target="_blank"><img src="{{ site.url }}/images/homage-grumz-150.jpg" alt="PaperFaces homage drawn by @grumz on Instagram" /></a></li>
+  <li><a href="http://eichan68.tumblr.com" target="_blank"><img src="{{ site.url }}/images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram" /></a></li>
 </ul>
 
 ## Featured On

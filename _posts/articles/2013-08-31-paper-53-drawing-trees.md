@@ -123,7 +123,7 @@ One final tip for creating depth is to paint over everything with light gray or 
 
 Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
 
-<ul class="recent-grid unstyled-list">
+<ul class="recent-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-19-isellsoap-portrait %}"><img src="{{ site.url }}/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-02-thatmiddleway-portrait %}"><img src="{{ site.url }}/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-11-lmichelleinc-portrait %}"><img src="{{ site.url }}/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>

@@ -220,7 +220,7 @@ Depending on the color of this *harmonizing layer*, the highlights and shadows f
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}). Below are a few finished pieces to show what is possible just by varying the color and composition.
 
-<ul class="recent-grid unstyled-list">
+<ul class="recent-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-10-16-rob-jayne-portrait %}"><img src="{{ site.url }}/images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-02-06-padulantonio-portrait %}"><img src="{{ site.url }}/images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-06-17-idpro-portrait %}"><img src="{{ site.url }}/images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>

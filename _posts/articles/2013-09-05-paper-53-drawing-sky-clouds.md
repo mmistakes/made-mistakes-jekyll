@@ -133,7 +133,7 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
-<ul class="recent-grid unstyled-list">
+<ul class="recent-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-laramulady-portrait %}"><img src="{{ site.url }}/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-tipican-portrait %}"><img src="{{ site.url }}/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
