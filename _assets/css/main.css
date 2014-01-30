@@ -2264,7 +2264,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: #ffffff;
-  border-top: 5px solid #000000;
 }
 
 @media only screen and (min-width: 48em) {
@@ -2280,6 +2279,7 @@ body {
   padding-left: 20px;
   margin: 0 auto;
   text-align: center;
+  border-top: 5px solid #000000;
   *zoom: 1;
 }
 
