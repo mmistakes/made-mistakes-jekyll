@@ -16,23 +16,27 @@ body {
 	max-width: 440px;
 	padding-right: 20px;
 	padding-left: 20px;
+	text-align: center;
 	.clearfix();
 	@media @medium {
 		max-width: 760px;
 		padding-right: 60px;
 		padding-left: 60px;
+		text-align: left;
 	}
 	@media @large {
 		max-width: 960px;
 	}
 }
 #masthead {
-	display: inline-block;
-	float: left;
 	padding-top: 20px;
 	line-height: 50px; //match logo size to vertically align text
+	@media @medium {
+		display: inline-block;
+		float: left;
+	}
 	.site-title {
-		display: none;
+		display: block;
 		font-family: @heading-font;
 		text-transform: uppercase;
 		.font-rem(22);
@@ -47,10 +51,10 @@ body {
 	}
 	.site-logo {
 		img {
+		    width: 50px;
+		    height: 50px;
 		    @media @medium {
 			    display: inline;
-			    width: 50px;
-			    height: 50px;
 			    .rounded(100px);
 			    .transition(all .2s ease-out);
 			    &:hover {
@@ -66,9 +70,9 @@ body {
 // Site Navigation
 // --------------------------------------------------
 #site-nav {
-	padding-top: 20px;
 	font-family: @heading-font;
 	@media @medium {
+		padding-top: 20px;
 		display: inline-block;
 		clear: none;
 		float: right;
@@ -95,7 +99,6 @@ body {
 	}
 	a {
 		display: block;
-		margin-right: 20px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		color: @black;
@@ -116,20 +119,92 @@ body {
 		}
 	}
 }
-// Styling the toggle menu link and hiding it
+// Navicon lines
+@button-size: 1.5rem;
+.line() {
+	display: inline-block;
+	width: @button-size;
+	height: @button-size/7;
+	// line color
+	background: @white;
+	border-radius: @button-size/14;
+	transition: .3s;
+}
+.lines-button {
+	padding: @button-size/4 @button-size/2;
+	transition: .3s;
+	cursor: pointer;
+	user-select: none;
+	border-radius: @button-size/7;
+}
+.lines-button:hover {
+	opacity: 1;
+}
+.lines-button:active {
+	transition: 0;
+}
+.lines {
+	margin-right: 10px;
+	margin-bottom: @button-size/5;
+	// create middle line
+	.line();
+	position: relative;
+	// create the upper and lower lines as pseudo-elements of the middle line
+	&:before,
+	&:after {
+		.line();
+		position: absolute;
+		left: 0;
+		content: '';
+		-webkit-transform-origin: @button-size/14 center;
+		transform-origin: @button-size/14 center;
+	}
+	&:before { top: @button-size/4; }
+	&:after { top: -@button-size/4; }
+}
+.lines-button:hover {
+	opacity: 1;
+	.lines {
+		&:before { top: @button-size/3.5; }
+		&:after { top: -@button-size/3.5; }
+	}
+}
+.lines-button.x.active .lines {
+	// hide the middle line
+	background: transparent;
+	// overlap the lines by setting both their top values to 0
+	&:before,
+	&:after {
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		top: 0;
+		width: @button-size;
+	}
+	// rotate the lines to form the x shape
+	&:before {
+		-webkit-transform: rotate3d(0,0,1,45deg);
+		transform: rotate3d(0,0,1,45deg);
+	}
+	&:after {
+		-webkit-transform: rotate3d(0,0,1,-45deg);
+		transform: rotate3d(0,0,1,-45deg);
+	}
+}
+// Style the toggle menu link and hide it
 .nav .navtoogle {	
-	padding: 0 10px;
-	float: left;
-	.font-rem(22);
+	.font-rem(18);
 	font-weight: normal;
-	text-align: left;
-	line-height: 50px; //match logo size to vertically align text
-	background: none;	
+	background-color: @black;
+	color: @white;	
 	border: none;
 	cursor: pointer;
 	@media @medium {
 		display: none;
 	}
+}
+.nav button {
+	border: none;
+	background: none;
 }
 .navtoogle i {
 	z-index:-1;
@@ -143,7 +218,7 @@ body {
 .no-js .nav .navtoggle {
 	display: none;
 }
-// When JavaScript is disabled, we show the menu */
+// When JavaScript is disabled, we show the menu
 .no-js .nav ul {
 	max-height: 30em;
 	overflow: hidden;
