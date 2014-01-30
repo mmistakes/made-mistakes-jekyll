@@ -51,10 +51,10 @@ body {
 	}
 	.site-logo {
 		img {
+		    width: 50px;
+		    height: 50px;
 		    @media @medium {
 			    display: inline;
-			    width: 50px;
-			    height: 50px;
 			    .rounded(100px);
 			    .transition(all .2s ease-out);
 			    &:hover {
@@ -119,7 +119,6 @@ body {
 		}
 	}
 }
-
 // Navicon lines
 @button-size: 1.5rem;
 .line() {
@@ -132,17 +131,17 @@ body {
 	transition: .3s;
 }
 .lines-button {
-  padding: @button-size/4 @button-size/2;
-  transition: .3s;
-  cursor: pointer;
-  user-select: none;
-  border-radius: @button-size/7;
+	padding: @button-size/4 @button-size/2;
+	transition: .3s;
+	cursor: pointer;
+	user-select: none;
+	border-radius: @button-size/7;
 }
 .lines-button:hover {
-  opacity: 1;
+	opacity: 1;
 }
 .lines-button:active {
-  transition: 0;
+	transition: 0;
 }
 .lines {
 	margin-right: 10px;
@@ -191,8 +190,7 @@ body {
 		transform: rotate3d(0,0,1,-45deg);
 	}
 }
-
-// Styling the toggle menu link and hiding it
+// Style the toggle menu link and hide it
 .nav .navtoogle {	
 	.font-rem(18);
 	font-weight: normal;
@@ -220,7 +218,7 @@ body {
 .no-js .nav .navtoggle {
 	display: none;
 }
-// When JavaScript is disabled, we show the menu */
+// When JavaScript is disabled, we show the menu
 .no-js .nav ul {
 	max-height: 30em;
 	overflow: hidden;
