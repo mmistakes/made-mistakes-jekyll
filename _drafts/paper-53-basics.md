@@ -84,54 +84,120 @@ The placement of these marks can be as expressive or mathematically as you want.
 <i class="fa fa-star"></i> **ProTip:** Most of these inking techniques can be adapted to the pencil tool and used to shade and create gradations of tone --- specifically parallel, contour, and cross hatching.
 {: .notice}
 
-### Ink Blobs
+### Ink Blobs and Drips
+
+Using both ink pens and the pencil you can simulate ink splatter, blobs, and dribs. The idea here is to recreate those happy accidents in a natural and random way. To start create a grouping of small circles and dots using the fountain pen.
+
+![Ink circles and a few dots](http://placehold.it/750x250.gif)
+![Adding variation to the circles](http://placehold.it/750x250.gif)
+
+To make these shapes more irregular, zoom in and distort their shape by adding bumps and points along the edges. You don't have to overdo this step --- small variations here and there will do the trick.
+
+![Making blobs irregular](http://placehold.it/750x250.gif)
+
+Applying a few shadows and highlights with the pencil tool can make these shapes pop off the canvas. Draw a few dark strokes on one side of the blobs or drips, and then using white or another light color draw a highlight on the opposite side. Depending on how thick of a blob you are going for you may need to add a cast shadow using the pencil or watercolor brush filled with a light gray.
+
+![Adding shadows and highlights to blobs](http://placehold.it/750x250.gif)
 
 ## Watercolor Brush Techniques
 
+I'm going to go ahead and assume you've already read my [Paper by 53 Introduction and Tool Guide]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#watercolor-brush), where I explain how the brush works and some of its nuances. With this understanding the following four techniques should make more sense. 
+
 ### Painting Smooth
 
-### Feathering Strokes
+The question that hits my inbox the most is "how do you paint so smoothly?" Well here's my secret. Paint a **continuous stroke**, **without lifting** your finger or stylus. If you lift and dab an area multiple times it will darken and turn bumpy --- don't do that!
+
+![Choppy painting vs. consistent painting screenshot](http://placehold.it/750x250.gif)
+
+The other important variable to consider is moving your finger (or stylus) across the screen at a slow pace. If you rub in a circle motion on an area that is light it will eventually hit it's maximum darkness. As long as you **don't lift** as you circle over these lighter spots, everything will even out.
+
+![Animation of painting evenly](http://placehold.it/750x250.gif)
+
+### Feathering Edges
+
+Reliably producing a painted edge that is soft and blurry becomes important when mixing shapes into each other smoothly. To achieve this effect you need to move gradually increase the speed of your stroke as you approach the edge you want to feather. 
+
+![Feathered edge example](http://placehold.it/750x250.gif)
+![Animation feathering an edge](http://placehold.it/750x250.gif)
+
+A wet-on-wet effect can be simulated by feathering brush strokes into each other. Getting the perfect fade can be tricky, so don't be afraid of rewinding and trying again. *I almost never get it right the first time.*
+
+![Feathered colors](http://placehold.it/750x250.gif)
 
 ### Lightening with White
 
-Adding white to a color raises it to a tint or a *pastel* color. Tints can be applied in two ways:
+The watercolor brush has the unique ability of lightening previously painted or drawn areas when used with white. This can be an effective way of pulling highlights out of your subject or to erase mistakes. 
 
-1. By adding white, which will often make hues bluer.
-2. Apply the color as a thin, transparent layer over white.
+![Range of white tints](http://placehold.it/750x250.gif)
+
+<i class="fa fa-star"></i> **ProTip:** Lightening with colors tinted[^tint] with white often yield better results and are easier to control than a solid white.
+{: .notice}
+
+[^tint]: Adding white to a color raises it to a tint or a *pastel* color and increases it's saturation some --- adjust accordingly to keep harmony with your color palette.
+
+![Lightening an area with white](http://placehold.it/750x250.gif)
+
+White paint behaves slightly different from the other colors available in the mixer and default palettes. Much like painting with pure black it fills in quickly. Which means if you use it to paint, you have to move fast or risk completely covering up anything you paint over.
+
+<i class="fa fa-star"></i> **ProTip:** Quick, short strokes in a dabbing motion work great for lightening an area gradually. 
+{: .notice}
 
 ### Glazing
 
-Instead of beginning a painting on a white canvas, there are several reasons why artists pre-tone the surface before painting in opaque media. This initial color is called the under-painting.
+When painting with the brush you are essentially spreading layers of transparent paint (or a glaze[^glazing]) on top of each other. These glazes don't actually mix with one another, but because they are translucent colors can appear to combine. They also have the benefit of increasing the depth and luminosity of a color with each successive layer.
 
-Warm under-painting is especially helpful for painting of skies or foliage, or any painting with a blue or green tonality. The little bits of color that peek through the strokes will make blues or greens sparkle by complementary contrast.
+[^glazing]: Glazing is a watercolor technique that uses a thin, transparent pigment applied over dry existing washes. Its purpose is to adjust the color and tone of the underlying wash.
 
-Paint that is transparent allows light to pass through it, the brush is this way. 
+![Glazes created with the watercolor brush]({{ site.url }}/images/paper-53-watercolor-layers.jpg)
+
+I like to think of glazes as my *color harmonizers* that tints everything with a similar hue. A great way to tie a piece together if your colors aren't quite working together.
+
+![Glaze harmonizer](http://placehold.it/750x250.gif)
+
+### Underpainting
+
+If glazes are applied on top of a painting or drawing, under-painting are the layers applied below. It is most often used to pre-tone the canvas by removing white from it. The color(s) you choose can have a profound effect on digital pigments and strokes applied over them.
+
+![Red underpainting with green tree comparison](http://placehold.it/750x250.gif)
+
+For example, contrasting colors can create some vibrancy in the scene. A lush landscape filled with a cool sky and green trees, under-painted with a reddish glaze will cause the space around the leaves to shine through. Much more than if the canvas was left white.
+
+Or you can tone the canvas with the composition's dominant color. When doing detail work you won't have to worrying about covering up the bits of white canvas that show through. The background will roughly match what you are painting as your main subject, saving you time precious time.
+
+![Blocking out shapes underpainting](http://placehold.it/750x250.gif)
+
+Underpainting can also be used to establish the correct values and confirm the composition of your subject. Think of it as *sketching* with the brush, but instead of making light lines you are blocking out shapes. These shapes correlate to the subject you are capturing in tone and form.
 
 ## Color Theory Basics
 
 ### Primary Colors
 
-The idea of a primary color is that it should be possible to mix every other color out of the three primaries. Traditionally that has been red, yellow, and blue.
+Thinking back to elementary school you probably heard the term **primary color** thrown around. The idea is that it should be possible to mix every other color out of the three primaries. Traditionally that has been red, yellow, and blue.
+
+Now I wouldn't go as far as suggesting you mix primary colors on canvas to produce secondary and tertiary colors, but it's worth understanding how they're made.
 
 ![Traditional color wheel](http://placehold.it/750x250.gif)
 
 ### Complementary Colors and Grays
 
-When complements are mixed together, they result in a neutral gray. Grays can be mixed from tons of color combinations. I've found that instead of mixing grays from white and black, it is more pleasing to mix them from complementary pairs.
+On the traditional color wheel complementary colors are across from each other (red and green, blue and orange, yellow and violet). When complements are mixed together, they result in a neutral gray. 
+
+![Layering complements](http://placehold.it/750x250.gif)
+![Variations of gray](http://placehold.it/750x250.gif)
+
+I've found that instead of mixing grays from white and black, it is more pleasing to mix them from pairs of complementary colors. This gives you a limitless amount of grays to pull from for your palettes.
 
 ![Mixing grays from complements](http://placehold.it/750x250.gif)
 
-Mixing complements also helps to unify your composition's palette. You can also paint compliments on top of each other to produce a gray.
+Mixing complements also helps to unify your composition's palette. You can also glaze compliments on top of each other to dull a color --- useful for creating shadows.
 
 ### Atmospheric Perspective
 
-Bold colors found in the foreground gradually transform until they match the sky. As you go back objects generally lose their color saturation, becoming grayer. Warm colors like orange and red will turn duller and cooler for example.
+Atmospheric perspective is the phenonemon where intense foreground colors gradually change until they match the sky. As you travel back objects generally lose saturation in color, becoming grayer. For example warm colors like red and orange will dull and turn cool.
 
-The amount of contrast between values also changes. The illuminated and shadowed sides of an object grow closer to one another and flatten out.
+The amount of contrast in the subject also changes. The illuminated and shadowed sides of an object grow closer to one another and flatten out as you move further into the background. These objects also begin to loss clarity and will blur out --- a perfect subject for the [Blend tool]({{ site.url }}{% post_url /articles/2013-11-20-blend-first-look %}).
 
-A loss of clarity can also be observed the farther back you travel. Objects will begin to blur and lose detail.
-
-<i class="fa fa-star"></i> **General Rule of Thumb:** Warm colors advance, and cool colors recede.
+<i class="fa fa-star"></i> **General Rule of Thumb:** Warm colors advance, and cool colors recede. The reverse is also true but much more rare in nature.
 {: .notice}
 
 {% include support.html %}
