@@ -990,16 +990,6 @@ li code {
   visibility: hidden;
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
-}
-
 /* ELEMENTS AND ADDONS
  * -------------------------- */
 
@@ -1454,7 +1444,7 @@ svg:not(:root) {
   }
 }
 
-/* Magnific Popup CSS */
+/* Magnific Popup */
 
 .mfp-bg {
   position: fixed;

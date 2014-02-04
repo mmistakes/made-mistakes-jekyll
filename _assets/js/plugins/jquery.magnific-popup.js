@@ -346,13 +346,13 @@ MagnificPopup.prototype = {
 		var windowStyles = {};
 
 		if( mfp.fixedContentPos ) {
-            if(mfp._hasScrollBar(windowHeight)){
-                var s = mfp._getScrollbarSize();
-                if(s) {
-                    windowStyles.paddingRight = s;
-                }
-            }
-        }
+			if(mfp._hasScrollBar(windowHeight)){
+				var s = mfp._getScrollbarSize();
+				if(s) {
+					windowStyles.paddingRight = s;
+				}
+			}
+		}
 
 		if(mfp.fixedContentPos) {
 			if(!mfp.isIE7) {
