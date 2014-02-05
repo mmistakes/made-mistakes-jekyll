@@ -5,10 +5,10 @@ layout: page
 <ul class="post-index unstyled-list">
 	{% for post in site.posts %}
 	{% assign readtime = post.content | number_of_words | divided_by:200 %}
-	  	{% for tag in post.tags %}
-		  	{% if tag == page.tag %}
-		  	<li>
-			    <article itemscope itemtype="http://schema.org/Article">
+		{% for tag in post.tags %}
+			{% if tag == page.tag %}
+			<li>
+				<article itemscope itemtype="http://schema.org/Article">
 					<a href="{{ site.url }}{{ post.url }}" itemprop="url">
 						{% if post.image.thumb %}<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image" itemprop="image">{% else %}<img src="{{ site.url }}/images/{{ site.logo }}" class="preview" alt="preview image" itemprop="image">{% endif %}
 						<h1 itemprop="name">{{ post.title }}</h1>
@@ -17,7 +17,7 @@ layout: page
 							<i class="fa fa-clock-o"></i> Reading time ~{% if readtime <= 1 %}1 min{% else %}{{ readtime }} min{% endif %} &#8901; <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ post.date | date: "%B %d, %Y" }}</time></span>
 						</p><!-- /.entry-meta -->
 					</a>
-			    </article>
+				</article>
 			</li>
 			{% endif %}
 		{% endfor %}

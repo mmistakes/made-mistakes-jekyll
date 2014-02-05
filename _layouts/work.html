@@ -11,16 +11,16 @@ body_id: page
 		</div><!-- /.entry-image -->
 		{% endif %}
 		<header class="entry-header">
-		    <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+			<h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
 		</header>
 		<div class="entry-wrapper">
 			
 			<div class="entry-content" itemprop="description">
-		    {% if page.work %}
-			    <div class="center-block"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
-		    {% endif %}
-			    {{ content }}
-			    {% if page.categories contains 'paperfaces' %}
+				{% if page.work %}
+					<div class="center-block"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
+				{% endif %}
+				{{ content }}
+				{% if page.categories contains 'paperfaces' %}
 					<h2 style="margin-top:2em;">Recently Added <a href="#" onclick="(function(btn){var z=document.createElement('script');document.subtomeBtn=btn;z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})(this);_gaq.push(['_trackEvent', 'Link', 'Subscribe']);" data-subtome-resource="{{ site.url }}" data-subtome-feeds="http://feeds.feedburner.com/MadeMistakesPaperFaces"><i class="fa fa-rss fa-fw"></i></a></h2>
 					<ul class="oversized-recent-grid">
 					{% for post in site.categories.paperfaces limit:6 %}
