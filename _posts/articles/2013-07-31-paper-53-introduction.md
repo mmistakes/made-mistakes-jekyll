@@ -197,7 +197,7 @@ Well there you have it. I hope this has served as a good introduction to Paper b
 
 {% include support.html %}
 
-[^opaque]: Not transparent or translucent; impenetrable to light; notallowing light to pass through.
+[^opaque]: Not transparent or translucent; impenetrable to light; not allowing light to pass through.
 
 [^pure-color]: I define pure as matching the color selected in the mixer. Many of the tools have a hint of translucency to them and need 2-3 layers to match exactly.
 
