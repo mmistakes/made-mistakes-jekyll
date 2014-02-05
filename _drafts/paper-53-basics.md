@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mastering Paper by 53: Back to Basics"
-description: "Basic drawing, painting, color theory and more using the iPad app Paper by 53."
+description: "A refresher on drawing, painting, and color theory basics using the iPad app Paper by 53."
 image: 
   feature: 
   thumb: 
@@ -30,7 +30,7 @@ A couple of points to keep in mind for creating an even gradation.
 2. Don't be tempted to overwork and area. Keep moving at an even pace.
 3. If you are using a stylus with a sensitive tip (ie: a Pogo Connect), don't vary the amount of pressure you apply --- keep it constant and light.
 
-![Pencil shading samples scrumble wash oval](http://placehold.it/750x250.gif)
+![Pencil shading samples scumble wash oval](http://placehold.it/750x250.gif)
 
 Once you've gotten the hang of producing a range of smooth values, it can be fun to introduce additional colors to the mix. Colors can also be blended by overlapping pencil strokes visually mixing them. 
 
@@ -47,7 +47,7 @@ Out of the two ink tools that Paper comes with, the [pen]({{ site.url }}{% post_
 
 By all means use whatever tool you're most comfortable with. If you're new to iPad drawing and just want to practice the techniques I'm going to describe next, do yourself a solid and stick with the ink pen.
 
-There are many techniques for indicating light and shadow when drawing with ink but they all follow the same general principle. Draw marks where there are shadows, and leave the canvas blank where there are highlights.
+There are many techniques for suggesting light and shadow when drawing with ink but they all follow the same general principle. Draw marks where there are shadows, and leave the canvas blank where there are highlights.
 
 ### Parallel Hatching
 
@@ -193,9 +193,9 @@ Mixing complements also helps to unify your composition's palette. You can also 
 
 ### Atmospheric Perspective
 
-Atmospheric perspective is the phenonemon where intense foreground colors gradually change until they match the sky. As you travel back objects generally lose saturation in color, becoming grayer. For example warm colors like red and orange will dull and turn cool.
+Atmospheric perspective is the phenomenon where intense foreground colors gradually change until they match the sky. As you travel back objects generally lose saturation in color, becoming grayer. For example warm colors like red and orange will dull and cool off.
 
-The amount of contrast in the subject also changes. The illuminated and shadowed sides of an object grow closer to one another and flatten out as you move further into the background. These objects also begin to loss clarity and will blur out --- a perfect subject for the [Blend tool]({{ site.url }}{% post_url /articles/2013-11-20-blend-first-look %}).
+The amount of contrast in the subject also changes. The illuminated and shadowed sides of an object lower in contrast and flatten as you move further into the background. These objects also begin to loss clarity and will blur and become fuzzy --- a perfect subject for the [Blend tool]({{ site.url }}{% post_url /articles/2013-11-20-blend-first-look %}).
 
 <i class="fa fa-star"></i> **General Rule of Thumb:** Warm colors advance, and cool colors recede. The reverse is also true but much more rare in nature.
 {: .notice}
