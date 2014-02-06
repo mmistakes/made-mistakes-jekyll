@@ -24,7 +24,7 @@ I make every effort to update the gallery weekly with the freshest of fresh alon
 
 <ul class="recent-grid">
 {% for post in site.categories.paperfaces limit:12 %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" /></a></li>
 {% endfor %}
 </ul>
 

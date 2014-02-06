@@ -17,7 +17,7 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 <ul class="oversized-recent-grid">
 {% for post in site.categories.paperfaces limit:8 %}
   <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-    <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
+    <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="106" height="106">
   </a></li>
   {% endfor %}
 </ul>
