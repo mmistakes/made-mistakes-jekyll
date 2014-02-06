@@ -1,9 +1,6 @@
 # [Made Mistakes](http://mademistakes.com) Source Code
 
-This is the source code of Made Mistakes, a personal blog and portfolio on http://mademistakes.com, hosted by 
-[Media Temple](http://mediatemple.net/#a_aid=51686252ceb4c). My overall goal with the site design was to create visually interesting pages that look great and are readable on mobile, tablet, and desktop viewports.
-
-The article layouts are the most fleshed out and *finished*, while  `work.html` used for portfolio and photo pages is still a work in progress.
+This is the source code of Made Mistakes, a personal blog and portfolio on http://mademistakes.com.
 
 ---
 
@@ -25,30 +22,30 @@ $ gem install jekyll
 
 ## Jekyll Plugins
 
-The only plugin that needs installing is the [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle) RubyGem.The other plugins are already installed in the `_plugins` folder and should be set to go. 
+The only plugin that needs installing is the [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle) RubyGem. The other plugins should be good to go and are located in the `_plugins` folder. 
 
 ### [Jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle)
 
-This plugin requires Ruby 1.9.3 so if you don't want to use it just remove the `{% ministamp %}` Liquid tags in `head.html` and `scripts.html`.
+This plugin is used to cachebust static assets like the site's stylesheets and scripts. It requires Ruby 1.9.3 so if you don't want to use it just remove the `{% ministamp %}` Liquid tags in `head.html` and `scripts.html`.
 
 To install Jekyll-minibundle use the following terminal command:
 ``` bash
 $ gem install jekyll-minibundle
 ```
 
-### [Sitemap.xml Generator](http://www.kinnetica.com/projects/jekyll-sitemap-generator/)
+### [Sitemap.xml Generator](https://github.com/kinnetica/jekyll-plugins)
 
-Generates a `sitemap.xml` file by traversing all of the available posts and pages.
+Generates a `sitemap.xml` file by traversing all of the available posts and pages. The same could be done with Jekyll natively but I like the extra layers of customization this plugin provides.
 
 ### svg_mime_type
 
-Serves SVG files with the correct MIME type when running `$ jekyll --server`.
+Serves SVG files with the correct MIME type when running `$ jekyll --server`, avoiding any errors when previewing locally.
 
 ---
 
 ## Layouts
 
-There are three main content `_layouts` used on the site: `post.html`, `page.html`, and `work.html`.
+There are three main content `_layouts` used on the site: `post.html`, `page.html`, and `work.html` that are all based off of `default.html`.
 
 ### Post and Page Layouts
 
@@ -56,11 +53,13 @@ The `post.html` and `page.html` layouts are very similar: both pull in large fea
 
 ### Portfolio and Image Layout (Work in Progress)
 
-Needs some love, but does work albeit with some messy looking Liquid to keep post pagination isolated to the current category.
+Currently a work in progress. Very similar to the `page.html` with some minor simplifications to the layout.
 
-### Home and Post Index Layouts
+### Home and Index Layouts
 
-Home page uses the `home.html` layout and is designed to pull in 6 posts (thumbnail image and title) that are tagged `feature` along with the 10 latest posts in `category: articles`. Articles index uses the `post-index.html` layout and is designed to display all posts in the category `articles`.
+Home page uses the `home.html` layout and is designed to pull in 6 posts (thumbnail image and title) that are tagged `feature` along with the a recent posts from the `articles` category. Articles index uses the `post-index.html` layout and is designed to display all posts in the category `articles`.
+
+`work-index.html` displays all posts from the `work` category in a similar manner as the featured items on the homepage.
 
 ---
 
@@ -81,7 +80,12 @@ Compile site:
 $ jekyll build
 ```
 
-Start a Jekyll server at <http://localhost:4000/>, (make sure to enable this url in `_config.yml` so all assets and images have correct absolute url's via the `{{ site.url }}` Liquid tag:
+Compile site and all `_draft` posts:
+``` bash
+$ jekyll build --drafts
+```
+
+Start a Jekyll server at <http://localhost:4000/>, (make sure to enable this url in `_config.yml` so static assets are served properly.
 ``` bash
 $ jekyll serve
 ```
@@ -109,19 +113,9 @@ Grunt build script will compile/minify the LESS files into `main.min.css` and co
 npm install
 ```
 
-From the site's root, use `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the `images/` folder. For local development `grunt watch` used in combination with `jekyll build --watch` will watch for updates to LESS and JS files that Grunt will then automatically re-build which will in turn cause Jekyll to autogenerate a new `_site` folder for testing.
+From the site's root, use `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg found in the `images` folder.
 
----
-
-## Deployment
-
-Nothing fancy here.
-
-1. Enable correct `{{ site.url }}` in `_config.yml` (ie: http://mademistakes.com)
-2. Run Grunt build script `$ grunt`
-3. Run Jekyll `$ jekyll build`
-4. Minify HTML `$ rake minify`
-5. FTP the contents of the `_site` folder to your webserver
+For local development `grunt watch` used in combination with `jekyll build --watch` will look for updates to .less and .js files that Grunt will then automatically re-build which will in turn cause Jekyll to auto generate a new `_site` folder for testing.
 
 ---
 
@@ -131,7 +125,8 @@ The following directories and their contents are released under a [Creative Comm
 
 ```
 _posts/
+_drafts/
 images/
 ```
 
-Basically this means you are free to share, transmit, distribute, alter, transform, and build on my work just as long as you don't sell it as a theme or pass it off as your own work. Don't be a dick please.
+Basically this means you are free to share, transmit, distribute, alter, transform, and build on my work just as long as you don't sell or pass it off as your own work. When in doubt ask [@mmistakes](http://twitter.com/mmistakes). Don't be a dick please.
