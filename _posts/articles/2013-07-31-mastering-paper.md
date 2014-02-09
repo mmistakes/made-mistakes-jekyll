@@ -4,7 +4,7 @@ permalink: /mastering-paper/
 title: "Mastering Paper by 53"
 short-title: "Mastering Paper by 53"
 description: "A collection of tutorials and techniques to help master Paper by 53 for iPad."
-modified: 2014-01-30
+modified: 2014-02-09
 image: 
   thumb: paper-53-expanded-guide-thumb.jpg
   homepage: paper-by-53-500x500.jpg
@@ -43,11 +43,6 @@ The guide is broken up into several parts explaining how the tools work, specifi
 	</li>
 {% endif %}
 {% endfor %}
-	<li>
-		<i class="preview" style="background-color:#ccc;"></i>
-		<h4>7. Back to Basics <span class="badge">Coming Soon</span></h4>
-		<p>A short detour that explains techniques for pencil drawing, inking, painting, and a quick overview on color theory.</p>
-	</li>
 	<li>
 		<i class="preview" style="background-color:#ccc;"></i>
 		<h4>8. Drawing Skin and Faces (revisited) <span class="badge">Coming Soon</span></h4>
