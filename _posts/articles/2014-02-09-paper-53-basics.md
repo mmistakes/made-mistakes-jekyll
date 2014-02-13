@@ -2,6 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Back to Basics"
 description: "A refresher on drawing, painting, and the basics of color theory using the iPad app Paper by 53."
+modified: 2014-02-13
 image: 
   feature: paper-53-basics-feature.jpg
   thumb: paper-53-basics-thumb.jpg
