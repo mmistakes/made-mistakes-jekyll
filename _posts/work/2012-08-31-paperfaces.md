@@ -12,6 +12,7 @@ image:
 category: work
 homepage: true
 tags: [PaperFaces, Paper by 53, iPad art, portrait, illustration]
+change_frequency: daily
 ---
 
 PaperFaces is an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! Each day I draw the face of a stranger using an iPad, a stylus, and the fabulous sketching app *Paper by 53*. 
