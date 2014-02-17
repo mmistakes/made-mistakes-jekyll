@@ -3243,18 +3243,36 @@ span + .entry-title {
 
 #goog-wm-qt {
   width: auto;
+  padding: 8px 10px;
   margin-right: 10px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  border-color: #b3b3b3;
+  border-style: solid;
+  border-width: 2px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+#goog-wm-qt:hover {
+  border-color: #000000;
 }
 
 #goog-wm-sb {
   display: inline-block;
   padding: 8px 20px;
+  margin-bottom: 1em;
+  font-size: 14px;
+  font-size: 0.875rem;
   color: #ffffff;
   background-color: #000000;
-  border: 2px solid #000000 !important;
-  -webkit-border-radius: 20px;
-     -moz-border-radius: 20px;
-          border-radius: 20px;
+  border-color: #000000;
+  border-style: solid !important;
+  border-width: 2px !important;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
 }
 
 #goog-wm-sb:visited {

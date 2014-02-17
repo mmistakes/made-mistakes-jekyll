@@ -623,19 +623,16 @@ span + .entry-title {
 #goog-wm-qt {
 	width: auto;
 	margin-right: 10px;
+	padding: 8px 10px;
+	.font-rem(14);
+	border-width: 2px;
+	border-style: solid;
+	border-color: lighten(@base-color,50);
+	.rounded(3px);
+	&:hover {
+		border-color: @black;
+	}
 }
 #goog-wm-sb {
-	display: inline-block;
-	padding: 8px 20px;
-	background-color: @black;
-	color: @white;
-	border: 2px solid @black !important;
-	.rounded(20px);
-	&:visited {
-		color: @white;
-	}
-	&:hover {
-		background-color: @white;
-		color: @black;
-	}
+	.btn();
 }
