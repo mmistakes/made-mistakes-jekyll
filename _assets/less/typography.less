@@ -96,21 +96,13 @@ blockquote {
 	}
 }
 
-// Image Credit
-.image-credit {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	padding: 10px 15px;
-	color: @white;
-	background-color: fade(@base-color,50);
-	.font-rem(12);
-	text-align: right;
-	.border-radius(3px,0,0,3px);
-	z-index: 10;
-	a {
-		color: @white;
-		text-decoration: none;
+// Markdown Table of Contents
+// --------------------------------------------------
+@media @medium {
+	#markdown-toc {
+		li {
+			.font-rem(16);
+		}
 	}
 }
 

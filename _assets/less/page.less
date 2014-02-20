@@ -360,15 +360,28 @@ span + .entry-title {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	.font-size(16);
+	p {
+		.font-size(16);
+	}
+	li {
+		.font(16);
+	}
 	@media @medium {
+		p {
+			.font-rem(18);
+		}
 		p:first-child {
 			margin-top: 0;
+			.font-rem(20);
+			line-height: 1.4;
+		}
+		li {
 			.font-rem(18);
 		}
 	}
 	.footnotes p {
-		.font-rem(14);
+		.font-rem(16);
+		line-height: 1.25;
 	}
 	@media @large {
 		float: left;
@@ -635,4 +648,90 @@ span + .entry-title {
 }
 #goog-wm-sb {
 	.btn();
+}
+
+// Printing
+// -------------------------
+// Source: https://github.com/h5bp/html5-boilerplate/blob/master/css/main.css
+
+@media print {
+
+	* {
+		text-shadow: none !important;
+		color: #000 !important; // Black prints faster: h5bp.com/s
+		background: transparent !important;
+		box-shadow: none !important;
+	}
+
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
+
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
+
+	// Don't show links for images, or javascript/internal links
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content: "";
+	}
+
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+
+	thead {
+		display: table-header-group; // h5bp.com/t
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	img {
+		max-width: 100% !important;
+	}
+
+	@page {
+		margin: 0.5cm;
+	}
+
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+	// Increase content width to fill page
+	.entry-wrapper, 
+	.entry-content,
+	.entry-header h1 {
+		width: 100%;
+		max-width: 100%;
+	}
+	// Hide unimportant things
+	.masthead-wrapper,
+	.ads,
+	.social-icons {
+		display: none;
+	}
+	// Clean up feature image spacing
+	.entry-feature-image {
+		marign-top: 0;
+	}
 }
