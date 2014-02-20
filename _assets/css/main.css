@@ -920,6 +920,7 @@ hr {
   height: 1px;
   padding: 0;
   margin: 1em 0;
+  clear: both;
   border: 0;
   border-top: 1px solid #cccccc;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -2551,7 +2552,8 @@ body {
   width: 100%;
 }
 
-.entry-header h1 {
+.entry-header h1,
+.entry-header h6 {
   max-width: 440px;
   padding-right: 20px;
   padding-left: 20px;
@@ -2561,18 +2563,22 @@ body {
 }
 
 .entry-header h1:before,
-.entry-header h1:after {
+.entry-header h6:before,
+.entry-header h1:after,
+.entry-header h6:after {
   display: table;
   line-height: 0;
   content: "";
 }
 
-.entry-header h1:after {
+.entry-header h1:after,
+.entry-header h6:after {
   clear: both;
 }
 
 @media only screen and (min-width: 48em) {
-  .entry-header h1 {
+  .entry-header h1,
+  .entry-header h6 {
     max-width: 720px;
     padding-right: 60px;
     padding-left: 60px;
@@ -2580,10 +2586,19 @@ body {
 }
 
 @media only screen and (min-width: 62.5em) {
-  .entry-header h1 {
+  .entry-header h1,
+  .entry-header h6 {
     max-width: 960px;
     padding-right: 140px;
   }
+}
+
+.entry-header h6 + h1 {
+  margin-top: 0;
+}
+
+.entry-header h6 {
+  margin-bottom: 1em;
 }
 
 .entry-image {
@@ -2672,40 +2687,24 @@ span + .entry-title {
   color: #343434;
 }
 
-.entry-meta .tag {
-  display: inline-block;
-  padding: 2px 6px;
-  margin: 4px 4px 4px 0;
-  color: #ffffff;
-  background-color: #343434;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-}
-
-.entry-meta .tag span {
-  font-size: 10px;
-  font-size: 0.625rem;
-  vertical-align: super;
-}
-
-.entry-meta .tag:hover {
-  background-color: #222222;
-}
-
-.entry-meta .tag:active {
-  -webkit-transform: translate(0, 1px);
-     -moz-transform: translate(0, 1px);
-      -ms-transform: translate(0, 1px);
-       -o-transform: translate(0, 1px);
-          transform: translate(0, 1px);
-  -webkit-box-shadow: 0 0 1px rgba(52, 52, 52, 0.2);
-     -moz-box-shadow: 0 0 1px rgba(52, 52, 52, 0.2);
-          box-shadow: 0 0 1px rgba(52, 52, 52, 0.2);
-}
-
 .entry-tags {
-  display: block;
+  text-transform: uppercase;
+}
+
+.entry-tags a {
+  color: #000000;
+}
+
+@media only screen and (min-width: 48em) {
+  .entry-tags {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (min-width: 62.5em) {
+  .entry-tags {
+    max-width: 800px;
+  }
 }
 
 .author-photo {

@@ -11,10 +11,11 @@ body_id: page
 		</div><!-- /.entry-image -->
 		{% endif %}
 		<header class="entry-header">
+			<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
+			<h6 class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</h6>
 			<h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
 		</header>
 		<div class="entry-wrapper">
-			
 			<div class="entry-content" itemprop="description">
 				{% if page.work %}
 					<div class="center-block"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
@@ -33,8 +34,6 @@ body_id: page
 				{% endif %}
 					<hr />
 					<div class="entry-meta">
-						<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
-						<span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" class="tag" rel="tag">{{ tag }}</a>{% endfor %}</span>
 						<span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> {% if page.modified %}<span class="entry-date"><time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%B %d, %Y" }}</time></span>{% else %}<span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>{% endif %}
 					</div><!-- .entry-meta -->
 				</div><!-- /.entry-content -->
