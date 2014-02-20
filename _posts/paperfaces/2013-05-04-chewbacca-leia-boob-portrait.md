@@ -12,7 +12,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 Just for giggles. Because hey, Chewbacca is a perv. *May the 4th be with you!*

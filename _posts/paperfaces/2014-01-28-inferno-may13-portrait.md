@@ -6,7 +6,7 @@ image:
   feature: paperfaces-inferno-may13-twitter-lg.jpg
   thumb: paperfaces-inferno-may13-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@Inferno_May13](http://twitter.com/Inferno_May13).

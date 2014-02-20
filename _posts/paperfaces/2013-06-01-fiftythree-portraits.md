@@ -7,11 +7,9 @@ image:
   thumb: paperfaces-fiftythree-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
 - FiftyThree
 ---
 

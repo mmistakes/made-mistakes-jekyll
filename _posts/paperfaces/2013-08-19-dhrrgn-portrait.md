@@ -6,7 +6,7 @@ image:
   feature: paperfaces-dhrrgn-twitter-lg.jpg
   thumb: paperfaces-dhrrgn-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@dhrrgn](http://twitter.com/dhrrgn).

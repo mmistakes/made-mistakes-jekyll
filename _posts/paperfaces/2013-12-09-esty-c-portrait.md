@@ -6,7 +6,7 @@ image:
   feature: paperfaces-esty-c-twitter-lg.jpg
   thumb: paperfaces-esty-c-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of <a href="http://sktchy.com/WfStFC" target="_blank">Esty C.</a>, inspiration found via Sktchy.

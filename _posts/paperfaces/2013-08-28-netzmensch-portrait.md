@@ -6,7 +6,7 @@ image:
   feature: paperfaces-netzmensch-twitter-lg.jpg
   thumb: paperfaces-netzmensch-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@netzmensch](http://twitter.com/netzmensch).

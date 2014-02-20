@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-a-farlow44-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donator [@A_Farlow44](http://twitter.com/A_Farlow44).

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mia-di-lg.jpg
   thumb: paperfaces-mia-di-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFaces portrait of [Mia Di D.](http://sktchy.com/BBBOaH) inspired by Sktchy.

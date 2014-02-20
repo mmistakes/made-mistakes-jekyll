@@ -6,7 +6,7 @@ image:
   feature: paperfaces-alfredormz-twitter-lg.jpg
   thumb: paperfaces-alfredormz-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@alfredormz](http://twitter.com/alfredormz).

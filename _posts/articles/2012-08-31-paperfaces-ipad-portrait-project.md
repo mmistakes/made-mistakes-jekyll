@@ -9,7 +9,7 @@ image:
   homepage: paperfaces-project-500x500.jpg
   thumb: paperfaces-project-250x250.jpg
 category: articles
-tags: [Paper by 53, iPad, drawing, illustration, Michael Rose]
+tags: [Paper by 53, iPad, drawing, illustration]
 comments: true
 ---
 

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-appinator-twitter-lg.jpg
   thumb: paperfaces-appinator-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white, Blend]
+tags: [portrait, illustration, Paper by 53, black and white, Blend]
 ---
 
 PaperFaces portrait of [@appinator](http://twitter.com/appinator).

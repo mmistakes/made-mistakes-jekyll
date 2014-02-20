@@ -6,7 +6,7 @@ image:
   feature: paperfaces-hugo-s-lg.jpg
   thumb: paperfaces-hugo-s-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of Sktchy user Hugo S.

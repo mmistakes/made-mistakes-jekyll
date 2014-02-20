@@ -6,7 +6,7 @@ image:
   feature: paperfaces-manntaclaus-twitter-lg.jpg
   thumb: paperfaces-manntaclaus-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/manntaclaus">@manntaclaus</a>.

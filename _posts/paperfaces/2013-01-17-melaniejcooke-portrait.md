@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-melaniejcooke-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@melaniejcooke](http://twitter.com/melaniejcooke).

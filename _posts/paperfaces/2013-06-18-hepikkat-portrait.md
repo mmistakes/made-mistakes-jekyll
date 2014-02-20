@@ -6,7 +6,7 @@ image:
   feature: paperfaces-hepikkat-twitter-lg.jpg
   thumb: paperfaces-hepikkat-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@hepikkat](http://twitter.com/hepikkat).

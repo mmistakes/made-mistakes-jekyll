@@ -6,7 +6,7 @@ image:
   feature: paperfaces-christianna-p-lg.jpg
   thumb: paperfaces-christianna-p-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/wkGeKD" target="_blank">Christianna P</a>, inspiration found via Sktchy.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-cocoapriest-twitter-lg.jpg
   thumb: paperfaces-cocoapriest-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend, sepia]
+tags: [portrait, illustration, Paper by 53, Blend, sepia]
 ---
 
 I merely added a few white highlights to the sunglasses and facial hair stubble, smudged the background, and bam --- instant photo realistic results. Looks even more convincing when shrunken down.

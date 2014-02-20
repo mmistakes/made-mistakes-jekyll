@@ -6,7 +6,7 @@ image:
   feature: paperfaces-lovesweetsex-twitter-lg.jpg
   thumb: paperfaces-lovesweetsex-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of project donator [@lovesweetsex](http://twitter.com/lovesweetsex).

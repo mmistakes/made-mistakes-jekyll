@@ -6,7 +6,7 @@ image:
   feature: paperfaces-josearato-twitter-lg.jpg
   thumb: paperfaces-josearato-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of project donator [@josearato](http://twitter.com/josearato). Why did I almost draw the entire face this team --- because well, I had to leave something unfinished.

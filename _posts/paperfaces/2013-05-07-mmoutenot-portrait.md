@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-mmoutenot-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@mmoutenot](http://twitter.com/mmoutenot).

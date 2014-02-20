@@ -6,7 +6,7 @@ image:
   feature: paperfaces-edwinvdbogert-twitter-lg.jpg
   thumb: paperfaces-edwinvdbogert-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@edwinvdbogert](http://twitter.com/edwinvdbogert). A replacement [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) arrived just in time for me to complete this drawing with a degree of realism I wouldn't have been able to without it. Thank's *Ten One Design* for taking care of my defective Pogo Connect so fast!

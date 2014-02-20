@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rkrismcneely-twitter-lg.jpg
   thumb: paperfaces-rkrismcneely-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, 8bit]
+tags: [portrait, illustration, Paper by 53, 8bit]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/rkrismcneely">@rkrismcneely</a>.

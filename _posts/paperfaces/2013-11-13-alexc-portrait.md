@@ -6,7 +6,7 @@ image:
   feature: paperfaces-alexc-twitter-lg.jpg
   thumb: paperfaces-alexc-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/alexc">@alexc</a>.

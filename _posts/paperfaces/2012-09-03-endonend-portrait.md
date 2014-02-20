@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-endonend-instagram-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@endonend](http://instagram.com/endonend).

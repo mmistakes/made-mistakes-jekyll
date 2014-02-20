@@ -6,7 +6,7 @@ image:
   feature: paperfaces-veganwendy-birthday-twitter-lg.jpg
   thumb: paperfaces-veganwendy-birthday-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [my wife Wendy](http://2littlerosebuds.com) for her birthday. As you may have noticed I used the entire canvas this time and didn't follow the usual square cropped format. Just one of the many perks of being married to me. Har har...

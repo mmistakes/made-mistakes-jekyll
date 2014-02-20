@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ericdfields-twitter-lg.jpg
   thumb: paperfaces-ericdfields-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, grass]
+tags: [portrait, illustration, Paper by 53, grass]
 ---
 
 PaperFaces portrait of [@ericdfields](http://twitter.com/ericdfields).

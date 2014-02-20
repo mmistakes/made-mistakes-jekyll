@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jenniferamur-twitter-lg.jpg
   thumb: paperfaces-jenniferamur-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 I forgot to paint some plastic chairs for sitting...oops. PaperFaces portrait of [@jenniferamur](http://twitter.com/jenniferamur).

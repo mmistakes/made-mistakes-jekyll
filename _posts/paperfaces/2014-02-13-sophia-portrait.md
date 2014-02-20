@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sophia-lg.jpg
   thumb: paperfaces-sophia-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of baby Sophia.

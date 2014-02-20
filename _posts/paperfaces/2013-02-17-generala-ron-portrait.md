@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-generala-ron-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donator [@GeneralA_Ron](http://twitter.com/GeneralA_Ron).

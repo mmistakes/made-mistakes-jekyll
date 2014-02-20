@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-nat-skipper-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 Halfway to my goal... PaperFaces portrait of [@Nat_Skipper](http://twitter.com/Nat_Skipper).

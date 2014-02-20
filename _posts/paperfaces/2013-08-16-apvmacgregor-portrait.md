@@ -6,7 +6,7 @@ image:
   feature: paperfaces-apvmacgregor-twitter-lg.jpg
   thumb: paperfaces-apvmacgregor-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@apvmacgregor](http://twitter.com/apvmacgregor). After days of gray I'm back to drawing color portraits.

@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-thebrady-khollybell-2-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donators [@theBrady](http://twitter.com/theBrady) and [@khollybell](http://twitter.com/khollybell).

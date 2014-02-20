@@ -6,7 +6,7 @@ image:
   feature: paperfaces-augenblickpunkt-twitter-lg.jpg
   thumb: paperfaces-augenblickpunkt-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend]
+tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
 PaperFaces portrait portrait of [@augenblickpunkt](http://twitter.com/augenblickpunkt).

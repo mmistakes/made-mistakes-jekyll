@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-blumentoast-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 *Why so serious?* PaperFaces portrait of [@blumentoast](http://twitter.com/blumentoast).

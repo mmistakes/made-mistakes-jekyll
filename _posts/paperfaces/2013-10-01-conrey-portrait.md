@@ -6,7 +6,7 @@ image:
   feature: paperfaces-conrey-twitter-lg.jpg
   thumb: paperfaces-conrey-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/conrey">@conrey</a>.

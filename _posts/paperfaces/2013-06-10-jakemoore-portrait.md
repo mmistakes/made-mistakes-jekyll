@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jakemoore-twitter-lg.jpg
   thumb: paperfaces-jakemoore-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, bokeh]
+tags: [portrait, illustration, Paper by 53, bokeh]
 ---
 
 PaperFaces portrait of [@JakeMoore](http://twitter.com/JakeMoore).

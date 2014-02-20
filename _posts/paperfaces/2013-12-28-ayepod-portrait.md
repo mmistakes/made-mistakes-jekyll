@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ayepod-twitter-lg.jpg
   thumb: paperfaces-ayepod-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@ayepod](http://twitter.com/ayepod).

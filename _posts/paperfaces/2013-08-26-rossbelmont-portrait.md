@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rossbelmont-twitter-lg.jpg
   thumb: paperfaces-rossbelmont-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@rossbelmont](http://twitter.com/rossbelmont).

@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-tr4y-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@tr4y](http://twitter.com/tr4y).

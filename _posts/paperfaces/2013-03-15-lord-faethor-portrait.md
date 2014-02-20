@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-lord-faethor-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@Lord_Faethor](http://twitter.com/Lord_Faethor).

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-lulomx-twitter-lg.jpg
   thumb: paperfaces-lulomx-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@lulomx](http://twitter.com/lulomx).

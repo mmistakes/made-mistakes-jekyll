@@ -6,7 +6,7 @@ image:
   feature: paperfaces-reason2live-lg.jpg
   thumb: paperfaces-reason2live-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission.

@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-natraybould-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 Glasses shooting lasers. PaperFaces portrait of [@NatRaybould](http://twitter.com/NatRaybould).

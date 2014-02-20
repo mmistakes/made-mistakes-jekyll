@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-joshuaskaroff-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@joshuaskaroff](http://twitter.com/joshuaskaroff).

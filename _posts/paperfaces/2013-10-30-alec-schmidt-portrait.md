@@ -6,7 +6,7 @@ image:
   feature: paperfaces-alec-schmidt-twitter-lg.jpg
   thumb: paperfaces-alec-schmidt-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/alec_schmidt">@alec_schmidt</a>.

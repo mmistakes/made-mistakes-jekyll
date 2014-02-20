@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-f5point6-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donator [@f5point6](http://twitter.com/f5point6).

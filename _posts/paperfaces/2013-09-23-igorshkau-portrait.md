@@ -6,7 +6,7 @@ image:
   feature: paperfaces-igorshkau-twitter-lg.jpg
   thumb: paperfaces-igorshkau-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/igorshkau">@igorshkau</a>.

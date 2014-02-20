@@ -6,7 +6,7 @@ image:
   feature: paperfaces-davecowart-twitter-lg.jpg
   thumb: paperfaces-davecowart-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@davecowart](http://twitter.com/davecowart). Was feeling under the weather when I painted this, but the show must go on!

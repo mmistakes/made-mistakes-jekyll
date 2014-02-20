@@ -6,7 +6,7 @@ image:
   feature: paperfaces-haley-couple-lg.jpg
   thumb: paperfaces-haley-couple-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend]
+tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
 PaperFaces portrait commission of a happy couple.

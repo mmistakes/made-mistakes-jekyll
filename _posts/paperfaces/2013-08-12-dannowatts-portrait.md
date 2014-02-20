@@ -6,7 +6,7 @@ image:
   feature: paperfaces-dannowatts-twitter-lg.jpg
   thumb: paperfaces-dannowatts-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, trees, black and white]
+tags: [portrait, illustration, Paper by 53, trees, black and white]
 ---
 
 PaperFaces portrait of [@dannowatts](http://twitter.com/dannowatts). Black and white mixed with some creepy trees makes for a perfect combination.

@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-omri-mor-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@omri_mor](http://twitter.com/omri_mor).

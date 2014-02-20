@@ -6,7 +6,7 @@ image:
   feature: paperfaces-themarcstone-twitter-lg.jpg
   thumb: paperfaces-themarcstone-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend]
+tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
 PaperFaces portrait commission for [@TheMarcStone](http://twitter.com/TheMarcStone).

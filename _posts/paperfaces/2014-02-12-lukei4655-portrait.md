@@ -6,7 +6,7 @@ image:
   feature: paperfaces-lukei4655-twitter-lg.jpg
   thumb: paperfaces-lukei4655-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@lukei4655](http://twitter.com/lukei4655).

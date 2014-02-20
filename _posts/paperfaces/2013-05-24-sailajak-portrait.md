@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-sailajak-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 aperFaces portrait of [@sailajak](http://twitter.com/sailajak).

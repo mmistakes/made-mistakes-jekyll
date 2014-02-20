@@ -6,7 +6,7 @@ image:
   feature: paperfaces-dani-o-lg.jpg
   thumb: paperfaces-dani-o-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy, black and white]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Sktchy user [Dani O](http://sktchy.com/BVa6DC).

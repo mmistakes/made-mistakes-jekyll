@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kirsten-b-lg.jpg
   thumb: paperfaces-kirsten-b-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 A draw for a draw. PaperFaces portrait of [Kirsten B.](http://sktchy.com/WAPmzC) inspired by Sktchy.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-chrishnry-twitter-lg.jpg
   thumb: paperfaces-chrishnry-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/chrishnry">@chrishnry</a>.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-pappyshannon-twitter-lg.jpg
   thumb: paperfaces-pappyshannon-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 "Welcome to Jurassic Park." PaperFaces avatar portrait of <a href="http://twitter.com/PappyShannon">@PappyShannon</a>.

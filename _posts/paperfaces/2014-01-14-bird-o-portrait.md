@@ -6,7 +6,7 @@ image:
   feature: paperfaces-bird-o-lg.jpg
   thumb: paperfaces-bird-o-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 Return of the blank. PaperFaces portrait of [Bird O.](http://sktchy.com/JPzbGH) inspired on Sktchy.

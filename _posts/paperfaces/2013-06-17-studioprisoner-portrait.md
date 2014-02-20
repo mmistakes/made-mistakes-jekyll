@@ -6,7 +6,7 @@ image:
   feature: paperfaces-studioprisoner-twitter-lg.jpg
   thumb: paperfaces-studioprisoner-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, horse]
+tags: [portrait, illustration, Paper by 53, horse]
 ---
 
 PaperFaces portrait of [@studioprisoner](http://twitter.com/studioprisoner).

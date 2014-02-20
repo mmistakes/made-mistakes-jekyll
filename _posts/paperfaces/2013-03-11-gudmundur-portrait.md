@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-gudmundur-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@gudmundur](http://twitter.com/gudmundur).

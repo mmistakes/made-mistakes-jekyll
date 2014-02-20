@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jin-woojooin-twitter-lg.jpg
   thumb: paperfaces-jin-woojooin-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@JIN_woojooin](http://twitter.com/JIN_woojooin).

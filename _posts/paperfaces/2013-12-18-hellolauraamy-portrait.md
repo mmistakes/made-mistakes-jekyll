@@ -6,7 +6,7 @@ image:
   feature: paperfaces-hellolauraamy-instagram-lg.jpg
   thumb: paperfaces-hellolauraamy-instagram-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 Tis the Season for PaperFaces portrait commissions.

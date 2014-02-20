@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mich-maci-twitter-lg.jpg
   thumb: paperfaces-mich-maci-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/mich-maci">@mich-maci</a>.

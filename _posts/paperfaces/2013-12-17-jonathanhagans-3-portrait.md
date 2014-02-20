@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jonathanhagans-3-twitter-lg.jpg
   thumb: paperfaces-jonathanhagans-3-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 Not sure if I'm going to stick with the faces or not. Part of me thinks photo-realism is overrated and there's more of a challenge in omitting details rather than drawing them all in.

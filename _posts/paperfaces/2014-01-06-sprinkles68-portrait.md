@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sprinkles68-twitter-lg.jpg
   thumb: paperfaces-sprinkles68-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait commission of [@Sprinkles68](http://twitter.com/Sprinkles68).

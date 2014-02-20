@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sammycostello-twitter-lg.jpg
   thumb: paperfaces-sammycostello-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/SammyCostello">@SammyCostello</a>.

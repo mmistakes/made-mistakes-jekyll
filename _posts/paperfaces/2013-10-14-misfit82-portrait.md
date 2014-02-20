@@ -6,7 +6,7 @@ image:
   feature: paperfaces-misfit82-twitter-lg.jpg
   thumb: paperfaces-misfit82-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 <em>I want your skulls &#8212; I need your skulls.</em> PaperFaces avatar portrait of <a href="http://twitter.com/misfit82">@misfit82</a>.

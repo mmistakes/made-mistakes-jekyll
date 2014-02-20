@@ -6,7 +6,7 @@ image:
   feature: paperfaces-genelocklin-twitter-lg.jpg
   thumb: paperfaces-genelocklin-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, mustache]
+tags: [portrait, illustration, Paper by 53, mustache]
 ---
 
 PaperFaces portrait of [@genelocklin](http://twitter.com/genelocklin).

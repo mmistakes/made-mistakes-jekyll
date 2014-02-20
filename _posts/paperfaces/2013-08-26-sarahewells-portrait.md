@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sarahewells-twitter-lg.jpg
   thumb: paperfaces-sarahewells-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@SarahEWells](http://twitter.com/sarahewells).

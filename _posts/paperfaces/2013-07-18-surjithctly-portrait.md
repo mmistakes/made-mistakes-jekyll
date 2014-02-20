@@ -6,7 +6,7 @@ image:
   feature: paperfaces-surjithctly-twitter-lg.jpg
   thumb: paperfaces-surjithctly-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@surjithctly](http://twitter.com/surjithctly) for featuring my project on [Side Projects](http://sideprojects.web3canvas.com/post/55332574657/paperfaces-project-an-experiment-in-humanizing).

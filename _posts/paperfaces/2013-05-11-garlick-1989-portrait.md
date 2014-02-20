@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-garlick-1989-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@Garlick_1989](http://twitter.com/Garlick_1989).

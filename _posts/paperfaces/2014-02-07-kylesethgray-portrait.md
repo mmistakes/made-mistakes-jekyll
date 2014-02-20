@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kylesethgray-twitter-lg.jpg
   thumb: paperfaces-kylesethgray-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@kylesethgray](http://twitter.com/kylesethgray).

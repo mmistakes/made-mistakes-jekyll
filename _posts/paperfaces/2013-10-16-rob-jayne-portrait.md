@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rob-jayne-lg.jpg
   thumb: paperfaces-rob-jayne-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 Commissioned PaperFaces portrait of Rob and Jayne.

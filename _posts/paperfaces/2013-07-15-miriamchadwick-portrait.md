@@ -6,7 +6,7 @@ image:
   feature: paperfaces-miriamchadwick-instagram-lg.jpg
   thumb: paperfaces-miriamchadwick-instagram-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@miriamchadwick](http://instagram.com/miriamchadwick).

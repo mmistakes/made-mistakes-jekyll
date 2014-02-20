@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-the-boii-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@the_boii](http://twitter.com/the_boii).

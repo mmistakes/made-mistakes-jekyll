@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-realpaul8rown-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@RealPaul8rown](http://twitter.com/RealPaul8rown).

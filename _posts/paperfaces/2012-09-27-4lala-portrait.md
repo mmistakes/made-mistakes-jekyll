@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-4lala-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@4lala](http://twitter.com/4lala).

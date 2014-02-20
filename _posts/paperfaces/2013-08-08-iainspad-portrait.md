@@ -6,7 +6,7 @@ image:
   feature: paperfaces-iainspad-twitter-lg.jpg
   thumb: paperfaces-iainspad-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@iainspad](http://twitter.com/iainspad). Up the punx.

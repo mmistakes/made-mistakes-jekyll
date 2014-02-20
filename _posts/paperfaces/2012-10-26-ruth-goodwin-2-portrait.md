@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-ruth-goodwin-2-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donator [@Ruth_Goodwin](http://twitter.com/Ruth_Goodwin).

@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-m0rph3v5-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@m0rph3v5](http://twitter.com/m0rph3v5).

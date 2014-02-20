@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-vmasto-2-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donator [@vmasto](http://twitter.com/vmasto).

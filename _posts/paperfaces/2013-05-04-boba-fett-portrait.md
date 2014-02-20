@@ -12,7 +12,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 Starting Star Wars Day off with a portrait of my dude Boba. May the 4th be with you! Speed painting video is embedded below for your viewing pleasure.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rosebuds-christmas-lg.jpg
   thumb: paperfaces-rosebuds-christmas-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend, Christmas, twins]
+tags: [portrait, illustration, Paper by 53, Blend, Christmas, twins]
 ---
 
 Just a simple drawing of my twin girls, Everly and Chloe enjoying wrapping paper. I suppose at this age they're more concerned with shredding the covering than what's hidden beneath it.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jonathanhagans-twitter-lg.jpg
   thumb: paperfaces-jonathanhagans-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 I don't often draw faces, but with the right photo reference I sometimes attempt it. 

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-carmel-g-lg.jpg
   thumb: paperfaces-carmel-g-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend, Sktchy]
+tags: [portrait, illustration, Paper by 53, Blend, Sktchy]
 ---
 
 PaperFaces portrait of <a href="http://sktchy.com/uViYnH" target="_blank">Carmel G.</a>

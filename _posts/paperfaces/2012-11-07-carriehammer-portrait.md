@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-carriehammer-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@carriehammer](http://twitter.com/carriehammer).

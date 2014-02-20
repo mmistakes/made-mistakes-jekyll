@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-mr-craig-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@mr_craig](http://twitter.com/mr_craig).

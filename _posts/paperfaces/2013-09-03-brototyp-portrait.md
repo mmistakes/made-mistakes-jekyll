@@ -6,7 +6,7 @@ image:
   feature: paperfaces-brototyp-twitter-lg.jpg
   thumb: paperfaces-brototyp-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@brototyp](http://twitter.com/brototyp).

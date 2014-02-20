@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mattfieldy-twitter-lg.jpg
   thumb: paperfaces-mattfieldy-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, 8bit]
+tags: [portrait, illustration, Paper by 53, 8bit]
 ---
 
 PaperFaces portrait of [@mattfieldy](http://twitter.com/mattfieldy).

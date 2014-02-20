@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-thebrady-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donator [@theBrady](http://twitter.com/theBrady).

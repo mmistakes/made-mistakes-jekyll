@@ -6,7 +6,7 @@ image:
   feature: paperfaces-nikkiccross-twitter-lg.jpg
   thumb: paperfaces-nikkiccross-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@nikkiccross](http://twitter.com/nikkiccross).

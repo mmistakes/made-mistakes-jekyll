@@ -6,7 +6,7 @@ image:
   feature: paperfaces-imhobson-twitter-lg.jpg
   thumb: paperfaces-imhobson-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@imhobson](http://twitter.com/imhobson).

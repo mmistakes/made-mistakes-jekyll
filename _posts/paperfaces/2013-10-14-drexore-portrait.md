@@ -6,7 +6,7 @@ image:
   feature: paperfaces-drexore-twitter-lg.jpg
   thumb: paperfaces-drexore-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of <a href="http://twitter.com/drexore">@drexore</a>.

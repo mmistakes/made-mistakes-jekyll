@@ -6,7 +6,7 @@ image:
   feature: paperfaces-tipican-twitter-lg.jpg
   thumb: paperfaces-tipican-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@tipican](http://twitter.com/tipican).

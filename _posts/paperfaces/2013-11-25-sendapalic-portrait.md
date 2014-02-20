@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sendapalic-twitter-lg.jpg
   thumb: paperfaces-sendapalic-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend]
+tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
 Blend is one of those tools that can easily be abused. Trying to limit its use to avoid going too soft and blurring brush strokes painted in Paper and retain character. I've found that blending colors and then applying a layer of light watercolor on top has a nice look.

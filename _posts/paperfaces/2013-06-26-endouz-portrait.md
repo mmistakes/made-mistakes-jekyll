@@ -6,7 +6,7 @@ image:
   feature: paperfaces-endouz-twitter-lg.jpg
   thumb: paperfaces-endouz-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@endouz](http://twitter.com/endouz). Using white to paint lights that could be rain drop refractions... or not.

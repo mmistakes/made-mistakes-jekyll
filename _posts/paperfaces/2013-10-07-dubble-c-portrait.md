@@ -6,7 +6,7 @@ image:
   feature: paperfaces-dubble-c-twitter-lg.jpg
   thumb: paperfaces-dubble-c-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/Dubble_C">@Dubble_C</a>.

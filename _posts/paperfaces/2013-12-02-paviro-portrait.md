@@ -6,7 +6,7 @@ image:
   feature: paperfaces-paviro-twitter-lg.jpg
   thumb: paperfaces-paviro-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend]
+tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/paviro_">@paviro_</a>.

@@ -12,7 +12,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 "Yang chas Solo chone Wookiee!" *May the 4th be with you!*

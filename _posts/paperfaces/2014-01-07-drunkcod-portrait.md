@@ -6,7 +6,7 @@ image:
   feature: paperfaces-drunkcod-twitter-lg.jpg
   thumb: paperfaces-drunkcod-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@drunkcod](http://twitter.com/drunkcod). Suppose I could have flipped the reference photo right side up before drawing it, but where's the fun in that?

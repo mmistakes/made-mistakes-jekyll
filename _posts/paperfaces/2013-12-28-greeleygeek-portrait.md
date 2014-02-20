@@ -6,7 +6,7 @@ image:
   feature: paperfaces-greeleygeek-twitter-lg.jpg
   thumb: paperfaces-greeleygeek-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@greeleygeek](http://twitter.com/greeleygeek).

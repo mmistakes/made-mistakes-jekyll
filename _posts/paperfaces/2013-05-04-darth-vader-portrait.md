@@ -12,7 +12,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 May the 4th be with you!

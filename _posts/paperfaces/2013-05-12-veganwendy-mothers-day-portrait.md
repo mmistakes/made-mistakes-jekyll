@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-veganwendy-mothers-day-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 - twins
 - baby
 ---

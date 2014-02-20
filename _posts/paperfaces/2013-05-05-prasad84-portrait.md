@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-prasad84-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of [@prasad84](http://twitter.com/prasad84).

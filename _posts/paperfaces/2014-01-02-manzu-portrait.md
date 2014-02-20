@@ -6,7 +6,7 @@ image:
   feature: paperfaces-manzu-twitter-lg.jpg
   thumb: paperfaces-manzu-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Blend]
+tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
 PaperFaces portrait of [@manzu](http://twitter.com/manzu).

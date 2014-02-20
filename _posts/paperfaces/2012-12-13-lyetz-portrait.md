@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-lyetz-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait of project donator [@Lyetz](http://twitter.com/Lyetz).

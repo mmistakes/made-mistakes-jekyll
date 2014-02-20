@@ -6,7 +6,7 @@ image:
   feature: paperfaces-colmsmyth-twitter-lg.jpg
   thumb: paperfaces-colmsmyth-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@colmsmyth](http://twitter.com/colmsmyth).

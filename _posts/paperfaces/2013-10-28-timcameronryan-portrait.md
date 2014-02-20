@@ -6,7 +6,7 @@ image:
   feature: paperfaces-timcameronryan-twitter-lg.jpg
   thumb: paperfaces-timcameronryan-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/timcameronryan">@timcameronryan</a>.

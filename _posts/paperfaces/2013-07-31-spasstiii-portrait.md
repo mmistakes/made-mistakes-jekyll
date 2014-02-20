@@ -6,7 +6,7 @@ image:
   feature: paperfaces-spasstiii-twitter-lg.jpg
   thumb: paperfaces-spasstiii-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@spasstiii](http://twitter.com/spasstiii).

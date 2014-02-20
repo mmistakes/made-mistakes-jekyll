@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kasey-k-lg.jpg
   thumb: paperfaces-kasey-k-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of <a href="http://sktchy.com/mKWI5D">Kasey K</a>.

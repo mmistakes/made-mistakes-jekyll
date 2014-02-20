@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sakkaden-twitter-lg.jpg
   thumb: paperfaces-sakkaden-twitter-150.jpg
 category: paperfaces
-tags: [PaperFaces, portrait, illustration, Paper by 53, iPad art]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commissioned by <a href="http://twitter.com/sakkaden">@sakkaden</a>.

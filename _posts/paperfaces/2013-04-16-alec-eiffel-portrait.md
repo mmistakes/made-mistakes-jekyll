@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-alec-eiffel-facebook-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 Shirtless wearing military helmet in black and white. Drawn for [Selfless Portraits](http://selflessportraits.com).

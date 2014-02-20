@@ -7,11 +7,10 @@ image:
   thumb: paperfaces-andrewjbryk-twitter-150.jpg
 category: paperfaces
 tags: 
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 PaperFaces portrait for project donator [@andrewjbryk](http://twitter.com/andrewjbryk).

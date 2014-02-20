@@ -12,7 +12,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-- iPad art
+
 ---
 
 Saw Iron Man 3 last night and figured I'd challenge myself by drawing the Iron Man himself --- Tony Stark. Those post credit scenes always leave me wanting more Marvel film goodness...
