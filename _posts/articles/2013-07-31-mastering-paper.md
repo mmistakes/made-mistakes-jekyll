@@ -29,44 +29,68 @@ The guide is broken up into several parts explaining how the tools work, specifi
 
 <hr />
 <h2>Table of Contents</h2>
-<ul class="unstyled-list">
+<ul class="post-index">
 {% assign count = '0' %}
 {% for post in site.posts reversed %}
 {% if post.series == 'mastering-paper' %}
 {% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<li>
 		<a href="{{ site.url }}{{ post.url }}">
-			<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image">
-			<h4>{{ count }}. {% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title | remove: 'Mastering Paper by 53: ' }}{% endif %}</h4>
-			<p>{{ post.description }}</p>
+			<div class="list-image">
+				<img src="{{ site.url }}/images/{{ post.image.thumb }}" class="preview" alt="preview image">
+			</div><!-- /.list-image -->
+			<div class="list-content">
+				<h4>{{ count }}. {% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title | remove: 'Mastering Paper by 53: ' }}{% endif %}</h4>
+				<p>{{ post.description }}</p>
+			</div>
 		</a>
 	</li>
 {% endif %}
 {% endfor %}
 	<li>
-		<i class="preview" style="background-color:#ccc;"></i>
-		<h4>8. Drawing Skin and Faces (revisited) <span class="badge">Coming Soon</span></h4>
-		<p>Learn techniques for drawing skin and realistic portraits using the watercolor and pencil tools.</p>
+		<div class="list-image">
+			<img src="{{ site.url }}/images/preload.gif" class="preview" alt="preview image">
+		</div><!-- /.list-image -->
+		<div class="list-content">
+			<h4>8. Drawing Skin and Faces (revisited) <span class="badge">Coming Soon</span></h4>
+			<p>Learn techniques for drawing skin and realistic portraits using the watercolor and pencil tools.</p>
+		</div><!-- /.list-content -->
 	</li>
 	<li>
-		<i class="preview" style="background-color:#ccc;"></i>
-		<h4>9. Drawing Hair (revisited) <span class="badge">Coming Soon</span></h4>
-		<p>One of my favorite things to draw is long flowing hair. Learn how I create realistic renders in a matter of minutes.</p>
+		<div class="list-image">
+			<img src="{{ site.url }}/images/preload.gif" class="preview" alt="preview image">
+		</div><!-- /.list-image -->
+		<div class="list-content">
+			<h4>9. Drawing Hair (revisited) <span class="badge">Coming Soon</span></h4>
+			<p>One of my favorite things to draw is long flowing hair. Learn how I create realistic renders in a matter of minutes.</p>
+		</div><!-- /.list-content -->
 	</li>
 	<li>
-		<i class="preview" style="background-color:#ccc;"></i>
-		<h4>10. Managing Journals and Pages <span class="badge">Coming Soon</span></h4>
-		<p>Learn how to create templates by duplicating pages across journals &#8212; perfect for building consistency in a <em>drawing project</em>.</p>
+		<div class="list-image">
+			<img src="{{ site.url }}/images/preload.gif" class="preview" alt="preview image">
+		</div><!-- /.list-image -->
+		<div class="list-content">
+			<h4>10. Managing Journals and Pages <span class="badge">Coming Soon</span></h4>
+			<p>Learn how to create templates by duplicating pages across journals &#8212; perfect for building consistency in a <em>drawing project</em>.</p>
+		</div><!-- /.list-content -->
 	</li>
 	<li>
-		<i class="preview" style="background-color:#ccc;"></i>
-		<h4>11. Screen Capture Techniques and Animation <span class="badge">Coming Soon</span></h4>
-		<p>Workflows for recording time lapse videos of Paper creations without jailbreaking an iPad.</p>
+		<div class="list-image">
+			<img src="{{ site.url }}/images/preload.gif" class="preview" alt="preview image">
+		</div><!-- /.list-image -->
+		<div class="list-content">
+			<h4>11. Screen Capture Techniques and Animation <span class="badge">Coming Soon</span></h4>
+			<p>Workflows for recording time lapse videos of Paper creations without jailbreaking an iPad.</p>
+		</div><!-- /list-content -->
 	</li>
 	<li>
-		<i class="preview" style="background-color:#ccc;"></i>
-		<h4>12. Getting the Most Out of Pencil <span class="badge">Coming Soon</span></h4>
-		<p>Pencil is a great stylus built exclusively for Paper. Learn drawing techniques that only it can perform.</p>
+		<div class="list-image">
+			<img src="{{ site.url }}/images/preload.gif" class="preview" alt="preview image">
+		</div><!-- /.list-image -->
+		<div class="list-content">
+			<h4>12. Getting the Most Out of Pencil <span class="badge">Coming Soon</span></h4>
+			<p>Pencil is a great stylus built exclusively for Paper. Learn drawing techniques that only it can perform.</p>
+		</div><!-- /.list-content -->
 	</li>
 </ul>
 

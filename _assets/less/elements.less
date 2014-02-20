@@ -140,7 +140,7 @@ svg:not(:root) {
 	@media @medium {
 		height: 106px;
 		margin-left: 15px;
-		line-height: 106px;
+		line-height: 106px !important; // override line-height on li
 	}
 	a {
 		color: lighten(@primary,25);

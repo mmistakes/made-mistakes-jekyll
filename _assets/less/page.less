@@ -415,8 +415,57 @@ span + .entry-title {
 	}
 }
 .post-index {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	.list-image {
+		position: absolute;
+		left: 0;
+		width: 50px;
+		height: 50px;
+		@media @medium {
+			width: 75px;
+			height: 75px;
+		}
+	}
+	.list-content {
+		word-wrap: break-word;
+		padding-left: 75px;
+		min-height: 55px;
+		@media @medium {
+			padding-left: 100px;
+			min-height: 80px;
+		}
+	}
 	li {
-		margin-bottom: 2em;
+		position: relative;
+		margin-top: 0px + @doc-line-height;
+		margin-bottom: 0px + @doc-line-height;
+		list-style-type: none;
+		.clearfix();
+	}
+	h1, h4, p {
+		margin: 0;
+	}
+	h1 {
+		.font(19);
+	}
+	h4 {
+		.font(19);
+	}
+	.entry-meta {
+		.font(14);
+	}
+	.preview {
+		width: 50px;
+		height: 50px;
+		.rounded(50px);
+		border: 4px solid #ccc;
+		@media @medium {
+			width: 75px;
+			height: 75px;
+			.rounded(75px);
+		}
 	}
 }
 // Ad column

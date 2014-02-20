@@ -1110,7 +1110,7 @@ svg:not(:root) {
   .gallery-button {
     height: 106px;
     margin-left: 15px;
-    line-height: 106px;
+    line-height: 106px !important;
   }
 }
 
@@ -2823,8 +2823,99 @@ span + .entry-title {
   }
 }
 
+.post-index {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.post-index .list-image {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 48em) {
+  .post-index .list-image {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+.post-index .list-content {
+  min-height: 55px;
+  padding-left: 75px;
+  word-wrap: break-word;
+}
+
+@media only screen and (min-width: 48em) {
+  .post-index .list-content {
+    min-height: 80px;
+    padding-left: 100px;
+  }
+}
+
 .post-index li {
-  margin-bottom: 2em;
+  position: relative;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  list-style-type: none;
+  *zoom: 1;
+}
+
+.post-index li:before,
+.post-index li:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.post-index li:after {
+  clear: both;
+}
+
+.post-index h1,
+.post-index h4,
+.post-index p {
+  margin: 0;
+}
+
+.post-index h1 {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 1.3684;
+}
+
+.post-index h4 {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 1.3684;
+}
+
+.post-index .entry-meta {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.8571;
+}
+
+.post-index .preview {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #ccc;
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+}
+
+@media only screen and (min-width: 48em) {
+  .post-index .preview {
+    width: 75px;
+    height: 75px;
+    -webkit-border-radius: 75px;
+       -moz-border-radius: 75px;
+            border-radius: 75px;
+  }
 }
 
 .ads {
