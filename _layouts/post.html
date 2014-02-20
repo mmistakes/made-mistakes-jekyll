@@ -11,7 +11,7 @@ body_id: post
 				{% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 			</div><!-- /.entry-image -->{% endif %}
 			<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
-			<h6 class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</h6>
+			<h6 class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&#8226; {% endunless %}{% endfor %}</h6>
 			<h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
 		</header>
 		<div class="entry-wrapper">
