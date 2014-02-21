@@ -331,12 +331,18 @@ span + .entry-title {
 }
 .entry-tags {
 	text-transform: uppercase;
-	a { color: @black; }
+	a { 
+		color: @black; 
+		white-space: nowrap; // prevent tag names from line breaking
+	}
 	@media @medium {
 		max-width: 600px;
 	}
 	@media @large {
 		max-width: 800px;
+	}
+	.sep {
+		padding: 0 5px;
 	}
 }
 .author-photo {

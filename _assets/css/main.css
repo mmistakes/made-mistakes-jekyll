@@ -2678,6 +2678,7 @@ span + .entry-title {
 
 .entry-tags a {
   color: #000000;
+  white-space: nowrap;
 }
 
 @media only screen and (min-width: 48em) {
@@ -2690,6 +2691,10 @@ span + .entry-title {
   .entry-tags {
     max-width: 800px;
   }
+}
+
+.entry-tags .sep {
+  padding: 0 5px;
 }
 
 .author-photo {

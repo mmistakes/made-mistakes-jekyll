@@ -12,7 +12,7 @@ body_id: page
 		{% endif %}
 		<header class="entry-header">
 			<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
-			<h6 class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&#8226; {% endunless %}{% endfor %}</h6>
+			<h6 class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}<span class="sep"> &#8226; </span>{% endunless %}{% endfor %}</h6>
 			<h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
 		</header>
 		<div class="entry-wrapper">
