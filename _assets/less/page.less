@@ -373,10 +373,6 @@ span + .entry-title {
 			.font-rem(18);
 		}
 	}
-	.footnotes p {
-		.font-rem(16);
-		line-height: 1.25;
-	}
 	@media @large {
 		float: left;
 	}
@@ -389,6 +385,22 @@ span + .entry-title {
 	}
 	p > a.reversefootnote {
 		border-bottom-width: 0;
+	}
+	// Footnotes
+	.footnotes {
+		margin: 3em 0;
+		.font-rem(16);
+		line-height: 1.25;
+		font-family: @base-font;
+		&:before {
+			content: 'Footnotes:';
+			.font-rem(18);
+			font-weight: 700;
+		}
+		p, li {
+			.font-rem(16);
+			line-height: 1.25;
+		}
 	}
 }
 .work-content {

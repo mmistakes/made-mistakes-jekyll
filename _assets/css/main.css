@@ -441,21 +441,6 @@ blockquote {
   border-left: 8px solid #808080;
 }
 
-.footnotes {
-  margin: 3em 0;
-  font-family: lato, Calibri, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.8571;
-}
-
-.footnotes:before {
-  font-size: 16px;
-  font-size: 1rem;
-  font-weight: 700;
-  content: 'Footnotes:';
-}
-
 @media only screen and (min-width: 48em) {
   #markdown-toc li {
     font-size: 16px;
@@ -2761,12 +2746,6 @@ span + .entry-title {
   }
 }
 
-.entry-content .footnotes p {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.25;
-}
-
 @media only screen and (min-width: 62.5em) {
   .entry-content {
     float: left;
@@ -2785,6 +2764,28 @@ span + .entry-title {
 
 .entry-content p > a.reversefootnote {
   border-bottom-width: 0;
+}
+
+.entry-content .footnotes {
+  margin: 3em 0;
+  font-family: lato, Calibri, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.entry-content .footnotes:before {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  content: 'Footnotes:';
+}
+
+.entry-content .footnotes p,
+.entry-content .footnotes li {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
 }
 
 .work-content {
