@@ -440,3 +440,6 @@ redirect 301 /paperfaces/slave-leia-jabba-the-hutt http://mademistakes.com/paper
 redirect 301 /tags.html http://mademistakes.com/tag/
 redirect 301 /articles/mastering-paper-53-guide http://mademistakes.com/mastering-paper/
 redirect 301 /works/ http://mademistakes.com/work/
+redirect 301 /minimal-mistakes/ http://mademistakes.com/articles/minimal-mistakes-jekyll-theme/
+redirect 301 /so-simple/ http://mademistakes.com/articles/so-simple-jekyll-theme/
+redirect 301 /hpstr/ http://mademistakes.com/articles/hpstr-jekyll-theme/
