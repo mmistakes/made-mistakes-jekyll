@@ -20,5 +20,8 @@ body_id: page
 					{% if page.modified %}<span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Last updated by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span> <span class="entry-date"><time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
 				</div><!-- .entry-meta -->
 			</div><!-- /.entry-content -->
+			{% if page.ads %}<div class="ads">
+				{% include _advertising.html %}
+			</div><!-- /.ads -->{% endif %}
 		</div><!-- /.entry-wrapper -->
 	</article>

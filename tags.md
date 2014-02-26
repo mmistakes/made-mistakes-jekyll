@@ -3,6 +3,7 @@ layout: page
 permalink: /tag/
 title: Tag Index
 description: "An archive of posts sorted by tag."
+ads: true
 ---
 
 <ul class="tag-box inline">
