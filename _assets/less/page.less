@@ -602,9 +602,10 @@ span + .entry-title {
 	a { 
 		padding: 4px 6px;
 		margin: 2px;
-		background-color: @base-color;
+		background-color: lighten(@base-color, 70);
 		.rounded(4px);
 		text-decoration: none;
+		border-bottom: 0 solid transparent;
 		span { 
 			vertical-align: super;
 			.font-rem(10);
