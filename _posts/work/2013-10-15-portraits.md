@@ -4,7 +4,7 @@ permalink: /portraits/
 title: "Order a Digital Portrait"
 headline: "Get PaperFaced"
 description: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
-modified: 2014-01-10
+modified: 2014-02-26
 image:
   thumb: portrait-thumb.jpg
   homepage: portrait-500x500.gif
@@ -16,28 +16,17 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 
 <ul class="oversized-recent-grid">
 {% for post in site.categories.paperfaces limit:8 %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-    <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="106" height="106">
-  </a></li>
-  {% endfor %}
+    <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+        <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="106" height="106">
+    </a></li>
+    {% endfor %}
 </ul>
 
 I am not an artist and merely doing portraits for fun. I take the supplied reference photograph and draw my interpretation of it, illustrated in a loose watercolor and pencil style. If the source photography is well lit and of high quality I might draw a realistic portrait, but I also might draw a faceless one. I'm not asking much for these drawings so I think that more than makes up for this level of discretion. ([Portrait examples]({{ site.url }}/paperfaces/))
 
 <figure>
-	<img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
-	<figcaption>I&rsquo;ve done quite a few cats, dogs, and even a Velociraptor &mdash; the stranger the better!</figcaption>
-</figure>
-
-## Making of Video
-
-Curious to see how your portrait was made? For a few extra dollars I'll capture the entire drawing process using a magical technology known as AirPlay, edit into a ~5 minute time lapse video, and send you a rendered file[^movie].
-
-[^movie]: Videos are saved as MP4 movies and uploaded to YouTube and Dropbox. Links will be provided a few days after I finish the drawing since it takes me some time to edit and render the final file.
-
-<figure>
-	<a href="http://www.youtube.com/playlist?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" target="_blank"><img src="{{ site.url }}/images/portrait-making-of-video.jpg" alt="making of video samples"></a>
-	<figcaption>Sample videos can be viewed on <a href="http://www.youtube.com/playlist?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" target="_blank">my YouTube Channel</a></figcaption>
+    <img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
+    <figcaption>I&rsquo;ve done quite a few cats, dogs, and even a Velociraptor &mdash; the stranger the better!</figcaption>
 </figure>
 
 ## Include a Photo Reference
@@ -49,39 +38,37 @@ Please include a link to a high resolution image (the larger the better) in the 
 Typically I write the subject's Twitter username in the lower right corner of the drawing. If you prefer a proper name, my signature, no name at all, or something else --- please specify in the **inscription** field below when ordering.
 
 <figure>
-	<img src="{{ site.url }}/images/portrait-inscription.jpg" alt="portrait inscription sample">
-	<figcaption>Inscription placed in the lower right corner&hellip;if you want it.</figcaption>
+    <img src="{{ site.url }}/images/portrait-inscription.jpg" alt="portrait inscription sample">
+    <figcaption>Inscription placed in the lower right corner&hellip;if you want it.</figcaption>
 </figure>
 
 ## Then I Draw
 
-I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once completed I'll tweet out the drawing so my followers can enjoy it and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print. If you ordered the **Making of Video Add-on** the YouTube and Dropbox download links will follow a couple days later.
+I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once completed I'll tweet out the drawing so my followers can enjoy it and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print.
 
 [^png-file]: Paper by FiftyThree exports a PNG file measuring 2048&times;1536 pixels, viewable in most graphics software. You get the raw file --- unaltered and without a watermark.
 
 ## Order a Custom Portrait Now
 
 <div class="well">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="3VRPLX7UXXDLW">
-    <select name="os0" style="width: 100%;">
-      <option value="One face">One face $10.00 USD</option>
-      <option value="One face + video">One face + video $15.00 USD</option>
-      <option value="Multiple faces">Multiple faces $25.00 USD</option>
-      <option value="Multiple faces + video">Multiple faces + video $30.00 USD</option>
-    </select>
-    <input type="hidden" name="on1" value="Portrait reference">
-    <label style="margin:10px 0;">Portrait reference</label>
-    <input type="text" name="os1" maxlength="200">
-    <input type="hidden" name="on2" value="Inscription">
-    <label style="margin:10px 0;">Inscription</label>
-    <input type="text" name="os2" maxlength="200">
-    </table>
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="submit" value="Order Now" class="btn btn-success" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="9UUR6AQ25G9EW">
+        <select name="os0" style="width: 100%;">
+            <option value="One face">One face $15.00 USD</option>
+            <option value="Multiple faces">Multiple faces $25.00 USD</option>
+        </select>
+        <input type="hidden" name="on1" value="Portrait reference">
+        <label style="margin:10px 0;">Portrait reference</label>
+        <input type="text" name="os1" maxlength="200">
+        <input type="hidden" name="on2" value="Inscription">
+        <label style="margin:10px 0;">Inscription</label>
+        <input type="text" name="os2" maxlength="200">
+        </table>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Order Now" class="btn btn-success" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
 </div><!-- /.well -->
 
 **Usage and Copyright:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Attribution-NonCommercial 4.0 International"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
