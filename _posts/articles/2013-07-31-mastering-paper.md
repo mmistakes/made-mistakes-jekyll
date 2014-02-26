@@ -10,6 +10,7 @@ image:
   homepage: paper-by-53-500x500.jpg
 tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 homepage: true
+ads: true
 ---
 
 In the spirit of openness I've decided to compile everything I've learned using [*Paper by FiftyThree*](http://www.fiftythree.com), into a multi-part series I'm dubbing Mastering Paper.
