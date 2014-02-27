@@ -10,7 +10,7 @@ image:
   homepage: so-simple-500x500.png
   thumb: so-simple-250x250.png
 category: articles
-tags: [Jekyll, theme, responsive, blog]
+tags: [Jekyll, web development, open source]
 comments: true
 ---
 

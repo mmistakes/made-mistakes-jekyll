@@ -8,7 +8,7 @@ image:
   small: going-static-340x100.jpg
   thumb: going-static-thumb.jpg
 category: articles
-tags: [Jekyll, web development, design, responsive, theme]
+tags: [Jekyll, web development, design, open source]
 comments: true
 ---
 

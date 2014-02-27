@@ -7,7 +7,7 @@ image:
   homepage: hpstr-500x500.png
   thumb: hpstr-250x250.png
 category: articles
-tags: [Jekyll, theme, responsive, blog, modern]
+tags: [Jekyll, web development, open source]
 modified: 2014-01-10
 comments: true
 homepage: true
