@@ -409,6 +409,51 @@ span + .entry-title {
 		}
 	}
 }
+// Table of contents
+ul#markdown-toc {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	&:before {
+		content: "Table of Contents";
+		font-weight: 700;
+		padding-left: 1em;
+		padding-bottom: 0.5em;
+		border-bottom: 5px solid lighten(@base-color, 60);
+		display: block;
+		.font-rem(16);
+	}
+	ul {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 1em;
+		border-top: 1px solid lighten(@base-color, 50);
+		margin-left: 0;
+	}
+	li {
+		border-bottom: 1px solid lighten(@base-color, 50);
+		margin: 0;
+		padding: 0;
+		.font-rem(16);
+		@media @medium {
+			.font-rem(14);
+		}
+		a{
+			display: block;
+			padding: 0.5em 1em;
+			border: none;
+			&:hover {
+				background-color: lighten(@base-color, 75);
+			}
+		}
+		&:first-child {
+			padding-top: 0;
+		}
+		&:last-child {
+			border: none;
+		}
+	}
+}
 .work-content {
 	margin-top: 10px;
 	margin-right: auto;

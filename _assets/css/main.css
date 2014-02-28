@@ -2795,6 +2795,63 @@ span + .entry-title {
   line-height: 1.25;
 }
 
+ul#markdown-toc {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+ul#markdown-toc:before {
+  display: block;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-bottom: 5px solid #cdcdcd;
+  content: "Table of Contents";
+}
+
+ul#markdown-toc ul {
+  padding-left: 1em;
+  margin-left: 0;
+  list-style: none;
+  border-top: 1px solid #b3b3b3;
+}
+
+ul#markdown-toc li {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-size: 1rem;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+@media only screen and (min-width: 48em) {
+  ul#markdown-toc li {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+ul#markdown-toc li a {
+  display: block;
+  padding: 0.5em 1em;
+  border: none;
+}
+
+ul#markdown-toc li a:hover {
+  background-color: #f3f3f3;
+}
+
+ul#markdown-toc li:first-child {
+  padding-top: 0;
+}
+
+ul#markdown-toc li:last-child {
+  border: none;
+}
+
 .work-content {
   max-width: 600px;
   padding-right: 20px;
