@@ -1,30 +1,30 @@
 ---
 layout: post
 title: "HPSTR, a Jekyll Theme"
-description: "A responsive Jekyll blog theme designed to give your site a modern and almost cliche feel."
+description: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliche look."
 image: 
   feature: hpstr-theme-feature.jpg
   homepage: hpstr-500x500.png
   thumb: hpstr-250x250.png
 category: articles
-tags: [Jekyll, web development, open source]
-modified: 2014-01-10
+tags: [Jekyll, web development, open source, GitHub]
+modified: 2014-02-28
 comments: true
-homepage: true
 ---
 
 They say three times the charm, so here is another free Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
 
-* Responsive templates for post, page, and post index `_layouts`.
-* Gracefully degrades in older browsers.  
+## HPSTR Theme Features:
+
+* Responsive layouts. Looks good on mobile, tablets, and desktop devices.
+* Full compatibility with [GitHub Pages](http://pages.github.com/).
 * Modern and minimal design with a focus on clean typography.
 * Support for large images to call out your favorite posts.
-* Simple permalink structure[^1].
-* Support for [Disqus](http://disqus.com) comments.
+* Optional [Disqus](http://disqus.com) comments.
 * Support for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards).
 * Simple [custom 404 page]({{ site.url }}/404/) to get you started.
 * Support for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
-* Compatible with [GitHub Pages](http://pages.github.com/).
+* Grunt and Rake tasks for easier site development.
 
 <div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn">Demo the Theme</a></div>
 
@@ -60,7 +60,6 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 	<figcaption>How social sharing buttons look in HPSTR</figcaption>
 </figure>
 
-[^1]: Example: *domain.com/post-title/*
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too... but that's a discussion for another day.
 [^3]: On mobile I choose to remove the fixed positioning to keep the menu from interfering with the main content.
 
