@@ -11,7 +11,7 @@ tags: [Jekyll, web development, open source, GitHub]
 homepage: true
 ---
 
-As I continue to hack away at the design of Made Mistakes and improve on things, I've tried to release a simplified Jekyll starter after each major revision.
+As I continue to hack away at the design of Made Mistakes and improve on things, I've tried to release a simplified Jekyll starter after each major revision. Just my way of giving back to the community.
 
 Below are all of the Jekyll starters I've open sourced thus far. Each "theme" contains all the `_layouts`, `_includes`, assets, and sample posts/pages to get you started. For the most part they share a lot of similarities (especially in `_config.yml`), which should make switching and updating easier. Not quite on the level of [Octopress](http://octopress.org/) or [Jekyll Bootstrap](http://jekyllbootstrap.com/), but I think they get the job done.
 
@@ -61,3 +61,13 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 * Automatic table of contents on single posts [via Kramdown](http://kramdown.gettalong.org/converter/html.html#toc)
 
 <div markdown="0"><a href="http://mmistakes.github.io/minimal-mistakes" onClick="_gaq.push(['_trackEvent', 'Link', 'Minimal Mistakes - Theme Demo']);" class="btn">Demo the Theme</a> <a href="{{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %}" class="btn">Learn More</a></div>
+
+---
+
+## License
+
+These themes are free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). Feel free to to modify them to suit your needs. 
+
+---
+
+{% include support.html %}

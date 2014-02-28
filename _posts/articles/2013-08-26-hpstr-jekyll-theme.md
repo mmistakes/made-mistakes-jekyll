@@ -65,4 +65,10 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 
 ---
 
+## License
+
+This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). Feel free to to modify it to suit your needs. 
+
+---
+
 {% include support.html %}
