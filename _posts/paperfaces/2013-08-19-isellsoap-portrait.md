@@ -6,7 +6,7 @@ image:
   feature: paperfaces-isellsoap-twitter-lg.jpg
   thumb: paperfaces-isellsoap-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper by 53, trees]
 ---
 
 PaperFaces portrait of [@isellsoap](http://twitter.com/isellsoap).

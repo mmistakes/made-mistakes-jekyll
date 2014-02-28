@@ -22,7 +22,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Simple permalink structure[^1].
 * Support for [Disqus](http://disqus.com) comments.
 * Support for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards).
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
+* Simple [custom 404 page]({{ site.url }}/404/) to get you started.
 * Support for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
 * Compatible with [GitHub Pages](http://pages.github.com/).
 
@@ -53,7 +53,12 @@ There are some [Jekyll Grunt plugins](https://github.com/dannygarcia/grunt-jekyl
 
 ### Social Sharing Links
 
-Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with a lightweight jQuery plugin by Filament group called [SocialCount](http://filamentgroup.com/lab/socialcount/). Social sharing links are disabled by default and must be turned on at the post or page level by adding `share: true` to its front matter.
+Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with lightweight share links. Social sharing links are disabled by default and must be turned on at the post or page level by adding `share: true` to the YAML front matter.
+
+<figure>
+	<img src="{{ site.url }}/images/hpstr-social-share-example.jpg" alt="social share button screenshot">
+	<figcaption>How social sharing buttons look in HPSTR</figcaption>
+</figure>
 
 [^1]: Example: *domain.com/post-title/*
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too... but that's a discussion for another day.

@@ -3,15 +3,15 @@ layout: work
 permalink: /paperfaces/
 title: "PaperFaces Project Gallery"
 short-title: "PaperFaces Project"
-headline: "PaperFaces Project"
+headline: "PaperFaces 365 Project"
 description: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53 for iPad."
-modified: 2014-01-06
+modified: 2014-02-28
 image: 
   thumb: paperfaces-project-250x250.jpg
   homepage: paperfaces-project-250x250.jpg
 category: work
 homepage: true
-tags: [PaperFaces, Paper by 53, iPad art, portrait, illustration]
+tags: [PaperFaces, Paper by 53, portrait, illustration, 365 project]
 change_frequency: daily
 ---
 

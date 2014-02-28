@@ -6,7 +6,7 @@ image:
   feature: paperfaces-vinitkme-twitter-lg.jpg
   thumb: paperfaces-vinitkme-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white, trees]
 ---
 
 PaperFaces portrait of [@vinitkme](http://twitter.com/vinitkme).

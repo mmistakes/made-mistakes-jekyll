@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kalina-b-lg.jpg
   thumb: paperfaces-kalina-b-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy, texture]
 ---
 
 PaperFaces portrait of [Kalina B.](http://sktchy.com/142Fr) inspired by Sktchy.

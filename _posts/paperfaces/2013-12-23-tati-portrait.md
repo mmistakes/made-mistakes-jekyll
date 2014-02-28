@@ -6,7 +6,7 @@ image:
   feature: paperfaces-tati-lg.jpg
   thumb: paperfaces-tati-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend]
+tags: [portrait, illustration, Paper by 53, Blend, bokeh]
 ---
 
 My first PaperFaces portrait commission using two styli to complete.
