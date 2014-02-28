@@ -44,6 +44,7 @@ figcaption {
 	position: relative;
 	margin-top: 1.5em;
 	margin-left: -2em;
+	margin-right: -2em;
 	padding: 1em 2em;
 	text-indent: 0;
 	.font-rem(16);
@@ -51,11 +52,11 @@ figcaption {
 	&:before {
 		content: "";
 		position: absolute;
-		top: -10px;
+		top: -20px;
 		left: 0;
 		border-color: transparent @primary @primary transparent;
 		border-style: solid;
-		border-width: 5px;
+		border-width: 10px;
 		width: 0;
 		height: 0;
 	}
@@ -66,6 +67,7 @@ figcaption {
 .dark {
 	background-color: @black;
 	color: @white;
+	text-align: center;
 }
 .info {
 	background-color: lighten(@info, 30);

@@ -394,6 +394,7 @@ figcaption {
   position: relative;
   padding: 1em 2em;
   margin-top: 1.5em;
+  margin-right: -2em;
   margin-left: -2em;
   font-size: 16px;
   font-size: 1rem;
@@ -403,13 +404,13 @@ figcaption {
 
 .notice:before {
   position: absolute;
-  top: -10px;
+  top: -20px;
   left: 0;
   width: 0;
   height: 0;
   border-color: transparent #7f8c8d #7f8c8d transparent;
   border-style: solid;
-  border-width: 5px;
+  border-width: 10px;
   content: "";
 }
 
@@ -419,6 +420,7 @@ figcaption {
 
 .dark {
   color: #ffffff;
+  text-align: center;
   background-color: #000000;
 }
 
