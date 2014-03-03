@@ -392,6 +392,15 @@ span + .entry-title {
 	p > a.reversefootnote {
 		border-bottom-width: 0;
 	}
+	// Full width figures on small screens
+	figure {
+		margin-left: -20px;
+		margin-right: -20px;
+		@media @medium {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
 	// Footnotes
 	.footnotes {
 		margin: 3em 0;

@@ -403,7 +403,7 @@ figcaption {
   position: relative;
   padding: 20px 40px;
   margin-top: 30px;
-  margin-right: -40px;
+  margin-right: -20px;
   margin-left: -40px;
   font-size: 16px;
   font-size: 1rem;
@@ -926,7 +926,7 @@ hr {
 figure {
   padding-top: 10px;
   padding-bottom: 10px;
-  margin: 0 -20px;
+  margin: 0;
   *zoom: 1;
 }
 
@@ -973,13 +973,6 @@ figure a img:hover {
   }
   figure.third figcaption {
     clear: left;
-  }
-}
-
-@media only screen and (min-width: 48em) {
-  figure {
-    margin-right: 0;
-    margin-left: 0;
   }
 }
 
@@ -2787,6 +2780,18 @@ span + .entry-title {
 
 .entry-content p > a.reversefootnote {
   border-bottom-width: 0;
+}
+
+.entry-content figure {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+@media only screen and (min-width: 48em) {
+  .entry-content figure {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .entry-content .footnotes {
