@@ -36,16 +36,22 @@ figcaption {
 	line-height: 1.3;
 	color: lighten(@text-color, 10);
 	clear: both;
+	padding-left: 20px;
+	padding-right: 20px;
+	@media @medium {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 // Note text
 // --------------------------------------------------
 .notice {
 	position: relative;
-	margin-top: 1.5em;
-	margin-left: -2em;
-	margin-right: -2em;
-	padding: 1em 2em;
+	margin-top: 30px;
+	margin-left: -40px;
+	margin-right: -40px;
+	padding: 20px 40px;
 	text-indent: 0;
 	.font-rem(16);
 	background-color: lighten(@primary, 30);

@@ -379,6 +379,8 @@ a:active {
 
 figcaption {
   padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
   clear: both;
   font-family: Georgia, serif;
   font-size: 14px;
@@ -390,12 +392,19 @@ figcaption {
   text-align: center;
 }
 
+@media only screen and (min-width: 48em) {
+  figcaption {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .notice {
   position: relative;
-  padding: 1em 2em;
-  margin-top: 1.5em;
-  margin-right: -2em;
-  margin-left: -2em;
+  padding: 20px 40px;
+  margin-top: 30px;
+  margin-right: -40px;
+  margin-left: -40px;
   font-size: 16px;
   font-size: 1rem;
   text-indent: 0;
@@ -917,7 +926,7 @@ hr {
 figure {
   padding-top: 10px;
   padding-bottom: 10px;
-  margin: 0;
+  margin: 0 -20px;
   *zoom: 1;
 }
 
@@ -964,6 +973,13 @@ figure a img:hover {
   }
   figure.third figcaption {
     clear: left;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  figure {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
