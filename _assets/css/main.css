@@ -3467,3 +3467,59 @@ ul#markdown-toc li:last-child {
     marign-top: 0;
   }
 }
+
+.palette {
+  width: 100%;
+  background: #171716 url("../images/paper-53-palette-bk.png");
+  border-radius: 10px;
+}
+
+.palette .row {
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  *zoom: 1;
+}
+
+.palette .row:before,
+.palette .row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.palette .row:after {
+  clear: both;
+}
+
+.palette .row a {
+  margin: 5px;
+}
+
+.palette div:first-child {
+  padding-top: 10px;
+}
+
+.palette div:last-child {
+  padding-bottom: 10px;
+}
+
+.palette .swatch {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: 3px solid #000000;
+  border-radius: 70px;
+}
+
+.palette .swatch:hover {
+  border: 3px solid #ffffff;
+}
+
+@media only screen and (min-width: 48em) {
+  .palette .swatch {
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+  }
+}

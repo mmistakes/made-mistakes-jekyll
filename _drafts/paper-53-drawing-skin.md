@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mastering Paper by 53: Drawing Skin and Faces (Revisited)"
-description: "Learn techniques for painting and drawing faces using the iPad app Paper by 53."
+description: "Learn techniques for drawing and painting faces using the iPad app Paper by 53."
 image: 
   feature: 
   thumb: 
@@ -24,13 +24,28 @@ What this guide won't be is a lesson in human anatomy or the mathematical relati
 
 ## Color Palettes for Skin
 
-Before getting into the various techniques I'd like to share some of the palettes I use with Paper. With this set of seven custom mixes I can pretty much reproduce any skin tone I want. Below I've painted each color wheel with the brush tool to show how they appear when layered, lightened, and darkened. Tapping the circles below will open into larger views allowing you to save[^saving-images] a copy to use as reference.
+Before getting into the various techniques I'd like to share some of the palettes I use with Paper. With this set of seven custom mixes I can pretty much reproduce any skin tone I want. Below I've painted each color wheel with the brush tool to show how they appear when layered, darkened, and lightened. Tapping the circles below will open into larger views allowing you to save[^saving-images] a copy to use as reference.
 
 [^saving-images]: If viewing on a mobile device like an iPad or iPhone, tap and hold on the image to save to your Camera Roll. On desktop browsers, right click and select *Save image as...*
 
-![Image of 7 skin tone colors](http://placehold.it/750x250.gif)
+<figure>
+	<div class="palette">
+		<div class="row">
+			<a href="{{ site.url }}/images/paper-53-skin-color-1.jpg"><img class="swatch" src="{{ site.url }}/images/paper-53-skin-swatch-1.png" alt="skin swatch 1"></a>
+			<a href="{{ site.url }}/images/paper-53-skin-color-2.jpg"><img class="swatch" src="{{ site.url }}/images/paper-53-skin-swatch-2.png" alt="skin swatch 2"></a>
+			<a href="{{ site.url }}/images/paper-53-skin-color-3.jpg"><img class="swatch" src="{{ site.url }}/images/paper-53-skin-swatch-3.png" alt="skin swatch 3"></a>
+		</div><!-- /.row1 -->
+		<div class="row">
+			<a href="{{ site.url }}/images/paper-53-skin-color-4.jpg"><img class="swatch" src="{{ site.url }}/images/paper-53-skin-swatch-4.png" alt="skin swatch 4"></a>
+			<a href="{{ site.url }}/images/paper-53-skin-color-5.jpg"><img class="swatch" src="{{ site.url }}/images/paper-53-skin-swatch-5.png" alt="skin swatch 5"></a>
+			<a href="{{ site.url }}/images/paper-53-skin-color-6.jpg"><img class="swatch" src="{{ site.url }}/images/paper-53-skin-swatch-6.png" alt="skin swatch 6"></a>
+			<a href="{{ site.url }}/images/paper-53-skin-color-7.jpg"><img class="swatch" src="{{ site.url }}/images/paper-53-skin-swatch-7.png" alt="skin swatch 7"></a>
+		</div><!-- /.row2 -->
+	</div><!-- .palette -->
+	<figcaption>Select the color you want to view and save.</figcaption>
+</figure>
 
-Paper by 53 currently doesn't have a way of exporting or sharing color palettes. To recreate these on your iPad you will need to following these steps:
+Paper by 53 currently doesn't have a way of exporting or sharing color palettes. To recreate these on your iPad you will need to follow these steps:
 
 1. Buy the Color Mixer tool if you haven't already.
 2. Tap the small circle within the Color Mixer and move the 3 sliders to match the color you are looking to copy.
