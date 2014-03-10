@@ -1,7 +1,7 @@
 ---
 layout: work
 title: "Hat halo"
-description: "PaperFaces portrait of a Talia P drawn with Paper by 53 on an iPad."
+description: "PaperFaces portrait of a Talia P. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-talia-p-lg.jpg
   thumb: paperfaces-talia-p-150.jpg
