@@ -1282,6 +1282,10 @@ svg:not(:root) {
           border-radius: 5px;
 }
 
+.badge a {
+  color: #ffffff;
+}
+
 @-webkit-keyframes wiggle {
   25%,
   50%,
