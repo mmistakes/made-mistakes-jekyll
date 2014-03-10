@@ -401,6 +401,18 @@ span + .entry-title {
 			margin-right: 0;
 		}
 	}
+	// Right aligned image
+	.image-right {
+		text-align: center;
+		@media @medium {
+			float: right;
+			margin-left: 2em;
+			img {
+				float: left;
+				padding-right: .5em;
+			}
+		}
+	}
 	// Footnotes
 	.footnotes {
 		margin: 3em 0;

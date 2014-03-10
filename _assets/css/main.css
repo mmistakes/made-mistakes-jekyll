@@ -202,27 +202,6 @@ button {
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 62.5em) {
-  .image-left {
-    float: left;
-  }
-}
-
-.image-right {
-  text-align: center;
-}
-
-@media only screen and (min-width: 48em) {
-  .image-right {
-    float: right;
-    margin-left: 2em;
-  }
-  .image-right img {
-    float: left;
-    padding-right: .5em;
-  }
-}
-
 .image-rounded {
   -webkit-border-radius: 200px;
      -moz-border-radius: 200px;
@@ -2791,6 +2770,21 @@ span + .entry-title {
   .entry-content figure {
     margin-right: 0;
     margin-left: 0;
+  }
+}
+
+.entry-content .image-right {
+  text-align: center;
+}
+
+@media only screen and (min-width: 48em) {
+  .entry-content .image-right {
+    float: right;
+    margin-left: 2em;
+  }
+  .entry-content .image-right img {
+    float: left;
+    padding-right: .5em;
   }
 }
 
