@@ -6,7 +6,7 @@ modified: 2014-01-10
 image: 
   feature: paper-53-water-guide-feature.jpg
   thumb: paper-53-water-guide-thumb.jpg
-category: articles
+category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, water, waves]
 series: mastering-paper
 comments: true
@@ -29,7 +29,7 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 <i class="fa fa-star"></i> **ProTip:** Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 {: .notice}
 
-[^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#color-mixer) and what the various sliders mean and do.
+[^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer) and what the various sliders mean and do.
 
 Much like drawing skies, you can choose to mark a horizon line in pencil to act as a guide --- or go commando if you're confident in your watercolor skills. If you decide to draw the horizon, remember to keep it light so it doesn't bleed through the watercolor we'll be applying next.
 
@@ -99,7 +99,7 @@ A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-c
 
 ### White Wave Crests and Foam
 
-Crests or areas where waves might be crashing against land I go heavy with a white pencil and try to make it textured and scratchy. Criss-crossing or hatching my strokes is one way of doing this quickly. If you remember my [guide on painting clouds]({{ site.url }}{% post_url /articles/2013-09-05-paper-53-drawing-sky-clouds %}), the technique is the same.
+Crests or areas where waves might be crashing against land I go heavy with a white pencil and try to make it textured and scratchy. Criss-crossing or hatching my strokes is one way of doing this quickly. If you remember my [guide on painting clouds]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), the technique is the same.
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paper-53-white-foam-detail-lg.jpg"><img src="{{ site.url }}/images/paper-53-white-foam-detail.jpg" alt="screenshot of wave foam zoomed in"></a>

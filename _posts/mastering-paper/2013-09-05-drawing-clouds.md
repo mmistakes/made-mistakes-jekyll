@@ -7,7 +7,7 @@ image:
   feature: paper-53-skies-guide-feature.jpg
   thumb: paper-53-skies-guide-thumb.jpg
 modified: 2013-09-17
-category: articles
+category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, sky, clouds]
 series: mastering-paper
 comments: true

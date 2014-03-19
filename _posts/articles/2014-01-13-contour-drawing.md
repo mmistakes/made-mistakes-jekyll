@@ -17,7 +17,7 @@ One of the first things I drew on my iPad with Paper by FiftyThree was a blind c
 
 ## Drawing Contour Lines
 
-Working in a loose and gestural manner is an excellent way to warm-up and sharpen your observation skills. I like to draw with the [fountain pen (draw)]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#fountain-pen) because it has a greater range than some of the other tools, but feel free to use the [ink pen (write)]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#ink-pen) or even the [pencil]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#pencil). I think you'll find this exercise to be very cathartic, especially when compared against the technical and time consuming nature of photo realistic drawing.
+Working in a loose and gestural manner is an excellent way to warm-up and sharpen your observation skills. I like to draw with the [fountain pen (draw)]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#fountain-pen) because it has a greater range than some of the other tools, but feel free to use the [ink pen (write)]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) or even the [pencil]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#pencil). I think you'll find this exercise to be very cathartic, especially when compared against the technical and time consuming nature of photo realistic drawing.
 
 The ideal way to practice this technique is by drawing a *real* object (hands are good to start with) --- avoiding photographs if you can. To begin, fix your eyes on the subject in front of you. As your eyes track across the subject's shape, draw a slow continuous line in sync with what you are viewing. 
 
@@ -44,7 +44,7 @@ I also find that it helps to think of this line as a piece of string --- pretend
 
 ## Variations and Enhancements
 
-There's a world of possibilities to explore with this technique. For example, you can stick with black ink on white paper and add splashes of color with the [brush tool]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#watercolor-brush), emulate a scratch board drawing, or layer multiple lines on top of each other. 
+There's a world of possibilities to explore with this technique. For example, you can stick with black ink on white paper and add splashes of color with the [brush tool]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#watercolor-brush), emulate a scratch board drawing, or layer multiple lines on top of each other. 
 
 ### A Splash of Color
 

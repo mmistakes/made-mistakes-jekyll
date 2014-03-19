@@ -7,7 +7,7 @@ image:
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
   homepage: paper-by-53-500x500.jpg
-category: articles
+category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 series: mastering-paper
 comments: true

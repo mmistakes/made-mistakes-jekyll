@@ -7,7 +7,7 @@ modified: 2014-01-17
 image: 
   feature: paper-53-book-feature.jpg
   thumb: paper-53-book-thumb.jpg
-category: articles
+category: mastering-paper
 tags: [Moleskine, Paper by 53, book, printing, review, design]
 series: mastering-paper
 comments: true

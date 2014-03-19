@@ -6,7 +6,7 @@ modified: 2014-01-10
 image: 
   feature: paper-53-trees-guide-feature.jpg
   thumb: paper-53-trees-guide-thumb.jpg
-category: articles
+category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, trees, grass]
 series: mastering-paper
 comments: true

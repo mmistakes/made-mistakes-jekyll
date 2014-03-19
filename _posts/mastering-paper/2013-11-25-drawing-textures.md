@@ -6,7 +6,7 @@ modified: 2014-01-14
 image: 
   feature: paper-53-texture-guide-feature.jpg
   thumb: paper-53-texture-guide-thumb.jpg
-category: articles
+category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, texture, wood]
 series: mastering-paper
 comments: true
