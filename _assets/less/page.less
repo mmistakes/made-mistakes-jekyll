@@ -287,6 +287,31 @@ body {
 	margin: 20px 0 0;
 	width: 100%;
 }
+// Feature Image Caption
+.image-credit {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	max-width: 440px;
+	padding: 10px 15px;
+	background-color: fade(@base-color,50);
+	color: @white;
+	.font-rem(12);
+	text-align: right;
+	.border-radius(3px,0,0,3px);
+	z-index: 10;
+	@media @medium {
+		max-width: 760px;
+	}
+	@media @large {
+		max-width: 960px;
+	}
+	a {
+		color: @white;
+		text-decoration: none;
+	}
+}
 span + .entry-title {
 	margin-top: 0;
 }
@@ -295,10 +320,12 @@ span + .entry-title {
 	.font-rem(24);
 	line-height: 1;
 	text-transform: uppercase;
+	text-align: center;
 	a { color: @black; }
 	@media @medium {
 		max-width: 600px;
 		.font-rem(36);
+		text-align: left;
 	}
 	@media @large {
 		max-width: 800px;
@@ -330,12 +357,14 @@ span + .entry-title {
 	}
 }
 .entry-tags {
+	visibility: hidden;
 	text-transform: uppercase;
 	a { 
 		color: @black; 
 		white-space: nowrap; // prevent tag names from line breaking
 	}
 	@media @medium {
+		visibility: visible;
 		max-width: 600px;
 	}
 	@media @large {
