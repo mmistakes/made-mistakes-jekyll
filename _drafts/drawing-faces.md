@@ -5,8 +5,8 @@ description: "Learn techniques for drawing and painting faces using the iPad app
 image: 
   feature: 
   thumb: 
-category: articles
-tags: [Paper by 53, tutorial, drawing, painting, iPad, skin, portrait]
+category: mastering-paper
+tags: [Paper by 53, tutorial, drawing, painting, iPad, face, skin]
 series: mastering-paper
 comments: true
 ---
@@ -57,7 +57,7 @@ Paper by 53 currently doesn't have a way of exporting or sharing color palettes.
 
 ## Choosing Colors
 
-In my previous guide I went over a few [color theory basics]({{ site.url }}{% post_url /articles/2014-02-09-paper-53-basics %}/#color-theory-basics) that can help guide you to make more informed color selections. Building on top of those guidelines here are a few more that are specific to painting portraits.
+In my previous guide I went over a few [color theory basics]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}/#color-theory-basics) that can help guide you to make more informed color selections. Building on top of those guidelines here are a few more that are specific to painting portraits.
 
 When I'm having trouble getting a mix just right I focus more on whether it is warm or cool and adjust accordingly. With regards to the face, you can roughly divide it into three sections. Lighting has an important role in this, but for the most part you can divide a face with fair complexion like so.
 
@@ -132,7 +132,7 @@ With the face's shape *pulled out from the background*, we can start the process
 
 If you decide to use your own color mix I suggest one that is light --- the less intense the color the better. Take your time to carefully observe the shapes you are painting. Drawing is as much of seeing as it is putting a mark on the canvas.
 
-Don't be afraid to [Rewind]({{ site.url }}{% post_url /articles/2013-07-31-paper-53-introduction %}#rewind) a stroke and redo it. I've been known to repeat this action over 20 times until I feel a stroke captures the form's essence. Be deliberate with your brush movements and try to convey more with less (if that makes any sort of sense).
+Don't be afraid to [Rewind]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#rewind) a stroke and redo it. I've been known to repeat this action over 20 times until I feel a stroke captures the form's essence. Be deliberate with your brush movements and try to convey more with less (if that makes any sort of sense).
 
 ![Watercolor face layer 2-3](http://placehold.it/750x450.gif)
 
@@ -183,13 +183,13 @@ Bouncing between the eraser and pencil tools, remove stray lines from the initia
 
 ### Shaping Skin with Hatching
 
-Once you've finished darkening and refining contour lines you'll want to begin shaping the skin. The primary way to do this is with [hatching techniques]({{ site.url }}{% post_url /articles/2014-02-09-paper-53-basics %}/#parallel-hatching) and dry mixing colored pencils on the canvas.
+Once you've finished darkening and refining contour lines you'll want to begin shaping the skin. The primary way to do this is with [hatching techniques]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}/#parallel-hatching) and dry mixing colored pencils on the canvas.
 
 The idea is to build up tones from light to dark overlapping pencil strokes and varying the distance between them. The closer the lines, the darker they will appear. I like to work from dark to light and use a contour hatching technique that follows the shape of the skin's surface. 
 
 ![Contour hatching around the eyes](http://placehold.it/750x450.gif)
 
-I've said this before in my [Back to Basics guide]({{ site.url }}{% post_url /articles/2014-02-09-paper-53-basics %}), but it's worth repeating. Be mindful of the direction of the strokes you are making when hatching to enhance the form. 
+I've said this before in my [Back to Basics guide]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}), but it's worth repeating. Be mindful of the direction of the strokes you are making when hatching to enhance the form. 
 
 Don't feel the need to *shade* all surfaces. Focus your attention on the darkest values and build up those gradations first. Keep in mind that we will be covering these pencil strokes with watercolor so don't go too dark. I suggest making your tones about 50% lighter than how they appear --- you can always darken things up later.
 
