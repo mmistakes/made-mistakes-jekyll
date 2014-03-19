@@ -522,13 +522,13 @@ form .instruct {
     visibility: hidden;
     opacity: 0;
     font-size: 105%;
+    line-height: 1.2;
     -webkit-transition: opacity 350ms ease-out;
     -moz-transition: opacity 350ms ease-out;
     -o-transition: opacity 350ms ease-out;
     transition: opacity 350ms ease-out;
 }
 form .instruct small {
-    line-height: 120%;
     font-size: 80%;
     color: #444;
 }
