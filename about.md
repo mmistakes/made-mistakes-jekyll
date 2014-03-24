@@ -31,20 +31,20 @@ And if that wasn't enough --- I'm a husband and father of twin girls or as we li
 
 ## What's a Made Mistakes?
 
-So what does this all have to do with *made mistakes* and why'd you name your website that? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
+So what does this all have to do with *made mistakes* and why did you name your website that? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
 In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash (hey remember those?) while I worked on building a design portfolio using Movable Type. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, Javascript, PHP, and MySQL databases.
 
-I've since decided to go CMS-free and utilize black magick and [Jekyll](http://jekyllrb.com/) to [build the site statically]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for greater control and improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch has been challenging, but completely worth it.
+I've since decided to go CMS-free and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat HTML files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for greater control and improved performance. Building all of the layouts, stylesheets, feeds, and assets from scratch has been challenging, but completely worth it.
 
 ---
 
 ## Contact Me
 
+Short messages via Twitter are my preferred contact method. For anything longer feel free to use the form below and I'll reply by email when I can.
+
 <a href="https://twitter.com/intent/tweet?screen_name=mmistakes" class="twitter-mention-button" data-size="large" data-related="mmistakes">Tweet to @mmistakes</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-Short messages via Twitter are my preferred contact method. For anything longer feel free to use the form below and I'll reply by email when I can.
 
 <link rel="stylesheet" href="{{ site.url }}/{% ministamp _assets/css/form.min.css css/form.min.css %}">
 <script src="{{ site.url }}/{% ministamp _assets/js/vendor/wufoo.js js/vendor/wufoo.js %}"></script>
