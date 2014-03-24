@@ -17,14 +17,6 @@ body_id: post
 		<div class="entry-wrapper">
 			<div class="entry-content" itemprop="articleBody">
 				{{ content }}
-				<div class="entry-related">
-					<h2>Related</h2>
-					<ul>
-						{% for post in site.related_posts limit:4 %}
-						<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-						{% endfor %}
-					</ul>
-				</div><!-- /.entry-related -->
 			</div><!-- /.entry-content -->
 			<div class="ads">
 				{% include _advertising.html %}
