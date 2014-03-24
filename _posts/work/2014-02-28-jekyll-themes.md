@@ -9,6 +9,7 @@ image:
 category: work
 tags: [Jekyll, web development, open source, GitHub]
 homepage: true
+ads: true
 ---
 
 As I continue to hack away at the design of Made Mistakes and improve on things, I've tried to release a simplified Jekyll starter after each major revision. Just my way of giving back to the community.
