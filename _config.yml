@@ -44,6 +44,8 @@ links:
   - title: About
     url: /about/
 
+encoding: UTF-8
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
