@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Red glow"
+title: "Cousin It"
 description: "PaperFaces portrait of a Marie A. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-marie-a-lg.jpg
