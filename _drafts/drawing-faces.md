@@ -63,7 +63,7 @@ When I'm having trouble getting a mix just right I focus more on whether it is w
 
 ### Forehead
 
-Your forehead is free of surface capillaries and muscles leaving it white or a golden yellow. Along the hairline you'll notice a darker tone that I like to use as a way of blending hair follicles into the scape. But I'm getting ahead of myself, more on painting hair in a future guide.
+Your forehead is free of surface capillaries and muscles leaving it white or a golden yellow. Along the hairline you'll notice a darker tone that I like to use as a way of blending hair follicles into the scalp. But I'm getting ahead of myself, more on painting hair in a future guide.
 
 ![Forehead glazing](http://placehold.it/750x450.gif)
 
@@ -79,7 +79,7 @@ The third section of the face with a noticeable color tone is the area below the
 
 ![Facial hair glazing](http://placehold.it/750x450.gif)
 
-If you remember back to my previous guide, green and red are complementary colors. One way of accentuating a color is by surrounding it with it's complement. I use this trick often when painting female faces when I want to call out their lips --- something I usually downplay on males.
+If you remember back to my previous guide, green and red are complementary colors. One way of accentuating a color is by surrounding it with it's complement. I use this trick often when painting female faces when I want to call out their lips by painting the shadows in glazes of blue or green.
 
 ![Pink lips green skin](http://placehold.it/750x450.gif)
 
@@ -93,7 +93,10 @@ The brush produces a range of values by varying the speed at which they're paint
 
 Speed is the single most important variable to creating a smooth tone or glaze. The second is never lifting the tip off the screen until you've filled a shape.
 
-![Painting a smooth tone video](http://placehold.it/750x450.gif)
+<figure>
+	<iframe width="560" height="315" src="//www.youtube.com/embed/AjJVrFFaCck" frameborder="0"> </iframe>
+	<figcaption>Here's how I paint a shape smoothly.</figcaption>
+</figure>
 
 <i class="fa fa-star"></i> **ProTip:** To even out stubborn light spots, keep rubbing until they turn dark. You won't overwork an area as long as don't lift to make another stroke.
 {: .notice}
