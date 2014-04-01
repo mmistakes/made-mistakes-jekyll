@@ -4,7 +4,7 @@ permalink: /portraits/
 title: "Order a Digital Portrait"
 headline: "Get PaperFaced"
 description: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
-modified: 2014-02-26
+modified: 2014-03-31
 image:
   thumb: portrait-thumb.jpg
   homepage: portrait-500x500.gif
@@ -12,7 +12,7 @@ tags: [portrait, Paper by 53, drawing, painting, iPad, commission]
 homepage: true
 ---
 
-Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how it goes down.
+Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how you go about commissioning one.
 
 <ul class="oversized-recent-grid">
 {% for post in site.categories.paperfaces limit:8 %}
@@ -22,35 +22,43 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
     {% endfor %}
 </ul>
 
-I am not a professional artist and merely drawing portraits on my iPad for fun. I take the supplied reference photograph and draw my interpretation of it, illustrated in a loose watercolor and pencil style. If the source photography is well lit and of high quality I will likely draw a realistic portrait, but I also might draw a faceless one. I'm not asking much for these drawings so I think that more than makes up for this level of *artistic discretion*. ([Portrait examples]({{ site.url }}/paperfaces/))
+Using a photograph (supplied by you) as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. If the source photography is well lit and of high quality I will likely draw a realistic portrait, but I also might draw a faceless one. I'm not asking much for these drawings so I think that more than makes up for this level of *artistic discretion*. ([Portrait examples]({{ site.url }}/paperfaces/))
 
 <figure>
     <img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
-    <figcaption>I&rsquo;ve done quite a few cats, dogs, and even a Velociraptor &mdash; the quirkier the better!</figcaption>
+    <figcaption>Choose wisely: black and white, one face, or multiple.</figcaption>
 </figure>
 
 ## Include a Photo Reference
 
-Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. Don't have it linked up somewhere? No problem. Just email your picture to <michael@mademistakes.com> after completing the transaction and include a note in PayPal's special instructions that you'll be emailing me a photo so I know to expect an attachment.
+Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. Because of Paper's somewhat limited tools head shots turn out the best compared to a full figure. Detail work is a tricky dick with this app so if you're looking for a more photo realistic outcome I encourage you to select a photograph that fits this criteria.
+
+Don't have a photo linked up somewhere? No problem. After placing an order include a note in PayPal's special instructions that you'll be emailing me a photo and then send it over to <michael@mademistakes.com>.
 
 ## Then I Draw
 
-I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once completed I'll tweet out the drawing so my followers can enjoy it and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print.
+I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once finished I'll tweet out the drawing so my followers can enjoy it and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print. If by chance you're purchasing a drawing as a gift and would like me to hold off tweeting it for a few days just let me know. Wouldn't want to ruin the surprise...
 
 [^png-file]: Paper by FiftyThree exports a PNG file measuring 2048&times;1536 pixels, viewable in most graphics software. You get the raw file --- unaltered and without a watermark.
 
-## Order a Portrait Below
+## What'll Be Stranger?
+
+Black and white or color? One face or multiple?
 
 <div class="well">
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="9UUR6AQ25G9EW">
+        <input type="hidden" name="on0" value="Type of Drawing">
+        <label style="margin:10px 0;">Type of Drawing</label>
         <select name="os0" style="width: 100%;">
-            <option value="One face">One face $20.00 USD</option>
-            <option value="Multiple faces">Multiple faces $30.00 USD</option>
+            <option value="One face - black and white">One face - black and white $15.00 USD</option>
+            <option value="One face - color">One face - color $20.00 USD</option>
+            <option value="Multiple faces - black and white">Multiple faces - black and white $25.00 USD</option>
+            <option value="Multiple faces - color">Multiple faces - color $30.00 USD</option>
         </select>
-        <input type="hidden" name="on1" value="Portrait reference">
-        <label style="margin:10px 0;">Portrait reference</label>
+        <input type="hidden" name="on1" value="Portrait Reference URL">
+        <label style="margin:10px 0;">Portrait Reference URL</label>
         <input type="text" name="os1" maxlength="200">
         <input type="hidden" name="currency_code" value="USD">
         <input type="submit" value="Order Now" class="btn btn-success" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
@@ -62,6 +70,8 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
 {: .notice}
 
 ## What Others are Saying About PaperFaces
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/twittalkin">@twittalkin</a> here is the pic of Jason by <a href="https://twitter.com/mmistakes">@mmistakes</a> using Paper by <a href="https://twitter.com/FiftyThree">@FiftyThree</a> Incredible talent!</p>&mdash; JTM (@thepuckheads) <a href="https://twitter.com/thepuckheads/statuses/450113132556341249">March 30, 2014</a></blockquote>
 
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thanks so much for making this! Love the no face ;)</p>&mdash; Omri Mor (@omri_mor) <a href="https://twitter.com/omri_mor/statuses/255021100780625922">October 7, 2012</a></blockquote>
 
