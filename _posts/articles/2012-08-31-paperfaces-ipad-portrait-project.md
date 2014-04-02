@@ -3,7 +3,7 @@ layout: post
 title: "iPad Portraits with Paper by FiftyThree"
 short-title: "PaperFaces Project"
 description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2014-01-22
+modified: 2014-04-02
 image: 
   feature: paperfaces-project-feature.jpg
   homepage: paperfaces-project-500x500.jpg
@@ -22,9 +22,11 @@ PaperFaces is an iPad drawing project by time traveling designer and illustrator
 
 I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
 
-<ul class="recent-grid">
-{% for post in site.categories.paperfaces limit:12 %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" /></a></li>
+<ul class="oversized-recent-grid">
+{% for post in site.categories.paperfaces limit:16 %}
+    <li>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+    </li>
 {% endfor %}
 </ul>
 
@@ -50,7 +52,7 @@ Due to the positive comments that I received, I decided to put a call out for mo
 
 A few hours later, while grocery shopping with my wife, my iPhone started blowing up with retweet and @reply notifications. By the end of the day I had amassed around 300 volunteers and figured that turning it into a formal 365 day project might be fun.
 
-When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I decided to put up a page to better explain the project and a PayPal button on the site for those who really really *really* wanted me to draw their portrait. [Request a PaperFaces drawing](#draw-me-draw-me) of your portrait now.
+When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I published this page to better explain the project and added PayPal buttons on the site for those who wanted to motivate me to keep the project going.
 
 ### Why the Blank Faces?
 
@@ -60,6 +62,8 @@ When I began the project I attempted to draw each face as detailed and accuratel
   <img src="{{ site.url }}/images/paperfaces-rosebud-twins-l.jpg" alt="PaperFaces iPad portrait of the Rosebud twins">
   <figcaption>PaperFaces iPad portrait of my two twin girls</figcaption>
 </figure>
+
+After drawing over 600 portraits with Paper my skills have matured and I've begun drawing the entire face. It's been a fun personal challenge to capture as much detail in as little time possible.
 
 ### What's Your Process Like?
 
@@ -77,7 +81,7 @@ And yes, I use a stylus. For the first 50 or so portraits I drew exclusively wit
 
 ### When are You Going to Stop?
 
-At the moment, there is a *waiting list* of about 1,300. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} finished illustrations.
+At the moment, there is a *waiting list* of over 2,000. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} finished illustrations.
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour, while others might take a few. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
@@ -93,7 +97,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 {: .notice .warning}
 
 <figure class="large">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/y1OG2gLk6Jg?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
+  <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
   <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
 </figure>
 

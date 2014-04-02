@@ -63,14 +63,21 @@ svg:not(:root) {
 	margin-left: 0;
 	padding-left: 0;
 	li {
-		display: inline-block;
+		display: block;
 		list-style-type: none;
-		padding-top: 1px;
-		padding-bottom: 1px;
+		float: left;
+		width: 25%;
+		height: 25%;
+		@media @large {
+			width: 20%;
+			height: 20%
+		}
 	}
 	a { 
+		display: block;
 		border-bottom: 0 solid !important;
 		img {
+			border: 2px solid #fff;
 			&:hover {
 				-moz-animation: pop .3s linear;
 				-webkit-animation: pop .3s linear;
@@ -80,14 +87,6 @@ svg:not(:root) {
 		}
 		&:hover {
 			border-bottom: 0 solid !important;
-		}
-	}
-	img {
-		width: 106px;
-		height: 106px;
-		@media @large {
-			width: 140px;
-			height: 140px;
 		}
 	}
 	.clearfix();
@@ -98,17 +97,24 @@ svg:not(:root) {
 	margin-left: 0;
 	padding-left: 0;
 	@media @large {
-		margin-right: -280px;
+		margin-right: -240px;
 	}
 	li {
-		display: inline-block;
+		display: block;
 		list-style-type: none;
-		padding-top: 1px;
-		padding-bottom: 1px;
+		float: left;
+		width: 25%;
+		height: 25%;
+		@media @large {
+			width: 12.5%;
+			height: 12.5%
+		}
 	}
 	a { 
+		display: block;
 		border-bottom: 0 solid !important;
 		img {
+			border: 2px solid #fff;
 			&:hover {
 				-moz-animation: pop .3s linear;
 				-webkit-animation: pop .3s linear;
@@ -118,14 +124,6 @@ svg:not(:root) {
 		}
 		&:hover {
 			border-bottom: 0 solid !important;
-		}
-	}
-	img {
-		width: 75px;
-		height: 75px;
-		@media @medium {
-			width: 106px;
-			height: 106px;
 		}
 	}
 	.clearfix();

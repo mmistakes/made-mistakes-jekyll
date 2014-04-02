@@ -967,14 +967,27 @@ svg:not(:root) {
 }
 
 .recent-grid li {
-  display: inline-block;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  display: block;
+  float: left;
+  width: 25%;
+  height: 25%;
   list-style-type: none;
 }
 
+@media only screen and (min-width: 62.5em) {
+  .recent-grid li {
+    width: 20%;
+    height: 20%;
+  }
+}
+
 .recent-grid a {
+  display: block;
   border-bottom: 0 solid !important;
+}
+
+.recent-grid a img {
+  border: 2px solid #fff;
 }
 
 .recent-grid a img:hover {
@@ -988,18 +1001,6 @@ svg:not(:root) {
 
 .recent-grid a:hover {
   border-bottom: 0 solid !important;
-}
-
-.recent-grid img {
-  width: 106px;
-  height: 106px;
-}
-
-@media only screen and (min-width: 62.5em) {
-  .recent-grid img {
-    width: 140px;
-    height: 140px;
-  }
 }
 
 .recent-grid:before,
@@ -1022,19 +1023,32 @@ svg:not(:root) {
 
 @media only screen and (min-width: 62.5em) {
   .oversized-recent-grid {
-    margin-right: -280px;
+    margin-right: -240px;
   }
 }
 
 .oversized-recent-grid li {
-  display: inline-block;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  display: block;
+  float: left;
+  width: 25%;
+  height: 25%;
   list-style-type: none;
 }
 
+@media only screen and (min-width: 62.5em) {
+  .oversized-recent-grid li {
+    width: 12.5%;
+    height: 12.5%;
+  }
+}
+
 .oversized-recent-grid a {
+  display: block;
   border-bottom: 0 solid !important;
+}
+
+.oversized-recent-grid a img {
+  border: 2px solid #fff;
 }
 
 .oversized-recent-grid a img:hover {
@@ -1048,18 +1062,6 @@ svg:not(:root) {
 
 .oversized-recent-grid a:hover {
   border-bottom: 0 solid !important;
-}
-
-.oversized-recent-grid img {
-  width: 75px;
-  height: 75px;
-}
-
-@media only screen and (min-width: 48em) {
-  .oversized-recent-grid img {
-    width: 106px;
-    height: 106px;
-  }
 }
 
 .oversized-recent-grid:before,
@@ -2705,6 +2707,7 @@ span + .entry-title {
 }
 
 .entry-meta {
+  padding-bottom: 20px;
   clear: both;
   font-size: 14px;
   font-size: 0.875rem;

@@ -16,10 +16,10 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 
 <ul class="oversized-recent-grid">
 {% for post in site.categories.paperfaces limit:8 %}
-    <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-        <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="106" height="106">
-    </a></li>
-    {% endfor %}
+    <li>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+    </li>
+{% endfor %}
 </ul>
 
 Using a photograph (supplied by you) as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. If the source photography is well lit and of high quality I will likely draw a realistic portrait, but I also might draw a faceless one. I'm not asking much for these drawings so I think that more than makes up for this level of *artistic discretion*. ([Portrait examples]({{ site.url }}/paperfaces/))

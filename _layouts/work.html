@@ -24,12 +24,11 @@ body_id: page
 				{% if page.categories contains 'paperfaces' %}
 					<h2 style="margin-top:2em;">Recently Added</h2>
 					<ul class="oversized-recent-grid">
-					{% for post in site.categories.paperfaces limit:6 %}
+					{% for post in site.categories.paperfaces limit:8 %}
 						<li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-							<img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="110" height="110">
+							<img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="">
 						</a></li>
 						{% endfor %}
-						<li class="gallery-button"><a href="{{ site.url }}/paperfaces/" title="View All PaperFaces"><i class="fa fa-chevron-right fa-2x"></i></a></li>
 					</ul>
 				{% endif %}
 					<hr />

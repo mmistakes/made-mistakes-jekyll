@@ -24,8 +24,8 @@ Curious how I use Paper to draw these? Check out my set of [Mastering Paper by 5
 <ul class="oversized-recent-grid">
 {% for post in site.categories.paperfaces %}
 	<li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-		<img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="106" height="106">
-		<noscript><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" width="106" height="106"></noscript>
-	</a></li>
+		<img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+		<noscript><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a></noscript>
+	</li>
 {% endfor %}
 </ul>
