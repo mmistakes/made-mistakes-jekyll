@@ -31,9 +31,10 @@ Using a photograph (supplied by you) as reference I draw my interpretation of it
 
 ## Include a Photo Reference
 
-Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. Because of Paper's somewhat limited tools head shots turn out the best compared to a full figure. Detail work is a tricky dick with this app so if you're looking for a more photo realistic outcome I encourage you to select a photograph that fits this criteria.
+Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. If you select a photo with poor lighting, muddy details, or low in resolution, what I draw isn't going to turn out that great. If you're not sure on the quality of your photo please ask me before placing an order.
 
-Don't have a photo linked up somewhere? No problem. After placing an order include a note in PayPal's special instructions that you'll be emailing me a photo and then send it over to <michael@mademistakes.com>.
+**Don't have a photo linked up somewhere?** No problem. After placing an order include a note in PayPal's special instructions that you'll be emailing me a photo and then send it over to <michael@mademistakes.com>.
+{:.notice}
 
 ## Then I Draw
 
