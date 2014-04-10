@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Water and Waves"
 description: "Learn techniques for drawing water and waves using the iPad app Paper by 53."
-modified: 2014-01-10
+modified: 2014-04-10
 image: 
   feature: paper-53-water-guide-feature.jpg
   thumb: paper-53-water-guide-thumb.jpg
@@ -17,14 +17,14 @@ Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/maste
 * Table of Contents
 {:toc}
 
+### Mixing the Water
+
+When choosing a color for the water, I like to mix it dull and gray by knocking the saturation down[^mixer]. I find this helps arrive at a better base color and contrasts nicely against a bright blue sky. But don't let this mix limit your creative vision, make it any color you want.
+
 <figure>
 	<img src="{{ site.url }}/images/paper-53-water-color-mix.jpg" alt="screenshot of blue-gray water mix">
 	<figcaption>One of my favorite color mixes for painting water and waves.</figcaption>
 </figure>
-
-### Mixing the Water
-
-When choosing a color for the water, I like to mix it dull and gray by knocking the saturation down[^mixer]. I find this helps arrive at a better base color and contrasts nicely against a bright blue sky. But don't let this mix limit your creative vision, make it any color you want.
 
 <i class="fa fa-star"></i> **ProTip:** Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 {: .notice}
@@ -66,13 +66,13 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 	<figcaption>Short, quick strokes to add hints of small waves and break up the space.</figcaption>
 </figure>
 
-<div class="notice">
-<p><strong>ProTip:</strong> If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this &ldquo;sweet spot.&rdquo;</p>
+<i class="fa fa-star"></i> **ProTip:** If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this "sweet spot."
+{:.notice}
+
 <figure>
 	<img src="{{ site.url }}/images/paper-53-wave-chop-light.jpg" alt="screenshot of watercolor wave chop lighten technique">
 	<figcaption>And here&rsquo;s an example of lighter wave chops for those areas you may have painted too dark.</figcaption>
 </figure>
-</div><!-- /.notice -->
 
 ### Under-painting Large Waves
 
@@ -92,7 +92,7 @@ Starting at the top of the water lightly sketch strokes from left to right. The 
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-wave-lines-blue.jpg" alt="screenshot of wave lines using the base color">
-	<figcaption>Wave lines drawn with a pencil using our blue-gray base color.</figcaption>
+	<figcaption>Use a blue-gray base color to draw in the smaller wave shapes.</figcaption>
 </figure>
 
 A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) works great for this step. It allows you to draw lightly and avoid going too heavy in an area. If you're finger painting or using a normal capacitive stylus, remember to move quickly with your pencil strokes --- the quicker you draw the lighter the mark.
@@ -104,14 +104,14 @@ Crests or areas where waves might be crashing against land I go heavy with a whi
 <figure class="half">
 	<a href="{{ site.url }}/images/paper-53-white-foam-detail-lg.jpg"><img src="{{ site.url }}/images/paper-53-white-foam-detail.jpg" alt="screenshot of wave foam zoomed in"></a>
 	<a href="{{ site.url }}/images/paper-53-white-foam-lg.jpg"><img src="{{ site.url }}/images/paper-53-white-foam.jpg" alt="screenshot of finished wave foam"></a>
-	<figcaption>Drawing in wave crests and foam using a white pencil.</figcaption>
+	<figcaption>Draw wave crests and foam using a white pencil.</figcaption>
 </figure>
 
 Depending on the size of the wave crests it's usually easier to lightly paint in some highlights using a watercolor brush filled with white. Quickly dabbing or painting in short circular bursts will allow you to gradually lighten an area, without destroying the blue base coat beneath.
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-wave-foam-brush.jpg" alt="screenshot of crashing wave white areas using watercolor and white">
-	<figcaption>Dabs of white water color can cover an area much faster than the pencil tool.</figcaption>
+	<figcaption>Dabs of white can cover an area much faster than the pencil tool when filling in large shapes.</figcaption>
 </figure>
 
 ### Adding Shadows to the Waves
@@ -120,7 +120,7 @@ To add in shadows use a variation of the water's base color, mixed with 20--40% 
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-wave-shadow-mix.jpg" alt="screenshot of wave shadow color mix">
-	<figcaption>Color mix I used to draw and paint shadows and wave lines.</figcaption>
+	<figcaption>Color mixture used to draw and paint shadows and wave lines.</figcaption>
 </figure>
 
 <figure class="half">

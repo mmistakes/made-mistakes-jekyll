@@ -17,11 +17,14 @@ I've been lusting over the promise of pressure sensitive drawing on an iPad ever
 
 For my birthday [my wife](http://2littlerosebuds.com) picked me up one and I started the process of learning all its nuances. I've gotten fairly adept at using a [LunaTik Alloy Touch Pen]( http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00821TR7G&linkCode=as2&tag=mademist-20) by drawing with it every day for the last 9 months, but the tip is starting to show signs of tearing --- perfect time to try something new.
 
+* Auto generated table of contents
+{:toc}
+
 ## Pogo Connect Smart Pen vs. Normal Styluses
 
 <figure>
 	<img src="{{ site.url }}/images/stylus-rubber-tips-comparison.jpg" alt="Stylus rubber tips comparison">
-	<figcaption>As you can see the Pogo Connect Smart Pen's tip looks like most other capacitive stylus pens out there. It feels like and drags on the iPad's screen the same too.</figcaption>
+	<figcaption>If you like how rubber nibbed tips feel when drawing you'll be at home with the Pogo Connect.</figcaption>
 </figure>
 
 So how does the Pogo Connect's feel compare to other styluses? In your hand it doesn't quite have the same solidness as the LunaTik or an [AluPen]( http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20). By no means is it cheap feeling, but it doesn't have the heft as those other two pens. The tip isn't any more accurate than your average rubber nub stylus, so if you're looking for precision look at the [Adonit Jot Touch 4](http://www.amazon.com/gp/product/B00AO1L1RG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AO1L1RG&linkCode=as2&tag=mademist-20) line[^adonit-touch] instead.

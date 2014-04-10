@@ -18,8 +18,8 @@ I wrote around ten clues that I sealed in plastic eggs and hid around our house 
 
 Clue after clue, egg after egg, I led Wendy throughout the house until she found the last one...
 
-<figure><img src="{{ site.url }}/images/final-egg-clue.jpg" alt="Easter egg with the final proposal clue." />
-	<figcaption>"Better turn around now. Michael has something very important he wants to ask you..."</figcaption>
+<figure>
+	<img src="{{ site.url }}/images/final-egg-clue.jpg" alt="Easter egg with the final proposal clue." />
 </figure>
 
 I dropped to one knee, she dropped an F-bomb... and then said yes after realizing what just happened. Six months later, on October 2nd, 2010 we were married at [*The Roycroft Inn*](http://www.roycroftinn.com/) in East Aurora, New York. Come this fall, we're expecting to double the size of our family with the arrival of the twins, and I couldn't be happier!

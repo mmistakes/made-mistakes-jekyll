@@ -20,7 +20,6 @@ When working with the watercolor brush remember to **layer** numerous strokes to
 
 <figure>
 	<a href="{{ site.ur }}/images/drawing-hair-paper-53-cheatsheet-lg.jpg"><img src="{{ site.url }}/images/drawing-hair-paper-53-cheatsheet-600.jpg" alt="Drawing hair with Paper by 53 cheatsheet" /></a>
-	<figcaption>Drawing hair with Paper by 53 cheat sheet.</figcaption>
 </figure>
 
 ## Draw Each Strand

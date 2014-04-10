@@ -26,12 +26,11 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Support for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
 
-<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn">Demo the Theme</a></div>
-
 <figure class="large">
-	<a href="http://mmistakes.github.io/hpstr-jekyll-theme" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
-	<figcaption>Screen grab of the post-index.html _layout</figcaption>
+	<a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
 </figure>
+
+<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn">Demo the Theme</a></div>
 
 ## What's Different with this Jekyll Theme?
 

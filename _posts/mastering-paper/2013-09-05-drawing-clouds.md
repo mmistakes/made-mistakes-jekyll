@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Drawing Skies and Clouds"
 description: "Learn techniques to draw blue skies, clouds, and pretty sunsets using the iPad app Paper by 53."
-modified: 2014-01-10
+modified: 2014-04-10
 image: 
   feature: paper-53-skies-guide-feature.jpg
   thumb: paper-53-skies-guide-thumb.jpg
@@ -44,7 +44,10 @@ Prep work complete, now you can start the actual painting of the sky. What you'r
 
 When painting, do not lift the stylus or your finger from the screen until you finish this first coat. The trick is to move very slow near the top, and progressively speed up the zig zag pattern as you approach the horizon line. Depending on how gradual of a fade you want in the sky, multiple coats may be required. Follow the same pattern from before to keep everything looking smooth.
 
-![screenshot of blue sky with multiple coats]({{ site.url }}/images/paper-53-blue-sky-base-multiple.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-blue-sky-base-multiple.jpg" alt="screenshot of blue sky with multiple coats">
+	<figcaption>The finished result. Even distribution of color near the top that slowly fades as it approaches the horizon line.</figcaption>
+</figure>
 
 ### Painting Puffy Clouds
 
@@ -53,13 +56,19 @@ Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking wit
 <i class="fa fa-star"></i> **ProTip:** White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
 {: .notice}
 
-![screenshot of fluffed clouds]({{ site.url }}/images/paper-53-fluffed-white-clouds.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-fluffed-white-clouds.jpg" alt="screenshot of fluffed clouds">
+	<figcaption>The technique I use for fluffing in clouds with the brush is very similar to <a href="{{ site.url }}{% post_url /mastering-paper/2013-08-31-drawing-trees %}">how I create leaves</a>.</figcaption>
+</figure>
 
 With the clouds shaped and looking like clumps of cotton, it's time to add a few wispy cirrus clouds and clean the edges up. Again, a [Pogo Connect Smart Pen](http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20) comes in handy, allowing you to work lightly and gradually. Finger painters and normal stylus creators fear not, quick strokes can achieve the same results.
 
 No need to overdo it with the wisps, just a few light crosshatches is all that's needed. For those longer streaky clouds your pencil strokes should be longer and more horizontal. I usually stick with just a pencil to create these wisp textures, but if you're feeling adventurous a light touch of white watercolor can be used to finish them off.
 
-![screenshot of streaky cloud pattern]({{ site.url }}/images/paper-53-streaky-cloud-pattern.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-streaky-cloud-pattern.jpg" alt="screenshot of streaky cloud pattern">
+	<figcaption>Criss-cross your pencil strokes</figcaption>
+</figure>
 
 Don't be afraid to go back into the clouds with the blue color we initially painted the sky with. The same "streaky" pencil pattern used to draw wisps (see above) can be used to add subtle cloud shadows. I often flip flop between blue and white to get the detail just right.
 
@@ -91,7 +100,10 @@ A few coats to build up the sky into a smooth gradation of color may be necessar
 
 After you're satisfied with the red coat, mix a dull and dark blue gray to paint the other half of the sunset. Use the same zig zag painting pattern, only this time start in the upper left corner and work your way down. As you approach the faded red, paint faster to fade into the background just before it, leaving about an inch of background between.
 
-![screenshot background color between blue and red]({{ site.url }}/images/paper-53-sunset-red-blue-washes.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-sunset-red-blue-washes.jpg" alt="screenshot background color between blue and red">
+	<figcaption>Don't be afraid to rewind and redo your gradations. I usually don't get the shape and fade right on the first try.</figcaption>
+</figure>
 
 You could leave the sunset washes as is and proceed to drawing clouds, but if you want to add even more drama to the sunset, apply a thin wash of yellow. I like to mix a creamy color like so:
 
@@ -112,7 +124,10 @@ To add clouds to our sunset let's start by mixing a red into white. You want a p
 
 Giving these clouds depth and dimension can be achieved by adding a little more red to the mix. You're looking to add just enough to make the color translucent instead of opaque. A few strokes is all that's needed when applying red tinted shadows to the clouds. 
 
-![screenshot add red shadows to clouds]({{ site.url }}/images/paper-53-sunset-red-clouds-wash.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-sunset-red-clouds-wash.jpg" alt="screenshot add red shadows to clouds">
+	<figcaption>Adding pink to the clouds for extra fluffiness.</figcaption>
+</figure>
 
 <i class="fa fa-star"></i> **ProTip:** If you don't add enough red to the color mix, the watercolor brush will lighten the cloud instead of darkening it.
 {: .notice}

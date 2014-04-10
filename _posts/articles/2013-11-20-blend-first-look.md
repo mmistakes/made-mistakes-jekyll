@@ -20,7 +20,6 @@ For me Blend is the most interesting aspect of Pencil. Being trained as a tradit
 <figure class="half">
   <img src="{{ site.url }}/images/paper-53-blend-moutain.jpg" alt="Moutainscape painted with Paper">
   <img src="{{ site.url }}/images/paper-53-blend-moutain-reflection.jpg" alt="Blended moutainscape reflection with Paper">
-  <figcaption>Getting all Bob Ross on ya, using Blend to create a reflection effect.</figcaption>
 </figure>
 
 Like all good things Blend is best used in moderation. I've found that it works great for blurring backgrounds to create a bokeh[^bokeh] like effect which in turn makes foreground subjects pop. Starting with a drawing I completed months ago, I was able to give it new life by simply running my finger over the watercolor painted background.

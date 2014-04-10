@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Paper by 53: Introduction and Tool Guide"
 description: "An introduction to Paper's tools and how to exploit them for drawing realistically."
-modified: 2014-01-10
+modified: 2014-04-10
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
@@ -26,7 +26,10 @@ In this first part you'll learn about the benefits of a stylus, how all of the P
 
 Finger painting with Paper can yield some impressive results, but may feel unnatural if you're used to drawing with pens and pencils. If you decide to go with a capacitive stylus be aware that it won't match the precision of a traditional pen because of the fat and rubbery tip.
 
-![Adonit Jot Classic]({{ site.url }}/images/adonit-jot-classic-tip.jpg)
+<figure>
+	<img src="{{ site.url }}/images/adonit-jot-classic-tip.jpg" alt="Adonit Jot">
+	<figcaption>Adonit makes some nice styli if drawing precise marks is your thing.</figcaption>
+</figure>
 
 <i class="fa fa-star"></i> **ProTip:** For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen.
 {: .notice}
@@ -56,13 +59,19 @@ For handling cleanup duty, the eraser is very effective at defining edges and ma
 * **Blending:** Completely opaque. One stroke erases down to the egg shell white colored background.
 * **Sensitivity:** Soft = thin. Hard = thick.
 
-![Eraser line showing thin to thick]({{ site.url }}/images/paper-53-eraser-thick-thin.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-eraser-thick-thin.jpg" alt="Eraser line showing thin to thick">
+	<figcaption>The faster the stroke, the larger the eraser.</figcaption>
+</figure>
 
 ### Fountain pen (Draw) {#fountain-pen}
 
 Along with the eraser, the fountain pen is included for free when you download Paper by FiftyThree from the App Store. This was the tool I originally used the most when experimenting with Paper a year ago. It's hard not to fall in love with the flowing lines it makes when sliding your fingertips across the iPad's glass screen.
 
-![Fountain pen shapes to show the tool's opacity]({{ site.url }}/images/paper-53-fountain-pen-layers.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-fountain-pen-layers.jpg" alt="Fountain pen shapes to show the tool's opacity">
+	<figcaption>The fountain pen is slightly transparent.</figcaption>
+</figure>
 
 My drawing style has evolved over the year from crisp line work to soft blended edges and tones. Because of this shift the fountain pen sees less usage and has been demoted to janitorial status like the eraser. Perfect for getting into tight places it also works well when coloring large blocks of color.
 
@@ -79,7 +88,10 @@ My drawing style has evolved over the year from crisp line work to soft blended 
 
 Versatile and perfect in almost any situation --- this is the one tool you should invest time in learning. The marks it makes resemble a traditional 2B pencil leaving behind a texture perfect for shading. The pencil also works great for lightly sketching to nail your composition before painting.
 
-![Pencil sketch screenshot]({{ site.url }}/images/paper-53-pencil-sketch.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-pencil-sketch.jpg" alt="Pencil sketch screenshot">
+	<figcaption>A gray pencil is perfect for sketching.</figcaption>
+</figure>
 
 Shading power is amplified immensely when used with a fancy Bluetooth stylus with pressure sensitivity. If you've used a pencil in real life to draw you already know how to use this digital incarnation --- making it one of the most precise and forgivable tools in Paper's toolbox. 
 
@@ -91,7 +103,10 @@ Shading power is amplified immensely when used with a fancy Bluetooth stylus wit
 
 Unlike the fountain pen, the marker makes transparent marks you can see through. To make sense of the marker I pretend it's one of those neon yellow highlighters. If you drew yellow over black it wouldn't show up, the same is true in Paper.
 
-![Layers of marker acting like a highlighter screenshot]({{ site.url }}/images/paper-53-marker-yellow-layers.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-marker-yellow-layers.jpg" alt="Layers of marker acting like a highlighter screenshot">
+	<figcaption>The marker is completely transparent and will not show up well when applied on top of dark colors. Use the fountain pen or pencil instead.</figcaption>
+</figure>
 
 The exception to this rule is when the marker is filled with white. In this case it would act almost identically to the eraser but instead of an off-white color it makes a pure white. 
 
@@ -131,7 +146,10 @@ Like the pencil, the watercolor brush is another tool you really should spend ti
 
 It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color with multiple layers.
 
-![Choppy painting vs. consistent painting screenshot]({{ site.url }}/images/paper-53-watercolor-even-fill.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-watercolor-even-fill.jpg" alt="Choppy painting vs. consistent painting screenshot">
+	<figcaption>To achieve a smooth layer of paint, move slowly to avoid blotches of color.</figcaption>
+</figure>
 
 This "thinned out" behavior also factors into how even of a coat you can apply. *Moving the brush faster* doesn't let the paint fully cover a spot and will make it appear choppy. While *moving slowly* allows the paint to flow evenly off the brush and build into a dark even value. Mastering the speed at which you apply color is essential to creating even tones and shading.
 
@@ -148,16 +166,19 @@ Before the Color Mixer existed, you had to get creative if you wanted a color ot
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-watercolor-primary-secondary.jpg" alt="Mixing primary colors mixes with watercolor screenshot">
-	<figcaption>First row: mixing colors on directly on canvas. Second row: mixing colors with the Color Mixer.</figcaption>
+	<figcaption><strong>First row:</strong> mixing colors directly on canvas. <strong>Second row:</strong> mixing colors with the <em>Color Mixer</em>.</figcaption>
 </figure>
 
 Color theory is a tricky dick --- thankfully FiftyThree did something great with their Color Mixer. Mixing together any color will almost always make a new one that looks great.
 
 For those who need more control or want a traditional color picker --- one can be accessed by dragging a color swatch onto the mixing wheel, then tapping on it. From here you can adjust a color's hue, saturation, and luminosity.
 
-![Color picker sliders screenshot]({{ site.url }}/images/paper-53-color-picker-slider.jpg)
+<figure>
+	<img src="{{ site.url }}/images/paper-53-color-picker-slider.jpg" alt="Color picker sliders screenshot">
+	<figcaption>A more traditional way of adjusting color if you need it.</figcaption>
+</figure>
 
-For a good shadow color I generally edit the base color I'm shading and crank the saturation down and the luminosity way up.
+For a good shadow color I usually adjust the base color I'm shading with by cranking the saturation down and the luminosity way up.
 
 <i class="fa fa-star"></i> **ProTip:** If you go too far in any direction you will approach pure white, which will make the watercolor brush or marker opaque. Each color has a different "point of no return," that can be found by experimenting with the sliders.
 {: .notice}

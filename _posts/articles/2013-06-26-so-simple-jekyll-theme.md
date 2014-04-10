@@ -29,8 +29,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 * Grunt tasks for easier site development.
 
 <figure class="large">
-	<a href="http://mmistakes.github.io/so-simple-theme" onClick="_gaq.push(['_trackEvent', 'Link', 'So Simple - Theme Demo']);" title="Preview So Simple Theme"><img src="{{ site.url }}/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
-	<figcaption>Page and post templates in action.</figcaption>
+	<a href="http://mmistakes.github.io/so-simple-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'So Simple - Theme Demo']);" title="Preview So Simple Theme"><img src="{{ site.url }}/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
 </figure>
 
 ## Getting started
@@ -39,7 +38,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 2. Fork the [So Simple Theme repo](http://github.com/mmistakes/so-simple-theme/)
 3. Make it your own and [customize, customize, customize](http://mmistakes.github.io/so-simple-theme/theme-setup/).
 
-<div markdown="0"><a onClick="_gaq.push(['_trackEvent', 'Link', 'So Simple - Theme Demo']);" href="http://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a></div>
+<div markdown="0"><a onClick="_gaq.push(['_trackEvent', 'Link', 'So Simple - Theme Demo']);" href="http://mmistakes.github.io/so-simple-theme/" class="btn">Demo the Theme</a></div>
 
 **Like this theme?** I just released my third theme for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTR and you can [learn more about it here]({{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}).
 {: .notice}
