@@ -422,13 +422,34 @@ span + .entry-title {
 	p > a.reversefootnote {
 		border-bottom-width: 0;
 	}
-	// Full width figures on small screens
 	figure {
+		// full width figures on small screens
 		margin-left: -20px;
 		margin-right: -20px;
 		@media @medium {
 			margin-left: 0;
 			margin-right: 0;
+		}
+		// float figure captions to the right on large screens
+		@media @large {
+			position: relative;
+		}
+		figcaption {
+			@media @large {
+				position: absolute;
+				top: 10px;
+				right: -170px;
+				width: 150px;
+				text-align: left;
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					width: 50px;
+					height: 1px;
+					background: lighten(@black, 70);
+				}
+			}
 		}
 	}
 	// Right aligned image
