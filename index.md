@@ -4,4 +4,4 @@ description: "Made Mistakes is the personal website of Buffalo NY designer &amp;
 tags: [Michael Rose, portfolio, blog, graphic design, web development, illustration]
 ---
 
-Hi, I'm Michael Rose --- just another bearded, tattooed, time traveling, designer from Buffalo New York.
+Hi, I'm Michael Rose --- just another boring, tattooed, time traveling, designer from Buffalo New York.
