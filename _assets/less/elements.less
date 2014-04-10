@@ -17,6 +17,9 @@ figure {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	.clearfix();
+	@media @large {
+		position: relative;
+	}
 	img {
 		margin-bottom: 10px;
 	}
@@ -27,6 +30,23 @@ figure {
 				-webkit-animation: pop .3s linear;
 				animation: pop .3s linear;
 				.box-shadow(0 0 10px fade(@black, 20));
+			}
+		}
+	}
+	figcaption {
+		@media @large {
+			position: absolute;
+			top: 10px;
+			right: -170px;
+			width: 150px;
+			text-align: left;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				width: 50px;
+				height: 1px;
+				background: lighten(@black, 70);
 			}
 		}
 	}

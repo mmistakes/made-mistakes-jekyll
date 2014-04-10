@@ -920,6 +920,12 @@ figure:after {
   clear: both;
 }
 
+@media only screen and (min-width: 62.5em) {
+  figure {
+    position: relative;
+  }
+}
+
 figure img {
   margin-bottom: 10px;
 }
@@ -931,6 +937,24 @@ figure a img:hover {
   -webkit-animation: pop .3s linear;
      -moz-animation: pop .3s linear;
           animation: pop .3s linear;
+}
+
+@media only screen and (min-width: 62.5em) {
+  figure figcaption {
+    position: absolute;
+    top: 10px;
+    right: -170px;
+    width: 150px;
+    text-align: left;
+  }
+  figure figcaption:before {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 1px;
+    background: #b3b3b3;
+    content: '';
+  }
 }
 
 @media only screen and (min-width: 62.5em) {
