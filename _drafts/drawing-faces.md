@@ -15,7 +15,11 @@ Portraiture is the meat and potatoes of what I use Paper by FiftyThree to create
 
 Like the other parts of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/), this one will describe my techniques and when to use them. My drawing style has evolved from abstract to realistic since starting the [PaperFaces]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to group this guide into stages that match that evolution.
 
-![Face evolution. Gesture > Blank > Realistic](http://placehold.it/750x250.gif)
+<figure>
+	<a href="{{ site.url }}/images/paper-53-face-evolution-lg.jpg">
+		<img src="{{ site.url }}/images/paper-53-face-evolution.jpg" alt="PaperFaces evolution">
+	</a>
+</figure>
 
 What this guide won't be is a lesson in human anatomy or the mathematical relationships of the face. You'd be better served [reading a book](http://www.amazon.com/gp/product/0399507914/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0399507914&linkCode=as2&tag=mademist-20) on the matter since I'm way under qualified to talk about either with any sense of authority.
 
@@ -65,23 +69,46 @@ When I'm having trouble getting a mix just right I focus more on whether it is w
 
 Your forehead is free of surface capillaries and muscles leaving it white or a golden yellow. Along the hairline you'll notice a darker tone that I like to use as a way of blending hair follicles into the scalp. But I'm getting ahead of myself, more on painting hair in a future guide.
 
-![Forehead glazing](http://placehold.it/750x450.gif)
+<figure class="half">
+	<a href="{{ site.url }}/images/paper-53-face-forehead-glaze-1-lg.jpg">
+		<img src="{{ site.url }}/images/paper-53-face-forehead-glaze-1.jpg" alt="Colors used to paint a forehead">
+	</a>
+	<a href="{{ site.url }}/images/paper-53-face-forehead-glaze-2-lg.jpg">
+		<img src="{{ site.url }}/images/paper-53-face-forehead-glaze-2.jpg" alt="Applying more glazes to the forehead">
+	</a>
+	<figcaption>Golden yellows and oranges are frequently used to glaze the forehead of a face.</figcaption>
+</figure>
 
 ### Mid-face (Cheeks/Ears/Nose)
 
 Traveling down the face just below the eyes and above the mouth is an area comprised of capillaries filled with *blood*. All this blood causes the ears, nose, and cheeks to turn a reddish color. A simple thing like glazing cheeks with warm mixes of orange and red can liven a face up, especially in females.
 
-![Pink cheek glazing](http://placehold.it/750x450.gif)
+<figure>
+	<a href="{{ site.url }}/images/paper-53-face-cheek-glaze-lg.jpg">
+		<img src="{{ site.url }}/images/paper-53-face-cheek-glaze.jpg" alt="Color used to paint cheeks and ears">
+	</a>
+	<figcaption>A few glazes of pink or a dull red to liven up the cheeks, earlobes, and nose.</figcaption>
+</figure>
 
 ### Chin
 
 The third section of the face with a noticeable color tone is the area below the nose to the chin. In men this section tends to be a blue, green, or even gray in color. Depending on the amount of facial hair present this color will be more pronounced.
 
-![Facial hair glazing](http://placehold.it/750x450.gif)
+<figure>
+	<a href="{{ site.url }}/images/paper-53-face-facial-hair-glaze-lg.jpg">
+		<img src="{{ site.url }}/images/paper-53-face-facial-hair-glaze.jpg" alt="Colors used to paint facial hair">
+	</a>
+	<figcaption>Dull greens and blues or grays work great for darkening facial hair and adding shadows beneath the chin.</figcaption>
+</figure>
 
 If you remember back to my previous guide, green and red are complementary colors. One way of accentuating a color is by surrounding it with it's complement. I use this trick often when painting female faces when I want to call out their lips by painting the shadows in glazes of blue or green.
 
-![Pink lips green skin](http://placehold.it/750x450.gif)
+<figure>
+	<a href="{{ site.url }}/images/paper-53-face-lips-lg.jpg">
+		<img src="{{ site.url }}/images/paper-53-face-lips.jpg" alt="Colors used to enhance lips">
+	</a>
+	<figcaption>Surrounding lips with a color that compliments them can really make the color pop. In this case I applied green around the edges.</figcaption>
+</figure>
 
 ## Painting Skin
 
