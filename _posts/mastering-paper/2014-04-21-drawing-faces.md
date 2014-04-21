@@ -6,14 +6,14 @@ image:
   feature: paper-53-faces-feature.jpg
   thumb: paper-53-faces-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, painting, iPad, face, skin]
+tags: [Paper by 53, tutorial, drawing, painting, iPad, portrait, skin]
 series: mastering-paper
 comments: true
 ---
 
 Portraiture is at the heart of what I use Paper by FiftyThree to create with. After drawing over 700 faces some might think it would be easy for me to share my process and techniques --- they would be wrong. After struggling writing this guide for the last month, I think I finally shaped it in a way that makes sense.
 
-Like the other parts of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/), this one will explain my techniques and why I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
+Like the other parts of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/), this one will explain my techniques and how I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-face-evolution-lg.jpg">
@@ -101,7 +101,7 @@ The third section of the face with a noticeable color tone is the area below the
 	<figcaption>Dull greens and blues or grays work great for darkening facial hair and adding shadows beneath the chin.</figcaption>
 </figure>
 
-If you remember back to my previous guide, green and red are complementary colors. One way of accentuating a color is by surrounding it with its complement. I use this trick often when painting female faces when I want to call out their lips by painting the shadows in glazes of blue or green.
+If you remember back to my previous guide, green and red are complementary colors. One way of accentuating a color is by surrounding it with its complement. I use this trick often when painting female faces, when I want to call out their lips by painting the shadows with glazes of blue or green.
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-face-lips-lg.jpg">
@@ -112,17 +112,17 @@ If you remember back to my previous guide, green and red are complementary color
 
 ## Painting Skin
 
-To some the watercolor brush and how it works can be a complete mystery --- I completely understand that. To master the brush you have to be mindful of a few things:
+To some the watercolor brush is magical while others find it extremely confusing and frustrating --- I completely understand that. To master the brush you have to be mindful of a few things:
 
 ### Speed Controls Opacity
 
 The brush produces a range of values by varying the speed at which they're painted. If you move your finger (or stylus) slowly across the iPad's screen, the mark will darken --- moving fast, the mark will fade into the canvas and appear lighter. 
 
-Speed is the single most important variable to creating a smooth tone or glaze. The second is never lifting the tip off the screen until you've filled a shape.
+Speed is the single most important variable for creating smooth tones or glazes. The second is never lifting the tip off the screen until you've filled a shape.
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/AjJVrFFaCck" frameborder="0"> </iframe>
-	<figcaption>Here's how I paint a shape smoothly.</figcaption>
+	<figcaption>Here'&rsquo; how I paint a shape smoothly.</figcaption>
 </figure>
 
 <i class="fa fa-star"></i> **ProTip:** To even out stubborn light spots, keep rubbing until they turn dark. You can't overwork an area as long as don't lift to make another stroke.
@@ -134,7 +134,7 @@ New to Paper or drawing in general? Make your life easier and work large, fillin
 
 A *cheat* I used in my early Paper portraits was to omit facial features by not drawing them. I'd spend my time adding detail to the background elements instead of a person's face just because they were easier for me.
 
-To paint in this style start by lightly sketching out the figure to act as a guide. To simplify things I'm going to *pull a face* out of a bland background. I've found that it is much easier to drop in a background first, because you don't have to be as precise. It also helps reduce hard edges or gaps in color that may appear around the face's edge.
+To paint in this style, start by lightly sketching out the figure to act as your guide. To simplify things I'm going to *pull a face* out of a bland background. I've found that it is much easier to drop in a background first, because you don't have to be as precise. It also helps reduce hard edges or gaps in color that may appear around the face's edge.
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-faceless-sketch-lg.jpg">
@@ -162,7 +162,7 @@ With a rough sketch complete, it is time to put those skin tone palettes from be
 	<figcaption>If you add just the right amount of white to a color it will allow you to lighten anything you paint over. This is how I <strong>pull a face</strong> out of the background.</figcaption>
 </figure>
 
-Of course you could just use the eraser tool to remove the background, but it will produce a harsher edge --- which I like to avoid. Used in this way, the brush has greater control over the amount of background it removes.
+Of course you could just use the eraser tool to remove the background, but it will produce a harsher edge --- which I like to avoid. Used as a lightener, the brush gives greater control over the amount of background you remove.
 
 ### Building the Face with Glazes
 
@@ -172,7 +172,7 @@ With the face's shape *pulled out from the background*, we can start the process
 	<a href="{{ site.url }}/images/paper-53-faceless-red-glaze-lg.jpg">
 		<img src="{{ site.url }}/images/paper-53-faceless-red-glaze.jpg" alt="watercolor face layer 1">
 	</a>
-	<figcaption>With this abstract style don't try to paint everything. Focus on a few heavy shadows on the side of the face or eye sockets to give the impression of a face and call it a day.</figcaption>
+	<figcaption>With this abstract style don&rsquo;t try to paint everything. Focus on a few heavy shadows on the side of the face or eye sockets to give the impression of a face.</figcaption>
 </figure>
 
 If you decide to use your own color mix I suggest one that is light --- the less intense the color the better. Take your time to carefully observe the shapes you are painting. Drawing is as much of seeing as it is putting a mark on the canvas.
@@ -185,7 +185,7 @@ With practice you'll become more confident in the shapes you are painting. I wou
 	<a href="{{ site.url }}/images/paper-53-faceless-textured-lg.jpg">
 		<img src="{{ site.url }}/images/paper-53-faceless-textured.jpg" alt="watercolor textured skin">
 	</a>
-	<figcaption>Try to avoid this at all costs. You're looking to produce smooth tones by making long sweeping strokes.</figcaption>
+	<figcaption>Try to avoid this at all costs. You&rsquo;re looking to produce smooth tones by making long sweeping strokes.</figcaption>
 </figure>
 
 ### Adding Shadows
@@ -194,7 +194,7 @@ A complimentary color works great as a shadow, especially when dialing down the 
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-paint-range-grays.jpg" alt="Range of grays from mixing complements">
-	<figcaption>Range of grays made by mixing complementary colors and desaturating them</figcaption>
+	<figcaption>Range of grays made by mixing complementary colors and desaturating them.</figcaption>
 </figure>
 
 A variation of gray can also be effective for darkening areas. The important consideration here is to match the temperature of the gray to the area you want to darken. Tint your gray with reds and oranges for warmer tones, and blues and greens for cools.
@@ -209,7 +209,7 @@ A variation of gray can also be effective for darkening areas. The important con
 	<a href="{{ site.url }}/images/paper-53-faceless-shadows-2-lg.jpg">
 		<img src="{{ site.url }}/images/paper-53-faceless-shadows-2.jpg" alt="painting shadows on a face">
 	</a>
-	<figcaption>To build up a realistic skin tone it may take numerous layers of varying colors. It's not uncommon to mix in blue and green.</figcaption>
+	<figcaption>To build up a realistic skin tone it may take numerous layers of varying colors. It&rsquo;s not uncommon to mix in blue and green.</figcaption>
 </figure> 
 
 ### Cleanup and Refinement
@@ -223,10 +223,10 @@ Depending on how accurate of a painter you are, your glazes may have bled outsid
 	<a href="{{ site.url }}/images/paper-53-faceless-finished-lg.jpg">
 		<img src="{{ site.url }}/images/paper-53-faceless-finished.jpg" alt="finished face with edges refined">
 	</a>
-	<figcaption>Depending on the complexity of the background you may need to adjust the pencil's color as you cleanup the face's edge.</figcaption>
+	<figcaption>Depending on the complexity of the background you may need to adjust the pencil&rsquo;s color as you cleanup the face&rsquo;s edge.</figcaption>
 </figure>
 
-Don't be afraid to use one of the ink pens for cleanup instead. For stylist reasons I prefer the softness of a pencil, but either tool is acceptable.
+Don't be afraid to use one of the ink pens for cleanup instead. For stylistic reasons I prefer the softness of a pencil, but either tool is acceptable.
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/cxeaeQAtIxQ" frameborder="0"> </iframe>
@@ -283,7 +283,7 @@ The basic idea here is to sketch in all the dark spots around the eyes, nose, an
 	<a href="{{ site.url }}/images/paper-53-face-contour-refine-2-lg.jpg">
 		<img src="{{ site.url }}/images/paper-53-face-contour-refine-2.jpg" alt="refining facial features">
 	</a>
-	<figcaption>The areas you'll want to focus on first are the pupils, upper eyelids, nostrils, and the crevices found around the lips.</figcaption>
+	<figcaption>The areas you&rsquo;ll want to focus on first are the pupils, upper eyelids, nostrils, and the crevices found around the lips.</figcaption>
 </figure>
 
 ### Shaping Skin with Hatching
@@ -303,12 +303,12 @@ The idea is to build up tones from light to dark by overlapping pencil strokes a
 	<a href="{{ site.url }}/images/paper-53-face-contour-hatching-direction-lg.jpg">
 		<img src="{{ site.url }}/images/paper-53-face-contour-hatching-direction.jpg" alt="pencil stroke direction">
 	</a>
-	<figcaption>The red arrows indicate the pencil stroke directions I used to round the skin.</figcaption>
+	<figcaption>The red arrows indicate the pencil stroke directions I used to round the skin&rsquo;s shape.</figcaption>
 </figure>
 
 I've said this before in my [Back to Basics guide]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}), but it's worth repeating. Be mindful of the direction of the strokes you are making when hatching to enhance the form. Observe how the skin bends and curves, and make pencil strokes that follow those same paths.
 
-Don't feel the need to *shade* all surfaces. Focus your attention on the darkest values and build up those gradations first. Keep in mind that we will be covering these pencil strokes with watercolor so don't go too dark. I suggest making your tones about 50% lighter than how they appear --- you can always darken things up later.
+Don't feel the need to *shade* all surfaces! Focus your attention on the darkest values and build up those gradations first. Keep in mind that we will be covering these pencil strokes with watercolor so don't go too dark. I suggest making your tones about 50% lighter than how they appear --- you can always darken things up later.
 
 <i class="fa fa-star"></i> **ProTip:** A Pogo Connect makes shading and using the pencil tool way easier. By varying the amount of pressure applied to the tip, you can make a darker line in a way that mimics a real pencil.
 {: .notice}
