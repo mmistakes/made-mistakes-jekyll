@@ -62,7 +62,7 @@ Black and white or color? One face or multiple?
         <label style="margin:10px 0;">Portrait Reference URL</label>
         <input type="text" name="os1" maxlength="200">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="submit" value="Order Now" class="btn btn-success" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="_gaq.push(['_trackEvent', 'PaperFaces', 'Click Buy Now']);">
+        <input type="submit" value="Order Now" class="btn btn-success" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="ga('send', 'event', 'button', 'click', 'PaperFaces Buy Now');">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 </div><!-- /.well -->

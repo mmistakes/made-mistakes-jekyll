@@ -18,7 +18,7 @@ body_id: page
 		<div class="entry-wrapper">
 			<div class="entry-content" itemprop="description">
 				{% if page.work %}
-					<div class="center-block"><a href="{{ page.work.url }}" onClick="_gaq.push(['_trackEvent', 'Link', '{{ page.title }}']);" target="_blank" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
+					<div class="center-block"><a href="{{ page.work.url }}" onClick="ga('send', 'event', 'link', 'click', '{{ page.title }}');" target="_blank" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
 				{% endif %}
 				{{ content }}
 				{% if page.categories contains 'paperfaces' %}

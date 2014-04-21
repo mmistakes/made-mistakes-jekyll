@@ -20,7 +20,6 @@ Below are all of the Jekyll starters I've open sourced thus far. Each "theme" co
 
 <figure>
 	<img src="{{ site.url }}/images/hpstr-theme-feature.jpg" alt="HPSTR feature image">
-	<figcaption>A modern design that would be at home on Tumblr</figcaption>
 </figure>
 
 A responsive Jekyll blog theme designed to give your site a modern and somewhat cliche feel.
@@ -28,7 +27,10 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 * Modern, subtle design
 * Animated main menu
 
-<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="_gaq.push(['_trackEvent', 'Link', 'HPSTER - Theme Demo']);" class="btn">Demo the Theme</a> <a href="{{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}" class="btn">Learn More</a></div>
+<div markdown="0">
+	<a href="http://mmistakes.github.io/hpstr-jekyll-theme/" onClick="ga('send', 'event', 'link', 'click', 'HPSTER - Theme Demo');" class="btn">Demo the Theme</a>
+	<a href="{{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}" class="btn">Learn More</a>
+</div>
 
 ---
 
@@ -44,7 +46,10 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 * Minimal design
 * Search script
 
-<div markdown="0"><a onClick="_gaq.push(['_trackEvent', 'Link', 'So Simple - Theme Demo']);" href="http://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a> <a href="{{ site.url }}{% post_url /articles/2013-06-26-so-simple-jekyll-theme %}" class="btn">Learn More</a></div>
+<div markdown="0">
+	<a onClick="ga('send', 'event', 'link', 'click', 'So Simple - Theme Demo');" href="http://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a>
+	<a href="{{ site.url }}{% post_url /articles/2013-06-26-so-simple-jekyll-theme %}" class="btn">Learn More</a>
+</div>
 
 ---
 
@@ -61,7 +66,10 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 * Author sidebar
 * Automatic table of contents on single posts [via Kramdown](http://kramdown.gettalong.org/converter/html.html#toc)
 
-<div markdown="0"><a href="http://mmistakes.github.io/minimal-mistakes" onClick="_gaq.push(['_trackEvent', 'Link', 'Minimal Mistakes - Theme Demo']);" class="btn">Demo the Theme</a> <a href="{{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %}" class="btn">Learn More</a></div>
+<div markdown="0">
+	<a href="http://mmistakes.github.io/minimal-mistakes" onClick="ga('send', 'event', 'link', 'click', 'Minimal Mistakes - Theme Demo');" class="btn">Demo the Theme</a>
+	<a href="{{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %}" class="btn">Learn More</a>
+</div>
 
 ---
 

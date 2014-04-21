@@ -28,10 +28,10 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 * Grunt and Rake tasks for easier site development.
 
 <figure>
-	<a href="http://mmistakes.github.io/minimal-mistakes/" onClick="_gaq.push(['_trackEvent', 'Link', 'Minimal Mistakes - Theme Demo']);"><img src="{{ site.url }}/images/mm-theme-post-750.jpg" alt="Screenshot of Minimal Mistakes theme"></a>
+	<a href="http://mmistakes.github.io/minimal-mistakes/" onClick="ga('send', 'event', 'link', 'click', 'Minimal Mistakes - Theme Demo');"><img src="{{ site.url }}/images/mm-theme-post-750.jpg" alt="Screenshot of Minimal Mistakes theme"></a>
 </figure>
 
-<div markdown="0"><a href="http://mmistakes.github.io/minimal-mistakes/" onClick="_gaq.push(['_trackEvent', 'Link', 'Minimal Mistakes - Theme Demo']);" class="btn">Demo the Theme</a></div>
+<div markdown="0"><a href="http://mmistakes.github.io/minimal-mistakes/" onClick="ga('send', 'event', 'link', 'click', 'Minimal Mistakes - Theme Demo');" class="btn">Demo the Theme</a></div>
 
 ## Basic Setup
 
