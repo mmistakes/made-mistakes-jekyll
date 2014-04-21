@@ -53,15 +53,6 @@ The guide is broken up into several parts explaining how the tools work, specifi
 			<img src="{{ site.url }}/images/preload.gif" class="preview" alt="preview image">
 		</div><!-- /.list-image -->
 		<div class="list-content">
-			<h4>8. Drawing Skin and Faces (revisited) <span class="badge">Coming Soon</span></h4>
-			<p>Learn techniques for drawing skin and realistic portraits using the watercolor and pencil tools.</p>
-		</div><!-- /.list-content -->
-	</li>
-	<li>
-		<div class="list-image">
-			<img src="{{ site.url }}/images/preload.gif" class="preview" alt="preview image">
-		</div><!-- /.list-image -->
-		<div class="list-content">
 			<h4>9. Drawing Hair (revisited) <span class="badge">Coming Soon</span></h4>
 			<p>One of my favorite things to draw is long flowing hair. Learn how I create realistic renders in a matter of minutes.</p>
 		</div><!-- /.list-content -->
