@@ -388,6 +388,14 @@ My plan for the next guide was to [reboot a hair tutorial]({{ site.url }}{% post
 
 So how about this? Let me know in the comments below what you want to see next: **hair tutorials** or more portrait goodness like **how to draw realistic eyes, mouths, and more**.
 
+<ul class="oversized-recent-grid">
+{% for post in site.categories.paperfaces limit:8 %}
+    <li>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+    </li>
+{% endfor %}
+</ul>
+
 And if you're looking to further learn from some of the Paper techniques I use, check out my [PaperFaces Project]({{ site.url }}{% post_url /work/2012-08-31-paperfaces %}) or [follow me on Twitter](http://twitter.com/mmistakes). I draw a new portrait Paper every day and make a point to include in process images to reveal my processes.
 
 {% include support.html %}
