@@ -122,7 +122,7 @@ Speed is the single most important variable for creating smooth tones or glazes.
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/AjJVrFFaCck" frameborder="0"> </iframe>
-	<figcaption>Here'&rsquo; how I paint a shape smoothly.</figcaption>
+	<figcaption>Here&rsquo;s how I paint a shape smoothly.</figcaption>
 </figure>
 
 <i class="fa fa-star"></i> **ProTip:** To even out stubborn light spots, keep rubbing until they turn dark. You can't overwork an area as long as don't lift to make another stroke.
