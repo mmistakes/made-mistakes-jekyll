@@ -348,6 +348,20 @@ span + .entry-title {
 		max-width: 960px;
 	}
 }
+// home page margin-bottom fixes
+#home {
+	// remove all bottom margins on wrapper
+	.entry-wrapper {
+		margin-bottom: 0;
+	}
+	section.entry:last-child {
+		.entry-wrapper {
+			@media @medium {
+				margin-bottom: 3em; // add margin before the footer
+			}
+		}
+	}
+}
 .entry-meta {
 	.font-rem(14);
 	color: @base-color;
