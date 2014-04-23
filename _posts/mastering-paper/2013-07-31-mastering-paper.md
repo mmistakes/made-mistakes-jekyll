@@ -17,23 +17,12 @@ In the spirit of openness I've decided to compile everything I've learned using 
 
 The guide is broken up into several parts explaining how the tools work, specific drawing and painting techniques, shortcuts, and workflows I use everyday when creating with 53's Paper app. Hoping you find them helpful and inspiring <i class="fa fa-smile-o"></i>.
 
-{% assign count = '0' %}
-{% assign idx = '0' %}
-{% for post in site.posts reversed %}
-	{% if post.series == 'mastering-paper' %}
-		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
-		{% if post.url == page.url %}
-			{% capture idx %}{{count}}{% endcapture %}
-		{% endif %}
-	{% endif %}
-{% endfor %}
-
 <hr />
+
 <h2>Table of Contents</h2>
 <ul class="post-index">
 {% assign count = '0' %}
-{% for post in site.posts reversed %}
-{% if post.series == 'mastering-paper' %}
+{% for post in site.categories.mastering-paper reversed %}
 {% capture count %}{{ count | plus: '1' }}{% endcapture %}
 	<li>
 		<a href="{{ site.url }}{{ post.url }}">
@@ -46,7 +35,6 @@ The guide is broken up into several parts explaining how the tools work, specifi
 			</div>
 		</a>
 	</li>
-{% endif %}
 {% endfor %}
 	<li>
 		<div class="list-image">
