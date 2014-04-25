@@ -10,8 +10,6 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-
-- zoom tool
 ---
 
 PaperFaces portrait of project donator [@VanessaTSmiles](http://twitter.com/VanessaTSmiles). First illustration done with the newly updated Paper by 53 app. Really like how zoom was implemented and the explore feature.
