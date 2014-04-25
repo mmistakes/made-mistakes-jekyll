@@ -16,7 +16,6 @@ Shortly after our twin girls were born 19 months ago: moments were captured, mil
 
 <figure class="image-right">
 	<img src="{{ site.url }}/images/trotro.gif" alt="Oh Trotro, oh Trotro">
-	<figcaption>Trotro the troublemaker</figcaption>
 </figure>
 
 What I didn't anticipate was how quickly the *two little rosebuds* would become attracted to these glowing screens. When it wasn't the 4" variety held tightly between our fingers, it was the 51" wall hugger in our living room. On demand Netflix programming became the norm, and look out if their favorite French cartoon **[Trotro](http://thetvdb.com/?tab=series&id=108061)** buffers for a few seconds...
