@@ -10,8 +10,6 @@ body_id: post
 				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">
 				{% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}" itemprop="citation">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 			</div><!-- /.entry-image -->{% endif %}
-			<meta itemprop="keywords" content="{{ page.tags | join: ', ' }}">
-			<h6 class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}<span class="sep"> &#8226; </span>{% endunless %}{% endfor %}</h6>
 			<h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
 		</header>
 		<div class="entry-wrapper">
@@ -26,6 +24,9 @@ body_id: post
 				<span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Published by <span itemprop="name" class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span> on </span>
 				<span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="published{% unless page.modified %} updated{% endunless %}">{{ page.date | date: "%B %d, %Y" }}</time></span>{% if page.modified %} <span class="entry-date">(Updated <time datetime="{{ page.modified }}" itemprop="dateModified" class="updated">{{ page.modified | date: "%m/%d/%Y" }}</time>)</span>{% endif %}
 			</div><!-- /.entry-meta -->
+			<div class="entry-tags">
+				<strong>Related Items</strong> <span>{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% endfor %}</span>
+			</div><!-- .entry-tags -->
 			{% if page.comments %}
 			<div id="disqus_thread" class="entry-content"></div><!-- /#disqus_thread -->
 			<noscript><div class="upgrade">Please enable JavaScript to view comments.</div><!-- /.upgrade --></noscript>
