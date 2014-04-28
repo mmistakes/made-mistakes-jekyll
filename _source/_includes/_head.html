@@ -1,19 +1,14 @@
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} &#8226; {% endif %}{{ site.title }}</title>
+	<title>{% if page.body_id == 'home' %}Made Mistakes by Michael Rose{% else %}{% if page.title %}{{ page.title }} &#8226; {% endif %}{{ site.title }}{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 	<!-- Twitter Cards -->
-	{% if page.layout == 'work' %}
-		<meta name="twitter:card" content="summary_large_image">
-		{% if page.image.feature %}<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
-		{% else %}
-		{% if page.image.feature %}
-			<meta name="twitter:card" content="summary_large_image">
-			<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
-			{% else %}<meta name="twitter:card" content="summary">
-			<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
-		{% endif %}
+	{% if page.image.feature %}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+	{% else %}<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
 	{% endif %}
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
