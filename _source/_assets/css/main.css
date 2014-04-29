@@ -2342,8 +2342,12 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     margin-right: 0;
-    margin-left: 20px;
+    margin-left: 10px;
     border-bottom: 0;
+  }
+  #site-nav a:before {
+    margin-right: 10px;
+    content: "/";
   }
 }
 

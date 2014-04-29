@@ -111,11 +111,15 @@ body {
 			background-position: left center;
 		}
 		@media @medium {
-			margin-left: 20px;
+			margin-left: 10px;
 			margin-right: 0;
 			padding-top: 0;
 			padding-bottom: 0;
 			border-bottom: 0;
+			&:before {
+				content: "/";
+				margin-right: 10px;
+			}
 		}
 	}
 }
