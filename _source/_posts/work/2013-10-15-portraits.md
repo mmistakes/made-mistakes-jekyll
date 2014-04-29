@@ -7,7 +7,7 @@ description: "Order a digital portrait drawn with the Paper app by FiftyThree fo
 modified: 2014-03-31
 image:
   thumb: portrait-thumb.jpg
-  homepage: portrait-500x500.gif
+  homepage: portrait-430x430.gif
 tags: [portrait, Paper by 53, drawing, painting, iPad, commission]
 homepage: true
 ---
