@@ -1,6 +1,10 @@
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <p>&#169; 2004&#8211;{{ site.time | date: '%Y' }} <a href="{{ site.url }}/about/">{{ site.owner.name }}</a>, a <a href="{{ site.url }}/humans.txt">real human being</a>. <a href="{{ site.url }}/terms/">Website Policies</a></p>
+    <p>
+		{% for link in site.footer_links %}
+			<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> {% unless forloop.last %} <span class="sep">/</span> {% endunless %}
+		{% endfor %}<br />
+    	&#169; 2004&#8211;{{ site.time | date: '%Y' }} <a href="{{ site.url }}/about/">{{ site.owner.name }}</a> is a <a href="{{ site.url }}/humans.txt">real human being</a>.</p>
 		<div class="social-icons">
 			{% if site.owner.twitter %}<a href="http://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank"><i class="fa fa-twitter-square fa-fw fa-2x"></i></a>{% endif %}
 			{% if site.owner.instagram %}<a href="http://instagram.com/{{ site.owner.instagram }}" title="{{ site.owner.name}} on Instagram" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>{% endif %}

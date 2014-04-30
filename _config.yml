@@ -34,7 +34,7 @@ markdown:    kramdown
 # http://jekyllrb.com/docs/permalinks/
 permalink:   /:categories/:title/
 
-# Internal pages/posts to include in top navigation
+# Site navigation links
 links:
   - title: Work
     url: /work/
@@ -44,6 +44,15 @@ links:
     url: /mastering-paper/
   - title: About
     url: /about/
+
+# Footer navigation links
+footer_links:
+  - title: Subscribe
+    url: /subscribe/
+  - title: Support
+    url: /support/
+  - title: Website Policies
+    url: /terms/
 
 encoding: UTF-8
 
