@@ -298,6 +298,10 @@ button {
   list-style-type: none;
 }
 
+.sep {
+  padding: 0 5px;
+}
+
 .load {
   display: none;
 }
@@ -2782,10 +2786,6 @@ span + .entry-title {
   }
 }
 
-.entry-tags .sep {
-  padding: 0 5px;
-}
-
 .author-photo {
   width: 30px;
   height: 30px;
@@ -3422,6 +3422,10 @@ ul#markdown-toc li:last-child {
   .footer-wrapper {
     max-width: 960px;
   }
+}
+
+.footer-wrapper p {
+  margin-top: 0;
 }
 
 @media only screen and (min-width: 48em) {
