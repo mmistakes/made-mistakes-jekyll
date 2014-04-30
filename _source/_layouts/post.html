@@ -27,6 +27,12 @@ body_id: post
 			<div class="entry-tags">
 				<strong>Related Items</strong> <span>{% for tag in page.tags %}<a href="{{ site.url }}/tag/{{ tag | replace:' ','-' | downcase }}/" title="{{ tag }}" rel="tag">{{ tag }}</a>{% endfor %}</span>
 			</div><!-- .entry-tags -->
+			<div class="entry-share">
+				<h3>Share On</h3>
+				<a class="share-on-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}&amp;via=mmistakes" target="_blank">Twitter</a>
+				<a class="share-on-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">Facebook</a>
+				<a class="share-on-googleplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank">Google+</a>
+			</div><!-- /.entry-share -->
 			{% if page.comments %}
 			<div id="disqus_thread" class="entry-content"></div><!-- /#disqus_thread -->
 			<noscript><div class="upgrade">Please enable JavaScript to view comments.</div><!-- /.upgrade --></noscript>
