@@ -2331,12 +2331,6 @@ body {
           transition: color 0.2s ease;
 }
 
-#site-nav a:hover {
-  background-image: url(../../images/strike_bg.png);
-  background-position: left center;
-  background-repeat: repeat-x;
-}
-
 @media only screen and (min-width: 48em) {
   #site-nav a {
     padding-top: 0;
@@ -2349,6 +2343,16 @@ body {
     margin-right: 10px;
     content: "/";
   }
+}
+
+#site-nav a span {
+  background-image: url(../../images/onepixel.gif);
+  background-position: left center;
+  background-repeat: repeat-x;
+}
+
+#site-nav a span:hover {
+  background-image: url(../../images/strike_bg.png);
 }
 
 .lines-button {
@@ -2927,6 +2931,35 @@ span + .entry-title {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.25;
+}
+
+.entry-share a {
+  padding: 5px 10px;
+  color: #ffffff;
+}
+
+.entry-share a.share-on-twitter {
+  background: #41b7d8;
+}
+
+.entry-share a.share-on-twitter:hover {
+  background: #279ebf;
+}
+
+.entry-share a.share-on-facebook {
+  background: #3b5997;
+}
+
+.entry-share a.share-on-facebook:hover {
+  background: #2d4372;
+}
+
+.entry-share a.share-on-googleplus {
+  background: #d64937;
+}
+
+.entry-share a.share-on-googleplus:hover {
+  background: #b53525;
 }
 
 ul#markdown-toc {

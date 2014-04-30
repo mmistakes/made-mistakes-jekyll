@@ -105,11 +105,6 @@ body {
 		border-bottom: 1px solid lighten(@black,80);
 		border-bottom: 1px solid fade(@black,10);
 		.transition(color .2s ease);
-		&:hover {
-			background-image: url(../../images/strike_bg.png);
-			background-repeat: repeat-x;
-			background-position: left center;
-		}
 		@media @medium {
 			margin-left: 10px;
 			margin-right: 0;
@@ -119,6 +114,14 @@ body {
 			&:before {
 				content: "/";
 				margin-right: 10px;
+			}
+		}
+		span {
+			background-image: url(../../images/onepixel.gif);
+			background-repeat: repeat-x;
+			background-position: left center;
+			&:hover {
+				background-image: url(../../images/strike_bg.png);
 			}
 		}
 	}
@@ -507,6 +510,31 @@ span + .entry-title {
 		p, li {
 			.font-rem(16);
 			line-height: 1.25;
+		}
+	}
+}
+// Share On
+.entry-share {
+	a {
+		padding: 5px 10px;
+		color: @white;
+		&.share-on-twitter {
+			background: @twitter;
+			&:hover {
+				background: darken(@twitter, 10);
+			}
+		}
+		&.share-on-facebook {
+			background: @facebook;
+			&:hover {
+				background: darken(@facebook, 10);
+			}
+		}
+		&.share-on-googleplus {
+			background: @googleplus;
+			&:hover {
+				background: darken(@googleplus, 10);
+			}
 		}
 	}
 }
