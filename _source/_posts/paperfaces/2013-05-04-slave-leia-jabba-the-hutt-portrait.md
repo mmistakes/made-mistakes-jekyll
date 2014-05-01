@@ -8,11 +8,9 @@ image:
 category: paperfaces
 tags: 
 - Star Wars
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-
 ---
 
 "Yang chas Solo chone Wookiee!" *May the 4th be with you!*

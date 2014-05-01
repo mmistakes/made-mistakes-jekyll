@@ -8,11 +8,9 @@ image:
 category: paperfaces
 tags: 
 - Star Wars
-- PaperFaces
 - portrait
 - illustration
 - Paper by 53
-
 ---
 
 Just for giggles. Because hey, Chewbacca is a perv. *May the 4th be with you!*
