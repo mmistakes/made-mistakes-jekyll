@@ -7,7 +7,7 @@ image:
   thumb: paperfaces-han-solo-leia-150.jpg
 category: paperfaces
 modified: 2014-05-01
-tags: [portrait, illustration, Paper by 53, Star Wars]
+tags: [portrait, illustration, Paper by 53, Star Wars, Blend]
 ---
 
 With the recent Star Wars Episode VII casting news and *May the 4th* nearly upon us, I decided to kickoff the week with SW inspired drawings. I'm planning on recreating scenes and characters from all of the movies each night using Paper by 53 as per usual.

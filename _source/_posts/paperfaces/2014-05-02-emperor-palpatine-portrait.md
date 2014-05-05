@@ -6,7 +6,7 @@ image:
   feature: paperfaces-emperor-palpatine-lg.jpg
   thumb: paperfaces-emperor-palpatine-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Star Wars]
+tags: [portrait, illustration, Paper by 53, Star Wars, Blend]
 ---
 
 PaperFaces portrait of Emperor Palpatine using force lighting in Episode VI: Return of the Jedi.
