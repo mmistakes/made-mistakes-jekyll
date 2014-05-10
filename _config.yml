@@ -29,7 +29,7 @@ alexa_verify:  Y5DYjZ4VWlrQzBP5kcQJeOKLNas
 source:      _source
 future:      true
 lsi:         false
-pygments:    true
+highlighter: pygments
 markdown:    kramdown
 # http://jekyllrb.com/docs/permalinks/
 permalink:   /:categories/:title/
