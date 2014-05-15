@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
-PaperFaces portrait of [@WeiHeng_](http://twitter.com/WeiHeng_).
+PaperFaces portrait of <a href="http://twitter.com/WeiHeng_">@WeiHeng_</a>.
 
 {% include paperfaces-boilerplate-4.html %}
 
