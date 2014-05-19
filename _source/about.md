@@ -3,24 +3,23 @@ layout: page
 permalink: /about/
 title: About
 headline: About This Nonsense
-modified: 2014-03-19
+modified: 2014-05-19T09:11:57.452000-04:00
 description: "Michael Rose is just another boring, tattooed, time traveling, designer and illustrator from Buffalo, New York."
 tags: [Michael Rose, design, Buffalo, web design]
-toc: true
 ---
 
 ## And Who Are You Again?
 
-Oh hey --- I'm Michael Rose, just another bearded, tattooed, time traveling, designer and illustrator working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting record collections, and over using ellipses and en-dashes.
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling, designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), dust collecting [record collections](http://www.discogs.com/user/mmistakes/collection), and over using ellipses and en-dashes.
 
 <figure>
-	<img src="{{ site.url }}/images/paperfaces-michael-rose-beard-m.jpg" alt="Michael Rose self portrait">
+	<img src="{{ site.url }}/images/paperfaces-mmistakes-2-twitter-900.jpg" alt="Michael Rose self portrait">
 	<figcaption>Hand drawn with Paper by 53 for iOS</figcaption>
 </figure>
 
-When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/tag/jekyll), or [building the next great thing](http://ekowave.com), I work as an in-house web and print designer for a science education company. On any given day I could be designing product catalogs, marketing collateral, landing pages, email promotions and newsletters, or just getting cozy with HTML, CSS, and JavaScript.
+When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building stuff](http://ekowave.com), I work as an in-house web and print designer for a science education company. On any given day I could be developing and designing front-ends, product catalogs, marketing collateral, landing pages, email promotions and newsletters, or just getting cozy with HTML, CSS, and JavaScript.
 
-And if that wasn't enough --- I'm a husband and father of twin girls or as we like to call them, [our 2 little rosebuds](http://2littlerosebuds.com "2 Little Rosebuds").
+And if that wasn't enough --- I'm a mediocre husband, and father of twin girls or as we like to call them, [our 2 little rosebuds](http://2littlerosebuds.com "2 Little Rosebuds").
 
 <figure>
 	<img src="{{ site.url }}/images/paperfaces-my-girls-900.jpg" alt="illustrations of 2 little rosebuds">
