@@ -1,6 +1,6 @@
 ---
 layout: work
-title: "Open the Pod bady doors, HAL"
+title: "Open the Pod bay doors, HAL"
 description: "PaperFaces portrait of @barelolk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-barelolk-twitter-lg.jpg
