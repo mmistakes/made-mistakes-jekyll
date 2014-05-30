@@ -8,8 +8,6 @@ ads: true
 
 Found one of my Paper by 53 tutorials or Jekyll themes useful? If you feel inclined, here's how you can show your gratitude.
 
-## Befriend Me on the Interwebs
-
 Make me feel special by following my mundane life. I post a few times a day -- along the lines of web design and development tidbits, sarcastic remarks, Paper drawings, photos of my twin girls, and website updates.
 
 <div markdown="0">
@@ -17,11 +15,7 @@ Make me feel special by following my mundane life. I post a few times a day -- a
 	<a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
 </div>
 
-## Other Methods of Saying Thanks
-
-For those who are insanely awesome and want to motivate me to keep on truckin' with the guides and Jekyll stuff -- here's how.
-
-### Send Cash
+## Send Cash
 
 PayPal, ugh! I get it, all the cool kids hate it for various reasons. But at the end of the day it's an easy and secure way for me to accept money. Hit the button below to give whatever you feel my content is worth to you. Alternatively, if something like [**Square Cash**](https://square.com/cash) is your jam you can send monies to <michael@mademistakes.com>.
 
@@ -30,7 +24,7 @@ PayPal, ugh! I get it, all the cool kids hate it for various reasons. But at the
 	<a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn" target="_blank"><i class="fa fa-bitcoin"></i> Send Bitcoins</a>
 </div>
 
-### Shower Me with Gifts
+## Shower Me with Gifts
 
 And if sending cash or Bitcoins isn't your thing, I have an outdated Amazon Wish List you can peruse. Perhaps there is something cheap listed you'd like to gift me...
 
