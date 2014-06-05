@@ -25,7 +25,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 * Optional Disqus comments.
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
 * Search script.
-* Support for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+* Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt tasks for easier site development.
 
 <figure class="large">

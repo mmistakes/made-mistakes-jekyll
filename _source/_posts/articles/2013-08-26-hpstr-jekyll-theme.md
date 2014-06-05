@@ -23,7 +23,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Optional [Disqus](http://disqus.com) comments.
 * Support for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards).
 * Simple [custom 404 page]({{ site.url }}/404/) to get you started.
-* Support for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+* Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
 
 <figure class="large">
