@@ -7,7 +7,7 @@ image:
   teaser: relic-scout-teaser.png
   thumb: relic-scout-avatar.png
 category: work
-work:
+external:
   url: http://relicscout.com
 tags: [design, 8bit, website, collectibles]
 ads: false
