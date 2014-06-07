@@ -4,6 +4,7 @@ title: "Beard chin on green"
 excerpt: "PaperFaces portrait of @nickkeyphotos drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-nickkeyphotos-twitter-lg.jpg
+  teaser: paperfaces-nickkeyphotos-twitter-teaser.jpg
   thumb: paperfaces-nickkeyphotos-twitter-150.jpg
 category: paperfaces
 tags: [portrait, illustration, Paper by 53]

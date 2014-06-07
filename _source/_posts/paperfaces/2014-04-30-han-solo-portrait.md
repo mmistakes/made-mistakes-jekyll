@@ -4,6 +4,7 @@ title: "&#147;I know&#148;"
 excerpt: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-han-solo-leia-lg.jpg
+  teaser: paperfaces-han-solo-leia-teaser.jpg
   thumb: paperfaces-han-solo-leia-150.jpg
 category: paperfaces
 modified: 2014-05-01

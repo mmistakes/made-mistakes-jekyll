@@ -4,6 +4,7 @@ title: "&#147;Jedi scum&#148;"
 excerpt: "PaperFaces portrait General Grievous drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-general-grievous-lg.jpg
+  teaser: paperfaces-general-grievous-teaser.jpg
   thumb: paperfaces-general-grievous-150.jpg
 category: paperfaces
 tags: [portrait, illustration, Paper by 53, Star Wars, Blend]

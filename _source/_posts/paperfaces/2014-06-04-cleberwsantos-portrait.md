@@ -4,6 +4,7 @@ title: "Plaid against the wall"
 excerpt: "PaperFaces portrait of @cleberwsantos drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cleberwsantos-twitter-lg.jpg
+  teaser: paperfaces-cleberwsantos-twitter-teaser.jpg
   thumb: paperfaces-cleberwsantos-twitter-150.jpg
 category: paperfaces
 tags: [portrait, illustration, Paper by 53]
