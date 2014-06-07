@@ -12,8 +12,13 @@
 
 - title: Mastering Paper
   url: /mastering-paper/
-  excerpt: "A collection of tutorials and techniques to help master Paper by 53 for iPad."
+  excerpt: "A collection of tutorials and techniques to help master Paper by 53."
   image: paper-53-faces-teaser.jpg
+
+- title: PaperFaces  
+  url: /paperfaces/
+  excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."
+  image: paperfaces-project-teaser.jpg
 
 - title: About
   url: /about/
