@@ -65,6 +65,13 @@
 
     <script src="//use.edgefonts.net/lato:n3,i3,n4,i4,n7.js"></script>
     <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
+    <script>
+      // Enable fastclick
+      $(function() {
+          FastClick.attach(document.body);
+      });
+    </script>
     <script src="/js/main.js"></script>
     
     {% if page.toc == true %}

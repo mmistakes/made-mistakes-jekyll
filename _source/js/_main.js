@@ -50,7 +50,8 @@ $(document).ready(function() {
 
 // Lazy Load  
 $("img.load").show().lazyload({ 
-		effect: "fadeIn"
+		effect: "fadeIn",
+		skip_invisible: false
 });
 
 // FitVids
