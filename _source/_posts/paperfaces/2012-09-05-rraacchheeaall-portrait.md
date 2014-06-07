@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair and geometric patterns"
-description: "PaperFaces portrait of @rraacchheeaall drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rraacchheeaall drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rraacchheeaall-instagram-lg.jpg
   thumb: paperfaces-rraacchheeaall-instagram-150.jpg

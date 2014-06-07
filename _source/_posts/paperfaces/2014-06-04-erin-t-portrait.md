@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Stripes and shadow"
-description: "PaperFaces portrait of a Erin T. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Erin T. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-erin-t-lg.jpg
   thumb: paperfaces-erin-t-150.jpg

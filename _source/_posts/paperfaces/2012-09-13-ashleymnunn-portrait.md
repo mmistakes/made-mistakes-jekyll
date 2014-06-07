@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Girl with blonde hair smiling outside"
-description: "PaperFaces portrait of @ashleymnunn drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ashleymnunn drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ashleymnunn-twitter-lg.jpg
   thumb: paperfaces-ashleymnunn-twitter-150.jpg

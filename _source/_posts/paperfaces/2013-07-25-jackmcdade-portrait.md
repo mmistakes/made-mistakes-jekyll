@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blurry foliage portrait"
-description: "PaperFaces portrait of @jackmcdade drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jackmcdade drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jackmcdade-twitter-lg.jpg
   thumb: paperfaces-jackmcdade-twitter-150.jpg

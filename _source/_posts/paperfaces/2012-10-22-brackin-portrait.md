@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dude in blue"
-description: "PaperFaces portrait of @brackin drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @brackin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-brackin-twitter-lg.jpg
   thumb: paperfaces-brackin-twitter-150.jpg

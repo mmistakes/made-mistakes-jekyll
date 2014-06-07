@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Breathing underwater"
-description: "PaperFaces portrait of @Zakatnov drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Zakatnov drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-zakatnov-twitter-lg.jpg
   thumb: paperfaces-zakatnov-twitter-150.jpg

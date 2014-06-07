@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Rose tinted sunglasses"
-description: "PaperFaces portrait of @dudrenov drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @dudrenov drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dudrenov-twitter-lg.jpg
   thumb: paperfaces-dudrenov-twitter-150.jpg

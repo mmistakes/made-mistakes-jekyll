@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Wearing a bright orange knit hat"
-description: "PaperFaces portrait of @bradyv drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bradyv drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bradyv-twitter-lg.jpg
   thumb: paperfaces-bradyv-twitter-150.jpg

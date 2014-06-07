@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Rock and roll"
-description: "PaperFaces portrait of @sdevore drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sdevore drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sdevore-twitter-lg.jpg
   thumb: paperfaces-sdevore-twitter-150.jpg

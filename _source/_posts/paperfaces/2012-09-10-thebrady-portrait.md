@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Wearing a hoodie and 3D glasses"
-description: "PaperFaces portrait of @theBrady drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @theBrady drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thebrady-twitter-lg.jpg
   thumb: paperfaces-thebrady-twitter-150.jpg

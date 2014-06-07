@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Not a club"
-description: "PaperFaces portrait of @angel__frias drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @angel__frias drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-angel-frias-instagram-lg.jpg
   thumb: paperfaces-angel-frias-instagram-150.jpg

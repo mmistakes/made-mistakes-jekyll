@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dressed up in the car"
-description: "PaperFaces portrait of @ryandwillis drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ryandwillis drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ryandwillis-twitter-lg.jpg
   thumb: paperfaces-ryandwillis-twitter-150.jpg

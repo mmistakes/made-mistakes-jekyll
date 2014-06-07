@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Painted joker smile"
-description: "PaperFaces portrait of @blumentoast drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @blumentoast drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-blumentoast-twitter-lg.jpg
   thumb: paperfaces-blumentoast-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Slenderman look a like?"
-description: "PaperFaces portrait of @JPKoudstaal drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @JPKoudstaal drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jpkoudstaal-twitter-lg.jpg
   thumb: paperfaces-jpkoudstaal-twitter-150.jpg

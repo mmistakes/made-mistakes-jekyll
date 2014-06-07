@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "&#147;Jedi scum&#148;"
-description: "PaperFaces portrait General Grievous drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait General Grievous drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-general-grievous-lg.jpg
   thumb: paperfaces-general-grievous-150.jpg

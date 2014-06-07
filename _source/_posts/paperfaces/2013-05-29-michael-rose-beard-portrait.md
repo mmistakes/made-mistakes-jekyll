@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces self portrait of Michael Rose"
-description: "PaperFaces portrait of a bearded Michael Rose drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a bearded Michael Rose drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-michael-rose-beard-lg.jpg
   thumb: paperfaces-michael-rose-beard-150.jpg

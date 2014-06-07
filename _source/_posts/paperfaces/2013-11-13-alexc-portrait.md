@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blue cool"
-description: "PaperFaces portrait of @alexc drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @alexc drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-alexc-twitter-lg.jpg
   thumb: paperfaces-alexc-twitter-150.jpg

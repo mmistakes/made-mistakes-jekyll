@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Eye spy with my golf ball eye"
-description: "PaperFaces portrait of @Lemberg drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Lemberg drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lemberg-twitter-lg.jpg
   thumb: paperfaces-lemberg-twitter-150.jpg

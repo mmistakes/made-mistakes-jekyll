@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Magenta and beard on a tilt"
-description: "PaperFaces portrait of @imhobson drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @imhobson drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-imhobson-twitter-lg.jpg
   thumb: paperfaces-imhobson-twitter-150.jpg

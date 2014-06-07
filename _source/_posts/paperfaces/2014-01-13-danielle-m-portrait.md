@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Mirrored faces"
-description: "PaperFaces portrait of Danielle M. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Danielle M. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-danielle-m-lg.jpg
   thumb: paperfaces-danielle-m-150.jpg

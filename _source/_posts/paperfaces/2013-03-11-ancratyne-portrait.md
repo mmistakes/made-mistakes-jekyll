@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blue dress curved"
-description: "PaperFaces portrait of @ancratyne drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ancratyne drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ancratyne-twitter-lg.jpg
   thumb: paperfaces-ancratyne-twitter-150.jpg

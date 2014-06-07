@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "I caught a fish this big"
-description: "PaperFaces portrait of @GuavaGleeLesley drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @GuavaGleeLesley drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-guavagleelesley-twitter-lg.jpg
   thumb: paperfaces-guavagleelesley-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Posterized in yellow"
-description: "PaperFaces portrait of @johntwolives drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @johntwolives drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-johntwolives-twitter-lg.jpg
   thumb: paperfaces-johntwolives-twitter-150.jpg

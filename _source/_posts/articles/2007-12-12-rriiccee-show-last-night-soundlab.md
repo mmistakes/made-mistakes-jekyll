@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: article
 title: RRIICCEE Show Last Night
-description: "Musically &#8212; RRIICCEE is fine, but not something I really want to see live again."
+excerpt: "Musically &#8212; RRIICCEE is fine, but not something I really want to see live again."
 category: articles
 image: 
   feature: rriiccee-feature.jpg
-  small: rriiccee-340x100.jpg
+  teaser: rriiccee-teaser.jpg
   thumb: rriiccee-thumb.jpg
 tags: [RRIICCEE, Vincent Gallo, Soundlab, Buffalo, review]
 ---

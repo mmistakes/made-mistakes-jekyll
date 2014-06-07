@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "&#147;I know&#148;"
-description: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-han-solo-leia-lg.jpg
   thumb: paperfaces-han-solo-leia-150.jpg

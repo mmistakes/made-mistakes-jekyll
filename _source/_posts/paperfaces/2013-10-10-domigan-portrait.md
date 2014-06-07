@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Three stars"
-description: "PaperFaces portrait of @domigan drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @domigan drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-domigan-twitter-lg.jpg
   thumb: paperfaces-domigan-twitter-150.jpg

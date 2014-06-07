@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Monochromatic blue beard"
-description: "PaperFaces portrait of @jbenton drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jbenton drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jbenton-twitter-lg.jpg
   thumb: paperfaces-jbenton-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sippy sip from the big cup"
-description: "PaperFaces portrait of @hampusn drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @hampusn drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hampusn-twitter-lg.jpg
   thumb: paperfaces-hampusn-twitter-150.jpg

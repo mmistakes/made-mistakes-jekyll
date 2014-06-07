@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Girl in gray"
-description: "PaperFaces portrait of @sarelrivera drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sarelrivera drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sarelrivera-twitter-lg.jpg
   thumb: paperfaces-sarelrivera-twitter-150.jpg

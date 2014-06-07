@@ -1,28 +1,25 @@
 ---
-layout: post
+layout: article
 title: "iPad Portraits with Paper by FiftyThree"
-short-title: "PaperFaces Project"
-description: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
+excerpt: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
 modified: 2014-04-02
 image: 
   feature: paperfaces-project-feature.jpg
-  homepage: paperfaces-project-500x500.jpg
+  teaser: paperfaces-project-teaser.jpg
   thumb: paperfaces-project-250x250.jpg
 category: articles
 tags: [Paper by 53, iPad, drawing, illustration]
 comments: true
+toc: true
 ---
 
 PaperFaces is an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue <s>the next year</s> until I burn out on faceless faces.
-
-* Table of Contents 
-{:toc}
 
 ## Latest Portraits
 
 I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
 
-<ul class="oversized-recent-grid">
+<ul class="th-grid">
 {% for post in site.categories.paperfaces limit:16 %}
     <li>
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
@@ -105,7 +102,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 
 I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
 
-<ul id="fanart-gallery" class="recent-grid">
+<ul id="fanart-gallery" class="th-grid">
   <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre"></a></li>
   <li><a href="{{ site.url }}/images/homage-missshrestha-rosebuds-lg.jpg"><img src="{{ site.url }}/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagram"></a></li>
   <li><a href="{{ site.url }}/images/homage-morgantj-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj"></a></li>

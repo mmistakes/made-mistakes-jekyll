@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Drinks in gray"
-description: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chadtafolla-2-twitter-lg.jpg
   thumb: paperfaces-chadtafolla-2-twitter-150.jpg

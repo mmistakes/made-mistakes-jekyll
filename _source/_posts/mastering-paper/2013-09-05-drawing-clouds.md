@@ -1,22 +1,19 @@
 ---
-layout: post
+layout: article
 title: "Mastering Paper by 53: Drawing Skies and Clouds"
-description: "Learn techniques to draw blue skies, clouds, and pretty sunsets using the iPad app Paper by 53."
+excerpt: "Learn techniques to draw blue skies, clouds, and pretty sunsets using the iPad app Paper by 53."
 modified: 2014-04-10
 image: 
   feature: paper-53-skies-guide-feature.jpg
+  teaser: paper-53-skies-guide-teaser.jpg
   thumb: paper-53-skies-guide-thumb.jpg
-modified: 2013-09-17
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, sky, clouds]
-series: mastering-paper
 comments: true
+toc: true
 ---
 
 Paper by 53 makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here...let me show you how.
-
-* Table of Contents
-{:toc}
 
 ## Blue Skies Fade
 
@@ -148,7 +145,7 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
-<ul class="recent-grid">
+<ul class="th-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-laramulady-portrait %}"><img src="{{ site.url }}/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-tipican-portrait %}"><img src="{{ site.url }}/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>

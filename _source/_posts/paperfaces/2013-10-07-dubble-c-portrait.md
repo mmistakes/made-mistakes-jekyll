@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Maps and earbuds"
-description: "PaperFaces portrait of @Dubble_C drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Dubble_C drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dubble-c-twitter-lg.jpg
   thumb: paperfaces-dubble-c-twitter-150.jpg

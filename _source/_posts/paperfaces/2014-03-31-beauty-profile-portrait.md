@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beauty is in the moment"
-description: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-beauty-profile-lg.jpg
   thumb: paperfaces-beauty-profile-150.jpg

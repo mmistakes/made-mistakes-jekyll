@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Winter wonderland couple outside"
-description: "PaperFaces portrait of @josephedjohn drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @josephedjohn drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-josephedjohn-twitter-lg.jpg
   thumb: paperfaces-josephedjohn-twitter-150.jpg

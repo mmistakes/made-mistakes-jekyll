@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Pink hoodie hearted hand"
-description: "PaperFaces portrait of @cliqueasaurus drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cliqueasaurus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cliqueasaurus-twitter-lg.jpg
   thumb: paperfaces-cliqueasaurus-twitter-150.jpg

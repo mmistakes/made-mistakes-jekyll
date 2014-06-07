@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dark jacket looking downward"
-description: "PaperFaces portrait of @sbach drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sbach drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sbach-twitter-lg.jpg
   thumb: paperfaces-sbach-twitter-150.jpg

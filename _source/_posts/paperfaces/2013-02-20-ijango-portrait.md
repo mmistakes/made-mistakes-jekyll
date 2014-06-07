@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Van dyke moustachio drinking cat"
-description: "PaperFaces portrait of @ijango drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ijango drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ijango-twitter-lg.jpg
   thumb: paperfaces-ijango-twitter-150.jpg

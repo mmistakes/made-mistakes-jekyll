@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Details in the sunglasses"
-description: "PaperFaces portrait of @cocoapriest drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cocoapriest drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cocoapriest-twitter-lg.jpg
   thumb: paperfaces-cocoapriest-twitter-150.jpg

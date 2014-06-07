@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The king has risen"
-description: "PaperFaces portrait of @jamesIII drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jamesIII drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jamesiii-twitter-lg.jpg
   thumb: paperfaces-jamesiii-twitter-150.jpg

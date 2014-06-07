@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: article
 title: "Collecting Records for the Artwork"
-description: "How the hand crafted aesthic found in DIY released emo and hardcore records started my collecting addiction."
+excerpt: "How the hand crafted aesthetics found in DIY released emo and hardcore records started my collecting addiction."
 category: articles
 image: 
   feature: collecting-records-feature.jpg
-  small: collecting-records-340x100.jpg
+  teaser: collecting-records-teaser.jpg
   thumb: collecting-records-thumb.jpg
 modified: 2013-04-26
 tags: [punk, records, inspiration, DIY, critique, design]

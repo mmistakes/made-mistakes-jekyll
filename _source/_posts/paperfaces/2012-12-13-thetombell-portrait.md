@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Yellow and blue stripes, view from below"
-description: "PaperFaces portrait of @thetombell drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @thetombell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thetombell-twitter-lg.jpg
   thumb: paperfaces-thetombell-twitter-150.jpg

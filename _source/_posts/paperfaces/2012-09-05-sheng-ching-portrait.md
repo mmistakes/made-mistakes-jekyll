@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Taking selfies"
-description: "PaperFaces portrait of @sheng_ching drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sheng_ching drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sheng-ching-twitter-lg.jpg
   thumb: paperfaces-sheng-ching-twitter-150.jpg

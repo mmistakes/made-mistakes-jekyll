@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hooded figure"
-description: "PaperFaces portrait of @dannowatts drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @dannowatts drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dannowatts-twitter-lg.jpg
   thumb: paperfaces-dannowatts-twitter-150.jpg

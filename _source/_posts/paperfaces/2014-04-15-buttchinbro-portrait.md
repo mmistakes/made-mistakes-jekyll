@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The Declaration of Independence is mine"
-description: "PaperFaces portrait of @ButtChinBro drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ButtChinBro drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-buttchinbro-twitter-lg.jpg
   thumb: paperfaces-buttchinbro-twitter-150.jpg

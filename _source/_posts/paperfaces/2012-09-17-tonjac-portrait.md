@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long blonde hairs in front of a brick wall"
-description: "PaperFaces portrait of @TonjaC drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @TonjaC drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-TonjaC-twitter-lg.jpg
   thumb: paperfaces-TonjaC-twitter-150.jpg

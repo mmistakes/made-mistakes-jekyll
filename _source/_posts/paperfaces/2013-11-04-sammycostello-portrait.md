@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Locked in a pink room"
-description: "PaperFaces portrait of @SammyCostello drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @SammyCostello drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sammycostello-twitter-lg.jpg
   thumb: paperfaces-sammycostello-twitter-150.jpg

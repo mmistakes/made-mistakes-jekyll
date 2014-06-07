@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "SNIKT!"
-description: "PaperFaces portrait of @PatrickCH drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @PatrickCH drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-patrickch-twitter-lg.jpg
   thumb: paperfaces-patrickch-twitter-150.jpg

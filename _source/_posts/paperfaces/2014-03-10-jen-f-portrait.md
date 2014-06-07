@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Twinkling lights from Paris"
-description: "PaperFaces portrait of a Jen F. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Jen F. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jen-f-lg.jpg
   thumb: paperfaces-jen-f-150.jpg

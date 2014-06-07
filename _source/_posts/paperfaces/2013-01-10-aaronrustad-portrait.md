@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Glasses in front of green water"
-description: "PaperFaces portrait of @aaronrustad drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @aaronrustad drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-aaronrustad-twitter-lg.jpg
   thumb: paperfaces-aaronrustad-twitter-150.jpg

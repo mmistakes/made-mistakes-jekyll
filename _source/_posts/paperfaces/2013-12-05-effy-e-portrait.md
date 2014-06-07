@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Undercut inspiration"
-description: "PaperFaces portrait of Effy E. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Effy E. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-effy-e-lg.jpg
   thumb: paperfaces-effy-e-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Monitor reflections"
-description: "PaperFaces portrait of @warrentalmarkes drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @warrentalmarkes drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-warrentalmarkes-twitter-lg.jpg
   thumb: paperfaces-warrentalmarkes-twitter-150.jpg

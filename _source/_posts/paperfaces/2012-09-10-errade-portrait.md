@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A dude and his dog"
-description: "PaperFaces portrait of @errade drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @errade drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-errade-twitter-lg.jpg
   thumb: paperfaces-errade-twitter-150.jpg

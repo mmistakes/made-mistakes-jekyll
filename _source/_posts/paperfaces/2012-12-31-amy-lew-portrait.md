@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair in violet"
-description: "PaperFaces portrait of @amy_lew drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @amy_lew drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-amy-lew-twitter-lg.jpg
   thumb: paperfaces-amy-lew-twitter-150.jpg

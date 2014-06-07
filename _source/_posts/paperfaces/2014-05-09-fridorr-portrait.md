@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sniff sniff"
-description: "PaperFaces portrait of @Fridorr drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Fridorr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fridorr-twitter-lg.jpg
   thumb: paperfaces-fridorr-twitter-150.jpg

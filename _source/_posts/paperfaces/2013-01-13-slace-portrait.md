@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In a hat"
-description: "PaperFaces portrait of @slace drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @slace drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-slace-twitter-lg.jpg
   thumb: paperfaces-slace-twitter-150.jpg

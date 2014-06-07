@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Looking up"
-description: "PaperFaces portrait of @cjmlgrto drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cjmlgrto drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cjmlgrto-twitter-lg.jpg
   thumb: paperfaces-cjmlgrto-twitter-150.jpg

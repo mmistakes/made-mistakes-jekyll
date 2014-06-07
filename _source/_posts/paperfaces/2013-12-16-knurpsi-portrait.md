@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Purple strands and specs"
-description: "PaperFaces portrait of @knurpsi drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @knurpsi drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-knurpsi-twitter-lg.jpg
   thumb: paperfaces-knurpsi-twitter-150.jpg

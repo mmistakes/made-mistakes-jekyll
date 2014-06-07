@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blue tinted eye"
-description: "PaperFaces portrait of @invalididentity drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @invalididentity drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-invalididentity-twitter-lg.jpg
   thumb: paperfaces-invalididentity-twitter-150.jpg

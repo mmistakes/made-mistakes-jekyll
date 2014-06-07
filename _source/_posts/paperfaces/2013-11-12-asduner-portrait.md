@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "QR coded"
-description: "PaperFaces portrait of @asduner drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @asduner drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-asduner-twitter-lg.jpg
   thumb: paperfaces-asduner-twitter-150.jpg

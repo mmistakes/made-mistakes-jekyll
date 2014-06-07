@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Cello, is it me you're looking for?"
-description: "PaperFaces portrait of @rubenharris drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rubenharris drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rubenharris-twitter-lg.jpg
   thumb: paperfaces-rubenharris-twitter-150.jpg

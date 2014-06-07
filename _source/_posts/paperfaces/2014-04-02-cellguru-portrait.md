@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hoodie and a glow"
-description: "PaperFaces portrait of @cellguru drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cellguru drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cellguru-twitter-lg.jpg
   thumb: paperfaces-cellguru-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white closeup of an eye"
-description: "PaperFaces portrait of @arbitral drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @arbitral drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-arbitral-twitter-lg.jpg
   thumb: paperfaces-arbitral-twitter-150.jpg

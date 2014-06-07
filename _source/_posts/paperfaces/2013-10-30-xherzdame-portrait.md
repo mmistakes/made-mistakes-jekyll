@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Kissy kissy"
-description: "PaperFaces portrait of @xHerzdame drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @xHerzdame drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-xherzdame-twitter-lg.jpg
   thumb: paperfaces-xherzdame-twitter-150.jpg

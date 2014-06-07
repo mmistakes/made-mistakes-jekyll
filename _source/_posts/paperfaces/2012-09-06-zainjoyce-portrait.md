@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white iPhone selfie"
-description: "PaperFaces portrait of @zainjoyce drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @zainjoyce drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-zainjoyce-twitter-lg.jpg
   thumb: paperfaces-zainjoyce-twitter-150.jpg

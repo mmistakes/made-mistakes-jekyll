@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Curly hair on the grass"
-description: "PaperFaces portrait of @lmichelleinc drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lmichelleinc drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lmichelleinc-twitter-lg.jpg
   thumb: paperfaces-lmichelleinc-twitter-150.jpg

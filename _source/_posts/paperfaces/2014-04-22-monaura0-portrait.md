@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Lip lick"
-description: "PaperFaces portrait of @monaura0 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @monaura0 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-monaura0-twitter-lg.jpg
   thumb: paperfaces-monaura0-twitter-150.jpg

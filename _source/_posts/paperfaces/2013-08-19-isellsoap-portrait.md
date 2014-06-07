@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Stripes in the trees"
-description: "PaperFaces portrait of @isellsoap drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @isellsoap drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-isellsoap-twitter-lg.jpg
   thumb: paperfaces-isellsoap-twitter-150.jpg

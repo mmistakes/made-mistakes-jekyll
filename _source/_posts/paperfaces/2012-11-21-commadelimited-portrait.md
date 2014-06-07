@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Epic beard"
-description: "PaperFaces portrait of @commadelimited drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @commadelimited drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-commadelimited-twitter-lg.jpg
   thumb: paperfaces-commadelimited-twitter-150.jpg

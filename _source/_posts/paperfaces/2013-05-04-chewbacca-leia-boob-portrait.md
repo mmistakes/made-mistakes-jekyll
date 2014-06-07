@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait of Chewbacca and Princess Leia"
-description: "PaperFaces portrait of Chewbacca and Princess Leia drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Chewbacca and Princess Leia drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chewbacca-leia-boob-lg.jpg
   thumb: paperfaces-chewbacca-leia-boob-150.jpg

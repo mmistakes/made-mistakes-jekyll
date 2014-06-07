@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Jean jacket rock"
-description: "PaperFaces portrait of @lewips drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lewips drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lewips-twitter-lg.jpg
   thumb: paperfaces-lewips-twitter-150.jpg

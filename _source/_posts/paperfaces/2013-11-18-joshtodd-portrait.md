@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Drawing with DayGlo"
-description: "PaperFaces portrait of @JoshTodd drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @JoshTodd drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joshtodd-twitter-lg.jpg
   thumb: paperfaces-joshtodd-twitter-150.jpg

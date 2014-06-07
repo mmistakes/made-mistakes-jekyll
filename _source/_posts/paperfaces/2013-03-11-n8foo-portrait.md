@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Holding a camera in front"
-description: "PaperFaces portrait of @n8foo drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @n8foo drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-n8foo-twitter-lg.jpg
   thumb: paperfaces-n8foo-twitter-150.jpg

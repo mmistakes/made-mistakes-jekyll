@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Happy Anniversary"
-description: "PaperFaces portrait of my wife on our wedding day drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of my wife on our wedding day drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-anniversary-portrait-lg.jpg
   thumb: paperfaces-anniversary-portrait-150.jpg

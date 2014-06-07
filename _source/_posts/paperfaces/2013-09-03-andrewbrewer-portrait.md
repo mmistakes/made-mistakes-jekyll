@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beard by the beach"
-description: "PaperFaces portrait of @andrewbrewer drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @andrewbrewer drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-andrewbrewer-twitter-lg.jpg
   thumb: paperfaces-andrewbrewer-twitter-150.jpg

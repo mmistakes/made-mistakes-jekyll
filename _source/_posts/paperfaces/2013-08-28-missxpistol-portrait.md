@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "G is for Grrrape"
-description: "PaperFaces portrait of @missxpistol drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @missxpistol drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-missxpistol-twitter-lg.jpg
   thumb: paperfaces-missxpistol-twitter-150.jpg

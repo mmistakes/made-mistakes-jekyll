@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair leaning forward"
-description: "PaperFaces portrait of @kimkimcachoo drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kimkimcachoo drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kimkimcachoo-twitter-lg.jpg
   thumb: paperfaces-kimkimcachoo-twitter-150.jpg

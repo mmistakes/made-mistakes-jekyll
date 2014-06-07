@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Think Different"
-description: "PaperFaces portrait of Steve Jobs drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Steve Jobs drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-steve-jobs-lg.jpg
   thumb: paperfaces-steve-jobs-150.jpg

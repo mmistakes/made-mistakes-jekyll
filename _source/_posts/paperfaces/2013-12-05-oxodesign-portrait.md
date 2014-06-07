@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bright whites"
-description: "PaperFaces portrait of @oxodesign drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @oxodesign drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-oxodesign-twitter-lg.jpg
   thumb: paperfaces-oxodesign-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Goofy grey cat"
-description: "PaperFaces portrait of @parisba drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @parisba drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-parisba-twitter-lg.jpg
   thumb: paperfaces-parisba-twitter-150.jpg

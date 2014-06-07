@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "High contrast beautiful long hair"
-description: "PaperFaces portrait of @kendallina drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kendallina drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kendallina-twitter-lg.jpg
   thumb: paperfaces-kendallina-twitter-150.jpg

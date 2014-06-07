@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Zipped up by sea"
-description: "PaperFaces portrait of @joeycarmello drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @joeycarmello drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joeycarmello-twitter-lg.jpg
   thumb: paperfaces-joeycarmello-twitter-150.jpg

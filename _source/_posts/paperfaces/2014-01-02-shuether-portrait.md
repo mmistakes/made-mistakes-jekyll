@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Fake mountains"
-description: "PaperFaces portrait of @shuether drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @shuether drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-shuether-twitter-lg.jpg
   thumb: paperfaces-shuether-twitter-150.jpg

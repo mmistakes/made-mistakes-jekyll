@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Killer clown"
-description: "PaperFaces portrait of a killer clown drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a killer clown drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-killer-clown-lg.jpg
   thumb: paperfaces-killer-clown-150.jpg

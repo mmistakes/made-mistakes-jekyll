@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blue beanie monkey"
-description: "PaperFaces portrait of @enderFP drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @enderFP drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-enderfp-twitter-lg.jpg
   thumb: paperfaces-enderfp-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Girl in dark, in front of a blue background"
-description: "PaperFaces portrait of @alittlebluestar drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @alittlebluestar drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-alittlebluestar-twitter-lg.jpg
   thumb: paperfaces-alittlebluestar-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Surprise face hiding in a sweater"
-description: "PaperFaces portrait of @melchoyce drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @melchoyce drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-melchoyce-twitter-lg.jpg
   thumb: paperfaces-melchoyce-twitter-150.jpg

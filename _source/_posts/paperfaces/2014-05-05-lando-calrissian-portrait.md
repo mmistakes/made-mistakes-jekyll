@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "&#147;Here goes nothing&#148;"
-description: "PaperFaces portrait Lando Calrissian drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Lando Calrissian drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lando-calrissian-lg.jpg
   thumb: paperfaces-lando-calrissian-150.jpg

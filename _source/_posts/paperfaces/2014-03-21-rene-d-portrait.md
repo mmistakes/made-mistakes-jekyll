@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Direct sunlight and bokeh part 2"
-description: "PaperFaces portrait of Rene D. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Rene D. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rene-d-twitter-lg.jpg
   thumb: paperfaces-rene-d-twitter-150.jpg

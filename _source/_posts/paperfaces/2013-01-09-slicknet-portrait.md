@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In a suit and hat talking mobile phones"
-description: "PaperFaces portrait of @slicknet drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @slicknet drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-slicknet-twitter-lg.jpg
   thumb: paperfaces-slicknet-twitter-150.jpg

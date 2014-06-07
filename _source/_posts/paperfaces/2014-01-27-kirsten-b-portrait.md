@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Polka dot draws"
-description: "PaperFaces portrait of Kirsten B. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Kirsten B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kirsten-b-lg.jpg
   thumb: paperfaces-kirsten-b-150.jpg

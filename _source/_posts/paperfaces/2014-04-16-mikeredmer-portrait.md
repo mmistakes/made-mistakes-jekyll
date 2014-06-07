@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Wearing Glass like a boss"
-description: "PaperFaces portrait of @mikeredmer drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mikeredmer drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mikeredmer-twitter-lg.jpg
   thumb: paperfaces-mikeredmer-twitter-150.jpg

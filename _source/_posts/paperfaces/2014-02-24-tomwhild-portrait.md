@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Gray stripes in gray light"
-description: "PaperFaces portrait of @tomwhild drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tomwhild drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tomwhild-twitter-lg.jpg
   thumb: paperfaces-tomwhild-twitter-150.jpg

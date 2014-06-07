@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black cat Cadillac"
-description: "PaperFaces portrait of @bengillam drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bengillam drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bengillam-twitter-lg.jpg
   thumb: paperfaces-bengillam-twitter-150.jpg

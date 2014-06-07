@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Ribbit ribbit"
-description: "PaperFaces portrait of @kishba drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kishba drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kishba-twitter-lg.jpg
   thumb: paperfaces-kishba-twitter-150.jpg

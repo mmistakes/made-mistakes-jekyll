@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Weathered wood"
-description: "PaperFaces portrait of Kalina B. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Kalina B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kalina-b-lg.jpg
   thumb: paperfaces-kalina-b-150.jpg

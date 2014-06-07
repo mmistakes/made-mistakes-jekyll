@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "White car and sunglasses"
-description: "PaperFaces portrait of @jakesutton drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jakesutton drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jakesutton-twitter-lg.jpg
   thumb: paperfaces-jakesutton-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Raining hearts"
-description: "PaperFaces portrait of @BollyWooed drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @BollyWooed drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bollywooed-twitter-lg.jpg
   thumb: paperfaces-bollywooed-twitter-150.jpg

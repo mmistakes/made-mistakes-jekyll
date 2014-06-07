@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Glasses wearing a plaid scarf"
-description: "PaperFaces portrait of @pichfl drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @pichfl drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pichfl-twitter-lg.jpg
   thumb: paperfaces-pichfl-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Riding in cars with yellow and blue hues"
-description: "PaperFaces portrait of @TonyNof drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @TonyNof drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tonynof-twitter-lg.jpg
   thumb: paperfaces-tonynof-twitter-150.jpg

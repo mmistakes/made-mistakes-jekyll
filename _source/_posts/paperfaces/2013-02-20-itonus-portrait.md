@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bowtie and nerd glasses"
-description: "PaperFaces portrait of @itonus-ron drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @itonus-ron drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-itonus-twitter-lg.jpg
   thumb: paperfaces-itonus-twitter-150.jpg

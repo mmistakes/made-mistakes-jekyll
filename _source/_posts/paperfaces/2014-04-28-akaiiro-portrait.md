@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "An upward tilt"
-description: "PaperFaces portrait of @akaiiro drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @akaiiro drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-akaiiro-twitter-lg.jpg
   thumb: paperfaces-akaiiro-twitter-150.jpg

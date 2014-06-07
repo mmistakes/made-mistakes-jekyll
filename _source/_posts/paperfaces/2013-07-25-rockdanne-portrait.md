@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Tying ties in the woods"
-description: "PaperFaces portrait of @rockdanne drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rockdanne drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rockdanne-twitter-lg.jpg
   thumb: paperfaces-rockdanne-twitter-150.jpg

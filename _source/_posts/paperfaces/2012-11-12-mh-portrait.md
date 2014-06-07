@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sunglasses and a hoodie"
-description: "PaperFaces portrait of @mh drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mh drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mh-twitter-lg.jpg
   thumb: paperfaces-mh-twitter-150.jpg

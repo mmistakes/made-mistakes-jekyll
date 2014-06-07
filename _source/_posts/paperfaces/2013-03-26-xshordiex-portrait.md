@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Against striped walls"
-description: "PaperFaces portrait of @xShordiex drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @xShordiex drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-xshordiex-twitter-lg.jpg
   thumb: paperfaces-xshordiex-twitter-150.jpg

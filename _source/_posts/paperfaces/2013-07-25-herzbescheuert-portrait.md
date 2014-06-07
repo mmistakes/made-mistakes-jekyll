@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Intersecting lines and long hair"
-description: "PaperFaces portrait of @herzbescheuert drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @herzbescheuert drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-herzbescheuert-twitter-lg.jpg
   thumb: paperfaces-herzbescheuert-twitter-150.jpg

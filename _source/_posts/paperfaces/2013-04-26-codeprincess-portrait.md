@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Glasses in red hair"
-description: "PaperFaces portrait of @codePrincess drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @codePrincess drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-codeprincess-twitter-lg.jpg
   thumb: paperfaces-codeprincess-twitter-150.jpg

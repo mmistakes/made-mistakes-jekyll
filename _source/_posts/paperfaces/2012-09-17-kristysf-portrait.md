@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Fiery blond hair curling about"
-description: "PaperFaces portrait of @kristysf drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kristysf drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kristysf-twitter-lg.jpg
   thumb: paperfaces-kristysf-twitter-150.jpg

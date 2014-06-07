@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: Work
+  url: /work/
+  excerpt: "Things designed, illustrated, or developed by Michael Rose."
+  image: relic-scout-teaser.png
+
+- title: Articles
+  url: /articles/
+  excerpt: "A collection of Michael Rose’s thoughts, inspiration, mistakes, and other minutia."
+  image: sktchys-of-me-teaser.jpg
+
+- title: Mastering Paper
+  url: /mastering-paper/
+  excerpt: "A collection of tutorials and techniques to help master Paper by 53 for iPad."
+  image: paper-53-faces-teaser.jpg
+
+- title: About
+  url: /about/
+  excerpt: "Michael Rose is just another boring, tattooed, time traveling, designer and illustrator."
+  image: about-teaser.jpg

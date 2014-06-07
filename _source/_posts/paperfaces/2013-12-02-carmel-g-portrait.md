@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Fire tipped hair"
-description: "PaperFaces portrait of Carmel G. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Carmel G. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-carmel-g-lg.jpg
   thumb: paperfaces-carmel-g-150.jpg

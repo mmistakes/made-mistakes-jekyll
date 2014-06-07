@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The iPad has become a face"
-description: "PaperFaces portrait of @mattdusenbury drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mattdusenbury drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mattdusenbury-twitter-lg.jpg
   thumb: paperfaces-mattdusenbury-twitter-150.jpg

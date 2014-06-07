@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Some sort of furry"
-description: "PaperFaces of @sironfoot's avatar drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces of @sironfoot's avatar drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sironfoot-twitter-lg.jpg
   thumb: paperfaces-sironfoot-twitter-150.jpg

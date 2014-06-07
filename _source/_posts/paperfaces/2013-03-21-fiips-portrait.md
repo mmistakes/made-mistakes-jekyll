@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Cat face bathroom selfie"
-description: "PaperFaces portrait of @Fiips_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Fiips_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fiips-twitter-lg.jpg
   thumb: paperfaces-fiips-twitter-150.jpg

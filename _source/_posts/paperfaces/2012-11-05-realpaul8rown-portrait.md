@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Wearing an orange afro"
-description: "PaperFaces portrait of @RealPaul8rown drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @RealPaul8rown drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-realpaul8rown-twitter-lg.jpg
   thumb: paperfaces-realpaul8rown-twitter-150.jpg

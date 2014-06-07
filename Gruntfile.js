@@ -2,47 +2,130 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
     jshint: {
       options: {
         jshintrc: '.jshintrc'
       },
       all: [
         'Gruntfile.js',
-        '_source/_assets/js/*.js',
-        '_source/_assets/js/plugins/*.js',
-        '!_source/_assets/js/main.min.js'
+        '_source/js/*.js',
+        '!_source/js/main.js'
       ]
     },
-    recess: {
-      dist: {
+    shell: {
+      jekyllBuild: {
+        command: 'jekyll build'
+      }
+    },
+    connect: {
+      server: {
         options: {
-          compile: true,
-          compress: false
-        },
-        files: {
-          '_source/_assets/css/main.css': [
-            '_source/_assets/less/main.less'
-          ]
+          port: 4000,
+          base: '_site'
         }
       }
     },
-    cssmin: {
-      minify: {
-        expand: true,
-        cwd: '_source/_assets/css/',
-        src: ['*.css', '!*.min.css'],
-        dest: '_source/_assets/css/',
-        ext: '.min.css'
+    watch: {
+      jekyll: {
+        files: [
+          '_config.yml',
+          '_source/*.*',
+          '_source/_layouts/**',
+          '_source/_includes/**',
+          '_source/_posts/**',
+          '_source/_work/**'
+        ],
+        tasks: ['shell:jekyllBuild'],
+        options: {
+          livereload: true
+        }
+      },
+      sass: {
+        files: [
+          '_source/_sass/*.scss'
+        ],
+        tasks: ['sass', 'shell:jekyllBuild'],
+        options: {
+          livereload: true
+        }
+      },
+      js: {
+        files: [
+          '<%= jshint.all %>'
+        ],
+        tasks: ['jshint', 'uglify', 'shell:jekyllBuild'],
+        options: {
+          livereload: true
+        }
+      },
+      images: {
+        files: [
+          '_source/_images/*.{png,jpg,jpeg}'],
+        tasks: ['newer:imagemin', 'shell:jekyllBuild'],
+        options: {
+          livereload: true
+        }
+      },
+      svgs: {
+        files: [
+          '_source/_images/*.svg'],
+        tasks: ['newer:svgmin', 'shell:jekyllBuild'],
+        options: {
+          livereload: true
+        }
+      }
+    },
+    sass: {
+      dist: {
+        options: {
+          sourcemap: false,
+          style: 'compressed',
+          compass: false,
+        },
+        files: {
+          '_source/css/main.min.css':'_source/_sass/main.scss'
+        }
+      },
+      dev: {
+        options: {
+          sourcemap: false,
+          compass: false,
+        },
+        files: {
+          '_source/css/main.css':'_source/_sass/main.scss'
+        }
       }
     },
     uglify: {
       dist: {
+        options: {
+          banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */',
+          compress: true,
+          beautify: false,
+          mangle: false,
+          sourceMap: true
+        },
         files: {
-          '_source/_assets/js/main.min.js': [
-            '_source/_assets/js/plugins/*.js',
-            '_source/_assets/js/_*.js'
+          '_source/js/main.js': [
+            '_source/js/plugins/*.js',
+            '_source/js/_*.js'
           ]
         }
+      }
+    },
+    imagemin: {
+      dist: {
+        options: {
+          optimizationLevel: 7,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: '_source/images/',
+          src: '{,*/}*.{png,jpg,jpeg}',
+          dest: '_source/images/'
+        }]
       }
     },
     imgcompress: {
@@ -69,54 +152,22 @@ module.exports = function(grunt) {
         }]
       }
     },
-    watch: {
-      less: {
-        files: [
-          '_source/_assets/less/*.less'
-        ],
-        tasks: ['recess', 'cssmin']
-      },
-      js: {
-        files: [
-          '<%= jshint.all %>'
-        ],
-        tasks: ['uglify']
-      }
-    },
-    clean: {
-      dist: [
-        '_source/_assets/css/main.min.css',
-        '_source/_assets/js/main.min.js'
-      ]
-    }
   });
 
   // Load tasks
-  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-recess');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-newer');
   grunt.loadNpmTasks('grunt-imgcompress');
 
   // Register tasks
-  grunt.registerTask('default', [
-    'clean',
-    'recess',
-    'cssmin',
-    'uglify',
-    'imgcompress',
-    'svgmin'
-  ]);
-  grunt.registerTask('dev', [
-    'watch',
-    'clean',
-    'recess',
-    'cssmin',
-    'uglify',
-  ]);
+  grunt.registerTask('default', ['jshint', 'uglify']);
+  grunt.registerTask('serve', ['shell', 'connect', 'watch']);
+  grunt.registerTask('optimize', ['imgcompress', 'svgmin']);
 
 };

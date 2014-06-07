@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Light blue hoodies"
-description: "PaperFaces portrait of @hotdogwithsauce drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @hotdogwithsauce drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hotdogwithsauce-twitter-lg.jpg
   thumb: paperfaces-hotdogwithsauce-twitter-150.jpg

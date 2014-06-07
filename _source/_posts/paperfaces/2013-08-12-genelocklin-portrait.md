@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dramatic mustache"
-description: "PaperFaces portrait of @genelocklin drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @genelocklin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-genelocklin-twitter-lg.jpg
   thumb: paperfaces-genelocklin-twitter-150.jpg

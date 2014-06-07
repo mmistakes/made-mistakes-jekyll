@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "White hair"
-description: "PaperFaces portrait of @Sprinkles68 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Sprinkles68 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sprinkles68-twitter-lg.jpg
   thumb: paperfaces-sprinkles68-twitter-150.jpg

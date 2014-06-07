@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Plaid in glasses"
-description: "PaperFaces portrait of @fra_cek drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @fra_cek drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fra-cek-twitter-lg.jpg
   thumb: paperfaces-fra-cek-twitter-150.jpg

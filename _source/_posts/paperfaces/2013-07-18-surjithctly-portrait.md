@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Trading drawings for a feature"
-description: "PaperFaces portrait of @surjithctly drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @surjithctly drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-surjithctly-twitter-lg.jpg
   thumb: paperfaces-surjithctly-twitter-150.jpg

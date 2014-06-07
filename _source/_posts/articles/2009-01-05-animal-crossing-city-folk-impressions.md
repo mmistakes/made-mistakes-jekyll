@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: article
 title: "Those City Folk in Animal Crossing Still Love the Gossip"
-description: "Some things never change, a lengthy review of Animal Crossing City Folk."
+excerpt: "Some things never change, a lengthy review of Animal Crossing City Folk."
 modified: 2013-05-03
 category: articles
 image: 
   feature: animal-crossing-stuck-in-hole.jpg
-  small: animal-crossing-stuck-in-hole-340x100.jpg
+  teaser: animal-crossing-teaser.jpg
   thumb: animal-crossing-me-wendy-thumb.jpg
 tags: [Nintendo, Wii, video games, review]
 ---

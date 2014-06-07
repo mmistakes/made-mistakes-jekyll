@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Red sweatshirt, I think"
-description: "PaperFaces portrait of @alxknt drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @alxknt drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-alxknt-twitter-lg.jpg
   thumb: paperfaces-alxknt-twitter-150.jpg

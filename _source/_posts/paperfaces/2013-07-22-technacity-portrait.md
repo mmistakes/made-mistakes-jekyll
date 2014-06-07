@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long walks on the beach"
-description: "PaperFaces portrait of @technacity drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @technacity drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-technacity-twitter-lg.jpg
   thumb: paperfaces-technacity-twitter-150.jpg

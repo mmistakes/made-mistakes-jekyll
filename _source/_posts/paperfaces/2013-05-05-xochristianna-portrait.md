@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dressed up all fancy"
-description: "PaperFaces portrait of @xochristianna drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @xochristianna drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-xochristianna-twitter-lg.jpg
   thumb: paperfaces-xochristianna-twitter-150.jpg

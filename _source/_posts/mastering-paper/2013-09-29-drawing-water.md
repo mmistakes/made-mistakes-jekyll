@@ -1,21 +1,19 @@
 ---
-layout: post
+layout: article
 title: "Mastering Paper by 53: Drawing Water and Waves"
-description: "Learn techniques for drawing water and waves using the iPad app Paper by 53."
+excerpt: "Learn techniques for drawing water and waves using the iPad app Paper by 53."
 modified: 2014-04-10
 image: 
   feature: paper-53-water-guide-feature.jpg
+  teaser: paper-53-water-guide-teaser.jpg
   thumb: paper-53-water-guide-thumb.jpg
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, water, waves]
-series: mastering-paper
 comments: true
+toc: true
 ---
 
 Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
-
-* Table of Contents
-{:toc}
 
 ### Mixing the Water
 
@@ -84,7 +82,7 @@ Depending on the intensity of the waves this next step can be omitted. For large
 	<figcaption>Using the photo on the left as a reference, look for the large white areas of a wave and underpaint there. The finished result is on the right.</figcaption>
 </figure>
 
-## Waves, It's All in the Details
+## Waves, It's in the Details
 
 With a solid foundation set, it's time to add the finishing spit and polish to our waves. Select the pencil tool and fill it with the same blue we used to base coat the water. It doesn't have to be an exact match if you didn't save the color in your palette, just something close is all that's needed.
 
@@ -135,7 +133,7 @@ Boom! And we're done. Combined with a blue sky from my previous guide and you'll
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished waterscapes to show what is possible just by varying the color and composition.
 
-<ul class="recent-grid">
+<ul class="th-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{{ site.url }}{% post_url /paperfaces/2013-05-31-bradersk8r-portrait %}"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>

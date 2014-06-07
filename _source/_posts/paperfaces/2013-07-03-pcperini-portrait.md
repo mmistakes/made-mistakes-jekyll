@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Ghost faces by spiraling staircases"
-description: "PaperFaces portrait of @pcperini drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @pcperini drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pcperini-twitter-lg.jpg
   thumb: paperfaces-pcperini-twitter-150.jpg

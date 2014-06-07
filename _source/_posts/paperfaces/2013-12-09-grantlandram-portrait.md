@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Grayscale and Pencil and Blend oh my!"
-description: "PaperFaces portrait of @GrantLandram drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @GrantLandram drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-grantlandram-twitter-lg.jpg
   thumb: paperfaces-grantlandram-twitter-150.jpg

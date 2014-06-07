@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hold up your iPhone in honor of iOS 7"
-description: "PaperFaces portrait of @agebhard drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @agebhard drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-agebhard-twitter-lg.jpg
   thumb: paperfaces-agebhard-twitter-150.jpg

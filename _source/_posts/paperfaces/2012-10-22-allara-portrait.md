@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In gray on a bridge in the wilderness"
-description: "PaperFaces portrait of @allara drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @allara drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-allara-twitter-lg.jpg
   thumb: paperfaces-allara-twitter-150.jpg

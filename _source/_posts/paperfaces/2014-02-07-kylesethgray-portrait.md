@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Eyes that pierce"
-description: "PaperFaces portrait of @kylesethgray drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kylesethgray drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kylesethgray-twitter-lg.jpg
   thumb: paperfaces-kylesethgray-twitter-150.jpg

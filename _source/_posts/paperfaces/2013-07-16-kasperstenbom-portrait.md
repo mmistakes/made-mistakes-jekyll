@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Another eye and half face"
-description: "PaperFaces portrait of @KasperStenbom drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @KasperStenbom drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kasperstenbom-twitter-lg.jpg
   thumb: paperfaces-kasperstenbom-twitter-150.jpg

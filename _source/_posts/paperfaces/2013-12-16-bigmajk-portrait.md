@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Movember is over"
-description: "PaperFaces portrait of @BigMajk drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @BigMajk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bigmajk-twitter-lg.jpg
   thumb: paperfaces-bigmajk-twitter-150.jpg

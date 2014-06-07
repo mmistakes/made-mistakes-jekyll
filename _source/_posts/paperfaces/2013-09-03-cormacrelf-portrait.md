@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "It's hard to stare without eyes"
-description: "PaperFaces portrait of @cormacrelf drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cormacrelf drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cormacrelf-twitter-lg.jpg
   thumb: paperfaces-cormacrelf-twitter-150.jpg

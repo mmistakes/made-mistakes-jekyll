@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A gray day"
-description: "PaperFaces portrait of @tommysadlr drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tommysadlr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tommysadlr-twitter-lg.jpg
   thumb: paperfaces-tommysadlr-twitter-150.jpg

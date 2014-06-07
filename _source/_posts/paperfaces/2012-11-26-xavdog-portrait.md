@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Standing in front of wood paneling"
-description: "PaperFaces portrait of @xavdog drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @xavdog drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-xavdog-twitter-lg.jpg
   thumb: paperfaces-xavdog-twitter-150.jpg

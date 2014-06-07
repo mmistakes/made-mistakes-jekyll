@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "All suited up"
-description: "PaperFaces portrait of @faresf drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @faresf drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-faresf-twitter-lg.jpg
   thumb: paperfaces-faresf-twitter-150.jpg

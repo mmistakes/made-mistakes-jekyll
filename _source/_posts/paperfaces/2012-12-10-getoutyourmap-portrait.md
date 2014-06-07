@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Wearing a green knit hat"
-description: "PaperFaces portrait of @getoutyourmap drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @getoutyourmap drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-getoutyourmap-twitter-lg.jpg
   thumb: paperfaces-getoutyourmap-twitter-150.jpg

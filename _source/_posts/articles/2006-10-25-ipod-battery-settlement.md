@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: article
 title: "iPod Battery Settlement Program Status"
-description: "A short update on the status of my iPod 3G battery settlement claim."
+excerpt: "A short update on the status of my iPod 3G battery settlement claim."
 category: articles
 tags: [settlement, Apple, tech geek]
 ---

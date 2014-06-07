@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Thinking"
-description: "PaperFaces portrait of @mstrandberg drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mstrandberg drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mstrandberg-twitter-lg.jpg
   thumb: paperfaces-mstrandberg-twitter-150.jpg

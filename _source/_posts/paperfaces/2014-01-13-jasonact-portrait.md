@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Overhead halo"
-description: "PaperFaces portrait of @jasonact drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jasonact drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jasonact-twitter-lg.jpg
   thumb: paperfaces-jasonact-twitter-150.jpg

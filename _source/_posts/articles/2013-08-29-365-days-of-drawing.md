@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: article
 title: "365 Days of Drawing Faces"
-description: "Year one of my 365 day portrait project may be over, but I'm just getting started."
+excerpt: "Year one of my 365 day portrait project may be over, but I'm just getting started."
 image: 
   feature: paperfaces-476-portraits-lg.jpg
+  teaser: paperfaces-476-portraits-teaser.jpg
   thumb: paperfaces-476-portraits-thumb.jpg
 category: articles
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]

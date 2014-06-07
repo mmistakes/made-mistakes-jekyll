@@ -1,10 +1,9 @@
 ---
-layout: post
+layout: article
 title: "Impressions of iPhone 4 from a Long Time Palm User"
-description: "The following are some of my experiences and observations transitioning from Palm to iOS after nearly 10 years of baggage."
+excerpt: "The following are some of my experiences and observations transitioning from Palm to iOS after nearly 10 years of baggage."
 category: articles
 image: 
-  small: mademistakes-340x100.jpg
   thumb: iphone4-impressions-340x340.jpg
 tags: [iPhone, Apple, Palm Pre, review, tech geek]
 ---

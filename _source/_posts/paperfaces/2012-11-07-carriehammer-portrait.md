@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair in grayscale"
-description: "PaperFaces portrait of @carriehammer drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @carriehammer drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-carriehammer-twitter-lg.jpg
   thumb: paperfaces-carriehammer-twitter-150.jpg

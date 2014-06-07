@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dolphin whisperer"
-description: "PaperFaces portrait of Hugo S. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Hugo S. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hugo-s-lg.jpg
   thumb: paperfaces-hugo-s-150.jpg

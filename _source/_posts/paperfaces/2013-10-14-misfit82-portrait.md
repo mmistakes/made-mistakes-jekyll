@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "I want your skulls"
-description: "PaperFaces portrait of @misfit82 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @misfit82 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-misfit82-twitter-lg.jpg
   thumb: paperfaces-misfit82-twitter-150.jpg

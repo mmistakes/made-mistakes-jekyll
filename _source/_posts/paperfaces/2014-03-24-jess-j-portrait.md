@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Red glow"
-description: "PaperFaces portrait of a Jess J. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Jess J. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jess-j-lg.jpg
   thumb: paperfaces-jess-j-150.jpg

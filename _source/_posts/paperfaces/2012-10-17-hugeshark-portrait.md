@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Short hair, pink bangs"
-description: "PaperFaces portrait of @hugeshark drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @hugeshark drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hugeshark-twitter-lg.jpg
   thumb: paperfaces-hugeshark-twitter-150.jpg

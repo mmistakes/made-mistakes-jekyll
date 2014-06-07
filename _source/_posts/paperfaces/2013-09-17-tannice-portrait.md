@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hair in braids"
-description: "PaperFaces portrait of @Tannice_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Tannice_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tannice-twitter-lg.jpg
   thumb: paperfaces-tannice-twitter-150.jpg

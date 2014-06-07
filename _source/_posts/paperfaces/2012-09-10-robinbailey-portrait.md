@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white with the city making lights"
-description: "PaperFaces portrait of @RobinBailey drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @RobinBailey drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-robinbailey-twitter-lg.jpg
   thumb: paperfaces-robinbailey-twitter-150.jpg

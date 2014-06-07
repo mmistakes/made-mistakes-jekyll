@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Lean back and relax"
-description: "PaperFaces portrait of @brototyp drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @brototyp drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-brototyp-twitter-lg.jpg
   thumb: paperfaces-brototyp-twitter-150.jpg

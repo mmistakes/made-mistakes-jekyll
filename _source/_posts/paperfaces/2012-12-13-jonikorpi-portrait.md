@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Looking at a mobile device intensely"
-description: "PaperFaces portrait of @jonikorpi drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jonikorpi drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jonikorpi-twitter-lg.jpg
   thumb: paperfaces-jonikorpi-twitter-150.jpg

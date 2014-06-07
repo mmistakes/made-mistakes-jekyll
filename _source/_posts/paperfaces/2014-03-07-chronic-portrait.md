@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Suit doesn't match the name"
-description: "PaperFaces portrait of @chronic drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @chronic drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chronic-twitter-lg.jpg
   thumb: paperfaces-chronic-twitter-150.jpg

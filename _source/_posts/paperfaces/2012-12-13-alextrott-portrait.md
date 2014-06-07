@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sitting in the dark wearing a hoodie"
-description: "PaperFaces portrait of @alextrott_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @alextrott_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-alextrott-twitter-lg.jpg
   thumb: paperfaces-alextrott-twitter-150.jpg

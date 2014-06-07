@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Girl with the curl, and some ducks"
-description: "PaperFaces portrait of @ladygeekgeek drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ladygeekgeek drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ladygeekgeek-twitter-lg.jpg
   thumb: paperfaces-ladygeekgeek-twitter-150.jpg

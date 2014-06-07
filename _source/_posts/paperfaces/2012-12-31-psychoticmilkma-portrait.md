@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Raiden wins. Flawless victory!"
-description: "PaperFaces portrait of @psychoticmilkma drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @psychoticmilkma drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-psychoticmilkma-twitter-lg.jpg
   thumb: paperfaces-psychoticmilkma-twitter-150.jpg

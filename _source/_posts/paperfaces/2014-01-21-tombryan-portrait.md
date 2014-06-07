@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black cap"
-description: "PaperFaces portrait of @tombryan drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tombryan drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tombryan-twitter-lg.jpg
   thumb: paperfaces-tombryan-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sitting in gray"
-description: "PaperFaces portrait of @paulmwatson drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @paulmwatson drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-paulmwatson-twitter-lg.jpg
   thumb: paperfaces-paulmwatson-twitter-150.jpg

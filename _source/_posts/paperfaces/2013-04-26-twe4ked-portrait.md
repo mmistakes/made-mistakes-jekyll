@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Faux pipe smoking in a sweet hat"
-description: "PaperFaces portrait of @twe4ked drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @twe4ked drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-twe4ked-twitter-lg.jpg
   thumb: paperfaces-twe4ked-twitter-150.jpg

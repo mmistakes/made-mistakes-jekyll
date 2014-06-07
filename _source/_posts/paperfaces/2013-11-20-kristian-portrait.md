@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Drawing in the shadows"
-description: "PaperFaces portrait of @kristian drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kristian drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kristian-twitter-lg.jpg
   thumb: paperfaces-kristian-twitter-150.jpg

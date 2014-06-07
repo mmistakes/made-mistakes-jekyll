@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A Mother's Day PaperFaces portrait of @veganwendy"
-description: "PaperFaces portrait of new mom @veganwendy and twin girls for Mother's Day."
+excerpt: "PaperFaces portrait of new mom @veganwendy and twin girls for Mother's Day."
 image: 
   feature: paperfaces-veganwendy-mothers-day-lg.jpg
   thumb: paperfaces-veganwendy-mothers-day-150.jpg

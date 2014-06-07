@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Only God Forgives"
-description: "PaperFaces portrait of Ryan Gosling drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Ryan Gosling drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ryan-gosling-lg.jpg
   thumb: paperfaces-ryan-gosling-150.jpg

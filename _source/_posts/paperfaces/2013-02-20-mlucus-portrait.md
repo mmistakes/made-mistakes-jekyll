@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blonde up against a dark red background"
-description: "PaperFaces portrait of @mlucus drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mlucus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mlucus-twitter-lg.jpg
   thumb: paperfaces-mlucus-twitter-150.jpg

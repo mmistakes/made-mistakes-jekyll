@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A birthday bokeh"
-description: "PaperFaces portrait of @veganwendy for her birthday drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @veganwendy for her birthday drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-veganwendy-birthday-twitter-lg.jpg
   thumb: paperfaces-veganwendy-birthday-twitter-150.jpg

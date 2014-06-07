@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bacon mustached"
-description: "PaperFaces portrait of @kilsey drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kilsey drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kilsey-twitter-lg.jpg
   thumb: paperfaces-kilsey-twitter-150.jpg

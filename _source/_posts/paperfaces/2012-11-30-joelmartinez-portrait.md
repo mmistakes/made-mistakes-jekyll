@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sweaters in office cubes"
-description: "PaperFaces portrait of @joelmartinez drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @joelmartinez drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joelmartinez-twitter-lg.jpg
   thumb: paperfaces-joelmartinez-twitter-150.jpg

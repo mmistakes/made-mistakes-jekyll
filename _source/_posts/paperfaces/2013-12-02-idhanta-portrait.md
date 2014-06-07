@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Painterly orange wall"
-description: "PaperFaces portrait of @idhanta drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @idhanta drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-idhanta-twitter-lg.jpg
   thumb: paperfaces-idhanta-twitter-150.jpg

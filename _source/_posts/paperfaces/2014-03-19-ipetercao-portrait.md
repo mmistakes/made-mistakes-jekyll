@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "King of pop"
-description: "PaperFaces portrait of @iPeterCao drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @iPeterCao drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ipetercao-twitter-lg.jpg
   thumb: paperfaces-ipetercao-twitter-150.jpg

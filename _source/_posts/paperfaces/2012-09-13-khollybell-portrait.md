@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hiding behind a decorative fan"
-description: "PaperFaces portrait of @khollybell drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @khollybell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-khollybell-twitter-lg.jpg
   thumb: paperfaces-khollybell-twitter-150.jpg

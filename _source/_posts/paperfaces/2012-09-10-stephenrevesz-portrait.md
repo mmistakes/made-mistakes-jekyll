@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "FIU banners away"
-description: "PaperFaces portrait of @stephenrevesz drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @stephenrevesz drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-stephenrevesz-twitter-lg.jpg
   thumb: paperfaces-stephenrevesz-twitter-150.jpg

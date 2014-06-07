@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Intense eye"
-description: "PaperFaces portrait of @rdraether drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rdraether drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rdraether-twitter-lg.jpg
   thumb: paperfaces-rdraether-twitter-150.jpg

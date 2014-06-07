@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Warm Face"
-description: "PaperFaces portrait of Scarlett Johansson drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Scarlett Johansson drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-scarlett-johansson-lg.jpg
   thumb: paperfaces-scarlett-johansson-150.jpg

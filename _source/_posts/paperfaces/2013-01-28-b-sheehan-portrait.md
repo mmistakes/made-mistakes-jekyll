@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Fire fighter"
-description: "PaperFaces portrait of @B_Sheehan drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @B_Sheehan drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-b-sheehan-twitter-lg.jpg
   thumb: paperfaces-b-sheehan-twitter-150.jpg

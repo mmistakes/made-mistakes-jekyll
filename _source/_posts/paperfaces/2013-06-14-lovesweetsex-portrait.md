@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blanket party with puppy"
-description: "PaperFaces portrait of @lovesweetsex drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lovesweetsex drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lovesweetsex-twitter-lg.jpg
   thumb: paperfaces-lovesweetsex-twitter-150.jpg

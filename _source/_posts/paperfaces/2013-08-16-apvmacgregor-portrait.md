@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Back to drawing color"
-description: "PaperFaces portrait of @apvmacgregor drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @apvmacgregor drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-apvmacgregor-twitter-lg.jpg
   thumb: paperfaces-apvmacgregor-twitter-150.jpg

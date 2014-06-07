@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A pixelated hoodie and face"
-description: "PaperFaces portrait of @Glitchpoke drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Glitchpoke drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-glitchpoke-twitter-lg.jpg
   thumb: paperfaces-glitchpoke-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A couple"
-description: "PaperFaces portrait of @mattlawton87 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mattlawton87 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mattlawton87-twitter-lg.jpg
   thumb: paperfaces-mattlawton87-twitter-150.jpg

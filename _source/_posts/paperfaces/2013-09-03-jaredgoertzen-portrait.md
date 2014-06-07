@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "America Eff Yeah!"
-description: "PaperFaces portrait of @jaredgoertzen drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jaredgoertzen drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jaredgoertzen-twitter-lg.jpg
   thumb: paperfaces-jaredgoertzen-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Wind blowing blue green skies"
-description: "PaperFaces portrait of @joelmartinez drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @joelmartinez drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joelmartinez-2-twitter-lg.jpg
   thumb: paperfaces-joelmartinez-2-twitter-150.jpg

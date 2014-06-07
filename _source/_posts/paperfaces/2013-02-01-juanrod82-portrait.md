@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Happy couple and their two dogs"
-description: "PaperFaces portrait of @juanrod82 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @juanrod82 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-juanrod82-twitter-lg.jpg
   thumb: paperfaces-juanrod82-twitter-150.jpg

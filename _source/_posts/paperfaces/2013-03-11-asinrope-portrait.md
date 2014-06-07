@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Tight winter hat"
-description: "PaperFaces portrait of @asinrope drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @asinrope drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-asinrope-twitter-lg.jpg
   thumb: paperfaces-asinrope-twitter-150.jpg

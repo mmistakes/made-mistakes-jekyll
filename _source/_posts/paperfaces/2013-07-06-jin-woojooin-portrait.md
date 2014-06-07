@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Holding a bottle by a wall of orange light"
-description: "PaperFaces portrait of @JIN_woojooin drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @JIN_woojooin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jin-woojooin-twitter-lg.jpg
   thumb: paperfaces-jin-woojooin-twitter-150.jpg

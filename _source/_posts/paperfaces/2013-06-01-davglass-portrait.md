@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Work shirting it"
-description: "PaperFaces portrait of @davglass drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @davglass drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-davglass-twitter-lg.jpg
   thumb: paperfaces-davglass-twitter-150.jpg

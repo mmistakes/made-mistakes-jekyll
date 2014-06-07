@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Oink oink, blue pig mask"
-description: "PaperFaces portrait of @mike_FTW drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mike_FTW drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mike-ftw-twitter-lg.jpg
   thumb: paperfaces-mike-ftw-twitter-150.jpg

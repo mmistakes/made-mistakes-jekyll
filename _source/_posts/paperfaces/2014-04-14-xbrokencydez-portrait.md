@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Spelling mistakes"
-description: "PaperFaces portrait of @xbrokencydez drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @xbrokencydez drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-xbrokencydez-twitter-lg.jpg
   thumb: paperfaces-xbrokencydez-twitter-150.jpg

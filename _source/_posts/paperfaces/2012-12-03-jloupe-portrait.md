@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In front of a face"
-description: "PaperFaces portrait of @jloupe drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jloupe drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jloupe-twitter-lg.jpg
   thumb: paperfaces-jloupe-twitter-150.jpg

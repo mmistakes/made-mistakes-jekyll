@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Couple in front of water"
-description: "PaperFaces portrait of @jamesonroot drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jamesonroot drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jamesonroot-twitter-lg.jpg
   thumb: paperfaces-jamesonroot-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Look up, the sky is falling"
-description: "PaperFaces portrait of @jmkcc drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jmkcc drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jmkcc-twitter-lg.jpg
   thumb: paperfaces-jmkcc-twitter-150.jpg

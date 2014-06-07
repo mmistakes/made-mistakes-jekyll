@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "That old time photo look"
-description: "PaperFaces portrait of @chrishnry drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @chrishnry drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chrishnry-twitter-lg.jpg
   thumb: paperfaces-chrishnry-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Glasses wearing v-neck"
-description: "PaperFaces portrait of @jonarnold drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jonarnold drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jonarnold-twitter-lg.jpg
   thumb: paperfaces-jonarnold-twitter-150.jpg

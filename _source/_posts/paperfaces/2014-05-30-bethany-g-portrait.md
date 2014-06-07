@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sass in shadow"
-description: "PaperFaces portrait of a Bethany G. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Bethany G. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bethany-g-lg.jpg
   thumb: paperfaces-bethany-g-150.jpg

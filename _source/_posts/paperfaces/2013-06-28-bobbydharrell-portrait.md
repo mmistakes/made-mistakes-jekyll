@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hats in a car"
-description: "PaperFaces portrait of @bobbydharrell drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bobbydharrell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bobbydharrell-twitter-lg.jpg
   thumb: paperfaces-bobbydharrell-twitter-150.jpg

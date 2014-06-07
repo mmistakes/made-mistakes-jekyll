@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Pew Pew Pew!"
-description: "PaperFaces portrait of @NatRaybould drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @NatRaybould drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-natraybould-twitter-lg.jpg
   thumb: paperfaces-natraybould-twitter-150.jpg

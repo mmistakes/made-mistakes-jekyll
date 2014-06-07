@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "That weathered look"
-description: "PaperFaces portrait of Daniel W. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Daniel W. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-daniel-w-lg.jpg
   thumb: paperfaces-daniel-w-150.jpg

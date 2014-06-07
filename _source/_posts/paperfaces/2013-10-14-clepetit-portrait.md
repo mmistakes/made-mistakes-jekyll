@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Balance is everything"
-description: "PaperFaces portrait of @clepetit drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @clepetit drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-clepetit-twitter-lg.jpg
   thumb: paperfaces-clepetit-twitter-150.jpg

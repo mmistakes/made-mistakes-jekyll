@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Grinning in front of a red curtain"
-description: "PaperFaces portrait of @JeffChausse drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @JeffChausse drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jeffchausse-twitter-lg.jpg
   thumb: paperfaces-jeffchausse-twitter-150.jpg

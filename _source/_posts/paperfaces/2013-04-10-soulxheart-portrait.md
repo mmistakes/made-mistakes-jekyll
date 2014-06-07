@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Glasses wearing a pair of headphones"
-description: "PaperFaces portrait of @soulxheart drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @soulxheart drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-soulxheart-twitter-lg.jpg
   thumb: paperfaces-soulxheart-twitter-150.jpg

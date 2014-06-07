@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Scattering light through a hat"
-description: "PaperFaces portrait of @comicasuperhero drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @comicasuperhero drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-comicasuperhero-twitter-lg.jpg
   thumb: paperfaces-comicasuperhero-twitter-150.jpg

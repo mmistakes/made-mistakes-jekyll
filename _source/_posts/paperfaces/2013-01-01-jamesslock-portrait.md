@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Swallow neck tattoos and glasses"
-description: "PaperFaces portrait of @jamesslock drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jamesslock drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jamesslock-twitter-lg.jpg
   thumb: paperfaces-jamesslock-twitter-150.jpg

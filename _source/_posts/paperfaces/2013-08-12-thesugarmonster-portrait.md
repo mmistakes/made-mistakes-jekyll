@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Summer popsicle"
-description: "PaperFaces portrait of @thesugarmonster drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @thesugarmonster drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thesugarmonster-twitter-lg.jpg
   thumb: paperfaces-thesugarmonster-twitter-150.jpg

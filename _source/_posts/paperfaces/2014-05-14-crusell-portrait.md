@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Scarf and blazer"
-description: "PaperFaces portrait of @crusell drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @crusell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-crusell-twitter-lg.jpg
   thumb: paperfaces-crusell-twitter-150.jpg

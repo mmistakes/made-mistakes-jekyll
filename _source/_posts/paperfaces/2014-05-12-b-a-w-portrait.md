@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Flipped lid"
-description: "PaperFaces portrait of @B_A_W drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @B_A_W drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-b-a-w-twitter-lg.jpg
   thumb: paperfaces-b-a-w-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Drinking wine in an argyle sweater"
-description: "PaperFaces portrait of @jkusunoki drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jkusunoki drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jkusunoki-twitter-lg.jpg
   thumb: paperfaces-jkusunoki-twitter-150.jpg

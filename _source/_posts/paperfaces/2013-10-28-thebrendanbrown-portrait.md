@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Geometry down the hall"
-description: "PaperFaces portrait of @TheBrendanBrown drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @TheBrendanBrown drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thebrendanbrown-twitter-lg.jpg
   thumb: paperfaces-thebrendanbrown-twitter-150.jpg

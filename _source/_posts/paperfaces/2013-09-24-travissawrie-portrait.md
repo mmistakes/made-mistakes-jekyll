@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Wrapped around"
-description: "PaperFaces portrait of @travissawrie drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @travissawrie drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-travissawrie-twitter-lg.jpg
   thumb: paperfaces-travissawrie-twitter-150.jpg

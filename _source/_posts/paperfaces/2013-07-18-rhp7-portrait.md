@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A face of pixels"
-description: "PaperFaces portrait of @rhp7 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rhp7 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rhp7-twitter-lg.jpg
   thumb: paperfaces-rhp7-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Front faced gaze"
-description: "PaperFaces portrait of Lorenzo Raffio drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Lorenzo Raffio drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lorenzo-raffio-lg.jpg
   thumb: paperfaces-lorenzo-raffio-150.jpg

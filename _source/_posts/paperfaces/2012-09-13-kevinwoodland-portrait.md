@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dramatic plaid angle"
-description: "PaperFaces portrait of @kevinwoodland drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kevinwoodland drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kevinwoodland-twitter-lg.jpg
   thumb: paperfaces-kevinwoodland-twitter-150.jpg

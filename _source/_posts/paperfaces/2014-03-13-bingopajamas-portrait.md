@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Car ride reflections"
-description: "PaperFaces portrait of @bingopajamas drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bingopajamas drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bingopajamas-twitter-lg.jpg
   thumb: paperfaces-bingopajamas-twitter-150.jpg

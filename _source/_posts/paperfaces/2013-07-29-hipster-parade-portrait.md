@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A gaggle of big headed hipsters"
-description: "PaperFaces portrait of some random hipsters drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of some random hipsters drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hipsters-lg.jpg
   thumb: paperfaces-hipsters-150.jpg

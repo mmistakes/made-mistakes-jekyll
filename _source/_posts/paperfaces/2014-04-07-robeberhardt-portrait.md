@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blank stare"
-description: "PaperFaces portrait of @robeberhardt drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @robeberhardt drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-robeberhardt-twitter-lg.jpg
   thumb: paperfaces-robeberhardt-twitter-150.jpg

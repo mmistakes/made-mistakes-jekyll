@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Spiderwebs and dew drops"
-description: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tati-lg.jpg
   thumb: paperfaces-tati-150.jpg

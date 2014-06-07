@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "&#147;Die, Jedi, die!&#148;"
-description: "PaperFaces portrait Darth Maul drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Darth Maul drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-darth-maul-lg.jpg
   thumb: paperfaces-darth-maul-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Little one x2"
-description: "PaperFaces portrait of one month old twins drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of one month old twins drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sophia-matilde-lg.jpg
   thumb: paperfaces-sophia-matilde-150.jpg

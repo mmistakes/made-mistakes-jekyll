@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Cyborg"
-description: "PaperFaces portrait of @netzmensch drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @netzmensch drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-netzmensch-twitter-lg.jpg
   thumb: paperfaces-netzmensch-twitter-150.jpg

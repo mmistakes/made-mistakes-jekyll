@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Pondering"
-description: "PaperFaces portrait of @olucho drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @olucho drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-olucho-twitter-lg.jpg
   thumb: paperfaces-olucho-twitter-150.jpg

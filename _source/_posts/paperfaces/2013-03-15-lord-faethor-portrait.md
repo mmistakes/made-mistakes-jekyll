@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Don't I know this guy from somewhere..."
-description: "PaperFaces portrait of @Lord_Faethor drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Lord_Faethor drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lord-faethor-twitter-lg.jpg
   thumb: paperfaces-lord-faethor-twitter-150.jpg

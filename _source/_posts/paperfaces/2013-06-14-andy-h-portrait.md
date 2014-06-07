@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Eye eye captain"
-description: "PaperFaces portrait of @_andy_h_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @_andy_h_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-andy-h-twitter-lg.jpg
   thumb: paperfaces-andy-h-twitter-150.jpg

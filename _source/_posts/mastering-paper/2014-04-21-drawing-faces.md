@@ -1,14 +1,15 @@
 ---
-layout: post
+layout: article
 title: "Mastering Paper by 53: Drawing Skin and Faces (Revisited)"
-description: "Learn techniques for drawing and painting faces using the iPad app Paper by 53."
+excerpt: "Learn techniques for drawing and painting faces using the iPad app Paper by 53."
 image: 
   feature: paper-53-faces-feature.jpg
+  teaser: paper-53-faces-teaser.jpg
   thumb: paper-53-faces-thumb.jpg
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, portrait, skin]
-series: mastering-paper
 comments: true
+toc: true
 ---
 
 Portraiture is at the heart of what I use Paper by FiftyThree to create with. After drawing over 700 faces some might think it would be easy for me to share my process and techniques --- they would be wrong. After struggling writing this guide for the last month, I think I finally shaped it in a way that makes sense.
@@ -22,9 +23,6 @@ Like the other parts of my [Mastering Paper by 53 Guide]({{ site.url }}/masterin
 </figure>
 
 What this guide won't be is a lesson in human anatomy. You'd be better served [reading a book](http://www.amazon.com/gp/product/0399507914/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0399507914&linkCode=as2&tag=mademist-20) on the matter instead of me paraphrasing it for you. What I will do is explain the basics of drawing a face with Paper and how to get the most out of the app.
-
-* Table of Contents
-{:toc}
 
 ## Color Palettes for Skin
 
@@ -384,11 +382,11 @@ Depending on the subject I'll often apply a layer of contour hatching on top of 
 ## Wrap Up and What's Next
 {:.no_toc}
 
-My plan for the next guide was to [reboot a hair tutorial]({{ site.url }}{% post_url /articles/2013-05-10-how-to-draw-hair-paper-53 %}) I wrote a year ago, expanding on it to show more hair styles and facial hair techniques. But after finishing this lengthly tutorial it became clear to me there is still a lot I have to say with regards to #MadeWithPaper portrait techniques.
+My plan for the next guide was to [reboot a hair tutorial]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}) I wrote a year ago, expanding on it to show more hair styles and facial hair techniques. But after finishing this lengthly tutorial it became clear to me there is still a lot I have to say with regards to #MadeWithPaper portrait techniques.
 
 So how about this? Let me know in the comments below what you want to see next: **hair tutorials** or more portrait goodness like **how to draw realistic eyes, mouths, and more**.
 
-<ul class="oversized-recent-grid">
+<ul class="th-grid-full">
 {% for post in site.categories.paperfaces limit:8 %}
     <li>
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>

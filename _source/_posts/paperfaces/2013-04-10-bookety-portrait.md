@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Shag cut in plaid"
-description: "PaperFaces portrait of @Bookety drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Bookety drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bookety-twitter-lg.jpg
   thumb: paperfaces-bookety-twitter-150.jpg

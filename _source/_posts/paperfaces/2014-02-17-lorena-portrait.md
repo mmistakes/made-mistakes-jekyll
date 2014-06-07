@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A scenic view of The Mokes"
-description: "PaperFaces portrait of Lorena drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Lorena drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lorena-lg.jpg
   thumb: paperfaces-lorena-150.jpg

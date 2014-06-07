@@ -1,21 +1,19 @@
 ---
-layout: post
+layout: article
 title: "Mastering Paper by 53: Drawing Trees and Grass"
-description: "Learn techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper by 53."
+excerpt: "Learn techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper by 53."
 modified: 2014-04-10
 image: 
   feature: paper-53-trees-guide-feature.jpg
+  teaser: paper-53-trees-guide-teaser.jpg
   thumb: paper-53-trees-guide-thumb.jpg
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, trees, grass]
-series: mastering-paper
 comments: true
+toc: true
 ---
 
 Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({{ site.url }}{% post_url /work/2013-08-27-relic-scout %}), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
-
-* Table of Contents
-{:toc}
 
 ## Drawing Trees
 
@@ -56,7 +54,7 @@ Now it's time to start adding detail to the tree with highlights. Using a refere
 
 <div class="notice">
   <img src="{{ site.url }}/images/paper-53-leaf-highlight-swatch.png" alt="screenshot of yellow orange highlight color" class="image-right">
-  <p><i class="fa fa-star"></i> <strong>ProTip:</strong> If you&#8217;re having trouble mixing a highlight I like to start with a green from the leaf&#8217;s base, and add yellow. Yellow with orange mixed in also makes for a nice leaf highlight &#8212; note the example on the left.</p>
+  <span><i class="fa fa-star"></i> <strong>ProTip:</strong> If you&#8217;re having trouble mixing a highlight I like to start with a green from the leaf&#8217;s base, and add yellow. Yellow with orange mixed in also makes for a nice leaf highlight &#8212; note the example on the left.</span>
 </div>
 
 With our highlight color mixed, select the pencil tool and start lightly sketching small "scratchy" marks over the base coat. The more times you go over a pencil stroke, the more intense the color will get. Try not to overwork one area with the pencil, the key is to keep everything harmonious.
@@ -139,7 +137,7 @@ One final tip for creating depth is to paint over everything with light gray or 
 
 Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
 
-<ul class="recent-grid">
+<ul class="th-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-19-isellsoap-portrait %}"><img src="{{ site.url }}/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-02-thatmiddleway-portrait %}"><img src="{{ site.url }}/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-11-lmichelleinc-portrait %}"><img src="{{ site.url }}/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>

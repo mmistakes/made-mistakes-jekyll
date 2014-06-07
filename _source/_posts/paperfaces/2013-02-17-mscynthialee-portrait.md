@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long black hair and dark clothing"
-description: "PaperFaces portrait of @mscynthialee-ron drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mscynthialee-ron drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mscynthialee-twitter-lg.jpg
   thumb: paperfaces-mscynthialee-twitter-150.jpg

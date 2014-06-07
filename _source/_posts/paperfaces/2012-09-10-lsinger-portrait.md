@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white sir in dark shirt"
-description: "PaperFaces portrait of @lsinger drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lsinger drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lsinger-twitter-lg.jpg
   thumb: paperfaces-lsinger-twitter-150.jpg

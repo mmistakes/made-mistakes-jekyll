@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: article
 title: "Starting Young"
-description: "It was only natural the two little rosebuds would become early adopters of technology."
+excerpt: "It was only natural the two little rosebuds would become early adopters of technology."
 image: 
   feature: starting-young-feature.jpg
+  teaser: starting-young-teaser.jpg
   thumb: starting-young-thumb.jpg
 category: articles
 tags: [Paper by 53, drawing, technology, twins]

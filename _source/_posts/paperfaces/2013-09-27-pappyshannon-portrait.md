@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A pipe smoking velociraptor walks into a bar..."
-description: "PaperFaces portrait of @PappyShannon drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @PappyShannon drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pappyshannon-twitter-lg.jpg
   thumb: paperfaces-pappyshannon-twitter-150.jpg

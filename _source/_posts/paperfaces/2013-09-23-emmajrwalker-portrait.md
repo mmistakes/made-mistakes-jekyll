@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Peace sign"
-description: "PaperFaces portrait of @emmajrwalker drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @emmajrwalker drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-emmajrwalker-twitter-lg.jpg
   thumb: paperfaces-emmajrwalker-twitter-150.jpg

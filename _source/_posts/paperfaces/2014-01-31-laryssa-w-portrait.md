@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Peekaboo halved"
-description: "PaperFaces portrait of Laryssa W. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Laryssa W. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-laryssa-w-lg.jpg
   thumb: paperfaces-laryssa-w-150.jpg

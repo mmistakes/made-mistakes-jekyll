@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Life guard smoking a cigar"
-description: "PaperFaces portrait of @ajkonieckijr drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ajkonieckijr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ajkonieckijr-twitter-lg.jpg
   thumb: paperfaces-ajkonieckijr-twitter-150.jpg

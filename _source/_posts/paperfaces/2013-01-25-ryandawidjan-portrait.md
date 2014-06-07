@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Suit in a landscape"
-description: "PaperFaces portrait of @ryandawidjan drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ryandawidjan drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ryandawidjan-twitter-lg.jpg
   thumb: paperfaces-ryandawidjan-twitter-150.jpg

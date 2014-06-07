@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "On a boat!"
-description: "PaperFaces portrait of @eliglazier drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @eliglazier drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-eliglazier-twitter-lg.jpg
   thumb: paperfaces-eliglazier-twitter-150.jpg

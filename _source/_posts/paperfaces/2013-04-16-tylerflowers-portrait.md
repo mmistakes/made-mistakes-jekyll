@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Curly hair drawn in sepia tones"
-description: "PaperFaces portrait of @tylerflowers drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tylerflowers drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tylerflowers-twitter-lg.jpg
   thumb: paperfaces-tylerflowers-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white girl"
-description: "PaperFaces portrait of @karensd drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @karensd drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-karensd-twitter-lg.jpg
   thumb: paperfaces-karensd-twitter-150.jpg

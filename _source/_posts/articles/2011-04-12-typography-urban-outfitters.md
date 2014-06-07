@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: article
 title: "Typography No No's with Urban Outfitters"
-description: "The typography in Urban Outfitters latest catalog has some serious readability issues."
+excerpt: "The typography in Urban Outfitters latest catalog has some serious readability issues."
 category: articles
 modified: 2013-04-26
 image: 
   feature: UO11-spring-featured.jpg
-  small: UO11-spring-340x100.jpg
+  teaser: UO-spring11-teaser.jpg
   thumb: UO11-spring-thumb.jpg
 tags: [catalog, design, typography, critique, readability]
 ---

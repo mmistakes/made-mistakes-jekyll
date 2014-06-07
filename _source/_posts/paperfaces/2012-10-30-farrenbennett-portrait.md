@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Suit and tie against gray"
-description: "PaperFaces portrait of @farrenbennett drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @farrenbennett drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-farrenbennett-twitter-lg.jpg
   thumb: paperfaces-farrenbennett-twitter-150.jpg

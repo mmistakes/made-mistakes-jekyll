@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Thin stripes in gray"
-description: "PaperFaces portrait of @vinitkme drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @vinitkme drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-vinitkme-twitter-lg.jpg
   thumb: paperfaces-vinitkme-twitter-150.jpg

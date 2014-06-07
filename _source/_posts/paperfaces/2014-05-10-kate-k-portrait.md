@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hair in your eyes"
-description: "PaperFaces portrait of a Kate K. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Kate K. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kate-k-lg.jpg
   thumb: paperfaces-kate-k-150.jpg

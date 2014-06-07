@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "45 degree tilt"
-description: "PaperFaces portrait of a Rose L. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Rose L. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rose-l-lg.jpg
   thumb: paperfaces-rose-l-150.jpg

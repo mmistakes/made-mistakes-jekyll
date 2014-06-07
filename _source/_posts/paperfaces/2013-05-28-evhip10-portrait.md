@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Glowing glasses made from glowsticks"
-description: "PaperFaces portrait of @EvHip10 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @EvHip10 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-evhip10-twitter-lg.jpg
   thumb: paperfaces-evhip10-twitter-150.jpg

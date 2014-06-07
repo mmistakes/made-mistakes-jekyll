@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Collars up"
-description: "PaperFaces portrait of @reborg drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @reborg drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-reborg-twitter-lg.jpg
   thumb: paperfaces-reborg-twitter-150.jpg

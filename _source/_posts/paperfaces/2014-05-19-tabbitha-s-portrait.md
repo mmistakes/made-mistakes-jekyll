@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Live long and prosper"
-description: "PaperFaces portrait of a Tabbitha S. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Tabbitha S. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tabbitha-s-lg.jpg
   thumb: paperfaces-tabbitha-s-150.jpg

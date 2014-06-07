@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "For the flowers against pink"
-description: "PaperFaces portrait of Esty C. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Esty C. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-esty-c-twitter-lg.jpg
   thumb: paperfaces-esty-c-twitter-150.jpg

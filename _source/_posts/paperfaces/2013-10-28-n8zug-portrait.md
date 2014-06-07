@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "7 heads, 3 backsides, and one plumber's crack"
-description: "PaperFaces portrait of @n8zug drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @n8zug drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-n8zug-twitter-lg.jpg
   thumb: paperfaces-n8zug-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Can you find the penquin?"
-description: "PaperFaces portrait of @basbou drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @basbou drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-basbou-twitter-lg.jpg
   thumb: paperfaces-basbou-twitter-150.jpg

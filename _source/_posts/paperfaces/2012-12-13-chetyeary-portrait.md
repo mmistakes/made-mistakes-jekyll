@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Muted tones"
-description: "PaperFaces portrait of @chetyeary drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @chetyeary drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chetyeary-twitter-lg.jpg
   thumb: paperfaces-chetyeary-twitter-150.jpg

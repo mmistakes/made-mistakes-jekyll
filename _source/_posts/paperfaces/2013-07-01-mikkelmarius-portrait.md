@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Busy streets drawn less chaotic"
-description: "PaperFaces portrait of @mikkelmarius drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mikkelmarius drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mikkelmarius-twitter-lg.jpg
   thumb: paperfaces-mikkelmarius-twitter-150.jpg

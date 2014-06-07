@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white face in shadow"
-description: "PaperFaces portrait of @gattermann drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @gattermann drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-gattermann-twitter-lg.jpg
   thumb: paperfaces-gattermann-twitter-150.jpg

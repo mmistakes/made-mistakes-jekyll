@@ -1,15 +1,16 @@
 ---
-layout: work
+layout: media
 title: "Relic Scout"
-description: "Site design and creative for Relic Scout. An app to make collecting simpler, while saving you money."
+excerpt: "Site design and creative for Relic Scout. An app to make collecting simpler, while saving you money."
 image: 
   feature: relic-scout-home-feature.gif
-  homepage: relic-scout-500x500.png
+  teaser: relic-scout-teaser.png
   thumb: relic-scout-avatar.png
 category: work
 work:
   url: http://relicscout.com
 tags: [design, 8bit, website, collectibles]
+ads: false
 homepage: true
 ---
 
@@ -18,7 +19,7 @@ Eko Wave, a company started by [two](http://twitter.com/endonend) [pals](http://
 I had a lot of fun creating the 8bit pixel art and applying a parallax effect to it using the [jQuery plugin Plax](https://github.com/cameronmcefee/plax). If you collect sports cards, magic cards, coins, or comics, you really should check it out.
 
 <figure>
-	<img src="{{ site.url }}/images/relic-scout-browser-750.jpg" alt="Relic Scout homepage screenshot">
+	<a href="http://relicscout.com" target="_blank"><img src="{{ site.url }}/images/relic-scout-browser-750.jpg" alt="Relic Scout homepage screenshot"></a>
 	<figcaption>Relic Scout homepage</figcaption>
 </figure>
 

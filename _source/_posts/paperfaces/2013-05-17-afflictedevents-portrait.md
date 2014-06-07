@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Goatee reflected glasses"
-description: "PaperFaces portrait of @afflictedevents drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @afflictedevents drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-afflictedevents-twitter-lg.jpg
   thumb: paperfaces-afflictedevents-twitter-150.jpg

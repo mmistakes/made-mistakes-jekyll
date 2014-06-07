@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Low contrast is the best contrast"
-description: "PaperFaces portrait of @syropian drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @syropian drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-syropian-twitter-lg.jpg
   thumb: paperfaces-syropian-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Plaid against the wall"
-description: "PaperFaces portrait of @cleberwsantos drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cleberwsantos drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cleberwsantos-twitter-lg.jpg
   thumb: paperfaces-cleberwsantos-twitter-150.jpg

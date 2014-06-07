@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Shoulder riders"
-description: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-adammorgan100-3-twitter-lg.jpg
   thumb: paperfaces-adammorgan100-3-twitter-150.jpg

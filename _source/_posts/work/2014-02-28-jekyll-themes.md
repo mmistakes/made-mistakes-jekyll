@@ -1,11 +1,11 @@
 ---
-layout: work
+layout: media
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
-description: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
+excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
 image: 
   thumb: jekyll-themes-thumb-250x250.png
-  homepage: jekyll-themes-thumb-250x250.png
+  teaser: jekyll-themes-teaser.png
 category: work
 tags: [Jekyll, web development, open source, GitHub]
 homepage: true

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Painting contrast in gray"
-description: "PaperFaces portrait of @_Big_M_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @_Big_M_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-big-m-twitter-lg.jpg
   thumb: paperfaces-big-m-twitter-150.jpg

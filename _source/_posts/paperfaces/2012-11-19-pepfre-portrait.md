@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In a nice suit"
-description: "PaperFaces portrait of @pepfre drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @pepfre drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pepfre-twitter-lg.jpg
   thumb: paperfaces-pepfre-twitter-150.jpg

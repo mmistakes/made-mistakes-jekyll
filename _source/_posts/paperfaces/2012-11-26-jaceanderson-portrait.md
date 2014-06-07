@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Brick wall beards"
-description: "PaperFaces portrait of @jaceanderson drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jaceanderson drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jaceanderson-twitter-lg.jpg
   thumb: paperfaces-jaceanderson-twitter-150.jpg

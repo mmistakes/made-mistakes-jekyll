@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In a blue dress shirt"
-description: "PaperFaces portrait of @tarungangwani drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tarungangwani drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tarungangwani-twitter-lg.jpg
   thumb: paperfaces-tarungangwani-twitter-150.jpg

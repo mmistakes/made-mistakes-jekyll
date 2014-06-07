@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beard and black v-neck shirt"
-description: "PaperFaces portrait of @bradleyjp drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bradleyjp drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bradleyjp-twitter-lg.jpg
   thumb: paperfaces-bradleyjp-twitter-150.jpg

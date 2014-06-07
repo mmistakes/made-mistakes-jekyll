@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blue backgrounds"
-description: "PaperFaces portrait of @bengiroux drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bengiroux drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bengiroux-twitter-lg.jpg
   thumb: paperfaces-bengiroux-twitter-150.jpg

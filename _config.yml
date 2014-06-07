@@ -1,91 +1,59 @@
-title:            Made Mistakes
-tagline:          Design Faux Pas
-description:      "Personal website of designer slash illustrator Michael Rose."
-logo:             site-logo.png
-disqus_shortname: mmistakes
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://mademistakes.com
+# Site wide configuration
 
-# Owner/author information
-owner:
-  name:           Michael Rose
-  avatar:         michael-rose-photo.jpg
-  bio:            "Just another boring, tattooed, time traveling, designer hailing from Buffalo New York."
-  email:          michael@mademistakes.com
-  twitter:        "mmistakes"
-  instagram:      "mmistakes"
-  github:         "mmistakes"
-  facebook:       "michaelrose"
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+title: Made Mistakes
+description: "Personal website of designer slash illustrator Michael Rose."
+logo: site-logo.png
+teaser: default-teaser.png
+locale: en_US
+url: http://mademistakes.com
 
-feed: http://feeds.feedburner.com/MadeMistakes
+# Jekyll configuration
 
-google_analytics: UA-2011187-1
-google_verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
-bing_verify:   D81F4C18A6CB3018F64D7C827D953DFD
-alexa_verify:  Y5DYjZ4VWlrQzBP5kcQJeOKLNas
-
-source:      _source
-future:      true
-lsi:         false
+source: _source
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
 highlighter: pygments
-markdown:    kramdown
-# http://jekyllrb.com/docs/permalinks/
-permalink:   /:categories/:title/
 
-# Site navigation links
-links:
-  - title: Work
-    url: /work/
-  - title: Articles
-    url: /articles/
-  - title: Mastering Paper
-    url: /mastering-paper/
-  - title: About
-    url: /about/
+# Site owner
+owner:
+  name: Michael Rose
+  email: michael@mademistakes.com
+  twitter: mmistakes
+  google:
+    ad-client: ca-pub-7328585512091257
+    ad-slot: 3049671934
+    analytics: UA-2011187-1
+    verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
+  bing:   
+    verify: D81F4C18A6CB3018F64D7C827D953DFD
+  alexa:
+    verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
+  bio: "Just another boring, time traveling, designer slash illustrator from Buffalo."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname: mmistakes
 
-# Footer navigation links
-footer_links:
-  - title: Subscribe
-    url: /subscribe/
-  - title: Support
-    url: /support/
-  - title: Website Policies
-    url: /terms/
-
-encoding: UTF-8
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-  
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+# Sitemap generator plugin
 
 sitemap:
     url: http://mademistakes.com
     file: "/sitemap.xml"
     exclude:
-        - "/404.md"
+        - "/css/main.scss"
+        - "/404/index.md"
         - "/atom.xml"
         - "/articles-feed.xml"
         - "/paperfaces-feed.xml"
         - "/mastering-paper-feed.xml"
     include_posts:
-        - "/index.md"
-        - "/articles.md"
-        - "/tags.md"
-        - "/work.md"
+        - "/articles/index.md"
+        - "/tag/index.md"
+        - "/work/index.md"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
 
+
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "codekit-config.json", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

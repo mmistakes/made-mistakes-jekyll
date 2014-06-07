@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Snake bites"
-description: "PaperFaces portrait of @ashyda drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ashyda drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ashyda-twitter-lg.jpg
   thumb: paperfaces-ashyda-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Reflected orange light"
-description: "PaperFaces portrait of Diako M. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Diako M. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-diako-m-lg.jpg
   thumb: paperfaces-diako-m-150.jpg

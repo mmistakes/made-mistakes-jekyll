@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait that started it all"
-description: "PaperFaces portrait of @veganwendy drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @veganwendy drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-veganwendy-twitter-lg.jpg
   thumb: paperfaces-veganwendy-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Goatee earlobe tugging"
-description: "PaperFaces portrait of @LondonWebDev drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @LondonWebDev drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-londonwebdev-twitter-lg.jpg
   thumb: paperfaces-londonwebdev-twitter-150.jpg

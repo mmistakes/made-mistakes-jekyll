@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Soft blur to the right"
-description: "PaperFaces portrait of @BZHgeek drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @BZHgeek drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bzhgeek-twitter-lg.jpg
   thumb: paperfaces-bzhgeek-twitter-150.jpg

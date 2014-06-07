@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Heart shaped earrings"
-description: "PaperFaces portrait of @eternallife_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @eternallife_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-eternallife-twitter-lg.jpg
   thumb: paperfaces-eternallife-twitter-150.jpg

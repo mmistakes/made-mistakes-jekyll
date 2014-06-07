@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Scarf beard"
-description: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chadtafolla-twitter-lg.jpg
   thumb: paperfaces-chadtafolla-twitter-150.jpg

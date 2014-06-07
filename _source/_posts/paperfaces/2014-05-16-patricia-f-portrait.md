@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Stylin' pose"
-description: "PaperFaces portrait of a Patricia F. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Patricia F. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-patricia-f-lg.jpg
   thumb: paperfaces-patricia-f-150.jpg

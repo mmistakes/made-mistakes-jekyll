@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Mountains or hill tops?"
-description: "PaperFaces portrait of @jinthagerman drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jinthagerman drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jinthagerman-twitter-lg.jpg
   thumb: paperfaces-jinthagerman-twitter-150.jpg

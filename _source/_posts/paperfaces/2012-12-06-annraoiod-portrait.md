@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beret in black"
-description: "PaperFaces portrait of @AnnraoiOD drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @AnnraoiOD drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-annraoiod-twitter-lg.jpg
   thumb: paperfaces-annraoiod-twitter-150.jpg

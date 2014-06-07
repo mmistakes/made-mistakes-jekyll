@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair and red lipstick"
-description: "PaperFaces portrait of @melaniejcooke drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @melaniejcooke drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-melaniejcooke-twitter-lg.jpg
   thumb: paperfaces-melaniejcooke-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sketchy strokes, short dark haired fella"
-description: "PaperFaces portrait of @ashtonjames drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ashtonjames drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ashtonjames-twitter-lg.jpg
   thumb: paperfaces-ashtonjames-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Google Glass fancy future"
-description: "PaperFaces portrait of @fighto drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @fighto drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fighto-twitter-lg.jpg
   thumb: paperfaces-fighto-twitter-150.jpg

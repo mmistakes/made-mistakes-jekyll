@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Semi erased"
-description: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kirsty-h-lg.jpg
   thumb: paperfaces-kirsty-h-150.jpg

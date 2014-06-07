@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Green strikes the glasses"
-description: "PaperFaces portrait of @bretto drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bretto drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bretto-twitter-lg.jpg
   thumb: paperfaces-bretto-twitter-150.jpg

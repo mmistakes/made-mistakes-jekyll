@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sepia toned beard"
-description: "PaperFaces portrait of @endonend drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @endonend drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-endonend-twitter-lg.jpg
   thumb: paperfaces-endonend-twitter-150.jpg

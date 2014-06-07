@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "More metal than a toaster"
-description: "PaperFaces portrait of @doertedev drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @doertedev drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-doertedev-twitter-lg.jpg
   thumb: paperfaces-doertedev-twitter-150.jpg

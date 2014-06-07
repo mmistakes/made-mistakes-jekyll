@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "High contrast blue and yellow composition"
-description: "PaperFaces portrait of @A_Farlow44 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @A_Farlow44 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-a-farlow44-twitter-lg.jpg
   thumb: paperfaces-a-farlow44-twitter-150.jpg

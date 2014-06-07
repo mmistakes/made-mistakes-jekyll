@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Put a bird on it"
-description: "PaperFaces portrait of @christynicol drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @christynicol drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-christynicol-twitter-lg.jpg
   thumb: paperfaces-christynicol-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "&#147;You were the chosen one!&#148;"
-description: "PaperFaces portrait Obi-Wan Kenobi drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Obi-Wan Kenobi drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-obi-wan-kenobi-lg.jpg
   thumb: paperfaces-obi-wan-kenobi-150.jpg

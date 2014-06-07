@@ -1,11 +1,9 @@
 ---
-layout: post
+layout: article
 title: "Getting the Sold Out iPhone 4 at Launch"
-description: "Looks like I might actually get two iPhone 4's on launch day."
+excerpt: "Looks like I might actually get two iPhone 4's on launch day."
 modified: 2013-05-03
 category: articles
-image: 
-  small: iphone-4-340x100.jpg
 tags: [iPhone, Apple, tech geek]
 ---
 

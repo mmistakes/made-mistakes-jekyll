@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A full face in low contrast"
-description: "PaperFaces portrait of @leviwintering drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @leviwintering drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-leviwintering-twitter-lg.jpg
   thumb: paperfaces-leviwintering-twitter-150.jpg

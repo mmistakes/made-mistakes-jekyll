@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bearded fella in a car"
-description: "PaperFaces portrait of @guylschmidt drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @guylschmidt drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-guylschmidt-twitter-lg.jpg
   thumb: paperfaces-guylschmidt-twitter-150.jpg

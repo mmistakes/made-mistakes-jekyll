@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Plaid is the new plaid, get it?"
-description: "PaperFaces portrait of @scripty drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @scripty drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-scripty-twitter-lg.jpg
   thumb: paperfaces-scripty-twitter-150.jpg

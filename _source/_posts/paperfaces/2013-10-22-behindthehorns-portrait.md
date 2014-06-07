@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "5 shades of pink"
-description: "PaperFaces portrait of @BehindTheHorns drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @BehindTheHorns drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-behindthehorns-twitter-lg.jpg
   thumb: paperfaces-behindthehorns-twitter-150.jpg

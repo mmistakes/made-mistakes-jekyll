@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "LA cap on the beach"
-description: "PaperFaces portrait of @fostermatt drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @fostermatt drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fostermatt-twitter-lg.jpg
   thumb: paperfaces-fostermatt-twitter-150.jpg

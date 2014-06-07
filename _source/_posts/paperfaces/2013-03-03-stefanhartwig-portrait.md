@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Circles behind grayscale"
-description: "PaperFaces portrait of @stefanhartwig drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @stefanhartwig drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-stefanhartwig-twitter-lg.jpg
   thumb: paperfaces-stefanhartwig-twitter-150.jpg

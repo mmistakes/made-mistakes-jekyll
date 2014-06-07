@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Holding a fan in sepia tones"
-description: "PaperFaces portrait of @Daigansf drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Daigansf drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-daigansf-twitter-lg.jpg
   thumb: paperfaces-daigansf-twitter-150.jpg

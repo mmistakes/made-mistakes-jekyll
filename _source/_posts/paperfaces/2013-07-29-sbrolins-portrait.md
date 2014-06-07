@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sitting on the beach at sunset"
-description: "PaperFaces portrait of @sbrolins drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sbrolins drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sbrolins-twitter-lg.jpg
   thumb: paperfaces-sbrolins-twitter-150.jpg

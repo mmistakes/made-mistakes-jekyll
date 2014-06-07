@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Guitar shredding"
-description: "PaperFaces portrait of @fuzavue drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @fuzavue drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fuzavue-twitter-lg.jpg
   thumb: paperfaces-fuzavue-twitter-150.jpg

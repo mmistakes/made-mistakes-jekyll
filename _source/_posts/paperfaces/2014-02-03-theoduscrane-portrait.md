@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Yellow shirt and blur"
-description: "PaperFaces portrait of @theoduscrane drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @theoduscrane drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-theoduscrane-twitter-lg.jpg
   thumb: paperfaces-theoduscrane-twitter-150.jpg

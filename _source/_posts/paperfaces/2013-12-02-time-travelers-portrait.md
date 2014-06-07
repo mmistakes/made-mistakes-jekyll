@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Time Travelers"
-description: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-time-travelers-lg.jpg
   thumb: paperfaces-time-travelers-150.jpg

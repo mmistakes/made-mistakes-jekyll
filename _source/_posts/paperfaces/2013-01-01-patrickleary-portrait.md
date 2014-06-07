@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Standing in a field of sunflowers"
-description: "PaperFaces portrait of @PatrickLeary drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @PatrickLeary drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-patrickleary-twitter-lg.jpg
   thumb: paperfaces-patrickleary-twitter-150.jpg

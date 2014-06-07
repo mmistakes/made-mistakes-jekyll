@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blue eyes wrapped in blue"
-description: "PaperFaces portrait of @itzyasmine drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @itzyasmine drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-itzyasmine-twitter-lg.jpg
   thumb: paperfaces-itzyasmine-twitter-150.jpg

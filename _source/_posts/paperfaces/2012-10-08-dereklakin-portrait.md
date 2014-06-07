@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Resting glasses"
-description: "PaperFaces portrait of @dereklakin drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @dereklakin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dereklakin-twitter-lg.jpg
   thumb: paperfaces-dereklakin-twitter-150.jpg

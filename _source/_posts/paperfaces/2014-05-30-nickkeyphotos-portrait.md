@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beard chin on green"
-description: "PaperFaces portrait of @nickkeyphotos drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @nickkeyphotos drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-nickkeyphotos-twitter-lg.jpg
   thumb: paperfaces-nickkeyphotos-twitter-150.jpg

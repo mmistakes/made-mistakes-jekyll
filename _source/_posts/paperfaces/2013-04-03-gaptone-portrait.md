@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beard wearing a bowtie"
-description: "PaperFaces portrait of @gaptone drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @gaptone drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-gaptone-twitter-lg.jpg
   thumb: paperfaces-gaptone-twitter-150.jpg

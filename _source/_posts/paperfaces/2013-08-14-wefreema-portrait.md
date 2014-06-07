@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Fiesta!"
-description: "PaperFaces portrait of @wefreema drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @wefreema drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-wefreema-twitter-lg.jpg
   thumb: paperfaces-wefreema-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "No eyes, 95% face"
-description: "PaperFaces portrait of @josearato drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @josearato drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-josearato-twitter-lg.jpg
   thumb: paperfaces-josearato-twitter-150.jpg

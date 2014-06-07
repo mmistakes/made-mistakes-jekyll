@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Orange tones"
-description: "PaperFaces portrait of @macjaeger drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @macjaeger drawn with Paper by 53 on an iPad."
 image:   
   feature: paperfaces-macjaeger-twitter-lg.jpg
   thumb: paperfaces-macjaeger-twitter-150.jpg

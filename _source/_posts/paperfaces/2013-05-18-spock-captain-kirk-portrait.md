@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait of Mr. Spock and Captain Kirk"
-description: "PaperFaces portrait of Mr. Spock and Captain Kirk drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Mr. Spock and Captain Kirk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-spock-kirk-star-trek-lg.jpg
   thumb: paperfaces-spock-kirk-star-trek-150.jpg

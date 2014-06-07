@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Painterly backdrop and beard"
-description: "PaperFaces portrait of @davecowart drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @davecowart drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-davecowart-twitter-lg.jpg
   thumb: paperfaces-davecowart-twitter-150.jpg

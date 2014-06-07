@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In a gray hoodie"
-description: "PaperFaces portrait of @Vragal drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Vragal drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-vragal-twitter-lg.jpg
   thumb: paperfaces-vragal-twitter-150.jpg

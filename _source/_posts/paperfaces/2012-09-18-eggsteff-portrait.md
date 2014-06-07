@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Big sunglasses on the beach"
-description: "PaperFaces portrait of @eggsteff drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @eggsteff drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-eggsteff-twitter-lg.jpg
   thumb: paperfaces-eggsteff-twitter-150.jpg

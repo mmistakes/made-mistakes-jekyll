@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: article
 title: "One Week with the New iPod classic"
-description: "Quick impressions of the new iPod classic 60GB."
+excerpt: "Quick impressions of the new iPod classic 60GB."
 modified: 2013-05-03
 category: articles
 image: 
   feature: ipod-classic-feature.jpg
-  small: ipod-classic-340x100.jpg
+  teaser: ipod-classic-teaser.jpg
   thumb: ipod-classic-thumb.jpg
 tags: [iPod, Apple, review]
 ---
@@ -33,13 +33,29 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 
 ### Photo Gallery
 
-<ul class="recent-grid unstyled-list">
-	<li><a href="{{ site.url }}/images/80.jpg"><img src="{{ site.url }}/images/80t.jpg" alt="iPod classic syncing next to a 40GB iPod"/></a></li>
-	<li><a href="{{ site.url }}/images/81.jpg"><img src="{{ site.url }}/images/81t.jpg" alt="iPod classic thickness compared to an old 40GB iPod"/></a></li>
-	<li><a href="{{ site.url }}/images/82.jpg"><img src="{{ site.url }}/images/82t.jpg" alt="New interface menu. Album artwork fades in and out randomly on the side as you navigate through the menus."/></a></li>
-	<li><a href="{{ site.url }}/images/83.jpg"><img src="{{ site.url }}/images/83t.jpg" alt="iPod classic games screen"/></a></li>
-	<li><a href="{{ site.url }}/images/84.jpg"><img src="{{ site.url }}/images/84t.jpg" alt="iPod classic coverflow"/></a></li>
-	<li><a href="{{ site.url }}/images/85.jpg"><img src="{{ site.url }}/images/85t.jpg" alt="iPod classic coverflow flip"/></a></li>
-	<li><a href="{{ site.url }}/images/86.jpg"><img src="{{ site.url }}/images/86t.jpg" alt="iPod classic viewing your photos"/></a></li>
-	<li><a href="{{ site.url }}/images/87.jpg"><img src="{{ site.url }}/images/87t.jpg" alt="iPod classic search"/></a></li>
+<ul class="th-grid">
+	<li>
+    <a href="{{ site.url }}/images/80.jpg"><img src="{{ site.url }}/images/80t.jpg" alt="iPod classic syncing next to a 40GB iPod"></a>
+  </li>
+	<li>
+    <a href="{{ site.url }}/images/81.jpg"><img src="{{ site.url }}/images/81t.jpg" alt="iPod classic thickness compared to an old 40GB iPod"></a>
+  </li>
+	<li>
+    <a href="{{ site.url }}/images/82.jpg"><img src="{{ site.url }}/images/82t.jpg" alt="New interface menu. Album artwork fades in and out randomly on the side as you navigate through the menus."></a>
+  </li>
+	<li>
+    <a href="{{ site.url }}/images/83.jpg"><img src="{{ site.url }}/images/83t.jpg" alt="iPod classic games screen"></a>
+  </li>
+	<li>
+    <a href="{{ site.url }}/images/84.jpg"><img src="{{ site.url }}/images/84t.jpg" alt="iPod classic coverflow"></a>
+  </li>
+	<li>
+    <a href="{{ site.url }}/images/85.jpg"><img src="{{ site.url }}/images/85t.jpg" alt="iPod classic coverflow flip"></a>
+  </li>
+	<li>
+    <a href="{{ site.url }}/images/86.jpg"><img src="{{ site.url }}/images/86t.jpg" alt="iPod classic viewing your photos"></a>
+  </li>
+	<li>
+    <a href="{{ site.url }}/images/87.jpg"><img src="{{ site.url }}/images/87t.jpg" alt="iPod classic search"></a>
+  </li>
 </ul>

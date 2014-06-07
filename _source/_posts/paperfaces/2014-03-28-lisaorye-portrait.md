@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Painted nails"
-description: "PaperFaces portrait of @lisaorye drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lisaorye drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lisaorye-twitter-lg.jpg
   thumb: paperfaces-lisaorye-twitter-150.jpg

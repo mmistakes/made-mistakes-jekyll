@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Jean jacket rock"
-description: "PaperFaces portrait of a Pao T. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Pao T. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pao-t-lg.jpg
   thumb: paperfaces-pao-t-150.jpg

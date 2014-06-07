@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Purple shirted sir"
-description: "PaperFaces portrait of @sippey drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sippey drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sippey-twitter-lg.jpg
   thumb: paperfaces-sippey-twitter-150.jpg

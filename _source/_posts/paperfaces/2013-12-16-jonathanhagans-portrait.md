@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Winter faces"
-description: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jonathanhagans-twitter-lg.jpg
   thumb: paperfaces-jonathanhagans-twitter-150.jpg

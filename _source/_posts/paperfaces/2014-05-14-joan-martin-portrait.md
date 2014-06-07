@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Artist in gray"
-description: "PaperFaces portrait of a Joan Martin drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Joan Martin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joan-martin-lg.jpg
   thumb: paperfaces-joan-martin-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Birdie by a cage"
-description: "PaperFaces portrait of @manntaclaus drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @manntaclaus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-manntaclaus-twitter-lg.jpg
   thumb: paperfaces-manntaclaus-twitter-150.jpg

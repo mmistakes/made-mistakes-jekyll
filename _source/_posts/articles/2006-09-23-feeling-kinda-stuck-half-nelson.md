@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: article
 title: Feeling Kinda Stuck In A Half Nelson
-description: "My impressions of the film Half Nelson, starring Ryan Gosling."
+excerpt: "My impressions of the film Half Nelson, starring Ryan Gosling."
 category: articles
 image: 
   feature: half-nelson-feature.jpg
-  small: half-nelson-340x100.jpg
+  teaser: half-nelson-teaser.jpg
   thumb: half-nelson-thumb.jpg
   credit: DVD screengrab from DB Cover
   creditlink: http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1

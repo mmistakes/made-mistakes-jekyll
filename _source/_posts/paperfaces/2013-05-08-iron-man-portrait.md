@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait of Iron Man"
-description: "PaperFaces portrait of Iron Man drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Iron Man drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-iron-man-3-lg.jpg
   thumb: paperfaces-iron-man-3-150.jpg

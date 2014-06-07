@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The color of ice"
-description: "PaperFaces portrait of @EmmaIKesselhut drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @EmmaIKesselhut drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-emmaikesselhut-twitter-lg.jpg
   thumb: paperfaces-emmaikesselhut-twitter-150.jpg

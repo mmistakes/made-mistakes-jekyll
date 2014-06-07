@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Chillin' at the game"
-description: "PaperFaces portrait of @mentalground0 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mentalground0 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mentalground0-twitter-lg.jpg
   thumb: paperfaces-mentalground0-twitter-150.jpg

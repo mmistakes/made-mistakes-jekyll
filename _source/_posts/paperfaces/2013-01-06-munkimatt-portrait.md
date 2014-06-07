@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hand eyes with a curly mustache"
-description: "PaperFaces portrait of @munkimatt drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @munkimatt drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-munkimatt-twitter-lg.jpg
   thumb: paperfaces-munkimatt-twitter-150.jpg

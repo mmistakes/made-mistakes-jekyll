@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Guy and his gal in Washington DC"
-description: "PaperFaces portrait of @nick-aylward drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @nick-aylward drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-nick-aylward-twitter-lg.jpg
   thumb: paperfaces-nick-aylward-twitter-150.jpg

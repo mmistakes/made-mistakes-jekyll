@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sweater weather"
-description: "PaperFaces portrait of @ayepod drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ayepod drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ayepod-twitter-lg.jpg
   thumb: paperfaces-ayepod-twitter-150.jpg

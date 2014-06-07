@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "365th PaperFaces portrait"
-description: "PaperFaces portrait of @Nat_Skipper drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Nat_Skipper drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-nat-skipper-twitter-lg.jpg
   thumb: paperfaces-nat-skipper-twitter-150.jpg

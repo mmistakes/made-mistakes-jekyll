@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Shirt and tie in black and white"
-description: "PaperFaces portrait of @PepkaPepich drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @PepkaPepich drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pepkapepich-twitter-lg.jpg
   thumb: paperfaces-pepkapepich-twitter-150.jpg

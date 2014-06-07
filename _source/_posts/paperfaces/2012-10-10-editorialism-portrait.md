@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Red lips and shirt"
-description: "PaperFaces portrait of @editorialism drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @editorialism drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-editorialism-twitter-lg.jpg
   thumb: paperfaces-editorialism-twitter-150.jpg

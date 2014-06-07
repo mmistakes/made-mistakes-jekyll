@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "S basecball cap in black and white"
-description: "PaperFaces portrait of @tr4y drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tr4y drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tr4y-twitter-lg.jpg
   thumb: paperfaces-tr4y-twitter-150.jpg

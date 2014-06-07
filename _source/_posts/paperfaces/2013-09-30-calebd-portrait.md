@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Goatee at the wall"
-description: "PaperFaces portrait of @calebd drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @calebd drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-calebd-twitter-lg.jpg
   thumb: paperfaces-calebd-twitter-150.jpg

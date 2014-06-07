@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Plaid shirt leaning against a blue wall"
-description: "PaperFaces portrait of @Rt44man drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Rt44man drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rt44man-twitter-lg.jpg
   thumb: paperfaces-rt44man-twitter-150.jpg

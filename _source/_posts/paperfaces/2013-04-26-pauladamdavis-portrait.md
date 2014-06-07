@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Mail Chimp shirt at the bowling alley"
-description: "PaperFaces portrait of @pauladamdavis drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @pauladamdavis drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pauladamdavis-twitter-lg.jpg
   thumb: paperfaces-pauladamdavis-twitter-150.jpg

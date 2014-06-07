@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In shadows, black and white"
-description: "PaperFaces portrait of @Oog drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Oog drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-oog-twitter-lg.jpg
   thumb: paperfaces-oog-twitter-150.jpg

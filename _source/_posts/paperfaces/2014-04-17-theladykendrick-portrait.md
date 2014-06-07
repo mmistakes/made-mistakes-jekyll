@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hello face"
-description: "PaperFaces portrait of @TheLadyKendrick drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @TheLadyKendrick drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-theladykendrick-twitter-lg.jpg
   thumb: paperfaces-theladykendrick-twitter-150.jpg

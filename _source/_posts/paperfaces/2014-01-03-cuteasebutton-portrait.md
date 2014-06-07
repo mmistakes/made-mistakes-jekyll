@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long locks of curl"
-description: "PaperFaces portrait of @cuteasebutton drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cuteasebutton drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cuteasebutton-instagram-lg.jpg
   thumb: paperfaces-cuteasebutton-instagram-150.jpg

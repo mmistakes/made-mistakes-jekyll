@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Pink mohawk"
-description: "PaperFaces portrait of @focusaurus drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @focusaurus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-focusaurus-twitter-lg.jpg
   thumb: paperfaces-focusaurus-twitter-150.jpg

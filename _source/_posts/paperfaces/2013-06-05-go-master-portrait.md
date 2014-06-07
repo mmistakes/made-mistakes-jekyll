@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait of a Go master"
-description: "PaperFaces portrait of a Go master drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Go master drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-go-master-lg.jpg
   thumb: paperfaces-go-master-150.jpg

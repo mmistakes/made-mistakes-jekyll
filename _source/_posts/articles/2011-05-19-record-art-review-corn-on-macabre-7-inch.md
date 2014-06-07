@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: article
 title: "Corn On Macabre Record Art, Vellum and Metallic Ink Bliss"
-description: "My favorite thing about this Corn On Macabre 7-inch record is the use of vellum and metallic inks in the sleeve."
+excerpt: "My favorite thing about this Corn On Macabre 7-inch record is the use of vellum and metallic inks in the sleeve."
 category: articles
 image: 
   feature: COM-feature.jpg
-  small: COM-340x100.jpg
+  teaser: COM-teaser.jpg
   thumb: COM-record-sleeve-340x340.jpg
 tags: [records, punk, critique, design, inspiration, typography]
 ---

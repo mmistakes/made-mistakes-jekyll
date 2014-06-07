@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bird back"
-description: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-allyson-b-lg.jpg
   thumb: paperfaces-allyson-b-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Curls in the sun"
-description: "PaperFaces portrait of @sodevious drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sodevious drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sodevious-twitter-lg.jpg
   thumb: paperfaces-sodevious-twitter-150.jpg

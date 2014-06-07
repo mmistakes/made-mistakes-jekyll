@@ -1,18 +1,18 @@
 ---
-layout: post
+layout: article
 title: "The iPhone is Great, but the Palm Pre Better Fits My Style"
-description: "Quick impressions of the Palm Pre from a long time smartphone user."
+excerpt: "Quick impressions of the Palm Pre from a long time smartphone user."
 modified: 2013-05-03
 category: articles
 image: 
-  small: palm-pre-340x100.jpg
+  teaser: palm-pre-teaser.jpg
 tags: [Palm Pre, iPhone, tech geek, review]
 ---
 
 Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS smartphones (Treo 600, Treo 650, Centro), I've come to rely on a proven feature set. The experience of having a device that organizes your life, makes phone calls, and connects online --- has remained unchanged. For the most part the Palm Pre meets or exceeds my expectations, with only a few minor back steps. After the break is a full rundown of my Palm Pre likes and dislikes (mostly software related), in no particular order.
 
 <figure>
-	<img src="{{ site.url }}/images/palm-pre-wallpaper.jpg" alt="Palm Pre closed" />
+	<img src="{{ site.url }}/images/palm-pre-wallpaper.jpg" alt="Palm Pre closed">
 	<figcaption>Palm Pre closed with my sweet wallpaper</figcaption>
 </figure>
 
@@ -54,17 +54,17 @@ So there you have it. Can't say that I was excited about the thought of paying a
 
 If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walkthroughs.
 
-<ul class="recent-grid unstyled-list">
-	<li><a href="{{ site.url }}/images/354.jpg"><img src="{{ site.url }}/images/354t.jpg" alt="Palm Pre lock screen" /></a></li>
-	<li><a href="{{ site.url }}/images/355.jpg"><img src="{{ site.url }}/images/355t.jpg" alt="Palm Pre closed" /></a></li>
-	<li><a href="{{ site.url }}/images/356.jpg"><img src="{{ site.url }}/images/356t.jpg" alt="Palm Pre open" /></a></li>
-	<li><a href="{{ site.url }}/images/357.jpg"><img src="{{ site.url }}/images/357t.jpg" alt="Palm Pre keyboard close up" /></a></li>
-	<li><a href="{{ site.url }}/images/358.jpg"><img src="{{ site.url }}/images/358t.jpg" alt="Palm Pre camera and mirror" /></a></li>
-	<li><a href="{{ site.url }}/images/359.jpg"><img src="{{ site.url }}/images/359t.jpg" alt="Palm Pre opened up" /></a></li> 
-	<li><a href="{{ site.url }}/images/360.jpg"><img src="{{ site.url }}/images/360t.jpg" alt="Palm Pre and Palm Centro comparison" /></a></li>
-	<li><a href="{{ site.url }}/images/361.jpg"><img src="{{ site.url }}/images/361t.jpg" alt="Palm Pre and Palm Centro comparison" /></a></li>
-	<li><a href="{{ site.url }}/images/362.jpg"><img src="{{ site.url }}/images/362t.jpg" alt="Palm Pre Phone" /></a></li>
-	<li><a href="{{ site.url }}/images/363.jpg"><img src="{{ site.url }}/images/363t.jpg" alt="Palm Pre Music App" /></a></li>
-	<li><a href="{{ site.url }}/images/364.jpg" target="_blank"><img src="{{ site.url }}/images/364t.jpg" alt="Palm Pre Tweed App" /></a></li>
-	<li><a href="{{ site.url }}/images/365.jpg"><img src="{{ site.url }}/images/365t.jpg" alt="Palm Pre App Catalog" /></a></li>
+<ul class="th-grid">
+	<li><a href="{{ site.url }}/images/354.jpg"><img src="{{ site.url }}/images/354t.jpg" alt="Palm Pre lock screen"></a></li>
+	<li><a href="{{ site.url }}/images/355.jpg"><img src="{{ site.url }}/images/355t.jpg" alt="Palm Pre closed"></a></li>
+	<li><a href="{{ site.url }}/images/356.jpg"><img src="{{ site.url }}/images/356t.jpg" alt="Palm Pre open"></a></li>
+	<li><a href="{{ site.url }}/images/357.jpg"><img src="{{ site.url }}/images/357t.jpg" alt="Palm Pre keyboard close up"></a></li>
+	<li><a href="{{ site.url }}/images/358.jpg"><img src="{{ site.url }}/images/358t.jpg" alt="Palm Pre camera and mirror"></a></li>
+	<li><a href="{{ site.url }}/images/359.jpg"><img src="{{ site.url }}/images/359t.jpg" alt="Palm Pre opened up"></a></li> 
+	<li><a href="{{ site.url }}/images/360.jpg"><img src="{{ site.url }}/images/360t.jpg" alt="Palm Pre and Palm Centro comparison"></a></li>
+	<li><a href="{{ site.url }}/images/361.jpg"><img src="{{ site.url }}/images/361t.jpg" alt="Palm Pre and Palm Centro comparison"></a></li>
+	<li><a href="{{ site.url }}/images/362.jpg"><img src="{{ site.url }}/images/362t.jpg" alt="Palm Pre Phone"></a></li>
+	<li><a href="{{ site.url }}/images/363.jpg"><img src="{{ site.url }}/images/363t.jpg" alt="Palm Pre Music App"></a></li>
+	<li><a href="{{ site.url }}/images/364.jpg" target="_blank"><img src="{{ site.url }}/images/364t.jpg" alt="Palm Pre Tweed App"></a></li>
+	<li><a href="{{ site.url }}/images/365.jpg"><img src="{{ site.url }}/images/365t.jpg" alt="Palm Pre App Catalog"></a></li>
 </ul>

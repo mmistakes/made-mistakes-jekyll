@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Redhead in shadow"
-description: "PaperFaces portrait of Skinny Lee drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Skinny Lee drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-skinny-lee-lg.jpg
   thumb: paperfaces-skinny-lee-150.jpg

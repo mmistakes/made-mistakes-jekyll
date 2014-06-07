@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bashful hair"
-description: "PaperFaces portrait of a Marcus drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Marcus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-marcus-lg.jpg
   thumb: paperfaces-marcus-150.jpg

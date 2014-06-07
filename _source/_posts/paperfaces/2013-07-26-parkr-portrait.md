@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sidewalk stroll"
-description: "PaperFaces portrait of @parkr drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @parkr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-parkr-twitter-lg.jpg
   thumb: paperfaces-parkr-twitter-150.jpg

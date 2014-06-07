@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Grayscale mustache"
-description: "PaperFaces portrait of @imnk drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @imnk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-imnk-twitter-lg.jpg
   thumb: paperfaces-imnk-twitter-150.jpg

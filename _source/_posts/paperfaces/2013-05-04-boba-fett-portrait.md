@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait of Boba Fett"
-description: "PaperFaces portrait of Boba Fett drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Boba Fett drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-boba-fett-lg.jpg
   thumb: paperfaces-boba-fett-150.jpg

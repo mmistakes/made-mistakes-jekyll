@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Overlooking the water"
-description: "PaperFaces portrait of @tipican drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tipican drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tipican-twitter-lg.jpg
   thumb: paperfaces-tipican-twitter-150.jpg

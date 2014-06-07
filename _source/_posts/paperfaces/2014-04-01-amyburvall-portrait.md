@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A hair flower without color"
-description: "PaperFaces portrait of @amyburvall drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @amyburvall drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-amyburvall-twitter-lg.jpg
   thumb: paperfaces-amyburvall-twitter-150.jpg

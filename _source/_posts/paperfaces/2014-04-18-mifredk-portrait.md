@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Buttoned up in a sweater"
-description: "PaperFaces portrait of @mifredk drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mifredk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mifredk-twitter-lg.jpg
   thumb: paperfaces-mifredk-twitter-150.jpg

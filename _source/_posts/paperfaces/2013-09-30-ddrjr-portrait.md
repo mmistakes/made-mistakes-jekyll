@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Smile for Lady Liberty"
-description: "PaperFaces portrait of @ddrjr drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ddrjr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ddrjr-twitter-lg.jpg
   thumb: paperfaces-ddrjr-twitter-150.jpg

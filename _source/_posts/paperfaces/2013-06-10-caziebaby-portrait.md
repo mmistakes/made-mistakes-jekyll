@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hey, my eyes are up here!"
-description: "PaperFaces portrait of @caziebaby drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @caziebaby drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-caziebaby-twitter-lg.jpg
   thumb: paperfaces-caziebaby-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Woof! Cuddle in gray"
-description: "PaperFaces portrait of @ejotto drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ejotto drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ejotto-twitter-lg.jpg
   thumb: paperfaces-ejotto-twitter-150.jpg

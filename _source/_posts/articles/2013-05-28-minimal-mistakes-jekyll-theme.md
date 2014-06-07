@@ -1,22 +1,23 @@
 ---
-layout: post
+layout: article
 title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 subheadline: "Built for Jekyll"
-description: "A responsive Jekyll theme with a minimal design for text heavy sites by designer Michael Rose."
+excerpt: "A responsive Jekyll theme with a minimal design for text heavy sites by designer Michael Rose."
 modified: 2014-02-28
 image: 
   feature: minimal-mistakes-theme-feature.jpg
-  homepage: minimal-mistakes-500x500.png
+  teaser: minimal-mistakes-theme-teaser.jpg
   thumb: minimal-mistakes-250x250.png
 category: articles
 tags: [Jekyll, web development, open source, GitHub]
 comments: true
+toc: true
 ---
 
 Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)**, a responsive Jekyll theme focused on great typography for text heavy sites. 
 
-## Minimal Mistakes features:
+## Features
 
 * Responsive layouts. Looks good on mobile, tablets, and desktop devices.
 * Full compatibility with [GitHub Pages](http://pages.github.com/).
@@ -50,21 +51,12 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 
 To learn more about how customize this theme, include feature images in posts, use the Grunt build scripts, and some other junk, [read up here](http://mmistakes.github.io/minimal-mistakes-theme/theme-setup/).
 
----
-
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/minima-mistakes/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
+Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/minimal-mistakes/issues/new). And if you make something cool with this theme feel free to let me know.
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](http://mmistakes.github.io/minimal-mistakes/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
-
-**Like this theme?** I just released another one for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTER Theme and you can [learn more about it here]({{ site.url }}/articles/hpstr-jekyll-theme/).
-{: .notice}
-
----
+This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.  
 
 {% include support.html %}

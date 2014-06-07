@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Some of my favorite colors"
-description: "PaperFaces portrait of @klebeluft drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @klebeluft drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-klebeluft-twitter-lg.jpg
   thumb: paperfaces-klebeluft-twitter-150.jpg

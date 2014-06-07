@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Look up, graffiti wall and sunglasses"
-description: "PaperFaces portrait of @joeavella drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @joeavella drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joeavella-twitter-lg.jpg
   thumb: paperfaces-joeavella-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Backlit colors"
-description: "PaperFaces portrait of @igorshkau drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @igorshkau drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-igorshkau-twitter-lg.jpg
   thumb: paperfaces-igorshkau-twitter-150.jpg

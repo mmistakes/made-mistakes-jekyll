@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Brightly colored by the sky"
-description: "PaperFaces portrait of @suhairykz drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @suhairykz drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-suhairykz-twitter-lg.jpg
   thumb: paperfaces-suhairykz-twitter-150.jpg

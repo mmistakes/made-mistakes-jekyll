@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white in a long overcoat"
-description: "PaperFaces portrait of @frivmo drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @frivmo drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-frivmo-twitter-lg.jpg
   thumb: paperfaces-frivmo-twitter-150.jpg

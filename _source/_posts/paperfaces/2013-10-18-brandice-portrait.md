@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Scarfie selfies"
-description: "PaperFaces portrait of @brandice drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @brandice drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-brandice-twitter-lg.jpg
   thumb: paperfaces-brandice-twitter-150.jpg

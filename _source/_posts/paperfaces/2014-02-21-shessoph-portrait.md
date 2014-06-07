@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sweaters are sweeter"
-description: "PaperFaces portrait of @shesSoph drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @shesSoph drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-shessoph-twitter-lg.jpg
   thumb: paperfaces-shessoph-twitter-150.jpg

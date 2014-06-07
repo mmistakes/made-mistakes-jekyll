@@ -1,38 +1,43 @@
 ---
-layout: nil
+layout: none
+limit: 25
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title type="text">{{ site.title }}</title>
-	<subtitle type="html">{{ site.tagline }}</subtitle>
-	<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-	<icon>{{ site.url }}/images/icon152.png</icon>
-	<link rel="alternate" type="text/html" href="{{ site.url }}" />
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>{{ site.url }}/</id>
-	<author>
-		<name>{{ site.owner.name }}</name>
-		<uri>{{ site.url }}/</uri>
-		<email>{{ site.owner.email }}</email>
-	</author>
-	<rights>Unless otherwise noted, all content is published under a Creative Commons Attribution-Noncommercial-NoDerivs 3.0 United States License.</rights>
-	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="{{ site.url }}/atom.xml" />
-	{% for post in site.posts limit:25 %}
-	<entry>
-		<title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-		<link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
-		<id>{{ site.url }}{{ post.id }}</id>
-		{% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
-		<published>{{ post.date | date_to_xmlschema }}</published>
-		{% else %}<published>{{ post.date | date_to_xmlschema }}</published>
-		<updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
-		<author>
-			<name>{{ site.owner.name }}</name>
-			<uri>{{ site.url }}</uri>
-			<email>{{ site.owner.email }}</email>
+<feed xmlns="http://www.w3.org/2005/Atom">
+{% if site.url %}
+    {% assign base = site.url %}
+{% elsif site.github.url %}
+    {% assign base = site.github.url %}
+{% endif %}
+    <title>{{ site.title }}</title>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v{{ jekyll.version }}</generator>
+		<icon>{{ site.url }}/apple-touch-icon-precomposed.png</icon>
+    <subtitle>{{ site.description }}</subtitle>
+    <link href="{{ base }}{{ page.url }}" rel="self"/>
+    <link href="{{ base }}/" rel="alternate" type="text/html"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>{{ base }}/</id>
+    <author>
+			<name>{{ site.owner.name | xml_escape }}</name>
+			<uri>{{ site.url }}/</uri>
+			{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
 		</author>
-		<content type="html">{% if post.image.feature %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image.feature }}&quot; alt=&quot;{{ post.title }} page image&quot;&gt;&lt;br/&gt;{% endif %}{{ post.content | xml_escape }}
-		&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by &lt;a href=&quot;{{ site.url }}/about/&quot;&gt;{{ site.owner.name }}&lt;/a&gt; at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
-	</entry>
-	{% endfor %}
+
+    {% for post in site.posts limit: page.limit %}
+    <entry>
+        <title>{{ post.title | xml_escape }}</title>
+        <link href="{{ base }}{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>{{ base }}{{ post.id }}</id>
+        <author>
+					<name>{{ site.owner.name | xml_escape }}</name>
+					<uri>{{ site.url }}/</uri>
+					{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
+				</author>
+        <content type="html">
+        	{% if post.image.feature %}&lt;img src=&quot;{{ site.url }}/images/{{ post.image.feature }}&quot;&gt;&lt;br/&gt;{% endif %}
+        	{{ post.content | xml_escape }}
+        </content>
+    </entry>
+    {% endfor %}
 </feed>

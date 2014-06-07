@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sunglasses in black and white"
-description: "PaperFaces portrait of @justkimolly drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @justkimolly drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-justkimolly-twitter-lg.jpg
   thumb: paperfaces-justkimolly-twitter-150.jpg

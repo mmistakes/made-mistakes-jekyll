@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The sky ran red with blood"
-description: "PaperFaces portrait of @Hawk_SE drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Hawk_SE drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hawk-se-twitter-lg.jpg
   thumb: paperfaces-hawk-se-twitter-150.jpg

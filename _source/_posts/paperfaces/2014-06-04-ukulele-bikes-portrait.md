@@ -1,9 +1,10 @@
 ---
-layout: work
+layout: media
 title: "Ukulele and bikes"
-description: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ukulele-bikes-lg.jpg
+  teaser: paperfaces-ukulele-bikes-teaser.jpg
   thumb: paperfaces-ukulele-bikes-150.jpg
 category: paperfaces
 tags: [portrait, illustration, Paper by 53]

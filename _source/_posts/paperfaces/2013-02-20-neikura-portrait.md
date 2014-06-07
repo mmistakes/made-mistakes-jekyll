@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair purple and red highlights"
-description: "PaperFaces portrait of @neikura drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @neikura drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-neikura-twitter-lg.jpg
   thumb: paperfaces-neikura-twitter-150.jpg

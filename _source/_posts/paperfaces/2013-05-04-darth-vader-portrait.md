@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait of Darth Vader"
-description: "PaperFaces portrait of Darth Vader drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Darth Vader drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-darth-vader-lg.jpg
   thumb: paperfaces-darth-vader-150.jpg

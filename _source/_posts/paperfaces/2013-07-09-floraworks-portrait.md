@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Shading hair with blue and magenta"
-description: "PaperFaces portrait of @floraworks drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @floraworks drawn with Paper by 53 on an iPad."
 image:   
   feature: paperfaces-floraworks-twitter-lg.jpg
   thumb: paperfaces-floraworks-twitter-150.jpg

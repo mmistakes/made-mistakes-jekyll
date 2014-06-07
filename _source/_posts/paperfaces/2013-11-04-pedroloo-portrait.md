@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Remember kids, always wear your safety belt"
-description: "PaperFaces portrait of @pedroloo drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @pedroloo drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pedroloo-twitter-lg.jpg
   thumb: paperfaces-pedroloo-twitter-150.jpg

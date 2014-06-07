@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: article
 title: "How to Use the Rasterbator to Print out a Wall Sized Owl"
-description: "A quick tutorial and time lapse video of how to assemble a wall sized poster using The Rasterbator."
+excerpt: "A quick tutorial and time lapse video of how to assemble a wall sized poster using The Rasterbator."
 category: articles
 image: 
   feature: owl-rasterbator-feature.jpg
-  small: owl-rasterbator-340x100.jpg
+  teaser: owl-rasterbator-teaser.jpg
   thumb: rasterbator-thumb.jpg
 tags: [poster, rasterbator, print, time lapse, tech geek]
 comments: true

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Vintage cool"
-description: "PaperFaces portrait of @StilettOoDiva drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @StilettOoDiva drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-stilettoodiva-twitter-lg.jpg
   thumb: paperfaces-stilettoodiva-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Side hoodies of gray"
-description: "PaperFaces portrait of @Fubaruba drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Fubaruba drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fubaruba-twitter-lg.jpg
   thumb: paperfaces-fubaruba-twitter-150.jpg

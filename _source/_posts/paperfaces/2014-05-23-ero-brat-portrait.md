@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "An unlit cig can't kill you"
-description: "PaperFaces portrait of a Ero Brat drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Ero Brat drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ero-brat-lg.jpg
   thumb: paperfaces-ero-brat-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair with a slight curl"
-description: "PaperFaces portrait of @VanessaTSmiles drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @VanessaTSmiles drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-vanessatsmiles-twitter-lg.jpg
   thumb: paperfaces-vanessatsmiles-twitter-150.jpg

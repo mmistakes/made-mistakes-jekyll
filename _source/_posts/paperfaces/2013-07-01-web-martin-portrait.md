@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blurring backgrounds and curling hair"
-description: "PaperFaces portrait of @web_martin drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @web_martin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-web-martin-twitter-lg.jpg
   thumb: paperfaces-web-martin-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Cropped face"
-description: "PaperFaces portrait of @allegedlymark drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @allegedlymark drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-allegedlymark-twitter-lg.jpg
   thumb: paperfaces-allegedlymark-twitter-150.jpg

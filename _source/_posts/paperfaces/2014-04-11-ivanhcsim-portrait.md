@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "One year"
-description: "PaperFaces portrait of @IvanHCSim drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @IvanHCSim drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ivanhcsim-twitter-lg.jpg
   thumb: paperfaces-ivanhcsim-twitter-150.jpg

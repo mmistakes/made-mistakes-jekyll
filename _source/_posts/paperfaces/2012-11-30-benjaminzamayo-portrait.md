@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Jean jacket and hood"
-description: "PaperFaces portrait of @BenjaminZAMayo drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @BenjaminZAMayo drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-benjaminzamayo-twitter-lg.jpg
   thumb: paperfaces-benjaminzamayo-twitter-150.jpg

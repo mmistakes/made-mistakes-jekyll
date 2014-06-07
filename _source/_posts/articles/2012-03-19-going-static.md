@@ -1,23 +1,21 @@
 ---
-layout: post
+layout: article
 title: "Going Static without a CMS using Jekyll"
-description: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
+excerpt: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll."
 modified: 2014-01-03
 image: 
   feature: going-static-feature.jpg
-  small: going-static-340x100.jpg
+  teaser: going-static-teaser.jpg
   thumb: going-static-thumb.jpg
 category: articles
 tags: [Jekyll, web development, design, open source]
 comments: true
+toc: true
 ---
 
 If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://www.alistapart.com/) and [Smashing Magazine](http://www.smashingmagazine.com/).
 
 Which got me thinking *"Shit. I don't know anything about these new technologies or techniques, I better learn fast."* And the only real way I was going to pickup all this was to create a project for myself. So began the process of evaluating how to build my personal website and how I'd like it to function.
-
-* Table of Contents
-{:toc}
 
 ## Why Go Static
 

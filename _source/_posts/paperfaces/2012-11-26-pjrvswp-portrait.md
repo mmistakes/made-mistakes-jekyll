@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Full sleeve of tattoos"
-description: "PaperFaces portrait of @pjrvswp drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @pjrvswp drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pjrvswp-twitter-lg.jpg
   thumb: paperfaces-pjrvswp-twitter-150.jpg

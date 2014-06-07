@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Days of Future Past"
-description: "PaperFaces portrait of Mystique and Wolverine drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Mystique and Wolverine drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-old-wolverine-lg.jpg
   thumb: paperfaces-old-wolverine-150.jpg

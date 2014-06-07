@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Mother and little one"
-description: "PaperFaces portrait of @therealamylou drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @therealamylou drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-therealamylou-twitter-lg.jpg
   thumb: paperfaces-therealamylou-twitter-150.jpg

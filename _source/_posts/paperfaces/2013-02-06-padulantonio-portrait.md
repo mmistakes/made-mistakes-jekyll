@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dramatic looking gray bricks"
-description: "PaperFaces portrait of @padulantonio drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @padulantonio drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-padulantonio-twitter-lg.jpg
   thumb: paperfaces-padulantonio-twitter-150.jpg

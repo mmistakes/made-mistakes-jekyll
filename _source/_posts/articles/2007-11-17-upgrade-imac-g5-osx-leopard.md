@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: article
 title: "Upgrading an iMac G5 to OS X Leopard"
-description: "What I went through upgrading an iMac G5 to Mac OS X Leopard (10.5)."
+excerpt: "What I went through upgrading an iMac G5 to Mac OS X Leopard (10.5)."
 category: articles
 image: 
   feature: starfield-leopard-feature.jpg
-  small: starfield-leopard-340x100.jpg
+  teaser: starfield-leopard-teaser.jpg
   thumb: starfield-leopard-thumb.jpg
 tags: [iMac, Leopard, tech geek]
 ---

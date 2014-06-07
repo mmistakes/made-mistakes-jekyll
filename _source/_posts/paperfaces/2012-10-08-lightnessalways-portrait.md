@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Vamped out in costume"
-description: "PaperFaces portrait of @lightnessalways drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lightnessalways drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lightnessalways-twitter-lg.jpg
   thumb: paperfaces-lightnessalways-twitter-150.jpg

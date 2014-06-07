@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Hairs on fire"
-description: "PaperFaces portrait of @jr_plusplus drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jr_plusplus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jr-plusplus-twitter-lg.jpg
   thumb: paperfaces-jr-plusplus-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Naturally lit with sunlight"
-description: "PaperFaces portrait of @rossbelmont drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rossbelmont drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rossbelmont-twitter-lg.jpg
   thumb: paperfaces-rossbelmont-twitter-150.jpg

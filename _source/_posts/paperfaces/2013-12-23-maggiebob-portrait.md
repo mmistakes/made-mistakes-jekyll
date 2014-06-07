@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Purple frames"
-description: "PaperFaces portrait of @maggiebob drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @maggiebob drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-maggiebob-twitter-lg.jpg
   thumb: paperfaces-maggiebob-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dark haired girl in purple"
-description: "PaperFaces portrait of @superbeffie drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @superbeffie drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-superbeffie-twitter-lg.jpg
   thumb: paperfaces-superbeffie-twitter-150.jpg

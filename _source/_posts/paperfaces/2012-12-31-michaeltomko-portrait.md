@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Just married mustache lip disguises"
-description: "PaperFaces portrait of @michaeltomko drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @michaeltomko drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-michaeltomko-twitter-lg.jpg
   thumb: paperfaces-michaeltomko-twitter-150.jpg

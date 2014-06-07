@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Posterization"
-description: "PaperFaces portrait of @jhummel drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jhummel drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jhummel-twitter-lg.jpg
   thumb: paperfaces-jhummel-twitter-150.jpg

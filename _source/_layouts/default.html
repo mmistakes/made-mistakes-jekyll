@@ -1,23 +1,106 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7 no-js" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="lt-ie9 lt-ie8 no-js" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="lt-ie9 no-js" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    {% include open-graph.html %}
 
-{% include _head.html %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
-<body id="{{ page.body_id }}">
+    <link href="http://feeds.feedburner.com/MadeMistakes" type="application/atom+xml" rel="alternate" title="{{ site.title }} &#8211; Everything">
+    <link href="http://feeds.feedburner.com/MadeMistakesArticles" type="application/atom+xml" rel="alternate" title="{{ site.title }} &#8211; Articles">
+    <link href="http://feeds.feedburner.com/MadeMistakesMasteringPaper" type="application/atom+xml" rel="alternate" title="{{ site.title }} &#8211; Mastering Paper">
+    <link href="http://feeds.feedburner.com/MadeMistakesPaperFaces" type="application/atom+xml" rel="alternate" title="{{ site.title }} &#8211; PaperFaces Portraits">
 
-{% include _browser-upgrade.html %}
-{% include _navigation.html %}
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
 
-<div id="main" role="main">
-	{{ content }}
-</div><!-- /#main -->
+    <!-- Webmaster Tools verifications -->
+    {% if site.owner.google.verify %}<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
+    {% if site.owner.bing.verify %}<meta name="msvalidate.01" content="{{ site.owner.bing.verify }}">{% endif %}
+    {% if site.owner.alexa.verify %}<meta name="alexaVerifyID" content="{{ site.owner.alexa.verify }}">{% endif %}
 
-{% include _footer.html %}
+    <style>
+    .sliding-menu-content {
+      top: 0;
+      right: 0;
+      text-align: center;
+      visibility: hidden;
+      height: 100%;
+      width: 100%;
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      -o-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    </style>
 
-{% include _scripts.html %}
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
+    <![endif]-->
 
-</body>
+  </head>
+
+  <body>
+    {% include header.html %}
+    {% include navigation-sliding.html %}
+
+    <div id="page-wrapper">
+      {% include browser-upgrade.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+    </div>
+
+    <script src="//use.edgefonts.net/lato:n3,i3,n4,i4,n7.js"></script>
+    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="/js/main.js"></script>
+    
+    {% if page.toc == true %}
+    <script type="text/javascript">
+      $('.toc').toc({
+        'selectors': 'h2', //elements to use as headings
+        'container': '.page-content', //element to find all selectors in
+        'smoothScrolling': true, //enable or disable smooth scrolling on click
+        'prefix': 'toc', //prefix for anchor tags and class names
+        'onHighlight': function(el) {}, //called when a new section is highlighted 
+        'highlightOnScroll': true, //add class to heading that is currently in focus
+        'highlightOffset': 100, //offset to trigger the next headline
+        'anchorName': function(i, heading, prefix) { //custom function for anchor name
+          return prefix+i;
+        },
+        'headerText': function(i, heading, $heading) { //custom function building the header-item text
+          return $heading.text();
+        },
+        'itemClass': function(i, heading, $heading, prefix) { //custom function for item class
+          return $heading[0].tagName.toLowerCase();
+        }
+      });
+    </script>
+    {% endif %}
+
+    <!-- Google Universal Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{{ site.owner.google.analytics }}', 'mademistakes.com');
+      ga('require', 'linkid', 'linkid.js');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+
 </html>

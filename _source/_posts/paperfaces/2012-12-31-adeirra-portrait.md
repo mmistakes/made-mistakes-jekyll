@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Fancy pants hat tip"
-description: "PaperFaces portrait of @adeirra drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @adeirra drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-adeirra-twitter-lg.jpg
   thumb: paperfaces-adeirra-twitter-150.jpg

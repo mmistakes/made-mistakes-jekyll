@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Framed stuck tongue"
-description: "PaperFaces portrait of @maique drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @maique drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-maique-twitter-lg.jpg
   thumb: paperfaces-maique-twitter-150.jpg

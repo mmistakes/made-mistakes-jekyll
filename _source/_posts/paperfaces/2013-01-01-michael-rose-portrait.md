@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Self portrait of the scruffy artist"
-description: "PaperFaces portrait of a scruffy @mmistakes drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a scruffy @mmistakes drawn with Paper by 53 on an iPad."
 modified: 2013-06-05
 image: 
   feature: paperfaces-michael-rose-lg.jpg

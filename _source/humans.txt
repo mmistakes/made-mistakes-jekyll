@@ -15,7 +15,6 @@ _  ________ ____   _  ______________  _________
 
    Language:    English
    Built with:  Jekyll <http://jekyllrb.com>
-                LESS
                 jQuery
                 Magnific Popup <https://github.com/dimsemenov/Magnific-Popup>
                 FitVids <http://fitvidsjs.com>

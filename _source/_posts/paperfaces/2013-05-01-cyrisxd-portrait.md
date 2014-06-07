@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blazer and t-shirt"
-description: "PaperFaces portrait of @CyrisXD drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @CyrisXD drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cyrisxd-twitter-lg.jpg
   thumb: paperfaces-cyrisxd-twitter-150.jpg

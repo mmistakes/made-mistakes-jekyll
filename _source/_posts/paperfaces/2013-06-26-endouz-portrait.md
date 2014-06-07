@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Flickering lights of rain"
-description: "PaperFaces portrait of @endouz drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @endouz drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-endouz-twitter-lg.jpg
   thumb: paperfaces-endouz-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Nose ring smirk"
-description: "PaperFaces portrait of @minormiracle drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @minormiracle drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-minormiracle-twitter-lg.jpg
   thumb: paperfaces-minormiracle-twitter-150.jpg

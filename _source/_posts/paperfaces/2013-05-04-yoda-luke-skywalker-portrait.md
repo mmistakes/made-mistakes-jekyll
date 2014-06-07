@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "PaperFaces portrait of Yoda and Luke Skywalker"
-description: "PaperFaces portrait of Yoda and Luke Skywalker drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Yoda and Luke Skywalker drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-yoda-luke-skywalker-lg.jpg
   thumb: paperfaces-yoda-luke-skywalker-150.jpg

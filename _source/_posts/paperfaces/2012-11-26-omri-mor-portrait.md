@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sitting on some steps in black and white"
-description: "PaperFaces portrait of @omri_mor drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @omri_mor drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-omri-mor-twitter-lg.jpg
   thumb: paperfaces-omri-mor-twitter-150.jpg

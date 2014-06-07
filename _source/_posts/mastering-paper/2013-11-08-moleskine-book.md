@@ -1,24 +1,21 @@
 ---
-layout: post
+layout: article
 title: "Printing a Moleskine Book with Paper by 53"
-short-title: "Printing a Moleskine Book"
-description: "Impressions of a handmade Moleskine book printed with the iPad app Paper by 53."
+excerpt: "Impressions of a handmade Moleskine book printed with the iPad app Paper by 53."
 modified: 2014-01-17
 image: 
   feature: paper-53-book-feature.jpg
+  teaser: paper-53-book-teaser.jpg
   thumb: paper-53-book-thumb.jpg
 category: mastering-paper
 tags: [Moleskine, Paper by 53, book, printing, review, design]
-series: mastering-paper
 comments: true
+toc: true
 ---
 
 About a month ago FiftyThree added a highly requested feature to their award winning app Paper --- the ability to print a book. Being a graphic designer I was curious to see the quality of these custom printed Moleskine books first hand. Using a small sampling of my PaperFaces portraits I ordered[^book-disclosure] my first book two weeks ago along with a Mastering Paper book I'm still waiting on.
 
 [^book-disclosure]: In the spirit of full disclosure --- I was reimbursed the cost of two Books (plus shipping) created with Paper in exchange for sharing them through a short video and photographs. I was not compensated in any other way and all opinions and bad grammar are my own.
-
-* Table of Contents
-{:toc}
 
 ## Journal to Custom Printed Book
 

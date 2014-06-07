@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Walter White look a like?"
-description: "PaperFaces portrait of @PeSch67 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @PeSch67 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pesch67-twitter-lg.jpg
   thumb: paperfaces-pesch67-twitter-150.jpg

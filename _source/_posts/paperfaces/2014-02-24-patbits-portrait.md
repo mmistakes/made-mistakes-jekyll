@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "A slight grin"
-description: "PaperFaces portrait of @patbits drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @patbits drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-patbits-twitter-lg.jpg
   thumb: paperfaces-patbits-twitter-150.jpg

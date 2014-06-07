@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Stylized yellow flowers"
-description: "PaperFaces portrait of @StraatKatBasson drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @StraatKatBasson drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-straatkatbasson-twitter-lg.jpg
   thumb: paperfaces-straatkatbasson-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Long hair and blue striped shirt"
-description: "PaperFaces portrait of @lovisaslife drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lovisaslife drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lovisaslife-twitter-lg.jpg
   thumb: paperfaces-lovisaslife-twitter-150.jpg

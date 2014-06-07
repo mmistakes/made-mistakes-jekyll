@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white bearded fella wearing glasses"
-description: "PaperFaces portrait of @toberl drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @toberl drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-toberl-twitter-lg.jpg
   thumb: paperfaces-toberl-twitter-150.jpg

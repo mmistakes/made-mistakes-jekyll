@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Sunglass chillin friends"
-description: "PaperFaces portrait of @Ruth_Goodwin and friend drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Ruth_Goodwin and friend drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ruth-goodwin-2-twitter-lg.jpg
   thumb: paperfaces-ruth-goodwin-2-twitter-150.jpg

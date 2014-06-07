@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bird cage faux forest"
-description: "PaperFaces portrait of Catherine C. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Catherine C. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-catherine-c-lg.jpg
   thumb: paperfaces-catherine-c-150.jpg

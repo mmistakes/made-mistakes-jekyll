@@ -1,20 +1,21 @@
 ---
-layout: post
+layout: article
 title: "HPSTR, a Jekyll Theme"
-description: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliche look."
+excerpt: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché look."
 image: 
   feature: hpstr-theme-feature.jpg
-  homepage: hpstr-500x500.png
+  teaser: hpstr-theme-teaser.jpg
   thumb: hpstr-250x250.png
 category: articles
 tags: [Jekyll, web development, open source, GitHub]
-modified: 2014-02-28
+modified: 2014-06-03T15:00:20.052000-04:00
 comments: true
+toc: true
 ---
 
 They say three times the charm, so here is another free Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
 
-## HPSTR Theme Features:
+## Features
 
 * Responsive layouts. Looks good on mobile, tablets, and desktop devices.
 * Full compatibility with [GitHub Pages](http://pages.github.com/).
@@ -64,10 +65,14 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 
 ---
 
-## License
+## Questions?
 
-This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). Feel free to to modify it to suit your needs. 
+Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
 
 ---
+
+## License
+
+This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.  
 
 {% include support.html %}

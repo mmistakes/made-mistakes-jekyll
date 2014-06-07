@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Dark hair"
-description: "PaperFaces portrait of @marissa drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @marissa drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-marissa-twitter-lg.jpg
   thumb: paperfaces-marissa-twitter-150.jpg

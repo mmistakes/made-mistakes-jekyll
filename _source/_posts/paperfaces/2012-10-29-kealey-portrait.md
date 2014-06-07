@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "That's a really large atmark"
-description: "PaperFaces portrait of @kealey drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kealey drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kealey-twitter-lg.jpg
   thumb: paperfaces-kealey-twitter-150.jpg

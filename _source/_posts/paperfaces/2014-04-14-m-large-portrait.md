@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beard envy"
-description: "PaperFaces portrait of a M Large drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a M Large drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-m-large-lg.jpg
   thumb: paperfaces-m-large-150.jpg

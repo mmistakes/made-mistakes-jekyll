@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Half a shadow hawk"
-description: "PaperFaces portrait of @conrey drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @conrey drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-conrey-twitter-lg.jpg
   thumb: paperfaces-conrey-twitter-150.jpg

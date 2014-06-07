@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Rockin' some Spotify tunes in a scarf"
-description: "PaperFaces portrait of @davidpoblador drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @davidpoblador drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-davidpoblador-twitter-lg.jpg
   thumb: paperfaces-davidpoblador-twitter-150.jpg

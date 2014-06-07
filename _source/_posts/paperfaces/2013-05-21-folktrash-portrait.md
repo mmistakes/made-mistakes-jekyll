@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Working in grayscale is totally my jam"
-description: "PaperFaces portrait of @folktrash drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @folktrash drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-folktrash-twitter-lg.jpg
   thumb: paperfaces-folktrash-twitter-150.jpg

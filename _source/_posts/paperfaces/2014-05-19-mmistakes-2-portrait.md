@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Scruffy beard revisited"
-description: "Another PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
+excerpt: "Another PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mmistakes-2-twitter-lg.jpg
   thumb: paperfaces-mmistakes-2-twitter-150.jpg

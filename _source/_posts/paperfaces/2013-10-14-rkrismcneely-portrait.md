@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Drawing geometry"
-description: "PaperFaces portrait of @rkrismcneely drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rkrismcneely drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rkrismcneely-twitter-lg.jpg
   thumb: paperfaces-rkrismcneely-twitter-150.jpg

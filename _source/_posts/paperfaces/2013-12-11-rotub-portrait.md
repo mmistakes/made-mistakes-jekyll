@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Rohan robber"
-description: "PaperFaces portrait of @rotub drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rotub drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rotub-twitter-lg.jpg
   thumb: paperfaces-rotub-twitter-150.jpg

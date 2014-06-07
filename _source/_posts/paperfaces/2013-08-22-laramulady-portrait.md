@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Feet up relaxin'"
-description: "PaperFaces portrait of @laramulady drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @laramulady drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-laramulady-twitter-lg.jpg
   thumb: paperfaces-laramulady-twitter-150.jpg

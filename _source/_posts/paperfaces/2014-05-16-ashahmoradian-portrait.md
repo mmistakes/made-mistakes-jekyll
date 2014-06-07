@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Soft spot light"
-description: "PaperFaces portrait of @AShahmoradian drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @AShahmoradian drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ashahmoradian-twitter-lg.jpg
   thumb: paperfaces-ashahmoradian-twitter-150.jpg

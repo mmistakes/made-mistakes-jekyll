@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "No eyes, bright red lipstick"
-description: "PaperFaces portrait of @dicappucinos drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @dicappucinos drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dicappucinos-twitter-lg.jpg
   thumb: paperfaces-dicappucinos-twitter-150.jpg

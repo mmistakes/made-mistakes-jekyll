@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In front of a rock wall"
-description: "PaperFaces portrait of @torop4in drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @torop4in drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-torop4in-twitter-lg.jpg
   thumb: paperfaces-torop4in-twitter-150.jpg

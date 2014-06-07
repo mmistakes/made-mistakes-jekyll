@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The color of gravy"
-description: "PaperFaces portrait of Christianna P. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Christianna P. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-christianna-p-lg.jpg
   thumb: paperfaces-christianna-p-150.jpg

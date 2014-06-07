@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Feather necklace"
-description: "PaperFaces portrait of Bird O. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Bird O. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bird-o-lg.jpg
   thumb: paperfaces-bird-o-150.jpg

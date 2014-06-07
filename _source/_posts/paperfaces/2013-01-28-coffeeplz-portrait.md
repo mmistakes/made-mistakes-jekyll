@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "3/4 pose"
-description: "PaperFaces portrait of @Coffeeplz drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Coffeeplz drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-coffeeplz-twitter-lg.jpg
   thumb: paperfaces-coffeeplz-twitter-150.jpg

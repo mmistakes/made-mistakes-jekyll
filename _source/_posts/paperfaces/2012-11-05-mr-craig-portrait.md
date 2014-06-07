@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "In front of book shelves"
-description: "PaperFaces portrait of @mr_craig drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mr_craig drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mr-craig-twitter-lg.jpg
   thumb: paperfaces-mr-craig-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Side swept in a  hoodie"
-description: "PaperFaces portrait of @likejunx drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @likejunx drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-likejunx-twitter-lg.jpg
   thumb: paperfaces-likejunx-twitter-150.jpg

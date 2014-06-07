@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The kids and their Final Fantasies"
-description: "PaperFaces portrait of @Beautiful_Paine drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Beautiful_Paine drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-beautiful-paine-twitter-lg.jpg
   thumb: paperfaces-beautiful-paine-twitter-150.jpg

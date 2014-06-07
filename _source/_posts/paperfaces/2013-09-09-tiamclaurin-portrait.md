@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Brightly in blue"
-description: "PaperFaces portrait of @tiamclaurin drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tiamclaurin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tiamclaurin-twitter-lg.jpg
   thumb: paperfaces-tiamclaurin-twitter-150.jpg

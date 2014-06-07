@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Blue shirt"
-description: "PaperFaces portrait of @kerby drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @kerby drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kerby-twitter-lg.jpg
   thumb: paperfaces-kerby-twitter-150.jpg

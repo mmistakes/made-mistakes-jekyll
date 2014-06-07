@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Rated blue for bright"
-description: "PaperFaces portrait of Wendy Rose drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Wendy Rose drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-wendy-rose-sktchy-lg.jpg
   thumb: paperfaces-wendy-rose-sktchy-150.jpg

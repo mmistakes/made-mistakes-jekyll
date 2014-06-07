@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "The sun casts pale light"
-description: "PaperFaces portrait of @ellaweston drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ellaweston drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ellaweston-twitter-lg.jpg
   thumb: paperfaces-ellaweston-twitter-150.jpg

@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Going light on the color"
-description: "PaperFaces portrait of @dhrrgn drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @dhrrgn drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dhrrgn-twitter-lg.jpg
   thumb: paperfaces-dhrrgn-twitter-150.jpg

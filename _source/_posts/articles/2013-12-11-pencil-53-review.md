@@ -1,20 +1,19 @@
 ---
-layout: post
+layout: article
 title: "Pencil. The Best Stylus Built for Paper by 53?"
-description: "Impressions of FiftyThree's new Pencil stylus from the perspective of an avid Paper creator."
+excerpt: "Impressions of FiftyThree's new Pencil stylus from the perspective of an avid Paper creator."
 category: articles
 tags: [Pencil, Paper by 53, stylus, iPad, Blend, pen]
 modified: 2014-01-17
 image:
   feature: pencil-53-feature.jpg
+  teaser: pencil-53-teaser.jpg
   thumb: pencil-53-thumb.jpg
 comments: true
+toc: true
 ---
 
 For the last month I've had the privilege of using FiftyThree's [first hardware product](http://fiftythree.com/pencil), **Pencil**. A Bluetooth stylus that works exclusively with Paper for iPad, and delivers an experience unlike other styli on the market.
-
-* Table of Contents
-{:toc}
 
 ## Look and Feel
 
@@ -28,7 +27,7 @@ If you haven't noticed, Pencil is flat like a [carpenter pencil](http://en.wikip
 
 Between the two finishes, Walnut is lighter and softer to the touch with a wood texture allowing for more grip. Because of Graphite's slick finish I occasionally had to readjust how I held it. When trying to fill in large continuous tones of watercolor I noticed it sliding the most. Which was slightly annoying because I didn't want to lift the tip off the screen to readjust my grip, ruining the smooth tone I was painting.
 
-Similar to Paper, Pencil shares the same minimally designed aesthetic --- that means no buttons, no battery indicator lights[^led-light], and no on/off switches. I love how the UI in Paper doesn't get in your way, and it's refreshing that Pencil's design echoes this theme. Common tasks like erasing or [blending]({{ site.url }}{% post_url /articles/2013-11-20-blend-first-look %}) become more natural, without the need to open the tool tray or press buttons. Want to erase something? Flip Pencil upside down and erase a mistake like you would "in real life." Need to soften pencil strokes? Use your finger to smudge the pixels. 
+Similar to Paper, Pencil shares the same minimally designed aesthetic --- that means no buttons, no battery indicator lights[^led-light], and no on/off switches. I love how the UI in Paper doesn't get in your way, and it's refreshing that Pencil's design echoes this theme. Common tasks like erasing or [blending]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}) become more natural, without the need to open the tool tray or press buttons. Want to erase something? Flip Pencil upside down and erase a mistake like you would "in real life." Need to soften pencil strokes? Use your finger to smudge the pixels. 
 
 <figure>
 	<img src="{{ site.url }}/images/pencil-53-usb-charging.jpg" alt="Pencil's battery charging in USB port">
@@ -73,11 +72,11 @@ I've since modified how hard I press and am happy to report that the replacement
 
 ## Will it Blend?
 
-For me [Blend]({{ site.url }}{% post_url /articles/2013-11-20-blend-first-look %}) is the most exciting thing about Pencil. Sure a ton of other *art* apps have smudging and blending tools, but they all break the creative flow in their implementations. FiftyThree has made this valuable tool fun and more true to *real* drawing by allowing you to use your finger to blend while quickly switching back to Pencil to draw.
+For me [Blend]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}) is the most exciting thing about Pencil. Sure a ton of other *art* apps have smudging and blending tools, but they all break the creative flow in their implementations. FiftyThree has made this valuable tool fun and more true to *real* drawing by allowing you to use your finger to blend while quickly switching back to Pencil to draw.
 
 ![Blend speed comparison]({{ site.url }}/images/pencil-53-blend-comparison.jpg)
 
-If you take the time to experiment with Blend I think you'll find it fairly sophisticated. Moving your finger slowly allows the pixels beneath to be pulled around and smudged like finger paints. Moving your finger fast over an area slightly blurs it which I've found useful in creating [depth of field effects]({{ site.url }}{% post_url /articles/2013-11-20-blend-first-look %}).
+If you take the time to experiment with Blend I think you'll find it fairly sophisticated. Moving your finger slowly allows the pixels beneath to be pulled around and smudged like finger paints. Moving your finger fast over an area slightly blurs it which I've found useful in creating [depth of field effects]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}).
 
 ### Constant Pressure is the Key
 

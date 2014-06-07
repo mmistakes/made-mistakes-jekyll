@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Black and white, full frame"
-description: "PaperFaces portrait of @liamdaly drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @liamdaly drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-liamdaly-twitter-lg.jpg
   thumb: paperfaces-liamdaly-twitter-150.jpg

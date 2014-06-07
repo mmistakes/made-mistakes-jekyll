@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Beard over the shoulder"
-description: "PaperFaces portrait of @matthewrex drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @matthewrex drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-matthewrex-twitter-lg.jpg
   thumb: paperfaces-matthewrex-twitter-150.jpg

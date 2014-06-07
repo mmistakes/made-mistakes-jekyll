@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Bright colors and bokeh"
-description: "PaperFaces portrait of a Bill Liu drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Bill Liu drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bill-liu-lg.jpg
   thumb: paperfaces-bill-liu-150.jpg

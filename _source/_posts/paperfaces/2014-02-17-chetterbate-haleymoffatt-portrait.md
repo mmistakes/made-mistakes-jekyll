@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Smile and blush"
-description: "PaperFaces portrait of Chad and Haley drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Chad and Haley drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-haley-couple-lg.jpg
   thumb: paperfaces-haley-couple-150.jpg

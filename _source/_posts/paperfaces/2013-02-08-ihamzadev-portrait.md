@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Glasses with red headphones"
-description: "PaperFaces portrait of @ihamzadev drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ihamzadev drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ihamzadev-twitter-lg.jpg
   thumb: paperfaces-ihamzadev-twitter-150.jpg

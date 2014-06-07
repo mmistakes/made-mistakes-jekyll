@@ -1,12 +1,12 @@
 ---
-layout: post
-title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
-description: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
+layout: article
+title: "Wendy's Bird Cage & Flying Birds Tattoos"
+excerpt: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
 modified: 2013-04-26
 category: articles
 image: 
-  feature: bird-cage-tattoo-healed-xl.jpg
-  small: bird-cage-tattoo-340x100.jpg
+  feature: bird-cage-tattoo-healed-feature.jpg
+  teaser: bird-cage-tattoo-teaser.jpg
   thumb: bird-tattoo-340x340.jpg
 tags: [bird, tattoo, bird cage, vegan, trees, Michael Rose]
 ---

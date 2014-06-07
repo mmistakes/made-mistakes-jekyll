@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Clapping. Let's clap."
-description: "PaperFaces portrait of @katypegg drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @katypegg drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-katypegg-twitter-lg.jpg
   thumb: paperfaces-katypegg-twitter-150.jpg

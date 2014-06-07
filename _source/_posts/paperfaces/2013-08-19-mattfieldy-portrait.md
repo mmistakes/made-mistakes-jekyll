@@ -1,7 +1,7 @@
 ---
-layout: work
+layout: media
 title: "Pixelated beard"
-description: "PaperFaces portrait of @mattfieldy drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mattfieldy drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mattfieldy-twitter-lg.jpg
   thumb: paperfaces-mattfieldy-twitter-150.jpg
