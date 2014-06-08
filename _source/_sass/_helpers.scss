@@ -32,9 +32,11 @@
 }
 
 // shorten length to improve readability
-@include media($medium) {
+@include media($large) {
   .shorten {
-    width: percentage(8/12);
+    @include row($direction: RTL);
+    @include span-columns(9);
+    @include shift(3);
   }
 }
 

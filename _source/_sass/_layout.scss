@@ -149,7 +149,7 @@
 		h2 {
 			font-weight: 400;
 			margin-top: 0;
-			@include media($medium) {
+			@include media($large) {
 				@include span-columns(9);
 				@include shift(3);
 			}
