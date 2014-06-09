@@ -1,7 +1,7 @@
 ---
 layout: media
 title: "Happy doll"
-excerpt: "PaperFaces portrait of @tyrol-mr drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @tyrol_mr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tyrol-mr-twitter-lg.jpg
   teaser: paperfaces-tyrol-mr-twitter-teaser.jpg
