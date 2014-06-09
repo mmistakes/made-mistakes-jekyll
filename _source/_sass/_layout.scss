@@ -2,40 +2,44 @@
 // --------------------------------------------------
 
 #masthead {
-	padding: $gutter;
-	z-index: 5;
-	@include transform(translate(0,0));
-	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
-	&.slide {
-		@include transform(translate(-1600px,0));
-	}
-	.inner-wrap {
-		@include outer-container;
-	}
+    padding: $gutter;
+    z-index: 5;
+    @include transform(translate(0,0));
+    @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+    &.slide {
+        @include transform(translate(-1600px,0));
+    }
+    .inner-wrap {
+        @include outer-container;
+    }
 }
 .logo-wrap {
-	@include row;
-	@include media($large) {
-		@include span-columns(4);
-	}
+    @include row;
+    @include media($large) {
+        @include span-columns(4);
+    }
 }
 .site-logo {
-	float: left;
-	margin-right: 10px;
-	width: 60px;
-	height: 60px;
+    display: none;
+    @include media($medium) {
+        display: block;
+        float: left;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+    }
 }
 .site-title {
-	float: left;
-	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
-	height: $masthead-height;
-	text-decoration: none;
-	color: $black;
-	font-family: $alt-font;
-	font-weight: 700;
-	@include font-size(20,no);
-	line-height: .5 * $masthead-height; // half the height to center vertically
-	text-transform: uppercase;
+    float: left;
+    padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
+    height: $masthead-height;
+    text-decoration: none;
+    color: $black;
+    font-family: $alt-font;
+    font-weight: 700;
+    @include font-size(20,no);
+    line-height: .5 * $masthead-height; // half the height to center vertically
+    text-transform: uppercase;
 }
 
 
@@ -43,80 +47,80 @@
 // --------------------------------------------------
 
 .menu {
-	li {
-		float: left;
-		&:last-child a {
-			@include media($medium) {
-				margin-right: 0; // remove spacing from last menu link
-			}
-		}
-		a {
-			// line hover effect
-			position: relative;
-			display: block;
-			margin-right: $gutter;
-			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
-			height: $masthead-height;
-			font-family: $alt-font;
-			&:before,
-			&:after {
-				content: '';
-				display: block;
-				position: absolute;
-				top: 0;
-				left: 0;
-				height: 2px;
-				@include transition(width 0.3s);
-			}
-			&:before {
-				width: 100%;
-				background: transparent;
-			}
-			&:after {
-				width: 0;
-				background: $black;
-			}
-			&:active:after,
-			&:hover:after {
-				width: 100%;
-			}
-		}
-	}
+    li {
+        float: left;
+        &:last-child a {
+            @include media($medium) {
+                margin-right: 0; // remove spacing from last menu link
+            }
+        }
+        a {
+            // line hover effect
+            position: relative;
+            display: block;
+            margin-right: $gutter;
+            padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
+            height: $masthead-height;
+            font-family: $alt-font;
+            &:before,
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 2px;
+                @include transition(width 0.3s);
+            }
+            &:before {
+                width: 100%;
+                background: transparent;
+            }
+            &:after {
+                width: 0;
+                background: $black;
+            }
+            &:active:after,
+            &:hover:after {
+                width: 100%;
+            }
+        }
+    }
 }
 
 .top-menu {
-	display: none;
-	position: relative;
-	@include media($medium) {
-		@include span-columns(12);
-	}
-	@include media($large) {
-		@include span-columns(7);
-		ul {
-			position: absolute;
-			right: 0;
-		}
-	}
-	.home,
-	.sub-menu-item {
-		display: none;
-	}
-	li {
-		a {
-			font-weight: 700;
-			@include font-size(16,no);
-			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $black;
-			text-transform: uppercase;
-		}
-	}
+    display: none;
+    position: relative;
+    @include media($medium) {
+        @include span-columns(12);
+    }
+    @include media($large) {
+        @include span-columns(7);
+        ul {
+            position: absolute;
+            right: 0;
+        }
+    }
+    .home,
+    .sub-menu-item {
+        display: none;
+    }
+    li {
+        a {
+            font-weight: 700;
+            @include font-size(16,no);
+            line-height: .5 * $masthead-height; // half the height to center vertically
+            color: $black;
+            text-transform: uppercase;
+        }
+    }
 }
 .bottom-menu {
-	@include clearfix;
-	font-weight: 700;
-	a {
-		color: lighten($black,60);
-	}
+    @include clearfix;
+    font-weight: 700;
+    a {
+        color: lighten($black,60);
+    }
 }
 
 
@@ -124,15 +128,15 @@
 // --------------------------------------------------
 
 #page-wrapper {
-	padding: 0 $gutter; // add white space for smaller screens
-	@include size(100% 100%);
-	-webkit-overflow-scrolling: touch;
-	z-index: 2;
-	@include transform(translate(0,0));
-	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
-	&.slide {
-		@include transform(translate(-60rem,0));
-	}
+    padding: 0 $gutter; // add white space for smaller screens
+    @include size(100% 100%);
+    -webkit-overflow-scrolling: touch;
+    z-index: 2;
+    @include transform(translate(0,0));
+    @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+    &.slide {
+        @include transform(translate(-60rem,0));
+    }
 }
 
 
@@ -140,10 +144,10 @@
 // --------------------------------------------------
 
 .upgrade {
-	text-align: center;
-	a {
-		text-decoration: none;
-	}
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
 }
 
 
@@ -151,335 +155,335 @@
 // --------------------------------------------------
 
 #main {
-	.inner-wrap {
-		@include media($medium) {
-			@include span-columns(9);
-		}
-	}
-	.toc {
-		@include media($medium) {
-			@include row($direction: RTL);
-		}
-		@include media($large) {
-			@include span-columns(2 of 9);
-		}
-	}
-	.page-title {
-		@include fill-parent;
-		h2 {
-			font-weight: 400;
-			margin-top: 0;
-			@include media($large) {
-				@include span-columns(9);
-				@include shift(3);
-			}
-		}
-	}
-	@at-root {
-		.page-content {
-			@include media($medium) {
-				@include row($direction: RTL);
-				//@include span-columns(7 of 9);
-			}
-			@include media($large) {
-				@include span-columns(7 of 9);
-			}
-			// larger font for intro paragraph
-			> p {
-				&:first-child {
-					@include font-size(20,yes,30);
-				}
-			}
-			// cleaner underlines for links
-			a { text-decoration: none; }
-			p > a,
-			li > a {
-				border-bottom: 1px dotted lighten($link-color, 50);
-				&:hover {
-					border-bottom-style: solid;
-				}
-			}
-			p > a.reversefootnote {
-				border-bottom-width: 0;
-			}
-			// Captions
-			figcaption {
-				padding-left: 2 * $gutter;
-				padding-right: 2 * $gutter;
-				font-family: $alt-font;
-				@include font-size(12,no,15);
-				color: lighten($text-color, 10);
-				text-align: center;
-				clear: both;
-				@include media($large) {
-					position: absolute;
-					top: 1px;
-					right: (3 * $column + $gutter) * -1;
-					padding-top: 10px;
-					padding-left: 0;
-					padding-right: 0;
-					width: (3 * $column);
-					text-align: left;
-					&:before {
-						content: '';
-						position: absolute;
-						top: 0;
-						left: 0;
-						width: 50px;
-						height: 1px;
-						background: lighten($black, 70);
-					}
-				}
-				a {
-					text-decoration: none;
-				}
-			}
-			.page-footer,
-			.pagination {
-				@include fill-parent;
-			}
-			.page-meta {
-				span {
-					@include font-size(14,no);
-					font-family: $alt-font;
-					color: lighten($black,60);
-					a {
-						color: lighten($black,60);
+    .inner-wrap {
+        @include media($medium) {
+            @include span-columns(9);
+        }
+    }
+    .toc {
+        @include media($medium) {
+            @include row($direction: RTL);
+        }
+        @include media($large) {
+            @include span-columns(2 of 9);
+        }
+    }
+    .page-title {
+        @include fill-parent;
+        h2 {
+            font-weight: 400;
+            margin-top: 0;
+            @include media($large) {
+                @include span-columns(9);
+                @include shift(3);
+            }
+        }
+    }
+    @at-root {
+        .page-content {
+            @include media($medium) {
+                @include row($direction: RTL);
+                //@include span-columns(7 of 9);
+            }
+            @include media($large) {
+                @include span-columns(7 of 9);
+            }
+            // larger font for intro paragraph
+            > p {
+                &:first-child {
+                    @include font-size(20,yes,30);
+                }
+            }
+            // cleaner underlines for links
+            a { text-decoration: none; }
+            p > a,
+            li > a {
+                border-bottom: 1px dotted lighten($link-color, 50);
+                &:hover {
+                    border-bottom-style: solid;
+                }
+            }
+            p > a.reversefootnote {
+                border-bottom-width: 0;
+            }
+            // Captions
+            figcaption {
+                padding-left: 2 * $gutter;
+                padding-right: 2 * $gutter;
+                font-family: $alt-font;
+                @include font-size(12,no,15);
+                color: lighten($text-color, 10);
+                text-align: center;
+                clear: both;
+                @include media($large) {
+                    position: absolute;
+                    top: 1px;
+                    right: (3 * $column + $gutter) * -1;
+                    padding-top: 10px;
+                    padding-left: 0;
+                    padding-right: 0;
+                    width: (3 * $column);
+                    text-align: left;
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 50px;
+                        height: 1px;
+                        background: lighten($black, 70);
+                    }
+                }
+                a {
+                    text-decoration: none;
+                }
+            }
+            .page-footer,
+            .pagination {
+                @include fill-parent;
+            }
+            .page-meta {
+                span {
+                    @include font-size(14,no);
+                    font-family: $alt-font;
+                    color: lighten($black,60);
+                    a {
+                        color: lighten($black,60);
 
-					}
-				}
-			}
-		}
-	}
-	@at-root {
-		.archive-wrap {
-			@include fill-parent;
-			h3 {
-				@include font-size(16);
-				text-transform: uppercase;
-			}
-			.page-content {
-				@include reset-all;
-				@include fill-parent;
-			}
-		}
-	}
-	.ads {
-		position: relative;
-		text-align: center;
-		margin-top: $gutter;
-		margin-left: -$gutter;
-		margin-right: -$gutter;
-		padding: 10px 0 20px;
-		background: lighten($border-color,5);
-		@include media($medium) {
-			@include span-columns(3);
-			margin-left: 0;
-			margin-right: 0;
-		}
-		&:after {
-			content: 'Advertisement';
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-			text-align: center;
-			display: block;
-			@include font-size(9,no);
-			font-family: $alt-font;
-		}
-		ins {
-			border-width: 0;
-		}
-	}
+                    }
+                }
+            }
+        }
+    }
+    @at-root {
+        .archive-wrap {
+            @include fill-parent;
+            h3 {
+                @include font-size(16);
+                text-transform: uppercase;
+            }
+            .page-content {
+                @include reset-all;
+                @include fill-parent;
+            }
+        }
+    }
+    .ads {
+        position: relative;
+        text-align: center;
+        margin-top: $gutter;
+        margin-left: -$gutter;
+        margin-right: -$gutter;
+        padding: 10px 0 20px;
+        background: lighten($border-color,5);
+        @include media($medium) {
+            @include span-columns(3);
+            margin-left: 0;
+            margin-right: 0;
+        }
+        &:after {
+            content: 'Advertisement';
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            display: block;
+            @include font-size(9,no);
+            font-family: $alt-font;
+        }
+        ins {
+            border-width: 0;
+        }
+    }
 }
 // page header
 .page-feature {
-	@include fill-parent;
-	// expand image to cover full width of header
-	img {
-		width: 100%;
-	}
+    @include fill-parent;
+    // expand image to cover full width of header
+    img {
+        width: 100%;
+    }
 }
 // make image flush with edges on small screens
-.page-image {	
-	position: relative;
-	margin-left: -1 * $gutter;
-	margin-right: -1 * $gutter;
-	// Feature Image Caption
-	.image-credit {
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		margin: 0 auto;
-		padding: 10px 15px;
-		background-color: rgba($black,.5);
-		color: $white;
-		font-family: $alt-font;
-		@include font-size(12,no);
-		text-align: right;
-		z-index: 10;
-		a {
-			color: $white;
-			text-decoration: none;
-		}
-	}
+.page-image {   
+    position: relative;
+    margin-left: -1 * $gutter;
+    margin-right: -1 * $gutter;
+    // Feature Image Caption
+    .image-credit {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 10px 15px;
+        background-color: rgba($black,.5);
+        color: $white;
+        font-family: $alt-font;
+        @include font-size(12,no);
+        text-align: right;
+        z-index: 10;
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
 }
 // breadcrumbs
 .breadcrumbs { 
-	@include row;
-	margin-top: $gutter;
-	@include font-size(10,no);
-	a {
-		display: inline-block;
-		font-family: $alt-font;
-		font-weight: 700;
-		text-align: left;
-		text-transform: uppercase;
-	}
+    @include row;
+    margin-top: $gutter;
+    @include font-size(10,no);
+    a {
+        display: inline-block;
+        font-family: $alt-font;
+        font-weight: 700;
+        text-align: left;
+        text-transform: uppercase;
+    }
 }
 // table of contents
 .toc {
-	min-height: 1px;
-	ul {
-		margin-top: $gutter;
-		border: 1px solid $border-color;
-		border-radius: $border-radius;
-	}
-	li {
-		@include font-size(12,no,16);
-		border-bottom: 1px solid $border-color;
-	}
-	font-family: $alt-font;
-	a {
-		display: block;
-		padding: (.25 * $gutter) (.5 * $gutter);
-		border-left: 2px solid transparent;
-		&:hover,
-		&:focus {
-			background: lighten($border-color,5);
-		}
-	}
+    min-height: 1px;
+    ul {
+        margin-top: $gutter;
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+    }
+    li {
+        @include font-size(12,no,16);
+        border-bottom: 1px solid $border-color;
+    }
+    font-family: $alt-font;
+    a {
+        display: block;
+        padding: (.25 * $gutter) (.5 * $gutter);
+        border-left: 2px solid transparent;
+        &:hover,
+        &:focus {
+            background: lighten($border-color,5);
+        }
+    }
 }
 // tiles
 .tile {
-	@include outer-container;
-	margin-bottom: $gutter;
-	@include media($micro) {
-		@include fill-parent;
-	}
-	@include media($small) {
-		@include span-columns(6);
-		@include omega(2n);
-	}
-	@include media($medium) {
-		@include span-columns(3);
-		@include omega(4n);
-	}
-	.entry-date {
-		@include font-size(16,no);
-		color: lighten($text-color,25);
-	}
-	.post-title {
-		@include font-size(18,no);
-	}
-	.post-excerpt {
-		@include font-size(14);
-	}
-	.post-teaser {
-		position: relative;
-		display: block;
-		overflow: hidden;
-		@include backface-visibility(hidden); //fix flicker on hover
-		img {
-			@include transition(transform 0.3s);
-		}
-		&:after {
-			content: '';
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			background: rgba($base-color,0);
-			pointer-events: none;
-			@include transition(background 0.3s);
-		}
-		&:hover {
-			img {
-				@include transform(scale(1.5));
-			}
-			&:after {
-				background: rgba($black,0.7);
-				content: '\f05a';
-				color: $white;
-				font-family: FontAwesome;
-				@include font-size(48,no);
-				line-height: .5;
-				text-transform: uppercase;
-				text-align: center;
-				padding-top: 25%;
-			}
-		}
-	}
+    @include outer-container;
+    margin-bottom: $gutter;
+    @include media($micro) {
+        @include fill-parent;
+    }
+    @include media($small) {
+        @include span-columns(6);
+        @include omega(2n);
+    }
+    @include media($medium) {
+        @include span-columns(3);
+        @include omega(4n);
+    }
+    .entry-date {
+        @include font-size(16,no);
+        color: lighten($text-color,25);
+    }
+    .post-title {
+        @include font-size(18,no);
+    }
+    .post-excerpt {
+        @include font-size(14);
+    }
+    .post-teaser {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        @include backface-visibility(hidden); //fix flicker on hover
+        img {
+            @include transition(transform 0.3s);
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba($base-color,0);
+            pointer-events: none;
+            @include transition(background 0.3s);
+        }
+        &:hover {
+            img {
+                @include transform(scale(1.5));
+            }
+            &:after {
+                background: rgba($black,0.7);
+                content: '\f05a';
+                color: $white;
+                font-family: FontAwesome;
+                @include font-size(48,no);
+                line-height: .5;
+                text-transform: uppercase;
+                text-align: center;
+                padding-top: 25%;
+            }
+        }
+    }
 }
 // tag links
 .tag-box {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	@include clearfix;
-	li {
-		display: inline-block;
-		@include font-size(14,7);
-	}
-	a { 
-		padding: 4px 6px;
-		margin: 2px;
-		background-color: lighten($black,80);
-		border-radius: $border-radius;
-		text-decoration: none;
-		border-bottom: 0 solid transparent;
-		span { 
-			vertical-align: super;
-			@include font-size(10);
-		}
-	}
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    @include clearfix;
+    li {
+        display: inline-block;
+        @include font-size(14,7);
+    }
+    a { 
+        padding: 4px 6px;
+        margin: 2px;
+        background-color: lighten($black,80);
+        border-radius: $border-radius;
+        text-decoration: none;
+        border-bottom: 0 solid transparent;
+        span { 
+            vertical-align: super;
+            @include font-size(10);
+        }
+    }
 }
 // footnotes
 .footnotes {
-	font-family: $alt-font;
-	p, li {
-		@include font-size(12,no);
-	}
-	&:before {
-		content: 'Footnotes:';
-		font-weight: 700;
-	}
+    font-family: $alt-font;
+    p, li {
+        @include font-size(12,no);
+    }
+    &:before {
+        content: 'Footnotes:';
+        font-weight: 700;
+    }
 }
 // page footer
 .page-footer {
-	position: relative;
+    position: relative;
 }
 .author-image {
-	position: absolute;
-	left: 0;
-	img {
-		width: 80px;
-		height: 80px;
-		border-radius: $border-radius;
-	}
+    position: absolute;
+    left: 0;
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: $border-radius;
+    }
 }
 .author-content {
-	word-wrap: break-word;
-	padding-left: 100px; //avatar width + 20px padding
-	min-height: 80px; //mirrors avatar height
+    word-wrap: break-word;
+    padding-left: 100px; //avatar width + 20px padding
+    min-height: 80px; //mirrors avatar height
 }
 .author-name {
-	@include font-size(20,no);
+    @include font-size(20,no);
 }
 .author-bio {
-	margin-top: 0;
-	@include font-size(16);
+    margin-top: 0;
+    @include font-size(16);
 }
 
 
@@ -487,23 +491,23 @@
 // --------------------------------------------------
 
 #scroll-cue {
-	position: fixed;
-	bottom: 100px;
-	@include media($short) {
-		bottom: 0;
-	}
-	left: 50%;
-	width: 2 * $button-size;
-	height: 2 * $button-size;
-	text-align: center;
-	cursor: pointer;
-	color: $white;
-	@include font-size(12);
-	font-family: $alt-font;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	letter-spacing: 2px;
+    position: fixed;
+    bottom: 100px;
+    @include media($short) {
+        bottom: 0;
+    }
+    left: 50%;
+    width: 2 * $button-size;
+    height: 2 * $button-size;
+    text-align: center;
+    cursor: pointer;
+    color: $white;
+    @include font-size(12);
+    font-family: $alt-font;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
 }
 
 
@@ -511,40 +515,40 @@
 // --------------------------------------------------
 
 .palette {
-	width: 100%;
-	background: #171716 url("../images/paper-53-palette-bk.png");
-	border-radius: 10px;
-	.row {
-		@include clearfix;
-		padding: 5px 0;
-		width: 100%;
-		text-align: center;
-		a {
-			margin: 5px;
-		}
-	}
-	// spacing above and below rows
-	div:first-child {
-		padding-top: 10px;
-	}
-	div:last-child {
-		padding-bottom: 10px;
-	}
-	.swatch {
-		width: 70px;
-		height: 70px;
-		margin: 0 auto;
-		border-radius: 70px;
-		border: 3px solid $black;
-		&:hover {
-			border: 3px solid $white;
-		}
-		@include media($medium) {
-			width: 110px;
-			height: 110px;
-			border-radius: 110px;
-		}
-	}
+    width: 100%;
+    background: #171716 url("../images/paper-53-palette-bk.png");
+    border-radius: 10px;
+    .row {
+        @include clearfix;
+        padding: 5px 0;
+        width: 100%;
+        text-align: center;
+        a {
+            margin: 5px;
+        }
+    }
+    // spacing above and below rows
+    div:first-child {
+        padding-top: 10px;
+    }
+    div:last-child {
+        padding-bottom: 10px;
+    }
+    .swatch {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        border-radius: 70px;
+        border: 3px solid $black;
+        &:hover {
+            border: 3px solid $white;
+        }
+        @include media($medium) {
+            width: 110px;
+            height: 110px;
+            border-radius: 110px;
+        }
+    }
 }
 
 
@@ -552,17 +556,17 @@
 // --------------------------------------------------
 
 #site-footer {
-	@include outer-container;
-	margin-top: (3 * (0px + $doc-line-height));
-	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	padding-bottom: $gutter;
-	font-family: $alt-font;
-	.copyright {
-		@include font-size(12);
-		color: lighten($black,60);
-		a {
-			color: lighten($black,60);
-			text-decoration: none;
-		}
-	}
+    @include outer-container;
+    margin-top: (3 * (0px + $doc-line-height));
+    margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
+    padding-bottom: $gutter;
+    font-family: $alt-font;
+    .copyright {
+        @include font-size(12);
+        color: lighten($black,60);
+        a {
+            color: lighten($black,60);
+            text-decoration: none;
+        }
+    }
 }
