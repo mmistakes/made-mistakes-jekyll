@@ -13,11 +13,20 @@
 		@include outer-container;
 	}
 }
-.site-title {
+.logo-wrap {
 	@include row;
 	@include media($large) {
 		@include span-columns(4);
 	}
+}
+.site-logo {
+	float: left;
+	margin-right: 10px;
+	width: 60px;
+	height: 60px;
+}
+.site-title {
+	float: left;
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;

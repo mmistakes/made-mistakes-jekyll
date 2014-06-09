@@ -1,6 +1,9 @@
 <header id="masthead">
   <div class="inner-wrap">
-    <a href="/" class="site-title">{{ site.title }}</a>
+    <div class="logo-wrap">
+      <a href="/" class="site-logo"><img src="/images/mm-logo-circle.svg" onerror="this.onerror=null; this.src='/images/mm-logo-circle.png'" alt="logo" width="60" height="60"></a>
+      <a href="/" class="site-title">{{ site.title }}</a>
+    </div>
     <nav role="navigation" class="menu top-menu">
         {% include navigation.html %}
     </nav>
