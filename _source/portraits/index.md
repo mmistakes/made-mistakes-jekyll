@@ -8,7 +8,7 @@ image:
   teaser: portrait-teaser.jpg
 tags: [portrait, Paper by 53, drawing, painting, iPad, commission]
 ads: false
-homepage: true
+id: portraits
 ---
 
 Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how you go about commissioning one.

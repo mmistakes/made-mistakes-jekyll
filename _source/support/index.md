@@ -9,6 +9,7 @@ image:
   teaser:
   thumb:
 share: false
+id: support
 ---
 
 Found one of my Paper by 53 tutorials or Jekyll themes useful? If you feel inclined, here's how you can show your gratitude.

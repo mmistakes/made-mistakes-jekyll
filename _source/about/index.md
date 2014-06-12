@@ -11,6 +11,7 @@ image:
   thumb: about-thumb.jpg
 ads: false
 share: false
+id: about
 ---
 
 ## And Who Are You Again?

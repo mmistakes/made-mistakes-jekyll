@@ -382,6 +382,9 @@
     .entry-date {
         @include font-size(16,no);
         color: lighten($text-color,25);
+        @at-root #home & {
+          display: none;
+        }
     }
     .post-title {
         @include font-size(18,no);

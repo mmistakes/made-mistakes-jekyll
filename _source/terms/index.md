@@ -11,6 +11,7 @@ image:
   thumb:
 toc: true
 share: false
+id: terms
 ---
 
 This is my personal website written and edited by me. 

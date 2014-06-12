@@ -9,6 +9,7 @@ image:
   feature:
   teaser:
   thumb:
+id: work
 ---
 
 <div class="tiles">
