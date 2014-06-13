@@ -385,6 +385,9 @@
         @at-root #home & {
           display: none;
         }
+        @at-root #work & {
+          display: none;
+        }
     }
     .post-title {
         @include font-size(18,no);
