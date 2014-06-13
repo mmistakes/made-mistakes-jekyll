@@ -3,31 +3,31 @@
 
 .linenos,
 .code {
-	padding: 0;
-	border-top: 0 solid transparent;
-	border-bottom: 0 solid transparent;
+  padding: 0;
+  border-top: 0 solid transparent;
+  border-bottom: 0 solid transparent;
 }
 
 .highlight {
-	overflow-x: auto;
-	@include font-size(16,no);
-	border: 1px solid darken($body-color, 5);
-	border-radius: $border-radius;
-	pre {
-		position: relative;
-		margin: 0;
-		padding: 1em;
-	}
-	&:hover {
-		border: 1px solid $form-border-color-hover;
-	}
+  overflow-x: auto;
+  @include font-size(16,no);
+  border: 1px solid darken($body-color, 5);
+  border-radius: $border-radius;
+  pre {
+    position: relative;
+    margin: 0;
+    padding: 1em;
+  }
+  &:hover {
+    border: 1px solid $form-border-color-hover;
+  }
 }
 
 .highlighttable {
-	tr:hover>td,
-	tr:hover>th {
-		background: transparent
-	}
+  tr:hover>td,
+  tr:hover>th {
+    background: transparent
+  }
 }
 
 .hll { background-color: #ffffcc }

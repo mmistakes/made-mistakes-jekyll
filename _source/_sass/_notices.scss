@@ -2,37 +2,37 @@
 // --------------------------------------------------
 
 @mixin notice($notice-color) {
-	position: relative;
-	padding: 1.5em;
-	font-family: $alt-font;
-	@include font-size(14,39);
-	color: $white;
-	background-color: $notice-color;
-	border-radius: $border-radius;
-	a {
-		color: $white;
-		border-bottom: 1px dotted $white;
-	}
+  position: relative;
+  padding: 1.5em;
+  font-family: $alt-font;
+  @include font-size(14,39);
+  color: $white;
+  background-color: $notice-color;
+  border-radius: $border-radius;
+  a {
+    color: $white;
+    border-bottom: 1px dotted $white;
+  }
 }
 .notice {
-	@include notice($primary-color);
+  @include notice($primary-color);
 }
 .notice-inverse {
-	@include notice($white);
-	color: $text-color;
-	a {
-		color: $text-color;
-	}
+  @include notice($white);
+  color: $text-color;
+  a {
+    color: $text-color;
+  }
 }
 .notice-info {
-	@include notice($info-color);
+  @include notice($info-color);
 }
 .notice-warning {
-	@include notice($warning-color);
+  @include notice($warning-color);
 }
 .notice-success {
-	@include notice($success-color);
+  @include notice($success-color);
 }
 .notice-danger {
-	@include notice($danger-color);
+  @include notice($danger-color);
 }

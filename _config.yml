@@ -39,21 +39,21 @@ disqus-shortname: mmistakes
 # Sitemap generator plugin
 
 sitemap:
-    url: http://mademistakes.com
-    file: "/sitemap.xml"
-    exclude:
-        - "/css/main.scss"
-        - "/404/index.md"
-        - "/atom.xml"
-        - "/articles-feed.xml"
-        - "/paperfaces-feed.xml"
-        - "/mastering-paper-feed.xml"
-    include_posts:
-        - "/articles/index.md"
-        - "/tag/index.md"
-        - "/work/index.md"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+  url: http://mademistakes.com
+  file: "/sitemap.xml"
+  exclude:
+    - "/css/main.scss"
+    - "/404/index.md"
+    - "/atom.xml"
+    - "/articles-feed.xml"
+    - "/paperfaces-feed.xml"
+    - "/mastering-paper-feed.xml"
+  include_posts:
+    - "/articles/index.md"
+    - "/tag/index.md"
+    - "/work/index.md"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
 
 
 include: [".htaccess"]
