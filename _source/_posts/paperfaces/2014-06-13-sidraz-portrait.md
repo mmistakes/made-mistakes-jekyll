@@ -10,7 +10,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait commission of [@sidraz](http://twitter.com/sidraz).
+PaperFaces portrait of [@sidraz](http://twitter.com/sidraz).
 
 {% include paperfaces-boilerplate-2.html %}
 
