@@ -3,6 +3,7 @@ layout: media
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
+modified: 2014-06-17T15:38:33.418000-04:00
 image: 
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
@@ -15,6 +16,26 @@ ads: true
 As I continue to hack away at the design of Made Mistakes and improve on things, I've tried to release a simplified Jekyll starter after each major revision. Just my way of giving back to the community.
 
 Below are all of the Jekyll starters I've open sourced thus far. Each "theme" contains all the `_layouts`, `_includes`, assets, and sample posts/pages to get you started. For the most part they share a lot of similarities (especially in `_config.yml`), which should make switching and updating easier. Not quite on the level of [Octopress](http://octopress.org/) or [Jekyll Bootstrap](http://jekyllbootstrap.com/), but I think they get the job done.
+
+## Skinny Bones (alpha)
+
+<figure>
+	<img src="{{ site.url }}/images/skinny-bones-theme-feature.jpg" alt="Skinny Bones feature image">
+</figure>
+
+Not quite ready for prime time because it requires Jekyll 2 --- which hasn't rolled out to GitHub Pages yet. But if you want to tinker around with it locally or host on your own server fork away. Full documentation coming soon...
+
+* Minimal design meant to be hacked up and customized
+* Built in support for Sass (via Jekyll 2+)
+* Off canvas menu
+* Tile based archives
+* Optional table of contents, ads, and Disqus comments modules
+
+<div markdown="0">
+	<a href="https://github.com/mmistakes/skinny-bones-jekyll" class="btn">Download</a>
+</div>
+
+---
 
 ## HPSTR
 
