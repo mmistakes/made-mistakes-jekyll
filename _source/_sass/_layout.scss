@@ -21,6 +21,9 @@
 }
 .site-logo {
   display: none;
+  &:hover {
+    @include animation(wiggle .3s 0 linear);
+  }
   @include media($medium) {
     display: block;
     float: left;

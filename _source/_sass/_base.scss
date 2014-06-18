@@ -166,8 +166,8 @@ figure {
   a {
     img {
       // Image hover animation
+      @include transition(box-shadow 0.3s);
       &:hover {
-        @include animation(pop .3s 0 linear);
         box-shadow: 0 0 10px rgba($black, .20);
       }
     }
