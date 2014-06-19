@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "How to Support Michael"
-date: 2014-06-02T15:33:45-04:00
+date: 2014-06-19T09:33:51.793000-04:00
 modified:
 excerpt: "Found something I created useful or enjoyable? Here's how you can show your gratitude."
 image:
@@ -12,13 +12,14 @@ share: false
 id: support
 ---
 
-Found one of my Paper by 53 tutorials or Jekyll themes useful? If you feel inclined, here's how you can show your gratitude.
+Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel inclined, here's how you can show your gratitude.
 
 Make me feel special by following my mundane life. I post a few times a day -- along the lines of web design and development tidbits, sarcastic remarks, Paper drawings, photos of my twin girls, and website updates.
 
 <div class="inline">
   <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
   <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr" target="_blank"><i class="fa fa-tumblr"></i> Tumblr</a>
 </div>
 
 ## Send Cash
@@ -32,7 +33,7 @@ PayPal, ugh! I get it, all the cool kids hate it for various reasons. But at the
 
 ## Shower Me with Gifts
 
-And if sending cash or Bitcoins isn't your thing, I have an outdated Amazon Wish List you can peruse. Perhaps there is something cheap listed you'd like to gift me...
+And if following me on social media or sending money isn't your thing, I have an Amazon Wish List you can peruse. Perhaps there is something cheap listed you'd like to gift me...
 
 <div class="inline">
   <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn" target="_blank">Amazon Wish List</a>
