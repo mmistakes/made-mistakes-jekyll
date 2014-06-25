@@ -1,12 +1,11 @@
 ---
-layout: media
+layout: article
 title: "Order a Digital Portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
-modified: 2014-03-31
+modified: 2014-06-25T09:39:45.448000-04:00
 image:
   thumb: portrait-thumb.jpg
   teaser: portrait-teaser.jpg
-tags: [portrait, Paper by 53, drawing, painting, iPad, commission]
 ads: false
 id: portraits
 ---
@@ -21,7 +20,7 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 {% endfor %}
 </ul>
 
-Using a photograph (supplied by you) as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. If the source photography is well lit and of high quality I will likely draw a realistic portrait, but I also might draw a faceless one. I'm not asking much for these drawings so I think that more than makes up for this level of *artistic discretion*. ([Portrait examples]({{ site.url }}/paperfaces/))
+Using a photograph supplied by you as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. I recommend going black and white since it's my favorite way to draw and often yields more realistic results. ([Portrait examples]({{ site.url }}/paperfaces/))
 
 <figure>
     <img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
@@ -30,9 +29,9 @@ Using a photograph (supplied by you) as reference I draw my interpretation of it
 
 ## Include a Photo Reference
 
-Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. If you select a photo with poor lighting, muddy details, or low in resolution, what I draw isn't going to turn out that great. If you're not sure on the quality of your photo please ask me before placing an order.
+Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. My drawings are only as strong as the photos I have to work with. Lighting, composition, and resolution all matter. I've gotten pretty good at capturing realism with Paper, but I do have limits and can only draw what I can see. When in doubt, please ask me before placing an order.
 
-**Don't have a photo linked up somewhere?** No problem. After placing an order include a note in PayPal's special instructions that you'll be emailing me a photo and then send it over to <michael@mademistakes.com>.
+**Don't have a reference linked up somewhere?** No problem. After placing an order include a note in PayPal's special instructions that you'll be emailing me a photo and then send it over to <michael@mademistakes.com>.
 {:.notice}
 
 ## Then I Draw
@@ -71,7 +70,11 @@ Black and white or color? One face or multiple?
 
 ## What Others are Saying About PaperFaces
 
+<blockquote class="twitter-tweet" lang="en"><p>This portrait of yours truly by <a href="https://twitter.com/mmistakes">@mmistakes</a> is one of the most glorious things you’ll ever see <a href="http://t.co/ovzxGSw72q">http://t.co/ovzxGSw72q</a></p>&mdash; Matthew Rex (@matthewrex) <a href="https://twitter.com/matthewrex/statuses/458667196634640384">April 22, 2014</a></blockquote>
+
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/twittalkin">@twittalkin</a> here is the pic of Jason by <a href="https://twitter.com/mmistakes">@mmistakes</a> using Paper by <a href="https://twitter.com/FiftyThree">@FiftyThree</a> Incredible talent!</p>&mdash; JTM (@thepuckheads) <a href="https://twitter.com/thepuckheads/statuses/450113132556341249">March 30, 2014</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Well, this makes me want to give up on everything. 😀&#10;&#10;Awesome work!</p>&mdash; Andy Hughes (@gorillandy) <a href="https://twitter.com/gorillandy/statuses/468947522862723072">May 21, 2014</a></blockquote>
 
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thanks so much for making this! Love the no face ;)</p>&mdash; Omri Mor (@omri_mor) <a href="https://twitter.com/omri_mor/statuses/255021100780625922">October 7, 2012</a></blockquote>
 
@@ -86,5 +89,3 @@ Black and white or color? One face or multiple?
 <blockquote class="twitter-tweet" data-media="none"><p>“<a href="https://twitter.com/mmistakes">@mmistakes</a>: <a href="https://twitter.com/search?q=%23PaperFaces&amp;src=hash">#PaperFaces</a> <a href="https://twitter.com/search?q=%23MadeWithPaper&amp;src=hash">#MadeWithPaper</a> <a href="http://t.co/Eo72rx2dEC">pic.twitter.com/Eo72rx2dEC</a>”&#10;&#10;Thank you! I feel honored - this looks very well done!</p>&mdash; Finn (@invalididentity) <a href="https://twitter.com/invalididentity/statuses/348884007892692994">June 23, 2013</a></blockquote>
 
 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>Whaaat <a href="https://twitter.com/mmistakes">@mmistakes</a> did a portrait of me, and it is beyond sublime. Beyond. <a href="http://t.co/G2txlVXpzW">pic.twitter.com/G2txlVXpzW</a></p>&mdash; Tiny Camera Ryan (@timcameronryan) <a href="https://twitter.com/timcameronryan/statuses/393597807455502336">October 25, 2013</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
