@@ -5,7 +5,7 @@ excerpt: "Tutorials and techniques to help master Paper."
 modified: 2014-06-06T12:22:52.691000-04:00
 image: 
   thumb: paper-53-expanded-guide-thumb.jpg
-tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
+tags: [Paper by 53, tutorial, drawing, painting, iPad]
 id: mastering-paper
 ---
 

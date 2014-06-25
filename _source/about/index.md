@@ -3,7 +3,7 @@ layout: article
 title: "About"
 date: 2014-06-02T12:15:28-04:00
 modified:
-excerpt: "Michael Rose is just another boring, tattooed, time traveling, designer and illustrator from Buffalo."
+excerpt: "Michael Rose is just another boring, tattooed, time traveling, designer from Buffalo."
 tags: [Michael Rose, design, Buffalo]
 image:
   feature:
