@@ -122,7 +122,7 @@
   @include clearfix;
   font-weight: 700;
   a {
-    color: lighten($black,60);
+    color: $caption-color;
   }
 }
 
@@ -215,7 +215,7 @@
         padding-right: 2 * $gutter;
         font-family: $alt-font;
         @include font-size(12,no,15);
-        color: lighten($text-color, 10);
+        color: $caption-color;
         text-align: center;
         clear: both;
         @include media($large) {
@@ -249,9 +249,9 @@
         span {
           @include font-size(14,no);
           font-family: $alt-font;
-          color: lighten($black,60);
+          color: $caption-color;
           a {
-            color: lighten($black,60);
+            color: $caption-color;
 
           }
         }
@@ -383,8 +383,11 @@
     @include omega(4n);
   }
   .entry-date {
-    @include font-size(16,no);
-    color: lighten($text-color,25);
+    margin-top: 0;
+    font-family: $alt-font;
+    @include font-size(12,no);
+    text-transform: uppercase;
+    color: lighten($caption-color,10);
     @at-root #home & {
       display: none;
     }
@@ -574,9 +577,9 @@
   font-family: $alt-font;
   .copyright {
     @include font-size(12);
-    color: lighten($black,60);
+    color: lighten($caption-color, 10);
     a {
-      color: lighten($black,60);
+      color: lighten($caption-color, 10);
       text-decoration: none;
     }
   }
