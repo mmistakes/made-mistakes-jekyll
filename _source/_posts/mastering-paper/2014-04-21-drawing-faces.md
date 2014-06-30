@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Mastering Paper by 53: Drawing Skin and Faces (Revisited)"
-excerpt: "Learn techniques for drawing and painting faces using the iPad app Paper by 53."
+title: "Mastering Paper by 53: Drawing Skin and Faces"
+excerpt: "Learn more techniques for drawing and painting faces using the iPad app Paper by 53."
 image: 
   feature: paper-53-faces-feature.jpg
   teaser: paper-53-faces-teaser.jpg
