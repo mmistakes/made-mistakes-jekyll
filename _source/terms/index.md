@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Terms & Conditions"
-date: 
+date: 2014-06-22
 modified: 2014-07-02T11:51:54.695000-04:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
 image:
