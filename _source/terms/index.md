@@ -1,10 +1,9 @@
 ---
 layout: article
-title: "Privacy & Disclosure Policy"
-date: 2014-06-02T15:34:08-04:00
-modified:
-excerpt: "Made Mistakes website policies, terms & conditions, license, and other legal stuff you won’t read."
-tags: [disclaimer, terms, copyright, license]
+title: "Terms & Conditions"
+date: 
+modified: 2014-07-02T11:51:54.695000-04:00
+excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
 image:
   feature:
   teaser:
@@ -14,19 +13,19 @@ share: false
 id: terms
 ---
 
-This is my personal website written and edited by me. 
+This is my personal website written and edited by me. Your use of this website, in any and all forms, constitutes an acceptance of these terms and policies. This page is reviewed and revised from time to time.
 
-For questions about this site, please contact Michael Rose at <michael@mademistakes>. All content provided is for informational purposes only. The writings and posts on this website are my own and don't necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
+For questions about this site, please contact Michael Rose at <michael@mademistakes>. All content provided is for informational purposes only. The articles and posts on this website are my own and don't necessarily represent the positions, strategies, or opinions of my employer or its subsidiaries. I make no representations as to the accuracy or completeness of any information found here or by following any links. I will not be liable for any errors or omissions in this information nor for the availability of this information. I will not be liable for any losses, injuries, or damages from the display or use of this information.
 
 ## Privacy Policy
 
 At MadeMistakes.com, the privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent. Period.
+First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
 
 ### Log Files
 
-Like many other websites, MadeMistakes.com uses log files to help learn about when, from where and how often traffic flows to this site. The information in the log files include:
+Like many other websites, MadeMistakes.com uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
 
 * Internet Protocol addresses (IP)
 * Types of browser
@@ -37,15 +36,13 @@ Like many other websites, MadeMistakes.com uses log files to help learn about wh
 
 All of this information is not linked to anything that is personally identifiable.
 
-### Cookies and web beacons
+### Cookies and Web Beacons
 
-Like nearly all websites, MadeMistakes.com stores "convenience" cookies on your computer whenever you leave a comment. These cookies record the name, and email address that you enter when you submit a comment so that you wont have to re-type that information the next time you leave a comment.
+When you visit MadeMistakes.com "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
 
 Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. MadeMistakes.com has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
 
-If you wish to disable cookies, you may do so through your web browser options.
-
-Instructions for doing so and for other cookie-related management can be found on the specific web browsers' websites.
+If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
 
 #### Amazon
 
@@ -78,10 +75,8 @@ Just like this website, my Disclosure Policy is a work in progress. As the reven
 
 ## License
 
-All original content (ie: articles, blog posts, illustrations, artwork, photographs, code) available on Made Mistakes is released under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) unless otherwise noted. Basically this means you are free to share, transmit, distribute, alter, transform, and build on my work just as long as you don't use it for commercial purposes $$$.
+All original content (ie: articles, blog posts, illustrations, artwork, photographs, code) available on MadeMistakes.com is released under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) unless otherwise noted. Basically this means you are free to share, transmit, distribute, alter, transform, and build on my work just as long as you don't use it for commercial purposes without my written consent.
 
 ### Attribution
 
-If you're inclined to show credit, then a link back to the source article attributed to either [Made Mistakes](http://mademistakes.com) or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing and passing my work off as your own.
-
-Your use of this website, in any and all forms, constitutes an acceptance of this Privacy Policy. This Privacy Policy is reviewed and revised from time to time. You will want to revisit it regularly.
+If you're inclined to show credit, then a link back to the source article attributed to either [Made Mistakes](http://mademistakes.com) or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing my stuff in their entirety and republishing them as your own.
