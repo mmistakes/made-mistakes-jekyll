@@ -141,7 +141,7 @@ To paint in this style, start by lightly sketching out the figure to act as your
 	<figcaption>The color you choose to sketch with isn't super important, but a lighter one is much easier to cover-up.</figcaption>
 </figure> 
 
-With your background dropped in, select the pencil tool, a light color, and sketch out the general outline of the figure. Drawing [sensitive lines]({{ site.url }}{% post_url /articles/2014-01-13-contour-drawing %}) will convey more meaning in your drawing and guide how you paint. For example, I place heavier lines in my sketches to show shadows or areas I will want to darken with watercolor later.
+With your background dropped in, select the pencil tool, a light color, and sketch out the general outline of the figure. Drawing [sensitive lines]({{ site.url }}{% post_url /mastering-paper/2014-01-13-contour-drawing %}) will convey more meaning in your drawing and guide how you paint. For example, I place heavier lines in my sketches to show shadows or areas I will want to darken with watercolor later.
 
 <i class="fa fa-star"></i> **ProTip:** When choosing a pencil color pick a flesh tone that is predominant in the face. This will make it easier to hide the lines later when you paint with white.
 {: .notice}

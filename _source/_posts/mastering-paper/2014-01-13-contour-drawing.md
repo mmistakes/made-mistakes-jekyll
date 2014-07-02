@@ -1,13 +1,13 @@
 ---
 layout: article
-title: "Contour Line Drawing"
+title: "Quick Tip: Contour Line Drawing"
 excerpt: "A drawing exercise to improve hand eye coordination and the power of observation with the iPad app Paper by 53."
-modified: 2014-06-02T12:36:22.412000-04:00
+modified: 2014-07-02T15:54:52.683000-04:00
 image: 
   feature: paper-53-contour-drawing-feature.jpg
   teaser: paper-53-contour-drawing-teaser.jpg
   thumb: paper-53-contour-drawing-thumb.jpg
-category: articles
+category: mastering-paper
 tags: [blind contour, Paper by 53, tutorial, drawing, painting, iPad]
 comments: true
 toc: true
