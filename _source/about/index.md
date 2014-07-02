@@ -9,6 +9,7 @@ image:
   teaser: about-teaser.jpg
   thumb: about-thumb.jpg
 ads: false
+toc: true
 share: false
 id: about
 ---
