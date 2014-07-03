@@ -3,7 +3,7 @@ layout: article
 title: "Pencil. The Best Stylus Built for Paper by 53?"
 excerpt: "Impressions of FiftyThree's new Pencil stylus from the perspective of an avid Paper creator."
 category: articles
-tags: [Pencil, Paper by 53, stylus, iPad, Blend, pen]
+tags: [Pencil, Paper by 53, stylus, iPad, Blend]
 modified: 2014-01-17
 image:
   feature: pencil-53-feature.jpg
