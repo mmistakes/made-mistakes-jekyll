@@ -173,6 +173,9 @@
   }
   .page-title {
     @include fill-parent;
+    h1 {
+      margin-top: 0;
+    }
     h2 {
       font-weight: 400;
       margin-top: 0;
