@@ -159,7 +159,8 @@ figure {
     position: relative;
   }
   @include clearfix;
-  img {
+  img,
+  .fluid-width-video-wrapper {
     margin-bottom: 0px + $doc-line-height;
     margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
   }
