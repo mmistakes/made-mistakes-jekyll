@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Quick Tip: Grid Method to Improve Proportions"
+title: "Paper Quick Tip: Grid Method to Improve Proportions"
 modified:
 categories: mastering-paper
 excerpt:

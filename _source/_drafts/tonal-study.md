@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Quick Tip: Tonal Study"
+title: "Paper Quick Tip: Tonal Study"
 modified:
 categories: mastering-paper
 excerpt:

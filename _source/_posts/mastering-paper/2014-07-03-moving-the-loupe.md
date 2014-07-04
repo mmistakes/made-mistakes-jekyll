@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Quick Tip: Moving the Loupe"
+title: "Paper Quick Tip: Moving the Loupe"
 modified:
 categories: mastering-paper
 excerpt: "Learn how to reposition Paper by 53's Zoom loupe mid-stroke to aid in painting large detailed shapes."

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Quick Tip: Thin Lines"
+title: "Paper Quick Tip: Thin Lines"
 modified:
 categories: mastering-paper
 excerpt:
