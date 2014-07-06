@@ -27,26 +27,26 @@ In the spirit of openness I've decided to compile everything I've learned using 
 {% endfor %}
   <article class="tile">
     <span><img src="/images/53-coming-soon-teaser.jpg" alt="Coming Soon"></span>
-    <p class="entry-date">Coming Soon!</p>
     <h2 class="post-title">Drawing Hair (revisited)</h2>
+    <p class="entry-date">Coming Soon!</p>
     <p class="post-excerpt">One of my favorite things to draw is long flowing hair. Learn how I create realistic renders in a matter of minutes.</p>
   </article><!-- /.tile -->
   <article class="tile">
     <span><img src="/images/53-coming-soon-teaser.jpg" alt="Coming Soon"></span>
-    <p class="entry-date">Coming Soon!</p>
     <h2 class="post-title">Managing Journals and Pages</h2>
+    <p class="entry-date">Coming Soon!</p>
     <p class="post-excerpt">Learn how to create templates by duplicating pages across journals &#8212; perfect for building consistency in a drawing project.</p>
   </article><!-- /.tile -->
   <article class="tile">
     <span><img src="/images/53-coming-soon-teaser.jpg" alt="Coming Soon"></span>
-    <p class="entry-date">Coming Soon!</p>
     <h2 class="post-title">Screen Capture Techniques and Animation</h2>
+    <p class="entry-date">Coming Soon!</p>
     <p class="post-excerpt">Workflows for recording time lapse videos of Paper creations without jailbreaking an iPad.</p>
   </article><!-- /.tile -->
   <article class="tile">
     <span><img src="/images/53-coming-soon-teaser.jpg" alt="Coming Soon"></span>
-    <p class="entry-date">Coming Soon!</p>
     <h2 class="post-title">Getting the Most Out of Pencil</h2>
+    <p class="entry-date">Coming Soon!</p>
     <p class="post-excerpt">Pencil is a great stylus built exclusively for Paper. Learn drawing techniques that only it can perform.</p>
   </article><!-- /.tile -->
 </div><!-- /.tiles -->
