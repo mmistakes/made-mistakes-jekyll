@@ -53,11 +53,9 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 	<figcaption>A video demonstrating how to move the loupe while painting a smooth glaze.</figcaption>
 </figure>
 
-The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop [touching the iPad's screen](^screen).
+The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 
 <i class="fa fa-star"></i> **ProTip:** Save this two handed Zoom technique for painting large shapes that requrire extra precision. It can be somewhat disorenting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
 {:.notice}
-
-[^]: Not entirely sure why this
 
 {% include support.html %}
