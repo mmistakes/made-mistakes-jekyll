@@ -77,14 +77,14 @@ To duplicate a page, pinch it to zoom out to journal view, and then press and ho
 	<figcaption>Not all of the options in Paper are obvious, quite a few are hidden behind gestures or holding down various buttons.</figcaption>
 </figure>
 
-You can cut the amount of time spent drawing grids on your reference photographs as well. You can use [grid apps](^grid-apps) found in the *App Store*, use something like Adobe Photoshop or Illustrator to overlay a precise grid, or draw it once on a sheet of transparent [acetate](http://www.amazon.com/gp/product/B002544NHA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002544NHA&linkCode=as2&tag=mademist-20&linkId=Y2BDW34WIVVBAZGF) to place on top of your photos without having to draw a grid each time.
+You can cut the amount of time spent drawing grids on your reference photographs as well. You can use grid apps[^apps] found in the *App Store*, use something like Adobe Photoshop or Illustrator to overlay a precise grid, or draw it once on a sheet of transparent [acetate](http://www.amazon.com/gp/product/B002544NHA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002544NHA&linkCode=as2&tag=mademist-20&linkId=Y2BDW34WIVVBAZGF) to place on top of your photos without having to draw a grid each time.
+
+[^apps]: [**Drawing Grid**](https://itunes.apple.com/us/app/drawing-grid/id500885379?mt=8) is a free iOS app that gets the job done if you can get past the awful and confusing UI. A couple others I found but didn't test where [**Artists Grid Tool**](https://itunes.apple.com/us/app/artists-grid-tool/id402430398?mt=8) and [**CopyIt**](https://itunes.apple.com/us/app/copyit-grid-drawing-method/id377185812?mt=8).
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-grid-apps.jpg" alt="grid apps for iOS">
 	<figcaption>Grid making apps available for iOS in the App Store.</figcaption>
 </figure>
-
-[^grid-apps]: [**Drawing Grid**](https://itunes.apple.com/us/app/drawing-grid/id500885379?mt=8) is a free iOS app that gets the job done if you can get past the awful and confusing UI. A couple others I found but didn't test where [**Artists Grid Tool**](https://itunes.apple.com/us/app/artists-grid-tool/id402430398?mt=8) and [**CopyIt**](https://itunes.apple.com/us/app/copyit-grid-drawing-method/id377185812?mt=8).
 
 ## Drawing with the Grid
 
