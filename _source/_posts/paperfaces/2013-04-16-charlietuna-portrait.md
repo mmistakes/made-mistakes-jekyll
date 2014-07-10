@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Bride and groom posing by a trolley car... I think"
+title: "Bride and groom posing by a trolley car… I think"
 excerpt: "PaperFaces portrait of @charlietuna drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-charlietuna-twitter-lg.jpg

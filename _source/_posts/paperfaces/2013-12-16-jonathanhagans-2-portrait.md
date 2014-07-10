@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53]
 ---
 
-Another rare appearance of actual faces...
+Another rare appearance of actual faces…
 
 PaperFaces portrait commission for <a href="http://twitter.com/jonathanhagans">@jonathanhagans</a>.
 

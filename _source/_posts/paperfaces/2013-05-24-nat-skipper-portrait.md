@@ -13,6 +13,6 @@ tags:
 
 ---
 
-Halfway to my goal... PaperFaces portrait of [@Nat_Skipper](http://twitter.com/Nat_Skipper).
+Halfway to my goal… PaperFaces portrait of [@Nat_Skipper](http://twitter.com/Nat_Skipper).
 
 {% include paperfaces-boilerplate.html %}

@@ -91,7 +91,7 @@ But if you rest your palm on the screen while you draw things break down quickly
 
 If you're a Paper addict and mostly use watercolor and pencil I think the high price of a Pogo Connect is justified. If you're predominantly an inker then it's probably not worth it. I find controlling the fountain pen to be much harder when using a Pogo Connect because it is really sensitive to pressure. This makes drawing smooth lines hard unless you have a steady hand and don't vary the pressure as you draw.
 
-It's worth noting that there appears to be a major design flaw with the internals of the pen (see below). From constant pressure being applied to a soldered circuit board behind the tip, it eventually breaks and ceases to work properly. I don't know anyone in the Paper community who has escaped this. But since it's the only stylus Paper supports with pressure sensitivity you'll have to decide how important that is to you. Buyer beware...
+It's worth noting that there appears to be a major design flaw with the internals of the pen (see below). From constant pressure being applied to a soldered circuit board behind the tip, it eventually breaks and ceases to work properly. I don't know anyone in the Paper community who has escaped this. But since it's the only stylus Paper supports with pressure sensitivity you'll have to decide how important that is to you. Buyer beware…
 
 ## What's Wrong with the Pogo Connect
 
@@ -99,7 +99,7 @@ About those bugs I mentioned earlier. Not sure if they're hardware or software r
 
 <figure>
 	<img src="{{ site.url }}/images/pogo-connect-paper-53-disconnected.jpg" alt="Pogo Connected disconnected screenshot">
-	<figcaption>Disconnected! Better get used to this screen...</figcaption>
+	<figcaption>Disconnected! Better get used to this screen…</figcaption>
 </figure>
 
 ### Lock Screen Annoyance
@@ -121,10 +121,10 @@ Removed the rubber tip to find this mess. Like many others, the metal contact th
 
 <figure>
 	<img src="{{ site.url }}/images/pogo-connect-broken-circuit.jpg" alt="Pogo Connect broken circuit connection and tip">
-	<figcaption>I don't think this metal contact is suppose to break off so easily...</figcaption>
+	<figcaption>I don't think this metal contact is suppose to break off so easily…</figcaption>
 </figure>
 
-I have an email out to Ten One Design to see what can be done. I've heard they respond quickly with free replacements, which could indicate they're aware of a major design flaw and trying to do right by it. I just don't know if I can continue to recommend the product if it's prone to breaking after a few months. I'll let you know things go...
+I have an email out to Ten One Design to see what can be done. I've heard they respond quickly with free replacements, which could indicate they're aware of a major design flaw and trying to do right by it. I just don't know if I can continue to recommend the product if it's prone to breaking after a few months. I'll let you know things go…
 
 ## Update. A Week Later
 
@@ -139,6 +139,4 @@ And just like that Ten One Design sent me a replacement pen with 2 extra tips fr
 
 Feels like Groundhog Day all over again. Sadly my replacement Pogo didn't fair too well and broke in the exact same way after three months of daily usage. Big shout out to Ten One Design's customer service for setting me up with another replacement gratis. I've been told they beefed up the soldering for a new production run in September. Not sure if that will make much of a difference, but will report back after I get my hands on it.
 
-If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back...
-
-{% include support.html %}
+If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back…

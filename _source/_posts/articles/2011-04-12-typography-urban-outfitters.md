@@ -20,7 +20,7 @@ I think it is very clear that the April 2011 *Urban Outfitters* catalog was more
 
 ## Violators, Mount Up
 
-Inside front cover starts off with this gem. I absolutely hate when an element in the background violates a block of type in the foreground. Now sometimes this can serve a purpose, but here I can't fathom one single reason why you'd place a paragraph on top of a light stand or whatever the hell that is. I just can't help wanting to move both paragraphs to the right three inches and neatly tuck them under the protruding umbrella...
+Inside front cover starts off with this gem. I absolutely hate when an element in the background violates a block of type in the foreground. Now sometimes this can serve a purpose, but here I can't fathom one single reason why you'd place a paragraph on top of a light stand or whatever the hell that is. I just can't help wanting to move both paragraphs to the right three inches and neatly tuck them under the protruding umbrella…
 
 ## I Hate Full Justified Type
 

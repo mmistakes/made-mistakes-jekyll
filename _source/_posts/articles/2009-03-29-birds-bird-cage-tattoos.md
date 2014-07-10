@@ -24,7 +24,7 @@ Last weekend we hit up [*Rise Above Tattoos*](http://myspace.com/riseabovetattoo
 
 ## These Aren't Photoshop Brushes, Shut up
 
-I didn't get much done... just some lines, ink splats, and squiggles to fill in the mess that is my left arm. In a few weeks I'll probably go in an make an appointment to get something on my upper chest. I have some ideas but nothing finalized yet.
+I didn't get much done… just some lines, ink splats, and squiggles to fill in the mess that is my left arm. In a few weeks I'll probably go in an make an appointment to get something on my upper chest. I have some ideas but nothing finalized yet.
 
 ## Freshly Inked Birds and Trees
 

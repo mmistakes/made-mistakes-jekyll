@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, clouds, Sktchy]
 
 PaperFaces portrait of Christina U. inspired by a photograph on Sktchy.
 
-I'll say this about cloudscapes, they're a million times easier to draw than portraits. I pretty much puked up some color on the canvas in five minutes and smudged it all together in another five and *presto chango*... one photo-realistic sky for your viewing pleasure.
+I'll say this about cloudscapes, they're a million times easier to draw than portraits. I pretty much puked up some color on the canvas in five minutes and smudged it all together in another five and *presto chango*… one photo-realistic sky for your viewing pleasure.
 
 I can see why they're a popular subject for Paper creators.
 

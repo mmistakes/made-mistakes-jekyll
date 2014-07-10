@@ -15,7 +15,7 @@ A few weekends ago I decided to cover one of the walls in the office with a larg
 
 ## The Process of Rasterbating
 
-Took some quick measurements of the wall's dimensions and uploaded the image to the [Rasterbator](http://arje.net/rasterbator"). Got things cropped how I liked and outputted the 120 page <abbr title="portable document format">PDF</abbr> file. The next 3 hours I spent trimming the white borders off of each page since my printer doesn't print to the edge. I think next time I do one of these I'm going to leave the borders... cutting these pages consistently was pretty hard. I tried using a trimmer with a rotary blade but the pages slide some regardless of the clamp thing. Oh well.
+Took some quick measurements of the wall's dimensions and uploaded the image to the [Rasterbator](http://arje.net/rasterbator"). Got things cropped how I liked and outputted the 120 page <abbr title="portable document format">PDF</abbr> file. The next 3 hours I spent trimming the white borders off of each page since my printer doesn't print to the edge. I think next time I do one of these I'm going to leave the borders… cutting these pages consistently was pretty hard. I tried using a trimmer with a rotary blade but the pages slide some regardless of the clamp thing. Oh well.
 
 ## Time Lapse Video
 

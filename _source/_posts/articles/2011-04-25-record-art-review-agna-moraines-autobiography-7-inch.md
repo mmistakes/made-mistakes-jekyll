@@ -26,7 +26,7 @@ Produced on the cheap meant you often received extra "goodies" in the record sle
 
 ## Collect for the Music, Collect for the Artwork
 
-*Agna Moraine's Autobiography* put out a Self Titled 7-inch sometime in 1999 (I think) on Anima. From the liner notes it looks like these dudes might be from Kalamazoo, Michigan... unless that's the label's home base.
+*Agna Moraine's Autobiography* put out a Self Titled 7-inch sometime in 1999 (I think) on Anima. From the liner notes it looks like these dudes might be from Kalamazoo, Michigan… unless that's the label's home base.
 
 Artwork on the front sleeve appears to have little to do with the song titles or content. Unless there is some obvious connection between knives, brown leaves, guns, wishes, skulls and memories I'm missing.
 
@@ -34,7 +34,7 @@ There is a mix of hand written lyrics silk screened on scraps of fabric (nice to
 
 The record is pressed on black with white labels. Side A lists the 4 song titles, while Side B has a crude line art drawing of a man worshiping the moon near a dead tree and pond.
 
-Images, sounds, and lyrics are all over the place on this record. But that's ok. Maybe they're meant to be from a dream...
+Images, sounds, and lyrics are all over the place on this record. But that's ok. Maybe they're meant to be from a dream…
 
 ## Additional Packaging Photographs
 

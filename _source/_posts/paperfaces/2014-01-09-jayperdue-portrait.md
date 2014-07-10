@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Orange you glad I didn't..."
+title: "Orange you glad I didn't…"
 excerpt: "PaperFaces portrait of @jayperdue drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jayperdue-twitter-lg.jpg

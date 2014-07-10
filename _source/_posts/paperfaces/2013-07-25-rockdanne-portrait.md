@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@rockdanne](http://twitter.com/rockdanne). Was almost tempted to draw a full face this time...
+PaperFaces portrait of [@rockdanne](http://twitter.com/rockdanne). Was almost tempted to draw a full face this time…
 
 {% include paperfaces-boilerplate-2.html %}
 

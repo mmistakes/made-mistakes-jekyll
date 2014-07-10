@@ -54,7 +54,7 @@ After making these changes you can doodle around in the space below to verify th
 3. Reconnect the stylus to Paper. You may have to force quit[^force-quit] the app if it doesn't connect.
 4. After establishing a connection reopen the Pogo Connect app, wait for it to connect to the stylus, and then tap the **Configuration** tab again.
 5. Check that the **Pressure Amount** slider is set properly and make a few test strokes in the space below to verify it is receiving input from the tip.
-6. Switch back to Paper and you're good to go... for now.
+6. Switch back to Paper and you're good to go… for now.
 
 [^force-quit]: To force quit an app press the home button twice in rapid succession. Doing so will bring up a screen showing your recently used apps. Swipe left or right to find the app you want to quit and then swipe it up to remove it from view.
 

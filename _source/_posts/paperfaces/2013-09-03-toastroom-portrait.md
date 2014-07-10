@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@toastroom](http://twitter.com/toastroom). It's hard to talk words without a mouth...
+PaperFaces portrait of [@toastroom](http://twitter.com/toastroom). It's hard to talk words without a mouth…
 
 {% include paperfaces-boilerplate-2.html %}
 

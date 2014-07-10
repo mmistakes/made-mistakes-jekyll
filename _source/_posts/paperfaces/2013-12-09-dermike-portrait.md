@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53, Blend]
 ---
 
-Decided to put some time in with 53's new Pencil stylus and experiment with the [Blend feature]({{ site.url }}/articles/blend-first-look/) some more. I may have pushed the blurs too far since I think it killed a lot of the layered watercolor textures I started with...
+Decided to put some time in with 53's new Pencil stylus and experiment with the [Blend feature]({{ site.url }}/articles/blend-first-look/) some more. I may have pushed the blurs too far since I think it killed a lot of the layered watercolor textures I started with…
 
 Mental note: a little Blend goes a long way.
 

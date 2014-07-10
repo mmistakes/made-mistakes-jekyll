@@ -82,11 +82,11 @@ Using The Semantic Grid System allowed me to define fluid grids for each of my s
 
 ## What's Left to Do?
 
-So now that I finally got around to migrating my Wordpress website, developed a process for publishing content, redesigned everything from the ground up, tinkered with responsive web design, and learned some new tricks... what's next? Well for starters, I need to finish cleaning-up and re-publishing around fifty old blog posts. Many of these originated from Tumblr and Wordpress, and when I migrated them over to Jekyll the outputted files were a mess. Plus I'd like to design some of these pages to make them visually interesting.
+So now that I finally got around to migrating my Wordpress website, developed a process for publishing content, redesigned everything from the ground up, tinkered with responsive web design, and learned some new tricks… what's next? Well for starters, I need to finish cleaning-up and re-publishing around fifty old blog posts. Many of these originated from Tumblr and Wordpress, and when I migrated them over to Jekyll the outputted files were a mess. Plus I'd like to design some of these pages to make them visually interesting.
 
 ### Portfolio Layout
 
-You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
+You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see…
 
 ### Responsive Images
 

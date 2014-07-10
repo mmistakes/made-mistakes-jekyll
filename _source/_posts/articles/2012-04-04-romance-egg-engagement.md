@@ -16,10 +16,10 @@ The ring was purchased, but the method of delivering it eluded me. Easter Sunday
 
 I wrote around ten clues that I sealed in plastic eggs and hid around our house the night before while Wendy showered. In the morning I woke her up, promising her a little diversion that she thought would end at an Easter basket full of *vegan treats*. At least that's what I alluded to, so she'd get the hell out of bed!
 
-Clue after clue, egg after egg, I led Wendy throughout the house until she found the last one...
+Clue after clue, egg after egg, I led Wendy throughout the house until she found the last one…
 
 <figure>
 	<img src="{{ site.url }}/images/final-egg-clue.jpg" alt="Easter egg with the final proposal clue." />
 </figure>
 
-I dropped to one knee, she dropped an F-bomb... and then said yes after realizing what just happened. Six months later, on October 2nd, 2010 we were married at [*The Roycroft Inn*](http://www.roycroftinn.com/) in East Aurora, New York. Come this fall, we're expecting to double the size of our family with the arrival of the twins, and I couldn't be happier!
+I dropped to one knee, she dropped an F-bomb… and then said yes after realizing what just happened. Six months later, on October 2nd, 2010 we were married at [*The Roycroft Inn*](http://www.roycroftinn.com/) in East Aurora, New York. Come this fall, we're expecting to double the size of our family with the arrival of the twins, and I couldn't be happier!

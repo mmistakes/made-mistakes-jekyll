@@ -11,9 +11,9 @@ image:
 tags: [Nintendo, Wii, video games, review]
 ---
 
-Some things get better and some things never change. Going in I knew **Animal Crossing: City Folk** (for the Nintendo Wii) would be remaining mostly unchanged from its predecessor AC: Wild World on the DS. But frankly I didn't care and wanted to try it out for myself even after reading a few lackluster reviews. What really surprised me after playing was how it was able to hook me in...again. Which is pretty admirable seeing how it's the same damn game I've played TWICE before.
+Some things get better and some things never change. Going in I knew **Animal Crossing: City Folk** (for the Nintendo Wii) would be remaining mostly unchanged from its predecessor AC: Wild World on the DS. But frankly I didn't care and wanted to try it out for myself even after reading a few lackluster reviews. What really surprised me after playing was how it was able to hook me in…again. Which is pretty admirable seeing how it's the same damn game I've played TWICE before.
 
-The *Animal Crossing* series has always been able to take boring tasks like paying a mortgage, picking weeds, making deliveries, planting flowers and trees, cleaning up trash, fishing, digging up fossils, catching bugs...and transform them into fun. The charm of the game is its ability to introduce new "carrots" along the way that encourage you to continue playing. Payoff your first mortgage to Tom Nook and you'll see exactly what I mean.
+The *Animal Crossing* series has always been able to take boring tasks like paying a mortgage, picking weeds, making deliveries, planting flowers and trees, cleaning up trash, fishing, digging up fossils, catching bugs…and transform them into fun. The charm of the game is its ability to introduce new "carrots" along the way that encourage you to continue playing. Payoff your first mortgage to Tom Nook and you'll see exactly what I mean.
 
 The following are some of the additions and changes to the series that have for the most part won me over.
 
@@ -32,7 +32,7 @@ A cool addition is the ability to import your character from *Animal Crossing: W
 
 If you don't have access to the internet, but do have a DS, you can take your character to a friend's town through a process called *DS Suitcase*. The game essentially saves your character to a DS allowing you to go to a friend's town, mess around, earn bells/trade items/etc, save back to your DS, and then return to your town at home. Pretty handy if you don't have an Internet connection to visit a friend via *Nintendo WFC* and want to nab some foreign fruit.
 
-At first I thought you could transfer your save from the Wii to a SD card and visit this way (similar to the Gamecube game). But sadly you can't since the save is locked to your console. Although if you installed the Homebrew Channel there are tools that let you transfer it and then edit your town data on a PC. Browsing around on Youtube I found a ton of crazy looking towns and glitches going on. While it might be fun to tinker with your town, I don't really see the point if you want to get the most enjoyment out of Animal Crossing. Getting rich quick and having all the rare stuff right away defeats the purpose of playing the game. Meh...
+At first I thought you could transfer your save from the Wii to a SD card and visit this way (similar to the Gamecube game). But sadly you can't since the save is locked to your console. Although if you installed the Homebrew Channel there are tools that let you transfer it and then edit your town data on a PC. Browsing around on Youtube I found a ton of crazy looking towns and glitches going on. While it might be fun to tinker with your town, I don't really see the point if you want to get the most enjoyment out of Animal Crossing. Getting rich quick and having all the rare stuff right away defeats the purpose of playing the game. Meh…
 
 ### The Town Stuff
 
@@ -77,11 +77,11 @@ Pressing the 1 button on the Wiimote takes a screenshot and then you can transfe
 
 For the most part the City is a zzzzZZZzzz fest. You can visit Dr. Shrunk and pay 800 bells to learn a new emotion (you can hold up to four at a time).
 
-Go to Gracie's and get ripped off on some furniture or 'trendy' clothing. Guess this changes depending on the season, so maybe something cool will pop up and I'll feel like spending 140,000 on a table... or not.
+Go to Gracie's and get ripped off on some furniture or 'trendy' clothing. Guess this changes depending on the season, so maybe something cool will pop up and I'll feel like spending 140,000 on a table… or not.
 
 Learn more about why you weren't chosen to be the model room of the week by the HRA, which is sort of cool since it pulls from all of your friends.
 
-Put your rare items up for auction or bid on your friends' stuff...cool...but not. I'm guessing this is a limitation of Nintendo WFC because you can only bid and sell on a certain day, and once an auction starts for the week you can't sell anything else. I've yet to remember what day I can actually sell shit on and go back to the city to auction something. Very inconvenient! Can you imagine if eBay only let you bid or sell items one day a week?
+Put your rare items up for auction or bid on your friends' stuff…cool…but not. I'm guessing this is a limitation of Nintendo WFC because you can only bid and sell on a certain day, and once an auction starts for the week you can't sell anything else. I've yet to remember what day I can actually sell shit on and go back to the city to auction something. Very inconvenient! Can you imagine if eBay only let you bid or sell items one day a week?
 
 A few more things you can do in the city:
 
@@ -95,7 +95,7 @@ A few more things you can do in the city:
 
 This could have been great, instead you get another under realized implementation of online functionality by Nintendo. Works just like Wild World --- you register friend codes and then you can open your gates or travel to only their towns. You can add other people to your list if they happen to be in a town you're visiting, but that's about it. No hub to meet other people in your extended circles --- no nothing.
 
-I get it --- Nintendo wants to keep it family friendly and safe by sticking with this awful friend code business. But why in the world do you force me to check with Copper every time I want to see if a friend is online? Why can't the Wii be online all the time and notify me when a friend is available ala Xbox Live or any other online service? Get with it Nintendo! Guess that's what you get when you duct tape two Gamecubes together...
+I get it --- Nintendo wants to keep it family friendly and safe by sticking with this awful friend code business. But why in the world do you force me to check with Copper every time I want to see if a friend is online? Why can't the Wii be online all the time and notify me when a friend is available ala Xbox Live or any other online service? Get with it Nintendo! Guess that's what you get when you duct tape two Gamecubes together…
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/aF78u3LQduw" frameborder="0"> </iframe>
 
@@ -109,7 +109,7 @@ I haven't come across these yet so I'm not sure if they were removed or what.
 
 ### Closing Thoughts
 
-I wonder with Microsoft trying to make the Xbox 360 appeal to the casual gamer, if they will ever create a true Animal Crossing clone? When **Viva Pinata** came out I thought that maybe it was their answer to Animal Crossing. Well not really seeing how all the fun stuff in Animal Crossing was nowhere to be found in Viva Pinata. I can only hope they're working on a true rip-off of the Animal Crossing franchise that has full avatar support and is backed by Xbox Live's excellent online experience. Oh and lots of achievements... damn that would be an amazing game.
+I wonder with Microsoft trying to make the Xbox 360 appeal to the casual gamer, if they will ever create a true Animal Crossing clone? When **Viva Pinata** came out I thought that maybe it was their answer to Animal Crossing. Well not really seeing how all the fun stuff in Animal Crossing was nowhere to be found in Viva Pinata. I can only hope they're working on a true rip-off of the Animal Crossing franchise that has full avatar support and is backed by Xbox Live's excellent online experience. Oh and lots of achievements… damn that would be an amazing game.
 
 That being said. Feel free to add my friend code and town information if you have **Animal Crossing: City Folk**. Leave a comment with your friend code and I'll add you. Always looking for more people to play with since it can be hard to find open towns late at night.
 

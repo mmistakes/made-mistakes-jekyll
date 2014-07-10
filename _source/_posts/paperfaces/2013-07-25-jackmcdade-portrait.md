@@ -26,5 +26,5 @@ PaperFaces portrait of [@jackmcdade](http://twitter.com/jackmcdade). Went all ch
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-jackmcdade-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jackmcdade-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Here comes the face...</figcaption>
+	<figcaption>Here comes the face…</figcaption>
 </figure>

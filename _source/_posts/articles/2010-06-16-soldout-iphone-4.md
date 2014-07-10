@@ -37,4 +37,4 @@ Now I'm just worried that my existing number is going to be ported over today fr
 	<figcaption>Number port status</figcaption>
 </figure>
 
-Now the waiting game begins...
+Now the waiting game begins…

@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53]
 ---
 
-I forgot to paint some plastic chairs for sitting...oops. PaperFaces portrait of [@jenniferamur](http://twitter.com/jenniferamur).
+I forgot to paint some plastic chairs for sitting…oops. PaperFaces portrait of [@jenniferamur](http://twitter.com/jenniferamur).
 
 {% include paperfaces-boilerplate-2.html %}
 

@@ -13,7 +13,7 @@ tags:
 - Paper by 53
 ---
 
-Saw Iron Man 3 last night and figured I'd challenge myself by drawing the Iron Man himself --- Tony Stark. Those post credit scenes always leave me wanting more Marvel film goodness...
+Saw Iron Man 3 last night and figured I'd challenge myself by drawing the Iron Man himself --- Tony Stark. Those post credit scenes always leave me wanting more Marvel film goodness…
 
 {% include paperfaces-boilerplate.html %}
 
