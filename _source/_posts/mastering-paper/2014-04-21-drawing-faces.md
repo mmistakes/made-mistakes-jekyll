@@ -28,7 +28,7 @@ What this guide won't be is a lesson in human anatomy. You'd be better served [r
 
 Before getting into any specific technique, I'd like to share my favorite palette. With this set of seven custom mixes I can pretty much reproduce any skin tone I want. Below I've painted a color wheel with each to show how they appear when layered, darkened, and lightened. Tapping the circles below will open into larger views allowing you to save[^saving-images] a copy to use as reference.
 
-[^saving-images]: If viewing on a mobile device like an iPad or iPhone, tap and hold on the image to save to your Camera Roll. On desktop browsers, right click and select *Save image as...*
+[^saving-images]: If viewing on a mobile device like an iPad or iPhone, tap and hold on the image to save to your Camera Roll. On desktop browsers, right click and select *Save image as…*
 
 <figure>
 	<div class="palette">
@@ -395,5 +395,3 @@ So how about this? Let me know in the comments below what you want to see next: 
 </ul>
 
 And if you're looking to further learn from some of the Paper techniques I use, check out my [PaperFaces Project]({{ site.url }}{% post_url /work/2012-08-31-paperfaces %}) or [follow me on Twitter](http://twitter.com/mmistakes). I draw a new portrait Paper every day and make a point to include in process images to reveal my processes.
-
-{% include support.html %}

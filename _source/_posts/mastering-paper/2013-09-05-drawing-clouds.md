@@ -13,11 +13,11 @@ comments: true
 toc: true
 ---
 
-Paper by 53 makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here...let me show you how.
+Paper by 53 makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here…let me show you how.
 
 ## Blue Skies Fade
 
-Let's start with the easier of the two, a nice bright blue sky. One of the more important steps is choosing a blue to paint with. The hue...the saturation...and the brightness all play a role in the overall emotion of the piece. I tend to mix in a swirl of green and keep it slightly over saturated to contrast against skin tones as seen in my many [PaperFaces portraits]({{ site.url }}/paperfaces/). If you're going for doom and gloom, back off the blue and mix in gray instead to set the foundation for an overcast sky.
+Let's start with the easier of the two, a nice bright blue sky. One of the more important steps is choosing a blue to paint with. The hue…the saturation…and the brightness all play a role in the overall emotion of the piece. I tend to mix in a swirl of green and keep it slightly over saturated to contrast against skin tones as seen in my many [PaperFaces portraits]({{ site.url }}/paperfaces/). If you're going for doom and gloom, back off the blue and mix in gray instead to set the foundation for an overcast sky.
 
 <figure class="half">
 	<img src="{{ site.url }}/images/paper-53-blue-sky-mix.jpg" alt="screenshot of blue sky color mix">
@@ -110,7 +110,7 @@ And paint a light coat over the red, background area in the middle, and graduall
 
 ![screenshot sunset yellow cream wash]({{ site.url }}/images/paper-53-sunset-yellow-cream-wash.jpg) 
 
-<i class="fa fa-star"></i> **ProTip:** Paint faster as you approach the blue wash to avoid turning it into a green color. Yellow and blue make...
+<i class="fa fa-star"></i> **ProTip:** Paint faster as you approach the blue wash to avoid turning it into a green color. Yellow and blue make…
 {: .notice}
 
 ### Sunset Clouds
@@ -162,5 +162,3 @@ Using all of these techniques I was able to create a variety of backdrops for th
 Next up --- the perfect landscape compliment to happy trees and clouds, crashing waves and water.
 
 [^1]: Watching Bob Ross paint on his PBS show, [**The Joy of Painting**](http://en.wikipedia.org/wiki/The_Joy_of_Painting) was a huge influence on me during my high school years. Many of the techniques I use to paint with Paper by 53 have been adapted from him. RIP in you silly son of a gun.
-
-{% include support.html %}

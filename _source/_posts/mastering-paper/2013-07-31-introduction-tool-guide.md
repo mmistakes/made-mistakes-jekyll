@@ -154,7 +154,7 @@ It may be helpful to create a few color scales with the primary colors, gray, an
 
 ![Gradations created with the watercolor brush]({{ site.url }}/images/paper-53-watercolor-layers.jpg)
 
-<i class="fa fa-star"></i> **ProTip:** When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots. More detail on this technique in Part 2...
+<i class="fa fa-star"></i> **ProTip:** When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots. More detail on this technique in Part 2…
 {: .notice}
 
 ### Color Mixer {#color-mixer}
@@ -189,7 +189,7 @@ If you only learn two gestures when using Paper, make them Rewind and Zoom.
 
 ### Rewind {#rewind}
 
-I'm going to let you in on a little secret. The first couple of months I used Paper by 53, I absolutely hated the Rewind feature because I couldn't use it consistently. It pissed me off so much, that I gave up and used the eraser instead. I would have killed for a button with multiple undo's back then...
+I'm going to let you in on a little secret. The first couple of months I used Paper by 53, I absolutely hated the Rewind feature because I couldn't use it consistently. It pissed me off so much, that I gave up and used the eraser instead. I would have killed for a button with multiple undo's back then…
 
 ![Rewind screenshot]({{ site.url }}/images/paper-53-rewind-stormtrooper.jpg)
 
@@ -199,7 +199,7 @@ Just stick with it if you're having trouble, I promise it will eventually come n
 
 ### Zoom
 
-The single most requested feature by fans and haters of Paper... Zoom. I had drawn a couple hundred portraits just fine without zoom, but boy was I happy when FiftyThree finally added the feature. That said I did cheat a bit by using an accessibility feature in iOS[^ios-zoom] that lets you magnify the screen by tapping with 3 fingers. Not a true zoom, but it does have its place when you need to magnify an area --- the tools don't scale so it isn't that useful.
+The single most requested feature by fans and haters of Paper… Zoom. I had drawn a couple hundred portraits just fine without zoom, but boy was I happy when FiftyThree finally added the feature. That said I did cheat a bit by using an accessibility feature in iOS[^ios-zoom] that lets you magnify the screen by tapping with 3 fingers. Not a true zoom, but it does have its place when you need to magnify an area --- the tools don't scale so it isn't that useful.
 
 ![Zoom tool screenshot]({{ site.url }}/images/paper-53-zoom-tool-eye.jpg)
 
@@ -213,12 +213,10 @@ There isn't much else to Zoom, I'm merely mentioning it to increase awareness ar
 
 Well there you have it. I hope this has served as a good introduction to Paper by 53, how to use the  tools, the gestures, and a taste of what is possible with the app.
 
-{% include support.html %}
-
 [^opaque]: Not transparent or translucent; impenetrable to light; not allowing light to pass through.
 
 [^pure-color]: I define pure as matching the color selected in the mixer. Many of the tools have a hint of translucency to them and need 2-3 layers to match exactly.
 
-[^pen-lettering]: I suppose I could break the creative flow and switch to a traditional capacitive stylus for just lettering if I wanted to continue using the fountain pen. Nah...
+[^pen-lettering]: I suppose I could break the creative flow and switch to a traditional capacitive stylus for just lettering if I wanted to continue using the fountain pen. Nah…
 
 [^ios-zoom]: The iPad has a system wide zoom feature that allows you to enlarge the screen by 3 finger tapping it. To activate, go to **Settings** > **General**. Tap on **Accessibility** and then turn on **Zoom**.

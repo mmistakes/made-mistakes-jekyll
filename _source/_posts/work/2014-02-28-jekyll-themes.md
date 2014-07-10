@@ -23,7 +23,7 @@ Below are all of the Jekyll starters I've open sourced thus far. Each "theme" co
 	<img src="{{ site.url }}/images/skinny-bones-theme-feature.jpg" alt="Skinny Bones feature image">
 </figure>
 
-Not quite ready for prime time because it requires Jekyll 2 --- which hasn't rolled out to GitHub Pages yet. But if you want to tinker around with it locally or host on your own server fork away. Full documentation coming soon...
+Not quite ready for prime time because it requires Jekyll 2 --- which hasn't rolled out to GitHub Pages yet. But if you want to tinker around with it locally or host on your own server fork away. Full documentation coming soon…
 
 * Minimal design meant to be hacked up and customized
 * Built in support for Sass (via Jekyll 2+)
@@ -99,5 +99,3 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 These themes are free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). Feel free to to modify them to suit your needs. 
 
 ---
-
-{% include support.html %}

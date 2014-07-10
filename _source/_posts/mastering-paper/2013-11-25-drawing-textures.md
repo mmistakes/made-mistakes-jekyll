@@ -237,7 +237,3 @@ Using all of these techniques I was able to create a variety of backdrops for th
 {:.no_toc}
 
 In the next part I'll share all of my skin tone cheat sheets that serve as a starting point for my PaperFaces portraits. Learn how I use shape, color, and the watercolor brush to enhance the realism of a portrait with little effort.
-
----
-
-{% include support.html %}

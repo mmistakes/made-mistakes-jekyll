@@ -55,5 +55,3 @@ This theme is free and open source software, distributed under the [GNU General 
 {: .notice}
 
 [^1]: Example: *domain.com/category-name/post-title*
-
-{% include support.html %}

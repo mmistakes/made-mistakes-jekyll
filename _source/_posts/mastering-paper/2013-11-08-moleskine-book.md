@@ -30,7 +30,7 @@ If you haven't watched any of the [Book videos](https://vimeo.com/75045142) or s
 
 ### Select Your Journal
 
-Taking a few of my favorite [**PaperFaces**]({{ site.url }}/paperfaces/) portraits and consolidating them down into a smaller journal became the basis of my first Paper book. I'm still waiting on the second book to arrive that features some unpublished [**Mastering Paper**]({{ site.url }}/mastering-paper/) cheat sheets from upcoming tutorials...
+Taking a few of my favorite [**PaperFaces**]({{ site.url }}/paperfaces/) portraits and consolidating them down into a smaller journal became the basis of my first Paper book. I'm still waiting on the second book to arrive that features some unpublished [**Mastering Paper**]({{ site.url }}/mastering-paper/) cheat sheets from upcoming tutorials…
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-book-all-journals.jpg" alt="Screenshot of my journals in Paper">
@@ -121,7 +121,7 @@ I personally like the accordion fold and how each of the pages are glued togethe
 
 ### Cover and Spine
 
-As noted before, the cover isn't as thick as I had hoped for, but it's not super thin either. To further protect it from scratches and stains, I'll be leaving it in the paper sleeve it shipped with. I'm crazy like that...
+As noted before, the cover isn't as thick as I had hoped for, but it's not super thin either. To further protect it from scratches and stains, I'll be leaving it in the paper sleeve it shipped with. I'm crazy like that…
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-book-paperfaces-cover-lg.jpg"><img src="{{ site.url }}/images/paper-53-book-paperfaces-cover.jpg" alt="Photograph of the book cover"></a>
@@ -181,5 +181,3 @@ For this book I took a few of my Paper "cheat sheets" and adapted drawings from 
 	<iframe width="560" height="315" src="//www.youtube.com/embed/BW8czjeiNzw" frameborder="0"> </iframe>
 	<figcaption>Flipping through another book</figcaption>
 </figure>
-
-{% include support.html %}

@@ -34,7 +34,7 @@ For those new to the app I suggest drawing in grays --- limiting your palette to
 	<figcaption>The browns in this default palette are good to start with before mixing your own.</figcaption>
 </figure>
 
-On the subject of palettes... I stick with the default sets. Since I draw a ton of portraits, it's much quicker for me to adjust a color on the fly. But I do see the benefit of setting up a predetermined palette beforehand to give your illustration a feeling of cohesion. Before the color mixer existed you had to get inventive if you wanted additional colors. A limitation that encouraged experimentation and sometimes unexpected results.
+On the subject of palettes… I stick with the default sets. Since I draw a ton of portraits, it's much quicker for me to adjust a color on the fly. But I do see the benefit of setting up a predetermined palette beforehand to give your illustration a feeling of cohesion. Before the color mixer existed you had to get inventive if you wanted additional colors. A limitation that encouraged experimentation and sometimes unexpected results.
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paper-53-color-redheads-lg.jpg"><img src="{{ site.url }}/images/paper-53-color-redheads-200.jpg" alt="Paper 53 color for red hair base" /></a>
@@ -53,5 +53,3 @@ If you're a maniac with the pencil and prefer to draw in all the gradations then
 
 <i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
 {: .notice .warning}
-
-{% include support.html %}

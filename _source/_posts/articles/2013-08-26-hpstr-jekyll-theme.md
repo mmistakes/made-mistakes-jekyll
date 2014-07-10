@@ -13,7 +13,7 @@ comments: true
 toc: true
 ---
 
-They say three times the charm, so here is another free Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+They say three times the charm, so here is another free Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory…
 
 ## Features
 
@@ -60,7 +60,7 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 	<figcaption>How social sharing buttons look in HPSTR</figcaption>
 </figure>
 
-[^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too... but that's a discussion for another day.
+[^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too… but that's a discussion for another day.
 [^3]: On mobile I choose to remove the fixed positioning to keep the menu from interfering with the main content.
 
 ---
@@ -73,6 +73,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.  
-
-{% include support.html %}
+This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.

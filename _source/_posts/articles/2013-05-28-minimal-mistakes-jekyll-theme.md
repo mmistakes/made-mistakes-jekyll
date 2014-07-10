@@ -57,6 +57,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.  
-
-{% include support.html %}
+This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.

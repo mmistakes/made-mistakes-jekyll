@@ -82,7 +82,7 @@ If you take the time to experiment with Blend I think you'll find it fairly soph
 
 Varying the pressure to the tip while drawing often mistakenly triggers Blend. The software is usually pretty good at figuring out when you want to Blend and corrects itself before blurring something. But if you're trying to draw lightly to preserve your Pencil tips then you and Mr. Rewind are going to become close friends because of it.
 
-I'm curious to learn about the experiences of others using Pencil and Blend. As my tips have broken in I've noticed a loss of spring when pressing down, which appears to decrease Pencil's overall sensitivity --- causing Blend to trigger mid-stroke. Not sure if this is a common occurrence or a symptom of me pressing too hard on the tip. Chime in below with your observations...
+I'm curious to learn about the experiences of others using Pencil and Blend. As my tips have broken in I've noticed a loss of spring when pressing down, which appears to decrease Pencil's overall sensitivity --- causing Blend to trigger mid-stroke. Not sure if this is a common occurrence or a symptom of me pressing too hard on the tip. Chime in below with your observations…
 
 ## What About the Eraser?
 
@@ -110,7 +110,7 @@ And if you're new to Paper and haven't purchased any of the tools from the free 
 
 There's a lot of opportunity for the built-in eraser and Blend feature, and I'm interested to see where FiftyThree takes them. I would love for an eraser that enabled control over what type of stroke you erased. This would be extremely useful for cleaning up a pencil sketch that might be exposed after inking or painting over. Or what if Blend smudged strokes based more on their real world properties --- ink would blur less than pencil for example.
 
-So many possibilities...
+So many possibilities…
 
 ## Questions
 
@@ -120,5 +120,3 @@ Want to know more about Pencil or the new features it enables --- ask away in th
 	<iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0"> </iframe>
 	<figcaption>For giggles here's a time lapse of me drawing with Pencil. Check out my sweet green band-aid yo!</figcaption>
 </figure>
-
-{% include support.html %}

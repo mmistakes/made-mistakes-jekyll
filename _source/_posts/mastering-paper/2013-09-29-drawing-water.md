@@ -74,7 +74,7 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 
 ### Under-painting Large Waves
 
-Depending on the intensity of the waves this next step can be omitted. For larger waves with a lot of white foam, I like to paint a few more layers of blue anywhere these waves appear. The more layers, the darker the blue --- the darker the blue, the higher the contrast there will be between the white wave foam we'll be adding next...
+Depending on the intensity of the waves this next step can be omitted. For larger waves with a lot of white foam, I like to paint a few more layers of blue anywhere these waves appear. The more layers, the darker the blue --- the darker the blue, the higher the contrast there will be between the white wave foam we'll be adding next…
 
 <figure class="half">
 	<img src="{{ site.url }}/images/paper-53-waves-photo.jpg" alt="wave photo reference photo">
@@ -127,7 +127,7 @@ To add in shadows use a variation of the water's base color, mixed with 20--40% 
 	<figcaption>A pencil mixed with a dark blue-gray is perfect for refining edges and adding definition to smaller waves.</figcaption>
 </figure>
 
-Boom! And we're done. Combined with a blue sky from my previous guide and you'll have a landscape that looks like you drew it with traditional art supplies. Shhhhh...your secret is safe with me.
+Boom! And we're done. Combined with a blue sky from my previous guide and you'll have a landscape that looks like you drew it with traditional art supplies. Shhhhh…your secret is safe with me.
 
 ## Variations on a Theme
 
@@ -147,5 +147,3 @@ Using all of these techniques I was able to create a variety of backdrops for th
 {:.no_toc}
 
 The next part will include techniques for drawing various textures with Paper's tools. Things like wood grain, brick, asphalt, and concrete will all be covered to round out the landscape portion of this guide.
-
-{% include support.html %}
