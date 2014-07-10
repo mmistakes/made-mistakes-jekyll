@@ -502,6 +502,10 @@
 }
 .author-bio {
   margin-top: 0;
+  @include font-size(16,12);
+}
+.author-follow {
+  margin-top: 0;
   @include font-size(16);
 }
 
