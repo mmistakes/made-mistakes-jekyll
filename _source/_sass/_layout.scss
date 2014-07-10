@@ -470,6 +470,8 @@
 }
 // footnotes
 .footnotes {
+  position: relative;
+  padding-top: 1em;
   font-family: $alt-font;
   p, li {
     @include font-size(12,no);
@@ -477,6 +479,15 @@
   &:before {
     content: 'Footnotes:';
     font-weight: 700;
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: $column;
+    height: 1px;
+    background: $border-color;
   }
 }
 // page footer
