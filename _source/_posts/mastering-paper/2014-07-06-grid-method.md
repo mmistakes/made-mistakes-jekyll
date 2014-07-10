@@ -134,5 +134,3 @@ With practice you'll eventually find that you won't need the grid anymore and ca
 </figure>
 
 As always, hit me up on [Twitter](http://twitter.com/mmistakes) or in the comments below if you have a question or need further clarification.
-
-{% include support.html %}

@@ -57,5 +57,3 @@ The key to making this work is placing your finger on the circle **before you be
 
 <i class="fa fa-star"></i> **ProTip:** Save this two handed Zoom technique for painting large shapes that requrire extra precision. It can be somewhat disorenting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
 {:.notice}
-
-{% include support.html %}
