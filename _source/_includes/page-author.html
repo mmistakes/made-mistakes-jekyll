@@ -4,5 +4,5 @@
 <div class="author-content">
 	<h3 class="author-name" >Written by <span itemprop="author">{{ site.owner.name }}</span></h3>
 	<p class="author-bio">{{ site.owner.bio }}</p>
-  <p class="author-follow"><a href="https://twitter.com/{{ site.owner.twitter }}" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @{{ site.owner.twitter }}</a></p>
+  {% if site.owner.twitter %}<p class="author-follow"><a href="https://twitter.com/{{ site.owner.twitter }}" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @{{ site.owner.twitter }}</a></p>{% endif %}
 </div><!-- ./author-content -->
