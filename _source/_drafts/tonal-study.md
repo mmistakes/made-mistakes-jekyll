@@ -10,7 +10,4 @@ image:
   teaser:
   thumb:
 toc: true
-share: true  
 ---
-
-{% include support.html %}
