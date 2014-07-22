@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@smroux](http://twitter.com/smroux).
 
-{% include paperfaces-boilerplate-4.html %}
+{% include paperfaces-boilerplate-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-smroux-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-smroux-process-1-600.jpg" alt="Work in process screenshot"></a>
