@@ -1,6 +1,6 @@
 // Off Canvas Sliding
-
 $(document).ready(function(){
+	// Menu button click
 	$('.js-menu-trigger').on('click touchstart', function(e){
 		$('body').toggleClass('no-scroll');
 		$('.js-menu').toggleClass('is-visible');
@@ -10,6 +10,7 @@ $(document).ready(function(){
 		$('#page-wrapper').toggleClass('slide');
 		e.preventDefault();
 	});
+	// Page overlay click
 	$('.js-menu-screen').on('click touchstart', function(e){
 		$('body').toggleClass('no-scroll');
 		$('.js-menu').toggleClass('is-visible');
