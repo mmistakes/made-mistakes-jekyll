@@ -20,6 +20,26 @@ highlighter: pygments
 gems:
   - jekyll-sitemap
   - jekyll/minibundle
+include: [".htaccess"]
+exclude: 
+  - lib
+  - config.rb
+  - .sass-cache
+  - Capfile
+  - config
+  - log
+  - Rakefile
+  - Rakefile.rb
+  - tmp
+  - *.sublime-project
+  - *.sublime-workspace
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+  - Gruntfile.js
+  - package.json
 
 
 # Site owner
@@ -40,27 +60,3 @@ owner:
   bio: "Just another boring, time traveling, designer slash illustrator from Buffalo."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname: mmistakes
-
-
-# Sitemap generator plugin
-
-sitemap:
-  url: http://mademistakes.com
-  file: "/sitemap.xml"
-  exclude:
-    - "/css/main.scss"
-    - "/404/index.md"
-    - "/atom.xml"
-    - "/articles-feed.xml"
-    - "/paperfaces-feed.xml"
-    - "/mastering-paper-feed.xml"
-  include_posts:
-    - "/articles/index.md"
-    - "/tag/index.md"
-    - "/work/index.md"
-  change_frequency_name: "change_frequency"
-  priority_name: "priority"
-
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
