@@ -8,6 +8,7 @@ image:
   thumb:
 ads: false
 share: false
+sitemap: false
 ---
 
 Sorry, but the page you were trying to view moved or does not exist --- perhaps you can [find it here]({{ site.url }}/articles/ "Posts & Diatribes").

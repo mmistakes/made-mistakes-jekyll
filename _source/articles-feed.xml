@@ -1,6 +1,7 @@
 ---
 layout: none
 limit: 25
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
