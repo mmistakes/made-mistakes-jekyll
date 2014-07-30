@@ -25,7 +25,7 @@ h1 {
   @include font-size(36);
 }
 h2 {
-  @include media($micro) { @include font-size(20); }
+  @include media($micro) { @include font-size(22); }
   @include font-size(32);
 }
 h3 {
@@ -241,6 +241,7 @@ label {
 
 textarea,
 #{$all-text-inputs},
+select,
 select[multiple=multiple] {
   @include box-sizing(border-box);
   @include transition(border-color);
