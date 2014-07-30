@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Paper Quick Tip: Moving the Loupe"
-modified:
+modified: 2014-07-30T10:28:11.708000-04:00
 categories: mastering-paper
 excerpt: "Learn how to reposition Paper by 53's Zoom loupe mid-stroke to aid in painting large detailed shapes."
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
@@ -10,7 +10,7 @@ image:
   teaser: paper-53-zoom-loupe-teaser.jpg
   thumb: paper-53-zoom-loupe-thumb.jpg
 toc: true
-share: true  
+comments: true  
 ---
 
 I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's Zoom loupe along as you drew.
@@ -55,5 +55,5 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 
-<i class="fa fa-star"></i> **ProTip:** Save this two handed Zoom technique for painting large shapes that requrire extra precision. It can be somewhat disorenting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
+<i class="fa fa-star"></i> **ProTip:** Save this two handed Zoom technique for painting large shapes that requrire extra precision. It can be somewhat disorienting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
 {:.notice}
