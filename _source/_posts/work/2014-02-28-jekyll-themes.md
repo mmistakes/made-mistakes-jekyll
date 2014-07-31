@@ -23,16 +23,17 @@ Below are all of the Jekyll starters I've open sourced thus far. Each "theme" co
 	<img src="{{ site.url }}/images/skinny-bones-theme-feature.jpg" alt="Skinny Bones feature image">
 </figure>
 
-Not quite ready for prime time because it requires Jekyll 2 --- which hasn't rolled out to GitHub Pages yet. But if you want to tinker around with it locally or host on your own server fork away. Full documentation coming soon…
+A new Jekyll starter I've been working on that I used to build the latest incarnation of Made Mistakes. Full documentation coming soon…
 
 * Minimal design meant to be hacked up and customized
-* Built in support for Sass (via Jekyll 2+)
+* Built in support for Sass (via Jekyll 2.x)
 * Off canvas menu
 * Tile based archives
-* Optional table of contents, ads, and Disqus comments modules
+* Optional table of contents, ads, and Disqus comments modules, and more
 
 <div markdown="0">
 	<a href="https://github.com/mmistakes/skinny-bones-jekyll" class="btn">Download</a>
+	<a href="http://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo the Theme</a>
 </div>
 
 ---
