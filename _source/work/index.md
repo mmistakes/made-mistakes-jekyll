@@ -8,7 +8,7 @@ image:
   feature:
   teaser:
   thumb:
-id: work
+body-id: work
 ---
 
 <div class="tiles">

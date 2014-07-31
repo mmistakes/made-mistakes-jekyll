@@ -7,7 +7,7 @@ image:
   thumb: portrait-thumb.jpg
   teaser: portrait-teaser.jpg
 ads: false
-id: portraits
+body-id: portraits
 ---
 
 Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how you go about commissioning one.

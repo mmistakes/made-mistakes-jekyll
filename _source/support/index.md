@@ -9,7 +9,7 @@ image:
   teaser:
   thumb:
 share: false
-id: support
+body-id: support
 ---
 
 Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel inclined, here's how you can thank me.

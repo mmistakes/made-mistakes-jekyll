@@ -6,7 +6,7 @@ modified: 2014-07-13T03:10:42.615376+00:00
 image: 
   thumb: paper-53-expanded-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
-id: mastering-paper
+body-id: mastering-paper
 ---
 
 In the spirit of openness I've decided to compile everything I've learned using [*Paper by FiftyThree*](http://www.fiftythree.com), into a multi-part series I'm dubbing Mastering Paper.

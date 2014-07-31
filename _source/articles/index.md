@@ -8,7 +8,7 @@ image:
   feature:
   teaser:
   thumb:
-id: articles  
+body-id: articles  
 ---
 
 <div class="tiles">

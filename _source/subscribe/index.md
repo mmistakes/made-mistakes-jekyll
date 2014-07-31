@@ -9,7 +9,7 @@ image:
   teaser:
   thumb:
 share: false
-id: subscribe
+body-id: subscribe
 ---
 
 All of the ways you can consume content found on Made Mistakes.
