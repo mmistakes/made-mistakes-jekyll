@@ -7,6 +7,7 @@ teaser: default-teaser.png
 locale: en_US
 url: http://mademistakes.com
 
+
 # Jekyll configuration
 
 source: _source
@@ -16,6 +17,10 @@ sass:
 permalink: /:categories/:title/
 markdown: kramdown
 highlighter: pygments
+gems:
+  - jekyll-sitemap
+  - jekyll/minibundle
+
 
 # Site owner
 owner:
@@ -35,6 +40,7 @@ owner:
   bio: "Just another boring, time traveling, designer slash illustrator from Buffalo."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname: mmistakes
+
 
 # Sitemap generator plugin
 
