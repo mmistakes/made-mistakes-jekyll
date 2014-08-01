@@ -3,7 +3,7 @@ layout: media
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
-modified: 2014-06-17T15:38:33.418000-04:00
+modified: 2014-08-01T08:13:29.129000-04:00
 image: 
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
@@ -15,9 +15,9 @@ ads: true
 
 As I continue to hack away at the design of Made Mistakes and improve on things, I've tried to release a simplified Jekyll starter after each major revision. Just my way of giving back to the community.
 
-Below are all of the Jekyll starters I've open sourced thus far. Each "theme" contains all the `_layouts`, `_includes`, assets, and sample posts/pages to get you started. For the most part they share a lot of similarities (especially in `_config.yml`), which should make switching and updating easier. Not quite on the level of [Octopress](http://octopress.org/) or [Jekyll Bootstrap](http://jekyllbootstrap.com/), but I think they get the job done.
+Below are all of the Jekyll starters I've open sourced thus far. Each "theme" contains `_layouts`, `_includes`, assets, and sample posts/pages to get you started. For the most part they share a lot of similarities (especially in `_config.yml`), which should make switching and updating easier. Not quite on the level of [Octopress](http://octopress.org/) or [Jekyll Bootstrap](http://jekyllbootstrap.com/), but I think they could be helpful.
 
-## Skinny Bones (alpha)
+## Skinny Bones
 
 <figure>
 	<img src="{{ site.url }}/images/skinny-bones-theme-feature.jpg" alt="Skinny Bones feature image">
@@ -44,7 +44,7 @@ A new Jekyll starter I've been working on that I used to build the latest incarn
 	<img src="{{ site.url }}/images/hpstr-theme-feature.jpg" alt="HPSTR feature image">
 </figure>
 
-A responsive Jekyll blog theme designed to give your site a modern and somewhat cliche feel.
+A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché feel.
 
 * Modern, subtle design
 * Animated main menu
