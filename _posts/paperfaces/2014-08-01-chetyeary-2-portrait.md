@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "This shirt has a lot of lines"
+title: "This Shirt Has a Lot of Lines"
 excerpt: "PaperFaces portrait of @chetyeary drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chetyeary-2-twitter-lg.jpg

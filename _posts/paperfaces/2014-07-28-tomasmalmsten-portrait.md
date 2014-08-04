@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Hats up glamour shot"
+title: "Hats Up Glamour Shot"
 excerpt: "PaperFaces portrait of @tomasmalmsten drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tomasmalmsten-twitter-lg.jpg

@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Weirdo with a beardo"
+title: "Weirdo with a Beardo"
 excerpt: "PaperFaces portrait of @adolvsson drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-adolvsson-twitter-lg.jpg

@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "White rooms always"
+title: "White Rooms Always"
 excerpt: "PaperFaces portrait of @craiginwales drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-craiginwales-twitter-lg.jpg

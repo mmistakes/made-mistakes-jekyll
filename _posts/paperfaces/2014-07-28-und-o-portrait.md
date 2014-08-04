@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Architecture in gray"
+title: "Architecture in Gray"
 excerpt: "PaperFaces portrait of @und_O drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-und-o-twitter-lg.jpg

@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Wild hair"
+title: "Wild Hair"
 excerpt: "PaperFaces portrait of Maryoma B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-maryoma-b-lg.jpg

@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Hoodie fight"
+title: "Hoodie Fight"
 excerpt: "PaperFaces portrait of @MattAbbo drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mattabbo-twitter-lg.jpg

@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Hint of a bird’s wing"
+title: "Hint of a Bird’s Wing"
 excerpt: "PaperFaces portrait of @Trollhunden drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-trollhunden-twitter-lg.jpg

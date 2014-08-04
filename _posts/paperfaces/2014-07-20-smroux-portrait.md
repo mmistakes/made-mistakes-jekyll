@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Mountain posing"
+title: "Mountain Posing"
 excerpt: "PaperFaces portrait of @smroux drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-smroux-twitter-lg.jpg

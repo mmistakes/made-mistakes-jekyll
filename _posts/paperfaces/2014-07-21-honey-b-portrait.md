@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Chalk lines"
+title: "Chalk Lines"
 excerpt: "PaperFaces portrait of Honey B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-honey-b-lg.jpg

@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Very painterly"
+title: "Very Painterly"
 excerpt: "PaperFaces portrait of @iPatrycjaR drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ipatrycjar-twitter-lg.jpg
