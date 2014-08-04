@@ -9,93 +9,20 @@ module.exports = function(grunt) {
       },
       all: [
         'Gruntfile.js',
-        '_source/js/*.js',
-        '!_source/js/main.js'
+        'js/*.js',
+        '!js/main.js'
       ]
     },
-    shell: {
-      jekyllBuild: {
-        command: 'jekyll build'
-      }
-    },
-    connect: {
-      server: {
-        options: {
-          port: 4000,
-          base: '_site'
-        }
-      }
-    },
     watch: {
-      jekyll: {
-        files: [
-          '_config.yml',
-          '_source/*.*',
-          '_source/_layouts/**',
-          '_source/_includes/**',
-          '_source/_posts/**',
-          '_source/_work/**'
-        ],
-        tasks: ['shell:jekyllBuild'],
-        options: {
-          livereload: true
-        }
-      },
-      sass: {
-        files: [
-          '_source/_sass/*.scss'
-        ],
-        tasks: ['sass', 'shell:jekyllBuild'],
-        options: {
-          livereload: true
-        }
-      },
       js: {
         files: [
           '<%= jshint.all %>'
         ],
-        tasks: ['jshint', 'uglify', 'shell:jekyllBuild'],
+        tasks: ['jshint', 'uglify'],
         options: {
           livereload: true
         }
       },
-      images: {
-        files: [
-          '_source/_images/*.{png,jpg,jpeg}'],
-        tasks: ['newer:imagemin', 'shell:jekyllBuild'],
-        options: {
-          livereload: true
-        }
-      },
-      svgs: {
-        files: [
-          '_source/_images/*.svg'],
-        tasks: ['newer:svgmin', 'shell:jekyllBuild'],
-        options: {
-          livereload: true
-        }
-      }
-    },
-    sass: {
-      dist: {
-        options: {
-          sourcemap: false,
-          style: 'compressed',
-          compass: false,
-        },
-        files: {
-          '_source/css/main.min.css':'_source/_sass/main.scss'
-        }
-      },
-      dev: {
-        options: {
-          sourcemap: false,
-          compass: false,
-        },
-        files: {
-          '_source/css/main.css':'_source/_sass/main.scss'
-        }
-      }
     },
     uglify: {
       dist: {
@@ -106,9 +33,9 @@ module.exports = function(grunt) {
           mangle: false
         },
         files: {
-          '_source/js/main.js': [
-            '_source/js/plugins/*.js',
-            '_source/js/_*.js'
+          'js/main.js': [
+            'js/plugins/*.js',
+            'js/_*.js'
           ]
         }
       }
@@ -121,9 +48,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: '_source/images/',
+          cwd: 'images/',
           src: '{,*/}*.{png,jpg,jpeg}',
-          dest: '_source/images/'
+          dest: 'images/'
         }]
       }
     },
@@ -135,9 +62,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: '_source/images/',
+          cwd: 'images/',
           src: '{,*/}*.{png,jpg,jpeg}',
-          dest: '_source/images/'
+          dest: 'images/'
         }]
       }
     },
@@ -145,9 +72,9 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '_source/images/',
+          cwd: 'images/',
           src: '{,*/}*.svg',
-          dest: '_source/images/'
+          dest: 'images/'
         }]
       }
     },
@@ -155,18 +82,14 @@ module.exports = function(grunt) {
 
   // Load tasks
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-newer');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
-  grunt.loadNpmTasks('grunt-newer');
   grunt.loadNpmTasks('grunt-imgcompress');
 
   // Register tasks
-  grunt.registerTask('default', ['jshint', 'uglify']);
-  grunt.registerTask('serve', ['shell', 'connect', 'watch']);
-  grunt.registerTask('optimize', ['imgcompress', 'svgmin']);
-
+  grunt.registerTask('scripts', ['watch', 'uglify']);
+  grunt.registerTask('images', ['newer:imgcompress', 'newer:svgmin']);
 };
