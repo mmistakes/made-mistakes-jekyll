@@ -3,7 +3,7 @@ layout: media
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
-modified: 2014-08-01T10:02:50.126000-04:00
+modified: 2014-08-06T08:20:20.057000-04:00
 image: 
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
@@ -100,4 +100,4 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 
 ## License
 
-These themes are free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). Feel free to to modify them to suit your needs.
+These themes are free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). Feel free to to modify them to suit your needs.

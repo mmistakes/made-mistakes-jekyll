@@ -8,7 +8,7 @@ image:
   thumb: hpstr-250x250.png
 category: articles
 tags: [Jekyll, web development, open source, GitHub]
-modified: 2014-06-03T15:00:20.052000-04:00
+modified: 2014-08-06T08:20:12.073000-04:00
 comments: true
 toc: true
 ---
@@ -73,4 +73,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.
+This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.

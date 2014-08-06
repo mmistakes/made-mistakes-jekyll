@@ -4,7 +4,7 @@ title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 subheadline: "Built for Jekyll"
 excerpt: "A responsive Jekyll theme with a minimal design for text heavy sites by designer Michael Rose."
-modified: 2014-08-01T09:42:03.510000-04:00
+modified: 2014-08-06T08:19:56.489000-04:00
 image: 
   feature: minimal-mistakes-theme-feature.jpg
   teaser: minimal-mistakes-theme-teaser.jpg
@@ -74,4 +74,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](https://www.gnu.org/copyleft/gpl.html). So feel free to use it on your site without linking back to me or including a disclaimer.
+This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
