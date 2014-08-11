@@ -58,7 +58,7 @@ end
 desc 'rsync the contents of ./_site to the server'
 task :rsync do
   puts '* rsyncing the contents of ./_site to the server'
-  system 'rsync -prvz --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r _site/ ekoagency.com@ekoagency.com:domains/mademistakes.com/html/'
+  system 'rsync -prvz --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r _site/ ekoagency.com@s98164.gridserver.com:domains/mademistakes.com/html/'
 end
 
 # rake deploy
