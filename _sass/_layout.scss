@@ -163,14 +163,6 @@
       @include span-columns(9);
     }
   }
-  .toc {
-    @include media($medium) {
-      @include row($direction: RTL);
-    }
-    @include media($large) {
-      @include span-columns(2 of 9);
-    }
-  }
   .page-title {
     @include fill-parent;
     h1 {
@@ -187,12 +179,8 @@
   }
   @at-root {
     .page-content {
-      @include media($medium) {
-        @include row($direction: RTL);
-        //@include span-columns(7 of 9);
-      }
       @include media($large) {
-        @include span-columns(7 of 9);
+        @include span-columns(8 of 9);
       }
       // larger font for intro paragraph
       > p {
@@ -267,6 +255,7 @@
     background: lighten($border-color,5);
     @include media($medium) {
       @include span-columns(3);
+      @include shift(1);
       margin-left: 0;
       margin-right: 0;
     }
