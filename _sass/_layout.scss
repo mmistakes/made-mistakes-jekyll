@@ -219,29 +219,10 @@
         padding-left: 2 * $gutter;
         padding-right: 2 * $gutter;
         font-family: $alt-font;
-        @include font-size(12,no,15);
+        @include font-size(12,yes,15);
         color: $caption-color;
         text-align: center;
         clear: both;
-        @include media($large) {
-          position: absolute;
-          top: 1px;
-          right: (3 * $column + $gutter) * -1;
-          padding-top: 10px;
-          padding-left: 0;
-          padding-right: 0;
-          width: (3 * $column);
-          text-align: left;
-          &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 50px;
-            height: 1px;
-            background: lighten($black, 70);
-          }
-        }
         a {
           text-decoration: none;
         }
