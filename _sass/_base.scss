@@ -161,8 +161,8 @@ figure {
   @include clearfix;
   img,
   .fluid-width-video-wrapper {
-    margin-bottom: 0px + $doc-line-height;
-    margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+    margin-bottom: (0px + $doc-line-height) / 2;
+    margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
   }
   a {
     img {

@@ -160,28 +160,27 @@
 #main {
   .inner-wrap {
     @include media($medium) {
-      @include span-columns(9);
+      @include span-columns(8);
     }
   }
   .page-title {
     @include fill-parent;
+    @include clearfix;
+    h1, h2 {
+      @include media($medium) {
+        @include span-columns(10);
+      }
+    }
     h1 {
       margin-top: 0;
     }
     h2 {
       font-weight: 400;
       margin-top: 0;
-      @include media($large) {
-        @include span-columns(9);
-        @include shift(3);
-      }
     }
   }
   @at-root {
     .page-content {
-      @include media($large) {
-        @include span-columns(8 of 9);
-      }
       // larger font for intro paragraph
       > p {
         &:first-child {
@@ -206,13 +205,23 @@
       figcaption {
         padding-left: 2 * $gutter;
         padding-right: 2 * $gutter;
+        @include media($medium) {
+          padding-left: 0;
+          padding-right: 0;
+        }
         font-family: $alt-font;
         @include font-size(12,yes,15);
         color: $caption-color;
-        text-align: center;
         clear: both;
         a {
           text-decoration: none;
+        }
+      }
+      .half,
+      .third {
+        & figcaption {
+          padding-left: 0;
+          padding-right: 0;
         }
       }
       .page-footer,
@@ -254,8 +263,8 @@
     padding: 10px 0 20px;
     background: lighten($border-color,5);
     @include media($medium) {
-      @include span-columns(3);
-      @include shift(1);
+      @include span-columns(4);
+      //@include shift(1);
       margin-left: 0;
       margin-right: 0;
     }
