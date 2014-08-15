@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "iPad Portraits with Paper by FiftyThree"
-excerpt: "An experiment in humanizing the web &#8212; designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
+excerpt: "An experiment in humanizing the web — designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
 modified: 2014-04-02
 image: 
   feature: paperfaces-project-feature.jpg
