@@ -17,36 +17,38 @@ Two years ago I felt inspired to start drawing again as a way to improve skills 
 
 ## How Did You Do It?
 
-I'm not going to lie, finding the motivation to create something everyday is incredibly difficult. And even with the proper motivation, making the time for it is even harder. I'm proof that finishing a 365 day project is possible while maintaining a healthy family and work life balance.
+I'm not going to lie, finding the motivation to create something every day is incredibly difficult. And even with the proper motivation, making the time for it is even harder. I'm proof that finishing a 365 day project is possible while maintaining a healthy family and work life balance.
 
-Having a routine was the key to this success. After my 50th portrait I settled into a daily routine of drawing for an hour after putting the girls to bed. By setting this time aside each day I mentally set expectations for myself. If I was more loose with this structure I probably would have given up on the project shortly after starting.
+Having a routine and sticking to it was the key to completing my goal. After my 50th portrait I settled into a daily routine of drawing for an hour after putting the kids to bed. By reserving this time each day I started to mentally set expectations for myself. If I was more loose with this structure I probably would have given up long ago.
 
-Along with this schedule, making my efforts public served as a motivator. As the amount of eyeballs following my progress increased over the months as did the pressure. I suppose this could be seen as a negative but I always thought of it as positive reinforcement --- small nudges anytime I felt lazy.
+Making my project public was another huge reason I kept at it for so long. With each new follower on Twitter, Tumblr, Instagram, Facebook or portrait request came an increase in pressure to continue on. I suppose this could have hit me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
+
+I suppose having a clear objective of what you want to achieve or goal for a project like this helped a bit. I wanted to improve my drawing skills and drawing random people from the internet became a way for me to do that.
 
 ## Creating Is Addicting
 
-If you've ever gotten a tattoo then you probably know something about addiction --- drawing these portraits felt a little like that. After finishing one drawing I would begin thinking about tomorrow's. Researching techniques and planning ways to make the next one stronger and better than the last.
+If you've ever gotten a tattoo then you probably know something about addiction --- drawing a portrait every day and posting it online felt a little like that. Immediately after finishing one drawing I would begin thinking about the next by researching techniques and planing ways to make it stronger than the last.
 
 ## Creating Is Rewarding
 
-How cool would it be to see a years worth of drawings assembled together? It's easy to get lost in the daily fragments and it wasn't something clear to me until I printed my first [Moleskine book](#book-review). The idea of someday being able to look back on such a large body of work is very powerful --- at least it was for me.
+Alone some of these drawings may not be terribly interesting or special, but together they can take on *Voltron*-like qualities. Only after building a PaperFaces web gallery and printing my first [Moleskine books](#book-review) did this become clear to me.
 
 ## Keep It Fun
 
-To avoid constantly comparing my crude work with those in the Paper community creating works of art I set artificial limits.
+The last thing I wanted with the few free hours I had each day was fill it up with more work. To avoid turning this into a chore *I had to complete everyday* I set some artificial limits for myself:
 
-* Omit anything that is difficult or takes too long (ie: drawing facial features)
-* Embrace your mistakes
+* Omit anything that is difficult or takes too long, e.g. drawing facial features
+* Choose subject matter that has enough variation to stay fresh for a year or longer, e.g. a new face every day
 
 ## Keep It Challenging
 
-Easy and simple can turn boring in a hurry. Part of the excitement of drawing with Paper by 53 was the challenge. When I first started there were only a handful of colors to choose from and no [zoom](#loupe-tutorial) or [Blend](#blend-first-look) features. It was during this time that I grew the most as a creator, learning how to push the tools through experimentation.
+Easy and simple can turn boring in a hurry. The challenge associated with Paper by 53 was what attracted me to the app and doing a 365 day project. When I first started there were only a handful of colors to choose from and no [zoom](#loupe-tutorial) or [Blend](#blend-first-look) features. It was during this time that I grew the most as a creator, learning how to push the tools through practice and experimentation.
 
-As confidence levels grow don't be afraid to change the rules. Over the course of two years I did this numerous times. Whether it was changing the tools I used in Paper from primarily inks to watercolor and pencil. Or when I made the decision move away from the blank faces to more realistic renderings.
+As confidence levels grow don't be afraid to change the rules and push yourself. Over the course of two years I did this numerous times. Whether it was changing the tools I used in Paper from primarily inks to watercolor and pencil. Or when I made the decision to move away from the blank faces and attempt to draw more realistic renderings.
 
 ## By the Numbers
 
-I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed well over 800 finished drawings.
+I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed well over 800 finished drawings. Here's a breakdown of various types of portraits I've completed.
 
 | Type | No. of Portraits[^portraits]
 |---
@@ -60,6 +62,11 @@ I had this original idea of just drawing a single portrait each day for a year u
 
 ## Thank You
 
-The positive support I received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about giving up tolerable.
+The positive support I received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about giving up tolerable. And to the handful of you who supported me in the early days with donations and portrait orders I appreciate your generosity so much.
 
 ## What's Next
+
+Don't get me wrong, drawing strangers for the last two years has been great, but a big part of me longs to create work on a personal level. In a past life I kept art journals filled with blind contour drawings and scribbled thoughts that I turned into a printed book at one point. I'd love to replicate something like that in Paper building on the techniques I've mastered drawing portraits.
+
+And for everyone who has been patiently waiting for the next set of Mastering Paper tutorials --- it's a fairly safe bet that I'm going to have a lot more time for writing.
+
