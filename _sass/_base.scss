@@ -4,6 +4,7 @@
 body {
   font-family: $base-font;
   color: $text-color;
+  background-color: $background-color;
   @include font-size(16);
 }
 
@@ -160,7 +161,8 @@ figure {
   }
   @include clearfix;
   img,
-  .fluid-width-video-wrapper {
+  .fluid-width-video-wrapper,
+  .palette {
     margin-bottom: (0px + $doc-line-height) / 2;
     margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
   }

@@ -1,9 +1,11 @@
 ---
 layout: archive
 permalink: /
-title:
-excerpt: "Hi, I’m Michael Rose — just another boring, tattooed, time traveling, designer from Buffalo."
+title: "Hi, I’m Michael Rose"
+excerpt: "Just another boring, tattooed, time traveling, designer from Buffalo."
 id: home
+---
+
 ---
 
 ### Paper by 53

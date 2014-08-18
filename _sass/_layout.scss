@@ -131,7 +131,6 @@
 // --------------------------------------------------
 
 #page-wrapper {
-  padding: 0 $gutter; // add white space for smaller screens
   @include size(100% 100%);
   -webkit-overflow-scrolling: touch;
   z-index: 2;
@@ -167,17 +166,22 @@
     @include fill-parent;
     @include clearfix;
     h1, h2 {
+      @include span-columns(12);
       @include media($medium) {
         @include span-columns(10);
       }
     }
     h1 {
-      @include media($micro) { margin-bottom: 0};
+      @include media($micro) { 
+        margin-top: $gutter;
+      }
       margin-bottom: 0;
     }
     h2 {
       font-weight: 400;
       margin-top: 0;
+      @include media($micro) { @include font-size(22); }
+      @include font-size(28);
     }
   }
   @at-root {
@@ -272,7 +276,6 @@
     background: lighten($border-color,5);
     @include media($medium) {
       @include span-columns(4);
-      //@include shift(1);
       margin-left: 0;
       margin-right: 0;
     }
@@ -577,9 +580,9 @@
 
 #site-footer {
   @include outer-container;
-  margin-top: (3 * (0px + $doc-line-height));
-  margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-  padding-bottom: $gutter;
+  margin-top: (2 * (0px + $doc-line-height));
+  margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
+  padding: $gutter;
   font-family: $alt-font;
   .copyright {
     @include font-size(12);

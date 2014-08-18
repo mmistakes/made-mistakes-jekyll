@@ -20,7 +20,8 @@ $border-radius               	: 3px;
 $white                        : #fff;
 $black                        : #000;
 
-$body-color                  	: #ebebeb;
+$background-color             : #ebebeb;
+$body-color                  	: $white;
 $text-color                  	: lighten($black, 13);
 $caption-color                : lighten($black, 46);
 $base-color                  	: #343434;    
