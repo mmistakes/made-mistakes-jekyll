@@ -172,7 +172,8 @@
       }
     }
     h1 {
-      margin-top: 0;
+      @include media($micro) { margin-bottom: 0};
+      margin-bottom: 0;
     }
     h2 {
       font-weight: 400;
@@ -184,7 +185,9 @@
       // larger font for intro paragraph
       > p {
         &:first-child {
-          @include font-size(20,yes,30);
+          @include media($medium) {
+            @include font-size(20,yes,30);
+          }
         }
       }
       // cleaner underlines for links
@@ -254,6 +257,11 @@
       }
     }
   }
+  aside {
+    @include media($medium) {
+      @include span-columns(8);
+    }
+  }
   .ads {
     position: relative;
     text-align: center;
@@ -317,15 +325,14 @@
 }
 // breadcrumbs
 .breadcrumbs { 
-  @include row;
+  @include clearfix;
   margin-top: $gutter;
-  @include font-size(10,no);
+  font-family: $alt-font;
+  @include font-size(12,yes,1);
+  text-align: left;
+  text-transform: uppercase;
   a {
     display: inline-block;
-    font-family: $alt-font;
-    font-weight: 700;
-    text-align: left;
-    text-transform: uppercase;
   }
 }
 // table of contents
@@ -337,9 +344,7 @@
     border-radius: $border-radius;
   }
   li {
-    @include media($micro) { @include font-size(16,no,18); }
-    @include media($small) { @include font-size(16,no,18); }
-    @include font-size(12,no,16);
+    @include font-size(16,no,18);
     border-bottom: 1px solid $border-color;
   }
   font-family: $alt-font;

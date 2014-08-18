@@ -12,10 +12,10 @@ layout: default
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
 		{% endif %}
-		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
 		</div>
+		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
 		<div class="inner-wrap">
 			<nav class="toc"></nav><!-- /.toc -->
 			<div id="content" class="page-content" itemprop="articleBody">
@@ -25,11 +25,12 @@ layout: default
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
-				<aside>
-					{% if page.comments == true %}{% include comments.html %}{% endif %}
-				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
 		{% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+		{% if page.comments == true %}
+			<aside>{% include comments.html %}</aside>
+			{% if page.ads != false %}<div class="ads">{% include advertising-2.html %}</div><!-- /.ads -->{% endif %}
+		{% endif %}
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
