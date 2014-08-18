@@ -217,7 +217,7 @@
           padding-right: 0;
         }
         font-family: $alt-font;
-        @include font-size(12,yes,15);
+        @include font-size(14,yes,16);
         color: $caption-color;
         clear: both;
         a {
@@ -463,7 +463,7 @@
   padding-top: 1em;
   font-family: $alt-font;
   p, li {
-    @include font-size(12,no);
+    @include font-size(14,no);
   }
   &:before {
     content: 'Footnotes:';
