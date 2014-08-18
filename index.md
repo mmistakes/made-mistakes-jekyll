@@ -6,8 +6,6 @@ excerpt: "Just another boring, tattooed, time traveling, designer from Buffalo."
 id: home
 ---
 
----
-
 ### Paper by 53
 
 <div class="tiles">
