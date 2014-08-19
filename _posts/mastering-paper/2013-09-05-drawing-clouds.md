@@ -10,10 +10,11 @@ image:
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, sky, clouds]
 comments: true
-toc: true
 ---
 
 Paper by 53 makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here…let me show you how.
+
+{% include toc.html %}
 
 ## Blue Skies Fade
 

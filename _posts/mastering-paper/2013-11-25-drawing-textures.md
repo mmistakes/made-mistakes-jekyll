@@ -10,10 +10,11 @@ image:
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, texture, wood]
 comments: true
-toc: true
 ---
 
 If you've been following along you now know all my Paper techniques[^techniques] and tricks for painting basic landscapes. Trees, grass, skies, clouds, water, and waves --- all the parts for building a solid landscape foundation. This next part of my Mastering Paper guide will cover texture techniques for creating bricks, wood grain, concrete, and rocks.
+
+{% include toc.html %}
 
 [^techniques]: I like to draw loose and quick, and avoid anything that takes the fun and energy from the experience. My techniques focus more on getting the best results in the least amount of time, because who really wants to spend more than an hour on a drawing?
 

@@ -10,10 +10,11 @@ image:
   teaser: pencil-53-teaser.jpg
   thumb: pencil-53-thumb.jpg
 comments: true
-toc: true
 ---
 
 For the last month I've had the privilege of using FiftyThree's [first hardware product](http://fiftythree.com/pencil), **Pencil**. A Bluetooth stylus that works exclusively with Paper for iPad, and delivers an experience unlike other styli on the market.
+
+{% include toc.html %}
 
 ## Look and Feel
 
@@ -30,8 +31,8 @@ Between the two finishes, Walnut is lighter and softer to the touch with a wood 
 Similar to Paper, Pencil shares the same minimally designed aesthetic --- that means no buttons, no battery indicator lights[^led-light], and no on/off switches. I love how the UI in Paper doesn't get in your way, and it's refreshing that Pencil's design echoes this theme. Common tasks like erasing or [blending]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}) become more natural, without the need to open the tool tray or press buttons. Want to erase something? Flip Pencil upside down and erase a mistake like you would "in real life." Need to soften pencil strokes? Use your finger to smudge the pixels. 
 
 <figure>
-	<img src="{{ site.url }}/images/pencil-53-usb-charging.jpg" alt="Pencil's battery charging in USB port">
-	<figcaption>So I lied. There is one LED light hidden inside, only visible when charging Pencil via USB.</figcaption>
+    <img src="{{ site.url }}/images/pencil-53-usb-charging.jpg" alt="Pencil's battery charging in USB port">
+    <figcaption>So I lied. There is one LED light hidden inside, only visible when charging Pencil via USB.</figcaption>
 </figure>
 
 [^led-light]: A LED light does exist, but it is not visible during normal use. When the battery is plugged into a USB port an amber light can be observed as it charges.
@@ -39,7 +40,7 @@ Similar to Paper, Pencil shares the same minimally designed aesthetic --- that m
 ## Just the Tip
 
 <figure class="image-right">
-	<img src="{{ site.url }}/images/pencil-53-pogo-connect-support.jpg" alt="Pogo Connect support" width="250" height="234">
+    <img src="{{ site.url }}/images/pencil-53-pogo-connect-support.jpg" alt="Pogo Connect support" width="250" height="234">
 </figure>
 
 To be honest I was a little disappointed when I discovered Pencil's tip wouldn't be pressure sensitive and support for the [Pogo Connect]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) was temporarily suspended[^pogo-support].
@@ -55,9 +56,9 @@ The tip is responsive and as accurate as one can expect from the limitations the
 [FiftyThree's website](http://www.fiftythree.com/pencil) suggests using the broad side of the tip to fill in large sections. Maybe it is wishful thinking on my part, but I got the implied impression that using the broad side would produce thicker marks. In my tests it just doesn't work that way. I suppose it is faster to use the long edge to make marks faster so that's a positive.
 
 <figure class="half">
-	<img src="{{ site.url }}/images/pencil-53-tip-stroke.jpg" alt="Pencil stroke with the tip">
-	<img src="{{ site.url }}/images/pencil-53-broad-side-stroke.jpg" alt="Pencil stroke with broad side">
-	<figcaption>As you can see, line weight isn&rsquo;t effected by using the tip or the broad side. Bummer.</figcaption>
+    <img src="{{ site.url }}/images/pencil-53-tip-stroke.jpg" alt="Pencil stroke with the tip">
+    <img src="{{ site.url }}/images/pencil-53-broad-side-stroke.jpg" alt="Pencil stroke with broad side">
+    <figcaption>As you can see, line weight isn&rsquo;t effected by using the tip or the broad side. Bummer.</figcaption>
 </figure>
 
 ### Is it Durable?
@@ -89,9 +90,9 @@ I'm curious to learn about the experiences of others using Pencil and Blend. As 
 I'm not one for erasing and instead rely heavily on Rewind. But for those of you who do employ the eraser tool often, you're going to love Pencil. Instead of stopping to open the tool tray, selecting the eraser, erasing your mistake, and going back to a drawing tool --- you now can flip Pencil on its head and erase instantly. It's not any more precise than the tool Paper shipped with, but it is way more convenient.
 
 <figure class="half">
-	<img src="{{ site.url }}/images/pencil-53-eraser-short.jpg" alt="Pencil erasing with short edge">
-	<img src="{{ site.url }}/images/pencil-53-eraser-long.jpg" alt="Pencil erasing with long edge">
-	<figcaption>Sadly using the short or long edge doesn&rsquo;t effect the size of the eraser tool.</figcaption>
+    <img src="{{ site.url }}/images/pencil-53-eraser-short.jpg" alt="Pencil erasing with short edge">
+    <img src="{{ site.url }}/images/pencil-53-eraser-long.jpg" alt="Pencil erasing with long edge">
+    <figcaption>Sadly using the short or long edge doesn&rsquo;t effect the size of the eraser tool.</figcaption>
 </figure>
 
 ## Palm Resters of the World Rejoice
@@ -117,6 +118,6 @@ So many possibilities…
 Want to know more about Pencil or the new features it enables --- ask away in the comments below and I'll do my best to answer. For those who have enjoyed my set of [Mastering Paper Guides]({{ site.url }}/mastering-paper/) I plan to add *Pencil* and *Blend* into the mix after I've had more time to experiment.
 
 <figure>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0"> </iframe>
-	<figcaption>For giggles here's a time lapse of me drawing with Pencil. Check out my sweet green band-aid yo!</figcaption>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0"> </iframe>
+    <figcaption>For giggles here's a time lapse of me drawing with Pencil. Check out my sweet green band-aid yo!</figcaption>
 </figure>

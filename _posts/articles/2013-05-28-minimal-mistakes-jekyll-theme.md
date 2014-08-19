@@ -12,13 +12,14 @@ image:
 category: articles
 tags: [Jekyll, web development, open source, GitHub]
 comments: true
-toc: true
 ---
 
 Jekyll is pretty rad and figured releasing an older version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)**, a responsive Jekyll theme focused on great typography for text heavy sites. 
 
 <i class="fa fa-info-circle"></i> **Update:** Minimal Mistakes makes use of Sass and data files as part of Jekyll 2.x. Updating your site's look and feel just got easier!
 {: .notice}
+
+{% include toc.html %}
 
 ## Features
 

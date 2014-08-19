@@ -9,12 +9,13 @@ image:
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, portrait, skin]
 comments: true
-toc: true
 ---
 
 Portraiture is at the heart of what I use Paper by FiftyThree to create with. After drawing over 700 faces some might think it would be easy for me to share my process and techniques --- they would be wrong. After struggling writing this guide for the last month, I think I finally shaped it in a way that makes sense.
 
 Like the other parts of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/), this one will explain my techniques and how I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
+
+{% include toc.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paper-53-face-evolution-lg.jpg">

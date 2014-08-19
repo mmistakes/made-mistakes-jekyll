@@ -10,10 +10,11 @@ image:
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, trees, grass]
 comments: true
-toc: true
 ---
 
 Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({{ site.url }}{% post_url /work/2013-08-27-relic-scout %}), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
+
+{% include toc.html %}
 
 ## Drawing Trees
 

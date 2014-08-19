@@ -8,7 +8,6 @@ image:
   thumb: paperfaces-project-250x250.jpg
   teaser: paperfaces-project-teaser.jpg
 category: work
-homepage: true
 tags: [PaperFaces, Paper by 53, portrait, illustration, 365 project]
 ads: false
 change_frequency: daily

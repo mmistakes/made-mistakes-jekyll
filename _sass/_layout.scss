@@ -203,6 +203,9 @@
           border-bottom-style: solid;
         }
       }
+      .toc li > a {
+        border-bottom: 0px solid transparent;
+      }
       .th-grid a,
       .th-grid-full a,
       p > a.reversefootnote {
@@ -340,9 +343,9 @@
 }
 // table of contents
 .toc {
-  min-height: 1px;
   ul {
     margin-top: $gutter;
+    margin-bottom: $gutter;
     border: 1px solid $border-color;
     border-radius: $border-radius;
   }

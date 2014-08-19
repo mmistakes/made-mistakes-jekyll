@@ -10,10 +10,11 @@ image:
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, painting, iPad, water, waves]
 comments: true
-toc: true
 ---
 
 Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
+
+{% include toc.html %}
 
 ### Mixing the Water
 

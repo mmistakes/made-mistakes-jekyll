@@ -10,10 +10,11 @@ image:
 category: mastering-paper
 tags: [Paper by 53, tutorial, drawing, portrait, iPad]
 comments: true
-toc: true
 ---
 
 I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](http://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
+
+{% include toc.html %}
 
 *I can't draw and I'm not an artist* --- that's the real reason most of my [PaperFaces illustrations]({{ site.url }}/paperfaces/) don't have facial features. Capturing a likeness is tough business yo! Omitting the trickiest part (the face) frees up all kinds of time, which circles back to how I've been able to maintain a daily drawing rhythm. A technically precise illustration that might have taken 8 hours is now squashed down to 30--60 minutes. Half an hour is fun, 10 hours is a chore!
 

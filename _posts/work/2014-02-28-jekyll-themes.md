@@ -9,7 +9,6 @@ image:
   teaser: jekyll-themes-teaser.png
 category: work
 tags: [Jekyll, web development, open source, GitHub]
-homepage: true
 ads: true
 ---
 

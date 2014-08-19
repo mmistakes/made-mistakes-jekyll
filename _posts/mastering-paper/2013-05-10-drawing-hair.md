@@ -10,8 +10,9 @@ image:
 category: mastering-paper
 tags: [Paper by 53, drawing, hair, iPad, tutorial]
 comments: true
-toc: true
 ---
+
+{% include toc.html %}
 
 ## Block Out the Hair
 

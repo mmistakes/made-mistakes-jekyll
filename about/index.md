@@ -9,10 +9,11 @@ image:
   teaser: about-teaser.jpg
   thumb: about-thumb.jpg
 ads: false
-toc: true
 share: false
 body-id: about
 ---
+
+{% include toc.html %}
 
 ## And Who Are You Again?
 

@@ -14,6 +14,8 @@ body-id: support
 
 Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel inclined, here's how you can thank me.
 
+{% include toc.html %}
+
 ## Follow Me
 
 I post once or twice a day so you don't have to worry about me junking up your stream. -- along the lines of web design and development tidbits, sarcastic remarks, Paper drawings, photos of my twin girls, and website updates.

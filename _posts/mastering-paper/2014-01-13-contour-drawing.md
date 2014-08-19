@@ -10,10 +10,11 @@ image:
 category: mastering-paper
 tags: [blind contour, Paper by 53, tutorial, drawing, painting, iPad]
 comments: true
-toc: true
 ---
 
 One of the first things I drew on my iPad with Paper by FiftyThree was a blind contour line drawing. It has always been an interest of mine and Paper's expressive ink tools are a great fit for the technique.
+
+{% include toc.html %}
 
 ## Drawing Contour Lines
 

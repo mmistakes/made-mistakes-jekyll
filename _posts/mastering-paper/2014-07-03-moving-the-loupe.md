@@ -9,13 +9,14 @@ image:
   feature: paper-53-zoom-loupe-feature.jpg
   teaser: paper-53-zoom-loupe-teaser.jpg
   thumb: paper-53-zoom-loupe-thumb.jpg
-toc: true
 comments: true  
 ---
 
 I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's Zoom loupe along as you drew.
 
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
+
+{% include toc.html %}
 
 ## Why is This Important?
 
