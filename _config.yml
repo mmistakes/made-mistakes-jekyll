@@ -26,6 +26,7 @@ exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefi
 
 
 # Site owner
+
 owner:
   name: Michael Rose
   email: michael@mademistakes.com
@@ -40,6 +41,6 @@ owner:
     verify: D81F4C18A6CB3018F64D7C827D953DFD
   alexa:
     verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
-  bio: "Just another boring, time traveling, designer slash illustrator from Buffalo."
+  bio: "Just another boring, tattooed, time traveling designer from Buffalo."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname: mmistakes

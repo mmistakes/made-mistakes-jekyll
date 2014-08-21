@@ -2,7 +2,7 @@
 layout: archive
 permalink: /
 title: "Hi, I’m Michael Rose"
-excerpt: "Just another boring, tattooed, time traveling, designer from Buffalo."
+excerpt: "Just another boring, tattooed, time traveling designer from Buffalo."
 id: home
 ---
 
