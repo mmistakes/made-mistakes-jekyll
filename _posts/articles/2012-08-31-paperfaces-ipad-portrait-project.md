@@ -21,7 +21,7 @@ PaperFaces is an iPad drawing project by time traveling designer and illustrator
 I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
 
 <ul class="th-grid">
-{% for post in site.categories.paperfaces limit:16 %}
+{% for post in site.categories.paperfaces limit:15 %}
     <li>
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
     </li>

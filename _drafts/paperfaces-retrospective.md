@@ -11,9 +11,9 @@ tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
 ---
 
-*Drawing a day* projects are a lot like New Year's resolutions -- easy to start, hard to follow through. 
+*Drawing a day* projects remind of a New Year's resolution made on January 1st. Started with the best of intentions but abandoned shortly after starting because it is hard to follow through.
 
-Two years ago I felt inspired to start drawing again as a way to improve skills that had laid dormant for a decade or so. With an iPad in my lap and a stylus in hand I set out to draw as many portraits I could before I bored of the whole thing.
+Two years ago I felt inspired to begin drawing daily as a way to improve skills that had laid dormant for a decade or so. With an iPad in my lap and a stylus in hand I set out to draw as many portraits as I could before boring of the idea.
 
 ## How Did You Do It?
 
@@ -48,7 +48,11 @@ As confidence levels grow don't be afraid to change the rules and push yourself.
 
 ## By the Numbers
 
-I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed well over 800 finished drawings. Here's a breakdown of various types of portraits I've completed.
+I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed well over 800 finished drawings. 
+
+At last look Favstar.fm is showing 2,805 retweets on the tweet I sent out two years ago asking for portrait volunteers. 
+
+Here's a breakdown of various types of portraits I've completed.
 
 | Type | No. of Portraits[^portraits]
 |---
@@ -59,6 +63,24 @@ I had this original idea of just drawing a single portrait each day for a year u
 | Animals | xxx
 
 [^portraits]: For the purpose of keeping things consistent I consider a portrait a single drawing regardless if it includes multiple faces. If I was to count the amount of faces I've drawn the numbers would be much, much higher.
+
+## The Strange and the Unique
+
+When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. These just happened to be my favorite portraits completed in the last two years.
+
+<ul class="th-grid">
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2012-09-20-mike-ftw-portrait %}"><img src="{{ site.url }}/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2012-11-05-andrew-shaw23-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2012-12-13-f5point6-portrait %}"><img src="{{ site.url }}/images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-06-17-studioprisoner-portrait %}"><img src="{{ site.url }}/images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-27-pappyshannon-portrait %}"><img src="{{ site.url }}/images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-01-20-thenimesh-portrait %}"><img src="{{ site.url }}/images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-02-17-matt-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-matt-s-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-05-23-barelolk-portrait %}"><img src="{{ site.url }}/images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-07-10-vlad-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-08-18-modemlooper-portrait %}"><img src="{{ site.url }}/images/paperfaces-modemlooper-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-03-26-marie-a-portrait %}"><img src="{{ site.url }}/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
+</ul>
 
 ## Thank You
 

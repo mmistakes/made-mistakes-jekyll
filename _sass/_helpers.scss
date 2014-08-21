@@ -71,8 +71,8 @@
   padding: 0;
   li {
     list-style: none;
-    @include span-columns(3);
-    @include omega(4n);
+    @include span-columns(2.4);
+    @include omega(5n);
     margin-bottom: flex-gutter($grid-columns);
   }
   a {
