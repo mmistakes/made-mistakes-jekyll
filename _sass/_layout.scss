@@ -180,8 +180,8 @@
     h2 {
       font-weight: 400;
       margin-top: 0;
-      @include media($micro) { @include font-size(22); }
-      @include font-size(28);
+      @include media($micro) { @include font-size(22,yes,1.25); }
+      @include font-size(28,yes,1.25);
     }
   }
   @at-root {
@@ -254,6 +254,7 @@
   @at-root {
     .archive-wrap {
       @include fill-parent;
+      margin-top: $gutter;
       h3 {
         @include font-size(16);
         text-transform: uppercase;
