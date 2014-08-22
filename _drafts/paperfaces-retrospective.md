@@ -3,9 +3,9 @@ layout: article
 title: "PaperFaces — A Retrospective"
 excerpt: 
 image: 
-  feature: paperfaces-476-portraits-lg.jpg
-  teaser: paperfaces-476-portraits-teaser.jpg
-  thumb: paperfaces-476-portraits-thumb.jpg
+  feature: paperfaces-800-portraits-lg.jpg
+  teaser: 
+  thumb: 
 category: articles
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
@@ -50,7 +50,10 @@ As confidence levels grow don't be afraid to change the rules and push yourself.
 
 I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed well over 800 finished drawings. 
 
-At last look Favstar.fm is showing 2,805 retweets on the tweet I sent out two years ago asking for portrait volunteers. 
+<figure>
+  <img src="{{ site.url }}/images/paperfaces-volunteer-tweet.jpg" alt="Favstar.fm tweet screenshot">
+  <figcaption>At last look Favstar.fm is showing 2,805 retweets on <a href="https://twitter.com/mmistakes/status/240601384477659136/">the tweet I sent out two years ago</a> asking for portrait volunteers.</figcaption>
+</figure>
 
 Here's a breakdown of various types of portraits I've completed.
 
@@ -78,7 +81,6 @@ When my project was picked up by a few high profile designers and developers it 
   <li><a href="{{ site.url }}{% post_url /paperfaces/2014-02-17-matt-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-matt-s-150.jpg" alt=""></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2014-05-23-barelolk-portrait %}"><img src="{{ site.url }}/images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2014-07-10-vlad-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-08-18-modemlooper-portrait %}"><img src="{{ site.url }}/images/paperfaces-modemlooper-150.jpg" alt=""></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2014-03-26-marie-a-portrait %}"><img src="{{ site.url }}/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
 </ul>
 
