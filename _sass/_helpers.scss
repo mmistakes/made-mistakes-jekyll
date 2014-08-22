@@ -4,6 +4,9 @@
 .wrap {
   @include outer-container;
   padding: 0 $gutter $gutter;
+  @include media($medium) {
+    padding: 0 (2 * $gutter) (2* $gutter);
+  }
   background-color: $body-color;
 }
 

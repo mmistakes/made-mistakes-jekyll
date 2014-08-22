@@ -3,6 +3,10 @@
 
 #masthead {
   padding: $gutter;
+  @include media($medium) {
+    padding-left: 2 * $gutter;
+    padding-right: 2 * $gutter;
+  }
   z-index: 5;
   @include transform(translate(0,0));
   @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
@@ -311,6 +315,10 @@
   position: relative;
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
+  @include media($medium) {
+    margin-left: -2 * $gutter;
+    margin-right: -2 * $gutter;
+  }
   // Feature Image Caption
   .image-credit {
     position: absolute;
@@ -398,6 +406,7 @@
   }
   .post-excerpt {
     @include font-size(15);
+    margin-top: 0;
   }
   .post-teaser {
     position: relative;
@@ -587,6 +596,10 @@
   margin-top: (2 * (0px + $doc-line-height));
   margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
   padding: $gutter;
+  @include media($medium) {
+    padding-left: 2 * $gutter;
+    padding-right: 2 * $gutter;
+  }
   font-family: $alt-font;
   .copyright {
     @include font-size(12);

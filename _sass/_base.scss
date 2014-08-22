@@ -132,8 +132,8 @@ tr, td, th {
 hr {
   display: block;
   position: relative;
-  margin: 0px + (2 * $doc-line-height) 0;
-  margin: 0rem + ((2 * $doc-line-height) / $doc-font-size) 0;
+  margin: 0px + ($doc-line-height) 0;
+  margin: 0rem + (($doc-line-height) / $doc-font-size) 0;
   padding: 0;
   height: 5px;
   border: 0;

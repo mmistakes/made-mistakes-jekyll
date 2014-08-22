@@ -8,7 +8,7 @@ image:
 id: home
 ---
 
-### Paper by 53
+### Paper by FiftyThree
 
 <div class="tiles">
 {% for post in site.categories.mastering-paper limit:4 %}
