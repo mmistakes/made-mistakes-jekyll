@@ -242,17 +242,6 @@
       .pagination {
         @include fill-parent;
       }
-      .page-meta {
-        span {
-          @include font-size(14,no);
-          font-family: $alt-font;
-          color: $caption-color;
-          a {
-            color: $caption-color;
-
-          }
-        }
-      }
     }
   }
   @at-root {
@@ -338,8 +327,8 @@
     }
   }
 }
-// breadcrumbs
-.breadcrumbs { 
+// page meta and breadcrumbs
+.page-meta { 
   @include clearfix;
   margin-top: $gutter;
   font-family: $alt-font;

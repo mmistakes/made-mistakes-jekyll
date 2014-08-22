@@ -15,7 +15,7 @@ layout: default
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
 		</div>
-		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
+		{% if page.tags %}{% include page-meta-header.html %}{% endif %}
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{% if page.external.url %}
@@ -24,7 +24,7 @@ layout: default
 				{{ content }}
 				<hr />
 				<footer class="page-footer">
-					{% include page-meta.html %}
+					{% include page-meta-footer.html %}
 				</footer><!-- /.footer -->
 				<hr />
 				<aside>
