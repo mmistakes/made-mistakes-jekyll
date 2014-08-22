@@ -1,8 +1,10 @@
 ---
 layout: archive
 permalink: /
-title: "Hi, I’m Michael Rose"
-excerpt: "Just another boring, tattooed, time traveling designer from Buffalo."
+title: "A Designer’s Faux Pas"
+excerpt: "Making stuff one mmistake at a time."
+image:
+  feature: 
 id: home
 ---
 

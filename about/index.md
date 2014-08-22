@@ -3,7 +3,7 @@ layout: article
 title: "About"
 date: 2014-06-01
 modified: 2014-07-02T13:51:57.305000-04:00
-excerpt: "Michael Rose is just another boring, tattooed, time traveling, designer from Buffalo."
+excerpt: "Just another boring, tattooed, time traveling designer from Buffalo."
 image:
   feature:
   teaser: about-teaser.jpg
@@ -13,11 +13,7 @@ share: false
 body-id: about
 ---
 
-{% include toc.html %}
-
-## And Who Are You Again?
-
-Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling, designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
 
 <figure>
   <img src="{{ site.url }}/images/paperfaces-mmistakes-2-twitter-900.jpg" alt="Michael Rose self portrait">
