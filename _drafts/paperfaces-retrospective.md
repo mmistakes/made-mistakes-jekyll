@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "PaperFaces — A Retrospective"
+title: "The PaperFaces Project — A Retrospective"
 excerpt: 
 image: 
   feature: paperfaces-800-portraits-lg.jpg
@@ -11,19 +11,20 @@ tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
 ---
 
-*Drawing a day* projects remind of a New Year's resolution made on January 1st. Started with the best of intentions but abandoned shortly after starting because it is hard to follow through.
+*Drawing a day* projects are a lot like resolutions made in the New Year. Started with the best of intentions but abandoned shortly after because they're too hard to follow through.
 
-Two years ago I felt inspired to begin drawing daily as a way to improve skills that had laid dormant for a decade or so. With an iPad in my lap and a stylus in hand I set out to draw as many portraits as I could before boring of the idea.
+Two years ago I felt inspired to start the [PaperFaces Project]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the Paper by FiftyThree app, I set out to draw as many portraits as I could before boring of the idea.
 
 ## How Did You Do It?
 
-I'm not going to lie, finding the motivation to create something every day is incredibly difficult. And even with the proper motivation, making the time for it is even harder. I'm proof that finishing a 365 day project is possible while maintaining a healthy family and work life balance.
+I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, free up the time can be even more challenging. I'm proof that it can be done while working a full time job, constantly feeding and changing the diapers of newborn twins, staying healthy, and dealing with spiders for my wife.
 
-Having a routine and sticking to it was the key to completing my goal. After my 50th portrait I settled into a daily routine of drawing for an hour after putting the kids to bed. By reserving this time each day I started to mentally set expectations for myself. If I was more loose with this structure I probably would have given up long ago.
+Having a routine and sticking to it was the key to hitting my goal. After my 50th portrait I settled into a daily routine: put the twins to bed and draw for an hour. Making time became natural because my mind got used to the schedule and started mentally freeing up time. If I was more loose with this structure I probably would have given up a long time ago.
 
-Making my project public was another huge reason I kept at it for so long. With each new follower on Twitter, Tumblr, Instagram, Facebook or portrait request came an increase in pressure to continue on. I suppose this could have hit me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
+Making my project and efforts public was another huge reason I kept at it for so long. With each new follower or portrait request came an increase in pressure to continue on. I suppose this could have affected me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
 
-I suppose having a clear objective of what you want to achieve or goal for a project like this helped a bit. I wanted to improve my drawing skills and drawing random people from the internet became a way for me to do that.
+Don't start a 365 project just for the sake of starting one. Having a clear objective of what you want to get out of it will help focus and motivate you to continue on. I wanted to improve my drawing skills and drawing random people from the internet became a way for me to do that.
+{:.notice}
 
 ## Creating Is Addicting
 
@@ -33,9 +34,14 @@ If you've ever gotten a tattoo then you probably know something about addiction 
 
 Alone some of these drawings may not be terribly interesting or special, but together they can take on *Voltron*-like qualities. Only after building a PaperFaces web gallery and printing my first [Moleskine books](#book-review) did this become clear to me.
 
+<figure>
+  <a href="{{ site.url }}/images/paper-53-book-wendy-lg.jpg"><img src="{{ site.url }}/images/paper-53-book-wendy.jpg" alt="Photograph of a PaperFaces drawing"></a>
+  <figcaption>Prints are not as crisp as what you see on screen, but I like that. Makes my drawings look more watercolory.</figcaption>
+</figure>
+
 ## Keep It Fun
 
-The last thing I wanted with the few free hours I had each day was fill it up with more work. To avoid turning this into a chore *I had to complete everyday* I set some artificial limits for myself:
+The last thing anyone wants to do is make more work for themselves. To avoid turning this into a chore *I had to complete everyday* I set some artificial limits for myself:
 
 * Omit anything that is difficult or takes too long, e.g. drawing facial features
 * Choose subject matter that has enough variation to stay fresh for a year or longer, e.g. a new face every day
@@ -46,13 +52,18 @@ Easy and simple can turn boring in a hurry. The challenge associated with Paper 
 
 As confidence levels grow don't be afraid to change the rules and push yourself. Over the course of two years I did this numerous times. Whether it was changing the tools I used in Paper from primarily inks to watercolor and pencil. Or when I made the decision to move away from the blank faces and attempt to draw more realistic renderings.
 
+<figure>
+    <img src="{{ site.url }}/images/paper-53-face-evolution.jpg" alt="PaperFaces evolution">
+    <figcaption>With enough practice I was able to evolve as a creator and produce sketches with greater detail.</figcaption>
+</figure>
+
 ## By the Numbers
 
 I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed well over 800 finished drawings. 
 
 <figure>
   <img src="{{ site.url }}/images/paperfaces-volunteer-tweet.jpg" alt="Favstar.fm tweet screenshot">
-  <figcaption>At last look Favstar.fm is showing 2,805 retweets on <a href="https://twitter.com/mmistakes/status/240601384477659136/">the tweet I sent out two years ago</a> asking for portrait volunteers.</figcaption>
+  <figcaption>I've gotten through one-third of the 2,805 requests I've received on Twitter since <a href="https://twitter.com/mmistakes/status/240601384477659136/">tweeting for volunteers</a> two years ago.</figcaption>
 </figure>
 
 Here's a breakdown of various types of portraits I've completed.
