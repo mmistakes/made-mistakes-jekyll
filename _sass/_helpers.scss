@@ -94,9 +94,6 @@
   @include clearfix;
   margin: 0;
   padding: 0;
-  @include media($large) {
-    margin-right: -29em; // magic number ugh
-  }
   @at-root {
     .archive-wrap & {
       margin-right: 0;
@@ -114,11 +111,8 @@
       @include omega(4n);
     }
     @include media($large) {
-      float: left;
-      width: 6.575em;
-      margin-right: .25em; // magic number ugh
-      margin-bottom: .25em; // magic number ugh
-      @include omega(9n);
+      @include span-columns(1.5);
+      @include omega(8n);
     }
   }
   a {

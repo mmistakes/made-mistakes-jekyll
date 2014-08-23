@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div id="main" role="main"> 
+  <article class="wrap" itemscope itemtype="http://schema.org/Article">
+    {% if page.image.feature %}
+    <div class="page-feature">
+      <div class="page-image">
+        <img src="/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+        {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+      </div><!-- /.page-image -->
+    </div><!-- /.page-feature -->
+    {% endif %}
+    <div class="page-title">
+      <h1>{{ page.title }}</h1>
+    </div>
+    {% if page.tags %}{% include page-meta-header.html %}{% endif %}
+    <div id="content" class="page-content" itemprop="articleBody">
+      {% if page.external.url %}
+        <div><a href="{{ page.external.url }}" target="_blank" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
+      {% endif %}
+      {{ content }}
+      <hr />
+      <footer class="page-footer">
+        {% include page-meta-footer.html %}
+      </footer><!-- /.footer -->
+      {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+      {% if page.comments == true %}
+        <aside>{% include comments.html %}</aside>
+        {% if page.ads != false %}<div class="ads">{% include advertising-2.html %}</div><!-- /.ads -->{% endif %}
+      {% endif %}
+    </div><!-- /.content -->
+    {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+  </article><!-- /.wrap -->
+</div><!-- /#main -->

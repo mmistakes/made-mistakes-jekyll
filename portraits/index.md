@@ -2,18 +2,17 @@
 layout: article
 title: "Order a Digital Portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
-modified: 2014-06-25T09:39:45.448000-04:00
+modified: 2014-08-22
 image:
   thumb: portrait-thumb.jpg
   teaser: portrait-teaser.jpg
-ads: false
 body-id: portraits
 ---
 
 Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how you go about commissioning one.
 
-<ul class="th-grid-full">
-{% for post in site.categories.paperfaces limit:8 %}
+<ul class="th-grid">
+{% for post in site.categories.paperfaces limit:5 %}
     <li>
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
     </li>
@@ -74,7 +73,7 @@ Black and white or color? One face or multiple?
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/twittalkin">@twittalkin</a> here is the pic of Jason by <a href="https://twitter.com/mmistakes">@mmistakes</a> using Paper by <a href="https://twitter.com/FiftyThree">@FiftyThree</a> Incredible talent!</p>&mdash; JTM (@thepuckheads) <a href="https://twitter.com/thepuckheads/statuses/450113132556341249">March 30, 2014</a></blockquote>
 
-<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Well, this makes me want to give up on everything. 😀&#10;&#10;Awesome work!</p>&mdash; Andy Hughes (@gorillandy) <a href="https://twitter.com/gorillandy/statuses/468947522862723072">May 21, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Well, this makes me want to give up on everything. &#10;&#10;Awesome work!</p>&mdash; Andy Hughes (@gorillandy) <a href="https://twitter.com/gorillandy/statuses/468947522862723072">May 21, 2014</a></blockquote>
 
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thanks so much for making this! Love the no face ;)</p>&mdash; Omri Mor (@omri_mor) <a href="https://twitter.com/omri_mor/statuses/255021100780625922">October 7, 2012</a></blockquote>
 
@@ -82,7 +81,7 @@ Black and white or color? One face or multiple?
 
 <blockquote class="twitter-tweet" data-conversation="none"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> <a href="https://twitter.com/Mike_FTW">@mike_ftw</a> haha. Awesome sauce. Best one yet!</p>&mdash; Q (@maxquattromani) <a href="https://twitter.com/maxquattromani/statuses/248245003300794368">September 19, 2012</a></blockquote>
 
-<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thank you so much! I honestly thought you wouldn&#39;t find time! It reminds me a little of slenderman - in an awesome way! 😄</p>&mdash; Anne Køhler Nielsen (@Annekoehler) <a href="https://twitter.com/Annekoehler/statuses/393850987171282944">October 25, 2013</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> Thank you so much! I honestly thought you wouldn&#39;t find time! It reminds me a little of slenderman - in an awesome way! </p>&mdash; Anne Køhler Nielsen (@Annekoehler) <a href="https://twitter.com/Annekoehler/statuses/393850987171282944">October 25, 2013</a></blockquote>
 
 <blockquote class="twitter-tweet"><p>My last RT is too fucking cool, feel like Rose from Titanic <a href="https://twitter.com/search?q=%23frenchgirl&amp;src=hash">#frenchgirl</a> <a href="https://twitter.com/mmistakes">@mmistakes</a></p>&mdash; callum (@clamteeth) <a href="https://twitter.com/clamteeth/statuses/248683914368004096">September 20, 2012</a></blockquote>
 
