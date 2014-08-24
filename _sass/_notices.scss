@@ -3,16 +3,10 @@
 
 @mixin notice($notice-color) {
   position: relative;
-  padding: 1.5em;
+  padding: ($gutter / 2) ($gutter / 2) ($gutter / 2) $gutter;
   font-family: $alt-font;
-  @include font-size(14,39);
-  color: $white;
-  background-color: $notice-color;
-  border-radius: $border-radius;
-  a {
-    color: $white;
-    border-bottom: 1px dotted $white;
-  }
+  background-color: tint($notice-color,95%);
+  border-left: 5px solid $notice-color;
 }
 .notice {
   @include notice($primary-color);
