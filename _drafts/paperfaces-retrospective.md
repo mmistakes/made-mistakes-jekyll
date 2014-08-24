@@ -4,28 +4,32 @@ title: "The PaperFaces Project — A Retrospective"
 excerpt: 
 image: 
   feature: paperfaces-800-portraits-lg.jpg
-  teaser: 
+  teaser: paperfaces-800-portraits-teaser.jpg
   thumb: 
 category: articles
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
 ---
 
-*Drawing a day* projects are a lot like resolutions made in the New Year. Started with the best of intentions but abandoned shortly after because they're too hard to follow through.
+*Drawing a day* projects are a lot like resolutions made in the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
 
-Two years ago I felt inspired to start the [PaperFaces Project]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the Paper by FiftyThree app, I set out to draw as many portraits as I could before boring of the idea.
+Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the Paper by FiftyThree app, I set out to draw as many portraits as possible before boring of the idea.
 
 ## How Did You Do It?
 
-I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, free up the time can be even more challenging. I'm proof that it can be done while working a full time job, constantly feeding and changing the diapers of newborn twins, staying healthy, and dealing with spiders for my wife.
+I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, caring for a set of twins, maintaining healthly eating and sleeping habits, and dealing with spiders and other creepy crawlies for my wife.
 
 <figure class="third">
-  <img src="{{ site.url }}/images/paperfaces-retro-01.jpg" alt="Drawing with a Pogo Connect">
-  <img src="{{ site.url }}/images/paperfaces-retro-02.jpg" alt="Tools of the trade">
   <img src="{{ site.url }}/images/paperfaces-retro-03.jpg" alt="The 2 little rosebuds">
+  <img src="{{ site.url }}/images/paperfaces-retro-02.jpg" alt="Tools of the trade">
+  <img src="{{ site.url }}/images/paperfaces-retro-01.jpg" alt="Drawing Everly with Pencil by 53">
 </figure>
 
-Having a routine and sticking to it was the key to hitting my goal. After my 50th portrait I settled into a daily routine: put the twins to bed and draw for an hour. Making time became natural because my mind got used to the schedule and started mentally freeing up time. If I was more loose with this structure I probably would have given up a long time ago.
+### Form a Routine
+
+Having a routine and sticking to it was the key to hitting my goal. After my 50th portrait I settled into a daily routine of putting the twins to bed and then drawing for an hour. Making time became natural because my mind got used to the schedule and started mentally freeing up time. If I was more loose with this structure I probably would have given up a long time ago.
+
+### Share It
 
 Making my project and efforts public was another huge reason I kept at it for so long. With each new follower or portrait request came an increase in pressure to continue on. I suppose this could have affected me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
 
@@ -34,15 +38,15 @@ Don't start a 365 project just for the sake of starting one. Having a clear obje
 
 ## Creating Is Addicting
 
-If you've ever gotten a tattoo then you probably know something about addiction --- drawing a portrait every day and posting it online felt a little like that. Immediately after finishing one drawing I would begin thinking about the next by researching techniques and planing ways to make it stronger than the last.
+If you've ever gotten a tattoo then you probably know something about addiction --- drawing a portrait every day and posting it online felt a little like that. Immediately after finishing one drawing I would begin thinking about the next and ways of making it stronger than the last.
 
 ## Creating Is Rewarding
 
-Alone some of these drawings may not be terribly interesting or special, but together they can take on *Voltron*-like qualities. Only after building a PaperFaces web gallery and printing my first [Moleskine books](#book-review) did this become clear to me.
+On their own some of these drawings may not be terribly interesting or special, but together they can take on *Voltron*-like qualities. Only after building a [PaperFaces web gallery]({{ site.url }}/paperfaces/) and printing my first [Moleskine books]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) did this become clear to me.
 
 <figure>
   <a href="{{ site.url }}/images/paper-53-book-wendy-lg.jpg"><img src="{{ site.url }}/images/paper-53-book-wendy.jpg" alt="Photograph of a PaperFaces drawing"></a>
-  <figcaption>Prints are not as crisp as what you see on screen, but I like that. Makes my drawings look more watercolory.</figcaption>
+  <figcaption>Having my work printed helped give it substance instead of being just 1's and 0' I carried around in a tablet.</figcaption>
 </figure>
 
 ## Keep It Fun
@@ -76,11 +80,10 @@ Here's a breakdown of various types of portraits I've completed.
 
 | Type | No. of Portraits[^portraits]
 |---
-| Faceless | xxx
-| Full Face | xxx
-| [Black and White]({{ site.url }}/tag/black-and-white/) | xxx
-| [Star Wars]({{ site.url }}/tag/star-wars/) | xxx
-| Animals | xxx
+| Faceless | 522
+| [Star Wars]({{ site.url }}/tag/star-wars/) | 12
+| [Bearded Dudes]({{ site.url }}/tag/beard/) | {{ site.tags.beard | size }}
+| Animals and Creatures | 17
 | Total | {{ site.categories.paperfaces | size }}
 
 [^portraits]: For the purpose of keeping things consistent I consider a portrait a single drawing regardless if it includes multiple faces. If I was to count the amount of faces I've drawn the numbers would be much, much higher.
