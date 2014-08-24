@@ -19,6 +19,12 @@ Two years ago I felt inspired to start the [PaperFaces Project]({% post_url /art
 
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, free up the time can be even more challenging. I'm proof that it can be done while working a full time job, constantly feeding and changing the diapers of newborn twins, staying healthy, and dealing with spiders for my wife.
 
+<figure class="third">
+  <img src="{{ site.url }}/images/paperfaces-retro-01.jpg" alt="Drawing with a Pogo Connect">
+  <img src="{{ site.url }}/images/paperfaces-retro-02.jpg" alt="Tools of the trade">
+  <img src="{{ site.url }}/images/paperfaces-retro-03.jpg" alt="The 2 little rosebuds">
+</figure>
+
 Having a routine and sticking to it was the key to hitting my goal. After my 50th portrait I settled into a daily routine: put the twins to bed and draw for an hour. Making time became natural because my mind got used to the schedule and started mentally freeing up time. If I was more loose with this structure I probably would have given up a long time ago.
 
 Making my project and efforts public was another huge reason I kept at it for so long. With each new follower or portrait request came an increase in pressure to continue on. I suppose this could have affected me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
@@ -59,7 +65,7 @@ As confidence levels grow don't be afraid to change the rules and push yourself.
 
 ## By the Numbers
 
-I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed well over 800 finished drawings. 
+I had this original idea of just drawing a single portrait each day for a year using my iPad and the Paper app. When I zipped past that milestone I decided another year wouldn't be that big a deal and ultimately completed {{ site.categories.paperfaces | size }} finished drawings. 
 
 <figure>
   <img src="{{ site.url }}/images/paperfaces-volunteer-tweet.jpg" alt="Favstar.fm tweet screenshot">
@@ -72,9 +78,10 @@ Here's a breakdown of various types of portraits I've completed.
 |---
 | Faceless | xxx
 | Full Face | xxx
-| Black and White | xxx
-| Star Wars | xxx
+| [Black and White]({{ site.url }}/tag/black-and-white/) | xxx
+| [Star Wars]({{ site.url }}/tag/star-wars/) | xxx
 | Animals | xxx
+| Total | {{ site.categories.paperfaces | size }}
 
 [^portraits]: For the purpose of keeping things consistent I consider a portrait a single drawing regardless if it includes multiple faces. If I was to count the amount of faces I've drawn the numbers would be much, much higher.
 
