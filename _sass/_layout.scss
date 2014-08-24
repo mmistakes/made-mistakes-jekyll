@@ -201,7 +201,8 @@
       // cleaner underlines for links
       a { text-decoration: none; }
       p > a,
-      li > a {
+      li > a,
+      td > a {
         border-bottom: 1px dotted lighten($link-color, 50);
         &:hover {
           border-bottom-style: solid;
@@ -228,7 +229,12 @@
         color: $caption-color;
         clear: both;
         a {
+          color: $caption-color;
           text-decoration: none;
+          border-bottom: 1px dotted $caption-color;
+          &:hover {
+            border-bottom-style: solid;
+          }
         }
       }
       .half,
