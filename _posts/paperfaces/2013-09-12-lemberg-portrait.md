@@ -6,7 +6,7 @@ image:
   feature: paperfaces-lemberg-twitter-lg.jpg
   thumb: paperfaces-lemberg-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@Lemberg](http://twitter.com/lemberg).

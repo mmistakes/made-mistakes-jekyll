@@ -6,7 +6,7 @@ image:
   feature: paperfaces-madcap-laughs-twitter-lg.jpg
   thumb: paperfaces-madcap-laughs-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@Madcap_Laughs](http://twitter.com/Madcap_Laughs).

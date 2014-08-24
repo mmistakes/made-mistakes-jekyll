@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jayperdue-twitter-lg.jpg
   thumb: paperfaces-jayperdue-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend]
+tags: [portrait, illustration, Paper by 53, Blend, beard]
 ---
 
 PaperFaces portrait of [@jayperdue](http://twitter.com/jayperdue).

@@ -10,7 +10,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-
+- beard
 ---
 
 Large ornate frames are the best for sticking out your tongue in. PaperFaces portrait of project donator [@maique](http://twitter.com/maique).

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-klikekyle-twitter-lg.jpg
   thumb: paperfaces-klikekyle-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/klikekyle">@klikekyle</a>.

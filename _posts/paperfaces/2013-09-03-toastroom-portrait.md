@@ -6,7 +6,7 @@ image:
   feature: paperfaces-toastroom-twitter-lg.jpg
   thumb: paperfaces-toastroom-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@toastroom](http://twitter.com/toastroom). It's hard to talk words without a mouth…

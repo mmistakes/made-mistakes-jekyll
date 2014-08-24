@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-velanv-twitter-teaser.jpg
   thumb: paperfaces-velanv-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend, bokeh]
+tags: [portrait, illustration, Paper by 53, Blend, bokeh, beard]
 ---
 
 PaperFaces portrait commission of [@velanv](http://twitter.com/velanv).

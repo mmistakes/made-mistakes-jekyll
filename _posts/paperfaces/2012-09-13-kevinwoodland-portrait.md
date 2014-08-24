@@ -10,7 +10,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-
+- beard
 ---
 
 PaperFaces portrait of project donator [@kevinwoodland](http://twitter.com/kevinwoodland).

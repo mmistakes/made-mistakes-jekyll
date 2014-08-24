@@ -6,7 +6,7 @@ image:
   feature: paperfaces-gh0st-mob-twitter-lg.jpg
   thumb: paperfaces-gh0st-mob-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@gh0st_mob](http://twitter.com/gh0st_mob).

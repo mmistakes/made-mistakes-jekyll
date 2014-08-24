@@ -10,7 +10,6 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-
 - black and white
 - beard
 ---

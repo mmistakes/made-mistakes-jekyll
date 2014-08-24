@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jaredgoertzen-twitter-lg.jpg
   thumb: paperfaces-jaredgoertzen-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@jaredgoertzen](http://twitter.com/jaredgoertzen).

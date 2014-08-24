@@ -6,7 +6,7 @@ image:
   feature: paperfaces-anniversary-portrait-lg.jpg
   thumb: paperfaces-anniversary-portrait-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, romance]
+tags: [portrait, illustration, Paper by 53, black and white, romance, beard]
 ---
 
 Nothing says romance quite like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](http://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."

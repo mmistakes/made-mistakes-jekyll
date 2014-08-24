@@ -10,7 +10,7 @@ tags:
 - portrait
 - illustration
 - Paper by 53
-
+- beard
 ---
 
 PaperFaces portrait of [@andrew-shaw23](http://twitter.com/andrew-shaw23).
