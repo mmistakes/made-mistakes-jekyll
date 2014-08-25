@@ -20,10 +20,6 @@ _  ________ ____   _  ______________  _________
                 Sublime Text 2 <http://www.sublimetext.com>
                 Adobe Creative Suite
                 Grunt <http://gruntjs.com>
-                Adobe Edge Web Fonts <https://edgewebfonts.adobe.com> 
-                jQuery <http://jquery.com>
-                Magnific Popup <https://github.com/dimsemenov/Magnific-Popup>
-                FitVids <http://fitvidsjs.com>
                 HTML Compressor <https://code.google.com/p/htmlcompressor>
 
 
