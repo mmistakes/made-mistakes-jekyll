@@ -90,7 +90,7 @@ Here's a breakdown of various types of portraits I've completed.
 
 ## The Strange and the Unique
 
-When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. These just happened to be my favorite portraits completed in the last two years.
+When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorite portraits from the last two years that stand out from the rest:
 
 <ul class="th-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2012-09-20-mike-ftw-portrait %}"><img src="{{ site.url }}/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
@@ -107,11 +107,14 @@ When my project was picked up by a few high profile designers and developers it 
 
 ## Thank You
 
-The positive support I received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about giving up tolerable. And to the handful of you who supported me in the early days with donations and portrait orders I appreciate your generosity so much.
+The positive support I've received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about quitting tolerable. And to the handful of you who supported me in the early days with donations and portrait orders I appreciate your generosity so much!
 
 ## What's Next
 
-Don't get me wrong, drawing strangers for the last two years has been great, but a big part of me longs to create work on a personal level. In a past life I kept art journals filled with blind contour drawings and scribbled thoughts that I turned into a printed book at one point. I'd love to replicate something like that in Paper building on the techniques I've mastered drawing portraits.
+Don't get me wrong, drawing strangers for the last two years has been great, but a big part of me longs to create work on a personal level again. In a past life I kept [art journals](http://www.blurb.com/b/695432-scripted-entries-from-false-memories?ce=blurb_ew&utm_source=widget) filled with blind contour drawings and scribbled thoughts. I'd love to try and replicate this in Paper, building on the techniques I've mastered drawing portraits and turn them into a set of Moleskine books.
 
-And for everyone who has been patiently waiting for the next set of Mastering Paper tutorials --- it's a fairly safe bet that I'm going to have a lot more time for writing.
+With the free time from not drawing daily portraits, I plan on crafting new tutorials for my [Mastering Paper by 53]({{ site.url }}/mastering-paper/) series. I know quite a few of you have been patiently waiting, so expect a new batch published more regularly. I also want to get serious about that companion piece I've hinted and turn it into electronic and/or printed books.
+
+And for those who missed out getting a PaperFaces portrait I'm still offering my servcices. Color and black/white Paper portraits can be [commission here]({{ site.url }}/portraits/).
+{:.notice}
 
