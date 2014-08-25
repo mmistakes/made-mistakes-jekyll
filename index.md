@@ -8,7 +8,7 @@ image:
 id: home
 ---
 
-### Paper by FiftyThree
+### [Paper by FiftyThree]({{ site.url }}/mastering-paper/)
 
 <div class="tiles">
 {% for post in site.categories.mastering-paper limit:4 %}
@@ -18,7 +18,7 @@ id: home
 
 ---
 
-### Latest Articles
+### [Latest Articles]({{ site.url }}/articles/)
 
 <div class="tiles">
 {% for post in site.categories.articles limit:4 %}
@@ -28,7 +28,7 @@ id: home
 
 ---
 
-### Latest PaperFaces
+### [Latest PaperFaces]({{ site.url }}/paperfaces/)
 
 <ul class="th-grid-full">
 {% for post in site.categories.paperfaces limit:8 %}
