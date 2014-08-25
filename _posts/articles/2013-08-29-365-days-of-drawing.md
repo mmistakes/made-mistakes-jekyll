@@ -17,8 +17,6 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 
 <blockquote class="twitter-tweet"><p>Retweet and I'll draw your profile picture using Paper on my iPad <a href="https://twitter.com/search/%23MadeWithPaper">#MadeWithPaper</a> <a href="http://t.co/5oqH4bJt" title="http://twitter.com/mmistakes/status/240601384477659136/photo/1">twitter.com/mmistakes/stat…</a></p>&#8212; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/240601384477659136" data-datetime="2012-08-29T00:06:55+00:00">August 29, 2012</a></blockquote>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
 ### Big Ups and Stuff
 
 * Thank you to everyone who volunteered their face for the project.
