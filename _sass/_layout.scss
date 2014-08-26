@@ -389,12 +389,6 @@
     @include font-size(12,no);
     text-transform: uppercase;
     color: lighten($caption-color,10);
-    @at-root #home & {
-      display: none;
-    }
-    @at-root #work & {
-      display: none;
-    }
   }
   .post-title {
     @include font-size(18,no);
@@ -408,15 +402,15 @@
     z-index: 1;
     display: block;
     overflow: hidden;
-    background: $black;
     @include perspective(1000px);
     @include backface-visibility(hidden); //fix flicker on hover
     img {
       position: relative;
       display: block;
-      @include transform(translate3d(0,0,0));
-      @include transition(all 0.3s);
+      z-index: 1;
+      @include transition(transform 0.3s);
     }
+    &:before,
     &:after {
       position: absolute;
       content: '';
@@ -424,20 +418,25 @@
       right: 0;
       bottom: 0;
       left: 0;
-      opacity: 0;
+      width: 100%;
+      height: 100.5%;
+    }
+    &:before {
+      z-index: 2;
+      @include transition(all 0.3s);
+    }
+    &:after {
       border: 10px solid $white;
-      @include transition(opacity 0.3s);
+      opacity: 0;
+      z-index: 3;
+      @include transition(all 0.3s);
     }
     &:hover {
-      img {
-        opacity: 0.6;
-        @include transform(translate3d(0,0,300px));
-      }
       &:before {
-        background: rgba($base-color,0.7);
+        background: rgba($black,0.5);
       }
       &:after {
-        opacity: 0.75;
+        opacity: 0.4;
       }
     }
   }
