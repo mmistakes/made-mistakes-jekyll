@@ -152,7 +152,12 @@
 .upgrade {
   text-align: center;
   a {
+    color: $danger-color;
     text-decoration: none;
+    border-bottom: 1px dotted lighten($danger-color, 20);
+    &:hover {
+      border-bottom-style: solid;
+    }
   }
 }
 
