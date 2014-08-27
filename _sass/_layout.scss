@@ -166,28 +166,6 @@
       @include span-columns(8);
     }
   }
-  .page-title {
-    @include fill-parent;
-    @include clearfix;
-    h1, h2 {
-      @include span-columns(12);
-      @include media($medium) {
-        @include span-columns(10);
-      }
-    }
-    h1 {
-      @include media($micro) { 
-        margin-top: $gutter;
-      }
-      margin-bottom: 0;
-    }
-    h2 {
-      font-weight: 400;
-      margin-top: 0;
-      @include media($micro) { @include font-size(22,yes,1.25); }
-      @include font-size(28,yes,1.25);
-    }
-  }
   @at-root {
     .page-content {
       // larger font for intro paragraph
@@ -297,12 +275,68 @@
     }
   }
 }
-// page header
-.page-feature {
+// standard page header
+.page-header {
+  overflow: auto; // fix collapsing margin
+  .page-title {
+    @include fill-parent;
+    h1 {
+      @include media($micro) { 
+        margin-top: $gutter;
+      }
+      margin-bottom: 0;
+    }
+    h2 {
+      font-weight: 400;
+      margin-top: 0;
+      @include media($micro) { @include font-size(22,yes,1.25); }
+      @include font-size(28,yes,1.25);
+    }
+  }
+}
+// feature image page header
+.page-feature-header {
   @include fill-parent;
+  position: relative;
+  margin-bottom: $gutter;
   // expand image to cover full width of header
   img {
     width: 100%;
+  }
+  .page-title {
+    @include media($medium) {
+      position: absolute;
+      top: 0;
+      z-index: 1;
+    }
+  }
+  h1 {
+    margin-bottom: 0;
+    @include media($medium) {
+      @include font-size(48,yes,60);
+      text-transform: uppercase;
+      color: $white;
+    }
+    @include media($large) {
+      @include font-size(60,yes,75);
+    }
+    span {
+      @include media($medium) {
+        background: $black;
+      }
+    }
+  }
+  .page-meta {
+    @include media($medium) {
+      span {
+        padding: 2px 4px;
+        background: $black;
+        color: $white;
+        a {
+          color: $white;
+        }
+      }
+    }
   }
 }
 // make image flush with edges on small screens
@@ -338,11 +372,12 @@
   @include clearfix;
   margin-top: $gutter;
   font-family: $alt-font;
-  @include font-size(12,yes,1);
+  @include font-size(12,yes,21);
   text-align: left;
   text-transform: uppercase;
   a {
     display: inline-block;
+    text-decoration: none;
   }
 }
 // table of contents
