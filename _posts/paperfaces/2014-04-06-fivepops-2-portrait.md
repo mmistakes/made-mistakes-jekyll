@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Graduation"
+title: "Graduation Two"
 excerpt: "PaperFaces portrait drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fivepops-2-twitter-lg.jpg
