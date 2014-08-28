@@ -313,7 +313,6 @@
       position: absolute;
       top: 0;
       z-index: 1;
-      @include transform(rotate(-1deg));
     }
   }
   h1 {
@@ -322,12 +321,24 @@
       @include font-size(48,yes,60);
       text-transform: uppercase;
       color: $white;
+      @include transform(rotate(-1deg));
+      span {
+        background: $black;
+      }
     }
     @include media($large) {
       @include font-size(60,yes,75);
     }
-    span {
-      @include media($medium) {
+  }
+  h2 {
+    margin-top: 0;
+    font-weight: 400;
+    @include media($micro) { @include font-size(22,yes,1.25); }
+    @include font-size(28,yes,1.25);
+    @include media($medium) {
+      color: $white;
+      @include transform(rotate(-1deg));
+      span {
         background: $black;
       }
     }
@@ -388,6 +399,7 @@
 }
 // table of contents
 .toc {
+  font-family: $alt-font;
   ul {
     margin-top: $gutter;
     margin-bottom: $gutter;
@@ -398,7 +410,11 @@
     @include font-size(16,no,18);
     border-bottom: 1px solid $border-color;
   }
-  font-family: $alt-font;
+  h6 {
+    margin: 0;
+    padding: (.25 * $gutter) (.5 * $gutter);
+    background: $table-background;
+  }
   a {
     display: block;
     padding: (.25 * $gutter) (.5 * $gutter);
