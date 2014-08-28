@@ -7,11 +7,12 @@
   padding: 8px 20px;
   @include font-size(14);
   font-family: $alt-font;
+  font-weight: 700;
   background-color: $primary-color;
   color: $white;
   text-decoration: none;
   border: 0 !important;
-  border-radius: 10 * $border-radius;
+  border-radius: $border-radius;
   @include transition(background 0.2s, border 0.2s);
   &:hover {
     color: $white !important;
