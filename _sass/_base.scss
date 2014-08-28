@@ -22,15 +22,15 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 h1 {
-  @include media($micro) { @include font-size(24); }
+  @include media($micro-only) { @include font-size(24); }
   @include font-size(36);
 }
 h2 {
-  @include media($micro) { @include font-size(22); }
+  @include media($micro-only) { @include font-size(22); }
   @include font-size(32);
 }
 h3 {
-  @include media($micro) { @include font-size(18); }
+  @include media($micro-only) { @include font-size(18); }
   @include font-size(28);
 }
 h4 {

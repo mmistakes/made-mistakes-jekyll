@@ -286,7 +286,7 @@
   .page-title {
     @include fill-parent;
     h1 {
-      @include media($micro) { 
+      @include media($micro-only) { 
         margin-top: $gutter;
       }
       margin-bottom: 0;
@@ -294,7 +294,7 @@
     h2 {
       font-weight: 400;
       margin-top: 0;
-      @include media($micro) { @include font-size(22,yes,1.25); }
+      @include media($micro-only) { @include font-size(22,yes,1.25); }
       @include font-size(28,yes,1.25);
     }
   }
@@ -333,7 +333,7 @@
   h2 {
     margin-top: 0;
     font-weight: 400;
-    @include media($micro) { @include font-size(22,yes,1.25); }
+    @include media($micro-only) { @include font-size(22,yes,1.25); }
     @include font-size(28,yes,1.25);
     @include media($medium) {
       color: $white;
@@ -429,14 +429,14 @@
 .tile {
   @include outer-container;
   margin-bottom: $gutter;
-  @include media($micro) {
+  @include media($micro-only) {
     @include fill-parent;
   }
-  @include media($small) {
+  @include media(new-breakpoint(min-width em(480) max-width em(768) 12)) {
     @include span-columns(6);
     @include omega(2n);
   }
-  @include media($medium) {
+  @include media(new-breakpoint(min-width em(769) 12)) {
     @include span-columns(3);
     @include omega(4n);
   }
@@ -580,7 +580,7 @@
 #scroll-cue {
   position: fixed;
   bottom: 100px;
-  @include media($short) {
+  @include media(new-breakpoint(max-height em(700) 12)) {
     bottom: 0;
   }
   left: 50%;
