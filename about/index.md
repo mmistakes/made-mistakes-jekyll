@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "About"
+title: "What’s This About?"
 date: 2014-06-01
-modified: 2014-07-02T13:51:57.305000-04:00
+modified: 2014-08-28T11:56:58-04:00
 excerpt: "Just another boring, tattooed, time traveling designer from Buffalo."
 image:
-  feature:
+  feature: about-feature.jpg
   teaser: about-teaser.jpg
   thumb: about-thumb.jpg
 ads: false
@@ -14,11 +14,6 @@ body-id: about
 ---
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
-
-<figure>
-  <img src="{{ site.url }}/images/paperfaces-mmistakes-2-twitter-900.jpg" alt="Michael Rose self portrait">
-  <figcaption>Self portrait drawn with Paper by 53 for iPad.</figcaption>
-</figure>
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email promotions and newsletters, massaging content in and out of CMS's or just getting cozy with HTML, CSS, and JavaScript.
 
@@ -29,10 +24,6 @@ And if that wasn't enough --- I'm a mediocre husband and father of [twin girls](
   <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-chloe-winter-portrait %}"><img src="{{ site.url }}/images/paperfaces-chloe-winter-600.jpg" alt="Chloe Winter drawing"></a>
   <figcaption>My 2 little rosebuds drawn with Paper by 53.</figcaption>
 </figure>
-
----
-
-## What's a Made Mistakes?
 
 So what does this all have to do with *made mistakes* and why did you name your website that? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
