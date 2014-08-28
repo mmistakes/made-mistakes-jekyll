@@ -58,3 +58,6 @@ $(document).ready(function(){
 	// Target your .container, .wrapper, .post, etc.
 	$("#main").fitVids();
 });
+
+// Table of Contents Accordion
+$("#markdown-toc").prepend("<li><h6>Overview</h6></li>");
