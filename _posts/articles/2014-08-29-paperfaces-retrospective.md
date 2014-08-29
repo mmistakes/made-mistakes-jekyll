@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Two Years in the Making — PaperFaces Retrospective"
-excerpt: 
+title: "Two Years of Portrait Drawing — PaperFaces Retrospective"
+excerpt: "A look back at two years of drawing over 800 portraits using an iPad and Paper by 53."
 image: 
   feature: paperfaces-800-portraits-lg.jpg
   teaser: paperfaces-800-portraits-teaser.jpg
@@ -17,7 +17,7 @@ Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url 
 
 <figure class="half">
   <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-twitter-600.jpg" alt="first PaperFaces portrait"></a>
-  <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-twitter-600.jpg" alt="last PaperFaces portrait?"></a>
+  <a href="{{ site.url }}/images/paperfaces-veganwendy-2-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-2-twitter-600.jpg" alt="last PaperFaces portrait?"></a>
   <figcaption>What a difference two years made.</figcaption>
 </figure>
 
@@ -44,11 +44,11 @@ Don't start a 365 project just for the sake of starting one. Having a clear obje
 
 ### Take a Step Back
 
-On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) or [gallery]({{ site.url }}/paperfaces/) forms they became *real*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
+On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) and [gallery]({{ site.url }}/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
 <figure>
   <a href="{{ site.url }}/images/paper-53-book-wendy-lg.jpg"><img src="{{ site.url }}/images/paper-53-book-wendy.jpg" alt="Photograph of a PaperFaces drawing"></a>
-  <figcaption>Having my work printed helped give it substance instead of being just 1's and 0' I carried around in a tablet.</figcaption>
+  <figcaption>Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet.</figcaption>
 </figure>
 
 ### Keep It Fun
@@ -57,29 +57,31 @@ The last thing anyone wants to do is make more work for themselves. To avoid tur
 
 * Set a frequency and end date, *e.g. one doodle every day for a month*.
 * Omit anything that takes too long to complete, *e.g. drawing facial features*.
-* Chose subject matter that is varied and interests you, *e.g. a new face every day*.
+* Chose subject matter that is varied and keep you interested, *e.g. a new face every day*.
 
 ### Keep It Challenging
 
-Easy and simple can turn boring in a hurry. The challenge associated with using an app like Paper to draw portraits, was what attracted me it originally. When I first started there were only a handful of colors to choose from and no [zoom](#loupe-tutorial) or [Blend](#blend-first-look) features. It was during this time that I grew the most as a creator, learning how to push the tools through experimentation and practice.
+Easy and simple can turn boring in a hurry. The challenge of capturing portraits with Paper is was what originally attracted me to the app. When I first started there were only a handful of colors to choose from and no [zoom](#loupe-tutorial) or [Blend](#blend-first-look) features. It was during this time that I grew the most as a creator, learning how to push the tools through experimentation and practice.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-face-evolution.jpg" alt="PaperFaces evolution">
   <figcaption>With enough practice I was able to evolve as a creator and produce sketches with greater detail.</figcaption>
 </figure>
 
-As confidence levels grew I wasn't afraid to change the rules and push myself. Over the course of two years I did this numerous times by straying outside my comfort zone. First major change was switching from the ink pens to the watercolor and pencil tools. The next was when I decided to move away from drawing blank faces and attempt something more realistic.
+As confidence levels grew I wasn't afraid to change the rules to challenge myself. Over the course of two years I did this numerous times by straying outside my comfort zone. First major change was switching from the ink pens to the watercolor and pencil tools. The next was when I decided to move away from drawing blank faces and attempt something more realistic.
 
 ## By the Numbers
 
-Originally I planned on drawing a single portrait each day for only year using the Paper app. When I zipped past that milestone I decided another year wouldn't be that big of a deal and ultimately completed {{ site.categories.paperfaces | size }} finished drawings. 
+Initially I planned on drawing a single portrait each day for just one year. When I zipped through 365 days I decided another year wouldn't be that big of a deal and ultimately completed {{ site.categories.paperfaces | size }} finished drawings. 
 
 <figure>
   <img src="{{ site.url }}/images/paperfaces-volunteer-tweet.jpg" alt="Favstar.fm tweet screenshot">
   <figcaption>I've gotten through one-third of the 2,805 requests I've received on Twitter since <a href="https://twitter.com/mmistakes/status/240601384477659136/">tweeting for volunteers</a> two years ago.</figcaption>
 </figure>
 
-Here's a breakdown of various types of portraits I've completed.
+<div id="paperfaces-chart" class="ct-chart ct-golden-section" data-chartist-example="Line"></div>
+
+Here's a breakdown of the various types of portraits I've completed.
 
 | Type | No. of Portraits[^portraits]
 |---
@@ -87,7 +89,7 @@ Here's a breakdown of various types of portraits I've completed.
 | [Star Wars]({{ site.url }}/tag/star-wars/) | 12
 | [Bearded Dudes]({{ site.url }}/tag/beard/) | {{ site.tags.beard | size }}
 | Animals and Creatures | 17
-| Total | {{ site.categories.paperfaces | size }}
+| **Total** | **{{ site.categories.paperfaces | size }}**
 
 [^portraits]: For the purpose of keeping things consistent I consider a portrait a single drawing regardless if it includes multiple faces. If I was to count the amount of faces I've drawn the numbers would be much, much higher.
 
@@ -108,16 +110,21 @@ When my project was picked up by a few high profile designers and developers it 
   <li><a href="{{ site.url }}{% post_url /paperfaces/2014-03-26-marie-a-portrait %}"><img src="{{ site.url }}/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
 </ul>
 
-## Thank You
-
-The positive support I've received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about quitting tolerable. And to the handful of you who supported me in the early days with donations and portrait orders I appreciate your generosity so much!
-
 ## What's Next
 
-Don't get me wrong, drawing strangers for the last two years has been great, but a big part of me longs to create work on a personal level again. In a past life I kept [art journals](http://www.blurb.com/b/695432-scripted-entries-from-false-memories?ce=blurb_ew&utm_source=widget) filled with blind contour drawings and scribbled thoughts. I'd love to try and replicate this in Paper, building on the techniques I've mastered drawing portraits and turn them into a set of Moleskine books.
+After two years of doing the same thing every day it's time to mix it up. I'm not leaving the [#MadeWithPaper](https://twitter.com/search?q=%23MadeWithPaper) community or anything crazy like that, but I am shifting gears slightly.
 
-With the free time from not drawing daily portraits, I plan on crafting new tutorials for my [Mastering Paper by 53]({{ site.url }}/mastering-paper/) series. I know quite a few of you have been patiently waiting, so expect a new batch published more regularly. I also want to get serious about that companion piece I've hinted and turn it into electronic and/or printed books.
+By stopping the daily portraits I'll free up time to craft new tutorials for my [**Mastering Paper by 53**]({{ site.url }}/mastering-paper/) series. I know quite a few of you have been patiently waiting, so expect a new batch published more regularly. I also want to get serious about that companion piece I've hinted at and turn it into electronic and/or printed books.
 
-And for those who missed out getting a PaperFaces portrait I'm still offering my servcices. Color and black/white Paper portraits can be [commission here]({{ site.url }}/portraits/).
+Don't get me wrong, drawing strangers for the last two years has been great. But a big part of me is interested in creating work on a personal level again. In a past life I kept [art journals](http://www.blurb.com/b/695432-scripted-entries-from-false-memories?ce=blurb_ew&utm_source=widget) filled with blind contour drawings and scribbled thoughts. I'd love to try and replicate this in Paper, building on the techniques I've mastered drawing portraits and turn them into a set of Moleskine books.
+
+And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be [commission here]({{ site.url }}/portraits/).
 {:.notice}
 
+## Thank You!
+
+The positive support I've received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about quitting tolerable. To the handful of you who supported[^support-thanks] me in the early days with donations and portrait orders I appreciate your generosity so much! And of course a HUGE THANK YOU to the team at [FiftyThree](http://fiftythree.com) for making the tools that rekindled my love for creating.
+
+![Thanks]({{ site.url }}/images/thanks-m.png)
+
+[^support-thanks]: Big ups to each of these fine humans. Jason D., Leif S., Julio C., Kenn W., Brady R., Sascha G., THe SKuLL, Robin B., Dan K., Kevin K., Kristen L., Kevin W., Kristen L., Ted W., Joss V., Oleksiy C., Amy H., Michael S., Daniel W., Ruth G., Leah S., Alfred K., Richard K., Matt H., Jennifer M., Toropchin A., Carlos F., Paul J., Benjamin M., Liam D., Joel M., Dave B., Christopher K., Jacob L., Zach F., Braden R., Eberth M., Chet Y., Heikki H., Tom B., Brooks S., Graciela H., Ben M., Stef S., Rob L., Michael G., Francesco C., Miguel M., Adeirra A., Jason C., Aaron R., Raúl A, Tim M., Ryan D., Jameson R., Andrew B., Bridget D., Juan R., Kyle K., Nick A., James O., Janis R., Vasileios M., Aaron M., James G,. Ruth P., Ryan F., Chistianna M., Vanessa T., Alexander M., Glenn S., Jessica P., Maria G., Bobby H., Jose A., Nicole D., Wesley F., Peter J., Michael M., Sailesh P., Jayne W., Antonio M., Wakes M., Liese A., Miguel R., Jonathan H., Adam M., Artem T., Glen N., Diako M., Nimesh R., Cherie P., Hristian K., Jens T., Mark E., Bryan C., Matteo F., Lorenzo R., Bill L., Antonio C., Thomas D., Lisa O., Ruben H., Leanne V., Dean M., Jeffrey M., Hoon S., Mieng-Ly S., Arno S., Umberto A., Isabelle V., Marcus E., Matt D., David M., Matthew B., Andi S., Andrew E., Yousef K., Jonas C., Peter B., Patricia H., Daniel-Ray V., Lita S., Charlotte H., David S., Richard M., Stefano D., Christie N., Ronald J., Janet R., Paula L., Angelic P., Chris S., Liesse A., Mary D., Jane D., Ed G., and Elizabeth G. I hope I didn't forget anyone...

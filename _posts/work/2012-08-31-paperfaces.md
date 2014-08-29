@@ -2,8 +2,8 @@
 layout: gallery
 permalink: /paperfaces/
 title: "PaperFaces Project Gallery"
-excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53 for iPad."
-modified: 2014-02-28
+excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."
+modified: 2014-08-29T10:11:50-04:00
 image: 
   thumb: paperfaces-project-250x250.jpg
   teaser: paperfaces-project-teaser.jpg
@@ -13,10 +13,13 @@ ads: false
 comments: true
 ---
 
-PaperFaces is an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! Each day I draw the face of a stranger using an iPad, a stylus, and the fabulous sketching app *Paper by 53*.
+PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! Each day I'd draw the face of a stranger using an iPad, a stylus, and the fabulous sketching app *Paper by 53*.
 {:.shorten}
 
-<a href="{{ site.url }}/portraits/" class="btn">Order a PaperFaces Portrait</a>
+If you scroll down far enough you can see how my technique evolved from creepy faceless faces to something more realistic and true to life. Custom drawn portraits can be ordered by hitting the button below.
+{:.shorten}
+
+<a href="{{ site.url }}/portraits/" class="btn">Commission a PaperFaces Portrait</a>
 
 <ul class="th-grid-full">
 {% for post in site.categories.paperfaces %}
