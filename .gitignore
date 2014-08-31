@@ -6,4 +6,5 @@ codekit-config.json
 node_modules
 _asset_bundler_cache
 .sass-cache
+.jekyll-assets-cache
 Gemfile.lock

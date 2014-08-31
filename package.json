@@ -1,15 +1,12 @@
 {
   "name": "made-mistakes",
-  "version": "1.0.2",
+  "version": "1.1",
   "description": "Based on Skinny Bones Jekyll starter",
   "author": "Michael Rose <michael@mademistakes.com>",
   "homepage": "http://mademistakes.com/",
   "license": "The MIT License (MIT)",
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-imagemin": "~0.5.0",
     "grunt-svgmin": "~0.3.1",
     "grunt-imgcompress": "~0.1.1",

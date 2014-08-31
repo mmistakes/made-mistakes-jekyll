@@ -39,8 +39,8 @@ Short messages via Twitter are my preferred contact method. For anything longer 
 
 <a href="https://twitter.com/intent/tweet?screen_name=mmistakes" class="twitter-mention-button" data-size="large" data-related="mmistakes">Tweet to @mmistakes</a>
 
-<link rel="stylesheet" href="/css/form.css">
-<script src="/js/vendor/wufoo.js"></script>
+{% stylesheet form %}
+{% javascript vendor/wufoo %}
 
 <form id="form1" name="form1" class="wufoo  page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <ul>

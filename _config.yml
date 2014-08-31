@@ -10,9 +10,6 @@ url: http://mademistakes.com
 
 # Jekyll configuration
 
-sass:
-    sass_dir: _sass
-    style: compressed
 permalink: /:categories/:title/
 markdown: kramdown
 kramdown:
@@ -20,9 +17,22 @@ kramdown:
 highlighter: pygments
 gems:
   - jekyll-sitemap
-  - jekyll/minibundle
 include: [".htaccess"]
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json"]  
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]  
+
+
+# Plugin: jekyll-assets
+
+assets:
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: hard
+  cache: true
+  debug: false
+  version: 1
 
 
 # Site owner

@@ -44,11 +44,11 @@
     }
     </style>
 
-    <link rel="stylesheet" href="/css/main-08282014.css">
+    {% stylesheet global %}
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="/js/vendor/html5shiv.min.js"></script>
-      <script src="/js/vendor/respond.min.js"></script>
+      {% javascript vendor/html5shiv %}
+      {% javascript vendor/respond %}
     <![endif]-->
 
   </head>
@@ -63,8 +63,7 @@
       {% include footer.html %}
     </div>
 
-    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="{% ministamp /js/main.js /js/main.js %}"></script>
+    {% javascript main %}
 
     <!-- Google Universal Analytics -->
     <script>
