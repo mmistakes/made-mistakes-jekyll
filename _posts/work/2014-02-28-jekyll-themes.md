@@ -3,7 +3,7 @@ layout: media
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
-modified: 2014-08-06T08:20:20.057000-04:00
+modified: 2014-09-02T16:25:02-04:00
 image: 
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
@@ -16,6 +16,8 @@ As I continue to hack away at the design of Made Mistakes and improve on things,
 
 Below are all of the Jekyll starters I've open sourced thus far. Each "theme" contains `_layouts`, `_includes`, assets, and sample pages to get you started. For the most part they share a lot of similarities (especially in `_config.yml`), which should make switching and updating easier.
 
+*All themes and starters are fully compatible with GitHub Pages.*
+
 ## Skinny Bones
 
 <figure>
@@ -23,17 +25,17 @@ Below are all of the Jekyll starters I've open sourced thus far. Each "theme" co
 	<figcaption>Includes a fun off canvas menu</figcaption> 
 </figure>
 
-A new Jekyll starter I've been working on that I used to build the latest incarnation of Made Mistakes. Full documentation coming soon…
+A Jekyll starter used to build the latest incarnation of Made Mistakes.
 
 * Minimal design meant to be hacked up and customized
 * Built in support for Sass and data files (requires Jekyll 2.x)
 * Off canvas menu
 * Tile based archives
-* Optional table of contents, ads, and Disqus comments modules, and more
+* Optional table of contents, share links, Disqus comments modules, and more
 
 <div markdown="0">
-	<a href="https://github.com/mmistakes/skinny-bones-jekyll" class="btn">Download</a>
 	<a href="http://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo the Theme</a>
+	<a href="{{ site.url }}{% post_url /articles/2014-09-02-skinny-bones-jekyll %}" class="btn">Learn More</a>
 </div>
 
 ---
@@ -69,7 +71,8 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 A simple and clean responsive Jekyll theme for words and large photographs.
 
 * Minimal design
-* Built-in simple search
+* Simple search (searches by post title)
+* Built in support for Sass and data files (requires Jekyll 2.x)
 
 <div markdown="0">
 	<a href="http://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a>
