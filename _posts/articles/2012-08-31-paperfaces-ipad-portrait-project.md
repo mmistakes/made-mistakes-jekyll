@@ -2,7 +2,7 @@
 layout: article
 title: "iPad Portraits with Paper by FiftyThree"
 excerpt: "An experiment in humanizing the web — designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
-modified: 2014-04-02
+modified: 2014-09-03T07:50:19-04:00
 image: 
   feature: paperfaces-project-feature.jpg
   teaser: paperfaces-project-teaser.jpg
@@ -12,13 +12,13 @@ tags: [Paper by 53, iPad, drawing, illustration]
 comments: true
 ---
 
-PaperFaces is an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper). Each day when a drawing is completed, I post the image to [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and mademistakes.com. The project will continue <s>the next year</s> until I burn out on faceless faces.
+PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper) and [ended two years later]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}). 
 
 {% include toc.html %}
 
 ## Latest Portraits
 
-I make every effort to update the gallery weekly with the freshest of fresh along with in process sketches for each portrait. If you absolutely have to see my latest creation the second I finish it, a follow on Twitter would do your body good.
+The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:15 %}
@@ -54,14 +54,14 @@ When the count hit 700, I revised my initial goal of 365 to 730 (that's two a da
 
 ### Why the Blank Faces?
 
-When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 is its small toolset, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and ultimately grow as an artist.
+When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 was its small tool set, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and grow as an artist.
 
 <figure class="large">
   <img src="{{ site.url }}/images/paperfaces-rosebud-twins-l.jpg" alt="PaperFaces iPad portrait of the Rosebud twins">
   <figcaption>PaperFaces iPad portrait of my two twin girls</figcaption>
 </figure>
 
-After drawing over 600 portraits with Paper my skills have matured and I've begun drawing the entire face. It's been a fun personal challenge to capture as much detail in as little time possible.
+After drawing over 600 portraits with Paper my skills have matured and I've begun drawing the entire face. It has been a fun personal challenge to capture as much detail in as little time possible.
 
 ### What's Your Process Like?
 
@@ -81,7 +81,7 @@ And yes, I use a stylus. For the first 50 or so portraits I drew exclusively wit
 
 At the moment, there is a *waiting list* of over 2,000. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} finished illustrations.
 
-Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average, most portraits take me an hour, while others might take a few. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
+Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average most portraits take me 1--2 hours to complete. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
 ## Usage and Copyright
 
@@ -126,8 +126,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [53 Outstanding Works of Art Made with Paper by FiftyThree](http://designshack.net/articles/inspiration/53-outstanding-works-of-art-made-with-paper-by-fiftythree/)
 * [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
+* [iPad artist: Michael Rose, creator of the PaperFaces project](http://kevinbradberry.net/2014/08/27/ipad-artist-michael-rose/)
 
 <i class="fa fa-info-circle"></i> **PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/).
-{: .notice .warning}
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+{: .notice}
