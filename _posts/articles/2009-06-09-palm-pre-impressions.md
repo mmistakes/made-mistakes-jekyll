@@ -65,6 +65,6 @@ If you're looking for a more in-depth look at the Palm Pre, check out [Precentra
 	<li><a href="{{ site.url }}/images/361.jpg"><img src="{{ site.url }}/images/361t.jpg" alt="Palm Pre and Palm Centro comparison"></a></li>
 	<li><a href="{{ site.url }}/images/362.jpg"><img src="{{ site.url }}/images/362t.jpg" alt="Palm Pre Phone"></a></li>
 	<li><a href="{{ site.url }}/images/363.jpg"><img src="{{ site.url }}/images/363t.jpg" alt="Palm Pre Music App"></a></li>
-	<li><a href="{{ site.url }}/images/364.jpg" target="_blank"><img src="{{ site.url }}/images/364t.jpg" alt="Palm Pre Tweed App"></a></li>
+	<li><a href="{{ site.url }}/images/364.jpg"><img src="{{ site.url }}/images/364t.jpg" alt="Palm Pre Tweed App"></a></li>
 	<li><a href="{{ site.url }}/images/365.jpg"><img src="{{ site.url }}/images/365t.jpg" alt="Palm Pre App Catalog"></a></li>
 </ul>

@@ -28,7 +28,7 @@ How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20 "Cheap iPad stylus, 3 pack for $2"
 
 <figure>
-	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G" target="_blank"><img src="{{ site.url }}/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
+	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="{{ site.url }}/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my iPad stylus of choice.</figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ I hope some of this has been helpful. To better describe and show my process, I'
 
 <figure class="large">
   <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
-  <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel" target="_blank">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
+  <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
 </figure>
 
 <i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail and then some.

@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-PaperFaces portrait of <a href="http://sktchy.com/WfStFC" target="_blank">Esty C.</a>, inspiration found via Sktchy.
+PaperFaces portrait of <a href="http://sktchy.com/WfStFC">Esty C.</a>, inspiration found via Sktchy.
 
 {% include paperfaces-boilerplate-2.html %}
 

@@ -41,7 +41,7 @@ If subscribing to Atom/RSS feeds isn't your cup of tea I can be stalked on vario
 Make me feel special by following my mundane life. I post a few times a day -- along the lines of web design and development tidbits, sarcastic remarks, Paper drawings, photos of my twin girls, and website updates.
 
 <div class="inline">
-  <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-  <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
-  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr" target="_blank"><i class="fa fa-tumblr"></i> Tumblr</a>
+  <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter"></i> Twitter</a>
+  <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram"></i> Instagram</a>
+  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr"></i> Tumblr</a>
 </div>

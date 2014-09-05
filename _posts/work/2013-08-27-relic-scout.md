@@ -19,7 +19,7 @@ Eko Wave, a company started by [two](http://twitter.com/endonend) [pals](http://
 I had a lot of fun creating the 8bit pixel art and applying a parallax effect to it using the [jQuery plugin Plax](https://github.com/cameronmcefee/plax). If you collect sports cards, magic cards, coins, or comics, you really should check it out.
 
 <figure>
-	<a href="http://relicscout.com" target="_blank"><img src="{{ site.url }}/images/relic-scout-browser-750.jpg" alt="Relic Scout homepage screenshot"></a>
+	<a href="http://relicscout.com"><img src="{{ site.url }}/images/relic-scout-browser-750.jpg" alt="Relic Scout homepage screenshot"></a>
 	<figcaption>Relic Scout homepage</figcaption>
 </figure>
 

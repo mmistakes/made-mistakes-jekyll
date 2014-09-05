@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-PaperFaces portrait of <a href="http://sktchy.com/FH2qnD" target="_blank">Effy E</a>, inspiration found via Sktchy.
+PaperFaces portrait of <a href="http://sktchy.com/FH2qnD">Effy E</a>, inspiration found via Sktchy.
 
 {% include paperfaces-boilerplate-2.html %}
 

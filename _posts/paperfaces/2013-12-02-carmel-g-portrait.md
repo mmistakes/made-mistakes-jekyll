@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53, Blend, Sktchy]
 ---
 
-PaperFaces portrait of <a href="http://sktchy.com/uViYnH" target="_blank">Carmel G.</a>
+PaperFaces portrait of <a href="http://sktchy.com/uViYnH">Carmel G.</a>
 
 {% include paperfaces-boilerplate-3.html %}
 

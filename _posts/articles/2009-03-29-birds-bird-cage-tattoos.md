@@ -18,7 +18,7 @@ The last couple of months have been pretty stressful. Butter, my domestic long h
 Last weekend we hit up [*Rise Above Tattoos*](http://myspace.com/riseabovetattoo) again and spent the afternoon getting some more work done. Wendy added a bunch of birds in flight, a cage, and a tree branch to mimic the design of her other arm. She's in the process of healing now so it looks pretty scabby in a few spots. Will probably need some touch ups if the color falls out, but that shouldn't be a problem since the same thing happened last time.
 
 <figure>
-    <a href="http://www.flickr.com/photos/michael_knows/sets/72157605004332974/" title="Flickr photoset of my all my tattoos" target="_blank"><img src="{{ site.url }}/images/hair-pull-heart-tattoo-m.jpg" alt="Some ink splat filler on my forearm" /></a>
+    <a href="http://www.flickr.com/photos/michael_knows/sets/72157605004332974/" title="Flickr photoset of my all my tattoos"><img src="{{ site.url }}/images/hair-pull-heart-tattoo-m.jpg" alt="Some ink splat filler on my forearm" /></a>
     <figcaption>Some ink splat filler on my forearm</figcaption>
 </figure>
 
