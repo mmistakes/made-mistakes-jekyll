@@ -2,7 +2,7 @@
 layout: article
 title: "What’s This About?"
 date: 2014-06-01
-modified: 2014-08-28T11:56:58-04:00
+modified: 2014-09-09T11:26:44-04:00
 excerpt: "Just another boring, tattooed, time traveling designer from Buffalo."
 image:
   feature: about-feature.jpg
@@ -15,7 +15,7 @@ body-id: about
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
 
-When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email promotions and newsletters, massaging content in and out of CMS's or just getting cozy with HTML, CSS, and JavaScript.
+When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email promotions and newsletters, massaging content in and out of a CMS or just getting cozy with HTML, CSS, and JavaScript.
 
 And if that wasn't enough --- I'm a mediocre husband and father of [twin girls](http://2littlerosebuds.com "my 2 little rosebuds").
 
@@ -27,9 +27,9 @@ And if that wasn't enough --- I'm a mediocre husband and father of [twin girls](
 
 So what does this all have to do with *made mistakes* and why did you name your website that? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
-In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash (hey remember those?) while I worked on building a design portfolio using Movable Type. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, Javascript, PHP, and MySQL databases.
+In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, Javascript, PHP, and MySQL databases.
 
-I've since decided to go CMS-free and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat HTML files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for greater control and improved performance. Building all of the layouts, stylesheets, feeds, and assets from scratch has been challenging, but completely worth it.
+I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
 ---
 

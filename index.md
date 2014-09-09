@@ -8,7 +8,12 @@ image:
 id: home
 ---
 
-### [Paper by FiftyThree]({{ site.url }}/mastering-paper/)
+Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). A boring, tattooed, time traveling designer from Buffalo, New York who enjoys eating chicken wings and [sketching on an iPad]({{ site.url }}/tag/paper-by-53/) --- *not necessarily at the same time*.
+{:.shorten}
+
+---
+
+### [Paper by FiftyThree Tutorials]({{ site.url }}/mastering-paper/)
 
 <div class="tiles">
 {% for post in site.categories.mastering-paper limit:4 %}
@@ -18,7 +23,7 @@ id: home
 
 ---
 
-### [Latest Articles]({{ site.url }}/articles/)
+### [Articles I've Written]({{ site.url }}/articles/)
 
 <div class="tiles">
 {% for post in site.categories.articles limit:4 %}
@@ -28,7 +33,7 @@ id: home
 
 ---
 
-### [Latest PaperFaces]({{ site.url }}/paperfaces/)
+### [Faces I've Drawn]({{ site.url }}/paperfaces/)
 
 <ul class="th-grid-full">
 {% for post in site.categories.paperfaces limit:8 %}
