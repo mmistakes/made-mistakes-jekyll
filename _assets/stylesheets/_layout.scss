@@ -286,9 +286,7 @@
   .page-title {
     @include fill-parent;
     h1 {
-      @include media($micro-only) { 
-        margin-top: $gutter;
-      }
+      margin-top: $gutter;
       margin-bottom: 0;
     }
     h2 {
