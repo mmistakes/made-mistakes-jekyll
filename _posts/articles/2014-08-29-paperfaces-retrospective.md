@@ -2,7 +2,7 @@
 layout: article
 title: "Two Years of Portrait Drawing — PaperFaces Retrospective"
 excerpt: "A look back at two years of drawing over 800 portraits using an iPad and Paper by 53."
-modified: 
+modified: 2014-09-10T15:45:18-04:00
 image: 
   feature: paperfaces-800-portraits-lg.jpg
   teaser: paperfaces-800-portraits-teaser.jpg
@@ -96,19 +96,19 @@ Here's a breakdown of the various types of portraits I've completed.
 
 And for the curious here's the various styli I've used over the two years and some quick impressions.
 
-| Stylus |
+| Stylus | My Quick Impressions
 |---
 | [*Just-Mobile AluPen*][alupen-stylus] | Lasted me a few months before wearing out. Tips aren't replaceable.
-| [*LunaTik Alloy Touch Pen*][lunatik-stylus] | My trusted sidekick for a long long time. Tip took some serious abuse and lasted what felt like forever.
-| [*Ten One Design Pogo Connect*][pogo-stylus] | 70% of my drawings were done with a Pogo. Two broke due to bad hardware design. Wore through about four R2 tips. Connectivity issues are maddening.
+| [*LunaTik Alloy Touch Pen*][lunatik-stylus] | My trusted sidekick for a long long time. Tip took some serious abuse.
+| [*Ten One Design Pogo Connect*][pogo-stylus] | Most of my drawings are done with a Pogo Connect now. Two broke due to bad hardware design. Wore through about four R2 tips. Connectivity issues are maddening.
 | [*Pencil by FiftyThree*][pencil-stylus] | Super reliable when I'm not wearing out tips in a few days. Flirting with it again after recent Paper update that scales tools when zoomed in.
 | [*ZEN 3 in 1*][zen-stylus] | Precision disc tip dead on arrival. Rubber nib still going strong.
-| [*Universal Touch Screen Pen*][cheap-stylus] | Cheap, small, light, and pretty crappy. Comes in a 3 pack that I have if I ever lose my other styli.
+| [*Universal Touch Screen Pen*][cheap-stylus] | Cheap, small, light, and pretty crappy. Comes in a 3 pack that I have as a backup if I ever lose my other styli.
 
 [alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
 [lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
-[pogo-stylus]: http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20
-[pencil-stylus]: http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2
+[pogo-stylus]: {{ site.url}}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}
+[pencil-stylus]: {{ site.url }}{% post_url /articles/2013-12-11-pencil-53-review %}
 [zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
