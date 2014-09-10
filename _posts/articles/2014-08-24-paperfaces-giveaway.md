@@ -3,7 +3,7 @@ layout: article
 permalink: /giveaway/
 title: "Win a Digital Drawing #MadeWithPaper Giveaway"
 date: 2014-08-24
-modified: 2014-09-06
+modified: 2014-09-10T11:17:29-04:00
 excerpt: "Enter to win a portrait of your choice drawn by Michael Rose in his signature PaperFaces style."
 category: articles
 tags: [drawing, illustration, Paper by 53, iPad]
@@ -27,8 +27,9 @@ Entering the PaperFaces Giveaway is simple. <span class="badge info">Contest has
 
 ## Winning Portraits
 
-<figure class="half">
+<figure class="third">
 	<a href="{{ site.url }}{% post_url /paperfaces/2014-09-02-harvydanger-portrait %}"><img src="{{ site.url }}/images/paperfaces-harvydanger-twitter-600.jpg" alt="color portrait winner"></a>
-	<a href="{{ site.url }}{% post_url /paperfaces/2014-09-06-psychoticmilkma-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-psychoticmilkma-2-600.jpg" alt="black and white portrait winner">
+	<a href="{{ site.url }}{% post_url /paperfaces/2014-09-06-psychoticmilkma-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-psychoticmilkma-2-600.jpg" alt="black and white portrait winner"></a>
+  <a href="{{ site.url }}{% post_url /paperfaces/2014-09-10-viktoriaderoy-portrait %}"><img src="{{ site.url }}/images/paperfaces-viktoriaderoy-600.jpg" alt="black and white portrait winner"></a>
 	<figcaption>The winners of my first PaperFaces portrait giveaway</figcaption>
 </figure>
