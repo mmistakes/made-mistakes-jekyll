@@ -21,8 +21,10 @@ $(document).ready(function(){
 	});
 });
 
+
 // Add lightbox class to all image links
 $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+
 
 // Magnific-Popup options
 $(document).ready(function() {
@@ -50,11 +52,13 @@ $(document).ready(function() {
 	});
 });
 
+
 // Lazy Load  
 $("img.load").show().lazyload({ 
 		effect: "fadeIn",
 		skip_invisible: false
 });
+
 
 // FitVids
 $(document).ready(function(){
@@ -62,5 +66,39 @@ $(document).ready(function(){
 	$("#main").fitVids();
 });
 
+
 // Table of Contents Accordion
 $("#markdown-toc").prepend("<li><h6>Overview</h6></li>");
+
+
+// Add anchor links after headlines
+var anchorForId = function (id) {
+  var anchor = document.createElement("a");
+  anchor.className = "header-link";
+  anchor.href      = "#" + id;
+  anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+  return anchor;
+};
+
+var linkifyAnchors = function (level, containingElement) {
+  var headers = containingElement.getElementsByTagName("h" + level);
+  for (var h = 0; h < headers.length; h++) {
+    var header = headers[h];
+
+    if (typeof header.id !== "undefined" && header.id !== "") {
+      header.appendChild(anchorForId(header.id));
+    }
+  }
+};
+
+document.onreadystatechange = function () {
+  if (this.readyState === "complete") {
+    var contentBlock = document.getElementsByClassName("page-content")[0];
+    if (!contentBlock) {
+      return;
+    }
+    for (var level = 1; level <= 6; level++) {
+      linkifyAnchors(level, contentBlock);
+    }
+  }
+};
