@@ -25,12 +25,12 @@ layout: default
       <footer class="page-footer">
         {% include page-meta-footer.html %}
       </footer><!-- /.footer -->
-      {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
-      {% if page.comments == true %}
-        <aside>{% include comments.html %}</aside>
-        {% if page.ads != false %}<div class="ads">{% include advertising-2.html %}</div><!-- /.ads -->{% endif %}
-      {% endif %}
     </div><!-- /.content -->
-    {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
   </article><!-- /.wrap -->
+  {% if page.comments == true %}
+  <div class="wrap">
+    <aside>{% include comments.html %}</aside>
+    {% if page.ads != false %}<div class="ads">{% include advertising-2.html %}</div><!-- /.ads -->{% endif %}
+  </div><!-- /.wrap -->
+  {% endif %}
 </div><!-- /#main -->

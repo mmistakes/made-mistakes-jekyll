@@ -6,9 +6,15 @@
   padding: 0 $gutter $gutter;
   box-shadow: 0 0 5px darken($background-color, 20);
   @include media($medium) {
-    padding: 0 (2 * $gutter) (2* $gutter);
+    padding: 0 (2 * $gutter) (2 * $gutter);
+  }
+  @include media($large) {
+    padding: 0 (2.5 * $gutter) (2.5 * $gutter);
   }
   background-color: $body-color;
+  + .wrap {
+    margin-top: $gutter;
+  }
 }
 
 .come-in {

@@ -201,14 +201,14 @@
       }
       // Captions
       figcaption {
-        padding-left: 2 * $gutter;
-        padding-right: 2 * $gutter;
+        padding-left: $gutter;
+        padding-right: $gutter;
         @include media($medium) {
           padding-left: 0;
           padding-right: 0;
         }
         font-family: $alt-font;
-        @include font-size(14,yes,16);
+        @include font-size(14,yes);
         color: $caption-color;
         clear: both;
         a {
@@ -363,6 +363,10 @@
     margin-left: -2 * $gutter;
     margin-right: -2 * $gutter;
   }
+  @include media($large) {
+    margin-left: -2.5 * $gutter;
+    margin-right: -2.5 * $gutter;
+  }
   // Feature Image Caption
   .image-credit {
     position: absolute;
@@ -464,7 +468,7 @@ h6:hover .header-link {
     @include font-size(18,no);
   }
   .post-excerpt {
-    @include font-size(15);
+    @include font-size(16);
     margin-top: 0;
   }
   .post-teaser {
@@ -552,7 +556,7 @@ h6:hover .header-link {
     top: 0;
     left: 0;
     width: $column;
-    height: 1px;
+    height: 2px;
     background: $border-color;
   }
 }

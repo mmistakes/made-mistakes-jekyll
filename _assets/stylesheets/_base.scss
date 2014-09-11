@@ -131,22 +131,13 @@ tr, td, th {
 // Line rules
 hr {
   display: block;
-  position: relative;
   margin: 0px + ($doc-line-height) 0;
   margin: 0rem + (($doc-line-height) / $doc-font-size) 0;
   padding: 0;
-  height: 5px;
   border: 0;
+  border-top: 2px solid $border-color;
+  width: 2 * $column;
   clear: both;
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2 * $column;
-    height: 1px;
-    background: $border-color;
-  }
 }
 
 // Figures and images
