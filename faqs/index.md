@@ -46,6 +46,12 @@ Speaking of Bluetooth styli, I now use a [Pogo Connect][pogo-stylus] about 99% o
 [zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
+## Which iPad Do You Have?
+
+I draw on a 3rd Generation iPad with Retina screen. I've been holding off upgrading because the screens on the new iPad Air do not work well with a Pogo Connect stylus. 
+
+The small 16GB of memory my iPad came with is almost full which is probably going to force my hand soon. Now that I'm using Pencil more maybe it won't be such a big deal, especially when Paper receives "Surface Pressure" with iOS 8.
+
 ## How Did You Learn to Draw on an iPad?
 
 **Short answer:** Practice --- lots and lots of practice. I learn something new every time I drag my stylus or finger across the iPad's glass screen. If you're looking for a shortcut to this there really isn't one. The best way to improve is by putting the time into learning your craft through experimentation.
