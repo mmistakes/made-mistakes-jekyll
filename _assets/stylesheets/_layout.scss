@@ -173,6 +173,15 @@
   }
   @at-root {
     .page-content {
+      h2 {
+        @include font-size(28,yes,32);
+      }
+      h3 {
+        @include font-size(24,yes,26);
+      }
+      h4 {
+        @include font-size(22);
+      }
       // larger font for intro paragraph
       > p {
         &:first-child {
@@ -434,6 +443,10 @@
   opacity: 0; 
   font-size: 0.8em; 
   @include transition(opacity 0.2s ease-in-out 0.1s);
+  display: none;
+  @include media($large) {
+    display: inline;
+  }
 }
 h2:hover .header-link, 
 h3:hover .header-link, 
