@@ -28,7 +28,7 @@ $base-color                   : #343434;
 $comp-color                   : complement($base-color); 
 $border-color                 : #ddd;
 $link-color                   : lighten($black, 10);
-$primary-color                : $black;
+$primary-color                : lighten($black, 20);
 $success-color                : #2ecc71;
 $warning-color                : #f1c40f;
 $danger-color                 : #e74c3c;

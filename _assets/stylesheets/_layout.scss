@@ -41,7 +41,7 @@
   padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
   height: $masthead-height;
   text-decoration: none;
-  color: $black;
+  color: $primary-color;
   font-family: $alt-font;
   font-weight: 700;
   @include font-size(20,no);
@@ -85,7 +85,7 @@
       }
       &:after {
         width: 0;
-        background: $black;
+        background: $primary-color;
       }
       &:active:after,
       &:hover:after {
@@ -117,7 +117,7 @@
       font-weight: 700;
       @include font-size(16,no);
       line-height: .5 * $masthead-height; // half the height to center vertically
-      color: $black;
+      color: $primary-color;
       text-transform: uppercase;
     }
   }
@@ -507,7 +507,7 @@ h6:hover .header-link {
     }
     &:hover {
       &:before {
-        background: rgba($black,0.5);
+        background: rgba($primary-color,0.5);
       }
       &:after {
         opacity: 0.4;
@@ -528,7 +528,7 @@ h6:hover .header-link {
   a { 
     padding: 4px 6px;
     margin: 2px;
-    background-color: lighten($black,80);
+    background-color: lighten($primary-color,80);
     border-radius: $border-radius;
     text-decoration: none;
     border-bottom: 0 solid transparent;

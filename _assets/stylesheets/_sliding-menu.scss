@@ -9,7 +9,7 @@
   display: block;
   width: $button-size * 2;
   height: $button-size * 2;
-  background: $black;
+  background: $primary-color;
   outline: 0;
   padding: 0;
   border: 2.5px solid transparent;
@@ -18,15 +18,18 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  &:hover {
+    background: $black;
+  }
   @include media($medium) {
     @include transform(0);
   }
-  @include transition(right 500ms cubic-bezier(.645,.045,.355,1.000));
+  @include transition(all 500ms cubic-bezier(.645,.045,.355,1.000));
   &.slide {
     @include media($medium) {
       right: 90%;
     }
-    @include transition(right 500ms ease-in-out);
+    @include transition(all 500ms ease-in-out);
   }
 }
 
