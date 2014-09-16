@@ -320,13 +320,13 @@
       position: absolute;
       top: 0;
       z-index: 1;
-      width: 90%;
+      @include span-columns(8);
     }
   }
   h1 {
     margin-bottom: 0;
     @include media($medium) {
-      @include font-size(48,yes,60);
+      @include font-size(42,yes,58);
       text-transform: uppercase;
       color: $white;
       @include transform(rotate(-1deg));
@@ -336,7 +336,7 @@
       }
     }
     @include media($large) {
-      @include font-size(60,yes,75);
+      @include font-size(58,yes,72);
     }
   }
   h2 {
@@ -358,6 +358,7 @@
       span {
         padding: 2px 4px;
         background: $black;
+        background: rgba($black,.90);
         color: $white;
         a {
           color: $white;
