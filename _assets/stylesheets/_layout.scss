@@ -320,6 +320,7 @@
       position: absolute;
       top: 0;
       z-index: 1;
+      width: 90%;
     }
   }
   h1 {
@@ -330,7 +331,8 @@
       color: $white;
       @include transform(rotate(-1deg));
       span {
-        background: $black;
+        backgroudn: $black;
+        background: rgba($black,.90);
       }
     }
     @include media($large) {
@@ -347,6 +349,7 @@
       @include transform(rotate(-1deg));
       span {
         background: $black;
+        background: rgba($black,.90);
       }
     }
   }
