@@ -115,7 +115,7 @@
 }
 
 .menu-screen {
-  @include position(fixed, 0px 0px 0px 0px);
+  @include position(fixed, 0 0 0 0);
   @include transition;
   background: $sliding-menu-border-color;
   opacity: 0;

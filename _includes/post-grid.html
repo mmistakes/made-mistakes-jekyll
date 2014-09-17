@@ -1,4 +1,4 @@
-<article class="tile" itemscope itemtype="http://schema.org/Article">
+<article class="tile {{ include.param }}" itemscope itemtype="http://schema.org/Article">
 	<a href="{{ post.url }}" title="{{ post.title }}" class="post-teaser">{% if post.image.teaser %}<img src="/images/{{ site.teaser }}" data-original="/images/{{ post.image.teaser }}" class="load" alt="teaser" itemprop="image">
     <noscript><img src="/images/{{ post.image.teaser }}" alt="teaser" itemprop="image"></noscript>
 		{% else %}<img src="/images/{{ site.teaser }}" alt="teaser" itemprop="image">{% endif %}</a>
