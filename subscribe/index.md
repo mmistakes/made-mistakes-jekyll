@@ -16,7 +16,7 @@ All of the ways you can consume content found on Made Mistakes.
 
 ## <i class="fa fa-rss"></i> Feeds
 
-If you don't want to miss anything posted to the website then you'll want to grab the master feed. While the others are more tailored to a specific topic.
+If you don't want to miss anything posted to the website then you'll want to grab the master feed. While the others are more tailored to a specific topic. You can also [follow along on Bloglovin](https://www.bloglovin.com/blog/3627581).
 <http://feeds.feedburner.com/MadeMistakes>
 
 ### Articles Only Feed
