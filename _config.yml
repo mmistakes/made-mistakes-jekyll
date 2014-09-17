@@ -11,6 +11,7 @@ url: http://mademistakes.com
 # Jekyll configuration
 
 permalink: /:categories/:title/
+lsi: true
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
