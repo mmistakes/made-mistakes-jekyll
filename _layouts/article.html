@@ -4,7 +4,7 @@ layout: default
 
 <div id="main" role="main">         
   <article class="wrap" itemscope itemtype="http://schema.org/Article">
-    <div class="{% if page.image.feature %}page-feature-header{% else %}page-header{% endif %}">
+    <div class="{% if page.image.feature %}page-feature-header overlay{% else %}page-header{% endif %}">
       {% if page.image.feature %}
       <div class="page-image">
         <img src="/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
