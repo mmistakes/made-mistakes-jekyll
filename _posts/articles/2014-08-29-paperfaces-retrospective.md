@@ -137,7 +137,7 @@ By stopping the daily portraits I'll free up time to craft new tutorials for my 
 
 Don't get me wrong, drawing strangers for the last two years has been great. But a big part of me is interested in creating work on a personal level again. In a past life I kept [art journals](http://www.blurb.com/b/695432-scripted-entries-from-false-memories?ce=blurb_ew&utm_source=widget) filled with blind contour drawings and scribbled thoughts. I'd love to try and replicate this in Paper, building on the techniques I've mastered drawing portraits and turn them into a set of Moleskine books.
 
-And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be [commission here]({{ site.url }}/portraits/).
+And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be [commissioned here]({{ site.url }}/portraits/).
 {:.notice}
 
 ## Thank You!

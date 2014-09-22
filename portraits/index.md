@@ -2,7 +2,7 @@
 layout: article
 title: "Order a Digital Portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
-modified: 2014-08-22
+modified: 2014-09-22T11:27:18-04:00
 image:
   thumb: portrait-thumb.jpg
   teaser: portrait-teaser.jpg
@@ -41,7 +41,7 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
 
 ## What'll Be Stranger?
 
-Black and white or color? One face or multiple?
+Black and white or color? One face or multiple? <span class="badge info">Starting at $25.00 USD</span>
 
 <fieldset>
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -50,10 +50,10 @@ Black and white or color? One face or multiple?
         <input type="hidden" name="on0" value="Type of Drawing">
         <label style="margin:10px 0;">Type of Drawing</label>
         <select name="os0" style="width: 100%;">
-            <option value="One face - black and white">One face - black and white $15.00 USD</option>
-            <option value="One face - color">One face - color $20.00 USD</option>
-            <option value="Multiple faces - black and white">Multiple faces - black and white $25.00 USD</option>
-            <option value="Multiple faces - color">Multiple faces - color $30.00 USD</option>
+            <option value="One face - black and white">One face - black and white $25.00 USD</option>
+            <option value="One face - color">One face - color $30.00 USD</option>
+            <option value="Multiple faces - black and white">Multiple faces - black and white $35.00 USD</option>
+            <option value="Multiple faces - color">Multiple faces - color $40.00 USD</option>
         </select>
         <input type="hidden" name="on1" value="Portrait Reference URL">
         <label style="margin:10px 0;">Portrait Reference URL</label>
