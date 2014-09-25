@@ -4,18 +4,18 @@
 // Off Canvas Sliding
 $(document).ready(function(){
 	// Menu button click
-	$('.js-menu-trigger').on('click touchstart', function(e){
-		$('body').toggleClass('no-scroll');
-		$('.js-menu, .js-menu-screen').toggleClass('is-visible');
-		$('.sliding-menu-button').toggleClass('slide close');
+	$('#js-menu-trigger').on('click touchstart', function(e){
+		$('#js-body').toggleClass('no-scroll');
+		$('#js-menu, #js-menu-screen').toggleClass('is-visible');
+		$('#js-menu-trigger').toggleClass('slide close');
 		$('#masthead, #page-wrapper').toggleClass('slide');
 		e.preventDefault();
 	});
 	// Page overlay click
-	$('.js-menu-screen').on('click touchstart', function(e){
-		$('body').toggleClass('no-scroll');
-		$('.js-menu, .js-menu-screen').toggleClass('is-visible');
-		$('.sliding-menu-button').toggleClass('slide close');
+	$('#js-menu-screen').on('click touchstart', function(e){
+		$('#js-body').toggleClass('no-scroll');
+		$('#js-menu, #js-menu-screen').toggleClass('is-visible');
+		$('#js-menu-trigger').toggleClass('slide close');
 		$('#masthead, #page-wrapper').toggleClass('slide');
 		e.preventDefault();
 	});

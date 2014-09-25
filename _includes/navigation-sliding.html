@@ -1,4 +1,4 @@
-<nav role="navigation" class="js-menu sliding-menu-content">
+<nav role="navigation" id="js-menu" class="sliding-menu-content">
 	<ul class="menu-item">
 		{% for link in site.data.navigation %}<li>
 			{% if link.image %}<a href="{{ link.url }}"><img src="/images/{{ link.image }}" alt="teaser" class="teaser"></a>{% endif %}
@@ -7,8 +7,8 @@
 		</li>{% endfor %}
 	</ul>
 </nav>
-<button type="button" class="js-menu-trigger sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
 	<span class="lines"></span>
 </button>
 
-<div class="js-menu-screen menu-screen"></div>
+<div id="js-menu-screen" class="menu-screen"></div>

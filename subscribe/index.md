@@ -4,12 +4,7 @@ title: "Subscribe"
 date: 2014-06-02T15:33:36-04:00
 modified:
 excerpt: "All of the ways you can subscribe to content found on Made Mistakes."
-image:
-  feature:
-  teaser:
-  thumb:
 share: false
-body-id: subscribe
 ---
 
 All of the ways you can consume content found on Made Mistakes.

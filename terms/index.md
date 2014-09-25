@@ -4,12 +4,7 @@ title: "Terms & Conditions"
 date: 2014-06-22
 modified: 2014-07-02T11:51:54.695000-04:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
-image:
-  feature:
-  teaser:
-  thumb:
 share: false
-body-id: terms
 ---
 
 This is my personal website written and edited by me. Your use of this website, in any and all forms, constitutes an acceptance of these terms and policies. This page is reviewed and revised from time to time.

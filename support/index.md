@@ -4,12 +4,7 @@ title: "How to Support Michael"
 date: 2014-06-19T09:33:51.793000-04:00
 modified: 2014-07-09T16:24:51.175000-04:00
 excerpt: "Found something I created useful or enjoyable? Here's how you can show your gratitude."
-image:
-  feature:
-  teaser:
-  thumb:
 share: false
-body-id: support
 ---
 
 Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel inclined, here's how you can thank me.
