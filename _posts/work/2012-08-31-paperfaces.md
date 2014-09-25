@@ -21,9 +21,11 @@ If you scroll down far enough you can see how my technique evolved from creepy f
 
 <ul class="th-grid-full">
 {% for post in site.categories.paperfaces %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-    <img class="load" src="{{ site.url }}/images/preload.gif" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
-    <noscript><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a></noscript>
+  <li>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+      <img class="load" src="{{ site.url }}/images/preload-150.png" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="">
+      <noscript><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></noscript>
+    </a>
   </li>
 {% endfor %}
 </ul>

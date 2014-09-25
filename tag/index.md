@@ -2,11 +2,7 @@
 layout: article
 title: "Tag Index"
 modified:
-excerpt: "An archive of pages sorted by tag."
-image:
-  feature:
-  teaser:
-  thumb:
+excerpt: "An archive of pages sorted by tag name."
 share: false  
 ---
 

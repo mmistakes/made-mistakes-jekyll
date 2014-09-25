@@ -519,7 +519,11 @@ h6:hover .header-link {
       position: relative;
       display: block;
       z-index: 1;
-      @include transition(transform 0.3s);
+      @include transition(all 0.3s);
+      // avoid duplicate images for lazy loading
+      &.load {
+        display: none;
+      }
     }
     &:before,
     &:after {
