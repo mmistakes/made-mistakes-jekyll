@@ -4,7 +4,7 @@ layout: default
 
 <div id="main" role="main">         
   <article class="wrap" itemscope itemtype="http://schema.org/Article">
-    <div class="{% if page.image.feature %}page-feature-header{% else %}page-header{% endif %}">
+    <div class="{% if page.image.feature %}page-feature-header overlay{% else %}page-header{% endif %}">
       {% if page.image.feature %}
       <div class="page-image">
         <img src="/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
@@ -23,7 +23,7 @@ layout: default
         <footer class="page-footer">
           {% if page.categories %}{% include page-author.html %}{% endif %}
           {% include page-meta-footer.html %}
-          {% include related-post.html %}
+          {% if page.path contains '_posts' %}{% include related-post.html %}{% endif %}
         </footer><!-- /.footer -->
       </div><!-- /.content -->
     </div><!-- /.inner-wrap -->
