@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "A Short Guide to Drawing with Paper by 53"
-excerpt: "Learn how to I use Paper by 53 to draw faceless portraits and landscapes on an iPad."
+excerpt: "Learn how I use Paper by 53 to draw faceless portraits and landscapes on an iPad."
 modified: 2014-06-03T14:25:14.449000-04:00
 image: 
   feature: madewithpaper-guide-feature.jpg
