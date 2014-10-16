@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Landscape of the Apocalypse"
+title: "White Room with Gray"
 excerpt: "PaperFaces portrait commission of Michel T. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-michel-t-lg.jpg
