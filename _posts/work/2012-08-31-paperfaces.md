@@ -14,10 +14,8 @@ tags: [PaperFaces, Paper by 53, portrait, illustration, 365 project]
 PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! Each day I'd draw the face of a stranger using an iPad, a stylus, and the fabulous sketching app *Paper by 53*.
 {:.shorten}
 
-If you scroll down far enough you can see how my technique evolved from creepy faceless faces to something more realistic and true to life. Custom drawn portraits can be ordered by hitting the button below.
+If you scroll down far enough you can see how my technique evolved from creepy faceless faces to something more realistic and true to life.
 {:.shorten}
-
-<a href="{{ site.url }}/portraits/" class="btn">Commission a PaperFaces Portrait</a>
 
 <ul class="th-grid-full">
 {% for post in site.categories.paperfaces %}

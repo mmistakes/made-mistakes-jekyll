@@ -34,9 +34,7 @@ The last batch of PaperFaces drawings along with in process sketches for each. T
 
 ### Will You Draw Me?
 
-Unfortunately I am no longer taking volunteers for the project. If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.
-
-<div markdown="0"><a href="{{ site.url }}/portraits/" class="btn" style="margin-bottom:0;">Order a Custom PaperFaces Portrait</a></div>
+Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a vacation from drawing portraits. Sorry =(
 
 ### What is PaperFaces?
 
