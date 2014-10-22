@@ -4,7 +4,7 @@ title: "Pencil. The Best Stylus Built for Paper by 53?"
 excerpt: "Impressions of FiftyThree's new Pencil stylus from the perspective of an avid Paper creator."
 category: mastering-paper
 tags: [Pencil, Paper by 53, stylus, iPad, Blend]
-modified: 2014-01-17
+modified: 2014-10-22T12:27:52-04:00
 image:
   feature: pencil-53-feature.jpg
   teaser: pencil-53-teaser.jpg
@@ -87,7 +87,9 @@ I'm curious to learn about the experiences of others using Pencil and Blend. As 
 
 ## What About the Eraser?
 
-I'm not one for erasing and instead rely heavily on Rewind. But for those of you who do employ the eraser tool often, you're going to love Pencil. Instead of stopping to open the tool tray, selecting the eraser, erasing your mistake, and going back to a drawing tool --- you now can flip Pencil on its head and erase instantly. It's not any more precise than the tool Paper shipped with, but it is way more convenient.
+I'm not one for erasing and instead rely heavily on Rewind. But for those of you who do employ the eraser tool often, you're going to love Pencil. Instead of stopping to open the tool tray, selecting the eraser, erasing your mistake, and going back to a drawing tool --- you now can flip Pencil on its head and erase instantly. It's not any more precise[^eraser-precision] than the tool Paper shipped with, but it is way more convenient.
+
+[^eraser-precision]: Since writing this review FiftyThree has shipped numerous software and firmware updates to both Paper and Pencil. With the addition of [**Surface Pressure**](http://news.fiftythree.com/post/97908515383/hello-surface-pressure-following-the-release-of), you now have greater control over the eraser on the top of Pencil.
 
 <figure class="half">
     <img src="{{ site.url }}/images/pencil-53-eraser-short.jpg" alt="Pencil erasing with short edge">
