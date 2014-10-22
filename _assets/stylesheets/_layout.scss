@@ -460,6 +460,16 @@
     }
   }
 }
+// table of contents 1/4 width
+.toc-left {
+  @include span-columns(12);
+  @include media($medium) {
+    @include span-columns(4);
+  }
+  ul {
+    margin-top: 0;
+  }
+}
 // headline anchor links
 .header-link { 
   position: relative; 
@@ -480,6 +490,16 @@ h6:hover .header-link {
   opacity: 1; 
 }
 // tiles
+// tiles container
+.tiles {
+
+}
+// tiles container 3/4 width
+.tiles-right {
+  @include media($medium) {
+    @include span-columns(8);
+  }
+}
 .tile {
   @include outer-container;
   margin-bottom: $gutter;
