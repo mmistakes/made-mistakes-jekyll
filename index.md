@@ -13,7 +13,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 
 ---
 
-### [Paper by 53 Tips & Tricks]({{ site.url }}/mastering-paper/)
+### [Paper for iPad Tips & Tricks]({{ site.url }}/mastering-paper/)
 
 <div class="tiles">
 {% for post in site.categories.mastering-paper limit:4 %}
