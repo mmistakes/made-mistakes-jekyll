@@ -12,7 +12,7 @@ tags: [Paper by 53, Pencil, Blend, stylus, iPad]
 comments: true
 ---
 
-In case you missed the announcement yesterday, FiftyThree took the wraps off their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding beta versions of this amazing tool to play with and test out. As soon as I purchase my own Pencil I'll follow up with a [full review]({{ site.url }}{% post_url /articles/2013-12-11-pencil-53-review %}), but for now here's a small [sample of drawings]({{ site.url }}/tag/blend/) I've created using the new Blend feature.
+In case you missed the announcement yesterday, FiftyThree took the wraps off their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding beta versions of this amazing tool to play with and test out. As soon as I purchase my own Pencil I'll follow up with a [full review]({{ site.url }}{% post_url /mastering-paper/2013-12-11-pencil-53-review %}), but for now here's a small [sample of drawings]({{ site.url }}/tag/blend/) I've created using the new Blend feature.
 
 ## But Does it Blend?
 
