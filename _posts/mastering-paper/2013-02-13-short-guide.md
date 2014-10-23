@@ -12,7 +12,7 @@ tags: [Paper by 53, tutorial, drawing, iPad]
 comments: true
 ---
 
-How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute… I don't have an answer for that last one, but I think I can help with the first two. <span class="badge info">New</span> [drawing guide](/mastering-paper/)
+How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two. <span class="badge info">New</span> [drawing guide](/mastering-paper/)
 
 {% include toc.html %}
 
@@ -50,13 +50,13 @@ Usually I pencil in quick gestural outlines as a guide for painting forms later.
 
 ## Watercolor without Water
 
-If you ask me, this tool is what sets Paper by 53 apart from all the other iPad drawing apps like *Procreate* and *Sketchbook Pro*. I use the watercolor brush in two ways… well maybe three.
+If you ask me, this tool is what sets Paper by 53 apart from all the other iPad drawing apps like *Procreate* and *Sketchbook Pro*. I use the watercolor brush in two ways... well maybe three.
 
 When crisp edges aren't a concern, I'll block in color quickly with the watercolor brush. I achieve continuous tones by painting slowly and never removing the stylus (or my finger) from the screen. If I want to create a smooth gradation in color I move the brush progressively faster to fade it out.
 
 ### Highlights and Shadows
 
-Brightening existing areas is easily achieved with the watercolor brush. Mix enough white into a color and the brush can be used to lighten. This technique is perfect for adding highlights or correcting mistakes when an eraser's edges might be too harsh. When working with white my general rule of thumb is to move fast. If you stick around in one location too long it'll lighten too fast. The same is true when using full black…
+Brightening existing areas is easily achieved with the watercolor brush. Mix enough white into a color and the brush can be used to lighten. This technique is perfect for adding highlights or correcting mistakes when an eraser's edges might be too harsh. When working with white my general rule of thumb is to move fast. If you stick around in one location too long it'll lighten too fast. The same is true when using full black...
 
 To shade existing areas apply a darker hue, gray, or black. For backgrounds I tend to use a light blue-gray to paint in shadows. I prefer to start light and layer on multiple strokes to add depth and contrast gradually. When working on a subjects' face, I'll use a dull brown to add dimension and shape. Applying a coat of gray or brown works wonders on hair as well.
 
@@ -78,7 +78,7 @@ Two things to keep in mind when working with the marker tool:
 
 I saved the best for last. When I first started using Paper by 53, I was enamored with the thick and thins of the fountain pen and how true to life the watercolor brush handled. But then I rediscovered an old friend, in a digital world --- Mr. Pencil.
 
-Need to lightly sketch out a face… pull out the pencil. Need to smoothen out some edges… pull out the pencil. Need to add shadows and highlights… pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
+Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
 <i class="fa fa-info-circle"></i> Read in detail [how I draw hair with Paper by 53]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}).
 {: .notice .warning}

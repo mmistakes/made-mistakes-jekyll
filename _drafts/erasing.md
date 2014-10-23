@@ -31,7 +31,7 @@ Completely opaque. One stroke erases down to the egg shell white colored backgro
 
 All of the tools in Paper react to the speed at which you use them, and the eraser is no different. When dragging your finger or stylus across the iPad slowly, the eraser will be at its thinnest width. As you increase the speed at which you move across the screen the wider the eraser becomes.
 
-### How *Surface Pressure*[^pencil-only] Affects Erasing
+### How *Surface Pressure* Affects Erasing
 
 In my review of Pencil I dinged the dedicated eraser as a missed opportunity by not adding any new capabilities to the tool. Well when FiftyThree updated Paper to include the new **Surface Pressure**[^pencil-only] feature, Pencil's eraser got a serious upgrade.
 
@@ -85,7 +85,7 @@ If you're like me and lust after a tool in Paper that functions like a tradition
 
 ### Partially Erase a Line
 
-Instead of completely erasing a stroke you can partially remove it. By leaving fragments of the original, you retain the spirit of it's texture and form. There will still be some "crispness" at the erased edges, but they won't be as harsh.
+Instead of completely erasing a stroke you can partially remove it. By leaving fragments of the original, you retain the spirit of its texture and form. There will still be some "crispness" at the erased edges, but they won't be as harsh.
 
 The easiest way to pull this off is by dabbing your finger or stylus repeatedly while using the eraser. This will lift bits and pieces of the original drawing away with each dab.
 
@@ -93,14 +93,27 @@ The easiest way to pull this off is by dabbing your finger or stylus repeatedly 
 
 This is especially effective during the sketching phase of creation. By leaving part of the drawing on the canvas it allows you to use it as a guide as you continually refine the drawing.
 
-### Blend[^pencil-only] to Erase
-
-Can be used to emulate a gum eraser. Softens lines and leaves a ghost image. More natural to flip between sketching, then blending to erase, back to sketching. Has a nice aesthetic I quite like.
-
 ### Use White to Erase
 
-Can be used to emulate a gum eraser. Softens lines and leaves a ghost image.
+My preferred method of "erasing" is to use the watercolor brush loaded with white. With any other color, the brush works as a multiplier building up each layer like panes of colored glass. But when you mix a pure white or a white with a hint of color, it becomes more opaque.
 
-Not perfect by any means. White is always an option depending on what you are trying to erase. Can create more work for yourself by using white to erase and then having to color match the edges for cleanup.
+By taking advantage of this property, white can be used to emulate a gum eraser. By dabbing the brush on the canvas, previously painted colors will begin to soften produce a ghost image. The longer you linger the whiter they will become.
+
+![video demonstrating erasing with white]()
+
+I've found that using the fat side of Pencil's tip to swipe in white allows for greater control and smoother transitions. It takes some practice and is definitely a more advanced technique.
+
+<i class="fa fa-info-circle"></i> **Sidenote:** This method does have its drawbacks. Using white to "erase" can create more work for yourself if you have a detailed background. The white might bleed into it forcing you to do a lot of color matching and edge cleanup. For this reason I tend to work on areas that need lightening first and cover up any messy edges later.
+{: .notice}
+
+### Blend to Erase
+
+Another effective way of softening a sketch you're in the process of reworking, is to soften it with Blend[^pencil-only]. The slower you glide your finger across the screen the more intense the blur. When done correctly lines can be partially blended away leaving small traces you can draw over --- using them as guides.
+
+![screenshot showing blended sketch]()
+
+There's also the option of using the eraser as you normally would followed with carefully placed Blends. You'll want to be quick with your smudge strokes to avoid pushing pixels too far and ruining any built up textures. But with some practice you can cover-up any ill effects from the eraser.
+
+Once you get into a rhythm of sketching with Pencil, Blending with your finger, back to sketching, it can begin to feel quite natural.
 
 [^pencil-only]: Surface Pressure and Blend features require a Pencil stylus paired to Paper to enable.
