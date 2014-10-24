@@ -463,7 +463,7 @@
 // table of contents 1/4 width
 .toc-left {
   @include span-columns(12);
-  @include media($medium) {
+  @include media($large) {
     @include span-columns(4);
   }
   ul {
@@ -496,7 +496,7 @@ h6:hover .header-link {
 }
 // tiles container 3/4 width
 .tiles-right {
-  @include media($medium) {
+  @include media($large) {
     @include span-columns(8);
   }
 }
