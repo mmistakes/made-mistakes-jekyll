@@ -12,7 +12,7 @@ image:
 comments: true
 ---
 
-For the last month I've had the privilege of using FiftyThree's [first hardware product](http://fiftythree.com/pencil), **Pencil**. A Bluetooth stylus that works exclusively with Paper for iPad, and delivers an experience unlike other styli on the market.
+For the last month I've had the privilege of using FiftyThree's [first hardware product]({{ site.url }}{% post_url /mastering-paper/2013-12-11-pencil-53-review %}), **Pencil**. A Bluetooth stylus that works exclusively with Paper for iPad, and delivers an experience unlike other styli on the market.
 
 {% include toc.html %}
 
@@ -109,7 +109,7 @@ In my tests I had no issues drawing with my hands resting on the iPad's screen. 
 
 To sum it up. If you're a casual doodler looking for a stylus that mimics a traditional drawing utensil and have need of palm rejection, then Pencil is your number 1 choice. On the other hand if you're a pro-user who relies on a stylus with a pressure sensitive tip you're going to be left wanting more from Pencil.
 
-And if you're new to Paper and haven't purchased any of the tools from the free app, connecting Pencil [enables all of them](http://support.fiftythree.com/customer/portal/articles/1358809-using-pencil#enabling-tools) for 30 days. As long as you continue to use Pencil with Paper you'll never have to purchase the extra tools, which helps take some of the sting off of Pencil's price.
+And if you're new to Paper and haven't purchased any of the tools from the free app, connecting Pencil [enables all of them](http://support.fiftythree.com/customer/portal/articles/1358809-using-pencil#enabling-tools) for 30 days. As long as you continue to use [Pencil](http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2) with Paper you'll never have to purchase the extra tools, which helps take some of the sting off of Pencil's price.
 
 There's a lot of opportunity for the built-in eraser and Blend feature, and I'm interested to see where FiftyThree takes them. I would love for an eraser that enabled control over what type of stroke you erased. This would be extremely useful for cleaning up a pencil sketch that might be exposed after inking or painting over. Or what if Blend smudged strokes based more on their real world properties --- ink would blur less than pencil for example.
 

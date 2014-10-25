@@ -3,7 +3,7 @@ layout: article
 title: "Mastering Paper by 53: The Grid Method"
 modified:
 categories: mastering-paper
-excerpt: Learn how to use the Grid Method with Paper by 53 to create accurate line drawings and elevate your work to the next level.
+excerpt: "Learn how to use the Grid Method with Paper by 53 to create accurate line drawings and elevate your work to the next level."
 tags: [Paper by 53, tutorial, drawing, painting, grid, iPad]
 image:
   feature: paper-53-grid-feature.jpg
