@@ -64,6 +64,14 @@
     background-color: lighten($danger-color, 20);
   }
 }
+.btn-disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: .65;
+}
 .btn-social {
   $social: 
   (facebook, $facebook-color),
