@@ -42,6 +42,8 @@ I'm pretty quick at getting to orders and average a 24--48 hour turn around to c
 
 Black and white or color? One face or multiple? <span class="badge info">Starting at $25.00 USD</span>
 
+**At the moment I'm not taking on any new portrait commissions.** After drawing close to 900 faces I need a vacation and time to regroup. Sorry :-(
+
 <fieldset>
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -58,7 +60,7 @@ Black and white or color? One face or multiple? <span class="badge info">Startin
         <label style="margin:10px 0;">Portrait Reference URL</label>
         <input type="text" name="os1" maxlength="200">
         <input type="hidden" name="currency_code" value="USD">
-        <input type="submit" value="Order Now" class="btn btn-success" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="ga('send', 'event', 'button', 'click', 'PaperFaces Order');">
+        <input type="submit" value="Order Now" class="btn btn-disabled" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="ga('send', 'event', 'button', 'click', 'PaperFaces Order');">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 </fieldset>
