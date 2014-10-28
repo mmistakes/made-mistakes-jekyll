@@ -458,3 +458,5 @@ redirect 301 /articles/contour-drawing http://mademistakes.com/mastering-paper/c
 redirect 301 /articles/remix-me http://mademistakes.com/mastering-paper/mix
 redirect 301 /articles/pencil-53-review http://mademistakes.com/mastering-paper/pencil-53-review
 redirect 301 /drawing-textures http://mademistakes.com/mastering-paper/drawing-textures
+redirect 301 /blog/those-city-folk-in-animal-crossing-still-love-the-gossip http://mademistakes.com/articles/animal-crossing-city-folk-impressions
+redirect 301 /code-highlighting-post/ http://mademistakes.com/work/jekyll-themes
