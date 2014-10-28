@@ -1,0 +1,125 @@
+// POST TILES
+// --------------------------------------------------
+
+// tiles container full width
+.tiles {
+
+}
+
+// individual tile
+.tile {
+  @include outer-container;
+  margin-bottom: $gutter;
+  @include media($micro-only) {
+    @include fill-parent;
+  }
+  @include media(new-breakpoint(min-width em(480) max-width em(768) 12)) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+  @include media(new-breakpoint(min-width em(769) 12)) {
+    @include span-columns(3);
+    @include omega(4n);
+  }
+  .entry-date {
+    margin-top: 0;
+    font-family: $alt-font;
+    @include font-size(12,no);
+    text-transform: uppercase;
+    color: lighten($caption-color,10);
+  }
+  .post-title {
+    @include font-size(18,no);
+  }
+  .post-excerpt {
+    @include font-size(16);
+    margin-top: 0;
+  }
+  .post-teaser {
+    position: relative;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    @include perspective(1000px);
+    @include backface-visibility(hidden); //fix flicker on hover
+    img {
+      position: relative;
+      display: block;
+      z-index: 1;
+      @include transition(all 0.3s);
+      // avoid duplicate images for lazy loading
+      &.load {
+        display: none;
+      }
+    }
+    &:before,
+    &:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100.5%;
+    }
+    &:before {
+      z-index: 2;
+      @include transition(all 0.3s);
+    }
+    &:after {
+      border: 10px solid $white;
+      opacity: 0;
+      z-index: 3;
+      @include transition(all 0.3s);
+    }
+    &:hover {
+      &:before {
+        background: rgba($primary-color,0.5);
+      }
+      &:after {
+        opacity: 0.4;
+      }
+    }
+  }
+}
+
+// tiles container 3/4 width
+.tiles-right {
+  @include media($medium) {
+    .post-title {
+      @include font-size(16,no);
+    }
+    .post-excerpt {
+      @include font-size(14);
+      margin-top: 0;
+    }
+  }
+  @include media($large) {
+    @include span-columns(8);
+  }
+}
+
+// related tiles
+.related {
+  @include media(new-breakpoint(min-width em(769) 12)) {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+  .post-title {
+    @include font-size(16,no);
+  }
+  .post-excerpt {
+    @include font-size(14);
+    margin-top: 0;
+  }
+}
+#read-next {
+  display: none;
+  @include media(new-breakpoint(min-width em(769) 12)) {
+    display: block;
+  }
+  .entry-date {
+    display: none;
+  }
+}
