@@ -3,7 +3,7 @@ layout: media
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
-modified: 2014-09-02T16:25:02-04:00
+modified: 2014-10-30T10:59:15-04:00
 image: 
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
@@ -92,6 +92,7 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 
 * Modern, subtle design
 * Animated main menu
+* Built in support for Sass and data files (requires Jekyll 2.x)
 
 <div markdown="0">
 	<a href="http://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a>
