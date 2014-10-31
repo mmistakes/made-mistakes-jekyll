@@ -34,7 +34,7 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 * Optional table of contents, share links, Disqus comments modules, and more
 
 <div markdown="0">
-	<a href="http://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo the Theme</a>
+	<a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo the Theme</a>
 	<a href="{{ site.url }}{% post_url /articles/2014-09-02-skinny-bones-jekyll %}" class="btn">Learn More</a>
 </div>
 
@@ -55,7 +55,7 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 * Automatic table of contents on single posts [via Kramdown](http://kramdown.gettalong.org/converter/html.html#toc)
 
 <div markdown="0">
-	<a href="http://mmistakes.github.io/minimal-mistakes" class="btn">Demo the Theme</a>
+	<a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo the Theme</a>
 	<a href="{{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %}" class="btn">Learn More</a>
 </div>
 
@@ -75,7 +75,7 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 * Built in support for Sass and data files (requires Jekyll 2.x)
 
 <div markdown="0">
-	<a href="http://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a>
+	<a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a>
 	<a href="{{ site.url }}{% post_url /articles/2013-06-26-so-simple-jekyll-theme %}" class="btn">Learn More</a>
 </div>
 
@@ -95,7 +95,7 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 * Built in support for Sass and data files (requires Jekyll 2.x)
 
 <div markdown="0">
-	<a href="http://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a>
+	<a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a>
 	<a href="{{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}" class="btn">Learn More</a>
 </div>
 

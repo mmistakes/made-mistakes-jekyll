@@ -24,15 +24,15 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Support for large images to call out your favorite posts.
 * Optional [Disqus](http://disqus.com) comments.
 * Support for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards).
-* Simple [custom 404 page]({{ site.url }}/404/) to get you started.
+* Simple custom 404 page to get you started.
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
 
 <figure class="large">
-	<a href="http://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
+	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
 </figure>
 
-<div markdown="0"><a href="http://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a></div>
+<div markdown="0"><a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a></div>
 
 ## What's Different with this Jekyll Theme?
 

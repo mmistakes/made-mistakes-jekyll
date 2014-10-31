@@ -4,7 +4,7 @@ title: "So Simple, a Jekyll Theme"
 headline: "So Simple Theme"
 subheadline: "Built for Jekyll"
 excerpt: "A simple and responsive Jekyll theme for words and photos by designer Michael Rose."
-modified: 2014-08-06T08:20:04.313000-04:00
+modified: 2014-10-31T09:16:00-04:00
 image: 
   feature: so-simple-theme-feature.jpg
   teaser: so-simple-theme-teaser.jpg
@@ -14,7 +14,7 @@ tags: [Jekyll, web development, open source, GitHub]
 comments: true
 ---
 
-After having so much fun creating and releasing [my first open source Jekyll theme](http://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple Theme**](http://mmistakes.github.io/so-simple-theme), a responsive Jekyll theme for words and photos. 
+After having so much fun creating and releasing [my first open source Jekyll theme](https://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple Theme**](https://mmistakes.github.io/so-simple-theme), a responsive Jekyll theme for words and photos. 
 
 {% include toc.html %}
 
@@ -31,16 +31,16 @@ After having so much fun creating and releasing [my first open source Jekyll the
 * Grunt tasks for easier site development.
 
 <figure class="large">
-	<a href="http://mmistakes.github.io/so-simple-theme/" title="Preview So Simple Theme"><img src="{{ site.url }}/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
+	<a href="https://mmistakes.github.io/so-simple-theme/" title="Preview So Simple Theme"><img src="{{ site.url }}/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
 </figure>
 
 ## Getting Started
 
 1. [Install Jekyll](http://jekyllrb.com) if you haven't already.
 2. Fork the [So Simple Theme repo](http://github.com/mmistakes/so-simple-theme/)
-3. Make it your own and [customize, customize, customize](http://mmistakes.github.io/so-simple-theme/theme-setup/).
+3. Make it your own and [customize, customize, customize](https://mmistakes.github.io/so-simple-theme/theme-setup/).
 
-<div markdown="0"><a href="http://mmistakes.github.io/so-simple-theme/" class="btn">Demo the Theme</a></div>
+<div markdown="0"><a href="https://mmistakes.github.io/so-simple-theme/" class="btn">Demo the Theme</a></div>
 
 ---
 
