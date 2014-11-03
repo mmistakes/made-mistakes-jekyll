@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Long hair in grayscale"
+title: "Long Hair Faceless in Grayscale"
 excerpt: "PaperFaces portrait of @carriehammer drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-carriehammer-twitter-lg.jpg

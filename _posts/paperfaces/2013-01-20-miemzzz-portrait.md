@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Drawn in black and white"
+title: "MiemZzz Drawn in Black and White"
 excerpt: "PaperFaces portrait of @MiemZzz drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-miemzzz-twitter-lg.jpg

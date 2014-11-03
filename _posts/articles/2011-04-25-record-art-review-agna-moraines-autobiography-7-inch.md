@@ -44,7 +44,7 @@ Images, sounds, and lyrics are all over the place on this record. But that's ok.
 </figure>
 
 <figure>
-    <a href="{{ site.url }}/images/agna-moraines-autobiography-detail-fabric-art.jpg" title="Illustrations and drawings on fabric"><img src="{{ site.url }}/images/agna-moraines-autobiography-detail-fabric-art-300.jpg" alt="Agna Moraine's Autobiography illustration on fabric detail" /></a>
+    <a href="{{ site.url }}/images/agna-moraines-autobiography-detail-fabric-art-620x449.jpg" title="Illustrations and drawings on fabric"><img src="{{ site.url }}/images/agna-moraines-autobiography-detail-fabric-art-300.jpg" alt="Agna Moraine's Autobiography illustration on fabric detail" /></a>
     <figcaption>Illustrations and drawings on fabric</figcaption>
 </figure>
 
