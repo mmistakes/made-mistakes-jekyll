@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "What’s This About?"
+title: "About Michael Rose"
 date: 2014-06-01
-modified: 2014-09-09T11:26:44-04:00
-excerpt: "Just another boring, tattooed, time traveling designer from Buffalo."
+modified: 2014-11-06T08:22:22-05:00
+excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo."
 image:
   feature: about-feature.jpg
   teaser: about-teaser.jpg

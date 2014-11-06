@@ -4,7 +4,7 @@ title: "Pencil by 53 Review. The Best Stylus for Paper?"
 excerpt: "Impressions of FiftyThree's new Pencil stylus from the perspective of an avid Paper creator."
 category: mastering-paper
 tags: [Pencil, Paper by 53, stylus, iPad, Blend]
-modified: 2014-10-22T12:27:52-04:00
+modified: 2014-11-06T09:10:12-05:00
 image:
   feature: pencil-53-feature.jpg
   teaser: pencil-53-teaser.jpg
@@ -66,6 +66,9 @@ The tip is responsive and as accurate as one can expect from the limitations the
 It's by no means the best tip I've used in terms of durability. My first tip wore out after 3--4 hours of drawing, applying the same amount of pressure I use with a Pogo Connect. A pen's tip that I can use for a solid 3 months, *everyday*, before it starts to show signs of wear.
 
 I've since modified how hard I press and am happy to report that the replacement tip Pencil ships with is still going strong after ~15 hours. Drawing with the broad side appears to prolong life, reducing the amount of friction between the 14k gold plated tip underneath the rubber covering. Worth noting that even after wearing through the rubber, it was still completely usable, albeit with some black streaking[^streaking] across the screen.
+
+<i class="fa fa-info-circle"></i> **Replacement Tips**: FiftyThree now offers replacement tips and erasers [in their shop](http://shop.fiftythree.com/). For $7.95 USD (+ shipping) you get two tips and an eraser for Pencil.
+{: .notice}
 
 [^streaking]: Black rubber streaking from the tip taring was easily cleaned off the iPad's screen by wiping with a cloth.
 
