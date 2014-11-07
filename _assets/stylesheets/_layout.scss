@@ -417,7 +417,8 @@
   }
 }
 // page meta and breadcrumbs
-.page-meta { 
+.page-meta,
+.breadcrumbs { 
   @include clearfix;
   margin-top: $gutter;
   font-family: $alt-font;
@@ -428,6 +429,8 @@
     display: inline-block;
     text-decoration: none;
   }
+}
+.page-meta {
   span {
     display: block;
   }
