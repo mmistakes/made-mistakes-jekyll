@@ -430,6 +430,9 @@
     text-decoration: none;
   }
 }
+.breadcrumbs {
+  @extend .hidden;
+}
 .page-meta {
   span {
     display: block;
