@@ -4,6 +4,7 @@ title: "Rosebud twins on Christmas"
 excerpt: "PaperFaces portrait of Everly and Chloe drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rosebuds-christmas-lg.jpg
+  teaser: paperfaces-rosebuds-christmas-teaser.jpg
   thumb: paperfaces-rosebuds-christmas-150.jpg
 category: paperfaces
 tags: [portrait, illustration, Paper by 53, Blend, Christmas, twins]

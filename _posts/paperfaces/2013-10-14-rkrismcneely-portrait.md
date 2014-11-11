@@ -4,6 +4,7 @@ title: "Drawing geometry"
 excerpt: "PaperFaces portrait of @rkrismcneely drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rkrismcneely-twitter-lg.jpg
+  teaser: paperfaces-rkrismcneely-twitter-teaser.jpg
   thumb: paperfaces-rkrismcneely-twitter-150.jpg
 category: paperfaces
 tags: [portrait, illustration, Paper by 53, 8bit]
