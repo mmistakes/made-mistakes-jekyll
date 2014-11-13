@@ -575,7 +575,7 @@ h6:hover .header-link {
   padding-left: 100px; //avatar width + 20px padding
   min-height: 80px; //mirrors avatar height
 }
-.author-name {
+h3.author-name {
   @include font-size(20,no);
 }
 .author-bio {
