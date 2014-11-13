@@ -1,11 +1,42 @@
 <footer role="contentinfo" id="site-footer">
-	<nav role="navigation" class="menu bottom-menu">
-		<ul class="menu-item">
+	<nav role="navigation" class="menu">
+		<ul class="footer-links">
 		{% for link in site.data.footer %}
 			<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 		{% endfor %}
 		</ul>
-	</nav><!-- /.bottom-menu -->
-  <a href="https://twitter.com/mmistakes" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @mmistakes</a>
+		<ul class="social-links">
+			<li><a href="https://twitter.com/{{ site.owner.twitter }}">
+				<span class="twitter fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x"></i>
+				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+			<li><a href="https://www.facebook.com/{{ site.owner.facebook }}">
+				<span class="facebook fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x"></i>
+				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+			<li><a href="{{ site.owner.google.plus }}">
+				<span class="google-plus fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x"></i>
+				  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+			<li><a href="http://instagram.com/{{ site.owner.instagram }}">
+				<span class="instagram fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x"></i>
+				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+			<li><a href="http://{{ site.owner.tumblr }}.tumblr.com">
+				<span class="tumblr fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x"></i>
+				  <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+				</span>
+			</a></li>
+		</ul>
+	</nav><!-- /.menu -->
 	<p class="copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="/humans.txt">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes" title="Made Mistakes source on GitHub">View Source</a></p>
 </footer>

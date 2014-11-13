@@ -55,20 +55,47 @@
 
 .menu {
   li {
-    float: left;
+    display: inline-block;
     &:last-child a {
-      @include media($medium) {
-        margin-right: 0; // remove spacing from last menu link
-      }
+      margin-right: 0; // remove spacing from last menu link
     }
+    a:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.top-menu {
+  display: none;
+  position: relative;
+  // @include media($medium) {
+  //   @include span-columns(12);
+  // }
+  @include media($large) {
+    @include span-columns(7);
+    ul {
+      position: absolute;
+      right: 0;
+    }
+  }
+  .home,
+  .sub-menu-item {
+    display: none;
+  }
+  li {
     a {
+      height: $masthead-height;
+      margin-right: $gutter;
+      padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
+      font-family: $alt-font;
+      font-weight: 700;
+      @include font-size(16,no);
+      line-height: .5 * $masthead-height; // half the height to center vertically
+      color: $primary-color;
+      text-transform: uppercase;
       // line hover effect
       position: relative;
       display: block;
-      margin-right: $gutter;
-      padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
-      height: $masthead-height;
-      font-family: $alt-font;
       &:before,
       &:after {
         content: '';
@@ -94,39 +121,28 @@
     }
   }
 }
-
-.top-menu {
-  display: none;
-  position: relative;
-  // @include media($medium) {
-  //   @include span-columns(12);
-  // }
+.footer-links {
   @include media($large) {
-    @include span-columns(7);
-    ul {
-      position: absolute;
-      right: 0;
-    }
-  }
-  .home,
-  .sub-menu-item {
-    display: none;
+    float: left;
   }
   li {
     a {
-      font-weight: 700;
-      @include font-size(16,no);
-      line-height: .5 * $masthead-height; // half the height to center vertically
-      color: $primary-color;
-      text-transform: uppercase;
+      margin-right: $gutter;
+      padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
+      color: $caption-color;
     }
   }
 }
-.bottom-menu {
-  @include clearfix;
-  font-weight: 700;
-  a {
-    color: $caption-color;
+.social-links {
+  clear: left;
+  @include media($large) {
+    float: right;
+    clear: none;
+  }
+  li {
+    a {
+
+    }
   }
 }
 
@@ -645,18 +661,44 @@ h6:hover .header-link {
   margin-top: (2 * (0px + $doc-line-height));
   margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
   padding: $gutter;
+  text-align: center;
   @include media($medium) {
     padding-left: 2 * $gutter;
     padding-right: 2 * $gutter;
   }
+  @include media($large) {
+    text-align: left;
+  }
   font-family: $alt-font;
   .copyright {
+    clear: both;
     @include font-size(12);
     color: lighten($caption-color, 10);
     a {
       color: lighten($caption-color, 10);
       text-decoration: none;
     }
+  }
+  $social: 
+  (facebook, $facebook-color),
+  (flickr, $flickr-color),
+  (foursquare, $foursquare-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-color),
+  (linkedin, $linkedin-color),
+  (pinterest, $pinterest-color),
+  (rss, $rss-color),
+  (tumblr, $tumblr-color),
+  (twitter, $twitter-color),
+  (vimeo, $vimeo-color),
+  (youtube, $youtube-color);
+  @each $socialnetwork, $color in $social {
+    .#{$socialnetwork} {
+      color: $color;
+      &:hover {
+        color: darken($color, 20);
+      }
+    }    
   }
 }
 
