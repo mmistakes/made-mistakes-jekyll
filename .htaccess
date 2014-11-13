@@ -264,6 +264,16 @@ AddDefaultCharset utf-8
     Satisfy All
 </FilesMatch>
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Block access from libwww-perl bots
+
+<IfModule mod_rewrite.c>
+    RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+    RewriteRule .* – [F,L]
+</IfModule>
+
+
 # ##############################################################################
 # # WEB PERFORMANCE                                                            #
 # ##############################################################################
