@@ -6,31 +6,31 @@
 		{% endfor %}
 		</ul>
 		<ul class="social-links">
-			<li><a href="https://twitter.com/{{ site.owner.twitter }}">
+			<li><a href="https://twitter.com/{{ site.owner.twitter }}" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');">
 				<span class="twitter fa-stack fa-lg">
 				  <i class="fa fa-circle fa-stack-2x"></i>
 				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 				</span>
 			</a></li>
-			<li><a href="https://www.facebook.com/{{ site.owner.facebook }}">
+			<li><a href="https://www.facebook.com/{{ site.owner.facebook }}" onclick="ga('send', 'event', 'link', 'click', 'Facebook follow');">
 				<span class="facebook fa-stack fa-lg">
 				  <i class="fa fa-circle fa-stack-2x"></i>
 				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 				</span>
 			</a></li>
-			<li><a href="{{ site.owner.google.plus }}">
+			<li><a href="{{ site.owner.google.plus }}" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');">
 				<span class="google-plus fa-stack fa-lg">
 				  <i class="fa fa-circle fa-stack-2x"></i>
 				  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
 				</span>
 			</a></li>
-			<li><a href="http://instagram.com/{{ site.owner.instagram }}">
+			<li><a href="http://instagram.com/{{ site.owner.instagram }}" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');">
 				<span class="instagram fa-stack fa-lg">
 				  <i class="fa fa-circle fa-stack-2x"></i>
 				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
 				</span>
 			</a></li>
-			<li><a href="http://{{ site.owner.tumblr }}.tumblr.com">
+			<li><a href="http://{{ site.owner.tumblr }}.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');">
 				<span class="tumblr fa-stack fa-lg">
 				  <i class="fa fa-circle fa-stack-2x"></i>
 				  <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
