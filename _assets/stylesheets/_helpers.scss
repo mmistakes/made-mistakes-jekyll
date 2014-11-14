@@ -38,7 +38,7 @@
 
 .inline-btn {
   @include clearfix;
-  a, btn {
+  a, .btn {
     display: inline-block;
     margin-right: $gutter / 2;
     &:last-child {
@@ -51,9 +51,8 @@
 .shorten {
   margin-top: 0;
   @include media($large) {
-    @include row($direction: RTL);
+    @include row;
     @include span-columns(9);
-    @include shift(3);
   }
 }
 
@@ -75,7 +74,7 @@
 
 // thumbnail image grid default
 .th-grid {
-  @include row($direction: LTR);
+  @include row;
   @include clearfix;
   margin: 0;
   padding: 0;

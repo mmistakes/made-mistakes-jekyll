@@ -267,7 +267,6 @@
         text-transform: uppercase;
       }
       .page-content {
-        @include reset-all;
         @include fill-parent;
       }
     }
