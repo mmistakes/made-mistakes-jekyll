@@ -57,7 +57,9 @@
   li {
     display: inline-block;
     &:last-child a {
-      margin-right: 0; // remove spacing from last menu link
+      @include media($large) {
+        margin-right: 0; // remove spacing from last menu link
+      }
     }
     a:hover {
       color: $primary-color;
@@ -68,9 +70,6 @@
 .top-menu {
   display: none;
   position: relative;
-  // @include media($medium) {
-  //   @include span-columns(12);
-  // }
   @include media($large) {
     @include span-columns(7);
     ul {
@@ -127,7 +126,12 @@
   }
   li {
     a {
-      margin-right: $gutter;
+      margin-left: ($gutter / 2);
+      margin-right: ($gutter / 2);
+      @include media($large) {
+        margin-left: 0;
+        margin-right: $gutter;
+      }
       padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
       color: $caption-color;
     }
