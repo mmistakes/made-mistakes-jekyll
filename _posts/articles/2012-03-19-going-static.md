@@ -76,7 +76,7 @@ Bare minimum I figured I could use global variables for the site's color palette
 
 Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how to best reuse my code throughout a project. And I didn't even have to worry about using JavaScript or a separate app to convert compiled .css files. I simply installed the [Jekyll-less](http://rubygems.org/gems/jekyll-less) Ruby Gem and any time I run `jekyll` or `jekyll-server`, the .less to .css conversion is handled automatically.
 
-<i class="fa fa-info-circle"></i> **Update**: Since migrating from Less to Sass I now use [Bourbon](bourbon.io) and [Neat](http://neat.bourbon.io/) to manage my mixins and grid. [Susy](http://susy.oddbird.net/) looks like something I'll eventually move to once I have the time to toy with it.
+<i class="fa fa-info-circle"></i> **Update**: Since migrating from Less to Sass I now use [Bourbon](http://bourbon.io) and [Neat](http://neat.bourbon.io/) to manage my mixins and grid. [Susy](http://susy.oddbird.net/) looks like something I'll eventually move to once I have the time to toy with it.
 {: .notice}
 
 ### But What About the Grid System?
