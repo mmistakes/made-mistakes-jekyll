@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Paper Quick Tip: Moving the Loupe"
-modified: 2014-07-30T10:28:11.708000-04:00
+title: "Paper Quick Tip: How to Use Zoom While Painting"
+modified: 2014-11-21T14:48:52-05:00
 categories: mastering-paper
-excerpt: "Learn how to reposition Paper by 53's Zoom loupe mid-stroke to aid in painting large detailed shapes."
+excerpt: "Learn how to reposition Paper by 53's Zoom loupe mid-stroke to help add detail to your drawings."
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
 image:
   feature: paper-53-zoom-loupe-feature.jpg
@@ -12,7 +12,7 @@ image:
 comments: true  
 ---
 
-I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's Zoom loupe along as you drew.
+I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's Zoom loupe simultaneously as you drew.
 
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
 
@@ -34,7 +34,7 @@ An important characteristic of the watercolor brush is its ability to [apply gla
 	<figcaption>Moving the loupe while glazing is necessary to cover larger shapes evenly.</figcaption>
 </figure>
 
-I think you can see where I'm going with this. If you're painting a shape that falls outside of the loupe it becomes necessary to move it around. The problem is, if you begin painting and then try to move the loupe it won't budge. For it to move you need to interrupt your watercolor stroke to reposition it, which will leave you with a uneven glaze if you try to continue painting where you left off.
+I think you can see where I'm going with this. If you're painting a shape that falls outside of the Zoom loupe it becomes necessary to move it around. The problem is, if you begin painting and then try to move the loupe it won't budge. For it to move you need to interrupt your watercolor stroke to reposition it, which will leave you with a uneven glaze if you try to continue painting where you left off.
 
 I'm a heavy user of the watercolor brush so I had to sacrifice zooming in when painting large shapes because of this. Requiring extra time with the pencil to [clean up contours and mistakes]({{ site.url }}{% post_url /mastering-paper/2014-04-21-drawing-faces %}#refining-the-contours).
 
@@ -51,7 +51,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/gpz8aPXwd18" frameborder="0"> </iframe>
-	<figcaption>A video demonstrating how to move the loupe while painting a smooth glaze.</figcaption>
+	<figcaption>A video demonstrating how to use Zoom while painting a smooth glaze.</figcaption>
 </figure>
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.

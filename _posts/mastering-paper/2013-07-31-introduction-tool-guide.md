@@ -48,7 +48,7 @@ When describing these tools I will be using the following descriptors:
 
 ### Eraser {#eraser}
 
-The eraser does what its name implies --- it erases. It is not the most precise tool with such a fat tip, which is why I prefer to rewind mistakes ([more on that later](#rewind)) instead.
+The eraser does what its name implies --- it erases. It is not the most precise tool with such a fat tip, which is why I prefer to undo mistakes with the rewind tool instead ([more on that later](#rewind)).
 
 For handling cleanup duty, the eraser is very effective at defining edges and making them straight. By simply running it along an edge you can remove jaggies left by a pencil or watercolor stroke.
 
@@ -197,7 +197,7 @@ I'm going to let you in on a little secret. The first couple of months I used Pa
 
 I eventually came to my senses and gave it another go by forcing myself to use Rewind exclusively. After a few drawings I mastered it and was time traveling back through my boo boos with ease. It's entirely possible that FiftyThree tweaked Rewind behind the scenes to make it easier to use, but I like to think it was my perseverance that made the difference.
 
-Just stick with it if you're having trouble, I promise it will eventually come naturally. And if it doesn't, you can always purchase a Pogo Connect Smart Pen and map the button to undo. To correct simple one step mistakes the undo button works great, for anything else I prefer the rewind gesture to avoid pressing the button a million times.
+Just stick with it if you're having trouble, I promise it will eventually come naturally. And if it doesn't, you can always purchase a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) and map the button to undo. To correct simple one step mistakes the undo button works great, for anything else I prefer the rewind gesture to avoid pressing the button a million times.
 
 ### Zoom
 
@@ -207,7 +207,7 @@ The single most requested feature by fans and haters of Paper... Zoom. I had dra
 
 There isn't much else to Zoom, I'm merely mentioning it to increase awareness around it. Unlike other drawing and painting apps with zoom, the entire canvas doesn't scale. Instead you control the area you want magnified by you opening a circular <s>portal</s> loupe that can be moved around or dismissed by tapping outside of it.
 
-<i class="fa fa-star"></i> **ProTip:** To move the loupe drag it around at the edge, right on the black frame. It can be picky sometimes, but nowhere near as temperamental or tricky as Rewind.
+<i class="fa fa-star"></i> **ProTip:** To move the loupe drag it around at the edge, right on the black frame. It can be picky sometimes, but nowhere near as temperamental or tricky as Rewind. Learn more about [how to use Zoom]({{ site.url }}{% post_url /mastering-paper/2014-07-03-moving-the-loupe %}) here.
 {: .notice}
 
 ## And We're Out
