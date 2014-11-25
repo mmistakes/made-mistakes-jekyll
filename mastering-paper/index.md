@@ -19,6 +19,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}">Drawing and Painting Basics</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}">Erasing and Correcting Mistakes</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-11-08-moleskine-book %}">Printing a Moleskine Book</a></li>
+    <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-11-25-mix %}">Mastering Mix</a></li>
     <li><h6>Step by Step Paper Tutorials</h6></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-08-31-drawing-trees %}">How to Draw Trees and Grass</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}">How to Draw Skies and Clouds</a></li>
