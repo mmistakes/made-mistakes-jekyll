@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "Paper Creators, Join Me in FiftyThree’s Mix"
-modified:
+title: "Paper Creators, Join Me in the Mix"
+modified: 2014-11-25T16:23:24-05:00
 categories: mastering-paper
-excerpt: "FiftyThree’s Mix makes finding, sharing, and learning from inspiring Paper creators easy and fun."
-tags: [Paper by 53, drawing, painting, iPad]
+excerpt: "53’s Mix makes finding, sharing, and learning from inspiring Paper creators easy and fun."
+tags: [Paper by 53, Mix, drawing, painting, iPad]
 image:
   teaser: paper-53-mix-heart-teaser.jpg
 comments: true
