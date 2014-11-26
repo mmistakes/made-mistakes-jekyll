@@ -10,6 +10,7 @@ image:
   thumb: about-thumb.jpg
 ads: false
 share: false
+sidebar: sidebar-about
 ---
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.

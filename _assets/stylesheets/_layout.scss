@@ -229,23 +229,25 @@
         border-bottom-width: 0;
       }
       // Captions
-      figcaption {
-        padding-left: $gutter;
-        padding-right: $gutter;
-        @include media($medium) {
-          padding-left: 0;
-          padding-right: 0;
-        }
-        font-family: $alt-font;
-        @include font-size(14,yes);
-        color: $caption-color;
-        clear: both;
-        a {
+      @at-root { 
+        figcaption {
+          padding-left: $gutter;
+          padding-right: $gutter;
+          @include media($medium) {
+            padding-left: 0;
+            padding-right: 0;
+          }
+          font-family: $alt-font;
+          @include font-size(14,yes);
           color: $caption-color;
-          text-decoration: none;
-          border-bottom: 1px dotted $caption-color;
-          &:hover {
-            border-bottom-style: solid;
+          clear: both;
+          a {
+            color: $caption-color;
+            text-decoration: none;
+            border-bottom: 1px dotted $caption-color;
+            &:hover {
+              border-bottom-style: solid;
+            }
           }
         }
       }
@@ -288,13 +290,12 @@
   margin-top: $gutter;
   margin-left: -$gutter;
   margin-right: -$gutter;
-  padding: 10px 0 20px;
-  background: lighten($border-color,5);
   @include media($medium) {
-    @include span-columns(4);
     margin-left: 0;
     margin-right: 0;
   }
+  padding: 10px 0 20px;
+  background: lighten($border-color,5);
   &:after {
     content: 'Advertisement';
     position: absolute;
@@ -310,8 +311,38 @@
   }
 }
 // sidebar
-#sidebar {
+.sidebar {
+  @include media($medium) {
+    @include span-columns(4);
+  }
   @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+  figcaption {
+    margin-bottom: 0;
+  }
+  h3 {
+    @include font-size(22,no);
+    margin-top: $gutter;
+    padding-bottom: $gutter / 4;
+    border-bottom: 1px solid $border-color;
+  }
+  ul {
+    list-style: none;
+    margin-top: $gutter / 2;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    @include font-size(14,14,1);
+    font-family: $heading-font;
+    span {
+      font-family: $base-font;
+      @include font-size(12,no,14);
+      font-style: italic;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
 }
 // standard page header
 .page-header {

@@ -28,14 +28,18 @@ layout: default
         </footer><!-- /.footer -->
       </div><!-- /.content -->
     </div><!-- /.inner-wrap -->
-    <div id="sidebar">
+    <div class="sidebar">
+      {% if page.sidebar %}
+        {% capture sidebar %}{{ page.sidebar }}.html{% endcapture %}
+        {% include {{sidebar}} %}
+      {% endif %}
       {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
-    </div><!-- /#sidebar -->
+    </div><!-- /.sidebar -->
   </article><!-- /.wrap -->
   {% if page.comments == true %}
   <div class="wrap">
     <aside>{% include comments.html %}</aside>
-    {% if page.ads != false %}<div class="ads">{% include advertising-comments.html %}</div><!-- /.ads -->{% endif %}
+    {% if page.ads != false %}<div class="sidebar ads">{% include advertising-comments.html %}</div><!-- /.ads -->{% endif %}
   </div><!-- /.wrap -->
   {% endif %}
 </div><!-- /#main -->
