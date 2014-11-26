@@ -56,6 +56,11 @@
   }
 }
 
+// stick on scroll
+.affix {
+  position: fixed;
+  top: 20px;
+}
 
 .center {
   text-align: center;
