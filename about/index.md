@@ -2,7 +2,7 @@
 layout: article
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2014-11-06T08:22:22-05:00
+modified: 2014-11-25
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo."
 image:
   feature: about-feature.jpg
@@ -16,13 +16,17 @@ Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling desig
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email promotions and newsletters, massaging content in and out of a CMS or just getting cozy with HTML, CSS, and JavaScript.
 
-And if that wasn't enough --- I'm a mediocre husband and father of [twin girls](http://2littlerosebuds.com "my 2 little rosebuds").
+And if that wasn't enough --- I'm a father of twin girls and a mediocre husband to my [subscription box addicted wife](http://2littlerosebuds.com).
 
 <figure class="half">
   <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}"><img src="{{ site.url }}/images/paperfaces-everly-autumn-600.jpg" alt="Everly Autumn drawing"></a>
   <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-chloe-winter-portrait %}"><img src="{{ site.url }}/images/paperfaces-chloe-winter-600.jpg" alt="Chloe Winter drawing"></a>
   <figcaption>My 2 little rosebuds drawn with Paper by 53.</figcaption>
 </figure>
+
+---
+
+## About the Site
 
 So what does this all have to do with *made mistakes* and why did you name your website that? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
@@ -34,7 +38,7 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 
 ## Contact Me
 
-Short messages via Twitter are my preferred contact method. For anything longer feel free to use the form below and I'll reply by email when I can.
+Have more questions? If they're Paper by 53 related I've probably answered them on my [Frequently Asked Questions page]({{ site.url }}/faqs/). For everything else, short messages via Twitter are my preferred contact method. For something longer feel free to use the form below to send a message and I'll reply by email when I can.
 
 <a href="https://twitter.com/intent/tweet?screen_name=mmistakes" class="twitter-mention-button" data-size="large" data-related="mmistakes">Tweet to @mmistakes</a>
 
