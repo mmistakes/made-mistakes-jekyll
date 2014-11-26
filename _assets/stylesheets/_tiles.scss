@@ -122,4 +122,13 @@
   .entry-date {
     display: none;
   }
+  @include media($medium) {
+    .post-title {
+      @include font-size(16,no);
+    }
+    .post-excerpt {
+      @include font-size(14);
+      margin-top: 0;
+    }
+  }
 }
