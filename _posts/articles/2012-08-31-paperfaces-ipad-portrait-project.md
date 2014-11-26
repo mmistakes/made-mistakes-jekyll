@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "iPad Portraits with Paper by FiftyThree"
-excerpt: "An experiment in humanizing the web — designer Michael Rose draws a portrait a day using an iPad and Paper by 53."
+excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and the Paper by FiftyThree app."
 modified: 2014-09-03T07:50:19-04:00
 image: 
   feature: paperfaces-project-feature.jpg
@@ -12,7 +12,7 @@ tags: [Paper by 53, iPad, drawing, illustration]
 comments: true
 ---
 
-PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by 53 app](http://www.fiftythree.com/paper) and [ended two years later]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}). 
+PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper) and [ended two years later]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}). 
 
 {% include toc.html %}
 

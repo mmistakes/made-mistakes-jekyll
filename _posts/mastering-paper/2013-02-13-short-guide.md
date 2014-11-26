@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "A Short Guide to Drawing with Paper by 53"
-excerpt: "Learn how I use Paper by 53 to draw faceless portraits and landscapes on an iPad."
+title: "A Short Guide to Drawing with Paper by FiftyThree"
+excerpt: "My simple Paper by FiftyThree techniques for drawing faceless portraits and landscapes on an iPad."
 modified: 2014-06-03T14:25:14.449000-04:00
 image: 
   feature: madewithpaper-guide-feature.jpg
@@ -12,7 +12,7 @@ tags: [Paper by 53, tutorial, drawing, iPad]
 comments: true
 ---
 
-How do you draw or sketch on an iPad with *Paper by 53*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two. <span class="badge info">New</span> [drawing guide](/mastering-paper/)
+How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two. <span class="badge info">New</span> [drawing guide](/mastering-paper/)
 
 {% include toc.html %}
 

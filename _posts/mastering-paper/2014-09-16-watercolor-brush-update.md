@@ -3,7 +3,7 @@ layout: article
 title: "Paper Quick Tip: Watercolor Brush Improvements"
 modified:
 categories: mastering-paper
-excerpt: "Not only did FiftyThree release Mix today, but they also snuck in a few improvements to the watercolor brush tool…"
+excerpt: "Discover the secrets of Paper by FifyThree's newly updated watercolor brush in this short tutorial and video."
 tags: [Paper by 53, tutorial, painting, iPad]
 image:
   feature: paper-53-watercolor-brush-feature.jpg

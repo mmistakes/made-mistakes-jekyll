@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Drawing Faces without Faces with Paper by 53"
-excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper by 53."
+title: "Drawing Faces without Faces with Paper by FiftyThree"
+excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper by FiftyThree."
 modified: 2014-01-14
 image: 
   feature: paper-53-draw-face-feature.jpg

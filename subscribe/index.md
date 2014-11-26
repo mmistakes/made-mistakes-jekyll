@@ -21,7 +21,7 @@ Long form articles only. Anything found under `articles/` is included in this fe
 
 ### Mastering Paper Feed
 
-Mastering Paper by 53 tutorials only. Tips, tricks, and techniques for getting the most out of FiftyThree's iPad app.
+Mastering Paper by FiftyThree tutorials only. Tips, tricks, and techniques for getting the most out of FiftyThree's iPad app.
 <http://feeds.feedburner.com/MadeMistakesMasteringPaper>
 
 ### PaperFaces Feed

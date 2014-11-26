@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Mastering Paper by 53: Drawing Skies and Clouds"
-excerpt: "Learn techniques to draw blue skies, clouds, and pretty sunsets using the iPad app Paper by 53."
+title: "Mastering Paper by FiftyThree: Drawing Skies and Clouds"
+excerpt: "Techniques for drawing blue skies, clouds, and pretty sunsets using the iPad app Paper by FiftyThree."
 modified: 2014-04-10
 image: 
   feature: paper-53-skies-guide-feature.jpg
@@ -12,7 +12,7 @@ tags: [Paper by 53, tutorial, drawing, painting, iPad, sky, clouds]
 comments: true
 ---
 
-Paper by 53 makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here…let me show you how.
+Paper by FiftyThree makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here…let me show you how.
 
 {% include toc.html %}
 

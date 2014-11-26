@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Two Years of Portrait Drawing — PaperFaces Retrospective"
-excerpt: "A look back at two years of drawing over 800 portraits using an iPad and Paper by 53."
+excerpt: "A look back at two years of drawing over 800 portraits using an iPad and Paper by FiftyThree."
 modified: 2014-09-10T15:45:18-04:00
 image: 
   feature: paperfaces-800-portraits-lg.jpg

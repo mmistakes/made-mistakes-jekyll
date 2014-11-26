@@ -13,7 +13,7 @@ share: false
 sidebar: sidebar-about
 ---
 
-Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by 53](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email promotions and newsletters, massaging content in and out of a CMS or just getting cozy with HTML, CSS, and JavaScript.
 
@@ -22,7 +22,7 @@ And if that wasn't enough --- I'm a father of twin girls and a mediocre husband 
 <figure class="half">
   <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}"><img src="{{ site.url }}/images/paperfaces-everly-autumn-600.jpg" alt="Everly Autumn drawing"></a>
   <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-chloe-winter-portrait %}"><img src="{{ site.url }}/images/paperfaces-chloe-winter-600.jpg" alt="Chloe Winter drawing"></a>
-  <figcaption>My 2 little rosebuds drawn with Paper by 53.</figcaption>
+  <figcaption>My 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
 
 ---
@@ -39,7 +39,7 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 
 ## Contact Me
 
-Have more questions? If they're Paper by 53 related I've probably answered them on my [Frequently Asked Questions page]({{ site.url }}/faqs/). For everything else, short messages via Twitter are my preferred contact method. For something longer feel free to use the form below to send a message and I'll reply by email when I can.
+Have more questions? If they're Paper by FiftyThree related I've probably answered them on my [Frequently Asked Questions page]({{ site.url }}/faqs/). For everything else, short messages via Twitter are my preferred contact method. For something longer feel free to use the form below to send a message and I'll reply by email when I can.
 
 <a href="https://twitter.com/intent/tweet?screen_name=mmistakes" class="twitter-mention-button" data-size="large" data-related="mmistakes">Tweet to @mmistakes</a>
 

@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Quick Tip: Contour Line Drawing"
-excerpt: "A drawing exercise to improve hand eye coordination and the power of observation with the iPad app Paper by 53."
+title: "Quick Tip: Contour Line Drawing with Paper by FiftyThree"
+excerpt: "A drawing exercise to improve hand eye coordination and the power of observation using the iPad app Paper by FiftyThree."
 modified: 2014-07-02T15:54:52.683000-04:00
 image: 
   feature: paper-53-contour-drawing-feature.jpg

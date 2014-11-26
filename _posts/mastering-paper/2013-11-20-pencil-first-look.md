@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "First Look at Blend and Pencil by 53"
-excerpt: "53’s Pencil and new Blend feature is full of promise. Here’s a taste of what is possible with both."
+title: "First Look at Blending with Pencil by FiftyThree"
+excerpt: "FiftyThree's Pencil stylus and new Blend feature is full of promise. Here’s a taste of what is possible using them."
 category: mastering-paper
 modified: 2014-01-15
 image:

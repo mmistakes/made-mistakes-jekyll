@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Mastering Paper by 53: Drawing Water and Waves"
-excerpt: "Learn techniques for drawing water and waves using the iPad app Paper by 53."
+title: "Mastering Paper by FiftyThree: Drawing Water and Waves"
+excerpt: "Methods for drawing water and waves using the iPad app Paper by FiftyThree."
 modified: 2014-04-10
 image: 
   feature: paper-53-water-guide-feature.jpg
@@ -12,7 +12,7 @@ tags: [Paper by 53, tutorial, drawing, painting, iPad, water, waves]
 comments: true
 ---
 
-Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
+Hopefully parts 2 and 3 of my [Mastering Paper by FiftyThree Guide]({{ site.url }}/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
 
 {% include toc.html %}
 
