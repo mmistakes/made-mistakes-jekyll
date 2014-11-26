@@ -28,8 +28,10 @@ layout: default
         </footer><!-- /.footer -->
       </div><!-- /.content -->
     </div><!-- /.inner-wrap -->
-    {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
-  </article><!-- ./wrap -->
+    <div id="sidebar">
+      {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+    </div><!-- /#sidebar -->
+  </article><!-- /.wrap -->
   {% if page.comments == true %}
   <div class="wrap">
     <aside>{% include comments.html %}</aside>

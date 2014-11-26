@@ -8,7 +8,7 @@
     padding-right: 2 * $gutter;
   }
   z-index: 5;
-  @include transform(translate(0,0));
+  // @include transform(translate(0,0));
   @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
   &.slide {
     @include transform(translate(-1600px,0));
@@ -158,7 +158,7 @@
   @include size(100% 100%);
   -webkit-overflow-scrolling: touch;
   z-index: 2;
-  @include transform(translate(0,0));
+  // @include transform(translate(0,0));
   @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
   &.slide {
     @include transform(translate(-60rem,0));
@@ -280,33 +280,38 @@
       @include span-columns(8);
     }
   }
-  .ads {
-    position: relative;
-    text-align: center;
-    margin-top: $gutter;
-    margin-left: -$gutter;
-    margin-right: -$gutter;
-    padding: 10px 0 20px;
-    background: lighten($border-color,5);
-    @include media($medium) {
-      @include span-columns(4);
-      margin-left: 0;
-      margin-right: 0;
-    }
-    &:after {
-      content: 'Advertisement';
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
-      display: block;
-      @include font-size(9,no);
-      font-family: $alt-font;
-    }
-    ins {
-      border-width: 0;
-    }
+}
+// Google banner ads
+.ads {
+  position: relative;
+  text-align: center;
+  margin-top: $gutter;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+  padding: 10px 0 20px;
+  background: lighten($border-color,5);
+  @include media($medium) {
+    @include span-columns(4);
+    margin-left: 0;
+    margin-right: 0;
   }
+  &:after {
+    content: 'Advertisement';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    @include font-size(9,no);
+    font-family: $alt-font;
+  }
+  ins {
+    border-width: 0;
+  }
+}
+// sidebar
+#sidebar {
+  @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 }
 // standard page header
 .page-header {
@@ -462,6 +467,12 @@
 }
 // table of contents
 .toc {
+  margin-left: -1 * $gutter;
+  margin-right: -1 * $gutter;
+  @include media($medium) {
+    margin-left: 0;
+    margin-right: 0;
+  }
   font-family: $alt-font;
   ul {
     margin-top: $gutter;
@@ -475,12 +486,12 @@
   }
   h6 {
     margin: 0;
-    padding: (.25 * $gutter) (.5 * $gutter);
+    padding: (.25 * $gutter) $gutter;
     background: $table-stripe-color;
   }
   a {
     display: block;
-    padding: (.25 * $gutter) (.5 * $gutter);
+    padding: (.25 * $gutter) $gutter;
     border-left: 2px solid transparent;
     &:hover,
     &:focus {
