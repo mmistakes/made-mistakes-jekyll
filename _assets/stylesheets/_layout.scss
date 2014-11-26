@@ -20,7 +20,7 @@
 .logo-wrap {
   @include row;
   @include media($large) {
-    @include span-columns(4);
+    @include span-columns(3.5);
   }
 }
 .site-logo {
@@ -71,7 +71,7 @@
   display: none;
   position: relative;
   @include media($large) {
-    @include span-columns(7);
+    @include span-columns(7.5);
     ul {
       position: absolute;
       right: 0;
