@@ -2,7 +2,7 @@
 layout: article
 title: "Subscribe"
 date: 2014-11-12T22:39:54-05:00
-modified:
+modified: 2014-11-25
 excerpt: "All of the ways you can subscribe to content found on Made Mistakes."
 share: false
 ---
@@ -26,7 +26,7 @@ Mastering Paper by 53 tutorials only. Tips, tricks, and techniques for getting t
 
 ### PaperFaces Feed
 
-Part of my PaperFaces daily iPad ortrait project. Not as active as it used to be since I've moved on to other things, but occassionaly a new portrait creeps in.
+Part of my PaperFaces daily iPad portrait project. Not as active as it used to be since I've moved on to other things, but occassionaly a new portrait makes an appearance.
 <http://feeds.feedburner.com/MadeMistakesPaperFaces>
 
 ## Social Networking
