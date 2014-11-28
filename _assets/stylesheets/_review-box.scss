@@ -1,0 +1,81 @@
+// REVIEW BOX
+// --------------------------------------------------
+.review-wrapper{
+  position: relative;
+  padding: $gutter;
+  @include font-size(14,no);
+  background-color: $black;
+  border-radius: 2 * $border-radius;
+  color: $white;
+  overflow: hidden;
+  a {
+    color: $text-color;
+  }
+}
+.review-title {
+  margin: 0;
+}
+.review-list {
+  @include clearfix;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 0;
+    border-bottom: 1px solid $white;
+    padding: 10px 0;
+    position: relative;
+    list-style: none;
+  }
+  span {
+    font-family: $alt-font;
+    @include font-size(16,no);
+  }
+  .review-star {
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+}
+.review-desc {
+  @include clearfix;
+  @include media($medium) {
+    float: left;
+    width: 75%;
+  }
+  p {
+    @include font-size(14,no);
+  }
+  a {
+    color: $white;
+  }
+}
+.review-total-wrapper {
+  @include media($medium) {
+    float: right;
+  }
+  margin: 0;
+  position: relative;
+  span.review-total-box {
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    display: block;
+    font-family: $alt-font;
+    @include font-size(40,no);
+    font-weight: 700;
+    text-align: right;
+    margin: 0;
+    width: 100%;
+  }
+}
+p.review-summary-title {
+  font-family: $alt-font;
+  @include font-size(16,no);
+}
+.review-total-star {
+  position: relative;
+  float: right;
+  margin-top: 10px;
+}
