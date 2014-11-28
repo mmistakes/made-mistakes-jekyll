@@ -33,6 +33,8 @@ When used sparingly Blend can take sketches your sketches to the next level. Her
 
 ### Smoke, Clouds, and Fog
 
+### Fire
+
 ### Rays of Sunlight
 
 ### Simulate Atmospheric Perspective
