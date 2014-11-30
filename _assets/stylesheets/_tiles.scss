@@ -86,6 +86,7 @@
 
 // tiles container 3/4 width
 .tiles-right {
+  clear: both;
   @include media($medium) {
     .post-title {
       @include font-size(16,no);
@@ -96,6 +97,7 @@
     }
   }
   @include media($large) {
+    clear: none;
     @include span-columns(8);
   }
 }
