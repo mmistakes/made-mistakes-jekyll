@@ -1,6 +1,12 @@
-// OFF CANVAS SLIDING MENU
-// Based on code by Diego Eis
-// --------------------------------------------------
+/* ==========================================================================
+   OFF CANVAS SLIDING MENU
+   Based on code by Diego Eis
+   http://tableless.com.br/fazendo-um-slide-menu-mobile-sem-plugin/
+   ========================================================================== */
+
+/* 
+   Sliding menu button
+   ========================================================================== */
 
 .sliding-menu-button {
   position: fixed;
@@ -32,6 +38,10 @@
     @include transition(all 500ms ease-in-out);
   }
 }
+
+/* 
+   Sliding content
+   ========================================================================== */
 
 .sliding-menu-content {
   position: fixed;
@@ -114,6 +124,8 @@
   }
 }
 
+/* Dim content when off canvas nav slides in */
+
 .menu-screen {
   @include position(fixed, 0 0 0 0);
   @include transition;
@@ -126,134 +138,6 @@
     visibility: visible;
     &:hover {
       cursor: pointer;
-    }
-  }
-}
-
-// animated navicons
-// https://github.com/SaraSoueidan/navicon-transformicons
-// common to all three-liners
-@mixin line {
-  display: inline-block;
-  width: $button-size;
-  height: $button-size/7;
-  background: $white;
-  transition: $transition;
-}
-// common to all three-liners
-.lines {
-  @include line;
-  position: relative; 
-  &:before, &:after {
-   @include line;
-    position: absolute;
-    left:0;
-    content: '';
-    -webkit-transform-origin: $button-size/14 center;
-            transform-origin: $button-size/14 center;
-  }
-  &:before { 
-    top: $button-size/4; 
-  }
-  &:after { 
-    top: -$button-size/4; 
-  }
-}
-// common to all three-liners
-.lines-button:hover {
-  .lines {
-    &:before { 
-      top: $button-size/3.5; 
-    }
-    &:after { 
-      top: -$button-size/3.5; 
-    }
-  }
-}
-// for both the arrow up and left icons
-.lines-button.arrow.close {
-    .lines {
-      &:before,
-      &:after {
-        top: 0;
-        width: $button-size/1.8;
-      }
-      &:before { 
-        -webkit-transform: rotate3d(0,0,1,40deg); 
-                transform: rotate3d(0,0,1,40deg); 
-      }
-      &:after { 
-        -webkit-transform: rotate3d(0,0,1,-40deg); 
-                transform: rotate3d(0,0,1,-40deg); 
-      }
-    }
-}
-// arrow up only: just rotate by 90degrees
-.lines-button.arrow-up.close {
-  -webkit-transform: scale3d(.8,.8,.8) rotate3d(0,0,1,90deg);
-          transform: scale3d(.8,.8,.8) rotate3d(0, 0, 1,90deg);
-}
-// three-lines to minus only
-.lines-button.minus.close{
-  .lines {
-    &:before, &:after{
-      -webkit-transform: none;
-              transform: none;
-      top:0;
-      width: $button-size;
-    }
-  }
-}
-// three-lines to x
-.lines-button.x.close{
-  .lines {
-    background: transparent;
-    &:before, &:after{
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      top:0;
-      width: $button-size;
-    }
-    &:before{
-      -webkit-transform: rotate3d(0,0,1,45deg); 
-              transform: rotate3d(0,0,1,45deg); 
-    }
-    &:after{
-      -webkit-transform: rotate3d(0,0,1,-45deg); 
-              transform: rotate3d(0,0,1,-45deg); 
-    }
-  }
-}
-// three-lines to x method 2
-.lines-button.x2{
-    .lines{
-      transition: background .3s .5s ease;
-      &:before, &:after{
-        //set transform origin
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-        transition: top .3s .6s ease, -webkit-transform .3s ease;
-        transition: top .3s .6s ease, transform .3s ease;
-      }
-    }
-}
-.lines-button.x2.close{
-  .lines {
-    transition: background .3s 0s ease;
-    background: transparent;
-    &:before, &:after{
-      transition: top .3s ease, -webkit-transform .3s .5s ease;//delay the formation of the x till the minus is formed  
-      transition: top .3s ease, transform .3s .5s ease;//delay the formation of the x till the minus is formed  
-      top:0;
-      width: $button-size;
-    }
-    &:before{
-      -webkit-transform: rotate3d(0,0,1,45deg); 
-              transform: rotate3d(0,0,1,45deg); 
-    }
-    &:after{
-      -webkit-transform: rotate3d(0,0,1,-45deg); 
-              transform: rotate3d(0,0,1,-45deg); 
     }
   }
 }

@@ -2,10 +2,12 @@
 
 $max-width: em(1280);
 
-// Change the grid settings
+/* Display visual grid lines */
+
 $visual_grid: false;
 
-// Define your breakpoints
+/* Screen sizes for media query mixin */
+
 $micro-only: new-breakpoint(min-width em(240) max-width em(480) 12);
 $medium: new-breakpoint(min-width em(768) 12);
 $large: new-breakpoint(min-width em(1000) 12);

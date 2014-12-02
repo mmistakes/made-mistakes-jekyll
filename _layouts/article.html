@@ -38,7 +38,7 @@ layout: default
   </article><!-- /.wrap -->
   {% if page.comments == true %}
   <div class="wrap">
-    <aside>{% include comments.html %}</aside>
+    <aside class="inner-wrap">{% include comments.html %}</aside>
     {% if page.ads != false %}<div class="sidebar ads">{% include advertising-comments.html %}</div><!-- /.ads -->{% endif %}
   </div><!-- /.wrap -->
   {% endif %}

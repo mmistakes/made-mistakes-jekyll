@@ -1,0 +1,318 @@
+/* ==========================================================================
+   PAGE
+   ========================================================================== */
+
+/* 
+   Page wrapper (used for page slide effect)
+   ========================================================================== */
+
+#page-wrapper {
+  @include size(100% 100%);
+  -webkit-overflow-scrolling: touch;
+  z-index: 2;
+  /* @include transform(translate(0,0)); */
+  @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+  &.slide {
+    @include transform(translate(-60rem,0));
+  }
+}
+
+/* 
+   Main content
+   ========================================================================== */
+
+.page-content {
+  h2 {
+    @include font-size(28,yes,32);
+  }
+  h3 {
+    @include font-size(24,yes,26);
+  }
+  h4 {
+    @include font-size(22);
+  }
+
+  /* Increase font size of first paragraph */
+  > p {
+    &:first-child {
+      @include media($medium) {
+        @include font-size(20,yes,30);
+      }
+    }
+  }
+
+  /* Cleaner underlines for links */
+  a { text-decoration: none; }
+  p > a,
+  li > a,
+  td > a {
+    border-bottom: 1px dotted lighten($link-color, 50);
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+  .toc li > a {
+    border-bottom: 0 solid transparent;
+  }
+  .th-grid a,
+  .th-grid-full a,
+  p > .reversefootnote {
+    border-bottom-width: 0;
+  }
+  
+  .page-footer,
+  .pagination {
+    @include fill-parent;
+  }
+}
+
+/* 
+   Post archives
+   ========================================================================== */
+
+.archive-wrap {
+  @include fill-parent;
+  margin-top: $gutter;
+  h3 {
+    @include font-size(16);
+    text-transform: uppercase;
+  }
+  .page-content {
+    @include fill-parent;
+  }
+}
+
+/* 
+   Default page header (text only)
+   ========================================================================== */
+
+.page-header {
+  overflow: auto; // fix collapsing margin
+  .page-title {
+    @include fill-parent;
+    h1 {
+      margin-top: $gutter;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-weight: 400;
+      margin-top: 0;
+      @include media($micro-only) { @include font-size(22,yes,1.25); }
+      @include font-size(28,yes,1.25);
+    }
+  }
+}
+
+/* 
+   Featured page header (large image with text overlay)
+   ========================================================================== */
+
+.page-feature-header {
+  @include fill-parent;
+  position: relative;
+  margin-bottom: $gutter;
+  img {
+    width: 100%; /* Expand image to cover full width of header */
+  }
+  &.overlay .page-title { /* Position title on top of feature image */
+    @include media($medium) {
+      position: absolute;
+      bottom: 5%;
+      z-index: 1;
+      @include span-columns(10);
+    }
+  }
+
+  h1 { /* Default page title */
+    margin-bottom: 0;
+    @include media($medium) {
+      @include font-size(42,yes,42);
+    }
+    @include media($large) {
+      @include font-size(58,yes,58);
+    }
+  }
+  &.overlay h1 { /* Overlay page title */
+    @include media($medium) {
+      position: relative;
+      color: $white;
+      text-shadow: 1px 1px 0 $black;
+      &:before {
+        position: absolute;
+        content: '';
+        width: 100px;
+        height: 2px;
+        background: $white;
+        top: -0.5em;
+      }
+    }
+  }
+
+  h2 { /* Default page sub-headline */
+    margin-top: 0;
+    font-weight: 400;
+    @include media($micro-only) { @include font-size(22,yes,1.25); }
+    @include font-size(28,yes,1.25);
+  }
+  &.overlay h2 { /* Overlay page sub-headline */
+    @include media($medium) {
+      color: $white;
+      text-shadow: 1px 1px 0 $black;
+    }
+  }
+
+  &.overlay .page-meta { /* Overlay meta description and tags */
+    @include media($medium) {
+      span {
+        color: $white;
+        text-shadow: 1px 1px 0 $black;
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
+
+}
+
+.page-image { /* Make content images flush with edges on small screens */
+  position: relative;
+  margin-left: -1 * $gutter;
+  margin-right: -1 * $gutter;
+  @include media($medium) {
+    margin-left: -2 * $gutter;
+    margin-right: -2 * $gutter;
+  }
+  @include media($large) {
+    margin-left: -2.5 * $gutter;
+    margin-right: -2.5 * $gutter;
+  }
+  
+  .image-credit { /* Position and style image credit caption */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: rgba($black,.5);
+    color: $white;
+    font-family: $alt-font;
+    @include font-size(12,no);
+    text-align: right;
+    z-index: 10;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Feature image overlay override */
+
+.overlay .page-image {
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* add gradient overlay on >= medium screens */
+    @include media($medium) {
+      @include background-image(linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 75%,rgba(0,0,0,0.9) 100%));
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+      @include transition(opacity 1s ease-in-out 0.2s);
+    }
+  }
+}
+
+/* 
+   Headline anchors (show link icon on hover)
+   ========================================================================== */
+
+.header-link { 
+  position: relative; 
+  left: 0.5em; 
+  opacity: 0; 
+  font-size: 0.8em; 
+  @include transition(opacity 0.2s ease-in-out 0.1s);
+  display: none;
+  @include media($large) {
+    display: inline;
+  }
+}
+
+h2:hover .header-link, 
+h3:hover .header-link, 
+h4:hover .header-link, 
+h5:hover .header-link, 
+h6:hover .header-link { 
+  opacity: 1; 
+}
+
+/* 
+   Tag links
+   ========================================================================== */
+
+.tag-box {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @include clearfix;
+  li {
+    display: inline-block;
+    @include font-size(14,7);
+  }
+  a { 
+    padding: 4px 6px;
+    margin: 2px;
+    background-color: lighten($primary-color,80);
+    border-radius: $border-radius;
+    text-decoration: none;
+    border-bottom: 0 solid transparent;
+    span { 
+      vertical-align: super;
+      @include font-size(10);
+    }
+  }
+}
+
+/* 
+   Page footer (author details, social share links, etc)
+   ========================================================================== */
+
+.page-footer {
+  position: relative;
+}
+
+/* Author details */
+
+.author-image {
+  position: absolute;
+  left: 0;
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: $border-radius;
+  }
+}
+
+.author-content {
+  word-wrap: break-word;
+  padding-left: 100px; /* avatar width + 20px padding */
+  min-height: 80px; /* match avatar height */
+}
+
+h3.author-name {
+  @include font-size(20,no);
+}
+
+.author-bio {
+  margin-top: 0;
+  @include font-size(16,12);
+}
+
+.author-follow {
+  margin-top: 0;
+  @include font-size(16);
+}

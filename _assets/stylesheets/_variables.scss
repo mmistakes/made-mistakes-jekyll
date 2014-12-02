@@ -1,7 +1,10 @@
-// SASS VARIABLES
-// --------------------------------------------------
+/* ==========================================================================
+   SCSS VARIABLES
+   ========================================================================== */
 
-// Typography variables
+/* 
+   Typography related variables
+   ========================================================================== */
 
 $base-font                    : Georgia, Times, "Times New Roman", serif;
 $heading-font                 : Lato, Calibri, Arial, sans-serif;
@@ -15,7 +18,9 @@ $doc-line-height              : 24;
 $border-radius                : 5px;
 
 
-// Color variables
+/* 
+   Color variables
+   ========================================================================== */
 
 $white                        : #fff;
 $black                        : #000;
@@ -55,8 +60,9 @@ $twitter-color                : #55acee;
 $vimeo-color                  : #1ab7ea;
 $youtube-color                : #ff3333;
 
-
-// Form variables
+/* 
+   Form variables
+   ========================================================================== */
 
 $form-border-color            : $border-color;
 $form-border-color-hover      : darken($border-color, 10);
@@ -68,7 +74,9 @@ $form-font-family             : $base-font;
 $form-font-size               : $doc-font-size;
 
 
-// Sliding Menu Navigation
+/* 
+   Sliding menu variables
+   ========================================================================== */
 
 $sliding-menu-border-color    : $black;
 $sliding-menu-background      : $black;
@@ -77,9 +85,11 @@ $sliding-menu-background-hover: $black;
 $sliding-menu-color-hover     : $white;
 $sliding-menu-border          : 1px solid $sliding-menu-border-color;
 $button-size                  : 30px; 
-$transition                   : .3s; // increase this to see the transformations in slow-motion
+$transition                   : .3s; /* increase this to see the transformations in slow-motion */
 
 
-// Masthead
+/* 
+   Masthead variables
+   ========================================================================== */
 
 $masthead-height: $button-size * 2;

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   SCROLL ARROW POINTER CUE
+   ========================================================================== */
+
+#scroll-cue {
+  position: fixed;
+  bottom: 100px;
+  @include media(new-breakpoint(max-height em(700) 12)) {
+    bottom: 0;
+  }
+  left: 50%;
+  width: 2 * $button-size;
+  height: 2 * $button-size;
+  text-align: center;
+  cursor: pointer;
+  color: $white;
+  @include font-size(12);
+  font-family: $alt-font;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}

@@ -1,0 +1,89 @@
+/* ==========================================================================
+   THUMBNAIL GRIDS
+   ========================================================================== */
+
+/* Thumbnail image grid (default content width) */
+
+/**
+ *
+ * Example usage:
+ *  <ul class="th-grid"> 
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *  </ul>
+ *
+ */
+
+.th-grid {
+  @include row;
+  @include clearfix;
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    @include span-columns(2.4);
+    @include omega(5n);
+    margin-bottom: flex-gutter($grid-columns);
+  }
+  a {
+    img {
+      // Image hover animation
+      @include transition(transform 0.3s);
+      &:hover {
+        @include transform(scale(1.1));
+        box-shadow: 0 0 10px rgba($black, .20);
+      }
+    }
+  }
+}
+
+/* Thumbnail image grid (full width layouts) */
+
+/**
+ *
+ * Example usage:
+ *  <ul class="th-grid-full"> 
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *  </ul>
+ *
+ */
+
+.th-grid-full {
+  @include clearfix;
+  margin: 0;
+  padding: 0;
+  @at-root {
+    .archive-wrap & {
+      margin-right: 0;
+    }
+  }  
+  li {
+    list-style: none;
+    margin-bottom: flex-gutter($grid-columns);
+    @include media($micro-only) {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+    @media screen and (min-width: em(480)) and (max-width: em(999)) {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+    @include media($large) {
+      @include span-columns(1.5);
+      @include omega(8n);
+    }
+  }
+  a {
+    img {
+      // Image hover animation
+      @include transition(transform 0.3s);
+      &:hover {
+        @include transform(scale(1.1));
+        box-shadow: 0 0 10px rgba($black, .20);
+      }
+    }
+  }
+}

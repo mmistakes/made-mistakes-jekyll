@@ -1,5 +1,7 @@
-// REVIEW BOX
-// --------------------------------------------------
+/* ==========================================================================
+   REVIEW BOXES
+   ========================================================================== */
+
 .review-wrapper{
   position: relative;
   padding: $gutter;
@@ -12,9 +14,11 @@
     color: $text-color;
   }
 }
+
 .review-title {
   margin: 0;
 }
+
 .review-list {
   @include clearfix;
   margin: 0;
@@ -37,6 +41,7 @@
     top: 10px;
   }
 }
+
 .review-desc {
   @include clearfix;
   @include media($medium) {
@@ -50,6 +55,7 @@
     color: $white;
   }
 }
+
 .review-total-wrapper {
   @include media($medium) {
     float: right;
@@ -70,10 +76,12 @@
     width: 100%;
   }
 }
+
 p.review-summary-title {
   font-family: $alt-font;
   @include font-size(16,no);
 }
+
 .review-total-star {
   position: relative;
   float: right;

@@ -1,0 +1,88 @@
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+#site-footer {
+  @include outer-container;
+  margin-top: (2 * (0px + $doc-line-height));
+  margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
+  padding: $gutter;
+  text-align: center;
+  @include media($medium) {
+    padding-left: 2 * $gutter;
+    padding-right: 2 * $gutter;
+  }
+  @include media($large) {
+    text-align: left;
+  }
+  font-family: $alt-font;
+  
+  .copyright {
+    clear: both;
+    @include font-size(12);
+    color: lighten($caption-color, 10);
+    a {
+      color: lighten($caption-color, 10);
+      text-decoration: none;
+    }
+  }
+
+  /* Social networking brand colors */
+  
+  $social: 
+  (facebook, $facebook-color),
+  (flickr, $flickr-color),
+  (foursquare, $foursquare-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-color),
+  (linkedin, $linkedin-color),
+  (pinterest, $pinterest-color),
+  (rss, $rss-color),
+  (tumblr, $tumblr-color),
+  (twitter, $twitter-color),
+  (vimeo, $vimeo-color),
+  (youtube, $youtube-color);
+  @each $socialnetwork, $color in $social {
+    .#{$socialnetwork} {
+      color: $color;
+      &:hover {
+        color: darken($color, 20);
+      }
+    }    
+  }
+}
+
+/* Footer menu links */
+
+.footer-links {
+  @include media($large) {
+    float: left;
+  }
+  li {
+    a {
+      margin-left: ($gutter / 2);
+      margin-right: ($gutter / 2);
+      @include media($large) {
+        margin-left: 0;
+        margin-right: $gutter;
+      }
+      padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
+      color: $caption-color;
+    }
+  }
+}
+
+/* Social network links */
+
+.social-links {
+  clear: left;
+  @include media($large) {
+    float: right;
+    clear: none;
+  }
+  li {
+    a {
+
+    }
+  }
+}

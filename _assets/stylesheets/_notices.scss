@@ -1,5 +1,15 @@
-// NOTICES
-// --------------------------------------------------
+/* ==========================================================================
+   NOTICE TEXT BLOCKS
+   ========================================================================== */
+
+/**
+ * Example Kramdown usage:
+ * This is a paragraph of MarkDown text.
+ * {: .notice}
+ *
+ * HTML example usage:
+ * <p class="notice">This is a paragraph of text.</p>
+ */
 
 @mixin notice($notice-color) {
   position: relative;
@@ -8,9 +18,15 @@
   background-color: tint($notice-color,95%);
   border-radius: 2 * $border-radius
 }
+
+/* Default notice */
+
 .notice {
   @include notice($primary-color);
 }
+
+/* Inverse notice (light on dark) */
+
 .notice-inverse {
   @include notice($white);
   color: $text-color;
@@ -18,15 +34,41 @@
     color: $text-color;
   }
 }
+
+/* Info notice */
+
 .notice-info {
   @include notice($info-color);
 }
+
+/* Warning notice */
+
 .notice-warning {
   @include notice($warning-color);
 }
+
+/* Success notice */
+
 .notice-success {
   @include notice($success-color);
 }
+
+/* Danger notice */
+
 .notice-danger {
   @include notice($danger-color);
+}
+
+/* Browser upgrade notice */
+
+.upgrade {
+  text-align: center;
+  a {
+    color: $danger-color;
+    text-decoration: none;
+    border-bottom: 1px dotted lighten($danger-color, 20);
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
 }

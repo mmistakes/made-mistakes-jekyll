@@ -1,31 +1,61 @@
-/*
+/**
  *
  *  Made Mistakes
  *
  *  Designer: Michael Rose
  *  Twitter: http://twitter.com/mmistakes
  *
-*/
-
+ */
 
 @import "variables";
+
+/* 
+   Vendor
+   ========================================================================== */
+
 @import "bourbon";
 @import "grid-settings";
 @import "neat";
 @import "vendor/google/fonts";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
+
+/* 
+   Global
+   ========================================================================== */
+
 @import "mixins";
 @import "reset";
 @import "base";
+
+/* 
+   Components
+   ========================================================================== */
+
 @import "helpers";
 @import "buttons";
-@import "badges";
-@import "bullets";
+@import "badges"; /* inline badge callouts */
+@import "bullets"; /* list groups with images */
 @import "sliding-menu";
-@import "tiles";
+@import "menu-navicons"; /* animated 3 line menu icon */
+@import "tiles"; /* post tiles */
+@import "thumbnail-grids";
 @import "notices";
 @import "review-box";
 @import "animations";
-@import "layout";
-@import "pygments";
+@import "google-search"; /* Google search form box */
+@import "pygments"; /* Pygments.rb syntax highlighting */
+@import "paper-color-swatches"; /* color swatches for Paper by FiftyThree articles */
+
+/* 
+   Page specific
+   ========================================================================== */
+
+@import "masthead"; /* page header with navigation */
+@import "page"; /* everything else on the page */
+@import "banners"; /* banner advertisements */
+@import "sidebars";
+@import "breadcrumbs";
+@import "footnotes";
+@import "toc"; /* table of contents */
+@import "footer"; /* site footer */

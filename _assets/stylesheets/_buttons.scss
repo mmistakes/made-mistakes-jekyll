@@ -1,7 +1,11 @@
-// BUTTONS
-// --------------------------------------------------
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
 
-// call to action
+/* 
+   Default button
+   ========================================================================== */
+
 .btn {
   display: inline-block;
   padding: 8px 20px;
@@ -23,6 +27,11 @@
     @include transform(translateY(1px));
   }
 }
+
+/* 
+   Inverse button (for use on dark backgrounds)
+   ========================================================================== */
+
 .btn-inverse {
   @extend .btn;
   background-color: $white;
@@ -32,6 +41,11 @@
     background-color: $text-color;
   }
 }
+
+/* 
+   Info button
+   ========================================================================== */
+
 .btn-info {
   @extend .btn;
   background-color: $info-color;
@@ -40,6 +54,11 @@
     background-color: lighten($info-color, 20);
   }
 }
+
+/* 
+   Warning button
+   ========================================================================== */
+
 .btn-warning {
   @extend .btn;
   background-color: $warning-color;
@@ -48,6 +67,11 @@
     background-color: lighten($warning-color ,20);
   }
 }
+
+/* 
+   Success button
+   ========================================================================== */
+
 .btn-success {
   @extend .btn;
   background-color: $success-color;
@@ -56,6 +80,11 @@
     background-color:lighten($success-color, 20);
   }
 }
+
+/* 
+   Danger button
+   ========================================================================== */
+
 .btn-danger {
   @extend .btn;
   background-color: $danger-color;
@@ -64,6 +93,11 @@
     background-color: lighten($danger-color, 20);
   }
 }
+
+/* 
+   Disabled button
+   ========================================================================== */
+
 .btn-disabled {
   pointer-events: none;
   cursor: not-allowed;
@@ -72,9 +106,37 @@
   box-shadow: none;
   opacity: .65;
 }
+
+/* 
+   Social networking buttons
+   ========================================================================== */
+
+/* Social network brand colors defined in _variables.scss */
+
+/**
+ * Social button markup example
+ * Add social network class to anchor or button element along with .btn-social
+ * .facebook
+ * .flickr
+ * .foursquare
+ * .google-plus
+ * .instagram
+ * .linkedin
+ * .pinterest
+ * .rss
+ * .tumblr
+ * .twitter
+ * .vimeo
+ * .youtube
+ *
+ *  <a class="btn-social twitter" href="#">
+ *    <i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter
+ *  </a>
+ */
+
 .btn-social {
   $social: 
-  (facebook, $facebook-color),
+    (facebook, $facebook-color),
     (flickr, $flickr-color),
     (foursquare, $foursquare-color),
     (google-plus, $google-plus-color),

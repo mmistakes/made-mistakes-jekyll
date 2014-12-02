@@ -1,12 +1,11 @@
-// POST TILES
-// --------------------------------------------------
+/* ==========================================================================
+   POST TILES
+   ========================================================================== */
 
-// tiles container full width
-.tiles {
+/* 
+   Individual tile
+   ========================================================================== */
 
-}
-
-// individual tile
 .tile {
   @include outer-container;
   margin-bottom: $gutter;
@@ -21,6 +20,7 @@
     @include span-columns(3);
     @include omega(4n);
   }
+
   .entry-date {
     margin-top: 0;
     font-family: $alt-font;
@@ -28,13 +28,18 @@
     text-transform: uppercase;
     color: lighten($caption-color,10);
   }
+
   .post-title {
     @include font-size(18,no);
   }
+
   .post-excerpt {
     @include font-size(16);
     margin-top: 0;
   }
+
+  /* Teaser image */
+  
   .post-teaser {
     position: relative;
     z-index: 1;
@@ -84,7 +89,10 @@
   }
 }
 
-// tiles container 3/4 width
+/* 
+   Tiles container 3/4 width (used with sidebar layout)
+   ========================================================================== */
+
 .tiles-right {
   clear: both;
   @include media($medium) {
@@ -102,21 +110,11 @@
   }
 }
 
-// related tiles
+/* 
+   Related posts (show 3 tiles in a row)
+   ========================================================================== */
+
 .related {
-  @include media(new-breakpoint(min-width em(769) 12)) {
-    @include span-columns(4);
-    @include omega(3n);
-  }
-  .post-title {
-    @include font-size(16,no);
-  }
-  .post-excerpt {
-    @include font-size(14);
-    margin-top: 0;
-  }
-}
-#read-next {
   display: none;
   @include media(new-breakpoint(min-width em(769) 12)) {
     display: block;

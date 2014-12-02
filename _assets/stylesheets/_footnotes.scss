@@ -1,0 +1,28 @@
+/* ==========================================================================
+   FOOTNOTES
+   ========================================================================== */
+
+.footnotes {
+  position: relative;
+  padding-top: 1em;
+  font-family: $alt-font;
+  
+  p, li {
+    @include font-size(14,no);
+  }
+  
+  &:before {
+    content: 'Footnotes:'; /* Prepend footnote list with a title */
+    font-weight: 700;
+  }
+  
+  &:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: $column;
+    height: 2px;
+    background: $border-color;
+  }
+}

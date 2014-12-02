@@ -1,30 +1,39 @@
-// VISUAL BULLETS (IMAGE + TEXT)
-// --------------------------------------------------
+/* ==========================================================================
+   VISUAL BULLETS LISTS
+   ========================================================================== */
 
 .bullets {
   $icon-bullet-size: $column;
   overflow: auto;
 
-  // change ".three-col-bullet" class to this for two bullet layout
+  /* Two column bullet layout */
+
   .two-col-bullet {
     @include media($large) {
       @include span-columns(6);
       @include omega(2n);  
     } 
   }
+
+  /* Three column bullet list */
+
   .three-col-bullet {
     @include media($large) {
       @include span-columns(4);
       @include omega(3n);
     }
   }
-  // change ".three-col-bullet" class to this for four bullet layout
+
+  /* Four column bullet list */
+  
   .four-col-bullet {
     @include media($large) {
       @include span-columns(3);
       @include omega(4n);
     }
   }
+
+  /* Bullet content */
 
   .bullet-icon {
     float: left;
@@ -34,16 +43,20 @@
     width: $icon-bullet-size * 1.25;
     height: $icon-bullet-size * 1.25;
   }
+
   .bullet-content {
     margin-left: $icon-bullet-size * 1.4;
     margin-bottom: 2em;
   }
+
   h2 {
     margin-top: 0;
     @include font-size(20,no);
     display: inline-block;
   }
+
   p {
     @include font-size(14);
   }
+
 }

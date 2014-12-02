@@ -1,0 +1,117 @@
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+
+#masthead {
+  padding: $gutter;
+  @include media($medium) {
+    padding-left: 2 * $gutter;
+    padding-right: 2 * $gutter;
+  }
+  z-index: 5;
+  /* @include transform(translate(0,0)); */
+  @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+  &.slide {
+    @include transform(translate(-1600px,0));
+  }
+}
+
+.masthead-contents {
+  @include outer-container;
+}
+
+/* 
+   Site logo in masthead
+   ========================================================================== */
+
+.logo-wrap {
+  @include row;
+  @include media($large) {
+    @include span-columns(3.5);
+  }
+}
+
+.site-logo {
+  display: none;
+  &:hover {
+    @include animation(wiggle .3s 0 linear);
+  }
+  @include media($medium) {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.site-title {
+  float: left;
+  padding: (.25 * $masthead-height) 0; /* fourth the height to center vertically */
+  height: $masthead-height;
+  text-decoration: none;
+  color: $primary-color;
+  font-family: $alt-font;
+  font-weight: 700;
+  @include font-size(20,no);
+  line-height: .5 * $masthead-height; /* half the height to center vertically */
+  text-transform: uppercase;
+}
+
+/* 
+   Masthead navigation links
+   ========================================================================== */
+
+.top-menu {
+  display: none;
+  position: relative;
+  @include media($large) {
+    @include span-columns(7.5);
+    ul {
+      position: absolute;
+      right: 0;
+    }
+  }
+  .home,
+  .sub-menu-item {
+    display: none;
+  }
+  li {
+    a {
+      height: $masthead-height;
+      margin-right: $gutter;
+      padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
+      font-family: $alt-font;
+      font-weight: 700;
+      @include font-size(16,no);
+      line-height: .5 * $masthead-height; // half the height to center vertically
+      color: $primary-color;
+      text-transform: uppercase;
+      // line hover effect
+      position: relative;
+      display: block;
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 2px;
+        @include transition(width 0.3s);
+      }
+      &:before {
+        width: 100%;
+        background: transparent;
+      }
+      &:after {
+        width: 0;
+        background: $primary-color;
+      }
+      &:active:after,
+      &:hover:after {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/* ==========================================================================
+   GOOGLE SEARCH
+   ========================================================================== */
+
+.search-goog {
+  form {
+    margin-top: 12px;
+    margin-top: 0.75rem;
+  }
+}
+
+#goog-fixurl {
+  ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  li {
+    list-style-type: none;
+  }
+  }
+}
+
+#goog-wm-qt {
+  @include media($medium) {
+  display: inline-block;
+  width: 70%;
+  }
+}
+
+#goog-wm-sb {
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  @include media($medium) {
+  margin-left: 10px;
+  }
+}
