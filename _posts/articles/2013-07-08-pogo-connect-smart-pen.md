@@ -125,7 +125,7 @@ Removed the rubber tip to find this mess. Like many others, the metal contact th
 	<figcaption>I don't think this metal contact is suppose to break off so easily…</figcaption>
 </figure>
 
-I have an email out to Ten One Design to see what can be done. I've heard they respond quickly with free replacements, which could indicate they're aware of a major design flaw and trying to do right by it. I just don't know if I can continue to recommend the product if it's prone to breaking after a few months. I'll let you know things go…
+I have an email out to Ten One Design to see what can be done. I've heard they respond quickly with free replacements, which could indicate they're aware of a major design flaw and trying to do right by it. I just don't know if I can continue to recommend the product if it's prone to breaking after a few months. I'll let you know things go...
 
 ## Update. A Week Later
 
@@ -140,4 +140,6 @@ And just like that Ten One Design sent me a replacement pen with 2 extra tips fr
 
 Feels like Groundhog Day all over again. Sadly my replacement Pogo didn't fair too well and broke in the exact same way after three months of daily usage. Big shout out to Ten One Design's customer service for setting me up with another replacement gratis. I've been told they beefed up the soldering for a new production run in September. Not sure if that will make much of a difference, but will report back after I get my hands on it.
 
-If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back…
+If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back...
+
+{% include affiliate-disclosure.html %}

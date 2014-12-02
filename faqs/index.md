@@ -152,3 +152,5 @@ I've been on a [static site generator]({{ site.url }}{% post_url /articles/2012-
 If you're really interested in the specifics of how the site is built I've made its source available on GitHub for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% post_url /work/2014-02-28-jekyll-themes %}) for anyone to use and fork --- you're welcome.
 
 <small><i class="fa fa-caret-square-o-up"></i> <a href="#masthead">Back to top</a></small>
+
+{% include affiliate-disclosure.html %}

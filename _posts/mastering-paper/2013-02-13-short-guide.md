@@ -99,3 +99,5 @@ I hope some of this has been helpful. To better describe and show my process, I'
 
 <i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail and then some.
 {: .notice .warning}
+
+{% include affiliate-disclosure.html %}
