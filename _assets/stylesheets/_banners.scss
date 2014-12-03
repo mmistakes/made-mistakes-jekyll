@@ -32,3 +32,22 @@
     border-width: 0;
   }
 }
+
+/* 
+   Google Adsense banners
+   ========================================================================== */
+
+/* Responsive banners (main content) */
+
+.r-ads { width: 300px; height: 250px; }
+@media(min-width: 520px) { .r-ads { width: 468px; height: 60px; } }
+@media(min-width: 768px) { .r-ads { width: 160px; height: 600px; } }
+@media(min-width: 1110px) { .r-ads { width: 300px; height: 600px; } }
+
+/* Responsive banners (comments) */
+
+.r-ads-comments { width: 300px; height: 250px; }
+@media(min-width: 520px) { .r-ads-comments { width: 468px; height: 60px; } }
+@media(min-width: 768px) { .r-ads-comments { width: 200px; height: 200px; } }
+@media(min-width: 1110px) { .r-ads-comments { width: 300px; height: 225px; } }
+@media(min-width: 1220px) { .r-ads-comments { width: 336px; height: 280px; } }
