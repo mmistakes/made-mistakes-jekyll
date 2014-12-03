@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .sidebar {
+  @include omega;
   @include media($medium) {
     @include span-columns(4);
   }

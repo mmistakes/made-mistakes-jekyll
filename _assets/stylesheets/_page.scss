@@ -3,21 +3,6 @@
    ========================================================================== */
 
 /* 
-   Page wrapper (used for page slide effect)
-   ========================================================================== */
-
-#page-wrapper {
-  @include size(100% 100%);
-  -webkit-overflow-scrolling: touch;
-  z-index: 2;
-  /* @include transform(translate(0,0)); */
-  @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
-  &.slide {
-    @include transform(translate(-60rem,0));
-  }
-}
-
-/* 
    Main content
    ========================================================================== */
 

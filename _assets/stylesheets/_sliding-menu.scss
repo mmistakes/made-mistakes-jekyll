@@ -4,6 +4,29 @@
    http://tableless.com.br/fazendo-um-slide-menu-mobile-sem-plugin/
    ========================================================================== */
 
+/* Slider */
+
+.slide {
+    @include transform(translateX(-100%));
+    @include media($medium) {
+      @include transform(translateX(em(-500)));
+    }
+    @include media($large) {
+      @include transform(translateX(em(-900)));
+    }
+  }
+
+/* 
+   Page wrapper (used for page slide effect)
+   ========================================================================== */
+
+#page-wrapper {
+  @include size(100% 100%);
+  -webkit-overflow-scrolling: touch;
+  z-index: 2;
+  @include transition($sliding-menu-animation);
+}
+
 /* 
    Sliding menu button
    ========================================================================== */
@@ -30,13 +53,14 @@
   @include media($medium) {
     @include transform(0);
   }
-  @include transition(all 500ms cubic-bezier(.645,.045,.355,1.000));
-  &.slide {
-    @include media($medium) {
-      right: 90%;
-    }
-    @include transition(all 500ms ease-in-out);
-  }
+  @include transition($sliding-menu-animation);
+  // &.slide {
+    // @include media($medium) {
+    //   right: 90%;
+    //   @include transform(translate(0,0));
+    // }
+    // @include transition(all 500ms ease-in-out);
+  // }
 }
 
 /* 
@@ -50,15 +74,19 @@
   padding: em(22) 0;
   text-align: center;
   visibility: hidden;
+  @include backface-visibility(hidden);
   @include media($medium) {
     text-align: left;
   }
   @include size(100% 100%);
   @include media($medium) {
-    @include size(87% 100%);
+    width: em(500);
+  }
+  @include media($large) {
+    width: em(900);
   }
   @include transform(translateX(100%));
-  @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+  @include transition($sliding-menu-animation);
   background: $sliding-menu-background;
   z-index: 5;
   overflow-y: auto;
@@ -67,7 +95,6 @@
   &.is-visible {
     visibility: visible;
     @include transform(translateX(0));
-    @include transition(500ms ease-in-out);
   }
   ul {
     margin: 0 10%;
@@ -100,17 +127,20 @@
     .title {
       display: block;
       font-family: $alt-font;
-      @include font-size(32,no);
+      @include font-size(24,no);
       font-weight: 700;
       @include media($medium) {
         margin-left: 170px;
+        @include font-size(32,no);
       }
     }
     .excerpt {
       color: $white;
       margin-top: 0;
+      @include font-size(14,no);
       @include media($medium) {
         margin-left: 170px;
+        @include font-size(16,no);
       }
     }
   }
@@ -128,7 +158,7 @@
 
 .menu-screen {
   @include position(fixed, 0 0 0 0);
-  @include transition;
+  @include transition($sliding-menu-animation);
   background: $sliding-menu-border-color;
   opacity: 0;
   visibility: hidden;

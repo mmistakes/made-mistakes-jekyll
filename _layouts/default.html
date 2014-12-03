@@ -29,17 +29,6 @@
 
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
-    <style>
-    .sliding-menu-content {
-      visibility: hidden;
-      -webkit-transform: translateX(100%);
-      -moz-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-      -o-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    </style>
-
     {% stylesheet global %}
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
@@ -49,7 +38,7 @@
 
   </head>
 
-  <body id="js-body">
+  <body>
     {% include browser-upgrade.html %}
     {% include header.html %}
     {% include navigation-sliding.html %}
