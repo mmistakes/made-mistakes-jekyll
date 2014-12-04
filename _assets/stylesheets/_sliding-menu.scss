@@ -9,7 +9,7 @@
 .slide {
     @include transform(translateX(-100%));
     @include media($medium) {
-      @include transform(translateX(em(-500)));
+      @include transform(translateX(em(-600)));
     }
     @include media($large) {
       @include transform(translateX(em(-900)));
@@ -80,7 +80,7 @@
   }
   @include size(100% 100%);
   @include media($medium) {
-    width: em(500);
+    width: em(600);
   }
   @include media($large) {
     width: em(900);
