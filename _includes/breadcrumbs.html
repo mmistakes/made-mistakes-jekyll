@@ -9,11 +9,14 @@
           {% assign words = page.categories | first | split: '-' %}
           {% for word in words %}
             {% if words.last %}{{ word | capitalize }}
-              {% else %}{{ word | capitalize | append:' ' }}
+              {% else %}{{ word | capitalize | append: ' ' }}
             {% endif %}
           {% endfor %}
         </span>
-      </a>
+      </a>  › 
+    </span>
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active">
+      <span itemprop="title">{{ page.title }}</span>
     </span>
   </nav><!-- /.breadcrumbs -->
 {% endif %}

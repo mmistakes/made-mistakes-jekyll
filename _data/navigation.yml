@@ -1,26 +1,26 @@
 # Site navigation links
 
-- title: Work
-  url: /work/
-  excerpt: "Things designed, illustrated, or developed by Michael Rose."
-  image: relic-scout-teaser-225.jpg
-
 - title: Articles
   url: /articles/
-  excerpt: "A collection of thoughts, inspiration, mistakes, and other minutia."
+  excerpt: "A collection of my thoughts, mistakes, and other minutia."
   image: skinny-bones-theme-teaser-225.jpg
 
 - title: Mastering Paper
   url: /mastering-paper/
-  excerpt: "A collection of tutorials and techniques to help master Paper by FiftyThree."
+  excerpt: "Tutorials and techniques to help you master Paper by FiftyThree."
   image: paper-53-erasing-teaser-225.jpg
 
 - title: PaperFaces  
   url: /paperfaces/
-  excerpt: "Gallery of my PaperFaces portrait project drawn on an iPad with Paper by FiftyThree."
-  image: paperfaces-remi-l-teaser-225.jpg
+  excerpt: "Gallery of portraits I’ve drawn on an iPad with various styli."
+  image: paperfaces-joker-teaser-225.jpg
+
+- title: Work
+  url: /work/
+  excerpt: "Things I’ve designed, illustrated, or developed."
+  image: relic-scout-teaser-225.jpg
 
 - title: About
   url: /about/
-  excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo."
+  excerpt: "I’m just another boring, tattooed, time traveling designer from Buffalo. Learn more about me and the site."
   image: about-teaser-225.jpg

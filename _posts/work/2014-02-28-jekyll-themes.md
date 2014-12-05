@@ -2,7 +2,7 @@
 layout: media
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
-excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub."
+excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub for free."
 modified: 2014-10-30T10:59:15-04:00
 image: 
   thumb: jekyll-themes-thumb-250x250.png
