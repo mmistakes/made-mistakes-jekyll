@@ -10,7 +10,7 @@ category: paperfaces
 tags: [portrait, illustration, Paper by 53]
 ---
 
-While browsing through Mix looking for inspiration I came across this drawing shared by [赵 志欣](https://mix.fiftythree.com/122266--) of Heath Ledger from **The Dark Knight**.
+While browsing through Mix looking for inspiration I came across a drawing shared by [赵 志欣](https://mix.fiftythree.com/122266--) of Heath Ledger from **The Dark Knight**.
 
 I gave it a star to bookmark it for later, and then during the holiday weekend I got around to enhancing it some. I started by reworking the placement and proportions of the face and hand using an image of the Joker from one of the film's posters.
 
