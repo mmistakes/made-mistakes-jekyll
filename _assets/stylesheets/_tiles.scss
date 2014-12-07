@@ -31,6 +31,9 @@
 
   .post-title {
     @include font-size(18,no);
+    a {
+      text-decoration: none;
+    }
   }
 
   .post-excerpt {
@@ -117,6 +120,9 @@
 .related-posts {
   .entry-date {
     display: none;
+  }
+  h3 {
+    margin-top: 0;
   }
   @include media($medium) {
     .post-title {

@@ -12,19 +12,17 @@ layout: default
       </div><!-- /.page-image -->
       {% endif %}
       <div class="page-title">
+        {% include breadcrumbs.html %}
         <h1><span>{{ page.title }}</span></h1>
-        {% if page.tags %}{% include page-meta-header.html %}{% endif %}
       </div><!-- /.page-title -->
     </div><!-- /.page-header -->
     <div class="inner-wrap">
-      {% include breadcrumbs.html %}
       <div id="content" class="page-content" itemprop="articleBody">
         {{ content }}
         <hr />
         <footer class="page-footer">
           {% if page.categories %}{% include page-author.html %}{% endif %}
           {% include page-meta-footer.html %}
-          {% if page.path contains '_posts' %}{% include related-post.html %}{% endif %}
         </footer><!-- /.footer -->
       </div><!-- /.content -->
     </div><!-- /.inner-wrap -->
@@ -36,6 +34,11 @@ layout: default
       {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
     </div><!-- /.sidebar -->
   </article><!-- /.wrap -->
+  {% if page.path contains '_posts' %}
+  <div class="wrap">
+    {% include related-post.html %}
+  </div><!-- /.wrap -->
+  {% endif %}
   {% if page.comments == true %}
   <div class="wrap">
     <aside class="inner-wrap">{% include comments.html %}</aside>

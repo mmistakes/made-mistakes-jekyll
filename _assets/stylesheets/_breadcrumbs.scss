@@ -5,9 +5,8 @@
 .page-meta,
 .breadcrumbs { 
   @include clearfix;
-  margin-top: $gutter;
   font-family: $alt-font;
-  @include font-size(12,yes,21);
+  @include font-size(12,no,21);
   text-align: left;
   text-transform: uppercase;
   a {
@@ -17,11 +16,35 @@
 }
 
 .page-meta {
+  margin-top: $gutter;
   span {
     display: block;
   }
 }
 
-.breadcrumbs {
-  display: none;
+/* 
+   Breadcrumbs + Feature image
+   ========================================================================== */
+
+.page-feature-header {
+  .breadcrumbs {
+    margin-top: $gutter;
+  }
+}
+
+/* 
+   Breacrumbs + Feature image with Overlay (light on dark)
+   ========================================================================== */
+
+.overlay .page-meta,
+.overlay .breadcrumbs { /* Overlay meta description and tags */
+  @include media($medium) {
+    span {
+      color: $white;
+      text-shadow: 1px 1px 0 $black;
+      a {
+        color: $white;
+      }
+    }
+  }
 }

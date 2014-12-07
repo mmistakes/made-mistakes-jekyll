@@ -4,7 +4,6 @@ title: "Mastering Paper by FiftyThree"
 excerpt: "Tutorials and techniques to help learn Paper."
 modified: 2014-11-12T22:39:54-05:00
 image: 
-  feature: mastering-paper-53-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
 ---

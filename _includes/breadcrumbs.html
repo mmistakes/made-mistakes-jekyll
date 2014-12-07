@@ -13,10 +13,18 @@
             {% endif %}
           {% endfor %}
         </span>
-      </a>  › 
-    </span>
-    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active">
-      <span itemprop="title">{{ page.title }}</span>
+      </a> › 
     </span>
   </nav><!-- /.breadcrumbs -->
+{% endif %}
+
+{% if page.url contains page.collection %}
+<nav class="breadcrumbs">
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> › 
+  </span>
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}/{{ page.collection }}/" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a> › 
+  </span>
+</nav><!-- /.breadcrumbs -->
 {% endif %}

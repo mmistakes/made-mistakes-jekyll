@@ -60,3 +60,12 @@ owner:
   bio: "Just another boring, tattooed, time traveling designer from Buffalo."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname: mmistakes
+
+
+# Collections
+
+collections:
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs

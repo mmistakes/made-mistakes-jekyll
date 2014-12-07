@@ -1,9 +1,8 @@
 <div class="related-posts">
-  <hr />
-  <h5>Read This Next</h5>
+  <h3>Read This Next</h3>
   <div class="tiles">
-  {% for post in site.related_posts limit:3 %}
-    {% include post-grid.html param="related" %}
+  {% for post in site.related_posts limit:4 %}
+    {% include post-grid.html %}
   {% endfor %}
   </div>
 </div>

@@ -12,8 +12,8 @@ layout: default
       </div><!-- /.page-image -->
       {% endif %}
       <div class="page-title">
+        {% include breadcrumbs.html %}
         <h1><span>{{ page.title }}</span></h1>
-        {% if page.tags %}{% include page-meta-header.html %}{% endif %}
       </div><!-- /.page-title -->
     </div><!-- /.page-header -->
     <div id="content" class="page-content" itemprop="articleBody">

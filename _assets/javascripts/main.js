@@ -60,7 +60,7 @@ $(document).ready(function(){
 });
 
 
-// Table of Contents Accordion
+// Table of Contents
 $("#markdown-toc").prepend("<li><h6>Overview</h6></li>");
 
 

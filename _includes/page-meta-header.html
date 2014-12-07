@@ -1,6 +1,5 @@
-<div class="page-meta">
-  {% if page.tags %}
-    <span><i class="fa fa-folder-open-o"></i> &nbsp; {% for tag in page.tags %}<a href="{{ tag | slugify | prepend: '/tag/' | append: '/' }}" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-  {% endif %}
-  {% if page.comments == true %}{% include comments-header.html %}{% endif %}
-</div><!-- /.page-meta -->
+{% if page.comments == true %}
+	<div class="page-meta">
+	  {% include comments-header.html %}
+	</div><!-- /.page-meta -->
+{% endif %}

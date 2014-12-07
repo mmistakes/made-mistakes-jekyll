@@ -12,12 +12,11 @@ layout: default
       </div><!-- /.page-image -->
       {% endif %}
       <div class="page-title">
+        {% include breadcrumbs.html %}
         <h1><span>{{ page.title }}</span></h1>
-        {% if page.tags %}{% include page-meta-header.html %}{% endif %}
       </div><!-- /.page-title -->
     </div><!-- /.page-header -->
     <div class="inner-wrap">
-      {% include breadcrumbs.html %}
       <div id="content" class="page-content" itemprop="articleBody">
         {% if page.external.url %}
           <div><a href="{{ page.external.url }}" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>

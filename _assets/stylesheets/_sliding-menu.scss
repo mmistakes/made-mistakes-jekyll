@@ -104,7 +104,6 @@
     @include media($medium) {
       @include font-size(16);
     }
-    border-bottom: 1px solid $white;
     span {
       display: block;
       @include font-size(32,no,1);

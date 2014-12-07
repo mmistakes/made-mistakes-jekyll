@@ -72,12 +72,17 @@
    ========================================================================== */
 
 .page-header {
-  overflow: auto; // fix collapsing margin
   .page-title {
     @include fill-parent;
     h1 {
-      margin-top: $gutter;
+      margin-top: 0;
       margin-bottom: 0;
+      @include media($medium) {
+      @include font-size(42,yes,42);
+      }
+      @include media($large) {
+        @include font-size(58,yes,58);
+      }
     }
     h2 {
       font-weight: 400;
@@ -109,6 +114,7 @@
   }
 
   h1 { /* Default page title */
+    margin-top: 0;
     margin-bottom: 0;
     @include media($medium) {
       @include font-size(42,yes,42);
@@ -119,17 +125,8 @@
   }
   &.overlay h1 { /* Overlay page title */
     @include media($medium) {
-      position: relative;
       color: $white;
       text-shadow: 1px 1px 0 $black;
-      &:before {
-        position: absolute;
-        content: '';
-        width: 100px;
-        height: 2px;
-        background: $white;
-        top: -0.5em;
-      }
     }
   }
 
@@ -146,29 +143,20 @@
     }
   }
 
-  &.overlay .page-meta { /* Overlay meta description and tags */
-    @include media($medium) {
-      span {
-        color: $white;
-        text-shadow: 1px 1px 0 $black;
-        a {
-          color: $white;
-        }
-      }
-    }
-  }
-
 }
 
 .page-image { /* Make content images flush with edges on small screens */
   position: relative;
+  margin-top: -0.5 * $gutter; /* Match .wrap padding */
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
   @include media($medium) {
+    margin-top: -1 * $gutter; /* Match .wrap padding */
     margin-left: -2 * $gutter;
     margin-right: -2 * $gutter;
   }
   @include media($large) {
+    margin-top: -1.25 * $gutter; /* Match .wrap padding */
     margin-left: -2.5 * $gutter;
     margin-right: -2.5 * $gutter;
   }
@@ -300,4 +288,14 @@ h3.author-name {
 .author-follow {
   margin-top: 0;
   @include font-size(16);
+}
+
+/* 
+   Comments
+   ========================================================================== */
+
+.comments {
+  h3 {
+    margin-top: 0;
+  }
 }
