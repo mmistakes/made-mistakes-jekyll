@@ -32,7 +32,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-07-06-grid-method %}">The Grid Method</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-01-13-contour-drawing %}">Contour Line Drawing</a></li>
   </ul>
-</nav>
+</nav><!-- /.toc-left -->
 
 <div class="tiles tiles-right">
 {% for post in site.categories.mastering-paper %}
@@ -46,3 +46,4 @@ In the spirit of openness I've decided to compile everything I've learned using 
     <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
     </article><!-- /.tile -->
 {% endfor %}
+<div class="tiles-right"><!-- /.tiles-right -->
