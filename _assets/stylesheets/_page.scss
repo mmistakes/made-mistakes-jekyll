@@ -8,13 +8,22 @@
 
 .page-content {
   h2 {
-    @include font-size(28,yes,32);
+    @include font-size(24,yes,26);
+    @include media($medium) {
+      @include font-size(28,yes,32);
+    }
   }
   h3 {
-    @include font-size(24,yes,26);
+    @include font-size(20,yes,22);
+    @include media($medium) {
+      @include font-size(24,yes,26);
+    }
   }
   h4 {
-    @include font-size(22);
+    @include font-size(18);
+    @include media($medium) {
+      @include font-size(22);
+    }
   }
 
   /* Increase font size of first paragraph */

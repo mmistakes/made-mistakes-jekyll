@@ -14,11 +14,17 @@ body {
 }
 
 p {
-  @include font-size(18,yes,28);
+  @include font-size(16,yes,24);
+  @include media($medium) {
+    @include font-size(18,yes,28);
+  }
 }
 
 li {
-  @include font-size(16,12,24);
+  @include font-size(14,10,20);
+  @include media($medium){
+    @include font-size(16,12,24);
+  }
 }
 
 /* Headings */
@@ -28,25 +34,40 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 h1 {
-  @include media($micro-only) { @include font-size(24); }
-  @include font-size(36);
+  @include font-size(24);
+  @include media($medium) {
+    @include font-size(36);
+  }
 }
 h2 {
-  @include media($micro-only) { @include font-size(22); }
-  @include font-size(32);
+  @include font-size(22);
+  @include media($medium) {
+    @include font-size(32);
+  }
 }
 h3 {
-  @include media($micro-only) { @include font-size(18); }
-  @include font-size(28);
+  @include font-size(18);
+  @include media($medium) {
+    @include font-size(28);
+  }
+}
+h4, h5, h6 {
+  @include font-size(16);
 }
 h4 {
-  @include font-size(24);
+  @include media($medium) {
+    @include font-size(26);
+  }
 }
 h5 {
-  @include font-size(20);
+  @include media($medium) {
+    @include font-size(24);
+  }
 }
 h6 {
-  @include font-size(18);
+  @include media($medium) {
+    @include font-size(20);
+  }
 }
 
 u,
