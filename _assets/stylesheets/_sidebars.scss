@@ -3,9 +3,11 @@
    ========================================================================== */
 
 .sidebar {
-  @include omega;
+  clear: both;
   @include media($medium) {
     @include span-columns(4);
+    @include omega;
+    clear: none;
   }
   @include transition(500ms cubic-bezier(.645,.045,.355,1.000));
   figcaption {
