@@ -114,11 +114,7 @@
    Related posts (show 3 tiles in a row)
    ========================================================================== */
 
-.related {
-  display: none;
-  @include media(new-breakpoint(min-width em(769) 12)) {
-    display: block;
-  }
+.related-posts {
   .entry-date {
     display: none;
   }
