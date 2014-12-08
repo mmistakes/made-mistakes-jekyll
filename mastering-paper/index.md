@@ -2,7 +2,7 @@
 layout: archive
 title: "Mastering Paper by FiftyThree"
 excerpt: "Tutorials and techniques to help learn Paper."
-modified: 2014-11-12T22:39:54-05:00
+modified: 2014-12-08T12:25:40-05:00
 image: 
   thumb: paper-53-expanded-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
@@ -13,7 +13,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
 
 <nav class="toc toc-left">
   <ul>
-    <li><h6>Getting Started with Paper for iPad</h6></li>
+    <li><h6>Getting Started with Paper</h6></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}">Introduction and Tool Guide</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-07-03-moving-the-loupe %}">Moving the Zoom Loupe</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}">Drawing and Painting Basics</a></li>
