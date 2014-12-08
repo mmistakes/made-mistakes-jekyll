@@ -21,17 +21,20 @@
     border-radius: $border-radius;
   }
   li {
-    @include font-size(16,no,18);
+    @include font-size(14,no,16);
+    @include media($medium) {
+      @include font-size(16,no,18);
+    }
     border-bottom: 1px solid $border-color;
   }
   h6 {
     margin: 0;
-    padding: (.25 * $gutter) $gutter;
+    padding: 7px 14px;
     background: $table-stripe-color;
   }
   a {
     display: block;
-    padding: (.25 * $gutter) $gutter;
+    padding: 7px 14px;
     border-left: 2px solid transparent;
     &:hover,
     &:focus {
