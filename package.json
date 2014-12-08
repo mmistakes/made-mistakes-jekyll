@@ -2,7 +2,7 @@
   "name": "made-mistakes",
   "version": "1.1",
   "description": "Based on Skinny Bones Jekyll starter",
-  "author": "Michael Rose <michael@mademistakes.com>",
+  "author": "Michael Rose",
   "homepage": "http://mademistakes.com/",
   "license": "The MIT License (MIT)",
   "devDependencies": {

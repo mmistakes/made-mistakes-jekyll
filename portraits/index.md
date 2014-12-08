@@ -29,9 +29,6 @@ Using a photograph supplied by you as reference I draw my interpretation of it, 
 
 Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. My drawings are only as strong as the photos I have to work with. Lighting, composition, and resolution all matter. I've gotten pretty good at capturing realism with Paper, but I do have limits and can only draw what I can see. When in doubt, please ask me before placing an order.
 
-**Don't have a reference linked up somewhere?** No problem. After placing an order include a note in PayPal's special instructions that you'll be emailing me a photo and then send it over to <michael@mademistakes.com>.
-{:.notice}
-
 ## Then I Draw
 
 I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once finished I'll tweet out the drawing so my followers can enjoy it and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print. If by chance you're purchasing a drawing as a gift and would like me to hold off tweeting it for a few days just let me know. Wouldn't want to ruin the surprise...
