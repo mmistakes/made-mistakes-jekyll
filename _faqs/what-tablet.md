@@ -2,6 +2,8 @@
 title: "What tablet do you draw and paint on?"
 layout: article
 type: paper
+date: 2014-12-07
+modified: 2014-12-08T12:25:58-05:00
 order: 2
 ---
 

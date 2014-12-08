@@ -2,6 +2,8 @@
 title: "Why do you share your drawings on Mix for anyone to download?"
 layout: article
 type: paper
+date: 2014-12-07
+modified: 2014-12-08T12:25:58-05:00
 order: 10
 ---
 

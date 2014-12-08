@@ -2,6 +2,8 @@
 title: "Which stylus do you recommend for Paper?"
 layout: article
 type: paper
+date: 2014-12-07
+modified: 2014-12-08T12:25:58-05:00
 order: 4
 ---
 
