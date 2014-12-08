@@ -9,5 +9,5 @@ image:
   feature:
   teaser:
   thumb:
-toc: true
+comments:
 ---

@@ -9,8 +9,7 @@ image:
   feature:
   teaser:
   thumb:
-toc: true
-comments: true
+comments:
 ---
 
 ## The Basics
