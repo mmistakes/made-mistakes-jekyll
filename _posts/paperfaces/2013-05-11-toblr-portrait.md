@@ -6,12 +6,7 @@ image:
   feature: paperfaces-toblr-twitter-lg.jpg
   thumb: paperfaces-toblr-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
-- hoodie
+tags: [portrait, illustration, Paper by 53, hoodie]
 ---
 
 PaperFaces portrait of [@toblr](http://twitter.com/toblr).

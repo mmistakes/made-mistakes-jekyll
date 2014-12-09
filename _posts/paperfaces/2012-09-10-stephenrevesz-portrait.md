@@ -6,11 +6,7 @@ image:
   feature: paperfaces-stephenrevesz-twitter-lg.jpg
   thumb: paperfaces-stephenrevesz-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@stephenrevesz](http://twitter.com/stephenrevesz).

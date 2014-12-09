@@ -6,11 +6,7 @@ image:
   feature: paperfaces-sdtechgirl-twitter-lg.jpg
   thumb: paperfaces-sdtechgirl-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@SDTechGirl](http://twitter.com/SDTechGirl).

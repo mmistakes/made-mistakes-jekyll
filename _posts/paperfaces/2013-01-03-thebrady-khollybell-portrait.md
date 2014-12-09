@@ -6,11 +6,7 @@ image:
   feature: paperfaces-thebrady-khollybell-twitter-lg.jpg
   thumb: paperfaces-thebrady-khollybell-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of project donator [@theBrady](http://twitter.com/theBrady) and [@khollybell](http://twitter.com/khollybell).

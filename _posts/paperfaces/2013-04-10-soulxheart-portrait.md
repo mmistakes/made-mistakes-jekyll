@@ -6,11 +6,7 @@ image:
   feature: paperfaces-soulxheart-twitter-lg.jpg
   thumb: paperfaces-soulxheart-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@soulxheart](http://twitter.com/soulxheart).

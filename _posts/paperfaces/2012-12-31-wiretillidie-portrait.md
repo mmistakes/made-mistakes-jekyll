@@ -6,11 +6,7 @@ image:
   feature: paperfaces-wiretillidie-twitter-lg.jpg
   thumb: paperfaces-wiretillidie-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commissioned of [@wiretillidie](http://twitter.com/wiretillidie).

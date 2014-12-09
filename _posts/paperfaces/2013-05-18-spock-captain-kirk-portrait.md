@@ -6,12 +6,7 @@ image:
   feature: paperfaces-spock-kirk-star-trek-lg.jpg
   thumb: paperfaces-spock-kirk-star-trek-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
-- Star Trek
+tags: [portrait, illustration, Paper by 53, Star Trek]
 ---
 
 Mr. Spock and Captain Kirk --- a scene from the motion picture, *Star Trek Into Darkness*.

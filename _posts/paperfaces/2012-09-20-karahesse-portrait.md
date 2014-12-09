@@ -6,11 +6,7 @@ image:
   feature: paperfaces-karahesse-twitter-lg.jpg
   thumb: paperfaces-karahesse-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@karahesse](http://twitter.com/karahesse).

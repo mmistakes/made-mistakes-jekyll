@@ -6,11 +6,7 @@ image:
   feature: paperfaces-londonwebdev-twitter-lg.jpg
   thumb: paperfaces-londonwebdev-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@LondonWebDev](http://twitter.com/LondonWebDev).

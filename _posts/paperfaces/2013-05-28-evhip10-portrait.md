@@ -6,11 +6,7 @@ image:
   feature: paperfaces-evhip10-twitter-lg.jpg
   thumb: paperfaces-evhip10-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@EvHip10](http://twitter.com/EvHip10).

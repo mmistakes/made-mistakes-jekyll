@@ -6,11 +6,7 @@ image:
   feature: paperfaces-neikura-twitter-lg.jpg
   thumb: paperfaces-neikura-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@neikura](http://twitter.com/neikura).

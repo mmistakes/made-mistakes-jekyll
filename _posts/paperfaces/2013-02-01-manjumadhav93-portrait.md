@@ -6,11 +6,7 @@ image:
   feature: paperfaces-manjumadhav93-twitter-lg.jpg
   thumb: paperfaces-manjumadhav93-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@manjumadhav93](http://twitter.com/manjumadhav93).

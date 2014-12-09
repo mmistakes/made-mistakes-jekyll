@@ -6,11 +6,7 @@ image:
   feature: paperfaces-ashleymnunn-twitter-lg.jpg
   thumb: paperfaces-ashleymnunn-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@ashleymnunn](http://twitter.com/ashleymnunn).

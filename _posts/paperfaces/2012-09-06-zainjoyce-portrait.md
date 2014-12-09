@@ -6,11 +6,7 @@ image:
   feature: paperfaces-zainjoyce-twitter-lg.jpg
   thumb: paperfaces-zainjoyce-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@zainjoyce](http://twitter.com/zainjoyce).

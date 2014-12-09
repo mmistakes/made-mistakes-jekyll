@@ -6,11 +6,7 @@ image:
   feature: paperfaces-designhawg-twitter-lg.jpg
   thumb: paperfaces-designhawg-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@designhawg](http://twitter.com/designhawg).

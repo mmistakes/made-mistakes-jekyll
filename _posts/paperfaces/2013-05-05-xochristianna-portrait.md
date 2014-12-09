@@ -6,11 +6,7 @@ image:
   feature: paperfaces-xochristianna-twitter-lg.jpg
   thumb: paperfaces-xochristianna-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of project donator [@xochristianna](http://twitter.com/xochristianna).

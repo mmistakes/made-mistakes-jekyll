@@ -6,11 +6,7 @@ image:
   feature: paperfaces-adeirra-twitter-lg.jpg
   thumb: paperfaces-adeirra-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of project donator [@adeirra](http://twitter.com/adeirra).

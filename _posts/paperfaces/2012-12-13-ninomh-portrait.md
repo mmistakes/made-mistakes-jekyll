@@ -6,11 +6,7 @@ image:
   feature: paperfaces-ninomh-twitter-lg.jpg
   thumb: paperfaces-ninomh-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@ninoMH](http://twitter.com/ninoMH).

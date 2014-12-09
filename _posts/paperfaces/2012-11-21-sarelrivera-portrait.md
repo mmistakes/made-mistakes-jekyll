@@ -6,11 +6,7 @@ image:
   feature: paperfaces-sarelrivera-twitter-lg.jpg
   thumb: paperfaces-sarelrivera-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commissioned of [@sarelrivera](http://twitter.com/sarelrivera).

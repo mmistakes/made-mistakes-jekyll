@@ -6,11 +6,7 @@ image:
   feature: paperfaces-toberl-twitter-lg.jpg
   thumb: paperfaces-toberl-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-- beard
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@toberl](http://twitter.com/toberl).

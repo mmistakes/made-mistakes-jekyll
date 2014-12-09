@@ -6,11 +6,7 @@ image:
   feature: paperfaces-leahchu-twitter-lg.jpg
   thumb: paperfaces-leahchu-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@leahchu](http://twitter.com/leahchu).

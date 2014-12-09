@@ -6,11 +6,7 @@ image:
   feature: paperfaces-gudmundur-twitter-lg.jpg
   thumb: paperfaces-gudmundur-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-- beard
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@gudmundur](http://twitter.com/gudmundur).

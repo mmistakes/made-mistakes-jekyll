@@ -6,11 +6,7 @@ image:
   feature: paperfaces-tellyoumore-twitter-lg.jpg
   thumb: paperfaces-tellyoumore-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@TellYouMore](http://twitter.com/TellYouMore).

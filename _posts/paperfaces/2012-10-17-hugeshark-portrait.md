@@ -6,11 +6,7 @@ image:
   feature: paperfaces-hugeshark-twitter-lg.jpg
   thumb: paperfaces-hugeshark-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@hugeshark](http://twitter.com/hugeshark).

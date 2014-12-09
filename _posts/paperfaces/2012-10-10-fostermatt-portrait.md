@@ -6,11 +6,7 @@ image:
   feature: paperfaces-fostermatt-twitter-lg.jpg
   thumb: paperfaces-fostermatt-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@fostermatt](http://twitter.com/fostermatt).

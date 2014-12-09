@@ -6,11 +6,7 @@ image:
   feature: paperfaces-benmarsh-twitter-lg.jpg
   thumb: paperfaces-benmarsh-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@benmarsh](http://twitter.com/benmarsh).

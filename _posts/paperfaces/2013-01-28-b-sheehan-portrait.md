@@ -6,11 +6,7 @@ image:
   feature: paperfaces-b-sheehan-twitter-lg.jpg
   thumb: paperfaces-b-sheehan-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@B_Sheehan](http://twitter.com/B_Sheehan).

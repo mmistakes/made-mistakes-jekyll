@@ -6,12 +6,7 @@ image:
   feature: paperfaces-skinny-whiteguy-twitter-lg.jpg
   thumb: paperfaces-skinny-whiteguy-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
-- glasses
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@skinny_whiteguy](http://twitter.com/skinny_whiteguy).

@@ -6,11 +6,7 @@ image:
   feature: paperfaces-bradykent-twitter-lg.jpg
   thumb: paperfaces-bradykent-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@bradykent](http://twitter.com/bradykent).

@@ -6,11 +6,7 @@ image:
   feature: paperfaces-jloupe-twitter-lg.jpg
   thumb: paperfaces-jloupe-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of project donator [@jloupe](http://twitter.com/jloupe).

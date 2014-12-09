@@ -6,11 +6,7 @@ image:
   feature: paperfaces-mitchellnicola-twitter-lg.jpg
   thumb: paperfaces-mitchellnicola-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@mitchellnicola](http://twitter.com/mitchellnicola).

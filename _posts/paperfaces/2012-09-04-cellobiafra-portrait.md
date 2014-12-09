@@ -6,11 +6,7 @@ image:
   feature: paperfaces-cellobiafra-twitter-lg.jpg
   thumb: paperfaces-cellobiafra-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@cellobiafra](http://twitter.com/cellobiafra).

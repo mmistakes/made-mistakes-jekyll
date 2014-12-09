@@ -6,11 +6,7 @@ image:
   feature: paperfaces-vilkina-twitter-lg.jpg
   thumb: paperfaces-vilkina-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@vilkina](http://twitter.com/vilkina).

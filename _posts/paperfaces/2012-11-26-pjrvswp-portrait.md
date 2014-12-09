@@ -6,11 +6,7 @@ image:
   feature: paperfaces-pjrvswp-twitter-lg.jpg
   thumb: paperfaces-pjrvswp-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-- beard
+tags: [portrait, illustration, Paper by 53, tattoo]
 ---
 
 PaperFaces portrait of project donator [@pjrvswp](http://twitter.com/pjrvswp).

@@ -6,11 +6,7 @@ image:
   feature: paperfaces-aarongreenlee-twitter-lg.jpg
   thumb: paperfaces-aarongreenlee-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@aarongreenlee](http://twitter.com/aarongreenlee).

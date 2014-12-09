@@ -6,11 +6,7 @@ image:
   feature: paperfaces-miemzzz-twitter-lg.jpg
   thumb: paperfaces-miemzzz-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@MiemZzz](http://twitter.com/MiemZzz).

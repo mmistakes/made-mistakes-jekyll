@@ -6,11 +6,7 @@ image:
   feature: paperfaces-rudy-lg.jpg
   thumb: paperfaces-rudy-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 Commissioned portrait of "Rudy".

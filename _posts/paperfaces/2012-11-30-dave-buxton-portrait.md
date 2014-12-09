@@ -6,11 +6,7 @@ image:
   feature: paperfaces-dave-buxton-twitter-lg.jpg
   thumb: paperfaces-dave-buxton-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of project donator [@Dave_Buxton](http://twitter.com/Dave_Buxton).

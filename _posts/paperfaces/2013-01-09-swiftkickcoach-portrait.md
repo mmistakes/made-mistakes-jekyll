@@ -6,11 +6,7 @@ image:
   feature: paperfaces-swiftkickcoach-twitter-lg.jpg
   thumb: paperfaces-swiftkickcoach-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@SwiftKickCoach_](http://twitter.com/SwiftKickCoach_).

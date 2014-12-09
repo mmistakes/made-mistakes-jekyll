@@ -6,11 +6,7 @@ image:
   feature: paperfaces-ncfc-mad-twitter-lg.jpg
   thumb: paperfaces-ncfc-mad-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@NCFC_Mad](http://twitter.com/NCFC_Mad).

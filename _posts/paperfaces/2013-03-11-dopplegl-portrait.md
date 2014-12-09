@@ -6,11 +6,7 @@ image:
   feature: paperfaces-dopplegl-twitter-lg.jpg
   thumb: paperfaces-dopplegl-twitter-150.jpg
 category: paperfaces
-tags: 
-- portrait
-- illustration
-- Paper by 53
-
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@dopplegl](http://twitter.com/dopplegl).
