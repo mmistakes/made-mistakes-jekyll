@@ -3,6 +3,6 @@
     <span><i class="fa fa-folder-open-o fa-fw"></i> &nbsp; {% for tag in page.tags %}<a href="{{ site.url }}{{ tag | slugify | prepend: '/tag/' | append: '/' }}" title="{{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
   {% endif %}
 	{% if page.date %}
-    <span><i class="fa fa-clock-o fa-fw"></i> &nbsp; Updated {% if page.modified %}<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% else %}<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% endif %}</span><br />
+    <span><i class="fa fa-clock-o fa-fw"></i> &nbsp; Updated {% if page.modified %}<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% else %}<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% endif %}</span>
   {% endif %}
 </div><!-- /.page-meta -->
