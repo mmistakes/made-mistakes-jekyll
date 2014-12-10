@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-beer-pretzel-teaser.jpg
   thumb: paperfaces-beer-pretzel-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white, Mix]
 ---
 
 PaperFaces portrait commission that is available for [remixing on Mix](https://mix.fiftythree.com/11098-Michael-Rose/147204).

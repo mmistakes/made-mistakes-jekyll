@@ -8,7 +8,7 @@ image:
   teaser: paper-53-water-guide-teaser.jpg
   thumb: paper-53-water-guide-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, painting, iPad, water, waves]
+tags: [Paper by 53, tutorial, drawing, painting, water, waves, iPad]
 comments: true
 ---
 

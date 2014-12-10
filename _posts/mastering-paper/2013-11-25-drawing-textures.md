@@ -8,7 +8,7 @@ image:
   teaser: paper-53-texture-guide-teaser.jpg
   thumb: paper-53-texture-guide-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, painting, iPad, texture, wood]
+tags: [Paper by 53, tutorial, drawing, painting, texture, wood, iPad]
 comments: true
 ---
 

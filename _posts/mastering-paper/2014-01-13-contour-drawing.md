@@ -8,7 +8,7 @@ image:
   teaser: paper-53-contour-drawing-teaser.jpg
   thumb: paper-53-contour-drawing-thumb.jpg
 category: mastering-paper
-tags: [blind contour, Paper by 53, tutorial, drawing, painting, iPad]
+tags: [Paper by 53, blind contour, tutorial, drawing, iPad]
 comments: true
 ---
 

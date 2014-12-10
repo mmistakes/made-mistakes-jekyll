@@ -8,7 +8,7 @@ image:
   teaser: paper-53-trees-guide-teaser.jpg
   thumb: paper-53-trees-guide-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, painting, iPad, trees, grass]
+tags: [Paper by 53, tutorial, drawing, painting, trees, grass, iPad]
 comments: true
 ---
 
