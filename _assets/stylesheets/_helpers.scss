@@ -10,10 +10,10 @@
 
 .wrap {
   @include outer-container;
-  padding: (0.5 * $gutter) $gutter;
+  padding: $gutter;
   box-shadow: 0 0 5px darken($background-color, 20);
   @include media($medium) {
-    padding: $gutter (2 * $gutter);
+    padding: (2 * $gutter) (2 * $gutter);
   }
   @include media($large) {
     padding: (1.25 * $gutter) (2.5 * $gutter);

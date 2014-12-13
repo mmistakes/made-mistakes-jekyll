@@ -156,11 +156,11 @@
 
 .page-image { /* Make content images flush with edges on small screens */
   position: relative;
-  margin-top: -0.5 * $gutter; /* Match .wrap padding */
+  margin-top: -1 * $gutter; /* Match .wrap padding */
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
   @include media($medium) {
-    margin-top: -1 * $gutter; /* Match .wrap padding */
+    margin-top: -2 * $gutter; /* Match .wrap padding */
     margin-left: -2 * $gutter;
     margin-right: -2 * $gutter;
   }
