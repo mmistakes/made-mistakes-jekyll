@@ -45,4 +45,4 @@ In the spirit of openness I've decided to compile everything I've learned using 
     <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
     </article><!-- /.tile -->
 {% endfor %}
-<div class="tiles-right"><!-- /.tiles-right -->
+</div><!-- /.tiles-right -->
