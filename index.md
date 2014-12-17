@@ -4,7 +4,7 @@ permalink: /
 title: "A Designer’s Faux Pas"
 excerpt: "Making stuff one mmistake at a time."
 image:
-  feature: 
+  feature: home-feature.jpg
 id: home
 ---
 
@@ -33,7 +33,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 
 ---
 
-### [Faces I've Drawn]({{ site.url }}/paperfaces/)
+### [Portraits I've Drawn]({{ site.url }}/paperfaces/)
 
 <ul class="th-grid-full">
 {% for post in site.categories.paperfaces limit:8 %}
