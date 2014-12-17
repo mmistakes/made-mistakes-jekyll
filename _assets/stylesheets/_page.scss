@@ -29,7 +29,6 @@
   /* Increase font size of first paragraph */
   > p {
     &:first-child {
-      @include font-size(18,yes,28);
       @include media($medium) {
         @include font-size(20,yes,30);
       }
@@ -87,7 +86,7 @@
   h1 { /* Default page title */
     margin-top: 0;
     margin-bottom: 0;
-    @include font-size(32,no,32);
+    @include font-size(24,no,24);
     @include media($medium) {
       @include font-size(42,no,42);
     }
@@ -98,7 +97,9 @@
   h2 { /* Default page sub-headline */
     margin-top: 0;
     font-weight: 400;
-    @include media($micro-only) { @include font-size(22,yes,1.25); }
+    @include media($micro-only) { 
+      @include font-size(20,yes,1.25); 
+    }
     @include font-size(28,yes,1.25);
   }
 }
