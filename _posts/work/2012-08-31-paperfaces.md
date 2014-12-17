@@ -1,7 +1,8 @@
 ---
 layout: gallery
 permalink: /paperfaces/
-title: "PaperFaces Project Gallery"
+title: "PaperFaces Project"
+subtitle: "Gallery of portraits drawn with Paper by Fiftythree."
 excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."
 modified: 2014-08-29T10:11:50-04:00
 image: 

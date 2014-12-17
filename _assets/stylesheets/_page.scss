@@ -29,6 +29,7 @@
   /* Increase font size of first paragraph */
   > p {
     &:first-child {
+      @include font-size(18,yes,28);
       @include media($medium) {
         @include font-size(20,yes,30);
       }
@@ -77,28 +78,28 @@
 }
 
 /* 
-   Default page header (text only)
+   Default page title
    ========================================================================== */
 
-.page-header {
-  .page-title {
-    @include fill-parent;
-    h1 {
-      margin-top: 0;
-      margin-bottom: 0;
-      @include media($medium) {
-      @include font-size(42,yes,42);
-      }
-      @include media($large) {
-        @include font-size(58,yes,58);
-      }
+
+.page-title {
+  @include fill-parent;
+  h1 { /* Default page title */
+    margin-top: 0;
+    margin-bottom: 0;
+    @include font-size(32,no,32);
+    @include media($medium) {
+      @include font-size(42,no,42);
     }
-    h2 {
-      font-weight: 400;
-      margin-top: 0;
-      @include media($micro-only) { @include font-size(22,yes,1.25); }
-      @include font-size(28,yes,1.25);
+    @include media($large) {
+      @include font-size(58,no,58);
     }
+  }
+  h2 { /* Default page sub-headline */
+    margin-top: 0;
+    font-weight: 400;
+    @include media($micro-only) { @include font-size(22,yes,1.25); }
+    @include font-size(28,yes,1.25);
   }
 }
 
@@ -116,20 +117,10 @@
   &.overlay .page-title { /* Position title on top of feature image */
     @include media($medium) {
       position: absolute;
-      bottom: 5%;
+      bottom: 0;
       z-index: 1;
       @include span-columns(10);
-    }
-  }
-
-  h1 { /* Default page title */
-    margin-top: 0;
-    margin-bottom: 0;
-    @include media($medium) {
-      @include font-size(42,yes,42);
-    }
-    @include media($large) {
-      @include font-size(58,yes,58);
+      padding-bottom: 2 * $gutter;
     }
   }
   &.overlay h1 { /* Overlay page title */
@@ -138,20 +129,13 @@
       text-shadow: 1px 1px 0 $black;
     }
   }
-
-  h2 { /* Default page sub-headline */
-    margin-top: 0;
-    font-weight: 400;
-    @include media($micro-only) { @include font-size(22,yes,1.25); }
-    @include font-size(28,yes,1.25);
-  }
   &.overlay h2 { /* Overlay page sub-headline */
     @include media($medium) {
       color: $white;
       text-shadow: 1px 1px 0 $black;
+      margin-bottom: 0;
     }
   }
-
 }
 
 .page-image { /* Make content images flush with edges on small screens */
