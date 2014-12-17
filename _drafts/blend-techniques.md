@@ -4,7 +4,7 @@ title: "Mastering Paper by 53: Blend Techniques"
 modified:
 categories: mastering-paper
 excerpt:
-tags: [Paper by 53, tutorial, drawing, painting, Blend, iPad]
+tags: [paper by 53, tutorial, drawing, painting, blend, ipad]
 image:
   feature:
   teaser:
