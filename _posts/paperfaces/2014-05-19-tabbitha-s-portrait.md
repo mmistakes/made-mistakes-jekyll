@@ -6,7 +6,7 @@ image:
   feature: paperfaces-tabbitha-s-lg.jpg
   thumb: paperfaces-tabbitha-s-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of a [Tabbitha S.](http://sktchy.com/WjxgQ) inspired by a photograph on Sktchy.

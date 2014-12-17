@@ -6,7 +6,7 @@ image:
   feature: paperfaces-chronic-twitter-lg.jpg
   thumb: paperfaces-chronic-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@chronic](http://twitter.com/chronic).

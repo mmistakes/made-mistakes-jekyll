@@ -6,7 +6,7 @@ image:
   feature: paperfaces-neil-pie-twitter-lg.jpg
   thumb: paperfaces-neil-pie-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@neil_pie](http://twitter.com/neil_pie).

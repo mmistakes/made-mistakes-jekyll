@@ -6,7 +6,7 @@ image:
   feature: paperfaces-krkwd-twitter-lg.jpg
   thumb: paperfaces-krkwd-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@krkwd](http://twitter.com/krkwd).

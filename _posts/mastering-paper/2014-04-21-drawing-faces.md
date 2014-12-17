@@ -8,7 +8,7 @@ image:
   teaser: paper-53-faces-teaser.jpg
   thumb: paper-53-faces-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, painting, portrait, skin, iPad]
+tags: [paper by 53, tutorial, drawing, painting, portrait, skin, ipad]
 comments: true
 ---
 

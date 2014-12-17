@@ -6,7 +6,7 @@ image:
   feature: paperfaces-patricia-f-lg.jpg
   thumb: paperfaces-patricia-f-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 
 PaperFaces portrait of a [Patricia F.](http://sktchy.com/hLo0C) inspired by a photograph on Sktchy.

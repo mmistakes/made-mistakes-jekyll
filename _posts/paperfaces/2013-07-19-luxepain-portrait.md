@@ -6,7 +6,7 @@ image:
   feature: paperfaces-luxepain-twitter-lg.jpg
   thumb: paperfaces-luxepain-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@luxepain](http://twitter.com/luxepain). Always looking to further perfect my hair drawing skills --- boy was there a bunch of hair for me to practice on in this sketch! I'm including a few work in progress screen grabs below showing how I built up the hair with pencil line after pencil line after pencil line.

@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-mosiejczuk-twitter-teaser.jpg
   thumb: paperfaces-mosiejczuk-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@mosiejczuk](http://twitter.com/mosiejczuk).

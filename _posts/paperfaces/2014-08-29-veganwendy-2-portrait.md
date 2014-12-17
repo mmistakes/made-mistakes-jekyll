@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-veganwendy-2-twitter-teaser.jpg
   thumb: paperfaces-veganwendy-2-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 Well it's been exactly two years since I started the [PaperFaces Project]({{ site.url }}/paperfaces/). Thought it would be interesting to draw [my wife](http://twitter.com/veganwendy) again to see how much my skills had improved over the course of the project.

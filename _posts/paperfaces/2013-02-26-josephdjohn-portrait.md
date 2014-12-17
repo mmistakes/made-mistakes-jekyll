@@ -6,7 +6,7 @@ image:
   feature: paperfaces-josephedjohn-twitter-lg.jpg
   thumb: paperfaces-josephedjohn-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of project donator [@josephedjohn](http://twitter.com/josephedjohn).

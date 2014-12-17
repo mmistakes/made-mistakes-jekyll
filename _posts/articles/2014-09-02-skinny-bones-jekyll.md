@@ -6,7 +6,7 @@ image:
   feature: skinny-bones-theme-feature.jpg
   teaser: skinny-bones-theme-teaser.jpg
 category: articles
-tags: [Jekyll, web development, open source, GitHub]
+tags: [jekyll, web development, open source, github]
 modified: 
 comments: true
 ---

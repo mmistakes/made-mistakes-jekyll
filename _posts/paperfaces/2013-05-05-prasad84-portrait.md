@@ -6,7 +6,7 @@ image:
   feature: paperfaces-prasad84-twitter-lg.jpg
   thumb: paperfaces-prasad84-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@prasad84](http://twitter.com/prasad84).

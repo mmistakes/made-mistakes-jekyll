@@ -6,7 +6,7 @@ image:
   feature: paperfaces-moonflowerchild-twitter-lg.jpg
   thumb: paperfaces-moonflowerchild-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@moonflowerchild](http://twitter.com/moonflowerchild).

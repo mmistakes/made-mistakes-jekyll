@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sarakenobi-twitter-lg.jpg
   thumb: paperfaces-sarakenobi-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait avatar for [@sarakenobi](http://twitter.com/sarakenobi).

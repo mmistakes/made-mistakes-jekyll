@@ -6,7 +6,7 @@ image:
   feature: paperfaces-joeavella-twitter-lg.jpg
   thumb: paperfaces-joeavella-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, graffiti]
+tags: [portrait, illustration, paper by 53, graffiti]
 ---
 
 PaperFaces portrait of [@joeavella](http://twitter.com/joeavella).

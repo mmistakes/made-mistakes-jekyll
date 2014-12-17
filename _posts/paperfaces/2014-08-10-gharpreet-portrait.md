@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-gharpreet-twitter-teaser.jpg
   thumb: paperfaces-gharpreet-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of [@GHarpreet](http://twitter.com/gharpreet).

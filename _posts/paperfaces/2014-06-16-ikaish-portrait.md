@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-ikaish-twitter-teaser.jpg
   thumb: paperfaces-ikaish-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, Blend]
+tags: [portrait, illustration, paper by 53, black and white, blend]
 ---
 
 PaperFaces portrait of [@ikaish](http://twitter.com/ikaish).

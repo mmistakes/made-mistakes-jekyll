@@ -7,7 +7,7 @@ image:
   feature: pogo-connect-review-feature.jpg
   teaser: pogo-connect-review-teaser.jpg
 category: articles
-tags: [Pogo Connect, Paper by 53, stylus, review, iPad]
+tags: [pogo connect, paper by 53, stylus, review, ipad]
 comments: true
 ---
 

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-doertedev-twitter-lg.jpg
   thumb: paperfaces-doertedev-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@doertedev](http://twitter.com/doertedev).

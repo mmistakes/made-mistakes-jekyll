@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kristian-twitter-lg.jpg
   thumb: paperfaces-kristian-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/kristian">@kristian</a>.

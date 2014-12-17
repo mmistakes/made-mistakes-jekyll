@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mikeredmer-twitter-lg.jpg
   thumb: paperfaces-mikeredmer-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, Google Glass]
+tags: [portrait, illustration, paper by 53, black and white, google glass]
 ---
 
 PaperFaces portrait of [@mikeredmer](http://twitter.com/mikeredmer).

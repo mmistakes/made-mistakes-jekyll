@@ -6,7 +6,7 @@ image:
   feature: paperfaces-haley-twitter-lg.jpg
   thumb: paperfaces-haley-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/haley">@haley</a>.

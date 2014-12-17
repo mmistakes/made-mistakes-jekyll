@@ -6,7 +6,7 @@ image:
   feature: paperfaces-m-large-lg.jpg
   thumb: paperfaces-m-large-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, beard, black and white]
+tags: [portrait, illustration, paper by 53, sktchy, beard, black and white]
 ---
 
 PaperFaces portrait of a [M Large](http://sktchy.com/0qfVg) inspired by a photograph on Sktchy.

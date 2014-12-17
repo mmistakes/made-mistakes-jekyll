@@ -6,7 +6,7 @@ image:
   feature: paperfaces-archaikh-twitter-lg.jpg
   thumb: paperfaces-archaikh-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/Archaikh">@Archaikh</a>.

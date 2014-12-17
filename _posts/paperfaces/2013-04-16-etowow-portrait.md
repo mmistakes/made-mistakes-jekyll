@@ -6,7 +6,7 @@ image:
   feature: paperfaces-etowow-twitter-lg.jpg
   thumb: paperfaces-etowow-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@etowow](http://twitter.com/etowow).

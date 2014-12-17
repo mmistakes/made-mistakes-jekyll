@@ -10,7 +10,7 @@ image:
   teaser: so-simple-theme-teaser.jpg
   thumb: so-simple-250x250.png
 category: articles
-tags: [Jekyll, web development, open source, GitHub]
+tags: [jekyll, web development, open source, github]
 comments: true
 ---
 

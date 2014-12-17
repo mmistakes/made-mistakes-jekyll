@@ -6,7 +6,7 @@ image:
   feature: paperfaces-effy-e-lg.jpg
   thumb: paperfaces-effy-e-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of <a href="http://sktchy.com/FH2qnD">Effy E</a>, inspiration found via Sktchy.

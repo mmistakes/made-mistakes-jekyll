@@ -6,7 +6,7 @@ image:
   feature: paperfaces-patrickch-twitter-lg.jpg
   thumb: paperfaces-patrickch-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/PatrickCH">@PatrickCH</a>.

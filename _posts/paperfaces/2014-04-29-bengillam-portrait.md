@@ -6,7 +6,7 @@ image:
   feature: paperfaces-bengillam-twitter-lg.jpg
   thumb: paperfaces-bengillam-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@bengillam](http://twitter.com/bengillam).

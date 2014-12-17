@@ -6,7 +6,7 @@ image:
   feature: paperfaces-agentkyle-twitter-lg.jpg
   thumb: paperfaces-agentkyle-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@AgentKyle](http://twitter.com/AgentKyle).

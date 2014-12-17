@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-tyrol-mr-twitter-teaser.jpg
   thumb: paperfaces-tyrol-mr-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@tyrol_mr](http://twitter.com/tyrol_mr).

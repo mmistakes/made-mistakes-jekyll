@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rraacchheeaall-instagram-lg.jpg
   thumb: paperfaces-rraacchheeaall-instagram-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@rraacchheeaall](http://instagram.com/rraacchheeaall).

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kyle-bridget-lg.jpg
   thumb: paperfaces-kyle-bridget-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of project donator Kyle and Bridget.

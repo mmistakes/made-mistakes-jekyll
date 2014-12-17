@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-cincinnatigal-twitter-teaser.jpg
   thumb: paperfaces-cincinnatigal-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, dog]
+tags: [portrait, illustration, paper by 53, dog]
 ---
 
 PaperFaces portrait of [@CincinnatiGal](http://twitter.com/CincinnatiGal).

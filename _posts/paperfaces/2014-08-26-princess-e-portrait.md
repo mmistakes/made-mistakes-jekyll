@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-princess-e-teaser.jpg
   thumb: paperfaces-princess-e-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 Each time I use Paper's pencil tool I'm impressed with how well it performs. It doesn't just make textured marks like every other drawing app, but is able to replicate the nuance of *real* colored pencils.

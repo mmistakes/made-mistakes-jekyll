@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-sidraz-twitter-teaser.jpg
   thumb: paperfaces-sidraz-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@sidraz](http://twitter.com/sidraz).

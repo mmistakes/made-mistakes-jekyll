@@ -8,7 +8,7 @@ image:
   teaser: madewithpaper-guide-teaser.jpg
   thumb: madewithpaper-guide-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, iPad]
+tags: [paper by 53, tutorial, drawing, ipad]
 comments: true
 ---
 

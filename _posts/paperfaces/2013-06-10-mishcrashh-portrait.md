@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mishcrashh-twitter-lg.jpg
   thumb: paperfaces-mishcrashh-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@mishcrashh](http://twitter.com/mishcrashh).

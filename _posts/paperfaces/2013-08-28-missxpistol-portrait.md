@@ -6,7 +6,7 @@ image:
   feature: paperfaces-missxpistol-twitter-lg.jpg
   thumb: paperfaces-missxpistol-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@missxpistol](http://twitter.com/missxpistol).

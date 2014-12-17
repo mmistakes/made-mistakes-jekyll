@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-darth-maul-teaser.jpg
   thumb: paperfaces-darth-maul-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Star Wars]
+tags: [portrait, illustration, paper by 53, star wars]
 ---
 
 PaperFaces portrait of Darth Maul from Episode I: The Phantom Menace.

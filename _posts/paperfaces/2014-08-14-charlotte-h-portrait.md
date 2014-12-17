@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-charlotte-h-teaser.jpg
   thumb: paperfaces-charlotte-h-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of Charlotte H. inspired by a photograph on Sktchy.

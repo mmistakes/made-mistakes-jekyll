@@ -6,7 +6,7 @@ image:
   feature: paperfaces-talia-p-lg.jpg
   thumb: paperfaces-talia-p-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of a [Talia P.](http://sktchy.com/SVXZg) inspired by a photograph on Sktchy.

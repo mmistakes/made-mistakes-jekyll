@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-chloe-winter-teaser.jpg
   thumb: paperfaces-chloe-winter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend, black and white, twins]
+tags: [portrait, illustration, paper by 53, blend, black and white, twins]
 ---
 
 Just like [her sister]({% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}), *Chlo-worm's* hair can't be tamed.

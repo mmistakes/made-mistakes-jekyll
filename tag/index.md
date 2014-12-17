@@ -6,7 +6,7 @@ excerpt: "An archive of pages sorted by tag name."
 share: false  
 ---
 
-### An archive of pages sorted by tag.
+### An archive of pages sorted by tag name.
 
 <ul class="tag-box">
 {% assign tags_list = site.tags | sort %}  

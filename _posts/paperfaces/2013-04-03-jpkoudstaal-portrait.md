@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jpkoudstaal-twitter-lg.jpg
   thumb: paperfaces-jpkoudstaal-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@JPKoudstaal](http://twitter.com/JPKoudstaal).

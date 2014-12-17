@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-nick-b-teaser.jpg
   thumb: paperfaces-nick-b-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Mix]
+tags: [portrait, illustration, paper by 53, mix]
 ---
 
 PaperFaces portrait commission of Nick B. 

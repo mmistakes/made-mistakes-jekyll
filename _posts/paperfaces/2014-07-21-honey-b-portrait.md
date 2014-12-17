@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-honey-b-teaser.jpg
   thumb: paperfaces-honey-b-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of Honey B. inspired by a photograph on Sktchy.

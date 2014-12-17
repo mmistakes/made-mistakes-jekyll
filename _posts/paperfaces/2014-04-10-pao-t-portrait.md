@@ -6,7 +6,7 @@ image:
   feature: paperfaces-pao-t-lg.jpg
   thumb: paperfaces-pao-t-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of a [Pao T.](http://sktchy.com/LWk59H) inspired by a photograph on Sktchy.

@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-bethany-g-teaser.jpg
   thumb: paperfaces-bethany-g-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of a [Bethany G.](http://sktchy.com/LWJNV) inspired by a photograph on Sktchy.

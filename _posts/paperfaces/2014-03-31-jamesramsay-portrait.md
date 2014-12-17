@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jamesramsay-twitter-lg.jpg
   thumb: paperfaces-jamesramsay-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, landscape]
+tags: [portrait, illustration, paper by 53, landscape]
 ---
 
 PaperFaces portrait of [@JamesRamsay](http://twitter.com/JamesRamsay).

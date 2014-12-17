@@ -6,7 +6,7 @@ image:
   feature: paperfaces-patbits-twitter-lg.jpg
   thumb: paperfaces-patbits-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@patbits](http://twitter.com/patbits).

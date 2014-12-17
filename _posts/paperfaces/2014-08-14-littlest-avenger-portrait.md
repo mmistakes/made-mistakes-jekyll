@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-littlest-avenger-teaser.jpg
   thumb: paperfaces-littlest-avenger-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, Blend]
+tags: [portrait, illustration, paper by 53, sktchy, blend]
 ---
 
 PaperFaces portrait of the littlest Avenger inspired by a photograph on Sktchy.

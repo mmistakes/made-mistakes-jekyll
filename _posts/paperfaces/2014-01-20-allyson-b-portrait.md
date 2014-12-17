@@ -6,7 +6,7 @@ image:
   feature: paperfaces-allyson-b-lg.jpg
   thumb: paperfaces-allyson-b-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, tattoo]
+tags: [portrait, illustration, paper by 53, sktchy, tattoo]
 ---
 
 PaperFaces portrait of [Allyson B.](http://sktchy.com/NogM0C) inspired by Sktchy.

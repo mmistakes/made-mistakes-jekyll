@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-boba-fett-teaser.jpg
   thumb: paperfaces-boba-fett-150.jpg
 category: paperfaces
-tags: [Star Wars, portrait, illustration, Paper by 53]
+tags: [star wars, portrait, illustration, paper by 53]
 ---
 
 Starting Star Wars Day off with a portrait of my dude Boba. May the 4th be with you! Speed painting video is embedded below for your viewing pleasure.

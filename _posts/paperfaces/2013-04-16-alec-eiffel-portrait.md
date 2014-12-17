@@ -6,7 +6,7 @@ image:
   feature: paperfaces-alec-eiffel-facebook-lg.jpg
   thumb: paperfaces-alec-eiffel-facebook-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 Shirtless wearing military helmet in black and white. Drawn for [Selfless Portraits](http://selflessportraits.com).

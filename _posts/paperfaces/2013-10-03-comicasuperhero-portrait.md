@@ -6,7 +6,7 @@ image:
   feature: paperfaces-comicasuperhero-twitter-lg.jpg
   thumb: paperfaces-comicasuperhero-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/comicasuperhero">@comicasuperhero</a>.

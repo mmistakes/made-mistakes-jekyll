@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-matilda-jane-twins-teaser.jpg
   thumb: paperfaces-matilda-jane-twins-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, twins]
+tags: [portrait, illustration, paper by 53, twins]
 ---
 
 PaperFaces portrait of the [two little rosebuds](http://2littlerosebuds.com/2014/04/24/matilda-jane-spring-clothing-review-giveaway-ends/) modeling clothing from Matilda Jane.

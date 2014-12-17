@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ekinding-twitter-lg.jpg
   thumb: paperfaces-ekinding-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@ekinding](http://twitter.com/ekinding). Had a lot of fun with this creeptacular illustration.

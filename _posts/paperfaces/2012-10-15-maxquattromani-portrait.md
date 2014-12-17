@@ -6,7 +6,7 @@ image:
   feature: paperfaces-maxquattromani-twitter-lg.jpg
   thumb: paperfaces-maxquattromani-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@maxquattromani](http://twitter.com/maxquattromani).

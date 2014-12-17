@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-slave-leia-jabba-the-hutt-teaser.jpg
   thumb: paperfaces-slave-leia-jabba-the-hutt-150.jpg
 category: paperfaces
-tags: [Star Wars, portrait, illustration, Paper by 53]
+tags: [star wars, portrait, illustration, paper by 53]
 ---
 
 "Yang chas Solo chone Wookiee!" *May the 4th be with you!*

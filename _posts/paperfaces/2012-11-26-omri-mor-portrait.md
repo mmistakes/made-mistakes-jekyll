@@ -6,7 +6,7 @@ image:
   feature: paperfaces-omri-mor-twitter-lg.jpg
   thumb: paperfaces-omri-mor-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@omri_mor](http://twitter.com/omri_mor).

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-lizziebeth-twitter-lg.jpg
   thumb: paperfaces-lizziebeth-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twiter.com/LizzieBeth_">@LizzieBeth_</a>. For this portrait I decided to make one of those most excellent speed drawing videos you see all over YouTube. In the past I used AirPlay on my iPad to mirror its display to my iMac that was running [**Reflector**](http://www.airsquirrels.com/reflector/) to capture the screen. This process has worked out great but since it only records the screen you miss out on actually seeing how I draw with a stylus.

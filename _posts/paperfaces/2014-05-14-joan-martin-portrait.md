@@ -6,7 +6,7 @@ image:
   feature: paperfaces-joan-martin-lg.jpg
   thumb: paperfaces-joan-martin-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 
 PaperFaces portrait of a [Joan Martin](http://sktchy.com/Ch7GVH) inspired by a photograph on Sktchy.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-brohatch-twitter-lg.jpg
   thumb: paperfaces-brohatch-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@brohatch](http://twitter.com/brohatch).

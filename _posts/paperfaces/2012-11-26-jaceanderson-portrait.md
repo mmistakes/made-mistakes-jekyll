@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jaceanderson-twitter-lg.jpg
   thumb: paperfaces-jaceanderson-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of [@jaceanderson](http://twitter.com/jaceanderson).

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-wendy-rose-sktchy-lg.jpg
   thumb: paperfaces-wendy-rose-sktchy-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of <a href="http://sktchy.com/nlpXWH">Wendy Rose</a>, inspiration found via Sktchy.

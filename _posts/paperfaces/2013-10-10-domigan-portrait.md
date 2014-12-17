@@ -6,7 +6,7 @@ image:
   feature: paperfaces-domigan-twitter-lg.jpg
   thumb: paperfaces-domigan-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/domigan">@domigan</a>.

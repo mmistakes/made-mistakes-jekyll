@@ -10,7 +10,7 @@ image:
   teaser: minimal-mistakes-theme-teaser.jpg
   thumb: minimal-mistakes-250x250.png
 category: articles
-tags: [Jekyll, web development, open source, GitHub]
+tags: [jekyll, web development, open source, github]
 comments: true
 ---
 

@@ -7,7 +7,7 @@ image:
   teaser: sktchys-of-me-teaser.jpg
   thumb: sktchy-app-thumb.png
 category: articles
-tags: [Sktchy, drawing, technology]
+tags: [sktchy, drawing, technology]
 comments: true
 ---
 

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-itzyasmine-twitter-lg.jpg
   thumb: paperfaces-itzyasmine-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@itzYasmine](http://twitter.com/itzYasmine).

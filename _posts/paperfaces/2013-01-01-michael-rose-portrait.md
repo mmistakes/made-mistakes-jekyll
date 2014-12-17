@@ -7,7 +7,7 @@ image:
   feature: paperfaces-michael-rose-lg.jpg
   thumb: paperfaces-michael-rose-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Michael Rose, self portrait, beard]
+tags: [portrait, illustration, paper by 53, michael rose, self portrait, beard]
 ---
 
 Self portrait of [@mmistakes](http://twitter.com/mmistakes) (hey that's me) in an autumn field.

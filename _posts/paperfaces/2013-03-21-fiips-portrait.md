@@ -6,7 +6,7 @@ image:
   feature: paperfaces-fiips-twitter-lg.jpg
   thumb: paperfaces-fiips-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@Fiips_](http://twitter.com/Fiips_).

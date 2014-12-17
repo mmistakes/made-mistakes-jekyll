@@ -8,7 +8,7 @@ image:
   feature: ipod-classic-feature.jpg
   teaser: ipod-classic-teaser.jpg
   thumb: ipod-classic-thumb.jpg
-tags: [iPod, Apple, review]
+tags: [ipod, apple, review]
 ---
 
 Last week Apple finally unveiled a new generation of iPods. The last iPod I purchased was a 3rd generation model with 40GB of hard drive space and have been waiting for a decent successor. My iTunes Music Library has finally outgrown the 3rd gen so I decided this was the time to get a replacement. I figured an iPod that resembled the iPhone would be just around the corner and pleasantly surprised when the *iPod touch* was announced.

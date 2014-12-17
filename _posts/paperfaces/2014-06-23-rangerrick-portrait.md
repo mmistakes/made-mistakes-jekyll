@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-rangerrick-twitter-teaser.jpg
   thumb: paperfaces-rangerrick-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of [@RangerRick](http://twitter.com/RangerRick).

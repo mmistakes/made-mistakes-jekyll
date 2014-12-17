@@ -5,7 +5,7 @@ excerpt: "Apparently there is a bizarro version of me in Niagara County using sc
 category: articles
 image: 
   thumb: michael-the-fugitive.jpg
-tags: [Michael Rose]
+tags: [michael rose]
 ---
 
 <figure>

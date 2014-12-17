@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-yakndara-b-teaser.jpg
   thumb: paperfaces-yakndara-b-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, eye, Sktchy, black and white]
+tags: [portrait, illustration, paper by 53, eye, sktchy, black and white]
 ---
 
 PaperFaces portrait of Yakndara B. inspired by a photograph on Sktchy.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-eimaj-j-twitter-lg.jpg
   thumb: paperfaces-eimaj-j-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@eimaj_j](http://twitter.com/eimaj_j).

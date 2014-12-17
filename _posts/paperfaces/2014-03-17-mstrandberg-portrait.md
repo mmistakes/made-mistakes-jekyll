@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mstrandberg-twitter-lg.jpg
   thumb: paperfaces-mstrandberg-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@mstrandberg](http://twitter.com/mstrandberg).

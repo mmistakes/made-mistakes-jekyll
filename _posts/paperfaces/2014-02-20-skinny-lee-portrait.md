@@ -6,7 +6,7 @@ image:
   feature: paperfaces-skinny-lee-lg.jpg
   thumb: paperfaces-skinny-lee-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, Blend]
+tags: [portrait, illustration, paper by 53, sktchy, blend]
 ---
 
 PaperFaces portrait of [Skinny Lee](http://sktchy.com/MfNOoH) inspired by Sktchy.

@@ -7,7 +7,7 @@ image:
   teaser: hpstr-theme-teaser.jpg
   thumb: hpstr-250x250.png
 category: articles
-tags: [Jekyll, web development, open source, GitHub]
+tags: [jekyll, web development, open source, github]
 modified: 2014-10-30T12:19:11-04:00
 comments: true
 ---

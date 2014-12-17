@@ -6,7 +6,7 @@ image:
   feature: paperfaces-juan-kyle-lg.jpg
   thumb: paperfaces-juan-kyle-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend]
+tags: [portrait, illustration, paper by 53, blend]
 ---
 
 Drawing small faces with Paper and Pencil is no joke. PaperFaces portrait of Juan and Kyle.

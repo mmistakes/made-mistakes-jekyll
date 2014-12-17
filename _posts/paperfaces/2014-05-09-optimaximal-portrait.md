@@ -6,7 +6,7 @@ image:
   feature: paperfaces-optimaximal-twitter-lg.jpg
   thumb: paperfaces-optimaximal-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@Optimaximal](http://twitter.com/optimaximal).

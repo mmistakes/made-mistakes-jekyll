@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-joker-teaser.jpg
   thumb: paperfaces-joker-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Mix]
+tags: [portrait, illustration, paper by 53, mix]
 ---
 
 While browsing through Mix looking for inspiration I came across a drawing shared by [赵 志欣](https://mix.fiftythree.com/122266--) of Heath Ledger from **The Dark Knight**.

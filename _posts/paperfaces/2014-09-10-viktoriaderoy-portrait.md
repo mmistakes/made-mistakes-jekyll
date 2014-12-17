@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-viktoriaderoy-twitter-teaser.jpg
   thumb: paperfaces-viktoriaderoy-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@ViktoriaDeRoy](http://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from [my first PaperFaces giveaway]({{ site.url }}/giveaway/).

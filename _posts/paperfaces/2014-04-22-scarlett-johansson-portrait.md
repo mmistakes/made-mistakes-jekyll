@@ -6,7 +6,7 @@ image:
   feature: paperfaces-scarlett-johansson-lg.jpg
   thumb: paperfaces-scarlett-johansson-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend]
+tags: [portrait, illustration, paper by 53, blend]
 ---
 
 For a detailed breakdown of how I drew this portrait (and others), follow along with my [Mastering Paper tutorial]({{ site.url }}{% post_url /mastering-paper/2014-04-21-drawing-faces %}). Learn how I use Paper's watercolor brush and colored pencils to add depth and realism to a drawing.

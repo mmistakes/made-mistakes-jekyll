@@ -6,7 +6,7 @@ image:
   feature: paperfaces-bradersk8r-twitter-lg.jpg
   thumb: paperfaces-bradersk8r-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@BraderSk8r](http://twitter.com/BraderSk8r).

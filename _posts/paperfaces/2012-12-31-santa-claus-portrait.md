@@ -6,7 +6,7 @@ image:
   feature: paperfaces-santa-claus-lg.jpg
   thumb: paperfaces-santa-claus-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of Santa Claus. Ho ho ho!

@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-efox-angel-teaser.jpg
   thumb: paperfaces-efox-angel-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of Christina U. inspired by a photograph on Sktchy.

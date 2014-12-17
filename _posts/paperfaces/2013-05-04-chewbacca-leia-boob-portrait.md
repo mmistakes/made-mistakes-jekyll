@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-chewbacca-leia-boob-teaser.jpg
   thumb: paperfaces-chewbacca-leia-boob-150.jpg
 category: paperfaces
-tags: [Star Wars, portrait, illustration, Paper by 53]
+tags: [star wars, portrait, illustration, paper by 53]
 ---
 
 Just for giggles. Because hey, Chewbacca is a perv. *May the 4th be with you!*

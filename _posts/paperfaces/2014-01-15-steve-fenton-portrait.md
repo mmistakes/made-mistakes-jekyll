@@ -6,7 +6,7 @@ image:
   feature: paperfaces-steve-fenton-twitter-lg.jpg
   thumb: paperfaces-steve-fenton-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend, black and white]
+tags: [portrait, illustration, paper by 53, blend, black and white]
 ---
 
 PaperFaces portrait of [@steve_fenton](http://twitter.com/steve_fenton).

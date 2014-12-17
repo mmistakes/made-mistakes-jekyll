@@ -6,7 +6,7 @@ image:
   feature: paperfaces-a-farlow44-twitter-lg.jpg
   thumb: paperfaces-a-farlow44-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of project donator [@A_Farlow44](http://twitter.com/A_Farlow44).

@@ -8,7 +8,7 @@ image:
   teaser: how-to-draw-hair-teaser.jpg
   thumb: how-to-draw-hair-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, hair, drawing, iPad]
+tags: [paper by 53, tutorial, hair, drawing, ipad]
 comments: true
 ---
 

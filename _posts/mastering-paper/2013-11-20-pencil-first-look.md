@@ -8,7 +8,7 @@ image:
   feature: paper-53-blend-first-look-feature.jpg
   teaser: paper-53-blend-first-look-teaser.jpg
   thumb: paper-53-blend-first-look-thumb.jpg
-tags: [Paper by 53, Pencil, Blend, stylus, iPad]
+tags: [paper by 53, pencil, blend, stylus, ipad]
 comments: true
 ---
 

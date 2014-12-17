@@ -8,7 +8,7 @@ image:
   teaser: paper-53-book-teaser.jpg
   thumb: paper-53-book-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, Moleskine, book, design, printing, review]
+tags: [paper by 53, moleskine, book, design, printing, review]
 comments: true
 ---
 

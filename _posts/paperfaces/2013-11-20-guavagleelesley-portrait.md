@@ -6,7 +6,7 @@ image:
   feature: paperfaces-guavagleelesley-twitter-lg.jpg
   thumb: paperfaces-guavagleelesley-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend]
+tags: [portrait, illustration, paper by 53, blend]
 ---
 
 First portrait I've drawn using that new Pencil stylus everyone is talking about. Using the new blending feature was a ton of fun and really came in handy for creating the soft water effect in the background. PaperFaces portrait of <a href="http://twitter.com/GuavaGleeLesley">@GuavaGleeLesley</a>.

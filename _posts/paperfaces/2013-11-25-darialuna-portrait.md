@@ -6,7 +6,7 @@ image:
   feature: paperfaces-darialuna-twitter-lg.jpg
   thumb: paperfaces-darialuna-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend]
+tags: [portrait, illustration, paper by 53, blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/DariaLuna_">@DariaLuna_</a>.

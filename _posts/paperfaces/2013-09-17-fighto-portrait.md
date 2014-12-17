@@ -6,7 +6,7 @@ image:
   feature: paperfaces-fighto-twitter-lg.jpg
   thumb: paperfaces-fighto-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Google Glass]
+tags: [portrait, illustration, paper by 53, google glass]
 ---
 
 PaperFaces portrait of [@fighto](http://twitter.com/fighto). Who would have thought I would be illustrating so many Google Glass early adopters?

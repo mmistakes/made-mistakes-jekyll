@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jen-twitter-lg.jpg
   thumb: paperfaces-jen-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of project donator [@jen](http://twitter.com/jen).

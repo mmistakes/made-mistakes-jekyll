@@ -6,7 +6,7 @@ image:
   feature: paperfaces-b-a-w-twitter-lg.jpg
   thumb: paperfaces-b-a-w-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@B_A_W](http://twitter.com/B_A_W).

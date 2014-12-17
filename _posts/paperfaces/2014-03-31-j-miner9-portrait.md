@@ -6,7 +6,7 @@ image:
   feature: paperfaces-j-miner9-lg.jpg
   thumb: paperfaces-j-miner9-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend, bokeh, hockey]
+tags: [portrait, illustration, paper by 53, blend, bokeh, hockey]
 ---
 
 PaperFaces portrait commission of [@J_Miner9](http://twitter.com/J_Miner9).

@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-farbenprinz-twitter-teaser.jpg
   thumb: paperfaces-farbenprinz-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@Farbenprinz](http://twitter.com/farbenprinz).

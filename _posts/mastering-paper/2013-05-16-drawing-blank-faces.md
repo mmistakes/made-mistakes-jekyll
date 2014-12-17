@@ -8,7 +8,7 @@ image:
   teaser: paper-53-draw-face-teaser.jpg
   thumb: paper-53-draw-face-thumb.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, portrait, iPad]
+tags: [paper by 53, tutorial, drawing, portrait, ipad]
 comments: true
 ---
 

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-stottle-twitter-lg.jpg
   thumb: paperfaces-stottle-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@Stottle](http://twitter.com/Stottle).

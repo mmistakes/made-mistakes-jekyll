@@ -8,7 +8,7 @@ image:
   thumb: paper-53-expanded-guide-thumb.jpg
   teaser: paper-53-expanded-guide-teaser.jpg
 category: mastering-paper
-tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
+tags: [paper by 53, tutorial, drawing, painting, ipad, stylus]
 comments: true
 ---
 

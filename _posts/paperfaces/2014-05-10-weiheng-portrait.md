@@ -6,7 +6,7 @@ image:
   feature: paperfaces-weiheng-twitter-lg.jpg
   thumb: paperfaces-weiheng-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Blend]
+tags: [portrait, illustration, paper by 53, blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/WeiHeng_">@WeiHeng_</a>.

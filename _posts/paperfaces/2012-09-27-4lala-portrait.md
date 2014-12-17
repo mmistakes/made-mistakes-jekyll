@@ -6,7 +6,7 @@ image:
   feature: paperfaces-4lala-twitter-lg.jpg
   thumb: paperfaces-4lala-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@4lala](http://twitter.com/4lala).

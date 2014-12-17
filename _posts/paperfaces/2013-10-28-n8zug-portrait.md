@@ -6,7 +6,7 @@ image:
   feature: paperfaces-n8zug-twitter-lg.jpg
   thumb: paperfaces-n8zug-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/n8zug">@n8zug</a>.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ohhoe-twitter-lg.jpg
   thumb: paperfaces-ohhoe-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, tattoo]
+tags: [portrait, illustration, paper by 53, tattoo]
 ---
 
 PaperFaces portrait of [@ohhoe](http://twitter.com/ohhoe).

@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-psychoticmilkma-2-teaser.jpg
   thumb: paperfaces-psychoticmilkma-2-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, Blend]
+tags: [portrait, illustration, paper by 53, black and white, blend]
 ---
 
 PaperFaces portrait for [@psychoticmilkma](http://twitter.com/psychoticmilkma), a winner from [my first portrait giveaway]({{ site.url }}/giveaway/).

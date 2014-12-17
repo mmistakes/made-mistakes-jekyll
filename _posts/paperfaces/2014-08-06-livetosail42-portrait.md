@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-livetosail42-twitter-teaser.jpg
   thumb: paperfaces-livetosail42-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@livetosail42](http://twitter.com/livetosail42).

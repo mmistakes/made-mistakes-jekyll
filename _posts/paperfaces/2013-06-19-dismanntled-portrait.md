@@ -6,7 +6,7 @@ image:
   feature: paperfaces-dismanntled-twitter-lg.jpg
   thumb: paperfaces-dismanntled-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, landscape]
+tags: [portrait, illustration, paper by 53, landscape]
 ---
 
 PaperFaces portrait of [@dismanntled](http://twitter.com/dismanntled).

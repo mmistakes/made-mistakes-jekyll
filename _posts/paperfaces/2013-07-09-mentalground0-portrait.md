@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mentalground0-twitter-lg.jpg
   thumb: paperfaces-mentalground0-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@mentalground0](http://twitter.com/mentalground0).

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-snowwhitechaos-twitter-lg.jpg
   thumb: paperfaces-snowwhitechaos-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@SnowWhiteChaos](http://twitter.com/SnowWhiteChaos).

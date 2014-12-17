@@ -8,7 +8,7 @@ image:
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
 category: work
-tags: [Jekyll, web development, open source, GitHub]
+tags: [jekyll, web development, open source, github]
 ads: true
 ---
 

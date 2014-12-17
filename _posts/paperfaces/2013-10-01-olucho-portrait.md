@@ -6,7 +6,7 @@ image:
   feature: paperfaces-olucho-twitter-lg.jpg
   thumb: paperfaces-olucho-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/olucho">@olucho</a>.

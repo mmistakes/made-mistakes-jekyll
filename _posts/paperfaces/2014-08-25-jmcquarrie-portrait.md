@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-jmcquarrie-twitter-teaser.jpg
   thumb: paperfaces-jmcquarrie-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@jmcquarrie](http://twitter.com/jmcquarrie).

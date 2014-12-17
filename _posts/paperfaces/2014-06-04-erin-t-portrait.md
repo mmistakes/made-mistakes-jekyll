@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-erin-t-teaser.jpg
   thumb: paperfaces-erin-t-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 
 PaperFaces portrait of a [Erin T.](http://sktchy.com/SUIJtH) inspired by a photograph on Sktchy.

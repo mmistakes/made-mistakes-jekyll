@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-jessebc-twitter-teaser.jpg
   thumb: paperfaces-jessebc-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard, black and white, Blend]
+tags: [portrait, illustration, paper by 53, beard, black and white, blend]
 ---
 
 PaperFaces portrait of [@jessebc](http://twitter.com/jessebc).

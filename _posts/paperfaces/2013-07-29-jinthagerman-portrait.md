@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jinthagerman-twitter-lg.jpg
   thumb: paperfaces-jinthagerman-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@jinthagerman](http://twitter.com/jinthagerman). Landscapes are more forgiving, I think that's why I spend time drawing them over facial features.

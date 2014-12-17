@@ -6,7 +6,7 @@ image:
   feature: paperfaces-hipsters-lg.jpg
   thumb: paperfaces-hipsters-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of some random hipsters I came up with to fill the entire canvas for a change. You can achieve some realistic effects just working with grays and white.

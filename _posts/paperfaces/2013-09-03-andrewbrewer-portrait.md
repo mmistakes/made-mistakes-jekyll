@@ -6,7 +6,7 @@ image:
   feature: paperfaces-andrewbrewer-twitter-lg.jpg
   thumb: paperfaces-andrewbrewer-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of [@andrewbrewer](http://twitter.com/andrewbrewer).

@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-ryan-s-teaser.jpg
   thumb: paperfaces-ryan-s-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, eye, Sktchy]
+tags: [portrait, illustration, paper by 53, eye, sktchy]
 ---
 
 PaperFaces portrait of Ryan S. inspired by a photograph on Sktchy.

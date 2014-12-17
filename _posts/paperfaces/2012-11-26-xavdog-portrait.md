@@ -6,7 +6,7 @@ image:
   feature: paperfaces-xavdog-twitter-lg.jpg
   thumb: paperfaces-xavdog-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@xavdog](http://twitter.com/xavdog).

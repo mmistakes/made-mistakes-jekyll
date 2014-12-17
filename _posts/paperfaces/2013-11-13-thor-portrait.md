@@ -6,7 +6,7 @@ image:
   feature: paperfaces-thor-lg.jpg
   thumb: paperfaces-thor-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of Thor from *The Dark World*.

@@ -7,7 +7,7 @@ image:
   teaser: starting-young-teaser.jpg
   thumb: starting-young-thumb.jpg
 category: articles
-tags: [Paper by 53, drawing, technology, twins]
+tags: [paper by 53, drawing, technology, twins]
 comments: true
 ---
 

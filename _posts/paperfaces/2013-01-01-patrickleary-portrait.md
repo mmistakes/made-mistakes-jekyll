@@ -6,7 +6,7 @@ image:
   feature: paperfaces-patrickleary-twitter-lg.jpg
   thumb: paperfaces-patrickleary-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@PatrickLeary](http://twitter.com/PatrickLeary).

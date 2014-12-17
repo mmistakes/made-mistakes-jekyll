@@ -6,7 +6,7 @@ image:
   feature: paperfaces-big-m-twitter-lg.jpg
   thumb: paperfaces-big-m-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@_Big_M_](http://twitter.com/_Big_M_).

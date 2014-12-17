@@ -6,7 +6,7 @@ image:
   feature: paperfaces-lindsaytower-twitter-lg.jpg
   thumb: paperfaces-lindsaytower-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@lindsaytower](http://twitter.com/lindsaytower).

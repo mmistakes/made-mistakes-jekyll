@@ -6,7 +6,7 @@ image:
   feature: paperfaces-barbara-m-lg.jpg
   thumb: paperfaces-barbara-m-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of a [Jen F.](http://sktchy.com/vJbCsc) inspired by a photograph on Sktchy.

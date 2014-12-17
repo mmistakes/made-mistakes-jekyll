@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-darth-vader-teaser.jpg
   thumb: paperfaces-darth-vader-150.jpg
 category: paperfaces
-tags: [Star Wars, portrait, illustration, Paper by 53]
+tags: [star wars, portrait, illustration, paper by 53]
 ---
 
 May the 4th be with you!

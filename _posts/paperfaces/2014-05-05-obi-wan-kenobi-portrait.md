@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-obi-wan-kenobi-teaser.jpg
   thumb: paperfaces-obi-wan-kenobi-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Star Wars, beard]
+tags: [portrait, illustration, paper by 53, star wars, beard]
 ---
 
 PaperFaces portrait of Obi-Wan Kenobi from Episode III: Revenge of the Sith.

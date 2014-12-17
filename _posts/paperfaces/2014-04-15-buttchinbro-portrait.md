@@ -6,7 +6,7 @@ image:
   feature: paperfaces-buttchinbro-twitter-lg.jpg
   thumb: paperfaces-buttchinbro-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, Blend]
+tags: [portrait, illustration, paper by 53, black and white, blend]
 ---
 
 PaperFaces portrait of [@ButtChinBro](http://twitter.com/ButtChinBro).

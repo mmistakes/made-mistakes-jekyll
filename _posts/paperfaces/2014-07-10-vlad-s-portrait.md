@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-vlad-s-teaser.jpg
   thumb: paperfaces-vlad-s-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of Vlad S. inspired by a photograph on Sktchy.

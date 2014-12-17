@@ -6,7 +6,7 @@ image:
   feature: paperfaces-drodol-twitter-lg.jpg
   thumb: paperfaces-drodol-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/Drodol">@Drodol</a>.

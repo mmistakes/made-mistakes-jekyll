@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ginader-twitter-lg.jpg
   thumb: paperfaces-ginader-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, head]
+tags: [portrait, illustration, paper by 53, black and white, head]
 ---
 
 PaperFaces portrait of [@ginader](http://twitter.com/ginader).

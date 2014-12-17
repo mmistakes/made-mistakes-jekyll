@@ -8,7 +8,7 @@ image:
   feature: agna-moraines-autobiography-feature.jpg
   teaser: agna-moraines-autobiography-teaser.jpg
   thumb: agna-moraines-340x340.jpg
-tags: [records, punk, design, DIY, critique, inspiration]
+tags: [records, punk, design, diy, critique, inspiration]
 ---
 
 ## Twinkle Twinkle, Whining in Sweaters

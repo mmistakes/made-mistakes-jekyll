@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-claudioguglieri-twitter-teaser.jpg
   thumb: paperfaces-claudioguglieri-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@claudioguglieri](http://twitter.com/claudioguglieri).

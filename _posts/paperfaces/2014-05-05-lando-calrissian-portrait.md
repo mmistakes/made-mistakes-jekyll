@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-lando-calrissian-teaser.jpg
   thumb: paperfaces-lando-calrissian-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Star Wars]
+tags: [portrait, illustration, paper by 53, star wars]
 ---
 
 PaperFaces portrait of Lando Calrissian from Episode VI: Return of the Jedi.

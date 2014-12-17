@@ -6,7 +6,7 @@ image:
   feature: paperfaces-nick-aylward-twitter-lg.jpg
   thumb: paperfaces-nick-aylward-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of project donator [@nick_aylward](http://twitter.com/nick_aylward).

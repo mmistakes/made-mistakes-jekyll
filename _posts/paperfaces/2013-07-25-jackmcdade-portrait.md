@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jackmcdade-twitter-lg.jpg
   thumb: paperfaces-jackmcdade-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, bokeh]
+tags: [portrait, illustration, paper by 53, bokeh]
 ---
 
 PaperFaces portrait of [@jackmcdade](http://twitter.com/jackmcdade). Went all choppy with my watercolor strokes in the background to simulate a bokeh effect and add dimension to the composition.

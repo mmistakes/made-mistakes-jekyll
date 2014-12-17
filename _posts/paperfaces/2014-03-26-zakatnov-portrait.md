@@ -6,7 +6,7 @@ image:
   feature: paperfaces-zakatnov-twitter-lg.jpg
   thumb: paperfaces-zakatnov-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, water]
+tags: [portrait, illustration, paper by 53, water]
 ---
 
 PaperFaces portrait of [@Zakatnov](http://twitter.com/Zakatnov).

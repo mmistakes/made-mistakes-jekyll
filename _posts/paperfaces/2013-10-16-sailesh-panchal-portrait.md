@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sailesh-panchal-twitter-lg.jpg
   thumb: paperfaces-sailesh-panchal-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 Good lighting makes for a world of difference. Commissioned PaperFaces portrait of <a href="http://twitter.com/sailesh-panchal">@sailesh-panchal</a>.

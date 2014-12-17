@@ -3,7 +3,7 @@ layout: article
 title: "iPod Battery Settlement Program Status"
 excerpt: "A short update on the status of my iPod 3G battery settlement claim."
 category: articles
-tags: [settlement, Apple, tech geek]
+tags: [settlement, apple, tech geek]
 ---
 
 Last week I finally got an iPod return kit for my busted 3G iPod and dropped it off at DHL. The next day Apple's repair status page informed me that the problem was identified and that I was awaiting a replacement iPod. It has now said the same thing for the past five days:

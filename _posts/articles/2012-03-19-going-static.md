@@ -8,7 +8,7 @@ image:
   teaser: going-static-teaser.jpg
   thumb: going-static-thumb.jpg
 category: articles
-tags: [Jekyll, web development, design, open source]
+tags: [jekyll, web development, design, open source]
 comments: true
 ---
 

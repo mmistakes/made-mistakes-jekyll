@@ -6,7 +6,7 @@ image:
   feature: paperfaces-endonend-instagram-lg.jpg
   thumb: paperfaces-endonend-instagram-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, paper by 53, beard]
 ---
 
 PaperFaces portrait of [@endonend](http://instagram.com/endonend).

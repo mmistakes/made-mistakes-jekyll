@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-jonas-c-teaser.jpg
   thumb: paperfaces-jonas-c-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait commission of a Jonas C.

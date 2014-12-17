@@ -6,7 +6,7 @@ image:
   feature: paperfaces-jean-francois-twitter-lg.jpg
   thumb: paperfaces-jean-francois-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@jean_francois](http://twitter.com/jean_francois).

@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-modemlooper-twitter-teaser.jpg
   thumb: paperfaces-modemlooper-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Star Trek]
+tags: [portrait, illustration, paper by 53, star trek]
 ---
 
 PaperFaces portrait of [@modemlooper](http://twitter.com/modemlooper).

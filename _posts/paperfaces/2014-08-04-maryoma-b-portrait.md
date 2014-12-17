@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-maryoma-b-teaser.jpg
   thumb: paperfaces-maryoma-b-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 
 PaperFaces portrait of Maryoma B. inspired by a photograph on Sktchy.

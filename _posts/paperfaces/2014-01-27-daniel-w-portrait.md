@@ -6,7 +6,7 @@ image:
   feature: paperfaces-daniel-w-lg.jpg
   thumb: paperfaces-daniel-w-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy, texture, beard]
+tags: [portrait, illustration, paper by 53, sktchy, texture, beard]
 ---
 
 Enjoyed adding all the texture in this one. PaperFaces portrait of [Daniel W.](http://sktchy.com/Uc5fXc) inspired by Sktchy.

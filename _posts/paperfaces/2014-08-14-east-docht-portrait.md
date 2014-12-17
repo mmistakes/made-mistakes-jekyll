@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-east-docht-teaser.jpg
   thumb: paperfaces-east-docht-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of East Docht inspired by a photograph on Sktchy.

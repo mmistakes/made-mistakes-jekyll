@@ -6,7 +6,7 @@ image:
   feature: paperfaces-niall-obrien-twitter-lg.jpg
   thumb: paperfaces-niall-obrien-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@niall-obrien](http://twitter.com/niall-obrien).

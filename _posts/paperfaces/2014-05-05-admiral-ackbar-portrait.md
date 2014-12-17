@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-admiral-ackbar-teaser.jpg
   thumb: paperfaces-admiral-ackbar-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Star Wars, Blend]
+tags: [portrait, illustration, paper by 53, star wars, blend]
 ---
 
 PaperFaces portrait of Admiral Ackbar from Episode VI: Return of the Jedi.

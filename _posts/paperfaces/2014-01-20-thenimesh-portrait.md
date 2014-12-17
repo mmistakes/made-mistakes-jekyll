@@ -6,7 +6,7 @@ image:
   feature: paperfaces-thenimesh-twitter-lg.jpg
   thumb: paperfaces-thenimesh-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, glitch]
+tags: [portrait, illustration, paper by 53, glitch]
 ---
 
 When I edit drawing footage I captured from an iPad, I like to speed up the final movie to around 4-5 minutes max. Keeps the video more interesting and fun to watch.

@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ero-brat-lg.jpg
   thumb: paperfaces-ero-brat-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
+tags: [portrait, illustration, paper by 53, black and white, sktchy]
 ---
 
 PaperFaces portrait of a [Ero Brat](http://sktchy.com/zPm01D) inspired by a photograph on Sktchy.

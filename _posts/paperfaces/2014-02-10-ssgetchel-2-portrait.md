@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ssgetchel-2-instagram-lg.jpg
   thumb: paperfaces-ssgetchel-2-instagram-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@ssgetchel](http://twitter.com/ssgetchel).

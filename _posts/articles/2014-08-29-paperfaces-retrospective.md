@@ -8,7 +8,7 @@ image:
   teaser: paperfaces-800-portraits-teaser.jpg
   thumb: 
 category: articles
-tags: [drawing, illustration, 365 project, Paper by 53, iPad]
+tags: [drawing, illustration, 365 project, paper by 53, ipad]
 comments: true
 ---
 

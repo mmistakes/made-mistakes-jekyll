@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-sj-selina-twitter-teaser.jpg
   thumb: paperfaces-sj-selina-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, paper by 53, black and white]
 ---
 
 PaperFaces portrait commission of [@SJ_Selina](http://twitter.com/SJ_Selina).

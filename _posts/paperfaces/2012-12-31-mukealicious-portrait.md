@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mukealicious-twitter-lg.jpg
   thumb: paperfaces-mukealicious-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, paper by 53]
 ---
 
 PaperFaces portrait of [@mukealicious](http://twitter.com/mukealicious).

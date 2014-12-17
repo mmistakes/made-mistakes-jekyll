@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rose-l-lg.jpg
   thumb: paperfaces-rose-l-150.jpg
 category: paperfaces
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, paper by 53, sktchy]
 ---
 
 PaperFaces portrait of a [Rose L.](http://sktchy.com/Bf0pYC) inspired by a photograph on Sktchy.
