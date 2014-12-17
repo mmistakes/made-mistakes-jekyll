@@ -2,7 +2,7 @@
 layout: article
 title: "Going Static — Using Jekyll CMS Free"
 excerpt: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll CMS free."
-modified: 2014-11-06T08:47:25-05:00
+modified: 2014-12-17
 image: 
   feature: going-static-feature.jpg
   teaser: going-static-teaser.jpg
@@ -104,7 +104,7 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how to utilize rsync and rake tasks to make deploying smoother instead of manually FTPing the contents of `_site\` to the server.
 
-<i class="fa fa-info-circle"></i> **Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
+<i class="fa fa-info-circle"></i> **Update:** I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes-jekyll) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
 {: .notice}
 
 ## Jekyll Themes
