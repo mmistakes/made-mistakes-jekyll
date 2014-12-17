@@ -1,30 +1,27 @@
-{% if page.categories and page.categories != empty %}
-  <nav class="breadcrumbs">
-    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> › 
-    </span>
-    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="{{ site.url }}/{{ page.categories | first }}/" itemprop="url">
-        <span itemprop="title">
-          {% assign words = page.categories | first | split: '-' %}
-          {% for word in words %}
-            {% if words.last %}{{ word | capitalize }}
-              {% else %}{{ word | capitalize | append: ' ' }}
-            {% endif %}
-          {% endfor %}
-        </span>
-      </a> › 
-    </span>
-  </nav><!-- /.breadcrumbs -->
-{% endif %}
-
-{% if page.url contains page.collection %}
 <nav class="breadcrumbs">
+{% if page.categories and page.categories != empty %}
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> › 
+  </span>
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}/{{ page.categories | first }}/" itemprop="url">
+      <span itemprop="title">
+        {% assign words = page.categories | first | split: '-' %}
+        {% for word in words %}
+          {% if words.last %}{{ word | capitalize }}
+            {% else %}{{ word | capitalize | append: ' ' }}
+          {% endif %}
+        {% endfor %}
+      </span>
+    </a> › 
+  </span>
+{% endif %}
+{% if page.url contains page.collection %}
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
     <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> › 
   </span>
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
     <a href="{{ site.url }}/{{ page.collection }}/" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a> › 
   </span>
-</nav><!-- /.breadcrumbs -->
 {% endif %}
+</nav><!-- /.breadcrumbs -->
