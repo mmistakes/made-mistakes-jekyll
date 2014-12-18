@@ -170,19 +170,19 @@ Before the Color Mixer existed, you had to get creative if you wanted a color ot
 
 Color theory is a tricky dick --- thankfully FiftyThree did something great with their Color Mixer. Mixing together any color will almost always make a new one that looks great.
 
-For those who need more control or want a traditional color picker --- one can be accessed by dragging a color swatch onto the mixing wheel, then tapping on it. From here you can adjust a color's hue, saturation, and luminosity.
+For those who need more control or want a traditional color picker --- one can be accessed by dragging a color swatch onto the mixing wheel, then tapping on it. From here you can adjust a color's hue, saturation, and brightness (luminosity).
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-color-picker-slider.jpg" alt="Color picker sliders screenshot">
 	<figcaption>A more traditional way of adjusting color if you need it.</figcaption>
 </figure>
 
-For a good shadow color I usually adjust the base color I'm shading with by cranking the saturation down and the luminosity way up.
+For a good shadow color I usually adjust the base color I'm shading with by cranking the saturation down and the brightness way up.
 
 <i class="fa fa-star"></i> **ProTip:** If you go too far in any direction you will approach pure white, which will make the watercolor brush or marker opaque. Each color has a different "point of no return," that can be found by experimenting with the sliders.
 {: .notice}
 
-<i class="fa fa-star"></i> **ProTip:** Sometimes approaching the "point of no return" is a good thing --- especially when you need a color for lightening. Instead of using pure white, I like to start with the base color I'm working with and crank the luminosity way up to make less dramatic tints when erasing.
+<i class="fa fa-star"></i> **ProTip:** Sometimes approaching the "point of no return" is a good thing --- especially when you need a color for lightening. Instead of using pure white, I like to start with the base color I'm working with and crank the brightness way up to make less dramatic tints when erasing.
 {: .notice}
 
 ## Gestures to Master
