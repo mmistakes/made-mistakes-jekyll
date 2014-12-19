@@ -16,6 +16,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
     <li><h6>Getting Started with Paper</h6></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}">Introduction and Tool Guide</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-07-03-moving-the-loupe %}">Moving the Zoom Loupe</a></li>
+    <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-12-18-color-picker %}">Picking and Sharing Colors</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}">Drawing and Painting Basics</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}">Erasing and Correcting Mistakes</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-11-08-moleskine-book %}">Printing a Moleskine Book</a></li>
