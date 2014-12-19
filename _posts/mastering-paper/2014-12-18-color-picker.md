@@ -103,13 +103,13 @@ As I've started to work with the picker more I'm beginning to see value in inclu
 	<figcaption>Placing color swatches off to the side for reference and sampling has its advantages.</figcaption>
 </figure>
 
-Aside from the new picker, the Mixer received some love by now including numeric values on each of the 3 sliders. Each of these maps perfectly to HSB[^hsb] values which makes communicating the exact makeup of a color with non-Mixers easier.
+Aside from the new picker, the Mixer received some love by now including numeric values on each of the 3 sliders. These numbers map perfectly to HSB[^hsb] values which makes communicating the exact makeup of a color others that much easier.
 
 <figure class="image-right">
 	<img src="{{ site.url }}/images/photoshop-hsb.jpg" alt="screenshot showing the HSB picker in Adobe Photoshop">
 </figure>
 
-The HSB/HLS color models are found in most desktop graphics programs like Adobe's Photoshop. By opting to include a standardized color model in Paper it is now possible to match colors across platforms and apps. As a designer I find this especially helpful for maintaining color consistency when imported Paper PNG files into Adobe Creative Suite documents.
+The HSB/HLS color models are found in most desktop graphics programs like Adobe's Photoshop. By opting to include a standardized color model in Paper it is now possible to match colors across platforms and apps. As a designer I find this especially helpful for maintaining color consistency when importing Paper PNG files into Adobe Creative Suite documents.
 
 ## Color palettes on Mix
 
