@@ -22,7 +22,7 @@ With each major update Paper takes a forward leap into maturity as new tools and
 	<figcaption>Do you remember when Paper by FiftyThree only had 9 colors? I do.</figcaption>
 </figure>
 
-From those early days of working with a constrained palette up to the addition of the [Color Mixer]({{ site.url }}{% post_url mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer), selecting and manipulating color has been very important to me. The lack of a color picker has been a minor annoyance for me but I really started to feel its absence after the [launch of Mix]({{ site.url }}/{% post_url mastering-paper/2014-11-25-mix %}). Trying to accurately match color palettes when remixing ideas became a time sink that I'm glad to see finally filled.
+From those early days of working with a constrained palette up to the addition of the [Color Mixer]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer), selecting and manipulating color has been very important to me. The lack of a color picker has been a minor annoyance for me but I really started to feel its absence after the [launch of Mix]({{ site.url }}{% post_url /mastering-paper/2014-11-25-mix %}). Trying to accurately match color palettes when remixing ideas became a time sink that I'm glad to see finally filled.
 
 ## How to use the Color Picker
 
@@ -113,7 +113,7 @@ The HSB/HLS color models are found in most desktop graphics programs like Adobe'
 
 ## Color palettes on Mix
 
-When I wrote my Mastering Paper guide for [drawing portraits]({{ site.url }}{% post_url mastering-paper/2014-04-21-drawing-faces %}) there wasn't a good way for me to share my palettes with the community. Now with the help of Mix by FiftyThree I can share my palette[^paper-palette-template] of skin tones to be sampled and used by anyone who decides to download them. 
+When I wrote my Mastering Paper guide for [drawing portraits]({{ site.url }}{% post_url /mastering-paper/2014-04-21-drawing-faces %}) there wasn't a good way for me to share my palettes with the community. Now with the help of Mix by FiftyThree I can share my palette[^paper-palette-template] of skin tones to be sampled and used by anyone who decides to download them. 
 
 [^paper-palette-template]: Thanks to Dayna D. Smith for providing the great "[My Paper Palettes](https://mix.fiftythree.com/200794-Danya-D-Smith/1299445)" template that I remixed.
 
