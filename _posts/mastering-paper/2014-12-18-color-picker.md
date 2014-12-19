@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Mastering Paper by FiftyThree: Picking Colors"
+title: "Mastering Paper by FiftyThree: Picking and Sharing Colors"
 modified: 2014-12-19
 categories: mastering-paper
 excerpt: "One of Paper's most requested features, a Color Picker has finally been added. Learn what the new tool does and how it works."
