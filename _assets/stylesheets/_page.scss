@@ -116,12 +116,26 @@
     width: 100%; /* Expand image to cover full width of header */
   }
   &.overlay .page-title { /* Position title on top of feature image */
+    margin-left: 1 * $gutter; /* Match .wrap padding */
+    margin-right: 1 * $gutter;
     @include media($medium) {
       position: absolute;
       bottom: 0;
       z-index: 1;
       @include span-columns(10);
+      margin-left: 2 * $gutter; /* Match .wrap padding */
+      margin-right: 2 * $gutter;
       padding-bottom: 2 * $gutter;
+      background: rgba($black, 0.45);
+      box-shadow: 0 0 100px 70px rgba($black, 0.45);
+      -webkit-box-shadow: 0 0 100px 70px rgba($black, 0.45);
+      -moz-box-shadow: 0 0 100px 70px rgba($black, 0.45);
+      -ms-box-shadow: 0 0 100px 70px rgba($black, 0.45);
+      -o-box-shadow: 0 0 100px 70px rgba($black, 0.45);
+    }
+    @include media($large) {
+      margin-left: 2.5 * $gutter; /* Match .wrap padding */
+      margin-right: 2.5 * $gutter;
     }
   }
   &.overlay h1 { /* Overlay page title */
@@ -154,7 +168,8 @@
     margin-left: -2.5 * $gutter;
     margin-right: -2.5 * $gutter;
   }
-  
+  overflow: hidden;
+
   .image-credit { /* Position and style image credit caption */
     position: absolute;
     bottom: 0;
@@ -170,25 +185,6 @@
     a {
       color: $white;
       text-decoration: none;
-    }
-  }
-}
-
-/* Feature image overlay override */
-
-.overlay .page-image {
-  &:before {
-    position: absolute;
-    content: '';
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* add gradient overlay on >= medium screens */
-    @include media($medium) {
-      @include background-image(linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 75%,rgba(0,0,0,0.9) 100%));
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
-      @include transition(opacity 1s ease-in-out 0.2s);
     }
   }
 }
