@@ -9,19 +9,13 @@ layout: default
 			<div class="page-image">
 				<img src="/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
 				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-				<div class="page-title">
-					{% include breadcrumbs.html %}
-					<h1><span>{{ page.title }}</span></h1>
-					{% if page.excerpt %}<h2><span>{{ page.excerpt }}</span></h2>{% endif %}
-				</div><!-- /.page-title -->
 			</div><!-- /.page-image -->
-			{% else %}
+			{% endif %}
 			<div class="page-title">
 				{% include breadcrumbs.html %}
 				<h1><span>{{ page.title }}</span></h1>
 				{% if page.excerpt %}<h2><span>{{ page.excerpt }}</span></h2>{% endif %}
 			</div><!-- /.page-title -->
-			{% endif %}
 		</div><!-- /.page-header -->
 		<div class="archive-wrap">
 			<div class="page-content">
