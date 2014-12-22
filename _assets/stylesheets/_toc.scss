@@ -18,7 +18,9 @@
     margin-top: $gutter;
     margin-bottom: $gutter;
     border: 1px solid $border-color;
-    border-radius: $border-radius;
+    @include media($medium) {
+      border-radius: $border-radius;
+    }
   }
   li {
     @include font-size(14,no,16);
