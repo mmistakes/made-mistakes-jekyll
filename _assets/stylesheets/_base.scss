@@ -21,10 +21,14 @@ p {
 }
 
 li {
-  @include font-size(14,10,20);
-  @include media($medium){
-    @include font-size(16,12,24);
+  @include font-size(16,8,24);
+  @include media($medium) {
+    @include font-size(18,9,28);
   }
+}
+
+ul, ol {
+  padding-left: $gutter;
 }
 
 /* Headings */
