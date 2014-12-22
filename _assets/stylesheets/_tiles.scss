@@ -37,8 +37,8 @@
   }
 
   .post-excerpt {
-    @include font-size(16);
-    margin-top: 0;
+    @include font-size(14,no,21);
+    margin-top: 6px;
   }
 
   /* Teaser image */
@@ -98,15 +98,6 @@
 
 .tiles-right {
   clear: both;
-  @include media($medium) {
-    .post-title {
-      @include font-size(16,no);
-    }
-    .post-excerpt {
-      @include font-size(14);
-      margin-top: 0;
-    }
-  }
   @include media($large) {
     clear: none;
     @include span-columns(8);
@@ -123,14 +114,5 @@
   }
   h3 {
     margin-top: 0;
-  }
-  @include media($medium) {
-    .post-title {
-      @include font-size(16,no);
-    }
-    .post-excerpt {
-      @include font-size(14);
-      margin-top: 0;
-    }
   }
 }

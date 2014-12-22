@@ -97,10 +97,13 @@
   h2 { /* Default page sub-headline */
     margin-top: 0;
     font-weight: 400;
-    @include media($micro-only) { 
-      @include font-size(20,yes,1.25); 
+    @include font-size(20,yes,1.25); 
+    @include media($medium) {
+      @include font-size(28,yes,1.25);
     }
-    @include font-size(28,yes,1.25);
+    @include media($large) {
+      @include font-size(32,yes,1.25);
+    }
   }
 }
 
@@ -116,26 +119,26 @@
     width: 100%; /* Expand image to cover full width of header */
   }
   &.overlay .page-title { /* Position title on top of feature image */
-    margin-left: 1 * $gutter; /* Match .wrap padding */
-    margin-right: 1 * $gutter;
+    padding-left: 1 * $gutter; /* Match .wrap padding */
+    padding-right: 1 * $gutter;
     @include media($medium) {
       position: absolute;
       bottom: 0;
       z-index: 1;
       @include span-columns(10);
-      margin-left: 2 * $gutter; /* Match .wrap padding */
-      margin-right: 2 * $gutter;
+      padding-left: 2 * $gutter; /* Match .wrap padding */
+      padding-right: 2 * $gutter;
       padding-bottom: 2 * $gutter;
-      background: rgba($black, 0.45);
-      box-shadow: 0 0 100px 70px rgba($black, 0.45);
-      -webkit-box-shadow: 0 0 100px 70px rgba($black, 0.45);
-      -moz-box-shadow: 0 0 100px 70px rgba($black, 0.45);
-      -ms-box-shadow: 0 0 100px 70px rgba($black, 0.45);
-      -o-box-shadow: 0 0 100px 70px rgba($black, 0.45);
+      background: rgba($black, 0.55);
+      box-shadow: 0 0 100px 70px rgba($black, 0.55);
+      -webkit-box-shadow: 0 0 100px 70px rgba($black, 0.55);
+      -moz-box-shadow: 0 0 100px 70px rgba($black, 0.55);
+      -ms-box-shadow: 0 0 100px 70px rgba($black, 0.55);
+      -o-box-shadow: 0 0 100px 70px rgba($black, 0.55);
     }
     @include media($large) {
-      margin-left: 2.5 * $gutter; /* Match .wrap padding */
-      margin-right: 2.5 * $gutter;
+      padding-left: 2.5 * $gutter; /* Match .wrap padding */
+      padding-right: 2.5 * $gutter;
     }
   }
   &.overlay h1 { /* Overlay page title */
@@ -145,10 +148,10 @@
     }
   }
   &.overlay h2 { /* Overlay page sub-headline */
+    margin-bottom: 0;
     @include media($medium) {
       color: $white;
       text-shadow: 1px 1px 0 $black;
-      margin-bottom: 0;
     }
   }
 }

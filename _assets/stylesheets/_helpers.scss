@@ -113,8 +113,11 @@
 
 .shorten {
   margin-top: 0;
-  @include media($large) {
+  @include media($medium) {
     @include row;
+    @include span-columns(10);
+  }
+  @include media($large) {
     @include span-columns(9);
   }
 }

@@ -27,7 +27,7 @@ $black                        : #000;
 
 $background-color             : #ebebeb;
 $body-color                   : $white;
-$text-color                   : lighten($black, 20);
+$text-color                   : rgba($black, 0.8);
 $caption-color                : lighten($black, 40);
 $base-color                   : #343434;    
 $comp-color                   : complement($base-color); 
