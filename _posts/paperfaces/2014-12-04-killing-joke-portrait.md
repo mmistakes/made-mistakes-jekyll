@@ -2,6 +2,7 @@
 layout: media
 title: "The Killing Joke"
 excerpt: "PaperFaces portrait of the Joker from The Dark Knight drawn with Paper by 53 on an iPad."
+modified: 2014-12-24
 image: 
   feature: paperfaces-joker-lg.jpg
   teaser: paperfaces-joker-teaser.jpg
@@ -22,6 +23,6 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 
 <figure class="half">
   <a href="{{ site.url }}/images/paperfaces-joker-original-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-joker-original-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-joker-w-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-joker-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/images/paperfaces-joker-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-joker-process-1-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Original drawing by 赵 志欣 with my work on the right.</figcaption>
 </figure>
