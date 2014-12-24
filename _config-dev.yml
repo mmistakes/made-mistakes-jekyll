@@ -1,0 +1,67 @@
+# Site wide configuration
+
+title: Made Mistakes
+description: "Personal website of designer slash illustrator Michael Rose."
+logo: site-logo.png
+teaser: default-teaser.png
+locale: en_US
+url: http://localhost:4000
+
+
+# Jekyll configuration
+
+permalink: /:categories/:title/
+lsi: true
+markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+include: [".htaccess"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]  
+
+
+# Plugin: jekyll-assets
+
+assets:
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+  debug: true
+  version: 1
+
+
+# Site owner
+
+owner:
+  name: Michael Rose
+  email: michael@mademistakes.com
+  twitter: mmistakes
+  facebook: michaelrose
+  instagram: mmistakes
+  tumblr: mademistakes
+  google:
+    ad-client: ca-pub-7328585512091257
+    ad-slot: 3049671934
+    analytics: 
+    plus: https://plus.google.com/+MichaelRoseDesign/posts
+    verify: 
+  bing:   
+    verify: 
+  alexa:
+    verify: 
+  yandex:
+    verify: 
+  bio: "Just another boring, tattooed, time traveling designer from Buffalo."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname: mmistakes-dev
+
+
+# Collections
+
+collections:
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs
