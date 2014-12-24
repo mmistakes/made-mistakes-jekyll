@@ -22,6 +22,8 @@ GEM
     ffi (1.9.6)
     ffi (1.9.6-x64-mingw32)
     ffi (1.9.6-x86-mingw32)
+    font-awesome-sass (4.2.2)
+      sass (~> 3.2)
     hike (1.2.3)
     hitimes (1.2.2)
     jekyll (2.5.3)
@@ -127,6 +129,7 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
+  font-awesome-sass (~> 4.2.0)
   jekyll
   jekyll-assets
   jekyll-sitemap
