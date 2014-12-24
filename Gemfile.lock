@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.6)
+    autoprefixer-rails (4.0.2.2)
+      execjs
     blankslate (2.1.2.4)
     bourbon (4.0.2)
       sass (~> 3.3)
@@ -128,6 +130,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  autoprefixer-rails
   bourbon
   font-awesome-sass (~> 4.2.0)
   jekyll

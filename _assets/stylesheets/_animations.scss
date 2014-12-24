@@ -6,36 +6,36 @@
    Wiggle animation
    ========================================================================== */
 
-@include keyframes(wiggle) {
-  25%, 50%, 75%, 100% { @include transform-origin(top center); }
-  25% { @include transform(rotate(8deg)); }
-  50% { @include transform(rotate(-4deg)); }
-  75% { @include transform(rotate(2deg)); }
-  100% { @include transform(rotate(0deg)); }
+@keyframes wiggle {
+  25%, 50%, 75%, 100% { transform-origin: top center; }
+  25% { transform: rotate(8deg); }
+  50% { transform: rotate(-4deg); }
+  75% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
 }
 
 /* 
    Pop animation
    ========================================================================== */
 
-@include keyframes(pop) {
-  50% { @include transform(scale(1.1)); }
-  100% { @include transform(scale(1)); }
+@keyframes pop {
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
 
 /* 
    Hang animation
    ========================================================================== */
 
-@include keyframes(hang) {
-  50% { @include transform(translateY(-3px)); }
-  100% { @include transform(translateY(-6px)); }
+@keyframes hang {
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(-6px); }
 }
 .hang {
   display: inline-block;
-  @include animation-name(hang);
-  @include animation-duration(0.5s);
-  @include animation-timing-function(linear);
-  @include animation-iteration-count(infinite);
-  @include animation-direction(alternate);
+  animation-name: hang;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }

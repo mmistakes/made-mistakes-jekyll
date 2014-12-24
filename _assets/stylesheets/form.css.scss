@@ -1,3 +1,9 @@
+@import "variables";
+
+/* ==========================================================================
+   Wufoo forms
+   ========================================================================== */
+
 .info {
     display: inline-block;
     clear: both;
@@ -34,9 +40,6 @@ form li {
     clear: both;
     background-color: transparent;
     position: relative;
-    -webkit-transition: background-color 350ms ease-out;
-    -moz-transition: background-color 350ms ease-out;
-    -o-transition: background-color 350ms ease-out;
     transition: background-color 350ms ease-out;
 }
 form ul:after, form li:after, form li div:after {
@@ -186,7 +189,7 @@ form li div label .currently {
     display: none;
 }
 input.text, input.search, input.file, textarea.textarea, select.select {
-    font-family: "Lucida Grande",  Tahoma,  Arial,  sans-serif;
+    font-family: $alt-font;
     font-size: 100%;
     color: #333;
     margin: 0;
@@ -203,8 +206,6 @@ select.select {
     padding: 1px 0 0 0;
 }
 input.search {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
     padding-left: 6px;
 }
@@ -386,7 +387,6 @@ form li.buttons {
     clear: both;
     padding: 10px 1% 10px 0}
 form li.buttons input {
-    font-size: 100%;
     margin-right: 5px;
 }
 input.btTxt {
@@ -513,9 +513,6 @@ form .instruct {
     opacity: 0;
     font-size: 105%;
     line-height: 1.2;
-    -webkit-transition: opacity 350ms ease-out;
-    -moz-transition: opacity 350ms ease-out;
-    -o-transition: opacity 350ms ease-out;
     transition: opacity 350ms ease-out;
 }
 form .instruct small {
@@ -582,9 +579,6 @@ form li.section.scrollText {
     overflow: auto;
     margin-bottom: 10px;
     padding: 10px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
-    -o-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
 }
 form li.section.scrollText h3 {
@@ -660,12 +654,7 @@ form li.paging-context {
     text-align: center;
     font-size: 85%;
     font-style: normal;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
-    -o-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 1px 2px;
 }
 .pgStyle1 .done var {
@@ -699,8 +688,6 @@ form li.paging-context {
     font-size: 90%;
     margin: 0 auto 7px auto;
     float: none;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
     border-radius: 12px;
 }
 .nopagelabel .pgStyle1 var {
@@ -727,12 +714,7 @@ form li.paging-context {
     padding: 2px;
     border: 1px solid #CCC;
     position: relative;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
     border-radius: 14px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
-    -o-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
 }
 .pgStyle2 var {
@@ -743,12 +725,7 @@ form li.paging-context {
     color: #000;
     font-style: normal;
     text-align: right;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
     border-radius: 12px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
-    -moz-box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
-    -o-box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
     box-shadow: rgba(0, 0, 0, 0.15) 1px 0 0;
 }
 .pgStyle2 var b {
@@ -773,9 +750,6 @@ form li.paging-context {
     padding-left: 7px;
     text-align: left;
     background: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    -o-box-shadow: none;
     box-shadow: none;
 }
 .page1 .pgStyle2 b {
@@ -792,8 +766,6 @@ form li.paging-context {
     border: 1px solid red;
     text-align: center;
     padding: 1em 0 1em 0;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     border-radius: 20px;
 }
 #errorMsgLbl {
@@ -810,8 +782,6 @@ form li.paging-context {
     padding: 2px 8px;
     background-color: #FFDFDF !important;
     color: red !important;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 form li.error {

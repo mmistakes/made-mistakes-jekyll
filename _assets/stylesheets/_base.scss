@@ -311,8 +311,8 @@ textarea,
 #{$all-text-inputs},
 select,
 select[multiple=multiple] {
-  @include box-sizing(border-box);
-  @include transition(border-color);
+  box-sizing: border-box;
+  transition: border-color;
   background-color: white;
   border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
@@ -404,5 +404,5 @@ nav {
    ========================================================================== */
 
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight {
-  @include transition (color 0.2s ease-out, opacity 0.2s ease-out, background 0.2s ease-out, border-color 0.2s ease-out);
+  transition: color 0.2s ease-out, opacity 0.2s ease-out, background 0.2s ease-out, border-color 0.2s ease-out;
 }

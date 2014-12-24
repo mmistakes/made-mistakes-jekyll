@@ -7,12 +7,12 @@
 /* Slider */
 
 .slide {
-    @include transform(translateX(-100%));
+    transform: translateX(-100%);
     @include media($medium) {
-      @include transform(translateX(em(-600)));
+      transform: translateX(em(-600));
     }
     @include media($large) {
-      @include transform(translateX(em(-900)));
+      transform: translateX(em(-900));
     }
   }
 
@@ -21,10 +21,11 @@
    ========================================================================== */
 
 #page-wrapper {
-  @include size(100% 100%);
+  width: 100%;
+  height: 100%;
   -webkit-overflow-scrolling: touch;
   z-index: 2;
-  @include transition($sliding-menu-animation);
+  transition: $sliding-menu-animation;
 }
 
 /* 
@@ -44,20 +45,18 @@
   border: 2.5px solid transparent;
   cursor: pointer;
   z-index: 5;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   &:hover {
     background: $black;
   }
-  @include transition($sliding-menu-animation);
+  transition: $sliding-menu-animation;
   &.slide {
-    @include transform(translateX(0)); /* don't slide close button on small screens only */
+    transform: translateX(0); /* don't slide close button on small screens only */
     @include media($medium) {
-      @include transform(translateX(em(-600))); /* reset slide position */
+      transform: translateX(em(-600)); /* reset slide position */
     }
     @include media($large) {
-      @include transform(translateX(em(-900))); /* reset slide position */
+      transform: translateX(em(-900)); /* reset slide position */
     }
   }
 }
@@ -72,7 +71,7 @@
   right: 0;
   padding: em(22) 0;
   visibility: hidden;
-  @include backface-visibility(hidden);
+  backface-visibility: hidden;
   @include media($medium) {
     text-align: left;
   }
@@ -83,8 +82,8 @@
   @include media($large) {
     width: em(900);
   }
-  @include transform(translateX(100%));
-  @include transition($sliding-menu-animation);
+  transform: translateX(100%);
+  transition: $sliding-menu-animation;
   background: $sliding-menu-background;
   z-index: 5;
   overflow-y: auto;
@@ -92,7 +91,7 @@
   -webkit-overflow-scrolling: touch;
   &.is-visible {
     visibility: visible;
-    @include transform(translateX(0));
+    transform: translateX(0);
   }
   h5 {
     margin: 0 20% 0 10%;
@@ -186,7 +185,7 @@
 
 .menu-screen {
   @include position(fixed, 0 0 0 0);
-  @include transition($sliding-menu-animation);
+  transition: $sliding-menu-animation;
   background: $sliding-menu-border-color;
   opacity: 0;
   visibility: hidden;

@@ -29,9 +29,9 @@
   a {
     img {
       // Image hover animation
-      @include transition(transform 0.3s);
+      transition: transform 0.3s;
       &:hover {
-        @include transform(scale(1.1));
+        transform: scale(1.1);
         box-shadow: 0 0 10px rgba($black, .20);
       }
     }
@@ -79,9 +79,9 @@
   a {
     img {
       // Image hover animation
-      @include transition(transform 0.3s);
+      transition: transform 0.3s;
       &:hover {
-        @include transform(scale(1.1));
+        transform: scale(1.1);
         box-shadow: 0 0 10px rgba($black, .20);
       }
     }

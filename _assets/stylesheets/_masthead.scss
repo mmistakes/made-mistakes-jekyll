@@ -9,7 +9,7 @@
     padding-right: 2 * $gutter;
   }
   z-index: 5;
-  @include transition($sliding-menu-animation);
+  transition: $sliding-menu-animation;
 }
 
 .masthead-contents {
@@ -29,9 +29,6 @@
 
 .site-logo {
   display: none;
-  &:hover {
-    @include animation(wiggle .3s 0 linear);
-  }
   @include media($medium) {
     display: block;
     float: left;
@@ -94,7 +91,7 @@
         top: 0;
         left: 0;
         height: 2px;
-        @include transition(width 0.3s);
+        transition: width 0.3s;
       }
       &:before {
         width: 100%;

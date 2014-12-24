@@ -17,14 +17,14 @@
   text-decoration: none;
   border: 0 !important;
   border-radius: $border-radius;
-  @include transition(background 0.2s, border 0.2s);
+  transition: background 0.2s, border 0.2s;
   &:hover {
     color: $white !important;
     background-color: lighten($primary-color, 20);
   }
   &:active {
     // move button slightly on click
-    @include transform(translateY(1px));
+    transform: translateY(1px);
   }
 }
 

@@ -48,13 +48,13 @@
     z-index: 1;
     display: block;
     overflow: hidden;
-    @include perspective(1000px);
-    @include backface-visibility(hidden); //fix flicker on hover
+    perspective: 1000px;
+    backface-visibility: hidden; // fix flicker on hover
     img {
       position: relative;
       display: block;
       z-index: 1;
-      @include transition(all 0.3s);
+      transition: all 0.3s;
       // avoid duplicate images for lazy loading
       &.load {
         display: none;
@@ -73,13 +73,13 @@
     }
     &:before {
       z-index: 2;
-      @include transition(all 0.3s);
+      transition: all 0.3s;
     }
     &:after {
       border: 10px solid $white;
       opacity: 0;
       z-index: 3;
-      @include transition(all 0.3s);
+      transition: all 0.3s;
     }
     &:hover {
       &:before {
