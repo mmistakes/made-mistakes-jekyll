@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "The big main in red"
+title: "The big man in red"
 excerpt: "PaperFaces portrait of Santa Claus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-santa-claus-lg.jpg
