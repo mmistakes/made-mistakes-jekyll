@@ -2,13 +2,13 @@
    POST TILES
    ========================================================================== */
 
-/* 
+/*
    Individual tile
    ========================================================================== */
 
 .tile {
   @include outer-container;
-  margin-bottom: $gutter;
+  margin-bottom: 2 * $gutter;
   @include media($micro-only) {
     @include fill-parent;
   }
@@ -42,7 +42,7 @@
   }
 
   /* Teaser image */
-  
+
   .post-teaser {
     position: relative;
     z-index: 1;
@@ -92,7 +92,7 @@
   }
 }
 
-/* 
+/*
    Tiles container 3/4 width (used with sidebar layout)
    ========================================================================== */
 
@@ -104,7 +104,7 @@
   }
 }
 
-/* 
+/*
    Related posts (show 3 tiles in a row)
    ========================================================================== */
 
