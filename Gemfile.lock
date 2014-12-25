@@ -43,6 +43,8 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
+    jekyll-archives (1.0.0)
+      jekyll (~> 2.0)
     jekyll-assets (0.12.1)
       fastimage (~> 1.6)
       jekyll (~> 2.0)
@@ -134,6 +136,7 @@ DEPENDENCIES
   bourbon
   font-awesome-sass (~> 4.2.0)
   jekyll
+  jekyll-archives
   jekyll-assets
   jekyll-sitemap
   neat

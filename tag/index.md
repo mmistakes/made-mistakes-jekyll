@@ -2,11 +2,11 @@
 layout: article
 title: "Tag Index"
 modified:
-excerpt: "An archive of pages sorted by tag name."
+excerpt: "An archive of posts organized by tag."
 share: false  
 ---
 
-### An archive of pages sorted by tag name.
+### An archive of posts sorted by tag name.
 
 <ul class="tag-box">
 {% assign tags_list = site.tags | sort %}  

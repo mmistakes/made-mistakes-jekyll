@@ -18,8 +18,9 @@ kramdown:
 highlighter: pygments
 gems:
   - jekyll-sitemap
+  - jekyll-archives
 include: [".htaccess"]
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]  
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]
 
 
 # Plugin: jekyll-assets
@@ -30,6 +31,20 @@ assets:
     - _assets/stylesheets
   debug: true
   version: 1
+
+
+# Plugin: jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+    - year
+  layouts:
+    year: year_index
+    tag: tag_index
+  permalinks:
+    year: /:year/
+    tag: /tag/:name/
 
 
 # Site owner
@@ -44,15 +59,15 @@ owner:
   google:
     ad-client: ca-pub-7328585512091257
     ad-slot: 3049671934
-    analytics: 
+    analytics:
     plus: https://plus.google.com/+MichaelRoseDesign/posts
-    verify: 
-  bing:   
-    verify: 
+    verify:
+  bing:
+    verify:
   alexa:
-    verify: 
+    verify:
   yandex:
-    verify: 
+    verify:
   bio: "Just another boring, tattooed, time traveling designer from Buffalo."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname: mmistakes-dev

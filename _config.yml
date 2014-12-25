@@ -18,8 +18,9 @@ kramdown:
 highlighter: pygments
 gems:
   - jekyll-sitemap
+  - jekyll-archives
 include: [".htaccess"]
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]  
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]
 
 
 # Plugin: jekyll-assets
@@ -34,6 +35,20 @@ assets:
   cache: true
   debug: false
   version: 1
+
+
+# Plugin: jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+    - year
+  layouts:
+    year: year_index
+    tag: tag_index
+  permalinks:
+    year: /:year/
+    tag: /tag/:name/
 
 
 # Site owner
@@ -51,7 +66,7 @@ owner:
     analytics: UA-2011187-1
     plus: https://plus.google.com/+MichaelRoseDesign/posts
     verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
-  bing:   
+  bing:
     verify: D81F4C18A6CB3018F64D7C827D953DFD
   alexa:
     verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas

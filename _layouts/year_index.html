@@ -13,8 +13,8 @@ layout: default
       {% endif %}
       <div class="page-title">
         {% include breadcrumbs.html %}
-        <h1><span>Posts tagged ‘{{ page.title }}’</span></h1>
-        <h2><span>A listing of posts filed under the {{ page.type }} <em>{{ page.title }}</em>.</span></h2>
+        <h1><span>Archive for {{ page.title | date: "%Y" }}</span></h1>
+        <h2><span>Posts from the year {{ page.title | date: "%Y" }}.</span></h2>
       </div><!-- /.page-title -->
     </div><!-- /.page-header -->
     <div class="archive-wrap">
