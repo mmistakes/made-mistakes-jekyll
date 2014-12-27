@@ -9,7 +9,7 @@
 
 @import "variables";
 
-/* 
+/*
    Vendor
    ========================================================================== */
 
@@ -20,7 +20,7 @@
 @import "font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 
-/* 
+/*
    Global
    ========================================================================== */
 
@@ -28,7 +28,7 @@
 @import "reset";
 @import "base";
 
-/* 
+/*
    Components
    ========================================================================== */
 
@@ -46,8 +46,9 @@
 @import "google-search"; /* Google search form box */
 @import "pygments"; /* Pygments.rb syntax highlighting */
 @import "paper-color-swatches"; /* color swatches for Paper by FiftyThree articles */
+@import "slickmap"; /* SlickMap visual sitemap */
 
-/* 
+/*
    Page specific
    ========================================================================== */
 

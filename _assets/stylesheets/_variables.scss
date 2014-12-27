@@ -2,7 +2,7 @@
    SCSS VARIABLES
    ========================================================================== */
 
-/* 
+/*
    Typography related variables
    ========================================================================== */
 
@@ -18,7 +18,7 @@ $doc-line-height              : 24;
 $border-radius                : 5px;
 
 
-/* 
+/*
    Color variables
    ========================================================================== */
 
@@ -29,8 +29,8 @@ $background-color             : #ebebeb;
 $body-color                   : $white;
 $text-color                   : rgba($black, 0.8);
 $caption-color                : lighten($black, 40);
-$base-color                   : #343434;    
-$comp-color                   : complement($base-color); 
+$base-color                   : #343434;
+$comp-color                   : complement($base-color);
 $border-color                 : #ddd;
 $link-color                   : lighten($black, 10);
 $primary-color                : lighten($black, 20);
@@ -60,7 +60,7 @@ $twitter-color                : #55acee;
 $vimeo-color                  : #1ab7ea;
 $youtube-color                : #ff3333;
 
-/* 
+/*
    Form variables
    ========================================================================== */
 
@@ -74,7 +74,7 @@ $form-font-family             : $base-font;
 $form-font-size               : $doc-font-size;
 
 
-/* 
+/*
    Sliding menu variables
    ========================================================================== */
 
@@ -84,13 +84,22 @@ $sliding-menu-color           : $white;
 $sliding-menu-background-hover: $black;
 $sliding-menu-color-hover     : $white;
 $sliding-menu-border          : 1px solid $sliding-menu-border-color;
-$button-size                  : 30px; 
+$button-size                  : 30px;
 $transition                   : .3s; /* increase this to see the transformations in slow-motion */
 $sliding-menu-animation       : all 500ms ease-in-out;
 
 
-/* 
+/*
    Masthead variables
    ========================================================================== */
 
 $masthead-height: $button-size * 2;
+
+
+/*
+   Visual sitemap
+   ========================================================================== */
+
+$sitemap-primary-color        : lighten($base-color, 50);
+$sitemap-sub-color            : lighten($base-color, 65);
+$sitemap-sub-sub-color        : lighten($base-color, 75);
