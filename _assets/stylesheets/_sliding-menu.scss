@@ -16,7 +16,7 @@
     }
   }
 
-/* 
+/*
    Page wrapper (used for page slide effect)
    ========================================================================== */
 
@@ -28,7 +28,7 @@
   transition: $sliding-menu-animation;
 }
 
-/* 
+/*
    Sliding menu button
    ========================================================================== */
 
@@ -61,7 +61,7 @@
   }
 }
 
-/* 
+/*
    Sliding content
    ========================================================================== */
 
@@ -72,11 +72,11 @@
   padding: em(22) 0;
   visibility: hidden;
   backface-visibility: hidden;
-  @include media($medium) {
+  @include media($small) {
     text-align: left;
   }
   @include size(100% 100%);
-  @include media($medium) {
+  @include media($small) {
     width: em(600);
   }
   @include media($large) {
@@ -100,13 +100,13 @@
     }
     color: $white;
     @include font-size(14);
-    @include media($medium) {
+    @include media($small) {
       @include font-size(16);
     }
     span {
       display: block;
       @include font-size(32,no,1);
-      @include media($medium) {
+      @include media($small) {
         @include font-size(48,no,1);
       }
       font-family: $base-font;
@@ -129,7 +129,7 @@
     position: relative;
     padding-bottom: 1em;
     min-height: 70px;
-    @include media($medium) {
+    @include media($small) {
       min-height: 100px;
     }
   }
@@ -146,7 +146,7 @@
       width: 50px;
       border: 2px solid $white;
       margin-bottom: ($gutter / 2);
-      @include media($medium) {
+      @include media($small) {
         width: 150px;
       }
     }
@@ -156,7 +156,7 @@
       font-family: $alt-font;
       @include font-size(24,no);
       font-weight: 700;
-      @include media($medium) {
+      @include media($small) {
         margin-left: 170px;
         @include font-size(32,no);
       }
@@ -165,7 +165,7 @@
       margin-top: 0;
       margin-left: 60px;
       @include font-size(14,no);
-      @include media($medium) {
+      @include media($small) {
         margin-left: 170px;
         @include font-size(16,no);
       }
