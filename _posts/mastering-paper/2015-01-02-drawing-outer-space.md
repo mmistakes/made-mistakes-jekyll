@@ -3,8 +3,8 @@ layout: article
 title: "Mastering Paper by FiftyThree: Drawing Outer Space"
 modified: 
 categories: mastering-paper
-excerpt: ""
-tags: [paper by 53, tutorial, outer space, ipad]
+excerpt: "Learn how I draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and Pencil."
+tags: [paper by 53, tutorial, outer space, blend, pencil, stylus, ipad]
 image:
   feature: paper-53-space-feature.jpg
   teaser: paper-53-space-teaser.jpg
@@ -15,9 +15,9 @@ Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bo
 
 {% include toc.html %}
 
-In this Paper by FiftyThree tutorial I'll start by walking you through my process of painting an outer space scene using only a finger. Then, I'll demonstrate how to paint a different outer space scene using [FiftyThree's Pencil stylus]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}) instead. Taking advantage of **Surface Pressure** and [**Blend**]({{ site.url }}{% post_url mastering-paper/2013-11-20-pencil-first-look %}) I find the effects are easier and faster to pull off with Pencil.
+In this Paper by FiftyThree tutorial I'll start by walking you through my process of painting an outer space scene using only a finger. Then, I'll demonstrate how to paint another one using [FiftyThree's Pencil stylus]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}) instead. Taking advantage of **Surface Pressure** and [**Blend**]({{ site.url }}{% post_url mastering-paper/2013-11-20-pencil-first-look %}) I find the effects are easier and faster to pull off with Pencil.
 
-Oh and I'm trying something different with this guide. I've toyed around with short videos before, but this time I'm including two that can stand on their own as full blown tutorials. Editing together footage from two different angles, I show the entire drawing process from start to finish in each.
+Oh and I'm trying something different with this guide. I've toyed around with short videos before, but this time I'm including two that can stand on their own as full blown tutorials. Editing together footage shown from two different angles, each video documents the entire drawing process from start to finish.
 
 Both videos are fully annotated[^annotated] with notes and tips throughout, so be sure to watch directly on [Youtube.com](https://www.youtube.com/user/anotherjpeg/) for the best experience. Don't worry, for those of you who learn better with pictures and text I'm still including all that detail below --- just scroll past the videos that begin each section to jump ahead.
 
@@ -43,7 +43,7 @@ Start by covering the canvas with a dark color. For this technique to work prope
 
 ### Star clusters and flow
 
-Use white or a tint to lighten the dark background and lay the ground work for the composition. Using a photographic reference helps, but you can free form things and see what happens as you glide your fingers across the canvas.
+Use white or a tint to lighten the dark background and lay the ground work for the composition. Using a photographic reference helps, but you can free-form things and just let things unfold organically as you glide your fingers across the canvas.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-lighten-bg-color.jpg" alt="screenshot of light blue color">
@@ -67,7 +67,7 @@ To create smooth tones keep your finger on the screen and use circular motions t
 
 #### Blue glazes
 
-Starting with a light blue color, apply a watercolor glaze to the left side of the composition. You don't have to worry about being precise since it will only show on the lighten areas painted with white. Because we filled in the background with black earlier any color that happens to bleed won't it won't be visible.
+Starting with a light blue color, apply a watercolor glaze to the left side of the composition. You don't have to worry about being precise since it will only show on the lighten areas painted with white. Because we filled in the background with black earlier, any color that happens to bleed won't be visible.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-blue-glaze-1.jpg" alt="screenshot of painting a blue glaze">
@@ -93,14 +93,14 @@ Repeat the exact same process on the right half of the composition now, this tim
   <img src="{{ site.url }}/images/paper-53-space-violet-glaze-3.jpg" alt="screenshot of finished fuchsia glazes">
 </figure>
 
-If things went too dark mix a tint of blue or fuchsia (depending on where you want to lighten) and dab your finger quickly to recover some brightness. Use your best judgment and correct as needed. There may be some back and forth needed between tints and darks to get the gradient looking just right.
+If things went too dark mix a tint of blue or fuchsia (depending on where you want to lighten) and dab your finger quickly to recover some brightness. Use your best judgment and correct as needed. There may be some back and forth needed between tints and darks to get the gradients looking just right.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-lightening-glazes.jpg" alt="lightening the blue and violet glazes with white and your finger">
   <figcaption>Quickly dab in strokes of watercolor filled with a white color to bring up the brightness.</figcaption>
 </figure> 
 
-<i class="fa fa-star"></i> **ProTip:** Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn a pure white way too fast.
+<i class="fa fa-star"></i> **ProTip:** Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn pure white way too fast.
 {: .notice}
 
 ### Placing stars with your fingers
@@ -127,7 +127,7 @@ Tapping in the same spot a few times is an effective way of brightening a star. 
   <figcaption>Increase the size or brightness of a star by placing more dots closing to each other.</figcaption>
 </figure>
 
-As before, when you move over to the fuchsia and violet half of the space scene, mix up matching star colors. Glazes can be applied to darken clusters of stars further adding to the realism --- the same goes for using white to lighten. There really is no right or wrong way to approach it, so feel free to experiment and find what works best for you.
+As before, when you move over to the fuchsia and violet half of the space scene, select matching star colors. Glazes can be applied to darken clusters of stars further adding to the realism --- the same goes for using white to lighten. There really is no right or wrong way to approach it, so feel free to experiment and find what works best for you.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-violet-star-glaze.jpg" alt="screenshot of stars glazed with violet watercolor">
@@ -144,7 +144,7 @@ An outer space scene wouldn't be complete without a planet or two, so let's reme
 
 The hardest part of world building is deciding where to place the planet(s). Since I've cut the composition in half, it would seem to make the most sense placing a planet on each side.
 
-Mix up a white or tint and switch to the fountain pen tool. Then simply place your finger on the canvas where you'd like the planet to appear and hold it for a few seconds. The longer you press the bigger the dot gets.
+Pick a white or tint color and switch to the fountain pen tool. Then place your finger on the canvas where you'd like the planet to appear and hold it for a few seconds. The longer you press the bigger the dot gets.
 
 <figure class="half">
   <img src="{{ site.url }}/images/paper-53-space-mix-planet-color.jpg" alt="mixing a light color to create a planet with">
@@ -165,13 +165,13 @@ Continue adding glazes until one side fades completely into the blackness of spa
 Once satisfied with the results repeat the process for as many other planets as you want.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-space-scene-1-f.jpg" alt="finished space scene painted with just a finger">
-  <figcaption><strong>Two Worlds Apart</strong> is available on Mix for downloading and remixing. Feel free to add more stars, planets, or whatever else you'd like.</figcaption>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1575972" target="_blank"><img src="{{ site.url }}/images/paper-53-space-scene-1-f.jpg" alt="finished space scene painted with just a finger"></a>
+  <figcaption><a href="https://mix.fiftythree.com/11098-Michael-Rose/1575972" target="_blank"><strong>Two Worlds Apart</strong></a> is available on Mix for downloading and remixing. Feel free to add more stars, planets, or whatever else you'd like.</figcaption>
 </figure>
 
 ---
 
-## Drawing outer space with Pencil (stylus)
+## Painting outer space with Pencil (stylus)
 
 Building on the same techniques used in the first half of this guide, I'm going to now show you how Pencil can be used to enhance and speed things up. For the most part you follow the exact same steps with a few embellishments to ratchet up the realism.
 
@@ -260,38 +260,38 @@ Using the same process as before, leave one of the planet's edges exposed as you
   <img src="{{ site.url }}/images/paper-53-space-2-planet-shadow.jpg" alt="screenshot of painting a dark shadow across a planet">
 </figure>
 
-I started to lose the shape of the circle because I was painting pretty fast. To correct it I darkened the lower left corner until it merged with the rest of the scene. Depending on what color the background is, it may be harder to cover-up any mistakes to the shape.
+I started to lose the shape of the circle because I was painting pretty fast. To correct it I darkened the lower left corner until it merged with the rest of the scene. Depending on what color the background is, these sorts of mistakes may be harder to cover-up.
 
-<i class="fa fa-star"></i> **ProTip:** To help stay in the lines a stencil can be used. Simply hold it steady on the iPad's screen as you paint glazes with Pencil inside of it.
+<i class="fa fa-star"></i> **ProTip:** To help stay in the lines a <a href="http://www.amazon.com/gp/product/B000FPYQ14/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FPYQ14&linkCode=as2&tag=mademist-20&linkId=GLP5SABXVPYTF7PT">stencil</a> can be used. Simply hold it steady on the iPad's screen as you paint glazes with Pencil inside of it.
 {: .notice}
 
 #### Refining a planet
 
-After you finish filling in the planet, now is a good time to go back in Pencil's settings and turn Blend[^blend-off] back on (if you previously turned it off like I did).
+After you finish filling in the planet, now is a good time to modify Pencil's settings and turn Blend[^blend-off] back on (if you previously turned it off like I did).
 
 <figure class="half">
   <img src="{{ site.url }}/images/paper-53-space-2-planet-blend-1.jpg" alt="blending the planet's edge with a finger">
   <img src="{{ site.url }}/images/paper-53-space-2-planet-blend-2.jpg" alt="screenshot of a planet with the edges smudged">
 </figure>
 
-Using the tip of your finger, quickly swipe along the planet's edge in an arc like motion. This will blur strokes and colors at the edge while retaining the circles shape. With the right amount of speed you should end up with a something that resembles a glowing orb.
+Using the tip of your finger, quickly swipe along the planet's edge in an arc like motion. This will blur strokes and colors at the edge while retaining the circle's shape. With the right amount of speed you should end up with a something that resembles a glowing orb.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-2-planet-lightening.jpg" alt="screenshot of lightening a planet with white watercolor">
 </figure>
 
-To correct a distorted shape that occurs from smudging too much, simple brush in bursts of whites and darks in the problem areas. It may be necessary to paint then blend these strokes several times to achieve pleasing results. It helps to think of the colors on screen as pixels of sand that you are pushing around with your finger tips.
+To correct any shape distortions that occur from smudging too much, paint in bursts of whites and darks over the problem areas. Repeating the painting and blending steps as many times as necessary. It helps to think of the colors on screen as pixels of sand that can be pushed around with your finger tips.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-2-planet-edge.jpg" alt="screenshot of penciling in highlights">
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** Finely sketched pencil strokes along the edges can also be effective at restoration work.
+<i class="fa fa-star"></i> **ProTip:** Fine pencil lines along the sides work well to redefine a bumpy or irregular shaped curve.
 {: .notice}
 
 #### Detailing a planet
 
-Because this planet is larger than the first set I painted, there's room to sketch in craters and other textures. Use the Color Picker to sample the planet and mix up a lighter variation of it. With a color selected use the pencil tool sketch in craters and holes to give the planet detail. By flipping Pencil on its side you can use Surface Pressure to make charcoal like strokes that add a nice texture.
+Because this planet is larger than the first set I painted, there's plenty of room to sketch in craters and other textures. Use the Color Picker to sample the planet and mix up a lighter variation of it. With a color selected use the pencil tool to scribble in craters and holes, giving the planet detail. By flipping Pencil on its side you can use Surface Pressure to add even more detail with a grainy charcoal like texture.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-2-planet-details.jpg" alt="screenshot of planet details drawn with pencil">
@@ -306,10 +306,10 @@ You guessed it, time to tap in a ton of stars again. Using a stylus like Pencil 
 <figure class="half">
   <img src="{{ site.url }}/images/paper-53-space-2-stars-pencil.jpg" alt="tapping Pencil to create dots that look like stars">
   <img src="{{ site.url }}/images/paper-53-space-2-stars-pencil-2.jpg" alt="screenshot of blue stars drawn with Pencil">
-  <figcaption>This first pass of stars is hard to see but that's ok. As you add more gradually increase their brightness.</figcaption>
+  <figcaption>This first pass of stars is hard to see but that's ok. As you add more stars, increase their brightness to help make them sparkle.</figcaption>
 </figure>
 
-Just like before use a color that is in the family of the one you're placing the stars on. Start with a medium tone first and cover the canvas in stars before gradually using a lighter one. Save those bright stars for areas towards the middle of a galaxy or cluster --- it will look more natural that way.
+Just like before pick a star color that relates to your background. Start with a medium tone first and cover the canvas in stars before gradually using a lighter one. Save the bright star clusters for those light center spots --- it will look more natural that way.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-2-blue-stars-detail.jpg" alt="detail screenshot of blue stars drawn with Pencil">
@@ -318,39 +318,39 @@ Just like before use a color that is in the family of the one you're placing the
 
 #### Star variations
 
-Size and brightness variation techniques used earlier are still fair game. If you're using Pencil and have blending enabled, there's a new trick available to you.
+Methods used earlier to vary the stars size and brightness are still fair game. If you're using Pencil and have blending enabled, there's a new trick available to you.
 
-You may remember in the first part of this guide where I mentioned that stars made with the pen tools are too overpowering and bright. Well if you smudge them quickly with Blend they turn into small glowing orbs. It's a great effect that can add more variety to the composition.
+You may remember in the first part of this guide I cautioned against using the ink tools for making stars. Well if you blend ink dots with fast smudges they turn into glowing orbs. It's a great effect that can add interest to the composition.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-2-blended-stars.jpg" alt="screenshot of blended stars">
-  <figcaption>Swiping your finger quickly over a large white star will create a glow star. You can even make trails by pulling your strokes slowly and smearing the star.</figcaption>
+  <figcaption>Swiping your finger quickly over a large white star will create a glow orb. You can even make trails by pulling your strokes slowly and smearing the star.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** If you don't have Pencil glowing orbs can be created with your finger by quickly dabbing white watercolor over a star.
+<i class="fa fa-star"></i> **ProTip:** If you don't have a Pencil stylus, glowing orbs can be created by dabbing a star with white watercolor.
 {: .notice}
 
-Just like earlier, star clusters can be lightened or darkened by glazing over them with the appropriate colors. If you do decide to lighten sections be sure to move fast as you paint to risk going too white.
+Just like earlier, star clusters can be lightened or darkened by glazing over them with the appropriate colors. If you do decide to lighten sections be sure to move fast as you risk going too white when lingering in one spot.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-space-2-finished.jpg" alt="finished space scene drawn with a Pencil stylus">
-  <figcaption><strong>One Dying Star</strong> is available on Mix for download and remixing. Do as you please with my painting.</figcaption>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1534984" target="_blank"><img src="{{ site.url }}/images/paper-53-space-2-finished.jpg" alt="finished space scene drawn with a Pencil stylus"></a>
+  <figcaption><a href="https://mix.fiftythree.com/11098-Michael-Rose/1534984" target="_blank"><strong>One Dying Star</strong></a> is available on Mix for download and remixing. Do as you please with my painting.</figcaption>
 </figure>
 
 ---
 
 ## Two more things
 
-There are two other techniques I wanted to share that didn't really have a place in the drawings above so I'm putting them here. These both require you to have FiftyThree's Pencil stylus and Blend feature enabled.
+There are two other techniques I wanted to share that felt out of place above so I'm dropping them here. These both require you to have FiftyThree's Pencil stylus and the Blend feature enabled.
 
-If you place strokes of light colors on top of a dark background and then slowly smudge upwards, an effect that mimics the aurora borealis can be achieved.
+If you place strokes of colors on top of a dark background and then slowly smudge upwards, an effect that mimics the aurora borealis can be achieved.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-space-aurora-blend.jpg" alt="a blended aurora in space">
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1576095" target="_blank"><img src="{{ site.url }}/images/paper-53-space-aurora-blend.jpg" alt="a blended aurora in space"></a>
   <figcaption>Direction and speed really matter here. The slower you move the further the color can be "pulled."</figcaption>
 </figure>
 
-A slightly modified approach to this technique can be used to create black holes. Instead of using slow upward smudges, you move in a circular pattern.
+A slightly modified approach to this technique can be used to create black holes. Instead of using slow upward smudges, you pull in a circular motion.
 
 <figure class="third">
   <a href="{{ site.url }}/images/paper-53-space-blackhole-1-lg.jpg"><img src="{{ site.url }}/images/paper-53-space-blackhole-1-600.jpg" alt="screenshot of drawing a black hole step 1"></a>
@@ -361,4 +361,4 @@ A slightly modified approach to this technique can be used to create black holes
 
 ---
 
-Well I guess that's about it. Since doing video tutorials is fairly new for me (and super time intensive) let me know what works and what doesn't so I know if I should even bother. The best way you can do that is by liking them, subscribing to my YouTube channel, and leaving comments. Thanks!
+Well I guess that's about it. Since doing video tutorials is fairly new for me (and super time intensive) let me know what works and what doesn't. The best way you can do that is by liking the videos, subscribing to [my YouTube channel](https://www.youtube.com/user/anotherjpeg), and leaving comments. Thanks!
