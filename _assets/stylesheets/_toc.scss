@@ -51,7 +51,7 @@
 
 .toc-left {
   @include span-columns(12);
-  @include media($large) {
+  @include media($medium) {
     @include span-columns(4);
   }
   margin-left: 0;

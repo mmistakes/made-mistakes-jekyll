@@ -98,7 +98,7 @@
 
 .tiles-right {
   clear: both;
-  @include media($large) {
+  @include media($medium) {
     clear: none;
     @include span-columns(8);
   }

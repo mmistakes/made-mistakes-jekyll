@@ -25,7 +25,7 @@
 #primaryNav.col5 li { width: 20.0%; }
 #primaryNav.col6 li {
   width: 100%;
-  @include media($large) {
+  @include media($medium) {
     width: 16.6%;
   }
 }
@@ -60,58 +60,71 @@
 /* -------- Top Level --------- */
 
 #primaryNav {
-    margin: 0;
-    padding: 0;
-    @include media($large) {
-      float: left;
-    }
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  @include media($medium) {
+    float: left;
+  }
+  width: 100%;
 }
 #primaryNav #home {
-    display: block;
-    float: none;
-    background: $white url('../images/L1-left.png') center bottom no-repeat;
-    position: relative;
-    z-index: 2;
-    margin-top: 0;
-    padding-bottom: 30px;
+  display: block;
+  float: none;
+  position: relative;
+  z-index: 2;
+  margin-top: 0;
+  padding-bottom: 30px;
+  @include media ($medium) {
+    background: $white url('../images/L1-left.png') center bottom no-repeat; /* bg on >= medium screens */
+  }
 }
 #primaryNav li {
-    @include media($large) {
-      float: left;
-    }
+  @include media($medium) {
+    float: left;
     background: url('../images/L1-center.png') center top no-repeat;
-    padding: 30px 0;
-    margin-top: -30px;
+  }
+  padding: 30px 0;
+  margin-top: -30px;
 }
 #primaryNav li a {
-    margin: 0 20px 0 0;
-    padding: 10px;
-    display: block;
-    font-size: 14px;
-    font-family: $alt-font;
-    text-align: center;
-    color: $black;
-    background: $sitemap-primary-color;
-    border: 2px solid darken($sitemap-primary-color, 20);
-    border-radius: 5px;
+  margin: 0 20px 0 0;
+  padding: 10px;
+  display: block;
+  font-size: 14px;
+  font-family: $alt-font;
+  text-align: center;
+  color: $black;
+  background: $sitemap-primary-color;
+  border: 2px solid darken($sitemap-primary-color, 20);
+  border-radius: 5px;
 }
 #primaryNav li a:hover {
-    background-color: lighten($sitemap-primary-color, 5);
-    border-color: $sitemap-primary-color;
+  background-color: lighten($sitemap-primary-color, 5);
+  border-color: $sitemap-primary-color;
 }
 #primaryNav li:last-child {
-    background: url('../images/L1-right.png') center top no-repeat;
+  @include media($medium) {
+    background: url('../images/L1-right.png') center top no-repeat; /* bg on >= medium screens */
+  }
+}
+#primaryNav > li:last-child {
+  @include media($medium) {
+    a {
+      margin-right: 0; /* remove right margin on last list element */
+    }
+  }
 }
 
 /* -------- Second Level --------- */
 
 #primaryNav li li {
-    width: 100%;
-    clear: left;
-    margin-top: 0;
-    padding: 10px 0 0 0;
-    background: url('../images/vertical-line.png') center bottom repeat-y;
+  width: 100%;
+  clear: left;
+  margin-top: 0;
+  padding: 10px 0 0 0;
+  @include media($medium) {
+    background: url('../images/vertical-line.png') center bottom repeat-y; /* bg on >= medium screens */
+  }
 }
 #primaryNav li li a {
     background-color: $sitemap-sub-color;
@@ -125,54 +138,56 @@
     padding-top: 30px;
 }
 #primaryNav li li:last-child {
-    background: url('../images/vertical-line.png') center bottom repeat-y;
+  @include media($medium) {
+    background: url('../images/vertical-line.png') center bottom repeat-y; /* bg on >= medium screens */
+  }
 }
 
 /* -------- Third Level --------- */
 
 #primaryNav li li ul {
-    margin: 10px 0 0 0;
-    padding-bottom: 0;
-    width: 100%;
-    @include media($large) {
-      float: right;
-    }
-    padding: 9px 0 10px 0;
-    @include media($large) {
-      background: $white url('../images/L3-ul-top.png') center top no-repeat;
-    }
+  margin: 10px 0 0 0;
+  padding-bottom: 0;
+  width: 100%;
+  @include media($medium) {
+    float: right;
+  }
+  padding: 9px 0 10px 0;
+  @include media($medium) {
+    background: $white url('../images/L3-ul-top.png') center top no-repeat; /* bg on >= medium screens */
+  }
 }
 #primaryNav li li li {
-    @include media($large) {
-      background: url('../images/L3-center.png') left center no-repeat;
-    }
-    padding: 5px 0;
+  @include media($medium) {
+    background: url('../images/L3-center.png') left center no-repeat; /* bg on >= medium screens */
+  }
+  padding: 5px 0;
 }
 #primaryNav li li li a {
-    background-color: $sitemap-sub-sub-color;
-    border-color: darken($sitemap-sub-sub-color, 10);
-    font-size: 12px;
-    padding: 5px;
-    width: 80%;
-    @include media($large) {
-      float: right;
-    }
+  background-color: $sitemap-sub-sub-color;
+  border-color: darken($sitemap-sub-sub-color, 10);
+  font-size: 12px;
+  padding: 5px;
+  width: 80%;
+  @include media($medium) {
+    float: right;
+  }
 }
 #primaryNav li li li a:hover {
-    background-color: lighten($sitemap-sub-sub-color, 5);
-    border-color: $sitemap-sub-sub-color;
+  background-color: lighten($sitemap-sub-sub-color, 5);
+  border-color: $sitemap-sub-sub-color;
 }
 #primaryNav li li li:first-child {
-    padding: 15px 0 5px 0;
-    @include media($large) {
-      background: url('../images/L3-li-top.png') left center no-repeat;
-    }
+  padding: 15px 0 5px 0;
+  @include media($medium) {
+    background: url('../images/L3-li-top.png') left center no-repeat; /* bg on >= medium screens */
+  }
 }
 #primaryNav li li li:last-child {
-    @include media($large) {
-      padding-botom: 0;
-      background: url('../images/L3-bottom.png') left center no-repeat;
-    }
+  @include media($medium) {
+    padding-botom: 0;
+    background: url('../images/L3-bottom.png') left center no-repeat; /* bg on >= medium screens */
+  }
 }
 
 
@@ -181,32 +196,34 @@
    ========================================================================== */
 
 #utilityNav {
-    @include media($large) {
-      float: right;
-    }
-    max-width: 50%;
-    margin-right: 10px;
+  @include media($medium) {
+    float: right;
+  }
+  max-width: 50%;
+  margin-right: 10px;
 }
 #utilityNav li {
-    @include media($large) {
-      float: left;
-    }
-    margin-bottom: 10px;
+  @include media($medium) {
+    float: left;
+  }
+  margin-bottom: 10px;
 }
 #utilityNav li a {
-    margin: 0 10px 0 0;
-    padding: 5px 10px;
-    display: block;
-    border: 2px solid darken($sitemap-sub-sub-color, 10);
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    background: $sitemap-sub-sub-color url('../images/white-highlight.png') top left repeat-x;
-    border-radius: 5px;
-    box-shadow: 0 0 5px darken($background-color, 20);
+  margin: 0 10px 0 0;
+  padding: 5px 10px;
+  display: block;
+  border: 2px solid darken($sitemap-sub-sub-color, 10);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px darken($background-color, 20);
+  @include media($medium) {
+    background: $sitemap-sub-sub-color url('../images/white-highlight.png') top left repeat-x; /* bg on >= medium screens */
+  }
 }
 #utilityNav li a:hover {
-    background-color: lighten($sitemap-sub-sub-color, 20);
-    border-color: $sitemap-sub-sub-color;
+  background-color: lighten($sitemap-sub-sub-color, 20);
+  border-color: $sitemap-sub-sub-color;
 }

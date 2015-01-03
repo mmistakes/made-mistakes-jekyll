@@ -90,7 +90,7 @@
     @include media($small) {
       @include font-size(42,no,42);
     }
-    @include media($large) {
+    @include media($medium) {
       @include font-size(58,no,58);
     }
   }
@@ -101,7 +101,7 @@
     @include media($small) {
       @include font-size(28,yes,1.25);
     }
-    @include media($large) {
+    @include media($medium) {
       @include font-size(32,yes,1.25);
     }
   }
@@ -207,7 +207,7 @@
   font-size: 0.8em;
   transition: opacity 0.2s ease-in-out 0.1s;
   display: none;
-  @include media($large) {
+  @include media($medium) {
     display: inline;
   }
 }
