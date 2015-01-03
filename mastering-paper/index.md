@@ -2,7 +2,7 @@
 layout: archive
 title: "Mastering Paper by FiftyThree"
 excerpt: "Tutorials and techniques to help learn Paper."
-modified: 2014-12-08T12:25:40-05:00
+modified: 2015-01-03
 image: 
   feature: mastering-paper-feature.jpg
   thumb: paper-by-fiftythree-icon175x175.png
@@ -14,7 +14,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
 <nav class="toc toc-left">
   <ul>
     <li><h6>Getting Started with Paper</h6></li>
-    <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}">Introduction and Tool Guide</a></li>
+    <li><a href="{{ site.url }}{% post_url mastering-paper/2013-07-31-introduction-tool-guide %}">Introduction and Tool Guide</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-07-03-moving-the-loupe %}">Moving the Zoom Loupe</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-12-18-color-picker %}">Picking and Sharing Colors</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}">Drawing and Painting Basics</a></li>
@@ -28,6 +28,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-11-25-drawing-textures %}">How to Draw Textures</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-04-21-drawing-faces %}">How to Draw Skin and Faces</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}">How to Draw Hair</a></li>
+    <li><a href="{{ site.url }}{% post_url /mastering-paper/2015-01-02-drawing-outer-space %}">How to Draw Outer Space</a></li>
     <li><h6>Advanced Paper Techniques</h6></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-07-06-grid-method %}">The Grid Method</a></li>
     <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-01-13-contour-drawing %}">Contour Line Drawing</a></li>
