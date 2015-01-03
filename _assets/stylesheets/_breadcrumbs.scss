@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .page-meta,
-.breadcrumbs { 
+.breadcrumbs {
   @include clearfix;
   font-family: $alt-font;
   @include font-size(12,no,21);
@@ -22,7 +22,7 @@
   }
 }
 
-/* 
+/*
    Breadcrumbs + Feature image
    ========================================================================== */
 
@@ -32,13 +32,13 @@
   }
 }
 
-/* 
+/*
    Breacrumbs + Feature image with Overlay (light on dark)
    ========================================================================== */
 
 .overlay .page-meta,
 .overlay .breadcrumbs { /* Overlay meta description and tags */
-  @include media($medium) {
+  @include media($small) {
     span {
       color: $white;
       text-shadow: 1px 1px 0 $black;

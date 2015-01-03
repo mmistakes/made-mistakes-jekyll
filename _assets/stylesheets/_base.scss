@@ -2,7 +2,7 @@
    BASE ELEMENTS
    ========================================================================== */
 
-/* 
+/*
    Typography
    ========================================================================== */
 
@@ -15,14 +15,14 @@ body {
 
 p {
   @include font-size(16,yes,24);
-  @include media($medium) {
+  @include media($small) {
     @include font-size(18,yes,28);
   }
 }
 
 li {
   @include font-size(16,8,24);
-  @include media($medium) {
+  @include media($small) {
     @include font-size(18,9,28);
   }
 }
@@ -39,19 +39,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   @include font-size(24);
-  @include media($medium) {
+  @include media($small) {
     @include font-size(36);
   }
 }
 h2 {
   @include font-size(22);
-  @include media($medium) {
+  @include media($small) {
     @include font-size(32);
   }
 }
 h3 {
   @include font-size(18);
-  @include media($medium) {
+  @include media($small) {
     @include font-size(28);
   }
 }
@@ -59,17 +59,17 @@ h4, h5, h6 {
   @include font-size(16);
 }
 h4 {
-  @include media($medium) {
+  @include media($small) {
     @include font-size(26);
   }
 }
 h5 {
-  @include media($medium) {
+  @include media($small) {
     @include font-size(24);
   }
 }
 h6 {
-  @include media($medium) {
+  @include media($small) {
     @include font-size(20);
   }
 }
@@ -176,7 +176,7 @@ hr {
   clear: both;
 }
 
-/* 
+/*
    Media and embeds
    ========================================================================== */
 
@@ -186,7 +186,7 @@ figure {
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
   // full width figures on small screens
-  @include media($medium) {
+  @include media($small) {
     margin-left: 0;
     margin-right: 0;
     position: relative;
@@ -209,7 +209,7 @@ figure {
   }
   &.half {
     @include outer-container;
-    @include media($medium) {
+    @include media($small) {
       a,
       > img {
         @include span-columns(6);
@@ -222,7 +222,7 @@ figure {
   }
   &.third {
     @include outer-container;
-    @include media($medium) {
+    @include media($small) {
       a,
       > img {
         @include span-columns(4);
@@ -240,7 +240,7 @@ figure {
 figcaption {
   padding-left: $gutter;
   padding-right: $gutter;
-  @include media($medium) {
+  @include media($small) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -274,7 +274,7 @@ svg:not(:root) {
 }
 
 
-/* 
+/*
    Forms
    ========================================================================== */
 
@@ -369,7 +369,7 @@ input[type="submit"] {
   white-space: nowrap;
 }
 
-/* 
+/*
    Navigation lists
    ========================================================================== */
 
@@ -399,7 +399,7 @@ nav {
   }
 }
 
-/* 
+/*
    Global animation transition
    ========================================================================== */
 

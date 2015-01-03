@@ -2,7 +2,7 @@
    TABLE OF CONTENTS
    ========================================================================== */
 
-/* 
+/*
    Page table of contents
    ========================================================================== */
 
@@ -24,7 +24,7 @@
   }
   li {
     @include font-size(14,no,16);
-    @include media($medium) {
+    @include media($small) {
       @include font-size(16,no,18);
     }
     border-bottom: 1px solid $border-color;
@@ -45,7 +45,7 @@
   }
 }
 
-/* 
+/*
    1/4 wide table of contents to be used as a sidebar (left aligned)
    ========================================================================== */
 

@@ -9,5 +9,6 @@ $visual_grid: false;
 /* Screen sizes for media query mixin */
 
 $micro-only: new-breakpoint(min-width em(240) max-width em(480) 12);
-$medium: new-breakpoint(min-width em(768) 12);
+$small: new-breakpoint(min-width em(600) 12);
+$medium: new-breakpoint(min-width em(900) 12);
 $large: new-breakpoint(min-width em(1280) 12);

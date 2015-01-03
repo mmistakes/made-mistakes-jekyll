@@ -2,26 +2,26 @@
    PAGE
    ========================================================================== */
 
-/* 
+/*
    Main content
    ========================================================================== */
 
 .page-content {
   h2 {
     @include font-size(24,yes,26);
-    @include media($medium) {
+    @include media($small) {
       @include font-size(28,yes,32);
     }
   }
   h3 {
     @include font-size(20,yes,22);
-    @include media($medium) {
+    @include media($small) {
       @include font-size(24,yes,26);
     }
   }
   h4 {
     @include font-size(18);
-    @include media($medium) {
+    @include media($small) {
       @include font-size(22);
     }
   }
@@ -29,7 +29,7 @@
   /* Increase font size of first paragraph */
   > p {
     &:first-child {
-      @include media($medium) {
+      @include media($small) {
         @include font-size(20,yes,30);
       }
     }
@@ -53,14 +53,14 @@
   p > .reversefootnote {
     border-bottom-width: 0;
   }
-  
+
   .page-footer,
   .pagination {
     @include fill-parent;
   }
 }
 
-/* 
+/*
    Post archives
    ========================================================================== */
 
@@ -76,7 +76,7 @@
   }
 }
 
-/* 
+/*
    Default page title
    ========================================================================== */
 
@@ -87,7 +87,7 @@
     margin-top: 0;
     margin-bottom: 0;
     @include font-size(24,no,24);
-    @include media($medium) {
+    @include media($small) {
       @include font-size(42,no,42);
     }
     @include media($large) {
@@ -97,8 +97,8 @@
   h2 { /* Default page sub-headline */
     margin-top: 0;
     font-weight: 400;
-    @include font-size(20,yes,1.25); 
-    @include media($medium) {
+    @include font-size(20,yes,1.25);
+    @include media($small) {
       @include font-size(28,yes,1.25);
     }
     @include media($large) {
@@ -107,7 +107,7 @@
   }
 }
 
-/* 
+/*
    Featured page header (large image with text overlay)
    ========================================================================== */
 
@@ -119,7 +119,7 @@
     width: 100%; /* Expand image to cover full width of header */
   }
   &.overlay .page-title { /* Position title on top of feature image */
-    @include media($medium) {
+    @include media($small) {
       position: absolute;
       bottom: 0;
       z-index: 1;
@@ -128,14 +128,14 @@
     }
   }
   &.overlay h1 { /* Overlay page title */
-    @include media($medium) {
+    @include media($small) {
       color: $white;
       text-shadow: 1px 1px 0 $black;
     }
   }
   &.overlay h2 { /* Overlay page sub-headline */
     margin-bottom: 0;
-    @include media($medium) {
+    @include media($small) {
       color: $white;
       text-shadow: 1px 1px 0 $black;
     }
@@ -157,7 +157,7 @@
     margin-left: -2.5 * $gutter;
     margin-right: -2.5 * $gutter;
   }
-  
+
   .image-credit { /* Position and style image credit caption */
     position: absolute;
     bottom: 0;
@@ -188,7 +188,7 @@
     bottom: 0;
     left: 0;
     /* add gradient overlay on >= medium screens */
-    @include media($medium) {
+    @include media($small) {
       @include background-image(linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 75%,rgba(0,0,0,0.9) 100%));
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
       transition: opacity 1s ease-in-out 0.2s;
@@ -196,15 +196,15 @@
   }
 }
 
-/* 
+/*
    Headline anchors (show link icon on hover)
    ========================================================================== */
 
-.header-link { 
-  position: relative; 
-  left: 0.5em; 
-  opacity: 0; 
-  font-size: 0.8em; 
+.header-link {
+  position: relative;
+  left: 0.5em;
+  opacity: 0;
+  font-size: 0.8em;
   transition: opacity 0.2s ease-in-out 0.1s;
   display: none;
   @include media($large) {
@@ -212,15 +212,15 @@
   }
 }
 
-h2:hover .header-link, 
-h3:hover .header-link, 
-h4:hover .header-link, 
-h5:hover .header-link, 
-h6:hover .header-link { 
-  opacity: 1; 
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
 }
 
-/* 
+/*
    Tag links
    ========================================================================== */
 
@@ -233,21 +233,21 @@ h6:hover .header-link {
     display: inline-block;
     @include font-size(14,7);
   }
-  a { 
+  a {
     padding: 4px 6px;
     margin-right: 2px;
     background-color: lighten($primary-color,70);
     border-radius: $border-radius;
     text-decoration: none;
     border-bottom: 0 solid transparent;
-    span { 
+    span {
       vertical-align: super;
       @include font-size(10);
     }
   }
 }
 
-/* 
+/*
    Page footer (author details, social share links, etc)
    ========================================================================== */
 
@@ -287,7 +287,7 @@ h3.author-name {
   @include font-size(16);
 }
 
-/* 
+/*
    Comments
    ========================================================================== */
 
