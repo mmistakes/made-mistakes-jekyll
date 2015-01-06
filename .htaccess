@@ -433,41 +433,42 @@ redirect 301 /feed.xml http://feeds.feedburner.com/MadeMistakes
 # Sitemap redirects
 # ----------------------------------------------------------------------
 
-redirect 301 /sitemap.xml.gz http://mademistakes.com/sitemap.xml
-redirect 301 /post-sitemap.xml http://mademistakes.com/sitemap.xml
-redirect 301 /category-sitemap.xml http://mademistakes.com/sitemap.xml
+redirect 301 /sitemap.xml.gz https://mademistakes.com/sitemap.xml
+redirect 301 /post-sitemap.xml https://mademistakes.com/sitemap.xml
+redirect 301 /category-sitemap.xml https://mademistakes.com/sitemap.xml
 
 # ----------------------------------------------------------------------
 # Page redirects
 # ----------------------------------------------------------------------
 
-RedirectMatch permanent /lifestream http://mademistakes.com/articles/
-redirect 301 /about-made-mistakes/ http://mademistakes.com/about/
-redirect 301 /articles/face http://mademistakes.com/articles/paperfaces-ipad-portrait-project/
-redirect 301 /articles/faces-made-with-paper-ipad http://mademistakes.com/articles/paperfaces-ipad-portrait-project/
-redirect 301 /articles/paperfaces-portrait-gallery http://mademistakes.com/paperfaces/
-redirect 301 /paperfaces/slave-leia-jabba-the-hutt http://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait/
-redirect 301 /tags.html http://mademistakes.com/tag/
-redirect 301 /tag/baby/ http://mademistakes.com/tag/twins/
-redirect 301 /articles/mastering-paper-53-guide http://mademistakes.com/mastering-paper/
-redirect 301 /works http://mademistakes.com/work
-redirect 301 /minimal-mistakes http://mademistakes.com/articles/minimal-mistakes-jekyll-theme
-redirect 301 /so-simple http://mademistakes.com/articles/so-simple-jekyll-theme
-redirect 301 /hpstr http://mademistakes.com/articles/hpstr-jekyll-theme
-redirect 301 /articles/paper-53-introduction http://mademistakes.com/mastering-paper/introduction-tool-guide
-redirect 301 /articles/paper-53-drawing-trees http://mademistakes.com/mastering-paper/drawing-trees
-redirect 301 /articles/paper-53-drawing-sky-clouds http://mademistakes.com/mastering-paper/drawing-clouds
-redirect 301 /articles/paper-53-drawing-water-waves http://mademistakes.com/mastering-paper/drawing-water
-redirect 301 /articles/paper-53-book-review http://mademistakes.com/mastering-paper/moleskine-book
-redirect 301 /articles/paper-53-drawing-textures http://mademistakes.com/mastering-paper/drawing-textures
-redirect 301 /articles/paper-53-basics http://mademistakes.com/mastering-paper/basics
-redirect 301 /articles/madewithpaper-drawing-guide http://mademistakes.com/mastering-paper/short-guide
-redirect 301 /articles/how-to-draw-hair-paper-53 http://mademistakes.com/mastering-paper/drawing-hair
-redirect 301 /articles/drawing-faces-paper-53 http://mademistakes.com/mastering-paper/drawing-blank-faces
-redirect 301 /articles/blend-first-look http://mademistakes.com/mastering-paper/pencil-first-look
-redirect 301 /articles/contour-drawing http://mademistakes.com/mastering-paper/contour-drawing
-redirect 301 /articles/remix-me http://mademistakes.com/mastering-paper/mix
-redirect 301 /articles/pencil-53-review http://mademistakes.com/mastering-paper/pencil-53-review
-redirect 301 /drawing-textures http://mademistakes.com/mastering-paper/drawing-textures
-redirect 301 /blog/those-city-folk-in-animal-crossing-still-love-the-gossip http://mademistakes.com/articles/animal-crossing-city-folk-impressions
-redirect 301 /code-highlighting-post/ http://mademistakes.com/work/jekyll-themes
+RedirectMatch permanent /lifestream https://mademistakes.com/articles/
+redirect 301 /about-made-mistakes/ https://mademistakes.com/about/
+redirect 301 /articles/face https://mademistakes.com/articles/paperfaces-ipad-portrait-project/
+redirect 301 /articles/faces-made-with-paper-ipad https://mademistakes.com/articles/paperfaces-ipad-portrait-project/
+redirect 301 /articles/paperfaces-portrait-gallery https://mademistakes.com/paperfaces/
+redirect 301 /paperfaces/slave-leia-jabba-the-hutt https://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait/
+redirect 301 /tags.html https://mademistakes.com/tag/
+redirect 301 /tag/baby/ https://mademistakes.com/tag/twins/
+redirect 301 /articles/mastering-paper-53-guide https://mademistakes.com/mastering-paper/
+redirect 301 /works https://mademistakes.com/work/
+redirect 301 /minimal-mistakes https://mademistakes.com/articles/minimal-mistakes-jekyll-theme/
+redirect 301 /so-simple https://mademistakes.com/articles/so-simple-jekyll-theme/
+redirect 301 /hpstr https://mademistakes.com/articles/hpstr-jekyll-theme/
+redirect 301 /articles/paper-53-introduction https://mademistakes.com/mastering-paper/introduction-tool-guide/
+redirect 301 /articles/paper-53-drawing-trees https://mademistakes.com/mastering-paper/drawing-trees/
+redirect 301 /articles/paper-53-drawing-sky-clouds https://mademistakes.com/mastering-paper/drawing-clouds/
+redirect 301 /articles/paper-53-drawing-water-waves https://mademistakes.com/mastering-paper/drawing-water/
+redirect 301 /articles/paper-53-book-review https://mademistakes.com/mastering-paper/moleskine-book/
+redirect 301 /articles/paper-53-drawing-textures https://mademistakes.com/mastering-paper/drawing-textures/
+redirect 301 /articles/paper-53-basics https://mademistakes.com/mastering-paper/basics/
+redirect 301 /articles/madewithpaper-drawing-guide https://mademistakes.com/mastering-paper/short-guide/
+redirect 301 /articles/how-to-draw-hair-paper-53 https://mademistakes.com/mastering-paper/drawing-hair/
+redirect 301 /articles/drawing-faces-paper-53 https://mademistakes.com/mastering-paper/drawing-blank-faces/
+redirect 301 /articles/blend-first-look https://mademistakes.com/mastering-paper/pencil-first-look/
+redirect 301 /articles/contour-drawing https://mademistakes.com/mastering-paper/contour-drawing/
+redirect 301 /articles/remix-me https://mademistakes.com/mastering-paper/mix/
+redirect 301 /articles/pencil-53-review https://mademistakes.com/mastering-paper/pencil-53-review/
+redirect 301 /drawing-textures https://mademistakes.com/mastering-paper/drawing-textures/
+redirect 301 /blog/those-city-folk-in-animal-crossing-still-love-the-gossip https://mademistakes.com/articles/animal-crossing-city-folk-impressions/
+redirect 301 /code-highlighting-post/ https://mademistakes.com/work/jekyll-themes/
+redirect 301 /tag/fiftythree/ https://mademistakes.com/tag/paper-by-53/
