@@ -471,4 +471,5 @@ redirect 301 /articles/pencil-53-review https://mademistakes.com/mastering-paper
 redirect 301 /drawing-textures https://mademistakes.com/mastering-paper/drawing-textures/
 redirect 301 /blog/those-city-folk-in-animal-crossing-still-love-the-gossip https://mademistakes.com/articles/animal-crossing-city-folk-impressions/
 redirect 301 /code-highlighting-post/ https://mademistakes.com/work/jekyll-themes/
+redirect 301 /tag/fiftythree https://mademistakes.com/tag/paper-by-53/
 redirect 301 /tag/fiftythree/ https://mademistakes.com/tag/paper-by-53/
