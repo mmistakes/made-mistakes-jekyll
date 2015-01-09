@@ -2,7 +2,7 @@
 layout: article
 title: "iPad Portraits with Paper by FiftyThree"
 excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and the Paper by FiftyThree app."
-modified: 2014-09-03T07:50:19-04:00
+modified: 2015-01-09
 image: 
   feature: paperfaces-project-feature.jpg
   teaser: paperfaces-project-teaser.jpg
@@ -125,6 +125,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 * [iPad artist: Michael Rose, creator of the PaperFaces project](http://kevinbradberry.net/2014/08/27/ipad-artist-michael-rose/)
+* [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An IPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
 
-<i class="fa fa-info-circle"></i> **PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/).
+<i class="fa fa-info-circle"></i> **PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper by 53]({{ site.url }}/mastering-paper/).
 {: .notice}
