@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "A Short Guide to Drawing with Paper by FiftyThree"
+title: "Short Guide to Drawing with Paper by FiftyThree"
 excerpt: "My simple Paper by FiftyThree techniques for drawing faceless portraits and landscapes on an iPad."
-modified: 2014-06-03T14:25:14.449000-04:00
+modified: 2015-01-12T15:52:30-05:00
 image: 
   feature: madewithpaper-guide-feature.jpg
   teaser: madewithpaper-guide-teaser.jpg
@@ -12,30 +12,34 @@ tags: [paper by 53, tutorial, drawing, ipad]
 comments: true
 ---
 
-How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two. <span class="badge info">New</span> [drawing guide](/mastering-paper/)
+How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.
+
+<i class="fa fa-info-circle"></i> Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
+{: .notice-warning}
 
 {% include toc.html %}
 
 ## Tools
 
 *	Obviously you'll need an iPad --- I use a 3rd generation with the nice retina screen.
-* [Paper by FiftyThree](http://www.fiftythree.com/paper/) for iOS is my sketching app of choice. It's a free download, but you'll want to buy additional brushes, pens, and the fantastic color mixer. My favorites are the pencil and watercolor brush.
-* A stylus is optional, but highly recommended. I use a [Pogo Connect Smart Pen][1] and in the past a [LunaTik Alloy Touch Pen][2] and a [Just Mobile AluPen][3]. If you can't afford a decent stylus right now Amazon has a [3 pack for $2][4], with free shipping. These styluses are small and kind of crappy, but do offer more precision than finger painting.
+* [Paper by FiftyThree](http://www.fiftythree.com/paper/) for iOS is my sketching app of choice. It's a free download, but you'll want to buy the additional brushes, pens, and Color Mixer --- my favorites are the pencil and watercolor brush.
+* A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
 
+[pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
 [1]: {{ site.url}}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}
 [2]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [3]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
-[4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20 "Cheap iPad stylus, 3 pack for $2"
+[4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
 <figure>
 	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="{{ site.url }}/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
-    <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my iPad stylus of choice.</figcaption>
+    <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
 </figure>
 
-<i class="fa fa-info-circle"></i> **Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [this review]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by 53.
+<i class="fa fa-info-circle"></i> **Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [my Pogo Connect review]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by FiftyThree.
 {: .notice .warning}
 
-Every drawing is different and I try to keep that in mind before launching Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.
+Every drawing is different and I try to keep that in mind before opening Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.
 
 ## Block Out Your Composition
 
@@ -80,7 +84,7 @@ I saved the best for last. When I first started using Paper by 53, I was enamore
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
-<i class="fa fa-info-circle"></i> Read in detail [how I draw hair with Paper by 53]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}).
+<i class="fa fa-info-circle"></i> Read in detail [how I draw hair with Paper by FiftyThree]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}).
 {: .notice .warning}
 
 <figure>
@@ -90,14 +94,15 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 
 ## Closing Thoughts and Questions
 
-I hope some of this has been helpful. To better describe and show my process, I've recorded numerous speed paintings done with an iPad 3, Paper by 53, the Mac OS X application [Reflector](http://reflectorapp.com/), and edited with Adobe AfterEffects. A time lapse video that demonstrates some of my techniques is embedded below *(ProTip: watch it fullscreen)*. Feel free to comment, like, or [subscribe](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see. If I missed anything or you want some additional pointers, reach out via [Twitter](http://twitter.com/mmistakes) or [email](mailto:michael@mademistakes.com).
+I hope some of this has been helpful. To better describe and show my process, I've recorded numerous speed paintings done with an iPad 3, Paper by FiftyThree, the Mac OS X application [Reflector](http://reflectorapp.com/), and edited with Adobe AfterEffects. 
+
+I've taken the liberty of embedding a video playlist below, demonstrating how I use Paper by FiftyThree to paint portraits. *(ProTip: watch it fullscreen)*. Feel free to comment, like, or [subscribe to my channel](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see.
+
+If I missed anything or you're looking for additional pointers leave a comment below or [tweet me](http://twitter.com/mmistakes).
 
 <figure class="large">
   <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
-  <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">read how I use Paper</a>.</figcaption>
+  <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">learn how I use Paper</a>.</figcaption>
 </figure>
-
-<i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail and then some.
-{: .notice .warning}
 
 {% include affiliate-disclosure.html %}
