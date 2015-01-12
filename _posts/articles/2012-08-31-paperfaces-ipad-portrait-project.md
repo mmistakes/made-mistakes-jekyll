@@ -99,7 +99,7 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 
 ## Homages
 
-I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing to be included drop me a line at <michael@mademistakes.com>.
+I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing(s) to be included leave a comment below (include your drawing in the comment) or [tweet me](http://twitter.com/mmistakes).
 
 <ul id="fanart-gallery" class="th-grid">
   <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre"></a></li>
