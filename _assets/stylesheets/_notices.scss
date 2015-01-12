@@ -15,7 +15,7 @@
   position: relative;
   padding: $gutter;
   @include font-size(14,no);
-  background-color: tint($notice-color,95%);
+  background-color: tint($notice-color,90%);
   border-radius: 2 * $border-radius
 }
 
@@ -39,24 +39,40 @@
 
 .notice-info {
   @include notice($info-color);
+  color: darken($info-color,30%);
+  a {
+    color: darken($info-color,30%);
+  }
 }
 
 /* Warning notice */
 
 .notice-warning {
   @include notice($warning-color);
+  color: darken($warning-color,30%);
+  a {
+    color: darken($warning-color,30%);
+  }
 }
 
 /* Success notice */
 
 .notice-success {
   @include notice($success-color);
+  color: darken($success-color,30%);
+  a {
+    color: darken($success-color,30%);
+  }
 }
 
 /* Danger notice */
 
 .notice-danger {
   @include notice($danger-color);
+  color: darken($danger-color,30%);
+  a {
+    color: darken($danger-color,30%);
+  }
 }
 
 /* Browser upgrade notice */
