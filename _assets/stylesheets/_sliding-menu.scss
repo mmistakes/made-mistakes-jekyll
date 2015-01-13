@@ -133,7 +133,7 @@
       min-height: 100px;
     }
   }
-  .menu-item li {
+  .menu-item {
     a {
       display: block;
       color: $white;
@@ -146,9 +146,13 @@
       width: 50px;
       border: 2px solid $white;
       margin-bottom: ($gutter / 2);
+      opacity: 0.6;
       @include media($small) {
         width: 150px;
       }
+    }
+    a:hover .teaser {
+      opacity: 1;
     }
     .title {
       display: block;

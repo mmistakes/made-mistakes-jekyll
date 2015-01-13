@@ -88,6 +88,9 @@
       &:after {
         opacity: 0.4;
       }
+      img {
+        transform: scale(1.25);
+      }
     }
   }
 }
