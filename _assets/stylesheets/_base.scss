@@ -85,7 +85,7 @@ ins {
 a {
   color: $link-color;
   &:hover {
-    color: darken($link-color, 20);
+    color: $link-color-hover;
   }
   &:focus {
     @extend %tab-focus;
@@ -122,9 +122,9 @@ li code {
   white-space: nowrap;
   margin: 0 2px;
   padding: 0 5px;
-  border: 1px solid $border-color;
-  background-color: lighten($primary-color, 95);
-  border-radius: $border-radius;
+  border: 1px solid $code-border-color;
+  background-color: $inline-code-background;
+  border-radius: $code-border-radius;
 }
 
 /* Tables */
@@ -152,10 +152,10 @@ th {
   font-weight: bold;
   text-align: left;
   background-color: $table-header-color;
-  border-bottom: 1px solid darken($border-color, 15%);
+  border-bottom: 1px solid mix($black, $border-color, 15%);
 }
 td {
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $table-border-color;
   padding: (0px + $doc-line-height) / 2;
   padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
 }
@@ -279,12 +279,12 @@ svg:not(:root) {
    ========================================================================== */
 
 fieldset {
-  background: lighten($border-color, 10);
-  border: 1px solid $border-color;
+  background: $form-background ;
+  border: 1px solid $form-border-color;
   margin-bottom: 0px + $doc-line-height;
   margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
   padding: $gutter;
-  border-radius: $border-radius;
+  border-radius: $form-border-radius;
 }
 
 input,
@@ -313,7 +313,7 @@ select,
 select[multiple=multiple] {
   box-sizing: border-box;
   transition: border-color;
-  background-color: white;
+  background-color: $white;
   border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
   box-shadow: $form-box-shadow;

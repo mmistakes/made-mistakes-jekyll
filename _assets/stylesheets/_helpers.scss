@@ -11,7 +11,7 @@
 .wrap {
   @include outer-container;
   padding: $gutter;
-  box-shadow: 0 0 5px darken($background-color, 20);
+  box-shadow: 0 0 5px mix($black, $background-color, 20%);
   @include media($medium) {
     padding: (2 * $gutter) (2 * $gutter);
   }

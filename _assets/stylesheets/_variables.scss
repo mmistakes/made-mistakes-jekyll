@@ -27,25 +27,30 @@ $black                        : #000;
 
 $background-color             : #ebebeb;
 $body-color                   : $white;
+
 $text-color                   : rgba($black, 0.8);
-$caption-color                : lighten($black, 40);
+$caption-color                : mix($white, $text-color, 25%);
+
 $base-color                   : #343434;
 $comp-color                   : complement($base-color);
-$border-color                 : #ddd;
-$link-color                   : lighten($black, 10);
-$primary-color                : lighten($black, 20);
+$primary-color                : mix($white, $black, 20%);
 $success-color                : #2ecc71;
 $warning-color                : #f1c40f;
 $danger-color                 : #e74c3c;
 $info-color                   : #3498db;
 
+$border-color                 : #ddd;
+
+$link-color                   : mix($danger-color, $text-color, 25%);
+$link-color-hover             : $danger-color;
+
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
-$table-background             : $body-color;
-$table-header-color           : lighten($table-background, 10);
-$table-hover-color            : darken($table-background, 2);
-$table-stripe-color           : darken($table-background, 4);
-$table-stripe-color-hover     : darken($table-stripe-color, 5);
+$table-background             : $white;
+$table-header-color           : $white;
+$table-hover-color            : mix($black, $table-background, 5%);
+$table-stripe-color           : mix($black, $table-background, 5%);
+$table-stripe-color-hover     : mix($black, $table-background, 5%);
 
 $facebook-color               : #3b5998;
 $flickr-color                 : #ff0084;
@@ -64,8 +69,9 @@ $youtube-color                : #ff3333;
    Form variables
    ========================================================================== */
 
+$form-background              : mix($white, $border-color, 50%);
 $form-border-color            : $border-color;
-$form-border-color-hover      : darken($border-color, 10);
+$form-border-color-hover      : mix($black, $border-color, 10%);
 $form-border-color-focus      : $primary-color;
 $form-border-radius           : $border-radius;
 $form-box-shadow              : inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
@@ -73,6 +79,16 @@ $form-box-shadow-focus        : $form-box-shadow, 0 0 5px rgba(darken($form-bord
 $form-font-family             : $base-font;
 $form-font-size               : $doc-font-size;
 
+/*
+   Code snippet variables
+   ========================================================================== */
+
+$code-background              : mix($white, $border-color, 75%);
+$code-border-color            : $border-color;
+$code-border-color-hover      : mix($black, $border-color, 10%);
+$code-border-radius           : $border-radius;
+
+$inline-code-background       : mix($white, $border-color, 75%);
 
 /*
    Sliding menu variables

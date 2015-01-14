@@ -14,8 +14,8 @@
 @mixin notice($notice-color) {
   position: relative;
   padding: $gutter;
-  @include font-size(14,no);
-  background-color: tint($notice-color,90%);
+  @include font-size(14, no);
+  background-color: mix($white, $notice-color, 80%);
   border-radius: 2 * $border-radius
 }
 
@@ -23,6 +23,10 @@
 
 .notice {
   @include notice($primary-color);
+  @at-root .page-content #{&} a {
+    color: $primary-color;
+    border-bottom-color: $primary-color;
+  }
 }
 
 /* Inverse notice (light on dark) */
@@ -30,8 +34,9 @@
 .notice-inverse {
   @include notice($white);
   color: $text-color;
-  a {
+  @at-root .page-content #{&} a {
     color: $text-color;
+    border-bottom-color: $text-color;
   }
 }
 
@@ -39,9 +44,10 @@
 
 .notice-info {
   @include notice($info-color);
-  color: darken($info-color,30%);
-  a {
-    color: darken($info-color,30%);
+  color: mix($black, $info-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $info-color, 50%);
+    border-bottom-color: mix($black, $info-color, 50%);
   }
 }
 
@@ -49,9 +55,10 @@
 
 .notice-warning {
   @include notice($warning-color);
-  color: darken($warning-color,30%);
-  a {
-    color: darken($warning-color,30%);
+  color: mix($black, $warning-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $warning-color, 50%);
+    border-bottom-color: mix($black, $warning-color, 50%);
   }
 }
 
@@ -59,9 +66,10 @@
 
 .notice-success {
   @include notice($success-color);
-  color: darken($success-color,30%);
-  a {
-    color: darken($success-color,30%);
+  color: mix($black, $success-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $success-color, 50%);
+    border-bottom-color: mix($black, $success-color, 50%);
   }
 }
 
@@ -69,22 +77,9 @@
 
 .notice-danger {
   @include notice($danger-color);
-  color: darken($danger-color,30%);
-  a {
-    color: darken($danger-color,30%);
-  }
-}
-
-/* Browser upgrade notice */
-
-.upgrade {
-  text-align: center;
-  a {
-    color: $danger-color;
-    text-decoration: none;
-    border-bottom: 1px dotted lighten($danger-color, 20);
-    &:hover {
-      border-bottom-style: solid;
-    }
+  color: mix($black, $danger-color, 50%);
+  @at-root .page-content #{&} a {
+    color: mix($black, $danger-color, 50%);
+    border-bottom-color: mix($black, $danger-color, 50%);
   }
 }

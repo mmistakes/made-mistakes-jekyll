@@ -20,7 +20,7 @@
   transition: background 0.2s, border 0.2s;
   &:hover {
     color: $white !important;
-    background-color: lighten($primary-color, 20);
+    background-color: mix($white, $primary-color, 20%);
   }
   &:active {
     // move button slightly on click
@@ -37,8 +37,7 @@
   background-color: $white;
   color: $text-color !important;
   &:hover {
-    color: $white !important;
-    background-color: $text-color;
+    background-color: mix($white, $text-color, 20%);
   }
 }
 
@@ -51,7 +50,7 @@
   background-color: $info-color;
   color: $white !important;
   &:hover {
-    background-color: lighten($info-color, 20);
+    background-color: mix($white, $info-color, 20%);
   }
 }
 
@@ -64,7 +63,7 @@
   background-color: $warning-color;
   color: $white !important;
   &:hover {
-    background-color: lighten($warning-color ,20);
+    background-color: mix($white, $warning-color ,20%);
   }
 }
 
@@ -77,7 +76,7 @@
   background-color: $success-color;
   color: $white !important;
   &:hover {
-    background-color:lighten($success-color, 20);
+    background-color: mix($white, $success-color, 20%);
   }
 }
 
@@ -90,7 +89,7 @@
   background-color: $danger-color;
   color: $white !important;
   &:hover {
-    background-color: lighten($danger-color, 20);
+    background-color: mix($white, $danger-color, 20%);
   }
 }
 
@@ -135,6 +134,8 @@
  */
 
 .btn-social {
+  @extend .btn;
+  color: $white !important;
   $social: 
     (facebook, $facebook-color),
     (flickr, $flickr-color),
@@ -148,26 +149,14 @@
     (twitter, $twitter-color),
     (vimeo, $vimeo-color),
     (youtube, $youtube-color);
-  @extend .btn-inverse;
-  color: $text-color !important;
-  border: 1px solid $border-color !important;
   @each $socialnetwork, $color in $social {
-    i.fa-#{$socialnetwork} {
-      color: $color;
-    }    
-  }
-  &:hover {
-    color: $white !important;
-  }
-  @each $socialnetwork, $color in $social {
-    &.#{$socialnetwork}:hover {
-      background: $color;
+    &.#{$socialnetwork} {
+      background-color: $color;
       border-color: $color;
-      @each $socialnetwork, $color in $social {
-          i.fa-#{$socialnetwork} {
-          color: $white;
-        }    
+      &:hover {
+        background-color: mix($white, $color, 20%);
+        border-color: mix($white, $color, 20%);
       }
-    }    
+    }  
   }
 }

@@ -40,7 +40,7 @@
     border-left: 2px solid transparent;
     &:hover,
     &:focus {
-      background: lighten($border-color,5);
+      background: mix($white, $border-color, 5%);
     }
   }
 }

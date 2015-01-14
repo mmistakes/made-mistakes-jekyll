@@ -83,6 +83,9 @@
       // line hover effect
       position: relative;
       display: block;
+      &:hover {
+        color: $link-color-hover;
+      }
       &:before,
       &:after {
         content: '';

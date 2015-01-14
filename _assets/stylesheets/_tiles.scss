@@ -26,13 +26,14 @@
     font-family: $alt-font;
     @include font-size(12,no);
     text-transform: uppercase;
-    color: lighten($caption-color,10);
+    color: mix($white, $caption-color, 20%);
   }
 
   .post-title {
     @include font-size(18,no);
     a {
       text-decoration: none;
+      color: $text-color;
     }
   }
 

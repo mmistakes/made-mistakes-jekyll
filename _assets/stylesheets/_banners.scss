@@ -17,7 +17,7 @@
     margin-right: 0;
   }
   padding: 10px 0 20px;
-  background: lighten($border-color,5);
+  background: mix($white, $border-color, 25%);
   &:after {
     content: 'Advertisement';
     position: absolute;

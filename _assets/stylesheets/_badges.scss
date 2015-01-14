@@ -39,11 +39,11 @@
 
   &.warning {
     background: $badge-warning-color;
-    color: darken($badge-warning-color, 60);
+    color: mix($black, $badge-warning-color, 70%);
   }
 
   &.success {
     background: $badge-success-color;
-    color: darken($badge-success-color, 60);
+    color: $white;
   }
 }

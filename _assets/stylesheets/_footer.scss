@@ -20,9 +20,9 @@
   .copyright {
     clear: both;
     @include font-size(12);
-    color: lighten($caption-color, 10);
+    color: $caption-color;
     a {
-      color: lighten($caption-color, 10);
+      color: $caption-color;
       text-decoration: none;
     }
   }
@@ -46,7 +46,7 @@
     .#{$socialnetwork} {
       color: $color;
       &:hover {
-        color: darken($color, 20);
+        color: mix($black, $color, 25%);
       }
     }    
   }

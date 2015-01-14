@@ -40,13 +40,14 @@
   p > a,
   li > a,
   td > a {
-    border-bottom: 1px dotted lighten($link-color, 50);
+    border-bottom: 1px dotted mix($white, $danger-color, 25%);
     &:hover {
       border-bottom-style: solid;
+      border-bottom-width: 2px;
     }
   }
   .toc li > a {
-    border-bottom: 0 solid transparent;
+    border-bottom-width: 0;
   }
   .th-grid a,
   .th-grid-full a,
@@ -70,6 +71,9 @@
   h3 {
     @include font-size(16);
     text-transform: uppercase;
+    a {
+      color: $text-color;
+    }
   }
   .page-content {
     @include fill-parent;
@@ -231,15 +235,15 @@ h6:hover .header-link {
   @include clearfix;
   li {
     display: inline-block;
-    @include font-size(14,7);
+    @include font-size(14, 7);
   }
   a {
     padding: 4px 6px;
     margin-right: 2px;
-    background-color: lighten($primary-color,70);
+    background-color: mix($white, $primary-color, 90%);
     border-radius: $border-radius;
     text-decoration: none;
-    border-bottom: 0 solid transparent;
+    border-bottom-width: 0 !important;
     span {
       vertical-align: super;
       @include font-size(10);

@@ -95,11 +95,11 @@
   text-align: center;
   color: $black;
   background: $sitemap-primary-color;
-  border: 2px solid darken($sitemap-primary-color, 20);
+  border: 2px solid mix($black, $sitemap-primary-color, 30%);
   border-radius: 5px;
 }
 #primaryNav li a:hover {
-  background-color: lighten($sitemap-primary-color, 5);
+  background-color: mix($white, $sitemap-primary-color, 10%);
   border-color: $sitemap-primary-color;
 }
 #primaryNav li:last-child {
@@ -128,10 +128,10 @@
 }
 #primaryNav li li a {
     background-color: $sitemap-sub-color;
-    border-color: darken($sitemap-sub-color, 10);
+    border-color: mix($black, $sitemap-sub-color, 20%);
 }
 #primaryNav li li a:hover {
-    background-color: lighten($sitemap-sub-color, 5);
+    background-color: mix($white, $sitemap-sub-color, 10%);
     border-color: $sitemap-sub-color;
 }
 #primaryNav li li:first-child {
@@ -165,7 +165,7 @@
 }
 #primaryNav li li li a {
   background-color: $sitemap-sub-sub-color;
-  border-color: darken($sitemap-sub-sub-color, 10);
+  border-color: mix($black, $sitemap-sub-sub-color, 20%);
   font-size: 12px;
   padding: 5px;
   width: 80%;
@@ -174,7 +174,7 @@
   }
 }
 #primaryNav li li li a:hover {
-  background-color: lighten($sitemap-sub-sub-color, 5);
+  background-color: mix($white, $sitemap-sub-sub-color, 10%);
   border-color: $sitemap-sub-sub-color;
 }
 #primaryNav li li li:first-child {
@@ -212,18 +212,18 @@
   margin: 0 10px 0 0;
   padding: 5px 10px;
   display: block;
-  border: 2px solid darken($sitemap-sub-sub-color, 10);
+  border: 2px solid mix($black, $sitemap-sub-sub-color, 20%);
   font-size: 12px;
   font-weight: bold;
   text-align: center;
   color: black;
   border-radius: 5px;
-  box-shadow: 0 0 5px darken($background-color, 20);
+  box-shadow: 0 0 5px mix($black, $background-color, 30%);
   @include media($medium) {
     background: $sitemap-sub-sub-color url('../images/white-highlight.png') top left repeat-x; /* bg on >= medium screens */
   }
 }
 #utilityNav li a:hover {
-  background-color: lighten($sitemap-sub-sub-color, 20);
+  background-color: mix($white, $sitemap-sub-sub-color, 30%);
   border-color: $sitemap-sub-sub-color;
 }
