@@ -2,7 +2,7 @@
 layout: archive
 permalink: /
 title: "A Designer’s Faux Pas"
-excerpt: "Making stuff one mmistake at a time."
+excerpt: "Making stuff one m̴̨͉̃ͣͭ̉̈́͠i̶̿͊̍̉҉͔̲͍͇ͅs̛̞̥͔̳ͯ̈́͊͌̈̌̇͞͠t̵̤͒́͆̀́̂̎ͪ̀ḁ̜̹̱̂͒k̵̥̗̜̹ͭ̾́̚e̸͖̬͕̙̻̟̰̰͕̮ͤ̓͐͗ͪ͒͠  at a time."
 image:
   feature: home-feature.jpg
 id: home
