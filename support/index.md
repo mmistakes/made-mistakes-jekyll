@@ -18,14 +18,14 @@ Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel 
 I post once or twice a day so you don't have to worry about me junking up your stream. Content shared is along the lines of web design and development tidbits, sarcastic remarks, Paper by FiftyThree drawings, and photos of what little life I live.
 
 <div class="inline">
-  <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn"><i class="fa fa-twitter"></i> Twitter</a>
-  <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn"><i class="fa fa-instagram"></i> Instagram</a>
-  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn"><i class="fa fa-tumblr"></i> Tumblr</a>
+  <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter"></i> Twitter</a>
+  <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram"></i> Instagram</a>
+  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr"></i> Tumblr</a>
 </div>
 
 ## Send a Donation
 
-I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. So if you'd like to send donations my way so I can continue to provide free content and themes feel free to do so by hitting one of the butons below. If something like [**Square Cash**](https://square.com/cash) is more of your thing you can send monies to <michael@mademistakes.com> as well.
+I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. So if you'd like to send donations my way so I can continue to provide free content and themes feel free to do so by hitting one of the buttons below. If something like [**Square Cash**](https://square.com/cash) is more of your thing you can send monies to <michael@mademistakes.com> as well.
 
 <div class="inline">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4" onclick="ga('send', 'event', 'link', 'click', 'Send Cash');" class="btn"><i class="fa fa-paypal"></i>Send PayPal Money</a>
