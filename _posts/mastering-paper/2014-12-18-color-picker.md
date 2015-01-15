@@ -55,7 +55,7 @@ There's not much more to using the Color Picker. As the small circle is moved ar
 When you've found a color you'd like to work with or save to your palette tap the circle. You can also tap the eye dropper icon inside of the Color Mixer or any of the tools in the tray to select the sampled color.
 
 <i class="fa fa-info-circle"></i> <strong>Note:</strong> Tapping anywhere on the canvas will dismiss the Color Picker and the sampled color will not be saved to the Mixer.
-{: .notice .warning}
+{: .notice-warning}
 
 ## Color Picker limitations
 

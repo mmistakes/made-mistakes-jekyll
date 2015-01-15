@@ -50,7 +50,7 @@ As noted earlier, I struggled with selecting 15 pages to turn into a book. I sup
 </figure>
 
 <i class="fa fa-info-circle"></i> **Page Count:** It's worth noting that if you select less than 15 pages for your book, you'll receive blanks filling the balance. Something I'd like to eventually see would be the option to create books with a higher page count. Maybe at larger predefined increments to keep the spine size fixed as not to mess with the cover's alignment and wrap. Printing pages ala cart would be nice as well.
-{: .notice .warning}
+{: .notice-warning}
 
 ### Cover Image
 

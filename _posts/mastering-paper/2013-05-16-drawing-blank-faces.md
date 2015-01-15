@@ -94,4 +94,4 @@ To finish the face take care to observe the direction and tilt of the head. Care
 <div markdown="0"><a href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download a Drawing PaperFaces Guide</a></div>
 
 <i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
-{: .notice .warning}
+{: .notice-warning}
