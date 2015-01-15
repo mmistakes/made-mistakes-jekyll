@@ -35,13 +35,13 @@ $base-color                   : #343434;
 $comp-color                   : complement($base-color);
 $primary-color                : mix($white, $black, 20%);
 $success-color                : #2ecc71;
-$warning-color                : #f1c40f;
-$danger-color                 : #e74c3c;
+$warning-color                : #f3bc15;
+$danger-color                 : #dc081d;
 $info-color                   : #3498db;
 
 $border-color                 : #ddd;
 
-$link-color                   : mix($danger-color, $text-color, 25%);
+$link-color                   : $danger-color;
 $link-color-hover             : $danger-color;
 
 $table-border-color           : $border-color;
@@ -75,7 +75,7 @@ $form-border-color-hover      : mix($black, $border-color, 10%);
 $form-border-color-focus      : $primary-color;
 $form-border-radius           : $border-radius;
 $form-box-shadow              : inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$form-box-shadow-focus        : $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-box-shadow-focus        : $form-box-shadow, 0 0 5px rgba(mix($black, $form-border-color-focus, 10%), 0.7);
 $form-font-family             : $base-font;
 $form-font-size               : $doc-font-size;
 
@@ -116,6 +116,6 @@ $masthead-height: $button-size * 2;
    Visual sitemap
    ========================================================================== */
 
-$sitemap-primary-color        : lighten($base-color, 50);
-$sitemap-sub-color            : lighten($base-color, 65);
-$sitemap-sub-sub-color        : lighten($base-color, 75);
+$sitemap-primary-color        : mix($white, $base-color, 60%);
+$sitemap-sub-color            : mix($white, $base-color, 80%);
+$sitemap-sub-sub-color        : mix($white, $base-color, 90%);

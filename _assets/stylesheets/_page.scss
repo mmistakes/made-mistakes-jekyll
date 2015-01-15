@@ -26,23 +26,14 @@
     }
   }
 
-  /* Increase font size of first paragraph */
-  > p {
-    &:first-child {
-      @include media($small) {
-        @include font-size(20,yes,30);
-      }
-    }
-  }
-
   /* Cleaner underlines for links */
   a { text-decoration: none; }
   p > a,
   li > a,
   td > a {
-    border-bottom: 1px dotted mix($white, $danger-color, 25%);
+    border-bottom: 1px solid mix($white, $link-color, 70%);
     &:hover {
-      border-bottom-style: solid;
+      border-bottom-color: $link-color;
       border-bottom-width: 2px;
     }
   }
@@ -53,6 +44,19 @@
   .th-grid-full a,
   p > .reversefootnote {
     border-bottom-width: 0;
+  }
+
+  /* Introductory paragraph */
+  > p {
+    &:first-child {
+      @include media($small) {
+        @include font-size(20,yes,30);
+      }
+      a {
+        color: $text-color;
+        border-bottom-color: mix($white, $text-color, 70%);
+      }
+    }
   }
 
   .page-footer,
@@ -240,12 +244,14 @@ h6:hover .header-link {
   a {
     padding: 4px 6px;
     margin-right: 2px;
+    text-decoration: none;
+    color: $text-color;
     background-color: mix($white, $primary-color, 90%);
     border-radius: $border-radius;
-    text-decoration: none;
     border-bottom-width: 0 !important;
     span {
       vertical-align: super;
+      color: $link-color;
       @include font-size(10);
     }
   }
