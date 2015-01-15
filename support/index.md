@@ -2,7 +2,7 @@
 layout: article
 title: "Sponsor and Support"
 date: 2014-06-19T09:33:51.793000-04:00
-modified: 2015-01-02
+modified: 2015-01-15T15:36:20-05:00
 excerpt: "Found something I created useful or enjoyable? Here's how you can show your gratitude."
 image:
   feature: support-feature.jpg
@@ -15,12 +15,12 @@ Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel 
 
 ## Follow Me
 
-I post once or twice a day so you don't have to worry about me junking up your stream. Content shared is along the lines of web design and development tidbits, sarcastic remarks, Paper by FiftyThree drawings, and photos of what little life I live.
+I post once or twice a day --- you don't have to worry about me barfing out a stream of rants and retweets in quick succession. Content shared is along the lines of sarcastic remarks, Paper by FiftyThree drawings, web design and development tidbits, and photos of what little life I live.
 
 <div class="inline">
-  <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter"></i> Twitter</a>
-  <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram"></i> Instagram</a>
-  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr"></i> Tumblr</a>
+  <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+  <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a>
 </div>
 
 ## Send a Donation
