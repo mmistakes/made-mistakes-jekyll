@@ -473,3 +473,5 @@ redirect 301 /blog/those-city-folk-in-animal-crossing-still-love-the-gossip http
 redirect 301 /code-highlighting-post/ https://mademistakes.com/work/jekyll-themes/
 redirect 301 /tag/fiftythree https://mademistakes.com/tag/paper-by-53/
 redirect 301 /tag/fiftythree/ https://mademistakes.com/tag/paper-by-53/
+redirect 301 /portraits https://mademistakes.com/paperfaces/
+redirect 301 /portraits/ https://mademistakes.com/paperfaces/
