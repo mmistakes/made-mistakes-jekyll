@@ -128,4 +128,4 @@ Just sharing the love with some links back to articles and galleries that have f
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An IPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
 
 <i class="fa fa-info-circle"></i> **PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper by 53]({{ site.url }}/mastering-paper/).
-{: .notice}
+{: .notice-warning}
