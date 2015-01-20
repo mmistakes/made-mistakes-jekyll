@@ -75,4 +75,4 @@ All original content (e.g. articles, blog posts, illustrations, artwork, and pho
 
 ### Attribution
 
-If you're inclined to show credit, then a link back to the source article attributed to either [Made Mistakes](http://mademistakes.com) or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing my stuff and republishing them as your own.
+If you're inclined to show credit, then a link back to the source article attributed to either [Made Mistakes](http://mademistakes.com) or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing my stuff and republishing it as your own.

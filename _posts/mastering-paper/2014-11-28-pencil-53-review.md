@@ -65,7 +65,7 @@ Pencil's tip is by no means the most durable I've used. The longevity of the rub
 These numbers are relative to the user, which makes locking in a specific number hard. Using the longer side of the tip without a doubt prolongs its age. I suggest to use that whenever filling in larger areas of color. Even if you do manage to tear through the rubber, the tips are still completely usable, albeit with some black streaking[^streaking] across the screen.
 
 <i class="fa fa-info-circle"></i> **Replacement Tips**: The good news is FiftyThree now offers replacement tips and erasers [in their shop](http://shop.fiftythree.com/). For $7.95 USD (+ shipping) you get two tips and an eraser for Pencil, which isn’t too bad if you do a lot of drawing like me.
-{: .notice}
+{: .notice-warning}
 
 [^streaking]: Black rubber streaking from the tip taring was easily cleaned off the iPad's screen by wiping with a cloth.
 
@@ -89,7 +89,7 @@ If you take the time to experiment with Blend I think you'll [find it fairly sop
 
 If you're too soft with the amount of pressure you apply to the tip while drawing, Blend may trigger inadvertently. The software is usually pretty good at figuring out when you want to Blend and corrects itself before blurring something. But if you're trying to draw lightly to preserve your Pencil tips then you and *Mr. Rewind* are going to become close friends because of it.
 
-I'm curious to learn about the experiences of others using Pencil and Blend. As my tips have broken in I've noticed a loss of springyness when pressing down, which appears to decrease Pencil's overall sensitivity --- causing smudges mid-stroke. Not sure if this is a common occurrence or a symptom of me pressing too hard on the tip. Let me know your observations below in the comments section.
+I'm curious to learn about the experiences of others using Pencil and Blend. As my tips have broken in I've noticed a loss of springiness when pressing down, which appears to decrease Pencil's overall sensitivity --- causing smudges mid-stroke. Not sure if this is a common occurrence or a symptom of me pressing too hard on the tip. Let me know your observations below in the comments section.
 
 ## What About the Eraser?
 
@@ -102,7 +102,7 @@ I'm not one for erasing all that much and instead rely heavily on the Rewind ges
 </figure>
 
 <i class="fa fa-info-circle"></i> If you're looking for more erasing techniques you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
-{: .notice-info}
+{: .notice-warning}
 
 ## Palm Resters of the World Rejoice
 
