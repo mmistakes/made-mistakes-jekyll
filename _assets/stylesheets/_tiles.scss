@@ -105,8 +105,29 @@
   @include media($medium) {
     clear: none;
     @include span-columns(8);
+    margin-right: 0;
   }
 }
+
+/* 
+   Tiles with only an image
+   ========================================================================== */
+
+.tile-equal {
+  @include media($medium) {
+    margin-bottom: 2.35765%; /* magic number from .tiles-right grid margins */
+  }
+}
+
+
+/* 
+   Tile bottom spacer
+   ========================================================================== */
+
+.tile-spacer {
+  margin-bottom: 2 * $gutter;
+}
+
 
 /*
    Related posts (show 3 tiles in a row)

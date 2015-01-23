@@ -11,32 +11,57 @@ id: home
 Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). A boring, tattooed, time traveling designer from Buffalo, New York who enjoys eating chicken wings and [sketching on an iPad]({{ site.url }}/tag/paper-by-53/) --- *not necessarily at the same time*.
 {:.shorten}
 
----
+<nav class="toc toc-left">
+  <ul>
+    <li><h6>Portraits I've Drawn on iPad</h6></li>
+    {% for post in site.categories.paperfaces limit:6 %}
+    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="{{ site.url }}/paperfaces/" class="btn">More iPad Portraits <i class="fa fa-arrow-right"></i></a>
+</nav><!-- /.toc-left -->
 
-### [Paper for iPad Tips & Tricks]({{ site.url }}/mastering-paper/)
+<div class="tiles tiles-right tile-spacer">
+{% for post in site.categories.paperfaces limit:12 %}
+  <article class="tile tile-equal" itemscope itemtype="http://schema.org/Article">
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
+      <img src="{{ site.url }}/images/preload-400.png" data-original="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" class="load" alt="teaser" itemprop="image">
+      <noscript><img src="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" alt="teaser" itemprop="image"></noscript>
+    </a>
+  </article><!-- /.tile -->
+  {% endfor %}
+</div><!-- /.tiles-right -->
 
-<div class="tiles">
-{% for post in site.categories.mastering-paper limit:4 %}
-	{% include post-grid.html %}
+
+<nav class="toc toc-left">
+  <ul>
+    <li><h6>Paper for iPad Tips &amp; Tricks</h6></li>
+    {% for post in site.categories.mastering-paper limit:10 %}
+    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="{{ site.url }}/mastering-paper/" class="btn">More Paper by 53 Tutorials <i class="fa fa-arrow-right"></i></a>
+</nav><!-- /.toc-left -->
+
+<div class="tiles tiles-right">
+{% for post in site.categories.mastering-paper limit:8 %}
+  {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles -->
+</div><!-- /.tiles-right -->
 
----
 
-### [Words I've Written]({{ site.url }}/articles/)
+<nav class="toc toc-left">
+  <ul>
+    <li><h6>Things I've Written</h6></li>
+    {% for post in site.categories.articles limit:4 %}
+    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="{{ site.url }}/articles/" class="btn">More Articles <i class="fa fa-arrow-right"></i></a>
+</nav><!-- /.toc-left -->
 
-<div class="tiles">
+<div class="tiles tiles-right">
 {% for post in site.categories.articles limit:4 %}
   {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles -->
-
----
-
-### [Portraits I've Drawn]({{ site.url }}/paperfaces/)
-
-<ul class="th-grid-full">
-{% for post in site.categories.paperfaces limit:8 %}
-  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="thumbnail image"></a></li>
-{% endfor %}
-</ul>
+</div><!-- /.tiles-right -->

@@ -28,21 +28,21 @@
       @include font-size(16,no,18);
     }
     border-bottom: 1px solid $border-color;
+    > a {
+      display: block;
+      padding: 7px 1.618rem;
+      color: $text-color;
+      border-left: 2px solid transparent;
+      &:hover,
+      &:focus {
+        background: mix($white, $border-color, 5%);
+      }
+    }
   }
   h6 {
     margin: 0;
     padding: 7px 1.618rem;
     background: $table-stripe-color;
-  }
-  a {
-    display: block;
-    padding: 7px 1.618rem;
-    color: $text-color;
-    border-left: 2px solid transparent;
-    &:hover,
-    &:focus {
-      background: mix($white, $border-color, 5%);
-    }
   }
 }
 
