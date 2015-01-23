@@ -128,7 +128,7 @@ Speed is the single most important variable for creating smooth tones or glazes.
 <i class="fa fa-star"></i> **ProTip:** To even out stubborn light spots, keep rubbing until they turn dark. You can't overwork an area as long as don't lift to make another stroke.
 {: .notice}
 
-New to Paper or drawing in general? Make your life easier and work large, filling up the entire page. The smaller the composition the harder all this becomes since the brush has a fixed size. Well that's [not completely true]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}), but for those of you who don't use a Pogo Connect it is.
+New to Paper or drawing in general? Make your life easier and work large, filling up the entire page. The smaller the composition the harder all this becomes since the brush has a fixed size. Well that's [not completely true]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), but for those of you who don't use a Pogo Connect it is.
 
 ### Whites to Erase
 

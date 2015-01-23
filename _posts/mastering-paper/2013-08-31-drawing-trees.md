@@ -44,7 +44,7 @@ Here are some of my favorite colors to get you started painting leaves:
 
 Once you're happy with the general shape of the tree, it's time to add some shadows. You can continue to use the same base color from before or darken it up depending on how much shadow you have to color. What I like to do is make short strokes to create a blotchy texture. For you traditional painters out there, it's kind of like scumbling, only we're not scraping paint around with a dry brush.
 
-The primary goal here is to give the illusion of leaf clusters and indicate where the branches and trunk flow. A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) can help immensely to paint branches of varying widths --- an ability no other stylus supports when used with Paper by 53.
+The primary goal here is to give the illusion of leaf clusters and indicate where the branches and trunk flow. A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) can help immensely to paint branches of varying widths --- an ability no other stylus supports when used with Paper by 53.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-tree-texture-strokes.jpg" alt="screenshot of leaf texture strokes">

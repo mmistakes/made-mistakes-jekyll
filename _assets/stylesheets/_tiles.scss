@@ -114,7 +114,8 @@
    ========================================================================== */
 
 .tile-equal {
-  @include media($medium) {
+  margin-bottom: $gutter;
+  @include media($small) {
     margin-bottom: 2.35765%; /* magic number from .tiles-right grid margins */
   }
 }

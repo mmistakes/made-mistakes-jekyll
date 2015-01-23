@@ -5,7 +5,7 @@ excerpt: "A responsive, fully realized, and lightweight website starter for Jeky
 image: 
   feature: skinny-bones-theme-feature.jpg
   teaser: skinny-bones-theme-teaser.jpg
-category: articles
+category: work
 tags: [jekyll, web development, open source, github]
 modified: 
 comments: true

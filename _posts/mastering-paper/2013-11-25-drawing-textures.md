@@ -31,7 +31,7 @@ I'm not going to try and explain perspective or how to set a vanishing point bec
 
 ### Sketching Guidelines
 
-The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
+The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
 
 <i class="fa fa-star"></i> **ProTip:** An iPad smart cover placed on the screen can be used as a straight edge for drawing lines if you dont have a ruler handy.
 {: .notice}

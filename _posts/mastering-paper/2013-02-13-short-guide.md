@@ -26,7 +26,7 @@ How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus
 * A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
 
 [pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
-[1]: {{ site.url}}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}
+[1]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
 [2]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [3]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
@@ -36,7 +36,7 @@ How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
 </figure>
 
-<i class="fa fa-info-circle"></i> **Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [my Pogo Connect review]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by FiftyThree.
+<i class="fa fa-info-circle"></i> **Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [my Pogo Connect review]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by FiftyThree.
 {: .notice-warning}
 
 Every drawing is different and I try to keep that in mind before opening Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.

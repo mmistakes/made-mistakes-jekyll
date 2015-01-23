@@ -46,7 +46,7 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 
 <div markdown="0">
 	<a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /articles/2014-09-02-skinny-bones-jekyll %}" class="btn">Learn More</a>
+	<a href="{{ site.url }}{% post_url /work/2014-09-02-skinny-bones-jekyll %}" class="btn">Learn More</a>
 </div>
 
 ---
@@ -68,7 +68,7 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 
 <div markdown="0">
 	<a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %}" class="btn">Learn More</a>
+	<a href="{{ site.url }}{% post_url /work/2013-05-28-minimal-mistakes-jekyll-theme %}" class="btn">Learn More</a>
 </div>
 
 ---
@@ -89,7 +89,7 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 
 <div markdown="0">
 	<a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /articles/2013-06-26-so-simple-jekyll-theme %}" class="btn">Learn More</a>
+	<a href="{{ site.url }}{% post_url /work/2013-06-26-so-simple-jekyll-theme %}" class="btn">Learn More</a>
 </div>
 
 ---
@@ -110,7 +110,7 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 
 <div markdown="0">
 	<a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}" class="btn">Learn More</a>
+	<a href="{{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %}" class="btn">Learn More</a>
 </div>
 
 ---

@@ -2,7 +2,7 @@
 layout: article
 title: "Potential Pogo Connect Sensitivity Fix"
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware 1.1.0+."
-category: articles
+category: mastering-paper
 modified: 2014-01-14
 image:
   teaser: pogo-connect-review-teaser.jpg

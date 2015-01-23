@@ -42,7 +42,7 @@ Similar to Paper, Pencil shares the same minimally designed aesthetic --- that m
 
 ## Just the Tip
 
-To be honest I was a little disappointed when I discovered Pencil's tip wouldn't be pressure sensitive like the one in a [Pogo Connect]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}). It took some time but with the recent addition of **Surface Pressure** to Pencil + Paper, my desire to use a Pogo Connect has completely disappeared.
+To be honest I was a little disappointed when I discovered Pencil's tip wouldn't be pressure sensitive like the one in a [Pogo Connect]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}). It took some time but with the recent addition of **Surface Pressure** to Pencil + Paper, my desire to use a Pogo Connect has completely disappeared.
 
 <figure>
   <img src="{{ site.url }}/images/pencil-53-spare-parts.jpg" alt="replacement packaging">

@@ -9,7 +9,7 @@ image:
   feature: so-simple-theme-feature.jpg
   teaser: so-simple-theme-teaser.jpg
   thumb: so-simple-250x250.png
-category: articles
+category: work
 tags: [jekyll, web development, open source, github]
 comments: true
 ---
@@ -52,7 +52,7 @@ Having a problem getting something to work or want to know why I setup something
 
 This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
 
-**Like this theme?** I just released my third theme for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTR and you can [learn more about it here]({{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}).
+**Like this theme?** I just released my third theme for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTR and you can [learn more about it here]({{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %}).
 {: .notice}
 
 [^1]: Example: *domain.com/category-name/post-title*

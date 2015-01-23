@@ -94,7 +94,7 @@ Starting at the top of the water lightly sketch strokes from left to right. The 
 	<figcaption>Use a blue-gray base color to draw in the smaller wave shapes.</figcaption>
 </figure>
 
-A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) works great for this step. It allows you to draw lightly and avoid going too heavy in an area. If you're finger painting or using a normal capacitive stylus, remember to move quickly with your pencil strokes --- the quicker you draw the lighter the mark.
+A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) works great for this step. It allows you to draw lightly and avoid going too heavy in an area. If you're finger painting or using a normal capacitive stylus, remember to move quickly with your pencil strokes --- the quicker you draw the lighter the mark.
 
 ### White Wave Crests and Foam
 

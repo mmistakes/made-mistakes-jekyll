@@ -93,7 +93,7 @@ So now that I finally got around to migrating my Wordpress website, developed a 
 
 You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see…
 
-<i class="fa fa-info-circle"></i> **Update**: More or less I've gotten my portfolio layout in order and included a stripped down version of it in my [Skinny Bones Jekyll Starter]({{ site.url }}{% post_url articles/2014-09-02-skinny-bones-jekyll %}).
+<i class="fa fa-info-circle"></i> **Update**: More or less I've gotten my portfolio layout in order and included a stripped down version of it in my [Skinny Bones Jekyll Starter]({{ site.url }}{% post_url work/2014-09-02-skinny-bones-jekyll %}).
 {: .notice-warning}
 
 ### Responsive Images
@@ -111,7 +111,7 @@ With a 1.0 release under my belt, I think now is the time to take a look at star
 
 Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes]({{ site.url }}{% post_url work/2014-02-28-jekyll-themes %}) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% supported by [GitHub Pages](http://pages.github.com/) if you're looking for somewhere to host your site or blog for free.
 
-* **Skinny Bones:** [Theme demo](https://mmistakes.github.io/skinny-bones-jekyll), [documentation]({{ site.url }}{% post_url articles/2014-09-02-skinny-bones-jekyll %})
-* **Minimal Mistakes:** [Theme demo](https://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url /articles/2013-05-28-minimal-mistakes-jekyll-theme %})
-* **So Simple:** [Theme demo](https://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url /articles/2013-06-26-so-simple-jekyll-theme %})
-* **HPSTR:** [Theme demo](https://mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %})
+* **Skinny Bones:** [Theme demo](https://mmistakes.github.io/skinny-bones-jekyll), [documentation]({{ site.url }}{% post_url work/2014-09-02-skinny-bones-jekyll %})
+* **Minimal Mistakes:** [Theme demo](https://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url /work/2013-05-28-minimal-mistakes-jekyll-theme %})
+* **So Simple:** [Theme demo](https://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url /work/2013-06-26-so-simple-jekyll-theme %})
+* **HPSTR:** [Theme demo](https://mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %})

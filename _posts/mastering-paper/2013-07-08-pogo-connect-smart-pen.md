@@ -6,7 +6,7 @@ modified: 2013-11-06
 image: 
   feature: pogo-connect-review-feature.jpg
   teaser: pogo-connect-review-teaser.jpg
-category: articles
+category: mastering-paper
 tags: [pogo connect, paper by 53, stylus, review, ipad]
 comments: true
 ---

@@ -49,7 +49,7 @@ When painting, do not lift the stylus or your finger from the screen until you f
 
 ### Painting Puffy Clouds
 
-Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
+Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
 <i class="fa fa-star"></i> **ProTip:** White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
 {: .notice}

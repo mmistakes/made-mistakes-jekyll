@@ -13,7 +13,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 
 <nav class="toc toc-left">
   <ul>
-    <li><h6>Portraits I've Drawn on iPad</h6></li>
+    <li><h6>iPad Portrait Art</h6></li>
     {% for post in site.categories.paperfaces limit:6 %}
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
@@ -35,12 +35,12 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 
 <nav class="toc toc-left">
   <ul>
-    <li><h6>Paper for iPad Tips &amp; Tricks</h6></li>
+    <li><h6>Paper for iPad Tips</h6></li>
     {% for post in site.categories.mastering-paper limit:10 %}
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></li>
     {% endfor %}
   </ul>
-  <a href="{{ site.url }}/mastering-paper/" class="btn">More Paper by 53 Tutorials <i class="fa fa-arrow-right"></i></a>
+  <a href="{{ site.url }}/mastering-paper/" class="btn">More Paper by FiftyThree Tutorials <i class="fa fa-arrow-right"></i></a>
 </nav><!-- /.toc-left -->
 
 <div class="tiles tiles-right">
@@ -52,7 +52,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 
 <nav class="toc toc-left">
   <ul>
-    <li><h6>Things I've Written</h6></li>
+    <li><h6>A Blog of Sorts</h6></li>
     {% for post in site.categories.articles limit:4 %}
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
@@ -61,7 +61,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 </nav><!-- /.toc-left -->
 
 <div class="tiles tiles-right">
-{% for post in site.categories.articles limit:4 %}
+{% for post in site.categories.articles limit:5 %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles-right -->
