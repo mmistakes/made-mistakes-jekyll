@@ -2,7 +2,7 @@
 layout: article
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2014-11-25
+modified: 20145-01-23
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo."
 image:
   feature: about-feature.jpg
@@ -13,11 +13,11 @@ share: false
 sidebar: sidebar-about
 ---
 
-Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer working in Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad using [Paper by FiftyThree](http://www.fiftythree.com/paper), movie theater popcorn, [chicken wings done right](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
 
-When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email promotions and newsletters, massaging content in and out of a CMS or just getting cozy with HTML, CSS, and JavaScript.
+When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
 
-And if that wasn't enough --- I'm a father of twin girls and a mediocre husband to my [subscription box addicted wife](http://2littlerosebuds.com).
+And if that wasn't enough --- I'm the father of twin girls who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
 
 <figure class="half">
   <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}"><img src="{{ site.url }}/images/paperfaces-everly-autumn-600.jpg" alt="Everly Autumn drawing"></a>
@@ -39,12 +39,14 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 
 ## Contact Me
 
-Have more questions? If they're Paper by FiftyThree related I've probably answered them on my [Frequently Asked Questions page]({{ site.url }}/faqs/). For everything else, short messages via Twitter are my preferred contact method. For something longer feel free to use the form below to send a message and I'll reply by email when I can.
+Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. Anything else --- short messages via Twitter work best.
 
 <a href="https://twitter.com/intent/tweet?screen_name=mmistakes" class="twitter-mention-button" data-size="large" data-related="mmistakes">Tweet to @mmistakes</a>
 
 {% stylesheet form %}
 {% javascript vendor/wufoo %}
+
+Have something longer you want to ask me? Fill out the form below and I'll get back to you by email.
 
 <form id="form1" name="form1" class="wufoo  page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <ul>
@@ -85,3 +87,5 @@ Have more questions? If they're Paper by FiftyThree related I've probably answer
     </li>
   </ul>
 </form>
+
+![Thanks]({{ site.url }}/images/thanks-m.png)

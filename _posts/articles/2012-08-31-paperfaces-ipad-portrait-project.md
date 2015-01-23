@@ -12,7 +12,7 @@ tags: [paper by 53, ipad, drawing, illustration]
 comments: true
 ---
 
-PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper) and [ended two years later]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}). 
+PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper) and [ended exactly two years later]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}). 
 
 {% include toc.html %}
 
@@ -34,7 +34,7 @@ The last batch of PaperFaces drawings along with in process sketches for each. T
 
 ### Will You Draw Me?
 
-Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a vacation from drawing portraits as well. Sorry :-(
+Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a break from drawing portraits as well. Sorry :-(
 
 ### What is PaperFaces?
 
