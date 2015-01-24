@@ -35,12 +35,12 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 
 <nav class="toc toc-left">
   <ul>
-    <li><h6>Paper for iPad Tips</h6></li>
+    <li><h6>Paper by FiftyThree</h6></li>
     {% for post in site.categories.mastering-paper limit:10 %}
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></li>
     {% endfor %}
   </ul>
-  <a href="{{ site.url }}/mastering-paper/" class="btn">More Paper by FiftyThree Tutorials <i class="fa fa-arrow-right"></i></a>
+  <a href="{{ site.url }}/mastering-paper/" class="btn">More Tutorials <i class="fa fa-arrow-right"></i></a>
 </nav><!-- /.toc-left -->
 
 <div class="tiles tiles-right">
