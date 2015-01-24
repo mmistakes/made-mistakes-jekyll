@@ -58,5 +58,8 @@
   margin-left: 0;
   ul {
     margin-top: 0;
+    @include media($small) {
+      margin-bottom: 0.5 * $gutter;
+    }
   }
 }
