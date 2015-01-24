@@ -8,7 +8,7 @@ image:
 id: home
 ---
 
-Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). A boring, tattooed, time traveling designer from Buffalo, New York who enjoys eating chicken wings and [sketching on an iPad]({{ site.url }}/tag/paper-by-53/) --- *not necessarily at the same time*.
+Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). I'm a boring, tattooed, time traveling designer from Buffalo, New York who enjoys eating chicken wings and [sketching on an iPad]({{ site.url }}/tag/paper-by-53/) --- *not necessarily at the same time*.
 {:.shorten}
 
 <nav class="toc toc-left">
@@ -18,7 +18,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-  <a href="{{ site.url }}/paperfaces/" class="btn">More iPad Portraits <i class="fa fa-arrow-right"></i></a>
+  <a href="{{ site.url }}/paperfaces/" class="btn">More Drawings <i class="fa fa-arrow-right"></i></a>
 </nav><!-- /.toc-left -->
 
 <div class="tiles tiles-right tile-spacer">
