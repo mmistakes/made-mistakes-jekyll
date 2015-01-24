@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="main" role="main"> 
+<div id="main" role="main">
   <article class="wrap" itemscope itemtype="http://schema.org/Article">
     <div class="{% if page.image.feature %}page-feature-header{% else %}page-header{% endif %}">
       {% if page.image.feature %}
@@ -27,9 +27,6 @@ layout: default
         <footer class="page-footer">
           {% include page-meta-footer.html %}
         </footer><!-- /.footer -->
-        <aside class="inner-wrap">
-          {% include latest-posts-grid.html %}
-        </aside>
       </div><!-- /.content -->
     </div><!-- /.inner-wrap -->
     <div class="sidebar">
@@ -40,6 +37,9 @@ layout: default
       {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
     </div><!-- /.sidebar -->
   </article><!-- /.wrap -->
+  <div class="wrap">
+    {% include latest-posts-grid.html %}
+  </div><!-- /.wrap -->
   {% if page.comments == true %}
   <div class="wrap">
     <aside class="inner-wrap">{% include comments.html %}</aside>
