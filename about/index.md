@@ -17,7 +17,7 @@ Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling desig
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
 
-And if that wasn't enough --- I'm the father of twin girls who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
+And if that wasn't enough --- I'm the father of [twin girls]({{ site.url }}/tag/twins/) who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
 
 <figure class="half">
   <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}"><img src="{{ site.url }}/images/paperfaces-everly-autumn-600.jpg" alt="Everly Autumn drawing"></a>
