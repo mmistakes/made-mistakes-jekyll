@@ -1,14 +1,14 @@
 # Site navigation links
 
-- title: PaperFaces
-  url: /paperfaces/
-  excerpt: "Gallery of portraits I’ve drawn on an iPad with various styli."
-  image: paperfaces-mi-mo-teaser-225.jpg
-
 - title: Mastering Paper
   url: /mastering-paper/
   excerpt: "Tutorials and techniques to help you master Paper by FiftyThree."
   image: paper-53-color-picker-teaser-225.jpg
+
+- title: PaperFaces
+  url: /paperfaces/
+  excerpt: "Gallery of portraits I’ve drawn on an iPad with various styli."
+  image: paperfaces-mi-mo-teaser-225.jpg
 
 - title: Articles
   url: /articles/
