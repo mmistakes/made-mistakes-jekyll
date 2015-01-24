@@ -4,7 +4,7 @@ permalink: /
 title: "A Designer’s Faux Pas"
 excerpt: "Making stuff one mistake at a time."
 image:
-  feature: home-feature.jpg
+  feature: support-feature.jpg
 id: home
 ---
 

@@ -4,6 +4,8 @@ title: "Terms & Conditions"
 date: 2014-06-22
 modified: 2015-01-02
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
+image:
+  feature: support-feature.jpg
 share: false
 ---
 
