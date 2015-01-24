@@ -19,9 +19,8 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.u
 
 And if that wasn't enough --- I'm the father of [twin girls]({{ site.url }}/tag/twins/) who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
 
-<figure class="half">
-  <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}"><img src="{{ site.url }}/images/paperfaces-everly-autumn-600.jpg" alt="Everly Autumn drawing"></a>
-  <a href="{{ site.url }}{% post_url /paperfaces/2014-06-23-chloe-winter-portrait %}"><img src="{{ site.url }}/images/paperfaces-chloe-winter-600.jpg" alt="Chloe Winter drawing"></a>
+<figure>
+  <a href="{{ site.url }}{% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
   <figcaption>My 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
 
