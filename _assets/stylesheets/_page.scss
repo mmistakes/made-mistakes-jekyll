@@ -51,10 +51,10 @@
     &:first-child {
       @include media($small) {
         @include font-size(20,yes,30);
-      }
-      a {
-        color: $text-color;
-        border-bottom-color: mix($white, $text-color, 70%);
+        a {
+          color: $text-color;
+          border-bottom-color: mix($white, $text-color, 70%);
+        }
       }
     }
   }
