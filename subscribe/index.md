@@ -2,7 +2,7 @@
 layout: article
 title: "Subscribe"
 date: 2014-11-12T22:39:54-05:00
-modified: 2015-01-15T16:14:38-05:00
+modified: 2015-01-26T12:32:59-05:00
 excerpt: "All of the ways you can subscribe to content found on Made Mistakes."
 share: false
 ---
@@ -24,11 +24,9 @@ If you don't want to miss anything posted to Made Mistakes then you'll want to g
 
 ---
 
-## Social Networking
+## Social Media
 
-If keeping up to date via Atom/RSS feeds is too nerdy for you, I can be stalked on various social networks. I post once or twice a day --- you don't have to worry about me barfing out a stream of rants and retweets in quick succession. 
-
-Content shared is along the lines of sarcastic remarks, Paper by FiftyThree drawings, web design and development tidbits, and photos of what little life I live.
+If keeping up to date via Atom/RSS feeds is too nerdy for you, I can be stalked on various social networks. I try to keep myself in check and limit my posts to once or twice a day. I'm not one to barf up a stream of rants or retweets and instead stick with what I know best: Paper by FiftyThree, sarcasm, design, and web development.
 
 <div class="inline">
   <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>

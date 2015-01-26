@@ -17,12 +17,12 @@ Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling desig
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
 
-And if that wasn't enough --- I'm the father of [twin girls]({{ site.url }}/tag/twins/) who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
-
 <figure>
   <a href="{{ site.url }}{% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
   <figcaption>My 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
+
+And if that wasn't enough --- I'm the father of [twin girls]({{ site.url }}/tag/twins/) who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
 
 ---
 
@@ -86,5 +86,3 @@ Have something longer you want to ask me? Fill out the form below and I'll get b
     </li>
   </ul>
 </form>
-
-![Thanks]({{ site.url }}/images/thanks-m.png)
