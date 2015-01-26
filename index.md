@@ -53,9 +53,9 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 <nav class="toc toc-left">
   <ul>
     <li><h6>A Blog of Sorts</h6></li>
-    {% for post in site.categories.articles limit:5 %}
-    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+    <li><a href="{{ site.url }}/tag/">Tag Archive</a></li>
+    <li><a href="{{ site.url }}/2015/">2015 Archive</a></li>
+    <li><a href="{{ site.url }}/2014/">2014 Archive</a></li>
   </ul>
   <a href="{{ site.url }}/articles/" class="btn">More Articles <i class="fa fa-arrow-right"></i></a>
 </nav><!-- /.toc-left -->
