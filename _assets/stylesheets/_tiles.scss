@@ -82,6 +82,11 @@
   }
 }
 
+/* clear float on short table of contents that appear after a set of tiles */
+.tiles + .toc-left {
+  clear: both;
+}
+
 
 /*
    Individual tile
