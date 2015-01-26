@@ -2,25 +2,11 @@
    POST TILES
    ========================================================================== */
 
-/*
-   Individual tile
+/* 
+   Tiles content
    ========================================================================== */
 
-.tile {
-  @include outer-container;
-  margin-bottom: 2 * $gutter;
-  @include media($micro-only) {
-    @include fill-parent;
-  }
-  @include media(new-breakpoint(min-width em(480) max-width em(768) 12)) {
-    @include span-columns(6);
-    @include omega(2n);
-  }
-  @include media(new-breakpoint(min-width em(769) 12)) {
-    @include span-columns(3);
-    @include omega(4n);
-  }
-
+.tiles {
   .entry-date {
     margin-top: 0;
     font-family: $alt-font;
@@ -95,6 +81,24 @@
     }
   }
 }
+
+
+/*
+   Individual tile
+   ========================================================================== */
+
+.tile {
+  @include outer-container;
+  margin-bottom: 2 * $gutter;
+  @include media($micro-only) {
+    @include fill-parent;
+  }
+  @include media(new-breakpoint(min-width em(480) 12)) {
+    @include span-columns(3);
+    @include omega(4n);
+  }
+}
+
 
 /*
    Tiles container 3/4 width (used with sidebar layout)
