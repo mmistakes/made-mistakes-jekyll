@@ -11,7 +11,7 @@ excerpt: "A visual sitemap of mademistakes.com"
     <li id="home"><a href="{{ site.url }}/">Home</a></li>
     <li><a href="{{ site.url }}/about/">About</a>
       <ul>
-        <li><a href="{{ site.url }}/faqs/">Freqently Asked Questions</a></li>
+        <li><a href="{{ site.url }}/faqs/">Frequently Asked Questions</a></li>
         <li><a href="{{ site.url }}/subscribe/">Subscribe</a></li>
         <li><a href="{{ site.url }}/support/">Support</a></li>
         <li><a href="{{ site.url }}/terms/">Terms</a></li>
@@ -21,6 +21,7 @@ excerpt: "A visual sitemap of mademistakes.com"
       <ul>
         <li><a href="#archives-year">Archives by Year</a>
           <ul>
+            <li><a href="{{ site.url }}/2014/">2015</a></li>
             <li><a href="{{ site.url }}/2014/">2014</a></li>
             <li><a href="{{ site.url }}/2013/">2013</a></li>
             <li><a href="{{ site.url }}/2012/">2012</a></li>
