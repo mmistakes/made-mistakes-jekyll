@@ -128,7 +128,7 @@ To add in shadows use a variation of the water's base color, mixed with 20--40% 
 	<figcaption>A pencil mixed with a dark blue-gray is perfect for refining edges and adding definition to smaller waves.</figcaption>
 </figure>
 
-Boom! And we're done. Combined with a blue sky from my previous guide and you'll have a landscape that looks like you drew it with traditional art supplies. Shhhhh…your secret is safe with me.
+Boom! And we're done. Combined with a blue sky from my previous guide and you'll have a landscape that looks like you drew it with traditional art supplies. Shhhhh...your secret is safe with me.
 
 ## Variations on a Theme
 
@@ -137,7 +137,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
 <ul class="th-grid">
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{{ site.url }}{% post_url /paperfaces/2013-05-31-bradersk8r-portrait %}"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-31-bradersk8r-portrait %}"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-08-iron-man-portrait %}"><img src="{{ site.url }}/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-03-15-agentkyle-portrait %}"><img src="{{ site.url }}/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-25-jamesonroot-portrait %}"><img src="{{ site.url }}/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
