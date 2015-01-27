@@ -2,7 +2,7 @@
 layout: article
 title: "Mastering Paper by FiftyThree: Introduction and Tool Guide"
 excerpt: "An introduction to Paper's tools and how to exploit them for drawing realistically."
-modified: 2014-04-10
+modified: 2015-01-27T16:00:50-05:00
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
@@ -29,8 +29,10 @@ Finger painting with Paper can yield some impressive results, but may feel unnat
 	<figcaption>Adonit makes some nice styli if drawing precise marks is your thing.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Use an iPad Stylus Meant for Accuracy
+For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen. The fancier Bluetooth ones aren't supported by Paper, but apps like [Procreate](http://procreate.si) do.
+</div>
 
 Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %} "My Pogo Connect Smart Pen Review") here.
 
@@ -76,8 +78,10 @@ My drawing style has evolved over the year from crisp line work to soft blended 
 
 ![Background fill cover-up screenshot]({{ site.url }}/images/paper-53-background-fill.jpg)
 
-<i class="fa fa-star"></i> **ProTip:** The eraser removes everything --- including a background filled with color. A fountain pen filled with color that matches the background can be used instead of the eraser to correct mistakes.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Quick and Dirty Erasing
+The eraser removes everything --- including a background filled with color. A fountain pen filled with color that matches the background can be used instead of the eraser to correct mistakes. Improvements to the eraser tool have made this technique less needed, but it still [has its uses]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
+</div>
 
 * **Speed:** Slow = thin. Fast = thick.
 * **Blending:** Almost fully opaque. Depending on the color it can take 2--3 layers to create a purely opaque color.
@@ -140,8 +144,10 @@ Before I began using a Pogo Connect Smart Pen exclusively, I did all my letterin
 
 Like the pencil, the watercolor brush is another tool you really should spend time experimenting with to learn all its nuances. This tool sets Paper apart from other apps by replicating the natural feel of pushing and pulling paint across a canvas. Without it I wouldn't be able to shade, paint skies, or render hair realistically at all.
 
-<i class="fa fa-star"></i> **ProTip:** While there is no obvious way to change the size of your brush in Paper by 53, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Manipulate the Brush's Size
+While there is no obvious way to change the size of your brush in Paper by 53, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one. FiftyThree's Pencil stylus also allows you to dynamically change the brushes size depending on how you hold it.
+</div>
 
 It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color with multiple layers.
 
@@ -156,8 +162,10 @@ It may be helpful to create a few color scales with the primary colors, gray, an
 
 ![Gradations created with the watercolor brush]({{ site.url }}/images/paper-53-watercolor-layers.jpg)
 
-<i class="fa fa-star"></i> **ProTip:** When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots. More detail on this technique in Part 2…
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: White to Lighten
+When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots.
+</div>
 
 ### Color Mixer {#color-mixer}
 
@@ -179,11 +187,12 @@ For those who need more control or want a traditional color picker --- one can b
 
 For a good shadow color I usually adjust the base color I'm shading with by cranking the saturation down and the brightness way up.
 
-<i class="fa fa-star"></i> **ProTip:** If you go too far in any direction you will approach pure white, which will make the watercolor brush or marker opaque. Each color has a different "point of no return," that can be found by experimenting with the sliders.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Point of No Return
+If you go too far in any direction you will approach pure white, which will make the watercolor brush or marker opaque. Each color has a different "point of no return," that can be found by experimenting with the sliders.
 
-<i class="fa fa-star"></i> **ProTip:** Sometimes approaching the "point of no return" is a good thing --- especially when you need a color for lightening. Instead of using pure white, I like to start with the base color I'm working with and crank the brightness way up to make less dramatic tints when erasing.
-{: .notice}
+Sometimes approaching the "point of no return" is a good thing --- especially when you need a color for lightening. Instead of using pure white, I like to start with the base color I'm working with and crank the brightness way up to make less dramatic tints when erasing.
+</div>
 
 ## Gestures to Master
 
@@ -207,8 +216,10 @@ The single most requested feature by fans and haters of Paper... Zoom. I had dra
 
 There isn't much else to Zoom, I'm merely mentioning it to increase awareness around it. Unlike other drawing and painting apps with zoom, the entire canvas doesn't scale. Instead you control the area you want magnified by you opening a circular <s>portal</s> loupe that can be moved around or dismissed by tapping outside of it.
 
-<i class="fa fa-star"></i> **ProTip:** To move the loupe drag it around at the edge, right on the black frame. It can be picky sometimes, but nowhere near as temperamental or tricky as Rewind. Learn more about [how to use Zoom]({{ site.url }}{% post_url /mastering-paper/2014-07-03-moving-the-loupe %}) here.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Using the Zoom Loupe
+To move the loupe drag it around at the edge, right on the black frame. It can be picky sometimes, but nowhere near as temperamental or tricky as Rewind. Learn more about [how to use Zoom]({{ site.url }}{% post_url /mastering-paper/2014-07-03-moving-the-loupe %}) here.
+</div>
 
 ## And We're Out
 {:.no_toc}

@@ -2,7 +2,7 @@
 layout: article
 title: "Drawing Faces without Faces with Paper by FiftyThree"
 excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper by FiftyThree."
-modified: 2014-01-14
+modified: 2015-01-27T15:39:40-05:00
 image: 
   feature: paper-53-draw-face-feature.jpg
   teaser: paper-53-draw-face-teaser.jpg
@@ -26,8 +26,10 @@ Still confused? Here are the general steps I follow for every portrait I draw. D
 
 I decided on a square frame for [my project]({{ site.url }}/paperfaces/ "PaperFaces iPad Portrait Project"), but you might want to experiment with the shape and canvas placement to better suit your needs. I like to draw the frame freehand with black ink to give it character, but you can use pencil if you want to hide it easier.
 
-<i class="fa fa-star"></i> **ProTip:** Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Create a Template
+Don't want to bother drawing the same frame each time? Then make a template of it that you can copy at will. To do this: draw the frame or whatever else you want on all your pages, pinch the page to zoom out, tap and hold on the (+) until the *duplicate button* appears, then tap that. Now you're free to move this new page around, copy it to another sketchbook, or duplicate it again.
+</div>
 
 ## Apply a Background
 
@@ -93,5 +95,7 @@ To finish the face take care to observe the direction and tilt of the head. Care
 
 <div markdown="0"><a href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download a Drawing PaperFaces Guide</a></div>
 
-<i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Mastering Paper Tutorials
+Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques described above. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
+</div>

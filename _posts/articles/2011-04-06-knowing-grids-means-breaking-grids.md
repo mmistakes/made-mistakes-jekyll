@@ -21,7 +21,7 @@ So what does all this nonsense have to do with a women's health calendar? Glad y
 
 ## Three Columns, Two Typefaces --- Yeah I'm Down
 
-There is absolutely nothing about this cover that I don't like. It's been sitting on a chair in our dinning room for the past month and I always catch myself eye-ing it up. Shhh… don't tell my wife.
+There is absolutely nothing about this cover that I don't like. It's been sitting on a chair in our dinning room for the past month and I always catch myself eye-ing it up. Shhh... don't tell my wife.
 
 The two punch knockout for me is the combination of serif headlines followed by sans-serif subheads. Whoever designed this made sure they didn't use some bunk freebie font because the ff ligature looks damn good in "office. A+.
 

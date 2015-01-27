@@ -2,7 +2,7 @@
 layout: article
 title: "Short Guide to Drawing with Paper by FiftyThree"
 excerpt: "My simple Paper by FiftyThree techniques for drawing faceless portraits and landscapes on an iPad."
-modified: 2015-01-12T15:52:30-05:00
+modified: 2015-01-27T15:07:04-05:00
 image: 
   feature: madewithpaper-guide-feature.jpg
   teaser: madewithpaper-guide-teaser.jpg
@@ -14,8 +14,10 @@ comments: true
 
 How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.
 
-<i class="fa fa-info-circle"></i> Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Mastering Paper Tutorials
+Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
+</div>
 
 {% include toc.html %}
 
@@ -36,10 +38,12 @@ How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
 </figure>
 
-<i class="fa fa-info-circle"></i> **Update:** I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [my Pogo Connect review]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by FiftyThree.
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Update: Stylus Switch
+I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [my Pogo Connect review]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by FiftyThree.
+</div>
 
-Every drawing is different and I try to keep that in mind before opening Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned soo much doing just that for the last couple of months.
+Every drawing is different and I try to keep that in mind before opening Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned so much doing just that for the last couple of months.
 
 ## Block Out Your Composition
 
@@ -47,9 +51,9 @@ When I begin a new [PaperFaces portrait]({{ site.url }}/paperfaces/), I start by
 
 Usually I pencil in quick gestural outlines as a guide for painting forms later. Other times I jump right to the background and splash in layer upon layer of watercolor. It really depends on the source material and if the background has enough detail to bother with.
 
-<figure class="large">
-    <img src="{{ site.url }}/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
-    <figcaption>Face study using watercolor and some default colors.</figcaption>
+<figure>
+  <img src="{{ site.url }}/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
+  <figcaption>Face study using watercolor and some default colors.</figcaption>
 </figure>
 
 ## Watercolor without Water
@@ -69,8 +73,8 @@ To shade existing areas apply a darker hue, gray, or black. For backgrounds I te
 I don't use the fountain pen  or marker tools all that much because I like my illustrations to have a more painterly feel to them. However, these tools are perfect for covering  large irregular shaped areas with a base color --- like hair. They also come in handy when I need to rework or make adjustments (more precise than the eraser) to something I already drew or painted.
 
 <figure>
-    <img src="{{ site.url }}/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
-    <figcaption>Filling in shapes using the fountain pen gets the job done quickly.</figcaption>
+  <img src="{{ site.url }}/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
+  <figcaption>Filling in shapes using the fountain pen gets the job done quickly.</figcaption>
 </figure>
 
 Two things to keep in mind when working with the marker tool:
@@ -84,12 +88,14 @@ I saved the best for last. When I first started using Paper by 53, I was enamore
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
-<i class="fa fa-info-circle"></i> Read in detail [how I draw hair with Paper by FiftyThree]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}).
-{: .notice-warning}
+<div class="notice-info" markdown="1">
+#### How to Draw Hair
+Read in detail [how I draw hair]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
+</div>
 
 <figure>
-    <img src="{{ site.url }}/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
-    <figcaption>Paper by 53's pencil tool works wonders for rendering hair.</figcaption>
+  <img src="{{ site.url }}/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
+  <figcaption>Paper by 53's pencil tool works wonders for rendering hair.</figcaption>
 </figure>
 
 ## Closing Thoughts and Questions

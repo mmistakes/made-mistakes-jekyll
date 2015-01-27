@@ -2,7 +2,7 @@
 layout: article
 title: "Mastering Paper by FiftyThree: Drawing Skies and Clouds"
 excerpt: "Techniques for drawing blue skies, clouds, and pretty sunsets using the iPad app Paper by FiftyThree."
-modified: 2014-04-10
+modified: 2015-01-27T16:34:15-05:00
 image: 
   feature: paper-53-skies-guide-feature.jpg
   teaser: paper-53-skies-guide-teaser.jpg
@@ -12,13 +12,13 @@ tags: [paper by 53, tutorial, drawing, painting, clouds, sky, ipad]
 comments: true
 ---
 
-Paper by FiftyThree makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here…let me show you how.
+Paper by FiftyThree makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here...let me show you how.
 
 {% include toc.html %}
 
 ## Blue Skies Fade
 
-Let's start with the easier of the two, a nice bright blue sky. One of the more important steps is choosing a blue to paint with. The hue…the saturation…and the brightness all play a role in the overall emotion of the piece. I tend to mix in a swirl of green and keep it slightly over saturated to contrast against skin tones as seen in my many [PaperFaces portraits]({{ site.url }}/paperfaces/). If you're going for doom and gloom, back off the blue and mix in gray instead to set the foundation for an overcast sky.
+Let's start with the easier of the two, a nice bright blue sky. One of the more important steps is choosing a blue to paint with. The hue...the saturation...and the brightness all play a role in the overall emotion of the piece. I tend to mix in a swirl of green and keep it slightly over saturated to contrast against skin tones as seen in my many [PaperFaces portraits]({{ site.url }}/paperfaces/). If you're going for doom and gloom, back off the blue and mix in gray instead to set the foundation for an overcast sky.
 
 <figure class="half">
 	<img src="{{ site.url }}/images/paper-53-blue-sky-mix.jpg" alt="screenshot of blue sky color mix">
@@ -51,8 +51,10 @@ When painting, do not lift the stylus or your finger from the screen until you f
 
 Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
-<i class="fa fa-star"></i> **ProTip:** White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Go Easy on the White
+White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
+</div>
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-fluffed-white-clouds.jpg" alt="screenshot of fluffed clouds">
@@ -111,8 +113,10 @@ And paint a light coat over the red, background area in the middle, and graduall
 
 ![screenshot sunset yellow cream wash]({{ site.url }}/images/paper-53-sunset-yellow-cream-wash.jpg) 
 
-<i class="fa fa-star"></i> **ProTip:** Paint faster as you approach the blue wash to avoid turning it into a green color. Yellow and blue make…
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Speed Matters
+Paint faster as you approach the blue wash to avoid turning it into a green color. Yellow and blue make...
+</div>
 
 ### Sunset Clouds
 
@@ -127,8 +131,10 @@ Giving these clouds depth and dimension can be achieved by adding a little more 
 	<figcaption>Adding pink to the clouds for extra fluffiness.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** If you don't add enough red to the color mix, the watercolor brush will lighten the cloud instead of darkening it.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Find the Right Mix
+If you don't add enough red to the color mix, the watercolor brush will lighten the cloud instead of darkening it.
+</div>
 
 A pencil filled with a pinkish red is also perfect for refining clouds edges or drawing in long wispy clouds.
 

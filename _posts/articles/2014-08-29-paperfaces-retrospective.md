@@ -40,8 +40,10 @@ Having a routine and sticking to it was the key to hitting my goal. After a mont
 
 Making my project and efforts public was another huge reason I kept at it for so long. With each new follower or portrait request came an increase in pressure to continue on. I suppose this could have affected me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
 
+<div class="notice-info" markdown="1">
+#### Set a Goal
 Don't start a 365 project just for the sake of starting one. Having a clear objective of what you want to get out of it will help focus and motivate you to continue on. I wanted to improve my drawing skills and drawing random people from the internet became a way for me to do that.
-{:.notice}
+</div>
 
 ### Take a Step Back
 
@@ -137,8 +139,7 @@ By stopping the daily portraits I'll free up time to craft new tutorials for my 
 
 Don't get me wrong, drawing strangers for the last two years has been great. But a big part of me is interested in creating work on a personal level again. In a past life I kept [art journals](http://www.blurb.com/b/695432-scripted-entries-from-false-memories?ce=blurb_ew&utm_source=widget) filled with blind contour drawings and scribbled thoughts. I'd love to try and replicate this in Paper, building on the techniques I've mastered drawing portraits and turn them into a set of Moleskine books.
 
-And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be [commissioned here]({{ site.url }}/portraits/).
-{:.notice}
+<del>And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be [commissioned here]({{ site.url }}/portraits/).</del>
 
 ## Thank You!
 

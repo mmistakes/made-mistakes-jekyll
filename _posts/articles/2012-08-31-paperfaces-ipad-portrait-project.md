@@ -2,7 +2,7 @@
 layout: article
 title: "iPad Portraits with Paper by FiftyThree"
 excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and the Paper by FiftyThree app."
-modified: 2015-01-09
+modified: 2015-01-27T14:49:13-05:00
 image: 
   feature: paperfaces-project-feature.jpg
   teaser: paperfaces-project-teaser.jpg
@@ -89,8 +89,10 @@ Each PaperFaces portrait is protected under a [Creative Commons License]({{ site
 
 I use the term "tutorial" loosely. What you'll find here are glorified slide shows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slide show with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/mastering-paper/ "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
-<i class="fa fa-info-circle"></i> **Update:** I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
-{: .notice .warning}
+<div class="notice-warning" markdown="1">
+#### Video Process Update
+I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
+</div>
 
 <figure class="large">
   <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" frameborder="0"> </iframe>
@@ -127,5 +129,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [iPad artist: Michael Rose, creator of the PaperFaces project](http://kevinbradberry.net/2014/08/27/ipad-artist-michael-rose/)
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An IPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
 
-<i class="fa fa-info-circle"></i> **PS:** Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper by 53]({{ site.url }}/mastering-paper/).
-{: .notice-warning}
+<div class="notice-info" markdown="1">
+#### Mastering Paper Tutorials
+Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper by FiftyThree]({{ site.url }}/mastering-paper/). You're welcome!
+</div>

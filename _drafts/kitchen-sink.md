@@ -126,44 +126,41 @@ Make any link standout more when applying the `.btn` class.
 
 ## Badges
 
-<div class="badges">
-  <span class="badge">1</span>
-  <span class="badge inverse">2</span>
-  <span class="badge info">3</span>
-  <span class="badge warning">4</span>
-  <span class="badge danger">5</span>
-  <span class="badge success">6</span>
-</div>
+1{: .badge} 2{: .badge .inverse} 3{: .badge .info} 4{: .badge .warning} 5{: .badge .danger} 6{: .badge .success}
 
 ## Notices
 
 Set a block of text off from the rest.
 
-**Default Notice:** `.notice` Maecenas ornare tortor. [Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice}
-
-<div class="notice">
-  <h3>Headline</h3>
-  <div class="inline-btn">
-    <a href="#" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-    <a href="#" class="btn-social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-  </div><!-- /.inline-btn -->
+<div class="notice" markdown="1">
+#### Default Notice
+[Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div><!-- /.notice -->
 
-**Inverse Notice:** `.notice-inverse` Maecenas ornare tortor. Donec sed tellus [eget sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-inverse}
+<div class="notice-inverse" markdown="1">
+#### Inverse Notice
+`.notice-inverse` Maecenas ornare tortor. Donec sed tellus [eget sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+</div>
 
-**Info Notice:** `.notice-info` [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-info}
+<div class="notice-info" markdown="1">
+#### Info Notice
+`.notice-info` [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+</div>
 
-**Warning Notice:** `.notice-warning` Maecenas ornare tortor. Donec sed [tellus eget]() sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Warning Notice
+`.notice-warning` Maecenas ornare tortor. Donec sed [tellus eget]() sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+</div>
 
-**Danger Notice:** `.notice-danger` Maecenas ornare tortor.[ Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-danger}
+<div class="notice-danger" markdown="1">
+#### Danger Notice
+`.notice-danger` Maecenas ornare tortor.[ Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+</div>
 
-**Success Notice:** `.notice-success` Maecenas ornare tortor. Donec sed tellus eget [sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-{: .notice-success}
+<div class="notice-success" markdown="1">
+#### Success Notice
+`.notice-success` Maecenas ornare tortor. Donec sed tellus eget [sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+</div>
 
 ## Fieldsets and Form Elements
 

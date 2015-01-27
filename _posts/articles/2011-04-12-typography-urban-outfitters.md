@@ -20,7 +20,7 @@ I think it is very clear that the April 2011 *Urban Outfitters* catalog was more
 
 ## Violators, Mount Up
 
-Inside front cover starts off with this gem. I absolutely hate when an element in the background violates a block of type in the foreground. Now sometimes this can serve a purpose, but here I can't fathom one single reason why you'd place a paragraph on top of a light stand or whatever the hell that is. I just can't help wanting to move both paragraphs to the right three inches and neatly tuck them under the protruding umbrella…
+Inside front cover starts off with this gem. I absolutely hate when an element in the background violates a block of type in the foreground. Now sometimes this can serve a purpose, but here I can't fathom one single reason why you'd place a paragraph on top of a light stand or whatever the hell that is. I just can't help wanting to move both paragraphs to the right three inches and neatly tuck them under the protruding umbrella...
 
 ## I Hate Full Justified Type
 
@@ -36,23 +36,23 @@ Oh never mind. At Least one page out of 48 must have read Ellen Lupton's [*Think
 
 ## Typography Rulez
 
-Kidding aside. I've always enjoyed Urban Outfitters fresh ideas even if they break a few rules along the way. They never get locked into using the same typefaces, mastheads, logos, photography, paper stock, etc. About the only thing consistent is the inconsistency of each season's catalog --- a trend that follows through on <a href="http://www.styleite.com/retail/urban-outfitters-new-website/" title="Type on arches? Yeah UO did that on their website">their website</a>. And for something so closely tied to fashion that's probably a smart move.
+Kidding aside. I've always enjoyed Urban Outfitters fresh ideas even if they break a few rules along the way. They never get locked into using the same typefaces, mastheads, logos, photography, paper stock, etc. About the only thing consistent is the inconsistency of each season's catalog --- a trend that follows through on [their website](http://www.styleite.com/retail/urban-outfitters-new-website/ "Type on arches? Yeah UO did that on their website"). And for something so closely tied to fashion that's probably a smart move.
 
 At the end of the day I really doubt any one is looking at these pages wondering why the kerning is off. They're most likely thinking, "damn this hipster bullshit is overpriced" or why aren't any of these ladies wearing pants?
 
 ## Readability No No's
 
 <figure>
-    <a href="{{ site.url }}/images/UO-product-text.jpg" title="Type comparion"><img src="{{ site.url }}/images/UO-product-text-300.jpg" alt="Urban Outfitters type comparison" /></a>
-    <figcaption>Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B.</figcaption>
+  <a href="{{ site.url }}/images/UO-product-text.jpg" title="Type comparion"><img src="{{ site.url }}/images/UO-product-text-300.jpg" alt="Urban Outfitters type comparison" /></a>
+  <figcaption>Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B.</figcaption>
 </figure>
 
 <figure>
-    <a href="{{ site.url }}/images/UO-awful-readability.jpg" title="Another example of unreadable type"><img src="{{ site.url }}/images/UO-awful-readability-300.jpg" alt="Another example of bad type and no regard for readability" title="Urban Outfitters awful typography" /></a>
-    <figcaption>White type on a light gray background is awful for readability.</figcaption>
+  <a href="{{ site.url }}/images/UO-awful-readability.jpg" title="Another example of unreadable type"><img src="{{ site.url }}/images/UO-awful-readability-300.jpg" alt="Another example of bad type and no regard for readability" title="Urban Outfitters awful typography" /></a>
+  <figcaption>White type on a light gray background is awful for readability.</figcaption>
 </figure>
 
 <figure>
-    <a href="{{ site.url }}/images/UO-type-hiearchy.jpg" title="Another detail image of type"><img title="Urban Outfitters catalog typography" src="{{ site.url }}/images/UO-type-hiearchy-300.jpg" alt="Detail image of decent type treatments" /></a>
-    <figcaption>This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++</figcaption>
+  <a href="{{ site.url }}/images/UO-type-hiearchy.jpg" title="Another detail image of type"><img title="Urban Outfitters catalog typography" src="{{ site.url }}/images/UO-type-hiearchy-300.jpg" alt="Detail image of decent type treatments" /></a>
+  <figcaption>This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++</figcaption>
 </figure>

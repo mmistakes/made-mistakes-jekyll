@@ -2,7 +2,7 @@
 layout: article
 title: "Printing a Moleskine Book with Paper by FiftyThree"
 excerpt: "Impressions of a handmade Moleskine book printed with the iPad app Paper by FiftyThree."
-modified: 2014-01-17
+modified: 2015-01-27T16:47:34-05:00
 image: 
   feature: paper-53-book-feature.jpg
   teaser: paper-53-book-teaser.jpg
@@ -49,8 +49,10 @@ As noted earlier, I struggled with selecting 15 pages to turn into a book. I sup
 	<figcaption>Selecting your pages is as easy as tapping on them.</figcaption>
 </figure>
 
-<i class="fa fa-info-circle"></i> **Page Count:** It's worth noting that if you select less than 15 pages for your book, you'll receive blanks filling the balance. Something I'd like to eventually see would be the option to create books with a higher page count. Maybe at larger predefined increments to keep the spine size fixed as not to mess with the cover's alignment and wrap. Printing pages ala cart would be nice as well.
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Maximum Page Count
+It's worth noting that if you select less than 15 pages for your book, you'll receive blanks filling the balance. Something I'd like to eventually see would be the option to create books with a higher page count. Maybe at larger predefined increments to keep the spine size fixed as not to mess with the cover's alignment and wrap. Printing pages ala cart would be nice as well.
+</div>
 
 ### Cover Image
 
@@ -61,8 +63,10 @@ I think the best option is to go fully custom with a cover. What I did was creat
 	<figcaption>Swatches saved in any of your palettes are available for use as a back cover and spine color.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** The custom option affords you the opportunity of selecting a color for the back cover and spine. As far as I can tell you can't use the color mixer here to pick a color, so be sure to save one in your custom palettes if you don't like the defaults.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Custom Colored Cover Wraps
+The custom option affords you the opportunity of selecting a color for the back cover and spine. As far as I can tell you can't use the color mixer here to pick a color, so be sure to save one in your custom palettes if you don't like the defaults.
+</div>
 
 ### Order the Book
 

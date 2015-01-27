@@ -2,7 +2,7 @@
 layout: article
 title: "How to Draw Realistic Hair with Paper by FiftyThree"
 excerpt: "I'm often asked what my Paper techniques for drawing hair is. Learn what they are in this short tutorial."
-modified: 2014-01-03
+modified: 2015-01-27T15:18:33-05:00
 image: 
   feature: how-to-draw-hair-feature.jpg
   teaser: how-to-draw-hair-teaser.jpg
@@ -35,7 +35,7 @@ For those new to the app I suggest drawing in grays --- limiting your palette to
 	<figcaption>The browns in this default palette are good to start with before mixing your own.</figcaption>
 </figure>
 
-On the subject of palettes… I stick with the default sets. Since I draw a ton of portraits, it's much quicker for me to adjust a color on the fly. But I do see the benefit of setting up a predetermined palette beforehand to give your illustration a feeling of cohesion. Before the color mixer existed you had to get inventive if you wanted additional colors. A limitation that encouraged experimentation and sometimes unexpected results.
+On the subject of palettes... I stick with the default sets. Since I draw a ton of portraits, it's much quicker for me to adjust a color on the fly. But I do see the benefit of setting up a predetermined palette beforehand to give your illustration a feeling of cohesion. Before the color mixer existed you had to get inventive if you wanted additional colors. A limitation that encouraged experimentation and sometimes unexpected results.
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paper-53-color-redheads-lg.jpg"><img src="{{ site.url }}/images/paper-53-color-redheads-200.jpg" alt="Paper 53 color for red hair base" /></a>
@@ -52,5 +52,7 @@ Working an area too much with the pencil can cause your hair to flatten out. To 
 
 If you're a maniac with the pencil and prefer to draw in all the gradations then feel free to omit this step. I'm much too lazy for that and prefer to paint over the strokes to achieve the same effect. A warm light gray works great for brunettes and a light orange or pink for redheads. Experimentation is the key here. If you don't like the result just two finger rewind that noise and try another color. Lighter layers of watercolor that are built up gradually allow for subtler tones than a stroke of black would.
 
-<i class="fa fa-info-circle"></i> **PS:** I wrote another guide called [Mastering Paper by 53]({{ site.url }}/mastering-paper/), that expands on all these techniques in greater detail.
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Mastering Paper Tutorials
+Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques described above. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
+</div>
