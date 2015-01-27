@@ -105,6 +105,9 @@ blockquote {
   p {
     @include font-size(16);
   }
+  cite {
+    font-weight: 700;
+  }
 }
 
 /* Code */
