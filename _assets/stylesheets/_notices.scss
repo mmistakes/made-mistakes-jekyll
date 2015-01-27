@@ -3,20 +3,52 @@
    ========================================================================== */
 
 /**
- * Example Kramdown usage:
- * This is a paragraph of MarkDown text.
- * {: .notice}
- *
- * HTML example usage:
- * <p class="notice">This is a paragraph of text.</p>
+ * Default Kramdown usage (no indents!):
+ * <div class="notice" markdown="1">
+ * #### Headline for the Notice
+ * Text for the notice
+ * </div>
  */
 
 @mixin notice($notice-color) {
-  position: relative;
-  padding: $gutter;
-  @include font-size(14, no);
+  margin-left: -1 * $gutter;
+  margin-right: -1 * $gutter;
+  @include media($medium) {
+    margin-left: 0;
+    margin-right: 0;
+  }
   background-color: mix($white, $notice-color, 80%);
-  border-radius: 2 * $border-radius
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  h4 {
+    padding: (0.5 * $gutter) $gutter;
+    background-color: $notice-color;
+    color: $white;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    /* Insert Font Awesome icons before notice header */
+    &:before {
+      margin-right: 4px;
+      font-family: "FontAwesome";
+      display: inline-block;
+      text-decoration: inherit;
+      -webkit-font-smoothing: antialiased;
+      content: "\f005";
+    }
+  }
+  @at-root .page-content #{&} h4 {
+    @include font-size(18, 0); /* using root to override .page-content h4 font size */
+  }
+  p {
+    margin-bottom: 0;
+    padding: 0 $gutter;
+    &:last-child {
+      padding-bottom: $gutter;
+    }
+  }
+  ul, ol {
+    padding: $gutter (2 * $gutter);
+  }
 }
 
 /* Default notice */
@@ -34,6 +66,10 @@
 .notice-inverse {
   @include notice($white);
   color: $text-color;
+  h4 {
+    color: $text-color;
+    border-bottom: 1px solid $text-color;
+  }
   @at-root .page-content #{&} a {
     color: $text-color;
     border-bottom-color: $text-color;
@@ -60,6 +96,9 @@
     color: mix($black, $warning-color, 50%);
     border-bottom-color: mix($black, $warning-color, 50%);
   }
+  h4:before {
+    content: "\f06a";
+  }
 }
 
 /* Success notice */
@@ -71,6 +110,9 @@
     color: mix($black, $success-color, 50%);
     border-bottom-color: mix($black, $success-color, 50%);
   }
+  h4:before {
+    content: "\f164";
+  }
 }
 
 /* Danger notice */
@@ -81,5 +123,8 @@
   @at-root .page-content #{&} a {
     color: mix($black, $danger-color, 50%);
     border-bottom-color: mix($black, $danger-color, 50%);
+  }
+  h4:before {
+    content: "\f071";
   }
 }

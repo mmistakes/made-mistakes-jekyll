@@ -24,22 +24,23 @@ $border-radius                : 5px;
 
 $white                        : #fff;
 $black                        : #000;
+$gray                         : #635960;
 
-$background-color             : #ebebeb;
+$background-color             : mix($white, $gray, 80%);
 $body-color                   : $white;
 
 $text-color                   : rgba($black, 0.8);
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                   : #343434;
+$base-color                   : mix($black, $gray, 25%);
 $comp-color                   : complement($base-color);
-$primary-color                : mix($white, $black, 20%);
-$success-color                : #2ecc71;
-$warning-color                : #f3bc15;
-$danger-color                 : #dc081d;
-$info-color                   : #3498db;
+$primary-color                : mix($black, $gray, 35%);
+$success-color                : mix($gray, #2ecc71, 15%);
+$warning-color                : mix($gray, #f3bc15, 15%);
+$danger-color                 : mix($gray, #dc081d, 15%);
+$info-color                   : mix($gray, #3498db, 15%);
 
-$border-color                 : #ddd;
+$border-color                 : mix($white, $gray, 80%);
 
 $link-color                   : $danger-color;
 $link-color-hover             : $danger-color;
@@ -48,9 +49,9 @@ $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
 $table-background             : $white;
 $table-header-color           : $white;
-$table-hover-color            : mix($black, $table-background, 5%);
-$table-stripe-color           : mix($black, $table-background, 5%);
-$table-stripe-color-hover     : mix($black, $table-background, 5%);
+$table-hover-color            : mix($gray, $table-background, 10%);
+$table-stripe-color           : mix($gray, $table-background, 10%);
+$table-stripe-color-hover     : mix($gray, $table-background, 10%);
 
 $facebook-color               : #3b5998;
 $flickr-color                 : #ff0084;
@@ -101,7 +102,7 @@ $sliding-menu-background-hover: $black;
 $sliding-menu-color-hover     : $white;
 $sliding-menu-border          : 1px solid $sliding-menu-border-color;
 $button-size                  : 30px;
-$transition                   : .3s; /* increase this to see the transformations in slow-motion */
+$transition                   : 0.3s; /* increase this to see the transformations in slow-motion */
 $sliding-menu-animation       : all 500ms ease-in-out;
 
 
