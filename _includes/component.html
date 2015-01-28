@@ -1,0 +1,18 @@
+<article class="component">
+  <header class="component-header">
+    <h3>{{ entry.title }}</h3>
+    {% if entry.scss %}<p>Sass file: {{ entry.scss }}</p>{% endif %}
+  </header><!-- /.component-header -->
+  <div class="component-content">
+    <div class="component-rendered">
+      {{ entry.content }}
+    </div><!-- /.component-rendered -->
+    <div class="component-code">
+      
+      {% highlight html %}
+        {{ entry.content }}
+      {% endhighlight %}
+      
+    </div><!-- /.component-code -->
+  </div><!-- /.component-content -->
+</article><!-- /.component -->

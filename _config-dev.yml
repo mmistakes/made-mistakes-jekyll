@@ -80,3 +80,5 @@ collections:
     output: true
     permalink: /:collection/:path/
     title: FAQs
+  components:
+    output: false
