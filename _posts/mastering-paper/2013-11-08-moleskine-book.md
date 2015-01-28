@@ -164,6 +164,8 @@ If you've been holding out printing a book with Paper, I'd encourage you to give
 	<figcaption>Flipping through a book of PaperFaces</figcaption>
 </figure>
 
+---
+
 ## Mastering Paper Reference Book
 
 When my second book didn't show up at the same time as the PaperFaces one, I started to worry that it was lost in the mail. I had ordered them at the same time and received shipping notices within seconds of each other notifying me they were on the way. But all is well and the other book finally showed up.

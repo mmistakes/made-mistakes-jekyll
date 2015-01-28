@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Mastering Paper by FiftyThree: Drawing Outer Space"
-modified: 
+modified: 2015-01-28T11:18:25-05:00
 categories: mastering-paper
 excerpt: "Learn how I draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and Pencil."
 tags: [paper by 53, tutorial, outer space, blend, pencil, stylus, ipad]
@@ -62,8 +62,10 @@ To create smooth tones keep your finger on the screen and use circular motions t
   <figcaption>For areas that are dense with stars apply multiple layers of white to brighten them up.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** When using the zoom loupe the watercolor brush's size scales down. Use this to your advantage to paint thinner strokes and fill smaller shapes.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Smaller Brush Sizes
+When using the zoom loupe the watercolor brush's size scales down. Use this to your advantage to paint thinner strokes and fill smaller shapes.
+</div>
 
 #### Blue glazes
 
@@ -100,8 +102,10 @@ If things went too dark mix a tint of blue or fuchsia (depending on where you wa
   <figcaption>Quickly dab in strokes of watercolor filled with a white color to bring up the brightness.</figcaption>
 </figure> 
 
-<i class="fa fa-star"></i> **ProTip:** Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn pure white way too fast.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Paint Fast with White
+Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn pure white way too fast.
+</div>
 
 ### Placing stars with your fingers
 
@@ -201,8 +205,10 @@ I'm going to speed through these next set of steps since they're exactly the sam
   <figcaption>Lighten the black using the watercolor brush and a white or tint color.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** Hold Pencil on its side to move more quickly and organically through the composition.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Turn Pencil on Its Side for a Different Drawing Experience
+Hold Pencil on its side to move more quickly and organically through the composition.
+</div>
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-space-2-lightening-bg-2.jpg" alt="screenshot of lightening the black background with white">
@@ -262,8 +268,10 @@ Using the same process as before, leave one of the planet's edges exposed as you
 
 I started to lose the shape of the circle because I was painting pretty fast. To correct it I darkened the lower left corner until it merged with the rest of the scene. Depending on what color the background is, these sorts of mistakes may be harder to cover-up.
 
-<i class="fa fa-star"></i> **ProTip:** To help stay in the lines a <a href="http://www.amazon.com/gp/product/B000FPYQ14/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FPYQ14&linkCode=as2&tag=mademist-20&linkId=GLP5SABXVPYTF7PT">stencil</a> can be used. Simply hold it steady on the iPad's screen as you paint glazes with Pencil inside of it.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Use a Stencil if You're a Messy Painter
+To help stay in the lines a [stencil](http://www.amazon.com/gp/product/B000FPYQ14/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FPYQ14&linkCode=as2&tag=mademist-20&linkId=GLP5SABXVPYTF7PT) can be used. Simply hold it steady on the iPad's screen as you paint glazes with Pencil inside of it.
+</div>
 
 #### Refining a planet
 
@@ -286,8 +294,10 @@ To correct any shape distortions that occur from smudging too much, paint in bur
   <img src="{{ site.url }}/images/paper-53-space-2-planet-edge.jpg" alt="screenshot of penciling in highlights">
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** Fine pencil lines along the sides work well to redefine a bumpy or irregular shaped curve.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Smoothen Edges with a Pencil Stroke
+Fine pencil lines along the sides work well to redefine a bumpy or irregular shaped curve.
+</div>
 
 #### Detailing a planet
 
@@ -327,8 +337,10 @@ You may remember in the first part of this guide I cautioned against using the i
   <figcaption>Swiping your finger quickly over a large white star will create a glow orb. You can even make trails by pulling your strokes slowly and smearing the star.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** If you don't have a Pencil stylus, glowing orbs can be created by dabbing a star with white watercolor.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Simulate Glow with White Paint
+If you don't have a Pencil stylus, glowing orbs can also be created by dabbing a star with white watercolor.
+</div>
 
 Just like earlier, star clusters can be lightened or darkened by glazing over them with the appropriate colors. If you do decide to lighten sections be sure to move fast as you risk going too white when lingering in one spot.
 

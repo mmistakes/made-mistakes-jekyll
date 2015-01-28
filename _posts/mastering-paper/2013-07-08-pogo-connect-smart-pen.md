@@ -2,7 +2,7 @@
 layout: article
 title: "A Pogo Connect Smart Pen Makes Paper by 53 Better"
 excerpt: "Perfect for avid Paper by 53 creators looking for enhanced functionality normal capacitive stylus can't offer."
-modified: 2013-11-06
+modified: 2015-01-28T08:58:07-05:00
 image: 
   feature: pogo-connect-review-feature.jpg
   teaser: pogo-connect-review-teaser.jpg
@@ -141,5 +141,11 @@ And just like that Ten One Design sent me a replacement pen with 2 extra tips fr
 Feels like Groundhog Day all over again. Sadly my replacement Pogo didn't fair too well and broke in the exact same way after three months of daily usage. Big shout out to Ten One Design's customer service for setting me up with another replacement gratis. I've been told they beefed up the soldering for a new production run in September. Not sure if that will make much of a difference, but will report back after I get my hands on it.
 
 If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back...
+
+<div class="notice-warning" markdown="1">
+#### A New iPad Stylus
+After having a long run with Ten One Design's Pogo Connect stylus I have finally left it behind. After updating to an iPad Air 2 (which has poor support for the original Pogo Connect) and Paper being updated to include **Surface Pressure**, I've begun using [FiftyThree's Pencil stylus]({{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}) exclusively.
+It doesn't vary strokes in the same way as a Pogo Connect (or other pressure sensitive styli), but it produces the same results and has [a few tricks]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}) up its sleeve.
+</div>
 
 {% include affiliate-disclosure.html %}

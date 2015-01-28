@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Mastering Paper by FiftyThree: Picking and Sharing Colors"
-modified: 2015-01-23T16:22:55-05:00
+modified: 2015-01-28T11:11:28-05:00
 categories: mastering-paper
 excerpt: "A color picker has finally been added to Paper! Learn what the new tool does and how to use it."
 tags: [paper by 53, color theory, tutorial, ipad]
@@ -54,8 +54,12 @@ There's not much more to using the Color Picker. As the small circle is moved ar
 
 When you've found a color you'd like to work with or save to your palette tap the circle. You can also tap the eye dropper icon inside of the Color Mixer or any of the tools in the tray to select the sampled color.
 
-<i class="fa fa-info-circle"></i> <strong>Note:</strong> Tapping anywhere on the canvas will dismiss the Color Picker and the sampled color will not be saved to the Mixer.
-{: .notice-warning}
+<div class="notice-info" markdown="1">
+#### ProTip: Saving a Sampled Color
+Tapping anywhere on the canvas will dismiss the Color Picker and the sampled color will not be saved to the Mixer. You have to tap the circle in the Color Picker or eye dropper for it to stick.
+</div>
+
+---
 
 ## Color Picker limitations
 
@@ -92,6 +96,8 @@ This little gotcha is even more pronounced when sampling areas that have been he
 
 Personally I think it would be less confusing if the Color Picker was sampling the combined color that you see on screen (page color + transparent strokes on top) like **Procreate** and other drawing apps. But like I said it's more of an edge case scenario since you'll mostly be sampling opaque and layered colors.
 
+---
+
 ## How to share colors
 
 Don't let that little color sampling inconsistency get you down, there's still plenty to love about the Color Picker and enhanced Mixer tools. If it wasn't clear from the sub-heading above, you can now *sort of* share colors and palettes with the Paper community. 
@@ -111,7 +117,7 @@ Aside from the new picker, the Mixer received some love by now including numeric
 
 The HSB/HLS color models are found in most desktop graphics programs like Adobe's Photoshop. By opting to include a standardized color model in Paper it is now possible to match colors across platforms and apps. As a designer I find this especially helpful for maintaining color consistency when importing Paper PNG files into Adobe Creative Suite documents.
 
-## Color palettes on Mix
+### Sharing color palettes on Mix
 
 When I wrote my Mastering Paper guide for [drawing portraits]({{ site.url }}{% post_url /mastering-paper/2014-04-21-drawing-faces %}) there wasn't a good way for me to share my palettes with the community. Now with the help of Mix by FiftyThree I can share my palette[^paper-palette-template] of skin tones to be sampled and used by anyone who decides to download them. 
 
@@ -121,6 +127,8 @@ When I wrote my Mastering Paper guide for [drawing portraits]({{ site.url }}{% p
 	<a href="https://mix.fiftythree.com/11098-Michael-Rose/1376457" target="_blank"><img src="{{ site.url }}/images/paper-53-skin-palette.jpg" alt="my skin tone palette for drawing portraits"></a>
 	<figcaption>Download my default skin tone palette for drawing portraits.</figcaption>
 </figure>
+
+---
 
 ## What's up next
 

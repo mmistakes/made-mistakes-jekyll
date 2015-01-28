@@ -4,7 +4,7 @@ title: "Pencil by FiftyThree Review is Still the Best Stylus for Paper"
 excerpt: "Impressions of FiftyThree's Pencil stylus from the perspective of an avid Paper creator."
 category: mastering-paper
 tags: [pencil, paper by 53, stylus, ipad, blend, review]
-modified: 2014-12-02T11:47:37-05:00
+modified: 2015-01-28T11:07:58-05:00
 image:
   feature: pencil-53-feature.jpg
   teaser: pencil-53-teaser.jpg
@@ -58,14 +58,16 @@ When Pencil by FiftyThree originally launched drawing with the broadside of the 
     <figcaption>This video shows Surface Pressure in all its expressiveness glory.</figcaption>
 </figure>
 
-### Is it Durable?
+### Is the Tip Durable?
 
 Pencil's tip is by no means the most durable I've used. The longevity of the rubber that encases the 14kt gold plated tip is affected by the amount of pressure you apply and how it is held. Press hard as you draw or use the tip's point more and you're going to wear it out faster. I've had tips begin to show signs of tearing in under 5 hours and others last much much longer.
 
 These numbers are relative to the user, which makes locking in a specific number hard. Using the longer side of the tip without a doubt prolongs its age. I suggest to use that whenever filling in larger areas of color. Even if you do manage to tear through the rubber, the tips are still completely usable, albeit with some black streaking[^streaking] across the screen.
 
-<i class="fa fa-info-circle"></i> **Replacement Tips**: The good news is FiftyThree now offers replacement tips and erasers [in their shop](http://shop.fiftythree.com/). For $7.95 USD (+ shipping) you get two tips and an eraser for Pencil, which isn’t too bad if you do a lot of drawing like me.
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Replacement Tips
+The good news is FiftyThree now offers replacement tips and erasers [in their shop](http://shop.fiftythree.com/). For $7.95 USD (+ shipping) you get two tips and an eraser for Pencil, which isn't too bad if you do a lot of drawing like me.
+</div>
 
 [^streaking]: Black rubber streaking from the tip taring was easily cleaned off the iPad's screen by wiping with a cloth.
 
@@ -101,8 +103,10 @@ I'm not one for erasing all that much and instead rely heavily on the Rewind ges
   <figcaption>Vary the size of the eraser by using just the corner or go larger with the entire width.</figcaption>
 </figure>
 
-<i class="fa fa-info-circle"></i> If you're looking for more erasing techniques you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
-{: .notice-warning}
+<div class="notice-info" markdown="1">
+#### Erasing and Undoing Techniques
+If you're looking for more erasing techniques you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
+</div>
 
 ## Palm Resters of the World Rejoice
 

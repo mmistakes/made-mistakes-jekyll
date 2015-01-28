@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Mastering Paper by FiftyThree: How to Use Zoom While Painting"
-modified: 2014-11-21T14:48:52-05:00
+modified: 2015-01-28T10:17:24-05:00
 categories: mastering-paper
 excerpt: "Learn how to reposition Paper by FiftyThree's Zoom loupe mid-stroke to help add detail to your drawings."
 tags: [paper by 53, tutorial, drawing, painting, ipad]
@@ -20,7 +20,7 @@ Maybe this is something super obvious and I just missed it --- I'm willing to be
 
 ## Why is This Important?
 
-The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by 53** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.
+The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-zoom-loupe-pencil-ev.jpg" alt="drawing in the loupe">
@@ -56,5 +56,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 
-<i class="fa fa-star"></i> **ProTip:** Save this two handed Zoom technique for painting large shapes that requrire extra precision. It can be somewhat disorienting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
-{:.notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Two Handed Zoom --- Only When You Need It
+Save this two handed zoom technique for painting large shapes that require extra precision. It can be somewhat disorienting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
+</div>

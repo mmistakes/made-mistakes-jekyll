@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Mastering Paper by FiftyThree: The Grid Method"
-modified:
+modified: 2015-01-28T10:25:21-05:00
 categories: mastering-paper
 excerpt: "How to use the Grid Method with Paper by FiftyThree to create accurate line drawings and improve your work."
 tags: [paper by 53, tutorial, drawing, painting, grid, ipad]
@@ -13,17 +13,17 @@ share: true
 comments: true
 ---
 
-A question I receive often is "how do you create such accurate line drawings in your Paper portraits." The short answer is practice… about 1,460 hours of practice. The longer and more helpful answer is, there are several techniques I use to achieve life-like drawings --- one of which I'm going to share with you now.
+A question I receive often is "how do you create such accurate line drawings in your Paper portraits." The short answer is practice... about 1,460 hours of practice. The longer and more helpful answer is, there are several techniques I use to achieve life-like drawings --- one of which I'm going to share with you now.
 
 {% include toc.html %}
 
 ## Why Use the Grid Method?
 
-If you've ever taken a basic drawing class there's a good chance you were introduced to the **grid method**. Teachers use it as a way to strengthen observation skills and help overcome left brain roadblocks beginners often fight against. It may not be the ideal tool to use with *Paper by 53*, but for those who struggle with drawing it can build a solid foundation for you creations.
+If you've ever taken a basic drawing class there's a good chance you were introduced to the **grid method**. Teachers use it as a way to strengthen observation skills and help overcome left brain roadblocks beginners often fight against. It may not be the ideal tool to use with **Paper by FiftyThree**, but for those who struggle with drawing it can build a solid foundation for you creations.
 
 ## Drawing the Grids
 
-Drawing grids is boring and tedious work that can easily add a few hours to prep time. A fact that I experienced when I first made the jump to drawing realistic portraits with Paper by 53. I'm not trying to scare you off from using this method, just be prepared to invest time into creating straight and evenly spaced lines. 
+Drawing grids is boring and tedious work that can easily add a few hours to prep time. A fact that I experienced when I first made the jump to drawing realistic portraits with Paper by FiftyThree. I'm not trying to scare you off from using this method, just be prepared to invest time into creating straight and evenly spaced lines. 
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-grid-tools.jpg" alt="tools for making grids">
@@ -55,8 +55,10 @@ Switching to a straight-edge[^straightedge] you'll use the dots as guides to dra
 	<figcaption>Drawing lines with a stylus on the iPad takes some getting used to.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** Place your straight-edge directly on top of the reference dots, then slide it to the left or right ¼″ depending on what hand you are. This extra space gives the fat rubber tip of your stylus room to move and will hopefully fall exactly on the dots. If not move it some more until it does.
-{:.notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Straight-edge Placement
+Place your straight-edge directly on top of the reference dots, then slide it to the left or right ¼″ depending on what hand you are. This extra space gives the fat rubber tip of your stylus room to move and will hopefully fall exactly on the dots. If not move it some more until it does.
+</div>
 
 Take your time drawing lines as accurate as and as light as possible, it'll make your life easier later --- trust me. Once you've drawn all the horizontal lines repeat the process for the vertical lines, intersecting them as you go.
 
@@ -96,8 +98,10 @@ With the finished grids you're ready to begin creating your line drawing. Pick a
 	<figcaption>Using the <strong>Drawing Grid</strong> app to zoom in and view one box at a time.</figcaption>
 </figure>
 
-<i class="fa fa-star"></i> **ProTip:** If you're having trouble focusing try cover up the neighboring boxes with a sheet of paper to reveal just the box you're working on.
-{:.notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Focus on One Grid Box at a Time
+If you're having trouble focusing, cover up any neighboring boxes with a sheet of paper to reveal just the box you're working on.
+</div>
 
 You can certainly shade and paint each box as you go, but it's pretty hard to keep everything looking harmonious --- especially with the watercolor brush. Matching colors becomes really difficult as you bounce around the grid, so I suggest working in grays if you plan to use this method to create a finished drawing.
 

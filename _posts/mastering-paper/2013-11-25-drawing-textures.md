@@ -12,7 +12,7 @@ tags: [paper by 53, tutorial, drawing, painting, texture, wood, ipad]
 comments: true
 ---
 
-If you've been following along you now know all my Paper techniques[^techniques] and tricks for painting basic landscapes. Trees, grass, skies, clouds, water, and waves --- all the parts for building a solid landscape foundation. This next part of my Mastering Paper guide will cover texture techniques for creating bricks, wood grain, concrete, and rocks.
+If you've been following along you now know all my Paper techniques[^techniques] and tricks for painting basic landscapes. Trees, grass, skies, clouds, water, and waves --- all the parts for building a solid landscape foundation. This next tutorial in my Mastering Paper series will cover techniques for creating textures like bricks, wood grain, concrete, and rocks.
 
 {% include toc.html %}
 
@@ -35,7 +35,7 @@ The color of pencil doesn't really matter, just make it something light (a gray 
 
 <div class="notice-info" markdown="1">
 #### ProTip: Drawing Straight Lines
-An iPad smart cover, piece of cardboard, or a book placed on the screen can all be used to help draw straight lines if you don't have a ruler handy.
+An iPad smart cover, piece of cardboard, or a book placed on the screen can all be used to help draw straight lines if you don't have a ruler nearby.
 </div>
 
 With a few guidelines placed, use the color mixer to create a base for the bricks. The mixture I decided on was a brown with some red and orange thrown in. Remember to mix a color about 25% lighter than what you'd like to end up with. We'll be applying several layers of color to the bricks --- if you mix it too dark you'll end up with bricks that are almost black and lack dimension.
@@ -47,7 +47,7 @@ With a few guidelines placed, use the color mixer to create a base for the brick
 
 ### Laying Bricks with Watercolor
 
-When blocking out bricks, I prefer using the watercolor brush versus the marker. Simply put, it leaves you with a jagged edge that's closer to real life. Painting small bricks is next to impossible if you don't have access to a Pogo Connect stylus. Without it you're limited to one brush size, which is quite wide for this sort of detail work.
+When blocking out bricks, I prefer using the watercolor brush versus the marker. Simply put, it leaves you with a jagged edge that's closer to real life. Painting small bricks is next to impossible if you don't use a styli like [FiftyThree's Pencil]({{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}) or a Pogo Connect Smart Pen. Without one of them you're limited to one brush size --- which is quite wide for this sort of detail work.
 
 <figure>
 	<img src="{{ site.url }}/images/paper-53-bricks-comparison.jpg" alt="Screenshot comparing bricks">
@@ -90,7 +90,7 @@ Varying brick color is a nice way to add visual interest and break up the space.
 
 ### Adding Detail to the Bricks
 
-Add shadows to each of the bricks. Using a darker mix of the rusty brown from before (or a dark gray), paint shadow shape on the bricks. You don't want to cover the entire brick, just one of the corners depending on where the light is positioned.
+Add shadows to each of the bricks. Using a darker mix of the rusty brown from before (or a dark gray), paint shadow shapes on the bricks. You don't want to cover the entire brick, just one of the corners depending on where the light is positioned in the scene.
 
 ![Screenshot of adding shadows to bricks]({{ site.url }}/images/paper-53-bricks-brush-shadows.jpg)
 
@@ -113,9 +113,11 @@ To finish off the bricks I'll use a mixture of gray to further refine the spaces
   <figcaption>Refine brick edges using the pencil tool and a color that matches the cement.</figcaption>
 </figure>
 
+---
+
 ## Drawing Wood Grain
 
-Wood color varies quite a bit so I'm going to focus more on the process and less on the color. The basic idea is to lay down a medium base and then work lighter colors on top of it.
+Wood color varies quite a bit so I'm going to focus more on the process and less on the color. The basic idea is to lay down a medium base coat and then work lighter colors on top of it.
 
 ### Selecting a Base Color
 
@@ -125,7 +127,7 @@ Determine what the mid-tone color of the wood is. Using the following photograph
   <img src="{{ site.url }}/images/paper-53-wood-reference.jpg" alt="Wood reference photograph">
   <a href="{{ site.url }}/images/paper-53-wood-base-mix-lg.jpg"
   ><img src="{{ site.url }}/images/paper-53-wood-base-mix.jpg" alt="Screenshot of medium brown color mix"></a>
-  <figcaption>Mix your mid-tone color to match the photo, then reduce the brightness about 10%, and increase the saturation a smidge.</figcaption>
+  <figcaption>Mix your mid-tone color to match the photo, then reduce the brightness about 10%, and increase the saturation a bit.</figcaption>
 </figure>
 
 This becomes the base color and will be used to paint the wood's shape with watercolor. For this first coat of watercolor, paint slowly to create an even and continuous tone. The idea with this base is to set the overall tone of the wood. We don't want to go too dark or too light because we'll be applying shadows and highlights and need enough contrast for the grain effect to work.
@@ -137,16 +139,16 @@ This becomes the base color and will be used to paint the wood's shape with wate
 
 ### Penciling in Grain Texture
 
-Now to begins the fun of penciling in wood grain. Start by selecting the medium brown from before and mixing it about 10% darker. Depending on the temperature of the wood's color it might be better to mix in a dark red to warm it, or a bluish green to cool it. Color is fairly subjective so you might have to play with the hue if the color shifts out of harmony with the base.
+Now begins the fun of penciling in wood grain textures. Start by selecting the medium brown from before and mixing it about 10% darker. Depending on the temperature of the wood's color it might be better to mix in a dark red to warm it, or a bluish green to cool it. Color is fairly subjective so you might have to play with the hue if the color shifts out of harmony from the base.
 
-Using a pencil, begin sketching in *fuzzy* lines to represent wood grain. If you look back at our photo reference the grains go up and down --- that's the direction to follow.
+Using the pencil tool, begin sketching in *fuzzy* lines to represent wood grain. If you look back at our photo reference the grains go up and down --- that's the direction to follow.
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-wood-fuzzy-lines.jpg" alt="Screenshot of wood grain strokes">
   <figcaption>Keep the strokes loose and light to create a fuzzy and incomplete line. It helps to enhance the wood grain effect.</figcaption>
 </figure>
 
-Without changing the color switch to the brush and splash in the wood's darker spots. You may have to lighten the color some if it goes black too fast. Ideally you'll build up the dark with several layers versus just one to add depth. 
+Without changing the color switch to the brush and splash in the wood's darker spots. You may have to lighten the color some if it goes black too fast. Ideally you'll build up the dark with several layers versus just to create richer tones. 
 
 <div class="notice-info" markdown="1">
 #### ProTip: More Layers = Smoother Gradients
@@ -172,9 +174,16 @@ For a final pass, mix a lighter variation of our base color. With this color and
   <figcaption>Enhancing the wood grain effect by adding highlights using <em>fuzzy</em> pencil strokes.</figcaption>
 </figure>
 
+---
+
 ## Drawing Asphalt, Gravel, and Rocks
 
-When drawing sidewalks, roads, or any sort of rocky terrain I adapt the following technique to fit most situations. Layer up a few coats of watercolor using the paint brush, mix a darker variant of the base, and finally sketch in random pencil strokes to add texture. *Ble, ble, ble, ble, that's all folks.*
+When drawing sidewalks, roads, or any sort of rocky terrain I adapt the following process to fit most situations. 
+
+1. Decide on a base color for the rocks.
+2. Paint several layers on top of each other using this base color and the paint brush tool.
+3. Mix up a darker variant of the base color.
+4. Sketch in random pencil strokes to add texture.
 
 ### Painting a Base
 
@@ -188,13 +197,13 @@ Using the watercolor brush, paint a slow and even base layer. Keep adding layers
 
 ### Applying Texture
 
-Going back to the color mixer, add in black or darken it with the sliders. You're looking to reproduce a dark variation of the base we just painted. Next select the pencil, zoom in, and begin sketching *specks* of dirt and cracks. Keep these strokes loose and fairly random by moving around quickly --- the *fuzzier* the better.
+Going back to the color mixer, add in black or darken it with the sliders. You're looking to reproduce a dark variation of the base we just painted. Next select the pencil tool, zoom in, and begin sketching *specks* of dirt and cracks. Keep these strokes loose and fairly random by moving around quickly --- the *fuzzier* the better.
 
 ![Screenshot of adding dirt and shadow]({{ site.url }}/images/paper-53-asphalt-dark-texture.jpg)
 
 <div class="notice-info" markdown="1">
-#### ProTip: Pressure Sensitive Pencil Strokes
-Hate to sound like a broken record, but the Pogo Connect Smart Pen really does make using the pencil tool better. Building up tones becomes gradual and efficient by giving you more control over a stroke by varying the pressure.
+#### ProTip: Bluetooth Styli to the Rescue
+Hate to sound like a broken record, but using FiftyThree's Pencil or a Pogo Connect Smart Pen really does make using the pencil tool better. Building up tones becomes gradual and efficient by giving you more control over a stroke by varying the direction or amount of pressure applied.
 </div>
 
 Using the exact same technique, mix a lighter color of the base and speckle in dirt and asphalt highlights.
@@ -211,7 +220,7 @@ When drawing pebbles and large rocks, use the watercolor brush to create oval sh
   <figcaption>For more variation feel free to vary the color of the rocks by adding red or blue to the mix.</figcaption>
 </figure>
 
-Using the pencil, draw in shadow lines along the bottom of each rock paying attention to where light is positioned. If the light is on the left, apply a shadow line to the bottom and right edges. If the light is coming from the right, add your shadows to the left. A reference photo will help you determine their placement accurately.
+Using the pencil tool, draw in shadow lines along the bottom of each rock paying attention to where light is positioned. If the light is on the left, apply a shadow line to the bottom and right edges. If the light is coming from the right, add your shadows to the left. A reference photo will help you accurately determine their placement.
 
 ![Screenshot of rock shadows in pencil]({{ site.url }}/images/paper-53-pebbles-shadows.jpg)
 
@@ -222,6 +231,8 @@ To harmonize the rock's color I'll apply a layer or two of light gray (or variat
 ![Screenshot of harmonizing color]({{ site.url }}/images/paper-53-pebbles-highlights.jpg)
 
 Depending on the color of this *harmonizing layer*, the highlights and shadows from before may have flattened out. To counter this, feel free to freshen them up using the pencil tool and color mixes from before.
+
+---
 
 ## Variations on a Theme
 
