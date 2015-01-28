@@ -107,6 +107,7 @@ blockquote {
   }
   cite {
     font-weight: 700;
+    font-style: normal;
   }
 }
 
@@ -158,6 +159,7 @@ th {
   border-bottom: 1px solid mix($black, $border-color, 15%);
 }
 td {
+  background-color: $table-background;
   border-bottom: 1px solid $table-border-color;
   padding: (0px + $doc-line-height) / 2;
   padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
