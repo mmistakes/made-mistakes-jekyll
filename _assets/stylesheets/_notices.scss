@@ -41,10 +41,13 @@
   }
   p {
     margin-bottom: 0;
-    padding: 0 $gutter;
+    padding: $gutter;
     &:last-child {
       padding-bottom: $gutter;
     }
+  }
+  h4 + p {
+    padding-top: 0; /* remove top padding on paragraphs that appear after a notice headline */
   }
   ul, ol {
     padding: $gutter (2 * $gutter);
