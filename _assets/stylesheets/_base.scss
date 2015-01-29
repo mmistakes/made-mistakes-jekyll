@@ -58,21 +58,6 @@ h3 {
 h4, h5, h6 {
   @include font-size(16);
 }
-h4 {
-  @include media($small) {
-    @include font-size(26);
-  }
-}
-h5 {
-  @include media($small) {
-    @include font-size(24);
-  }
-}
-h6 {
-  @include media($small) {
-    @include font-size(20);
-  }
-}
 
 u,
 ins {

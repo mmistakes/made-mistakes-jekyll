@@ -25,6 +25,12 @@
       @include font-size(22);
     }
   }
+  h5, h6 {
+    @include font-size(16);
+    @include media($small) {
+      @include font-size(20);
+    }
+  }
 
   /* Cleaner underlines for links */
   a { text-decoration: none; }
