@@ -35,7 +35,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
   </ul>
 </nav><!-- /.toc-left -->
 
-<div class="tiles tiles-right">
+<div class="tiles tiles-3-4">
 {% for post in site.categories.mastering-paper %}
   <article class="tile" itemscope itemtype="http://schema.org/Article">
     <a href="{{ post.url }}" title="{{ post.title }}" class="post-teaser">
@@ -47,4 +47,4 @@ In the spirit of openness I've decided to compile everything I've learned using 
     <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
     </article><!-- /.tile -->
 {% endfor %}
-</div><!-- /.tiles-right -->
+</div><!-- /.tiles-3-4 -->
