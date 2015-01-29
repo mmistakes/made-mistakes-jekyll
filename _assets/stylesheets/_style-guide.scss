@@ -1,0 +1,43 @@
+/* ==========================================================================
+   WEBSITE STYLE GUIDE
+   ========================================================================== */
+
+.component {
+  margin-bottom: $gutter;
+  padding: $gutter;
+  background-color: $white;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+}
+
+.component-header {
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.component-content {
+  position: relative;
+  padding-top: 30px;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: $alt-font;
+    @include font-size(12, no);
+    font-weight: 700;
+    color: $gray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: "Example";
+  }
+}
+
+.component-rendered {}
+
+.component-code {
+  clear: both;
+  .highlight {
+    max-height: 200px;
+  }
+}
