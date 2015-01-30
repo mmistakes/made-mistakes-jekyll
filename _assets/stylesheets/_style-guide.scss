@@ -14,30 +14,49 @@
   h3 {
     margin-top: 0;
   }
+  p {
+    font-family: $alt-font;
+    margin-top: 0;
+    @include font-size(14, no);
+    a {
+      text-decoration: none;
+    }
+  }
+  p + p {
+    margin-bottom: $gutter;
+  }
 }
 
-.component-content {
-  position: relative;
-  padding-top: 30px;
-  &:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: $alt-font;
-    @include font-size(12, no);
-    font-weight: 700;
-    color: $gray;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    content: "Example";
-  }
+.component-content { 
+  @include outer-container;
 }
 
 .component-rendered {}
 
 .component-code {
   clear: both;
-  .highlight {
-    max-height: 200px;
+}
+
+/* 
+   Color swatches
+   ========================================================================== */
+
+.color-tile {
+  @include span-columns(4);
+  @include omega(3n);
+  margin-bottom: $gutter;
+  padding: $gutter 0;
+  text-align: center;
+  border-radius: $border-radius;
+  box-shadow: 0 0 1px $border-color;
+  code {
+    @include font-size(16,no);
+    color: $text-color;
+    white-space: nowrap;
+    margin: 0 2px;
+    padding: 0 5px;
+    border: 1px solid $code-border-color;
+    background-color: $inline-code-background;
+    border-radius: $code-border-radius;
   }
 }

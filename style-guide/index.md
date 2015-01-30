@@ -13,11 +13,15 @@ ads: false
 
 Style guide for Made Mistakes.
 
+{% assign entries = site.components | where:"type","colors" %}
+<h2>Color Palettes</h2>
+{% for entry in entries %}
+  {% include swatch.html %}
+{% endfor %}
+
 {% assign componentsByType = site.components | group_by:"type" %}
 {% for type in componentsByType %}
-
 <h2>{{ type.name | capitalize }}</h2>
-
 {% for entry in type.items %}
 {% include component.html %}
 {% endfor %}
