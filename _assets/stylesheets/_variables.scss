@@ -32,8 +32,6 @@ $body-color                   : $white;
 $text-color                   : rgba($black, 0.8);
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                   : mix($black, $gray, 25%);
-$comp-color                   : complement($base-color);
 $primary-color                : mix($black, $gray, 35%);
 $success-color                : mix($gray, #2ecc71, 15%);
 $warning-color                : mix($gray, #f3bc15, 15%);
@@ -117,6 +115,6 @@ $masthead-height: $button-size * 2;
    Visual sitemap
    ========================================================================== */
 
-$sitemap-primary-color        : mix($white, $base-color, 60%);
-$sitemap-sub-color            : mix($white, $base-color, 80%);
-$sitemap-sub-sub-color        : mix($white, $base-color, 90%);
+$sitemap-primary-color        : mix($white, $primary-color, 60%);
+$sitemap-sub-color            : mix($white, $primary-color, 80%);
+$sitemap-sub-sub-color        : mix($white, $primary-color, 90%);
