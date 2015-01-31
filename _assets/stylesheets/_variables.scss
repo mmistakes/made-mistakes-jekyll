@@ -29,7 +29,7 @@ $gray                         : #635960;
 $background-color             : mix($white, $gray, 80%);
 $body-color                   : $white;
 
-$text-color                   : rgba($black, 0.8);
+$text-color                   : mix($black, $gray, 25%);
 $caption-color                : mix($white, $text-color, 25%);
 
 $primary-color                : mix($black, $gray, 35%);
@@ -41,7 +41,7 @@ $info-color                   : mix($gray, #3498db, 15%);
 $border-color                 : mix($white, $gray, 80%);
 
 $link-color                   : $danger-color;
-$link-color-hover             : $danger-color;
+$link-color-hover             : mix($black, $danger-color, 20%);
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;

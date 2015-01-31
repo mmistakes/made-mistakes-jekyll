@@ -87,3 +87,5 @@ collections:
     title: FAQs
   components:
     output: false
+  colors:
+    output: false
