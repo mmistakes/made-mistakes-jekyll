@@ -93,8 +93,8 @@ $inline-code-background       : mix($white, $border-color, 75%);
    Sliding menu variables
    ========================================================================== */
 
-$sliding-menu-border-color    : $black;
-$sliding-menu-background      : $black;
+$sliding-menu-border-color    : mix($black, $gray, 70%);
+$sliding-menu-background      : mix($black, $gray, 70%);
 $sliding-menu-color           : $white;
 $sliding-menu-background-hover: $black;
 $sliding-menu-color-hover     : $white;

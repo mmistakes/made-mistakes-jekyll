@@ -58,6 +58,7 @@
     border: 1px solid $code-border-color;
     background-color: $inline-code-background;
     border-radius: $code-border-radius;
+    white-space: normal;
   }
 }
 

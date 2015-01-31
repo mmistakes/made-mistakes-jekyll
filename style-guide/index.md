@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-Style guide for Made Mistakes.
+A handy collection of all the colors, typography, and components used on Made Mistakes.
 
 {% assign entries = site.colors %}
 <h2>Color Palettes</h2>
