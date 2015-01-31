@@ -7,15 +7,23 @@ image:
   teaser: skinny-bones-theme-teaser.jpg
 category: work
 tags: [jekyll, web development, open source, github]
-modified: 
+modified: 2015-01-31
 comments: true
 ---
 
 What originally started as a site refresh quickly turned into something else when Jekyll baked in native support for Sass with a [2.0 release](http://jekyllrb.com/docs/history/#v2-0-0).
 
+{% include toc.html %}
+
 This was a good excuse to learn Sass and figured starting a new repository to experiment with would be better than breaking my existing site and Jekyll themes. I ended up with what I'm calling **Skinny Bones** by completely rewriting all of [Made Mistakes's](https://github.com/mmistakes/made-mistakes) stylesheets, `_layouts`, and `_includes` to be more modular.
 
 I like to think of Skinny Bones as a starter for building your own Jekyll powered site --- versus a theme you use as is. I've purposely kept the styling minimal and light to make adding your own flare and markup easier. If that's not your thing you can still use it without modification, but where is the fun in that?
+
+<div markdown="0">
+  <a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
+  <a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
+</div>
 
 ---
 

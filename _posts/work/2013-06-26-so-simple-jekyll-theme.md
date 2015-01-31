@@ -4,7 +4,7 @@ title: "So Simple, a Jekyll Theme"
 headline: "So Simple Theme"
 subheadline: "Built for Jekyll"
 excerpt: "A simple and responsive Jekyll theme for words and photos by designer Michael Rose."
-modified: 2014-10-31T09:16:00-04:00
+modified: 2015-01-31
 image: 
   feature: so-simple-theme-feature.jpg
   teaser: so-simple-theme-teaser.jpg
@@ -40,7 +40,11 @@ After having so much fun creating and releasing [my first open source Jekyll the
 2. Fork the [So Simple Theme repo](http://github.com/mmistakes/so-simple-theme/)
 3. Make it your own and [customize, customize, customize](https://mmistakes.github.io/so-simple-theme/theme-setup/).
 
-<div markdown="0"><a href="https://mmistakes.github.io/so-simple-theme/" class="btn">Demo the Theme</a></div>
+<div markdown="0">
+  <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
+  <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
+</div>
 
 ---
 
@@ -51,8 +55,5 @@ Having a problem getting something to work or want to know why I setup something
 ## License
 
 This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
-
-**Like this theme?** I just released my third theme for Jekyll, with a sweet animated drop down menu, social sharing plugins, and a Grunt build script for theme development. I'm calling it HPSTR and you can [learn more about it here]({{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %}).
-{: .notice}
 
 [^1]: Example: *domain.com/category-name/post-title*

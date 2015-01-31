@@ -16,8 +16,10 @@ comments: true
 
 Jekyll is pretty rad and figured releasing an older version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes)**, a responsive Jekyll theme focused on great typography for text heavy sites. 
 
-<i class="fa fa-info-circle"></i> **Update:** Minimal Mistakes makes use of Sass and data files as part of Jekyll 2.x. Updating your site's look and feel just got easier!
-{: .notice-warning}
+<div class="notice-warning" markdown="1">
+#### Update
+Minimal Mistakes makes use of Sass and data files as part of Jekyll 2.x. Updating your site's look and feel just got easier!
+</div>
 
 {% include toc.html %}
 
@@ -36,8 +38,9 @@ Jekyll is pretty rad and figured releasing an older version of [my site](http://
 </figure>
 
 <div markdown="0">
-  <a href="https://mmistakes.github.io/minimal-mistakes/" class="btn">Demo the Theme</a>
-  <a href="https://github.com/mmistakes/minimal-mistakes" class="btn">Install the Theme</a>
+  <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
+  <a href="https://mmistakes.github.io/minimal-mistakes/theme-setup/" class="btn">Setup Guide</a>
 </div>
 
 ## Installation
@@ -60,8 +63,10 @@ Minimal Mistakes now requires [Jekyll](http://jekyllrb.com/) 2.x. Make sure to r
 5. Update posts and pages YAML to match variables used by Minimal Mistakes.
 6. Update `config.yml` and add navigation links. [Full details here](https://mmistakes.github.io/minimal-mistakes/theme-setup/). 
 
-<i class="fa fa-star"></i> **ProTip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you won't want.
-{: .notice}
+<div class="notice-info" markdown="1">
+#### ProTip: Clean Up the Repo
+Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you won't want.
+</div>
 
 ---
 

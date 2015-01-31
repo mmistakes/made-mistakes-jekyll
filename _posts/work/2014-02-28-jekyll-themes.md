@@ -3,7 +3,7 @@ layout: article
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub Pages for free."
-modified: 2015-01-05T15:13:08-05:00
+modified: 2015-01-31
 image: 
   feature: jekyll-themes-feature.jpg
   thumb: jekyll-themes-thumb-250x250.png
@@ -38,15 +38,16 @@ For more specifics, review each themes' documentation by clicking on the **Learn
 A Jekyll starter used to build the latest incarnation of Made Mistakes.
 
 * Minimal design meant to be hacked up and customized
-* Built in support for Sass and data files (requires Jekyll 2.x)
+* Built-in support for Sass and data files (requires Jekyll 2.x)
 * Off canvas menu
 * Tile based archives
 * Optional table of contents, share links, Disqus comments modules, and more
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /work/2014-09-02-skinny-bones-jekyll %}" class="btn">Learn More</a>
+	<a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
+	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
 </div>
 
 ---
@@ -61,14 +62,15 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 A minimally designed responsive Jekyll theme for text heavy blogs.
 
 * Minimal design
-* Built in support for Sass and data files (requires Jekyll 2.x)
+* Built-in support for Sass and data files (requires Jekyll 2.x)
 * Author sidebar
 * Automatic table of contents on single posts [via Kramdown](http://kramdown.gettalong.org/converter/html.html#toc)
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /work/2013-05-28-minimal-mistakes-jekyll-theme %}" class="btn">Learn More</a>
+	<a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
+	<a href="https://mmistakes.github.io/minimal-mistakes/theme-setup/" class="btn">Setup Guide</a>
 </div>
 
 ---
@@ -84,12 +86,13 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 
 * Minimal design
 * Simple search (searches by post title)
-* Built in support for Sass and data files (requires Jekyll 2.x)
+* Built-in support for Sass and data files (requires Jekyll 2.x)
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /work/2013-06-26-so-simple-jekyll-theme %}" class="btn">Learn More</a>
+	<a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
+	<a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
 </div>
 
 ---
@@ -105,12 +108,13 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 
 * Modern, subtle design
 * Animated main menu
-* Built in support for Sass and data files (requires Jekyll 2.x)
+* Built-in support for Sass and data files (requires Jekyll 2.x)
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %}" class="btn">Learn More</a>
+	<a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
+	<a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup Guide</a>
 </div>
 
 ---
