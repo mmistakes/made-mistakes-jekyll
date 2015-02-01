@@ -51,6 +51,14 @@ $table-hover-color            : mix($gray, $table-background, 10%);
 $table-stripe-color           : mix($gray, $table-background, 10%);
 $table-stripe-color-hover     : mix($gray, $table-background, 10%);
 
+$badge-background             : $primary-color;
+$badge-dark-color             : $black;
+$badge-danger-color           : $danger-color;
+$badge-info-color             : $info-color;
+$badge-warning-color          : $warning-color;
+$badge-success-color          : $success-color;
+$badge-font-color             : $white;
+
 $facebook-color               : #3b5998;
 $flickr-color                 : #ff0084;
 $foursquare-color             : #0cbadf;
