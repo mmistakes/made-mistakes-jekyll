@@ -2,7 +2,7 @@
 layout: archive
 title: "Sitemap"
 date: 2014-12-26
-modified: 
+modified: 2015-01-31
 excerpt: "A visual sitemap of mademistakes.com"
 ---
 
@@ -15,6 +15,7 @@ excerpt: "A visual sitemap of mademistakes.com"
         <li><a href="{{ site.url }}/subscribe/">Subscribe</a></li>
         <li><a href="{{ site.url }}/support/">Support</a></li>
         <li><a href="{{ site.url }}/terms/">Terms</a></li>
+        <li><a href="{{ site.url }}/style-guide/">Style Guide</a></li>
       </ul>
     </li>
     <li><a href="#archives">Archives</a>
