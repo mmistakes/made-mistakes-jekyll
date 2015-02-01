@@ -160,3 +160,29 @@
     }
   }
 }
+
+/* Circular icon only buttons */
+
+.social-circles {
+  $social:
+  (facebook, $facebook-color),
+  (flickr, $flickr-color),
+  (foursquare, $foursquare-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-color),
+  (linkedin, $linkedin-color),
+  (pinterest, $pinterest-color),
+  (rss, $rss-color),
+  (tumblr, $tumblr-color),
+  (twitter, $twitter-color),
+  (vimeo, $vimeo-color),
+  (youtube, $youtube-color);
+  @each $socialnetwork, $color in $social {
+    .#{$socialnetwork} {
+      color: $color;
+      &:hover {
+        color: mix($black, $color, 25%);
+      }
+    }
+  }
+}
