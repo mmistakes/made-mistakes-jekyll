@@ -3,14 +3,6 @@
    ========================================================================== */
 
 .badge {
-  $badge-background: $primary-color;
-  $badge-dark-color: $black;
-  $badge-danger-color: $danger-color;
-  $badge-info-color: $info-color;
-  $badge-warning-color: $warning-color;
-  $badge-success-color: $success-color;
-  $badge-font-color: #fff;
-
   display: inline-block;
   background: $badge-background;
   border-radius: 2em;
@@ -21,29 +13,34 @@
   line-height: 1;
   padding: .25em 1em;
   text-align: center;
+}
 
-  &.inverse {
-    background: $white;
-    color: $text-color;
-  }
+.badge-inverse {
+  @extend .badge;
+  background: $white;
+  color: $text-color;
+}
 
-  &.info {
-    background: $badge-info-color;
-    color: $white;
-  }
+.badge-info {
+  @extend .badge;
+  background: $badge-info-color;
+  color: $white;
+}
 
-  &.danger {
-    background: $badge-danger-color;
-    color: $white;
-  }
+.badge-danger {
+  @extend .badge;
+  background: $badge-danger-color;
+  color: $white;
+}
 
-  &.warning {
-    background: $badge-warning-color;
-    color: mix($black, $badge-warning-color, 70%);
-  }
+.badge-warning {
+  @extend .badge;
+  background: $badge-warning-color;
+  color: mix($black, $badge-warning-color, 70%);
+}
 
-  &.success {
-    background: $badge-success-color;
-    color: $white;
-  }
+.badge-success {
+  @extend .badge;
+  background: $badge-success-color;
+  color: $white;
 }

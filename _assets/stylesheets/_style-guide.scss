@@ -1,0 +1,108 @@
+/* ==========================================================================
+   WEBSITE STYLE GUIDE
+   ========================================================================== */
+
+.component {
+  margin-bottom: $gutter;
+  padding: $gutter;
+  background-color: $white;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+}
+
+.component-header {
+  h3 {
+    margin-top: 0;
+  }
+  p {
+    font-family: $alt-font;
+    margin-top: 0;
+    @include font-size(14, no);
+    a {
+      text-decoration: none;
+    }
+  }
+  p + p {
+    margin-bottom: $gutter;
+  }
+}
+
+.component-content {
+  @include outer-container;
+}
+
+.component-rendered {}
+
+.component-code {
+  clear: both;
+  margin-top: 0.5 * $gutter;
+}
+
+/*
+   Color swatches
+   ========================================================================== */
+
+.color-tile {
+  @include span-columns(4);
+  @include omega(3n);
+  margin-bottom: $gutter;
+  padding: $gutter 0;
+  text-align: center;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  code {
+    @include font-size(16,no);
+    color: $text-color;
+    white-space: nowrap;
+    margin: 0 2px;
+    padding: 0 5px;
+    border: 1px solid $code-border-color;
+    background-color: $inline-code-background;
+    border-radius: $code-border-radius;
+    white-space: normal;
+  }
+}
+
+/*
+   Background colors
+   ========================================================================== */
+
+$color:
+(white-color, $white),
+(black-color, $black),
+(gray-color, $gray),
+(background-color, $background-color),
+(body-color, $body-color),
+(text-color, $text-color),
+(caption-color, $caption-color),
+(primary-color, $primary-color),
+(success-color, $success-color),
+(warning-color, $warning-color),
+(danger-color, $danger-color),
+(info-color, $info-color),
+(border-color, $border-color),
+(link-color, $link-color),
+(link-color-hover, $link-color-hover),
+(table-border-color, $table-border-color),
+(table-background, $table-background),
+(table-hover-color, $table-hover-color),
+(table-stripe-color, $table-stripe-color),
+(table-stripe-color-hover, $table-stripe-color-hover),
+(facebook-color, $facebook-color),
+(flickr-color, $flickr-color),
+(foursquare-color, $foursquare-color),
+(google-plus-color, $google-plus-color),
+(instagram-color, $instagram-color),
+(linkedin-color, $linkedin-color),
+(pinterest-color, $pinterest-color),
+(rss-color, $rss-color),
+(tumblr-color, $tumblr-color),
+(twitter-color, $twitter-color),
+(vimeo-color, $vimeo-color),
+(youtube-color, $youtube-color);
+
+@each $name, $bgcolor in $color {
+  .#{$name}-bg {
+    background-color: $bgcolor;
+  }
+}

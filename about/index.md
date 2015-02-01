@@ -42,7 +42,6 @@ Have more questions? If they're related to creating art on an iPad I've likely a
 
 <a href="https://twitter.com/intent/tweet?screen_name=mmistakes" class="twitter-mention-button" data-size="large" data-related="mmistakes">Tweet to @mmistakes</a>
 
-{% stylesheet form %}
 {% javascript vendor/wufoo %}
 
 Have something longer you want to ask me? Fill out the form below and I'll get back to you by email.

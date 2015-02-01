@@ -1,0 +1,27 @@
+---
+title: "PayPal Form"
+type: forms
+scss: _assets/stylesheets/_base.scss
+usage: "Order form using PayPal's API."
+---
+
+<fieldset>
+  <form action="#" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="#">
+    <input type="hidden" name="on0" value="Type of Drawing">
+    <label style="margin:10px 0;">Type of Drawing</label>
+    <select name="os0" style="width: 100%;">
+      <option value="One face - black and white">One face - black and white</option>
+      <option value="One face - color">One face - color</option>
+      <option value="Multiple faces - black and white">Multiple faces - black and white</option>
+      <option value="Multiple faces - color">Multiple faces - color</option>
+    </select>
+    <input type="hidden" name="on1" value="Portrait Reference URL">
+    <label style="margin:10px 0;">Portrait Reference URL</label>
+    <input type="text" name="os1" maxlength="200">
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="submit" value="Order Now" class="btn" name="submit" style="margin:10px 0;">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
+</fieldset>

@@ -21,7 +21,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
   <a href="{{ site.url }}/paperfaces/" class="btn">More Drawings <i class="fa fa-arrow-right"></i></a>
 </nav><!-- /.toc-left -->
 
-<div class="tiles tiles-right tile-spacer">
+<div class="tiles tiles-3-4 tile-spacer">
 {% for post in site.categories.paperfaces limit:12 %}
   <article class="tile tile-equal" itemscope itemtype="http://schema.org/Article">
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
@@ -30,7 +30,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
     </a>
   </article><!-- /.tile -->
   {% endfor %}
-</div><!-- /.tiles-right -->
+</div><!-- /.tiles-3-4 -->
 
 
 <nav class="toc toc-left">
@@ -43,11 +43,11 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
   <a href="{{ site.url }}/mastering-paper/" class="btn">More Tutorials <i class="fa fa-arrow-right"></i></a>
 </nav><!-- /.toc-left -->
 
-<div class="tiles tiles-right">
+<div class="tiles tiles-3-4">
 {% for post in site.categories.mastering-paper limit:8 %}
   {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles-right -->
+</div><!-- /.tiles-3-4 -->
 
 
 <nav class="toc toc-left">
@@ -60,8 +60,8 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
   <a href="{{ site.url }}/articles/" class="btn">More Articles <i class="fa fa-arrow-right"></i></a>
 </nav><!-- /.toc-left -->
 
-<div class="tiles tiles-right">
+<div class="tiles tiles-3-4">
 {% for post in site.categories.articles limit:4 %}
   {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles-right -->
+</div><!-- /.tiles-3-4 -->

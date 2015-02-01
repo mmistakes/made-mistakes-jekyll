@@ -60,6 +60,7 @@ owner:
   facebook: michaelrose
   instagram: mmistakes
   tumblr: mademistakes
+  github-repo: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/
   google:
     ad-client: ca-pub-7328585512091257
     ad-slot: 3049671934
@@ -84,3 +85,7 @@ collections:
     output: true
     permalink: /:collection/:path/
     title: FAQs
+  components:
+    output: false
+  colors:
+    output: false

@@ -1,0 +1,19 @@
+<article class="component">
+  <header class="component-header">
+    <h3>{{ entry.title }}</h3>
+      {% if entry.usage %}<p><strong>Usage:</strong> {{ entry.usage }}</p>{% endif %}
+      {% if entry.scss %}<p><strong>Sass file:</strong> <a href="{{ site.owner.github-repo }}{{ entry.scss }}">{{ entry.scss }}</a></p>{% endif %}
+  </header><!-- /.component-header -->
+  <div class="component-content">
+    <div class="component-rendered">
+      {{ entry.content }}
+    </div><!-- /.component-rendered -->
+    <div class="component-code">
+      
+      {% highlight html %}
+        {{ entry.content }}
+      {% endhighlight %}
+      
+    </div><!-- /.component-code -->
+  </div><!-- /.component-content -->
+</article><!-- /.component -->

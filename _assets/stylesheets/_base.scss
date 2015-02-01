@@ -58,21 +58,6 @@ h3 {
 h4, h5, h6 {
   @include font-size(16);
 }
-h4 {
-  @include media($small) {
-    @include font-size(26);
-  }
-}
-h5 {
-  @include media($small) {
-    @include font-size(24);
-  }
-}
-h6 {
-  @include media($small) {
-    @include font-size(20);
-  }
-}
 
 u,
 ins {
@@ -107,6 +92,7 @@ blockquote {
   }
   cite {
     font-weight: 700;
+    font-style: normal;
   }
 }
 
@@ -158,6 +144,7 @@ th {
   border-bottom: 1px solid mix($black, $border-color, 15%);
 }
 td {
+  background-color: $table-background;
   border-bottom: 1px solid $table-border-color;
   padding: (0px + $doc-line-height) / 2;
   padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
@@ -370,6 +357,28 @@ input[type="submit"] {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+}
+
+form {
+  ul, ol {
+    padding-left: 0;
+    list-style-type: none;
+  }
+}
+
+/* Required */
+
+.req {
+  color: $danger-color !important;
+  font-weight: bold;
+}
+
+/* instructions */
+
+.instruct {
+  font-family: $alt-font;
+  @include font-size(14,yes);
+  color: $caption-color;
 }
 
 /*

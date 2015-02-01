@@ -29,11 +29,9 @@ $gray                         : #635960;
 $background-color             : mix($white, $gray, 80%);
 $body-color                   : $white;
 
-$text-color                   : rgba($black, 0.8);
+$text-color                   : mix($black, $gray, 25%);
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                   : mix($black, $gray, 25%);
-$comp-color                   : complement($base-color);
 $primary-color                : mix($black, $gray, 35%);
 $success-color                : mix($gray, #2ecc71, 15%);
 $warning-color                : mix($gray, #f3bc15, 15%);
@@ -43,7 +41,7 @@ $info-color                   : mix($gray, #3498db, 15%);
 $border-color                 : mix($white, $gray, 80%);
 
 $link-color                   : $danger-color;
-$link-color-hover             : $danger-color;
+$link-color-hover             : mix($black, $danger-color, 20%);
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
@@ -52,6 +50,14 @@ $table-header-color           : $white;
 $table-hover-color            : mix($gray, $table-background, 10%);
 $table-stripe-color           : mix($gray, $table-background, 10%);
 $table-stripe-color-hover     : mix($gray, $table-background, 10%);
+
+$badge-background             : $primary-color;
+$badge-dark-color             : $black;
+$badge-danger-color           : $danger-color;
+$badge-info-color             : $info-color;
+$badge-warning-color          : $warning-color;
+$badge-success-color          : $success-color;
+$badge-font-color             : $white;
 
 $facebook-color               : #3b5998;
 $flickr-color                 : #ff0084;
@@ -95,8 +101,8 @@ $inline-code-background       : mix($white, $border-color, 75%);
    Sliding menu variables
    ========================================================================== */
 
-$sliding-menu-border-color    : $black;
-$sliding-menu-background      : $black;
+$sliding-menu-border-color    : mix($black, $gray, 70%);
+$sliding-menu-background      : mix($black, $gray, 70%);
 $sliding-menu-color           : $white;
 $sliding-menu-background-hover: $black;
 $sliding-menu-color-hover     : $white;
@@ -117,6 +123,6 @@ $masthead-height: $button-size * 2;
    Visual sitemap
    ========================================================================== */
 
-$sitemap-primary-color        : mix($white, $base-color, 60%);
-$sitemap-sub-color            : mix($white, $base-color, 80%);
-$sitemap-sub-sub-color        : mix($white, $base-color, 90%);
+$sitemap-primary-color        : mix($white, $primary-color, 60%);
+$sitemap-sub-color            : mix($white, $primary-color, 80%);
+$sitemap-sub-sub-color        : mix($white, $primary-color, 90%);
