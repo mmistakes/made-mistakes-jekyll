@@ -28,6 +28,12 @@
   }
 }
 
+/* button in table of contents */
+
+.toc .btn {
+  margin-bottom: $gutter;
+}
+
 /*
    Inverse button (for use on dark backgrounds)
    ========================================================================== */
