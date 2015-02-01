@@ -3,7 +3,7 @@ layout: style_guide
 title: "Style Guide"
 date: 2015-01-28T12:05:57-05:00
 modified:
-excerpt:
+excerpt: "A handy collection of all the colors, typography, UI patterns, and components used on Made Mistakes."
 image:
   feature:
   teaser:
@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-A handy collection of all the colors, typography, and components used on Made Mistakes.
+A handy collection of all the colors, typography, UI patterns, and components used on Made Mistakes.
 
 {% assign entries = site.colors %}
 {% assign componentsByType = site.components | group_by:"type" %}
