@@ -1,4 +1,4 @@
-# Skinny Bones Gemfile
+# Made Mistakes Gemfile
 source "https://rubygems.org"
 
 gem "jekyll"
@@ -12,3 +12,4 @@ gem "uglifier"
 gem "font-awesome-sass", "~> 4.2.0"
 gem "autoprefixer-rails"
 gem "jekyll-archives"
+gem "rouge"
