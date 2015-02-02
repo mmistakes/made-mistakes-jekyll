@@ -97,6 +97,8 @@
 
 .page-title {
   @include fill-parent;
+  @extend .animated;
+  @extend .fadeInUp;
   h1 { /* Default page title */
     margin-top: 0;
     margin-bottom: 0;

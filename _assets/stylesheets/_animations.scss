@@ -2,40 +2,44 @@
    ANIMATIONS
    ========================================================================== */
 
-/* 
-   Wiggle animation
-   ========================================================================== */
-
-@keyframes wiggle {
-  25%, 50%, 75%, 100% { transform-origin: top center; }
-  25% { transform: rotate(8deg); }
-  50% { transform: rotate(-4deg); }
-  75% { transform: rotate(2deg); }
-  100% { transform: rotate(0deg); }
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
 }
 
 /* 
-   Pop animation
+   Fade in up animation
    ========================================================================== */
 
-@keyframes pop {
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
 
 /* 
-   Hang animation
+   Drop animation
    ========================================================================== */
 
-@keyframes hang {
-  50% { transform: translateY(-3px); }
-  100% { transform: translateY(-6px); }
+@keyframes drop {
+  0% {
+    transform: translateY(-500px);
+  } 
+  100% {
+    transform: translateY(0);
+  }
 }
-.hang {
-  display: inline-block;
-  animation-name: hang;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+
+.drop {
+  animation-name: drop;
 }
