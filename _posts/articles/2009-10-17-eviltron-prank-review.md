@@ -15,7 +15,4 @@ The fact that we just saw a movie about strange noises and ghosts, made hiding t
 
 Trick or treat!!!
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/8LOrtVef9mE" frameborder="0"> </iframe>
-
-<meta itemprop="itemreviewed" content="Eviltron" />
-<meta itemprop="rating" content="5" /> 
+<iframe width="560" height="315" src="//www.youtube.com/embed/8LOrtVef9mE" frameborder="0"> </iframe>
