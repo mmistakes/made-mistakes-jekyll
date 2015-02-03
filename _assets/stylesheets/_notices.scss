@@ -13,33 +13,37 @@
 @mixin notice($notice-color) {
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
+  background-color: mix($white, $notice-color, 80%);
   @include media($medium) {
     margin-left: 0;
     margin-right: 0;
+    border-radius: $border-radius;
   }
-  background-color: mix($white, $notice-color, 80%);
-  border-radius: $border-radius;
   h4 {
     padding: (0.5 * $gutter) $gutter;
     background-color: $notice-color;
     color: $white;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
+    @include media($medium) {
+      border-top-left-radius: $border-radius;
+      border-top-right-radius: $border-radius;
+    }
     /* Insert Font Awesome icons before notice header */
     &:before {
       margin-right: 4px;
       font-family: "FontAwesome";
       display: inline-block;
       text-decoration: inherit;
+      text-rendering: auto;
       -webkit-font-smoothing: antialiased;
-      content: "\f005";
+      -moz-osx-font-smoothing: grayscale;
+      transform: translate(0, 0);
     }
   }
   @at-root .page-content #{&} h4 {
-    @include font-size(18, 0); /* using root to override .page-content h4 font size */
+    @include font-size(16, no); /* using root to override .page-content h4 font size */
   }
   p {
-    margin-bottom: 0;
+    @include font-size(14, no);
     padding: $gutter;
     &:last-child {
       padding-bottom: $gutter;
@@ -87,6 +91,9 @@
     color: mix($black, $info-color, 50%);
     border-bottom-color: mix($black, $info-color, 50%);
   }
+  h4:before {
+    content: "\f05a";
+  }
 }
 
 /* Warning notice */
@@ -99,7 +106,7 @@
     border-bottom-color: mix($black, $warning-color, 50%);
   }
   h4:before {
-    content: "\f06a";
+    content: "\f071";
   }
 }
 
