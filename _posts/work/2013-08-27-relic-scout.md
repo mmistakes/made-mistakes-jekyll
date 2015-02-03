@@ -1,12 +1,13 @@
 ---
 layout: media
 title: "Relic Scout"
-excerpt: "Site design and creative for Relic Scout. An app to make collecting simpler, while saving you money."
+excerpt: "Site design and creative for Relic Scout — an app to make collecting simpler, while saving you money."
 image: 
   feature: relic-scout-home-feature.gif
   teaser: relic-scout-teaser.png
   thumb: relic-scout-avatar.png
 category: work
+modified: 2015-02-03T10:39:48-05:00
 external:
   url: http://relicscout.com
 tags: [design, 8bit, website, collectibles]
@@ -20,10 +21,10 @@ I had a lot of fun creating the 8bit pixel art and applying a parallax effect to
 
 <figure>
 	<a href="http://relicscout.com"><img src="{{ site.url }}/images/relic-scout-browser-750.jpg" alt="Relic Scout homepage screenshot"></a>
-	<figcaption>Relic Scout homepage</figcaption>
+	<figcaption>Relic Scout teaser homepage</figcaption>
 </figure>
 
-To learn more about becoming a beta tester, launch details and the latest news, [sign up for our newsletter](http://relicscout.com). You can also follow Relic Scount on [Twitter](http://twitter.com/relicscout), [Facebook](http://facebook.com/relicscout), and [Google+](https://plus.google.com/107525823728844423825).
-{:.notice}
- 
-*PS: I hid some fun things in the site design, let me know if you find them. :-)*
+<div class="notice" markdown="1">
+#### Update: Version 1.0 has launched
+Find great deals on the collectibles you want. [Sign-up for free now!](http://relicscout.com)
+</div>
