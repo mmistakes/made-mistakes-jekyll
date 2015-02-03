@@ -9,7 +9,7 @@
 .btn {
   display: inline-block;
   padding: 8px 20px;
-  @include font-size(14, no);
+  @include font-size(14, 4);
   font-family: $alt-font;
   font-weight: 700;
   background-color: $primary-color;
