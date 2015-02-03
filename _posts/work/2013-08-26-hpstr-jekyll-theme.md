@@ -33,9 +33,9 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 </figure>
 
 <div markdown="0">
-  <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn-info">Download</a>
+  <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
+  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
-  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup Guide</a>
 </div>
 
 ## What's Different with this Jekyll Theme?
