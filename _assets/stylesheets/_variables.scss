@@ -36,12 +36,12 @@ $primary-color                : mix($black, $gray, 35%);
 $success-color                : mix($gray, #2ecc71, 15%);
 $warning-color                : mix($gray, #f3bc15, 15%);
 $danger-color                 : mix($gray, #dc081d, 15%);
-$info-color                   : mix($gray, #3498db, 15%);
+$info-color                   : mix($gray, #427ab8, 15%);
 
 $border-color                 : mix($white, $gray, 80%);
 
-$link-color                   : $danger-color;
-$link-color-hover             : mix($black, $danger-color, 20%);
+$link-color                   : $info-color;
+$link-color-hover             : mix($black, $info-color, 20%);
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
