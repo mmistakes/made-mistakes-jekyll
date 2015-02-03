@@ -24,7 +24,7 @@ I had a lot of fun creating the 8bit pixel art and applying a parallax effect to
 	<figcaption>Relic Scout teaser homepage</figcaption>
 </figure>
 
-<div class="notice" markdown="1">
+<div class="notice-info" markdown="1">
 #### Update: Version 1.0 has launched
 Find great deals on the collectibles you want. [Sign-up for free now!](http://relicscout.com)
 </div>
