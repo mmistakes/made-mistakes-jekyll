@@ -273,8 +273,11 @@ fieldset {
   border: 1px solid $form-border-color;
   margin-bottom: 0px + $doc-line-height;
   margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
-  padding: $gutter;
+  padding: 0.5 * $gutter;
   border-radius: $form-border-radius;
+  @include media($medium) {
+    padding: $gutter;
+  }
 }
 
 input,
