@@ -26,6 +26,15 @@
       text-decoration: none;
     }
   }
+  .to-top {
+    clear: both;
+    @include font-size(14, no);
+    color: $caption-color;
+    a {
+      color: $caption-color;
+      text-decoration: none;
+    }
+  }
 }
 
 /* Footer menu links */
