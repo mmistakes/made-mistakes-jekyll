@@ -44,7 +44,7 @@
   }
   p {
     @include font-size(14, no);
-    padding: $gutter;
+    padding: 0 $gutter;
     &:last-child {
       padding-bottom: $gutter;
     }
