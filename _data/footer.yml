@@ -1,8 +1,5 @@
 # Footer navigation links
 
-- title: Home
-  url: /
-
 - title: About
   url: /about/
 
@@ -23,3 +20,4 @@
 
 - title: Sitemap
   url: /sitemap/
+  icon: fa-sitemap
