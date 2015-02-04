@@ -6,6 +6,8 @@ modified: 2015-01-31
 excerpt: "A visual sitemap of mademistakes.com"
 ---
 
+For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is available for digesting.
+
 <div class="sitemap">
   <ul id="primaryNav" class="col6">
     <li id="home"><a href="{{ site.url }}/">Home</a></li>

@@ -21,9 +21,9 @@
     a {
       text-decoration: none;
     }
-  }
-  p + p {
-    margin-bottom: $gutter;
+    &.header-entry-last {
+      margin-bottom: $gutter;
+    }
   }
 }
 
@@ -31,11 +31,27 @@
   @include outer-container;
 }
 
-.component-rendered {}
+.component-rendered { }
 
 .component-code {
   clear: both;
+  position: relative;
   margin-top: 0.5 * $gutter;
+  padding-top: 30px;
+  &:before {
+    content: "HTML";
+    position: absolute;
+    top: 0;
+    left: -1.618rem; /* magic number - gutter width in rems */
+    padding: 0 1em 0 1.618rem; /* magic number - gutter width in rems */
+    background: $border-color;
+    font-family: $alt-font;
+    @include font-size(12, no, 20);
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top-right-radius: 2 * $border-radius;
+    border-bottom-right-radius: 2 * $border-radius;
+  }
 }
 
 /*

@@ -2,7 +2,7 @@
   <header class="component-header">
     <h3>{{ entry.title }}</h3>
       {% if entry.usage %}<p><strong>Usage:</strong> {{ entry.usage }}</p>{% endif %}
-      {% if entry.scss %}<p><strong>Sass file:</strong> <a href="{{ site.owner.github-repo }}{{ entry.scss }}">{{ entry.scss }}</a></p>{% endif %}
+      {% if entry.scss %}<p class="header-entry-last"><strong>SCSS file:</strong> <a href="{{ site.owner.github-repo }}{{ entry.scss }}">{{ entry.scss }}</a></p>{% endif %}
   </header><!-- /.component-header -->
   <div class="component-content">
     <div class="component-rendered">

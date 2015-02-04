@@ -121,6 +121,7 @@
 /* Shorten measure of text for full width layouts */
 
 .shorten {
+  @include clearfix;
   margin-top: 0;
   @include media($medium) {
     @include row;
@@ -148,6 +149,10 @@
     clear: none;
   }
 }
+
+/* clearfix */
+
+.cf { clear: both; }
 
 /*
    Images
