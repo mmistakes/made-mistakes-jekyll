@@ -29,7 +29,7 @@ Where applicable links to a component's Sass partial[^sass] and/or `_include` ar
     {% for type in componentsByType %}
     <option value="#guide-{{ type.name }}">{{ type.name | capitalize }}</option>
     {% for entry in type.items %}
-    <option value="#guide-{{ entry.title | slugify }}">- {{ entry.title }}</option>
+    <option value="#guide-{{ entry.title | slugify }}">&nbsp;&nbsp;&nbsp;{{ entry.title }}</option>
     {% endfor %}
     {% endfor %}
   </select>
