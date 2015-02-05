@@ -2,7 +2,7 @@
 layout: style_guide
 title: "Style Guide"
 date: 2015-01-28T12:05:57-05:00
-modified: 2015-02-04T15:54:12-05:00
+modified: 2015-02-05T10:32:14-05:00
 excerpt: "A handy collection of all the colors, typography, UI patterns, and components used on Made Mistakes."
 image:
   feature:
@@ -11,7 +11,7 @@ image:
 ads: false
 ---
 
-This is the style guide for Made Mistakes --- a living document of code detailing all the various colors, typographic elements, UI patterns, and components used on the website.
+This is the style guide for Made Mistakes --- a living document of code detailing all the various colors, typographic elements, UI patterns, and components used on the website to maintain visual consistency.
 {: .shorten}
 
 Where applicable links to a component's Sass partial[^sass] and/or `_include` are provided along with short descriptions of typical usage.
@@ -22,16 +22,20 @@ Where applicable links to a component's Sass partial[^sass] and/or `_include` ar
 {% assign entries = site.colors %}
 {% assign componentsByType = site.components | group_by:"type" %}
 
-<!-- <nav class="toc cf">
-  <ul id="markdown-toc">
-    <li><a href="#guide-color-palettes">Color Palettes</a></li>
+<nav id="component-selector" class="wrap">
+  <select name="section" id="component-select">
+    <option value>Jump to component...</option>
+    <option value="#guide-color-palettes">Colors</option>
     {% for type in componentsByType %}
-      <li><a href="#guide-{{ type.name }}">{{ type.name | capitalize }}</a></li>
+    <option value="#guide-{{ type.name }}">{{ type.name | capitalize }}</option>
+    {% for entry in type.items %}
+    <option value="#guide-{{ entry.title | slugify }}">- {{ entry.title }}</option>
     {% endfor %}
-  </ul>
-</nav> -->
+    {% endfor %}
+  </select>
+</nav>
 
-<h2 id="guide-color-palettes" class="cf">Color Palettes</h2>
+<h2 id="guide-color-palettes" class="cf">Colors</h2>
 {% for entry in entries %}
   {% include component-color.html %}
 {% endfor %}
@@ -41,3 +45,17 @@ Where applicable links to a component's Sass partial[^sass] and/or `_include` ar
 {% include component.html %}
 {% endfor %}
 {% endfor %}
+
+<!-- pattern selector option list -->
+<script>    
+  (function (document, undefined) {
+    // Pattern selector
+    document.getElementById('component-select').onchange = function() {
+      //document.location=this.options[this.selectedIndex].value;
+      var val = this.value;
+      if (val !== "") {
+        window.location = val;
+      }
+    }
+  })(document);
+</script>

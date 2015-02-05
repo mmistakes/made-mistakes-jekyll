@@ -122,3 +122,31 @@ $color:
     background-color: $bgcolor;
   }
 }
+
+/* 
+   Component selector
+   ========================================================================== */
+
+#component-selector {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.5 * $gutter;
+  width: 100%;
+  z-index: 1;
+  background: $primary-color;
+  @include media($medium) {
+    left: auto;
+    width: auto;
+  }
+}
+
+#component-select {
+  margin: 0;
+  width: 100%;
+  @include media($medium) {
+    width: auto;
+  }
+  font-family: $alt-font;
+}
