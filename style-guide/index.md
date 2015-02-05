@@ -46,10 +46,10 @@ Where applicable links to a component's Sass partial[^sass] and/or `_include` ar
 {% endfor %}
 {% endfor %}
 
-<!-- pattern selector option list -->
+<!-- component selector option list -->
 <script>    
   (function (document, undefined) {
-    // Pattern selector
+    // component selector
     document.getElementById('component-select').onchange = function() {
       //document.location=this.options[this.selectedIndex].value;
       var val = this.value;
