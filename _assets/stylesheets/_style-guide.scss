@@ -4,10 +4,12 @@
 
 .component {
   margin-bottom: $gutter;
-  padding: $gutter;
   background-color: $white;
-  border-radius: $border-radius;
-  border: 1px solid $border-color;
+  @include media($small) {
+    padding: $gutter;
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+  }
 }
 
 .component-header {
@@ -123,7 +125,7 @@ $color:
   }
 }
 
-/* 
+/*
    Component selector
    ========================================================================== */
 
