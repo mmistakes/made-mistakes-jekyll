@@ -6,10 +6,10 @@
 $(document).ready(function(){
 	// Menu button click
 	$('#js-menu-trigger,#js-menu-screen').on('click touchstart', function(e){
-		$('#js-body').toggleClass('no-scroll');
+		// $('#js-body').toggleClass('no-scroll');
 		$('#js-menu, #js-menu-screen').toggleClass('is-visible');
 		$('#js-menu-trigger').toggleClass('slide close');
-		$('#masthead, #page-wrapper').toggleClass('slide');
+		// $('#masthead, #page-wrapper').toggleClass('slide');
 		e.preventDefault();
 	});
 });
@@ -25,7 +25,7 @@ $(document).ready(function() {
 		disableOn: function() {
 			if( $(window).width() < 500 ) {
 				return false;
-			} 
+			}
 			return true;
 		},
 		type: 'image',
@@ -39,15 +39,15 @@ $(document).ready(function() {
 			tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
 		},
 		removalDelay: 300, // Delay in milliseconds before popup is removed
-		// Class that is added to body when popup is open. 
+		// Class that is added to body when popup is open.
 		// make it unique to apply your CSS animations just to this exact popup
 		mainClass: 'mfp-fade'
 	});
 });
 
 
-// Lazy Load  
-$("img.load").show().lazyload({ 
+// Lazy Load
+$("img.load").show().lazyload({
 		effect: "fadeIn",
 		skip_invisible: false
 });
