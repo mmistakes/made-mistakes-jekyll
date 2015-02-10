@@ -9,7 +9,7 @@
 body {
   font-family: $base-font;
   color: $text-color;
-  background-color: $background-color;
+  background-color: $white;
   @include font-size(16);
 }
 

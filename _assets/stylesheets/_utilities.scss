@@ -11,14 +11,14 @@
 .wrap {
   @include outer-container;
   padding: $gutter;
-  box-shadow: 0 0 5px mix($black, $background-color, 20%);
+  // box-shadow: 0 0 5px mix($black, $background-color, 20%);
   @include media($medium) {
-    padding: (2 * $gutter) (2 * $gutter);
+    padding: (2 * $gutter);
   }
   @include media($large) {
     padding: (1.25 * $gutter) (2.5 * $gutter);
   }
-  background-color: $body-color;
+  // background-color: $body-color;
   + .wrap {
     margin-top: $gutter;
   }
@@ -122,7 +122,6 @@
 
 .shorten {
   @include clearfix;
-  margin-top: 0;
   @include media($medium) {
     @include row;
     @include span-columns(10);
