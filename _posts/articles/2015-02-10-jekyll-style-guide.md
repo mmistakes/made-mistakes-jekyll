@@ -1,24 +1,26 @@
 ---
 layout: article
 title: "Building a Style Guide with Jekyll"
-date: 2015-02-09T15:51:08-05:00
+date: 2015-02-10
 modified:
 categories: articles
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 tags: [jekyll, style guide, open source, web development, github]
 image:
-  feature:
-  teaser:
-  thumb:
+  feature: jekyll-style-guide-feature.jpg
+  teaser: jekyll-style-guide-teaser.jpg
+comments: true
 ---
 
-Building a living document that detailed all of the colors, typographic elements, UI patterns, and components I used on Made Mistakes has been on my task list for some time.
+Building a living style guide that details all of the colors, typographic elements, UI patterns, and components used on Made Mistakes has been at the top of my to-do list for some time.
 
-As sole designer, developer, and writer for Made Mistakes, I decided to focus on the pattern library portion of the style guide first. I'm constantly iterating on the design of the site and have found that some of my patterns don't always appear to be "speaking the same language." Having them all in one location where I can quickly inspect for visual inconsistencies would be very helpful.
+{% include toc.html %}
+
+As sole designer, developer, and writer for the site, having one probably isn't all that crucial. Yet when iterating on the site's design I've found that some of my patterns don't always "speak the same visual language." Having a document I can refer back to and quickly spot check for visual inconsistencies could be very helpful.
 
 ## Keep it Simple
 
-With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have matured in the open source community. Because I'm [using Jekyll to publish the site]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if it meant giving up the ease of setup these other tools provide by having to build out something myself instead.
+With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have also matured in the open source community. Because I'm [using Jekyll to publish the site]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if that meant giving up the ease of setup these other tools provide by having to build out something myself.
 
 Finding a way to do it all from within Jekyll was an important consideration since I wanted to "set it and forget it" as much as possible. Maintaining stylesheets and `includes` in two separate projects was a thought I didn't really want to entertain...
 
@@ -29,7 +31,7 @@ So with that I bumped around GitHub and Google to see what sort of solutions exi
 * [Pattern Lab Jekyll Port](https://github.com/zakkain/patternlab-jekyll)
 * [Pattern Primer Jekyll](https://github.com/opattison/Pattern-Primer-Jekyll)
 
-Out of the bunch, [Jérôme Coupé's](http://www.webstoemp.com/) approach resonated with me the most since it meshed with my current Jekyll site setup. By leveraging **collections**[^collections] I could avoid littering my `_posts` folder with components, color palettes, and other snippets while being able to iterate over them and output individual pages if need be.
+Out of the bunch, [Jérôme Coupé's](http://www.webstoemp.com/) approach resonated with me the most since it meshed well with my current Jekyll site setup. By leveraging **collections**[^collections] I could avoid littering my `_posts` folder with components, color palettes, and other snippets while being able to iterate over them and output individual pages if needed.
 
 [^collections]: A feature added to Jekyll in [version 2.0.0](http://jekyllrb.com/docs/history/#v2-0-0) allowing you to define new types of documents that behave like [Pages](http://jekyllrb.com/docs/pages/) or [Posts](http://jekyllrb.com/docs/posts/), while also having their own unique properties and name-spaces.
 
@@ -60,7 +62,7 @@ collections:
     output: false
 {% endhighlight %}
 
-I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section]({{ site.owner.github-repo }}_faqs/)) I would simply change `output: false` to `true` and add `permalink: /style-guide/:collection/:path/` to customize their URLs to something like `<dest>/style-guide/components/some_doc/index.html`.
+I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section]({{ site.owner.github-repo }}_faqs/)) I would simply change `output: false` to `true` and add `permalink: /style-guide/:collection/:path/` to customize their URLs to something like `mademistakes.com/style-guide/components/some_doc/index.html`.
 
 <div class="notice" markdown="1">
 #### Looking to the future
@@ -71,7 +73,7 @@ I've seen [some examples](https://github.com/zakkain/patternlab-jekyll "Pattern 
 
 ### Display Components and Color Palettes
 
-With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with a page title and a `{% raw %}{{ content }}{% endraw %}` block.
+With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with just a page title and `{% raw %}{{ content }}{% endraw %}` block.
 
 {% highlight html %}
 {% raw %}
@@ -114,7 +116,7 @@ Or you could hack the order sequence by doing something like this with your file
 
 #### Collection loops
 
-After creating a handful of components, I started to refine the [Liquid](https://github.com/Shopify/liquid/wiki) needed to display them on the page. Just to make sure things were shaping up how I envisioned them.
+After creating a handful of components, I started to refine the [Liquid](https://github.com/Shopify/liquid/wiki) needed to display them. Mostly to make sure things were shaping up how I envisioned them before getting too deep into things.
 
 <figure>
   <img src="{{ site.url }}/images/jekyll-style-guide-components.png" alt="Sublime Text _components screenshot">
@@ -149,7 +151,7 @@ What's going on here is I'm iterating over the `components` collection, grouping
 I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
 </div>
 
-Sandwiched between the `entry` loop is an include that takes care of spitting out the rendered and syntax highlighted HTML along with an optional short description and links to Sass and include sources.
+Sandwiched between the `entry` loop is an include that takes care of spitting out the rendered and syntax highlighted HTML along with an optional short description and links to Sass and `include` sources.
 
 {% highlight html %}
 {% raw %}
@@ -178,7 +180,7 @@ Sandwiched between the `entry` loop is an include that takes care of spitting ou
 
 #### Component selector navigation
 
-To help expose components that may be buried towards the bottom of the page I came up with this snippet to create an option list.
+To help expose components that may be buried towards the bottom of the page I came up with this to create an option list nav.
 
 {% highlight html %}
 {% raw %}
@@ -216,11 +218,11 @@ To help expose components that may be buried towards the bottom of the page I ca
   <figcaption>Style guide component selector.</figcaption>
 </figure>
 
-With the help of some CSS and JavaScript I was able to position a drop down list in the lower right corner of the page to quickly jump around. If and when I get to going full atomic design on the style guide, I may have to rethink this sort of navigation by giving it more precedence in the layout. But for now it does the trick...
+With the help of some CSS and JavaScript I was able to position a drop down list in the lower right corner as a way of quickly jumping around the page. If and when I get to going full atomic design on the style guide, I may have to rethink this sort of navigation by giving it more precedence in the layout. But for now it does the trick...
 
 #### Stylesheet tweaks
 
-For the most part all of my components displayed correctly on the page. One of the benefits of building the style guide was that it quickly pointed out components that weren't as modular as I initial thought. Meaning I built some that were bound to specific class names that when placed in a different context lost all of their styling.
+For the most part all of my components displayed correctly on the page. One of the benefits of building the style guide was that it quickly pointed out components that weren't as modular as I initial thought. Meaning some were bound to specific class names that when placed in different contexts lost all of their styling.
 
 There were also a few cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
 
@@ -231,7 +233,7 @@ There were also a few cases where I needed to add styles specific for the style 
 
 My goal here was to avoid hard coding color values into each document, and instead leverage the color variables already set in `/_assets/stylesheets/_variables.scss` to keep things [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
-To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/master/doc-src/SASS_CHANGELOG.md#sassscript-maps) of all the color variables used on the site along with some additional CSS to build the swatch tiles. 
+To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/master/doc-src/SASS_CHANGELOG.md#sassscript-maps) of all the color variables found on the site along with some additional CSS to build the swatch tiles. 
 
 {% highlight scss %}
 /*
@@ -308,11 +310,13 @@ $color:
 
 ## Maintaining the Style Guide
 
-Updating and adding components to the [style guide]({{ site.url }}/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately for those components that undergo markup changes, I'll have repeat myself and touch two files... something that shouldn't happen too frequently.
+Updating and adding components to the [style guide]({{ site.url }}/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
 
 <div markdown="0">
   <a href="{{ site.url }}/style-guide/" class="btn-info"><i class="fa fa-eye"></i> View Made Mistakes' Style Guide</a>
   <a href="https://github.com/mmistakes/made-mistakes-jekyll/archive/master.zip" class="btn"><i class="fa fa-download"></i> Download</a>
 </div>
 
-As always [my code is available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll/) for download and forking. The Style Guide is integrated with the rest of Made Mistakes so you may have to rip out some stuff if you end up using it. Let me know if this has been useful. If I get enough feedback I'll consider breaking it out into its own repo for easier forking.
+As always [my code is available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll/) for download and forking. The Style Guide is integrated with the rest of Made Mistakes so you may have to rip out some stuff if you end up using it. 
+
+Be sure and let me know if this has been useful. If I get enough feedback I'll consider breaking it out into its own repo for easier forking.
