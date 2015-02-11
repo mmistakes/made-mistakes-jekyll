@@ -10,20 +10,20 @@ body {
   font-family: $base-font;
   color: $text-color;
   background-color: $white;
-  @include font-size(16);
+  @include font-size(16,no);
 }
 
 p {
-  @include font-size(16,yes,24);
+  @include font-size(16,yes,22);
   @include media($small) {
-    @include font-size(18,yes,28);
+    @include font-size(20,yes,28);
   }
 }
 
 li {
-  @include font-size(16,8,24);
+  @include font-size(16,8,22);
   @include media($small) {
-    @include font-size(18,9,28);
+    @include font-size(20,9,28);
   }
 }
 
@@ -88,7 +88,7 @@ blockquote {
   padding-right: $gutter;
   font-style: italic;
   p {
-    @include font-size(16);
+    @include font-size(18);
   }
   cite {
     font-weight: 700;

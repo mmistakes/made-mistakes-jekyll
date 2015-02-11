@@ -40,10 +40,10 @@
     }
   }
   @at-root .page-content #{&} h4 {
-    @include font-size(16, no); /* using root to override .page-content h4 font size */
+    @include font-size(18, no); /* using root to override .page-content h4 font size */
   }
   p {
-    @include font-size(14, no);
+    @include font-size(16, no);
     padding: 0 $gutter;
     &:last-child {
       padding-bottom: $gutter;
