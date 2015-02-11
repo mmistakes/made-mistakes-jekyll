@@ -20,7 +20,7 @@ layout: default
       {% include breadcrumbs.html %}
       <div id="content" class="page-content" itemprop="articleBody">
         {{ content }}
-        <hr />
+        {% if page.share != false %}{% include share-this.html %}{% endif %}
         <footer class="page-footer">
           {% if page.categories %}{% include page-author.html %}{% endif %}
           {% include page-meta-footer.html %}

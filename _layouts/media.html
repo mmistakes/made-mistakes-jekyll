@@ -23,7 +23,7 @@ layout: default
           <div><a href="{{ page.external.url }}" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
         {% endif %}
         {{ content }}
-        <hr />
+        {% if page.share != false %}{% include share-this.html %}{% endif %}
         <footer class="page-footer">
           {% include page-meta-footer.html %}
         </footer><!-- /.footer -->

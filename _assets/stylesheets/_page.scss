@@ -285,8 +285,12 @@ h6:hover .header-link {
 /* Author details */
 
 .author-image {
-  position: absolute;
-  left: 0;
+  display: none;
+  @include media($small) {
+    display: block;
+    position: absolute;
+    left: 0;
+  }
   img {
     width: 80px;
     height: 80px;
@@ -295,9 +299,11 @@ h6:hover .header-link {
 }
 
 .author-content {
-  word-wrap: break-word;
-  padding-left: 100px; /* avatar width + 20px padding */
-  min-height: 80px; /* match avatar height */
+  @include media($small) {
+    word-wrap: break-word;
+    padding-left: 100px; /* avatar width + 20px padding */
+    min-height: 80px; /* match avatar height */
+  }
 }
 
 h3.author-name {
@@ -312,6 +318,18 @@ h3.author-name {
 .author-follow {
   margin-top: 0;
   @include font-size(16);
+}
+
+/*
+   Share this
+   ========================================================================== */
+
+.share-this {
+  padding: (2 * $gutter) 0;
+  border-bottom: 2px solid $border-color;
+  @include media($large) {
+    padding: (1.25 * $gutter) 0;
+  }
 }
 
 /*

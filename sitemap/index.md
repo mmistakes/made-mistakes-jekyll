@@ -4,6 +4,7 @@ title: "Sitemap"
 date: 2014-12-26
 modified: 2015-01-31
 excerpt: "A visual sitemap of mademistakes.com"
+share: false
 ---
 
 For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is available for digesting.

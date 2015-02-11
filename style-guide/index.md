@@ -9,6 +9,7 @@ image:
   teaser:
   thumb:
 ads: false
+share: false
 ---
 
 This is the style guide for Made Mistakes --- a living document of code detailing all the various colors, typographic elements, UI patterns, and components used on the website to maintain visual consistency.

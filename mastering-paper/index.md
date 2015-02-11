@@ -3,6 +3,7 @@ layout: archive
 title: "Mastering Paper by FiftyThree"
 excerpt: "Tutorials and techniques to help learn Paper."
 modified: 2015-01-03
+share: false
 image: 
   feature: mastering-paper-feature.jpg
   thumb: paper-by-fiftythree-icon175x175.png

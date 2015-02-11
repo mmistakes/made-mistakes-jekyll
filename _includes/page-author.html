@@ -2,7 +2,7 @@
 	<img src="/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}">
 </div><!-- ./author-image -->
 <div class="author-content">
-	<h3 class="author-name" >Written by <span itemprop="author">{{ site.owner.name }}</span></h3>
-	<p class="author-bio">{{ site.owner.bio }}</p>
-  {% if site.owner.twitter %}<p class="author-follow"><a href="https://twitter.com/{{ site.owner.twitter }}" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @{{ site.owner.twitter }}</a></p>{% endif %}
+	<h3 class="author-name" ><span itemprop="author">{{ site.owner.name }}</span></h3>
+	<p class="author-bio">{{ site.owner.bio }} <a href="{{ site.url }}/about/">More about me</a>.</p>
+  {% if site.owner.twitter %}<p class="author-follow"><a href="https://twitter.com/{{ site.owner.twitter }}" class="twitter-follow-button" data-show-count="true" data-size="large"data-dnt="true">Follow @{{ site.owner.twitter }}</a></p>{% endif %}
 </div><!-- ./author-content -->

@@ -7,7 +7,6 @@ excerpt: "Michael Rose is just another boring, tattooed, time traveling designer
 image:
   feature: about-feature.jpg
   teaser: about-teaser.jpg
-  thumb: about-thumb.jpg
 ads: false
 share: false
 sidebar: sidebar-about

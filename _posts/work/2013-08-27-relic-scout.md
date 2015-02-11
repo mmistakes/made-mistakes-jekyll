@@ -12,7 +12,7 @@ external:
   url: http://relicscout.com
 tags: [design, 8bit, website, collectibles]
 ads: false
-homepage: true
+share: false
 ---
 
 Eko Wave, a company started by [two](http://twitter.com/endonend) [pals](http://twitter.com/bjpmba) and myself, just took the wraps off our first app --- [**Relic Scout**](http://relicscout.com). Last week we launched a teaser site and couldn't be prouder of the work that we've done so far.
