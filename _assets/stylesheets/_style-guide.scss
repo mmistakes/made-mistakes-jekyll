@@ -131,6 +131,7 @@ $color:
 
 #component-selector {
   position: fixed;
+  backface-visibility: hidden; /* fix scroll jank */
   left: 0;
   right: 0;
   bottom: 0;
