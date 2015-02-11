@@ -275,21 +275,24 @@ h6:hover .header-link {
 }
 
 /*
-   Page footer (author details, social share links, etc)
+   Author profile
    ========================================================================== */
 
-.page-footer {
+.author-wrapper {
+  display: inline-block;
   position: relative;
+  padding: 20px;
+  border: 8px solid $border-color;
+  border-radius: $border-radius;
 }
-
-/* Author details */
 
 .author-image {
   display: none;
   @include media($small) {
     display: block;
     position: absolute;
-    left: 0;
+    top: 20px;
+    left: 20px;
   }
   img {
     width: 80px;
@@ -307,6 +310,7 @@ h6:hover .header-link {
 }
 
 h3.author-name {
+  margin-top: 0;
   @include font-size(20,no);
 }
 
@@ -317,7 +321,7 @@ h3.author-name {
 
 .author-follow {
   margin-top: 0;
-  @include font-size(16);
+  @include font-size(16,no);
 }
 
 /*
@@ -326,7 +330,6 @@ h3.author-name {
 
 .share-this {
   padding: (2 * $gutter) 0;
-  border-bottom: 2px solid $border-color;
   @include media($large) {
     padding: (1.25 * $gutter) 0;
   }
