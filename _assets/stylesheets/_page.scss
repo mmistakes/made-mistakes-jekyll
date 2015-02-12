@@ -105,7 +105,7 @@
   h1 { /* Default page title */
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: Georgia, serif;
     font-weight: 400;
     @include font-size(24,no,24);
     @include media($small) {
@@ -117,7 +117,7 @@
   }
   h2 { /* Default page sub-headline */
     margin-top: 0;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: Georgia, serif;
     font-weight: 400;
     @include font-size(20,yes,1.25);
     @include media($small) {
