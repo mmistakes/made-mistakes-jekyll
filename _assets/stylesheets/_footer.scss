@@ -5,7 +5,7 @@
 #site-footer {
   @include fill-parent;
   margin-top: (2 * (0px + $doc-line-height));
-  margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
+  // margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
   padding: $gutter;
   text-align: center;
   background: $background-color;

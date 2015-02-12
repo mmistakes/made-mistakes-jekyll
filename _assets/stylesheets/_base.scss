@@ -106,7 +106,7 @@ pre {
 }
 p code,
 li code {
-  @include font-size(16,no);
+  @include font-size(14,no);
   color: $text-color;
   white-space: nowrap;
   margin: 0 2px;
@@ -121,7 +121,7 @@ li code {
 table {
   border-collapse: collapse;
   margin: ((0px + $doc-line-height) / 2) 0;
-  margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
+  // margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
   width: 100%;
 }
 tbody {
@@ -136,7 +136,7 @@ thead {
 }
 th {
   padding: (0px + $doc-line-height) / 2;
-  padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
   font-family: $alt-font;
   font-weight: bold;
   text-align: left;
@@ -147,7 +147,7 @@ td {
   background-color: $table-background;
   border-bottom: 1px solid $table-border-color;
   padding: (0px + $doc-line-height) / 2;
-  padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
 }
 tr, td, th {
   vertical-align: middle;
@@ -158,7 +158,7 @@ tr, td, th {
 hr {
   display: block;
   margin: 0px + ($doc-line-height) 0;
-  margin: 0rem + (($doc-line-height) / $doc-font-size) 0;
+  // margin: 0rem + (($doc-line-height) / $doc-font-size) 0;
   padding: 0;
   border: 0;
   border-top: 1px solid $border-color;
@@ -186,7 +186,7 @@ figure {
   .fluid-width-video-wrapper,
   .palette {
     margin-bottom: (0px + $doc-line-height) / 2;
-    margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+    // margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
   }
   a {
     img {
@@ -272,7 +272,7 @@ fieldset {
   background: $form-background ;
   border: 1px solid $form-border-color;
   margin-bottom: 0px + $doc-line-height;
-  margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+  // margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
   padding: 0.5 * $gutter;
   border-radius: $form-border-radius;
   @include media($medium) {
@@ -291,7 +291,7 @@ label {
   font-weight: bold;
   font-family: $alt-font;
   margin-bottom: (0px + $doc-line-height) / 4;
-  margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 4;
+  // margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 4;
   &.required:after {
     content: "*";
   }
@@ -313,9 +313,9 @@ select[multiple=multiple] {
   font-family: $form-font-family;
   font-size: $form-font-size;
   margin-bottom: (0px + $doc-line-height) / 2;
-  margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+  // margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
   padding: ((0px + $doc-line-height) / 3) ((0px + $doc-line-height) / 3);
-  padding: ((0rem + ($doc-line-height / $doc-font-size)) / 3) ((0rem + ($doc-line-height / $doc-font-size)) / 3);
+  // padding: ((0rem + ($doc-line-height / $doc-font-size)) / 3) ((0rem + ($doc-line-height / $doc-font-size)) / 3);
   width: 100%;
   &:hover {
     border-color: $form-border-color-hover;
@@ -338,7 +338,7 @@ input[type="search"] {
 input[type="checkbox"], input[type="radio"] {
   display: inline;
   margin-right: (0px + $doc-line-height) / 4;
-  margin-right: (0rem + ($doc-line-height / $doc-font-size)) / 4;
+  // margin-right: (0rem + ($doc-line-height / $doc-font-size)) / 4;
 }
 
 input[type="file"] {
@@ -349,7 +349,7 @@ select {
   width: auto;
   max-width: 100%;
   margin-bottom: 0px + $doc-line-height;
-  margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+  // margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
 }
 
 form button,
