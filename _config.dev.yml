@@ -29,7 +29,7 @@ assets:
   sources:
     - _assets/javascripts
     - _assets/stylesheets
-  debug: true
+  debug: false
   version: 1
 
 

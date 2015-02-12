@@ -24,16 +24,18 @@ Where applicable links to a component's Sass partial[^sass] and/or `_include` ar
 {% assign componentsByType = site.components | group_by:"type" %}
 
 <nav id="component-selector" class="wrap">
-  <select name="section" id="component-select">
-    <option value>Jump to component...</option>
-    <option value="#guide-color-palettes">Colors</option>
-    {% for type in componentsByType %}
-    <option value="#guide-{{ type.name }}">{{ type.name | capitalize }}</option>
-    {% for entry in type.items %}
-    <option value="#guide-{{ entry.title | slugify }}">&nbsp;&nbsp;&nbsp;{{ entry.title }}</option>
-    {% endfor %}
-    {% endfor %}
-  </select>
+  <form action="dummyvalue">
+    <select name="newurl" onchange="menu_goto(this.form)" id="component-select">
+      <option value>Jump to component...</option>
+      <option value="#guide-color-palettes">Colors</option>
+      {% for type in componentsByType %}
+      <option value="#guide-{{ type.name }}">{{ type.name | capitalize }}</option>
+      {% for entry in type.items %}
+      <option value="#guide-{{ entry.title | slugify }}">&nbsp;&nbsp;&nbsp;{{ entry.title }}</option>
+      {% endfor %}
+      {% endfor %}
+    </select>
+  </form>
 </nav>
 
 <h2 id="guide-color-palettes" class="cf">Colors</h2>
@@ -46,17 +48,3 @@ Where applicable links to a component's Sass partial[^sass] and/or `_include` ar
 {% include component.html %}
 {% endfor %}
 {% endfor %}
-
-<!-- component selector option list -->
-<script>    
-  (function (document, undefined) {
-    // component selector
-    document.getElementById('component-select').onchange = function() {
-      //document.location=this.options[this.selectedIndex].value;
-      var val = this.value;
-      if (val !== "") {
-        window.location = val;
-      }
-    }
-  })(document);
-</script>

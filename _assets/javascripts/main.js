@@ -114,3 +114,24 @@ $(".js-social-share").on("click", function(e) {
   e.preventDefault();
   windowPopup($(this).attr("href"), 500, 300);
 });
+
+
+// Smooth scroll
+$(document).ready(function() {
+  $('a').smoothScroll({offset: -20});
+});
+
+
+// Component selector option list
+function menu_goto( menuform ) {
+  // see http://www.thesitewizard.com/archive/navigation.shtml
+  // for an explanation of this script and how to use it on your
+  // own site
+
+  selecteditem = menuform.newurl.selectedIndex ;
+  newurl = menuform.newurl.options[ selecteditem ].value ;
+
+  if (newurl.length != 0) {
+    location.href = newurl ;
+  }
+};
