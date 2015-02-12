@@ -37,7 +37,26 @@
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
     {% stylesheet global %}
-    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya:400italic,400,700" rel="stylesheet" type="text/css">
+
+    <!-- Defer loading of Google Webfonts -->
+    <script>
+      ~function (document) {
+        var elem = document.createElement('link');
+        var head = document.getElementsByTagName('head')[0];
+        elem.rel = 'stylesheet';
+        elem.href = '//fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya:400italic,400,700';
+        elem.media = 'only x';
+        head.appendChild(elem);
+        setTimeout(function () {
+          elem.media = 'all';
+        });
+      }(document);
+    </script>
+    <!-- no-js fallback -->
+    <noscript>
+      <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya:400italic,400,700" rel="stylesheet" type="text/css">
+    </noscript>
+
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       {% javascript vendor/html5shiv %}
@@ -74,7 +93,7 @@
       {% include footer.html %}
     </div>
 
-    {% javascript main %}
+    {% javascript main async %}
 
     <!-- Google Universal Analytics -->
     <script>
