@@ -36,6 +36,11 @@
       text-decoration: none;
     }
   }
+  .wrap {
+    @include media($micro-only) {
+      padding: 0;
+    }
+  }
 }
 
 /* Footer menu links */
