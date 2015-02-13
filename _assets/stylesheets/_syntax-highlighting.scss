@@ -11,7 +11,7 @@
 
 .highlight {
   overflow-x: auto;
-  @include font-size(16,no);
+  @include font-size(14,no);
   background: $code-background;
   border: 1px solid $code-border-color;
   border-radius: $code-border-radius;
@@ -28,7 +28,7 @@
 .highlighttable {
   tr:hover>td,
   tr:hover>th {
-    background: transparent
+    background: transparent;
   }
 }
 
