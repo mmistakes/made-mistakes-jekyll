@@ -69,7 +69,7 @@
   border-radius: $border-radius;
   border: 1px solid $border-color;
   code {
-    @include font-size(16,no);
+    @include font-size(14,no);
     color: $text-color;
     white-space: nowrap;
     margin: 0 2px;
