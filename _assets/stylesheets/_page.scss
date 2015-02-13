@@ -281,18 +281,29 @@ h6:hover .header-link {
 .author-wrapper {
   display: inline-block;
   position: relative;
-  padding: 20px;
-  border: 8px solid $border-color;
-  border-radius: $border-radius;
+  margin-left: -1 * $gutter;
+  margin-right: -1 * $gutter;
+  padding: 10px;
+  text-align: center;
+  border: 4px solid $border-color;
+  @include media($medium) {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+    text-align: left;
+    border: 8px solid $border-color;
+    border-radius: $border-radius;
+  }
 }
 
 .author-image {
-  display: none;
+  margin-bottom: 10px;
   @include media($small) {
     display: block;
     position: absolute;
     top: 20px;
     left: 20px;
+    margin-bottom: 0;
   }
   img {
     width: 80px;
