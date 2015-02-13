@@ -107,17 +107,12 @@ $color:
 (table-stripe-color, $table-stripe-color),
 (table-stripe-color-hover, $table-stripe-color-hover),
 (facebook-color, $facebook-color),
-(flickr-color, $flickr-color),
 (foursquare-color, $foursquare-color),
 (google-plus-color, $google-plus-color),
 (instagram-color, $instagram-color),
-(linkedin-color, $linkedin-color),
-(pinterest-color, $pinterest-color),
 (rss-color, $rss-color),
 (tumblr-color, $tumblr-color),
-(twitter-color, $twitter-color),
-(vimeo-color, $vimeo-color),
-(youtube-color, $youtube-color);
+(twitter-color, $twitter-color);
 
 @each $name, $bgcolor in $color {
   .#{$name}-bg {

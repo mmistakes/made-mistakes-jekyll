@@ -122,17 +122,11 @@
  * Social button markup example
  * Add social network class to anchor or button element along with .btn-social
  * .facebook
- * .flickr
- * .foursquare
  * .google-plus
  * .instagram
- * .linkedin
- * .pinterest
  * .rss
  * .tumblr
  * .twitter
- * .vimeo
- * .youtube
  *
  *  <a class="btn-social twitter" href="#">
  *    <i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter
@@ -141,17 +135,11 @@
 
 $social:
 (facebook, $facebook-color),
-(flickr, $flickr-color),
-(foursquare, $foursquare-color),
 (google-plus, $google-plus-color),
 (instagram, $instagram-color),
-(linkedin, $linkedin-color),
-(pinterest, $pinterest-color),
 (rss, $rss-color),
 (tumblr, $tumblr-color),
-(twitter, $twitter-color),
-(vimeo, $vimeo-color),
-(youtube, $youtube-color);
+(twitter, $twitter-color);
 
 .btn-social {
   @extend .btn;
