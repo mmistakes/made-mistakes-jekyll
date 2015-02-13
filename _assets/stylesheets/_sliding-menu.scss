@@ -22,6 +22,7 @@
 
 .sliding-menu-button {
   position: fixed;
+  transform: translateZ(0);
   backface-visibility: hidden; /* fix scroll jank */
   top: $gutter;
   right: $gutter;
