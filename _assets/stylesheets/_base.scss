@@ -86,13 +86,16 @@ a {
 blockquote {
   padding-left: $gutter;
   padding-right: $gutter;
-  font-style: italic;
+  border-left: 6px solid $info-color;
   p {
-    @include font-size(18);
+    font-family: $alt-font;
+    @include font-size(24);
   }
   cite {
+    font-family: $base-font;
     font-weight: 700;
     font-style: normal;
+    @include font-size(18);
   }
 }
 
