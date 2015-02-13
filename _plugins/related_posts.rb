@@ -1,3 +1,5 @@
+# https://github.com/jumanji27/related_posts-jekyll_plugin
+
 require 'jekyll/post'
 
 module Jekyll
