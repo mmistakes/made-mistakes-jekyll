@@ -21,5 +21,5 @@ I will take grit and texture over polished and airbrushed any day of the week. I
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/1887226"><img src="{{ site.url }}/images/paperfaces-asja-k-process-1-600.jpg" alt="Work in process screenshot"></a>
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/1887463"><img src="{{ site.url }}/images/paperfaces-asja-k-process-2-600.jpg" alt="Work in process screenshot"></a>
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/1896998"><img src="{{ site.url }}/images/paperfaces-asja-k-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress drawing available on Mix.</figcaption>
+  <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>

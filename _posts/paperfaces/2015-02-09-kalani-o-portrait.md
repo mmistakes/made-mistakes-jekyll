@@ -22,5 +22,5 @@ Started with dark grays and gradually increased the brightness until I was selec
 <figure class="half">
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/2075207"><img src="{{ site.url }}/images/paperfaces-kalani-o-process-1-600.jpg" alt="Work in process screenshot"></a>
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/2086067"><img src="{{ site.url }}/images/paperfaces-kalani-o-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress drawing available on Mix.</figcaption>
+  <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>
