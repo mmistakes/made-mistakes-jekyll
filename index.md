@@ -8,7 +8,10 @@ image:
 id: home
 ---
 
-Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). I'm a boring, tattooed, time traveling designer from Buffalo, New York who enjoys eating chicken wings and [sketching on an iPad]({{ site.url }}/tag/paper-by-53/) --- *not necessarily at the same time*.
+Made Mistakes is the personal website of Michael Rose. I'm a boring, tattooed, time traveling designer from Buffalo, New York who enjoys eating chicken wings and [sketching on an iPad]({{ site.url }}/tag/paper-by-53/) --- *not necessarily at the same time*.
+{:.shorten}
+
+Below you will find a selection of my most recent Paper by FiftyThree illustrations along with tutorials and techniques for mastering the app. Blog articles and open source projects I've released can also be had if you poke around enough.
 {:.shorten}
 
 <nav class="toc toc-left">
@@ -34,7 +37,7 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
 
 <nav class="toc toc-left">
   <ul>
-    <li><h6><a href="{{ site.url }}/mastering-paper/">Paper by FiftyThree <i class="fa fa-long-arrow-right"></i></a></h6></li>
+    <li><h6><a href="{{ site.url }}/mastering-paper/">Paper Tutorials <i class="fa fa-long-arrow-right"></i></a></h6></li>
     {% for post in site.categories.mastering-paper limit:10 %}
     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></li>
     {% endfor %}
@@ -52,8 +55,8 @@ Made Mistakes is the personal website of [Michael Rose]({{ site.url }}/about/). 
   <ul>
     <li><h6><a href="{{ site.url }}/articles/">A Blog of Sorts <i class="fa fa-long-arrow-right"></i></a></h6></li>
     <li><a href="{{ site.url }}/tag/">Tag Archive</a></li>
-    <li><a href="{{ site.url }}/2015/">2015 Post Archive</a></li>
-    <li><a href="{{ site.url }}/2014/">2014 Post Archive</a></li>
+    <li><a href="{{ site.url }}/2015/">Posts from 2015</a></li>
+    <li><a href="{{ site.url }}/2014/">Posts from 2013</a></li>
   </ul>
 </nav><!-- /.toc-left -->
 
