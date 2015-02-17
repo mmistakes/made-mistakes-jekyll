@@ -6,7 +6,7 @@
   			<li><a href="{{ link.url }}">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a></li>
   		{% endfor %}
   		</ul>
-  		<ul class="float-right social-circles">
+  		<ul class="social-circles">
   			<li><a href="https://twitter.com/{{ site.owner.twitter }}" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');">
   				<span class="twitter fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
@@ -31,6 +31,12 @@
   				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
   				</span>
   			</a></li>
+        <li><a href="https://github.com/{{ site.owner.github }}" onclick="ga('send', 'event', 'link', 'click', 'Github follow');">
+          <span class="github fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a></li>
   			<li><a href="http://{{ site.owner.tumblr }}.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');">
   				<span class="tumblr fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
