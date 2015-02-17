@@ -2,11 +2,13 @@
 layout: article
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 20145-01-23
+modified: 2015-02-16
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo."
 image:
   feature: about-feature.jpg
   teaser: about-teaser.jpg
+  credit: Wendy Rose
+  creditlink: http://2littlerosebuds.com
 ads: false
 share: false
 sidebar: sidebar-about
