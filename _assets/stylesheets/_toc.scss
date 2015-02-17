@@ -43,6 +43,12 @@
     margin: 0;
     padding: 7px 1.618rem;
     background: $table-stripe-color;
+    &:hover {
+      background: mix($white, $border-color, 5%);
+    }
+    a {
+      color: $text-color;
+    }
   }
 }
 
