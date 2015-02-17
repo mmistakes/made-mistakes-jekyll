@@ -13,9 +13,9 @@
     padding-left: 2 * $gutter;
     padding-right: 2 * $gutter;
   }
-  @include media($large) {
-    text-align: left;
-  }
+  // @include media($large) {
+  //   text-align: left;
+  // }
   font-family: $alt-font;
 
   .copyright {
@@ -46,11 +46,11 @@
 /* Footer menu links */
 
 .footer-links {
-  @include media($large) {
-    float: left;
-  }
+  // @include media($large) {
+  //   float: left;
+  // }
   li {
-    @include font-size(16,no);
+    @include font-size(16);
     a {
       margin-left: ($gutter / 2);
       margin-right: ($gutter / 2);
