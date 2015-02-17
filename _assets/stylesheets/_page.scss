@@ -298,7 +298,7 @@ h6:hover .header-link {
 
 .author-image {
   margin-bottom: 10px;
-  @include media($small) {
+  @include media($medium) {
     display: block;
     position: absolute;
     top: 20px;
@@ -313,7 +313,7 @@ h6:hover .header-link {
 }
 
 .author-content {
-  @include media($small) {
+  @include media($medium) {
     word-wrap: break-word;
     padding-left: 100px; /* avatar width + 20px padding */
     min-height: 80px; /* match avatar height */
