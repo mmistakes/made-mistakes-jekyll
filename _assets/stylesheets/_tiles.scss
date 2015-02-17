@@ -148,11 +148,7 @@
 
 .related-posts {
   .tile {
-    opacity: 0.8;
     transition: $sliding-menu-animation;
-    &:hover {
-      opacity: 1;
-    }
   }
   .entry-date {
     display: none;
