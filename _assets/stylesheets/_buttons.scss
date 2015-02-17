@@ -176,3 +176,37 @@ $social:
     }
   }
 }
+
+
+/* Share this buttons */
+
+.share-this {
+  @include clearfix;
+  .label {
+    display: block;
+    float: left;
+    padding: 8px 20px 8px 0;
+    @include font-size(14, 4);
+    font-family: $alt-font;
+    font-weight: 700;
+  }
+}
+.share-this-buttons {
+  float: left;
+  margin: 0;
+  padding: 0;
+  li {
+    float: left;
+    margin: 0 4px 4px;
+    padding: 0;
+    list-style: none;
+  }
+  @include media($micro-only) {
+    .fa {
+      padding-right: 0;
+    }
+    .share-text {
+      display: none;
+    }
+  }
+}
