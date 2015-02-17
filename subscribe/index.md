@@ -17,7 +17,7 @@ If you don't want to miss anything posted to Made Mistakes then you'll want to g
 * <i class="fa fa-rss-square" aria-hidden="true"></i> <a href="http://feeds.feedburner.com/MadeMistakesArticles">Articles</a>
 * <i class="fa fa-rss-square" aria-hidden="true"></i> <a href="http://feeds.feedburner.com/MadeMistakesMasteringPaper">Mastering Paper</a>
 * <i class="fa fa-rss-square" aria-hidden="true"></i> <a href="http://feeds.feedburner.com/MadeMistakesPaperFaces">PaperFaces Portraits</a>
-* <i class="fa fa-plus-square" aria-hidden="true"></i> <a href="https://www.bloglovin.com/blog/3627581">Made Mistakes on Bloglovin</a>
+* <i class="fa fa-globe" aria-hidden="true"></i> <a href="https://www.bloglovin.com/blog/3627581">Made Mistakes on Bloglovin</a>
 {: .no-bullets}
 
 [^rss]: Copy and paste the feed links found on this page into a feed reader of your choice. One of my favorite free ones is [Feedly](http://feedly.com), which syncs your feeds across desktop browsers and mobile apps.

@@ -26,6 +26,10 @@
     // move button slightly on click
     transform: translateY(1px);
   }
+  // add spacing for icons inside of a button
+  .fa {
+    padding-right: 5px;
+  }
 }
 
 /* button in table of contents */
