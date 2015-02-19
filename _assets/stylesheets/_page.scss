@@ -8,20 +8,26 @@
 
 .page-content {
   h2 {
+    margin-top: 36px;
     @include font-size(24,yes,26);
     @include media($small) {
+      margin-top: 42px;
       @include font-size(28,yes,32);
     }
   }
   h3 {
+    margin-top: 30px;
     @include font-size(20,yes,22);
     @include media($small) {
+      margin-top: 36px;
       @include font-size(24,yes,26);
     }
   }
   h4 {
+    margin-top: 27px;
     @include font-size(18);
     @include media($small) {
+      margin-top: 33px;
       @include font-size(22);
     }
   }
@@ -29,6 +35,18 @@
     @include font-size(16);
     @include media($small) {
       @include font-size(20);
+    }
+  }
+  h5 {
+    margin-top: 24px;
+    @include media($small) {
+      margin-top: 30px;
+    }
+  }
+  h6 {
+    margin-top: 22px;
+    @include media($small) {
+      margin-top: 28px;
     }
   }
 
