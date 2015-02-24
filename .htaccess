@@ -269,7 +269,7 @@ AddDefaultCharset utf-8
 # Block access from libwww-perl bots
 
 <IfModule mod_rewrite.c>
-    RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+    RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
     RewriteRule .* – [F,L]
 </IfModule>
 
@@ -401,24 +401,31 @@ FileETag None
 # Remove index.html
 # ----------------------------------------------------------------------
 
-# If it's a request to index(.html) 
+# If it's a request to index(.html)
 RewriteCond %{THE_REQUEST} \ /(.+/)?index(\.html)?(\?.*)?\  [NC]
-# Remove it. 
+# Remove it.
 RewriteRule ^(.+/)?index(\.html)?$ /%1 [R=301,L]
 
 # ----------------------------------------------------------------------
 # Remove .html extensions
 # ----------------------------------------------------------------------
 
-# If it's a request from a browser, not an internal request by Apache/mod_rewrite. 
+# If it's a request from a browser, not an internal request by Apache/mod_rewrite.
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
-# And the request has a HTML extension. Redirect to remove it. 
+# And the request has a HTML extension. Redirect to remove it.
 RewriteRule ^(.+)\.html$ /$1 [R=301,L]
 
-# If the request exists with a .html extension. 
+# If the request exists with a .html extension.
 RewriteCond %{SCRIPT_FILENAME}.html -f
-# And there is no trailing slash, rewrite to add the .html extension. 
+# And there is no trailing slash, rewrite to add the .html extension.
 RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
+
+# ----------------------------------------------------------------------
+# Remove trailing double slashes //
+# ----------------------------------------------------------------------
+
+RewriteCond %{REQUEST_URI} ^(.*?)(?:/){2,}$
+RewriteRule . $1/ [R=301,L]
 
 # ----------------------------------------------------------------------
 # Feed redirects
@@ -447,7 +454,7 @@ redirect 301 /articles/face https://mademistakes.com/articles/paperfaces-ipad-po
 redirect 301 /articles/faces-made-with-paper-ipad https://mademistakes.com/articles/paperfaces-ipad-portrait-project/
 redirect 301 /articles/paperfaces-portrait-gallery https://mademistakes.com/paperfaces/
 redirect 301 /paperfaces/slave-leia-jabba-the-hutt https://mademistakes.com/paperfaces/slave-leia-jabba-the-hutt-portrait/
-redirect 301 /tags.html https://mademistakes.com/tag/
+redirect 301 /tags https://mademistakes.com/tag/
 redirect 301 /tag/baby/ https://mademistakes.com/tag/twins/
 redirect 301 /articles/mastering-paper-53-guide https://mademistakes.com/mastering-paper/
 redirect 301 /works https://mademistakes.com/work/
