@@ -6,7 +6,7 @@ image:
   feature: paperfaces-arbitral-twitter-lg.jpg
   thumb: paperfaces-arbitral-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@arbitral](http://twitter.com/arbitral).

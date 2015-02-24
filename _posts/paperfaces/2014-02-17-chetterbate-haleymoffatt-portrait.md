@@ -6,7 +6,7 @@ image:
   feature: paperfaces-haley-couple-lg.jpg
   thumb: paperfaces-haley-couple-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, paper by 53, blend, time lapse]
 ---
 
 PaperFaces portrait commission of a happy couple.

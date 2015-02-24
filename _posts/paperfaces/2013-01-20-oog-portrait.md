@@ -6,7 +6,7 @@ image:
   feature: paperfaces-oog-twitter-lg.jpg
   thumb: paperfaces-oog-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@Oog](http://twitter.com/Oog).

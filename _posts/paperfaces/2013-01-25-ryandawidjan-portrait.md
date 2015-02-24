@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ryandawidjan-twitter-lg.jpg
   thumb: paperfaces-ryandawidjan-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, paper by 53, time lapse]
 ---
 
 PaperFaces portrait of project donator [@ryandawidjan](http://twitter.com/ryandawidjan).

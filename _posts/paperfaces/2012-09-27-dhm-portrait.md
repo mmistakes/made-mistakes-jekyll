@@ -6,7 +6,7 @@ image:
   feature: paperfaces-dhm-twitter-lg.jpg
   thumb: paperfaces-dhm-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@dhm](http://twitter.com/dhm).

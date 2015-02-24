@@ -6,7 +6,7 @@ image:
   feature: paperfaces-hallaek-twitter-lg.jpg
   thumb: paperfaces-hallaek-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@hallaek](http://twitter.com/hallaek).

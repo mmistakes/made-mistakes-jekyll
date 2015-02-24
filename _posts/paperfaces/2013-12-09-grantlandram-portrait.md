@@ -6,7 +6,7 @@ image:
   feature: paperfaces-grantlandram-twitter-lg.jpg
   thumb: paperfaces-grantlandram-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53, black and white, blend]
+tags: [portrait, illustration, paper by 53, black and white, blend, time lapse]
 ---
 
 Decided to try and create a true time lapse video showing off 53's new Pencil stylus another go. 

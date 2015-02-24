@@ -6,7 +6,7 @@ image:
   feature: paperfaces-tarungangwani-twitter-lg.jpg
   thumb: paperfaces-tarungangwani-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@tarungangwani](http://twitter.com/tarungangwani).

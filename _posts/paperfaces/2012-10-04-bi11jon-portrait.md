@@ -6,7 +6,7 @@ image:
   feature: paperfaces-bi11jon-twitter-lg.jpg
   thumb: paperfaces-bi11jon-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@bi11jon](http://twitter.com/bi11jon).

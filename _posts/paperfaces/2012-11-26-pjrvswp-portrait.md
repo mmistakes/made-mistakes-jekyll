@@ -6,7 +6,7 @@ image:
   feature: paperfaces-pjrvswp-twitter-lg.jpg
   thumb: paperfaces-pjrvswp-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53, tattoo]
+tags: [portrait, illustration, paper by 53, tattoo, time lapse]
 ---
 
 PaperFaces portrait of project donator [@pjrvswp](http://twitter.com/pjrvswp).
