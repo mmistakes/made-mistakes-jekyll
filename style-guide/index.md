@@ -24,9 +24,9 @@ Where applicable links to a component's Sass partial[^sass] and/or `_include` ar
 {% assign componentsByType = site.components | group_by:"type" %}
 
 <nav id="component-selector" class="wrap">
-  <form action="dummyvalue">
-    <select name="newurl" onchange="menu_goto(this.form)" id="component-select">
-      <option value>Jump to component...</option>
+  <form>
+    <select name="newurl" id="component-select" onChange="window.location.replace(this.options[this.selectedIndex].value)">
+      <option value="">Select a Component</option>
       <option value="#guide-color-palettes">Colors</option>
       {% for type in componentsByType %}
       <option value="#guide-{{ type.name }}">{{ type.name | capitalize }}</option>
