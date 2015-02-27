@@ -500,6 +500,9 @@ button {
     figure {
       margin: 0;
     }
+    figcaption {
+      margin-bottom: 0; // reset for bottom spacing
+    }
   }
   .mfp-bottom-bar {
     margin-top: -$mfp-image-padding-bottom + 4;
