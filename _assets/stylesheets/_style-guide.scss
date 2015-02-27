@@ -132,7 +132,7 @@ $color:
   bottom: 0;
   padding: 0.5 * $gutter;
   width: 100%;
-  z-index: 999;
+  z-index: 9;
   background: $primary-color;
   @include media($medium) {
     left: auto;

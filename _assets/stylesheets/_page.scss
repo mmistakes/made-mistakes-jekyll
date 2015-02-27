@@ -231,7 +231,7 @@
     font-family: $alt-font;
     @include font-size(12,no);
     text-align: right;
-    z-index: 10;
+    z-index: 5;
     a {
       color: $white;
       text-decoration: none;
