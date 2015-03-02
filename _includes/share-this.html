@@ -2,7 +2,7 @@
 	<span class="label">Share this:</span>
   <ul class="share-this-buttons">
     <li>
-      <a class="btn-social twitter" onclick="ga('send', 'event', 'link', 'click', 'Twitter share');" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i><span class="share-text">Twitter</span></a>
+      <a class="btn-social twitter" onclick="ga('send', 'event', 'link', 'click', 'Twitter share');" href="https://twitter.com/intent/tweet?text={{ page.title | replace:'&#147;','' | replace:'&#148;','' | cgi_escape }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}&amp;via={{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i><span class="share-text">Twitter</span></a>
     </li>
     <li>
       <a class="btn-social js-social-share facebook" onclick="ga('send', 'event', 'link', 'click', 'Facebook share');" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}" target="_blank"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i><span class="share-text">Facebook</span></a>
