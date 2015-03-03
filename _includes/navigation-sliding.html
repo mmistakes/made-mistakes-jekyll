@@ -2,7 +2,7 @@
   <h5>Made Mistakes <span>Table of Contents</span></h5>
   <ul class="menu-item">
     {% for link in site.data.navigation %}<li>
-      <a href="{{ link.url }}">
+      <a href="{{ link.url }}" onclick="ga('send', 'event', 'sliding menu', 'click', '{{ link.title }}');">
         {% if link.image %}<img src="/images/{{ link.image }}" alt="teaser" class="teaser">{% endif %}
         <div class="title">{{ link.title }}</div>
         {% if link.excerpt %}<p class="excerpt">{{ link.excerpt }}</p>{% endif %}
@@ -10,7 +10,7 @@
     </li>{% endfor %}
   </ul>
 </nav>
-<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation" onclick="ga('send', 'event', 'sliding nav', 'click', 'button');">
   <span class="lines"></span>
 </button>
 

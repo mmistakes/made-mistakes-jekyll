@@ -1,5 +1,5 @@
 <ul class="menu-item">
 	{% for link in site.data.navigation %}
-    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    <li><a href="{{ link.url }}" onclick="ga('send', 'event', 'header', 'click', '{{ link.title }}');">{{ link.title }}</a></li>
   {% endfor %}
 </ul>

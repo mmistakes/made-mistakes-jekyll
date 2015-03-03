@@ -3,47 +3,47 @@
   	<nav role="navigation" class="menu">
   		<ul class="footer-links">
   		{% for link in site.data.footer %}
-  			<li><a href="{{ link.url }}">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a></li>
+  			<li><a href="{{ link.url }}" onclick="ga('send', 'event', 'footer', 'click', '{{ link.title }}');">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a></li>
   		{% endfor %}
   		</ul>
   		<ul class="social-circles">
-  			<li><a href="https://twitter.com/{{ site.owner.twitter }}" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');">
+  			<li><a href="https://twitter.com/{{ site.owner.twitter }}" onclick="ga('send', 'event', 'footer', 'click', 'Twitter follow');">
   				<span class="twitter fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
   				</span>
   			</a></li>
-  			<li><a href="https://www.facebook.com/{{ site.owner.facebook }}" onclick="ga('send', 'event', 'link', 'click', 'Facebook follow');">
+  			<li><a href="https://www.facebook.com/{{ site.owner.facebook }}" onclick="ga('send', 'event', 'footer', 'click', 'Facebook follow');">
   				<span class="facebook fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
   				</span>
   			</a></li>
-  			<li><a href="{{ site.owner.google.plus }}" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');">
+  			<li><a href="{{ site.owner.google.plus }}" onclick="ga('send', 'event', 'footer', 'click', 'Google+ follow');">
   				<span class="google-plus fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
   				</span>
   			</a></li>
-  			<li><a href="http://instagram.com/{{ site.owner.instagram }}" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');">
+  			<li><a href="http://instagram.com/{{ site.owner.instagram }}" onclick="ga('send', 'event', 'footer', 'click', 'Instagram follow');">
   				<span class="instagram fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
   				</span>
   			</a></li>
-        <li><a href="https://github.com/{{ site.owner.github }}" onclick="ga('send', 'event', 'link', 'click', 'Github follow');">
+        <li><a href="https://github.com/{{ site.owner.github }}" onclick="ga('send', 'event', 'footer', 'click', 'Github follow');">
           <span class="github fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
           </span>
         </a></li>
-  			<li><a href="http://{{ site.owner.tumblr }}.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');">
+  			<li><a href="http://{{ site.owner.tumblr }}.tumblr.com" onclick="ga('send', 'event', 'footer', 'click', 'Tumblr follow');">
   				<span class="tumblr fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
   				</span>
   			</a></li>
-  			<li><a href="http://feeds.feedburner.com/MadeMistakes" onclick="ga('send', 'event', 'link', 'click', 'RSS feed');">
+  			<li><a href="http://feeds.feedburner.com/MadeMistakes" onclick="ga('send', 'event', 'footer', 'click', 'RSS feed');">
   				<span class="rss fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -51,7 +51,7 @@
   			</a></li>
   		</ul>
   	</nav><!-- /.menu -->
-  	<p class="to-top"><a href="#masthead"><i class="fa fa-arrow-up"></i> &nbsp; Back to top</a></p>
-  	<p class="copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="/humans.txt">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes-jekyll" title="Made Mistakes source on GitHub">View Source</a></p>
+  	<p class="to-top"><a href="#masthead" onclick="ga('send', 'event', 'sfooter', 'click', 'back to top');"><i class="fa fa-arrow-up"></i> &nbsp; Back to top</a></p>
+  	<p class="copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="/humans.txt" onclick="ga('send', 'event', 'footer', 'click', 'humans.txt');">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes-jekyll" title="Made Mistakes source on GitHub" onclick="ga('send', 'event', 'footer', 'click', 'view source');">View Source</a></p>
   </div>
 </footer>
