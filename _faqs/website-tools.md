@@ -4,7 +4,7 @@ layout: article
 type: other
 date: 2014-12-07
 modified: 2014-12-08T12:25:58-05:00
-order: 1
+order: 2
 ---
 
 I've been on a [static site generator]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) kick the last couple of years and use [Jekyll](http://jekyllrb.com) to compile my site. The basic idea is I write a bunch of text files in MarkDown and using my hand-rolled templates stylesheets Jekyll spits out a bunch of HTML files that I sync with my webserver.
