@@ -4,7 +4,7 @@ title: "Pencil by FiftyThree Review is Still the Best Stylus for Paper"
 excerpt: "Impressions of FiftyThree's Pencil stylus from the perspective of an avid Paper creator."
 category: mastering-paper
 tags: [pencil, paper by 53, stylus, ipad, blend, review]
-modified: 2015-01-28T11:07:58-05:00
+modified: 2015-03-17T16:22:22-04:00
 image:
   feature: pencil-53-feature.jpg
   teaser: pencil-53-teaser.jpg
@@ -152,7 +152,6 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
   <div class="review-desc">
     <p class="review-summary-title"><strong>Summary</strong></p>
     <p>If you're a casual doodler looking for a well built stylus that mimics traditional drawing utensils and have a need for palm rejection, then Pencil should be your number one choice. On the other hand if you're a pro-user who relies on pressure sensitivity to work in other iOS apps, you may be left wanting more.</p>
-    <p>A bonus for those who haven't purchased any of the tools from the free Paper app, connecting Pencil <a href="http://support.fiftythree.com/customer/portal/articles/1358809-using-pencil#enabling-tools">unlocks all of them</a> for 30 days. As long as you continue to pair Pencil with Paper you'll never have to purchase the extra tools, which adds to its value.</p>
     <p><a href="http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2" class="btn-inverse">Buy Now</a></p>
   </div>
   <div class="review-total-wrapper">
@@ -176,8 +175,8 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
 Want to know more about Pencil or the new features it enables --- ask away in the comments below and I'll do my best to answer.
 
 <figure>
-    <iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0"> </iframe>
-    <figcaption>For giggles here’s a time lapse of me drawing with Pencil. Check out my sweet green band-aid yo!</figcaption>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/K2dgaV9_rCI" frameborder="0"> </iframe>
+    <figcaption>Curious to see Pencil in action? In the back half of this time lapse video I use it to paint and smudge a portrait.</figcaption>
 </figure>
 
 {% include affiliate-disclosure.html %}
