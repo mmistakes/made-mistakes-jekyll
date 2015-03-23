@@ -26,6 +26,7 @@
 
   visibility: hidden;
   opacity: 0;
+  z-index: 10;
 
   transition: opacity 0.3s 0s, visibility 0s 0.3s;
 
