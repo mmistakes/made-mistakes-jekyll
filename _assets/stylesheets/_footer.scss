@@ -6,12 +6,13 @@
   @include fill-parent;
   margin-top: (2 * (0px + $doc-line-height));
   // margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
-  padding: $gutter;
+  padding: $gutter $gutter (2.25 * $gutter);
   text-align: center;
   background: $background-color;
   @include media($medium) {
     padding-left: 2 * $gutter;
     padding-right: 2 * $gutter;
+    padding-bottom: $gutter;
   }
   // @include media($large) {
   //   text-align: left;

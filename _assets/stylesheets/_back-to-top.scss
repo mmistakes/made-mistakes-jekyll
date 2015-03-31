@@ -4,8 +4,8 @@
 
 .mm-top {
   display: inline-block;
-  height: $button-size;
-  width: $button-size;
+  height: $button-size * 2;
+  width: $button-size * 2;
 
   position: fixed;
   bottom: $gutter;
@@ -47,11 +47,5 @@
   .no-touch &:hover {
     background-color: rgba($danger-color, 1);
     opacity: 1;
-  }
-
-  // increase button size and placement
-  @include media($medium) {
-    height: $button-size * 2;
-    width: $button-size * 2;
   }
 }
