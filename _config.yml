@@ -29,6 +29,7 @@ assets:
   sources:
     - _assets/javascripts
     - _assets/stylesheets
+  baseurl: https://mademistakes/assets/
   js_compressor: uglifier
   css_compressor: sass
   cachebust: hard

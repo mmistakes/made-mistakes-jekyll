@@ -29,6 +29,7 @@ assets:
   sources:
     - _assets/javascripts
     - _assets/stylesheets
+  baseurl: http://localhost:4000/assets/
   debug: false
   version: 1
 
