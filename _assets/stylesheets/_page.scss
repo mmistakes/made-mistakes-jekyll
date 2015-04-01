@@ -55,19 +55,21 @@
   p > a,
   li > a,
   td > a {
-    border-bottom: 1px solid mix($white, $link-color, 70%);
+    border-bottom: 1px solid #f3bc15;
+    box-shadow: inset 0 -5px 0 #f3bc15;
     &:hover {
-      border-bottom-color: $link-color;
-      border-bottom-width: 2px;
+      background: #f3bc15;
     }
   }
   .toc li > a {
     border-bottom-width: 0;
+    box-shadow: none;
   }
   .th-grid a,
   .th-grid-full a,
   p > .reversefootnote {
     border-bottom-width: 0;
+    box-shadow: none;
   }
 
   /* Introductory paragraph */
@@ -76,10 +78,10 @@
       @include font-size(20,yes,28);
       @include media($small) {
         @include font-size(24,yes,34);
-        a {
-          color: $text-color;
-          border-bottom-color: mix($white, $text-color, 70%);
-        }
+        // a {
+        //   color: $text-color;
+        //   border-bottom-color: mix($white, $text-color, 70%);
+        // }
       }
     }
   }
@@ -116,33 +118,31 @@
 
 .page-title {
   @include fill-parent;
-  @extend .animated;
-  @extend .fadeInLeft;
-  animation-delay: 1s;
   margin-top: $gutter;
   h1 { /* Default page title */
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Georgia, serif;
+    font-family: Oswald, sans-serif;
     font-weight: 400;
-    @include font-size(24,no,24);
+    @include font-size(28, no, 28);
     @include media($small) {
-      @include font-size(42,no,42);
+      @include font-size(42, no, 42);
     }
     @include media($medium) {
-      @include font-size(58,no,58);
+      @include font-size(64, no, 64);
     }
   }
   h2 { /* Default page sub-headline */
-    margin-top: 0;
-    font-family: Georgia, serif;
+    margin-top: 10px;
+    font-family: Oswald;
     font-weight: 400;
-    @include font-size(20,yes,1.25);
+    text-transform: uppercase;
+    @include font-size(20, yes, 1.25);
     @include media($small) {
-      @include font-size(28,yes,1.25);
+      @include font-size(28, yes, 1.25);
     }
     @include media($medium) {
-      @include font-size(32,yes,1.25);
+      @include font-size(32, yes, 1.25);
     }
   }
 }
@@ -164,42 +164,41 @@
       bottom: 0;
       z-index: 1;
       @include span-columns(10);
-      padding-bottom: 2 * $gutter;
       margin-left: (-1 * $gutter);
+      margin-bottom: $gutter;
+      padding: 20px 20px 20px $gutter;
+      background: $white;
     }
     @include media($medium) {
-      margin-left: (-2 * $gutter)
+      margin-left: (-2 * $gutter);
+      margin-bottom: (2 * $gutter);
+      padding-left: (2 * $gutter);
     }
     @include media($large) {
-      margin-left: (-2.5 * $gutter)
+      margin-left: (-2.5 * $gutter);
+      padding-left: (2.5 * $gutter);
     }
+  }
+  &.overlay .page-title:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: transparent url(../images/45-stripes.png);
   }
   &.overlay h1 { /* Overlay page title */
     @include media($small) {
-      box-shadow: -10px 0 0 $white, 10px 0 0 $white;
-      display: inline;
-      background: $white;
-      line-height: 1.4;
-      span {
-        padding: 4px 10px;
-      }
+      display: block;
+      color: $primary-color;
     }
   }
   &.overlay h2 { /* Overlay page sub-headline */
     margin-bottom: 0;
     @include media($small) {
-      box-shadow: -10px 0 0 $white, 10px 0 0 $white;
-      display: inline;
-      background: $white;
-      line-height: 1.4;
-      span {
-        padding: 4px 10px;
-      }
-      &:before {
-        content: '';
-        display: block;
-        width: 100%;
-      }
+      display: block;
+      color: $primary-color;
     }
   }
 }
@@ -283,7 +282,8 @@ h6:hover .header-link {
     color: $text-color;
     background-color: mix($white, $primary-color, 90%);
     border-radius: $border-radius;
-    border-bottom-width: 0 !important;
+    border-bottom-width: 0 !important; // override
+    box-shadow: none !important; // override
     span {
       vertical-align: super;
       color: $link-color;
@@ -340,17 +340,17 @@ h6:hover .header-link {
 
 h3.author-name {
   margin-top: 0;
-  @include font-size(20,no);
+  @include font-size(20, no);
 }
 
 .author-bio {
   margin-top: 0;
-  @include font-size(16,12);
+  @include font-size(16, 12);
 }
 
 .author-follow {
   margin-top: 0;
-  @include font-size(16,no);
+  @include font-size(16, no);
 }
 
 /*

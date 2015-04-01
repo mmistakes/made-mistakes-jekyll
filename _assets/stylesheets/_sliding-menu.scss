@@ -101,7 +101,7 @@
       @include media($small) {
         @include font-size(48,no,1);
       }
-      font-family: $base-font;
+      font-family: Oswald;
       text-transform: uppercase;
       font-weight: 400;
     }
@@ -136,7 +136,7 @@
       left: 0;
       margin-bottom: 0;
       width: 50px;
-      border: 2px solid $white;
+      border: 4px solid $white;
       margin-bottom: ($gutter / 2);
       opacity: 0.6;
       @include media($small) {
@@ -149,21 +149,23 @@
     .title {
       display: block;
       margin-left: 60px;
-      font-family: $alt-font;
-      @include font-size(24,no);
-      font-weight: 700;
+      font-family: Oswald;
+      @include font-size(24, 5);
+      font-weight: 400;
+      text-transform: uppercase;
       @include media($small) {
         margin-left: 170px;
-        @include font-size(32,no);
+        @include font-size(32, 5);
       }
     }
     .excerpt {
       margin-top: 0;
       margin-left: 60px;
-      @include font-size(14,no);
+      font-family: $heading-font;
+      @include font-size(14, no, 18);
       @include media($small) {
         margin-left: 170px;
-        @include font-size(16,no);
+        @include font-size(16, no, 20);
       }
     }
   }

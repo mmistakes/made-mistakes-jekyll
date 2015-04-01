@@ -42,6 +42,13 @@
   @at-root .page-content #{&} h4 {
     @include font-size(18, no); /* using root to override .page-content h4 font size */
   }
+  @at-root .page-content #{&} a {
+    border-bottom-width: 2px;
+    box-shadow: none !important; // override
+    &:hover {
+      background-color: transparent !important; // override
+    }
+  }
   p {
     @include font-size(16, no);
     padding: 0 $gutter;

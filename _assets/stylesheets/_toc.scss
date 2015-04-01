@@ -32,7 +32,6 @@
       display: block;
       padding: 7px 1.618rem;
       color: $text-color;
-      border-left: 2px solid transparent;
       &:hover,
       &:focus {
         background: mix($white, $border-color, 5%);
@@ -40,8 +39,12 @@
     }
   }
   h6 {
-    margin: 0;
-    padding: 7px 1.618rem;
+    margin-top: 0;
+    padding: 10px 1.618rem;
+    font-family: Oswald;
+    @include font-size(16, no, 16);
+    font-weight: 400;
+    text-transform: uppercase;
     background: $table-stripe-color;
     &:hover {
       background: mix($white, $border-color, 5%);

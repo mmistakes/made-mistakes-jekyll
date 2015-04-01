@@ -17,6 +17,7 @@
   text-decoration: none;
   border: 0 !important;
   border-radius: $border-radius;
+  box-shadow: none !important; // override
   transition: background 0.2s, border 0.2s;
   &:hover {
     color: $white !important;

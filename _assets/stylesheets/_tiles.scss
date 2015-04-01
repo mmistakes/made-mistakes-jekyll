@@ -10,13 +10,15 @@
   .entry-date {
     margin-top: 0;
     font-family: $alt-font;
-    @include font-size(12,no);
+    @include font-size(12, no);
     text-transform: uppercase;
     color: mix($white, $caption-color, 20%);
   }
 
   .post-title {
-    @include font-size(18,no);
+    font-family: Oswald;
+    @include font-size(18, no);
+    font-weight: 400;
     margin-top: 16px;
     a {
       text-decoration: none;
@@ -25,7 +27,7 @@
   }
 
   .post-excerpt {
-    @include font-size(14,no,21);
+    @include font-size(14, no, 21);
     margin-top: 6px;
   }
 
@@ -71,7 +73,7 @@
     }
     &:hover {
       &:before {
-        background: rgba($primary-color,0.5);
+        background: rgba($primary-color, 0.5);
       }
       &:after {
         opacity: 0.4;

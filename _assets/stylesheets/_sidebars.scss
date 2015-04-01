@@ -9,12 +9,15 @@
     @include omega;
     clear: none;
   }
-  transition: 500ms cubic-bezier(.645,.045,.355,1.000);
+  transition: 500ms cubic-bezier(.645, .045, .355, 1.000);
   figcaption {
     margin-bottom: 0;
   }
   h3 {
-    @include font-size(22,no);
+    font-family: Oswald;
+    @include font-size(20, no);
+    font-weight: 400;
+    text-transform: uppercase;
     margin-top: $gutter;
     padding-bottom: $gutter / 4;
     border-bottom: 1px solid $border-color;
@@ -26,16 +29,16 @@
   }
   li {
     list-style: none;
-    @include font-size(14,14,1);
+    @include font-size(14, 14, 1);
     @include media($small) {
-      @include font-size(16,16,1);
+      @include font-size(16, 16, 1);
     }
     font-family: $heading-font;
     span {
       font-family: $base-font;
-      @include font-size(12,no,14);
+      @include font-size(12, no, 14);
       @include media ($small) {
-        @include font-size(14,no,16);
+        @include font-size(14, no, 16);
       }
       font-style: italic;
     }

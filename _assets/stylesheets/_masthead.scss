@@ -18,7 +18,7 @@
   @extend .drop;
 }
 
-/* 
+/*
    Site logo in masthead
    ========================================================================== */
 
@@ -46,14 +46,14 @@
   height: $masthead-height;
   text-decoration: none;
   color: $primary-color;
-  font-family: $alt-font;
-  font-weight: 700;
-  @include font-size(20,no);
+  font-family: Oswald;
+  font-weight: 400;
+  @include font-size(22, no);
   line-height: .5 * $masthead-height; /* half the height to center vertically */
   text-transform: uppercase;
 }
 
-/* 
+/*
    Masthead navigation links
    ========================================================================== */
 
@@ -76,9 +76,9 @@
       height: $masthead-height;
       margin-right: $gutter;
       padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
-      font-family: $alt-font;
-      font-weight: 700;
-      @include font-size(16,no);
+      font-family: Oswald;
+      font-weight: 400;
+      @include font-size(18, no);
       line-height: .5 * $masthead-height; // half the height to center vertically
       color: $primary-color;
       text-transform: uppercase;
@@ -95,7 +95,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 2px;
+        height: 4px;
         transition: width 0.3s;
       }
       &:before {
@@ -104,7 +104,7 @@
       }
       &:after {
         width: 0;
-        background: $primary-color;
+        background: #f3bc15;
       }
       &:active:after,
       &:hover:after {

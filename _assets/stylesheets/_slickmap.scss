@@ -97,6 +97,7 @@
   background: $sitemap-primary-color;
   border: 2px solid mix($black, $sitemap-primary-color, 30%);
   border-radius: 5px;
+  box-shadow: none;
 }
 #primaryNav li a:hover {
   background-color: mix($white, $sitemap-primary-color, 10%);
