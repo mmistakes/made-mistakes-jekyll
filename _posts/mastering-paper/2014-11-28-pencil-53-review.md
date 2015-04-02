@@ -150,7 +150,7 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
     </li>
   </ul>
   <div class="review-desc">
-    <p class="review-summary-title"><strong>Summary</strong></p>
+    <p class="review-summary-title">Summary</p>
     <p itemprop="reviewBody">If you're a casual doodler looking for a well built stylus that mimics traditional drawing utensils and have a need for palm rejection, then Pencil should be your number one choice. On the other hand if you're a pro-user who relies on pressure sensitivity to work in other iOS apps, you may be left wanting more.</p>
     <p><small><span itemprop="author" itemscope="" itemtype="http://schema.org/Person">Reviewed by: <span itemprop="name">{{ site.owner.name }}</span> </span> on <meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}"> {{ page.date | date: "%B %d, %Y" }}</small></p>
     <p><a href="http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2" class="btn-inverse">Buy Now</a></p>
