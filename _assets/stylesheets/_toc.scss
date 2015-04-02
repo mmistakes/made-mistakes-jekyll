@@ -41,9 +41,9 @@
   h6 {
     margin-top: 0;
     padding: 10px 1.618rem;
-    font-family: Oswald;
+    font-family: $heading-font-title;
     @include font-size(16, no, 16);
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     background: $table-stripe-color;
     &:hover {

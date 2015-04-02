@@ -6,9 +6,9 @@
 .breadcrumbs {
   @include clearfix;
   font-family: $alt-font;
-  @include font-size(12,no,21);
+  @include font-size(14, no, 21);
+  font-weight: 400;
   text-align: left;
-  text-transform: uppercase;
   a {
     display: inline-block;
     color: $text-color;
@@ -17,7 +17,6 @@
 }
 
 .page-meta {
-  margin-top: $gutter;
   opacity: 0.5;
   transition: opacity 0.2s ease-out;
   &:hover {
@@ -35,22 +34,5 @@
 .page-feature-header {
   .breadcrumbs {
     margin-top: $gutter;
-  }
-}
-
-/*
-   Breacrumbs + Feature image with Overlay (light on dark)
-   ========================================================================== */
-
-.overlay .page-meta,
-.overlay .breadcrumbs { /* Overlay meta description and tags */
-  @include media($small) {
-    span {
-      color: $white;
-      text-shadow: 1px 1px 0 $black;
-      a {
-        color: $white;
-      }
-    }
   }
 }

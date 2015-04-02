@@ -75,13 +75,10 @@
   /* Introductory paragraph */
   > p {
     &:first-child {
-      @include font-size(20,yes,28);
+      margin-top: 0;
+      @include font-size(20, yes, 28);
       @include media($small) {
-        @include font-size(24,yes,34);
-        // a {
-        //   color: $text-color;
-        //   border-bottom-color: mix($white, $text-color, 70%);
-        // }
+        @include font-size(24, yes, 34);
       }
     }
   }
@@ -122,27 +119,27 @@
   h1 { /* Default page title */
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Oswald, sans-serif;
-    font-weight: 400;
-    @include font-size(28, no, 28);
+    font-family: $heading-font-title;
+    font-weight: 500;
+    letter-spacing: -1px;
+    @include font-size(28, no, 1);
     @include media($small) {
-      @include font-size(42, no, 42);
+      @include font-size(42, no, 1);
     }
     @include media($medium) {
-      @include font-size(64, no, 64);
+      @include font-size(64, no, 1);
     }
   }
   h2 { /* Default page sub-headline */
-    margin-top: 10px;
-    font-family: Oswald;
+    margin-top: 0;
+    font-family: $heading-font-title;
     font-weight: 400;
-    text-transform: uppercase;
-    @include font-size(20, yes, 1.25);
+    @include font-size(24, yes, 1.25);
     @include media($small) {
-      @include font-size(28, yes, 1.25);
+      @include font-size(32, yes, 1.25);
     }
     @include media($medium) {
-      @include font-size(32, yes, 1.25);
+      @include font-size(42, yes, 1.25);
     }
   }
 }
@@ -163,31 +160,34 @@
       position: absolute;
       bottom: 0;
       z-index: 1;
-      @include span-columns(10);
+      @include span-columns(9.5);
       margin-left: (-1 * $gutter);
-      margin-bottom: $gutter;
-      padding: 20px 20px 20px $gutter;
+      padding-top: 20px;
+      padding-right: $gutter;
+      padding-bottom: 0;
+      padding-left: $gutter;
       background: $white;
     }
     @include media($medium) {
       margin-left: (-2 * $gutter);
-      margin-bottom: (2 * $gutter);
       padding-left: (2 * $gutter);
+      padding-right: (2 * $gutter);
     }
     @include media($large) {
-      margin-left: (-2.5 * $gutter);
-      padding-left: (2.5 * $gutter);
+      margin-left: (-1.25 * $gutter);
+      padding-left: (1.25 * $gutter);
+      padding-right: (1.25 * $gutter);
     }
   }
-  &.overlay .page-title:after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 100%;
-    height: 10px;
-    background: transparent url(../images/45-stripes.png);
-  }
+  // &.overlay .page-title:after {
+  //   content: "";
+  //   position: absolute;
+  //   bottom: -10px;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 10px;
+  //   background: transparent url(../images/45-stripes.png);
+  // }
   &.overlay h1 { /* Overlay page title */
     @include media($small) {
       display: block;

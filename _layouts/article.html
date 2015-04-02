@@ -12,12 +12,11 @@ layout: default
       </div><!-- /.page-image -->
       {% endif %}
       <div class="page-title">
+        {% include breadcrumbs.html %}
         <h1><span>{{ page.title }}</span></h1>
-        {% if page.subtitle %}<h2><span>{{ page.subtitle }}</span></h2>{% endif %}
       </div><!-- /.page-title -->
     </div><!-- /.page-header -->
     <div class="inner-wrap">
-      {% include breadcrumbs.html %}
       <div id="content" class="page-content" itemprop="articleBody">
         {{ content }}
         {% if page.share != false %}{% include share-this.html %}{% endif %}

@@ -14,9 +14,9 @@
     margin-bottom: 0;
   }
   h3 {
-    font-family: Oswald;
+    font-family: $heading-font-title;
     @include font-size(20, no);
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     margin-top: $gutter;
     padding-bottom: $gutter / 4;

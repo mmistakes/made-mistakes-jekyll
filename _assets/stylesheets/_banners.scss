@@ -24,7 +24,7 @@
     width: 100%;
     text-align: center;
     display: block;
-    @include font-size(9,no);
+    @include font-size(12, no);
     font-family: $alt-font;
   }
   ins {
