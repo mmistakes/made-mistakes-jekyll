@@ -17,6 +17,7 @@
 }
 
 .page-meta {
+  margin-top: $gutter;
   opacity: 0.5;
   transition: opacity 0.2s ease-out;
   &:hover {
@@ -27,12 +28,6 @@
   }
 }
 
-/*
-   Breadcrumbs + Feature image
-   ========================================================================== */
-
-.page-feature-header {
-  .breadcrumbs {
-    margin-top: $gutter;
-  }
+.breadcrumbs {
+  margin-bottom: $gutter;
 }

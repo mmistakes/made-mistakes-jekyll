@@ -1,7 +1,7 @@
-<nav class="breadcrumbs">
 {% if page.categories and page.categories != empty %}
+<nav class="breadcrumbs">
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> › 
+    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> ›
   </span>
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
     <a href="{{ site.url }}/{{ page.categories | first }}/" itemprop="url">
@@ -13,15 +13,18 @@
           {% endif %}
         {% endfor %}
       </span>
-    </a> › 
+    </a> ›
   </span>
-{% endif %}
-{% if page.url contains page.collection %}
-  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> › 
-  </span>
-  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}/{{ page.collection }}/" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a> › 
-  </span>
-{% endif %}
 </nav><!-- /.breadcrumbs -->
+{% endif %}
+
+{% if page.url contains page.collection %}
+<nav class="breadcrumbs">
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> ›
+  </span>
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}/{{ page.collection }}/" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a> ›
+  </span>
+</nav><!-- /.breadcrumbs -->
+{% endif %}
