@@ -55,10 +55,10 @@
   p > a,
   li > a,
   td > a {
-    border-bottom: 1px solid #f3bc15;
-    box-shadow: inset 0 -5px 0 #f3bc15;
+    border-bottom: 1px solid $highlighter-color;
+    box-shadow: inset 0 -5px 0 $highlighter-color;
     &:hover {
-      background: #f3bc15;
+      background: $highlighter-color;
     }
   }
   .toc li > a {
@@ -127,6 +127,9 @@
       @include font-size(42, no, 1);
     }
     @include media($medium) {
+      @include font-size(50, no, 1);
+    }
+    @include media($large) {
       @include font-size(64, no, 1);
     }
   }
@@ -139,7 +142,7 @@
       @include font-size(32, yes, 1.25);
     }
     @include media($medium) {
-      @include font-size(42, yes, 1.25);
+      @include font-size(40, yes, 1.25);
     }
   }
 }
@@ -162,7 +165,7 @@
       z-index: 1;
       @include span-columns(9.5);
       margin-left: (-1 * $gutter);
-      padding-top: 20px;
+      padding-top: $gutter;
       padding-right: $gutter;
       padding-bottom: 0;
       padding-left: $gutter;
@@ -179,15 +182,15 @@
       padding-right: (1.25 * $gutter);
     }
   }
-  // &.overlay .page-title:after {
-  //   content: "";
-  //   position: absolute;
-  //   bottom: -10px;
-  //   left: 0;
-  //   width: 100%;
-  //   height: 10px;
-  //   background: transparent url(../images/45-stripes.png);
-  // }
+  &.overlay .page-title:before { /* striped border edge */
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: transparent url(../images/45-stripes.png);
+  }
   &.overlay h1 { /* Overlay page title */
     @include media($small) {
       display: block;
@@ -346,6 +349,13 @@ h3.author-name {
 .author-bio {
   margin-top: 0;
   @include font-size(16, 12);
+  a {
+    border-bottom: 2px solid $text-color !important; // override
+    box-shadow: none !important; // override
+    &:hover {
+      background-color: transparent !important // override
+    }
+  }
 }
 
 .author-follow {

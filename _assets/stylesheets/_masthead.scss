@@ -51,6 +51,35 @@
   @include font-size(22, no);
   line-height: .5 * $masthead-height; /* half the height to center vertically */
   text-transform: uppercase;
+  // line hover effect
+  position: relative;
+  display: block;
+  &:hover {
+    color: $link-color-hover;
+  }
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    height: 5px;
+    z-index: -1;
+    transition: width 0.3s;
+  }
+  &:before {
+    width: 100%;
+    background: transparent;
+  }
+  &:after {
+    width: 0;
+    background: $highlighter-color;
+  }
+  &:active:after,
+  &:hover:after {
+    width: 100%;
+  }
 }
 
 /*
@@ -93,9 +122,10 @@
         content: '';
         display: block;
         position: absolute;
-        top: 0;
+        top: 38px;
         left: 0;
-        height: 4px;
+        height: 5px;
+        z-index: -1;
         transition: width 0.3s;
       }
       &:before {
@@ -104,7 +134,7 @@
       }
       &:after {
         width: 0;
-        background: #f3bc15;
+        background: $highlighter-color;
       }
       &:active:after,
       &:hover:after {

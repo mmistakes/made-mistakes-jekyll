@@ -33,6 +33,8 @@ $body-color                   : $white;
 $text-color                   : mix($black, $gray, 25%);
 $caption-color                : mix($white, $text-color, 25%);
 
+$highlighter-color            : #f3bc15;
+
 $primary-color                : mix($black, $gray, 35%);
 $success-color                : mix($gray, #2ecc71, 15%);
 $warning-color                : mix($gray, #f3bc15, 15%);
