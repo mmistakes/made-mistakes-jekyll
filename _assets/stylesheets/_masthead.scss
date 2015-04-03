@@ -57,6 +57,9 @@
   &:hover {
     color: $link-color-hover;
   }
+  &:focus {
+    outline: none;
+  }
   &:before,
   &:after {
     content: '';
@@ -77,7 +80,8 @@
     background: $highlighter-color;
   }
   &:active:after,
-  &:hover:after {
+  &:hover:after,
+  &:focus:after {
     width: 100%;
   }
 }
@@ -117,6 +121,9 @@
       &:hover {
         color: $link-color-hover;
       }
+      &:focus {
+        outline: none;
+      }
       &:before,
       &:after {
         content: '';
@@ -137,7 +144,8 @@
         background: $highlighter-color;
       }
       &:active:after,
-      &:hover:after {
+      &:hover:after,
+      &:focus:after {
         width: 100%;
       }
     }

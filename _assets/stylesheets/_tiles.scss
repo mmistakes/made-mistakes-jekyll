@@ -81,6 +81,9 @@
         transform: scale(1.25);
       }
     }
+    &:focus {
+      box-shadow: 10px 10px $link-color;
+    }
   }
 }
 

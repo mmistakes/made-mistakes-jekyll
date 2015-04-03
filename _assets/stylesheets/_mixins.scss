@@ -4,9 +4,9 @@
 
 %tab-focus {
   // Default
-  outline: thin dotted #333;
+  outline: thin dotted $highlighter-color;
   // Webkit
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto $highlighter-color;
   outline-offset: -2px;
 }
 
