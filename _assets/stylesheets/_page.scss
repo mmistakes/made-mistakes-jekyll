@@ -211,6 +211,18 @@
   margin-top: -1 * $gutter; /* Match .wrap padding */
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
+  /* striped overlay */
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $gutter;
+    @include media($medium) {
+      height: (2 * $gutter);
+    }
+    background: transparent url(../images/45-stripes.png);
+  }
   @include media($medium) {
     margin-top: -2 * $gutter; /* Match .wrap padding */
     margin-left: -2 * $gutter;
@@ -224,18 +236,16 @@
 
   .image-credit { /* Position and style image credit caption */
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     right: 0;
     margin: 0 auto;
     padding: 5px 7px;
-    background-color: rgba($black,.5);
-    color: $white;
+    background-color: $white;
     font-family: $alt-font;
     @include font-size(12,no);
     text-align: right;
     z-index: 5;
     a {
-      color: $white;
       text-decoration: none;
     }
   }
