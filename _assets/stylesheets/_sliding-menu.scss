@@ -150,7 +150,7 @@
       display: block;
       margin-left: 60px;
       font-family: $heading-font-title;
-      @include font-size(36, 5, 1);
+      @include font-size(24, 5, 1);
       font-weight: 500;
       @include media($small) {
         margin-left: 170px;
