@@ -189,7 +189,7 @@
     left: 0;
     width: 100%;
     height: 5px;
-    background: transparent url(../images/45-stripes.png);
+    background: transparent url(../images/45-stripes.svg);
   }
   &.overlay h1 { /* Overlay page title */
     @include media($small) {
@@ -221,7 +221,7 @@
     @include media($medium) {
       height: (2 * $gutter);
     }
-    background: transparent url(../images/45-stripes.png);
+    background: transparent url(../images/45-stripes.svg);
   }
   @include media($medium) {
     margin-top: -2 * $gutter; /* Match .wrap padding */
