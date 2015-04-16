@@ -28,7 +28,7 @@ The key to the "faux" layer trick is matching the color you sketch with exactly 
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-default-background-mix.jpg" alt="default background color">
-  <figcaption>Default background color mix: **48**/**2**/**96**</figcaption>
+  <figcaption>Default background color mix: <strong>48</strong>/<strong>2</strong>/<strong>96</strong></figcaption>
 </figure>
 
 There's two ways of getting this color into your Paper palette:
