@@ -13,7 +13,7 @@
 }
 
 .masthead-contents {
-  @include outer-container;
+  @include container;
   @extend .animated;
   @extend .drop;
 }

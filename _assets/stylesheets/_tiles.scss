@@ -98,7 +98,7 @@
    ========================================================================== */
 
 .tile {
-  @include outer-container;
+  @include container;
   margin-bottom: 2 * $gutter;
   @include breakpoint($micro-only) {
     @include fill-parent;

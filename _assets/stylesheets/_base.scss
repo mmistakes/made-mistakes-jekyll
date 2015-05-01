@@ -202,7 +202,7 @@ figure {
     }
   }
   &.half {
-    @include outer-container;
+    @include container;
     @include breakpoint($small) {
       a,
       > img {
@@ -215,7 +215,7 @@ figure {
     }
   }
   &.third {
-    @include outer-container;
+    @include container;
     @include breakpoint($small) {
       a,
       > img {

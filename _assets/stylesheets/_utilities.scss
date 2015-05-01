@@ -9,7 +9,7 @@
 /* Content wrapper */
 
 .wrap {
-  @include outer-container;
+  @include container;
   padding: $gutter;
   // box-shadow: 0 0 5px mix($black, $background-color, 20%);
   @include breakpoint($medium) {

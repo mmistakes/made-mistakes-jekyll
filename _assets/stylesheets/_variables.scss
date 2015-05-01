@@ -124,10 +124,15 @@ $masthead-height: $button-size * 2;
 
 
 /*
-   Grid variabls
+   Grid variables
    ========================================================================== */
 
 $breakpoint-to-ems: true;
+$susy: (
+  columns: 12,
+  gutters: .25,
+  container: 1280px
+);
 
 $micro-only: 240px 480px;
 $small: 600px;
