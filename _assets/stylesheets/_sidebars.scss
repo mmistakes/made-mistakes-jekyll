@@ -4,7 +4,7 @@
 
 .sidebar {
   clear: both;
-  @include media($medium) {
+  @include breakpoint($medium) {
     @include span-columns(4);
     @include omega;
     clear: none;
@@ -30,7 +30,7 @@
   li {
     list-style: none;
     @include font-size(14, 14, 1);
-    @include media($small) {
+    @include breakpoint($small) {
       @include font-size(16, 16, 1);
     }
     font-family: $heading-font;

@@ -31,7 +31,7 @@
     &:hover {
       border: 3px solid $white;
     }
-    @include media($medium) {
+    @include breakpoint($medium) {
       width: 110px;
       height: 110px;
       border-radius: 110px;

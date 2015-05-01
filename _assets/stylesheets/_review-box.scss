@@ -44,7 +44,7 @@ h5.review-title {
 
 .review-desc {
   @include clearfix;
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: left;
     width: 75%;
   }
@@ -60,7 +60,7 @@ h5.review-title {
 }
 
 .review-total-wrapper {
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: right;
   }
   margin: 0;

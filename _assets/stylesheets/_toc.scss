@@ -9,7 +9,7 @@
 .toc {
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
-  @include media($medium) {
+  @include breakpoint($medium) {
     margin-left: 0;
     margin-right: 0;
   }
@@ -18,13 +18,13 @@
     margin-top: $gutter;
     margin-bottom: $gutter;
     border: 1px solid $border-color;
-    @include media($medium) {
+    @include breakpoint($medium) {
       border-radius: $border-radius;
     }
   }
   li {
     @include font-size(14,no,16);
-    @include media($small) {
+    @include breakpoint($small) {
       @include font-size(16,no,18);
     }
     border-bottom: 1px solid $border-color;
@@ -61,13 +61,13 @@
 
 .toc-left {
   @include span-columns(12);
-  @include media($medium) {
+  @include breakpoint($medium) {
     @include span-columns(4);
   }
   margin-left: 0;
   ul {
     margin-top: 0;
-    @include media($small) {
+    @include breakpoint($small) {
       margin-bottom: 0.5 * $gutter;
     }
   }

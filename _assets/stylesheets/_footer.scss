@@ -9,12 +9,12 @@
   padding: $gutter $gutter (2.25 * $gutter);
   text-align: center;
   background: $background-color;
-  @include media($medium) {
+  @include breakpoint($medium) {
     padding-left: 2 * $gutter;
     padding-right: 2 * $gutter;
     padding-bottom: $gutter;
   }
-  // @include media($large) {
+  // @include breakpoint($large) {
   //   text-align: left;
   // }
   font-family: $alt-font;
@@ -38,7 +38,7 @@
     }
   }
   .wrap {
-    @include media($micro-only) {
+    @include breakpoint($micro-only) {
       padding: 0;
     }
   }
@@ -47,7 +47,7 @@
 /* Footer menu links */
 
 .footer-links {
-  // @include media($large) {
+  // @include breakpoint($large) {
   //   float: left;
   // }
   li {
@@ -55,7 +55,7 @@
     a {
       margin-left: ($gutter / 2);
       margin-right: ($gutter / 2);
-      @include media($large) {
+      @include breakpoint($large) {
         margin-left: 0;
         margin-right: $gutter;
       }

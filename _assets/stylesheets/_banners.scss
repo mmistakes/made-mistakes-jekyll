@@ -12,7 +12,7 @@
   margin-top: $gutter;
   margin-left: -$gutter;
   margin-right: -$gutter;
-  @include media($medium) {
+  @include breakpoint($medium) {
     margin-left: 0;
     margin-right: 0;
   }

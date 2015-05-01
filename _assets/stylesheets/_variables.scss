@@ -124,6 +124,19 @@ $masthead-height: $button-size * 2;
 
 
 /*
+   Grid variabls
+   ========================================================================== */
+
+$breakpoint-to-ems: true;
+
+$micro-only: 240px 480px;
+$small: 600px;
+$medium: 900px;
+$large: 1280px;
+
+
+
+/*
    Visual sitemap
    ========================================================================== */
 

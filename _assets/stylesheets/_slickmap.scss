@@ -25,7 +25,7 @@
 #primaryNav.col5 li { width: 20.0%; }
 #primaryNav.col6 li {
   width: 100%;
-  @include media($medium) {
+  @include breakpoint($medium) {
     width: 16.6%;
   }
 }
@@ -62,7 +62,7 @@
 #primaryNav {
   margin: 0;
   padding: 0;
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: left;
   }
   width: 100%;
@@ -79,7 +79,7 @@
   }
 }
 #primaryNav li {
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: left;
     background: url('../images/L1-center.png') center top no-repeat;
   }
@@ -104,12 +104,12 @@
   border-color: $sitemap-primary-color;
 }
 #primaryNav li:last-child {
-  @include media($medium) {
+  @include breakpoint($medium) {
     background: url('../images/L1-right.png') center top no-repeat; /* bg on >= medium screens */
   }
 }
 #primaryNav > li:last-child {
-  @include media($medium) {
+  @include breakpoint($medium) {
     a {
       margin-right: 0; /* remove right margin on last list element */
     }
@@ -123,7 +123,7 @@
   clear: left;
   margin-top: 0;
   padding: 10px 0 0 0;
-  @include media($medium) {
+  @include breakpoint($medium) {
     background: url('../images/vertical-line.png') center bottom repeat-y; /* bg on >= medium screens */
   }
 }
@@ -139,7 +139,7 @@
     padding-top: 30px;
 }
 #primaryNav li li:last-child {
-  @include media($medium) {
+  @include breakpoint($medium) {
     background: url('../images/vertical-line.png') center bottom repeat-y; /* bg on >= medium screens */
   }
 }
@@ -150,16 +150,16 @@
   margin: 10px 0 0 0;
   padding-bottom: 0;
   width: 100%;
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: right;
   }
   padding: 9px 0 10px 0;
-  @include media($medium) {
+  @include breakpoint($medium) {
     background: $white url('../images/L3-ul-top.png') center top no-repeat; /* bg on >= medium screens */
   }
 }
 #primaryNav li li li {
-  @include media($medium) {
+  @include breakpoint($medium) {
     background: url('../images/L3-center.png') left center no-repeat; /* bg on >= medium screens */
   }
   padding: 5px 0;
@@ -170,7 +170,7 @@
   font-size: 12px;
   padding: 5px;
   width: 80%;
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: right;
   }
 }
@@ -180,12 +180,12 @@
 }
 #primaryNav li li li:first-child {
   padding: 15px 0 5px 0;
-  @include media($medium) {
+  @include breakpoint($medium) {
     background: url('../images/L3-li-top.png') left center no-repeat; /* bg on >= medium screens */
   }
 }
 #primaryNav li li li:last-child {
-  @include media($medium) {
+  @include breakpoint($medium) {
     padding-botom: 0;
     background: url('../images/L3-bottom.png') left center no-repeat; /* bg on >= medium screens */
   }
@@ -197,14 +197,14 @@
    ========================================================================== */
 
 #utilityNav {
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: right;
   }
   max-width: 50%;
   margin-right: 10px;
 }
 #utilityNav li {
-  @include media($medium) {
+  @include breakpoint($medium) {
     float: left;
   }
   margin-bottom: 10px;
@@ -220,7 +220,7 @@
   color: black;
   border-radius: 5px;
   box-shadow: 0 0 5px mix($black, $background-color, 30%);
-  @include media($medium) {
+  @include breakpoint($medium) {
     background: $sitemap-sub-sub-color url('../images/white-highlight.png') top left repeat-x; /* bg on >= medium screens */
   }
 }

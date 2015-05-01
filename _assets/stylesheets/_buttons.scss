@@ -202,7 +202,7 @@ $social:
     padding: 0;
     list-style: none;
   }
-  @include media($micro-only) {
+  @include breakpoint($micro-only) {
     .fa {
       padding-right: 0;
     }

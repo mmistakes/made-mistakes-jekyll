@@ -4,7 +4,7 @@
 
 #masthead {
   padding: $gutter;
-  @include media($medium) {
+  @include breakpoint($medium) {
     padding-left: 2 * $gutter;
     padding-right: 2 * $gutter;
   }
@@ -24,14 +24,14 @@
 
 .logo-wrap {
   @include row;
-  @include media($large) {
+  @include breakpoint($large) {
     @include span-columns(3.5);
   }
 }
 
 .site-logo {
   display: none;
-  @include media($medium) {
+  @include breakpoint($medium) {
     display: block;
     float: left;
     margin-right: 10px;
@@ -93,7 +93,7 @@
 .top-menu {
   display: none;
   position: relative;
-  @include media($large) {
+  @include breakpoint($large) {
     @include span-columns(7.5);
     ul {
       position: absolute;

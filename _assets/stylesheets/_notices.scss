@@ -14,7 +14,7 @@
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
   background-color: mix($white, $notice-color, 80%);
-  @include media($medium) {
+  @include breakpoint($medium) {
     margin-left: 0;
     margin-right: 0;
     border-radius: $border-radius;
@@ -23,7 +23,7 @@
     padding: (0.5 * $gutter) $gutter;
     background-color: $notice-color;
     color: $white;
-    @include media($medium) {
+    @include breakpoint($medium) {
       border-top-left-radius: $border-radius;
       border-top-right-radius: $border-radius;
     }

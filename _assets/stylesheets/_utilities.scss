@@ -12,10 +12,10 @@
   @include outer-container;
   padding: $gutter;
   // box-shadow: 0 0 5px mix($black, $background-color, 20%);
-  @include media($medium) {
+  @include breakpoint($medium) {
     padding: (2 * $gutter);
   }
-  @include media($large) {
+  @include breakpoint($large) {
     padding: (1.25 * $gutter) (2.5 * $gutter);
   }
 }
@@ -23,7 +23,7 @@
 /* Inner wrap (to be used with ads to the right) */
 
 .inner-wrap {
-  @include media($medium) {
+  @include breakpoint($medium) {
     @include span-columns(8);
   }
 }
@@ -66,7 +66,7 @@
   li {
     display: inline-block;
     &:last-child a {
-      @include media($large) {
+      @include breakpoint($large) {
         margin-right: 0; /* remove spacing from last menu link */
       }
     }
@@ -118,11 +118,11 @@
 
 .shorten {
   @include clearfix;
-  @include media($medium) {
+  @include breakpoint($medium) {
     @include row;
     @include span-columns(10);
   }
-  @include media($large) {
+  @include breakpoint($large) {
     @include span-columns(9);
   }
 }
@@ -143,7 +143,7 @@
 
 .float-right {
   clear: left;
-  @include media($large) {
+  @include breakpoint($large) {
     float: right;
     clear: none;
   }
@@ -163,7 +163,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  @include media($small) {
+  @include breakpoint($small) {
     float: right;
     margin-left: $gutter;
   }

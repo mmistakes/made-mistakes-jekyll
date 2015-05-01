@@ -100,7 +100,7 @@
 .tile {
   @include outer-container;
   margin-bottom: 2 * $gutter;
-  @include media($micro-only) {
+  @include breakpoint($micro-only) {
     @include fill-parent;
   }
   @include media(new-breakpoint(min-width em(480) 12)) {
@@ -116,7 +116,7 @@
 
 .tiles-3-4 {
   clear: both;
-  @include media($medium) {
+  @include breakpoint($medium) {
     clear: none;
     @include span-columns(8);
     margin-right: 0;
@@ -140,7 +140,7 @@
 
 .tile-equal {
   margin-bottom: $gutter;
-  @include media($small) {
+  @include breakpoint($small) {
     margin-bottom: 2.35765%; /* magic number from .tiles-3-4 grid margins */
   }
 }

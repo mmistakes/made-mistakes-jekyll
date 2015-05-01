@@ -15,14 +15,14 @@ body {
 
 p {
   @include font-size(16,yes,22);
-  @include media($small) {
+  @include breakpoint($small) {
     @include font-size(20,yes,28);
   }
 }
 
 li {
   @include font-size(16,8,22);
-  @include media($small) {
+  @include breakpoint($small) {
     @include font-size(20,9,28);
   }
 }
@@ -40,19 +40,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   @include font-size(24);
-  @include media($small) {
+  @include breakpoint($small) {
     @include font-size(36);
   }
 }
 h2 {
   @include font-size(22);
-  @include media($small) {
+  @include breakpoint($small) {
     @include font-size(32);
   }
 }
 h3 {
   @include font-size(18);
-  @include media($small) {
+  @include breakpoint($small) {
     @include font-size(28);
   }
 }
@@ -180,7 +180,7 @@ figure {
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
   // full width figures on small screens
-  @include media($small) {
+  @include breakpoint($small) {
     margin-left: 0;
     margin-right: 0;
     position: relative;
@@ -203,7 +203,7 @@ figure {
   }
   &.half {
     @include outer-container;
-    @include media($small) {
+    @include breakpoint($small) {
       a,
       > img {
         @include span-columns(6);
@@ -216,7 +216,7 @@ figure {
   }
   &.third {
     @include outer-container;
-    @include media($small) {
+    @include breakpoint($small) {
       a,
       > img {
         @include span-columns(4);
@@ -234,7 +234,7 @@ figure {
 figcaption {
   padding-left: $gutter;
   padding-right: $gutter;
-  @include media($small) {
+  @include breakpoint($small) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -279,7 +279,7 @@ fieldset {
   // margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
   padding: 0.5 * $gutter;
   border-radius: $form-border-radius;
-  @include media($medium) {
+  @include breakpoint($medium) {
     padding: $gutter;
   }
 }
