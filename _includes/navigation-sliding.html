@@ -1,17 +1,25 @@
 <nav role="navigation" id="js-menu" class="sliding-menu-content">
-  <h5>Made Mistakes <span>Table of Contents</span></h5>
-  <ul class="menu-item">
-    {% for link in site.data.navigation %}<li>
-      <a href="{{ link.url }}" onclick="ga('send', 'event', 'sliding menu', 'click', '{{ link.title }}');">
-        {% if link.image %}<img src="/images/{{ link.image }}" alt="teaser" class="teaser">{% endif %}
-        <div class="title">{{ link.title }}</div>
-        {% if link.excerpt %}<p class="excerpt">{{ link.excerpt }}</p>{% endif %}
-      </a>
-    </li>{% endfor %}
-  </ul>
-</nav>
-<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation" onclick="ga('send', 'event', 'sliding menu', 'click', 'button');">
-  <span class="lines"></span>
-</button>
+  <div class="inner-menu-wrap">
+    <button type="button" id="js-menu-close" class="sliding-menu-button-close lines-button x close" role="button" aria-label="Close Navigation">
+      <span class="lines"></span>
+    </button>
+    <ul class="menu-item">
+      {% for link in site.data.navigation %}<li>
+        <a href="{{ link.url }}" onclick="ga('send', 'event', 'sliding menu', 'click', '{{ link.title }}');">{{ link.title }}</a>
+      </li>{% endfor %}
+    </ul><!-- /.menu-item -->
+    <ul class="menu-item-footer">
+      {% for link in site.data.navigation-footer %}<li>
+        <a href="{{ link.url }}" onclick="ga('send', 'event', 'sliding menu', 'click', '{{ link.title }}');">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a>
+      </li>{% endfor %}
+    </ul><!-- /.menu-item-footer -->
+    <div class="menu-item-social">
+      {% if site.owner.twitter %}<a href="https://twitter.com/{{ site.owner.twitter }}" onclick="ga('send', 'event', 'sliding menu', 'click', 'Twitter follow');"><i class="fa fa-twitter"></i></a>{% endif %}
+      {% if site.owner.github %}<a href="https://github.com/{{ site.owner.github }}" onclick="ga('send', 'event', 'sliding menu', 'click', 'Github follow');"><i class="fa fa-github"></i></a>{% endif %}
+      {% if site.owner.facebook %}<a href="https://www.facebook.com/{{ site.owner.facebook }}" onclick="ga('send', 'event', 'sliding menu', 'click', 'Facebook follow');"><i class="fa fa-facebook"></i></a>{% endif %}
+      {% if site.owner.instagram %}<a href="http://instagram.com/{{ site.owner.instagram }}" onclick="ga('send', 'event', 'sliding menu', 'click', 'Instagram follow');"><i class="fa fa-instagram"></i></a>{% endif %}
+    </div><!-- /.menu-item-social -->
+  </div><!-- /.inner-menu-wrap -->
+</nav><!-- /.sliding-menu-content -->
 
 <div id="js-menu-screen" class="menu-screen"></div>

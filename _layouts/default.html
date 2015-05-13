@@ -44,7 +44,7 @@
         var elem = document.createElement('link');
         var head = document.getElementsByTagName('head')[0];
         elem.rel = 'stylesheet';
-        elem.href = '//fonts.googleapis.com/css?family=Alegreya+Sans:300,400,400italic,500|Alegreya:400italic,400,700';
+        elem.href = 'https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,400italic,500|Alegreya:400italic,400,700';
         elem.media = 'only x';
         head.appendChild(elem);
         setTimeout(function () {
@@ -54,7 +54,7 @@
     </script>
     <!-- no-js fallback -->
     <noscript>
-      <link href="//fonts.googleapis.com/css?family=Alegreya+Sans:300,400,400italic,500|Alegreya:400italic,400,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,400italic,500|Alegreya:400italic,400,700" rel="stylesheet" type="text/css">
     </noscript>
 
     <!-- HTML5 Shiv and Media Query Support for IE -->
@@ -88,11 +88,9 @@
     {% include header.html %}
     {% include navigation-sliding.html %}
 
-    <div id="page-wrapper">
-      {{ content }}
-      <a href="#0" class="mm-top" onclick="ga('send', 'event', 'footer', 'click', 'back to top');">Top</a>
-      {% include footer.html %}
-    </div>
+    {{ content }}
+
+    {% include footer.html %}
 
     {% javascript main async %}
 

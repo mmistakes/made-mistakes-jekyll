@@ -28,7 +28,7 @@ li {
 }
 
 ul, ol {
-  padding-left: $gutter;
+  padding-left: gutter();
 }
 
 /* Headings */
@@ -85,12 +85,13 @@ a {
 /* Quoted text */
 
 blockquote {
-  padding-left: $gutter;
-  padding-right: $gutter;
-  border-left: 6px solid $info-color;
+  padding-left: gutter();
+  padding-right: gutter();
+  border-left: 6px solid $black;
   p {
     font-family: $alt-font;
     @include font-size(24);
+    font-style: italic;
   }
   cite {
     font-family: $base-font;
@@ -161,13 +162,9 @@ tr, td, th {
 
 hr {
   display: block;
-  margin: 0px + ($doc-line-height) 0;
-  // margin: 0rem + (($doc-line-height) / $doc-font-size) 0;
-  padding: 0;
+  margin: (0px + ($doc-line-height * 2)) 0;
   border: 0;
   border-top: 1px solid $border-color;
-  width: 2 * $column;
-  clear: both;
 }
 
 /*
@@ -177,54 +174,45 @@ hr {
 /* Figures and images */
 
 figure {
-  margin-left: -1 * $gutter;
-  margin-right: -1 * $gutter;
-  // full width figures on small screens
-  @include breakpoint($small) {
-    margin-left: 0;
-    margin-right: 0;
-    position: relative;
-  }
+  position: relative;
   @include clearfix;
-  img,
-  .fluid-width-video-wrapper,
-  .palette {
-    margin-bottom: (0px + $doc-line-height) / 2;
-    // margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+  margin-left: 0;
+  margin-right: 0;
+  /* add appropriate between figure and caption */
+  > a,
+  > img,
+  > iframe,
+  .fluid-width-video-wrapper {
+    margin-bottom: gutter(12);
   }
-  a {
-    img {
-      /* Image hover animation */
-      @include transition(box-shadow 0.3s);
-      &:hover {
-        box-shadow: 0 0 10px rgba($black, .20);
-      }
+  > a {
+    /* Image hover animation */
+    transition: box-shadow 0.3s;
+    &:hover {
+      box-shadow: 0 0 10px rgba($black, .20);
     }
   }
   &.half {
-    @include container;
-    @include breakpoint($small) {
-      a,
-      > img {
-        @include span-columns(6);
-        @include omega(2n);
+    > a,
+    > img {
+      @include breakpoint($small) {
+        @include gallery(6 of 12); // context of .entry-content columns
       }
-      figcaption {
-        clear: left;
-      }
+    }
+    figcaption {
+      clear: left;
     }
   }
   &.third {
-    @include container;
-    @include breakpoint($small) {
-      a,
-      > img {
-        @include span-columns(4);
-        @include omega(3n);
+    > a,
+    > img {
+      margin-bottom: gutter(12);
+      @include breakpoint($small) {
+        @include gallery(4 of 12);
       }
-      figcaption {
-        clear: left;
-      }
+    }
+    figcaption {
+      clear: left;
     }
   }
 }
@@ -232,14 +220,9 @@ figure {
 /* Figure captions */
 
 figcaption {
-  padding-left: $gutter;
-  padding-right: $gutter;
-  @include breakpoint($small) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  font-family: $alt-font;
-  @include font-size(14,yes);
+  margin-top: gutter(12);
+  font-family: $caption-font;
+  @include font-size(14, yes, 16);
   color: $caption-color;
   clear: both;
   a {
@@ -255,6 +238,7 @@ figcaption {
 .half,
 .third {
   & figcaption { /* Remove caption indents */
+    margin-top: 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -276,12 +260,8 @@ fieldset {
   background: $form-background ;
   border: 1px solid $form-border-color;
   margin-bottom: 0px + $doc-line-height;
-  // margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
-  padding: 0.5 * $gutter;
+  padding: gutter();
   border-radius: $form-border-radius;
-  @include breakpoint($medium) {
-    padding: $gutter;
-  }
 }
 
 input,
@@ -295,7 +275,6 @@ label {
   font-weight: 500;
   font-family: $alt-font;
   margin-bottom: (0px + $doc-line-height) / 4;
-  // margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 4;
   &.required:after {
     content: "*";
   }
@@ -305,7 +284,6 @@ label {
 }
 
 textarea,
-#{$all-text-inputs},
 select,
 select[multiple=multiple] {
   box-sizing: border-box;
@@ -317,9 +295,7 @@ select[multiple=multiple] {
   font-family: $form-font-family;
   font-size: $form-font-size;
   margin-bottom: (0px + $doc-line-height) / 2;
-  // margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
   padding: ((0px + $doc-line-height) / 3) ((0px + $doc-line-height) / 3);
-  // padding: ((0rem + ($doc-line-height / $doc-font-size)) / 3) ((0rem + ($doc-line-height / $doc-font-size)) / 3);
   width: 100%;
   &:hover {
     border-color: $form-border-color-hover;
@@ -336,13 +312,12 @@ textarea {
 }
 
 input[type="search"] {
-  @include appearance(none);
+  appearance: none;
 }
 
 input[type="checkbox"], input[type="radio"] {
   display: inline;
   margin-right: (0px + $doc-line-height) / 4;
-  // margin-right: (0rem + ($doc-line-height / $doc-font-size)) / 4;
 }
 
 input[type="file"] {
@@ -353,13 +328,12 @@ select {
   width: auto;
   max-width: 100%;
   margin-bottom: 0px + $doc-line-height;
-  // margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
 }
 
 form button,
 input[type="submit"] {
   @extend .btn;
-  @include appearance(none);
+  appearance: none;
   cursor: pointer;
   user-select: none;
   vertical-align: middle;

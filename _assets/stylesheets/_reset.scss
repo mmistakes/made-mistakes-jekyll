@@ -4,14 +4,14 @@
    ========================================================================== */
 
 /* Apply a natural box layout model to all elements */
- 
+
 *, *:before, *:after {
   box-sizing: border-box;
  }
 
 /* Remove margin */
 
-body { margin: 0; } 
+body { margin: 0; }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
 
@@ -45,7 +45,7 @@ audio:not([controls]) {
 }
 
 /* Base font settings */
-  
+
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;

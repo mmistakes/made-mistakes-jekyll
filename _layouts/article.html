@@ -3,46 +3,42 @@ layout: default
 ---
 
 <div id="main" role="main">
-  <article class="wrap" itemscope itemtype="http://schema.org/Article">
-    <div class="{% if page.image.feature %}page-feature-header overlay{% else %}page-header{% endif %}">
-      {% if page.image.feature %}
+
+  <article class="hentry" itemscope itemtype="http://schema.org/Article">
+
+    {% if page.image.feature %}
       <div class="page-image">
         <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
         {% if page.image.credit %}{% include image-credit.html %}{% endif %}
       </div><!-- /.page-image -->
-      {% endif %}
-      <div class="page-title">
-        {% include breadcrumbs.html %}
-        <h1><span>{{ page.title }}</span></h1>
-      </div><!-- /.page-title -->
-    </div><!-- /.page-header -->
-    <div class="inner-wrap">
-      <div id="content" class="page-content" itemprop="articleBody">
+    {% endif %}
+
+    <div class="article-wrap">
+
+      <h1 class="page-title">{{ page.title }}</h1>
+
+      {% include breadcrumbs.html %}
+
+      <div class="entry-content" id="content" itemprop="articleBody">
         {{ content }}
-        {% if page.share != false %}{% include share-this.html %}{% endif %}
         <footer class="page-footer">
           {% if page.categories %}{% include page-author.html %}{% endif %}
           {% include page-meta-footer.html %}
         </footer><!-- /.footer -->
       </div><!-- /.content -->
-    </div><!-- /.inner-wrap -->
-    <div class="sidebar">
-      {% if page.sidebar %}
-        {% capture sidebar %}{{ page.sidebar }}.html{% endcapture %}
-        {% include {{sidebar}} %}
+
+      <hr />
+
+      {% if page.comments == true %}
+        {% include comments.html %}
       {% endif %}
-      {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
-    </div><!-- /.sidebar -->
-  </article><!-- /.wrap -->
-  {% if page.path contains '_posts' %}
-  <div class="wrap">
-    {% include related-post.html %}
-  </div><!-- /.wrap -->
-  {% endif %}
-  {% if page.comments == true %}
-  <div class="wrap">
-    <aside class="inner-wrap">{% include comments.html %}</aside>
-    {% if page.ads != false %}<div class="sidebar ads">{% include advertising-comments.html %}</div><!-- /.ads -->{% endif %}
-  </div><!-- /.wrap -->
-  {% endif %}
+
+      {% if page.path contains '_posts' %}
+        {% include related-post.html %}
+      {% endif %}
+
+    </div><!-- /.article-wrap -->
+
+  </article><!-- /.hentry -->
+
 </div><!-- /#main -->

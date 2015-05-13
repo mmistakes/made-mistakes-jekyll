@@ -3,10 +3,10 @@
    ========================================================================== */
 
 .component {
-  margin-bottom: $gutter;
+  // margin-bottom: $gutter;
   background-color: $white;
   @include breakpoint($small) {
-    padding: $gutter;
+    // padding: $gutter;
     border-radius: $border-radius;
     border: 1px solid $border-color;
   }
@@ -23,9 +23,9 @@
     a {
       text-decoration: none;
     }
-    &.header-entry-last {
-      margin-bottom: $gutter;
-    }
+    // &.header-entry-last {
+    //   margin-bottom: $gutter;
+    // }
   }
 }
 
@@ -38,7 +38,7 @@
 .component-code {
   clear: both;
   position: relative;
-  margin-top: 0.5 * $gutter;
+  // margin-top: 0.5 * $gutter;
   padding-top: 30px;
   &:before {
     content: "HTML";
@@ -61,10 +61,10 @@
    ========================================================================== */
 
 .color-tile {
-  @include span-columns(4);
-  @include omega(3n);
-  margin-bottom: $gutter;
-  padding: $gutter 0;
+  // @include span-columns(4);
+  // @include omega(3n);
+  // margin-bottom: $gutter;
+  // padding: $gutter 0;
   text-align: center;
   border-radius: $border-radius;
   border: 1px solid $border-color;
@@ -130,7 +130,7 @@ $color:
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0.5 * $gutter;
+  // padding: 0.5 * $gutter;
   width: 100%;
   z-index: 9;
   background: $primary-color;

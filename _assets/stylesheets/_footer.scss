@@ -3,25 +3,17 @@
    ========================================================================== */
 
 #site-footer {
-  @include fill-parent;
-  margin-top: (2 * (0px + $doc-line-height));
-  // margin-top: (2 * (0rem + ($doc-line-height / $doc-font-size)));
-  padding: $gutter $gutter (2.25 * $gutter);
+  margin-top: (0px + ($doc-line-height * 3));
+  padding-top: (0px + ($doc-line-height * 2));
+  padding-bottom: (0px + ($doc-line-height * 2));
   text-align: center;
-  background: $background-color;
-  @include breakpoint($medium) {
-    padding-left: 2 * $gutter;
-    padding-right: 2 * $gutter;
-    padding-bottom: $gutter;
-  }
-  // @include breakpoint($large) {
-  //   text-align: left;
-  // }
   font-family: $alt-font;
+  background-color: $background-color;
 
   .copyright {
     clear: both;
-    @include font-size(12);
+    @include font-size(12, no);
+    margin-top: 0;
     color: $caption-color;
     a {
       color: $caption-color;
@@ -37,29 +29,17 @@
       text-decoration: none;
     }
   }
-  .wrap {
-    @include breakpoint($micro-only) {
-      padding: 0;
-    }
-  }
 }
 
 /* Footer menu links */
 
 .footer-links {
-  // @include breakpoint($large) {
-  //   float: left;
-  // }
   li {
     @include font-size(16);
     a {
-      margin-left: ($gutter / 2);
-      margin-right: ($gutter / 2);
-      @include breakpoint($large) {
-        margin-left: 0;
-        margin-right: $gutter;
-      }
-      padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: (0.25 * $masthead-height) 0 (0.25 * $masthead-height);
       color: $caption-color;
     }
   }

@@ -9,7 +9,7 @@
 $base-font                    : 'Alegreya', Georgia, serif;
 $heading-font                 : 'Alegreya Sans', sans-serif;
 $heading-font-title           : 'Alegreya Sans', sans-serif;
-$caption-font                 : $base-font;
+$caption-font                 : 'Alegreya Sans', sans-serif;
 $code-font                    : monospace;
 $alt-font                     : 'Alegreya Sans', sans-serif;
 
@@ -30,8 +30,8 @@ $gray                         : #635960;
 $background-color             : mix($white, $gray, 90%);
 $body-color                   : $white;
 
-$text-color                   : mix($black, $gray, 25%);
-$caption-color                : mix($white, $text-color, 25%);
+$text-color                   : $black;
+$caption-color                : $text-color;
 
 $highlighter-color            : #f3bc15;
 
@@ -44,7 +44,7 @@ $info-color                   : mix($gray, #427ab8, 15%);
 $border-color                 : mix($white, $gray, 80%);
 
 $link-color                   : $text-color;
-$link-color-hover             : mix($black, $text-color, 20%);
+$link-color-hover             : mix($highlighter-color, $text-color, 20%);
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
@@ -105,13 +105,13 @@ $inline-code-background       : mix($white, $border-color, 75%);
    Sliding menu variables
    ========================================================================== */
 
-$sliding-menu-border-color    : mix($black, $gray, 70%);
-$sliding-menu-background      : mix($black, $gray, 70%);
+$sliding-menu-border-color    : $black;
+$sliding-menu-background      : $black;
 $sliding-menu-color           : $white;
 $sliding-menu-background-hover: $black;
 $sliding-menu-color-hover     : $white;
 $sliding-menu-border          : 1px solid $sliding-menu-border-color;
-$button-size                  : 30px;
+$button-size                  : 2rem;
 $transition                   : 0.3s; /* increase this to see the transformations in slow-motion */
 $sliding-menu-animation       : all 500ms cubic-bezier(.86,.01,.77,.78);
 
@@ -128,17 +128,17 @@ $masthead-height: $button-size * 2;
    ========================================================================== */
 
 $breakpoint-to-ems: true;
-$susy: (
-  columns: 12,
-  gutters: .25,
-  container: 1280px
+
+$article: (
+  gutters: 1/4,
+  columns: 16,
+  debug: (image: show)
 );
 
 $micro-only: 240px 480px;
-$small: 600px;
+$small: 768px;
 $medium: 900px;
 $large: 1280px;
-
 
 
 /*

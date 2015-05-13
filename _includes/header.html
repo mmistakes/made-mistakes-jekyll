@@ -1,10 +1,8 @@
 <header id="masthead">
-  <div class="masthead-contents">
-    <div class="logo-wrap">
-      <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
-    </div>
-    <nav role="navigation" class="menu top-menu">
-      {% include navigation.html %}
-    </nav>
+  <div class="article-wrap">
+    <a href="{{ site.url }}/" class="site-logo"><img src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} logo"></a>
+    <button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x" role="button" aria-label="Toggle Navigation" onclick="ga('send', 'event', 'sliding menu', 'click', 'button');">
+      <span class="lines"></span>
+    </button>
   </div><!-- /.masthead-contents -->
 </header><!-- /.masthead -->

@@ -98,14 +98,21 @@
    ========================================================================== */
 
 .tile {
-  @include container;
-  margin-bottom: 2 * $gutter;
-  @include breakpoint($micro-only) {
-    @include fill-parent;
+  margin-bottom: gutter(4);
+  @include breakpoint(480px) {
+    @include gallery(2 of 4);
   }
-  @include media(new-breakpoint(min-width em(480) 12)) {
-    @include span-columns(3);
-    @include omega(4n);
+  @include breakpoint($small) {
+    @include gallery(3 of 6);
+    margin-bottom: gutter(6);
+  }
+  @include breakpoint($medium) {
+    @include gallery(3 of 9);
+    margin-bottom: gutter(9);
+  }
+  @include breakpoint($large) {
+    @include gallery(3 of 12);
+    margin-bottom: gutter(12);
   }
 }
 
@@ -118,7 +125,7 @@
   clear: both;
   @include breakpoint($medium) {
     clear: none;
-    @include span-columns(8);
+    // @include span-columns(8);
     margin-right: 0;
   }
   .entry-date {
@@ -139,9 +146,9 @@
    ========================================================================== */
 
 .tile-equal {
-  margin-bottom: $gutter;
+  // margin-bottom: $gutter;
   @include breakpoint($small) {
-    margin-bottom: 2.35765%; /* magic number from .tiles-3-4 grid margins */
+    // margin-bottom: 2.35765%; /* magic number from .tiles-3-4 grid margins */
   }
 }
 
@@ -151,22 +158,45 @@
    ========================================================================== */
 
 .tile-spacer {
-  margin-bottom: 2 * $gutter;
+  // margin-bottom: 2 * $gutter;
 }
 
-
 /*
-   Related posts (show 3 tiles in a row)
+   Related posts (show 2 tiles)
    ========================================================================== */
 
 .related-posts {
-  .tile {
-    transition: $sliding-menu-animation;
+  @include layout($article);
+  @include span(14);
+  @include pre(1);
+  @include break;
+  @include breakpoint($small) {
+    @include span(10);
+    @include pre(5);
+    @include post(1);
+    clear: left;
   }
+  @include breakpoint($medium) {
+    @include pre(4);
+    @include post(2);
+  }
+
+  .tile {
+    @include breakpoint($small) {
+      @include gallery(4.5 of 9);
+    }
+  }
+
+  .post-title {
+    text-align: center;
+  }
+
+  .post-excerpt,
   .entry-date {
     display: none;
   }
+
   h3 {
-    margin-top: 0;
+    text-align: center;
   }
 }

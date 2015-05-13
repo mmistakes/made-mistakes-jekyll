@@ -4,12 +4,14 @@
 
 .mm-top {
   display: inline-block;
-  height: $button-size * 2;
-  width: $button-size * 2;
+  width: $button-size * 1.5;
+  height: $button-size * 1.5;
 
   position: fixed;
-  bottom: $gutter;
-  right: $gutter;
+  bottom: 0;
+  // center the button
+  left: 50%; // fallback
+  left: calc(50% - #{$button-size * 0.75});
 
   box-shadow: 0 0 10px rgba($black, 0.05);
 
@@ -20,7 +22,7 @@
 
   // fix scroll jank
   transform: translateZ(0);
-  backface-visibility: hidden; /* fix scroll jank */
+  backface-visibility: hidden;
 
   background: rgba($danger-color, 0.8) url(../images/mm-top-arrow.svg) no-repeat center 50%;
 

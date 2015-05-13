@@ -4,14 +4,18 @@
 
 // Off Canvas Sliding
 $(document).ready(function(){
-	// Menu button click
-	$('#js-menu-trigger,#js-menu-screen').on('click touchstart', function(e){
-		// $('#js-body').toggleClass('no-scroll');
-		$('#js-menu, #js-menu-screen').toggleClass('is-visible');
-		$('#js-menu-trigger').toggleClass('slide close');
-		// $('#masthead, #page-wrapper').toggleClass('slide');
+	// toggle menu, trigger, and screen on click
+	$('#js-menu-trigger,#js-menu-screen,#js-menu-close').on('click touchstart', function(e){
+		$('#js-menu,#js-menu-screen').toggleClass('is-visible');
+		$('#js-menu-trigger').toggleClass('close');
 		e.preventDefault();
 	});
+});
+
+
+// widow fix
+$(document).ready(function() {
+  $('.page-title').widowFix();
 });
 
 
@@ -66,10 +70,6 @@ $(document).ready(function(){
 	// Target your .container, .wrapper, .post, etc.
 	$("#main").fitVids();
 });
-
-
-// Table of Contents
-$("#markdown-toc").prepend("<li><h6>Overview</h6></li>");
 
 
 // Add anchor links after headlines
@@ -141,7 +141,7 @@ jQuery(document).ready(function($){
     //grab the "back to top" link
     $back_to_top = $('.mm-top');
 
-  //hide or show the "back to top" link
+  // hide or show the "back to top" link
   $(window).scroll(function(){
     ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('mm-is-visible') : $back_to_top.removeClass('mm-is-visible mm-fade-out');
     if( $(this).scrollTop() > offset_opacity ) {
@@ -149,13 +149,23 @@ jQuery(document).ready(function($){
     }
   });
 
-  //smooth scroll to top
+  // smooth scroll to top
   $back_to_top.on('click', function(event){
     event.preventDefault();
     $('body,html').animate({
-      scrollTop: 0 ,
+      scrollTop: 0,
       }, scroll_top_duration
     );
   });
 
 });
+
+
+// footnotes
+var bigfoot = $.bigfoot(
+  {
+    deleteOnUnhover: false,
+    preventPageScroll: false,
+    hoverDelay: 250
+  }
+);

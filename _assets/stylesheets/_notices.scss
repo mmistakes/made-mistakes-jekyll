@@ -11,22 +11,13 @@
  */
 
 @mixin notice($notice-color) {
-  margin-left: -1 * $gutter;
-  margin-right: -1 * $gutter;
-  background-color: mix($white, $notice-color, 80%);
-  @include breakpoint($medium) {
-    margin-left: 0;
-    margin-right: 0;
-    border-radius: $border-radius;
-  }
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 2px solid $black;
+  border-bottom: 2px solid $black;
+  @include bleed-x(1em);
   h4 {
-    padding: (0.5 * $gutter) $gutter;
-    background-color: $notice-color;
-    color: $white;
-    @include breakpoint($medium) {
-      border-top-left-radius: $border-radius;
-      border-top-right-radius: $border-radius;
-    }
+    margin: 0 !important;;
     /* Insert Font Awesome icons before notice header */
     &:before {
       margin-right: 4px;
@@ -50,17 +41,13 @@
     }
   }
   p {
-    @include font-size(16, no);
-    padding: 0 $gutter;
-    &:last-child {
-      padding-bottom: $gutter;
-    }
+    font-family: $caption-font;
+    @include font-size(16, no, 20);
   }
   h4 + p {
-    padding-top: 0; /* remove top padding on paragraphs that appear after a notice headline */
-  }
-  ul, ol {
-    padding: $gutter (2 * $gutter);
+    /* remove space above paragraphs that appear directly after notice headline */
+    margin-top: 4px;
+    padding-top: 0;
   }
 }
 
@@ -68,36 +55,35 @@
 
 .notice {
   @include notice($primary-color);
-  @at-root .page-content #{&} a {
-    color: $primary-color;
-    border-bottom-color: $primary-color;
-  }
+  // @at-root .page-content #{&} a {
+  //   color: $primary-color;
+  //   border-bottom-color: $primary-color;
+  // }
 }
 
 /* Inverse notice (light on dark) */
 
 .notice-inverse {
   @include notice($white);
-  color: $text-color;
-  h4 {
-    color: $text-color;
-    border-bottom: 1px solid $text-color;
-  }
-  @at-root .page-content #{&} a {
-    color: $text-color;
-    border-bottom-color: $text-color;
-  }
+  // color: $text-color;
+  // h4 {
+  //   color: $text-color;
+  //   border-bottom: 1px solid $text-color;
+  // }
+  // @at-root .page-content #{&} a {
+  //   color: $text-color;
+  //   border-bottom-color: $text-color;
+  // }
 }
 
 /* Info notice */
 
 .notice-info {
   @include notice($info-color);
-  color: mix($black, $info-color, 50%);
-  @at-root .page-content #{&} a {
-    color: mix($black, $info-color, 50%);
-    border-bottom-color: mix($black, $info-color, 50%);
-  }
+  // @at-root .page-content #{&} a {
+  //   color: mix($black, $info-color, 50%);
+  //   border-bottom-color: mix($black, $info-color, 50%);
+  // }
   h4:before {
     content: "\f0eb";
   }
@@ -107,11 +93,10 @@
 
 .notice-warning {
   @include notice($warning-color);
-  color: mix($black, $warning-color, 50%);
-  @at-root .page-content #{&} a {
-    color: mix($black, $warning-color, 50%);
-    border-bottom-color: mix($black, $warning-color, 50%);
-  }
+  // @at-root .page-content #{&} a {
+  //   color: mix($black, $warning-color, 50%);
+  //   border-bottom-color: mix($black, $warning-color, 50%);
+  // }
   h4:before {
     content: "\f071";
   }
@@ -121,11 +106,10 @@
 
 .notice-success {
   @include notice($success-color);
-  color: mix($black, $success-color, 50%);
-  @at-root .page-content #{&} a {
-    color: mix($black, $success-color, 50%);
-    border-bottom-color: mix($black, $success-color, 50%);
-  }
+  // @at-root .page-content #{&} a {
+  //   color: mix($black, $success-color, 50%);
+  //   border-bottom-color: mix($black, $success-color, 50%);
+  // }
   h4:before {
     content: "\f164";
   }
@@ -135,11 +119,10 @@
 
 .notice-danger {
   @include notice($danger-color);
-  color: mix($black, $danger-color, 50%);
-  @at-root .page-content #{&} a {
-    color: mix($black, $danger-color, 50%);
-    border-bottom-color: mix($black, $danger-color, 50%);
-  }
+  // @at-root .page-content #{&} a {
+  //   color: mix($black, $danger-color, 50%);
+  //   border-bottom-color: mix($black, $danger-color, 50%);
+  // }
   h4:before {
     content: "\f071";
   }

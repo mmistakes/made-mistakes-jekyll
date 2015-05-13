@@ -8,25 +8,23 @@
 
 /* Content wrapper */
 
-.wrap {
-  @include container;
-  padding: $gutter;
-  // box-shadow: 0 0 5px mix($black, $background-color, 20%);
-  @include breakpoint($medium) {
-    padding: (2 * $gutter);
-  }
-  @include breakpoint($large) {
-    padding: (1.25 * $gutter) (2.5 * $gutter);
-  }
+.article-wrap {
+  @include layout($article);
+  @include container(1280px);
+}
+
+.archive-wrap {
+  @include layout($article);
+  @include container(1280px);
 }
 
 /* Inner wrap (to be used with ads to the right) */
 
-.inner-wrap {
-  @include breakpoint($medium) {
-    @include span-columns(8);
-  }
-}
+// .inner-wrap {
+  // @include breakpoint($medium) {
+    // @include span-columns(8);
+  // }
+// }
 
 /*
    Visibility
@@ -49,12 +47,6 @@
   overflow: hidden;
 }
 
-/* Stick to top */
-
-.affix {
-  position: fixed;
-  top: 20px;
-}
 
 /*
    Lists
@@ -103,7 +95,7 @@
   @include clearfix;
   a, .btn {
     display: inline-block;
-    margin-right: $gutter / 2;
+    // margin-right: $gutter / 2;
     &:last-child {
       margin-right: 0;
     }
@@ -119,11 +111,11 @@
 .shorten {
   @include clearfix;
   @include breakpoint($medium) {
-    @include row;
-    @include span-columns(10);
+    // @include row;
+    // @include span-columns(10);
   }
   @include breakpoint($large) {
-    @include span-columns(9);
+    // @include span-columns(9);
   }
 }
 
@@ -165,7 +157,7 @@
   margin-right: auto;
   @include breakpoint($small) {
     float: right;
-    margin-left: $gutter;
+    margin-left: gutter();
   }
 }
 

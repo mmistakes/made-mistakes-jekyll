@@ -16,15 +16,15 @@
  */
 
 .th-grid {
-  @include row;
+  // @include row;
   @include clearfix;
   margin: 0;
   padding: 0;
   li {
     list-style: none;
-    @include span-columns(2.4);
-    @include omega(5n);
-    margin-bottom: flex-gutter($grid-columns);
+    // @include span-columns(2.4);
+    // @include omega(5n);
+    // margin-bottom: flex-gutter($grid-columns);
   }
   a {
     img {
@@ -62,18 +62,18 @@
   }
   li {
     list-style: none;
-    margin-bottom: flex-gutter($grid-columns);
+    // margin-bottom: flex-gutter($grid-columns);
     @include breakpoint($micro-only) {
-      @include span-columns(3);
-      @include omega(4n);
+      // @include span-columns(3);
+      // @include omega(4n);
     }
-    @media screen and (min-width: em(480)) and (max-width: em(599)) {
-      @include span-columns(3);
-      @include omega(4n);
-    }
+    // @media screen and (min-width: em(480)) and (max-width: em(599)) {
+    //   @include span-columns(3);
+    //   @include omega(4n);
+    // }
     @include breakpoint($small) {
-      @include span-columns(1.5);
-      @include omega(8n);
+      // @include span-columns(1.5);
+      // @include omega(8n);
     }
   }
   a {

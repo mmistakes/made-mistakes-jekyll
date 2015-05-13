@@ -4,7 +4,7 @@
 
 .review-wrapper{
   position: relative;
-  padding: $gutter;
+  padding: 20px;
   @include font-size(14,no);
   background-color: $black;
   border-radius: 2 * $border-radius;

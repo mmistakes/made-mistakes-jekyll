@@ -16,42 +16,6 @@
     }
   }
 
-/*
-   Sliding menu button
-   ========================================================================== */
-
-.sliding-menu-button {
-  position: fixed;
-  transform: translateZ(0);
-  backface-visibility: hidden; /* fix scroll jank */
-  top: $gutter;
-  right: $gutter;
-  display: block;
-  width: $button-size * 2;
-  height: $button-size * 2;
-  background: $primary-color;
-  outline: 0;
-  padding: 0;
-  border: 2.5px solid transparent;
-  cursor: pointer;
-  z-index: 20;
-  box-sizing: border-box;
-  box-shadow: 0 0 10px rgba($black, 0.05);
-  &:hover {
-    background: $black;
-  }
-  transition: $sliding-menu-animation;
-  &.slide {
-    background: $danger-color;
-    transform: translateX(0); /* don't slide close button on small screens only */
-    @include breakpoint($medium) {
-      transform: translateX(em(-600)); /* reset slide position */
-    }
-    @include breakpoint($large) {
-      transform: translateX(em(-900)); /* reset slide position */
-    }
-  }
-}
 
 /*
    Sliding content
@@ -61,130 +25,195 @@
   position: fixed;
   top: 0;
   right: 0;
-  padding: em(22) 0;
-  visibility: hidden;
+
+  // visibility: hidden;
   backface-visibility: hidden;
-  @include breakpoint($small) {
-    text-align: left;
-  }
-  @include size(100% 100%);
-  @include breakpoint($small) {
-    width: em(600);
-  }
-  @include breakpoint($large) {
-    width: em(900);
-  }
+  height: 100%;
   transform: translateX(100%);
   transition: $sliding-menu-animation;
-  background: $sliding-menu-background;
-  z-index: 20;
-  overflow-y: auto;
-  overflow-x: hidden;
+  background: $sliding-menu-background; // fallback
+  background: rgba($sliding-menu-background,0.85);
+  z-index: 50;
+  // overflow-y: auto;
+  // overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   &.is-visible {
-    visibility: visible;
+    // visibility: visible;
     transform: translateX(0);
-  }
-  h5 {
-    margin: 0 20% 0 10%;
-    @include breakpoint($large) {
-      margin-right: 20%;
-    }
-    color: $white;
-    @include font-size(14);
-    @include breakpoint($small) {
-      @include font-size(16);
-    }
-    text-transform: uppercase;
-    span {
-      display: block;
-      @include font-size(32,no,1);
-      @include breakpoint($small) {
-        @include font-size(48,no,1);
-      }
-      font-family: $heading-font-title;
-      font-weight: 500;
-    }
-  }
-  ul {
-    margin: 0 10%;
-    @include breakpoint($large) {
-      margin-right: 20%;
-    }
   }
   ul,
   li {
     list-style: none;
   }
   li {
-    display: block;
-    position: relative;
-    padding-bottom: 1em;
-    min-height: 70px;
-    @include breakpoint($small) {
-      min-height: 100px;
-    }
+    padding-bottom: 10px;
+    padding-left: 60px;
   }
   .menu-item {
+    margin-bottom: 20px;
+    @include breakpoint($medium) {
+      margin-bottom: 40px;
+    }
     a {
       display: block;
       color: $white;
       text-decoration: none;
-    }
-    .teaser {
-      position: absolute;
-      left: 0;
-      margin-bottom: 0;
-      width: 50px;
-      border: 4px solid $white;
-      margin-bottom: ($gutter / 2);
-      opacity: 0.6;
-      @include breakpoint($small) {
-        width: 150px;
-      }
-    }
-    a:hover .teaser {
-      opacity: 1;
-    }
-    .title {
-      display: block;
-      margin-left: 60px;
+      text-align: right;
       font-family: $heading-font-title;
-      @include font-size(24, 5, 1);
-      font-weight: 500;
+      @include font-size(48, no, 48);
+      font-weight: 800;
       @include breakpoint($small) {
-        margin-left: 170px;
-        @include font-size(42, 5, 1);
+        @include font-size(60, no, 60);
       }
-    }
-    .excerpt {
-      margin-top: 0;
-      margin-left: 60px;
-      font-family: $heading-font;
-      @include font-size(14, no, 18);
-      @include breakpoint($small) {
-        margin-left: 170px;
-        @include font-size(16, no, 20);
+      @include breakpoint($medium) {
+        @include font-size(80, no, 80);
+      }
+      &:hover {
+        color: $highlighter-color;
       }
     }
   }
-  .sub-menu-item > li a {
-    display: block;
-    color: $white;
-    font-style: italic;
+  .menu-item-footer {
+    li {
+      padding-bottom: 5px;
+    }
+    a {
+      display: block;
+      color: $white;
+      text-decoration: none;
+      text-align: right;
+      font-family: $heading-font-title;
+      @include font-size(20, no, 20);
+      font-weight: 800;
+      @include breakpoint($small) {
+        @include font-size(32, no, 32);
+      }
+      @include breakpoint($medium) {
+        @include font-size(38, no, 38);
+      }
+      &:hover {
+        color: $highlighter-color;
+      }
+    }
   }
-  .menu-item .home a {
-    @include font-size(32);
+  .menu-item-social {
+    text-align: right;
+    a {
+      display: inline-block;
+      margin-right: 10px;
+      color: $white;
+      text-decoration: none;
+      text-align: right;
+      font-family: $heading-font-title;
+      @include font-size(20, no, 20);
+      font-weight: 800;
+      @include breakpoint($small) {
+        @include font-size(32, no, 32);
+      }
+      @include breakpoint($medium) {
+        @include font-size(38, no, 38);
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $highlighter-color;
+      }
+    }
   }
 }
 
-/* Dim content when off canvas nav slides in */
+// turn on scrollbars if content is too tall to fit on screen
+.inner-menu-wrap {
+  padding: 20px;
+  @include breakpoint($small) {
+    padding: 30px 50px 0;
+  }
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/*
+   Sliding menu button
+   ========================================================================== */
+
+.sliding-menu-button {
+  display: block;
+  // position: absolute;
+  // top: 20px;
+  // left: -100px; // fallback position
+  // left: calc(-3rem + -20px); // button size
+  // left: -3rem;
+  // transform: translateZ(0);
+  // backface-visibility: hidden; /* fix scroll jank */
+  float: right;
+  margin-top: 20px;
+  margin-right: span(1) + gutter();
+  width: $button-size * 1.5;
+  height: $button-size * 1.5;
+  // increase button size
+  @include breakpoint($small) {
+    margin-top: 30px;
+    // top: 30px;
+    // left: calc(-4rem + -30px); // button size
+    // left: -4rem;
+    width: $button-size * 2;
+    height: $button-size * 2;
+  }
+  background: $sliding-menu-background; // fallback
+  background: rgba($sliding-menu-background,0.85);
+  outline: 0;
+  border: 0 solid transparent;
+  cursor: pointer;
+  z-index: 20;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba($black, 0.05);
+  &:hover {
+    background: $black;
+  }
+  transition: 0.5s;
+  &.slide {
+    transform: translateX(70px); // slide to the left
+    @include breakpoint($small) {
+      transform: translateX(0); // reset position
+    }
+    // @include breakpoint($large) {
+    //   transform: translateX(0); // slide to the left
+    // }
+  }
+  &.close {
+    // background-color: $danger-color;
+    opacity: 0;
+  }
+}
+
+.sliding-menu-button-close {
+  width: $button-size * 1.5;
+  height: $button-size * 1.5;
+  // increase button size
+  @include breakpoint($small) {
+    width: $button-size * 2;
+    height: $button-size * 2;
+  }
+  background: transparent;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+} 
 
 .menu-screen {
-  @include position(fixed, 0 0 0 0);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba($sliding-menu-background, 0);
   visibility: hidden;
+  transition: $sliding-menu-animation;
   z-index: 4;
   &.is-visible {
+    background: rgba($sliding-menu-background,0.5);
     visibility: visible;
     &:hover {
       cursor: pointer;

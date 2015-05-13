@@ -7,52 +7,36 @@
    ========================================================================== */
 
 .toc {
-  margin-left: -1 * $gutter;
-  margin-right: -1 * $gutter;
-  @include breakpoint($medium) {
-    margin-left: 0;
-    margin-right: 0;
-  }
+  min-height: 1px;
   font-family: $alt-font;
   ul {
-    margin-top: $gutter;
-    margin-bottom: $gutter;
-    border: 1px solid $border-color;
-    @include breakpoint($medium) {
-      border-radius: $border-radius;
-    }
+    margin: 0;
+    padding: 0;
   }
   li {
-    @include font-size(14,no,16);
-    @include breakpoint($small) {
-      @include font-size(16,no,18);
-    }
-    border-bottom: 1px solid $border-color;
+    list-style-type: none;
+    display: block;
+    @include font-size(14, no, 14);
     > a {
-      display: block;
-      padding: 7px 1.618rem;
+      position: relative;
+      display: inline-block;
+      padding: 7px 0 7px 20px;
       color: $text-color;
-      &:hover,
-      &:focus {
-        background: mix($white, $border-color, 5%);
+      text-decoration: none;
+      &:before {
+        position: absolute;
+        content: "\2192";
+        display: block;
+        left: 0;
       }
     }
   }
-  h6 {
-    margin-top: 0;
-    padding: 10px 1.618rem;
-    font-family: $heading-font-title;
-    @include font-size(16, no, 16);
-    font-weight: 500;
-    text-transform: uppercase;
-    background: $table-stripe-color;
-    &:hover {
-      background: mix($white, $border-color, 5%);
-    }
-    a {
-      color: $text-color;
-    }
-  }
+}
+.toc-title {
+  margin-top: 0;
+  font-family: $heading-font-title;
+  @include font-size(16, no, 16);
+  font-weight: 500;
 }
 
 /*
@@ -60,15 +44,15 @@
    ========================================================================== */
 
 .toc-left {
-  @include span-columns(12);
+  // @include span-columns(12);
   @include breakpoint($medium) {
-    @include span-columns(4);
+    // @include span-columns(4);
   }
   margin-left: 0;
   ul {
     margin-top: 0;
-    @include breakpoint($small) {
-      margin-bottom: 0.5 * $gutter;
-    }
+    // @include breakpoint($small) {
+    //   margin-bottom: 0.5 * $gutter;
+    // }
   }
 }

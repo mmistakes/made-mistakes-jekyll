@@ -13,15 +13,16 @@
    Vendor
    ========================================================================== */
 
-@import "bourbon";
-@import "grid-settings";
-@import "neat";
+// @import "bourbon";
+// @import "grid-settings";
+// @import "neat";
 @import "susy";
 @import "breakpoint";
 // @import "vendor/google/fonts";
 // @import "font-awesome"; /* Font Awesome gem */
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
+@import "vendor/bigfoot/bigfoot-default";
 
 /*
    Global
@@ -37,30 +38,30 @@
 
 @import "utilities";
 @import "buttons";
-@import "badges"; /* inline badge callouts */
+@import "badges"; // inline badge callouts
 @import "sliding-menu";
-@import "menu-navicons"; /* animated 3 line menu icon */
-@import "tiles"; /* post tiles */
+@import "menu-navicons"; // animated 3 line menu icon
+@import "tiles"; //post tiles
 @import "thumbnail-grids";
 @import "notices";
 @import "animations";
-@import "google-search"; /* Google search form box */
-@import "syntax-highlighting"; /* syntax highlighting */
-@import "paper-color-swatches"; /* color swatches for Paper by FiftyThree articles */
-@import "slickmap"; /* SlickMap visual sitemap */
-@import "style-guide"; /* website style guide */
-@import "back-to-top"; /* back to top button */
+@import "google-search"; // Google search form box
+@import "syntax-highlighting"; // syntax highlighting
+@import "paper-color-swatches"; // color swatches for Paper by FiftyThree articles
+@import "slickmap"; // SlickMap visual sitemap
+@import "style-guide"; // website style guide
+@import "back-to-top"; // back to top button
 
 /*
    Page specific
    ========================================================================== */
 
-@import "masthead"; /* page header with navigation */
-@import "page"; /* everything else on the page */
+@import "masthead"; // page header with navigation
+@import "page"; // everything else on the page
 @import "review-box";
-@import "banners"; /* banner advertisements */
+@import "banners"; // banner advertisements
 @import "sidebars";
 @import "breadcrumbs";
 @import "footnotes";
-@import "toc"; /* table of contents */
-@import "footer"; /* site footer */
+@import "toc"; // table of contents
+@import "footer"; // site footer

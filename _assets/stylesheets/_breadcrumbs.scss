@@ -5,6 +5,7 @@
 .page-meta,
 .breadcrumbs {
   @include clearfix;
+  margin-top: gutter();
   font-family: $alt-font;
   @include font-size(14, no, 21);
   font-weight: 400;
@@ -17,7 +18,6 @@
 }
 
 .page-meta {
-  margin-top: $gutter;
   opacity: 0.5;
   transition: opacity 0.2s ease-out;
   &:hover {
@@ -29,9 +29,22 @@
 }
 
 .breadcrumbs {
-  margin-bottom: $gutter;
+  @include layout($article);
+  @include span(14);
+  @include pre(1);
+  @include break;
+  @include breakpoint($small) {
+    @include span(10);
+    @include pre(5);
+    @include post(1);
+    @include nobreak;
+  }
+  @include breakpoint($medium) {
+    @include pre(4);
+    @include post(1);
+  }
   .sep {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 }

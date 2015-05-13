@@ -3,151 +3,38 @@
    ========================================================================== */
 
 #masthead {
-  padding: $gutter;
-  @include breakpoint($medium) {
-    padding-left: 2 * $gutter;
-    padding-right: 2 * $gutter;
-  }
-  z-index: 5;
-  transition: $sliding-menu-animation;
-}
-
-.masthead-contents {
-  @include container;
-  @extend .animated;
-  @extend .drop;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 25;
+  // .wrap {
+  //   position: relative;
+  // }
 }
 
 /*
    Site logo in masthead
    ========================================================================== */
 
-.logo-wrap {
-  @include row;
-  @include breakpoint($large) {
-    @include span-columns(3.5);
-  }
-}
-
 .site-logo {
-  display: none;
-  @include breakpoint($medium) {
-    display: block;
-    float: left;
-    margin-right: 10px;
-    width: 60px;
-    height: 60px;
-  }
-}
-
-.site-title {
-  float: left;
-  padding: (.25 * $masthead-height) 0; /* fourth the height to center vertically */
-  height: $masthead-height;
-  text-decoration: none;
-  color: $primary-color;
-  font-family: $heading-font-title;
-  font-weight: 500;
-  @include font-size(22, no);
-  line-height: .5 * $masthead-height; /* half the height to center vertically */
-  text-transform: uppercase;
-  // line hover effect
-  position: relative;
   display: block;
-  &:hover {
-    color: $link-color-hover;
-  }
-  &:focus {
-    outline: none;
-  }
-  &:before,
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 38px;
-    left: 0;
-    height: 5px;
-    z-index: -1;
-    transition: width 0.3s;
-  }
-  &:before {
-    width: 100%;
-    background: transparent;
-  }
-  &:after {
-    width: 0;
-    background: $highlighter-color;
-  }
-  &:active:after,
-  &:hover:after,
-  &:focus:after {
-    width: 100%;
-  }
-}
+  // position: absolute;
+  // top: 20px;
+  // left: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-left: span(1) + gutter();
+  width: $button-size * 1.5;
+  height: $button-size * 1.5;
+  background-color: $white;
+  box-shadow: 0 0 10px rgba($black, 0.05);
 
-/*
-   Masthead navigation links
-   ========================================================================== */
-
-.top-menu {
-  display: none;
-  position: relative;
-  @include breakpoint($large) {
-    @include span-columns(7.5);
-    ul {
-      position: absolute;
-      right: 0;
-    }
-  }
-  .home,
-  .sub-menu-item {
-    display: none;
-  }
-  li {
-    a {
-      height: $masthead-height;
-      margin-right: $gutter;
-      padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
-      font-family: $heading-font-title;
-      font-weight: 500;
-      @include font-size(18, no);
-      line-height: .5 * $masthead-height; // half the height to center vertically
-      color: $primary-color;
-      text-transform: uppercase;
-      // line hover effect
-      position: relative;
-      display: block;
-      &:hover {
-        color: $link-color-hover;
-      }
-      &:focus {
-        outline: none;
-      }
-      &:before,
-      &:after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 38px;
-        left: 0;
-        height: 5px;
-        z-index: -1;
-        transition: width 0.3s;
-      }
-      &:before {
-        width: 100%;
-        background: transparent;
-      }
-      &:after {
-        width: 0;
-        background: $highlighter-color;
-      }
-      &:active:after,
-      &:hover:after,
-      &:focus:after {
-        width: 100%;
-      }
-    }
+  // increase logo size
+  @include breakpoint($small) {
+    // top: 30px;
+    // left: 30px;
+    margin-top: 30px;
+    width: $button-size * 2;
+    height: $button-size * 2;
   }
 }

@@ -9,26 +9,21 @@
 .ads {
   position: relative;
   text-align: center;
-  margin-top: $gutter;
-  margin-left: -$gutter;
-  margin-right: -$gutter;
-  @include breakpoint($medium) {
-    margin-left: 0;
-    margin-right: 0;
+  @include breakpoint($small) {
+    text-align: left;
   }
-  padding: 10px 0 20px;
-  &:after {
-    content: 'Advertisement';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    display: block;
-    @include font-size(12, no);
-    font-family: $alt-font;
-  }
-  ins {
+  > ins {
+    // position: relative;
     border-width: 0;
+    // &:after {
+    //   content: "Advertisement";
+    //   position: absolute;
+    //   width: 100%;
+    //   text-align: center;
+    //   display: block;
+    //   @include font-size(12, no);
+    //   font-family: $alt-font;
+    // }
   }
 }
 
@@ -36,19 +31,10 @@
    Google Adsense banners
    ========================================================================== */
 
-/* Responsive banners (main content) */
+/* skyscraper entry-content sidebar */
 
-.r-ads { width: 300px; height: 250px; }
-@media(min-width: 520px) { .r-ads { width: 468px; height: 60px; } }
-@media(min-width: 728px) { .r-ads { width: 728px; height: 90px; } }
-@media(min-width: 900px) { .r-ads { width: 160px; height: 600px; } }
-@media(min-width: 1110px) { .r-ads { width: 300px; height: 600px; } }
-
-/* Responsive banners (comments) */
-
-.r-ads-comments { width: 300px; height: 250px; }
-@media(min-width: 520px) { .r-ads-comments { width: 468px; height: 60px; } }
-@media(min-width: 728px) { .r-ads-comments { width: 728px; height: 90px; } }
-@media(min-width: 900px) { .r-ads-comments { width: 200px; height: 200px; } }
-@media(min-width: 1110px) { .r-ads-comments { width: 300px; height: 225px; } }
-@media(min-width: 1220px) { .r-ads-comments { width: 336px; height: 280px; } }
+.r-ads-skyscraper { width: 250px; height: 250px; }
+@media(min-width: 468px) { .r-ads-skyscraper { width: 468px; height: 60px; } }
+@media(min-width: 768px) { .r-ads-skyscraper { width: 160px; height: 600px; } }
+@media(min-width: 860px) { .r-ads-skyscraper { width: 125px; height: 125px; } }
+@media(min-width: 1040px) { .r-ads-skyscraper { width: 200px; height: 200px; } }

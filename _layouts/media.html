@@ -33,7 +33,6 @@ layout: default
         {% capture sidebar %}{{ page.sidebar }}.html{% endcapture %}
         {% include {{sidebar}} %}
       {% endif %}
-      {% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
     </div><!-- /.sidebar -->
   </article><!-- /.wrap -->
   <div class="wrap">
@@ -42,7 +41,6 @@ layout: default
   {% if page.comments == true %}
   <div class="wrap">
     <aside class="inner-wrap">{% include comments.html %}</aside>
-    {% if page.ads != false %}<div class="sidebar ads">{% include advertising-comments.html %}</div><!-- /.ads -->{% endif %}
   </div><!-- /.wrap -->
   {% endif %}
 </div><!-- /#main -->
