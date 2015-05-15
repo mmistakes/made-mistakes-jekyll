@@ -1,9 +1,13 @@
-<article class="tile" itemscope itemtype="http://schema.org/Article">
-	<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
-    <img src="{{ site.url }}/images/preload-400.png" data-original="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" class="load" alt="teaser" itemprop="image">
-    <noscript><img src="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" alt="teaser" itemprop="image"></noscript>
-	</a>
-	<h2 class="post-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-  {% if post.date %}<p class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
-	<p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+{% capture post_count %}{{ post_count | plus: 1 }}{% endcapture %}
+
+<article class="tile t{{ post_count }}" itemscope itemtype="http://schema.org/Article">
+	<div class="tile-inner" style="background-image: url({{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %});">
+    <a href="{{ site.url }}{{ post.url }}" class="tile-cover" title="{{ post.title }}">
+    	<span class="tile-info">
+        {% if post.date %}<p class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+        <h1 class="tile-title" itemprop="name">{{ post.title }}</h1>
+      	<!-- <p class="tile-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p> -->
+      </span>
+    </a>
+  </div><!-- /.tile-inner -->
 </article><!-- /.tile -->

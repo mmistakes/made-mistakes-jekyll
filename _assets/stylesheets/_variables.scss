@@ -130,8 +130,8 @@ $masthead-height: $button-size * 2;
 $breakpoint-to-ems: true;
 
 $article: (
-  gutters: 1/4,
   columns: 16,
+  gutters: 1/4,
   debug: (image: show)
 );
 
