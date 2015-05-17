@@ -2,50 +2,6 @@
    SIDEBARS
    ========================================================================== */
 
-// .sidebar {
-//   @include breakpoint($large) {
-//     @include span(3 of 13 last);
-//   }
-//   transition: 500ms cubic-bezier(.645, .045, .355, 1.000);
-//   figcaption {
-//     margin-bottom: 0;
-//   }
-//   h3 {
-//     font-family: $heading-font-title;
-//     @include font-size(20, no);
-//     font-weight: 500;
-//     text-transform: uppercase;
-//     // margin-top: $gutter;
-//     // padding-bottom: $gutter / 4;
-//     border-bottom: 1px solid $border-color;
-//   }
-//   ul {
-//     list-style: none;
-//     // margin-top: $gutter / 2;
-//     padding: 0;
-//   }
-//   li {
-//     list-style: none;
-//     @include font-size(14, 14, 1);
-//     @include breakpoint($small) {
-//       @include font-size(16, 16, 1);
-//     }
-//     font-family: $heading-font;
-//     span {
-//       font-family: $base-font;
-//       @include font-size(12, no, 14);
-//       @include breakpoint($small) {
-//         @include font-size(14, no, 16);
-//       }
-//       font-style: italic;
-//     }
-//   }
-//   a {
-//     text-decoration: none;
-//     color: $text-color;
-//   }
-// }
-
 /*
    Sidebar for long-form articles and posts
    ========================================================================== */
@@ -59,5 +15,3 @@
     @include span(3);
   }
 }
-
-

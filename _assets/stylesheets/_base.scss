@@ -85,15 +85,16 @@ a {
 /* Quoted text */
 
 blockquote {
-  padding-left: gutter();
-  padding-right: gutter();
+  @include bleed-x(1em);
   border-left: 6px solid $black;
   p {
-    font-family: $alt-font;
-    @include font-size(24);
+    margin-left: -6px; // compensate shift from border-left on blockquote
+    ont-family: $alt-font;
+    @include font-size(24, yes, 26);
     font-style: italic;
   }
   cite {
+    margin-left: -6px; // compensate shift from border-left on blockquote
     font-family: $base-font;
     font-weight: 700;
     font-style: normal;
@@ -178,7 +179,10 @@ figure {
   @include clearfix;
   margin-left: 0;
   margin-right: 0;
-  /* add appropriate between figure and caption */
+  // add appropriate between figure and caption
+  img {
+    width: 100%;
+  }
   > a,
   > img,
   > iframe,
@@ -186,7 +190,7 @@ figure {
     margin-bottom: gutter(12);
   }
   > a {
-    /* Image hover animation */
+    // image hover animation
     transition: box-shadow 0.3s;
     &:hover {
       box-shadow: 0 0 10px rgba($black, .20);

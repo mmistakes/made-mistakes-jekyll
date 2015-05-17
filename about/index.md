@@ -25,7 +25,7 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.u
 
 And if that wasn't enough --- I'm the father of [twin girls]({{ site.url }}/tag/twins/) who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
 
----
+{% include sidebar-about.html %}
 
 ## About the Site
 
@@ -34,8 +34,6 @@ So what does this all have to do with *made mistakes* and why did you name your 
 In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, Javascript, PHP, and MySQL databases.
 
 I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
-
----
 
 ## Contact Me
 

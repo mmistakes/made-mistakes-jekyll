@@ -1,0 +1,12 @@
+{% capture post_count %}{{ post_count | plus: 1 }}{% endcapture %}
+
+<article class="tile t{{ post_count }}" itemscope itemtype="http://schema.org/Article">
+	<div class="tile-inner" style="background-image: url({{ site.url }}/images/{% if post_count == '1' or post_count == '4' or post_count == '5' %}{% if post.image.feature %}{{ post.image.feature }}{% else %}{{ site.teaser }}{% endif %}{% else %}{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}{% endif %});">
+    <a href="{{ site.url }}{{ post.url }}" class="tile-cover">
+    	<span class="tile-info">
+        {% if post.date %}<p class="tile-meta date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+        <h1 class="tile-title" itemprop="name">{{ post.title }}</h1>
+      </span>
+    </a>
+  </div><!-- /.tile-inner -->
+</article><!-- /.tile -->

@@ -1,10 +1,10 @@
 # Footer navigation links
 
-- title: PaperFaces
-  url: /paperfaces/
-
 - title: Mastering Paper
   url: /mastering-paper/
+
+- title: PaperFaces
+  url: /paperfaces/
 
 - title: "Sponsor &amp; Support"
   url: /support/

@@ -16,65 +16,14 @@
  */
 
 .th-grid {
-  // @include row;
   @include clearfix;
-  margin: 0;
-  padding: 0;
+  padding-left: 0; // reset
   li {
     list-style: none;
-    // @include span-columns(2.4);
-    // @include omega(5n);
-    // margin-bottom: flex-gutter($grid-columns);
+    margin-bottom: gutter();
   }
-  a {
-    img {
-      // Image hover animation
-      transition: transform 0.3s;
-      &:hover {
-        transform: scale(1.1);
-        box-shadow: 0 0 10px rgba($black, .20);
-      }
-    }
-  }
-}
-
-/* Thumbnail image grid (full width layouts) */
-
-/**
- *
- * Example usage:
- *  <ul class="th-grid-full">
- *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
- *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
- *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
- *  </ul>
- *
- */
-
-.th-grid-full {
-  @include clearfix;
-  margin: 0;
-  padding: 0;
-  @at-root {
-    .archive-wrap & {
-      margin-right: 0;
-    }
-  }
-  li {
-    list-style: none;
-    // margin-bottom: flex-gutter($grid-columns);
-    @include breakpoint($micro-only) {
-      // @include span-columns(3);
-      // @include omega(4n);
-    }
-    // @media screen and (min-width: em(480)) and (max-width: em(599)) {
-    //   @include span-columns(3);
-    //   @include omega(4n);
-    // }
-    @include breakpoint($small) {
-      // @include span-columns(1.5);
-      // @include omega(8n);
-    }
+  img {
+    width: 100%;
   }
   a {
     img {

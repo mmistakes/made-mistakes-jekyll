@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "White Eyes Glow Sometimes"
 excerpt: "PaperFaces portrait of the Hannah L. drawn with Paper by 53 on an iPad."
 modified: 

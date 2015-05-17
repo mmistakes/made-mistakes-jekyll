@@ -20,6 +20,9 @@ layout: default
       {% include breadcrumbs.html %}
 
       <div class="entry-content" id="content" itemprop="articleBody">
+        {% if page.external.url %}
+          <div><a href="{{ page.external.url }}" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
+        {% endif %}
         {{ content }}
         <footer class="page-footer">
           {% if page.categories %}{% include page-author.html %}{% endif %}

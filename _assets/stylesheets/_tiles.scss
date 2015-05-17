@@ -42,10 +42,10 @@
 
   .tile-inner {
     position: absolute;
-    top: 1em;
-    right: 1em;
-    bottom: 1em;
-    left: 1em;
+    top: 0.5em;
+    right: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
     background-color: #333;
     background-position: center center;
     background-repeat: no-repeat;
@@ -58,26 +58,35 @@
     width: 100%;
     height: 100%;
     text-decoration: none;
+    background-image: linear-gradient(200deg, rgba($black, 0.0823529) 0%, rgba($black, 0.0823529) 10%, rgba($black, 0.0823529) 20%, rgba($black, 0.0823529) 30%, rgba($black, 0.0901961) 40%, rgba($black, 0.215686) 50%, rgba($black, 0.423529) 60%, rgba($black, 0.631373) 70%, rgba($black, 0.760784) 80%, rgba($black, 0.823529) 90%, rgba($black, 0.847059) 100%);
     -webkit-backface-visibility: hidden;
     overflow: hidden;
+    transition: 0.2s ease-out;
+    &:hover {
+      background-color: rgba($black, 0.4);
+      box-shadow: 0 0 10px rgba($black, .20);
+      .tile-info {
+        padding-bottom: 1.25em;
+      }
+    }
   }
 
   .tile-info {
     position: absolute;
-    bottom: 1em;
-    right: 1em;
-    left: 1em;
-    padding: 0.5em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1em;
     width: auto;
     max-width: 20em;
-    background: $white;
+    transition: 0.2s ease-out;
   }
 
-  .entry-date {
+  .tile-meta {
     margin-top: 0;
     font-family: $alt-font;
     @include font-size(14, no);
-    color: mix($white, $caption-color, 20%);
+    color: $white;
   }
 
   .tile-title {
@@ -85,9 +94,10 @@
     @include font-size(20, no);
     font-weight: 500;
     margin-top: 0;
+    color: $white;
     a {
       text-decoration: none;
-      color: $text-color;
+      color: $white;
     }
   }
 
@@ -264,5 +274,6 @@
 
   h3 {
     text-align: center;
+    margin-bottom: 0;
   }
 }

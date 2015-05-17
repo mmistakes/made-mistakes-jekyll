@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: archive
 permalink: /paperfaces/
 title: "PaperFaces Project"
 subtitle: "Gallery of portraits drawn with Paper by FiftyThree."
@@ -13,12 +13,12 @@ tags: [paperfaces, paper by 53, portrait, drawing, painting, ipad, illustration,
 ---
 
 PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper by FiftyThree**. I occasionally post new portraits here, but certainly not as frequently as I used to.
-{:.shorten}
+{: .squish}
 
 If you scroll down far enough you can see how my technique evolved from faceless gesture into realistic portraits.
-{:.shorten}
+{: .squish}
 
-<ul class="th-grid-full">
+<ul class="th-grid">
 {% for post in site.categories.paperfaces %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">

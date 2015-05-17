@@ -31,9 +31,18 @@
       figcaption {
         margin-left: 0;
       }
+      &.top {
+        top: 0;
+      }
     }
     @include breakpoint($medium) {
       @include pull(3 of 10);
+    }
+    @include breakpoint($large) {
+      .toc-title, .toc, .ads,
+      h4, p, ul, ol {
+        padding-left: 0;
+      }
     }
   }
 
@@ -64,11 +73,15 @@
     }
   }
 
-  @include breakpoint($large) {
-    .sidebar-left {
-      .toc-title, .toc, .ads,
-      h4, p, ul, ol {
-        padding-left: 0;
+  // thumbnail grid
+  .th-grid {
+    li {
+      @include gallery(3.5 of 14);
+      @include breakpoint($small) {
+        @include gallery(2.5 of 10);
+      }
+      @include breakpoint($medium) {
+        @include gallery(2 of 10);
       }
     }
   }
@@ -131,7 +144,6 @@
     }
   }
   .toc-title {
-    margin-top: 0;
     margin-bottom: 5px;
   }
   .toc li > a {
@@ -145,7 +157,7 @@
     box-shadow: none;
   }
 
-  /* Introductory paragraph */
+  /* introductory paragraph */
   > p {
     &:first-child {
       @include font-size(20, yes, 28);
@@ -297,6 +309,7 @@ h6:hover .header-link {
   padding: 10px;
   text-align: center;
   border: 4px solid $border-color;
+  border-radius: $border-radius;
   background: $white;
   @include breakpoint($small) {
     margin-left: 0;
@@ -304,7 +317,6 @@ h6:hover .header-link {
     padding: 20px;
     text-align: left;
     border: 8px solid $border-color;
-    border-radius: $border-radius;
   }
 }
 
@@ -410,11 +422,20 @@ h5.author-name {
   @include span(14);
   @include pre(1);
   @include break;
-  @include breakpoint($large) {
+  @include breakpoint($medium) {
     .squish {
       @include span(10 of 14);
       @include pre(2 of 14);
       @include post(2 of 14);
+    }
+  }
+  // thumbnail grid
+  .th-grid {
+    li {
+      @include gallery(3.5 of 14);
+      @include breakpoint($medium) {
+        @include gallery(2 of 14);
+      }
     }
   }
 }

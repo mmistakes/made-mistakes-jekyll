@@ -15,25 +15,23 @@
   }
   li {
     list-style-type: none;
+    position: relative;
     display: block;
+    padding: 7px 0 7px 20px;
     @include font-size(14, no, 14);
+    &:before {
+      position: absolute;
+      content: "\2192";
+      display: block;
+      left: 0;
+    }
     > a {
-      position: relative;
-      display: inline-block;
-      padding: 7px 0 7px 20px;
       color: $text-color;
       text-decoration: none;
-      &:before {
-        position: absolute;
-        content: "\2192";
-        display: block;
-        left: 0;
-      }
     }
   }
 }
 .toc-title {
-  margin-top: 0;
   font-family: $heading-font-title;
   @include font-size(16, no, 16);
   font-weight: 500;
