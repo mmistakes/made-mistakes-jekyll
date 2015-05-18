@@ -12,7 +12,8 @@ layout: default
   {% endif %}
 
   <div class="archive-wrap">
-    <h1 class="page-title">Archive for {{ page.date | date: "%Y" }}</h1>
+    {% include browser-upgrade.html %}
+    <h1 class="entry-title">Archive for {{ page.date | date: "%Y" }}</h1>
     <div class="archive-content" id="content">
       <p class="squish">Posts from the year {{ page.date | date: "%Y" }}.</p>
       {{ content }}

@@ -15,7 +15,9 @@ layout: default
 
     <div class="article-wrap">
 
-      <h1 class="page-title">{{ page.title }}</h1>
+      {% include browser-upgrade.html %}
+
+      <h1 class="entry-title">{{ page.title }}</h1>
 
       {% include breadcrumbs.html %}
 
