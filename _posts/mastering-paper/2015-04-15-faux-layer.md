@@ -15,6 +15,8 @@ Up until recently I would painstakingly erase and Blend away lines until I got t
 
 When [version 2.2](http://news.fiftythree.com/post/104844221313/paper-update-2-2-holiday-bonus-edition-happy) was released this past December, along with it came a Color Picker and a way to swap page colors whenever you wanted. Using these new features and a carefully mixed color, I'm going to show you how a "faux" layer can help with sketching and tracing.
 
+{% include toc.html %}
+
 ## Replicating the Background Color
 
 Have you noticed that the default page color in **Paper by FiftyThree** isn't a pure white? If you haven't here's a quick comparison between the two that makes the difference obvious.
@@ -53,6 +55,8 @@ To fill in the background, simply drag a swatch from one of your palettes (or th
   <img src="{{ site.url }}/images/paper-53-filled-gray-background.jpg" alt="dragging a color to the background">
   <figcaption>Quickly fill in the background by dragging a color onto the canvas and releasing.</figcaption>
 </figure>
+
+{% include ads/skyscraper.html %}
 
 ## Sketching with White
 

@@ -94,7 +94,6 @@ blockquote {
     font-style: italic;
   }
   cite {
-    margin-left: -6px; // compensate shift from border-left on blockquote
     font-family: $base-font;
     font-weight: 700;
     font-style: normal;

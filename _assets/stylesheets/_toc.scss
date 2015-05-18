@@ -42,15 +42,8 @@
    ========================================================================== */
 
 .toc-left {
-  // @include span-columns(12);
-  @include breakpoint($medium) {
-    // @include span-columns(4);
-  }
-  margin-left: 0;
-  ul {
-    margin-top: 0;
-    // @include breakpoint($small) {
-    //   margin-bottom: 0.5 * $gutter;
-    // }
+  @include breakpoint($small) {
+    float: left;
+    width: 25%;
   }
 }

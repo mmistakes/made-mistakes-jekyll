@@ -105,137 +105,18 @@
     @include font-size(16, no, 24);
     margin-top: 6px;
   }
-
-  /* Teaser image */
-
-  // .post-teaser {
-  //   position: relative;
-  //   z-index: 1;
-  //   display: block;
-  //   overflow: hidden;
-  //   perspective: 1000px;
-  //   backface-visibility: hidden; // fix flicker on hover
-  //   img {
-  //     position: relative;
-  //     display: block;
-  //     z-index: 1;
-  //     transition: all 0.3s;
-  //     // avoid duplicate images for lazy loading
-  //     &.load {
-  //       display: none;
-  //     }
-  //   }
-  //   &:before,
-  //   &:after {
-  //     position: absolute;
-  //     content: '';
-  //     top: 0;
-  //     right: 0;
-  //     bottom: 0;
-  //     left: 0;
-  //     width: 100%;
-  //     height: 100.5%;
-  //   }
-  //   &:before {
-  //     z-index: 2;
-  //     transition: all 0.3s;
-  //   }
-  //   &:after {
-  //     border: 10px solid $white;
-  //     opacity: 0;
-  //     z-index: 3;
-  //     transition: all 0.3s;
-  //   }
-  //   &:hover {
-  //     &:before {
-  //       background: rgba($primary-color, 0.5);
-  //     }
-  //     &:after {
-  //       opacity: 0.4;
-  //     }
-  //     img {
-  //       transform: scale(1.25);
-  //     }
-  //   }
-  //   &:focus {
-  //     box-shadow: 10px 10px $link-color;
-  //   }
-  // }
 }
-
-/* clear float on short table of contents that appear after a set of tiles */
-.tiles + .toc-left {
-  clear: both;
-}
-
-
-/*
-   Individual tile
-   ========================================================================== */
-
-// .tile {
-//   margin-bottom: gutter(4);
-//   @include breakpoint(480px) {
-//     @include gallery(2 of 4);
-//   }
-//   @include breakpoint($small) {
-//     @include gallery(3 of 6);
-//     margin-bottom: gutter(6);
-//   }
-//   @include breakpoint($medium) {
-//     @include gallery(3 of 9);
-//     margin-bottom: gutter(9);
-//   }
-//   @include breakpoint($large) {
-//     @include gallery(3 of 12);
-//     margin-bottom: gutter(12);
-//   }
-// }
-
 
 /*
    Tiles container 3/4 width (used with sidebar layout)
    ========================================================================== */
 
-// .tiles-3-4 {
-//   clear: both;
-//   @include breakpoint($medium) {
-//     clear: none;
-//     // @include span-columns(8);
-//     margin-right: 0;
-//   }
-//   .entry-date {
-//     display: none;
-//   }
-
-//   .post-title {
-//     @include font-size(18, no);
-//   }
-
-//   .post-excerpt {
-//     @include font-size(14, no, 21);
-//   }
-// }
-
-/*
-   Tiles with only an image
-   ========================================================================== */
-
-// .tile-equal {
-//   // margin-bottom: $gutter;
-//   @include breakpoint($small) {
-//     // margin-bottom: 2.35765%; /* magic number from .tiles-3-4 grid margins */
-//   }
-// }
-
-
-/*
-   Tile bottom spacer
-   ========================================================================== */
-
-// .tile-spacer {
-  // margin-bottom: 2 * $gutter;
-// }
+.tiles-right {
+  @include breakpoint($small) {
+    float: right;
+    width: 75%;
+  }
+}
 
 /*
    Related posts (show 2 tiles)

@@ -8,6 +8,7 @@ share: false
 ---
 
 For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is available for digesting.
+{: .squish}
 
 <div class="sitemap">
   <ul id="primaryNav" class="col6">
@@ -47,7 +48,7 @@ For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is availab
         </li>
       </ul>
     </li>
-    <li><a href="{{ site.url }}/articles/">Articles</a>
+    <li><a href="{{ site.url }}/articles/">Blog Articles</a>
       <ul>
         {% for post in site.categories.articles %}
           {% include post-list.html %}
@@ -61,13 +62,7 @@ For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is availab
         {% endfor %}
       </ul>
     </li>
-    <li><a href="{{ site.url }}/paperfaces/">PaperFaces</a>
-      <ul>
-        {% for post in site.categories.paperfaces %}
-          {% include post-list.html %}
-        {% endfor %}
-      </ul>
-    </li>
+    <li><a href="{{ site.url }}/paperfaces/">PaperFaces</a></li>
     <li><a href="{{ site.url }}/work/">Work</a>
       <ul>
         {% for post in site.categories.work %}

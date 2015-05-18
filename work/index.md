@@ -7,6 +7,7 @@ excerpt: "A small selection of things I’ve designed, illustrated, or developed
 ---
 
 A small selection of things I've designed, illustrated, or developed.
+{: .squish}
 
 <div class="tiles">
 {% for post in site.categories.work %}

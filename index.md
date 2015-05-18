@@ -22,7 +22,7 @@ Made Mistakes is the personal website of Michael Rose. I'm a boring, tattooed, t
 
 <div class="tiles">
 {% for post in site.categories.mastering-paper limit:3 %}
-  {% include mastering-paper-tiles.html %}
+  {% include archive-tiles.html %}
 {% endfor %}
 </div><!-- /.tiles -->
 

@@ -9,6 +9,8 @@ share: false
 
 All of the content on Made Mistakes is available via Atom feeds that you can subscribe to using a RSS[^rss] feed reader of your choice.
 
+{% include toc.html %}
+
 ## Feeds
 
 If you don't want to miss anything posted to Made Mistakes then you'll want to grab the **All Posts** feed. Specific feeds for each of the major sections of the site are also available (Articles, Mastering Paper by FiftyThree tutorials, and PaperFaces portraits).

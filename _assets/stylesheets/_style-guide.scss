@@ -3,10 +3,10 @@
    ========================================================================== */
 
 .component {
-  // margin-bottom: $gutter;
+  margin-bottom: gutter();
   background-color: $white;
   @include breakpoint($small) {
-    // padding: $gutter;
+    padding: gutter();
     border-radius: $border-radius;
     border: 1px solid $border-color;
   }
@@ -14,7 +14,7 @@
 
 .component-header {
   h3 {
-    margin-top: 0;
+    margin-top: 0 !important;
   }
   p {
     font-family: $alt-font;
@@ -23,9 +23,9 @@
     a {
       text-decoration: none;
     }
-    // &.header-entry-last {
-    //   margin-bottom: $gutter;
-    // }
+    &.header-entry-last {
+      margin-bottom: gutter();
+    }
   }
 }
 
@@ -38,14 +38,14 @@
 .component-code {
   clear: both;
   position: relative;
-  // margin-top: 0.5 * $gutter;
+  margin-top: gutter();
   padding-top: 30px;
   &:before {
     content: "HTML";
     position: absolute;
     top: 0;
-    left: -1.618rem; /* magic number - gutter width in rems */
-    padding: 0 1em 0 1.618rem; /* magic number - gutter width in rems */
+    // left: -1.618rem; // magic number - gutter width in rems
+    padding: 0 1em;
     background: $border-color;
     font-family: $alt-font;
     @include font-size(12, no, 20);
@@ -61,10 +61,9 @@
    ========================================================================== */
 
 .color-tile {
-  // @include span-columns(4);
-  // @include omega(3n);
-  // margin-bottom: $gutter;
-  // padding: $gutter 0;
+  @include gallery (3.5 of 14);
+  margin-bottom: gutter();
+  padding: gutter() 0;
   text-align: center;
   border-radius: $border-radius;
   border: 1px solid $border-color;
@@ -126,11 +125,11 @@ $color:
 
 #component-selector {
   position: fixed;
-  backface-visibility: hidden; /* fix scroll jank */
+  backface-visibility: hidden; // fix scroll jank
   left: 0;
   right: 0;
   bottom: 0;
-  // padding: 0.5 * $gutter;
+  padding: 0.5 * gutter();
   width: 100%;
   z-index: 9;
   background: $primary-color;

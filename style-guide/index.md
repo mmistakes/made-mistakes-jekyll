@@ -1,22 +1,18 @@
 ---
-layout: style_guide
+layout: archive
 title: "Style Guide"
 date: 2015-01-28T12:05:57-05:00
 modified: 2015-02-05T10:32:14-05:00
 excerpt: "A handy collection of all the colors, typography, UI patterns, and components used on Made Mistakes."
-image:
-  feature:
-  teaser:
-  thumb:
 ads: false
 share: false
 ---
 
 This is the style guide for Made Mistakes --- a living document of code detailing all the various colors, typographic elements, UI patterns, and components used on the website to maintain visual consistency.
-{: .shorten}
+{: .squish}
 
 Where applicable links to a component's Sass partial[^sass] and/or `_include` are provided along with short descriptions of typical usage.
-{: .shorten}
+{: .squish}
 
 [^sass]: Sass partials are written using the Sassy SCSS syntax (or SCSS) and can be found in [`_assets/stylesheets/`]({{ site.owner.github-repo }}_assets/stylesheets/).
 

@@ -11,6 +11,8 @@ share: false
 
 Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel inclined, here's how you can thank me.
 
+{% include toc.html %}
+
 ## Follow Me
 
 I post once or twice a day --- you don't have to worry about me barfing out a stream of rants and retweets in quick succession. Content shared is along the lines of sarcastic remarks, Paper by FiftyThree drawings, web design and development tidbits, and photos of what little life I live.

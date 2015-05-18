@@ -174,9 +174,10 @@
 
 .page-title {
   @include layout($article);
-  @include span(14);
-  @include pre(1);
-  @include post(1);
+  @include span(10);
+  @include pre(3);
+  @include post(3);
+  margin-top: 30px;
   font-family: $heading-font-title;
   font-weight: 800;
   text-align: center;
@@ -186,6 +187,9 @@
     @include font-size(50, yes, 1);
   }
   @include breakpoint($medium) {
+    @include span(14);
+    @include pre(1);
+    @include post(1);
     @include font-size(60, yes, 1);
   }
   @include breakpoint($large) {
