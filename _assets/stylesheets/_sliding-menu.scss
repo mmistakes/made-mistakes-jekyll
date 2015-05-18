@@ -140,16 +140,20 @@
   float: right;
   margin-top: 20px;
   margin-right: span(1) + gutter();
+  width: 48px; // IE8 fallback
   width: $button-size * 1.5;
+  height: 48px; // IE8 fallback
   height: $button-size * 1.5;
   // increase button size
   @include breakpoint($small) {
     margin-top: 30px;
+    width: 64px; // IE8 fallback
     width: $button-size * 2;
+    height: 64px; // IE8 fallback
     height: $button-size * 2;
   }
   background: $sliding-menu-background; // fallback
-  background: rgba($sliding-menu-background,0.85);
+  background: rgba($sliding-menu-background, 0.85);
   outline: 0;
   border: 0 solid transparent;
   cursor: pointer;
