@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mute colored wall"
 excerpt: "PaperFaces portrait of @prasad84 drawn with Paper by 53 on an iPad."
 image: 

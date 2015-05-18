@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sidewalk stroll"
 excerpt: "PaperFaces portrait of @parkr drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "How much is that doggy in the window?"
 excerpt: "PaperFaces portrait of @CincinnatiGal drawn with Paper by 53 on an iPad."
 image: 

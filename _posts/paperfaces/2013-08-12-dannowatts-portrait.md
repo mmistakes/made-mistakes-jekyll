@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hooded figure"
 excerpt: "PaperFaces portrait of @dannowatts drawn with Paper by 53 on an iPad."
 image: 

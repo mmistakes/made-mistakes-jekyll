@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pondering"
 excerpt: "PaperFaces portrait of @olucho drawn with Paper by 53 on an iPad."
 image: 

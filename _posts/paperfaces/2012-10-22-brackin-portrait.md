@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dude in blue"
 excerpt: "PaperFaces portrait of @brackin drawn with Paper by 53 on an iPad."
 image: 

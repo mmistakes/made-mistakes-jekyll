@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Half light, half dark"
 excerpt: "PaperFaces portrait of @nevyn drawn with Paper by 53 on an iPad."
 image: 

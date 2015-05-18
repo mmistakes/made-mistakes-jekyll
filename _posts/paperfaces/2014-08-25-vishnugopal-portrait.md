@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue Green Grin"
 excerpt: "PaperFaces portrait of @vishnugopal drawn with Paper by 53 on an iPad."
 image: 

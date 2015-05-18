@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "I Really Enjoy Gray Part 199"
 excerpt: "PaperFaces portrait for giveaway winner Jason C. drawn with Paper by 53 on an iPad."
 image: 

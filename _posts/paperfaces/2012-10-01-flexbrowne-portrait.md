@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Smiling in a dark room, does anyone see you?"
 excerpt: "PaperFaces portrait of @flexbrowne drawn with Paper by 53 on an iPad."
 image: 

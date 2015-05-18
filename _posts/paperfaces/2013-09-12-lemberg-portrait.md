@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Eye spy with my golf ball eye"
 excerpt: "PaperFaces portrait of @Lemberg drawn with Paper by 53 on an iPad."
 image: 

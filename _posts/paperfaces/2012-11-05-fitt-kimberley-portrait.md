@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Lady in red"
 excerpt: "PaperFaces portrait of @Fitt_Kimberley drawn with Paper by 53 on an iPad."
 image: 

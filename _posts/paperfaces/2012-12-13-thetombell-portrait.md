@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Yellow and blue stripes, view from below"
 excerpt: "PaperFaces portrait of @thetombell drawn with Paper by 53 on an iPad."
 image: 

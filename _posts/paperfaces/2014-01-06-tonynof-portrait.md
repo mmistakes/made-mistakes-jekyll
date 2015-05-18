@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Riding in cars with yellow and blue hues"
 excerpt: "PaperFaces portrait of @TonyNof drawn with Paper by 53 on an iPad."
 image: 

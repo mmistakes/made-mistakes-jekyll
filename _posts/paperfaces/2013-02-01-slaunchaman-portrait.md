@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Purple long sleeve dress shirt"
 excerpt: "PaperFaces portrait of @slaunchaman drawn with Paper by 53 on an iPad."
 image: 

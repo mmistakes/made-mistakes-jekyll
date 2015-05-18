@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Plaid in front of some architecture"
 excerpt: "PaperFaces portrait of @bradykent drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sitting in gray"
 excerpt: "PaperFaces portrait of @paulmwatson drawn with Paper by 53 on an iPad."
 image: 

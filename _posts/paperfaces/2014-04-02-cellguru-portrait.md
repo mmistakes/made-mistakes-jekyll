@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hoodie and a glow"
 excerpt: "PaperFaces portrait of @cellguru drawn with Paper by 53 on an iPad."
 image: 

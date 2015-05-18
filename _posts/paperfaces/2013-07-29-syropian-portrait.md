@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Low contrast is the best contrast"
 excerpt: "PaperFaces portrait of @syropian drawn with Paper by 53 on an iPad."
 image: 

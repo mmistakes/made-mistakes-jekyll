@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blank stare"
 excerpt: "PaperFaces portrait of @robeberhardt drawn with Paper by 53 on an iPad."
 image: 

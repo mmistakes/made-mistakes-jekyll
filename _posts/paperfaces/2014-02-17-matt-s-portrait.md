@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "An awkward stare"
 excerpt: "PaperFaces portrait of Matt S. drawn with Paper by 53 on an iPad."
 image: 

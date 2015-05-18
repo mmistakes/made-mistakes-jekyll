@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Softly lit full face"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Beard and pink hat"
 excerpt: "PaperFaces portrait of @dhm drawn with Paper by 53 on an iPad."
 image: 

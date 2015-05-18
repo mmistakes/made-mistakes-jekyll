@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Graduation Two"
 excerpt: "PaperFaces portrait drawn with Paper by 53 on an iPad."
 image: 

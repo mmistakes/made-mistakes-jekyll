@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair in a dark room"
 excerpt: "PaperFaces portrait of @mishcrashh drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Suit and tie against gray"
 excerpt: "PaperFaces portrait of @farrenbennett drawn with Paper by 53 on an iPad."
 image: 

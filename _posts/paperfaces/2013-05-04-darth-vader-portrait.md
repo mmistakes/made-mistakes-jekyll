@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces portrait of Darth Vader"
 excerpt: "PaperFaces portrait of Darth Vader drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hair in your eyes"
 excerpt: "PaperFaces portrait of a Kate K. drawn with Paper by 53 on an iPad."
 image: 

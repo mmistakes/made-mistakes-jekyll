@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Faking Pencil with Pencil"
 excerpt: "PaperFaces portrait of the Princess E. drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Revisiting the First PaperFace"
 excerpt: "PaperFaces portrait of my wife revisited after two years of drawing with Paper."
 image: 

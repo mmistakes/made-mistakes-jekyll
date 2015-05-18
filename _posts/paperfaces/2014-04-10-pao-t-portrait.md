@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Jean jacket rock"
 excerpt: "PaperFaces portrait of a Pao T. drawn with Paper by 53 on an iPad."
 image: 

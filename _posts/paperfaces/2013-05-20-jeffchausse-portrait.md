@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Grinning in front of a red curtain"
 excerpt: "PaperFaces portrait of @JeffChausse drawn with Paper by 53 on an iPad."
 image: 

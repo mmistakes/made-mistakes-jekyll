@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wearing a green knit hat"
 excerpt: "PaperFaces portrait of @getoutyourmap drawn with Paper by 53 on an iPad."
 image: 

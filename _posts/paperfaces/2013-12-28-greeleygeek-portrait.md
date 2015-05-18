@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Half peekaboo"
 excerpt: "PaperFaces portrait of @greeleygeek drawn with Paper by 53 on an iPad."
 image: 

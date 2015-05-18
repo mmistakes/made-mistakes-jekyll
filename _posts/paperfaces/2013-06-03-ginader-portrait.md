@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Floating head in grayscale"
 excerpt: "PaperFaces portrait of @ginader drawn with Paper by 53 on an iPad."
 image: 

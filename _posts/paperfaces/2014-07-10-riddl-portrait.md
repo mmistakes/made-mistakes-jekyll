@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Riddle me this"
 excerpt: "PaperFaces portrait of @riddl drawn with Paper by 53 on an iPad."
 image: 

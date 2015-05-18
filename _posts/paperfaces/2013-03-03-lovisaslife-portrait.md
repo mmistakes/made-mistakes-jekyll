@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair and blue striped shirt"
 excerpt: "PaperFaces portrait of @lovisaslife drawn with Paper by 53 on an iPad."
 image: 

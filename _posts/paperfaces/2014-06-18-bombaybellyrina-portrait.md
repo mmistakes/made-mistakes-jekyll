@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Toss of the hair"
 excerpt: "PaperFaces portrait of @BombayBellyrina drawn with Paper by 53 on an iPad."
 image: 

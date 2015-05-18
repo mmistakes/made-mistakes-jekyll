@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In front of a rock wall"
 excerpt: "PaperFaces portrait of @torop4in drawn with Paper by 53 on an iPad."
 image: 

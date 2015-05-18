@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pink hoodie hearted hand"
 excerpt: "PaperFaces portrait of @cliqueasaurus drawn with Paper by 53 on an iPad."
 image: 

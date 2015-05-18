@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Peace sign"
 excerpt: "PaperFaces portrait of @emmajrwalker drawn with Paper by 53 on an iPad."
 image: 

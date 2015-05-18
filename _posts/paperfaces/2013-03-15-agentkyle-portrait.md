@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Scuba mask underwater"
 excerpt: "PaperFaces portrait of @AgentKyle drawn with Paper by 53 on an iPad."
 image: 

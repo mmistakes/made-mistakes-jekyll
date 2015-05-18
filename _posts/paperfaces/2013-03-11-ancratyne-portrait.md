@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue dress curved"
 excerpt: "PaperFaces portrait of @ancratyne drawn with Paper by 53 on an iPad."
 image: 

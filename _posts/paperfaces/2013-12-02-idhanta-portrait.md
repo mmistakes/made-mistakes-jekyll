@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Painterly orange wall"
 excerpt: "PaperFaces portrait of @idhanta drawn with Paper by 53 on an iPad."
 image: 

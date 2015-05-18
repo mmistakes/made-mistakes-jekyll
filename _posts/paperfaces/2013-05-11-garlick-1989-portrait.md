@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A couple of war paint faces"
 excerpt: "PaperFaces portrait of @Garlick_1989 drawn with Paper by 53 on an iPad."
 image: 

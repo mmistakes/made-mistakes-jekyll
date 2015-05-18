@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Stylized yellow flowers"
 excerpt: "PaperFaces portrait of @StraatKatBasson drawn with Paper by 53 on an iPad."
 image: 

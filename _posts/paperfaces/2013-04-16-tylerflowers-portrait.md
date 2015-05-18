@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Curly hair drawn in sepia tones"
 excerpt: "PaperFaces portrait of @tylerflowers drawn with Paper by 53 on an iPad."
 image: 

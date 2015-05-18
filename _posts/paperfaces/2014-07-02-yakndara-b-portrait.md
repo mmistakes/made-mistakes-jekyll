@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Heard you like eyes"
 excerpt: "PaperFaces portrait of Yakndara B. drawn with Paper by 53 on an iPad."
 image: 

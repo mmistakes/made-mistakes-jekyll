@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Let's Get Spooky"
 excerpt: "PaperFaces portrait of the Renate W. drawn with Paper by 53 on an iPad."
 image: 

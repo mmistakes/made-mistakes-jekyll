@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Summer popsicle"
 excerpt: "PaperFaces portrait of @thesugarmonster drawn with Paper by 53 on an iPad."
 image: 

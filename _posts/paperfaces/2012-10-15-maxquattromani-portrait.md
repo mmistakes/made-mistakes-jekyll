@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white beard formal"
 excerpt: "PaperFaces portrait of @maxquattromani drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue Man Group look-a-like"
 excerpt: "PaperFaces portrait of @aarongreenlee drawn with Paper by 53 on an iPad."
 image: 

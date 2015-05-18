@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white iPhone selfie"
 excerpt: "PaperFaces portrait of @zainjoyce drawn with Paper by 53 on an iPad."
 image: 

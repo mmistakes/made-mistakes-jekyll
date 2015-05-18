@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses wearing a plaid scarf"
 excerpt: "PaperFaces portrait of @pichfl drawn with Paper by 53 on an iPad."
 image: 

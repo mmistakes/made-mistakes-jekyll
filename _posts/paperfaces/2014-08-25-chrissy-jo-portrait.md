@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Lid Flip"
 excerpt: "PaperFaces portrait of the Chrissy Jo drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Side swept in a  hoodie"
 excerpt: "PaperFaces portrait of @likejunx drawn with Paper by 53 on an iPad."
 image: 

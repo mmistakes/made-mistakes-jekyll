@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Happy beard in plaid"
 excerpt: "PaperFaces portrait of @kessler drawn with Paper by 53 on an iPad."
 image: 

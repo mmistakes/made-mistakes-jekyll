@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Chloe, 22 months"
 excerpt: "PaperFaces portrait of my daughter Chloe drawn with Paper by 53 on an iPad."
 image: 

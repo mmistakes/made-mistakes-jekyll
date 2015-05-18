@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Faking Bokehs Again"
 excerpt: "PaperFaces portrait of @mosiejczuk drawn with Paper by 53 on an iPad."
 image: 

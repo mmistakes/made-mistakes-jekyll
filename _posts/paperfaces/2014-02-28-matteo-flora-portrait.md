@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Getting realistic with gray"
 excerpt: "PaperFaces portrait of Matteo Flora drawn with Paper by 53 on an iPad."
 image: 

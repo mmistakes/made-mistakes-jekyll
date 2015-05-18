@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Computing on a computer"
 excerpt: "PaperFaces portrait of @jean_francois drawn with Paper by 53 on an iPad."
 image: 

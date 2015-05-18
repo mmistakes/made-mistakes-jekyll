@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wearing a bright orange knit hat"
 excerpt: "PaperFaces portrait of @bradyv drawn with Paper by 53 on an iPad."
 image: 

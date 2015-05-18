@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sniff sniff"
 excerpt: "PaperFaces portrait of @Fridorr drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Curly hair on the grass"
 excerpt: "PaperFaces portrait of @lmichelleinc drawn with Paper by 53 on an iPad."
 image: 

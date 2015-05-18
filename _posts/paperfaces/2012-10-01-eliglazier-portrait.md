@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "On a boat!"
 excerpt: "PaperFaces portrait of @eliglazier drawn with Paper by 53 on an iPad."
 image: 

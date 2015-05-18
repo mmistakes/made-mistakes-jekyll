@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sweater weather"
 excerpt: "PaperFaces portrait of @ayepod drawn with Paper by 53 on an iPad."
 image: 

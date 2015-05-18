@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Cousin It"
 excerpt: "PaperFaces portrait of a Marie A. drawn with Paper by 53 on an iPad."
 image: 

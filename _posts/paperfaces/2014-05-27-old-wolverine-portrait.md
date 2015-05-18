@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Days of Future Past"
 excerpt: "PaperFaces portrait of Mystique and Wolverine drawn with Paper by 53 on an iPad."
 image: 

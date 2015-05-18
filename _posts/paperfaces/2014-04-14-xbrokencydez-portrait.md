@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Spelling mistakes"
 excerpt: "PaperFaces portrait of @xbrokencydez drawn with Paper by 53 on an iPad."
 image: 

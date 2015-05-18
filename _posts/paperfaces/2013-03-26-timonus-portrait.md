@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses in a washed out palette"
 excerpt: "PaperFaces portrait of @timonus drawn with Paper by 53 on an iPad."
 image: 

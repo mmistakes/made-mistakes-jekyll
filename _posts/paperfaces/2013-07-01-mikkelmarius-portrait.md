@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Busy streets drawn less chaotic"
 excerpt: "PaperFaces portrait of @mikkelmarius drawn with Paper by 53 on an iPad."
 image: 

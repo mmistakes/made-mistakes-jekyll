@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The color of ice"
 excerpt: "PaperFaces portrait of @EmmaIKesselhut drawn with Paper by 53 on an iPad."
 image: 

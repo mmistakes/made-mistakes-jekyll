@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The sun casts pale light"
 excerpt: "PaperFaces portrait of @ellaweston drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Life guard smoking a cigar"
 excerpt: "PaperFaces portrait of @ajkonieckijr drawn with Paper by 53 on an iPad."
 image: 

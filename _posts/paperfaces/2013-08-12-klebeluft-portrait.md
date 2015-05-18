@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Some of my favorite colors"
 excerpt: "PaperFaces portrait of @klebeluft drawn with Paper by 53 on an iPad."
 image: 

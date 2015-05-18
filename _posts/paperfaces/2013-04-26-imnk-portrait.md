@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Grayscale mustache"
 excerpt: "PaperFaces portrait of @imnk drawn with Paper by 53 on an iPad."
 image: 

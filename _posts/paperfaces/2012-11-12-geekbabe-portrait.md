@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a black top"
 excerpt: "PaperFaces portrait of @geekbabe drawn with Paper by 53 on an iPad."
 image: 

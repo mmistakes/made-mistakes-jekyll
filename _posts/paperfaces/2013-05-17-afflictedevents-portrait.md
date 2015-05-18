@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Goatee reflected glasses"
 excerpt: "PaperFaces portrait of @afflictedevents drawn with Paper by 53 on an iPad."
 image: 

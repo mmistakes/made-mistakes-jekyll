@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Off camera glance"
 excerpt: "PaperFaces portrait of @toph drawn with Paper by 53 on an iPad."
 image: 

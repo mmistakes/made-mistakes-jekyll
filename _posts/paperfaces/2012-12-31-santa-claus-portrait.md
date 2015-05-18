@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The big man in red"
 excerpt: "PaperFaces portrait of Santa Claus drawn with Paper by 53 on an iPad."
 image: 

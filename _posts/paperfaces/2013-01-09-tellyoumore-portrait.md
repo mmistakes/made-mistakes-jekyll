@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a scarf thinking lots of orange hues"
 excerpt: "PaperFaces portrait of @TellYouMore drawn with Paper by 53 on an iPad."
 image: 

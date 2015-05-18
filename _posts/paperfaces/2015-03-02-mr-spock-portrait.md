@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "&#147;Live Long and Prosper&#148;"
 excerpt: "PaperFaces portrait tribute of Leonard Nimoy as Mr. Spock drawn with Paper by 53 on an iPad."
 modified: 

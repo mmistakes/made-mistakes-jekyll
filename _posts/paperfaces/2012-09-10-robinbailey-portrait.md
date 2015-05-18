@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white with the city making lights"
 excerpt: "PaperFaces portrait of @RobinBailey drawn with Paper by 53 on an iPad."
 image: 

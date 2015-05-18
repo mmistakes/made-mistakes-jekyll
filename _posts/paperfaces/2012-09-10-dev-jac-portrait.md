@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pilot headset"
 excerpt: "PaperFaces portrait of @dev_jac drawn with Paper by 53 on an iPad."
 image: 

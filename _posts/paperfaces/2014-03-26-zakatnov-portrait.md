@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Breathing underwater"
 excerpt: "PaperFaces portrait of @Zakatnov drawn with Paper by 53 on an iPad."
 image: 

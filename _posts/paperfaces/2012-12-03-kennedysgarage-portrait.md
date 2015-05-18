@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a car at night"
 excerpt: "PaperFaces portrait of @kennedysgarage drawn with Paper by 53 on an iPad."
 image: 

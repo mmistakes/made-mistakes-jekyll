@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "I want your skulls"
 excerpt: "PaperFaces portrait of @misfit82 drawn with Paper by 53 on an iPad."
 image: 

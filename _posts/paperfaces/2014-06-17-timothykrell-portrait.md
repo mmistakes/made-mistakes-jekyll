@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses of the gray"
 excerpt: "PaperFaces portrait of @timothykrell drawn with Paper by 53 on an iPad."
 image: 

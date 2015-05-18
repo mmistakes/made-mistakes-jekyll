@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Low contrast at the beach"
 excerpt: "PaperFaces portrait of @joaosevilhano drawn with Paper by 53 on an iPad."
 image: 

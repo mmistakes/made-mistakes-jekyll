@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses in front of green water"
 excerpt: "PaperFaces portrait of @aaronrustad drawn with Paper by 53 on an iPad."
 image: 

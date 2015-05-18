@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Old timey brothers"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 

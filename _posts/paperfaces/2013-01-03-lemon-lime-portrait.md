@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Yellow lime colored shirt"
 excerpt: "PaperFaces portrait of @lemon_lime drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "LA cap on the beach"
 excerpt: "PaperFaces portrait of @fostermatt drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Three boys sitting side by side"
 excerpt: "PaperFaces portrait of @andrewjbryk drawn with Paper by 53 on an iPad."
 image: 

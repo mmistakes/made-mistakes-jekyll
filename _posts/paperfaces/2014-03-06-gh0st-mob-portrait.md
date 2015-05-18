@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Leather jacket"
 excerpt: "PaperFaces portrait of @gh0st_mob drawn with Paper by 53 on an iPad."
 image: 

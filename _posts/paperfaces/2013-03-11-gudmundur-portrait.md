@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mouth open in muted tones"
 excerpt: "PaperFaces portrait of @gudmundur drawn with Paper by 53 on an iPad."
 image: 

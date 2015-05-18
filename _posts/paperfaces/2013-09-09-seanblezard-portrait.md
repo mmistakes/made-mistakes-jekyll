@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Patterns of plaid"
 excerpt: "PaperFaces portrait of @seanblezard drawn with Paper by 53 on an iPad."
 modified: 2013-09-12

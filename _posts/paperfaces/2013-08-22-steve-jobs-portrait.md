@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Think Different"
 excerpt: "PaperFaces portrait of Steve Jobs drawn with Paper by 53 on an iPad."
 image: 

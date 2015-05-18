@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Chalkboard Words"
 excerpt: "PaperFaces portrait of the Charlotte H. drawn with Paper by 53 on an iPad."
 image: 

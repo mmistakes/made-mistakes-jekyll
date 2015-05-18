@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Big grin on those orange hues"
 excerpt: "PaperFaces portrait of @aragost drawn with Paper by 53 on an iPad."
 image: 

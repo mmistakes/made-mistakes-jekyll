@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Kind of looks like Slenderman no?"
 excerpt: "PaperFaces portrait of @johnawells drawn with Paper by 53 on an iPad."
 image: 

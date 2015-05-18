@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Raining hearts"
 excerpt: "PaperFaces portrait of @BollyWooed drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Smiling girl"
 excerpt: "PaperFaces portrait of @karenkho drawn with Paper by 53 on an iPad."
 image: 

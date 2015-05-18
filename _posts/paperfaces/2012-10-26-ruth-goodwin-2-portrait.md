@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglass chillin friends"
 excerpt: "PaperFaces portrait of @Ruth_Goodwin and friend drawn with Paper by 53 on an iPad."
 image: 

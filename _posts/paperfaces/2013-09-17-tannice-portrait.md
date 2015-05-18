@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hair in braids"
 excerpt: "PaperFaces portrait of @Tannice_ drawn with Paper by 53 on an iPad."
 image: 

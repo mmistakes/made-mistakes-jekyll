@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "See Right Through Me"
 excerpt: "PaperFaces portrait of the Rachel B. drawn with Paper by 53 on an iPad."
 modified: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Smile and blush"
 excerpt: "PaperFaces portrait of Chad and Haley drawn with Paper by 53 on an iPad."
 image: 

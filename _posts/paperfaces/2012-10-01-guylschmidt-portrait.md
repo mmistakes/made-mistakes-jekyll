@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bearded fella in a car"
 excerpt: "PaperFaces portrait of @guylschmidt drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sun hat"
 excerpt: "PaperFaces portrait of @eimaj_j drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair leaning forward"
 excerpt: "PaperFaces portrait of @kimkimcachoo drawn with Paper by 53 on an iPad."
 image: 

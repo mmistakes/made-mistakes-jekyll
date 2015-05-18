@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Painted nails"
 excerpt: "PaperFaces portrait of @lisaorye drawn with Paper by 53 on an iPad."
 image: 

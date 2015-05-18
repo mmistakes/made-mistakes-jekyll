@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pink tips"
 excerpt: "PaperFaces portrait of @mich-maci drawn with Paper by 53 on an iPad."
 image: 

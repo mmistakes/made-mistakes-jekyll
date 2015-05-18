@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white bangs"
 excerpt: "PaperFaces portrait of Dani O. drawn with Paper by 53 on an iPad."
 image: 

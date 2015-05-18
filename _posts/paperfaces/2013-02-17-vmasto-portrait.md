@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Beard in golden yellow tones"
 excerpt: "PaperFaces portrait of @vmasto drawn with Paper by 53 on an iPad."
 image: 

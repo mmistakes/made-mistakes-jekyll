@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Flipped Shirt"
 excerpt: "PaperFaces portrait of the Emily D. drawn with Paper by 53 on an iPad."
 modified: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Half and Half"
 excerpt: "PaperFaces portrait of Fynlay P. drawn with Paper by 53 on an iPad."
 image: 

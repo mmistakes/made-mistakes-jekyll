@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Circles behind grayscale"
 excerpt: "PaperFaces portrait of @stefanhartwig drawn with Paper by 53 on an iPad."
 image: 

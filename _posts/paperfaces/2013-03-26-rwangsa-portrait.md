@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Backpacking in a scarf"
 excerpt: "PaperFaces portrait of @rwangsa drawn with Paper by 53 on an iPad."
 image: 

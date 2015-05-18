@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Cello, is it me you're looking for?"
 excerpt: "PaperFaces portrait of @rubenharris drawn with Paper by 53 on an iPad."
 image: 

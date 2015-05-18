@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dark hair and glasses"
 excerpt: "PaperFaces portrait of @Laurel_Renee drawn with Paper by 53 on an iPad."
 image: 

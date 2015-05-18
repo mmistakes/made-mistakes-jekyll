@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Best man"
 excerpt: "PaperFaces portrait of Juan and Kyle drawn with Paper by 53 on an iPad."
 image: 

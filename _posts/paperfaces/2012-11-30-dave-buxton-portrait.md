@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wearing a suit"
 excerpt: "PaperFaces portrait of @Dave_Buxton drawn with Paper by 53 on an iPad."
 image: 

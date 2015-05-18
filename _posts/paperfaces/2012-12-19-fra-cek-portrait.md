@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Plaid in glasses"
 excerpt: "PaperFaces portrait of @fra_cek drawn with Paper by 53 on an iPad."
 image: 

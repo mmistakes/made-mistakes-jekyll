@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Overlooking red"
 excerpt: "PaperFaces portrait of @timcameronryan drawn with Paper by 53 on an iPad."
 image: 

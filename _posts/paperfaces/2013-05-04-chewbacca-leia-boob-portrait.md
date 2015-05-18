@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces portrait of Chewbacca and Princess Leia"
 excerpt: "PaperFaces portrait of Chewbacca and Princess Leia drawn with Paper by 53 on an iPad."
 image: 

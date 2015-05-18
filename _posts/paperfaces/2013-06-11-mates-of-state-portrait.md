@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces portrait of Mates of State"
 excerpt: "PaperFaces portrait of Mates of State drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hey scruffy beard, double exposure self portrait"
 excerpt: "PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Brightly colored by the sky"
 excerpt: "PaperFaces portrait of @suhairykz drawn with Paper by 53 on an iPad."
 image: 

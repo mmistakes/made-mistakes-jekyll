@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "By Himself"
 excerpt: "PaperFaces portrait of @pete_himself drawn with Paper by 53 on an iPad."
 image: 

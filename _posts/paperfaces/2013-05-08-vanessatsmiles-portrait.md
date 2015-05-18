@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair with a slight curl"
 excerpt: "PaperFaces portrait of @VanessaTSmiles drawn with Paper by 53 on an iPad."
 image: 

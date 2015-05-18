@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Curls in the sun"
 excerpt: "PaperFaces portrait of @sodevious drawn with Paper by 53 on an iPad."
 image: 

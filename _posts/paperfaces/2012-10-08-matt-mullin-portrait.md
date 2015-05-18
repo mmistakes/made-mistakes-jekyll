@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Free Boosie"
 excerpt: "PaperFaces portrait of @matt-mullin drawn with Paper by 53 on an iPad."
 image: 

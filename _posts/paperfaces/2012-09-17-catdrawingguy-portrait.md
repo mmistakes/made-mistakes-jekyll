@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Remember when he was on Shark Tank?"
 excerpt: "PaperFaces portrait of @CatDrawingGuy drawn with Paper by 53 on an iPad."
 image: 

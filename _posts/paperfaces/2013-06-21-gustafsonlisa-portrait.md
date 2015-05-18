@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair in black and white"
 excerpt: "PaperFaces portrait of @Gustafsonlisa drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Purple shirted sir"
 excerpt: "PaperFaces portrait of @sippey drawn with Paper by 53 on an iPad."
 image: 

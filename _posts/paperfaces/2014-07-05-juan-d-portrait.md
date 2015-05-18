@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A classic pose"
 excerpt: "PaperFaces portrait of Juan D. drawn with Paper by 53 on an iPad."
 image: 

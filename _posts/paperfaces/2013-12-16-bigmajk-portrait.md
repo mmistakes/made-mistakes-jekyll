@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Movember is over"
 excerpt: "PaperFaces portrait of @BigMajk drawn with Paper by 53 on an iPad."
 image: 

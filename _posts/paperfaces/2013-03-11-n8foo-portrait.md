@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Holding a camera in front"
 excerpt: "PaperFaces portrait of @n8foo drawn with Paper by 53 on an iPad."
 image: 

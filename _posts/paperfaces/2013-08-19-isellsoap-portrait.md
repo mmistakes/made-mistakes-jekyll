@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Stripes in the trees"
 excerpt: "PaperFaces portrait of @isellsoap drawn with Paper by 53 on an iPad."
 image: 

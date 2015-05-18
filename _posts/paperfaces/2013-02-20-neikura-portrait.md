@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair purple and red highlights"
 excerpt: "PaperFaces portrait of @neikura drawn with Paper by 53 on an iPad."
 image: 

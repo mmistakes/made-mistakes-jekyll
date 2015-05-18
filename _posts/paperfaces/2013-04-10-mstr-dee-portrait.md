@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Neon green short sleeve shirt"
 excerpt: "PaperFaces portrait of @Mstr_Dee drawn with Paper by 53 on an iPad."
 image: 

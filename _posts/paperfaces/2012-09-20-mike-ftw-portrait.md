@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Oink oink, blue pig mask"
 excerpt: "PaperFaces portrait of @mike_FTW drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A Drawing of a Ghost"
 excerpt: "PaperFaces portrait of @AWinterGhost drawn with Paper by 53 on an iPad."
 image: 

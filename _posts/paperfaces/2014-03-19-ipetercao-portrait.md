@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "King of pop"
 excerpt: "PaperFaces portrait of @iPeterCao drawn with Paper by 53 on an iPad."
 image: 

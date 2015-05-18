@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Guy and gal all bloodied up"
 excerpt: "PaperFaces portrait of @RyanFarrellStl drawn with Paper by 53 on an iPad."
 image: 

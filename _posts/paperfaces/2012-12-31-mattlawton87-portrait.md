@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A couple"
 excerpt: "PaperFaces portrait of @mattlawton87 drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Oh Eye Dunno"
 excerpt: "PaperFaces portrait of the Kapi M. drawn with Paper by 53 on an iPad."
 modified: 

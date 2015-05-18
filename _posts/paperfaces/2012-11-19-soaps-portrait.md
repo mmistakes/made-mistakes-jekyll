@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blonde black and white"
 excerpt: "PaperFaces portrait of @_soaps drawn with Paper by 53 on an iPad."
 image: 

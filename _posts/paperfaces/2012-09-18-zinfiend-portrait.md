@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wine and cheese"
 excerpt: "PaperFaces portrait of @zinfiend drawn with Paper by 53 on an iPad."
 image: 

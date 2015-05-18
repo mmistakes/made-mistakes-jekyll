@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Snake bites"
 excerpt: "PaperFaces portrait of @ashyda drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pew Pew Pew!"
 excerpt: "PaperFaces portrait of @NatRaybould drawn with Paper by 53 on an iPad."
 image: 

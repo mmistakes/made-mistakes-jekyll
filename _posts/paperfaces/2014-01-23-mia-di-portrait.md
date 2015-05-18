@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Looking Soft in Her Blizzard Protection"
 excerpt: "PaperFaces portrait of Mia Di D. drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mother and little one"
 excerpt: "PaperFaces portrait of @therealamylou drawn with Paper by 53 on an iPad."
 image: 

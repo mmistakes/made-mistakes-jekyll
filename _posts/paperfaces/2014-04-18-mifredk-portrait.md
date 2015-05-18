@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Buttoned up in a sweater"
 excerpt: "PaperFaces portrait of @mifredk drawn with Paper by 53 on an iPad."
 image: 

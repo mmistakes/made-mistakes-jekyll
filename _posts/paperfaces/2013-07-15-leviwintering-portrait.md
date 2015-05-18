@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A full face in low contrast"
 excerpt: "PaperFaces portrait of @leviwintering drawn with Paper by 53 on an iPad."
 image: 

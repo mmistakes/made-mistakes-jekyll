@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "&#147;You were the chosen one!&#148;"
 excerpt: "PaperFaces portrait Obi-Wan Kenobi drawn with Paper by 53 on an iPad."
 image: 

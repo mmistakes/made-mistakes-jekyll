@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Eye eye captain"
 excerpt: "PaperFaces portrait of @_andy_h_ drawn with Paper by 53 on an iPad."
 image: 

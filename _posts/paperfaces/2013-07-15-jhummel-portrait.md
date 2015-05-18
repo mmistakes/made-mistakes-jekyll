@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Posterization"
 excerpt: "PaperFaces portrait of @jhummel drawn with Paper by 53 on an iPad."
 image: 

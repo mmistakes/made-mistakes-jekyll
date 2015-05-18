@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "More metal than a toaster"
 excerpt: "PaperFaces portrait of @doertedev drawn with Paper by 53 on an iPad."
 image: 

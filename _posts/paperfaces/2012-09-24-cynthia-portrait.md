@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglasses near some toxic looking water yo!"
 excerpt: "PaperFaces portrait of @cynthia drawn with Paper by 53 on an iPad."
 image: 

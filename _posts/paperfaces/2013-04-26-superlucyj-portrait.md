@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blonde hair in red"
 excerpt: "PaperFaces portrait of @superlucyj drawn with Paper by 53 on an iPad."
 image: 

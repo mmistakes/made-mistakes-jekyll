@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Put a bird on it"
 excerpt: "PaperFaces portrait of @christynicol drawn with Paper by 53 on an iPad."
 image: 

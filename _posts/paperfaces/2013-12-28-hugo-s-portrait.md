@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dolphin whisperer"
 excerpt: "PaperFaces portrait of Hugo S. drawn with Paper by 53 on an iPad."
 image: 

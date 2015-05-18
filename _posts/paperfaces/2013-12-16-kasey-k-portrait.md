@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Polka dot drape"
 excerpt: "PaperFaces portrait of Kasey K. drawn with Paper by 53 on an iPad."
 image: 

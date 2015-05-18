@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bright Yellow"
 excerpt: "PaperFaces portrait of @GHarpreet drawn with Paper by 53 on an iPad."
 image: 

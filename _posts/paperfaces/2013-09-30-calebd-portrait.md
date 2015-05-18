@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Goatee at the wall"
 excerpt: "PaperFaces portrait of @calebd drawn with Paper by 53 on an iPad."
 image: 

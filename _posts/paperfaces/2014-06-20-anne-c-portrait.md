@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sideways drawing"
 excerpt: "PaperFaces portrait of Anne C. drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Working in grayscale is totally my jam"
 excerpt: "PaperFaces portrait of @folktrash drawn with Paper by 53 on an iPad."
 image: 

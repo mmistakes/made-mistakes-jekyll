@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red backdrop and beard"
 excerpt: "PaperFaces portrait of @endonend drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pixelated glasses"
 excerpt: "PaperFaces portrait of @mluker drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In gray on a bridge in the wilderness"
 excerpt: "PaperFaces portrait of @allara drawn with Paper by 53 on an iPad."
 image: 

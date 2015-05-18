@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hoodies and architecture"
 excerpt: "PaperFaces portrait of @simonbusborg drawn with Paper by 53 on an iPad."
 image: 

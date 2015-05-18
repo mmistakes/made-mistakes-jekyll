@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Balance is everything"
 excerpt: "PaperFaces portrait of @clepetit drawn with Paper by 53 on an iPad."
 image: 

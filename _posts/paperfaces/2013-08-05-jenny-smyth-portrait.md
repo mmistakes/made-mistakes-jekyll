@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Folding a menu in a gray room"
 excerpt: "PaperFaces portrait of @Jenny_Smyth drawn with Paper by 53 on an iPad."
 image: 

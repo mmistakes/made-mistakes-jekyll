@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long curly hair in a red scarf"
 excerpt: "PaperFaces portrait of @voidet drawn with Paper by 53 on an iPad."
 image: 

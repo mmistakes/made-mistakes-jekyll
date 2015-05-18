@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Orange hat"
 excerpt: "PaperFaces portrait of @bi11jon drawn with Paper by 53 on an iPad."
 image: 

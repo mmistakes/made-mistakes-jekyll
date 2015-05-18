@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red hair and full of smiles"
 excerpt: "PaperFaces portrait of @arialem drawn with Paper by 53 on an iPad."
 image: 

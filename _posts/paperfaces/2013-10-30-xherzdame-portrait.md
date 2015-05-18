@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Kissy kissy"
 excerpt: "PaperFaces portrait of @xHerzdame drawn with Paper by 53 on an iPad."
 image: 

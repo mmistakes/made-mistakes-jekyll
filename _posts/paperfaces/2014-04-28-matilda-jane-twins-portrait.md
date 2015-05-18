@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Matilda Jane Rosebuds"
 excerpt: "PaperFaces portrait of the rosebuds drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blurry foliage portrait"
 excerpt: "PaperFaces portrait of @jackmcdade drawn with Paper by 53 on an iPad."
 image: 

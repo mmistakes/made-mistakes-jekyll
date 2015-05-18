@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses wearing v-neck"
 excerpt: "PaperFaces portrait of @jonarnold drawn with Paper by 53 on an iPad."
 image: 

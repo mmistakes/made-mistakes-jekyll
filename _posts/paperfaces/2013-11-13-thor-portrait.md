@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Thor and his big hammer"
 excerpt: "PaperFaces portrait of Thor drawn with Paper by 53 on an iPad."
 image: 

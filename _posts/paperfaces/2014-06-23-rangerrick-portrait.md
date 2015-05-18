@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Thumbs up, cool hat"
 excerpt: "PaperFaces portrait of @RangerRick drawn with Paper by 53 on an iPad."
 image: 

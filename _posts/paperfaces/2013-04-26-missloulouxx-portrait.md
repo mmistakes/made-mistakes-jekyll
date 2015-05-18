@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sideways down on a red leather couch"
 excerpt: "PaperFaces portrait of @MissLoulouxx drawn with Paper by 53 on an iPad."
 image: 

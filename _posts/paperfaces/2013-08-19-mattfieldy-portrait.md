@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pixelated beard"
 excerpt: "PaperFaces portrait of @mattfieldy drawn with Paper by 53 on an iPad."
 image: 

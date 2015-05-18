@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a nice suit"
 excerpt: "PaperFaces portrait of @pepfre drawn with Paper by 53 on an iPad."
 image: 

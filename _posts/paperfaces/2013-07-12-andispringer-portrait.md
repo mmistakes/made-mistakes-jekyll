@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dramatic contrast and a hint of smile"
 excerpt: "PaperFaces portrait of @andispringer drawn with Paper by 53 on an iPad."
 image: 

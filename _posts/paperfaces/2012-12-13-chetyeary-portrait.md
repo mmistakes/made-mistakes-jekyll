@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Muted Tones in an Earthy Room"
 excerpt: "PaperFaces portrait of @chetyeary drawn with Paper by 53 on an iPad."
 image: 

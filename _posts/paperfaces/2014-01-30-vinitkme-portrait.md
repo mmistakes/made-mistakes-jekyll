@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Thin stripes in gray"
 excerpt: "PaperFaces portrait of @vinitkme drawn with Paper by 53 on an iPad."
 image: 

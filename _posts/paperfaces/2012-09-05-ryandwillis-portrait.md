@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dressed up in the car"
 excerpt: "PaperFaces portrait of @ryandwillis drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wind blowing blue green skies"
 excerpt: "PaperFaces portrait of @joelmartinez drawn with Paper by 53 on an iPad."
 image: 

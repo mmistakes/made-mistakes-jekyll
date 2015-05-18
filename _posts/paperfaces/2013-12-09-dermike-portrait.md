@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Afterglow face blurs"
 excerpt: "PaperFaces portrait of @dermike drawn with Paper by 53 on an iPad."
 image: 

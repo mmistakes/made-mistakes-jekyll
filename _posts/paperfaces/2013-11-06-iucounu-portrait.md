@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hey Darkman, how do you like your steaks?"
 excerpt: "PaperFaces portrait of @iucounu drawn with Paper by 53 on an iPad."
 image: 

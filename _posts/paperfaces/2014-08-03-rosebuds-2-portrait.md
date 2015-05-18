@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The Twins Turn Two"
 excerpt: "PaperFaces portrait of the two little rosebuds drawn with Paper by 53 on an iPad."
 image: 

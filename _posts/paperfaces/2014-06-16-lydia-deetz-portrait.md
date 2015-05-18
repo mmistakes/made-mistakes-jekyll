@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "I am utterly alone"
 excerpt: "PaperFaces portrait of Lydia Deetz drawn with Paper by 53 on an iPad."
 image: 

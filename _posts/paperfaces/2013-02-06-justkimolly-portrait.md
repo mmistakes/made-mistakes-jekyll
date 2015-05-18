@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglasses in black and white"
 excerpt: "PaperFaces portrait of @justkimolly drawn with Paper by 53 on an iPad."
 image: 

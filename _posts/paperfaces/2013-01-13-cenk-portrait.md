@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white beard"
 excerpt: "PaperFaces portrait of @Cenk drawn with Paper by 53 on an iPad."
 image: 

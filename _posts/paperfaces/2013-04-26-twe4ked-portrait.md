@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Faux pipe smoking in a sweet hat"
 excerpt: "PaperFaces portrait of @twe4ked drawn with Paper by 53 on an iPad."
 image: 

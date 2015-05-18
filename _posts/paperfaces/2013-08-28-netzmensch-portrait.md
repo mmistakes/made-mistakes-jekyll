@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Cyborg"
 excerpt: "PaperFaces portrait of @netzmensch drawn with Paper by 53 on an iPad."
 image: 

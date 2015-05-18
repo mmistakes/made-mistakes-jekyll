@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In front of book shelves"
 excerpt: "PaperFaces portrait of @mr_craig drawn with Paper by 53 on an iPad."
 image: 

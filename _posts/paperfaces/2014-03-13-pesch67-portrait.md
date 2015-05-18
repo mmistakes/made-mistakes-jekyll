@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Walter White look a like?"
 excerpt: "PaperFaces portrait of @PeSch67 drawn with Paper by 53 on an iPad."
 image: 

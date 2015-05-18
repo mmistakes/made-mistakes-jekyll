@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Another eye and half face"
 excerpt: "PaperFaces portrait of @KasperStenbom drawn with Paper by 53 on an iPad."
 image: 

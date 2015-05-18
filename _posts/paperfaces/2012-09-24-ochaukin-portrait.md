@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Scuba diving gear"
 excerpt: "PaperFaces portrait of O. Chaukin drawn with Paper by 53 on an iPad."
 image: 

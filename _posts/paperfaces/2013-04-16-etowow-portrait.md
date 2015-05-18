@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Restaurant green lights the hair"
 excerpt: "PaperFaces portrait of @etowow drawn with Paper by 53 on an iPad."
 image: 

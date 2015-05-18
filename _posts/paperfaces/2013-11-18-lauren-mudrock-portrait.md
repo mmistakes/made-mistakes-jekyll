@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red brick hair"
 excerpt: "PaperFaces portrait of Lauren Mudrock drawn with Paper by 53 on an iPad."
 image: 

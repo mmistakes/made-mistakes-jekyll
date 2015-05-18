@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Cat face bathroom selfie"
 excerpt: "PaperFaces portrait of @Fiips_ drawn with Paper by 53 on an iPad."
 image: 

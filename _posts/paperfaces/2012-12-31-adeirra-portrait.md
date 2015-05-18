@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fancy pants hat tip"
 excerpt: "PaperFaces portrait of @adeirra drawn with Paper by 53 on an iPad."
 image: 

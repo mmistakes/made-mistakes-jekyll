@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "High brightness front view"
 excerpt: "PaperFaces portrait of @eighthree drawn with Paper by 53 on an iPad."
 image: 

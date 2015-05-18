@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Eyes on the prize"
 excerpt: "PaperFaces portrait of Sergei R. drawn with Paper by 53 on an iPad."
 image: 

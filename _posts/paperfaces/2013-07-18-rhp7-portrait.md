@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A face of pixels"
 excerpt: "PaperFaces portrait of @rhp7 drawn with Paper by 53 on an iPad."
 image: 

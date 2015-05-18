@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dark hair, red lips"
 excerpt: "PaperFaces portrait of @theordovician drawn with Paper by 53 on an iPad."
 image: 

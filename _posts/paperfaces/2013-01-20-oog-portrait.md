@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In shadows, black and white"
 excerpt: "PaperFaces portrait of @Oog drawn with Paper by 53 on an iPad."
 image: 

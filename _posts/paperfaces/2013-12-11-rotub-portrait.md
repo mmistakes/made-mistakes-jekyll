@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rohan robber"
 excerpt: "PaperFaces portrait of @rotub drawn with Paper by 53 on an iPad."
 image: 

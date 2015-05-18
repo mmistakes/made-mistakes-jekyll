@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Union Jack"
 excerpt: "PaperFaces portrait of @Gbeschbacher drawn with Paper by 53 on an iPad."
 image: 

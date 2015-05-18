@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Trading drawings for a feature"
 excerpt: "PaperFaces portrait of @surjithctly drawn with Paper by 53 on an iPad."
 image: 

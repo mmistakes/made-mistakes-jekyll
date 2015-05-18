@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white 3/4 view"
 excerpt: "PaperFaces portrait of @SJR_online drawn with Paper by 53 on an iPad."
 image: 

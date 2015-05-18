@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fake mountains"
 excerpt: "PaperFaces portrait of @shuether drawn with Paper by 53 on an iPad."
 image: 

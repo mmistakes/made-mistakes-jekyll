@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Naturally lit with sunlight"
 excerpt: "PaperFaces portrait of @rossbelmont drawn with Paper by 53 on an iPad."
 image: 

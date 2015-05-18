@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dark hat and flannet coat"
 excerpt: "PaperFaces portrait of theskull-com drawn with Paper by 53 on an iPad."
 image: 

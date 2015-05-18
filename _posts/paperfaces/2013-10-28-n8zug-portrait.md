@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "7 heads, 3 backsides, and one plumber's crack"
 excerpt: "PaperFaces portrait of @n8zug drawn with Paper by 53 on an iPad."
 image: 

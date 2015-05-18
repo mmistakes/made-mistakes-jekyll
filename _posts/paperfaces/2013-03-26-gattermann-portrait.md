@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white face in shadow"
 excerpt: "PaperFaces portrait of @gattermann drawn with Paper by 53 on an iPad."
 image: 

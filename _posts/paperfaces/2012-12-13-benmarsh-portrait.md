@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A study in gray"
 excerpt: "PaperFaces portrait of @benmarsh drawn with Paper by 53 on an iPad."
 image: 

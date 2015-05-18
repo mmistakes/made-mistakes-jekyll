@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Woof! Cuddle in gray"
 excerpt: "PaperFaces portrait of @ejotto drawn with Paper by 53 on an iPad."
 image: 

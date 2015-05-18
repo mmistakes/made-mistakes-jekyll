@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dramatic plaid angle"
 excerpt: "PaperFaces portrait of @kevinwoodland drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sports cap in a gray room"
 excerpt: "PaperFaces portrait of @NCFC_Mad drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Coffee mug bokeh"
 excerpt: "PaperFaces portrait of @velanv drawn with Paper by 53 on an iPad."
 image: 

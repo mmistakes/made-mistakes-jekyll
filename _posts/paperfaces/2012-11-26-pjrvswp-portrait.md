@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Full sleeve of tattoos"
 excerpt: "PaperFaces portrait of @pjrvswp drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Shag cut in plaid"
 excerpt: "PaperFaces portrait of @Bookety drawn with Paper by 53 on an iPad."
 image: 

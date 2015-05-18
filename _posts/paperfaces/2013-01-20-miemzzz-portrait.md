@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "MiemZzz Drawn in Black and White"
 excerpt: "PaperFaces portrait of @MiemZzz drawn with Paper by 53 on an iPad."
 image: 

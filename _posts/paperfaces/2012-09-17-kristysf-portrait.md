@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fiery blond hair curling about"
 excerpt: "PaperFaces portrait of @kristysf drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dr. Who Superfan"
 excerpt: "PaperFaces portrait of @christyxcore drawn with Paper by 53 on an iPad."
 image: 

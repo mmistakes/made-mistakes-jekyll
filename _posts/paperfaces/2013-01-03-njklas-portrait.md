@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglasses with side swiped hair"
 excerpt: "PaperFaces portrait of @njklas drawn with Paper by 53 on an iPad."
 image: 

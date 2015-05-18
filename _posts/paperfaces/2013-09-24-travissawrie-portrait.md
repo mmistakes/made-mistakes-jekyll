@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wrapped around"
 excerpt: "PaperFaces portrait of @travissawrie drawn with Paper by 53 on an iPad."
 image: 

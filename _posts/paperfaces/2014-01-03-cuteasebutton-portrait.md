@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long locks of curl"
 excerpt: "PaperFaces portrait of @cuteasebutton drawn with Paper by 53 on an iPad."
 image: 

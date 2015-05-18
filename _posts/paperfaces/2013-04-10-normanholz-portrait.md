@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In shadows with dramatic lighting"
 excerpt: "PaperFaces portrait of @normanholz drawn with Paper by 53 on an iPad."
 image: 

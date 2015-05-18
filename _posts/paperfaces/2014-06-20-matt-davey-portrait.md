@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses cast shadows"
 excerpt: "PaperFaces portrait of Matt Davey drawn with Paper by 53 on an iPad."
 image: 

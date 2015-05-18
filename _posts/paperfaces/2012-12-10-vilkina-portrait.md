@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Floral dress outside the steps"
 excerpt: "PaperFaces portrait of @vilkina drawn with Paper by 53 on an iPad."
 image: 

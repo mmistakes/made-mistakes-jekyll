@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white in a long overcoat"
 excerpt: "PaperFaces portrait of @frivmo drawn with Paper by 53 on an iPad."
 image: 

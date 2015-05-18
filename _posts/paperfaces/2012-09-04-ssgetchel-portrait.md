@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglasses at the beach"
 excerpt: "PaperFaces portrait of @ssgetchel drawn with Paper by 53 on an iPad."
 image: 

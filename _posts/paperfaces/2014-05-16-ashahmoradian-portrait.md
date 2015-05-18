@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Soft spot light"
 excerpt: "PaperFaces portrait of @AShahmoradian drawn with Paper by 53 on an iPad."
 image: 

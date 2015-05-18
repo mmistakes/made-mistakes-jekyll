@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The Declaration of Independence is mine"
 excerpt: "PaperFaces portrait of @ButtChinBro drawn with Paper by 53 on an iPad."
 image: 

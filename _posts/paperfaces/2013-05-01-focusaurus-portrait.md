@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pink mohawk"
 excerpt: "PaperFaces portrait of @focusaurus drawn with Paper by 53 on an iPad."
 image: 

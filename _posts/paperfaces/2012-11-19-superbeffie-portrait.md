@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dark haired girl in purple"
 excerpt: "PaperFaces portrait of @superbeffie drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Lifting up a white dress in a purple room"
 excerpt: "PaperFaces portrait of @cellobiafra drawn with Paper by 53 on an iPad."
 image: 

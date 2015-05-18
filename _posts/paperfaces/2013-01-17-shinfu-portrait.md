@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Jumping really high in the blue sky"
 excerpt: "PaperFaces portrait of @Shinfu drawn with Paper by 53 on an iPad."
 image: 

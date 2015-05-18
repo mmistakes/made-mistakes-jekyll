@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Looking forward"
 excerpt: "PaperFaces portrait of @BJVerot drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Zombie face"
 excerpt: "PaperFaces portrait of @T_Lawson drawn with Paper by 53 on an iPad."
 image: 

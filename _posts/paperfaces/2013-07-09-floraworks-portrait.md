@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Shading hair with blue and magenta"
 excerpt: "PaperFaces portrait of @floraworks drawn with Paper by 53 on an iPad."
 image:   

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Scattering light through a hat"
 excerpt: "PaperFaces portrait of @comicasuperhero drawn with Paper by 53 on an iPad."
 image: 

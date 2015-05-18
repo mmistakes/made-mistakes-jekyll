@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rotated the composition"
 excerpt: "PaperFaces portrait of @kayeong15 drawn with Paper by 53 on an iPad."
 image:   

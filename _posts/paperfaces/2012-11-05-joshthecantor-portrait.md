@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Goatee and blue v-neck shirt"
 excerpt: "PaperFaces portrait of @joshthecantor drawn with Paper by 53 on an iPad."
 image: 

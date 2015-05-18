@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rosebuds in Blur"
 excerpt: "PaperFaces portrait of the my two little rosebuds drawn with Paper by 53 on an iPad."
 modified: 

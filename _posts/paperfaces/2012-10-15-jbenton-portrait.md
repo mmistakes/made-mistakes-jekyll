@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Monochromatic blue beard"
 excerpt: "PaperFaces portrait of @jbenton drawn with Paper by 53 on an iPad."
 image: 

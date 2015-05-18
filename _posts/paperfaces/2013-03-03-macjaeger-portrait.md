@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Orange tones"
 excerpt: "PaperFaces portrait of @macjaeger drawn with Paper by 53 on an iPad."
 image:   

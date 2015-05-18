@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Upside down"
 excerpt: "PaperFaces portrait of @_neckbeard drawn with Paper by 53 on an iPad."
 image: 

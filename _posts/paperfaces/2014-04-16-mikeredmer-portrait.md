@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wearing Glass like a boss"
 excerpt: "PaperFaces portrait of @mikeredmer drawn with Paper by 53 on an iPad."
 image: 

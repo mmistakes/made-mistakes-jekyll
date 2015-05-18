@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Self portrait of the scruffy artist"
 excerpt: "PaperFaces portrait of a scruffy @mmistakes drawn with Paper by 53 on an iPad."
 modified: 2013-06-05

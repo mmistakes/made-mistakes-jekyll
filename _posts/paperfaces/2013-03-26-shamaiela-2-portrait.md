@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Violets and purples"
 excerpt: "PaperFaces portrait of @Shamaiela drawn with Paper by 53 on an iPad."
 image: 

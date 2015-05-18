@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rockin' some Spotify tunes in a scarf"
 excerpt: "PaperFaces portrait of @davidpoblador drawn with Paper by 53 on an iPad."
 image: 

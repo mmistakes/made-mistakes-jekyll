@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a blue dress shirt"
 excerpt: "PaperFaces portrait of @tarungangwani drawn with Paper by 53 on an iPad."
 image: 

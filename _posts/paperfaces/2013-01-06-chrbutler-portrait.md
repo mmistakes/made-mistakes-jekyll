@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Yellow and blue tones"
 excerpt: "PaperFaces portrait of @chrbutler drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mail Chimp shirt at the bowling alley"
 excerpt: "PaperFaces portrait of @pauladamdavis drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Balancing act"
 excerpt: "PaperFaces portrait of @jameswestnz drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wearing a cheetah print headband"
 excerpt: "PaperFaces portrait of @katebudko drawn with Paper by 53 on an iPad."
 image: 

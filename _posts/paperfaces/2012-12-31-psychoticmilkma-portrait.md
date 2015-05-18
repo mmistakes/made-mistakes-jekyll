@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Raiden wins. Flawless victory!"
 excerpt: "PaperFaces portrait of @psychoticmilkma drawn with Paper by 53 on an iPad."
 image: 

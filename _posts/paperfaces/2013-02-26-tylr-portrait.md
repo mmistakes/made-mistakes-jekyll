@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mustache sitting in the dark"
 excerpt: "PaperFaces portrait of @tylr drawn with Paper by 53 on an iPad."
 image: 

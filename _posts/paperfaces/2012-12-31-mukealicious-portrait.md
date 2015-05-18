@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Camo hat and floral wallpapers"
 excerpt: "PaperFaces portrait of @mukealicious drawn with Paper by 53 on an iPad."
 image: 

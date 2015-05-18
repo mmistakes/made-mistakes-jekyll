@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Stripes and shadow"
 excerpt: "PaperFaces portrait of a Erin T. drawn with Paper by 53 on an iPad."
 image: 

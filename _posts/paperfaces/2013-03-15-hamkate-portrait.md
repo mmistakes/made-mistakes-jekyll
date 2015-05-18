@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hair drawn like fire"
 excerpt: "PaperFaces portrait of @hamkate drawn with Paper by 53 on an iPad."
 image: 

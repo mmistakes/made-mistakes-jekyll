@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red hair, green sunglases, not quite Christmas"
 excerpt: "PaperFaces portrait of @brohatch drawn with Paper by 53 on an iPad."
 image: 

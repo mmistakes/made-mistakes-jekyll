@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Get to the choppah"
 excerpt: "PaperFaces portrait of @ifleiv drawn with Paper by 53 on an iPad."
 image: 

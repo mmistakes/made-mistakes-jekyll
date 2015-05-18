@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A gray day"
 excerpt: "PaperFaces portrait of @tommysadlr drawn with Paper by 53 on an iPad."
 image: 

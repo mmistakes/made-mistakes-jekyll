@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "QR coded"
 excerpt: "PaperFaces portrait of @asduner drawn with Paper by 53 on an iPad."
 image: 

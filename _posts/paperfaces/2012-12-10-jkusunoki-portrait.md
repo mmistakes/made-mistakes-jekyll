@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Drinking wine in an argyle sweater"
 excerpt: "PaperFaces portrait of @jkusunoki drawn with Paper by 53 on an iPad."
 image: 

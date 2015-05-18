@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rabbit Rabbit"
 excerpt: "PaperFaces portrait of the Eliza T. drawn with Paper by 53 on an iPad."
 modified: 

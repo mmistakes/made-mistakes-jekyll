@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hooded Girl that Hides"
 excerpt: "PaperFaces portrait of the Danya W. drawn with Paper by 53 on an iPad."
 image: 

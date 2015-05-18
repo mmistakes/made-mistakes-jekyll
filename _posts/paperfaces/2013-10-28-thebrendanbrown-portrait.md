@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Geometry down the hall"
 excerpt: "PaperFaces portrait of @TheBrendanBrown drawn with Paper by 53 on an iPad."
 image: 

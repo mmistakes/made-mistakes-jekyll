@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A gaggle of big headed hipsters"
 excerpt: "PaperFaces portrait of some random hipsters drawn with Paper by 53 on an iPad."
 image: 

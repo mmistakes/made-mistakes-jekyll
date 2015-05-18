@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "For my next trick…"
 excerpt: "PaperFaces portrait of @morgantj drawn with Paper by 53 on an iPad."
 image: 

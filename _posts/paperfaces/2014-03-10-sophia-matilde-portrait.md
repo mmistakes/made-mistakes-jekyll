@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Little one x2"
 excerpt: "PaperFaces portrait of one month old twins drawn with Paper by 53 on an iPad."
 image: 

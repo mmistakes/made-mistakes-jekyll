@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hat tip in gray"
 excerpt: "PaperFaces portrait of @nett00n drawn with Paper by 53 on an iPad."
 image: 

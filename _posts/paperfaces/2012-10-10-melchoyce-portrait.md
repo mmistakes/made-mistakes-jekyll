@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Surprise face hiding in a sweater"
 excerpt: "PaperFaces portrait of @melchoyce drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Remember kids, always wear your safety belt"
 excerpt: "PaperFaces portrait of @pedroloo drawn with Paper by 53 on an iPad."
 image: 

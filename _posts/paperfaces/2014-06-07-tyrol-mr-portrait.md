@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Happy doll"
 excerpt: "PaperFaces portrait of @tyrol_mr drawn with Paper by 53 on an iPad."
 image: 

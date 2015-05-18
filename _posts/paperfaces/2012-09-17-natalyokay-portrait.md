@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Girl balancing on a log in the forest"
 excerpt: "PaperFaces portrait of @natalyokay drawn with Paper by 53 on an iPad."
 image: 

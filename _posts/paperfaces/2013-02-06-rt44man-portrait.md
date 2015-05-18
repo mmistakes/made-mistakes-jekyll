@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Plaid shirt leaning against a blue wall"
 excerpt: "PaperFaces portrait of @Rt44man drawn with Paper by 53 on an iPad."
 image: 

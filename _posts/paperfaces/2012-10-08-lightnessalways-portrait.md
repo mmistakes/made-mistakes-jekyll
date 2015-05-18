@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Vamped out in costume"
 excerpt: "PaperFaces portrait of @lightnessalways drawn with Paper by 53 on an iPad."
 image: 

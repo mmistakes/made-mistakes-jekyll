@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue beanie monkey"
 excerpt: "PaperFaces portrait of @enderFP drawn with Paper by 53 on an iPad."
 image: 

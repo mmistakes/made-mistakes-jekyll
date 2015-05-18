@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hold the iPhone steady as you frame your shot"
 excerpt: "PaperFaces portrait of @toblr drawn with Paper by 53 on an iPad."
 image: 

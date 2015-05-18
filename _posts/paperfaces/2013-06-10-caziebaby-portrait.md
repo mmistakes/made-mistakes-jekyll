@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hey, my eyes are up here!"
 excerpt: "PaperFaces portrait of @caziebaby drawn with Paper by 53 on an iPad."
 image: 

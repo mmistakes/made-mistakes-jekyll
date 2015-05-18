@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Violet Moon"
 excerpt: "PaperFaces portrait of the Asja K. drawn with Paper by 53 on an iPad."
 modified: 

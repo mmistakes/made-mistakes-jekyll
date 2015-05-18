@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Portrait Winner Number 1"
 excerpt: "PaperFaces portrait of @harvydanger drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red vs Green"
 excerpt: "PaperFaces portrait of the Ally Cat drawn with Paper by 53 on an iPad."
 modified: 

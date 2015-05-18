@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "365th PaperFaces portrait"
 excerpt: "PaperFaces portrait of @Nat_Skipper drawn with Paper by 53 on an iPad."
 image: 

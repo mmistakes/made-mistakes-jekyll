@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Beard chin on green"
 excerpt: "PaperFaces portrait of @nickkeyphotos drawn with Paper by 53 on an iPad."
 image: 

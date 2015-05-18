@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "FIU banners away"
 excerpt: "PaperFaces portrait of @stephenrevesz drawn with Paper by 53 on an iPad."
 image: 

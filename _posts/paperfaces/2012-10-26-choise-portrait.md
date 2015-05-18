@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white glasses hat"
 excerpt: "PaperFaces portrait of @choise drawn with Paper by 53 on an iPad."
 image: 

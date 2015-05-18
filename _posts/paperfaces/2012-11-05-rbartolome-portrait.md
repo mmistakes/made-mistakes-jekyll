@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses and dark spikes"
 excerpt: "PaperFaces portrait of @rbartolome drawn with Paper by 53 on an iPad."
 image: 

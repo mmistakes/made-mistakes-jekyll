@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses wearing houndstooth"
 excerpt: "PaperFaces portrait of @A_Erza drawn with Paper by 53 on an iPad."
 image: 

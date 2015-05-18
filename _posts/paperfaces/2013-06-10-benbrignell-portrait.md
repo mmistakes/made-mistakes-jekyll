@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Please excuse the face, sometimes I draw them"
 excerpt: "PaperFaces portrait of @benbrignell drawn with Paper by 53 on an iPad."
 image: 

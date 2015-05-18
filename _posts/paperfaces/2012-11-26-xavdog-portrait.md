@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Standing in front of wood paneling"
 excerpt: "PaperFaces portrait of @xavdog drawn with Paper by 53 on an iPad."
 image: 

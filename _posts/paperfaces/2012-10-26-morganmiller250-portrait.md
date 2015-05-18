@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pink stripes against blue backdrops"
 excerpt: "PaperFaces portrait of @morganmiller250 drawn with Paper by 53 on an iPad."
 image: 

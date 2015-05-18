@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bird cage faux forest"
 excerpt: "PaperFaces portrait of Catherine C. drawn with Paper by 53 on an iPad."
 image: 

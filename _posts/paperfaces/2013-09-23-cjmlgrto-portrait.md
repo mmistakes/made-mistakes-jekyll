@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Looking up"
 excerpt: "PaperFaces portrait of @cjmlgrto drawn with Paper by 53 on an iPad."
 image: 

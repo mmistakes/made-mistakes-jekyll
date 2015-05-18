@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Plain white T, another study in gray"
 excerpt: "PaperFaces portrait of @Lyetz drawn with Paper by 53 on an iPad."
 image: 

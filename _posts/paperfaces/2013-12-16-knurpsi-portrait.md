@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Purple strands and specs"
 excerpt: "PaperFaces portrait of @knurpsi drawn with Paper by 53 on an iPad."
 image: 

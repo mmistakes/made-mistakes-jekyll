@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sweaters are sweeter"
 excerpt: "PaperFaces portrait of @shesSoph drawn with Paper by 53 on an iPad."
 image: 

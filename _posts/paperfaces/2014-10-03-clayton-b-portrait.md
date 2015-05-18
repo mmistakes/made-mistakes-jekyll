@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "He Did It. No He Did It!"
 excerpt: "PaperFaces portrait commission of Clayton B. drawn with Paper by 53 on an iPad."
 image: 

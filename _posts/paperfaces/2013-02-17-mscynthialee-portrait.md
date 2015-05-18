@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long black hair and dark clothing"
 excerpt: "PaperFaces portrait of @mscynthialee-ron drawn with Paper by 53 on an iPad."
 image: 

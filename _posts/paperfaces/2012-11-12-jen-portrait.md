@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bright red lips"
 excerpt: "PaperFaces portrait of @jen drawn with Paper by 53 on an iPad."
 image: 

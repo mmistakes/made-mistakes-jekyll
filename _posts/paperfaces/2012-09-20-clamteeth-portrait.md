@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Cookie monster on the shirt"
 excerpt: "PaperFaces portrait of @clamteeth drawn with Paper by 53 on an iPad."
 image: 

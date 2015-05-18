@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "First face of 2014"
 excerpt: "PaperFaces portrait of @virshawn drawn with Paper by 53 on an iPad."
 image: 

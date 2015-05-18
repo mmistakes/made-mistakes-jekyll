@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Painting contrast in gray"
 excerpt: "PaperFaces portrait of @_Big_M_ drawn with Paper by 53 on an iPad."
 image: 

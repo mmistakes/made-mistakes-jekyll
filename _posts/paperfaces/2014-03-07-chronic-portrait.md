@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Suit doesn't match the name"
 excerpt: "PaperFaces portrait of @chronic drawn with Paper by 53 on an iPad."
 image: 

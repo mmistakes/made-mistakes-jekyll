@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Swallow neck tattoos and glasses"
 excerpt: "PaperFaces portrait of @jamesslock drawn with Paper by 53 on an iPad."
 image: 

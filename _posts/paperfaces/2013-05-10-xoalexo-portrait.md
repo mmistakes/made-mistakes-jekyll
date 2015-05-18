@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Muted tones in a cozy sweater"
 excerpt: "PaperFaces portrait of @xoalexo drawn with Paper by 53 on an iPad."
 image: 

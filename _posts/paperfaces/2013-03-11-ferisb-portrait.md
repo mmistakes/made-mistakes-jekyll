@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red and purple illuminated side"
 excerpt: "PaperFaces portrait of @FerisB drawn with Paper by 53 on an iPad."
 image: 

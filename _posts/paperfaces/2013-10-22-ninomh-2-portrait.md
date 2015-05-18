@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Triforce of Courage"
 excerpt: "PaperFaces portrait of @ninoMH drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Orange and blue"
 excerpt: "PaperFaces portrait of @Who_Her drawn with Paper by 53 on an iPad."
 image: 

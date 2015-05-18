@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Couple in front of water"
 excerpt: "PaperFaces portrait of @jamesonroot drawn with Paper by 53 on an iPad."
 image: 

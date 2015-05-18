@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Overlooking the water"
 excerpt: "PaperFaces portrait of @tipican drawn with Paper by 53 on an iPad."
 image: 

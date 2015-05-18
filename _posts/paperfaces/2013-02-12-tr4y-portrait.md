@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "S basecball cap in black and white"
 excerpt: "PaperFaces portrait of @tr4y drawn with Paper by 53 on an iPad."
 image: 

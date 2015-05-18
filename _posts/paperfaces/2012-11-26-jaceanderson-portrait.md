@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Brick wall beards"
 excerpt: "PaperFaces portrait of @jaceanderson drawn with Paper by 53 on an iPad."
 image: 

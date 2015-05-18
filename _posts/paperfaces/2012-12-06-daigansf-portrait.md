@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Holding a fan in sepia tones"
 excerpt: "PaperFaces portrait of @Daigansf drawn with Paper by 53 on an iPad."
 image: 

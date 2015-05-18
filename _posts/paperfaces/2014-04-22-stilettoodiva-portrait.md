@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Vintage cool"
 excerpt: "PaperFaces portrait of @StilettOoDiva drawn with Paper by 53 on an iPad."
 image: 

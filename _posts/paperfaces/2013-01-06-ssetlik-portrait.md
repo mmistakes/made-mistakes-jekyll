@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Listening to music, window style"
 excerpt: "PaperFaces portrait of @ssetlik drawn with Paper by 53 on an iPad."
 image: 

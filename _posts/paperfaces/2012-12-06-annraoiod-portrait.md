@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Beret in black"
 excerpt: "PaperFaces portrait of @AnnraoiOD drawn with Paper by 53 on an iPad."
 image: 

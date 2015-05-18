@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "From Blue to Fuchsia"
 excerpt: "PaperFaces portrait of the Mi Mo drawn with Paper by 53 on an iPad."
 modified: 

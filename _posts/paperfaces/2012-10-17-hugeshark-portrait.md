@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Short hair, pink bangs"
 excerpt: "PaperFaces portrait of @hugeshark drawn with Paper by 53 on an iPad."
 image: 

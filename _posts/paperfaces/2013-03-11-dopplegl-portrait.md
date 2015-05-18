@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Illustrated in purble and blue tones"
 excerpt: "PaperFaces portrait of @dopplegl drawn with Paper by 53 on an iPad."
 image: 

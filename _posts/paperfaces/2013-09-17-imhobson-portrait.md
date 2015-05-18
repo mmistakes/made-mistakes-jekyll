@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Magenta and beard on a tilt"
 excerpt: "PaperFaces portrait of @imhobson drawn with Paper by 53 on an iPad."
 image: 

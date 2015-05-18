@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Deal with it"
 excerpt: "PaperFaces portrait of @skinny_whiteguy drawn with Paper by 53 on an iPad."
 image: 

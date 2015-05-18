@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "War paint"
 excerpt: "PaperFaces portrait of @hbcke drawn with Paper by 53 on an iPad."
 image: 

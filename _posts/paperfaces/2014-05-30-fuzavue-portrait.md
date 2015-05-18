@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Guitar shredding"
 excerpt: "PaperFaces portrait of @fuzavue drawn with Paper by 53 on an iPad."
 image: 

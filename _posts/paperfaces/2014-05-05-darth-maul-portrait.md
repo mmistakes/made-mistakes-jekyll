@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "&#147;Die, Jedi, die!&#148;"
 excerpt: "PaperFaces portrait Darth Maul drawn with Paper by 53 on an iPad."
 image: 

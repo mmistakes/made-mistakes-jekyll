@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Standing in front of vines and branches"
 excerpt: "PaperFaces portrait of @ChelseaWears drawn with Paper by 53 on an iPad."
 image: 

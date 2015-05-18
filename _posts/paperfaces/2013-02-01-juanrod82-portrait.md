@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Happy couple and their two dogs"
 excerpt: "PaperFaces portrait of @juanrod82 drawn with Paper by 53 on an iPad."
 image: 

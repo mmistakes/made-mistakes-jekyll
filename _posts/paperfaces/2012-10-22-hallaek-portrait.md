@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Unicorn hair flowing on the floor"
 excerpt: "PaperFaces portrait of @hallaek drawn with Paper by 53 on an iPad."
 image: 

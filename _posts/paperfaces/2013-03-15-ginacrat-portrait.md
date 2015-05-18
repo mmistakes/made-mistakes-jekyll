@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Holding a Twister DVD"
 excerpt: "PaperFaces portrait of @ginacrat drawn with Paper by 53 on an iPad."
 image: 

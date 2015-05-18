@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Neon look of blue and green"
 excerpt: "PaperFaces portrait of @hepikkat drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Beard over the shoulder"
 excerpt: "PaperFaces portrait of @matthewrex drawn with Paper by 53 on an iPad."
 image: 

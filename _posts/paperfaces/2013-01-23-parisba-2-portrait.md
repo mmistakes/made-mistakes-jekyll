@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a hat, but not a cowboy"
 excerpt: "PaperFaces portrait of @parisba drawn with Paper by 53 on an iPad."
 image: 

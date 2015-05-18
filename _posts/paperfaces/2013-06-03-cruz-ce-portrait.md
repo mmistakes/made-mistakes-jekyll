@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair near them stairs"
 excerpt: "PaperFaces portrait of @cruz_ce drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglasses and bangs"
 excerpt: "PaperFaces portrait of @moonflowerchild drawn with Paper by 53 on an iPad."
 image: 

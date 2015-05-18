@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sun lights the hair in a bokeh filled afternoon"
 excerpt: "PaperFaces portrait of @JakeMoore drawn with Paper by 53 on an iPad."
 image: 

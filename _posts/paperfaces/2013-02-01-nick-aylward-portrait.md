@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Guy and his gal in Washington DC"
 excerpt: "PaperFaces portrait of @nick-aylward drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair against a bright red background"
 excerpt: "PaperFaces portrait of @shamaiela drawn with Paper by 53 on an iPad."
 image: 

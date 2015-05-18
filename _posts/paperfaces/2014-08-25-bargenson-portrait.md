@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wind Blown Guile Hair"
 excerpt: "PaperFaces portrait of @bargenson drawn with Paper by 53 on an iPad."
 image: 

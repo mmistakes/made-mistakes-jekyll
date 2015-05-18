@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bright and muted colors"
 excerpt: "PaperFaces portrait of @kennwhite drawn with Paper by 53 on an iPad."
 image: 

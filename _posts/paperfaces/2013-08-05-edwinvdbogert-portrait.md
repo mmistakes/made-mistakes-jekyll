@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Looks like an airplane window"
 excerpt: "PaperFaces portrait of @edwinvdbogert drawn with Paper by 53 on an iPad."
 image: 

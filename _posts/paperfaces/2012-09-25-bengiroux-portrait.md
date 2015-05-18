@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue backgrounds"
 excerpt: "PaperFaces portrait of @bengiroux drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Ferris wheel at night"
 excerpt: "PaperFaces portrait of @keyflake drawn with Paper by 53 on an iPad."
 image: 

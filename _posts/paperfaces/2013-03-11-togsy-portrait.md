@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bug fur hat"
 excerpt: "PaperFaces portrait of @togsy drawn with Paper by 53 on an iPad."
 image: 

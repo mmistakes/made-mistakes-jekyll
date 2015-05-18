@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Basement dweller"
 excerpt: "PaperFaces portrait of @chappers_ma drawn with Paper by 53 on an iPad."
 image: 

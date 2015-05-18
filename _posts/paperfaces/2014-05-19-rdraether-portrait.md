@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Intense eye"
 excerpt: "PaperFaces portrait of @rdraether drawn with Paper by 53 on an iPad."
 image: 

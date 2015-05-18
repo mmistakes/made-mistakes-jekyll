@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "iPhone man in a suit"
 excerpt: "PaperFaces portrait of @raquibahasan drawn with Paper by 53 on an iPad."
 image: 

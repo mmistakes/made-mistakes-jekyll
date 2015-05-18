@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Spooky kids"
 excerpt: "PaperFaces portrait of @ekinding drawn with Paper by 53 on an iPad."
 image: 

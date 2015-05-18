@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Striped swimsuit on the beach"
 excerpt: "PaperFaces portrait of @bulletproofjenn drawn with Paper by 53 on an iPad."
 image: 

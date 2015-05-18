@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Some sort of furry"
 excerpt: "PaperFaces of @sironfoot's avatar drawn with Paper by 53 on an iPad."
 image: 

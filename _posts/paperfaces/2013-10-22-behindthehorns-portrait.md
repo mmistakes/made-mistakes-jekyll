@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "5 shades of pink"
 excerpt: "PaperFaces portrait of @BehindTheHorns drawn with Paper by 53 on an iPad."
 image: 

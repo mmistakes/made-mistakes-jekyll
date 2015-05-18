@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sitting in the dark wearing a hoodie"
 excerpt: "PaperFaces portrait of @alextrott_ drawn with Paper by 53 on an iPad."
 image: 

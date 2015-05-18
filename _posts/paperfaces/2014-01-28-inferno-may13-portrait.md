@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Ears covered in sounds"
 excerpt: "PaperFaces portrait of @Inferno_May13 drawn with Paper by 53 on an iPad."
 image: 

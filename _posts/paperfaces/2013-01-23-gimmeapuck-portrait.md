@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In sunglasses"
 excerpt: "PaperFaces portrait of @gimmeapuck drawn with Paper by 53 on an iPad."
 image: 

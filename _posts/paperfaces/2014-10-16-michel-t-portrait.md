@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "White Room with Gray"
 excerpt: "PaperFaces portrait commission of Michel T. drawn with Paper by 53 on an iPad."
 image: 

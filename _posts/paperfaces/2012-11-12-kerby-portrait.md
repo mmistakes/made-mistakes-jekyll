@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue shirt"
 excerpt: "PaperFaces portrait of @kerby drawn with Paper by 53 on an iPad."
 image: 

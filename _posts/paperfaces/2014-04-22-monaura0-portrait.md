@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Lip lick"
 excerpt: "PaperFaces portrait of @monaura0 drawn with Paper by 53 on an iPad."
 image: 

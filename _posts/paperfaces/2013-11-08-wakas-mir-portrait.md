@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Look up smile"
 excerpt: "PaperFaces portrait of Wakas Mir drawn with Paper by 53 on an iPad."
 image: 

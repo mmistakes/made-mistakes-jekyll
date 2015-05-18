@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white, full frame"
 excerpt: "PaperFaces portrait of @liamdaly drawn with Paper by 53 on an iPad."
 image: 

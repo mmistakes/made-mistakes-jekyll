@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Using your imagination to see a smile"
 excerpt: "PaperFaces portrait of @dismanntled drawn with Paper by 53 on an iPad."
 image: 

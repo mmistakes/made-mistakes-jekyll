@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wanna fight?"
 excerpt: "PaperFaces portrait of @melissabalkon drawn with Paper by 53 on an iPad."
 image: 

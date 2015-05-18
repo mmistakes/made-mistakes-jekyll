@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Grayscale and Pencil and Blend oh my!"
 excerpt: "PaperFaces portrait of @GrantLandram drawn with Paper by 53 on an iPad."
 image: 

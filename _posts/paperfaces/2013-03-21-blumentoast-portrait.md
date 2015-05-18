@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Painted joker smile"
 excerpt: "PaperFaces portrait of @blumentoast drawn with Paper by 53 on an iPad."
 image: 

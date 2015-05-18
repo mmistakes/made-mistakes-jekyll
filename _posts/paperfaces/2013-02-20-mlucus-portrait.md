@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blonde up against a dark red background"
 excerpt: "PaperFaces portrait of @mlucus drawn with Paper by 53 on an iPad."
 image: 

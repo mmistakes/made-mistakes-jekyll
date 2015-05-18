@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "&#147;Here goes nothing&#148;"
 excerpt: "PaperFaces portrait Lando Calrissian drawn with Paper by 53 on an iPad."
 image: 

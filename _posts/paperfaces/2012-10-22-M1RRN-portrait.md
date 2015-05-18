@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red shirt on a train"
 excerpt: "PaperFaces portrait of @M1RRN drawn with Paper by 53 on an iPad."
 image: 

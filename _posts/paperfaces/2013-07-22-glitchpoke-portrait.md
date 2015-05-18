@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A pixelated hoodie and face"
 excerpt: "PaperFaces portrait of @Glitchpoke drawn with Paper by 53 on an iPad."
 image: 

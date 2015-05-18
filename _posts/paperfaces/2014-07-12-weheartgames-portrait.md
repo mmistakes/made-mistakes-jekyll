@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Smiley beard"
 excerpt: "PaperFaces portrait of @weheartgames drawn with Paper by 53 on an iPad."
 image: 

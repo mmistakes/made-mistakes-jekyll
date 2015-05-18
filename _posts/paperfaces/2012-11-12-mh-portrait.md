@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglasses and a hoodie"
 excerpt: "PaperFaces portrait of @mh drawn with Paper by 53 on an iPad."
 image: 

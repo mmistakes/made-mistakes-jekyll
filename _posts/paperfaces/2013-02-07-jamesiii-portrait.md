@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The king has risen"
 excerpt: "PaperFaces portrait of @jamesIII drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Shirtless military"
 excerpt: "PaperFaces portrait of Alec Eiffel drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Not a club"
 excerpt: "PaperFaces portrait of @angel__frias drawn with Paper by 53 on an iPad."
 image: 

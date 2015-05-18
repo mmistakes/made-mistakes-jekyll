@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glitching out"
 excerpt: "PaperFaces portrait of @thenimesh drawn with Paper by 53 on an iPad."
 image: 

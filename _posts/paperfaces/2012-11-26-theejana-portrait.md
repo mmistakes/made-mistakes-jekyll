@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white wearing a hood"
 excerpt: "PaperFaces portrait of @theejana drawn with Paper by 53 on an iPad."
 image: 

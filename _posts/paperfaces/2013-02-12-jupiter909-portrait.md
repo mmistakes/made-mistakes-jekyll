@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Playing strings in the forest"
 excerpt: "PaperFaces portrait of @jupiter909 drawn with Paper by 53 on an iPad."
 image: 

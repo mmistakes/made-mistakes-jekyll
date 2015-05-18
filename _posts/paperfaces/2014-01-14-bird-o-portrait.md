@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Feather necklace"
 excerpt: "PaperFaces portrait of Bird O. drawn with Paper by 53 on an iPad."
 image: 

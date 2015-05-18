@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "It's hard to stare without eyes"
 excerpt: "PaperFaces portrait of @cormacrelf drawn with Paper by 53 on an iPad."
 image: 

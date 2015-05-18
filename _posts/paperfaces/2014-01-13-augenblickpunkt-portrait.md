@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bundled up in red"
 excerpt: "PaperFaces portrait of @augenblickpunkt drawn with Paper by 53 on an iPad."
 image: 

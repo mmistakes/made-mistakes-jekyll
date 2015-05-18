@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dramatic mustache"
 excerpt: "PaperFaces portrait of @genelocklin drawn with Paper by 53 on an iPad."
 image: 

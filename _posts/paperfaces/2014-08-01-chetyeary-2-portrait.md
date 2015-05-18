@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "This Shirt Has a Lot of Lines"
 excerpt: "PaperFaces portrait of @chetyeary drawn with Paper by 53 on an iPad."
 image: 

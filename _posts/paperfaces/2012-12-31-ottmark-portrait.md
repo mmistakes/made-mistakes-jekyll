@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dramatic lighting in a brown room"
 excerpt: "PaperFaces portrait of @ottmark drawn with Paper by 53 on an iPad."
 image: 

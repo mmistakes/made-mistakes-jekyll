@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A Beard That Hides"
 excerpt: "PaperFaces portrait of the Remi L. drawn with Paper by 53 on an iPad."
 image: 

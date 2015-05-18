@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair wearing a fashionable scarf"
 excerpt: "PaperFaces portrait of @missrachilli drawn with Paper by 53 on an iPad."
 image: 

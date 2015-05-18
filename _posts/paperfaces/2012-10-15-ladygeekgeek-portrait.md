@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Girl with the curl, and some ducks"
 excerpt: "PaperFaces portrait of @ladygeekgeek drawn with Paper by 53 on an iPad."
 image: 

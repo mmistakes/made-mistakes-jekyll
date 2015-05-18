@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "White Rooms Always"
 excerpt: "PaperFaces portrait of @craiginwales drawn with Paper by 53 on an iPad."
 image: 

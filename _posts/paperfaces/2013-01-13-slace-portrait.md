@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a hat"
 excerpt: "PaperFaces portrait of @slace drawn with Paper by 53 on an iPad."
 image: 

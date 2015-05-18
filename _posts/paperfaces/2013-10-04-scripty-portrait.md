@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Plaid is the new plaid, get it?"
 excerpt: "PaperFaces portrait of @scripty drawn with Paper by 53 on an iPad."
 image: 

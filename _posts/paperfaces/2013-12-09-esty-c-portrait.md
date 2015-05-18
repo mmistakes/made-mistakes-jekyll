@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "For the flowers against pink"
 excerpt: "PaperFaces portrait of Esty C. drawn with Paper by 53 on an iPad."
 image: 

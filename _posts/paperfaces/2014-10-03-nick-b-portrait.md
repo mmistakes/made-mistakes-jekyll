@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Landscape of the Apocalypse"
 excerpt: "PaperFaces portrait commission of Nick B. drawn with Paper by 53 on an iPad."
 image: 

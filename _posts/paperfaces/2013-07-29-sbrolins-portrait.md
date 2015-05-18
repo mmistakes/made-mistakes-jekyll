@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sitting on the beach at sunset"
 excerpt: "PaperFaces portrait of @sbrolins drawn with Paper by 53 on an iPad."
 image: 

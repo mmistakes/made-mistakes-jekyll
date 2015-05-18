@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mountains or hill tops?"
 excerpt: "PaperFaces portrait of @jinthagerman drawn with Paper by 53 on an iPad."
 image: 

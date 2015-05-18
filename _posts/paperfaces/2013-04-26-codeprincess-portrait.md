@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses in red hair"
 excerpt: "PaperFaces portrait of @codePrincess drawn with Paper by 53 on an iPad."
 image: 

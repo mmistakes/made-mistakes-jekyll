@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Plaid against the wall"
 excerpt: "PaperFaces portrait of @cleberwsantos drawn with Paper by 53 on an iPad."
 image: 

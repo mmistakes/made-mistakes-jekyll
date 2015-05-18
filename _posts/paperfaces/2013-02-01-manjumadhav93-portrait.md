@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sunglasses chilling in the street"
 excerpt: "PaperFaces portrait of @manjumadhav93 drawn with Paper by 53 on an iPad."
 image: 

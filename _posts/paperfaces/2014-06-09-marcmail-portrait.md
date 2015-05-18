@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Public transportation"
 excerpt: "PaperFaces portrait of @Marcmail drawn with Paper by 53 on an iPad."
 image: 

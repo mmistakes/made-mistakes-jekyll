@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Orange and blue beart"
 excerpt: "PaperFaces portrait of @JonGretar drawn with Paper by 53 on an iPad."
 image: 

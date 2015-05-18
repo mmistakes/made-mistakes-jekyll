@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sweaters in office cubes"
 excerpt: "PaperFaces portrait of @joelmartinez drawn with Paper by 53 on an iPad."
 image: 

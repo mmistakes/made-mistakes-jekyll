@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sharks have fins"
 excerpt: "PaperFaces portrait of @Lascorbe drawn with Paper by 53 on an iPad."
 image: 

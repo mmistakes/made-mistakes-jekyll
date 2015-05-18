@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "3/4 pose"
 excerpt: "PaperFaces portrait of @Coffeeplz drawn with Paper by 53 on an iPad."
 image: 

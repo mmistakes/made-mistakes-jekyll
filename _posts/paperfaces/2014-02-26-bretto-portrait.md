@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Green strikes the glasses"
 excerpt: "PaperFaces portrait of @bretto drawn with Paper by 53 on an iPad."
 image: 

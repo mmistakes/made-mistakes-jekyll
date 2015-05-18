@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces self portrait of Michael Rose"
 excerpt: "PaperFaces portrait of a bearded Michael Rose drawn with Paper by 53 on an iPad."
 image: 

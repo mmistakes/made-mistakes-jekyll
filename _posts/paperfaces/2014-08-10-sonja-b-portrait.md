@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue is the Warmest Color"
 excerpt: "PaperFaces portrait of Sonja B. drawn with Paper by 53 on an iPad."
 image: 

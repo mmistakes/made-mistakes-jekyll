@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Gray and blue striped hoodie"
 excerpt: "PaperFaces portrait of @m0rph3v5 drawn with Paper by 53 on an iPad."
 image: 

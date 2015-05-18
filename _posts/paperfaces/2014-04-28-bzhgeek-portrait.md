@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Soft blur to the right"
 excerpt: "PaperFaces portrait of @BZHgeek drawn with Paper by 53 on an iPad."
 image: 

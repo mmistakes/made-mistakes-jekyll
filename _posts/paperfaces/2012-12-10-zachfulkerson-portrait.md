@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bearded sir in a striped scarf"
 excerpt: "PaperFaces portrait of @zachfulkerson drawn with Paper by 53 on an iPad."
 image: 

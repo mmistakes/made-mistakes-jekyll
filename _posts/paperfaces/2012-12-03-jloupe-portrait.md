@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In front of a face"
 excerpt: "PaperFaces portrait of @jloupe drawn with Paper by 53 on an iPad."
 image: 

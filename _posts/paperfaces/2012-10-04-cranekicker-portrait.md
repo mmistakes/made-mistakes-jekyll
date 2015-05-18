@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sweep the leg Johnny"
 excerpt: "PaperFaces portrait of @cranekicker drawn with Paper by 53 on an iPad."
 image: 

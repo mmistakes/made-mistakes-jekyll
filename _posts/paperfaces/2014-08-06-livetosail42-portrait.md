@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Isn’t Easy Being Green"
 excerpt: "PaperFaces portrait of @livetosail42 drawn with Paper by 53 on an iPad."
 image: 

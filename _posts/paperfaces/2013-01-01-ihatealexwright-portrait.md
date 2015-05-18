@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Furry hat snuggling a Siamese cat"
 excerpt: "PaperFaces portrait of @ihatealexwright drawn with Paper by 53 on an iPad."
 image: 

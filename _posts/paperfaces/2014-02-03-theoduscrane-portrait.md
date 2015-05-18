@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Yellow shirt and blur"
 excerpt: "PaperFaces portrait of @theoduscrane drawn with Paper by 53 on an iPad."
 image: 

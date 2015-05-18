@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "High contrast blue and yellow composition part deux"
 excerpt: "PaperFaces portrait of @BradenRansome drawn with Paper by 53 on an iPad."
 image: 

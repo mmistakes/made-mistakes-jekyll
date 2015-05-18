@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Missing plastic chairs"
 excerpt: "PaperFaces portrait of @jenniferamur drawn with Paper by 53 on an iPad."
 image: 

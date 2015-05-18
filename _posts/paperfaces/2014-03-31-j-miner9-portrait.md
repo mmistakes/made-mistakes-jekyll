@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Le hockey sur glace"
 excerpt: "PaperFaces portrait commission of @J_Miner9 drawn with Paper by 53 on an iPad."
 image: 

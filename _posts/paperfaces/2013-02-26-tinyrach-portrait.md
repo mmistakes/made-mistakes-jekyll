@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rosey cheeks against an illustrative background"
 excerpt: "PaperFaces portrait of @tinyrach drawn with Paper by 53 on an iPad."
 image: 

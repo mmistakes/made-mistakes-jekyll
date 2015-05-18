@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Causing chaos"
 excerpt: "PaperFaces portrait of @SnowWhiteChaos drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Scarf beard"
 excerpt: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
 image: 

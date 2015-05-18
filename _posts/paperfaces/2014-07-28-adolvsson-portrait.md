@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Weirdo with a Beardo"
 excerpt: "PaperFaces portrait of @adolvsson drawn with Paper by 53 on an iPad."
 image: 

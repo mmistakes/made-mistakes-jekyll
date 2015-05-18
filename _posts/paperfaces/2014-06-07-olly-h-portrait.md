@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Lurking behind Domo"
 excerpt: "PaperFaces portrait of a Olly H. drawn with Paper by 53 on an iPad."
 image: 

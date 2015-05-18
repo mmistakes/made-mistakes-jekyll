@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Data is Such a Card"
 excerpt: "PaperFaces portrait of @modemlooper drawn with Paper by 53 on an iPad."
 image: 

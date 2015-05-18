@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "America Eff Yeah!"
 excerpt: "PaperFaces portrait of @jaredgoertzen drawn with Paper by 53 on an iPad."
 image: 

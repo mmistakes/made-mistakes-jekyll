@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wearing an orange safety cone can be fun"
 excerpt: "PaperFaces portrait of @chris_Obyrne drawn with Paper by 53 on an iPad."
 image: 

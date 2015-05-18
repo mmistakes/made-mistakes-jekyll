@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Focusing on the glasses"
 excerpt: "PaperFaces portrait of @appinator drawn with Paper by 53 on an iPad."
 image: 

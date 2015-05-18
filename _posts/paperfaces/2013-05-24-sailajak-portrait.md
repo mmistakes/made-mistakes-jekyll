@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blouse made of turquoise"
 excerpt: "PaperFaces portrait of @sailajak drawn with Paper by 53 on an iPad."
 image: 

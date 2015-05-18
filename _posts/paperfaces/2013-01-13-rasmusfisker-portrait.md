@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Yellow and violet tones"
 excerpt: "PaperFaces portrait of @rasmusfisker drawn with Paper by 53 on an iPad."
 image: 

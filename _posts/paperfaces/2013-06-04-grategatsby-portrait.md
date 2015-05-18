@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Brand New shirt pulling a light switch"
 excerpt: "PaperFaces portrait of @Grategatsby drawn with Paper by 53 on an iPad."
 image: 

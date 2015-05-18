@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "An upward tilt"
 excerpt: "PaperFaces portrait of @akaiiro drawn with Paper by 53 on an iPad."
 image: 

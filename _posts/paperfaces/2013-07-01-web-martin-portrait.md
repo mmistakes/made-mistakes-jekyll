@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blurring backgrounds and curling hair"
 excerpt: "PaperFaces portrait of @web_martin drawn with Paper by 53 on an iPad."
 image: 

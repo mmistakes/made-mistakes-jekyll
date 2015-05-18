@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wall of light"
 excerpt: "PaperFaces portrait of Efox Angel drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Against striped walls"
 excerpt: "PaperFaces portrait of @xShordiex drawn with Paper by 53 on an iPad."
 image: 

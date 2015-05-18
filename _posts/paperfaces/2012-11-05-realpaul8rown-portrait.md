@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wearing an orange afro"
 excerpt: "PaperFaces portrait of @RealPaul8rown drawn with Paper by 53 on an iPad."
 image: 

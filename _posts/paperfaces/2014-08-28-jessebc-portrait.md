@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Groomed Beard Blur"
 excerpt: "PaperFaces portrait of @jessebc drawn with Paper by 53 on an iPad."
 image: 

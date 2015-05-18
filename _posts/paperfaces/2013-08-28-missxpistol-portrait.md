@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "G is for Grrrape"
 excerpt: "PaperFaces portrait of @missxpistol drawn with Paper by 53 on an iPad."
 image: 

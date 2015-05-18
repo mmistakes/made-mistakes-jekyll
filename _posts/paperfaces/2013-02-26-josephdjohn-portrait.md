@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Winter wonderland couple outside"
 excerpt: "PaperFaces portrait of @josephedjohn drawn with Paper by 53 on an iPad."
 image: 

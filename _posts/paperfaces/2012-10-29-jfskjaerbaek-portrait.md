@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white stubble"
 excerpt: "PaperFaces portrait of @JFSkjaerbaek drawn with Paper by 53 on an iPad."
 image: 

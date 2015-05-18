@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Visible Pencil Strokes"
 excerpt: "PaperFaces portrait of a Jonas C. drawn with Paper by 53 on an iPad."
 image: 

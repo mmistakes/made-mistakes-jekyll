@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Zipped up by sea"
 excerpt: "PaperFaces portrait of @joeycarmello drawn with Paper by 53 on an iPad."
 image: 

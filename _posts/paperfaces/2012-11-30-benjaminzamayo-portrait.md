@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Jean jacket and hood"
 excerpt: "PaperFaces portrait of @BenjaminZAMayo drawn with Paper by 53 on an iPad."
 image: 

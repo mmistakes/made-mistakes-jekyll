@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sometimes you need to add blue"
 excerpt: "PaperFaces portrait of @JMarkMueller drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Purple glow"
 excerpt: "PaperFaces portrait of @glennsharron drawn with Paper by 53 on an iPad."
 image: 

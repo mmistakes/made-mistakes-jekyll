@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bubble Bubble"
 excerpt: "PaperFaces portrait of the Kalani O. drawn with Paper by 53 on an iPad."
 modified: 

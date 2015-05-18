@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sketchy strokes, short dark haired fella"
 excerpt: "PaperFaces portrait of @ashtonjames drawn with Paper by 53 on an iPad."
 image: 

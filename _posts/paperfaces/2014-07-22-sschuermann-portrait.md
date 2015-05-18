@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "What Do You See?"
 excerpt: "PaperFaces portrait of @sschuermann drawn with Paper by 53 on an iPad."
 image: 

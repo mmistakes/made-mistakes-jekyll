@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Ripped jeans"
 excerpt: "PaperFaces portrait of @SJ_Selina drawn with Paper by 53 on an iPad."
 image: 

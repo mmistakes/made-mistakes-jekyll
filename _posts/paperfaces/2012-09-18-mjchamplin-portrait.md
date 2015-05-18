@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Camera and spooky lighting"
 excerpt: "PaperFaces portrait of @mjchamplin drawn with Paper by 53 on an iPad."
 image: 

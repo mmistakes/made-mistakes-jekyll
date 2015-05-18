@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Happy couple sitting on the grass"
 excerpt: "PaperFaces portrait of Kyle and Bridget drawn with Paper by 53 on an iPad."
 image: 

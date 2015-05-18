@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair outside in nature"
 excerpt: "PaperFaces portrait of @cthrin drawn with Paper by 53 on an iPad."
 image: 

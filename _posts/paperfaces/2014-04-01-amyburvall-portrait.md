@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A hair flower without color"
 excerpt: "PaperFaces portrait of @amyburvall drawn with Paper by 53 on an iPad."
 image: 

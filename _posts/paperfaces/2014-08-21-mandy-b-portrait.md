@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Vampires that Sparkle"
 excerpt: "PaperFaces portrait of the Mandy B. drawn with Paper by 53 on an iPad."
 image: 

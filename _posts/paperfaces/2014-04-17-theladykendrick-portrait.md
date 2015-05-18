@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hello face"
 excerpt: "PaperFaces portrait of @TheLadyKendrick drawn with Paper by 53 on an iPad."
 image: 

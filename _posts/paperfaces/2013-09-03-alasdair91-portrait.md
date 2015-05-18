@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Spooky sepia lighting"
 excerpt: "PaperFaces portrait of @Alasdair91 drawn with Paper by 53 on an iPad."
 image: 

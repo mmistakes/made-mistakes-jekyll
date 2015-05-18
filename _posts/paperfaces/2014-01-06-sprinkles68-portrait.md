@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "White hair"
 excerpt: "PaperFaces portrait of @Sprinkles68 drawn with Paper by 53 on an iPad."
 image: 

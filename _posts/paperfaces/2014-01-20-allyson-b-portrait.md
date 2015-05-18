@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bird back"
 excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 

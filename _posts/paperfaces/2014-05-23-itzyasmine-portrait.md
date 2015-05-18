@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue eyes wrapped in blue"
 excerpt: "PaperFaces portrait of @itzyasmine drawn with Paper by 53 on an iPad."
 image: 

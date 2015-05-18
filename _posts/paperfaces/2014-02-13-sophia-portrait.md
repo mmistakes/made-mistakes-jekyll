@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The littlest panda"
 excerpt: "PaperFaces portrait of Sophia drawn with Paper by 53 on an iPad."
 image: 

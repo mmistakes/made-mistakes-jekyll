@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair spathetti straps"
 excerpt: "PaperFaces portrait of @Ruth_Goodwin drawn with Paper by 53 on an iPad."
 image: 

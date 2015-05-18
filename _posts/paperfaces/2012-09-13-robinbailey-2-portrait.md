@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Water and skyline"
 excerpt: "PaperFaces portrait of @RobinBailey drawn with Paper by 53 on an iPad."
 image: 

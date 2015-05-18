@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Grumpy cat"
 excerpt: "PaperFaces portrait of a Duha A. drawn with Paper by 53 on an iPad."
 image: 

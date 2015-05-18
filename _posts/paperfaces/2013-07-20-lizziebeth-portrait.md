@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Drawing hairs before midnight"
 excerpt: "PaperFaces portrait of @LizzieBeth_ drawn with Paper by 53 on an iPad."
 image: 

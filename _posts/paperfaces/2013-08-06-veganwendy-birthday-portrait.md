@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "A birthday bokeh"
 excerpt: "PaperFaces portrait of @veganwendy for her birthday drawn with Paper by 53 on an iPad."
 image: 

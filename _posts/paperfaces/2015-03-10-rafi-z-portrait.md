@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The Battle Within"
 excerpt: "PaperFaces portrait of the Rafi Z. drawn with Paper by 53 on an iPad."
 modified: 

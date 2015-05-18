@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces portrait of The In Laws"
 excerpt: "PaperFaces portrait of The In Laws drawn with Paper by 53 on an iPad."
 image: 

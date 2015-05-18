@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair and red lipstick"
 excerpt: "PaperFaces portrait of @melaniejcooke drawn with Paper by 53 on an iPad."
 image: 

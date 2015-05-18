@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Shirt and tie in black and white"
 excerpt: "PaperFaces portrait of @PepkaPepich drawn with Paper by 53 on an iPad."
 image: 

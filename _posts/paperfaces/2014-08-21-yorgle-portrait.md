@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Lego Man"
 excerpt: "PaperFaces portrait of @yorgle drawn with Paper by 53 on an iPad."
 image: 

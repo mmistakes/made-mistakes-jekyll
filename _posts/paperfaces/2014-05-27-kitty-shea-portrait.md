@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Eyes up"
 excerpt: "PaperFaces portrait of a Kitty Shea drawn with Paper by 53 on an iPad."
 image: 

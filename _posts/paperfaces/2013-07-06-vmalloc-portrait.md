@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Look ma, I'm a Sim!"
 excerpt: "PaperFaces portrait of @vmalloc drawn with Paper by 53 on an iPad."
 image: 

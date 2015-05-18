@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white closeup of an eye"
 excerpt: "PaperFaces portrait of @arbitral drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Brightly in blue"
 excerpt: "PaperFaces portrait of @tiamclaurin drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair in grayscale"
 excerpt: "PaperFaces portrait of @cynthia drawn with Paper by 53 on an iPad."
 image: 

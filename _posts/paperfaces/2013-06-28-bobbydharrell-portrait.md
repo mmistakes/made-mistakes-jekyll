@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hats in a car"
 excerpt: "PaperFaces portrait of @bobbydharrell drawn with Paper by 53 on an iPad."
 image: 

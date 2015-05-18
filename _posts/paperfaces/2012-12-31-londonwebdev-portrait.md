@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Goatee earlobe tugging"
 excerpt: "PaperFaces portrait of @LondonWebDev drawn with Paper by 53 on an iPad."
 image: 

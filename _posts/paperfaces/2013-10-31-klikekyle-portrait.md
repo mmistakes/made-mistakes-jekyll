@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Yankees cap"
 excerpt: "PaperFaces portrait of @klikekyle drawn with Paper by 53 on an iPad."
 image: 

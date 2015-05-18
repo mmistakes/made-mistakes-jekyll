@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Knit hat wearing sunglasses"
 excerpt: "PaperFaces portrait of @rdewind151 drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Girl and Cat"
 excerpt: "PaperFaces portrait of a girl and cat drawn with Paper by 53 on an iPad."
 image: 

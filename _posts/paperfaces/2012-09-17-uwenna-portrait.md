@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dark hair and eye glasses"
 excerpt: "PaperFaces portrait of @uwenna drawn with Paper by 53 on an iPad."
 image: 

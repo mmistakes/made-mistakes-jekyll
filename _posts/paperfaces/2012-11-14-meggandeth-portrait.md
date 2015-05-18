@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Metal, dark hair"
 excerpt: "PaperFaces portrait of @meggandeth drawn with Paper by 53 on an iPad."
 image: 

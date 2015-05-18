@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Suit in a landscape"
 excerpt: "PaperFaces portrait of @ryandawidjan drawn with Paper by 53 on an iPad."
 image: 

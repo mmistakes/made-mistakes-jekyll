@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces portrait of Slave Leia and Jabba the Hutt"
 excerpt: "PaperFaces portrait of Slave Leia and Jabba the Hutt drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "White ringed eyes"
 excerpt: "PaperFaces portrait of @twnsndco drawn with Paper by 53 on an iPad."
 image: 

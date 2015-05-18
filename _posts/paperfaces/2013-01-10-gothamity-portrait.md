@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Short hair and red lipstick"
 excerpt: "PaperFaces portrait of @gothamity drawn with Paper by 53 on an iPad."
 image: 

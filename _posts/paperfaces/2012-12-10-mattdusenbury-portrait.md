@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The iPad has become a face"
 excerpt: "PaperFaces portrait of @mattdusenbury drawn with Paper by 53 on an iPad."
 image: 

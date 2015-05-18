@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Getting grabby at those heart shaped glasses"
 excerpt: "PaperFaces portrait of @KingSpaceLaser drawn with Paper by 53 on an iPad."
 image: 

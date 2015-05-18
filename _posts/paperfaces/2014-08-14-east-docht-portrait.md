@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Ska Killer"
 excerpt: "PaperFaces portrait of the East Docht drawn with Paper by 53 on an iPad."
 image: 

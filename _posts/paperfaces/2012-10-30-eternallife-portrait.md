@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Heart shaped earrings"
 excerpt: "PaperFaces portrait of @eternallife_ drawn with Paper by 53 on an iPad."
 image: 

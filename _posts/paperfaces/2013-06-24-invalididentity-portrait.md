@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blue tinted eye"
 excerpt: "PaperFaces portrait of @invalididentity drawn with Paper by 53 on an iPad."
 image: 

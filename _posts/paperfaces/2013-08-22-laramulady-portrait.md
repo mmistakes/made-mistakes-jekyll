@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Feet up relaxin'"
 excerpt: "PaperFaces portrait of @laramulady drawn with Paper by 53 on an iPad."
 image: 

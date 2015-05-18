@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "I am from the future, Google Glass"
 excerpt: "PaperFaces portrait of @lulomx drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Four lights"
 excerpt: "PaperFaces portrait of @lassebaagoe drawn with Paper by 53 on an iPad."
 image: 

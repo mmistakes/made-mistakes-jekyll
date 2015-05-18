@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dramatic lighting and a white hoodie"
 excerpt: "PaperFaces portrait of @jossvalo drawn with Paper by 53 on an iPad."
 image: 

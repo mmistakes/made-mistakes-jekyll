@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rosebuds in the Pumpkin Patch"
 excerpt: "PaperFaces portrait of my two little rosebuds playing at the Great Pumpkin Farm."
 image: 

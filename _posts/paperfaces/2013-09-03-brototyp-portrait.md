@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Lean back and relax"
 excerpt: "PaperFaces portrait of @brototyp drawn with Paper by 53 on an iPad."
 image: 

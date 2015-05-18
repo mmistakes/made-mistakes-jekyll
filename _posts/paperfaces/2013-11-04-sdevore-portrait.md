@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rock and roll"
 excerpt: "PaperFaces portrait of @sdevore drawn with Paper by 53 on an iPad."
 image: 

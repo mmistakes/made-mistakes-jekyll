@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "What do vegan werewolves eat?"
 excerpt: "PaperFaces portrait of @andrew-shaw23 drawn with Paper by 53 on an iPad."
 image: 

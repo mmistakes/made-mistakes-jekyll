@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white sir in dark shirt"
 excerpt: "PaperFaces portrait of @lsinger drawn with Paper by 53 on an iPad."
 image: 

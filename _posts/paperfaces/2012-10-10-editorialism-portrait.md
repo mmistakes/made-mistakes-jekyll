@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red lips and shirt"
 excerpt: "PaperFaces portrait of @editorialism drawn with Paper by 53 on an iPad."
 image: 

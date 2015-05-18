@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sitting on some steps in black and white"
 excerpt: "PaperFaces portrait of @omri_mor drawn with Paper by 53 on an iPad."
 image: 

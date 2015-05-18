@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mountain Posing"
 excerpt: "PaperFaces portrait of @smroux drawn with Paper by 53 on an iPad."
 image: 

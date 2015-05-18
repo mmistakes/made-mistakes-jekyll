@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "White light blur"
 excerpt: "PaperFaces portrait of @kristoffbertram drawn with Paper by 53 on an iPad."
 image: 

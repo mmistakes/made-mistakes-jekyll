@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Drawing geometry"
 excerpt: "PaperFaces portrait of @rkrismcneely drawn with Paper by 53 on an iPad."
 image: 

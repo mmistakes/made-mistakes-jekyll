@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Bacon mustached"
 excerpt: "PaperFaces portrait of @kilsey drawn with Paper by 53 on an iPad."
 image: 

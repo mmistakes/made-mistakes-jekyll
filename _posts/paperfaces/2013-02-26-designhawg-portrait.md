@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Large goggles in black and white"
 excerpt: "PaperFaces portrait of @designhawg drawn with Paper by 53 on an iPad."
 image: 

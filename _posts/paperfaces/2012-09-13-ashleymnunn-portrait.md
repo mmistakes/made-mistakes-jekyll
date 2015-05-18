@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Girl with blonde hair smiling outside"
 excerpt: "PaperFaces portrait of @ashleymnunn drawn with Paper by 53 on an iPad."
 image: 

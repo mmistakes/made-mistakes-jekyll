@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black tie on white"
 excerpt: "PaperFaces portrait of @claudioguglieri drawn with Paper by 53 on an iPad."
 image: 

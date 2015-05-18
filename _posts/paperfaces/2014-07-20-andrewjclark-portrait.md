@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Earbud buds"
 excerpt: "PaperFaces portrait of @andrewjclark drawn with Paper by 53 on an iPad."
 image: 

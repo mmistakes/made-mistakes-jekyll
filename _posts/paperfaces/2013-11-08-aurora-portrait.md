@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Sun dress"
 excerpt: "PaperFaces portrait of Aurora drawn with Paper by 53 on an iPad."
 image: 

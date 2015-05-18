@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Drawing in black and white"
 excerpt: "PaperFaces portrait of @eberth drawn with Paper by 53 on an iPad."
 image: 

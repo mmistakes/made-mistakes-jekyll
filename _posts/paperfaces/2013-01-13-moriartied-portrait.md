@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses and short hair"
 excerpt: "PaperFaces portrait of @moriartied drawn with Paper by 53 on an iPad."
 image: 

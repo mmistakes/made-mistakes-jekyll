@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "At the salon"
 excerpt: "PaperFaces portrait of @juleshughan drawn with Paper by 53 on an iPad."
 image: 

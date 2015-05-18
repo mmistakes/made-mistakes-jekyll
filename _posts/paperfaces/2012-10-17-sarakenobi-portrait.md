@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Kids in 3D glasses and red hats"
 excerpt: "PaperFaces portrait of @sarakenobi drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dramatic lighting in a suit"
 excerpt: "PaperFaces portrait of @sailesh-panchal drawn with Paper by 53 on an iPad."
 image: 

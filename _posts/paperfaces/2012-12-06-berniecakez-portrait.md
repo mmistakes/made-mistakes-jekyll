@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Brightly colored hair"
 excerpt: "PaperFaces portrait of @berniecakez drawn with Paper by 53 on an iPad."
 image: 

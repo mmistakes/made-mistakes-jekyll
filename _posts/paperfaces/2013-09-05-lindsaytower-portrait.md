@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Happy in red"
 excerpt: "PaperFaces portrait of @lindsaytower drawn with Paper by 53 on an iPad."
 image: 

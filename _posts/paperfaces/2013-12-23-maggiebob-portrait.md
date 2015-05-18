@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Purple frames"
 excerpt: "PaperFaces portrait of @maggiebob drawn with Paper by 53 on an iPad."
 image: 

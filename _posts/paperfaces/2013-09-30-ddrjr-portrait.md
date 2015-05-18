@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Smile for Lady Liberty"
 excerpt: "PaperFaces portrait of @ddrjr drawn with Paper by 53 on an iPad."
 image: 

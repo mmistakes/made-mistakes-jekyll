@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Adorned with a flower"
 excerpt: "PaperFaces portrait of @ewalshe2 drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Nintendo is mind control"
 excerpt: "PaperFaces portrait of @rattazong drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "&#147;It's a trap!&#148;"
 excerpt: "PaperFaces portrait Admiral Ackbar drawn with Paper by 53 on an iPad."
 image: 

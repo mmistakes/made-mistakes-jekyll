@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "This Dog Stole My Hat"
 excerpt: "PaperFaces portrait of Diego S. drawn with Paper by 53 on an iPad."
 image: 

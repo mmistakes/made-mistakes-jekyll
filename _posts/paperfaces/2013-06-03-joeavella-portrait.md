@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Look up, graffiti wall and sunglasses"
 excerpt: "PaperFaces portrait of @joeavella drawn with Paper by 53 on an iPad."
 image: 

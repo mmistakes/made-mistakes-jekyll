@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Cloud dancer"
 excerpt: "PaperFaces portrait of Christina U. drawn with Paper by 53 on an iPad."
 image: 

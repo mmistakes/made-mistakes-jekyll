@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Glasses with red headphones"
 excerpt: "PaperFaces portrait of @ihamzadev drawn with Paper by 53 on an iPad."
 image: 

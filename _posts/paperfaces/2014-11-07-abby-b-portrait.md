@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "You Need a Mouth to Mumble"
 excerpt: "PaperFaces portrait of the Abby B. drawn with Paper by 53 on an iPad."
 image: 

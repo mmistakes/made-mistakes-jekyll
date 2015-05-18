@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fellow iPad illustrator"
 excerpt: "PaperFaces portrait of @acostamt drawn with Paper by 53 on an iPad."
 image: 

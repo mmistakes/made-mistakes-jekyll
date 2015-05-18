@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long brown hair"
 excerpt: "PaperFaces portrait of @_ZoeCho drawn with Paper by 53 on an iPad."
 image: 

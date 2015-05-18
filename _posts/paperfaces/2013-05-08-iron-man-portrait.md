@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces portrait of Iron Man"
 excerpt: "PaperFaces portrait of Iron Man drawn with Paper by 53 on an iPad."
 image: 

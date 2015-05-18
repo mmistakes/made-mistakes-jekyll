@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "An exercise in gray"
 excerpt: "PaperFaces portrait of @Archaikh drawn with Paper by 53 on an iPad."
 image: 

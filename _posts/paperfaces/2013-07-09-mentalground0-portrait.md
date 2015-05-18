@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Chillin' at the game"
 excerpt: "PaperFaces portrait of @mentalground0 drawn with Paper by 53 on an iPad."
 image: 

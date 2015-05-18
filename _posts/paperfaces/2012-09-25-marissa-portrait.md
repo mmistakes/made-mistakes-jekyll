@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dark hair"
 excerpt: "PaperFaces portrait of @marissa drawn with Paper by 53 on an iPad."
 image: 

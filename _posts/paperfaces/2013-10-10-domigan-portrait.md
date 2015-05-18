@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Three stars"
 excerpt: "PaperFaces portrait of @domigan drawn with Paper by 53 on an iPad."
 image: 

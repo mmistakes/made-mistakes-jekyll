@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Motorcycle jacket in soft focus"
 excerpt: "PaperFaces portrait of @steve_fenton drawn with Paper by 53 on an iPad."
 image: 

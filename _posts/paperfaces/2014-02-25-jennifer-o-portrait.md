@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Blood prayers"
 excerpt: "PaperFaces portrait of Jennifer O. drawn with Paper by 53 on an iPad."
 image: 

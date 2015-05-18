@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dramatic looking gray bricks"
 excerpt: "PaperFaces portrait of @padulantonio drawn with Paper by 53 on an iPad."
 image: 

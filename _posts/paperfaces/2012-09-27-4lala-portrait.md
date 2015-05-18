@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Purple lollipop and sunglasses gal"
 excerpt: "PaperFaces portrait of @4lala drawn with Paper by 53 on an iPad."
 image: 

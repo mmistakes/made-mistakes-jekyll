@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rosey cheeks, green shadows"
 excerpt: "PaperFaces portrait of Makenna S. drawn with Paper by 53 on an iPad."
 image: 

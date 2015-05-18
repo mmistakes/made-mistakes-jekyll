@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long blonde hairs in front of a brick wall"
 excerpt: "PaperFaces portrait of @TonjaC drawn with Paper by 53 on an iPad."
 image: 

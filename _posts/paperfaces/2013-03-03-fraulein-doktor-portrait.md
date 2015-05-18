@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Drinking from a red plastic cup"
 excerpt: "PaperFaces portrait of @fraulein_doktor drawn with Paper by 53 on an iPad."
 image: 

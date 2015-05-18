@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a gray room"
 excerpt: "PaperFaces portrait of @scoutu drawn with Paper by 53 on an iPad."
 image: 

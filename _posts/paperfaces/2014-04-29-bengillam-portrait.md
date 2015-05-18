@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black cat Cadillac"
 excerpt: "PaperFaces portrait of @bengillam drawn with Paper by 53 on an iPad."
 image: 

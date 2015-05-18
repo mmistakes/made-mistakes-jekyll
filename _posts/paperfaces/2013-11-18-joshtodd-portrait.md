@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Drawing with DayGlo"
 excerpt: "PaperFaces portrait of @JoshTodd drawn with Paper by 53 on an iPad."
 image: 

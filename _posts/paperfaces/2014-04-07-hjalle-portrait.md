@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Hold up"
 excerpt: "PaperFaces portrait of @hjalle drawn with Paper by 53 on an iPad."
 image: 

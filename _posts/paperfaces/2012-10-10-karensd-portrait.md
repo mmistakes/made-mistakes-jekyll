@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white girl"
 excerpt: "PaperFaces portrait of @karensd drawn with Paper by 53 on an iPad."
 image: 

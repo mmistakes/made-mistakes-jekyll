@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Red stripe"
 excerpt: "PaperFaces portrait of @gusso drawn with Paper by 53 on an iPad."
 image: 

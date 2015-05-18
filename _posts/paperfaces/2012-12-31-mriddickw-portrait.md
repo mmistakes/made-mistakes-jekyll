@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Steam punk aesthetic, in a hat"
 excerpt: "PaperFaces portrait of @MriddickW drawn with Paper by 53 on an iPad."
 image: 

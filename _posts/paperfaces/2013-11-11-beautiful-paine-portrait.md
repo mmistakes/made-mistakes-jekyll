@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The kids and their Final Fantasies"
 excerpt: "PaperFaces portrait of @Beautiful_Paine drawn with Paper by 53 on an iPad."
 image: 

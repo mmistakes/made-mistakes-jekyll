@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "High contrast beautiful long hair"
 excerpt: "PaperFaces portrait of @kendallina drawn with Paper by 53 on an iPad."
 image: 

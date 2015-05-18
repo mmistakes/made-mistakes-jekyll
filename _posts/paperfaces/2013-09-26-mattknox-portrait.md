@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Wild and furry"
 excerpt: "PaperFaces portrait of @mattknox drawn with Paper by 53 on an iPad."
 image: 

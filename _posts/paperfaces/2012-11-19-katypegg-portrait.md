@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Clapping. Let's clap."
 excerpt: "PaperFaces portrait of @katypegg drawn with Paper by 53 on an iPad."
 image: 

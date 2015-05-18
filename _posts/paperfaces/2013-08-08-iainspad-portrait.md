@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Mohawk in gray"
 excerpt: "PaperFaces portrait of @iainspad drawn with Paper by 53 on an iPad."
 image: 

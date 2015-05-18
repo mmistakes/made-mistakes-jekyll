@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "She said yes"
 excerpt: "Engagement PaperFaces portrait of @theBrady and @khollybell drawn with Paper by 53 on an iPad."
 image: 

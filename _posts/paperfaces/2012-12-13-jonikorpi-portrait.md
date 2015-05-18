@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Looking at a mobile device intensely"
 excerpt: "PaperFaces portrait of @jonikorpi drawn with Paper by 53 on an iPad."
 image: 

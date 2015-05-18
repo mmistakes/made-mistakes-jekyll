@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Water pistol"
 excerpt: "PaperFaces portrait of @d_agostino drawn with Paper by 53 on an iPad."
 image: 

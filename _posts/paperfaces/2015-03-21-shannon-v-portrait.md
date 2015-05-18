@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Driving Sunset"
 excerpt: "PaperFaces portrait of the Shannon V. drawn with Paper by 53 on an iPad."
 modified: 

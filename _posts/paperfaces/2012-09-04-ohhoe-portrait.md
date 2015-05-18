@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair and forearm tattoos"
 excerpt: "PaperFaces portrait of @ohhoe drawn with Paper by 53 on an iPad."
 image: 

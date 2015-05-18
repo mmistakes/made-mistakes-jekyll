@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "PaperFaces portrait of Mr. Spock and Captain Kirk"
 excerpt: "PaperFaces portrait of Mr. Spock and Captain Kirk drawn with Paper by 53 on an iPad."
 image: 

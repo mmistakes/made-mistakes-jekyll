@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The sky ran red with blood"
 excerpt: "PaperFaces portrait of @Hawk_SE drawn with Paper by 53 on an iPad."
 image: 

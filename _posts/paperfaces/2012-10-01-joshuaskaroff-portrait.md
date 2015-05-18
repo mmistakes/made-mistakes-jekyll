@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Stretched ears and brick walls"
 excerpt: "PaperFaces portrait of @joshuaskaroff drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long flowing fire hair"
 excerpt: "PaperFaces portrait of @du_vs_ich drawn with Paper by 53 on an iPad."
 image: 

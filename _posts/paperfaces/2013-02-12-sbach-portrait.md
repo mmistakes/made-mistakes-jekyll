@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dark jacket looking downward"
 excerpt: "PaperFaces portrait of @sbach drawn with Paper by 53 on an iPad."
 image: 

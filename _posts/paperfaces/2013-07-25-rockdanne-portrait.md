@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Tying ties in the woods"
 excerpt: "PaperFaces portrait of @rockdanne drawn with Paper by 53 on an iPad."
 image: 

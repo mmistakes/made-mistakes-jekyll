@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Flower girl in a grass field"
 excerpt: "PaperFaces portrait of @quimeraimantada drawn with Paper by 53 on an iPad."
 image: 

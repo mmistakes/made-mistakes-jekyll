@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Half lit diagonals"
 excerpt: "PaperFaces portrait of @ZombieProcess drawn with Paper by 53 on an iPad."
 image: 

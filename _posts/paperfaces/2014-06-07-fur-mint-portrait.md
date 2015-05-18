@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Your shirt is unbuttoned"
 excerpt: "PaperFaces portrait of a Fur Mint drawn with Paper by 53 on an iPad."
 image: 

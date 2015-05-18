@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pink and bright violet tones"
 excerpt: "PaperFaces portrait of @Lisablackler drawn with Paper by 53 on an iPad."
 image: 

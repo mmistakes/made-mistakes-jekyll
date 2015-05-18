@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Tony Stark look-a-like"
 excerpt: "PaperFaces portrait of @GeneralA_Ron-ron drawn with Paper by 53 on an iPad."
 image: 

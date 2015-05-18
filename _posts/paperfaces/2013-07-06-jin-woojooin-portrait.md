@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Holding a bottle by a wall of orange light"
 excerpt: "PaperFaces portrait of @JIN_woojooin drawn with Paper by 53 on an iPad."
 image: 

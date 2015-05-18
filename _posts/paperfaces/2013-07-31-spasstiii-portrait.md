@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Invisibility is a white shirt on a white wall"
 excerpt: "PaperFaces portrait of @spasstiii drawn with Paper by 53 on an iPad."
 image: 

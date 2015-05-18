@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "White car and sunglasses"
 excerpt: "PaperFaces portrait of @jakesutton drawn with Paper by 53 on an iPad."
 image: 

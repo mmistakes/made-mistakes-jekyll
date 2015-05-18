@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Thinking"
 excerpt: "PaperFaces portrait of @mstrandberg drawn with Paper by 53 on an iPad."
 image: 

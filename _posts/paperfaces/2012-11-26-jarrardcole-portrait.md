@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Doing video editing in a theater"
 excerpt: "PaperFaces portrait of @jarrardcole drawn with Paper by 53 on an iPad."
 image: 

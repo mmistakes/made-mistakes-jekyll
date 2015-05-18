@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Ghost faces by spiraling staircases"
 excerpt: "PaperFaces portrait of @pcperini drawn with Paper by 53 on an iPad."
 image: 

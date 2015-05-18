@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Reflected orange light"
 excerpt: "PaperFaces portrait of Diako M. drawn with Paper by 53 on an iPad."
 image: 

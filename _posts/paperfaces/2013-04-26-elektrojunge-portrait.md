@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Tattooed in trees"
 excerpt: "PaperFaces portrait of @Elektrojunge drawn with Paper by 53 on an iPad."
 image: 

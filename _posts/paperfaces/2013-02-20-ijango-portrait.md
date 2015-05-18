@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Van dyke moustachio drinking cat"
 excerpt: "PaperFaces portrait of @ijango drawn with Paper by 53 on an iPad."
 image: 

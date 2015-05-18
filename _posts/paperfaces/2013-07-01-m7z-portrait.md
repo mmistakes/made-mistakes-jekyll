@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Faking light leakages and green hats"
 excerpt: "PaperFaces portrait of @m7z drawn with Paper by 53 on an iPad."
 image: 

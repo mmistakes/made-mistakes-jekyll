@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Speaking at a conference"
 excerpt: "PaperFaces portrait of @taylorotwell drawn with Paper by 53 on an iPad."
 image: 

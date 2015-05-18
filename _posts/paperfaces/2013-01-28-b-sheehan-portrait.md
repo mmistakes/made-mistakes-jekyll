@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fire fighter"
 excerpt: "PaperFaces portrait of @B_Sheehan drawn with Paper by 53 on an iPad."
 image: 

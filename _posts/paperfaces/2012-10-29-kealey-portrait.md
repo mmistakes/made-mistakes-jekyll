@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "That's a really large atmark"
 excerpt: "PaperFaces portrait of @kealey drawn with Paper by 53 on an iPad."
 image: 

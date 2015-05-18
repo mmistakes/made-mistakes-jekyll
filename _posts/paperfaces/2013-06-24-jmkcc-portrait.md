@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Look up, the sky is falling"
 excerpt: "PaperFaces portrait of @jmkcc drawn with Paper by 53 on an iPad."
 image: 

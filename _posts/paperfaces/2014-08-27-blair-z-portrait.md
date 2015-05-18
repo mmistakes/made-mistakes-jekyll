@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Still Faking Pencil with Pencil"
 excerpt: "PaperFaces portrait of the Blair Z. drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rated blue for bright"
 excerpt: "PaperFaces portrait of Wendy Rose drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Dressed up all fancy"
 excerpt: "PaperFaces portrait of @xochristianna drawn with Paper by 53 on an iPad."
 image: 

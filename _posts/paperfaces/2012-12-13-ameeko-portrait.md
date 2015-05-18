@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long flowing hair in a red tank top"
 excerpt: "PaperFaces portrait of @ameeko drawn with Paper by 53 on an iPad."
 image: 

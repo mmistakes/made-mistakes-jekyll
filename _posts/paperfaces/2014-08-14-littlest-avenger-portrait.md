@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "The Littlest Avenger"
 excerpt: "PaperFaces portrait of the littlest Avenger drawn with Paper by 53 on an iPad."
 image: 

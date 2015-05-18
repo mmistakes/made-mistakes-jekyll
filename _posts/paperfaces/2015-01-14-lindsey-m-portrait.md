@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Drape Fold the Shoulder"
 excerpt: "PaperFaces portrait of the Lindsey M. drawn with Paper by 53 on an iPad."
 modified: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "That old time photo look"
 excerpt: "PaperFaces portrait of @chrishnry drawn with Paper by 53 on an iPad."
 image: 

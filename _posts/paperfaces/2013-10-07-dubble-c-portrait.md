@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Maps and earbuds"
 excerpt: "PaperFaces portrait of @Dubble_C drawn with Paper by 53 on an iPad."
 image: 

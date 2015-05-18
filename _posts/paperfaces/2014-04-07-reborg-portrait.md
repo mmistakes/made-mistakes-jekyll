@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Collars up"
 excerpt: "PaperFaces portrait of @reborg drawn with Paper by 53 on an iPad."
 image: 

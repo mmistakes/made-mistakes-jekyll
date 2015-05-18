@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fancy shear and flowers"
 excerpt: "PaperFaces portrait of Olesya L. drawn with Paper by 53 on an iPad."
 image: 

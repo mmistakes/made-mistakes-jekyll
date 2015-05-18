@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In a suit"
 excerpt: "PaperFaces portrait of @danmurillo drawn with Paper by 53 on an iPad."
 image: 

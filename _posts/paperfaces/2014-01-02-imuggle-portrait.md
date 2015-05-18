@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Pink sweater"
 excerpt: "PaperFaces portrait of @imuggle drawn with Paper by 53 on an iPad."
 image: 

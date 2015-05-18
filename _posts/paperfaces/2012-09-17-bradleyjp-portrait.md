@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Beard and black v-neck shirt"
 excerpt: "PaperFaces portrait of @bradleyjp drawn with Paper by 53 on an iPad."
 image: 

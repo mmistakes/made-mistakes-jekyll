@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Intersecting lines and long hair"
 excerpt: "PaperFaces portrait of @herzbescheuert drawn with Paper by 53 on an iPad."
 image: 

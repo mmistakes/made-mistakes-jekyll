@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Smoke if ya got ’em"
 excerpt: "PaperFaces portrait of @Isantipov drawn with Paper by 53 on an iPad."
 image: 

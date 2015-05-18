@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Solar flares and blue lighting"
 excerpt: "PaperFaces portrait of @cassini_ drawn with Paper by 53 on an iPad."
 image: 

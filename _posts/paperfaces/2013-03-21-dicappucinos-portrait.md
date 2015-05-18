@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "No eyes, bright red lipstick"
 excerpt: "PaperFaces portrait of @dicappucinos drawn with Paper by 53 on an iPad."
 image: 

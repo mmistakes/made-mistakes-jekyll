@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Developer slash designer"
 excerpt: "PaperFaces portrait of @aripalo drawn with Paper by 53 on an iPad."
 image: 

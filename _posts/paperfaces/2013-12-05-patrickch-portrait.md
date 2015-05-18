@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "SNIKT!"
 excerpt: "PaperFaces portrait of @PatrickCH drawn with Paper by 53 on an iPad."
 image: 

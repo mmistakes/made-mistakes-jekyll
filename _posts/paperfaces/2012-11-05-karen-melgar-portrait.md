@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Face mask without the face"
 excerpt: "PaperFaces portrait of @Karen_Melgar drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Taking selfies"
 excerpt: "PaperFaces portrait of @sheng_ching drawn with Paper by 53 on an iPad."
 image: 

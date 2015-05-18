@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Work shirting it"
 excerpt: "PaperFaces portrait of @davglass drawn with Paper by 53 on an iPad."
 image: 

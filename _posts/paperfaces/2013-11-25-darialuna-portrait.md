@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Ghosting faces"
 excerpt: "PaperFaces portrait of @DariaLuna_ drawn with Paper by 53 on an iPad."
 image: 

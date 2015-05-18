@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fiesta!"
 excerpt: "PaperFaces portrait of @wefreema drawn with Paper by 53 on an iPad."
 image: 

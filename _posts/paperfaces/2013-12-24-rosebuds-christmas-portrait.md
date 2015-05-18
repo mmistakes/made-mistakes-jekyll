@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Rosebud twins on Christmas"
 excerpt: "PaperFaces portrait of Everly and Chloe drawn with Paper by 53 on an iPad."
 image: 

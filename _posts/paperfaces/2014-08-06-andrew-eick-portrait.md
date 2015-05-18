@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Fuzzy Sweater"
 excerpt: "PaperFaces portrait of Andrew E. drawn with Paper by 53 on an iPad."
 image: 

@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Thumbs up Giants"
 excerpt: "PaperFaces portrait of @asthehosptuRNs drawn with Paper by 53 on an iPad."
 image: 

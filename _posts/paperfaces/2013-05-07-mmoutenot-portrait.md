@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Remember to always wear a helmet"
 excerpt: "PaperFaces portrait of @mmoutenot drawn with Paper by 53 on an iPad."
 image: 

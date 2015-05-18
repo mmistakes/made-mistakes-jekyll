@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Black and white bearded fella wearing glasses"
 excerpt: "PaperFaces portrait of @toberl drawn with Paper by 53 on an iPad."
 image: 

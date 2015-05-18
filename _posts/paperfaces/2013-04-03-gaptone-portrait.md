@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Beard wearing a bowtie"
 excerpt: "PaperFaces portrait of @gaptone drawn with Paper by 53 on an iPad."
 image: 

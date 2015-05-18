@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "Long hair in violet"
 excerpt: "PaperFaces portrait of @amy_lew drawn with Paper by 53 on an iPad."
 image: 

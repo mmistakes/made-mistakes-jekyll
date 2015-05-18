@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: article
 title: "In front of an ornate frame and candle holder"
 excerpt: "PaperFaces portrait of @antoninygaard drawn with Paper by 53 on an iPad."
 image: 
