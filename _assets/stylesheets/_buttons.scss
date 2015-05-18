@@ -8,6 +8,7 @@
 
 .btn {
   display: inline-block;
+  width: inherit;
   padding: 8px 20px;
   @include font-size(14, 4);
   font-family: $alt-font;
@@ -157,19 +158,6 @@ $social:
   }
   .fa {
     padding-right: 5px;
-  }
-}
-
-/* Circular icon only buttons */
-
-.social-circles {
-  @each $socialnetwork, $color in $social {
-    .#{$socialnetwork} {
-      color: $color;
-      &:hover {
-        color: mix($black, $color, 25%);
-      }
-    }
   }
 }
 
