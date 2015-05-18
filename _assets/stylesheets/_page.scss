@@ -47,12 +47,6 @@
   }
 
   @include breakpoint($medium) {
-    // reduce line length to improve readability
-    // h1, h2, h3, h4, h5, h6, p, ul, ol, figure,
-    // .notice, .notice-info, .notice-inverse, .notice-danger, .notice-success, .notice-warning  {
-    //   @include post(1 of 10);
-    // }
-
     // increase width of figure elements
     figure.half,
     figure.third {
@@ -132,7 +126,7 @@
     }
   }
 
-  /* Cleaner underlines for links */
+  /* cleaner underlines for links */
   a { text-decoration: none; }
   p > a,
   li > a,
@@ -343,8 +337,8 @@ h6:hover .header-link {
 .author-content {
   @include breakpoint($small) {
     word-wrap: break-word;
-    padding-left: 100px; /* avatar width + 20px padding */
-    min-height: 80px; /* match avatar height */
+    padding-left: 100px; // avatar width + 20px padding
+    min-height: 80px; // match avatar height
   }
 }
 

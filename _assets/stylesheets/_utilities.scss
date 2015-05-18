@@ -18,14 +18,6 @@
   @include container(1280px);
 }
 
-/* Inner wrap (to be used with ads to the right) */
-
-// .inner-wrap {
-  // @include breakpoint($medium) {
-    // @include span-columns(8);
-  // }
-// }
-
 /*
    Visibility
    ========================================================================== */
@@ -95,7 +87,7 @@
   @include clearfix;
   a, .btn {
     display: inline-block;
-    // margin-right: $gutter / 2;
+    margin-right: gutter();
     &:last-child {
       margin-right: 0;
     }
@@ -105,23 +97,6 @@
 /*
    Type
    ========================================================================== */
-
-/* Shorten measure of text for full width layouts */
-
-.shorten {
-  @include clearfix;
-  @include breakpoint($medium) {
-    // @include row;
-    // @include span-columns(10);
-  }
-  @include breakpoint($large) {
-    // @include span-columns(9);
-  }
-}
-
-.shorten + .shorten {
-  margin-top: 0;
-}
 
 /* Center align */
 
@@ -160,19 +135,3 @@
     margin-left: gutter();
   }
 }
-
-/*
-   Animation related
-   ========================================================================== */
-
-// .come-in {
-//   transform: translateY(20px);
-//   animation: pop 0.5s ease forwards;
-// }
-
-/* Reset already visible elements */
-
-// .already-visible {
-//   transform: translateY(0);
-//   animation: none;
-// }

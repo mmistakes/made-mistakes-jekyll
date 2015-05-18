@@ -26,7 +26,6 @@
   top: 0;
   right: 0;
 
-  // visibility: hidden;
   backface-visibility: hidden;
   height: 100%;
   transform: translateX(100%);
@@ -34,11 +33,8 @@
   background: $sliding-menu-background; // fallback
   background: rgba($sliding-menu-background,0.85);
   z-index: 50;
-  // overflow-y: auto;
-  // overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   &.is-visible {
-    // visibility: visible;
     transform: translateX(0);
   }
   ul,
@@ -140,12 +136,6 @@
 
 .sliding-menu-button {
   display: block;
-  // position: absolute;
-  // top: 20px;
-  // left: -100px; // fallback position
-  // left: calc(-3rem + -20px); // button size
-  // left: -3rem;
-  // transform: translateZ(0);
   // backface-visibility: hidden; /* fix scroll jank */
   float: right;
   margin-top: 20px;
@@ -155,9 +145,6 @@
   // increase button size
   @include breakpoint($small) {
     margin-top: 30px;
-    // top: 30px;
-    // left: calc(-4rem + -30px); // button size
-    // left: -4rem;
     width: $button-size * 2;
     height: $button-size * 2;
   }
@@ -178,13 +165,10 @@
     @include breakpoint($small) {
       transform: translateX(0); // reset position
     }
-    // @include breakpoint($large) {
-    //   transform: translateX(0); // slide to the left
-    // }
   }
   &.close {
-    // background-color: $danger-color;
     opacity: 0;
+    visibility: hidden;
   }
 }
 
@@ -200,7 +184,7 @@
   outline: 0;
   border: 0;
   cursor: pointer;
-} 
+}
 
 .menu-screen {
   position: fixed;
