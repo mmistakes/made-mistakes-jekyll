@@ -11,11 +11,13 @@
 .article-wrap {
   @include layout($article);
   @include container(1280px);
+  overflow: auto; // fix collapse due to child floats
 }
 
 .archive-wrap {
   @include layout($article);
   @include container(1280px);
+  overflow: auto; // fix collapse due to child floats
 }
 
 /*

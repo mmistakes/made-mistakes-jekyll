@@ -176,7 +176,7 @@
   font-weight: 800;
   text-align: center;
   letter-spacing: -1px;
-  @include font-size(42, yes, 1);
+  @include font-size(32, yes, 1);
   @include breakpoint($small) {
     @include font-size(50, yes, 1);
   }
