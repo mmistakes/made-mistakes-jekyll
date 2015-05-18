@@ -9,6 +9,9 @@
 .toc {
   min-height: 1px;
   font-family: $alt-font;
+  @include breakpoint($medium) {
+    padding-right: 4em; // avoid bumping into pulled entry-content
+  }
   ul {
     margin: 0;
     padding: 0;

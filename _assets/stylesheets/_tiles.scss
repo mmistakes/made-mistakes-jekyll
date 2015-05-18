@@ -154,7 +154,10 @@
   }
 
   h3 {
+    @include font-size(24);
+    @include breakpoint($small) {
+      @include font-size(28);
+    }
     text-align: center;
-    margin-bottom: 0;
   }
 }

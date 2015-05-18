@@ -8,22 +8,18 @@
 
 .ads {
   position: relative;
+  margin-top: 1em;
   text-align: center;
   @include breakpoint($small) {
     text-align: left;
   }
   > ins {
-    // position: relative;
     border-width: 0;
-    // &:after {
-    //   content: "Advertisement";
-    //   position: absolute;
-    //   width: 100%;
-    //   text-align: center;
-    //   display: block;
-    //   @include font-size(12, no);
-    //   font-family: $alt-font;
-    // }
+  }
+  .ad-header {
+    display: block;
+    font-family: $alt-font;
+    @include font-size(12, no);
   }
 }
 
@@ -36,5 +32,3 @@
 .r-ads-skyscraper { width: 250px; height: 250px; }
 @media(min-width: 468px) { .r-ads-skyscraper { width: 468px; height: 60px; } }
 @media(min-width: 768px) { .r-ads-skyscraper { width: 160px; height: 600px; } }
-@media(min-width: 860px) { .r-ads-skyscraper { width: 125px; height: 125px; } }
-@media(min-width: 1040px) { .r-ads-skyscraper { width: 200px; height: 200px; } }
