@@ -56,6 +56,8 @@ If you're using Procreate similar options are presented, along with a cool featu
 
 I suppose you want to know if the Pogo Connect lives up to the hype. In my opinion, yes --- yes it does. 
 
+{% include ads/skyscraper.html %}
+
 The pencil and watercolor tools in Paper by 53 have always been great at feeling and reacting like the real thing. When used with a Pogo Connect these tools are augmented to a point where you can create thick and thin marks with more precision and ease.
 
 Below is a sketch made with all of the Paper by 53 tools using just my finger. Each stroke was made by moving my finger slowly at the beginning of each line and progressively getting faster near the end. This has the effect of making strokes thicker or darker depending on the tools used --- something I probably don't have to tell you if you've used Paper for any amount of time.
@@ -117,6 +119,8 @@ Even with these hiccups I'm still a big fan of the Pogo Connect. Gives me hope t
 ## Update. Two Months Later
 
 Well that didn't take long. About a month after writing this review and two months of daily drawing, my Pogo Connect finally gave up the ghost. Out of the blue I was drawing and my strokes stopped registering in Paper. I figured it was just a software hiccup and the stylus temporarily lost connectivity, but no.
+
+{% include ads/skyscraper.html %}
 
 Removed the rubber tip to find this mess. Like many others, the metal contact that is soldered to the internal circuit board broke free rendering the pressure sensitivity useless.
 

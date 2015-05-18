@@ -46,6 +46,17 @@ In the spirit of openness I've decided to compile everything I've learned using 
       <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-01-13-contour-drawing %}">Contour Line Drawing</a></li>
     </ul>
   </nav>
+
+  <div class="ads">
+    <span class="ad-header">Advertisement</span>
+    <ins class="adsbygoogle r-ads-skyscraper"
+      style="display:inline-block"
+      data-ad-client="{{ site.owner.google.ad-client }}"
+      data-ad-slot="{{ site.owner.google.ad-slot }}"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div><!-- /.ads -->
 </div><!-- /.toc-left -->
 
 <div class="tiles tiles-right">

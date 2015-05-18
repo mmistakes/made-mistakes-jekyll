@@ -29,7 +29,7 @@ And with that let's get started.
 
 <figure>
   <iframe width="560" height="315" src="//www.youtube.com/embed/myAwO2k23q4" frameborder="0"> </iframe>
-  <figcaption><i class="fa fa-video-camera"></i> How to draw and paint an outer space scene with only your finger and Paper by 53.</figcaption>
+  <figcaption>How to draw and paint an outer space scene with only your finger and Paper by 53.</figcaption>
 </figure>
 
 ### Cover the canvas
@@ -107,6 +107,8 @@ If things went too dark mix a tint of blue or fuchsia (depending on where you wa
 Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn pure white way too fast.
 </div>
 
+{% include ads/skyscraper.html %}
+
 ### Placing stars with your fingers
 
 Now begins the tedious process of placing stars one by one. I like to start with a medium to dark color that is in the family of the area I'm placing them. Starting on the blue side first we'll want to mix up a star color that is... bluish --- what a shocker! Using Paper's Color Picker makes things so much easier. Just sample a blue spot you painted earlier and then manipulate the sliders to get the intensity right.
@@ -181,12 +183,14 @@ Building on the same techniques used in the first half of this guide, I'm going 
 
 <figure>
   <iframe width="560" height="315" src="//www.youtube.com/embed/pdSp4Y4GOQs" frameborder="0"> </iframe>
-  <figcaption><i class="fa fa-video-camera"></i> How to draw and paint an outer space scene with Pencil and Paper by 53.</figcaption>
+  <figcaption>How to draw and paint an outer space scene with Pencil and Paper by 53.</figcaption>
 </figure>
 
 If you haven't already paired Pencil with Paper do so now. I find it helpful to go into Pencil's settings and turn off Blend[^blend-off] until I need it. This avoids any unwanted smudges from appearing when not applying enough pressure with Pencil's tip.
 
 [^blend-off]: To turn off the Blend feature tap the icon in the upper right corner of Paper while in the journal view. Then tap **Pencil** > **Finger** and change the default behavior from Blend to **Nothing**.
+
+{% include ads/skyscraper.html %}
 
 ### Covering the canvas part 2
 
@@ -246,6 +250,8 @@ Since it's pretty difficult to draw a perfect circle freehand I'm going to trace
 </figure>
 
 Placing the object directly on the iPad's screen, carefully trace around its edge. It may be hard to match up the lines exactly on your first go so just Rewind to undo until you get it right.
+
+{% include ads/skyscraper.html %}
 
 With the outline complete, use the watercolor brush with a white (or tint) to fill it in. It's ok if your strokes bleed outside of the lines some, it adds to the glowing effect we're trying to accomplish. Plus we're going to lightly blend the edges anyways so any mistakes made now will be down played later.
 

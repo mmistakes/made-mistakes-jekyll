@@ -60,6 +60,8 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
 </div>
 
+{% include ads/skyscraper.html %}
+
 ### Adding Wave Chop
 
 For the sake of this tutorial I'm going to draw small waves using quick and choppy watercolor brush strokes. The technique is very similar to painting clouds using white, only in this case we're using the same color we painted the water's base with. The waves I'm painting are fairly flat so there's no need to go overboard with the chop.

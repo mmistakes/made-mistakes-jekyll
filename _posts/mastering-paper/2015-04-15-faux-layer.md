@@ -56,8 +56,6 @@ To fill in the background, simply drag a swatch from one of your palettes (or th
   <figcaption>Quickly fill in the background by dragging a color onto the canvas and releasing.</figcaption>
 </figure>
 
-{% include ads/skyscraper.html %}
-
 ## Sketching with White
 
 Now the fun begins! Select the off-white color you sampled/mixed earlier and begin sketching.
@@ -81,7 +79,9 @@ To yield the best results with the "faux" layer technique I suggest using the pe
   <figcaption>Select a darker color to trace over the white sketch with.</figcaption>
 </figure>
 
-Once you get the general composition of your drawing locked down you'll want to change the color to something darker. Depending on the background color you initially filled the canvas with you may need to adjust it so these new strokes show up. 
+Once you get the general composition of your drawing locked down you'll want to change the color to something darker. Depending on the background color you initially filled the canvas with you may need to adjust it so these new strokes show up.
+
+{% include ads/skyscraper.html %}
 
 Using the rough sketch as a guide trace over the white lines with a tool and color of your choice. I used a single color for my tracing but if you happen to change your color as you work it may be necessary to alter the background. You'll know this is the case when your tracing blends into the background making it difficult to tell if you're laying down a mark.
 

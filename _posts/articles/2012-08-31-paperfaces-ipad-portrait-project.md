@@ -48,6 +48,8 @@ Due to the positive comments that I received, I decided to put a call out for mo
 
 A few hours later, while grocery shopping with my wife, my iPhone started blowing up with retweet and @reply notifications. By the end of the day I had amassed around 300 volunteers and figured that turning it into a formal 365 day project might be fun.
 
+{% include ads/skyscraper.html %}
+
 When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I published this page to better explain the project and added PayPal buttons on the site for those who wanted to motivate me to keep the project going.
 
 ### Why the Blank Faces?

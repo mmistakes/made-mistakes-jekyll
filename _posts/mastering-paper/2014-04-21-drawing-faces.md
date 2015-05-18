@@ -116,6 +116,8 @@ If you remember back to my previous guide, green and red are complementary color
 
 ---
 
+{% include ads/skyscraper.html %}
+
 ## Painting Skin
 
 To some, the watercolor brush is magical while others find it extremely confusing and frustrating --- I completely understand that. To master the brush you have to be mindful of a few things:
@@ -178,6 +180,8 @@ With a rough sketch complete, it is time to put those skin tone palettes from be
 </figure>
 
 Of course you could just use the eraser tool to remove the background, but it will produce a harsher edge --- which I like to avoid. Used as a lightener, the brush gives greater control over the amount of background you remove.
+
+{% include ads/skyscraper.html %}
 
 ### Building the Face with Glazes
 
@@ -302,6 +306,8 @@ The basic idea here is to sketch in all the dark spots around the eyes, nose, an
 	</a>
 	<figcaption>The areas you&rsquo;ll want to focus on first are the pupils, upper eyelids, nostrils, and the crevices found around the lips.</figcaption>
 </figure>
+
+{% include ads/skyscraper.html %}
 
 ### Shaping Skin with Hatching
 

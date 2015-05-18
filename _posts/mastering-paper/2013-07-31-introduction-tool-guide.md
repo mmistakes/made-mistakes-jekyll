@@ -87,6 +87,8 @@ The eraser removes everything --- including a background filled with color. A fo
 * **Blending:** Almost fully opaque. Depending on the color it can take 2--3 layers to create a purely opaque color.
 * **Sensitivity:** Soft = thin. Hard = thick.
 
+{% include ads/skyscraper.html %}
+
 ### Pencil (Sketch) {#pencil}
 
 Versatile and perfect in almost any situation --- this is the one tool you should invest time in learning. The marks it makes resemble a traditional 2B pencil leaving behind a texture perfect for shading. The pencil also works great for lightly sketching to nail your composition before painting.
@@ -177,6 +179,8 @@ Before the Color Mixer existed, you had to get creative if you wanted a color ot
 </figure>
 
 Color theory is a tricky dick --- thankfully FiftyThree did something great with their Color Mixer. Mixing together any color will almost always make a new one that looks great.
+
+{% include ads/skyscraper.html %}
 
 For those who need more control or want a traditional color picker --- one can be accessed by dragging a color swatch onto the mixing wheel, then tapping on it. From here you can adjust a color's hue, saturation, and brightness (luminosity).
 

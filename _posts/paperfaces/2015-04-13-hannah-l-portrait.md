@@ -47,4 +47,4 @@ I suppose if the demand is there I might try this again some night when my wife 
   <figcaption><a href="https://www.youtube.com/watch?v=qhEtbFlxfm4">Time lapse video</a> recorded with an iPhone 5s and Lapse It.</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-3.html %}
+{% include paperfaces-boilerplate-5.html %}

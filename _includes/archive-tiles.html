@@ -6,10 +6,10 @@
     	<span class="tile-info">
         {% if post.categories contains 'mastering-paper' %}
           <p class="tile-meta">Mastering Paper by FiftyThree</p>
-          {% else %}
-          {% if post.date %}
-            <p class="tile-meta date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
-          {% endif %}
+        {% elsif post.categories contains 'paperfaces' %}
+          <p class="tile-meta">PaperFaces Portrait</p>
+        {% elsif post.date %}
+          <p class="tile-meta date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         {% if post.categories contains 'mastering-paper' %}
           <h1 class="tile-title" itemprop="name">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</h1>

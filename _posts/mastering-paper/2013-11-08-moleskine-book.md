@@ -92,6 +92,8 @@ If you've ever owned a Classic Moleskine notebook a few of the details printed o
 	<figcaption>I&rsquo;ve seen this &ldquo;reward&rdquo; page somewhere else before haven&rsquo;t I&hellip;</figcaption>
 </figure>
 
+{% include ads/skyscraper.html %}
+
 ### Color Faithfulness
 
 So the real question is how well have my Paper drawings been reproduced in printed form? Pretty damn good if you ask me. To my eye the color is almost an exact match to what I see on the iPad's screen. It's not as bright because the paper stock printed on is warmer, but for the most part it's faithful.
@@ -142,6 +144,8 @@ As noted before, the cover isn't as thick as I had hoped for, but it's not super
 ## Justifying the Price
 
 Yes, $40 for a 15 page book[^page-cost] is bit on the expensive side. Especially when you can easily print a book from any local drugstore for half the price. But what you won't be getting for that price is a custom, handmade, accordion folded book, all within two weeks time.
+
+{% include ads/skyscraper.html %}
 
 Not to mention the finished books share the same 4:3 proportion as your Paper creations so there won't be any funny bleeds or crops. What you see in Paper is what you get in real life, straight down to the elastic band and rounded edges. The fact that these little books come baring the Moleskine name, instantly adds +100 hipster cred points to your work.
 

@@ -98,6 +98,8 @@ Personally I think it would be less confusing if the Color Picker was sampling t
 
 ---
 
+{% include ads/skyscraper.html %}
+
 ## How to share colors
 
 Don't let that little color sampling inconsistency get you down, there's still plenty to love about the Color Picker and enhanced Mixer tools. If it wasn't clear from the sub-heading above, you can now *sort of* share colors and palettes with the Paper community. 

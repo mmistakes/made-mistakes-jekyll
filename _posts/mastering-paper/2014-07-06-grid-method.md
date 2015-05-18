@@ -69,6 +69,8 @@ Take your time drawing lines as accurate as and as light as possible, it'll make
 
 With the hardest grid complete you'll do the same thing to your reference photograph. The size of the grids don't have to match, just make sure they are proportional and share the same amount of lines.
 
+{% include ads/skyscraper.html %}
+
 ## Grid Making Shortcuts
 
 In case you didn't know, Paper by 53 has the ability to duplicate pages. If you took your time drawing a perfect grid you can use it as a template of sorts and copy it each time you need it.

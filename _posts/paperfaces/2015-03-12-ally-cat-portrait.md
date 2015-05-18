@@ -30,4 +30,4 @@ Continuing on with my time lapse kick, here's another video I recorded over seve
   <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-3.html %}
+{% include paperfaces-boilerplate-5.html %}
