@@ -166,7 +166,7 @@
    Page titles
    ========================================================================== */
 
-.page-title {
+.entry-title {
   @include layout($article);
   @include span(10);
   @include pre(3);
@@ -411,7 +411,7 @@ h5.author-name {
 
 .archive-wrap {
   .page-image,
-  .page-title {
+  .entry-title {
     @include breakpoint($large) {
       @include span(10 of 16);
       @include pre(3 of 16);

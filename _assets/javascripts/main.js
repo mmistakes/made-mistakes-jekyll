@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 // widow fix
 $(document).ready(function() {
-  $('.page-title').widowFix();
+  $('.entry-title').widowFix();
 });
 
 
