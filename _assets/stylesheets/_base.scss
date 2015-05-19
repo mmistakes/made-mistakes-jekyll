@@ -238,15 +238,6 @@ figcaption {
   }
 }
 
-.half,
-.third {
-  & figcaption { /* Remove caption indents */
-    margin-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 
 /* Fix IE9 SVG bug */
 
