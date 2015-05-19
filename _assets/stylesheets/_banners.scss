@@ -10,9 +10,9 @@
   position: relative;
   margin-top: 1em;
   text-align: center;
-  // @include breakpoint($small) {
-  //   text-align: left;
-  // }
+  @include breakpoint($small) {
+    text-align: left;
+  }
   > ins {
     border-width: 0;
   }
