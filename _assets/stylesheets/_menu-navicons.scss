@@ -31,7 +31,7 @@
 .lines {
   @include line;
   position: relative;
-
+  top: -$button-size/14; // move up lines to center
   &:before, &:after {
    @include line;
     position: absolute;
