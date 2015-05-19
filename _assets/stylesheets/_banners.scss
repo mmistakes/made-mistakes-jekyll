@@ -10,16 +10,17 @@
   position: relative;
   margin-top: 1em;
   text-align: center;
-  @include breakpoint($small) {
-    text-align: left;
-  }
+  // @include breakpoint($small) {
+  //   text-align: left;
+  // }
   > ins {
     border-width: 0;
   }
   .ad-header {
     display: block;
-    font-family: $alt-font;
+    color: mix($white, $text-color, 25%);
     @include font-size(12, no);
+    font-style: italic;
   }
 }
 
