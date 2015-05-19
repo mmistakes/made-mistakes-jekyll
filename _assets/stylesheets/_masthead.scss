@@ -23,8 +23,6 @@
   height: 48px; // IE8 fallback
   height: $button-size * 1.5;
   background-color: $white;
-  box-shadow: 0 0 10px rgba($black, 0.05);
-
   // increase logo size
   @include breakpoint($small) {
     margin-top: 30px;
