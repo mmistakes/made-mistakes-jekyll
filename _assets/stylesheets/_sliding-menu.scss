@@ -57,7 +57,7 @@
       text-align: right;
       font-family: $heading-font-title;
       @include font-size(48, no, 48);
-      font-weight: 800;
+      font-weight: 700;
       @include breakpoint($small) {
         @include font-size(60, no, 60);
       }

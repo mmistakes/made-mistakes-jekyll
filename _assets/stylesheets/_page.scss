@@ -168,12 +168,12 @@
 
 .entry-title {
   @include layout($article);
-  @include span(10);
-  @include pre(3);
-  @include post(3);
+  @include span(14);
+  @include pre(1);
+  @include post(1);
   margin-top: 30px;
   font-family: $heading-font-title;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
   letter-spacing: -1px;
   @include font-size(32, yes, 1);
@@ -181,9 +181,6 @@
     @include font-size(50, yes, 1);
   }
   @include breakpoint($medium) {
-    @include span(14);
-    @include pre(1);
-    @include post(1);
     @include font-size(60, yes, 1);
   }
   @include breakpoint($large) {
