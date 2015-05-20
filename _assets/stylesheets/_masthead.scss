@@ -7,6 +7,18 @@
   top: 0;
   width: 100%;
   z-index: 25;
+
+  &.is-hidden {
+    opacity: 0;
+    transform: translate(0,-60px);
+    transition: transform 0.2s, background 0.3s, color 0.3s, opacity 0.3s;
+  }
+
+  &.is-visible {
+    opacity: 1;
+    transform: translate(0,0);
+    transition: transform 0.2s, background 0.3s, color 0.3s;
+  }
 }
 
 /*

@@ -1,30 +1,57 @@
 //= require vendor/jquery
 //= require_tree ./plugins/
 
-
-// Off Canvas Sliding
 $(document).ready(function(){
+
+  // Hide / show the master navigation menu
+
+  // console.log('Window Height is: ' + $(window).height());
+  // console.log('Document Height is: ' + $(document).height());
+
+  var previousScroll = 0;
+
+  $(window).scroll(function(){
+    var currentScroll = $(this).scrollTop();
+    // If the current scroll position is greater than 0 (the top) AND the current scroll position is less than the document height minus the window height (the bottom) run the navigation if/else statement.
+    if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()){
+      // If the current scroll is greater than the previous scroll (i.e we're scrolling down the page), hide the nav.
+      if (currentScroll > previousScroll){
+        window.setTimeout(hideNav, 300);
+      // Else we are scrolling up (i.e the previous scroll is greater than the current scroll), so show the nav.
+      } else {
+        window.setTimeout(showNav, 300);
+      }
+      // Set the previous scroll value equal to the current scroll.
+      previousScroll = currentScroll;
+    }
+  });
+
+  function hideNav() {
+    $("[data-nav-status='toggle']").removeClass("is-visible").addClass("is-hidden");
+  }
+  function showNav() {
+    $("[data-nav-status='toggle']").removeClass("is-hidden").addClass("is-visible");
+  }
+
+
+  // Off Canvas Sliding
 	// toggle menu, trigger, and screen on click
 	$('#js-menu-trigger,#js-menu-screen,#js-menu-close').on('click touchstart', function(e){
 		$('#js-menu,#js-menu-screen').toggleClass('is-visible');
 		$('#js-menu-trigger').toggleClass('close');
 		e.preventDefault();
 	});
-});
 
 
-// widow fix
-$(document).ready(function() {
+  // Fix widows in headlines
   $('.entry-title').widowFix();
-});
 
 
-// Add lightbox class to all image links
-$("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+  // Add lightbox class to all image links
+  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
 
-// Magnific-Popup options
-$(document).ready(function() {
+  // Magnific-Popup options
 	$('.image-popup').magnificPopup({
 		disableOn: function() {
 			if( $(window).width() < 500 ) {
@@ -55,83 +82,78 @@ $(document).ready(function() {
     closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
 	});
-});
 
 
-// Lazy Load
-$("img.load").show().lazyload({
-		effect: "fadeIn",
-		skip_invisible: false
-});
+  // Lazy Load
+  $("img.load").show().lazyload({
+  	effect: "fadeIn",
+  	skip_invisible: false
+  });
 
 
-// FitVids
-$(document).ready(function(){
+  // FitVids
 	// Target your .container, .wrapper, .post, etc.
 	$("#main").fitVids();
-});
 
 
-// Add anchor links after headlines
-var anchorForId = function (id) {
-  var anchor = document.createElement("a");
-  anchor.className = "header-link";
-  anchor.href      = "#" + id;
-  anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
-  return anchor;
-};
+  // Add anchor links after headlines
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    return anchor;
+  };
 
-var linkifyAnchors = function (level, containingElement) {
-  var headers = containingElement.getElementsByTagName("h" + level);
-  for (var h = 0; h < headers.length; h++) {
-    var header = headers[h];
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
 
-    if (typeof header.id !== "undefined" && header.id !== "") {
-      header.appendChild(anchorForId(header.id));
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
     }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("page-content")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+
+  // Social share popup
+  function windowPopup(url, width, height) {
+    // Calculate the position of the popup so
+    // it’s centered on the screen.
+    var left = (screen.width / 2) - (width / 2),
+        top = (screen.height / 2) - (height / 2);
+
+    window.open(
+      url,
+      "",
+      "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left
+    );
   }
-};
 
-document.onreadystatechange = function () {
-  if (this.readyState === "complete") {
-    var contentBlock = document.getElementsByClassName("page-content")[0];
-    if (!contentBlock) {
-      return;
-    }
-    for (var level = 1; level <= 6; level++) {
-      linkifyAnchors(level, contentBlock);
-    }
-  }
-};
-
-// Social share popup
-function windowPopup(url, width, height) {
-  // Calculate the position of the popup so
-  // it’s centered on the screen.
-  var left = (screen.width / 2) - (width / 2),
-      top = (screen.height / 2) - (height / 2);
-
-  window.open(
-    url,
-    "",
-    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left
-  );
-}
-
-$(".js-social-share").on("click", function(e) {
-  e.preventDefault();
-  windowPopup($(this).attr("href"), 500, 300);
-});
+  $(".js-social-share").on("click", function(e) {
+    e.preventDefault();
+    windowPopup($(this).attr("href"), 500, 300);
+  });
 
 
-// Smooth scroll
-$(document).ready(function() {
+  // Smooth scroll
   $('a').smoothScroll({offset: -20});
-});
 
 
-// Back to top
-jQuery(document).ready(function($){
+  // Back to top button
   // browser window scroll (in pixels) after which the "back to top" link is shown
   var offset = 300,
     //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
@@ -158,14 +180,14 @@ jQuery(document).ready(function($){
     );
   });
 
+
+  // footnotes
+  var bigfoot = $.bigfoot(
+    {
+      deleteOnUnhover: false,
+      preventPageScroll: false,
+      hoverDelay: 250
+    }
+  );
+
 });
-
-
-// footnotes
-var bigfoot = $.bigfoot(
-  {
-    deleteOnUnhover: false,
-    preventPageScroll: false,
-    hoverDelay: 250
-  }
-);
