@@ -5,10 +5,11 @@
 .mm-top {
   display: inline-block;
   width: $button-size * 1.5;
-  height: $button-size * 1.5;
+  height: $button-size;
+  border-radius: $border-radius;
 
   position: fixed;
-  bottom: 0;
+  bottom: 1px;
   // center the button
   left: 50%; // fallback
   left: calc(50% - #{$button-size * 0.75});
