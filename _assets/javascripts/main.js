@@ -186,7 +186,7 @@ $(document).ready(function(){
     {
       deleteOnUnhover: false,
       preventPageScroll: false,
-      hoverDelay: 250
+      activateOnHover: true
     }
   );
 
