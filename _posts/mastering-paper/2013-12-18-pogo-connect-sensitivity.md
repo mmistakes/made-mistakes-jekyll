@@ -3,7 +3,7 @@ layout: article
 title: "Potential Pogo Connect Sensitivity Fix"
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware 1.1.0+."
 category: mastering-paper
-modified: 2015-01-27T14:37:23-05:00
+modified: 2015-05-21T15:44:17-04:00
 image:
   teaser: pogo-connect-review-teaser.jpg
   thumb: pogo-connect-app-thumb.jpg
@@ -29,7 +29,9 @@ From my tests it seems to be related to the 1.1.0 firmware or the extra solder b
 
 ## But How Do You Fix It?
 
-To begin, open **Paper by 53** (or your Pogo Connect supported app of choice) and press the button on the stylus to establish a connection.
+To begin, open **Paper by FiftyThree**[^pogo-paper] or your Pogo Connect supported app of choice, and press the button on the stylus to establish a connection.
+
+[^pogo-paper]: As of version 2.5 FiftyThree has dropped support for the Pogo Connect Smart Pen.
 
 Next you'll need to open (or download) the free [**Pogo Connect app**](https://itunes.apple.com/us/app/pogo-connect/id566688179?mt=8&at=11l5Vp&ct=website). With it you can do fun stuff like locate your Pogo if it's lost somewhere in your house, update the firmware, rename your Pogo, draw, or adjust the tip's pressure sensitivity.
 

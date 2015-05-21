@@ -2,7 +2,7 @@
 layout: article
 title: "Short Guide to Drawing with Paper by FiftyThree"
 excerpt: "My simple Paper by FiftyThree techniques for drawing faceless portraits and landscapes on an iPad."
-modified: 2015-01-27T15:07:04-05:00
+modified: 2015-05-21T16:03:37-04:00
 image: 
   feature: madewithpaper-guide-feature.jpg
   teaser: madewithpaper-guide-teaser.jpg
@@ -40,7 +40,7 @@ Since publishing this short guide I've gone through several iPad styli and writt
 
 <div class="notice-warning" markdown="1">
 #### Update: Stylus Switch
-I've since moved on from using a LunaTik Touch Pen to a Pogo Connect Smart Pen exclusively. In [my Pogo Connect review]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) I explain the extra features it gives you when used with Paper by FiftyThree.
+I've since moved on from the LunaTik Touch Pen to using FiftyThree's Pencil exclusively.
 </div>
 
 Every drawing is different and I try to keep that in mind before opening Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned so much doing just that for the last couple of months.
