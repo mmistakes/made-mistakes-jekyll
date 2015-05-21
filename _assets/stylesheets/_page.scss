@@ -201,7 +201,8 @@
 }
 
 // reduce margin when .page-image is present
-.page-image + .article-wrap > .entry-title {
+.page-image + .article-wrap > .entry-title,
+.page-image + .archive-wrap > .entry-title {
   margin-top: 30px;
 }
 
