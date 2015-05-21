@@ -6,6 +6,11 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: $black;
+  @include breakpoint($small) {
+    background-color: transparent;
+  }
+  transition: 0.2s ease-out;
   z-index: 25;
 
   &.is-hidden {
@@ -30,8 +35,8 @@
   float: left;
   height: $button-size * 1.5;
   line-height: $button-size * 1.5;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 0;
+  margin-left: $button-size/2;
   @include breakpoint($small) {
     margin-top: 20px;
     margin-left: 20px;

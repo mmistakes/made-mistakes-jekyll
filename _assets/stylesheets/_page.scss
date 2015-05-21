@@ -6,6 +6,13 @@
    Main content
    ========================================================================== */
 
+#main {
+  margin-top: $button-size * 1.5;
+  @include breakpoint($small) {
+    margin-top: 0;
+  }
+}
+
 .entry-content {
   @include layout($article);
   @include span(14);

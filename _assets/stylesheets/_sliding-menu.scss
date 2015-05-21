@@ -138,8 +138,8 @@
   display: block;
   // backface-visibility: hidden; /* fix scroll jank */
   float: right;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin-top: 0;
+  margin-right: 0;
   @include breakpoint($small) {
     margin-top: 20px;
     margin-right: 20px;
