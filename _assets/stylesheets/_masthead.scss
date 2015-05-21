@@ -28,19 +28,34 @@
 .site-logo {
   display: block;
   float: left;
-  margin-top: 20px;
-  margin-left: span(1) + gutter();
-  width: 48px; // IE8 fallback
-  width: $button-size * 1.5;
-  height: 48px; // IE8 fallback
   height: $button-size * 1.5;
-  background-color: $white;
-  // increase logo size
-  @include breakpoint($small) {
-    margin-top: 30px;
-    width: 64px; // IE8 fallback
-    width: $button-size * 2;
-    height: 64px; // IE8 fallback
-    height: $button-size * 2;
+  line-height: $button-size * 1.5;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: $white;
+  text-decoration: none;
+  background-color: $black;
+  &:hover {
+    color: $white;
+  }
+  img {
+    float: left;
+    width: $button-size * 1.5;
+    height: $button-size * 1.5;
+    background-color: $white
+  }
+  .site-title {
+    display: none;
+    @include breakpoint($small) {
+      display: block;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: $heading-font;
+      @include font-size(24, no);
+      line-height: $button-size * 1.5;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
   }
 }
