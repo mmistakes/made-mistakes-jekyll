@@ -9,9 +9,13 @@
 .ads {
   position: relative;
   margin-top: 1em;
+  margin-left: -1 * gutter(10);
+  margin-right: -1 * gutter(10);
   text-align: center;
   @include breakpoint($small) {
     text-align: left;
+    margin-left: 0;
+    margin-right: 0;
   }
   > ins {
     border-width: 0;
@@ -30,6 +34,6 @@
 
 /* skyscraper entry-content sidebar */
 
-.r-ads-skyscraper { width: 234px; height: 60px; }
-@media(min-width: 468px) { .r-ads-skyscraper { width: 468px; height: 60px; } }
+.r-ads-skyscraper { width: 300px; height: 250px; }
+@media(min-width: 468px) { .r-ads-skyscraper { width: 320px; height: 100px; } }
 @media(min-width: 768px) { .r-ads-skyscraper { width: 160px; height: 600px; } }
