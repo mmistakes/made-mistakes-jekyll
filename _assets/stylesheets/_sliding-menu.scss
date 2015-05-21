@@ -138,17 +138,14 @@
   display: block;
   // backface-visibility: hidden; /* fix scroll jank */
   float: right;
-  margin-top: 20px;
-  margin-right: 20px;
-  // width: $button-size * 1.5;
+  margin-top: 10px;
+  margin-right: 10px;
+  @include breakpoint($small) {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
   height: $button-size * 1.5;
   line-height: $button-size * 1.5;
-  // increase button size
-  // @include breakpoint($small) {
-  //   margin-top: 30px;
-  //   width: $button-size * 2;
-  //   height: $button-size * 2;
-  // }
   background: $sliding-menu-background;
   outline: 0;
   border: 0 solid transparent;
