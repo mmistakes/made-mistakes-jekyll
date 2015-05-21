@@ -9,7 +9,7 @@
   border-radius: $border-radius;
 
   position: fixed;
-  bottom: 1px;
+  bottom: 10px;
   // center the button
   left: 50%; // fallback
   left: calc(50% - #{$button-size * 0.75});
