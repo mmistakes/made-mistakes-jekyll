@@ -26,7 +26,7 @@ If you don't want to miss anything posted to Made Mistakes then you'll want to g
 
 ## Social Media
 
-If keeping up to date via Atom/RSS feeds is too nerdy for you, I can be stalked on various social networks. I try to keep myself in check and limit my posts to once or twice a day. I'm not one to barf up a stream of rants or retweets and instead stick with what I know best: Paper by FiftyThree, sarcasm, design, and web development.
+If keeping up to date via Atom/RSS feeds is too nerdy for you, I can be found on various social networks. I try to keep myself in check and limit my posts to once or twice a day. I'm not one to barf up a stream of rants or retweets and instead stick with what I know best: Paper by FiftyThree, sarcasm, design, and web development.
 
 <div class="inline">
   <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>

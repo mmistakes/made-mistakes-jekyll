@@ -31,6 +31,10 @@
     > a {
       color: $text-color;
       text-decoration: none;
+      // Add spacing around Font Awesome icons
+      .fa {
+        margin-right: 5px;
+      }
     }
   }
 }

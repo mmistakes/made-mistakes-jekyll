@@ -2,14 +2,14 @@
 layout: article
 title: "Sponsor and Support"
 date: 2014-06-19T09:33:51.793000-04:00
-modified: 2015-01-31
-excerpt: "Found something I created useful or enjoyable? Here's how you can show your gratitude."
+modified: 2015-05-22T12:01:59-04:00
+excerpt: "Found something I created useful or enjoyable or want me to take a look at your product or app? Here's how."
 image:
   feature: support-feature.jpg
 share: false
 ---
 
-Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel inclined, here's how you can thank me.
+Found one of my Paper tutorials, Jekyll themes, or articles useful? If you feel inclined, here's a few ways you can support me and the website.
 
 {% include toc.html %}
 
@@ -20,7 +20,7 @@ I post once or twice a day --- you don't have to worry about me barfing out a st
 <p markdown="0">
   <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
   <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-  <a href="https://plus.google.com/+MichaelRoseDesign/posts" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');" class="btn-social google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
+  <a href="https://plus.google.com/+MichaelRoseDesign/posts" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');" class="btn-social google-plus-square"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
   <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a>
 </p>
 
@@ -41,3 +41,7 @@ If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&crea
   <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn">Shop Amazon</a>
   <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn"><i class="fa fa-gift"></i> Amazon Wish List</a>
 </p>
+
+## Sponsorships
+
+If you have a product, service, or application that you'd like me to take a look at feel free to [reach out to me]({{ site.url }}/about/). I'm open to writing about it if I think it will provide value to my readers and fits in with the other iPad art, design, and web development content I typically publish.

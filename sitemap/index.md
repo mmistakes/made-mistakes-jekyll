@@ -2,8 +2,8 @@
 layout: archive
 title: "Sitemap"
 date: 2014-12-26
-modified: 2015-01-31
-excerpt: "A visual sitemap of mademistakes.com"
+modified: 2015-05-22T12:22:34-04:00
+excerpt: "A visual sitemap of all the pages on mademistakes.com"
 share: false
 ---
 
@@ -16,8 +16,9 @@ For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is availab
     <li><a href="{{ site.url }}/about/">About</a>
       <ul>
         <li><a href="{{ site.url }}/faqs/">Frequently Asked Questions</a></li>
+        <li><a href="{{ site.url }}/contact/">Contact</a></li>
         <li><a href="{{ site.url }}/subscribe/">Subscribe</a></li>
-        <li><a href="{{ site.url }}/support/">Support</a></li>
+        <li><a href="{{ site.url }}/support/">Sponsor &amp; Support</a></li>
         <li><a href="{{ site.url }}/terms/">Terms</a></li>
         <li><a href="{{ site.url }}/style-guide/">Style Guide</a></li>
       </ul>

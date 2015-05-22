@@ -2,16 +2,13 @@
 layout: article
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2015-02-16
-excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo."
+modified: 2015-05-22T12:06:57-04:00
+excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo, New York."
 image:
   feature: about-feature.jpg
   teaser: about-teaser.jpg
   credit: Wendy Rose
   creditlink: http://2littlerosebuds.com
-ads: false
-share: false
-sidebar: sidebar-about
 ---
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
@@ -25,7 +22,40 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.u
 
 And if that wasn't enough --- I'm the father of [twin girls]({{ site.url }}/tag/twins/) who just hit their toddler phase and a husband to a [subscription box addicted vegan](http://2littlerosebuds.com "Wendy Rose").
 
-{% include sidebar-about.html %}
+<div class="sidebar-left top">
+  <figure>
+    <a href="{{ site.url }}{% post_url /paperfaces/2014-05-19-mmistakes-2-portrait %}"><img src="{{ site.url }}/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>
+    <figcaption>Self portrait drawn on an iPad.</figcaption>
+  </figure>
+
+  <h6 class="toc-title">Selected Interviews</h6>
+  <div class="toc">
+    <ul>
+      <li><a href="http://anewatlantis.com/2013/01/the-story-of-paperfaces/" target="_blank">A New Atlantis <span>with Matt Dusenbury</span></a></li>
+      <li><a href="http://blog.sktchy.com/post/78751385093/dont-break-the-chain" target="_blank">Sktchy "&hellip;don&rsquo;t break the chain" <span>with Jordan Melnick</span></a></li>
+    </ul>
+  </div>
+
+  <h6 class="toc-title">Honorable Mentions</h6>
+  <div class="toc">
+    <ul>
+      <li><a href="http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1" target="_blank">&ldquo;22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad&rdquo;</a> <span>Business Insider</span></li>
+      <li><a href="http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by" target="_blank">&ldquo;This Summer We Learned About PaperFaces&hellip;&rdquo;</a></li>
+    </ul>
+  </div>
+
+  <h6 class="toc-title">Side Projects</h6>
+  <div class="toc">
+    <ul>
+      <li><a href="http://relicscout.com/" target="_blank">Relic Scout</a></li>
+      <li><a href="{{ site.url }}/paperfaces/">PaperFaces Project</a></li>
+      <li><a href="https://github.com/mmistakes/skinny-bones-jekyll" target="_blank">Skinny Bones</a></li>
+      <li><a href="https://github.com/mmistakes/so-simple-theme" target="_blank">So Simple</a></li>
+      <li><a href="https://github.com/mmistakes/minimal-mistakes" target="_blank">Minimal Mistakes</a></li>
+      <li><a href="https://github.com/mmistakes/hpstr-jekyll-theme" target="_blank">HPSTR</a></li>
+    </ul>
+  </div>
+</div><!-- /.sidebar-left -->
 
 ## About the Site
 
@@ -37,52 +67,4 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 
 ## Contact Me
 
-Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. Anything else --- short messages via Twitter work best.
-
-<a href="https://twitter.com/intent/tweet?screen_name=mmistakes" class="twitter-mention-button" data-size="large" data-related="mmistakes">Tweet to @mmistakes</a>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-{% javascript vendor/wufoo %}
-
-Have something longer you want to ask me? Fill out the form below and I'll get back to you by email.
-
-<form id="form1" name="form1" class="wufoo  page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
-  <ul>
-    <li id="foli7" class="notranslate">
-      <label class="desc" id="title7" for="Field7"> Name </label>
-      <div>
-        <input id="Field7" name="Field7" type="text" class="field text large" value="" maxlength="255" tabindex="1" onKeyUp="" />
-        </div>
-    </li>
-    <li id="foli2" class="notranslate">
-      <label class="desc" id="title2" for="Field2"> Email address <span id="req_2" class="req">*</span> </label>
-      <div>
-        <input id="Field2" name="Field2" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="2" required />
-      </div>
-      <p class="instruct" id="instruct2"><small>Your email address will remain private and won't be shared with anyone.</small></p>
-    </li>
-    <li id="foli1" class="notranslate">
-      <label class="desc" id="title1" for="Field1"> Message <span id="req_1" class="req">*</span> </label>
-      <div>
-        <textarea id="Field1" name="Field1" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="3" onkeyup="" required></textarea>
-      </div>
-    </li>
-    <li id="foli10" class="notranslate">
-      <label class="desc" id="title10" for="Field10"> How'd you hear about my website? </label>
-      <div>
-        <input id="Field10" name="Field10" type="text" class="field text large" value="" maxlength="255" tabindex="4" onKeyUp="" />
-      </div>
-    </li>
-    <li class="buttons">
-      <div>
-        <input id="saveForm" name="saveForm" class="btn" type="submit" value="Send Message" />
-      </div>
-    </li>
-    <li class="hidden">
-      <label for="comment">Do Not Fill This Out</label>
-      <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-      <input type="hidden" id="idstamp" name="idstamp" value="DXSyHZyBYpNZI+88LvVOKO8dSfd/5lyIeCQAXFVxeJY=" />
-    </li>
-  </ul>
-</form>
+Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires --- [hit up my contact page]({{ site.url }}/contact/).
