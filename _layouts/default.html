@@ -63,6 +63,18 @@
       {% javascript vendor/respond %}
     <![endif]-->
 
+    <!-- menu fix for old IE -->
+    <!--[if lt IE 9]>
+    <style>
+      .sliding-menu-content {
+        display: none;
+      }
+      .sliding-menu-content.is-visible {
+        display: block;
+      }
+    </style>
+    <![endif]-->
+
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png">

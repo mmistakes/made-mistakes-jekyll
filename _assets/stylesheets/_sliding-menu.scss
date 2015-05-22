@@ -30,11 +30,12 @@
   height: 100%;
   transform: translateX(100%);
   transition: $sliding-menu-animation;
-  background: $sliding-menu-background; // fallback
-  // background: rgba($sliding-menu-background,0.85);
+  background: $sliding-menu-background;
+  opacity: 0; // hide menu on load
   z-index: 50;
   -webkit-overflow-scrolling: touch;
   &.is-visible {
+    opacity: 1;
     transform: translateX(0);
   }
   ul,
