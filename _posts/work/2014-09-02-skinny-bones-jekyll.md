@@ -3,11 +3,11 @@ layout: article
 title: "Skinny Bones, a Jekyll Starter"
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
 image: 
-  feature: skinny-bones-theme-feature.jpg
-  teaser: skinny-bones-theme-teaser.jpg
+  feature: skinny-bones-preview-feature.png
+  teaser: skinny-bones-preview-teaser.png
 category: work
 tags: [jekyll, web development, open source, github]
-modified: 2015-01-31
+modified: 2015-05-22T15:11:31-04:00
 comments: true
 ---
 

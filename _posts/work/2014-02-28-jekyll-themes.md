@@ -3,7 +3,7 @@ layout: article
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub Pages for free."
-modified: 2015-01-31
+modified: 2015-05-22T15:15:28-04:00
 image: 
   feature: jekyll-themes-feature.jpg
   thumb: jekyll-themes-thumb-250x250.png
@@ -33,7 +33,7 @@ For more specifics, review each themes' documentation by clicking on the **Learn
 ## Skinny Bones
 
 <figure>
-	<img src="{{ site.url }}/images/skinny-bones-theme-feature.jpg" alt="Skinny Bones feature image">
+	<img src="{{ site.url }}/images/skinny-bones-preview-feature.png" alt="Skinny Bones Jekyll theme">
 	<figcaption>Includes a fun off canvas menu</figcaption> 
 </figure>
 
@@ -57,7 +57,7 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 ## Minimal Mistakes
 
 <figure>
-	<img src="{{ site.url }}/images/minimal-mistakes-theme-feature.jpg" alt="Minimal Mistakes feature image">
+	<img src="{{ site.url }}/images/minimal-mistakes-theme-feature.png" alt="Minimal Mistakes Jekyll theme">
 	<figcaption>A minimal design to let your content be the hero</figcaption>
 </figure>
 
