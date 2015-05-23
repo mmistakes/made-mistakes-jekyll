@@ -5,10 +5,9 @@ date: 2014-06-01
 modified: 2015-05-22T12:06:57-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo, New York."
 image:
-  feature: about-feature.jpg
+  feature: about-michael-collage.jpg
   teaser: about-teaser.jpg
-  credit: Wendy Rose
-  creditlink: http://2littlerosebuds.com
+ads: false
 ---
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
