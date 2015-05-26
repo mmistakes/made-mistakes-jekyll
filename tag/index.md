@@ -3,7 +3,8 @@ layout: article
 title: "Tag Index"
 modified:
 excerpt: "An archive of posts organized by tag."
-share: false  
+share: false
+ads: false
 ---
 
 ### An archive of posts sorted by tag name.
