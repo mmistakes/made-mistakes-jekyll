@@ -8,6 +8,7 @@ image:
   thumb: hpstr-250x250.png
 category: work
 tags: [jekyll, web development, open source, github]
+work: "Design &amp; Development"
 modified: 2015-01-31
 comments: true
 ---

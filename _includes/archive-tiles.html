@@ -8,6 +8,8 @@
           <p class="tile-meta">Mastering Paper by FiftyThree</p>
         {% elsif post.categories contains 'paperfaces' %}
           <p class="tile-meta">PaperFaces Portrait</p>
+        {% elsif post.categories contains 'work' %}
+          <p class="tile-meta">{{ post.work }}</p>
         {% elsif post.date %}
           <p class="tile-meta date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}

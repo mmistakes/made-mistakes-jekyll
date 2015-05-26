@@ -9,6 +9,7 @@ image:
 category: work
 modified: 2015-02-03T10:39:48-05:00
 tags: [design, 8bit, website, collectibles]
+work: "Design &amp; Development"
 ads: false
 share: false
 ---
