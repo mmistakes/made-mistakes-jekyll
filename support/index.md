@@ -20,7 +20,7 @@ I post once or twice a day --- you don't have to worry about me barfing out a st
 <p markdown="0">
   <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
   <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-  <a href="https://plus.google.com/+MichaelRoseDesign/posts" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');" class="btn-social google-plus-square"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
+  <a href="https://plus.google.com/+MichaelRoseDesign/posts" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');" class="btn-social google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
   <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a>
 </p>
 
