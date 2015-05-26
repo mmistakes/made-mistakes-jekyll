@@ -5,7 +5,7 @@ headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub Pages for free."
 modified: 2015-05-22T15:15:28-04:00
 image: 
-  feature: jekyll-themes-feature.jpg
+  feature: jekyll-themes-feature.png
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
 category: work
@@ -80,7 +80,7 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 ## So Simple
 
 <figure>
-	<img src="{{ site.url }}/images/so-simple-theme-feature.jpg" alt="So Simple feature image">
+	<img src="{{ site.url }}/images/so-simple-theme-feature-2015.png" alt="So Simple feature image">
 	<figcaption>Large images and site logo if that's your thing</figcaption>
 </figure>
 
@@ -102,7 +102,7 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 ## HPSTR
 
 <figure>
-	<img src="{{ site.url }}/images/hpstr-theme-feature.jpg" alt="HPSTR feature image">
+	<img src="{{ site.url }}/images/hpstr-preview-feature-2015.png" alt="HPSTR feature image">
 	<figcaption>A traditional blog approach with a modern style</figcaption>
 </figure>
 
