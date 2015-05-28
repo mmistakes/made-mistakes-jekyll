@@ -419,11 +419,11 @@ My plan for the next guide was to [reboot a hair tutorial]({{ site.url }}{% post
 
 So how about this? Let me know in the comments below what you want to see next: **hair tutorials** or more portrait goodness like **how to draw realistic eyes, mouths, and more**.
 
-<ul class="th-grid-full">
+<ul class="th-grid">
 {% for post in site.categories.paperfaces limit:8 %}
-    <li>
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
-    </li>
+  <li>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+  </li>
 {% endfor %}
 </ul>
 
