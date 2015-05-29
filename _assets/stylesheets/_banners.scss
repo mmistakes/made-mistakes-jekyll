@@ -28,6 +28,14 @@
   }
 }
 
+@include breakpoint($small) {
+  /* ad space ads that display after table of contents */
+  .toc + .ads {
+    margin-top: 3em;
+  }
+}
+
+
 /*
    Google Adsense banners
    ========================================================================== */
