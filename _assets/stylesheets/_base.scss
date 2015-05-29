@@ -98,6 +98,10 @@ blockquote {
     font-weight: 700;
     font-style: normal;
     @include font-size(18);
+    &:before {
+      content: "\2014";
+      padding-right: 5px;
+    }
   }
 }
 
