@@ -75,24 +75,92 @@ For even more information on how to setup your Pencil, change tips, or maintenan
 > If you have Multitasking Gestures or Accessibility Zoom enabled, this will prevent Pencil from operating effectively. Turn off Multitasking Gestures in your iPad Settings, under **General**. Turn off **Accessibility Zoom** under *General / Accessibility*.
 > <p><cite><a href="http://support.fiftythree.com/">support.fiftythree.com</a></cite></p>
 
-## Pencil's Software Qualities
+## Surface Pressure, what's that?
 
-### Enhanced control and expressiveness over the tools and marks you make (Surface Pressure, eraser)
+When Pencil is connected to Paper it gains enhanced control and expressiveness over the tools and with a feature FiftyThree calls **Surface Pressure**. Stroke sizes are directly related to how much or how little of the tip's surface touches the screen. This applies to both the drawing end and eraser.
 
-* What it is and why you should care about it
-* Advantages to using
-  * Allows for other ways of holding the styli because you can draw with the side of the tip (think sketching with a piece of charcoal)
-  * Can cover a large area fast
-  * Can make marks wider than normally possible
-* How it affects each of the tools (comparison image or marks made normal/zoomed)
-* Pencil tool gains the ability to "shade"
-  * Overlapping doesn't work the same as a brush, is more "blocky"
-  * Placement of hard edge appears to be controllable in certain situations
-  * Discuss uses for the shading tool
-    * Great for building up tones (similar to watercolor brush but even more gradual)
-    * Gestural drawing (similar to sketching with charcoal). Flow from thin to thick lines with even more control than just varying the speed at which you draw. Feels more natural as a classically trained artist.
-    * Creating atmospheric effects like fog, smoke, rays of light
-    * Possible calligraphy/hand lettering applications for skilled individuals
+<div class="notice-warning" markdown="1">
+#### Surface Area
+Don't let **pressure** in the name fool you, it has very little affect over the marks you make. Pressing harder on the tip might have a slight effect due to the rubber deforming in shape, that's not really how Surface Pressure is meant to work.
+</div>
+
+Here's a cheat sheet I made showing how each of the tools respond to Surface Pressure.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="Surface Pressure cheat sheet">
+  <img src="http://placehold.it/640x480" alt="drawing with the tip, drawing with the edge">
+  <figcaption>Marks made with and without zooming in to show the range of Surface Pressure enhanced tools. In most cases all of the tools can now make marks thinner/wider than possible without a connected Pencil stylus.</figcaption>
+</figure>
+
+If you ask me, the marriage of hardware and software that makes up Surface Pressure is Pencil's killer feature. It has completely transformed how I interact with Paper on my iPad by allowing me to be more free and loose. What does that mean exactly? Well let me show you...
+
+### Pencil's design invites you to hold it differently
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="video showing alternate ways to hold Pencil">
+  <figcaption>Surface Pressure let's you hold in alternate ways.</figcaption>
+</figure>
+
+I like to hold Pencil as if it's a piece of charcoal and utilize it's long edge when sketching. Not only does this change the quality of pencil strokes (I'll get to that in a minute), but it also causes you to use your entire arm instead of your wrist.
+
+Sketching in this way is not only more fun but practicable. By using your entire arm you'll find that: 
+  
+  1. Drawing straight lines and ovals is much easier.
+  2. You can create sensitive lines[^sensitive-lines] at will.
+  3. Your drawings will have more movement and energy to them.
+  4. It is quicker to fill in a large area.
+
+[^sensitive-lines]: The shifting quality of weight, value, and texture of a line as related to a light source, spatial position, and weight or grounding of an object.
+
+### A new tool for shading
+
+You may have noticed in the cheat sheet above (or in your own experiments), that the sketch tool takes on new qualities with Surface Pressure. With this tool selected, the edge of Pencil's tip will make wide textured strokes that resembles those made with charcoal or graphite.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="wide sketch strokes with Pencil">
+  <img src="http://placehold.it/640x480" alt="strokes made with charoal and paper">
+  <figcaption>Strokes made using the side of Pencil's tip compared against compressed charcoal and newsprint.</figcaption>
+</figure>
+
+Wide strokes made with the pencil tool overlap differently than the ink, marker, and brush tools. These "shade" strokes have a more defined edge can can cause color banding[^banding] in tones if not smoothed out. To better illustrate what I mean here's what I consider a tone with "blocky" strokes.
+
+[^banding]: Abrupt changes between shades of the same color.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="animation showing overlapping pencil strokes">
+  <figcaption>With every overlapping pass the tones darken with noticeable edges of the stroke.</figcaption>
+</figure>
+
+<div class="notice-info" markdown="1">
+#### ProTip: Shade in Circles
+Reduce color banding by holding Pencil on its side and moving in a circular motion.
+</div>
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="animation showing circular shading">
+  <figcaption>Spread tones more evenly by overlapping them in a circular motion.</figcaption>
+</figure>
+
+If you look closely at the wide strokes of the pencil (sketch) tool, you'll notice it fades from dark to light.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="closeup of Surface Pressure pencil stroke">
+  <figcaption>Closeup of a pencil stroke. Dark edge is on the left and progressively gets lighter to the right.</figcaption>
+</figure>
+
+In my tests the placement it seems as if the placement of the darker edge is determined by the angle and direction of the stroke.
+
+1. Drawing upwards at a 90 degree angle causes the dark edge to appear on the left.
+2. Drawing downwards at a 90 degree angle causes the dark edge to appear on the right.
+3. Drawing left to right causes the dark edge to appear .
+4. Drawing right to left causes the dark edge to appear .
+
+### Practical uses
+
+  * Great for building up tones (similar to watercolor brush but even more gradual)
+  * Gestural drawing (similar to sketching with charcoal). Flow from thin to thick lines with even more control than just varying the speed at which you draw. Feels more natural as a classically trained artist.
+  * Creating atmospheric effects like fog, smoke, rays of light
+  * Possible calligraphy/hand lettering applications for skilled individuals
 
 ## Blend, the Smudge Tool
 
