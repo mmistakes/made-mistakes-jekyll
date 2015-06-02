@@ -198,6 +198,12 @@ figure {
     &:hover {
       box-shadow: 0 0 10px rgba($black, .20);
     }
+    img {
+      margin-bottom: gutter(12);
+      @include breakpoint($small) {
+        margin-bottom: inherit;
+      }
+    }
   }
   &.half {
     > a,
