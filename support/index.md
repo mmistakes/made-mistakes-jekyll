@@ -2,7 +2,7 @@
 layout: article
 title: "Sponsor and Support"
 date: 2014-06-19T09:33:51.793000-04:00
-modified: 2015-05-22T12:01:59-04:00
+modified: 2015-06-02T12:52:52-04:00
 excerpt: "Found something I created useful or enjoyable or want me to take a look at your product or app? Here's how."
 image:
   feature: support-feature.jpg
@@ -26,7 +26,7 @@ I post once or twice a day --- you don't have to worry about me barfing out a st
 
 ## Send a Donation
 
-I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. So if you'd like to send donations my way so I can continue to provide free content and themes feel free to do so by hitting one of the buttons below. If something like [**Square Cash**](https://square.com/cash) is more of your thing you can send monies to <michael@mademistakes.com> as well.
+I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. So if you'd like to send donations my way so I can continue to provide free content and themes, hit one of the buttons below. If something like [**Square Cash**](https://square.com/cash) is more of your thing you can send monies to <michael@mademistakes.com> as well.
 
 <p markdown="0">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4" onclick="ga('send', 'event', 'link', 'click', 'Send Cash');" class="btn"><i class="fa fa-paypal"></i>Send PayPal Money</a>
@@ -44,4 +44,4 @@ If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&crea
 
 ## Sponsorships
 
-If you have a product, service, or application that you'd like me to take a look at feel free to [reach out to me]({{ site.url }}/about/). I'm open to writing about it if I think it will provide value to my readers and fits in with the other iPad art, design, and web development content I typically publish.
+If you have a product, service, or application that you'd like me to take a look at feel free to [reach out]({{ site.url }}/about/). I'm open to writing about it if I think there's value for my readers or fits in with the other iPad art, design, and web development content I typically publish.
