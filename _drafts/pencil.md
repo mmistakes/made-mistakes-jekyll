@@ -155,7 +155,48 @@ In my tests the placement it seems as if the placement of the darker edge is det
 3. Drawing left to right causes the dark edge to appear .
 4. Drawing right to left causes the dark edge to appear .
 
-### Practical uses
+### What's Surface Pressure good for?
+
+Now that you know what Surface Pressure is and roughly how it works. I thought it would be useful to show off what you can do with it.
+
+#### Gesture drawing and other warm-ups
+
+A great way to warm-up before doing any sort of serious drawing is with some quick gesture sketches. In art school we'd start each class capturing a model's movement with charcoal or conté crayons as they cycled through 2 minute poses.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="charcoal on newsprint gesture drawings">
+  <figcaption>Examples of gesture drawings in charcoal on newsprint paper.</figcaption>
+</figure>
+
+What's great about Pencil and Surface Pressure is you can pretty much get the same result as a stick of charcoal on newsprint paper. Even better is you're left with none of the mess on your fingers and hands.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="Surface Pressure gesture drawings">
+  <figcaption>Examples of gesture drawings in Paper with Pencil and Surface Pressure.</figcaption>
+</figure>
+
+To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of using the one of the many [tripod grips](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to squeeze the stylus between your thumb and forefinger.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="traditional writing grip">
+  <img src="http://placehold.it/640x480" alt="loose thumb grip">
+  <figcaption>Comparison of grip types.</figcaption>
+</figure>
+
+As you sketch and draw with this grip you'll want to focus on **pushing** and **pulling** your strokes, moving your arm and elbow. To better illustrate what I mean here's a slow-motion video of it in action.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="slow motion video of gesture drawing">
+  <figcaption>Gesture drawing using Surface Pressure.</figcaption>
+</figure>
+
+Another great way to help strengthen your drawing and train your brain, is by hand drawing shapes. Much in the same way the gestures above were drawn you can help condition your arm to produce accurate shapes.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="animated GIF of circle drawing">
+  <img src="http://placehold.it/640x480" alt="shape drawing practice sheet">
+  <figcaption>Some other great warm-up activities to get your hand and brain working as one.</figcaption>
+</figure>
 
   * Great for building up tones (similar to watercolor brush but even more gradual)
   * Gestural drawing (similar to sketching with charcoal). Flow from thin to thick lines with even more control than just varying the speed at which you draw. Feels more natural as a classically trained artist.
