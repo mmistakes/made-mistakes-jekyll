@@ -148,12 +148,12 @@ If you look closely at the wide strokes of the pencil (sketch) tool, you'll noti
   <figcaption>Closeup of a pencil stroke. Dark edge is on the left and progressively gets lighter to the right.</figcaption>
 </figure>
 
-In my tests the placement it seems as if the placement of the darker edge is determined by the angle and direction of the stroke.
+In my tests the placement it seems as if the placement of the darker edge is determined by the angle of your stroke. Dark points up and light points down. I've yet to find a way to reverse that, so it's worth keeping that fact in the back of your mind when making horizontal strokes.
 
-1. Drawing upwards at a 90 degree angle causes the dark edge to appear on the left.
-2. Drawing downwards at a 90 degree angle causes the dark edge to appear on the right.
-3. Drawing left to right causes the dark edge to appear .
-4. Drawing right to left causes the dark edge to appear .
+<figure>
+  <img src="http://placehold.it/640x480" alt="show shade strokes and placement of dark and light">
+  <figcaption>Dark points up, light points down.</figcaption>
+</figure>
 
 ### What's Surface Pressure good for?
 
@@ -175,31 +175,54 @@ What's great about Pencil and Surface Pressure is you can pretty much get the sa
   <figcaption>Examples of gesture drawings in Paper with Pencil and Surface Pressure.</figcaption>
 </figure>
 
-To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of using the one of the many [tripod grips](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to squeeze the stylus between your thumb and forefinger.
+To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of using the one of the many [tripod grips](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to wrap your fingers around Pencil and rest your thumb just below the tip.
 
 <figure class="half">
   <img src="http://placehold.it/640x480" alt="traditional writing grip">
-  <img src="http://placehold.it/640x480" alt="loose thumb grip">
+  <img src="http://placehold.it/640x480" alt="palm grip">
   <figcaption>Comparison of grip types.</figcaption>
 </figure>
 
-As you sketch and draw with this grip you'll want to focus on **pushing** and **pulling** your strokes, moving your arm and elbow. To better illustrate what I mean here's a slow-motion video of it in action.
+As you sketch and draw with what I call the *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving as you draw --- if you're only using just your wrist it won't be as effective. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="slow motion video of gesture drawing">
-  <figcaption>Gesture drawing using Surface Pressure.</figcaption>
+  <figcaption>Gesture drawing using Pencil held in the palm grip.</figcaption>
 </figure>
 
-Another great way to help strengthen your drawing and train your brain, is by hand drawing shapes. Much in the same way the gestures above were drawn you can help condition your arm to produce accurate shapes.
+Another great way to loosen up your arm and hand is to draw ovals over and over again. Focus on moving your entire wrist in loose circular motions and try to avoid stiff wrist movements. 
 
-<figure>
+<figure class="half">
   <img src="http://placehold.it/640x480" alt="animated GIF of circle drawing">
   <img src="http://placehold.it/640x480" alt="shape drawing practice sheet">
-  <figcaption>Some other great warm-up activities to get your hand and brain working as one.</figcaption>
+  <figcaption>If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps nail accurate and crisp lines without having to constantly erase or Rewind bad contours.</figcaption>
 </figure>
 
-  * Great for building up tones (similar to watercolor brush but even more gradual)
-  * Gestural drawing (similar to sketching with charcoal). Flow from thin to thick lines with even more control than just varying the speed at which you draw. Feels more natural as a classically trained artist.
+#### Shading and tone building
+
+Much of the same layering principles used when glazing with the watercolor brush can be applied to Surface Pressure armed pencil. If you're new to Paper and missed those techniques are need a brush up, I demonstrate them in [Mastering Paper: Back to Basics]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques).
+
+Surface Pressure enabled shading does most of the hard work by automatically leaving marks that fade into the canvas. If you've had trouble painting smoothly with the watercolor brush or softening the edges, give the pencil tool a try --- it's way more forgiving.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="zoomed in shading">
+  <figcaption>Gesture drawing using Pencil held in the palm grip.</figcaption>
+</figure>
+
+Remember, each pass with the side of Pencil's tip leaves a noticeable stroke edge --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="video of face shading with Pencil">
+  <figcaption>By curving my strokes to match the dips around the nose it helps the form appear more three-dimensional.</figcaption>
+</figure>
+
+<div class="notice-info" markdown="1">
+#### ProTip: Zoom In
+For even more granularity over how fast a shade darkens, zoom in! You can get a few more levels of variation with each stroke to help make a more nuanced gradation.
+</div>
+
+#### Creating atmospheric effects
+
   * Creating atmospheric effects like fog, smoke, rays of light
   * Possible calligraphy/hand lettering applications for skilled individuals
 
