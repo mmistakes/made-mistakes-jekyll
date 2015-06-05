@@ -63,10 +63,10 @@
     overflow: hidden;
     transition: 0.2s ease-out;
     &:hover {
-      background-color: rgba($black, 0.4);
-      box-shadow: 0 0 10px rgba($black, .20);
+      background-color: rgba($black, 0.5);
+      box-shadow: 0 0 10px rgba($black, 0.20);
       .tile-info {
-        padding-left: 1.25em;
+        transform: translate(0.5em);
       }
     }
   }
@@ -87,6 +87,7 @@
     font-family: $alt-font;
     @include font-size(14, no);
     color: $white;
+    text-shadow: 1px 1px 0 $black;
   }
 
   .tile-title {
@@ -95,6 +96,7 @@
     font-weight: 500;
     margin-top: 0;
     color: $white;
+    text-shadow: 1px 1px 0 $black;
     a {
       text-decoration: none;
       color: $white;
