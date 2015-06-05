@@ -223,25 +223,106 @@ For even more granularity over how fast a shade darkens, zoom in! You can get a 
 
 #### Creating atmospheric effects
 
-  * Creating atmospheric effects like fog, smoke, rays of light
-  * Possible calligraphy/hand lettering applications for skilled individuals
+Creating atmospheric effects like fog, smoke, rays of light. Draw some sketches then write quick how-to.
 
 ## Blend, the Smudge Tool
 
-* What it is and why you should care about it
-* How Blend behaves in Paper
-  * Speed and how it affects what you are smudging
-* Pencil Settings
-  * What you can learn about your Pencil by checking the settings and how to modify how your finger behaves (blend, draw, nothing)
-  * Useful to deactivate Blend if you find yourself triggering it when not needed
-* Blend effects and techniques. When used sparingly Blend can take your sketches to the next level.
-  * Simulate "bokeh" effect found in photography to increase depth of field
-  * Create reflections (show mountain/water reflection sketch process)
-  * Underwater scene
-  * Flames, fire, and candles
-  * Smoke, clouds, and fog
-  * Simulate atmospheric perspective (blurring/fading the further back you travel)
-  * Glowing balls of light (solar and lens flares, the light around a lamp, etc.)
-  * Outerspace scenes (galaxies, star trails, etc). Link to **Outerspace tutorial** for detail examples and how to videos
-* Improving on your Blends
-  * Overdoing the blur effect can kill a drawing fast and end up looking amateurish. Use watercolor washes on top of a smudge to give it more of a rough feel and lessen the over-airbrushed look.
+As you might have guessed from the above heading, Blend lets you smudge stuff. Sadly this feature is only available to Paper when Pencil is connected, so you'll want to [pick one up](http://www.fiftythree.com/pencil "Buy Pencil by FiftyThree"). Trust me it's totally worth it!
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="finger blending stuff in Paper">
+  <figcaption>Pushing pixels with your finger feels fantastic.</figcaption>
+</figure>
+
+### How does Blending work in Paper?
+
+It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") at which you move.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="video showing various types of blends">
+  <figcaption>Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them.</figcaption>
+</figure>
+
+### How does Blending work in other apps?
+
+Apps that support FiftyThree's SDK (like Procreate) get some special abilities when connecting Pencil to them. In Procreate for example, your finger will activate the Smudge tool so you can freely switch between it and the Paint tool.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="video connecting Pencil to Procreate and using Smudge">
+  <figcaption>Quickly switch between painting and smudging with Pencil and Procreate.</figcaption>
+</figure>
+
+<div class="notice-info" markdown="1">
+#### ProTip: Pencil's Eraser in Procreate
+And just like with Paper, Pencil's eraser will you guessed it... erase in Procreate as well. The current Erase tool settings will be used whenever you flip Pencil on it's top to erase mistakes.
+</div>
+
+### Paper and Blend settings
+
+In case you skimmed through the beginning part of this article where I covered Pencil's settings panel in Paper, here's the important part.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="screenshot of Blend settings only">
+  <figcaption>Draw/Blend/Nothing</figcaption>
+</figure>
+
+Usually Paper is good about distinguishing between the tip of Pencil and your finger to avoid unwanted blends. But if you have a lighter touch when drawing you might find that you trigger it more than you'd like. In this case I suggest flipping to the **Blend** option only when you need it.
+
+### What's Blend good for?
+
+When used in moderation smudging and blurring your drawings can take them to the next level. If you thought Surface Pressure was cool just wait till you see what's possible with Blend.
+
+#### Depth of field and "bokeh" effects
+
+Simulate "bokeh" effect found in photography to increase depth of field
+
+#### Reflections
+
+Create reflections (show mountain/water reflection sketch process)
+
+#### Underwater and dreamy scenes
+
+Underwater scene of girl with flowing hair and scuba diver dude.
+
+#### Simulate fire and flames
+
+#### Clouds, smoke, and fog
+
+Improve on previous cloud making tutorial by blending and shaping them.
+
+#### Simulate atmospheric perspective
+
+Much easier to blurring/fading a landscape or background instead of being meticulous with your color choices (gray/blue further back you go).
+
+#### Lighting effects
+
+Glowing balls of light (solar and lens flares, the light around a lamp, etc.)
+
+#### Outer space scenes
+
+Outer space scenes (galaxies, star trails, etc). Link to **outer space tutorial** for detail examples and how to videos
+
+### How to improve your blending
+
+Now that you've seen what's possible by smudging and bluring with Pencil and Paper let me offer one bit of advice --- Don't overdo it! A little blend can go a long way and avoid turning your drawings into *amateur hour*.
+
+Even if you don't purposely over blur a part of your drawing there's a few ways to recover.
+
+#### Zoom
+
+You'd think zooming in you might have greater control over the intensity of a smudge. I find that not to be true, and by not zooming in you actually can achieve much subtler blurs.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="video of quick blending bursts">
+  <figcaption>By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.</figcaption>
+</figure>
+
+#### Paint over a blend
+
+A nice way to recover from over worked blends is by applying layers of watercolor on top. This helps roughen things up some and bring some texture downplaying the *airbrush* look. Some well placed pencil strokes or shades can also have the same effect. It really depends on the feeling you're going for.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="watercolor glazed over a blend">
+  <img src="http://placehold.it/640x480" alt="Surface Pressure shading over a blend">
+  <figcaption>Bring some life back to aggressive blurs.</figcaption>
+</figure>
