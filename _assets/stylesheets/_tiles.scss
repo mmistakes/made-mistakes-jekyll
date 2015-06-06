@@ -63,7 +63,7 @@
     overflow: hidden;
     transition: 0.2s ease-out;
     &:hover {
-      background-color: rgba($black, 0.5);
+      background-color: rgba($black, 0.4);
       box-shadow: 0 0 10px rgba($black, 0.20);
       .tile-info {
         transform: translate(0.5em);
