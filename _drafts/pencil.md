@@ -200,7 +200,7 @@ Another great way to loosen up your arm and hand is to draw ovals over and over 
 
 #### Shading and tone building
 
-Much of the same layering principles used when glazing with the watercolor brush can be applied to Surface Pressure armed pencil. If you're new to Paper and missed those techniques are need a brush up, I demonstrate them in [Mastering Paper: Back to Basics]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques).
+Much of the same layering principles used when glazing with the watercolor brush can be applied to Surface Pressure armed pencil. If you're new to Paper and missed those techniques are need a brush up, I demonstrate them in [**Mastering Paper: Back to Basics**]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques).
 
 Surface Pressure enabled shading does most of the hard work by automatically leaving marks that fade into the canvas. If you've had trouble painting smoothly with the watercolor brush or softening the edges, give the pencil tool a try --- it's way more forgiving.
 
@@ -318,7 +318,52 @@ Here's a few Paper portraits I used Pencil and Blend to draw. Sometimes it's fun
 
 #### Reflections
 
-Create reflections (show mountain/water reflection sketch process)
+Ah reflections... they're so magical and easy to achieve with Blend. With a few minutes of quick drawing and a couple of swipes of your finger you can create photo realistic scenes just like these:
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="first blend mountain">
+  <img src="http://placehold.it/640x480" alt="mountain scene sunset">
+</figure>
+
+To start you'll want to use the pencil tool to mark the horizon, and sketch out your scene --- I like to use a light gray color. Then start to [paint in the sky]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}) and shape the mountains using the brush and fountain pen tools.
+
+<figure class="third">
+  <img src="http://placehold.it/640x480" alt="sketching the horizon">
+  <img src="http://placehold.it/640x480" alt="painting the sky">
+  <img src="http://placehold.it/640x480" alt="drawing mountains">
+</figure>
+
+Clouds, trees, and any other details that reside in the top half of our composition are next. If you're looking for help on foliage and other greens be sure to check out my [**Mastering Paper: Drawing Trees and Grass** tutorial]({{ site.url }}{% post_url /mastering-paper/2013-08-31-drawing-trees %}).
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="drawing trees">
+  <img src="http://placehold.it/640x480" alt="drawing more trees">
+  <figcaption>Use the pen tools filled with a dark color to build up the tree silhouettes.</figcaption>
+</figure>
+
+Spend most of your effort perfecting the top half of the scene. Once you're happy with it we're going to create its mirror image. Select the fountain pen tool and roughly draw what you see up top down below --- but flipped upside down.
+
+It doesn't have to be perfect, you just want to match the colors and general shape of each object. The most important ones being the trees.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="drawing reflections">
+  <img src="http://placehold.it/640x480" alt="even more reflections">
+  <figcaption>You should end up with something similar to this.</figcaption>
+</figure>
+
+Now the funny part. Make sure Pencil is connected and Blend flipped on in Settings, and begin smudging from the horizon line down. At first move quickly to blur and gradually start to slow down as you pull trees into the water.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="video showing how to create reflections">
+  <figcaption>Depending on the chop of the water you may want to slightly zig-zag your smudges to distort the reflected mountain and trees.</figcaption>
+</figure>
+
+To finish things off select the pencil tool to sketch in waves, foam, and other details. Feel free to redraw any trees and shoreline you may have mistakenly blended when creating the water reflections.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="detail shot of water waves">
+  <figcaption>Need more pointers for drawing and painting water? I have you covered with my <a href="{{ site.url }}{% post_url /mastering-paper/2013-09-29-drawing-water %}"><strong>Mastering Paper: Drawing Water and Waves</strong> tutorial</a>.</figcaption>
+</figure>
 
 #### Underwater and dreamy scenes
 
