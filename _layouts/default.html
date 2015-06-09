@@ -38,6 +38,25 @@
 
     {% stylesheet global %}
 
+    <!-- Defer loading of webfonts -->
+    <script>
+      ~function (document) {
+        var elem = document.createElement('link');
+        var head = document.getElementsByTagName('head')[0];
+        elem.rel = 'stylesheet';
+        elem.href = '{% asset_path fonts.css %}';
+        elem.media = 'only x';
+        head.appendChild(elem);
+        setTimeout(function () {
+          elem.media = 'all';
+        });
+      }(document);
+    </script>
+    <!-- no-js fallback -->
+    <noscript>
+      {% stylesheet fonts %}
+    </noscript>
+
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       {% javascript vendor/html5shiv %}
