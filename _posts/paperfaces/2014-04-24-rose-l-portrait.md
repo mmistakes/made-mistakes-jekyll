@@ -4,9 +4,10 @@ title: "45 degree tilt"
 excerpt: "PaperFaces portrait of a Rose L. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rose-l-lg.jpg
+  teaser: paperfaces-rose-l-teaser.jpg
   thumb: paperfaces-rose-l-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, bokeh, sktchy]
 ---
 
 PaperFaces portrait of a [Rose L.](http://sktchy.com/Bf0pYC) inspired by a photograph on Sktchy.

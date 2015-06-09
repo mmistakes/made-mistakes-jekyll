@@ -7,7 +7,7 @@ image:
   teaser: paperfaces-weheartgames-twitter-teaser.jpg
   thumb: paperfaces-weheartgames-twitter-150.jpg
 category: paperfaces
-tags: [portrait, illustration, paper by 53, blend, beard]
+tags: [portrait, illustration, paper by 53, blend, bokeh, beard]
 ---
 
 PaperFaces portrait of [@weheartgames](http://twitter.com/weheartgames).
