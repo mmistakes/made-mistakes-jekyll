@@ -243,6 +243,19 @@ It's not a tool you select like the others, triggering it is way more intuitive 
   <figcaption>Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them.</figcaption>
 </figure>
 
+<div class="notice-info" markdown="1">
+#### ProTip: Blending with a Non-Pencil Stylus
+If you're looking for more control over your blends and smudges, try a capacitive stylus instead of your finger. As long as the tip of your stylus is big enough and Pencil is connected this should work. I've had success using a [Pogo Connect][pogo-stylus] and some [cheap styli][cheap-stylus] I picked up from Amazon.
+</div>
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="blending with a non-Pencil stylus">
+  <figcaption>Blending with a non-Pencil stylus instead of a finger.</figcaption>
+</figure>
+
+[pogo-stylus]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
+[cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
+
 ### How does Blending work in other apps?
 
 Apps that support FiftyThree's SDK (like Procreate) get some special abilities when connecting Pencil to them. In Procreate for example, your finger will activate the Smudge tool so you can freely switch between it and the Paint tool.
@@ -274,7 +287,34 @@ When used in moderation smudging and blurring your drawings can take them to the
 
 #### Depth of field and "bokeh" effects
 
-Simulate "bokeh" effect found in photography to increase depth of field
+When I first experimented with Pencil and blending, the first thing I did was smudge up the background of a portrait I drew of my wife. Previously I was using the watercolor brush to [dab blotches of white]({{ site.url}}{% post_url /mastering-paper/2014-10-25-erasing %}#paint-with-white-to-erase) to simulate a bokeh[^bokeh] effect.
+
+[^bokeh]: In photography, bokeh is the aesthetic quality of the blur produced in the out-of-focus parts of an image produced by a lens. [Bokeh has been defined](http://en.wikipedia.org/wiki/Bokeh "Wikipedia entry on bokeh") as "the way the lens renders out-of-focus points of light".
+
+By rubbing your finger across the background in a circular motion you can quickly drop it out-of-focus. For the portrait below I move my finger quickly across the screen since the background shapes didn't need too much blending.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="blending background of Wendy portrait">
+  <figcaption>Experiment with the speed at which you move your finger. The slower the more intense the blur...</figcaption>
+</figure>
+
+As you blend the background pay careful attention not to cut in too far into the foreground object(s). It's this contrast between sharp and blurry that will ultimately help sell the effect by creating depth in the piece.
+
+<div class="notice-info" markdown="1">
+#### ProTip: Sketch Over a Blend
+After blurring a background with the Blend tool go back over the edges of the objects still in focus. When drawing portraits I like to sketch whispy hair over a blurred background for a nice touch of realism.
+</div>
+
+##### More blurred backgrounds
+
+Here's a few Paper portraits I used Pencil and Blend to draw. Sometimes it's fun to play with what's in focus as can be seen in the second drawing where I purposely smudged the figure's hand instead of the background.
+
+<figure class="third">
+  <img src="http://placehold.it/640x480" alt="Rene D portrait">
+  <img src="http://placehold.it/640x480" alt="hjalle portrait">
+  <img src="http://placehold.it/640x480" alt="Thomas D portrait">
+  <figcaption>Check out all my <a href="{{ site.url }}/tag/bokeh/">"bokeh" PaperFaces portraits</a> where I used this effect with and without Pencil.</figcaption>
+</figure>
 
 #### Reflections
 
