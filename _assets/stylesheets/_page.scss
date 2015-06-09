@@ -61,6 +61,7 @@
       @include post(-1 of 10);
       figcaption {
         @include push(1 of 12);
+        @include post(1 of 12);
       }
     }
 
