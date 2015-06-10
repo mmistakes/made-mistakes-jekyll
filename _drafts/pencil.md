@@ -3,7 +3,7 @@ layout: article
 title: "Mastering Pencil by FiftyThree"
 modified:
 categories: mastering-paper
-excerpt:
+excerpt: "Learn how to use FiftyThree's Pencil most compelling features, Blend and Surface Pressure to pull off effects and techniques no other iPad stylus can match."
 tags: [paper by 53, pencil, tutorial, drawing, blend, ipad]
 image:
   feature:
@@ -26,7 +26,7 @@ FiftyThree's Pencil is not like other styli and pens designed for Apple's iPad t
 
 For starters Pencil allows you to switch between tools in an intuitive and natural way when working with Paper and apps that support FiftyThree's SDK[^SDK]. Bounce between drawing, erasing, and blending without ever having to tap select a new tool --- the tip draws, the eraser erases, and your finger smudges.
 
-[^SDK]: List iOS apps that work with Pencil.
+[^SDK]: iOS apps that are compatible with Pencil by FiftyThree. [Procreate](https://itunes.apple.com/us/app/procreate/id425073498?mt=8&ign-mpt=uo%3D4&at=1l3v9Qw&ct=sdk-procreate), [Noteshelf](https://itunes.apple.com/us/app/noteshelf-notes-pdf/id392188745?mt=8&at=1l3v9Qw&ct=sdk-noteshelf), Squiggle, and [Astropad](http://astropad.com/). 
 
 <figure class="third">
   <img src="http://placehold.it/640x480">
@@ -53,6 +53,19 @@ Size can be controlled by making contact with the eraser's corner (for small mis
 #### Learn Erasing and Undoing Techniques
 If you're looking for other erasing techniques that don't rely on Pencil's eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
 </div>
+
+### Palm Rejection
+
+I'm going to come right out and say it. Drawing, painting, and writing digitally on the iPad's glass surface feels really weird and isn't easy to do. Thankfully FiftyThree put a lot of engineering effort into Paper and Pencil to alleviate these issues --- specifically palm rejection.
+
+When Pencil is connected to Paper (or supporting apps), **Palm Rejection** completely transforms the drawing experience. Just watching my frustrated daughters struggle to draw on an iPad without Pencil, it becomes painfully clear how awesome this feature is when enabled.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="Everly and Chloe drawing with Pencil">
+  <figcaption>The only problem now is dealing who's turn is it next to wield Pencil.</figcaption>
+</figure>
+
+Registering touches consistently is almost impossible for them at this age. Either their small fingers are ignored by the iPad or they're resting both hands on the screen effectively negating touches. Pencil solves both of these problems without fanfare --- it just works.
 
 ## Setting up Pencil
 
@@ -316,6 +329,21 @@ Here's a few Paper portraits I used Pencil and Blend to draw. Sometimes it's fun
   <figcaption>Check out all my <a href="{{ site.url }}/tag/bokeh/">"bokeh" PaperFaces portraits</a> where I used this effect with and without Pencil.</figcaption>
 </figure>
 
+This technique of blurring the background doesn't have to be used with just portraiture. In the following example it can be used to simulate macro photography, focusing on an object and throwing the rest out of focus.
+
+The process is the same:
+
+1. Start by roughly painting or drawing the background.
+2. Evenly blend the objects you want to appear out-of-focus (in this case the entire background).
+3. Draw the "in-focus" object leaving sharp edges and adding highlights and other details to make the illusion more convincing.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="plant blend step 1">
+  <img src="http://placehold.it/640x480" alt="plant blend step 2">
+  <img src="http://placehold.it/640x480" alt="plant blend step 3">
+  <img src="http://placehold.it/640x480" alt="plant blend step 4">
+</figure>
+
 #### Reflections
 
 Ah reflections... they're so magical and easy to achieve with Blend. With a few minutes of quick drawing and a couple of swipes of your finger you can create photo realistic scenes just like these:
@@ -367,47 +395,156 @@ To finish things off select the pencil tool to sketch in waves, foam, and other 
 
 #### Underwater and dreamy scenes
 
-Underwater scene of girl with flowing hair and scuba diver dude.
+The process above for creating reflections can also be used to paint beautiful underwater scenes.
 
-#### Simulate fire and flames
+<figure class="third">
+  <img src="http://placehold.it/640x480" alt="scuba blend">
+  <img src="http://placehold.it/640x480" alt="girl underwater">
+  <img src="http://placehold.it/640x480" alt="another scuba blend">
+  <figcaption>Some examples of underwater scenes I painted with Paper by FiftyThree using Pencil and Blend.</figcaption>
+</figure>
+
+Similar to the reflections effect you'll want to determine what will be in and out of focus. In this case everything behind the scuba diver will be blurry so that's what we will paint first.
+
+Using the watercolor brush you'll want to lay down a base color and then start layering objects on top of that. Feel free to use the pencil, ink pens, or marker tools to draw the rest of the background.
+
+<figure class="third">
+  <img src="http://placehold.it/640x480" alt="scuba diver background step 1">
+  <img src="http://placehold.it/640x480" alt="scuba diver background step 2">
+  <img src="http://placehold.it/640x480" alt="scuba diver background step 3">
+  <figcaption>Don't worry about placing too many details in at this point, we're going to smudge most of them away in a minute...</figcaption>
+</figure>
+
+With our background in good shape make sure Pencil is connected and Blend enabled and start smudging away. Using a circular motion softly move your finger tip over the background to blur it.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="scuba diver blend background video">
+  <figcaption>Working from top to bottom will help you cover the background with an even blend.</figcaption>
+</figure>
+
+When done correctly the water should look almost dreamlike with a uniform blur across the entire plane. To finish, add things like fish, a diver, or plant life to the scene. If you don't blend them they will automatically look as if they're floating adding a nice sense of depth to piece.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="scuba diver step 1">
+  <img src="http://placehold.it/640x480" alt="scuba diver step 2">
+  <figcaption>By leaving the edges around the scuba diver sharp, the figure will pop-off the page as it contrasts against the soft background.</figcaption>
+</figure>
 
 #### Clouds, smoke, and fog
 
-Improve on previous cloud making tutorial by blending and shaping them.
+Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tutorial]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), a few well placed smudges can greatly improve their realism. You can also modify the type of cloud more easily depending on how you smudge.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="dark fluffy clouds blended">
+  <img src="http://placehold.it/640x480" alt="dark streaky clouds smudged">
+  <figcaption>Use quick blends for fluffy clouds and slow dragging smudges for for streaky ones.</figcaption>
+</figure>
+
+These techniques don't have to only be used to enhance clouds. They work great for softening pencil strokes, turning them into the beautiful *aurora borealis* (the Northern Lights).
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="aurora sketch">
+  <img src="http://placehold.it/640x480" alt="aurora smudged animation">
+  <figcaption>Give light trails a sense of motion by pulling your blend strokes slowly.</figcaption>
+</figure>
 
 #### Simulate atmospheric perspective
 
-Much easier to blurring/fading a landscape or background instead of being meticulous with your color choices (gray/blue further back you go).
+One way of adding depth to a landscape is by adhering to the properties of [atmospheric perspective](http://www.arthints.com/what-is-atmospheric-perspective/). Simply put --- far away objects appear more faded than those in the foreground.
+
+Now you could be meticulous with your color choices and purposely mix gray and blue as you paint to get a similar effect. But if you're anything like me you're wouldn't mind a shortcut to speed things up.
+
+In this drawing of tree tops the layers near the top are the most heavily blended. While the dark green trees at the bottom remain sharp and untouched.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="tree tops">
+  <img src="http://placehold.it/640x480" alt="tree tops blended">
+  <figcaption>Blend the plane (or object) furthest from the foreground the most and gradually decrease that amount as you move forwards.</figcaption>
+</figure>
+
+Very similar to the reflection example above, you can create a dense layer of by blending everything --- not just the reflected trees. By smudging over the drawing it effectively lowers the contrast making things appear hazy.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="fog scene step 1">
+  <img src="http://placehold.it/640x480" alt="fog scene step 2">
+  <figcaption>Start with an rough sketch filled in with either watercolor or ink. Then cover the canvas in circular blend strokes to blur everything.</figcaption>
+</figure>
+
+Once blurred subtle details can be added back in. For example more defined edges in the tree tops or small waves in the water.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="fog scene step 3 - tree details">
+  <img src="http://placehold.it/640x480" alt="fog scene step 4 - wave details">
+</figure>
 
 #### Lighting effects
 
-Glowing balls of light (solar and lens flares, the light around a lamp, etc.)
+Before Pencil and Blend were a thing you had to [get creative with white paint]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#lightening-with-white) to make lens flares and other glowing orbs of light. With a few quick swipes of your finger you can easily transform plain shapes into lightsabers, auras, lightning, and more.
+
+<figure class="third">
+  <img src="http://placehold.it/640x480" alt="glowing orb - before/after blend animation">
+  <img src="http://placehold.it/640x480" alt="lightsaber - before/after blend animation">
+  <img src="http://placehold.it/640x480" alt="lightning - before/after blend animation">
+  <figcaption>Blending shapes into glowing objects.</figcaption>
+</figure>
 
 #### Outer space scenes
 
-Outer space scenes (galaxies, star trails, etc). Link to **outer space tutorial** for detail examples and how to videos
+Galaxies far far away, stars, planets, black holes, and countless other celestial bodies can also benefit from blends and smudges. For in-depth instructions and videos be sure to check out my [**Mastering Paper: Drawing Outer Space**]({{ site.url }}{% post_url /mastering-paper/2015-01-02-drawing-outer-space %}) guide.
+
+<figure class="half">
+  <img src="http://placehold.it/640x480" alt="space scene with planets">
+  <img src="http://placehold.it/640x480" alt="space scene 2">
+</figure>
+
+The two sets of tutorials show how to smear color around a black canvas to create planets and glowing stars. And for those of you who don't own Pencil yet I walk you through how to create a similar scene with just your fingers.
+
+#### Simulate fire and flames
+
+By alternating between quick blends and slow smudges you can create some realistic looking flames and fire. It takes some practice to get the speed just right, but once mastered I think the end results speak for themselves.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="drawing and blending flames video">
+  <figcaption>Flames aren't the only thing you can smudge into existence. Smoke trails can be achieved just as easily with slow blends.</figcaption>
+</figure>
 
 ### How to improve your blending
 
-Now that you've seen what's possible by smudging and bluring with Pencil and Paper let me offer one bit of advice --- Don't overdo it! A little blend can go a long way and avoid turning your drawings into *amateur hour*.
-
-Even if you don't purposely over blur a part of your drawing there's a few ways to recover.
-
-#### Zoom
-
-You'd think zooming in you might have greater control over the intensity of a smudge. I find that not to be true, and by not zooming in you actually can achieve much subtler blurs.
+The temptation is really high to abuse the Blend feature in Paper --- especially after learning about all these awesome effects. It's easy to turn a drawing into a smeared mess resembling something you'd find on [**Photoshop Disasters**](http://www.psdisasters.com/) if don't know when to quit, a fact I learned the first time I tried to blend a face.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video of quick blending bursts">
-  <figcaption>By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.</figcaption>
+  <img src="http://placehold.it/640x480" alt="blended face disaster paperfaces/2013-12-09-dermike-portrait">
+  <figcaption>Blend got away from me here as I distorted the shape of the face too much and lost all of the texture from the original watercolor layers.</figcaption>
 </figure>
+
+Fear not, here's a few pointers to help keep your blends, blurs, and smudges in check.
 
 #### Paint over a blend
 
-A nice way to recover from over worked blends is by applying layers of watercolor on top. This helps roughen things up some and bring some texture downplaying the *airbrush* look. Some well placed pencil strokes or shades can also have the same effect. It really depends on the feeling you're going for.
+A nice way to recover from over worked blends is by [applying layers of watercolor]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#glazes "painting glazes with Paper") on top. This helps restore balance by upping the texture and downplaying the *airbrushed* look. Thoughtfully placed pencil strokes can also have the same effect with the right color selection.
 
 <figure class="half">
   <img src="http://placehold.it/640x480" alt="watercolor glazed over a blend">
   <img src="http://placehold.it/640x480" alt="Surface Pressure shading over a blend">
   <figcaption>Bring some life back to aggressive blurs.</figcaption>
 </figure>
+
+#### Feather touches
+
+Getting the intensity of a blur just right isn't always easy. To make a subtle blend you have to barely graze the iPad's screen as you quickly swipe against it. This works ok when you're covering a large area, but for small area blends it can be a real challenge.
+
+<figure>
+  <img src="http://placehold.it/640x480" alt="video of quick blending bursts">
+  <figcaption>By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.</figcaption>
+</figure>
+
+<div class="notice-warning" markdown="1">
+#### Stronger Blending with Zoom
+When opening the magnifying loupe to zoom-in the blurring effects intensifies which has its pros and cons. For subtle blurs I suggest Blending without a zoom.
+</div>
+
+---
+
+Phew --- this was a long one! I covered a ton of material so if anything is unclear or needs further explanation, please let me know.
+
+And if you create something cool with Blend feel free to share in comments below, or [ping me on Twitter](https://twitter.com/mmistakes). I'm always interested to see what the Paper community is doing with FiftyThree's excellent set of tools.
