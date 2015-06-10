@@ -86,10 +86,10 @@ a {
 
 blockquote {
   @include bleed-x(1em);
-  border-left: 6px solid $black;
+  border-left: 6px solid $highlighter-color;
   p {
     margin-left: -6px; // compensate shift from border-left on blockquote
-    ont-family: $alt-font;
+    font-family: $alt-font;
     @include font-size(24, yes, 26);
     font-style: italic;
   }
