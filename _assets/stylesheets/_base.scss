@@ -85,12 +85,20 @@ a {
 /* Quoted text */
 
 blockquote {
+  position: relative;
   @include bleed-x(1em);
-  border-left: 6px solid $highlighter-color;
+  // simulate left border without pushing content to the right
+  &:before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    width: 6px;
+    height: 100%;
+    background-color: $highlighter-color;
+  }
   p {
-    margin-left: -6px; // compensate shift from border-left on blockquote
     font-family: $alt-font;
-    @include font-size(24, yes, 26);
+    @include font-size(24, yes, 28);
     font-style: italic;
   }
   cite {
