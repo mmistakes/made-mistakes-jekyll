@@ -182,29 +182,22 @@ figure {
   @include clearfix;
   margin-left: 0;
   margin-right: 0;
-  // add appropriate between figure and caption
+  img,
+  iframe,
+  .fluid-width-video-wrapper {
+    margin-bottom: gutter(12);
+  }
   img {
     width: 100%;
-    + img {
-      margin-bottom: gutter(12);
-    }
+    transition: box-shadow 0.3s;
   }
-  // > a,
-  // > img,
-  // > iframe,
-  // .fluid-width-video-wrapper {
-  //   margin-bottom: gutter(12);
-  // }
   > a {
     display: block;
-    margin-bottom: gutter(12);
-    img {
-      margin-bottom: 0;
-    }
     // image hover animation
-    transition: box-shadow 0.3s;
     &:hover {
-      box-shadow: 0 0 10px rgba($black, .20);
+      img {
+        box-shadow: 0 0 10px rgba($black, .20);
+      }
     }
     // img {
     //   margin-bottom: gutter(12);
@@ -228,7 +221,6 @@ figure {
   &.third {
     > a,
     > img {
-      // margin-bottom: gutter(12);
       @include breakpoint($small) {
         @include gallery(4 of 12);
       }
@@ -243,7 +235,7 @@ figure {
 /* Figure captions */
 
 figcaption {
-  margin-top: gutter(12);
+  // margin-top: gutter(12);
   font-family: $caption-font;
   @include font-size(14, yes, 16);
   color: $caption-color;
