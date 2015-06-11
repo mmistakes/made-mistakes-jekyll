@@ -185,25 +185,33 @@ figure {
   // add appropriate between figure and caption
   img {
     width: 100%;
+    + img {
+      margin-bottom: gutter(12);
+    }
   }
-  > a,
-  > img,
-  > iframe,
-  .fluid-width-video-wrapper {
-    margin-bottom: gutter(12);
-  }
+  // > a,
+  // > img,
+  // > iframe,
+  // .fluid-width-video-wrapper {
+  //   margin-bottom: gutter(12);
+  // }
   > a {
+    display: block;
+    margin-bottom: gutter(12);
+    img {
+      margin-bottom: 0;
+    }
     // image hover animation
     transition: box-shadow 0.3s;
     &:hover {
       box-shadow: 0 0 10px rgba($black, .20);
     }
-    img {
-      margin-bottom: gutter(12);
-      @include breakpoint($small) {
-        margin-bottom: inherit;
-      }
-    }
+    // img {
+    //   margin-bottom: gutter(12);
+    //   @include breakpoint($small) {
+    //     margin-bottom: inherit;
+    //   }
+    // }
   }
   &.half {
     > a,
@@ -213,19 +221,21 @@ figure {
       }
     }
     figcaption {
-      clear: left;
+      float: left;
+      @include clearfix;
     }
   }
   &.third {
     > a,
     > img {
-      margin-bottom: gutter(12);
+      // margin-bottom: gutter(12);
       @include breakpoint($small) {
         @include gallery(4 of 12);
       }
     }
     figcaption {
-      clear: left;
+      float: left;
+      @include clearfix;
     }
   }
 }
