@@ -92,11 +92,6 @@ For even more information on how to setup your Pencil, change tips, or maintenan
 
 When Pencil is connected to Paper it gains enhanced control and expressiveness over the tools and with a feature FiftyThree calls **Surface Pressure**. Stroke sizes are directly related to how much or how little of the tip's surface touches the screen. This applies to both the drawing end and eraser.
 
-<div class="notice-warning" markdown="1">
-#### Surface Area
-Don't let **pressure** in the name fool you, it has very little affect over the marks you make. Pressing harder on the tip might have a slight effect due to the rubber deforming in shape, that's not really how Surface Pressure is meant to work.
-</div>
-
 Here's a cheat sheet I made showing how each of the tools respond to Surface Pressure.
 
 <figure>
@@ -157,7 +152,7 @@ If you look closely at the wide strokes of the pencil (sketch) tool, you'll noti
 
 <figure>
   <img src="{{ site.url }}/images/pencil-surface-pressure-pencil-fade-detail.jpg" alt="closeup of Surface Pressure pencil stroke">
-  <figcaption>Closeup of a pencil stroke. Dark edge is on the left and progressively gets lighter to the right.</figcaption>
+  <figcaption>Closeup of a pencil stroke. Dark edge is on the top and progressively fades down into the canvas.</figcaption>
 </figure>
 
 In my tests the placement it seems as if the placement of the darker edge is determined by the angle of your stroke. Dark points up and light points down. I've yet to find a way to reverse that, so it's worth keeping that fact in the back of your mind when making horizontal strokes.
@@ -284,7 +279,7 @@ And just like with Paper, Pencil's eraser will you guessed it... erase in Procre
 
 ### Paper and Blend settings
 
-In case you skimmed through the beginning part of this article where I covered Pencil's settings panel in Paper, here's the important part.
+In case you skimmed through the first half of this article where I covered Pencil's settings panel in Paper, here's the important part to gleam.
 
 <figure>
   <img src="{{ site.url }}/images/pencil-finger-settings.jpg" alt="screenshot of Finger settings">
@@ -314,7 +309,7 @@ As you blend the background pay careful attention not to cut in too far into the
 
 <div class="notice-info" markdown="1">
 #### ProTip: Sketch Over a Blend
-After blurring a background with the Blend tool go back over the edges of the objects still in focus. When drawing portraits I like to sketch whispy hair over a blurred background for a nice touch of realism.
+After blurring a background with the Blend tool go back over the edges of the objects still in focus. When drawing portraits I like to sketch wispy hair over a blurred background for a nice touch of realism.
 </div>
 
 ##### More blurred backgrounds
@@ -322,9 +317,9 @@ After blurring a background with the Blend tool go back over the edges of the ob
 Here's a few Paper portraits I used Pencil and Blend to draw. Sometimes it's fun to play with what's in focus as can be seen in the second drawing where I purposely smudged the figure's hand instead of the background.
 
 <figure class="third">
-  <img src="http://placehold.it/640x480" alt="Rene D portrait">
-  <img src="http://placehold.it/640x480" alt="hjalle portrait">
-  <img src="http://placehold.it/640x480" alt="Thomas D portrait">
+  <a href="{{ site.url }}/images/paperfaces-thomas-d-twitter-sq-950.jpg"><img src="{{ site.url }}/images/paperfaces-thomas-d-twitter-sq-640.jpg" alt="Thomas D. portrait"></a>
+  <a href="{{ site.url }}/images/paperfaces-hjalle-twitter-sq-950.jpg"><img src="{{ site.url }}/images/paperfaces-hjalle-twitter-sq-640.jpg" alt="hjalle portrait"></a>
+  <a href="{{ site.url }}/images/paperfaces-rene-d-twitter-sq-950.jpg"><img src="{{ site.url }}/images/paperfaces-rene-d-twitter-sq-640.jpg" alt="Rene D. portrait"></a>
   <figcaption>Check out all my <a href="{{ site.url }}/tag/bokeh/">"bokeh" PaperFaces portraits</a> where I used this effect with and without Pencil.</figcaption>
 </figure>
 
@@ -378,7 +373,7 @@ It doesn't have to be perfect, you just want to match the colors and general sha
   <figcaption>You should end up with something similar to this.</figcaption>
 </figure>
 
-Now the funny part. Make sure Pencil is connected and Blend flipped on in Settings, and begin smudging from the horizon line down. At first move quickly to blur and gradually start to slow down as you pull trees into the water.
+Now the fun part. Make sure Pencil is connected and Blend flipped on in Settings, and begin smudging from the horizon line down. At first move quickly to blur and gradually start to slow down as you pull trees into the water.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video showing how to create reflections">
@@ -492,8 +487,9 @@ Before Pencil and Blend were a thing you had to [get creative with white paint](
 Galaxies far far away, stars, planets, black holes, and countless other celestial bodies can also benefit from blends and smudges. For in-depth instructions and videos be sure to check out my [**Mastering Paper: Drawing Outer Space**]({{ site.url }}{% post_url /mastering-paper/2015-01-02-drawing-outer-space %}) guide.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="space scene with planets">
-  <img src="http://placehold.it/640x480" alt="space scene 2">
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1534984"><img src="{{ site.url }}/images/paper-53-space-2-finished-750.jpg" alt="space scene with planets"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1576095"><img src="{{ site.url }}/images/paper-53-space-3-finished-750.jpg" alt="space scene with aurora"></a>
+  <figcaption>Both of these paintings have been shared on Mix for you to play with and alter.</figcaption>
 </figure>
 
 The two sets of tutorials show how to smear color around a black canvas to create planets and glowing stars. And for those of you who don't own Pencil yet I walk you through how to create a similar scene with just your fingers.
@@ -530,7 +526,7 @@ A nice way to recover from over worked blends is by [applying layers of watercol
 
 #### Feather touches
 
-Getting the intensity of a blur just right isn't always easy. To make a subtle blend you have to barely graze the iPad's screen as you quickly swipe against it. This works ok when you're covering a large area, but for small area blends it can be a real challenge.
+Getting the intensity of a blur just right isn't always easy. To make a subtle blend you have to barely graze the iPad's screen as you quickly swipe against it. This works OK when you're covering a large area, but for small area blends it can be a real challenge.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video of quick blending bursts">
