@@ -29,10 +29,10 @@ For starters Pencil allows you to switch between tools in an intuitive and natur
 [^SDK]: iOS apps that are compatible with Pencil by FiftyThree. [Procreate](https://itunes.apple.com/us/app/procreate/id425073498?mt=8&ign-mpt=uo%3D4&at=1l3v9Qw&ct=sdk-procreate), [Noteshelf](https://itunes.apple.com/us/app/noteshelf-notes-pdf/id392188745?mt=8&at=1l3v9Qw&ct=sdk-noteshelf), Squiggle, and [Astropad](http://astropad.com/). 
 
 <figure class="third">
-  <img src="http://placehold.it/640x480">
-  <img src="http://placehold.it/640x480">
-  <img src="http://placehold.it/640x480">
-  <figcaption>Draw, erase, smudges images</figcaption>
+  <img src="http://placehold.it/640x480" alt="photo of drawing with Pencil">
+  <img src="http://placehold.it/640x480" alt="photo of erasing with Pencil">
+  <img src="http://placehold.it/640x480" alt="photo of blending with Pencil">
+  <figcaption>Draw, erase, and blend images.</figcaption>
 </figure>
 
 From day one Paper's tools have had a level of expressiveness I've yet to see matched in other iPad apps. Pencil augments them all with improved accuracy, finer controls over the strokes you make and erase, and palm rejection so you can rest your wrists on the screen.
@@ -74,12 +74,12 @@ There's not to getting started with Pencil. Upon opening the box and removing th
 To view more details about your Pencil (battery level, firmware, serial number) tap the FiftyThree logo (or your profile icon when signed into Mix) in the upper right corner. 
 
 <figure>
-  <img src="http://placehold.it/640x480">
+  <img src="{{ site.url }}/images/paper-253-pencil-settings.jpg" alt="Pencil's settings in Paper">
   <figcaption>Screenshot of Pencil's settings in Paper app.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
-#### Blend, Draw, Nothing Setting
+#### Finger Settings: Blend, Draw, Nothing
 You also have the option to toggle whether your finger **Blends**, **Draws**, or does **Nothing** when Pencil is connected to Paper. If you find Paper mistakenly smudging switching to Nothing mode is a great way to prevent that.
 </div>
 
@@ -99,9 +99,8 @@ Don't let **pressure** in the name fool you, it has very little affect over the 
 
 Here's a cheat sheet I made showing how each of the tools respond to Surface Pressure.
 
-<figure class="half">
-  <img src="http://placehold.it/640x480" alt="Surface Pressure cheat sheet">
-  <img src="http://placehold.it/640x480" alt="drawing with the tip, drawing with the edge">
+<figure>
+  <a href="{{ site.url }}/images/pencil-surface-pressure-cheat-sheet.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-cheat-sheet-900.jpg" alt="Surface Pressure cheat sheet"></a>
   <figcaption>Marks made with and without zooming in to show the range of Surface Pressure enhanced tools. In most cases all of the tools can now make marks thinner/wider than possible without a connected Pencil stylus.</figcaption>
 </figure>
 
@@ -131,8 +130,8 @@ You may have noticed in the cheat sheet above (or in your own experiments), that
 
 <figure class="half">
   <img src="http://placehold.it/640x480" alt="wide sketch strokes with Pencil">
-  <img src="http://placehold.it/640x480" alt="strokes made with charoal and paper">
-  <figcaption>Strokes made using the side of Pencil's tip compared against compressed charcoal and newsprint.</figcaption>
+  <img src="http://placehold.it/640x480" alt="strokes made with charcoal and paper">
+  <figcaption>Digital strokes made using the side of Pencil's tip compared against those made with compressed charcoal on newsprint paper.</figcaption>
 </figure>
 
 Wide strokes made with the pencil tool overlap differently than the ink, marker, and brush tools. These "shade" strokes have a more defined edge can can cause color banding[^banding] in tones if not smoothed out. To better illustrate what I mean here's what I consider a tone with "blocky" strokes.
@@ -140,7 +139,7 @@ Wide strokes made with the pencil tool overlap differently than the ink, marker,
 [^banding]: Abrupt changes between shades of the same color.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="animation showing overlapping pencil strokes">
+  <img src="{{ site.url }}/images/pencil-surface-pressure-overlap.gif" alt="animation showing overlapping wide pencil strokes">
   <figcaption>With every overlapping pass the tones darken with noticeable edges of the stroke.</figcaption>
 </figure>
 
@@ -150,21 +149,21 @@ Reduce color banding by holding Pencil on its side and moving in a circular moti
 </div>
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="animation showing circular shading">
+  <img src="http://placehold.it/640x480" alt="video showing circular shading">
   <figcaption>Spread tones more evenly by overlapping them in a circular motion.</figcaption>
 </figure>
 
 If you look closely at the wide strokes of the pencil (sketch) tool, you'll notice it fades from dark to light.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="closeup of Surface Pressure pencil stroke">
+  <img src="{{ site.url }}/images/pencil-surface-pressure-pencil-fade-detail.jpg" alt="closeup of Surface Pressure pencil stroke">
   <figcaption>Closeup of a pencil stroke. Dark edge is on the left and progressively gets lighter to the right.</figcaption>
 </figure>
 
 In my tests the placement it seems as if the placement of the darker edge is determined by the angle of your stroke. Dark points up and light points down. I've yet to find a way to reverse that, so it's worth keeping that fact in the back of your mind when making horizontal strokes.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="show shade strokes and placement of dark and light">
+  <a href="{{ site.url }}/images/pencil-surface-pressure-pencil-fade.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-pencil-fade-900.jpg" alt="Surface Pressure pencil shading angles"></a>
   <figcaption>Dark points up, light points down.</figcaption>
 </figure>
 
@@ -184,7 +183,7 @@ A great way to warm-up before doing any sort of serious drawing is with some qui
 What's great about Pencil and Surface Pressure is you can pretty much get the same result as a stick of charcoal on newsprint paper. Even better is you're left with none of the mess on your fingers and hands.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="Surface Pressure gesture drawings">
+  <a href="{{ site.url }}/images/pencil-surface-pressure-gestures.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-gestures-900.jpg" alt="Surface Pressure gesture drawings"></a>
   <figcaption>Examples of gesture drawings in Paper with Pencil and Surface Pressure.</figcaption>
 </figure>
 
@@ -207,7 +206,7 @@ Another great way to loosen up your arm and hand is to draw ovals over and over 
 
 <figure class="half">
   <img src="http://placehold.it/640x480" alt="animated GIF of circle drawing">
-  <img src="http://placehold.it/640x480" alt="shape drawing practice sheet">
+  <img src="http://placehold.it/640x480" alt="animated GIF of many ovals">
   <figcaption>If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps nail accurate and crisp lines without having to constantly erase or Rewind bad contours.</figcaption>
 </figure>
 
@@ -218,15 +217,15 @@ Much of the same layering principles used when glazing with the watercolor brush
 Surface Pressure enabled shading does most of the hard work by automatically leaving marks that fade into the canvas. If you've had trouble painting smoothly with the watercolor brush or softening the edges, give the pencil tool a try --- it's way more forgiving.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="zoomed in shading">
-  <figcaption>Gesture drawing using Pencil held in the palm grip.</figcaption>
+  <img src="{{ site.url }}/images/pencil-surface-pressure-tones.jpg" alt="Surface Pressure pencil gradients">
+  <figcaption>Create smooth transitions by overlapping colors when drawing with the side of Pencil's tip.</figcaption>
 </figure>
 
 Remember, each pass with the side of Pencil's tip leaves a noticeable stroke edge --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video of face shading with Pencil">
-  <figcaption>By curving my strokes to match the dips around the nose it helps the form appear more three-dimensional.</figcaption>
+  <img src="http://placehold.it/640x480" alt="video drawing a tomato in gray and color">
+  <figcaption>By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
@@ -288,8 +287,8 @@ And just like with Paper, Pencil's eraser will you guessed it... erase in Procre
 In case you skimmed through the beginning part of this article where I covered Pencil's settings panel in Paper, here's the important part.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="screenshot of Blend settings only">
-  <figcaption>Draw/Blend/Nothing</figcaption>
+  <img src="{{ site.url }}/images/pencil-finger-settings.jpg" alt="screenshot of Finger settings">
+  <figcaption>Blend/Draw/Nothing</figcaption>
 </figure>
 
 Usually Paper is good about distinguishing between the tip of Pencil and your finger to avoid unwanted blends. But if you have a lighter touch when drawing you might find that you trigger it more than you'd like. In this case I suggest flipping to the **Blend** option only when you need it.
