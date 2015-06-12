@@ -11,67 +11,82 @@ image:
 comments: true
 ---
 
-Not convinced you need FiftyThree's Pencil stylus in your life? Or maybe you just want to level-up your skills and learn some new techniques and ways of using it. This guide will familiarize you with Pencil, its features, and the steps necessary to reproduce effects exclusive to the device.
+Not convinced you need *FiftyThree's Pencil stylus* in your life? Or maybe you just want to level-up your skills and learn new techniques and ways of using it. This guide will familiarize you with Pencil and how to create a host of effects using Surface Pressure and Blend.
 
 <div class="notice-info" markdown="1">
 #### [FiftyThree Pencil Review](({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}))
-Apart from the addition of Surface Pressure, little has changed with Pencil since I [first paired it to Paper]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}) over a year ago. It still feels great to use, still has an insane battery life, still enables the blend tool, and still lets you rest your wrists on the screen without messing up your drawing.
+Apart from the addition of **Surface Pressure**, little has changed since I [first paired Pencil to Paper]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}) over a year ago. It still feels great to use, still has an insanely long battery life, still enables blending, and still lets you rest your wrists on the screen without messing up your drawing.
 </div>
 
 {% include toc.html %}
 
 ## What makes Pencil so unique and special?
 
-FiftyThree's Pencil is not like other styli and pens designed for Apple's iPad tablet. The unique shape and meticulous crafted finishes (Walnut, Graphite, and Gold) are the obvious differences, but I think it's the unseen qualities of the instrument that truly sets it apart.
+Pencil by FiftyThree is not like other styli and pens designed to work with Apple's iPad tablet. The unique shape and meticulously crafted finishes (*Walnut*, *Graphite*, and *Gold*) are the obvious differentiators, but it's the experiential qualities that truly sets it apart from the rest.
 
-For starters Pencil allows you to switch between tools in an intuitive and natural way when working with Paper and apps that support FiftyThree's SDK[^SDK]. Bounce between drawing, erasing, and blending without ever having to tap select a new tool --- the tip draws, the eraser erases, and your finger smudges.
+![iPad styli](http://placehold.it/900x300)
 
-[^SDK]: iOS apps that are compatible with Pencil by FiftyThree. [Procreate](https://itunes.apple.com/us/app/procreate/id425073498?mt=8&ign-mpt=uo%3D4&at=1l3v9Qw&ct=sdk-procreate), [Noteshelf](https://itunes.apple.com/us/app/noteshelf-notes-pdf/id392188745?mt=8&at=1l3v9Qw&ct=sdk-noteshelf), Squiggle, and [Astropad](http://astropad.com/). 
+For the uninitiated, Pencil allows you to switch between tools in an intuitive and natural way when working with Paper (and [apps that support FiftyThree's SDK](http://www.fiftythree.com/pencil-ready "Pencil ready iOS apps")). Bounce between drawing, erasing, and blending without ever having to "switch tools" --- the tip draws, the eraser erases, and your finger smudges.
 
 <figure class="third">
   <img src="http://placehold.it/640x480" alt="photo of drawing with Pencil">
   <img src="http://placehold.it/640x480" alt="photo of erasing with Pencil">
   <img src="http://placehold.it/640x480" alt="photo of blending with Pencil">
-  <figcaption>Draw, erase, and blend images.</figcaption>
+  <figcaption>Switching between modes of working is a breeze with Pencil.</figcaption>
 </figure>
 
-From day one Paper's tools have had a level of expressiveness I've yet to see matched in other iPad apps. Pencil augments them all with improved accuracy, finer controls over the strokes you make and erase, and palm rejection so you can rest your wrists on the screen.
+Paper's tools have a level of expressiveness that I've yet to see matched by other iPad apps. Pencil augments each of them with improved accuracy, finer controls, and a sort of intelligence that reduces unwanted marks --- allowing you to rest your wrists on the screen as you work.
 
 ### A different kind of tip
 
-Pencil's wedge shaped tip is covered in a rubbery material like so many other iPad styli, but unlike these "dumb" capacitive relatives, Pencil's is much smarter. Using a combination of hardware + software wizardry, your strokes become more expressive depending on how you move, align, and touch the tip to the iPad's screen.
+Pencil's wedge shaped tip is covered in a rubbery material like many other iPad styli, but unlike these "dumb" capacitive siblings, Pencil's is much smarter. Using a combination of hardware + software wizardry, strokes become more expressive depending on their *speed*, *direction*, and *alignment* to the iPad's screen.
 
-Thin lines are made with the tip's point with wider ones made with the full side of the tip. No other stylus I know of has this ability, making Pencil feel less like a digital tool and more like a real piece of charcoal or graphite (without the mess of course). Oh, and the [tip is user replaceable](http://www.amazon.com/gp/product/B00MM4KD4U/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MM4KD4U&linkCode=as2&tag=mademist-20&linkId=SIDCNA73WKOEKRHM) too.
+![Pencil tip disassembled](http://placehold.it/900x400)
+
+Thin lines are made with Pencil's fine point while wider ones are made with the long side of the tip. No other stylus I know of has this ability, making Pencil feel less like a digital tool and more like a real piece of charcoal or graphite (without the mess of course). Oh, and in case you were wondering, the [tip is user replaceable](http://www.amazon.com/gp/product/B00MM4KD4U/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MM4KD4U&linkCode=as2&tag=mademist-20&linkId=SIDCNA73WKOEKRHM) too.
 
 ### A built-in eraser
 
 What would a pencil be without an eraser? Well FiftyThree's Pencil has one of those too. When you want to erase something you just flip Pencil on its head and glide the rubbery top over the mistake.
 
-Size can be controlled by making contact with the eraser's corner (for small mistakes) or the entire width to remove a larger area. Just like the tip the eraser is replaceable, though I've never had a need to replace mine yet.
+![Pencil's eraser and replacement](http://placehold.it/900x400)
+
+Size can be controlled by making contact with the eraser's corner (for small mistakes) or the entire width to remove a larger area. Just like the tip the eraser is replaceable, though I haven't needed to replace mine yet.
 
 <div class="notice-info" markdown="1">
-#### Learn Erasing and Undoing Techniques
-If you're looking for other erasing techniques that don't rely on Pencil's eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
+#### Erasing and Undoing
+If you're looking for other erasing techniques that don't rely on Pencil's hardware eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
 </div>
 
 ### Palm Rejection
 
-I'm going to come right out and say it. Drawing, painting, and writing digitally on the iPad's glass surface feels really weird and isn't easy to do. Thankfully FiftyThree put a lot of engineering effort into Paper and Pencil to alleviate these issues --- specifically palm rejection.
+I'm going to come right out and say it. 
 
-When Pencil is connected to Paper (or supporting apps), **Palm Rejection** completely transforms the drawing experience. Just watching my frustrated daughters struggle to draw on an iPad without Pencil, it becomes painfully clear how awesome this feature is when enabled.
+> Drawing, painting, and writing digitally on the iPad's glass surface feels really weird.
+
+Thankfully FiftyThree put the engineering effort into Paper and Pencil to alleviate these issues --- specifically related to palm rejection.
+
+When Pencil is connected to Paper (or [supporting apps](http://www.fiftythree.com/pencil-ready)), **Palm Rejection** completely transforms the drawing experience making it more accessible. Just watching my easily frustrated daughters struggle to draw on an iPad sans Pencil, it becomes painfully clear how awesome this feature is when enabled.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="Everly and Chloe drawing with Pencil">
-  <figcaption>The only problem now is dealing who's turn is it next to wield Pencil.</figcaption>
+  <figcaption>Now if the twins could only learn how to share iPad and Pencil...</figcaption>
 </figure>
 
-Registering touches consistently is almost impossible for them at this age. Either their small fingers are ignored by the iPad or they're resting both hands on the screen effectively negating touches. Pencil solves both of these problems without fanfare --- it just works.
+Registering touches consistently is almost impossible for the twins at this age. 
+
+1. The iPad is easily confused by touches made by resting wrists and palms on the screen.
+2. Their small fingers are often ignored by the iPad's sensors.
+
+Pencil solves both of these problems without fanfare or setup --- **Palm Rejection** just works.
 
 ## Setting up Pencil
 
-There's not to getting started with Pencil. Upon opening the box and removing the plastic wrap you'll want to pinch the tip and pull to charge the battery. In about 90 minutes you'll be good to connect it with Paper (or one the many supported apps) by pressing the tip to the pairing spot.
+There's not much you need to do before using Pencil. Upon opening the box and removing the plastic wrap you'll want to slide out the tip to charge the battery via USB. In about 90 minutes you'll be good to connect it with Paper (or any Pencil ready app) by pressing the tip to the pairing spot.
 
-To view more details about your Pencil (battery level, firmware, serial number) tap the FiftyThree logo (or your profile icon when signed into Mix) in the upper right corner. 
+![Kiss to Pair in action](http://placehold.it/900x480)
+
+To view more details about your Pencil (*battery level*, *firmware*, *serial number*) tap the FiftyThree logo (or your profile icon when signed into Mix) located in the upper right corner. 
 
 <figure>
   <img src="{{ site.url }}/images/paper-253-pencil-settings.jpg" alt="Pencil's settings in Paper">
@@ -80,44 +95,44 @@ To view more details about your Pencil (battery level, firmware, serial number) 
 
 <div class="notice-info" markdown="1">
 #### Finger Settings: Blend, Draw, Nothing
-You also have the option to toggle whether your finger **Blends**, **Draws**, or does **Nothing** when Pencil is connected to Paper. If you find Paper mistakenly smudging switching to Nothing mode is a great way to prevent that.
+You also have the option to toggle whether your finger **Blends**, **Draws**, or does **Nothing** when Pencil is connected to Paper. If you find Paper mistakenly smudging as you draw, switching to Nothing is a great way to prevent that.
 </div>
 
-For even more information on how to setup your Pencil, change tips, or maintenance like updating the firmware I suggest you check our [FiftyThree's Support pages](http://support.fiftythree.com/customer/portal/topics/589142-pencil/articles). It's where I learned about this little fix after I noticed some erratic behavior in the app.
+For even more information on how to setup or troubleshoot Pencil, change tips, and performing maintenance like updating the firmware, check out [FiftyThree's Support pages](http://support.fiftythree.com/customer/portal/topics/589142-pencil/articles). It's where I first learned about this little fix:
 
 > If you have Multitasking Gestures or Accessibility Zoom enabled, this will prevent Pencil from operating effectively. Turn off Multitasking Gestures in your iPad Settings, under **General**. Turn off **Accessibility Zoom** under *General / Accessibility*.
 > <p><cite><a href="http://support.fiftythree.com/">support.fiftythree.com</a></cite></p>
 
 ## Surface Pressure, what's that?
 
-When Pencil is connected to Paper it gains enhanced control and expressiveness over the tools and with a feature FiftyThree calls **Surface Pressure**. Stroke sizes are directly related to how much or how little of the tip's surface touches the screen. This applies to both the drawing end and eraser.
+When Pencil is connected to Paper it gains enhanced control and expressiveness over the tools with a feature FiftyThree calls **Surface Pressure**. Stroke sizes become directly related to how much or how little either of Pencil's tips touch the screen.
 
-Here's a cheat sheet I made showing how each of the tools respond to Surface Pressure.
+Curious on the range you can achieve with Surface Pressure enhanced tools?
 
 <figure>
   <a href="{{ site.url }}/images/pencil-surface-pressure-cheat-sheet.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-cheat-sheet-900.jpg" alt="Surface Pressure cheat sheet"></a>
-  <figcaption>Marks made with and without zooming in to show the range of Surface Pressure enhanced tools. In most cases all of the tools can now make marks thinner/wider than possible without a connected Pencil stylus.</figcaption>
+  <figcaption>Marks made with each tool: using just the tip, the side of the tip, the tip while zoomed in, and finally the side of the tip while zoomed in.</figcaption>
 </figure>
 
-If you ask me, the marriage of hardware and software that makes up Surface Pressure is Pencil's killer feature. It has completely transformed how I interact with Paper on my iPad by allowing me to be more free and loose. What does that mean exactly? Well let me show you...
+If you ask me, the marriage of hardware and software that makes Surface Pressure work is Pencil's killer feature. It has completely transformed how I interact with Paper on my iPad by allowing me to be more free and loose. What does that mean exactly? Well let me show you...
 
-### Pencil's design invites you to hold it differently
+### By design Pencil's invites you to hold it differently
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video showing alternate ways to hold Pencil">
-  <figcaption>Surface Pressure let's you hold in alternate ways.</figcaption>
+  <figcaption>To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
 </figure>
 
-I like to hold Pencil as if it's a piece of charcoal and utilize it's long edge when sketching. Not only does this change the quality of pencil strokes (I'll get to that in a minute), but it also causes you to use your entire arm instead of your wrist.
+I like to hold Pencil as if it's a piece of charcoal and utilize it's long edge when quickly sketching. Not only does this change the characteristics of pencil strokes (I'll get to that in a minute), but it also encourages you to use your entire arm instead of just the wrist.
 
-Sketching in this way is not only more fun but practicable. By using your entire arm you'll find that: 
+Sketching in this way is not only more fun serves a practical reason as well. By moving your entire arm you'll find that: 
   
-  1. Drawing straight lines and ovals is much easier.
+  1. Drawing straight lines and ovals becomes much easier.
   2. You can create sensitive lines[^sensitive-lines] at will.
   3. Your drawings will have more movement and energy to them.
-  4. It is quicker to fill in a large area.
+  4. It becomes quicker to fill in large areas of space.
 
-[^sensitive-lines]: The shifting quality of weight, value, and texture of a line as related to a light source, spatial position, and weight or grounding of an object.
+[^sensitive-lines]: The shifting quality of *weight*, *value*, and *texture* of a line as related to a light source, spatial position, and mass of an object.
 
 ### A new tool for shading
 
@@ -129,13 +144,13 @@ You may have noticed in the cheat sheet above (or in your own experiments), that
   <figcaption>Digital strokes made using the side of Pencil's tip compared against those made with compressed charcoal on newsprint paper.</figcaption>
 </figure>
 
-Wide strokes made with the pencil tool overlap differently than the ink, marker, and brush tools. These "shade" strokes have a more defined edge can can cause color banding[^banding] in tones if not smoothed out. To better illustrate what I mean here's what I consider a tone with "blocky" strokes.
+Wide strokes made with the pencil tool overlap differently than the ink, marker, and brush tools. These "shade" strokes have a more defined edge can can cause color banding[^banding] in tones if not smoothed out. To better illustrate this concept here's what I consider a tone with "blocky" strokes.
 
 [^banding]: Abrupt changes between shades of the same color.
 
 <figure>
   <img src="{{ site.url }}/images/pencil-surface-pressure-overlap.gif" alt="animation showing overlapping wide pencil strokes">
-  <figcaption>With every overlapping pass the tones darken with noticeable edges of the stroke.</figcaption>
+  <figcaption>With every overlapping pass the tones darken with noticeable edges between the strokes.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
@@ -155,7 +170,7 @@ If you look closely at the wide strokes of the pencil (sketch) tool, you'll noti
   <figcaption>Closeup of a pencil stroke. Dark edge is on the top and progressively fades down into the canvas.</figcaption>
 </figure>
 
-In my tests the placement it seems as if the placement of the darker edge is determined by the angle of your stroke. Dark points up and light points down. I've yet to find a way to reverse that, so it's worth keeping that fact in the back of your mind when making horizontal strokes.
+In my tests, it seems as if the placement of the darker edge is determined by the angle of the stroke. Dark points up and light points down. I've yet to find a way to reverse that, so it's worth keeping that fact in the back of your mind when making horizontal strokes.
 
 <figure>
   <a href="{{ site.url }}/images/pencil-surface-pressure-pencil-fade.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-pencil-fade-900.jpg" alt="Surface Pressure pencil shading angles"></a>
@@ -164,30 +179,30 @@ In my tests the placement it seems as if the placement of the darker edge is det
 
 ### What's Surface Pressure good for?
 
-Now that you know what Surface Pressure is and roughly how it works. I thought it would be useful to show off what you can do with it.
+Now that you know what Surface Pressure is and roughly how it works. I thought it would be useful to show off what you can do with it in Paper by FifyThree.
 
 #### Gesture drawing and other warm-ups
 
-A great way to warm-up before doing any sort of serious drawing is with some quick gesture sketches. In art school we'd start each class capturing a model's movement with charcoal or conté crayons as they cycled through 2 minute poses.
+A great way to warm-up before doing any sort of serious drawing is with quick gesture sketches. In art school we'd start each class capturing a model's movement with a series of 2 minute poses with charcoal and conté crayons.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="charcoal on newsprint gesture drawings">
   <figcaption>Examples of gesture drawings in charcoal on newsprint paper.</figcaption>
 </figure>
 
-What's great about Pencil and Surface Pressure is you can pretty much get the same result as a stick of charcoal on newsprint paper. Even better is you're left with none of the mess on your fingers and hands.
+With the pencil tool in Paper and Surface Pressure you can get the same result as a stick of charcoal rubbed on newsprint. Even better, you avoid any of the mess typically associated with it when working digitally.
 
 <figure>
   <a href="{{ site.url }}/images/pencil-surface-pressure-gestures.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-gestures-900.jpg" alt="Surface Pressure gesture drawings"></a>
   <figcaption>Examples of gesture drawings in Paper with Pencil and Surface Pressure.</figcaption>
 </figure>
 
-To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of using the one of the many [tripod grips](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to wrap your fingers around Pencil and rest your thumb just below the tip.
+To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of a [tripod grip](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to wrap your fingers around Pencil and rest your thumb just below the tip.
 
 <figure class="half">
   <img src="http://placehold.it/640x480" alt="traditional writing grip">
   <img src="http://placehold.it/640x480" alt="palm grip">
-  <figcaption>Comparison of grip types.</figcaption>
+  <figcaption>Tripod grip on the left (good for writing), palm grip on the right (good for gesture drawing).</figcaption>
 </figure>
 
 As you sketch and draw with what I call the *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving as you draw --- if you're only using just your wrist it won't be as effective. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
