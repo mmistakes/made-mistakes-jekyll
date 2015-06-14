@@ -41,7 +41,7 @@ Paper's tools have a level of expressiveness that I've yet to see matched by oth
 
 Pencil's wedge shaped tip is covered in a rubbery material like many other iPad styli, but unlike these "dumb" capacitive siblings, Pencil's is much smarter. Using a combination of hardware + software wizardry, strokes become more expressive depending on their *speed*, *direction*, and *alignment* to the iPad's screen.
 
-![Pencil tip disassembled](http://placehold.it/900x400)
+![Pencil tip disassembled]({{ site.url }}/images/pencil-53-tip-disassembled.jpg)
 
 Thin lines are made with Pencil's fine point while wider ones are made with the long side of the tip. No other stylus I know of has this ability, making Pencil feel less like a digital tool and more like a real piece of charcoal or graphite (without the mess of course). Oh, and in case you were wondering, the [tip is user replaceable](http://www.amazon.com/gp/product/B00MM4KD4U/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MM4KD4U&linkCode=as2&tag=mademist-20&linkId=SIDCNA73WKOEKRHM) too.
 
@@ -49,7 +49,7 @@ Thin lines are made with Pencil's fine point while wider ones are made with the 
 
 What would a pencil be without an eraser? Well FiftyThree's Pencil has one of those too. When you want to erase something you just flip Pencil on its head and glide the rubbery top over the mistake.
 
-![Pencil's eraser and replacement](http://placehold.it/900x400)
+![Pencil's eraser and replacement]({{ site.url }}/images/pencil-53-eraser-replacements.jpg)
 
 Size can be controlled by making contact with the eraser's corner (for small mistakes) or the entire width to remove a larger area. Just like the tip the eraser is replaceable, though I haven't needed to replace mine yet.
 
@@ -84,7 +84,7 @@ Pencil solves both of these problems without fanfare or setup --- **Palm Rejecti
 
 There's not much you need to do before using Pencil. Upon opening the box and removing the plastic wrap you'll want to slide out the tip to charge the battery via USB. In about 90 minutes you'll be good to connect it with Paper (or any Pencil ready app) by pressing the tip to the pairing spot.
 
-![Kiss to Pair in action](http://placehold.it/900x480)
+![Kiss to Pair in action]({{ site.url }}/images/pencil-53-kiss-to-pair.jpg)
 
 To view more details about your Pencil (*battery level*, *firmware*, *serial number*) tap the FiftyThree logo (or your profile icon when signed into Mix) located in the upper right corner. 
 
@@ -252,7 +252,7 @@ Creating atmospheric effects like fog, smoke, rays of light. Draw some sketches 
 As you might have guessed from the above heading, Blend lets you smudge stuff. Sadly this feature is only available to Paper when Pencil is connected, so you'll want to [pick one up](http://www.fiftythree.com/pencil "Buy Pencil by FiftyThree"). Trust me it's totally worth it!
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="finger blending stuff in Paper">
+  <img src="{{ site.url }}/images/pencil-53-finger-blending.jpg" alt="slow finger blending in Paper">
   <figcaption>Pushing pixels with your finger feels fantastic.</figcaption>
 </figure>
 
@@ -271,8 +271,8 @@ If you're looking for more control over your blends and smudges, try a capacitiv
 </div>
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="blending with a non-Pencil stylus">
-  <figcaption>Blending with a non-Pencil stylus instead of a finger.</figcaption>
+  <img src="{{ site.url }}/images/paper-53-non-pencil-blending.jpg" alt="blending with cheap capacitive stylus">
+  <figcaption>Using a cheap capacitive stylus to Blend instead of a finger.</figcaption>
 </figure>
 
 [pogo-stylus]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
@@ -316,7 +316,7 @@ When I first experimented with Pencil and blending, the first thing I did was sm
 By rubbing your finger across the background in a circular motion you can quickly drop it out-of-focus. For the portrait below I move my finger quickly across the screen since the background shapes didn't need too much blending.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="blending background of Wendy portrait">
+  <img src="{{ site.url }}/images/pencil-53-wendy-portrait-blend.jpg" alt="blending a background to simulate bokeh">
   <figcaption>Experiment with the speed at which you move your finger. The slower the more intense the blur...</figcaption>
 </figure>
 
@@ -342,15 +342,16 @@ This technique of blurring the background doesn't have to be used with just port
 
 The process is the same:
 
-1. Start by roughly painting or drawing the background.
-2. Evenly blend the objects you want to appear out-of-focus (in this case the entire background).
-3. Draw the "in-focus" object leaving sharp edges and adding highlights and other details to make the illusion more convincing.
+1. Start by blocking out the background with the watercolor brush.
+2. Refine shapes and drop in color quickly using the fountain pen.
+3. Evenly blend the objects you want to appear out-of-focus (in this case the entire background).
+4. Draw the "in-focus" object leaving sharp edges and adding highlights and other details to make the illusion more convincing.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="plant blend step 1">
-  <img src="http://placehold.it/640x480" alt="plant blend step 2">
-  <img src="http://placehold.it/640x480" alt="plant blend step 3">
-  <img src="http://placehold.it/640x480" alt="plant blend step 4">
+  <a href="{{ site.url }}/images/pencil-53-plant-bokeh-1-lg.jpg"><img src="{{ site.url }}/images/pencil-53-plant-bokeh-1-700.jpg" alt="plant blend step 1"></a>
+  <a href="{{ site.url }}/images/pencil-53-plant-bokeh-2-lg.jpg"><img src="{{ site.url }}/images/pencil-53-plant-bokeh-2-700.jpg" alt="plant blend step 2"></a>
+  <a href="{{ site.url }}/images/pencil-53-plant-bokeh-3-lg.jpg"><img src="{{ site.url }}/images/pencil-53-plant-bokeh-3-700.jpg" alt="plant blend step 3"></a>
+  <a href="{{ site.url }}/images/pencil-53-plant-bokeh-4-lg.jpg"><img src="{{ site.url }}/images/pencil-53-plant-bokeh-4-700.jpg" alt="plant blend step 4"></a>
 </figure>
 
 #### Reflections
@@ -358,23 +359,23 @@ The process is the same:
 Ah reflections... they're so magical and easy to achieve with Blend. With a few minutes of quick drawing and a couple of swipes of your finger you can create photo realistic scenes just like these:
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="first blend mountain">
-  <img src="http://placehold.it/640x480" alt="mountain scene sunset">
+  <a href="{{ site.url }}/images/pencil-53-bob-ross-mountain-lg.jpg"><img src="{{ site.url }}/images/pencil-53-bob-ross-mountain-700.jpg" alt="mountain landscape painted with Pencil"></a>
+  <a href="{{ site.url}}/images/pencil-53-bob-ross-sunset-lg.jpg"><img src="{{ site.url}}/images/pencil-53-bob-ross-sunset-700.jpg" alt="sunset landscape painted with Pencil"></a>
 </figure>
 
-To start you'll want to use the pencil tool to mark the horizon, and sketch out your scene --- I like to use a light gray color. Then start to [paint in the sky]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}) and shape the mountains using the brush and fountain pen tools.
+To start you'll want to use the pencil tool to mark the horizon, and sketch out your scene --- I like to use a light gray color for that. Then start to [paint in the sky]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}) and shape the mountains using the brush and fountain pen tools.
 
 <figure class="third">
-  <img src="http://placehold.it/640x480" alt="sketching the horizon">
-  <img src="http://placehold.it/640x480" alt="painting the sky">
-  <img src="http://placehold.it/640x480" alt="drawing mountains">
+  <a href="{{ site.url }}/images/pencil-53-mountain-blend-1-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-1-700.jpg" alt="painting the sky"></a>
+  <a href="{{ site.url }}/images/pencil-53-mountain-blend-2-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-2-700.jpg" alt="painting the water"></a>
+  <a href="{{ site.url }}/images/pencil-53-mountain-blend-3-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-3-700.jpg" alt="drawing mountains"></a>
 </figure>
 
-Clouds, trees, and any other details that reside in the top half of our composition are next. If you're looking for help on foliage and other greens be sure to check out my [**Mastering Paper: Drawing Trees and Grass** tutorial]({{ site.url }}{% post_url /mastering-paper/2013-08-31-drawing-trees %}).
+Adding snowy details to the mountains is next, followed by inking in a row of trees. If you're looking for help with drawing foliage and other greens be sure to check out my [**Mastering Paper: Drawing Trees and Grass** tutorial]({{ site.url }}{% post_url /mastering-paper/2013-08-31-drawing-trees %}).
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="drawing trees">
-  <img src="http://placehold.it/640x480" alt="drawing more trees">
+  <a href="{{ site.url }}/images/pencil-53-mountain-blend-4-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-4-700.jpg" alt="adding details to the mountains"></a>
+  <a href="{{ site.url }}/images/pencil-53-mountain-blend-5-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-5-700.jpg" alt="drawing trees"></a>
   <figcaption>Use the pen tools filled with a dark color to build up the tree silhouettes.</figcaption>
 </figure>
 
@@ -382,9 +383,8 @@ Spend most of your effort perfecting the top half of the scene. Once you're happ
 
 It doesn't have to be perfect, you just want to match the colors and general shape of each object. The most important ones being the trees.
 
-<figure class="half">
-  <img src="http://placehold.it/640x480" alt="drawing reflections">
-  <img src="http://placehold.it/640x480" alt="even more reflections">
+<figure>
+  <a href="{{ site.url }}/images/pencil-53-mountain-blend-6-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-6-900.jpg" alt="drawing reflections"></a>
   <figcaption>You should end up with something similar to this.</figcaption>
 </figure>
 
@@ -398,7 +398,7 @@ Now the fun part. Make sure Pencil is connected and Blend flipped on in Settings
 To finish things off select the pencil tool to sketch in waves, foam, and other details. Feel free to redraw any trees and shoreline you may have mistakenly blended when creating the water reflections.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="detail shot of water waves">
+  <a href="{{ site.url }}/images/pencil-53-mountain-blend-7-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-7-900.jpg" alt="detail shot of water waves"></a>
   <figcaption>Need more pointers for drawing and painting water? I have you covered with my <a href="{{ site.url }}{% post_url /mastering-paper/2013-09-29-drawing-water %}"><strong>Mastering Paper: Drawing Water and Waves</strong> tutorial</a>.</figcaption>
 </figure>
 
@@ -407,9 +407,9 @@ To finish things off select the pencil tool to sketch in waves, foam, and other 
 The process above for creating reflections can also be used to paint beautiful underwater scenes.
 
 <figure class="third">
-  <img src="http://placehold.it/640x480" alt="scuba blend">
-  <img src="http://placehold.it/640x480" alt="girl underwater">
-  <img src="http://placehold.it/640x480" alt="another scuba blend">
+  <a href="{{ site.url }}/images/pencil-53-guavagleelesley-lg.jpg"><img src="{{ site.url }}/images/pencil-53-guavagleelesley-700.jpg" alt="scuba diver painted with Pencil"></a>
+  <a href="{{ site.url }}/images/pencil-53-underwater-dream-lg.jpg"><img src="{{ site.url }}/images/pencil-53-underwater-dream-700.jpg" alt="underwater dream painted with Pencil"></a>
+  <a href="{{ site.url }}/images/pencil-53-zakatnov-lg.jpg"><img src="{{ site.url }}/images/pencil-53-zakatnov-700.jpg" alt="scuba diver painted with Pencil"></a>
   <figcaption>Some examples of underwater scenes I painted with Paper by FiftyThree using Pencil and Blend.</figcaption>
 </figure>
 
@@ -418,24 +418,24 @@ Similar to the reflections effect you'll want to determine what will be in and o
 Using the watercolor brush you'll want to lay down a base color and then start layering objects on top of that. Feel free to use the pencil, ink pens, or marker tools to draw the rest of the background.
 
 <figure class="third">
-  <img src="http://placehold.it/640x480" alt="scuba diver background step 1">
-  <img src="http://placehold.it/640x480" alt="scuba diver background step 2">
-  <img src="http://placehold.it/640x480" alt="scuba diver background step 3">
+  <a href="{{ site.url }}/images/pencil-53-scuba-step-1-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-1-700.jpg" alt="scuba diver background step 1"></a>
+  <a href="{{ site.url }}/images/pencil-53-scuba-step-2-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-2-700.jpg" alt="scuba diver background step 2"></a>
+  <a href="{{ site.url }}/images/pencil-53-scuba-step-3-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-3-700.jpg" alt="scuba diver background step 3"></a>
   <figcaption>Don't worry about placing too many details in at this point, we're going to smudge most of them away in a minute...</figcaption>
 </figure>
 
 With our background in good shape make sure Pencil is connected and Blend enabled and start smudging away. Using a circular motion softly move your finger tip over the background to blur it.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="scuba diver blend background video">
+  <img src="http://placehold.it/640x480" alt="scuba diver blend background animation">
   <figcaption>Working from top to bottom will help you cover the background with an even blend.</figcaption>
 </figure>
 
-When done correctly the water should look almost dreamlike with a uniform blur across the entire plane. To finish, add things like fish, a diver, or plant life to the scene. If you don't blend them they will automatically look as if they're floating adding a nice sense of depth to piece.
+When done correctly the water should look almost dreamlike with a uniform blur across the entire plane. To finish, add things bubbles, more fish, or plant life to the scene. If you don't blend them they will automatically look as if they're floating above the water adding a nice sense of depth to the scene.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="scuba diver step 1">
-  <img src="http://placehold.it/640x480" alt="scuba diver step 2">
+  <a href="{{ site.url }}/images/pencil-53-scuba-step-5-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-5-700.jpg" alt="scuba diver step 5"></a>
+  <a href="{{ site.url }}/images/pencil-53-scuba-step-6-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-6-700.jpg" alt="scuba diver step 6"></a>
   <figcaption>By leaving the edges around the scuba diver sharp, the figure will pop-off the page as it contrasts against the soft background.</figcaption>
 </figure>
 
@@ -444,17 +444,17 @@ When done correctly the water should look almost dreamlike with a uniform blur a
 Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tutorial]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), a few well placed smudges can greatly improve their realism. You can also modify the type of cloud more easily depending on how you smudge.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="dark fluffy clouds blended">
-  <img src="http://placehold.it/640x480" alt="dark streaky clouds smudged">
+  <a href="{{ site.url }}/images/pencil-53-blended-sunset-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blended-sunset-700.jpg" alt="sunset clouds blended with Pencil"></a>
+  <a href="{{ site.url }}/images/pencil-53-blended-dark-clouds-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blended-dark-clouds-700.jpg" alt="dark streaky clouds smudged"></a>
   <figcaption>Use quick blends for fluffy clouds and slow dragging smudges for for streaky ones.</figcaption>
 </figure>
 
 These techniques don't have to only be used to enhance clouds. They work great for softening pencil strokes, turning them into the beautiful *aurora borealis* (the Northern Lights).
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="aurora sketch">
-  <img src="http://placehold.it/640x480" alt="aurora smudged animation">
-  <figcaption>Give light trails a sense of motion by pulling your blend strokes slowly.</figcaption>
+  <a href="{{ site.url }}/images/pencil-53-aurora-sketch-lg.jpg"><img src="{{ site.url }}/images/pencil-53-aurora-sketch-lg.jpg" alt="sketching the aurora"></a>
+  <a href="{{ site.url }}/images/pencil-53-aurora-smudged-lg.jpg"><img src="{{ site.url }}/images/pencil-53-aurora-smudged-lg.jpg" alt="smudging the aurora"></a>
+  <figcaption>Give light trails a sense of motion by pulling your blend strokes slowly. Practicing smudging the <a href="https://mix.fiftythree.com/11098-Michael-Rose/915375">aurora borealis on Mix</a>.</figcaption>
 </figure>
 
 #### Simulate atmospheric perspective
