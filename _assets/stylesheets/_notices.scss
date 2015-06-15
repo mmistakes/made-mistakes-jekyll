@@ -13,8 +13,8 @@
 @mixin notice($notice-color) {
   padding-top: 1em;
   padding-bottom: 1em;
-  border-top: 2px solid $black;
-  border-bottom: 2px solid $black;
+  border-top: 2px solid mix($white, $black, 80%);
+  border-bottom: 2px solid mix($white, $black, 80%);
   @include bleed-x(1em);
   h4 {
     margin: 0 !important;;
