@@ -11,10 +11,10 @@ image:
 comments: true
 ---
 
-Not convinced you need *FiftyThree's Pencil stylus* in your life? Or maybe you just want to level-up your skills and learn new techniques and ways of using it. This guide will familiarize you with Pencil and how to create a host of effects using Surface Pressure and Blend.
+Not convinced you need *FiftyThree's Pencil stylus* in your life? Or maybe you just want to level-up your skills. This guide covers both by revealing all of my Surface Pressure and Blend secrets to turn you into a Pencil master.
 
 <div class="notice-info" markdown="1">
-#### [FiftyThree Pencil Review](({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}))
+#### [Read My Pencil by FiftyThree Review](({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}))
 Apart from the addition of **Surface Pressure**, little has changed since I [first paired Pencil to Paper]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}) over a year ago. It still feels great to use, still has an insanely long battery life, still enables blending, and still lets you rest your wrists on the screen without messing up your drawing.
 </div>
 
@@ -22,7 +22,7 @@ Apart from the addition of **Surface Pressure**, little has changed since I [fir
 
 ## What makes Pencil so unique and special?
 
-Pencil by FiftyThree is not like other styli and pens designed to work with Apple's iPad tablet. The unique shape and meticulously crafted finishes (*Walnut*, *Graphite*, and *Gold*) are the obvious differentiators, but it's the experiential qualities that truly sets it apart from the rest.
+Pencil by FiftyThree is not like other styli designed to work with Apple's iPad tablet. The unique shape and meticulously crafted finishes (*Walnut*, *Graphite*, and *Gold*) are the obvious differentiators, but it's the experiential qualities that truly sets it apart from the rest.
 
 ![Pencil by FiftyThree]({{ site.url }}/images/pencil-53-feature-900.jpg)
 
@@ -43,19 +43,19 @@ Pencil's wedge shaped tip is covered in a rubbery material like many other iPad 
 
 ![Pencil tip disassembled]({{ site.url }}/images/pencil-53-tip-disassembled.jpg)
 
-Thin lines are made with Pencil's fine point while wider ones are made with the long side of the tip. No other stylus I know of has this ability, making Pencil feel less like a digital tool and more like a real piece of charcoal or graphite (without the mess of course). Oh, and in case you were wondering, the [tip is user replaceable](http://www.amazon.com/gp/product/B00MM4KD4U/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MM4KD4U&linkCode=as2&tag=mademist-20&linkId=SIDCNA73WKOEKRHM) too.
+Thin lines are made with Pencil's fine point while wider ones are made with angled edge of the tip. No other stylus I know of has this ability, making Pencil feel less like a digital tool and more like a real piece of charcoal or graphite (without the mess of course). Oh, and in case you were wondering, the [tip is user replaceable](http://www.amazon.com/gp/product/B00MM4KD4U/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MM4KD4U&linkCode=as2&tag=mademist-20&linkId=SIDCNA73WKOEKRHM) too.
 
 ### A built-in eraser
 
-What would a pencil be without an eraser? Well FiftyThree's Pencil has one of those too. When you want to erase something you just flip Pencil on its head and glide the rubbery top over the mistake.
+What would a pencil be without an eraser? Well FiftyThree's Pencil has one of those too. When you want to erase something you just flip Pencil on its head and glide the rubbery edge over the mistake.
 
 ![Pencil's eraser and replacement]({{ site.url }}/images/pencil-53-eraser-replacements.jpg)
 
-Size can be controlled by making contact with the eraser's corner (for small mistakes) or the entire width to remove a larger area. Just like the tip the eraser is replaceable, though I haven't needed to replace mine yet.
+Size can be controlled by making contact with the eraser's corner (for small mistakes) or the entire surface to remove a larger area. Just like the tip the eraser is replaceable, though I haven't needed to replace mine yet.
 
 <div class="notice-info" markdown="1">
 #### Erasing and Undoing
-If you're looking for other erasing techniques that don't rely on Pencil's hardware eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
+If you're looking for other erasing techniques that don't rely on Pencil's hardware eraser you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}) in Paper by FiftyThree.
 </div>
 
 ### Palm Rejection
@@ -66,11 +66,11 @@ I'm going to come right out and say it.
 
 Thankfully FiftyThree put the engineering effort into Paper and Pencil to alleviate these issues --- specifically related to palm rejection.
 
-When Pencil is connected to Paper (or [supporting apps](http://www.fiftythree.com/pencil-ready)), **Palm Rejection** completely transforms the drawing experience making it more accessible. Just watching my easily frustrated daughters struggle to draw on an iPad sans Pencil, it becomes painfully clear how awesome this feature is when enabled.
+When Pencil is connected to Paper (or [supporting apps](http://www.fiftythree.com/pencil-ready)), **Palm Rejection** completely transforms the drawing experience making it more accessible. 
 
 <figure>
   <img src="http://placehold.it/640x480" alt="Everly and Chloe drawing with Pencil">
-  <figcaption>Now if the twins could only learn how to share iPad and Pencil...</figcaption>
+  <figcaption>[Video of the twins using Pencil/Paper] Now if the twins could only learn how to share iPad and Pencil...</figcaption>
 </figure>
 
 Registering touches consistently is almost impossible for the twins at this age. 
@@ -78,7 +78,7 @@ Registering touches consistently is almost impossible for the twins at this age.
 1. The iPad is easily confused by touches made by resting wrists and palms on the screen.
 2. Their small fingers are often ignored by the iPad's sensors.
 
-Pencil solves both of these problems without fanfare or setup --- **Palm Rejection** just works.
+Pencil makes coloring on the iPad a reality for my easily frustrated daughters without fanfare or setup --- **Palm Rejection** just works.
 
 ## Setting up Pencil
 
@@ -98,32 +98,32 @@ To view more details about your Pencil (*battery level*, *firmware*, *serial num
 You also have the option to toggle whether your finger **Blends**, **Draws**, or does **Nothing** when Pencil is connected to Paper. If you find Paper mistakenly smudging as you draw, switching to Nothing is a great way to prevent that.
 </div>
 
-For even more information on how to setup or troubleshoot Pencil, change tips, and performing maintenance like updating the firmware, check out [FiftyThree's Support pages](http://support.fiftythree.com/customer/portal/topics/589142-pencil/articles). It's where I first learned about this little fix:
+For even more information on how to setup Pencil, change tips, and performing maintenance like updating the firmware --- check out [FiftyThree's Support pages](http://support.fiftythree.com/customer/portal/topics/589142-pencil/articles). It's where I first learned about this little fix:
 
 > If you have Multitasking Gestures or Accessibility Zoom enabled, this will prevent Pencil from operating effectively. Turn off Multitasking Gestures in your iPad Settings, under **General**. Turn off **Accessibility Zoom** under *General / Accessibility*.
 > <p><cite><a href="http://support.fiftythree.com/">support.fiftythree.com</a></cite></p>
 
 ## Surface Pressure, what's that?
 
-When Pencil is connected to Paper it gains enhanced control and expressiveness over the tools with a feature FiftyThree calls **Surface Pressure**. Stroke sizes become directly related to how much or how little either of Pencil's tips touch the screen.
+When Pencil is connected to Paper it gains enhanced control and expressiveness over the tools with a feature FiftyThree calls **Surface Pressure**. Stroke sizes become directly related to how much or how little Pencil's tips touch the screen.
 
 Curious on the range you can achieve with Surface Pressure enhanced tools?
 
 <figure>
   <a href="{{ site.url }}/images/pencil-surface-pressure-cheat-sheet.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-cheat-sheet-900.jpg" alt="Surface Pressure cheat sheet"></a>
-  <figcaption>Marks made with each tool: using just the tip, the side of the tip, the tip while zoomed in, and finally the side of the tip while zoomed in.</figcaption>
+  <figcaption>Marks made with each tool: using the tip's point, angled edge, point while zoomed in, and angled edge while zoomed in.</figcaption>
 </figure>
 
-If you ask me, the marriage of hardware and software that makes Surface Pressure work is Pencil's killer feature. It has completely transformed how I interact with Paper on my iPad by allowing me to be more free and loose. What does that mean exactly? Well let me show you...
+If you ask me, the marriage of hardware and software that makes Surface Pressure work is Pencil's killer feature. It has completely transformed how I interact with Paper on my iPad by allowing me to be more loose with drawing. What does that mean exactly? Well let me show you...
 
 ### By design Pencil's invites you to hold it differently
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video showing alternate ways to hold Pencil">
-  <figcaption>To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
+  <figcaption>[Video demonstrating Pencil grip for Surface Pressure shading] To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
 </figure>
 
-I like to hold Pencil as if it's a piece of charcoal and utilize it's long edge when quickly sketching. Not only does this change the characteristics of pencil strokes (I'll get to that in a minute), but it also encourages you to use your entire arm instead of just the wrist.
+I like to hold Pencil as if it's a piece of charcoal and utilize its angled edge when quickly sketching. Not only does this change the characteristics of pencil strokes (I'll get to that in a minute), but it also encourages you to use your entire arm instead of just the wrist.
 
 Sketching in this way is not only more fun serves a practical reason as well. By moving your entire arm you'll find that: 
   
@@ -136,31 +136,31 @@ Sketching in this way is not only more fun serves a practical reason as well. By
 
 ### A new tool for shading
 
-You may have noticed in the cheat sheet above (or in your own experiments), that the sketch tool takes on new qualities with Surface Pressure. With this tool selected, the edge of Pencil's tip will make wide textured strokes that resembles those made with charcoal or graphite.
+You may have noticed in the cheat sheet above (or in your own experiments), that the sketch tool takes on new qualities with Surface Pressure. With this tool selected, the angled edge of Pencil's tip turn into wide textured strokes that resembles those made with charcoal or graphite.
 
 <figure class="half">
   <a href="{{ site.url }}/images/pencil-53-simulate-charcoal-lg.jpg"><img src="{{ site.url }}/images/pencil-53-simulate-charcoal-600.jpg" alt="wide sketch strokes with Pencil"></a>
   <a href="{{ site.url }}/images/charcoal-drawing-600.jpg"><img src="{{ site.url }}/images/charcoal-drawing-lg.jpg" alt="strokes made with charcoal and paper"></a>
-  <figcaption>Digital strokes made using the side of Pencil's tip compared against those made with compressed charcoal on newsprint paper.</figcaption>
+  <figcaption>Digital strokes made using the angled edge of Pencil's tip compared against those made with compressed charcoal on traditional paper.</figcaption>
 </figure>
 
-Wide strokes made with the pencil tool overlap differently than the ink, marker, and brush tools. These "shade" strokes have a more defined edge can can cause color banding[^banding] in tones if not smoothed out. To better illustrate this concept here's what I consider a tone with "blocky" strokes.
+Wide strokes made with the pencil tool overlap differently than the ink, marker, and brush tools. These "shade" strokes have a more defined edge and can cause color banding[^banding] in tones if not smoothed out. To better illustrate this concept here's what I consider a tone with "blocky" strokes.
 
 [^banding]: Abrupt changes between shades of the same color.
 
 <figure>
   <img src="{{ site.url }}/images/pencil-surface-pressure-overlap.gif" alt="animation showing overlapping wide pencil strokes">
-  <figcaption>With every overlapping pass the tones darken with noticeable edges between the strokes.</figcaption>
+  <figcaption>[Animated GIF] With every overlapping pass the tones darken with noticeable edges between the "V" strokes.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
 #### ProTip: Shade in Circles
-Reduce color banding by holding Pencil on its side and moving in a circular motion.
+Reduce color banding by holding Pencil on its side and moving in a circular motion to evenly fill things in.
 </div>
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video showing circular shading">
-  <figcaption>Spread tones more evenly by overlapping them in a circular motion.</figcaption>
+  <figcaption>[Video of evening out Surface Pressure shading] Spread tones more evenly by overlapping them in a circular motion.</figcaption>
 </figure>
 
 If you look closely at the wide strokes of the pencil (sketch) tool, you'll notice it fades from dark to light.
@@ -170,7 +170,7 @@ If you look closely at the wide strokes of the pencil (sketch) tool, you'll noti
   <figcaption>Closeup of a pencil stroke. Dark edge is on the top and progressively fades down into the canvas.</figcaption>
 </figure>
 
-In my tests, it seems as if the placement of the darker edge is determined by the angle of the stroke. Dark points up and light points down. I've yet to find a way to reverse that, so it's worth keeping that fact in the back of your mind when making horizontal strokes.
+In my tests, it seems as if the placement of the darker edge is determined by the angle of the stroke. Dark points up and light points down. I've yet to find a way to reverse that, so it's worth keeping that in the back of your mind when shading horizontally.
 
 <figure>
   <a href="{{ site.url }}/images/pencil-surface-pressure-pencil-fade.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-pencil-fade-900.jpg" alt="Surface Pressure pencil shading angles"></a>
@@ -183,13 +183,13 @@ Now that you know what Surface Pressure is and roughly how it works. I thought i
 
 #### Gesture drawing and other warm-ups
 
-A great way to warm-up before doing any sort of serious drawing is with quick gesture sketches. In art school we'd start each class capturing a model's movement with a series of 2 minute poses with charcoal and conté crayons.
+A great way to warm-up before doing any sort of serious drawing is with quick gesture sketches. In art school we'd start each class capturing a model's movement in a series of 2 minute poses with charcoal and conté crayons.
 
-With the pencil tool in Paper and Surface Pressure you can get the same result as a stick of charcoal rubbed on newsprint. Even better, you avoid any of the mess typically associated with it when working digitally.
+When drawing with Pencil and the sketch tool you can get the same result as a stick of charcoal rubbed on newsprint. Even better, you avoid any of the mess typically associated with by working digitally.
 
 <figure>
   <a href="{{ site.url }}/images/pencil-surface-pressure-gestures.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-gestures-900.jpg" alt="Surface Pressure gesture drawings"></a>
-  <figcaption>Examples of gesture drawings in Paper with Pencil and Surface Pressure.</figcaption>
+  <figcaption>Examples of gesture drawings created with Pencil and Surface Pressure.</figcaption>
 </figure>
 
 To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of a [tripod grip](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to wrap your fingers around Pencil and rest your thumb just below the tip.
@@ -200,51 +200,58 @@ To get the most out of this technique you're going to want to hold Pencil differ
   <figcaption>Tripod grip on the left (good for writing), palm grip on the right (good for gesture drawing).</figcaption>
 </figure>
 
-As you sketch and draw with what I call the *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving as you draw --- if you're only using just your wrist it won't be as effective. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
+As you sketch and draw with this *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving --- wrist only movements will lack fluidity. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="slow motion video of gesture drawing">
-  <figcaption>Gesture drawing using Pencil held in the palm grip.</figcaption>
+  <figcaption>[Video of quick gesture drawing with Pencil] Gesture drawing using Pencil held in the palm grip.</figcaption>
 </figure>
 
-Another great way to loosen up your arm and hand is to draw ovals over and over again. Focus on moving your entire wrist in loose circular motions and try to avoid stiff wrist movements. 
+Another great way to loosen up your arm and hand is to draw ovals over and over again. Focus on moving your entire arm in a circular motion directly above the iPad's screen. 
 
 <figure class="half">
   <img src="http://placehold.it/640x480" alt="animated GIF of circle drawing">
   <img src="http://placehold.it/640x480" alt="animated GIF of many ovals">
-  <figcaption>If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps nail accurate and crisp lines without having to constantly erase or Rewind bad contours.</figcaption>
+  <figcaption>[Animated GIFs] If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps achieve accurate and crisp lines without constantly rewinding mistakes.</figcaption>
 </figure>
 
 #### Shading and tone building
 
-Much of the same layering principles used when glazing with the watercolor brush can be applied to Surface Pressure armed pencil. If you're new to Paper and missed those techniques are need a brush up, I demonstrate them in [**Mastering Paper: Back to Basics**]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques).
+The same layering principles used when glazing can be applied to the pencil tool with Surface Pressure.
 
-Surface Pressure enabled shading does most of the hard work by automatically leaving marks that fade into the canvas. If you've had trouble painting smoothly with the watercolor brush or softening the edges, give the pencil tool a try --- it's way more forgiving.
+<div class="notice-info" markdown="1">
+#### Painting with Watercolor
+If you're new to Paper and the color tool, learn all about glazing with my [**Mastering Paper: Back to Basics**]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#watercolor-brush-techniques) guide.
+</div>
+
+Surface Pressure enabled shading does most of the hard work by automatically making marks that fade into the canvas. If you've had trouble painting smoothly with the watercolor brush, give the sketch tool a try --- it's way more forgiving.
 
 <figure>
   <img src="{{ site.url }}/images/pencil-surface-pressure-tones.jpg" alt="Surface Pressure pencil gradients">
-  <figcaption>Create smooth transitions by overlapping colors when drawing with the side of Pencil's tip.</figcaption>
+  <figcaption>Create smooth transitions by overlapping colors using Surface Pressure.</figcaption>
 </figure>
 
-Remember, each pass with the side of Pencil's tip leaves a noticeable stroke edge --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
+Remember, each pass with Pencil's angled tip leaves a noticeable edge when overlapped --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video drawing a tomato in gray and color">
-  <figcaption>By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work.</figcaption>
+  <figcaption>[Video of shading a tomato] By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
 #### ProTip: Zoom In
-For even more granularity over how fast a shade darkens, zoom in! You can get a few more levels of variation with each stroke to help make a more nuanced gradation.
+For even more granularity over how fast a shade darkens, zoom in! You can get a few more levels of variation to help make a more nuanced gradation.
 </div>
 
 #### Creating atmospheric effects
 
-Creating atmospheric effects like fog, smoke, rays of light. Draw some sketches then write quick how-to.
+**TODO: Creating atmospheric effects like fog, smoke, rays of light.**
+
+**Draw set of sketches of a dark/creepy scene and light coming from a window to accompany tutorial.**
 
 ## Blend, the Smudge Tool
 
-As you might have guessed from the above heading, Blend lets you smudge stuff. Sadly this feature is only available to Paper when Pencil is connected, so you'll want to [pick one up](http://www.fiftythree.com/pencil "Buy Pencil by FiftyThree"). Trust me it's totally worth it!
+As you might have guessed from the above heading, Blend lets you smudge stuff. Sadly this feature is only available to Paper when Pencil is connected, so you'll want to [pick one up](http://www.fiftythree.com/pencil "Buy Pencil by FiftyThree") to partake in blending fun. Trust me it's totally worth it!
 
 <figure>
   <img src="{{ site.url }}/images/pencil-53-finger-blending.jpg" alt="slow finger blending in Paper">
@@ -253,16 +260,16 @@ As you might have guessed from the above heading, Blend lets you smudge stuff. S
 
 ### How does Blending work in Paper?
 
-It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") at which you move.
+It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") allowing you to control it on the fly.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video showing various types of blends">
-  <figcaption>Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them.</figcaption>
+  <figcaption>[Video of different types of blends] Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
 #### ProTip: Blending with a Non-Pencil Stylus
-If you're looking for more control over your blends and smudges, try a capacitive stylus instead of your finger. As long as the tip of your stylus is big enough and Pencil is connected this should work. I've had success using a [Pogo Connect][pogo-stylus] and some [cheap styli][cheap-stylus] I picked up from Amazon.
+If you're looking for more control and accuracy over your blends, try a capacitive stylus instead of your finger. As long as the tip of your stylus is big enough and Pencil is connected this should work. I've had success using a [Pogo Connect][pogo-stylus] and some [cheap styli][cheap-stylus] I picked up from Amazon.
 </div>
 
 <figure>
@@ -275,16 +282,16 @@ If you're looking for more control over your blends and smudges, try a capacitiv
 
 ### How does Blending work in other apps?
 
-Apps that support FiftyThree's SDK (like Procreate) get some special abilities when connecting Pencil to them. In Procreate for example, your finger will activate the Smudge tool so you can freely switch between it and the Paint tool.
+Apps that support FiftyThree's SDK (like Procreate) get some special abilities when connecting Pencil to them. In Procreate for example, your finger will activate the **Smudge tool** so you can freely switch between it and the Paint tool.
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video connecting Pencil to Procreate and using Smudge">
-  <figcaption>Quickly switch between painting and smudging with Pencil and Procreate.</figcaption>
+  <figcaption>[Video of Pencil used in Procreate] Quickly switch between painting and smudging with Pencil and Procreate.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
 #### ProTip: Pencil's Eraser in Procreate
-And just like with Paper, Pencil's eraser will you guessed it... erase in Procreate as well. The current Erase tool settings will be used whenever you flip Pencil on it's top to erase mistakes.
+And just like with Paper, Pencil's physical eraser will trigger the eraser tool in Procreate. The current Erase tool settings will be used whenever you flip Pencil on it's top to correct mistakes.
 </div>
 
 ### Paper and Blend settings
@@ -296,19 +303,19 @@ In case you skimmed through the first half of this article where I covered Penci
   <figcaption>Blend/Draw/Nothing</figcaption>
 </figure>
 
-Usually Paper is good about distinguishing between the tip of Pencil and your finger to avoid unwanted blends. But if you have a lighter touch when drawing you might find that you trigger it more than you'd like. In this case I suggest flipping to the **Blend** option only when you need it.
+Usually Paper is good about distinguishing between the tip of Pencil and your finger to avoid unwanted blends. But if you have a lighter touch when drawing you might find that you trigger it more than you'd like. In this case I suggest flipping between **Blend** and **Nothing** to toggle it on/off when needed.
 
 ### What's Blend good for?
 
-When used in moderation smudging and blurring your drawings can take them to the next level. If you thought Surface Pressure was cool just wait till you see what's possible with Blend.
+When used in moderation smudging and blurring your drawings can really take them to the next level. If you thought Surface Pressure was cool just wait till you see what's possible with Blend.
 
 #### Depth of field and "bokeh" effects
 
-When I first experimented with Pencil and blending, the first thing I did was smudge up the background of a portrait I drew of my wife. Previously I was using the watercolor brush to [dab blotches of white]({{ site.url}}{% post_url /mastering-paper/2014-10-25-erasing %}#paint-with-white-to-erase) to simulate a bokeh[^bokeh] effect.
+The first thing I did when experimenting with Pencil was to smudge up the background of a portrait I drew of my wife. Before Blend I was using the watercolor brush to [dab blotches of white]({{ site.url}}{% post_url /mastering-paper/2014-10-25-erasing %}#paint-with-white-to-erase) to simulate a bokeh[^bokeh] effect.
 
 [^bokeh]: In photography, bokeh is the aesthetic quality of the blur produced in the out-of-focus parts of an image produced by a lens. [Bokeh has been defined](http://en.wikipedia.org/wiki/Bokeh "Wikipedia entry on bokeh") as "the way the lens renders out-of-focus points of light".
 
-By rubbing your finger across the background in a circular motion you can quickly drop it out-of-focus. For the portrait below I move my finger quickly across the screen since the background shapes didn't need too much blending.
+By rubbing my finger across the background in a circular motion I was able to quickly drop it out-of-focus, creating a more realistic bokeh.
 
 <figure>
   <img src="{{ site.url }}/images/pencil-53-wendy-portrait-blend.jpg" alt="blending a background to simulate bokeh">
@@ -333,7 +340,7 @@ Here's a few Paper portraits I used Pencil and Blend to draw. Sometimes it's fun
   <figcaption>Check out all my <a href="{{ site.url }}/tag/bokeh/">"bokeh" PaperFaces portraits</a> where I used this effect with and without Pencil.</figcaption>
 </figure>
 
-This technique of blurring the background doesn't have to be used with just portraiture. In the following example it can be used to simulate macro photography, focusing on an object and throwing the rest out of focus.
+This technique of blurring the background doesn't have to be used with just portraiture. In the following example it can be used to simulate macro photography, focusing on one object and throwing the rest out of focus.
 
 The process is the same:
 
@@ -376,7 +383,7 @@ Adding snowy details to the mountains is next, followed by inking in a row of tr
 
 Spend most of your effort perfecting the top half of the scene. Once you're happy with it we're going to create its mirror image. Select the fountain pen tool and roughly draw what you see up top down below --- but flipped upside down.
 
-It doesn't have to be perfect, you just want to match the colors and general shape of each object. The most important ones being the trees.
+It doesn't have to be perfect, you just want to match the colors and general shape of each object --- the most important ones being the trees.
 
 <figure>
   <a href="{{ site.url }}/images/pencil-53-mountain-blend-6-lg.jpg"><img src="{{ site.url }}/images/pencil-53-mountain-blend-6-900.jpg" alt="drawing reflections"></a>
@@ -387,7 +394,7 @@ Now the fun part. Make sure Pencil is connected and Blend flipped on in Settings
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video showing how to create reflections">
-  <figcaption>Depending on the chop of the water you may want to slightly zig-zag your smudges to distort the reflected mountain and trees.</figcaption>
+  <figcaption>[Video tutorial of creating reflections with Blend] Depending on the chop of the water you may want to slightly zig-zag your smudges to distort the reflected mountain and trees.</figcaption>
 </figure>
 
 To finish things off select the pencil tool to sketch in waves, foam, and other details. Feel free to redraw any trees and shoreline you may have mistakenly blended when creating the water reflections.
@@ -408,7 +415,7 @@ The process above for creating reflections can also be used to paint beautiful u
   <figcaption>Some examples of underwater scenes I painted with Paper by FiftyThree using Pencil and Blend.</figcaption>
 </figure>
 
-Similar to the reflections effect you'll want to determine what will be in and out of focus. In this case everything behind the scuba diver will be blurry so that's what we will paint first.
+Similar to the reflection effect you'll want to determine what will be in and out of focus. In this case everything behind the scuba diver will be blurry so that's what we will paint first.
 
 Using the watercolor brush you'll want to lay down a base color and then start layering objects on top of that. Feel free to use the pencil, ink pens, or marker tools to draw the rest of the background.
 
@@ -422,8 +429,8 @@ Using the watercolor brush you'll want to lay down a base color and then start l
 With our background in good shape make sure Pencil is connected and Blend enabled and start smudging away. Using a circular motion softly move your finger tip over the background to blur it.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="scuba diver blend background animation">
-  <figcaption>Working from top to bottom will help you cover the background with an even blend.</figcaption>
+  <img src="http://placehold.it/640x480" alt="scuba diver blend background video">
+  <figcaption>[Video blending the background evenly] Working from top to bottom will help you cover the background with an even blend.</figcaption>
 </figure>
 
 When done correctly the water should look almost dreamlike with a uniform blur across the entire plane. To finish, add things bubbles, more fish, or plant life to the scene. If you don't blend them they will automatically look as if they're floating above the water adding a nice sense of depth to the scene.
@@ -436,7 +443,7 @@ When done correctly the water should look almost dreamlike with a uniform blur a
 
 #### Clouds, smoke, and fog
 
-Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tutorial]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), a few well placed smudges can greatly improve their realism. You can also modify the type of cloud more easily depending on how you smudge.
+Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tutorial]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), a few well placed cloud smudges can greatly improve their realism. You can also modify the type of cloud on display by varying the speed of your blends.
 
 <figure class="half">
   <a href="{{ site.url }}/images/pencil-53-blended-sunset-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blended-sunset-700.jpg" alt="sunset clouds blended with Pencil"></a>
@@ -444,7 +451,7 @@ Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tuto
   <figcaption>Use quick blends for fluffy clouds and slow dragging smudges for for streaky ones.</figcaption>
 </figure>
 
-These techniques don't have to only be used to enhance clouds. They work great for softening pencil strokes, turning them into the beautiful *aurora borealis* (the Northern Lights).
+These techniques can be used for much more than just enhancing clouds. They also work great for softening pencil strokes, turning them into the beautiful *aurora borealis* (the Northern Lights).
 
 <figure class="half">
   <a href="{{ site.url }}/images/pencil-53-aurora-sketch-lg.jpg"><img src="{{ site.url }}/images/pencil-53-aurora-sketch-700.jpg" alt="sketching the aurora"></a>
@@ -456,9 +463,9 @@ These techniques don't have to only be used to enhance clouds. They work great f
 
 One way of adding depth to a landscape is by adhering to the properties of [atmospheric perspective](http://www.arthints.com/what-is-atmospheric-perspective/). Simply put --- far away objects appear more faded than those in the foreground.
 
-Now you could be meticulous with your color choices and purposely mix gray and blue as you paint to get a similar effect. But if you're anything like me you're wouldn't mind a shortcut to speed things up.
+Now you could be meticulous with your color choices and purposely mix gray and blue as you paint to get a similar effect. But if you're anything like me you wouldn't mind a shortcut to speed things up.
 
-In this drawing of tree tops the layers near the top are the most heavily blended. While the dark green trees at the bottom remain sharp and untouched.
+In this drawing of trees, the layers near the top are the most heavily blended. While the dark green trees at the bottom remain sharp and untouched.
 
 <figure class="half">
   <a href="{{ site.url }}/images/pencil-53-tree-tops-lg.jpg"><img src="{{ site.url }}/images/pencil-53-tree-tops-700.jpg" alt="tree tops drawn in ink"></a>
@@ -466,7 +473,7 @@ In this drawing of tree tops the layers near the top are the most heavily blende
   <figcaption>Blend the plane (or object) furthest from the foreground the most and gradually decrease that amount as you move forwards.</figcaption>
 </figure>
 
-Very similar to the reflection example above, you can create a dense layer of by blending everything --- not just the reflected trees. By smudging over the drawing it effectively lowers the contrast making things appear hazy.
+Very similar to the reflection example from earlier, you can create a dense layer of fog by blending everything --- not just the reflected trees. By smudging over the drawing it effectively lowers the contrast making things appear hazy.
 
 <figure class="third">
   <a href="{{ site.url }}/images/pencil-53-fog-scene-1-lg.jpg"><img src="{{ site.url }}/images/pencil-53-fog-scene-1-600.jpg" alt="drawing the horizon line"></a>
@@ -490,7 +497,7 @@ Before Pencil and Blend were a thing you had to [get creative with white paint](
   <img src="http://placehold.it/640x480" alt="glowing orb - before/after blend animation">
   <img src="http://placehold.it/640x480" alt="lightsaber - before/after blend animation">
   <img src="http://placehold.it/640x480" alt="lightning - before/after blend animation">
-  <figcaption>Blending shapes into glowing objects.</figcaption>
+  <figcaption>[Animated GIF drawings of orb, lightsaber, lightning] Blending shapes into glowing objects.</figcaption>
 </figure>
 
 #### Outer space scenes
@@ -511,7 +518,7 @@ By alternating between quick blends and slow smudges you can create some realist
 
 <figure>
   <img src="http://placehold.it/640x480" alt="drawing and blending flames video">
-  <figcaption>Flames aren't the only thing you can smudge into existence. Smoke trails can be achieved just as easily with slow blends.</figcaption>
+  <figcaption>[Video tutorial of drawing/blending fire] Flames aren't the only thing you can smudge into existence. Smoke trails can be achieved just as easily with slow blends.</figcaption>
 </figure>
 
 ### How to improve your blending
@@ -528,11 +535,11 @@ Fear not, here's a few pointers to help keep your blends, blurs, and smudges in 
 
 #### Paint over a blend
 
-A nice way to recover from over worked blends is by [applying layers of watercolor]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#glazes "painting glazes with Paper") on top. This helps restore balance by upping the texture and downplaying the *airbrushed* look. Thoughtfully placed pencil strokes can also have the same effect with the right color selection.
+A nice way to recover from over worked blends is by [applying layers of watercolor]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#glazes "painting glazes with Paper") on top. This helps restore balance by upping the texture and downplaying the *airbrushed* look. Thoughtfully placed pencil strokes can also have the same effect when combined with the right color.
 
 <figure>
   <a href="{{ site.url }}/images/pencil-53-blend-recovery-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blend-recovery-900.jpg" alt="watercolor glazed over a blend"></a>
-  <figcaption>Bring some life back to aggressive blurs by adding texture with pencil or watercolor strokes.</figcaption>
+  <figcaption>Bring some life back to aggressive blurs by adding texture with sketch or watercolor strokes.</figcaption>
 </figure>
 
 #### Feather touches
@@ -541,7 +548,7 @@ Getting the intensity of a blur just right isn't always easy. To make a subtle b
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video of quick blending bursts">
-  <figcaption>By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.</figcaption>
+  <figcaption>[Video of quick burst blending] By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.</figcaption>
 </figure>
 
 <div class="notice-warning" markdown="1">
