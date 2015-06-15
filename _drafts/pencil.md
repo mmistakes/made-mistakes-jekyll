@@ -6,7 +6,7 @@ categories: mastering-paper
 excerpt: "Learn how to use FiftyThree's Pencil most compelling features, Blend and Surface Pressure to pull off effects and techniques no other iPad stylus can match."
 tags: [paper by 53, pencil, tutorial, drawing, blend, ipad]
 image:
-  feature:
+  feature: 1200x500.png
   teaser:
 comments: true
 ---
@@ -24,14 +24,14 @@ Apart from the addition of **Surface Pressure**, little has changed since I [fir
 
 Pencil by FiftyThree is not like other styli and pens designed to work with Apple's iPad tablet. The unique shape and meticulously crafted finishes (*Walnut*, *Graphite*, and *Gold*) are the obvious differentiators, but it's the experiential qualities that truly sets it apart from the rest.
 
-![iPad styli](http://placehold.it/900x300)
+![Pencil by FiftyThree]({{ site.url }}/images/pencil-53-feature-900.jpg)
 
 For the uninitiated, Pencil allows you to switch between tools in an intuitive and natural way when working with Paper (and [apps that support FiftyThree's SDK](http://www.fiftythree.com/pencil-ready "Pencil ready iOS apps")). Bounce between drawing, erasing, and blending without ever having to "switch tools" --- the tip draws, the eraser erases, and your finger smudges.
 
 <figure class="third">
-  <img src="http://placehold.it/640x480" alt="photo of drawing with Pencil">
-  <img src="http://placehold.it/640x480" alt="photo of erasing with Pencil">
-  <img src="http://placehold.it/640x480" alt="photo of blending with Pencil">
+  <a href="{{ site.url }}/images/pencil-53-draw-lg.jpg"><img src="{{ site.url }}/images/pencil-53-draw-600.jpg" alt="photo of drawing with Pencil"></a>
+  <a href="{{ site.url }}/images/pencil-53-erase-lg.jpg"><img src="{{ site.url }}/images/pencil-53-erase-600.jpg" alt="photo of erasing with Pencil"></a>
+  <a href="{{ site.url }}/images/pencil-53-blend-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blend-600.jpg" alt="photo of blending with Pencil"></a>
   <figcaption>Switching between modes of working is a breeze with Pencil.</figcaption>
 </figure>
 
@@ -139,8 +139,8 @@ Sketching in this way is not only more fun serves a practical reason as well. By
 You may have noticed in the cheat sheet above (or in your own experiments), that the sketch tool takes on new qualities with Surface Pressure. With this tool selected, the edge of Pencil's tip will make wide textured strokes that resembles those made with charcoal or graphite.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="wide sketch strokes with Pencil">
-  <img src="http://placehold.it/640x480" alt="strokes made with charcoal and paper">
+  <a href="{{ site.url }}/images/pencil-53-simulate-charcoal-lg.jpg"><img src="{{ site.url }}/images/pencil-53-simulate-charcoal-600.jpg" alt="wide sketch strokes with Pencil"></a>
+  <a href="{{ site.url }}/images/charcoal-drawing-600.jpg"><img src="{{ site.url }}/images/charcoal-drawing-lg.jpg" alt="strokes made with charcoal and paper"></a>
   <figcaption>Digital strokes made using the side of Pencil's tip compared against those made with compressed charcoal on newsprint paper.</figcaption>
 </figure>
 
@@ -184,11 +184,6 @@ Now that you know what Surface Pressure is and roughly how it works. I thought i
 #### Gesture drawing and other warm-ups
 
 A great way to warm-up before doing any sort of serious drawing is with quick gesture sketches. In art school we'd start each class capturing a model's movement with a series of 2 minute poses with charcoal and conté crayons.
-
-<figure>
-  <img src="http://placehold.it/640x480" alt="charcoal on newsprint gesture drawings">
-  <figcaption>Examples of gesture drawings in charcoal on newsprint paper.</figcaption>
-</figure>
 
 With the pencil tool in Paper and Surface Pressure you can get the same result as a stick of charcoal rubbed on newsprint. Even better, you avoid any of the mess typically associated with it when working digitally.
 
@@ -452,9 +447,9 @@ Building on the techniques found in my [**Mastering Paper: Drawing Clouds** tuto
 These techniques don't have to only be used to enhance clouds. They work great for softening pencil strokes, turning them into the beautiful *aurora borealis* (the Northern Lights).
 
 <figure class="half">
-  <a href="{{ site.url }}/images/pencil-53-aurora-sketch-lg.jpg"><img src="{{ site.url }}/images/pencil-53-aurora-sketch-lg.jpg" alt="sketching the aurora"></a>
-  <a href="{{ site.url }}/images/pencil-53-aurora-smudged-lg.jpg"><img src="{{ site.url }}/images/pencil-53-aurora-smudged-lg.jpg" alt="smudging the aurora"></a>
-  <figcaption>Give light trails a sense of motion by pulling your blend strokes slowly. Practicing smudging the <a href="https://mix.fiftythree.com/11098-Michael-Rose/915375">aurora borealis on Mix</a>.</figcaption>
+  <a href="{{ site.url }}/images/pencil-53-aurora-sketch-lg.jpg"><img src="{{ site.url }}/images/pencil-53-aurora-sketch-700.jpg" alt="sketching the aurora"></a>
+  <a href="{{ site.url }}/images/pencil-53-aurora-smudged-lg.jpg"><img src="{{ site.url }}/images/pencil-53-aurora-smudged-700.jpg" alt="smudging the aurora"></a>
+  <figcaption>Give light trails a sense of motion by pulling your blend strokes slowly. Practice smudging the <a href="https://mix.fiftythree.com/11098-Michael-Rose/915375">aurora borealis on Mix</a>.</figcaption>
 </figure>
 
 #### Simulate atmospheric perspective
@@ -466,24 +461,25 @@ Now you could be meticulous with your color choices and purposely mix gray and b
 In this drawing of tree tops the layers near the top are the most heavily blended. While the dark green trees at the bottom remain sharp and untouched.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="tree tops">
-  <img src="http://placehold.it/640x480" alt="tree tops blended">
+  <a href="{{ site.url }}/images/pencil-53-tree-tops-lg.jpg"><img src="{{ site.url }}/images/pencil-53-tree-tops-700.jpg" alt="tree tops drawn in ink"></a>
+  <a href="{{ site.url }}/images/pencil-53-tree-tops-blended-lg.jpg"><img src="{{ site.url }}/images/pencil-53-tree-tops-blended-700.jpg" alt="tree tops blended"></a>
   <figcaption>Blend the plane (or object) furthest from the foreground the most and gradually decrease that amount as you move forwards.</figcaption>
 </figure>
 
 Very similar to the reflection example above, you can create a dense layer of by blending everything --- not just the reflected trees. By smudging over the drawing it effectively lowers the contrast making things appear hazy.
 
-<figure class="half">
-  <img src="http://placehold.it/640x480" alt="fog scene step 1">
-  <img src="http://placehold.it/640x480" alt="fog scene step 2">
-  <figcaption>Start with an rough sketch filled in with either watercolor or ink. Then cover the canvas in circular blend strokes to blur everything.</figcaption>
+<figure class="third">
+  <a href="{{ site.url }}/images/pencil-53-fog-scene-1-lg.jpg"><img src="{{ site.url }}/images/pencil-53-fog-scene-1-600.jpg" alt="drawing the horizon line"></a>
+  <a href="{{ site.url }}/images/pencil-53-fog-scene-2-lg.jpg"><img src="{{ site.url }}/images/pencil-53-fog-scene-2-600.jpg" alt="drawing the trees tops"></a>
+  <a href="{{ site.url }}/images/pencil-53-fog-scene-3-lg.jpg"><img src="{{ site.url }}/images/pencil-53-fog-scene-3-600.jpg" alt="drawing the trees reflected in the water"></a>
+  <figcaption>Start by drawing the horizon line so you know where to place the trees and those that will be reflected below in the water. Then cover the canvas in circular blend strokes to blur everything.</figcaption>
 </figure>
 
-Once blurred subtle details can be added back in. For example more defined edges in the tree tops or small waves in the water.
+The fog effect is achieved by covering the canvas in circular blend strokes to blur everything. Once blurred subtle details can be added to define the tree tops and small waves in the water.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="fog scene step 3 - tree details">
-  <img src="http://placehold.it/640x480" alt="fog scene step 4 - wave details">
+  <a href="{{ site.url }}/images/pencil-53-fog-scene-4-lg.jpg"><img src="{{ site.url }}/images/pencil-53-fog-scene-4-600.jpg" alt="drawing the horizon line"></a>
+  <a href="{{ site.url }}/images/pencil-53-fog-scene-5-lg.jpg"><img src="{{ site.url }}/images/pencil-53-fog-scene-5-600.jpg" alt="drawing the horizon line"></a>
 </figure>
 
 #### Lighting effects
@@ -522,8 +518,9 @@ By alternating between quick blends and slow smudges you can create some realist
 
 The temptation is really high to abuse the Blend feature in Paper --- especially after learning about all these awesome effects. It's easy to turn a drawing into a smeared mess resembling something you'd find on [**Photoshop Disasters**](http://www.psdisasters.com/) if don't know when to quit, a fact I learned the first time I tried to blend a face.
 
-<figure>
-  <img src="http://placehold.it/640x480" alt="blended face disaster paperfaces/2013-12-09-dermike-portrait">
+<figure class="half">
+  <a href="{{ site.url }}{% post_url /paperfaces/2013-12-09-dermike-portrait %}"><img src="{{ site.url }}/images/paperfaces-dermike-process-1-750.jpg" alt="blended face disaster paperfaces"></a>
+  <a href="{{ site.url }}{% post_url /paperfaces/2013-12-09-dermike-portrait %}"><img src="{{ site.url }}/images/paperfaces-dermike-twitter-700.jpg" alt="blended face disaster paperfaces"></a>
   <figcaption>Blend got away from me here as I distorted the shape of the face too much and lost all of the texture from the original watercolor layers.</figcaption>
 </figure>
 
@@ -533,10 +530,9 @@ Fear not, here's a few pointers to help keep your blends, blurs, and smudges in 
 
 A nice way to recover from over worked blends is by [applying layers of watercolor]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#glazes "painting glazes with Paper") on top. This helps restore balance by upping the texture and downplaying the *airbrushed* look. Thoughtfully placed pencil strokes can also have the same effect with the right color selection.
 
-<figure class="half">
-  <img src="http://placehold.it/640x480" alt="watercolor glazed over a blend">
-  <img src="http://placehold.it/640x480" alt="Surface Pressure shading over a blend">
-  <figcaption>Bring some life back to aggressive blurs.</figcaption>
+<figure>
+  <a href="{{ site.url }}/images/pencil-53-blend-recovery-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blend-recovery-900.jpg" alt="watercolor glazed over a blend"></a>
+  <figcaption>Bring some life back to aggressive blurs by adding texture with pencil or watercolor strokes.</figcaption>
 </figure>
 
 #### Feather touches
@@ -552,8 +548,6 @@ Getting the intensity of a blur just right isn't always easy. To make a subtle b
 #### Stronger Blending with Zoom
 When opening the magnifying loupe to zoom-in the blurring effects intensifies which has its pros and cons. For subtle blurs I suggest Blending without a zoom.
 </div>
-
----
 
 Phew --- this was a long one! I covered a ton of material so if anything is unclear or needs further explanation, please let me know.
 
