@@ -119,8 +119,8 @@ If you ask me, the marriage of hardware and software that makes Surface Pressure
 ### By design Pencil's invites you to hold it differently
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video showing alternate ways to hold Pencil">
-  <figcaption>[Video demonstrating Pencil grip for Surface Pressure shading] To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/g6z6Hm3SPGA" frameborder="0"> </iframe>
+  <figcaption>To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
 </figure>
 
 I like to hold Pencil as if it's a piece of charcoal and utilize its angled edge when quickly sketching. Not only does this change the characteristics of pencil strokes (I'll get to that in a minute), but it also encourages you to use your entire arm instead of just the wrist.
