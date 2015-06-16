@@ -119,11 +119,11 @@ If you ask me, the marriage of hardware and software that makes Surface Pressure
 ### By design Pencil's invites you to hold it differently
 
 <figure>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/g6z6Hm3SPGA" frameborder="0"> </iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/vmgQpzBOOSc" frameborder="0" allowfullscreen></iframe>
   <figcaption>To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
 </figure>
 
-I like to hold Pencil as if it's a piece of charcoal and utilize its angled edge when quickly sketching. Not only does this change the characteristics of pencil strokes (I'll get to that in a minute), but it also encourages you to use your entire arm instead of just the wrist.
+I like to hold Pencil as if it's a piece of charcoal and utilize the angled tip when quickly sketching. Not only does this change the characteristics of pencil strokes (I'll get to that in a minute), but it also encourages you to use your entire arm instead of just the wrist.
 
 Sketching in this way is not only more fun serves a practical reason as well. By moving your entire arm you'll find that: 
   
@@ -426,12 +426,7 @@ Using the watercolor brush you'll want to lay down a base color and then start l
   <figcaption>Don't worry about placing too many details in at this point, we're going to smudge most of them away in a minute...</figcaption>
 </figure>
 
-With our background in good shape make sure Pencil is connected and Blend enabled and start smudging away. Using a circular motion softly move your finger tip over the background to blur it.
-
-<figure>
-  <img src="http://placehold.it/640x480" alt="scuba diver blend background video">
-  <figcaption>[Video blending the background evenly] Working from top to bottom will help you cover the background with an even blend.</figcaption>
-</figure>
+With our background in good shape make sure Pencil is connected and Blend enabled and start smudging away. Using a circular motion softly move your finger tip over the background to blur it evenly.
 
 When done correctly the water should look almost dreamlike with a uniform blur across the entire plane. To finish, add things bubbles, more fish, or plant life to the scene. If you don't blend them they will automatically look as if they're floating above the water adding a nice sense of depth to the scene.
 
