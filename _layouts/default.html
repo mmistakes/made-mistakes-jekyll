@@ -38,31 +38,6 @@
 
     {% stylesheet global %}
 
-    <!-- Defer loading of webfonts -->
-    <script>
-      ~function (document) {
-        var elem = document.createElement('link');
-        var head = document.getElementsByTagName('head')[0];
-        elem.rel = 'stylesheet';
-        elem.href = '{% asset_path fonts.css %}';
-        elem.media = 'only x';
-        head.appendChild(elem);
-        setTimeout(function () {
-          elem.media = 'all';
-        });
-      }(document);
-    </script>
-    <!-- no-js fallback -->
-    <noscript>
-      {% stylesheet fonts %}
-    </noscript>
-
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      {% javascript vendor/html5shiv %}
-      {% javascript vendor/respond %}
-    <![endif]-->
-
     <!-- menu fix for old IE -->
     <!--[if lt IE 9]>
     <style>
@@ -73,6 +48,12 @@
         display: block;
       }
     </style>
+    <![endif]-->
+
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      {% javascript vendor/html5shiv %}
+      {% javascript vendor/respond %}
     <![endif]-->
 
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
@@ -104,6 +85,23 @@
     {% include footer.html %}
 
     {% javascript main defer %}
+
+    <!-- Defer loading of webfonts -->
+    <script>
+      ~function (document) {
+        var elem = document.createElement('link');
+        var head = document.getElementsByTagName('head')[0];
+        elem.rel = 'stylesheet';
+        elem.href = '{% asset_path fonts.css %}';
+        elem.media = 'only x';
+        head.appendChild(elem);
+        setTimeout(function () {
+          elem.media = 'all';
+        });
+      }(document);
+    </script>
+    <!-- no-js fallback -->
+    <noscript>{% stylesheet fonts %}</noscript>
 
     <!-- Google Universal Analytics -->
     <script defer>
