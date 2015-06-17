@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Mastering Paper by FiftyThree: Drawing Outer Space"
-modified: 2015-01-28T11:18:25-05:00
+modified: 2015-06-17T15:07:42-04:00
 categories: mastering-paper
 excerpt: "Learn how I draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and Pencil."
 tags: [paper by 53, tutorial, space, blend, pencil, stylus, ipad]
@@ -28,7 +28,7 @@ And with that let's get started.
 ## Painting outer space with your finger
 
 <figure>
-  <iframe width="560" height="315" src="//www.youtube.com/embed/myAwO2k23q4" frameborder="0"> </iframe>
+  <iframe width="560" height="315" src="//www.youtube.com/embed/myAwO2k23q4?showinfo=0" frameborder="0"> </iframe>
   <figcaption>How to draw and paint an outer space scene with only your finger and Paper by 53.</figcaption>
 </figure>
 
@@ -182,7 +182,7 @@ Once satisfied with the results repeat the process for as many other planets as 
 Building on the same techniques used in the first half of this guide, I'm going to now show you how Pencil can be used to enhance and speed things up. For the most part you follow the exact same steps with a few embellishments to ratchet up the realism.
 
 <figure>
-  <iframe width="560" height="315" src="//www.youtube.com/embed/pdSp4Y4GOQs" frameborder="0"> </iframe>
+  <iframe width="560" height="315" src="//www.youtube.com/embed/pdSp4Y4GOQs?showinfo=0" frameborder="0"> </iframe>
   <figcaption>How to draw and paint an outer space scene with Pencil and Paper by 53.</figcaption>
 </figure>
 
@@ -250,6 +250,11 @@ Since it's pretty difficult to draw a perfect circle freehand I'm going to trace
 </figure>
 
 Placing the object directly on the iPad's screen, carefully trace around its edge. It may be hard to match up the lines exactly on your first go so just Rewind to undo until you get it right.
+
+<div class="notice-info" markdown="1">
+#### Update: Perfect Circles
+Since writing this tutorial Paper was updated with [**Think Kit**](http://www.fiftythree.com/think). Now drawing perfect lines and shapes is only a swipe away in the tool tray.
+</div>
 
 {% include ads/skyscraper.html %}
 
