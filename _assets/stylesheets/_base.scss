@@ -7,10 +7,14 @@
    ========================================================================== */
 
 body {
-  font-family: $base-font;
+  font-family: $base-font-fallback;
   color: $text-color;
   background-color: $white;
   @include font-size(16,no);
+  /* use webfont */
+  @at-root .fonts-loaded #{&} {
+    font-family: $base-font;
+  }
 }
 
 p {
@@ -34,9 +38,13 @@ ul, ol {
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font;
+  font-family: $heading-font-fallback;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
   font-weight: 500;
+  /* use webfont */
+  @at-root .fonts-loaded #{&} {
+    font-family: $heading-font;
+  }
 }
 h1 {
   @include font-size(24);
