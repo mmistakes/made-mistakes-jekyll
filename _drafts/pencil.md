@@ -119,7 +119,7 @@ If you ask me, the marriage of hardware and software that makes Surface Pressure
 ### By design Pencil's invites you to hold it differently
 
 <figure>
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/vmgQpzBOOSc" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/vmgQpzBOOSc" frameborder="0" allowfullscreen></iframe>
   <figcaption>To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
 </figure>
 
@@ -159,8 +159,8 @@ Reduce color banding by holding Pencil on its side and moving in a circular moti
 </div>
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video showing circular shading">
-  <figcaption>[Video of evening out Surface Pressure shading] Spread tones more evenly by overlapping them in a circular motion.</figcaption>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/ChJ3LSCOyoM" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Spread pencil tones evenly by overlapping them with a circular motion.</figcaption>
 </figure>
 
 If you look closely at the wide strokes of the pencil (sketch) tool, you'll notice it fades from dark to light.
@@ -203,8 +203,8 @@ To get the most out of this technique you're going to want to hold Pencil differ
 As you sketch and draw with this *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving --- wrist only movements will lack fluidity. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="slow motion video of gesture drawing">
-  <figcaption>[Video of quick gesture drawing with Pencil] Gesture drawing using Pencil held in the palm grip.</figcaption>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/rqBLBCfDjZU" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Gesture drawing using Pencil held in the palm grip.</figcaption>
 </figure>
 
 Another great way to loosen up your arm and hand is to draw ovals over and over again. Focus on moving your entire arm in a circular motion directly above the iPad's screen. 
