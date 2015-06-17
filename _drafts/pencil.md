@@ -119,7 +119,7 @@ If you ask me, the marriage of hardware and software that makes Surface Pressure
 ### By design Pencil's invites you to hold it differently
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/vmgQpzBOOSc" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/vmgQpzBOOSc?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ Reduce color banding by holding Pencil on its side and moving in a circular moti
 </div>
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/ChJ3LSCOyoM" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/ChJ3LSCOyoM?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>Spread pencil tones evenly by overlapping them with a circular motion.</figcaption>
 </figure>
 
@@ -203,7 +203,7 @@ To get the most out of this technique you're going to want to hold Pencil differ
 As you sketch and draw with this *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving --- wrist only movements will lack fluidity. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/rqBLBCfDjZU" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/rqBLBCfDjZU?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>Gesture drawing using Pencil held in the palm grip.</figcaption>
 </figure>
 
@@ -234,8 +234,9 @@ Surface Pressure enabled shading does most of the hard work by automatically mak
 Remember, each pass with Pencil's angled tip leaves a noticeable edge when overlapped --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video drawing a tomato in gray and color">
-  <figcaption>[Video of shading a tomato] By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work.</figcaption>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/O31BPEgKrXs?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <img src="http://placehold.it/640x480" alt="complete tomato drawings in grayscale and color">
+  <figcaption>By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
