@@ -53,33 +53,36 @@
   }
 
   .tile-cover {
-    padding: 2em;
     display: block;
     width: 100%;
     height: 100%;
     text-decoration: none;
-    background-image: linear-gradient(200deg, rgba($black, 0.0823529) 0%, rgba($black, 0.0823529) 10%, rgba($black, 0.0823529) 20%, rgba($black, 0.0823529) 30%, rgba($black, 0.0901961) 40%, rgba($black, 0.215686) 50%, rgba($black, 0.423529) 60%, rgba($black, 0.631373) 70%, rgba($black, 0.760784) 80%, rgba($black, 0.823529) 90%, rgba($black, 0.847059) 100%);
+    // background-image: linear-gradient(200deg, rgba($black, 0.0823529) 0%, rgba($black, 0.0823529) 10%, rgba($black, 0.0823529) 20%, rgba($black, 0.0823529) 30%, rgba($black, 0.0901961) 40%, rgba($black, 0.215686) 50%, rgba($black, 0.423529) 60%, rgba($black, 0.631373) 70%, rgba($black, 0.760784) 80%, rgba($black, 0.823529) 90%, rgba($black, 0.847059) 100%);
     -webkit-backface-visibility: hidden;
     overflow: hidden;
     transition: 0.2s ease-out;
     &:hover {
-      background-color: rgba($black, 0.4);
+      background-color: $black;
       box-shadow: 0 0 10px rgba($black, 0.20);
       .tile-info {
-        transform: translate(0.5em);
+        opacity: 1;
       }
     }
   }
 
   .tile-info {
     position: absolute;
-    bottom: 0;
-    right: 0;
     left: 0;
+    right: 0;
+    text-align: center;
     padding: 1em;
-    width: auto;
-    max-width: 20em;
     transition: 0.2s ease-out;
+    /* center text vertically in div */
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0; // hide at load
   }
 
   .tile-meta {
@@ -88,6 +91,7 @@
     @include font-size(14, no);
     color: $white;
     text-shadow: 1px 1px 0 $black;
+    display: none;
   }
 
   .tile-title {
@@ -104,10 +108,27 @@
   }
 
   .tile-excerpt {
-    @include font-size(16, no, 24);
-    margin-top: 6px;
+    font-family: $alt-font;
+    @include font-size(14, no, 16);
+    margin: 6px auto;
+    max-width: 320px;
+    color: $white;
   }
 }
+
+/* touch devices */
+.touch {
+  .tile {
+    .tile-info {
+      background: $black;
+      opacity: 1;
+    }
+    .tile-excerpt {
+      display: none;
+    }
+  }
+}
+
 
 /*
    Tiles container 3/4 width (used with sidebar layout)
