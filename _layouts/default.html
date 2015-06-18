@@ -50,15 +50,17 @@
     </style>
     <![endif]-->
 
-    {% javascript vendor/modernizr.custom %}
-
-    {% include fonts.html %}
+    <script>{% asset vendor/modernizr.custom %}</script>
 
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       {% javascript vendor/html5shiv %}
       {% javascript vendor/respond %}
     <![endif]-->
+
+    <!-- Font loader -->
+    <script>{% asset vendor/fontfaceobserver %}</script>
+    {% include fonts.html %}
 
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png">
@@ -104,7 +106,7 @@
     </script>
 
     {% if page.comments == true %}
-    <script>
+    <script defer>
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
       var disqus_shortname = '{{ site.disqus-shortname }}';
       var disqus_title = '{{ page.title }}';
