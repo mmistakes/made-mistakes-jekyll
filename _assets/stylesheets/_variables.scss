@@ -6,12 +6,14 @@
    Typography related variables
    ========================================================================== */
 
-$base-font                    : 'Alegreya', Georgia, serif;
-$heading-font                 : 'Alegreya Sans', sans-serif;
-$heading-font-title           : 'Alegreya Sans', sans-serif;
-$caption-font                 : 'Alegreya Sans', sans-serif;
+$base-font                    : 'Alegreya';
+$base-font-fallback           : Georgia, serif;
+$heading-font-fallback        : sans-serif;
+$heading-font                 : 'Alegreya Sans';
+$heading-font-title           : $heading-font;
+$caption-font                 : $heading-font;
 $code-font                    : monospace;
-$alt-font                     : 'Alegreya Sans', sans-serif;
+$alt-font                     : $heading-font;
 
 $doc-font-size                : 16;
 $doc-line-height              : 24;

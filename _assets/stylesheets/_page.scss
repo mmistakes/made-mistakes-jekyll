@@ -182,7 +182,7 @@
   @include pre(1);
   @include post(1);
   margin-top: 100px; // enough to clear masthead when there is no .page-image
-  font-family: $heading-font-title;
+  // font-family: $heading-font-title;
   font-weight: 700;
   text-align: center;
   letter-spacing: -1px;

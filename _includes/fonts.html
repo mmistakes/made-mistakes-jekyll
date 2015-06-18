@@ -1,0 +1,28 @@
+<script>
+  /* trigger font loading */
+
+  if (document.documentElement.className.indexOf( "fonts-loaded" ) < 0 ) {
+    var Alegreya400 = new FontFaceObserver("Alegreya", {weight: 400});
+    var Alegreya400italic = new FontFaceObserver("Alegreya", {weight: 400, style: 'italic'});
+    var Alegreya700 = new FontFaceObserver("Alegreya", {weight: 700});
+
+    var AlegreyaSans300 = new FontFaceObserver("Alegreya Sans", {weight: 300});
+    var AlegreyaSans400 = new FontFaceObserver("Alegreya Sans", {weight: 400});
+    var AlegreyaSans400italic = new FontFaceObserver("Alegreya Sans", {weight: 400, style: 'italic'});
+    var AlegreyaSans500 = new FontFaceObserver("Alegreya Sans", {weight: 500});
+    var AlegreyaSans700 = new FontFaceObserver("Alegreya Sans", {weight: 700});
+
+    Promise.all([
+      Alegreya400.check(),
+      Alegreya400italic.check(),
+      Alegreya700.check(),
+      AlegreyaSans300.check(),
+      AlegreyaSans400.check(),
+      AlegreyaSans400italic.check(),
+      AlegreyaSans500.check(),
+      AlegreyaSans700.check(),
+    ]).then(function() {
+      document.documentElement.className += " fonts-loaded";
+    });
+  }
+</script>
