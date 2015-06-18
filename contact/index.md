@@ -28,7 +28,7 @@ Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my 
 
 For anything longer please fill out the form below and I'll get back to you by email. 
 
-{% javascript vendor/wufoo %}
+<script>{% asset vendor/wufoo %}</script>
 
 <form id="form1" name="form1" class="wufoo  page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <ul>
