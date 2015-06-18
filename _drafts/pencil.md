@@ -547,7 +547,6 @@ A nice way to recover from over worked blends is by [applying layers of watercol
 Getting the intensity of a blur just right isn't always easy. To make a subtle blend you have to barely graze the iPad's screen as you quickly swipe against it. This works OK when you're covering a large area, but for small area blends it can be a real challenge.
 
 The trick is to be quick. By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.
-</figure>
 
 <div class="notice-warning" markdown="1">
 #### Stronger Blending with Zoom
