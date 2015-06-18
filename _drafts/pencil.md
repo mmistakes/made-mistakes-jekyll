@@ -69,8 +69,8 @@ Thankfully FiftyThree put the engineering effort into Paper and Pencil to allevi
 When Pencil is connected to Paper (or [supporting apps](http://www.fiftythree.com/pencil-ready)), **Palm Rejection** completely transforms the drawing experience making it more accessible. 
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="Everly and Chloe drawing with Pencil">
-  <figcaption>[Video of the twins using Pencil/Paper] Now if the twins could only learn how to share iPad and Pencil...</figcaption>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/RRYmYPf1KpY?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Now if the twins could only learn how to share...</figcaption>
 </figure>
 
 Registering touches consistently is almost impossible for the twins at this age. 
@@ -209,10 +209,9 @@ As you sketch and draw with this *palm grip* you'll need to get comfortable with
 
 Another great way to loosen up your arm and hand is to draw ovals over and over again. Focus on moving your entire arm in a circular motion directly above the iPad's screen. 
 
-<figure class="half">
-  <img src="http://placehold.it/640x480" alt="animated GIF of circle drawing">
-  <img src="http://placehold.it/640x480" alt="animated GIF of many ovals">
-  <figcaption>[Animated GIFs] If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps achieve accurate and crisp lines without constantly rewinding mistakes.</figcaption>
+<figure>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/k3glCSQt22M?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps achieve accurate and crisp lines without constantly rewinding mistakes.</figcaption>
 </figure>
 
 #### Shading and tone building
@@ -235,7 +234,7 @@ Remember, each pass with Pencil's angled tip leaves a noticeable edge when overl
 
 <figure>
   <iframe width="1280" height="720" src="https://www.youtube.com/embed/O31BPEgKrXs?showinfo=0" frameborder="0" allowfullscreen></iframe>
-  <img src="http://placehold.it/640x480" alt="complete tomato drawings in grayscale and color">
+  <img src="{{ site.url }}/images/pencil-surface-pressure-tomatoes.jpg" alt="Surface Pressure tomato drawings in grayscale and color">
   <figcaption>By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work.</figcaption>
 </figure>
 
@@ -264,8 +263,8 @@ As you might have guessed from the above heading, Blend lets you smudge stuff. S
 It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") allowing you to control it on the fly.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video showing various types of blends">
-  <figcaption>[Video of different types of blends] Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them.</figcaption>
+  <iframe width="1280" height="720" src="https://www.youtube.com/embed/nzfTY5rw9Q0?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
@@ -542,9 +541,7 @@ A nice way to recover from over worked blends is by [applying layers of watercol
 
 Getting the intensity of a blur just right isn't always easy. To make a subtle blend you have to barely graze the iPad's screen as you quickly swipe against it. This works OK when you're covering a large area, but for small area blends it can be a real challenge.
 
-<figure>
-  <img src="http://placehold.it/640x480" alt="video of quick blending bursts">
-  <figcaption>[Video of quick burst blending] By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.</figcaption>
+The trick is to be quick. By barely touching the iPad's screen while you swipe it fast, you can create blends that aren't as harsh.
 </figure>
 
 <div class="notice-warning" markdown="1">
