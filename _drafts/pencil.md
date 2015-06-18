@@ -69,7 +69,7 @@ Thankfully FiftyThree put the engineering effort into Paper and Pencil to allevi
 When Pencil is connected to Paper (or [supporting apps](http://www.fiftythree.com/pencil-ready)), **Palm Rejection** completely transforms the drawing experience making it more accessible. 
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/RRYmYPf1KpY?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/RRYmYPf1KpY?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>Now if the twins could only learn how to share...</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ If you ask me, the marriage of hardware and software that makes Surface Pressure
 ### By design Pencil's invites you to hold it differently
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/vmgQpzBOOSc?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/vmgQpzBOOSc?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>To get the most out of Surface Pressure you'll want to practice holding it with different grips.</figcaption>
 </figure>
 
@@ -150,7 +150,7 @@ Wide strokes made with the pencil tool overlap differently than the ink, marker,
 
 <figure>
   <img src="{{ site.url }}/images/pencil-surface-pressure-overlap.gif" alt="animation showing overlapping wide pencil strokes">
-  <figcaption>[Animated GIF] With every overlapping pass the tones darken with noticeable edges between the "V" strokes.</figcaption>
+  <figcaption>With every overlapping pass the tones darken with noticeable edges between the "V" strokes.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
@@ -159,7 +159,7 @@ Reduce color banding by holding Pencil on its side and moving in a circular moti
 </div>
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/ChJ3LSCOyoM?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/ChJ3LSCOyoM?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>Spread pencil tones evenly by overlapping them with a circular motion.</figcaption>
 </figure>
 
@@ -203,14 +203,14 @@ To get the most out of this technique you're going to want to hold Pencil differ
 As you sketch and draw with this *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving --- wrist only movements will lack fluidity. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/rqBLBCfDjZU?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/rqBLBCfDjZU?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>Gesture drawing using Pencil held in the palm grip.</figcaption>
 </figure>
 
 Another great way to loosen up your arm and hand is to draw ovals over and over again. Focus on moving your entire arm in a circular motion directly above the iPad's screen. 
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/k3glCSQt22M?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/k3glCSQt22M?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>If you take a close look you'll notice I make several practice strokes in the air above the screen before making contact with the tip. This helps achieve accurate and crisp lines without constantly rewinding mistakes.</figcaption>
 </figure>
 
@@ -233,7 +233,7 @@ Surface Pressure enabled shading does most of the hard work by automatically mak
 Remember, each pass with Pencil's angled tip leaves a noticeable edge when overlapped --- use this to your advantage! By being deliberate in the direction of your strokes you will help define and reinforce the form of an object. Sort of like [how hatching works]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques), but with fatter strokes.
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/O31BPEgKrXs?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/O31BPEgKrXs?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <img src="{{ site.url }}/images/pencil-surface-pressure-tomatoes.jpg" alt="Surface Pressure tomato drawings in grayscale and color">
   <figcaption>By curving my strokes around the contour of the tomato I let Pencil and Surface Pressure do all the work.</figcaption>
 </figure>
@@ -263,7 +263,7 @@ As you might have guessed from the above heading, Blend lets you smudge stuff. S
 It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") allowing you to control it on the fly.
 
 <figure>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/nzfTY5rw9Q0?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/nzfTY5rw9Q0?showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>Speed matters. Fast strokes slightly blur objects while slow ones can be used to smudge and deform them.</figcaption>
 </figure>
 
@@ -511,12 +511,17 @@ The two sets of tutorials show how to smear color around a black canvas to creat
 
 By alternating between quick blends and slow smudges you can create some realistic looking flames and fire. It takes some practice to get the speed just right, but once mastered I think the end results speak for themselves.
 
+<figure class="half">
+  <a href="{{ site.url }}/images/pencil-53-blend-flame-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blend-flame-700.jpg" alt="blended ink to create flames"></a>
+  <a href="{{ site.url }}/images/pencil-53-blend-matchstick-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blend-matchstick-700.jpg" alt="blended ink to create fire and smoke"></a>
+</figure>
+
 <figure>
   <img src="http://placehold.it/640x480" alt="drawing and blending flames video">
   <figcaption>[Video tutorial of drawing/blending fire] Flames aren't the only thing you can smudge into existence. Smoke trails can be achieved just as easily with slow blends.</figcaption>
 </figure>
 
-### How to improve your blending
+### How to improve blends
 
 The temptation is really high to abuse the Blend feature in Paper --- especially after learning about all these awesome effects. It's easy to turn a drawing into a smeared mess resembling something you'd find on [**Photoshop Disasters**](http://www.psdisasters.com/) if don't know when to quit, a fact I learned the first time I tried to blend a face.
 
