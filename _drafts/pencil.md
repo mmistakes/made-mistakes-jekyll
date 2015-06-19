@@ -195,8 +195,8 @@ When drawing with Pencil and the sketch tool you can get the same result as a st
 To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of a [tripod grip](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to wrap your fingers around Pencil and rest your thumb just below the tip.
 
 <figure class="half">
-  <img src="http://placehold.it/640x480" alt="traditional writing grip">
-  <img src="http://placehold.it/640x480" alt="palm grip">
+  <img src="{{ site.url }}/images/pencil-tripod-grip.jpg" alt="holding Pencil with a traditional writing grip">
+  <img src="{{ site.url }}/images/pencil-palm-grip.jpg" alt="holding Pencil with a palm grip">
   <figcaption>Tripod grip on the left (good for writing), palm grip on the right (good for gesture drawing).</figcaption>
 </figure>
 
@@ -286,7 +286,7 @@ Apps that support FiftyThree's SDK (like Procreate) get some special abilities w
 
 <figure>
   <img src="http://placehold.it/640x480" alt="video connecting Pencil to Procreate and using Smudge">
-  <figcaption>[Video of Pencil used in Procreate] Quickly switch between painting and smudging with Pencil and Procreate.</figcaption>
+  <figcaption>[Video of Pencil used in Procreate] Seamlessly switch between painting, erasing, and smudging with Pencil and Procreate.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
