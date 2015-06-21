@@ -6,8 +6,8 @@ categories: mastering-paper
 excerpt: "Learn how to use FiftyThree's Pencil most compelling features, Blend and Surface Pressure to pull off effects and techniques no other iPad stylus can match."
 tags: [paper by 53, pencil, tutorial, drawing, blend, ipad]
 image:
-  feature: 1200x500.png
-  teaser:
+  feature: mastering-pencil-feature.jpg
+  teaser: mastering-pencil-teaser.jpg
 comments: true
 ---
 
@@ -47,7 +47,7 @@ Thin lines are made with Pencil's fine point while wider ones are made with angl
 
 ### A built-in eraser
 
-What would a pencil be without an eraser? Well FiftyThree's Pencil has one of those too. When you want to erase something you just flip Pencil on its head and glide the rubbery edge over the mistake.
+What would a pencil be without an eraser? Well FiftyThree's Pencil has one of those too. When you want to erase something you just flip Pencil on its head and glide the rubbery edge over the mistake to remove it.
 
 ![Pencil's eraser and replacement]({{ site.url }}/images/pencil-53-eraser-replacements.jpg)
 
@@ -73,7 +73,7 @@ When Pencil is connected to Paper (or [supporting apps](http://www.fiftythree.co
   <figcaption>Now if the twins could only learn how to share...</figcaption>
 </figure>
 
-Registering touches consistently is almost impossible for the twins at this age. 
+Registering touches consistently is almost impossible for my two little girls at this age because:
 
 1. The iPad is easily confused by touches made by resting wrists and palms on the screen.
 2. Their small fingers are often ignored by the iPad's sensors.
@@ -114,7 +114,7 @@ Curious on the range you can achieve with Surface Pressure enhanced tools?
   <figcaption>Marks made with each tool: using the tip's point, angled edge, point while zoomed in, and angled edge while zoomed in.</figcaption>
 </figure>
 
-If you ask me, the marriage of hardware and software that makes Surface Pressure work is Pencil's killer feature. It has completely transformed how I interact with Paper on my iPad by allowing me to be more loose with drawing. What does that mean exactly? Well let me show you...
+If you ask me, Surface Pressure is Pencil's killer feature. It has completely transformed how I interact with Paper by allowing me to be more loose with drawing. What does that mean exactly? Well let me show you...
 
 ### By design Pencil's invites you to hold it differently
 
@@ -185,14 +185,14 @@ Now that you know what Surface Pressure is and roughly how it works. I thought i
 
 A great way to warm-up before doing any sort of serious drawing is with quick gesture sketches. In art school we'd start each class capturing a model's movement in a series of 2 minute poses with charcoal and conté crayons.
 
-When drawing with Pencil and the sketch tool you can get the same result as a stick of charcoal rubbed on newsprint. Even better, you avoid any of the mess typically associated with by working digitally.
+When drawing with Pencil and the sketch tool you can get a look that resembles charcoal rubbed onto paper. Even better, by working digitally you avoid any of the mess from handling a stick of charcoal.
 
 <figure>
   <a href="{{ site.url }}/images/pencil-surface-pressure-gestures.jpg"><img src="{{ site.url }}/images/pencil-surface-pressure-gestures-900.jpg" alt="Surface Pressure gesture drawings"></a>
   <figcaption>Examples of gesture drawings created with Pencil and Surface Pressure.</figcaption>
 </figure>
 
-To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of a [tripod grip](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to wrap your fingers around Pencil and rest your thumb just below the tip.
+To get the most out of this technique you're going to want to hold Pencil differently than you're accustomed to. Instead of a [tripod grip](http://www.otplan.com/articles/pencil-grasp-patterns.aspx) you'll want to wrap your fingers around Pencil and rest your thumb just below (or on) the tip.
 
 <figure class="half">
   <img src="{{ site.url }}/images/pencil-tripod-grip.jpg" alt="holding Pencil with a traditional writing grip">
@@ -200,7 +200,7 @@ To get the most out of this technique you're going to want to hold Pencil differ
   <figcaption>Tripod grip on the left (good for writing), palm grip on the right (good for gesture drawing).</figcaption>
 </figure>
 
-As you sketch and draw with this *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving --- wrist only movements will lack fluidity. To better illustrate what I mean here's a slow-motion video of me drawing with the palm grip.
+As you sketch and draw with this *palm grip* you'll need to get comfortable with both **pushing** and **pulling** your strokes. Your entire arm and wrist should be moving --- wrist only movements will lack fluidity. To better illustrate what I mean here's a video of me drawing with the palm grip.
 
 <figure>
   <iframe width="640" height="360" src="https://www.youtube.com/embed/rqBLBCfDjZU?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -258,9 +258,9 @@ As you might have guessed from the above heading, Blend lets you smudge stuff. S
   <figcaption>Pushing pixels with your finger feels fantastic.</figcaption>
 </figure>
 
-### How does Blending work in Paper?
+### How does blending work in Paper?
 
-It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") allowing you to control it on the fly.
+It's not a tool you select like the others, triggering it is way more intuitive than that. You simply use your finger to smudge whatever it is you want to blend or blur. And like most of Paper's tools it [reacts to the speed of your movement](http://making.fiftythree.com/the-precision-behind-blend/ "The Precision Behind Blend") allowing dynamic control on the fly.
 
 <figure>
   <iframe width="640" height="360" src="https://www.youtube.com/embed/nzfTY5rw9Q0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -269,7 +269,7 @@ It's not a tool you select like the others, triggering it is way more intuitive 
 
 <div class="notice-info" markdown="1">
 #### ProTip: Blending with a Non-Pencil Stylus
-If you're looking for more control and accuracy over your blends, try a capacitive stylus instead of your finger. As long as the tip of your stylus is big enough and Pencil is connected this should work. I've had success using a [Pogo Connect][pogo-stylus] and some [cheap styli][cheap-stylus] I picked up from Amazon.
+If you're looking for more control and accuracy over your blends, try a capacitive stylus instead of your finger. As long as the tip of the stylus is big enough and Pencil is connected this should work. I've had success using a [Pogo Connect][pogo-stylus] and some [cheap styli][cheap-stylus] I picked up from Amazon.
 </div>
 
 <figure>
@@ -285,8 +285,8 @@ If you're looking for more control and accuracy over your blends, try a capaciti
 Apps that support FiftyThree's SDK (like Procreate) get some special abilities when connecting Pencil to them. In Procreate for example, your finger will activate the **Smudge tool** so you can freely switch between it and the Paint tool.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video connecting Pencil to Procreate and using Smudge">
-  <figcaption>[Video of Pencil used in Procreate] Seamlessly switch between painting, erasing, and smudging with Pencil and Procreate.</figcaption>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/TboRri2mOVQ?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Seamlessly switch between painting, erasing, and smudging with Pencil and Procreate.</figcaption>
 </figure>
 
 <div class="notice-info" markdown="1">
@@ -322,16 +322,16 @@ By rubbing my finger across the background in a circular motion I was able to qu
   <figcaption>Experiment with the speed at which you move your finger. The slower the more intense the blur...</figcaption>
 </figure>
 
-As you blend the background pay careful attention not to cut in too far into the foreground object(s). It's this contrast between sharp and blurry that will ultimately help sell the effect by creating depth in the piece.
+As you blend the background pay careful attention not to cut too far into the foreground. It's this contrast between sharp and blurry that will ultimately help sell the effect by creating depth in the piece.
 
 <div class="notice-info" markdown="1">
 #### ProTip: Sketch Over a Blend
-After blurring a background with the Blend tool go back over the edges of the objects still in focus. When drawing portraits I like to sketch wispy hair over a blurred background for a nice touch of realism.
+After blurring a background with the Blend tool go back over the edges of foreground objects. When drawing portraits I like to sketch wispy hair over a blurred background to add depth to the drawing.
 </div>
 
 ##### More blurred backgrounds
 
-Here's a few Paper portraits I used Pencil and Blend to draw. Sometimes it's fun to play with what's in focus as can be seen in the second drawing where I purposely smudged the figure's hand instead of the background.
+Here's a few Paper portraits I used Pencil and Blend to draw. In the second drawing I purposely smudged the figure's hand instead of the background to mix things up. Have fun and experiment with focal points!
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-thomas-d-twitter-sq-950.jpg"><img src="{{ site.url }}/images/paperfaces-thomas-d-twitter-sq-640.jpg" alt="Thomas D. portrait"></a>
@@ -381,7 +381,7 @@ Adding snowy details to the mountains is next, followed by inking in a row of tr
   <figcaption>Use the pen tools filled with a dark color to build up the tree silhouettes.</figcaption>
 </figure>
 
-Spend most of your effort perfecting the top half of the scene. Once you're happy with it we're going to create its mirror image. Select the fountain pen tool and roughly draw what you see up top down below --- but flipped upside down.
+Spend most of your effort perfecting the top half of the scene. Once you're happy with it we're going to create its mirror image. Select the fountain pen tool and roughly draw everything again --- in the bottom half and flipped upside down.
 
 It doesn't have to be perfect, you just want to match the colors and general shape of each object --- the most important ones being the trees.
 
@@ -390,11 +390,11 @@ It doesn't have to be perfect, you just want to match the colors and general sha
   <figcaption>You should end up with something similar to this.</figcaption>
 </figure>
 
-Now the fun part. Make sure Pencil is connected and Blend flipped on in Settings, and begin smudging from the horizon line down. At first move quickly to blur and gradually start to slow down as you pull trees into the water.
+Now the fun part. Make sure Pencil is connected, Blend is turned on, and begin smudging everything from the horizon line down. At first, move quickly to create a soft blur. Then gradually begin pulling trees into the water by dragging your finger slowly.
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="video showing how to create reflections">
-  <figcaption>[Video tutorial of creating reflections with Blend] Depending on the chop of the water you may want to slightly zig-zag your smudges to distort the reflected mountain and trees.</figcaption>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/fJdHAM9u4Sk?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Pull the trees into the water to create their reflection.</figcaption>
 </figure>
 
 To finish things off select the pencil tool to sketch in waves, foam, and other details. Feel free to redraw any trees and shoreline you may have mistakenly blended when creating the water reflections.
@@ -406,7 +406,7 @@ To finish things off select the pencil tool to sketch in waves, foam, and other 
 
 #### Underwater and dreamy scenes
 
-The process above for creating reflections can also be used to paint beautiful underwater scenes.
+The same process for creating reflections can be used to paint beautiful underwater scenes as well.
 
 <figure class="third">
   <a href="{{ site.url }}/images/pencil-53-guavagleelesley-lg.jpg"><img src="{{ site.url }}/images/pencil-53-guavagleelesley-700.jpg" alt="scuba diver painted with Pencil"></a>
@@ -423,12 +423,12 @@ Using the watercolor brush you'll want to lay down a base color and then start l
   <a href="{{ site.url }}/images/pencil-53-scuba-step-1-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-1-700.jpg" alt="scuba diver background step 1"></a>
   <a href="{{ site.url }}/images/pencil-53-scuba-step-2-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-2-700.jpg" alt="scuba diver background step 2"></a>
   <a href="{{ site.url }}/images/pencil-53-scuba-step-3-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-3-700.jpg" alt="scuba diver background step 3"></a>
-  <figcaption>Don't worry about placing too many details in at this point, we're going to smudge most of them away in a minute...</figcaption>
+  <figcaption>Don't worry about adding too many details at this point, we're going to smudge most of the scene away in a minute...</figcaption>
 </figure>
 
-With our background in good shape make sure Pencil is connected and Blend enabled and start smudging away. Using a circular motion softly move your finger tip over the background to blur it evenly.
+With our background in good shape make sure Pencil and start smudging away. Using a circular motion softly move your finger tip over the background to blur it evenly.
 
-When done correctly the water should look almost dreamlike with a uniform blur across the entire plane. To finish, add things bubbles, more fish, or plant life to the scene. If you don't blend them they will automatically look as if they're floating above the water adding a nice sense of depth to the scene.
+When done correctly the water should look almost dreamlike with a uniform blur across the entire plane. To finish, add things like bubbles, more fish, or plant life to the scene. If you don't blend them they will automatically look as if they're floating above the water adding a nice sense of depth to the scene.
 
 <figure class="half">
   <a href="{{ site.url }}/images/pencil-53-scuba-step-5-lg.jpg"><img src="{{ site.url }}/images/pencil-53-scuba-step-5-700.jpg" alt="scuba diver step 5"></a>
@@ -486,13 +486,12 @@ The fog effect is achieved by covering the canvas in circular blend strokes to b
 
 #### Lighting effects
 
-Before Pencil and Blend were a thing you had to [get creative with white paint]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#lightening-with-white) to make lens flares and other glowing orbs of light. With a few quick swipes of your finger you can easily transform plain shapes into lightsabers, auras, lightning, and more.
+Before Pencil and Blend were a thing you had to [get creative with white paint]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#lightening-with-white) to make lens flares and other glowing orbs of light. With a few quick swipes of your finger you can easily transform plain shapes and lines into lightsabers, auras, lightning, and more.
 
-<figure class="third">
-  <img src="http://placehold.it/640x480" alt="glowing orb - before/after blend animation">
-  <img src="http://placehold.it/640x480" alt="lightsaber - before/after blend animation">
-  <img src="http://placehold.it/640x480" alt="lightning - before/after blend animation">
-  <figcaption>[Animated GIF drawings of orb, lightsaber, lightning] Blending shapes into glowing objects.</figcaption>
+<figure class="half">
+  <img src="{{ site.url }}/images/pencil-53-blend-lightsaber.gif" alt="lightsaber - before/after blend animation">
+  <img src="{{ site.url }}/images/pencil-53-blend-lightning.gif" alt="lightning - before/after blend animation">
+  <figcaption>Blending shapes into glowing objects.</figcaption>
 </figure>
 
 #### Outer space scenes
@@ -509,7 +508,7 @@ The two sets of tutorials show how to smear color around a black canvas to creat
 
 #### Simulate fire and flames
 
-By alternating between quick blends and slow smudges you can create some realistic looking flames and fire. It takes some practice to get the speed just right, but once mastered I think the end results speak for themselves.
+By alternating between quick blends and slow smudges you can create realistic looking flames and fire. It takes some practice to get the speed just right, but once mastered I think the end results speak for themselves.
 
 <figure class="half">
   <a href="{{ site.url }}/images/pencil-53-blend-flame-lg.jpg"><img src="{{ site.url }}/images/pencil-53-blend-flame-700.jpg" alt="blended ink to create flames"></a>
@@ -517,8 +516,8 @@ By alternating between quick blends and slow smudges you can create some realist
 </figure>
 
 <figure>
-  <img src="http://placehold.it/640x480" alt="drawing and blending flames video">
-  <figcaption>[Video tutorial of drawing/blending fire] Flames aren't the only thing you can smudge into existence. Smoke trails can be achieved just as easily with slow blends.</figcaption>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/GdPYXERDH4M?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Flames aren't the only thing you can smudge into existence. Pencil strokes can be transformed into smoke trails just as easily with slow blends.</figcaption>
 </figure>
 
 ### How to improve blends
@@ -550,7 +549,7 @@ The trick is to be quick. By barely touching the iPad's screen while you swipe i
 
 <div class="notice-warning" markdown="1">
 #### Stronger Blending with Zoom
-When opening the magnifying loupe to zoom-in the blurring effects intensifies which has its pros and cons. For subtle blurs I suggest Blending without a zoom.
+When opening the magnifying loupe to zoom-in the blurring effects intensifies which has its pros and cons. For subtle blurs I suggest smudging when in the zoom circle.
 </div>
 
 Phew --- this was a long one! I covered a ton of material so if anything is unclear or needs further explanation, please let me know.
