@@ -243,12 +243,6 @@ Remember, each pass with Pencil's angled tip leaves a noticeable edge when overl
 For even more granularity over how fast a shade darkens, zoom in! You can get a few more levels of variation to help make a more nuanced gradation.
 </div>
 
-#### Creating atmospheric effects
-
-**TODO: Creating atmospheric effects like fog, smoke, rays of light.**
-
-**Draw set of sketches of a dark/creepy scene and light coming from a window to accompany tutorial.**
-
 ## Blend, the Smudge Tool
 
 As you might have guessed from the above heading, Blend lets you smudge stuff. Sadly this feature is only available to Paper when Pencil is connected, so you'll want to [pick one up](http://www.fiftythree.com/pencil "Buy Pencil by FiftyThree") to partake in blending fun. Trust me it's totally worth it!
