@@ -13,10 +13,9 @@ comments: true
 
 Not convinced you need *FiftyThree's Pencil stylus* in your life? Or maybe you just want to level-up your skills. This guide covers both by revealing all of my Surface Pressure and Blend secrets to turn you into a Pencil master.
 
-<div class="notice-info" markdown="1">
-#### [Read My Pencil by FiftyThree Review](({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}))
-Apart from the addition of **Surface Pressure**, little has changed since I [first paired Pencil to Paper]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}) over a year ago. It still feels great to use, still has an insanely long battery life, still enables blending, and still lets you rest your wrists on the screen without messing up your drawing.
-</div>
+Apart from the addition of **Surface Pressure**, little has changed since I first paired Pencil to Paper over a year ago. It still feels great to use, still has an insanely long battery life, still enables blending, and still lets you rest your wrists on the screen without messing up your drawing.
+
+[Read my complete review of Pencil]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}){:.btn}
 
 {% include toc.html %}
 
