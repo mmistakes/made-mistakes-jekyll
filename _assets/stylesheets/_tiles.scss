@@ -96,11 +96,14 @@
 
   .tile-title {
     font-family: $heading-font-title;
-    @include font-size(20, no);
+    @include font-size(16, no);
     font-weight: 500;
     margin-top: 0;
     color: $white;
     text-shadow: 1px 1px 0 $black;
+    @include breakpoint($large) {
+      @include font-size(20, no);
+    }
     a {
       text-decoration: none;
       color: $white;
@@ -120,8 +123,14 @@
 .touch {
   .tile {
     .tile-info {
+      top: initial;
+      bottom: 0;
+      text-align: initial;
       background: $black;
       opacity: 1;
+      -webkit-transform: initial;
+      -ms-transform: initial;
+      transform: initial;
     }
     .tile-excerpt {
       display: none;
