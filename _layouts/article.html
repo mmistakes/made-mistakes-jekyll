@@ -4,7 +4,7 @@ layout: default
 
 <div id="main" role="main">
 
-  <article class="hentry" itemscope itemtype="http://schema.org/Article">
+  <article itemscope itemtype="http://schema.org/Article">
 
     {% if page.image.feature %}
       <div class="page-image">
@@ -17,11 +17,13 @@ layout: default
 
       {% include browser-upgrade.html %}
 
-      <h1 class="entry-title">{{ page.title }}</h1>
+      <h1 class="entry-title" itemprop="name">{{ page.title }}</h1>
 
       {% include breadcrumbs.html %}
 
-      <div class="entry-content" id="content" itemprop="articleBody">
+      <meta itemprop="description" content="{{ page.excerpt }}">
+
+      <div class="entry-content" id="content">
         {% if page.external.url %}
           <div><a href="{{ page.external.url }}" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
         {% endif %}
@@ -44,6 +46,6 @@ layout: default
 
     </div><!-- /.article-wrap -->
 
-  </article><!-- /.hentry -->
+  </article><!-- / article -->
 
 </div><!-- /#main -->
