@@ -13,7 +13,7 @@
           {% endif %}
         {% endfor %}
       </span>
-    </a> <span class="sep">›</span>
+    </a>
   </span>
 </nav><!-- /.breadcrumbs -->
 {% endif %}
@@ -24,7 +24,7 @@
     <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> <span class="sep">›</span>
   </span>
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}/{{ page.collection }}/" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a> <span class="sep">›</span>
+    <a href="{{ site.url }}/{{ page.collection }}/" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a>
   </span>
 </nav><!-- /.breadcrumbs -->
 {% endif %}
