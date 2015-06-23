@@ -24,13 +24,17 @@
     @include font-size(14, no, 14);
     &:before {
       position: absolute;
-      content: "\2192";
+      content: "\27A1"; // rightwards black arrow
       display: block;
       left: 0;
     }
     > a {
       color: $text-color;
       text-decoration: none;
+      transition: 0.2s ease-out;
+      &:hover {
+        background-color: $highlighter-color;
+      }
       // Add spacing around Font Awesome icons
       .fa {
         margin-right: 5px;
