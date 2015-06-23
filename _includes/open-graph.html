@@ -18,4 +18,6 @@
 		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
 		<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    {% if page.image.feature %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image.feature }}">{% endif %}
+    {% if page.image.teaser %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image.teaser }}">{% endif %}
 		<meta property="og:site_name" content="{{ site.title }}">
