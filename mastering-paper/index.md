@@ -21,6 +21,7 @@ In the spirit of openness I've decided to compile everything I've learned using 
       <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-12-18-color-picker %}">Picking and Sharing Colors</a></li>
       <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}">Drawing and Painting Basics</a></li>
       <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}">Erasing and Correcting Mistakes</a></li>
+      <li><a href="{{ site.url }}{% post_url /mastering-paper/2015-06-24-pencil %}">Mastering Pencil</a></li>
       <li><a href="{{ site.url }}{% post_url /mastering-paper/2013-11-08-moleskine-book %}">Printing a Moleskine Book</a></li>
       <li><a href="{{ site.url }}{% post_url /mastering-paper/2014-11-25-mix %}">Mastering Mix</a></li>
     </ul>
