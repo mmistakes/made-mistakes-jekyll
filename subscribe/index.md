@@ -2,7 +2,7 @@
 layout: article
 title: "Subscribe"
 date: 2014-11-12T22:39:54-05:00
-modified: 2015-01-26T12:32:59-05:00
+modified: 2015-06-26T15:55:34-04:00
 excerpt: "All of the ways you can subscribe to content found on Made Mistakes."
 share: false
 ---
@@ -28,8 +28,11 @@ If you don't want to miss anything posted to Made Mistakes then you'll want to g
 
 If keeping up to date via Atom/RSS feeds is too nerdy for you, I can be found on various social networks. I try to keep myself in check and limit my posts to once or twice a day. I'm not one to barf up a stream of rants or retweets and instead stick with what I know best: Paper by FiftyThree, sarcasm, design, and web development.
 
-<div class="inline">
-  <a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-  <a href="http://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-  <a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a>
-</div>
+<p markdown="0">
+  <a href="https://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+  <a href="https://instagram.com/mmistakes/" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+  <a href="https://www.facebook.com/michaelrose" onclick="ga('send', 'event', 'link', 'click', 'Facebook follow');" class="btn-social facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+  <a href="https://github.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'GitHub follow');" class="btn-social"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+  <a href="https://plus.google.com/+MichaelRoseDesign/posts" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');" class="btn-social google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
+  <a href="http://mademistakes.tumblr.com/" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a>
+</p>
