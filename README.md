@@ -22,4 +22,4 @@ Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesh
 ### Local Development
 
 1. Install dependencies `bundle install`
-2. Run Jekyll server to preview `bundle exec jekyll serve --config _config-dev.yml --no-watch`. Good idea to disable auto-regeneration since the site is quite large and takes a few minutes to compile.
+2. Run Jekyll server to preview `bundle exec jekyll serve --config _config.dev.yml --no-watch`. Good idea to disable auto-regeneration since the site is quite large and takes a few minutes to compile.
