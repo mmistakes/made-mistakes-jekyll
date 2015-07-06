@@ -81,8 +81,6 @@ To yield the best results with the "faux" layer technique I suggest using the pe
 
 Once you get the general composition of your drawing locked down you'll want to change the color to something darker. Depending on the background color you initially filled the canvas with you may need to adjust it so these new strokes show up.
 
-{% include ads/skyscraper.html %}
-
 Using the rough sketch as a guide trace over the white lines with a tool and color of your choice. I used a single color for my tracing but if you happen to change your color as you work it may be necessary to alter the background. You'll know this is the case when your tracing blends into the background making it difficult to tell if you're laying down a mark.
 
 <figure>

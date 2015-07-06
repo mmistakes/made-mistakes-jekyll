@@ -76,8 +76,6 @@ The good news is FiftyThree now offers replacement tips and erasers [in their sh
   <figcaption>Close-up of drawing with Pencil’s broad side</figcaption>
 </figure>
 
-{% include ads/skyscraper.html %}
-
 ## Will it Blend?
 
 For me [Blend]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}) is the most exciting thing about Pencil. Sure a ton of other *art* apps have smudging and blending tools, but they all break the creative flow in their implementations. FiftyThree has made this valuable tool fun and more true to *real* drawing by allowing you to switch between smudging and drawing in a fluid and natural way.

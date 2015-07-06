@@ -77,8 +77,6 @@ Apply highlight strokes on dark shadows to define individual leaves or groupings
 
 At this point your tree is pretty much done --- it really depends on how much detail you think it needs. If this tree is the primary subject of your composition then you probably want to work it some more and sharpen the edges. If it's just background filler I'd suggest keeping it soft and blurry so it doesn't compete with whatever you're placing in the foreground.
 
-{% include ads/skyscraper.html %}
-
 For extra detail grab the base green from before, and mix in some brown and black, for a nice dark color. Armed with a pencil, use this color to add branches, and refine edges. If you overworked areas with highlights earlier, this darker color is perfect for adding shadows back in.
 
 <figure>

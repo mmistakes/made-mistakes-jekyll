@@ -63,8 +63,6 @@ White lightens quickly and you don't want to remove too much blue at once, so be
 
 With the clouds shaped and looking like clumps of cotton, it's time to add a few wispy cirrus clouds and clean the edges up. Again, a [Pogo Connect Smart Pen](http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20) comes in handy, allowing you to work lightly and gradually. Finger painters and normal stylus creators fear not, quick strokes can achieve the same results.
 
-{% include ads/skyscraper.html %}
-
 No need to overdo it with the wisps, just a few light crosshatches is all that's needed. For those longer streaky clouds your pencil strokes should be longer and more horizontal. I usually stick with just a pencil to create these wisp textures, but if you're feeling adventurous a light touch of white watercolor can be used to finish them off.
 
 <figure>

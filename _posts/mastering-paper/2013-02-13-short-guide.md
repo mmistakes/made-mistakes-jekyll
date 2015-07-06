@@ -62,8 +62,6 @@ If you ask me, this tool is what sets Paper by 53 apart from all the other iPad 
 
 When crisp edges aren't a concern, I'll block in color quickly with the watercolor brush. I achieve continuous tones by painting slowly and never removing the stylus (or my finger) from the screen. If I want to create a smooth gradation in color I move the brush progressively faster to fade it out.
 
-{% include ads/skyscraper.html %}
-
 ### Highlights and Shadows
 
 Brightening existing areas is easily achieved with the watercolor brush. Mix enough white into a color and the brush can be used to lighten. This technique is perfect for adding highlights or correcting mistakes when an eraser's edges might be too harsh. When working with white my general rule of thumb is to move fast. If you stick around in one location too long it'll lighten too fast. The same is true when using full black...

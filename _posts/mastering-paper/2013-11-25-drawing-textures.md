@@ -68,8 +68,6 @@ Once all the bricks have been laid, err painted --- apply a second coat of water
   <figcaption>Layers of watercolor don't need to be exact. Apply until you reach a color to your liking.</figcaption>
 </figure>
 
-{% include ads/skyscraper.html %}
-
 ### Cement Lines
 
 When coloring the cement between the bricks I usually handle it in three different ways.
@@ -177,8 +175,6 @@ For a final pass, mix a lighter variation of our base color. With this color and
 </figure>
 
 ---
-
-{% include ads/skyscraper.html %}
 
 ## Drawing Asphalt, Gravel, and Rocks
 
