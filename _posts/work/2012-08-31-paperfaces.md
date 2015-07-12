@@ -16,7 +16,7 @@ work: "Illustration"
 PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper by FiftyThree**. I occasionally post new portraits here, but certainly not as frequently as I used to.
 {: .squish}
 
-If you scroll down far enough you can see how my technique evolved from faceless gesture into realistic portraits.
+If you scroll down far enough you can see how my technique evolved from faceless gestures into realistic portraits.
 {: .squish}
 
 <ul class="th-grid">
