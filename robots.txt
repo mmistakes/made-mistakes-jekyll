@@ -1,4 +1,3 @@
-# Allow crawling of all content
 User-agent: *
-Disallow:
+Disallow: /cdn-cgi/
 Sitemap: https://mademistakes.com/sitemap.xml
