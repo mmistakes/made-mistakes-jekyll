@@ -113,6 +113,7 @@ ErrorDocument 404 /404/
 
   # Web fonts
     AddType application/font-woff                       woff
+    AddType application/font-woff2                      woff2
     AddType application/vnd.ms-fontobject               eot
 
     # Browsers usually ignore the font MIME types and sniff the content,
