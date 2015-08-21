@@ -249,11 +249,9 @@ AddDefaultCharset utf-8
 # But keep the .well-known folder: https://tools.ietf.org/html/rfc5785
 
 <IfModule mod_rewrite.c>
-    RewriteCond %{SCRIPT_FILENAME} ^\.well-known/.*
-    RewriteRule .* - [S=1]
-
     RewriteCond %{SCRIPT_FILENAME} -d [OR]
     RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteCond %{REQUEST_URI} !^/\.well-known/
     RewriteRule "(^|/)\." - [F]
 </IfModule>
 
