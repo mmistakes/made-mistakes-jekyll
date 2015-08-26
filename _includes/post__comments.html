@@ -1,3 +1,22 @@
-<button class="btn btn--block btn--inverse">There are xx comments &mdash; Read them</button>
 <div id="disqus_thread"></div>
 <noscript><p>Please enable JavaScript to view the the comments.</p></noscript>
+
+<div id="disqus_loader">
+  <button onclick="load_disqus()" class="btn btn--block">View Comments (<span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ page.url }}">&#x2764;</span>)</button>
+  <script async>
+    var disqus_shortname = '{{ site.disqus-shortname }}';
+    var disqus_title = '{{ page.title }}';
+    var disqus_url = '{{ page.url | replace:'index.html','' | prepend: site.url }}';
+
+    function load_disqus()
+    {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      var ldr = document.getElementById('disqus_loader');
+      ldr.parentNode.removeChild(ldr);
+    }
+  </script>
+</div>
