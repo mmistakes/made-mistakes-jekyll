@@ -7,189 +7,84 @@
    ========================================================================== */
 
 .btn {
-  display: inline-block;
-  width: inherit;
-  padding: 8px 20px;
-  @include font-size(14, 4);
-  font-family: $alt-font;
-  font-weight: 500;
-  background-color: $primary-color;
-  color: $white;
-  text-decoration: none;
+  /* default button */
+  padding: 10px 20px;
+  color: #fff;
+  font-family: $sans-serif;
+  font-weight: bold;
+  background-color: #000;
   border: 0 !important;
   border-radius: $border-radius;
-  box-shadow: none !important; // override
-  &:hover {
-    color: $white !important;
-    background-color: mix($white, $primary-color, 20%);
-  }
+  text-transform: uppercase;
   &:active {
     // move button slightly on click
     transform: translateY(1px);
   }
-  // add spacing for icons inside of a button
-  .fa {
-    padding-right: 5px;
-  }
-}
 
+  /* fills width of parent container */
 
-/*
-   Inverse button (for use on dark backgrounds)
-   ========================================================================== */
-
-.btn-inverse {
-  @extend .btn;
-  background-color: $white;
-  color: $text-color !important;
-  &:hover {
-    background-color: mix($white, $text-color, 20%);
-  }
-}
-
-/*
-   Info button
-   ========================================================================== */
-
-.btn-info {
-  @extend .btn;
-  background-color: $info-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $info-color, 20%);
-  }
-}
-
-/*
-   Warning button
-   ========================================================================== */
-
-.btn-warning {
-  @extend .btn;
-  background-color: $warning-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $warning-color ,20%);
-  }
-}
-
-/*
-   Success button
-   ========================================================================== */
-
-.btn-success {
-  @extend .btn;
-  background-color: $success-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $success-color, 20%);
-  }
-}
-
-/*
-   Danger button
-   ========================================================================== */
-
-.btn-danger {
-  @extend .btn;
-  background-color: $danger-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $danger-color, 20%);
-  }
-}
-
-/*
-   Disabled button
-   ========================================================================== */
-
-.btn-disabled {
-  pointer-events: none;
-  cursor: not-allowed;
-  filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  opacity: .65;
-}
-
-/*
-   Social networking buttons
-   ========================================================================== */
-
-/* Social network brand colors defined in _variables.scss */
-
-/**
- * Social button markup example
- * Add social network class to anchor or button element along with .btn-social
- * .facebook
- * .google-plus
- * .instagram
- * .rss
- * .tumblr
- * .twitter
- *
- *  <a class="btn-social twitter" href="#">
- *    <i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter
- *  </a>
- */
-
-$social:
-(facebook, $facebook-color),
-(google-plus, $google-plus-color),
-(instagram, $instagram-color),
-(rss, $rss-color),
-(tumblr, $tumblr-color),
-(twitter, $twitter-color),
-(github, $github-color);
-
-.btn-social {
-  @extend .btn;
-  color: $white !important;
-  @each $socialnetwork, $color in $social {
-    &.#{$socialnetwork} {
-      background-color: $color;
-      border-color: $color;
-      &:hover {
-        background-color: mix($white, $color, 20%);
-        border-color: mix($white, $color, 20%);
-      }
-    }
-  }
-  .fa {
-    padding-right: 5px;
-  }
-}
-
-
-/* Share this buttons */
-
-.share-this {
-  @include clearfix;
-  .label {
+  &--block {
     display: block;
-    float: left;
-    padding: 8px 20px 8px 0;
-    @include font-size(14, 4);
-    font-family: $alt-font;
-    font-weight: 700;
+    width: 100%;
+    text-align: center;
   }
-}
-.share-this-buttons {
-  float: left;
-  margin: 0;
-  padding: 0;
-  li {
-    float: left;
-    margin: 0 4px 4px;
-    padding: 0;
-    list-style: none;
+
+  /* for dark backgrounds */
+
+  &--inverse {
+    color: #000;
+    background-color: #fff;
   }
-  @include breakpoint($micro-only) {
-    .fa {
-      padding-right: 0;
-    }
-    .share-text {
-      display: none;
+
+  /* information */
+
+  &--info {
+    background-color: $info-color;
+  }
+
+  /* warning */
+
+  &--warning {
+    background-color: $warning-color;
+  }
+
+  /* success */
+
+  &--success {
+    background-color: $success-color;
+  }
+
+  /* danger */
+
+  &--danger {
+    background-color: $danger-color;
+  }
+
+  /* disabled */
+
+  &--disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+  }
+
+  /* social buttons */
+
+  $social:
+  (facebook, $facebook-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-color),
+  (rss, $rss-color),
+  (tumblr, $tumblr-color),
+  (twitter, $twitter-color),
+  (github, $github-color);
+
+  @each $socialnetwork, $color in $social {
+    &--#{$socialnetwork} {
+      background-color: $color;
     }
   }
 }

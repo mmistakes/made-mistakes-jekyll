@@ -1,0 +1,30 @@
+/* ==========================================================================
+   COLOPHON
+   ========================================================================== */
+
+.colophon {
+  padding: 20px;
+  background-color: #333;
+}
+
+.colophon__menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.colophon__menu-item,
+.colophon__menu-item--social {
+  display: block;
+  padding: 10px;
+  a {
+    color: #fff;
+  }
+}
+
+.colophon__copyright {
+  color: #ccc;
+  text-align: center;
+}

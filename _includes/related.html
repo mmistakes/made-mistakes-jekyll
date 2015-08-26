@@ -1,17 +1,17 @@
 <div class="container">
-  <h3 class="related--header">You May Also Enjoy</h3>
+  <h3 class="related__header">You May Also Enjoy</h3>
   <div class="related">
     {% for post in site.related_posts limit:3 %}
-      <article class="related--item" itemscope itemtype="http://schema.org/Article">
-        <a href="{{ site.url }}{{ post.url }}"><img src="http://placehold.it/300x200" alt=""></a>
+      <article class="related__item" itemscope itemtype="http://schema.org/Article">
+        <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" alt="{{ post.title }}"></a>
+        {% if post.categories %}
+          {% assign category_name = post.categories | first | replace: '-', ' ' %}
+          <a href="{{ site.url }}/{{ post.categories | first }}" class="post__category">{{ category_name }}</a>
+        {% endif %}
         {% if post.categories contains 'mastering-paper' %}
           <h3 itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></h3>
           {% else %}
           <h3 itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-        {% endif %}
-        {% if post.categories %}
-          {% assign category_name = post.categories | first | replace: '-', ' ' %}
-          <a href="{{ site.url }}/{{ post.categories | first }}">{{ category_name }}</a>
         {% endif %}
       </article>
     {% endfor %}

@@ -3,13 +3,17 @@
    Adapted from http://github.com/necolas/normalize.css
    ========================================================================== */
 
-/* Apply a natural box layout model to all elements */
-
 html {
+  /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $lighter-gray;
+  /* base font sizing */
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
+/* apply a natural box layout model to all elements */
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -47,14 +51,6 @@ video {
 
 audio:not([controls]) {
   display: none;
-}
-
-/* Base font settings */
-
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
 }
 
 /* Apply focus state */

@@ -15,7 +15,7 @@
 
 @import "breakpoint";
 // @import "vendor/magnific-popup/magnific-popup";
-// @import "vendor/bigfoot/bigfoot-default";
+@import "vendor/bigfoot/bigfoot-default";
 
 
 /*
@@ -30,23 +30,25 @@
    Components
    ========================================================================== */
 
-// @import "utilities";
-// @import "buttons";
+@import "utilities";
+@import "buttons";
 // @import "notices";
+@import "thumbnail-grids";
 // @import "google-search"; // Google search form box
-// @import "syntax-highlighting"; // syntax highlighting
+// @import "syntax-highlighting";
 // @import "paper-color-swatches"; // color swatches for Paper by FiftyThree articles
 // @import "slickmap"; // SlickMap visual sitemap
-// @import "style-guide"; // website style guide
+// @import "style-guide";
 
 /*
    Page specific
    ========================================================================== */
 
-// @import "masthead"; // page header with navigation
-// @import "page"; // everything else on the page
+@import "masthead"; // page header with navigation
+@import "page"; // everything else on the page
+@import "related"; // related items
 // @import "review-box";
 // @import "banners"; // banner advertisements
 // @import "footnotes";
 // @import "toc"; // table of contents
-// @import "footer"; // site footer
+@import "colophon"; // site colophon

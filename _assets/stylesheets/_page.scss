@@ -1,456 +1,246 @@
 /* ==========================================================================
-   PAGE
+   SINGLE PAGE/POST
    ========================================================================== */
 
 /*
-   Main content
+   Hero
    ========================================================================== */
 
-#main {
-  padding-top: $button-size * 1.5;
-  @include breakpoint($small) {
-    padding-top: 0;
+.page__hero {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+/*
+   Content
+   ========================================================================== */
+
+.post__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  @media (min-width: $small) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
 
-.entry-content {
-  @include layout($article);
-  @include span(14);
-  @include pre(1);
-  @include break;
-  position: relative;
-  @include breakpoint($small) {
-    @include span(10);
-    @include pre(5);
-    @include post(1);
-    @include nobreak;
+.post__inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $small) {
+    width: calc(100% - 140px);
   }
-  @include breakpoint($medium) {
-    @include pre(4);
-    @include post(2);
+  @media (min-width: $medium) {
+    width: calc(100% - 340px);
   }
-
-  .sidebar-left {
-    @include breakpoint($small) {
-      position: absolute;
-      @include pull(4 of 10);
-      width: span(3 of 10);
-      figcaption {
-        margin-left: 0;
-      }
-      &.top {
-        top: 0;
-      }
-    }
-    @include breakpoint($medium) {
-      @include pull(3 of 10);
-    }
-    @include breakpoint($large) {
-      .toc-title, .toc, .ads,
-      h4, p, ul, ol {
-        padding-left: 0;
-      }
-    }
-  }
-
-  @include breakpoint($medium) {
-    // increase width of figure elements
-    figure.half,
-    figure.third {
-      @include pull(1 of 10);
-      @include post(-1 of 10);
-      figcaption {
-        @include push(1 of 12);
-        @include post(1 of 12);
-      }
-    }
-
-    // pull element all the way to the left
-    .pull-left-wide {
-      @include pull(4 of 10);
-      margin-right: 0;
-      figcaption {
-        @include push(4 of 14);
-      }
-    }
-  }
-
-  // thumbnail grid
-  .th-grid {
-    li {
-      @include gallery(3.5 of 14);
-      @include breakpoint($small) {
-        @include gallery(2.5 of 10);
-      }
-      @include breakpoint($medium) {
-        @include gallery(2 of 10);
-      }
-    }
+  @media (min-width: $large) {
+    width: calc(100% - 380px);
   }
 }
 
-.entry-content,
-.archive-content {
-  h2 {
-    margin-top: 36px;
-    @include font-size(24,yes,26);
-    @include breakpoint($small) {
-      margin-top: 42px;
-      @include font-size(28,yes,32);
-    }
-  }
-  h3 {
-    margin-top: 30px;
-    @include font-size(20,yes,22);
-    @include breakpoint($small) {
-      margin-top: 36px;
-      @include font-size(24,yes,26);
-    }
-  }
-  h4 {
-    margin-top: 27px;
-    @include font-size(18);
-    @include breakpoint($small) {
-      margin-top: 33px;
-      @include font-size(22);
-    }
-  }
-  h5, h6 {
-    @include font-size(16);
-    @include breakpoint($small) {
-      @include font-size(20);
-    }
-  }
-  h5 {
-    margin-top: 24px;
-    @include breakpoint($small) {
-      margin-top: 30px;
-    }
-  }
-  h6 {
-    margin-top: 22px;
-    @include breakpoint($small) {
-      margin-top: 28px;
-    }
-  }
-
-  /* cleaner underlines for links */
-  a { text-decoration: none; }
-  p > a,
-  li > a,
-  td > a {
-    border-bottom: 1px solid $highlighter-color;
-    box-shadow: inset 0 -2px 0 $highlighter-color;
-    transition: box-shadow 0.4s ease-in-out;
-    &:hover {
-      // background: $highlighter-color;
-      box-shadow: inset 0 -100px 0 $highlighter-color;
-    }
-  }
-  .toc-title {
-    margin-bottom: 5px;
-  }
-  .toc li > a {
-    border-bottom-width: 0;
-    box-shadow: none;
-  }
-  .th-grid a,
-  .th-grid-full a,
-  p > .reversefootnote {
-    border-bottom-width: 0;
-    box-shadow: none;
+.post__body {
+  p {
+    margin-bottom: 1.3rem;
   }
 
   /* introductory paragraph */
-  > p {
-    &:first-child {
-      @include font-size(20, yes, 28);
-      @include breakpoint($small) {
-        @include font-size(24, yes, 34);
-      }
-    }
-  }
-}
-
-/*
-   Page titles
-   ========================================================================== */
-
-.entry-title {
-  @include layout($article);
-  @include span(14);
-  @include pre(1);
-  @include post(1);
-  margin-top: 100px; // enough to clear masthead when there is no .page-image
-  // font-family: $heading-font-title;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: -1px;
-  @include font-size(32, yes, 1);
-  @include breakpoint($small) {
-    @include font-size(50, yes, 1);
-  }
-  @include breakpoint($medium) {
-    @include font-size(60, yes, 1);
-  }
-  @include breakpoint($large) {
-    @include font-size(72, yes, 1);
-  }
-}
-
-.page-subtitle {
-  font-family: $heading-font-title;
-  font-weight: 400;
-  @include font-size(24, yes, 1.25);
-  @include breakpoint($small) {
-    @include font-size(32, yes, 1.25);
-  }
-  @include breakpoint($medium) {
-    @include font-size(40, yes, 1.25);
-  }
-}
-
-// reduce margin when .page-image is present
-.page-image + .article-wrap > .entry-title,
-.page-image + .archive-wrap > .entry-title {
-  margin-top: 30px;
-}
-
-
-/*
-   Feature image
-   ========================================================================== */
-
-.page-image {
-  position: relative;
-  img {
-    @include clearfix;
-    width: 100%;
+  > p:first-child {
+    font-size: 1.25em;
   }
 
-  .image-credit {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 0 auto;
-    padding: 2px 5px;
-    color: $white;
-    font-family: $alt-font;
-    background: rgba($black, 0.5);
-    @include font-size(10, no);
-    text-align: right;
-    z-index: 5;
-    @include breakpoint($medium) {
-      padding: 5px 10px;
-      font-size: 12px;
-    }
-    a {
-      color: $white;
-      text-decoration: none;
-    }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1.414rem 0 0.5rem;
+    color: $headline-color;
+    font-family: $serif;
+    font-weight: normal;
+    line-height: 2.441rem;
   }
-}
 
-
-/*
-   Headline anchors (show link icon on hover)
-   ========================================================================== */
-
-.header-link {
-  position: relative;
-  left: 0.5em;
-  opacity: 0;
-  font-size: 0.8em;
-  transition: opacity 0.2s ease-in-out 0.1s;
-  display: none;
-  @include breakpoint($medium) {
-    display: inline;
-  }
-}
-
-h2:hover .header-link,
-h3:hover .header-link,
-h4:hover .header-link,
-h5:hover .header-link,
-h6:hover .header-link {
-  opacity: 1;
-}
-
-
-/*
-   Tag links
-   ========================================================================== */
-
-.tag-box {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  @include clearfix;
-  li {
-    display: inline-block;
-    @include font-size(14, 7);
-  }
-  a {
-    padding: 4px 6px;
-    margin-right: 2px;
-    text-decoration: none;
-    color: $text-color;
-    background-color: mix($white, $primary-color, 90%);
-    border-radius: $border-radius;
-    border-bottom-width: 0 !important; // override
-    box-shadow: none !important; // override
-    span {
-      vertical-align: super;
-      color: $link-color;
-      @include font-size(10);
-    }
-  }
-}
-
-
-/*
-   Author profile
-   ========================================================================== */
-
-.author-wrapper {
-  display: inline-block;
-  position: relative;
-  margin-top: gutter();
-  margin-bottom: gutter();
-  padding: 10px;
-  text-align: center;
-  border: 4px solid $border-color;
-  border-radius: $border-radius;
-  background: $white;
-  @include breakpoint($small) {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 20px;
-    text-align: left;
-    border: 8px solid $border-color;
-  }
-}
-
-.author-image {
-  margin-bottom: 10px;
-  @include breakpoint($small) {
-    display: block;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    margin-bottom: 0;
-  }
-  img {
-    width: 80px;
-    height: 80px;
-    border-radius: $border-radius;
-  }
-}
-
-.author-content {
-  @include breakpoint($small) {
-    word-wrap: break-word;
-    padding-left: 100px; // avatar width + 20px padding
-    min-height: 80px; // match avatar height
-  }
-}
-
-h5.author-name {
-  margin-top: 0;
-  @include font-size(20, no);
-}
-
-.author-bio {
-  margin-top: 0;
-  @include font-size(16, no);
-  a {
-    border-bottom: 2px solid $text-color !important; // override
-    box-shadow: none !important; // override
-    &:hover {
-      background-color: transparent !important // override
-    }
-  }
-}
-
-.author-follow {
-  margin-top: 0;
-  @include font-size(16, no);
-}
-
-/*
-   Share this
-   ========================================================================== */
-
-.share-this {
-  display: none;
-  @include breakpoint($large) {
-    display: block;
-  }
-}
-
-/*
-   Comments
-   ========================================================================== */
-
-.comments {
-  @include layout($article);
-  @include span(14);
-  @include pre(1);
-  @include break;
-  @include breakpoint($small) {
-    @include span(10);
-    @include pre(5);
-    @include post(1);
-    clear: left;
-  }
-  @include breakpoint($medium) {
-    @include pre(4);
-    @include post(2);
+  h2 {
+    font-size: 1.953rem;
   }
 
   h3 {
-    @include font-size(24);
-    @include breakpoint($small) {
-      @include font-size(28);
-    }
-    text-align: center;
+    font-size: 1.563rem;
   }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.8rem;
+  }
+}
+
+.post__comments,
+.post__footer,
+.post__social,
+.post__taxonomy {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid $light-gray;
+}
+
+.post__title {
+  font-family: $serif;
+  font-size: 2.441rem;
+  font-weight: normal;
+}
+
+/* footer */
+
+.post__footer {
+  @media (min-width: $large) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* author info */
+
+.author__wrapper {
+  @media (min-width: $large) {
+    display: flex;
+    flex: 3;
+    align-items: flex-start;
+  }
+}
+
+.author__name {
+  margin: 0;
+  font-family: $serif;
+  font-style: italic;
+  font-weight: normal;
+  &--bold {
+    display: block;
+    font-size: 150%;
+    font-family: $sans-serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
+.author__bio {
+  margin: 0;
+  padding: 0;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+}
+
+.author__avatar {
+  display: none;
+  @media (min-width: $large) {
+    display: block;
+    order: -1;
+    margin-right: 1em;
+  }
+}
+
+/* comments */
+
+.post__comments {
+  order: 1;
+}
+
+/* meta info */
+
+.post__single-meta {
+  @media (min-width: $large) {
+    flex: 1;
+    text-align: right;
+  }
+}
+
+.post__category {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 2px 5px;
+  color: #fff;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: $text-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.post__published {
+  display: block;
+  font-family: $sans-serif;
+  font-size: 0.64rem;
+  font-weight: bold;
+}
+
+/* social */
+
+.post__social {
+  display: flex;
+  justify-content: space-between;
+  a {
+    width: 50%;
+    &:first-child {
+      margin-right: 0.5em;
+    }
+    &:last-child {
+      margin-left: 0.5em;
+    }
+  }
+}
+
+/* taxonomy */
+
+.post__taxonomy-wrapper {
+  display: block;
+}
+
+.post__taxonomy-item {
+  font-family: $sans-serif;
+  font-weight: bold;
 }
 
 
 /*
-   Post archives
+   Sidebar
    ========================================================================== */
 
-.archive-wrap {
-  .page-image,
-  .entry-title {
-    @include breakpoint($large) {
-      @include span(10 of 16);
-      @include pre(3 of 16);
-      @include post(3 of 16);
-    }
+.post__sidebar {
+  order: -1;
+  @media (min-width: $small) {
+    order: 0;
+    margin-left: 20px;
+    width: 120px;
+  }
+  @media (min-width: $medium) {
+    margin-left: 40px;
+    width: 300px;
+  }
+  @media (min-width: $large) {
+    margin-left: 80px;
   }
 }
 
-.archive-content {
-  @include span(14);
-  @include pre(1);
-  @include break;
-  @include breakpoint($medium) {
-    .squish {
-      @include span(10 of 14);
-      @include pre(2 of 14);
-      @include post(2 of 14);
-    }
-  }
-  // thumbnail grid
-  .th-grid {
-    li {
-      @include gallery(3.5 of 14);
-      @include breakpoint($medium) {
-        @include gallery(2 of 14);
-      }
-    }
-  }
+/* table of contents */
+
+.toc {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.toc__menu {
+  padding-left: 20px;
+}
+
+/* ads */
+
+.ad--sidebar {
+  margin: 0 auto 2em;
+  text-align: center;
 }

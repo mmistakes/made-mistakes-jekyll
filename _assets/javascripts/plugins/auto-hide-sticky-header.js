@@ -9,18 +9,18 @@
   {
     'use strict';
 
-    var elSelector    = '#masthead',
-      elClassHidden = 'is-hidden',
-      throttleTimeout = 500,
-      element     = document.querySelector( elSelector );
+    var elSelector      = '.masthead',
+      elClassHidden     = 'is-hidden',
+      throttleTimeout   = 500,
+      element           = document.querySelector( elSelector );
 
     if( !element ) return true;
 
-    var dHeight     = 0,
-      wHeight     = 0,
-      wScrollCurrent  = 0,
-      wScrollBefore = 0,
-      wScrollDiff   = 0,
+    var dHeight         = 0,
+      wHeight           = 0,
+      wScrollCurrent    = 0,
+      wScrollBefore     = 0,
+      wScrollDiff       = 0,
 
       hasElementClass   = function( element, className ){ return element.classList ? element.classList.contains( className ) : new RegExp( '(^| )' + className + '( |$)', 'gi' ).test( element.className ); },
       addElementClass   = function( element, className ){ element.classList ? element.classList.add( className ) : element.className += ' ' + className; },

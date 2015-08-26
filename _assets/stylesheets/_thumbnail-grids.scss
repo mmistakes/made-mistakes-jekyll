@@ -16,14 +16,11 @@
  */
 
 .th-grid {
-  @include clearfix;
+  display: flex;
   padding-left: 0; // reset
+  flex-wrap: wrap;
   li {
     list-style: none;
-    margin-bottom: gutter();
-  }
-  img {
-    width: 100%;
   }
   a {
     img {

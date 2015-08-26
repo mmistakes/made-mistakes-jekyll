@@ -8,12 +8,12 @@
 
 $serif                        : Georgia, serif;
 $sans-serif                   : Arial, sans-serif;
-$code-font                    : Courier, monospace;
+$monospace                    : Courier, monospace;
 
 $doc-font-size                : 16;
 $doc-line-height              : 24;
 
-$border-radius                : 5px;
+$border-radius                : 2px;
 
 
 /*
@@ -28,10 +28,7 @@ $dark-gray                    : #333;
 $light-gray                   : #e2e2e2;
 $lighter-gray                 : #f9f9f9;
 
-$background-color             : mix($white, $gray, 90%);
-$body-color                   : $white;
-
-$text-color                   : $black;
+$text-color                   : $gray;
 $caption-color                : $text-color;
 $headline-color               : $dark-gray;
 

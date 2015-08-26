@@ -3,17 +3,8 @@
 
 $(document).ready(function(){
 
-  // Off Canvas Sliding
-	// toggle menu, trigger, and screen on click
-	$('#js-menu-trigger,#js-menu-screen,#js-menu-close').on('click touchstart', function(e){
-		$('#js-menu,#js-menu-screen').toggleClass('is-visible');
-		$('#js-menu-trigger').toggleClass('close');
-		e.preventDefault();
-	});
-
-
   // Fix widows in headlines
-  $('.entry-title').widowFix();
+  $('.post__title').widowFix();
 
 
   // Add lightbox class to all image links
@@ -87,7 +78,7 @@ $(document).ready(function(){
 
   document.onreadystatechange = function () {
     if (this.readyState === "complete") {
-      var contentBlock = document.getElementsByClassName("page-content")[0];
+      var contentBlock = document.getElementsByClassName("post__content")[0];
       if (!contentBlock) {
         return;
       }
@@ -98,28 +89,8 @@ $(document).ready(function(){
   };
 
 
-  // Social share popup
-  function windowPopup(url, width, height) {
-    // Calculate the position of the popup so
-    // it’s centered on the screen.
-    var left = (screen.width / 2) - (width / 2),
-        top = (screen.height / 2) - (height / 2);
-
-    window.open(
-      url,
-      "",
-      "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left
-    );
-  }
-
-  $(".js-social-share").on("click", function(e) {
-    e.preventDefault();
-    windowPopup($(this).attr("href"), 500, 300);
-  });
-
-
-  // Smooth scroll
-  $('a').smoothScroll({offset: -20});
+  // smooth scroll
+  $("a").smoothScroll({offset: -20});
 
 
   // footnotes
@@ -130,5 +101,11 @@ $(document).ready(function(){
       activateOnHover: true
     }
   );
+
+
+  // automatic table of contents
+  $(".toc__menu").toc({content: ".post__inner-wrapper", headings: "h2,h3"});
+  $(".toc__menu li").addClass("toc__menu-item");
+
 
 });

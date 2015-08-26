@@ -1,0 +1,32 @@
+/* ==========================================================================
+   RELATED
+   ========================================================================== */
+
+.related__header {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.related {
+  display: flex;
+  max-width: $large;
+  margin: 0 auto;
+  padding-bottom: 3em;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: $small) {
+    flex-direction: row;
+  }
+}
+
+.related__item {
+  text-align: center;
+  @media (min-width: $small) {
+    &:first-child {
+      margin-right: 10px;
+    }
+    &:last-child {
+      margin-left: 10px;
+    }
+  }
+}

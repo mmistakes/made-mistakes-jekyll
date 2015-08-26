@@ -6,23 +6,27 @@
    Typography
    ========================================================================== */
 
+/* Modular scale
+ *  one    - 2.441
+ *  two    - 1.953
+ *  three  - 1.563
+ *  four   - 1.25
+ *  five   - 1
+ *  six    - 0.8
+ *  seven  - 0.64
+ *  eight  - 0.512
+ */
+
 body {
   margin: 0;
   padding: 0;
   color: $text-color;
   font-family: $serif;
-  font-size: 16px;
+  line-height: 1.45;
 }
 
-ul, ol {
-  padding-left: gutter();
-}
-
-/* Headings */
-
-h1, h2, h3, h4, h5, h6 {
-  color: $headline-color;
-  font-family: $sans-serif;
+small {
+  font-size: 0.8rem;
 }
 
 u,
@@ -34,6 +38,7 @@ ins {
 /* Links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -46,7 +51,7 @@ a {
 /* Code */
 
 tt, code, kbd, samp, pre {
-  font-family: $code-font;
+  font-family: $monospace;
 }
 pre {
   overflow-x: auto; // add scrollbars to wide code blocks
@@ -60,7 +65,7 @@ li code {
 
 hr {
   display: block;
-  margin: (0px + ($doc-line-height * 2)) 0;
+  margin: 1em 0;
   border: 0;
   border-top: 1px solid $border-color;
 }
@@ -72,8 +77,9 @@ hr {
 /* Figures and images */
 
 figure {
-  position: relative;
-  @include clearfix;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
   margin-left: 0;
   margin-right: 0;
   img,
@@ -98,22 +104,20 @@ figure {
     > a,
     > img {
       @include breakpoint($small) {
+        width: 50%;
       }
     }
     figcaption {
-      float: left;
-      @include clearfix;
     }
   }
   &.third {
     > a,
     > img {
       @include breakpoint($small) {
+        width: 33.3333%;
       }
     }
     figcaption {
-      float: left;
-      @include clearfix;
     }
   }
 }
@@ -121,8 +125,10 @@ figure {
 /* Figure captions */
 
 figcaption {
+  margin-bottom: 0.65rem;
   color: $caption-color;
-  clear: both;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
   a {
     color: $caption-color;
     text-decoration: none;
