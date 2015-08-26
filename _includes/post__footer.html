@@ -1,0 +1,12 @@
+<div class="post__single-meta">
+  {% if page.categories %}
+    {% assign category_name = page.categories | first | replace: '-', ' ' %}
+    <a class="post__category" href="{{ site.url }}/{{ page.categories | first }}/">{{ category_name }}</a>
+  {% endif %}
+  <span class="post__published">
+    {% if page.modified %}<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>
+      {% else %}
+      <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+  </span>
+</div>

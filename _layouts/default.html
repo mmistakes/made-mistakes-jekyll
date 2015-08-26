@@ -38,30 +38,6 @@
 
     {% stylesheet global %}
 
-    <!-- menu fix for old IE -->
-    <!--[if lt IE 9]>
-    <style>
-      .sliding-menu-content {
-        display: none;
-      }
-      .sliding-menu-content.is-visible {
-        display: block;
-      }
-    </style>
-    <![endif]-->
-
-    <script>{% asset vendor/modernizr.custom %}</script>
-
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      {% javascript vendor/html5shiv %}
-      {% javascript vendor/respond %}
-    <![endif]-->
-
-    <!-- Font loader -->
-    <script>{% asset vendor/fontfaceobserver %}</script>
-    {% include fonts.html %}
-
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png">
@@ -82,13 +58,13 @@
 
   </head>
 
-  <body id="js-body">
-    {% include header.html %}
-    {% include navigation-sliding.html %}
+  <body>
+    {% include masthead.html %}
+    {% include browser-upgrade.html %}
 
     {{ content }}
 
-    {% include footer.html %}
+    {% include colophon.html %}
 
     {% javascript main async %}
 

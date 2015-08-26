@@ -7,28 +7,11 @@
    ========================================================================== */
 
 body {
-  font-family: $base-font-fallback;
+  margin: 0;
+  padding: 0;
   color: $text-color;
-  background-color: $white;
-  @include font-size(16,no);
-  /* use webfont */
-  @at-root .fonts-loaded #{&} {
-    font-family: $base-font;
-  }
-}
-
-p {
-  @include font-size(16,yes,22);
-  @include breakpoint($small) {
-    @include font-size(20,yes,28);
-  }
-}
-
-li {
-  @include font-size(16,8,22);
-  @include breakpoint($small) {
-    @include font-size(20,9,28);
-  }
+  font-family: $serif;
+  font-size: 16px;
 }
 
 ul, ol {
@@ -38,34 +21,8 @@ ul, ol {
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font-fallback;
-  text-rendering: optimizeLegibility; // Fix the character spacing for headings
-  font-weight: 500;
-  /* use webfont */
-  @at-root .fonts-loaded #{&} {
-    font-family: $heading-font;
-  }
-}
-h1 {
-  @include font-size(24);
-  @include breakpoint($small) {
-    @include font-size(36);
-  }
-}
-h2 {
-  @include font-size(22);
-  @include breakpoint($small) {
-    @include font-size(32);
-  }
-}
-h3 {
-  @include font-size(18);
-  @include breakpoint($small) {
-    @include font-size(28);
-  }
-}
-h4, h5, h6 {
-  @include font-size(16);
+  color: $headline-color;
+  font-family: $sans-serif;
 }
 
 u,
@@ -77,47 +34,12 @@ ins {
 /* Links */
 
 a {
-  color: $link-color;
-  &:hover {
-    color: $link-color-hover;
-  }
   &:focus {
     @extend %tab-focus;
   }
   &:hover,
   &:active {
     outline: 0;
-  }
-}
-
-/* Quoted text */
-
-blockquote {
-  position: relative;
-  @include bleed-x(1em);
-  // simulate left border without pushing content to the right
-  &:before {
-    content: "";
-    position: absolute;
-    left: -6px;
-    width: 6px;
-    height: 100%;
-    background-color: $highlighter-color;
-  }
-  p {
-    font-family: $alt-font;
-    @include font-size(24, yes, 28);
-    font-style: italic;
-  }
-  cite {
-    font-family: $base-font;
-    font-weight: 700;
-    font-style: normal;
-    @include font-size(18);
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
   }
 }
 
@@ -131,51 +53,7 @@ pre {
 }
 p code,
 li code {
-  @include font-size(14,no);
-  color: $text-color;
   white-space: nowrap;
-  margin: 0 2px;
-  padding: 0 5px;
-  border: 1px solid $code-border-color;
-  background-color: $inline-code-background;
-  border-radius: $code-border-radius;
-}
-
-/* Tables */
-
-table {
-  border-collapse: collapse;
-  margin: ((0px + $doc-line-height) / 2) 0;
-  // margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
-  width: 100%;
-}
-tbody {
-  tr:hover > td, tr:hover > th {
-    background-color: $table-hover-color;
-  }
-}
-thead {
-  tr:first-child td {
-    border-bottom: 2px solid $table-border-color;
-  }
-}
-th {
-  padding: (0px + $doc-line-height) / 2;
-  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
-  font-family: $alt-font;
-  font-weight: bold;
-  text-align: left;
-  background-color: $table-header-color;
-  border-bottom: 1px solid mix($black, $border-color, 15%);
-}
-td {
-  background-color: $table-background;
-  border-bottom: 1px solid $table-border-color;
-  padding: (0px + $doc-line-height) / 2;
-  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
-}
-tr, td, th {
-  vertical-align: middle;
 }
 
 /* Horizontal rule */
@@ -215,18 +93,11 @@ figure {
         box-shadow: 0 0 10px rgba($black, .20);
       }
     }
-    // img {
-    //   margin-bottom: gutter(12);
-    //   @include breakpoint($small) {
-    //     margin-bottom: inherit;
-    //   }
-    // }
   }
   &.half {
     > a,
     > img {
       @include breakpoint($small) {
-        @include gallery(6 of 12); // context of .entry-content columns
       }
     }
     figcaption {
@@ -238,7 +109,6 @@ figure {
     > a,
     > img {
       @include breakpoint($small) {
-        @include gallery(4 of 12);
       }
     }
     figcaption {
@@ -251,9 +121,6 @@ figure {
 /* Figure captions */
 
 figcaption {
-  // margin-top: gutter(12);
-  font-family: $caption-font;
-  @include font-size(14, yes, 16);
   color: $caption-color;
   clear: both;
   a {
@@ -273,117 +140,6 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-
-/*
-   Forms
-   ========================================================================== */
-
-fieldset {
-  background: $form-background ;
-  border: 1px solid $form-border-color;
-  margin-bottom: 0px + $doc-line-height;
-  padding: gutter();
-  border-radius: $form-border-radius;
-}
-
-input,
-label,
-select {
-  display: block;
-  @include font-size($form-font-size, no);
-}
-
-label {
-  font-weight: 500;
-  font-family: $alt-font;
-  margin-bottom: (0px + $doc-line-height) / 4;
-  &.required:after {
-    content: "*";
-  }
-  abbr {
-    display: none;
-  }
-}
-
-input,
-textarea,
-select,
-select[multiple=multiple] {
-  box-sizing: border-box;
-  transition: border-color;
-  background-color: $white;
-  border-radius: $form-border-radius;
-  border: 1px solid $form-border-color;
-  box-shadow: $form-box-shadow;
-  font-family: $form-font-family;
-  font-size: $form-font-size;
-  margin-bottom: (0px + $doc-line-height) / 2;
-  padding: ((0px + $doc-line-height) / 3) ((0px + $doc-line-height) / 3);
-  width: 100%;
-  &:hover {
-    border-color: $form-border-color-hover;
-  }
-  &:focus {
-    border-color: $form-border-color-focus;
-    box-shadow: $form-box-shadow-focus;
-    outline: none;
-  }
-}
-
-textarea {
-  resize: vertical;
-}
-
-input[type="search"] {
-  appearance: none;
-}
-
-input[type="checkbox"], input[type="radio"] {
-  display: inline;
-  margin-right: (0px + $doc-line-height) / 4;
-}
-
-input[type="file"] {
-  width: 100%;
-}
-
-select {
-  width: auto;
-  max-width: 100%;
-  margin-bottom: 0px + $doc-line-height;
-}
-
-form button,
-input[type="submit"] {
-  @extend .btn;
-  appearance: none;
-  cursor: pointer;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-form {
-  ul, ol {
-    padding-left: 0;
-    list-style-type: none;
-  }
-}
-
-/* Required */
-
-.req {
-  color: $danger-color !important;
-  font-weight: bold;
-}
-
-/* instructions */
-
-.instruct {
-  font-family: $alt-font;
-  @include font-size(14,yes);
-  color: $caption-color;
-}
 
 /*
    Navigation lists

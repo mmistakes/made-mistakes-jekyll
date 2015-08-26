@@ -6,14 +6,9 @@
    Typography related variables
    ========================================================================== */
 
-$base-font                    : 'Alegreya';
-$base-font-fallback           : Georgia, serif;
-$heading-font-fallback        : sans-serif;
-$heading-font                 : 'Alegreya Sans';
-$heading-font-title           : $heading-font;
-$caption-font                 : $heading-font;
-$code-font                    : monospace;
-$alt-font                     : $heading-font;
+$serif                        : Georgia, serif;
+$sans-serif                   : Arial, sans-serif;
+$code-font                    : Courier, monospace;
 
 $doc-font-size                : 16;
 $doc-line-height              : 24;
@@ -27,13 +22,18 @@ $border-radius                : 5px;
 
 $white                        : #fff;
 $black                        : #000;
-$gray                         : #635960;
+
+$gray                         : #4c4c4c;
+$dark-gray                    : #333;
+$light-gray                   : #e2e2e2;
+$lighter-gray                 : #f9f9f9;
 
 $background-color             : mix($white, $gray, 90%);
 $body-color                   : $white;
 
 $text-color                   : $black;
 $caption-color                : $text-color;
+$headline-color               : $dark-gray;
 
 $highlighter-color            : #f3bc15;
 
@@ -89,7 +89,7 @@ $form-border-color-focus      : $primary-color;
 $form-border-radius           : $border-radius;
 $form-box-shadow              : inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
 $form-box-shadow-focus        : $form-box-shadow, 0 0 5px rgba(mix($black, $form-border-color-focus, 10%), 0.7);
-$form-font-family             : $base-font;
+$form-font-family             : $sans-serif;
 $form-font-size               : $doc-font-size;
 
 /*
@@ -103,44 +103,16 @@ $code-border-radius           : $border-radius;
 
 $inline-code-background       : mix($white, $border-color, 75%);
 
-/*
-   Sliding menu variables
-   ========================================================================== */
-
-$sliding-menu-border-color    : $black;
-$sliding-menu-background      : $black;
-$sliding-menu-color           : $white;
-$sliding-menu-background-hover: $black;
-$sliding-menu-color-hover     : $white;
-$sliding-menu-border          : 1px solid $sliding-menu-border-color;
-$button-size                  : 32px;
-$transition                   : 0.3s; /* increase this to see the transformations in slow-motion */
-$sliding-menu-animation       : all 500ms cubic-bezier(.86,.01,.77,.78);
-
 
 /*
-   Masthead variables
+   Breakpoint variables
    ========================================================================== */
 
-$masthead-height: $button-size * 2;
+$breakpoint-to-ems            : true;
 
-
-/*
-   Grid variables
-   ========================================================================== */
-
-$breakpoint-to-ems: true;
-
-$article: (
-  columns: 16,
-  gutters: 1/4,
-  debug: (image: hide)
-);
-
-$micro-only: 240px 480px;
-$small: 768px;
-$medium: 900px;
-$large: 1280px;
+$small                        : 480px;
+$medium                       : 768px;
+$large                        : 1024px;
 
 
 /*

@@ -5,9 +5,14 @@
 
 /* Apply a natural box layout model to all elements */
 
-*, *:before, *:after {
+html {
   box-sizing: border-box;
- }
+  background-color: $lighter-gray;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /* Remove margin */
 

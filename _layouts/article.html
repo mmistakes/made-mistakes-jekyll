@@ -2,50 +2,76 @@
 layout: default
 ---
 
-<div id="main" role="main">
+<main id="main" role="main">
 
   <article itemscope itemtype="http://schema.org/Article">
+    <meta itemprop="description" content="{{ page.excerpt }}">
+
+    <header class="container post__header">
+      <h1 class="post__title" itemprop="name">{{ page.title }}</h1>
+    </header>
 
     {% if page.image.feature %}
-      <div class="page-image">
-        <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
-        {% if page.image.credit %}{% include image-credit.html %}{% endif %}
-      </div><!-- /.page-image -->
+      <img class="page__hero" src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}" itemprop="image">
+      {% if page.image.credit %}{% include image-credit.html %}{% endif %}
     {% endif %}
 
-    <div class="article-wrap">
+    <div class="container post__content">
+      {% if page.external.url %}
+        <section>
+          <a href="{{ page.external.url }}" class="btn btn--block" itemprop="sameAs">Launch Website</a>
+        </section>
+      {% endif %}
 
-      {% include browser-upgrade.html %}
-
-      <h1 class="entry-title" itemprop="name">{{ page.title }}</h1>
-
-      {% include breadcrumbs.html %}
-
-      <meta itemprop="description" content="{{ page.excerpt }}">
-
-      <div class="entry-content" id="content">
-        {% if page.external.url %}
-          <div><a href="{{ page.external.url }}" class="btn" itemprop="sameAs"><i class="fa fa-external-link"></i> Launch Website</a></div>
-        {% endif %}
+      <section>
         {{ content }}
-        <footer class="page-footer">
-          {% if page.categories %}{% include page-author.html %}{% endif %}
-          {% include page-meta-footer.html %}
-        </footer><!-- /.footer -->
-      </div><!-- /.content -->
+      </section>
 
-      <hr />
+      <section class="post__comments">
+        {% if page.comments == true %}
+          {% include post__comments.html %}
+        {% endif %}
+      </section>
 
-      {% if page.comments == true %}
-        {% include comments.html %}
+      <footer class="post__footer">
+        {% include post__author.html %}
+        {% include post__footer.html %}
+      </footer>
+
+      <div class="post__social">
+        {% include post__social.html %}
+      </div>
+
+      {% if page.tags %}
+        <div class="post__taxonomy">
+          {% include post__taxonomy.html %}
+        </div>
       {% endif %}
+    </div>
 
-      {% if page.path contains '_posts' %}
-        {% include related-post.html %}
-      {% endif %}
+    <aside class="post__sidebar">
+      <nav class="toc">
+        <h4 class="toc__title">Table of Contents</h4>
+        <ol class="toc__menu">
+          <li class="toc__menuItem"><a href="#">Link One</a></li>
+        </ol>
+      </nav>
+      <div class="ad--sidebar">
+        <ins class="adsbygoogle r-ads-skyscraper"
+          style="display:inline-block"
+          data-ad-client="{{ site.owner.google.ad-client }}"
+          data-ad-slot="{{ site.owner.google.ad-slot }}"></ins>
+        <small class="ad--caption">Advertisement</small>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </aside>
 
-    </div><!-- /.article-wrap -->
+  </article>
 
-  </article><!-- / article -->
+  {% if page.path contains '_posts' %}
+    {% include related.html %}
+  {% endif %}
 
-</div><!-- /#main -->
+</main>
