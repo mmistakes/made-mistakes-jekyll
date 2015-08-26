@@ -19,8 +19,6 @@ How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus
 Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
 </div>
 
-{% include toc.html %}
-
 ## Tools
 
 *	Obviously you'll need an iPad --- I use a 3rd generation with the nice retina screen.

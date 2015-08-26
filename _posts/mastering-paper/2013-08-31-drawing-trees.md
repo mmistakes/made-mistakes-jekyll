@@ -14,8 +14,6 @@ comments: true
 
 Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({{ site.url }}{% post_url /work/2013-08-27-relic-scout %}), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
 
-{% include toc.html %}
-
 ## Drawing Trees
 
 When I draw trees I select the watercolor brush and jump right in, using one continuous stroke to rough out a general shape. Don't worry about being precise here, we'll refine the edges later. You could start with a light pencil sketch to nail your the composition, but I usually don't --- it keeps the tree feeling organic and less rigid (a happy accident is your friend).

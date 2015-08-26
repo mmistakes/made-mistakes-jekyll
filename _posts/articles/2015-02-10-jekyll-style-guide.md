@@ -14,8 +14,6 @@ comments: true
 
 Building a living style guide that details all of the colors, typographic elements, UI patterns, and components used on Made Mistakes has been at the top of my to-do list for some time.
 
-{% include toc.html %}
-
 As sole designer, developer, and writer for the site, having one probably isn't all that crucial. Yet when iterating on the site's design I've found that some of my patterns don't always "speak the same visual language." Having a document I can refer back to and quickly spot check for visual inconsistencies could be very helpful.
 
 ## Keep it Simple

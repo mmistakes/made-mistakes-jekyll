@@ -16,8 +16,6 @@ I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could
 
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
 
-{% include toc.html %}
-
 ## Why is This Important?
 
 The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.

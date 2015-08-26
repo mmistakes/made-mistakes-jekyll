@@ -15,8 +15,6 @@ comments: true
 
 A question I receive often is "how do you create such accurate line drawings in your Paper portraits." The short answer is practice... about 1,460 hours of practice. The longer and more helpful answer is, there are several techniques I use to achieve life-like drawings --- one of which I'm going to share with you now.
 
-{% include toc.html %}
-
 ## Why Use the Grid Method?
 
 If you've ever taken a basic drawing class there's a good chance you were introduced to the **grid method**. Teachers use it as a way to strengthen observation skills and help overcome left brain roadblocks beginners often fight against. It may not be the ideal tool to use with **Paper by FiftyThree**, but for those who struggle with drawing it can build a solid foundation for you creations.

@@ -14,8 +14,6 @@ comments: true
 
 One of the first things I drew on my iPad with Paper by FiftyThree was a blind contour line drawing. It has always been an interest of mine and Paper's expressive ink tools are a great fit for the technique.
 
-{% include toc.html %}
-
 ## Drawing Contour Lines
 
 Working in a loose and gestural manner is an excellent way to warm-up and sharpen your observation skills. I like to draw with the [fountain pen (draw)]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#fountain-pen) because it has a greater range than some of the other tools, but feel free to use the [ink pen (write)]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) or even the [pencil]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#pencil). I think you'll find this exercise to be very cathartic, especially when compared against the technical and time consuming nature of photo realistic drawing.

@@ -16,8 +16,6 @@ Portraiture is at the heart of what I use Paper by FiftyThree to create with. Af
 
 Like the other parts of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/), this one will explain my techniques and how I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces]({{ site.url }}{% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
 
-{% include toc.html %}
-
 <figure>
 	<a href="{{ site.url }}/images/paper-53-face-evolution-lg.jpg">
 		<img src="{{ site.url }}/images/paper-53-face-evolution.jpg" alt="PaperFaces evolution">

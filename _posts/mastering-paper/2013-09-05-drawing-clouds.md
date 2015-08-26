@@ -14,8 +14,6 @@ comments: true
 
 Paper by FiftyThree makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here...let me show you how.
 
-{% include toc.html %}
-
 ## Blue Skies Fade
 
 Let's start with the easier of the two, a nice bright blue sky. One of the more important steps is choosing a blue to paint with. The hue...the saturation...and the brightness all play a role in the overall emotion of the piece. I tend to mix in a swirl of green and keep it slightly over saturated to contrast against skin tones as seen in my many [PaperFaces portraits]({{ site.url }}/paperfaces/). If you're going for doom and gloom, back off the blue and mix in gray instead to set the foundation for an overcast sky.
