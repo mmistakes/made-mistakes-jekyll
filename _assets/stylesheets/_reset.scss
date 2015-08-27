@@ -6,7 +6,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  background-color: $lighter-gray;
+  background-color: $background-color;
   /* base font sizing */
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
@@ -21,6 +21,13 @@ html {
 /* Remove margin */
 
 body { margin: 0; }
+
+/* Selected elements */
+
+::selection {
+  color: #fff;
+  background: #000;
+}
 
 /* Display HTML5 elements in IE6-9 and FF3 */
 
