@@ -13,7 +13,7 @@
    Vendor
    ========================================================================== */
 
-@import "breakpoint";
+// @import "breakpoint";
 // @import "vendor/magnific-popup/magnific-popup";
 @import "vendor/bigfoot/bigfoot-default";
 
@@ -48,7 +48,7 @@
 @import "page"; // everything else on the page
 @import "related"; // related items
 // @import "review-box";
-// @import "banners"; // banner advertisements
+@import "banners"; // banner advertisements
 // @import "footnotes";
-// @import "toc"; // table of contents
+@import "toc"; // table of contents
 @import "colophon"; // site colophon
