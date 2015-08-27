@@ -8,6 +8,7 @@ image:
   teaser: COM-teaser.jpg
   thumb: COM-record-sleeve-340x340.jpg
 tags: [records, punk, critique, design, inspiration, typography]
+toc: true
 ---
 
 My favorite thing about this Corn On Macabre record has nothing to do with the band or the music. Sense of sight and touch often influence me more than sounds…

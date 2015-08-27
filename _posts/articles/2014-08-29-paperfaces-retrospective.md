@@ -9,6 +9,7 @@ image:
   thumb: 
 category: articles
 tags: [drawing, illustration, 365 project, paper by 53, ipad]
+toc: true
 comments: true
 ---
 

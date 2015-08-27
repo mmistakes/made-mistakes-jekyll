@@ -11,7 +11,6 @@ image:
 category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
-ads: true
 ---
 
 As I continue to hack away at the design of Made Mistakes and improve on things, I try to release simplified Jekyll starters and themes after each major site revision. Should make development easier for those who sift through [my main repository](https://github.com/mmistakes/made-mistakes-jekyll) trying to strip out the cruft and site specific content to make it their own.

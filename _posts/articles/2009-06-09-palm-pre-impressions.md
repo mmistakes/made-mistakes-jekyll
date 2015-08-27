@@ -7,6 +7,7 @@ category: articles
 image: 
   teaser: palm-pre-teaser.jpg
 tags: [palm pre, iphone, tech geek, review]
+toc: true
 ---
 
 Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS smartphones (Treo 600, Treo 650, Centro), I've come to rely on a proven feature set. The experience of having a device that organizes your life, makes phone calls, and connects online --- has remained unchanged. For the most part the Palm Pre meets or exceeds my expectations, with only a few minor back steps. After the break is a full rundown of my Palm Pre likes and dislikes (mostly software related), in no particular order.
@@ -16,7 +17,7 @@ Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS
 	<figcaption>Palm Pre closed with my sweet wallpaper</figcaption>
 </figure>
 
-### Palm Pre positives
+## Palm Pre positives
 
 *	Device feels great in your hands. *(Not sure where all the "it feels cheap" reviews came from.)*
 *	Screen looks awesome!
@@ -33,7 +34,7 @@ Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS
 *	Backups every day to your Palm Profile --- just in case you need to restore your device after a wipe.
 *	GPS and Sprint Navigation for turn by turn directions.
 
-### Palm Pre negatives
+## Palm Pre negatives
 
 *	Having to pay $30 for the Classic app. Booooooooo!
 *	Having to use Classic at all! Let's get true webOS versions on the App Catalog so I can stop using Classic for a few archaic applications.

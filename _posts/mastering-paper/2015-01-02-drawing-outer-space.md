@@ -9,6 +9,7 @@ image:
   feature: paper-53-space-feature.jpg
   teaser: paper-53-space-teaser.jpg
 comments: true
+toc: true
 ---
 
 Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bodies* is a ton of fun with Paper, the iPad app by FiftyThree. Much like [drawing blue skies and clouds]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), it is very hard to screw them up if you follow a few simple guidelines.

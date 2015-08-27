@@ -10,6 +10,7 @@ tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 modified: 2015-05-22T15:11:31-04:00
 comments: true
+toc: true
 ---
 
 What originally started as a site refresh quickly turned into something else when Jekyll baked in native support for Sass with a [2.0 release](http://jekyllrb.com/docs/history/#v2-0-0).

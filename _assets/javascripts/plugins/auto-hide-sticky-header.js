@@ -10,7 +10,7 @@
     'use strict';
 
     var elSelector      = '.masthead',
-      elClassHidden     = 'is-hidden',
+      elClassHidden     = 'masthead--hidden',
       throttleTimeout   = 500,
       element           = document.querySelector( elSelector );
 

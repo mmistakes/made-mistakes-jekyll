@@ -9,6 +9,7 @@ tags: [jekyll, style guide, open source, web development, github]
 image:
   feature: jekyll-style-guide-feature.jpg
   teaser: jekyll-style-guide-teaser.jpg
+toc: true
 comments: true
 ---
 
@@ -68,8 +69,6 @@ For version 2.0 of the style guide I may investigate taking it to the next level
 
 I've seen [some examples](https://github.com/zakkain/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
 </div>
-
-{% include ads/skyscraper.html %}
 
 ### Display Components and Color Palettes
 
@@ -223,8 +222,6 @@ With the help of some CSS and JavaScript I was able to position a drop down list
 #### Stylesheet tweaks
 
 For the most part all of my components displayed correctly on the page. One of the benefits of building the style guide was that it quickly pointed out components that weren't as modular as I initial thought. Meaning some were bound to specific class names that when placed in different contexts lost all of their styling.
-
-{% include ads/skyscraper.html %}
 
 There were also a few cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
 

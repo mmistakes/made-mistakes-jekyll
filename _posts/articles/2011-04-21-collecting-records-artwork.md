@@ -9,6 +9,7 @@ image:
   thumb: collecting-records-thumb.jpg
 modified: 2013-04-26
 tags: [punk, records, inspiration, diy, critique, design]
+toc: true
 ---
 
 ## Hand-lettered, the Stuff of My Dreams

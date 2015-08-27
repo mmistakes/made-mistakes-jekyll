@@ -10,11 +10,12 @@ image:
 category: mastering-paper
 tags: [paper by 53, tutorial, drawing, painting, water, waves, ipad]
 comments: true
+toc: true
 ---
 
 Hopefully parts 2 and 3 of my [Mastering Paper by FiftyThree Guide]({{ site.url }}/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
 
-### Mixing the Water
+## Mixing the Water
 
 When choosing a color for the water, I like to mix it dull and gray by knocking the saturation down[^mixer]. I find this helps arrive at a better base color and contrasts nicely against a bright blue sky. But don't let this mix limit your creative vision, make it any color you want.
 
@@ -149,6 +150,5 @@ Using all of these techniques I was able to create a variety of backdrops for th
 </ul>
 
 ## Watch for the Next Tutorial
-{:.no_toc}
 
 The next part will include techniques for drawing various textures with Paper's tools. Things like wood grain, brick, asphalt, and concrete will all be covered to round out the landscape portion of this guide.

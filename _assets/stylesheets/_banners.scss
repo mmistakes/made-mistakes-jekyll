@@ -16,11 +16,12 @@
 .adsense--sidebar {
   width: 320px;
   height: 100px;
-  @media (min-width: $small) {
+  border-bottom: 0 solid transparent;
+  @include breakpoint($small) {
     width: 120px;
     height: 600px;
   }
-  @media (min-width: $medium) {
+  @include breakpoint($medium) {
     width: 300px;
     height: 250px;
   }

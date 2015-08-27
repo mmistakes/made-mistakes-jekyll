@@ -11,7 +11,6 @@ image:
   feature: paperfaces-contest-lg.jpg
   teaser: paperfaces-contest-teaser.jpg
   thumb:
-ads: true
 comments: true
 ---
 

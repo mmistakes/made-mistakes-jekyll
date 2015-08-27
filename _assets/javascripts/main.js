@@ -3,8 +3,33 @@
 
 $(document).ready(function(){
 
+  // // Full screen menu overlay
+  // // toggle menu, trigger, and screen on click
+  // $("#js__menu-open").on("click touchstart", function(e){
+  //   e.preventDefault();
+
+  //   // toggle button text
+  //   var el = $(".masthead__menu-label");
+  //   if (el.text() == el.data("text-swap")) {
+  //     el.text(el.data("text-original"));
+  //   } else {
+  //     el.data("text-original", el.text());
+  //     el.text(el.data("text-swap"));
+  //   }
+
+  //   // move masthead menu
+  //   // $(".masthead__menu-wrapper").insertBefore($(".masthead"));
+  //   $(".masthead__menu-wrapper").clone().removeClass("masthead__menu-wrapper").addClass("masthead__menu-wrapper--clone").insertBefore($(".masthead"));
+
+
+  //   // toggle menu open/close
+  //   $(".masthead__menu-wrapper").toggleClass("is--open");
+
+  // });
+
+
   // Fix widows in headlines
-  $('.post__title').widowFix();
+  $(".post__title").widowFix();
 
 
   // Add lightbox class to all image links
@@ -54,39 +79,6 @@ $(document).ready(function(){
   // FitVids
 	// Target your .container, .wrapper, .post, etc.
 	$("#main").fitVids();
-
-
-  // Add anchor links after headlines
-  var anchorForId = function (id) {
-    var anchor = document.createElement("a");
-    anchor.className = "header-link";
-    anchor.href      = "#" + id;
-    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
-    return anchor;
-  };
-
-  var linkifyAnchors = function (level, containingElement) {
-    var headers = containingElement.getElementsByTagName("h" + level);
-    for (var h = 0; h < headers.length; h++) {
-      var header = headers[h];
-
-      if (typeof header.id !== "undefined" && header.id !== "") {
-        header.appendChild(anchorForId(header.id));
-      }
-    }
-  };
-
-  document.onreadystatechange = function () {
-    if (this.readyState === "complete") {
-      var contentBlock = document.getElementsByClassName("post__content")[0];
-      if (!contentBlock) {
-        return;
-      }
-      for (var level = 1; level <= 6; level++) {
-        linkifyAnchors(level, contentBlock);
-      }
-    }
-  };
 
 
   // smooth scroll

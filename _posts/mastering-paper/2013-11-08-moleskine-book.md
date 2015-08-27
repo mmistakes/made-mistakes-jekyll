@@ -10,6 +10,7 @@ image:
 category: mastering-paper
 tags: [paper by 53, moleskine, book, design, printing, review]
 comments: true
+toc: true
 ---
 
 About a month ago FiftyThree added a highly requested feature to their award winning app Paper --- the ability to print a book. Being a graphic designer I was curious to see the quality of these custom printed Moleskine books first hand. Using a small sampling of my PaperFaces portraits I ordered[^book-disclosure] my first book two weeks ago along with a Mastering Paper book I'm still waiting on.

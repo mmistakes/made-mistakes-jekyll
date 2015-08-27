@@ -8,6 +8,7 @@ image:
   teaser: imac-glitch-teaser.jpg
   thumb: imac-glitch-thumb.jpg
 tags: [imac, logic board, apple]
+toc: true
 ---
 
 ## A Little Trip Down Macintosh Memory Lane

@@ -1,6 +1,6 @@
-<header class="masthead">
+<header class="masthead" role="banner">
   <a class="masthead__title" href="{{ site.url }}/">{{ site.title }}</a>
-  <nav role="navigation">
+  <nav class="masthead__menu-wrapper" role="navigation">
     <ul class="masthead__menu">
       {% for link in site.data.navigation %}
         <li><a href="{{ link.url }}" class="masthead__menu-item" onclick="ga('send', 'event', 'header', 'click', '{{ link.title }}');">{{ link.title }}</a></li>

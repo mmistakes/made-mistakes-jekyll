@@ -12,17 +12,14 @@ layout: default
     </header>
 
     {% if page.image.feature %}
-      <img class="page__hero" src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}" itemprop="image">
-      {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+    <div class="page__hero">
+      <img class="page__hero-image" src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}" itemprop="image">
+      {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
+    </div>
     {% endif %}
 
     <div class="container post__content">
       <div class="post__inner-wrapper">
-        {% if page.external.url %}
-        <section class="post__external">
-          <a href="{{ page.external.url }}" class="btn btn--block" itemprop="sameAs">Launch Website</a>
-        </section>
-        {% endif %}
 
         <section class="post__body">
           {{ content }}
@@ -48,10 +45,11 @@ layout: default
           {% include post__taxonomy.html %}
         </div>
         {% endif %}
+
       </div>
 
       <aside class="post__sidebar">
-        {% if page.toc != false %}
+        {% if page.toc == true %}
         <nav class="toc">
           <h4 class="toc__title"><span>Table of Contents</span></h4>
           <ol class="toc__menu"></ol>

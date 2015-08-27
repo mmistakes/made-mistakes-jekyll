@@ -8,6 +8,7 @@ image:
   teaser: UO-may11-teaser.jpg
   thumb: UO-MAY11-serifs-italics-340.jpg
 tags: [catalog, critique, design, typography]
+toc: true
 ---
 
 ## A Step in the Right Direction

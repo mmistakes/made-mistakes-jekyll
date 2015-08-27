@@ -6,6 +6,7 @@ category: articles
 image: 
   thumb: iphone4-impressions-340x340.jpg
 tags: [iphone, apple, palm pre, review, tech geek]
+toc: true
 ---
 
 <figure>

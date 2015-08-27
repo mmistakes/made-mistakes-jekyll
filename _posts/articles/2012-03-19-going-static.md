@@ -9,6 +9,7 @@ image:
   thumb: going-static-thumb.jpg
 category: articles
 tags: [jekyll, web development, design, open source]
+toc: true
 comments: true
 ---
 
@@ -50,8 +51,6 @@ I eventually settled on Jekyll as my static-site generator of choice --- mostly 
 
 There can be a few more steps to the process, but for the most part it's fairly straight forward after you've built all the necessary `_layouts` and `_includes`. What made this process appealing to me over Wordpress or another CMS was --- total control. I can set how I want the folder structure to look like, how the pages are constructed, use [Grunt](http://gruntjs.com/) and other build scripts to optimize everything, etc etc etc. Sure it's possible to do all this in a CMS, but sometimes it's not as transparent and obvious and you often have to strip out a bunch of code bloat.
 
-{% include ads/skyscraper.html %}
-
 I will say this about using Jekyll --- it's not for everyone. I had to get my hands dirty and figure out (or research) ways of creating XML sitemaps, <abbr title="Really Simple Syndication">RSS</abbr>/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do it for you.
 
 Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of HTML5 and CSS3 transitions, be able to *"art direct"* every page without hacks, get nice with CSS preprocessors like [Less](http://lesscss.org/) to create more powerful and efficient stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop screens.
@@ -84,8 +83,6 @@ Since migrating from Less to Sass I now use [Bourbon](http://bourbon.io) and [Ne
 ### But What About the Grid System?
 
 Another added benefit of using Less are the many user created mixins. I knew I wanted an easy way to establish a grid system in my layouts, but really didn't want to go the semantically unfriendly route of using classes like `.grid_x`, `.push_x`, or `col_x`. Instead I stumbled upon [The Semantic Grid System](http://semantic.gs/) from an [article on Smashing Magazine](http://coding.smashingmagazine.com/2011/08/23/the-semantic-grid-system-page-layout-for-tomorrow/ "The Semantic Grid System Page Layout for Tomorrow") about using semantic markup in grid frameworks.
-
-{% include ads/skyscraper.html %}
 
 Using The Semantic Grid System allowed me to define fluid grids for each of my site's major page layouts with a few lines of Less. Top that off with a few carefully thought out `@media` queries and my grids were now responsive and adapted well mobile phones, tablets, desktops, and beyond.
 

@@ -9,6 +9,7 @@ image:
   thumb: pogo-connect-app-thumb.jpg
 tags: [pogo connect, paper by 53, stylus, ipad]
 comments: true
+toc: true
 ---
 
 About a month ago I received a replacement [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.
