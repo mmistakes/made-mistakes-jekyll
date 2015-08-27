@@ -51,13 +51,14 @@ layout: default
       </div>
 
       <aside class="post__sidebar">
+        {% if page.toc != false %}
         <nav class="toc">
-          <h4 class="toc__title">Table of Contents</h4>
-          <ol class="toc__menu">
-            <!-- <li class="toc__menuItem"><a href="#">Link One</a></li> -->
-          </ol>
+          <h4 class="toc__title"><span>Table of Contents</span></h4>
+          <ol class="toc__menu"></ol>
         </nav>
+        {% endif %}
 
+        {% if page.ads != false %}
         <div class="ad--sidebar">
           <ins class="adsbygoogle r-ads-skyscraper"
             style="display:inline-block"
@@ -68,6 +69,7 @@ layout: default
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
         </div>
+        {% endif %}
       </aside>
     </div>
 

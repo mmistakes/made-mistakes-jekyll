@@ -32,6 +32,8 @@ $text-color                   : $gray;
 $caption-color                : $text-color;
 $headline-color               : $dark-gray;
 
+$background-color             : $lighter-gray;
+
 $highlighter-color            : #f3bc15;
 
 $primary-color                : mix($black, $gray, 35%);
@@ -107,7 +109,7 @@ $inline-code-background       : mix($white, $border-color, 75%);
 
 $breakpoint-to-ems            : true;
 
-$small                        : 480px;
+$small                        : 600px;
 $medium                       : 768px;
 $large                        : 1024px;
 

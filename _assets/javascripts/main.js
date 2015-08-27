@@ -104,8 +104,8 @@ $(document).ready(function(){
 
 
   // automatic table of contents
-  $(".toc__menu").toc({content: ".post__inner-wrapper", headings: "h2,h3"});
-  $(".toc__menu li").addClass("toc__menu-item");
+  $(".toc__menu").toc({content: ".post__inner-wrapper", headings: "h2"});
+  $(".toc__menu li").addClass("toc__menu--item");
 
 
 });
