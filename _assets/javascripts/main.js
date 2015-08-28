@@ -4,24 +4,46 @@
 $(document).ready(function(){
 
   // open/close primary navigation
-  $('.cd-primary-nav-trigger').on('click', function(){
+  $('.overlay__menu-trigger').on('click', function(){
     // $('.cd-menu-icon').toggleClass('is-clicked');
     // $('.cd-header').toggleClass('menu-is-open');
 
     // in Firefox transitions break when parent overflow is changed, so we need to wait for the end of the transition to give the body an overflow hidden
-    if( $('.cd-primary-nav').hasClass('is-visible') ) {
-      $('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
-        $('body').removeClass('overflow-hidden');
+    if( $('.overlay__menu').hasClass('is--visible') ) {
+      $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+        $('body').removeClass('overflow--hidden');
       });
     } else {
-      $('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
-        $('body').addClass('overflow-hidden');
+      $('.overlay__menu').addClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+        $('body').addClass('overflow--hidden');
       });
     }
   });
 
 
-  // Add lightbox class to all image links
+  // move table of contents from post body to sidebar
+  $(".post__body .toc").appendTo($(".toc--sidebar"));
+
+
+  // FitVids init
+  $("#main").fitVids();
+
+
+  // smooth scroll init
+  $("a").smoothScroll({offset: -20});
+
+
+  // bigfoot footnotes settings
+  var bigfoot = $.bigfoot(
+    {
+      deleteOnUnhover: false,
+      preventPageScroll: false,
+      activateOnHover: true
+    }
+  );
+
+
+  // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
 
@@ -58,35 +80,10 @@ $(document).ready(function(){
 	});
 
 
-  // Lazy Load
+  // lazy load settings
   $("img.load").show().lazyload({
   	effect: "fadeIn",
   	skip_invisible: false
   });
-
-
-  // FitVids
-	// Target your .container, .wrapper, .post, etc.
-	$("#main").fitVids();
-
-
-  // smooth scroll
-  $("a").smoothScroll({offset: -20});
-
-
-  // footnotes
-  var bigfoot = $.bigfoot(
-    {
-      deleteOnUnhover: false,
-      preventPageScroll: false,
-      activateOnHover: true
-    }
-  );
-
-
-  // automatic table of contents
-  $(".toc__menu").toc({content: ".post__inner-wrapper", headings: "h2"});
-  $(".toc__menu li").addClass("toc__menu--item");
-
 
 });
