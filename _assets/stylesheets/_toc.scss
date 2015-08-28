@@ -6,7 +6,7 @@
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 0 1em 1em;
-  border: 1px solid $light-gray;
+  border: 2px solid $light-gray;
 }
 
 .toc__title {
@@ -41,32 +41,31 @@
 .toc__menu {
   margin-bottom: 0;
   padding-left: 0;
-}
-
-.toc__menu--item {
-  counter-increment: step-counter;
-  display: flex;
-  margin-bottom: 5px;
-  &:last-child {
-    margin-bottom: 0;
-  }
-  &:before {
-    content: counter(step-counter);
-    display: block;
-    margin-right: 10px;
-    padding: 3px;
-    width: 1.5em;
-    height: 1.5em;
-    color: #fff;
-    line-height: 1;
-    text-align: center;
-    background-color: #000;
-    border-radius: 50%;
-  }
-  a {
-    flex: 1;
-    color: #000;
-    font-family: $sans-serif;
-    font-weight: bold;
+  li {
+    counter-increment: step-counter;
+    display: flex;
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:before {
+      content: counter(step-counter);
+      display: block;
+      margin-right: 10px;
+      padding: 3px;
+      width: 1.5em;
+      height: 1.5em;
+      color: #fff;
+      line-height: 1;
+      text-align: center;
+      background-color: #000;
+      border-radius: 50%;
+    }
+    a {
+      flex: 1;
+      color: #000;
+      font-family: $sans-serif;
+      font-weight: bold;
+    }
   }
 }

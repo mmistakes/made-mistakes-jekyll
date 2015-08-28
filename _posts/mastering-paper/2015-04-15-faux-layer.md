@@ -9,12 +9,13 @@ image:
   feature: paper-53-faux-layers-feature.jpg
   teaser: paper-53-faux-layers-teaser.jpg
 comments: true
-toc: true
 ---
 
 Up until recently I would painstakingly erase and Blend away lines until I got them just right when drawing with Paper by FiftyThree.
 
 When [version 2.2](http://news.fiftythree.com/post/104844221313/paper-update-2-2-holiday-bonus-edition-happy) was released this past December, along with it came a Color Picker and a way to swap page colors whenever you wanted. Using these new features and a carefully mixed color, I'm going to show you how a "faux" layer can help with sketching and tracing.
+
+{% include toc.html %}
 
 ## Replicating the Background Color
 

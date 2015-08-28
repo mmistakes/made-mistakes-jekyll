@@ -6,7 +6,6 @@ category: articles
 image: 
   thumb: iphone4-impressions-340x340.jpg
 tags: [iphone, apple, palm pre, review, tech geek]
-toc: true
 ---
 
 <figure>
@@ -15,6 +14,8 @@ toc: true
 </figure>
 
 Being a longtime Palm user *(see picture above)*, I've come to rely on core functionality in my devices --- solid messaging/email clients, robust calendar and task managers, internet connectivity, and the ability to install applications. Now that every new phone released has these functions, there certainly are more choices to be had.
+
+{% include toc.html %}
 
 With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS and iPhone 4 mobile device. The following are some of my experiences and observations transitioning from Palm after nearly 10 years of use.
 

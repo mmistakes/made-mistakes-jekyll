@@ -9,10 +9,11 @@ image:
   feature: paper-53-watercolor-brush-feature.jpg
   teaser: paper-53-watercolor-brush-teaser.jpg
 comments: true
-toc: true
 ---
 
 If you've struggled painting smooth tones with Paper's watercolor brush, power on your iPad and download the 2.0 update right now! FiftyThree just pushed out a set of changes that improves the tool in every way.
+
+{% include toc.html %}
 
 ## So What Exactly Has Changed? 
 

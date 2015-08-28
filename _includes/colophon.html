@@ -2,17 +2,17 @@
   <nav>
     <ul class="colophon__menu">
       {% for link in site.data.footer %}
-        <li class="colophon__menu-item"><a href="{{ link.url }}" onclick="ga('send', 'event', 'footer', 'click', '{{ link.title }}');">{{ link.title }}</a></li>
+        <li class="colophon__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
     <ul class="colophon__menu">
-      <li class="colophon__menu-item--social"><a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'footer', 'click', 'Twitter');">Twitter</a></li>
-      <li class="colophon__menu-item--social"><a href="https://instagram.com/mmistakes" onclick="ga('send', 'event', 'footer', 'click', 'Instagram');">Instagram</a></li>
-      <li class="colophon__menu-item--social"><a href="http://mademistakes.tumblr.com/" onclick="ga('send', 'event', 'footer', 'click', 'Tumblr');">Tumblr</a></li>
-      <li class="colophon__menu-item--social"><a href="https://facebook.com/michaelrose" onclick="ga('send', 'event', 'footer', 'click', 'Facebook');">Facebook</a></li>
-      <li class="colophon__menu-item--social"><a href="https://www.youtube.com/user/anotherjpeg" onclick="ga('send', 'event', 'footer', 'click', 'YouTube');">YouTube</a></li>
-      <li class="colophon__menu-item--social"><a href="https://github.com/mmistakes" onclick="ga('send', 'event', 'footer', 'click', 'GitHub');">GitHub</a></li>
+      <li class="colophon__menu-item--social"><a href="http://twitter.com/mmistakes">Twitter</a></li>
+      <li class="colophon__menu-item--social"><a href="https://instagram.com/mmistakes">Instagram</a></li>
+      <li class="colophon__menu-item--social"><a href="http://mademistakes.tumblr.com/">Tumblr</a></li>
+      <li class="colophon__menu-item--social"><a href="https://facebook.com/michaelrose">Facebook</a></li>
+      <li class="colophon__menu-item--social"><a href="https://www.youtube.com/user/anotherjpeg">YouTube</a></li>
+      <li class="colophon__menu-item--social"><a href="https://github.com/mmistakes">GitHub</a></li>
     </ul>
   </nav>
-  <p class="colophon__copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="/humans.txt" onclick="ga('send', 'event', 'footer', 'click', 'humans.txt');">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes-jekyll" title="Made Mistakes source on GitHub" onclick="ga('send', 'event', 'footer', 'click', 'view source');">View Source</a></p>
+  <p class="colophon__copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="/humans.txt">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes-jekyll" title="MadeMistakes.com source on GitHub">View Source</a></p>
 </footer>

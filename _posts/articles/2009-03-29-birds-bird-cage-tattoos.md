@@ -9,10 +9,11 @@ image:
   teaser: bird-cage-tattoo-teaser.jpg
   thumb: bird-tattoo-340x340.jpg
 tags: [bird, tattoo, bird cage, vegan, trees, michael rose]
-toc: true
 ---
 
-The last couple of months have been pretty stressful. Butter, my domestic long haired cat has been sick off and on and causing me to incur some high vet bills and a bunch of junk that hasn't helped to keep my mind at ease. Then I started the process of moving in with [my girlfriend Wendy](http://2littlerosebuds.com/) and getting ready to put my house on the market. Top that off with all the economy stuff, worrying if I'll have a job tomorrow, and if my car will make it another day without dying --- my health decided to take a dump on itself.
+The last couple of months have been pretty stressful. Butter, my domestic long haired cat has been sick off and on and causing me to incur some high vet bills and a bunch of junk that hasn't helped to keep my mind at ease. Then I started the process of moving in with [my girlfriend Wendy](https://2littlerosebuds.com/) and getting ready to put my house on the market. Top that off with all the economy stuff, worrying if I'll have a job tomorrow, and if my car will make it another day without dying --- my health decided to take a dump on itself.
+
+{% include toc.html %}
 
 ## Tattoos to Relieve Stress
 

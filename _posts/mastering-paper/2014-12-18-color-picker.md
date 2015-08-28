@@ -9,10 +9,11 @@ image:
   feature: paper-53-color-picker-feature.jpg
   teaser: paper-53-color-picker-teaser.jpg
 comments: true
-toc: true
 ---
 
 Re-imagined zoom tool, *check*. Expressive paint and ink tools that react to the speed and angle of your strokes, *double check*. A familiar color picker to sample, match, and adjust hues --- *triple check*. Yes that's not a typo, Paper by FiftyThree finally has a color picker.
+
+{% include toc.html %}
 
 With each major update Paper takes a forward leap into maturity as new tools and features are added. You really get the feeling that everything has been weighed to carefully balance and compliment the way you interact with the app. Almost to a fault, the tools and gestures have been designed to fade away into the UI putting the focus on what matters most --- the ink and paint being placed on the canvas.
 

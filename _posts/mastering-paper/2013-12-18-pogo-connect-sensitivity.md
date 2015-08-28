@@ -9,10 +9,11 @@ image:
   thumb: pogo-connect-app-thumb.jpg
 tags: [pogo connect, paper by 53, stylus, ipad]
 comments: true
-toc: true
 ---
 
 About a month ago I received a replacement [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.
+
+{% include toc.html %}
 
 I use Paper by FiftyThree almost exclusively for drawing with the occasional Procreate experiment. When using either app I noticed that the sensitivity of the Pogo's tip seemed off. To get the full range of stroke sizes I now had to press extremely hard to register a wide stroke (see screenshot below), which really started to screw with how I draw.
 

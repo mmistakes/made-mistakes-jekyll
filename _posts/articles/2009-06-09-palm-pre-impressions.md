@@ -7,10 +7,13 @@ category: articles
 image: 
   teaser: palm-pre-teaser.jpg
 tags: [palm pre, iphone, tech geek, review]
-toc: true
 ---
 
-Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS smartphones (Treo 600, Treo 650, Centro), I've come to rely on a proven feature set. The experience of having a device that organizes your life, makes phone calls, and connects online --- has remained unchanged. For the most part the Palm Pre meets or exceeds my expectations, with only a few minor back steps. After the break is a full rundown of my Palm Pre likes and dislikes (mostly software related), in no particular order.
+Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS smartphones (Treo 600, Treo 650, Centro), I've come to rely on a proven feature set.
+
+The experience of having a device that organizes your life, makes phone calls, and connects online --- has remained unchanged. For the most part the Palm Pre meets or exceeds my expectations, with only a few minor back steps. After the break is a full rundown of my Palm Pre likes and dislikes (mostly software related), in no particular order.
+
+{% include toc.html %}
 
 <figure>
 	<img src="{{ site.url }}/images/palm-pre-wallpaper.jpg" alt="Palm Pre closed">

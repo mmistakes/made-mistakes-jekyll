@@ -8,10 +8,11 @@ image:
   teaser: imac-glitch-teaser.jpg
   thumb: imac-glitch-thumb.jpg
 tags: [imac, logic board, apple]
-toc: true
 ---
 
 ## A Little Trip Down Macintosh Memory Lane
+
+{% include toc.html %}
 
 I've been a fan of Apple's computers every since 1997, when I started using them in my design classes. Around 2000 I bought my first Mac, a *Power Mac G4* with a 17" Graphite monitor and fell in love. This machine treated me well for about 5 years until I finally gave it away to my younger brother. Through the years I added extra hard drives, increased the memory, swapped in a Superdrive, and updated from OS 9 to OS X Tiger with every major point update in between.
 

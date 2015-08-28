@@ -10,12 +10,13 @@ image:
 category: mastering-paper
 tags: [paper by 53, tutorial, hair, drawing, ipad]
 comments: true
-toc: true
 ---
 
 ## Block Out the Hair
 
 I like to rough out a general shape of the subject's hair using watercolor loaded with black or dark brown. Depending on what the overall palette is I might adjust the brown --- usually mixing in red to warm it up or blue to cool it down.
+
+{% include toc.html %}
 
 When working with the watercolor brush remember to **layer** numerous strokes to get a rich dark base. Just painting one coat of black won't give great results needed for the next step.
 

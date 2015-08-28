@@ -9,13 +9,14 @@ image:
   thumb: 
 category: articles
 tags: [drawing, illustration, 365 project, paper by 53, ipad]
-toc: true
 comments: true
 ---
 
 *Drawing a day* projects are a lot like resolutions made for the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
 
 Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](http://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
+
+{% include toc.html %}
 
 <figure class="half">
   <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-twitter-600.jpg" alt="first PaperFaces portrait"></a>

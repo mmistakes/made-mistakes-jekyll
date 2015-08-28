@@ -5,6 +5,7 @@ layout: default
 <main id="main" role="main">
 
   <article itemscope itemtype="http://schema.org/Article">
+
     <meta itemprop="description" content="{{ page.excerpt }}">
 
     <header class="container post__header">
@@ -19,6 +20,7 @@ layout: default
     {% endif %}
 
     <div class="container post__content">
+
       <div class="post__inner-wrapper">
 
         <section class="post__body">
@@ -49,12 +51,8 @@ layout: default
       </div>
 
       <aside class="post__sidebar">
-        {% if page.toc == true %}
-        <nav class="toc">
-          <h4 class="toc__title"><span>Table of Contents</span></h4>
-          <ol class="toc__menu"></ol>
-        </nav>
-        {% endif %}
+
+        <div class="toc--sidebar"></div>
 
         {% if page.ads != false %}
         <div class="ad--sidebar">
@@ -69,6 +67,7 @@ layout: default
         </div>
         {% endif %}
       </aside>
+
     </div>
 
   </article>

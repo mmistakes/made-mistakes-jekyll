@@ -8,16 +8,17 @@ image:
   teaser: COM-teaser.jpg
   thumb: COM-record-sleeve-340x340.jpg
 tags: [records, punk, critique, design, inspiration, typography]
-toc: true
 ---
 
-My favorite thing about this Corn On Macabre record has nothing to do with the band or the music. Sense of sight and touch often influence me more than sounds…
+My favorite thing about this Corn On Macabre record has nothing to do with the band or the music. Sense of sight and touch often influence me more than sounds...
+
+{% include toc.html %}
 
 ## The Medium is Important
 
 An often overlooked aspect in design are the materials chosen to help communicate the message(s). The paper printed on and the ink printed with, can completely screw with a design if they're speaking different languages.
 
-If the sleeve art for this *Corn On Macabre* 7-inch was printed on Classic Columns or some piece of bright white the tone would be at odds with the music. I think more of sludge, dirt, and faded photographs when listening to Chapter One. Song titles and lyrics about horror movies don't exactly benefit being printed on glossy cardstock, know what I mean?
+If the sleeve art for this *Corn On Macabre* 7-inch was printed on Classic Columns or some piece of bright white the tone would be at odds with the music. I think more of sludge, dirt, and faded photographs when listening to Chapter One. Song titles and lyrics about horror movies don't exactly benefit being printed on glossy card-stock, know what I mean?
 
 ## Liner Notes and Metallic Ink
 

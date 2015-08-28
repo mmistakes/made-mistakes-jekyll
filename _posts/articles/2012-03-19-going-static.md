@@ -9,13 +9,14 @@ image:
   thumb: going-static-thumb.jpg
 category: articles
 tags: [jekyll, web development, design, open source]
-toc: true
 comments: true
 ---
 
 If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://www.alistapart.com/) and [Smashing Magazine](http://www.smashingmagazine.com/).
 
 Which got me thinking *"Shit. I don't know anything about these new technologies or techniques, I better learn fast."* And the only real way I was going to pickup all this was to create a project for myself. So began the process of evaluating how to build my personal website and how I'd like it to function.
+
+{% include toc.html %}
 
 ## Why Go Static
 

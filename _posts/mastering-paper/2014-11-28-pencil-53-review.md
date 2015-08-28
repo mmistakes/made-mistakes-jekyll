@@ -10,10 +10,11 @@ image:
   teaser: pencil-53-teaser.jpg
   thumb: pencil-53-thumb.jpg
 comments: true
-toc: true
 ---
 
 For the last year I've been using FiftyThree's [first hardware product]({{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}), **Pencil**. A Bluetooth stylus that was designed to work seamlessly with Paper for iPad by delivering an experience that feels closer to "the real thing" than any other styli.
+
+{% include toc.html %}
 
 ## Look and Feel
 

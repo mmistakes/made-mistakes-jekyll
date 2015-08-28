@@ -9,10 +9,11 @@ image:
   teaser: ipod-classic-teaser.jpg
   thumb: ipod-classic-thumb.jpg
 tags: [ipod, apple, review]
-toc: true
 ---
 
 Last week Apple finally unveiled a new generation of iPods. The last iPod I purchased was a 3rd generation model with 40GB of hard drive space and have been waiting for a decent successor. My iTunes Music Library has finally outgrown the 3rd gen so I decided this was the time to get a replacement. I figured an iPod that resembled the iPhone would be just around the corner and pleasantly surprised when the *iPod touch* was announced.
+
+{% include toc.html %}
 
 At 16GB the iPod touch doesn't meet my needs, so I decided to go with the new iPod classic 80GB model. Hopefully by then flash drive prices comes down and I can get a version of the iPod touch with 80GB+. Until then the classic more than meets what I was looking for in a music player that can hold all my tunes and have enough juice for a full work day.
 
