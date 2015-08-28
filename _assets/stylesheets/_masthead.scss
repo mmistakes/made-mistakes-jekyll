@@ -3,12 +3,14 @@
    ========================================================================== */
 
 .masthead {
+  position: relative;
   width: 100%;
   font-family: $sans-serif;
   text-transform: uppercase;
   background-color: #fff;
   border-bottom: 1px solid $light-gray;
   transition: all 500ms cubic-bezier(.86,.01,.77,.78);
+  z-index: 3;
   .container {
     display: flex;
     justify-content: space-between;
@@ -40,4 +42,75 @@
   padding: 20px 0 15px 30px;
   font-size: 0.8rem;
   letter-spacing: 1px;
+}
+
+/*
+   Menu Overlay
+   ========================================================================== */
+
+.cd-primary-nav {
+  /* by default it's hidden - on top of the viewport */
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(#fff, 0.9);
+  z-index: 2;
+  text-align: center;
+  padding: 50px 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: auto;
+  /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
+  -webkit-overflow-scrolling: touch;
+  transform: translateY(-100%);
+  transition-property: transform;
+  transition-duration: 0.4s;
+}
+
+.cd-primary-nav li {
+  margin: 0.2em 0;
+  font-size: 1.563rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cd-primary-nav a {
+  display: inline-block;
+  padding: 0.4em 1em;
+  border-radius: 0.25em;
+  transition: background 0.2s;
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+.cd-primary-nav .cd-label {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin: 2.4em 0 .8em;
+}
+
+.cd-primary-nav.is-visible {
+  transform: translateY(0);
+}
+
+@include breakpoint($medium) {
+  .cd-primary-nav {
+    padding: 80px 0;
+  }
+}
+
+@include breakpoint($large) {
+  .cd-primary-nav li {
+    font-size: 1.953rem;
+  }
+  .cd-primary-nav .cd-label {
+    font-size: 1rem;
+  }
 }

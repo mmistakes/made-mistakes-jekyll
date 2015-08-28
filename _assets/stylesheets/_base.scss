@@ -23,6 +23,10 @@ body {
   color: $text-color;
   font-family: $serif;
   line-height: 1.45;
+  &.overflow-hidden {
+    /* when primary navigation is visible, the content in the background won't scroll */
+    overflow: hidden;
+  }
 }
 
 small {

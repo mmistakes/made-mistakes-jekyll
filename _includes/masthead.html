@@ -6,7 +6,22 @@
         {% for link in site.data.navigation %}
           <li><a href="{{ link.url }}" class="masthead__menu-item" onclick="ga('send', 'event', 'header', 'click', '{{ link.title }}');">{{ link.title }}</a></li>
         {% endfor %}
+        <li><a href="#0" class="cd-primary-nav-trigger masthead__menu-item" onclick="ga('send', 'event', 'header', 'click', 'More');">•&nbsp;•&nbsp;•</a></li>
       </ul>
     </nav>
   </div>
 </header>
+
+<nav>
+  <ul class="cd-primary-nav">
+    <li class="cd-label">About us</li>
+    <li><a href="#0">The team</a></li>
+    <li><a href="#0">Our services</a></li>
+    <li><a href="#0">Our projects</a></li>
+
+    <li class="cd-label">Work with us</li>
+    <li><a href="#0">Start a project</a></li>
+    <li><a href="#0">Join In</a></li>
+    <li><a href="#0">Create an account</a></li>
+  </ul>
+</nav>
