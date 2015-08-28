@@ -5,7 +5,7 @@
 .colophon {
   margin-top: 2em;
   padding: 20px;
-  background-color: #333;
+  background-color: #000;
 }
 
 .colophon__menu {
@@ -14,18 +14,45 @@
   justify-content: center;
   margin: 0;
   padding: 0;
+  &:nth-child(2) {
+    margin: 10px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+  }
 }
 
 .colophon__menu-item,
 .colophon__menu-item--social {
-  display: block;
-  padding: 10px;
+  font-family: $sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.colophon__menu-item {
+  padding: 10px 20px;
+  font-size: 0.8rem;
   a {
-    color: #fff;
+    color: $lighter-gray;
+  }
+}
+
+.colophon__menu-item--social {
+  padding: 10px;
+  font-size: 0.64rem;
+  a {
+    color: #ccc;
   }
 }
 
 .colophon__copyright {
   color: #ccc;
+  font-size: 0.64rem;
   text-align: center;
+  a {
+    color: #ccc;
+    border-bottom: 1px dotted #ccc;
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
 }
