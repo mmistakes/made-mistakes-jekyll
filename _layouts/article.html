@@ -73,7 +73,7 @@ layout: default
 
   </article>
 
-  {% if page.path contains '_posts' %}
+  {% if page.path contains '_posts' and site.related_posts.size >= 3 %}
     {% include related.html %}
   {% endif %}
 

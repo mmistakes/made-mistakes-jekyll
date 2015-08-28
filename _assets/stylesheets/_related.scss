@@ -22,6 +22,9 @@
 .related__item {
   flex: 1;
   text-align: center;
+  img {
+    width: 100%;
+  }
   @media (min-width: $small) {
     &:first-child {
       margin-right: 10px;
