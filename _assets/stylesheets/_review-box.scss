@@ -2,91 +2,49 @@
    REVIEW BOXES
    ========================================================================== */
 
-.review-wrapper{
+.review__wrapper{
   position: relative;
   padding: 20px;
-  @include font-size(14,no);
-  background-color: $black;
-  border-radius: 2 * $border-radius;
-  color: $white;
-  overflow: hidden;
+  background-color: #000;
+  border-radius: $border-radius;
+  color: #fff;
   a {
     color: $text-color;
   }
 }
 
-h5.review-title {
+h5.review__title {
   margin: 0;
+  color: #fff;
+  font-family: $sans-serif;
+  font-size: 1.563rem;
+  font-weight: bold;
 }
 
-.review-list {
-  @include clearfix;
+.review__title-summary {
+  font-family: $sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.review__list {
   margin: 0;
   padding: 0;
   list-style: none;
   li {
     margin: 0;
-    border-bottom: 1px solid $white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
     padding: 10px 0;
-    position: relative;
+    font-family: $sans-serif;
+    font-weight: bold;
     list-style: none;
   }
-  span {
-    font-family: $alt-font;
-    @include font-size(16,no);
-  }
-  .review-star {
-    position: absolute;
-    right: 0;
-    top: 10px;
-  }
 }
 
-.review-desc {
-  @include clearfix;
-  @include breakpoint($medium) {
-    float: left;
-    width: 75%;
-  }
-  p {
-    @include font-size(14,no);
-  }
+.review__description {
   a {
-    color: $white;
+    color: #fff;
   }
-  .btn-inverse {
-    margin-bottom: 0;
-  }
-}
-
-.review-total-wrapper {
-  @include breakpoint($medium) {
-    float: right;
-  }
-  margin: 0;
-  position: relative;
-  span.review-total-box {
-    border-top: 0;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-    display: block;
-    font-family: $alt-font;
-    @include font-size(40,no);
-    font-weight: 700;
-    text-align: right;
-    margin: 0;
-    width: 100%;
-  }
-}
-
-p.review-summary-title {
-  font-family: $alt-font;
-  @include font-size(16,no);
-}
-
-.review-total-star {
-  position: relative;
-  float: right;
-  margin-top: 10px;
 }
