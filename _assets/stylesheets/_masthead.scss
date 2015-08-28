@@ -9,7 +9,6 @@
   text-transform: uppercase;
   background-color: #fff;
   border-bottom: 1px solid $light-gray;
-  transition: all 500ms cubic-bezier(.86,.01,.77,.78);
   z-index: 3;
   .container {
     display: flex;
@@ -22,6 +21,12 @@
   }
 }
 
+.masthead__menu-wrapper {
+  @media (max-width: 420px) {
+    margin: 0 auto; // center menu
+  }
+}
+
 .masthead__menu {
   margin: 0;
   padding: 0;
@@ -30,12 +35,15 @@
 }
 
 .masthead__title {
-  display: block;
-  padding: 20px 0 15px 0;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-bottom: 5px solid #000;
+  display: none;
+  @media (min-width: 420px) {
+    display: block;
+    padding: 20px 0 15px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 5px solid #000;
+  }
 }
 .masthead__menu-item {
   display: block;
@@ -45,17 +53,21 @@
 }
 
 /*
-   Menu Overlay
+   Overlay menu
    ========================================================================== */
 
-.cd-primary-nav {
+.overlay__menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   /* by default it's hidden - on top of the viewport */
   position: fixed;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(#fff, 0.9);
+  background-color: #fff;
   z-index: 2;
   text-align: center;
   padding: 50px 0;
@@ -65,52 +77,82 @@
   /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
   -webkit-overflow-scrolling: touch;
   transform: translateY(-100%);
-  transition-property: transform;
-  transition-duration: 0.4s;
+  transition: transform 0.4s cubic-bezier(.86,.01,.77,.78);
+
+  a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #000;
+    border-radius: 0.25em;
+    transition: background 0.2s;
+    &:hover {
+      color: #fff;
+      background-color: #000;
+    }
+  }
+
+  &.is--visible {
+    transform: translateY(0);
+  }
+
+  @include breakpoint($medium) {
+    padding: 80px 200px;
+  }
 }
 
-.cd-primary-nav li {
-  margin: 0.2em 0;
+.overlay__menu-item {
+  display: block;
+  width: 100%;
   font-size: 1.563rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.cd-primary-nav a {
-  display: inline-block;
-  padding: 0.4em 1em;
-  border-radius: 0.25em;
-  transition: background 0.2s;
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
-}
-
-.cd-primary-nav .cd-label {
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  font-size: 0.875rem;
-  margin: 2.4em 0 .8em;
-}
-
-.cd-primary-nav.is-visible {
-  transform: translateY(0);
-}
-
-@include breakpoint($medium) {
-  .cd-primary-nav {
-    padding: 80px 0;
-  }
-}
-
-@include breakpoint($large) {
-  .cd-primary-nav li {
+  @include breakpoint($large) {
     font-size: 1.953rem;
   }
-  .cd-primary-nav .cd-label {
+}
+
+.overlay__menu-item--secondary {
+  display: block;
+  font-size: 1.25rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include breakpoint($small) {
+    width: 50%;
+  }
+  @include breakpoint($large) {
+    width: 25%;
+    font-size: 1.563rem;
+  }
+}
+
+.overlay__menu-label {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin: 30px 0 15px;
+  /* lines in headline */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &:before,
+  &:after {
+    content: '\a0';
+    position: relative;
+    top: 0.5em;
+    height: 4px;
+    flex-grow: 1;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+  }
+  &:before {
+    margin-right: 10px;
+  }
+  &:after {
+    margin-left: 10px;
+  }
+  @include breakpoint($large) {
     font-size: 1rem;
   }
 }
