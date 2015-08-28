@@ -99,6 +99,23 @@
   h6 {
     font-size: 0.8rem;
   }
+
+  /* cleaner underlines for links */
+  p > a,
+  li > a,
+  td > a {
+    color: inherit;
+    border-bottom: 2px solid $highlighter-color;
+    transition: border 0.4s ease-in-out;
+    &:hover {
+      color: #000;
+      border-bottom-color: #000;
+    }
+  }
+
+  .toc {
+    display: none;
+  }
 }
 
 .post__comments,
@@ -248,6 +265,9 @@
     margin-left: 80px;
   }
   .toc {
+    // display: block;
+  }
+  .toc {
     @media (min-width: $small) and (max-width: $medium) {
       display: none;
     }
@@ -257,8 +277,12 @@
 /* ads */
 
 .ad--sidebar {
-  margin: 0 -10px 2em;
+  margin: 0 0 2em;
   text-align: center;
+  @media (max-width: 320px) {
+    position: relative;
+    left: -10px;
+  }
   @media (min-width: 320px) {
     margin-left: auto;
     margin-right: auto;
