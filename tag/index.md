@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: archive
 title: "Tag Index"
 modified:
 excerpt: "An archive of posts organized by tag."

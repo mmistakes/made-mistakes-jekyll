@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: archive
 title: "Frequently Asked Questions"
 date: 2014-09-10T14:46:57-04:00
 modified: 2014-11-25

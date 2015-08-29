@@ -9,11 +9,7 @@ ads: false
 ---
 
 A collection of my thoughts, inspiration, mistakes, and other minutia.
-{: .squish}
 
-<div class="tiles">
 {% for post in site.categories.articles %}
-  {% include archive-tiles.html %}
+  {% include archive__item.html %}
 {% endfor %}
-</div><!-- /.tiles -->
-

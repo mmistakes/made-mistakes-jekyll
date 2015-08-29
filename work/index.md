@@ -10,9 +10,7 @@ ads: false
 A small selection of things I've designed, illustrated, or developed.
 {: .squish}
 
-<div class="tiles">
 {% for post in site.categories.work %}
-  {% include archive-tiles.html %}
+  {% include archive__item.html %}
 {% endfor %}
-</div><!-- /.tiles -->
 

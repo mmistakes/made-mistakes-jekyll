@@ -46,10 +46,11 @@
    ========================================================================== */
 
 @import "masthead"; // page header with navigation
-@import "page"; // everything else on the page
+@import "page"; // page-post
+@import "archive"; // archive listing
+@import "toc"; // table of contents
 @import "related"; // related items
 @import "review-box";
 @import "banners"; // banner advertisements
 // @import "footnotes";
-@import "toc"; // table of contents
 @import "colophon"; // site colophon
