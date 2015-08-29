@@ -5,11 +5,30 @@
 .related__header {
   margin-top: 2em;
   text-align: center;
+  /* lines in headline */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &:before,
+  &:after {
+    content: '\a0';
+    position: relative;
+    top: 0.7em;
+    height: 4px;
+    flex-grow: 1;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+  }
+  &:before {
+    margin-right: 10px;
+  }
+  &:after {
+    margin-left: 10px;
+  }
 }
 
 .related {
   display: flex;
-  max-width: $large;
   margin: 0 auto;
   padding-bottom: 3em;
   flex-direction: column;
@@ -21,16 +40,38 @@
 
 .related__item {
   flex: 1;
-  text-align: center;
   img {
     width: 100%;
+    margin-bottom: 0.25em;
   }
   @media (min-width: $small) {
     &:first-child {
-      margin-right: 10px;
+      margin-right: 1em;
     }
     &:last-child {
-      margin-left: 10px;
+      margin-left: 1em;
+    }
+  }
+}
+
+.related__category {
+  font-family: $sans-serif;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  color: $gray;
+  &:before {
+    content: '\2192'; // right arrow
+    padding-right: 5px;
+  }
+}
+
+.related__title {
+  margin-top: 0.25em;
+  font-weight: normal;
+  a {
+    color: $gray;
+    &:hover {
+      color: #000;
     }
   }
 }
