@@ -21,6 +21,9 @@
   flex-wrap: wrap;
   li {
     list-style: none;
+    flex: auto;
+    margin: 0.5vw;
+    width: 100px;
   }
   a {
     img {
@@ -31,5 +34,9 @@
         box-shadow: 0 0 10px rgba($black, .20);
       }
     }
+  }
+  img {
+    width: 100%;
+    height: auto;
   }
 }

@@ -82,6 +82,7 @@ hr {
 
 figure {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
   margin-left: 0;
@@ -100,7 +101,7 @@ figure {
     // image hover animation
     &:hover {
       img {
-        box-shadow: 0 0 10px rgba($black, .20);
+        box-shadow: 0 0 10px rgba($black, 0.20);
       }
     }
   }
@@ -108,7 +109,7 @@ figure {
     > a,
     > img {
       @include breakpoint($small) {
-        width: 50%;
+        width: calc(50% - 0.5em);
       }
     }
     figcaption {
@@ -118,7 +119,7 @@ figure {
     > a,
     > img {
       @include breakpoint($small) {
-        width: 33.3333%;
+        width: calc(33.3333% - 0.5em);
       }
     }
     figcaption {
