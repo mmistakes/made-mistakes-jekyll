@@ -14,11 +14,11 @@
 
 <nav>
   <ul class="overlay__menu">
-    <li class="overlay__menu-label">The Important Stuff</li>
+    <li class="overlay__menu-label">Featured</li>
     {% for link in site.data.navigation-primary %}
       <li class="overlay__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
-    <li class="overlay__menu-label">Additional</li>
+    <li class="overlay__menu-label">Everything Else</li>
     {% for link in site.data.navigation-secondary %}
       <li class="overlay__menu-item--secondary"><a href="{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
