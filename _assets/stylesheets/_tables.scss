@@ -4,9 +4,10 @@
 
 table {
   border-collapse: collapse;
-  margin: ((0px + $doc-line-height) / 2) 0;
-  // margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
+  margin: 0.5em 0;
   width: 100%;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
 }
 
 tbody {
@@ -22,19 +23,14 @@ thead {
 }
 
 th {
-  padding: (0px + $doc-line-height) / 2;
-  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+  padding: 0.5em;
   font-weight: bold;
   text-align: left;
-  background-color: $table-header-color;
-  border-bottom: 1px solid mix($black, $border-color, 15%);
 }
 
 td {
-  background-color: $table-background;
   border-bottom: 1px solid $table-border-color;
-  padding: (0px + $doc-line-height) / 2;
-  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+  padding: 0.5em;
 }
 
 tr, td, th {
