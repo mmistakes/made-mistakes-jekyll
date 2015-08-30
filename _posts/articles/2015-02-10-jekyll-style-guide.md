@@ -107,7 +107,7 @@ usage: "Emphasize post text."
 </div>
 {% endhighlight %}
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Descriptive filenames
 Be smart with your filenames if you're trying to sort components in a logical way. The default behavior is for them to be arranged alphabetically by filename. Adding a variable to the YAML Front Matter of each component and sorting on that is one way of overriding this behavior.
 
@@ -146,7 +146,7 @@ What's going on here is I'm iterating over the `components` collection, grouping
 
 [^component-type]: Component type is set in the YAML Front Matter. eg: buttons, notices, media, typography, etc.
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Beware the Markdown
 I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
 </div>

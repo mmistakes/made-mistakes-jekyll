@@ -67,7 +67,7 @@ Now the fun begins! Select the off-white color you sampled/mixed earlier and beg
 
 As you sketch don't worry about whether your strokes are perfect, they won't be part of the finished drawing so be loose and free with them.
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Sketch with the pencil tool
 To yield the best results with the "faux" layer technique I suggest using the pencil tool. It blends into the default page color better than the harsh edges produced by the ink tools.
 </div>

@@ -76,7 +76,7 @@ Bare minimum I figured I could use global variables for the site's color palette
 
 Using variables and mixins helped to quickly prototype page styles. It also allowed me to think more modularly about how to best reuse my code throughout a project. And I didn't even have to worry about using JavaScript or a separate app to convert compiled .css files. I simply installed the [Jekyll-less](http://rubygems.org/gems/jekyll-less) Ruby Gem and any time I run `jekyll` or `jekyll-server`, the .less to .css conversion is handled automatically.
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Update: Switched from Less to Sass
 Since migrating from Less to Sass I now use [Bourbon](http://bourbon.io) and [Neat](http://neat.bourbon.io/) to manage my mixins and grid. [Susy](http://susy.oddbird.net/) looks like something I'll eventually move to once I have the time to toy with it.
 </div>
@@ -95,7 +95,7 @@ So now that I finally got around to migrating my Wordpress website, developed a 
 
 You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see…
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Update: Portfolio Layout
 More or less I've gotten my portfolio layout in order and included a stripped down version of it in my [Skinny Bones Jekyll Starter]({{ site.url }}{% post_url work/2014-09-02-skinny-bones-jekyll %}).
 </div>
@@ -108,7 +108,7 @@ I think I have a solid handle on how to serve mobile optimized pages using `@med
 
 With a 1.0 release under my belt, I think now is the time to take a look at starting a [repository on GitHub](https://github.com/mmistakes/made-mistakes). Maybe to bring sanity to the project allowing me to version control each update. Also think it would be wise to learn how to utilize rsync and rake tasks to make deploying smoother instead of manually FTPing the contents of `_site\` to the server.
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### Open Sourced Made Mistakes
 I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/made-mistakes-jekyll) to GitHub if you want to see how I use Jekyll. Feel free to fork my repo, use my design, or point out how bad all my code is ;-) Just don't be a dick and make a carbon copy of my content and pass it off as your own.
 </div>
