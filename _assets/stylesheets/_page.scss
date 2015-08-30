@@ -77,7 +77,7 @@
     color: $headline-color;
     font-family: $serif;
     font-weight: normal;
-    line-height: 2.441rem;
+    line-height: 2rem;
   }
 
   h2 {
@@ -103,7 +103,8 @@
   /* cleaner underlines for links */
   p > a,
   li > a,
-  td > a {
+  td > a,
+  small a {
     color: inherit;
     border-bottom: 2px solid $highlighter-color;
     transition: border 0.4s ease-in-out;
@@ -216,6 +217,7 @@
   font-family: $sans-serif;
   font-size: 0.64rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* social */
