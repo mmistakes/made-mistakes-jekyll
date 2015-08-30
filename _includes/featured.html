@@ -1,7 +1,9 @@
 <div class="container">
-  <h3 class="related__header">You May Also Enjoy</h3>
+  <h3 class="related__header">{% if page.feature.headline %}{{ page.feature.headline }}{% else %}Featured Posts{% endif %}</h3>
   <div class="related">
-    {% for post in site.related_posts limit:3 %}
+    {% assign cat = page.feature.category %}
+    {% assign features = site.categories.[cat] | where:"featured", true %}
+    {% for post in features limit:3 %}
       <article class="related__item" itemscope itemtype="http://schema.org/Article">
         <a href="{{ site.url }}{{ post.url }}">
           <img src="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" alt="{{ post.title }}">
@@ -11,10 +13,7 @@
           {% else %}
           <h3 class="related__title" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
         {% endif %}
-        {% if post.categories %}
-          {% assign category_name = post.categories | first | replace: '-', ' ' %}
-          <a href="{{ site.url }}/{{ post.categories | first }}" class="related__category">{{ category_name }}</a>
-        {% endif %}
+        <span class="related__category"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
       </article>
     {% endfor %}
   </div>

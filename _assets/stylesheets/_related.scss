@@ -29,10 +29,10 @@
 
 .related {
   display: flex;
-  margin: 0 auto;
-  padding-bottom: 3em;
+  margin: 0 auto 3em auto;
   flex-direction: column;
   justify-content: space-between;
+  border-bottom: 4px double $light-gray;
   @media (min-width: $small) {
     flex-direction: row;
   }
@@ -40,9 +40,10 @@
 
 .related__item {
   flex: 1;
+  padding-bottom: 2em;
   img {
     width: 100%;
-    margin-bottom: 0.25em;
+    margin: 0.25em 0;
   }
   @media (min-width: $small) {
     &:first-child {
@@ -66,10 +67,10 @@
 }
 
 .related__title {
-  margin-top: 0.25em;
+  margin: 0.25em 0;
   font-weight: normal;
   a {
-    color: $gray;
+    color: $headline-color;
     &:hover {
       color: #000;
     }

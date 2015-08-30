@@ -10,6 +10,7 @@ image:
   feature: jekyll-style-guide-feature.jpg
   teaser: jekyll-style-guide-teaser.jpg
 comments: true
+featured: true
 ---
 
 Building a living style guide that details all of the colors, typographic elements, UI patterns, and components used on Made Mistakes has been at the top of my to-do list for some time.
