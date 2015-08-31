@@ -9,23 +9,6 @@ ads: false
 
 Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact avenue. I can also be found on several other social networks if you want to befriend or reach out to me there.
 
-<div class="sidebar-left top">
-  <h6 class="toc-title">Social Media</h6>
-  <div class="toc">
-    <ul>
-      <li><a href="http://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" title="@mmistakes"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      <li><a href="https://github.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'GitHub follow');" title="mmistakes"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
-      <li><a href="https://instagram.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" title="mmistakes"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-      <li><a href="http://mademistakes.tumblr.com" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" title="mademistakes"><i class="fa fa-tumblr-square" aria-hidden="true"></i> Tumblr</a></li>
-      <li><a href="https://facebook.com/michaelrose" onclick="ga('send', 'event', 'link', 'click', 'Facebook follow');" title="michaelrose"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-      <li><a href="https://plus.google.com/+MichaelRoseDesign/posts" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');" title="+MichaelRoseDesign"><i class="fa fa-google-plus-square" aria-hidden="true"></i> Google+</a></li>
-      <li><a href="https://www.youtube.com/user/anotherjpeg" onclick="ga('send', 'event', 'link', 'click', 'YouTube follow');" title="anotherjpeg"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a></li>
-      <li><a href="https://www.pinterest.com/mmistakes/" onclick="ga('send', 'event', 'link', 'click', 'Pinterest follow');" title="mmistakes"><i class="fa fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
-      <li><a href="https://mix.fiftythree.com/11098-Michael-Rose" onclick="ga('send', 'event', 'link', 'click', 'Mix by FiftyThree follow');" title="mmistakes"><i class="fa fa-heart" aria-hidden="true"></i> Mix by FiftyThree</a></li>
-    </ul>
-  </div>
-</div><!-- /.sidebar-left -->
-
 For anything longer please fill out the form below and I'll get back to you by email. 
 
 <script>{% asset vendor/wufoo %}</script>

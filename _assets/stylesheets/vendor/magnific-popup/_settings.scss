@@ -40,7 +40,7 @@ $mfp-include-mobile-layout-for-image: true;                       // Removes pad
 // Image caption options
 $mfp-caption-title-color:             #F3F3F3;                    // Caption title color
 $mfp-caption-subtitle-color:          #BDBDBD;                    // Caption subtitle color
-.mfp-counter { font-family: $alt-font; }                          // Caption font family
+.mfp-counter { font-family: $sans-serif; }                          // Caption font family
 
 // A11y
-$mfp-use-visuallyhidden:              false; 
+$mfp-use-visuallyhidden:              false;

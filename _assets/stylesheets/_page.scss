@@ -78,6 +78,9 @@
     font-family: $serif;
     font-weight: normal;
     line-height: 2rem;
+    a {
+      color: $headline-color;
+    }
   }
 
   h2 {

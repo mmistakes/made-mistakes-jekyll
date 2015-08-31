@@ -14,43 +14,30 @@
    ========================================================================== */
 
 @import "breakpoint"; // media query mixins
-// @import "vendor/magnific-popup/magnific-popup";
-@import "vendor/bigfoot/bigfoot-default";
-
-
-/*
-   Global
-   ========================================================================== */
-
 @import "mixins";
 @import "reset";
 @import "base";
 
-/*
-   Components
-   ========================================================================== */
+@import "masthead"; // page header with navigation
+@import "page"; // page-post
+@import "archive"; // archive listing
+@import "toc"; // table of contents
 
 @import "utilities";
 @import "buttons";
 @import "tables";
 @import "notices";
 @import "thumbnail-grids";
-// @import "google-search"; // Google search form box
+@import "forms";
+@import "google-search"; // Google search form box
 // @import "syntax-highlighting";
 // @import "paper-color-swatches"; // color swatches for Paper by FiftyThree articles
-// @import "slickmap"; // SlickMap visual sitemap
+@import "slickmap"; // SlickMap visual sitemap
 // @import "style-guide";
-
-/*
-   Page specific
-   ========================================================================== */
-
-@import "masthead"; // page header with navigation
-@import "page"; // page-post
-@import "archive"; // archive listing
-@import "toc"; // table of contents
 @import "related"; // related items
 @import "review-box";
 @import "banners"; // banner advertisements
 // @import "footnotes";
 @import "colophon"; // site colophon
+@import "vendor/magnific-popup/magnific-popup";
+@import "vendor/bigfoot/bigfoot-default";
