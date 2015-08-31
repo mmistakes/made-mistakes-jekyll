@@ -9,7 +9,7 @@
   text-transform: uppercase;
   background-color: #fff;
   border-bottom: 1px solid $light-gray;
-  z-index: 3;
+  z-index: 11;
   .container {
     display: flex;
     justify-content: space-between;
@@ -68,7 +68,7 @@
   height: 100%;
   width: 100%;
   background-color: #fff;
-  z-index: 2;
+  z-index: 10;
   text-align: center;
   padding: 50px 0;
   -webkit-backface-visibility: hidden;
