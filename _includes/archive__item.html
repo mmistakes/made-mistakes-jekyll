@@ -11,7 +11,7 @@
     </div>
 
     <div class="archive__item-meta">
-      <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
+      {% if post.work and page.url contains '/work/' %}{{ post.work }}{% else %}<span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>{% endif %}
     </div>
 
   </a>

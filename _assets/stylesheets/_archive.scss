@@ -9,6 +9,9 @@
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid $light-gray;
+  &:hover {
+    border-bottom-color: $headline-color;
+  }
 }
 
 .archive__item-body {
