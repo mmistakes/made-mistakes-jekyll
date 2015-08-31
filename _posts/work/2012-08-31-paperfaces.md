@@ -11,6 +11,7 @@ image:
 category: work
 tags: [paper by 53, portrait, drawing, painting, ipad, illustration, 365 project]
 fullwidth: true
+featured: true
 work: "Illustration"
 ---
 

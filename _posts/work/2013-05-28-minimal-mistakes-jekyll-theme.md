@@ -12,7 +12,7 @@ category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 comments: true
-toc: true
+featured: true
 ---
 
 Jekyll is pretty rad and figured releasing an older version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes)**, a responsive Jekyll theme focused on great typography for text heavy sites. 
