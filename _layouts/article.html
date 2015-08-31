@@ -35,9 +35,11 @@ layout: default
           {% include post__footer.html %}
         </footer>
 
+        {% if page.share %}
         <div class="post__social">
           {% include post__social.html %}
         </div>
+        {% endif %}
 
         {% if page.tags %}
         <div class="post__taxonomy">
