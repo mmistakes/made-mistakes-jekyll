@@ -37,7 +37,7 @@ Minimal Mistakes makes use of Sass and data files as part of Jekyll 2.x. Updatin
 </figure>
 
 <div markdown="0">
-  <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
+  <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info"><i class="fa fa-download"></i> Download</a>
   <a href="https://mmistakes.github.io/minimal-mistakes/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
   <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
 </div>

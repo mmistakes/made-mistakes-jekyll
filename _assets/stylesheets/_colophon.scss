@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .colophon {
-  margin-top: 2em;
+  margin-top: 4em;
   padding: 20px;
   background-color: #000;
 }
@@ -50,7 +50,7 @@
   text-align: center;
   a {
     color: #ccc;
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #333;
     &:hover {
       border-bottom-style: solid;
     }

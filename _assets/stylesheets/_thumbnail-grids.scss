@@ -26,6 +26,7 @@
     width: 100px;
   }
   a {
+    border-bottom-width: 0 !important; // override
     img {
       // Image hover animation
       transition: transform 0.3s;

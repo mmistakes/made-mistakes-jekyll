@@ -4,30 +4,29 @@
 
 .linenos,
 .code {
-  padding: 0;
-  border-top: 0 solid transparent;
-  border-bottom: 0 solid transparent;
+  // padding: 0;
+  // border-top: 0 solid transparent;
+  // border-bottom: 0 solid transparent;
 }
 
 .highlight {
   overflow-x: auto;
-  @include font-size(14,no);
-  background: $code-background;
-  border: 1px solid $code-border-color;
-  border-radius: $code-border-radius;
+  // background: $code-background;
+  // border: 1px solid $code-border-color;
+  // border-radius: $code-border-radius;
   pre {
-    position: relative;
+  //   position: relative;
     margin: 0;
-    padding: 1em;
-  }
-  &:hover {
-    border: 1px solid $code-border-color-hover;
+    padding-bottom: 1em;
+  // }
+  // &:hover {
+  //   border: 1px solid $code-border-color-hover;
   }
 }
 
 .highlighttable {
-  tr:hover>td,
-  tr:hover>th {
+  tr:hover > td,
+  tr:hover > th {
     background: transparent;
   }
 }

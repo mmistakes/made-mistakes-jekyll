@@ -67,6 +67,7 @@
       color: #000;
       font-family: $sans-serif;
       font-weight: bold;
+      border-bottom-width: 0; // override
     }
   }
 }

@@ -1,12 +1,14 @@
 <article class="component">
-  <header class="component-header">
+  <header class="component__header">
     <h3 id="guide-{{ entry.title | slugify }}">{{ entry.title }}</h3>
       {% if entry.usage %}<p><strong>Usage:</strong> {{ entry.usage }}</p>{% endif %}
-      {% if entry.scss %}<p class="header-entry-last"><strong><i class="fa fa-file-code-o"></i> &nbsp; SCSS file:</strong> <a href="{{ site.owner.github-repo }}{{ entry.scss }}">{{ entry.scss }}</a></p>{% endif %}
-  </header><!-- /.component-header -->
-  <div class="component-content">
-    <div class="component-rendered">
+      {% if entry.scss %}<p class="entry--last"><strong>SCSS partial:</strong> <a href="{{ site.owner.github-repo }}{{ entry.scss }}">{{ entry.scss }}</a></p>{% endif %}
+  </header>
+
+  <div class="component__content--color">
+    <div class="component__rendered--color">
       {{ entry.content }}
-    </div><!-- /.component-rendered -->
-  </div><!-- /.component-content -->
-</article><!-- /.component -->
+    </div>
+  </div>
+
+</article>

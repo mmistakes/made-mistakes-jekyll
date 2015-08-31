@@ -1,47 +1,22 @@
 /* ==========================================================================
-   PAGE META INFORMATION and BREADCRUMBS
+   BREADCRUMB NAVIGATION
    ========================================================================== */
 
-.page-meta,
 .breadcrumbs {
-  @include clearfix;
-  margin-top: gutter();
-  font-family: $alt-font;
-  @include font-size(14, no, 21);
-  font-weight: 400;
-  text-align: left;
-  a {
+  margin-top: 2em;
+  font-family: $sans-serif;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+}
+
+.breadcrumb__item {
     display: inline-block;
     color: $text-color;
     text-decoration: none;
-  }
 }
 
-.page-meta {
-  opacity: 0.5;
-  transition: opacity 0.2s ease-out;
-  &:hover {
-    opacity: 1;
-  }
-}
-
-.breadcrumbs {
-  @include layout($article);
-  @include span(14);
-  @include pre(1);
-  @include break;
-  @include breakpoint($small) {
-    @include span(10);
-    @include pre(5);
-    @include post(1);
-    @include nobreak;
-  }
-  @include breakpoint($medium) {
-    @include pre(4);
-    @include post(1);
-  }
-  .sep {
-    padding-left: 3px;
-    padding-right: 3px;
-  }
+/* separator */
+.breadcrumb__sep {
+  padding-left: 3px;
+  padding-right: 3px;
 }

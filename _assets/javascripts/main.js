@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 
   // move table of contents from post body to sidebar
-  $(".post__body .toc").appendTo($(".toc--sidebar"));
+  $(".post__body .js-toc").appendTo($(".toc--sidebar"));
 
 
   // FitVids init

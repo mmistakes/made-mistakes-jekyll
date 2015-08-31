@@ -37,6 +37,31 @@ u,
 ins {
   text-decoration: none;
   border-bottom: 1px solid $text-color;
+  a {
+    color: inherit;
+  }
+}
+
+del a {
+  color: inherit;
+}
+
+/* Blockquotes */
+
+blockquote {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.25rem;
+  font-style: italic;
+  border-left: 0.25em solid $highlighter-color;
+  a {
+    color: inherit;
+  }
+  cite {
+    font-family: $sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+  }
 }
 
 /* Links */
@@ -62,6 +87,7 @@ ul li {
 
 tt, code, kbd, samp, pre {
   font-family: $monospace;
+  font-size: 0.8rem;
 }
 pre {
   overflow-x: auto; // add scrollbars to wide code blocks
@@ -194,6 +220,6 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight, .archive__item {
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight, .archive__item, .palette__swatch {
   transition: all 0.2s ease-out;
 }

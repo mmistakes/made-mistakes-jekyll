@@ -16,6 +16,7 @@ Today my 365 project titled [**PaperFaces**]({{ site.url }}/paperfaces/) turns o
 I honestly can't believe I've been drawing strangers for 365 days straight. I was half joking when I posted this and had no idea it would take off in the way that it did.
 
 <blockquote class="twitter-tweet"><p>Retweet and I'll draw your profile picture using Paper on my iPad <a href="https://twitter.com/search/%23MadeWithPaper">#MadeWithPaper</a> <a href="http://t.co/5oqH4bJt" title="http://twitter.com/mmistakes/status/240601384477659136/photo/1">twitter.com/mmistakes/stat…</a></p>&#8212; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/240601384477659136" data-datetime="2012-08-29T00:06:55+00:00">August 29, 2012</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Big Ups and Stuff
 

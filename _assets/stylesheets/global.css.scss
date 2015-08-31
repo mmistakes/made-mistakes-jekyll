@@ -19,6 +19,7 @@
 @import "base";
 
 @import "masthead"; // page header with navigation
+@import "breadcrumbs";
 @import "page"; // page-post
 @import "archive"; // archive listing
 @import "toc"; // table of contents
@@ -30,10 +31,10 @@
 @import "thumbnail-grids";
 @import "forms";
 @import "google-search"; // Google search form box
-// @import "syntax-highlighting";
-// @import "paper-color-swatches"; // color swatches for Paper by FiftyThree articles
+@import "syntax-highlighting";
+@import "paper-color-swatches"; // color swatches for Paper by FiftyThree articles
 @import "slickmap"; // SlickMap visual sitemap
-// @import "style-guide";
+@import "style-guide";
 @import "related"; // related items
 @import "review-box";
 @import "banners"; // banner advertisements

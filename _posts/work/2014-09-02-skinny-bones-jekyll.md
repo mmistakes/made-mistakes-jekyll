@@ -10,7 +10,6 @@ tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 modified: 2015-05-22T15:11:31-04:00
 comments: true
-toc: true
 ---
 
 What originally started as a site refresh quickly turned into something else when Jekyll baked in native support for Sass with a [2.0 release](http://jekyllrb.com/docs/history/#v2-0-0).
@@ -22,7 +21,7 @@ This was a good excuse to learn Sass and figured starting a new repository to ex
 I like to think of Skinny Bones as a starter for building your own Jekyll powered site --- versus a theme you use as is. I've purposely kept the styling minimal and light to make adding your own flare and markup easier. If that's not your thing you can still use it without modification, but where is the fun in that?
 
 <div markdown="0">
-  <a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
+  <a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn btn--info"><i class="fa fa-download"></i> Download</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
 </div>

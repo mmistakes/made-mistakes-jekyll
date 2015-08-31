@@ -29,7 +29,6 @@ $light-gray                   : #e2e2e2;
 $lighter-gray                 : #f9f9f9;
 
 $text-color                   : $gray;
-$caption-color                : $text-color;
 $headline-color               : $dark-gray;
 
 $background-color             : $lighter-gray;
@@ -45,7 +44,7 @@ $info-color                   : mix($gray, #427ab8, 15%);
 $border-color                 : mix($white, $gray, 80%);
 
 $link-color                   : $text-color;
-$link-color-hover             : mix($highlighter-color, $text-color, 20%);
+$link-color-hover             : #000;
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;

@@ -314,7 +314,7 @@ $color:
 Updating and adding components to the [style guide]({{ site.url }}/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
 
 <div markdown="0">
-  <a href="{{ site.url }}/style-guide/" class="btn-info"><i class="fa fa-eye"></i> View Made Mistakes' Style Guide</a>
+  <a href="{{ site.url }}/style-guide/" class="btn btn--info"><i class="fa fa-eye"></i> View Made Mistakes' Style Guide</a>
   <a href="https://github.com/mmistakes/made-mistakes-jekyll/archive/master.zip" class="btn"><i class="fa fa-download"></i> Download</a>
 </div>
 
