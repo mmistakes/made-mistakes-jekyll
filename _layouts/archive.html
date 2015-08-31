@@ -18,13 +18,13 @@ layout: default
 
   <div class="container post__content">
 
-    <div class="post__inner-wrapper">
+    {% unless page.fullwidth == true %}<div class="post__inner-wrapper">{% endunless %}
 
       <section class="post__body">
         {{ content }}
       </section>
 
-    </div>
+    {% unless page.fullwidth == true %}</div>{% endunless %}
 
     <aside class="post__sidebar">
       {% if page.ads != false %}
