@@ -42,9 +42,9 @@
   }
   a {
     color: #fff;
-    border-bottom: 1px dotted #fff;
+    border-bottom: 1px solid $gray;
     &:hover {
-      border-bottom-style: solid;
+      border-bottom-color: #fff;
     }
   }
 }
