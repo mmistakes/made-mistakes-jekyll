@@ -14,7 +14,6 @@
 
 .home__content {
   padding: 10px;
-  text-align: center;
   color: #fff;
 }
 
@@ -29,6 +28,9 @@
     font-size: 4.882rem;
     font-weight: bold;
     letter-spacing: 2px;
+    @media (max-width: $small) {
+      font-size: 3.6615rem;
+    }
   }
 }
 
@@ -37,6 +39,9 @@
   max-width: 20em;
   font-size: 1.25rem;
   font-weight: normal;
+  @media (max-width: $small) {
+    text-align: center;
+  }
   span {
     display: inline-block;
   }
@@ -74,6 +79,21 @@
     }
   }
 }
+
+.home__primary {
+  @media (max-width: $small) {
+    display: flex;
+    flex-direction: column;
+    .btn {
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+
+/*
+   Animations
+   ========================================================================== */
 
 @keyframes slide-in {
   0% {

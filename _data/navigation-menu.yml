@@ -1,10 +1,10 @@
 # Site navigation links
 
-- title: "Work"
-  url: /work/
-
 - title: "Blog"
   url: /articles/
 
-- title: "About"
-  url: /about/
+- title: "Mastering Paper"
+  url: /mastering-paper/
+
+- title: "Work"
+  url: /work/

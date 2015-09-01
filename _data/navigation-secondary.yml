@@ -1,19 +1,16 @@
 # Secondary site navigation links (overlay)
 
+- title: "FAQs"
+  url: /faqs/
+
+- title: "Contact"
+  url: /contact/
+
 - title: "Sponsor"
   url: /support/
 
 - title: "Subscribe"
   url: /subscribe/
 
-- title: "Contact"
-  url: /contact/
-
-- title: "FAQs"
-  url: /faqs/
-
-- title: "Sitemap"
-  url: /sitemap/
-
-- title: "Style Guide"
-  url: /style-guide/
+- title: "Terms"
+  url: /terms/

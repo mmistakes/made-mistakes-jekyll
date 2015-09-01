@@ -1,10 +1,10 @@
 # Primary site navigation links (overlay)
 
-- title: "Mastering Paper"
-  url: /mastering-paper/
-
-- title: "Jekyll Themes"
-  url: /work/jekyll-themes/
+- title: "About"
+  url: /about/
 
 - title: "PaperFaces Project"
   url: /paperfaces/
+
+- title: "Jekyll Themes"
+  url: /work/jekyll-themes/
