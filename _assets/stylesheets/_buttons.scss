@@ -33,8 +33,15 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: #000 !important;
+    color: #000 !important; // override
     background-color: #fff;
+  }
+
+  /* light outline */
+
+  &--light-outline {
+    border: 1px solid #fff !important; // override
+    background-color: transparent;
   }
 
   /* information */
