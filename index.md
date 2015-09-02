@@ -11,11 +11,11 @@ excerpt: "Making stuff one mistake at a time."
   <span>I'm just another</span>
   <span class="home__words-wrapper">
     <b class="is--visible">designer</b>
-    <b>father</b>
-    <b>illustrator</b>
-    <b>lefty</b>
-    <b>time traveler</b>
     <b>husband</b>
+    <b>illustrator</b>
+    <b>left-hander</b>
+    <b>time traveler</b>
+    <b>father</b>
   </span>
   <span>from Buffalo who enjoys eating chicken wings and <a href="{{ site.url }}/paperfaces/">sketching on an iPad</a>.</span>
 </h2>
