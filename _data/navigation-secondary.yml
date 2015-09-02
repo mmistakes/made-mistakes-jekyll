@@ -3,9 +3,6 @@
 - title: "FAQs"
   url: /faqs/
 
-- title: "Contact"
-  url: /contact/
-
 - title: "Sponsor"
   url: /support/
 
@@ -14,3 +11,6 @@
 
 - title: "Terms"
   url: /terms/
+
+- title: "Contact"
+  url: /contact/
