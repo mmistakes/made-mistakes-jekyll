@@ -21,6 +21,13 @@
     // move button slightly on click
     transform: translateY(1px);
   }
+  svg {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    fill: currentColor;
+  }
 
   /* fills width of parent container */
 

@@ -13,7 +13,7 @@
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-end;
     margin-bottom: -3px;
   }
   a {
@@ -39,7 +39,7 @@
   &:hover {
     border-bottom-color: $highlighter-color;
   }
-  @media (min-width: 420px) {
+  @include breakpoint($small) {
     display: block;
     padding: 20px 0 15px 0;
     font-size: 1rem;
@@ -50,9 +50,18 @@
 }
 .masthead__menu-item {
   display: block;
-  padding: 20px 0 15px 30px;
+  margin: 0 15px;
+  padding: 20px 0;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  border-bottom: 5px solid transparent;
+  &:hover {
+    border-bottom-color: $light-gray;
+  }
+  @include breakpoint($small) {
+    margin-left: 30px;
+    margin-right: 0;
+  }
 }
 
 /*

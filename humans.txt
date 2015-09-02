@@ -1,7 +1,7 @@
-_  ________ ____   _  ______________  _________ 
-|\/||__||  \|___   |\/||[__  | |__||_/ |___[__  
-|  ||  ||__/|___   |  ||___] | |  || \_|______] 
-                                                
+_  ________ ____   _  ______________  _________
+|\/||__||  \|___   |\/||[__  | |__||_/ |___[__
+|  ||  ||__/|___   |  ||___] | |  || \_|______]
+
 /* mademistakes.com */
 /* design faux pas */
 
@@ -21,6 +21,7 @@ _  ________ ____   _  ______________  _________
                 Adobe Creative Suite
                 Grunt <http://gruntjs.com>
                 HTML Compressor <https://code.google.com/p/htmlcompressor>
+                SimpleIcon <http://www.flaticon.com>
 
 
 /* SPECIAL THANKS */
