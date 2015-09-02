@@ -23,3 +23,32 @@ Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesh
 
 1. Install dependencies `bundle install`
 2. Run Jekyll server to preview `bundle exec jekyll serve --config _config.dev.yml --no-watch`. Good idea to disable auto-regeneration since the site is quite large and takes a few minutes to compile.
+
+#### Home Page
+
+The home page is made up of three parts:
+
+`<root>/index.md`: here you will find the content that makes up the home page. It's 99% HTML to get the desired markup but the same result could probably be achieved with Kramdown if you add `{: .class-name}` to each of the required elements.
+
+The *word slide* effect is achieved with some JavaScript and wrapping each of the adjectives in `<b></b>` elements inside of `.home__words-wrapper`. When JavaScript is disabled only the first word is visible.
+
+`_layouts/home.html`: stripped down version of the default layout with the `.masthead` and `.colophon` removed.
+
+`_sass/_home.scss`: home page specific styles.
+
+#### Archives
+
+To include the *Featured Posts* widget at the top of an archive page add the following to its YAML Front Matter and customize as necessary. 
+
+```
+feature:
+  visible: true
+  headline: "Featured Articles"
+  category: articles
+```
+
+#### Posts and Pages
+
+By default social sharing and Google AdSense are enabled on all posts and pages. To disable add `share: false` or `ads: false` to the YAML Front Matter.
+
+Comments are disabled by default. To enable add `comments: true` to the YAML Front Matter.
