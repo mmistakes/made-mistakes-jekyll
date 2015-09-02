@@ -5,7 +5,7 @@ title: "A Designer’s Faux Pas"
 excerpt: "Making stuff one mistake at a time."
 ---
 
-<h1 class="home__title">Hello, my name is <span>Michael</span></h1>
+<h1 class="home__title">Hello, my name is <a href="{{ site.url }}/about/"><span>Michael</span></a></h1>
 
 <h2 class="home__excerpt">
   <span>I'm just another</span>
