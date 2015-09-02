@@ -147,7 +147,6 @@ Using all of these techniques I was able to create a variety of backdrops for th
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-08-iron-man-portrait %}"><img src="{{ site.url }}/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-03-15-agentkyle-portrait %}"><img src="{{ site.url }}/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-25-jamesonroot-portrait %}"><img src="{{ site.url }}/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-10-aaronrustad-portrait %}"><img src="{{ site.url }}/images/paperfaces-aaronrustad-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Watch for the Next Tutorial

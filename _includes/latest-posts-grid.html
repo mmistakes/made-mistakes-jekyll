@@ -1,9 +1,0 @@
-<div class="related-posts">
-  <h3>Latest {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
-  <div class="tiles">
-  {% capture category_name %}{{ page.categories | first }}{% endcapture %}
-  {% for post in site.categories.[category_name] limit:4 %}
-    {% include post-grid.html %}
-  {% endfor %}
-  </div>
-</div><!-- /.related-posts -->

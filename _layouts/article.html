@@ -34,10 +34,12 @@ layout: default
         </section>
         {% endif %}
 
+        {% if page.author != false %}
         <footer class="post__footer">
           {% include post__author.html %}
           {% include post__footer.html %}
         </footer>
+        {% endif %}
 
         {% if page.share != false %}
         <div class="post__social">
@@ -59,19 +61,15 @@ layout: default
 
         {% if page.ads != false %}
         <div class="ad--sidebar">
-
           <ins class="adsbygoogle adsense--sidebar"
             style="display:inline-block"
             data-ad-client="{{ site.owner.google.ad-client }}"
             data-ad-slot="{{ site.owner.google.ad-slot }}">
           </ins>
-
           <div class="ad__caption">Advertisement</div>
-
           <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
-
         </div>
         {% endif %}
 

@@ -5,6 +5,8 @@ date: 2015-05-22
 modified: 
 excerpt: "All of the ways you can get in touch with me online."
 ads: false
+share: false
+author: false
 ---
 
 Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact avenue. I can also be found on several other social networks if you want to befriend or reach out to me there.

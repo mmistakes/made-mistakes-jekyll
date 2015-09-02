@@ -13,22 +13,20 @@ Because no one likes to repeat things here's a compilation of answers to questio
 {% assign paper_faqs = site.faqs | where: "type", "paper" | sort: "order" %}
 {% assign other_faqs = site.faqs | where: "type", "other" | sort: "order" %}
 
-<div class="sidebar-left top">
-<nav class="toc">
-  <h6 class="toc-title">Paper by FiftyThree</h6>
-	<ul>
+<nav class="js-toc toc">
+<h4 class="toc__title"><span>Paper by FiftyThree</span></h4>
+  <ul class="toc__menu">
 {% for faq in paper_faqs %}
 <li><a href="{{ faq.url }}">{{ faq.title }}</a></li>
 {% endfor %}
   </ul>
-	<h6 class="toc-title">Other</h6>
-  <ul>
+  <h4 class="toc__title">Other</h4>
+  <ul class="toc__menu">
 {% for faq in other_faqs %}
 <li><a href="{{ faq.url }}">{{ faq.title }}</a></li>
 {% endfor %}
-	</ul>
-</nav><!-- /.toc-left -->
-</div><!-- /.sidebar-left -->
+  </ul>
+</nav>
 
 {% for faq in paper_faqs %}
 <h2><a href="{{ faq.url }}">{{ faq.title }}</a></h2>

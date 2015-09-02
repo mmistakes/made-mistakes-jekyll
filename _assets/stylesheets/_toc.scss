@@ -38,6 +38,11 @@
   }
 }
 
+/* spacing adjustment for multiple toc lists in same container */
+.toc__menu + .toc__title {
+  margin-top: 0.5em;
+}
+
 .toc__menu {
   margin-bottom: 0;
   padding-left: 0;

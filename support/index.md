@@ -7,6 +7,7 @@ excerpt: "Found something I created useful or enjoyable or want me to take a loo
 image:
   feature: support-feature.jpg
 share: false
+author: false
 ---
 
 The *Paper by FiftyThree* tutorials, Jekyll themes, and other articles I publish in my free time have been a true labor of love. If you've found any of them useful and want to thank me, here's a few ways you can.
@@ -21,14 +22,12 @@ Have a website or use social networking sites like Twitter, Facebook, Google+, T
 
 I post once or twice a day --- you don't have to worry about me barfing out a stream of rants and retweets in quick succession. Content shared is along the lines of sarcastic remarks, Paper by FiftyThree drawings, web design and development tidbits, and photographic fragments from what little life I live.
 
-<p markdown="0">
-  <a href="https://twitter.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-  <a href="https://instagram.com/mmistakes/" onclick="ga('send', 'event', 'link', 'click', 'Instagram follow');" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-  <a href="https://www.facebook.com/michaelrose" onclick="ga('send', 'event', 'link', 'click', 'Facebook follow');" class="btn-social facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-  <a href="https://github.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'GitHub follow');" class="btn-social"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
-  <a href="https://plus.google.com/+MichaelRoseDesign/posts" onclick="ga('send', 'event', 'link', 'click', 'Google+ follow');" class="btn-social google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
-  <a href="http://mademistakes.tumblr.com/" onclick="ga('send', 'event', 'link', 'click', 'Tumblr follow');" class="btn-social tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a>
-</p>
+* [Twitter](https://twitter.com/mmistakes)
+* [Instagram](https://instagram.com/mmistakes/)
+* [Facebook](https://www.facebook.com/michaelrose)
+* [GitHub](https://github.com/mmistakes)
+* [Google+](https://plus.google.com/+MichaelRoseDesign/posts)
+* [Tumblr](http://mademistakes.tumblr.com/)
 
 ## Send a Donation
 

@@ -27,9 +27,11 @@ layout: default
         {{ content }}
       </section>
 
-    {% unless page.fullwidth == true %}</div>{% endunless %}
+    {% unless page.fullwidth == true %}</div>
 
     <aside class="post__sidebar">
+      <div class="toc--sidebar"></div>
+
       {% if page.ads != false %}
       <div class="ad--sidebar">
         <ins class="adsbygoogle adsense--sidebar"
@@ -43,6 +45,8 @@ layout: default
       </div>
       {% endif %}
     </aside>
+
+    {% endunless %}
 
   </div>
 
