@@ -89,38 +89,3 @@
     }
   }
 }
-
-
-/*
-   Animations
-   ========================================================================== */
-
-@keyframes slide-in {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  60% {
-    opacity: 1;
-    transform: translateY(20%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slide-out {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  60% {
-    opacity: 0;
-    transform: translateY(120%);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-}

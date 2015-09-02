@@ -36,6 +36,9 @@
 
 .masthead__title {
   display: none;
+  &:hover {
+    border-bottom-color: $highlighter-color;
+  }
   @media (min-width: 420px) {
     display: block;
     padding: 20px 0 15px 0;

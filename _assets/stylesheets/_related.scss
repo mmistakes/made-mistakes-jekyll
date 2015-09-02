@@ -53,6 +53,11 @@
       margin-left: 1em;
     }
   }
+  &:hover {
+    img {
+      box-shadow: 0 0 10px rgba(#000, 0.2);
+    }
+  }
 }
 
 .related__category {
