@@ -13,7 +13,7 @@
 }
 
 .home__content {
-  padding: 10px;
+  padding: 2em;
   color: #fff;
 }
 
@@ -39,9 +39,6 @@
   max-width: 20em;
   font-size: 1.25rem;
   font-weight: normal;
-  @media (max-width: $small) {
-    text-align: center;
-  }
   span {
     display: inline-block;
   }
