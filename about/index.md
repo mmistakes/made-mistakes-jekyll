@@ -18,7 +18,7 @@ Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling desig
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
 
-And if that wasn't enough to keep me busy --- I'm also the father of [twin girls]({{ site.url }}/tag/twins/) who just hit their toddler phase and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
+And if that wasn't enough to keep me busy --- I'm also the father of [twin girls]({{ site.url }}/tag/twins/) who just hit the toddler phase and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
 <figure class="half">
   <a href="{{ site.url }}{% post_url /paperfaces/2014-05-19-mmistakes-2-portrait %}"><img src="{{ site.url }}/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>

@@ -4,9 +4,12 @@
     <a class="post__category" href="{{ site.url }}/{{ page.categories | first }}/">{{ category_name }}</a>
   {% endif %}
   <span class="post__published">
-    {% if page.modified %}<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>
+    {% if page.modified %}
+      <time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>
+      <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">
       {% else %}
       <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modifed | date: "%B %d, %Y" }}">{% endif %}
     {% endif %}
   </span>
 </div>
