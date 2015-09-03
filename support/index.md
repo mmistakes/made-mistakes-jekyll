@@ -34,9 +34,9 @@ I post once or twice a day --- you don't have to worry about me barfing out a st
 I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. If you'd like to send a donation my way so I can continue to provide free content and themes, hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoins.
 
 <p markdown="0">
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn"><i class="fa fa-paypal"></i>Send PayPal Money</a>
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">Send PayPal Money</a>
   <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">Send Square Cash</a>
-  <a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn"><i class="fa fa-bitcoin"></i> Send Bitcoins</a>
+  <a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn">Send Bitcoins</a>
 </p>
 
 ## Buy Something
@@ -45,7 +45,7 @@ If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&crea
 
 <p markdown="0">
   <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn">Shop Amazon</a>
-  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn"><i class="fa fa-gift"></i> Amazon Wish List</a>
+  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn">Amazon Wish List</a>
 </p>
 
 ## Sponsorships
