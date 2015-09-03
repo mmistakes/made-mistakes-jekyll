@@ -315,11 +315,11 @@
   @include breakpoint($large) {
     margin-left: 80px;
   }
-  .js-toc {
-    @media (min-width: $small) and (max-width: $medium) {
-      display: none;
-    }
-  }
+  // .js-toc {
+  //   @media (min-width: $small) and (max-width: $medium) {
+  //     display: none;
+  //   }
+  // }
 }
 
 /* ads */
