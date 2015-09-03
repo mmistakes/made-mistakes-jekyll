@@ -5,24 +5,14 @@
 .footnotes {
   position: relative;
   padding-top: 1em;
-  font-family: $alt-font;
+  font-family: $sans-serif;
 
   p, li {
-    @include font-size(14,no);
+    font-size: 0.8rem;
   }
 
   &:before {
     content: 'Footnotes:'; /* Prepend footnote list with a title */
-    font-weight: 700;
-  }
-
-  &:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    // width: $column;
-    height: 1px;
-    background: $border-color;
+    font-weight: bold;
   }
 }

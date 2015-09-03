@@ -6,10 +6,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 96vh;
-  margin: 2vh;
+  min-height: 100vh;
   background-color: #000;
   border-radius: $border-radius;
+  @include breakpoint($small) {
+    min-height: 96vh;
+    margin: 2vh;
+  }
 }
 
 .home__content {
