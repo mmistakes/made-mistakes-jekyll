@@ -9,14 +9,14 @@ image:
   feature: paper-53-zoom-loupe-feature.jpg
   teaser: paper-53-zoom-loupe-teaser.jpg
   thumb: paper-53-zoom-loupe-thumb.jpg
-comments: true  
+comments: true
 ---
 
 I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's Zoom loupe simultaneously as you drew.
 
-Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
-
 {% include toc.html %}
+
+Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
 
 ## Why is This Important?
 
@@ -56,7 +56,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Two Handed Zoom --- Only When You Need It
 Save this two handed zoom technique for painting large shapes that require extra precision. It can be somewhat disorienting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
 </div>

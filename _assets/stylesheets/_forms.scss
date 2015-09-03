@@ -1,0 +1,106 @@
+/* ==========================================================================
+   FORMS
+   ========================================================================== */
+
+fieldset {
+  background: $form-background ;
+  border: 1px solid $form-border-color;
+  margin-bottom: 0px + $doc-line-height;
+  padding: gutter();
+  border-radius: $form-border-radius;
+}
+
+input,
+label,
+select {
+  display: block;
+  @include font-size($form-font-size, no);
+}
+
+label {
+  font-family: $sans-serif;
+  margin-bottom: (0px + $doc-line-height) / 4;
+  &.required:after {
+    content: "*";
+  }
+  abbr {
+    display: none;
+  }
+}
+
+input,
+textarea,
+select,
+select[multiple=multiple] {
+  box-sizing: border-box;
+  transition: border-color;
+  background-color: $white;
+  border-radius: $form-border-radius;
+  border: 1px solid $form-border-color;
+  box-shadow: $form-box-shadow;
+  font-family: $form-font-family;
+  font-size: $form-font-size;
+  margin-bottom: (0px + $doc-line-height) / 2;
+  padding: ((0px + $doc-line-height) / 3) ((0px + $doc-line-height) / 3);
+  width: 100%;
+  &:hover {
+    border-color: $form-border-color-hover;
+  }
+  &:focus {
+    border-color: $form-border-color-focus;
+    box-shadow: $form-box-shadow-focus;
+    outline: none;
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="search"] {
+  appearance: none;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+  margin-right: (0px + $doc-line-height) / 4;
+}
+
+input[type="file"] {
+  width: 100%;
+}
+
+select {
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 0px + $doc-line-height;
+}
+
+form button,
+input[type="submit"] {
+  appearance: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+form {
+  ul, ol, li {
+    padding-left: 0;
+    list-style-type: none;
+  }
+}
+
+/* Required */
+
+.req {
+  color: $danger-color !important;
+  font-weight: bold;
+}
+
+/* instructions */
+
+.instruct {
+  font-size: 0.8rem;
+}

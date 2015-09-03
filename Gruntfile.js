@@ -35,20 +35,37 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'images/',
+          cwd: '_svg/',
           src: '{,*/}*.svg',
-          dest: 'images/'
+          dest: 'svg/'
         }]
       }
     },
+    svgstore: {
+      options: {
+        prefix : 'icon-',
+        cleanup: false,
+        svg: {
+          style: 'display: none;'
+        }
+      },
+      default: {
+        files: {
+          '_includes/svg-icons.svg':
+            ['svg/*.svg']
+        }
+      }
+    }
   });
 
   // Load tasks
   grunt.loadNpmTasks('grunt-newer');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-imgcompress');
+  grunt.loadNpmTasks('grunt-svgstore');
+  grunt.loadNpmTasks('grunt-svgmin');
 
   // Register tasks
   grunt.registerTask('images', ['newer:imgcompress', 'newer:svgmin']);
+  grunt.registerTask('svg', ['svgstore'])
 };

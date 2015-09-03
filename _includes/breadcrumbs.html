@@ -1,10 +1,10 @@
 {% if page.categories and page.categories != empty %}
 <nav class="breadcrumbs">
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> <span class="sep">›</span>
+    <a href="{{ site.url }}" class="breadcrumb__item" itemprop="url"><span itemprop="title">Home</span></a> <span class="breadcrumb__sep">›</span>
   </span>
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}/{{ page.categories | first }}/" itemprop="url">
+    <a href="{{ site.url }}/{{ page.categories | first }}/" class="breadcrumb__item" itemprop="url">
       <span itemprop="title">
         {% assign words = page.categories | first | split: '-' %}
         {% for word in words %}
@@ -21,10 +21,10 @@
 {% if page.url contains page.collection %}
 <nav class="breadcrumbs">
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}" itemprop="url"><span itemprop="title">Home</span></a> <span class="sep">›</span>
+    <a href="{{ site.url }}" class="breadcrumb__item" itemprop="url"><span itemprop="title">Home</span></a> <span class="breadcrumb__sep">›</span>
   </span>
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}/{{ page.collection }}/" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a>
+    <a href="{{ site.url }}/{{ page.collection }}/" class="breadcrumb__item" itemprop="url"><span itemprop="title">{{ site.collections[page.collection].title }}</span></a>
   </span>
 </nav><!-- /.breadcrumbs -->
 {% endif %}

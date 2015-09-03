@@ -1,17 +1,40 @@
 /* ==========================================================================
    STYLE RESETS
-   Adapted from http://github.com/necolas/normalize.css
    ========================================================================== */
 
-/* Apply a natural box layout model to all elements */
-
-*, *:before, *:after {
+html {
+  /* apply a natural box layout model to all elements */
   box-sizing: border-box;
- }
+  background-color: $background-color;
+  font-size: 14px;
+  @include breakpoint($small) {
+    font-size: 15px;
+  }
+  @include breakpoint($medium) {
+    font-size: 16px;
+  }
+  @include breakpoint($large) {
+    font-size: 18px;
+  }
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /* Remove margin */
 
 body { margin: 0; }
+
+/* Selected elements */
+
+::selection {
+  color: #fff;
+  background: #000;
+}
 
 /* Display HTML5 elements in IE6-9 and FF3 */
 
@@ -23,6 +46,7 @@ figure,
 footer,
 header,
 hgroup,
+main,
 nav,
 section {
   display: block;
@@ -44,12 +68,9 @@ audio:not([controls]) {
   display: none;
 }
 
-/* Base font settings */
-
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+/* Remove blue color */
+a {
+  color: inherit;
 }
 
 /* Apply focus state */

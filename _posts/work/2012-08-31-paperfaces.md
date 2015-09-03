@@ -10,6 +10,9 @@ image:
   teaser: paperfaces-project-teaser.jpg
 category: work
 tags: [paper by 53, portrait, drawing, painting, ipad, illustration, 365 project]
+fullwidth: true
+featured: true
+ads: false
 work: "Illustration"
 ---
 

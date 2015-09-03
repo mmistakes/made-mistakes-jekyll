@@ -12,16 +12,15 @@ category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 comments: true
+featured: true
 ---
 
 Jekyll is pretty rad and figured releasing an older version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes)**, a responsive Jekyll theme focused on great typography for text heavy sites. 
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Update
 Minimal Mistakes makes use of Sass and data files as part of Jekyll 2.x. Updating your site's look and feel just got easier!
 </div>
-
-{% include toc.html %}
 
 ## Features
 
@@ -38,7 +37,7 @@ Minimal Mistakes makes use of Sass and data files as part of Jekyll 2.x. Updatin
 </figure>
 
 <div markdown="0">
-  <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
+  <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info"><i class="fa fa-download"></i> Download</a>
   <a href="https://mmistakes.github.io/minimal-mistakes/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
   <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
 </div>
@@ -63,7 +62,7 @@ Minimal Mistakes now requires [Jekyll](http://jekyllrb.com/) 2.x. Make sure to r
 5. Update posts and pages YAML to match variables used by Minimal Mistakes.
 6. Update `config.yml` and add navigation links. [Full details here](https://mmistakes.github.io/minimal-mistakes/theme-setup/). 
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Clean Up the Repo
 Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you won't want.
 </div>

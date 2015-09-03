@@ -64,7 +64,7 @@ Pencil's tip is by no means the most durable I've used. The longevity of the rub
 
 These numbers are relative to the user, which makes locking in a specific number hard. Using the longer side of the tip without a doubt prolongs its age. I suggest to use that whenever filling in larger areas of color. Even if you do manage to tear through the rubber, the tips are still completely usable, albeit with some black streaking[^streaking] across the screen.
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Replacement Tips
 The good news is FiftyThree now offers replacement tips and erasers [in their shop](http://shop.fiftythree.com/). For $7.95 USD (+ shipping) you get two tips and an eraser for Pencil, which isn't too bad if you do a lot of drawing like me.
 </div>
@@ -103,7 +103,7 @@ I'm not one for erasing all that much and instead rely heavily on the Rewind ges
   <figcaption>Vary the size of the eraser by using just the corner or go larger with the entire width.</figcaption>
 </figure>
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### Erasing and Undoing Techniques
 If you're looking for more erasing techniques you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
 </div>
@@ -133,35 +133,36 @@ Palm rejection works to eliminate stray marks, but I did notice that you will so
 
 I'm interested to see where FiftyThree continues to take Pencil as it and Paper evolve. I'd really like to see Blend get some additional love and offer even more variation in the way that it smudges. So many possibilities...
 
-<div itemscope="" itemtype="http://schema.org/Review" id="review" class="review-wrapper">
-  <h5 itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing" class="review-title"><span itemprop="name">Pencil by FiftyThree Review</span></h5>
-  <ul class="review-list">
+<div itemscope="" itemtype="http://schema.org/Review" id="review" class="review__wrapper">
+  <h5 itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing" class="review__title"><span itemprop="name">Pencil by FiftyThree Review</span></h5>
+  <ul class="review__list">
     <li>
       <span>Design</span>
-      <div class="review-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+      <div class="review__rating">5/5</div>
     </li>
     <li>
       <span>Durability</span>
-      <div class="review-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></div>
+      <div class="review__rating">4/5</div>
     </li>
     <li>
       <span>Value</span>
-      <div class="review-star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></div>
+      <div class="review__rating">4/5</div>
+    </li>
+    <li>
+      <span>Overall</span>
+      <div class="review__rating" itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+        <span class="review-total-box" itemprop="ratingValue" content="4">4/5</span>
+        <meta itemprop="bestRating" content="5">
+        <meta itemprop="worstRating" content="1">
+      </div>
     </li>
   </ul>
-  <div class="review-desc">
-    <p class="review-summary-title">Summary</p>
+  <div class="review__description">
+    <p class="review__title-summary">Summary</p>
     <p itemprop="reviewBody">If you're a casual doodler looking for a well built stylus that mimics traditional drawing utensils and have a need for palm rejection, then Pencil should be your number one choice. On the other hand if you're a pro-user who relies on pressure sensitivity to work in other iOS apps, you may be left wanting more.</p>
     <p><small><span itemprop="author" itemscope="" itemtype="http://schema.org/Person">Reviewed by: <span itemprop="name">{{ site.owner.name }}</span> </span> on <meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}"> {{ page.date | date: "%B %d, %Y" }}</small></p>
-    <p><a href="http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2" class="btn-inverse">Buy Now</a></p>
+    <p><a href="http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2" class="btn btn--inverse">Buy Now</a></p>
   </div>
-  <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" class="review-total-wrapper">
-    <span class="review-total-box" itemprop="ratingValue" content="4">4.0</span>
-    <meta itemprop="bestRating" content="5">
-    <meta itemprop="worstRating" content="1">
-    <div class="review-total-star"><div class="review-star"><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star-o fa-2x"></i></div></div>
-  </div>
-
 </div>
 
 ## Questions

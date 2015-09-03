@@ -13,6 +13,8 @@ tags: [book, design, printing]
 
 Designing a book with Blurb was painless and having it printed was equally enjoyable. I'm really happy with how my first photography book turned out.
 
+{% include toc.html %}
+
 ## Options to Satisfy
 
 I sprung for the more expensive satin paper to give the pages a nice texture and thickness to them. Next time I'm definitely paying extra for a hardcover with slip so pages are better protected. The only negative I've found with the printing is that some of my photographs printed a tad on the dark side. I didn't bother calibrating my monitor or using any of Blurb's supplied [ICC color profiles](http://www.blurb.com/downloads/Blurb_ICC_Profile.icc), so that was probably the issue.

@@ -3,55 +3,53 @@
    ========================================================================== */
 
 .component {
-  margin-bottom: gutter();
+  margin-bottom: 1em;
   background-color: $white;
   @include breakpoint($small) {
-    padding: gutter();
+    padding: 1em;
     border-radius: $border-radius;
     border: 1px solid $border-color;
   }
 }
 
-.component-header {
+.component__header {
   h3 {
     margin-top: 0 !important;
   }
   p {
-    font-family: $alt-font;
     margin-top: 0;
-    @include font-size(14, no);
+    font-family: $sans-serif;
+    font-size: 0.8rem;
     a {
-      text-decoration: none;
+      border-bottom-width: 0;
     }
-    &.header-entry-last {
-      margin-bottom: gutter();
+    &.entry--last {
+      margin-bottom: 1em;
     }
   }
 }
 
-.component-content {
-  @include container;
+.component__content { }
+
+.component__rendered {
+  &--color {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.component-rendered { }
-
-.component-code {
+.component__code {
   clear: both;
   position: relative;
-  margin-top: gutter();
-  padding-top: 30px;
+  padding-top: 3em;
   &:before {
     content: "HTML";
     position: absolute;
-    top: 0;
-    padding: 0 1em;
-    background: $border-color;
-    font-family: $alt-font;
-    @include font-size(12, no, 20);
-    font-weight: 600;
+    top: 1.5em;
+    font-family: $sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
     text-transform: uppercase;
-    border-top-right-radius: 2 * $border-radius;
-    border-bottom-right-radius: 2 * $border-radius;
   }
 }
 
@@ -59,24 +57,29 @@
    Color swatches
    ========================================================================== */
 
-.color-tile {
-  @include gallery (3.5 of 14);
-  margin-bottom: gutter();
-  padding: gutter() 0;
+.color__tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 98%;
+  height: 100px;
   text-align: center;
   border-radius: $border-radius;
   border: 1px solid $border-color;
-  code {
-    @include font-size(14,no);
-    color: $text-color;
-    white-space: nowrap;
-    margin: 0 2px;
-    padding: 0 5px;
-    border: 1px solid $code-border-color;
-    background-color: $inline-code-background;
-    border-radius: $code-border-radius;
-    white-space: normal;
-  }
+}
+
+.color__name {
+  font-size: 0.64rem;
+  color: $text-color;
+  white-space: nowrap;
+  margin: 0 2px;
+  padding: 0 5px;
+  border: 1px solid $code-border-color;
+  background-color: $inline-code-background;
+  border-radius: $code-border-radius;
+  white-space: normal;
 }
 
 /*
@@ -84,36 +87,32 @@
    ========================================================================== */
 
 $color:
-(white-color, $white),
-(black-color, $black),
-(gray-color, $gray),
-(background-color, $background-color),
-(body-color, $body-color),
-(text-color, $text-color),
-(caption-color, $caption-color),
-(primary-color, $primary-color),
-(success-color, $success-color),
-(warning-color, $warning-color),
-(danger-color, $danger-color),
-(info-color, $info-color),
-(border-color, $border-color),
-(link-color, $link-color),
-(link-color-hover, $link-color-hover),
-(table-border-color, $table-border-color),
-(table-background, $table-background),
-(table-hover-color, $table-hover-color),
-(table-stripe-color, $table-stripe-color),
-(table-stripe-color-hover, $table-stripe-color-hover),
-(facebook-color, $facebook-color),
-(foursquare-color, $foursquare-color),
-(google-plus-color, $google-plus-color),
-(instagram-color, $instagram-color),
-(rss-color, $rss-color),
-(tumblr-color, $tumblr-color),
-(twitter-color, $twitter-color);
+(white-bg, $white),
+(black-bg, $black),
+(gray-bg, $gray),
+(background, $background-color),
+(text, $text-color),
+(headline, $headline-color),
+(highlighter, $highlighter-color),
+(primary, $primary-color),
+(success, $success-color),
+(warning, $warning-color),
+(danger, $danger-color),
+(info, $info-color),
+(border, $border-color),
+(link, $link-color),
+(link--hover, $link-color-hover),
+(facebook, $facebook-color),
+(foursquare, $foursquare-color),
+(google-plus, $google-plus-color),
+(instagram, $instagram-color),
+(rss, $rss-color),
+(tumblr, $tumblr-color),
+(twitter, $twitter-color),
+(github, #000);
 
 @each $name, $bgcolor in $color {
-  .#{$name}-bg {
+  .color__tile--#{$name} {
     background-color: $bgcolor;
   }
 }
@@ -122,27 +121,27 @@ $color:
    Component selector
    ========================================================================== */
 
-#component-selector {
-  position: fixed;
-  backface-visibility: hidden; // fix scroll jank
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.5 * gutter();
-  width: 100%;
-  z-index: 9;
-  background: $primary-color;
-  @include breakpoint($medium) {
-    left: auto;
-    width: auto;
-  }
-}
+// #component-selector {
+//   position: fixed;
+//   backface-visibility: hidden; // fix scroll jank
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   padding: 0.5em;
+//   width: 100%;
+//   z-index: 9;
+//   background: $primary-color;
+//   @include breakpoint($medium) {
+//     left: auto;
+//     width: auto;
+//   }
+// }
 
-#component-select {
-  margin: 0;
-  width: 100%;
-  @include breakpoint($medium) {
-    width: auto;
-  }
-  font-family: $alt-font;
-}
+// #component-select {
+//   margin: 0;
+//   width: 100%;
+//   @include breakpoint($medium) {
+//     width: auto;
+//   }
+//   font-family: $sans-serif;
+// }

@@ -2,46 +2,32 @@
    BANNERS
    ========================================================================== */
 
-/*
-   Content banners
-   ========================================================================== */
-
-.ads {
-  position: relative;
-  margin-top: 1.5em;
-  margin-left: -1 * gutter(10);
-  margin-right: -1 * gutter(10);
-  text-align: center;
-  @include breakpoint($small) {
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  > ins {
-    border-width: 0;
-  }
-  .ad-header {
-    display: block;
-    color: mix($white, $text-color, 25%);
-    @include font-size(12, no);
-    font-style: italic;
-  }
+.ad__caption {
+  display: block;
+  font-style: italic;
+  font-size: 0.64rem;
 }
 
-@include breakpoint($small) {
-  /* ad space ads that display after table of contents */
-  .toc + .ads {
-    margin-top: 3em;
-  }
-}
-
-
 /*
-   Google Adsense banners
+   Google Adsense
    ========================================================================== */
 
-/* skyscraper entry-content sidebar */
+/* sidebar ad */
 
-.r-ads-skyscraper { width: 300px; height: 250px; }
-@media(min-width: 468px) { .r-ads-skyscraper { width: 320px; height: 100px; } }
-@media(min-width: 768px) { .r-ads-skyscraper { width: 160px; height: 600px; } }
+.adsense--sidebar {
+  width: 320px;
+  height: 100px;
+  border-bottom: 0 solid transparent;
+  // @include breakpoint($small) {
+  //   width: 120px;
+  //   height: 600px;
+  // }
+  @media (min-width: 500px) and (max-width: $medium-wide) {
+    width: 468px;
+    height: 60px;
+  }
+  @include breakpoint($medium-wide) {
+    width: 300px;
+    height: 250px;
+  }
+}

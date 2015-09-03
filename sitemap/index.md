@@ -4,12 +4,12 @@ title: "Sitemap"
 date: 2014-12-26
 modified: 2015-05-22T12:22:34-04:00
 excerpt: "A visual sitemap of all the pages on mademistakes.com"
+fullwidth: true
 share: false
 ads: false
 ---
 
-For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is available for digesting.
-{: .squish}
+A hierarchical breakdown of all the sections and pages found on the site. For you robots out there an [XML version]({{ site.url }}/sitemap.xml) is available for digesting.
 
 <div class="sitemap">
   <ul id="primaryNav" class="col6">

@@ -7,189 +7,104 @@
    ========================================================================== */
 
 .btn {
-  display: inline-block;
-  width: inherit;
-  padding: 8px 20px;
-  @include font-size(14, 4);
-  font-family: $alt-font;
-  font-weight: 500;
-  background-color: $primary-color;
-  color: $white;
-  text-decoration: none;
+  /* default button */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  color: #fff !important; // override
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #000;
   border: 0 !important;
   border-radius: $border-radius;
-  box-shadow: none !important; // override
-  &:hover {
-    color: $white !important;
-    background-color: mix($white, $primary-color, 20%);
-  }
+  text-transform: uppercase;
   &:active {
     // move button slightly on click
     transform: translateY(1px);
   }
-  // add spacing for icons inside of a button
-  .fa {
-    padding-right: 5px;
+  svg {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    fill: currentColor;
   }
-}
 
+  /* fills width of parent container */
 
-/*
-   Inverse button (for use on dark backgrounds)
-   ========================================================================== */
-
-.btn-inverse {
-  @extend .btn;
-  background-color: $white;
-  color: $text-color !important;
-  &:hover {
-    background-color: mix($white, $text-color, 20%);
+  &--block {
+    display: flex;
+    width: 100%;
+    + .btn--block {
+      margin-top: 0.25em;
+    }
   }
-}
 
-/*
-   Info button
-   ========================================================================== */
+  /* for dark backgrounds */
 
-.btn-info {
-  @extend .btn;
-  background-color: $info-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $info-color, 20%);
+  &--inverse {
+    color: #000 !important; // override
+    background-color: #fff;
   }
-}
 
-/*
-   Warning button
-   ========================================================================== */
+  /* light outline */
 
-.btn-warning {
-  @extend .btn;
-  background-color: $warning-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $warning-color ,20%);
+  &--light-outline {
+    border: 1px solid #fff !important; // override
+    background-color: transparent;
   }
-}
 
-/*
-   Success button
-   ========================================================================== */
+  /* information */
 
-.btn-success {
-  @extend .btn;
-  background-color: $success-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $success-color, 20%);
+  &--info {
+    background-color: $info-color;
   }
-}
 
-/*
-   Danger button
-   ========================================================================== */
+  /* warning */
 
-.btn-danger {
-  @extend .btn;
-  background-color: $danger-color;
-  color: $white !important;
-  &:hover {
-    background-color: mix($white, $danger-color, 20%);
+  &--warning {
+    background-color: $warning-color;
   }
-}
 
-/*
-   Disabled button
-   ========================================================================== */
+  /* success */
 
-.btn-disabled {
-  pointer-events: none;
-  cursor: not-allowed;
-  filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  opacity: .65;
-}
+  &--success {
+    background-color: $success-color;
+  }
 
-/*
-   Social networking buttons
-   ========================================================================== */
+  /* danger */
 
-/* Social network brand colors defined in _variables.scss */
+  &--danger {
+    background-color: $danger-color;
+  }
 
-/**
- * Social button markup example
- * Add social network class to anchor or button element along with .btn-social
- * .facebook
- * .google-plus
- * .instagram
- * .rss
- * .tumblr
- * .twitter
- *
- *  <a class="btn-social twitter" href="#">
- *    <i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter
- *  </a>
- */
+  /* disabled */
 
-$social:
-(facebook, $facebook-color),
-(google-plus, $google-plus-color),
-(instagram, $instagram-color),
-(rss, $rss-color),
-(tumblr, $tumblr-color),
-(twitter, $twitter-color),
-(github, $github-color);
+  &--disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: 0.65;
+  }
 
-.btn-social {
-  @extend .btn;
-  color: $white !important;
+  /* social buttons */
+
+  $social:
+  (facebook, $facebook-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-color),
+  (rss, $rss-color),
+  (tumblr, $tumblr-color),
+  (twitter, $twitter-color),
+  (github, $github-color);
+
   @each $socialnetwork, $color in $social {
-    &.#{$socialnetwork} {
+    &--#{$socialnetwork} {
       background-color: $color;
-      border-color: $color;
-      &:hover {
-        background-color: mix($white, $color, 20%);
-        border-color: mix($white, $color, 20%);
-      }
-    }
-  }
-  .fa {
-    padding-right: 5px;
-  }
-}
-
-
-/* Share this buttons */
-
-.share-this {
-  @include clearfix;
-  .label {
-    display: block;
-    float: left;
-    padding: 8px 20px 8px 0;
-    @include font-size(14, 4);
-    font-family: $alt-font;
-    font-weight: 700;
-  }
-}
-.share-this-buttons {
-  float: left;
-  margin: 0;
-  padding: 0;
-  li {
-    float: left;
-    margin: 0 4px 4px;
-    padding: 0;
-    list-style: none;
-  }
-  @include breakpoint($micro-only) {
-    .fa {
-      padding-right: 0;
-    }
-    .share-text {
-      display: none;
     }
   }
 }

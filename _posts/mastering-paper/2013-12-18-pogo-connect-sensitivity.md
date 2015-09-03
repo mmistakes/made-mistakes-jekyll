@@ -13,6 +13,8 @@ comments: true
 
 About a month ago I received a replacement [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.
 
+{% include toc.html %}
+
 I use Paper by FiftyThree almost exclusively for drawing with the occasional Procreate experiment. When using either app I noticed that the sensitivity of the Pogo's tip seemed off. To get the full range of stroke sizes I now had to press extremely hard to register a wide stroke (see screenshot below), which really started to screw with how I draw.
 
 <figure>
@@ -48,7 +50,7 @@ After making these changes you can doodle around in the space below to verify th
 
 ![Pogo Connect app doodle test]({{ site.url }}/images/pogo-connect-app-doodle.jpg)
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Sensitivity Settings
 
 Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by FiftyThree:

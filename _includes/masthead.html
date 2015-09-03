@@ -1,0 +1,26 @@
+<header class="masthead" role="banner">
+  <div class="container">
+    <a class="masthead__title" href="{{ site.url }}/">{{ site.title }}</a>
+    <nav class="masthead__menu-wrapper" role="navigation">
+      <ul class="masthead__menu">
+        {% for link in site.data.navigation-menu %}
+          <li><a href="{{ link.url }}" class="masthead__menu-item">{{ link.title }}</a></li>
+        {% endfor %}
+        <li><a href="#0" class="overlay__menu-trigger masthead__menu-item">•&nbsp;•&nbsp;•</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<nav>
+  <ul class="overlay__menu">
+    <li class="overlay__menu-label">Of Interest</li>
+    {% for link in site.data.navigation-primary %}
+      <li class="overlay__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+    <li class="overlay__menu-label">Everything Else</li>
+    {% for link in site.data.navigation-secondary %}
+      <li class="overlay__menu-item--secondary"><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

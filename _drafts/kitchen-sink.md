@@ -138,29 +138,29 @@ Set a block of text off from the rest.
 [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div><!-- /.notice -->
 
-<div class="notice-inverse" markdown="1">
+<div class="notice--inverse" markdown="1">
 #### Inverse Notice
-`.notice-inverse` Maecenas ornare tortor. Donec sed tellus [eget sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+`.notice--infor` Maecenas ornare tortor. Donec sed tellus [eget sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div>
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### Info Notice
-`.notice-info` [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+`.notice--info` [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div>
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Warning Notice
-`.notice-warning` Maecenas ornare tortor. Donec sed [tellus eget]() sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+`.notice--warning` Maecenas ornare tortor. Donec sed [tellus eget]() sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div>
 
-<div class="notice-danger" markdown="1">
+<div class="notice--danger" markdown="1">
 #### Danger Notice
-`.notice-danger` Maecenas ornare tortor.[ Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+`.notice--danger` Maecenas ornare tortor.[ Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div>
 
-<div class="notice-success" markdown="1">
+<div class="notice--success" markdown="1">
 #### Success Notice
-`.notice-success` Maecenas ornare tortor. Donec sed tellus eget [sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+`.notice--success` Maecenas ornare tortor. Donec sed tellus eget [sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div>
 
 ## Fieldsets and Form Elements

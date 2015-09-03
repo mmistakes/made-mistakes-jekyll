@@ -12,11 +12,11 @@ tags: [paper by 53, tutorial, hair, drawing, ipad]
 comments: true
 ---
 
-{% include toc.html %}
-
 ## Block Out the Hair
 
 I like to rough out a general shape of the subject's hair using watercolor loaded with black or dark brown. Depending on what the overall palette is I might adjust the brown --- usually mixing in red to warm it up or blue to cool it down.
+
+{% include toc.html %}
 
 When working with the watercolor brush remember to **layer** numerous strokes to get a rich dark base. Just painting one coat of black won't give great results needed for the next step.
 
@@ -52,7 +52,7 @@ Working an area too much with the pencil can cause your hair to flatten out. To 
 
 If you're a maniac with the pencil and prefer to draw in all the gradations then feel free to omit this step. I'm much too lazy for that and prefer to paint over the strokes to achieve the same effect. A warm light gray works great for brunettes and a light orange or pink for redheads. Experimentation is the key here. If you don't like the result just two finger rewind that noise and try another color. Lighter layers of watercolor that are built up gradually allow for subtler tones than a stroke of black would.
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Mastering Paper Tutorials
 Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques described above. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
 </div>

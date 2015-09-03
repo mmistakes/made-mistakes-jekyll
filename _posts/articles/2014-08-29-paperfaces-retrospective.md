@@ -16,6 +16,8 @@ comments: true
 
 Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](http://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
+{% include toc.html %}
+
 <figure class="half">
   <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-twitter-600.jpg" alt="first PaperFaces portrait"></a>
   <a href="{{ site.url }}/images/paperfaces-veganwendy-2-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-2-twitter-600.jpg" alt="last PaperFaces portrait?"></a>
@@ -40,7 +42,7 @@ Having a routine and sticking to it was the key to hitting my goal. After a mont
 
 Making my project and efforts public was another huge reason I kept at it for so long. With each new follower or portrait request came an increase in pressure to continue on. I suppose this could have affected me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### Set a Goal
 Don't start a 365 project just for the sake of starting one. Having a clear objective of what you want to get out of it will help focus and motivate you to continue on. I wanted to improve my drawing skills and drawing random people from the internet became a way for me to do that.
 </div>

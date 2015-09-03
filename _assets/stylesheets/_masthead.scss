@@ -2,68 +2,168 @@
    MASTHEAD
    ========================================================================== */
 
-#masthead {
-  position: fixed;
-  top: 0;
+.masthead {
+  position: relative;
   width: 100%;
-  background-color: $black;
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-bottom: 1px solid $light-gray;
+  z-index: 11;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: -3px;
+  }
+  a {
+    color: #000;
+  }
+}
+
+.masthead__menu-wrapper {
+  @media (max-width: $small) {
+    width: 100%;
+  }
+}
+
+.masthead__menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.masthead__title {
+  display: none;
+  &:hover {
+    border-bottom-color: $highlighter-color;
+  }
   @include breakpoint($small) {
-    background-color: transparent;
+    display: block;
+    padding: 20px 0 15px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 5px solid #000;
   }
-  transition-duration: .5s;
-  transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 );
-  transition-property: transform;
-  z-index: 25;
-
-  &.is-hidden {
-    // opacity: 0;
-    transform: translateY(-100%);
+}
+.masthead__menu-item {
+  display: block;
+  // margin: 0 10px;
+  padding: 20px 0;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border-bottom: 5px solid transparent;
+  &:hover {
+    border-bottom-color: $light-gray;
   }
-
-  &.is-visible {
-    // opacity: 1;
-    transform: translate(0, ($button-size * 1.5 + 20px));
+  @include breakpoint($small) {
+    margin-left: 30px;
+    margin-right: 0;
   }
 }
 
 /*
-   Site logo in masthead
+   Overlay menu
    ========================================================================== */
 
-.site-logo {
-  display: block;
-  float: left;
-  height: $button-size * 1.5;
-  line-height: $button-size * 1.5;
-  margin-top: 0;
-  margin-left: $button-size/2;
-  @include breakpoint($small) {
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-  color: $white;
-  text-decoration: none;
-  background-color: $black;
-  &:hover {
-    color: $white;
-  }
-  img {
-    float: left;
-    width: $button-size * 1.5;
-    height: $button-size * 1.5;
-  }
-  .site-title {
-    display: none;
-    @include breakpoint($small) {
-      display: block;
-      float: left;
-      padding-left: 10px;
-      padding-right: 10px;
-      font-family: $heading-font;
-      @include font-size(24, no);
-      line-height: $button-size * 1.5;
-      font-weight: 700;
-      text-transform: uppercase;
+.overlay__menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* by default it's hidden - on top of the viewport */
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+  text-align: center;
+  padding: 50px 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: auto;
+  /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
+  -webkit-overflow-scrolling: touch;
+  transform: translateY(-100%);
+  transition: transform 0.4s cubic-bezier(.86,.01,.77,.78);
+
+  a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #000;
+    border-radius: 0.25em;
+    &:hover {
+      color: #fff;
+      background-color: #000;
     }
+  }
+
+  &.is--visible {
+    transform: translateY(0);
+  }
+
+  @include breakpoint($medium) {
+    padding: 80px 200px;
+  }
+}
+
+.overlay__menu-item {
+  display: block;
+  width: 100%;
+  font-size: 1.563rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include breakpoint($large) {
+    font-size: 1.953rem;
+  }
+}
+
+.overlay__menu-item--secondary {
+  display: block;
+  font-size: 1.25rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include breakpoint($small) {
+    width: 50%;
+  }
+  @include breakpoint($large) {
+    width: 20%;
+    font-size: 1.563rem;
+  }
+}
+
+.overlay__menu-label {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin: 30px 0 15px;
+  /* lines in headline */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &:before,
+  &:after {
+    content: '\a0';
+    position: relative;
+    top: 0.5em;
+    height: 4px;
+    flex-grow: 1;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+  }
+  &:before {
+    margin-right: 10px;
+  }
+  &:after {
+    margin-left: 10px;
+  }
+  @include breakpoint($large) {
+    font-size: 1rem;
   }
 }

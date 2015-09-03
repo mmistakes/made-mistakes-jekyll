@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home__wrapper">
+
+  <div class="home__content">
+
+    {{ content }}
+
+    <div class="home__primary">
+      {% for link in site.data.navigation-menu %}
+        <a href="{{ link.url }}" class="btn btn--light-outline">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+
+  </div>
+
+</div>

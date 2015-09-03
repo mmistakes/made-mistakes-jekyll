@@ -1,0 +1,45 @@
+/* ==========================================================================
+   ARCHIVE
+   ========================================================================== */
+
+.archive__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid $light-gray;
+  &:hover {
+    border-bottom-color: $headline-color;
+  }
+}
+
+.archive__item-body {
+  flex: 3;
+}
+
+h1.archive__item-title {
+  margin: 0;
+  padding: 0;
+}
+
+.archive__item-excerpt {
+  margin: 0;
+  padding: 0;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+  color: $text-color;
+}
+
+.archive__item-meta {
+  display: none;
+  @include breakpoint($small) {
+    display: block;
+    flex: 1;
+    text-align: right;
+    font-family: $sans-serif;
+    font-size: 0.64rem;
+    text-transform: uppercase;
+    color: $text-color;
+  }
+}

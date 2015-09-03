@@ -1,0 +1,20 @@
+<div class="container">
+  <h3 class="related__header">{% if page.feature.headline %}{{ page.feature.headline }}{% else %}Featured Posts{% endif %}</h3>
+  <div class="related">
+    {% assign cat = page.feature.category %}
+    {% assign features = site.categories.[cat] | where:"featured", true %}
+    {% for post in features limit:3 %}
+      <article class="related__item">
+        <a href="{{ site.url }}{{ post.url }}">
+          <img src="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" alt="{{ post.title }}">
+        </a>
+        {% if post.categories contains 'mastering-paper' %}
+          <h3 class="related__title"><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></h3>
+          {% else %}
+          <h3 class="related__title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+        {% endif %}
+        <span class="related__category"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+      </article>
+    {% endfor %}
+  </div>
+</div>

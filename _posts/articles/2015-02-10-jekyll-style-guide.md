@@ -10,13 +10,14 @@ image:
   feature: jekyll-style-guide-feature.jpg
   teaser: jekyll-style-guide-teaser.jpg
 comments: true
+featured: true
 ---
 
 Building a living style guide that details all of the colors, typographic elements, UI patterns, and components used on Made Mistakes has been at the top of my to-do list for some time.
 
-{% include toc.html %}
-
 As sole designer, developer, and writer for the site, having one probably isn't all that crucial. Yet when iterating on the site's design I've found that some of my patterns don't always "speak the same visual language." Having a document I can refer back to and quickly spot check for visual inconsistencies could be very helpful.
+
+{% include toc.html %}
 
 ## Keep it Simple
 
@@ -71,8 +72,6 @@ For version 2.0 of the style guide I may investigate taking it to the next level
 I've seen [some examples](https://github.com/zakkain/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
 </div>
 
-{% include ads/skyscraper.html %}
-
 ### Display Components and Color Palettes
 
 With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with just a page title and `{% raw %}{{ content }}{% endraw %}` block.
@@ -109,7 +108,7 @@ usage: "Emphasize post text."
 </div>
 {% endhighlight %}
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Descriptive filenames
 Be smart with your filenames if you're trying to sort components in a logical way. The default behavior is for them to be arranged alphabetically by filename. Adding a variable to the YAML Front Matter of each component and sorting on that is one way of overriding this behavior.
 
@@ -148,7 +147,7 @@ What's going on here is I'm iterating over the `components` collection, grouping
 
 [^component-type]: Component type is set in the YAML Front Matter. eg: buttons, notices, media, typography, etc.
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Beware the Markdown
 I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
 </div>
@@ -225,8 +224,6 @@ With the help of some CSS and JavaScript I was able to position a drop down list
 #### Stylesheet tweaks
 
 For the most part all of my components displayed correctly on the page. One of the benefits of building the style guide was that it quickly pointed out components that weren't as modular as I initial thought. Meaning some were bound to specific class names that when placed in different contexts lost all of their styling.
-
-{% include ads/skyscraper.html %}
 
 There were also a few cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
 
@@ -317,7 +314,7 @@ $color:
 Updating and adding components to the [style guide]({{ site.url }}/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
 
 <div markdown="0">
-  <a href="{{ site.url }}/style-guide/" class="btn-info"><i class="fa fa-eye"></i> View Made Mistakes' Style Guide</a>
+  <a href="{{ site.url }}/style-guide/" class="btn btn--info"><i class="fa fa-eye"></i> View Made Mistakes' Style Guide</a>
   <a href="https://github.com/mmistakes/made-mistakes-jekyll/archive/master.zip" class="btn"><i class="fa fa-download"></i> Download</a>
 </div>
 

@@ -3,20 +3,202 @@
 
 $(document).ready(function(){
 
-  // Off Canvas Sliding
-	// toggle menu, trigger, and screen on click
-	$('#js-menu-trigger,#js-menu-screen,#js-menu-close').on('click touchstart', function(e){
-		$('#js-menu,#js-menu-screen').toggleClass('is-visible');
-		$('#js-menu-trigger').toggleClass('close');
-		e.preventDefault();
-	});
+  // open/close primary navigation
+  $('.overlay__menu-trigger').on('click', function(){
+    // $('.cd-menu-icon').toggleClass('is-clicked');
+    // $('.cd-header').toggleClass('menu-is-open');
+
+    // in Firefox transitions break when parent overflow is changed, so we need to wait for the end of the transition to give the body an overflow hidden
+    if( $('.overlay__menu').hasClass('is--visible') ) {
+      $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+        $('body').removeClass('overflow--hidden');
+      });
+    } else {
+      $('.overlay__menu').addClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+        $('body').addClass('overflow--hidden');
+      });
+    }
+  });
 
 
-  // Fix widows in headlines
-  $('.entry-title').widowFix();
+  // move table of contents from post body to sidebar
+  $(".post__body .js-toc").appendTo($(".toc--sidebar"));
 
 
-  // Add lightbox class to all image links
+  // animate home page words
+
+  //set animation timing
+  var animationDelay = 2500,
+    //loading bar effect
+    barAnimationDelay = 3800,
+    barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
+    //letters effect
+    lettersDelay = 50,
+    //type effect
+    typeLettersDelay = 150,
+    selectionDuration = 500,
+    typeAnimationDelay = selectionDuration + 800,
+    //clip effect
+    revealDuration = 600,
+    revealAnimationDelay = 1500;
+
+  initHeadline();
+
+  function initHeadline() {
+    //insert <i> element for each letter of a changing word
+    singleLetters($('.home__excerpt.letters').find('b'));
+    //initialise headline animation
+    animateHeadline($('.home__excerpt'));
+  }
+
+  function singleLetters($words) {
+    $words.each(function(){
+      var word = $(this),
+        letters = word.text().split(''),
+        selected = word.hasClass('is--visible');
+      for (i in letters) {
+        if(word.parents('.rotate-2').length > 0) letters[i] = '<em>' + letters[i] + '</em>';
+        letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
+      }
+        var newLetters = letters.join('');
+        word.html(newLetters);
+    });
+  }
+
+  function animateHeadline($headlines) {
+    var duration = animationDelay;
+    $headlines.each(function(){
+      var headline = $(this);
+
+      if(headline.hasClass('loading-bar')) {
+        duration = barAnimationDelay;
+        setTimeout(function(){ headline.find('.home__words-wrapper').addClass('is--loading') }, barWaiting);
+      } else if (headline.hasClass('clip')){
+        var spanWrapper = headline.find('.home__words-wrapper'),
+          newWidth = spanWrapper.width() + 10
+        spanWrapper.css('width', newWidth);
+      } else if (!headline.hasClass('type') ) {
+        //assign to .home__words-wrapper the width of its longest word
+        var words = headline.find('.home__words-wrapper b'),
+          width = 0;
+        words.each(function(){
+          var wordWidth = $(this).width();
+            if (wordWidth > width) width = wordWidth;
+        });
+        headline.find('.home__words-wrapper').css('width', width);
+      };
+
+      //trigger animation
+      setTimeout(function(){ hideWord( headline.find('.is--visible').eq(0) ) }, duration);
+    });
+  }
+
+  function hideWord($word) {
+    var nextWord = takeNext($word);
+
+    if($word.parents('.home__excerpt').hasClass('type')) {
+      var parentSpan = $word.parent('.home__words-wrapper');
+      parentSpan.addClass('selected').removeClass('waiting');
+      setTimeout(function(){
+        parentSpan.removeClass('selected');
+        $word.removeClass('is--visible').addClass('is--hidden').children('i').removeClass('in').addClass('out');
+      }, selectionDuration);
+      setTimeout(function(){ showWord(nextWord, typeLettersDelay) }, typeAnimationDelay);
+
+    } else if($word.parents('.home__excerpt').hasClass('letters')) {
+      var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
+      hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
+      showLetter(nextWord.find('i').eq(0), nextWord, bool, lettersDelay);
+
+    }  else if($word.parents('.home__excerpt').hasClass('clip')) {
+      $word.parents('.home__words-wrapper').animate({ width : '2px' }, revealDuration, function(){
+        switchWord($word, nextWord);
+        showWord(nextWord);
+      });
+
+    } else if ($word.parents('.home__excerpt').hasClass('loading-bar')){
+      $word.parents('.home__words-wrapper').removeClass('is--loading');
+      switchWord($word, nextWord);
+      setTimeout(function(){ hideWord(nextWord) }, barAnimationDelay);
+      setTimeout(function(){ $word.parents('.home__words-wrapper').addClass('is--loading') }, barWaiting);
+
+    } else {
+      switchWord($word, nextWord);
+      setTimeout(function(){ hideWord(nextWord) }, animationDelay);
+    }
+  }
+
+  function showWord($word, $duration) {
+    if($word.parents('.home__excerpt').hasClass('type')) {
+      showLetter($word.find('i').eq(0), $word, false, $duration);
+      $word.addClass('is--visible').removeClass('is--hidden');
+
+    }  else if($word.parents('.home__excerpt').hasClass('clip')) {
+      $word.parents('.home__words-wrapper').animate({ 'width' : $word.width() + 10 }, revealDuration, function(){
+        setTimeout(function(){ hideWord($word) }, revealAnimationDelay);
+      });
+    }
+  }
+
+  function hideLetter($letter, $word, $bool, $duration) {
+    $letter.removeClass('in').addClass('out');
+
+    if(!$letter.is(':last-child')) {
+      setTimeout(function(){ hideLetter($letter.next(), $word, $bool, $duration); }, $duration);
+    } else if($bool) {
+      setTimeout(function(){ hideWord(takeNext($word)) }, animationDelay);
+    }
+
+    if($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
+      var nextWord = takeNext($word);
+      switchWord($word, nextWord);
+    }
+  }
+
+  function showLetter($letter, $word, $bool, $duration) {
+    $letter.addClass('in').removeClass('out');
+
+    if(!$letter.is(':last-child')) {
+      setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration);
+    } else {
+      if($word.parents('.home__excerpt').hasClass('type')) { setTimeout(function(){ $word.parents('.home__words-wrapper').addClass('waiting'); }, 200);}
+      if(!$bool) { setTimeout(function(){ hideWord($word) }, animationDelay) }
+    }
+  }
+
+  function takeNext($word) {
+    return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
+  }
+
+  function takePrev($word) {
+    return (!$word.is(':first-child')) ? $word.prev() : $word.parent().children().last();
+  }
+
+  function switchWord($oldWord, $newWord) {
+    $oldWord.removeClass('is--visible').addClass('is--hidden');
+    $newWord.removeClass('is--hidden').addClass('is--visible');
+  }
+
+
+  // FitVids init
+  $("#main").fitVids();
+
+
+  // smooth scroll init
+  $("a").smoothScroll({offset: -20});
+
+
+  // bigfoot footnotes settings
+  var bigfoot = $.bigfoot(
+    {
+      deleteOnUnhover: false,
+      preventPageScroll: false,
+      activateOnHover: true
+    }
+  );
+
+
+  // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
 
@@ -53,82 +235,10 @@ $(document).ready(function(){
 	});
 
 
-  // Lazy Load
+  // lazy load settings
   $("img.load").show().lazyload({
   	effect: "fadeIn",
   	skip_invisible: false
   });
-
-
-  // FitVids
-	// Target your .container, .wrapper, .post, etc.
-	$("#main").fitVids();
-
-
-  // Add anchor links after headlines
-  var anchorForId = function (id) {
-    var anchor = document.createElement("a");
-    anchor.className = "header-link";
-    anchor.href      = "#" + id;
-    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
-    return anchor;
-  };
-
-  var linkifyAnchors = function (level, containingElement) {
-    var headers = containingElement.getElementsByTagName("h" + level);
-    for (var h = 0; h < headers.length; h++) {
-      var header = headers[h];
-
-      if (typeof header.id !== "undefined" && header.id !== "") {
-        header.appendChild(anchorForId(header.id));
-      }
-    }
-  };
-
-  document.onreadystatechange = function () {
-    if (this.readyState === "complete") {
-      var contentBlock = document.getElementsByClassName("page-content")[0];
-      if (!contentBlock) {
-        return;
-      }
-      for (var level = 1; level <= 6; level++) {
-        linkifyAnchors(level, contentBlock);
-      }
-    }
-  };
-
-
-  // Social share popup
-  function windowPopup(url, width, height) {
-    // Calculate the position of the popup so
-    // it’s centered on the screen.
-    var left = (screen.width / 2) - (width / 2),
-        top = (screen.height / 2) - (height / 2);
-
-    window.open(
-      url,
-      "",
-      "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left
-    );
-  }
-
-  $(".js-social-share").on("click", function(e) {
-    e.preventDefault();
-    windowPopup($(this).attr("href"), 500, 300);
-  });
-
-
-  // Smooth scroll
-  $('a').smoothScroll({offset: -20});
-
-
-  // footnotes
-  var bigfoot = $.bigfoot(
-    {
-      deleteOnUnhover: false,
-      preventPageScroll: false,
-      activateOnHover: true
-    }
-  );
 
 });

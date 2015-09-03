@@ -2,27 +2,53 @@
 layout: default
 ---
 
+{% include masthead.html %}
+{% include browser-upgrade.html %}
+
 <div id="main" role="main">
 
+  <header class="container post__header">
+    <h1 class="post__title">Posts tagged ‘{{ page.title }}’</h1>
+  </header>
+
   {% if page.image.feature %}
-    <div class="page-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
-      {% if page.image.credit %}{% include image-credit.html %}{% endif %}
-    </div><!-- /.page-image -->
+    {% include page__hero.html %}
   {% endif %}
 
-  <div class="archive-wrap">
-    {% include browser-upgrade.html %}
-    <h1 class="entry-title">Posts tagged ‘{{ page.title }}’</h1>
-    <div class="archive-content" id="content">
-      <p class="squish">A listing of posts filed under the {{ page.type }} <em>{{ page.title }}</em>.</p>
-      <div class="tiles">
+  {% if page.feature.visible == true %}
+    {% include featured.html %}
+  {% endif %}
+
+  <div class="container post__content">
+
+    <div class="post__inner-wrapper">
+
+      <section class="post__body">
+        <p>A listing of posts filed under the {{ page.type }} <em>{{ page.title }}</em>.</p>
         {% for post in page.posts %}
-          {% include archive-tiles.html %}
+          {% include archive__item.html %}
         {% endfor %}
-      </div><!-- /.tiles -->
-    </div><!-- /.archive-content -->
+      </section>
 
-  </div><!-- /.article-wrap -->
+    </div>
 
-</div><!-- /#main -->
+    <aside class="post__sidebar">
+      {% if page.ads != false %}
+      <div class="ad--sidebar">
+        <ins class="adsbygoogle adsense--sidebar"
+          style="display:inline-block"
+          data-ad-client="{{ site.owner.google.ad-client }}"
+          data-ad-slot="{{ site.owner.google.ad-slot }}"></ins>
+        <small class="ad__caption">Advertisement</small>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      {% endif %}
+    </aside>
+
+  </div>
+
+</div>
+
+{% include colophon.html %}

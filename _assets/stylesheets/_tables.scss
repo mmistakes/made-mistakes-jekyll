@@ -1,0 +1,38 @@
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  border-collapse: collapse;
+  margin: 0.5em 0;
+  width: 100%;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+}
+
+tbody {
+  tr:hover > td, tr:hover > th {
+    background-color: $table-hover-color;
+  }
+}
+
+thead {
+  tr:first-child td {
+    border-bottom: 2px solid $table-border-color;
+  }
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid $table-border-color;
+  padding: 0.5em;
+}
+
+tr, td, th {
+  vertical-align: middle;
+}

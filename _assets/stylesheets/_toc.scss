@@ -2,59 +2,77 @@
    TABLE OF CONTENTS
    ========================================================================== */
 
-/*
-   Page table of contents
-   ========================================================================== */
-
 .toc {
-  min-height: 1px;
-  font-family: $alt-font;
-  @include breakpoint($medium) {
-    padding-right: 4em; // avoid bumping into pulled entry-content
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    list-style-type: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0 1em 1em;
+  border: 2px solid $light-gray;
+}
+
+.toc__title {
+  margin-top: -0.625em;
+  margin-bottom: 0.5em;
+  font-size: 1.25rem;
+  text-align: center;
+  span {
     position: relative;
-    display: block;
-    padding: 7px 0 7px 20px;
-    @include font-size(14, no, 14);
-    &:before {
-      position: absolute;
-      content: "\27A1"; // rightwards black arrow
+    display: inline-block;
+    line-height: 1.25;
+    background: $lighter-gray;
+    &:before,
+    &:after {
+      content: '';
       display: block;
-      left: 0;
+      position: absolute;
+      top: 0;
+      height: 1.25rem;
+      width: 1.25rem;
+      background-color: $lighter-gray;
     }
-    > a {
-      color: $text-color;
-      text-decoration: none;
-      transition: 0.2s ease-out;
-      &:hover {
-        background-color: $highlighter-color;
-      }
-      // Add spacing around Font Awesome icons
-      .fa {
-        margin-right: 5px;
-      }
+    &:before {
+      left: -1.25rem;
+    }
+    &:after {
+      right: -1.25rem;
     }
   }
 }
-.toc-title {
-  font-family: $heading-font-title;
-  @include font-size(16, no, 16);
-  font-weight: 500;
+
+/* spacing adjustment for multiple toc lists in same container */
+.toc__menu + .toc__title {
+  margin-top: 0.5em;
 }
 
-/*
-   1/4 wide table of contents to be used as a sidebar (left aligned)
-   ========================================================================== */
-
-.toc-left {
-  @include breakpoint($small) {
-    float: left;
-    width: 25%;
+.toc__menu {
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 0.8rem;
+  li {
+    counter-increment: step-counter;
+    display: flex;
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:before {
+      content: counter(step-counter);
+      display: block;
+      margin-right: 10px;
+      padding: 3px;
+      width: 1.5em;
+      height: 1.5em;
+      color: #fff;
+      line-height: 1;
+      text-align: center;
+      background-color: #000;
+      border-radius: 50%;
+    }
+    a {
+      flex: 1;
+      color: #000;
+      font-family: $sans-serif;
+      font-weight: bold;
+      border-bottom-width: 0; // override
+    }
   }
 }

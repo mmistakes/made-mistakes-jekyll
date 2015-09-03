@@ -1,36 +1,21 @@
 ---
-layout: archive
+layout: home
 permalink: /
 title: "A Designer’s Faux Pas"
 excerpt: "Making stuff one mistake at a time."
 ---
 
-Made Mistakes is the personal website of Michael Rose. I'm a boring, tattooed, time traveling designer from Buffalo, New York who enjoys eating chicken wings and [sketching on an iPad]({{ site.url }}/tag/paper-by-53/) --- *not necessarily at the same time*.
-{: .squish}
+<h1 class="home__title">Hello, my name is <a href="{{ site.url }}/about/"><span>Michael</span></a></h1>
 
-## [iPad Portrait Art]({{ site.url }}/paperfaces/)
-{: .squish .center}
-
-<div class="tiles">
-{% for post in site.categories.paperfaces limit:5 %}
-  {% include archive-tiles.html %}
-{% endfor %}
-</div><!-- /.tiles -->
-
-## [Paper Tutorials]({{ site.url }}/mastering-paper/)
-{: .squish .center}
-
-<div class="tiles">
-{% for post in site.categories.mastering-paper limit:3 %}
-  {% include archive-tiles.html %}
-{% endfor %}
-</div><!-- /.tiles -->
-
-## [Blog Articles]({{ site.url }}/articles/)
-{: .squish .center}
-
-<div class="tiles">
-{% for post in site.categories.articles limit:3 %}
-  {% include archive-tiles.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+<h2 class="home__excerpt">
+  <span>I'm just another</span>
+  <span class="home__words-wrapper">
+    <b class="is--visible">designer</b>
+    <b>husband</b>
+    <b>illustrator</b>
+    <b>left-hander</b>
+    <b>time traveler</b>
+    <b>father</b>
+  </span>
+  <span>from Buffalo who enjoys eating chicken wings and <a href="{{ site.url }}/paperfaces/">sketching on an iPad</a>.</span>
+</h2>

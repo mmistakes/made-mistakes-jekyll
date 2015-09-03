@@ -10,6 +10,7 @@ image:
 category: articles
 tags: [paper by 53, ipad, drawing, illustration]
 comments: true
+featured: true
 ---
 
 PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper) and [ended exactly two years later]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}). 
@@ -22,9 +23,9 @@ The last batch of PaperFaces drawings along with in process sketches for each. T
 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:15 %}
-    <li>
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
-    </li>
+  <li>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+  </li>
 {% endfor %}
 </ul>
 
@@ -45,10 +46,9 @@ One night, out of sheer boredom, I decided I'd try to recreate <a href="{{ site.
 Due to the positive comments that I received, I decided to put a call out for more portrait volunteers. Without really considering the implications of my actions, I posted the following:
 
 <blockquote class="twitter-tweet"><p>Retweet and I'll draw your profile picture using Paper on my iPad <a href="https://twitter.com/search/%23MadeWithPaper">#MadeWithPaper</a> <a href="http://t.co/5oqH4bJt" title="http://twitter.com/mmistakes/status/240601384477659136/photo/1">twitter.com/mmistakes/stat…</a></p>&#8212; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/240601384477659136" data-datetime="2012-08-29T00:06:55+00:00">August 29, 2012</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 A few hours later, while grocery shopping with my wife, my iPhone started blowing up with retweet and @reply notifications. By the end of the day I had amassed around 300 volunteers and figured that turning it into a formal 365 day project might be fun.
-
-{% include ads/skyscraper.html %}
 
 When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I published this page to better explain the project and added PayPal buttons on the site for those who wanted to motivate me to keep the project going.
 
@@ -91,7 +91,7 @@ Each PaperFaces portrait is protected under a [Creative Commons License]({{ site
 
 I use the term "tutorial" loosely. What you'll find here are glorified slide shows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slide show with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process]({{ site.url }}/mastering-paper/ "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
-<div class="notice-warning" markdown="1">
+<div class="notice--warning" markdown="1">
 #### Video Process Update
 I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
 </div>
@@ -131,7 +131,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [iPad artist: Michael Rose, creator of the PaperFaces project](http://kevinbradberry.net/2014/08/27/ipad-artist-michael-rose/)
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### Mastering Paper Tutorials
 Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper by FiftyThree]({{ site.url }}/mastering-paper/). You're welcome!
 </div>

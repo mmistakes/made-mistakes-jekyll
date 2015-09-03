@@ -1,0 +1,10 @@
+# Primary site navigation links (overlay)
+
+- title: "About"
+  url: /about/
+
+- title: "PaperFaces Project"
+  url: /paperfaces/
+
+- title: "Jekyll Themes"
+  url: /work/jekyll-themes/

@@ -1,19 +1,22 @@
 # Footer navigation links
 
-- title: Mastering Paper
+- title: "Mastering Paper"
   url: /mastering-paper/
 
-- title: PaperFaces
+- title: "PaperFaces"
   url: /paperfaces/
 
-- title: "Sponsor &amp; Support"
+- title: "Sponsor"
   url: /support/
 
-- title: Contact
+- title: "Subscribe"
+  url: /subscribe/
+
+- title: "Contact"
   url: /contact/
 
-- title: FAQs
+- title: "FAQs"
   url: /faqs/
 
-- title: Sitemap
+- title: "Sitemap"
   url: /sitemap/

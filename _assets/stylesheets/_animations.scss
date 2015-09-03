@@ -2,10 +2,40 @@
    ANIMATIONS
    ========================================================================== */
 
-.animated {
-  animation-fill-mode: both;
-  animation-duration: 1s;
+/*
+   Slide-in and out
+   ========================================================================== */
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  60% {
+    opacity: 0;
+    transform: translateY(120%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
 
 /*
    Fade in up animation
@@ -22,45 +52,6 @@
   }
 }
 
-.fadeInUp {
-  animation-name: fadeInUp;
-}
-
-/*
-   Fade in left animation
-   ========================================================================== */
-
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    transform: translate3d(-100%, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.fadeInLeft {
-  animation-name: fadeInLeft;
-}
-
-/*
-   Drop animation
-   ========================================================================== */
-
-@keyframes drop {
-  0% {
-    transform: translateY(-500px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.drop {
-  animation-name: drop;
-}
 
 /*
    Magnific-Popup zoom-in

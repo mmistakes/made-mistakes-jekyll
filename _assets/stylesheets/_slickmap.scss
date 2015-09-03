@@ -75,10 +75,11 @@
   margin-top: 0;
   padding-bottom: 30px;
   @include breakpoint($medium) {
-    background: $white url('../images/L1-left.png') center bottom no-repeat; /* bg on >= medium screens */
+    background: $background-color url('../images/L1-left.png') center bottom no-repeat; /* bg on >= medium screens */
   }
 }
 #primaryNav li {
+  list-style-type: none;
   @include breakpoint($medium) {
     float: left;
     background: url('../images/L1-center.png') center top no-repeat;
@@ -91,7 +92,7 @@
   padding: 10px;
   display: block;
   font-size: 14px;
-  font-family: $alt-font;
+  font-family: $sans-serif;
   text-align: center;
   color: $black;
   background: $sitemap-primary-color;
@@ -155,7 +156,7 @@
   }
   padding: 9px 0 10px 0;
   @include breakpoint($medium) {
-    background: $white url('../images/L3-ul-top.png') center top no-repeat; /* bg on >= medium screens */
+    background: $background-color url('../images/L3-ul-top.png') center top no-repeat; /* bg on >= medium screens */
   }
 }
 #primaryNav li li li {

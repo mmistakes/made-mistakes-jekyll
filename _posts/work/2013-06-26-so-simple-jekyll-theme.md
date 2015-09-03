@@ -13,11 +13,10 @@ category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 comments: true
+toc: true
 ---
 
 After having so much fun creating and releasing [my first open source Jekyll theme](https://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple Theme**](https://mmistakes.github.io/so-simple-theme), a responsive Jekyll theme for words and photos. 
-
-{% include toc.html %}
 
 ## Features
 
@@ -42,7 +41,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 3. Make it your own and [customize, customize, customize](https://mmistakes.github.io/so-simple-theme/theme-setup/).
 
 <div markdown="0">
-  <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
+  <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info"><i class="fa fa-download"></i> Download</a>
   <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
 </div>

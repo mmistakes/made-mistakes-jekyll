@@ -1,0 +1,18 @@
+<article>
+  <a class="archive__item" href="{{ site.url }}{{ post.url }}">
+
+    <div class="archive__item-body">
+      {% if post.categories contains 'mastering-paper' %}
+        <h1 class="archive__item-title">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</h1>
+        {% else %}
+        <h1 class="archive__item-title">{{ post.title }}</h1>
+      {% endif %}
+      <p class="archive__item-excerpt">{{ post.excerpt }}</p>
+    </div>
+
+    <div class="archive__item-meta">
+      {% if post.work and page.url contains '/work/' %}{{ post.work }}{% else %}<span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% endif %}
+    </div>
+
+  </a>
+</article>

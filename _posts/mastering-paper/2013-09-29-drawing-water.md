@@ -16,7 +16,7 @@ Hopefully parts 2 and 3 of my [Mastering Paper by FiftyThree Guide]({{ site.url 
 
 {% include toc.html %}
 
-### Mixing the Water
+## Mixing the Water
 
 When choosing a color for the water, I like to mix it dull and gray by knocking the saturation down[^mixer]. I find this helps arrive at a better base color and contrasts nicely against a bright blue sky. But don't let this mix limit your creative vision, make it any color you want.
 
@@ -25,7 +25,7 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 	<figcaption>One of my favorite color mixes for painting water and waves.</figcaption>
 </figure>
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Start Light
 Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 </div>
@@ -55,7 +55,7 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 	<figcaption>In the photo reference to the right you&rsquo;ll notice the water is darkest at the horizon and gradually fades down &#8212; that&rsquo;s the effect you&rsquo;re looking to replicate by increasing the speed of your stroke as you approach the bottom.</figcaption>
 </figure>
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Dark to Light
 Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
 </div>
@@ -69,7 +69,7 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 	<figcaption>Short, quick strokes to add hints of small waves and break up the space.</figcaption>
 </figure>
 
-<div class="notice-info" markdown="1">
+<div class="notice--info" markdown="1">
 #### ProTip: Use Tints to Lighten
 If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this "sweet spot."
 </div>
@@ -147,10 +147,8 @@ Using all of these techniques I was able to create a variety of backdrops for th
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-08-iron-man-portrait %}"><img src="{{ site.url }}/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-03-15-agentkyle-portrait %}"><img src="{{ site.url }}/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-25-jamesonroot-portrait %}"><img src="{{ site.url }}/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-10-aaronrustad-portrait %}"><img src="{{ site.url }}/images/paperfaces-aaronrustad-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Watch for the Next Tutorial
-{:.no_toc}
 
 The next part will include techniques for drawing various textures with Paper's tools. Things like wood grain, brick, asphalt, and concrete will all be covered to round out the landscape portion of this guide.

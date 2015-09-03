@@ -13,6 +13,8 @@ tags: [catalog, design, typography, critique, readability]
 
 I think it is very clear that the April 2011 *Urban Outfitters* catalog was more concerned with style and art direction than typography. Now, I'm not trying to weigh the implications of, or reasons for this. Being a designer who values legibility and hierarchy, this catalog sure is filled with a bunch of head scratching typographic choices.
 
+{% include toc.html %}
+
 <figure>
     <a href="{{ site.url }}/images/UO-bad-type-placement.jpg" title="Inside front cover detail photograph"><img title="Urban Outfitters bad type placement" src="{{ site.url }}/images/UO-bad-type-placement.jpg" alt="UO April 2011 inside front cover detail" /></a>
     <figcaption>Would it have hurt to move these blocks of type to right a few inches?</figcaption>

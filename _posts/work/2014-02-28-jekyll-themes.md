@@ -11,7 +11,6 @@ image:
 category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
-ads: true
 ---
 
 As I continue to hack away at the design of Made Mistakes and improve on things, I try to release simplified Jekyll starters and themes after each major site revision. Should make development easier for those who sift through [my main repository](https://github.com/mmistakes/made-mistakes-jekyll) trying to strip out the cruft and site specific content to make it their own.
@@ -48,8 +47,8 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
-	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
+	<a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn btn--info">Download</a>
+	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
 </div>
 
@@ -71,8 +70,8 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
-	<a href="https://mmistakes.github.io/minimal-mistakes/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
+	<a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info">Download</a>
+	<a href="https://mmistakes.github.io/minimal-mistakes/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
 </div>
 
@@ -93,8 +92,8 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
-	<a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
+	<a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info">Download</a>
+	<a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
 </div>
 
@@ -115,8 +114,8 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
-	<a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn-info"><i class="fa fa-download"></i> Download</a>
-	<a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
+	<a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn btn--info">Download</a>
+	<a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
 </div>
 

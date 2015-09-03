@@ -6,81 +6,68 @@
    Typography
    ========================================================================== */
 
+/* Modular scale
+ *  one    - 2.441
+ *  two    - 1.953
+ *  three  - 1.563
+ *  four   - 1.25
+ *  five   - 1
+ *  six    - 0.8
+ *  seven  - 0.64
+ *  eight  - 0.512
+ */
+
 body {
-  font-family: $base-font-fallback;
+  margin: 0;
+  padding: 0;
   color: $text-color;
-  background-color: $white;
-  @include font-size(16,no);
-  /* use webfont */
-  @at-root .fonts-loaded #{&} {
-    font-family: $base-font;
+  font-family: $serif;
+  line-height: 1.45;
+  &.overflow--hidden {
+    /* when primary navigation is visible, the content in the background won't scroll */
+    overflow: hidden;
   }
 }
 
-p {
-  @include font-size(16,yes,22);
-  @include breakpoint($small) {
-    @include font-size(20,yes,28);
-  }
-}
-
-li {
-  @include font-size(16,8,22);
-  @include breakpoint($small) {
-    @include font-size(20,9,28);
-  }
-}
-
-ul, ol {
-  padding-left: gutter();
-}
-
-/* Headings */
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font-fallback;
-  text-rendering: optimizeLegibility; // Fix the character spacing for headings
-  font-weight: 500;
-  /* use webfont */
-  @at-root .fonts-loaded #{&} {
-    font-family: $heading-font;
-  }
-}
-h1 {
-  @include font-size(24);
-  @include breakpoint($small) {
-    @include font-size(36);
-  }
-}
-h2 {
-  @include font-size(22);
-  @include breakpoint($small) {
-    @include font-size(32);
-  }
-}
-h3 {
-  @include font-size(18);
-  @include breakpoint($small) {
-    @include font-size(28);
-  }
-}
-h4, h5, h6 {
-  @include font-size(16);
+small {
+  font-size: 0.8rem;
 }
 
 u,
 ins {
   text-decoration: none;
   border-bottom: 1px solid $text-color;
+  a {
+    color: inherit;
+  }
+}
+
+del a {
+  color: inherit;
+}
+
+/* Blockquotes */
+
+blockquote {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.25rem;
+  font-style: italic;
+  border-left: 0.25em solid $highlighter-color;
+  a {
+    color: inherit;
+  }
+  cite {
+    font-family: $sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+  }
 }
 
 /* Links */
 
 a {
-  color: $link-color;
-  &:hover {
-    color: $link-color-hover;
-  }
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -90,99 +77,31 @@ a {
   }
 }
 
-/* Quoted text */
+/* Lists */
 
-blockquote {
-  position: relative;
-  @include bleed-x(1em);
-  // simulate left border without pushing content to the right
-  &:before {
-    content: "";
-    position: absolute;
-    left: -6px;
-    width: 6px;
-    height: 100%;
-    background-color: $highlighter-color;
-  }
-  p {
-    font-family: $alt-font;
-    @include font-size(24, yes, 28);
-    font-style: italic;
-  }
-  cite {
-    font-family: $base-font;
-    font-weight: 700;
-    font-style: normal;
-    @include font-size(18);
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
-  }
+ul li {
+  list-style-type: square;
 }
 
 /* Code */
 
 tt, code, kbd, samp, pre {
-  font-family: $code-font;
+  font-family: $monospace;
+  font-size: 0.8rem;
 }
 pre {
   overflow-x: auto; // add scrollbars to wide code blocks
 }
 p code,
 li code {
-  @include font-size(14,no);
-  color: $text-color;
   white-space: nowrap;
-  margin: 0 2px;
-  padding: 0 5px;
-  border: 1px solid $code-border-color;
-  background-color: $inline-code-background;
-  border-radius: $code-border-radius;
-}
-
-/* Tables */
-
-table {
-  border-collapse: collapse;
-  margin: ((0px + $doc-line-height) / 2) 0;
-  // margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
-  width: 100%;
-}
-tbody {
-  tr:hover > td, tr:hover > th {
-    background-color: $table-hover-color;
-  }
-}
-thead {
-  tr:first-child td {
-    border-bottom: 2px solid $table-border-color;
-  }
-}
-th {
-  padding: (0px + $doc-line-height) / 2;
-  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
-  font-family: $alt-font;
-  font-weight: bold;
-  text-align: left;
-  background-color: $table-header-color;
-  border-bottom: 1px solid mix($black, $border-color, 15%);
-}
-td {
-  background-color: $table-background;
-  border-bottom: 1px solid $table-border-color;
-  padding: (0px + $doc-line-height) / 2;
-  // padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
-}
-tr, td, th {
-  vertical-align: middle;
 }
 
 /* Horizontal rule */
 
 hr {
   display: block;
-  margin: (0px + ($doc-line-height * 2)) 0;
+  margin: 1em 0;
   border: 0;
   border-top: 1px solid $border-color;
 }
@@ -194,8 +113,10 @@ hr {
 /* Figures and images */
 
 figure {
-  position: relative;
-  @include clearfix;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
   margin-left: 0;
   margin-right: 0;
   img,
@@ -212,38 +133,28 @@ figure {
     // image hover animation
     &:hover {
       img {
-        box-shadow: 0 0 10px rgba($black, .20);
+        box-shadow: 0 0 10px rgba($black, 0.20);
       }
     }
-    // img {
-    //   margin-bottom: gutter(12);
-    //   @include breakpoint($small) {
-    //     margin-bottom: inherit;
-    //   }
-    // }
   }
   &.half {
     > a,
     > img {
       @include breakpoint($small) {
-        @include gallery(6 of 12); // context of .entry-content columns
+        width: calc(50% - 0.5em);
       }
     }
     figcaption {
-      float: left;
-      @include clearfix;
     }
   }
   &.third {
     > a,
     > img {
       @include breakpoint($small) {
-        @include gallery(4 of 12);
+        width: calc(33.3333% - 0.5em);
       }
     }
     figcaption {
-      float: left;
-      @include clearfix;
     }
   }
 }
@@ -251,17 +162,18 @@ figure {
 /* Figure captions */
 
 figcaption {
-  // margin-top: gutter(12);
-  font-family: $caption-font;
-  @include font-size(14, yes, 16);
-  color: $caption-color;
-  clear: both;
+  margin-bottom: 0.65rem;
+  color: inherit;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
   a {
-    color: $caption-color;
+    color: inherit;
     text-decoration: none;
-    border-bottom: 1px dotted $caption-color;
+    border-bottom: 1px solid $highlighter-color;
+    transition: border 0.4s ease-in-out;
     &:hover {
-      border-bottom-style: solid;
+      color: #000;
+      border-bottom-color: #000;
     }
   }
 }
@@ -273,117 +185,6 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-
-/*
-   Forms
-   ========================================================================== */
-
-fieldset {
-  background: $form-background ;
-  border: 1px solid $form-border-color;
-  margin-bottom: 0px + $doc-line-height;
-  padding: gutter();
-  border-radius: $form-border-radius;
-}
-
-input,
-label,
-select {
-  display: block;
-  @include font-size($form-font-size, no);
-}
-
-label {
-  font-weight: 500;
-  font-family: $alt-font;
-  margin-bottom: (0px + $doc-line-height) / 4;
-  &.required:after {
-    content: "*";
-  }
-  abbr {
-    display: none;
-  }
-}
-
-input,
-textarea,
-select,
-select[multiple=multiple] {
-  box-sizing: border-box;
-  transition: border-color;
-  background-color: $white;
-  border-radius: $form-border-radius;
-  border: 1px solid $form-border-color;
-  box-shadow: $form-box-shadow;
-  font-family: $form-font-family;
-  font-size: $form-font-size;
-  margin-bottom: (0px + $doc-line-height) / 2;
-  padding: ((0px + $doc-line-height) / 3) ((0px + $doc-line-height) / 3);
-  width: 100%;
-  &:hover {
-    border-color: $form-border-color-hover;
-  }
-  &:focus {
-    border-color: $form-border-color-focus;
-    box-shadow: $form-box-shadow-focus;
-    outline: none;
-  }
-}
-
-textarea {
-  resize: vertical;
-}
-
-input[type="search"] {
-  appearance: none;
-}
-
-input[type="checkbox"], input[type="radio"] {
-  display: inline;
-  margin-right: (0px + $doc-line-height) / 4;
-}
-
-input[type="file"] {
-  width: 100%;
-}
-
-select {
-  width: auto;
-  max-width: 100%;
-  margin-bottom: 0px + $doc-line-height;
-}
-
-form button,
-input[type="submit"] {
-  @extend .btn;
-  appearance: none;
-  cursor: pointer;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-form {
-  ul, ol {
-    padding-left: 0;
-    list-style-type: none;
-  }
-}
-
-/* Required */
-
-.req {
-  color: $danger-color !important;
-  font-weight: bold;
-}
-
-/* instructions */
-
-.instruct {
-  font-family: $alt-font;
-  @include font-size(14,yes);
-  color: $caption-color;
-}
 
 /*
    Navigation lists
@@ -419,6 +220,6 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight {
-  transition: color 0.2s ease-out, opacity 0.2s ease-out, background 0.2s ease-out, border-color 0.2s ease-out, border-width 0.2s ease-out;
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight, .archive__item, .palette__swatch {
+  transition: all 0.2s ease-out;
 }

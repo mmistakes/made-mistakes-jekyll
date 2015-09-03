@@ -12,6 +12,8 @@ comments: true
 
 I'm the type of person that learns how something is made by dissecting and examining its every nook and cranny. Obsessively digging through #MadeWithPaper streams on [Tumblr](https://www.tumblr.com/search/madewithpaper), [Twitter](https://twitter.com/search?q=%23MadeWithPaper&src=typd), and Instagram I've become frustrated with the lack of fidelity of those posts.
 
+{% include toc.html %}
+
 ![Mix heart]({{ site.url }}/images/paper-53-mix-heart.jpg)
 
 On Tumblr images max out at 1280 × 960 pixels, on Twitter it's 1024 × 768, and Instagram a wimpy 640 × 640. None of these sizes come close to the iPad's native resolution of 2048 × 1536, which is a real problem for someone like me. Ha!
