@@ -8,6 +8,9 @@
 
 .btn {
   /* default button */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 20px;
   color: #fff !important; // override
   font-family: $sans-serif;
@@ -32,9 +35,11 @@
   /* fills width of parent container */
 
   &--block {
-    display: block;
+    display: flex;
     width: 100%;
-    text-align: center;
+    + .btn--block {
+      margin-top: 0.25em;
+    }
   }
 
   /* for dark backgrounds */
