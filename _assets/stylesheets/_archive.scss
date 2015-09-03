@@ -32,10 +32,14 @@ h1.archive__item-title {
 }
 
 .archive__item-meta {
-  flex: 1;
-  text-align: right;
-  font-family: $sans-serif;
-  font-size: 0.64rem;
-  text-transform: uppercase;
-  color: $text-color;
+  display: none;
+  @include breakpoint($small) {
+    display: block;
+    flex: 1;
+    text-align: right;
+    font-family: $sans-serif;
+    font-size: 0.64rem;
+    text-transform: uppercase;
+    color: $text-color;
+  }
 }
