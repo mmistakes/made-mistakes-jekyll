@@ -1,11 +1,6 @@
-/**
- *
- *  Made Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
- */
+/* ==========================================================================
+   NON CRITICAL CSS
+   ========================================================================== */
 
 @import "variables";
 
@@ -15,19 +10,7 @@
 
 @import "breakpoint"; // media query mixins
 @import "mixins";
-@import "reset";
-@import "base";
 
-@import "masthead"; // page header with navigation
-@import "breadcrumbs";
-@import "home"; // home
-@import "page"; // page-post
-@import "archive"; // archive listing
-@import "toc"; // table of contents
-
-@import "utilities";
-@import "animations";
-@import "buttons";
 @import "tables";
 @import "notices";
 @import "thumbnail-grids";
@@ -35,12 +18,12 @@
 @import "google-search"; // Google search form box
 @import "syntax-highlighting";
 @import "paper-color-swatches"; // color swatches for Paper by FiftyThree articles
-@import "slickmap"; // SlickMap visual sitemap
-@import "style-guide";
 @import "related"; // related items
 @import "review-box";
 @import "banners"; // banner advertisements
 @import "footnotes";
+@import "slickmap"; // SlickMap visual sitemap
+@import "style-guide";
 @import "colophon"; // site colophon
 @import "vendor/magnific-popup/magnific-popup";
 @import "vendor/bigfoot/bigfoot-default";

@@ -37,7 +37,13 @@
 
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
-    {% stylesheet global %}
+    <style>{% asset critical.css %}</style>
+
+    <script>
+      {% asset vendor/loadCSS.js %}
+      loadCSS("{% asset_path non-critical.css %}");
+    </script>
+    <noscript><link href="{% asset_path non-critical.css %}" rel="stylesheet"></noscript>
 
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png">
