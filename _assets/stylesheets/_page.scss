@@ -55,10 +55,10 @@
 .post__inner-wrapper {
   display: flex;
   flex-direction: column;
-  @include breakpoint($small) {
-    width: calc(100% - 140px);
-  }
-  @include breakpoint($medium) {
+  // @include breakpoint($small) {
+  //   width: calc(100% - 140px);
+  // }
+  @include breakpoint($medium-wide) {
     width: calc(100% - 340px);
   }
   @include breakpoint($large) {
@@ -301,12 +301,14 @@
 
 .post__sidebar {
   order: -1;
-  @include breakpoint($small) {
+  width: 100%;
+  // @include breakpoint($small) {
+  //   order: 0;
+  //   margin-left: 20px;
+  //   width: 120px;
+  // }
+  @include breakpoint($medium-wide) {
     order: 0;
-    margin-left: 20px;
-    width: 120px;
-  }
-  @include breakpoint($medium) {
     margin-left: 40px;
     width: 300px;
   }

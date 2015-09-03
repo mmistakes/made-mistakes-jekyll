@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .ad__caption {
+  display: block;
   font-style: italic;
   font-size: 0.64rem;
 }
@@ -17,11 +18,15 @@
   width: 320px;
   height: 100px;
   border-bottom: 0 solid transparent;
-  @include breakpoint($small) {
-    width: 120px;
-    height: 600px;
+  // @include breakpoint($small) {
+  //   width: 120px;
+  //   height: 600px;
+  // }
+  @media (min-width: 500px) and (max-width: $medium-wide) {
+    width: 468px;
+    height: 60px;
   }
-  @include breakpoint($medium) {
+  @include breakpoint($medium-wide) {
     width: 300px;
     height: 250px;
   }
