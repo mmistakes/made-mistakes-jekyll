@@ -41,8 +41,8 @@ After having so much fun creating and releasing [my first open source Jekyll the
 3. Make it your own and [customize, customize, customize](https://mmistakes.github.io/so-simple-theme/theme-setup/).
 
 <div markdown="0">
-  <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info"><i class="fa fa-download"></i> Download</a>
-  <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn"><i class="fa fa-question-circle"></i> Setup Guide</a>
+  <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info">Download</a>
+  <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
 </div>
 
