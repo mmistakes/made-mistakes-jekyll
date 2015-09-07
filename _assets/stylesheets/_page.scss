@@ -146,6 +146,18 @@
   font-weight: normal;
 }
 
+.post__excerpt {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-top: 0;
+  @include breakpoint($medium-wide) {
+    width: calc(100% - 340px);
+  }
+  @include breakpoint($large) {
+    width: calc(100% - 380px);
+  }
+}
+
 .breadcrumbs {
   order: -1;
 }
