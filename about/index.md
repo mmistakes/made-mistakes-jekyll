@@ -36,13 +36,13 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 
 ## Selected Interviews
 
-* ["The Story of PaperFaces"](http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
-* ["...don't break the chain"](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
+* [**The Story of PaperFaces**](http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
+* [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
 
 ## Honorable Mentions
 
-* ["22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad"](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
-* ["This Summer We Learned About PaperFaces"](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
+* [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
+* [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
 
 ## Contact Me
 
