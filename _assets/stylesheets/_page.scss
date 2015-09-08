@@ -75,11 +75,11 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    margin: 1.414rem 0 0.5rem;
+    margin: 2rem 0 1.25rem;
     color: $headline-color;
     font-family: $serif;
     font-weight: normal;
-    line-height: 1.563rem;
+    line-height: 1.5rem;
     a {
       color: $headline-color;
     }
@@ -95,30 +95,41 @@
 
   h4 {
     font-size: 1rem;
+    font-weight: bold;
   }
 
   h5 {
     font-size: 0.8rem;
+    font-weight: bold;
   }
 
   h6 {
     font-size: 0.8rem;
+    font-weight: bold;
   }
 
   /* cleaner underlines for links */
-  p > a,
-  li > a,
-  td > a,
-  small a {
+  p > a {
     color: inherit;
     border-bottom: 2px solid $highlighter-color;
-    transition: border 0.4s ease-in-out;
+    // transition: border 0.4s ease-in-out;
     &:hover {
       color: #000;
       border-bottom-color: #000;
     }
   }
+  li > a,
+  td > a,
+  small a {
+    color: inherit;
+    border-bottom: 1px solid $light-gray;
+    &:hover {
+      color: #000;
+      border-bottom-color: $text-color;
+    }
+  }
 
+  /* hide toc to avoid flash of content as it moves to sidebar */
   .js-toc {
     display: none;
   }
@@ -174,11 +185,9 @@
 /* author info */
 
 .author__wrapper {
-  @include breakpoint($large) {
-    display: flex;
-    flex: 3;
-    align-items: flex-start;
-  }
+  display: flex;
+  flex: 3;
+  align-items: flex-start;
 }
 
 .author__name {
@@ -203,12 +212,9 @@
 }
 
 .author__avatar {
-  display: none;
-  @include breakpoint($large) {
-    display: block;
-    order: -1;
-    margin-right: 1em;
-  }
+  display: block;
+  order: -1;
+  margin-right: 1em;
 }
 
 /* comments */
@@ -220,7 +226,9 @@
 /* meta info */
 
 .post__single-meta {
+  display: none;
   @include breakpoint($large) {
+    display: block;
     flex: 1;
     text-align: right;
   }
