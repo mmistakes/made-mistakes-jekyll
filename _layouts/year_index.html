@@ -9,6 +9,7 @@ layout: default
 
   <header class="container post__header">
     <h1 class="post__title">Archive for {{ page.date | date: "%Y" }}</h1>
+    <h2 class="post__excerpt">Posts from the year {{ page.date | date: "%Y" }}.</h2>
   </header>
 
   {% if page.image.feature %}
@@ -24,7 +25,6 @@ layout: default
     <div class="post__inner-wrapper">
 
       <section class="post__body">
-        <p>Posts from the year {{ page.date | date: "%Y" }}.</p>
         {% for post in page.posts %}
           {% include archive__item.html %}
         {% endfor %}
