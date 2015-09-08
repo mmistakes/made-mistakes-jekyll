@@ -17,7 +17,7 @@ _  ________ ____   _  ______________  _________
 
   Language:     English
   Built with:   Jekyll <http://jekyllrb.com>
-                Sublime Text 2 <http://www.sublimetext.com>
+                Sublime Text 3 <http://www.sublimetext.com>
                 Adobe Creative Suite
                 Grunt <http://gruntjs.com>
                 HTML Compressor <https://code.google.com/p/htmlcompressor>
