@@ -22,6 +22,7 @@ _  ________ ____   _  ______________  _________
                 Grunt <http://gruntjs.com>
                 HTML Compressor <https://code.google.com/p/htmlcompressor>
                 SimpleIcon <http://www.flaticon.com>
+                Twitter Emoji <https://github.com/twitter/twemoji>
 
 
 /* SPECIAL THANKS */
