@@ -17,26 +17,32 @@ Intro.
 
 ## Universal Paper App
 
-Yes, you've read correctly --- Paper is now a universal iOS app that works on both iPad and iPhone. Opening Paper on my iPhone 5s I'm amazed it feels as good as it does without sacrificing features.
+Yes, you've read correctly --- Paper is now a universal iOS app that works on both iPad and iPhone. Every time I open Paper on my iPhone 5s I'm amazed all of the features found on the iPad version made the journey over. Much like the 1.6.1 update for iOS 7 I got the sense every bit of the app was touched by the team at FiftyThree. Even if that meant modifying a few of Paper's defining characteristics[^changes] for the better.
+
+[^changes]: Yes gone are the journal book view and zoom loupe. Change is good, deal with it <svg class="icon"><use xlink:href="#icon-deal-with-it"></use></svg>.
 
 <figure>
   <img src="{{ site.url }}/images/paper-3-store.jpg" alt="Paper 3.0 App Store screenshot">
-  <figcaption>Paper for iPhone/iPad available in the App Store for free. <a href="https://itunes.apple.com/us/app/id506003812">Get it now!</a></figcaption>
+  <figcaption>Paper 3.0 for iPad/iPhone/iPod available in the App Store for free. <a href="https://itunes.apple.com/us/app/id506003812">Get it now!</a></figcaption>
 </figure> 
-
-I appreciate that the designers and engineers at FiftyThree didn't hold back as they set out to improved on many of Paper's defining characteristics, changing them[^changes] when it made sense.
-
-[^changes]: Yes they removed the journal view, removed the zoom loupe, and let you import photos now. Deal with it <svg class="icon"><use xlink:href="#icon-deal-with-it"></use></svg>
 
 ## Importing Images
 
 Love it or hate it (stick me in the love it camp), you can finally import images into Paper by FiftyThree! Tap the camera icon and you can either snap a picture or choose one from your photo library.
 
-Currently you are limited to one photo per idea, but you can scale it, rotate it, and even call-out an area of interest with a new Spotlight option.
+Currently you are limited to one photo per idea --- but you can scale it, rotate it, and even call-out an area of interest with a new *Spotlight option*.
 
-I'm excited to use this feature as a sketching aid, drawing directly on reference images I've imported into Paper. There's no way to toggle this layer off an on yet (*psst... FiftyThree engineers if you're reading*), but you can remove it leaving only what you've drawn or painted.
+<figure>
+  <img src="{{ site.url }}/images/paper-3-photo-import.jpg" alt="Importing photos into Paper 3.0">
+  <figcaption>Importing photos in Paper for iPad and iPhone.</figcaption>
+</figure>
 
-Tap and hold on the Eraser tool, tap **Clear Photo**, and poof!
+I'm excited to use this feature as a sketching aid, drawing directly on reference images I've imported into Paper. There's no way to toggle this layer off yet (*psst... FiftyThree engineers if you're reading*), but it's easy enough to remove it leaving behing just what you've drawn or painted.
+
+<figure>
+  <img src="{{ site.url }}/images/paper-3-clear-photo.gif" alt="Clear Photo layer animation">
+  <figcaption>Tap and hold on the Eraser tool, tap <strong>Clear Photo</strong>, and poof!</figcaption>
+</figure>
 
 ## Rotating Ideas
 
