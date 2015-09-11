@@ -8,11 +8,6 @@
   align-items: center;
   min-height: 100vh;
   background-color: #000;
-  @include breakpoint($small) {
-    min-height: 96vh;
-    margin: 2vh;
-    border-radius: $border-radius;
-  }
 }
 
 .home__content {
