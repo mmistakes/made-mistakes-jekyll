@@ -226,6 +226,6 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight, .archive__item, .palette__swatch {
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight, .archive__item, .palette__swatch, .archive__item-body {
   transition: all 0.2s ease-out;
 }

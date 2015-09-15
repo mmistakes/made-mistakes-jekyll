@@ -9,13 +9,15 @@
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid $light-gray;
-  &:hover {
-    border-bottom-color: $headline-color;
-  }
 }
 
 .archive__item-body {
   flex: 3;
+  padding-right: 1em;
+}
+// hover state
+.archive__item:hover .archive__item-body {
+  transform: translateX(1em);
 }
 
 h1.archive__item-title {
