@@ -10,10 +10,14 @@
         </a>
         {% if post.categories contains 'mastering-paper' %}
           <h3 class="related__title"><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></h3>
-          {% else %}
+        {% else %}
           <h3 class="related__title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
         {% endif %}
-        <span class="related__category"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        {% if post.work %}
+          <span class="related__category">{{ post.work }}</span>
+        {% else %}
+          <span class="related__category"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        {% endif %}
       </article>
     {% endfor %}
   </div>

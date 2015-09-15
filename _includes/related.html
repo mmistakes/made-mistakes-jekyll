@@ -8,7 +8,7 @@
         </a>
         {% if post.categories contains 'mastering-paper' %}
           <h3 class="related__title"><a href="{{ site.url }}{{ post.url }}">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</a></h3>
-          {% else %}
+        {% else %}
           <h3 class="related__title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
         {% endif %}
         {% if post.categories %}
