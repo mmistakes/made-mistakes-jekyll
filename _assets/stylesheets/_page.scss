@@ -55,6 +55,7 @@
 .post__inner-wrapper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1em;
   // @include breakpoint($small) {
   //   width: calc(100% - 140px);
   // }
@@ -182,6 +183,7 @@
 /* footer */
 
 .post__footer {
+  margin-top: 2em;
   @include breakpoint($large) {
     display: flex;
     justify-content: space-between;
