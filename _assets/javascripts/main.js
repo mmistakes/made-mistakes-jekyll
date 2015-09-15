@@ -10,13 +10,10 @@ $(document).ready(function(){
 
     // in Firefox transitions break when parent overflow is changed, so we need to wait for the end of the transition to give the body an overflow hidden
     if( $('.overlay__menu').hasClass('is--visible') ) {
-      $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
-        $('body').removeClass('overflow--hidden');
-      });
-    } else {
-      $('.overlay__menu').addClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
-        $('body').addClass('overflow--hidden');
-      });
+      $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    }
+    else {
+      $('.overlay__menu').addClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
     }
   });
 
