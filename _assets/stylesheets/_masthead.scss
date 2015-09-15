@@ -10,6 +10,7 @@
   background-color: #fff;
   border-bottom: 1px solid $light-gray;
   z-index: 11;
+  animation: fade-in 3s;
   .container {
     display: flex;
     justify-content: space-between;

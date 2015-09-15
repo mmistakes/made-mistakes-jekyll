@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 
-  // open/close primary navigation
+  // open-close primary navigation
   $('.overlay__menu-trigger').on('click', function(){
     // $('.cd-menu-icon').toggleClass('is-clicked');
     // $('.cd-header').toggleClass('menu-is-open');
@@ -19,32 +19,32 @@ $(document).ready(function(){
 
 
   // move table of contents from post body to sidebar
-  $(".post__body .js-toc").appendTo($(".toc--sidebar"));
+  $(".post__body .js-toc").appendTo($(".toc--sidebar")).hide().fadeIn(400);
 
 
   // animate home page words
 
-  //set animation timing
+  // set animation timing
   var animationDelay = 2500,
-    //loading bar effect
+    // loading bar effect
     barAnimationDelay = 3800,
-    barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
-    //letters effect
+    barWaiting = barAnimationDelay - 3000, // 3000 is the duration of the transition on the loading bar - set in the scss/css file
+    // letters effect
     lettersDelay = 50,
-    //type effect
+    // type effect
     typeLettersDelay = 150,
     selectionDuration = 500,
     typeAnimationDelay = selectionDuration + 800,
-    //clip effect
+    // clip effect
     revealDuration = 600,
     revealAnimationDelay = 1500;
 
   initHeadline();
 
   function initHeadline() {
-    //insert <i> element for each letter of a changing word
+    // insert <i> element for each letter of a changing word
     singleLetters($('.home__excerpt.letters').find('b'));
-    //initialise headline animation
+    // initialize headline animation
     animateHeadline($('.home__excerpt'));
   }
 

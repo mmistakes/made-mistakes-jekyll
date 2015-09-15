@@ -10,12 +10,13 @@ excerpt: "Making stuff one mistake at a time."
 <h2 class="home__excerpt">
   <span>I'm just another</span>
   <span class="home__words-wrapper">
-    <b class="is--visible">designer</b>
+    <b class="is--visible">time traveler</b>
     <b>husband</b>
-    <b>illustrator</b>
+    <b>designer</b>
     <b>left-hander</b>
-    <b>time traveler</b>
+    <b>illustrator</b>
     <b>father</b>
+    <b>gadget geek</b>
   </span>
   <span>from Buffalo who enjoys eating chicken wings and <a href="{{ site.url }}/paperfaces/">sketching on an iPad</a>.</span>
 </h2>
