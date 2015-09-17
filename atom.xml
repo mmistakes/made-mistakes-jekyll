@@ -3,7 +3,6 @@ layout:
 limit: 25
 sitemap: false
 ---
-
 {% include feed-head.xml %}
 
   {% include feed-author.xml %}

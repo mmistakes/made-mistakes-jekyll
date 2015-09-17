@@ -260,50 +260,6 @@ To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/mast
     white-space: normal;
   }
 }
-
-/*
-   Background colors
-   ========================================================================== */
-
-$color:
-(white-color, $white),
-(black-color, $black),
-(gray-color, $gray),
-(background-color, $background-color),
-(body-color, $body-color),
-(text-color, $text-color),
-(caption-color, $caption-color),
-(primary-color, $primary-color),
-(success-color, $success-color),
-(warning-color, $warning-color),
-(danger-color, $danger-color),
-(info-color, $info-color),
-(border-color, $border-color),
-(link-color, $link-color),
-(link-color-hover, $link-color-hover),
-(table-border-color, $table-border-color),
-(table-background, $table-background),
-(table-hover-color, $table-hover-color),
-(table-stripe-color, $table-stripe-color),
-(table-stripe-color-hover, $table-stripe-color-hover),
-(facebook-color, $facebook-color),
-(flickr-color, $flickr-color),
-(foursquare-color, $foursquare-color),
-(google-plus-color, $google-plus-color),
-(instagram-color, $instagram-color),
-(linkedin-color, $linkedin-color),
-(pinterest-color, $pinterest-color),
-(rss-color, $rss-color),
-(tumblr-color, $tumblr-color),
-(twitter-color, $twitter-color),
-(vimeo-color, $vimeo-color),
-(youtube-color, $youtube-color);
-
-@each $name, $bgcolor in $color {
-  .#{$name}-bg {
-    background-color: $bgcolor;
-  }
-}
 {% endhighlight %}
 
 ---

@@ -4,7 +4,6 @@ limit: 50
 title: "PaperFaces Portraits"
 sitemap: false
 ---
-
 {% include feed-head.xml %}
 
   {% include feed-author.xml %}

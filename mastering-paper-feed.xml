@@ -4,7 +4,6 @@ limit: 25
 title: "Mastering Paper by FiftyThree"
 sitemap: false
 ---
-
 {% include feed-head.xml %}
 
   {% include feed-author.xml %}

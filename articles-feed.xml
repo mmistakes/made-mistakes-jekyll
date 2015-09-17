@@ -4,7 +4,6 @@ limit: 10
 title: "Articles"
 sitemap: false
 ---
-
 {% include feed-head.xml %}
 
   {% include feed-author.xml %}
