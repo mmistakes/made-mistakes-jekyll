@@ -7,7 +7,7 @@ image:
   feature: collecting-records-feature.jpg
   teaser: collecting-records-teaser.jpg
   thumb: collecting-records-thumb.jpg
-modified: 2013-04-26
+modified: 2013-04-26 00:00:00
 tags: [punk, records, inspiration, diy, critique, design]
 ---
 

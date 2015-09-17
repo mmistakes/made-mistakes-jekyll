@@ -1,49 +1,16 @@
 ---
 layout:
-limit: 25
+limit: 10
+title: "Articles"
 sitemap: false
 ---
 
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+{% include feed-head.xml %}
 
-{% if site.url %}
-  {% assign base = site.url %}
-{% elsif site.github.url %}
-  {% assign base = site.github.url %}
-{% endif %}
+  {% include feed-author.xml %}
 
-<title>{{ site.title }} &#8211; Articles</title>
-<generator uri="https://github.com/jekyll/jekyll">Jekyll v{{ jekyll.version }}</generator>
-<icon>{{ site.url }}/apple-touch-icon-precomposed.png</icon>
-<subtitle>{{ site.description }}</subtitle>
-<link href="{{ base }}{{ page.url }}" rel="self"/>
-<link href="{{ base }}/" rel="alternate" type="text/html"/>
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ base }}/</id>
-<author>
-	<name>{{ site.owner.name | xml_escape }}</name>
-	<uri>{{ site.url }}/</uri>
-	{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
-</author>
-
-{% for post in site.categories.articles limit: page.limit %}
-<entry>
-  <title>{{ post.title | xml_escape }}</title>
-  <link href="{{ base }}{{ post.url }}"/>
-  <updated>{{ post.date | date_to_xmlschema }}</updated>
-  <id>{{ base }}{{ post.id }}</id>
-  <author>
-		<name>{{ site.owner.name | xml_escape }}</name>
-		<uri>{{ site.url }}/</uri>
-		{% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
-	</author>
-  <content type="html">
-    {% if post.image.feature %}{% include feed-feature-image.html %}{% endif %}
-    {{ post.content | xml_escape }}
-    {% include feed-footer.html %}
-  </content>
-</entry>
-{% endfor %}
+  {% for post in site.categories.articles limit: page.limit %}
+    {% include feed-entry.xml %}
+  {% endfor %}
 
 </feed>

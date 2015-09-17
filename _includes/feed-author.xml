@@ -1,0 +1,11 @@
+{% if site.owner %}
+  <author>
+    {% if site.owner.name %}
+      <name>{{ site.owner.name | xml_escape }}</name>
+    {% endif %}
+    {% if site.owner.email %}
+      <email>{{ site.owner.email }}</email>
+    {% endif %}
+    <uri>{{ site.url | xml_escape }}/</uri>
+  </author>
+{% endif %}

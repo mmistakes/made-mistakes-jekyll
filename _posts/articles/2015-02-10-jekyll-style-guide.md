@@ -1,7 +1,6 @@
 ---
 layout: article
 title: "Building a Style Guide with Jekyll"
-date: 2015-02-10
 modified:
 categories: articles
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
