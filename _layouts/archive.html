@@ -32,19 +32,7 @@ layout: default
 
     <aside class="post__sidebar">
       <div class="toc--sidebar"></div>
-
-      {% if page.ads != false %}
-      <div class="ad--sidebar">
-        <ins class="adsbygoogle adsense--sidebar"
-          style="display:inline-block"
-          data-ad-client="{{ site.owner.google.ad-client }}"
-          data-ad-slot="{{ site.owner.google.ad-slot }}"></ins>
-        <small class="ad__caption">Advertisement</small>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      {% endif %}
+      {% include ad.html %}
     </aside>
 
     {% endunless %}
