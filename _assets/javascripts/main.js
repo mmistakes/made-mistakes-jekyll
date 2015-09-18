@@ -190,7 +190,7 @@ $(document).ready(function(){
     {
       deleteOnUnhover: false,
       preventPageScroll: false,
-      activateOnHover: true
+      activateOnHover: false
     }
   );
 
