@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  color: #fff;
+  color: #fff !important;
   font-family: $sans-serif;
   font-size: 0.8rem;
   font-weight: bold;
@@ -52,7 +52,7 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: #000;
+    color: #000 !important;
     background-color: #fff;
     &:hover {
       background-color: mix(#000, #fff, 10%);

@@ -115,7 +115,7 @@
 
   /* cleaner underlines for links */
   p > a {
-    color: inherit;
+    // color: inherit;
     border-bottom: 2px solid $highlighter-color;
     // transition: border 0.4s ease-in-out;
     &:hover {
