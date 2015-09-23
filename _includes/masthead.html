@@ -12,8 +12,8 @@
   </div>
 </header>
 
-<nav>
-  <ul class="overlay__menu">
+<nav class="overlay__menu">
+  <ul>
     <li class="overlay__menu-label">Of Interest</li>
     {% for link in site.data.navigation-primary %}
       <li class="overlay__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
@@ -23,4 +23,5 @@
       <li class="overlay__menu-item--secondary"><a href="{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
   </ul>
+  <button class="overlay__menu-close btn">Close Menu</button>
 </nav>

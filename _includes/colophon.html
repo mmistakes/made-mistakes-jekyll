@@ -1,9 +1,12 @@
 <footer class="colophon" role="contentinfo">
-  <nav>
+  <nav class="container">
     <ul class="colophon__menu">
-      {% for link in site.data.footer %}
+      <li class="colophon__menu-label">Main Menu</li>
+      <li class="colophon__menu-sep">//</li>
+      {% for link in site.data.navigation-menu %}
         <li class="colophon__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
+      <li class="colophon__menu-item"><a href="#0" class="overlay__menu-trigger">•&nbsp;•&nbsp;•</a></li>
     </ul>
     <ul class="colophon__menu">
       <li class="colophon__menu-item--social"><a href="https://twitter.com/mmistakes"><svg><use xlink:href="#icon-twitter"></use></svg> Twitter</a></li>
@@ -13,6 +16,6 @@
       <li class="colophon__menu-item--social"><a href="https://www.youtube.com/user/anotherjpeg"><svg><use xlink:href="#icon-youtube"></use></svg> YouTube</a></li>
       <li class="colophon__menu-item--social"><a href="https://github.com/mmistakes"><svg><use xlink:href="#icon-github"></use></svg> GitHub</a></li>
     </ul>
+    <p class="colophon__copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="/humans.txt">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes-jekyll" title="MadeMistakes.com source on GitHub">Hand-crafted</a> with Jekyll.</p>
   </nav>
-  <p class="colophon__copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="/humans.txt">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes-jekyll" title="MadeMistakes.com source on GitHub">Hand-crafted</a> with Jekyll.</p>
 </footer>

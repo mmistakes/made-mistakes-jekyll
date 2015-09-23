@@ -70,16 +70,12 @@
    ========================================================================== */
 
 .overlay__menu {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
   /* by default it's hidden - on top of the viewport */
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
-  height: 100vh;
-  width: 100vw;
+  // height: 100vh;
+  // width: 100vw;
   background-color: #fff;
   z-index: 10;
   text-align: center;
@@ -91,9 +87,19 @@
   -webkit-overflow-scrolling: touch;
   transform: translateY(-100%);
   transition: transform 0.4s cubic-bezier(.86,.01,.77,.78);
+  border-bottom: 1px solid $light-gray;
+  box-shadow: 0 0 10px rgba($light-gray, 0.5);
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 
   a {
     display: inline-block;
+    margin: 5px 0;
     padding: 10px 15px;
     color: #000;
     border-radius: 0.25em;
@@ -167,4 +173,8 @@
   @include breakpoint($large) {
     font-size: 1rem;
   }
+}
+
+.overlay__menu-close {
+  margin-top: 30px;
 }

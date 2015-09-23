@@ -3,11 +3,8 @@
 
 $(document).ready(function(){
 
-  // open-close primary navigation
+  // toggle overlay navigation
   $('.overlay__menu-trigger').on('click', function(){
-    // $('.cd-menu-icon').toggleClass('is-clicked');
-    // $('.cd-header').toggleClass('menu-is-open');
-
     // in Firefox transitions break when parent overflow is changed, so we need to wait for the end of the transition to give the body an overflow hidden
     if( $('.overlay__menu').hasClass('is--visible') ) {
       $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
@@ -15,6 +12,11 @@ $(document).ready(function(){
     else {
       $('.overlay__menu').addClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
     }
+  });
+
+  // close overlay navigation on button click
+  $('.overlay__menu-close').on('click', function(){
+    $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
   });
 
 
