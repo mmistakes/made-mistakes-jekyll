@@ -3,7 +3,7 @@ title: "How do you paint so smoothly with the brush tool?"
 layout: article
 type: paper
 date: 2014-12-07
-modified: 2014-12-08T12:25:58-05:00
+modified: 2015-09-23T14:59:42-04:00
 order: 5
 ---
 
@@ -11,4 +11,4 @@ A smooth gradient can be achieved layering many washes of watercolor on top of e
 
 #### Here's a quick video showing the basics:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/AjJVrFFaCck" frameborder="0"> </iframe>
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/AjJVrFFaCck?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

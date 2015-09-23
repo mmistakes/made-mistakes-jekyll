@@ -2,10 +2,8 @@
 layout: article
 title: "Terms & Conditions"
 date: 2014-06-22
-modified: 2015-01-02
+modified: 2015-09-23T14:16:42-04:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
-image:
-  feature: support-feature.jpg
 share: false
 ---
 
@@ -62,10 +60,8 @@ Currently I'm an affiliate for Amazon and Google Adsense.
 
 What this means for you:
 
-* I do not and will not recommend a product just because I'm an affiliate.
-* I became an affiliate to earn some revenue towards the costs of running and maintaining this website. Where I have direct control over which ads are served on this website I offer only products that are directly related to the topic of this website and products that a reader/subscriber would have a genuine interest in or need of.
-* I do not recommend products just for the sake of making money.
-* I recommend products because I think they are valuable to my readers.
+* I became an affiliate to earn revenue towards the costs of running and maintaining this website. Where I have direct control over which ads are served on this website I offer only products that are directly related to the topic of this website and products that a reader/subscriber would have a genuine interest in or need of.
+* I do not and will not recommend a product just for the sake of making money.
 * I do not let the compensation I receive influence the content, topics, posts, or opinions expressed on this website.
 * I respect and value my readers too much to write anything other than my own genuine and objective opinions and advice.
 
@@ -77,4 +73,4 @@ All original content (e.g. articles, blog posts, illustrations, artwork, and pho
 
 ### Attribution
 
-If you're inclined to show credit, then a link back to the source article attributed to either [Made Mistakes](http://mademistakes.com) or [Michael Rose](http://mademistakes.com) is good enough for me. If you don't want to show credit, hey that's cool too. Just don't go stealing my stuff and republishing it as your own.
+If you're inclined to give credit --- a link back to the source article attributed to either [Made Mistakes]({{ site.url }}) or [Michael Rose]({{ site.url }}) is good enough for me. If you don't want to attribute my content, hey that's cool too. Just don't go stealing my stuff and republishing it as your own.

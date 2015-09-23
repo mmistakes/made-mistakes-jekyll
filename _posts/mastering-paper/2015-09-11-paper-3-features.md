@@ -71,7 +71,7 @@ Paging through Paper's digital journals might have been a good idea years ago, b
 Instead of ideas bound together as books, they're presented with a different UI metaphor --- stacks of paper. These stacks expand into a neatly aligned grid of cards you can interact with when tapped on. I'll tell you this much, scrolling through ideas in this way sure beats flipping back 500 plus pages to find a drawing I worked on a year ago.
 
 <figure>
-  <iframe width="640" height="480" src="https://www.youtube.com/embed/VBMt_sjEXF4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/VBMt_sjEXF4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
   <figcaption>Scrolling through a large stack of ideas is way more usable now.</figcaption>
 </figure>
 
