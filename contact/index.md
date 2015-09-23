@@ -44,7 +44,7 @@ For anything longer please fill out the form below and I'll get back to you by e
     </li>
     <li class="buttons">
       <div>
-        <input id="saveForm" name="saveForm" class="btn" type="submit" value="Send Message" />
+        <button id="saveForm" name="saveForm" class="btn" type="submit"><svg><use xlink:href="#icon-comments"></use></svg> Send Message</button>
       </div>
     </li>
     <li class="hidden">
