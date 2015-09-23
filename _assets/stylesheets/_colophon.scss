@@ -5,8 +5,7 @@
 .colophon {
   margin-top: 4em;
   padding: 20px 0;
-  color: #ccc;
-  background-color: #000;
+  color: #999;
   svg {
     width: 1em;
     height: 1em;
@@ -37,9 +36,9 @@
     display: block;
     margin-right: 20px;
     padding: 10px 0;
-    color: #ccc;
+    color: #999;
     &:hover {
-      color: #fff;
+      color: #000;
     }
   }
 }
@@ -64,8 +63,8 @@
   padding-top: 10px;
   font-size: 0.64rem;
   a {
-    color: #ccc;
-    border-bottom: 1px dotted #333;
+    color: #999;
+    border-bottom: 1px dotted #999;
     &:hover {
       border-bottom-style: solid;
     }
