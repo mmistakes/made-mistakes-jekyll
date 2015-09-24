@@ -52,3 +52,36 @@ feature:
 By default social sharing and Google AdSense are enabled on all posts and pages. To disable add `share: false` or `ads: false` to the YAML Front Matter.
 
 Comments are disabled by default. To enable add `comments: true` to the YAML Front Matter.
+
+#### SVG Icons
+
+To easily add inline SVG icons to a post or page use the following include being sure to specify the icon by name.
+
+```
+{% include icon.html name="wink" %}
+```
+
+##### SVG Icons
+
+|---
+| Name | Description
+|---
+| amazon | Amazon logo
+| bitcoin | BitCoin logo
+| blank | blank face
+| comments | chat bubble
+| deal-with-it | sunglasses face
+| dollar-sign | dollar sign in circle
+| facebook | Facebook square logo
+| github | GitHub octocat logo
+| google-plus | G+ logo
+| instagram | Instagram logo
+| meh | indifferent face
+| paypal | PayPal logo
+| rss | RSS icon
+| smile | smiley face
+| tumblr | Tumblr logo
+| twitter | Twitter logo
+| wink | wink face
+| youtube | YouTube logo
+|--- 
