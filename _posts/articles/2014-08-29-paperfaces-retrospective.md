@@ -88,13 +88,13 @@ Initially I planned on drawing a single portrait each day for just one year. Whe
 
 Here's a breakdown of the various types of portraits I've completed.
 
-| Type | No. of Portraits[^portraits]
-|---
-| Faceless | 522
-| [Star Wars]({{ site.url }}/tag/star-wars/) | 12
-| [Bearded Dudes]({{ site.url }}/tag/beard/) | {{ site.tags.beard | size }}
-| Animals and Creatures | 17
-| **Total** | **{{ site.categories.paperfaces | size }}**
+| Type                                       | No. of Portraits[^portraits]                |
+|------------------------------------------- | ------------------------------------------- |
+| Faceless                                   | 522                                         |
+| [Star Wars]({{ site.url }}/tag/star-wars/) | 12                                          |
+| [Bearded Dudes]({{ site.url }}/tag/beard/) | {{ site.tags.beard | size }}                |
+| Animals and Creatures                      | 17                                          |
+| **Total**                                  | **{{ site.categories.paperfaces | size }}** |
 
 [^portraits]: For the purpose of keeping things consistent I consider a portrait a single drawing regardless if it includes multiple faces. If I was to count the amount of faces I've drawn the numbers would be much, much higher.
 
