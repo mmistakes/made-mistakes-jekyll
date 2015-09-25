@@ -134,6 +134,10 @@
     }
   }
 
+  li + li {
+    margin-top: 0.5em;
+  }
+
   /* SVG icons */
   .icon {
     width: 1em;
