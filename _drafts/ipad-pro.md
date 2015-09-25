@@ -12,47 +12,47 @@ comments: true
 featured: true
 ---
 
-The single most exciting thing out of Apple's announcement that they're doing a stylus is how iOS will evolve to integrate with it. There's no question that **Apple's iPad Pro** has the makings of being the tablet of my dreams. My internal strife is around timing: "do I need it in November" or "can I wait for Pencil support to trickle down to the inevitable iPad Air 3".
+I think the most exciting thing about Apple entering the stylus market is how iOS will evolve to integrate with it. There's no question that **Apple's iPad Pro** has the makings of being my dream tablet. Do I realize that dream in November? Or do I wait for Apple Pencil support to trickle down to the inevitable iPad Air 3 this spring?
 
 {% include toc.html %}
 
-Left to my wife it would be a firm *"uhh no, we're not spending close to $1,000 on a stupid iPad."* My decision tree is slightly more nuance than than hers {% include icon.html name="wink" %}. Convincing myself that an iPad Pro + Apple Pencil would be light years ahead of my current iPad Air 2 and set of styli[^styli].
+Left to my wife that answer would be a firm *"uhh no, we're not spending $1,000 on a stupid iPad."* My decision tree is slightly more nuanced than than hers though{% include icon.html name="wink" %}. I've waited years for these products and if the iPad Pro + Apple Pencil perform anything like they've demoed --- goodbye to my iPad Air 2 and set of styli[^styli].
 
-[^styli]: Current styluses I use: Pencil by FiftyThree, Pogo Connect (for the nib alone since the original doesn't play nice with my iPad Air 2), and generics from Amazon.
+[^styli]: [Pencil by FiftyThree]({{ site.url }}{% post_url mastering-paper/2014-11-28-pencil-53-review %}), [Pogo Connect]({{ site.url}}{% post_url mastering-paper/2013-07-08-pogo-connect-smart-pen %}) (for the nib alone since the original doesn't play nice with my iPad Air 2), and [generics from Amazon](http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20).
 
 ## The Price to Play
 
-If money were no object I'd drop the necessary coin to purchase said iPad Pro and Apple Pencil today (or whenever they officially release). But that's not the world I live in and if I want to be an early adopter there's an inherit cost.
+If money were no object I'd drop the necessary coin to purchase said iPad Pro and Apple Pencil today (or whenever they officially release). But that's not the world I live in and if I want to be an early adopter there's an inherit cost for that luxury.
 
-Spending $99 on Apple's stylus is a *no brainer* for me --- $799 for an iPad with a larger screen, beefier processor, more RAM, and fancy internal speakers... not so much.
+<figure>
+  <img src="{{ site.url }}/images/ipad-pro-apple-pencil-drawing.jpg" alt="iPad Pro and Apple Pencil drawing">
+</figure>
 
-The new screen has a whole host of improvements and new technology that is needed to make the Apple Pencil the stylus of my dreams. It's the larger size and bulk that comes with it that do little to flutter my heart and open my wallet. Sure, I get it... if an Air 3 debuted alongside with comparable specs and support for the new stylus it Pro sales would probably be impacted.
-
-So if the 12.9-inch screen isn't enough to sell me what else is there...
+Spending $99 on Apple's stylus is a *no brainer* for me --- $799 for an iPad with a larger screen, beefier processor, more RAM, and fancy internal speakers... not so much. Sure, I get it. If an Air 3 debuted with comparable specs and same support for the new stylus sales would be impacted, but...
 
 ## Why the Tablet?
 
-Using an iPad Air 2 for the last year I've never once thought *"sure would be great if this ran faster and the screen was larger."* The convenience and power of drawing on an iPad has been what's compelled me the most.
+Using an iPad Air 2 for the last year I've never once thought *"sure would be great if this ran faster and the screen was larger."* The convenience of drawing on an iPad roughly the size of a sketchpad has been what's driven me the most to use it.
 
-Apps like [**Paper by FiftyThree**](http://www.fiftythree.com/paper) sold me on the idea that pen and paper's digital counterparts could have a soul too. With Apple's new iPad Pro and Pencil stylus the missing gaps are quickly filling and expanding the possibilities of what these devices can create.
+Apps like [**Paper by FiftyThree**](http://www.fiftythree.com/paper) sold me on the idea that pen and paper could be done digitally. Apple's iPad Pro and stylus take this one step further by blurring the lines between analog and digital creation. A space I'm extremely excited to watch evolve.
 
-## That Apple Pencil Looks Magical
+## An Apple Designed Stylus? About Time
 
-For awhile it seemed as if Apple wasn't too concerned with artists and hobbyists creating on the iPad as Microsoft was with the Surface. Sure there was that "[Start Something New](https://web.archive.org/web/20150127023142/http://www.apple.com/start-something-new/)" promotional campaign they ran showcasing work created with artistic apps, but nothing in the way of pushing the tools further than the competition.
+For awhile it seemed like Apple wasn't as motivated in advancing the artistic aspects of the iPad, as Microsoft was with their **Surface Pro** line of tablets. Sure there was that "[Start Something New](https://web.archive.org/web/20150127023142/http://www.apple.com/start-something-new/)" promotional campaign they ran showcasing art and photography created on iOS, but nothing in the way of pushing the medium further along than their competitors.
 
 <figure>
-  <img src="{{ site.url }}/images/start-something-new.jpg" alt="Apple's Start Something New page">
+  <a href="https://web.archive.org/web/20150127023142/http://www.apple.com/start-something-new/"><img src="{{ site.url }}/images/start-something-new.jpg" alt="Apple's Start Something New page"></a>
 </figure>
 
-That all hopefully changes in November when the Apple Pencil is available. Until I can get some hands time on with one I'm trying to absorb as much information on it that I can.
+That all hopefully changes in November when the Apple Pencil is available. Until I can get my hands on one I'm trying to absorb as much information about it as I can.
 
 <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/iicnVez5U7M?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ### Improved Accuracy
 
-I've used a handful of styli in my time and one thing they've never been is accurate. In my **Palm Treo** days they were small and easy to lose. While on iPad they've faired better in their feel and usability but have been held back by iOS and the hardware running it. Everything was designed to be touched with finger tips rendering a fine point stylus useless unless it leverage some sort of voodoo via Bluetooth.
+I've used a [handful of styli]({{ site.url }}/faqs/stylus-recommendations/) in my time and one thing they've never been is accurate. iPad styli have come a long way from my early days with the easy to lose **Palm Treo** pens. But ultimately they've been held back by hardware that was never designed for their use... until now.
 
-This quote from Apple's iPad Pro product page tells me they're serious about pushing the platform forward for artists:
+Reading Apple's iPad Pro product page it's becoming clear to me that their tablet is growing up. Giving hope that Apple is finally serious about pushing the platform forward for artists:
 
 <blockquote>
   <p>iPad Pro knows whether you’re using your finger or Apple Pencil. When iPad Pro senses Apple Pencil, the subsystem scans its signal at an astounding 240 times per second, giving it twice the data points it normally collects with your finger. This data, combined with Apple-designed software, means that there’s only milliseconds between the image you have in your mind and the one you see on the display.</p>
@@ -61,20 +61,154 @@ This quote from Apple's iPad Pro product page tells me they're serious about pus
 
 ### Position, Force, and Tilt
 
-Pressure sensitive styli had played a big role in how I drew and painted on the iPad. If Paper by FiftyThree and the Air 2 supported the [Pogo Connect]({{ site.url }}{% post_url mastering-paper/2013-07-08-pogo-connect-smart-pen %}) I'd probably be still using it --- even though it wasn't designed well.
+Pressure sensitive styli used to play a big role in how I drew and painted on the iPad. If Paper by FiftyThree still supported the [Pogo Connect]({{ site.url }}{% post_url mastering-paper/2013-07-08-pogo-connect-smart-pen %}) I'd probably be still using it --- even though it wasn't designed all that well.
 
-Coming from a background in the fine arts I learned how to manipulate graphite and paint by varying pressure. To some extent this was possible with the Pogo Connect (and others[^pressure-styli]) if you could adapt to the lack of precision and lag.
+Coming from a fine arts background I learned how to manipulate graphite and paint by varying the amount of pressure applied. The Pogo Connect (and a few others[^pressure-styli]) attempted to simulate this behavior in select apps that supported it. Mostly viewed as a novelty since it could be difficult to control due to precision and latency issues, the feature never really caught on.
 
-[^pressure-styli]: The following Bluetooth styli also pressure sensitive: [Wacom Intuos Creative Stylus 2](http://www.amazon.com/gp/product/B00MNGIGMS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MNGIGMS&linkCode=as2&tag=mademist-20&linkId=3MSUXH5QRNRUSZBO), [Wacom Bamboo Stylus](http://www.amazon.com/gp/product/B00LZW7RS0/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00LZW7RS0&linkCode=as2&tag=mademist-20&linkId=5NSEUCIDTRSDWORD), [Adobe Ink & Slide](http://www.amazon.com/gp/product/B00LNECVN6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00LNECVN6&linkCode=as2&tag=mademist-20&linkId=BYWPU37DS5KLIOVG), [Adonit Jot Touch](http://www.amazon.com/gp/product/B00KFAG64O/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KFAG64O&linkCode=as2&tag=mademist-20&linkId=2MWTP7IBZA6S3V5Y)
+[^pressure-styli]: The following Bluetooth styli are also pressure sensitive: [Wacom Intuos Creative Stylus 2](http://www.amazon.com/gp/product/B00MNGIGMS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00MNGIGMS&linkCode=as2&tag=mademist-20&linkId=3MSUXH5QRNRUSZBO), [Wacom Bamboo Stylus](http://www.amazon.com/gp/product/B00LZW7RS0/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00LZW7RS0&linkCode=as2&tag=mademist-20&linkId=5NSEUCIDTRSDWORD), [Adobe Ink & Slide](http://www.amazon.com/gp/product/B00LNECVN6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00LNECVN6&linkCode=as2&tag=mademist-20&linkId=BYWPU37DS5KLIOVG), [Adonit Jot Touch](http://www.amazon.com/gp/product/B00KFAG64O/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KFAG64O&linkCode=as2&tag=mademist-20&linkId=2MWTP7IBZA6S3V5Y)
 
-To my knowledge FiftyThree's Pencil stylus was the first for iPad to factor in the angle at which it is held. By tilting it on your side strokes begin to vary from thick to thin with a feature named [**Surface Pressure**](https://vimeo.com/98146708). With Apple's stylus, tilt looks to go mainstream.
+To my knowledge FiftyThree's Pencil exclusive [**Surface Pressure**](https://vimeo.com/98146708) feature was a first for iPad. By tilting it on the side, strokes can be fattened or thinned with greater control. With Apple's stylus this feature is lifted directly from 53's playbook as it looks to go mainstream.
 
-### Precision that lets you touch a single pixel
+### Precision that Lets You Touch a Single Pixel
 
-### Recharges quickly
+Drawing on current iPads with a stylus isn't the best experience. It just hasn't been possible to do any sort of precise work because of hardware constraints and fat tips obscuring your view. Even with [styli that promise improved accuracy](http://www.adonit.net/jot/touch/) they're still nowhere close to "real" pens and pencils.
 
-## Reminiscing with Traditional Methods 
+I've flirted with Wacom tablets for digital illustration work before but never fell in love with them. The accuracy was better than a mouse and keyboard, but not being able to draw directly on the screen just didn't cut it for me. [Wacom's pen displays](http://www.wacom.com/en-es/products/pen-displays) attempt to solve this problem but bring along their own set of quirks as well.
+
+I can't really comment on air gaps in the screen, pen latency, or anything else for that matter since I've never used a Cintiq for drawing. All I can do is try and infer results from a set of numbers, which may or may accurately describe these devices.
+
+|                                    | Screen Size | Resolution  | Weight       | Price   |
+| ---------------------------------- | ----------- | ----------- | ------------ | ------- |
+| **iPad Pro**[^ipad-pro]                | 12.9 inch   | 2732 x 2048 | 1.57 pounds  | $898.00 |
+| **Cintiq 13 HD Touch**[^cintiq-touch]  | 13.3 inch   | 1920 x 1080 | 2.646 pounds | $999.95 |
+| **Surface Pro 3**[^surface-pro]        | 12.2 inch   | 2160 x 1440 | 1.76 pounds  | $699.00 |
+
+[^ipad-pro]: Wi-Fi 32GB model included with the purchase of Apple Pencil
+[^cintiq-touch]: Classic Pen included
+[^surface-pro]: 64GB / Intel Core i3 / 4GB RAM model included with Surface Pen
+
+#### What the Specs Tells Me
+
+1. A comparable sized Cintiq with touch abilities is more expensive than the base iPad Pro. Not to mention you still have to factor in the cost of a computer to connect the Cintiq to...
+2. The iPad Pro's high definition screen (or Retina as Apple calls it) *blows the Cintiq away*.
+3. iPad Pro is still kind of bulky compared to the current crop of Air's, but almost half as light as a Cintiq.
+
+Apple's intense motivation for thinning their products has produced screens that feel like you're directly manipulating the pixels underneath. Armed with superior screens, a stylus built for precision, and an ecosystem of apps to support both, many of the hurdles of drawing digitally could finally go away.
+
+### Odds and Ends
+
+A few more nuggets that make an iPad Pro + Apple Pencil combo even more appealing.
+
+#### Screen Size
+
+I think a 9.7 inch screen is the sweet spot for tablets, but bigger is always better right? If I'm willing to trade weight for more screen real estate, since I mostly illustrate from the couch and don't draw on the go.
+
+<figure>
+  <img src="{{ site.url }}/images/ipad-pro-paper.png" alt="Paper by FiftyThree on iPad Pro">
+  <figcaption>Just look at all of the extra space Paper by FiftyThree can utilize on an iPad Pro. Gimme gimme!</figcaption>
+</figure>
+
+With the new multi-tasking features found in iOS 9 apps can be tiled with Split View. The fact that the iPad Pro can fit almost two Air's next to each other frees up a ton of space to work with. Once apps start leveraging this feature more I can see myself opening the Photos app off to the side to use as reference.
+
+#### Apple Pencil Battery Life
+
+Using FiftyThree's Pencil for the last couple of years has really spoiled me. I don't even remember the last time I charged mine --- that thing gets some crazy battery life!
+
+Glad to see Apple will continue that trend with a modest 12 hours of life or 30 minutes of juice by quick charging their stylus for 15 seconds. The sight of jammed into an iPad does make me cringe a bit, but I guess I'll get over that as long as they're not prone to damage.
+
+<figure>
+  <img src="{{ site.url }}/images/apple-pencil-charging.jpg" alt="Charging Apple Pencil via the iPad Pro's Lightning port">
+  <figcaption>Image from <a href="http://www.apple.com/apple-pencil/">Apple.com</a></figcaption>
+</figure>
 
 ## Preparing with Procreate
 
-## Paper Love
+After receiving a Pogo Connect as a birthday gift from my wife years ago, one of the first apps I tried it with (after Paper of course) was [**Procreate**](http://procreate.si/) by Savage Interactive. As someone with a long history using Adobe products, Procreate reminded me heavily of Photoshop. Every feature you could ever want was there and designed for touch input:
+
+* Customizable brushes
+* Layers and blending modes
+* Sharing of palettes and brushes
+* Full screen zoom
+* Canvas flip and rotation
+* Export as PSD, Procreate native file format, PNG, and JPG
+* Import photographs
+* Selection and transform tools
+* Customizable interface
+* Automatically record time lapse videos
+* And much more
+
+<figure>
+  <img src="{{ site.url }}/images/procreate-export-formats.jpg" alt="Procreate export formats">
+  <figcaption>Procreate file formats. Love me some export options.</figcaption>
+</figure>
+
+Starting out as a digital illustration virgin I wanted to ease in with something that felt more familiar to the "real" tools I was used to. Paper by FiftyThree fit this criteria perfectly, making the transition from analog art to digital easier for me. I did experiment with Procreate at the same time, but was never happy with the results since I didn't understand the medium yet.
+
+<figure class="half">
+  <a href="{{ site.url }}/images/wendy-portrait-procreate-lg.jpg"><img src="{{ site.url }}/images/wendy-portrait-procreate-600.jpg" alt="Wendy's portrait painted in Procreate with a Pogo Connect stylus"></a>
+  <a href="{{ site.url }}/images/grunge-figure-drawing-procreate-lg.jpg"><img src="{{ site.url }}/images/grunge-figure-drawing-procreate-600.jpg" alt="Figure drawing experiments in Procreate"></a>
+  <figcaption>My early attempts with Procreate weren't all that great. It took me some time to figure out the paint engine as it felt less organic than Paper's.</figcaption>
+</figure>
+
+Not looking for more excuses to become an iPad Pro early adopter, the Procreate 3 tease by Savage Interactive didn't help matters much {% include icon.html name="wink" %}. Feeling the urge to try something more "professional" I've decided to dive deeper into the app. Partially to see what I could do with more capable tools and partially to prepare for whats to come in November...
+
+<figure>
+  <img src="{{ site.url }}/images/procreate-3-coming-soon.png" alt="Procreate 3 coming soon">
+  <figcaption>Procreate 3 features coming this holiday season to iPad.</figcaption>
+</figure>
+
+Trading simplicity and minimalism for options and power felt extremely rewarding. Don't get me wrong, Paper's tools can't be matched in a lot of ways. But they're also seriously handicapped (by design) to enable a intuitive and unique way of working with ideas. Procreate on the other hand is for one thing and one thing alone... art.
+
+It's this single purpose that allows Procreate to excel at the sorts of things digital artists require in a workflow. In the five short hours I spent with the app I created a realistic portrait that probably would have taken me 10 hours in Paper. It almost felt like I was cheating by exploiting all of Procreate's hallmark features this easily.
+
+<figure class="half">
+  <img src="{{ site.url }}/images/mr-allan-procreate-layers.jpg" alt="Layers in Procreate">
+  <img src="{{ site.url }}/images/mr-allan-procreate-blending-modes.jpg" alt="Blending modes in Procreate">
+  <figcaption>Layers, and blending modes, and time lapse recording, oh my!</figcaption>
+</figure>
+
+### Time Lapse Recording
+
+Procreate did all the work capturing my strokes as I drew this portrait of "Mr. Allan" from a photo reference on [**Sktchy**](http://www.sktchy.com/). Watch me make all kinds of mistakes and fumble through *my very first serious digital painting* with Procreate.
+
+<figure>
+  <iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/vrqoIbu7gU0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>A total 4 hours and 5 minutes over three sessions.</figcaption>
+</figure>
+
+To me eye, the face looks like a lump of clay, but with a few more hours of rendering that could be corrected. Procreate has that oil painted look down pat, it's the watercolor feel that Paper produces so effortlessly I'd like to match in future drawings. But that's for another <s>day</s> tutorial...
+
+## iPad Pro Early Review Round-up
+
+A few more iPad Pro and Apple Pencil opinions and early impressions from around the web.
+
+<blockquote>
+  <p>&ldquo;&hellip;The precision of the stylus is as good as it can get, with pixel-level accuracy. I never felt like there was any kind of stair-stepping or odd interpolation of my input.&rdquo;</p>
+  <p><cite><a href="http://www.anandtech.com/show/9622/hands-on-with-the-ipad-pro-and-ipad-mini-4">Joshua Ho</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>&ldquo;The Apple Pencil felt like a pencil: The weight and size is just right, and it doesn&rsquo;t glide too fast over glass like current plastic-tipped third party styluses. It had a little drag, just like you experience with paper.&rdquo;</p>
+  <p><cite><a href="http://www.imore.com/ipad-pro-hands-preview">Rene Ritchie</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>&ldquo;In terms of friction on the glass, the Apple Pencil feels right, with a level of friction that approximates writing with a pen or pencil on paper.&rdquo;</p>
+  <p><cite><a href="http://www.anandtech.com/show/9622/hands-on-with-the-ipad-pro-and-ipad-mini-4">Joshua Ho</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>&ldquo;&hellip;barely any latency so you actually feel like the pencil is leaving ink and can see the outcome of your drawing as its happening.&rdquo;</p>
+  <p><cite><a href="http://www.lindadong.com/blog//apple-pencil-vs-wacom-cintiq">Linda Dong</a></cite></p>
+</blockquote>
+
+<blockquote>
+  <p>&ldquo;It also felt fast, unlike some styluses that suffer from latency issues.&rdquo;</p>
+  <p><cite><a href="http://www.theverge.com/2015/9/9/9290361/hands-on-with-apples-new-ipad-pro">Laura Goode</a></cite></p>
+</blockquote>
+
+---
+
+After all this I still don't know if I'm any closer to making a decision. iPad Pro and Apple Pencil on launch day this November? Or save my money, wait for someone else to be the guinea pig, and hope the technology makes it way down to smaller and cheaper form factors.
+
+The big question mark left in my mind is the tip. Is that the sort of thing that will wear out like every other stylus I've owned? Hoping that answer is a big NO, but I guess we really won't know for sure until later this autumn.
