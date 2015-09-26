@@ -49,10 +49,9 @@ del a {
 /* Blockquotes */
 
 blockquote {
-  margin: 2em -1em 2em -1.25em;
+  margin: 2em 1em;
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 1.25rem;
   font-style: italic;
   border-left: 0.25em solid $highlighter-color;
   a {
@@ -60,7 +59,7 @@ blockquote {
   }
   cite {
     font-family: $sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-style: normal;
     &:before {
       content: "— ";
