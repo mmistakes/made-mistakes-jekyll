@@ -26,6 +26,6 @@
   {% endfor %}
 
   {% if post.excerpt and post.excerpt != empty %}
-    <summary>{{ post.excerpt | markdownify | strip_html | strip_newlines | xml_escape }}</summary>
+    <summary type="text">{{ post.excerpt | markdownify | strip_html | strip_newlines | xml_escape }}</summary>
   {% endif %}
 </entry>
