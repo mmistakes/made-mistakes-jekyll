@@ -30,9 +30,15 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
 
 So what does this all have to do with *made mistakes* and why did you name your website that? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
-In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, Javascript, PHP, and MySQL databases.
+In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
 I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
+
+## Contact
+
+Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires...
+
+<div markdown="0"><a href="{{ site.url }}/contact/" class="btn">Message Me</a></div>
 
 ## Selected Interviews
 
@@ -43,7 +49,3 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 
 * [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 * [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
-
-## Contact Me
-
-Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires --- [hit up my contact page]({{ site.url }}/contact/).
