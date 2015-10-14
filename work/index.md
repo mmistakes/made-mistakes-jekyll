@@ -5,12 +5,10 @@ date: 2014-06-02T15:05:16-04:00
 modified: 2014-12-04T15:49:58-05:00
 excerpt: "A selection of things I’ve designed, illustrated, or developed."
 ads: false
+fullwidth: true
+tiles: true
 feature:
-  visible: true
+  visible: false
   headline: "Featured Work"
   category: work
 ---
-
-{% for post in site.categories.work %}
-  {% include archive__item.html %}
-{% endfor %}

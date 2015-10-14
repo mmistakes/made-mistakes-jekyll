@@ -2,194 +2,86 @@
    TILES
    ========================================================================== */
 
-/*
-   Tile content
-   ========================================================================== */
-
-.tile {
-  position: relative;
-  float: left;
-  width: 100%;
-  @include breakpoint($small) {
-    width: 50%;
-  }
-  @include breakpoint($medium) {
-    width: 33.33333333333333%;
+.tile__header {
+  margin-top: 2em;
+  text-align: center;
+  /* lines in headline */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &:before,
+  &:after {
+    content: '\a0';
+    position: relative;
+    top: 0.7em;
+    height: 4px;
+    flex-grow: 1;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
   }
   &:before {
-    content: "";
-    display: block;
-    padding-top: 75%;
+    margin-right: 10px;
   }
+  &:after {
+    margin-left: 10px;
+  }
+}
 
-  &.t1 {
-    @include breakpoint($medium) {
-      width: 66.66666666666667%;
-    }
+.tile {
+  display: flex;
+  margin: 0 -1vw 3em -1vw;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 4px double $light-gray;
+  @media (min-width: $small) {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-  &.t2,
-  &.t3 {
-    @include breakpoint($medium) {
-      width: 33.33333333333333%;
-    }
-  }
-  &.t4,
-  &.t5 {
-    @include breakpoint($medium) {
-      width: 50%;
-    }
-  }
+}
 
-  .tile-inner {
-    position: absolute;
-    top: 0.5em;
-    right: 0.5em;
-    bottom: 0.5em;
-    left: 0.5em;
-    background-color: #333;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .tile-cover {
-    display: block;
+.tile__item {
+  flex: 1;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-bottom: 2em;
+  img {
     width: 100%;
-    height: 100%;
-    text-decoration: none;
-    // background-image: linear-gradient(200deg, rgba($black, 0.0823529) 0%, rgba($black, 0.0823529) 10%, rgba($black, 0.0823529) 20%, rgba($black, 0.0823529) 30%, rgba($black, 0.0901961) 40%, rgba($black, 0.215686) 50%, rgba($black, 0.423529) 60%, rgba($black, 0.631373) 70%, rgba($black, 0.760784) 80%, rgba($black, 0.823529) 90%, rgba($black, 0.847059) 100%);
-    -webkit-backface-visibility: hidden;
-    overflow: hidden;
-    transition: 0.2s ease-out;
+    margin: 0.25em 0;
+  }
+  @media (min-width: $small) {
+    flex: auto;
+    width: 300px;
+    // &:first-child {
+    //   margin-right: 1em;
+    // }
+    // &:last-child {
+    //   margin-left: 1em;
+    // }
+  }
+  &:hover {
+    img {
+      box-shadow: 0 0 10px rgba(#000, 0.2);
+    }
+  }
+}
+
+.tile__category {
+  font-family: $sans-serif;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  color: $gray;
+  &:before {
+    content: '\2192'; // right arrow
+    padding-right: 5px;
+  }
+}
+
+.tile__title {
+  margin: 0.25em 0;
+  font-weight: normal;
+  a {
     &:hover {
-      background-color: $black;
-      box-shadow: 0 0 10px rgba($black, 0.20);
-      .tile-info {
-        opacity: 1;
-      }
+      color: #000;
     }
-  }
-
-  .tile-info {
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 1em;
-    transition: 0.2s ease-out;
-    /* center text vertically in div */
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    opacity: 0; // hide at load
-  }
-
-  .tile-meta {
-    margin-top: 0;
-    font-family: $alt-font;
-    @include font-size(14, no);
-    color: $white;
-    text-shadow: 1px 1px 0 $black;
-    display: none;
-  }
-
-  .tile-title {
-    font-family: $heading-font-title;
-    @include font-size(16, no);
-    font-weight: 500;
-    margin-top: 0;
-    color: $white;
-    text-shadow: 1px 1px 0 $black;
-    @include breakpoint($large) {
-      @include font-size(20, no);
-    }
-    a {
-      text-decoration: none;
-      color: $white;
-    }
-  }
-
-  .tile-excerpt {
-    font-family: $alt-font;
-    @include font-size(14, no, 16);
-    margin: 6px auto;
-    max-width: 320px;
-    color: $white;
-  }
-}
-
-/* touch devices */
-.touch {
-  .tile {
-    .tile-info {
-      top: initial;
-      bottom: 0;
-      text-align: initial;
-      background: $black;
-      opacity: 1;
-      -webkit-transform: initial;
-      -ms-transform: initial;
-      transform: initial;
-    }
-    .tile-excerpt {
-      display: none;
-    }
-  }
-}
-
-
-/*
-   Tiles container 3/4 width (used with sidebar layout)
-   ========================================================================== */
-
-.tiles-right {
-  @include breakpoint($small) {
-    float: right;
-    width: 75%;
-  }
-}
-
-/*
-   Related posts (show 2 tiles)
-   ========================================================================== */
-
-.related-posts {
-  @include layout($article);
-  @include span(14);
-  @include pre(1);
-  @include break;
-  @include breakpoint($small) {
-    @include span(10);
-    @include pre(5);
-    @include post(1);
-    clear: left;
-  }
-  @include breakpoint($medium) {
-    @include pre(4);
-    @include post(2);
-  }
-
-  .tile {
-    @include breakpoint($small) {
-      @include gallery(4.5 of 9);
-    }
-  }
-
-  .post-title {
-    text-align: center;
-  }
-
-  .post-excerpt,
-  .entry-date {
-    display: none;
-  }
-
-  h3 {
-    @include font-size(24);
-    @include breakpoint($small) {
-      @include font-size(28);
-    }
-    text-align: center;
   }
 }

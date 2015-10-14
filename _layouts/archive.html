@@ -39,6 +39,10 @@ layout: default
 
   </div>
 
+  {% if page.tiles == true %}
+    {% include archive__tiles.html %}
+  {% endif %}
+
 </div>
 
 {% include colophon.html %}

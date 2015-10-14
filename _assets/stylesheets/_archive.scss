@@ -9,15 +9,18 @@
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid $light-gray;
+  /* hover state */
+  &:hover {
+    .archive__item-title,
+    .archive__item-excerpt {
+      color: #000;
+    }
+  }
 }
 
 .archive__item-body {
   flex: 3;
   padding-right: 1em;
-}
-// hover state
-.archive__item:hover .archive__item-body {
-  transform: translateX(1em);
 }
 
 h1.archive__item-title {

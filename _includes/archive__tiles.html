@@ -1,8 +1,7 @@
 <div class="container">
-  <h3 class="tile__header">{% if page.feature.headline %}{{ page.feature.headline }}{% else %}Featured Posts{% endif %}</h3>
   <div class="tile">
-    {% assign features = site.categories[page.feature.category] | where:"featured", true %}
-    {% for post in features limit:3 %}
+    {% assign tiles = site.categories[page.feature.category] %}
+    {% for post in tiles %}
       <article class="tile__item">
         <a href="{{ site.url }}{{ post.url }}">
           <img src="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" alt="{{ post.title }}">
