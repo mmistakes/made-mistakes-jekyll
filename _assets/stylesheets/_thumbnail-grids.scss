@@ -19,12 +19,14 @@
   display: flex;
   padding-left: 0; // reset
   flex-wrap: wrap;
+
   li {
     list-style: none;
     flex: auto;
-    margin: 0.5vw;
+    margin: 0.5vw !important; // override
     width: 100px;
   }
+
   a {
     border-bottom-width: 0 !important; // override
     img {
@@ -36,6 +38,7 @@
       }
     }
   }
+
   img {
     width: 100%;
     height: auto;
