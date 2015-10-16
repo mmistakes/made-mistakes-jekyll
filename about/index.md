@@ -40,7 +40,7 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 1. Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds]({{ site.url }}/subscribe/).
 2. Buy anything at Amazon using [this link](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission[^affiliate]. 
-3. Send a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4)or [Square Cash](https://cash.me/$mmistakes).
+3. Send a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4) or [Square Cash](https://cash.me/$mmistakes).
 
 [^affiliate]: Anything I link to on Amazon may be done with [affiliate URLs]({{ site.url }}/terms/).
 
