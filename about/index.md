@@ -2,7 +2,7 @@
 layout: article
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2015-10-16T11:04:49-04:00
+modified: 2015-10-16T16:32:58-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo, New York."
 image:
   feature: about-michael-collage.jpg
@@ -33,6 +33,16 @@ So what does this all have to do with *made mistakes* and why did you name your 
 In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
 I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
+
+## How to Support Made Mistakes
+
+I write tutorials and maintain a few open source projects for fun. If you've found any of them useful and want to thank me, here's a few ways you can.
+
+1. Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds]({{ site.url }}/subscribe/).
+2. Buy anything at Amazon using [this link](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission[^affiliate]. 
+3. Send a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4)or [Square Cash](https://cash.me/$mmistakes).
+
+[^affiliate]: Anything I link to on Amazon may be done with [affiliate URLs]({{ site.url }}/terms/).
 
 ## Selected Interviews
 
