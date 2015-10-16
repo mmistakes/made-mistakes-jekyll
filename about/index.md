@@ -2,7 +2,7 @@
 layout: article
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2015-08-31T16:07:06-04:00
+modified: 2015-10-16T11:04:49-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo, New York."
 image:
   feature: about-michael-collage.jpg
@@ -34,12 +34,6 @@ In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash spl
 
 I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
-## Contact
-
-Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires...
-
-<div markdown="0"><a href="{{ site.url }}/contact/" class="btn">Message Me</a></div>
-
 ## Selected Interviews
 
 * [**The Story of PaperFaces**](http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
@@ -49,3 +43,11 @@ Have more questions? If they're related to creating art on an iPad I've likely a
 
 * [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 * [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
+
+---
+
+## Contact
+
+Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires...
+
+<div markdown="0"><a href="{{ site.url }}/contact/" class="btn"><svg><use xlink:href="#icon-comments"></use></svg> Message Me</a></div>
