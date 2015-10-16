@@ -2,14 +2,14 @@
 layout: article
 title: "Contact Michael Rose"
 date: 2015-05-22
-modified: 
+modified: 2015-10-16T16:07:20-04:00
 excerpt: "All of the ways you can get in touch with me online."
 ads: false
 share: false
 author: false
 ---
 
-Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact avenue. I can also be found on several other social networks if you want to befriend or reach out to me there.
+Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and follow me there.
 
 For anything longer please fill out the form below and I'll get back to you by email. 
 

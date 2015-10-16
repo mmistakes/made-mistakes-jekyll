@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /paperfaces/
-title: "PaperFaces Project"
+title: "PaperFaces iPad Project"
 subtitle: "Gallery of portraits drawn with Paper by FiftyThree."
 excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."
 modified: 2015-01-23
