@@ -60,13 +60,13 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
-  // @include breakpoint($small) {
-  //   width: calc(100% - 140px);
-  // }
   @include breakpoint($medium-wide) {
-    width: calc(100% - 340px);
+    width: calc(100% - 200px);
   }
   @include breakpoint($large) {
+    width: calc(100% - 240px);
+  }
+  @media (min-width: 1025px) {
     width: calc(100% - 380px);
   }
 }
@@ -330,26 +330,20 @@
    ========================================================================== */
 
 .post__sidebar {
-  order: -1;
   width: 100%;
-  // @include breakpoint($small) {
-  //   order: 0;
-  //   margin-left: 20px;
-  //   width: 120px;
-  // }
   @include breakpoint($medium-wide) {
-    order: 0;
-    margin-left: 40px;
+    margin-left: 80px;
+    width: 160px;
+  }
+  @media (min-width: 1025px) {
+    margin-left: 80px;
     width: 300px;
   }
-  @include breakpoint($large) {
-    margin-left: 80px;
+  .js-toc {
+    @media (max-width: 1025px) {
+      display: none !important; // override
+    }
   }
-  // .js-toc {
-  //   @media (min-width: $small) and (max-width: $medium) {
-  //     display: none;
-  //   }
-  // }
 }
 
 /* ads */
@@ -359,7 +353,7 @@
   text-align: center;
   @media (max-width: 320px) {
     position: relative;
-    left: -10px;
+    left: -15px;
   }
   @media (min-width: 320px) {
     margin-left: auto;
