@@ -4,12 +4,10 @@
 
 .tile__header {
   margin-top: 2em;
-  text-align: center;
   /* lines in headline */
   display: flex;
   flex-direction: row;
   justify-content: center;
-  &:before,
   &:after {
     content: '\a0';
     position: relative;
@@ -18,9 +16,6 @@
     flex-grow: 1;
     border-top: 1px solid $light-gray;
     border-bottom: 1px solid $light-gray;
-  }
-  &:before {
-    margin-right: 10px;
   }
   &:after {
     margin-left: 10px;

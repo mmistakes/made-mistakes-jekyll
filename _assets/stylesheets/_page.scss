@@ -176,12 +176,12 @@
   font-size: 1.25rem;
   font-weight: normal;
   margin-top: 0;
-  @include breakpoint($medium-wide) {
-    width: calc(100% - 340px);
-  }
-  @include breakpoint($large) {
-    width: calc(100% - 380px);
-  }
+  // @include breakpoint($medium-wide) {
+  //   width: calc(100% - 340px);
+  // }
+  // @include breakpoint($large) {
+  //   width: calc(100% - 380px);
+  // }
 }
 
 .breadcrumbs {
@@ -231,12 +231,6 @@
   display: block;
   order: -1;
   margin-right: 1em;
-}
-
-/* comments */
-
-.post__comments {
-  order: 1;
 }
 
 /* meta info */
@@ -291,8 +285,8 @@
 
 /* taxonomy */
 
-.post__taxonomy-wrapper {
-  display: block;
+.post__taxonomy {
+  font-size: 0.8rem;
 }
 
 .post__taxonomy-item {
