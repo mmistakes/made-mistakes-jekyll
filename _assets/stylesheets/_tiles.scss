@@ -22,7 +22,7 @@
   }
 }
 
-.tile {
+.tiles {
   display: flex;
   margin: 0 -1vw 3em -1vw;
   flex-direction: column;
@@ -44,14 +44,7 @@
     margin: 0.25em 0;
   }
   @media (min-width: $small) {
-    flex: auto;
-    width: 300px;
-    // &:first-child {
-    //   margin-right: 1em;
-    // }
-    // &:last-child {
-    //   margin-left: 1em;
-    // }
+    min-width: 25%;
   }
   &:hover {
     img {

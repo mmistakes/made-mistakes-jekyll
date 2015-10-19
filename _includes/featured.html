@@ -1,6 +1,6 @@
 <div class="container">
   <h3 class="tile__header">{% if page.feature.headline %}{{ page.feature.headline }}{% else %}Featured Posts{% endif %}</h3>
-  <div class="tile">
+  <div class="tiles">
     {% assign features = site.categories[page.feature.category] | where:"featured", true %}
     {% for post in features limit:3 %}
       <article class="tile__item">

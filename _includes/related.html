@@ -1,6 +1,6 @@
 <div class="container">
   <h3 class="tile__header">You May Also Enjoy</h3>
-  <div class="tile">
+  <div class="tiles">
     {% for post in site.related_posts limit:3 %}
       <article class="tile__item">
         <a href="{{ site.url }}{{ post.url }}">
