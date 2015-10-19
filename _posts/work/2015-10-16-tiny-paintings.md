@@ -7,6 +7,7 @@ excerpt: "Gallery of mini watercolor portraits painted at really small sizes."
 modified:
 image: 
   teaser: tiny-paintings-teaser.jpg
+  thumb: tiny-paintings-150.jpg
 category: work
 tags: [watercolor, painting, drawing, portrait, illustration]
 fullwidth: true
