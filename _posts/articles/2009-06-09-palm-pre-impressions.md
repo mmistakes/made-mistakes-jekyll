@@ -2,10 +2,11 @@
 layout: article
 title: "The iPhone is Great, but the Palm Pre Better Fits My Style"
 excerpt: "Quick impressions of the Palm Pre from a long time smartphone user."
-modified: 2013-05-03 00:00:00
+modified: 2015-10-19T14:22:26-04:00
 category: articles
 image: 
   teaser: palm-pre-teaser.jpg
+  thumb: palm-pre-th.jpg
 tags: [palm pre, iphone, tech geek, review]
 ---
 

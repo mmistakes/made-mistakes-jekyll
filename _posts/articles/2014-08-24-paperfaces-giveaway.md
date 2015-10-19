@@ -1,14 +1,14 @@
 ---
 layout: article
 title: "Win a Digital Drawing #MadeWithPaper Giveaway"
-modified: 2014-09-10T11:17:29-04:00
+modified: 2015-10-19T14:21:23-04:00
 excerpt: "Enter to win a portrait of your choice drawn by Michael Rose in his signature PaperFaces style."
 category: articles
 tags: [drawing, illustration, paper by 53, ipad]
 image:
   feature: paperfaces-contest-lg.jpg
   teaser: paperfaces-contest-teaser.jpg
-  thumb:
+  thumb: paperfaces-contest-th.jpg
 comments: true
 ---
 

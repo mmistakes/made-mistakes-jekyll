@@ -8,7 +8,7 @@ modified: 2015-01-31
 image: 
   feature: so-simple-theme-feature-2015.png
   teaser: so-simple-theme-teaser-2015.png
-  thumb: so-simple-250x250.png
+  thumb: so-simple-theme-th-2015.png
 category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"

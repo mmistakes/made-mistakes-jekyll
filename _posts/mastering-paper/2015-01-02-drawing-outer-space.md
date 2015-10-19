@@ -8,6 +8,7 @@ tags: [paper by 53, tutorial, space, blend, pencil, stylus, ipad]
 image:
   feature: paper-53-space-feature.jpg
   teaser: paper-53-space-teaser.jpg
+  thumb: paper-53-space-th.jpg
 comments: true
 ---
 

@@ -7,6 +7,7 @@ excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring 
 tags: [paper by 53, mix, ipad]
 image:
   teaser: paper-53-mix-heart-teaser.jpg
+  thumb: paper-53-mix-heart-th.jpg
 comments: true
 ---
 

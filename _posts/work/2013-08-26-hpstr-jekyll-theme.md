@@ -5,7 +5,7 @@ excerpt: "A responsive Jekyll blog theme designed to give your site a modern and
 image: 
   feature: hpstr-preview-feature-2015.png
   teaser: hpstr-preview-teaser-2015.png
-  thumb: hpstr-250x250.png
+  thumb: hpstr-preview-th-2015.png
 category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"

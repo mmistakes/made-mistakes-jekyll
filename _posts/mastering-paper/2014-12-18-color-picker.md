@@ -8,6 +8,7 @@ tags: [paper by 53, color theory, tutorial, ipad]
 image:
   feature: paper-53-color-picker-feature.jpg
   teaser: paper-53-color-picker-teaser.jpg
+  thumb: paper-53-color-picker-th.jpg
 comments: true
 ---
 

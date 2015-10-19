@@ -116,7 +116,7 @@
   /* cleaner underlines for links */
   p > a {
     // color: inherit;
-    border-bottom: 2px solid $highlighter-color;
+    border-bottom: 2px solid $link-underline-color;
     // transition: border 0.4s ease-in-out;
     &:hover {
       color: #000;
@@ -127,7 +127,7 @@
   td > a,
   small a {
     color: inherit;
-    border-bottom: 1px solid $light-gray;
+    border-bottom: 1px solid $link-underline-color;
     &:hover {
       color: #000;
       border-bottom-color: $text-color;

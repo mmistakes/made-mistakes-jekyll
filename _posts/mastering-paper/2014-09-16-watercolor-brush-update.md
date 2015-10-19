@@ -8,6 +8,7 @@ tags: [paper by 53, tutorial, painting, ipad]
 image:
   feature: paper-53-watercolor-brush-feature.jpg
   teaser: paper-53-watercolor-brush-teaser.jpg
+  thumb: paper-53-watercolor-brush-th.jpg
 comments: true
 ---
 
