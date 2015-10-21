@@ -71,7 +71,7 @@
   }
   a {
     color: #999;
-    border-bottom: 1px dotted #999;
+    border-bottom: 1px solid $light-gray;
     &:hover {
       border-bottom-style: solid;
     }
