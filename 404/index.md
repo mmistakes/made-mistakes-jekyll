@@ -9,9 +9,19 @@ image:
 ads: false
 share: false
 sitemap: false
+author: false
 ---
 
-Sorry, but the page you were trying to view moved or does not exist --- perhaps you can [find it here]({{ site.url }}/articles/ "Posts & Diatribes").
+Sorry, but the page you were trying to view has moved or does not exist --- perhaps you can [find it here]({{ site.url }}/sitemap/ "Sitemap of Made Mistakes").
+
+### Featured Posts
+
+<ul>
+{% assign features = site.posts | where:"featured", true %}
+{% for post in features limit:5 %}
+  <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';
