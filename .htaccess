@@ -246,10 +246,12 @@ AddDefaultCharset utf-8
 
 # Block access to hidden files and directories.
 # This includes directories used by version control systems such as Git and SVN.
+# But keep the .well-known folder: https://tools.ietf.org/html/rfc5785
 
 <IfModule mod_rewrite.c>
     RewriteCond %{SCRIPT_FILENAME} -d [OR]
     RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteCond %{REQUEST_URI} !^/\.well-known/
     RewriteRule "(^|/)\." - [F]
 </IfModule>
 
