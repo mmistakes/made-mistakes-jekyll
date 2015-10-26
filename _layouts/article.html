@@ -20,6 +20,10 @@ layout: default
       {% include page__hero.html %}
     {% endif %}
 
+    {% if page.feature.visible == true %}
+      {% include featured.html %}
+    {% endif %}
+
     <div class="container post__content">
 
       <div class="post__inner-wrapper">
