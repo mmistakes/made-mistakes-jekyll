@@ -386,6 +386,7 @@ FileETag None
 
   # Web fonts
     ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/font-woff2                "access plus 1 month"
     ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
     ExpiresByType application/x-font-ttf                "access plus 1 month"
     ExpiresByType font/opentype                         "access plus 1 month"
