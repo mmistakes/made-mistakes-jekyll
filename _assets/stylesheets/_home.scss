@@ -87,3 +87,19 @@
     }
   }
 }
+
+.home__secondary {
+  margin-top: 3em;
+  font-size: 0.9rem;
+  color: $lighter-gray;
+  a {
+    color: $lighter-gray;
+    &:hover {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+    }
+  }
+  .sep {
+    margin: 0 0.5em;
+  }
+}

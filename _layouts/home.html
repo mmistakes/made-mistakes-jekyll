@@ -9,9 +9,14 @@ layout: default
     {{ content }}
 
     <div class="home__primary">
-      <a href="{{ site.url }}/about/" class="btn btn--light-outline">About</a>
       {% for link in site.data.navigation-menu %}
         <a href="{{ site.url }}{{ link.url }}" class="btn btn--light-outline">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="home__secondary">
+      {% for link in site.data.home-secondary %}
+        <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> {% unless forloop.last %}<span class="sep">&bull;</span>{% endunless %}
       {% endfor %}
     </div>
 
