@@ -13,8 +13,6 @@
         {% endif %}
         {% if post.work %}
           <span class="tile__category">{{ post.work }}</span>
-        {% else %}
-          <span class="tile__category"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
         {% endif %}
       </article>
     {% endfor %}
