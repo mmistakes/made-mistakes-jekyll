@@ -8,8 +8,8 @@ layout: default
 <div id="main" role="main">
 
   <header class="container post__header">
-    <h1 class="post__title">Archive for {{ page.date | date: "%Y" }}</h1>
-    <h2 class="post__excerpt">Posts from the year {{ page.date | date: "%Y" }}.</h2>
+    <h1 class="post__title">{{ page.date | date: "%Y" }}</h1>
+    <h2 class="post__excerpt">Archive of posts from the year {{ page.date | date: "%Y" }}.</h2>
   </header>
 
   {% if page.image.feature %}

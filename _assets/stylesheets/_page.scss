@@ -293,6 +293,7 @@
   font-family: $sans-serif;
   font-weight: bold;
   color: $text-color;
+  white-space: nowrap;
 }
 
 /* tag boxes */
@@ -301,28 +302,23 @@
   margin: 0;
   padding: 0;
   li {
-    display: inline-block;
-    margin-bottom: 8px;
+    display: inline;
     list-style-type: none;
     font-size: 0.8rem;
+    white-space: nowrap;
   }
 }
 
 .tag__item {
-    padding: 4px 6px;
-    margin-right: 2px;
-    text-decoration: none;
-    color: $gray;
-    font-family: $sans-serif;
-    background-color: mix(#fff, #000, 95%);
-    border-radius: $border-radius;
-    border-bottom-width: 0 !important; // override
-    box-shadow: none !important; // override
-    span {
-      vertical-align: super;
-      font-size: 0.512rem;
-    }
-  }
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.125em;
+  text-decoration: none;
+  color: $gray;
+  font-family: $sans-serif;
+  border-bottom-width: 0 !important; // override
+  box-shadow: none !important; // override
+}
 
 
 /*
