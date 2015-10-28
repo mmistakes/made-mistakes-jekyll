@@ -7,17 +7,19 @@
         {% else %}
         <h1 class="archive__item-title">{{ post.title }}</h1>
       {% endif %}
+      <div class="archive__item-meta">
+        {% if post.work %}
+          {{ post.work }}
+        {% else %}
+          <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        {% endif %}
+      </div>
       <p class="archive__item-excerpt">{{ post.excerpt }}</p>
     </div>
 
-    <div class="archive__item-meta">
+    <div class="archive__item-thumb">
       {% if post.image.thumb %}
-        <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="" class="archive__item-thumb">
-      {% endif %}
-      {% if post.work %}
-        {{ post.work }}
-      {% else %}
-        <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="">
       {% endif %}
     </div>
 

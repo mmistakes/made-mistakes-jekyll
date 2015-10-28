@@ -14,7 +14,7 @@
     .archive__item-excerpt {
       color: #000;
     }
-    .archive__item-thumb {
+    .archive__item-thumb img {
       border-color: #000;
     }
   }
@@ -31,36 +31,37 @@ h1.archive__item-title {
   font-size: 1.25rem;
 }
 
+.archive__item-meta {
+  font-family: $sans-serif;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  color: $text-color;
+}
+
 .archive__item-excerpt {
   margin: 0.5em 0 0;
   padding: 0;
   color: $text-color;
 }
 
-.archive__item-meta {
+.archive__item-thumb {
   display: none;
   @include breakpoint($small) {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex: 1;
-    min-height: 85px;
-    text-align: right;
-    font-family: $sans-serif;
-    font-size: 0.64rem;
-    text-transform: uppercase;
-    color: $text-color;
+    min-height: 125px;
   }
-}
-
-.archive__item-thumb {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60px;
-  height: 60px;
-  padding: 2px;
-  border: 1px solid $light-gray;
-  border-radius: 50%;
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 125px;
+    height: 125px;
+    padding: 2px;
+    border: 1px solid $light-gray;
+    border-radius: $border-radius;
+  }
 }
