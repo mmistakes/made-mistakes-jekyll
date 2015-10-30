@@ -4,6 +4,9 @@
 
 .tile__header {
   margin-top: 2em;
+  font-family: $sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
   /* lines in headline */
   display: flex;
   flex-direction: row;
@@ -11,7 +14,7 @@
   &:after {
     content: '\a0';
     position: relative;
-    top: 0.7em;
+    top: calc(0.4rem + 2px);
     height: 4px;
     flex-grow: 1;
     border-top: 1px solid $light-gray;
