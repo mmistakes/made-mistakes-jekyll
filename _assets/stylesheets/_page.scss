@@ -84,13 +84,13 @@
     // color: $headline-color;
     font-family: $serif;
     font-weight: normal;
-    line-height: 1.5rem;
     a {
       color: $headline-color;
     }
   }
 
   h2 {
+    margin-top: 3rem;
     font-size: 1.563rem;
   }
 
@@ -116,7 +116,7 @@
   /* cleaner underlines for links */
   p > a {
     // color: inherit;
-    border-bottom: 2px solid $link-underline-color;
+    border-bottom: 1px solid $link-underline-color;
     // transition: border 0.4s ease-in-out;
     &:hover {
       color: #000;
@@ -213,7 +213,7 @@
   font-weight: normal;
   &--bold {
     display: block;
-    font-size: 150%;
+    font-size: 1rem;
     font-family: $sans-serif;
     font-weight: bold;
     font-style: normal;
