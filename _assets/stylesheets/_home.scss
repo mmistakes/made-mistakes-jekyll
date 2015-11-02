@@ -8,6 +8,9 @@
   align-items: center;
   min-height: 100vh;
   background-color: #000;
+  .hidden {
+    display: none !important;
+  }
 }
 
 .home__content {
@@ -21,6 +24,7 @@
   font-family: $sans-serif;
   font-size: 1.25rem;
   font-weight: normal;
+  line-height: 1;
   text-transform: uppercase;
   letter-spacing: 4px;
   span {
