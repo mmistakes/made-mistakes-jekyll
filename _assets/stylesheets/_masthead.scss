@@ -33,6 +33,11 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
+  .is--hidden {
+    @media (max-width: $medium-wide) {
+      display: none;
+    }
+  }
 }
 
 .masthead__title {
@@ -51,7 +56,6 @@
 }
 .masthead__menu-item {
   display: block;
-  // margin: 0 10px;
   padding: 20px 0;
   font-size: 0.8rem;
   letter-spacing: 1px;
