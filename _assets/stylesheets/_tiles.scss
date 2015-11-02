@@ -45,13 +45,18 @@
   img {
     width: 100%;
     margin: 0.25em 0;
+    border: 1px solid $light-gray;
   }
   @media (min-width: $small) {
     width: 25%;
   }
   &:hover {
     img {
-      box-shadow: 0 0 10px rgba(#000, 0.2);
+      box-shadow: 0 0 10px rgba(#000, 0.5);
+    }
+    .tile__title {
+      color: #000;
+      text-decoration: underline;
     }
   }
 }
@@ -70,9 +75,4 @@
 .tile__title {
   margin: 0.25em 0 0;
   font-weight: normal;
-  a {
-    &:hover {
-      color: #000;
-    }
-  }
 }
