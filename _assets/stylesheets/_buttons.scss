@@ -22,6 +22,7 @@
   border: 0 !important;
   border-radius: $border-radius;
   text-transform: uppercase;
+  cursor: pointer;
   &:active {
     // move button slightly on click
     transform: translateY(1px);
