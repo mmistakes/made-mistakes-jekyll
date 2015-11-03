@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Made Mistakes
+title: "Made Mistakes"
 description: "Personal website of designer slash illustrator Michael Rose."
 logo: site-logo.png
 teaser: default-teaser.png
@@ -51,7 +51,7 @@ jekyll-archives:
 # Site owner
 
 owner:
-  name: Michael Rose
+  name: "Michael Rose"
   email: michael@mademistakes.com
   twitter: mmistakes
   facebook: michaelrose
