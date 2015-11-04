@@ -49,6 +49,47 @@ jekyll-archives:
     tag: /tag/:name/
 
 
+# Plugin: jekyll-picture-tag
+
+picture:
+  source: "images/_originals"
+  output: "images"
+  markup: "picture"
+  presets:
+    default:
+      ppi: [1]
+      source_720:
+        media: "(min-width: 1024px)"
+        width: "720"
+      source_680:
+        media: "(min-width: 736px)"
+        width: "680"
+      source_500:
+        media: "(min-width: 568px)"
+        width: "500"
+      source_default:
+        width: "350"
+    hero:
+      attr:
+        class: "page__hero-image"
+        itemprop: "image"
+      ppi: [1]
+      source_1600:
+        media: "(min-width: 1600px)"
+        width: "1600"
+      source_1024:
+        media: "(min-width: 1024px)"
+        width: "1024"
+      source_768:
+        media: "(min-width: 768px)"
+        width: "768"
+      source_600:
+        media: "(min-width: 600px)"
+        width: "600"
+      source_default:
+        width: "320"
+
+
 # Site owner
 
 owner:

@@ -1,4 +1,4 @@
 <div class="page__hero">
-  <img class="page__hero-image" src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}" itemprop="image">
+  {% picture hero {{ page.image.feature }} alt="{{ page.title }}" %}
   {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
 </div>
