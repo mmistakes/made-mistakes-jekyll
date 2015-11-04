@@ -22,7 +22,7 @@ Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesh
 
 To generate responsively sized images and necessary `<picture>` element markup use the `{% picture %}` tag. 
 
-Original images should be placed in `images/_originals` to be converted into various sizes specified in `_config.yml`. Make sure ImageMagick is properly install for the Jekyll picture-tag plugin to work properly. Download the [Windows install binary](http://www.imagemagick.org/script/binary-releases.php#windows) or for Max OS X run `brew install imagemagick`.
+Original images should be placed in `images/_originals` to be converted into various sizes specified in `_config.yml`. Make sure ImageMagick is installed for the Jekyll picture-tag plugin to work properly. Download the [Windows install binary](http://www.imagemagick.org/script/binary-releases.php#windows) or `brew install imagemagick` on Mac OS X.
 
 ### Local Development
 
