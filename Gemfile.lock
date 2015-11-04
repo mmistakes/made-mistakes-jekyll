@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
-    autoprefixer-rails (6.0.3)
+    autoprefixer-rails (5.1.11)
       execjs
       json
     blankslate (2.1.2.4)
@@ -41,9 +41,9 @@ GEM
       toml (~> 0.1.0)
     jekyll-archives (2.1.0)
       jekyll (>= 2.4)
-    jekyll-assets (1.0.0)
+    jekyll-assets (0.14.0)
       fastimage (~> 1.6)
-      jekyll (>= 2)
+      jekyll (~> 2.0)
       mini_magick (~> 4.1)
       sass (~> 3.2)
       sprockets (~> 2.10)
@@ -61,7 +61,7 @@ GEM
     json (1.8.3)
     kramdown (1.9.0)
     liquid (2.6.3)
-    listen (3.0.3)
+    listen (3.0.4)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
@@ -107,11 +107,11 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  autoprefixer-rails
+  autoprefixer-rails (= 5.1.11)
   breakpoint
   jekyll (= 2.5.3)
   jekyll-archives
-  jekyll-assets
+  jekyll-assets (= 0.14.0)
   jekyll-sitemap
   rouge
   sass
