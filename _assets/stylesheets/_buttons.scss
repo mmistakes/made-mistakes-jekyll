@@ -9,14 +9,13 @@
 .btn,
 #goog-wm-sb {
   /* default button */
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   padding: 10px 20px;
   color: #fff !important;
   font-family: $sans-serif;
   font-size: 0.8rem;
   font-weight: bold;
+  line-height: 1.5;
   text-align: center;
   background-color: #000;
   border: 0 !important;
@@ -44,7 +43,7 @@
   /* fills width of parent container */
 
   &--block {
-    display: flex;
+    display: block;
     width: 100%;
     + .btn--block {
       margin-top: 0.25em;
