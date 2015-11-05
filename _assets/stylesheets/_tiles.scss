@@ -49,6 +49,7 @@
   }
   @media (min-width: $small) {
     width: 25%;
+    max-width: 350px;
   }
   &:hover {
     img {
