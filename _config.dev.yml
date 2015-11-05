@@ -98,17 +98,17 @@ owner:
   github: mmistakes
   github-repo: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/
   google:
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 3049671934
-    analytics:
+    # ad-client: ca-pub-7328585512091257
+    # ad-slot: 3049671934
+    # analytics: UA-2011187-1
     plus: https://plus.google.com/+MichaelRoseDesign/posts
-    verify:
+    # verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
   bing:
-    verify:
+    # verify: D81F4C18A6CB3018F64D7C827D953DFD
   alexa:
-    verify:
+    # verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
   yandex:
-    verify:
+    # verify: 55a5419baf76a498
   bio: "Just another boring, tattooed, time traveling designer from Buffalo, New York. I enjoy eating chicken wings and sketching on an iPad."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname: mmistakes-dev
