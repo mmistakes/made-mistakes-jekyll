@@ -1,12 +1,11 @@
 <footer class="colophon" role="contentinfo">
   <nav class="container">
     <ul class="colophon__menu">
-      <li class="colophon__menu-label">Main Menu</li>
+      <li class="colophon__menu-item"><a href="#0" class="overlay__menu-trigger">Open Menu</a></li>
       <li class="colophon__menu-sep">→</li>
       {% for link in site.data.navigation-menu %}
         <li class="colophon__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
-      <li class="colophon__menu-item"><a href="#0" class="overlay__menu-trigger">•&nbsp;•&nbsp;•</a></li>
     </ul>
     <ul class="colophon__menu">
       <li class="colophon__menu-item--social"><a href="https://twitter.com/mmistakes"><svg><use xlink:href="#icon-twitter"></use></svg> Twitter</a></li>
