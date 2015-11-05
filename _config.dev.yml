@@ -55,16 +55,16 @@ picture:
     default:
       ppi: [1]
       source_720:
-        media: "(min-width: 1024px)"
+        media: "(min-width: 1200px)"
         width: "720"
-      source_680:
-        media: "(min-width: 736px)"
-        width: "680"
-      source_500:
-        media: "(min-width: 568px)"
-        width: "500"
+      source_670:
+        media: "(min-width: 768px)"
+        width: "670"
+      source_540:
+        media: "(min-width: 600px)"
+        width: "540"
       source_default:
-        width: "350"
+        width: "320"
     hero:
       attr:
         class: "page__hero-image"
