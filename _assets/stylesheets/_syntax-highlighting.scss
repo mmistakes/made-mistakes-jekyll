@@ -2,25 +2,14 @@
    SYNTAX HIGHLIGHTING
    ========================================================================== */
 
-.linenos,
-.code {
-  // padding: 0;
-  // border-top: 0 solid transparent;
-  // border-bottom: 0 solid transparent;
-}
-
 .highlight {
   overflow-x: auto;
-  // background: $code-background;
-  // border: 1px solid $code-border-color;
-  // border-radius: $code-border-radius;
+  @media (min-width: $small) and (max-width: $medium-wide) {
+    width: 550px;
+  }
   pre {
-  //   position: relative;
     margin: 0;
     padding-bottom: 1em;
-  // }
-  // &:hover {
-  //   border: 1px solid $code-border-color-hover;
   }
 }
 
