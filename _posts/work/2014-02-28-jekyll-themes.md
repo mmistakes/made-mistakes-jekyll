@@ -33,7 +33,7 @@ For more specifics, review each themes' documentation by clicking on the **Learn
 ## Skinny Bones
 
 <figure>
-	{% picture skinny-bones-preview-feature.png alt="Skinny Bones Jekyll theme %}
+	{% picture skinny-bones-preview-feature.png alt="Skinny Bones Jekyll theme" %}
 	<figcaption>Includes a fun off canvas menu</figcaption> 
 </figure>
 
@@ -57,7 +57,7 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 ## Minimal Mistakes
 
 <figure>
-	{% picture minimal-mistakes-theme-feature.png alt="Minimal Mistakes Jekyll theme %}
+	{% picture minimal-mistakes-theme-feature.png alt="Minimal Mistakes Jekyll theme" %}
 	<figcaption>A minimal design to let your content be the hero</figcaption>
 </figure>
 
@@ -102,7 +102,7 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 ## HPSTR
 
 <figure>
-	{% picture hpstr-preview-feature-2015.png alt="HPSTR feature image %}
+	{% picture hpstr-preview-feature-2015.png alt="HPSTR feature image" %}
 	<figcaption>A traditional blog approach with a modern style</figcaption>
 </figure>
 
