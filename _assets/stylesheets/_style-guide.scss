@@ -5,11 +5,9 @@
 .component {
   margin-bottom: 1em;
   background-color: $white;
-  @include breakpoint($small) {
-    padding: 1em;
-    border-radius: $border-radius;
-    border: 1px solid $border-color;
-  }
+  padding: 1em;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
 }
 
 .component__header {
@@ -29,12 +27,14 @@
   }
 }
 
-.component__content { }
-
 .component__rendered {
   &--color {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    @include breakpoint($medium) {
+      flex-wrap: nowrap;
+    }
   }
 }
 
@@ -116,32 +116,3 @@ $color:
     background-color: $bgcolor;
   }
 }
-
-/*
-   Component selector
-   ========================================================================== */
-
-// #component-selector {
-//   position: fixed;
-//   backface-visibility: hidden; // fix scroll jank
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   padding: 0.5em;
-//   width: 100%;
-//   z-index: 9;
-//   background: $primary-color;
-//   @include breakpoint($medium) {
-//     left: auto;
-//     width: auto;
-//   }
-// }
-
-// #component-select {
-//   margin: 0;
-//   width: 100%;
-//   @include breakpoint($medium) {
-//     width: auto;
-//   }
-//   font-family: $sans-serif;
-// }
