@@ -15,15 +15,19 @@
 </header>
 
 <nav class="overlay__menu">
-  <ul>
-    <li class="overlay__menu-label">Of Interest</li>
-    {% for link in site.data.navigation-primary %}
-      <li class="overlay__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}
-    <li class="overlay__menu-label">Everything Else</li>
-    {% for link in site.data.navigation-secondary %}
-      <li class="overlay__menu-item--secondary"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div class="overlay__menu-wrapper container">
+    <ul class="overlay__menu-col-1">
+      <li class="overlay__menu-label">Of Interest</li>
+      {% for link in site.data.navigation-primary %}
+        <li class="overlay__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul class="overlay__menu-col-2">
+      <li class="overlay__menu-label">Everything Else</li>
+      {% for link in site.data.navigation-secondary %}
+        <li class="overlay__menu-item--secondary"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
   <button class="overlay__menu-close btn">Close Menu</button>
 </nav>

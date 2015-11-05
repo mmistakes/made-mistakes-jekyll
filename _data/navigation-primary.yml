@@ -3,11 +3,14 @@
 - title: "About"
   url: /about/
 
-- title: "Mastering Paper by 53"
+- title: "Mastering Paper"
   url: /mastering-paper/
 
-- title: "PaperFaces Project"
+- title: "PaperFaces Portraits"
   url: /paperfaces/
 
 - title: "Jekyll Themes"
   url: /work/jekyll-themes/
+
+- title: "Contact"
+  url: /contact/

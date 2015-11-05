@@ -1,8 +1,5 @@
 # Secondary site navigation links (overlay)
 
-- title: "Contact"
-  url: /contact/
-
 - title: "FAQs"
   url: /faqs/
 
@@ -12,8 +9,8 @@
 - title: "Subscribe"
   url: /subscribe/
 
-- title: "Terms &amp; Privacy"
-  url: /terms/
-
 - title: "Style Guide"
   url: /style-guide/
+
+- title: "Terms &amp; Privacy"
+  url: /terms/
