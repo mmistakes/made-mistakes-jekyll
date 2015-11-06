@@ -44,5 +44,8 @@
   img {
     width: 100%;
     height: auto;
+    @include breakpoint($small) {
+      max-width: 250px;
+    }
   }
 }
