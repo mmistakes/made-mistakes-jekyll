@@ -6,7 +6,7 @@ subheadline: "Built for Jekyll"
 excerpt: "A simple and responsive Jekyll theme for words and photos by designer Michael Rose."
 modified: 2015-01-31
 image: 
-  feature: so-simple-theme-feature-2015.png
+  feature: so-simple-theme-feature-2015.jpg
   teaser: so-simple-theme-teaser-2015.png
   thumb: so-simple-theme-th-2015.png
 category: work
