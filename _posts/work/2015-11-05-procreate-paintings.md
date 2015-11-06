@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /procreate/
+permalink: /procreate-paintings/
 title: "Procreate Paintings"
 subtitle: "Gallery of portraits painted digitally with Procreate on an iPad."
 excerpt: "Gallery of portraits painted digitally with Procreate on an iPad."
@@ -17,7 +17,7 @@ work: "Illustration"
 ---
 
 <ul class="th-grid">
-{% for post in site.categories.procreate %}
+{% for post in site.categories.procreate-paintings %}
   <li style="width: 200px;">
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
       <img class="load" src="{{ site.url }}/images/preload-150.png" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="">

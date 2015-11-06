@@ -7,8 +7,8 @@ image:
   feature: mr-allan-procreate-lg.jpg
   teaser: mr-allan-procreate-teaser.jpg
   thumb: mr-allan-procreate-250.jpg
-category: procreate
-tags: [procreate, painting, drawing, portrait, illustration, sktchy]
+category: procreate-paintings
+tags: [procreate, painting, drawing, portrait, illustration, time lapse, sktchy]
 ---
 
 Portrait of Mr. Allan inspired by a [photograph on Sktchy](http://sktchy.com/OgixZC). Digitally painted with Procreate on an iPad Air 2. 
@@ -31,3 +31,5 @@ Where I struggled originally was applying the right customizations to my brushes
 </figure>
 
 Now if I can only figure out how to replicate the watercolor and pencil look I took for granted with Paper...
+
+{% include procreate-boilerplate.html %}
