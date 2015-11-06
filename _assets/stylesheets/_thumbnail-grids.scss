@@ -27,6 +27,9 @@
     flex: auto;
     margin: 0.5vw !important; // override
     width: 100px;
+    @include breakpoint($small) {
+      max-width: 250px;
+    }
   }
 
   a {
@@ -44,8 +47,5 @@
   img {
     width: 100%;
     height: auto;
-    @include breakpoint($small) {
-      max-width: 250px;
-    }
   }
 }
