@@ -15,4 +15,9 @@ Portrait of Jordan S. inspired by a [photograph on Sktchy](http://sktchy.com/BXA
 
 Not as muddy as some of my other Procreate paintings, but it still has that *oil* feel. I'm determined to make these tools behave more like watercolor, ink, and pencil.
 
+<figure>
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/vtlXSRvbXYg?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Time lapse video recorded within Procreate.</figcaption>
+</figure>
+
 {% include procreate-boilerplate.html %}
