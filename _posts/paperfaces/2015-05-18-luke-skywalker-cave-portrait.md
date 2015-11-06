@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;...I feel cold. Death.&#148;"
+title: "...I feel cold. Death."
 excerpt: "PaperFaces portrait Luke Skywalker and Darth Vader drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-luke-vader-cave-lg.jpg

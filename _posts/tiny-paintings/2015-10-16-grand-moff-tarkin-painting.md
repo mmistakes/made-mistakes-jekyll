@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;Charming to the last&#148;"
+title: "Charming to the last"
 excerpt: "Tiny portrait of a Grand Moff Tarkin painted with watercolor on hot press paper."
 modified: 
 image: 

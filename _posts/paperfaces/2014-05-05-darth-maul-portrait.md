@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;Die, Jedi, die!&#148;"
+title: "Die, Jedi, die!"
 excerpt: "PaperFaces portrait Darth Maul drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-darth-maul-lg.jpg

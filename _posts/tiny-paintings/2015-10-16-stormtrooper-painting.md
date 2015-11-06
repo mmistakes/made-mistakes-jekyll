@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;Close the Blast Doors&#148;"
+title: "Close the Blast Doors"
 excerpt: "Tiny portrait of a Star Wars Stormtrooper painted with watercolor on hot press paper."
 modified: 
 image: 

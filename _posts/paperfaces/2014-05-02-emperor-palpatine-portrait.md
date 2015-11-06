@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;And now, young Skywalker… you will die.&#148;"
+title: "And now, young Skywalker... you will die."
 excerpt: "PaperFaces portrait Emperor Palpatine drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-emperor-palpatine-lg.jpg

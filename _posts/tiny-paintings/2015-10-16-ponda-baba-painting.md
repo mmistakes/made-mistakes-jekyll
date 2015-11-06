@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;He doesn't like you&#148;"
+title: "He Doesn't Like You"
 excerpt: "Tiny portrait of Ponda Baba painted with watercolor on hot press paper."
 modified: 
 image: 

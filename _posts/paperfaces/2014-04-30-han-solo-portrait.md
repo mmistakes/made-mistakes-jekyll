@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;I know&#148;"
+title: "I know"
 excerpt: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-han-solo-leia-lg.jpg

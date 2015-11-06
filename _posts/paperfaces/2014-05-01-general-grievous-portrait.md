@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;Jedi scum&#148;"
+title: "Jedi scum"
 excerpt: "PaperFaces portrait General Grievous drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-general-grievous-lg.jpg

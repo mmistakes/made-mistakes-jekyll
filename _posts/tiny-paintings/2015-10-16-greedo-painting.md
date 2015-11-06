@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "&#147;Going somewhere, Solo?&#148;"
+title: "Going somewhere, Solo?"
 excerpt: "Tiny portrait of Greedo painted with watercolor on hot press paper."
 modified: 
 image: 
