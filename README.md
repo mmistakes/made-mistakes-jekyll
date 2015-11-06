@@ -20,9 +20,9 @@ Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesh
 
 [Made Mistakes](http://mademistakes.com) has a lot of image assets. `images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) to reduce the size of this repo.
 
-To generate responsively sized images and necessary `<picture>` element markup use the `{% picture %}` tag. 
+To generate responsively sized images and necessary `<picture>` element markup use the `{% picture %}` tag. These images should be placed in `images/_originals` along with a copy in `images`. The `_originals` will be converted into various sizes specified in `_config.yml` while the ones in `images` will remain untouched to be used in XML feeds, social sharing cards, etc. 
 
-Original images should be placed in `images/_originals` to be converted into various sizes specified in `_config.yml`. Make sure ImageMagick is installed for the Jekyll picture-tag plugin to work properly. Download the [Windows install binary](http://www.imagemagick.org/script/binary-releases.php#windows) or `brew install imagemagick` on Mac OS X.
+Make sure ImageMagick is installed for the Jekyll picture-tag plugin to work properly. Download the [Windows install binary](http://www.imagemagick.org/script/binary-releases.php#windows) or `brew install imagemagick` on Mac OS X.
 
 ### Local Development
 
