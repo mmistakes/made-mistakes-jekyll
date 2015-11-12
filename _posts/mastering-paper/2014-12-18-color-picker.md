@@ -10,6 +10,7 @@ image:
   teaser: paper-53-color-picker-teaser.jpg
   thumb: paper-53-color-picker-th.jpg
 comments: true
+featured: true
 ---
 
 Re-imagined zoom tool, *check*. Expressive paint and ink tools that react to the speed and angle of your strokes, *double check*. A familiar color picker to sample, match, and adjust hues --- *triple check*. Yes that's not a typo, Paper by FiftyThree finally has a color picker.
