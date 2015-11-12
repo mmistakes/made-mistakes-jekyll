@@ -134,33 +134,9 @@
     }
   }
 
-  // li + li {
-  //   margin-top: 0.5em;
-  // }
-
-  /* flush left-align lists elements */
-
   ul, ol {
-    display: table;
-    margin-left: 0;
-    padding-left: 0;
-    list-style: none;
-    border-collapse: collapse;
-    li {
-      display: table-row;
-    }
     li + li {
-      border-top: 0.5em solid transparent; // to fake vertical space between list elements
-    }
-  }
-
-  ul {
-    li {
-      &:before {
-        content: "\25a0"; // square bullet
-        display: table-cell;
-        padding-right: 1em;
-      }
+      margin-top: 0.5em;
     }
   }
 

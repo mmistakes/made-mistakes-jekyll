@@ -48,6 +48,7 @@ Whether I'm working on clouds, a landscape, or a face, I follow the same process
 3. Add detail with a pencil.
 4. Layer even more watercolor strokes over the pencil.
 5. Finish with the pencil to cleanup edges or apply highlights and shadows.
+{:.fl}
 
 ## Ghost the Face
 

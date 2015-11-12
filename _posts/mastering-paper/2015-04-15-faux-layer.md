@@ -38,6 +38,7 @@ There's two ways of getting this color into your Paper palette:
 
 1. Use the [Color Picker]({{ site.url }}{% post_url /mastering-paper/2014-12-18-color-picker %}) eyedropper to sample an empty spot on the canvas.
 2. Tap the small circle inside of the [Color Mixer]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer) and adjust the 3 sliders to have the following values (48/2/96).
+{:.fl}
 
 Whichever way you end up choosing I suggest you drag this newly mixed off-white color to an open slot in one of your palettes --- for safe keeping of course.
 

@@ -25,6 +25,7 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 *	Nice and thin. About half the size of my old iPod.
 *	All metal enclosure. Feels solid and well built.
 *	New interface. Splitting the menu in half and showing album art and photos fade by looks great. There was so much dead space with the old interface that this is a step in the right direction.
+{:.fl}
 
 ## The Cons
 
@@ -32,6 +33,7 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 *	The clock. WTF?!? After 20 seconds of inactivity the Now Playing screen goes away and you get this lame clock displaying the time and battery level. The only way I've been able to get rid of this "feature" is by turning the back light setting to *Always On*. Must be some energy saving feature Apple thought was necessary. Give me the option to turn this off please.
 *	Scroll wheel sensitivity seems off. Maybe I'm used to pre-click wheel iPod, but I have problems rating songs or moving through the menus accurately.
 *	Screen glare. When used in my car during the day I can barely see the screen. Not that big of a deal, but I'm glad I didn't get an iPod touch for this very reason. Would have been nearly impossible to navigate through songs since it has no hard buttons and I wouldn't be able to see the screen.
+{:.fl}
 
 ## Photo Gallery
 

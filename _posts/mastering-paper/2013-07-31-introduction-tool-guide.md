@@ -47,6 +47,7 @@ When describing these tools I will be using the following descriptors:
 * **Speed:** How does the speed of drawing affect a line's weight.
 * **Blending:** Are marks opaque[^opaque] or translucent and how many layers are needed to make a pure color[^pure-color].
 * **Sensitivity:** How are marks and line quality affected by the amount of pressure applied when using a Pogo Connect Smart Pen.
+{:.fl}
 
 ### Eraser {#eraser}
 
@@ -59,6 +60,7 @@ For handling cleanup duty, the eraser is very effective at defining edges and ma
 * **Speed:** Slow = thin. Fast = thick.
 * **Blending:** Completely opaque. One stroke erases down to the egg shell white colored background.
 * **Sensitivity:** Soft = thin. Hard = thick.
+{:.fl}
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-eraser-thick-thin.jpg" alt="Eraser line showing thin to thick">
@@ -86,6 +88,7 @@ The eraser removes everything --- including a background filled with color. A fo
 * **Speed:** Slow = thin. Fast = thick.
 * **Blending:** Almost fully opaque. Depending on the color it can take 2--3 layers to create a purely opaque color.
 * **Sensitivity:** Soft = thin. Hard = thick.
+{:.fl}
 
 ### Pencil (Sketch) {#pencil}
 
@@ -101,6 +104,7 @@ Shading power is amplified immensely when used with a fancy Bluetooth stylus wit
 * **Speed:** Slow = dark. Fast = light.
 * **Blending:** Semi-transparent --- takes many layers to create a purely opaque color.
 * **Sensitivity:** Soft = light. Hard = dark.
+{:.fl}
 
 ### Marker (Outline) {#marker}
 
@@ -125,6 +129,7 @@ When sharp shadows and values are desired in your illustrations, the marker tool
 * **Speed:** Slow = thick. Fast = thin.
 * **Blending**: Transparent, with the exception of white and black.
 * **Sensitivity**: Soft = thin. Hard = thick.
+{:.fl}
 
 ### Ink pen (Write) {#ink-pen}
 
@@ -139,6 +144,7 @@ Before I began using a Pogo Connect Smart Pen exclusively, I did all my letterin
 * **Speed:** The difference is barely noticeable. Moving slower will make a slightly thicker line.
 * **Blending:** Opaque.
 * **Sensitivity:** The difference is barely noticeable. Pressing harder will make a slightly thicker line.
+{:.fl}
 
 ### Watercolor brush (Color) {#watercolor-brush}
 

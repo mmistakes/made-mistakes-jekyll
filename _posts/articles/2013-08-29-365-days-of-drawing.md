@@ -25,6 +25,7 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 * Thank you to everyone who has followed me on [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and [Facebook](http://facebook.com/michaelrose).
 * Thank you for all the kind @replies, emails, comments, favorites, likes, and encouragement.
 * Thank you [FiftyThree]({{ site.url }}/paperfaces/fiftythree-portraits.html) for developing [the app that made all this possible](http://www.fiftythree.com/), fostering a [community of creators](http://madewithpaper.fiftythree.com/) who inspire me daily, and for supporting my project by featuring it in posts and tweets.
+{:.fl}
 
 <figure class="third">
 	<a href="{{ site.url }}{% post_url /paperfaces/2013-06-17-studioprisoner-portrait %}"><img src="{{ site.url }}/images/paperfaces-studioprisoner-twitter-600.jpg" alt="PaperFaces portrait of a horsehead"></a>
@@ -33,4 +34,4 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 	<figcaption>Some of my favorite portraits I've illustrated.</figcaption>
 </figure>
 
-Here's to another fun year of blank faces. And to the thousands of you still waiting for portraits… I'm working on them, really I am.
+Here's to another fun year of blank faces. And to the thousands of you still waiting for portraits... I'm working on them, really I am.

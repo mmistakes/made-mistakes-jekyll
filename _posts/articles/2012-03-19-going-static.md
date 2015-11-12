@@ -50,6 +50,7 @@ I eventually settled on Jekyll as my static-site generator of choice --- mostly 
 2.	Add a <abbr>YAML</abbr> Front Matter block to the top of these files to indicate which layout to use, the post's meta data, feature image, category, and tags.
 3.	Run `jekyll` from the <abbr title="Command line">CLI</abbr> to spit out the compiled site.
 4.	Deploy `/_site` to my web server using a rake task that minifies all .html files, rsyncs the changes, and pings Google and Bing notifying them that `sitemap.xml` has updated.
+{:.fl}
 
 There can be a few more steps to the process, but for the most part it's fairly straight forward after you've built all the necessary `_layouts` and `_includes`. What made this process appealing to me over Wordpress or another CMS was --- total control. I can set how I want the folder structure to look like, how the pages are constructed, use [Grunt](http://gruntjs.com/) and other build scripts to optimize everything, etc etc etc. Sure it's possible to do all this in a CMS, but sometimes it's not as transparent and obvious and you often have to strip out a bunch of code bloat.
 
@@ -122,3 +123,4 @@ Getting more comfortable using Jekyll I wanted to give back to the community, so
 * **Minimal Mistakes:** [Theme demo](https://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url /work/2013-05-28-minimal-mistakes-jekyll-theme %})
 * **So Simple:** [Theme demo](https://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url /work/2013-06-26-so-simple-jekyll-theme %})
 * **HPSTR:** [Theme demo](https://mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %})
+{:.fl}

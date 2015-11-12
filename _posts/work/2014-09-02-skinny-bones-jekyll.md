@@ -36,6 +36,7 @@ I like to think of Skinny Bones as a starter for building your own Jekyll powere
 * Data files for easier customization of the site navigation/footer and for supporting multiple authors.
 * Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
 * And more.
+{:.fl}
 
 ---
 

@@ -25,6 +25,7 @@ With the release of [Mix](http://mix.fiftythree.com) today, FiftyThree is making
 * Save said inspiration to my local journals.
 * Learn from other creators by examining their original works in the medium they were created in.
 * Share what I've learned as *starter* sketches, tutorials, and guides to be remixed on.
+{:.fl}
 
 So if you're one of the lucky Paper creators to get an invite to Mix (or soon will be) feel free to join me in the Mix. If you've followed my [Mastering Paper by 53]({{ site.url }}/mastering-paper/) series of tutorials or [PaperFaces portraits]({{ site.url }}/paperfaces/) then you'll probably enjoy what I'm sharing.
 

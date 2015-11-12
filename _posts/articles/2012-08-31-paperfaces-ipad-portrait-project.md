@@ -130,6 +130,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 * [iPad artist: Michael Rose, creator of the PaperFaces project](http://kevinbradberry.net/2014/08/27/ipad-artist-michael-rose/)
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
+{:.fl}
 
 <div class="notice--info" markdown="1">
 #### Mastering Paper Tutorials

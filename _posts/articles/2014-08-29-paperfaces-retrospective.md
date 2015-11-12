@@ -63,6 +63,7 @@ The last thing anyone wants to do is make more work for themselves. To avoid tur
 * Set a frequency and end date, *e.g. one doodle every day for a month*.
 * Omit anything that takes too long to complete, *e.g. drawing facial features*.
 * Chose subject matter that is varied and keep you interested, *e.g. a new face every day*.
+{:.fl}
 
 ### Keep It Challenging
 

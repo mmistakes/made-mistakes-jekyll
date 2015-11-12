@@ -75,6 +75,7 @@ When coloring the cement between the bricks I usually handle it in three differe
 1. Don't do anything and leave it blank so the background color shows through.
 2. Mix a light gray and paint with the brush over all of the bricks, covering the spaces between them.
 3. Mix a light gray and use the marker tool to cover the bricks and spaces between them. Unlike the watercolor brush, a gray marker won't mess with the brick color --- unless it's really dark.
+{:.fl}
 
 <figure>
   <img src="{{ site.url }}/images/paper-53-bricks-cement-styles.jpg" alt="Screenshot of cement styles">
@@ -184,6 +185,7 @@ When drawing sidewalks, roads, or any sort of rocky terrain I adapt the followin
 2. Paint several layers on top of each other using this base color and the paint brush tool.
 3. Mix up a darker variant of the base color.
 4. Sketch in random pencil strokes to add texture.
+{:.fl}
 
 ### Painting a Base
 

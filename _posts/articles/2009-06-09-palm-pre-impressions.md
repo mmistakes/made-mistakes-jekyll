@@ -37,6 +37,7 @@ The experience of having a device that organizes your life, makes phone calls, a
 *	Is capable of syncing with iTunes to add music, podcasts, videos, movies, or photos.
 *	Backups every day to your Palm Profile --- just in case you need to restore your device after a wipe.
 *	GPS and Sprint Navigation for turn by turn directions.
+{:.fl}
 
 ## Palm Pre negatives
 
@@ -54,6 +55,7 @@ The experience of having a device that organizes your life, makes phone calls, a
 *	USB port cover seems cheaply made and I feel like I'm going to break it off every time I open it.
 *	Device does get warm after prolonged usage. *(To be fair so did my Centro)*
 *	Audio speaker isn't that loud.
+{:.fl}
 
 So there you have it. Can't say that I was excited about the thought of paying an extra $20 a month for the required Sprint Everything Data plan. But seeing how I'm getting more anytime minutes, Sprint Navigation, Sprint TV, and nights that start at 7pm instead of 9pm --- I'll live. My only real Palm Pre complaints stem from its software or lack of applications, which I'm pretty confident will be addressed with future firmware and software updates. I hope ;-)
 

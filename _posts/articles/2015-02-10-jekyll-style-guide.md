@@ -31,6 +31,7 @@ So with that I bumped around GitHub and Google to see what sort of solutions exi
 * [Boilerplate for Jekyll Styleguide](https://github.com/jeromecoupe/jekyllstyleguide)
 * [Pattern Lab Jekyll Port](https://github.com/zakkain/patternlab-jekyll)
 * [Pattern Primer Jekyll](https://github.com/opattison/Pattern-Primer-Jekyll)
+{:.fl}
 
 Out of the bunch, [Jérôme Coupé's](http://www.webstoemp.com/) approach resonated with me the most since it meshed well with my current Jekyll site setup. By leveraging **collections**[^collections] I could avoid littering my `_posts` folder with components, color palettes, and other snippets while being able to iterate over them and output individual pages if needed.
 
@@ -46,6 +47,7 @@ To start I took a quick survey of all the Sass partials in my `_asseets/styleshe
 * **Typography** (headings, paragraphs, lists, and inline elements)
 * **Media elements** (images, figures, videos, etc.)
 * **Patterns** (buttons, badges, table of contents, etc.)
+{:.fl}
 
 [^jekyll-assets]: I'm using the excellent [Jekyll::AssetsPlugin](https://github.com/ixti/jekyll-assets) to add a Rails-like asset pipeline to run [AutoPrefixer](https://github.com/postcss/autoprefixer), minify and MD5 fingerprint CSS/JavaScript assets, and some other useful stuff.
 
@@ -130,6 +132,7 @@ There's not much magic going on here. Basically what I did was:
 2. Added YAML Front Matter to this page --- assigning a title, `layout: style_guide` to utilize the `_layout` I created earlier, and an excerpt description for SEO purposes.
 3. Added a short introduction to the style guide.
 4. Used some Liquid to create `for` loops to output all documents found in the `colors` and `components` collections.
+{:.fl}
 
 Here's the Liquid I came up with to fill the page with content from the `components` collection.
 
@@ -276,4 +279,4 @@ Updating and adding components to the [style guide]({{ site.url }}/style-guide/)
 
 As always [my code is available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll/) for download and forking. The Style Guide is integrated with the rest of Made Mistakes so you may have to rip out some stuff if you end up using it. 
 
-Be sure and let me know if this has been useful. If I get enough feedback I'll consider breaking it out into its own repo for easier forking.
+Be sure and let me know if this has been useful. If I get enough feedback I'll consider breaking it out into its own repository for easier forking.

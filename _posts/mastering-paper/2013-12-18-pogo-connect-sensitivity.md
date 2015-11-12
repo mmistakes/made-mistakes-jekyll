@@ -26,6 +26,7 @@ Isolating the cause is hard because so many factors had changed around the same 
 * Apple released iOS 7, a major rewrite and update to the iPad's operating system.
 * TenOne Design updated the Pogo Connect's firmware to 1.1.0 --- needed for some of the [new tips](http://tenonedesign.com/connect.php) they recently released.
 * Design changes were made to the Pogo Connect to reinforce the internals and tip.
+{:.fl}
 
 From my tests it seems to be related to the 1.1.0 firmware or the extra solder being used to keep the tip from busting off. Older Pogo's with the 1.0.6 firmware worked just fine with iOS 7 and updated apps.
 

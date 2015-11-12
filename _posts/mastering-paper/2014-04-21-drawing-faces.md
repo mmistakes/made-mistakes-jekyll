@@ -55,6 +55,7 @@ Paper by 53 currently doesn't have a way of exporting or sharing color palettes.
 2. Tap the small circle within the Color Mixer and move the 3 sliders to match the color you are looking to copy.
 3. Tap the small circle again and drag it into a vacant spot in your palette to the right.
 4. Repeat the process for each color you wish to copy and use.
+{:.fl}
 
 <div class="notice--info" markdown="1">
 #### ProTip: Organize Your Color Palettes
@@ -272,6 +273,7 @@ To really capture an accurate likeness the placement of the eyes, nose, and mout
 1. Pupils are placed just above the center line.
 2. An average face is approximately five eyes wide.
 3. The bottom of the ears align with the bottom of the nose.
+{:.fl}
 
 ### Refining the Contours
 

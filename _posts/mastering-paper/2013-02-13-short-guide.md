@@ -30,6 +30,7 @@ Since publishing this short guide I've gone through several iPad styli and writt
 *	Obviously you'll need an iPad --- I use a 3rd generation with the nice retina screen.
 * [Paper by FiftyThree](http://www.fiftythree.com/paper/) for iOS is my sketching app of choice. It's a free download, but you'll want to buy the additional brushes, pens, and Color Mixer --- my favorites are the pencil and watercolor brush.
 * A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
+{:.fl}
 
 [pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
 [1]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
@@ -85,6 +86,7 @@ Two things to keep in mind when working with the marker tool:
 
 1.	**It has some translucency to it.** If you draw over something, it will most likely show through. Because of this, the marker can  help you shade more precisely than the  brush since the tip is narrower.
 2.	Black, white, and some **dark colors are opaque**; meaning they will completely cover up anything you draw over.
+{:.fl}
 
 ## The Multipurpose Pencil
 

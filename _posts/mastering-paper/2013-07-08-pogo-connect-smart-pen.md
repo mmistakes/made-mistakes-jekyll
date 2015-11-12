@@ -82,6 +82,7 @@ If it's not painfully obvious from the sample sketches, the Pogo Connect Smart P
 * **Marker:** strokes get wider
 * **Pen:** strokes get slightly wider
 * **Watercolor:** strokes get wider
+{:.fl}
  
 In my opinion the two tools that benefit the most from using a Pogo Connect stylus are the watercolor brush and pencil. Both tools become more responsive and natural to use --- especially the pencil when used for shading and sketching. The watercolor brush gets the added benefit of being able to draw thinner strokes than your finger or other styluses can, which is nice since there is no way to control brush size yet.
 

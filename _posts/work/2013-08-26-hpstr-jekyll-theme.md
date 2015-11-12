@@ -27,6 +27,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Simple custom 404 page to get you started.
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
+{:.fl}
 
 <figure class="large">
 	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
