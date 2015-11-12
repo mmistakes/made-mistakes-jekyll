@@ -86,15 +86,27 @@ a {
 
 /* Lists */
 
-ul, ol {
-  padding-left: 1em;
-  @include breakpoint($medium) {
-    padding-left: 0;
-  }
-}
+// ul, ol {
+//   padding-left: 1em;
+//   @include breakpoint($medium) {
+//     padding-left: 0;
+//   }
+// }
 
-ul li {
-  list-style-type: square;
+// ul li {
+//   list-style-type: square;
+// }
+
+ol {
+  li {
+    counter-increment: table-ol;
+    &:before {
+      content: counter(table-ol) ".";
+      display: table-cell;
+      padding-right: 1em;
+      text-align: right;
+    }
+  }
 }
 
 /* Code */
