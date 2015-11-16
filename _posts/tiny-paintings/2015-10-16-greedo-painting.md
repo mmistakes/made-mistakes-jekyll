@@ -2,7 +2,7 @@
 layout: article
 title: "Going somewhere, Solo?"
 excerpt: "Tiny portrait of Greedo painted with watercolor on hot press paper."
-modified: 
+modified: 2015-11-16T11:22:13-05:00
 image: 
   feature: painting-greedo-lg.jpg
   teaser: painting-greedo-teaser.jpg

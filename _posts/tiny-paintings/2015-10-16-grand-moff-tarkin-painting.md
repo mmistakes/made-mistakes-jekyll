@@ -2,7 +2,7 @@
 layout: article
 title: "Charming to the last"
 excerpt: "Tiny portrait of a Grand Moff Tarkin painted with watercolor on hot press paper."
-modified: 
+modified: 2015-11-16T11:22:08-05:00
 image: 
   feature: painting-grand-moff-tarkin-lg.jpg
   teaser: painting-grand-moff-tarkin-teaser.jpg
