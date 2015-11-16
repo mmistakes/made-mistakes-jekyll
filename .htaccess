@@ -976,6 +976,11 @@ redirect 301 /atom/ http://feeds.feedburner.com/MadeMistakes
 redirect 301 /rss/ http://feeds.feedburner.com/MadeMistakes
 redirect 301 /test/atom.xml http://feeds.feedburner.com/MadeMistakes
 redirect 301 /feed.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /everything.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /everything-1.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /everything-2.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /summary.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /summary-2.xml http://feeds.feedburner.com/MadeMistakes
 
 # ----------------------------------------------------------------------
 # Sitemap redirects
@@ -1030,3 +1035,5 @@ redirect 301 /articles/so-simple-jekyll-theme/ https://mademistakes.com/work/so-
 redirect 301 /articles/minimal-mistakes-jekyll-theme/ https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 redirect 301 /articles/pogo-connect-smart-pen/ https://mademistakes.com/mastering-paper/pogo-connect-smart-pen/
 redirect 301 /articles/pogo-connect-sensitivity/ https://mademistakes.com/mastering-paper/pogo-connect-sensitivity/
+redirect 301 /blog/ https://mademistakes.com/articles/
+redirect 301 /blog https://mademistakes.com/articles/
