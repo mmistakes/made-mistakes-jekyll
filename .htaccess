@@ -1014,6 +1014,7 @@ redirect 301 /articles/paper-53-drawing-water-waves https://mademistakes.com/mas
 redirect 301 /articles/paper-53-book-review https://mademistakes.com/mastering-paper/moleskine-book/
 redirect 301 /articles/paper-53-drawing-textures https://mademistakes.com/mastering-paper/drawing-textures/
 redirect 301 /articles/paper-53-basics https://mademistakes.com/mastering-paper/basics/
+redirect 301 /mastering-paper/basic https://mademistakes.com/mastering-paper/basics/
 redirect 301 /articles/madewithpaper-drawing-guide https://mademistakes.com/mastering-paper/short-guide/
 redirect 301 /articles/how-to-draw-hair-paper-53 https://mademistakes.com/mastering-paper/drawing-hair/
 redirect 301 /articles/drawing-faces-paper-53 https://mademistakes.com/mastering-paper/drawing-blank-faces/
@@ -1030,9 +1031,12 @@ redirect 301 /tag/fiftythree/ https://mademistakes.com/tag/paper-by-53/
 redirect 301 /portraits https://mademistakes.com/paperfaces/
 redirect 301 /portraits/ https://mademistakes.com/paperfaces/
 redirect 301 /articles/skinny-bones-jekyll/ https://mademistakes.com/work/skinny-bones-jekyll/
+redirect 301 /articles/skinny-bones-jekyll https://mademistakes.com/work/skinny-bones-jekyll/
 redirect 301 /articles/hpstr-jekyll-theme/ https://mademistakes.com/work/hpstr-jekyll-theme/
 redirect 301 /articles/so-simple-jekyll-theme/ https://mademistakes.com/work/so-simple-jekyll-theme/
+redirect 301 /articles/so-simple-jekyll-theme https://mademistakes.com/work/so-simple-jekyll-theme/
 redirect 301 /articles/minimal-mistakes-jekyll-theme/ https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
+redirect 301 /articles/minimal-mistakes-jekyll-theme https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 redirect 301 /articles/pogo-connect-smart-pen/ https://mademistakes.com/mastering-paper/pogo-connect-smart-pen/
 redirect 301 /articles/pogo-connect-sensitivity/ https://mademistakes.com/mastering-paper/pogo-connect-sensitivity/
 redirect 301 /blog/ https://mademistakes.com/articles/
