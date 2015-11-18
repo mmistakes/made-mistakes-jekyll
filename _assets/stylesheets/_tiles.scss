@@ -14,7 +14,7 @@
   &:after {
     content: '\a0';
     position: relative;
-    top: calc(0.4rem + 2px);
+    top: calc(0.4rem - 1px);
     height: 4px;
     flex-grow: 1;
     border-top: 1px solid $light-gray;
