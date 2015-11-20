@@ -1,7 +1,8 @@
 <div class="post__single-meta">
   {% if page.categories %}
-    {% assign category_name = page.categories | first | replace: '-', ' ' %}
-    <a class="post__category" href="{{ site.url }}/{{ page.categories | first }}/">{{ category_name }}</a>
+    {% assign category_slug = page.categories | first %}
+    {% assign category = site.data.categories[category_slug] %}
+    <a class="post__category" href="{{ site.url }}/{{ page.categories | first }}/">{{ category.name }}</a>
   {% endif %}
   <span class="post__published">
     {% if page.modified %}

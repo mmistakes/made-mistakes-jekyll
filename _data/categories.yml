@@ -1,0 +1,19 @@
+# Category names
+
+articles:
+  name: "Blog Articles"
+
+mastering-paper:
+  name: "Mastering Paper"
+
+paperfaces:
+  name: "PaperFaces Portraits"
+
+procreate-paintings:
+  name: "Procreate Paintings"
+
+tiny-paintings:
+  name: "Tiny Paintings"
+
+work:
+  name: "Work"

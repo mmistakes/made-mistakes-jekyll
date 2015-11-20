@@ -12,8 +12,9 @@
           {% endif %}
         </a>
         {% if post.categories %}
-          {% assign category_name = post.categories | first | replace: '-', ' ' %}
-          <a href="{{ site.url }}/{{ post.categories | first }}/" class="tile__category">{{ category_name }}</a>
+          {% assign category_slug = page.categories | first %}
+          {% assign category = site.data.categories[category_slug] %}
+          <a href="{{ site.url }}/{{ post.categories | first }}/" class="tile__category">{{ category.name }}</a>
         {% endif %}
       </article>
     {% endfor %}
