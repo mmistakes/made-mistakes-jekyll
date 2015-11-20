@@ -204,7 +204,7 @@
 
 .author__wrapper {
   display: flex;
-  flex: 3;
+  flex: 4;
   align-items: flex-start;
 }
 
@@ -249,7 +249,7 @@
   display: none;
   @include breakpoint($large) {
     display: block;
-    flex: 1;
+    flex: 2;
     text-align: right;
   }
 }
