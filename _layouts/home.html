@@ -9,13 +9,13 @@ layout: default
     {{ content }}
 
     <div class="home__primary">
-      {% for link in site.data.navigation-menu limit:3 %}
+      {% for link in site.data.navigation.masthead limit:3 %}
         <a href="{{ site.url }}{{ link.url }}" class="btn btn--light-outline">{{ link.title }}</a>
       {% endfor %}
     </div>
 
     <div class="home__secondary">
-      {% for link in site.data.home-secondary %}
+      {% for link in site.data.navigation.home-secondary %}
         <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> {% unless forloop.last %}<span class="sep">&bull;</span>{% endunless %}
       {% endfor %}
     </div>
