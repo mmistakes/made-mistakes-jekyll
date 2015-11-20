@@ -1,0 +1,66 @@
+# Masthead navigation links
+
+masthead:
+  - title: "Work"
+    url: /work/
+  - title: "Blog"
+    url: /articles/
+  - title: "Mastering Paper"
+    url: /mastering-paper/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+
+
+# Primary site navigation links (overlay)
+
+primary:
+  - title: "About"
+    url: /about/
+  - title: "Mastering Paper"
+    url: /mastering-paper/
+  - title: "Jekyll Themes"
+    url: /work/jekyll-themes/
+  - title: "PaperFaces Portraits"
+    url: /paperfaces/
+  - title: "Contact"
+    url: /contact/
+
+
+# Secondary site navigation links (overlay)
+
+secondary:
+  - title: "FAQs"
+    url: /faqs/
+  - title: "Subscribe"
+    url: /subscribe/
+  - title: "Sponsorship"
+    url: /support/
+  - title: "Style Guide"
+    url: /style-guide/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
+
+
+# Footer navigation links
+
+colophon-social:
+  - title: "Twitter"
+    url: https://twitter.com/mmistakes
+    icon: icon-twitter
+  - title: "Instagram"
+    url: https://instagram.com/mmistakes
+    icon: icon-instagram
+  - title: "Tumblr"
+    url: http://mademistakes.tumblr.com/
+    icon: icon-tumblr
+  - title: "Facebook"
+    url: https://facebook.com/michaelrose
+    icon: icon-facebook
+  - title: "YouTube"
+    url: https://www.youtube.com/user/anotherjpeg
+    icon: icon-youtube
+  - title: "GitHub"
+    url: https://github.com/mmistakes
+    icon: icon-github

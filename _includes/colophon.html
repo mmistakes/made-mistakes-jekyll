@@ -3,18 +3,15 @@
     <ul class="colophon__menu">
       <li class="colophon__menu-item"><a href="#0" class="overlay__menu-trigger">Open Menu</a></li>
       <li class="colophon__menu-sep">→</li>
-      {% for link in site.data.navigation-menu %}
+      {% for link in site.data.navigation.masthead %}
         <li class="colophon__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
     <ul class="colophon__menu">
-      <li class="colophon__menu-item--social"><a href="https://twitter.com/mmistakes"><svg><use xlink:href="#icon-twitter"></use></svg> Twitter</a></li>
-      <li class="colophon__menu-item--social"><a href="https://instagram.com/mmistakes"><svg><use xlink:href="#icon-instagram"></use></svg> Instagram</a></li>
-      <li class="colophon__menu-item--social"><a href="http://mademistakes.tumblr.com/"><svg><use xlink:href="#icon-tumblr"></use></svg> Tumblr</a></li>
-      <li class="colophon__menu-item--social"><a href="https://facebook.com/michaelrose"><svg><use xlink:href="#icon-facebook"></use></svg> Facebook</a></li>
-      <li class="colophon__menu-item--social"><a href="https://www.youtube.com/user/anotherjpeg"><svg><use xlink:href="#icon-youtube"></use></svg> YouTube</a></li>
-      <li class="colophon__menu-item--social"><a href="https://github.com/mmistakes"><svg><use xlink:href="#icon-github"></use></svg> GitHub</a></li>
+    {% for link in site.data.navigation.colophon-social %}
+      <li class="colophon__menu-item--social"><a href="{{ link.url }}"><svg><use xlink:href="#{{ link.icon }}"></use></svg> {{ link.title }}</a></li>
+    {% endfor %}
     </ul>
-    <p class="colophon__copyright">&#169; 2004&#8211;{{ site.time | date: '%Y' }} Michael Rose, <a href="{{ site.url }}/humans.txt">a real human being</a>. <a href="https://github.com/mmistakes/made-mistakes-jekyll" title="MadeMistakes.com source on GitHub">Hand-crafted</a> with Jekyll.</p>
+    <p class="colophon__copyright">&#169; {{ site.time | date: '%Y' }} {{ site.owner.name }}, <a href="{{ site.url }}/humans.txt">a real human being</a>. <a href="{{ site.owner.github-repo }}" title="{{ site.url }} source on GitHub">Hand-crafted</a> with Jekyll.</p>
   </nav>
 </footer>

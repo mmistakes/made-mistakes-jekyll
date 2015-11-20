@@ -4,7 +4,7 @@
     <nav class="masthead__menu-wrapper" role="navigation">
       <ul class="masthead__menu">
         {% assign counter=0 %}
-        {% for link in site.data.navigation-menu %}
+        {% for link in site.data.navigation.masthead %}
           {% assign counter=counter | plus:1 %}
           <li><a href="{{ site.url }}{{ link.url }}" class="masthead__menu-item {% if counter > 3 %}is--hidden{% endif %}">{{ link.title }}</a></li>
         {% endfor %}
@@ -18,13 +18,13 @@
   <div class="overlay__menu-wrapper container">
     <ul class="overlay__menu-col-1">
       <li class="overlay__menu-label">Of Interest</li>
-      {% for link in site.data.navigation-primary %}
+      {% for link in site.data.navigation.primary %}
         <li class="overlay__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
     <ul class="overlay__menu-col-2">
       <li class="overlay__menu-label">Everything Else</li>
-      {% for link in site.data.navigation-secondary %}
+      {% for link in site.data.navigation.secondary %}
         <li class="overlay__menu-item--secondary"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
