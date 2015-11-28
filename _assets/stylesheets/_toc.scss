@@ -51,6 +51,8 @@
     counter-increment: step-counter;
     display: flex;
     margin-bottom: 5px;
+    font-family: $sans-serif;
+    font-weight: bold;
     &:last-child {
       margin-bottom: 0;
     }
@@ -71,8 +73,6 @@
       padding-bottom: 15px;
       flex: 1;
       color: #000;
-      font-family: $sans-serif;
-      font-weight: bold;
       border-bottom-width: 0; // override
       @include breakpoint($medium) {
         padding-bottom: 5px;
