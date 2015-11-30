@@ -3,7 +3,7 @@ title: "Which stylus do you recommend for Paper?"
 layout: article
 type: paper
 date: 2014-12-07
-modified: 2014-12-08T12:25:58-05:00
+modified: 2015-11-30T12:46:54-05:00
 order: 4
 ---
 
@@ -21,6 +21,11 @@ Speaking of Bluetooth styli, I now use a [FiftyThree's Pencil][pencil-stylus] ab
 | [*Pencil by FiftyThree*][pencil-stylus] | Super reliable when I'm not wearing out tips in a few days. Flirting with it again after recent Paper update that scales tools when zoomed in.
 | [*ZEN 3 in 1*][zen-stylus] | Precision disc tip dead on arrival. Rubber nib still going strong.
 | [*Universal Touch Screen Pen*][cheap-stylus] | Cheap, small, light, and pretty crappy. Comes in a 3 pack that I have as a backup if I ever lose my other styli.
+
+<div class="notice--warning" markdown="1">
+#### iPad Styli Update
+Ten One Design has released the <a href="https://tenonedesign.com/connect.php">Pogo Connect 2</a>, which is essentially the same as the original but with support for the iPad Air 2 and Mini 3. Apple has also entered this space with <a href="http://www.apple.com/apple-pencil/" title="Apple Pencil">a stylus of their own</a> that currently only works with an iPad Pro. I haven't used either yet so I can't comment on how well they preform, but the <a href="{{ site.url }}{% post_url /articles/2015-09-25-ipad-pro %}">Apple Pencil</a> looks mighty tasty.
+</div>
 
 [alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
 [lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G

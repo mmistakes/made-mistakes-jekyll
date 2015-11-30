@@ -34,6 +34,8 @@ primary:
     url: /work/jekyll-themes/
   - title: "PaperFaces Portraits"
     url: /paperfaces/
+  - title: "Procreate Paintings"
+    url: /procreate-paintings/
   - title: "Contact"
     url: /contact/
 
@@ -54,6 +56,20 @@ secondary:
 
 
 # Footer navigation links
+
+colophon-menu:
+  - title: "Work"
+    url: /work/
+  - title: "Blog"
+    url: /articles/
+  - title: "Mastering Paper"
+    url: /mastering-paper/
+  - title: "About"
+    url: /about/
+  - title: "FAQs"
+    url: /faqs/
+  - title: "Contact"
+    url: /contact/
 
 colophon-social:
   - title: "Twitter"

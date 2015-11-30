@@ -2,8 +2,8 @@
 layout: article
 title: "Contact Michael Rose"
 date: 2015-05-22
-modified: 2015-10-16T16:07:20-04:00
-excerpt: "All of the ways you can get in touch with me online."
+modified: 2015-11-30T12:03:42-05:00
+excerpt: "Preferred methods of sending your questions, inquires, messages, and love letters to me."
 ads: false
 share: false
 author: false
@@ -11,7 +11,7 @@ author: false
 
 Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and follow me there.
 
-For anything longer please fill out the form below and I'll get back to you by email. 
+Before asking questions related to creating art on iPad or using Jekyll be sure to check the [Frequently Asked Questions section]({{ site.url }}/faqs/) --- there's a good chance I've already answered them. For anything longer please fill out the form below and I'll get back to you by email. 
 
 <script>{% asset vendor/wufoo %}</script>
 

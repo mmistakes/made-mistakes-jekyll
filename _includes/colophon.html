@@ -3,7 +3,7 @@
     <ul class="colophon__menu">
       <li class="colophon__menu-item"><a href="#0" class="overlay__menu-trigger">Open Menu</a></li>
       <li class="colophon__menu-sep">→</li>
-      {% for link in site.data.navigation.masthead %}
+      {% for link in site.data.navigation.colophon-menu %}
         <li class="colophon__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
