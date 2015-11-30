@@ -2,8 +2,8 @@
 layout: article
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2015-10-16T16:32:58-04:00
-excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo, New York."
+modified: 2015-11-30T12:52:00-05:00
+excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   feature: about-michael-collage.jpg
   teaser: about-teaser.jpg
@@ -12,7 +12,7 @@ share: false
 author: false
 ---
 
-Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/articles/paperfaces-ipad-portrait-project.html) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/paperfaces/) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
 
 {% include toc.html %}
 
@@ -25,6 +25,14 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
   <a href="{{ site.url }}{% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
   <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
+
+## Contact
+
+Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires...
+
+<div markdown="0"><a href="{{ site.url }}/contact/" class="btn"><svg><use xlink:href="#icon-comments"></use></svg> Message Me</a></div>
+
+---
 
 ## About the Site
 
@@ -53,11 +61,3 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 * [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 * [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
-
----
-
-## Contact
-
-Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires...
-
-<div markdown="0"><a href="{{ site.url }}/contact/" class="btn"><svg><use xlink:href="#icon-comments"></use></svg> Message Me</a></div>
