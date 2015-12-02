@@ -9,7 +9,7 @@
     </ul>
     <ul class="colophon__menu">
     {% for link in site.data.navigation.colophon-social %}
-      <li class="colophon__menu-item--social"><a href="{{ link.url }}"><svg><use xlink:href="#{{ link.icon }}"></use></svg> {{ link.title }}</a></li>
+      <li class="colophon__menu-item--social"><a href="{{ link.url }}"><svg class="icon"><use xlink:href="#{{ link.icon }}"></use></svg> {{ link.title }}</a></li>
     {% endfor %}
     </ul>
     <p class="colophon__copyright">&#169; {{ site.time | date: '%Y' }} {{ site.owner.name }}, <a href="{{ site.url }}/humans.txt">a real human being</a>. <a href="{{ site.owner.github-repo }}" title="{{ site.url }} source on GitHub">Hand-crafted</a> with Jekyll.</p>
