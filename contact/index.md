@@ -9,7 +9,7 @@ share: false
 author: false
 ---
 
-Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and follow me there.
+Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and [follow me]({{ site.url }}/subscribe/) there.
 
 Before asking questions related to creating art on iPad or using Jekyll be sure to check the [Frequently Asked Questions section]({{ site.url }}/faqs/) --- there's a good chance I've already answered them. For anything longer please fill out the form below and I'll get back to you by email. 
 
