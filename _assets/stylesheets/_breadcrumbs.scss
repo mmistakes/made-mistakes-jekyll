@@ -10,9 +10,12 @@
 }
 
 .breadcrumb__item {
-    display: inline-block;
-    color: $text-color;
-    text-decoration: none;
+  display: inline-block;
+  color: $text-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 /* separator */

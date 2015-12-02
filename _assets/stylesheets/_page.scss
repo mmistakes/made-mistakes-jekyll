@@ -304,6 +304,9 @@
   font-weight: bold;
   color: $text-color;
   white-space: nowrap;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 /* tag boxes */

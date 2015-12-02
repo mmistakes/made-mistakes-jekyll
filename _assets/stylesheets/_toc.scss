@@ -80,6 +80,9 @@
       @include breakpoint($medium-wide) {
         padding-bottom: 0;
       }
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
