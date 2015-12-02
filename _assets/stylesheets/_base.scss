@@ -97,6 +97,14 @@ ul li {
   list-style-type: square;
 }
 
+// size and color inline SVG icons
+li .icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
+  fill: currentColor;
+}
+
 /* Code */
 
 tt, code, kbd, samp, pre {
