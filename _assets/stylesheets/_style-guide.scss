@@ -109,7 +109,8 @@ $color:
 (rss, $rss-color),
 (tumblr, $tumblr-color),
 (twitter, $twitter-color),
-(github, #000);
+(github, #000),
+(youtube, $youtube-color);
 
 @each $name, $bgcolor in $color {
   .color__tile--#{$name} {

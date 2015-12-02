@@ -39,6 +39,13 @@
     vertical-align: middle;
     fill: currentColor;
   }
+  svg + .hidden {
+    margin-left: -0.5em; // override for hidden text
+  }
+
+  + .btn {
+    margin-top: 0.25em; // adds whitespace above button groups that break to multiple lines
+  }
 
   /* fills width of parent container */
 
@@ -123,7 +130,8 @@
   (rss, $rss-color),
   (tumblr, $tumblr-color),
   (twitter, $twitter-color),
-  (github, $github-color);
+  (github, $github-color),
+  (youtube, $youtube-color);
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {
