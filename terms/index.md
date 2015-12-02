@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Terms & Conditions"
+title: "Terms and Policies"
 date: 2014-06-22
-modified: 2015-09-23T14:16:42-04:00
+modified: 2015-12-02T16:02:42-05:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
 share: false
 ---

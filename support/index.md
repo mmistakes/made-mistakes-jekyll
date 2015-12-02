@@ -1,31 +1,50 @@
 ---
 layout: article
-title: "Sponsorship and Support"
+title: "Show Your Support"
 date: 2014-06-19T09:33:51.793000-04:00
-modified: 2015-09-23T12:32:28-04:00
-excerpt: "Found something I created useful or enjoyable or want me to take a look at your product or app? Here's how."
+modified: 2015-12-02T15:56:41-05:00
+excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 share: false
 author: false
 ---
 
-The *Paper by FiftyThree* tutorials, Jekyll themes, and other articles I publish in my free time have been a true labor of love. If you've found any of them useful and want to thank me, here's a few ways you can.
+The tutorials, Jekyll themes, and other articles I publish have been a true labor of love for me. If you've found any of this free content useful here's how to show your thanks and motivate me to create more of it.
 
 {% include toc.html %}
 
 ## Spread the Word
 
-Have a website or use social networking sites like Twitter, Facebook, Google+, Tumblr, or Pinterest? Please consider sharing any content from **Made Mistakes** or linking directly to <{{ site.url }}>
+Have a website or use social networking sites like Twitter, Facebook, Google+, Tumblr, or Pinterest? Please consider sharing any of the content found on **Made Mistakes** or linking to <{{ site.url }}>
 
 ## Follow Me on Social Media
 
-I post once or twice a day --- you don't have to worry about me barfing out a stream of rants and retweets in quick succession. Content shared is along the lines of sarcastic remarks, Paper by FiftyThree drawings, web design and development tidbits, and photographic fragments from what little life I live.
+I typically post once or twice a day --- I'm not the type to barf out a stream of rants and retweets in quick succession. Posts are along the lines of in-process artwork, speed painting videos, web design and development tidbits, sarcastic remarks, and photographic fragments from what little life I live.
 
-* [Twitter](https://twitter.com/mmistakes)
-* [Instagram](https://instagram.com/mmistakes/)
-* [Facebook](https://www.facebook.com/michaelrose)
-* [GitHub](https://github.com/mmistakes)
-* [Google+](https://plus.google.com/+MichaelRoseDesign/posts)
-* [Tumblr](http://mademistakes.tumblr.com/)
+<a href="https://twitter.com/mmistakes" class="btn btn--twitter"><svg><use xlink:href="#icon-twitter"></use></svg> Twitter</a>
+<a href="https://instagram.com/mmistakes/" class="btn btn--instagram"><svg><use xlink:href="#icon-instagram"></use></svg> Instagram</a>
+<a href="http://mademistakes.tumblr.com/" class="btn btn--tumblr"><svg><use xlink:href="#icon-tumblr"></use></svg> Tumblr</a>
+<a href="https://www.facebook.com/michaelrose" class="btn btn--facebook"><svg><use xlink:href="#icon-facebook"></use></svg> Facebook</a>
+<a href="https://www.youtube.com/user/anotherjpeg" class="btn btn--youtube"><svg><use xlink:href="#icon-youtube"></use></svg> youtube</a>
+<a href="https://github.com/mmistakes" class="btn btn--github"><svg><use xlink:href="#icon-github"></use></svg> GitHub</a>
+<a href="https://plus.google.com/+MichaelRoseDesign/posts" class="btn btn--google-plus"><svg><use xlink:href="#icon-google-plus"></use></svg> Google+</a>
+
+## Subscribe to the Feeds
+
+All of the content on Made Mistakes is made available for free via syndicated feeds[^rss].
+
+Subscribing to the [**All Posts**](http://feeds.feedburner.com/MadeMistakes) feed will nab you everything posted to Made Mistakes. While the following feeds are more topic focused.
+
+* [Blog Articles](http://feeds.feedburner.com/MadeMistakesArticles)
+* [Paper by FiftyThree Tutorials](http://feeds.feedburner.com/MadeMistakesMasteringPaper)
+* [PaperFaces Portraits](http://feeds.feedburner.com/MadeMistakesPaperFaces)
+
+[^rss]: Right click any of the feed links found on this page and paste into your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
+
+You can also follow along using services like **feedly** and **Bloglovin**.
+
+<a href="http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Ffeeds.feedburner.com%2FMadeMistakes"  target="blank"><img id="feedlyFollow" src="http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-medium_2x.png" alt="follow on feedly" width="71" height="28"></a>
+
+<a class="blsdk-follow" href="https://www.bloglovin.com/blogs/made-mistakes-3627581" target="_blank" data-blsdk-type="button">Follow</a><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://widget.bloglovin.com/assets/widget/loader.js";fjs.parentNode.insertBefore(js, fjs);}(document, "script", "bloglovin-sdk"))</script>
 
 ## Send a Donation
 
@@ -39,17 +58,9 @@ I include banner ads on the site to help offset the costs associated with keepin
 
 ## Buy Something
 
-If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) using my referral link below will cost you nothing and give me a small commission if you end up buying something. I also maintain an Amazon Wish List if you are feeling extra generous.
+If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will give me a small commission if you end up buying something and will cost you nothing. I also maintain an Amazon Wish List if you are feeling extra generous. {% include icon.html name="wink" %}
 
 <p markdown="0">
   <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn"><svg><use xlink:href="#icon-amazon"></use></svg> Shop Amazon</a>
   <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn"><svg><use xlink:href="#icon-amazon"></use></svg> Amazon Wish List</a>
-</p>
-
-## Sponsorships
-
-If you have a product, service, or application that you'd like me to take a look at feel free to reach out. I'm open to writing about it if I think there's value for my readers or fits in with the iPad art, design, and web development content I typically publish.
-
-<p markdown="0">
-  <a href="{{ site.url }}/contact/" onclick="ga('send', 'event', 'link', 'click', 'Contact');" class="btn"><svg><use xlink:href="#icon-comments"></use></svg> Contact Me</a>
 </p>

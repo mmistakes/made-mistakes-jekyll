@@ -26,8 +26,10 @@ masthead:
 # Primary site navigation links (overlay)
 
 primary:
-  - title: "About"
-    url: /about/
+  - title: "Work"
+    url: /work/
+  - title: "Blog Articles"
+    url: /articles/
   - title: "Mastering Paper"
     url: /mastering-paper/
   - title: "Jekyll Themes"
@@ -36,23 +38,25 @@ primary:
     url: /paperfaces/
   - title: "Procreate Paintings"
     url: /procreate-paintings/
-  - title: "Contact"
-    url: /contact/
 
 
 # Secondary site navigation links (overlay)
 
 secondary:
+  - title: "About"
+    url: /about/
   - title: "FAQs"
     url: /faqs/
-  - title: "Subscribe"
-    url: /subscribe/
-  - title: "Sponsorship"
+  - title: "Contact"
+    url: /contact/
+  - title: "Support"
     url: /support/
   - title: "Style Guide"
     url: /style-guide/
-  - title: "Terms &amp; Privacy Policy"
+  - title: "Terms &amp; Policies"
     url: /terms/
+  - title: "Sitemap"
+    url: /sitemap/
 
 
 # Footer navigation links
@@ -62,12 +66,12 @@ colophon-menu:
     url: /about/
   - title: "FAQs"
     url: /faqs/
-  - title: "Sponsorship"
-    url: /support/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
   - title: "Contact"
     url: /contact/
+  - title: "Support"
+    url: /support/
+  - title: "Terms &amp; Policies"
+    url: /terms/
 
 colophon-social:
   - title: "Twitter"
@@ -88,3 +92,6 @@ colophon-social:
   - title: "GitHub"
     url: https://github.com/mmistakes
     icon: icon-github
+  - title: "Google+"
+    url: https://plus.google.com/+MichaelRoseDesign/posts
+    icon: icon-google-plus

@@ -9,9 +9,11 @@ share: false
 author: false
 ---
 
-Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and [follow me]({{ site.url }}/subscribe/) there.
+Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and [follow me]({{ site.url }}/support/) there.
 
-Before asking questions related to creating art on iPad or using Jekyll be sure to check the [Frequently Asked Questions section]({{ site.url }}/faqs/) --- there's a good chance I've already answered them. For anything longer please fill out the form below and I'll get back to you by email. 
+Before asking questions related to creating art on iPad or using Jekyll be sure to check the [Frequently Asked Questions section]({{ site.url }}/faqs/) --- there's a good chance I've already answered them. For anything longer please fill out the form below and I'll get back to you by email.
+
+If you have a product, service, app, or other opportunity that you feel is a good fit for my site let me know. While I can't promise anything, there's a good chance I'll write or post about it if I think it offers value to my readers.
 
 <script>{% asset vendor/wufoo %}</script>
 

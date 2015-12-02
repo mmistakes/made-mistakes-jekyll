@@ -1049,3 +1049,5 @@ redirect 301 /articles/pogo-connect-smart-pen/ https://mademistakes.com/masterin
 redirect 301 /articles/pogo-connect-sensitivity/ https://mademistakes.com/mastering-paper/pogo-connect-sensitivity/
 redirect 301 /blog/ https://mademistakes.com/articles/
 redirect 301 /blog https://mademistakes.com/articles/
+redirect 301 /subscribe https://mademistakes.com/support/
+redirect 301 /subscribe/ https://mademistakes.com/support/
