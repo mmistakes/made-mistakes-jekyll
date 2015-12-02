@@ -3,12 +3,16 @@
     <a class="masthead__title" href="{{ site.url }}/">{{ site.title }}</a>
     <nav class="masthead__menu-wrapper" role="navigation">
       <ul class="masthead__menu">
-        {% assign counter=0 %}
+        {% assign counter = 0 %}
         {% for link in site.data.navigation.masthead %}
-          {% assign counter=counter | plus:1 %}
-          <li><a href="{{ site.url }}{{ link.url }}" class="masthead__menu-item {% if counter > 3 %}is--hidden{% endif %}">{{ link.title }}</a></li>
+          {% assign counter = counter | plus:1 %}
+          {% assign class = nil %}
+          {% if page.url contains link.url %}
+            {% assign class = 'is--active' %}
+          {% endif %}
+          <li><a href="{{ site.url }}{{ link.url }}" class="masthead__menu-item {% if counter > 3 %}is--hidden{% endif %} {{ class }}">{{ link.title }}</a></li>
         {% endfor %}
-        <li><a href="#0" class="overlay__menu-trigger masthead__menu-item">•&nbsp;•&nbsp;•</a></li>
+        <li><a href="#0" class="overlay__menu-trigger masthead__menu-item" aria-label="Navigation Menu" title="Navigation Menu">•&nbsp;•&nbsp;•</a></li>
       </ul>
     </nav>
   </div>
