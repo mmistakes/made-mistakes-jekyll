@@ -943,7 +943,7 @@ FileETag None
 # ----------------------------------------------------------------------
 
 RewriteEngine on
- RewriteCond %{HTTP_REFERER} http\://mademistakes\.com/11m\.php [NC]
+RewriteCond %{HTTP_REFERER} http\://mademistakes\.com/11m\.php [NC]
 RewriteRule .* - [F]
 
 # ----------------------------------------------------------------------
