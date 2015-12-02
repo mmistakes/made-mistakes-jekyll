@@ -58,16 +58,14 @@ secondary:
 # Footer navigation links
 
 colophon-menu:
-  - title: "Work"
-    url: /work/
-  - title: "Blog"
-    url: /articles/
-  - title: "Mastering Paper"
-    url: /mastering-paper/
   - title: "About"
     url: /about/
   - title: "FAQs"
     url: /faqs/
+  - title: "Sponsorship"
+    url: /support/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
   - title: "Contact"
     url: /contact/
 
