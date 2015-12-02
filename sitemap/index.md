@@ -18,8 +18,7 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
       <ul>
         <li><a href="{{ site.url }}/faqs/">Frequently Asked Questions</a></li>
         <li><a href="{{ site.url }}/contact/">Contact</a></li>
-        <li><a href="{{ site.url }}/subscribe/">Subscribe</a></li>
-        <li><a href="{{ site.url }}/support/">Sponsor &amp; Support</a></li>
+        <li><a href="{{ site.url }}/support/">Support</a></li>
         <li><a href="{{ site.url }}/terms/">Terms</a></li>
         <li><a href="{{ site.url }}/style-guide/">Style Guide</a></li>
       </ul>
