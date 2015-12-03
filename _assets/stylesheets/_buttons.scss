@@ -10,6 +10,7 @@
 #goog-wm-sb {
   /* default button */
   display: inline-block;
+  margin-top: 0.25em;
   padding: 10px 20px;
   color: #fff !important;
   font-family: $sans-serif;
@@ -41,10 +42,6 @@
   }
   svg + .hidden {
     margin-left: -0.5em; // override for hidden text
-  }
-
-  + .btn {
-    margin-top: 0.25em; // adds whitespace above button groups that break to multiple lines
   }
 
   /* fills width of parent container */
