@@ -66,7 +66,8 @@ blockquote {
     font-size: 0.8rem;
     font-style: normal;
     &:before {
-      content: "— ";
+      content: "\2014";
+      padding-right: 5px;
     }
   }
 }
