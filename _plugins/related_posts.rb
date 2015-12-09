@@ -1,42 +1,45 @@
-# https://github.com/jumanji27/related_posts-jekyll_plugin
+# https://github.com/SimonBackx/related_posts-jekyll_plugin
 
-require 'jekyll/post'
+require 'jekyll/document'
 
-module Jekyll
-  module RelatedPostsByTags
-    # Used to remove #related_posts so that it can be overridden
-    def self.included(klass)
-      klass.class_eval do
-        remove_method :related_posts
-      end
+module BetterRelatedPosts
+
+  # Used to remove #related_posts so that it can be overridden
+  def self.included(klass)
+    klass.class_eval do
+      remove_method :related_posts
     end
+  end
 
-    # Calculate related posts.
-    # Returns [<Post>]
-    def related_posts(posts)
-      return [] unless posts.size > 1
-      highest_freq = tag_freq(posts).values.max
-      related_scores = Hash.new(0)
-
-      posts.each do |post|
-        post.tags.each do |tag|
-          if self.tags.include?(tag) && post != self
-            cat_freq = tag_freq(posts)[tag]
-            related_scores[post] += (1+highest_freq-cat_freq)
-          end
+  # Calculate related posts.
+  #
+  # Returns [<Post>]
+  def related_posts
+    posts = site.posts.docs
+    return [] unless posts.size > 1
+    highest_freq = Jekyll::Document.tag_freq(posts).values.max
+    related_scores = Hash.new(0)
+    posts.each do |post|
+      post.data["tags"].each do |tag|
+        if self.data["tags"].include?(tag) && post != self
+          cat_freq = Jekyll::Document.tag_freq(posts)[tag]
+          related_scores[post] += (1+highest_freq-cat_freq)
         end
       end
-
-      sort_related_posts(related_scores)
     end
 
+    Jekyll::Document.sort_related_posts(related_scores)
+  end
+
+  module ClassMethods
     # Calculate the frequency of each tag.
+    #
     # Returns {tag => freq, tag => freq, ...}
     def tag_freq(posts)
       return @tag_freq if @tag_freq
       @tag_freq = Hash.new(0)
       posts.each do |post|
-        post.tags.each {|tag| @tag_freq[tag] += 1}
+        post.data["tags"].each {|tag| @tag_freq[tag] += 1}
       end
       @tag_freq
     end
@@ -56,7 +59,11 @@ module Jekyll
     end
   end
 
-  class Post
-    include RelatedPostsByTags
+end
+
+module Jekyll
+  class Document
+    include BetterRelatedPosts
+    extend BetterRelatedPosts::ClassMethods
   end
 end
