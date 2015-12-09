@@ -24,12 +24,12 @@ Speaking of Bluetooth styli, I now use a [FiftyThree's Pencil][pencil-stylus] ab
 
 <div class="notice--warning" markdown="1">
 #### iPad Styli Update
-Ten One Design has released the <a href="https://tenonedesign.com/connect.php">Pogo Connect 2</a>, which is essentially the same as the original but with support for the iPad Air 2 and Mini 3. Apple has also entered this space with <a href="http://www.apple.com/apple-pencil/" title="Apple Pencil">a stylus of their own</a> that currently only works with an iPad Pro. I haven't used either yet so I can't comment on how well they preform, but the <a href="{{ site.url }}{% post_url /articles/2015-09-25-ipad-pro %}">Apple Pencil</a> looks mighty tasty.
+Ten One Design has released the <a href="https://tenonedesign.com/connect.php">Pogo Connect 2</a>, which is essentially the same as the original but with support for the iPad Air 2 and Mini 3. Apple has also entered this space with <a href="http://www.apple.com/apple-pencil/" title="Apple Pencil">a stylus of their own</a> that currently only works with an iPad Pro. I haven't used either yet so I can't comment on how well they preform, but the <a href="{{ site.url }}{% post_url 2015-09-25-ipad-pro %}">Apple Pencil</a> looks mighty tasty.
 </div>
 
 [alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
 [lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
-[pogo-stylus]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
-[pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
+[pogo-stylus]: {{ site.url}}{% post_url 2013-07-08-pogo-connect-smart-pen %}
+[pencil-stylus]: {{ site.url }}{% post_url 2014-11-28-pencil-53-review %}
 [zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20

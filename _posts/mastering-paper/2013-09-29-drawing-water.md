@@ -30,7 +30,7 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 </div>
 
-[^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer) and what the various sliders mean and do.
+[^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#color-mixer) and what the various sliders mean and do.
 
 Much like drawing skies, you can choose to mark a horizon line in pencil to act as a guide --- or go commando if you're confident in your watercolor skills. If you decide to draw the horizon, remember to keep it light so it doesn't bleed through the watercolor we'll be applying next.
 
@@ -100,11 +100,11 @@ Starting at the top of the water lightly sketch strokes from left to right. The 
 	<figcaption>Use a blue-gray base color to draw in the smaller wave shapes.</figcaption>
 </figure>
 
-A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) works great for this step. It allows you to draw lightly and avoid going too heavy in an area. If you're finger painting or using a normal capacitive stylus, remember to move quickly with your pencil strokes --- the quicker you draw the lighter the mark.
+A [Pogo Connect Smart Pen]({{ site.url }}{% post_url 2013-07-08-pogo-connect-smart-pen %}) works great for this step. It allows you to draw lightly and avoid going too heavy in an area. If you're finger painting or using a normal capacitive stylus, remember to move quickly with your pencil strokes --- the quicker you draw the lighter the mark.
 
 ### White Wave Crests and Foam
 
-Crests or areas where waves might be crashing against land I go heavy with a white pencil and try to make it textured and scratchy. Criss-crossing or hatching my strokes is one way of doing this quickly. If you remember my [guide on painting clouds]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), the technique is the same.
+Crests or areas where waves might be crashing against land I go heavy with a white pencil and try to make it textured and scratchy. Criss-crossing or hatching my strokes is one way of doing this quickly. If you remember my [guide on painting clouds]({{ site.url }}{% post_url 2013-09-05-drawing-clouds %}), the technique is the same.
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paper-53-white-foam-detail-lg.jpg"><img src="{{ site.url }}/images/paper-53-white-foam-detail.jpg" alt="screenshot of wave foam zoomed in"></a>
@@ -141,12 +141,12 @@ Boom! And we're done. Combined with a blue sky from my previous guide and you'll
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished waterscapes to show what is possible just by varying the color and composition.
 
 <ul class="th-grid">
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-31-bradersk8r-portrait %}"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-08-iron-man-portrait %}"><img src="{{ site.url }}/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-03-15-agentkyle-portrait %}"><img src="{{ site.url }}/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-25-jamesonroot-portrait %}"><img src="{{ site.url }}/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-09-03-andrewbrewer-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-05-31-bradersk8r-portrait %}"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-05-08-iron-man-portrait %}"><img src="{{ site.url }}/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-03-15-agentkyle-portrait %}"><img src="{{ site.url }}/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-01-25-jamesonroot-portrait %}"><img src="{{ site.url }}/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Watch for the Next Tutorial

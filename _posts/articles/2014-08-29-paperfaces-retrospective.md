@@ -14,7 +14,7 @@ comments: true
 
 *Drawing a day* projects are a lot like resolutions made for the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
 
-Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](http://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
+Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url 2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](http://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
 {% include toc.html %}
 
@@ -49,7 +49,7 @@ Don't start a 365 project just for the sake of starting one. Having a clear obje
 
 ### Take a Step Back
 
-On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) and [gallery]({{ site.url }}/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
+On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url 2013-11-08-moleskine-book %}) and [gallery]({{ site.url }}/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
 <figure>
   <a href="{{ site.url }}/images/paper-53-book-wendy-lg.jpg"><img src="{{ site.url }}/images/paper-53-book-wendy.jpg" alt="Photograph of a PaperFaces drawing"></a>
@@ -112,8 +112,8 @@ And for the curious here's the various styli I've used over the two years and so
 
 [alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
 [lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
-[pogo-stylus]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
-[pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
+[pogo-stylus]: {{ site.url}}{% post_url 2013-07-08-pogo-connect-smart-pen %}
+[pencil-stylus]: {{ site.url }}{% post_url 2014-11-28-pencil-53-review %}
 [zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
@@ -122,16 +122,16 @@ And for the curious here's the various styli I've used over the two years and so
 When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorites from the last two years:
 
 <ul class="th-grid">
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2012-09-20-mike-ftw-portrait %}"><img src="{{ site.url }}/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2012-11-05-andrew-shaw23-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2012-12-13-f5point6-portrait %}"><img src="{{ site.url }}/images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-06-17-studioprisoner-portrait %}"><img src="{{ site.url }}/images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-27-pappyshannon-portrait %}"><img src="{{ site.url }}/images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-01-20-thenimesh-portrait %}"><img src="{{ site.url }}/images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-02-17-matt-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-matt-s-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-05-23-barelolk-portrait %}"><img src="{{ site.url }}/images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-07-10-vlad-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2014-03-26-marie-a-portrait %}"><img src="{{ site.url }}/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2012-09-20-mike-ftw-portrait %}"><img src="{{ site.url }}/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2012-11-05-andrew-shaw23-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2012-12-13-f5point6-portrait %}"><img src="{{ site.url }}/images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-06-17-studioprisoner-portrait %}"><img src="{{ site.url }}/images/paperfaces-studioprisoner-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2013-09-27-pappyshannon-portrait %}"><img src="{{ site.url }}/images/paperfaces-pappyshannon-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2014-01-20-thenimesh-portrait %}"><img src="{{ site.url }}/images/paperfaces-thenimesh-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2014-02-17-matt-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-matt-s-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2014-05-23-barelolk-portrait %}"><img src="{{ site.url }}/images/paperfaces-barelolk-twitter-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2014-07-10-vlad-s-portrait %}"><img src="{{ site.url }}/images/paperfaces-vlad-s-150.jpg" alt=""></a></li>
+  <li><a href="{{ site.url }}{% post_url 2014-03-26-marie-a-portrait %}"><img src="{{ site.url }}/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
 </ul>
 
 ## What's Next

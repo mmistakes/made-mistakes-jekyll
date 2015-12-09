@@ -18,7 +18,7 @@ One of the first things I drew on my iPad with Paper by FiftyThree was a blind c
 
 ## Drawing Contour Lines
 
-Working in a loose and gestural manner is an excellent way to warm-up and sharpen your observation skills. I like to draw with the [fountain pen (draw)]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#fountain-pen) because it has a greater range than some of the other tools, but feel free to use the [ink pen (write)]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#ink-pen) or even the [pencil]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#pencil). I think you'll find this exercise to be very cathartic, especially when compared against the technical and time consuming nature of photo realistic drawing.
+Working in a loose and gestural manner is an excellent way to warm-up and sharpen your observation skills. I like to draw with the [fountain pen (draw)]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#fountain-pen) because it has a greater range than some of the other tools, but feel free to use the [ink pen (write)]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#ink-pen) or even the [pencil]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#pencil). I think you'll find this exercise to be very cathartic, especially when compared against the technical and time consuming nature of photo realistic drawing.
 
 The ideal way to practice this technique is by drawing a *real* object (hands are good to start with) --- avoiding photographs if you can. To begin, fix your eyes on the subject in front of you. As your eyes track across the subject's shape, draw a slow continuous line in sync with what you are viewing. 
 
@@ -34,7 +34,7 @@ When you observe a shadow or a dark division, move your stylus faster to produce
   <figcaption>I find drawing with a Pogo Connect allows for greater control over the line's weight.</figcaption>
 </figure>
 
-Producing sensitive lines becomes infinitely easier with a [Pogo Connect]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) since you can varying their thickness by pressing harder. This added complexity isn't for everyone, but for someone with a background in the fine arts or illustration, it can feel more natural.  
+Producing sensitive lines becomes infinitely easier with a [Pogo Connect]({{ site.url }}{% post_url 2013-07-08-pogo-connect-smart-pen %}) since you can varying their thickness by pressing harder. This added complexity isn't for everyone, but for someone with a background in the fine arts or illustration, it can feel more natural.  
 
 <figure>
   <iframe width="560" height="315" src="//www.youtube.com/embed/OHpPRwXvVLQ" frameborder="0"> </iframe>
@@ -45,7 +45,7 @@ I also find that it helps to think of this line as a piece of string --- pretend
 
 ## Variations and Enhancements
 
-There's a world of possibilities to explore with this technique. For example, you can stick with black ink on white paper and add splashes of color with the [brush tool]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#watercolor-brush), emulate a scratch board drawing, or layer multiple lines on top of each other. 
+There's a world of possibilities to explore with this technique. For example, you can stick with black ink on white paper and add splashes of color with the [brush tool]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#watercolor-brush), emulate a scratch board drawing, or layer multiple lines on top of each other. 
 
 ### A Splash of Color
 
@@ -57,7 +57,7 @@ If you're feeling overwhelmed by color, try working with just black and white. L
 
 <div class="notice--warning" markdown="1">
 #### Paper Paint Brush Techniques
-For a refresher on watercolor brush techniques take a look at my set of [Mastering Paper Guides]({{ site.url }}/mastering-paper/). If you can get the hang of making [smooth continuous tones with the brush]({{ site.url }}{% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}), there isn't much else you can't do with the app.
+For a refresher on watercolor brush techniques take a look at my set of [Mastering Paper Guides]({{ site.url }}/mastering-paper/). If you can get the hang of making [smooth continuous tones with the brush]({{ site.url }}{% post_url 2014-09-16-watercolor-brush-update %}), there isn't much else you can't do with the app.
 </div>
 
 ### White on Black

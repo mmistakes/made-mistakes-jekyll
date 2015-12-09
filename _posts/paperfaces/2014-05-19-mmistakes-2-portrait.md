@@ -9,7 +9,7 @@ category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, michael rose]
 ---
 
-The last time I drew a [self portrait]({{ site.url }}{% post_url /paperfaces/2013-05-29-michael-rose-beard-portrait %}) I didn't have a face.
+The last time I drew a [self portrait]({{ site.url }}{% post_url 2013-05-29-michael-rose-beard-portrait %}) I didn't have a face.
 
 I thought it would be fun to take a minute from drawing strangers and work on something more familiar. Especially since the beard is no more and my [about page]({{ site.url }}/about/) could use a refresh.
 

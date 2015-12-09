@@ -34,7 +34,7 @@ Finger painting with Paper can yield some impressive results, but may feel unnat
 For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen. The fancier Bluetooth ones aren't supported by Paper, but apps like [Procreate](http://procreate.si) do.
 </div>
 
-Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %} "My Pogo Connect Smart Pen Review") here.
+Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({{ site.url }}{% post_url 2013-07-08-pogo-connect-smart-pen %} "My Pogo Connect Smart Pen Review") here.
 
 ![Paper by 53 tools screenshot]({{ site.url }}/images/paper-53-the-tools.jpg)
 
@@ -82,7 +82,7 @@ My drawing style has evolved over the year from crisp line work to soft blended 
 
 <div class="notice--info" markdown="1">
 #### ProTip: Quick and Dirty Erasing
-The eraser removes everything --- including a background filled with color. A fountain pen filled with color that matches the background can be used instead of the eraser to correct mistakes. Improvements to the eraser tool have made this technique less needed, but it still [has its uses]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}).
+The eraser removes everything --- including a background filled with color. A fountain pen filled with color that matches the background can be used instead of the eraser to correct mistakes. Improvements to the eraser tool have made this technique less needed, but it still [has its uses]({{ site.url }}{% post_url 2014-10-25-erasing %}).
 </div>
 
 * **Speed:** Slow = thin. Fast = thick.
@@ -152,7 +152,7 @@ Like the pencil, the watercolor brush is another tool you really should spend ti
 
 <div class="notice--info" markdown="1">
 #### ProTip: Manipulate the Brush's Size
-While there is no obvious way to change the size of your brush in Paper by FiftyThree, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one. [FiftyThree's Pencil]({{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}) stylus also allows you to dynamically change brush size depending on how you hold it.
+While there is no obvious way to change the size of your brush in Paper by FiftyThree, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one. [FiftyThree's Pencil]({{ site.url }}{% post_url 2014-11-28-pencil-53-review %}) stylus also allows you to dynamically change brush size depending on how you hold it.
 </div>
 
 It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color with multiple layers.
@@ -212,7 +212,7 @@ I'm going to let you in on a little secret. The first couple of months I used Pa
 
 I eventually came to my senses and gave it another go by forcing myself to use Rewind exclusively. After a few drawings I mastered it and was time traveling back through my boo boos with ease. It's entirely possible that FiftyThree tweaked Rewind behind the scenes to make it easier to use, but I like to think it was my perseverance that made the difference.
 
-Just stick with it if you're having trouble, I promise it will eventually come naturally. And if it doesn't, you can always purchase a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) and map the button to undo. To correct simple one step mistakes the undo button works great, for anything else I prefer the rewind gesture to avoid pressing the button a million times.
+Just stick with it if you're having trouble, I promise it will eventually come naturally. And if it doesn't, you can always purchase a [Pogo Connect Smart Pen]({{ site.url }}{% post_url 2013-07-08-pogo-connect-smart-pen %}) and map the button to undo. To correct simple one step mistakes the undo button works great, for anything else I prefer the rewind gesture to avoid pressing the button a million times.
 
 ### Zoom
 
@@ -224,7 +224,7 @@ There isn't much else to Zoom, I'm merely mentioning it to increase awareness ar
 
 <div class="notice--info" markdown="1">
 #### ProTip: Using the Zoom Loupe
-To move the loupe drag it around at the edge, right on the black frame. It can be picky sometimes, but nowhere near as temperamental or tricky as Rewind. Learn more about [how to use Zoom]({{ site.url }}{% post_url /mastering-paper/2014-07-03-moving-the-loupe %}) here.
+To move the loupe drag it around at the edge, right on the black frame. It can be picky sometimes, but nowhere near as temperamental or tricky as Rewind. Learn more about [how to use Zoom]({{ site.url }}{% post_url 2014-07-03-moving-the-loupe %}) here.
 </div>
 
 ## And We're Out

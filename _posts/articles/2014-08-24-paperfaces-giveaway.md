@@ -12,7 +12,7 @@ image:
 comments: true
 ---
 
-To celebrate two years of [drawing portraits every day]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}), I'm launching a fun giveaway leading up to the special day.
+To celebrate two years of [drawing portraits every day]({% post_url 2012-08-31-paperfaces-ipad-portrait-project %}), I'm launching a fun giveaway leading up to the special day.
 
 On August 31st I'll select **(3) winners** at random to draw digitally[^disclaimer] on my iPad, using portrait reference photographs of their choice. [Here's a refresher]({{ site.url }}/paperfaces/) of the type of drawing I will end up doing if you're new to my work.
 
@@ -25,8 +25,8 @@ Entering the PaperFaces Giveaway is simple. <span class="badge info">Contest has
 ## Winning Portraits
 
 <figure class="third">
-	<a href="{{ site.url }}{% post_url /paperfaces/2014-09-02-harvydanger-portrait %}"><img src="{{ site.url }}/images/paperfaces-harvydanger-twitter-600.jpg" alt="color portrait winner"></a>
-	<a href="{{ site.url }}{% post_url /paperfaces/2014-09-06-psychoticmilkma-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-psychoticmilkma-2-600.jpg" alt="black and white portrait winner"></a>
-  <a href="{{ site.url }}{% post_url /paperfaces/2014-09-10-viktoriaderoy-portrait %}"><img src="{{ site.url }}/images/paperfaces-viktoriaderoy-600.jpg" alt="black and white portrait winner"></a>
+	<a href="{{ site.url }}{% post_url 2014-09-02-harvydanger-portrait %}"><img src="{{ site.url }}/images/paperfaces-harvydanger-twitter-600.jpg" alt="color portrait winner"></a>
+	<a href="{{ site.url }}{% post_url 2014-09-06-psychoticmilkma-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-psychoticmilkma-2-600.jpg" alt="black and white portrait winner"></a>
+  <a href="{{ site.url }}{% post_url 2014-09-10-viktoriaderoy-portrait %}"><img src="{{ site.url }}/images/paperfaces-viktoriaderoy-600.jpg" alt="black and white portrait winner"></a>
 	<figcaption>The winners of my first PaperFaces portrait giveaway</figcaption>
 </figure>

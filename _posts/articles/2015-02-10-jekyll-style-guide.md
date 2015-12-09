@@ -21,7 +21,7 @@ As sole designer, developer, and writer for the site, having one probably isn't 
 
 ## Keep it Simple
 
-With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have also matured in the open source community. Because I'm [using Jekyll to publish the site]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if that meant giving up the ease of setup these other tools provide by having to build out something myself.
+With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have also matured in the open source community. Because I'm [using Jekyll to publish the site]({{ site.url }}{% post_url 2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if that meant giving up the ease of setup these other tools provide by having to build out something myself.
 
 Finding a way to do it all from within Jekyll was an important consideration since I wanted to "set it and forget it" as much as possible. Maintaining stylesheets and `includes` in two separate projects was a thought I didn't really want to entertain...
 

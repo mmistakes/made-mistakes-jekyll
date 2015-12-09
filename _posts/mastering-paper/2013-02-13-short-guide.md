@@ -32,8 +32,8 @@ Since publishing this short guide I've gone through several iPad styli and writt
 * A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
 {:.fl}
 
-[pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
-[1]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
+[pencil-stylus]: {{ site.url }}{% post_url 2014-11-28-pencil-53-review %}
+[1]: {{ site.url}}{% post_url 2013-07-08-pogo-connect-smart-pen %}
 [2]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [3]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
@@ -96,7 +96,7 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 
 <div class="notice--info" markdown="1">
 #### How to Draw Hair
-Read in detail [how I draw hair]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
+Read in detail [how I draw hair]({{ site.url }}{% post_url 2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
 </div>
 
 <figure>
