@@ -12,4 +12,4 @@ tags: [portrait, illustration, paper by 53, star trek]
 
 Mr. Spock and Captain Kirk --- a scene from the motion picture, **Star Trek Into Darkness**.
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

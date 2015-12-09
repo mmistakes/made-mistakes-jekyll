@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, blend, bokeh]
 
 PaperFaces portrait commission. *Beauty is in the moment, not the image.*
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-beauty-profile-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-beauty-profile-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of project donator [@kevinwoodland](http://twitter.com/kevinwoodland).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@genevasands](http://twitter.com/genevasands).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

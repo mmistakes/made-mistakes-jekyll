@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@nick_aylward](http://twitter.com/nick_aylward).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

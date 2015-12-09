@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@andrewbrewer](http://twitter.com/andrewbrewer).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-andrewbrewer-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-process-1-750.jpg" alt="Work in process screenshot"></a>

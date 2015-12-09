@@ -19,7 +19,7 @@ Using a soft and more loose approach, I painted with white to pull out highlight
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1110713) for your remixing pleasure.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
   <a href="{{ site.url }}/images/paperfaces-joker-original-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-joker-original-1-600.jpg" alt="Work in process screenshot"></a>

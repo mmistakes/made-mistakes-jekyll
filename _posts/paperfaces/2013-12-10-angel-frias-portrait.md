@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of <a href="http://instagram.com/angel__frias">@angel__frias</a>.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-angel-frias-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-angel-frias-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, blend]
 
 PaperFaces portrait of [@manzu](http://twitter.com/manzu).
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure>
   <a href="{{ site.url }}/images/paperfaces-manzu-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-manzu-process-1-750.jpg" alt="Work in process screenshot"></a>

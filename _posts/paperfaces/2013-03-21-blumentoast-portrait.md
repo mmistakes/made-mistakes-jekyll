@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 *Why so serious?* PaperFaces portrait of [@blumentoast](http://twitter.com/blumentoast).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

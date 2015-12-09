@@ -24,7 +24,7 @@ Getting pretty close to a setup that works well for me, just need to nail down t
 
 I've also shared several in-process sketches and the [finished illustration](https://mix.fiftythree.com/11098-Michael-Rose/2406576) on Mix for anyone to Remix.
 
-{% include paperfaces-boilerplate-5.html %}
+{% include boilerplate/paperfaces-5.html %}
 
 <figure class="third">
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/2394700"><img src="{{ site.url }}/images/paperfaces-mr-spock-process-1-600.jpg" alt="Work in process screenshot"></a>

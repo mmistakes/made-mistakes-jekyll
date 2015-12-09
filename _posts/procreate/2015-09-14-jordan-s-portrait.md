@@ -20,4 +20,4 @@ Not as muddy as some of my other Procreate paintings, but it still has that *oil
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-{% include procreate-boilerplate.html %}
+{% include boilerplate/procreate.html %}

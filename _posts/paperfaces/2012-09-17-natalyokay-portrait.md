@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@natalyokay](http://twitter.com/natalyokay).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

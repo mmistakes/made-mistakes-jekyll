@@ -12,6 +12,6 @@ tags: [star wars, portrait, illustration, paper by 53, time lapse]
 
 Starting Star Wars Day off with a portrait of my dude Boba. May the 4th be with you! Speed painting video is embedded below for your viewing pleasure.
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>

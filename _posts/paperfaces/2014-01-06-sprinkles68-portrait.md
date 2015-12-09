@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, black and white]
 
 PaperFaces portrait commission of [@Sprinkles68](http://twitter.com/Sprinkles68).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-sprinkles68-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-sprinkles68-process-1-600.jpg" alt="Work in process screenshot"></a>

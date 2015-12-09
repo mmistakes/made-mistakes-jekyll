@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, sktchy, texture]
 
 PaperFaces portrait of [Kalina B.](http://sktchy.com/142Fr) inspired by Sktchy.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-kalina-b-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-kalina-b-process-1-600.jpg" alt="Work in process screenshot"></a>

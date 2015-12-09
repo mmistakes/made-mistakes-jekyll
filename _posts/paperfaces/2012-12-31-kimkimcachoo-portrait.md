@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@kimkimcachoo](http://twitter.com/kimkimcachoo).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

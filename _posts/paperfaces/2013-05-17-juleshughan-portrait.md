@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@juleshughan](http://twitter.com/juleshughan).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

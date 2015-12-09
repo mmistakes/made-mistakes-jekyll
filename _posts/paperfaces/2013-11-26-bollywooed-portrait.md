@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, blend]
 
 PaperFaces portrait of <a href="http://twitter.com/BollyWooed">@BollyWooed</a>.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-bollywooed-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bollywooed-process-1-600.jpg" alt="Work in process screenshot"></a>

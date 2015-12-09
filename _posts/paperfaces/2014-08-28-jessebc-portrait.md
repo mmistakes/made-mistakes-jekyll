@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, beard, black and white, blend]
 
 PaperFaces portrait of [@jessebc](http://twitter.com/jessebc).
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-jessebc-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jessebc-process-1-600.jpg" alt="Work in process screenshot"></a>

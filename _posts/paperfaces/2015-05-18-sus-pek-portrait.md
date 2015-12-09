@@ -20,4 +20,4 @@ I'm a sucker for dramatic lit faces and have more queued up than I have time to 
   <figcaption>Work in progress drawings are <a href="https://mix.fiftythree.com/11098-Michael-Rose/2963830">available on Mix</a>.</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}

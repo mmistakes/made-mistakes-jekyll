@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@Dave_Buxton](http://twitter.com/Dave_Buxton).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

@@ -17,7 +17,7 @@ Knowing when to stop and leave well enough alone is something I wrestle with eve
 
 As always, I've shared the original illustration [on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1795397) for closer examination and remixing.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-rachel-b-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-rachel-b-process-1-600.jpg" alt="Work in process screenshot"></a>

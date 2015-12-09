@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@kennedysgarage](http://twitter.com/kennedysgarage).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

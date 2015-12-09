@@ -11,6 +11,6 @@ tags: [portrait, illustration, paper by 53, beard, time lapse]
 
 PaperFaces portrait of project donator [@joelmartinez](http://twitter.com/joelmartinez). Check out the making of video capture below where I compress a hour's worth of drawing in Paper by 53 into 5 minutes.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/WjmQYBgHjFI" frameborder="0"> </iframe>

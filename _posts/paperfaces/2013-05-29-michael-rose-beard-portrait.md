@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, michael rose, beard, self portrait]
 
 Thirty-four years and still kicking --- a PaperFaces self portrait on my birthday. Loving the new zoom tool that made added small details to my beard fun and painless. Thanks FiftyThree!
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/michael-rose-beard-process-1-lg.jpg"><img src="{{ site.url }}/images/michael-rose-beard-process-1-600.jpg" alt="Screenshot. Painting the background with watercolor."></a>

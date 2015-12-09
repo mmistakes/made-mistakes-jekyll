@@ -19,7 +19,7 @@ It's [been a while since I drew one]({{ site.url }}/tag/eye/) and thought it mig
 
 Overall I'm happy with the finished results, especially when you reduced the size of the drawing --- it looks just like a photograph!
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="third">
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/2180273"><img src="{{ site.url }}/images/paperfaces-kapi-m-process-1-600.jpg" alt="Work in process screenshot"></a>

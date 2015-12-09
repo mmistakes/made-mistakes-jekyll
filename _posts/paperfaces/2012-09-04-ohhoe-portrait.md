@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, tattoo]
 
 PaperFaces portrait of [@ohhoe](http://twitter.com/ohhoe).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

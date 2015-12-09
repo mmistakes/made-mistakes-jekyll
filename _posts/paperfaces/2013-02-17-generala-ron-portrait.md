@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@GeneralA_Ron](http://twitter.com/GeneralA_Ron).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

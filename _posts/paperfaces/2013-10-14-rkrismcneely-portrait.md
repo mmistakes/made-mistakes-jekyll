@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, 8bit]
 
 PaperFaces portrait of <a href="http://twitter.com/rkrismcneely">@rkrismcneely</a>.
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-rkrismcneely-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-rkrismcneely-process-1-750.jpg" alt="Work in process screenshot"></a>

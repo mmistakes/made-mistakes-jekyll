@@ -14,7 +14,7 @@ Each time I use Paper's pencil tool I'm impressed with how well it performs. It 
 
 PaperFaces portrait of Princess E. inspired by a photograph on Sktchy.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-princess-e-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-princess-e-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@ajkonieckijr](http://twitter.com/ajkonieckijr).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

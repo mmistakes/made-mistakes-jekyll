@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, sktchy]
 
 PaperFaces portrait of Charlotte H. inspired by a photograph on Sktchy.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-charlotte-h-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-charlotte-h-process-1-600.jpg" alt="Work in process screenshot"></a>

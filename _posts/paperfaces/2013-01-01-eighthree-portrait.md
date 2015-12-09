@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@eighthree](http://twitter.com/eighthree).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

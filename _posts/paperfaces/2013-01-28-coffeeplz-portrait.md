@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Coffeeplz](http://twitter.com/Coffeeplz).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

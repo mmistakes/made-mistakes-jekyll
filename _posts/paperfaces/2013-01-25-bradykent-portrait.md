@@ -11,6 +11,6 @@ tags: [portrait, illustration, paper by 53, time lapse]
 
 PaperFaces portrait of [@bradykent](http://twitter.com/bradykent).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/M5Ya9B-a0Mk" frameborder="0"> </iframe>

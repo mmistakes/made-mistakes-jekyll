@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 On our wedding day I took a photograph of my in laws. Some years later I used it to create this black and white illustration for a birthday present.
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

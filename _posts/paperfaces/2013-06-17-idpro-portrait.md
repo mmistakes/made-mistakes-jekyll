@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 Oops, I didn't paint any eyes. PaperFaces portrait of [@idPro](http://twitter.com/idPro).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

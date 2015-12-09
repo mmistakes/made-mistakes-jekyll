@@ -13,7 +13,7 @@ I merely added a few white highlights to the sunglasses and facial hair stubble,
 
 PaperFaces portrait of [@cocoapriest](http://twitter.com/cocoapriest).
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-cocoapriest-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-cocoapriest-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@ViktoriaDeRoy](http://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from [my first PaperFaces giveaway]({{ site.url }}/giveaway/).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-viktoriaderoy-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-viktoriaderoy-process-1-600.jpg" alt="Work in process screenshot"></a>

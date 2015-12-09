@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, sktchy, black and white]
 
 PaperFaces portrait of a [Joan Martin](http://sktchy.com/Ch7GVH) inspired by a photograph on Sktchy.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-joan-martin-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-joan-martin-process-1-600.jpg" alt="Work in process screenshot"></a>

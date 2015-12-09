@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, go, game]
 
 **Project Donator** [@brianjolive](http://twitter.com/brianjolive) commissioned this portrait of his great friend and long time teacher of *Go*. Below are some in process screen captures over the course of an hour as I worked on the illustration. Let me just say this, drawing straight lines on glass and getting the correct perspective isn't easy.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
   <a href="{{ site.url }}/images/paperfaces-go-master-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-go-master-process-1-600.jpg" alt=""></a>

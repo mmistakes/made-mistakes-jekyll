@@ -13,7 +13,7 @@ What's with all the full faces lately you ask? Well let's just say I set a chall
 
 PaperFaces portrait commission for [@adammorgan100](http://twitter.com/adammorgan100).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-adammorgan100-2-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-adammorgan100-2-process-1-600.jpg" alt="Work in process screenshot"></a>

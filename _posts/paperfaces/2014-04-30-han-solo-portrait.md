@@ -17,7 +17,7 @@ Last year I stuck to the original trilogy with my [Darth Vader]({{ site.url }}{%
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/9e1nPyHXCFQ" frameborder="0"> </iframe>
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-han-solo-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-han-solo-process-1-600.jpg" alt="Work in process screenshot"></a>

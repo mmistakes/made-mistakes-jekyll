@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Karen_Melgar](http://twitter.com/Karen_Melgar).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

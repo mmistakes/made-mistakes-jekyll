@@ -14,7 +14,7 @@ PaperFaces portrait commission of Clayton B.
 
 Drawing is available on [on Mix](https://mix.fiftythree.com/11098-Michael-Rose/300453) if you want a closer look.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure>
   <a href="{{ site.url }}/images/paperfaces-clayton-b-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-clayton-b-process-1-900.jpg" alt="Work in process screenshot"></a>

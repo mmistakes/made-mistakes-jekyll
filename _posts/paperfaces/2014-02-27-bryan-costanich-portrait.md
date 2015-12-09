@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of Bryan Costanich. Ladies and germs take note, this is how you wear a mustache.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-bryan-costanich-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bryan-costanich-process-1-600.jpg" alt="Work in process screenshot"></a>

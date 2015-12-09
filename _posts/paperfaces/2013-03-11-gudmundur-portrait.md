@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@gudmundur](http://twitter.com/gudmundur).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

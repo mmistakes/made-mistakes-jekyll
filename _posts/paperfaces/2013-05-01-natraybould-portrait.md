@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 Glasses shooting lasers. PaperFaces portrait of [@NatRaybould](http://twitter.com/NatRaybould).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

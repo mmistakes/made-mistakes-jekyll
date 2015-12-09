@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, blend, beard]
 
 PaperFaces portrait of [@kristoffbertram](http://twitter.com/kristoffbertram).
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-kristoffbertram-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-kristoffbertram-process-1-600.jpg" alt="Work in process screenshot"></a>

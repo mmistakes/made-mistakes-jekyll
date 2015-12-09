@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard, black and white]
 
 PaperFaces portrait of [@folktrash](http://twitter.com/folktrash).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

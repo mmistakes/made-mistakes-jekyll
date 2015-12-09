@@ -15,7 +15,7 @@ PaperFaces portrait of Eliza T. inspired by a [photograph on Sktchy](http://sktc
 
 The more I use Paper's pencil and watercolor tools the more I want to pick up my old art supplies. Someday I suppose...
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure>
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/1837294"><img src="{{ site.url }}/images/paperfaces-eliza-t-process-1-900.jpg" alt="Work in process screenshot"></a>

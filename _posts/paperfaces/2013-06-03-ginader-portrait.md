@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, black and white, head]
 
 PaperFaces portrait of [@ginader](http://twitter.com/ginader).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

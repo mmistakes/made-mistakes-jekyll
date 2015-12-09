@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, blend]
 
 PaperFaces portrait commission.
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-fivepops-2-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-fivepops-2-process-1-600.jpg" alt="Work in process screenshot"></a>

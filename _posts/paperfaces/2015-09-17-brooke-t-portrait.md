@@ -22,4 +22,4 @@ My first drawing completed with version 3.0 of Paper by FiftyThree. So far reall
   <figcaption>Work in progress drawings are <a href="https://paper.fiftythree.com/11098-Michael-Rose/5492331">available on Paper</a>.</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}

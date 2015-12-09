@@ -11,6 +11,6 @@ tags: [portrait, illustration, paper by 53, time lapse]
 
 PaperFaces portrait of [@bi11jon](http://twitter.com/bi11jon).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/dRIxg-RYJ9g" frameborder="0"> </iframe>

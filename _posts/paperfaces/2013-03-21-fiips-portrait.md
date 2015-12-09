@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Fiips_](http://twitter.com/Fiips_).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

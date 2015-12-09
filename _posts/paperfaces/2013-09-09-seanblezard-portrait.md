@@ -23,4 +23,4 @@ PaperFaces portrait of [@seanblezard](http://twitter.com/seanblezard).
 	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

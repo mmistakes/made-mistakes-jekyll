@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, eye]
 
 PaperFaces portrait of [@_andy_h_](http://twitter.com/_andy_h_).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

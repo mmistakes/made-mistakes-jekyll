@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, star wars]
 
 PaperFaces portrait of Lando Calrissian from Episode VI: Return of the Jedi.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-lando-calrissian-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lando-calrissian-process-1-600.jpg" alt="Work in process screenshot"></a>

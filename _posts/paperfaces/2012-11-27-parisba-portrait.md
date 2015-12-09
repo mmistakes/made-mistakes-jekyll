@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces avatar portrait for [@parisba](http://twitter.com/parisba).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

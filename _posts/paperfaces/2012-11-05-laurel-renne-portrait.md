@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Laurel_Renee](http://twitter.com/Laurel_Renee).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

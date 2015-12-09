@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Mstr_Dee](http://twitter.com/Mstr_Dee).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

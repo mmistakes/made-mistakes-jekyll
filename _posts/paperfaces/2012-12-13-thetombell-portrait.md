@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@thetombell](http://twitter.com/thetombell).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

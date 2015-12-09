@@ -14,7 +14,7 @@ PaperFaces portrait of Anne C. inspired by a photograph on Sktchy.
 
 For this drawing I thought it would be a good exercise to strengthen my hand/eye skills by drawing it sideways. Doing so allowed me to focus on drawing shapes and lines instead of what my brain *thought* it was seeing.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-anne-c-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-anne-c-process-1-600.jpg" alt="Work in process screenshot"></a>

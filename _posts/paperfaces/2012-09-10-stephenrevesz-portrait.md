@@ -13,4 +13,4 @@ PaperFaces portrait of [@stephenrevesz](http://twitter.com/stephenrevesz).
 
 PS. Thanks for the Dribbble invite dude!
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

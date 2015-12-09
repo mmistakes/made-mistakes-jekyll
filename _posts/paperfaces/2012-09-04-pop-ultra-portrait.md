@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Pop_Ultra](http://twitter.com/Pop_Ultra). In the right light she almost looks like Chewbacca --- but not really.
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

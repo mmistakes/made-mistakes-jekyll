@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@mr_craig](http://twitter.com/mr_craig).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

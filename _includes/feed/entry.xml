@@ -11,12 +11,12 @@
 
   <id>{{ base }}{{ post.id | xml_escape }}</id>
   <content type="html" xml:base="{{ base }}{{ post.url | xml_escape }}">
-    {% if post.image.feature %}{% include feed-feature-image.xml %}{% endif %}
+    {% if post.image.feature %}{% include feed/feature-image.xml %}{% endif %}
     {{ post.content | markdownify | xml_escape }}
-    {% include feed-footer.xml %}
+    {% include feed/footer.xml %}
   </content>
 
-  {% include feed-author.xml %}
+  {% include feed/author.xml %}
 
   {% if post.category %}
     <category term="{{ post.category | xml_escape }}" />

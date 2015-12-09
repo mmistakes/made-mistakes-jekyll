@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@marianeville_84](http://twitter.com/marianeville_84).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

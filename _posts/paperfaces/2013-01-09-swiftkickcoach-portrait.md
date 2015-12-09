@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@SwiftKickCoach_](http://twitter.com/SwiftKickCoach_).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

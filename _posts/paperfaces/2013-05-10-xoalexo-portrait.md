@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of project donator [@xoalexo](http://twitter.com/xoalexo). So glad FiftyThree added a zoom tool because that [iPad zoom trick](http://chris.pirillo.com/unlock-the-ipad-zoom-feature/) just wasn't cutting it.
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

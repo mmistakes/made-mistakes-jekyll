@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, sktchy]
 
 Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFaces portrait of [Mia Di D.](http://sktchy.com/BBBOaH) inspired by Sktchy.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-mia-di-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-mia-di-process-1-600.jpg" alt="Work in process screenshot"></a>

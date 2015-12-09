@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, black and white]
 
 PaperFaces portrait of project donator [@RobinBailey](http://twitter.com/RobinBailey).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

@@ -11,6 +11,6 @@ tags: [portrait, illustration, paper by 53, time lapse]
 
 PaperFaces portrait of [@tarungangwani](http://twitter.com/tarungangwani).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/1Q6fjg5G_GA" frameborder="0"> </iframe>

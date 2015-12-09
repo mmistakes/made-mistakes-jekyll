@@ -11,6 +11,6 @@ tags: [portrait, illustration, paper by 53, time lapse]
 
 PaperFaces portrait of [@Oog](http://twitter.com/Oog).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/bHp3aHMQxA0" frameborder="0"> </iframe>

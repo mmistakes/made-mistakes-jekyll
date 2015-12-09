@@ -22,4 +22,4 @@ One thing I've found working digitally these last couple of years is it can be a
   <figcaption>Work in progress drawings are <a href="https://mix.fiftythree.com/11098-Michael-Rose/3671059">available on Mix</a>.</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}

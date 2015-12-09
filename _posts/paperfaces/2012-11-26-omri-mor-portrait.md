@@ -11,6 +11,6 @@ tags: [portrait, illustration, paper by 53, time lapse]
 
 PaperFaces portrait of [@omri_mor](http://twitter.com/omri_mor).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/c2sYfotHIl0" frameborder="0"> </iframe>

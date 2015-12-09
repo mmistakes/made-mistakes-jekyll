@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Shamaiela](http://twitter.com/Shamaiela).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

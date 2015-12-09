@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@aragost](http://twitter.com/aragost).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

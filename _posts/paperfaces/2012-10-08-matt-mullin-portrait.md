@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@matt-mullin](http://twitter.com/matt-mullin).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

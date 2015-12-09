@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, graffiti]
 
 PaperFaces portrait of [@joeavella](http://twitter.com/joeavella).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

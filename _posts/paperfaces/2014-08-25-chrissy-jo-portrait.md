@@ -14,7 +14,7 @@ Chrissy does [fantastic illustrations](http://chrissyjo.com/) and after she drew
 
 PaperFaces portrait of Chrissy Jo inspired by a photograph on Sktchy.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-chrissy-jo-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-chrissy-jo-process-1-600.jpg" alt="Work in process screenshot"></a>

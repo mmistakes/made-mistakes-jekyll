@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, 8bit, beard]
 
 PaperFaces portrait of [@mattfieldy](http://twitter.com/mattfieldy).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-mattfieldy-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-mattfieldy-process-1-600.jpg" alt="Work in process screenshot"></a>

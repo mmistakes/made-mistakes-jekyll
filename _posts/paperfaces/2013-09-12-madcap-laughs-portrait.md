@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@Madcap_Laughs](http://twitter.com/Madcap_Laughs).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
   <a href="{{ site.url }}/images/paperfaces-madcap-laughs-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-madcap-laughs-process-1-750.jpg" alt="Work in process screenshot"></a>

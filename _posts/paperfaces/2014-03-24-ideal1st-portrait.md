@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, black and white, blend]
 
 PaperFaces portrait of [@ideal1st](http://twitter.com/ideal1st).
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-ideal1st-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-ideal1st-process-1-600.jpg" alt="Work in process screenshot"></a>

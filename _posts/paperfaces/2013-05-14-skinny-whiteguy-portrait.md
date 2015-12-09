@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@skinny_whiteguy](http://twitter.com/skinny_whiteguy).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

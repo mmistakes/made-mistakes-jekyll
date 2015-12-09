@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, black and white, romance, beard]
 
 Nothing says romance quite like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](http://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/roycroft-wedding-1-lg.jpg"><img src="{{ site.url }}/images/roycroft-wedding-1.jpg" alt="The bride"></a>

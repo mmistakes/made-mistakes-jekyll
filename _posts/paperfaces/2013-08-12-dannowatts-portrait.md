@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, trees, black and white, beard]
 
 PaperFaces portrait of [@dannowatts](http://twitter.com/dannowatts). Black and white mixed with some creepy trees makes for a perfect combination.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-dannowatts-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-dannowatts-process-1-600.jpg" alt="Work in process screenshot"></a>

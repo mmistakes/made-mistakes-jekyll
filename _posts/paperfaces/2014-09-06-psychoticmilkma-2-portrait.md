@@ -12,4 +12,4 @@ tags: [portrait, illustration, paper by 53, black and white, bokeh, blend]
 
 PaperFaces portrait for [@psychoticmilkma](http://twitter.com/psychoticmilkma), a winner from [my first portrait giveaway]({{ site.url }}/giveaway/).
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}

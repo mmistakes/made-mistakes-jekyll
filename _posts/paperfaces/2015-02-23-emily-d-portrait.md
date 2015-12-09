@@ -30,4 +30,4 @@ After I try out some other time lapse iOS apps I plan on sharing what I've learn
   <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}

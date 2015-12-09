@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 <em>I want your skulls &#8212; I need your skulls.</em> PaperFaces avatar portrait of <a href="http://twitter.com/misfit82">@misfit82</a>.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-misfit82-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-misfit82-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -22,4 +22,4 @@ There's something about the look of white on dark that I really enjoy. Perhaps i
   <figcaption>Work in progress drawings are <a href="https://mix.fiftythree.com/11098-Michael-Rose/3471365">available on Mix</a>.</figcaption>
 </figure>
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}

@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@RealPaul8rown](http://twitter.com/RealPaul8rown).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

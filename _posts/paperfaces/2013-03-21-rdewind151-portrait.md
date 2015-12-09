@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@rdewind151](http://twitter.com/rdewind151).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

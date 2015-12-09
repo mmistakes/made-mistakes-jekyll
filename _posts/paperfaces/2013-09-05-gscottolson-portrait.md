@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, black and white, beard]
 
 PaperFaces portrait of FiftyThree maker, [@gscottolson](http://twitter.com/gscottolson).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
   <a href="{{ site.url }}/images/paperfaces-gscottolson-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-gscottolson-process-1-750.jpg" alt="Work in process screenshot"></a>

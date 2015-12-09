@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@EvHip10](http://twitter.com/EvHip10).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

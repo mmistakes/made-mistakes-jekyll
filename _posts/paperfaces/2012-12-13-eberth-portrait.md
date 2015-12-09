@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of project donator [@eberth](http://twitter.com/eberth).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

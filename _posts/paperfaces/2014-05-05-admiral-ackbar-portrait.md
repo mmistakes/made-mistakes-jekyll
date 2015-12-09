@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, star wars, blend]
 
 PaperFaces portrait of Admiral Ackbar from Episode VI: Return of the Jedi.
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-admiral-ackbar-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-admiral-ackbar-process-1-600.jpg" alt="Work in process screenshot"></a>

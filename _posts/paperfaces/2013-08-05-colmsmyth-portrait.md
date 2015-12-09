@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@colmsmyth](http://twitter.com/colmsmyth).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-colmsmyth-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-colmsmyth-process-1-600.jpg" alt="Work in process screenshot"></a>

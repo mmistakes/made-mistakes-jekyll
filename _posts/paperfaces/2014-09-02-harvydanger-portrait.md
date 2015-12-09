@@ -12,4 +12,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@harvydanger](http://twitter.com/harvydanger), winner of [my first portrait giveaway]({{ site.url }}/giveaway/).
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}

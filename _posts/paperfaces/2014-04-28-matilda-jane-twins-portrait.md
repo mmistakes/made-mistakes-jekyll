@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, twins]
 
 PaperFaces portrait of the [two little rosebuds](http://2littlerosebuds.com/2014/04/24/matilda-jane-spring-clothing-review-giveaway-ends/) modeling clothing from Matilda Jane.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-mj-twins-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-mj-twins-process-1-600.jpg" alt="Work in process screenshot"></a>

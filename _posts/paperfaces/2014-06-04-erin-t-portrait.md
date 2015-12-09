@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, sktchy, black and white]
 
 PaperFaces portrait of a [Erin T.](http://sktchy.com/SUIJtH) inspired by a photograph on Sktchy.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-erin-t-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-erin-t-process-1-600.jpg" alt="Work in process screenshot"></a>

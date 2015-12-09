@@ -14,7 +14,7 @@ PaperFaces portrait of Luke Skywalker and Darth Vader from *Episode V: The Empir
 
 As I have done for the last 2 years, here's a new illustration drawn with Paper by FiftyThree in celebration of [**Star Wars Day**](http://www.starwars.com/may-the-4th). "May the Fourth Be With You!"
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-luke-vader-cave-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-luke-vader-cave-process-1-600.jpg" alt="Work in process screenshot"></a>

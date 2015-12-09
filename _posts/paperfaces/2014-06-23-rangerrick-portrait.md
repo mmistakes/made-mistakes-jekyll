@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@RangerRick](http://twitter.com/RangerRick).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-rangerrick-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-rangerrick-process-1-600.jpg" alt="Work in process screenshot"></a>

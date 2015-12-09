@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@parkr](http://twitter.com/parkr). Thought this Twitter name looked familiar, and then it hit me --- @parkr is one of the dudes doing solid development work on [Jekyll](http://jekyllrb.com), my favorite static site generator.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-parkr-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-parkr-process-1-600.jpg" alt="Work in process screenshot"></a>

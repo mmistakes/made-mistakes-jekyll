@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@farrenbennett](http://twitter.com/farrenbennett).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

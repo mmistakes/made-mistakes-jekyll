@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, blend]
 
 PaperFaces portrait of <a href="http://twitter.com/DariaLuna_">@DariaLuna_</a>.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-darialuna-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-darialuna-process-1-750.jpg" alt="Work in process screenshot"></a>

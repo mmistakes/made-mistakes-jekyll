@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, black and white]
 
 PaperFaces portrait of [@mifredk](http://twitter.com/mifredk).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-mifredk-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-mifredk-process-1-600.jpg" alt="Work in process screenshot"></a>

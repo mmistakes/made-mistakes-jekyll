@@ -12,7 +12,7 @@ tags: [portrait, illustration, paper by 53, blend, christmas, twins]
 
 Just a simple drawing of my twin girls, Everly and Chloe enjoying wrapping paper. I suppose at this age they're more concerned with shredding the covering than what's hidden beneath it.
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-rosebuds-christmas-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-rosebuds-christmas-process-1-750.jpg" alt="Work in process screenshot"></a>

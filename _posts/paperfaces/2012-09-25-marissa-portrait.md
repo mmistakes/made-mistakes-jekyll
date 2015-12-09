@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@marissa](http://twitter.com/marissa).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

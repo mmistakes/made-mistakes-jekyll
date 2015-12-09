@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@twe4ked](http://twitter.com/twe4ked).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

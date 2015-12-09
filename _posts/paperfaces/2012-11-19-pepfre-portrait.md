@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@pepfre](http://twitter.com/pepfre).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

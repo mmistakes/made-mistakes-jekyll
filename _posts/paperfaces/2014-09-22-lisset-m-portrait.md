@@ -16,7 +16,7 @@ For this drawing I wanted to try something a little looser than my latest drawin
 
 The original drawing is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/162842) if you want a closer look or to riff on.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="third">
   <a href="{{ site.url }}/images/paperfaces-lisset-m-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lisset-m-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, black and white, beard]
 
 PaperFaces portrait of [@toastroom](http://twitter.com/toastroom). It's hard to talk words without a mouth…
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-toastroom-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-toastroom-process-1-600.jpg" alt="Work in process screenshot"></a>

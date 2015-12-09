@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@unlockthedoc](http://twitter.com/unlockthedoc).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

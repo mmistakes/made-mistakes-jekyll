@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 Shirtless wearing military helmet in black and white. Drawn for [Selfless Portraits](http://selflessportraits.com).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

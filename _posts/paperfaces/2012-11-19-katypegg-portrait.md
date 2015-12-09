@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@katypegg](http://twitter.com/katypegg).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

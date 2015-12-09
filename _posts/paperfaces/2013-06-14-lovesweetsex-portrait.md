@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@lovesweetsex](http://twitter.com/lovesweetsex).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="half">
   <a href="{{ site.url }}/images/paperfaces-lovesweetsex-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-lovesweetsex-process-1-600.jpg" alt="Drawing lightly with the pencil"></a>

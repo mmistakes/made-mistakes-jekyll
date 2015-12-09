@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@_soaps](http://twitter.com/_soaps).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

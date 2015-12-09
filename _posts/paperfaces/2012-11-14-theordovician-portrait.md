@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@theordovician](http://twitter.com/theordovician).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

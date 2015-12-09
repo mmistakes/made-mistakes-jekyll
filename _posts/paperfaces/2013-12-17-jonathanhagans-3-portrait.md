@@ -15,7 +15,7 @@ But at the same time it has been fun approaching these portraits in a new way to
 
 PaperFaces portrait commission for <a href="http://twitter.com/jonathanhagans">@jonathanhagans</a>.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-jonathanhagans-3-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jonathanhagans-3-process-1-750.jpg" alt="Work in process screenshot"></a>

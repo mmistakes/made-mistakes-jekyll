@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@uwenna](http://twitter.com/uwenna).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

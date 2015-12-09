@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, sktchy, black and white]
 
 PaperFaces portrait commission of [Catherine C.](http://sktchy.com/4het8)
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure class="half">
 	<a href="{{ site.url }}/images/paperfaces-catherine-c-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-catherine-c-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Garlick_1989](http://twitter.com/Garlick_1989).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, blend, beard]
 
 PaperFaces portrait of [@theoduscrane](http://twitter.com/theoduscrane).
 
-{% include paperfaces-boilerplate-4.html %}
+{% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
 	<a href="{{ site.url }}/images/paperfaces-theoduscrane-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-theoduscrane-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@Rt44man](http://twitter.com/Rt44man).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

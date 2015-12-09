@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@Daigansf](http://twitter.com/Daigansf).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

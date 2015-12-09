@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@timonus](http://twitter.com/timonus).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

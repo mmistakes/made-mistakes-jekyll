@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@BraderSk8r](http://twitter.com/BraderSk8r).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

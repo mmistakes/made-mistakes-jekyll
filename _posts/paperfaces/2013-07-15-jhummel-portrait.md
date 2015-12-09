@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@jhummel](http://twitter.com/jhummel).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-jhummel-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jhummel-process-1-600.jpg" alt="Work in process screenshot"></a>

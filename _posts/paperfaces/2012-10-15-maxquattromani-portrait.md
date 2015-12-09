@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, black and white, beard]
 
 PaperFaces portrait of [@maxquattromani](http://twitter.com/maxquattromani).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

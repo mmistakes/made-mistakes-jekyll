@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 Orange and blue are complementary colors. PaperFaces portrait of [@Who_Her](http://twitter.com/Who_Her).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

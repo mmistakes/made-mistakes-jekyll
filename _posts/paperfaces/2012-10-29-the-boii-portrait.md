@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@the_boii](http://twitter.com/the_boii).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

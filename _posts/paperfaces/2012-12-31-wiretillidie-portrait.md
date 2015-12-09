@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait commissioned of [@wiretillidie](http://twitter.com/wiretillidie).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

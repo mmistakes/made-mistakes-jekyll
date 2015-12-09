@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@togsy](http://twitter.com/togsy).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

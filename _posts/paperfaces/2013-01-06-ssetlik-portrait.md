@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@ssetlik](http://twitter.com/ssetlik).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

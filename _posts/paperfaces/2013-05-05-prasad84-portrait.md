@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@prasad84](http://twitter.com/prasad84).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@rasmusfisker](http://twitter.com/rasmusfisker).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

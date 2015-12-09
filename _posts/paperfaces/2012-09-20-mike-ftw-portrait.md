@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@mike_FTW](http://twitter.com/mike_FTW).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

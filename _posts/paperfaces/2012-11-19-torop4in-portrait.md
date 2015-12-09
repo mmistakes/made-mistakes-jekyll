@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@torop4in](http://twitter.com/torop4in).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

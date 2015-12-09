@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, eye, blue]
 
 PaperFaces portrait of [@invalididentity](http://twitter.com/invalididentity). Another eye closeup for your viewing pleasure.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

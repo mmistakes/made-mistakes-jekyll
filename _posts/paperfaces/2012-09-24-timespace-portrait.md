@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of project donator [@timespace](http://twitter.com/timespace).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

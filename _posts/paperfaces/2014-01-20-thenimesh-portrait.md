@@ -19,4 +19,4 @@ PaperFaces portrait of [@thenimesh](http://twitter.com/thenimesh).
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/s4WEGH5r-1c" frameborder="0"> </iframe>
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}

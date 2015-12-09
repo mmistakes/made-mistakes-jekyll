@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@ashtonjames](http://twitter.com/ashtonjames).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

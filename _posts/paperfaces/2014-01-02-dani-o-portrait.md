@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, sktchy, black and white]
 
 PaperFaces portrait of Sktchy user [Dani O](http://sktchy.com/BVa6DC).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-dani-o-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-dani-o-process-1-750.jpg" alt="Work in process screenshot"></a>

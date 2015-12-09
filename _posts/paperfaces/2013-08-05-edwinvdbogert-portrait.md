@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@edwinvdbogert](http://twitter.com/edwinvdbogert). A replacement [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) arrived just in time for me to complete this drawing with a degree of realism I wouldn't have been able to without it. Thank's *Ten One Design* for taking care of my defective Pogo Connect so fast!
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-edwinvdbogert-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-edwinvdbogert-process-1-600.jpg" alt="Work in process screenshot"></a>

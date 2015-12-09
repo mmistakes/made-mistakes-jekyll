@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of project donator [@BradenRansome](http://twitter.com/BradenRansome).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

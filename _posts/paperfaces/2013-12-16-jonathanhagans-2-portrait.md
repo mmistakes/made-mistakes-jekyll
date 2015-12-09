@@ -13,7 +13,7 @@ Another rare appearance of actual faces…
 
 PaperFaces portrait commission for <a href="http://twitter.com/jonathanhagans">@jonathanhagans</a>.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-jonathanhagans-2-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jonathanhagans-2-process-1-750.jpg" alt="Work in process screenshot"></a>

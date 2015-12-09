@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@niall-obrien](http://twitter.com/niall-obrien).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

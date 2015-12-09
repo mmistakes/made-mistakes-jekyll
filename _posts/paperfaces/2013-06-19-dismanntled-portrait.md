@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, landscape]
 
 PaperFaces portrait of [@dismanntled](http://twitter.com/dismanntled).
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<img src="{{ site.url }}/images/paperfaces-dismanntled-process-1-600.jpg" alt="In process screenshot">

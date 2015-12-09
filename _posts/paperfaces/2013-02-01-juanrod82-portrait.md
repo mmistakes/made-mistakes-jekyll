@@ -11,6 +11,6 @@ tags: [portrait, illustration, paper by 53, time lapse]
 
 PaperFaces portrait of project donator [@juanrod82](http://twitter.com/juanrod82).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/ao7naXkW72Y" frameborder="0"> </iframe>

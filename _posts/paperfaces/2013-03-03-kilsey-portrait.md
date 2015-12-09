@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces portrait of [@kilsey](http://twitter.com/kilsey).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}

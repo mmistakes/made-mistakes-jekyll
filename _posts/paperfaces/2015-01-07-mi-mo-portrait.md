@@ -15,7 +15,7 @@ PaperFaces portrait of Mi Mo inspired by a [photograph on Sktchy](http://sktchy.
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1619293) if you want to rework it or get a closer look.
 
-{% include paperfaces-boilerplate-3.html %}
+{% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
   <a href="{{ site.url }}/images/paperfaces-mi-mo-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-mi-mo-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -11,7 +11,7 @@ tags: [portrait, illustration, paper by 53, beard]
 
 PaperFaces avatar portrait of <a href="http://twitter.com/Dubble_C">@Dubble_C</a>.
 
-{% include paperfaces-boilerplate-2.html %}
+{% include boilerplate/paperfaces-2.html %}
 
 <figure>
 	<a href="{{ site.url }}/images/paperfaces-dubble-c-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-dubble-c-process-1-750.jpg" alt="Work in process screenshot"></a>

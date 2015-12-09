@@ -11,4 +11,4 @@ tags: [portrait, illustration, paper by 53]
 
 PaperFaces portrait of [@ottmark](http://twitter.com/ottmark).
 
-{% include paperfaces-boilerplate.html %}
+{% include boilerplate/paperfaces.html %}
