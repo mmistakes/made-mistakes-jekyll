@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Inspiring Faces Want to Know"
 excerpt: "Finding inspiration from the faces of strangers on Sktchy for iOS."
 image: 
   feature: sktchys-of-me-feature.jpg
   teaser: sktchys-of-me-teaser.jpg
   thumb: sktchy-app-thumb.png
-category: articles
 tags: [sktchy, drawing, technology]
 comments: true
 ---

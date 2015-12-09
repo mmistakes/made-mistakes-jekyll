@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "...I feel cold. Death."
 excerpt: "PaperFaces portrait Luke Skywalker and Darth Vader drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-luke-vader-cave-lg.jpg
   teaser: paperfaces-luke-vader-cave-teaser.jpg
   thumb: paperfaces-luke-vader-cave-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, star wars, beard]
 ---
 

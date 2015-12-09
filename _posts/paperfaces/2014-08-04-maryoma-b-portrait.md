@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Wild Hair"
 excerpt: "PaperFaces portrait of Maryoma B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-maryoma-b-lg.jpg
   teaser: paperfaces-maryoma-b-teaser.jpg
   thumb: paperfaces-maryoma-b-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 

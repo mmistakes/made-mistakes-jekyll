@@ -8,7 +8,6 @@ modified:
 image: 
   teaser: tiny-paintings-teaser.jpg
   thumb: tiny-paintings-150.jpg
-category: work
 tags: [watercolor, painting, drawing, portrait, illustration]
 fullwidth: true
 featured: 

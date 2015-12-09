@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "Mastering Paper by FiftyThree: Drawing Outer Space"
 modified: 2015-06-17T15:07:42-04:00
-categories: mastering-paper
 excerpt: "Learn how I draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and Pencil."
 tags: [paper by 53, tutorial, space, blend, pencil, stylus, ipad]
 image:

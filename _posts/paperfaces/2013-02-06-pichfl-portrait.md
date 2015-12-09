@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Glasses wearing a plaid scarf"
 excerpt: "PaperFaces portrait of @pichfl drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pichfl-twitter-lg.jpg
   thumb: paperfaces-pichfl-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

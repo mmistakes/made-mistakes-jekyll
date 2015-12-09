@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Pixelated beard"
 excerpt: "PaperFaces portrait of @mattfieldy drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mattfieldy-twitter-lg.jpg
   teaser: paperfaces-mattfieldy-twitter-teaser.jpg
   thumb: paperfaces-mattfieldy-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, 8bit, beard]
 ---
 

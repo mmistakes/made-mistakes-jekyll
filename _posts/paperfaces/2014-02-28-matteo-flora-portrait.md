@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Getting realistic with gray"
 excerpt: "PaperFaces portrait of Matteo Flora drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-matteo-flora-lg.jpg
   thumb: paperfaces-matteo-flora-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

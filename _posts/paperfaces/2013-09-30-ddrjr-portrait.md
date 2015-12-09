@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Smile for Lady Liberty"
 excerpt: "PaperFaces portrait of @ddrjr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ddrjr-twitter-lg.jpg
   thumb: paperfaces-ddrjr-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

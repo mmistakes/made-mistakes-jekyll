@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hair in braids"
 excerpt: "PaperFaces portrait of @Tannice_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tannice-twitter-lg.jpg
   thumb: paperfaces-tannice-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

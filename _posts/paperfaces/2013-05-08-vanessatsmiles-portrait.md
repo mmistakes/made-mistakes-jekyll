@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Long hair with a slight curl"
 excerpt: "PaperFaces portrait of @VanessaTSmiles drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-vanessatsmiles-twitter-lg.jpg
   thumb: paperfaces-vanessatsmiles-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, time lapse]
 ---
 

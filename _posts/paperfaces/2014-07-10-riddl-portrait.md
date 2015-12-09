@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Riddle me this"
 excerpt: "PaperFaces portrait of @riddl drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-riddl-twitter-lg.jpg
   teaser: paperfaces-riddl-twitter-teaser.jpg
   thumb: paperfaces-riddl-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

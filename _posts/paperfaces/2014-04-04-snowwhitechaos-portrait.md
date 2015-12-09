@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Causing chaos"
 excerpt: "PaperFaces portrait of @SnowWhiteChaos drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-snowwhitechaos-twitter-lg.jpg
   thumb: paperfaces-snowwhitechaos-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

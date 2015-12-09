@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub Pages for free."
@@ -8,7 +7,6 @@ image:
   feature: jekyll-themes-feature.jpg
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
-category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 ---

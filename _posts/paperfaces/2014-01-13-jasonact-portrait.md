@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Overhead halo"
 excerpt: "PaperFaces portrait of @jasonact drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jasonact-twitter-lg.jpg
   thumb: paperfaces-jasonact-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

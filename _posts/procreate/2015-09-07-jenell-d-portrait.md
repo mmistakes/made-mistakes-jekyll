@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Don't Play with Soot"
 excerpt: "Portrait of Jenell D., digitally painted with Procreate on an iPad."
 modified: 2015-11-05T16:28:34-05:00
@@ -7,7 +6,6 @@ image:
   feature: jenell-d-procreate-lg.jpg
   teaser: jenell-d-procreate-teaser.jpg
   thumb: jenell-d-procreate-250.jpg
-category: procreate-paintings
 tags: [procreate, painting, drawing, portrait, illustration, time lapse, sktchy, black and white]
 ---
 

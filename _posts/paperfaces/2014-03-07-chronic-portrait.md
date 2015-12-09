@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Suit doesn't match the name"
 excerpt: "PaperFaces portrait of @chronic drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chronic-twitter-lg.jpg
   thumb: paperfaces-chronic-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

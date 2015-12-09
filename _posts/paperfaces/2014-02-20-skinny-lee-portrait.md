@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Redhead in shadow"
 excerpt: "PaperFaces portrait of Skinny Lee drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-skinny-lee-lg.jpg
   thumb: paperfaces-skinny-lee-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, blend]
 ---
 

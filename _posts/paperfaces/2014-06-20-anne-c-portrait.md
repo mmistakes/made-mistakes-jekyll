@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Sideways drawing"
 excerpt: "PaperFaces portrait of Anne C. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-anne-c-lg.jpg
   teaser: paperfaces-anne-c-teaser.jpg
   thumb: paperfaces-anne-c-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, sktchy]
 ---
 

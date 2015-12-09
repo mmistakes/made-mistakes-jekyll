@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Remember to always wear a helmet"
 excerpt: "PaperFaces portrait of @mmoutenot drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mmoutenot-twitter-lg.jpg
   thumb: paperfaces-mmoutenot-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

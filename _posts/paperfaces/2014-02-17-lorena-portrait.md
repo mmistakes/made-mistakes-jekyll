@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "A scenic view of The Mokes"
 excerpt: "PaperFaces portrait of Lorena drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lorena-lg.jpg
   thumb: paperfaces-lorena-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend]
 ---
 

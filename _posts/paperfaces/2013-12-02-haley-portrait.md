@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Two fer"
 excerpt: "PaperFaces portrait of @haley drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-haley-twitter-lg.jpg
   thumb: paperfaces-haley-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Happy doll"
 excerpt: "PaperFaces portrait of @tyrol_mr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tyrol-mr-twitter-lg.jpg
   teaser: paperfaces-tyrol-mr-twitter-teaser.jpg
   thumb: paperfaces-tyrol-mr-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

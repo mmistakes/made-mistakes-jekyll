@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Fuzzy Sweater"
 excerpt: "PaperFaces portrait of Andrew E. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-andrew-eick-twitter-lg.jpg
   teaser: paperfaces-andrew-eick-twitter-teaser.jpg
   thumb: paperfaces-andrew-eick-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

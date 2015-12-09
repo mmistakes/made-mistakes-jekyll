@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Die, Jedi, die!"
 excerpt: "PaperFaces portrait Darth Maul drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-darth-maul-lg.jpg
   teaser: paperfaces-darth-maul-teaser.jpg
   thumb: paperfaces-darth-maul-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, star wars]
 ---
 

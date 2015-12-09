@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "Collecting Records for the Artwork"
 excerpt: "How the hand crafted aesthetics found in DIY released emo and hardcore records started my collecting addiction."
-category: articles
 image: 
   feature: collecting-records-feature.jpg
   teaser: collecting-records-teaser.jpg

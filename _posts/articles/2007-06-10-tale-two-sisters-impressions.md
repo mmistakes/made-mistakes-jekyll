@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "Almost the Film Version of Fatal Frame"
 excerpt: "A Korean horror flick that reminded me of the Fatal Frame video game franchise."
-category: articles
 image: 
   feature: tale-two-sisters-floor-blood-feature.jpg
   teaser: tale-two-sisters-teaser.jpg

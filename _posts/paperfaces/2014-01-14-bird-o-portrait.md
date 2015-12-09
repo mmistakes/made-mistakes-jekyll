@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Feather necklace"
 excerpt: "PaperFaces portrait of Bird O. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bird-o-lg.jpg
   thumb: paperfaces-bird-o-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

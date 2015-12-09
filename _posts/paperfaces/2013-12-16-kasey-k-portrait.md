@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Polka dot drape"
 excerpt: "PaperFaces portrait of Kasey K. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kasey-k-lg.jpg
   thumb: paperfaces-kasey-k-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

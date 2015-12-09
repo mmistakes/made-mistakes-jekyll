@@ -1,8 +1,6 @@
 ---
-layout: article
 title: RRIICCEE Show Last Night
 excerpt: "Musically &#8212; RRIICCEE is fine, but not something I really want to see live again."
-category: articles
 image: 
   feature: rriiccee-feature.jpg
   teaser: rriiccee-teaser.jpg

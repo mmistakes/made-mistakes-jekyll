@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Bright whites"
 excerpt: "PaperFaces portrait of @oxodesign drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-oxodesign-twitter-lg.jpg
   thumb: paperfaces-oxodesign-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

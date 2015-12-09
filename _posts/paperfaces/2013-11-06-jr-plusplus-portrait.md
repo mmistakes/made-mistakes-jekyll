@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hairs on fire"
 excerpt: "PaperFaces portrait of @jr_plusplus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jr-plusplus-twitter-lg.jpg
   thumb: paperfaces-jr-plusplus-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

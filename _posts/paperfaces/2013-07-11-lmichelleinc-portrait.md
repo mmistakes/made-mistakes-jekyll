@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Curly hair on the grass"
 excerpt: "PaperFaces portrait of @lmichelleinc drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lmichelleinc-twitter-lg.jpg
   thumb: paperfaces-lmichelleinc-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Stylin' pose"
 excerpt: "PaperFaces portrait of a Patricia F. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-patricia-f-lg.jpg
   thumb: paperfaces-patricia-f-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 

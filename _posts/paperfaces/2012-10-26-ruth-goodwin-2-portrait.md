@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Sunglass chillin friends"
 excerpt: "PaperFaces portrait of @Ruth_Goodwin and friend drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ruth-goodwin-2-twitter-lg.jpg
   thumb: paperfaces-ruth-goodwin-2-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Kissy kissy"
 excerpt: "PaperFaces portrait of @xHerzdame drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-xherzdame-twitter-lg.jpg
   thumb: paperfaces-xherzdame-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

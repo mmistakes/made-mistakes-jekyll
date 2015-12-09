@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Watercolor Shades"
 excerpt: "PaperFaces portrait of @Farbenprinz drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-farbenprinz-twitter-lg.jpg
   teaser: paperfaces-farbenprinz-twitter-teaser.jpg
   thumb: paperfaces-farbenprinz-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

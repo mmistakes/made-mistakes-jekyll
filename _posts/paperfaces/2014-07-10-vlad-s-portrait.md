@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "The darkness"
 excerpt: "PaperFaces portrait of Vlad S. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-vlad-s-lg.jpg
   teaser: paperfaces-vlad-s-teaser.jpg
   thumb: paperfaces-vlad-s-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Dramatic contrast and a hint of smile"
 excerpt: "PaperFaces portrait of @andispringer drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-andispringer-twitter-lg.jpg
   thumb: paperfaces-andispringer-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

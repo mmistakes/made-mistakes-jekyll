@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Easter Egg Marriage Proposal"
 excerpt: "Two years ago on this day, I proposed to my wife Wendy by leading her on an Easter egg scavenger hunt."
 image: 
   feature: romance-engagement-feature.jpg
   teaser: romance-engagement-teaser.jpg
   thumb: romance-engagement-thumb.jpg
-category: articles
 tags: [engagement, proposal, romance]
 ---
 

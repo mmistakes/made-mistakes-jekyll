@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Tiger Style"
 excerpt: "PaperFaces portrait of the Vanessa S. drawn with Paper by 53 on an iPad."
 modified: 2014-12-10T14:21:27-05:00
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-vanessa-s-lg.jpg
   teaser: paperfaces-vanessa-s-teaser.jpg
   thumb: paperfaces-vanessa-s-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white, mix]
 ---
 

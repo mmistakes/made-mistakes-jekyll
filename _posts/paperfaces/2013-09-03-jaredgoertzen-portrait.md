@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "America Eff Yeah!"
 excerpt: "PaperFaces portrait of @jaredgoertzen drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jaredgoertzen-twitter-lg.jpg
   thumb: paperfaces-jaredgoertzen-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, beard]
 ---
 

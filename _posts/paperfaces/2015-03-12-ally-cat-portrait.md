@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Red vs Green"
 excerpt: "PaperFaces portrait of the Ally Cat drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-ally-cat-lg.jpg
   teaser: paperfaces-ally-cat-teaser.jpg
   thumb: paperfaces-ally-cat-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, mix, time lapse]
 ---
 

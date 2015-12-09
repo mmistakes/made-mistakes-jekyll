@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Grayscale and Pencil and Blend oh my!"
 excerpt: "PaperFaces portrait of @GrantLandram drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-grantlandram-twitter-lg.jpg
   thumb: paperfaces-grantlandram-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, blend, time lapse]
 ---
 

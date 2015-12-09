@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "Mastering Paper by FiftyThree: Watercolor Brush Improvements"
 modified:
-categories: mastering-paper
 excerpt: "Discover the secrets of Paper by FifyThree's newly updated watercolor brush in this short tutorial and video."
 tags: [paper by 53, tutorial, painting, ipad]
 image:

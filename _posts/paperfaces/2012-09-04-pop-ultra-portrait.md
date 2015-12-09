@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Lens flared friend"
 excerpt: "PaperFaces portrait of @Pop_Ultra drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pop-ultra-twitter-lg.jpg
   thumb: paperfaces-pop-ultra-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

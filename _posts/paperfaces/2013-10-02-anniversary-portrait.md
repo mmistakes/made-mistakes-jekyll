@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Happy Anniversary"
 excerpt: "PaperFaces portrait of my wife on our wedding day drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-anniversary-portrait-lg.jpg
   thumb: paperfaces-anniversary-portrait-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, romance, beard]
 ---
 

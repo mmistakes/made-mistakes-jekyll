@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "A Face That Hides"
 excerpt: "PaperFaces portrait of the Lisset M. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lisset-m-lg.jpg
   teaser: paperfaces-lisset-m-teaser.jpg
   thumb: paperfaces-lisset-m-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, mix]
 ---
 

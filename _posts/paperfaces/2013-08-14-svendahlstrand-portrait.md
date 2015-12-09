@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Smile, you're on candid camera"
 excerpt: "PaperFaces portrait of @svendahlstrand drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-svendahlstrand-twitter-lg.jpg
   thumb: paperfaces-svendahlstrand-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

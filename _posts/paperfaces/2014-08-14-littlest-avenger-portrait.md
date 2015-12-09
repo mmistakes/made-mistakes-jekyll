@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "The Littlest Avenger"
 excerpt: "PaperFaces portrait of the littlest Avenger drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-littlest-avenger-lg.jpg
   teaser: paperfaces-littlest-avenger-teaser.jpg
   thumb: paperfaces-littlest-avenger-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, blend]
 ---
 

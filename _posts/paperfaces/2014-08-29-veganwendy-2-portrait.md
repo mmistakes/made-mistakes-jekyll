@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Revisiting the First PaperFace"
 excerpt: "PaperFaces portrait of my wife revisited after two years of drawing with Paper."
 image: 
   feature: paperfaces-veganwendy-2-twitter-lg.jpg
   teaser: paperfaces-veganwendy-2-twitter-teaser.jpg
   thumb: paperfaces-veganwendy-2-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

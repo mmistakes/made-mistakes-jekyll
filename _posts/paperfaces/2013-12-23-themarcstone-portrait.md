@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Winter cap in the street"
 excerpt: "PaperFaces portrait of @TheMarcStone drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-themarcstone-twitter-lg.jpg
   thumb: paperfaces-themarcstone-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, beard]
 ---
 

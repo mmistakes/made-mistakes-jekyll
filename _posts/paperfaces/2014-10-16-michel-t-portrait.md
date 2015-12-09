@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "White Room with Gray"
 excerpt: "PaperFaces portrait commission of Michel T. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-michel-t-lg.jpg
   teaser: paperfaces-michel-t-teaser.jpg
   thumb: paperfaces-michel-t-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

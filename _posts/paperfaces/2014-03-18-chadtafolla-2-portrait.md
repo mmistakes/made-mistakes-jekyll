@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Drinks in gray"
 excerpt: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chadtafolla-2-twitter-lg.jpg
   thumb: paperfaces-chadtafolla-2-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Rose tinted sunglasses"
 excerpt: "PaperFaces portrait of @dudrenov drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dudrenov-twitter-lg.jpg
   thumb: paperfaces-dudrenov-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

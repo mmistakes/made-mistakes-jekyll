@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Artist in gray"
 excerpt: "PaperFaces portrait of a Joan Martin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joan-martin-lg.jpg
   thumb: paperfaces-joan-martin-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 

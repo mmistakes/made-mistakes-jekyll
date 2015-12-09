@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "This Dog Stole My Hat"
 excerpt: "PaperFaces portrait of Diego S. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-diego-s-lg.jpg
   teaser: paperfaces-diego-s-teaser.jpg
   thumb: paperfaces-diego-s-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Movember is over"
 excerpt: "PaperFaces portrait of @BigMajk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bigmajk-twitter-lg.jpg
   thumb: paperfaces-bigmajk-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

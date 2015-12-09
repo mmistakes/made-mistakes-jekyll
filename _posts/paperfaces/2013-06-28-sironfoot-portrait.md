@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Some sort of furry"
 excerpt: "PaperFaces of @sironfoot's avatar drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sironfoot-twitter-lg.jpg
   thumb: paperfaces-sironfoot-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

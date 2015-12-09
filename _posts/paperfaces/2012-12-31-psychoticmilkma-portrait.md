@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Raiden wins. Flawless victory!"
 excerpt: "PaperFaces portrait of @psychoticmilkma drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-psychoticmilkma-twitter-lg.jpg
   thumb: paperfaces-psychoticmilkma-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, beard, time lapse]
 ---
 

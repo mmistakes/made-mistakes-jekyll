@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Rohan robber"
 excerpt: "PaperFaces portrait of @rotub drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rotub-twitter-lg.jpg
   thumb: paperfaces-rotub-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

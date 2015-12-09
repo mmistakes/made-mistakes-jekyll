@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Low contrast is the best contrast"
 excerpt: "PaperFaces portrait of @syropian drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-syropian-twitter-lg.jpg
   thumb: paperfaces-syropian-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

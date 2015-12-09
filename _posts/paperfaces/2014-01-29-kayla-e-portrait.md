@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Forest lighting"
 excerpt: "PaperFaces portrait of Kayla E. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kayla-e-lg.jpg
   teaser: paperfaces-kayla-e-teaser.jpg
   thumb: paperfaces-kayla-e-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, blend, bokeh]
 ---
 

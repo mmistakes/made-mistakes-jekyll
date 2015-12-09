@@ -8,7 +8,6 @@ modified: 2015-11-30T13:04:16-05:00
 image: 
   thumb: paperfaces-project-250x250.jpg
   teaser: paperfaces-project-teaser.jpg
-category: work
 tags: [paper by 53, portrait, drawing, painting, ipad, illustration, 365 project]
 fullwidth: true
 featured: true

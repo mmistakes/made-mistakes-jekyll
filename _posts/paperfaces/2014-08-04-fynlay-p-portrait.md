@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Half and Half"
 excerpt: "PaperFaces portrait of Fynlay P. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fynlay-p-lg.jpg
   teaser: paperfaces-fynlay-p-teaser.jpg
   thumb: paperfaces-fynlay-p-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "The color of ice"
 excerpt: "PaperFaces portrait of @EmmaIKesselhut drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-emmaikesselhut-twitter-lg.jpg
   thumb: paperfaces-emmaikesselhut-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

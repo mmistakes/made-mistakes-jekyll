@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Sitting in grass"
 excerpt: "PaperFaces portrait of @ericdfields drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ericdfields-twitter-lg.jpg
   thumb: paperfaces-ericdfields-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, grass]
 ---
 

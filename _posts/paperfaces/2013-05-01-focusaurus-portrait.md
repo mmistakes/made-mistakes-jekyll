@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Pink mohawk"
 excerpt: "PaperFaces portrait of @focusaurus drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-focusaurus-twitter-lg.jpg
   thumb: paperfaces-focusaurus-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

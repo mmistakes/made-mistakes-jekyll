@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Only God Forgives"
 excerpt: "PaperFaces portrait of Ryan Gosling drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ryan-gosling-lg.jpg
   thumb: paperfaces-ryan-gosling-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

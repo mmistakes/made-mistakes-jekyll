@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Mountain Posing"
 excerpt: "PaperFaces portrait of @smroux drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-smroux-twitter-lg.jpg
   teaser: paperfaces-smroux-twitter-teaser.jpg
   thumb: paperfaces-smroux-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

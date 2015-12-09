@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "PaperFaces portrait of a Go master"
 excerpt: "PaperFaces portrait of a Go master drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-go-master-lg.jpg
   thumb: paperfaces-go-master-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, go, game]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Motorcycle jacket in soft focus"
 excerpt: "PaperFaces portrait of @steve_fenton drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-steve-fenton-twitter-lg.jpg
   thumb: paperfaces-steve-fenton-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, black and white]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Mohawk in gray"
 excerpt: "PaperFaces portrait of @iainspad drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-iainspad-twitter-lg.jpg
   thumb: paperfaces-iainspad-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

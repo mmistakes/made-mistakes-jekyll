@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Patterns of plaid"
 excerpt: "PaperFaces portrait of @seanblezard drawn with Paper by 53 on an iPad."
 modified: 2013-09-12
 image: 
   feature: paperfaces-seanblezard-twitter-lg.jpg
   thumb: paperfaces-seanblezard-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

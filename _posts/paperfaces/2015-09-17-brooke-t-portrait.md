@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Hair Scarf"
 excerpt: "PaperFaces portrait of Brooke T. drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,11 +6,10 @@ image:
   feature: paperfaces-brooke-t-lg.jpg
   teaser: paperfaces-brooke-t-teaser.jpg
   thumb: paperfaces-brooke-t-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 
-PaperFaces portrait of Katelyn M. inspired by a [photograph on Sktchy](http://sktchy.com/S3B8m).
+PaperFaces portrait of Brooke T. inspired by a [photograph on Sktchy](http://sktchy.com/S3B8m).
 
 My first drawing completed with version 3.0 of Paper by FiftyThree. So far really enjoying the full screen zoom just wish it had more levels of magnification.
 

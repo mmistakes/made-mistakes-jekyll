@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Feet up relaxin'"
 excerpt: "PaperFaces portrait of @laramulady drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-laramulady-twitter-lg.jpg
   thumb: paperfaces-laramulady-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

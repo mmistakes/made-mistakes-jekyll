@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Painting contrast in gray"
 excerpt: "PaperFaces portrait of @_Big_M_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-big-m-twitter-lg.jpg
   thumb: paperfaces-big-m-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

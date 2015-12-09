@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "The Battle Within"
 excerpt: "PaperFaces portrait of the Rafi Z. drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-rafi-z-lg.jpg
   teaser: paperfaces-rafi-z-teaser.jpg
   thumb: paperfaces-rafi-z-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, mix, time lapse, black and white]
 ---
 

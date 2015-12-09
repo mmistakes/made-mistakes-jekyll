@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Rosebuds in the Pumpkin Patch"
 excerpt: "PaperFaces portrait of my two little rosebuds playing at the Great Pumpkin Farm."
 image: 
   feature: paperfaces-rosebuds-pumpkins-lg.jpg
   teaser: paperfaces-rosebuds-pumpkins-teaser.jpg
   thumb: paperfaces-rosebuds-pumpkins-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, twins, mix]
 ---
 

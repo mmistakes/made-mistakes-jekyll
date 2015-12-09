@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Painted nails"
 excerpt: "PaperFaces portrait of @lisaorye drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lisaorye-twitter-lg.jpg
   thumb: paperfaces-lisaorye-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

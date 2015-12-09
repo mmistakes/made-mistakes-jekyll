@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "PaperFaces portrait of The In Laws"
 excerpt: "PaperFaces portrait of The In Laws drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-the-wards-lg.jpg
   thumb: paperfaces-the-wards-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Blue is the Warmest Color"
 excerpt: "PaperFaces portrait of Sonja B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sonja-b-lg.jpg
   teaser: paperfaces-sonja-b-teaser.jpg
   thumb: paperfaces-sonja-b-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

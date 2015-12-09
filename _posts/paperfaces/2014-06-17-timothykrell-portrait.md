@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Glasses of the gray"
 excerpt: "PaperFaces portrait of @timothykrell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-timothykrell-twitter-lg.jpg
   teaser: paperfaces-timothykrell-twitter-teaser.jpg
   thumb: paperfaces-timothykrell-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hold up your iPhone in honor of iOS 7"
 excerpt: "PaperFaces portrait of @agebhard drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-agebhard-twitter-lg.jpg
   thumb: paperfaces-agebhard-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, beard]
 ---
 

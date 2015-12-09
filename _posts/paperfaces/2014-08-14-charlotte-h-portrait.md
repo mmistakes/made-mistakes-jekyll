@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Chalkboard Words"
 excerpt: "PaperFaces portrait of the Charlotte H. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-charlotte-h-lg.jpg
   teaser: paperfaces-charlotte-h-teaser.jpg
   thumb: paperfaces-charlotte-h-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

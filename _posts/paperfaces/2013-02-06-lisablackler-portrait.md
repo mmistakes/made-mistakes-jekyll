@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Pink and bright violet tones"
 excerpt: "PaperFaces portrait of @Lisablackler drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lisablackler-twitter-lg.jpg
   thumb: paperfaces-lisablackler-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

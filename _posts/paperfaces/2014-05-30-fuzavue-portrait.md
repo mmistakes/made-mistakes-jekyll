@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Guitar shredding"
 excerpt: "PaperFaces portrait of @fuzavue drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fuzavue-twitter-lg.jpg
   teaser: paperfaces-fuzavue-twitter-teaser.jpg
   thumb: paperfaces-fuzavue-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

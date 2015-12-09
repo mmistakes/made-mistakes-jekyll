@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "That old time photo look"
 excerpt: "PaperFaces portrait of @chrishnry drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chrishnry-twitter-lg.jpg
   thumb: paperfaces-chrishnry-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 

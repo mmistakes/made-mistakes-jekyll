@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "Paper Creators, Join Me in the Mix"
 modified: 2014-11-25T16:23:24-05:00
-categories: mastering-paper
 excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring Paper creators easy and fun."
 tags: [paper by 53, mix, ipad]
 image:

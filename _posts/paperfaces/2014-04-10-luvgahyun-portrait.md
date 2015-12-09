@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hug the moon"
 excerpt: "PaperFaces portrait of @luvgahyun drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-luvgahyun-twitter-lg.jpg
   thumb: paperfaces-luvgahyun-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

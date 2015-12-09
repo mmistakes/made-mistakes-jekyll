@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Long hair and lips"
 excerpt: "PaperFaces portrait of @SarahEWells drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sarahewells-twitter-lg.jpg
   thumb: paperfaces-sarahewells-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Fire tipped hair"
 excerpt: "PaperFaces portrait of Carmel G. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-carmel-g-lg.jpg
   thumb: paperfaces-carmel-g-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, sktchy]
 ---
 

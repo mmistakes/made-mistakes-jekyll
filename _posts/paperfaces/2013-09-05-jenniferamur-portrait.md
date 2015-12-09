@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Missing plastic chairs"
 excerpt: "PaperFaces portrait of @jenniferamur drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jenniferamur-twitter-lg.jpg
   thumb: paperfaces-jenniferamur-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

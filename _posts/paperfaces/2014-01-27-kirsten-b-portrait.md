@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Polka dot draws"
 excerpt: "PaperFaces portrait of Kirsten B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kirsten-b-lg.jpg
   thumb: paperfaces-kirsten-b-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

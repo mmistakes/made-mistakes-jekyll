@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Red brick hair"
 excerpt: "PaperFaces portrait of Lauren Mudrock drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lauren-mudrock-lg.jpg
   thumb: paperfaces-lauren-mudrock-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

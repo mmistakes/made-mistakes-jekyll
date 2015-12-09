@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Faking Pencil with Pencil"
 excerpt: "PaperFaces portrait of the Princess E. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-princess-e-lg.jpg
   teaser: paperfaces-princess-e-teaser.jpg
   thumb: paperfaces-princess-e-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

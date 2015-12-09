@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Faking Bokehs Again"
 excerpt: "PaperFaces portrait of @mosiejczuk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mosiejczuk-twitter-lg.jpg
   teaser: paperfaces-mosiejczuk-twitter-teaser.jpg
   thumb: paperfaces-mosiejczuk-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, bokeh, black and white]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Curly locks of hair"
 excerpt: "PaperFaces portrait of @curlycrazy drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-curlycrazy-twitter-lg.jpg
   thumb: paperfaces-curlycrazy-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

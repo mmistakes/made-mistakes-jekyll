@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Bird back"
 excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-allyson-b-lg.jpg
   thumb: paperfaces-allyson-b-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, tattoo]
 ---
 

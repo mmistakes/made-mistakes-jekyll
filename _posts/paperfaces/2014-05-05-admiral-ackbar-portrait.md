@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "It's a trap!"
 excerpt: "PaperFaces portrait Admiral Ackbar drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-admiral-ackbar-lg.jpg
   teaser: paperfaces-admiral-ackbar-teaser.jpg
   thumb: paperfaces-admiral-ackbar-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, star wars, blend]
 ---
 

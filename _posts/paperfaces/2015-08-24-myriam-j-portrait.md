@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Unfinished Except Nose"
 excerpt: "PaperFaces portrait of Myriam J. drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-myriam-j-lg.jpg
   teaser: paperfaces-myriam-j-teaser.jpg
   thumb: paperfaces-myriam-j-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white, mix]
 ---
 

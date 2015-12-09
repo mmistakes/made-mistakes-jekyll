@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Is that a hanging noose?"
 excerpt: "PaperFaces portrait of @ZachoryBenton drawn with Paper by 53 on an iPad."
 modified: 2013-09-12
 image: 
   feature: paperfaces-zachorybenton-twitter-lg.jpg
   thumb: paperfaces-zachorybenton-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

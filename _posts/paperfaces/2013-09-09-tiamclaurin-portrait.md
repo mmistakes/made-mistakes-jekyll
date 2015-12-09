@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Brightly in blue"
 excerpt: "PaperFaces portrait of @tiamclaurin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tiamclaurin-twitter-lg.jpg
   thumb: paperfaces-tiamclaurin-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

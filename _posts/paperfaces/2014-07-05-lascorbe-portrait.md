@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Sharks have fins"
 excerpt: "PaperFaces portrait of @Lascorbe drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lascorbe-twitter-lg.jpg
   teaser: paperfaces-lascorbe-twitter-teaser.jpg
   thumb: paperfaces-lascorbe-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

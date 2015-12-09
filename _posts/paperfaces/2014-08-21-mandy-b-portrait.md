@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Vampires that Sparkle"
 excerpt: "PaperFaces portrait of the Mandy B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mandy-b-lg.jpg
   teaser: paperfaces-mandy-b-teaser.jpg
   thumb: paperfaces-mandy-b-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, sktchy]
 ---
 

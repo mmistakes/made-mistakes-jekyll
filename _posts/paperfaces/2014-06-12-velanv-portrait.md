@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Coffee mug bokeh"
 excerpt: "PaperFaces portrait of @velanv drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-velanv-twitter-lg.jpg
   teaser: paperfaces-velanv-twitter-teaser.jpg
   thumb: paperfaces-velanv-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, bokeh, beard]
 ---
 

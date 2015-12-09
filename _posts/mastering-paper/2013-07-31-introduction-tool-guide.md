@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Mastering Paper by FiftyThree: Introduction and Tool Guide"
 excerpt: "An introduction to Paper's tools and how to exploit them for drawing realistically."
 modified: 2015-01-27T16:00:50-05:00
@@ -7,7 +6,6 @@ image:
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
   teaser: paper-53-expanded-guide-teaser.jpg
-category: mastering-paper
 tags: [paper by 53, tutorial, drawing, painting, ipad, stylus]
 comments: true
 ---

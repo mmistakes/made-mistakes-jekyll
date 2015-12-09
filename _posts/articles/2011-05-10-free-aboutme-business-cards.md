@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "My About.me Profile and Free Moo Business Cards"
 excerpt: "How 5 minutes spent creating an About.me profile nabbed me custom Moo business cards of my own design."
-category: articles
 image: 
   feature: about-me-featured.jpg
   teaser: about-me-teaser.jpg

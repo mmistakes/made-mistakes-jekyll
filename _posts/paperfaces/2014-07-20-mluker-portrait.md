@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Pixelated glasses"
 excerpt: "PaperFaces portrait of @mluker drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mluker-twitter-lg.jpg
   teaser: paperfaces-mluker-twitter-teaser.jpg
   thumb: paperfaces-mluker-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 

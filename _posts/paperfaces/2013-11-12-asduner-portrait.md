@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "QR coded"
 excerpt: "PaperFaces portrait of @asduner drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-asduner-twitter-lg.jpg
   thumb: paperfaces-asduner-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

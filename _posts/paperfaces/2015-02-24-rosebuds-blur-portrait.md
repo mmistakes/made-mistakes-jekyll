@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Rosebuds in Blur"
 excerpt: "PaperFaces portrait of the my two little rosebuds drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-rosebuds-blur-lg.jpg
   teaser: paperfaces-rosebuds-blur-teaser.jpg
   thumb: paperfaces-rosebuds-blur-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, twins, mix, time lapse, black and white, blend, bokeh]
 ---
 

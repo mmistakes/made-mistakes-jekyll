@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Pink tips"
 excerpt: "PaperFaces portrait of @mich-maci drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mich-maci-twitter-lg.jpg
   thumb: paperfaces-mich-maci-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

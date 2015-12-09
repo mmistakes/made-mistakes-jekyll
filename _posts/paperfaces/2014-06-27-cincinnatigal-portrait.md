@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "How much is that doggy in the window?"
 excerpt: "PaperFaces portrait of @CincinnatiGal drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cincinnatigal-twitter-lg.jpg
   teaser: paperfaces-cincinnatigal-twitter-teaser.jpg
   thumb: paperfaces-cincinnatigal-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, dog]
 ---
 

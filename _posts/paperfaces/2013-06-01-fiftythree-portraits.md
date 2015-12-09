@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "A PaperFaces Thank You for FiftyThree"
 excerpt: "PaperFaces portraits of the makers at FiftyThree using Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fiftythree-lg.jpg
   thumb: paperfaces-fiftythree-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

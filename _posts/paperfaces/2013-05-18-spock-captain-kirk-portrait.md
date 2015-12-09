@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "PaperFaces portrait of Mr. Spock and Captain Kirk"
 excerpt: "PaperFaces portrait of Mr. Spock and Captain Kirk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-spock-kirk-star-trek-lg.jpg
   teaser: paperfaces-spock-kirk-star-trek-teaser.jpg
   thumb: paperfaces-spock-kirk-star-trek-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, star trek]
 ---
 

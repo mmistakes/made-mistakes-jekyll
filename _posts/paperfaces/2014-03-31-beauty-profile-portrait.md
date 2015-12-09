@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Beauty is in the moment"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-beauty-profile-lg.jpg
   teaser: paperfaces-beauty-profile-teaser.jpg
   thumb: paperfaces-beauty-profile-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, bokeh]
 ---
 

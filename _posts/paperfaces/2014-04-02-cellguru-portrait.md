@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hoodie and a glow"
 excerpt: "PaperFaces portrait of @cellguru drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cellguru-twitter-lg.jpg
   thumb: paperfaces-cellguru-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

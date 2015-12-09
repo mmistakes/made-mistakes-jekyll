@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Wind Blown Guile Hair"
 excerpt: "PaperFaces portrait of @bargenson drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bargenson-twitter-lg.jpg
   teaser: paperfaces-bargenson-twitter-teaser.jpg
   thumb: paperfaces-bargenson-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

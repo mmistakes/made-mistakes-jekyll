@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hiding behind a decorative fan"
 excerpt: "PaperFaces portrait of @khollybell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-khollybell-twitter-lg.jpg
   thumb: paperfaces-khollybell-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

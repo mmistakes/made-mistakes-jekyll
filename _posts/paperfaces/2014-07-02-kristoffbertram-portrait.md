@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "White light blur"
 excerpt: "PaperFaces portrait of @kristoffbertram drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kristoffbertram-twitter-lg.jpg
   teaser: paperfaces-kristoffbertram-twitter-teaser.jpg
   thumb: paperfaces-kristoffbertram-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, beard]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Sidewalk stroll"
 excerpt: "PaperFaces portrait of @parkr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-parkr-twitter-lg.jpg
   thumb: paperfaces-parkr-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "He Did It. No He Did It!"
 excerpt: "PaperFaces portrait commission of Clayton B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-clayton-b-lg.jpg
   teaser: paperfaces-clayton-b-teaser.jpg
   thumb: paperfaces-clayton-b-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, mix]
 ---
 

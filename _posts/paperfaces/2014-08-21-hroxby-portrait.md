@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Soft and Light"
 excerpt: "PaperFaces portrait of @HRoxby drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hroxby-twitter-lg.jpg
   teaser: paperfaces-hroxby-twitter-teaser.jpg
   thumb: paperfaces-hroxby-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

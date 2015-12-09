@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Backlit colors"
 excerpt: "PaperFaces portrait of @igorshkau drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-igorshkau-twitter-lg.jpg
   thumb: paperfaces-igorshkau-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

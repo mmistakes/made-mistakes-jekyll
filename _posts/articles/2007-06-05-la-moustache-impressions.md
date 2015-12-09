@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "La Moustache Quick Review"
 excerpt: "My quick impressions of La Moustache &#8212; a French film about a dude shaving his mustache."
-category: articles
 image: 
   feature: la-moustache-feature.jpg
   teaser: la-moustache-teaser.jpg

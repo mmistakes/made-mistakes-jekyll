@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "A Drawing of a Ghost"
 excerpt: "PaperFaces portrait of @AWinterGhost drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-awinterghost-twitter-lg.jpg
   teaser: paperfaces-awinterghost-twitter-teaser.jpg
   thumb: paperfaces-awinterghost-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

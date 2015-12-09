@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Goatee"
 excerpt: "PaperFaces portrait of @danimal drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-danimal-twitter-lg.jpg
   thumb: paperfaces-danimal-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

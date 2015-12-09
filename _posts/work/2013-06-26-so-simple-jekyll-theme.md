@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "So Simple, a Jekyll Theme"
 headline: "So Simple Theme"
 subheadline: "Built for Jekyll"
@@ -9,7 +8,6 @@ image:
   feature: so-simple-theme-feature-2015.jpg
   teaser: so-simple-theme-teaser-2015.png
   thumb: so-simple-theme-th-2015.png
-category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 comments: true

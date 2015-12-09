@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Brick wall"
 excerpt: "PaperFaces portrait of @RonJeffries drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ronjeffries-twitter-lg.jpg
   teaser: paperfaces-ronjeffries-twitter-teaser.jpg
   thumb: paperfaces-ronjeffries-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

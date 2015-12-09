@@ -1,9 +1,7 @@
 ---
-layout: article
 title: "Those City Folk in Animal Crossing Still Love the Gossip"
 excerpt: "A lengthy review of Animal Crossing City Folk for the Nintendo Wii, some things never change."
 modified: 2015-02-03T11:59:20-05:00
-category: articles
 image: 
   feature: animal-crossing-stuck-in-hole.jpg
   teaser: animal-crossing-teaser.jpg

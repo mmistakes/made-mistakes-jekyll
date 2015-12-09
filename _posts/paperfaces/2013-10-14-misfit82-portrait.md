@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "I want your skulls"
 excerpt: "PaperFaces portrait of @misfit82 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-misfit82-twitter-lg.jpg
   thumb: paperfaces-misfit82-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

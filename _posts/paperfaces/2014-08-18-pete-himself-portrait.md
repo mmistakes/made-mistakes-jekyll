@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "By Himself"
 excerpt: "PaperFaces portrait of @pete_himself drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pete-himself-twitter-lg.jpg
   teaser: paperfaces-pete-himself-twitter-teaser.jpg
   thumb: paperfaces-pete-himself-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

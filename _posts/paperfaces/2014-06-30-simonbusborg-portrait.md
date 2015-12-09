@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Hoodies and architecture"
 excerpt: "PaperFaces portrait of @simonbusborg drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-simonbusborg-twitter-lg.jpg
   teaser: paperfaces-simonbusborg-twitter-teaser.jpg
   thumb: paperfaces-simonbusborg-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, beard]
 ---
 

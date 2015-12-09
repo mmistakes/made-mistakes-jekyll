@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Purple strands and specs"
 excerpt: "PaperFaces portrait of @knurpsi drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-knurpsi-twitter-lg.jpg
   thumb: paperfaces-knurpsi-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

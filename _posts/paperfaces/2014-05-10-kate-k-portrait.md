@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hair in your eyes"
 excerpt: "PaperFaces portrait of a Kate K. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kate-k-lg.jpg
   thumb: paperfaces-kate-k-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 

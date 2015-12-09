@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Fire fighter"
 excerpt: "PaperFaces portrait of @B_Sheehan drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-b-sheehan-twitter-lg.jpg
   thumb: paperfaces-b-sheehan-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Sunglasses in black and white"
 excerpt: "PaperFaces portrait of @justkimolly drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-justkimolly-twitter-lg.jpg
   thumb: paperfaces-justkimolly-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

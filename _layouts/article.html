@@ -9,7 +9,7 @@ layout: default
 
   <article itemscope itemtype="http://schema.org/Article">
 
-    <meta itemprop="description" content="{{ page.excerpt }}">
+    <meta itemprop="description" content="{{ page.excerpt | strip_html }}">
 
     <header class="container post__header">
       <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
@@ -32,7 +32,7 @@ layout: default
           {{ content }}
         </section>
 
-        {% if page.tags %}
+        {% if page.tags != "" %}
         <div class="post__taxonomy">
           {% include post__taxonomy.html %}
         </div>
@@ -51,7 +51,7 @@ layout: default
         </footer>
         {% endif %}
 
-        {% if page.share != false %}
+        {% if page.share != empty and page.share != false %}
         <div class="post__social">
           {% include post__social.html %}
         </div>

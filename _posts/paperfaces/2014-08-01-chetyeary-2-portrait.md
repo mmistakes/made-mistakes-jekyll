@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "This Shirt Has a Lot of Lines"
 excerpt: "PaperFaces portrait of @chetyeary drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chetyeary-2-twitter-lg.jpg
   teaser: paperfaces-chetyeary-2-twitter-teaser.jpg
   thumb: paperfaces-chetyeary-2-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 

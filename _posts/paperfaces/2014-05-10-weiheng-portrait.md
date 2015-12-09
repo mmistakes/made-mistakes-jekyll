@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "I'm the Firestarter"
 excerpt: "PaperFaces portrait of @WeiHeng_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-weiheng-twitter-lg.jpg
   thumb: paperfaces-weiheng-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend]
 ---
 

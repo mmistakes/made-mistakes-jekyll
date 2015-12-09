@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "An exercise in gray"
 excerpt: "PaperFaces portrait of @Archaikh drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-archaikh-twitter-lg.jpg
   thumb: paperfaces-archaikh-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 

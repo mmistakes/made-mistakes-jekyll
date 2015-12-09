@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Relic Scout"
 excerpt: "Site design and creative for Relic Scout — an app to make collecting simpler, while saving you money."
 image: 
   feature: relic-scout-home-feature.gif
   teaser: relic-scout-teaser.png
   thumb: relic-scout-avatar.png
-category: work
 modified: 2015-02-03T10:39:48-05:00
 tags: [design, 8bit, website, collectibles]
 work: "Design &amp; Development"

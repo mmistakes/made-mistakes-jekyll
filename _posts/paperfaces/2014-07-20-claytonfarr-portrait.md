@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Smile directed at 270 degrees"
 excerpt: "PaperFaces portrait of @ClaytonFarr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-claytonfarr-twitter-lg.jpg
   teaser: paperfaces-claytonfarr-twitter-teaser.jpg
   thumb: paperfaces-claytonfarr-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

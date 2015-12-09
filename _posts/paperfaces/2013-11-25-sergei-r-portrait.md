@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Eyes on the prize"
 excerpt: "PaperFaces portrait of Sergei R. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sergei-r-lg.jpg
   thumb: paperfaces-sergei-r-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, sktchy]
 ---
 

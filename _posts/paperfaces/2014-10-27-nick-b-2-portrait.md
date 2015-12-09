@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Winter Ready"
 excerpt: "PaperFaces portrait commission of Nick B. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-nick-b-2-lg.jpg
   teaser: paperfaces-nick-b-2-teaser.jpg
   thumb: paperfaces-nick-b-2-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, mix]
 ---
 

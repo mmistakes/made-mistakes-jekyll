@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hand tats"
 excerpt: "PaperFaces portrait of a Jee Chasles drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jee-chasles-lg.jpg
   thumb: paperfaces-jee-chasles-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, sktchy, tattoo]
 ---
 

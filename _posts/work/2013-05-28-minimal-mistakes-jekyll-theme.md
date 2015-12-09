@@ -1,15 +1,12 @@
 ---
-layout: article
 title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
-subheadline: "Built for Jekyll"
 excerpt: "A responsive Jekyll theme with a minimal design for text heavy sites by designer Michael Rose."
 modified: 2015-05-22T15:11:38-04:00
 image: 
   feature: minimal-mistakes-theme-feature.jpg
   teaser: minimal-mistakes-theme-teaser.png
   thumb: minimal-mistakes-theme-th.png
-category: work
 tags: [jekyll, web development, open source, github]
 work: "Design &amp; Development"
 comments: true

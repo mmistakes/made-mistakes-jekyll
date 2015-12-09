@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Fake mountains"
 excerpt: "PaperFaces portrait of @shuether drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-shuether-twitter-lg.jpg
   thumb: paperfaces-shuether-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

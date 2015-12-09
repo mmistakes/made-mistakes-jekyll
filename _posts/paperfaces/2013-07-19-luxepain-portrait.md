@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Half of this drawing is blonde hair"
 excerpt: "PaperFaces portrait of @LuxePain drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-luxepain-twitter-lg.jpg
   thumb: paperfaces-luxepain-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

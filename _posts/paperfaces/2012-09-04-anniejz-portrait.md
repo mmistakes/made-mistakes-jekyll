@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Mona Lisa caricature"
 excerpt: "PaperFaces portrait of @anniejz drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-anniejz-twitter-lg.jpg
   thumb: paperfaces-anniejz-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

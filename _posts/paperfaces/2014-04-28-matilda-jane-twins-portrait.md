@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Matilda Jane Rosebuds"
 excerpt: "PaperFaces portrait of the rosebuds drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-matilda-jane-twins-lg.jpg
   teaser: paperfaces-matilda-jane-twins-teaser.jpg
   thumb: paperfaces-matilda-jane-twins-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, twins]
 ---
 

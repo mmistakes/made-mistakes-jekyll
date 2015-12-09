@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Smiley beard"
 excerpt: "PaperFaces portrait of @weheartgames drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-weheartgames-twitter-lg.jpg
   teaser: paperfaces-weheartgames-twitter-teaser.jpg
   thumb: paperfaces-weheartgames-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, blend, bokeh, beard]
 ---
 

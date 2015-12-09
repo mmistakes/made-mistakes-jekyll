@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Gray stripes in gray light"
 excerpt: "PaperFaces portrait of @tomwhild drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tomwhild-twitter-lg.jpg
   thumb: paperfaces-tomwhild-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

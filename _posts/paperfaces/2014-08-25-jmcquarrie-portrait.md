@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Fine Line Glasses"
 excerpt: "PaperFaces portrait of @jmcquarrie drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jmcquarrie-twitter-lg.jpg
   teaser: paperfaces-jmcquarrie-twitter-teaser.jpg
   thumb: paperfaces-jmcquarrie-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white, beard]
 ---
 

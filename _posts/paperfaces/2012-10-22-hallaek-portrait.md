@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Unicorn hair flowing on the floor"
 excerpt: "PaperFaces portrait of @hallaek drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hallaek-twitter-lg.jpg
   thumb: paperfaces-hallaek-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, time lapse]
 ---
 

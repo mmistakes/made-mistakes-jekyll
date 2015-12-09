@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "That weathered look"
 excerpt: "PaperFaces portrait of Daniel W. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-daniel-w-lg.jpg
   thumb: paperfaces-daniel-w-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, texture, beard]
 ---
 

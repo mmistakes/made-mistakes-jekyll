@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Sippy sip from the big cup"
 excerpt: "PaperFaces portrait of @hampusn drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hampusn-twitter-lg.jpg
   thumb: paperfaces-hampusn-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

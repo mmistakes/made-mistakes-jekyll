@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "PaperFaces self portrait of Michael Rose"
 excerpt: "PaperFaces portrait of a bearded Michael Rose drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-michael-rose-beard-lg.jpg
   thumb: paperfaces-michael-rose-beard-150.jpg
 modified: 2013-06-05
-category: paperfaces
 tags: [portrait, illustration, paper by 53, michael rose, beard, self portrait]
 ---
 

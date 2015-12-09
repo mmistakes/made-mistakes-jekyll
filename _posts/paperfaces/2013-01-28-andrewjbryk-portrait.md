@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Three boys sitting side by side"
 excerpt: "PaperFaces portrait of @andrewjbryk drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-andrewjbryk-twitter-lg.jpg
   thumb: paperfaces-andrewjbryk-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

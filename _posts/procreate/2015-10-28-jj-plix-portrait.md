@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Sunny Sky in Your Eye"
 excerpt: "Portrait of Jj Plix, digitally painted with Procreate on an iPad."
 modified: 2015-11-05T16:27:03-05:00
@@ -7,7 +6,6 @@ image:
   feature: jj-plix-procreate-lg.jpg
   teaser: jj-plix-procreate-teaser.jpg
   thumb: jj-plix-procreate-250.jpg
-category: procreate-paintings
 tags: [procreate, painting, drawing, portrait, illustration, time lapse, sktchy]
 ---
 

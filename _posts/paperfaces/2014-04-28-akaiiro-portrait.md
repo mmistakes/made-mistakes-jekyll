@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "An upward tilt"
 excerpt: "PaperFaces portrait of @akaiiro drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-akaiiro-twitter-lg.jpg
   thumb: paperfaces-akaiiro-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

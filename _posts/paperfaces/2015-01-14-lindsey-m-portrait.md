@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Drape Fold the Shoulder"
 excerpt: "PaperFaces portrait of the Lindsey M. drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-lindsey-m-lg.jpg
   teaser: paperfaces-lindsey-m-teaser.jpg
   thumb: paperfaces-lindsey-m-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, mix, black and white]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Collars up"
 excerpt: "PaperFaces portrait of @reborg drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-reborg-twitter-lg.jpg
   thumb: paperfaces-reborg-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

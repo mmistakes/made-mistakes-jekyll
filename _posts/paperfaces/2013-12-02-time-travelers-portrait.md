@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Time Travelers"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-time-travelers-lg.jpg
   thumb: paperfaces-time-travelers-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, time lapse]
 ---
 

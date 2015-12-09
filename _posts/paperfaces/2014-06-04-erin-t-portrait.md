@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Stripes and shadow"
 excerpt: "PaperFaces portrait of a Erin T. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-erin-t-lg.jpg
   teaser: paperfaces-erin-t-teaser.jpg
   thumb: paperfaces-erin-t-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 

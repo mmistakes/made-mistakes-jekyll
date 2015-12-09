@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "High contrast blue and yellow composition"
 excerpt: "PaperFaces portrait of @A_Farlow44 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-a-farlow44-twitter-lg.jpg
   thumb: paperfaces-a-farlow44-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, beard]
 ---
 

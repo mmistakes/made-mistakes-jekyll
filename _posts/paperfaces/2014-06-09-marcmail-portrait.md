@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Public transportation"
 excerpt: "PaperFaces portrait of @Marcmail drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-marcmail-twitter-lg.jpg
   teaser: paperfaces-marcmail-twitter-teaser.jpg
   thumb: paperfaces-marcmail-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

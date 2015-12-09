@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Girl in dark, in front of a blue background"
 excerpt: "PaperFaces portrait of @alittlebluestar drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-alittlebluestar-twitter-lg.jpg
   thumb: paperfaces-alittlebluestar-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

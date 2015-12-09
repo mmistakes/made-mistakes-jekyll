@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Noise on the Grain"
 excerpt: "Portrait of T. Steinheil digitally painted with Procreate on an iPad."
 modified: 2015-11-27T00:00:00-05:00
@@ -7,7 +6,6 @@ image:
   feature: t-steinheil-procreate-lg.jpg
   teaser: t-steinheil-procreate-teaser.jpg
   thumb: t-steinheil-procreate-250.jpg
-category: procreate-paintings
 tags: [procreate, painting, drawing, portrait, illustration, black and white, time lapse, sktchy]
 ---
 

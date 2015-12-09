@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Going Static — Using Jekyll CMS Free"
 excerpt: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll CMS free."
 modified: 2015-01-27T14:57:57-05:00
@@ -7,10 +6,9 @@ image:
   feature: going-static-feature.jpg
   teaser: going-static-teaser.jpg
   thumb: going-static-thumb.jpg
-category: articles
 tags: [jekyll, web development, design, open source]
-comments: true
 featured: true
+comments: true
 ---
 
 If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://www.alistapart.com/) and [Smashing Magazine](http://www.smashingmagazine.com/).

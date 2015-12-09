@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Girl and Cat"
 excerpt: "PaperFaces portrait of a girl and cat drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-girl-cat-lg.jpg
   teaser: paperfaces-girl-cat-teaser.jpg
   thumb: paperfaces-girl-cat-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

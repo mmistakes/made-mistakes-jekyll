@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Front faced gaze"
 excerpt: "PaperFaces portrait of Lorenzo Raffio drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lorenzo-raffio-lg.jpg
   thumb: paperfaces-lorenzo-raffio-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

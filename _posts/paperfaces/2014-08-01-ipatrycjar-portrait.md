@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Very Painterly"
 excerpt: "PaperFaces portrait of @iPatrycjaR drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ipatrycjar-twitter-lg.jpg
   teaser: paperfaces-ipatrycjar-twitter-teaser.jpg
   thumb: paperfaces-ipatrycjar-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

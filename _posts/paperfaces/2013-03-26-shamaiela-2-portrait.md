@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Violets and purples"
 excerpt: "PaperFaces portrait of @Shamaiela drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-shamaiela-2-twitter-lg.jpg
   thumb: paperfaces-shamaiela-2-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

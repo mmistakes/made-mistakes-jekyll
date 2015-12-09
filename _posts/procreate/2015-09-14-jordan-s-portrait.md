@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Blushing My Cheeks"
 excerpt: "Portrait of Jordan S., digitally painted with Procreate on an iPad."
 modified: 2015-11-06T10:03:00-05:00
@@ -7,7 +6,6 @@ image:
   feature: jordan-s-procreate-lg.jpg
   teaser: jordan-s-procreate-teaser.jpg
   thumb: jordan-s-procreate-250.jpg
-category: procreate-paintings
 tags: [procreate, painting, drawing, portrait, illustration, time lapse, sktchy]
 ---
 

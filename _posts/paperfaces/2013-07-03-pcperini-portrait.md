@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Ghost faces by spiraling staircases"
 excerpt: "PaperFaces portrait of @pcperini drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pcperini-twitter-lg.jpg
   thumb: paperfaces-pcperini-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

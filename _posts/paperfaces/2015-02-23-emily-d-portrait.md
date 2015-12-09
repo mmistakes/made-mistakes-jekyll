@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Flipped Shirt"
 excerpt: "PaperFaces portrait of the Emily D. drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-emily-d-lg.jpg
   teaser: paperfaces-emily-d-teaser.jpg
   thumb: paperfaces-emily-d-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, mix, time lapse]
 ---
 

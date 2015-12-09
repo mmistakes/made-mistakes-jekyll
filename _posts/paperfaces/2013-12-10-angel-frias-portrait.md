@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Not a club"
 excerpt: "PaperFaces portrait of @angel__frias drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-angel-frias-instagram-lg.jpg
   thumb: paperfaces-angel-frias-instagram-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

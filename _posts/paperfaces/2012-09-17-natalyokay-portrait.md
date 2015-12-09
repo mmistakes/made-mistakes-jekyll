@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Girl balancing on a log in the forest"
 excerpt: "PaperFaces portrait of @natalyokay drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-natalyokay-twitter-lg.jpg
   thumb: paperfaces-natalyokay-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Live Long and Prosper"
 excerpt: "PaperFaces portrait tribute of Leonard Nimoy as Mr. Spock drawn with Paper by 53 on an iPad."
 modified: 
@@ -7,7 +6,6 @@ image:
   feature: paperfaces-mr-spock-lg.jpg
   teaser: paperfaces-mr-spock-teaser.jpg
   thumb: paperfaces-mr-spock-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, star trek, mix, time lapse, black and white]
 ---
 

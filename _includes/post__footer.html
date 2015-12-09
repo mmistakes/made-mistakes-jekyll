@@ -1,5 +1,5 @@
 <div class="post__single-meta">
-  {% if page.categories %}
+  {% if page.categories != empty %}
     {% assign category_slug = page.categories | first %}
     {% assign category = site.data.categories[category_slug] %}
     <a class="post__category" href="{{ site.url }}/{{ page.categories | first }}/">{{ category.name }}</a>

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Wearing an orange safety cone can be fun"
 excerpt: "PaperFaces portrait of @chris_Obyrne drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chris-obyrne-twitter-lg.jpg
   thumb: paperfaces-chris-obyrne-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

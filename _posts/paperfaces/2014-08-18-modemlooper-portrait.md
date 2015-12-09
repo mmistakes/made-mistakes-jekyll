@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Data is Such a Card"
 excerpt: "PaperFaces portrait of @modemlooper drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-modemlooper-twitter-lg.jpg
   teaser: paperfaces-modemlooper-twitter-teaser.jpg
   thumb: paperfaces-modemlooper-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, star trek]
 ---
 

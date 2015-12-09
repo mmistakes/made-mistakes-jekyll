@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Dramatic mustache"
 excerpt: "PaperFaces portrait of @genelocklin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-genelocklin-twitter-lg.jpg
   thumb: paperfaces-genelocklin-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, mustache]
 ---
 

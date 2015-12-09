@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "A classic pose"
 excerpt: "PaperFaces portrait of Juan D. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-juan-d-lg.jpg
   teaser: paperfaces-juan-d-teaser.jpg
   thumb: paperfaces-juan-d-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, black and white]
 ---
 

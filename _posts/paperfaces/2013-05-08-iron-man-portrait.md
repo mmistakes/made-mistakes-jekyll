@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "PaperFaces portrait of Iron Man"
 excerpt: "PaperFaces portrait of Iron Man drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-iron-man-3-lg.jpg
   thumb: paperfaces-iron-man-3-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, iron man]
 ---
 

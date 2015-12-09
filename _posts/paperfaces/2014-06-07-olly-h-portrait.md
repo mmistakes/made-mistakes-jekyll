@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "Lurking behind Domo"
 excerpt: "PaperFaces portrait of a Olly H. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-olly-h-lg.jpg
   teaser: paperfaces-olly-h-teaser.jpg
   thumb: paperfaces-olly-h-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

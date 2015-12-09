@@ -1,12 +1,10 @@
 ---
-layout: article
 title: "A Beard That Hides"
 excerpt: "PaperFaces portrait of the Remi L. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-remi-l-lg.jpg
   teaser: paperfaces-remi-l-teaser.jpg
   thumb: paperfaces-remi-l-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy, beard, mix]
 ---
 

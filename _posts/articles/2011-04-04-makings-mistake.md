@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "Makings of a Mistake, Designing the Site"
 excerpt: "As a designer we've all been there. When was the last time you got bored with a design and decided to just burn it and start anew?"
-category: articles
 image: 
   thumb: fadedlead-home-340x340.jpg
 tags: [cms, website, design, michael rose]

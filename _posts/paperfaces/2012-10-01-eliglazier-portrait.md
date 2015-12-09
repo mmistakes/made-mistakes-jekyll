@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "On a boat!"
 excerpt: "PaperFaces portrait of @eliglazier drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-eliglazier-twitter-lg.jpg
   thumb: paperfaces-eliglazier-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, time lapse]
 ---
 

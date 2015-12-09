@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Long locks of curl"
 excerpt: "PaperFaces portrait of @cuteasebutton drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cuteasebutton-instagram-lg.jpg
   thumb: paperfaces-cuteasebutton-instagram-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,8 +1,6 @@
 ---
-layout: article
 title: "Seeing Through Blurred Eyes &#8212; The Diving Bell and The Butterfly"
 excerpt: "Quick impressions of the film, The Diving Bell and The Butterfly."
-category: articles
 image: 
   feature: diving-bell-butterfly-feature.jpg
   teaser: diving-bell-butterfly-teaser.jpg

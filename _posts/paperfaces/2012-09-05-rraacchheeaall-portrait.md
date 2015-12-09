@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Long hair and geometric patterns"
 excerpt: "PaperFaces portrait of @rraacchheeaall drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rraacchheeaall-instagram-lg.jpg
   thumb: paperfaces-rraacchheeaall-instagram-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

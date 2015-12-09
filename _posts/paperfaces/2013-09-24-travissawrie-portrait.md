@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Wrapped around"
 excerpt: "PaperFaces portrait of @travissawrie drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-travissawrie-twitter-lg.jpg
   thumb: paperfaces-travissawrie-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

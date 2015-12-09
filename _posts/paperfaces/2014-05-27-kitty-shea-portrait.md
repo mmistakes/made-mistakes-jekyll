@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Eyes up"
 excerpt: "PaperFaces portrait of a Kitty Shea drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kitty-shea-lg.jpg
   thumb: paperfaces-kitty-shea-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, sktchy]
 ---
 

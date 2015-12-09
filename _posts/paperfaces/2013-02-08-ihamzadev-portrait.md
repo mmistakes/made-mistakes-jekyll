@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Glasses with red headphones"
 excerpt: "PaperFaces portrait of @ihamzadev drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-ihamzadev-twitter-lg.jpg
   thumb: paperfaces-ihamzadev-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

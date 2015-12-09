@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Softly lit full face"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hellolauraamy-instagram-lg.jpg
   thumb: paperfaces-hellolauraamy-instagram-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

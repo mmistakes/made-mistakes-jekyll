@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "She said yes"
 excerpt: "Engagement PaperFaces portrait of @theBrady and @khollybell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thebrady-khollybell-2-twitter-lg.jpg
   thumb: paperfaces-thebrady-khollybell-2-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, time lapse]
 ---
 

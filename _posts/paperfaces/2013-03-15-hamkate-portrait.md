@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hair drawn like fire"
 excerpt: "PaperFaces portrait of @hamkate drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hamkate-twitter-lg.jpg
   thumb: paperfaces-hamkate-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

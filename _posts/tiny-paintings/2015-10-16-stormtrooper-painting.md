@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Close the Blast Doors"
 excerpt: "Tiny portrait of a Star Wars Stormtrooper painted with watercolor on hot press paper."
 modified: 2015-11-16T11:22:31-05:00
@@ -7,7 +6,6 @@ image:
   feature: painting-stormtrooper-lg.jpg
   teaser: painting-stormtrooper-teaser.jpg
   thumb: painting-stormtrooper-250.jpg
-category: tiny-paintings
 tags: [watercolor, painting, drawing, portrait, illustration, star wars]
 ---
 

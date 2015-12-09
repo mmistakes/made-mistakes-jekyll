@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Zipped up by sea"
 excerpt: "PaperFaces portrait of @joeycarmello drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-joeycarmello-twitter-lg.jpg
   thumb: paperfaces-joeycarmello-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

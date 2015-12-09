@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Painterly backdrop and beard"
 excerpt: "PaperFaces portrait of @davecowart drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-davecowart-twitter-lg.jpg
   thumb: paperfaces-davecowart-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, beard]
 ---
 

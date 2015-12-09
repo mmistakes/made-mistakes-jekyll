@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "White hair"
 excerpt: "PaperFaces portrait of @Sprinkles68 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sprinkles68-twitter-lg.jpg
   thumb: paperfaces-sprinkles68-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, black and white]
 ---
 

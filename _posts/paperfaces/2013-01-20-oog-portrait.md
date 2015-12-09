@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "In shadows, black and white"
 excerpt: "PaperFaces portrait of @Oog drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-oog-twitter-lg.jpg
   thumb: paperfaces-oog-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, time lapse]
 ---
 

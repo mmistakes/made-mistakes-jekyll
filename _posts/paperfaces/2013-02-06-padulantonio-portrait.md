@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Dramatic looking gray bricks"
 excerpt: "PaperFaces portrait of @padulantonio drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-padulantonio-twitter-lg.jpg
   thumb: paperfaces-padulantonio-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Open eye"
 excerpt: "PaperFaces portrait of @neil_pie drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-neil-pie-twitter-lg.jpg
   thumb: paperfaces-neil-pie-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 

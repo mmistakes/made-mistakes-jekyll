@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Look up smile"
 excerpt: "PaperFaces portrait of Wakas Mir drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-wakas-mir-lg.jpg
   thumb: paperfaces-wakas-mir-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53, beard, time lapse]
 ---
 

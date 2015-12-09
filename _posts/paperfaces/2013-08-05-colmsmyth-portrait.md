@@ -1,11 +1,9 @@
 ---
-layout: article
 title: "Hoodies from the future"
 excerpt: "PaperFaces portrait of @colmsmyth drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-colmsmyth-twitter-lg.jpg
   thumb: paperfaces-colmsmyth-twitter-150.jpg
-category: paperfaces
 tags: [portrait, illustration, paper by 53]
 ---
 
