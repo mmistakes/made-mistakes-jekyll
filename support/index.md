@@ -37,6 +37,7 @@ Subscribing to the [**All Posts**](http://feeds.feedburner.com/MadeMistakes) fee
 * [Blog Articles](http://feeds.feedburner.com/MadeMistakesArticles)
 * [Paper by FiftyThree Tutorials](http://feeds.feedburner.com/MadeMistakesMasteringPaper)
 * [PaperFaces Portraits](http://feeds.feedburner.com/MadeMistakesPaperFaces)
+{:.fl}
 
 [^rss]: Right click any of the feed links found on this page and paste into your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
 
