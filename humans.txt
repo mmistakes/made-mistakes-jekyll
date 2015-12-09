@@ -1,3 +1,5 @@
+---
+---
 _  ________ ____   _  ______________  _________
 |\/||__||  \|___   |\/||[__  | |__||_/ |___[__
 |  ||  ||__/|___   |  ||___] | |  || \_|______]
@@ -15,8 +17,9 @@ _  ________ ____   _  ______________  _________
 
 /* SITE */
 
+  Last updated: {{ site.time }}
   Language:     English
-  Built with:   Jekyll <http://jekyllrb.com>
+  Built with:   Jekyll {{ jekyll.version }} <http://jekyllrb.com>
                 Sublime Text 3 <http://www.sublimetext.com>
                 Adobe Creative Suite
                 Grunt <http://gruntjs.com>

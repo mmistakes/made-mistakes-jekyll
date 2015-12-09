@@ -1,5 +1,8 @@
+---
+sitemap: false
+---
 {
-	"name": "Made Mistakes",
+	"name": "{{ site.title }}",
 	"icons": [
 		{
 			"src": "\/android-chrome-36x36.png",
