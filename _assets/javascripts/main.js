@@ -187,16 +187,6 @@ $(document).ready(function(){
   $("a").smoothScroll({offset: -20});
 
 
-  // bigfoot footnotes settings
-  var bigfoot = $.bigfoot(
-    {
-      deleteOnUnhover: false,
-      preventPageScroll: false,
-      activateOnHover: false
-    }
-  );
-
-
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
