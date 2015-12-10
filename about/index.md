@@ -49,6 +49,7 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 1. Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds]({{ site.url }}/subscribe/).
 2. Buy anything at Amazon using [this link](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission[^affiliate]. 
 3. Send a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4) or [Square Cash](https://cash.me/$mmistakes).
+{:.fl}
 
 [^affiliate]: Anything I link to on Amazon may be done with [affiliate URLs]({{ site.url }}/terms/).
 
@@ -56,8 +57,10 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 * [**The Story of PaperFaces**](http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
 * [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
+{:.fl}
 
 ## Honorable Mentions
 
 * [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 * [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
+{:.fl}
