@@ -8,6 +8,34 @@ locale: en_US
 url: http://localhost:4000
 
 
+# Site owner
+
+owner:
+  name: "Michael Rose"
+  email: michael@mademistakes.com
+  twitter: mmistakes
+  facebook: michaelrose
+  instagram: mmistakes
+  tumblr: mademistakes
+  github: mmistakes
+  github-repo: https://github.com/mmistakes/made-mistakes-jekyll/
+  google:
+    # ad-client: ca-pub-7328585512091257
+    # ad-slot: 3049671934
+    # analytics: UA-2011187-1
+    plus: https://plus.google.com/+MichaelRoseDesign/posts
+    # verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
+  bing:
+    # verify: D81F4C18A6CB3018F64D7C827D953DFD
+  alexa:
+    # verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
+  yandex:
+    # verify: 55a5419baf76a498
+  bio: "Just another boring, tattooed, time traveling designer from Buffalo, New York. I enjoy eating chicken wings and sketching on an iPad."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname: mmistakes-dev
+
+
 # Jekyll configuration
 
 permalink: /:categories/:title/
@@ -18,7 +46,81 @@ kramdown:
 highlighter: rouge
 include: [".htaccess"]
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache", "autoprefixer.yml"]
-#keep_files: ["images"]
+
+
+# Collections
+
+collections:
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs
+  components:
+    output: false
+  colors:
+    output: false
+
+
+# Defaults
+
+defaults:
+
+  # Blog Articles
+  - scope:
+      path: _posts/articles
+      type: posts
+    values:
+      layout: article
+      category: articles
+      comments: true
+
+  # Mastering Paper
+  - scope:
+      path: _posts/mastering-paper
+      type: posts
+    values:
+      layout: article
+      category: mastering-paper
+
+  # PaperFaces
+  - scope:
+      path: _posts/paperfaces
+      type: posts
+    values:
+      layout: article
+      category: paperfaces
+
+  # Procreate Paintings
+  - scope:
+      path: _posts/procreate
+      type: posts
+    values:
+      layout: article
+      category: procreate-paintings
+
+  # Tiny Paintings
+  - scope:
+      path: _posts/tiny-paintings
+      type: posts
+    values:
+      layout: article
+      category: tiny-paintings
+
+  # Work
+  - scope:
+      path: _posts/work
+      type: posts
+    values:
+      layout: article
+      category: work
+
+  # FAQs
+  - scope:
+      path: _faqs
+      type: faqs
+    values:
+      layout: article
+
 
 # Plugin: jekyll-assets
 
@@ -84,44 +186,3 @@ picture:
         width: "600"
       source_default:
         width: "320"
-
-
-# Site owner
-
-owner:
-  name: "Michael Rose"
-  email: michael@mademistakes.com
-  twitter: mmistakes
-  facebook: michaelrose
-  instagram: mmistakes
-  tumblr: mademistakes
-  github: mmistakes
-  github-repo: https://github.com/mmistakes/made-mistakes-jekyll/
-  google:
-    # ad-client: ca-pub-7328585512091257
-    # ad-slot: 3049671934
-    # analytics: UA-2011187-1
-    plus: https://plus.google.com/+MichaelRoseDesign/posts
-    # verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
-  bing:
-    # verify: D81F4C18A6CB3018F64D7C827D953DFD
-  alexa:
-    # verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
-  yandex:
-    # verify: 55a5419baf76a498
-  bio: "Just another boring, tattooed, time traveling designer from Buffalo, New York. I enjoy eating chicken wings and sketching on an iPad."
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname: mmistakes-dev
-
-
-# Collections
-
-collections:
-  faqs:
-    output: true
-    permalink: /:collection/:path/
-    title: FAQs
-  components:
-    output: false
-  colors:
-    output: false
