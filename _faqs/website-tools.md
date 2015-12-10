@@ -1,6 +1,5 @@
 ---
 title: "What tools do you use to build your website?"
-layout: article
 type: other
 date: 2014-12-07
 modified: 2014-12-08T12:25:58-05:00
@@ -13,5 +12,6 @@ I've been on a [static site generator]({{ site.url }}{% post_url 2012-03-19-goin
 * Task runner: [Grunt](http://gruntjs.com)
 * Version control: Git
 * Web hosting: [Media Temple](http://mediatemple.com)
+{:.fl}
 
 If you're really interested in the specifics of how the site is built I've made its source available on GitHub for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% post_url 2014-02-28-jekyll-themes %}) for you to use and abuse --- you're welcome!

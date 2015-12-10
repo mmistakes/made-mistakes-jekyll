@@ -1,6 +1,5 @@
 ---
 title: "What tablet do you draw and paint on?"
-layout: article
 type: paper
 date: 2014-12-07
 modified: 2015-11-30T12:33:20-05:00

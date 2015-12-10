@@ -1,6 +1,5 @@
 ---
 title: "Which stylus do you recommend for Paper?"
-layout: article
 type: paper
 date: 2014-12-07
 modified: 2015-11-30T12:46:54-05:00

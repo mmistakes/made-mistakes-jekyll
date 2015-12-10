@@ -1,6 +1,5 @@
 ---
 title: "How did you learn to draw on an iPad?"
-layout: article
 type: paper
 date: 2014-12-07
 modified: 2015-11-30T12:35:17-05:00

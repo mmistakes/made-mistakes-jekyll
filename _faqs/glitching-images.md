@@ -1,6 +1,5 @@
 ---
 title: "How do you glitch images?"
-layout: article
 type: other
 date: 2015-11-06T11:20:51-05:00
 modified:
@@ -16,3 +15,4 @@ There are also free *glitch generators* available online that you run in-browser
 * [ImageGlitcher](http://www.airtightinteractive.com/demos/js/imageglitcher/)
 * [Glitch Images](https://snorpey.github.io/jpg-glitch/)
 * [GLITCHATRON](http://www.errozero.co.uk/glitchatron/)
+{:.fl}

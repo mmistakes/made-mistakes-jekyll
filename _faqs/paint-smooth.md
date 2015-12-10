@@ -1,6 +1,5 @@
 ---
 title: "How do you paint so smoothly with the brush tool?"
-layout: article
 type: paper
 date: 2014-12-07
 modified: 2015-09-23T14:59:42-04:00

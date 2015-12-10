@@ -1,6 +1,5 @@
 ---
 title: "How do you draw such straight lines?"
-layout: article
 type: paper
 date: 2014-12-07
 modified: 2015-11-30T12:12:49-05:00
