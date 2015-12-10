@@ -32,7 +32,7 @@ layout: default
           {{ content }}
         </section>
 
-        {% if page.tags != "" %}
+        {% if page.path contains '_posts' and page.tags %}
         <div class="post__taxonomy">
           {% include post__taxonomy.html %}
         </div>
