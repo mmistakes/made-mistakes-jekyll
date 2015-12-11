@@ -15,6 +15,7 @@ Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesh
 * [Jekyll Assets](https://github.com/ixti/jekyll-assets)
 * [Jekyll Related Posts](https://github.com/jumanji27/related_posts-jekyll_plugin)
 * [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag)
+* SVG <use> Liquid tag
 
 ### Images
 
@@ -60,13 +61,17 @@ Comments are disabled by default. To enable add `comments: true` to the YAML Fro
 
 #### SVG Icons
 
-To easily add inline SVG icons to a post or page use the following include being sure to specify the icon by name.
+To easily add inline SVG icons to a post or page use the following Liquid tag.
 
 ```
-{% include icon.html name="wink" %}
+{% icon [name] %}
 ```
 
-##### SVG Icons
+`{% icon smile %}` will output <svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-smile"></use></svg>
+
+SVG assets are optimized and smashed together into `_includes/svg-icons.svg` and can be referenced by name (see table below).
+
+To update or add new assets place appropriately named `.svg` files into the `_svg` folder and run `grunt svg` to optimize.
 
 | Name                   | Description            | Example                                         |
 | ---------------------- | ---------------------- | ------------------------------------------------|

@@ -20,7 +20,7 @@ Here's some of my favorites additions found in the 3.0 update...
 
 Yes, you've read correctly --- Paper is now a universal iOS app that works on both iPad and iPhone. Every time I open Paper on my iPhone 5s I'm amazed all of the features found on the iPad version made the journey over. Much like the complete UI overhaul in [version 1.6.1](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher), I got the sense that the team at FiftyThree re-evaluated every bit of the app for 3.0. Even if that meant modifying a few of Paper's defining characteristics[^changes] in order to make the overall experience more intuitive and fluid.
 
-[^changes]: Yes the journal book view and zoom loupe have gone away. Change is good, deal with it {% include icon.html name="deal-with-it" %}.
+[^changes]: Yes the journal book view and zoom loupe have gone away. Change is good, deal with it {% icon deal-with-it %}.
 
 <figure>
   <img src="{{ site.url }}/images/paper-3-store.jpg" alt="Paper 3.0 App Store screenshot">
@@ -139,4 +139,4 @@ Mix is no longer something you "pull down" to access from within Paper. The stre
 The <em>shared journal</em> has been removed from Paper but you can still see all of your public ideas in one place. Tap your avatar in the upper right, and then tap your name to bring up your profile card. From here tap <strong>Ideas</strong> to see everything you've shared.
 </div>
 
-OK, back to lusting over the new **Apple Pencil** and waiting for the day Apple brings that technology to the smaller and cheaper iPads {% include icon.html name="wink" %}.
+OK, back to lusting over the new **Apple Pencil** and waiting for the day Apple brings that technology to the smaller and cheaper iPads {% icon wink %}.

@@ -20,13 +20,13 @@ Have a website or use social networking sites like Twitter, Facebook, Google+, T
 
 I typically post once or twice a day --- I'm not the type to barf out a stream of rants and retweets in quick succession. Posts are along the lines of in-process artwork, speed painting videos, web design and development tidbits, sarcastic remarks, and photographic fragments from what little life I live.
 
-<a href="https://twitter.com/mmistakes" class="btn btn--twitter"><svg><use xlink:href="#icon-twitter"></use></svg> Twitter</a>
-<a href="https://instagram.com/mmistakes/" class="btn btn--instagram"><svg><use xlink:href="#icon-instagram"></use></svg> Instagram</a>
-<a href="http://mademistakes.tumblr.com/" class="btn btn--tumblr"><svg><use xlink:href="#icon-tumblr"></use></svg> Tumblr</a>
-<a href="https://www.facebook.com/michaelrose" class="btn btn--facebook"><svg><use xlink:href="#icon-facebook"></use></svg> Facebook</a>
-<a href="https://www.youtube.com/user/anotherjpeg" class="btn btn--youtube"><svg><use xlink:href="#icon-youtube"></use></svg> youtube</a>
-<a href="https://github.com/mmistakes" class="btn btn--github"><svg><use xlink:href="#icon-github"></use></svg> GitHub</a>
-<a href="https://plus.google.com/+MichaelRoseDesign/posts" class="btn btn--google-plus"><svg><use xlink:href="#icon-google-plus"></use></svg> Google+</a>
+<a href="https://twitter.com/mmistakes" class="btn btn--twitter">{% icon twitter %} Twitter</a>
+<a href="https://instagram.com/mmistakes/" class="btn btn--instagram">{% icon instagram %} Instagram</a>
+<a href="http://mademistakes.tumblr.com/" class="btn btn--tumblr">{% icon tumblr %} Tumblr</a>
+<a href="https://www.facebook.com/michaelrose" class="btn btn--facebook">{% icon facebook %} Facebook</a>
+<a href="https://www.youtube.com/user/anotherjpeg" class="btn btn--youtube">{% icon youtube %} youtube</a>
+<a href="https://github.com/mmistakes" class="btn btn--github">{% icon github %} GitHub</a>
+<a href="https://plus.google.com/+MichaelRoseDesign/posts" class="btn btn--google-plus">{% icon google-plus %} Google+</a>
 
 ## Subscribe to the Feeds
 
@@ -52,16 +52,16 @@ You can also follow along using services like **feedly** and **Bloglovin**.
 I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. If you'd like to send a donation my way so I can continue to provide free content and themes, hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoins.
 
 <p markdown="0">
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn"><svg><use xlink:href="#icon-paypal"></use></svg> Send PayPal Money</a>
-  <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn"><svg><use xlink:href="#icon-dollar-sign"></use></svg> Send Square Cash</a>
-  <a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn"><svg><use xlink:href="#icon-bitcoin"></use></svg> Send Bitcoins</a>
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">{% icon paypal %} Send PayPal Money</a>
+  <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">{% icon dollar-sign %} Send Square Cash</a>
+  <a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn">{% icon bitcoin %} Send Bitcoins</a>
 </p>
 
 ## Buy Something
 
-If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will give me a small commission if you end up buying something and will cost you nothing. I also maintain an Amazon Wish List if you are feeling extra generous. {% include icon.html name="wink" %}
+If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will give me a small commission if you end up buying something and will cost you nothing. I also maintain an Amazon Wish List if you are feeling extra generous. {% icon wink %}
 
 <p markdown="0">
-  <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn"><svg><use xlink:href="#icon-amazon"></use></svg> Shop Amazon</a>
-  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn"><svg><use xlink:href="#icon-amazon"></use></svg> Amazon Wish List</a>
+  <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn">{% icon amazon %} Shop Amazon</a>
+  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn">{% icon amazon %} Amazon Wish List</a>
 </p>
