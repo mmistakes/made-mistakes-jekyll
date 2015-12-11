@@ -68,23 +68,23 @@ To easily add inline SVG icons to a post or page use the following include being
 
 ##### SVG Icons
 
-| Name                   | Description            |
-| ---------------------- | ---------------------- |
-| **amazon**             | Amazon logo            |
-| **bitcoin**            | BitCoin logo           |
-| **blank**              | blank face             |
-| **comments**           | chat bubble            |
-| **deal-with-it**       | sunglasses face        |
-| **dollar-sign**        | dollar sign in circle  |
-| **facebook**           | Facebook square logo   |
-| **github**             | GitHub octocat logo    |
-| **google-plus**        | G+ logo                |
-| **instagram**          | Instagram logo         |
-| **meh**                | indifferent face       |
-| **paypal**             | PayPal logo            |
-| **rss**                | RSS icon               |
-| **smile**              | smiley face            |
-| **tumblr**             | Tumblr logo            |
-| **twitter**            | Twitter logo           |
-| **wink**               | wink face              |
-| **youtube**            | YouTube logo           |
+| Name                   | Description            | Example                                         |
+| ---------------------- | ---------------------- | ------------------------------------------------|
+| **amazon**             | Amazon logo            | ![Amazon](http://i.imgur.com/DLvnqFq.png)       |
+| **bitcoin**            | BitCoin logo           | ![Bitcoin](http://i.imgur.com/2U2E8XP.png)      |
+| **blank**              | blank face             | ![blank](http://i.imgur.com/xF6EwDn.png)        |
+| **comments**           | chat bubble            | ![comments](http://i.imgur.com/vMK8dtw.png)     |
+| **deal-with-it**       | sunglasses face        | ![deal with it](http://i.imgur.com/C67DMje.png) |
+| **dollar-sign**        | dollar sign in circle  | ![dollar sign](http://i.imgur.com/bpUoSEi.png)  |
+| **facebook**           | Facebook square logo   | ![Facebook](http://i.imgur.com/xUlOyEl.png)     |
+| **github**             | GitHub octocat logo    | ![Github](http://i.imgur.com/vCaJrph.png)       |
+| **google-plus**        | G+ logo                | ![Google+](http://i.imgur.com/noaMk2J.png)      |
+| **instagram**          | Instagram logo         | ![Instagram](http://i.imgur.com/jKceWJd.png)    |
+| **meh**                | indifferent face       | ![indifferent](http://i.imgur.com/jhAWKKH.png)  |
+| **paypal**             | PayPal logo            | ![PayPal](http://i.imgur.com/AaSzVUh.png)       |
+| **rss**                | RSS icon               | ![RSS](http://i.imgur.com/EHD4YSc.png)          |
+| **smile**              | smiley face            | ![smiley](http://i.imgur.com/Z0P08qm.png)       |
+| **tumblr**             | Tumblr logo            | ![Tumblr](http://i.imgur.com/XSe2PTl.png)       |
+| **twitter**            | Twitter logo           | ![Twitter](http://i.imgur.com/mRmVsDI.png)      |
+| **wink**               | wink face              | ![wink](http://i.imgur.com/Z9V5X5r.png)         |
+| **youtube**            | YouTube logo           | ![YouTube](http://i.imgur.com/FPvcAnN.png)      |
