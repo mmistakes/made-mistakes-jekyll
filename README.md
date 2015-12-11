@@ -67,7 +67,7 @@ To easily add inline SVG icons to a post or page use the following Liquid tag.
 {% icon [name] %}
 ```
 
-`{% icon smile %}` will output <svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-smile"></use></svg>
+`{% icon smile %}` will output `<svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-smile"></use></svg>`
 
 SVG assets are optimized and smashed together into `_includes/svg-icons.svg` and can be referenced by name (see table below).
 
