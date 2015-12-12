@@ -5,19 +5,25 @@
 # Usage: rake serve
 desc "Serve Jekyll site locally"
 task :serve do
-  system "bundle exec jekyll serve --no-watch --config _config.dev.yml"
+  system "JEKYLL_ENV=development bundle exec jekyll serve --no-watch --config _config.yml,_config.dev.yml"
 end # task :serve
 
 # Usage: rake build
-desc "Build production Jekyll site"
+desc "Regenerate files for production"
 task :build do
-  system "bundle exec jekyll build"
+  system "JEKYLL_ENV=production bundle exec jekyll build"
 end # task :build
 
+# Usage: rake build-dev
+desc "Regenerate files for development"
+task :"build-dev" do
+  system "JEKYLL_ENV=development bundle exec jekyll build --config _config.yml,_config.dev.yml --profile"
+end # task :"build-dev"
+
 # Usage: rake drafts
-desc "Build local Jekyll site with _drafts posts"
+desc "Regenerate files and drafts for development"
 task :drafts do
-  system "bundle exec jekyll build --drafts --config _config.dev.yml"
+  system "JEKYLL_ENV=development bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts"
 end # task :drafts
 
 ##################
@@ -44,7 +50,7 @@ task :pingomatic do
 end # task :pingomatic
 
 # Ping Google
-desc 'Notify Google of the new sitemap'
+desc 'Notify Google of updated sitemap'
 task :sitemapgoogle do
   begin
     require 'net/http'
@@ -57,7 +63,7 @@ task :sitemapgoogle do
 end # task :sitemapgoogle
 
 # Ping Bing
-desc 'Notify Bing of the new sitemap'
+desc 'Notify Bing of updated sitemap'
 task :sitemapbing do
   begin
     require 'net/http'
@@ -82,6 +88,6 @@ task :rsync do
 end # task :rsync
 
 # Usage: rake deploy
-desc 'Build _site, minify files, rsync the files, and notify services about new content'
+desc 'Regenerate, minify, and rsync files for production then notify services about new content'
 task :deploy => [:build, :minify, :rsync, :notify] do
 end # task :deploy
