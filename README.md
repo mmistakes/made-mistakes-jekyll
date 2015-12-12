@@ -28,7 +28,9 @@ Make sure ImageMagick is installed for the Jekyll picture-tag plugin to work pro
 ### Local Development
 
 1. Install dependencies `bundle install`
-2. Run Jekyll server to preview `bundle exec jekyll serve --config _config.dev.yml --no-watch`. Good idea to disable auto-regeneration since the site is quite large and takes a few minutes to compile.
+2. Run Jekyll server to preview in development mode `rake serve`.
+
+To regenerate files `rake build-dev` and `rake drafts` to build posts in `_drafts` folder.
 
 #### Home Page
 
