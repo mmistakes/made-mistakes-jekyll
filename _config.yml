@@ -127,13 +127,6 @@ assets:
   sources:
     - _assets/javascripts
     - _assets/stylesheets
-  baseurl: https://mademistakes.com/assets/
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: hard
-  cache: true
-  debug: false
-  version: 1
 
 
 # Plugin: jekyll-archives
