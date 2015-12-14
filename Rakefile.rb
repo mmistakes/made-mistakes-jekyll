@@ -5,7 +5,7 @@
 # Usage: rake serve
 desc "Serve Jekyll site locally"
 task :serve do
-  system "JEKYLL_ENV=development bundle exec jekyll serve --no-watch --config _config.yml,_config.dev.yml"
+  system "bundle exec jekyll serve --no-watch --config _config.yml,_config.dev.yml"
 end # task :serve
 
 # Usage: rake build
@@ -17,17 +17,17 @@ end # task :build
 # Usage: rake build-dev
 desc "Regenerate files for development"
 task :"build-dev" do
-  system "JEKYLL_ENV=development bundle exec jekyll build --config _config.yml,_config.dev.yml --profile"
+  system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile"
 end # task :"build-dev"
 
 # Usage: rake drafts
 desc "Regenerate files and drafts for development"
 task :drafts do
-  system "JEKYLL_ENV=development bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts"
+  system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts"
 end # task :drafts
 
 ##################
-# Production tasks
+# Deployment tasks
 ##################
 
 # Usage: rake minify
