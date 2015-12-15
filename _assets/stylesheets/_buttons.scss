@@ -28,10 +28,7 @@
     transform: translateY(1px);
   }
   &:hover {
-    background-color: mix(white, #000, 10%);
-    svg {
-      transform: scale(1.3);
-    }
+    background-color: mix(white, #000, 20%);
   }
   svg {
     width: 1em;
@@ -60,7 +57,7 @@
     color: #000 !important;
     background-color: #fff;
     &:hover {
-      background-color: mix(#000, #fff, 10%);
+      background-color: mix(#000, #fff, 20%);
     }
   }
 
@@ -76,7 +73,7 @@
   &--info {
     background-color: $info-color;
     &:hover {
-      background-color: mix(#000, $info-color, 10%);
+      background-color: mix(#000, $info-color, 20%);
     }
   }
 
@@ -85,7 +82,7 @@
   &--warning {
     background-color: $warning-color;
     &:hover {
-      background-color: mix(#000, $warning-color, 10%);
+      background-color: mix(#000, $warning-color, 20%);
     }
   }
 
@@ -94,7 +91,7 @@
   &--success {
     background-color: $success-color;
     &:hover {
-      background-color: mix(#000, $success-color, 10%);
+      background-color: mix(#000, $success-color, 20%);
     }
   }
 
@@ -103,7 +100,7 @@
   &--danger {
     background-color: $danger-color;
     &:hover {
-      background-color: mix(#000, $danger-color, 10%);
+      background-color: mix(#000, $danger-color, 20%);
     }
   }
 
@@ -134,7 +131,7 @@
     &--#{$socialnetwork} {
       background-color: $color;
       &:hover {
-        background-color: mix(#000, $color, 10%);
+        background-color: mix(#000, $color, 20%);
       }
     }
   }
