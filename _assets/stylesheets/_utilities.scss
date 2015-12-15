@@ -49,7 +49,8 @@
 
 /* Flush left lists */
 
-ul.fl, ol.fl {
+ul.fl, ol.fl,
+.footnotes ol {
   display: table;
   margin-left: 0;
   padding-left: 0;
@@ -74,7 +75,8 @@ ul.fl {
   }
 }
 
-ol.fl {
+ol.fl,
+.footnotes ol {
   li {
     counter-increment: table-ol;
     &:before {

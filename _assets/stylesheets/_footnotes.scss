@@ -11,6 +11,10 @@
     font-size: 0.8rem;
   }
 
+  p {
+    margin: 0;
+  }
+
   &:before {
     content: 'Footnotes:'; /* Prepend footnote list with a title */
     font-weight: bold;
