@@ -5,7 +5,8 @@
 .archive__item {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid $light-gray;
   /* hover state */
   &:hover {
     .archive__item-title,
@@ -15,23 +16,24 @@
     .archive__item-title {
       text-decoration: underline;
     }
-    .archive__item-thumb img {
-      box-shadow: 0 0 5px rgba(#000, 0.5);
+    .archive__item-excerpt {
+      height: 75px;
     }
   }
 }
 
 .archive__item-body {
-  flex: 4;
-  padding-top: 1.5em;
+  flex: 3;
   padding-right: 1em;
-  border-top: 1px solid $light-gray;
+  padding-bottom: 1.5em;
 }
 
 h1.archive__item-title {
   margin: 0;
   padding: 0;
-  font-size: 1.25rem;
+  font-family: $sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .archive__item-meta {
@@ -44,27 +46,21 @@ h1.archive__item-title {
 .archive__item-excerpt {
   margin: 0.5em 0 0;
   padding: 0;
-  color: $text-color;
-  font-family: $sans-serif;
   font-size: 0.8rem;
+  height: 75px;
+  @include breakpoint($medium-wide) {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+  }
 }
 
 .archive__item-thumb {
-  display: none;
-  @include breakpoint($small) {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    min-height: 125px;
-  }
-  img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 125px;
-    height: 125px;
-    border: 1px solid $light-gray;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 2;
+  background-color: $light-gray;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

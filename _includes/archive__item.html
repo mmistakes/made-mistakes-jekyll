@@ -17,11 +17,7 @@
       <p class="archive__item-excerpt">{{ post.excerpt }}</p>
     </div>
 
-    <div class="archive__item-thumb">
-      {% if post.image.thumb %}
-        <img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="">
-      {% endif %}
-    </div>
+    <div class="archive__item-thumb" {% if post.image.teaser %}style="background-image: url('{{ site.url }}/images/{{ post.image.teaser }}');"{% endif %}></div>
 
   </a>
 </article>
