@@ -35,11 +35,9 @@
   a {
     border-bottom-width: 0 !important; // override
     img {
-      // Image hover animation
-      transition: transform 0.3s;
+      // hover state
       &:hover {
-        transform: scale(1.1);
-        box-shadow: 0 0 10px rgba($black, .20);
+        box-shadow: 0 0 10px rgba(#000, 0.5);
       }
     }
   }
