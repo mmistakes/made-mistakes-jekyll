@@ -1,8 +1,8 @@
-/*! Picturefill - v3.0.1 - 2015-09-30
+/* Picturefill - v3.0.1 - 2015-09-30
  * http://scottjehl.github.io/picturefill
  * Copyright (c) 2015 https://github.com/scottjehl/picturefill/blob/master/Authors.txt; Licensed MIT
  */
-/*! Gecko-Picture - v1.0
+/* Gecko-Picture - v1.0
  * https://github.com/scottjehl/picturefill/tree/3.0/src/plugins/gecko-picture
  * Firefox's early picture implementation (prior to FF41) is static and does
  * not react to viewport changes. This tiny module fixes this.
