@@ -1,9 +1,10 @@
 ---
 title: "Eviltron and a Scary Movie Makes for a Great Prank"
 excerpt: "The Eviltron device, when setup properly, can land some convincing scares."
-modified: 2013-04-26 00:00:00
+modified: 2015-12-15 00:00:00
 image: 
   thumb: eviltron-thumb.jpg
+  teaser: eviltron-teaser.jpg
 tags: [eviltron, prank, horror, review, tech geek]
 ---
 
