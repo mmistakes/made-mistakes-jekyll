@@ -8,7 +8,7 @@ gem 'jekyll'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
   gem 'jekyll-archives'
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', :github => 'jekyll/jekyll-assets', :ref => 'f67f3588b56162f18248032f1d631d982ce8ec20'
   gem 'jekyll-sitemap', :github => 'jekyll/jekyll-sitemap', :ref => '4f13b43be7cf4e312af6ec04c9e368158cf54a80'
 
   gem 'mini_magick'

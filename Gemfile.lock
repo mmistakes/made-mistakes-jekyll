@@ -1,4 +1,16 @@
 GIT
+  remote: git://github.com/jekyll/jekyll-assets.git
+  revision: f67f3588b56162f18248032f1d631d982ce8ec20
+  ref: f67f3588b56162f18248032f1d631d982ce8ec20
+  specs:
+    jekyll-assets (2.2.0.pre.alpha)
+      fastimage (~> 1.8)
+      jekyll (~> 3.0)
+      sprockets (~> 3.3)
+      sprockets-helpers (~> 1.2)
+      tilt (~> 2.0)
+
+GIT
   remote: git://github.com/jekyll/jekyll-sitemap.git
   revision: 4f13b43be7cf4e312af6ec04c9e368158cf54a80
   ref: 4f13b43be7cf4e312af6ec04c9e368158cf54a80
@@ -34,12 +46,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-archives (2.1.0)
       jekyll (>= 2.4)
-    jekyll-assets (2.1.2)
-      fastimage (~> 1.8)
-      jekyll (~> 3.0)
-      sprockets (~> 3.3)
-      sprockets-helpers (~> 1.2)
-      tilt (~> 2.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-watch (1.3.0)
@@ -82,7 +88,7 @@ DEPENDENCIES
   breakpoint
   jekyll
   jekyll-archives
-  jekyll-assets
+  jekyll-assets!
   jekyll-sitemap!
   mini_magick
   uglifier
