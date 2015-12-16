@@ -3,11 +3,7 @@
 
     <div class="archive__item-body">
       <div class="archive__item-meta">
-        {% if post.work %}
-          {{ post.work }}
-        {% else %}
-          <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
-        {% endif %}
+        <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
       </div>
       {% if post.categories contains 'mastering-paper' %}
         <h1 class="archive__item-title">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</h1>
