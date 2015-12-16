@@ -11,6 +11,8 @@
           {% else %}
             <h3 class="tile__title">{{ post.title }}</h3>
           {% endif %}
+          {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+          <span class="tile__item-time">{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
         </a>
         {% if post.work %}
           <span class="tile__category">{{ post.work }}</span>
