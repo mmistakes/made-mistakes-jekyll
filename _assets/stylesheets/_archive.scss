@@ -43,6 +43,14 @@ h1.archive__item-title {
   color: $text-color;
 }
 
+.archive__item-time {
+  &:before {
+    content: "\2022";
+    padding-left: 0.45em;
+    padding-right: 0.45em;
+  }
+}
+
 .archive__item-excerpt {
   margin: 0.5em 0 0;
   padding: 0;
