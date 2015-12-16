@@ -10,7 +10,8 @@ tags: [paper by 53, tutorial, drawing, ipad]
 feature:
   visible: true
   headline: "Featured Tutorials"
-  comments: true
+  category: mastering-paper
+comments: true
 ---
 
 How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.
