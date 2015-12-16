@@ -14,11 +14,17 @@ task :build do
   system "JEKYLL_ENV=production bundle exec jekyll build"
 end # task :build
 
+# Usage: rake build-win
+desc "Regenerate files for production"
+task :"build-win" do
+  system "bundle exec jekyll build"
+end # task :build-win
+
 # Usage: rake build-dev
 desc "Regenerate files for development"
 task :"build-dev" do
   system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile"
-end # task :"build-dev"
+end # task :build-dev
 
 # Usage: rake drafts
 desc "Regenerate files and drafts for development"
@@ -29,13 +35,6 @@ end # task :drafts
 ##################
 # Deployment tasks
 ##################
-
-# Usage: rake minify
-desc "Minify files"
-task :minify do
-  puts '* Minifying files'
-  system "java -jar _build/htmlcompressor.jar -r --type html --compress-js -o _site _site"
-end # task :minify
 
 # Ping Pingomatic
 desc 'Ping pingomatic'
@@ -51,7 +50,7 @@ end # task :pingomatic
 
 # Ping Google
 desc 'Notify Google of updated sitemap'
-task :sitemapgoogle do
+task :"sitemap-google" do
   begin
     require 'net/http'
     require 'uri'
@@ -60,11 +59,11 @@ task :sitemapgoogle do
   rescue LoadError
     puts '! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found.'
   end
-end # task :sitemapgoogle
+end # task :sitemap-google
 
 # Ping Bing
 desc 'Notify Bing of updated sitemap'
-task :sitemapbing do
+task :"sitemap-bing" do
   begin
     require 'net/http'
     require 'uri'
@@ -73,11 +72,11 @@ task :sitemapbing do
   rescue LoadError
     puts '! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found.'
   end
-end # task :sitemapbing
+end # task :sitemap-bing
 
 # Usage: rake notify
 desc 'Notify various services about new content'
-task :notify => [:pingomatic, :sitemapgoogle, :sitemapbing] do
+task :notify => [:pingomatic, :"sitemap-google", :"sitemap-bing"] do
 end # task :notify
 
 # Usage: rake rsync
@@ -89,5 +88,10 @@ end # task :rsync
 
 # Usage: rake deploy
 desc 'Regenerate, minify, and rsync files for production then notify services about new content'
-task :deploy => [:build, :minify, :rsync, :notify] do
+task :deploy => [:build, :rsync, :notify] do
 end # task :deploy
+
+# Usage: rake deploy-win
+desc 'Regenerate, minify, and rsync files for production then notify services about new content'
+task :"deploy-win" => [:"build-win", :rsync, :notify] do
+end # task :deploy-win

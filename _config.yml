@@ -122,6 +122,13 @@ defaults:
       layout: article
 
 
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
 # Plugin: jekyll-assets
 
 assets:

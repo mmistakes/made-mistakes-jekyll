@@ -32,6 +32,8 @@ Make sure ImageMagick is installed for the Jekyll picture-tag plugin to work pro
 
 To regenerate files `rake build-dev` and `rake drafts` to build posts in `_drafts` folder.
 
+By default environment should be set to development but if not `JEKYLL_ENV=development bundle exec jekyll build` or `set JEKYLL_ENV=development` in `cmd.exe` on Windows.
+
 #### Home Page
 
 The home page is made up of three parts:
