@@ -6,6 +6,7 @@
   margin-top: 4em;
   padding: 20px 0;
   color: #999;
+  font-size: 0.8rem;
 }
 
 .colophon__menu {
@@ -13,20 +14,18 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  @media (max-width: $small) {
-    flex-direction: column;
-  }
 }
 
 .colophon__menu-item,
 .colophon__menu-item--social,
 .colophon__menu-label,
 .colophon__menu-sep {
+  width: 50%;
   font-family: $sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   @include breakpoint($small) {
-    font-size: 0.8rem;
+    width: initial;
   }
   a {
     display: block;
@@ -41,28 +40,14 @@
 
 .colophon__menu-item--social {
   text-transform: none;
-  @include breakpoint($small) {
-    font-size: 0.64rem;
-  }
 }
-
-// .colophon__menu-label {
-//   padding: 10px 20px 10px 0;
-// }
 
 .colophon__menu-sep {
   padding: 10px 20px 10px 0;
-  @media (max-width: $small) {
-    display: none;
-  }
 }
 
 .colophon__copyright {
   padding-top: 10px;
-  font-size: 0.8rem;
-  @include breakpoint($small) {
-    font-size: 0.64rem;
-  }
   a {
     color: #999;
     border-bottom: 1px solid $light-gray;
