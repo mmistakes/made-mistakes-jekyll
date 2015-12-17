@@ -1,7 +1,7 @@
 ---
 title: "Mastering Paper by FiftyThree: How to Use Zoom While Painting"
-modified: 2015-01-28T10:17:24-05:00
-excerpt: "Learn how to reposition Paper by FiftyThree's Zoom loupe mid-stroke to help add detail to your drawings."
+modified: 2015-12-17T15:28:03-05:00
+excerpt: "Learn how to reposition Paper by FiftyThree's zoom loupe mid-stroke to help add detail to your drawings."
 tags: [paper by 53, tutorial, drawing, painting, ipad]
 image:
   feature: paper-53-zoom-loupe-feature.jpg
@@ -10,11 +10,16 @@ image:
 comments: true
 ---
 
-I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's Zoom loupe simultaneously as you drew.
+I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's zoom loupe simultaneously as you drew.
 
 {% include toc.html %}
 
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
+
+<div class="notice--warning" markdown="1">
+#### Full Screen Zoom and Grid Indicator
+The loupe shown below has been retired and replaced with a more traditional zoom tool in Paper 3. Pinch the screen now magnifies the entire canvas giving you more room to work with. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.
+</div>
 
 ## Why is This Important?
 
