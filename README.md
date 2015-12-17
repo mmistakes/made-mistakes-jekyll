@@ -32,7 +32,7 @@ Make sure ImageMagick is installed for the Jekyll picture-tag plugin to work pro
 
 To regenerate files `rake build-dev` and `rake drafts` to build posts in `_drafts` folder.
 
-By default environment should be set to development but if not `JEKYLL_ENV=development bundle exec jekyll build` or `set JEKYLL_ENV=development` in `cmd.exe` on Windows.
+By default Jekyll's environment should be set to development but if not `JEKYLL_ENV=development bundle exec jekyll build` or `set JEKYLL_ENV=development` in `cmd.exe` on Windows.
 
 #### Home Page
 
@@ -87,13 +87,13 @@ To update or add new assets place appropriately named `.svg` files into the `_sv
 | **dollar-sign**        | dollar sign in circle  | ![dollar sign](http://i.imgur.com/bpUoSEi.png)  |
 | **facebook**           | Facebook square logo   | ![Facebook](http://i.imgur.com/xUlOyEl.png)     |
 | **github**             | GitHub octocat logo    | ![Github](http://i.imgur.com/vCaJrph.png)       |
-| **google-plus**        | G+ logo                | ![Google+](http://i.imgur.com/noaMk2J.png)      |
+| **google-plus**        | G+ logo                | ![Google+](http://i.imgur.com/ax3ygpb.png)      |
 | **instagram**          | Instagram logo         | ![Instagram](http://i.imgur.com/jKceWJd.png)    |
 | **meh**                | indifferent face       | ![indifferent](http://i.imgur.com/jhAWKKH.png)  |
 | **paypal**             | PayPal logo            | ![PayPal](http://i.imgur.com/AaSzVUh.png)       |
 | **rss**                | RSS icon               | ![RSS](http://i.imgur.com/EHD4YSc.png)          |
 | **smile**              | smiley face            | ![smiley](http://i.imgur.com/Z0P08qm.png)       |
-| **tumblr**             | Tumblr logo            | ![Tumblr](http://i.imgur.com/XSe2PTl.png)       |
+| **tumblr**             | Tumblr logo            | ![Tumblr](http://i.imgur.com/3OyG3Hk.png)       |
 | **twitter**            | Twitter logo           | ![Twitter](http://i.imgur.com/mRmVsDI.png)      |
 | **wink**               | wink face              | ![wink](http://i.imgur.com/Z9V5X5r.png)         |
-| **youtube**            | YouTube logo           | ![YouTube](http://i.imgur.com/FPvcAnN.png)      |
+| **youtube**            | YouTube logo           | ![YouTube](http://i.imgur.com/iQ1Z96T.png)      |
