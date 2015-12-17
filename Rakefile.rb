@@ -87,11 +87,11 @@ task :rsync do
 end # task :rsync
 
 # Usage: rake deploy
-desc 'Regenerate, minify, and rsync files for production then notify services about new content'
+desc 'Regenerate and rsync files for production then notify services about new content'
 task :deploy => [:build, :rsync, :notify] do
 end # task :deploy
 
 # Usage: rake deploy-win
-desc 'Regenerate, minify, and rsync files for production then notify services about new content'
+desc 'Regenerate and rsync files for production then notify services about new content'
 task :"deploy-win" => [:"build-win", :rsync, :notify] do
 end # task :deploy-win
