@@ -6,7 +6,7 @@ This is the source code of Made Mistakes, a personal blog and portfolio built wi
 
 The two biggies likely to cause the most headaches are [Jekyll Archives](https://github.com/jekyll/jekyll-archives) and [Jekyll Assets](https://github.com/ixti/jekyll-assets). Archives auto-generates all of the tag pages so you'll need an alternative solution or just go without them if you turn that baby off.
 
-Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesheets and JavaScript. All of this can be done with Grunt/Gulp instead if you prefer that workflow or you could simplify things and use Jekyll to pre-process your Sass partials. Either way it's doable with minor edits.
+Jekyll Assets is used to build, concatenate, and minify stylesheets and JavaScript. All of this can be done with Grunt or Gulp tasks instead if you prefer those workflows or you could simplify things and use Jekyll to pre-process your Sass partials. Either way it's doable with minor edits.
 
 ### Plugins Used
 
@@ -15,7 +15,7 @@ Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesh
 * [Jekyll Assets](https://github.com/ixti/jekyll-assets)
 * [Jekyll Related Posts](https://github.com/jumanji27/related_posts-jekyll_plugin)
 * [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag)
-* SVG <use> Liquid tag
+* SVG <use> Liquid Tag
 
 ### Images
 
