@@ -1,5 +1,6 @@
 ---
 layout: archive
+permalink: /work/
 title: "Work"
 date: 2014-06-02T15:05:16-04:00
 modified: 2015-10-18T15:45:58-04:00

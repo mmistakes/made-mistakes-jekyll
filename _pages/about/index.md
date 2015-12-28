@@ -1,5 +1,6 @@
 ---
 layout: article
+permalink: /about/
 title: "About Michael Rose"
 date: 2014-06-01
 modified: 2015-11-30T12:52:00-05:00

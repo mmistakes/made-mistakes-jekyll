@@ -45,8 +45,8 @@ markdown: kramdown
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
-include: [".htaccess"]
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache", "autoprefixer.yml"]
+include: [".htaccess", "_pages"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache", ".asset-cache", ".sass-cache", ".bundle", "autoprefixer.yml"]
 
 
 # Collections
@@ -118,6 +118,13 @@ defaults:
   - scope:
       path: _faqs
       type: faqs
+    values:
+      layout: article
+
+  # Pages
+  - scope:
+      path: _pages
+      type: pages
     values:
       layout: article
 

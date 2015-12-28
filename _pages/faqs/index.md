@@ -1,5 +1,6 @@
 ---
 layout: archive
+permalink: /faqs/
 title: "Frequently Asked Questions"
 date: 2015-09-23T14:11:44-04:00
 modified: 2014-11-25

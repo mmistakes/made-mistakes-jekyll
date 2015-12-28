@@ -1,5 +1,6 @@
 ---
 layout: article
+permalink: /contact/
 title: "Contact Michael Rose"
 date: 2015-05-22
 modified: 2015-11-30T12:03:42-05:00

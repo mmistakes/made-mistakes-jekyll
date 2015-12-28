@@ -1,5 +1,6 @@
 ---
 layout: article
+permalink: /support/
 title: "Show Your Support"
 date: 2014-06-19T09:33:51.793000-04:00
 modified: 2015-12-02T15:56:41-05:00

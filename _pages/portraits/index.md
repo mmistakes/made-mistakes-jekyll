@@ -1,5 +1,6 @@
 ---
 layout: article
+permalink: /portraits/
 title: "Order a Digital Portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
 modified: 2014-09-22T11:27:18-04:00

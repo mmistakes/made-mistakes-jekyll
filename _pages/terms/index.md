@@ -1,5 +1,6 @@
 ---
 layout: article
+permalink: /terms/
 title: "Terms and Policies"
 date: 2014-06-22
 modified: 2015-12-02T16:02:42-05:00

@@ -1,5 +1,6 @@
 ---
 layout: archive
+permalink: /sitemap/
 title: "Sitemap"
 date: 2014-12-26
 modified: 2015-12-02T16:31:08-05:00
