@@ -1,5 +1,4 @@
 ---
-layout: article
 permalink: /contact/
 title: "Contact Michael Rose"
 date: 2015-05-22

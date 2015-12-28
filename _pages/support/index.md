@@ -1,5 +1,4 @@
 ---
-layout: article
 permalink: /support/
 title: "Show Your Support"
 date: 2014-06-19T09:33:51.793000-04:00

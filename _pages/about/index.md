@@ -1,5 +1,4 @@
 ---
-layout: article
 permalink: /about/
 title: "About Michael Rose"
 date: 2014-06-01

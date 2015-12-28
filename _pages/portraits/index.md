@@ -1,5 +1,4 @@
 ---
-layout: article
 permalink: /portraits/
 title: "Order a Digital Portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."

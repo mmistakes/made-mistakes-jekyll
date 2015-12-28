@@ -1,5 +1,4 @@
 ---
-layout: article
 permalink: /404/
 title: "Your Pixels are on Another Canvas"
 excerpt: "Page not found. Your pixels are on another canvas."

@@ -1,5 +1,4 @@
 ---
-layout: article
 permalink: /terms/
 title: "Terms and Policies"
 date: 2014-06-22
