@@ -1,5 +1,6 @@
 ---
 layout: article
+permalink: /404/
 title: "Your Pixels are on Another Canvas"
 excerpt: "Page not found. Your pixels are on another canvas."
 image:
@@ -16,7 +17,7 @@ Sorry, but the page you were trying to view has moved or does not exist --- perh
 
 ### Featured Posts
 
-<ul>
+<ul class="fl">
 {% assign features = site.posts | where:"featured", true %}
 {% for post in features limit:5 %}
   <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
@@ -25,6 +26,6 @@ Sorry, but the page you were trying to view has moved or does not exist --- perh
 
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';
-  var GOOG_FIXURL_SITE = 'https://mademistakes.com'
+  var GOOG_FIXURL_SITE = '{{ site.url }}'
 </script>
 <script type="text/javascript" src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
