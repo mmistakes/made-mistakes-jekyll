@@ -1,1 +1,4 @@
-&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot; rel=&quot;nofollow&quot;&gt;{{ post.title | xml_escape }}&lt;/a&gt; was originally published by &lt;a href=&quot;{{ site.url }}/about/&quot; rel=&quot;nofollow&quot;&gt;{{ site.owner.name }}&lt;/a&gt; on &lt;a href=&quot;{{ site.url }}&quot; rel=&quot;nofollow&quot;&gt;{{ site.title }}&lt;/a&gt;.&lt;/p&gt;
+{% capture feed_footer %}
+  <p><a href="{{ site.url }}{{ post.url }}" rel="nofollow">{{ post.title }} was originally published by <a href="{{ site.url }}/about/" rel="nofollow">{{ site.owner.name }}</a> on <a href="{{ site.url }}" rel="nofollow">{{ site.title }}</a></a>
+{% endcapture %}
+{{ feed_footer | markdownify | xml_escape }}
