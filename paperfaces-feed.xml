@@ -1,6 +1,6 @@
 ---
-layout:
-limit: 50
+layout: compress
+limit: 25
 title: "PaperFaces Portraits"
 sitemap: false
 ---

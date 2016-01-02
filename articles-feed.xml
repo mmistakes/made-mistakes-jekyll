@@ -1,5 +1,5 @@
 ---
-layout:
+layout: compress
 limit: 10
 title: "Articles"
 sitemap: false
