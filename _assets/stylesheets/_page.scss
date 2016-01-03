@@ -340,6 +340,7 @@
   width: 100%;
   @include breakpoint($medium-wide) {
     margin-left: 80px;
+    margin-top: 1em;
     width: 160px;
   }
   @media (min-width: 1025px) {
