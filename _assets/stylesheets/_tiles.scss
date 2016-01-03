@@ -27,7 +27,6 @@
 
 .tiles {
   display: flex;
-  margin: 0 -1vw 3em -1vw;
   flex-direction: column;
   justify-content: space-between;
   border-bottom: 4px double $light-gray;
@@ -38,9 +37,7 @@
 }
 
 .tile__item {
-  margin-left: 1%;
-  margin-right: 1%;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   img {
     width: 100%;
     margin: 0.25em 0;

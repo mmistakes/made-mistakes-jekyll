@@ -6,7 +6,7 @@
   display: flex;
   justify-content: flex-end;
   padding-top: 1.5em;
-  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
   /* hover state */
   &:hover {
     .archive__item-title,
