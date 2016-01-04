@@ -76,7 +76,6 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -92,7 +91,6 @@ DEPENDENCIES
   jekyll-sitemap!
   mini_magick
   uglifier
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.11.2
