@@ -5,7 +5,7 @@ image:
   feature: romance-engagement-feature.jpg
   teaser: romance-engagement-teaser.jpg
   thumb: romance-engagement-thumb.jpg
-tags: [engagement, proposal, romance]
+tags: [romance]
 ---
 
 I've always been one of those guys who didn't understand why women enjoyed receiving dead flowers. So two years ago when I decided to propose marriage to [my girlfriend Wendy](http://2littlerosebuds.com/), I was at a slight disadvantage --- I'm not a romantic, I don't do romance.
