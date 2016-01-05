@@ -1,3 +1,14 @@
+# Primary home navigation links
+
+home-primary:
+  - title: "Work Portfolio"
+    url: /work/
+  - title: "Blog Articles"
+    url: /articles/
+  - title: "Mastering Paper"
+    url: /mastering-paper/
+
+
 # Secondary home navigation links
 
 home-secondary:
@@ -9,6 +20,7 @@ home-secondary:
     url: /faqs/
   - title: "Sitemap"
     url: /sitemap/
+
 
 # Masthead navigation links
 
@@ -28,7 +40,7 @@ masthead:
 # Primary site navigation links (overlay)
 
 primary:
-  - title: "Work"
+  - title: "Work Portfolio"
     url: /work/
   - title: "Blog Articles"
     url: /articles/

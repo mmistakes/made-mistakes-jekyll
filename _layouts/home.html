@@ -9,7 +9,7 @@ layout: default
     {{ content }}
 
     <div class="home__primary">
-      {% for link in site.data.navigation.masthead limit:3 %}
+      {% for link in site.data.navigation.home-primary %}
         <a href="{{ site.url }}{{ link.url }}" class="btn btn--light-outline">{{ link.title }}</a>
       {% endfor %}
     </div>
