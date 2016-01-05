@@ -119,13 +119,7 @@
 
   $social:
   (facebook, $facebook-color),
-  (google-plus, $google-plus-color),
-  (instagram, $instagram-color),
-  (rss, $rss-color),
-  (tumblr, $tumblr-color),
-  (twitter, $twitter-color),
-  (github, $github-color),
-  (youtube, $youtube-color);
+  (twitter, $twitter-color);
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {

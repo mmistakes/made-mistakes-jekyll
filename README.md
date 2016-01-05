@@ -75,25 +75,19 @@ To easily add inline SVG icons to a post or page use the following Liquid tag.
 
 SVG assets are optimized and smashed together into `_includes/svg-icons.svg` and can be referenced by name (see table below).
 
-To update or add new assets place appropriately named `.svg` files into the `_svg` folder and run `grunt svg` to optimize.
+To update or add new assets:
+
+1. Place appropriately named `.svg` files into the `_svg` folder.
+2. Run `grunt images` to optimize and copy to `/svg/` (may need to clean out folder when removing SVGs).
+3. Run `grunt svg` to squash all SVGs into `_includes/svg-icons.svg`.
 
 | Name                   | Description            | Example                                         |
 | ---------------------- | ---------------------- | ------------------------------------------------|
 | **amazon**             | Amazon logo            | ![Amazon](http://i.imgur.com/DLvnqFq.png)       |
-| **bitcoin**            | BitCoin logo           | ![Bitcoin](http://i.imgur.com/2U2E8XP.png)      |
-| **blank**              | blank face             | ![blank](http://i.imgur.com/xF6EwDn.png)        |
 | **comments**           | chat bubble            | ![comments](http://i.imgur.com/vMK8dtw.png)     |
 | **deal-with-it**       | sunglasses face        | ![deal with it](http://i.imgur.com/C67DMje.png) |
-| **dollar-sign**        | dollar sign in circle  | ![dollar sign](http://i.imgur.com/bpUoSEi.png)  |
 | **facebook**           | Facebook square logo   | ![Facebook](http://i.imgur.com/xUlOyEl.png)     |
-| **github**             | GitHub octocat logo    | ![Github](http://i.imgur.com/vCaJrph.png)       |
-| **google-plus**        | G+ logo                | ![Google+](http://i.imgur.com/ax3ygpb.png)      |
-| **instagram**          | Instagram logo         | ![Instagram](http://i.imgur.com/jKceWJd.png)    |
-| **meh**                | indifferent face       | ![indifferent](http://i.imgur.com/jhAWKKH.png)  |
 | **paypal**             | PayPal logo            | ![PayPal](http://i.imgur.com/AaSzVUh.png)       |
-| **rss**                | RSS icon               | ![RSS](http://i.imgur.com/EHD4YSc.png)          |
 | **smile**              | smiley face            | ![smiley](http://i.imgur.com/Z0P08qm.png)       |
-| **tumblr**             | Tumblr logo            | ![Tumblr](http://i.imgur.com/3OyG3Hk.png)       |
 | **twitter**            | Twitter logo           | ![Twitter](http://i.imgur.com/mRmVsDI.png)      |
 | **wink**               | wink face              | ![wink](http://i.imgur.com/Z9V5X5r.png)         |
-| **youtube**            | YouTube logo           | ![YouTube](http://i.imgur.com/iQ1Z96T.png)      |
