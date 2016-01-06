@@ -29,6 +29,7 @@ Like many other websites, MadeMistakes.com uses log files to help learn about wh
 * Date and time stamp
 * Referring and exit pages
 * Number of clicks
+{:.fl}
 
 All of this information is not linked to anything that is personally identifiable.
 
@@ -64,6 +65,7 @@ What this means for you:
 * I do not and will not recommend a product just for the sake of making money.
 * I do not let the compensation I receive influence the content, topics, posts, or opinions expressed on this website.
 * I respect and value my readers too much to write anything other than my own genuine and objective opinions and advice.
+{:.fl}
 
 Just like this website, my Disclosure Policy is a work in progress. As the revenue streams evolve, so will this page.
 
