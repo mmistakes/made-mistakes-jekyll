@@ -53,6 +53,11 @@
   }
 }
 
+#component-select {
+  height: 32px;
+}
+
+
 /*
    Color swatches
    ========================================================================== */
@@ -103,14 +108,7 @@ $color:
 (link, $link-color),
 (link--hover, $link-color-hover),
 (facebook, $facebook-color),
-(foursquare, $foursquare-color),
-(google-plus, $google-plus-color),
-(instagram, $instagram-color),
-(rss, $rss-color),
-(tumblr, $tumblr-color),
-(twitter, $twitter-color),
-(github, #000),
-(youtube, $youtube-color);
+(twitter, $twitter-color);
 
 @each $name, $bgcolor in $color {
   .color__tile--#{$name} {
