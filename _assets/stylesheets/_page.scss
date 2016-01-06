@@ -138,12 +138,6 @@
     }
   }
 
-  /* SVG icons */
-  .icon {
-    width: 1em;
-    height: 1em;
-  }
-
   /* hide toc to avoid flash of content as it moves to sidebar */
   .js-toc {
     display: none;
@@ -221,8 +215,6 @@
     font-style: normal;
   }
   &--twitter {
-    width: 1em;
-    height: 1em;
     fill: $twitter-color;
     margin-left: 1em;
   }

@@ -30,14 +30,10 @@
   &:hover {
     background-color: mix(white, #000, 20%);
   }
-  svg {
-    width: 1em;
-    height: 1em;
+  .icon {
     margin-right: 0.5em;
-    vertical-align: middle;
-    fill: currentColor;
   }
-  svg + .hidden {
+  .icon + .hidden {
     margin-left: -0.5em; // override for hidden text
   }
 

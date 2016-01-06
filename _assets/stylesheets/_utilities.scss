@@ -105,6 +105,7 @@ ol.fl,
 
 .cf { clear: both; }
 
+
 /*
    Images
    ========================================================================== */
@@ -120,3 +121,20 @@ ol.fl,
     margin-left: 1em;
   }
 }
+
+
+/*
+   Icons
+   ========================================================================== */
+
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+}
+

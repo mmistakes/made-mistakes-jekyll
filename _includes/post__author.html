@@ -1,6 +1,6 @@
 <div class="author__wrapper">
   <div class="author__text">
-    <h5 class="author__name"><a href="{{ site.url }}/about/"><span class="author__name--bold" itemprop="author">{{ site.owner.name }}</span></a>{% if site.owner.twitter %} <span><a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name }} on Twitter"><svg class="author__name--twitter"><use xlink:href="#icon-twitter"></use></svg>@{{ site.owner.twitter }}</a>{% endif %}</h5>
+    <h5 class="author__name"><a href="{{ site.url }}/about/"><span class="author__name--bold" itemprop="author">{{ site.owner.name }}</span></a>{% if site.owner.twitter %} <span><a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name }} on Twitter"><svg class="icon author__name--twitter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use></svg> @{{ site.owner.twitter }}</a>{% endif %}</h5>
     {% if site.owner.bio %}<p class="author__bio">{{ site.owner.bio }}</p>{% endif %}
   </div>
   <img class="author__avatar" src="/images/{{ site.owner.avatar }}" width="100" height="100" alt="{{ site.owner.name }} avatar">
