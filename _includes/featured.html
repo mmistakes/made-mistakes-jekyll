@@ -7,9 +7,9 @@
         <a href="{{ site.url }}{{ post.url }}">
           <img src="{{ site.url }}/images/{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" alt="{{ post.title }}">
           {% if post.categories contains 'mastering-paper' %}
-            <h3 class="tile__title">{{ post.title | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</h3>
+            <h3 class="tile__title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</h3>
           {% else %}
-            <h3 class="tile__title">{{ post.title }}</h3>
+            <h3 class="tile__title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
           {% endif %}
           {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
           <span class="tile__item-time">{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
