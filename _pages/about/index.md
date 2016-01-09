@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2015-11-30T12:52:00-05:00
+modified: 2016-01-08
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   feature: about-michael-collage.jpg
@@ -32,13 +32,11 @@ Have more questions? If they're related to creating art on an iPad I've likely a
 
 <div markdown="0"><a href="{{ site.url }}/contact/" class="btn">{% icon comments %} Message Me</a></div>
 
----
-
 ## About the Site
 
 So what does this all have to do with *made mistakes* and why did you name your website that? It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
 
-In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) &rarr; [Textpattern](http://textpattern.com/) &rarr; [Wordpress](http://wordpress.org/) &rarr; [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
+In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) → [Textpattern](http://textpattern.com/) → [Wordpress](http://wordpress.org/) → [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
 I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({{ site.url }}{% post_url 2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
@@ -46,7 +44,7 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 
 I write tutorials and maintain a few open source projects for fun. If you've found any of them useful and want to thank me, here's a few ways you can.
 
-1. Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds]({{ site.url }}/subscribe/).
+1. Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds]({{ site.url }}/support/#subscribe-to-the-feeds).
 2. Buy anything at Amazon using [this link](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission[^affiliate]. 
 3. Send a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4) or [Square Cash](https://cash.me/$mmistakes).
 {:.fl}
