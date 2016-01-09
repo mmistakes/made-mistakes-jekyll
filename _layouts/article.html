@@ -13,6 +13,8 @@ layout: default
 
     <header class="container post__header">
       <h1 class="post__title" itemprop="name headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+      {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+      {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
       {% include breadcrumbs.html %}
     </header>
 
