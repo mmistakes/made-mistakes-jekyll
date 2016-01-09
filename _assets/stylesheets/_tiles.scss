@@ -41,6 +41,7 @@
   img {
     width: 100%;
     margin: 0.25em 0;
+    border-radius: $border-radius;
   }
   @media (min-width: $small) {
     flex-basis: 31%;
