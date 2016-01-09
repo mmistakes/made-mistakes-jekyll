@@ -4,8 +4,9 @@
 
 .footnotes {
   position: relative;
-  padding-top: 1em;
+  padding-top: 2em;
   font-family: $sans-serif;
+  color: mix(#fff, $text-color, 25%);
 
   p, li {
     font-size: 0.8rem;
@@ -16,8 +17,12 @@
   }
 
   &:before {
-    content: 'Footnotes:'; /* Prepend footnote list with a title */
-    font-weight: bold;
+    content: '';
+    display: block;
+    margin-bottom: 2em;
+    height: 1px;
+    width: 5em;
+    background: $border-color;
   }
 }
 
