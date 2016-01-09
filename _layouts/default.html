@@ -19,7 +19,9 @@ layout: compress
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.type == 'year' %}<meta name="description" content="An archive of posts from the year {{ page.title | date: "%Y" }}.">{% endif %}
     {% if page.type == 'tag' %}<meta name="description" content="An archive of posts filed under the {{ page.type }} {{ page.title }}.">{% endif %}
-    {% include open-graph.html %}
+
+    {% include sharing-meta.html %}
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
 
