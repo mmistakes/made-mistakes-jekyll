@@ -5,6 +5,7 @@ date: 2014-06-22
 modified: 2015-12-02T16:02:42-05:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
 share: false
+author: false
 ---
 
 This is my personal website written and edited by me. Your use of this website, in any and all forms, constitutes an acceptance of these terms and policies. This page is reviewed and revised from time to time.
@@ -76,3 +77,5 @@ All original content (e.g. articles, blog posts, illustrations, artwork, and pho
 ### Attribution
 
 If you're inclined to give credit --- a link back to the source article attributed to either [Made Mistakes]({{ site.url }}) or [Michael Rose]({{ site.url }}) is good enough for me. If you don't want to attribute my content, hey that's cool too. Just don't go stealing my stuff and republishing it as your own.
+
+*Last updated: {{ page.modified | date: "%B %d, %Y" }}*
