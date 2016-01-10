@@ -10,6 +10,7 @@
 #goog-wm-sb {
   /* default button */
   display: inline-block;
+  margin-bottom: 0.25em;
   padding: 10px 20px;
   color: #fff !important;
   font-family: $sans-serif;
@@ -20,7 +21,6 @@
   background-color: #000;
   border: 0 !important;
   border-radius: $border-radius;
-  text-transform: uppercase;
   cursor: pointer;
   &:active {
     // move button slightly on click

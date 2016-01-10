@@ -1,10 +1,5 @@
-<div class="post__single-meta">
-  {% if page.path contains '_posts' and page.categories %}
-    {% assign category_slug = page.categories | first %}
-    {% assign category = site.data.categories[category_slug] %}
-    <a class="post__category" href="{{ site.url }}/{{ page.categories | first }}/">{{ category.name }}</a>
+<div class="post__social">
+  {% if page.share != empty and page.share != false %}
+    {% include post__social.html %}
   {% endif %}
-  <span class="post__published">
-
-  </span>
 </div>

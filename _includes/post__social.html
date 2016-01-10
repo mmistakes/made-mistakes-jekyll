@@ -1,2 +1,3 @@
 <a class="btn btn--twitter" href="https://twitter.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}&via={{ site.owner.twitter }}&text={{ page.title | markdownify | remove: '<p>' | remove: '</p>' | cgi_escape }}" target="_blank" title="Share on Twitter">{% icon twitter %} Tweet</a>
+
 <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}" target="_blank" title="Share on Facebook">{% icon facebook %} Share</a>
