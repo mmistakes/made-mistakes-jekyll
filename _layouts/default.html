@@ -13,9 +13,7 @@ layout: compress
 
     {% if page.title %}
       {% assign seo_title = page.title | append: " • " | append: site.title %}
-    {% endif %}
-
-    {% if page.type == 'year' %}
+    {% elsif page.type == 'year' %}
       {% assign seo_title = page.date | date: "%Y" | append: " • " | append: site.title %}
     {% endif %}
 
@@ -23,15 +21,35 @@ layout: compress
       {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
     {% endif %}
 
-    <title>{{ seo_title }}</title>
+    {% if page.excerpt %}
+      {% assign seo_description = page.excerpt %}
+    {% elsif page.type == 'year' %}
+      {% assign seo_description = page.date | date: "%Y" | prepend: "An archive of posts from the year " | append: "." %}
+    {% elsif page.type == 'tag' %}
+      {% assign seo_description = page.title | prepend: "An archive of "| append: " posts." |  %}
+    {% elsif site.description %}
+      {% assign seo_description = site.description %}
+    {% endif %}
 
-    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-    {% if page.type == 'year' %}<meta name="description" content="An archive of posts from the year {{ page.title | date: "%Y" }}.">{% endif %}
-    {% if page.type == 'tag' %}<meta name="description" content="An archive of posts filed under the {{ page.type }} {{ page.title }}.">{% endif %}
+    {% if seo_description %}
+      {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+    {% endif %}
+
+    {% if site.url %}
+      {% assign canonical_url = page.url | replace:'index.html','' | prepend: site.url %}
+    {% endif %}
+
+    {% if seo_title %}
+      <title>{{ seo_title }}</title>
+    {% endif %}
+
+    {% if seo_description %}
+      <meta name="description" content="{{ seo_description }}" />
+    {% endif %}
 
     {% include sharing-meta.html %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <link rel="canonical" href="{{ canonical_url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
 
     <link href="http://feeds.feedburner.com/MadeMistakes" type="application/atom+xml" rel="alternate" title="{{ site.title }} &#8211; Everything">
