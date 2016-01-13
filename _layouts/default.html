@@ -7,15 +7,24 @@ layout: compress
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    {% if page.type == 'year' %}<meta name="robots" content="noindex, follow">{% endif %}
-    <title>
-      {% if page.type == 'year' %}{{ page.date | date: "%Y" }} • {% endif %}
-      {% if page.title %}
-        {% if page.type == 'tag' %}{{ page.title }} • {% endif %}
-        {% unless page.type %}{{ page.title }} • {% endunless %}
-      {% endif %}
-      {{ site.title }}
-    </title>
+    {% if page.type == 'year' %}
+      <meta name="robots" content="noindex, follow">
+    {% endif %}
+
+    {% if page.title %}
+      {% assign seo_title = page.title | append: " • " | append: site.title %}
+    {% endif %}
+
+    {% if page.type == 'year' %}
+      {% assign seo_title = page.date | date: "%Y" | append: " • " | append: site.title %}
+    {% endif %}
+
+    {% if seo_title %}
+      {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
+    {% endif %}
+
+    <title>{{ seo_title }}</title>
+
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.type == 'year' %}<meta name="description" content="An archive of posts from the year {{ page.title | date: "%Y" }}.">{% endif %}
     {% if page.type == 'tag' %}<meta name="description" content="An archive of posts filed under the {{ page.type }} {{ page.title }}.">{% endif %}
