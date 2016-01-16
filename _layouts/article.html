@@ -7,12 +7,12 @@ layout: default
 
 <div id="main" role="main">
 
-  <article itemscope itemtype="http://schema.org/Article">
+  <article itemscope itemtype="http://schema.org/CreativeWork">
 
     <meta itemprop="description" content="{{ page.excerpt | strip_html }}">
 
     <header class="container post__header">
-      <h1 class="post__title" itemprop="name headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+      <h1 class="post__title" itemprop="headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
       {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
       {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
       {% include breadcrumbs.html %}
@@ -30,7 +30,7 @@ layout: default
 
       <div class="post__inner-wrapper">
 
-        <section class="post__body">
+        <section class="post__body" itemprop="text">
           {{ content }}
         </section>
 
