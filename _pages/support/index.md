@@ -2,7 +2,7 @@
 permalink: /support/
 title: "Show Your Support"
 date: 2014-06-19T09:33:51.793000-04:00
-modified: 2016-01-05T16:24:58-05:00
+modified: 2016-01-19T15:48:05-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 share: false
 author: false
@@ -42,11 +42,7 @@ Subscribing to the [**All Posts**](http://feeds.feedburner.com/MadeMistakes) fee
 
 [^rss]: Right click any of the feed links found on this page and paste into your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
 
-You can also follow along using services like **feedly** and **Bloglovin**.
-
 <a href="http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Ffeeds.feedburner.com%2FMadeMistakes"  target="blank"><img id="feedlyFollow" src="http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-medium_2x.png" alt="follow on feedly" width="71" height="28"></a>
-
-<a class="blsdk-follow" href="https://www.bloglovin.com/blogs/made-mistakes-3627581" target="_blank" data-blsdk-type="button">Follow</a><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = "https://widget.bloglovin.com/assets/widget/loader.js";fjs.parentNode.insertBefore(js, fjs);}(document, "script", "bloglovin-sdk"))</script>
 
 ## Send a Donation
 
