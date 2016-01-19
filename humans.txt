@@ -4,18 +4,11 @@ _  ________ ____   _  ______________  _________
 |\/||__||  \|___   |\/||[__  | |__||_/ |___[__
 |  ||  ||__/|___   |  ||___] | |  || \_|______]
 
-/* mademistakes.com */
-/* design faux pas */
-
-
-/* ABOUT */
+/* MADEMISTAKES.COM */
 
   Designer:     Michael Rose
   Twitter:      @mmistakes
   Location:     Buffalo, New York USA
-
-
-/* SITE */
 
   Last updated: {{ site.time }}
   Language:     English
@@ -23,11 +16,5 @@ _  ________ ____   _  ______________  _________
                 Sublime Text 3 <http://www.sublimetext.com>
                 Adobe Creative Suite
                 Grunt <http://gruntjs.com>
-                HTML Compressor <https://code.google.com/p/htmlcompressor>
                 SimpleIcon <http://www.flaticon.com>
                 Twitter Emoji <https://github.com/twitter/twemoji>
-
-
-/* SPECIAL THANKS */
-
-  HTML5 Boilerplate <http://html5boilerplate.com>
