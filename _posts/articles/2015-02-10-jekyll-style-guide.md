@@ -1,6 +1,6 @@
 ---
 title: "Building a Style Guide with Jekyll"
-modified: 2015-10-19T14:20:00-04:00
+modified: 2016-01-19T15:17:36-05:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 tags: [jekyll, style guide, open source, web development, github]
 image:
@@ -35,8 +35,6 @@ Out of the bunch, [Jérôme Coupé's](http://www.webstoemp.com/) approach resona
 
 [^collections]: A feature added to Jekyll in [version 2.0.0](http://jekyllrb.com/docs/history/#v2-0-0) allowing you to define new types of documents that behave like [Pages](http://jekyllrb.com/docs/pages/) or [Posts](http://jekyllrb.com/docs/posts/), while also having their own unique properties and name-spaces.
 
----
-
 ## Building the Style Guide
 
 To start I took a quick survey of all the Sass partials in my `_asseets/stylesheets`[^jekyll-assets] folder to determine how I might want to organize the style guide. The biggies for me were:
@@ -47,7 +45,7 @@ To start I took a quick survey of all the Sass partials in my `_asseets/styleshe
 * **Patterns** (buttons, badges, table of contents, etc.)
 {:.fl}
 
-[^jekyll-assets]: I'm using the excellent [Jekyll::AssetsPlugin](https://github.com/ixti/jekyll-assets) to add a Rails-like asset pipeline to run [AutoPrefixer](https://github.com/postcss/autoprefixer), minify and MD5 fingerprint CSS/JavaScript assets, and some other useful stuff.
+[^jekyll-assets]: I'm using the excellent [Jekyll 3 Assets](https://github.com/jekyll/jekyll-assets) plugin for a Rails-like asset pipeline to run [AutoPrefixer](https://github.com/postcss/autoprefixer), minify and MD5 fingerprint CSS/JavaScript assets, and some other useful stuff.
 
 ### Configure Collections
 
@@ -263,8 +261,6 @@ To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/mast
   }
 }
 {% endhighlight %}
-
----
 
 ## Maintaining the Style Guide
 
