@@ -24,30 +24,12 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
         <li><a href="{{ site.url }}/style-guide/">Style Guide</a></li>
       </ul>
     </li>
-    <li><a href="#archives">Archives</a>
+    <li><a href="{{ site.url }}/tag/">Archives by Tag</a>
       <ul>
-        <li><a href="#archives-year">Archives by Year</a>
-          <ul>
-            <li><a href="{{ site.url }}/2015/">2015</a></li>
-            <li><a href="{{ site.url }}/2014/">2014</a></li>
-            <li><a href="{{ site.url }}/2013/">2013</a></li>
-            <li><a href="{{ site.url }}/2012/">2012</a></li>
-            <li><a href="{{ site.url }}/2011/">2011</a></li>
-            <li><a href="{{ site.url }}/2010/">2010</a></li>
-            <li><a href="{{ site.url }}/2009/">2009</a></li>
-            <li><a href="{{ site.url }}/2008/">2008</a></li>
-            <li><a href="{{ site.url }}/2007/">2007</a></li>
-            <li><a href="{{ site.url }}/2006/">2006</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ site.url }}/tag/">Archives by Tag</a>
-          <ul>
-            {% assign tags_list = site.tags | sort %}  
-            {% for tag in tags_list %} 
-              <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/">{{ tag[0] }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
+        {% assign tags_list = site.tags | sort %}  
+        {% for tag in tags_list %} 
+          <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/">{{ tag[0] }}</a></li>
+        {% endfor %}
       </ul>
     </li>
     <li><a href="{{ site.url }}/articles/">Blog Articles</a>

@@ -152,10 +152,8 @@ jekyll-archives:
     - tags
     - year
   layouts:
-    year: year_index
     tag: tag_index
   permalinks:
-    year: /:year/
     tag: /tag/:name/
 
 

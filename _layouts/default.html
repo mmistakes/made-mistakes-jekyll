@@ -7,14 +7,9 @@ layout: compress
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    {% if page.type == 'year' %}
-      <meta name="robots" content="noindex, follow">
-    {% endif %}
 
     {% if page.title %}
       {% assign seo_title = page.title | append: " • " | append: site.title %}
-    {% elsif page.type == 'year' %}
-      {% assign seo_title = page.date | date: "%Y" | append: " • " | append: site.title %}
     {% endif %}
 
     {% if seo_title %}
@@ -23,8 +18,6 @@ layout: compress
 
     {% if page.excerpt %}
       {% assign seo_description = page.excerpt %}
-    {% elsif page.type == 'year' %}
-      {% assign seo_description = page.date | date: "%Y" | prepend: "An archive of posts from the year " | append: "." %}
     {% elsif page.type == 'tag' %}
       {% assign seo_description = page.title | prepend: "An archive of "| append: " posts." |  %}
     {% elsif site.description %}
