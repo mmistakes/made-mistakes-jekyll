@@ -1,6 +1,7 @@
-{% if page.categories and page.categories != empty %}
-{% assign category_slug = page.categories | first %}
-{% assign category = site.data.categories[category_slug] %}
+{% assign page_slug = page.url | remove_first: '/' | split: '/' %}
+{% assign slug_first = page_slug[0] %}
+{% assign slug = site.data.categories[slug_first] %}
+
 <nav class="breadcrumbs">
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
     <a href="{{ site.url }}" class="breadcrumb__item" itemprop="url">
@@ -8,21 +9,8 @@
     </a> <span class="breadcrumb__sep">›</span>
   </span>
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}/{{ page.categories | first }}/" class="breadcrumb__item" itemprop="url">
-      <span itemprop="title">{{ category.name }}</span>
+    <a href="{{ site.url }}/{{ page_slug[0] }}/" class="breadcrumb__item" itemprop="url">
+      <span itemprop="title">{{ slug.name }}</span>
     </a>
   </span>
 </nav><!-- /.breadcrumbs -->
-{% endif %}
-
-{% if page.url contains page.collection %}
-{% assign collection = site.data.categories[page.collection] %}
-<nav class="breadcrumbs">
-  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}" class="breadcrumb__item" itemprop="url"><span itemprop="title">Home</span></a> <span class="breadcrumb__sep">›</span>
-  </span>
-  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-    <a href="{{ site.url }}/{{ page.collection }}/" class="breadcrumb__item" itemprop="url"><span itemprop="title">{{ collection.name }}</span></a>
-  </span>
-</nav><!-- /.breadcrumbs -->
-{% endif %}

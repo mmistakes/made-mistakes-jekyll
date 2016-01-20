@@ -20,3 +20,21 @@ work:
 
 faqs:
   name: "Frequently Asked Questions"
+
+about:
+  name: "About"
+
+contact:
+  name: "Contact"
+
+404:
+  name: "Not Found"
+
+sitemap:
+  name: "Sitemap"
+
+style-guide:
+  name: "Style Guide"
+
+terms:
+  name: "Terms &amp; Policies"
