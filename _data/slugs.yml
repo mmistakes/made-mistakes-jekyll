@@ -1,4 +1,4 @@
-# Category names
+# slugs
 
 articles:
   name: "Blog Articles"
@@ -38,3 +38,6 @@ style-guide:
 
 terms:
   name: "Terms &amp; Policies"
+
+tag:
+  name: "Tags"

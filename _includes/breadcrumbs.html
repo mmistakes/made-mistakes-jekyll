@@ -1,6 +1,6 @@
 {% assign page_slug = page.url | remove_first: '/' | split: '/' %}
 {% assign slug_first = page_slug[0] %}
-{% assign slug = site.data.categories[slug_first] %}
+{% assign slug = site.data.slugs[slug_first] %}
 
 <nav class="breadcrumbs">
   <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
