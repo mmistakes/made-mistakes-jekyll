@@ -14,7 +14,7 @@
         </a>
         {% if post.categories %}
           {% assign category_slug = post.categories | first %}
-          {% assign category = site.data.categories[category_slug] %}
+          {% assign category = site.data.slugs[category_slug] %}
           <a href="{{ site.url }}/{{ post.categories | first }}/" class="tile__category">{{ category.name }}</a>
         {% endif %}
       </article>
