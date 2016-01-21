@@ -15,10 +15,22 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: -3px;
   }
   a {
     color: #000;
+  }
+  .overlay__menu-trigger {
+    color: #fff;
+    background: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: $border-radius;
+    &:before {
+      display: none;
+    }
+    &:hover {
+      background-color: $highlighter-color;
+    }
   }
 }
 
@@ -42,24 +54,24 @@
 
 .masthead__title {
   display: none;
-  &:hover {
-    border-bottom-color: $highlighter-color;
-  }
   @include breakpoint($small) {
     display: block;
-    padding: 20px 0 15px 0;
+    margin: 10px 0;
+    padding: 10px 0 10px 0;
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 1px;
-    border-bottom: 5px solid #000;
+    line-height: 0.8rem;
   }
 }
 .masthead__menu-item {
   position: relative;
   display: block;
-  padding: 20px 0;
+  margin: 10px 0;
+  padding: 10px 0;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  line-height: 0.8rem;
   // underline effect
   &:before {
     content: '';
