@@ -3,10 +3,14 @@
    ========================================================================== */
 
 .breadcrumbs {
-  margin: 20px 0 0;
-  font-family: $sans-serif;
-  font-size: 0.64rem;
-  text-transform: uppercase;
+  display: none;
+  @include breakpoint($small) {
+    display: block;
+    margin: 20px 0 0;
+    font-family: $sans-serif;
+    font-size: 0.64rem;
+    text-transform: uppercase;
+  }
 }
 
 .breadcrumb__item {
