@@ -119,9 +119,6 @@
   transform: translateY(-100%);
   transition: transform 0.4s cubic-bezier(.86,.01,.77,.78);
   box-shadow: 0 0 10px rgba(#000, 0.5);
-  @include breakpoint($small) {
-    padding-top: 80px;
-  }
 
   ul {
     display: flex;
