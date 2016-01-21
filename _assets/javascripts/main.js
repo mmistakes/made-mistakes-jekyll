@@ -233,4 +233,8 @@ $(document).ready(function(){
   	skip_invisible: false
   });
 
+
+  // Bigfoot footnotes
+  $.bigfoot();
+
 });
