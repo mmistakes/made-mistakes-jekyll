@@ -35,6 +35,7 @@ GEM
     ffi (1.9.10-x64-mingw32)
     ffi (1.9.10-x86-mingw32)
     jekyll (3.0.1)
+    jekyll (3.0.2)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
