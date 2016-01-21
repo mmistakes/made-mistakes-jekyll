@@ -10,12 +10,6 @@ table {
   font-size: 0.8rem;
 }
 
-tbody {
-  tr:hover > td, tr:hover > th {
-    background-color: $table-hover-color;
-  }
-}
-
 thead {
   tr:first-child td {
     border-bottom: 2px solid $table-border-color;
