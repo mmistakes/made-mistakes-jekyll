@@ -6,7 +6,6 @@
   position: relative;
   width: 100%;
   font-family: $sans-serif;
-  text-transform: uppercase;
   background-color: #fff;
   border-bottom: 1px solid $light-gray;
   z-index: 11;
@@ -22,8 +21,9 @@
   .overlay__menu-trigger {
     color: #fff;
     background: #000;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     border-radius: $border-radius;
     &:before {
       display: none;
@@ -62,13 +62,14 @@
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 0.8rem;
+    text-transform: uppercase;
   }
 }
 .masthead__menu-item {
   position: relative;
   display: block;
-  margin: 10px 0;
-  padding: 10px 0;
+  margin: 10px 0 0;
+  padding: 10px 0 20px;
   font-size: 0.8rem;
   letter-spacing: 1px;
   line-height: 0.8rem;
