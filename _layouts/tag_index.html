@@ -8,14 +8,13 @@ layout: default
 <div id="main" role="main">
 
   <header class="container post__header">
+    {% if page.image.feature %}
+      {% include page__hero.html %}
+    {% endif %}
     <h1 class="post__title">{{ page.title }}</h1>
     <h2 class="post__excerpt">An archive of posts tagged <em>{{ page.title }}</em>.</h2>
     {% include breadcrumbs.html %}
   </header>
-
-  {% if page.image.feature %}
-    {% include page__hero.html %}
-  {% endif %}
 
   {% if page.feature.visible == true %}
     {% include featured.html %}

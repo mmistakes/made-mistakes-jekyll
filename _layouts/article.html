@@ -15,12 +15,11 @@ layout: default
       <h1 class="post__title" itemprop="headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
       {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
       {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+      {% if page.image.feature %}
+        {% include page__hero.html %}
+      {% endif %}
       {% include breadcrumbs.html %}
     </header>
-
-    {% if page.image.feature %}
-      {% include page__hero.html %}
-    {% endif %}
 
     {% if page.feature.visible == true %}
       {% include featured.html %}

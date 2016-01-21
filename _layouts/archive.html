@@ -10,12 +10,11 @@ layout: default
   <header class="container post__header">
     <h1 class="post__title">{{ page.title }}</h1>
     {% if page.excerpt %}<h2 class="post__excerpt">{{ page.excerpt }}</h2>{% endif %}
+    {% if page.image.feature %}
+      {% include page__hero.html %}
+    {% endif %}
     {% include breadcrumbs.html %}
   </header>
-
-  {% if page.image.feature %}
-    {% include page__hero.html %}
-  {% endif %}
 
   {% if page.feature.visible == true %}
     {% include featured.html %}
