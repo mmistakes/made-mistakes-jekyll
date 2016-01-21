@@ -150,7 +150,6 @@ assets:
 jekyll-archives:
   enabled:
     - tags
-    - year
   layouts:
     tag: tag_index
   permalinks:
