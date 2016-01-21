@@ -1,6 +1,6 @@
 ---
 title: "Building a Style Guide with Jekyll"
-modified: 2016-01-19T15:17:36-05:00
+modified: 2016-01-20
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 tags: [jekyll, style guide, open source, web development, github]
 image:
@@ -61,7 +61,7 @@ collections:
     output: false
 {% endhighlight %}
 
-I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section]({{ site.owner.github-repo }}_faqs/)) I would simply change `output: false` to `true` and add `permalink: /style-guide/:collection/:path/` to customize their URLs to something like `mademistakes.com/style-guide/components/some_doc/index.html`.
+I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section]({{ site.owner.github-repo }}_faqs/)) I would simply change `output: false` to `true` and add permalinks to the YAML Front Matter.
 
 <div class="notice" markdown="1">
 #### Looking to the future
