@@ -10,7 +10,7 @@ excerpt: "Because no one likes to repeat things here's a compilation of answers 
 {% assign other_faqs = site.faqs | where: "type", "other" | sort: "order" %}
 {% assign paper_faqs = site.faqs | where: "type", "paper" | sort: "order" %}
 
-<h3>Other</h3>
+## Other
 
 <ul class="fl">
 {% for faq in other_faqs %}
@@ -18,7 +18,7 @@ excerpt: "Because no one likes to repeat things here's a compilation of answers 
 {% endfor %}
 </ul>
 
-<h3>Paper by FiftyThree</h3>
+## Paper by FiftyThree
 
 <ul class="fl">
 {% for faq in paper_faqs %}
