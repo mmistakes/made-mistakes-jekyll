@@ -3,7 +3,7 @@ title: "How did you learn to draw on an iPad?"
 type: paper
 date: 2014-12-07
 modified: 2015-11-30T12:35:17-05:00
-order: 3
+order: 4
 ---
 
 The answer that no one likes to hear is "*practice, practice, practice.*" I wish there was some magical shortcut for learning how to draw, but there isn't.

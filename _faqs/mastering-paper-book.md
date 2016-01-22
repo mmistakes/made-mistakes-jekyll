@@ -2,7 +2,7 @@
 title: "Have you ever thought about writing a Mastering Paper book?"
 type: paper
 date: 2014-12-07
-modified: 2014-12-08T12:25:58-05:00
+modified: 
 order: 8
 ---
 
@@ -14,4 +14,4 @@ I would love to print Moleskine books of the guides using Paper's built-in book 
 	<a href="https://mix.fiftythree.com/11098-Michael-Rose" target="_blank"><img src="{{ site.url }}/images/mix-follow-me-page.jpg" alt="Follow me on Mix"></a>
 </figure>
 
-In the meantime you're welcome to [follow me on Mix](https://mix.fiftythree.com/11098-Michael-Rose) where I often share *one-page* cheat sheets and mini-guides. The cool thing is you can download these pages directly to your Paper journals to reference or manipulate.
+In the meantime you're welcome to [follow me on Mix](https://mix.fiftythree.com/11098-Michael-Rose) where I often share *one-page* cheat sheets and mini-guides. The cool thing is you can download these pages directly to your Paper journals to reference or manipulate as you see fit.
