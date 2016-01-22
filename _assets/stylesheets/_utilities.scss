@@ -29,11 +29,69 @@
    Visibility
    ========================================================================== */
 
-/* Hide element */
+/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
 
-.hidden,
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* for preloading images */
+
 .load {
   display: none;
+}
+
+/* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
+
+.visually-hidden,
+.screen-reader-text,
+.screen-reader-text span,
+.screen-reader-shortcut {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px !important;
+  width: 1px !important;
+  border: 0 !important;
+  overflow: hidden;
+}
+
+body:hover .visually-hidden a,
+body:hover .visually-hidden input,
+body:hover .visually-hidden button {
+  display: none !important;
+}
+
+/* screen readers */
+
+.screen-reader-text:focus,
+.screen-reader-shortcut:focus  {
+  clip: auto !important;
+  height: auto !important;
+  width: auto !important;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 15px 23px 14px;
+  background: #fff;
+  z-index: 100000;
+  text-decoration: none;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+}
+
+
+/*
+   Skip links
+   ========================================================================== */
+
+.skip-link {
+  margin: 0;
+}
+
+.skip-link li {
+  height: 0;
+  width: 0;
+  list-style: none;
 }
 
 
@@ -41,13 +99,13 @@
    Type
    ========================================================================== */
 
-/* Center align */
+/* center align */
 
 .center {
   text-align: center;
 }
 
-/* Flush left lists */
+/* flush left lists */
 
 ul.fl,
 ol.fl,
@@ -112,7 +170,7 @@ ol.fl,
    Images
    ========================================================================== */
 
-/* Image align right */
+/* image align right */
 
 .image-right {
   display: block;

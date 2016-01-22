@@ -22,6 +22,16 @@ $(document).ready(function(){
     $('#screen').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
   });
 
+  // open/close overlay navigation on focus
+  $('.overlay__menu-item a').on('focus', function(){
+    $('.overlay__menu').addClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    $('#screen').addClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+  });
+  $('.overlay__menu-close').on('focus', function(){
+    $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    $('#screen').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+  });
+
 
   // move table of contents from post body to sidebar
   $(".post__body .js-toc").appendTo($(".toc--sidebar")).hide().fadeIn(400);
