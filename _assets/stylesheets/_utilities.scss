@@ -105,49 +105,6 @@ body:hover .visually-hidden button {
   text-align: center;
 }
 
-/* flush left lists */
-
-ul.fl,
-ol.fl,
-.footnotes ol {
-  display: table;
-  margin-left: 0;
-  padding-left: 0;
-  list-style: none;
-  border-collapse: collapse;
-  li {
-    display: table-row;
-  }
-  li + li {
-    margin-top: 0;
-    border-top: 0.5em solid transparent; // to fake vertical space between list elements
-  }
-}
-
-ul.fl {
-  li {
-    &:before {
-      content: "\25a0"; // square bullet
-      display: table-cell;
-      padding-right: 1em;
-    }
-  }
-}
-
-ol.fl,
-.footnotes ol {
-  li {
-    counter-increment: table-ol;
-    &:before {
-      content: counter(table-ol) ".";
-      display: table-cell;
-      padding-right: 0.75em;
-      text-align: right;
-      font-weight: bold;
-    }
-  }
-}
-
 
 /*
    Alignment
