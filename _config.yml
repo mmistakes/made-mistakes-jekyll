@@ -42,6 +42,8 @@ disqus-shortname: mmistakes
 permalink: /:categories/:title/
 lsi: true
 markdown: kramdown
+gems:
+  - jekyll-archives
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
