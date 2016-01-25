@@ -1,4 +1,4 @@
-//= require vendor/jquery
+//= require vendor/jquery.min
 //= require_tree ./plugins/
 
 $(document).ready(function(){
