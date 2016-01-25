@@ -1,7 +1,6 @@
 GIT
   remote: git://github.com/jekyll/jekyll-assets.git
   revision: 35330f7676260932bc3c6257671aa2e9ed3235ec
-  ref: 35330f7676260932bc3c6257671aa2e9ed3235ec
   specs:
     jekyll-assets (2.2.0.pre.alpha)
       fastimage (~> 1.8)
@@ -12,7 +11,6 @@ GIT
 GIT
   remote: git://github.com/jekyll/jekyll-sitemap.git
   revision: 8ea5c6e5ef2f123bd4c652d7af69016c3aaa3ad3
-  ref: 8ea5c6e5ef2f123bd4c652d7af69016c3aaa3ad3
   specs:
     jekyll-sitemap (0.10.0)
 
@@ -34,7 +32,7 @@ GEM
     ffi (1.9.10)
     ffi (1.9.10-x64-mingw32)
     ffi (1.9.10-x86-mingw32)
-    jekyll (3.0.2)
+    jekyll (3.1.0)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
