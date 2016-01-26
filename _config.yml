@@ -44,6 +44,7 @@ lsi: true
 markdown: kramdown
 gems:
   - jekyll-archives
+  - jekyll-assets
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
