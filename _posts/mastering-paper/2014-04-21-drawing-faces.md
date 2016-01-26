@@ -1,7 +1,7 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Portraits and Faces"
 excerpt: "Advanced techniques for drawing and painting portraits using the iPad app Paper by FiftyThree."
-modified: 2015-01-28T09:46:29-05:00
+modified: 2016-01-25
 image: 
   feature: paper-53-faces-feature.jpg
   teaser: paper-53-faces-teaser.jpg
@@ -414,7 +414,7 @@ My plan for the next guide was to [reboot a hair tutorial]({{ site.url }}{% post
 So how about this? Let me know in the comments below what you want to see next: **hair tutorials** or more portrait goodness like **how to draw realistic eyes, mouths, and more**.
 
 <ul class="th-grid">
-{% for post in site.categories.paperfaces limit:8 %}
+{% for post in site.categories.paperfaces limit:12 %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
   </li>
