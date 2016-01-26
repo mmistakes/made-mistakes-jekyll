@@ -5,7 +5,6 @@ title: "Tag Index"
 modified:
 excerpt: "An archive of posts sorted by tag frequency."
 share: false
-ads: false
 ---
 
 {% assign tags_max = 0 %}
@@ -19,7 +18,7 @@ ads: false
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
-    <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item">{{ tag[0] }}</a></li>
+    <li>#<a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item">{{ tag[0] | remove: " " }}</a></li>
     {% endif %}
   {% endfor %}
 {% endfor %}
