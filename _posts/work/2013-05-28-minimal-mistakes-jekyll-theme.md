@@ -29,7 +29,6 @@ Minimal Mistakes makes use of Sass and data files as part of Jekyll 2.x. Updatin
 * Support for large images to call out your favorite posts.
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
 * Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/minimal-mistakes/articles/code-highlighting-post/).
-{:.fl}
 
 <figure>
 	<a href="https://mmistakes.github.io/minimal-mistakes/"><img src="{{ site.url }}/images/mm-theme-post-750.jpg" alt="Screenshot of Minimal Mistakes theme"></a>
@@ -51,7 +50,6 @@ Minimal Mistakes now requires [Jekyll](http://jekyllrb.com/) 2.x. Make sure to r
 2. Clone the repo you just forked and rename it.
 3. [Install Bundler](http://bundler.io) `gem install bundler` and Run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), [Bourbon](http://bourbon.io), etc)
 4. Update `config.yml`, add navigation, and replace demo posts and pages with your own. [Full details here](https://mmistakes.github.io/minimal-mistakes/theme-setup/).
-{:.fl}
 
 **If you want to use Minimal Mistakes with an existing Jekyll site follow these steps:**
 
@@ -61,14 +59,11 @@ Minimal Mistakes now requires [Jekyll](http://jekyllrb.com/) 2.x. Make sure to r
 4. Remove demo posts and pages add replace with your own posts, pages, and any other content you want to move over.
 5. Update posts and pages YAML to match variables used by Minimal Mistakes.
 6. Update `config.yml` and add navigation links. [Full details here](https://mmistakes.github.io/minimal-mistakes/theme-setup/).
-{:.fl}
 
 <div class="notice--info" markdown="1">
 #### ProTip: Clean Up the Repo
 Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you won't want.
 </div>
-
----
 
 ## Usage
 

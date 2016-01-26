@@ -25,7 +25,6 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Simple custom 404 page to get you started.
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
-{:.fl}
 
 <figure class="large">
 	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
@@ -72,13 +71,9 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too… but that's a discussion for another day.
 [^3]: On mobile I choose to remove the fixed positioning to keep the menu from interfering with the main content.
 
----
-
 ## Questions?
 
 Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
 
 ## License
 

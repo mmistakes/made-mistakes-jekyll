@@ -27,7 +27,6 @@ After having so much fun creating and releasing [my first open source Jekyll the
 * Search script.
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt tasks for easier site development.
-{:.fl}
 
 <figure class="large">
 	<a href="https://mmistakes.github.io/so-simple-theme/" title="Preview So Simple Theme"><img src="{{ site.url }}/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
@@ -38,15 +37,12 @@ After having so much fun creating and releasing [my first open source Jekyll the
 1. [Install Jekyll](http://jekyllrb.com) if you haven't already.
 2. Fork the [So Simple Theme repo](http://github.com/mmistakes/so-simple-theme/)
 3. Make it your own and [customize, customize, customize](https://mmistakes.github.io/so-simple-theme/theme-setup/).
-{:.fl}
 
 <div markdown="0">
   <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
 </div>
-
----
 
 ## Questions?
 
@@ -55,5 +51,3 @@ Having a problem getting something to work or want to know why I setup something
 ## License
 
 This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
-
-[^1]: Example: *domain.com/category-name/post-title*

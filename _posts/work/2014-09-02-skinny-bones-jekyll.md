@@ -25,8 +25,6 @@ I like to think of Skinny Bones as a starter for building your own Jekyll powere
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
 </div>
 
----
-
 ## Notable Features
 
 * GitHub Pages compatible.
@@ -34,17 +32,12 @@ I like to think of Skinny Bones as a starter for building your own Jekyll powere
 * Data files for easier customization of the site navigation/footer and for supporting multiple authors.
 * Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
 * And more.
-{:.fl}
-
----
 
 ## Contributing
 
 Found a bug or aren't quite sure how something works? By all means [submit an issue](https://github.com/mmistakes/skinny-bones-jekyll/issues) on GitHub. For straight forward bug fixes (spelling mistakes, typos, broken links, etc.) feel free to submit pull requests. 
 
 **Skinny Bones** was built predominately as a framework for myself. My intention was never to make it all things for all people. So please keep that in mind before submitting new features or enhancements. If you've used any of my [Jekyll themes](http://mademistakes.com/work/jekyll-themes/) I think it's pretty clear what I like and what I try to avoid. When in doubt ask before wasting your time on a feature that won't get merged in.
-
----
 
 ## License
 
