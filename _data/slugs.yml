@@ -27,6 +27,9 @@ about:
 contact:
   name: "Contact"
 
+support:
+  name: "Support"
+
 404:
   name: "Not Found"
 
