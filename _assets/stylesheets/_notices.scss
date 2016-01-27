@@ -17,6 +17,7 @@
   h4 {
     margin-top: 0 !important; // override
     margin-bottom: 0.25em;
+    font-family: $sans-serif;
     line-height: 1 !important; // override
   }
   @at-root .page-content #{&} h4 {
