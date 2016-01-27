@@ -1,13 +1,14 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Outer Space"
 modified: 2015-06-17T15:07:42-04:00
-excerpt: "Learn how I draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and Pencil."
+excerpt: "Learn how to draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and a Pencil stylus."
 tags: [paper by 53, tutorial, space, blend, pencil, stylus, ipad]
 image:
   feature: paper-53-space-feature.jpg
   teaser: paper-53-space-teaser.jpg
   thumb: paper-53-space-th.jpg
 comments: true
+featured: true
 ---
 
 Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bodies* is a ton of fun with Paper, the iPad app by FiftyThree. Much like [drawing blue skies and clouds]({{ site.url }}{% post_url 2013-09-05-drawing-clouds %}), it is very hard to screw them up if you follow a few simple guidelines.

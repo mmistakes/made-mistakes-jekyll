@@ -1,10 +1,10 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Textures"
 excerpt: "Techniques for drawing bricks, wood, and rock textures using the iPad app Paper by FiftyThree."
-modified: 2015-01-27T16:57:52-05:00
+modified: 2016-01-27T14:39:24-05:00
 image: 
   feature: paper-53-texture-guide-feature.jpg
-  teaser: paper-53-texture-guide-teaser.jpg
+  teaser: paper-53-texture-guide-teaser-2016.jpg
   thumb: paper-53-texture-guide-thumb.jpg
 tags: [paper by 53, tutorial, drawing, painting, texture, wood, ipad]
 comments: true

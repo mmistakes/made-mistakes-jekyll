@@ -1,10 +1,10 @@
 ---
 title: "Drawing Faces without Faces with Paper by FiftyThree"
 excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper by FiftyThree."
-modified: 2015-01-27T15:39:40-05:00
+modified: 2016-01-27T14:38:38-05:00
 image: 
   feature: paper-53-draw-face-feature.jpg
-  teaser: paper-53-draw-face-teaser.jpg
+  teaser: paper-53-draw-face-teaser-2016.jpg
   thumb: paper-53-draw-face-thumb.jpg
 tags: [paper by 53, tutorial, drawing, portrait, ipad]
 comments: true
@@ -13,6 +13,8 @@ comments: true
 I hate cutting the grass because it's a chore, and chores suck. [Drawing a portrait every day]({{ site.url }}{% post_url 2012-08-31-paperfaces-ipad-portrait-project %}) for the last 10 months could have turned into a royal chore, but I kept it fun by setting a few restraints. These restrictions had a big effect on my style and time investment. Not exactly the most busy dude in the world, but working full time, tinkering with side projects, finding time for [my wife](https://2littlerosebuds.com/ "2 Little Rosebuds"), and helping to raise my twin girls doesn't leave much open.
 
 {% include toc.html %}
+
+[Download a Drawing PaperFaces Guide]({{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg){:.btn}
 
 *I can't draw and I'm not an artist* --- that's the real reason most of my [PaperFaces illustrations]({{ site.url }}/paperfaces/) don't have facial features. Capturing a likeness is tough business yo! Omitting the trickiest part (the face) frees up all kinds of time, which circles back to how I've been able to maintain a daily drawing rhythm. A technically precise illustration that might have taken 8 hours is now squashed down to 30--60 minutes. Half an hour is fun, 10 hours is a chore!
 
@@ -46,7 +48,6 @@ Whether I'm working on clouds, a landscape, or a face, I follow the same process
 3. Add detail with a pencil.
 4. Layer even more watercolor strokes over the pencil.
 5. Finish with the pencil to cleanup edges or apply highlights and shadows.
-{:.fl}
 
 ## Ghost the Face
 
@@ -91,8 +92,6 @@ To finish the face take care to observe the direction and tilt of the head. Care
   <img src="{{ site.url }}/images/paper-53-face-cross-lg.jpg" alt="Detail of face drawn with Paper by 53">
   <figcaption>Cross your face and then you're done.</figcaption>
 </figure>
-
-<div markdown="0"><a href="{{ site.url }}/images/paperfaces-portrait-cheatsheet.jpg" class="btn" style="margin-bottom:0;">Download a Drawing PaperFaces Guide</a></div>
 
 <div class="notice--warning" markdown="1">
 #### Mastering Paper Tutorials

@@ -1,11 +1,11 @@
 ---
 title: "Mastering Paper by FiftyThree: Introduction and Tool Guide"
 excerpt: "An introduction to Paper's tools and how to exploit them for drawing realistically."
-modified: 2015-01-27T16:00:50-05:00
+modified: 2016-01-27T14:38:54-05:00
 image: 
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
-  teaser: paper-53-expanded-guide-teaser.jpg
+  teaser: paper-53-expanded-guide-teaser-2016.jpg
 tags: [paper by 53, tutorial, drawing, painting, ipad, stylus]
 comments: true
 ---
@@ -220,9 +220,9 @@ The single most requested feature by fans and haters of Paper... Zoom. I had dra
 
 There isn't much else to Zoom, I'm merely mentioning it to increase awareness around it. Unlike other drawing and painting apps with zoom, the entire canvas doesn't scale. Instead you control the area you want magnified by you opening a circular <s>portal</s> loupe that can be moved around or dismissed by tapping outside of it.
 
-<div class="notice--info" markdown="1">
-#### ProTip: Using the Zoom Loupe
-To move the loupe drag it around at the edge, right on the black frame. It can be picky sometimes, but nowhere near as temperamental or tricky as Rewind. Learn more about [how to use Zoom]({{ site.url }}{% post_url 2014-07-03-moving-the-loupe %}) here.
+<div class="notice--warning" markdown="1">
+#### Full Screen Zoom and Grid Indicator
+The loupe shown above has been retired and replaced with a more traditional zoom tool in Paper v3. Pinching the screen now magnifies the entire canvas allowing for more room to work. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.
 </div>
 
 ## And We're Out

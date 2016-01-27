@@ -1,10 +1,10 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Water and Waves"
 excerpt: "Methods for drawing water and waves using the iPad app Paper by FiftyThree."
-modified: 2015-01-27T16:42:03-05:00
+modified: 2016-01-27T14:39:18-05:00
 image: 
   feature: paper-53-water-guide-feature.jpg
-  teaser: paper-53-water-guide-teaser.jpg
+  teaser: paper-53-water-guide-teaser-2016.jpg
   thumb: paper-53-water-guide-thumb.jpg
 tags: [paper by 53, tutorial, drawing, painting, water, waves, ipad]
 comments: true
