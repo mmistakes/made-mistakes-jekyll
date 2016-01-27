@@ -1,7 +1,7 @@
 ---
-title: "Potential Pogo Connect Sensitivity Fix"
-excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware 1.1.0+."
-modified: 2015-05-21T15:44:17-04:00
+title: "Pogo Connect Stylus Sensitivity Fix"
+excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware v1.1.0."
+modified: 2016-01-27T14:51:06-05:00
 image:
   teaser: pogo-connect-review-teaser.jpg
   thumb: pogo-connect-app-thumb.jpg
@@ -10,8 +10,6 @@ comments: true
 ---
 
 About a month ago I received a replacement [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.
-
-{% include toc.html %}
 
 I use Paper by FiftyThree almost exclusively for drawing with the occasional Procreate experiment. When using either app I noticed that the sensitivity of the Pogo's tip seemed off. To get the full range of stroke sizes I now had to press extremely hard to register a wide stroke (see screenshot below), which really started to screw with how I draw.
 
@@ -24,7 +22,6 @@ Isolating the cause is hard because so many factors had changed around the same 
 * Apple released iOS 7, a major rewrite and update to the iPad's operating system.
 * TenOne Design updated the Pogo Connect's firmware to 1.1.0 --- needed for some of the [new tips](http://tenonedesign.com/connect.php) they recently released.
 * Design changes were made to the Pogo Connect to reinforce the internals and tip.
-{:.fl}
 
 From my tests it seems to be related to the 1.1.0 firmware or the extra solder being used to keep the tip from busting off. Older Pogo's with the 1.0.6 firmware worked just fine with iOS 7 and updated apps.
 

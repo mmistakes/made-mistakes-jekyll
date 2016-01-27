@@ -1,12 +1,12 @@
 ---
-title: "A Pogo Connect Smart Pen Makes Paper by 53 Better"
-excerpt: "Perfect for avid Paper by 53 creators looking for enhanced functionality normal capacitive stylus can't offer."
-modified: 2015-05-21T15:42:08-04:00
+title: "Pogo Connect Stylus Makes Paper by FiftyThree Better"
+excerpt: "An iPad stylus that brings enhanced functionality to devices and apps that support its SDK."
+modified: 2016-01-27T14:44:05-05:00
 image: 
   feature: pogo-connect-review-feature.jpg
   teaser: pogo-connect-review-teaser.jpg
   thumb: pogo-connect-app-thumb.jpg
-tags: [pogo connect, paper by 53, stylus, review, ipad]
+tags: [pogo connect, paper by 53, procreate, stylus, review, ipad]
 comments: true
 ---
 
