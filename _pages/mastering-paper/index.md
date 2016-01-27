@@ -2,7 +2,7 @@
 layout: archive
 permalink: /mastering-paper/
 title: "Mastering Paper by FiftyThree"
-excerpt: "A compilation of tutorials and learnings to help master Paper by FiftyThree."
+excerpt: "Collection of tutorials written by an avid iPad illustrator to help you master Paper by FiftyThree."
 modified: 2016-01-26T10:09:10-05:00
 share: false
 image: 
