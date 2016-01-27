@@ -3,7 +3,7 @@
 
     <div class="archive__item-body">
       {% if post.categories contains 'mastering-paper' %}
-        <h1 class="archive__item-title" itemprop="headline">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by 53' }}</h1>
+        <h1 class="archive__item-title" itemprop="headline">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' | remove: 'Mastering Paper by FiftyThree: ' | remove: 'Mastering Paper by 53: ' | remove: ' with Paper by FiftyThree' }}</h1>
         {% else %}
         <h1 class="archive__item-title" itemprop="headline">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
       {% endif %}
