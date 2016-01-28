@@ -45,6 +45,8 @@ markdown: kramdown
 gems:
   - jekyll-archives
   - jekyll-assets
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 kramdown:
   toc_levels: 1..2
 highlighter: rouge

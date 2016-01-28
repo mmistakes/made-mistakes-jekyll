@@ -45,6 +45,11 @@ GEM
       jekyll (>= 2.4)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
+    jekyll-tagging (1.0.1)
+      ruby-nuggets
+    jekyll-tagging-related_posts (0.2.1)
+      jekyll (~> 3.0)
+      jekyll-tagging (~> 1.0.0)
     jekyll-watch (1.3.1)
       listen (~> 3.0)
     json (1.8.3)
@@ -55,11 +60,14 @@ GEM
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
     mini_magick (4.3.6)
+    nuggets (1.0.0)
     rack (1.6.4)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rouge (1.10.1)
+    ruby-nuggets (1.0.0)
+      nuggets (= 1.0.0)
     safe_yaml (1.0.4)
     sass (3.4.21)
     sassy-maps (0.4.0)
@@ -86,6 +94,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-assets!
   jekyll-sitemap!
+  jekyll-tagging-related_posts
   mini_magick
   uglifier
   wdm (~> 0.1.0)

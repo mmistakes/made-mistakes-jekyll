@@ -10,6 +10,7 @@ gem 'uglifier'
 # Jekyll
 gem 'jekyll'
 gem 'jekyll-archives'
+gem 'jekyll-tagging-related_posts'
 group :jekyll_plugins do
   gem 'jekyll-assets', github: 'jekyll/jekyll-assets'
   gem 'jekyll-sitemap', github: 'jekyll/jekyll-sitemap'
