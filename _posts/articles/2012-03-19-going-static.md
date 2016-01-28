@@ -6,7 +6,7 @@ image:
   feature: going-static-feature.jpg
   teaser: going-static-teaser.jpg
   thumb: going-static-thumb.jpg
-tags: [jekyll, web development, design, open source]
+tags: [jekyll, web development, design, open source, cms]
 featured: true
 comments: true
 ---
