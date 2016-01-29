@@ -30,7 +30,7 @@ Make sure ImageMagick is installed for the Jekyll picture-tag plugin to work pro
 1. Install dependencies `bundle install`
 2. Run Jekyll server to preview in development mode `rake serve`.
 
-To regenerate files `rake build-dev` and `rake drafts` to build posts in `_drafts` folder.
+To regenerate files `rake build` and `rake build:drafts` to build posts in `_drafts` folder.
 
 By default Jekyll's environment should be set to development but if not `JEKYLL_ENV=development bundle exec jekyll build` or `set JEKYLL_ENV=development` in `cmd.exe` on Windows.
 
