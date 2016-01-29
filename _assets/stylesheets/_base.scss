@@ -98,6 +98,14 @@ pre {
 p code,
 li code {
   white-space: nowrap;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background: $light-gray;
+  border-radius: $border-radius;
+  &:before, &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; // non-breaking space
+  }
 }
 
 /* Horizontal rule */
