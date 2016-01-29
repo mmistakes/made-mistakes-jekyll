@@ -15,7 +15,7 @@ I've been on a [static site generator]({{ site.url }}{% post_url 2012-03-19-goin
 * [**jekyll-sitemap**][sitemap]: silently generates a [sitemaps.org](http://www.sitemaps.org/) compliant sitemap.
 * [**jekyll-archives**][archives]: generates tag archive pages.
 * [**jekyll-assets**][assets]: adds an asset pipeline using Sprockets 3 to optimize and cache bust CSS and JS.
-* [**related-posts-jekyll-plugin**][related-posts] - replaces jekyll's `related_posts` function to use tags to calculate better related post relationships.
+* [**related-posts-jekyll-plugin**][related-posts] - replaces Jekyll's `related_posts` function to use tags to calculate better post relationships.
 * [**jekyll-picture-tag**][picture-tag]: adds responsive images to Jekyll with the use a Liquid tag to generate appropriately sized images in a `<picture>` element.
 * **SVG `<use>` Liquid Tag**: adds a Liquid tag for easily inserting inline SVG icons with the `<use>` element.
 {:.fl}
@@ -36,7 +36,7 @@ If you're really interested in the specifics of how the site is built I've made 
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
 [archives]: https://github.com/jekyll/jekyll-archives
 [assets]: https://github.com/jekyll/jekyll-assets
-[related-posts]: https://github.com/jumanji27/related_posts-jekyll_plugin
+[related-posts]: https://github.com/toshimaru/jekyll-tagging-related_posts
 [picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
 [media-temple]: http://bit.ly/1Ugg7nN
 [grid-plan]: https://mediatemple.net/webhosting/shared/

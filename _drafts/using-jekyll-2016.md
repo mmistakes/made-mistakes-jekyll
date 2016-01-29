@@ -20,26 +20,52 @@ I first started using Jekyll --- a static site generator, way back in 2012. In t
 
 To learn the basics of Jekyll I tasked myself with converting my then Wordpress powered site into a static one. I read Jekyll tutorials, [blogged about the process]({{ site.url }}{% post_url 2012-03-19-going-static %}), and eventually ended up with a stripped down --- CMS and database free version.
 
+### Posts for All the Things
+
 As Jekyll has matured and added features so has the complexity at which I use it. In those early days content could either be a **post** or a **page**. I chose to make almost everything a post so I could reap the benefits of `site.tags`, `site.categories`, and surface "related posts" more easily.
 
-This was an easy pill to swallow then because the only type of content I had on the site was blog posts. As I started incorporating new content types into the site I used `categories:` to structure things. For example **Blog Articles** have `categories: articles` in their YAML Front Matter and by adding `permalink: /:categories/:title/` to my `_config.yml` you pretty URLs like `mademistakes.com/articles/jekyll-is-the-best/`.
+This was an easy pill to swallow then because the only type of content I had on the site was blog posts. As I started incorporating new content types into the site I used `categories:` to structure things. For example [**Blog Articles**]({{ site.url }}/articles/) have `categories: articles` in their YAML Front Matter and by adding `permalink: /:categories/:title/` to my `_config.yml` you pretty URLs like `mademistakes.com/articles/jekyll-is-the-best/`.
 
-|      | Jekyll version | Plugins | Build time | Posts | Pages | Collections |
-| ---- | -------------- | ------- | ---------- | ----- | ----- | ----------- |
-| Then | 0.12.1         | 2       | <1s        | 25    | 6     | 0           |
-| Now  | 3.1.0          | 6       | 195s       | 980   | 14    | 3           |
+A drawback to create content types this way has been post pagination. Jekyll provides the variables `page.previous` and `page.next` to help do previous/next style links on your posts. The problem here is it applies to all posts and can be quite messy to do them for just the current category.
 
-It's no coincidence that my build times went from under a second to several minutes once posts counts got into the hundreds. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped speed builds up, but its still a drag working with such a large site[^large-site].
+For example if you're reading a post in the `articles` category you'd expect the **NEXT →** link to be another article post. When in fact it could end up being a post in the category `portfolio` if it's next in `site.posts`. Getting little details like this "right" drive me bonkers. 
 
-[^large-site]: I have high hopes that these [issues will be addressed](https://github.com/jekyll/jekyll/pull/4269) once the kinks of **`--incremental` regeneration** are sorted out to help cache pages that haven't changed.
+Instead I opted for a **You May Also Enjoy** module that displays 3 related posts[^related-posts] at the bottom of the page. In my eyes this provided a better reading experience even if build times tend to take a hit because of it...
 
-Another negative I encountered was not being able to reliably do pagination in categories. The plugins I tried to get around this never worked well or increased build times so significantly that it wasn't worth the effort in the end.
+[^related-posts]: [**jekyll-tagging-related_posts**](https://github.com/toshimaru/jekyll-tagging-related_posts) - replaces Jekyll's `related_posts` function to use tags to calculate better post relationships.
 
-Portfolio pieces came next. Used /category/ taxonomy to break up major sections of site. Everything is a `_post` to benefit from tagging, and related posts. Cons: not easy to paginate between posts in a category and causes some other navigation headaches that have to be fixed with manual overrides like setting `permalink:` in YAML Front Matter.
+|      | Jekyll version  | Build time | Posts |
+|------|:---------------:|:----------:|:-----:|
+| Then | 0.12.1          | <1s        | 25    |
+| Now  | 3.1.0           | 195s       | 980   |
 
-Collections are used to build the site's Style Guide
+It's no coincidence that my build times went from under a second to several minutes once I hit several hundred posts. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped --- but I still have a ways to go. 
 
-Will eventually migrate portfolio and non-blog type articles to collections once they have full feature parity with `_posts`. Still unsure of how tagging and categorization works with a collection. Pagination in collections will be nice too so I can avoid pages that are way to long and should be broken up eg: PaperFaces gallery (thou this could probably benefit from some sort of AJAX solution)
+The new **`--incremental` regeneration** feature will likely be the solution to faster build times. On a default `jekyll new` site it works really well, but unfortunately I haven't had much luck getting it to play nice with the various plugins I use. The work currently being done seems like its [going in the right direction](https://github.com/jekyll/jekyll/pull/4269), so I'm sure with time it'll sort out.
+
+For now the best I can do is use the new Liquid Profiler[^profiler] to identify problematic bits and simplify where I can. I update the site so infrequently that it really isn't a bother waiting 2 minutes for a build to finish.
+
+[^profiler]: add `--profile` to a build or serve
+
+### Collections to the Rescue
+
+When [collections](http://jekyllrb.com/docs/collections/) were introduced way back in v2.0.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site. I could have easily done this as a set of static pages, but Collections seemed like a more appropriate fit.
+
+It couldn't haven been simpler to implement either. Create a `_faqs` folder filled with MarkDown formatted text files (like any other post/page) and add the following to `_config.yml`, create an [index page](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_pages/faqs/index.md), and done!
+
+{% highlight yaml %}
+collections:
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs
+{% endhighlight %}
+
+As collections have become first class citizens in Jekyll Land they're increasingly becoming my preferred way of structuring content. In addition to the FAQ collection I've also created a set to help generate a "[living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %})" of sorts to document the look and feel of the site. 
+
+Eventually I plan to convert more posts into their own collection, but not exactly sure which. osts categorized as `work` would likely be the first to transition over. As far as the rest? I'm not sure. 
+
+As mentioned earlier `page.tags` come into play to display related posts. I'm not exactly sure what happens with tags and categories in a collection and if they're part of `site.tags` or siloed away in a collection which might impact the [tag archives]({{ site.url }}/tag/) generated by [**Jekyll Archives**](https://github.com/jekyll/jekyll-archives). I guess I'd have to do some testing before making that call but I can see some pros and cons to both .
 
 ## Workflow Evolution
 
@@ -51,7 +77,7 @@ Will eventually migrate portfolio and non-blog type articles to collections once
 * Start up a Jekyll server with --watch disabled and loading a dev friendly _config.yml file to use a dev Disqus account, disables Google Analytics
 * I don't use --incremental or --watch because my site is much too large and takes a minute or 2 to build. Manually execute `bundle exec jekyll build` or a rake task to update locally and check my changes.
 * When everything looks to my liking locally I deploy to Media Temple using rsync. Only files that have changed make the trip which is so much faster than the days of manually FTPing over the entirety of my _site folder.
-* This rsync step is handled through another rake task which notifies Pingomatic, Google, and Bing that my site has updated and to check out the new sitemap.xml and atom.xml feed.
+* This rsync step is handled through another rake task which notifies Ping-O-Matic, Google, and Bing that my site has updated and to check out the new sitemap.xml and atom.xml feed.
 
 ## Introduced Complexities
 
@@ -63,7 +89,7 @@ It also supports Autoprefixer which is nice for adding vendor prefixes (or rippi
 
 ### Page Speed Optimizations
 
-### Critical CSS
+### Critical Path CSS
 
 To combat page load drags I've gone one step further and inlined the critical amount of CSS needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my SASS partials in a way that the important visual stuff comes first. This way I can create a critical.css and non-critical.css by just @import-ing the bits needed for each. Then using a jekyll-assets tag I output the contents of critical.css into the <head></head> of ever page which dramatically improves the speed at which pages load.
 
