@@ -20,7 +20,7 @@
   }
   .overlay__menu-trigger {
     color: #fff;
-    background: #000;
+    background: $gray;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -30,7 +30,7 @@
       display: none;
     }
     &:hover {
-      background-color: $highlighter-color;
+      background-color: #000;
     }
   }
 }
@@ -91,7 +91,7 @@
   // active state
   &.is--active:before {
     transform: scaleX(1);
-    background-color: #000;
+    background-color: $light-gray;
   }
   @include breakpoint($small) {
     margin-left: 30px;
