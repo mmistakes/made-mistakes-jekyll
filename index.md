@@ -3,6 +3,7 @@ layout: home
 permalink: /
 title: "A Designer's Faux Pas"
 excerpt: "Making stuff one mistake at a time."
+ads: false
 ---
 
 <h1 class="home__title">Hello, my name is <a href="{{ site.url }}/about/"><span>Michael</span></a></h1>
