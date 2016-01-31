@@ -63,13 +63,17 @@ layout: compress
 
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
-    <style>{% asset_source critical.css %}</style>
+    {% unless page.layout == "home" %}
+      <style>{% asset_source critical.css %}</style>
 
-    <script>
-      {% asset_source vendor/loadCSS.js %}
-      loadCSS("{% asset_path non-critical.css %}");
-    </script>
-    <noscript><link href="{% asset_path non-critical.css %}" rel="stylesheet"></noscript>
+      <script>
+        {% asset_source vendor/loadCSS.js %}
+        loadCSS("{% asset_path non-critical.css %}");
+      </script>
+      <noscript><link href="{% asset_path non-critical.css %}" rel="stylesheet"></noscript>
+    {% else %}
+      <style>{% asset_source home-critical.css %}</style>
+    {% endunless %}
 
     <script>
       // Picture element HTML5 shiv
@@ -99,20 +103,25 @@ layout: compress
 
   <body>
 
-    <section>
-      <h2 class="screen-reader-text">Skip links</h2>
-      <ul class="skip-link">
-        <li><a href="#nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-        <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-        <li><a href="#colophon" class="screen-reader-shortcut">Skip to footer</a></li>
-      </ul>
-    </section>
+    {% unless page.layout == "home" %}
+      <section>
+        <h2 class="screen-reader-text">Skip links</h2>
+        <ul class="skip-link">
+          <li><a href="#nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+          <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+          <li><a href="#colophon" class="screen-reader-shortcut">Skip to footer</a></li>
+        </ul>
+      </section>
+    {% endunless %}
 
     {{ content }}
 
-    {% include svg-icons.svg %}
-
-    {% javascript main async %}
+    {% unless page.layout == "home" %}
+      {% include svg-icons.svg %}
+      {% javascript main async %}
+    {% else %}
+      {% javascript home async %}
+    {% endunless %}
 
     <!-- Google Universal Analytics -->
     <script async>
@@ -126,19 +135,21 @@ layout: compress
     </script>
 
     {% if page.comments == true %}
-    <script async>
-      var disqus_shortname = '{{ site.disqus-shortname }}';
+      <script async>
+        var disqus_shortname = '{{ site.disqus-shortname }}';
 
-      (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    </script>
+        (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+      </script>
     {% endif %}
 
-    {% if page.ads != false %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{% endif %}
+    {% if page.ads != false %}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    {% endif %}
 
   </body>
 
