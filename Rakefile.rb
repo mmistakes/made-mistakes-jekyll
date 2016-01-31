@@ -108,7 +108,7 @@ end
 task :deploy => ["deploy:prod"]
 namespace :deploy do
   desc "Regenerate and rsync production files and notify services of the update"
-  task :prod => [":build", "rsync", "notify"] do
+  task :prod => ["build", "rsync", "notify"] do
   end
 
   # Usage: rake deploy:win
