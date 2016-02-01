@@ -1,6 +1,6 @@
 ---
 layout: compress
-limit: 25
+limit: 15
 sitemap: false
 ---
 {% include feed/head.xml %}
