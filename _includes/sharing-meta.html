@@ -1,6 +1,6 @@
 <!-- Sharing Meta -->
-{% if seo_title %}
-  <meta name="twitter:title" property="og:title" content="{{ seo_title }}">
+{% if page.title %}
+  <meta name="twitter:title" property="og:title" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
 {% endif %}
 <meta name="twitter:url" property="og:url" content="{{ canonical_url }}">
 {% if page.excerpt %}
