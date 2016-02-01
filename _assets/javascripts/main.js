@@ -1,5 +1,9 @@
 //= require vendor/jquery.min
-//= require_tree ./plugins/
+//= require plugins/bigfoot.min
+//= require plugins/jquery.fitvids.min
+//= require plugins/jquery.lazyload.min
+//= require plugins/jquery.magnific-popup.min
+//= require plugins/jquery.smooth-scroll.min
 
 $(document).ready(function(){
 

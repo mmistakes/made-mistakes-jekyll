@@ -17,41 +17,6 @@
 
 
 /*
-   Slide-in and out
-   ========================================================================== */
-
-@keyframes slide-in {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  60% {
-    opacity: 1;
-    transform: translateY(20%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slide-out {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  60% {
-    opacity: 0;
-    transform: translateY(120%);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-}
-
-
-/*
    Magnific-Popup zoom-in
    ========================================================================== */
 
@@ -89,4 +54,20 @@
       opacity: 0;
     }
   }
+}
+
+
+/*
+   Typed.js
+   ========================================================================== */
+
+.typed-cursor{
+  opacity: 1;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }

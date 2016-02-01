@@ -15,37 +15,24 @@
 
 .home__content {
   padding: 2em;
+  max-width: 30em;
   color: #fff;
-  animation: fade-in 2s;
 }
 
 .home__title {
-  margin-top: 0;
+  display: inline-block;
   font-family: $sans-serif;
-  font-size: 1.25rem;
-  font-weight: normal;
+  font-size: 2.441rem;
+  font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  span {
-    display: block;
-    font-size: 4.882rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    @media (max-width: $small) {
-      font-size: 3.6615rem;
-    }
-  }
+  letter-spacing: 2px;
 }
 
 .home__excerpt {
   margin-bottom: 2em;
-  max-width: 20em;
   font-size: 1.25rem;
   font-weight: normal;
-  span {
-    display: inline-block;
-  }
   a {
     color: #fff;
     border-bottom: 1px solid $gray;
@@ -53,46 +40,17 @@
       border-bottom-color: #fff;
     }
   }
-}
-
-.home__words-wrapper {
-  display: inline-block;
-  position: relative;
-  text-align: left;
-  overflow: hidden;
-  vertical-align: top;
-  b {
-    display: inline-block;
-    position: absolute;
-    white-space: nowrap;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    top: 0.2em;
-    &.is--visible {
-      position: relative;
-      top: 0;
-      opacity: 1;
-      animation: slide-in 0.6s;
-    }
-    &.is--hidden {
-      animation: slide-out 0.6s;
-    }
-  }
-}
-
-.home__primary {
-  .btn {
-    display: block;
-    margin-bottom: 0.25em;
-    text-align: left;
+  br {
+    line-height: 2;
   }
 }
 
 .home__secondary {
+  opacity: 0;
   margin-top: 3em;
   font-size: 0.9rem;
   color: $lighter-gray;
+  transition: all 0.2s ease-in-out;
   a {
     position: relative;
     color: $lighter-gray;
