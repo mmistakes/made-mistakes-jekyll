@@ -2,17 +2,22 @@
 layout: default
 ---
 
+{% include masthead.html %}
+
 <div class="home__wrapper">
 
   <div class="home__content">
 
     {{ content }}
 
-    <div class="home__secondary">
+    <nav class="home__secondary">
+      <ul>
+        <li><a href="#0" class="overlay__menu-trigger" aria-label="Navigation Menu" title="Navigation Menu">[Main Menu]</a></li>
       {% for link in site.data.navigation.home-secondary %}
-        <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> {% unless forloop.last %}<span class="sep">&bull;</span>{% endunless %}
+        <li><a href="{{ site.url }}{{ link.url }}">[{{ link.title }}]</a></li>
       {% endfor %}
-    </div>
+      </ul>
+    </nav>
 
   </div>
 

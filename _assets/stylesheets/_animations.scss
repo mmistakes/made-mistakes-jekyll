@@ -58,6 +58,37 @@
 
 
 /*
+   Glitcher
+   ========================================================================== */
+
+@keyframes glitch-start {
+  0% { background-image: url('../images/black-glitched-1.png'); }
+  100% { background-image: url('../images/black-glitched-2.png'); }
+}
+
+@keyframes glitch {
+  0% { background-image: url('../images/black-glitched-3.png'); }
+  50% { background-image: url('../images/black-glitched-4.png'); }
+  100% { background-image: url('../images/black-glitched-2.png'); }
+}
+
+@keyframes blur {
+  0% { filter: blur(1px); opacity: 1;}
+  50% { filter: blur(1px); opacity: 0.9; }
+  100% { filter: blur(1px); opacity: 1; }
+}
+
+@keyframes shift {
+  50% { transform: translateX(1px); }
+  51% { transform: translateX(-2px); }
+  52% { transform: translateX(0); }
+  65% { transform: translateY(2px); }
+  67% { transform: translateY(0); }
+  90% { transform: translateX(-1px); }
+}
+
+
+/*
    Typed.js
    ========================================================================== */
 
@@ -66,8 +97,8 @@
   animation: blink 0.7s infinite;
 }
 
-@keyframes blink{
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+@keyframes ready {
+  to {
+    visibility: hidden;
+  }
 }

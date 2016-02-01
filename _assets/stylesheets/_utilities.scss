@@ -42,6 +42,10 @@
   display: none;
 }
 
+.transparent {
+  opacity: 0;
+}
+
 /* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
 
 .visually-hidden,

@@ -8,30 +8,44 @@
   align-items: center;
   min-height: 100vh;
   background-color: #000;
-  .hidden {
-    display: none !important;
-  }
+  background-image: url('../images/black-glitched-2.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: glitch-start, glitch, glitch-start, glitch-start;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2;
+  animation-delay: 0s, 5s, 20s, 30s;
+  z-index: 1;
 }
 
 .home__content {
   padding: 2em;
   max-width: 30em;
   color: #fff;
+  font-family: $monospace;
+  letter-spacing: 1px;
+  animation: blur 0.2s infinite, shift 20s steps(60) infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
 }
 
 .home__title {
   display: inline-block;
-  font-family: $sans-serif;
-  font-size: 2.441rem;
+  font-size: 1.953rem;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: 2px;
+  @include breakpoint($small) {
+    font-size: 2.441rem;
+  }
 }
 
 .home__excerpt {
   margin-bottom: 2em;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: normal;
   a {
     color: #fff;
@@ -40,35 +54,65 @@
       border-bottom-color: #fff;
     }
   }
-  br {
-    line-height: 2;
+  .br {
+    display: block;
+    margin-bottom: 1em;
   }
 }
 
 .home__secondary {
-  opacity: 0;
   margin-top: 3em;
-  font-size: 0.9rem;
-  color: $lighter-gray;
+  color: #fff;
+  text-transform: uppercase;
   transition: all 0.2s ease-in-out;
-  a {
-    position: relative;
-    color: $lighter-gray;
-    &:before {
-      content: '';
-      position: absolute;
-      bottom: -0.25em;
-      height: 1px;
-      width: 100%;
-      background-color: $lighter-gray;
-      transition: all 300ms cubic-bezier(0.325, -0.075, 0, 1.65);
-      transform: scaleX(0); // hide
-    }
-    &:hover:before {
-      transform: scaleX(1); // reveal
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    @include breakpoint($small) {
+      display: inline-block;
     }
   }
-  .sep {
-    margin: 0 0.5em;
+  a {
+    color: #fff;
+    margin-right: 10px;
+    &:hover {
+      color: #000;
+      background: #fff;
+    }
+  }
+}
+
+// typed.js
+
+.typed-cursor {
+  display: none;
+}
+
+.js {
+  #js-home-strings {
+    display: none;
+    visibility: hidden;
+  }
+  .home__secondary {
+    opacity: 0;
+  }
+}
+
+#js-home-typed {
+  display: block;
+  &:after {
+    visibility: visible;
+    content: "";
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    width: 0.5em;
+    height: 1em;
+    top: 5px;
+    margin-left: 0;
+    animation: ready 1s steps(2, start) infinite;
   }
 }
