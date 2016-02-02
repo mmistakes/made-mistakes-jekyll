@@ -12,9 +12,9 @@ layout: default
 
     <nav class="home__secondary">
       <ul>
-        <li><a href="#0" class="overlay__menu-trigger" aria-label="Navigation Menu" title="Navigation Menu">[Main Menu]</a></li>
+        <li><a href="#0" class="overlay__menu-trigger">Main Menu</a></li>
       {% for link in site.data.navigation.home-secondary %}
-        <li><a href="{{ site.url }}{{ link.url }}">[{{ link.title }}]</a></li>
+        <li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
       </ul>
     </nav>
