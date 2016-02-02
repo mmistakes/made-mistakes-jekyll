@@ -34,20 +34,28 @@ $(document).ready(function(){
     $('#screen').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
   });
 
+  // close menu on [esc]
+  $(document).on('keydown', function(e){
+    if ( e.keyCode === 27 ) { // ESC key
+      $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+      $('#screen').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    }
+  });
+
   // auto typing
 
   $("#js-home-typed").typed({
-    strings: ["<span class='home__title'>Hello^250 my name is&nbsp;M̔̋ͩ̚i̋͢c̛ͪ̈́́̄hͪ̄̆́a̢͋͂ͧē̎̌̿ͣl͋ͬ̽͆͌ͧ̿̕. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='https://mademistakes.com/paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='https://mademistakes.com/articles/'>my writing</a>, ^750 <a href='https://mademistakes.com/mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='https://mademistakes.com/work/'>creative endeavors</a>. ^250"],
+    strings: ["<span class='glitch__title'>Hello^250 my name is&nbsp;M̔̋ͩ̚i̋͢c̛ͪ̈́́̄hͪ̄̆́a̢͋͂ͧē̎̌̿ͣl͋ͬ̽͆͌ͧ̿̕. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='https://mademistakes.com/paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='https://mademistakes.com/articles/'>my writing</a>, ^750 <a href='https://mademistakes.com/mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='https://mademistakes.com/work/'>creative endeavors</a>. ^250"],
     contentType: "html",
     startDelay: 200,
     backDelay: 3000,
     callback: function(){
-      home_secondary();
+      glitch_secondary();
     }
   });
 
-  function home_secondary(){
-    $(".home__secondary").css("opacity", "1");
+  function glitch_secondary(){
+    $(".glitch__secondary").css("opacity", "1");
   }
 
 });

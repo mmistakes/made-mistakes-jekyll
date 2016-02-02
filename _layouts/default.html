@@ -63,17 +63,17 @@ layout: compress
 
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
-    {% unless page.layout == "home" %}
+    {% unless page.layout == "glitch" %}
       <style>{% asset_source critical.css %}</style>
-
-      <script>
-        {% asset_source vendor/loadCSS.js %}
-        loadCSS("{% asset_path non-critical.css %}");
-      </script>
-      <noscript><link href="{% asset_path non-critical.css %}" rel="stylesheet"></noscript>
     {% else %}
-      <style>{% asset_source home-critical.css %}</style>
+      <style>{% asset_source glitch-critical.css %}</style>
     {% endunless %}
+
+    <script>
+      {% asset_source vendor/loadCSS.js %}
+      loadCSS("{% asset_path non-critical.css %}");
+    </script>
+    <noscript><link href="{% asset_path non-critical.css %}" rel="stylesheet"></noscript>
 
     <script>
       // Picture element HTML5 shiv
@@ -103,7 +103,7 @@ layout: compress
 
   <body>
 
-    {% unless page.layout == "home" %}
+    {% unless page.layout == "glitch" %}
       <section>
         <h2 class="screen-reader-text">Skip links</h2>
         <ul class="skip-link">
@@ -116,11 +116,11 @@ layout: compress
 
     {{ content }}
 
-    {% unless page.layout == "home" %}
+    {% unless page.layout == "glitch" %}
       {% include svg-icons.svg %}
       {% javascript main async %}
     {% else %}
-      {% javascript home async %}
+      {% javascript glitch async %}
     {% endunless %}
 
     <!-- Google Universal Analytics -->

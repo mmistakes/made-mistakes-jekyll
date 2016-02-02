@@ -36,6 +36,14 @@ $(document).ready(function(){
     $('#screen').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
   });
 
+  // close menu on [esc]
+  $(document).on('keydown', function(e){
+    if ( e.keyCode === 27 ) { // ESC key
+      $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+      $('#screen').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    }
+  });
+
 
   // move table of contents from post body to sidebar
   $(".post__body .js-toc").appendTo($(".toc--sidebar")).hide().fadeIn(400);

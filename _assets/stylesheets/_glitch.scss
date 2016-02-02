@@ -1,8 +1,8 @@
 /* ==========================================================================
-   HOME PAGE
+   GLITCH PAGE
    ========================================================================== */
 
-.home__wrapper {
+.glitch__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-.home__content {
+.glitch__content {
   padding: 2em;
   max-width: 30em;
   color: #fff;
@@ -31,19 +31,18 @@
   }
 }
 
-.home__title {
+.glitch__title {
   display: inline-block;
   font-size: 1.953rem;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
-  letter-spacing: 2px;
   @include breakpoint($small) {
     font-size: 2.441rem;
   }
 }
 
-.home__excerpt {
+.glitch__excerpt {
   margin-bottom: 2em;
   font-size: 1rem;
   font-weight: normal;
@@ -54,13 +53,16 @@
       border-bottom-color: #fff;
     }
   }
+  // fake paragraph breaks
   .br {
     display: block;
     margin-bottom: 1em;
   }
 }
 
-.home__secondary {
+// secondary content (menu, links, etc.)
+
+.glitch__secondary {
   margin-top: 3em;
   color: #fff;
   text-transform: uppercase;
@@ -98,16 +100,18 @@
 }
 
 .js {
-  #js-home-strings {
+  .typed__source {
     display: none;
     visibility: hidden;
   }
-  .home__secondary {
+  .glitch__secondary {
     opacity: 0;
   }
 }
 
-#js-home-typed {
+// typed text destination container
+
+.typed__dest {
   display: block;
   &:after {
     visibility: visible;
