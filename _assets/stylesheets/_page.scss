@@ -12,6 +12,7 @@
 
 .page__hero {
   position: relative;
+  margin-top: 1em;
   margin-bottom: 1em;
   @include breakpoint($x-large) {
     margin-left: -3em;
@@ -163,13 +164,14 @@
 }
 
 .post__title {
+  margin-bottom: 0;
   font-family: $serif;
   font-size: 1.953rem;
   font-weight: normal;
 }
 
 .post__excerpt {
-  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.25rem;
   font-weight: normal;
   line-height: 1.5;
