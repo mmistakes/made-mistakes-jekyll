@@ -110,7 +110,7 @@
   left: 0;
   top: 0;
   padding: 50px 0 0;
-  background-color: #fff;
+  background-color: $background-color;
   z-index: 10;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -176,33 +176,38 @@
   -moz-osx-font-smoothing: grayscale;
   @include breakpoint($large) {
     font-size: 1.953rem;
+    height: 3rem;
+    line-height: 1;
   }
 }
 
 .overlay__menu-item--secondary {
   display: block;
   width: 100%;
-  font-size: 1.25rem;
+  font-size: 1.563rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @include breakpoint($large) {
-    font-size: 1.563rem;
+    height: 3rem;
+    line-height: 1;
   }
 }
 
 .overlay__menu-label {
+  margin: 30px 0 15px;
   width: 100%;
-  text-transform: uppercase;
+  font-family: $sans-serif;
   font-weight: bold;
   font-size: 0.8rem;
-  margin: 30px 0 15px;
+  line-height: 1.25;
+  text-transform: uppercase;
   /* lines in headline */
   display: flex;
   flex-direction: row;
   &:after {
     content: '\a0';
     position: relative;
-    top: 0.5em;
+    top: calc(0.4rem - 1px);
     height: 4px;
     flex-grow: 1;
     border-top: 1px solid $light-gray;
@@ -214,15 +219,14 @@
   &:after {
     margin-left: 10px;
   }
-  @include breakpoint($large) {
-    font-size: 1rem;
-  }
 }
 
 .overlay__menu-close {
   margin-top: 30px;
   margin-bottom: 0;
   width: 100%;
+  font-family: $monospace;
+  text-transform: uppercase;
   border-radius: 0;
   &:active {
     transform: translateY(0); // override from default btn class
