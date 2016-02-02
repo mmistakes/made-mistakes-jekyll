@@ -12,10 +12,10 @@
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  animation-name: glitch-start, glitch, glitch-start, glitch-start;
+  animation-name: glitch-start, glitch, glitch-start, glitch-start, glitch-end;
   animation-duration: 0.5s;
   animation-iteration-count: 2;
-  animation-delay: 0s, 5s, 20s, 30s;
+  animation-delay: 0s, 5s, 20s, 25s, 35s;
   z-index: 1;
 }
 
@@ -63,19 +63,15 @@
 // secondary content (menu, links, etc.)
 
 .glitch__secondary {
-  margin-top: 3em;
   color: #fff;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   ul {
-    margin: 0;
     padding: 0;
   }
   li {
     list-style: none;
-    @include breakpoint($small) {
-      display: inline-block;
-    }
+    display: block;
   }
   a {
     color: #fff;

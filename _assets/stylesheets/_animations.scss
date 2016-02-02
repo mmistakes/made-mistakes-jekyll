@@ -72,6 +72,11 @@
   100% { background-image: url('../images/black-glitched-2.png'); }
 }
 
+@keyframes glitch-end {
+  50% { background-image: url('../images/black-glitched-1.png'); }
+  70% { background-image: url('../images/black-glitched-4.png'); }
+}
+
 @keyframes blur {
   0% { filter: blur(1px); opacity: 1;}
   50% { filter: blur(1px); opacity: 0.9; }

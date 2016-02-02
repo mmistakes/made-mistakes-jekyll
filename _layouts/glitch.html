@@ -10,15 +10,6 @@ layout: default
 
     {{ content }}
 
-    <nav class="glitch__secondary">
-      <ul>
-        <li><a href="#0" class="overlay__menu-trigger">Main Menu</a></li>
-      {% for link in site.data.navigation.home-secondary %}
-        <li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
-      </ul>
-    </nav>
-
   </div>
 
 </div>
