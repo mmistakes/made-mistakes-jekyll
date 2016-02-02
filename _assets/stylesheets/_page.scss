@@ -12,17 +12,22 @@
 
 .page__hero {
   position: relative;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin: 1em -1rem;
+  @include breakpoint($small) {
+    margin-left: 0;
+    marign-right: 0;
+  }
   @include breakpoint($x-large) {
-    margin-left: -3em;
-    margin-right: -3em;
+    margin-left: -3rem;
+    margin-right: -3rem;
   }
 }
 
 .page__hero-image {
   width: 100%;
-  border-radius: $border-radius;
+  @include breakpoint($small) {
+    border-radius: $border-radius;
+  }
 }
 
 .page__hero-credit {
