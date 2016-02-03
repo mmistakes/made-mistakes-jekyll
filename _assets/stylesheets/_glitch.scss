@@ -32,7 +32,6 @@
 }
 
 .glitch__title {
-  display: inline-block;
   font-size: 1.953rem;
   font-weight: bold;
   line-height: 1;
@@ -100,7 +99,7 @@
     display: none;
     visibility: hidden;
   }
-  .glitch__secondary {
+  .typed__secondary {
     opacity: 0;
   }
 }
