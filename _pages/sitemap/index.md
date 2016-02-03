@@ -13,7 +13,7 @@ ads: false
 A hierarchical breakdown of all the sections and pages found on the site. For you robots out there is an [XML version]({{ site.url }}/sitemap.xml) is available for digesting.
 
 <div class="sitemap">
-  <ul id="primaryNav" class="col6">
+  <ul id="primaryNav" class="col5">
     <li id="home"><a href="{{ site.url }}/">Home</a></li>
     <li><a href="{{ site.url }}/about/">About</a>
       <ul>
@@ -46,7 +46,6 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
         {% endfor %}
       </ul>
     </li>
-    <li><a href="{{ site.url }}/paperfaces/">PaperFaces</a></li>
     <li><a href="{{ site.url }}/work/">Work</a>
       <ul>
         {% for post in site.categories.work %}
