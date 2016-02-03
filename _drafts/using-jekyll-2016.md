@@ -12,25 +12,27 @@ featured:
 modified:
 ---
 
-I first started using Jekyll --- a static site generator, way back in 2012. In the four years since, Jekyll has became my gateway drug to a host of new tools, techniques, and ways of building websites. Hell, I wasn't even using Git to version control this sit, so you know a lot has changed {% icon wink %}.
+I first started using Jekyll --- a static site generator, way back in 2012. In the four years since, Jekyll has became my gateway drug to a host of new tools, techniques, and ways of building websites. Hell, I wasn't even using version control when developing this site --- so you know a lot has changed.
 
 {% include toc.html %}
 
 ## Types of Content
 
-To learn the basics of Jekyll I tasked myself with converting my then Wordpress powered site into a static one. I read Jekyll tutorials, [blogged about the process]({{ site.url }}{% post_url 2012-03-19-going-static %}), and eventually ended up with a stripped down --- CMS and database free version.
+To learn the basics of Jekyll I tasked myself with trying to convert my then Wordpress powered site, into a static one. I read several Jekyll tutorials, learned [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) and [Kramdown](http://kramdown.gettalong.org/syntax.html, [blogged about the process]({{ site.url }}{% post_url 2012-03-19-going-static %})[^kramdown], and eventually ended up with a stripped down --- CMS and database free version of the site.
+
+[^kramdown]: Kramdown is a Markdown converter that does some nice things like automatic table of contents generation.
 
 ### Posts for All the Things
 
-As Jekyll has matured and added features so has the complexity at which I use it. In those early days content could either be a **post** or a **page**. I chose to make almost everything a post so I could reap the benefits of `site.tags`, `site.categories`, and surface "related posts" more easily.
+As Jekyll has matured and added features, the complexity at which I use it has as well. In those early days content could either be a **post** or a **page**. I chose to make almost everything a post so I could reap the benefits of `site.tags`, `site.categories` for grouping content and surface "related posts" more easily.
 
-This was an easy pill to swallow then because the only type of content I had on the site was blog posts. As I started incorporating new content types into the site I used `categories:` to structure things. For example [**Blog Articles**]({{ site.url }}/articles/) have `categories: articles` in their YAML Front Matter and by adding `permalink: /:categories/:title/` to my `_config.yml` you pretty URLs like `mademistakes.com/articles/jekyll-is-the-best/`.
+This was an easy pill to swallow then because the only type of content I had on the site were blog posts. As I started incorporating things like portfolio pieces into the site I used `categories` to help build a structure. For example, [**Blog Articles**]({{ site.url }}/articles/) would get `categories: articles` added to their YAML Front Matter and `permalink: /:categories/:title/` in `_config.yml` to produce pretty URLs like `mademistakes.com/articles/jekyll-is-the-best/`.
 
-A drawback to create content types this way has been post pagination. Jekyll provides the variables `page.previous` and `page.next` to help do previous/next style links on your posts. The problem here is it applies to all posts and can be quite messy to do them for just the current category.
+A drawback I hit with this method was creating reliably pagination between posts. Jekyll provides the variables `page.previous` and `page.next` to help do previous/next style links on your posts. But because I broke posts out into categories, these links didn't always behave as expected.
 
-For example if you're reading a post in the `articles` category you'd expect the **NEXT →** link to be another article post. When in fact it could end up being a post in the category `portfolio` if it's next in `site.posts`. Getting little details like this "right" drive me bonkers. 
+For example, when reading a post in the `articles` category you'd expect the **NEXT →** link to show another article post. Instead you'd end up with something from the `portfolio` category because it was next in `site.posts`.
 
-Instead I opted for a **You May Also Enjoy** module that displays 3 related posts[^related-posts] at the bottom of the page. In my eyes this provided a better reading experience even if build times tend to take a hit because of it...
+Details like this drive me bonkers, so I opted for a **You May Also Enjoy** module that displays 3 related posts[^related-posts] at the bottom of the page. In my eyes this provided a better reading experience even my site takes longer to generate now...
 
 [^related-posts]: [**jekyll-tagging-related_posts**](https://github.com/toshimaru/jekyll-tagging-related_posts) - replaces Jekyll's `related_posts` function to use tags to calculate better post relationships.
 
@@ -39,19 +41,19 @@ Instead I opted for a **You May Also Enjoy** module that displays 3 related post
 | Then | 0.12.1          | <1s        | 25    |
 | Now  | 3.1.0           | 195s       | 980   |
 
-It's no coincidence that my build times went from under a second to several minutes once I hit several hundred posts. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped --- but I still have a ways to go. 
+It's no coincidence that my build times went from under a second to several minutes once I reached several hundred posts. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped --- but I still have a ways to go if I want to speed things up. 
 
-The new **`--incremental` regeneration** feature will likely be the solution to faster build times. On a default `jekyll new` site it works really well, but unfortunately I haven't had much luck getting it to play nice with the various plugins I use. The work currently being done seems like its [going in the right direction](https://github.com/jekyll/jekyll/pull/4269), so I'm sure with time it'll sort out.
+The new **`--incremental` regeneration** feature will eventually play a big role in this for me. On a default `jekyll new` site it works really well, but unfortunately I haven't had much luck getting it to play nicely with the various plugins I use. The work currently being done seems like its [going in the right direction](https://github.com/jekyll/jekyll/pull/4269), so I'm sure in time things will sort out.
 
-For now the best I can do is use the new Liquid Profiler[^profiler] to identify problematic bits and simplify where I can. I update the site so infrequently that it really isn't a bother waiting 2 minutes for a build to finish.
+For now the best I can do is use the new **Liquid Profiler**[^profiler] to identify problematic bits and simplify where I can. I update the site so infrequently that it really isn't a bother waiting 2 minutes for a build to finish, but damn it would be nice to hit <1s again!
 
 [^profiler]: add `--profile` to a build or serve
 
-### Collections to the Rescue
+### Posts, Meet Collections
 
-When [collections](http://jekyllrb.com/docs/collections/) were introduced way back in v2.0.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site. I could have easily done this as a set of static pages, but Collections seemed like a more appropriate fit.
+When [collections](http://jekyllrb.com/docs/collections/) were introduced way back in v2.0.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site. I could have easily done this as a set of static pages, but collections being more powerful seemed a better fit.
 
-It couldn't haven been simpler to implement either. Create a `_faqs` folder filled with MarkDown formatted text files (like any other post/page) and add the following to `_config.yml`, create an [index page](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_pages/faqs/index.md), and done!
+It couldn't haven been simpler to implement either. Create a `_faqs` folder filled with Markdown formatted text files (like any other post or page), add the following to `_config.yml`, create an [index page](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_pages/faqs/index.md) to display all of the collection's documents, and done!
 
 {% highlight yaml %}
 collections:
@@ -61,11 +63,11 @@ collections:
     title: FAQs
 {% endhighlight %}
 
-As collections have become first class citizens in Jekyll Land they're increasingly becoming my preferred way of structuring content. In addition to the FAQ collection I've also created a set to help generate a "[living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %})" of sorts to document the look and feel of the site. 
+As collections have gained status Jekyll Land they're increasingly becoming my preferred way of structuring content. In addition to the FAQs I've also created a collection to generate a "[living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %})" of sorts --- documenting the look and feel of the site with visual representations and code samples. 
 
-Eventually I plan to convert more posts into their own collection, but not exactly sure which. osts categorized as `work` would likely be the first to transition over. As far as the rest? I'm not sure. 
+Eventually I plan to convert more posts into their own collection, but not exactly sure which. Posts categorized as `work` would likely be the first to transition over since it always felt like a hack to me placing them there. As far as the rest? I'm not sure yet. 
 
-As mentioned earlier `page.tags` come into play to display related posts. I'm not exactly sure what happens with tags and categories in a collection and if they're part of `site.tags` or siloed away in a collection which might impact the [tag archives]({{ site.url }}/tag/) generated by [**Jekyll Archives**](https://github.com/jekyll/jekyll-archives). I guess I'd have to do some testing before making that call but I can see some pros and cons to both .
+What I'd like to investigate more is adding taxonomies to collections and how they play with the tags and categories already set in `_posts`. I'm not exactly sure how collections treat them and if they're part of `site.tags` or siloed away or how [tag archives]({{ site.url }}/tag/) generated by [**Jekyll Archives**](https://github.com/jekyll/jekyll-archives) might look. A job best saved for a rainy day I suppose...
 
 ## Workflow Evolution
 
