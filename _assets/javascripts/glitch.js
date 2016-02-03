@@ -6,7 +6,7 @@ $(document).ready(function(){
   $("body").addClass("js");
 
   // toggle overlay navigation
-  $('.overlay__menu-trigger').on('click', function(){
+  $(document).on('click', '.overlay__menu-trigger', function() {
     // in Firefox transitions break when parent overflow is changed, so we need to wait for the end of the transition to give the body an overflow hidden
     if( $('.overlay__menu').hasClass('is--visible') ) {
       $('.overlay__menu').removeClass('is--visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
