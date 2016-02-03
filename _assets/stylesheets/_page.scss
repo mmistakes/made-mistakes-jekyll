@@ -61,6 +61,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  margin-top: 1em;
   @include breakpoint($small) {
     flex-wrap: wrap;
     flex-direction: row;
