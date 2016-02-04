@@ -42,18 +42,36 @@ disqus-shortname: mmistakes
 permalink: /:categories/:title/
 lsi: true
 markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+keep_files: [images]
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - Capfile
+  - config
+  - log
+  - Rakefile
+  - tmp
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - Gemfile
+  - LICENSE
+  - README
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - .jekyll-assets-cache
+  - .asset-cache
+  - .sass-cache
+  - .bundle
 gems:
   - jekyll-archives
   - jekyll-assets
   - jekyll/tagging
   - jekyll-tagging-related_posts
-kramdown:
-  toc_levels: 1..2
-highlighter: rouge
-keep_files: ["images"]
-include: [".htaccess", "_pages"]
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache", ".asset-cache", ".sass-cache", ".bundle", "autoprefixer.yml"]
-
 
 # Collections
 
