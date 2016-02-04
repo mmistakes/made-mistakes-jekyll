@@ -176,8 +176,7 @@
   -moz-osx-font-smoothing: grayscale;
   @include breakpoint($large) {
     font-size: 1.953rem;
-    height: 3rem;
-    line-height: 1;
+    line-height: 1.953rem;
   }
 }
 
@@ -188,8 +187,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @include breakpoint($large) {
-    height: 3rem;
-    line-height: 1;
+    line-height: 1.953rem;
   }
 }
 
