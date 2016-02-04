@@ -18,7 +18,7 @@ I first started using Jekyll --- a static site generator, way back in 2012. In t
 
 ## Types of Content
 
-To learn the basics of Jekyll I tasked myself with trying to convert my then Wordpress powered site, into a static one. I read several Jekyll tutorials, learned [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) and [Kramdown](http://kramdown.gettalong.org/syntax.html, [blogged about the process]({{ site.url }}{% post_url 2012-03-19-going-static %})[^kramdown], and eventually ended up with a stripped down --- CMS and database free version of the site.
+To learn the basics of Jekyll I tasked myself with trying to convert my then Wordpress powered site, into a static one. I read several Jekyll tutorials, learned [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) and [Kramdown](http://kramdown.gettalong.org/syntax.html), [blogged about the process]({{ site.url }}{% post_url 2012-03-19-going-static %})[^kramdown], and eventually ended up with a stripped down --- CMS and database free version of the site.
 
 [^kramdown]: Kramdown is a Markdown converter that does some nice things like automatic table of contents generation.
 
@@ -38,20 +38,20 @@ Details like this drive me bonkers, so I opted for a **You May Also Enjoy** modu
 
 |      | Jekyll version  | Build time | Posts |
 |------|:---------------:|:----------:|:-----:|
-| Then | 0.12.1          | <1s        | 25    |
+| Then | 0.12.1          | < 1s       | 25    |
 | Now  | 3.1.0           | 195s       | 980   |
 
 It's no coincidence that my build times went from under a second to several minutes once I reached several hundred posts. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped --- but I still have a ways to go if I want to speed things up. 
 
 The new **`--incremental` regeneration** feature will eventually play a big role in this for me. On a default `jekyll new` site it works really well, but unfortunately I haven't had much luck getting it to play nicely with the various plugins I use. The work currently being done seems like its [going in the right direction](https://github.com/jekyll/jekyll/pull/4269), so I'm sure in time things will sort out.
 
-For now the best I can do is use the new **Liquid Profiler**[^profiler] to identify problematic bits and simplify where I can. I update the site so infrequently that it really isn't a bother waiting 2 minutes for a build to finish, but damn it would be nice to hit <1s again!
+For now the best I can do is use the new **Liquid Profiler**[^profiler] to identify problematic bits and simplify where I can. I update the site so infrequently that it really isn't a bother waiting 2 minutes for a build to finish, but damn it would be nice to hit < 1s again!
 
 [^profiler]: add `--profile` to a build or serve
 
 ### Posts, Meet Collections
 
-When [collections](http://jekyllrb.com/docs/collections/) were introduced way back in v2.0.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site. I could have easily done this as a set of static pages, but collections being more powerful seemed a better fit.
+When [collections](http://jekyllrb.com/docs/collections/) were introduced way back in v2.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site. I could have easily done this as a set of static pages, but collections being more powerful seemed a better fit.
 
 It couldn't haven been simpler to implement either. Create a `_faqs` folder filled with Markdown formatted text files (like any other post or page), add the following to `_config.yml`, create an [index page](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_pages/faqs/index.md) to display all of the collection's documents, and done!
 
