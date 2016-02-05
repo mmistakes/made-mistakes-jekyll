@@ -19,7 +19,7 @@ Which got me thinking *"Shit. I don't know anything about these new technologies
 
 ## Why Go Static
 
-For the last ten years I've used a <abbr title="Content Management System">CMS</abbr> to hold and present various blogs and portfolios for myself and clients. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update a Wordpress powered website from an iOS app. As much as that feature sounds awesome, I never felt the need to post to my blog while away from my iMac. Especially not any sort of long form article or image heavy post.
+For the last ten years I've used a CMS to hold and present various blogs and portfolios for myself and clients. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update a Wordpress powered website from an iOS app. As much as that feature sounds awesome, I never felt the need to post to my blog while away from my iMac. Especially not any sort of long form article or image heavy post.
 
 A common problem facing Wordpress sites is the speed at which they serve up pages. To be honest I never really had issues with *Made Mistakes* because it was relatively small and low on the traffic. But worrying about security exploits, if updates to the core were going to break something, poorly written plugins, or if I had [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/) configured correctly started to get old fast.
 
@@ -45,14 +45,13 @@ And so began the process of building a blog-portfolio hybrid using vanilla HTML 
 I eventually settled on Jekyll as my static-site generator of choice --- mostly because it seemed actively developed and [Liquid](http://liquidmarkup.org/) appeared to support everything I needed to do with my templates. Publishing a new post goes something like this:
 
 1.	Create a text file written in Markdown for a new post.
-2.	Add a <abbr>YAML</abbr> Front Matter block to the top of these files to indicate which layout to use, the post's meta data, feature image, category, and tags.
-3.	Run `jekyll` from the <abbr title="Command line">CLI</abbr> to spit out the compiled site.
+2.	Add a YAML Front Matter block to the top of these files to indicate which layout to use, the post's meta data, feature image, category, and tags.
+3.	Run `jekyll` from the CLI to spit out the compiled site.
 4.	Deploy `/_site` to my web server using a rake task that minifies all .html files, rsyncs the changes, and pings Google and Bing notifying them that `sitemap.xml` has updated.
-{:.fl}
 
 There can be a few more steps to the process, but for the most part it's fairly straight forward after you've built all the necessary `_layouts` and `_includes`. What made this process appealing to me over Wordpress or another CMS was --- total control. I can set how I want the folder structure to look like, how the pages are constructed, use [Grunt](http://gruntjs.com/) and other build scripts to optimize everything, etc etc etc. Sure it's possible to do all this in a CMS, but sometimes it's not as transparent and obvious and you often have to strip out a bunch of code bloat.
 
-I will say this about using Jekyll --- it's not for everyone. I had to get my hands dirty and figure out (or research) ways of creating XML sitemaps, <abbr title="Really Simple Syndication">RSS</abbr>/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do it for you.
+I will say this about using Jekyll --- it's not for everyone. I had to get my hands dirty and figure out (or research) ways of creating XML sitemaps, RSS/Atom feeds, including social media buttons on article pages, and numerous other things Wordpress powered sites take for granted. But if you ask me, digging into those details and crafting something from scratch was way more rewarding than installing a plugin to do it for you.
 
 Jekyll made it possible for me to realize the following goals: familiarize myself with the basics of HTML5 and CSS3 transitions, be able to *"art direct"* every page without hacks, get nice with CSS preprocessors like [Less](http://lesscss.org/) to create more powerful and efficient stylesheets, and plant the seeds of a responsive design that was optimized for mobile, tablet, and desktop screens.
 
@@ -66,11 +65,11 @@ One of the most beneficial things I did to familiarize myself with the HTML5 spe
 
 Back when I still had a website powered by Wordpress, I toyed with the idea of designing art directed blog posts. Essentially posts that deviated from the blog's theme and became something unique based on the posts content. Think of the editorial design work done in print magazines and you'll get the idea.
 
-To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom CSS styles into a post's layout overriding the defaults. If you ask me, using [Liquid If statement](http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless) tags in a templates seems less hacky and way more customizable. Loading custom CSS for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and <abbr title="YAML Ain't Markup Language">YAML</abbr>.
+To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom CSS styles into a post's layout overriding the defaults. If you ask me, using [Liquid If statement](http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless) tags in a templates seems less hacky and way more customizable. Loading custom CSS for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and YAML.
 
 ### Less is More
 
-When I first heard about [Less](http://lesscss.org/) and [Sass](http://sass-lang.com/about/) I rejected the idea of using a <abbr>CSS</abbr> preprocessor. Feeling like I've sharpened my <abbr>CSS</abbr> skills to a razor sharp edge, I in no way wanted to add another layer of complexity to my workflow. With a second look I decided it made a lot of sense to at least experiment with writing Less and see how I could utilize it in my next project.
+When I first heard about [Less](http://lesscss.org/) and [Sass](http://sass-lang.com/about/) I rejected the idea of using a CSS preprocessor. Feeling like I've sharpened my CSS skills to a razor sharp edge, I in no way wanted to add another layer of complexity to my workflow. With a second look I decided it made a lot of sense to at least experiment with writing Less and see how I could utilize it in my next project.
 
 Bare minimum I figured I could use global variables for the site's color palette and default typography and maybe a mixin or two. The beauty of Less is that you don't have to alter your current .css files. Just changed the .css extension to .less and you're done. Then use as little or *as less* that you want.
 
@@ -93,7 +92,7 @@ So now that I finally got around to migrating my Wordpress website, developed a 
 
 ### Portfolio Layout
 
-You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see…
+You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
 
 <div class="notice--warning" markdown="1">
 #### Update: Portfolio Layout
@@ -121,4 +120,8 @@ Getting more comfortable using Jekyll I wanted to give back to the community, so
 * Minimal Mistakes: [Theme demo](https://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url 2013-05-28-minimal-mistakes-jekyll-theme %})
 * So Simple: [Theme demo](https://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url 2013-06-26-so-simple-jekyll-theme %})
 * HPSTR: [Theme demo](https://mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url 2013-08-26-hpstr-jekyll-theme %})
-{:.fl}
+
+*[CMS]: Content Management System
+*[YAML]: YAML Ain't Markup Language
+*[CLI]: Command Line Interface
+*[RSS]: Really Simple Syndication
