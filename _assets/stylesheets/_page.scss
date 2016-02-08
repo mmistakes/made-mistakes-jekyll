@@ -181,6 +181,13 @@
   font-size: 1.25rem;
   font-weight: normal;
   line-height: 1.5;
+  > a {
+    border-bottom: 1px solid $link-underline-color;
+    &:hover {
+      color: #000;
+      border-bottom-color: #000;
+    }
+  }
 }
 
 .breadcrumbs {
@@ -308,7 +315,11 @@
     display: inline;
     list-style-type: none;
     font-size: 0.8rem;
-    white-space: nowrap;
+  }
+  .tag__item {
+    span {
+      white-space: nowrap;
+    }
   }
 }
 
