@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Wakas Mir drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-wakas-mir-lg.jpg
   thumb: paperfaces-wakas-mir-150.jpg
-tags: [portrait, illustration, paper by 53, beard, time lapse]
+tags: [portrait, illustration, Paper by 53, beard, time lapse]
 ---
 
 PaperFaces portrait commission for Wakas Mir. Making of video below.

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @kessler drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kessler-twitter-lg.jpg
   thumb: paperfaces-kessler-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@kessler](http://twitter.com/kessler).

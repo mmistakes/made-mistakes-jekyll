@@ -5,7 +5,7 @@ image:
   feature: paperfaces-timothykrell-twitter-lg.jpg
   teaser: paperfaces-timothykrell-twitter-teaser.jpg
   thumb: paperfaces-timothykrell-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@timothykrell](http://twitter.com/timothykrell).

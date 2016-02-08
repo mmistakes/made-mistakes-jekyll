@@ -5,7 +5,7 @@ image:
   feature: paperfaces-nickkeyphotos-twitter-lg.jpg
   teaser: paperfaces-nickkeyphotos-twitter-teaser.jpg
   thumb: paperfaces-nickkeyphotos-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@nickkeyphotos](http://twitter.com/nickkeyphotos).

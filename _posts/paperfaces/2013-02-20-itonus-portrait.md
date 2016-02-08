@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @itonus-ron drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-itonus-twitter-lg.jpg
   thumb: paperfaces-itonus-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@itonus](http://twitter.com/itonus).

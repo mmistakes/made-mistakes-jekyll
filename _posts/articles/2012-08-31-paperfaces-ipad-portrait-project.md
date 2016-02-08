@@ -6,7 +6,7 @@ image:
   feature: paperfaces-project-feature.jpg
   teaser: paperfaces-project-teaser.jpg
   thumb: paperfaces-project-250x250.jpg
-tags: [paper by 53, ipad, drawing, illustration]
+tags: [Paper by 53, ipad, drawing, illustration]
 comments: true
 ---
 

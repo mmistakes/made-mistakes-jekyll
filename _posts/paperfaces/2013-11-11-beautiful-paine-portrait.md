@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Beautiful_Paine drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-beautiful-paine-twitter-lg.jpg
   thumb: paperfaces-beautiful-paine-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/Beautiful_Paine">@Beautiful_Paine</a>.

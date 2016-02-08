@@ -6,7 +6,7 @@ image:
   feature: paper-53-texture-guide-feature.jpg
   teaser: paper-53-texture-guide-teaser-2016.jpg
   thumb: paper-53-texture-guide-thumb.jpg
-tags: [paper by 53, tutorial, drawing, painting, texture, wood, ipad]
+tags: [Paper by 53, tutorial, drawing, painting, texture, wood, ipad]
 comments: true
 ---
 

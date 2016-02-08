@@ -5,7 +5,7 @@ image:
   feature: paperfaces-bombaybellyrina-twitter-lg.jpg
   teaser: paperfaces-bombaybellyrina-twitter-teaser.jpg
   thumb: paperfaces-bombaybellyrina-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@BombayBellyrina](http://twitter.com/BombayBellyrina).

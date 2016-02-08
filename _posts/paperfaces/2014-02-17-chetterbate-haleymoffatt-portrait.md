@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Chad and Haley drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-haley-couple-lg.jpg
   thumb: paperfaces-haley-couple-150.jpg
-tags: [portrait, illustration, paper by 53, blend, time lapse]
+tags: [portrait, illustration, Paper by 53, blend, time lapse]
 ---
 
 PaperFaces portrait commission of a happy couple.

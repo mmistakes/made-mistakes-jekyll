@@ -5,7 +5,7 @@ image:
   feature: paperfaces-matt-davey-lg.jpg
   teaser: paperfaces-matt-davey-teaser.jpg
   thumb: paperfaces-matt-davey-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of Matt Davey.

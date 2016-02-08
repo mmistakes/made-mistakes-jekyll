@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @miriamchadwick drawn with Paper by 53 on an iP
 image: 
   feature: paperfaces-miriamchadwick-instagram-lg.jpg
   thumb: paperfaces-miriamchadwick-instagram-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@miriamchadwick](http://instagram.com/miriamchadwick).

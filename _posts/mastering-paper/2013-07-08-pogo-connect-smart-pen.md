@@ -6,7 +6,7 @@ image:
   feature: pogo-connect-review-feature.jpg
   teaser: pogo-connect-review-teaser.jpg
   thumb: pogo-connect-app-thumb.jpg
-tags: [Pogo Connect, paper by 53, Procreate, stylus, review, ipad]
+tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, ipad]
 comments: true
 ---
 

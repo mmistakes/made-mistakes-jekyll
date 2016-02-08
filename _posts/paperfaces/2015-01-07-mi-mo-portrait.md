@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mi-mo-lg.jpg
   teaser: paperfaces-mi-mo-teaser.jpg
   thumb: paperfaces-mi-mo-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Mi Mo inspired by a [photograph on Sktchy](http://sktchy.com/oIkdLC).

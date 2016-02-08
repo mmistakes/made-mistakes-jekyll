@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @xavdog drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-xavdog-twitter-lg.jpg
   thumb: paperfaces-xavdog-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@xavdog](http://twitter.com/xavdog).

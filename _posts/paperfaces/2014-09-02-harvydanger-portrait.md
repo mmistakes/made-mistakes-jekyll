@@ -5,7 +5,7 @@ image:
   feature: paperfaces-harvydanger-twitter-lg.jpg
   teaser: paperfaces-harvydanger-twitter-teaser.jpg
   thumb: paperfaces-harvydanger-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@harvydanger](http://twitter.com/harvydanger), winner of [my first portrait giveaway]({{ site.url }}/giveaway/).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @BollyWooed drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bollywooed-twitter-lg.jpg
   thumb: paperfaces-bollywooed-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/BollyWooed">@BollyWooed</a>.

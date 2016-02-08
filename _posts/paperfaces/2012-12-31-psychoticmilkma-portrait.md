@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @psychoticmilkma drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-psychoticmilkma-twitter-lg.jpg
   thumb: paperfaces-psychoticmilkma-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard, time lapse]
+tags: [portrait, illustration, Paper by 53, beard, time lapse]
 ---
 
 PaperFaces portrait of project donator [@psychoticmilkma](http://twitter.com/psychoticmilkma).

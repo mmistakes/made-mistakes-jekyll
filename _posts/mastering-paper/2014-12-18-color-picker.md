@@ -2,7 +2,7 @@
 title: "Mastering Paper by FiftyThree: Picking and Sharing Colors"
 modified: 2015-01-28T11:11:28-05:00
 excerpt: "A color picker has finally been added to Paper! Learn what the new tool does and how to use it."
-tags: [paper by 53, color theory, tutorial, ipad]
+tags: [Paper by 53, color theory, tutorial, ipad]
 image:
   feature: paper-53-color-picker-feature.jpg
   teaser: paper-53-color-picker-teaser.jpg

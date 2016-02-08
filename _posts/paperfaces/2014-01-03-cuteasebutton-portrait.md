@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @cuteasebutton drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-cuteasebutton-instagram-lg.jpg
   thumb: paperfaces-cuteasebutton-instagram-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@cuteasebutton](http://instagram.com/cuteasebutton). I really enjoy drawing long hair, couldn't you tell?

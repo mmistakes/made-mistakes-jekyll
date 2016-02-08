@@ -5,7 +5,7 @@ image:
   feature: paperfaces-mluker-twitter-lg.jpg
   teaser: paperfaces-mluker-twitter-teaser.jpg
   thumb: paperfaces-mluker-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@mluker](http://twitter.com/mluker).

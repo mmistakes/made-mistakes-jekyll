@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of a Jen F. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jen-f-lg.jpg
   thumb: paperfaces-jen-f-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of a [Jen F.](http://sktchy.com/wvVXMH) inspired by a photograph on Sktchy.

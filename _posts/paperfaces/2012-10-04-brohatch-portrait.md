@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @brohatch drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-brohatch-twitter-lg.jpg
   thumb: paperfaces-brohatch-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@brohatch](http://twitter.com/brohatch).

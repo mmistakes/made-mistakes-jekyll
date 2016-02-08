@@ -6,7 +6,7 @@ image:
   feature: paperfaces-katelyn-m-lg.jpg
   teaser: paperfaces-katelyn-m-teaser.jpg
   thumb: paperfaces-katelyn-m-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white, bokeh, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white, bokeh, Mix]
 ---
 
 PaperFaces portrait of Katelyn M. inspired by a [photograph on Sktchy](http://sktchy.com/0STT5).

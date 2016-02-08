@@ -4,7 +4,7 @@ excerpt: "Engagement PaperFaces portrait of @theBrady and @khollybell drawn with
 image: 
   feature: paperfaces-thebrady-khollybell-2-twitter-lg.jpg
   thumb: paperfaces-thebrady-khollybell-2-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of project donators [@theBrady](http://twitter.com/theBrady) and [@khollybell](http://twitter.com/khollybell).

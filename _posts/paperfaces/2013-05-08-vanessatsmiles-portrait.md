@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @VanessaTSmiles drawn with Paper by 53 on an iP
 image: 
   feature: paperfaces-vanessatsmiles-twitter-lg.jpg
   thumb: paperfaces-vanessatsmiles-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of project donator [@VanessaTSmiles](http://twitter.com/VanessaTSmiles). First illustration done with the newly updated Paper by 53 app. Really like how zoom was implemented and the explore feature.

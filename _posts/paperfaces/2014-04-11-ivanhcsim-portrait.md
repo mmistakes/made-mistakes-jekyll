@@ -5,7 +5,7 @@ image:
   feature: paperfaces-ivanhcsim-twitter-lg.jpg
   teaser: paperfaces-ivanhcsim-twitter-teaser.jpg
   thumb: paperfaces-ivanhcsim-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, bokeh, blend]
+tags: [portrait, illustration, Paper by 53, bokeh, blend]
 ---
 
 PaperFaces portrait of [@IvanHCSim](http://twitter.com/IvanHCSim).

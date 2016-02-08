@@ -6,7 +6,7 @@ image:
   feature: paperfaces-vanessa-j-lg.jpg
   teaser: paperfaces-vanessa-j-teaser.jpg
   thumb: paperfaces-vanessa-j-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Vanessa J. inspired by a [photograph on Sktchy](http://sktchy.com/FxLxqH).

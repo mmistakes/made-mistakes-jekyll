@@ -6,7 +6,7 @@ image:
   feature: paperfaces-hannah-l-lg.jpg
   teaser: paperfaces-hannah-l-teaser.jpg
   thumb: paperfaces-hannah-l-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix, time lapse]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 
 PaperFaces portrait of Hannah L. inspired by a [photograph on Sktchy](http://sktchy.com/7gqmFc).

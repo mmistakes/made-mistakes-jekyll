@@ -5,7 +5,7 @@ image:
   feature: paperfaces-fuzavue-twitter-lg.jpg
   teaser: paperfaces-fuzavue-twitter-teaser.jpg
   thumb: paperfaces-fuzavue-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@fuzavue](http://twitter.com/fuzavue).

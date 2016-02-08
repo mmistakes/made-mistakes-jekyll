@@ -5,7 +5,7 @@ image:
   feature: paperfaces-twnsndco-twitter-lg.jpg
   teaser: paperfaces-twnsndco-twitter-teaser.jpg
   thumb: paperfaces-twnsndco-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, bokeh, blend]
+tags: [portrait, illustration, Paper by 53, bokeh, blend]
 ---
 
 PaperFaces portrait of [@twnsndco](http://twitter.com/twnsndco).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @frivmo drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-frivmo-twitter-lg.jpg
   thumb: paperfaces-frivmo-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@frivmo](http://twitter.com/frivmo).

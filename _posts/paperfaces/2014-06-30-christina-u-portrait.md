@@ -5,7 +5,7 @@ image:
   feature: paperfaces-christina-u-lg.jpg
   teaser: paperfaces-christina-u-teaser.jpg
   thumb: paperfaces-christina-u-150.jpg
-tags: [portrait, illustration, paper by 53, clouds, Sktchy]
+tags: [portrait, illustration, Paper by 53, clouds, Sktchy]
 ---
 
 PaperFaces portrait of Christina U. inspired by a photograph on Sktchy.

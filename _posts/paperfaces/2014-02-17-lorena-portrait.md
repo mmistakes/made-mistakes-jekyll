@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Lorena drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lorena-lg.jpg
   thumb: paperfaces-lorena-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait commission of Lorena.

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @alextrott_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-alextrott-twitter-lg.jpg
   thumb: paperfaces-alextrott-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@alextrott_](http://twitter.com/alextrott_).

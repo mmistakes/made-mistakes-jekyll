@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Madcap_Laughs drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-madcap-laughs-twitter-lg.jpg
   thumb: paperfaces-madcap-laughs-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@Madcap_Laughs](http://twitter.com/Madcap_Laughs).

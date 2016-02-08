@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @pixelgraphix drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-pixelgraphix-twitter-lg.jpg
   thumb: paperfaces-pixelgraphix-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@pixelgraphix](http://twitter.com/pixelgraphix).

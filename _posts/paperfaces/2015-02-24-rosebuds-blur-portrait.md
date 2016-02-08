@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rosebuds-blur-lg.jpg
   teaser: paperfaces-rosebuds-blur-teaser.jpg
   thumb: paperfaces-rosebuds-blur-150.jpg
-tags: [portrait, illustration, paper by 53, twins, Mix, time lapse, black and white, blend, bokeh]
+tags: [portrait, illustration, Paper by 53, twins, Mix, time lapse, black and white, blend, bokeh]
 ---
 
 PaperFaces portrait of my twin girls Everly and Chloe (hiding in the bokeh).

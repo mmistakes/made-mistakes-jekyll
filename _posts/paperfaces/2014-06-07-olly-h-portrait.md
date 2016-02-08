@@ -5,7 +5,7 @@ image:
   feature: paperfaces-olly-h-lg.jpg
   teaser: paperfaces-olly-h-teaser.jpg
   thumb: paperfaces-olly-h-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of a Olly H. inspired by a photograph on Sktchy.

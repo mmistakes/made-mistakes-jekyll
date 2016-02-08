@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @sendapalic drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sendapalic-twitter-lg.jpg
   thumb: paperfaces-sendapalic-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend, beard]
+tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
 Blend is one of those tools that can easily be abused. Trying to limit its use to avoid going too soft and blurring brush strokes painted in Paper and retain character. I've found that blending colors and then applying a layer of light watercolor on top has a nice look.

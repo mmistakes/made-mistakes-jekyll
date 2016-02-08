@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Aurora drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-aurora-lg.jpg
   thumb: paperfaces-aurora-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 Something a little different from the normal no face, square format composition. PaperFaces portrait commission for <a href="http://twitter.com/bobbydharrell">@bobbydharrell</a> of his daughter Aurora.

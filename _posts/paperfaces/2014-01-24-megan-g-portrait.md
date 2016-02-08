@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Megan G. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-megan-g-lg.jpg
   thumb: paperfaces-megan-g-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, blend]
+tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 ---
 
 Another winter scene with a slight smudge to the background of trees to add depth. PaperFaces portrait of [Megan G.](http://sktchy.com/ZRLqgC) inspired by Sktchy.

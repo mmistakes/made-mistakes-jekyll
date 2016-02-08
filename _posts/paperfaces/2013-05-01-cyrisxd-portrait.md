@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @CyrisXD drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cyrisxd-twitter-lg.jpg
   thumb: paperfaces-cyrisxd-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@CyrisXD](http://twitter.com/CyrisXD).

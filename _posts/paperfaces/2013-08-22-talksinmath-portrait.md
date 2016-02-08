@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @talksinmath drawn with Paper by 53 on an iPad.
 image: 
   feature: paperfaces-talksinmath-twitter-lg.jpg
   thumb: paperfaces-talksinmath-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@talksinmath](http://twitter.com/talksinmath).

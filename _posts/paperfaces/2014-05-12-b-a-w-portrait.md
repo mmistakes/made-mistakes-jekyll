@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @B_A_W drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-b-a-w-twitter-lg.jpg
   thumb: paperfaces-b-a-w-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@B_A_W](http://twitter.com/B_A_W).

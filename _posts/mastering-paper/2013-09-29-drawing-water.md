@@ -6,7 +6,7 @@ image:
   feature: paper-53-water-guide-feature.jpg
   teaser: paper-53-water-guide-teaser-2016.jpg
   thumb: paper-53-water-guide-thumb.jpg
-tags: [paper by 53, tutorial, drawing, painting, water, waves, ipad]
+tags: [Paper by 53, tutorial, drawing, painting, water, waves, ipad]
 comments: true
 ---
 

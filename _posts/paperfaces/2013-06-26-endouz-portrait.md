@@ -5,7 +5,7 @@ image:
   feature: paperfaces-endouz-twitter-lg.jpg
   teaser: paperfaces-endouz-twitter-teaser.jpg
   thumb: paperfaces-endouz-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, bokeh]
+tags: [portrait, illustration, Paper by 53, bokeh]
 ---
 
 PaperFaces portrait of [@endouz](http://twitter.com/endouz). Using white to paint lights that could be rain drop refractions… or not.

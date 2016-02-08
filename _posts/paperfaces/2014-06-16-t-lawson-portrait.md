@@ -5,7 +5,7 @@ image:
   feature: paperfaces-t-lawson-twitter-lg.jpg
   teaser: paperfaces-t-lawson-twitter-teaser.jpg
   thumb: paperfaces-t-lawson-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@T_Lawson](http://twitter.com/T_Lawson).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @hjalle drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hjalle-twitter-lg.jpg
   thumb: paperfaces-hjalle-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of [@hjalle](http://twitter.com/hjalle).

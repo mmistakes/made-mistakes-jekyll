@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @ryandawidjan drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-ryandawidjan-twitter-lg.jpg
   thumb: paperfaces-ryandawidjan-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of project donator [@ryandawidjan](http://twitter.com/ryandawidjan).

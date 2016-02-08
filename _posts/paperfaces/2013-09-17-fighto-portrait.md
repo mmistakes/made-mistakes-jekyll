@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @fighto drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fighto-twitter-lg.jpg
   thumb: paperfaces-fighto-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, Google Glass]
+tags: [portrait, illustration, Paper by 53, Google Glass]
 ---
 
 PaperFaces portrait of [@fighto](http://twitter.com/fighto). Who would have thought I would be illustrating so many Google Glass early adopters?

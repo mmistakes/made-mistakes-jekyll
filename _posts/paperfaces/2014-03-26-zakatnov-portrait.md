@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Zakatnov drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-zakatnov-twitter-lg.jpg
   thumb: paperfaces-zakatnov-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, water]
+tags: [portrait, illustration, Paper by 53, water]
 ---
 
 PaperFaces portrait of [@Zakatnov](http://twitter.com/Zakatnov).

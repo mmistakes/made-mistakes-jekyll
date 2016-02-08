@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @tipican drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-tipican-twitter-lg.jpg
   thumb: paperfaces-tipican-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@tipican](http://twitter.com/tipican).

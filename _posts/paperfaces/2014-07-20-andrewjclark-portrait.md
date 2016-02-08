@@ -5,7 +5,7 @@ image:
   feature: paperfaces-andrewjclark-twitter-lg.jpg
   teaser: paperfaces-andrewjclark-twitter-teaser.jpg
   thumb: paperfaces-andrewjclark-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@andrewjclark](http://twitter.com/andrewjclark).

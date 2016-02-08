@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @SwiftKickCoach_ drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-swiftkickcoach-twitter-lg.jpg
   thumb: paperfaces-swiftkickcoach-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@SwiftKickCoach_](http://twitter.com/SwiftKickCoach_).

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-j-miner9-lg.jpg
   teaser: paperfaces-j-miner9-teaser.jpg
   thumb: paperfaces-j-miner9-150.jpg
-tags: [portrait, illustration, paper by 53, blend, bokeh, hockey]
+tags: [portrait, illustration, Paper by 53, blend, bokeh, hockey]
 ---
 
 PaperFaces portrait commission of [@J_Miner9](http://twitter.com/J_Miner9).

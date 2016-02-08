@@ -5,7 +5,7 @@ image:
   feature: paperfaces-claytonfarr-twitter-lg.jpg
   teaser: paperfaces-claytonfarr-twitter-teaser.jpg
   thumb: paperfaces-claytonfarr-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@ClaytonFarr](http://twitter.com/claytonfarr).

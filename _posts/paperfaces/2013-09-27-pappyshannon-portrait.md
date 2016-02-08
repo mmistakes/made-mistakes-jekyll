@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @PappyShannon drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-pappyshannon-twitter-lg.jpg
   thumb: paperfaces-pappyshannon-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 "Welcome to Jurassic Park." PaperFaces avatar portrait of <a href="http://twitter.com/PappyShannon">@PappyShannon</a>.

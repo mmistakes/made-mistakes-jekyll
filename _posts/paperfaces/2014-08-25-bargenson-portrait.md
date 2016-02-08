@@ -5,7 +5,7 @@ image:
   feature: paperfaces-bargenson-twitter-lg.jpg
   teaser: paperfaces-bargenson-twitter-teaser.jpg
   thumb: paperfaces-bargenson-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@bargenson](http://twitter.com/bargenson).

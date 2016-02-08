@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @jenniferamur drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-jenniferamur-twitter-lg.jpg
   thumb: paperfaces-jenniferamur-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 I forgot to paint some plastic chairs for sitting…oops. PaperFaces portrait of [@jenniferamur](http://twitter.com/jenniferamur).

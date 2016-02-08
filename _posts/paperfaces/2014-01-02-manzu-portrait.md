@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @manzu drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-manzu-twitter-lg.jpg
   thumb: paperfaces-manzu-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of [@manzu](http://twitter.com/manzu).

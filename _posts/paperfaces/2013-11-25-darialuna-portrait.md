@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @DariaLuna_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-darialuna-twitter-lg.jpg
   thumb: paperfaces-darialuna-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/DariaLuna_">@DariaLuna_</a>.

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-cleberwsantos-twitter-lg.jpg
   teaser: paperfaces-cleberwsantos-twitter-teaser.jpg
   thumb: paperfaces-cleberwsantos-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@cleberwsantos](http://twitter.com/cleberwsantos).

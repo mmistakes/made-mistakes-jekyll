@@ -5,7 +5,7 @@ image:
   feature: paperfaces-girl-cat-lg.jpg
   teaser: paperfaces-girl-cat-teaser.jpg
   thumb: paperfaces-girl-cat-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of a girl and cat.

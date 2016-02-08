@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @BJVerot drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bjverot-twitter-lg.jpg
   thumb: paperfaces-bjverot-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@BJVerot](http://twitter.com/BJVerot).

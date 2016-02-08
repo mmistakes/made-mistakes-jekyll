@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @JIN_woojooin drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-jin-woojooin-twitter-lg.jpg
   thumb: paperfaces-jin-woojooin-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@JIN_woojooin](http://twitter.com/JIN_woojooin).

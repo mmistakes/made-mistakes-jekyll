@@ -5,7 +5,7 @@ image:
   feature: paperfaces-fivepops-2-twitter-lg.jpg
   teaser:
   thumb: paperfaces-fivepops-2-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait commission.

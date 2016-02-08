@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-hellolauraamy-instagram-lg.jpg
   thumb: paperfaces-hellolauraamy-instagram-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 Tis the Season for PaperFaces portrait commissions.

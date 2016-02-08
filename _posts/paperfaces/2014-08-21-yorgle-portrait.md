@@ -5,7 +5,7 @@ image:
   feature: paperfaces-yorgle-twitter-lg.jpg
   teaser: paperfaces-yorgle-twitter-teaser.jpg
   thumb: paperfaces-yorgle-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@yorgle](http://twitter.com/yorgle).

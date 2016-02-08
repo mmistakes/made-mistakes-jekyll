@@ -6,7 +6,7 @@ image:
   feature: paperfaces-eliza-t-lg.jpg
   teaser: paperfaces-eliza-t-teaser.jpg
   thumb: paperfaces-eliza-t-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, Sktchy, Mix]
+tags: [portrait, illustration, Paper by 53, black and white, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Eliza T. inspired by a [photograph on Sktchy](http://sktchy.com/FsO57C).

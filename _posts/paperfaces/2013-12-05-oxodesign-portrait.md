@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @oxodesign drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-oxodesign-twitter-lg.jpg
   thumb: paperfaces-oxodesign-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/oxodesign">@oxodesign</a>.

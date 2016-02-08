@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @bengillam drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bengillam-twitter-lg.jpg
   thumb: paperfaces-bengillam-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@bengillam](http://twitter.com/bengillam).

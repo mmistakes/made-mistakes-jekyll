@@ -5,7 +5,7 @@ image:
   feature: paperfaces-remi-l-lg.jpg
   teaser: paperfaces-remi-l-teaser.jpg
   thumb: paperfaces-remi-l-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, beard, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, beard, Mix]
 ---
 
 PaperFaces portrait of Remi L. inspired by a [photograph on Sktchy](http://sktchy.com/wIZBLC).

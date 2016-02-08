@@ -5,7 +5,7 @@ modified: 2013-09-12
 image: 
   feature: paperfaces-zachorybenton-twitter-lg.jpg
   thumb: paperfaces-zachorybenton-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@ZachoryBenton](http://twitter.com/zachorybenton).

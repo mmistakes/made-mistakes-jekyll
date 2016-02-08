@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Mystique and Wolverine drawn with Paper by 53 o
 image: 
   feature: paperfaces-old-wolverine-lg.jpg
   thumb: paperfaces-old-wolverine-150.jpg
-tags: [portrait, illustration, paper by 53, Xmen]
+tags: [portrait, illustration, Paper by 53, Xmen]
 ---
 
 PaperFaces portrait of Mystique and Wolverine from **X-men: Days of Future Past**.

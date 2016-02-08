@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Steve Jobs drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-steve-jobs-lg.jpg
   thumb: paperfaces-steve-jobs-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 With the release of the new Steve Jobs biopic starring Ashton Kutcher --- I was inspired to recreate the movie poster with Paper by 53. Instead of using my go to combo of watercolor and pencil, I ventured out of my comfort zone using the pens exclusively. And for giggles I added the old rainbow Apple logo and *Think Different* ad campaign headline to play off the illustration's over saturated palette. 

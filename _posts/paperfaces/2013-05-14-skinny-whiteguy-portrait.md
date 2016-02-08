@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @skinny_whiteguy drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-skinny-whiteguy-twitter-lg.jpg
   thumb: paperfaces-skinny-whiteguy-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@skinny_whiteguy](http://twitter.com/skinny_whiteguy).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @SasquatchFuzz drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-sasquatchfuzz-twitter-lg.jpg
   thumb: paperfaces-sasquatchfuzz-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/SasquatchFuzz">@SasquatchFuzz</a>.

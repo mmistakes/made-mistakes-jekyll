@@ -6,7 +6,7 @@ image:
   feature: paperfaces-shannon-v-lg.jpg
   teaser: paperfaces-shannon-v-teaser.jpg
   thumb: paperfaces-shannon-v-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix, landscape]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix, landscape]
 ---
 
 PaperFaces portrait of Shannon V. inspired by a [photograph on Sktchy](http://sktchy.com/tQUwNH).

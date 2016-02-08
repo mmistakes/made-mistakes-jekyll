@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @CatDrawingGuy drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-CatDrawingGuy-twitter-lg.jpg
   thumb: paperfaces-CatDrawingGuy-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@CatDrawingGuy](http://twitter.com/CatDrawingGuy).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @toastroom drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-toastroom-twitter-lg.jpg
   thumb: paperfaces-toastroom-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@toastroom](http://twitter.com/toastroom). It's hard to talk words without a mouth…

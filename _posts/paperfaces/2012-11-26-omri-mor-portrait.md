@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @omri_mor drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-omri-mor-twitter-lg.jpg
   thumb: paperfaces-omri-mor-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@omri_mor](http://twitter.com/omri_mor).

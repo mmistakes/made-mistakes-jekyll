@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @jaredgoertzen drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-jaredgoertzen-twitter-lg.jpg
   thumb: paperfaces-jaredgoertzen-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@jaredgoertzen](http://twitter.com/jaredgoertzen).

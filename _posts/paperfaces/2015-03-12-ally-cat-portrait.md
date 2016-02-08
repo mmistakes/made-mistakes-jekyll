@@ -6,7 +6,7 @@ image:
   feature: paperfaces-ally-cat-lg.jpg
   teaser: paperfaces-ally-cat-teaser.jpg
   thumb: paperfaces-ally-cat-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix, time lapse]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 
 PaperFaces portrait of Ally Cat inspired by a [photograph on Sktchy](http://sktchy.com/VxlSm).

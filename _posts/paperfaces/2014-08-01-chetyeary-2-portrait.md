@@ -5,7 +5,7 @@ image:
   feature: paperfaces-chetyeary-2-twitter-lg.jpg
   teaser: paperfaces-chetyeary-2-twitter-teaser.jpg
   thumb: paperfaces-chetyeary-2-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait commission of [@chetyeary](http://twitter.com/chetyeary).

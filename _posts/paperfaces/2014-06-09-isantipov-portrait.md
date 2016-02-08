@@ -5,7 +5,7 @@ image:
   feature: paperfaces-isantipov-twitter-lg.jpg
   teaser: paperfaces-isantipov-twitter-teaser.jpg
   thumb: paperfaces-isantipov-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@Isantipov](http://twitter.com/Isantipov).

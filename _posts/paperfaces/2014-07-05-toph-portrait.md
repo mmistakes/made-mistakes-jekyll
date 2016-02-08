@@ -5,7 +5,7 @@ image:
   feature: paperfaces-toph-twitter-lg.jpg
   teaser: paperfaces-toph-twitter-teaser.jpg
   thumb: paperfaces-toph-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@toph](http://twitter.com/toph).

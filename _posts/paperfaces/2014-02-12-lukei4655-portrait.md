@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @lukei4655 drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-lukei4655-twitter-lg.jpg
   thumb: paperfaces-lukei4655-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@lukei4655](http://twitter.com/lukei4655).

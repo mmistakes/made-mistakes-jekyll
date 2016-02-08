@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of a killer clown drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-killer-clown-lg.jpg
   thumb: paperfaces-killer-clown-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, Sktchy]
+tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 ---
 
 PaperFaces portrait of a killer clown inspired by a photograph on Sktchy.

@@ -5,7 +5,7 @@ modified: 2014-08-28T14:08:21-04:00
 image: 
   feature: paperfaces-veganwendy-twitter-lg.jpg
   thumb: paperfaces-veganwendy-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, tattoo]
+tags: [portrait, illustration, Paper by 53, tattoo]
 ---
 
 PaperFaces portrait of @veganwendy(http://twitter.com/veganwendy). Don't cover your face. Let the birds flow from your tattoos.

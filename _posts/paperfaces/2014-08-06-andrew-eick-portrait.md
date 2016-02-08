@@ -5,7 +5,7 @@ image:
   feature: paperfaces-andrew-eick-twitter-lg.jpg
   teaser: paperfaces-andrew-eick-twitter-teaser.jpg
   thumb: paperfaces-andrew-eick-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of Andrew E.

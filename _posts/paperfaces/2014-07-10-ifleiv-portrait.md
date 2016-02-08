@@ -5,7 +5,7 @@ image:
   feature: paperfaces-ifleiv-twitter-lg.jpg
   teaser: paperfaces-ifleiv-twitter-teaser.jpg
   thumb: paperfaces-ifleiv-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@ifleiv](http://twitter.com/ifleiv).

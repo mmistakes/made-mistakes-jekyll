@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @cocoapriest drawn with Paper by 53 on an iPad.
 image: 
   feature: paperfaces-cocoapriest-twitter-lg.jpg
   thumb: paperfaces-cocoapriest-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend, sepia, beard]
+tags: [portrait, illustration, Paper by 53, blend, sepia, beard]
 ---
 
 I merely added a few white highlights to the sunglasses and facial hair stubble, smudged the background, and bam --- instant photo realistic results. Looks even more convincing when shrunken down.

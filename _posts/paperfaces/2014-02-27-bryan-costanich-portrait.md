@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Bryan Costanich drawn with Paper by 53 on an iP
 image: 
   feature: paperfaces-bryan-costanich-lg.jpg
   thumb: paperfaces-bryan-costanich-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of Bryan Costanich. Ladies and germs take note, this is how you wear a mustache.

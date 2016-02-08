@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Shinfu drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-shinfu-twitter-lg.jpg
   thumb: paperfaces-shinfu-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of project donator [@Shinfu](http://twitter.com/Shinfu) jumping really high in a blue sky landscape.

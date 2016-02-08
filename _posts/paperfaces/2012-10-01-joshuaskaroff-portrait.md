@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @joshuaskaroff drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-joshuaskaroff-twitter-lg.jpg
   thumb: paperfaces-joshuaskaroff-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard, time lapse]
+tags: [portrait, illustration, Paper by 53, beard, time lapse]
 ---
 
 PaperFaces portrait of [@joshuaskaroff](http://twitter.com/joshuaskaroff).

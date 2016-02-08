@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @brototyp drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-brototyp-twitter-lg.jpg
   thumb: paperfaces-brototyp-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@brototyp](http://twitter.com/brototyp).

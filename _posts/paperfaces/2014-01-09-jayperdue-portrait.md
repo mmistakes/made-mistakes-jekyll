@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @jayperdue drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jayperdue-twitter-lg.jpg
   thumb: paperfaces-jayperdue-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend, beard]
+tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
 PaperFaces portrait of [@jayperdue](http://twitter.com/jayperdue).

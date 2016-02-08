@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @mmoutenot drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mmoutenot-twitter-lg.jpg
   thumb: paperfaces-mmoutenot-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@mmoutenot](http://twitter.com/mmoutenot).

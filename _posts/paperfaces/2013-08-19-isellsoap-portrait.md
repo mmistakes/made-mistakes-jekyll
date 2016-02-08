@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @isellsoap drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-isellsoap-twitter-lg.jpg
   thumb: paperfaces-isellsoap-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, trees]
+tags: [portrait, illustration, Paper by 53, trees]
 ---
 
 PaperFaces portrait of [@isellsoap](http://twitter.com/isellsoap).

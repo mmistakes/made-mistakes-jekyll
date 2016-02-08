@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @4lala drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-4lala-twitter-lg.jpg
   thumb: paperfaces-4lala-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@4lala](http://twitter.com/4lala).

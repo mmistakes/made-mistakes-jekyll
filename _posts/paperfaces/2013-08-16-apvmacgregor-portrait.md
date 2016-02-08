@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @apvmacgregor drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-apvmacgregor-twitter-lg.jpg
   thumb: paperfaces-apvmacgregor-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@apvmacgregor](http://twitter.com/apvmacgregor). After days of gray I'm back to drawing color portraits.

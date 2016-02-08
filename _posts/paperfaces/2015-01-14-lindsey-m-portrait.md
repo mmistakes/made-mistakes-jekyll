@@ -6,7 +6,7 @@ image:
   feature: paperfaces-lindsey-m-lg.jpg
   teaser: paperfaces-lindsey-m-teaser.jpg
   thumb: paperfaces-lindsey-m-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix, black and white]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix, black and white]
 ---
 
 PaperFaces portrait of Lindsey M. inspired by a [photograph on Sktchy](http://sktchy.com/Tnu9X).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @eliglazier drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-eliglazier-twitter-lg.jpg
   thumb: paperfaces-eliglazier-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@eliglazier](http://twitter.com/eliglazier).

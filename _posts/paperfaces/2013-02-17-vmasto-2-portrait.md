@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @vmasto drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-vmasto-2-twitter-lg.jpg
   thumb: paperfaces-vmasto-2-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of project donator [@vmasto](http://twitter.com/vmasto).

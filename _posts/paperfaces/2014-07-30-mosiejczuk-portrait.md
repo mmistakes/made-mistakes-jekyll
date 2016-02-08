@@ -5,7 +5,7 @@ image:
   feature: paperfaces-mosiejczuk-twitter-lg.jpg
   teaser: paperfaces-mosiejczuk-twitter-teaser.jpg
   thumb: paperfaces-mosiejczuk-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, bokeh, black and white]
+tags: [portrait, illustration, Paper by 53, bokeh, black and white]
 ---
 
 PaperFaces portrait of [@mosiejczuk](http://twitter.com/mosiejczuk).

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-craiginwales-twitter-lg.jpg
   teaser: paperfaces-craiginwales-twitter-teaser.jpg
   thumb: paperfaces-craiginwales-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@craiginwales](http://twitter.com/craiginwales).

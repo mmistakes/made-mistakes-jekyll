@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @sbrolins drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sbrolins-twitter-lg.jpg
   thumb: paperfaces-sbrolins-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@sbrolins](http://twitter.com/sbrolins). Painting a sky or water is very rewarding with Paper by 53, because with little effort you can create a masterpiece.

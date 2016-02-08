@@ -6,7 +6,7 @@ image:
   feature: paperfaces-brooke-t-lg.jpg
   teaser: paperfaces-brooke-t-teaser.jpg
   thumb: paperfaces-brooke-t-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Brooke T. inspired by a [photograph on Sktchy](http://sktchy.com/S3B8m).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @marianeville_84 drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-marianeville-84-twitter-lg.jpg
   thumb: paperfaces-marianeville-84-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@marianeville_84](http://twitter.com/marianeville_84).

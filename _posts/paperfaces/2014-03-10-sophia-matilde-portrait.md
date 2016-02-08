@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of one month old twins drawn with Paper by 53 on a
 image: 
   feature: paperfaces-sophia-matilde-lg.jpg
   thumb: paperfaces-sophia-matilde-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission.

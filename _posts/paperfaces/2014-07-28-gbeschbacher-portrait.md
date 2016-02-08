@@ -5,7 +5,7 @@ image:
   feature: paperfaces-gbeschbacher-twitter-lg.jpg
   teaser: paperfaces-gbeschbacher-twitter-teaser.jpg
   thumb: paperfaces-gbeschbacher-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@Gbeschbacher](http://twitter.com/gbeschbacher).

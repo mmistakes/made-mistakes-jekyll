@@ -5,7 +5,7 @@ image:
   feature: paperfaces-scoutu-twitter-lg.jpg
   teaser: paperfaces-scoutu-twitter-teaser.jpg
   thumb: paperfaces-scoutu-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@scoutu](http://twitter.com/scoutu).

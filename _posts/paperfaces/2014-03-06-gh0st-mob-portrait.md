@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @gh0st_mob drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-gh0st-mob-twitter-lg.jpg
   thumb: paperfaces-gh0st-mob-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@gh0st_mob](http://twitter.com/gh0st_mob).

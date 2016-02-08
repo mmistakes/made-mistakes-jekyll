@@ -5,7 +5,7 @@ image:
   feature: paperfaces-simonbusborg-twitter-lg.jpg
   teaser: paperfaces-simonbusborg-twitter-teaser.jpg
   thumb: paperfaces-simonbusborg-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@simonbusborg](http://twitter.com/simonbusborg).

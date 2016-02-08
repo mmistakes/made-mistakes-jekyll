@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @gscottolson drawn with Paper by 53 on an iPad.
 image: 
   feature: paperfaces-gscottolson-twitter-lg.jpg
   thumb: paperfaces-gscottolson-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of FiftyThree maker, [@gscottolson](http://twitter.com/gscottolson).

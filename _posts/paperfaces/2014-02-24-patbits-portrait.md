@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @patbits drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-patbits-twitter-lg.jpg
   thumb: paperfaces-patbits-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@patbits](http://twitter.com/patbits).

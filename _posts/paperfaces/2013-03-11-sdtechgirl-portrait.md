@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @SDTechGirl drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-sdtechgirl-twitter-lg.jpg
   thumb: paperfaces-sdtechgirl-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@SDTechGirl](http://twitter.com/SDTechGirl).

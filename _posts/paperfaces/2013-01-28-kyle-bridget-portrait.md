@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Kyle and Bridget drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-kyle-bridget-lg.jpg
   thumb: paperfaces-kyle-bridget-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of project donator Kyle and Bridget.

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-kayla-e-lg.jpg
   teaser: paperfaces-kayla-e-teaser.jpg
   thumb: paperfaces-kayla-e-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, blend, bokeh]
+tags: [portrait, illustration, Paper by 53, Sktchy, blend, bokeh]
 ---
 
 Edge lighting is my favorite kind of lighting to draw. PaperFaces portrait of [Kayla E.](http://sktchy.com/fHCi1D) inspired by Sktchy.

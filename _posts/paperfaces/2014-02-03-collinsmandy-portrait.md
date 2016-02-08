@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @CollinsMandy drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-collinsmandy-twitter-lg.jpg
   thumb: paperfaces-collinsmandy-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@CollinsMandy](http://twitter.com/CollinsMandy).

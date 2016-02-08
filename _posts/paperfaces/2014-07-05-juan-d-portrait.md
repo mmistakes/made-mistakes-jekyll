@@ -5,7 +5,7 @@ image:
   feature: paperfaces-juan-d-lg.jpg
   teaser: paperfaces-juan-d-teaser.jpg
   thumb: paperfaces-juan-d-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Juan D. inspired by a photograph on Sktchy.

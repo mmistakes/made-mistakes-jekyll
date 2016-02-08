@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @sailesh-panchal drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-sailesh-panchal-twitter-lg.jpg
   thumb: paperfaces-sailesh-panchal-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 Good lighting makes for a world of difference. Commissioned PaperFaces portrait of <a href="http://twitter.com/sailesh-panchal">@sailesh-panchal</a>.

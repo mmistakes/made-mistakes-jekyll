@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Diako M. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-diako-m-lg.jpg
   thumb: paperfaces-diako-m-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of Diako M.

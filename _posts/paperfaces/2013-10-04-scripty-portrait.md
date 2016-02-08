@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @scripty drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-scripty-twitter-lg.jpg
   thumb: paperfaces-scripty-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/Scripty">@Scripty</a>.

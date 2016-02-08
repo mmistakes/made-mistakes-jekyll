@@ -5,7 +5,7 @@ image:
   feature: paperfaces-danya-w-lg.jpg
   teaser: paperfaces-danya-w-teaser.jpg
   thumb: paperfaces-danya-w-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 
 PaperFaces portrait of Danya W. inspired by a [photograph on Sktchy](http://sktchy.com/NjZR3H).

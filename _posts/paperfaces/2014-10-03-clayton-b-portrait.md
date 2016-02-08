@@ -5,7 +5,7 @@ image:
   feature: paperfaces-clayton-b-lg.jpg
   teaser: paperfaces-clayton-b-teaser.jpg
   thumb: paperfaces-clayton-b-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, Mix]
+tags: [portrait, illustration, Paper by 53, black and white, Mix]
 ---
 
 PaperFaces portrait commission of Clayton B. 

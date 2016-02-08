@@ -6,7 +6,7 @@ image:
   feature: paper-53-skies-guide-feature.jpg
   teaser: paper-53-skies-guide-teaser-2016.jpg
   thumb: paper-53-skies-guide-thumb.jpg
-tags: [paper by 53, tutorial, drawing, painting, clouds, sky, ipad]
+tags: [Paper by 53, tutorial, drawing, painting, clouds, sky, ipad]
 comments: true
 ---
 

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @augenblickpunkt drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-augenblickpunkt-twitter-lg.jpg
   thumb: paperfaces-augenblickpunkt-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait portrait of [@augenblickpunkt](http://twitter.com/augenblickpunkt).

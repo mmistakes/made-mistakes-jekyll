@@ -5,7 +5,7 @@ image:
   feature: paperfaces-gusso-twitter-lg.jpg
   teaser: paperfaces-gusso-twitter-teaser.jpg
   thumb: paperfaces-gusso-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@gusso](http://twitter.com/gusso).

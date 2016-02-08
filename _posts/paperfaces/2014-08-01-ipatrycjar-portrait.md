@@ -5,7 +5,7 @@ image:
   feature: paperfaces-ipatrycjar-twitter-lg.jpg
   teaser: paperfaces-ipatrycjar-twitter-teaser.jpg
   thumb: paperfaces-ipatrycjar-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@iPatrycjaR](http://twitter.com/ipatrycjar).

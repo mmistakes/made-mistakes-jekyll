@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @JMarkMueller drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-jmarkmueller-twitter-lg.jpg
   thumb: paperfaces-jmarkmueller-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait portrait of [@JMarkMueller](http://twitter.com/JMarkMueller).

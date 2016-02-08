@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of a Barbara M. drawn with Paper by 53 on an iPad.
 image: 
   feature: paperfaces-barbara-m-lg.jpg
   thumb: paperfaces-barbara-m-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of a [Jen F.](http://sktchy.com/vJbCsc) inspired by a photograph on Sktchy.

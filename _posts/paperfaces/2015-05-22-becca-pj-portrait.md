@@ -6,7 +6,7 @@ image:
   feature: paperfaces-becca-pj-lg.jpg
   teaser: paperfaces-becca-pj-teaser.jpg
   thumb: paperfaces-becca-pj-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 
 PaperFaces portrait of Becca P.J. inspired by a [photograph on Sktchy](http://sktchy.com/WCFVrC).

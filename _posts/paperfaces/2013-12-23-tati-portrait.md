@@ -5,7 +5,7 @@ image:
   feature: paperfaces-tati-lg.jpg
   teaser: paperfaces-tati-teaser.jpg
   thumb: paperfaces-tati-150.jpg
-tags: [portrait, illustration, paper by 53, blend, bokeh, time lapse]
+tags: [portrait, illustration, Paper by 53, blend, bokeh, time lapse]
 ---
 
 My first PaperFaces portrait commission using two styli to complete.

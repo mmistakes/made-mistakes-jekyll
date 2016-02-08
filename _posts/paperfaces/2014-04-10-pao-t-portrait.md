@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of a Pao T. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-pao-t-lg.jpg
   thumb: paperfaces-pao-t-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of a [Pao T.](http://sktchy.com/LWk59H) inspired by a photograph on Sktchy.

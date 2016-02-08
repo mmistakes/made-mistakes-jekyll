@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @bradykent drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bradykent-twitter-lg.jpg
   thumb: paperfaces-bradykent-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, time lapse]
+tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
 PaperFaces portrait of [@bradykent](http://twitter.com/bradykent).

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-trollhunden-twitter-lg.jpg
   teaser: paperfaces-trollhunden-twitter-teaser.jpg
   thumb: paperfaces-trollhunden-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@Trollhunden](http://twitter.com/trollhunden).

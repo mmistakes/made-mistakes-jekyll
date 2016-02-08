@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Rob and Jayne drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-rob-jayne-lg.jpg
   thumb: paperfaces-rob-jayne-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 Commissioned PaperFaces portrait of Rob and Jayne.

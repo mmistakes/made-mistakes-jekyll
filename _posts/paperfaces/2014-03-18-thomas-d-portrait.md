@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Thomas D. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thomas-d-twitter-lg.jpg
   thumb: paperfaces-thomas-d-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait commission.

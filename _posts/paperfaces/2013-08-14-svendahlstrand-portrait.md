@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @svendahlstrand drawn with Paper by 53 on an iP
 image: 
   feature: paperfaces-svendahlstrand-twitter-lg.jpg
   thumb: paperfaces-svendahlstrand-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@svendahlstrand](http://twitter.com/svendahlstrand).

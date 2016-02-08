@@ -5,7 +5,7 @@ image:
   feature: paperfaces-michel-t-lg.jpg
   teaser: paperfaces-michel-t-teaser.jpg
   thumb: paperfaces-michel-t-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of Michel T. 

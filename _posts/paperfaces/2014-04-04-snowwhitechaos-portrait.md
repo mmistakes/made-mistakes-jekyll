@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @SnowWhiteChaos drawn with Paper by 53 on an iP
 image: 
   feature: paperfaces-snowwhitechaos-twitter-lg.jpg
   thumb: paperfaces-snowwhitechaos-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@SnowWhiteChaos](http://twitter.com/SnowWhiteChaos).

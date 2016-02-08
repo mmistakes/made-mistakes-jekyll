@@ -5,7 +5,7 @@ image:
   feature: paperfaces-riddl-twitter-lg.jpg
   teaser: paperfaces-riddl-twitter-teaser.jpg
   thumb: paperfaces-riddl-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@riddl](http://twitter.com/riddl).

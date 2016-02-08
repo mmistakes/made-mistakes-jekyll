@@ -5,7 +5,7 @@ image:
   feature: paperfaces-mandy-b-lg.jpg
   teaser: paperfaces-mandy-b-teaser.jpg
   thumb: paperfaces-mandy-b-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, Sktchy]
+tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 ---
 
 PaperFaces portrait of Mandy B. inspired by a photograph on Sktchy.

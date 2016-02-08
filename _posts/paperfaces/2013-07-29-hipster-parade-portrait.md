@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of some random hipsters drawn with Paper by 53 on 
 image: 
   feature: paperfaces-hipsters-lg.jpg
   thumb: paperfaces-hipsters-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard, time lapse]
+tags: [portrait, illustration, Paper by 53, black and white, beard, time lapse]
 ---
 
 PaperFaces portrait of some random hipsters I came up with to fill the entire canvas for a change. You can achieve some realistic effects just working with grays and white.

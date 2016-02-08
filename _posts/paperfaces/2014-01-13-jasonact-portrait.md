@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @jasonact drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-jasonact-twitter-lg.jpg
   thumb: paperfaces-jasonact-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait portrait of [@jasonact](http://twitter.com/jasonact).

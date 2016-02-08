@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @nevyn drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-nevyn-twitter-lg.jpg
   thumb: paperfaces-nevyn-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/nevyn">@nevyn</a>.

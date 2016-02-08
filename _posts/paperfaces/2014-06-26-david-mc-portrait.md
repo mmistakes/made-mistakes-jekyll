@@ -5,7 +5,7 @@ image:
   feature: paperfaces-david-mc-lg.jpg
   teaser: paperfaces-david-mc-teaser.jpg
   thumb: paperfaces-david-mc-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of David McC.

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @leviwintering drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-leviwintering-twitter-lg.jpg
   thumb: paperfaces-leviwintering-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@leviwintering](http://twitter.com/leviwintering).

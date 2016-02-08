@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @BehindTheHorns drawn with Paper by 53 on an iP
 image: 
   feature: paperfaces-behindthehorns-twitter-lg.jpg
   thumb: paperfaces-behindthehorns-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/BehindTheHorns">@BehindTheHorns</a>.

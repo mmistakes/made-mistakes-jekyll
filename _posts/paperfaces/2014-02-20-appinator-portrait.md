@@ -5,7 +5,7 @@ image:
   feature: paperfaces-appinator-twitter-lg.jpg
   teaser: paperfaces-appinator-twitter-teaser.jpg
   thumb: paperfaces-appinator-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, blend, bokeh]
+tags: [portrait, illustration, Paper by 53, black and white, blend, bokeh]
 ---
 
 PaperFaces portrait of [@appinator](http://twitter.com/appinator).

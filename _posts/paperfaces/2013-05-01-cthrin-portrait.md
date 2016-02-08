@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @cthrin drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-cthrin-twitter-lg.jpg
   thumb: paperfaces-cthrin-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@cthrin](http://twitter.com/cthrin).

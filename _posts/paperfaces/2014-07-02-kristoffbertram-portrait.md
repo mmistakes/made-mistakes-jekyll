@@ -5,7 +5,7 @@ image:
   feature: paperfaces-kristoffbertram-twitter-lg.jpg
   teaser: paperfaces-kristoffbertram-twitter-teaser.jpg
   thumb: paperfaces-kristoffbertram-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend, beard]
+tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
 PaperFaces portrait of [@kristoffbertram](http://twitter.com/kristoffbertram).

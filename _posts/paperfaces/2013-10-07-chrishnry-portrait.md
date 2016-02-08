@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @chrishnry drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-chrishnry-twitter-lg.jpg
   thumb: paperfaces-chrishnry-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/chrishnry">@chrishnry</a>.

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @carreteronacho drawn with Paper by 53 on an iP
 image: 
   feature: paperfaces-carreteronacho-twitter-lg.jpg
   thumb: paperfaces-carreteronacho-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@carreteronacho](http://twitter.com/carreteronacho).

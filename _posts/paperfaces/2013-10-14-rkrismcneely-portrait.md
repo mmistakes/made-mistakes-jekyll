@@ -5,7 +5,7 @@ image:
   feature: paperfaces-rkrismcneely-twitter-lg.jpg
   teaser: paperfaces-rkrismcneely-twitter-teaser.jpg
   thumb: paperfaces-rkrismcneely-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, 8bit]
+tags: [portrait, illustration, Paper by 53, 8bit]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/rkrismcneely">@rkrismcneely</a>.

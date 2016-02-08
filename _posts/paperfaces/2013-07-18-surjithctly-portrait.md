@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @surjithctly drawn with Paper by 53 on an iPad.
 image: 
   feature: paperfaces-surjithctly-twitter-lg.jpg
   thumb: paperfaces-surjithctly-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@surjithctly](http://twitter.com/surjithctly) for featuring my project on [Side Projects](http://sideprojects.web3canvas.com/post/55332574657/paperfaces-project-an-experiment-in-humanizing).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Fridorr drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-fridorr-twitter-lg.jpg
   thumb: paperfaces-fridorr-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@Fridorr](http://twitter.com/Fridorr).

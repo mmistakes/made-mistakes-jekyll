@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @theBrady drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-thebrady-twitter-lg.jpg
   thumb: paperfaces-thebrady-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of project donator [@theBrady](http://twitter.com/theBrady).

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-gharpreet-twitter-lg.jpg
   teaser: paperfaces-gharpreet-twitter-teaser.jpg
   thumb: paperfaces-gharpreet-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@GHarpreet](http://twitter.com/gharpreet).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @mishcrashh drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-mishcrashh-twitter-lg.jpg
   thumb: paperfaces-mishcrashh-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@mishcrashh](http://twitter.com/mishcrashh).

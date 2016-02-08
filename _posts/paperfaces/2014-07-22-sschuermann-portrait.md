@@ -5,7 +5,7 @@ image:
   feature: paperfaces-sschuermann-twitter-lg.jpg
   teaser: paperfaces-sschuermann-twitter-teaser.jpg
   thumb: paperfaces-sschuermann-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend, black and white, beard]
+tags: [portrait, illustration, Paper by 53, blend, black and white, beard]
 ---
 
 PaperFaces portrait of [@sschuermann](http://twitter.com/sschuermann).

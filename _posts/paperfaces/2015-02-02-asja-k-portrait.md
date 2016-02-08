@@ -6,7 +6,7 @@ image:
   feature: paperfaces-asja-k-lg.jpg
   teaser: paperfaces-asja-k-teaser.jpg
   thumb: paperfaces-asja-k-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Asja K. inspired by a [photograph on Sktchy](http://sktchy.com/d5SaaC).

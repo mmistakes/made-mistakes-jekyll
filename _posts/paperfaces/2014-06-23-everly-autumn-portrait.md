@@ -5,7 +5,7 @@ image:
   feature: paperfaces-everly-autumn-lg.jpg
   teaser: paperfaces-everly-autumn-teaser.jpg
   thumb: paperfaces-everly-autumn-150.jpg
-tags: [portrait, illustration, paper by 53, blend, black and white, bokeh, twins]
+tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
 ---
 
 Taking a little break from drawing the faces of strangers this weekend to sketch the two little ones in my life and their wild hair. First up, Everly.

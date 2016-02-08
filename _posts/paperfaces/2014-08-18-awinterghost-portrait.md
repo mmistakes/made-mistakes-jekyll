@@ -5,7 +5,7 @@ image:
   feature: paperfaces-awinterghost-twitter-lg.jpg
   teaser: paperfaces-awinterghost-twitter-teaser.jpg
   thumb: paperfaces-awinterghost-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@AWinterGhost](http://twitter.com/AWinterGhost).

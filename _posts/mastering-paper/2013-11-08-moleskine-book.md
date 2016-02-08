@@ -6,7 +6,7 @@ image:
   feature: paper-53-book-feature.jpg
   teaser: paper-53-book-teaser.jpg
   thumb: paper-53-book-thumb.jpg
-tags: [paper by 53, moleskine, book, design, printing, review]
+tags: [Paper by 53, moleskine, book, design, printing, review]
 comments: true
 ---
 

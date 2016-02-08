@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @WeiHeng_ drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-weiheng-twitter-lg.jpg
   thumb: paperfaces-weiheng-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/WeiHeng_">@WeiHeng_</a>.

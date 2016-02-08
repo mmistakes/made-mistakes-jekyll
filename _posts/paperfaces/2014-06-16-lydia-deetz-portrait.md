@@ -5,7 +5,7 @@ image:
   feature: paperfaces-lydia-deetz-lg.jpg
   teaser: paperfaces-lydia-deetz-teaser.jpg
   thumb: paperfaces-lydia-deetz-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white, blend]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white, blend]
 ---
 
 PaperFaces portrait of Lydia Deetz from **Beetlejuice**, inspired by a photograph on Sktchy.

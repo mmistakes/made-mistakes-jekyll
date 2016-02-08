@@ -5,7 +5,7 @@ image:
   feature: paperfaces-diego-s-lg.jpg
   teaser: paperfaces-diego-s-teaser.jpg
   thumb: paperfaces-diego-s-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Diego S. inspired by a photograph on Sktchy.

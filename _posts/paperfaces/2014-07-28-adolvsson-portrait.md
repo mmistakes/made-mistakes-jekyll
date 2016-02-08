@@ -5,7 +5,7 @@ image:
   feature: paperfaces-adolvsson-twitter-lg.jpg
   teaser: paperfaces-adolvsson-twitter-teaser.jpg
   thumb: paperfaces-adolvsson-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@adolvsson](http://twitter.com/adolvsson).

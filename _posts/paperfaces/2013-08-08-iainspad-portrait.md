@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @iainspad drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-iainspad-twitter-lg.jpg
   thumb: paperfaces-iainspad-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@iainspad](http://twitter.com/iainspad). Up the punx.

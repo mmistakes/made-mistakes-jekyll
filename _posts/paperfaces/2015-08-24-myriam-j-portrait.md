@@ -6,7 +6,7 @@ image:
   feature: paperfaces-myriam-j-lg.jpg
   teaser: paperfaces-myriam-j-teaser.jpg
   thumb: paperfaces-myriam-j-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 
 PaperFaces portrait of Myriam J. inspired by a [photograph on Sktchy](http://sktchy.com/kMXyoD).

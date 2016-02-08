@@ -6,7 +6,7 @@ image:
   feature: paperfaces-emily-d-lg.jpg
   teaser: paperfaces-emily-d-teaser.jpg
   thumb: paperfaces-emily-d-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy, Mix, time lapse]
+tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 
 PaperFaces portrait of Emily D. inspired by a [photograph on Sktchy](http://sktchy.com/XBuFq).

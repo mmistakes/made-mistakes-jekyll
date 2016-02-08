@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @gothamity drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-gothamity-twitter-lg.jpg
   thumb: paperfaces-gothamity-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@gothamity](http://twitter.com/gothamity).

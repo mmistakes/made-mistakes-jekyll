@@ -6,7 +6,7 @@ image:
   feature: paper-53-contour-drawing-feature.jpg
   teaser: paper-53-contour-drawing-teaser.jpg
   thumb: paper-53-contour-drawing-thumb.jpg
-tags: [paper by 53, blind contour, tutorial, drawing, ipad]
+tags: [Paper by 53, blind contour, tutorial, drawing, ipad]
 comments: true
 ---
 

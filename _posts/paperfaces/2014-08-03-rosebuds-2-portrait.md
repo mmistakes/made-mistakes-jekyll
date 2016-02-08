@@ -5,7 +5,7 @@ image:
   feature: paperfaces-rosebuds-2-lg.jpg
   teaser: paperfaces-rosebuds-2-teaser.jpg
   thumb: paperfaces-rosebuds-2-150.jpg
-tags: [portrait, illustration, paper by 53, twins]
+tags: [portrait, illustration, Paper by 53, twins]
 ---
 
 A PaperFaces drawing of the my two little girls Everly and Chloe on their second birthday.

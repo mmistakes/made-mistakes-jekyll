@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @idhanta drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-idhanta-twitter-lg.jpg
   thumb: paperfaces-idhanta-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/idhanta">@idhanta</a>.

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @greeleygeek drawn with Paper by 53 on an iPad.
 image: 
   feature: paperfaces-greeleygeek-twitter-lg.jpg
   thumb: paperfaces-greeleygeek-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@greeleygeek](http://twitter.com/greeleygeek).

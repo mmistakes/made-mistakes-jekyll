@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Rene D. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rene-d-twitter-lg.jpg
   thumb: paperfaces-rene-d-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, blend]
+tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait commission.

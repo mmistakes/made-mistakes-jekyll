@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @melaniejcooke drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-melaniejcooke-twitter-lg.jpg
   thumb: paperfaces-melaniejcooke-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@melaniejcooke](http://twitter.com/melaniejcooke).

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @rdraether drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rdraether-twitter-lg.jpg
   thumb: paperfaces-rdraether-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@rdraether](http://twitter.com/rdraether).

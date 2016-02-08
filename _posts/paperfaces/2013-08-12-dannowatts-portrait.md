@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @dannowatts drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-dannowatts-twitter-lg.jpg
   thumb: paperfaces-dannowatts-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, trees, black and white, beard]
+tags: [portrait, illustration, Paper by 53, trees, black and white, beard]
 ---
 
 PaperFaces portrait of [@dannowatts](http://twitter.com/dannowatts). Black and white mixed with some creepy trees makes for a perfect combination.

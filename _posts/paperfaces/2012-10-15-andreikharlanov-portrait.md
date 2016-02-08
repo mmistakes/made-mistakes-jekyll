@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @andreikharlanov drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-andreikharlanov-twitter-lg.jpg
   thumb: paperfaces-andreikharlanov-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@andreikharlanov](http://twitter.com/andreikharlanov).

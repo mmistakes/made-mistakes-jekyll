@@ -5,7 +5,7 @@ image:
   feature: paperfaces-bill-liu-lg.jpg
   teaser: paperfaces-bill-liu-teaser.jpg
   thumb: paperfaces-bill-liu-150.jpg
-tags: [portrait, illustration, paper by 53, blend, bokeh]
+tags: [portrait, illustration, Paper by 53, blend, bokeh]
 ---
 
 PaperFaces portrait commission of a Bill Liu.

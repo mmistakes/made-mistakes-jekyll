@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @andrew-shaw23 drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-andrew-shaw23-twitter-lg.jpg
   thumb: paperfaces-andrew-shaw23-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, beard]
+tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@andrew-shaw23](http://twitter.com/andrew-shaw23).

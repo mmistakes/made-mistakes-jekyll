@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Laryssa W. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-laryssa-w-lg.jpg
   thumb: paperfaces-laryssa-w-150.jpg
-tags: [portrait, illustration, paper by 53, Sktchy]
+tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of [Laryssa W.](http://sktchy.com/rHtydc) inspired by Sktchy.

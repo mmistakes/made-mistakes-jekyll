@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @angel__frias drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-angel-frias-instagram-lg.jpg
   thumb: paperfaces-angel-frias-instagram-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://instagram.com/angel__frias">@angel__frias</a>.

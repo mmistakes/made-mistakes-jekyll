@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @rotub drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-rotub-twitter-lg.jpg
   thumb: paperfaces-rotub-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/rotub">@rotub</a>.

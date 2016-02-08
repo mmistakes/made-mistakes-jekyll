@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @doertedev drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-doertedev-twitter-lg.jpg
   thumb: paperfaces-doertedev-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@doertedev](http://twitter.com/doertedev).

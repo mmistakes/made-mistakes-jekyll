@@ -5,7 +5,7 @@ image:
   feature: paperfaces-beauty-profile-lg.jpg
   teaser: paperfaces-beauty-profile-teaser.jpg
   thumb: paperfaces-beauty-profile-150.jpg
-tags: [portrait, illustration, paper by 53, blend, bokeh]
+tags: [portrait, illustration, Paper by 53, blend, bokeh]
 ---
 
 PaperFaces portrait commission. *Beauty is in the moment, not the image.*

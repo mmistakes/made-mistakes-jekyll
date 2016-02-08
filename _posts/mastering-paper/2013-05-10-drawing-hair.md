@@ -6,7 +6,7 @@ image:
   feature: how-to-draw-hair-feature.jpg
   teaser: how-to-draw-hair-teaser-2016.jpg
   thumb: how-to-draw-hair-thumb.jpg
-tags: [paper by 53, tutorial, hair, drawing, ipad]
+tags: [Paper by 53, tutorial, hair, drawing, ipad]
 comments: true
 ---
 

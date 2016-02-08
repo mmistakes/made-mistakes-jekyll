@@ -5,7 +5,7 @@ image:
   feature: paperfaces-smroux-twitter-lg.jpg
   teaser: paperfaces-smroux-twitter-teaser.jpg
   thumb: paperfaces-smroux-twitter-150.jpg
-tags: [portrait, illustration, paper by 53]
+tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@smroux](http://twitter.com/smroux).

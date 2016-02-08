@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @crusell drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-crusell-twitter-lg.jpg
   thumb: paperfaces-crusell-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white]
+tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@crusell](http://twitter.com/crusell).
