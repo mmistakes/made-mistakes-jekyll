@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign taxonomy = page.title | downcase | slugify %}
+{% assign tag = site.data.taxonomy[taxonomy] %}
+
 {% include masthead.html %}
 {% include browser-upgrade.html %}
 
@@ -12,7 +15,13 @@ layout: default
       {% include page__hero.html %}
     {% endif %}
     <h1 class="post__title">{{ page.title }}</h1>
-    <h2 class="post__excerpt">An archive of posts tagged <em>{{ page.title }}</em>.</h2>
+    <h2 class="post__excerpt">
+      {% if tag.description %}
+        {{ tag.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      {% else %}
+        An archive of posts tagged <em>{{ page.title }}</em>.
+      {% endif %}
+    </h2>
     {% include breadcrumbs.html %}
   </header>
 
