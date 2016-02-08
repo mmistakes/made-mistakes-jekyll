@@ -281,17 +281,10 @@
 }
 
 .post__taxonomy-item {
-  margin-right: 0.5em;
   font-family: $sans-serif;
   font-weight: bold;
   color: $text-color;
-  word-spacing: -0.25em;
   white-space: nowrap;
-  &:before {
-    content: "#";
-    font-family: $serif;
-    font-weight: normal;
-  }
   &:hover {
     text-decoration: underline;
   }
@@ -308,36 +301,64 @@
 
 /* tag boxes */
 
-.tag__list {
-  margin: 0;
-  padding: 0;
-  li {
-    display: inline;
-    list-style-type: none;
-    font-size: 0.8rem;
-  }
-  .tag__item {
-    span {
-      white-space: nowrap;
-    }
-  }
-}
-
 .tag__item {
-  display: inline-block;
-  margin-right: 0.5em;
+  display: block;
   text-decoration: none;
   font-family: $sans-serif;
   font-weight: bold;
-  word-spacing: -0.25em;
+  white-space: nowrap;
   border-bottom-width: 0 !important; // override
-  &:before {
-    content: "#";
-    font-family: $serif;
-    font-weight: normal;
-  }
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.tag__name {
+  float: left;
+  padding-right: 0.125em;
+  font-weight: normal;
+  font-family: $serif;
+  background: $background-color;
+}
+
+.tag__count {
+  float: right;
+  padding-left: 0.125em;
+  background: $background-color;
+}
+
+.tag__list {
+  margin: 0;
+  padding: 0;
+  column-gap: 3em;
+  @include breakpoint($small) {
+    column-count: 2;
+    column-width: 150px;
+  }
+  @include breakpoint($medium) {
+    column-count: 3;
+  }
+  li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    line-height: 2;
+    @include breakpoint($medium) {
+      line-height: 1.5;
+    }
+  }
+  li + li {
+    margin-top: 0 !important; // override
+  }
+  .tag__item {
+    @include clearfix();
+    overflow: hidden;
+    &:before {
+      float: left;
+      width: 0;
+      content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+      white-space: nowrap;
+      color: $gray;
+    }
   }
 }
 

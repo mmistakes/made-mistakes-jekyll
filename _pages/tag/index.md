@@ -18,7 +18,7 @@ share: false
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
-    <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item"><span>{{ tag[0] }}</span></a></li>
+    <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item"><span class="tag__name">{{ tag[0] }}</span> <span class="tag__count">{{ tag[1].size }}</span></a></li>
     {% endif %}
   {% endfor %}
 {% endfor %}
