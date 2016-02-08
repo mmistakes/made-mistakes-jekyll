@@ -7,7 +7,7 @@ image:
   thumb: two-sisters-340x340.jpg
   credit: DVD screengrab from The Movie Database
   creditlink: http://www.themoviedb.org/movie/4552-janghwa-hongryeon
-tags: [foreign, korean, horror, film, review]
+tags: [foreign, Korean, horror, film, review]
 ---
 
 Netflix has been on a roll lately with the Korean films it's suggested I watch. First it was Chan-wook Park's three revenge flicks ([*Old Boy*][old-boy], [*Sympathy for Mr Vengeance*][mr-vengeance], and [*Lady Vengeance*][lady-vengeance]) and now [*A Tale of Two Sisters*][two-sisters].

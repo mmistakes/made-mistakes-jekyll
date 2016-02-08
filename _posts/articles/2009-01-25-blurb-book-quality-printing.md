@@ -6,7 +6,7 @@ image:
   feature: blurb-book-featured.jpg
   teaser: blurb-book-teaser.jpg
   thumb: blurb-book-thumb.jpg
-tags: [book, design, printing]
+tags: [book, design]
 ---
 
 Designing a book with Blurb was painless and having it printed was equally enjoyable. I'm really happy with how my first photography book turned out.
