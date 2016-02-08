@@ -6,7 +6,7 @@ image:
   feature: paper-53-expanded-guide-feature.jpg
   thumb: paper-53-expanded-guide-thumb.jpg
   teaser: paper-53-expanded-guide-teaser-2016.jpg
-tags: [Paper by 53, tutorial, drawing, painting, ipad, stylus]
+tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 comments: true
 ---
 

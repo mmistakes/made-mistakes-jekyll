@@ -6,7 +6,7 @@ image:
   feature: pogo-connect-review-feature.jpg
   teaser: pogo-connect-review-teaser.jpg
   thumb: pogo-connect-app-thumb.jpg
-tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, ipad]
+tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, iPad]
 comments: true
 ---
 
@@ -80,7 +80,6 @@ If it's not painfully obvious from the sample sketches, the Pogo Connect Smart P
 * **Marker:** strokes get wider
 * **Pen:** strokes get slightly wider
 * **Watercolor:** strokes get wider
-{:.fl}
  
 In my opinion the two tools that benefit the most from using a Pogo Connect stylus are the watercolor brush and pencil. Both tools become more responsive and natural to use --- especially the pencil when used for shading and sketching. The watercolor brush gets the added benefit of being able to draw thinner strokes than your finger or other styluses can, which is nice since there is no way to control brush size yet.
 
@@ -88,7 +87,7 @@ In my opinion the two tools that benefit the most from using a Pogo Connect styl
 
 Seen this one mentioned on a few other reviews and forums so I figured I'd address it quickly. I've never really had a problem with drawing or writing on an iPad and having my palm make random marks. Not sure if I draw in a way that eliminates this, so I don't really have a way to judge if the Pogo fixes this. What I can say is when activated you can't draw with anything except the Pogo, but gestures like pinch to zoom, rewind, and moving pages around all still work.
 
-But if you rest your palm on the screen while you draw things break down quickly. Because of the way multitouch gestures work in Paper, the palm rejection feature was likely turned off as not to conflict. If you use an app like Procreate, palm rejection works quite nicely when multitouch gestures are turned off on your device.
+But if you rest your palm on the screen while you draw things break down quickly. Because of the way multi-touch gestures work in Paper, the palm rejection feature was likely turned off as not to conflict. If you use an app like Procreate, palm rejection works quite nicely when multi-touch gestures are turned off on your device.
 
 ## Is it Worth the Money?
 
@@ -110,7 +109,7 @@ About those bugs I mentioned earlier. Not sure if they're hardware or software r
 During my first week with the Pogo I encountered another issue that I thought might have been a bug with Paper. Out of nowhere the iPad's screen would turn off and the lock "chhkk" would sound. After complaining about it on Tumblr [a friend messaged me](http://mbbradbury.tumblr.com/post/51935357080/what-went-wrong-with-your-pogo-connect-i-can-see-me) to say that I needed to turn off the iPad cover lock setting. It never occurred to me that there was a magnet in the tip of the Pogo that could trigger a screen lock when moved near the iPad's outer bezel.
 
 <figure>
-  <img src="{{ site.url }}/images/ipad-cover-lock-setting.jpg" alt="iPad iOS 6 cover lock setting">
+  <img src="{{ site.url }}/images/iPad-cover-lock-setting.jpg" alt="iPad iOS 6 cover lock setting">
   <figcaption>Toggling iPad Cover Lock/Unlock to OFF in Settings will stop the Pogo from turning off your screen if you get to close to the edge.</figcaption>
 </figure>
 

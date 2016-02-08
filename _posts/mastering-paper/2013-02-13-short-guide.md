@@ -6,7 +6,7 @@ image:
   feature: madewithpaper-guide-feature.jpg
   teaser: madewithpaper-guide-teaser.jpg
   thumb: madewithpaper-guide-thumb.jpg
-tags: [Paper by 53, tutorial, drawing, ipad]
+tags: [Paper by 53, tutorial, drawing, iPad]
 feature:
   visible: true
   headline: "Featured Tutorials"

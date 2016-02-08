@@ -6,7 +6,7 @@ image:
   feature: paper-53-faces-feature.jpg
   teaser: paper-53-faces-teaser-2016.jpg
   thumb: paper-53-faces-thumb.jpg
-tags: [Paper by 53, tutorial, drawing, painting, portrait, ipad]
+tags: [Paper by 53, tutorial, drawing, painting, portrait, iPad]
 comments: true
 featured: true
 ---

@@ -8,14 +8,14 @@ modified: 2015-11-30T13:04:16-05:00
 image: 
   thumb: paperfaces-project-250x250.jpg
   teaser: paperfaces-asja-k-teaser.jpg
-tags: [Paper by 53, portrait, drawing, painting, ipad, illustration, 365 project]
+tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]
 fullwidth: true
 featured: true
 ads: false
 work: "Illustration"
 ---
 
-PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper by FiftyThree**. I occasionally post new portraits here, but certainly not as frequently as I used to.
+PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-iPad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper by FiftyThree**. I occasionally post new portraits here, but certainly not as frequently as I used to.
 
 If you scroll down far enough you can see how my technique evolved from faceless gestures into realistic portraits[^procreate].
 

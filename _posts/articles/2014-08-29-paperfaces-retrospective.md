@@ -6,7 +6,7 @@ image:
   feature: paperfaces-800-portraits-lg.jpg
   teaser: paperfaces-800-portraits-teaser.jpg
   thumb: paperfaces-800-portraits-th.jpg
-tags: [drawing, illustration, 365 project, Paper by 53, ipad]
+tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
 ---
 

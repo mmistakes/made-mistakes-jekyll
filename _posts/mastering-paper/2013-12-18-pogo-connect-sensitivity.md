@@ -5,7 +5,7 @@ modified: 2016-01-27T14:51:06-05:00
 image:
   teaser: pogo-connect-review-teaser.jpg
   thumb: pogo-connect-app-thumb.jpg
-tags: [Pogo Connect, Paper by 53, stylus, ipad]
+tags: [Pogo Connect, Paper by 53, stylus, iPad]
 comments: true
 ---
 

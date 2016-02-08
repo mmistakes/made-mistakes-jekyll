@@ -6,7 +6,7 @@ image:
   feature: paper-53-trees-guide-feature.jpg
   teaser: paper-53-trees-guide-teaser-2016.jpg
   thumb: paper-53-trees-guide-thumb.jpg
-tags: [Paper by 53, tutorial, drawing, painting, trees, grass, ipad]
+tags: [Paper by 53, tutorial, drawing, painting, trees, grass, iPad]
 comments: true
 ---
 

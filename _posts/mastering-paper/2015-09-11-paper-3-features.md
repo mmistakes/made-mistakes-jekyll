@@ -1,8 +1,8 @@
 ---
-title: "New Paper by FiftyThree 3.0 Features I Can’t Live Without"
+title: "New Paper by FiftyThree 3.0 Features I Can't Live Without"
 modified: 2015-10-19T14:47:05-04:00
 excerpt: "Paper by FiftyThree comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more."
-tags: [Paper by 53, ipad]
+tags: [Paper by 53, iPad]
 image:
   feature: paper-3-feature.jpg
   teaser: paper-3-teaser.jpg
