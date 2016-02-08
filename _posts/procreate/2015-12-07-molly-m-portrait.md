@@ -6,7 +6,7 @@ image:
   feature: molly-m-procreate-lg.jpg
   teaser: molly-m-procreate-teaser.jpg
   thumb: molly-m-procreate-250.jpg
-tags: [procreate, painting, drawing, portrait, illustration, time lapse, sktchy]
+tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 
 Portrait of Molly M. inspired by a [photograph on Sktchy](http://sktchy.com/hvnEKC). Digitally painted with Procreate on an iPad Air 2.

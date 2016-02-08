@@ -6,7 +6,7 @@ image:
   feature: painting-stormtrooper-lg.jpg
   teaser: painting-stormtrooper-teaser.jpg
   thumb: painting-stormtrooper-250.jpg
-tags: [watercolor, painting, drawing, portrait, illustration, star wars]
+tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of a Stormtrooper from **Star Wars**. Painted with watercolor on hot press paper.

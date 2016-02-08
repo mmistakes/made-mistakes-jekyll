@@ -5,7 +5,7 @@ image:
   feature: paperfaces-abby-b-lg.jpg
   teaser: paperfaces-abby-b-teaser.jpg
   thumb: paperfaces-abby-b-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, mix]
+tags: [portrait, illustration, paper by 53, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Abby B. inspired by a [photograph on Sktchy](http://sktchy.com/yCCAgH).

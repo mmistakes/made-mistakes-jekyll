@@ -6,7 +6,7 @@ image:
   feature: painting-michael-rose-lg.jpg
   teaser: painting-michael-rose-teaser.jpg
   thumb: painting-michael-rose-250.jpg
-tags: [watercolor, painting, drawing, portrait, illustration]
+tags: [Michael Rose, watercolor, painting, drawing, portrait, illustration]
 ---
 
 Tiny self portrait painted with watercolor on hot press paper.

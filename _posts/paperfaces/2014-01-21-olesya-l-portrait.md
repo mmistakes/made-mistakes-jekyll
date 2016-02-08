@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Olesya L. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-olesya-l-lg.jpg
   thumb: paperfaces-olesya-l-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of [Olesya L.](http://sktchy.com/REiCy) inspired by Sktchy.

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-lisset-m-lg.jpg
   teaser: paperfaces-lisset-m-teaser.jpg
   thumb: paperfaces-lisset-m-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, mix]
+tags: [portrait, illustration, paper by 53, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Lisset M. inspired by a photograph on Sktchy.

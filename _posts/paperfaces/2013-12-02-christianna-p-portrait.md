@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Christianna P. drawn with Paper by 53 on an iPa
 image: 
   feature: paperfaces-christianna-p-lg.jpg
   thumb: paperfaces-christianna-p-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/wkGeKD">Christianna P</a>, inspiration found via Sktchy.

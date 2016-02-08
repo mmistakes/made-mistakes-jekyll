@@ -5,7 +5,7 @@ image:
   feature: paperfaces-blair-z-lg.jpg
   teaser: paperfaces-blair-z-teaser.jpg
   thumb: paperfaces-blair-z-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, black and white]
+tags: [portrait, illustration, paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Blair Z. inspired by a photograph on Sktchy.

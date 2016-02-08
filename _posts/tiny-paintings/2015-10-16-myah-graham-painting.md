@@ -6,7 +6,7 @@ image:
   feature: painting-myah-graham-lg.jpg
   teaser: painting-myah-graham-teaser.jpg
   thumb: painting-myah-graham-250.jpg
-tags: [watercolor, painting, drawing, portrait, illustration, sktchy]
+tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]
 ---
 
 Tiny portrait of Myah Graham inspired by a [photograph on Sktchy](http://sktchy.com/gAj7DH). Painted with watercolor on hot press paper. 

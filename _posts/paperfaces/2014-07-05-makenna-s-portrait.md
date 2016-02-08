@@ -5,7 +5,7 @@ image:
   feature: paperfaces-makenna-s-lg.jpg
   teaser: paperfaces-makenna-s-teaser.jpg
   thumb: paperfaces-makenna-s-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of Makenna S. inspired by a photograph on Sktchy.

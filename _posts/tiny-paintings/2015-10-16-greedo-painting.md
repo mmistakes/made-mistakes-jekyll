@@ -6,7 +6,7 @@ image:
   feature: painting-greedo-lg.jpg
   teaser: painting-greedo-teaser.jpg
   thumb: painting-greedo-250.jpg
-tags: [watercolor, painting, drawing, portrait, illustration, star wars]
+tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of Greedo from **Star Wars**. Painted with watercolor on hot press paper.

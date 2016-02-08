@@ -6,7 +6,7 @@ image:
   feature: painting-gamorrean-guard-lg.jpg
   teaser: painting-gamorrean-guard-teaser.jpg
   thumb: painting-gamorrean-guard-250.jpg
-tags: [watercolor, painting, drawing, portrait, illustration, star wars]
+tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of a Gamorrean Guard from **Return of the Jedi**. Painted with watercolor on hot press paper.

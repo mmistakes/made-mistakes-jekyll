@@ -3,7 +3,7 @@ layout: article
 title: "How I'm Using Jekyll in 2016"
 excerpt:
 categories: articles
-tags: [jekyll, web development, style guide, github, open source]
+tags: [Jekyll, web development, style guide, GitHub, open source]
 image:
   feature:
   teaser:

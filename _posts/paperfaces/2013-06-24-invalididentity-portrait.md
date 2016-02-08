@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @invalididentity drawn with Paper by 53 on an i
 image: 
   feature: paperfaces-invalididentity-twitter-lg.jpg
   thumb: paperfaces-invalididentity-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, eye, blue]
+tags: [portrait, illustration, paper by 53, eye]
 ---
 
 PaperFaces portrait of [@invalididentity](http://twitter.com/invalididentity). Another eye closeup for your viewing pleasure.

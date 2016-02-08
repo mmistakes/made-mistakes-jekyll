@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of a Tabbitha S. drawn with Paper by 53 on an iPad
 image: 
   feature: paperfaces-tabbitha-s-lg.jpg
   thumb: paperfaces-tabbitha-s-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of a [Tabbitha S.](http://sktchy.com/WjxgQ) inspired by a photograph on Sktchy.

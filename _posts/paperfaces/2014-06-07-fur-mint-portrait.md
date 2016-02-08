@@ -5,7 +5,7 @@ image:
   feature: paperfaces-fur-mint-lg.jpg
   teaser: paperfaces-fur-mint-teaser.jpg
   thumb: paperfaces-fur-mint-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, black and white]
+tags: [portrait, illustration, paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of a Fur Mint inspired by a photograph on Sktchy.

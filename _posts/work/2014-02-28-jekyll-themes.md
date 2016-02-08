@@ -7,7 +7,7 @@ image:
   feature: jekyll-themes-feature.jpg
   thumb: jekyll-themes-thumb-250x250.png
   teaser: jekyll-themes-teaser.png
-tags: [jekyll, web development, open source, github]
+tags: [Jekyll, web development, open source, GitHub]
 work: "Design &amp; Development"
 ---
 

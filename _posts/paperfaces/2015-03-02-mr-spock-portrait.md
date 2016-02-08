@@ -6,7 +6,7 @@ image:
   feature: paperfaces-mr-spock-lg.jpg
   teaser: paperfaces-mr-spock-teaser.jpg
   thumb: paperfaces-mr-spock-150.jpg
-tags: [portrait, illustration, paper by 53, star trek, mix, time lapse, black and white]
+tags: [portrait, illustration, paper by 53, Star Trek, Mix, time lapse, black and white]
 ---
 
 PaperFaces portrait tribute of Leonard Nimoy as Mr. Spock.

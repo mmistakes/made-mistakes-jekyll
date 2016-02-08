@@ -5,7 +5,7 @@ image:
   feature: paperfaces-general-grievous-lg.jpg
   teaser: paperfaces-general-grievous-teaser.jpg
   thumb: paperfaces-general-grievous-150.jpg
-tags: [portrait, illustration, paper by 53, star wars, blend]
+tags: [portrait, illustration, paper by 53, Star Wars, blend]
 ---
 
 PaperFaces portrait of General Grievous from Episode III: Revenge of the Sith.

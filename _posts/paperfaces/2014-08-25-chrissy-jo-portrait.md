@@ -5,7 +5,7 @@ image:
   feature: paperfaces-chrissy-jo-lg.jpg
   teaser: paperfaces-chrissy-jo-teaser.jpg
   thumb: paperfaces-chrissy-jo-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 Chrissy does [fantastic illustrations](http://chrissyjo.com/) and after she drew a [pretty rad portrait](http://sktchy.com/aLFwUD) of yours truly I decided to return the favor.

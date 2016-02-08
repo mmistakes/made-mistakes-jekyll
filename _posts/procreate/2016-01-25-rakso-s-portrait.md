@@ -6,7 +6,7 @@ image:
   feature: rakso-s-procreate-lg.jpg
   teaser: rakso-s-procreate-teaser.jpg
   thumb: rakso-s-procreate-250.jpg
-tags: [procreate, painting, drawing, portrait, illustration, time lapse, beard, sktchy, black and white]
+tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy, black and white]
 ---
 
 Portrait of Rakso S. inspired by a [photograph on Sktchy](http://sktchy.com/a4RQUD). Digitally painted with Procreate on an iPad Air 2.

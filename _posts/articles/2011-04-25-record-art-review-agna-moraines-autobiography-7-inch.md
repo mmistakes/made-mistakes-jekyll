@@ -6,7 +6,7 @@ image:
   feature: agna-moraines-autobiography-feature.jpg
   teaser: agna-moraines-autobiography-teaser.jpg
   thumb: agna-moraines-340x340.jpg
-tags: [records, punk, design, diy, critique, inspiration]
+tags: [records, punk, design, DIY, critique, inspiration]
 ---
 
 Emo bands from the late 1990's make up a good portion of my record collection. I was really drawn to quirky vocals, high pitched screams, odd tempo changes, and plenty of twinkle in the guitars.

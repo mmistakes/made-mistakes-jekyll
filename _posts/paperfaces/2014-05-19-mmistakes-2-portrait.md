@@ -4,7 +4,7 @@ excerpt: "Another PaperFaces portrait of @mmistakes drawn with Paper by 53 on an
 image: 
   feature: paperfaces-mmistakes-2-twitter-lg.jpg
   thumb: paperfaces-mmistakes-2-twitter-150.jpg
-tags: [portrait, illustration, paper by 53, black and white, michael rose]
+tags: [portrait, illustration, paper by 53, black and white, self portrait, Michael Rose]
 ---
 
 The last time I drew a [self portrait]({{ site.url }}{% post_url 2013-05-29-michael-rose-beard-portrait %}) I didn't have a face.

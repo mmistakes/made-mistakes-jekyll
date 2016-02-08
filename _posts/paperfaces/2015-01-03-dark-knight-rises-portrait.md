@@ -6,7 +6,7 @@ image:
   feature: paperfaces-dark-knight-lg.jpg
   teaser: paperfaces-dark-knight-teaser.jpg
   thumb: paperfaces-dark-knight-150.jpg
-tags: [portrait, illustration, paper by 53, batman, mix]
+tags: [portrait, illustration, paper by 53, Batman, Mix]
 ---
 
 PaperFaces portrait of the Dark Knight to go along with a drawing I did of the [Clown Prince]({{ site.url }}{% post_url 2014-12-04-killing-joke-portrait %}) a few weeks ago.

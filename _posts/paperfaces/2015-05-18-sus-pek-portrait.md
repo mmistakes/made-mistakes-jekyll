@@ -6,7 +6,7 @@ image:
   feature: paperfaces-sus-pek-lg.jpg
   teaser: paperfaces-sus-pek-teaser.jpg
   thumb: paperfaces-sus-pek-150.jpg
-tags: [portrait, illustration, paper by 53, beard, sktchy, mix]
+tags: [portrait, illustration, paper by 53, beard, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Sus Pek inspired by a [photograph on Sktchy](http://sktchy.com/ucx5rc).

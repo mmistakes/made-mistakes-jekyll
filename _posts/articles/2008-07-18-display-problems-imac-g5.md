@@ -5,7 +5,7 @@ image:
   feature: imac-glitch-feature.jpg
   teaser: imac-glitch-teaser.jpg
   thumb: imac-glitch-thumb.jpg
-tags: [imac, logic board, apple]
+tags: [iMac, Apple]
 ---
 
 ## A Little Trip Down Macintosh Memory Lane

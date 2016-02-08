@@ -6,7 +6,7 @@ image:
   feature: painting-grand-moff-tarkin-lg.jpg
   teaser: painting-grand-moff-tarkin-teaser.jpg
   thumb: painting-grand-moff-tarkin-250.jpg
-tags: [watercolor, painting, drawing, portrait, illustration, star wars]
+tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of Grand Moff Tarkin from **Star Wars**. Painted with watercolor on hot press paper.

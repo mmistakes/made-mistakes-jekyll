@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rachel-b-lg.jpg
   teaser: paperfaces-rachel-b-teaser.jpg
   thumb: paperfaces-rachel-b-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, mix]
+tags: [portrait, illustration, paper by 53, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Rachel B. inspired by a [photograph on Sktchy](http://sktchy.com/Ptkxs).

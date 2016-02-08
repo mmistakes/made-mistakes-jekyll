@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kalani-o-lg.jpg
   teaser: paperfaces-kalani-o-teaser.jpg
   thumb: paperfaces-kalani-o-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, mix, black and white]
+tags: [portrait, illustration, paper by 53, Sktchy, Mix, black and white]
 ---
 
 PaperFaces portrait of Kalani O. inspired by a [photograph on Sktchy](http://sktchy.com/IfaqVH).

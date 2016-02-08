@@ -5,7 +5,7 @@ modified: 2015-12-15 00:00:00
 image: 
   thumb: eviltron-thumb.jpg
   teaser: eviltron-teaser.jpg
-tags: [eviltron, prank, horror, review, tech geek]
+tags: [Eviltron, prank, horror, review, tech geek]
 ---
 
 So we went and saw *Paranormal Activity* last night. If you haven't heard it's basically the *Blair Witch Project* shot in a haunted house. I couldn't have planned it better because earlier in the day my [Eviltron from Think Geek](http://www.thinkgeek.com/gadgets/electronic/c427/) showed up which gave me time to plant it in our bedroom.

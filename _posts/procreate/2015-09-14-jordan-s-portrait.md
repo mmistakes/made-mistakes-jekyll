@@ -6,7 +6,7 @@ image:
   feature: jordan-s-procreate-lg.jpg
   teaser: jordan-s-procreate-teaser.jpg
   thumb: jordan-s-procreate-250.jpg
-tags: [procreate, painting, drawing, portrait, illustration, time lapse, sktchy]
+tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 
 Portrait of Jordan S. inspired by a [photograph on Sktchy](http://sktchy.com/BXA9OC). Digitally painted with Procreate on an iPad Air 2. 

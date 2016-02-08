@@ -5,7 +5,7 @@ image:
   feature: paperfaces-duha-a-lg.jpg
   teaser: paperfaces-duha-a-teaser.jpg
   thumb: paperfaces-duha-a-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, black and white]
+tags: [portrait, illustration, paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of a [Duha A.](http://sktchy.com/tER3uD) inspired by a photograph on Sktchy.

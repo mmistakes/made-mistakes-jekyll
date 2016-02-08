@@ -6,7 +6,7 @@ image:
   feature: paperfaces-neon-l-lg.jpg
   teaser: paperfaces-neon-l-teaser.jpg
   thumb: paperfaces-neon-l-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, bokeh, mix]
+tags: [portrait, illustration, paper by 53, Sktchy, bokeh, Mix]
 ---
 
 PaperFaces portrait of Neon L. inspired by a [photograph on Sktchy](http://sktchy.com/iYeI6c).

@@ -6,7 +6,7 @@ image:
   feature: painting-bith-lg.jpg
   teaser: painting-bith-teaser.jpg
   thumb: painting-bith-250.jpg
-tags: [watercolor, painting, drawing, portrait, illustration, star wars]
+tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of a Bith from **Star Wars**. Painted with watercolor on hot press paper.

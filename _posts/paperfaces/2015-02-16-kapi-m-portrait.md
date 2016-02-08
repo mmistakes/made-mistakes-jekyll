@@ -6,7 +6,7 @@ image:
   feature: paperfaces-kapi-m-lg.jpg
   teaser: paperfaces-kapi-m-teaser.jpg
   thumb: paperfaces-kapi-m-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, mix, eye, blend]
+tags: [portrait, illustration, paper by 53, Sktchy, Mix, eye, blend]
 ---
 
 PaperFaces portrait of Kapi M. inspired by a [photograph on Sktchy](http://sktchy.com/udfGaD).

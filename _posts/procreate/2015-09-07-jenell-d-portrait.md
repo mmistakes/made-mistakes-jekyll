@@ -6,7 +6,7 @@ image:
   feature: jenell-d-procreate-lg.jpg
   teaser: jenell-d-procreate-teaser.jpg
   thumb: jenell-d-procreate-250.jpg
-tags: [procreate, painting, drawing, portrait, illustration, time lapse, sktchy, black and white]
+tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy, black and white]
 ---
 
 Portrait of Jenell D. inspired by a [photograph on Sktchy](http://sktchy.com/7i99Kc). Digitally painted with Procreate on an iPad Air 2. 

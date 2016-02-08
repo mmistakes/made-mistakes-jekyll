@@ -5,7 +5,7 @@ image:
   feature: sktchys-of-me-feature.jpg
   teaser: sktchys-of-me-teaser.jpg
   thumb: sktchy-app-thumb.png
-tags: [sktchy, drawing, technology]
+tags: [Sktchy, drawing, technology]
 comments: true
 ---
 

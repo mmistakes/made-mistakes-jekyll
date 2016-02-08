@@ -5,7 +5,7 @@ image:
   feature: paperfaces-nick-b-2-lg.jpg
   teaser: paperfaces-nick-b-2-teaser.jpg
   thumb: paperfaces-nick-b-2-150.jpg
-tags: [portrait, illustration, paper by 53, mix]
+tags: [portrait, illustration, paper by 53, Mix]
 ---
 
 PaperFaces portrait commission of Nick B. 

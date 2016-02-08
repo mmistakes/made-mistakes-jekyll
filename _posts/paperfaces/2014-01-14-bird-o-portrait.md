@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Bird O. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-bird-o-lg.jpg
   thumb: paperfaces-bird-o-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 Return of the blank. PaperFaces portrait of [Bird O.](http://sktchy.com/JPzbGH) inspired on Sktchy.

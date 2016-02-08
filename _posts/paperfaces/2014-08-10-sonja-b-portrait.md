@@ -5,7 +5,7 @@ image:
   feature: paperfaces-sonja-b-lg.jpg
   teaser: paperfaces-sonja-b-teaser.jpg
   thumb: paperfaces-sonja-b-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of Sonja B. inspired by a photograph on Sktchy.

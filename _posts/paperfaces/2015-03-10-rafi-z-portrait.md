@@ -6,7 +6,7 @@ image:
   feature: paperfaces-rafi-z-lg.jpg
   teaser: paperfaces-rafi-z-teaser.jpg
   thumb: paperfaces-rafi-z-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, mix, time lapse, black and white]
+tags: [portrait, illustration, paper by 53, Sktchy, Mix, time lapse, black and white]
 ---
 
 PaperFaces portrait of Rafi Z. inspired by a [photograph on Sktchy](http://sktchy.com/WsDAeD).

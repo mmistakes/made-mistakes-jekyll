@@ -6,7 +6,7 @@ image:
   feature: david-g-procreate-lg.jpg
   teaser: david-g-procreate-teaser.jpg
   thumb: david-g-procreate-250.jpg
-tags: [procreate, painting, drawing, portrait, illustration, time lapse, beard, sktchy]
+tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy]
 ---
 
 Portrait of David G. inspired by a [photograph on Sktchy](http://sktchy.com/CIyk0D). Digitally painted with Procreate on an iPad Air 2.

@@ -5,7 +5,7 @@ image:
   feature: paperfaces-renate-w-lg.jpg
   teaser: paperfaces-renate-w-teaser.jpg
   thumb: paperfaces-renate-w-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy, black and white, mix]
+tags: [portrait, illustration, paper by 53, Sktchy, black and white, Mix]
 ---
 
 PaperFaces portrait of Renate W. inspired by a [photograph on Sktchy](http://sktchy.com/4ml2W).

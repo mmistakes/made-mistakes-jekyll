@@ -5,7 +5,7 @@ image:
   feature: paperfaces-luke-vader-cave-lg.jpg
   teaser: paperfaces-luke-vader-cave-teaser.jpg
   thumb: paperfaces-luke-vader-cave-150.jpg
-tags: [portrait, illustration, paper by 53, star wars]
+tags: [portrait, illustration, paper by 53, Star Wars]
 ---
 
 PaperFaces portrait of Luke Skywalker and Darth Vader from *Episode V: The Empire Strikes Back*.

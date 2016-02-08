@@ -7,7 +7,7 @@ image:
   feature: minimal-mistakes-theme-feature.jpg
   teaser: minimal-mistakes-theme-teaser.png
   thumb: minimal-mistakes-theme-th.png
-tags: [jekyll, web development, open source, github]
+tags: [Jekyll, web development, open source, GitHub]
 work: "Design &amp; Development"
 comments: true
 featured: true

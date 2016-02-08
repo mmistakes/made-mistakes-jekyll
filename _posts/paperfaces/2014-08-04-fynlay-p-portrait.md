@@ -5,7 +5,7 @@ image:
   feature: paperfaces-fynlay-p-lg.jpg
   teaser: paperfaces-fynlay-p-teaser.jpg
   thumb: paperfaces-fynlay-p-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of Fynlay P. inspired by a photograph on Sktchy.

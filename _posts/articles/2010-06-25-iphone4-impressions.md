@@ -4,7 +4,7 @@ excerpt: "The following are some of my experiences and observations transitionin
 image: 
   thumb: iphone4-impressions-340x340.jpg
   teaser: iphone-4-teaser.jpg
-tags: [iphone, apple, palm pre, review, tech geek]
+tags: [iPhone, Apple, Palm Pre, review, tech geek]
 ---
 
 <figure>

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Kim S. drawn with Paper by 53 on an iPad."
 image: 
   feature: paperfaces-kim-s-lg.jpg
   thumb: paperfaces-kim-s-150.jpg
-tags: [portrait, illustration, paper by 53, sktchy]
+tags: [portrait, illustration, paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of [Kim S.](http://sktchy.com/czir6c) inspired by Sktchy.
