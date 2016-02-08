@@ -9,7 +9,7 @@ layout: compress
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     {% if page.title %}
-      {% assign seo_title = page.title | append: " • " | append: site.title %}
+      {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
     {% endif %}
 
     {% if seo_title %}
@@ -19,7 +19,7 @@ layout: compress
     {% if page.excerpt %}
       {% assign seo_description = page.excerpt %}
     {% elsif page.type == 'tag' %}
-      {% assign seo_description = page.title | prepend: "An archive of "| append: " posts." |  %}
+      {% assign seo_description = page.title | prepend: "An archive of " | append: " posts." | %}
     {% elsif site.description %}
       {% assign seo_description = site.description %}
     {% endif %}
