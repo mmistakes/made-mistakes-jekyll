@@ -79,13 +79,16 @@ From a workflow perspective the basic "write a post in Markdown", run `jekyll bu
 * When everything looks to my liking locally I deploy to Media Temple using rsync. Only files that have changed make the trip which is so much faster than the days of manually FTPing over the entirety of my _site folder.
 * This rsync step is handled through another rake task which notifies Ping-O-Matic, Google, and Bing that my site has updated and to check out the new sitemap.xml and atom.xml feed.
 
-I do a lot of tinkering and adjusting with the visual bits of Made Mistakes. To me it will forever be a "work in progress" where I'm essentially redesigning it in the open. To make development I do locally across Mac OS X and Windows easier I use the following configurations, tools, and Jekyll plugins.
+I do a lot of tinkering and adjusting with the visual bits of Made Mistakes. To me it will forever be a "work in progress" where I'm essentially redesigning it in the open. To make the development across Mac OS X and Windows easier I've settled on the following configurations, tools, and Jekyll plugins.
 
 ### Bundler
 
-The first time I entered the `jekyll build` command I had no idea what I was doing. Installing Ruby, Bundler, and Ruby Gems, were all new to me. A setup that worked one day would break another when I updated the Jekyll gem or tried to work on a Windows machine.
+Installing Ruby, Bundler, and Ruby Gems, were all new to me three years ago. Running `jekyll build` on the same repo on different operating systems was always a crap shoot. A setup that worked one day would most certainly break after updating Jekyll with `gem update jekyll` and running on a Windows machine.
 
-I eventually learned to embrace [Bundler](http://bundler.io/) from the advice of numerous Jekyll's issues on GitHub and Stack Overflow posts. Since I was already using Bundler to install Jekyll it wasn't that hard to run `bundle init` to create an empty `Gemfile` and at the following gems:
+I eventually learned to embrace [Bundler](http://bundler.io/) from the advice of numerous Jekyll's issues on GitHub and Stack Overflow posts. Bundler is used to install Jekyll so it wasn't that big of a leap to start using a `Gemfile` to manage dependencies.
+
+1. Run `bundle init` to create an empty `Gemfile`
+2. Add gems, in my case it's' the following:
 
 {% highlight ruby %}
 source 'https://rubygems.org'
@@ -106,28 +109,28 @@ group :jekyll_plugins do
 end
 {% endhighlight %}
 
-Then by running `bundle install` each of the gems are installed and a `Gemfile.lock` is created listing all of the dependencies. Prepending all Jekyll commands with `bundle exec` ensures only the versions in   `Gemfile.lock` are executed and getting me out of dependency conflict hell.
+Now when running `bundle install` each of the gems specificed above are installed and a `Gemfile.lock` is created listing all of the dependencies. Prepending all Jekyll commands with `bundle exec` ensures only the versions in `Gemfile.lock` are executed helping to solve conflicts.
 
-Committing both of these Gemfiles to my git repository also makes it easy to revert back if a `gem update` goes bad. Sure it's a few more characters to type, but the headaches it solves are more than worth it. And with things like Rakefiles you can even write shortcut tasks to eliminate the extra keystrokes (more on that below).
+Committing both of these Gemfiles to a git repository also makes it easy to revert back if a `gem update` goes bad. Sure it's a few more characters to type, but the headaches it solves are more than worth it. You can even write shortcut tasks with Rakefiles to eliminate the extra keystrokes (more on that below).
 
 ### Environments and Configurations
 
 With the introduction of asset related plugins and various other build steps I eventually settled on creating two Jekyll configuration files. The default `_config.yml` with production settings and `_config.dev.yml` which you guessed it --- contains development specific settings.
 
-The cool thing is you can chain together config files, overriding settings in the previous one. For example when building locally I want {% raw %}`{{ site.url }}`{% endraw %} to default to `http://localhost:4000` instead of `https://mademistakes.com` and I'd rather not use my production Disqus account either. Setting the following in `_config.dev.yml` overrides the values in `_config.yml`:
+The cool thing is you can chain together Jekyll configuration files, overriding settings from the previous. For example when building locally I want {% raw %}`{{ site.url }}`{% endraw %} to default to `http://localhost:4000` instead of `https://mademistakes.com` and use a development Disqus account for testing. Setting the following in values `_config.dev.yml` overrides the ones in `_config.yml`:
 
 {% highlight yaml %}
 url: http://localhost:4000
 disqus-shortname: mmistakes-dev
 {% endhighlight %}
 
-I can then fire up a development server with the relevant settings using...
+A development server can then be fired up with the relevant settings using...
 
 {% highlight bash %}
 bundle exec jekyll serve --config _config.yml,_config.dev.yml
 {% endhighlight %}
 
-Going one step further a Jekyll environment can be specified as well. By default Jekyll runs in development with a value of `JEKYLL_ENV=development`. Right now the only place leveraging environment values are to trigger CSS and JavaScript compression with the following command:
+Going one step further a Jekyll environment can be specified as well. By default Jekyll runs in development with a value of `JEKYLL_ENV=development`. The [`compress.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_layouts/compress.html) `_layout` and [**Jekyll Assets**][assets] plugin both make use of this variable to trigger HTML, CSS, and JavaScript compression with the following command:
 
 {% highlight bash %}
 JEKYLL_ENV=production bundle exec jekyll build
@@ -144,9 +147,17 @@ set JEKYLL_ENV=production
 
 #### Other Configurations
 
-* I don't use --incremental or --watch because my site is much too large and takes a minute or 2 to build. Manually execute `bundle exec jekyll build` or a rake task to update locally and check my changes.
+As mentioned earlier I have a moderately sized Jekyll site at {{ site.posts.size }} posts. Combine that fact with an `/images/` folder that is close to 2 GB, a liberal use of Liquid `for` loops, and generator plugins like [**Jekyll Archives**][archives] --- you get site builds that are far from instant. And in the rare cases when I run `jekyll clean` to flush caches and everything in `/_site/`, builds can take over 15 minutes as the [**Jekyll Picture Tag**][picture-tag] plugin regenerates appropriately sized hero images for all my posts. Yikes!
+
+So as you might have guessed, I sure as hell never start up a server with *auto-regeneration* enabled. Instead I start with `bundle exec jekyll serve --no-watch` and then run a rake task to manually build every time I want to check a change locally.
+
+When working on the site's design it can be cumbersome to sit through a 2 minute build just to check a CSS change. But until `--incremental` works reliably its something I have to suffer through. Its a good thing I do a lot of my 'designing' and tinkering in-browser with [Chrome's DevTools](https://developer.chrome.com/devtools) before editing the actual source.
 
 ### Task Runners
+
+#### Grunt.js
+
+#### Rakefiles
 
 ### Asset Pipeline
 
