@@ -17,7 +17,7 @@ author: false
 
 <noscript>
 <div class="typed__source">
-  <h1 class="glitch__title">Your Pixels are on Another Canvas</h1>
+  <h1 class="glitch__title">Your Pixels are on Another&nbsp;Canvas</h1>
   <div class="glitch__excerpt">
     <p>Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href="{{ site.url }}/sitemap/" title="Made Mistakes sitemap">find it here</a> or by searching below.</p>
   </div>
