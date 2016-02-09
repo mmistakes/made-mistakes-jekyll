@@ -23,7 +23,7 @@
   padding: 2em;
   color: #fff;
   font-family: $monospace;
-  letter-spacing: 1px;
+  transition: opacity 0.3s ease-out;
   animation: blur 0.2s infinite, shift 20s steps(60) infinite;
   @include breakpoint($small) {
     width: 30em;
@@ -62,9 +62,9 @@
   }
 }
 
-// secondary content (menu, links, etc.)
+// menu links
 
-.glitch__secondary {
+.glitch__menu {
   color: #fff;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;

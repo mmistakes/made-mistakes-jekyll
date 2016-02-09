@@ -9,18 +9,20 @@ sitemap: false
 author: false
 ---
 
-<nav class="glitch__secondary">
+<nav class="glitch__menu">
   <ul>
     <li><a href="#0" class="overlay__menu-trigger">Skip to Main Menu</a></li>
   </ul>
 </nav>
 
+<noscript>
 <div class="typed__source">
   <h1 class="glitch__title">Your Pixels are on Another Canvas</h1>
   <div class="glitch__excerpt">
-    <p>Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href="{{ site.url }}/sitemap/" title="Made Mistakes sitemap">find it here</a> or search below.</p>
+    <p>Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href="{{ site.url }}/sitemap/" title="Made Mistakes sitemap">find it here</a> or by searching below.</p>
   </div>
 </div>
+</noscript>
 
 <span id="js-404-typed" class="typed__dest glitch__excerpt"></span>
 

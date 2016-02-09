@@ -55,7 +55,7 @@ $(document).ready(function(){
 
   // 404 page auto typing
   $("#js-404-typed").typed({
-    strings: ["<span class='glitch__title'>Your Pixels are on Another Canvas ^500</span> <span class='br'></span> Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href='https://mademistakes.com/sitemap/' title='Made Mistakes sitemap'>find it here</a> or search below."],
+    strings: ["<span class='glitch__title'>Your Pixels are on Another Canvas ^500</span> <span class='br'></span> Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href='https://mademistakes.com/sitemap/' title='Made Mistakes sitemap'>find it here</a> or by searching below."],
     contentType: "html",
     startDelay: 0,
     backDelay: 3000,
