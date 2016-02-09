@@ -14,7 +14,7 @@ ads: false
 
 <noscript>
 <div class="typed__source">
-  <h1 class="glitch__title">Hello, my name is&nbsp;Michael Rose.</h1>
+  <h1 class="glitch__title">Hello, my name is Michael&nbsp;Rose.</h1>
   <div class="glitch__excerpt">
     <p>I am just another boring, tattooed, time traveling designer from Buffalo New York.</p>
     <p>I enjoy eating chicken wings, <a href="{{ site.url }}/paperfaces/">sketching on an iPad</a>, and playing Xbox.</p>
