@@ -351,7 +351,7 @@
   }
   .tag__item {
     @include clearfix();
-    padding: 2px 0;
+    padding-bottom: 4px;
     overflow: hidden;
     &:before {
       float: left;
