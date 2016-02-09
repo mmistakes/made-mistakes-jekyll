@@ -21,11 +21,13 @@
 
 .glitch__content {
   padding: 2em;
-  max-width: 30em;
   color: #fff;
   font-family: $monospace;
   letter-spacing: 1px;
   animation: blur 0.2s infinite, shift 20s steps(60) infinite;
+  @include breakpoint($small) {
+    width: 30em;
+  }
   &:hover {
     animation-play-state: paused;
   }

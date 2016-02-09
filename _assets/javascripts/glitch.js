@@ -44,9 +44,9 @@ $(document).ready(function(){
 
   // home page auto typing
   $("#js-home-typed").typed({
-    strings: ["<span class='glitch__title'>Hello^250 my name is&nbsp;M̔̋ͩ̚i̋͢c̛ͪ̈́́̄hͪ̄̆́a̢͋͂ͧē̎̌̿ͣl͋ͬ̽͆͌ͧ̿̕. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='https://mademistakes.com/paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='https://mademistakes.com/articles/'>my writing</a>, ^750 <a href='https://mademistakes.com/mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='https://mademistakes.com/work/'>creative endeavors</a>. <span class='br'></span> <span class='glitch__secondary'><a href='#0' class='overlay__menu-trigger'>Main Menu</a> <br> <a href='https://mademistakes.com/about/'>About</a> <br> <a href='https://mademistakes.com/contact/'>Contact</a> <br> <a href='https://mademistakes.com/faqs/'>FAQS</a></span>"],
+    strings: ["<span class='glitch__title'>Hello^250 my name is&nbsp;Mî̽̿ͫ̒c͑̔̃͂h͂̽ͤ̊ͭͣa͛̓̍̓el̓͌̂̀̆ Rͩͤ͂̄o̾̽̈́͆ͨ̚s͋̌̊̐e. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='https://mademistakes.com/paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='https://mademistakes.com/articles/'>my writing</a>, ^750 <a href='https://mademistakes.com/mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='https://mademistakes.com/work/'>creative endeavors</a>."],
     contentType: "html",
-    startDelay: 200,
+    startDelay: 0,
     backDelay: 3000,
     callback: function(){
       glitch_secondary();
@@ -55,9 +55,9 @@ $(document).ready(function(){
 
   // 404 page auto typing
   $("#js-404-typed").typed({
-    strings: ["<span class='glitch__title'>Your Pixels are on Another Canvas ^500</span> <span class='br'></span> Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href='https://mademistakes.com/sitemap/' title='sitemap of Made Mistakes'>find it here</a>. <span class='br'></span> <span class='glitch__secondary'><a href='#0' class='overlay__menu-trigger'>Main Menu</a>"],
+    strings: ["<span class='glitch__title'>Your Pixels are on Another Canvas ^500</span> <span class='br'></span> Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href='https://mademistakes.com/sitemap/' title='Made Mistakes sitemap'>find it here</a> or search below."],
     contentType: "html",
-    startDelay: 200,
+    startDelay: 0,
     backDelay: 3000,
     callback: function(){
       glitch_secondary();
