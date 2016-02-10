@@ -73,12 +73,6 @@ What I'd like to investigate more is adding taxonomies to collections and how th
 
 From a workflow perspective the basic "write a post in Markdown", run `jekyll build`, and push the contents of the `_site` folder to a web server has stayed the same. On the development side of things however, a lot of complexity has been introduced in an effort to optimize and improve web performance of the pages served.
 
-* Manually add images to post using a combination of Markdown and HTML
-* Run a grunt task that optimizes all new graphic assets added to /images/
-* Start up a Jekyll server with --watch disabled and loading a dev friendly _config.yml file to use a dev Disqus account, disables Google Analytics
-* When everything looks to my liking locally I deploy to Media Temple using rsync. Only files that have changed make the trip which is so much faster than the days of manually FTPing over the entirety of my _site folder.
-* This rsync step is handled through another rake task which notifies Ping-O-Matic, Google, and Bing that my site has updated and to check out the new sitemap.xml and atom.xml feed.
-
 I do a lot of tinkering and adjusting with the visual bits of Made Mistakes. To me it will forever be a "work in progress" where I'm essentially redesigning it in the open. To make the development across Mac OS X and Windows easier I've settled on the following configurations, tools, and Jekyll plugins.
 
 ### Bundler
@@ -109,7 +103,7 @@ group :jekyll_plugins do
 end
 {% endhighlight %}
 
-Now when running `bundle install` each of the gems specificed above are installed and a `Gemfile.lock` is created listing all of the dependencies. Prepending all Jekyll commands with `bundle exec` ensures only the versions in `Gemfile.lock` are executed helping to solve conflicts.
+Now when running `bundle install` each of the gems specified above are installed and a `Gemfile.lock` is created listing all of the dependencies. Prepending all Jekyll commands with `bundle exec` ensures only the versions in `Gemfile.lock` are executed helping to solve conflicts.
 
 Committing both of these Gemfiles to a git repository also makes it easy to revert back if a `gem update` goes bad. Sure it's a few more characters to type, but the headaches it solves are more than worth it. You can even write shortcut tasks with Rakefiles to eliminate the extra keystrokes (more on that below).
 
@@ -127,13 +121,13 @@ disqus-shortname: mmistakes-dev
 A development server can then be fired up with the relevant settings using...
 
 {% highlight bash %}
-bundle exec jekyll serve --config _config.yml,_config.dev.yml
+$ bundle exec jekyll serve --config _config.yml,_config.dev.yml
 {% endhighlight %}
 
-Going one step further a Jekyll environment can be specified as well. By default Jekyll runs in development with a value of `JEKYLL_ENV=development`. The [`compress.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_layouts/compress.html) `_layout` and [**Jekyll Assets**][assets] plugin both make use of this variable to trigger HTML, CSS, and JavaScript compression with the following command:
+Going one step further a Jekyll environment can be specified as well. By default Jekyll runs in development with a value of `JEKYLL_ENV=development`. The [`compress.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_layouts/compress.html) `_layout` and [**Jekyll-Assets**][assets] plugin both make use of this variable to trigger HTML, CSS, and JavaScript compression with the following command:
 
 {% highlight bash %}
-JEKYLL_ENV=production bundle exec jekyll build
+$ JEKYLL_ENV=production bundle exec jekyll build
 {% endhighlight %}
 
 <div class="notice--warning" markdown="1">
@@ -142,7 +136,7 @@ For whatever goofy reason `JEKYLL_ENV=production bundle exec jekyll build` doesn
 </div>
 
 {% highlight bash %}
-set JEKYLL_ENV=production
+> set JEKYLL_ENV=production
 {% endhighlight %}
 
 #### Other Configurations
@@ -153,11 +147,122 @@ So as you might have guessed, I sure as hell never start up a server with *auto-
 
 When working on the site's design it can be cumbersome to sit through a 2 minute build just to check a CSS change. But until `--incremental` works reliably its something I have to suffer through. Its a good thing I do a lot of my 'designing' and tinkering in-browser with [Chrome's DevTools](https://developer.chrome.com/devtools) before editing the actual source.
 
-### Task Runners
+### Automation Tools and Shortcuts
 
-#### Grunt.js
+To save time (and my sanity) when working on the site locally, I employee a few tools to perform common dev tasks.
 
-#### Rakefiles
+#### Grunt
+
+[**Grunt**](http://gruntjs.com/) describes itself as "the JavaScript task runner." Grunt has a fairly large set of plugins that can pretty much do any mundane task you need with a bit of configurations.
+
+Prior to Jekyll natively supporting Sass files I used Grunt plugins to pre-process `.less` files, concatenate a set of JavaScript files, and optimize image assets. Now that I'm running Jekyll 3.1 and the Jekyll-Assets plugin I no longer need Grunt to mess with my scripts and stylesheets.
+
+Instead I use Grunt solely for optimizing images and SVGs with the following plugins:
+
+{% highlight js %}
+// Grunt plugins in package.json
+"devDependencies": {
+  "grunt": "~0.4.2",
+  "grunt-newer": "^0.7.0",
+  "grunt-imgcompress": "~0.1.1",
+  "grunt-svgmin": "~0.3.1",
+  "grunt-svgstore": "^0.5.0"
+}
+{% endhighlight %}
+
+When I add new JPEG or PNG assets to the `/images/` folder for use in posts I use the following command to minify them. This reduces their file size which ultimately speeds up page loads.
+
+{% highlight bash %}
+$ grunt images
+{% endhighlight %}
+
+On the SVG side of things any files added to `/_svg/` are optimized and merged into a [single sprite map](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) with the following command:
+
+{% highlight js %}
+$ grunt svg
+{% endhighlight %}
+
+In combination with both of these tasks I use the [**grunt-newer**](https://www.npmjs.com/package/grunt-newer) plugin. This dramatically speeds up things as new and modified files are only processed.
+
+#### Rake
+
+On the build and deployment side of things I have a few shortcut tasks defined in `Rakefile.rb`. As mentioned earlier typing out `bundle exec` before Jekyll commands can get old fast. Instead I use the following:
+
+##### Start up a Jekyll server
+
+{% highlight bash %}
+$ rake serve
+{% endhighlight %}
+
+##### Production Build, Development Build, and Build with Drafts
+
+{% highlight bash %}
+$ rake build
+$ rake build:dev
+$ rake build:drafts
+{% endhighlight %}
+
+##### Deployment
+
+Since I self-host my site I need a way of pushing the contents of the `/_site/` folder after a production build. Years ago I'd use [**Cyberduck**](https://cyberduck.io/) or [**FileZilla**](https://filezilla-project.org/) to transfer everything over slowly to [Media Temple](http://bit.ly/1Ugg7nN) via FTP.
+
+These days I use rsync to speed that transfer way the hell up, by only sending over new and modified files. It's also a task that I can automate with rake by adding the following to my [`Rakefile.rb`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/Rakefile.rb).
+
+{% highlight ruby %}
+# Usage: rake rsync
+desc "rsync the contents of ./_site to the server"
+task :rsync do
+  puts "* rsyncing the contents of ./_site to the server"
+  system "rsync --perms --recursive --verbose --compress --delete --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r _site/ SSHuser@mydomain.com"
+end
+{% endhighlight %}
+
+As part of my deployments I also run tasks that notify Ping-O-Matic, Google, and Bing that the site has updated and to check out the new [`sitemap.xml`]({{ site.url }}/sitemap.xml) and [`atom.xml`]({{ site.url }}/atom.xml) feeds. These tasks look something like this:
+
+{% highlight ruby %}
+# Usage: rake notify
+task :notify => ["notify:pingomatic", "notify:google", "notify:bing"]
+desc "Notify various services that the site has been updated"
+namespace :notify do
+
+  desc "Notify Ping-O-Matic"
+  task :pingomatic do
+    begin
+      require 'xmlrpc/client'
+      puts "* Notifying Ping-O-Matic that the site has updated"
+      XMLRPC::Client.new('rpc.pingomatic.com', '/').call('weblogUpdates.extendedPing', 'mydomain.com' , '//mydomain.com', '//mydomain.com/atom.xml')
+    rescue LoadError
+      puts "! Could not ping ping-o-matic, because XMLRPC::Client could not be found."
+    end
+  end
+
+  desc "Notify Google of updated sitemap"
+  task :google do
+    begin
+      require 'net/http'
+      require 'uri'
+      puts "* Notifying Google that the site has updated"
+      Net::HTTP.get('www.google.com', '/webmasters/tools/ping?sitemap=' + URI.escape('//mydomain.com/sitemap.xml'))
+    rescue LoadError
+      puts "! Could not ping Google about our sitemap, because Net::HTTP or URI could not be found."
+    end
+  end
+
+  desc "Notify Bing of updated sitemap"
+  task :bing do
+    begin
+      require 'net/http'
+      require 'uri'
+      puts '* Notifying Bing that the site has updated'
+      Net::HTTP.get('www.bing.com', '/webmaster/ping.aspx?siteMap=' + URI.escape('//mydomain.com/sitemap.xml'))
+    rescue LoadError
+      puts "! Could not ping Bing about our sitemap, because Net::HTTP or URI could not be found."
+    end
+  end
+end
+{% endhighlight %}
+
+And with a simple `rake deploy` I can build a production ready version of the site, rsync everything over to my web host, and notify search engines there's new content to crawl.
 
 ### Asset Pipeline
 
@@ -165,7 +270,7 @@ Originally I wrote my stylesheets in [Less](http://lesscss.org/)[^less], compili
 
 [^less]: Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions to make it more maintainable.
 
-Taking things one step further I incorporated the [**Jekyll Assets**][assets] plugin to add an asset pipeline using Sprockets 3. It's a powerful plugin with an assortment of tags that makes cache busting and inlining assets (something I'll get to in a minute) a lot easier.
+Taking things one step further I incorporated the [**Jekyll-Assets**][assets] plugin to add an asset pipeline using Sprockets 3. It's a powerful plugin with an assortment of tags that makes cache busting and inlining assets (something I'll get to in a minute) a lot easier.
 
 It also supports [Autoprefixer](https://github.com/postcss/autoprefixer) which is nice for automatically adding vendor prefixes (or ripping them out) to CSS rules. I can write style declarations like this in my SCSS partials:
 
@@ -214,9 +319,31 @@ assets:
 
 ### Critical Path CSS
 
-To combat page load drags I've gone one step further and inlined the critical amount of CSS needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my SASS partials in a way that the important visual stuff comes first. This way I can create a critical.css and non-critical.css by just @import-ing the bits needed for each. Then using a jekyll-assets tag I output the contents of critical.css into the <head></head> of ever page which dramatically improves the speed at which pages load.
+To speed up page loads I've gone to the trouble of [inlining the critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my SASS partials in a way that the important visual stuff comes first. This way I can create a [`critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/critical.css.scss) and [`non-critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/non-critical.css.scss) by just `@import`-ing the bits needed for each. Then using a Jekyll-Assets[^assets-tag-example] tag I output the contents of `critical.css` into the `<head>` of ever page.
 
-The same method can be used with a standard Jekyll _include and some Liquid filters to inline the stylesheet. Great for those of you who host with GitHub Pages and can't utilize Jekyll plugins that haven't been white listed.
+[^assets-tag-example]: Output the source of an asset using `asset_source` Jekyll-Assets tag. Example: {% raw %}{% asset_source critical.css %}{% endraw %}
+
+<figure class="half">
+  <img src="{{ site.url }}/images/" alt="speed index before">
+  <img src="{{ site.url }}/images/" alt="speed index after">
+  <figcaption>Page speed index measured with WebPagetest before and after inlining critical CSS.</figcaption>
+</figure>
+
+<div class="notice--info" markdown="1">
+#### ProTip: Plugin-Free Inlined Critical CSS
+The same method can be achieved by placing your SCSS stylesheet inside the `/_includes/` folder and applying the `scssify` filter. Fully compatible with GitHub Pages without the use of a plugin.
+</div>
+
+{% highlight liquid %}
+<head>
+  <style type="text/css">
+    {% raw %}{% capture criticalcss %}
+      {% include critical.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}{% endraw %}
+  </style>
+</head>
+{% endhighlight %}
 
 #### Responsive Images Revisited
 
