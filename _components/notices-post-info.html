@@ -9,3 +9,13 @@ usage: "Emphasize post text. Used predominately for ProTips."
   <h4>Info Notice Headline</h4>
   <p>Donec sed tellus eget <a href="#">sapien fringilla nonummy</a>. Mauris a ante. Suspendisse quam sem, consequat at.</p>
 </div>
+
+{% capture protip_critical_css %}
+#### ProTip: Markdown Capture
+
+Use a Liquid capture tag to assign a string of text to a variable and then insert anywhere you need. Just remember to apply the `markdownify` filter.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ protip_critical_css | markdownify }}
+</div>
