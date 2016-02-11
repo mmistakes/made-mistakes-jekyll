@@ -130,9 +130,14 @@ Going one step further a Jekyll environment can be specified as well. By default
 $ JEKYLL_ENV=production bundle exec jekyll build
 {% endhighlight %}
 
-<div class="notice--warning" markdown="1">
+{% capture info_windows_env %}
 #### Windows Environment Gotcha
+
 For whatever goofy reason `JEKYLL_ENV=production bundle exec jekyll build` doesn't work on Windows. Instead you have to use the [`SET`](http://ss64.com/nt/set.html) command to assign environment variables.
+{% endcapture %}
+
+<div class="notice--warning">
+  {{ info_windows_env | markdownify }}
 </div>
 
 {% highlight bash %}
@@ -309,7 +314,6 @@ For this site I target the last 2 versions of each major browser, browsers that 
 
 {% highlight yaml %}
 # _config.yml
-
 assets:
   autoprefixer:
     browsers: ["last 2 versions","> 5%","IE 9"]
@@ -319,19 +323,27 @@ assets:
 
 ### Critical Path CSS
 
-To speed up page loads I've gone to the trouble of [inlining the critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my SASS partials in a way that the important visual stuff comes first. This way I can create a [`critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/critical.css.scss) and [`non-critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/non-critical.css.scss) by just `@import`-ing the bits needed for each. Then using a Jekyll-Assets[^assets-tag-example] tag I output the contents of `critical.css` into the `<head>` of ever page.
+To speed up page loads I've gone to the trouble of [inlining the critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my SASS partials in a way that the important visual stuff comes first. This way I can create [`critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/critical.css.scss) and [`non-critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/non-critical.css.scss) files by `@import`-ing the bits needed for each. Then using a Jekyll-Assets[^assets-tag-example] tag I output the contents of `critical.css` into the `<head>` of ever page.
 
 [^assets-tag-example]: Output the source of an asset using `asset_source` Jekyll-Assets tag. Example: {% raw %}{% asset_source critical.css %}{% endraw %}
 
-<figure class="half">
-  <img src="{{ site.url }}/images/" alt="speed index before">
-  <img src="{{ site.url }}/images/" alt="speed index after">
-  <figcaption>Page speed index measured with WebPagetest before and after inlining critical CSS.</figcaption>
+{% capture pagespeed_caption %}
+Page speed analyzed with [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool.
+{% endcapture %}
+
+<figure>
+  <img src="{{ site.url }}/images/mm-home-pagespeed-021116.jpg" alt="Made Mistakes analyzed with PageSpeed Insights">
+  <figcaption>{{ pagespeed_caption | markdownify }}</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% capture protip_critical_css %}
 #### ProTip: Plugin-Free Inlined Critical CSS
+
 The same method can be achieved by placing your SCSS stylesheet inside the `/_includes/` folder and applying the `scssify` filter. Fully compatible with GitHub Pages without the use of a plugin.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ protip_critical_css | markdownify }}
 </div>
 
 {% highlight liquid %}
@@ -347,19 +359,82 @@ The same method can be achieved by placing your SCSS stylesheet inside the `/_in
 
 #### Responsive Images Revisited
 
-Responsive images is a nut I've been trying to crack with my Jekyll setup since day one. My dream is to have something like what the newest version of Wordpress does by automatically taking an image, generating all of the necessary sizes specified by the theme being used, and outputting the appropriate <img srcset> markup in the HTML. Doing this for every image on my site just isn't feasible yet since it would require me touching every one of my 1,000+ posts. As a test instead I went with the Jekyll Picture Tag plugin and pipe through the hero images found on many of my pages.
+Inlining the above the fold CSS and lazy loading the rest wasn't the only web performance improvement I've made. The biggest hurdle I've come across working with Jekyll is image management. Since Jekyll isn't a CMS and I have a bazillion images across pages, finding a solution to tackle [responsive images](http://alistapart.com/article/responsive-images-in-practice) has been challenging.
 
-Workflow goes something like this. Place a high resolution image in /images/_originals/ add the filename to YAML Front Matter and build the site. The plugin takes the original image and generates the various other sizes as specified in my _config.yml and places them in /images/. By default the plugin hashes the filenames, but I took that out since it was getting hard to manage between Mac OS X and Windows environments (each created their own hashed version of the file even when visually the same).
+It's a nut [I've been trying to crack]({{ site.url }}{% post_url 2012-03-19-going-static %}#responsive-images) with my Jekyll setup since day one. My [responsive images dream scenario](https://github.com/jekyll/jekyll-assets/issues/172) would go something like this:
 
-Right now this plugin only supports the <picture> element which is great for art directed responsive images, but since I'm not doing that it is bit overkill. Having the option to use <img srcset> instead would be preferred, but since I'm not a Rubyist making that change to the plugin is out of my hands until someone else tackles it.
+1. Link to an image in a post/page with Markdown (e.g. `![image](image-name.jpg)`).
+2. Several sizes (specified in `_config.yml`) of said image would then be automatically created.
+3. Image would include the correct `srcset` and `sizes` markup in the `<img>` element to serve it responsively and save on bandwidth.
 
-The bump in page speed has been create and my score in Google Page Speed Insights has gone up considerably since I'm not loading the same huge image for every screen size.
+To my knowledge a Jekyll plugin doesn't currently exist to do this, though there are some that are close like [Jekyll-Picture-Tag][picture-tag]. You have to use a tag like {% raw %}`{% picture image.jpg %}`{% endraw %} instead of Markdown but the other dream features are there (auto sized images and presets).
 
-The drawback to this plugin is build time. If I don't instruct Jekyll to keep_files: ["images"] then every time I `jekyll build` the featured images used in over 1,000 posts will go through the process of being resized and spit out into 4 smaller files. This can take a long time and even longer to upload to my web server (another reason I stopped using MD5 hashed filenames).
+As a first step I focused in on the large hero images and decided to worry about the other images later. Replacing Markdown images with {% raw %}`{% picture %}`{% endraw %} tags over 1,000+ posts just isn't feasible yet. Since the hero images are `_layout` driven they proved easier to implement.
 
-### Focus on Content
+All it took was changing {% raw %}`<img src="{{ page.image.feature }}" alt="{{ page.title }}">`{% endraw %} to {% raw %}`{% picture hero {{ page.image.feature }} alt="{{ page.title }}" %}`{% endraw %} and settling on this configuration.
 
-Surfacing content in posts using Jekyll Related Posts plugin and Featured Posts. The first likely adds some compilation time to the build process (test it to make sure) while the later is a nice way to manually call attention to "top/popular" posts. They `_include` I use to build them is flexible enough that I can add the module to posts or pages by adding some YAML Front Matter.
+{% highlight yaml %}
+picture:
+  source: "images/_originals"
+  output: "images"
+  markup: "picture"
+  presets:
+    hero:
+      attr:
+        class: "page__hero-image"
+        itemprop: "image"
+      ppi: [1]
+      source_1600:
+        media: "(min-width: 1600px)"
+        width: "1600"
+      source_1024:
+        media: "(min-width: 1024px)"
+        width: "1024"
+      source_768:
+        media: "(min-width: 768px)"
+        width: "768"
+      source_600:
+        media: "(min-width: 600px)"
+        width: "600"
+      source_default:
+        width: "320"
+{% endhighlight %}
+
+Now when I place a high resolution image in `/images/_originals/` and add `feature: image.jpg` to the YAML Front Matter I get this markup after a build:
+
+{% highlight html %}
+<picture>
+  <source srcset="image.jpg" media="(min-width: 1600px)">
+  <source srcset="image.jpg" media="(min-width: 1024px)">
+  <source srcset="image.jpg" media="(min-width: 768px)">
+  <source srcset="image.jpg" media="(min-width: 600px)">
+  <source srcset="image.jpg">
+  <img src="image.jpg" class="page__hero-image" itemprop="image" alt="">
+</picture>
+{% endhighlight %}
+
+By default the plugin hashes the filenames, but [I disabled that](https://github.com/mmistakes/made-mistakes-jekyll/commit/39fcf74b99d5fd6988eaff332ce90208c57ed840) since it was getting hard to manage between Mac OS X and Windows environments (each created their own hashed version of the file even when visually the same).
+
+Right now this plugin only supports the `<picture>` element which is great for art directed responsive images, but since I'm not doing that it is bit overkill and needs a polyfill[^picture-polyfill]. Having the option to use `srcset` instead would be preferred, but since I'm not a Rubyist making that change is out of my hands until [someone else tackles it](https://github.com/robwierzbowski/jekyll-picture-tag/issues/68).
+
+[^picture-polyfill]: [Picturefill](https://scottjehl.github.io/picturefill/) is responsive images polyfill that enables support for the picture element and associated features in browsers that do not yet support them.
+
+{% capture pagespeed_media_caption %}
+The bump in page speed has been great with a mobile score of `73/100` improving to `96/100`.
+{% endcapture %}
+
+<figure>
+  <img src="{{ site.url }}/images/mm-media-pagespeed-021116.jpg" alt="Page speed before and after using Jekyll-Picture-Tag plugin">
+  <figcaption>{{ pagespeed_media_caption | markdownify }}</figcaption>
+</figure>
+
+The one big drawback I've experienced using this plugin has been the increased build times. If I don't instruct Jekyll to `keep_files: ["images"]` then every time I run Jekyll the featured images used in over 1,000 posts will go through the process of being resized and spit out into 4 smaller files. This can take a really long time and even longer to upload to my web server if names changed (another reason I disabled MD5 hashed filenames).
+
+### A Focus on Content
+
+Content is still at the heart of the layouts I designed years ago with hero images and text taking center stage. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*), comments, and social sharing links that are useful but not distracting.
+
+I've tried to Surfacing content in posts using Jekyll Related Posts plugin and Featured Posts. The first likely adds some compilation time to the build process (test it to make sure) while the later is a nice way to manually call attention to "top/popular" posts. They `_include` I use to build them is flexible enough that I can add the module to posts or pages by adding some YAML Front Matter.
 
 ## Introduced Flexibility
 
@@ -378,3 +453,4 @@ Going a step further I use a _data file to generate alternate titles for pages a
 [picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
 
 *[SCSS]: Sassy CSS
+*[CMS]: Content Management System
