@@ -6,7 +6,7 @@ logo: site-logo.png
 teaser: default-teaser.png
 locale: en_US
 words_per_minute: 200
-title_separator: ×
+title_separator: "×"
 url: https://mademistakes.com
 
 
@@ -44,7 +44,7 @@ permalink: /:categories/:title/
 lsi: true
 markdown: kramdown
 kramdown:
-  toc_levels: 1..2
+  toc_levels: 1..3
 highlighter: rouge
 keep_files: [images]
 include:
