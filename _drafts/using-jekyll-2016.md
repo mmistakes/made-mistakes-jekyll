@@ -49,7 +49,7 @@ For now the best I can do is use the new **Liquid Profiler**[^profiler] to ident
 
 [^profiler]: add `--profile` to a build or serve
 
-### Posts, Meet Collections
+### Posts Become Collections
 
 When [collections](http://jekyllrb.com/docs/collections/) were introduced way back in v2.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site. I could have easily done this as a set of static pages, but collections being more powerful seemed a better fit.
 
