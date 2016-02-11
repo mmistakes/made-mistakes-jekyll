@@ -50,6 +50,15 @@ del a {
   color: inherit;
 }
 
+/* Abbreviations */
+
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: none;
+  cursor: help;
+  border-bottom: 1px dotted $text-color;
+}
+
 /* Blockquotes */
 
 blockquote {
