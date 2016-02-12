@@ -183,7 +183,7 @@ $ grunt images
 
 On the SVG side of things any files added to `/_svg/` are optimized and merged into a [single sprite map](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) with the following command:
 
-{% highlight js %}
+{% highlight bash %}
 $ grunt svg
 {% endhighlight %}
 
@@ -333,7 +333,7 @@ Page speed analyzed with [Google's PageSpeed Insights](https://developers.google
 
 <figure>
   <img src="{{ site.url }}/images/mm-home-pagespeed-021116.jpg" alt="Made Mistakes analyzed with PageSpeed Insights">
-  <figcaption>{{ pagespeed_caption | markdownify }}</figcaption>
+  <figcaption>{{ pagespeed_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
 
 {% capture protip_critical_css %}
@@ -425,16 +425,127 @@ The bump in page speed has been great with a mobile score of `73/100` improving 
 
 <figure>
   <img src="{{ site.url }}/images/mm-media-pagespeed-021116.jpg" alt="Page speed before and after using Jekyll-Picture-Tag plugin">
-  <figcaption>{{ pagespeed_media_caption | markdownify }}</figcaption>
+  <figcaption>{{ pagespeed_media_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
 
 The one big drawback I've experienced using this plugin has been the increased build times. If I don't instruct Jekyll to `keep_files: ["images"]` then every time I run Jekyll the featured images used in over 1,000 posts will go through the process of being resized and spit out into 4 smaller files. This can take a really long time and even longer to upload to my web server if names changed (another reason I disabled MD5 hashed filenames).
 
 ### A Focus on Content
 
-Content is still at the heart of the layouts I designed years ago with hero images and text taking center stage. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*), comments, and social sharing links that are useful but not distracting.
+Showcasing a post or page's content is still the primary job of the layouts I designed years ago. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*, *tag archives*), reader submitted comments, related posts, and social sharing links in a complimenting way.
 
-I've tried to Surfacing content in posts using Jekyll Related Posts plugin and Featured Posts. The first likely adds some compilation time to the build process (test it to make sure) while the later is a nice way to manually call attention to "top/popular" posts. They `_include` I use to build them is flexible enough that I can add the module to posts or pages by adding some YAML Front Matter.
+The core elements have remained unchanged since I originally launched the site:
+
+1. A neutral design to avoid competing with page content (text and image).
+2. Well defined site structure, way points, and taxonomies to encourage browsing additional pages.
+3. Readable typography to help showcase long form articles and tutorials.
+
+Building everything from scratch has really given me the chance to focus in on all of those things. And avoid the trap of adding useless widgets and *other cruft* just because its trivial to install --- I'm looking at you Wordpress plugin junkies. 
+
+Finding ways to surface related content in an attractive way has been a challenge for me. I wanted to take the simple bullet list of posts most Jekyll user's start out with and make it more visual since no one is going to sift through a bunch of boring text.
+
+#### Listing Posts
+
+Both of these types of content modules have gone through various incarnations over the years. I went from plain text lists, to thumbnail images, to listings with a short excerpt, to something that combined them all.
+
+<figure class="half">
+  <img src="{{ site.url }}/images/mm-text-teasers.png" alt="plain text post list">
+  <img src="{{ site.url }}/images/mm-visual-teasers.png" alt="visual post list">
+  <figcaption>Title/excerpt versus image/date/title/excerpt post lists.</figcaption>
+</figure>
+
+What I've settled on is a tile based design for the related/featured post module and a more traditional list design for the archives.
+
+Related posts are dynamically determined with `site.related_posts` and augmented with a [Jekyll plugin][related-posts] for tag based matches. The following tile logic is placed in an `_include` file and ready to be used in layouts or anywhere else.
+
+{% highlight html %}
+{% raw %}
+<!-- /_includes/related.html -->
+<h3 class="tile__header">You May Also Enjoy</h3>
+<div class="tiles">
+  {% for post in site.related_posts limit:3 %}
+    <article class="tile__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="text" content="{{ post.excerpt | strip_html }}">
+      <a href="{{ post.url }}">
+        <img src="{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" itemprop="image" alt="{{ post.title }}">
+        <h3 class="tile__title" itemprop="headline">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+      </a>
+      {% if post.categories %}
+        {% assign category_slug = post.categories | first %}
+        {% assign category = site.data.slugs[category_slug] %}
+        <a href="/{{ post.categories | first }}/" class="tile__category">{{ category.name }}</a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+{% endraw %}
+{% endhighlight %}
+
+{% capture related_posts_caption %}
+Related posts only appear if there are three or more matches based on `post.tags`.
+{% endcapture %}
+
+<figure>
+  <img src="{{ site.url }}/images/mm-related-posts-example.jpg" alt="related posts example screenshot">
+  <figcaption>{{ related_posts_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
+
+Similar in design to **related posts**, I also utilize a set of tiles for featuring posts. Visually they look the same but instead of being dynamically determined by `post.tags` they're grouped by category and a sprinkling of YAML.
+
+##### Adding Featured Posts
+
+The first step is to flag a featured post. To do this I add `featured: true` to its YAML Front Matter.
+
+Next I create an variation of the related posts `_include` from earlier but with some additional Liquid conditionals to control headlines and other variable data.
+
+{% highlight html %}
+{% raw %}
+<!-- /_includes/featured.html -->
+<h3 class="tile__header">{% if page.feature.headline %}{{ page.feature.headline }}{% else %}Featured Posts{% endif %}</h3>
+  <div class="tiles">
+    {% assign features = site.categories[page.feature.category] | where:"featured", true %}
+    {% for post in features limit:3 %}
+      <article class="tile__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="text" content="{{ post.excerpt | strip_html }}">
+        <a href="{{ post.url }}">
+          <img src="{% if post.image.teaser %}{{ post.image.teaser }}{% else %}{{ site.teaser }}{% endif %}" itemprop="image" alt="{{ post.title }}">
+          <h3 class="tile__title" itemprop="headline">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+          {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+          <span class="tile__item-time">{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
+        </a>
+        {% if post.work %}
+          <span class="tile__category">{{ post.work }}</span>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+{% endraw %}
+{% endhighlight %}
+
+To display on a page the following YAML Front Matter is added to customize the headline and assign a `site.categories` category to pull features from.
+
+{% highlight yaml %}
+feature:
+  visible: true
+  headline: "Featured Tutorials"
+  category: mastering-paper
+{% endhighlight %}
+
+In combination with this Liquid in the relevant `_layouts` to pull everything together:
+
+{% highlight html %}
+{% raw %}
+<!-- add to relevant _layouts -->
+{% if page.feature.visible == true %}
+  {% include featured.html %}
+{% endif %}
+{% endraw %}
+{% endhighlight %}
+
+<figure>
+  <img src="{{ site.url }}/images/mm-featured-posts-example.jpg" alt="featured posts module example">
+  <figcaption>How featured posts look when included on a page.</figcaption>
+</figure>
 
 ## Introduced Flexibility
 
