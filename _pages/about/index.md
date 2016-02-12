@@ -31,7 +31,7 @@ My tattoos are a mess of line and words. Don't ask me to explain them --- becaus
 {% endcapture %}
 <figure>
 <img src="{{ site.url }}/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
-<figcaption>{{ tattoos_caption | markdownify }}</figcaption>
+<figcaption>{{ tattoos_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
 
 ## Contact
