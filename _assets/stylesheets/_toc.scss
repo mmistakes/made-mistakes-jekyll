@@ -24,7 +24,7 @@
       padding: 5px 0;
       font-weight: normal;
       &:before {
-        content: "→";
+        content: "\2192";
         width: 20px;
       }
       &:not(:last-child) {
