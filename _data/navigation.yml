@@ -48,6 +48,8 @@ primary:
     url: /paperfaces/
   - title: "Procreate Paintings"
     url: /procreate-paintings/
+  - title: "Tiny Paintings"
+    url: /tiny-paintings/
 
 
 # Secondary site navigation links (overlay)
