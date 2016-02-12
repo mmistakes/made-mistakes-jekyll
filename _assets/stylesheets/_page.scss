@@ -12,7 +12,7 @@
 
 .page__hero {
   position: relative;
-  margin: 1em -1rem;
+  margin: 2em -1rem;
   @include breakpoint($small) {
     margin-left: 0;
     marign-right: 0;
@@ -89,6 +89,7 @@
 
   /* introductory paragraph */
   > p:first-child {
+    margin-top: 0;
     font-size: 1.25rem;
   }
 
@@ -167,10 +168,11 @@
 .post__header {
   display: flex;
   flex-direction: column;
+  margin-top: 2em;
 }
 
 .post__title {
-  margin-bottom: 0;
+  margin: 0;
   font-family: $serif;
   font-size: 1.953rem;
   font-weight: normal;
@@ -200,7 +202,7 @@
   margin-top: 2em;
   padding-top: 1em;
   order: 2;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid $text-color;
   @include breakpoint($large) {
     display: flex;
     justify-content: space-between;
@@ -295,7 +297,7 @@
 .post__comments {
   padding-top: 1em;
   order: 3;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid $text-color;
 }
 
 
@@ -372,7 +374,6 @@
   width: 100%;
   @include breakpoint($medium-wide) {
     margin-left: 80px;
-    margin-top: 1em;
     width: 160px;
   }
   @media (min-width: 1025px) {

@@ -13,10 +13,11 @@
 @mixin notice($notice-color) {
   padding: 1em;
   background-color: mix(#fff, $notice-color, 95%);
-  border-left: 0.25em solid mix(#fff, $notice-color, 50%);
+  border-top: 0.25em solid mix(#fff, $notice-color, 50%);
+  border-bottom: 0.125em solid mix(#fff, $notice-color, 50%);
   h4 {
     margin-top: 0 !important; // override
-    margin-bottom: 0.25em;
+    margin-bottom: 0.75em;
     font-family: $sans-serif;
     line-height: 1 !important; // override
   }

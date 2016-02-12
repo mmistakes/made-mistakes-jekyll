@@ -4,9 +4,9 @@
 
 .breadcrumbs {
   display: none;
+  color: $gray;
   @include breakpoint($small) {
     display: block;
-    margin: 20px 0 0;
     font-family: $sans-serif;
     font-size: 0.64rem;
     text-transform: uppercase;
@@ -15,7 +15,7 @@
 
 .breadcrumb__item {
   display: inline-block;
-  color: $text-color;
+  color: $gray;
   text-decoration: none;
   &:hover {
     text-decoration: underline;

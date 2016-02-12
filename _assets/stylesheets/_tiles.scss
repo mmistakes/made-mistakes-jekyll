@@ -3,7 +3,6 @@
    ========================================================================== */
 
 .tile__header {
-  margin-top: 3em;
   font-family: $sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -17,8 +16,8 @@
     top: calc(0.4rem - 1px);
     height: 4px;
     flex-grow: 1;
-    border-top: 1px solid $light-gray;
-    border-bottom: 1px solid $light-gray;
+    border-top: 1px solid $text-color;
+    border-bottom: 1px solid $text-color;
   }
   &:after {
     margin-left: 10px;
@@ -29,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-bottom: 4px double $light-gray;
+  border-bottom: 4px double $text-color;
   @media (min-width: $small) {
     flex-direction: row;
     flex-wrap: wrap;

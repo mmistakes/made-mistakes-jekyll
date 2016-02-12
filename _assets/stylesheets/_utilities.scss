@@ -89,7 +89,11 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .skip-link {
+  position: fixed;
+  z-index: 20;
   margin: 0;
+  font-family: $sans-serif;
+  white-space: nowrap;
 }
 
 .skip-link li {

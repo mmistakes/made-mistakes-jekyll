@@ -3,59 +3,28 @@
    ========================================================================== */
 
 .toc {
-  margin-top: 0.375em;
   margin-bottom: 2em;
   padding: 0 1em 1em;
-  border: 4px solid $light-gray;
-  border-radius: $border-radius;
+  border-top: 8px solid #000;
 }
 
 .toc__title {
-  margin-top: -0.9375rem;
-  margin-bottom: 0.5em;
+  margin: 1em 0;
   font-size: 1.25rem;
-  span {
-    position: relative;
-    display: inline-block;
-    line-height: 1.25rem;
-    background: $lighter-gray;
-    &:before,
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      height: 1.25rem;
-      width: 0.5rem;
-      background-color: $lighter-gray;
-    }
-    &:before {
-      left: -0.5rem;
-    }
-    &:after {
-      right: -0.5rem;
-    }
-  }
-}
-
-/* spacing adjustment for multiple toc lists in same container */
-.toc__menu + .toc__title {
-  margin-top: 0.5em;
+  color: #000;
+  text-transform: uppercase;
 }
 
 .toc__menu {
-  margin-bottom: 0;
   padding-left: 0;
   font-size: 0.8rem;
   ul {
     @include clearfix();
     > li {
-      counter-increment: level-2;
-      margin-left: 20px;
       padding: 5px 0;
       font-weight: normal;
       &:before {
-        content: counter(level-1) "." counter(level-2) ".";
+        content: "→";
         width: 20px;
       }
       &:not(:last-child) {
@@ -84,13 +53,7 @@
     }
   }
   > li {
-    counter-increment: level-1;
     padding: 5px 0;
-    &:not(:last-child) {
-      border-bottom: 2px solid $light-gray;
-    }
-    &:before {
-      content: counter(level-1) ".";
-    }
+    border-top: 2px solid $light-gray;
   }
 }
