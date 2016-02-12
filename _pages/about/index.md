@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About Michael Rose"
 date: 2014-06-01
-modified: 2016-01-08
+modified: 2016-02-11
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   feature: about-michael-collage.jpg
@@ -16,7 +16,7 @@ Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling desig
 
 {% include toc.html %}
 
-When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content admin for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
+When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content administrator for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
 
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls]({{ site.url }}/tag/twins/) who just hit the toddler phase and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
@@ -24,6 +24,14 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
   <a href="{{ site.url }}{% post_url 2014-05-19-mmistakes-2-portrait %}"><img src="{{ site.url }}/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>
   <a href="{{ site.url }}{% post_url 2014-08-03-rosebuds-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
   <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
+</figure>
+
+{% capture tattoos_caption %}
+My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't.
+{% endcapture %}
+<figure>
+<img src="{{ site.url }}/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
+<figcaption>{{ tattoos_caption | markdownify }}</figcaption>
 </figure>
 
 ## Contact
@@ -47,7 +55,6 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 1. Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds]({{ site.url }}/support/#subscribe-to-the-feeds).
 2. Buy anything at Amazon using [this link](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission[^affiliate]. 
 3. Send a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4) or [Square Cash](https://cash.me/$mmistakes).
-{:.fl}
 
 [^affiliate]: Anything I link to on Amazon may be done with [affiliate URLs]({{ site.url }}/terms/).
 
@@ -55,10 +62,10 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 * [**The Story of PaperFaces**](http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
 * [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
-{:.fl}
 
 ## Honorable Mentions
 
 * [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 * [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
-{:.fl}
+
+*[CMS]: Content Management System
