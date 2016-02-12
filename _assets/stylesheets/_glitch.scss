@@ -2,9 +2,15 @@
    GLITCH PAGE
    ========================================================================== */
 
+// compensate for missing masthead
+
+body {
+  padding-top: 0 !important;
+}
 .overlay__menu {
   padding-top: 0;
 }
+
 
 .glitch__wrapper {
   display: flex;
