@@ -14,10 +14,10 @@
   position: relative;
   margin: 2em -1rem;
   @include breakpoint($small) {
-    margin-left: 0;
-    marign-right: 0;
+    margin-left: -2rem;
+    margin-right: -2rem;
   }
-  @include breakpoint($x-large) {
+  @include breakpoint($medium) {
     margin-left: -3rem;
     margin-right: -3rem;
   }
@@ -25,7 +25,7 @@
 
 .page__hero-image {
   width: 100%;
-  @include breakpoint($small) {
+  @include breakpoint(1025px) {
     border-radius: $border-radius;
   }
 }
