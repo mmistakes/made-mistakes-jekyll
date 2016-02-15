@@ -5,8 +5,8 @@ excerpt:
 categories: articles
 tags: [Jekyll, web development, style guide, GitHub, open source]
 image:
-  feature:
-  teaser:
+  feature: using-jekyll-2016-feature.jpg
+  teaser: using-jekyll-2016-teaser.jpg
 comments: true
 featured:
 modified:
@@ -533,9 +533,8 @@ feature:
 
 In combination with this Liquid in the relevant `_layouts` to pull everything together:
 
-{% highlight html %}
+{% highlight liquid %}
 {% raw %}
-<!-- add to relevant _layouts -->
 {% if page.feature.visible == true %}
   {% include featured.html %}
 {% endif %}
