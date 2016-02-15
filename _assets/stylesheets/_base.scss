@@ -94,6 +94,16 @@ a {
   }
 }
 
+/* Lists */
+
+ol, ul {
+  @include breakpoint($small) {
+    padding-left: 0;
+    ol, ul {
+      padding: 0.5em 1em;
+    }
+  }
+}
 
 /* Code */
 
