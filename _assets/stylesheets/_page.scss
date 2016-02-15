@@ -25,7 +25,7 @@
 
 .page__hero-image {
   width: 100%;
-  @include breakpoint(1025px) {
+  @include breakpoint(1215px) {
     border-radius: $border-radius;
   }
 }
