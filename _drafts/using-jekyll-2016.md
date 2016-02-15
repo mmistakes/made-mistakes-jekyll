@@ -546,15 +546,225 @@ In combination with this Liquid in the relevant `_layouts` to pull everything to
   <figcaption>How featured posts look when included on a page.</figcaption>
 </figure>
 
-## Introduced Flexibility
+## Introducing Flexibility
+
+My configuration files used to be a dumping ground for all kinds of site, navigation, and author data. This always felt messy to me and when support for data files was added I immediately took advantage of it in my Jekyll themes and personal site.
 
 ### Data Files
 
-`_data` files have been another area of benefit for the site. Now I can build more dynamic navigations for the site that can be easily updated and modified from a single file instead of hard coding links in `_layouts` and `_includes`. Previously I did something similar by setting some variables in my _config.yml but that always felt messy to me.
+So what exactly are [data files](http://jekyllrb.com/docs/datafiles/)? I like to think them of custom variables that Liquid can play with in all the ways you'd expect --- `for` loops, `capture`s, filters, you name it. Data files can be YAML, JSON, or CSV, are placed in `/_data/`, and are accessible with `site.data.<filename>`[^data-file].
 
-For navigation I have 3 sets: home page main, home page secondary, site masthead, site overlay menu, and footer. Each has a title and url. Then using a few lines of Liquid I'm able to loop through the array and in the case of the masthead do some logic to apply an `.active` class if it matches the current page.
+[^data-file]: **Example:** Data file `/_data/foo.yml` is accessible via `site.data.foo`.
 
-Going a step further I use a _data file to generate alternate titles for pages as used in the site's breadcrumb navigation. By determining the page.url I match that to key set in `slugs.yml` and then output the alternative title which is often a longer string or has title case capitalization which would have been tricky to do.
+#### Easily Editable Navigation Menus
+
+Before discovering data files I was hard-coding nav links directly into my layouts or junking up `_config.yml` with them. It was with my first set of Jekyll themes that I begun to see the benefit of pulling this data out into their own little world.
+
+In an effort to build a DRY navigation menu for this site I created [`/_data/navigation.yml`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_data/navigation.yml) and added the following four links:
+
+{% highlight yaml %}
+# Masthead navigation links
+
+masthead:
+  - title: "About"
+    url: /about/
+  - title: "Work"
+    url: /work/
+  - title: "Blog"
+    url: /articles/
+  - title: "Mastering Paper"
+    url: /mastering-paper/
+{% endhighlight %}
+
+As you can guess, `title` corresponds to the page title and `url`... well the URL. With these values I can loop over the `home-primary` key and auto-generate list elements with the appropriate titles and links from this one file.
+
+{% highlight html %}
+<!-- excerpt from /_includes/masthead.html -->
+<header class="masthead">
+  <div class="container">
+    <a class="masthead__title" href="{{ site.url }}/">{{ site.title }}</a>
+    <nav id="nav-primary" class="masthead__menu-wrapper">
+      <ul class="masthead__menu">
+        <li><a href="{{ site.url }}" class="masthead__menu-item">← Home</a></li>
+        {% raw %}{% for link in site.data.navigation.masthead %}
+          <li><a href="{{ site.url }}{{ link.url }}" class="masthead__menu-item">{{ link.title }}</a></li>
+        {% endfor %}{% endraw %}
+        <li><a href="#0" class="overlay__menu-trigger masthead__menu-item" aria-label="Navigation Menu" title="Navigation Menu">•&nbsp;•&nbsp;•</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+{% endhighlight %}
+
+What's going on here is I'm looping through `site.data.navigation.masthead` to pull out a `title` and `url` variable for each. If I ever need to update the masthead navigation I just edit `navigation.yml` and the rest is handled for me at build instead making for more DRY and maintainable code.
+
+To improve the navigation's UI I added the following Liquid to check the current page URL and assign an active class if true.
+
+{% highlight html %}
+{% raw %}{% for link in site.data.navigation.masthead %}
+<ul class="masthead__menu">
+  {% assign class = nil %}
+  {% if page.url contains link.url %}
+    {% assign class = 'is--active' %}
+  {% endif %}
+  <li><a href="{{ site.url }}{{ link.url }}" class="masthead__menu-item {{ class }}">{{ link.title }}</a></li>
+</ul>
+{% endfor %}{% endraw %}
+{% endhighlight %}
+
+<figure>
+  <img src="{{ site.url }}/images/mm-masthead-example.jpg" alt="masthead screenshot">
+  <figcaption>Masthead end-result after some styling.</figcaption>
+</figure>
+
+I've also used a similar technique to build drop-down navigations with nested lists. An example of how that played out...
+
+##### Drop-Down Navigation Data File
+
+{% highlight yaml %}
+# example /_data/navigation.yml
+
+- title: "About"
+  href: "/about/"
+  children:
+    - childtitle: "Biography"
+      childhref: "/about/bio/"
+    - childtitle: "Resume"
+      childhref: "/about/resume/"
+
+- title: "Portfolio"
+  href: "/portfolio/"
+  children:
+    - childtitle: "Design"
+      childhref: "/portfolio/design/"
+    - childtitle: "Illustration"
+      childhref: "/portfolio/illustration/"
+    - childtitle: "Development"
+      childhref: "/portfolio/development/"
+{% endhighlight %}
+
+##### Drop-Down Navigation HTML and Liquid
+
+{% highlight html %}
+<ul>
+  {% raw %}{% for nav in site.data.navigation %}
+    {% if nav.children != null %}
+      <li><a href="{{ nav.href }}">{{ nav.title }}</a>
+        <ul class="child">
+        {% for child in nav.children %}
+          <li><a href="{{ child.childhref }}">{{ child.childtitle }}</a></li>
+        {% endfor %}
+        </ul>
+        {% else %}
+      <li><a href="{{ nav.href }}">{{ nav.title }}</a>{% endif %}</li>
+  {% endfor %}{% endraw %}
+</ul>
+{% endhighlight %}
+
+Which will produce the following HTML:
+
+{% highlight html %}
+<ul>
+  <li><a href="/about/">About</a>
+    <ul class="child">
+      <li><a href="/about/bio/">Biography</a></li>
+      <li><a href="/about/resume/">Resume</a></li>
+    </ul>
+  </li>
+  <li><a href="/portfolio/">Portfolio</a>
+    <ul class="child">
+      <li><a href="/portfolio/design/">Design</a></li>
+      <li><a href="/portfolio/illustration/">Illustration</a></li>
+      <li><a href="/portfolio/development/">Development</a></li>
+    </ul>
+  </li>
+</ul>
+{% endhighlight %}
+
+#### Author Overrides
+
+Made Mistakes has a singular voice, namely mine --- as I'm the only person writing and producing content here. For some of [my Jekyll themes]({{ site.url }}{% post_url 2014-02-28-jekyll-themes %}) I added support for overriding the "site" with one specified in an `authors.yml` data file. Like the navigation example we create a YAML file and place in the `_data` directory.
+
+{% highlight yaml %}
+# /_data/authors.yml
+
+billy_rick:
+  name: Billy Rick
+  web: http://
+  email: billy@rick.com
+  bio: "I am a very extravagant man."
+  avatar: billy-rick-photo.jpg
+
+cornelius_fiddlebone:
+  name: Cornelius Fiddlebone
+  email: cornelius@fiddlebone.com
+  bio: "Jewel miner."
+  avatar: cornelius-fiddlebone-photo.jpg
+{% endhighlight %}
+
+To override the author on any given post or page `author: ` is added to its YAML Front Matter with a key that matches one set in `authors.yml`. For example to assign Billy Rick as the author of a post I'd add `author: billy_rick`.
+
+Then with this small layout addition I can use Liquid to assign all of the author variables with the `billy_rick` ones in the data file. In the case an author isn't set in a post/page's YAML Front Matter {% raw %}`{{ author }}`{% endraw %} defaults to the variables set in `_config.yml` under {% raw %}`{{ site.owner }}`{% endraw %}.
+
+{% highlight html %}
+{% raw %}{% if page.author %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+{% endif %}
+{% if author.avatar contains 'http' %}
+  <img src="{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
+{% elsif author.avatar %}
+  <img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }} bio photo"></a>
+{% endif %}
+<h3 class="author-name">{{ author.name }}</h3>
+{% if author.bio %}<p class="author-bio">{{ author.bio }}</p>{% endif %}{% endraw %}
+{% endhighlight %}
+
+#### Slug Names
+
+This next has limited use and is probably overkill and inefficient in most scenarios, but for me it has a use. The hacky way I'm going about creating breadcrumb navigation imposes some limitations on the crumb titles.
+
+Through some Liquid I'm taking `page.url` and then grabbing the first bit of text before `/`. Since I'm fairly consistent in how I organize posts and incorporate categories into my permalink format this works reliably. The problem I run into is some of these "slug" names aren't all that descriptive or properly title cased.
+
+By using a `slugs.yml` data file as a definition list I can replace these "simple slugs" with whatever I want. Let's use the "[What tools do you use to build your website?]({{ site.url }}/faqs/website-tools/)" FAQ page from my site as an example. If I were to output breadcrumbs for this page, I'd filter down a `page.url` of `https://mademistakes.com/faqs/website-tools/` down to `faqs` and end with the following breadcrumbs: `Home > faqs`
+
+Which isn't the worst thing in the world, but ideally **faqs** would be properly capitalized (eg. FAQs) or spelled out as "**Frequently Asked Questions**."
+
+To fix this I'd add a `faqs` slug to `slugs.yml` and assign it a nice descriptive name to use as the title.
+
+{% highlight yaml %}
+faqs:
+  name: "Frequently Asked Questions"
+{% endhighlight %}
+
+Then modify my [`breadcrumbs.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_includes/breadcrumbs.html) include to output the `slug.name` variable instead of what was filtered out its `page.url`.
+
+{% highlight html %}
+{% raw %}{% assign page_slug = page.url | remove_first: '/' | split: '/' %}
+{% assign slug_first = page_slug[0] %}
+{% assign slug = site.data.slugs[slug_first] %}
+
+<nav class="breadcrumbs">
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="{{ site.url }}" class="breadcrumb__item" itemprop="url">
+      <span itemprop="title">Home</span>
+    </a> <span class="breadcrumb__sep">×</span>
+  </span>
+  <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <a href="/{{ page_slug[0] }}/" class="breadcrumb__item" itemprop="url">
+      <span itemprop="title">{{ slug.name }}</span>
+    </a>
+  </span>
+</nav>{% endraw %}
+{% endhighlight %}
+
+<figure>
+  <img src="{{ site.url }}/images/mm-breadcrumb-example.jpg" alt="breadcrumb screenshot">
+  <figcaption>Tada! Properly capitalized and descriptive breadcrumb titles.</figcaption>
+</figure>
+
+#### Translation Keys
+
+Another one of those uses that benefits theme developers --- using [data tiles as translation keys](https://tuananh.org/2014/08/13/localization-with-jekyll/) for localizing text into different languages. By using variables anywhere in the UI where text appears you can hook into a data file to output localized strings.
 
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
 [archives]: https://github.com/jekyll/jekyll-archives
@@ -564,3 +774,8 @@ Going a step further I use a _data file to generate alternate titles for pages a
 
 *[SCSS]: Sassy CSS
 *[CMS]: Content Management System
+*[YAML]: YAML Ain't Markup Language
+*[JSON]: JavaScript Object Notation
+*[CSV]: Comma-separated values
+*[DRY]: Don't Repeat Yourself is a principle of software development, aimed at reducing repetition.
+*[UI]: User Interface
