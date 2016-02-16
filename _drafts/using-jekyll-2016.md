@@ -39,7 +39,7 @@ Details like this drive me bonkers, so I opted for a **You May Also Enjoy** modu
 |      | Jekyll version  | Build time | Posts |
 |------|:---------------:|:----------:|:-----:|
 | Then | 0.12.1          | < 1s       | 25    |
-| Now  | 3.1.0           | 195s       | 980   |
+| Now  | 3.1.1           | 121.62s    | 980   |
 
 It's no coincidence that my build times went from under a second to several minutes once I reached several hundred posts. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped --- but I still have a ways to go if I want to speed things up. 
 
@@ -48,6 +48,15 @@ The new **`--incremental` regeneration** feature will eventually play a big role
 For now the best I can do is use the new **Liquid Profiler**[^profiler] to identify problematic bits and simplify where I can. I update the site so infrequently that it really isn't a bother waiting 2 minutes for a build to finish, but damn it would be nice to hit < 1s again!
 
 [^profiler]: add `--profile` to a build or serve
+
+{% capture jekyll_profile_caption %}
+Running Jekyll `--profile` in Mac OS X Terminal.app
+{% endcapture %}
+
+<figure>
+  <img src="{{ site.url }}/images/mm-terminal-jekyll-profiler.png" alt="running Jekyll --profile in Mac OS X Terminal.app">
+  <figcaption>{{ jekyll_profile_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
 
 ### Posts Become Collections
 
@@ -371,7 +380,7 @@ To my knowledge a Jekyll plugin doesn't currently exist to do this, though there
 
 As a first step I focused in on the large hero images and decided to worry about the other images later. Replacing Markdown images with {% raw %}`{% picture %}`{% endraw %} tags over 1,000+ posts just isn't feasible yet. Since the hero images are `_layout` driven they proved easier to implement.
 
-All it took was changing {% raw %}`<img src="{{ page.image.feature }}" alt="{{ page.title }}">`{% endraw %} to {% raw %}`{% picture hero {{ page.image.feature }} alt="{{ page.title }}" %}`{% endraw %} and settling on this configuration.
+All it took was changing {% raw %}`<img src="{{ page.image.feature }}" alt="">`{% endraw %} to {% raw %}`{% picture hero {{ page.image.feature }} alt="" %}`{% endraw %} and settling on this configuration.
 
 {% highlight yaml %}
 picture:
@@ -434,6 +443,12 @@ The one big drawback I've experienced using this plugin has been the increased b
 
 Showcasing a post or page's content is still the primary job of the layouts I designed years ago. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*, *tag archives*), reader submitted comments, related posts, and social sharing links in a complimenting way.
 
+<figure class="half">
+  <img src="{{ site.url }}/images/mm-jekyll-post-then.jpg" alt="Jekyll post layout then">
+  <img src="{{ site.url }}/images/mm-jekyll-post-now.jpg" alt="Jekyll post layout now">
+  <figcaption>(Left) post layout then, (right) post layout now.</figcaption>
+</figure>
+
 The core elements have remained unchanged since I originally launched the site:
 
 1. A neutral design to avoid competing with page content (text and image).
@@ -455,6 +470,11 @@ Both of these types of content modules have gone through various incarnations ov
 </figure>
 
 What I've settled on is a tile based design for the related/featured post module and a more traditional list design for the archives.
+
+<figure>
+  <img src="{{ site.url }}/images/mm-archive-listing-example.jpg" alt="current archive listing design">
+  <figcaption>Archive listing with teaser image, headline, published date, estimated reading time, and excerpt.</figcaption>
+</figure>
 
 Related posts are dynamically determined with `site.related_posts` and augmented with a [Jekyll plugin][related-posts] for tag based matches. The following tile logic is placed in an `_include` file and ready to be used in layouts or anywhere else.
 
@@ -764,13 +784,71 @@ Then modify my [`breadcrumbs.html`](https://github.com/mmistakes/made-mistakes-j
 
 #### Translation Keys
 
-Another one of those uses that benefits theme developers --- using [data tiles as translation keys](https://tuananh.org/2014/08/13/localization-with-jekyll/) for localizing text into different languages. By using variables anywhere in the UI where text appears you can hook into a data file to output localized strings.
+Localizing my themes is an idea I've only started to flirt with. The idea of using [data tiles as translation keys](https://tuananh.org/2014/08/13/localization-with-jekyll/) for localizing text into different languages was brought to my attention in a [pull request](https://github.com/mmistakes/skinny-bones-jekyll/commit/b08024fcd4815e61eb3c9a0c60c0bc793f195db2) by [@yonojoy](https://github.com/yonojoy). This is by no means a full on i18n solution, but it does help ease for theme developers looking support multiple languages.
+
+There's three pieces to pulling this off.
+
+##### 1. Languages data file
+
+In the case of my [**Skinny Bones**](https://mmistakes.github.io/skinny-bones-jekyll/) starter theme, German and [French](https://github.com/mmistakes/skinny-bones-jekyll/commit/bd4c02bbf29ffbc0194fa6d871f9fefcb8979ed5) translations have been added via hashes in a YAML file (eg. `/_data/languages.yml`).
+
+{% highlight yaml %}
+locales:
+  # English ---------------------------------------------
+  en: &DEFAULT_EN
+    overview: "Overview"
+    toc: "Table of Contents"
+    written_by: "Written by"
+    updated: "Updated"
+    share: "Share on"
+  en_US:
+    <<: *DEFAULT_EN     # use en for en_US
+  en_UK:
+    <<: *DEFAULT_EN     # use en for en_UK
+
+  # German translations ---------------------------------
+  de: &DEFAULT_DE
+    <<: *DEFAULT_EN     # load English values as default
+    overview: "&Uuml;bersicht"
+    toc: "Inhalt"
+    written_by: "Verfasst von"
+    updated: "Zuletzt aktualisiert:"
+    share: ""
+  de_DE:
+    <<: *DEFAULT_DE     # use de translation for de_DE
+
+  # French translations ---------------------------------
+  fr: &DEFAULT_FR
+    <<: *DEFAULT_EN     # load English values as default
+    overview: "Aperçu"
+    toc: "Table des matières"
+    written_by: "Écrit par"
+    updated: "Mis à jour"
+    share: "Partager sur"
+  fr_FR:
+    <<: *DEFAULT_FR     # use fr translation for fr_FR
+{% endhighlight %}
+
+##### 2. Set locale in _config.yml
+
+To change the default language, a locale variable is set in `_config.yml`. For example to switch from English to French you'd add `locale: fr_FR` or `locale: fr`. 
+
+##### 3. Call in the correct language hashes
+
+The last step is dropping in long variables like this `{% raw %}{{ site.data.languages.locales[site.locale].updated }}{% endraw %}` into the appropriate layouts and includes --- replacing any text you want to localize. If done correctly this variable should output with the French `updated` string, `Mis à jour`.
+
+If you want to learn more about this technique be sure to check out Tuan Anh's [blog post](https://tuananh.org/2014/08/13/localization-with-jekyll/). Or if you're looking for a plugin to do the heavy lifting [Jekyll-Multiple-Languages][multiple-languages] might be a good place to start.
+
+---
+
+Maybe not 100% complete, but this is certainly the a big majority of the techniques and learnings related to Jekyll I've picked up. What keeps me coming back to Jekyll is its flexibility. It always feels like there are multiple right ways to approach something and always new things to learn. Browse the threads on [Jekyll Talk](https://talk.jekyllrb.com/) on any given day and you'll see what I mean {% icon smile %}.
 
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
 [archives]: https://github.com/jekyll/jekyll-archives
 [assets]: https://github.com/jekyll/jekyll-assets
 [related-posts]: https://github.com/toshimaru/jekyll-tagging-related_posts
 [picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
+[multiple-languages]: https://github.com/screeninteraction/jekyll-multiple-languages-plugin
 
 *[SCSS]: Sassy CSS
 *[CMS]: Content Management System
