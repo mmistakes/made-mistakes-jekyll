@@ -337,7 +337,7 @@ assets:
 
 ### Critical Path CSS
 
-To speed up page loads I've gone to the trouble of [inlining the critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my SASS partials in a way that the important visual stuff comes first. This way I can create [`critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/critical.css.scss) and [`non-critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/non-critical.css.scss) files by `@import`-ing the bits needed for each. Then using a Jekyll-Assets[^assets-tag-example] tag I output the contents of `critical.css` into the `<head>` of ever page.
+To speed up page loads I've gone to the trouble of [inlining the critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my Sass partials in a way that the important visual stuff comes first. This way I can build [`critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/critical.css.scss) and [`non-critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/non-critical.css.scss) files by `@import`-ing the bits needed for each. Then using a Jekyll-Assets[^assets-tag-example] tag I output the contents of `critical.css` into the `<head>` of ever page.
 
 [^assets-tag-example]: Output the source of an asset using `asset_source` Jekyll-Assets tag. Example: {% raw %}{% asset_source critical.css %}{% endraw %}
 
@@ -353,7 +353,7 @@ Page speed analyzed with [Google's PageSpeed Insights](https://developers.google
 {% capture protip_critical_css %}
 #### ProTip: Plugin-Free Inlined Critical CSS
 
-The same method can be achieved by placing your SCSS stylesheet inside the `/_includes/` directory and applying the `scssify` filter. Fully compatible with GitHub Pages without the use of a plugin.
+The same method can be achieved by placing your SCSS stylesheet inside the `/_includes/` directory and applying the `scssify` filter. Perfect for site hosted on GitHub Pages where some plugins aren't allowed.
 {% endcapture %}
 
 <div class="notice--info">
@@ -375,13 +375,13 @@ The same method can be achieved by placing your SCSS stylesheet inside the `/_in
 
 Inlining the above the fold CSS and lazy loading the rest wasn't the only web performance improvement I've made. The biggest hurdle I've come across working with Jekyll is image management. Since Jekyll isn't a CMS and I have a bazillion images across pages, finding a solution to tackle [responsive images](http://alistapart.com/article/responsive-images-in-practice) has been challenging.
 
-It's a nut [I've been trying to crack]({{ site.url }}{% post_url 2012-03-19-going-static %}#responsive-images) with my Jekyll setup since day one. My [responsive images dream scenario](https://github.com/jekyll/jekyll-assets/issues/172) would go something like this:
+It's a nut [I've been trying to crack]({{ site.url }}{% post_url 2012-03-19-going-static %}#responsive-images) with my Jekyll setup since day one. My [responsive images dream scenario](https://github.com/jekyll/jekyll-assets/issues/172) goes something like this:
 
 1. Link to an image in a post/page with Markdown (e.g. `![image](image-name.jpg)`).
 2. Several sizes (specified in `_config.yml`) of said image would then be automatically created.
 3. Image would include the correct `srcset` and `sizes` markup in the `<img>` element to serve it responsively and save on bandwidth.
 
-To my knowledge a Jekyll plugin doesn't currently exist to do this, though there are some that are close like [Jekyll-Picture-Tag][picture-tag]. You have to use a tag like {% raw %}`{% picture image.jpg %}`{% endraw %} instead of Markdown but the other dream features are there (auto sized images and presets).
+To my knowledge a Jekyll plugin doesn't currently exist to do this, though there are some that are close like [Jekyll-Picture-Tag][picture-tag]. You have to use a tag like {% raw %}`{% picture image.jpg %}`{% endraw %} instead of Markdown but the other features are there (auto sized images and presets).
 
 As a first step I focused in on the large hero images and decided to worry about the other images later. Replacing Markdown images with {% raw %}`{% picture %}`{% endraw %} tags over 1,000+ posts just isn't feasible yet. Since the hero images are `_layout` driven they proved easier to implement.
 
