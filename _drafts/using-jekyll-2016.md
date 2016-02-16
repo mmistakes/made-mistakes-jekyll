@@ -12,27 +12,29 @@ featured:
 modified:
 ---
 
-I first started using Jekyll --- a static site generator, way back in 2012. In the four years since, Jekyll has became my gateway drug to a host of new tools, techniques, and ways of building websites. Hell, I wasn't even using version control when developing this site --- so you know a lot has changed.
+I first started using [**Jekyll**](http://jekyllrb.com/) --- a static site generator, back in 2012. In the four years since, Jekyll has indirectly introduced me to a host of new tools and ways of building websites. Hell, I wasn't even using version control when developing this site --- so you know a lot has changed.
+
+What follows is a brain dump documenting my approach to using Jekyll, how that's evolved over the years, and any other learnings I've picked up along the way. This is mostly an excuse for me to capture and reflect on things, but maybe you'll find some useful nuggets in the mess that's sure to follow.
 
 {% include toc.html %}
 
-## Types of Content
+## Content is King
 
-To learn the basics of Jekyll I tasked myself with trying to convert my then Wordpress powered site, into a static one. I read several Jekyll tutorials, learned [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) and [Kramdown](http://kramdown.gettalong.org/syntax.html), [blogged about the process]({{ site.url }}{% post_url 2012-03-19-going-static %})[^kramdown], and eventually ended up with a stripped down --- CMS and database free version of the site.
+To learn the basics of Jekyll I turned a Wordpress powered site into the static version you see now. I read several Jekyll tutorials, learned [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) and [Kramdown](http://kramdown.gettalong.org/syntax.html), [blogged about the process]({{ site.url }}{% post_url 2012-03-19-going-static %})[^kramdown], and eventually ended up with something I was happy with --- all without a database or CMS.
 
-[^kramdown]: Kramdown is a Markdown converter that does some nice things like automatic table of contents generation.
+[^kramdown]: Kramdown is a Markdown converter that does some nice things like automatically generating table of contents from headlines.
 
 ### Posts for All the Things
 
-As Jekyll has matured and added features, the complexity at which I use it has as well. In those early days content could either be a **post** or a **page**. I chose to make almost everything a post so I could reap the benefits of `site.tags`, `site.categories` for grouping content and surface "related posts" more easily.
+As Jekyll has matured and added features, the complexity at which I use it has too. In those early days content could only be considered a **post** or **page**. I chose to make most things a post so I could reap the benefits of `site.tags` and `site.categories` for creating meaningful archive pages and as way to surface "related posts" easily.
 
-This was an easy pill to swallow then because the only type of content I had on the site were blog posts. As I started incorporating things like portfolio pieces into the site I used `categories` to help build a structure. For example, [**Blog Articles**]({{ site.url }}/articles/) would get `categories: articles` added to their YAML Front Matter and `permalink: /:categories/:title/` in `_config.yml` to produce pretty URLs like `mademistakes.com/articles/jekyll-is-the-best/`.
+This made a lot of sense then because the only type of content I had on the site were date based blog posts. As I started incorporating things like portfolio pieces into the site I used `categories` as a way to structure content by "post type." For example, [**Blog Articles**]({{ site.url }}/articles/) would get `categories: articles` added to their YAML Front Matter and `permalink: /:categories/:title/` in `_config.yml` to produce pretty URLs like `mademistakes.com/articles/jekyll-is-the-best/`.
 
-A drawback I hit with this method was creating reliably pagination between posts. Jekyll provides the variables `page.previous` and `page.next` to help do previous/next style links on your posts. But because I broke posts out into categories, these links didn't always behave as expected.
+A drawback I hit with this method was creating reliable pagination between posts. Jekyll provides the variables `page.previous` and `page.next` to help create previous/next style links on your posts. But because I broke posts out into categories, these links didn't always behave as expected.
 
-For example, when reading a post in the `articles` category you'd expect the **NEXT →** link to show another article post. Instead you'd end up with something from the `portfolio` category because it was next in `site.posts`.
+For example, when reading a post in the `articles` category you'd expect the **NEXT →** link to show the next article post. Instead you'd end up with something from the `portfolio` category because it was the next item in the `site.posts` array. With plugins or a messy bit of Liquid you could probably filter on the current `category`, but I never took it that far.
 
-Details like this drive me bonkers, so I opted for a **You May Also Enjoy** module that displays 3 related posts[^related-posts] at the bottom of the page. In my eyes this provided a better reading experience even my site takes longer to generate now...
+Details like this drive me bonkers, so instead I opted for a **You May Also Enjoy** module that displays three related posts[^related-posts] at the bottom of the page. In my eyes this provided a better reading experience even if my site took longer to generate at build...
 
 [^related-posts]: [**jekyll-tagging-related_posts**][related-posts] - replaces Jekyll's `related_posts` function to use tags to calculate better post relationships.
 
@@ -41,9 +43,9 @@ Details like this drive me bonkers, so I opted for a **You May Also Enjoy** modu
 | Then | 0.12.1          | < 1s       | 25    |
 | Now  | 3.1.1           | 121.62s    | 980   |
 
-It's no coincidence that my build times went from under a second to several minutes once I reached several hundred posts. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped --- but I still have a ways to go if I want to speed things up. 
+It's no coincidence that my build times went from under a second to a few minutes once I reached several hundred posts. Moving to solid-state drives and reducing the amount of Liquid `for` loops in my `_layouts` and `_includes` has helped --- but I still have a ways to go if I want to speed things up further. 
 
-The new **`--incremental` regeneration** feature will eventually play a big role in this for me. On a default `jekyll new` site it works really well, but unfortunately I haven't had much luck getting it to play nicely with the various plugins I use. The work currently being done seems like its [going in the right direction](https://github.com/jekyll/jekyll/pull/4269), so I'm sure in time things will sort out.
+The new **`--incremental` regeneration** feature will eventually play a big role in this for me. On a default `jekyll new` site it works really well, but unfortunately I haven't had much luck getting it to play nicely with the various plugins I use. The work on this feature currently being done seems like its [going in the right direction](https://github.com/jekyll/jekyll/pull/4269), so I'm sure in time things will sort out.
 
 For now the best I can do is use the new **Liquid Profiler**[^profiler] to identify problematic bits and simplify where I can. I update the site so infrequently that it really isn't a bother waiting 2 minutes for a build to finish, but damn it would be nice to hit < 1s again!
 
@@ -60,11 +62,12 @@ Running Jekyll `--profile` in Mac OS X Terminal.app
 
 ### Posts Become Collections
 
-When [collections](http://jekyllrb.com/docs/collections/) were introduced way back in v2.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site. I could have easily done this as a set of static pages, but collections being more powerful seemed a better fit.
+When [collections](http://jekyllrb.com/docs/collections/) were introduced back in v2.0, I decided to build out a [**Frequently Asked Questions**]({{ site.url }}/faqs/) section on my site to familiarize myself with the feature.
 
-It couldn't haven been simpler to implement either. Create a `_faqs` folder filled with Markdown formatted text files (like any other post or page), add the following to `_config.yml`, create an [index page](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_pages/faqs/index.md) to display all of the collection's documents, and done!
+Creating a collection of FAQ items turned out to be easier than expected. Make a `_faqs` directory populated with Markdown formatted text files (like any other post or page), configure the collection in `_config.yml`, build an [index page](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_pages/faqs/index.md) to display all of the collection's documents, and done!
 
 {% highlight yaml %}
+# _config.yml
 collections:
   faqs:
     output: true
@@ -72,28 +75,30 @@ collections:
     title: FAQs
 {% endhighlight %}
 
-As collections have gained status Jekyll Land they're increasingly becoming my preferred way of structuring content. In addition to the FAQs I've also created a collection to generate a "[living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %})" of sorts --- documenting the look and feel of the site with visual representations and code samples. 
+As collections have elevated in status they're increasingly becoming my preferred way of structuring content. In addition to the FAQs collection I've also created one to build a "[living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %})" of sorts --- documenting the look and feel of the site with visual representations and code samples. 
 
-Eventually I plan to convert more posts into their own collection, but not exactly sure which. Posts categorized as `work` would likely be the first to transition over since it always felt like a hack to me placing them there. As far as the rest? I'm not sure yet. 
+Eventually I plan to convert more posts into their own collection, but not exactly sure which. Posts currently categorized as `work` would likely be the first to transition over since it's always felt funny grouping them that way. As far as the rest? I'm not sure yet. 
 
-What I'd like to investigate more is adding taxonomies to collections and how they play with the tags and categories already set in `_posts`. I'm not exactly sure how collections treat them and if they're part of `site.tags` or siloed away or how [tag archives]({{ site.url }}/tag/) generated by [**Jekyll Archives**][archives] might look. A job best saved for a rainy day I suppose...
+What I'd like to investigate deeper is adding taxonomies to collections and how they mingle with the tags and categories already set in `_posts`. I'm not exactly sure if they coexist with `site.tags` or how [tag archives]({{ site.url }}/tag/) generated by [**Jekyll Archives**][archives] might see them. A job best saved for a rainy day I suppose...
 
 ## An Evolution
 
-From a workflow perspective the basic "write a post in Markdown", run `jekyll build`, and push the contents of the `_site` folder to a web server has stayed the same. On the development side of things however, a lot of complexity has been introduced in an effort to optimize and improve web performance of the pages served.
+From a workflow perspective things have stayed the same. I still "write in Markdown", run `jekyll build`, and push the contents of the `_site` directory to a web server. On the development side of things however, a lot of complexity has been introduced in an effort to optimize how content is displayed and loaded to improve website performance.
 
-I do a lot of tinkering and adjusting with the visual bits of Made Mistakes. To me it will forever be a "work in progress" where I'm essentially redesigning it in the open. To make the development across Mac OS X and Windows easier I've settled on the following configurations, tools, and Jekyll plugins.
+Tinkering and experimenting with the visual design of Made Mistakes is important to me. Since I work on both Mac OS X and Windows based devices I need tooling that plays with each. Below are some of those tools, configurations, and Jekyll plugins that help things work across development environments.
 
 ### Bundler
 
-Installing Ruby, Bundler, and Ruby Gems, were all new to me three years ago. Running `jekyll build` on the same repo on different operating systems was always a crap shoot. A setup that worked one day would most certainly break after updating Jekyll with `gem update jekyll` and running on a Windows machine.
+Installing Ruby, Bundler, and Ruby Gems, were all new to me four years ago. Running `jekyll build` on different operating systems was always a crap shoot. A setup that worked one day would most certainly break the next after updating Jekyll on a Windows machine.
 
-I eventually learned to embrace [Bundler](http://bundler.io/) from the advice of numerous Jekyll's issues on GitHub and Stack Overflow posts. Bundler is used to install Jekyll so it wasn't that big of a leap to start using a `Gemfile` to manage dependencies.
+I eventually learned to embrace [Bundler](http://bundler.io/) from the advice of numerous filed issues on GitHub and Stack Overflow posts. Since Bundler is the official way to install Jekyll it wasn't that big of a leap to start using a `Gemfile` to manage all dependencies. To do that:
 
 1. Run `bundle init` to create an empty `Gemfile`
-2. Add gems, in my case it's' the following:
+2. Add `gem 'jekyll' and any other gems.
 
 {% highlight ruby %}
+# Made Mistakes example Gemfile
+
 source 'https://rubygems.org'
 
 gem 'breakpoint'
@@ -102,7 +107,7 @@ gem 'mini_magick'
 gem 'autoprefixer-rails'
 gem 'uglifier'
 
-# Jekyll
+# Jekyll and Plugins
 gem 'jekyll'
 gem 'jekyll-archives'
 gem 'jekyll-tagging-related_posts'
@@ -114,13 +119,13 @@ end
 
 Now when running `bundle install` each of the gems specified above are installed and a `Gemfile.lock` is created listing all of the dependencies. Prepending all Jekyll commands with `bundle exec` ensures only the versions in `Gemfile.lock` are executed helping to solve conflicts.
 
-Committing both of these Gemfiles to a git repository also makes it easy to revert back if a `gem update` goes bad. Sure it's a few more characters to type, but the headaches it solves are more than worth it. You can even write shortcut tasks with Rakefiles to eliminate the extra keystrokes (more on that below).
+Committing both of these Gemfiles to a git repository also makes it easy to revert back if a `gem update` goes bad. Sure it's a few more characters to type, but the headaches it solves are more than worth it. You can even write shortcut tasks with Rakefiles to eliminate the extra keystrokes if that's your thing (more on that below).
 
 ### Environments and Configurations
 
-With the introduction of asset related plugins and various other build steps I eventually settled on creating two Jekyll configuration files. The default `_config.yml` with production settings and `_config.dev.yml` which you guessed it --- contains development specific settings.
+With the introduction of asset related plugins and various other build steps I eventually settled on creating two Jekyll configuration files. A default `_config.yml` with all production settings and `_config.dev.yml` for development specific ones.
 
-The cool thing is you can chain together Jekyll configuration files, overriding settings from the previous. For example when building locally I want {% raw %}`{{ site.url }}`{% endraw %} to default to `http://localhost:4000` instead of `https://mademistakes.com` and use a development Disqus account for testing. Setting the following in values `_config.dev.yml` overrides the ones in `_config.yml`:
+The cool thing is you can chain together Jekyll configuration files, overriding settings from the previous. For example when building locally I want {% raw %}`{{ site.url }}`{% endraw %} to default to `http://localhost:4000` instead of `https://mademistakes.com` and set my Disqus account to a development one for testing. Adding the following in values `_config.dev.yml` overrides the ones in `_config.yml`:
 
 {% highlight yaml %}
 url: http://localhost:4000
@@ -142,7 +147,7 @@ $ JEKYLL_ENV=production bundle exec jekyll build
 {% capture info_windows_env %}
 #### Windows Environment Gotcha
 
-For whatever goofy reason `JEKYLL_ENV=production bundle exec jekyll build` doesn't work on Windows. Instead you have to use the [`SET`](http://ss64.com/nt/set.html) command to assign environment variables.
+Changing environments on Windows gave me some trouble until I discovered `JEKYLL_ENV=production bundle exec jekyll build` doesn't work for whatever goofy reason. Instead you have to use the [`SET`](http://ss64.com/nt/set.html) command to assign environment variables.
 {% endcapture %}
 
 <div class="notice--warning">
@@ -155,23 +160,23 @@ For whatever goofy reason `JEKYLL_ENV=production bundle exec jekyll build` doesn
 
 #### Other Configurations
 
-As mentioned earlier I have a moderately sized Jekyll site at {{ site.posts.size }} posts. Combine that fact with an `/images/` folder that is close to 2 GB, a liberal use of Liquid `for` loops, and generator plugins like [**Jekyll Archives**][archives] --- you get site builds that are far from instant. And in the rare cases when I run `jekyll clean` to flush caches and everything in `/_site/`, builds can take over 15 minutes as the [**Jekyll Picture Tag**][picture-tag] plugin regenerates appropriately sized hero images for all my posts. Yikes!
+As mentioned earlier I have a moderately sized Jekyll site at {{ site.posts.size }} posts. Combine that fact with an `/images/` directory that is close to 2 GB, a liberal use of Liquid `for` loops, and generator plugins like [**Jekyll Archives**][archives] --- you get site builds that are far from instant. And in the rare cases when I run `jekyll clean` to flush caches and everything in `/_site/`, builds can take over 15 minutes as the [**Jekyll Picture Tag**][picture-tag] plugin regenerates appropriately sized hero images for every posts. Yikes!
 
-So as you might have guessed, I sure as hell never start up a server with *auto-regeneration* enabled. Instead I start with `bundle exec jekyll serve --no-watch` and then run a rake task to manually build every time I want to check a change locally.
+So as you might have guessed, I sure as hell never start up a server with *auto-regeneration* enabled. Instead I start with `bundle exec jekyll serve --no-watch` and then run a rake task to manually build every time I want to check changes locally.
 
-When working on the site's design it can be cumbersome to sit through a 2 minute build just to check a CSS change. But until `--incremental` works reliably its something I have to suffer through. Its a good thing I do a lot of my 'designing' and tinkering in-browser with [Chrome's DevTools](https://developer.chrome.com/devtools) before editing the actual source.
+When working on the site's design it can be cumbersome to sit through a 2 minute build just to check a CSS change. But until `--incremental` works reliably its something I have to suffer through or use plugins to isolate posts at build. Its a good thing I do a lot of my 'designing' and tinkering in-browser with [Chrome's DevTools](https://developer.chrome.com/devtools) before editing the actual source as this hasn't been too annoying.
 
 ### Automation Tools and Shortcuts
 
-To save time (and my sanity) when working on the site locally, I employee a few tools to perform common dev tasks.
+To save time (and my sanity) when working on the site locally, I employee a few tools to perform common development related tasks.
 
 #### Grunt
 
-[**Grunt**](http://gruntjs.com/) describes itself as "the JavaScript task runner." Grunt has a fairly large set of plugins that can pretty much do any mundane task you need with a bit of configurations.
+[**Grunt**](http://gruntjs.com/) describes itself as "the JavaScript task runner." Grunt has a fairly large set of plugins that can handle pretty much any mundane task you need.
 
-Prior to Jekyll natively supporting Sass files I used Grunt plugins to pre-process `.less` files, concatenate a set of JavaScript files, and optimize image assets. Now that I'm running Jekyll 3.1 and the Jekyll-Assets plugin I no longer need Grunt to mess with my scripts and stylesheets.
+Prior to Jekyll natively supporting Sass I used Grunt plugins to pre-process `.less` files, concatenate a set of JavaScript files, and optimize image assets. Now that I'm running Jekyll 3.1 and the Jekyll-Assets plugin I no longer need Grunt to mess with my scripts and stylesheets.
 
-Instead I use Grunt solely for optimizing images and SVGs with the following plugins:
+These days I use Grunt solely for optimizing images and SVGs with the following plugins:
 
 {% highlight js %}
 // Grunt plugins in package.json
@@ -184,7 +189,7 @@ Instead I use Grunt solely for optimizing images and SVGs with the following plu
 }
 {% endhighlight %}
 
-When I add new JPEG or PNG assets to the `/images/` folder for use in posts I use the following command to minify them. This reduces their file size which ultimately speeds up page loads.
+When I add new JPEG or PNG assets to `/images/` I use the following command to optimize them. This reduces their file size which ultimately speeds up page loads.
 
 {% highlight bash %}
 $ grunt images
@@ -196,7 +201,7 @@ On the SVG side of things any files added to `/_svg/` are optimized and merged i
 $ grunt svg
 {% endhighlight %}
 
-In combination with both of these tasks I use the [**grunt-newer**](https://www.npmjs.com/package/grunt-newer) plugin. This dramatically speeds up things as new and modified files are only processed.
+In combination with both of these tasks I use the [**grunt-newer**](https://www.npmjs.com/package/grunt-newer) plugin. This dramatically speeds up things as only new and modified files are processed.
 
 #### Rake
 
@@ -218,9 +223,9 @@ $ rake build:drafts
 
 ##### Deployment
 
-Since I self-host my site I need a way of pushing the contents of the `/_site/` folder after a production build. Years ago I'd use [**Cyberduck**](https://cyberduck.io/) or [**FileZilla**](https://filezilla-project.org/) to transfer everything over slowly to [Media Temple](http://bit.ly/1Ugg7nN) via FTP.
+Since I self-host my site I need a way of pushing the contents of the `/_site/` directory after a production build. Years ago I'd use [**Cyberduck**](https://cyberduck.io/) or [**FileZilla**](https://filezilla-project.org/) to transfer everything over slowly to [Media Temple](http://bit.ly/1Ugg7nN) via FTP.
 
-These days I use rsync to speed that transfer way the hell up, by only sending over new and modified files. It's also a task that I can automate with rake by adding the following to my [`Rakefile.rb`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/Rakefile.rb).
+These days I use **rsync** to speed that transfer way the hell up, by only sending over new and modified files. It's also a task that I can automate by adding the following to my [`Rakefile.rb`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/Rakefile.rb) file.
 
 {% highlight ruby %}
 # Usage: rake rsync
@@ -231,7 +236,7 @@ task :rsync do
 end
 {% endhighlight %}
 
-As part of my deployments I also run tasks that notify Ping-O-Matic, Google, and Bing that the site has updated and to check out the new [`sitemap.xml`]({{ site.url }}/sitemap.xml) and [`atom.xml`]({{ site.url }}/atom.xml) feeds. These tasks look something like this:
+As part of my deployments I also run tasks that notify [Ping-O-Matic](http://pingomatic.com/), Google, and Bing that the site has updated and to check out the new [`sitemap.xml`]({{ site.url }}/sitemap.xml) and [`atom.xml`]({{ site.url }}/atom.xml) feeds. These tasks look something like this:
 
 {% highlight ruby %}
 # Usage: rake notify
@@ -280,13 +285,13 @@ And with a simple `rake deploy` I can build a production ready version of the si
 
 ### Asset Pipeline
 
-Originally I wrote my stylesheets in [Less](http://lesscss.org/)[^less], compiling and minifying them with a Grunt task. Then Jekyll grew up and started supporting Sass files natively so I converted everything over and dropped an external dependency.
+Originally I wrote my stylesheets in [Less](http://lesscss.org/)[^less] and squished them down with a Grunt task. Then one day Jekyll grew up and started supporting Sass files natively so I converted everything over and was able to remove a dependency. Hooray!
 
 [^less]: Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions to make it more maintainable.
 
-Taking things one step further I incorporated the [**Jekyll-Assets**][assets] plugin to add an asset pipeline using Sprockets 3. It's a powerful plugin with an assortment of tags that makes cache busting and inlining assets (something I'll get to in a minute) a lot easier.
+Not content with that workflow I eventually leveled-up by incorporating the [**Jekyll-Assets**][assets] plugin into the mix. It's a powerful gem with an assortment of tags that make cache busting and inlining assets (something I'll get to in a minute) so much easier.
 
-It also supports [Autoprefixer](https://github.com/postcss/autoprefixer) which is nice for automatically adding vendor prefixes (or ripping them out) to CSS rules. I can write style declarations like this in my SCSS partials:
+It also supports the wonderful [PostCSS](http://postcss.org/) plugin [Autoprefixer](https://github.com/postcss/autoprefixer), for automatically adding vendor prefixes to CSS rules using values from [Can I Use](http://caniuse.com/). I can then write style declarations like this in my SCSS partials:
 
 {% highlight scss %}
 .post__content {
@@ -319,7 +324,7 @@ And get a properly prefixed set without any additional effort on my part.
 
 Even better, when browsers don't need this extra prefixed nonsense --- Autoprefixer will leave it out based on the `browsers:` set in my Jekyll config.
 
-For this site I target the last 2 versions of each major browser, browsers that have a global usage of over 5%, or are Internet Explorer 9+.
+For this site I target the *last 2 versions* of each major browser, browsers that have a *global usage of over 5%*, or are *Internet Explorer 9+*.
 
 {% highlight yaml %}
 # _config.yml
@@ -348,7 +353,7 @@ Page speed analyzed with [Google's PageSpeed Insights](https://developers.google
 {% capture protip_critical_css %}
 #### ProTip: Plugin-Free Inlined Critical CSS
 
-The same method can be achieved by placing your SCSS stylesheet inside the `/_includes/` folder and applying the `scssify` filter. Fully compatible with GitHub Pages without the use of a plugin.
+The same method can be achieved by placing your SCSS stylesheet inside the `/_includes/` directory and applying the `scssify` filter. Fully compatible with GitHub Pages without the use of a plugin.
 {% endcapture %}
 
 <div class="notice--info">
