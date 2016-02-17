@@ -3,3 +3,6 @@ paper-by-53:
 
 sktchy:
   description: "Portraits painted and drawn in a variety of media inspired by photographs shared on [Sktchy](http://sktchy.com/)."
+
+jekyll:
+  description: "An archive of posts related to [**Jekyll**](http://jekyllrb.com) --- a Ruby Gem that transforms plain text into static websites and blogs."
