@@ -337,7 +337,7 @@ assets:
 
 ### Critical Path CSS
 
-To speed up page loads I've gone to the trouble of [inlining the critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my Sass partials in a way that the important visual stuff comes first. This way I can build [`critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/critical.css.scss) and [`non-critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/non-critical.css.scss) files by `@import`-ing the bits needed for each. Then using a Jekyll-Assets[^assets-tag-example] tag I output the contents of `critical.css` into the `<head>` of ever page.
+To speed up page loads I've gone to the trouble of [inlining the critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/) needed to render a page. I didn't use any fancy tools to determine what was critical, but instead structured my Sass partials in a way that the important visual stuff comes first. This way I can build [`critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/critical.css.scss) and [`non-critical.css.scss`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_assets/stylesheets/non-critical.css.scss) files by `@import`-ing the bits needed for each since I kept things fairly modular. Then using Jekyll-Assets[^assets-tag-example] `asset_source` tag I output the contents of `critical.css` into the `<head>` of ever page.
 
 [^assets-tag-example]: Output the source of an asset using `asset_source` Jekyll-Assets tag. Example: {% raw %}{% asset_source critical.css %}{% endraw %}
 
@@ -353,7 +353,7 @@ Page speed analyzed with [Google's PageSpeed Insights](https://developers.google
 {% capture protip_critical_css %}
 #### ProTip: Plugin-Free Inlined Critical CSS
 
-The same method can be achieved by placing your SCSS stylesheet inside the `/_includes/` directory and applying the `scssify` filter. Perfect for site hosted on GitHub Pages where some plugins aren't allowed.
+The same method can be achieved by placing a SCSS file inside the `/_includes/` directory and applying the `scssify` filter. Perfect for sites hosted on GitHub Pages where most plugins aren't allowed.
 {% endcapture %}
 
 <div class="notice--info">
@@ -373,19 +373,19 @@ The same method can be achieved by placing your SCSS stylesheet inside the `/_in
 
 #### Responsive Images Revisited
 
-Inlining the above the fold CSS and lazy loading the rest wasn't the only web performance improvement I've made. The biggest hurdle I've come across working with Jekyll is image management. Since Jekyll isn't a CMS and I have a bazillion images across pages, finding a solution to tackle [responsive images](http://alistapart.com/article/responsive-images-in-practice) has been challenging.
+Inlining the above the fold CSS and lazy loading the rest wasn't the only site performance improvement I've made. The biggest hurdle I've come across working with Jekyll is image management. Since Jekyll isn't a CMS and I have a bazillion images across pages, finding a solution to tackle [responsive images](http://alistapart.com/article/responsive-images-in-practice) has been challenging.
 
-It's a nut [I've been trying to crack]({{ site.url }}{% post_url 2012-03-19-going-static %}#responsive-images) with my Jekyll setup since day one. My [responsive images dream scenario](https://github.com/jekyll/jekyll-assets/issues/172) goes something like this:
+It's a nut [I've been trying to crack]({{ site.url }}{% post_url 2012-03-19-going-static %}#responsive-images) with my Jekyll setup since day one trying to get closer to this [dream scenario](https://github.com/jekyll/jekyll-assets/issues/172):
 
-1. Link to an image in a post/page with Markdown (e.g. `![image](image-name.jpg)`).
-2. Several sizes (specified in `_config.yml`) of said image would then be automatically created.
+1. Link to an image in a post/page with just Markdown (e.g. `![image](image-name.jpg)`).
+2. Several sizes (perhaps specified in `_config.yml`) of said image would then be automatically created.
 3. Image would include the correct `srcset` and `sizes` markup in the `<img>` element to serve it responsively and save on bandwidth.
 
-To my knowledge a Jekyll plugin doesn't currently exist to do this, though there are some that are close like [Jekyll-Picture-Tag][picture-tag]. You have to use a tag like {% raw %}`{% picture image.jpg %}`{% endraw %} instead of Markdown but the other features are there (auto sized images and presets).
+To my knowledge a Jekyll plugin doesn't currently exist to do exactly this, though there are some that get close --- [Jekyll-Picture-Tag][picture-tag], [Jekyll-Responsive-Image][responsive-image], [Jekyll-Srcset][jekyll-srcset]. **Jekyll-Picture-Tag** does most of what I want (automatically size images from presets) with tags {% raw %}`{% picture image.jpg %}`{% endraw %}, which means I have to forgo linking to images with Markdown for now.
 
-As a first step I focused in on the large hero images and decided to worry about the other images later. Replacing Markdown images with {% raw %}`{% picture %}`{% endraw %} tags over 1,000+ posts just isn't feasible yet. Since the hero images are `_layout` driven they proved easier to implement.
+When setting up the plugin I focused in on the large hero images and decided to worry about the others later. Replacing Markdown images with {% raw %}`{% picture %}`{% endraw %} tags over 1,000+ posts just isn't feasible yet. Since the hero images are `_layout` driven they proved easier to implement.
 
-All it took was changing {% raw %}`<img src="{{ page.image.feature }}" alt="">`{% endraw %} to {% raw %}`{% picture hero {{ page.image.feature }} alt="" %}`{% endraw %} and settling on this configuration.
+All it took was changing {% raw %}`<img src="{{ page.image.feature }}" alt="">`{% endraw %} to {% raw %}`{% picture hero {{ page.image.feature }} alt="" %}`{% endraw %} and settling on this configuration:
 
 {% highlight yaml %}
 picture:
@@ -414,22 +414,22 @@ picture:
         width: "320"
 {% endhighlight %}
 
-Now when I place a high resolution image in `/images/_originals/` and add `feature: image.jpg` to the YAML Front Matter I get this markup after a build:
+Now when a high resolution image is placed in `/images/_originals/` and `feature: image.jpg` added to the YAML Front Matter of a page, this markup spits out automatically:
 
 {% highlight html %}
 <picture>
-  <source srcset="image.jpg" media="(min-width: 1600px)">
-  <source srcset="image.jpg" media="(min-width: 1024px)">
-  <source srcset="image.jpg" media="(min-width: 768px)">
-  <source srcset="image.jpg" media="(min-width: 600px)">
-  <source srcset="image.jpg">
-  <img src="image.jpg" class="page__hero-image" itemprop="image" alt="">
+  <source srcset="image-1600.jpg" media="(min-width: 1600px)">
+  <source srcset="image-1024.jpg" media="(min-width: 1024px)">
+  <source srcset="image-768.jpg" media="(min-width: 768px)">
+  <source srcset="image-600.jpg" media="(min-width: 600px)">
+  <source srcset="image-320.jpg">
+  <img src="image-320.jpg" class="page__hero-image" itemprop="image" alt="">
 </picture>
 {% endhighlight %}
 
 By default the plugin hashes the filenames, but [I disabled that](https://github.com/mmistakes/made-mistakes-jekyll/commit/39fcf74b99d5fd6988eaff332ce90208c57ed840) since it was getting hard to manage between Mac OS X and Windows environments (each created their own hashed version of the file even when visually the same).
 
-Right now this plugin only supports the `<picture>` element which is great for art directed responsive images, but since I'm not doing that it is bit overkill and needs a polyfill[^picture-polyfill]. Having the option to use `srcset` instead would be preferred, but since I'm not a Rubyist making that change is out of my hands until [someone else tackles it](https://github.com/robwierzbowski/jekyll-picture-tag/issues/68).
+Currently this plugin only supports the `<picture>` element which is great for art directed responsive images, but since I'm not doing that it is bit overkill, not to mention it needs a polyfill[^picture-polyfill]. Having the option to use `srcset` instead would be preferred, but since I'm not a Rubyist making that change to the plugin is out of my hands until [someone else tackles it](https://github.com/robwierzbowski/jekyll-picture-tag/issues/68).
 
 [^picture-polyfill]: [Picturefill](https://scottjehl.github.io/picturefill/) is responsive images polyfill that enables support for the picture element and associated features in browsers that do not yet support them.
 
@@ -442,11 +442,11 @@ The bump in page speed has been great with a mobile score of `73/100` improving 
   <figcaption>{{ pagespeed_media_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
 
-The one big drawback I've experienced using this plugin has been the increased build times. If I don't instruct Jekyll to `keep_files: ["images"]` then every time I run Jekyll the featured images used in over 1,000 posts will go through the process of being resized and spit out into 4 smaller files. This can take a really long time and even longer to upload to my web server if names changed (another reason I disabled MD5 hashed filenames).
+The one big drawback I've experienced using this plugin has been an increase in build times. If I don't instruct Jekyll to `keep_files: ["images"]` then every time I run Jekyll the featured images used in over 1,000 posts will go through the process of being resized and spit out into 4 smaller files. This can take forever and even longer when uploading them all to my web server (another reason I disabled MD5 hashed filenames). Baby steps right?
 
 ### A Focus on Content
 
-Showcasing a post or page's content is still the primary job of the layouts I designed years ago. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*, *tag archives*), reader submitted comments, related posts, and social sharing links in a complimenting way.
+Showcasing a post or page's content is still the primary goal of the layouts I designed years ago. It's been a balancing act as I've tried to incorporate navigation systems (*main menu*, *table of contents*, *page breadcrumbs*, *tag archives*), reader submitted comments, related posts, and social sharing links in a complimenting way at various screen sizes.
 
 <figure class="half">
   <img src="{{ site.url }}/images/mm-jekyll-post-then.jpg" alt="Jekyll post layout then">
@@ -457,12 +457,12 @@ Showcasing a post or page's content is still the primary job of the layouts I de
 The core elements have remained unchanged since I originally launched the site:
 
 1. A neutral design to avoid competing with page content (text and image).
-2. Well defined site structure, way points, and taxonomies to encourage browsing additional pages.
+2. Well defined structure, way points for navigating the site, and related content to encourage deeper browsing.
 3. Readable typography to help showcase long form articles and tutorials.
 
-Building everything from scratch has really given me the chance to focus in on all of those things. And avoid the trap of adding useless widgets and *other cruft* just because its trivial to install --- I'm looking at you Wordpress plugin junkies. 
+Building everything from scratch has really given me the chance to focus on all of these points. While avoiding the trap of adding useless widgets and *other cruft* just because its trivial to install --- something I was very guilty of when using plug and play software like Wordpress. 
 
-Finding ways to surface related content in an attractive way has been a challenge for me. I wanted to take the simple bullet list of posts most Jekyll user's start out with and make it more visual since no one is going to sift through a bunch of boring text.
+A big challenge for me has been finding ways to surface related content in an attractive manner. I wanted to take the simple bullet list of posts most Jekyll user's start out with and make it more visual. With the thought that no one was going to sift through a bunch of boring text unless there were images to break up the monotony.
 
 #### Listing Posts
 
@@ -853,6 +853,8 @@ Maybe not 100% complete, but this is certainly the a big majority of the techniq
 [assets]: https://github.com/jekyll/jekyll-assets
 [related-posts]: https://github.com/toshimaru/jekyll-tagging-related_posts
 [picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
+[responsive-image]: https://github.com/wildlyinaccurate/jekyll-responsive-image
+[jekyll-srcset]: https://github.com/netlify/jekyll-srcset
 [multiple-languages]: https://github.com/screeninteraction/jekyll-multiple-languages-plugin
 
 *[SCSS]: Sassy CSS
