@@ -4,6 +4,7 @@
 //= require plugins/jquery.lazyload.min
 //= require plugins/jquery.magnific-popup.min
 //= require plugins/jquery.smooth-scroll.min
+//= require plugins/jquery.sticky-kit.min
 
 $(document).ready(function(){
 
@@ -47,6 +48,10 @@ $(document).ready(function(){
 
   // move table of contents from post body to sidebar
   $(".post__body .js-toc").appendTo($(".toc--sidebar")).hide().fadeIn(400);
+
+
+  // sticky sidebar
+  $(".post__sidebar").stick_in_parent({offset_top: 80});
 
 
   // FitVids init
