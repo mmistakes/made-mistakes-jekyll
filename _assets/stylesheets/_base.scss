@@ -50,6 +50,12 @@ del a {
   color: inherit;
 }
 
+/* reduce orphans and widows when printing */
+p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+  orphans: 3;
+  widows: 3;
+}
+
 /* Abbreviations */
 
 abbr[title],
@@ -117,7 +123,6 @@ pre {
 p code,
 li code,
 figcaption code {
-  white-space: nowrap;
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   background: $light-gray;
