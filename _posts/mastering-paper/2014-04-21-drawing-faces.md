@@ -1,7 +1,7 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Portraits and Faces"
 excerpt: "Advanced techniques for drawing and painting portraits using the iPad app Paper by FiftyThree."
-modified: 2016-01-27T14:39:37-05:00
+modified: 2016-02-17
 image: 
   feature: paper-53-faces-feature.jpg
   teaser: paper-53-faces-teaser-2016.jpg
@@ -54,14 +54,11 @@ Paper by 53 currently doesn't have a way of exporting or sharing color palettes.
 2. Tap the small circle within the Color Mixer and move the 3 sliders to match the color you are looking to copy.
 3. Tap the small circle again and drag it into a vacant spot in your palette to the right.
 4. Repeat the process for each color you wish to copy and use.
-{:.fl}
 
 <div class="notice--info" markdown="1">
 #### ProTip: Organize Your Color Palettes
 You can move colors in the palettes by dragging them around into an order that works for you. For example I group all my skin tone colors together for easier access.
 </div>
-
----
 
 ## Choosing Colors
 
@@ -113,8 +110,6 @@ If you remember back to my previous guide, green and red are complementary color
   </a>
   <figcaption>Surrounding the lips with a complimentary color can really make them pop. In this case I applied green around the edges to contrast against the reds.</figcaption>
 </figure>
-
----
 
 ## Painting Skin
 
@@ -250,8 +245,6 @@ Don't be afraid to use one of the ink pens for cleanup instead. For stylistic re
   <figcaption>A quick video example of all the techniques in real time to show the basic workflow.</figcaption>
 </figure>
 
----
-
 ## Creating Realism with Colored Pencils
 
 After almost two years of drawing and painting hundreds of blank faces, I had a break through when I started applying pencil strokes on top of my glazes. I found that this extra layer of texture added depth and complexity to the drawings which ultimately made them appear more realistic.
@@ -272,7 +265,6 @@ To really capture an accurate likeness the placement of the eyes, nose, and mout
 1. Pupils are placed just above the center line.
 2. An average face is approximately five eyes wide.
 3. The bottom of the ears align with the bottom of the nose.
-{:.fl}
 
 ### Refining the Contours
 
@@ -404,8 +396,6 @@ With our glazes looking pretty good, now is the time to switch back to the penci
 </figure>
 
 Depending on the subject I'll often apply a layer of contour hatching on top of the glazes. I tend to do this more with males who have facial hair, to roughen things up and add texture. This is also a good time to apply any finishing touches like catch lights in the pupils or gloss on the lips.
-
----
 
 ## Wrap Up and What's Next
 {:.no_toc}
