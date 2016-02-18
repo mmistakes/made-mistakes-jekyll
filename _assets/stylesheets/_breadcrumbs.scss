@@ -5,9 +5,10 @@
 .breadcrumbs {
   display: none;
   color: $gray;
+  order: 1;
   @include breakpoint($small) {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     font-family: $sans-serif;
     font-size: 0.64rem;
     text-transform: uppercase;

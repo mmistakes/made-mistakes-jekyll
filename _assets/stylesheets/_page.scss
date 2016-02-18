@@ -12,7 +12,8 @@
 
 .page__hero {
   position: relative;
-  margin: 2em -1rem;
+  margin: 0 -1rem 2em;
+  order: 2;
   @include breakpoint($small) {
     margin-left: -2rem;
     margin-right: -2rem;
@@ -156,19 +157,12 @@
   }
 }
 
-.post__comments,
-.post__footer,
-.post__social,
-.post__taxonomy {
-  margin-top: 1em;
-}
-
 /* header */
 
 .post__header {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .post__title {
@@ -176,6 +170,7 @@
   font-family: $serif;
   font-size: 1.953rem;
   font-weight: normal;
+  order: 3;
 }
 
 .post__excerpt {
@@ -183,6 +178,7 @@
   font-size: 1.25rem;
   font-weight: normal;
   line-height: 1.5;
+  order: 4;
   > a {
     border-bottom: 1px solid $link-underline-color;
     &:hover {
@@ -192,17 +188,12 @@
   }
 }
 
-.breadcrumbs {
-  order: -1;
-}
-
 /* footer */
 
 .post__footer {
   margin-top: 2em;
   padding-top: 1em;
-  order: 2;
-  border-top: 1px solid $text-color;
+  order: 3;
   @include breakpoint($large) {
     display: flex;
     justify-content: space-between;
@@ -278,6 +269,7 @@
 /* taxonomy */
 
 .post__taxonomy {
+  margin-top: 2em;
   font-size: 0.8rem;
   order: 1;
 }
@@ -296,8 +288,7 @@
 
 .post__comments {
   padding-top: 1em;
-  order: 3;
-  border-top: 1px solid $text-color;
+  order: 2;
 }
 
 

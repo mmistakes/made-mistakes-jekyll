@@ -115,7 +115,8 @@ pre {
   overflow-x: auto; // add scrollbars to wide code blocks
 }
 p code,
-li code {
+li code,
+figcaption code {
   white-space: nowrap;
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
@@ -207,6 +208,9 @@ figcaption {
       color: #000;
       border-bottom-color: #000;
     }
+  }
+  code {
+    font-size: 0.64rem;
   }
 }
 
