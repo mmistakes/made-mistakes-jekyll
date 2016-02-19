@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container featured">
   <h3 class="tile__header">{% if page.feature.headline %}{{ page.feature.headline }}{% else %}Featured Posts{% endif %}</h3>
   <div class="tiles">
     {% assign features = site.categories[page.feature.category] | where:"featured", true %}

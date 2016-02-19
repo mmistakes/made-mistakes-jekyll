@@ -151,6 +151,12 @@ layout: compress
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     {% endif %}
 
+    <!-- QR code -->
+    <div id="qr" class="hidden">
+      <img src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl={{ canonical_url }}&choe=UTF-8" alt="Scan QR code with a smartphone">
+      <p><small>{{ canonical_url }}</small></p>
+    </div>
+
   </body>
 
 </html>

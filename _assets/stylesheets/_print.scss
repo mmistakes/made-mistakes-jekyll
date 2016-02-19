@@ -1,0 +1,97 @@
+/* ==========================================================================
+   PRINT STYLES
+   ========================================================================== */
+
+@media print {
+
+  /* set page margins (use centimeters or inches, not pixels) */
+  @page {
+    margin: 1cm;
+  }
+
+  * {
+    color: #000 !important;
+  }
+
+  html {
+    background: #fff;
+  }
+
+  /* increase width and reduce white space */
+  body,
+  .post__inner-wrapper,
+  .post__header,
+  .page__hero,
+  .container,
+  .archive__item {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* make code blocks readable */
+  .highlight pre {
+    padding: 0;
+    background: #fff;
+    white-space: pre-wrap;
+  }
+
+  /* output link URLs */
+  #main a:after {
+    content: " [" attr(href) "] ";
+  }
+
+  /* hide these */
+  .masthead,
+  .overlay__menu,
+  .post__sidebar,
+  .post__taxonomy,
+  .post__comments,
+  .post__footer,
+  .related,
+  #colophon,
+  nav {
+    display: none !important;
+  }
+
+  /* footnotes */
+  .footnotes {
+    &:before {
+      content: "Footnotes:";
+      display: block;
+      margin-top: 3rem;
+      font-size: 1.563rem;
+    }
+  }
+
+  /* disable expanded links on anchor elements */
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* QR code */
+  #qr {
+    display: block !important;
+    visibility: visible !important;
+    padding-top: 0.5em;
+    border-top: 1px solid;
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* prevent from being cut-off */
+  figure,
+  img,
+  table,
+  .notice,
+  .notice--info,
+  .notice--warning ,
+  .notice--success,
+  .notice--danger,
+  .archive__item {
+    page-break-inside: avoid;
+  }
+
+}
