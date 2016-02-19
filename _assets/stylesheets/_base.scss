@@ -126,6 +126,7 @@ figcaption code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   background: $light-gray;
+  border: 1px solid rgba($gray, 0.2);
   border-radius: $border-radius;
   &:before, &:after {
     letter-spacing: -0.2em;
