@@ -39,16 +39,11 @@ layout: default
         </div>
         {% endif %}
 
-        {% if page.comments == true %}
-        <section class="post__comments">
-          {% include post__comments.html %}
-        </section>
-        {% endif %}
+        {% include post__social.html %}
 
         {% if page.author != false %}
         <footer class="post__footer">
           {% include post__author.html %}
-          {% include post__footer.html %}
         </footer>
         {% endif %}
 

@@ -191,13 +191,7 @@
 
 .post__footer {
   margin-top: 2em;
-  padding-top: 1em;
   order: 3;
-  @include breakpoint($large) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 }
 
 /* author info */
@@ -238,29 +232,16 @@
 
 .post__social {
   display: flex;
-  margin-top: 1em;
+  flex-direction: column;
+  margin-top: 2em;
   .btn {
-    width: 50%;
-    &:first-child {
-      margin-right: 0.5em;
-    }
-    &:last-child {
-      margin-left: 0.5em;
-    }
+    width: 100%;
   }
-  @include breakpoint($large) {
-    display: block;
-    margin-top: 0;
-    margin-left: 0.5em;
+  @include breakpoint($small) {
+    flex-direction: row;
+    justify-content: space-between;
     .btn {
-      width: initial;
-      padding: 5px 10px;
-      &:first-child {
-        margin-right: 0;
-      }
-      &:last-child {
-        margin-left: 0;
-      }
+      width: 33%;
     }
   }
 }
@@ -286,8 +267,11 @@
 /* comments */
 
 .post__comments {
-  padding-top: 1em;
   order: 2;
+}
+
+#disqus_thread iframe {
+  margin-top: 2em;
 }
 
 
