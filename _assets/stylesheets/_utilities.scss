@@ -163,3 +163,15 @@ body:hover .visually-hidden button {
   vertical-align: middle;
 }
 
+
+/*
+   Sticky, fixed to top content
+   ========================================================================== */
+
+.sticky {
+  @include clearfix();
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}
+

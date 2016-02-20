@@ -4,7 +4,7 @@
 //= require plugins/jquery.lazyload.min
 //= require plugins/jquery.magnific-popup.min
 //= require plugins/jquery.smooth-scroll.min
-//= require plugins/jquery.sticky-kit.min
+//= require plugins/stickyfill.min
 
 $(document).ready(function(){
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 
   // sticky sidebar
-  $(".post__sidebar").stick_in_parent({offset_top: 80});
+  $(".sticky").Stickyfill();
 
 
   // FitVids init
