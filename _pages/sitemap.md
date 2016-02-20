@@ -3,14 +3,14 @@ layout: archive
 permalink: /sitemap/
 title: "Sitemap"
 date: 2014-12-26
-modified: 2015-12-02T16:31:08-05:00
+modified: 2016-02-19
 excerpt: "A visual sitemap of all the pages on mademistakes.com"
 fullwidth: true
 share: false
 ads: false
 ---
 
-A hierarchical breakdown of all the sections and pages found on the site. For you robots out there is an [XML version]({{ site.url }}/sitemap.xml) is available for digesting.
+A hierarchical breakdown of all the sections and pages found on the site. For you robots out there is an [XML version]({{ site.url }}/sitemap.xml) available for digesting.
 
 <div class="sitemap">
   <ul id="primaryNav" class="col5">
