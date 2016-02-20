@@ -114,6 +114,7 @@ defaults:
     values:
       layout: article
       category: paperfaces
+      comments: true
 
   # Procreate Paintings
   - scope:
@@ -122,6 +123,7 @@ defaults:
     values:
       layout: article
       category: procreate-paintings
+      comments: true
 
   # Tiny Paintings
   - scope:
@@ -130,6 +132,7 @@ defaults:
     values:
       layout: article
       category: tiny-paintings
+      comments: true
 
   # Work
   - scope:
@@ -145,6 +148,7 @@ defaults:
       type: faqs
     values:
       layout: article
+      comments: true
 
   # Pages
   - scope:
