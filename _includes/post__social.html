@@ -1,6 +1,6 @@
 <div class="post__social">
   {% if page.comments == true %}
-    <button onclick="load_disqus()" class="btn">{% icon comments %} <span class="disqus-comment-count comments-link" data-disqus-url="{{ site.url }}{{ page.url }}">Leave a Comment</span></button>
+    <button onclick="load_disqus()" id="js-comment-btn" class="btn">{% icon comments %} <span class="disqus-comment-count comments-link" data-disqus-url="{{ site.url }}{{ page.url }}">Leave a Comment</span></button>
   {% endif %}
 
   {% if page.share != empty and page.share != false %}
@@ -20,15 +20,15 @@
         var disqus_title = "{{ page.title | xml_escape }}";
         var disqus_url = "{{ page.url | replace:"index.html","" | prepend: site.url }}";
 
-        function load_disqus()
-        {
+        function load_disqus(){
+          // disable button
+          document.getElementById("js-comment-btn").classList.add("btn--disabled");
+          // add comments embed to the DOM
           var dsq = document.createElement("script");
           dsq.type = "text/javascript";
           dsq.async = true;
           dsq.src = "https://" + disqus_shortname + ".disqus.com/embed.js";
           (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
-          var ldr = document.getElementById("disqus_loader");
-          ldr.parentNode.removeChild(ldr);
         }
       </script>
     </div>
