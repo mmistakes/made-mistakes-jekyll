@@ -21,9 +21,7 @@
         var disqus_url = "{{ page.url | replace:"index.html","" | prepend: site.url }}";
 
         function load_disqus(){
-          // disable button
           document.getElementById("js-comment-btn").classList.add("btn--disabled");
-          // add comments embed to the DOM
           var dsq = document.createElement("script");
           dsq.type = "text/javascript";
           dsq.async = true;
