@@ -241,7 +241,12 @@
     flex-direction: row;
     justify-content: space-between;
     .btn {
-      width: 33%;
+      &:first-child {
+        margin-right: 4px;
+      }
+      &:last-child {
+        margin-left: 4px;
+      }
     }
   }
 }
