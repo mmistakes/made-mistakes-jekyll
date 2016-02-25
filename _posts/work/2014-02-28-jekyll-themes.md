@@ -20,12 +20,12 @@ Below are all of the Jekyll starters I've open sourced thus far. Each "theme" co
 
 ## Setup
 
-he basic setup for each of my theme's is roughly the same:
+The basic setup for each of my theme's is roughly the same:
 
-1. Fork the Jekyll theme repository you'd like to use.
-2. Clone the repository you just forked and rename it appropriately[^github-pages].
-3. [Install Bundler](http://bundler.io) `gem install bundler` and run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), etc)
-4. Update `_config.yml`, navigation data files (found in `_data`), and replace sample posts and pages with your own.
+  1. Fork the Jekyll theme repository you'd like to use.
+  2. Clone the repository you just forked and rename it appropriately[^github-pages].
+  3. [Install Bundler](http://bundler.io) `gem install bundler` and run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), etc)
+  4. Update `_config.yml`, navigation data files (found in `_data`), and replace sample posts and pages with your own.
 
 [^github-pages]: [Follow these steps](http://jekyllrb.com/docs/github-pages/) if you're going to host your site on GitHub Pages to get the repo name and branches setup correctly.
 
@@ -40,12 +40,12 @@ For more specifics, review each themes' documentation by clicking on the **Learn
 
 A Jekyll starter used to build the latest incarnation of Made Mistakes.
 
-* Minimal design meant to be hacked up and customized
-* Built-in support for Sass and data files (requires Jekyll 2.x)
-* Off canvas menu
-* Tile based archives
-* Optional table of contents, share links, Disqus comments modules, and more
-* Plugin free. 100% compatible with GitHub Pages.
+  * Minimal design meant to be hacked up and customized
+  * Built-in support for Sass and data files (requires Jekyll 2.x)
+  * Off canvas menu
+  * Tile based archives
+  * Optional table of contents, share links, Disqus comments modules, and more
+  * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
 	<a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn btn--info">Download</a>
@@ -62,11 +62,11 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 
 A minimally designed responsive Jekyll theme for text heavy blogs.
 
-* Minimal design
-* Built-in support for Sass and data files (requires Jekyll 2.x)
-* Author sidebar
-* Automatic table of contents on single posts [via Kramdown](http://kramdown.gettalong.org/converter/html.html#toc)
-* Plugin free. 100% compatible with GitHub Pages.
+  * Minimal design
+  * Built-in support for Sass and data files (requires Jekyll 2.x)
+  * Author sidebar
+  * Automatic table of contents on single posts [via Kramdown](http://kramdown.gettalong.org/converter/html.html#toc)
+  * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
 	<a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info">Download</a>
@@ -83,10 +83,10 @@ A minimally designed responsive Jekyll theme for text heavy blogs.
 
 A simple and clean responsive Jekyll theme for words and large photographs.
 
-* Minimal design
-* Simple search (searches by post title)
-* Built-in support for Sass and data files (requires Jekyll 2.x)
-* Plugin free. 100% compatible with GitHub Pages.
+  * Minimal design
+  * Simple search (searches by post title)
+  * Built-in support for Sass and data files (requires Jekyll 2.x)
+  * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
 	<a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info">Download</a>
@@ -103,10 +103,10 @@ A simple and clean responsive Jekyll theme for words and large photographs.
 
 A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché feel.
 
-* Modern, subtle design
-* Animated main menu
-* Built-in support for Sass and data files (requires Jekyll 2.x)
-* Plugin free. 100% compatible with GitHub Pages.
+  * Modern, subtle design
+  * Animated main menu
+  * Built-in support for Sass and data files (requires Jekyll 2.x)
+  * Plugin free. 100% compatible with GitHub Pages.
 
 <div markdown="0">
 	<a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn btn--info">Download</a>
