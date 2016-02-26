@@ -19,7 +19,10 @@
     align-items: flex-end;
   }
   a {
-    color: #000;
+    color: $gray;
+    &:hover {
+      color: #000;
+    }
   }
   .overlay__menu-trigger {
     padding-left: 10px;

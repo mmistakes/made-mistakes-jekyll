@@ -5,13 +5,13 @@
 .toc {
   padding: 0 1em 1em;
   font-family: $sans-serif-narrow;
-  border-top: 8px solid #000;
+  border-top: 8px solid $gray;
 }
 
 .toc__title {
   margin: 1em 0;
   font-size: 1.25rem;
-  color: #000;
+  color: $gray;
   text-transform: uppercase;
 }
 
