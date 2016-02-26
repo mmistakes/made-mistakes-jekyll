@@ -3,6 +3,7 @@
    ========================================================================== */
 
 #main {
+  padding-top: $masthead-height;
   animation: fade-in 2s;
 }
 
@@ -91,7 +92,10 @@
   /* introductory paragraph */
   > p:first-child {
     margin-top: 0;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
+    @include breakpoint($medium) {
+      font-size: 1.25rem;
+    }
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -165,10 +169,13 @@
 
 .post__excerpt {
   margin-bottom: 0;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5;
   order: 4;
+  @include breakpoint($medium) {
+    font-size: 1.25rem;
+  }
   > a {
     border-bottom: 1px solid $link-underline-color;
     &:hover {

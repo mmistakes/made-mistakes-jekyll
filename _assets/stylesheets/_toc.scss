@@ -18,6 +18,7 @@
 .toc__menu {
   padding-left: 0;
   font-size: 0.8rem;
+  border-bottom: 2px solid #e2e2e2;
   ul {
     @include clearfix();
     > li {

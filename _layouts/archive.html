@@ -10,9 +10,7 @@ layout: default
   <header class="container post__header">
     <h1 class="post__title">{{ page.title }}</h1>
     {% if page.excerpt %}<h2 class="post__excerpt">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</h2>{% endif %}
-    {% if page.image.feature %}
-      {% include page__hero.html %}
-    {% endif %}
+    {% include page__hero.html %}
     {% include breadcrumbs.html %}
   </header>
 

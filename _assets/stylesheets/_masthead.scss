@@ -93,9 +93,13 @@
     transform: scaleX(1); // reveal
   }
   // active state
-  &.is--active:before {
-    transform: scaleX(1);
-    background-color: $gray;
+  &.is--active {
+    color: #000;
+    cursor: default;
+    &:before {
+      transform: scaleX(1);
+      background-color: #000;
+    }
   }
   @include breakpoint($small) {
     margin-left: 30px;
