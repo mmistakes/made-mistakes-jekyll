@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  height: $masthead-height;
   font-family: $sans-serif;
   background-color: #fff;
   border-bottom: 1px solid $border-color;
@@ -21,8 +22,6 @@
     color: #000;
   }
   .overlay__menu-trigger {
-    color: #fff;
-    background: $gray;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -32,7 +31,7 @@
       display: none;
     }
     &:hover {
-      background-color: #000;
+      background-color: $light-gray;
     }
   }
 }
@@ -74,13 +73,13 @@
   margin: 10px 0 0;
   padding: 10px 0 20px;
   font-size: 0.8rem;
-  letter-spacing: 1px;
+  font-weight: bold;
   line-height: 0.8rem;
   // underline effect
   &:before {
     content: '';
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
     height: 6px;
     width: 100%;
     background-color: $gray;

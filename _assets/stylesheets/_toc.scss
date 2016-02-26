@@ -4,6 +4,7 @@
 
 .toc {
   padding: 0 1em 1em;
+  font-family: $sans-serif-narrow;
   border-top: 8px solid #000;
 }
 
@@ -34,7 +35,6 @@
   li {
     clear: both;
     display: block;
-    font-family: $sans-serif;
     font-weight: bold;
     &:before {
       display: block;

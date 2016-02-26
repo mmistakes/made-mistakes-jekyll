@@ -6,9 +6,10 @@
    Typography related variables
    ========================================================================== */
 
-$serif                        : Georgia, serif;
+$serif                        : "PT Serif", serif;
 $sans-serif                   : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-$monospace                    : monaco, Consolas, "Lucida Console", monospace;
+$sans-serif-narrow            : "PT Sans Narrow", sans-serif;
+$monospace                    : Monaco, Consolas, "Lucida Console", monospace;
 
 $doc-font-size                : 16;
 $doc-line-height              : 24;
@@ -77,6 +78,14 @@ $vimeo-color                  : #1ab7ea;
 $youtube-color                : #ff3333;
 $github-color                 : #333333;
 $youtube-color                : #cd201f;
+
+
+/*
+   Masthead
+   ========================================================================== */
+
+$masthead-height              : 53px;
+
 
 /*
    Form variables

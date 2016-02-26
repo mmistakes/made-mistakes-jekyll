@@ -24,12 +24,11 @@
   padding: 1em 0 1em 1em;
 }
 
-h1.archive__item-title {
-  margin: 0;
+.archive__item-title {
+  margin: 0 !important; // override
   padding: 0;
-  font-family: $sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
+  font-family: $sans-serif-narrow;
+  font-size: 1.25rem;
 }
 
 .archive__item-meta {

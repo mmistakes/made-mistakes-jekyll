@@ -90,12 +90,13 @@
 
   /* introductory paragraph */
   > p:first-child {
+    margin-top: 0;
     font-size: 1.25rem;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    margin: 2rem 0 1.25rem;
-    font-weight: normal;
+    margin: 2rem 0 0;
+    font-family: $sans-serif-narrow;
     a {
       color: $headline-color;
     }
@@ -110,19 +111,8 @@
     font-size: 1.25rem;
   }
 
-  h4 {
+  h4, h5, h6 {
     font-size: 1rem;
-    font-weight: bold;
-  }
-
-  h5 {
-    font-size: 0.8rem;
-    font-weight: bold;
-  }
-
-  h6 {
-    font-size: 0.8rem;
-    font-weight: bold;
   }
 
   /* cleaner underlines for links */
@@ -161,14 +151,15 @@
 .post__header {
   display: flex;
   flex-direction: column;
-  margin-top: 1em;
+  @include breakpoint(1215px) {
+    margin-top: 1em;
+  }
 }
 
 .post__title {
   margin: 0;
-  font-family: $serif;
+  font-family: $sans-serif-narrow;
   font-size: 1.953rem;
-  font-weight: normal;
   order: 3;
 }
 
