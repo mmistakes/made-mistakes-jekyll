@@ -7,6 +7,7 @@ modified: 2016-02-26T10:36:43-05:00
 excerpt: "A collection of thoughts, inspiration, mistakes, and other minutia I've written."
 image:
   feature: articles-feature.jpg
+  teaser: articles-teaser.jpg
   credit: Photography courtesy of Unsplash
   creditlink: https://unsplash.com/photos/EPppwcVTZEo
 feature:
