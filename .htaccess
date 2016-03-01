@@ -1051,3 +1051,4 @@ redirect 301 /blog/ https://mademistakes.com/articles/
 redirect 301 /blog https://mademistakes.com/articles/
 redirect 301 /subscribe https://mademistakes.com/support/
 redirect 301 /subscribe/ https://mademistakes.com/support/
+redirect 301 /procreate-paintings/jenyy-x-portrait/ https://mademistakes.com/procreate-paintings/jenny-x-portrait/
