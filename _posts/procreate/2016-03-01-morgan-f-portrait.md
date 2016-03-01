@@ -1,0 +1,18 @@
+---
+title: "Tales of Round Brushing"
+excerpt: "Portrait of Morgan F. digitally painted with Procreate on an iPad."
+modified: 2016-03-01T15:02:19-05:00
+image: 
+  feature: morgan-f-procreate-lg.jpg
+  teaser: morgan-f-procreate-teaser.jpg
+  thumb: morgan-f-procreate-250.jpg
+tags: [Procreate, painting, drawing, portrait, illustration]
+---
+
+Portrait of Morgan F. inspired by a [photograph on Sktchy](http://sktchy.com/rK7LX). Digitally painted with Procreate on an iPad Air 2.
+
+Going back to my friend the **round brush** in Procreate has been fun. I've experimented with textured brushes recently, but haven't been completely happy with the results compared to the default round brush.
+
+I've found playing with opacity and the glazing toggles gets color results similar to what I'd achieve with [Paper's watercolor brush]({{ site.url }}{% post_url 2014-09-16-watercolor-brush-update %}). Brushes in Procreate don't exactly have the same level of organic-ness, but with enough glazes and on-canvas mixing you can get close.
+
+{% include boilerplate/procreate.html %}
