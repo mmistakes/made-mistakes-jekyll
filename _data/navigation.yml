@@ -25,12 +25,12 @@ home-secondary:
 masthead:
   - title: "About"
     url: /about/
+  - title: "Contact"
+    url: /contact/
   - title: "Work"
     url: /work/
-  - title: "Blog"
+  - title: "Blog Articles"
     url: /articles/
-  - title: "Mastering Paper"
-    url: /mastering-paper/
 
 
 # Primary site navigation links (overlay)
