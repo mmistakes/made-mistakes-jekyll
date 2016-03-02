@@ -6,7 +6,7 @@ image:
   feature: morgan-f-procreate-lg.jpg
   teaser: morgan-f-procreate-teaser.jpg
   thumb: morgan-f-procreate-250.jpg
-tags: [Procreate, painting, drawing, portrait, illustration]
+tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
 Portrait of Morgan F. inspired by a [photograph on Sktchy](http://sktchy.com/rK7LX). Digitally painted with Procreate on an iPad Air 2.
