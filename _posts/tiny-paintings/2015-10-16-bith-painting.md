@@ -17,3 +17,5 @@ Final painting measures 1.5\" x 1.5\". There sure are a lot of fun freaks from t
   <a href="{{ site.url }}/images/painting-bith-process-1-lg.jpg"><img src="{{ site.url }}/images/painting-bith-process-1-900.jpg" alt="Work in process"></a>
   <figcaption>In progress...</figcaption>
 </figure>
+
+{% include boilerplate/watercolor.html %}

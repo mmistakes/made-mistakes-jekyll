@@ -17,3 +17,5 @@ Final painting measures 1.5\" x 1.5\". Patience is one thing I struggle with whe
   <a href="{{ site.url }}/images/painting-greedo-process-1-lg.jpg"><img src="{{ site.url }}/images/painting-greedo-process-1-900.jpg" alt="Work in process"></a>
   <figcaption>Sketching everything out before painting.</figcaption>
 </figure>
+
+{% include boilerplate/watercolor.html %}

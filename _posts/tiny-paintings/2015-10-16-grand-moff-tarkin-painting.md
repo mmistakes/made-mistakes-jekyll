@@ -17,3 +17,5 @@ Final painting measures 1.5\" x 1.5\" and was completed about 3 hours. Was convi
   <a href="{{ site.url }}/images/painting-grand-moff-tarkin-process-1-lg.jpg"><img src="{{ site.url }}/images/painting-grand-moff-tarkin-process-1-900.jpg" alt="Work in process"></a>
   <figcaption>Starting with a pencil sketch.</figcaption>
 </figure>
+
+{% include boilerplate/watercolor.html %}

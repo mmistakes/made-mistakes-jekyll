@@ -18,3 +18,5 @@ Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. 
   <a href="{{ site.url }}/images/painting-stormtrooper-process-2-lg.jpg"><img src="{{ site.url }}/images/painting-stormtrooper-process-2-600.jpg" alt="Work in process"></a>
   <figcaption>Various work in progress snapshots from the initial drawing up to its completion.</figcaption>
 </figure>
+
+{% include boilerplate/watercolor.html %}
