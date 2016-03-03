@@ -7,7 +7,6 @@ image:
   teaser: going-static-teaser.jpg
   thumb: going-static-thumb.jpg
 tags: [Jekyll, web development, design, open source, CMS]
-featured: true
 comments: true
 ---
 
