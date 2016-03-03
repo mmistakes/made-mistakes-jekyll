@@ -100,7 +100,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     margin: 2rem 0 0;
-    font-family: $sans-serif-narrow;
+    font-family: $serif;
     a {
       color: $headline-color;
     }
@@ -162,7 +162,7 @@
 
 .post__title {
   margin: 0;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 1.953rem;
   order: 3;
 }
