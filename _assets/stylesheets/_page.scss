@@ -89,6 +89,10 @@
 .post__body {
   width: 100%;
 
+  p {
+    max-width: 45rem; // keep measure at a readable length
+  }
+
   /* introductory paragraph */
   > p:first-child {
     margin-top: 0;
@@ -169,6 +173,7 @@
 
 .post__excerpt {
   margin-bottom: 0;
+  max-width: 45rem; // keep measure at a readable length
   font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5;

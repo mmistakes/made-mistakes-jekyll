@@ -10,6 +10,8 @@ ads: false
 share: false
 ---
 
+{{ page.excerpt | markdownify }}
+
 Where applicable links to a component's Sass partial[^sass] and/or `_include` are provided along with short descriptions of typical usage.
 
 [^sass]: Sass partials are written using the Sassy SCSS syntax (or SCSS) and can be found in [`_assets/stylesheets/`]({{ site.owner.github-repo }}_assets/stylesheets/).

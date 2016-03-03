@@ -13,3 +13,5 @@ feature:
   headline: "Featured Work"
   category: work
 ---
+
+{{ page.excerpt | markdownify }}

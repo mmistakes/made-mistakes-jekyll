@@ -2,8 +2,7 @@
 layout: archive
 permalink: /procreate-paintings/
 title: "Procreate Paintings"
-subtitle: "Gallery of portraits digitally painted with Procreate on an iPad."
-excerpt: "Gallery of portraits digitally painted with Procreate on an iPad."
+excerpt: "Gallery of portraits digitally painted with [Procreate](http://procreate.si/) on an iPad."
 modified: 2015-11-30T13:04:35-05:00
 image: 
   teaser: procreate-paintings-teaser.jpg
@@ -14,6 +13,8 @@ featured:
 ads: false
 work: "Illustration"
 ---
+
+{{ page.excerpt | markdownify }}
 
 <ul class="th-grid">
 {% for post in site.categories.procreate-paintings %}
