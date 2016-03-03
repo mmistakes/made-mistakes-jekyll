@@ -213,11 +213,10 @@
   &:after {
     content: '\a0';
     position: relative;
-    top: calc(0.4rem - 1px);
+    top: 0.4rem;
     height: 4px;
+    background: $light-gray;
     flex-grow: 1;
-    border-top: 1px solid $light-gray;
-    border-bottom: 1px solid $light-gray;
   }
   &:before {
     margin-right: 10px;
