@@ -3,7 +3,6 @@ layout: archive
 permalink: /tiny-paintings/
 title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
-subtitle: *excerpt
 modified:
 image: 
   teaser: tiny-paintings-teaser.jpg
