@@ -1,2 +1,2 @@
-_assets/javascripts/plugins/* linguist-vendored
-_assets/javascripts/vendor/* linguist-vendored
+_assets/javascripts/plugins/**/* linguist-vendored
+_assets/javascripts/vendor/**/* linguist-vendored
