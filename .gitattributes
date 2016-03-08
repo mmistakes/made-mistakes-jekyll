@@ -1,2 +1,3 @@
-_assets/javascripts/plugins/**/* linguist-vendored
-_assets/javascripts/vendor/**/* linguist-vendored
+_assets/javascripts/plugins/*.js linguist-vendored
+_assets/javascripts/vendor/*.js linguist-vendored
+_assets/javascripts/plugins/jquery.magnific-popup.min.js linguist-vendored
