@@ -2,7 +2,7 @@
 permalink: /support/
 title: "Show Your Support"
 date: 2014-06-19T09:33:51.793000-04:00
-modified: 2016-01-19T15:48:05-05:00
+modified: 2016-03-22T15:02:23-04:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 share: false
 author: false
@@ -49,7 +49,7 @@ Subscribing to the [**All Posts**](http://feeds.feedburner.com/MadeMistakes) fee
 I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. If you'd like to send a donation my way so I can continue to provide free content and themes, hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoins.
 
 <p markdown="0">
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">{% icon paypal %} Send PayPal Money</a>
+  <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">{% icon paypal %} Send PayPal Money</a>
   <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">Send Square Cash</a>
   <a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn">Send Bitcoins</a>
 </p>
