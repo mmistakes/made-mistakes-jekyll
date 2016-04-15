@@ -2,7 +2,7 @@
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub Pages for free."
-modified: 2016-02-11
+modified: 2016-04-15T12:14:45-04:00
 image: 
   feature: jekyll-themes-feature.jpg
   thumb: jekyll-themes-thumb-250x250.png
