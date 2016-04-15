@@ -29,7 +29,29 @@ The basic setup for each of my theme's is roughly the same:
 
 [^github-pages]: [Follow these steps](http://jekyllrb.com/docs/github-pages/) if you're going to host your site on GitHub Pages to get the repo name and branches setup correctly.
 
-For more specifics, review each themes' documentation by clicking on the **Learn More** buttons below.
+For more specifics, review each themes' documentation by clicking on the **Theme Setup** buttons below.
+
+## Minimal Mistakes
+
+<figure>
+  {% picture minimal-mistakes-3-feature.jpg alt="Minimal Mistakes Jekyll theme" %}
+  <figcaption>A minimal design to let your content shine.</figcaption>
+</figure>
+
+A flexible two-column Jekyll theme with a minimalistic aesthetic.
+
+  - 100% Compatible with GitHub Pages
+  - Several layout options (single, archive, splash pages)
+  - SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
+  - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
+  - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, and custom)
+  - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
+
+<div markdown="0">
+  <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info">Download</a>
+  <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" class="btn">Setup Guide</a>
+  <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
+</div>
 
 ## Skinny Bones
 
@@ -51,27 +73,6 @@ A Jekyll starter used to build the latest incarnation of Made Mistakes.
 	<a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn btn--info">Download</a>
 	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
-</div>
-
-## Minimal Mistakes
-
-<figure>
-	{% picture minimal-mistakes-theme-feature.jpg alt="Minimal Mistakes Jekyll theme" %}
-	<figcaption>A minimal design to let your content be the hero</figcaption>
-</figure>
-
-A minimally designed responsive Jekyll theme for text heavy blogs.
-
-  * Minimal design
-  * Built-in support for Sass and data files (requires Jekyll 2.x)
-  * Author sidebar
-  * Automatic table of contents on single posts [via Kramdown](http://kramdown.gettalong.org/converter/html.html#toc)
-  * Plugin free. 100% compatible with GitHub Pages.
-
-<div markdown="0">
-	<a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info">Download</a>
-	<a href="https://mmistakes.github.io/minimal-mistakes/theme-setup/" class="btn">Setup Guide</a>
-  <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
 </div>
 
 ## So Simple
