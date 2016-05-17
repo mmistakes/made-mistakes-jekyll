@@ -102,6 +102,17 @@ body:hover .visually-hidden button {
   list-style: none;
 }
 
+// Clear fixed positioned masthead
+h1, h2, h3, h4, h5, h6 {
+  &[id]:before {
+    display: block;
+    content: " ";
+    margin-top: -75px;
+    height: 75px;
+    visibility: hidden;
+  }
+}
+
 
 /*
    Type
