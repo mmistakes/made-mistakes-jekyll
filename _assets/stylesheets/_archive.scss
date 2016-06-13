@@ -6,15 +6,19 @@
   display: flex;
   justify-content: flex-end;
   padding-top: 1.5em;
+
   /* hover state */
   &:hover {
+
     .archive__item-title,
     .archive__item-excerpt {
       color: #000;
     }
+
     .archive__item-title {
       text-decoration: underline;
     }
+
     .archive__item-thumb {
       box-shadow: 0 0 10px rgba(#000, 0.5);
     }
@@ -43,6 +47,7 @@
 }
 
 .archive__item-time {
+
   &:before {
     content: "";
     padding-left: 0.45em;

@@ -15,10 +15,12 @@
   position: relative;
   margin: 0 -1rem 2em;
   order: 2;
+
   @include breakpoint($small) {
     margin-left: -2rem;
     margin-right: -2rem;
   }
+
   @include breakpoint($medium) {
     margin-left: -3rem;
     margin-right: -3rem;
@@ -27,6 +29,7 @@
 
 .page__hero-image {
   width: 100%;
+
   @include breakpoint(1215px) {
     border-radius: $border-radius;
   }
@@ -46,9 +49,11 @@
   z-index: 5;
   opacity: 0.5;
   border-radius: $border-radius 0 $border-radius 0;
+
   @include breakpoint($medium) {
     padding: 5px 10px;
   }
+
   a {
     color: #fff;
     text-decoration: none;
@@ -64,6 +69,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   margin-top: 1em;
+
   @include breakpoint($small) {
     flex-wrap: wrap;
     flex-direction: row;
@@ -75,12 +81,15 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
+
   @include breakpoint($medium-wide) {
     width: calc(100% - 200px);
   }
+
   @include breakpoint($large) {
     width: calc(100% - 240px);
   }
+
   @media (min-width: 1025px) {
     width: calc(100% - 380px);
   }
@@ -97,6 +106,7 @@
   > p:first-child {
     margin-top: 0;
     font-size: 1.125rem;
+
     @include breakpoint($medium) {
       font-size: 1.25rem;
     }
@@ -105,6 +115,7 @@
   h1, h2, h3, h4, h5, h6 {
     margin: 2rem 0 0;
     font-family: $serif;
+
     a {
       color: $headline-color;
     }
@@ -126,16 +137,19 @@
   /* cleaner underlines for links */
   p > a {
     border-bottom: 1px solid $link-underline-color;
+
     &:hover {
       color: #000;
       border-bottom-color: #000;
     }
   }
+
   li > a,
   td > a,
   small a {
     color: inherit;
     border-bottom: 1px solid $link-underline-color;
+
     &:hover {
       color: #000;
       border-bottom-color: $text-color;
@@ -143,6 +157,7 @@
   }
 
   ul, ol {
+
     li + li {
       margin-top: 0.5em;
     }
@@ -159,6 +174,7 @@
 .post__header {
   display: flex;
   flex-direction: column;
+
   @include breakpoint(1215px) {
     margin-top: 1em;
   }
@@ -178,11 +194,14 @@
   font-weight: normal;
   line-height: 1.5;
   order: 4;
+
   @include breakpoint($medium) {
     font-size: 1.25rem;
   }
+
   > a {
     border-bottom: 1px solid $link-underline-color;
+
     &:hover {
       color: #000;
       border-bottom-color: #000;
@@ -191,14 +210,12 @@
 }
 
 /* footer */
-
 .post__footer {
   margin-top: 2em;
   order: 3;
 }
 
 /* author info */
-
 .author__wrapper {
   display: flex;
   flex: 4;
@@ -208,6 +225,7 @@
 .author__name {
   margin: 0;
   font-family: $sans-serif;
+
   a:hover {
     text-decoration: underline;
   }
@@ -224,6 +242,7 @@
   display: block;
   order: -1;
   margin-right: 1em;
+
   img {
     width: 50px;
     height: 50px;
@@ -232,21 +251,25 @@
 }
 
 /* social */
-
 .post__social {
   display: flex;
   flex-direction: column;
   margin-top: 2em;
+
   .btn {
     width: 100%;
   }
+
   @include breakpoint($small) {
     flex-direction: row;
     justify-content: space-between;
+
     .btn {
+
       &:first-child {
         margin-right: 4px;
       }
+
       &:last-child {
         margin-left: 4px;
       }
@@ -255,7 +278,6 @@
 }
 
 /* taxonomy */
-
 .post__taxonomy {
   margin-top: 2em;
   font-size: 0.8rem;
@@ -267,13 +289,13 @@
   font-weight: bold;
   color: $text-color;
   white-space: nowrap;
+
   &:hover {
     text-decoration: underline;
   }
 }
 
 /* comments */
-
 .post__comments {
   order: 2;
 }
@@ -284,7 +306,6 @@
 
 
 /* tag boxes */
-
 .tag__item {
   display: block;
   text-decoration: none;
@@ -292,6 +313,7 @@
   font-weight: bold;
   white-space: nowrap;
   border-bottom-width: 0 !important; // override
+
   &:hover {
     text-decoration: underline;
   }
@@ -315,28 +337,35 @@
   margin: 0;
   padding: 0;
   column-gap: 3em;
+
   @include breakpoint($small) {
     column-count: 2;
     column-width: 150px;
   }
+
   @include breakpoint($medium) {
     column-count: 3;
   }
+
   li {
     list-style-type: none;
     font-size: 0.8rem;
     line-height: 2;
+
     @include breakpoint($medium) {
       line-height: 1.75;
     }
   }
+
   li + li {
     margin-top: 0 !important; // override
   }
+
   .tag__item {
     @include clearfix();
     padding-bottom: 4px;
     overflow: hidden;
+
     &:before {
       float: left;
       width: 0;
@@ -354,15 +383,19 @@
 
 .post__sidebar {
   width: 100%;
+
   @include breakpoint($medium-wide) {
     margin-left: 80px;
     width: 160px;
   }
+
   @media (min-width: 1025px) {
     margin-left: 80px;
     width: 300px;
   }
+
   .js-toc {
+
     @media (max-width: 1025px) {
       display: none !important; // override
     }
@@ -370,14 +403,15 @@
 }
 
 /* ads */
-
 .ad--sidebar {
   margin: 0 0 2em;
   text-align: center;
+
   @media (max-width: 320px) {
     position: relative;
     left: -15px;
   }
+
   @media (min-width: 320px) {
     margin-left: auto;
     margin-right: auto;

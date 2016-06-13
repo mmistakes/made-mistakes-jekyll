@@ -19,24 +19,30 @@
   padding-left: 0;
   font-size: 0.8rem;
   border-bottom: 2px solid #e2e2e2;
+
   ul {
     @include clearfix();
+
     > li {
       padding: 5px 0;
       font-weight: normal;
+
       &:before {
         content: "\2192";
         width: 20px;
       }
+
       &:not(:last-child) {
         border-bottom: 1px solid $light-gray;
       }
     }
   }
+
   li {
     clear: both;
     display: block;
     font-weight: bold;
+
     &:before {
       display: block;
       float: left;
@@ -45,13 +51,16 @@
       width: 10px;
       font-weight: bold;
     }
+
     a {
       display: block;
+
       &:hover {
         text-decoration: underline;
       }
     }
   }
+
   > li {
     padding: 5px 0;
     border-top: 2px solid $light-gray;

@@ -3,9 +3,9 @@
    ========================================================================== */
 
 %tab-focus {
-  // Default
+  /* default */
   outline: thin dotted $highlighter-color;
-  // Webkit
+  /* Webkit */
   outline: 5px auto $highlighter-color;
   outline-offset: -2px;
 }
@@ -16,6 +16,7 @@
    ========================================================================== */
 
 @function em($target, $context: $doc-font-size) {
+
   @return ($target / $context) * 1em;
 }
 
@@ -41,6 +42,7 @@
 ///   }
 
 @mixin clearfix {
+
   &::after {
     clear: both;
     content: "";

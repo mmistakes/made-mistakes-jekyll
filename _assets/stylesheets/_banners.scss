@@ -13,19 +13,21 @@
    ========================================================================== */
 
 /* sidebar ad */
-
 .adsense--sidebar {
   width: 320px;
   height: 100px;
   border-bottom: 0 solid transparent;
+
   @media (min-width: 500px) and (max-width: $medium-wide) {
     width: 468px;
     height: 60px;
   }
+
   @include breakpoint($medium-wide) {
     width: 120px;
     height: 600px;
   }
+
   @media (min-width: 1025px) {
     width: 300px;
     height: 250px;

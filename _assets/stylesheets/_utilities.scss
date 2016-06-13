@@ -10,14 +10,17 @@
   max-width: 1200px;
   padding-left: 1rem;
   padding-right: 1rem;
+
   @media(min-width: $small) {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
   @media(min-width: $medium) {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+
   @media (min-width: $large) {
     margin-left: auto;
     margin-right: auto;
@@ -30,14 +33,12 @@
    ========================================================================== */
 
 /* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
-
 .hidden {
   display: none;
   visibility: hidden;
 }
 
 /* for preloading images */
-
 .load {
   display: none;
 }
@@ -47,7 +48,6 @@
 }
 
 /* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
-
 .visually-hidden,
 .screen-reader-text,
 .screen-reader-text span,
@@ -67,7 +67,6 @@ body:hover .visually-hidden button {
 }
 
 /* screen readers */
-
 .screen-reader-text:focus,
 .screen-reader-shortcut:focus  {
   clip: auto !important;
@@ -104,6 +103,7 @@ body:hover .visually-hidden button {
 
 // Clear fixed positioned masthead
 h1, h2, h3, h4, h5, h6 {
+
   &[id]:before {
     display: block;
     content: " ";
@@ -119,7 +119,6 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 /* center align */
-
 .center {
   text-align: center;
 }
@@ -131,6 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .float-right {
   clear: left;
+
   @include breakpoint($large) {
     float: right;
     clear: none;
@@ -138,7 +138,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* clearfix */
-
 .cf { clear: both; }
 
 
@@ -147,11 +146,11 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 /* image align right */
-
 .image-right {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
   @include breakpoint($small) {
     float: right;
     margin-left: 1em;
@@ -185,4 +184,3 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 80px;
 }
-

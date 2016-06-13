@@ -3,26 +3,31 @@
    ========================================================================== */
 
 .search-goog {
+
   form {
     margin-top: 12px;
   }
 }
 
 #goog-fixurl {
+
   ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+
     li {
       list-style-type: none;
     }
   }
+
   .other-things {
     display: none;
   }
 }
 
 #goog-wm-qt {
+
   @include breakpoint($medium) {
     display: inline-block;
     width: 70%;
@@ -31,6 +36,7 @@
 
 #goog-wm-sb {
   margin-bottom: 12px;
+
   @include breakpoint($medium) {
     display: inline-block;
     margin-left: 1%;

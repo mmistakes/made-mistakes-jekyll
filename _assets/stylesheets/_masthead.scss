@@ -13,26 +13,32 @@
   z-index: 11;
   animation: fade-in 3s;
   box-shadow: 0 0 8px 0 rgba(0,0,0,0.125);
+
   .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
+
   a {
     color: $gray;
+
     &:hover {
       color: #000;
     }
   }
+
   .overlay__menu-trigger {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     font-weight: bold;
     border-radius: $border-radius;
+
     &:before {
       display: none;
     }
+
     &:hover {
       background-color: $light-gray;
     }
@@ -40,6 +46,7 @@
 }
 
 .masthead__menu-wrapper {
+
   @media (max-width: $small) {
     width: 100%;
   }
@@ -50,7 +57,9 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
+
   .is--hidden {
+
     @media (max-width: $medium-wide) {
       display: none;
     }
@@ -59,6 +68,7 @@
 
 .masthead__title {
   display: none;
+
   @include breakpoint($small) {
     display: block;
     margin: 10px 0;
@@ -70,6 +80,7 @@
     text-transform: uppercase;
   }
 }
+
 .masthead__menu-item {
   position: relative;
   display: block;
@@ -78,7 +89,8 @@
   font-size: 0.8rem;
   font-weight: bold;
   line-height: 0.8rem;
-  // underline effect
+
+  /* underline effect */
   &:before {
     content: '';
     position: absolute;
@@ -89,18 +101,22 @@
     transition: all 300ms cubic-bezier(0.325, -0.075, 0, 1.65);
     transform: scaleX(0); // hide
   }
+
   &:hover:before {
     transform: scaleX(1); // reveal
   }
-  // active state
+
+  /* active state */
   &.is--active {
     color: #000;
     cursor: default;
+
     &:before {
       transform: scaleX(1);
       background-color: #000;
     }
   }
+
   @include breakpoint($small) {
     margin-left: 30px;
     margin-right: 0;
@@ -141,6 +157,7 @@
     padding: 5px 5px 5px 0;
     color: #000;
     border-radius: 0.25em;
+
     &:hover {
       padding-left: 10px;
       padding-right: 10px;
@@ -155,6 +172,7 @@
 }
 
 .overlay__menu-col-1 {
+
   @include breakpoint($small) {
     flex: 3;
     margin-right: 3em;
@@ -162,6 +180,7 @@
 }
 
 .overlay__menu-col-2 {
+
   @include breakpoint($small) {
     flex: 2;
   }
@@ -171,6 +190,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+
   @include breakpoint($small) {
     flex-direction: row;
   }
@@ -182,6 +202,7 @@
   font-size: 1.563rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   @include breakpoint($large) {
     font-size: 1.953rem;
     line-height: 1.953rem;
@@ -194,6 +215,7 @@
   font-size: 1.563rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   @include breakpoint($large) {
     line-height: 1.953rem;
   }
@@ -210,6 +232,7 @@
   /* lines in headline */
   display: flex;
   flex-direction: row;
+
   &:after {
     content: '\a0';
     position: relative;
@@ -218,9 +241,11 @@
     background: $light-gray;
     flex-grow: 1;
   }
+
   &:before {
     margin-right: 10px;
   }
+
   &:after {
     margin-left: 10px;
   }
@@ -233,6 +258,7 @@
   font-family: $monospace;
   text-transform: uppercase;
   border-radius: 0;
+
   &:active {
     transform: translateY(0); // override from default btn class
   }
@@ -255,6 +281,7 @@
   visibility: hidden;
   z-index: 9;
   transition: opacity 0.5s, visibility 0s 0.5s;
+
   &.is--visible {
     opacity: 1;
     visibility: visible;

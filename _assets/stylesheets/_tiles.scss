@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   &:after {
     content: '\a0';
     position: relative;
@@ -19,6 +20,7 @@
     background: $gray;
     flex-grow: 1;
   }
+
   &:after {
     margin-left: 10px;
   }
@@ -29,6 +31,7 @@
   flex-direction: column;
   justify-content: space-between;
   border-bottom: 4px solid $gray;
+
   @media (min-width: $small) {
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,18 +40,23 @@
 
 .tile__item {
   padding-bottom: 1em;
+
   img {
     width: 100%;
     margin: 0.25em 0;
     border-radius: $border-radius;
   }
+
   @media (min-width: $small) {
     flex-basis: 31%;
   }
+
   &:hover {
+
     img {
       box-shadow: 0 0 10px rgba(#000, 0.5);
     }
+
     .tile__title {
       color: #000;
       text-decoration: underline;
@@ -61,6 +69,7 @@
   font-size: 0.64rem;
   text-transform: uppercase;
   color: $gray;
+
   &:before {
     content: '\2192'; // right arrow
     padding-right: 5px;

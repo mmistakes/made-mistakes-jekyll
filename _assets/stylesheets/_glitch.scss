@@ -7,10 +7,10 @@
 body {
   padding-top: 0 !important;
 }
+
 .overlay__menu {
   padding-top: 0;
 }
-
 
 .glitch__wrapper {
   display: flex;
@@ -35,9 +35,11 @@ body {
   font-family: $monospace;
   transition: opacity 0.3s ease-out;
   animation: blur 0.2s infinite, shift 20s steps(60) infinite;
+
   @include breakpoint($small) {
     width: 30em;
   }
+
   &:hover {
     animation-play-state: paused;
   }
@@ -48,6 +50,7 @@ body {
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
+
   @include breakpoint($small) {
     font-size: 2.441rem;
   }
@@ -57,44 +60,52 @@ body {
   margin-bottom: 2em;
   font-size: 1rem;
   font-weight: normal;
+
   a {
     color: #fff;
     border-bottom: 1px solid $light-gray;
+
     &:hover {
       color: #000;
       background: #fff;
     }
   }
-  // fake paragraph breaks
+
+  /* fake paragraph breaks */
   .br {
     display: block;
     margin-bottom: 1em;
   }
 }
 
-// menu links
-
+/* menu links */
 .glitch__menu {
   color: #fff;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+
   ul {
     padding: 0;
   }
+
   li {
     list-style: none;
     display: block;
   }
+
   a {
     color: #fff;
     margin-right: 10px;
     border-bottom: 0;
+
     &:before {
       content: "[";
     }
+
     &:after {
       content: "]";
     }
+
     &:hover {
       color: #000;
       background: #fff;
@@ -102,26 +113,27 @@ body {
   }
 }
 
-// typed.js
-
+/* typed.js */
 .typed-cursor {
   display: none;
 }
 
 .js {
+
   .typed__source {
     display: none;
     visibility: hidden;
   }
+
   .typed__secondary {
     opacity: 0;
   }
 }
 
-// typed text destination container
-
+/* typed text destination container */
 .typed__dest {
   display: block;
+
   &:after {
     visibility: visible;
     content: "";

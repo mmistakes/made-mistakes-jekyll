@@ -11,11 +11,11 @@
 ------------------------------------------------------------ */
 
 #primaryNav li {
-    width: 25%;
+  width: 25%;
 }
 
 #primaryNav li ul li {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 // #primaryNav.col1 li { width: 99.9%; }
@@ -24,6 +24,7 @@
 // #primaryNav.col4 li { width: 25.0%; }
 #primaryNav.col5 li {
   width: 100%;
+
   @include breakpoint($medium) {
     width: 20%;
   }
@@ -41,13 +42,16 @@
 
 .sitemap {
     width: 100%;
+
   a {
       text-decoration: none;
   }
+
   ol, ul {
       list-style: none;
       padding-top: 0;
   }
+
   li {
     margin-bottom: 0;
   }
@@ -58,16 +62,18 @@
    Site Map Styles
    ========================================================================== */
 
-/* -------- Top Level --------- */
-
+/* top level */
 #primaryNav {
   margin: 0;
   padding: 0;
+
   @include breakpoint($medium) {
     float: left;
   }
+
   width: 100%;
 }
+
 #primaryNav #home {
   display: block;
   float: none;
@@ -75,19 +81,24 @@
   z-index: 2;
   margin-top: 0;
   padding-bottom: 30px;
+
   @include breakpoint($medium) {
     background: $background-color url('../images/L1-left.png') center bottom no-repeat; /* bg on >= medium screens */
   }
 }
+
 #primaryNav li {
   list-style-type: none;
+
   @include breakpoint($medium) {
     float: left;
     background: url('../images/L1-center.png') center top no-repeat;
   }
+
   padding: 30px 0;
   margin-top: -30px;
 }
+
 #primaryNav li a {
   margin: 0 20px 0 0;
   padding: 10px;
@@ -101,92 +112,115 @@
   border-radius: 5px;
   box-shadow: none;
 }
+
 #primaryNav li a:hover {
   background-color: mix($white, $sitemap-primary-color, 10%);
   border-color: $sitemap-primary-color;
 }
+
 #primaryNav li:last-child {
+
   @include breakpoint($medium) {
     background: url('../images/L1-right.png') center top no-repeat; /* bg on >= medium screens */
   }
 }
+
 #primaryNav > li:last-child {
+
   @include breakpoint($medium) {
+
     a {
       margin-right: 0; /* remove right margin on last list element */
     }
   }
 }
 
-/* -------- Second Level --------- */
-
+/* 2nd level */
 #primaryNav li li {
   width: 100%;
   clear: left;
   margin-top: 0;
   padding: 10px 0 0 0;
+
   @include breakpoint($medium) {
     background: url('../images/vertical-line.png') center bottom repeat-y; /* bg on >= medium screens */
   }
 }
+
 #primaryNav li li a {
-    background-color: $sitemap-sub-color;
-    border-color: mix($black, $sitemap-sub-color, 20%);
+  background-color: $sitemap-sub-color;
+  border-color: mix($black, $sitemap-sub-color, 20%);
 }
+
 #primaryNav li li a:hover {
-    background-color: mix($white, $sitemap-sub-color, 10%);
-    border-color: $sitemap-sub-color;
+  background-color: mix($white, $sitemap-sub-color, 10%);
+  border-color: $sitemap-sub-color;
 }
+
 #primaryNav li li:first-child {
-    padding-top: 30px;
+  padding-top: 30px;
 }
+
 #primaryNav li li:last-child {
+
   @include breakpoint($medium) {
     background: url('../images/vertical-line.png') center bottom repeat-y; /* bg on >= medium screens */
   }
 }
 
-/* -------- Third Level --------- */
-
+/* 3rd level */
 #primaryNav li li ul {
   margin: 10px 0 0 0;
   padding-bottom: 0;
   width: 100%;
+
   @include breakpoint($medium) {
     float: right;
   }
+
   padding: 9px 0 10px 0;
+
   @include breakpoint($medium) {
     background: $background-color url('../images/L3-ul-top.png') center top no-repeat; /* bg on >= medium screens */
   }
 }
+
 #primaryNav li li li {
+
   @include breakpoint($medium) {
     background: url('../images/L3-center.png') left center no-repeat; /* bg on >= medium screens */
   }
+
   padding: 5px 0;
 }
+
 #primaryNav li li li a {
   background-color: $sitemap-sub-sub-color;
   border-color: mix($black, $sitemap-sub-sub-color, 20%);
   font-size: 12px;
   padding: 5px;
   width: 80%;
+
   @include breakpoint($medium) {
     float: right;
   }
 }
+
 #primaryNav li li li a:hover {
   background-color: mix($white, $sitemap-sub-sub-color, 10%);
   border-color: $sitemap-sub-sub-color;
 }
+
 #primaryNav li li li:first-child {
   padding: 15px 0 5px 0;
+
   @include breakpoint($medium) {
     background: url('../images/L3-li-top.png') left center no-repeat; /* bg on >= medium screens */
   }
 }
+
 #primaryNav li li li:last-child {
+
   @include breakpoint($medium) {
     padding-botom: 0;
     background: url('../images/L3-bottom.png') left center no-repeat; /* bg on >= medium screens */
@@ -199,18 +233,24 @@
    ========================================================================== */
 
 #utilityNav {
+
   @include breakpoint($medium) {
     float: right;
   }
+
   max-width: 50%;
   margin-right: 10px;
 }
+
 #utilityNav li {
+
   @include breakpoint($medium) {
     float: left;
   }
+
   margin-bottom: 10px;
 }
+
 #utilityNav li a {
   margin: 0 10px 0 0;
   padding: 5px 10px;
@@ -222,10 +262,12 @@
   color: black;
   border-radius: 5px;
   box-shadow: 0 0 5px mix($black, $background-color, 30%);
+
   @include breakpoint($medium) {
     background: $sitemap-sub-sub-color url('../images/white-highlight.png') top left repeat-x; /* bg on >= medium screens */
   }
 }
+
 #utilityNav li a:hover {
   background-color: mix($white, $sitemap-sub-sub-color, 30%);
   border-color: $sitemap-sub-sub-color;

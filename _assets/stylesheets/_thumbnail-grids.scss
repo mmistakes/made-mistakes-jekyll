@@ -27,6 +27,7 @@
     flex: auto;
     margin: 0.5vw !important; // override
     width: 100px;
+
     @include breakpoint($small) {
       max-width: 250px;
     }
@@ -34,8 +35,10 @@
 
   a {
     border-bottom-width: 0 !important; // override
+
     img {
-      // hover state
+
+      /* hover state */
       &:hover {
         box-shadow: 0 0 10px rgba(#000, 0.5);
       }

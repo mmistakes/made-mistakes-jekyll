@@ -11,16 +11,20 @@
 }
 
 .component__header {
+
   h3 {
     margin-top: 0 !important;
   }
+
   p {
     margin-top: 0;
     font-family: $sans-serif;
     font-size: 0.8rem;
+
     a {
       border-bottom-width: 0;
     }
+
     &.entry--last {
       margin-bottom: 1em;
     }
@@ -28,10 +32,12 @@
 }
 
 .component__rendered {
+
   &--color {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
     @include breakpoint($medium) {
       flex-wrap: nowrap;
     }
@@ -42,6 +48,7 @@
   clear: both;
   position: relative;
   padding-top: 3em;
+
   &:before {
     content: "HTML";
     position: absolute;
@@ -111,6 +118,7 @@ $color:
 (twitter, $twitter-color);
 
 @each $name, $bgcolor in $color {
+
   .color__tile--#{$name} {
     background-color: $bgcolor;
   }
