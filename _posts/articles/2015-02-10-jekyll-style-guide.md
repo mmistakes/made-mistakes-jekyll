@@ -53,13 +53,13 @@ With the structure of the style guide determined next came [configuring the coll
 
 Because I had worked with collections when I built the [FAQ section]({{ site.url }}/faqs/) of my site I had a good idea of what I was doing. To start I added the following to my `_config.yml` and created `_colors` and `_components` folders in the root of my project.
 
-{% highlight yaml %}
+```yaml
 collections:
   components:
     output: false
   colors:
     output: false
-{% endhighlight %}
+```
 
 I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section]({{ site.owner.github-repo }}_faqs/)) I would simply change `output: false` to `true` and add permalinks to the YAML Front Matter.
 
@@ -74,22 +74,20 @@ I've seen [some examples](https://github.com/zakkain/patternlab-jekyll "Pattern 
 
 With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with just a page title and `{% raw %}{{ content }}{% endraw %}` block.
 
-{% highlight html %}
-{% raw %}
----
+```html
+{% raw %}---
 layout: default
 ---
 
 <div id="main" class="wrap" role="main">
   <h1>{{ page.title }}</h1>
   {{ content }}
-</div><!-- /#main -->
-{% endraw %}
-{% endhighlight %}
+</div><!-- /#main -->{% endraw %}
+```
 
 The bulk of the content for the style guide is going to come from creating Markdown files for each component and color palette --- so I started on that next. For components I went with the following YAML Front Matter followed by the bare minimum of HTML needed to create each. `title` and `type` are the only required bits with `scss`, `module`, and `usage` being optional to describe a component and/or link back to their source code.
 
-{% highlight html %}
+```html
 ---
 title: "Main Content Default Notice"
 type: notices
@@ -104,7 +102,7 @@ usage: "Emphasize post text."
     <p>Donec sed tellus eget <a href="#">sapien fringilla nonummy</a>. Mauris a ante. Suspendisse quam sem, consequat at.</p>
   </div>
 </div>
-{% endhighlight %}
+```
 
 <div class="notice--info" markdown="1">
 #### ProTip: Descriptive filenames
@@ -132,7 +130,7 @@ There's not much magic going on here. Basically what I did was:
 
 Here's the Liquid I came up with to fill the page with content from the `components` collection.
 
-{% highlight html %}
+```html
 {% raw %}{% assign componentsByType = site.components | group_by:"type" %}
 {% for type in componentsByType %}
 <h2 id="guide-{{ type.name }}" class="cf">{{ type.name | capitalize }}</h2>
@@ -140,7 +138,7 @@ Here's the Liquid I came up with to fill the page with content from the `compone
 {% include component.html %}
 {% endfor %}
 {% endfor %}{% endraw %}
-{% endhighlight %}
+```
 
 What's going on here is I'm iterating over the `components` collection, grouping the documents by type[^component-type], and displaying each document's content twice (rendered HTML and syntax highlighted un-rendered HTML).
 
@@ -153,9 +151,8 @@ I had some trouble getting the Liquid above, Markdown, and syntax highlighting t
 
 Sandwiched between the `entry` loop is an include that takes care of spitting out the rendered and syntax highlighted HTML along with an optional short description and links to Sass and `include` sources.
 
-{% highlight html %}
-{% raw %}
-<article class="component">
+```html
+{% raw %}<article class="component">
   <header class="component-header">
     <h3 id="guide-{{ entry.title | slugify }}">{{ entry.title }}</h3>
       {% if entry.usage %}<p><strong>Usage:</strong> {{ entry.usage }}</p>{% endif %}
@@ -174,15 +171,14 @@ Sandwiched between the `entry` loop is an include that takes care of spitting ou
       
     </div><!-- /.component-code -->
   </div><!-- /.component-content -->
-</article><!-- /.component -->
-{% endraw %}
-{% endhighlight %}
+</article><!-- /.component -->{% endraw %}
+```
 
 #### Component selector navigation
 
 To help expose components that may be buried towards the bottom of the page I came up with this to create an option list nav.
 
-{% highlight html %}
+```html
 {% raw %}
 <nav id="component-selector" class="wrap">
   <select name="section" id="component-select">
@@ -209,9 +205,8 @@ To help expose components that may be buried towards the bottom of the page I ca
       }
     }
   })(document);
-</script>
-{% endraw %}
-{% endhighlight %}
+</script>{% endraw %}
+```
 
 <figure>
   <img src="{{ site.url }}/images/style-guide-component-selector.jpg" alt="style guide component selector">
@@ -235,7 +230,7 @@ My goal here was to avoid hard coding color values into each document, and inste
 
 To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/master/doc-src/SASS_CHANGELOG.md#sassscript-maps) of all the color variables found on the site along with some additional CSS to build the swatch tiles. 
 
-{% highlight scss %}
+```scss
 /*
    Color swatches
    ========================================================================== */
@@ -260,7 +255,7 @@ To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/mast
     white-space: normal;
   }
 }
-{% endhighlight %}
+```
 
 ## Maintaining the Style Guide
 
