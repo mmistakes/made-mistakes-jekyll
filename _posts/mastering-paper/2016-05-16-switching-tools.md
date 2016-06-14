@@ -44,6 +44,6 @@ And for you iPhone Paper users there are three sets of tools you can swipe throu
   <figcaption>Switching tools in iPhone version of Paper.</figcaption>
 </figure>
 
-I know what you're thinking, "wow how could anyone miss this?" Well from the amount of emails I receive a month asking how to change tools... quite a lot {% icon wink %}.
+I know what you're thinking, "wow how could anyone miss this?" Well from the amount of emails I receive a month asking how to change tools... quite a lot :wink:.
 
 Baffled by how to do something else in Paper? Leave a comment below, or if you'd prefer to keep it private fire off a message to me from my [Contact page]({{ site.url }}/contact/).

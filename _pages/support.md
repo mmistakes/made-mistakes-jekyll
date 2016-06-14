@@ -49,16 +49,16 @@ Subscribing to the [**All Posts**](http://feeds.feedburner.com/MadeMistakes) fee
 I include banner ads on the site to help offset the costs associated with keeping this site up, but we all know no one clicks on that crap. If you'd like to send a donation my way so I can continue to provide free content and themes, hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoins.
 
 <p markdown="0">
-  <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">{% icon paypal %} Send PayPal Money</a>
+  <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn"><svg class="icon"><use xlink:href="#icon-paypal"></use></svg> Send PayPal Money</a>
   <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">Send Square Cash</a>
   <a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn">Send Bitcoins</a>
 </p>
 
 ## Buy Something
 
-If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will give me a small commission if you end up buying something and will cost you nothing. I also maintain an Amazon Wish List if you are feeling extra generous. {% icon wink %}
+If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will give me a small commission if you end up buying something and will cost you nothing. I also maintain an Amazon Wish List if you are feeling extra generous. :wink:
 
 <p markdown="0">
-  <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn">{% icon amazon %} Shop Amazon</a>
-  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn">{% icon amazon %} Amazon Wish List</a>
+  <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn"><svg class="icon"><use xlink:href="#icon-amazon"></use></svg> Shop Amazon</a>
+  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn"><svg class="icon"><use xlink:href="#icon-amazon"></use></svg> Amazon Wish List</a>
 </p>

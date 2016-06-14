@@ -14,7 +14,7 @@ Speaking of Bluetooth styli, I now use [FiftyThree's Pencil][pencil-stylus] abou
 
 <div class="notice--warning" markdown="1">
 #### iPad Styli Update
-Ten One Design has released the <a href="https://tenonedesign.com/connect.php">Pogo Connect 2</a>, which is essentially the same as the original but with support for the iPad Air 2 and Mini 3. Apple has also entered this space with <a href="http://www.apple.com/apple-pencil/" title="Apple Pencil">a stylus of their own</a> that currently only works with an iPad Pro. I haven't used either yet so I can't comment on how well they perform, but the <a href="{{ site.url }}{% post_url 2015-09-25-ipad-pro %}">Apple Pencil</a> looks mighty tasty {% icon wink %}.
+Ten One Design has released the <a href="https://tenonedesign.com/connect.php">Pogo Connect 2</a>, which is essentially the same as the original but with support for the iPad Air 2 and Mini 3. Apple has also entered this space with <a href="http://www.apple.com/apple-pencil/" title="Apple Pencil">a stylus of their own</a> that currently only works with an iPad Pro. I haven't used either yet so I can't comment on how well they perform, but the <a href="{{ site.url }}{% post_url 2015-09-25-ipad-pro %}">Apple Pencil</a> looks mighty tasty :wink:.
 </div>
 
 **Here's a quick reference of all the iPad styli I have experience with:**

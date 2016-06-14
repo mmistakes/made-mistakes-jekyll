@@ -1,11 +1,11 @@
 <div class="post__social">
   {% if page.comments == true %}
-    <button onclick="load_disqus()" id="js-comment-btn" class="btn">{% icon comments %} <span class="disqus-comment-count comments-link" data-disqus-url="{{ site.url }}{{ page.url }}">Leave a Comment</span></button>
+    <button onclick="load_disqus()" id="js-comment-btn" class="btn"><svg class="icon"><use xlink:href="#icon-comments"></use></svg> <span class="disqus-comment-count comments-link" data-disqus-url="{{ site.url }}{{ page.url }}">Leave a Comment</span></button>
   {% endif %}
 
   {% if page.share != empty and page.share != false %}
-    <a class="btn btn--twitter" href="https://twitter.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}&via={{ site.owner.twitter }}&text={{ page.title | markdownify | remove: '<p>' | remove: '</p>' | cgi_escape }}" target="_blank" title="Share on Twitter">{% icon twitter %} Tweet</a>
-    <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}" target="_blank" title="Share on Facebook">{% icon facebook %} Share</a>
+    <a class="btn btn--twitter" href="https://twitter.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}&via={{ site.owner.twitter }}&text={{ page.title | markdownify | remove: '<p>' | remove: '</p>' | cgi_escape }}" target="_blank" title="Share on Twitter"><svg class="icon"><use xlink:href="#icon-twitter"></use></svg> Tweet</a>
+    <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}" target="_blank" title="Share on Facebook"><svg class="icon"><use xlink:href="#icon-facebook"></use></svg> Share</a>
   {% endif %}
 </div>
 

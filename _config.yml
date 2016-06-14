@@ -79,6 +79,7 @@ gems:
   - jekyll-assets
   - jekyll/tagging
   - jekyll-tagging-related_posts
+  - jemoji
 
 # Collections
 

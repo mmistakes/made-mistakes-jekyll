@@ -17,7 +17,7 @@ If you squint your eyes just right it almost looks like a photograph. Just don't
   <a href="{{ site.url }}/images/rakso-s-process-1-lg.jpg"><img src="{{ site.url }}/images/rakso-s-process-1-320.jpg" alt="process screenshot 1"></a>
   <a href="{{ site.url }}/images/rakso-s-process-2-lg.jpg"><img src="{{ site.url }}/images/rakso-s-process-2-320.jpg" alt="process screenshot 2"></a>
   <a href="{{ site.url }}/images/rakso-s-process-3-lg.jpg"><img src="{{ site.url }}/images/rakso-s-process-3-320.jpg" alt="process screenshot 3"></a>
-  <figcaption>Just start with a line drawing, add a glaze here and a Gaussian blur there and you're done {% icon wink %}.</figcaption>
+  <figcaption>Just start with a line drawing, add a glaze here and a Gaussian blur there and you're done :wink:.</figcaption>
 </figure>
 
 <figure>
