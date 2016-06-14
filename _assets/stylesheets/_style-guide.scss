@@ -8,6 +8,11 @@
   padding: 1em;
   border-radius: $border-radius;
   border: 1px solid $border-color;
+
+  div.highlighter-rouge,
+  figure.highlight {
+    margin: 0;
+  }
 }
 
 .component__header {
