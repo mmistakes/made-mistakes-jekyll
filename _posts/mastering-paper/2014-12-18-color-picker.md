@@ -76,7 +76,7 @@ Or after the fact...
 
 Once you have a photo on the canvas you can sample its colors:
 
-1. Tap the small circle inside of the Color Mixer tool.
+1. Tap the small circle inside of the **Color Mixer** tool.
 2. Tap the eyedropper.
 3. Drag the selector on top of the area you wish to sample.
 4. Tap the eyedropper again to work with or save to your palette.
