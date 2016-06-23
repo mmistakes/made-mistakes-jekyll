@@ -1,6 +1,6 @@
 ---
 title: "Mastering Paper by FiftyThree: Picking and Sharing Colors"
-modified: 2015-01-28T11:11:28-05:00
+modified: 2016-06-23T16:32:00-04:00
 excerpt: "A color picker has finally been added to Paper! Learn what the new tool does and how to use it."
 tags: [Paper by 53, color theory, tutorial, iPad]
 image:
@@ -57,6 +57,34 @@ When you've found a color you'd like to work with or save to your palette tap th
 #### ProTip: Saving a Sampled Color
 Tapping anywhere on the canvas will dismiss the Color Picker and the sampled color will not be saved to the Mixer. You have to tap the circle in the Color Picker or eye dropper for it to stick.
 </div>
+
+### Picking Colors from a Photograph
+
+Sampling colors with the picker isn't limited to just the ink, fill, and background layers --- you can also sample colors from photos. To start you'll want to import an existing image or snap a new one with the camera.
+
+To place a photo on the canvas tap the **camera icon**. Importing photos can be done when an idea is first created...
+
+<figure>
+  <img src="{{ site.url }}/images/paper-53-color-new-idea.jpg" alt="Paper new idea options">
+</figure>
+
+Or after the fact...
+
+<figure>
+  <img src="{{ site.url }}/images/paper-53-color-photo-import-button.jpg" alt="import photos in Paper">
+</figure>
+
+Once you have a photo on the canvas you can sample its colors:
+
+1. Tap the small circle inside of the Color Mixer tool.
+2. Tap the eyedropper.
+3. Drag the selector on top of the area you wish to sample.
+4. Tap the eyedropper again to work with or save to your palette.
+
+<figure class="half">
+  <img src="{{ site.url }}/images/paper-53-color-photo-sample-1.jpg" alt="">
+  <img src="{{ site.url }}/images/paper-53-color-photo-sample-2.jpg" alt="">
+</figure>
 
 ---
 
