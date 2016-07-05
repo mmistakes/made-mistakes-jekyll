@@ -1,7 +1,7 @@
 ---
 title: "Watercolor, Not Watercolor"
 excerpt: "Portrait of Emil I. digitally painted with Procreate on an iPad."
-modified: 2016-04-26T12:54:22-04:00
+modified: 2016-07-05T11:17:57-04:00
 image: 
   feature: emil-i-procreate-lg.jpg
   teaser: emil-i-procreate-teaser.jpg
@@ -24,5 +24,10 @@ There's some serious lag which I can give it a pass on since this thing came out
 On the positive side, the tip is made of a hard plastic. Unlike styli that have the fat rubber nibs --- it doesn't appear it will ever wear out. Plus it doesn't smear grease all over the screen which is a big win in my book.
 
 After getting a taste at what pressure sensitive drawing with Procreate could be like, I just want to own the real thing --- an [Apple Pencil and iPad Pro]({{ site.url }}{% post_url 2015-09-25-ipad-pro %}) :smile:.
+
+<figure>
+  <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/fFX1CUO472U?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption>Time lapse video recorded within Procreate.</figcaption>
+</figure>
 
 {% include boilerplate/procreate-2.html %}
