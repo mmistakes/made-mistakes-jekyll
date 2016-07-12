@@ -15,7 +15,6 @@ Jekyll Assets is used to build, concatenate, and minify stylesheets and JavaScri
 * [Jekyll Assets](https://github.com/jekyll/jekyll-assets)
 * [Jekyll Related Posts](https://github.com/jumanji27/related_posts-jekyll_plugin)
 * [Jekyll Picture Tag](https://github.com/robwierzbowski/jekyll-picture-tag)
-* SVG <use> Liquid Tag
 
 ### Images
 
