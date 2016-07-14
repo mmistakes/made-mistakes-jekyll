@@ -17,4 +17,3 @@ _  ________ ____   _  ______________  _________
                 Adobe Creative Suite
                 Grunt <http://gruntjs.com>
                 SimpleIcon <http://www.flaticon.com>
-                Twitter Emoji <https://github.com/twitter/twemoji>
