@@ -31,7 +31,15 @@
     <ul class="overlay__menu-col-1">
       <li class="overlay__menu-label">Of Interest</li>
       {% for link in site.data.navigation.primary %}
-        <li class="overlay__menu-item"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+        <li class="overlay__menu-item">
+          <a href="{{ site.url }}{{ link.url }}">
+            <div class="menu-thumb">{% if link.img %}<img src="{{ site.url }}/images/{{ link.img }}" alt="">{% endif %}</div>
+            <div class="menu-text">
+              <div class="menu-title">{{ link.title }}</div>
+              {% if link.excerpt %}<div class="menu-excerpt">{{ link.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</div>{% endif %}
+            </div>
+          </a>
+        </li>
       {% endfor %}
     </ul>
     <ul class="overlay__menu-col-2">
