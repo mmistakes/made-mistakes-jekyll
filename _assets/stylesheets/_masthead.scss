@@ -154,14 +154,15 @@
   a {
     display: inline-block;
     margin: 5px 0;
-    padding: 5px 5px 5px 0;
-    color: #000;
-    border-radius: 0.25em;
+    padding: 5px 40px 5px 0;
+    color: $text-color;
 
     &:hover {
-      padding-left: 10px;
-      padding-right: 10px;
-      background-color: $light-gray;
+      color: #000;
+
+      img {
+        box-shadow: 0 0 10px rgba($black, 0.20);
+      }
     }
   }
 
@@ -171,50 +172,58 @@
 
 }
 
-.overlay__menu-col-1 {
-
-  @include breakpoint($small) {
-    flex: 3;
-    margin-right: 3em;
-  }
-}
-
-.overlay__menu-col-2 {
-
-  @include breakpoint($small) {
-    flex: 2;
-  }
-}
-
-.overlay__menu-wrapper {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-
-  @include breakpoint($small) {
-    flex-direction: row;
-  }
-}
-
 .overlay__menu-item {
   display: block;
-  width: 100%;
-  font-size: 1.563rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  @include breakpoint($large) {
-    font-size: 1.953rem;
-    line-height: 1.953rem;
+  @include breakpoint($medium) {
+    width: 50%;
+  }
+
+  a {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .menu-thumb {
+    display: block;
+    width: 100px;
+    height: 60px;
+    order: -1;
+    margin-right: 1em;
+
+    img {
+      width: 100px;
+      height: 60px;
+      border-radius: $border-radius;
+    }
+  }
+
+  .menu-text {
+    flex: 1;
+  }
+
+  .menu-title {
+    font-size: 1.563rem;
+    line-height: 1.563rem;
+  }
+
+  .menu-excerpt {
+    font-size: 0.8rem;
   }
 }
 
 .overlay__menu-item--secondary {
   display: block;
-  width: 100%;
+  padding-right: 0.5em;
   font-size: 1.563rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @include breakpoint($small) {
+    width: 50%;
+  }
 
   @include breakpoint($large) {
     line-height: 1.953rem;

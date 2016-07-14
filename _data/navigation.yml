@@ -38,18 +38,32 @@ masthead:
 primary:
   - title: "Work Portfolio"
     url: /work/
+    img: work-portfolio-menu-thumb.jpg
+    excerpt: "Things I've designed, illustrated, and developed."
   - title: "Blog Articles"
     url: /articles/
+    img: blog-articles-menu-thumb.jpg
+    excerpt: "Thoughts, inspiration, mistakes, and other minutia I've written."
   - title: "Mastering Paper"
     url: /mastering-paper/
+    img: mastering-paper-menu-img.jpg
+    excerpt: "Tutorials to help you master Paper by FiftyThree."
   - title: "Jekyll Themes"
     url: /work/jekyll-themes/
+    img: jekyll-themes-menu-item.jpg
+    excerpt: "Open source Jekyll themes."
   - title: "PaperFaces Portraits"
     url: /paperfaces/
+    img: paperfaces-menu-thumb.jpg
+    excerpt: "Portraits digitally painted with Paper by FiftyThree on iPad."
   - title: "Procreate Paintings"
     url: /procreate-paintings/
+    img: procreate-paintings-menu-thumb.jpg
+    excerpt: "Portraits digitally painted with Procreate on iPad."
   - title: "Tiny Paintings"
     url: /tiny-paintings/
+    img: tiny-paintings-menu-thumb.jpg
+    excerpt: "Mini watercolor portraits painted at really small sizes."
 
 
 # Secondary site navigation links (overlay)

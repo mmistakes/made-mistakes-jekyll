@@ -19,7 +19,7 @@ PaperFaces was an iPad drawing project by time traveling designer and illustrato
 The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
 
 <ul class="th-grid">
-{% for post in site.categories.paperfaces limit:15 %}
+{% for post in site.categories.paperfaces limit:16 %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
   </li>
