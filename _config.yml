@@ -74,12 +74,6 @@ exclude:
   - .asset-cache
   - .sass-cache
   - .bundle
-gems:
-  - jekyll-archives
-  - jekyll-assets
-  - jekyll/tagging
-  - jekyll-tagging-related_posts
-  - jemoji
 
 # Collections
 
