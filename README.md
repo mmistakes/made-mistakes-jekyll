@@ -34,17 +34,17 @@ To regenerate files `rake build:dev` and `rake build:drafts` to build posts in `
 
 By default Jekyll's environment should be set to development but if not `JEKYLL_ENV=development bundle exec jekyll build` or `set JEKYLL_ENV=development` in `cmd.exe` on Windows.
 
-#### Home Page
+#### Glitch Pages
 
-The home page is made up of three parts:
+The home and 404 error pages are made up of three parts:
 
-`<root>/index.md`: here you will find the content that makes up the home page. It's 99% HTML to get the desired markup but the same result could probably be achieved with Kramdown if you add `{: .class-name}` to each of the required elements.
+1. **Page Content**: <_pages/home.md> and <_pages/404.md>.
 
-The *word slide* effect is achieved with some JavaScript and wrapping each of the adjectives in `<b></b>` elements inside of `.home__words-wrapper`. When JavaScript is disabled only the first word is visible.
+2. **Glitch Layout**: <_layouts/glitch.html> is a stripped down version of the default layout with the `.masthead` and `.colophon` removed from view. Used for the home and 404 error pages.
 
-`_layouts/home.html`: stripped down version of the default layout with the `.masthead` and `.colophon` removed.
+3. **Glitch Stylesheet**: <_assets/stylesheets/glitch-critical.css.scss> is slimmed down version of the site stylesheet.
 
-`_sass/_home.scss`: home page specific styles.
+The *animated text typing* effect is achieved with [**Typed.js**](http://www.mattboldt.com/demos/typed-js/). Text strings should be modified in `_assets/javascripts/glitch.js` and match markup found in [`_pages/home.md`](_pages/home.md) and [`_pages/404.md`](_pages/404.md).
 
 #### Archives
 
