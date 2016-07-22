@@ -22,9 +22,9 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  animation-name: glitch-start, glitch, glitch-start, glitch-start, glitch-end;
+  animation-name: glitch-start, glitch-mid, glitch-start, glitch-start, glitch-end;
   animation-duration: 0.5s;
-  animation-iteration-count: 2;
+  animation-iteration-count: 3;
   animation-delay: 0s, 5s, 20s, 25s, 35s;
   z-index: 1;
 }

@@ -44,7 +44,7 @@ $(document).ready(function(){
 
   // home page auto typing
   $("#js-home-typed").typed({
-    strings: ["<span class='glitch__title'>Hello^250 my name is Mî̽̿ͫ̒c͑̔̃͂h͂̽ͤ̊ͭͣa͛̓̍̓el̓͌̂̀̆&nbsp;Rͩͤ͂̄o̾̽̈́͆ͨ̚s͋̌̊̐e. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='https://mademistakes.com/paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='https://mademistakes.com/articles/'>my writing</a>, ^750 <a href='https://mademistakes.com/mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='https://mademistakes.com/work/'>creative endeavors</a>."],
+    strings: ["<span class='glitch__title'>Hello^250 my name is&nbsp;Mî̽̿ͫc͑̔̃͂h͂̽ͤ̊ͭͣa͛̓̍̓el̓͌̂̀̆&nbsp;Rͩͤ͂̄o̾̽̈́͆ͨ̚s͋̌̊̐e. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='https://mademistakes.com/paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='https://mademistakes.com/articles/'>my writing</a>, ^750 <a href='https://mademistakes.com/mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='https://mademistakes.com/work/'>creative endeavors</a>."],
     contentType: "html",
     startDelay: 0,
     backDelay: 3000,
