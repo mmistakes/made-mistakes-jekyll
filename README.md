@@ -38,11 +38,11 @@ By default Jekyll's environment should be set to development but if not `JEKYLL_
 
 The home and 404 error pages are made up of three parts:
 
-1. **Page Content**: <_pages/home.md> and <_pages/404.md>.
+1. **Page Content**: [`_pages/home.md`](_pages/home.md) and [`_pages/404.md`](_pages/404.md).
 
-2. **Glitch Layout**: <_layouts/glitch.html> is a stripped down version of the default layout with the `.masthead` and `.colophon` removed from view. Used for the home and 404 error pages.
+2. **Glitch Layout**: [`_layouts/glitch.html`](_layouts/glitch.html) is a stripped down version of the default layout with the `.masthead` and `.colophon` removed from view. Used for the home and 404 error pages.
 
-3. **Glitch Stylesheet**: <_assets/stylesheets/glitch-critical.css.scss> is slimmed down version of the site stylesheet.
+3. **Glitch Stylesheet**: [`_assets/stylesheets/glitch-critical.css.scss`](_assets/stylesheets/glitch-critical.css.scss) is slimmed down version of the site stylesheet.
 
 The *animated text typing* effect is achieved with [**Typed.js**](http://www.mattboldt.com/demos/typed-js/). Text strings should be modified in `_assets/javascripts/glitch.js` and match markup found in [`_pages/home.md`](_pages/home.md) and [`_pages/404.md`](_pages/404.md).
 
