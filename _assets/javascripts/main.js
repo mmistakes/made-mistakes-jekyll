@@ -1,5 +1,4 @@
 //= require vendor/jquery.min
-//= require plugins/bigfoot.min
 //= require plugins/jquery.fitvids.min
 //= require plugins/jquery.lazyload.min
 //= require plugins/jquery.magnific-popup.min
@@ -107,6 +106,6 @@ $(document).ready(function(){
 
 
   // Bigfoot footnotes
-  $.bigfoot();
+  // $.bigfoot();
 
 });
