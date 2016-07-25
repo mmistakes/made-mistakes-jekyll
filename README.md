@@ -65,7 +65,7 @@ Comments are disabled by default. To enable add `comments: true` to the YAML Fro
 
 #### SVG Icons
 
-SVG assets are optimized and smashed together into `_includes/svg-icons.svg` and can be referenced by name (see table below).
+SVG assets are optimized and smashed together into `_includes/svg-icons.svg` and can be referenced by name.
 
 To update or add new assets:
 
