@@ -1,0 +1,16 @@
+---
+id: comment-1240125834
+date: '2014-02-11 20:02:51 +0000'
+updated: '2014-02-11 20:02:51 +0000'
+post_id: "/pogo-connect-sensitivity"
+name: Michael Rose
+url: https://mademistakes.com/
+message: "Thanks Jim!\r\n\r\nThis is a known problem, check out [TenOne Design's blog](http://tenonedesign.com/blog/t1pogomanager-sdk-v132-for-ipad-air/)
+  for more detail.\r\n\r\nThe gist is Apple farted
+  around with the technology behind their screens for the new iPad Air and Mini with
+  retina, which caused the Pogo Connect to stop working.\r\n\r\nTenOne Design has since
+  released an update that partially supports these new screens, but it still has issues.
+  I don't have a newer iPad so I can't verify any of this. My guess as to why it works
+  in Procreate and the Pogo Connect app is because they're using TenOne Design's newer
+  SDK and Paper hasn't updated to it yet."
+avatar: http://disqus.com/api/users/avatars/mmistakes.jpg

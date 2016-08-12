@@ -1,0 +1,14 @@
+---
+id: comment-1171004112
+date: '2013-12-20 02:38:47 +0000'
+updated: '2013-12-20 02:38:47 +0000'
+post_id: "/hpstr-jekyll-theme"
+name: Michael Rose
+url: https://mademistakes.com/
+message: "That's good to hear. I think I mentioned it before but I didn't declare
+  font sizes on all the text elements, so that could be why changing the `doc-font-size`
+  variable has no effect. To change the entry content size look play around with the
+  font-size set on `.entry-content`. Anywhere else you might have to add a font-size
+  declaration to the element to override any browser defaults I didn't clear out in
+  the CSS reset."
+avatar: http://disqus.com/api/users/avatars/mmistakes.jpg

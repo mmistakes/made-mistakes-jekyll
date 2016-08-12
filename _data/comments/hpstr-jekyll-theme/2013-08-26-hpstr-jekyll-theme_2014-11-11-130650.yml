@@ -1,0 +1,11 @@
+---
+id: comment-1687661273
+date: '2014-11-11 13:06:50 +0000'
+updated: '2014-11-11 13:06:50 +0000'
+post_id: "/hpstr-jekyll-theme"
+name: Michael Rose
+url: https://mademistakes.com/
+message: "By editing the site's CSS. The main stylesheet is broken up into various
+  Sass partials. I'd start with `_variables.scss` since that defines most of the themes
+  colors and fonts.\r\n\r\nAnything else and you'll have to poke around the [other partials](https://github.com/mmistakes/hpstr-jekyll-theme/tree/master/_sass)"
+avatar: http://disqus.com/api/users/avatars/mmistakes.jpg

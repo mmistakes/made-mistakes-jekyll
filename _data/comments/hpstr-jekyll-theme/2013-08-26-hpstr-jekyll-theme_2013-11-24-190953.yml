@@ -1,0 +1,12 @@
+---
+id: comment-1137389558
+date: '2013-11-24 19:09:53 +0000'
+updated: '2013-11-24 19:09:53 +0000'
+post_id: "/hpstr-jekyll-theme"
+name: prometheus2305
+url: ''
+message: "Absolutely correct. Sorry about being vague but you understood exactly
+  the issue. I had to remove the `url` from the `_config.yml` file all together and just
+  use the config in `s3_website.yml` and it did the trick. Still learning how all of
+  this works. Thank you again for the response and for creating one of the best themes
+  I've seen."
