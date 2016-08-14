@@ -1,0 +1,12 @@
+---
+id: comment-1093881377
+date: '2013-10-23 16:09:18 +0000'
+updated: '2013-10-23 16:09:18 +0000'
+post_id: "/so-simple-jekyll-theme"
+name: Michael Rose
+url: https://mademistakes.com/
+message: "I'm not too familiar with RedCarpet but I'm guessing it doesn't support
+  that shortcut for applying classes. Kramdown does which is what I use for Markdown
+  with the theme.\r\n\r\nIf you don't want to switch, adding HTML to your Markdown
+  file is always an option."
+avatar: http://disqus.com/api/users/avatars/mmistakes.jpg

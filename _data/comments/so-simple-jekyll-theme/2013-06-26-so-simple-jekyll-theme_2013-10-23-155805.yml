@@ -1,0 +1,10 @@
+---
+id: comment-1093861442
+date: '2013-10-23 15:58:05 +0000'
+updated: '2013-10-23 15:58:05 +0000'
+post_id: "/so-simple-jekyll-theme"
+name: Jesse
+url: ''
+message: "Actually just verified it is. Did a `gem install kramdown` and switched
+  the `_config.yml` back to `kramdown` then regenerated. Works like it's supposed to.
+  Might consider adding kramdown to the `Gemfile` since the samples rely on it."

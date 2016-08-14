@@ -1,0 +1,13 @@
+---
+id: comment-1199207931
+date: '2014-01-13 23:01:20 +0000'
+updated: '2014-01-13 23:01:20 +0000'
+post_id: "/so-simple-jekyll-theme"
+name: Alessandro Amato del Monte
+url: ''
+message: "Ok so I tried a few things and:\r\n\r\n1. i need to run jquery 1.71. Looks
+  like the rest of your theme is unaffected by this so far.\r\n2. I had to move
+  the scripts within the head so I changed `_layouts/page.html` and `post.html` to have
+  `{% include scripts.html %}` just after the include.\r\n\r\nNow Galleryview
+  works! But the top menubar doesn't..."
+avatar: http://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg
