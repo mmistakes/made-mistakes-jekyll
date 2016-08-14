@@ -15,4 +15,4 @@ message: "There are a few spots where I didn't declare font-sizes on elements an
   download and install everything it needs and rebuild the modules.\r\n\r\nThat should hopefully
   clear everything up for you. I'm still new to Node and Grunt myself, so I'm by no
   means a pro."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

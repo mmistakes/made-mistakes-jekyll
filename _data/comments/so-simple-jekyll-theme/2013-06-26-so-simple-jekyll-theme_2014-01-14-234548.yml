@@ -16,4 +16,4 @@ message: "So I got everything to work now! At least locally, I still need to und
   able to follow the instructions given.\r\n\r\nBut I've found a [nice
     script](https://github.com/balevine/jekyll-deploy) that makes the magic for me so it may help others\r\n\r\nAnd finally [this is an
       example](http://aadm.github.io/2013-11-22-ciao-alfonsine.html) where you can see GalleryView in action."
-avatar: http://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg
+avatar: https://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg

@@ -8,4 +8,4 @@ url: ''
 message: "This is great! Incredibly ignorant question: I've been messing around
   with variables in Sass, but I can't figure out how to change the font. I make changes
   in `_variables.scss`, but the fonts don't show up on the rendered site."
-avatar: http://disqus.com/api/users/avatars/disqus_Kr3WZABtYx.jpg
+avatar: https://disqus.com/api/users/avatars/disqus_Kr3WZABtYx.jpg

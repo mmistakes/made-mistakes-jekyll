@@ -17,4 +17,4 @@ message: "I know enough Javascript to be dangerous so I might not have a 100% so
   with something in there, namely FitVids since I noticed a reference to it in your
   console, but my money is on a jQuery conflict.\r\n\r\nOther than these suggestions
   I don't have much else to offer about fixing scripts. It's not really my expertise."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

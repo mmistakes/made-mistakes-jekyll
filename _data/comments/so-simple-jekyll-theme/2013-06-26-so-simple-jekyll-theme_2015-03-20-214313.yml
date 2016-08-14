@@ -9,4 +9,4 @@ message: "You can assign tags to a post in the YAML Front Matter and then sort
   on those. See the example posts on the demo site to see how I did it.\r\n\r\nIf you
   want something more dynamic and automatic you'll need to build or install a Jekyll
   plugin."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

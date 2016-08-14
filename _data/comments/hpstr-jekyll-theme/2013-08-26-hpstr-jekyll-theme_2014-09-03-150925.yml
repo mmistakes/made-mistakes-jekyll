@@ -9,4 +9,4 @@ message: "You need to modify the theme's layouts. If you look for occurrences of
   `{{ <a href=\"http://page.date\">page.date</a> }}` and `{{ <a href=\"http://post.date\">post.date</a> }}` in the various _layouts they have Liquid filters
   applied to convert the date into different formats.\r\n\r\nHere's a [good blog post](http://alanwsmith.com/jekyll-liquid-date-formatting-examples)
   showing how they work and a bunch of examples.\r\n\r\n"
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

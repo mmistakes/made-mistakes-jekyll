@@ -9,4 +9,4 @@ message: "Thanks for the feedback Michael, I agree with you, at first it seems
   not a good idea. I've seen on Paul Stamatiou's site a good article on [this subject](http://paulstamatiou.com/how-to-wordpress-to-jekyll)
   and he finishes linking to some patch that allows Jekyll to do [incremental regenerations](https://github.com/graysky/jekyll/commit/39ae8c7c3f4a3cffd095e3b7638cfa8025c5a67a).\r\n\r\nMaybe this could be useful,
   regards! ;)"
-avatar: http://disqus.com/api/users/avatars/picajoso.jpg
+avatar: https://disqus.com/api/users/avatars/picajoso.jpg

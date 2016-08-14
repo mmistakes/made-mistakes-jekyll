@@ -20,4 +20,4 @@ message: "I'm sorry for being so ignorant but I'm not sure if I'm hosting my
   on Github Pages. It should be working locally anyway, right (creating the site with
   `jekyll --serve` etc and testing it on `http://localhost:4000`)? Well it isn't. I also
   am not sure I know how to \"deploy the files in `_site`\" as you suggest."
-avatar: http://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg
+avatar: https://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg

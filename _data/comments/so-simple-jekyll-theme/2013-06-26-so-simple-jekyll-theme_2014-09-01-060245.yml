@@ -7,4 +7,4 @@ name: aaronchiang
 url: ''
 message: "Hi, Michael, I got a warning on Jekyll 2.3.0. The `feed.xml` need change
   the layout from `none` to `null`"
-avatar: http://disqus.com/api/users/avatars/aaronchiang.jpg
+avatar: https://disqus.com/api/users/avatars/aaronchiang.jpg

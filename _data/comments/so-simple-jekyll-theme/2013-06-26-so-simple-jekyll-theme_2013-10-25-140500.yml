@@ -10,4 +10,4 @@ message: "If you want buttons to be centered \"globally\" then you''ll need to m
   button you could wrap it in a `div` that has CSS to `text-align: center` and that should
   do the trick. If you look at the `.pagination` wrapper that includes the next and
   previous post links and that's how I centered them."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

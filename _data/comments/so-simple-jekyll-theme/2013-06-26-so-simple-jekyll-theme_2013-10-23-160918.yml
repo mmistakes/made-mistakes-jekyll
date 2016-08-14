@@ -9,4 +9,4 @@ message: "I'm not too familiar with RedCarpet but I'm guessing it doesn't suppor
   that shortcut for applying classes. Kramdown does which is what I use for Markdown
   with the theme.\r\n\r\nIf you don't want to switch, adding HTML to your Markdown
   file is always an option."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

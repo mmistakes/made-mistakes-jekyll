@@ -7,4 +7,4 @@ name: Michael Rose
 url: https://mademistakes.com/
 message: "Kramdown to my knowledge is a Jekyll dependency. It should install along
   with it, at least it does when I've tried a clean install or update."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

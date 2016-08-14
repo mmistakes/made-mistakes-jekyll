@@ -13,4 +13,4 @@ message: "Those characters are added using `:after` pseudo classes on the list i
   around line 101.\r\n\r\nTo swap the icon you'll need to find the one you want and
   use the corresponding Unicode. For example, to flip `>`
   to `<` you'd change `\\f105` to `\\f104`.\r\n\r\nHope this helps."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

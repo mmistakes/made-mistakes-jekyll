@@ -12,4 +12,4 @@ message: "So close. My guess is using jQuery 1.7.1 broke something with the resp
   be able to spot the CSS that needs modifying.\r\n\r\nThere's probably a few `display:
   none`s in there that is hiding the nav that could be taken out.\r\n\r\nOr check
   the [Responsive Nav's site](ttp://responsive-nav.com) for a possible fix."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

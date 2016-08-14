@@ -11,4 +11,4 @@ message: "\"Not working\" is fairly vague so I'm just taking a stab here that yo
   to be either left blank or set to your localhost server (eg. `http://localhost:4000`).
   When uploading to your web server it needs match the domain you're serving from
   or else you'll experience broken links galore."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

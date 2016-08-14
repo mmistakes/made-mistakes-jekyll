@@ -15,4 +15,4 @@ message: "Depends on how large the site is. I have around 700 posts and it takes
   to see the latest 10 posts. That builds fast and allows me to test before I do a
   full site build.\r\n\r\nPretty sure it's on the radar of the Jekyll folks to address
   this issue. But probably won't happen anytime soon."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

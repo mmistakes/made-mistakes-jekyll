@@ -8,4 +8,4 @@ url: ''
 message: "Right. So if I open the Javascript console in Chrome here's the problem:\r\n\r\n```\r\n
 Uncaught ReferenceError: $ is not defined test-galleryview.html:165\r\nUncaught
   TypeError: Object [object Object] has no method 'fitVids' scripts.min.js:1\r\n```"
-avatar: http://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg
+avatar: https://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg

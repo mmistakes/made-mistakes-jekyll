@@ -11,4 +11,4 @@ message: "Just a quick question before I take a closer look at the GalleryView
   plugins, so that would explain why they're not working for you.\r\n\r\nTo use them
   you have to generate your Jekyll site locally first and then deploy the files in
   `_site`"
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

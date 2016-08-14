@@ -8,4 +8,4 @@ url: ''
 message: "Nice. The grunt command runs without errors now. Still can't figure
   out how to change the body font size though. And somehow I made the menu text smaller,
   which is not what I want. Any clue what I could have done? [repo](https://github.com/mpron/mpron.github.io)"
-avatar: http://disqus.com/api/users/avatars/mpron.jpg
+avatar: https://disqus.com/api/users/avatars/mpron.jpg

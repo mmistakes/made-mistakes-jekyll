@@ -9,4 +9,4 @@ message: "At one point I was using [The Semantic Grid System](http://semantic.gs
   way out and give all the content a 100% width for &lt; 768px breakpoints, and everything
   else gets a max-width of around 900px.\r\n\r\n[Preboot's grid system](http://getpreboot.com/) also appealed to me because I use LESS
   for my stylesheets.\r\n\r\n[Singularity](http://singularity.gs/) looks quite nice too, but I'm not a Sass man so I haven't given it a go yet."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

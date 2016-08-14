@@ -13,4 +13,4 @@ message: "I got the changes in `pygments.less` fonts to start working. I'm not s
   you 'dump' the `node_modules` folder?  Delete everything in it and paste in the
   folder from the original repo?\r\n\r\nWhat files would I need to take from the Made
   Mistakes repo to be able to use `grunt-imgcompress`?"
-avatar: http://disqus.com/api/users/avatars/mpron.jpg
+avatar: https://disqus.com/api/users/avatars/mpron.jpg

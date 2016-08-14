@@ -10,4 +10,4 @@ message: "Take a look at the [sample posts](https://github.com/mmistakes/so-simp
   \r\n\r\nAnd then on the tags
   page it groups them [like this](http://mmistakes.github.io/so-simple-theme/tags/). If you want a page for each tag with the related
   posts listed you'll have to use a Jekyll plugin to do that."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

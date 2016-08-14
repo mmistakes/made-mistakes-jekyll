@@ -10,4 +10,4 @@ message: "First of all, thanks for the lovely theme. I have a question about the
   I used Jeykll on my server I tested it local and I could add an comment. Now on
   my server I can't. Do you have an idea why? I checked the shortname and I also set
   `comments: true`. thx :)"
-avatar: http://disqus.com/api/users/avatars/cehter.jpg
+avatar: https://disqus.com/api/users/avatars/cehter.jpg

@@ -10,4 +10,4 @@ message: "I'm sure it's possible but you'll have to hack up the CSS and JS a bit
   to the body tag... on just the homepage. That will give you a hook to style the
   menu differently on just that page and hopefully allow you to keep it open there
   and revert to the close position on every other page."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

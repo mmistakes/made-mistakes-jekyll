@@ -12,4 +12,4 @@ message: "Re-read your original comment, doesn't seem like it's a plugin issue..
   effectively. But my guess is there is a jQuery or script conflict somewhere in the
   code. If you open the web inspector on a page that doesn't load the gallery correctly,
   do you see any JavaScript errors?"
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

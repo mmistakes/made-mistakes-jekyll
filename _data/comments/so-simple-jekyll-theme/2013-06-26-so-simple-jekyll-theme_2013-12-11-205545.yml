@@ -9,4 +9,4 @@ message: "That's strange. If it worked testing locally then it should work on yo
   live server. Can you verify if Disqus is loading at all? If you're comfortable with
   posting a link to your site I can take a quick look at see if something obvious
   jumps out at me."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

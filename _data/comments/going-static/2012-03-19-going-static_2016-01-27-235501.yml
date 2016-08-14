@@ -8,4 +8,4 @@ url: ''
 message: 'You might want to investigate Strongloop Loopback Gateway in front of
   your static website. It could be used to implement an "admin panel" on a static
   site with OAuth.'
-avatar: http://disqus.com/api/users/avatars/gavinengel.jpg
+avatar: https://disqus.com/api/users/avatars/gavinengel.jpg

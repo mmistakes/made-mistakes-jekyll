@@ -17,4 +17,4 @@ message: "No worries, doesn't look like you double posted the comment, it only
   that would be to make the sidebar 1 column that spans the entire width (see what
   I did on small screen sizes for ideas). You might have to increase the `max-width`
   on `.entry-wrapper` as well to get everything to fit.\r\n\r\nHope this helps!"
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

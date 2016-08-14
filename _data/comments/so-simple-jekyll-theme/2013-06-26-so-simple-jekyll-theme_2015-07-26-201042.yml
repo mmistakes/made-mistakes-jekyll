@@ -11,4 +11,4 @@ message: "Hey!\r\n\r\nI searched all over the web and decided to go with this th
   should be displayed along with post header or something like that and on clicking
   on one tag user can visit all the post related to that tag.Can you please guide
   me how can i achieve this?\r\n\r\nThanks in advance!"
-avatar: http://disqus.com/api/users/avatars/shobhit4u.jpg
+avatar: https://disqus.com/api/users/avatars/shobhit4u.jpg

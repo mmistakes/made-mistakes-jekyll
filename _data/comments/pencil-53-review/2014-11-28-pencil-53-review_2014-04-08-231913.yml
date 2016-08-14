@@ -17,4 +17,4 @@ message: "Thanks for sharing your experience with a mesh tipped stylus, it's bee
   go back to it after opening another. I think Paper only keeps one page in memory
   at a time and flipping to a new one clears the undo (rewind) history. Same thing
   happens if you force quit the app."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

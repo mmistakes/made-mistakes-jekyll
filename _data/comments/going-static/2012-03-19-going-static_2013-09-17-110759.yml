@@ -9,4 +9,4 @@ message: "Do you think Jekyll is suitable for a heavy updated site? If you have
   to build the whole website each time you publish something then this option wouldn't
   be acceptable. I've read somewhere that there is someway to build only the updated/new
   posts, maintaining the rest of the site without changes."
-avatar: http://disqus.com/api/users/avatars/picajoso.jpg
+avatar: https://disqus.com/api/users/avatars/picajoso.jpg

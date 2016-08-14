@@ -21,4 +21,4 @@ message: "I've created a few Jekyll themes after this one so forgive me if I jum
   to help customize. For the most part if you bump around `typography.less`, `page.less`,
   and `variables.less` you should be able to do some simple modifications to suit your
   taste."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

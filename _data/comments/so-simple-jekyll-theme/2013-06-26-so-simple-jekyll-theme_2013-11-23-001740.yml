@@ -11,4 +11,4 @@ message: "Thanks for the theme, it's very neat! I'm using it as a base for my si
   (`max-width: 800px`) but the image pushed to the left and I can't figure how to center
   it. I've tried to set margins to auto, and enclose the image in a wrapper, but none
   of that work. Any chance you could help?"
-avatar: http://disqus.com/api/users/avatars/lcallot.jpg
+avatar: https://disqus.com/api/users/avatars/lcallot.jpg

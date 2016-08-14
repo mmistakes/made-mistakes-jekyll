@@ -13,4 +13,4 @@ message: "Hi Michael,\r\n\r\nThanks for the response! I think it was a Facebook
   `article` is invalid because the given value `/index.html` for property `og:url`
   could not be parsed as type `url`. Doesn't appear to be influencing Open Graph behavior,
   so I think we are all set! Sorry to bug you. Thanks for making such awesome themes!"
-avatar: http://disqus.com/api/users/avatars/disqus_bfoste01.jpg
+avatar: https://disqus.com/api/users/avatars/disqus_bfoste01.jpg

@@ -11,4 +11,4 @@ message: "Currently no.\r\n\r\nWhen I update So Simple to support some new featu
   the [Octopress Ink gem](https://github.com/octopress/ink) is released I may investigate making the theme compatible
   with it. But for now I'm waiting to see how things shakeout and if there's a demand
   for it. "
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

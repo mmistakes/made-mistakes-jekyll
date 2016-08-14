@@ -11,4 +11,4 @@ message: "If you pinch the page in the center of the canvas as if you were foldi
   edges inwards. Doing a swipe from the right edge on the last page of a journal will
   create a new blank page.\r\n\r\nOn FiftyThree's support site they have videos that
   show all of these gestures in action if you need a visual."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

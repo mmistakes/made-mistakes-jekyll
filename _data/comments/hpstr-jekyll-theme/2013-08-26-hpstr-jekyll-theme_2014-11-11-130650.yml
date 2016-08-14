@@ -8,4 +8,4 @@ url: https://mademistakes.com/
 message: "By editing the site's CSS. The main stylesheet is broken up into various
   Sass partials. I'd start with `_variables.scss` since that defines most of the themes
   colors and fonts.\r\n\r\nAnything else and you'll have to poke around the [other partials](https://github.com/mmistakes/hpstr-jekyll-theme/tree/master/_sass)"
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

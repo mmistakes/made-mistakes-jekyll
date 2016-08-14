@@ -8,4 +8,4 @@ url: ''
 message: "I just pushed the whole branch to `master` and I found it's not working.
   My CSS has screwed up as well. Tried `jekyll serve` in localhost but that's also
   not working!"
-avatar: http://disqus.com/api/users/avatars/Rockr.jpg
+avatar: https://disqus.com/api/users/avatars/Rockr.jpg

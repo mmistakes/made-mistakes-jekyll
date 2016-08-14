@@ -11,4 +11,4 @@ message: "Doesn't look like it's loading the Disqus script, which is really odd
   include and force it to load the script.\r\n\r\nChange\r\n\r\n`{% if site.disqus_shortname
   and page.comments %}{% include disqus_comments.html %}{% endif %}`\r\n\r\nto `{% include
   disqus_comments.html %}` and see if the script loads."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

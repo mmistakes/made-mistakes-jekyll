@@ -12,4 +12,4 @@ message: "It is possible if your CSS skills are strong. It's tricky to do
   files for all of the menus. Unless you want to string together some crazy Liquid
   spaghetti code to do it.\r\n\r\nI'd Google around for some ideas. I know I've seen
   a blog post or two with ways of dealing with tiered and dynamic navigations in Jekyll."
-avatar: http://disqus.com/api/users/avatars/mmistakes.jpg
+avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

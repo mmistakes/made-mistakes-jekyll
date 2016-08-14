@@ -18,4 +18,4 @@ message: "Hi again Michael. Maybe you could shed some light here; I'm trying to
   in your theme that prevents these javascripts to work or not (because something
   like this also happened with another plugin I was testing yesterday, again to display
   some sort of photo galleries).\r\n\r\nThanks!"
-avatar: http://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg
+avatar: https://disqus.com/api/users/avatars/alessandroamatodelmonte.jpg
