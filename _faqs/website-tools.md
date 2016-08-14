@@ -2,7 +2,7 @@
 title: "What tools do you use to build your website?"
 type: other
 date: 2014-12-07
-modified: 2016-07-14T09:20:32-04:00
+modified: 2016-08-14T12:37:45-04:00
 order: 1
 ---
 
@@ -25,7 +25,7 @@ If you're really interested in the specifics of how the site is built I've made 
 
 * Web hosting provided by [**Media Temple**][media-temple] via their [Grid -- Shared Hosting][grid-plan] plan.
 * Domain name registered with [**Hover**][hover]
-* Icons from [**SimpleIcon**][simpleicon]
+* Icons from [**SimpleIcon**][simpleicon] and [**Noun Project**][nounproject]
 * Type set with system fonts[^fonts] for a faster reading experience. 
 
 [^files]: HTML, CSS, and JavaScript files along with images and other assets needed to render a web page.
@@ -41,5 +41,6 @@ If you're really interested in the specifics of how the site is built I've made 
 [grid-plan]: https://mediatemple.net/webhosting/shared/
 [hover]: https://hover.com/E4nZJYVH
 [simpleicon]: http://www.flaticon.com
+[nounproject]: https://thenounproject.com
 [twitter-emoji]: https://github.com/twitter/twemoji
 [jemoji]: https://github.com/jekyll/jemoji
