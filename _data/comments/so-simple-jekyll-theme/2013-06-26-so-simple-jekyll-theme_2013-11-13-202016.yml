@@ -1,0 +1,10 @@
+---
+id: comment-1121843207
+date: '2013-11-13 20:20:16 +0000'
+updated: '2013-11-13 20:20:16 +0000'
+post_id: "/so-simple-jekyll-theme"
+name: Michael Rose
+url: https://mademistakes.com/
+message: "Kramdown to my knowledge is a Jekyll dependency. It should install along
+  with it, at least it does when I've tried a clean install or update."
+avatar: http://disqus.com/api/users/avatars/mmistakes.jpg

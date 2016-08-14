@@ -1,6 +1,12 @@
 <div class="post__social">
   {% if page.comments == true %}
-    <button onclick="load_disqus()" id="js-comment-btn" class="btn"><svg class="icon"><use xlink:href="#icon-comments"></use></svg> <span class="disqus-comment-count comments-link" data-disqus-url="{{ site.url }}{{ page.url }}">Leave a Comment</span></button>
+    {% if site.data.comments[page.slug].size == 1 %}
+      <a class="btn" href="#comments"><svg class="icon"><use xlink:href="#icon-comments"></use></svg> {{ site.data.comments[page.slug] | size }} Comment</a>
+    {% elsif site.data.comments[page.slug].size > 1 %}
+      <a class="btn" href="#comments"><svg class="icon"><use xlink:href="#icon-comments"></use></svg> {{ site.data.comments[page.slug] | size }} Comments</a>
+    {% else %}
+      <a class="btn" href="#comment-form"><svg class="icon"><use xlink:href="#icon-comments"></use></svg> Leave a Comment</a>
+    {% endif %}
   {% endif %}
 
   {% if page.share != empty and page.share != false %}
@@ -8,27 +14,3 @@
     <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url | uri_escape }}" target="_blank" title="Share on Facebook"><svg class="icon"><use xlink:href="#icon-facebook"></use></svg> Share</a>
   {% endif %}
 </div>
-
-{% if page.comments == true %}
-  <section class="post__comments">
-    <div id="disqus_thread"></div>
-    <noscript><p>Please enable JavaScript to view the the comments.</p></noscript>
-
-    <div id="disqus_loader">
-      <script async>
-        var disqus_shortname = "{{ site.disqus-shortname }}";
-        var disqus_title = "{{ page.title | xml_escape }}";
-        var disqus_url = "{{ page.url | replace:"index.html","" | prepend: site.url }}";
-
-        function load_disqus(){
-          document.getElementById("js-comment-btn").classList.add("btn--disabled");
-          var dsq = document.createElement("script");
-          dsq.type = "text/javascript";
-          dsq.async = true;
-          dsq.src = "https://" + disqus_shortname + ".disqus.com/embed.js";
-          (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
-        }
-      </script>
-    </div>
-  </section>
-{% endif %}

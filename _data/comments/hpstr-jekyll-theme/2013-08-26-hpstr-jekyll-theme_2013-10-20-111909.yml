@@ -1,0 +1,11 @@
+---
+id: comment-1089577198
+date: '2013-10-20 11:19:09 +0000'
+updated: '2013-10-20 11:19:09 +0000'
+post_id: "/hpstr-jekyll-theme"
+name: "@sarat"
+url: ''
+message: "I just pushed the whole branch to `master` and I found it's not working.
+  My CSS has screwed up as well. Tried `jekyll serve` in localhost but that's also
+  not working!"
+avatar: http://disqus.com/api/users/avatars/Rockr.jpg

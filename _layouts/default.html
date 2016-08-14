@@ -119,9 +119,9 @@ layout: compress
 
     {% unless page.layout == "glitch" %}
       {% include svg-icons.svg %}
-      {% javascript main async %}
+      {% javascript main %}
     {% else %}
-      {% javascript glitch async %}
+      {% javascript glitch %}
     {% endunless %}
 
     <!-- Google Universal Analytics -->
@@ -136,15 +136,43 @@ layout: compress
     </script>
 
     {% if page.comments == true %}
-      <script async>
-        var disqus_shortname = '{{ site.disqus-shortname }}';
+      <script>
+        (function ($) {
+          var $comments = $('.js-comments');
 
-        (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
+          $('#comment-form').submit(function () {
+            var form = this;
+
+            $(form).addClass('disabled');
+            $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Loading...');
+
+            $.ajax({
+              type: $(this).attr('method'),
+              url: $(this).attr('action'),
+              data: $(this).serialize(),
+              contentType: 'application/x-www-form-urlencoded',
+              success: function (data) {
+                $('#comment-form-submit').html('Submitted');
+                $('.post__comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
+                showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
+              },
+              error: function (err) {
+                console.log(err);
+                $('#comment-form-submit').html('Submit Comment');
+                $('.post__comments-form .js-notice').removeClass('notice--success').addClass('notice--danger');
+                showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
+                $(form).removeClass('disabled');
+              }
+            });
+
+            return false;
+          });
+
+          function showAlert(message) {
+            $('.post__comments-form .js-notice').removeClass('hidden');
+            $('.post__comments-form .js-notice-text').html(message);
+          }
+        })(jQuery);
       </script>
     {% endif %}
 

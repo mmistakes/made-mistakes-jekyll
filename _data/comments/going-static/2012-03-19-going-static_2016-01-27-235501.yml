@@ -1,0 +1,11 @@
+---
+id: comment-2482043395
+date: '2016-01-27 23:55:01 +0000'
+updated: '2016-01-27 23:55:01 +0000'
+post_id: "/going-static"
+name: Gavin Engel
+url: ''
+message: 'You might want to investigate Strongloop Loopback Gateway in front of
+  your static website. It could be used to implement an "admin panel" on a static
+  site with OAuth.'
+avatar: http://disqus.com/api/users/avatars/gavinengel.jpg

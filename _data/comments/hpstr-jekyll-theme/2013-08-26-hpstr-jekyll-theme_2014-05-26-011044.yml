@@ -1,0 +1,11 @@
+---
+id: comment-1404179013
+date: '2014-05-26 01:10:44 +0000'
+updated: '2014-05-26 01:10:44 +0000'
+post_id: "/hpstr-jekyll-theme"
+name: Michael Rose
+url: https://mademistakes.com/
+message: "Yup. Set the domain to whatever your GH one is and those home links should
+  work. Make sure you set it back to blank or `http://localhost:4000` when working locally
+  or all your links will be goofed."
+avatar: http://disqus.com/api/users/avatars/mmistakes.jpg

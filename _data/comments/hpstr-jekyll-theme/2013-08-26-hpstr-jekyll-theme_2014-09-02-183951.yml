@@ -1,0 +1,10 @@
+---
+id: comment-1570687470
+date: '2014-09-02 18:39:51 +0000'
+updated: '2014-09-02 18:39:51 +0000'
+post_id: "/hpstr-jekyll-theme"
+name: fred
+url: ''
+message: "Hi, I've forked hpstr and I'm working to make it RTL'ed! I've made
+  some changes in `/hpstr-jekyll-theme/tree/master/assets/css`, but they are not affected
+  on my site while any change in `_config.yml` is effected."

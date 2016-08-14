@@ -131,3 +131,12 @@ $x-large                      : 1440px;
 $sitemap-primary-color        : mix($white, $primary-color, 60%);
 $sitemap-sub-color            : mix($white, $primary-color, 80%);
 $sitemap-sub-sub-color        : mix($white, $primary-color, 90%);
+
+
+/*
+   Animation
+   ========================================================================== */
+
+$global-transition            : all 0.2s ease-in-out
+
+

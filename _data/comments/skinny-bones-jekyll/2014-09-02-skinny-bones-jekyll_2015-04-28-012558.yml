@@ -1,0 +1,11 @@
+---
+id: comment-1990959163
+date: '2015-04-28 01:25:58 +0000'
+updated: '2015-04-28 01:25:58 +0000'
+post_id: "/skinny-bones-jekyll"
+name: Brian Moseley
+url: ''
+message: "This is great! Incredibly ignorant question: I've been messing around
+  with variables in Sass, but I can't figure out how to change the font. I make changes
+  in `_variables.scss`, but the fonts don't show up on the rendered site."
+avatar: http://disqus.com/api/users/avatars/disqus_Kr3WZABtYx.jpg

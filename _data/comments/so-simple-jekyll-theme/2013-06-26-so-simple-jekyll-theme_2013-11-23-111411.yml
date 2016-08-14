@@ -1,0 +1,10 @@
+---
+id: comment-1135681128
+date: '2013-11-23 11:14:11 +0000'
+updated: '2013-11-23 11:14:11 +0000'
+post_id: "/so-simple-jekyll-theme"
+name: lcallot
+url: ''
+message: "Thanks a lot for the fast reply, it works perfectly. I just had to remember
+  setting the margin to `margin: 20px auto;` instead of the current `margin 20px 0 0;`"
+avatar: http://disqus.com/api/users/avatars/lcallot.jpg

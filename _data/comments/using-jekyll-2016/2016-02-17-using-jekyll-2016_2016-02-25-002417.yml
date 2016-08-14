@@ -1,0 +1,14 @@
+---
+id: comment-2533714378
+date: '2016-02-25 00:24:17 +0000'
+updated: '2016-02-25 00:24:17 +0000'
+post_id: "/articles/using-jekyll-2016"
+name: Chrisanthropic
+url: http://www.chrisanthropic.com/
+message: "Thanks for the awesome write-up! I used your themes as reference a lot
+  when I was creating my own - yours were (and still are) some of the most complete
+  and best documented out there.\r\n\r\nRegarding images, I use a slightly customized
+  version of the jekyll-minimagick plugin to automatically generate multiple sizes
+  of my images (thumb & small) for my webcomic theme. It sounds like it would
+  do most of what you want."
+avatar: http://disqus.com/api/users/avatars/Chrisanthropic.jpg
