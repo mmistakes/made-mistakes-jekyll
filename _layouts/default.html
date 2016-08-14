@@ -119,9 +119,9 @@ layout: compress
 
     {% unless page.layout == "glitch" %}
       {% include svg-icons.svg %}
-      {% javascript main async %}
+      {% javascript main %}
     {% else %}
-      {% javascript glitch async %}
+      {% javascript glitch %}
     {% endunless %}
 
     <!-- Google Universal Analytics -->
@@ -138,43 +138,41 @@ layout: compress
     {% if page.comments == true %}
       <script>
         (function ($) {
-        var $comments = $('.js-comments');
+          var $comments = $('.js-comments');
 
-        $('#new_comment').submit(function () {
-          var form = this;
+          $('#comment-form').submit(function () {
+            var form = this;
 
-          $(form).addClass('disabled');
-          $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> {{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}');
+            $(form).addClass('disabled');
+            $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Loading...');
 
-          $.ajax({
-            type: $(this).attr('method'),
-            url: $(this).attr('action'),
-            data: $(this).serialize(),
-            contentType: 'application/x-www-form-urlencoded',
-            success: function (data) {
-              $('#comment-form-submit').html('{{ site.data.ui-text[site.locale].comment_btn_submitted | default: "Submitted" }}');
-              $('.page__comments-form .js-notice').removeClass('notice--danger');
-              $('.page__comments-form .js-notice').addClass('notice--success');
-              showAlert('{{ site.data.ui-text[site.locale].comment_success_msg | default: "Thanks for your comment! It will show on the site once it has been approved." }}');
-            },
-            error: function (err) {
-              console.log(err);
-              $('#comment-form-submit').html('{{ site.data.ui-text[site.locale].comment_btn_submit  | default: "Submit Comment" }}');
-              $('.page__comments-form .js-notice').removeClass('notice--success');
-              $('.page__comments-form .js-notice').addClass('notice--danger');
-              showAlert('{{ site.data.ui-text[site.locale].comment_error_msg | default: "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again." }}');
-              $(form).removeClass('disabled');
-            }
+            $.ajax({
+              type: $(this).attr('method'),
+              url: $(this).attr('action'),
+              data: $(this).serialize(),
+              contentType: 'application/x-www-form-urlencoded',
+              success: function (data) {
+                $('#comment-form-submit').html('Submitted');
+                $('.post__comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
+                showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
+              },
+              error: function (err) {
+                console.log(err);
+                $('#comment-form-submit').html('Submit Comment');
+                $('.post__comments-form .js-notice').removeClass('notice--success').addClass('notice--danger');
+                showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
+                $(form).removeClass('disabled');
+              }
+            });
+
+            return false;
           });
 
-          return false;
-        });
-
-        function showAlert(message) {
-          $('.page__comments-form .js-notice').removeClass('hidden');
-          $('.page__comments-form .js-notice-text').html(message);
-        }
-      })(jQuery);
+          function showAlert(message) {
+            $('.post__comments-form .js-notice').removeClass('hidden');
+            $('.post__comments-form .js-notice-text').html(message);
+          }
+        })(jQuery);
       </script>
     {% endif %}
 

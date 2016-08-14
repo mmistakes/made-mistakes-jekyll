@@ -3,11 +3,9 @@
    ========================================================================== */
 
 fieldset {
-  background: $form-background ;
-  border: 1px solid $form-border-color;
-  margin-bottom: 0px + $doc-line-height;
-  padding: gutter();
-  border-radius: $form-border-radius;
+  margin-bottom: 5px;
+  padding: 0;
+  border-width: 0;
 }
 
 input,
@@ -98,7 +96,8 @@ form {
 }
 
 /* required */
-.req {
+.req,
+.required {
   color: $danger-color !important;
   font-weight: bold;
 }
