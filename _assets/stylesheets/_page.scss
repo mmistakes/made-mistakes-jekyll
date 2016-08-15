@@ -240,6 +240,7 @@
 
 .author__avatar {
   display: block;
+  flex-shrink: 0;
   order: -1;
   margin-right: 1em;
 
@@ -405,7 +406,10 @@
 
 .comment {
   @include clearfix();
+  display: flex;
   margin: 1em 0;
+  flex: 4;
+  align-items: flex-start;
 
   &:not(:last-child) {
     border-bottom: 2px solid #e2e2e2;
@@ -423,14 +427,13 @@
 }
 
 .comment__avatar-wrapper {
-  float: left;
-  width: 60px;
-  height: 60px;
+  margin-right: 1em;
+  flex-shrink: 0;
 }
 
 .comment__avatar {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: $border-radius;
 }
 
