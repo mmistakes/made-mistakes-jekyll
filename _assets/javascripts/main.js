@@ -5,6 +5,20 @@
 //= require plugins/jquery.smooth-scroll.min
 //= require plugins/stickyfill.min
 
+// asynchronously load fonts
+WebFontConfig = {
+  google: {
+    families: ['PT Serif:400,400italic,700', 'PT Sans Narrow:400,700']
+  }
+};
+
+(function(d) {
+  var wf = d.createElement('script'), s = d.scripts[0];
+  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+  s.parentNode.insertBefore(wf, s);
+})(document);
+
+
 $(document).ready(function(){
 
   // toggle overlay navigation
@@ -46,7 +60,7 @@ $(document).ready(function(){
 
 
   // move table of contents from post body to sidebar
-  $(".post__body .js-toc").appendTo($(".toc--sidebar")).hide().fadeIn(400);
+  $(".post__body .js-toc").hide().appendTo($(".toc--sidebar")).fadeIn(400);
 
 
   // sticky sidebar
@@ -109,3 +123,42 @@ $(document).ready(function(){
   // $.bigfoot();
 
 });
+
+
+// Static comments
+(function ($) {
+  var $comments = $('.js-comments');
+
+  $('#comment-form').submit(function () {
+    var form = this;
+
+    $(form).addClass('disabled');
+    $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Loading...');
+
+    $.ajax({
+      type: $(this).attr('method'),
+      url: $(this).attr('action'),
+      data: $(this).serialize(),
+      contentType: 'application/x-www-form-urlencoded',
+      success: function (data) {
+        $('#comment-form-submit').html('Submitted');
+        $('.post__comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
+        showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
+      },
+      error: function (err) {
+        console.log(err);
+        $('#comment-form-submit').html('Submit Comment');
+        $('.post__comments-form .js-notice').removeClass('notice--success').addClass('notice--danger');
+        showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
+        $(form).removeClass('disabled');
+      }
+    });
+
+    return false;
+  });
+
+  function showAlert(message) {
+    $('.post__comments-form .js-notice').removeClass('hidden');
+    $('.post__comments-form .js-notice-text').html(message);
+  }
+})(jQuery);
