@@ -5,6 +5,6 @@ updated: '2015-07-30 18:07:43 +0000'
 post_id: "/so-simple-jekyll-theme"
 name: Shobhit Garg
 url: ''
-message: "How can i add google analytics into my blog?<\r\n\r\nI have the tracking ID. I can see there is an option `analytics` in `_config.yml`. 
+message: "How can i add google analytics into my blog?\r\n\r\nI have the tracking ID. I can see there is an option `analytics` in `_config.yml`.
 Should i put my tracking id there?"
 avatar: https://disqus.com/api/users/avatars/shobhit4u.jpg
