@@ -1,24 +1,23 @@
 {% if page.comments == true %}
   <section class="post__comments">
     {% if site.repository and site.staticman.branch %}
-      <div id="comments" class="js-comments">
-      <!-- Start static comments -->
       {% if site.data.comments[page.slug] %}
-        <h3 class="tile__header">Comments</h3>
-        {% assign comments = site.data.comments[page.slug] | sort %}
-
-        {% for comment in comments %}
-          {% assign avatar = comment[1].avatar %}
-          {% assign email = comment[1].email %}
-          {% assign name = comment[1].name %}
-          {% assign url = comment[1].url %}
-          {% assign date = comment[1].date %}
-          {% assign message = comment[1].message %}
-          {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
-        {% endfor %}
-      </div>
+        <!-- Start static comments -->
+        <div id="comments" class="js-comments">
+          <h3 class="tile__header">Comments</h3>
+          {% assign comments = site.data.comments[page.slug] | sort %}
+          {% for comment in comments %}
+            {% assign avatar = comment[1].avatar %}
+            {% assign email = comment[1].email %}
+            {% assign name = comment[1].name %}
+            {% assign url = comment[1].url %}
+            {% assign date = comment[1].date %}
+            {% assign message = comment[1].message %}
+            {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
+          {% endfor %}
+        </div>
+        <!-- End static comments -->
       {% endif %}
-      <!-- End static comments -->
 
       <!-- Start new comment form -->
       <h3 class="tile__header">Leave a Comment</h3>
