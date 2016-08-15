@@ -177,6 +177,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.emoji {
+  margin: 0;
+  width: 1em;
+  max-width: 20px;
+  height: 1em;
+  max-height: 20px;
+}
+
 
 /*
    Sticky, fixed to top content
