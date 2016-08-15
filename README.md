@@ -19,7 +19,7 @@ Jekyll Assets is used to build, concatenate, and minify stylesheets and JavaScri
 
 ### Images
 
-[Made Mistakes](http://mademistakes.com) has a lot of image assets. `images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) to reduce the size of this repo.
+[Made Mistakes](http://mademistakes.com) has a lot of image assets. `/images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) and included as a Git submodule.
 
 To generate responsively sized images and necessary `<picture>` element markup use the `{% picture %}` tag. These images should be placed in `images/_originals` along with a copy in `images`. The `_originals` will be converted into various sizes specified in `_config.yml` while the ones in `images` will remain untouched to be used in XML feeds, social sharing cards, etc. 
 

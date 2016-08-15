@@ -9,5 +9,4 @@ _asset_bundler_cache
 .jekyll-assets-cache
 .asset-cache
 .bundle
-images
 .jekyll-metadata
