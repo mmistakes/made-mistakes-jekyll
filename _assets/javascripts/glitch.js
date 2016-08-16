@@ -1,6 +1,20 @@
 //= require vendor/jquery.min
 //= require plugins/jquery.typed.min
 
+// asynchronously load fonts
+WebFontConfig = {
+  google: {
+    families: ['PT Serif:400,400italic,700', 'PT Sans Narrow:400,700']
+  }
+};
+
+(function(d) {
+  var wf = d.createElement('script'), s = d.scripts[0];
+  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+  s.parentNode.insertBefore(wf, s);
+})(document);
+
+
 $(document).ready(function(){
 
   $("body").addClass("js");
