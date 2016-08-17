@@ -18,7 +18,9 @@ Offloading comments to an external service like Disqus[^third-party-commenting] 
 
 The alternatives haven't been all that great unless you wanted to make some compromises.
 
-## Self-Hosted Commenting
+{% include toc.html %}
+
+## Self-Hosted Comment Systems
 
 You could self-host with something like [**Isso**](https://posativ.org/isso/)[^self-hosted-commenting], that closely mimics what you'd get with **Disqus** --- but you control the data. After freeing my content and "[going static]({{ site.url }}{% post_url 2012-03-19-going-static %})" I really didn't want to manage a SQL database just to have comments on my site.
 
@@ -50,7 +52,7 @@ Much like building my first Jekyll site, I found the process of integrating Stat
 
 Thankfully I didn't have to start from scratch as I was able to draw inspiration from the Staticman demo site, [**Popcorn**](https://github.com/eduardoboucas/popcorn) and [Eduardo Bouças's](https://github.com/eduardoboucas/eduardoboucas.github.io) personal site. The documentation for Staticman does a good job of explaining [how to set things up](https://staticman.net/get-started) so definitely give that a read first.
 
-#### Building the Form
+### Building the Form
 
 I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements]({{ site.url }}/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons]({{ site.url }}/style-guide/#guide-buttons) were already done as part of my [living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %}). All it really needed was a decision on what fields I wanted to capture and a little bit of JavaScript for events handling and form submission.
 
@@ -87,10 +89,26 @@ At its most simplest (`class` names and extra Liquid and markup removed for brev
 <!-- End new comment form -->
 ```
 
-Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js) as a guide I [added all the AJAX goodness](https://github.com/mmistakes/made-mistakes-jekyll/blob/30e10cce7836b38ea2d7f570573ac748fa7ba12e/_assets/javascripts/main.js#L128-L164), alert messaging, and form states (`disabled` and loading). 
+Staticman's documentation covers this in more detail, but essentially we're adding `fields[]` values the `name` attributes. Fields used above --- `message`, `name`, `email`, and `url` will generate a .yml like this:
 
+```yaml
+message: "![Bill Murray](http://www.fillmurray.com/400/300)\r\n\r\n“It's hard to be an artist. It's hard to be anything. It's hard to be.”"
+name: Bill Murray
+email: b0caa2a71f5066b3d90711c224578c21
+url: ''
+hidden: ''
+date: '2016-08-11T19:33:25.928Z'
+```
 
-To avoid disrupting the flow too much I went with inline alert messaging that appears directly above the **submit button**.
+`hidden` is used as a spam deterant. Because `fields[hidden]` was placed on a hidden element, the thought is a human wouldn't fill it out, but a spam bot may. Because we didn't include it with the other `allowedFields` in our config Staticman should reject the entry.
+
+`date` is captured when the entry is generated. It's format can be changed from `iso8601` (default), `timestamp-seconds`, or `timestamp-milliseconds`.
+
+#### Interactions and State
+
+Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js) as a guide I [added all the AJAX goodness](https://github.com/mmistakes/made-mistakes-jekyll/blob/30e10cce7836b38ea2d7f570573ac748fa7ba12e/_assets/javascripts/main.js#L128-L164), alert messaging, and form states: `disabled` and loading. 
+
+To avoid disrupting the flow too much I went with inline alert messaging directly above the **submit button**.
 
 ![inline form alert example](#)
 
@@ -107,13 +125,13 @@ If the form is successfully submitted a message appears notifying the user that 
 
 ![form submit success animation](#)
 
-#### Displaying Comments
+### Displaying Comments
 
-#### Setting-up Staticman
+### Setting Up Staticman
 
 With the front-end portion of "comments" squared away it was time to configure Staticman. Because I went with the free hosted version it was painless and quick.
 
-##### Adding Staticman as a Collaborator
+#### Adding Staticman as a Collaborator
 
 To use Staticman you need to give it access to your Jekyll repository on GitHub. You don't have to actually host the site there (I use Media Temple for that), but it does need to be a standard Jekyll site with a valid `_config.yml`.
 
@@ -121,7 +139,7 @@ Following the docs I added GitHub username `staticmanapp` as a collaborator and 
 
 ![staticmanapp as collaborator](#)
 
-##### Configuring Staticman
+#### Configuring Staticman
 
 Staticman reads certain settings that are defined in your Jekyll `_config.yml` under the `staticman` object. There's a whole [list of stuff](https://github.com/eduardoboucas/staticman#jekyll-configuration) you can configure, the important stuff being `allowedFields`, `branch`, `format`, `moderation`, and `path`.
 
@@ -137,7 +155,7 @@ This is the branch comment files will be sent to via pull requests. If you host 
 
 There's also an undocumented `generatedFields`[^generated-fields] setting that is useful for time stamping each file Staticman creates.
 
-[^generated-fields]: Adds a [`date` timestamp](https://github.com/eduardoboucas/staticman/issues/9) to data files in ISO8601, seconds, of milliseconds formats.
+[^generated-fields]: Adds a [`date` timestamp](https://github.com/eduardoboucas/staticman/issues/9) to entries in ISO8601, seconds, or milliseconds formats.
 
 I ended up with the following settings that I added to `_config.yml`:
 
@@ -160,12 +178,12 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 ```
 
-Just in case spam made it through I wanted another layer of oversight. Setting `moderation: true` will cause Staticman to send a pull request whenever a new comment is submitted. At this point you can examine the comment content inside of the PR and decide if you want to merge or close.
+In case spam made it through, I wanted another layer of oversight to block it. Setting `moderation: true` will cause Staticman to send a pull request whenever a new comment is submitted. At this point you can examine the comment content inside of the PR and decide if you want to merge or close.
 
-If hosting with GitHub Pages a merge will instantly force Jekyll to rebuild your site and post the comment. In my case I have to do a pull from remote before building locally and deploying via rsync.
+If hosting with GitHub Pages a merge will instantly force Jekyll to rebuild your site and post the comment. In my case I have to do a pull from `remote` before building locally and deploying via rsync.
 
 {% capture webhooks %}
-#### ProTip: Webhooks for Auto Deletion
+#### ProTip: Webhooks for Branch Auto Deletion
 
 Create a GitHub webhook that sends a POST request to the following payload URL `https://api.staticman.net/v1/`webhook and triggers a "Pull request" event to delete Staticman branches on merge. If you don't you'll have to manually remove these branches as they aren't deleted on close or merge.
 {% endcapture %}
@@ -174,12 +192,157 @@ Create a GitHub webhook that sends a POST request to the following payload URL `
   {{ webhooks | markdownify }}
 </div>
 
-##### Hook up the form
+### Hooking Up the Form
 
-For your forms to work with Staticman they need to `POST` to 
+For your forms to work with Staticman they need to `POST` to:
 
 ```
 https://api.staticman.net/v1/entry/{your GitHub repository}/{your repository name}/{the name of the branch}`
 ```
 
-Instead of hard-coding the site repository and branch into the Staticman endpoint use `site` variables defined in `_config.yml` instead. eg: {% raw %}`{{ site.repository }}` and `{{ site.staticman.branch }}`{% endraw %} respectively.
+Instead of hard-coding the site repository and branch into this endpoint, use `site` variables defined in `_config.yml` instead. eg: {% raw %}`{{ site.repository }}` and `{{ site.staticman.branch }}`{% endraw %} respectively.
+
+```yaml
+# sample _config.yml
+
+repository: "mmistakes/made-mistakes-jekyll"
+staticman:
+  branch: "master"
+```
+
+Hitting the Staticman endpoint should trigger the success and error messages. Firing up the console in your browser of choice can also give you some more detail on what's going on if you hit any snags.
+
+For example if all of the required fields aren't filled out an error like this could hit the console:
+
+```js
+Object {readyState: 4, responseText: "[{"code":"MISSING_REQUIRED_FIELDS","data":["name","email","message"]}]", responseJSON: Array[1], status: 500, statusText: "error"}
+```
+
+{% capture form_redirect %}
+#### ProTip: Redirect after POST
+
+To set a redirect URL for your form after comment submission, simply add a hidden `input` like so: `<input type="hidden" name="options[redirect]" value="http://your-redirect-url.com">`.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ form_redirect | markdownify }}
+</div>
+
+### Publishing Comments
+
+If configured correctly you should receive a pull request notification on GitHub anytime a comment is submitted. Look the commit over (if you're moderating them) and merge to accept or close to block.
+
+![Staticman pull request notifications on GitHub](#)
+
+![Staticman pull request merge on GitHub](#)
+
+---
+
+## Migrating Disqus Comments
+
+It was now time to deal with the 500+ Disqus comments I've accumulated over the years. A good chunk of them had valuable content so I didn't exactly want to dump them all and start fresh.
+
+I came across a Rake task by Patrick Hawks, aptly named [**jekyll-disqus-comments**](https://github.com/pathawks/jekyll-disqus-comments) that downloads Disqus posts as YAML files via their API.
+
+With [some modifications](https://github.com/mmistakes/jekyll-disqus-comments) I was able to get it working with my Jekyll site.
+
+### Installing
+
+Copy the following files to the root of your Jekyll project folder.
+
+- [`_rake/disqus_comments.rake`](https://github.com/mmistakes/jekyll-disqus-comments/blob/master/_rake/disqus_comments.rake)
+- [`Rakefile`](https://github.com/mmistakes/jekyll-disqus-comments/blob/master/Rakefile) (Not necessary if you already have a Rakefile that loads `_rake/*`)
+
+### Obtain Disqus API Public Key
+
+To use the plugin, you will need to obtain a `public key` from the [Disqus API](http://disqus.com/api/applications/) and add it to your `_config.yml`.
+
+1. [Register new application](https://disqus.com/api/applications/register/).
+2. Setup application. Suggested configuration below:
+
+```
+Label: <Name of application> eg. Jekyll Disqus importer
+Description: Convert comments into static files.
+Website:
+Domains: disqus.com
+Default Access: Read only
+```
+
+Add the following lines to your `_config.yml`
+
+```
+comments:
+  disqus:
+    short_name: YOUR-DISQUS-FORUM-SHORTNAME-HERE
+    api_key:    YOUR-DISQUS-PUBLIC-KEY-HERE
+```
+
+### Importing Task
+
+Import comments from Disqus by running `rake disquscomments`. If it completes successfully you should find a set of `.yml` files in `_data/comments/<post-slug>` similar to this:
+
+```
+├── _data
+|  └── comments
+|      └── 365-days-of-drawing
+|      |   └── comment-2013-08-30-162902.yml
+|      |   └── comment-2013-08-30-204505.yml
+|      └── basics
+|          └── comment-2014-02-10-040840.yml
+```
+
+With YAML Front Matter data like this:
+
+```yaml
+---
+id: comment-1237690364
+date: '2014-02-10 04:08:40 +0000'
+updated: '2014-02-10 04:08:40 +0000'
+post_id: "/basics"
+name: Tamara
+url: ''
+message: "This? This is freakin' awesome! Thanks so much for sharing your mad skills and expertise with us!"
+```
+
+Key names correlate with the ones Staticman uses with a few extra Disqus ones like `id`, `updated`, and `post_id` that aren't currently used on the site.
+
+Because I'm a little crazy I went through a ton of old comments adding Markdown to improve the reading experience. Having syntax highlighted code blocks in comments looks so good, something that took a lot more work to [pull off with Disqus](https://help.disqus.com/customer/portal/articles/466253).
+
+### Troubleshooting
+
+When running `rake disquscomments` I ran into warnings like:
+
+```
+Comments feed not found: <domain.com>/post-slug/
+```
+
+For posts that I knew didn't have any comments this wasn't a problem, but for those that did it was a real head scratcher. Eventually I discovered that `ident` wasn't matching the style of post permalinks used on my site.
+
+I was able to verify what Disqus was expecting as id's by:
+
+1. [Exporting all my Disqus comments](https://disqus.com/admin/discussions/export/) as a XML file.
+2. Opening said XML file.
+3. Looking at the `<link>` elements eg. `<link>https://mademistakes.com/mastering-paper/contour-drawing/</link>`
+
+By playing around with the [following line](https://github.com/mmistakes/jekyll-disqus-comments/blob/e2561412785af8cdc7579fa6a774eaccb020ea98/_rake/disqus_comments.rake#L50) in `disqus_comments.rake` I finally sorted it out:
+
+```ruby
+# site.url + post.id + trailing slash
+ident = site['url'] + post.id + '/'
+```
+
+---
+
+## Final Thoughts
+
+### SEO Implications
+
+### Comment Replies
+
+Probably a way to reference a reply to a comment and capture that in the form entry. A project for a rainy day perhaps?
+
+No email notifications when replying to comments makes for less of a discussion. Less likely a commentor will return to the page to see if a reply was made.
+
+### Spam Slipping Through
+
+Seems to only happen on old posts that rank well in search engines. As no one is really adding valuable comments to these closing the threads is probably a good idea.
