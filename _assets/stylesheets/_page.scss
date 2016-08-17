@@ -136,6 +136,7 @@
 
   /* cleaner underlines for links */
   p > a {
+    color: $info-color;
     border-bottom: 1px solid $link-underline-color;
 
     &:hover {
@@ -147,7 +148,7 @@
   li > a,
   td > a,
   small a {
-    color: inherit;
+    color: $info-color;
     border-bottom: 1px solid $link-underline-color;
 
     &:hover {
@@ -417,6 +418,7 @@
 
   /* cleaner underlines */
   p > a {
+    color: $info-color;
     border-bottom: 1px solid $link-underline-color;
 
     &:hover {

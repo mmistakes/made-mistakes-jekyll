@@ -42,6 +42,7 @@
     margin-bottom: 0;
 
     a {
+      color: mix(#000, $notice-color, 25%) !important; // override
       border-bottom: 1px solid mix(#fff, $notice-color, 50%) !important; // override
     }
   }
