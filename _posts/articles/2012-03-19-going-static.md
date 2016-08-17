@@ -8,6 +8,7 @@ image:
   thumb: going-static-thumb.jpg
 tags: [Jekyll, web development, design, open source, CMS]
 comments: true
+comments_locked: true
 ---
 
 If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://www.alistapart.com/) and [Smashing Magazine](http://www.smashingmagazine.com/).

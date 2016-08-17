@@ -9,6 +9,7 @@ tags: [Jekyll, web development, open source, GitHub]
 work: "Design &amp; Development"
 modified: 2015-01-31
 comments: true
+comments_locked: true
 toc: true
 ---
 

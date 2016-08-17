@@ -9,6 +9,7 @@ image:
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design &amp; Development"
 comments: true
+comments_locked: true
 featured: true
 ---
 

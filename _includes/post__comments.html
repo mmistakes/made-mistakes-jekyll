@@ -19,6 +19,7 @@
         <!-- End static comments -->
       {% endif %}
 
+      {% unless page.comments_locked == true %}
       <!-- Start new comment form -->
       <h3 class="tile__header">Leave a Comment</h3>
       <p class="instruct">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
@@ -53,6 +54,9 @@
         </fieldset>
       </form>
       <!-- End new comment form -->
+      {% else %}
+        <p><em>Adding new comments to this page has been disabled.</em></p>
+      {% endunless %}
     {% endif %}
   </section>
 {% endif %}

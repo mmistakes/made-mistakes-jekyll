@@ -8,6 +8,7 @@ image:
   thumb: pogo-connect-app-thumb.jpg
 tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, iPad]
 comments: true
+comments_locked: true
 ---
 
 I've been lusting over the promise of pressure sensitive drawing on an iPad ever since I first read about the [Pogo Connect Smart Pen]( http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)[^pogo-compatibility]. Released back in January for around $80, I held off buying one until the price dropped. Waiting turned out to be smart since my favorite iOS app [**Paper by FiftyThree**]({{ site.url }}/tag/paper-by-53)[^pogo-paper] also received numerous updates to better support the Pogo Connect.
