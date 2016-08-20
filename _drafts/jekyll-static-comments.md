@@ -100,7 +100,7 @@ hidden: ''
 date: '2016-08-11T19:33:25.928Z'
 ```
 
-`hidden` is used as a spam deterant. Because `fields[hidden]` was placed on a hidden element, the thought is a human wouldn't fill it out, but a spam bot may. Because we didn't include it with the other `allowedFields` in our config Staticman should reject the entry.
+`hidden` is used as a spam deterant in the form of a :honeybee: honeypot. Because `fields[hidden]` was placed on a hidden element, the thought is a human wouldn't fill it out, but a spam bot may. Because we didn't include it with the other `allowedFields` in our config Staticman should reject the entry.
 
 `date` is captured when the entry is generated. It's format can be changed from `iso8601` (default), `timestamp-seconds`, or `timestamp-milliseconds`.
 
@@ -110,7 +110,10 @@ Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/gh-pag
 
 To avoid disrupting the flow too much I went with inline alert messaging directly above the **submit button**.
 
-![inline form alert example](#)
+<figure>
+  <img src="{{ site.url }}/images/mm-comment-inline-alert.png" alt="inline comment form alert example">
+  <figcaption>Comment form inline alert example.</figcaption>
+</figure>
 
 And to improve the user experience upon submission the submit button's text changes to `Loading...`, becomes disabled, and an animated SVG icon inserted.
 
@@ -119,13 +122,93 @@ $(form).addClass('disabled');
 $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Loading...');
 ```
 
-![submit button loading animation](#)
+![submit button loading animation]({{ site.url }}/images/mm-submit-comment-loading.gif)
 
 If the form is successfully submitted a message appears notifying the user that the comment has been received and is pending moderation. Since my site takes a bit to generate with Jekyll I felt it necessary to convey this to the user to avoid duplicate submissions. With small GitHub Pages hosted sites this becomes less of a problem, especially if you decide to merge comments in without the [moderation step](https://github.com/eduardoboucas/staticman#moderation-required).
 
-![form submit success animation](#)
+<figure>
+  <img src="{{ site.url }}/images/mm-submit-comment-success.gif" alt="form submit success animation">
+  <figcaption>The final form in action.</figcaption>
+</figure>
 
 ### Displaying Comments
+
+In a bit I'm going to go over how I configured Staticman in `_config.yml`, but for now all you really need to know is comment datafiles will live in `_data/comments/<post slug>/`. By predictably placing them here we will be to access their contents from the following array: `{% raw %}site.data.comments[page.slug]{% endraw %}`.
+
+Taking it a step further we can loop through it just like you would with `site.posts`:
+
+```liquid
+{% raw %}{% assign comments = site.data.comments[page.slug] | sort %}
+{% for comment in comments %}
+  show a comment
+{% endfor %}{% endraw %}
+```
+
+Since I'm capturing `message`, `name`, `email`, and `url` in the comment form this will be the same fields I'll want to pull from for each comment. Through the use of [`{% raw %}{% assign %}{% endraw %}`](https://help.shopify.com/themes/liquid/tags/variable-tags#assign) we can cleanup variable names. Which will then be used to [pass parameters](https://jekyllrb.com/docs/templates/#includes) in the [`comment.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_includes/comment.html) include:
+
+```liquid
+{% raw %}{% assign comments = site.data.comments[page.slug] | sort %}
+{% for comment in comments %}
+  {% assign avatar = comment[1].avatar %}
+  {% assign email = comment[1].email %}
+  {% assign name = comment[1].name %}
+  {% assign url = comment[1].url %}
+  {% assign date = comment[1].date %}
+  {% assign message = comment[1].message %}
+  {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
+{% endfor %}{% endraw %}
+```
+
+If done correctly `_data/comments/basics/comment-2014-02-10-040840.yml`
+
+```yaml
+---
+id: comment-1237690364
+date: '2014-02-10 04:08:40 +0000'
+updated: '2014-02-10 04:08:40 +0000'
+post_id: "/basics"
+name: Tamara
+url: ''
+message: "This? This is freakin' awesome! Thanks so much for sharing your mad skills and expertise with us!"
+```
+
+Should spit out as the following HTML on the `/basics/index.html` post:
+
+```html
+<article id="comment1" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+  <div class="comment__avatar-wrapper">
+    <img class="comment__avatar" src="https://www.gravatar.com/avatar/?d=mm&amp;s=50" srcset="https://www.gravatar.com/avatar/?d=mm&amp;s=100 2x" alt="Tamara" height="50" width="50">
+  </div>
+  <div class="comment__content-wrapper">
+    <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">Tamara</span>
+    </h3>
+    <div class="comment__date">
+      <a href="#comment1" itemprop="url">
+      <time datetime="2014-02-09T23:08:40-05:00" itemprop="datePublished">February 09, 2014 at 11:08 PM</time>
+      </a>
+    </div>
+    <div itemprop="text"><p>This? This is freakin’ awesome! Thanks so much for sharing your mad skills and expertise with us!</p></div>
+  </div>
+</article>
+```
+
+<figure>
+  <img src="{{ site.url }}/images/mm-comment-example.png" alt="comment example">
+  <figcaption>Comment example (rendered HTML).</figcaption>
+</figure>
+
+There's not much magic in the `comment.html` include --- some [structured data](https://schema.org/Comment) markup sprinkled about and a few Liquid conditionals for author avatars and URLs.
+
+{% capture md5_protip %}
+#### ProTip: Encode Email Addresses as MD5 Hashes
+
+Staticman supports [transforming a string](https://github.com/eduardoboucas/staticman#transforms) into a MD5 hash. By doing this you avoid compromising a commenter's email address in datafiles. These hashed emails also have the benefit of being used with [**Gravatar**](https://en.gravatar.com/site/implement/hash/) to pull in avatar images.
+{% endcapture %}
+
+<div class="notice--info">
+  {{ md5_protip | markdownify }}
+</div>
 
 ### Setting Up Staticman
 
@@ -232,9 +315,15 @@ To set a redirect URL for your form after comment submission, simply add a hidde
 
 If configured correctly you should receive a pull request notification on GitHub anytime a comment is submitted. Look the commit over (if you're moderating them) and merge to accept or close to block.
 
-![Staticman pull request notifications on GitHub](#)
+<figure>
+  <img src="{{ site.url }}/images/staticman-github-pull-requests.png" alt="Staticman pull request notifications on GitHub">
+  <figcaption>Staticman <strong>pull request</strong> notifications on GitHub.</figcaption>
+</figure>
 
-![Staticman pull request merge on GitHub](#)
+<figure>
+  <img src="{{ site.url }}/images/staticman-pull-request-merge.png" alt="Staticman pull request merge on GitHub">
+  <figcaption>Staticman pull request merged on GitHub.</figcaption>
+</figure>
 
 ---
 
@@ -270,7 +359,7 @@ Default Access: Read only
 
 Add the following lines to your `_config.yml`
 
-```
+```yaml
 comments:
   disqus:
     short_name: YOUR-DISQUS-FORUM-SHORTNAME-HERE
@@ -335,14 +424,26 @@ ident = site['url'] + post.id + '/'
 
 ## Final Thoughts
 
+Treating comments as content and closely integrating them with the rest of my site has been an informative and rewarding exercise. By successfully migrating over 500 comments away from Disqus I was able style them cohesively and match the rest of the site's design. Improve `<code>` blocks within comments. And hopefully make it easier for visitors to leave feedback without having to create a Disqus account first.
+
 ### SEO Implications
 
-### Comment Replies
-
-Probably a way to reference a reply to a comment and capture that in the form entry. A project for a rainy day perhaps?
-
-No email notifications when replying to comments makes for less of a discussion. Less likely a commentor will return to the page to see if a reply was made.
+The comment's section on many of posts often contain valuable content and replies to questions. Doing some limited tests in the past it did seem as if search engine crawlers were partially indexing these JavaScript based comments. Time will tell if I'll see any SEO *lift* from comments being marked up with structured data and in the actual page HTML.
 
 ### Spam Slipping Through
 
-Seems to only happen on old posts that rank well in search engines. As no one is really adding valuable comments to these closing the threads is probably a good idea.
+Seems to only happen on my older posts or ones that rank well in Google and friends. As no one is really adding valuable comments to these I've added `comments_locked` conditional that I can remove the comment form from specific pages.
+
+```liquid
+{% raw %}{% unless page.comments_locked == true %}
+  <!-- comment form -->
+{% else %}
+  <p><!-- comments locked messaging --></p>
+{% endunless %}{% endraw %}
+```
+
+### Comment Replies
+
+One negative from leaving Disqus are comment reply notifications. Sure you can setup GitHub to notify you of each Staticman pull request, which will in turn clue you in that you have a new comment. But what's missing is the notification to the commenter that they've received a reply to their comment.
+
+No email notifications when replying to comments makes for less of a discussion. Less likely a commenter will return to the page to see if a reply was made. Anyone out there also using a static commenting approach and found a slick way to handle this? Let me know below.
