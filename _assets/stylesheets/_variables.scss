@@ -110,7 +110,7 @@ $code-border-color            : $border-color;
 $code-border-color-hover      : mix($black, $border-color, 10%);
 $code-border-radius           : $border-radius;
 
-$inline-code-background       : mix($white, $border-color, 75%);
+$inline-code-background       : $code-background;
 
 
 /*
