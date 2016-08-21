@@ -1,6 +1,6 @@
 ---
 title: "Going Static: Episode II --- Attack of the Comments"
-excerpt: "Migrating Disqus comments into a statically built Jekyll site with Staticman."
+excerpt: "Integrating a static-based commenting system into Jekyll with the help of Staticman and ditching Disqus in the process."
 tags: [Jekyll, web development, GitHub, open source]
 image:
   feature: going-static-comments-feature.jpg
@@ -9,12 +9,12 @@ image:
   creditlink: "https://unsplash.com/@brenomachado"
 comments: true
 featured: true
-modified:
+modified: 2016-08-21T17:00:10-04:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.
 
-Convenient to embed a small bit of `<script>` voodoo into your pages, sure. But kiss goodbye to controlling the user experience, look and feel, data, and shred of privacy. The alternatives haven't been all that great for the statically-minded unless you were willing to make some compromises...
+Convenient to embed a small bit of `<script>` voodoo into your pages, sure. But kiss goodbye to controlling the user experience, look and feel, data, and privacy. The alternatives haven't been all that great for the statically-minded unless you were willing to make some compromises...
 
 [^third-party-commenting]: There are several third-party commenting services to choose from: [**Disqus**](https://disqus.com/), [**IntenseDebate**](https://intensedebate.com/), [**Livefrye**](http://web.livefyre.com/), [**Facebook**](https://developers.facebook.com/docs/plugins/comments/), and countless others. They all essentially work the same --- you embed some JavaScript on your site and comments magically appear.
 
@@ -178,7 +178,7 @@ Since I'm capturing `message`, `name`, `email`, and `url` in the comment form th
 {% endfor %}{% endraw %}
 ```
 
-If done correctly the values and strings in a datafile like `_data/comments/basics/comment-2014-02-10-040840.yml`
+If done correctly the values and strings in a data file like `_data/comments/basics/comment-2014-02-10-040840.yml`
 
 ```yaml
 ---
