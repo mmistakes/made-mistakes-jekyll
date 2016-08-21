@@ -7,7 +7,7 @@ image:
   feature: jekyll-style-guide-feature.jpg
   teaser: jekyll-style-guide-teaser.jpg
   thumb: jekyll-style-guide-th.jpg
-featured: true
+featured:
 comments: true
 ---
 
