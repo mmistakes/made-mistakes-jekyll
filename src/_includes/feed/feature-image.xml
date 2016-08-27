@@ -1,0 +1,4 @@
+{% capture feed_feature_image %}
+  <img src="{{ site.url }}/assets/images/{{ post.image.feature }}" alt="{{ post.title }}"><br />
+{% endcapture %}
+{{ feed_feature_image | markdownify | xml_escape }}

@@ -1,0 +1,14 @@
+---
+limit: 10
+title: "PaperFaces Portraits"
+sitemap: false
+---
+{% include feed/head.xml %}
+
+  {% include feed/author.xml %}
+
+  {% for post in site.categories.paperfaces limit: page.limit %}
+    {% include feed/entry.xml %}
+  {% endfor %}
+
+</feed>

@@ -1,116 +1,130 @@
 # Site wide configuration
 
-title: "Made Mistakes"
-description: "Personal website of designer slash illustrator Michael Rose."
-logo: site-logo.png
-teaser: default-teaser.png
-locale: en_US
-words_per_minute: 200
-title_separator: "×"
-repository: "mmistakes/made-mistakes-jekyll"
-url: https://mademistakes.com
+source           : .tmp/src
+destination      : .tmp/dist
+
+title            : "Made Mistakes"
+description      : "Personal website of designer slash illustrator Michael Rose."
+logo             : "site-logo.png"
+teaser           : "default-teaser.png"
+locale           : "en_US"
+words_per_minute : 200
+title_separator  : "×"
+
+repository       : "mmistakes/made-mistakes-jekyll"
+url              : "https://mademistakes.com"
 
 
 # Site owner
 
 owner:
-  name: "Michael Rose"
-  email: michael@mademistakes.com
-  twitter: mmistakes
-  facebook: michaelrose
-  instagram: mmistakes
-  tumblr: mademistakes
-  github: mmistakes
-  github-repo: https://github.com/mmistakes/made-mistakes-jekyll/
+  name           : "Michael Rose"
+  email          :
+  twitter        : "mmistakes"
+  facebook       : "michaelrose"
+  instagram      : "mmistakes"
+  tumblr         : "mademistakes"
+  github         : "mmistakes"
+  github-repo    : "https://github.com/mmistakes/made-mistakes-jekyll/"
   google:
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 3049671934
-    analytics: UA-2011187-1
-    plus: https://plus.google.com/+MichaelRoseDesign/posts
-    verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
+    ad-client    : "ca-pub-7328585512091257"
+    ad-slot      : "3049671934"
+    analytics    : "UA-2011187-1"
+    plus         : "https://plus.google.com/+MichaelRoseDesign/posts"
+    verify       : "geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo"
   bing:
-    verify: D81F4C18A6CB3018F64D7C827D953DFD
+    verify       : "D81F4C18A6CB3018F64D7C827D953DFD"
   alexa:
-    verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
+    verify       : "Y5DYjZ4VWlrQzBP5kcQJeOKLNas"
   yandex:
-    verify: 55a5419baf76a498
-  bio: "Just another boring, tattooed, time traveling designer."
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+    verify       : "55a5419baf76a498"
+  bio            : "Just another boring, tattooed, time traveling designer."
+  avatar         : "bio-photo.jpg" # 160x160 px image for author byline
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields  : ['name', 'email', 'url', 'message']
+  branch         : "master"
+  commitMessage  : "New comment."
+  filename       : comment-{@timestamp}
+  format         : "yml"
+  moderation     : true
+  path           : "_data/comments/{options.slug}"
+  requiredFields : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email        : "md5"
   generatedFields:
     date:
-      type               : "date"
+      type       : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format   : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 
 
 # Jekyll configuration
 
-permalink: /:categories/:title/
-lsi: true
-markdown: kramdown
+permalink        : /:categories/:title/
+lsi              : true
+future           : false
+show_drafts      : false
+markdown         : kramdown
 kramdown:
-  toc_levels: 1..3
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  entity_output: as_char
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-highlighter: rouge
-keep_files: [images]
+  toc_levels     : 1..3
+  input          : GFM
+  hard_wrap      : false
+  auto_ids       : true
+  entity_output  : as_char
+  smart_quotes   : lsquo,rsquo,ldquo,rdquo
+  enable_coderay : false
+highlighter      : rouge
+keep_files:
+  - .git
+  - images
 include:
   - .htaccess
   - _pages
 exclude:
-  - Capfile
-  - config
-  - log
-  - Rakefile
-  - tmp
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - Gemfile
-  - LICENSE
-  - README
-  - node_modules
-  - Gruntfile.js
-  - package.json
-  - .jekyll-assets-cache
   - .asset-cache
-  - .sass-cache
   - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets
+  - Capfile
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+
+
+# Plugins
+
 gems:
   - jekyll-archives
-  - jekyll-assets
-  - jekyll/tagging
+  - jekyll-sitemap
   - jekyll-tagging-related_posts
+  - jekyll/tagging
   - jemoji
+
 
 # Collections
 
 collections:
   faqs:
-    output: true
-    permalink: /:collection/:path/
-    title: FAQs
+    output    : true
+    permalink : /:collection/:path/
+    title     : FAQs
   components:
-    output: false
+    output    : false
   colors:
-    output: false
+    output    : false
 
 
-# Defaults
+# Front Matter Defaults
 
 defaults:
 
@@ -181,22 +195,6 @@ defaults:
       layout: article
 
 
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-
-# Plugin: jekyll-assets
-
-assets:
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-  autoprefixer:
-    browsers: ["last 2 versions","> 5%","IE 9"]
-
 # Plugin: jekyll-archives
 
 jekyll-archives:
@@ -215,19 +213,6 @@ picture:
   output: "images"
   markup: "picture"
   presets:
-    default:
-      ppi: [1]
-      source_720:
-        media: "(min-width: 1200px)"
-        width: "720"
-      source_670:
-        media: "(min-width: 768px)"
-        width: "670"
-      source_540:
-        media: "(min-width: 600px)"
-        width: "540"
-      source_default:
-        width: "320"
     hero:
       attr:
         class: "page__hero-image"

@@ -1,26 +1,23 @@
 # Site wide configuration
 
-url: http://localhost:4000
+url         : "http://localhost:4000"
+
+profile     : true
+future      : true
+show_drafts : true
 
 
 # Site owner
 
 owner:
   google:
-    ad-client: ""
-    ad-slot: ""
-    analytics: ""
-    verify: ""
+    ad-client : ""
+    ad-slot   : ""
+    analytics : ""
+    verify    : ""
   bing:
-    verify: ""
+    verify    : ""
   alexa:
-    verify: ""
+    verify    : ""
   yandex:
-    verify: ""
-disqus-shortname: mmistakes-dev
-
-
-# Plugin: jekyll-assets
-
-assets:
-  cache: false
+    verify    : ""

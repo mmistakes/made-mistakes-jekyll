@@ -1,0 +1,14 @@
+---
+limit: 10
+title: "Articles"
+sitemap: false
+---
+{% include feed/head.xml %}
+
+  {% include feed/author.xml %}
+
+  {% for post in site.categories.articles limit: page.limit %}
+    {% include feed/entry.xml %}
+  {% endfor %}
+
+</feed>
