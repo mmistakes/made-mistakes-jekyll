@@ -15,11 +15,11 @@ The more I draw with Paper, the clearer it becomes that I don't really have a se
 {% include boilerplate/paperfaces-4.html %}
 
 <figure class="third">
-  <a href="{{ site.url }}/images/paperfaces-chloe-winter-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-chloe-winter-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-chloe-winter-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-chloe-winter-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-chloe-winter-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-chloe-winter-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-chloe-winter-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-chloe-winter-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-chloe-winter-process-5-lg.jpg"><img src="{{ site.url }}/images/paperfaces-chloe-winter-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-chloe-winter-process-6-lg.jpg"><img src="{{ site.url }}/images/paperfaces-chloe-winter-process-6-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-4-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-5-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-5-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-6-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-6-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen captures Made with Paper.</figcaption>
 </figure>

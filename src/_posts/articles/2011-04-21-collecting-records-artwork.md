@@ -24,7 +24,7 @@ Thumbing through boxes of dusty hardcore and emo records, it's easy to see where
 Instead of embarrassing myself with examples of my early fumbles as a graphic designer --- I'd like to share inspirational fragments from my record collection. With over 500 LP's and 45's, I'm sure I can find plenty of material to critique and comment on.
 
 <figure>
-	<img src="{{ site.url }}/images/record-art-teaser-620x217.jpg" alt="Image of upcoming artwork to be critiqued" />
+	<img src="{{ site.url }}/assets/images/record-art-teaser-620x217.jpg" alt="Image of upcoming artwork to be critiqued" />
 	<figcaption>Upcoming artwork to be discussed.</figcaption>
 </figure>
 

@@ -29,7 +29,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 * Grunt tasks for easier site development.
 
 <figure class="large">
-	<a href="https://mmistakes.github.io/so-simple-theme/" title="Preview So Simple Theme"><img src="{{ site.url }}/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
+	<a href="https://mmistakes.github.io/so-simple-theme/" title="Preview So Simple Theme"><img src="{{ site.url }}/assets/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
 </figure>
 
 ## Getting Started

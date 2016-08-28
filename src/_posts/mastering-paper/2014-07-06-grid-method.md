@@ -23,7 +23,7 @@ If you've ever taken a basic drawing class there's a good chance you were introd
 Drawing grids is boring and tedious work that can easily add a few hours to prep time. A fact that I experienced when I first made the jump to drawing realistic portraits with Paper by FiftyThree. I'm not trying to scare you off from using this method, just be prepared to invest time into creating straight and evenly spaced lines. 
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-grid-tools.jpg" alt="tools for making grids">
+  <img src="{{ site.url }}/assets/images/paper-53-grid-tools.jpg" alt="tools for making grids">
   <figcaption>A T-square, a stylus, and a straight-edge walked into a bar…</figcaption>
 </figure>
 
@@ -40,15 +40,15 @@ Using a T-square can really speed up the grid making process, just be careful no
 If you don't have a T-square you can use a ruler to help place a dot every inch (or whatever increment you deem appropriate). Next you'll want to slide the ruler down parallel to where you drew the first row off dots and make another set.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-grid-dots.jpg" alt="three rows of dots">
+  <img src="{{ site.url }}/assets/images/paper-53-grid-dots.jpg" alt="three rows of dots">
   <figcaption>Two rows of dots should suffice, but if you want to go the extra mile make three.</figcaption>
 </figure>
 
 Switching to a straight-edge[^straightedge] you'll use the dots as guides to draw straight lines parallel to each other. Because iPad styli aren't that precise, it can take some practice placing a line where you want.
 
 <figure class="half">
-  <a href="{{ site.url }}/images/paper-53-grid-t-square-lg.jpg"><img src="{{ site.url }}/images/paper-53-grid-t-square-600.jpg" alt="drawing a line with Pencil and a T-square"></a>
-  <a href="{{ site.url }}/images/paper-53-grid-book-edge-lg.jpg"><img src="{{ site.url }}/images/paper-53-grid-book-edge-600.jpg" alt="drawing a line with Pencil and a straight-edge"></a>
+  <a href="{{ site.url }}/assets/images/paper-53-grid-t-square-lg.jpg"><img src="{{ site.url }}/assets/images/paper-53-grid-t-square-600.jpg" alt="drawing a line with Pencil and a T-square"></a>
+  <a href="{{ site.url }}/assets/images/paper-53-grid-book-edge-lg.jpg"><img src="{{ site.url }}/assets/images/paper-53-grid-book-edge-600.jpg" alt="drawing a line with Pencil and a straight-edge"></a>
   <figcaption>Drawing lines with a stylus on the iPad takes some getting used to.</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Place your straight-edge directly on top of the reference dots, then slide it to
 Take your time drawing lines as accurate as and as light as possible, it'll make your life easier later --- trust me. Once you've drawn all the horizontal lines repeat the process for the vertical lines, intersecting them as you go.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-grid-finished.jpg" alt="finished grid">
+  <img src="{{ site.url }}/assets/images/paper-53-grid-finished.jpg" alt="finished grid">
   <figcaption>Example of a finished grid drawn in pencil.</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ In case you didn't know, Paper by 53 has the ability to duplicate pages. If you 
 To duplicate a page, pinch it to zoom out to journal view, and then press and hold on the <i class="fa fa-plus-circle"></i> button until the **Duplicate** option appears.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-grid-duplicate-page.jpg" alt="duplicate a page screenshot">
+  <img src="{{ site.url }}/assets/images/paper-53-grid-duplicate-page.jpg" alt="duplicate a page screenshot">
   <figcaption>Not all of the options in Paper are obvious, quite a few are hidden behind gestures or holding down various buttons.</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ You can cut the amount of time spent drawing grids on your reference photographs
 [^apps]: [**Drawing Grid**](https://itunes.apple.com/us/app/drawing-grid/id500885379?mt=8) is a free iOS app that gets the job done if you can get past the awful and confusing UI. A couple others I found but didn't test where [**Artists Grid Tool**](https://itunes.apple.com/us/app/artists-grid-tool/id402430398?mt=8) and [**CopyIt**](https://itunes.apple.com/us/app/copyit-grid-drawing-method/id377185812?mt=8).
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-grid-apps.jpg" alt="grid apps for iOS">
+  <img src="{{ site.url }}/assets/images/paper-53-grid-apps.jpg" alt="grid apps for iOS">
   <figcaption>Grid making apps available for iOS in the App Store.</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ You can cut the amount of time spent drawing grids on your reference photographs
 With the finished grids you're ready to begin creating your line drawing. Pick a box to start with and focus on drawing just the shapes and contour lines you see. Keep it light and use the pencil tool to mark the edges.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-grid-method-drawing.jpg" alt="drawing with the grid">
+  <img src="{{ site.url }}/assets/images/paper-53-grid-method-drawing.jpg" alt="drawing with the grid">
   <figcaption>Using the <strong>Drawing Grid</strong> app to zoom in and view one box at a time.</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ So here comes another drawback to the grid method. If you thought it was time in
 My preferred method of getting rid of the lines is by dabbing the eraser over them. *Remember, the quicker you tap, the smaller the dot.*
 
 <figure>
-  <a href="{{ site.url }}/images/paper-53-grid-removing-lines-lg.jpg"><img src="{{ site.url }}/images/paper-53-grid-removing-lines-900.jpg" alt="erasing the grid"></a>
+  <a href="{{ site.url }}/assets/images/paper-53-grid-removing-lines-lg.jpg"><img src="{{ site.url }}/assets/images/paper-53-grid-removing-lines-900.jpg" alt="erasing the grid"></a>
   <figcaption>Dabbing the eraser to create a dotted line looks more organic and is less likely to leave <em>ghost line</em> residue.</figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ Depending on the complexity of your subject, using your finger to [Blend]({{ sit
 You'll most likely have to redraw a few lines depending on where the grids fell. Just use a matching color and lightly pencil in any lines you partially erased. For those areas that have *ghost lines* you can cover-up or lighten them using [hatch strokes]({{ site.url }}{% post_url 2014-02-09-basics %}#painting-with-pencil) and an appropriately colored pencil.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-grid-finished-line-drawing.jpg" alt="finished line drawing">
+  <img src="{{ site.url }}/assets/images/paper-53-grid-finished-line-drawing.jpg" alt="finished line drawing">
   <figcaption>Completed line drawing with touch-ups and shading applied.</figcaption>
 </figure>
 
@@ -129,9 +129,9 @@ Using this outline you can proceed to draw, ink, or paint on top of it. In my [D
 With practice you'll eventually find that you won't need the grid anymore and can rely on simple freehand sketches instead. Just take a look at my [PaperFaces drawings]({{ site.url }}/paperfaces/) from beginning to end if you want proof of what practice and determination can achieve.
 
 <figure class="third">
-  <a href="{{ site.url }}/images/paperfaces-makenna-s-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-makenna-s-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-makenna-s-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-makenna-s-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-makenna-s-lg.jpg"><img src="{{ site.url }}/images/paperfaces-makenna-s-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-makenna-s-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-makenna-s-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-makenna-s-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-makenna-s-process-4-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-makenna-s-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-makenna-s-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Here's how the drawing turned out after I painted layers of watercolor and added details with the pencil tool.</figcaption>
 </figure>
 

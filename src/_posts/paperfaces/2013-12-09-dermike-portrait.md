@@ -16,6 +16,6 @@ PaperFaces portrait of <a href="http://twitter.com/dermike">@dermike</a>.
 {% include boilerplate/paperfaces-2.html %}
 
 <figure>
-	<a href="{{ site.url }}/images/paperfaces-dermike-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-dermike-process-1-750.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-dermike-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-dermike-process-1-750.jpg" alt="Work in process screenshot"></a>
 	<figcaption>In process blending.</figcaption>
 </figure>

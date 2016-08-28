@@ -28,7 +28,7 @@ To solve these issues I went with my go to time lapse app, [**Lapse It**](http:/
 This setup worked out pretty well apart from me having to sit in a really awkward position for over an hour. But the real pain turned out to be my ISP and the weak internet plan I was on. I quickly found out 1Mbps upload speeds are garbage for live streaming unless you want to crank the output quality way down.
 
 <figure>
-  <img src="{{ site.url }}/images/ipad-drawing-setup.jpg" alt="iPad drawing time lapse setup">
+  <img src="{{ site.url }}/assets/images/ipad-drawing-setup.jpg" alt="iPad drawing time lapse setup">
   <figcaption>I record iPad drawing time lapse videos with an iPhone 5s clipped to a <a href="http://www.amazon.com/gp/product/B005XOIFNW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005XOIFNW&linkCode=as2&tag=mademist-20&linkId=LG5MJOGKZTN62QOH" rel="nofollow">reflector holder boom stand</a>.</figcaption>
 </figure>
 

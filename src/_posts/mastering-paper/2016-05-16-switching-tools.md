@@ -16,7 +16,7 @@ They may be subtle, but the white dots beneath the row of tools are a big clue t
 {% include toc.html %}
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-switch-tools-dots.jpg" alt="indicator dots beneath Paper tools">
+  <img src="{{ site.url }}/assets/images/paper-53-switch-tools-dots.jpg" alt="indicator dots beneath Paper tools">
   <figcaption>There be more tools to the right, don't worry you get them for free.</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Simply swipe across the row of **Think Kit** tools to reveal another set of five
 And for you iPhone Paper users there are three sets of tools you can swipe through.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-switch-tools-iphone.gif" alt="switching tools in Paper by 53 for the iPhone">
+  <img src="{{ site.url }}/assets/images/paper-53-switch-tools-iphone.gif" alt="switching tools in Paper by 53 for the iPhone">
   <figcaption>Switching tools in iPhone version of Paper.</figcaption>
 </figure>
 

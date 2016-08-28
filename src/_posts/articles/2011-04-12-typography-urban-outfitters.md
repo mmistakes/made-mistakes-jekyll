@@ -14,7 +14,7 @@ I think it is very clear that the April 2011 *Urban Outfitters* catalog was more
 {% include toc.html %}
 
 <figure>
-    <a href="{{ site.url }}/images/UO-bad-type-placement.jpg" title="Inside front cover detail photograph"><img title="Urban Outfitters bad type placement" src="{{ site.url }}/images/UO-bad-type-placement.jpg" alt="UO April 2011 inside front cover detail" /></a>
+    <a href="{{ site.url }}/assets/images/UO-bad-type-placement.jpg" title="Inside front cover detail photograph"><img title="Urban Outfitters bad type placement" src="{{ site.url }}/assets/images/UO-bad-type-placement.jpg" alt="UO April 2011 inside front cover detail" /></a>
     <figcaption>Would it have hurt to move these blocks of type to right a few inches?</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ I'm probably wrong and this isn't suppose to be a catalog. What would be the poi
 Oh never mind. At Least one page out of 48 must have read Ellen Lupton's [*Thinking with Type*](http://www.amazon.com/gp/product/1568989695/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1568989695). Away with fully justified type and in with a lovely rag on the right. And would you look at this, size, weight, and placement changes to help lead you from section to section. I might actually be able to figure out what descriptions go with each piece of clothing. Now if I could only tell if that's a 1 or a capital i.    
 
 <figure class="pull-right">
-    <img src="{{ site.url }}/images/UO-spring11-cover.png" alt="Urban Outfitters April 2011 Cover photo" />
+    <img src="{{ site.url }}/assets/images/UO-spring11-cover.png" alt="Urban Outfitters April 2011 Cover photo" />
 </figure>
 
 ## Typography Rulez
@@ -43,16 +43,16 @@ At the end of the day I really doubt any one is looking at these pages wondering
 ## Readability No No's
 
 <figure>
-  <a href="{{ site.url }}/images/UO-product-text.jpg" title="Type comparion"><img src="{{ site.url }}/images/UO-product-text-300.jpg" alt="Urban Outfitters type comparison" /></a>
+  <a href="{{ site.url }}/assets/images/UO-product-text.jpg" title="Type comparion"><img src="{{ site.url }}/assets/images/UO-product-text-300.jpg" alt="Urban Outfitters type comparison" /></a>
   <figcaption>Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B.</figcaption>
 </figure>
 
 <figure>
-  <a href="{{ site.url }}/images/UO-awful-readability.jpg" title="Another example of unreadable type"><img src="{{ site.url }}/images/UO-awful-readability-300.jpg" alt="Another example of bad type and no regard for readability" title="Urban Outfitters awful typography" /></a>
+  <a href="{{ site.url }}/assets/images/UO-awful-readability.jpg" title="Another example of unreadable type"><img src="{{ site.url }}/assets/images/UO-awful-readability-300.jpg" alt="Another example of bad type and no regard for readability" title="Urban Outfitters awful typography" /></a>
   <figcaption>White type on a light gray background is awful for readability.</figcaption>
 </figure>
 
 <figure>
-  <a href="{{ site.url }}/images/UO-type-hiearchy.jpg" title="Another detail image of type"><img title="Urban Outfitters catalog typography" src="{{ site.url }}/images/UO-type-hiearchy-300.jpg" alt="Detail image of decent type treatments" /></a>
+  <a href="{{ site.url }}/assets/images/UO-type-hiearchy.jpg" title="Another detail image of type"><img title="Urban Outfitters catalog typography" src="{{ site.url }}/assets/images/UO-type-hiearchy-300.jpg" alt="Detail image of decent type treatments" /></a>
   <figcaption>This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++</figcaption>
 </figure>

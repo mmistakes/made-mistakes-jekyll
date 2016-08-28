@@ -15,7 +15,7 @@ When Adobe and Adonit released the [Ink & Slide](http://www.adonit.net/adobe-ink
 
 Fast forward to last week when bought an Adobe Ink that was on sale for 90% off. I could live with losing $20 if it turned out to be a dud...
 
-![Work in progress with the Adonit Ink stylus]({{ site.url }}/images/emil-i-procreate-adonit-ink-900.jpg)
+![Work in progress with the Adonit Ink stylus]({{ site.url }}/assets/images/emil-i-procreate-adonit-ink-900.jpg)
 
 Well after drawing with it for a few hours it definitely has some issues. Most of can be traced back to the [iPad Air 2](http://www.adonit.net/blog/archives/2015/05/07/ipad-air-2-performance/), which doesn't exactly support the stylus properly.
 

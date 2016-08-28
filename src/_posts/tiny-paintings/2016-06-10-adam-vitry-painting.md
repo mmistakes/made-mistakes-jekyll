@@ -14,7 +14,7 @@ Tiny portrait of Adam Vitry inspired by a [photograph on Sktchy](http://sktchy.c
 Final painting measures 1.5\" x 1.5\".
 
 <figure>
-  <img src="{{ site.url }}/images/painting-adam-vitry-process.jpg">
+  <img src="{{ site.url }}/assets/images/painting-adam-vitry-process.jpg">
   <figcaption>Initial sketch completed with a 2H pencil to keep things light. #WAXquicktip</figcaption>
 </figure>
 

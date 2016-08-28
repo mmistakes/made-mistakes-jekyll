@@ -17,6 +17,6 @@ I had nothing to do with using a bad credit card at Tops' honest! I just happen 
 > <cite>[The Buffalo News](http://www.buffalonews.com/437/story/889338.html)</cite>
 
 <figure>
-  <img src="{{ site.url }}/images/michael-the-fugitive.jpg" alt="Me the fugitive?" />
+  <img src="{{ site.url }}/assets/images/michael-the-fugitive.jpg" alt="Me the fugitive?" />
   <figcaption>I think my bizarro twin is running some sort of credit card scam.</figcaption>
 </figure>

@@ -19,7 +19,7 @@ I like to rough out a general shape of the subject's hair using watercolor loade
 When working with the watercolor brush remember to **layer** numerous strokes to get a rich dark base. Just painting one coat of black won't give great results needed for the next step.
 
 <figure>
-	<a href="{{ site.ur }}/images/drawing-hair-paper-53-cheatsheet-lg.jpg"><img src="{{ site.url }}/images/drawing-hair-paper-53-cheatsheet-600.jpg" alt="Drawing hair with Paper by 53 cheatsheet" /></a>
+	<a href="{{ site.ur }}/images/drawing-hair-paper-53-cheatsheet-lg.jpg"><img src="{{ site.url }}/assets/images/drawing-hair-paper-53-cheatsheet-600.jpg" alt="Drawing hair with Paper by 53 cheatsheet" /></a>
 </figure>
 
 ## Draw Each Strand
@@ -29,16 +29,16 @@ The key here is observation --- look at how each strand(or section) of hair move
 For those new to the app I suggest drawing in grays --- limiting your palette to get a feel for the tools and how they behave. Working with a limitless selection of color could complicate and distract you from learning the tools. Thankfully FiftyThree's excellent color mixer *just works* when you're ready to exploit it.
 
 <figure>
-	<img src="{{ site.url }}/images/paper-default-hair-palette-600.jpg" alt="Default palette" />
+	<img src="{{ site.url }}/assets/images/paper-default-hair-palette-600.jpg" alt="Default palette" />
 	<figcaption>The browns in this default palette are good to start with before mixing your own.</figcaption>
 </figure>
 
 On the subject of palettes... I stick with the default sets. Since I draw a ton of portraits, it's much quicker for me to adjust a color on the fly. But I do see the benefit of setting up a predetermined palette beforehand to give your illustration a feeling of cohesion. Before the color mixer existed you had to get inventive if you wanted additional colors. A limitation that encouraged experimentation and sometimes unexpected results.
 
 <figure class="third">
-	<a href="{{ site.url }}/images/paper-53-color-redheads-lg.jpg"><img src="{{ site.url }}/images/paper-53-color-redheads-200.jpg" alt="Paper 53 color for red hair base" /></a>
-	<a href="{{ site.url }}/images/paper-53-color-brunettes-highlight-lg.jpg"><img src="{{ site.url }}/images/paper-53-color-brunettes-highlight-200.jpg" alt="Paper 53 color for brunette highlights" /></a>
-	<a href="{{ site.url }}/images/paper-53-color-watercolor-shading-lg.jpg"><img src="{{ site.url }}/images/paper-53-color-watercolor-shading-200.jpg" alt="Paper 53 color watercolor shading" /></a>
+	<a href="{{ site.url }}/assets/images/paper-53-color-redheads-lg.jpg"><img src="{{ site.url }}/assets/images/paper-53-color-redheads-200.jpg" alt="Paper 53 color for red hair base" /></a>
+	<a href="{{ site.url }}/assets/images/paper-53-color-brunettes-highlight-lg.jpg"><img src="{{ site.url }}/assets/images/paper-53-color-brunettes-highlight-200.jpg" alt="Paper 53 color for brunette highlights" /></a>
+	<a href="{{ site.url }}/assets/images/paper-53-color-watercolor-shading-lg.jpg"><img src="{{ site.url }}/assets/images/paper-53-color-watercolor-shading-200.jpg" alt="Paper 53 color watercolor shading" /></a>
 	<figcaption>Some of my favorite color presets for drawing hair.</figcaption>
 </figure>
 

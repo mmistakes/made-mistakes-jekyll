@@ -26,9 +26,9 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 {:.fl}
 
 <figure class="third">
-	<a href="{{ site.url }}{% post_url 2013-06-17-studioprisoner-portrait %}"><img src="{{ site.url }}/images/paperfaces-studioprisoner-twitter-600.jpg" alt="PaperFaces portrait of a horsehead"></a>
-	<a href="{{ site.url }}{% post_url 2013-06-05-go-master-portrait %}"><img src="{{ site.url }}/images/paperfaces-go-master-600.jpg" alt="PaperFaces portrait of a Go master"></a>
-	<a href="{{ site.url }}{% post_url 2013-01-17-genevasands-portrait %}"><img src="{{ site.url }}/images/paperfaces-genevasands-twitter-600.jpg" alt="PaperFaces portrait of long flowing hair"></a>
+	<a href="{{ site.url }}{% post_url 2013-06-17-studioprisoner-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-studioprisoner-twitter-600.jpg" alt="PaperFaces portrait of a horsehead"></a>
+	<a href="{{ site.url }}{% post_url 2013-06-05-go-master-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-go-master-600.jpg" alt="PaperFaces portrait of a Go master"></a>
+	<a href="{{ site.url }}{% post_url 2013-01-17-genevasands-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-genevasands-twitter-600.jpg" alt="PaperFaces portrait of long flowing hair"></a>
 	<figcaption>Some of my favorite portraits I've illustrated.</figcaption>
 </figure>
 

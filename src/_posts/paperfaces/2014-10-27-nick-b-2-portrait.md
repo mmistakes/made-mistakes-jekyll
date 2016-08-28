@@ -15,7 +15,7 @@ Drawing is available on [on Mix](https://mix.fiftythree.com/11098-Michael-Rose/5
 {% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
-  <a href="{{ site.url }}/images/paperfaces-nick-b-2-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-nick-b-2-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-nick-b-2-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-nick-b-2-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-nick-b-2-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-nick-b-2-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-nick-b-2-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-nick-b-2-process-2-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen capture Made with Paper.</figcaption>
 </figure>

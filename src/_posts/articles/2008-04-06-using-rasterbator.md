@@ -26,21 +26,21 @@ Anyways. After cutting out all the pages I setup my JVC mini-DV camcorder and re
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/images/rasterbator-trimming-pages.jpg" alt="Trimming pages printed out by the Rasterbator">
+    <img src="{{ site.url }}/assets/images/rasterbator-trimming-pages.jpg" alt="Trimming pages printed out by the Rasterbator">
     <figcaption>Measure twice, cut once, and hopefully not a finger or two</figcaption>
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/images/rasterbator-firstrow-owl.jpg" alt="First Rasterbator row assembled">
+    <img src="{{ site.url }}/assets/images/rasterbator-firstrow-owl.jpg" alt="First Rasterbator row assembled">
     <figcaption>First row up&#8230;</figcaption>
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/images/rasterbator-halfway-owl.jpg" alt="Halfway assembled Rasterbator owl">
+    <img src="{{ site.url }}/assets/images/rasterbator-halfway-owl.jpg" alt="Halfway assembled Rasterbator owl">
     <figcaption>Halfway there</figcaption>
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/images/rasterbator-finished-owl.jpg" alt="Finished Rasterbated owl">
+    <img src="{{ site.url }}/assets/images/rasterbator-finished-owl.jpg" alt="Finished Rasterbated owl">
     <figcaption>Finished</figcaption>
 </figure>

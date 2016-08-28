@@ -15,7 +15,7 @@ It wasn't the most difficult photograph to recreate in Paper, seeing how the fac
 {% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
-  <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-twitter-600.jpg" alt="first PaperFaces portrait"></a>
-  <a href="{{ site.url }}/images/paperfaces-veganwendy-2-twitter-lg.jpg"><img src="{{ site.url }}/images/paperfaces-veganwendy-2-twitter-600.jpg" alt="last PaperFaces portrait?"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-veganwendy-twitter-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-veganwendy-twitter-600.jpg" alt="first PaperFaces portrait"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-veganwendy-2-twitter-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-veganwendy-2-twitter-600.jpg" alt="last PaperFaces portrait?"></a>
   <figcaption>What a difference two years made.</figcaption>
 </figure>

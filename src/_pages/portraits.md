@@ -14,7 +14,7 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:5 %}
     <li>
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></a>
     </li>
 {% endfor %}
 </ul>
@@ -22,7 +22,7 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 Using a photograph supplied by you as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. I recommend going black and white since it's my favorite way to draw and often yields more realistic results. ([Portrait examples]({{ site.url }}/paperfaces/))
 
 <figure>
-    <img src="{{ site.url }}/images/portrait-single-multiple.jpg" alt="one face or multiple">
+    <img src="{{ site.url }}/assets/images/portrait-single-multiple.jpg" alt="one face or multiple">
     <figcaption>Choose wisely: black and white, one face, or multiple.</figcaption>
 </figure>
 

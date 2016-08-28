@@ -14,8 +14,8 @@ Tiny portrait of a Stormtrooper from **Star Wars**. Painted with watercolor on h
 Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. Underestimated how bad things can go when using white watercolor painting incorrectly. I won't make that mistake again...
 
 <figure class="half">
-  <a href="{{ site.url }}/images/painting-stormtrooper-process-1-lg.jpg"><img src="{{ site.url }}/images/painting-stormtrooper-process-1-600.jpg" alt="Work in process"></a>
-  <a href="{{ site.url }}/images/painting-stormtrooper-process-2-lg.jpg"><img src="{{ site.url }}/images/painting-stormtrooper-process-2-600.jpg" alt="Work in process"></a>
+  <a href="{{ site.url }}/assets/images/painting-stormtrooper-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/painting-stormtrooper-process-1-600.jpg" alt="Work in process"></a>
+  <a href="{{ site.url }}/assets/images/painting-stormtrooper-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/painting-stormtrooper-process-2-600.jpg" alt="Work in process"></a>
   <figcaption>Various work in progress snapshots from the initial drawing up to its completion.</figcaption>
 </figure>
 

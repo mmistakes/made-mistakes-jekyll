@@ -27,7 +27,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Grunt and Rake tasks for easier site development.
 
 <figure class="large">
-	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
+	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/assets/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
 </figure>
 
 <div markdown="0">
@@ -64,7 +64,7 @@ Grunt is no longer needed to build `main.css`. I've ported all of the Less style
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with lightweight share links. Social sharing links are enabled by default on all posts and pages. To disable add `share: false` to the post's YAML Front Matter.
 
 <figure>
-	<img src="{{ site.url }}/images/hpstr-social-share-example.jpg" alt="social share button screenshot">
+	<img src="{{ site.url }}/assets/images/hpstr-social-share-example.jpg" alt="social share button screenshot">
 	<figcaption>How social sharing buttons look in HPSTR</figcaption>
 </figure>
 

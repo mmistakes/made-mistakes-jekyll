@@ -116,7 +116,7 @@ Or you could hack the order sequence by doing something like this with your file
 After creating a handful of components, I started to refine the [Liquid](https://github.com/Shopify/liquid/wiki) needed to display them. Mostly to make sure things were shaping up how I envisioned them before getting too deep into things.
 
 <figure>
-  <img src="{{ site.url }}/images/jekyll-style-guide-components.png" alt="Sublime Text _components screenshot">
+  <img src="{{ site.url }}/assets/images/jekyll-style-guide-components.png" alt="Sublime Text _components screenshot">
   <figcaption>Screen shot of my components collection.</figcaption>
 </figure>
 
@@ -209,7 +209,7 @@ To help expose components that may be buried towards the bottom of the page I ca
 ```
 
 <figure>
-  <img src="{{ site.url }}/images/style-guide-component-selector.jpg" alt="style guide component selector">
+  <img src="{{ site.url }}/assets/images/style-guide-component-selector.jpg" alt="style guide component selector">
   <figcaption>Style guide component selector.</figcaption>
 </figure>
 
@@ -222,7 +222,7 @@ For the most part all of my components displayed correctly on the page. One of t
 There were also a few cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
 
 <figure>
-  <img src="{{ site.url }}/images/style-guide-ui-colors.png" alt="UI colors screenshot">
+  <img src="{{ site.url }}/assets/images/style-guide-ui-colors.png" alt="UI colors screenshot">
   <figcaption>Screenshot of UI color palette.</figcaption>
 </figure>
 

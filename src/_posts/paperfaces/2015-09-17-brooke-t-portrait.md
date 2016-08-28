@@ -14,9 +14,9 @@ PaperFaces portrait of Brooke T. inspired by a [photograph on Sktchy](http://skt
 My first drawing completed with version 3.0 of Paper by FiftyThree. So far really enjoying the full screen zoom just wish it had more levels of magnification.
 
 <figure class="third">
-  <a href="{{ site.url }}/images/paperfaces-brooke-t-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-brooke-t-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-brooke-t-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-brooke-t-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-brooke-t-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-brooke-t-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-brooke-t-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-brooke-t-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-brooke-t-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-brooke-t-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-brooke-t-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-brooke-t-process-3-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress drawings are <a href="https://paper.fiftythree.com/11098-Michael-Rose/5492331">available on Paper</a>.</figcaption>
 </figure>
 

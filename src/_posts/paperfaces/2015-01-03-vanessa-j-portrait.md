@@ -16,6 +16,6 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 {% include boilerplate/paperfaces-3.html %}
 
 <figure>
-  <a href="{{ site.url }}/images/paperfaces-vanessa-j-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-vanessa-j-process-1-900.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-vanessa-j-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-vanessa-j-process-1-900.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen captures Made with Paper.</figcaption>
 </figure>

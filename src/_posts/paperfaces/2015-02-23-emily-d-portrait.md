@@ -23,8 +23,8 @@ After I try out some other time lapse iOS apps I plan on sharing what I've learn
 </figure>
 
 <figure class="half">
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2256482"><img src="{{ site.url }}/images/paperfaces-emily-d-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2298299"><img src="{{ site.url }}/images/paperfaces-emily-d-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2256482"><img src="{{ site.url }}/assets/images/paperfaces-emily-d-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2298299"><img src="{{ site.url }}/assets/images/paperfaces-emily-d-process-2-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>
 

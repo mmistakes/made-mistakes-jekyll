@@ -14,7 +14,7 @@ I did my research this time around and checked out various websites and forums t
 {% include toc.html %}
 
 <figure>
-	<img src="{{ site.url }}/images/65.jpg" alt="Migrating all my data over to a fresh OS X Leopard install" />
+	<img src="{{ site.url }}/assets/images/65.jpg" alt="Migrating all my data over to a fresh OS X Leopard install" />
 	<figcaption>Migrating all my data over to a fresh Mac OS X Leopard install</figcaption>
 </figure>
 

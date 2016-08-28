@@ -15,6 +15,6 @@ Drawing is available on [on Mix](https://mix.fiftythree.com/11098-Michael-Rose/3
 {% include boilerplate/paperfaces-3.html %}
 
 <figure>
-  <a href="{{ site.url }}/images/paperfaces-clayton-b-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-clayton-b-process-1-900.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-clayton-b-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-clayton-b-process-1-900.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen capture Made with Paper.</figcaption>
 </figure>

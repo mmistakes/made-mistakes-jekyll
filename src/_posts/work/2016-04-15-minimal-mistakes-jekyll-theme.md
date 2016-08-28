@@ -22,9 +22,9 @@ The theme includes responsive layouts (`single`, `archive`, and `splash` pages) 
 {% endcapture %}
 
 <figure class="third">
-  <a href="{{ site.url }}/images/mm-layout-splash.png"><img src="{{ site.url }}/images/mm-layout-splash.png" alt="splash layout example"></a>
-  <a href="{{ site.url }}/images/mm-layout-single-meta.png"><img src="{{ site.url }}/images/mm-layout-single-meta.png" alt="single layout with comments and related posts"></a>
-  <a href="{{ site.url }}/images/mm-layout-archive.png"><img src="{{ site.url }}/images/mm-layout-archive.png" alt="archive layout example"></a>
+  <a href="{{ site.url }}/assets/images/mm-layout-splash.png"><img src="{{ site.url }}/assets/images/mm-layout-splash.png" alt="splash layout example"></a>
+  <a href="{{ site.url }}/assets/images/mm-layout-single-meta.png"><img src="{{ site.url }}/assets/images/mm-layout-single-meta.png" alt="single layout with comments and related posts"></a>
+  <a href="{{ site.url }}/assets/images/mm-layout-archive.png"><img src="{{ site.url }}/assets/images/mm-layout-archive.png" alt="archive layout example"></a>
   <figcaption>{{ layouts_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
 

@@ -22,7 +22,7 @@ They offer some guidance on [color management](http://www.blurb.com/color-manage
 ## Sample Pages
 
 <figure class="half">
-	<a href="{{ site.url }}/images/six-month-walk-interior-1-1024.jpg" title="Photograph of interior page spread of book, A Six Month Walk"><img src="{{ site.url }}/images/six-month-walk-interior-1-320.jpg" alt="Photograph of interior page spread of book, A Six Month Walk" /></a>
-	<a href="{{ site.url }}/images/six-month-walk-detail-print-1024.jpg" title="Detail photograph of printed page of book, A Six Month Walk"><img src="{{ site.url }}/images/six-month-walk-detail-print-320.jpg" alt="Detail photograph of printed page of book, A Six Month Walk" /></a>
+	<a href="{{ site.url }}/assets/images/six-month-walk-interior-1-1024.jpg" title="Photograph of interior page spread of book, A Six Month Walk"><img src="{{ site.url }}/assets/images/six-month-walk-interior-1-320.jpg" alt="Photograph of interior page spread of book, A Six Month Walk" /></a>
+	<a href="{{ site.url }}/assets/images/six-month-walk-detail-print-1024.jpg" title="Detail photograph of printed page of book, A Six Month Walk"><img src="{{ site.url }}/assets/images/six-month-walk-detail-print-320.jpg" alt="Detail photograph of printed page of book, A Six Month Walk" /></a>
 	<figcaption>Detail photographs of a printed book.</figcaption>
 </figure>

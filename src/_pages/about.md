@@ -21,8 +21,8 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.u
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls]({{ site.url }}/tag/twins/) who just hit the toddler phase and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
 <figure class="half">
-  <a href="{{ site.url }}{% post_url 2014-05-19-mmistakes-2-portrait %}"><img src="{{ site.url }}/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>
-  <a href="{{ site.url }}{% post_url 2014-08-03-rosebuds-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
+  <a href="{{ site.url }}{% post_url 2014-05-19-mmistakes-2-portrait %}"><img src="{{ site.url }}/assets/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>
+  <a href="{{ site.url }}{% post_url 2014-08-03-rosebuds-2-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
   <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
 My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't.
 {% endcapture %}
 <figure>
-<img src="{{ site.url }}/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
+<img src="{{ site.url }}/assets/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
 <figcaption>{{ tattoos_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
 

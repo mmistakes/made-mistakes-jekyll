@@ -14,8 +14,8 @@ And just so it's recorded, this is the illustration I was working on when my [Po
 {% include boilerplate/paperfaces.html %}
 
 <figure class="half">
-	<a href="{{ site.url }}/images/paperfaces-jinthagerman-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jinthagerman-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/images/paperfaces-jinthagerman-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jinthagerman-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/images/paperfaces-jinthagerman-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jinthagerman-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/images/paperfaces-jinthagerman-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-jinthagerman-process-4-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-1-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-3-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jinthagerman-process-4-600.jpg" alt="Work in process screenshot"></a>
 </figure>

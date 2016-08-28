@@ -26,14 +26,14 @@ The loupe shown below has been retired and replaced with a more traditional zoom
 The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({{ site.url }}{% post_url 2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.
 
 <figure>
-	<img src="{{ site.url }}/images/paper-53-zoom-loupe-pencil-ev.jpg" alt="drawing in the loupe">
+	<img src="{{ site.url }}/assets/images/paper-53-zoom-loupe-pencil-ev.jpg" alt="drawing in the loupe">
 	<figcaption>Drawing in the loupe with FiftyThree's Pencil stylus.</figcaption>
 </figure>
 
 An important characteristic of the watercolor brush is its ability to [apply glazes]({{ site.url }}{% post_url 2014-02-09-basics %}#glazing) on top of each other to build 3-dimensional forms. To pull off this effect, [smooth tones]({{ site.url }}{% post_url 2014-02-09-basics %}#painting-smooth) are a must and the only way to paint them is by not lifting off the canvas until you've filled the shape.
 
 <figure>
-	<img src="{{ site.url }}/images/paper-53-zoom-glaze-face.jpg" alt="glazing in the loupe">
+	<img src="{{ site.url }}/assets/images/paper-53-zoom-glaze-face.jpg" alt="glazing in the loupe">
 	<figcaption>Moving the loupe while glazing is necessary to cover larger shapes evenly.</figcaption>
 </figure>
 

@@ -12,11 +12,11 @@ PaperFaces portrait of [@surjithctly](http://twitter.com/surjithctly) for featur
 {% include boilerplate/paperfaces-2.html %}
 
 <figure>
-	<a href="{{ site.url }}/images/paperfaces-surjithctly-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-surjithctly-process-1-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-surjithctly-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-surjithctly-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Pencil outline.</figcaption>
 </figure>
 
 <figure>
-	<a href="{{ site.url }}/images/paperfaces-surjithctly-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-surjithctly-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-surjithctly-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-surjithctly-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Building up the face with layers of watercolor.</figcaption>
 </figure>

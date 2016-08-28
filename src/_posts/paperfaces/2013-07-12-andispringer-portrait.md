@@ -12,16 +12,16 @@ PaperFaces portrait of [@andispringer](http://twitter.com/andispringer). If you 
 {% include boilerplate/paperfaces-2.html %}
 
 <figure>
-	<a href="{{ site.url }}/images/paperfaces-andispringer-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-andispringer-process-1-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-andispringer-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-andispringer-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Quick sketch with the pencil tool to figure out the composition.</figcaption>
 </figure>
 
 <figure>
-	<a href="{{ site.url }}/images/paperfaces-andispringer-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-andispringer-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-andispringer-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-andispringer-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Simple background with layered watercolor strokes to create a vignette effect.</figcaption>
 </figure>
 
 <figure>
-	<a href="{{ site.url }}/images/paperfaces-andispringer-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-andispringer-process-3-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-andispringer-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-andispringer-process-3-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Zooming in to capture facial feature details using a pencil.</figcaption>
 </figure>

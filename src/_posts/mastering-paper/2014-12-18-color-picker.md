@@ -17,7 +17,7 @@ Re-imagined zoom tool, *check*. Expressive paint and ink tools that react to the
 With each major update Paper takes a forward leap into maturity as new tools and features are added. You really get the feeling that everything has been weighed to carefully balance and compliment the way you interact with the app. Almost to a fault, the tools and gestures have been designed to fade away into the UI putting the focus on what matters most --- the ink and paint being placed on the canvas.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-original-9-colors.png" alt="original Paper by 53 color palette">
+  <img src="{{ site.url }}/assets/images/paper-53-original-9-colors.png" alt="original Paper by 53 color palette">
   <figcaption>Do you remember when Paper by FiftyThree only had 9 colors? I do.</figcaption>
 </figure>
 
@@ -28,15 +28,15 @@ From those early days of working with a constrained palette up to the addition o
 First off you need to own either the **Essentials** or **Mixer In-App purchases** to enable the Color Picker. If you have FiftyThree's Pencil then good news, all of the [tools are already unlocked](http://support.fiftythree.com/customer/portal/articles/1358809-using-pencil#enabling-tools) for you.
 
 <figure class="half">
-  <img src="{{ site.url }}/images/paper-53-mixer-iap.png" alt="Paper 53 Mixer In-App purchase screen">
-  <img src="{{ site.url }}/images/paper-53-essentials-iap.png" alt="Paper 53 Essentials tools In-App purcahse screen">
+  <img src="{{ site.url }}/assets/images/paper-53-mixer-iap.png" alt="Paper 53 Mixer In-App purchase screen">
+  <img src="{{ site.url }}/assets/images/paper-53-essentials-iap.png" alt="Paper 53 Essentials tools In-App purcahse screen">
   <figcaption>The Mixer is required to use the Color Picker.</figcaption>
 </figure>
 
 To sample a color tap on the small circle inside of the Color Mixer --- you may need to tap it a second time if it wasn't previously selected. You'll know you've done it right when an eye dropper icon appears in the circle.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-mixer-eye-dropper.jpg" alt="Color Mixer eye dropper">
+  <img src="{{ site.url }}/assets/images/paper-53-mixer-eye-dropper.jpg" alt="Color Mixer eye dropper">
   <figcaption>The Mixer changes to an eye dropper when tapped on.</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Tapping the eye dropper icon will place a small circle onto the canvas that you 
 There's not much more to using the Color Picker. As the small circle is moved around the canvas, the color inside of it will change letting you know what color is selected. There is also a black dot in the center to help with alignment when trying to pick up a tiny speck of color.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-color-picker.gif" alt="animation of Color Picker changing colors">
+  <img src="{{ site.url }}/assets/images/paper-53-color-picker.gif" alt="animation of Color Picker changing colors">
   <figcaption>Pretty cool how the color changes as you drag it around the canvas huh?.</figcaption>
 </figure>
 
@@ -65,13 +65,13 @@ Sampling colors with the picker tool isn't limited to just the ink, fill, and ba
 To place a photo on the canvas tap the **camera icon**. Importing photos can be done when an idea is first created...
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-color-new-idea.jpg" alt="Paper new idea options">
+  <img src="{{ site.url }}/assets/images/paper-53-color-new-idea.jpg" alt="Paper new idea options">
 </figure>
 
 Or after the fact...
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-color-photo-import-button.jpg" alt="import photos in Paper">
+  <img src="{{ site.url }}/assets/images/paper-53-color-photo-import-button.jpg" alt="import photos in Paper">
 </figure>
 
 Once you have a photo on the canvas you can sample its colors same as before:
@@ -82,8 +82,8 @@ Once you have a photo on the canvas you can sample its colors same as before:
 4. Tap the eyedropper again to work with or save to your palette.
 
 <figure class="half">
-  <img src="{{ site.url }}/images/paper-53-color-photo-sample-1.jpg" alt="Color Mixer eyedropper">
-  <img src="{{ site.url }}/images/paper-53-color-photo-sample-2.jpg" alt="sampling a photo's color">
+  <img src="{{ site.url }}/assets/images/paper-53-color-photo-sample-1.jpg" alt="Color Mixer eyedropper">
+  <img src="{{ site.url }}/assets/images/paper-53-color-photo-sample-2.jpg" alt="sampling a photo's color">
 </figure>
 
 ---
@@ -95,29 +95,29 @@ Once you have a photo on the canvas you can sample its colors same as before:
 Let's use these two splotches of color below as an example of what I mean. On the left is a shape painted with the watercolor brush and on the right one with the marker tool --- both filled with the same color.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-sampled-colors-1.jpg" alt="shapes filled with the same color">
+  <img src="{{ site.url }}/assets/images/paper-53-sampled-colors-1.jpg" alt="shapes filled with the same color">
   <figcaption>Two shapes filled by two different tools with the same exact color.</figcaption>
 </figure>
 
 Because of the transparent nature of the watercolor brush, the painted shape on the left appears to be a lighter hue than the one on the right. You'd think that when dragging the Color Picker over both shapes it would sample them as two different colors, but that's not quite what happens...
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-sampled-colors-2.jpg" alt="sampling shapes filled with the same color">
-  <img src="{{ site.url }}/images/paper-53-sampled-colors-3.jpg" alt="sampling shaped filled with the same color">
+  <img src="{{ site.url }}/assets/images/paper-53-sampled-colors-2.jpg" alt="sampling shapes filled with the same color">
+  <img src="{{ site.url }}/assets/images/paper-53-sampled-colors-3.jpg" alt="sampling shaped filled with the same color">
   <figcaption>Notice anything strange? According to Paper both colors are identical even though they don't look the same. Weird. Filling the page with a dark color had no effect on sampling.</figcaption>
 </figure>
 
 As far as I can tell the Color Picker completely ignores the background page color when sampling --- rather than combining the page color with the transparent strokes on top of it. I'm not entirely sure if this is by design, some sort of bug, a limitation of the software, or a little of both. Before crying foul, sampling the colors on a transparent background in Adobe Photoshop produced the same exact results. So the picker doesn't seem to be broken...
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-sampled-colors-4.jpg" alt="screenshot of sampled colors in Photoshop">
+  <img src="{{ site.url }}/assets/images/paper-53-sampled-colors-4.jpg" alt="screenshot of sampled colors in Photoshop">
   <figcaption>Adobe Photoshop samples the fills just like Paper with both having the same color values.</figcaption>
 </figure>
 
 This little gotcha is even more pronounced when sampling areas that have been heavily blended as shown below.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-sampled-colors-5.jpg" alt="sampling gradations">
+  <img src="{{ site.url }}/assets/images/paper-53-sampled-colors-5.jpg" alt="sampling gradations">
   <figcaption>The discrepancy between what you see and what the picker samples is really noticeable here. I was expecting the bottom sample to be a lighter blue than what was actually picked up.</figcaption>
 </figure>
 
@@ -132,14 +132,14 @@ Don't let that little color sampling inconsistency get you down, there's still p
 As I've started to work with the picker more I'm beginning to see value in including color swatches in the margins of my drawings. It's a way of bringing clarity to the palette I use in a piece. Not only that, but it gives me a place to stash additional colors since my 6 palettes are more than filled up.
 
 <figure>
-  <img src="{{ site.url }}/images/paper-53-color-picker-swatches.jpg" alt="example of color palette painting in the margin">
+  <img src="{{ site.url }}/assets/images/paper-53-color-picker-swatches.jpg" alt="example of color palette painting in the margin">
   <figcaption>Placing color swatches off to the side for reference and sampling has its advantages.</figcaption>
 </figure>
 
 Aside from the new picker, the Mixer received some love by now including numeric values on each of the 3 sliders. These numbers map perfectly to HSB[^hsb] values which makes communicating the exact makeup of a color others that much easier.
 
 <figure class="image-right">
-  <img src="{{ site.url }}/images/photoshop-hsb.jpg" alt="screenshot showing the HSB picker in Adobe Photoshop">
+  <img src="{{ site.url }}/assets/images/photoshop-hsb.jpg" alt="screenshot showing the HSB picker in Adobe Photoshop">
 </figure>
 
 The HSB/HLS color models are found in most desktop graphics programs like Adobe's Photoshop. By opting to include a standardized color model in Paper it is now possible to match colors across platforms and apps. As a designer I find this especially helpful for maintaining color consistency when importing Paper PNG files into Adobe Creative Suite documents.
@@ -151,7 +151,7 @@ When I wrote my Mastering Paper guide for [drawing portraits]({{ site.url }}{% p
 [^paper-palette-template]: Thanks to Dayna D. Smith for providing the great "[My Paper Palettes](https://mix.fiftythree.com/200794-Danya-D-Smith/1299445)" template that I remixed.
 
 <figure>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1376457" target="_blank"><img src="{{ site.url }}/images/paper-53-skin-palette.jpg" alt="my skin tone palette for drawing portraits"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1376457" target="_blank"><img src="{{ site.url }}/assets/images/paper-53-skin-palette.jpg" alt="my skin tone palette for drawing portraits"></a>
   <figcaption>Download my default skin tone palette for drawing portraits.</figcaption>
 </figure>
 

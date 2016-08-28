@@ -19,8 +19,8 @@ work: "Illustration"
 {% for post in site.categories.procreate-paintings %}
   <li style="width: 200px;">
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/images/preload-150.png" data-original="{{ site.url }}/images/{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></noscript>
+      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt="">
+      <noscript><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></noscript>
     </a>
   </li>
 {% endfor %}

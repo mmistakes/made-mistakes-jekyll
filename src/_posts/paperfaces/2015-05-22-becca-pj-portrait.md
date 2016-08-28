@@ -14,9 +14,9 @@ PaperFaces portrait of Becca P.J. inspired by a [photograph on Sktchy](http://sk
 There's something about the look of white on dark that I really enjoy. Perhaps it's the chalky like quality of Paper's soft lead pencil tool that appeals to me?
 
 <figure class="third">
-  <a href="{{ site.url }}/images/paperfaces-becca-pj-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-becca-pj-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-becca-pj-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-becca-pj-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-becca-pj-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-becca-pj-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-becca-pj-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-becca-pj-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-becca-pj-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-becca-pj-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-becca-pj-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-becca-pj-process-3-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress drawings are <a href="https://mix.fiftythree.com/11098-Michael-Rose/3471365">available on Mix</a>.</figcaption>
 </figure>
 

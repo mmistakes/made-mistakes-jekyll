@@ -8,7 +8,7 @@ tags: [iPhone, Apple, Palm Pre, review, tech geek]
 ---
 
 <figure>
-	<img src="{{ site.url }}/images/my-phone-progression.jpg" alt="My smartphone progression over the years." />
+	<img src="{{ site.url }}/assets/images/my-phone-progression.jpg" alt="My smartphone progression over the years." />
 	<figcaption>My smartphone progression over the years.</figcaption>
 </figure>
 

@@ -20,7 +20,7 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 {% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
-  <a href="{{ site.url }}/images/paperfaces-joker-original-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-joker-original-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-joker-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-joker-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-joker-original-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-joker-original-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-joker-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-joker-process-1-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Original drawing by 赵 志欣 with my work on the right.</figcaption>
 </figure>

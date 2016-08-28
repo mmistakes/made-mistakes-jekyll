@@ -15,7 +15,7 @@ After four years of high school art I kept at it when dual majoring in both Grap
 After earning my bachelor's degree, drawing took a back seat as I started a career in print and web design. Finding ways to incorporate technology into my life has been a passion of mine ever since playing with my first [Apple IIe](http://en.wikipedia.org/wiki/Apple_IIe). Helps explain why I was attracted to digital design which relies heavily on technology and computers compared to the fine arts.
 
 <figure>
-  <img src="{{ site.url }}/images/ipad-drawing-paper-by-53.jpg" alt="drawing with Pencil stylus on iPad">
+  <img src="{{ site.url }}/assets/images/ipad-drawing-paper-by-53.jpg" alt="drawing with Pencil stylus on iPad">
   <figcaption>Drawing on iPad using FiftyThree's Paper and Pencil tools.</figcaption>
 </figure>
 

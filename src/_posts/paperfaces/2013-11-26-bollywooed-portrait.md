@@ -12,7 +12,7 @@ PaperFaces portrait of <a href="http://twitter.com/BollyWooed">@BollyWooed</a>.
 {% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
-	<a href="{{ site.url }}/images/paperfaces-bollywooed-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bollywooed-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/images/paperfaces-bollywooed-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-bollywooed-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-bollywooed-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-bollywooed-process-1-600.jpg" alt="Work in process screenshot"></a>
+	<a href="{{ site.url }}/assets/images/paperfaces-bollywooed-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-bollywooed-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
 </figure>

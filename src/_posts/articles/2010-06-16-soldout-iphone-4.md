@@ -26,7 +26,7 @@ Looks like I might actually get an **iPhone 4** on launch day. Took AT&T all day
 > Here is a copy of your order summary:
 
 <figure>
-	<img src="{{ site.url }}/images/iphone-4-order-status.jpg" />
+	<img src="{{ site.url }}/assets/images/iphone-4-order-status.jpg" />
 	<figcaption>Order status results</figcaption>
 </figure>
 

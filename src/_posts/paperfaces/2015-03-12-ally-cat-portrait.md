@@ -23,8 +23,8 @@ Continuing on with my time lapse kick, here's another video I recorded over seve
 </figure>
 
 <figure class="half">
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2483829"><img src="{{ site.url }}/images/paperfaces-ally-cat-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2494030"><img src="{{ site.url }}/images/paperfaces-ally-cat-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2483829"><img src="{{ site.url }}/assets/images/paperfaces-ally-cat-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2494030"><img src="{{ site.url }}/assets/images/paperfaces-ally-cat-process-2-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>
 

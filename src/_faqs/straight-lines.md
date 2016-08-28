@@ -14,7 +14,7 @@ With the addition of the [Think Kit tools](https://www.fiftythree.com/think) in 
 </div>
 
 <figure>
-	<img src="{{ site.url }}/images/paper-53-grid-t-square-lg.jpg" alt="drawing a line with Pencil and a T-square">
+	<img src="{{ site.url }}/assets/images/paper-53-grid-t-square-lg.jpg" alt="drawing a line with Pencil and a T-square">
 	<figcaption>Surprise surprise, I use a ruler to draw straight lines.</figcaption>
 </figure>
 

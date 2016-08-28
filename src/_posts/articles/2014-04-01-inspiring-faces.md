@@ -21,6 +21,6 @@ Goofy homeless looking beards help get you noticed. Apparently Sktchy artists en
 </div>
 
 <figure class="half">
-	<a href="{{ site.url }}/tag/sktchy/"><img src="{{ site.url }}/images/sktchy-inspiration-screenshot.jpg" alt="Inspiration tab on Sktchy"></a>
-	<a href="{{ site.url }}/tag/sktchy/"><img src="{{ site.url }}/images/sktchy-profile-screenshot.jpg" alt="Profile page on Sktchy"></a>
+	<a href="{{ site.url }}/tag/sktchy/"><img src="{{ site.url }}/assets/images/sktchy-inspiration-screenshot.jpg" alt="Inspiration tab on Sktchy"></a>
+	<a href="{{ site.url }}/tag/sktchy/"><img src="{{ site.url }}/assets/images/sktchy-profile-screenshot.jpg" alt="Profile page on Sktchy"></a>
 </figure>

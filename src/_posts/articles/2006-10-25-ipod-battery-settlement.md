@@ -12,7 +12,7 @@ Last week I finally got an iPod return kit for my busted 3G iPod and dropped it 
 > Product replacement pending
 
 <figure>
-	<img src="{{ site.url }}/images/185.jpg" alt="iPod Battery Replacement status"/>
+	<img src="{{ site.url }}/assets/images/185.jpg" alt="iPod Battery Replacement status"/>
 	<figcaption>iPod battery replacement status screenshot</figcaption>
 </figure>
 

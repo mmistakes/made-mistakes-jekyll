@@ -21,7 +21,7 @@ The last batch of PaperFaces drawings along with in process sketches for each. T
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:16 %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt=""></a>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></a>
   </li>
 {% endfor %}
 </ul>
@@ -38,7 +38,7 @@ Unfortunately I am no longer taking volunteers for the project. <s>If you'd like
 
 PaperFaces is the name that I coined for the portraits I was drawing with the Paper by 53 iPad app. Most of the Paper creations share the #MadeWithPaper hashtag, so I thought [PaperFaces](https://twitter.com/search?q=PaperFaces&src=typd) would fit in with that theme and decided to start tagging each portrait with it.
 
-One night, out of sheer boredom, I decided I'd try to recreate <a href="{{ site.url }}/images/paperfaces-veganwendy-twitter-lg.jpg" title="iPad drawing of @veganwendy" rel="gallery">my wife's Twitter avatar</a> with Paper by 53. The positive response that resulted from that drawing prompted me to create one of <a href="{{ site.url }}/images/paperfaces-mmistakes-twitter-lg.jpg" title="iPad drawing of @mmistakes" rel="gallery">my own avatar</a>, which also went over well with my small group of Twitter and Instagram followers.
+One night, out of sheer boredom, I decided I'd try to recreate <a href="{{ site.url }}/assets/images/paperfaces-veganwendy-twitter-lg.jpg" title="iPad drawing of @veganwendy" rel="gallery">my wife's Twitter avatar</a> with Paper by 53. The positive response that resulted from that drawing prompted me to create one of <a href="{{ site.url }}/assets/images/paperfaces-mmistakes-twitter-lg.jpg" title="iPad drawing of @mmistakes" rel="gallery">my own avatar</a>, which also went over well with my small group of Twitter and Instagram followers.
 
 Due to the positive comments that I received, I decided to put a call out for more portrait volunteers. Without really considering the implications of my actions, I posted the following:
 
@@ -54,7 +54,7 @@ When the count hit 700, I revised my initial goal of 365 to 730 (that's two a da
 When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 was its small tool set, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and grow as an artist.
 
 <figure class="large">
-  <img src="{{ site.url }}/images/paperfaces-rosebud-twins-l.jpg" alt="PaperFaces iPad portrait of the Rosebud twins">
+  <img src="{{ site.url }}/assets/images/paperfaces-rosebud-twins-l.jpg" alt="PaperFaces iPad portrait of the Rosebud twins">
   <figcaption>PaperFaces iPad portrait of my two twin girls</figcaption>
 </figure>
 
@@ -103,18 +103,18 @@ I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows 
 I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing(s) to be included leave a comment below (include your drawing in the comment) or [tweet me](http://twitter.com/mmistakes).
 
 <ul id="fanart-gallery" class="th-grid">
-  <li><a href="{{ site.url }}/images/homage-pepfre-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre"></a></li>
-  <li><a href="{{ site.url }}/images/homage-missshrestha-rosebuds-lg.jpg"><img src="{{ site.url }}/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagram"></a></li>
-  <li><a href="{{ site.url }}/images/homage-morgantj-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj"></a></li>
-  <li><a href="{{ site.url }}/images/homage-tortadecereja-mmistakes-lg.jpg"><img src="{{ site.url }}/images/homage-tortadecereja-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @tortadecereja"></a></li>
-  <li><a href="http://instagram.com/p/W8WaxfAYmG/"><img src="{{ site.url }}/images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/W5r5EwgYge/"><img src="{{ site.url }}/images/homage-lindseyvail-art-2-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/VQ4-6HklEU/"><img src="{{ site.url }}/images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram"></a></li>
-  <li><a href="https://twitter.com/LovisasLife/status/314699959775662081"><img src="{{ site.url }}/images/homage-lovisaslife-150.jpg" alt="PaperFaces homage drawn by @LovisasLife on Twitter"></a></li>
-  <li><a href="http://instagram.com/p/QTn7jWJkHj/"><img src="{{ site.url }}/images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/cHexhprrxf/"><img src="{{ site.url }}/images/homage-konstnaren-150.jpg" alt="PaperFaces homage drawn by @konstnaren on Instagram"></a></li>
-  <li><a href="http://instagram.com/p/aVh8QOJ-uv/"><img src="{{ site.url }}/images/homage-grumz-150.jpg" alt="PaperFaces homage drawn by @grumz on Instagram"></a></li>
-  <li><a href="http://eichan68.tumblr.com"><img src="{{ site.url }}/images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram"></a></li>
+  <li><a href="{{ site.url }}/assets/images/homage-pepfre-mmistakes-lg.jpg"><img src="{{ site.url }}/assets/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre"></a></li>
+  <li><a href="{{ site.url }}/assets/images/homage-missshrestha-rosebuds-lg.jpg"><img src="{{ site.url }}/assets/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagram"></a></li>
+  <li><a href="{{ site.url }}/assets/images/homage-morgantj-mmistakes-lg.jpg"><img src="{{ site.url }}/assets/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj"></a></li>
+  <li><a href="{{ site.url }}/assets/images/homage-tortadecereja-mmistakes-lg.jpg"><img src="{{ site.url }}/assets/images/homage-tortadecereja-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @tortadecereja"></a></li>
+  <li><a href="http://instagram.com/p/W8WaxfAYmG/"><img src="{{ site.url }}/assets/images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
+  <li><a href="http://instagram.com/p/W5r5EwgYge/"><img src="{{ site.url }}/assets/images/homage-lindseyvail-art-2-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
+  <li><a href="http://instagram.com/p/VQ4-6HklEU/"><img src="{{ site.url }}/assets/images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram"></a></li>
+  <li><a href="https://twitter.com/LovisasLife/status/314699959775662081"><img src="{{ site.url }}/assets/images/homage-lovisaslife-150.jpg" alt="PaperFaces homage drawn by @LovisasLife on Twitter"></a></li>
+  <li><a href="http://instagram.com/p/QTn7jWJkHj/"><img src="{{ site.url }}/assets/images/homage-ramesstudios-150.jpg" alt="PaperFaces homage drawn by @ramesstudios on Instagram"></a></li>
+  <li><a href="http://instagram.com/p/cHexhprrxf/"><img src="{{ site.url }}/assets/images/homage-konstnaren-150.jpg" alt="PaperFaces homage drawn by @konstnaren on Instagram"></a></li>
+  <li><a href="http://instagram.com/p/aVh8QOJ-uv/"><img src="{{ site.url }}/assets/images/homage-grumz-150.jpg" alt="PaperFaces homage drawn by @grumz on Instagram"></a></li>
+  <li><a href="http://eichan68.tumblr.com"><img src="{{ site.url }}/assets/images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram"></a></li>
 </ul>
 
 ## Featured On

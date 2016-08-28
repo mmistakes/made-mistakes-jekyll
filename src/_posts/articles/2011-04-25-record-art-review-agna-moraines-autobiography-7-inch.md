@@ -20,7 +20,7 @@ Another aspect of these bands that I enjoyed, were the materials being released 
 Produced on the cheap meant you often received extra "goodies" in the record sleeves that you'd never see in commercially released albums. And because the methods of producing these elements were following a do-it-yourself ethic, the end result looked like one of a kind creations. Notes and drawings scrawled in a journal, torn out, folded, and placed alongside a 7-inch record for you to connect with when played on a turntable in your bedroom.
 
 <figure>
-    <a href="{{ site.url }}/images/agna-moraines-autobiography-outside-sleeve.jpg" title="Outside sleeve illustrations"><img src="{{ site.url }}/images/agna-moraines-autobiography-outside-sleeve-620x413.jpg" alt="Agna Moraine's Autobiography outside sleeve illustrations" /></a>
+    <a href="{{ site.url }}/assets/images/agna-moraines-autobiography-outside-sleeve.jpg" title="Outside sleeve illustrations"><img src="{{ site.url }}/assets/images/agna-moraines-autobiography-outside-sleeve-620x413.jpg" alt="Agna Moraine's Autobiography outside sleeve illustrations" /></a>
     <figcaption>Outside sleeve illustrations</figcaption>
 </figure>
 
@@ -39,16 +39,16 @@ Images, sounds, and lyrics are all over the place on this record. But that's ok.
 ## Additional Packaging Photographs
 
 <figure>
-    <a href="{{ site.url }}/images/agna-moraines-autobiography-fabric-lyrics.jpg" title="Song lyrics on fabric"><img src="{{ site.url }}/images/agna-moraines-autobiography-fabric-lyrics-300.jpg" alt="Agna Moraine's Autobiography song lyrics on fabric" /></a>
+    <a href="{{ site.url }}/assets/images/agna-moraines-autobiography-fabric-lyrics.jpg" title="Song lyrics on fabric"><img src="{{ site.url }}/assets/images/agna-moraines-autobiography-fabric-lyrics-300.jpg" alt="Agna Moraine's Autobiography song lyrics on fabric" /></a>
     <figcaption>Song lyrics on fabric</figcaption>
 </figure>
 
 <figure>
-    <a href="{{ site.url }}/images/agna-moraines-autobiography-detail-fabric-art-620x449.jpg" title="Illustrations and drawings on fabric"><img src="{{ site.url }}/images/agna-moraines-autobiography-detail-fabric-art-300.jpg" alt="Agna Moraine's Autobiography illustration on fabric detail" /></a>
+    <a href="{{ site.url }}/assets/images/agna-moraines-autobiography-detail-fabric-art-620x449.jpg" title="Illustrations and drawings on fabric"><img src="{{ site.url }}/assets/images/agna-moraines-autobiography-detail-fabric-art-300.jpg" alt="Agna Moraine's Autobiography illustration on fabric detail" /></a>
     <figcaption>Illustrations and drawings on fabric</figcaption>
 </figure>
 
 <figure>
-    <a href="{{ site.url }}/images/agna-moraines-autobiography-liner-notes-illustartion.jpg" title="Liner note illustrations"><img src="{{ site.url }}/images/agna-moraines-autobiography-liner-notes-illustartion-300.jpg" alt="Agna Moraine's Autobiography liner notes illustartions" /></a>
+    <a href="{{ site.url }}/assets/images/agna-moraines-autobiography-liner-notes-illustartion.jpg" title="Liner note illustrations"><img src="{{ site.url }}/assets/images/agna-moraines-autobiography-liner-notes-illustartion-300.jpg" alt="Agna Moraine's Autobiography liner notes illustartions" /></a>
     <figcaption>Linear note illustrations</figcaption>
 </figure>

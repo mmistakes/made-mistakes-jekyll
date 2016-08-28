@@ -25,8 +25,8 @@ I've also shared several in-process sketches and the [finished illustration](htt
 {% include boilerplate/paperfaces-5.html %}
 
 <figure class="third">
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2394700"><img src="{{ site.url }}/images/paperfaces-mr-spock-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2394966"><img src="{{ site.url }}/images/paperfaces-mr-spock-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2400718"><img src="{{ site.url }}/images/paperfaces-mr-spock-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2394700"><img src="{{ site.url }}/assets/images/paperfaces-mr-spock-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2394966"><img src="{{ site.url }}/assets/images/paperfaces-mr-spock-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2400718"><img src="{{ site.url }}/assets/images/paperfaces-mr-spock-process-3-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>

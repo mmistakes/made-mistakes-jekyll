@@ -37,7 +37,7 @@ Since publishing this short guide I've gone through several iPad styli and writt
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
 <figure>
-	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="{{ site.url }}/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
+	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="{{ site.url }}/assets/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ When I begin a new [PaperFaces portrait]({{ site.url }}/paperfaces/), I start by
 Usually I pencil in quick gestural outlines as a guide for painting forms later. Other times I jump right to the background and splash in layer upon layer of watercolor. It really depends on the source material and if the background has enough detail to bother with.
 
 <figure>
-  <img src="{{ site.url }}/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
+  <img src="{{ site.url }}/assets/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
   <figcaption>Face study using watercolor and some default colors.</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ To shade existing areas apply a darker hue, gray, or black. For backgrounds I te
 I don't use the fountain pen  or marker tools all that much because I like my illustrations to have a more painterly feel to them. However, these tools are perfect for covering  large irregular shaped areas with a base color --- like hair. They also come in handy when I need to rework or make adjustments (more precise than the eraser) to something I already drew or painted.
 
 <figure>
-  <img src="{{ site.url }}/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
+  <img src="{{ site.url }}/assets/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
   <figcaption>Filling in shapes using the fountain pen gets the job done quickly.</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Read in detail [how I draw hair]({{ site.url }}{% post_url 2013-05-10-drawing-ha
 </div>
 
 <figure>
-  <img src="{{ site.url }}/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
+  <img src="{{ site.url }}/assets/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
   <figcaption>Paper by 53's pencil tool works wonders for rendering hair.</figcaption>
 </figure>
 

@@ -14,10 +14,10 @@ PaperFaces portrait of Neon L. inspired by a [photograph on Sktchy](http://sktch
 Once again... faking that bokeh with a few quick swipes of the finger.
 
 <figure class="third">
-  <a href="{{ site.url }}/images/paperfaces-neon-l-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-neon-l-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-neon-l-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-neon-l-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-neon-l-process-3-lg.jpg"><img src="{{ site.url }}/images/paperfaces-neon-l-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-neon-l-process-4-lg.jpg"><img src="{{ site.url }}/images/paperfaces-neon-l-process-4-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-neon-l-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-neon-l-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-neon-l-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-neon-l-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-neon-l-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-neon-l-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-neon-l-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-neon-l-process-4-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress drawings are <a href="https://mix.fiftythree.com/11098-Michael-Rose/3957855">available on Mix</a>.</figcaption>
 </figure>
 

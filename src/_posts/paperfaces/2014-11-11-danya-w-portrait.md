@@ -17,7 +17,7 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 {% include boilerplate/paperfaces-3.html %}
 
 <figure class="half">
-  <a href="{{ site.url }}/images/paperfaces-danya-w-process-1-lg.jpg"><img src="{{ site.url }}/images/paperfaces-danya-w-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/images/paperfaces-danya-w-process-2-lg.jpg"><img src="{{ site.url }}/images/paperfaces-danya-w-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-danya-w-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-danya-w-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="{{ site.url }}/assets/images/paperfaces-danya-w-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-danya-w-process-2-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen captures Made with Paper.</figcaption>
 </figure>

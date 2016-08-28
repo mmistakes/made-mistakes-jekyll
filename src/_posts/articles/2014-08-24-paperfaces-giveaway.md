@@ -22,8 +22,8 @@ Entering the PaperFaces Giveaway is simple. <span class="badge info">Contest has
 ## Winning Portraits
 
 <figure class="third">
-	<a href="{{ site.url }}{% post_url 2014-09-02-harvydanger-portrait %}"><img src="{{ site.url }}/images/paperfaces-harvydanger-twitter-600.jpg" alt="color portrait winner"></a>
-	<a href="{{ site.url }}{% post_url 2014-09-06-psychoticmilkma-2-portrait %}"><img src="{{ site.url }}/images/paperfaces-psychoticmilkma-2-600.jpg" alt="black and white portrait winner"></a>
-  <a href="{{ site.url }}{% post_url 2014-09-10-viktoriaderoy-portrait %}"><img src="{{ site.url }}/images/paperfaces-viktoriaderoy-600.jpg" alt="black and white portrait winner"></a>
+	<a href="{{ site.url }}{% post_url 2014-09-02-harvydanger-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-harvydanger-twitter-600.jpg" alt="color portrait winner"></a>
+	<a href="{{ site.url }}{% post_url 2014-09-06-psychoticmilkma-2-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-psychoticmilkma-2-600.jpg" alt="black and white portrait winner"></a>
+  <a href="{{ site.url }}{% post_url 2014-09-10-viktoriaderoy-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-viktoriaderoy-600.jpg" alt="black and white portrait winner"></a>
 	<figcaption>The winners of my first PaperFaces portrait giveaway</figcaption>
 </figure>

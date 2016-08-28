@@ -14,7 +14,7 @@ Tiny portrait of a Bith from **Star Wars**. Painted with watercolor on hot press
 Final painting measures 1.5\" x 1.5\". There sure are a lot of fun freaks from the Mos Eisley Cantina scene to choose from. Could have greatly benefited from a clear reference photograph...
 
 <figure>
-  <a href="{{ site.url }}/images/painting-bith-process-1-lg.jpg"><img src="{{ site.url }}/images/painting-bith-process-1-900.jpg" alt="Work in process"></a>
+  <a href="{{ site.url }}/assets/images/painting-bith-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/painting-bith-process-1-900.jpg" alt="Work in process"></a>
   <figcaption>In progress...</figcaption>
 </figure>
 

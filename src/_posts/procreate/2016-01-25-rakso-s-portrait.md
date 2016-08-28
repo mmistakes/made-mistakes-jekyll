@@ -14,9 +14,9 @@ Portrait of Rakso S. inspired by a [photograph on Sktchy](http://sktchy.com/a4RQ
 If you squint your eyes just right it almost looks like a photograph. Just don't zoom in on the forehead or else you'll notice how unpolished the painting really is. But I'm not complaining, 3 hours of work with results like this --- I'll take it!
 
 <figure class="third">
-  <a href="{{ site.url }}/images/rakso-s-process-1-lg.jpg"><img src="{{ site.url }}/images/rakso-s-process-1-320.jpg" alt="process screenshot 1"></a>
-  <a href="{{ site.url }}/images/rakso-s-process-2-lg.jpg"><img src="{{ site.url }}/images/rakso-s-process-2-320.jpg" alt="process screenshot 2"></a>
-  <a href="{{ site.url }}/images/rakso-s-process-3-lg.jpg"><img src="{{ site.url }}/images/rakso-s-process-3-320.jpg" alt="process screenshot 3"></a>
+  <a href="{{ site.url }}/assets/images/rakso-s-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/rakso-s-process-1-320.jpg" alt="process screenshot 1"></a>
+  <a href="{{ site.url }}/assets/images/rakso-s-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/rakso-s-process-2-320.jpg" alt="process screenshot 2"></a>
+  <a href="{{ site.url }}/assets/images/rakso-s-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/rakso-s-process-3-320.jpg" alt="process screenshot 3"></a>
   <figcaption>Just start with a line drawing, add a glaze here and a Gaussian blur there and you're done :wink:.</figcaption>
 </figure>
 

@@ -15,7 +15,7 @@
       <p class="archive__item-excerpt" itemprop="text">{{ post.excerpt markdownify | strip_html | strip_newlines | escape_once }}</p>
     </div>
 
-    <div class="archive__item-thumb" {% if post.image.teaser %}style="background-image: url('{{ site.url }}/images/{{ post.image.teaser }}');"{% endif %}></div>
+    <div class="archive__item-thumb" {% if post.image.teaser %}style="background-image: url('{{ site.url }}/assets/images/{{ post.image.teaser }}');"{% endif %}></div>
 
   </a>
 </article>
