@@ -9,7 +9,7 @@ image:
   creditlink: "https://unsplash.com/@brenomachado"
 comments: true
 featured: true
-modified: 2016-08-22T12:38:33-04:00
+modified: 2016-08-28T19:24:12-04:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.
@@ -44,9 +44,7 @@ It wasn't until I discovered Eduardo Bouças's blog post "[*Rethinking the Comme
 
 ### Enter Staticman
 
-On paper and in practice Staticman[^commentit] was just the app I was looking for to power static-based commenting on my site.
-
-[^commentit]: [Comm(ent|it)](Comm(ent|it)) is another open source app that works in a similar fashion to Staticman.
+On paper and in practice Staticman was just the app I was looking for to power static-based commenting on my site.
 
 - Designed to work with [**Jekyll**](http://jekyllrb.com/) and [**GitHub Pages**](https://pages.github.com/).
 - Free and open source. Run it on your own server as a Node.js app or go the free hosted route.
