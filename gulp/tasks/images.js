@@ -15,12 +15,13 @@ const util        = require('gulp-util');
 // 'gulp images' -- resizes, optimizes, and caches images
 gulp.task('images', () =>
   gulp.src(['src/assets/images/**/*', '!src/assets/images/{feature,feature/**}']) // do not process feature images
-    .pipe(cache(imagemin([
+    .pipe(newer('.tmp/assets/images'))
+    .pipe(imagemin([
       imagemin.gifsicle({interlaced: true}),
       imagemin.jpegtran({progressive: true}),
       imagemin.optipng(),
       imagemin.svgo({plugins: [{cleanupIDs: false}]})
-    ])))
+    ]))
     .pipe(gulp.dest('.tmp/assets/images'))
     .pipe(size({title: 'images'}))
 );

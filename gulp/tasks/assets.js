@@ -168,5 +168,5 @@ gulp.task('serve', (done) => {
   gulp.watch(['src/**/*.xml', 'src/**/*.txt'], gulp.series('site', reload));
   gulp.watch('src/assets/javascripts/**/*.js', gulp.series('scripts', reload));
   gulp.watch('src/assets/stylesheets/**/*.scss', gulp.series('styles', 'critical:css', 'glitchcritical:css'));
-  gulp.watch('src/assets/images/**/*', gulp.series('images', reload));
+  gulp.watch('src/assets/images/**/*', gulp.series('images', 'images:feature', reload));
 });
