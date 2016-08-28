@@ -17,7 +17,6 @@ gulp.task('upload', () => {
       incremental: true,
       recursive: true,
       compress: true,
-      progress: true,
       clean: true,
       chmod: "Du=rwx,Dgo=rx,Fu=rw,Fgo=r",
     }));
