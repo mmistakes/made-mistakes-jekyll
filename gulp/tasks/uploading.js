@@ -7,12 +7,18 @@ const rsync = require('gulp-rsync');
 gulp.task('upload', () => {
   var credentials = JSON.parse(fs.readFileSync('rsync-credentials.json', 'utf8'));
 
-  return gulp.src('dist/**', {dot: true})
+  return gulp.src('dist')
     .pipe(rsync({
-      root: 'dist',
+      // dryrun: true
+      root: 'dist/',
       hostname: credentials.hostname,
       username: credentials.username,
       destination: credentials.destination,
-      incremental: true
+      incremental: true,
+      recursive: true,
+      compress: true,
+      progress: true,
+      clean: true,
+      chmod: "Du=rwx,Dgo=rx,Fu=rw,Fgo=r",
     }));
 });
