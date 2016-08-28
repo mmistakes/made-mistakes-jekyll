@@ -1,9 +1,9 @@
 <article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
   <div class="comment__avatar-wrapper">
     {% if include.avatar %}
-      <img class="comment__avatar" src="{{ include.avatar }}" alt="{{ include.name }}" height="50" width="50">
+      <img class="comment__avatar" src="{{ include.avatar }}" alt="{{ include.name | escape }}" height="50" width="50">
     {% else %}
-      <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=50" srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100 2x" alt="{{ include.name }}" height="50" width="50">
+      <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=50" srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100 2x" alt="{{ include.name | escape }}" height="50" width="50">
     {% endif %}
   </div>
   <div class="comment__content-wrapper">
