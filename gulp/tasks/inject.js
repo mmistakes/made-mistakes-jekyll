@@ -21,6 +21,9 @@ gulp.task('inject:css', () =>
 gulp.task('inject:scripts', () =>
   gulp.src('.tmp/src/_includes/scripts.html')
     .pipe(inject(gulp.src('.tmp/assets/javascripts/*.js'), {
+      transform: function (filepath, file, i, length) {
+        return '<script async src="' + filepath + '"></script>';
+      },
       ignorePath: '.tmp',
       addRootSlash: false,
       addPrefix: '{{ site.url }}',
