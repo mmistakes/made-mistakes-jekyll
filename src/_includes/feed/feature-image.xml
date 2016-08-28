@@ -1,4 +1,7 @@
 {% capture feed_feature_image %}
-  <img src="{{ site.url }}/assets/images/{{ post.image.feature }}" alt="{{ post.title }}"><br />
+  {% assign f = post.image.feature | prepend: '/assets/images/' | prepend: site.url | split: '.' %}
+  <img src="{{ f[0] }}-320.{{ f[1] }}" alt="{{ post.title }}"
+    srcset="{{ f[0] }}-320.{{ f[1] }} 320w, {{ f[0] }}-600.{{ f[1] }} 600w, {{ f[0] }}-768.{{ f[1] }} 768w, {{ f[0] }}-1024.{{ f[1] }} 1024w, {{ f[0] }}-1600.{{ f[1] }} 1600w"
+    sizes="(max-width: 1200px) 100vw">
 {% endcapture %}
 {{ feed_feature_image | markdownify | xml_escape }}
