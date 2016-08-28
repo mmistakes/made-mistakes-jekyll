@@ -12,7 +12,8 @@ module.exports = function(el) {
     var gmfile = gm(file.contents, file.path);
     gmfile.size(function(err, size) {
 
-      if(typeof el !== 'undefined' && el.width < size.width) {
+      // if(typeof el !== 'undefined' && el.width = size.width) {
+      if(typeof el !== 'undefined') {
         gmfile
           .resize(el.width, (el.width / size.width) * size.height)
           .toBuffer(function (err, buffer) {

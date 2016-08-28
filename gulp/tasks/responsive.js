@@ -10,10 +10,10 @@ var resize     = require('./resize-images')
 
 var options = [
   { width: 320, upscale: false },
-  { width: 600, upscale: false },
-  { width: 768, upscale: false },
-  { width: 1024, upscale: false },
-  { width: 1600, upscale: false }
+  { width: 600, upscale: true },
+  { width: 768, upscale: true },
+  { width: 1024, upscale: true },
+  { width: 1600, upscale: true }
 ]
 
 // 'gulp images:feature' -- resizes, optimizes, and caches feature images
