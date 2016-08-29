@@ -25,8 +25,8 @@ gulp.task('clean', gulp.parallel('clean:assets', 'clean:gzip', 'clean:dist', 'cl
 // 'gulp build --prod' -- same as above but with production settings
 gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html'));
 
-// 'gulp deploy' -- deploy site to production
-gulp.task('deploy', gulp.series('upload'));
+// 'gulp deploy' -- deploy site to production and submit sitemap XML
+gulp.task('deploy', gulp.series('upload', 'submit:sitemap'));
 
 // 'gulp rebuild' -- WARNING: removes all assets, images, and built site
 gulp.task('rebuild', gulp.series('clean', 'clean:images'));
