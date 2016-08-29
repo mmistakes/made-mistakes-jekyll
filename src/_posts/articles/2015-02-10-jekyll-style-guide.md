@@ -1,6 +1,6 @@
 ---
 title: "Building a Style Guide with Jekyll"
-modified: 2016-01-20
+modified: 2016-08-29T16:27:27-04:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 tags: [Jekyll, style guide, open source, web development, GitHub]
 image:
@@ -91,7 +91,7 @@ The bulk of the content for the style guide is going to come from creating Markd
 ---
 title: "Main Content Default Notice"
 type: notices
-scss: _assets/stylesheets/_notices.scss
+scss: assets/stylesheets/_notices.scss
 module:
 usage: "Emphasize post text."
 ---
@@ -122,7 +122,7 @@ After creating a handful of components, I started to refine the [Liquid](https:/
 
 There's not much magic going on here. Basically what I did was:
 
-1. Create a new page [`/style-guide/index.md`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/style-guide/index.md) to act as the style guide's main page.
+1. Create a new page [`/style-guide/index.md`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/style-guide/index.md) to act as the style guide's main page.
 2. Added YAML Front Matter to this page --- assigning a title, `layout: style_guide` to utilize the `_layout` I created earlier, and an excerpt description for SEO purposes.
 3. Added a short introduction to the style guide.
 4. Used some Liquid to create `for` loops to output all documents found in the `colors` and `components` collections.
@@ -226,7 +226,7 @@ There were also a few cases where I needed to add styles specific for the style 
   <figcaption>Screenshot of UI color palette.</figcaption>
 </figure>
 
-My goal here was to avoid hard coding color values into each document, and instead leverage the color variables already set in `/_assets/stylesheets/_variables.scss` to keep things [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+My goal here was to avoid hard coding color values into each document, and instead leverage the color variables already set in `/assets/stylesheets/_variables.scss` to keep things [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/master/doc-src/SASS_CHANGELOG.md#sassscript-maps) of all the color variables found on the site along with some additional CSS to build the swatch tiles. 
 
