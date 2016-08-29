@@ -62,7 +62,7 @@ Thankfully I didn't have to start from scratch as I was able to draw inspiration
 
 I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements]({{ site.url }}/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons]({{ site.url }}/style-guide/#guide-buttons) were already done as part of my [living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %}). 
 
-All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/master/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
+All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
 
 ```html
 {% raw %}<form id="comment-form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
@@ -115,7 +115,7 @@ A note on `hidden` and `date` fields you may have noticed in the sample comment 
 
 #### Interactions and State
 
-Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/10.2.0/gh-pages/js/main.js) as a guide I [added all the AJAX goodness](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/30e10cce7836b38ea2d7f570573ac748fa7ba12e/_assets/javascripts/main.js#L128-L164), alert messaging, along with `disabled` and loading form states. 
+Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js) as a guide I [added all the AJAX goodness](https://github.com/mmistakes/made-mistakes-jekyll/blob/30e10cce7836b38ea2d7f570573ac748fa7ba12e/_assets/javascripts/main.js#L128-L164), alert messaging, along with `disabled` and loading form states. 
 
 To avoid disrupting the flow too much I went with inline alert messaging directly above the **submit button**.
 
@@ -163,7 +163,7 @@ With this array we'll be looping through it with [`for`][for-tag] just like you 
 {% endfor %}{% endraw %}
 ```
 
-Since I'm capturing `message`, `name`, `email`, and `url` in the comment form these will be the same fields I'll want to pull from to build each comment. Using an [`assign`](https://help.shopify.com/themes/liquid/tags/variable-tags#assign) tag again we'll cleanup variable names like `comment[1].avatar` into just `avatar`. Which will then be used to [pass parameters](https://jekyllrb.com/docs/templates/#includes) into the [`comment.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/master/_includes/comment.html) include:
+Since I'm capturing `message`, `name`, `email`, and `url` in the comment form these will be the same fields I'll want to pull from to build each comment. Using an [`assign`](https://help.shopify.com/themes/liquid/tags/variable-tags#assign) tag again we'll cleanup variable names like `comment[1].avatar` into just `avatar`. Which will then be used to [pass parameters](https://jekyllrb.com/docs/templates/#includes) into the [`comment.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/comment.html) include:
 
 ```liquid
 {% raw %}{% assign comments = site.data.comments[page.slug] | sort %}
@@ -360,8 +360,8 @@ With [some modifications](https://github.com/mmistakes/jekyll-disqus-comments) I
 
 Copy the following files to the root of your Jekyll project folder.
 
-- [`_rake/disqus_comments.rake`](https://github.com/mmistakes/jekyll-disqus-comments/blob/10.2.0/master/_rake/disqus_comments.rake)
-- [`Rakefile`](https://github.com/mmistakes/jekyll-disqus-comments/blob/10.2.0/master/Rakefile) (Not necessary if you already have a Rakefile that loads `_rake/*`)
+- [`_rake/disqus_comments.rake`](https://github.com/mmistakes/jekyll-disqus-comments/blob/master/_rake/disqus_comments.rake)
+- [`Rakefile`](https://github.com/mmistakes/jekyll-disqus-comments/blob/master/Rakefile) (Not necessary if you already have a Rakefile that loads `_rake/*`)
 
 ### Obtain a Disqus API Public Key
 
@@ -444,7 +444,7 @@ I was able to determine what Disqus was expecting for id's and adjust the plugin
 2. Opening the Disqus XML file.
 3. Looking at the `<link>` elements eg. `<link>https://mademistakes.com/mastering-paper/contour-drawing/</link>`
 
-By playing around with the [following line](https://github.com/mmistakes/jekyll-disqus-comments/blob/10.2.0/e2561412785af8cdc7579fa6a774eaccb020ea98/_rake/disqus_comments.rake#L50) in `disqus_comments.rake` I finally sorted it out:
+By playing around with the [following line](https://github.com/mmistakes/jekyll-disqus-comments/blob/e2561412785af8cdc7579fa6a774eaccb020ea98/_rake/disqus_comments.rake#L50) in `disqus_comments.rake` I finally sorted it out:
 
 ```ruby
 # site.url + post.id + trailing slash
