@@ -4,6 +4,7 @@ const autoprefixer = require('autoprefixer');
 const browserSync  = require('browser-sync').create();
 const cheerio      = require('gulp-cheerio');
 const concat       = require('gulp-concat');
+const critical     = require('critical').stream;
 const cssnano      = require('gulp-cssnano');
 const gulp         = require('gulp');
 const gzip         = require('gulp-gzip');
@@ -56,7 +57,7 @@ gulp.task('scripts', () =>
 // 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes, minifies,
 // gzips and cache busts it. Does not create a Sourcemap
 gulp.task('styles', () =>
-  gulp.src(['src/assets/stylesheets/style.scss', '!src/assets/stylesheets/critical.scss', '!src/assets/stylesheets/glitch-critical.scss'])
+  gulp.src(['src/assets/stylesheets/style.scss'])
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(sass({
       precision: 10
@@ -67,6 +68,7 @@ gulp.task('styles', () =>
     .pipe(size({
       showFiles: true
     }))
+    .pipe(gulp.dest('src/_includes'))
     .pipe(when(argv.prod, rename({suffix: '.min'})))
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
     .pipe(when(argv.prod, size({
@@ -85,67 +87,114 @@ gulp.task('styles', () =>
 );
 
 // 'gulp critical:css' -- transform critical.scss into /_includes/critical.css
-gulp.task('critical:css', () =>
-  gulp.src('src/assets/stylesheets/critical.scss')
-    .pipe(sass({
-      precision: 10
-    }).on('error', sass.logError))
-    .pipe(postcss([
-      autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})
-    ]))
-    .pipe(size({
-      showFiles: true
-    }))
-    .pipe(when('*.css', cssnano({autoprefixer: false})))
-    .pipe(size({
-      showFiles: true
-    }))
-    .pipe(gulp.dest('.tmp/src/_includes'))
-);
+// gulp.task('critical:css', () =>
+//   gulp.src('src/assets/stylesheets/critical.scss')
+//     .pipe(sass({
+//       precision: 10
+//     }).on('error', sass.logError))
+//     .pipe(postcss([
+//       autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})
+//     ]))
+//     .pipe(size({
+//       showFiles: true
+//     }))
+//     .pipe(when('*.css', cssnano({autoprefixer: false})))
+//     .pipe(size({
+//       showFiles: true
+//     }))
+//     .pipe(gulp.dest('.tmp/src/_includes'))
+// );
 
 // 'gulp glitchcritical:css' -- transform critical.scss into /_includes/glitchcritical.css
-gulp.task('glitchcritical:css', () =>
-  gulp.src('src/assets/stylesheets/glitch-critical.scss')
-    .pipe(sass({
-      precision: 10
-    }).on('error', sass.logError))
-    .pipe(postcss([
-      autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})
-    ]))
-    .pipe(size({
-      showFiles: true
-    }))
-    .pipe(when('*.css', cssnano({autoprefixer: false})))
-    .pipe(size({
-      showFiles: true
-    }))
-    .pipe(gulp.dest('.tmp/src/_includes'))
-);
+// gulp.task('glitchcritical:css', () =>
+//   gulp.src('src/assets/stylesheets/glitch-critical.scss')
+//     .pipe(sass({
+//       precision: 10
+//     }).on('error', sass.logError))
+//     .pipe(postcss([
+//       autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})
+//     ]))
+//     .pipe(size({
+//       showFiles: true
+//     }))
+//     .pipe(when('*.css', cssnano({autoprefixer: false})))
+//     .pipe(size({
+//       showFiles: true
+//     }))
+//     .pipe(gulp.dest('.tmp/src/_includes'))
+// );
 
-// 'gulp critical --prod' -- pull out critical CSS and place in Jekyll _include
-// gulp.task('critical', function() {
-//   return gulp.src(['dist/*.html'])
-//     .pipe(when(argv.prod, critical({
-//       base: 'dist/',
-//       inline: true,
-//       assetPaths: ['dist/assets/stylesheets/'],
-//       // css: ['.tmp/assets/stylesheets/style.css'],
-//       dimensions: [{
-//         width: 320,
-//         height: 480
-//       },{
-//         width: 768,
-//         height: 1024
-//       },{
-//         width: 1280,
-//         height: 960
-//       }],
-//       minify: true,
-//       extract: false,
-//       ignore: ['font-face']
-//     })))
-//     .pipe(gulp.dest('dist'));
-// });
+// 'gulp critical:glitch' -- extract glitch page critical CSS into /_includes/critical-glitch.css
+gulp.task('critical:glitch', function () {
+  return gulp.src('.tmp/dist/index.html')
+    .pipe(critical({
+      base: '.tmp/',
+      css: ['src/_includes/style.css'],
+      dimensions: [{
+        width: 320,
+        height: 480
+      },{
+        width: 768,
+        height: 1024
+      },{
+        width: 1280,
+        height: 960
+      }],
+      dest: 'src/_includes/critical-glitch.css',
+      minify: true,
+      extract: false,
+      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+    }))
+    .pipe(gulp.dest('src/_includes'));
+});
+
+// 'gulp critical:article' -- extract article page critical CSS into /_includes/critical-article.css
+gulp.task('critical:article', function () {
+  return gulp.src('.tmp/dist/articles/ipad-pro/index.html')
+    .pipe(critical({
+      base: '.tmp/',
+      css: ['src/_includes/style.css'],
+      dimensions: [{
+        width: 320,
+        height: 480
+      },{
+        width: 768,
+        height: 1024
+      },{
+        width: 1280,
+        height: 960
+      }],
+      dest: 'src/_includes/critical-article.css',
+      minify: true,
+      extract: false,
+      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+    }))
+    .pipe(gulp.dest('src/_includes'));
+});
+
+// 'gulp critical:archive' -- extract archive page critical CSS into /_includes/critical-archive.css
+gulp.task('critical:archive', function () {
+  return gulp.src('.tmp/dist/mastering-paper/index.html')
+    .pipe(critical({
+      base: '.tmp/',
+      css: ['src/_includes/style.css'],
+      dimensions: [{
+        width: 320,
+        height: 480
+      },{
+        width: 768,
+        height: 1024
+      },{
+        width: 1280,
+        height: 960
+      }],
+      dest: 'src/_includes/critical-archive.css',
+      minify: true,
+      extract: false,
+      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+    }))
+    .pipe(gulp.dest('src/_includes'));
+});
 
 // 'gulp icons' -- combine all svg icons into single file
 gulp.task('icons', function () {
@@ -189,6 +238,6 @@ gulp.task('serve', (done) => {
   gulp.watch(['src/**/*.md', 'src/**/*.html', 'src/**/*.yml'], gulp.series('build:site', reload));
   gulp.watch(['src/**/*.xml', 'src/**/*.txt'], gulp.series('site', reload));
   gulp.watch('src/assets/javascripts/**/*.js', gulp.series('scripts', reload));
-  gulp.watch('src/assets/stylesheets/**/*.scss', gulp.series('styles', 'critical:css', 'glitchcritical:css'));
+  gulp.watch('src/assets/stylesheets/**/*.scss', gulp.series('styles'));
   gulp.watch('src/assets/images/**/*', gulp.series('images', 'images:feature', reload));
 });

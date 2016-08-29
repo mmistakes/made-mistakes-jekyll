@@ -69,11 +69,15 @@
 
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
-    {% unless page.layout == "glitch" %}
-      <style>{% include critical.css %}</style>
+    {% if page.layout == "glitch" %}
+      <style>{% include critical-glitch.css %}</style>
+    {% elsif page.layout == "archive" %}
+      <style>{% include critical-archive.css %}</style>
+    {% else page.layout == "tag_index" %}
+      <style>{% include critical-archive.css %}</style>
     {% else %}
-      <style>{% include glitch-critical.css %}</style>
-    {% endunless %}
+      <style>{% include critical-article.css %}</style>
+    {% endif %}
 
     {% include loadcss.html %}
 

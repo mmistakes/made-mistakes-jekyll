@@ -15,7 +15,7 @@ gulp.task('build:site', gulp.series('site:tmp', 'inject', 'site', 'copy:site'));
 // 'gulp assets --prod' -- same as above but with production settings
 gulp.task('assets', gulp.series(
   gulp.parallel('styles', 'scripts', 'fonts', 'images', 'images:feature'),
-  gulp.series('critical:css', 'glitchcritical:css', 'copy:assets')
+  gulp.series('copy:assets')
 ));
 
 // 'gulp clean' -- removes assets and gzipped files
@@ -24,6 +24,11 @@ gulp.task('clean', gulp.parallel('clean:assets', 'clean:gzip', 'clean:dist', 'cl
 // 'gulp build' -- same as 'gulp' but doesn't serve site
 // 'gulp build --prod' -- same as above but with production settings
 gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html'));
+
+// 'gulp critical' -- builds critical path CSS includes
+// WARNING: run this after substantial CSS changes
+// WARNING: .html files referenced need to exist. run after `gulp build` to ensure.
+gulp.task('critical', gulp.series('critical:glitch', 'critical:article', 'critical:archive'));
 
 // 'gulp deploy' -- deploy site to production and submit sitemap XML
 gulp.task('deploy', gulp.series('upload', 'submit:sitemap'));
