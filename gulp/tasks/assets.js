@@ -145,7 +145,7 @@ gulp.task('critical:glitch', function () {
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
     }))
-    .pipe(gulp.dest('src/_includes'));
+    // .pipe(gulp.dest('src/_includes'));
 });
 
 // 'gulp critical:article' -- extract article page critical CSS into /_includes/critical-article.css
@@ -169,7 +169,7 @@ gulp.task('critical:article', function () {
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
     }))
-    .pipe(gulp.dest('src/_includes'));
+    // .pipe(gulp.dest('src/_includes'));
 });
 
 // 'gulp critical:archive' -- extract archive page critical CSS into /_includes/critical-archive.css
@@ -193,7 +193,7 @@ gulp.task('critical:archive', function () {
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
     }))
-    .pipe(gulp.dest('src/_includes'));
+    // .pipe(gulp.dest('src/_includes'));
 });
 
 // 'gulp icons' -- combine all svg icons into single file
