@@ -2,6 +2,7 @@
 const argv         = require('yargs').argv;
 const autoprefixer = require('autoprefixer');
 const browserSync  = require('browser-sync').create();
+const cheerio      = require('gulp-cheerio');
 const concat       = require('gulp-concat');
 const cssnano      = require('gulp-cssnano');
 const gulp         = require('gulp');
@@ -12,6 +13,8 @@ const rename       = require('gulp-rename');
 const rev          = require('gulp-rev');
 const sass         = require('gulp-sass');
 const size         = require('gulp-size');
+const svgstore     = require('gulp-svgstore');
+const svgmin       = require('gulp-svgmin');
 const sourcemaps   = require('gulp-sourcemaps');
 const uglify       = require('gulp-uglify');
 const when         = require('gulp-if');
@@ -143,6 +146,25 @@ gulp.task('glitchcritical:css', () =>
 //     })))
 //     .pipe(gulp.dest('dist'));
 // });
+
+// 'gulp icons' -- combine all svg icons into single file
+gulp.task('icons', function () {
+  return gulp.src('src/assets/icons/*.svg')
+    .pipe(svgmin())
+    .pipe(rename({prefix: 'icon-'}))
+    .pipe(svgstore({ fileName: 'icons.svg', inlineSvg: true}))
+    .pipe(cheerio({
+      run: function ($, file) {
+        $('svg').attr('style', 'display:none');
+        $('[fill]').removeAttr('fill');
+      },
+      parserOptions: { xmlMode: true }
+    }))
+    .pipe(size({
+      showFiles: true
+    }))
+    .pipe(gulp.dest('src/_includes'))
+});
 
 // function to properly reload your browser
 function reload(done) {
