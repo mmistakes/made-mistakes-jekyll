@@ -115,12 +115,12 @@ $(document).ready(function(){
 
 
   // Bigfoot footnotes
-  // $.bigfoot();
+  $.bigfoot();
 
 
   // home page auto typing
   $("#js-home-typed").typed({
-    strings: ["<span class='glitch__title'>Hello^250 my name is&nbsp;Mî̽̿ͫc͑̔̃͂h͂̽ͤ̊ͭͣa͛̓̍̓el̓͌̂̀̆&nbsp;Rͩͤ͂̄o̾̽̈́͆ͨ̚s͋̌̊̐e. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='https://mademistakes.com/paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='https://mademistakes.com/articles/'>my writing</a>, ^750 <a href='https://mademistakes.com/mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='https://mademistakes.com/work/'>creative endeavors</a>."],
+    strings: ["<span class='glitch__title'>Hello^250 my name is&nbsp;Mî̽̿ͫc͑̔̃͂h͂̽ͤ̊ͭͣa͛̓̍̓el̓͌̂̀̆&nbsp;Rͩͤ͂̄o̾̽̈́͆ͨ̚s͋̌̊̐e. ^500</span> <span class='br'></span> I am just another boring, ^250 tattooed, ^250 time traveling designer from Buffalo New York.^500 <span class='br'></span> I enjoy eating chicken wings, ^500 <a href='paperfaces/'>sketching on an iPad</a>, ^500 and playing Xbox.^500 <span class='br'></span> Here you will find a collection of <a href='articles/'>my writing</a>, ^750 <a href='mastering-paper/'>Paper by FiftyThree tutorials</a>, ^750 and other <a href='work/'>creative endeavors</a>."],
     contentType: "html",
     startDelay: 0,
     backDelay: 3000,
@@ -131,7 +131,7 @@ $(document).ready(function(){
 
   // 404 page auto typing
   $("#js-404-typed").typed({
-    strings: ["<span class='glitch__title'>Your Pixels are on Another&nbsp;Canvas ^500</span> <span class='br'></span> Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href='https://mademistakes.com/sitemap/' title='Made Mistakes sitemap'>find it here</a> or by searching below."],
+    strings: ["<span class='glitch__title'>Your Pixels are on Another&nbsp;Canvas ^500</span> <span class='br'></span> Sorry, but the page you were trying to view has moved or does not exist -- perhaps you can <a href='../sitemap/' title='Made Mistakes sitemap'>find it here</a> or by searching below."],
     contentType: "html",
     startDelay: 0,
     backDelay: 3000,

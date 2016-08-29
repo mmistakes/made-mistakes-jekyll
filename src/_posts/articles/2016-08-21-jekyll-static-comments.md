@@ -9,7 +9,7 @@ image:
   creditlink: "https://unsplash.com/@brenomachado"
 comments: true
 featured: true
-modified: 2016-08-28T19:24:12-04:00
+modified: 2016-08-29T16:31:51-04:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.
@@ -62,7 +62,7 @@ Thankfully I didn't have to start from scratch as I was able to draw inspiration
 
 I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements]({{ site.url }}/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons]({{ site.url }}/style-guide/#guide-buttons) were already done as part of my [living style guide]({{ site.url }}{% post_url 2015-02-10-jekyll-style-guide %}). 
 
-All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
+All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
 
 ```html
 {% raw %}<form id="comment-form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
@@ -163,7 +163,7 @@ With this array we'll be looping through it with [`for`][for-tag] just like you 
 {% endfor %}{% endraw %}
 ```
 
-Since I'm capturing `message`, `name`, `email`, and `url` in the comment form these will be the same fields I'll want to pull from to build each comment. Using an [`assign`](https://help.shopify.com/themes/liquid/tags/variable-tags#assign) tag again we'll cleanup variable names like `comment[1].avatar` into just `avatar`. Which will then be used to [pass parameters](https://jekyllrb.com/docs/templates/#includes) into the [`comment.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_includes/comment.html) include:
+Since I'm capturing `message`, `name`, `email`, and `url` in the comment form these will be the same fields I'll want to pull from to build each comment. Using an [`assign`](https://help.shopify.com/themes/liquid/tags/variable-tags#assign) tag again we'll cleanup variable names like `comment[1].avatar` into just `avatar`. Which will then be used to [pass parameters](https://jekyllrb.com/docs/templates/#includes) into the [`comment.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/comment.html) include:
 
 ```liquid
 {% raw %}{% assign comments = site.data.comments[page.slug] | sort %}

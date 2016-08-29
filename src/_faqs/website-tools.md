@@ -2,21 +2,19 @@
 title: "What tools do you use to build your website?"
 type: other
 date: 2014-12-07
-modified: 2016-08-14T12:37:45-04:00
+modified: 2016-08-29T16:36:26-04:00
 order: 1
 ---
 
 A variety of tools and software are used to build Made Mistakes --- the biggies being an 21.5-inch Apple iMac, [Jekyll](http://jekyllrb.com), [Sublime Text](http://www.sublimetext.com), and Adobe's Creative Suite.
 
-I've been on a [static site generator]({{ site.url }}{% post_url 2012-03-19-going-static %}) kick the last couple of years and use Jekyll to publish this page and everything else found on the site. The basic idea is I write a bunch of text in MarkDown and Jekyll spits out a set of files[^files] that I upload to a webserver.
+I've been on a [static site generator]({{ site.url }}{% post_url 2012-03-19-going-static %}) kick the last couple of years and use Jekyll to publish this page and everything else found on the site. The basic idea is I write a bunch of text in Markdown and Jekyll spits out a set of files[^files] that I upload to a webserver.
 
 ## As far as Jekyll plugins, I use the following:
 
 * [**jekyll-sitemap**][sitemap]: silently generates a [sitemaps.org](http://www.sitemaps.org/) compliant sitemap.
 * [**jekyll-archives**][archives]: generates tag archive pages.
-* [**jekyll-assets**][assets]: adds an asset pipeline using Sprockets 3 to optimize and cache bust CSS and JS.
 * [**related-posts-jekyll-plugin**][related-posts]: replaces Jekyll's `related_posts` function to use tags to calculate better post relationships.
-* [**jekyll-picture-tag**][picture-tag][^picture-modified]: adds responsive images to Jekyll with the use a Liquid tag to generate appropriately sized images in a `<picture>` element.
 * [**jemoji**][jemoji]: adds GitHub-flavored emoji to Jekyll with the use of Liquid tags.
 
 If you're really interested in the specifics of how the site is built I've made its [source available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll) for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% post_url 2014-02-28-jekyll-themes %}) for you to use and abuse --- you're welcome!
@@ -26,12 +24,8 @@ If you're really interested in the specifics of how the site is built I've made 
 * Web hosting provided by [**Media Temple**][media-temple] via their [Grid -- Shared Hosting][grid-plan] plan.
 * Domain name registered with [**Hover**][hover]
 * Icons from [**SimpleIcon**][simpleicon] and [**Noun Project**][nounproject]
-* Type set with system fonts[^fonts] for a faster reading experience. 
 
 [^files]: HTML, CSS, and JavaScript files along with images and other assets needed to render a web page.
-[^fonts]: Georgia and Arial to be more specific.
-[^picture-modified]: [Slightly modified](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/_plugins/jekyll-picture-tag.rb) to disable MD5 hashed filenames.
-
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
 [archives]: https://github.com/jekyll/jekyll-archives
 [assets]: https://github.com/jekyll/jekyll-assets

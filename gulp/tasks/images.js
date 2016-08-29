@@ -1,16 +1,18 @@
 'use strict';
-const cache       = require('gulp-cache');
-const changed     = require("gulp-changed");
-const glob        = require('glob');
-const gulp        = require('gulp');
-const gulpif      = require('gulp-if');
-const imagemin    = require('gulp-imagemin');
-const merge2      = require('merge2');
-const newer       = require('gulp-newer');
-const notify      = require('gulp-notify');
-const rename      = require('gulp-rename');
-const size        = require('gulp-size');
-const util        = require('gulp-util');
+const cache    = require('gulp-cache');
+const changed  = require("gulp-changed");
+const filter   = require('gulp-filter');
+const glob     = require('glob');
+const gulp     = require('gulp');
+const gulpif   = require('gulp-if');
+const imagemin = require('gulp-imagemin');
+const merge2   = require('merge2');
+const newer    = require('gulp-newer');
+const notify   = require('gulp-notify');
+const rename   = require('gulp-rename');
+const resize   = require('./resize-images');
+const size     = require('gulp-size');
+const util     = require('gulp-util');
 
 // 'gulp images' -- resizes, optimizes, and caches images
 gulp.task('images', () =>
@@ -25,6 +27,48 @@ gulp.task('images', () =>
     .pipe(gulp.dest('.tmp/assets/images'))
     .pipe(size({title: 'images'}))
 );
+
+// feature image resize values
+var options = [
+  { width: 320, upscale: false },
+  { width: 600, upscale: true },
+  { width: 768, upscale: true },
+  { width: 1024, upscale: true },
+  { width: 1600, upscale: true }
+]
+
+// 'gulp images:feature' -- resizes, optimizes, and caches feature images
+// https://gist.github.com/ddprrt/1b535c30374158837df89c0e7f65bcfc
+gulp.task('images:feature', function() {
+  var streams =  options.map(function(el) {
+    // resizing images
+    return gulp.src(['src/assets/images/feature/**/*', '!src/assets/images/feature/**/*.svg'])
+      .pipe(rename(function(file) {
+        if(file.extname) {
+          file.basename += '-' + el.width
+        }
+      }))
+      .pipe(newer('.tmp/assets/images'))
+      .pipe(resize(el))
+      .pipe(imagemin([
+        imagemin.jpegtran({progressive: true}),
+        imagemin.optipng()
+      ]))
+      .pipe(gulp.dest('.tmp/assets/images'))
+  });
+
+  // original images
+  streams.push(gulp.src('src/assets/images/feature/**/*')
+    .pipe(newer('.tmp/assets/images'))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng()
+    ]))
+    .pipe(gulp.dest('.tmp/assets/images')))
+
+  return merge2(streams);
+
+});
 
 // 'gulp images:feature' -- resizes, optimizes, and caches feature images
 // const feature_src = 'src/assets/images/feature/*.jpg';
