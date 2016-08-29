@@ -1,0 +1,9 @@
+<div class="page__hero">
+  {% if page.image.feature %}
+    {% assign f = page.image.feature | prepend: '/assets/images/' | split: '.' %}
+    <img src="{{ site.url }}{{ f[0] }}-320.{{ f[1] }}" alt="{{ page.title }}" class="page__hero-image"
+      srcset="{{ site.url }}{{ f[0] }}-320.{{ f[1] }} 320w, {{ site.url }}{{ f[0] }}-600.{{ f[1] }} 600w, {{ site.url }}{{ f[0] }}-768.{{ f[1] }} 768w, {{ site.url }}{{ f[0] }}-1024.{{ f[1] }} 1024w, {{ site.url }}{{ f[0] }}-1600.{{ f[1] }} 1600w"
+      sizes="(max-width: 1200px) 100vw">
+  {% endif %}
+  {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
+</div>
