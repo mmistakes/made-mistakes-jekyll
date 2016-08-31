@@ -20,9 +20,6 @@ gulp.task('upload', () => {
       clean: true,
       chmod: "Du=rwx,Dgo=rx,Fu=rw,Fgo=r"
     }));
-
-  // submit sitemap XML file to Google and Bing
-  return submitSitemap(SitemapUrl, function(err) { console.error(err); });
 });
 
 // 'gulp submit:sitemap` -- submit sitemap XML file to Google and Bing

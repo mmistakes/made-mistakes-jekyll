@@ -316,12 +316,14 @@
   padding-right: 0.125em;
   font-weight: normal;
   font-family: $serif;
+  color: $link-color;
   background: $background-color;
 }
 
 .tag__count {
   float: right;
   padding-left: 0.125em;
+  color: $link-color;
   background: $background-color;
 }
 

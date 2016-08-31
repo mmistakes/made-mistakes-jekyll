@@ -2,23 +2,18 @@
 
 This is the source code of Made Mistakes, a personal blog and portfolio built with [Jekyll](http://jekyllrb.com) and a starter I call [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll).
 
-*Please note: Made Mistakes hasn't been completely "themed" like some of my other [Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't GitHub Pages compatible. In some cases the Jekyll plugins may be safe to remove without breaking things while others may not fare as well.*
-
-The two biggies likely to cause the most headaches are [Jekyll Archives](https://github.com/jekyll/jekyll-archives) and [Jekyll Assets](https://github.com/ixti/jekyll-assets). Archives auto-generates all of the tag pages so you'll need an alternative solution or just go without them if you turn that baby off.
-
-Jekyll Assets is used to build, concatenate, and minify stylesheets and JavaScript. All of this can be done with Grunt or Gulp tasks instead if you prefer those workflows or you could simplify things and use Jekyll to pre-process your Sass partials. Either way it's doable with minor edits.
+*Please note: Made Mistakes hasn't been "themed" like some of my other [Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't compatible with the "default" GitHub Pages workflow without substantial alterations.*
 
 ### Plugins Used
 
 * [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap) (GitHub Pages supported)
 * [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
-* [Jekyll Assets](https://github.com/jekyll/jekyll-assets)
 * [Jekyll Related Posts](https://github.com/jumanji27/related_posts-jekyll_plugin)
 * [Jemoji](https://github.com/jekyll/jemoji)
 
 ### Images
 
-[Made Mistakes](http://mademistakes.com) has a lot of image assets. `src/assets/images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) and included as a Git submodule.
+[Made Mistakes](https://mademistakes.com) has a lot of image assets. `src/assets/images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) and included as a Git submodule.
 
 `page.feature.images` should be placed in `src/assets/images/feature`. These `feature` images will be converted into various sizes to be responsively served by browsers that support [`srcset` attribute](https://responsiveimages.org/).
 
@@ -180,7 +175,7 @@ To update or add new assets place appropriately named `.svg` files into the `src
 ### `gulp deploy`
 
 When you're done developing and have built your site with either `gulp --prod`
-or `gulp build --prod` you can deploy your site to with Rsync.
+or `gulp build --prod` you can deploy your site with Rsync.
 
 If you need any help with configuring it, checkout the [`gulp-rsync`][rsync] repo.
 
@@ -200,9 +195,14 @@ the time to build your site due to image optimizations.
 
 ### `gulp rebuild`
 
-Only use this if you want to regenerate everything, this will delete everything
-generated. Images, assets, your Jekyll site. You really shouldn't need to do
-this unless you have phantom image assets floating around.
+Only use this if you want to regenerate everything, this will delete everything 
+(images, assets, your generated Jekyll site). You really shouldn't need to do
+this unless you have phantom image assets floating around you want to clear.
+
+### `gulp critical`
+
+Extract critical path CSS from `article`, `glitch`, and `archive` pages to inline 
+via Jekyll `_includes`.
 
 ## Subtasks
 
@@ -240,12 +240,12 @@ are injected in alphabetical order, so if you need your vendor scripts before
 the `index.js` file you have to either rename the `index.js` file or rename the
 `vendor.js` file. When you now run `gulp` or `gulp build` it will create a
 `vendor.js` file and automatically inject it at the bottom of your HTML. When
-running with `--prod` it'll automatically optimize and such as well.
+running with `--prod` it'll automatically optimize as well.
 
 For more advanced uses, refer to the [`gulp-inject`][inject] documentation on
 how to create individual inject tags and inject specific files into them.
 
-**Gulp tasks inspired by [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) by Sondre Nilsen (https://github.com/sondr3).**
+**Gulp tasks inspired by [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) by [Sondre Nilsen](https://github.com/sondr3).**
 
 [awspublish]: https://github.com/pgherveou/gulp-awspublish
 [browsersync]: https://github.com/shakyShane/browser-sync
@@ -275,13 +275,13 @@ how to create individual inject tags and inject specific files into them.
 
 The home and 404 error pages are made up of three parts:
 
-1. **Page Content**: [`_pages/home.md`](_pages/home.md) and [`_pages/404.md`](_pages/404.md).
+1. **Page Content**: [`_pages/home.md`](src/_pages/home.md) and [`_pages/404.md`](src/_pages/404.md).
 
-2. **Glitch Layout**: [`_layouts/glitch.html`](_layouts/glitch.html) is a stripped down version of the default layout with the `.masthead` and `.colophon` removed from view. Used for the home and 404 error pages.
+2. **Glitch Layout**: [`_layouts/glitch.html`](src/_layouts/glitch.html) is a stripped down version of the default layout with the `.masthead` and `.colophon` removed from view. Used for the home and 404 error pages.
 
 3. **Glitch Stylesheet**: [`assets/stylesheets/glitch-critical.scss`](src/assets/stylesheets/glitch-critical.scss) is slimmed down version of the site stylesheet.
 
-The *animated text typing* effect is achieved with [**Typed.js**](http://www.mattboldt.com/demos/typed-js/). Text strings should be modified in `assets/javascripts/glitch.js` and match markup found in [`_pages/home.md`](_pages/home.md) and [`_pages/404.md`](_pages/404.md).
+The *animated text typing* effect is achieved with [**Typed.js**](http://www.mattboldt.com/demos/typed-js/). Text strings should be modified in `assets/javascripts/glitch.js` and match markup found in [`_pages/home.md`](src/_pages/home.md) and [`_pages/404.md`](src/_pages/404.md).
 
 ### Archives
 

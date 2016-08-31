@@ -11,4 +11,4 @@ PaperFaces portrait of [@4lala](http://twitter.com/4lala).
 
 {% include boilerplate/paperfaces.html %}
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/xvpF730pDQk" frameborder="0"> </iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xvpF730pDQk" frameborder="0"> </iframe>

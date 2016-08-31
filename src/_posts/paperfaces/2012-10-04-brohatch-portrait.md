@@ -11,4 +11,4 @@ PaperFaces portrait of [@brohatch](http://twitter.com/brohatch).
 
 {% include boilerplate/paperfaces.html %}
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/Csxhdfrtbuo" frameborder="0"> </iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Csxhdfrtbuo" frameborder="0"> </iframe>
