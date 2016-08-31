@@ -1448,11 +1448,13 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   padding-right: 0.125em;
   font-weight: normal;
   font-family: "PT Serif", serif;
+  color: #4c4c4c;
   background: #f9f9f9; }
 
 .tag__count {
   float: right;
   padding-left: 0.125em;
+  color: #4c4c4c;
   background: #f9f9f9; }
 
 .tag__list {
