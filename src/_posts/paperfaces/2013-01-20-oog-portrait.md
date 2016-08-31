@@ -11,4 +11,4 @@ PaperFaces portrait of [@Oog](http://twitter.com/Oog).
 
 {% include boilerplate/paperfaces.html %}
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/bHp3aHMQxA0" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHp3aHMQxA0" frameborder="0"> </iframe>

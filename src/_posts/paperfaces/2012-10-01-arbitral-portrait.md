@@ -11,4 +11,4 @@ PaperFaces portrait of [@arbitral](http://twitter.com/arbitral).
 
 {% include boilerplate/paperfaces.html %}
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/1VpNH3EQUg8" frameborder="0"> </iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/1VpNH3EQUg8" frameborder="0"> </iframe>

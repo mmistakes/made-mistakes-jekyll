@@ -13,4 +13,4 @@ I also recorded my iPad's screen for this portrait that shows the new zoom tool 
 
 {% include boilerplate/paperfaces.html %}
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>

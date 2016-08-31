@@ -12,4 +12,4 @@ Starting Star Wars Day off with a portrait of my dude Boba. May the 4th be with 
 
 {% include boilerplate/paperfaces.html %}
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XvVoXgxwrMA" frameborder="0"> </iframe>

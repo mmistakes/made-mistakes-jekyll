@@ -11,4 +11,4 @@ PaperFaces portrait of project donator [@pjrvswp](http://twitter.com/pjrvswp).
 
 {% include boilerplate/paperfaces.html %}
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/UA9t52T0Aec" frameborder="0"> </iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/UA9t52T0Aec" frameborder="0"> </iframe>
