@@ -1,14 +1,12 @@
 {% unless page.layout == "glitch" %}
-{% assign page_slug = page.url | remove_first: '/' | split: '/' %}
-{% assign slug_first = page_slug[0] %}
-{% assign slug = site.data.slugs[slug_first] %}
 <header class="masthead">
   <div class="container">
     <a class="masthead__title" href="{{ site.url }}/">{{ site.title }}</a>
     <nav id="nav-primary" class="masthead__menu-wrapper">
       <ul class="masthead__menu">
-        {% if page_slug[1] and (slug_first == 'articles' or slug_first == 'mastering-paper' or slug_first == 'paperfaces' or slug_first == 'procreate-paintings' or slug_first =='tiny-paintings' or slug_first == 'faqs' or slug_first == 'work') %}
-          <li><a href="{{ site.url }}/{{ slug_first }}/" class="masthead__menu-item">← {{ slug.name }}</a></li>
+        {% if page.breadcrumbs %}
+          {% assign crumb = page.breadcrumbs[0] %}
+          <li><a href="{{ site.url }}{{ crumb.url }}" class="masthead__menu-item">← {{ crumb.label }}</a></li>
         {% else %}
           <li><a href="{{ site.url }}/" class="masthead__menu-item">← Home</a></li>
         {% endif %}

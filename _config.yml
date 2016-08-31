@@ -135,6 +135,9 @@ defaults:
     values:
       layout: article
       category: articles
+      breadcrumbs:
+        - label: "Blog Articles"
+          url: /articles/
 
   # Mastering Paper
   - scope:
@@ -143,6 +146,9 @@ defaults:
     values:
       layout: article
       category: mastering-paper
+      breadcrumbs:
+        - label: "Mastering Paper by 53"
+          url: /mastering-paper/
 
   # PaperFaces
   - scope:
@@ -151,6 +157,9 @@ defaults:
     values:
       layout: article
       category: paperfaces
+      breadcrumbs:
+        - label: "PaperFaces Portraits"
+          url: /paperfaces/
       comments: true
 
   # Procreate Paintings
@@ -160,6 +169,9 @@ defaults:
     values:
       layout: article
       category: procreate-paintings
+      breadcrumbs:
+        - label: "Procreate Paintings"
+          url: /procreate-paintings/
       comments: true
 
   # Tiny Paintings
@@ -169,6 +181,9 @@ defaults:
     values:
       layout: article
       category: tiny-paintings
+      breadcrumbs:
+        - label: "Tiny Paintings"
+          url: /tiny-paintings/
       comments: true
 
   # Work
@@ -178,6 +193,9 @@ defaults:
     values:
       layout: article
       category: work
+      breadcrumbs:
+        - label: "Work"
+          url: /work/
 
   # FAQs
   - scope:
@@ -185,6 +203,9 @@ defaults:
       type: faqs
     values:
       layout: article
+      breadcrumbs:
+        - label: "Frequently Asked Questions"
+          url: /faqs/
       comments: true
 
   # Pages
