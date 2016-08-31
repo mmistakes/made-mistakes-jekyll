@@ -3051,7 +3051,8 @@ h5.review__title {
   border: 1px solid #dbdbdb; }
   .component div.highlighter-rouge,
   .component figure.highlight {
-    margin: 0; }
+    margin: 0;
+    padding: 1em; }
 
 .component__header h3 {
   margin-top: 0 !important; }
