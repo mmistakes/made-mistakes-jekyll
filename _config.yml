@@ -42,7 +42,7 @@ owner:
   avatar         : "bio-photo.jpg" # 160x160 px image for author byline
 staticman:
   allowedFields  : ['name', 'email', 'url', 'message']
-  branch         : "develop"
+  branch         : "master"
   commitMessage  : "New comment."
   filename       : comment-{@timestamp}
   format         : "yml"
