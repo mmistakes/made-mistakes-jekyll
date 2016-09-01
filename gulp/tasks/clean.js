@@ -2,19 +2,19 @@
 const del  = require('del');
 const gulp = require('gulp');
 
-// 'gulp clean:assets' -- removes temporary and built CSS and JS assets
+// 'gulp clean:assets' -- removes temporary and built CSS/JS assets
 gulp.task('clean:assets', () => {
-  return del(['.tmp/**/*', '!.tmp/assets', '!.tmp/assets/images', '!.tmp/assets/images/**/*', 'dist/assets']);
+  return del(['.tmp/**/*', '!.tmp/assets', 'dist/assets/**/*', '!dist/assets/images', '!dist/assets/images/**/*']);
 });
 
-// 'gulp clean:images' -- removes image assets
+// 'gulp clean:images' -- removes only image assets
 gulp.task('clean:images', () => {
-  return del(['.tmp/assets/images', 'dist/assets/images']);
+  return del(['dist/assets/images']);
 });
 
-// 'gulp clean:dist' -- removes built site
+// 'gulp clean:dist' -- removes built site but keep images
 gulp.task('clean:dist', () => {
-  return del(['dist/', '.tmp/dist']);
+  return del(['dist/**/*', '!dist/assets', '!dist/assets/images', '!dist/assets/images/**/*'], {'dot': true});
 });
 
 // 'gulp clean:gzip' -- removes gzip files

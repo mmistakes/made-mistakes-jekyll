@@ -1,4 +1,4 @@
-var gm = require('gm');
+var gm      = require('gm');
 var through = require('through2');
 
 module.exports = function(el) {
