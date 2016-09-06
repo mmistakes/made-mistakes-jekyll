@@ -2,7 +2,7 @@
 title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
-modified:
+modified: 2016-09-05T21:29:43-04:00
 image: 
   feature: minimal-mistakes-3-feature.jpg
   teaser: minimal-mistakes-3-teaser.jpg
@@ -38,7 +38,7 @@ The theme includes responsive layouts (`single`, `archive`, and `splash` pages) 
 - Several layout options (single, archive, splash pages)
 - SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
 - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-- Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, and custom)
+- Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and custom)
 - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
 
 ## Usage

@@ -2,7 +2,7 @@
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub Pages for free."
-modified: 2016-04-15T12:14:45-04:00
+modified: 2016-09-05T21:29:54-04:00
 image: 
   feature: jekyll-themes-feature.jpg
   thumb: jekyll-themes-thumb-250x250.png
@@ -44,7 +44,7 @@ A flexible two-column Jekyll theme with a minimalistic aesthetic.
   - Several layout options (single, archive, splash pages)
   - SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
   - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-  - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, and custom)
+  - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and custom)
   - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom)
 
 <div markdown="0">
