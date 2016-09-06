@@ -12,10 +12,15 @@
         {% endif %}
         {% assign counter = 0 %}
         {% for link in site.data.navigation.masthead %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+            {% else %}
+            {% assign domain = site.url %}
+          {% endif %}
           {% unless page.url contains link.url %}
             {% assign counter = counter | plus:1 %}
-            <li><a href="{{ site.url }}{{ link.url }}" class="masthead__menu-item {% if counter > 1 %}is--hidden{% endif %}">{{ link.title }}</a></li>
-            {% endunless %}
+            <li><a href="{{ domain }}{{ link.url }}" class="masthead__menu-item {% if counter > 1 %}is--hidden{% endif %}">{{ link.title }}</a></li>
+          {% endunless %}
         {% endfor %}
         <li><a href="#0" class="overlay__menu-trigger masthead__menu-item" aria-label="Navigation Menu" title="Navigation Menu">•&nbsp;•&nbsp;•</a></li>
       </ul>
@@ -29,8 +34,13 @@
     <ul class="overlay__menu-col-1">
       <li class="overlay__menu-label">Of Interest</li>
       {% for link in site.data.navigation.primary %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+          {% else %}
+          {% assign domain = site.url %}
+        {% endif %}
         <li class="overlay__menu-item">
-          <a href="{{ site.url }}{{ link.url }}">
+          <a href="{{ domain }}{{ link.url }}">
             <div class="menu-thumb">{% if link.img %}<img src="{{ site.url }}/assets/images/{{ link.img }}" alt="">{% endif %}</div>
             <div class="menu-text">
               <div class="menu-title">{{ link.title }}</div>
@@ -43,7 +53,12 @@
     <ul class="overlay__menu-col-2">
       <li class="overlay__menu-label">Everything Else</li>
       {% for link in site.data.navigation.secondary %}
-        <li class="overlay__menu-item--secondary"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+          {% else %}
+          {% assign domain = site.url %}
+        {% endif %}
+        <li class="overlay__menu-item--secondary"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
   </div>

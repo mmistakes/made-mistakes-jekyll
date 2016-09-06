@@ -83,6 +83,8 @@ secondary:
     url: /terms/
   - title: "Sitemap"
     url: /sitemap/
+  - title: "Feed"
+    url: http://feeds.feedburner.com/MadeMistakes
 
 
 # Footer navigation links
