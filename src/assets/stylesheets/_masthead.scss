@@ -206,11 +206,13 @@
 
   .menu-title {
     font-size: 1.563rem;
-    line-height: 1.563rem;
+    line-height: 1;
   }
 
   .menu-excerpt {
+    margin-top: 0.25rem;
     font-size: 0.8rem;
+    line-height: 1.25;
   }
 }
 

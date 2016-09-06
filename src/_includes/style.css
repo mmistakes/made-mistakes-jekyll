@@ -1073,9 +1073,11 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
             flex: 1; }
   .overlay__menu-item .menu-title {
     font-size: 1.563rem;
-    line-height: 1.563rem; }
+    line-height: 1; }
   .overlay__menu-item .menu-excerpt {
-    font-size: 0.8rem; }
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    line-height: 1.25; }
 
 .overlay__menu-item--secondary {
   display: block;
