@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Site
+   ========================================================================== */
+
+.site__logo {
+  margin: 4em 2em 6em 2em;
+  line-height: 1;
+  font-family: $monospace;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.site__footer {
+  position: relative;
+  padding: 2em;
+  font-family: $monospace;
+}

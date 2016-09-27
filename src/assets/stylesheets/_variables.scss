@@ -6,16 +6,14 @@
    Typography related variables
    ========================================================================== */
 
-$serif                        : "PT Serif", serif;
+$serif                        : Georgia, Times, serif;
 $sans-serif                   : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-$sans-serif-narrow            : "PT Sans Narrow", sans-serif;
 $monospace                    : Monaco, Consolas, "Lucida Console", monospace;
 
 $doc-font-size                : 16;
 $doc-line-height              : 24;
 
 $border-radius                : 4px;
-
 
 /*
    Color variables
@@ -33,6 +31,7 @@ $text-color                   : $gray;
 $headline-color               : $gray;
 
 $background-color             : $lighter-gray;
+$splash-background-color      : $black;
 
 $highlighter-color            : #f3bc15;
 
@@ -79,14 +78,6 @@ $youtube-color                : #ff3333;
 $github-color                 : #333333;
 $youtube-color                : #cd201f;
 
-
-/*
-   Masthead
-   ========================================================================== */
-
-$masthead-height              : 53px;
-
-
 /*
    Form variables
    ========================================================================== */
@@ -112,7 +103,6 @@ $code-border-radius           : $border-radius;
 
 $inline-code-background       : mix($white, $border-color, 75%);
 
-
 /*
    Screen sizes
    ========================================================================== */
@@ -123,7 +113,6 @@ $medium-wide                  : 900px;
 $large                        : 1024px;
 $x-large                      : 1440px;
 
-
 /*
    Visual sitemap
    ========================================================================== */
@@ -132,11 +121,8 @@ $sitemap-primary-color        : mix($white, $primary-color, 60%);
 $sitemap-sub-color            : mix($white, $primary-color, 80%);
 $sitemap-sub-sub-color        : mix($white, $primary-color, 90%);
 
-
 /*
    Animation
    ========================================================================== */
 
-$global-transition            : all 0.2s ease-in-out
-
-
+$global-transition            : all 0.3s ease-in-out

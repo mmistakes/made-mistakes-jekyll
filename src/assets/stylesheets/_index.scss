@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Index Archive
+   ========================================================================== */
+
+.index {
+
+  @include breakpoint($medium-wide) {
+    width: span(6);
+  }
+
+  .page__cover {
+
+    @include breakpoint($medium-wide) {
+      width: span(6);
+    }
+  }
+}

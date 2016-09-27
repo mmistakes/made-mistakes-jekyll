@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Work/Portfolio Post or Page
+   ========================================================================== */
+
+.work {
+
+  @include breakpoint($medium-wide) {
+    width: span(8);
+  }
+
+  .page__cover {
+
+    @include breakpoint($medium-wide) {
+      width: span(4);
+    }
+  }
+
+  .page__content {
+    position: initial;
+  }
+}
+
+.work__hero {
+
+  img {
+    width: 100%;
+  }
+}
+
+.work__gallery {
+
+  @include breakpoint(max-width $medium-wide) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @include breakpoint($medium-wide) {
+    position: absolute;
+    top: 8em;
+    right: 0;
+    width: span(4);
+    height: 100%;
+  }
+
+  @include breakpoint($x-large) {
+    width: span(4);
+  }
+}
+
+.work__gallery-img {
+  display: block;
+  width: calc(50% - 2em);
+  padding: 0.5em;
+
+  @include breakpoint($small) {
+    padding: 1em;
+  }
+
+  @include breakpoint($medium-wide) {
+    width: 100%;
+    padding: 0 span(1) span(1);
+    transform: translateX(-3em);
+
+    &:first-child {
+      padding-top: 2em;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}

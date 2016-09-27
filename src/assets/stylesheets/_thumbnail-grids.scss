@@ -17,15 +17,13 @@
 
 .th-grid {
   display: flex;
-  margin-left: -0.5vw;
-  margin-right: -0.5vw;
   padding-left: 0; // reset
   flex-wrap: wrap;
 
   li {
     list-style: none;
     flex: auto;
-    margin: 0.5vw !important; // override
+    margin: 0.25em;
     width: 100px;
 
     @include breakpoint($small) {
@@ -34,7 +32,6 @@
   }
 
   a {
-    border-bottom-width: 0 !important; // override
 
     img {
 
@@ -48,6 +45,10 @@
   img {
     width: 100%;
     height: auto;
-    border-radius: $border-radius;
   }
+}
+
+/* list override */
+.list .th-grid a {
+  margin-right: initial;
 }

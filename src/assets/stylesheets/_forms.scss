@@ -3,7 +3,7 @@
    ========================================================================== */
 
 fieldset {
-  margin-bottom: 5px;
+  margin-bottom: 0.5em;
   padding: 0;
   border-width: 0;
 }
@@ -12,12 +12,11 @@ input,
 label,
 select {
   display: block;
-  @include font-size($form-font-size, no);
 }
 
 label {
+  margin-bottom: 0.5em;
   font-family: $sans-serif;
-  margin-bottom: (0px + $doc-line-height) / 4;
 
   &.required:after {
     content: "*";
@@ -33,16 +32,15 @@ textarea,
 select,
 select[multiple=multiple] {
   box-sizing: border-box;
-  transition: border-color;
+  padding: 0.5em;
+  width: 100%;
+  font-family: $form-font-family;
+  font-size: $form-font-size;
   background-color: $white;
   border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
   box-shadow: $form-box-shadow;
-  font-family: $form-font-family;
-  font-size: $form-font-size;
-  margin-bottom: (0px + $doc-line-height) / 2;
-  padding: ((0px + $doc-line-height) / 3) ((0px + $doc-line-height) / 3);
-  width: 100%;
+  transition: border-color;
 
   &:hover {
     border-color: $form-border-color-hover;
@@ -63,10 +61,10 @@ input[type="search"] {
   appearance: none;
 }
 
-input[type="checkbox"], input[type="radio"] {
-  display: inline;
-  margin-right: (0px + $doc-line-height) / 4;
-}
+// input[type="checkbox"], input[type="radio"] {
+//   display: inline;
+//   margin-right: (0px + $doc-line-height) / 4;
+// }
 
 input[type="file"] {
   width: 100%;
@@ -75,7 +73,6 @@ input[type="file"] {
 select {
   width: auto;
   max-width: 100%;
-  margin-bottom: 0px + $doc-line-height;
 }
 
 form button,

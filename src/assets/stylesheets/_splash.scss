@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Splash page
+   ========================================================================== */
+
+// dark
+.dark {
+  color: #fff;
+  background-color: $splash-background-color;
+
+  a {
+    color: #fff;
+  }
+
+  .page__cover {
+    background-color: $splash-background-color;
+
+    @include breakpoint($medium-wide) {
+
+      &:after {
+        background: repeating-linear-gradient(-45deg, transparent, transparent 0.5%, #333 0.5%, #333 1%);
+      }
+    }
+  }
+
+  .page__hero {
+    position: relative;
+
+    &:before {
+      display: block;
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.6;
+      background-color: black;
+    }
+
+    .image {
+      box-shadow: 2em 2em 0 $splash-background-color, 2em -2em $splash-background-color;
+    }
+  }
+}
+
+// splash
+
+.splash {
+
+  .page__wrap {
+    position: relative;
+  }
+
+  .page__header {
+    width: span(5 of 7);
+
+    @include breakpoint($medium) {
+      width: span(4 of 7);
+    }
+  }
+
+  .page__title {
+    max-width: initial;
+  }
+
+  .page__excerpt {
+    font-family: $serif;
+    font-size: 1.953em;
+    font-weight: normal;
+  }
+
+  .page__hero {
+    top: -2em;
+    right: 2em;
+    position: absolute;
+    margin-left: span(3 of 7);
+
+    @include breakpoint($medium-wide) {
+      margin-right: 0;
+    }
+  }
+
+  .list {
+    font-size: 0.8em;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+}

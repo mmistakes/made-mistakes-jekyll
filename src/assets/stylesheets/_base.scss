@@ -8,37 +8,40 @@
 
 @include breakpoint-set('to ems', true);
 
-
 /*
    Typography
    ========================================================================== */
 
-/* Modular scale
- *  one    - 2.441
- *  two    - 1.953
- *  three  - 1.563
- *  four   - 1.25
- *  five   - 1
- *  six    - 0.8
- *  seven  - 0.64
- *  eight  - 0.512
- */
+// modular scale
+// 3.052em
+// 2.441em
+// 1.953em
+// 1.563em
+// 1.25em
+// 1em
+// 0.8em
+// 0.64em
+// 0.512em
+// 0.41em
+// 0.328em
+
+html {
+  font-family: $serif;
+  font-size: 90%;
+  line-height: 1.625;
+  color: #333;
+
+  @include breakpoint($medium) {
+    font-size: 100%;
+  }
+  @include breakpoint($large) {
+    font-size: 110%;
+  }
+}
 
 body {
   margin: 0;
   padding: 0;
-  color: $text-color;
-  font-family: $serif;
-  line-height: 1.5;
-
-  &.overflow--hidden {
-    /* when primary navigation is visible, the content in the background won't scroll */
-    overflow: hidden;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.25;
 }
 
 small {
@@ -65,8 +68,7 @@ p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
   widows: 3;
 }
 
-/* Abbreviations */
-
+/* abbreviations */
 abbr[title],
 abbr[data-original-title] {
   text-decoration: none;
@@ -102,7 +104,6 @@ blockquote {
 /* Links */
 
 a {
-  text-decoration: none;
 
   &:focus {
     @extend %tab-focus;
@@ -111,19 +112,6 @@ a {
   &:hover,
   &:active {
     outline: 0;
-  }
-}
-
-/* Lists */
-
-ol, ul {
-
-  @include breakpoint($small) {
-    padding-left: 0;
-
-    ol, ul {
-      padding: 0.5em 1em;
-    }
   }
 }
 
@@ -166,140 +154,26 @@ hr {
    Media and embeds
    ========================================================================== */
 
-/* Figures and images */
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%; /* part 1: Set a maximum relative to the parent*/
+  width: auto\9; /* IE7-8 need help adjusting responsive images*/
+  height: auto; /* part 2: Scale the height according to the width, otherwise you get stretching*/
 
-figure {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 2em 0;
-
-  img,
-  iframe,
-  .fluid-width-video-wrapper {
-    margin-bottom: 1em;
-  }
-
-  img {
-    width: 100%;
-    border-radius: $border-radius;
-    transition: box-shadow 0.3s;
-  }
-
-  > a {
-    display: block;
-
-    /* image hover animation */
-    &:hover {
-
-      img {
-        box-shadow: 0 0 10px rgba($black, 0.20);
-      }
-    }
-  }
-
-  &.half {
-
-    > a,
-    > img {
-
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-
-  &.third {
-
-    > a,
-    > img {
-
-      @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }
 
-/* Figure captions */
-
-figcaption {
-  margin-bottom: 0.65rem;
-  color: mix(#fff, $text-color, 25%);
-  font-family: $sans-serif;
-  font-size: 0.8rem;
-
-  a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid $light-gray;
-    transition: border 0.4s ease-in-out;
-
-    &:hover {
-      color: #000;
-      border-bottom-color: #000;
-    }
-  }
-
-  code {
-    font-size: 0.64rem;
-  }
-}
-
-
-/* Fix IE9 SVG bug */
-
+/* fix IE9 SVG bug */
 svg:not(:root) {
   overflow: hidden;
-}
-
-
-/*
-   Navigation lists
-   ========================================================================== */
-
-/**
- * Removes margins, padding, and bullet points from navigation lists
- *
- * Example usage:
- * <nav>
- *    <ul>
- *      <li><a href="#link-1">Link 1</a></li>
- *      <li><a href="#link-2">Link 2</a></li>
- *      <li><a href="#link-3">Link 3</a></li>
- *    </ul>
- *  </nav>
- */
-
-nav {
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-  }
 }
 
 /*
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item, .archive__item-thumb, .archive__item-body, .palette__swatch {
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .palette__swatch {
   transition: $global-transition;
 }
