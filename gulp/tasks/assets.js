@@ -124,30 +124,6 @@ gulp.task('styles', () =>
 //     .pipe(gulp.dest('.tmp/src/_includes'))
 // );
 
-// 'gulp critical:glitch' -- extract glitch page critical CSS into /_includes/critical-glitch.css
-gulp.task('critical:glitch', function () {
-  return gulp.src('.tmp/dist/index.html')
-    .pipe(critical({
-      base: '.tmp/',
-      css: ['src/_includes/style.css'],
-      dimensions: [{
-        width: 320,
-        height: 480
-      },{
-        width: 768,
-        height: 1024
-      },{
-        width: 1280,
-        height: 960
-      }],
-      dest: 'src/_includes/critical-glitch.css',
-      minify: true,
-      extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
-    }))
-    // .pipe(gulp.dest('src/_includes'));
-});
-
 // 'gulp critical:article' -- extract article page critical CSS into /_includes/critical-article.css
 gulp.task('critical:article', function () {
   return gulp.src('.tmp/dist/articles/ipad-pro/index.html')
