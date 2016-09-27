@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@Lord_Faethor](http://twitter.com/Lord_Faethor).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

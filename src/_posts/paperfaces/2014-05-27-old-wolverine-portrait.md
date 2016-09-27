@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, X-men]
 
 PaperFaces portrait of Mystique and Wolverine from **X-men: Days of Future Past**.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-old-wolverine-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-old-wolverine-process-1-600.jpg" alt="Work in process screenshot"></a>

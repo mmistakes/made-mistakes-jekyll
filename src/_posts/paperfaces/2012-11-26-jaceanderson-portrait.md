@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@jaceanderson](http://twitter.com/jaceanderson).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

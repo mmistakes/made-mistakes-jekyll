@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@thatmiddleway](http://twitter.com/thatmiddleway).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-thatmiddleway-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-thatmiddleway-process-1-600.jpg" alt="Work in process screenshot"></a>

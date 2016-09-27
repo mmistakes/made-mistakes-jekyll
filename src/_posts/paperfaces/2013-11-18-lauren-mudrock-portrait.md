@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 
 Decided to try out [Sktchy](http://www.sktchy.com/) by returning the favor of an artist who drew my portrait on it. It's a shame this app didn't exist before I started my project --- I might actually use it more for inspiration. PaperFaces portrait of Lauren Mudrock.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-lauren-mudrock-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-lauren-mudrock-process-1-600.jpg" alt="Work in process screenshot"></a>

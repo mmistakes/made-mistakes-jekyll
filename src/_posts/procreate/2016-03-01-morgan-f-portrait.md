@@ -22,4 +22,4 @@ I've found playing with opacity and the glazing toggles gets color results simil
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 4 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

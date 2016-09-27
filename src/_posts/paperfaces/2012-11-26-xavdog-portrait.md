@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@xavdog](http://twitter.com/xavdog).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

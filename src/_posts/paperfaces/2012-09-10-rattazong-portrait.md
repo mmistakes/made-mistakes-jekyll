@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@rattazong](http://twitter.com/rattazong).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

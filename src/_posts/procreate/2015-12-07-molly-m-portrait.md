@@ -18,4 +18,4 @@ The new split view in iOS 9 on the iPad is fantastic. Swiping over the Photos ap
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 6 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

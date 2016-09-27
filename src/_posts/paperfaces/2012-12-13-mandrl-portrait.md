@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of project donator [@mandrl](http://twitter.com/mandrl).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

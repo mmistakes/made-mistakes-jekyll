@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@commadelimited](http://twitter.com/commadelimited).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

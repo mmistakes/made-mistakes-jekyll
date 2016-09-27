@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@Karen_Melgar](http://twitter.com/Karen_Melgar).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

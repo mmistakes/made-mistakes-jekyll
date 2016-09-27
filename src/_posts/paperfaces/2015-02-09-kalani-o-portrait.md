@@ -15,7 +15,7 @@ I often find I work fairly quick when dealing in grayscale, especially when the 
 
 Started with dark grays and gradually increased the brightness until I was selectively adding wisps of pure white. A few coats of gray watercolor to smoothen out any abrupt transitions of color, and I called it a day.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/2075207"><img src="{{ site.url }}/assets/images/paperfaces-kalani-o-process-1-600.jpg" alt="Work in process screenshot"></a>

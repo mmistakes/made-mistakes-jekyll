@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@guylschmidt](http://twitter.com/guylschmidt).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

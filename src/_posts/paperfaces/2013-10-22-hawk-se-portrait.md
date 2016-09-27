@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of <a href="http://twitter.com/Hawk_SE">@Hawk_SE</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-hawk-se-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-hawk-se-process-1-600.jpg" alt="Work in process screenshot"></a>

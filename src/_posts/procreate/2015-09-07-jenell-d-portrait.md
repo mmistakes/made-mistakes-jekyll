@@ -18,4 +18,4 @@ Things got a little dark in the face, but I guess that's what inexperience with 
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

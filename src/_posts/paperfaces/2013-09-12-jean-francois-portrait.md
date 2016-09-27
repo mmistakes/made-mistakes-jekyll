@@ -17,4 +17,4 @@ PaperFaces portrait of [@jean_francois](http://twitter.com/jean_francois).
 	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}

@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 
 PaperFaces portrait of [Kirsty H.](http://sktchy.com/A73olc) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-kirsty-h-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-kirsty-h-process-1-750.jpg" alt="Work in process screenshot"></a>

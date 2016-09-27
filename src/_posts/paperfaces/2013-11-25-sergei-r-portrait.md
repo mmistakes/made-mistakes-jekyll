@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 
 Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/YRsdZH">Sergei R.</a>, inspiration found via Sktchy.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-sergei-r-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sergei-r-process-1-750.jpg" alt="Work in process screenshot"></a>

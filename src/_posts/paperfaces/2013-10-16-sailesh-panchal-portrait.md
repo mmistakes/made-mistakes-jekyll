@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 Good lighting makes for a world of difference. Commissioned PaperFaces portrait of <a href="http://twitter.com/sailesh-panchal">@sailesh-panchal</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<iframe width="420" height="315" src="//www.youtube.com/embed/KMLJ8_CQhAU" frameborder="0"> </iframe>

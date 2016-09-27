@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, texture, beard]
 
 PaperFaces avatar portrait of <a href="http://twitter.com/chappers_ma">@chappers_ma</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-chappers-ma-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chappers-ma-process-1-600.jpg" alt="Work in process screenshot"></a>

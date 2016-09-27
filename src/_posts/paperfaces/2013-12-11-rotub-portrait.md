@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of <a href="http://twitter.com/rotub">@rotub</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-rotub-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-rotub-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -12,7 +12,7 @@ Just like [her sister]({% post_url 2014-06-23-everly-autumn-portrait %}), *Chlo-
 
 The more I draw with Paper, the clearer it becomes that I don't really have a set process. Sometimes I start with a rough outline that I continuously erase and refine. Other times I jump right to the darks and work backwards towards the light.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-chloe-winter-process-1-600.jpg" alt="Work in process screenshot"></a>

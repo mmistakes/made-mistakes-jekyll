@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait avatar for [@sarakenobi](http://twitter.com/sarakenobi).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

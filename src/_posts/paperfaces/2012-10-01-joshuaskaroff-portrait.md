@@ -9,6 +9,6 @@ tags: [portrait, illustration, Paper by 53, beard, time lapse]
 
 PaperFaces portrait of [@joshuaskaroff](http://twitter.com/joshuaskaroff).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/NEOjUwRFtbQ" frameborder="0"> </iframe>

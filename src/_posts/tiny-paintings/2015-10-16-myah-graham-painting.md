@@ -13,4 +13,4 @@ Tiny portrait of Myah Graham inspired by a [photograph on Sktchy](http://sktchy.
 
 Final painting measures 2.5\" x 1.5\". Facial features at this size sure are difficult to pull off accurately. I constantly found myself getting the proportions wrong and painting them too large.
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

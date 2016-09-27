@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, beard, Christmas]
 
 PaperFaces portrait of Santa Claus. Ho ho ho!
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@ninoMH](http://twitter.com/ninoMH).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

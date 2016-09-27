@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@campbell_soupp](http://twitter.com/campbell_soupp).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

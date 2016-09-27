@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 PaperFaces portrait commission.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/zFG6M8PKdlc" frameborder="0"> </iframe>

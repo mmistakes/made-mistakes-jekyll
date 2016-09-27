@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@asthehosptuRNs](http://twitter.com/asthehosptuRNs).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

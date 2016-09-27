@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@etowow](http://twitter.com/etowow).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

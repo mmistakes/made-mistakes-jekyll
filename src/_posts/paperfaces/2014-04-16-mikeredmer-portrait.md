@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, black and white, Google Glass]
 
 PaperFaces portrait of [@mikeredmer](http://twitter.com/mikeredmer).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-mikeredmer-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-mikeredmer-process-1-600.jpg" alt="Work in process screenshot"></a>

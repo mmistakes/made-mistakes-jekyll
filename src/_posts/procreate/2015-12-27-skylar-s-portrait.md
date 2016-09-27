@@ -18,4 +18,4 @@ Please excuse the rough hatching as I was trying to avoid over polishing the fac
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 2.5 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

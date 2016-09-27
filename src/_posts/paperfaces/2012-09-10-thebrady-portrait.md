@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of project donator [@theBrady](http://twitter.com/theBrady).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

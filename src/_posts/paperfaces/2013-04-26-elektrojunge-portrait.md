@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@Elektrojunge](http://twitter.com/Elektrojunge).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

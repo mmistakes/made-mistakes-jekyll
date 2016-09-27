@@ -17,7 +17,7 @@ work: "Illustration"
 
 <ul class="th-grid">
 {% for post in site.categories.procreate-paintings %}
-  <li style="width: 200px;">
+  <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
       <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt="">
       <noscript><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></noscript>

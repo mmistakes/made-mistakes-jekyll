@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, blend, bokeh, time lapse]
 
 My first PaperFaces portrait commission using two styli to complete.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/y1OG2gLk6Jg" frameborder="0"> </iframe>

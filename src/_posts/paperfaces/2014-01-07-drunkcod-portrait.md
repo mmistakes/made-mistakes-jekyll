@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@drunkcod](http://twitter.com/drunkcod). Suppose I could have flipped the reference photo right side up before drawing it, but where's the fun in that?
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-drunkcod-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-drunkcod-process-1-750.jpg" alt="Work in process screenshot"></a>

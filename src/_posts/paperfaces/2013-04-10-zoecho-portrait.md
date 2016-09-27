@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@_ZoeCho](http://twitter.com/_ZoeCho).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

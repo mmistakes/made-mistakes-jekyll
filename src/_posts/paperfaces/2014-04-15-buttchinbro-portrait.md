@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, black and white, blend]
 
 PaperFaces portrait of [@ButtChinBro](http://twitter.com/ButtChinBro).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-buttchinbro-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-buttchinbro-process-1-600.jpg" alt="Work in process screenshot"></a>

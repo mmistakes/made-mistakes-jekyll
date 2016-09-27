@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, blend]
 
 PaperFaces portrait of <a href="http://twitter.com/paviro_">@paviro_</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-paviro-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-paviro-process-1-600.jpg" alt="Work in process screenshot"></a>

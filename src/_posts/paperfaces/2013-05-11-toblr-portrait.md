@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, hoodie]
 
 PaperFaces portrait of [@toblr](http://twitter.com/toblr).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

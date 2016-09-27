@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, blend, beard]
 
 PaperFaces portrait commission for [@TheMarcStone](http://twitter.com/TheMarcStone).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-themarcstone-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-themarcstone-process-1-750.jpg" alt="Work in process screenshot"></a>

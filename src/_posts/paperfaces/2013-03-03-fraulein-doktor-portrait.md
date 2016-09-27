@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@fraulein_doktor](http://twitter.com/fraulein_doktor).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

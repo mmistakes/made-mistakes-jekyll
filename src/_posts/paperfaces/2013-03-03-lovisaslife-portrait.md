@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@lovisaslife](http://twitter.com/lovisaslife).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

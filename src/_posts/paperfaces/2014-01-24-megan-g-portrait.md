@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 
 Another winter scene with a slight smudge to the background of trees to add depth. PaperFaces portrait of [Megan G.](http://sktchy.com/ZRLqgC) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-megan-g-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-megan-g-process-1-600.jpg" alt="Work in process screenshot"></a>

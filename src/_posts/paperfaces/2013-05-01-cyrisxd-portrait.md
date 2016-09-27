@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@CyrisXD](http://twitter.com/CyrisXD).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

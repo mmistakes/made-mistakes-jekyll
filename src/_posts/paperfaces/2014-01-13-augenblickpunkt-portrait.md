@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, blend]
 
 PaperFaces portrait portrait of [@augenblickpunkt](http://twitter.com/augenblickpunkt).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-augenblickpunkt-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-augenblickpunkt-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of project donator [@f5point6](http://twitter.com/f5point6).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

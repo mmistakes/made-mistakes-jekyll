@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 
 Return of the blank. PaperFaces portrait of [Bird O.](http://sktchy.com/JPzbGH) inspired on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-bird-o-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-bird-o-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@mjchamplin](http://twitter.com/mjchamplin).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

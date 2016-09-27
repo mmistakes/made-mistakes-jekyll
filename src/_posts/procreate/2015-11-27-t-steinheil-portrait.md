@@ -20,4 +20,4 @@ Now to find paper textures I can import into Procreate to build drawings on top 
   <figcaption>Time lapse video recorded within Procreate, completed in 4 hours and 50 minutes.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

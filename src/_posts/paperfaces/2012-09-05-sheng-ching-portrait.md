@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@sheng_ching](http://twitter.com/sheng_ching).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

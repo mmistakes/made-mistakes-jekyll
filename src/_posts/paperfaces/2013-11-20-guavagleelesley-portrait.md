@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, blend]
 
 First portrait I've drawn using that new Pencil stylus everyone is talking about. Using the new blending feature was a ton of fun and really came in handy for creating the soft water effect in the background. PaperFaces portrait of <a href="http://twitter.com/GuavaGleeLesley">@GuavaGleeLesley</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-guavagleelesley-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-guavagleelesley-process-1-600.jpg" alt="Work in process screenshot"></a>

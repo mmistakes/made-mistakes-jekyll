@@ -18,4 +18,4 @@ Now we're getting somewhere. Half finished is the new finished.
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

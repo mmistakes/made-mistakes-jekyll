@@ -15,7 +15,7 @@ The time lapse effect came out ok, but have to look at lighting the work area be
 
 PaperFaces portrait of <a href="http://twitter.com/GrantLandram">@GrantLandram</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0" > </iframe>

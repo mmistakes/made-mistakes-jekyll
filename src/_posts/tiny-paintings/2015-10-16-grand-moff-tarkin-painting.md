@@ -18,4 +18,4 @@ Final painting measures 1.5\" x 1.5\" and was completed about 3 hours. Was convi
   <figcaption>Starting with a pencil sketch.</figcaption>
 </figure>
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

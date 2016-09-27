@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@krkwd](http://twitter.com/krkwd).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

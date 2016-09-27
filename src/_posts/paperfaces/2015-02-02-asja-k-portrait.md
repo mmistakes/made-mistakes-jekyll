@@ -13,7 +13,7 @@ PaperFaces portrait of Asja K. inspired by a [photograph on Sktchy](http://sktch
 
 I will take grit and texture over polished and airbrushed any day of the week. It's these characteristics that have me preferring Paper over more feature-rich sketching apps.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/1887226"><img src="{{ site.url }}/assets/images/paperfaces-asja-k-process-1-600.jpg" alt="Work in process screenshot"></a>

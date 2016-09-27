@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@arialem](http://instagram.com/arialem).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

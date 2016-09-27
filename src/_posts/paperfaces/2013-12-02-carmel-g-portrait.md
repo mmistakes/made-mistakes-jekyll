@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 
 PaperFaces portrait of <a href="http://sktchy.com/uViYnH">Carmel G.</a>
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-carmel-g-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-carmel-g-process-1-750.jpg" alt="Work in process screenshot"></a>

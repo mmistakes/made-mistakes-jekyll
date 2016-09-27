@@ -10,6 +10,6 @@ tags: [portrait, illustration, Paper by 53, Michael Rose, self portrait, beard, 
 
 Self portrait of [@mmistakes](http://twitter.com/mmistakes) (hey that's me) in an autumn field.
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/NqcGVymOiPo" frameborder="0"> </iframe>

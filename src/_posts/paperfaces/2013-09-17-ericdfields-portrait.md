@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, grass]
 
 PaperFaces portrait of [@ericdfields](http://twitter.com/ericdfields).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-ericdfields-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-ericdfields-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -29,4 +29,4 @@ The best part is seeing what others do with them when remixed. I know some other
   <figcaption>A couple of fun and creative remixes.</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, black and white, blend]
 
 PaperFaces portrait of Lydia Deetz from **Beetlejuice**, inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-lydia-deetz-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-lydia-deetz-process-1-600.jpg" alt="Work in process screenshot"></a>

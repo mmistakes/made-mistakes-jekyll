@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 
 PaperFaces portrait of Sktchy user Hugo S.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-hugo-s-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-hugo-s-process-1-750.jpg" alt="Work in process screenshot"></a>

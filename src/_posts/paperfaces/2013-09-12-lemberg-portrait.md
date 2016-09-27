@@ -20,4 +20,4 @@ PaperFaces portrait of [@Lemberg](http://twitter.com/lemberg).
 	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}

@@ -10,4 +10,4 @@ tags: [Star Wars, portrait, illustration, Paper by 53]
 
 Luke Skywalker training with Jedi Master Yoda down in Nilbog, I mean the Dagoba system. *May the 4th be with you!*
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

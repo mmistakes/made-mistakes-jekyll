@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@rhp7](http://twitter.com/rhp7). This was hands down the hardest drawing I've done in the series to date --- wink wink, nudge nudge.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}

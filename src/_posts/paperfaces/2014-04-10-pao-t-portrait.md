@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 
 PaperFaces portrait of a [Pao T.](http://sktchy.com/LWk59H) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-pao-t-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-pao-t-process-1-600.jpg" alt="Work in process screenshot"></a>

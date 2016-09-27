@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, blend, beard]
 
 PaperFaces portrait of [@jayperdue](http://twitter.com/jayperdue).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-jayperdue-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jayperdue-process-1-750.jpg" alt="Work in process screenshot"></a>

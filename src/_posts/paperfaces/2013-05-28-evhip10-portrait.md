@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@EvHip10](http://twitter.com/EvHip10).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

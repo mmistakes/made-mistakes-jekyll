@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@Fitt_Kimberley](http://twitter.com/Fitt_Kimberley).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

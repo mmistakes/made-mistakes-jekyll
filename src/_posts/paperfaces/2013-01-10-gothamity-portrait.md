@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@gothamity](http://twitter.com/gothamity).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

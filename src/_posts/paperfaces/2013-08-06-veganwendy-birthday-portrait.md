@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [my wife Wendy](http://2littlerosebuds.com) for her birthday. As you may have noticed I used the entire canvas this time and didn't follow the usual square cropped format. Just one of the many perks of being married to me. Har har…
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-veganwendy-birthday-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-veganwendy-birthday-process-1-600.jpg" alt="Work in process screenshot"></a>

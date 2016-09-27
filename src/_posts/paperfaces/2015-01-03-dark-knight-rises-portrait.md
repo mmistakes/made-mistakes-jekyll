@@ -13,7 +13,7 @@ PaperFaces portrait of the Dark Knight to go along with a drawing I did of the [
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1420093) in various stages of completion if you want to rework it or get a closer look.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-dark-knight-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-dark-knight-process-1-600.jpg" alt="Work in process screenshot"></a>

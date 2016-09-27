@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@gattermann](http://twitter.com/gattermann).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

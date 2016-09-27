@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait commission for [@adammorgan100](http://twitter.com/adammorgan100).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-adammorgan100-3-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-adammorgan100-3-process-1-750.jpg" alt="Work in process screenshot"></a>

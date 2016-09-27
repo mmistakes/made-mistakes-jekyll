@@ -12,7 +12,7 @@ PaperFaces portrait commission of Nick B.
 
 Drawing is available on [on Mix](https://mix.fiftythree.com/11098-Michael-Rose/585896) if you want a closer look.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-nick-b-2-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-nick-b-2-process-1-600.jpg" alt="Work in process screenshot"></a>

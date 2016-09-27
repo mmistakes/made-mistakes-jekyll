@@ -13,4 +13,4 @@ Tiny portrait of a Gamorrean Guard from **Return of the Jedi**. Painted with wat
 
 Final painting measures 1.5\" x 1.5\". Ended up a little more illustrative than realistic, but I'll take it.
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

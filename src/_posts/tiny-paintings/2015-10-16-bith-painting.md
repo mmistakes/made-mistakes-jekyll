@@ -18,4 +18,4 @@ Final painting measures 1.5\" x 1.5\". There sure are a lot of fun freaks from t
   <figcaption>In progress...</figcaption>
 </figure>
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

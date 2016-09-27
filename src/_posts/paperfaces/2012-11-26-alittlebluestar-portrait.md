@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@alittlebluestar](http://twitter.com/alittlebluestar).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

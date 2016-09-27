@@ -30,4 +30,4 @@ After getting a taste at what pressure sensitive drawing with Procreate could be
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-{% include boilerplate/procreate-2.html %}
+{% include boilerplate/procreate-2.md %}

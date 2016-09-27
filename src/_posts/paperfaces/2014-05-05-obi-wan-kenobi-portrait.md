@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Star Wars, beard]
 
 PaperFaces portrait of Obi-Wan Kenobi from Episode III: Revenge of the Sith.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-obi-wan-kenobi-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-obi-wan-kenobi-process-1-600.jpg" alt="Work in process screenshot"></a>

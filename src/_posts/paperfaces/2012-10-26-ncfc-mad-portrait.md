@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@NCFC_Mad](http://twitter.com/NCFC_Mad).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

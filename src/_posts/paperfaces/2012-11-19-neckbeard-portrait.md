@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of project donator [@_neckbeard](http://twitter.com/_neckbeard).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

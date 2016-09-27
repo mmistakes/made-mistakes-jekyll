@@ -25,4 +25,4 @@ If you squint your eyes just right it almost looks like a photograph. Just don't
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 3 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

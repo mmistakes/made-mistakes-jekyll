@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@M1RRN](http://twitter.com/M1RRN).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

@@ -18,4 +18,4 @@ I could have easily spent another 5 hours meticulously rendering beard whiskers 
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 5 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

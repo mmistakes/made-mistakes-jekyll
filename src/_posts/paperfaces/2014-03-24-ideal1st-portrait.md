@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, black and white, blend]
 
 PaperFaces portrait of [@ideal1st](http://twitter.com/ideal1st).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-ideal1st-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-ideal1st-process-1-600.jpg" alt="Work in process screenshot"></a>

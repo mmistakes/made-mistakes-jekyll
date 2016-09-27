@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@johntwolives](http://twitter.com/johntwolives).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-johntwolives-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-johntwolives-process-1-600.jpg" alt="Work in process screenshot"></a>

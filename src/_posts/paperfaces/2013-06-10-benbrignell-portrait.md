@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@benbrignell](http://twitter.com/benbrignell).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-benbrignell-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-benbrignell-process-1-600.jpg" alt="Adding detail with the pencil tool."></a>

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of project donator [@Ruth_Goodwin](http://twitter.com/Ruth_Goodwin).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

@@ -14,7 +14,7 @@ Lately I've been drawn to images of figures partially obscured by shadow. I find
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/799752/remixes) if you want to rework it or get a closer look.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-danya-w-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-danya-w-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of project donator [@fra_cek](http://twitter.com/fra_cek).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

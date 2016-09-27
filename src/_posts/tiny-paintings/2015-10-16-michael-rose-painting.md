@@ -19,4 +19,4 @@ Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. 
   <figcaption>Various work in progress snapshots from the initial drawing up to its completion.</figcaption>
 </figure>
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

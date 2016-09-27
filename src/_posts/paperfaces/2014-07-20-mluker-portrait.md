@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, beard]
 
 PaperFaces portrait of [@mluker](http://twitter.com/mluker).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-mluker-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-mluker-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -11,4 +11,4 @@ PaperFaces portrait of some random hipsters I came up with to fill the entire ca
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/CD9uoa96nKQ" frameborder="0"> </iframe>
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}

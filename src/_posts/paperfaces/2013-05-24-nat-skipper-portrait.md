@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 Halfway to my goal… PaperFaces portrait of [@Nat_Skipper](http://twitter.com/Nat_Skipper).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

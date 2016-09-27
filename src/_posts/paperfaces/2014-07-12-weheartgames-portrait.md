@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, blend, bokeh, beard]
 
 PaperFaces portrait of [@weheartgames](http://twitter.com/weheartgames).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-weheartgames-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-weheartgames-process-1-600.jpg" alt="Work in process screenshot"></a>

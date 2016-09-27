@@ -18,4 +18,4 @@ Sometimes when I feel lazy I go after a silhouette. Shading goes out the window 
   <figcaption>Work in progress drawing available on Mix.</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@B_Sheehan](http://twitter.com/B_Sheehan).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@colmsmyth](http://twitter.com/colmsmyth).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-colmsmyth-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-colmsmyth-process-1-600.jpg" alt="Work in process screenshot"></a>

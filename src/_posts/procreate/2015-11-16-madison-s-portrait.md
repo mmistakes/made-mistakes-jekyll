@@ -18,4 +18,4 @@ I still don't own an [iPad Pro or Apple Pencil]({{ site.url }}{% post_url 2015-0
   <figcaption>Time lapse video recorded within Procreate, completed in 6 hours and 8 minutes.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

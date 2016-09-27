@@ -9,6 +9,6 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 PaperFaces portrait of project donator [@aaronrustad](http://twitter.com/aaronrustad).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/zrpoGw7A_hY" frameborder="0"> </iframe>

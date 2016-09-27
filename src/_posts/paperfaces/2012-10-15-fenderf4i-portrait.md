@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@fenderf4i](http://twitter.com/fenderf4i).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

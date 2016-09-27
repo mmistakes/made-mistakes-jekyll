@@ -22,4 +22,4 @@ I'm sure it's nowhere close to the responsiveness one experiences with Apple's P
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-{% include boilerplate/procreate-2.html %}
+{% include boilerplate/procreate-2.md %}

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@brackin](http://twitter.com/brackin).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

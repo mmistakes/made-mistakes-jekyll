@@ -9,7 +9,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait commissioned by <a href="http://twitter.com/sakkaden">@sakkaden</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-sakkaden-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sakkaden-process-1-750.jpg" alt="Work in process screenshot"></a>

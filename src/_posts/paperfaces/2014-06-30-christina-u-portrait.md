@@ -14,7 +14,7 @@ I'll say this about cloudscapes, they're a million times easier to draw than por
 
 I can see why they're a popular subject for Paper creators.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-christina-u-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-christina-u-process-1-600.jpg" alt="Work in process screenshot"></a>

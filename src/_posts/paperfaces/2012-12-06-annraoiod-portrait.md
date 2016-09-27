@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@AnnraoiOD](http://twitter.com/AnnraoiOD).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

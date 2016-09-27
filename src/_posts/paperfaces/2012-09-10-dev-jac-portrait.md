@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@dev_jac](http://twitter.com/dev_jac).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

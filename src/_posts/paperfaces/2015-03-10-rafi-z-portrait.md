@@ -24,4 +24,4 @@ Another experiment in recording my drawing process using on iPad, recorded with 
   <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-5.html %}
+{% include boilerplate/paperfaces-5.md %}

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, Mix]
 
 PaperFaces portrait commission that is available for [remixing on Mix](https://mix.fiftythree.com/11098-Michael-Rose/147204).
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-beer-pretzel-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-beer-pretzel-process-1-600.jpg" alt="Work in process screenshot"></a>

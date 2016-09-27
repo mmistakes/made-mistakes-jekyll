@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@neikura](http://twitter.com/neikura).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

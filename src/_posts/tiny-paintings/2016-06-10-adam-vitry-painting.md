@@ -23,4 +23,4 @@ Final painting measures 1.5\" x 1.5\".
   <figcaption>2 hours of painting condensed into 30 seconds.</figcaption>
 </figure>
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@manjumadhav93](http://twitter.com/manjumadhav93).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

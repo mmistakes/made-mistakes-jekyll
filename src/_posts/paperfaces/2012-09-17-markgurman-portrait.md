@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@markgurman](http://twitter.com/markgurman).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

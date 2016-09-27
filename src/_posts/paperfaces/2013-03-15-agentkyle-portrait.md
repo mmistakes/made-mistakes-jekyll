@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@AgentKyle](http://twitter.com/AgentKyle).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

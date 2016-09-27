@@ -11,4 +11,4 @@ A scene from **Only God Forgives**. If you enjoyed the elevator scene from **Dri
 
 PaperFaces portrait of Ryan Gosling.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}

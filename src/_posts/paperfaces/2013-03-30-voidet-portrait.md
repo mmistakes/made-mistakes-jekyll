@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@voidet](http://twitter.com/voidet).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

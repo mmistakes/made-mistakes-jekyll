@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@anniejz](http://twitter.com/anniejz).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

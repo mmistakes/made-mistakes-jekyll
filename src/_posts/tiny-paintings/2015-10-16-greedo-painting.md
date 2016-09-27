@@ -18,4 +18,4 @@ Final painting measures 1.5\" x 1.5\". Patience is one thing I struggle with whe
   <figcaption>Sketching everything out before painting.</figcaption>
 </figure>
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

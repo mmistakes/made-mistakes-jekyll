@@ -9,4 +9,4 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@andrew-shaw23](http://twitter.com/andrew-shaw23).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@sidraz](http://twitter.com/sidraz).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-sidraz-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sidraz-process-1-600.jpg" alt="Work in process screenshot"></a>

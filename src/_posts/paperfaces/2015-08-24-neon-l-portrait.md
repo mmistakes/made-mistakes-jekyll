@@ -21,4 +21,4 @@ Once again... faking that bokeh with a few quick swipes of the finger.
   <figcaption>Work in progress drawings are <a href="https://mix.fiftythree.com/11098-Michael-Rose/3957855">available on Mix</a>.</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
