@@ -1,26 +1,25 @@
 ---
-layout: glitch
+layout: splash
 permalink: /
 title: "A Designer's Faux Pas"
 excerpt: "Making stuff one mistake at a time."
+classes:
+  - splash
+  - dark
 ads: false
 ---
 
-<nav class="glitch__menu">
-  <ul>
-    <li><a href="#0" class="overlay__menu-trigger">Skip to Main Menu</a></li>
-  </ul>
-</nav>
+I am just another boring, tattooed, time traveling designer from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad, and playing Xbox. Here you will find a collection of my writing, Paper by FiftyThree tutorials, and other creative endeavors.
+{: .page__excerpt}
 
-<noscript>
-<div class="typed__source">
-  <h1 class="glitch__title">Hello, my name is Michael&nbsp;Rose.</h1>
-  <div class="glitch__excerpt">
-    <p>I am just another boring, tattooed, time traveling designer from Buffalo New York.</p>
-    <p>I enjoy eating chicken wings, <a href="{{ site.url }}/paperfaces/">sketching on an iPad</a>, and playing Xbox.</p>
-    <p>Here you will find a collection of <a href="{{ site.url }}/articles/">my writing</a>, <a href="{{ site.url }}/mastering-paper/">Paper by FiftyThree tutorials</a>, and other <a href="{{ site.url }}/work/">creative endeavors</a>.</p>
-  </div>
+<div class="list">
+  <h3 class="item">
+   <a class="item__title" href="{{ site.url }}/articles/">Blog Articles</a>
+  </h3>
+  <h3 class="item">
+    <a class="item__title" href="{{ site.url }}/mastering-paper/">Mastering Paper</a>
+  </h3>
+  <h3 class="item">
+    <a class="item__title" href="{{ site.url }}/work/">Creative Endeavors</a>
+  </h3>
 </div>
-</noscript>
-
-<span id="js-home-typed" class="typed__dest glitch__excerpt"></span>

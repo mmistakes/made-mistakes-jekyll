@@ -15,3 +15,7 @@ feature:
 ---
 
 {{ page.excerpt | markdownify }}
+
+{% for post in site.categories.work %}
+  {% include archive__item.html %}
+{% endfor %}

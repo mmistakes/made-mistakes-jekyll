@@ -1,15 +1,3 @@
-<footer id="colophon" class="colophon">
-  <nav class="container">
-    <ul class="colophon__menu">
-      {% for link in site.data.navigation.colophon-menu %}
-        {% if link.url contains 'http' %}
-          {% assign domain = '' %}
-          {% else %}
-          {% assign domain = site.url %}
-        {% endif %}
-        <li class="colophon__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-    <p class="colophon__copyright">&#169; {{ site.time | date: '%Y' }} {{ site.owner.name }}, <a href="{{ site.url }}/humans.txt">a real human being</a>. <a href="{{ site.owner.github-repo }}" title="view source on GitHub" rel="nofollow">Hand-crafted</a> with <a href="http://jekyllrb.com/" rel="nofollow">Jekyll</a>.</p>
-  </nav>
+<footer id="footer" class="site__footer">
+  <p class="colophon__copyright">&#169; {{ site.time | date: '%Y' }} {{ site.owner.name }}, <a href="{{ site.url }}/humans.txt">a real human being</a>. <a href="{{ site.owner.github-repo }}" title="view source on GitHub" rel="nofollow">Hand-crafted</a> with <a href="http://jekyllrb.com/" rel="nofollow">Jekyll</a>.</p>
 </footer>

@@ -18,7 +18,5 @@ feature:
 ---
 
 {% for post in site.categories.mastering-paper %}
-  {% if post.featured != true %}
   {% include archive__item.html %}
-  {% endif %}
 {% endfor %}

@@ -131,7 +131,7 @@ defaults:
       path: _posts/articles
       type: posts
     values:
-      layout: article
+      layout: page
       category: articles
       breadcrumbs:
         - label: "Blog Articles"
@@ -142,7 +142,7 @@ defaults:
       path: _posts/mastering-paper
       type: posts
     values:
-      layout: article
+      layout: page
       category: mastering-paper
       breadcrumbs:
         - label: "Mastering Paper by 53"
@@ -153,7 +153,7 @@ defaults:
       path: _posts/paperfaces
       type: posts
     values:
-      layout: article
+      layout: work
       category: paperfaces
       breadcrumbs:
         - label: "PaperFaces Portraits"
@@ -165,7 +165,7 @@ defaults:
       path: _posts/procreate
       type: posts
     values:
-      layout: article
+      layout: work
       category: procreate-paintings
       breadcrumbs:
         - label: "Procreate Paintings"
@@ -177,7 +177,7 @@ defaults:
       path: _posts/tiny-paintings
       type: posts
     values:
-      layout: article
+      layout: work
       category: tiny-paintings
       breadcrumbs:
         - label: "Tiny Paintings"
@@ -189,7 +189,7 @@ defaults:
       path: _posts/work
       type: posts
     values:
-      layout: article
+      layout: page
       category: work
       breadcrumbs:
         - label: "Work"
@@ -200,7 +200,7 @@ defaults:
       path: _faqs
       type: faqs
     values:
-      layout: article
+      layout: page
       breadcrumbs:
         - label: "Frequently Asked Questions"
           url: /faqs/
@@ -211,7 +211,7 @@ defaults:
       path: _pages
       type: pages
     values:
-      layout: article
+      layout: page
 
 
 # Plugin: jekyll-archives

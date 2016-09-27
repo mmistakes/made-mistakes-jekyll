@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Mastering Paper by FiftyThree: Swapping Background Colors"
 modified: 
 categories: mastering-paper

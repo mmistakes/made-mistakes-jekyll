@@ -2,45 +2,34 @@
 layout: default
 ---
 
-{% include masthead.html %}
 {% include browser-upgrade.html %}
 
-<div id="main" role="main">
+<div class="index">
+  <div class="site__logo"><a href="{{ site.url }}">{{ site.title }}</a></div>
+  <div id="main" role="main">
+    <div class="page__wrap" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="description" content="{{ page.excerpt | strip_html }}">
+      {% if page.date %}
+        <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
+      {% endif %}
+      {% if page.modified %}
+        <meta itemprop="dateModified" content="{{ page.modified | date_to_xmlschema }}">
+      {% endif %}
 
-  <header class="container post__header">
-    <h1 class="post__title">{{ page.title }}</h1>
-    {% if page.subtitle %}<h2 class="post__excerpt">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</h2>{% endif %}
-    {% include page__hero.html %}
-    {% include breadcrumbs.html %}
-  </header>
+      <header class="page__header">
+        <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+        {% if page.subtitle %}
+          <p class="page__excerpt">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% endif %}
+      </header>
 
-  {% if page.feature.visible == true %}
-    {% include featured.html %}
-  {% endif %}
+      <div class="page__cover"></div>
 
-  <div class="container post__content">
-
-    {% unless page.fullwidth == true %}<div class="post__inner-wrapper">{% endunless %}
-
-      <section class="post__body">
+      <div class="list">
         {{ content }}
-      </section>
-
-    {% unless page.fullwidth == true %}</div>
-
-    <aside class="post__sidebar sticky">
-      <div class="toc--sidebar"></div>
-      {% include ad.html %}
-    </aside>
-
-    {% endunless %}
-
+      </div>
+    </div>
   </div>
-
-  {% if page.tiles == true %}
-    {% include archive__tiles.html %}
-  {% endif %}
-
 </div>
 
-{% include colophon.html %}
+{% include ad.html %}

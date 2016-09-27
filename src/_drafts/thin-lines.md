@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Paper Quick Tip: Thin Lines"
 modified:
 categories: mastering-paper

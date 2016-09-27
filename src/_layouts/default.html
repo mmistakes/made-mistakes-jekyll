@@ -69,9 +69,7 @@
 
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
-    {% if page.layout == "glitch" %}
-      <style>{% include critical-glitch.css %}</style>
-    {% elsif page.layout == "archive" %}
+    {% if page.layout == "archive" %}
       <style>{% include critical-archive.css %}</style>
     {% else page.layout == "tag_index" %}
       <style>{% include critical-archive.css %}</style>
@@ -101,18 +99,17 @@
 
   </head>
 
-  <body id="0">
+  <body id="0" class="wrap {% if page.classes %}{{ page.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-    {% unless page.layout == "glitch" %}
-      <section>
-        <h2 class="screen-reader-text">Skip links</h2>
-        <ul class="skip-link">
-          <li><a href="#nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-          <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-          <li><a href="#colophon" class="screen-reader-shortcut">Skip to footer</a></li>
-        </ul>
-      </section>
-    {% endunless %}
+    <section>
+      <h2 class="screen-reader-text">Skip links</h2>
+      <ul class="skip-link">
+        <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+        <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+      </ul>
+    </section>
+
+    {% include browser-upgrade.html %}
 
     {{ content }}
 
@@ -120,6 +117,7 @@
       {% include icons.svg %}
     </div>
 
+    {% include colophon.html %}
     {% include scripts.html %}
 
     <!-- QR code -->

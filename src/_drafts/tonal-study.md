@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Paper Quick Tip: Tonal Study"
 modified:
 categories: mastering-paper

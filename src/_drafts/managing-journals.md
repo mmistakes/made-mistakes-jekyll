@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Mastering Paper by 53: Managing Journals and Pages"
 modified:
 categories: mastering-paper
