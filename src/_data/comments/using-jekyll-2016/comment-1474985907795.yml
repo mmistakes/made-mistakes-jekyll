@@ -1,0 +1,6 @@
+message: "Very useful article. Been using Jekyll for a couple of months now. I'm already using a number of the suggestions here such as the `compress.html` layout. The liquid template profiling looks like it would be a great help.\r\n\r\nOn my own site I've implemented [client based search](https://s-knibbs.github.io/blog/2016/08/12/implementing-client-based-search-for-static-site/) functionality to avoid using a service such as Google Custom Search."
+name: Simon Knibbs
+email: 127806b2a9b782e2a064a4de15e4b715
+url: 'https://s-knibbs.github.io/'
+hidden: ''
+date: '2016-09-27T14:18:27.036Z'
