@@ -30,7 +30,7 @@ gulp.task('images', () =>
 
 // feature image resize values
 var options = [
-  { width: 100, upscale: false },
+  { width: 20, upscale: false },
   { width: 320, upscale: false },
   { width: 768, upscale: true },
   { width: 1024, upscale: true },
