@@ -1,15 +1,15 @@
-// // asynchronously load fonts
-// WebFontConfig = {
-//   google: {
-//     families: ['PT Serif:400,400italic,700', 'PT Sans Narrow:400,700']
-//   }
-// };
+// asynchronously load fonts
+WebFontConfig = {
+  google: {
+    families: ['PT Serif:400,400italic,700', 'PT Sans Narrow:400,700']
+  }
+};
 
-// (function(d) {
-//   var wf = d.createElement('script'), s = d.scripts[0];
-//   wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-//   s.parentNode.insertBefore(wf, s);
-// })(document);
+(function(d) {
+  var wf = d.createElement('script'), s = d.scripts[0];
+  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+  s.parentNode.insertBefore(wf, s);
+})(document);
 
 
 $(document).ready(function(){
@@ -86,13 +86,13 @@ $(document).ready(function(){
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
         $('#comment-form-submit').html('Submitted');
-        $('.post__comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
+        $('.page__comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
         showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
       },
       error: function (err) {
         console.log(err);
         $('#comment-form-submit').html('Submit Comment');
-        $('.post__comments-form .js-notice').removeClass('notice--success').addClass('notice--danger');
+        $('.page__comments-form .js-notice').removeClass('notice--success').addClass('notice--danger');
         showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
         $(form).removeClass('disabled');
       }
@@ -102,7 +102,7 @@ $(document).ready(function(){
   });
 
   function showAlert(message) {
-    $('.post__comments-form .js-notice').removeClass('hidden');
-    $('.post__comments-form .js-notice-text').html(message);
+    $('.page__comments-form .js-notice').removeClass('hidden');
+    $('.page__comments-form .js-notice-text').html(message);
   }
 })(jQuery);

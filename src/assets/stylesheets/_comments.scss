@@ -19,7 +19,24 @@
   }
 }
 
+.comment__meta-wrap {
+  border-bottom: 0.25em solid $border-color;
+}
+
 .comment__content {
+
+  > p, > ul, > ol, > figure, > table {
+    margin-bottom: 2em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  li > ul,
+  li > ol {
+    margin-top: 0.5em;
+  }
 
   img {
     max-width: 100%;
@@ -42,4 +59,11 @@
   margin: 0 0 0.25em 0;
   font-size: 1.25em;
   line-height: 1;
+}
+
+/* comment form */
+.page__comments-form {
+  padding: 1em;
+  background-color: $lighter-gray;
+  transition: $global-transition;
 }
