@@ -612,6 +612,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   line-height: 1;
   font-family: Monaco, Consolas, "Lucida Console", monospace; }
   .site__logo a {
+    color: #000;
     text-decoration: none; }
 
 .site__footer {
@@ -1520,6 +1521,20 @@ form ul, form ol, form li {
   .item__image img {
     width: 100%; }
 
+.tag__list {
+  list-style: none;
+  padding-left: 0; }
+  @media (min-width: 48em) {
+    .tag__list {
+      -webkit-column-count: 2;
+         -moz-column-count: 2;
+              column-count: 2; } }
+  @media (min-width: 64em) {
+    .tag__list {
+      -webkit-column-count: 3;
+         -moz-column-count: 3;
+              column-count: 3; } }
+
 /* ==========================================================================
    GOOGLE SEARCH
    ========================================================================== */
@@ -2077,212 +2092,6 @@ h5.review__title {
 .reversefootnote {
   font-weight: bold;
   border-bottom: initial !important; }
-
-/* ==========================================================================
-   SlickMap CSS
-   modified from: https://www.astuteo.com/slickmap/
-   ========================================================================== */
-/* ------------------------------------------------------------
-    NUMBER OF COLUMNS: Adjust #primaryNav li to set the number
-    of columns required in your site map. The default is
-    4 columns (25%). 5 columns would be 20%, 6 columns would
-    be 16.6%, etc.
------------------------------------------------------------- */
-#primaryNav li {
-  width: 25%; }
-
-#primaryNav li ul li {
-  width: 100% !important; }
-
-#primaryNav.col5 li {
-  width: 100%; }
-  @media (min-width: 48em) {
-    #primaryNav.col5 li {
-      width: 20%; } }
-
-/*
-   General styles
-   ========================================================================== */
-.sitemap {
-  width: 100%; }
-  .sitemap a {
-    text-decoration: none; }
-  .sitemap ol, .sitemap ul {
-    list-style: none;
-    padding-top: 0; }
-  .sitemap li {
-    margin-bottom: 0; }
-
-/*
-   Site Map Styles
-   ========================================================================== */
-/* top level */
-#primaryNav {
-  margin: 0;
-  padding: 0;
-  width: 100%; }
-  @media (min-width: 48em) {
-    #primaryNav {
-      float: left; } }
-
-#primaryNav #home {
-  display: block;
-  float: none;
-  position: relative;
-  z-index: 2;
-  margin-top: 0;
-  padding-bottom: 30px; }
-  @media (min-width: 48em) {
-    #primaryNav #home {
-      background: #f9f9f9 url("../images/L1-left.png") center bottom no-repeat;
-      /* bg on >= medium screens */ } }
-
-#primaryNav li {
-  list-style-type: none;
-  padding: 30px 0;
-  margin-top: -30px; }
-  @media (min-width: 48em) {
-    #primaryNav li {
-      float: left;
-      background: url("../images/L1-center.png") center top no-repeat; } }
-
-#primaryNav li a {
-  margin: 0 20px 0 0;
-  padding: 10px;
-  display: block;
-  font-size: 14px;
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  text-align: center;
-  color: #000;
-  background: #adadad;
-  border: 2px solid #797979;
-  border-radius: 5px;
-  box-shadow: none; }
-
-#primaryNav li a:hover {
-  background-color: #b5b5b5;
-  border-color: #adadad; }
-
-@media (min-width: 48em) {
-  #primaryNav li:last-child {
-    background: url("../images/L1-right.png") center top no-repeat;
-    /* bg on >= medium screens */ } }
-
-@media (min-width: 48em) {
-  #primaryNav > li:last-child a {
-    margin-right: 0;
-    /* remove right margin on last list element */ } }
-
-/* 2nd level */
-#primaryNav li li {
-  width: 100%;
-  clear: left;
-  margin-top: 0;
-  padding: 10px 0 0 0; }
-  @media (min-width: 48em) {
-    #primaryNav li li {
-      background: url("../images/vertical-line.png") center bottom repeat-y;
-      /* bg on >= medium screens */ } }
-
-#primaryNav li li a {
-  background-color: #d6d6d6;
-  border-color: #ababab; }
-
-#primaryNav li li a:hover {
-  background-color: #dadada;
-  border-color: #d6d6d6; }
-
-#primaryNav li li:first-child {
-  padding-top: 30px; }
-
-@media (min-width: 48em) {
-  #primaryNav li li:last-child {
-    background: url("../images/vertical-line.png") center bottom repeat-y;
-    /* bg on >= medium screens */ } }
-
-/* 3rd level */
-#primaryNav li li ul {
-  margin: 10px 0 0 0;
-  padding-bottom: 0;
-  width: 100%;
-  padding: 9px 0 10px 0; }
-  @media (min-width: 48em) {
-    #primaryNav li li ul {
-      float: right; } }
-  @media (min-width: 48em) {
-    #primaryNav li li ul {
-      background: #f9f9f9 url("../images/L3-ul-top.png") center top no-repeat;
-      /* bg on >= medium screens */ } }
-
-#primaryNav li li li {
-  padding: 5px 0; }
-  @media (min-width: 48em) {
-    #primaryNav li li li {
-      background: url("../images/L3-center.png") left center no-repeat;
-      /* bg on >= medium screens */ } }
-
-#primaryNav li li li a {
-  background-color: #eaeaea;
-  border-color: #bbbbbb;
-  font-size: 12px;
-  padding: 5px;
-  width: 80%; }
-  @media (min-width: 48em) {
-    #primaryNav li li li a {
-      float: right; } }
-
-#primaryNav li li li a:hover {
-  background-color: #ececec;
-  border-color: #eaeaea; }
-
-#primaryNav li li li:first-child {
-  padding: 15px 0 5px 0; }
-  @media (min-width: 48em) {
-    #primaryNav li li li:first-child {
-      background: url("../images/L3-li-top.png") left center no-repeat;
-      /* bg on >= medium screens */ } }
-
-@media (min-width: 48em) {
-  #primaryNav li li li:last-child {
-    padding-botom: 0;
-    background: url("../images/L3-bottom.png") left center no-repeat;
-    /* bg on >= medium screens */ } }
-
-/*
-   Utility Navigation
-   ========================================================================== */
-#utilityNav {
-  max-width: 50%;
-  margin-right: 10px; }
-  @media (min-width: 48em) {
-    #utilityNav {
-      float: right; } }
-
-#utilityNav li {
-  margin-bottom: 10px; }
-  @media (min-width: 48em) {
-    #utilityNav li {
-      float: left; } }
-
-#utilityNav li a {
-  margin: 0 10px 0 0;
-  padding: 5px 10px;
-  display: block;
-  border: 2px solid #bbbbbb;
-  font-size: 12px;
-  font-weight: bold;
-  text-align: center;
-  color: black;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #aeaeae; }
-  @media (min-width: 48em) {
-    #utilityNav li a {
-      background: #eaeaea url("../images/white-highlight.png") top left repeat-x;
-      /* bg on >= medium screens */ } }
-
-#utilityNav li a:hover {
-  background-color: #f0f0f0;
-  border-color: #eaeaea; }
 
 /* ==========================================================================
    WEBSITE STYLE GUIDE

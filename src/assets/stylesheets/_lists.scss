@@ -81,3 +81,16 @@
     width: 100%;
   }
 }
+
+.tag__list {
+  list-style: none;
+  padding-left: 0;
+
+  @include breakpoint($medium) {
+    column-count: 2;
+  }
+
+  @include breakpoint($large) {
+    column-count: 3;
+  }
+}
