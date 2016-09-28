@@ -229,7 +229,7 @@
       > a,
       > img {
         @include breakpoint($small) {
-          flex: 1 1 49%;
+          flex-basis: 49%;
           max-width: 49%;
           height: 0%;
         }
@@ -244,7 +244,7 @@
       > a,
       > img {
         @include breakpoint($small) {
-          flex: 1 1 32%;
+          flex-basis: 32%;
           max-width: 32%;
           height: 0%;
         }

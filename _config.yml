@@ -189,7 +189,7 @@ defaults:
       path: _posts/work
       type: posts
     values:
-      layout: page
+      layout: work
       category: work
       breadcrumbs:
         - label: "Work"

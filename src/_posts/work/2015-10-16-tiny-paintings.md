@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 permalink: /tiny-paintings/
 title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."

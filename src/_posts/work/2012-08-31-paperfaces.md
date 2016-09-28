@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 permalink: /paperfaces/
 title: "PaperFaces iPad Project"
 excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."

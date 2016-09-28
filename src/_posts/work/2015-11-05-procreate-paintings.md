@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 permalink: /procreate-paintings/
 title: "Procreate Paintings"
 excerpt: &excerpt "Gallery of portraits digitally painted with [Procreate](http://procreate.si/) on an iPad."

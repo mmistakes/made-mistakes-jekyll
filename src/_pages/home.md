@@ -9,7 +9,7 @@ classes:
 ads: false
 ---
 
-I am just another boring, tattooed, time traveling designer from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad, and playing Xbox. Here you will find a collection of my writing, Paper by FiftyThree tutorials, and other creative endeavors.
+I am just another boring, tattooed, time traveling designer from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad, and playing Xbox.
 {: .page__excerpt}
 
 <div class="list">

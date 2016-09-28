@@ -31,17 +31,6 @@
     }
   }
 
-  a {
-
-    img {
-
-      /* hover state */
-      &:hover {
-        box-shadow: 0 0 10px rgba(#000, 0.5);
-      }
-    }
-  }
-
   img {
     width: 100%;
     height: auto;

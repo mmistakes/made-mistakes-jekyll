@@ -6,7 +6,7 @@
    Typography related variables
    ========================================================================== */
 
-$serif                        : Georgia, Times, serif;
+$serif                        : "PT Serif", serif;
 $sans-serif                   : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 $monospace                    : Monaco, Consolas, "Lucida Console", monospace;
 
@@ -33,19 +33,20 @@ $headline-color               : $gray;
 $background-color             : $lighter-gray;
 $splash-background-color      : $black;
 
-$highlighter-color            : #f3bc15;
+$highlighter-color            : #ffd43b;
 
 $primary-color                : mix($black, $gray, 35%);
-$success-color                : mix($gray, #2ecc71, 15%);
-$warning-color                : mix($gray, #f3bc15, 15%);
-$danger-color                 : mix($gray, #dc081d, 15%);
-$info-color                   : mix($gray, #427ab8, 15%);
+$success-color                : mix($gray, #40c057, 15%);
+$warning-color                : mix($gray, #fcc419, 15%);
+$danger-color                 : mix($gray, #f03e3e, 15%);
+$info-color                   : mix($gray, #1c7cd6, 15%);
 
 $border-color                 : mix($white, $gray, 80%);
 
-$link-color                   : $text-color;
+$link-color                   : $info-color;
 $link-underline-color         : #a9a9a9;
-$link-color-hover             : #000;
+$link-color-hover             : mix($gray, #1862ab, 15%);
+$link-color-visited           : mix($gray, #91a7ff, 35%);
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
@@ -96,11 +97,7 @@ $form-font-size               : $doc-font-size + 0px;
    Code snippet variables
    ========================================================================== */
 
-$code-background              : #002b36;
-$code-border-color            : $border-color;
-$code-border-color-hover      : mix($black, $border-color, 10%);
-$code-border-radius           : $border-radius;
-
+$code-background              : mix($white, $border-color, 75%);
 $inline-code-background       : mix($white, $border-color, 75%);
 
 /*
