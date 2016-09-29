@@ -56,15 +56,18 @@ a:focus {
    ========================================================================== */
 html {
   font-family: "PT Serif", serif;
-  font-size: 90%;
+  font-size: 100%;
   line-height: 1.625;
   color: #333; }
   @media (min-width: 48em) {
     html {
-      font-size: 100%; } }
+      font-size: 115%; } }
   @media (min-width: 64em) {
     html {
-      font-size: 110%; } }
+      font-size: 125%; } }
+  @media (min-width: 90em) {
+    html {
+      font-size: 135%; } }
 
 body {
   margin: 0;
@@ -768,7 +771,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     margin: 2em 0 1em 0;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
   .page__content > p, .page__content > ul, .page__content > ol, .page__content > figure, .page__content > table {
-    margin-bottom: 2em; }
+    margin-bottom: 1.5em; }
   .page__content li {
     margin-bottom: 0.5em; }
   .page__content li > ul,
@@ -1948,7 +1951,7 @@ green     #859900  operators, other keywords
   border-bottom: 0.25em solid #dbdbdb; }
 
 .comment__content > p, .comment__content > ul, .comment__content > ol, .comment__content > figure, .comment__content > table {
-  margin-bottom: 2em; }
+  margin-bottom: 1.5em; }
 
 .comment__content li {
   margin-bottom: 0.5em; }

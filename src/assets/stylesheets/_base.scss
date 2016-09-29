@@ -27,15 +27,20 @@
 
 html {
   font-family: $serif;
-  font-size: 90%;
+  font-size: 100%;
   line-height: 1.625;
   color: #333;
 
   @include breakpoint($medium) {
-    font-size: 100%;
+    font-size: 115%;
   }
+
   @include breakpoint($large) {
-    font-size: 110%;
+    font-size: 125%;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 135%;
   }
 }
 
