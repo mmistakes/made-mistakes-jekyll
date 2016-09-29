@@ -1,11 +1,35 @@
+{% if page.gallery %}
+{% assign gallery = page.gallery %}
+
 <div class="work__gallery">
-  <a class="work__gallery-img" href="https://unsplash.it/640/800?image=112">
-    <img src="https://unsplash.it/320/240?image=112" alt="1">
-  </a>
-  <a class="work__gallery-img" href="https://unsplash.it/640/800?image=100">
-    <img src="https://unsplash.it/320/240?image=100" alt="2">
-  </a>
-  <a class="work__gallery-img" href="https://unsplash.it/640/800?image=120">
-    <img src="https://unsplash.it/320/240?image=120" alt="3">
-  </a>
+  {% for img in gallery %}
+    {% if img.url %}
+      <a class="work__gallery-img" href=
+        {% if img.url contains "://" %}
+          "{{ img.url }}"
+        {% else %}
+          "{{ img.url | prepend: "/assets/images/" | prepend: site.url }}"
+        {% endif %}
+        {% if img.title %}title="{{ img.title }}"{% endif %}
+      >
+        <img src=
+          {% if img.image_path contains "://" %}
+            "{{ img.image_path }}"
+          {% else %}
+            "{{ img.image_path | prepend: "/assets/images/" | prepend: site.url }}"
+          {% endif %}
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      </a>
+    {% else %}
+      <img src=
+        {% if img.image_path contains "://" %}
+          "{{ img.image_path }}"
+        {% else %}
+          "{{ img.image_path | prepend: "/assets/images/" | prepend: site.url }}"
+        {% endif %}
+        alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    {% endif %}
+  {% endfor %}
 </div>
+
+{% endif %}
