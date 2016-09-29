@@ -18,12 +18,12 @@ layout: default
 
       <header class="page__header">
         <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-        {% if page.subtitle %}
-          <p class="page__excerpt">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% if page.excerpt %}
+          <p class="page__excerpt">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
       </header>
 
-      <div class="page__cover"></div>
+      {% include page__hero.html %}
 
       <div class="list">
         {{ content }}

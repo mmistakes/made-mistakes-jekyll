@@ -1,16 +1,15 @@
 ---
-layout: archive
+layout: page
 permalink: /style-guide/
 title: "Style Guide"
 date: 2015-01-28T12:05:57-05:00
 modified: 2015-02-05T10:32:14-05:00
 excerpt: "A handy collection of all the colors, typography, UI patterns, and components used on Made Mistakes."
-fullwidth: true
 ads: false
 share: false
 ---
 
-{{ page.excerpt | markdownify }}
+A handy collection of all the colors, typography, UI patterns, and components used on Made Mistakes.
 
 Where applicable links to a component's Sass partial[^sass] and/or `_include` are provided along with short descriptions of typical usage.
 

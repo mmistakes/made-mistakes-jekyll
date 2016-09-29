@@ -7,9 +7,13 @@
         <h3 class="item__title" itemprop="headline">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
       {% endif %}
       <div class="item__meta">
-        <span class="date published" itemprop="datePublished"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
-        {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-        <span class="archive__item-time"><svg class="icon"><use xlink:href="#icon-stopwatch"></use></svg> {% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
+        {% unless post.work %}
+          <span class="date published" itemprop="datePublished"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+          {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+          <span class="archive__item-time"><svg class="icon"><use xlink:href="#icon-stopwatch"></use></svg> {% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
+        {% else %}
+          <span>{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        {% endunless %}
       </div>
       <div class="item__excerpt" itemprop="text">
         <p>{{ post.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>

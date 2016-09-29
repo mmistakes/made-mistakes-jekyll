@@ -6,7 +6,7 @@ image:
   teaser: hpstr-preview-teaser-2015.png
   thumb: hpstr-preview-th-2015.png
 tags: [Jekyll, web development, open source, GitHub]
-work: "Design &amp; Development"
+work: "Design & Development"
 modified: 2015-01-31
 comments: true
 comments_locked: true

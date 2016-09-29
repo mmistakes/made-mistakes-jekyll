@@ -9,7 +9,7 @@ image:
   teaser: so-simple-theme-teaser-2015.png
   thumb: so-simple-theme-th-2015.png
 tags: [Jekyll, web development, open source, GitHub]
-work: "Design &amp; Development"
+work: "Design & Development"
 comments: true
 comments_locked: true
 ---

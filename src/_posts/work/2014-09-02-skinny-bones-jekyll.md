@@ -6,7 +6,7 @@ image:
   teaser: skinny-bones-preview-teaser.png
   thumb: skinny-bones-preview-th.png
 tags: [Jekyll, web development, open source, GitHub]
-work: "Design &amp; Development"
+work: "Design & Development"
 modified: 2015-05-22T15:11:31-04:00
 comments: true
 comments_locked: true

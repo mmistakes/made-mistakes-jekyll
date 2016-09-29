@@ -7,7 +7,7 @@ image:
   thumb: relic-scout-avatar.png
 modified: 2016-01-25
 tags: [design, logo, 8-bit, website, collectibles]
-work: "Design &amp; Development"
+work: "Design & Development"
 ads: false
 share: false
 ---

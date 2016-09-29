@@ -7,7 +7,7 @@ image:
   feature: minimal-mistakes-3-feature.jpg
   teaser: minimal-mistakes-3-teaser.jpg
 tags: [Jekyll, web development, open source, GitHub]
-work: "Design &amp; Development"
+work: "Design & Development"
 comments: true
 comments_locked: true
 featured: true

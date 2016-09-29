@@ -12,7 +12,7 @@
 
     @include breakpoint($medium) {
       flex-direction: row;
-      align-items: center;
+      align-items: flex-start;
     }
 
     @include breakpoint($medium-wide) {
@@ -39,7 +39,7 @@
 
 .item__title {
   position: relative;
-  margin: 0.5em 0 1em;
+  margin: 0 0 1em;
   font-family: $sans-serif;
   font-size: 1.563em;
   line-height: 1.25;
@@ -71,9 +71,9 @@
 
   @include breakpoint($medium) {
     order: initial;
-    flex-basis: span(25%);
-    max-width: 200px;
-    max-height: 125px;
+    flex-basis: 35%;
+    max-width: 300px;
+    max-height: 190px;
     clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
   }
 

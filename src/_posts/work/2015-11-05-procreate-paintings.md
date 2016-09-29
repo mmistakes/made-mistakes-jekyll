@@ -9,8 +9,6 @@ image:
   teaser: procreate-paintings-teaser.jpg
   thumb: procreate-paintings-150.jpg
 tags: [Procreate, painting, drawing, portrait, illustration]
-fullwidth: true
-featured: 
 ads: false
 work: "Illustration"
 ---
