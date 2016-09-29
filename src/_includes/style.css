@@ -669,7 +669,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       max-width: 70.5882352941%; } }
 
 .page__excerpt {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 1.25em;
   line-height: 1.625; }
@@ -1547,6 +1547,33 @@ form ul, form ol, form li {
       -webkit-column-count: 3;
          -moz-column-count: 3;
               column-count: 3; } }
+
+.nav__list {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 37.5em) {
+    .nav__list {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  .nav__list li {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: 700; }
+  .nav__list a {
+    display: block;
+    padding: 1em 0;
+    color: inherit; }
+    @media (min-width: 37.5em) {
+      .nav__list a {
+        padding: 0 2em 0 0; } }
 
 /* ==========================================================================
    GOOGLE SEARCH
