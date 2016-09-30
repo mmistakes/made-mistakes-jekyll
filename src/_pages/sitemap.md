@@ -3,8 +3,8 @@ layout: archive
 permalink: /sitemap/
 title: "Sitemap"
 date: 2014-12-26
-modified: 2016-09-27T23:23:32-04:00
-excerpt: "A visual sitemap of all the pages on mademistakes.com"
+modified: 2016-09-30T12:45:23-04:00
+excerpt: "An index of all the pages found on mademistakes.com"
 share: false
 ads: false
 ---
