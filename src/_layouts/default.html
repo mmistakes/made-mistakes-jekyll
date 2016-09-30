@@ -70,11 +70,20 @@
     {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
 
     {% if page.layout == "archive" %}
+      <!-- critical-archive.css -->
       <style>{% include critical-archive.css %}</style>
-    {% else page.layout == "tag_index" %}
+    {% elsif page.layout == "tag_index" %}
+      <!-- critical-archive.css -->
       <style>{% include critical-archive.css %}</style>
+    {% elsif page.layout == "splash" %}
+      <!-- critical-splash.css -->
+      <style>{% include critical-splash.css %}</style>
+    {% elsif page.layout == "work" %}
+      <!-- critical-work.css -->
+      <style>{% include critical-work.css %}</style>
     {% else %}
-      <style>{% include critical-article.css %}</style>
+      <!-- critical-page.css -->
+      <style>{% include critical-page.css %}</style>
     {% endif %}
 
     {% include loadcss.html %}
