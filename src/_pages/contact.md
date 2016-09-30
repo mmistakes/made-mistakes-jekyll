@@ -1,8 +1,8 @@
 ---
 permalink: /contact/
-title: "Contact Michael Rose"
+title: "Contact"
 date: 2015-05-22
-modified: 2016-01-05T16:13:31-05:00
+modified: 2016-09-30T15:51:42-04:00
 excerpt: "Preferred methods of sending your questions, inquires, messages, and love letters to me."
 ads: false
 share: false
@@ -17,7 +17,7 @@ If you have a product, service, app, or other opportunity that you feel is a goo
 
 <script>{% include wufoo.js %}</script>
 
-<form id="form1" name="form1" class="wufoo  page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
+<form id="form1" name="form1" class="wufoo" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <ul>
     <li id="foli7" class="notranslate">
       <label class="desc" id="title7" for="Field7">Name </label>
@@ -46,7 +46,7 @@ If you have a product, service, app, or other opportunity that you feel is a goo
     </li>
     <li class="buttons">
       <div>
-        <input id="saveForm" name="saveForm" class="btn" type="submit" value="Send Message" tabindex="5" />
+        <input id="saveForm" name="saveForm" class="btn btn--large" type="submit" value="Send Message" tabindex="5" />
       </div>
     </li>
     <li class="hidden">
