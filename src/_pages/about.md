@@ -60,7 +60,7 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 ## Selected Interviews
 
-* [**The Story of PaperFaces**](http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
+* [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
 * [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
 
 ## Honorable Mentions
