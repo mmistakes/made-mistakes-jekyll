@@ -114,7 +114,7 @@ Perfect for to-do lists, recipes, or adding captions to your ideas and photos. I
   <img src="{{ site.url }}/assets/images/paper-3-text-ideas.jpg" alt="text notes in Paper">
 </figure>
 
-Basic formatting of text can be achieved by [swiping across text](http://blog.fiftythree.com/posts/swipe-to-style) to cycle through styles (Title, Subtitle, Bullet, and Sub-Bullet). You can also **bold**, *italize*, and <s>strikethrough</s> text by selecting it and tapping the right arrow followed by **Style**.
+Basic formatting of text can be achieved by [swiping across text](http://blog.fiftythree.com/posts/swipe-to-style) to cycle through styles (Title, Subtitle, Bullet, and Sub-Bullet). You can also **bold**, *italicize*, and <s>strikethrough</s> text by selecting it and tapping the right arrow followed by **Style**.
 
 <figure>
   <img src="{{ site.url }}/assets/images/paper-3-text-styles.jpg" alt="styling text in Paper">
