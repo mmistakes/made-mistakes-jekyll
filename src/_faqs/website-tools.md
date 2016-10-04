@@ -2,7 +2,7 @@
 title: "What tools do you use to build your website?"
 type: other
 date: 2014-12-07
-modified: 2016-08-29T16:36:26-04:00
+modified: 2016-10-04T11:51:09-04:00
 order: 1
 ---
 
@@ -14,7 +14,6 @@ I've been on a [static site generator]({{ site.url }}{% post_url 2012-03-19-goin
 
 * [**jekyll-sitemap**][sitemap]: silently generates a [sitemaps.org](http://www.sitemaps.org/) compliant sitemap.
 * [**jekyll-archives**][archives]: generates tag archive pages.
-* [**related-posts-jekyll-plugin**][related-posts]: replaces Jekyll's `related_posts` function to use tags to calculate better post relationships.
 * [**jemoji**][jemoji]: adds GitHub-flavored emoji to Jekyll with the use of Liquid tags.
 
 If you're really interested in the specifics of how the site is built I've made its [source available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll) for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% post_url 2014-02-28-jekyll-themes %}) for you to use and abuse --- you're welcome!
@@ -28,9 +27,6 @@ If you're really interested in the specifics of how the site is built I've made 
 [^files]: HTML, CSS, and JavaScript files along with images and other assets needed to render a web page.
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
 [archives]: https://github.com/jekyll/jekyll-archives
-[assets]: https://github.com/jekyll/jekyll-assets
-[related-posts]: https://github.com/toshimaru/jekyll-tagging-related_posts
-[picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
 [media-temple]: http://bit.ly/1Ugg7nN
 [grid-plan]: https://mediatemple.net/webhosting/shared/
 [hover]: https://hover.com/E4nZJYVH

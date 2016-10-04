@@ -8,7 +8,6 @@ This is the source code of Made Mistakes, a personal blog and portfolio built wi
 
 * [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap) (GitHub Pages supported)
 * [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
-* [Jekyll Related Posts](https://github.com/jumanji27/related_posts-jekyll_plugin)
 * [Jemoji](https://github.com/jekyll/jemoji)
 
 ### Images
@@ -157,14 +156,14 @@ also edit the `serve` task to allow it to tunnel via [localtunnel][localtunnel]
 so people outside your local network can view it as well:
 
 ```js
-    // tunnel: true,
+  // tunnel: true,
 ```
 
 You can also change the behavior for how it opens the URL when you run `gulp
 [--prod]`, you can see the options [here][browsersync-open]:
 
 ```js
-    // open: false,
+  // open: false,
 ```
 
 ### `gulp icons`
@@ -218,10 +217,10 @@ copy of the `scripts` gulp task and rename it to `scripts:vendor` and change the
 `gulp.src` files you need:
 
 ```js
-  gulp.src([
-    'bower_components/somelibrary.js/dist/somelibrary.js',
-    'bower_components/otherthing.js/dist/otherthing.js'
-  ])
+gulp.src([
+  'bower_components/somelibrary.js/dist/somelibrary.js',
+  'bower_components/otherthing.js/dist/otherthing.js'
+])
 ```
 
 and then change `.pipe(concat('index.js'))` into
@@ -271,31 +270,10 @@ how to create individual inject tags and inject specific files into them.
 
 ---
 
-### Glitch Pages
-
-The home and 404 error pages are made up of three parts:
-
-1. **Page Content**: [`_pages/home.md`](src/_pages/home.md) and [`_pages/404.md`](src/_pages/404.md).
-
-2. **Glitch Layout**: [`_layouts/glitch.html`](src/_layouts/glitch.html) is a stripped down version of the default layout with the `.masthead` and `.colophon` removed from view. Used for the home and 404 error pages.
-
-3. **Glitch Stylesheet**: [`assets/stylesheets/glitch-critical.scss`](src/assets/stylesheets/glitch-critical.scss) is slimmed down version of the site stylesheet.
-
-The *animated text typing* effect is achieved with [**Typed.js**](http://www.mattboldt.com/demos/typed-js/). Text strings should be modified in `assets/javascripts/glitch.js` and match markup found in [`_pages/home.md`](src/_pages/home.md) and [`_pages/404.md`](src/_pages/404.md).
-
-### Archives
-
-To include the **Featured Posts** widget at the top of an archive page add the following to its YAML Front Matter and customize as necessary. 
-
-```
-feature:
-  visible: true
-  headline: "Featured Articles"
-  category: articles
-```
-
 ### Posts and Pages
 
-By default social sharing and Google AdSense are enabled on all posts and pages. To disable add `share: false` or `ads: false` to the YAML Front Matter.
+By default Google AdSense is enabled on all posts and pages. To disable add `ads: false` to the YAML Front Matter.
 
 Comments are disabled by default. To enable add `comments: true` to the YAML Front Matter.
+
+Preferred method is to add as YAML Front Matter defaults to `_config.yml`.

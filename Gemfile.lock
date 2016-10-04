@@ -35,11 +35,6 @@ GEM
       sass (~> 3.4)
     jekyll-sitemap (0.11.0)
       addressable (~> 2.4.0)
-    jekyll-tagging (1.0.1)
-      ruby-nuggets
-    jekyll-tagging-related_posts (0.2.1)
-      jekyll (~> 3.0)
-      jekyll-tagging (~> 1.0.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     jemoji (0.7.0)
@@ -65,14 +60,11 @@ GEM
     nokogiri (1.6.8-x86-mingw32)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
-    nuggets (1.0.0)
     pkg-config (1.1.7)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)
-    ruby-nuggets (1.0.0)
-      nuggets (= 1.0.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sassy-maps (0.4.0)
@@ -80,6 +72,7 @@ GEM
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -91,8 +84,8 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   jekyll-sitemap
-  jekyll-tagging-related_posts
   jemoji
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.12.5

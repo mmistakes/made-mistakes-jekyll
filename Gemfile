@@ -10,5 +10,4 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jemoji'
   gem 'jekyll-archives'
-  gem 'jekyll-tagging-related_posts'
 end

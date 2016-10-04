@@ -61,7 +61,7 @@ staticman:
 # Jekyll configuration
 
 permalink        : /:categories/:title/
-lsi              : true
+lsi              : false
 future           : false
 show_drafts      : false
 markdown         : kramdown
@@ -104,8 +104,6 @@ exclude:
 gems:
   - jekyll-archives
   - jekyll-sitemap
-  - jekyll-tagging-related_posts
-  - jekyll/tagging
   - jemoji
 
 
