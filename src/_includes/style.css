@@ -1547,6 +1547,8 @@ form ul, form ol, form li {
       -webkit-column-count: 3;
          -moz-column-count: 3;
               column-count: 3; } }
+  .tag__list li {
+    margin-bottom: 0; }
 
 .nav__list {
   list-style: none;

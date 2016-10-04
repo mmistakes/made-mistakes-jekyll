@@ -93,6 +93,10 @@
   @include breakpoint($large) {
     column-count: 3;
   }
+
+  li {
+    margin-bottom: 0;
+  }
 }
 
 .nav__list {
