@@ -26,12 +26,12 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
   <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
 
-{% capture tattoos_caption %}
-My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't.
-{% endcapture %}
 <figure>
-<img src="{{ site.url }}/assets/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
-<figcaption>{{ tattoos_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  <img src="{{ site.url }}/assets/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
+  <figcaption>
+    {% capture tattoos_caption %}My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't.{% endcapture %}
+    {{ tattoos_caption | markdownify | remove: "<p>" | remove: "</p>" }}
+  </figcaption>
 </figure>
 
 ## Contact
