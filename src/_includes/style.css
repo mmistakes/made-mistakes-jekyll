@@ -1962,22 +1962,17 @@ green     #859900  operators, other keywords
    Comments
    ========================================================================== */
 .comment {
-  margin-bottom: 4em; }
+  position: relative;
+  margin-bottom: 4em;
+  padding-left: 4.25em;
+  font-size: 0.8em; }
 
-.comment__meta {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  padding: 0;
+.comment__timestamp {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 0.8em; }
-  .comment__meta a {
+  .comment__timestamp a {
     color: inherit;
     text-decoration: none; }
-
-.comment__meta-wrap {
-  border-bottom: 0.25em solid #dbdbdb; }
 
 .comment__content > p, .comment__content > ul, .comment__content > ol, .comment__content > figure, .comment__content > table {
   margin-bottom: 1.5em; }
@@ -1993,23 +1988,19 @@ green     #859900  operators, other keywords
   max-width: 100%; }
 
 .comment__avatar {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 3.75em;
-          flex: 0 0 3.75em;
-  width: 3.75em;
-  height: 3.75em;
-  margin-right: 1em; }
-
-.comment__author {
-  vertical-align: middle; }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.25em;
+  height: 3.25em; }
 
 .comment__author-name {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   margin: 0 0 0.25em 0;
   font-size: 1.25em;
   line-height: 1; }
+  .comment__author-name a {
+    color: inherit;
+    text-decoration: none; }
 
 /* comment form */
 .page__comments-form {

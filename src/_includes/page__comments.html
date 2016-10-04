@@ -3,7 +3,12 @@
     {% if site.data.comments[page.slug] %}
       <!-- Start static comments -->
       <div id="comments" class="js-comments">
-        <h2 class="page__section-label">Comments</h2>
+        <h2 class="page__section-label">
+          {% if site.data.comments[page.slug].size > 1 %}
+            {{ site.data.comments[page.slug] | size }}
+          {% endif %}
+          Comments
+        </h2>
         {% assign comments = site.data.comments[page.slug] | sort %}
         {% for comment in comments %}
           {% assign avatar = comment[1].avatar %}
@@ -25,7 +30,7 @@
     <form id="comment-form" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
       <fieldset>
         <label for="comment-form-message">Comment<small class="required">*</small> <small>(<a href="https://daringfireball.net/projects/markdown/">Markdown</a> is supported)</small></label>
-        <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+        <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
       </fieldset>
       <fieldset>
         <label for="comment-form-name">Name<small class="required">*</small></label>
