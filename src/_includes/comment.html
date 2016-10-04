@@ -1,4 +1,4 @@
-<article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+<article id="comment-{{ include.index }}" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
   {% if include.avatar %}
     <img class="comment__avatar" src="{{ include.avatar }}" alt="{{ include.name | escape }}" height="50" width="50">
   {% else %}
