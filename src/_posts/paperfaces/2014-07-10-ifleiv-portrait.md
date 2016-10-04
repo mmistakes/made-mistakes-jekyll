@@ -2,9 +2,9 @@
 title: "Get to the choppah"
 excerpt: "PaperFaces portrait of @ifleiv drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ifleiv-twitter-lg.jpg
-  teaser: paperfaces-ifleiv-twitter-teaser.jpg
-  thumb: paperfaces-ifleiv-twitter-150.jpg
+  feature: /assets/images/paperfaces-ifleiv-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-ifleiv-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-ifleiv-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

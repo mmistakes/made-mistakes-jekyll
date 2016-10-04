@@ -2,8 +2,8 @@
 title: "Bashful hair on Sktchy"
 excerpt: "PaperFaces portrait of a Barbara M. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-barbara-m-lg.jpg
-  thumb: paperfaces-barbara-m-150.jpg
+  feature: /assets/images/paperfaces-barbara-m-lg.jpg
+  thumb: /assets/images/paperfaces-barbara-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

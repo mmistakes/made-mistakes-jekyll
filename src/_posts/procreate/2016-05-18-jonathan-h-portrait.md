@@ -3,9 +3,9 @@ title: "Blue and Pink Lights"
 excerpt: "Portrait of Jonathan H. digitally painted with Procreate on an iPad."
 modified: 2016-05-18T10:46:51-04:00
 image: 
-  feature: jonathan-h-procreate-lg.jpg
-  teaser: jonathan-h-procreate-teaser.jpg
-  thumb: jonathan-h-procreate-250.jpg
+  feature: /assets/images/jonathan-h-procreate-lg.jpg
+  teaser: /assets/images/jonathan-h-procreate-teaser.jpg
+  thumb: /assets/images/jonathan-h-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

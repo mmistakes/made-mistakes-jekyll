@@ -2,9 +2,9 @@
 title: "In a gray room"
 excerpt: "PaperFaces portrait of @scoutu drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-scoutu-twitter-lg.jpg
-  teaser: paperfaces-scoutu-twitter-teaser.jpg
-  thumb: paperfaces-scoutu-twitter-150.jpg
+  feature: /assets/images/paperfaces-scoutu-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-scoutu-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-scoutu-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

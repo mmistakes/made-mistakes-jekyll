@@ -2,8 +2,8 @@
 title: "Grayscale mustache"
 excerpt: "PaperFaces portrait of @imnk drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-imnk-twitter-lg.jpg
-  thumb: paperfaces-imnk-twitter-150.jpg
+  feature: /assets/images/paperfaces-imnk-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-imnk-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

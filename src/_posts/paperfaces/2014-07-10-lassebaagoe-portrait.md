@@ -2,9 +2,9 @@
 title: "Four lights"
 excerpt: "PaperFaces portrait of @lassebaagoe drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lassebaagoe-twitter-lg.jpg
-  teaser: paperfaces-lassebaagoe-twitter-teaser.jpg
-  thumb: paperfaces-lassebaagoe-twitter-150.jpg
+  feature: /assets/images/paperfaces-lassebaagoe-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-lassebaagoe-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-lassebaagoe-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

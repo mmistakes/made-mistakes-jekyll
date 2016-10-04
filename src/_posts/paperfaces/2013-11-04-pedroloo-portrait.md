@@ -2,8 +2,8 @@
 title: "Remember kids, always wear your safety belt"
 excerpt: "PaperFaces portrait of @pedroloo drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-pedroloo-twitter-lg.jpg
-  thumb: paperfaces-pedroloo-twitter-150.jpg
+  feature: /assets/images/paperfaces-pedroloo-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-pedroloo-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,8 +2,8 @@
 title: "Couple in front of water"
 excerpt: "PaperFaces portrait of @jamesonroot drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jamesonroot-twitter-lg.jpg
-  thumb: paperfaces-jamesonroot-twitter-150.jpg
+  feature: /assets/images/paperfaces-jamesonroot-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-jamesonroot-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

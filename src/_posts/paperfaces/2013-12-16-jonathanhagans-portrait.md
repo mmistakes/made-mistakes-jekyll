@@ -2,8 +2,8 @@
 title: "Winter faces"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jonathanhagans-twitter-lg.jpg
-  thumb: paperfaces-jonathanhagans-twitter-150.jpg
+  feature: /assets/images/paperfaces-jonathanhagans-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-jonathanhagans-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

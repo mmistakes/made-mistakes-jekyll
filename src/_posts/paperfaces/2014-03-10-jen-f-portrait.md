@@ -2,8 +2,8 @@
 title: "Twinkling lights from Paris"
 excerpt: "PaperFaces portrait of a Jen F. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jen-f-lg.jpg
-  thumb: paperfaces-jen-f-150.jpg
+  feature: /assets/images/paperfaces-jen-f-lg.jpg
+  thumb: /assets/images/paperfaces-jen-f-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

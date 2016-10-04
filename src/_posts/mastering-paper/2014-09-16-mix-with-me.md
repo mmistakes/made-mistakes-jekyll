@@ -4,8 +4,8 @@ modified: 2014-11-25T16:23:24-05:00
 excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring Paper creators easy and fun."
 tags: [Paper by 53, Mix, iPad]
 image:
-  teaser: paper-53-mix-heart-teaser.jpg
-  thumb: paper-53-mix-heart-th.jpg
+  teaser: /assets/images/paper-53-mix-heart-teaser.jpg
+  thumb: /assets/images/paper-53-mix-heart-th.jpg
 comments: true
 ---
 

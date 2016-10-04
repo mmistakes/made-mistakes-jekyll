@@ -2,8 +2,8 @@
 title: "Black and white bangs"
 excerpt: "PaperFaces portrait of Dani O. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-dani-o-lg.jpg
-  thumb: paperfaces-dani-o-150.jpg
+  feature: /assets/images/paperfaces-dani-o-lg.jpg
+  thumb: /assets/images/paperfaces-dani-o-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

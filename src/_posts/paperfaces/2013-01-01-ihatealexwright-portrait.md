@@ -2,8 +2,8 @@
 title: "Furry hat snuggling a Siamese cat"
 excerpt: "PaperFaces portrait of @ihatealexwright drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ihatealexwright-twitter-lg.jpg
-  thumb: paperfaces-ihatealexwright-twitter-150.jpg
+  feature: /assets/images/paperfaces-ihatealexwright-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-ihatealexwright-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

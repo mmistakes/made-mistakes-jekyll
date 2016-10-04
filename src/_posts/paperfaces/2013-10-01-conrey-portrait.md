@@ -2,8 +2,8 @@
 title: "Half a shadow hawk"
 excerpt: "PaperFaces portrait of @conrey drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-conrey-twitter-lg.jpg
-  thumb: paperfaces-conrey-twitter-150.jpg
+  feature: /assets/images/paperfaces-conrey-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-conrey-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

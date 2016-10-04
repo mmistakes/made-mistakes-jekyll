@@ -2,9 +2,9 @@
 title: "Balancing act"
 excerpt: "PaperFaces portrait of @jameswestnz drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jameswestnz-twitter-lg.jpg
-  teaser: paperfaces-jameswestnz-twitter-teaser.jpg
-  thumb: paperfaces-jameswestnz-twitter-150.jpg
+  feature: /assets/images/paperfaces-jameswestnz-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-jameswestnz-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-jameswestnz-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

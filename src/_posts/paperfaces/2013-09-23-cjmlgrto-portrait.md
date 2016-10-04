@@ -2,8 +2,8 @@
 title: "Looking up"
 excerpt: "PaperFaces portrait of @cjmlgrto drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-cjmlgrto-twitter-lg.jpg
-  thumb: paperfaces-cjmlgrto-twitter-150.jpg
+  feature: /assets/images/paperfaces-cjmlgrto-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-cjmlgrto-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

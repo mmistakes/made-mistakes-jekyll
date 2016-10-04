@@ -2,9 +2,9 @@
 title: "You Need a Mouth to Mumble"
 excerpt: "PaperFaces portrait of the Abby B. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-abby-b-lg.jpg
-  teaser: paperfaces-abby-b-teaser.jpg
-  thumb: paperfaces-abby-b-150.jpg
+  feature: /assets/images/paperfaces-abby-b-lg.jpg
+  teaser: /assets/images/paperfaces-abby-b-teaser.jpg
+  thumb: /assets/images/paperfaces-abby-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 

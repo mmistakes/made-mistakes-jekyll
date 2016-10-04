@@ -2,8 +2,8 @@
 title: "Basement dweller"
 excerpt: "PaperFaces portrait of @chappers_ma drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-chappers-ma-twitter-lg.jpg
-  thumb: paperfaces-chappers-ma-twitter-150.jpg
+  feature: /assets/images/paperfaces-chappers-ma-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-chappers-ma-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, texture, beard]
 ---
 

@@ -2,8 +2,8 @@
 title: "Guy and his gal in Washington DC"
 excerpt: "PaperFaces portrait of @nick-aylward drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-nick-aylward-twitter-lg.jpg
-  thumb: paperfaces-nick-aylward-twitter-150.jpg
+  feature: /assets/images/paperfaces-nick-aylward-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-nick-aylward-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

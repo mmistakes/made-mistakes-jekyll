@@ -2,9 +2,9 @@
 title: "Glasses cast shadows"
 excerpt: "PaperFaces portrait of Matt Davey drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-matt-davey-lg.jpg
-  teaser: paperfaces-matt-davey-teaser.jpg
-  thumb: paperfaces-matt-davey-150.jpg
+  feature: /assets/images/paperfaces-matt-davey-lg.jpg
+  teaser: /assets/images/paperfaces-matt-davey-teaser.jpg
+  thumb: /assets/images/paperfaces-matt-davey-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

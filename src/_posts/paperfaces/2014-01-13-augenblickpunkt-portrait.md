@@ -2,8 +2,8 @@
 title: "Bundled up in red"
 excerpt: "PaperFaces portrait of @augenblickpunkt drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-augenblickpunkt-twitter-lg.jpg
-  thumb: paperfaces-augenblickpunkt-twitter-150.jpg
+  feature: /assets/images/paperfaces-augenblickpunkt-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-augenblickpunkt-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 

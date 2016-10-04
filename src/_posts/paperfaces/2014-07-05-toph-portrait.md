@@ -2,9 +2,9 @@
 title: "Off camera glance"
 excerpt: "PaperFaces portrait of @toph drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-toph-twitter-lg.jpg
-  teaser: paperfaces-toph-twitter-teaser.jpg
-  thumb: paperfaces-toph-twitter-150.jpg
+  feature: /assets/images/paperfaces-toph-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-toph-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-toph-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,8 +2,8 @@
 title: "Long locks of curl"
 excerpt: "PaperFaces portrait of @cuteasebutton drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-cuteasebutton-instagram-lg.jpg
-  thumb: paperfaces-cuteasebutton-instagram-150.jpg
+  feature: /assets/images/paperfaces-cuteasebutton-instagram-lg.jpg
+  thumb: /assets/images/paperfaces-cuteasebutton-instagram-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

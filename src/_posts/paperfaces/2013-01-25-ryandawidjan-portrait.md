@@ -2,8 +2,8 @@
 title: "Suit in a landscape"
 excerpt: "PaperFaces portrait of @ryandawidjan drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ryandawidjan-twitter-lg.jpg
-  thumb: paperfaces-ryandawidjan-twitter-150.jpg
+  feature: /assets/images/paperfaces-ryandawidjan-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-ryandawidjan-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

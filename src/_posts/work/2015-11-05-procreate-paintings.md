@@ -6,8 +6,8 @@ excerpt: &excerpt "Gallery of portraits digitally painted with [Procreate](http:
 subtitle: *excerpt
 modified: 2015-11-30T13:04:35-05:00
 image: 
-  teaser: procreate-paintings-teaser.jpg
-  thumb: procreate-paintings-150.jpg
+  teaser: /assets/images/procreate-paintings-teaser.jpg
+  thumb: /assets/images/procreate-paintings-150.jpg
 tags: [Procreate, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"

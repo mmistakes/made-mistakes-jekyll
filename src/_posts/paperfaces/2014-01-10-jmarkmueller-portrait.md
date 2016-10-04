@@ -2,8 +2,8 @@
 title: "Sometimes you need to add blue"
 excerpt: "PaperFaces portrait of @JMarkMueller drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jmarkmueller-twitter-lg.jpg
-  thumb: paperfaces-jmarkmueller-twitter-150.jpg
+  feature: /assets/images/paperfaces-jmarkmueller-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-jmarkmueller-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,8 +2,8 @@
 title: "Riding in cars with yellow and blue hues"
 excerpt: "PaperFaces portrait of @TonyNof drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-tonynof-twitter-lg.jpg
-  thumb: paperfaces-tonynof-twitter-150.jpg
+  feature: /assets/images/paperfaces-tonynof-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-tonynof-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

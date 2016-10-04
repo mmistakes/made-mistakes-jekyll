@@ -2,8 +2,8 @@
 title: "Weathered wood"
 excerpt: "PaperFaces portrait of Kalina B. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-kalina-b-lg.jpg
-  thumb: paperfaces-kalina-b-150.jpg
+  feature: /assets/images/paperfaces-kalina-b-lg.jpg
+  thumb: /assets/images/paperfaces-kalina-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, texture]
 ---
 

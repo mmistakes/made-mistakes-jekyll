@@ -2,9 +2,9 @@
 title: "Blue Green Grin"
 excerpt: "PaperFaces portrait of @vishnugopal drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-vishnugopal-twitter-lg.jpg
-  teaser: paperfaces-vishnugopal-twitter-teaser.jpg
-  thumb: paperfaces-vishnugopal-twitter-150.jpg
+  feature: /assets/images/paperfaces-vishnugopal-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-vishnugopal-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-vishnugopal-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

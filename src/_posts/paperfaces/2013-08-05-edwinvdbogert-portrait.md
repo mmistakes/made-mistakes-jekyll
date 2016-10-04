@@ -2,8 +2,8 @@
 title: "Looks like an airplane window"
 excerpt: "PaperFaces portrait of @edwinvdbogert drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-edwinvdbogert-twitter-lg.jpg
-  thumb: paperfaces-edwinvdbogert-twitter-150.jpg
+  feature: /assets/images/paperfaces-edwinvdbogert-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-edwinvdbogert-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

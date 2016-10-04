@@ -2,8 +2,8 @@
 title: "3/4 view in rust tones"
 excerpt: "PaperFaces portrait of @mandrl drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mandrl-twitter-lg.jpg
-  thumb: paperfaces-mandrl-twitter-150.jpg
+  feature: /assets/images/paperfaces-mandrl-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-mandrl-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

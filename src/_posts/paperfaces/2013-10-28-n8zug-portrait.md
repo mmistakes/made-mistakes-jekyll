@@ -2,8 +2,8 @@
 title: "7 heads, 3 backsides, and one plumber's crack"
 excerpt: "PaperFaces portrait of @n8zug drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-n8zug-twitter-lg.jpg
-  thumb: paperfaces-n8zug-twitter-150.jpg
+  feature: /assets/images/paperfaces-n8zug-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-n8zug-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

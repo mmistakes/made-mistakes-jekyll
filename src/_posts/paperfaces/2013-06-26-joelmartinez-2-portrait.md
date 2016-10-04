@@ -2,8 +2,8 @@
 title: "Wind blowing blue green skies"
 excerpt: "PaperFaces portrait of @joelmartinez drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-joelmartinez-2-twitter-lg.jpg
-  thumb: paperfaces-joelmartinez-2-twitter-150.jpg
+  feature: /assets/images/paperfaces-joelmartinez-2-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-joelmartinez-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard, time lapse]
 ---
 

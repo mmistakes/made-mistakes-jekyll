@@ -2,8 +2,8 @@
 title: "Think Different"
 excerpt: "PaperFaces portrait of Steve Jobs drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-steve-jobs-lg.jpg
-  thumb: paperfaces-steve-jobs-150.jpg
+  feature: /assets/images/paperfaces-steve-jobs-lg.jpg
+  thumb: /assets/images/paperfaces-steve-jobs-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

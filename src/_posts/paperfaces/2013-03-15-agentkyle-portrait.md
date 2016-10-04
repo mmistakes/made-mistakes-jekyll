@@ -2,8 +2,8 @@
 title: "Scuba mask underwater"
 excerpt: "PaperFaces portrait of @AgentKyle drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-agentkyle-twitter-lg.jpg
-  thumb: paperfaces-agentkyle-twitter-150.jpg
+  feature: /assets/images/paperfaces-agentkyle-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-agentkyle-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

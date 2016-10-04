@@ -2,8 +2,8 @@
 title: "Beard by the beach"
 excerpt: "PaperFaces portrait of @andrewbrewer drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-andrewbrewer-twitter-lg.jpg
-  thumb: paperfaces-andrewbrewer-twitter-150.jpg
+  feature: /assets/images/paperfaces-andrewbrewer-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-andrewbrewer-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

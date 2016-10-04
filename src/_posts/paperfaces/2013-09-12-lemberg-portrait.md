@@ -2,8 +2,8 @@
 title: "Eye spy with my golf ball eye"
 excerpt: "PaperFaces portrait of @Lemberg drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lemberg-twitter-lg.jpg
-  thumb: paperfaces-lemberg-twitter-150.jpg
+  feature: /assets/images/paperfaces-lemberg-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-lemberg-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

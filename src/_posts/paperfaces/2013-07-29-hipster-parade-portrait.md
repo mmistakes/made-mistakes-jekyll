@@ -2,8 +2,8 @@
 title: "A gaggle of big headed hipsters"
 excerpt: "PaperFaces portrait of some random hipsters drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-hipsters-lg.jpg
-  thumb: paperfaces-hipsters-150.jpg
+  feature: /assets/images/paperfaces-hipsters-lg.jpg
+  thumb: /assets/images/paperfaces-hipsters-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard, time lapse]
 ---
 

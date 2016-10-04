@@ -2,9 +2,9 @@
 title: "Hint of a Bird’s Wing"
 excerpt: "PaperFaces portrait of @Trollhunden drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-trollhunden-twitter-lg.jpg
-  teaser: paperfaces-trollhunden-twitter-teaser.jpg
-  thumb: paperfaces-trollhunden-twitter-150.jpg
+  feature: /assets/images/paperfaces-trollhunden-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-trollhunden-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-trollhunden-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

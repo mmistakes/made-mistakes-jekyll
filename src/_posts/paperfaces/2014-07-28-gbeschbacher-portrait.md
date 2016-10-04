@@ -2,9 +2,9 @@
 title: "Union Jack"
 excerpt: "PaperFaces portrait of @Gbeschbacher drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-gbeschbacher-twitter-lg.jpg
-  teaser: paperfaces-gbeschbacher-twitter-teaser.jpg
-  thumb: paperfaces-gbeschbacher-twitter-150.jpg
+  feature: /assets/images/paperfaces-gbeschbacher-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-gbeschbacher-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-gbeschbacher-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

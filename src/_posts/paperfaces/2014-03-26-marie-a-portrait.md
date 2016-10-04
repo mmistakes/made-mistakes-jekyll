@@ -2,8 +2,8 @@
 title: "Cousin It"
 excerpt: "PaperFaces portrait of a Marie A. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-marie-a-lg.jpg
-  thumb: paperfaces-marie-a-150.jpg
+  feature: /assets/images/paperfaces-marie-a-lg.jpg
+  thumb: /assets/images/paperfaces-marie-a-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

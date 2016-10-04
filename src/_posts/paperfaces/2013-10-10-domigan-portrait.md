@@ -2,8 +2,8 @@
 title: "Three stars"
 excerpt: "PaperFaces portrait of @domigan drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-domigan-twitter-lg.jpg
-  thumb: paperfaces-domigan-twitter-150.jpg
+  feature: /assets/images/paperfaces-domigan-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-domigan-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,9 +2,9 @@
 title: "Ukulele and bikes"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ukulele-bikes-lg.jpg
-  teaser: paperfaces-ukulele-bikes-teaser.jpg
-  thumb: paperfaces-ukulele-bikes-150.jpg
+  feature: /assets/images/paperfaces-ukulele-bikes-lg.jpg
+  teaser: /assets/images/paperfaces-ukulele-bikes-teaser.jpg
+  thumb: /assets/images/paperfaces-ukulele-bikes-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

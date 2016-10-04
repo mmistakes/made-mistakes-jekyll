@@ -2,9 +2,9 @@
 title: "Chloe, 22 months"
 excerpt: "PaperFaces portrait of my daughter Chloe drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-chloe-winter-lg.jpg
-  teaser: paperfaces-chloe-winter-teaser.jpg
-  thumb: paperfaces-chloe-winter-150.jpg
+  feature: /assets/images/paperfaces-chloe-winter-lg.jpg
+  teaser: /assets/images/paperfaces-chloe-winter-teaser.jpg
+  thumb: /assets/images/paperfaces-chloe-winter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
 ---
 

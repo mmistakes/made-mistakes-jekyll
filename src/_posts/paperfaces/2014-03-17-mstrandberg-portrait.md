@@ -2,8 +2,8 @@
 title: "Thinking"
 excerpt: "PaperFaces portrait of @mstrandberg drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mstrandberg-twitter-lg.jpg
-  thumb: paperfaces-mstrandberg-twitter-150.jpg
+  feature: /assets/images/paperfaces-mstrandberg-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-mstrandberg-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

@@ -2,9 +2,9 @@
 title: "PaperFaces portrait of Boba Fett"
 excerpt: "PaperFaces portrait of Boba Fett drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-boba-fett-lg.jpg
-  teaser: paperfaces-boba-fett-teaser.jpg
-  thumb: paperfaces-boba-fett-150.jpg
+  feature: /assets/images/paperfaces-boba-fett-lg.jpg
+  teaser: /assets/images/paperfaces-boba-fett-teaser.jpg
+  thumb: /assets/images/paperfaces-boba-fett-150.jpg
 tags: [Star Wars, portrait, illustration, Paper by 53, time lapse]
 ---
 

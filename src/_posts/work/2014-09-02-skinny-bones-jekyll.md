@@ -2,9 +2,9 @@
 title: "Skinny Bones, a Jekyll Starter"
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
 image: 
-  feature: skinny-bones-preview-feature.jpg
-  teaser: skinny-bones-preview-teaser.png
-  thumb: skinny-bones-preview-th.png
+  feature: /assets/images/skinny-bones-preview-feature.jpg
+  teaser: /assets/images/skinny-bones-preview-teaser.png
+  thumb: /assets/images/skinny-bones-preview-th.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 modified: 2015-05-22T15:11:31-04:00

@@ -2,9 +2,9 @@
 title: "Grumpy cat"
 excerpt: "PaperFaces portrait of a Duha A. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-duha-a-lg.jpg
-  teaser: paperfaces-duha-a-teaser.jpg
-  thumb: paperfaces-duha-a-150.jpg
+  feature: /assets/images/paperfaces-duha-a-lg.jpg
+  teaser: /assets/images/paperfaces-duha-a-teaser.jpg
+  thumb: /assets/images/paperfaces-duha-a-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

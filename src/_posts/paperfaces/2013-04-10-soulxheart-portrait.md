@@ -2,8 +2,8 @@
 title: "Glasses wearing a pair of headphones"
 excerpt: "PaperFaces portrait of @soulxheart drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-soulxheart-twitter-lg.jpg
-  thumb: paperfaces-soulxheart-twitter-150.jpg
+  feature: /assets/images/paperfaces-soulxheart-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-soulxheart-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

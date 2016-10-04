@@ -3,9 +3,9 @@ title: "Bokeh Behind that Purple"
 excerpt: "PaperFaces portrait of Neon L. drawn with Paper by 53 on an iPad."
 modified: 2015-08-24T11:27:51-05:00
 image: 
-  feature: paperfaces-neon-l-lg.jpg
-  teaser: paperfaces-neon-l-teaser.jpg
-  thumb: paperfaces-neon-l-150.jpg
+  feature: /assets/images/paperfaces-neon-l-lg.jpg
+  teaser: /assets/images/paperfaces-neon-l-teaser.jpg
+  thumb: /assets/images/paperfaces-neon-l-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, bokeh, Mix]
 ---
 

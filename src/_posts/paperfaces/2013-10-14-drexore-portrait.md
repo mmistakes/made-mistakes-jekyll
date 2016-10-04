@@ -2,8 +2,8 @@
 title: "Tilted"
 excerpt: "PaperFaces portrait of @drexore drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-drexore-twitter-lg.jpg
-  thumb: paperfaces-drexore-twitter-150.jpg
+  feature: /assets/images/paperfaces-drexore-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-drexore-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

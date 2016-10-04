@@ -2,8 +2,8 @@
 title: "Not a club"
 excerpt: "PaperFaces portrait of @angel__frias drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-angel-frias-instagram-lg.jpg
-  thumb: paperfaces-angel-frias-instagram-150.jpg
+  feature: /assets/images/paperfaces-angel-frias-instagram-lg.jpg
+  thumb: /assets/images/paperfaces-angel-frias-instagram-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

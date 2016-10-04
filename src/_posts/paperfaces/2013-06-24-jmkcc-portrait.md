@@ -2,8 +2,8 @@
 title: "Look up, the sky is falling"
 excerpt: "PaperFaces portrait of @jmkcc drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jmkcc-twitter-lg.jpg
-  thumb: paperfaces-jmkcc-twitter-150.jpg
+  feature: /assets/images/paperfaces-jmkcc-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-jmkcc-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

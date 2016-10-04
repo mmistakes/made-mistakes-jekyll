@@ -2,9 +2,9 @@
 title: "Architecture in Gray"
 excerpt: "PaperFaces portrait of @und_O drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-und-o-twitter-lg.jpg
-  teaser: paperfaces-und-o-twitter-teaser.jpg
-  thumb: paperfaces-und-o-twitter-150.jpg
+  feature: /assets/images/paperfaces-und-o-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-und-o-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-und-o-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

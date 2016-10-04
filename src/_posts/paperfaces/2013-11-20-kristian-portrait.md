@@ -2,8 +2,8 @@
 title: "Drawing in the shadows"
 excerpt: "PaperFaces portrait of @kristian drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-kristian-twitter-lg.jpg
-  thumb: paperfaces-kristian-twitter-150.jpg
+  feature: /assets/images/paperfaces-kristian-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-kristian-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

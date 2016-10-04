@@ -2,8 +2,8 @@
 title: "Beard at an angle"
 excerpt: "PaperFaces portrait of @lukei4655 drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lukei4655-twitter-lg.jpg
-  thumb: paperfaces-lukei4655-twitter-150.jpg
+  feature: /assets/images/paperfaces-lukei4655-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-lukei4655-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

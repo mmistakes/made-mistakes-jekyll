@@ -2,8 +2,8 @@
 title: "Reflected orange light"
 excerpt: "PaperFaces portrait of Diako M. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-diako-m-lg.jpg
-  thumb: paperfaces-diako-m-150.jpg
+  feature: /assets/images/paperfaces-diako-m-lg.jpg
+  thumb: /assets/images/paperfaces-diako-m-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

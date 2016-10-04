@@ -2,8 +2,8 @@
 title: "Shading hair with blue and magenta"
 excerpt: "PaperFaces portrait of @floraworks drawn with Paper by 53 on an iPad."
 image:   
-  feature: paperfaces-floraworks-twitter-lg.jpg
-  thumb: paperfaces-floraworks-twitter-150.jpg
+  feature: /assets/images/paperfaces-floraworks-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-floraworks-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

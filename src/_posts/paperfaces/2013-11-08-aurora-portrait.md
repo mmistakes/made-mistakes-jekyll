@@ -2,8 +2,8 @@
 title: "Sun dress"
 excerpt: "PaperFaces portrait of Aurora drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-aurora-lg.jpg
-  thumb: paperfaces-aurora-150.jpg
+  feature: /assets/images/paperfaces-aurora-lg.jpg
+  thumb: /assets/images/paperfaces-aurora-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

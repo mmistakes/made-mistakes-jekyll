@@ -2,9 +2,9 @@
 title: "Beer and Pretzel"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-beer-pretzel-lg.jpg
-  teaser: paperfaces-beer-pretzel-teaser.jpg
-  thumb: paperfaces-beer-pretzel-150.jpg
+  feature: /assets/images/paperfaces-beer-pretzel-lg.jpg
+  teaser: /assets/images/paperfaces-beer-pretzel-teaser.jpg
+  thumb: /assets/images/paperfaces-beer-pretzel-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Mix]
 ---
 

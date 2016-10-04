@@ -3,9 +3,9 @@ title: "From Blue to Fuchsia"
 excerpt: "PaperFaces portrait of the Mi Mo drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-mi-mo-lg.jpg
-  teaser: paperfaces-mi-mo-teaser.jpg
-  thumb: paperfaces-mi-mo-150.jpg
+  feature: /assets/images/paperfaces-mi-mo-lg.jpg
+  teaser: /assets/images/paperfaces-mi-mo-teaser.jpg
+  thumb: /assets/images/paperfaces-mi-mo-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 

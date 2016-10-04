@@ -3,9 +3,9 @@ title: "Driving Sunset"
 excerpt: "PaperFaces portrait of the Shannon V. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-shannon-v-lg.jpg
-  teaser: paperfaces-shannon-v-teaser.jpg
-  thumb: paperfaces-shannon-v-150.jpg
+  feature: /assets/images/paperfaces-shannon-v-lg.jpg
+  teaser: /assets/images/paperfaces-shannon-v-teaser.jpg
+  thumb: /assets/images/paperfaces-shannon-v-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, landscape]
 ---
 

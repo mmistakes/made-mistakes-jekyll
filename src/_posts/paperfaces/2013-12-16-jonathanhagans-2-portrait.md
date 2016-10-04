@@ -2,8 +2,8 @@
 title: "Happy family"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jonathanhagans-2-twitter-lg.jpg
-  thumb: paperfaces-jonathanhagans-2-twitter-150.jpg
+  feature: /assets/images/paperfaces-jonathanhagans-2-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-jonathanhagans-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

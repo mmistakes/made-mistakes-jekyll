@@ -22,9 +22,9 @@
 
     <div class="item__image">
       {% if post.image.teaser %}
-        <img src="{{ site.url }}/assets/images/{{ post.image.teaser }}" alt="">
+        <img src="{{ post.image.teaser | prepend: site.url }}" alt="">
       {% else %}
-        <img src="{{ site.url }}/assets/images/{{ site.teaser }}" alt="">
+        <img src="{{ site.teaser | prepend: site.url }}" alt="">
       {% endif %}
     </div>
   </a>

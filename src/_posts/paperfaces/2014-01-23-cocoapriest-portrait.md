@@ -2,8 +2,8 @@
 title: "Details in the sunglasses"
 excerpt: "PaperFaces portrait of @cocoapriest drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-cocoapriest-twitter-lg.jpg
-  thumb: paperfaces-cocoapriest-twitter-150.jpg
+  feature: /assets/images/paperfaces-cocoapriest-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-cocoapriest-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, sepia, beard]
 ---
 

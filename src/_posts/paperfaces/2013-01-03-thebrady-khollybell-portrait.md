@@ -2,8 +2,8 @@
 title: "Batman and his girl"
 excerpt: "PaperFaces portrait of @theBrady and @khollybell drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-thebrady-khollybell-twitter-lg.jpg
-  thumb: paperfaces-thebrady-khollybell-twitter-150.jpg
+  feature: /assets/images/paperfaces-thebrady-khollybell-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-thebrady-khollybell-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

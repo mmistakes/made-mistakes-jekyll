@@ -2,8 +2,8 @@
 title: "A slight grin"
 excerpt: "PaperFaces portrait of @patbits drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-patbits-twitter-lg.jpg
-  thumb: paperfaces-patbits-twitter-150.jpg
+  feature: /assets/images/paperfaces-patbits-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-patbits-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

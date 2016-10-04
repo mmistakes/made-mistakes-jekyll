@@ -4,8 +4,8 @@ permalink: /tiny-paintings/
 title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
 image: 
-  teaser: tiny-paintings-teaser.jpg
-  thumb: tiny-paintings-150.jpg
+  teaser: /assets/images/tiny-paintings-teaser.jpg
+  thumb: /assets/images/tiny-paintings-150.jpg
 tags: [watercolor, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"

@@ -2,9 +2,9 @@
 title: "What Do You See?"
 excerpt: "PaperFaces portrait of @sschuermann drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sschuermann-twitter-lg.jpg
-  teaser: paperfaces-sschuermann-twitter-teaser.jpg
-  thumb: paperfaces-sschuermann-twitter-150.jpg
+  feature: /assets/images/paperfaces-sschuermann-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-sschuermann-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-sschuermann-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, black and white, beard]
 ---
 

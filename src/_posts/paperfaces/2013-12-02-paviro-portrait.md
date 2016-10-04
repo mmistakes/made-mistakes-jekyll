@@ -2,8 +2,8 @@
 title: "Drawing in shadows"
 excerpt: "PaperFaces portrait of @paviro_ drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-paviro-twitter-lg.jpg
-  thumb: paperfaces-paviro-twitter-150.jpg
+  feature: /assets/images/paperfaces-paviro-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-paviro-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 

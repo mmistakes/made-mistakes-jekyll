@@ -4,8 +4,8 @@ headline: "Minimal Mistakes Theme"
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
 modified: 2016-09-05T21:29:43-04:00
 image: 
-  feature: minimal-mistakes-3-feature.jpg
-  teaser: minimal-mistakes-3-teaser.jpg
+  feature: /assets/images/minimal-mistakes-3-feature.jpg
+  teaser: /assets/images/minimal-mistakes-3-teaser.jpg
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 comments: true

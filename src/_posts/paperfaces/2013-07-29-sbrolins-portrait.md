@@ -2,8 +2,8 @@
 title: "Sitting on the beach at sunset"
 excerpt: "PaperFaces portrait of @sbrolins drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sbrolins-twitter-lg.jpg
-  thumb: paperfaces-sbrolins-twitter-150.jpg
+  feature: /assets/images/paperfaces-sbrolins-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sbrolins-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

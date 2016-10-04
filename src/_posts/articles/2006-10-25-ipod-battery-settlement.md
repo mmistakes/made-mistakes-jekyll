@@ -4,7 +4,7 @@ excerpt: "A short update on the status of my iPod 3G battery settlement claim."
 tags: [iPod, Apple, tech geek]
 modified: 2015-12-15
 image:
-  teaser: ipod-battery-settlement-teaser.jpg
+  teaser: /assets/images/ipod-battery-settlement-teaser.jpg
 ---
 
 Last week I finally got an iPod return kit for my busted 3G iPod and dropped it off at DHL. The next day Apple's repair status page informed me that the problem was identified and that I was awaiting a replacement iPod. It has now said the same thing for the past five days:

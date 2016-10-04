@@ -2,8 +2,8 @@
 title: "Jumping really high in the blue sky"
 excerpt: "PaperFaces portrait of @Shinfu drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-shinfu-twitter-lg.jpg
-  thumb: paperfaces-shinfu-twitter-150.jpg
+  feature: /assets/images/paperfaces-shinfu-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-shinfu-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

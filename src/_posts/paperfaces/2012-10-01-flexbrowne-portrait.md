@@ -2,8 +2,8 @@
 title: "Smiling in a dark room, does anyone see you?"
 excerpt: "PaperFaces portrait of @flexbrowne drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-flexbrowne-twitter-lg.jpg
-  thumb: paperfaces-flexbrowne-twitter-150.jpg
+  feature: /assets/images/paperfaces-flexbrowne-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-flexbrowne-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

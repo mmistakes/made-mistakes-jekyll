@@ -2,8 +2,8 @@
 title: "Lower right corner"
 excerpt: "PaperFaces portrait of @talksinmath drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-talksinmath-twitter-lg.jpg
-  thumb: paperfaces-talksinmath-twitter-150.jpg
+  feature: /assets/images/paperfaces-talksinmath-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-talksinmath-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

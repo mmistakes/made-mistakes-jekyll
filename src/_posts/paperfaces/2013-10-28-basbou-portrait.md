@@ -2,8 +2,8 @@
 title: "Can you find the penquin?"
 excerpt: "PaperFaces portrait of @basbou drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-basbou-twitter-lg.jpg
-  thumb: paperfaces-basbou-twitter-150.jpg
+  feature: /assets/images/paperfaces-basbou-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-basbou-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

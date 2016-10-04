@@ -2,8 +2,8 @@
 title: "Kitty on the shoulder"
 excerpt: "PaperFaces portrait of @sendapalic drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sendapalic-twitter-lg.jpg
-  thumb: paperfaces-sendapalic-twitter-150.jpg
+  feature: /assets/images/paperfaces-sendapalic-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sendapalic-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 

@@ -2,8 +2,8 @@
 title: "No eyes, bright red lipstick"
 excerpt: "PaperFaces portrait of @dicappucinos drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-dicappucinos-twitter-lg.jpg
-  thumb: paperfaces-dicappucinos-twitter-150.jpg
+  feature: /assets/images/paperfaces-dicappucinos-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-dicappucinos-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

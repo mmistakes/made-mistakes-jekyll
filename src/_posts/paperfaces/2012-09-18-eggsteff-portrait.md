@@ -2,8 +2,8 @@
 title: "Big sunglasses on the beach"
 excerpt: "PaperFaces portrait of @eggsteff drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-eggsteff-twitter-lg.jpg
-  thumb: paperfaces-eggsteff-twitter-150.jpg
+  feature: /assets/images/paperfaces-eggsteff-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-eggsteff-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,8 +2,8 @@
 title: "War paint"
 excerpt: "PaperFaces portrait of @hbcke drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-hbcke-twitter-lg.jpg
-  thumb: paperfaces-hbcke-twitter-150.jpg
+  feature: /assets/images/paperfaces-hbcke-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-hbcke-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

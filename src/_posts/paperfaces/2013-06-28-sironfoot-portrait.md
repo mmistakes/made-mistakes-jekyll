@@ -2,8 +2,8 @@
 title: "Some sort of furry"
 excerpt: "PaperFaces of @sironfoot's avatar drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sironfoot-twitter-lg.jpg
-  thumb: paperfaces-sironfoot-twitter-150.jpg
+  feature: /assets/images/paperfaces-sironfoot-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sironfoot-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

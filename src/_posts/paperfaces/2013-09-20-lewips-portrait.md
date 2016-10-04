@@ -2,8 +2,8 @@
 title: "Jean Jacket Rocks x2"
 excerpt: "PaperFaces portrait of @lewips drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lewips-twitter-lg.jpg
-  thumb: paperfaces-lewips-twitter-150.jpg
+  feature: /assets/images/paperfaces-lewips-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-lewips-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

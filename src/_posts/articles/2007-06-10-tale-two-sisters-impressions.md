@@ -2,9 +2,9 @@
 title: "Almost the Film Version of Fatal Frame"
 excerpt: "A Korean horror flick that reminded me of the Fatal Frame video game franchise."
 image: 
-  feature: tale-two-sisters-floor-blood-feature.jpg
-  teaser: tale-two-sisters-teaser.jpg
-  thumb: two-sisters-340x340.jpg
+  feature: /assets/images/tale-two-sisters-floor-blood-feature.jpg
+  teaser: /assets/images/tale-two-sisters-teaser.jpg
+  thumb: /assets/images/two-sisters-340x340.jpg
   credit: DVD screengrab from The Movie Database
   creditlink: http://www.themoviedb.org/movie/4552-janghwa-hongryeon
 tags: [foreign, Korean, horror, film, review]

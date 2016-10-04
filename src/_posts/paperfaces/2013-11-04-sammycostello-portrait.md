@@ -2,8 +2,8 @@
 title: "Locked in a pink room"
 excerpt: "PaperFaces portrait of @SammyCostello drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sammycostello-twitter-lg.jpg
-  thumb: paperfaces-sammycostello-twitter-150.jpg
+  feature: /assets/images/paperfaces-sammycostello-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sammycostello-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

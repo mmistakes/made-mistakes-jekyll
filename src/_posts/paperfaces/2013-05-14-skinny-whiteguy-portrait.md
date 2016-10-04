@@ -2,8 +2,8 @@
 title: "Deal with it"
 excerpt: "PaperFaces portrait of @skinny_whiteguy drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-skinny-whiteguy-twitter-lg.jpg
-  thumb: paperfaces-skinny-whiteguy-twitter-150.jpg
+  feature: /assets/images/paperfaces-skinny-whiteguy-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-skinny-whiteguy-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

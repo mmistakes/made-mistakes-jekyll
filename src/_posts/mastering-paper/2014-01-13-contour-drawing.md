@@ -3,9 +3,9 @@ title: "Mastering Paper by FiftyThree: Contour Line Drawing"
 excerpt: "How to use blind contour line drawing and the iPad app Paper by FiftyThree to improve hand eye coordination and observation skills."
 modified: 2015-01-28T09:14:46-05:00
 image: 
-  feature: paper-53-contour-drawing-feature.jpg
-  teaser: paper-53-contour-drawing-teaser.jpg
-  thumb: paper-53-contour-drawing-thumb.jpg
+  feature: /assets/images/paper-53-contour-drawing-feature.jpg
+  teaser: /assets/images/paper-53-contour-drawing-teaser.jpg
+  thumb: /assets/images/paper-53-contour-drawing-thumb.jpg
 tags: [Paper by 53, blind contour, tutorial, drawing, iPad]
 comments: true
 ---

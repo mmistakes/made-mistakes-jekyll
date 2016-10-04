@@ -2,9 +2,9 @@
 title: "Hooded Girl that Hides"
 excerpt: "PaperFaces portrait of the Danya W. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-danya-w-lg.jpg
-  teaser: paperfaces-danya-w-teaser.jpg
-  thumb: paperfaces-danya-w-150.jpg
+  feature: /assets/images/paperfaces-danya-w-lg.jpg
+  teaser: /assets/images/paperfaces-danya-w-teaser.jpg
+  thumb: /assets/images/paperfaces-danya-w-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

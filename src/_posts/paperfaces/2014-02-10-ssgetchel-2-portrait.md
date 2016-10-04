@@ -2,8 +2,8 @@
 title: "A revisit in gray"
 excerpt: "PaperFaces portrait of @ssgetchel drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ssgetchel-2-instagram-lg.jpg
-  thumb: paperfaces-ssgetchel-2-instagram-150.jpg
+  feature: /assets/images/paperfaces-ssgetchel-2-instagram-lg.jpg
+  thumb: /assets/images/paperfaces-ssgetchel-2-instagram-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

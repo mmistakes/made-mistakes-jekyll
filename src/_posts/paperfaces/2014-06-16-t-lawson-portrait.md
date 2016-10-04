@@ -2,9 +2,9 @@
 title: "Zombie face"
 excerpt: "PaperFaces portrait of @T_Lawson drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-t-lawson-twitter-lg.jpg
-  teaser: paperfaces-t-lawson-twitter-teaser.jpg
-  thumb: paperfaces-t-lawson-twitter-150.jpg
+  feature: /assets/images/paperfaces-t-lawson-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-t-lawson-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-t-lawson-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

@@ -2,8 +2,8 @@
 title: "Buttoned up in a sweater"
 excerpt: "PaperFaces portrait of @mifredk drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mifredk-twitter-lg.jpg
-  thumb: paperfaces-mifredk-twitter-150.jpg
+  feature: /assets/images/paperfaces-mifredk-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-mifredk-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

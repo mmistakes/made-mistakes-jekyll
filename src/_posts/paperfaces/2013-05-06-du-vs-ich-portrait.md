@@ -2,8 +2,8 @@
 title: "Long flowing fire hair"
 excerpt: "PaperFaces portrait of @du_vs_ich drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-du-vs-ich-twitter-lg.jpg
-  thumb: paperfaces-du-vs-ich-twitter-150.jpg
+  feature: /assets/images/paperfaces-du-vs-ich-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-du-vs-ich-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

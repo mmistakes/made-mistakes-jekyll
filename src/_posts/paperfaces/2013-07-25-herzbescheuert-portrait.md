@@ -2,8 +2,8 @@
 title: "Intersecting lines and long hair"
 excerpt: "PaperFaces portrait of @herzbescheuert drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-herzbescheuert-twitter-lg.jpg
-  thumb: paperfaces-herzbescheuert-twitter-150.jpg
+  feature: /assets/images/paperfaces-herzbescheuert-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-herzbescheuert-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

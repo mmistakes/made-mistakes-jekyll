@@ -2,8 +2,8 @@
 title: "Lit in profile"
 excerpt: "PaperFaces portrait of @carreteronacho drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-carreteronacho-twitter-lg.jpg
-  thumb: paperfaces-carreteronacho-twitter-150.jpg
+  feature: /assets/images/paperfaces-carreteronacho-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-carreteronacho-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

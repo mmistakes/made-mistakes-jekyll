@@ -2,8 +2,8 @@
 title: "Girl in gray"
 excerpt: "PaperFaces portrait of @sarelrivera drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sarelrivera-twitter-lg.jpg
-  thumb: paperfaces-sarelrivera-twitter-150.jpg
+  feature: /assets/images/paperfaces-sarelrivera-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sarelrivera-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

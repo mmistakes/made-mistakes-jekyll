@@ -2,9 +2,9 @@
 title: "Graduation Two"
 excerpt: "PaperFaces portrait drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-fivepops-2-twitter-lg.jpg
+  feature: /assets/images/paperfaces-fivepops-2-twitter-lg.jpg
   teaser:
-  thumb: paperfaces-fivepops-2-twitter-150.jpg
+  thumb: /assets/images/paperfaces-fivepops-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 

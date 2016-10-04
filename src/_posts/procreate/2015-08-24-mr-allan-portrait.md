@@ -3,9 +3,9 @@ title: "Getting Lost in the Drab"
 excerpt: "Portrait of Mr. Allan, digitally painted with Procreate on an iPad."
 modified: 2015-11-05T16:28:29-05:00
 image: 
-  feature: mr-allan-procreate-lg.jpg
-  teaser: mr-allan-procreate-teaser.jpg
-  thumb: mr-allan-procreate-250.jpg
+  feature: /assets/images/mr-allan-procreate-lg.jpg
+  teaser: /assets/images/mr-allan-procreate-teaser.jpg
+  thumb: /assets/images/mr-allan-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 

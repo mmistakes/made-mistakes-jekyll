@@ -2,9 +2,9 @@
 title: "Red stripe"
 excerpt: "PaperFaces portrait of @gusso drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-gusso-twitter-lg.jpg
-  teaser: paperfaces-gusso-twitter-teaser.jpg
-  thumb: paperfaces-gusso-twitter-150.jpg
+  feature: /assets/images/paperfaces-gusso-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-gusso-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-gusso-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

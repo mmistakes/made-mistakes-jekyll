@@ -2,8 +2,8 @@
 title: "Undercut inspiration"
 excerpt: "PaperFaces portrait of Effy E. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-effy-e-lg.jpg
-  thumb: paperfaces-effy-e-150.jpg
+  feature: /assets/images/paperfaces-effy-e-lg.jpg
+  thumb: /assets/images/paperfaces-effy-e-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

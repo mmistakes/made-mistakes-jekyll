@@ -2,8 +2,8 @@
 title: "Winking, but you can't tell"
 excerpt: "PaperFaces portrait of @idPro drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-idpro-twitter-lg.jpg
-  thumb: paperfaces-idpro-twitter-150.jpg
+  feature: /assets/images/paperfaces-idpro-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-idpro-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

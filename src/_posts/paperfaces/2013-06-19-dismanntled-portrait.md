@@ -2,8 +2,8 @@
 title: "Using your imagination to see a smile"
 excerpt: "PaperFaces portrait of @dismanntled drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-dismanntled-twitter-lg.jpg
-  thumb: paperfaces-dismanntled-twitter-150.jpg
+  feature: /assets/images/paperfaces-dismanntled-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-dismanntled-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, landscape]
 ---
 

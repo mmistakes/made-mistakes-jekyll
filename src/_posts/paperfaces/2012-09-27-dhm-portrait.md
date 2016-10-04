@@ -2,8 +2,8 @@
 title: "Beard and pink hat"
 excerpt: "PaperFaces portrait of @dhm drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-dhm-twitter-lg.jpg
-  thumb: paperfaces-dhm-twitter-150.jpg
+  feature: /assets/images/paperfaces-dhm-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-dhm-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

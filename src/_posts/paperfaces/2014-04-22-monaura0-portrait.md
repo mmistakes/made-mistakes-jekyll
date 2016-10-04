@@ -2,8 +2,8 @@
 title: "Lip lick"
 excerpt: "PaperFaces portrait of @monaura0 drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-monaura0-twitter-lg.jpg
-  thumb: paperfaces-monaura0-twitter-150.jpg
+  feature: /assets/images/paperfaces-monaura0-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-monaura0-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

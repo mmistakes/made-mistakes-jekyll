@@ -2,8 +2,8 @@
 title: "Blood bath"
 excerpt: "PaperFaces portrait of Kim S. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-kim-s-lg.jpg
-  thumb: paperfaces-kim-s-150.jpg
+  feature: /assets/images/paperfaces-kim-s-lg.jpg
+  thumb: /assets/images/paperfaces-kim-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

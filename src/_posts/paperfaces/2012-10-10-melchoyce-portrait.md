@@ -2,8 +2,8 @@
 title: "Surprise face hiding in a sweater"
 excerpt: "PaperFaces portrait of @melchoyce drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-melchoyce-twitter-lg.jpg
-  thumb: paperfaces-melchoyce-twitter-150.jpg
+  feature: /assets/images/paperfaces-melchoyce-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-melchoyce-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

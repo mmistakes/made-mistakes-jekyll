@@ -2,8 +2,8 @@
 title: "Yankees cap"
 excerpt: "PaperFaces portrait of @klikekyle drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-klikekyle-twitter-lg.jpg
-  thumb: paperfaces-klikekyle-twitter-150.jpg
+  feature: /assets/images/paperfaces-klikekyle-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-klikekyle-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

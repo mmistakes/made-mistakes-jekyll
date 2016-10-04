@@ -2,8 +2,8 @@
 title: "Wild and furry"
 excerpt: "PaperFaces portrait of @mattknox drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mattknox-twitter-lg.jpg
-  thumb: paperfaces-mattknox-twitter-150.jpg
+  feature: /assets/images/paperfaces-mattknox-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-mattknox-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

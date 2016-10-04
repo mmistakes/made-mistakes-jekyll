@@ -2,8 +2,8 @@
 title: "Curls in the sun"
 excerpt: "PaperFaces portrait of @sodevious drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sodevious-twitter-lg.jpg
-  thumb: paperfaces-sodevious-twitter-150.jpg
+  feature: /assets/images/paperfaces-sodevious-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sodevious-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

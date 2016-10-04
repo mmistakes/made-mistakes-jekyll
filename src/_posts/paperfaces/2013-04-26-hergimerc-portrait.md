@@ -2,8 +2,8 @@
 title: "Pretty sunset"
 excerpt: "PaperFaces portrait of @hergimerc drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-hergimerc-twitter-lg.jpg
-  thumb: paperfaces-hergimerc-twitter-150.jpg
+  feature: /assets/images/paperfaces-hergimerc-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-hergimerc-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,9 +2,9 @@
 title: "Black tie on white"
 excerpt: "PaperFaces portrait of @claudioguglieri drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-claudioguglieri-twitter-lg.jpg
-  teaser: paperfaces-claudioguglieri-twitter-teaser.jpg
-  thumb: paperfaces-claudioguglieri-twitter-150.jpg
+  feature: /assets/images/paperfaces-claudioguglieri-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-claudioguglieri-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-claudioguglieri-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

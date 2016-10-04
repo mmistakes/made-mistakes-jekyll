@@ -3,9 +3,9 @@ title: "Going somewhere, Solo?"
 excerpt: "Tiny portrait of Greedo painted with watercolor on hot press paper."
 modified: 2015-11-16T11:22:13-05:00
 image: 
-  feature: painting-greedo-lg.jpg
-  teaser: painting-greedo-teaser.jpg
-  thumb: painting-greedo-250.jpg
+  feature: /assets/images/painting-greedo-lg.jpg
+  teaser: /assets/images/painting-greedo-teaser.jpg
+  thumb: /assets/images/painting-greedo-250.jpg
 tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 

@@ -2,8 +2,8 @@
 title: "Green bokeh"
 excerpt: "PaperFaces portrait of @manzu drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-manzu-twitter-lg.jpg
-  thumb: paperfaces-manzu-twitter-150.jpg
+  feature: /assets/images/paperfaces-manzu-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-manzu-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 

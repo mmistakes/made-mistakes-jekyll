@@ -2,9 +2,9 @@
 title: "Lego Man"
 excerpt: "PaperFaces portrait of @yorgle drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-yorgle-twitter-lg.jpg
-  teaser: paperfaces-yorgle-twitter-teaser.jpg
-  thumb: paperfaces-yorgle-twitter-150.jpg
+  feature: /assets/images/paperfaces-yorgle-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-yorgle-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-yorgle-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

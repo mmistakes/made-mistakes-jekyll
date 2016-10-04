@@ -2,8 +2,8 @@
 title: "Neon look of blue and green"
 excerpt: "PaperFaces portrait of @hepikkat drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-hepikkat-twitter-lg.jpg
-  thumb: paperfaces-hepikkat-twitter-150.jpg
+  feature: /assets/images/paperfaces-hepikkat-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-hepikkat-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

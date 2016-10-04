@@ -4,9 +4,9 @@ modified:
 excerpt: "Discover the secrets of Paper by FifyThree's newly updated watercolor brush in this short tutorial and video."
 tags: [Paper by 53, tutorial, painting, iPad]
 image:
-  feature: paper-53-watercolor-brush-feature.jpg
-  teaser: paper-53-watercolor-brush-teaser.jpg
-  thumb: paper-53-watercolor-brush-th.jpg
+  feature: /assets/images/paper-53-watercolor-brush-feature.jpg
+  teaser: /assets/images/paper-53-watercolor-brush-teaser.jpg
+  thumb: /assets/images/paper-53-watercolor-brush-th.jpg
 comments: true
 ---
 

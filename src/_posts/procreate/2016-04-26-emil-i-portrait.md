@@ -3,9 +3,9 @@ title: "Watercolor, Not Watercolor"
 excerpt: "Portrait of Emil I. digitally painted with Procreate on an iPad."
 modified: 2016-07-05T11:17:57-04:00
 image: 
-  feature: emil-i-procreate-lg.jpg
-  teaser: emil-i-procreate-teaser.jpg
-  thumb: emil-i-procreate-250.jpg
+  feature: /assets/images/emil-i-procreate-lg.jpg
+  teaser: /assets/images/emil-i-procreate-teaser.jpg
+  thumb: /assets/images/emil-i-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

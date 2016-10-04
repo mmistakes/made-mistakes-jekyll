@@ -2,8 +2,8 @@
 title: "Long hair in a dark room"
 excerpt: "PaperFaces portrait of @mishcrashh drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mishcrashh-twitter-lg.jpg
-  thumb: paperfaces-mishcrashh-twitter-150.jpg
+  feature: /assets/images/paperfaces-mishcrashh-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-mishcrashh-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

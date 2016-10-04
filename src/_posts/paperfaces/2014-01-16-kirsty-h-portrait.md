@@ -2,8 +2,8 @@
 title: "Semi erased"
 excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-kirsty-h-lg.jpg
-  thumb: paperfaces-kirsty-h-150.jpg
+  feature: /assets/images/paperfaces-kirsty-h-lg.jpg
+  thumb: /assets/images/paperfaces-kirsty-h-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

@@ -3,9 +3,9 @@ title: "Right Amount of Beard Sparkle"
 excerpt: "Portrait of Rakso S. digitally painted with Procreate on an iPad."
 modified: 2016-01-25T16:15:06-05:00
 image: 
-  feature: rakso-s-procreate-lg.jpg
-  teaser: rakso-s-procreate-teaser.jpg
-  thumb: rakso-s-procreate-250.jpg
+  feature: /assets/images/rakso-s-procreate-lg.jpg
+  teaser: /assets/images/rakso-s-procreate-teaser.jpg
+  thumb: /assets/images/rakso-s-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy, black and white]
 ---
 

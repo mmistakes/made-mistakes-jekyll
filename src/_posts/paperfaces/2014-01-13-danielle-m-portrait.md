@@ -2,8 +2,8 @@
 title: "Mirrored faces"
 excerpt: "PaperFaces portrait of Danielle M. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-danielle-m-lg.jpg
-  thumb: paperfaces-danielle-m-150.jpg
+  feature: /assets/images/paperfaces-danielle-m-lg.jpg
+  thumb: /assets/images/paperfaces-danielle-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

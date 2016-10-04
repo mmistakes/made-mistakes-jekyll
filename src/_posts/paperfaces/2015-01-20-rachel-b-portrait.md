@@ -3,9 +3,9 @@ title: "See Right Through Me"
 excerpt: "PaperFaces portrait of the Rachel B. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-rachel-b-lg.jpg
-  teaser: paperfaces-rachel-b-teaser.jpg
-  thumb: paperfaces-rachel-b-150.jpg
+  feature: /assets/images/paperfaces-rachel-b-lg.jpg
+  teaser: /assets/images/paperfaces-rachel-b-teaser.jpg
+  thumb: /assets/images/paperfaces-rachel-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 

@@ -2,8 +2,8 @@
 title: "Beard over the shoulder"
 excerpt: "PaperFaces portrait of @matthewrex drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-matthewrex-twitter-lg.jpg
-  thumb: paperfaces-matthewrex-twitter-150.jpg
+  feature: /assets/images/paperfaces-matthewrex-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-matthewrex-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

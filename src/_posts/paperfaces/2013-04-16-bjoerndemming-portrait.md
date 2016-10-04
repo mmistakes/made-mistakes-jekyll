@@ -2,8 +2,8 @@
 title: "In shadow on an overcast day"
 excerpt: "PaperFaces portrait of @bjoerndemming drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-bjoerndemming-twitter-lg.jpg
-  thumb: paperfaces-bjoerndemming-twitter-150.jpg
+  feature: /assets/images/paperfaces-bjoerndemming-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-bjoerndemming-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

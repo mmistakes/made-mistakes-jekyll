@@ -2,8 +2,8 @@
 title: "Goatee at the wall"
 excerpt: "PaperFaces portrait of @calebd drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-calebd-twitter-lg.jpg
-  thumb: paperfaces-calebd-twitter-150.jpg
+  feature: /assets/images/paperfaces-calebd-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-calebd-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

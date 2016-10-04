@@ -2,8 +2,8 @@
 title: "Blizzard protection"
 excerpt: "PaperFaces portrait of Megan G. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-megan-g-lg.jpg
-  thumb: paperfaces-megan-g-150.jpg
+  feature: /assets/images/paperfaces-megan-g-lg.jpg
+  thumb: /assets/images/paperfaces-megan-g-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 ---
 

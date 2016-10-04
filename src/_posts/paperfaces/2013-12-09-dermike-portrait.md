@@ -2,8 +2,8 @@
 title: "Afterglow face blurs"
 excerpt: "PaperFaces portrait of @dermike drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-dermike-twitter-lg.jpg
-  thumb: paperfaces-dermike-twitter-150.jpg
+  feature: /assets/images/paperfaces-dermike-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-dermike-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 

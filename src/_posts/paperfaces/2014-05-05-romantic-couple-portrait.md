@@ -2,8 +2,8 @@
 title: "Hand on hand"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-romantic-couple-lg.jpg
-  thumb: paperfaces-romantic-couple-150.jpg
+  feature: /assets/images/paperfaces-romantic-couple-lg.jpg
+  thumb: /assets/images/paperfaces-romantic-couple-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

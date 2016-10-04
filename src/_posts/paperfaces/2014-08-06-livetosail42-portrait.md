@@ -2,9 +2,9 @@
 title: "Isn’t Easy Being Green"
 excerpt: "PaperFaces portrait of @livetosail42 drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-livetosail42-twitter-lg.jpg
-  teaser: paperfaces-livetosail42-twitter-teaser.jpg
-  thumb: paperfaces-livetosail42-twitter-150.jpg
+  feature: /assets/images/paperfaces-livetosail42-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-livetosail42-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-livetosail42-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

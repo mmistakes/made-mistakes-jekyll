@@ -3,8 +3,8 @@ title: "Paper by FiftyThree Quick Tip: Switching Tools"
 excerpt: "Switching tools in Paper by FiftyThree may seem obvious to you pros out there, but you'd be surprised how often I'm asked how to do it. Here's the answer."
 tags: [Paper by 53, iPad, tutorial]
 image:
-  feature: paper-53-full-tools.jpg
-  teaser: paper-53-switch-tools-teaser.jpg
+  feature: /assets/images/paper-53-full-tools.jpg
+  teaser: /assets/images/paper-53-switch-tools-teaser.jpg
 comments: true
 modified: 2016-05-17T08:10:05-04:00
 ---

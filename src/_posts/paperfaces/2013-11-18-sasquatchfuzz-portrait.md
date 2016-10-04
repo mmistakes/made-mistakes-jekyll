@@ -2,8 +2,8 @@
 title: "All snuggled up"
 excerpt: "PaperFaces portrait of @SasquatchFuzz drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sasquatchfuzz-twitter-lg.jpg
-  thumb: paperfaces-sasquatchfuzz-twitter-150.jpg
+  feature: /assets/images/paperfaces-sasquatchfuzz-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sasquatchfuzz-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

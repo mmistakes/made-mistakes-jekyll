@@ -2,8 +2,8 @@
 title: "Water pistol"
 excerpt: "PaperFaces portrait of @d_agostino drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-d-agostino-twitter-lg.jpg
-  thumb: paperfaces-d-agostino-twitter-150.jpg
+  feature: /assets/images/paperfaces-d-agostino-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-d-agostino-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

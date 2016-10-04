@@ -2,8 +2,8 @@
 title: "Invisibility is a white shirt on a white wall"
 excerpt: "PaperFaces portrait of @spasstiii drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-spasstiii-twitter-lg.jpg
-  thumb: paperfaces-spasstiii-twitter-150.jpg
+  feature: /assets/images/paperfaces-spasstiii-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-spasstiii-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

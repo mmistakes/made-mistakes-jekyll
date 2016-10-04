@@ -2,8 +2,8 @@
 title: "Not by the hair on my chinny chin chin"
 excerpt: "PaperFaces portrait of @Madcap_Laughs drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-madcap-laughs-twitter-lg.jpg
-  thumb: paperfaces-madcap-laughs-twitter-150.jpg
+  feature: /assets/images/paperfaces-madcap-laughs-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-madcap-laughs-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

@@ -2,8 +2,8 @@
 title: "Faking light leakages and green hats"
 excerpt: "PaperFaces portrait of @m7z drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-m7z-twitter-lg.jpg
-  thumb: paperfaces-m7z-twitter-150.jpg
+  feature: /assets/images/paperfaces-m7z-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-m7z-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

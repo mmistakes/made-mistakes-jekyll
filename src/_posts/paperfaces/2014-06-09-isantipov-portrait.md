@@ -2,9 +2,9 @@
 title: "Smoke if ya got ’em"
 excerpt: "PaperFaces portrait of @Isantipov drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-isantipov-twitter-lg.jpg
-  teaser: paperfaces-isantipov-twitter-teaser.jpg
-  thumb: paperfaces-isantipov-twitter-150.jpg
+  feature: /assets/images/paperfaces-isantipov-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-isantipov-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-isantipov-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

@@ -5,8 +5,8 @@ title: "PaperFaces iPad Project"
 excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."
 modified: 2015-11-30T13:04:16-05:00
 image: 
-  thumb: paperfaces-project-250x250.jpg
-  teaser: paperfaces-asja-k-teaser.jpg
+  thumb: /assets/images/paperfaces-project-250x250.jpg
+  teaser: /assets/images/paperfaces-asja-k-teaser.jpg
 tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]
 fullwidth: true
 featured: true

@@ -2,9 +2,9 @@
 title: "Wall of light"
 excerpt: "PaperFaces portrait of Efox Angel drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-efox-angel-lg.jpg
-  teaser: paperfaces-efox-angel-teaser.jpg
-  thumb: paperfaces-efox-angel-150.jpg
+  feature: /assets/images/paperfaces-efox-angel-lg.jpg
+  teaser: /assets/images/paperfaces-efox-angel-teaser.jpg
+  thumb: /assets/images/paperfaces-efox-angel-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

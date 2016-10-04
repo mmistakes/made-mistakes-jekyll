@@ -2,8 +2,8 @@
 title: "Killer clown"
 excerpt: "PaperFaces portrait of a killer clown drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-killer-clown-lg.jpg
-  thumb: paperfaces-killer-clown-150.jpg
+  feature: /assets/images/paperfaces-killer-clown-lg.jpg
+  thumb: /assets/images/paperfaces-killer-clown-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 ---
 

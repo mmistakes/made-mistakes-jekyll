@@ -2,8 +2,8 @@
 title: "Pew Pew Pew!"
 excerpt: "PaperFaces portrait of @NatRaybould drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-natraybould-twitter-lg.jpg
-  thumb: paperfaces-natraybould-twitter-150.jpg
+  feature: /assets/images/paperfaces-natraybould-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-natraybould-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

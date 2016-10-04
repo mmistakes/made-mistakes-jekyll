@@ -2,8 +2,8 @@
 title: "Geometry down the hall"
 excerpt: "PaperFaces portrait of @TheBrendanBrown drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-thebrendanbrown-twitter-lg.jpg
-  thumb: paperfaces-thebrendanbrown-twitter-150.jpg
+  feature: /assets/images/paperfaces-thebrendanbrown-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-thebrendanbrown-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

@@ -2,8 +2,8 @@
 title: "Long hair in violet"
 excerpt: "PaperFaces portrait of @amy_lew drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-amy-lew-twitter-lg.jpg
-  thumb: paperfaces-amy-lew-twitter-150.jpg
+  feature: /assets/images/paperfaces-amy-lew-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-amy-lew-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

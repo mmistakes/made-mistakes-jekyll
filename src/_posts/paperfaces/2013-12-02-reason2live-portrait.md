@@ -2,8 +2,8 @@
 title: "Reason 2 Live"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-reason2live-lg.jpg
-  thumb: paperfaces-reason2live-150.jpg
+  feature: /assets/images/paperfaces-reason2live-lg.jpg
+  thumb: /assets/images/paperfaces-reason2live-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

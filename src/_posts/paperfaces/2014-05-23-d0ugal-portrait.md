@@ -2,8 +2,8 @@
 title: "Cloud and moutain pr0n"
 excerpt: "PaperFaces portrait of @d0ugal drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-d0ugal-twitter-lg.jpg
-  thumb: paperfaces-d0ugal-twitter-150.jpg
+  feature: /assets/images/paperfaces-d0ugal-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-d0ugal-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

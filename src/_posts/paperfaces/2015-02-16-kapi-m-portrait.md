@@ -3,9 +3,9 @@ title: "Oh Eye Dunno"
 excerpt: "PaperFaces portrait of the Kapi M. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-kapi-m-lg.jpg
-  teaser: paperfaces-kapi-m-teaser.jpg
-  thumb: paperfaces-kapi-m-150.jpg
+  feature: /assets/images/paperfaces-kapi-m-lg.jpg
+  teaser: /assets/images/paperfaces-kapi-m-teaser.jpg
+  thumb: /assets/images/paperfaces-kapi-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, eye, blend]
 ---
 

@@ -2,9 +2,9 @@
 title: "Focusing on the glasses"
 excerpt: "PaperFaces portrait of @appinator drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-appinator-twitter-lg.jpg
-  teaser: paperfaces-appinator-twitter-teaser.jpg
-  thumb: paperfaces-appinator-twitter-150.jpg
+  feature: /assets/images/paperfaces-appinator-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-appinator-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-appinator-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, blend, bokeh]
 ---
 

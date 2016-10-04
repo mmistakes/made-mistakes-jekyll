@@ -2,8 +2,8 @@
 title: "Lady in red"
 excerpt: "PaperFaces portrait of @Fitt_Kimberley drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-fitt-kimberley-twitter-lg.jpg
-  thumb: paperfaces-fitt-kimberley-twitter-150.jpg
+  feature: /assets/images/paperfaces-fitt-kimberley-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-fitt-kimberley-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

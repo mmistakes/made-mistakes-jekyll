@@ -2,9 +2,9 @@
 title: "Foliage lurking in the dark"
 excerpt: "PaperFaces portrait of David McC. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-david-mc-lg.jpg
-  teaser: paperfaces-david-mc-teaser.jpg
-  thumb: paperfaces-david-mc-150.jpg
+  feature: /assets/images/paperfaces-david-mc-lg.jpg
+  teaser: /assets/images/paperfaces-david-mc-teaser.jpg
+  thumb: /assets/images/paperfaces-david-mc-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

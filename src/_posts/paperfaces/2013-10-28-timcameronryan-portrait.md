@@ -2,8 +2,8 @@
 title: "Overlooking red"
 excerpt: "PaperFaces portrait of @timcameronryan drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-timcameronryan-twitter-lg.jpg
-  thumb: paperfaces-timcameronryan-twitter-150.jpg
+  feature: /assets/images/paperfaces-timcameronryan-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-timcameronryan-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

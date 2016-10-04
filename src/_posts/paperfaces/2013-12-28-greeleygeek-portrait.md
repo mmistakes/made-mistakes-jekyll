@@ -2,8 +2,8 @@
 title: "Half peekaboo"
 excerpt: "PaperFaces portrait of @greeleygeek drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-greeleygeek-twitter-lg.jpg
-  thumb: paperfaces-greeleygeek-twitter-150.jpg
+  feature: /assets/images/paperfaces-greeleygeek-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-greeleygeek-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

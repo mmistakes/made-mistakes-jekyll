@@ -2,9 +2,9 @@
 title: "A pixelated hoodie and face"
 excerpt: "PaperFaces portrait of @Glitchpoke drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-glitchpoke-twitter-lg.jpg
-  teaser: paperfaces-glitchpoke-twitter-teaser.jpg
-  thumb: paperfaces-glitchpoke-twitter-150.jpg
+  feature: /assets/images/paperfaces-glitchpoke-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-glitchpoke-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-glitchpoke-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, 8-bit]
 ---
 

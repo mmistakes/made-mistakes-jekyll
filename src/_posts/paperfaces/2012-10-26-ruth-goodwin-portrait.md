@@ -2,8 +2,8 @@
 title: "Long hair spathetti straps"
 excerpt: "PaperFaces portrait of @Ruth_Goodwin drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ruth-goodwin-twitter-lg.jpg
-  thumb: paperfaces-ruth-goodwin-twitter-150.jpg
+  feature: /assets/images/paperfaces-ruth-goodwin-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-ruth-goodwin-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,8 +2,8 @@
 title: "Drinking from a red plastic cup"
 excerpt: "PaperFaces portrait of @fraulein_doktor drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-fraulein-doktor-twitter-lg.jpg
-  thumb: paperfaces-fraulein-doktor-twitter-150.jpg
+  feature: /assets/images/paperfaces-fraulein-doktor-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-fraulein-doktor-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

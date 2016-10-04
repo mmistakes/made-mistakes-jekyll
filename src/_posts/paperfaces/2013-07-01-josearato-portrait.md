@@ -2,8 +2,8 @@
 title: "No eyes, 95% face"
 excerpt: "PaperFaces portrait of @josearato drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-josearato-twitter-lg.jpg
-  thumb: paperfaces-josearato-twitter-150.jpg
+  feature: /assets/images/paperfaces-josearato-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-josearato-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

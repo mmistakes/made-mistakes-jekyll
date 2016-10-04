@@ -2,8 +2,8 @@
 title: "Rated blue for bright"
 excerpt: "PaperFaces portrait of Wendy Rose drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-wendy-rose-sktchy-lg.jpg
-  thumb: paperfaces-wendy-rose-sktchy-150.jpg
+  feature: /assets/images/paperfaces-wendy-rose-sktchy-lg.jpg
+  thumb: /assets/images/paperfaces-wendy-rose-sktchy-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

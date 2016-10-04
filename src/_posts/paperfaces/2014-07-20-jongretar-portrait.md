@@ -2,9 +2,9 @@
 title: "Orange and blue beart"
 excerpt: "PaperFaces portrait of @JonGretar drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jongretar-twitter-lg.jpg
-  teaser: paperfaces-jongretar-twitter-teaser.jpg
-  thumb: paperfaces-jongretar-twitter-150.jpg
+  feature: /assets/images/paperfaces-jongretar-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-jongretar-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-jongretar-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

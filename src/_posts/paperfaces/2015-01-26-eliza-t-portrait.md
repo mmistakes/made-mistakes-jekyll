@@ -3,9 +3,9 @@ title: "Rabbit Rabbit"
 excerpt: "PaperFaces portrait of the Eliza T. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-eliza-t-lg.jpg
-  teaser: paperfaces-eliza-t-teaser.jpg
-  thumb: paperfaces-eliza-t-150.jpg
+  feature: /assets/images/paperfaces-eliza-t-lg.jpg
+  teaser: /assets/images/paperfaces-eliza-t-teaser.jpg
+  thumb: /assets/images/paperfaces-eliza-t-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy, Mix]
 ---
 

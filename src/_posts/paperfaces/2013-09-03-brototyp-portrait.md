@@ -2,8 +2,8 @@
 title: "Lean back and relax"
 excerpt: "PaperFaces portrait of @brototyp drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-brototyp-twitter-lg.jpg
-  thumb: paperfaces-brototyp-twitter-150.jpg
+  feature: /assets/images/paperfaces-brototyp-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-brototyp-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

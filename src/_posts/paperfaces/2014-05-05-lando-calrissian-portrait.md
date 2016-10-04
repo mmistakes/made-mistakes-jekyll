@@ -2,9 +2,9 @@
 title: "Here goes nothing"
 excerpt: "PaperFaces portrait Lando Calrissian drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lando-calrissian-lg.jpg
-  teaser: paperfaces-lando-calrissian-teaser.jpg
-  thumb: paperfaces-lando-calrissian-150.jpg
+  feature: /assets/images/paperfaces-lando-calrissian-lg.jpg
+  teaser: /assets/images/paperfaces-lando-calrissian-teaser.jpg
+  thumb: /assets/images/paperfaces-lando-calrissian-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars]
 ---
 

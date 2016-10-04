@@ -2,8 +2,8 @@
 title: "Mountains or hill tops?"
 excerpt: "PaperFaces portrait of @jinthagerman drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jinthagerman-twitter-lg.jpg
-  thumb: paperfaces-jinthagerman-twitter-150.jpg
+  feature: /assets/images/paperfaces-jinthagerman-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-jinthagerman-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

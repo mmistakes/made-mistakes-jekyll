@@ -2,8 +2,8 @@
 title: "Stylized yellow flowers"
 excerpt: "PaperFaces portrait of @StraatKatBasson drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-straatkatbasson-twitter-lg.jpg
-  thumb: paperfaces-straatkatbasson-twitter-150.jpg
+  feature: /assets/images/paperfaces-straatkatbasson-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-straatkatbasson-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -2,8 +2,8 @@
 title: "The color of gravy"
 excerpt: "PaperFaces portrait of Christianna P. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-christianna-p-lg.jpg
-  thumb: paperfaces-christianna-p-150.jpg
+  feature: /assets/images/paperfaces-christianna-p-lg.jpg
+  thumb: /assets/images/paperfaces-christianna-p-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

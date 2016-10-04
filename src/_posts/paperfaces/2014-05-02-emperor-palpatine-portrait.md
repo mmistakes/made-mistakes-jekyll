@@ -2,9 +2,9 @@
 title: "And now, young Skywalker... you will die."
 excerpt: "PaperFaces portrait Emperor Palpatine drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-emperor-palpatine-lg.jpg
-  teaser: paperfaces-emperor-palpatine-teaser.jpg
-  thumb: paperfaces-emperor-palpatine-150.jpg
+  feature: /assets/images/paperfaces-emperor-palpatine-lg.jpg
+  teaser: /assets/images/paperfaces-emperor-palpatine-teaser.jpg
+  thumb: /assets/images/paperfaces-emperor-palpatine-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 

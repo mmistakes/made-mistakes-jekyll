@@ -2,9 +2,9 @@
 title: "White Rooms Always"
 excerpt: "PaperFaces portrait of @craiginwales drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-craiginwales-twitter-lg.jpg
-  teaser: paperfaces-craiginwales-twitter-teaser.jpg
-  thumb: paperfaces-craiginwales-twitter-150.jpg
+  feature: /assets/images/paperfaces-craiginwales-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-craiginwales-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-craiginwales-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

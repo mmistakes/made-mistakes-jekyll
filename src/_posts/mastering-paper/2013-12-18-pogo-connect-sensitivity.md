@@ -3,8 +3,8 @@ title: "Pogo Connect Stylus Sensitivity Fix"
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware v1.1.0."
 modified: 2016-01-27T14:51:06-05:00
 image:
-  teaser: pogo-connect-review-teaser.jpg
-  thumb: pogo-connect-app-thumb.jpg
+  teaser: /assets/images/pogo-connect-review-teaser.jpg
+  thumb: /assets/images/pogo-connect-app-thumb.jpg
 tags: [Pogo Connect, Paper by 53, stylus, iPad]
 comments: true
 ---

@@ -2,8 +2,8 @@
 title: "Plaid in front of some architecture"
 excerpt: "PaperFaces portrait of @bradykent drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-bradykent-twitter-lg.jpg
-  thumb: paperfaces-bradykent-twitter-150.jpg
+  feature: /assets/images/paperfaces-bradykent-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-bradykent-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

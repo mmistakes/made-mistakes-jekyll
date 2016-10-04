@@ -2,9 +2,9 @@
 title: "Earbud buds"
 excerpt: "PaperFaces portrait of @andrewjclark drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-andrewjclark-twitter-lg.jpg
-  teaser: paperfaces-andrewjclark-twitter-teaser.jpg
-  thumb: paperfaces-andrewjclark-twitter-150.jpg
+  feature: /assets/images/paperfaces-andrewjclark-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-andrewjclark-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-andrewjclark-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

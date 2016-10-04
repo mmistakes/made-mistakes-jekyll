@@ -2,8 +2,8 @@
 title: "Car ride reflections"
 excerpt: "PaperFaces portrait of @bingopajamas drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-bingopajamas-twitter-lg.jpg
-  thumb: paperfaces-bingopajamas-twitter-150.jpg
+  feature: /assets/images/paperfaces-bingopajamas-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-bingopajamas-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

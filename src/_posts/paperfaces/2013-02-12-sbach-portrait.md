@@ -2,8 +2,8 @@
 title: "Dark jacket looking downward"
 excerpt: "PaperFaces portrait of @sbach drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sbach-twitter-lg.jpg
-  thumb: paperfaces-sbach-twitter-150.jpg
+  feature: /assets/images/paperfaces-sbach-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-sbach-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -3,9 +3,9 @@ title: "Bubble Bubble"
 excerpt: "PaperFaces portrait of the Kalani O. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-kalani-o-lg.jpg
-  teaser: paperfaces-kalani-o-teaser.jpg
-  thumb: paperfaces-kalani-o-150.jpg
+  feature: /assets/images/paperfaces-kalani-o-lg.jpg
+  teaser: /assets/images/paperfaces-kalani-o-teaser.jpg
+  thumb: /assets/images/paperfaces-kalani-o-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, black and white]
 ---
 

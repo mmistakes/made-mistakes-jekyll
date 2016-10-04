@@ -2,9 +2,9 @@
 title: "I know"
 excerpt: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-han-solo-leia-lg.jpg
-  teaser: paperfaces-han-solo-leia-teaser.jpg
-  thumb: paperfaces-han-solo-leia-150.jpg
+  feature: /assets/images/paperfaces-han-solo-leia-lg.jpg
+  teaser: /assets/images/paperfaces-han-solo-leia-teaser.jpg
+  thumb: /assets/images/paperfaces-han-solo-leia-150.jpg
 modified: 2014-05-01
 tags: [portrait, illustration, Paper by 53, Star Wars, blend, time lapse]
 ---

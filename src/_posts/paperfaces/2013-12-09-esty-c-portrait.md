@@ -2,8 +2,8 @@
 title: "For the flowers against pink"
 excerpt: "PaperFaces portrait of Esty C. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-esty-c-twitter-lg.jpg
-  thumb: paperfaces-esty-c-twitter-150.jpg
+  feature: /assets/images/paperfaces-esty-c-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-esty-c-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, time lapse]
 ---
 

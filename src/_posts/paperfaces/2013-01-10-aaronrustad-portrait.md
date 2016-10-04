@@ -2,8 +2,8 @@
 title: "Glasses in front of green water"
 excerpt: "PaperFaces portrait of @aaronrustad drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-aaronrustad-twitter-lg.jpg
-  thumb: paperfaces-aaronrustad-twitter-150.jpg
+  feature: /assets/images/paperfaces-aaronrustad-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-aaronrustad-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

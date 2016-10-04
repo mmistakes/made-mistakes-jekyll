@@ -2,9 +2,9 @@
 title: "Hoodie Fight"
 excerpt: "PaperFaces portrait of @MattAbbo drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mattabbo-twitter-lg.jpg
-  teaser: paperfaces-mattabbo-twitter-teaser.jpg
-  thumb: paperfaces-mattabbo-twitter-150.jpg
+  feature: /assets/images/paperfaces-mattabbo-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-mattabbo-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-mattabbo-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

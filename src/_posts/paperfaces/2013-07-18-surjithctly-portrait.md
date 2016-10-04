@@ -2,8 +2,8 @@
 title: "Trading drawings for a feature"
 excerpt: "PaperFaces portrait of @surjithctly drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-surjithctly-twitter-lg.jpg
-  thumb: paperfaces-surjithctly-twitter-150.jpg
+  feature: /assets/images/paperfaces-surjithctly-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-surjithctly-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

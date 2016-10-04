@@ -2,8 +2,8 @@
 title: "A hair flower without color"
 excerpt: "PaperFaces portrait of @amyburvall drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-amyburvall-twitter-lg.jpg
-  thumb: paperfaces-amyburvall-twitter-150.jpg
+  feature: /assets/images/paperfaces-amyburvall-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-amyburvall-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

@@ -2,8 +2,8 @@
 title: "Best man"
 excerpt: "PaperFaces portrait of Juan and Kyle drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-juan-kyle-lg.jpg
-  thumb: paperfaces-juan-kyle-150.jpg
+  feature: /assets/images/paperfaces-juan-kyle-lg.jpg
+  thumb: /assets/images/paperfaces-juan-kyle-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, time lapse]
 ---
 

@@ -2,9 +2,9 @@
 title: "By Himself"
 excerpt: "PaperFaces portrait of @pete_himself drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-pete-himself-twitter-lg.jpg
-  teaser: paperfaces-pete-himself-twitter-teaser.jpg
-  thumb: paperfaces-pete-himself-twitter-150.jpg
+  feature: /assets/images/paperfaces-pete-himself-twitter-lg.jpg
+  teaser: /assets/images/paperfaces-pete-himself-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-pete-himself-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

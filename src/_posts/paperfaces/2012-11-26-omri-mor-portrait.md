@@ -2,8 +2,8 @@
 title: "Sitting on some steps in black and white"
 excerpt: "PaperFaces portrait of @omri_mor drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-omri-mor-twitter-lg.jpg
-  thumb: paperfaces-omri-mor-twitter-150.jpg
+  feature: /assets/images/paperfaces-omri-mor-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-omri-mor-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

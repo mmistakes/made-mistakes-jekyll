@@ -2,8 +2,8 @@
 title: "Please excuse the face, sometimes I draw them"
 excerpt: "PaperFaces portrait of @benbrignell drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-benbrignell-twitter-lg.jpg
-  thumb: paperfaces-benbrignell-twitter-150.jpg
+  feature: /assets/images/paperfaces-benbrignell-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-benbrignell-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

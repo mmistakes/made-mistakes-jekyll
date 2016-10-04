@@ -3,9 +3,9 @@ title: "Beard Strokes for Days"
 excerpt: "Portrait of David G. digitally painted with Procreate on an iPad."
 modified: 2015-12-27T00:00:00-00:00
 image: 
-  feature: david-g-procreate-lg.jpg
-  teaser: david-g-procreate-teaser.jpg
-  thumb: david-g-procreate-250.jpg
+  feature: /assets/images/david-g-procreate-lg.jpg
+  teaser: /assets/images/david-g-procreate-teaser.jpg
+  thumb: /assets/images/david-g-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy]
 ---
 

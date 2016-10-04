@@ -2,8 +2,8 @@
 title: "Upside down draws"
 excerpt: "PaperFaces portrait of @drunkcod drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-drunkcod-twitter-lg.jpg
-  thumb: paperfaces-drunkcod-twitter-150.jpg
+  feature: /assets/images/paperfaces-drunkcod-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-drunkcod-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

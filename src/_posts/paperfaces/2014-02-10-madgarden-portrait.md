@@ -2,8 +2,8 @@
 title: "Punch something"
 excerpt: "PaperFaces portrait of @madgarden drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-madgarden-twitter-lg.jpg
-  thumb: paperfaces-madgarden-twitter-150.jpg
+  feature: /assets/images/paperfaces-madgarden-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-madgarden-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

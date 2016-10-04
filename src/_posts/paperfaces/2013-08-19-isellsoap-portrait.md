@@ -2,8 +2,8 @@
 title: "Stripes in the trees"
 excerpt: "PaperFaces portrait of @isellsoap drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-isellsoap-twitter-lg.jpg
-  thumb: paperfaces-isellsoap-twitter-150.jpg
+  feature: /assets/images/paperfaces-isellsoap-twitter-lg.jpg
+  thumb: /assets/images/paperfaces-isellsoap-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, trees]
 ---
 
