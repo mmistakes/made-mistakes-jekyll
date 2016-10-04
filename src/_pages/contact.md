@@ -17,37 +17,26 @@ If you have a product, service, app, or other opportunity that you feel is a goo
 
 <script>{% include wufoo.js %}</script>
 
-<form id="form1" name="form1" class="wufoo" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
+<form id="form1" name="form1" class="page__form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <ul>
-    <li id="foli7" class="notranslate">
-      <label class="desc" id="title7" for="Field7">Name </label>
-      <div>
-        <input id="Field7" name="Field7" type="text" class="field text large" value="" maxlength="255" tabindex="1" onKeyUp="" />
-        </div>
+    <li id="foli7">
+      <label id="title7" for="Field7">Name</label>
+      <input id="Field7" name="Field7" type="text" maxlength="255" />
     </li>
-    <li id="foli2" class="notranslate">
-      <label class="desc" id="title2" for="Field2">Email address <span id="req_2" class="req">*</span> </label>
-      <div>
-        <input id="Field2" name="Field2" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="2" required />
-      </div>
-      <p class="instruct" id="instruct2"><small>Your email address will remain private and won't be shared with anyone.</small></p>
+    <li id="foli2">
+      <label id="title2" for="Field2">Email address<span id="req_2" class="req">*</span> <small>(will remain private)</small></label>
+      <input id="Field2" name="Field2" type="email" spellcheck="false" maxlength="255" required />
     </li>
-    <li id="foli1" class="notranslate">
-      <label class="desc" id="title1" for="Field1">Message <span id="req_1" class="req">*</span> </label>
-      <div>
-        <textarea id="Field1" name="Field1" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="3" onkeyup="" required></textarea>
-      </div>
+    <li id="foli1">
+      <label id="title1" for="Field1">Message<span id="req_1" class="req">*</span></label>
+      <textarea id="Field1" name="Field1" spellcheck="true" rows="10" cols="50" required></textarea>
     </li>
-    <li id="foli10" class="notranslate">
-      <label class="desc" id="title10" for="Field10">How'd you hear about my website?</label>
-      <div>
-        <input id="Field10" name="Field10" type="text" class="field text large" value="" maxlength="255" tabindex="4" onKeyUp="" />
-      </div>
+    <li id="foli10">
+      <label id="title10" for="Field10">How'd you hear about my website?</label>
+      <input id="Field10" name="Field10" type="text" maxlength="255" />
     </li>
-    <li class="buttons">
-      <div>
-        <input id="saveForm" name="saveForm" class="btn btn--large" type="submit" value="Send Message" tabindex="5" />
-      </div>
+    <li>
+      <button id="saveForm" name="saveForm" class="btn btn--large" type="submit">Send Message</button>
     </li>
     <li class="hidden">
       <label for="comment">Do Not Fill This Out</label>

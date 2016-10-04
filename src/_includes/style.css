@@ -869,6 +869,17 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
           .page__related .teaser + .teaser .page__section-label:before {
             right: 0; } }
 
+/*
+   Page form
+   ========================================================================== */
+.page__form {
+  padding: 1em;
+  background-color: #f9f9f9;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .page__form ul {
+    margin: 0; }
+
 /* ==========================================================================
    Work/Portfolio Post or Page
    ========================================================================== */
@@ -2001,13 +2012,6 @@ green     #859900  operators, other keywords
   .comment__author-name a {
     color: inherit;
     text-decoration: none; }
-
-/* comment form */
-.page__comments-form {
-  padding: 1em;
-  background-color: #f9f9f9;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
 
 /* ==========================================================================
    REVIEW BOXES
