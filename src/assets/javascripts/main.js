@@ -23,39 +23,7 @@ $(document).ready(function(){
   $("a").smoothScroll({offset: -20});
 
   // add lightbox class to all image links
-  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
-
-  // Magnific-Popup options
-	$('.image-popup').magnificPopup({
-		disableOn: function() {
-			if( $(window).width() < 500 ) {
-				return false;
-			}
-			return true;
-		},
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
-		},
-		removalDelay: 500, // Delay in milliseconds before popup is removed
-		// Class that is added to body when popup is open.
-		// make it unique to apply your CSS animations just to this exact popup
-		mainClass: 'mfp-zoom-in',
-    callbacks: {
-      beforeOpen: function() {
-        // just a hack that adds mfp-anim class to markup
-        this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
-      }
-    },
-    closeOnContentClick: true,
-    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-	});
+  $("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']").attr("data-lity", "");
 
   // lazy load settings
   $("img.load").show().lazyload({
@@ -86,13 +54,13 @@ $(document).ready(function(){
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
         $('#comment-form-submit').html('Submitted');
-        $('.page__comments-form .js-notice').removeClass('notice--danger').addClass('notice--success');
+        $('#comment-form .js-notice').removeClass('notice--danger').addClass('notice--success');
         showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been approved.');
       },
       error: function (err) {
         console.log(err);
         $('#comment-form-submit').html('Submit Comment');
-        $('.page__comments-form .js-notice').removeClass('notice--success').addClass('notice--danger');
+        $('#comment-form .js-notice').removeClass('notice--success').addClass('notice--danger');
         showAlert('<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.');
         $(form).removeClass('disabled');
       }
@@ -102,7 +70,7 @@ $(document).ready(function(){
   });
 
   function showAlert(message) {
-    $('.page__comments-form .js-notice').removeClass('hidden');
-    $('.page__comments-form .js-notice-text').html(message);
+    $('#comment-form .js-notice').removeClass('hidden');
+    $('#comment-form .js-notice-text').html(message);
   }
 })(jQuery);
