@@ -2,7 +2,8 @@
 title: "Wearing a hoodie and 3D glasses"
 excerpt: "PaperFaces portrait of @theBrady drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-thebrady-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-thebrady-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-thebrady-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---

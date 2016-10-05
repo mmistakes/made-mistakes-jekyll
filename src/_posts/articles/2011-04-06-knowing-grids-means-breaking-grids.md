@@ -3,7 +3,8 @@ title: "Knowing Grids Means Breaking Grids"
 excerpt: "Exploring what it means to develop a grid system that helps facilitate strong design with purpose."
 modified: 2013-04-26 00:00:00
 image: 
-  feature: /assets/images/knowing-grids-feature.jpg
+  path: &image /assets/images/knowing-grids-feature.jpg
+  feature: *image
   teaser: /assets/images/knowing-grids-teaser.jpg
   thumb: /assets/images/owh-grid-spread-340x340.jpg
 tags: [critique, grid, design, inspiration, typography]

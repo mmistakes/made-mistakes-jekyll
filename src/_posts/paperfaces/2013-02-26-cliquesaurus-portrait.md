@@ -2,7 +2,8 @@
 title: "Pink hoodie hearted hand"
 excerpt: "PaperFaces portrait of @cliqueasaurus drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-cliqueasaurus-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-cliqueasaurus-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-cliqueasaurus-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

@@ -2,7 +2,8 @@
 title: Feeling Kinda Stuck In A Half Nelson
 excerpt: "My impressions of the film Half Nelson, starring Ryan Gosling."
 image: 
-  feature: /assets/images/half-nelson-feature.jpg
+  path: &image /assets/images/half-nelson-feature.jpg
+  feature: *image
   teaser: /assets/images/half-nelson-teaser.jpg
   thumb: /assets/images/half-nelson-thumb.jpg
   credit: DVD screengrab from DB Cover

@@ -2,7 +2,8 @@
 title: "It's hard to stare without eyes"
 excerpt: "PaperFaces portrait of @cormacrelf drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-cormacrelf-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-cormacrelf-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-cormacrelf-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

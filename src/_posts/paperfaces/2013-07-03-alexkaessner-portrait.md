@@ -2,7 +2,8 @@
 title: "Full half face"
 excerpt: "PaperFaces portrait of @alexkaessner drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-alexkaessner-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-alexkaessner-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-alexkaessner-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

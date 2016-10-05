@@ -2,7 +2,8 @@
 title: "Heard you like eyes"
 excerpt: "PaperFaces portrait of Yakndara B. drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-yakndara-b-lg.jpg
+  path: &image /assets/images/paperfaces-yakndara-b-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-yakndara-b-teaser.jpg
   thumb: /assets/images/paperfaces-yakndara-b-150.jpg
 tags: [portrait, illustration, Paper by 53, eye, Sktchy, black and white]

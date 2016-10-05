@@ -4,7 +4,8 @@ modified: 2015-10-19T14:21:23-04:00
 excerpt: "Enter to win a portrait of your choice drawn by Michael Rose in his signature PaperFaces style."
 tags: [drawing, illustration, Paper by 53, iPad]
 image:
-  feature: /assets/images/paperfaces-contest-lg.jpg
+  path: &image /assets/images/paperfaces-contest-lg.jpg
+  feature: *image
   teaser: /assets/images/paperfaces-contest-teaser.jpg
   thumb: /assets/images/paperfaces-contest-th.jpg
 ---

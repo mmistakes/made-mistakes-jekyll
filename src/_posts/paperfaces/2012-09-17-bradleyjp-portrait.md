@@ -2,7 +2,8 @@
 title: "Beard and black v-neck shirt"
 excerpt: "PaperFaces portrait of @bradleyjp drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-bradleyjp-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-bradleyjp-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-bradleyjp-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---

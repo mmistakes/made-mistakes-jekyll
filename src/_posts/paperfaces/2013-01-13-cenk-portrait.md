@@ -2,7 +2,8 @@
 title: "Black and white beard"
 excerpt: "PaperFaces portrait of @Cenk drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-cenk-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-cenk-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-cenk-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---

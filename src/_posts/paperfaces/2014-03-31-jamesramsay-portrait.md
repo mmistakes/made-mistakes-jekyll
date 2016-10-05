@@ -2,7 +2,8 @@
 title: "Climbing mountains"
 excerpt: "PaperFaces portrait of @JamesRamsay drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-jamesramsay-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-jamesramsay-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-jamesramsay-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, landscape]
 ---

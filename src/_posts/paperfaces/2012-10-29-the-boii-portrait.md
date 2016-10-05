@@ -2,7 +2,8 @@
 title: "Blue collard shirt with muted backdrop"
 excerpt: "PaperFaces portrait of @the_boii drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-the-boii-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-the-boii-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-the-boii-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

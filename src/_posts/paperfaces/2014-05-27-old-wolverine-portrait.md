@@ -3,7 +3,8 @@ title: "Days of Future Past"
 excerpt: "PaperFaces portrait of Mystique and Wolverine drawn with Paper by 53 on an iPad."
 modified: 2016-02-08T15:36:28-05:00
 image: 
-  feature: /assets/images/paperfaces-old-wolverine-lg.jpg
+  path: &image /assets/images/paperfaces-old-wolverine-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-old-wolverine-teaser.jpg
   thumb: /assets/images/paperfaces-old-wolverine-150.jpg
 tags: [portrait, illustration, Paper by 53, X-men]

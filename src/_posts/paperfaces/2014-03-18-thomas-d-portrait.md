@@ -2,7 +2,8 @@
 title: "Direct sunlight and bokeh"
 excerpt: "PaperFaces portrait of Thomas D. drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-thomas-d-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-thomas-d-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-thomas-d-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---

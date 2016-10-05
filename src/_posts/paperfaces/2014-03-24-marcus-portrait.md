@@ -2,7 +2,8 @@
 title: "Bashful hair"
 excerpt: "PaperFaces portrait of a Marcus drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-marcus-lg.jpg
+  path: &image /assets/images/paperfaces-marcus-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-marcus-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

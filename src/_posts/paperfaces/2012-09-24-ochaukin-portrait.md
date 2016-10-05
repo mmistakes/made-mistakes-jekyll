@@ -2,7 +2,8 @@
 title: "Scuba diving gear"
 excerpt: "PaperFaces portrait of O. Chaukin drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-ochaukin-lg.jpg
+  path: &image /assets/images/paperfaces-ochaukin-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-ochaukin-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---

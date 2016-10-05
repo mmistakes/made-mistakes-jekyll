@@ -3,7 +3,8 @@ title: "Hey Blue"
 excerpt: "Tiny portrait of Myah Graham, painted with watercolor on hot press paper."
 modified: 2015-11-05T14:39:38-05:00
 image: 
-  feature: /assets/images/painting-myah-graham-lg.jpg
+  path: &image /assets/images/painting-myah-graham-lg.jpg
+  feature: *image
   teaser: /assets/images/painting-myah-graham-teaser.jpg
   thumb: /assets/images/painting-myah-graham-250.jpg
 tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]

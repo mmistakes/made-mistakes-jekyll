@@ -4,7 +4,8 @@ modified: 2015-10-19T14:47:05-04:00
 excerpt: "Paper by FiftyThree comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more."
 tags: [Paper by 53, iPad]
 image:
-  feature: /assets/images/paper-3-feature.jpg
+  path: &image /assets/images/paper-3-feature.jpg
+  feature: *image
   teaser: /assets/images/paper-3-teaser.jpg
   thumb: /assets/images/paper-3-th.jpg
 comments: true

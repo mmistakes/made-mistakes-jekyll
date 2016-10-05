@@ -2,7 +2,8 @@
 title: "Scattering light through a hat"
 excerpt: "PaperFaces portrait of @comicasuperhero drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-comicasuperhero-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-comicasuperhero-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-comicasuperhero-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---

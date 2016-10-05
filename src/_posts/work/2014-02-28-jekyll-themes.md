@@ -4,7 +4,8 @@ headline: "Jekyll Themes"
 excerpt: "Open source Jekyll themes for getting you started with hosting a blog on GitHub Pages for free."
 modified: 2016-09-05T21:29:54-04:00
 image: 
-  feature: /assets/images/jekyll-themes-feature.jpg
+  path: &image /assets/images/jekyll-themes-feature.jpg
+  feature: *image
   thumb: /assets/images/jekyll-themes-thumb-250x250.png
   teaser: /assets/images/jekyll-themes-teaser.png
 tags: [Jekyll, web development, open source, GitHub]

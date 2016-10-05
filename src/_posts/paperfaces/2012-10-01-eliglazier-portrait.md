@@ -2,7 +2,8 @@
 title: "On a boat!"
 excerpt: "PaperFaces portrait of @eliglazier drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-eliglazier-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-eliglazier-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-eliglazier-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---

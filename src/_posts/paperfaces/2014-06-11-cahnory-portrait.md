@@ -2,7 +2,8 @@
 title: "All for money"
 excerpt: "PaperFaces portrait of @cahnory drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-cahnory-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-cahnory-twitter-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-cahnory-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-cahnory-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]

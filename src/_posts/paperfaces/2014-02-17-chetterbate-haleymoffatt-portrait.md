@@ -2,7 +2,8 @@
 title: "Smile and blush"
 excerpt: "PaperFaces portrait of Chad and Haley drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-haley-couple-lg.jpg
+  path: &image /assets/images/paperfaces-haley-couple-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-haley-couple-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, time lapse]
 ---

@@ -2,7 +2,8 @@
 title: "La Moustache Quick Review"
 excerpt: "My quick impressions of La Moustache &#8212; a French film about a dude shaving his mustache."
 image: 
-  feature: /assets/images/la-moustache-feature.jpg
+  path: &image /assets/images/la-moustache-feature.jpg
+  feature: *image
   teaser: /assets/images/la-moustache-teaser.jpg
   thumb: /assets/images/la-moustache-thumb.jpg
   credit: DVD screengrab from The Movie Database

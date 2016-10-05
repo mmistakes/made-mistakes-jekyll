@@ -2,7 +2,8 @@
 title: "Full sleeve of tattoos"
 excerpt: "PaperFaces portrait of @pjrvswp drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-pjrvswp-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-pjrvswp-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-pjrvswp-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, tattoo, time lapse]
 ---

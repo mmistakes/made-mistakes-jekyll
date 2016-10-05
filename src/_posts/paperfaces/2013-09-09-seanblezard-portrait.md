@@ -3,7 +3,8 @@ title: "Patterns of plaid"
 excerpt: "PaperFaces portrait of @seanblezard drawn with Paper by 53 on an iPad."
 modified: 2013-09-12
 image: 
-  feature: /assets/images/paperfaces-seanblezard-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-seanblezard-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-seanblezard-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

@@ -2,7 +2,8 @@
 title: "In a black motorcycle jacket"
 excerpt: "PaperFaces portrait of Rudy drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-rudy-lg.jpg
+  path: &image /assets/images/paperfaces-rudy-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-rudy-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---

@@ -2,7 +2,8 @@
 title: "Toss of the hair"
 excerpt: "PaperFaces portrait of @BombayBellyrina drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-bombaybellyrina-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-bombaybellyrina-twitter-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-bombaybellyrina-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-bombaybellyrina-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]

@@ -2,7 +2,8 @@
 title: "The littlest panda"
 excerpt: "PaperFaces portrait of Sophia drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-sophia-lg.jpg
+  path: &image /assets/images/paperfaces-sophia-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-sophia-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

@@ -2,7 +2,8 @@
 title: "A face of pixels"
 excerpt: "PaperFaces portrait of @rhp7 drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-rhp7-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-rhp7-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-rhp7-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

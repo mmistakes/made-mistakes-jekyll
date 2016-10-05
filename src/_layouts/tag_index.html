@@ -10,17 +10,9 @@ layout: default
 <div class="index">
   <div class="site__logo"><a href="{{ site.url }}">{{ site.title }}</a></div>
   <div id="main" role="main">
-    <div class="page__wrap" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="description" content="{{ page.excerpt | strip_html }}">
-      {% if page.date %}
-        <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
-      {% endif %}
-      {% if page.modified %}
-        <meta itemprop="dateModified" content="{{ page.modified | date_to_xmlschema }}">
-      {% endif %}
-
+    <div class="page__wrap">
       <header class="page__header">
-        <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+        <h1 class="page__title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
         <p class="page__excerpt">
           {% if tag.description %}
             {{ tag.description | markdownify | remove: "<p>" | remove: "</p>" }}

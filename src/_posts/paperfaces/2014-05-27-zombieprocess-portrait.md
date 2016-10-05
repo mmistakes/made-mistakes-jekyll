@@ -2,7 +2,8 @@
 title: "Half lit diagonals"
 excerpt: "PaperFaces portrait of @ZombieProcess drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-zombieprocess-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-zombieprocess-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-zombieprocess-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---

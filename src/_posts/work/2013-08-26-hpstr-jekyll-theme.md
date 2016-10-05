@@ -2,7 +2,8 @@
 title: "HPSTR, a Jekyll Theme"
 excerpt: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché look."
 image: 
-  feature: /assets/images/hpstr-preview-feature-2015.jpg
+  path: &image /assets/images/hpstr-preview-feature-2015.jpg
+  feature: *image
   teaser: /assets/images/hpstr-preview-teaser-2015.png
   thumb: /assets/images/hpstr-preview-th-2015.png
 tags: [Jekyll, web development, open source, GitHub]

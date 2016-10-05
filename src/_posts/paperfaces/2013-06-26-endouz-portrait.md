@@ -2,7 +2,8 @@
 title: "Flickering lights of rain"
 excerpt: "PaperFaces portrait of @endouz drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-endouz-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-endouz-twitter-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-endouz-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-endouz-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, bokeh]

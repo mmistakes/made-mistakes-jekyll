@@ -2,7 +2,8 @@
 title: "Portrait Winner Number 1"
 excerpt: "PaperFaces portrait of @harvydanger drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-harvydanger-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-harvydanger-twitter-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-harvydanger-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-harvydanger-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

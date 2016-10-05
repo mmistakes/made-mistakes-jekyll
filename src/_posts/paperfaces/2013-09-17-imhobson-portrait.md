@@ -2,7 +2,8 @@
 title: "Magenta and beard on a tilt"
 excerpt: "PaperFaces portrait of @imhobson drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-imhobson-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-imhobson-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-imhobson-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---

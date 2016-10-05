@@ -3,7 +3,8 @@ title: "Going Static: Episode II --- Attack of the Comments"
 excerpt: "Integrating a static-based commenting system into Jekyll with the help of Staticman and ditching Disqus in the process."
 tags: [Jekyll, web development, GitHub, open source]
 image:
-  feature: /assets/images/going-static-comments-feature.jpg
+  path: &image /assets/images/going-static-comments-feature.jpg
+  feature: *image
   teaser: /assets/images/going-static-comments-teaser.jpg
   credit: "Photo by **Breno Machado**"
   creditlink: "https://unsplash.com/@brenomachado"

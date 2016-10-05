@@ -2,7 +2,8 @@
 title: "Live long and prosper"
 excerpt: "PaperFaces portrait of a Tabbitha S. drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-tabbitha-s-lg.jpg
+  path: &image /assets/images/paperfaces-tabbitha-s-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-tabbitha-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---

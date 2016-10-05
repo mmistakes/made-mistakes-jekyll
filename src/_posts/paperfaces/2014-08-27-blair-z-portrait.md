@@ -2,7 +2,8 @@
 title: "Still Faking Pencil with Pencil"
 excerpt: "PaperFaces portrait of the Blair Z. drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-blair-z-lg.jpg
+  path: &image /assets/images/paperfaces-blair-z-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-blair-z-teaser.jpg
   thumb: /assets/images/paperfaces-blair-z-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]

@@ -2,7 +2,8 @@
 title: "Seeing Through Blurred Eyes --- The Diving Bell and The Butterfly"
 excerpt: "Quick impressions of the film, The Diving Bell and The Butterfly."
 image: 
-  feature: /assets/images/diving-bell-butterfly-feature.jpg
+  path: &image /assets/images/diving-bell-butterfly-feature.jpg
+  feature: *image
   teaser: /assets/images/diving-bell-butterfly-teaser.jpg
   thumb: /assets/images/diving-bell-butterfly-thumb.jpg
   credit: DVD screengrab from Artsy Fartsy Film

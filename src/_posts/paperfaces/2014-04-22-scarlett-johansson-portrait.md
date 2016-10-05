@@ -2,7 +2,8 @@
 title: "Warm Face"
 excerpt: "PaperFaces portrait of Scarlett Johansson drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-scarlett-johansson-lg.jpg
+  path: &image /assets/images/paperfaces-scarlett-johansson-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-scarlett-johansson-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---

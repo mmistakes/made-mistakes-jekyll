@@ -2,7 +2,8 @@
 title: "Your shirt is unbuttoned"
 excerpt: "PaperFaces portrait of a Fur Mint drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-fur-mint-lg.jpg
+  path: &image /assets/images/paperfaces-fur-mint-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-fur-mint-teaser.jpg
   thumb: /assets/images/paperfaces-fur-mint-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]

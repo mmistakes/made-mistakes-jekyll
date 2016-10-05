@@ -2,7 +2,8 @@
 title: "Bright Yellow"
 excerpt: "PaperFaces portrait of @GHarpreet drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-gharpreet-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-gharpreet-twitter-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-gharpreet-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-gharpreet-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]

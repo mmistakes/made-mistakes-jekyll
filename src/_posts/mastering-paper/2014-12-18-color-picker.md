@@ -4,7 +4,8 @@ modified: 2016-06-24T12:38:41-04:00
 excerpt: "A color picker has finally been added to Paper! Learn what the new tool does and how to use it."
 tags: [Paper by 53, color theory, tutorial, iPad]
 image:
-  feature: /assets/images/paper-53-color-picker-feature.jpg
+  path: &image /assets/images/paper-53-color-picker-feature.jpg
+  feature: *image
   teaser: /assets/images/paper-53-color-picker-teaser.jpg
   thumb: /assets/images/paper-53-color-picker-th.jpg
 comments: true

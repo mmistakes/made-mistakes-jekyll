@@ -2,7 +2,8 @@
 title: "My About.me Profile and Free Moo Business Cards"
 excerpt: "How 5 minutes spent creating an About.me profile nabbed me custom Moo business cards of my own design."
 image: 
-  feature: /assets/images/about-me-featured.jpg
+  path: &image /assets/images/about-me-featured.jpg
+  feature: *image
   teaser: /assets/images/about-me-teaser.jpg
   thumb: /assets/images/mademistakes-business-cards-front-148x148.jpg
 tags: [business cards, design, Michael Rose]

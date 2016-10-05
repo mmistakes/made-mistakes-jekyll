@@ -2,7 +2,8 @@
 title: "Blurring backgrounds and curling hair"
 excerpt: "PaperFaces portrait of @web_martin drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-web-martin-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-web-martin-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-web-martin-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

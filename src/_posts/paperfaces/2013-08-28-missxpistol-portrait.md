@@ -2,7 +2,8 @@
 title: "G is for Grrrape"
 excerpt: "PaperFaces portrait of @missxpistol drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-missxpistol-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-missxpistol-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-missxpistol-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

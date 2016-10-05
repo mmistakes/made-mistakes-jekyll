@@ -3,7 +3,8 @@ title: "First Look at Blending with Pencil by FiftyThree"
 excerpt: "FiftyThree's Pencil stylus and new Blend feature is full of promise. Here’s a taste of what is possible using them."
 modified: 2014-01-15 00:00:00
 image:
-  feature: /assets/images/paper-53-blend-first-look-feature.jpg
+  path: &image /assets/images/paper-53-blend-first-look-feature.jpg
+  feature: *image
   teaser: /assets/images/paper-53-blend-first-look-teaser.jpg
   thumb: /assets/images/paper-53-blend-first-look-thumb.jpg
 tags: [Paper by 53, pencil, blend, stylus, iPad]

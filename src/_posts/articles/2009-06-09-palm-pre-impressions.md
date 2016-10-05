@@ -3,7 +3,7 @@ title: "The iPhone is Great, but the Palm Pre Better Fits My Style"
 excerpt: "Quick impressions of the Palm Pre from a long time smartphone user."
 modified: 2015-10-19T14:22:26-04:00
 image: 
-  teaser: /assets/images/palm-pre-teaser.jpg
+  path: &image /assets/images/palm-pre-teaser.jpg
   thumb: /assets/images/palm-pre-th.jpg
 tags: [Palm Pre, iPhone, tech geek, review]
 ---

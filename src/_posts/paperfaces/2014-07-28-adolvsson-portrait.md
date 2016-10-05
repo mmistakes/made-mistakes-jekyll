@@ -2,7 +2,8 @@
 title: "Weirdo with a Beardo"
 excerpt: "PaperFaces portrait of @adolvsson drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-adolvsson-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-adolvsson-twitter-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-adolvsson-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-adolvsson-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]

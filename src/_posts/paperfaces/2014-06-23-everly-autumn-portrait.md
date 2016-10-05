@@ -2,7 +2,8 @@
 title: "Everly, 22 months"
 excerpt: "PaperFaces portrait of my daughter Everly drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-everly-autumn-lg.jpg
+  path: &image /assets/images/paperfaces-everly-autumn-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-everly-autumn-teaser.jpg
   thumb: /assets/images/paperfaces-everly-autumn-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]

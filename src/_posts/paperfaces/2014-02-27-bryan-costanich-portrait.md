@@ -2,7 +2,8 @@
 title: "Killer curled stache"
 excerpt: "PaperFaces portrait of Bryan Costanich drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-bryan-costanich-lg.jpg
+  path: &image /assets/images/paperfaces-bryan-costanich-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-bryan-costanich-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

@@ -2,7 +2,8 @@
 title: "Cloud dancer"
 excerpt: "PaperFaces portrait of Christina U. drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-christina-u-lg.jpg
+  path: &image /assets/images/paperfaces-christina-u-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-christina-u-teaser.jpg
   thumb: /assets/images/paperfaces-christina-u-150.jpg
 tags: [portrait, illustration, Paper by 53, clouds, Sktchy]

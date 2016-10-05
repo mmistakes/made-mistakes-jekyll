@@ -3,7 +3,8 @@ title: "White Eyes Glow Sometimes"
 excerpt: "PaperFaces portrait of the Hannah L. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: /assets/images/paperfaces-hannah-l-lg.jpg
+  path: &image /assets/images/paperfaces-hannah-l-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-hannah-l-teaser.jpg
   thumb: /assets/images/paperfaces-hannah-l-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]

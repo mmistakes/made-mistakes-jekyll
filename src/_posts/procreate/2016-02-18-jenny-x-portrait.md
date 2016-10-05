@@ -3,7 +3,8 @@ title: "Painterly Fringed Collar"
 excerpt: "Portrait of Jenny x. digitally painted with Procreate on an iPad."
 modified: 
 image: 
-  feature: /assets/images/jenny-x-procreate-lg.jpg
+  path: &image /assets/images/jenny-x-procreate-lg.jpg
+  feature: *image
   teaser: /assets/images/jenny-x-procreate-teaser.jpg
   thumb: /assets/images/jenny-x-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]

@@ -2,7 +2,8 @@
 title: "Overlooking the water"
 excerpt: "PaperFaces portrait of @tipican drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-tipican-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-tipican-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-tipican-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---

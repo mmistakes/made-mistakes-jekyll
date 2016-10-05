@@ -2,7 +2,8 @@
 title: "Hat halo"
 excerpt: "PaperFaces portrait of a Talia P. drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-talia-p-lg.jpg
+  path: &image /assets/images/paperfaces-talia-p-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-talia-p-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---

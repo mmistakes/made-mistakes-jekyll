@@ -2,7 +2,8 @@
 title: "Inspiring Faces Want to Know"
 excerpt: "Finding inspiration from the faces of strangers on Sktchy for iOS."
 image: 
-  feature: /assets/images/sktchys-of-me-feature.jpg
+  path: &image /assets/images/sktchys-of-me-feature.jpg
+  feature: *image
   teaser: /assets/images/sktchys-of-me-teaser.jpg
   thumb: /assets/images/sktchy-app-thumb.png
 tags: [Sktchy, drawing, technology]

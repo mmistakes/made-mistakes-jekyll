@@ -3,7 +3,8 @@ title: "Upgrading an iMac G5 to OS X Leopard"
 excerpt: "What I went through upgrading an iMac G5 to Mac OS X Leopard (10.5)."
 modified: 2015-02-04T12:02:06-05:00
 image: 
-  feature: /assets/images/starfield-leopard-feature.jpg
+  path: &image /assets/images/starfield-leopard-feature.jpg
+  feature: *image
   teaser: /assets/images/starfield-leopard-teaser.jpg
   thumb: /assets/images/starfield-leopard-thumb.jpg
 tags: [iMac, tech geek]

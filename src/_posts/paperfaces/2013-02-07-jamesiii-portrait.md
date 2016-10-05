@@ -2,7 +2,8 @@
 title: "The king has risen"
 excerpt: "PaperFaces portrait of @jamesIII drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-jamesiii-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-jamesiii-twitter-lg.jpg 
+  feature: *image
   thumb: /assets/images/paperfaces-jamesiii-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---

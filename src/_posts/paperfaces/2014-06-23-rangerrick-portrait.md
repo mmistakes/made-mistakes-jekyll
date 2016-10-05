@@ -2,7 +2,8 @@
 title: "Thumbs up, cool hat"
 excerpt: "PaperFaces portrait of @RangerRick drawn with Paper by 53 on an iPad."
 image: 
-  feature: /assets/images/paperfaces-rangerrick-twitter-lg.jpg
+  path: &image /assets/images/paperfaces-rangerrick-twitter-lg.jpg 
+  feature: *image
   teaser: /assets/images/paperfaces-rangerrick-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-rangerrick-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]

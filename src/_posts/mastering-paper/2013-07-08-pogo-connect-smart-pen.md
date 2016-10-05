@@ -3,7 +3,8 @@ title: "Pogo Connect Stylus Makes Paper by FiftyThree Better"
 excerpt: "An iPad stylus that brings enhanced functionality to devices and apps that support its SDK."
 modified: 2016-01-27T14:44:05-05:00
 image: 
-  feature: /assets/images/pogo-connect-review-feature.jpg
+  path: &image /assets/images/pogo-connect-review-feature.jpg
+  feature: *image
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumb: /assets/images/pogo-connect-app-thumb.jpg
 tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, iPad]
