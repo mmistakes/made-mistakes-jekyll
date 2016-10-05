@@ -6,8 +6,8 @@ excerpt: "Collection of tutorials written by an avid iPad illustrator to help yo
 modified: 2016-01-26T10:09:10-05:00
 share: false
 image: 
-  feature: mastering-paper-feature-2016.jpg
-  thumb: paper-by-fiftythree-icon175x175.png
+  feature: /assets/images/mastering-paper-feature-2016.jpg
+  thumb: /assets/images/paper-by-fiftythree-icon175x175.png
   credit: '"Unfinished Except Nose" sketched with Pencil by FiftyThree'
   creditlink: https://mademistakes.com/paperfaces/myriam-j-portrait/
 ---

@@ -4,7 +4,7 @@ permalink: /
 title: "A Designer's Faux Pas"
 excerpt: "Making stuff one mistake at a time."
 image:
-  feature: black-glitched-1.png
+  feature: /assets/images/black-glitched-1.png
 classes:
   - splash
   - dark

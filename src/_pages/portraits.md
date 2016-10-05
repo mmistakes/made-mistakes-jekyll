@@ -4,8 +4,8 @@ title: "Order a Digital Portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
 modified: 2014-09-22T11:27:18-04:00
 image:
-  thumb: portrait-thumb.jpg
-  teaser: portrait-teaser.jpg
+  thumb: /assets/images/portrait-thumb.jpg
+  teaser: /assets/images/portrait-teaser.jpg
 ads: false
 ---
 
