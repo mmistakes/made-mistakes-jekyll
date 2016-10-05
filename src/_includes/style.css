@@ -624,6 +624,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   padding: 2em;
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 0.8em; }
+  .site__footer .copyright {
+    font-size: 0.8em; }
 
 /* ==========================================================================
    SINGLE PAGE/POST
@@ -1019,6 +1021,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   position: relative;
   margin: 0;
   max-height: 0;
+  font-size: 0.8em;
   opacity: 0;
   overflow: hidden;
   z-index: 10;
@@ -1343,7 +1346,8 @@ select {
 
 label {
   margin-bottom: 0.5em;
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 0.8em; }
   label.required:after {
     content: "*"; }
   label abbr {
@@ -1354,6 +1358,7 @@ textarea,
 select,
 select[multiple=multiple] {
   box-sizing: border-box;
+  margin-bottom: 0.25em;
   padding: 0.5em;
   width: 100%;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -1417,7 +1422,8 @@ form ul, form ol, form li {
 
 /* instructions */
 .instruct {
-  font-size: 0.8rem; }
+  font-size: 0.8em;
+  font-style: italic; }
 
 /* ==========================================================================
    Teasers
