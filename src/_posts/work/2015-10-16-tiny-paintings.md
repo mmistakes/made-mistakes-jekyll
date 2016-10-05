@@ -19,8 +19,8 @@ My plan was to complete a miniature 1.5\" painting a day, but the challenge of p
 {% for post in site.categories.tiny-paintings %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></noscript>
+      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <noscript><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></noscript>
     </a>
   </li>
 {% endfor %}

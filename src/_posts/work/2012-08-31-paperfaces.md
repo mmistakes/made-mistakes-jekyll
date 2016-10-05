@@ -22,8 +22,8 @@ If you scroll down far enough you can see how my technique evolved from faceless
 {% for post in site.categories.paperfaces %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></noscript>
+      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <noscript><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></noscript>
     </a>
   </li>
 {% endfor %}
