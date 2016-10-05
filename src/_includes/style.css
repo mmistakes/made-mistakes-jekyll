@@ -1981,7 +1981,7 @@ green     #859900  operators, other keywords
 .comment {
   position: relative;
   margin-bottom: 4em;
-  padding-left: 4.25em;
+  padding-left: 4.5em;
   font-size: 0.8em; }
 
 .comment__timestamp {
@@ -2010,6 +2010,16 @@ green     #859900  operators, other keywords
   left: 0;
   width: 3.25em;
   height: 3.25em; }
+  .comment__avatar:after {
+    position: absolute;
+    bottom: -0.5em;
+    right: -0.5em;
+    width: 3.25em;
+    height: 3.25em;
+    content: '';
+    background: #e3e3e3 -webkit-repeating-linear-gradient(135deg, transparent, transparent 0.25%, white 0.25%, white 0.5%);
+    background: #e3e3e3 repeating-linear-gradient(-45deg, transparent, transparent 0.25%, white 0.25%, white 0.5%);
+    z-index: -1; }
 
 .comment__author-name {
   margin: 0 0 0.25em 0;

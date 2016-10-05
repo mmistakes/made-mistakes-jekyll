@@ -5,7 +5,7 @@
 .comment {
   position: relative;
   margin-bottom: 4em;
-  padding-left: 4.25em;
+  padding-left: 4.5em;
   font-size: 0.8em;
 }
 
@@ -50,18 +50,22 @@
   position: absolute;
   top: 0;
   left: 0;
-  // flex: 0 0 3.75em;
   width: 3.25em;
   height: 3.25em;
-  // margin-right: 1em;
+
+  &:after {
+    position: absolute;
+    bottom: -0.5em;
+    right: -0.5em;
+    width: 3.25em;
+    height: 3.25em;
+    content: '';
+    background: #e3e3e3 repeating-linear-gradient(-45deg, transparent, transparent 0.25%, white 0.25%, white 0.5%);
+    z-index: -1;
+  }
 }
 
-// .comment__author {
-//   vertical-align: middle;
-// }
-
 .comment__author-name {
-  // flex: 1;
   margin: 0 0 0.25em 0;
   font-size: 1.25em;
   line-height: 1;
