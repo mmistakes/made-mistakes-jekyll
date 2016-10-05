@@ -5,23 +5,12 @@ layout: default
 <div class="work">
   <div class="site__logo"><a href="{{ site.url }}">{{ site.title }}</a></div>
     <article class="page__wrap">
-      <header class="page__header">
-        <h1 class="page__title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-        {% if page.category %}
-          <div class="page__meta">
-            <span class="taxonomy"><a href="{{ site.url }}/{{ page.category }}/"><strong>{{ page.category }}</strong></a></span>
-            {% if page.date %} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% endif %}
-          </div>
-        {% endif %}
-      </header>
-
+      {% include page__header.html %}
       {% include page__hero.html type="work" %}
       {% include work__gallery.html %}
-
       <section class="page__content">
         {{ content }}
       </section>
-
       {% if page.comments == true %}
         {% include page__comments.html %}
       {% endif %}

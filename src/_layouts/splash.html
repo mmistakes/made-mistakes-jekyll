@@ -4,13 +4,7 @@ layout: default
 
 <div class="site__logo"><a href="{{ site.url }}">{{ site.title }}</a></div>
   <article class="page__wrap">
-    <header class="page__header">
-      <h1 class="page__title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-      {{ content }}
-      </div>
-    </header>
-
+    {% include page__header.html %}
     {% include page__hero.html %}
-
     <section class="page__content"></section>
   </article>

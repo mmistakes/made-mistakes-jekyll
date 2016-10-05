@@ -11,19 +11,8 @@ layout: default
   <div class="site__logo"><a href="{{ site.url }}">{{ site.title }}</a></div>
   <div id="main" role="main">
     <div class="page__wrap">
-      <header class="page__header">
-        <h1 class="page__title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-        <p class="page__excerpt">
-          {% if tag.description %}
-            {{ tag.description | markdownify | remove: "<p>" | remove: "</p>" }}
-          {% else %}
-            An archive of posts tagged <em>{{ page.title }}</em>.
-          {% endif %}
-        </p>
-      </header>
-
+      {% include page__header.html %}
       <div class="page__cover"></div>
-
       <div class="list">
         {% for post in page.posts %}
           {% include archive__item.html %}
