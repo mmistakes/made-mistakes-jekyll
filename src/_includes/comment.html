@@ -16,7 +16,7 @@
   <div class="comment__timestamp">
     {% if include.date %}
       {% if include.index %}<a href="#comment-{{ include.index }}" title="comment permalink">{% endif %}
-      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y at %I:%M %p' }}</time>
       {% if include.index %}</a>{% endif %}
     {% endif %}
   </div>

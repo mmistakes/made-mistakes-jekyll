@@ -5,7 +5,7 @@
   {% for img in gallery %}
     {% if img.url %}
       <a class="work__gallery-img" href=
-        {% if img.url contains "://" %}
+        {% if img.url contains '://' %}
           "{{ img.url }}"
         {% else %}
           "{{ img.url | prepend: site.url }}"
@@ -13,7 +13,7 @@
         {% if img.title %}title="{{ img.title }}"{% endif %}
       >
         <img src=
-          {% if img.image_path contains "://" %}
+          {% if img.image_path contains '://' %}
             "{{ img.image_path }}"
           {% else %}
             "{{ img.image_path | prepend: site.url }}"
@@ -22,7 +22,7 @@
       </a>
     {% else %}
       <img src=
-        {% if img.image_path contains "://" %}
+        {% if img.image_path contains '://' %}
           "{{ img.image_path }}"
         {% else %}
           "{{ img.image_path | prepend: site.url }}"
