@@ -1,20 +1,21 @@
 <header class="page__header">
   <h1 class="page__title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-  {% if page.layout == 'page' or page.layout == 'work' %}
-    {% if page.category %}
-      <div class="page__meta">
-        <span class="taxonomy"><a href="{{ site.url }}/{{ page.category }}/"><strong>{{ page.category }}</strong></a></span>
-        {% if page.date %} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time>{% endif %}
-      </div>
-    {% endif %}
-  {% elsif page.layout == 'archive' %}
+  {% if page.breadcrumbs %}
+    {% assign crumb = page.breadcrumbs[0] %}
+    <div class="page__meta">
+      <span class="taxonomy"><a href="{{ site.url }}{{ crumb.url }}"><strong>{{ crumb.label }}</strong></a></span>
+      {% if page.date %} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time>{% endif %}
+    </div>
+  {% endif %}
+
+  {% if page.layout == 'archive' %}
     {% if page.excerpt %}
       <p class="page__excerpt">{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
   {% elsif page.layout == 'tag_index' %}
     <p class="page__excerpt">
       {% if tag.description %}
-        {{ tag.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        {{ tag.description | markdownify | remove: '<p>' | remove: '</p>' }}
       {% else %}
         An archive of posts tagged <em>{{ page.title }}</em>.
       {% endif %}
