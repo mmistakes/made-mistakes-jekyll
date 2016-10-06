@@ -170,10 +170,6 @@
   margin-bottom: 4em;
   z-index: 1;
 
-  @include breakpoint($x-large) {
-    max-width: span(6 of 7);
-  }
-
   h2, h3, h4, h5, h6 {
     margin: 2em 0 1em 0;
     font-family: $sans-serif;

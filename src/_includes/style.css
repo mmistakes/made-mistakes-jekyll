@@ -766,9 +766,6 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   position: relative;
   margin-bottom: 4em;
   z-index: 1; }
-  @media (min-width: 90em) {
-    .page__content {
-      max-width: 85.2941176471%; } }
   .page__content h2, .page__content h3, .page__content h4, .page__content h5, .page__content h6 {
     margin: 2em 0 1em 0;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
@@ -2078,13 +2075,10 @@ h5.review__title {
    BANNERS
    ========================================================================== */
 .ad {
-  margin: 2em 0;
   text-align: center; }
-
-.ad__caption {
-  display: block;
-  font-style: italic;
-  font-size: 0.64rem; }
+  @media (min-width: 37.5em) {
+    .ad {
+      text-align: left; } }
 
 /*
    Google Adsense
@@ -2109,9 +2103,16 @@ h5.review__title {
 
 /* footer ad */
 .adsense--footer {
+  margin-top: 2em;
+  margin-bottom: 2em;
   width: 300px;
   height: 250px;
+  text-align: center;
   border-bottom: 0 solid transparent; }
+  @media (min-width: 37.5em) {
+    .adsense--footer {
+      padding-left: 2em;
+      padding-right: 2em; } }
   @media (min-width: 500px) and (max-width: 900px) {
     .adsense--footer {
       width: 468px;
