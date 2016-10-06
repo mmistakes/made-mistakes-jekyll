@@ -748,19 +748,22 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       margin-right: -41.1764705882%; } }
   .page__hero .image {
     width: 100%;
-    box-shadow: 2em 2em 0 white, 2em -2em white; }
+    box-shadow: 2em 2em 0 #fff, 2em -2em #fff; }
   .page__hero .page__hero-credit {
     position: absolute;
-    bottom: -1px;
+    bottom: 0;
     right: 0;
     padding: 1em;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     font-size: 0.8em;
     text-align: right;
-    line-height: 1;
-    background-color: white; }
+    line-height: 1; }
     .page__hero .page__hero-credit a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #fff;
+      opacity: 0.5; }
+      .page__hero .page__hero-credit a:hover {
+        opacity: 1; }
 
 /*
    Content

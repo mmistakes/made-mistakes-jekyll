@@ -149,22 +149,27 @@
 
   .image {
     width: 100%;
-    box-shadow: 2em 2em 0 white, 2em -2em white;
+    box-shadow: 2em 2em 0 #fff, 2em -2em #fff;
   }
 
   .page__hero-credit {
     position: absolute;
-    bottom: -1px; // fix seam from appearing
+    bottom: 0;
     right: 0;
     padding: 1em;
     font-family: $sans-serif;
     font-size: 0.8em;
     text-align: right;
     line-height: 1;
-    background-color: white;
 
     a {
       text-decoration: none;
+      color: #fff;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }
