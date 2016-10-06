@@ -773,7 +773,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   margin-bottom: 4em;
   z-index: 1; }
   .page__content h2, .page__content h3, .page__content h4, .page__content h5, .page__content h6 {
-    margin: 2em 0 1em 0;
+    margin: 1.5em 0 1em 0;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
   .page__content > p, .page__content > ul, .page__content > ol, .page__content > figure, .page__content > table {
     margin-bottom: 1.5em; }
@@ -968,7 +968,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
    TABLE OF CONTENTS
    ========================================================================== */
 .toc {
-  margin: 3em 0 2em 0;
+  margin: 2em 0 1.5em 0;
   font-family: Monaco, Consolas, "Lucida Console", monospace; }
   .toc input {
     display: none; }
