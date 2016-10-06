@@ -86,6 +86,14 @@
       }
     }
   }
+
+  time {
+
+    &:before {
+      content: '\25b6';
+      padding-right: 1em;
+    }
+  }
 }
 
 /*

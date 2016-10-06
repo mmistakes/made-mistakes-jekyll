@@ -697,6 +697,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
         height: 0.5em;
         background-color: #fff055;
         z-index: -10; }
+  .page__meta time:before {
+    content: '\25b6';
+    padding-right: 1em; }
 
 /*
    Cover image
