@@ -687,6 +687,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     white-space: nowrap; }
     .page__meta .taxonomy a {
       position: relative; }
+      .page__meta .taxonomy a:hover {
+        letter-spacing: 0.125em; }
       .page__meta .taxonomy a:before {
         display: block;
         content: '';
@@ -695,7 +697,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
         bottom: 0;
         width: calc(100% + 1em);
         height: 0.5em;
-        background-color: #fff055;
+        background-color: #ffd43b;
         z-index: -10; }
   .page__meta time:before {
     content: '\25b6';
@@ -984,22 +986,36 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     -webkit-transition: 0.2s ease-out;
     transition: 0.2s ease-out;
     cursor: pointer; }
-    .toc label:after {
-      content: '-';
+    .toc label:before, .toc label:after {
+      content: '';
       position: absolute;
       right: 1em;
-      top: 1em;
-      width: 1em;
-      height: 1em;
-      line-height: 1; }
+      top: 1.5em;
+      width: 0.75em;
+      height: 0.125em;
+      line-height: 1;
+      background-color: #333;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    .toc label:after {
+      -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg); }
     .toc label:hover {
       border-color: #333; }
   .toc input:checked + label {
     color: white;
     background-color: black; }
-  .toc label:hover:after,
+    .toc input:checked + label:before, .toc input:checked + label:after {
+      background-color: #fff; }
+  .toc label:hover:after {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg); }
   .toc input:checked + label:hover:after {
-    content: '+'; }
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0); }
 
 .toc__menu > ul {
   padding: 0 1em; }

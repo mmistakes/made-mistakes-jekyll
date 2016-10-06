@@ -73,6 +73,10 @@
     a {
       position: relative;
 
+      &:hover {
+        letter-spacing: 0.125em;
+      }
+
       &:before {
         display: block;
         content: '';
@@ -81,7 +85,7 @@
         bottom: 0;
         width: calc(100% + 1em);
         height: 0.5em;
-        background-color: #fff055;
+        background-color: $highlighter-color;
         z-index: -10;
       }
     }

@@ -22,14 +22,21 @@
     transition: 0.2s ease-out;
     cursor: pointer;
 
+    &:before,
     &:after {
-      content: '-';
+      content: '';
       position: absolute;
       right: 1em;
-      top: 1em;
-      width: 1em;
-      height: 1em;
+      top: 1.5em;
+      width: 0.75em;
+      height: 0.125em;
       line-height: 1;
+      background-color: #333;
+      transition: $global-transition;
+    }
+
+    &:after {
+      transform: rotate(90deg);
     }
 
     &:hover {
@@ -41,12 +48,20 @@
   input:checked + label {
     color: white;
     background-color: black;
+
+    &:before,
+    &:after {
+      background-color: #fff;
+    }
   }
 
   // on hover show expand
-  label:hover:after,
+  label:hover:after {
+    transform: rotate(90deg);
+  }
+
   input:checked + label:hover:after {
-    content: '+';
+    transform: rotate(0);
   }
 }
 
@@ -99,5 +114,5 @@
   max-height: 100vh;
   opacity: 1;
   margin-top: 1em;
-  transform: translate(0 , 0);
+  transform: translate(0, 0);
 }
