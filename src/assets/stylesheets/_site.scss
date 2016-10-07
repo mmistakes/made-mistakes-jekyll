@@ -3,9 +3,14 @@
    ========================================================================== */
 
 .site__logo {
-  margin: 4em 2em 6em 2em;
+  margin: 4em 1em 6em 1em;
   line-height: 1;
   font-family: $monospace;
+
+  @include breakpoint($small) {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 
   a {
     color: #000;
