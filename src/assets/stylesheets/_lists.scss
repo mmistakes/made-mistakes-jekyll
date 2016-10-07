@@ -4,19 +4,37 @@
 
 .list {
 
-  .item a {
-    display: flex;
-    flex-direction: column;
-    color: inherit;
-    text-decoration: none;
+  .item {
+    a {
+      display: flex;
+      flex-direction: column;
+      color: inherit;
+      text-decoration: none;
 
-    @include breakpoint($medium) {
-      flex-direction: row;
-      align-items: flex-start;
-    }
+      &:hover {
 
-    @include breakpoint($medium-wide) {
-      margin-right: -1 * span(2 of 8);
+        .item__title {
+          &:before {
+            width: 100%;
+          }
+        }
+
+        .item__image {
+
+          &:before {
+            opacity: 0.5;
+          }
+        }
+      }
+
+      @include breakpoint($medium) {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+
+      @include breakpoint($medium-wide) {
+        margin-right: -1 * span(2 of 8);
+      }
     }
   }
 }
@@ -51,6 +69,7 @@
     height: 0.125em;
     width: 2em;
     background-color: #333;
+    transition: $global-transition;
   }
 }
 
@@ -64,10 +83,23 @@
 }
 
 .item__image {
+  position: relative;
   order: -1;
   max-width: 400px;
   max-height: 250px;
   overflow: hidden;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background: $link-color;
+    opacity: 0;
+    transition: $global-transition;
+  }
 
   @include breakpoint($medium) {
     order: initial;

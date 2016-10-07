@@ -48,6 +48,9 @@ a:focus {
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
+* {
+  box-sizing: border-box; }
+
 /*
    Breakpoint-Sass
    ========================================================================== */
@@ -612,9 +615,13 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
    Site
    ========================================================================== */
 .site__logo {
-  margin: 4em 2em 6em 2em;
+  margin: 4em 1em 6em 1em;
   line-height: 1;
   font-family: Monaco, Consolas, "Lucida Console", monospace; }
+  @media (min-width: 37.5em) {
+    .site__logo {
+      margin-left: 2em;
+      margin-right: 2em; } }
   .site__logo a {
     color: #000;
     text-decoration: none; }
@@ -779,6 +786,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
   .page__content > p, .page__content > ul, .page__content > ol, .page__content > figure, .page__content > table {
     margin-bottom: 1.5em; }
+  .page__content ul {
+    list-style-type: square; }
   .page__content li {
     margin-bottom: 0.5em; }
   .page__content li > ul,
@@ -1505,6 +1514,10 @@ form ul, form ol, form li {
           flex-direction: column;
   color: inherit;
   text-decoration: none; }
+  .list .item a:hover .item__title:before {
+    width: 100%; }
+  .list .item a:hover .item__image:before {
+    opacity: 0.5; }
   @media (min-width: 48em) {
     .list .item a {
       -webkit-box-orient: horizontal;
@@ -1540,7 +1553,9 @@ form ul, form ol, form li {
     content: '';
     height: 0.125em;
     width: 2em;
-    background-color: #333; }
+    background-color: #333;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
 
 .item__meta {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -1550,12 +1565,24 @@ form ul, form ol, form li {
   margin-left: 1em; }
 
 .item__image {
+  position: relative;
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
   max-width: 400px;
   max-height: 250px;
   overflow: hidden; }
+  .item__image:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background: #2375c1;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
   @media (min-width: 48em) {
     .item__image {
       -webkit-box-ordinal-group: NaN;
@@ -2222,9 +2249,6 @@ h5.review__title {
     font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase; }
-
-#component-select {
-  min-height: 32px; }
 
 /*
    Color swatches
