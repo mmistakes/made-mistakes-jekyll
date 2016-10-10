@@ -700,18 +700,18 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   line-height: 1.625; }
 
 .page__meta {
-  font-size: 1em; }
+  font-size: 1em;
+  text-transform: uppercase; }
   .page__meta a {
     color: inherit;
     text-decoration: none; }
-  .page__meta .taxonomy {
+  .page__meta span {
     margin-right: 1em;
-    text-transform: uppercase;
     white-space: nowrap; }
+  .page__meta .taxonomy {
+    margin-right: 2em; }
     .page__meta .taxonomy a {
       position: relative; }
-      .page__meta .taxonomy a:hover {
-        letter-spacing: 0.125em; }
       .page__meta .taxonomy a:before {
         display: block;
         content: '';
@@ -722,9 +722,6 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
         height: 0.5em;
         background-color: #ffd43b;
         z-index: -10; }
-  .page__meta time:before {
-    content: '\25b6';
-    padding-right: 1em; }
 
 /*
    Cover image

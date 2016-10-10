@@ -64,23 +64,23 @@
 
 .page__meta {
   font-size: 1em;
+  text-transform: uppercase;
 
   a {
     color: inherit;
     text-decoration: none;
   }
 
-  .taxonomy {
+  span {
     margin-right: 1em;
-    text-transform: uppercase;
     white-space: nowrap;
+  }
+
+  .taxonomy {
+    margin-right: 2em;
 
     a {
       position: relative;
-
-      &:hover {
-        letter-spacing: 0.125em;
-      }
 
       &:before {
         display: block;
@@ -96,13 +96,16 @@
     }
   }
 
-  time {
+  // time {
 
-    &:before {
-      content: '\25b6';
-      padding-right: 1em;
-    }
-  }
+  //   margin-right: 1em;
+  //   white-space: nowrap;
+
+  //   &:before {
+  //     content: '\25b6';
+  //     padding-right: 1em;
+  //   }
+  // }
 }
 
 /*
