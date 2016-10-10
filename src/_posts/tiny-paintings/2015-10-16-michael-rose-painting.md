@@ -1,23 +1,24 @@
 ---
 title: "Cut My Face in Half"
 excerpt: "Tiny portrait of Michael Rose painted with watercolor on hot press paper."
-modified: 2015-11-16T11:22:18-05:00
+modified: 2016-10-10T11:19:28-04:00
 image: 
   path: &image /assets/images/painting-michael-rose-lg.jpg
   feature: *image
   teaser: /assets/images/painting-michael-rose-teaser.jpg
   thumb: /assets/images/painting-michael-rose-250.jpg
+gallery:
+  - url: /assets/images/painting-michael-rose-process-1-lg.jpg
+    image_path: /assets/images/painting-michael-rose-process-1-600.jpg
+    alt: "Pencil sketch work in process"
+  - url: /assets/images/painting-michael-rose-process-2-lg.jpg
+    image_path: /assets/images/painting-michael-rose-process-2-600.jpg
+    alt: "First layer of watercolor glaze"
 tags: [Michael Rose, watercolor, painting, drawing, portrait, illustration]
 ---
 
 Tiny self portrait painted with watercolor on hot press paper.
 
 Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. I find its always easier to work with foreign media when starting with a familiar subject. In this case it was my own face... well part of it at least.
-
-<figure class="half">
-  <a href="{{ site.url }}/assets/images/painting-michael-rose-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/painting-michael-rose-process-1-600.jpg" alt="Work in process"></a>
-  <a href="{{ site.url }}/assets/images/painting-michael-rose-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/painting-michael-rose-process-2-600.jpg" alt="Work in process"></a>
-  <figcaption>Various work in progress snapshots from the initial drawing up to its completion.</figcaption>
-</figure>
 
 {% include boilerplate/watercolor.md %}
