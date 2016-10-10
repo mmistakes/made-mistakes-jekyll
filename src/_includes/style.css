@@ -622,15 +622,27 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .site__logo {
       margin-left: 2em;
       margin-right: 2em; } }
+  @media (min-width: 64em) {
+    .site__logo {
+      margin-left: 3em;
+      margin-right: 3em; } }
   .site__logo a {
     color: #000;
     text-decoration: none; }
 
 .site__footer {
   position: relative;
-  padding: 2em;
+  padding: 2em 1em;
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 0.8em; }
+  @media (min-width: 37.5em) {
+    .site__footer {
+      padding-left: 2em;
+      padding-right: 2em; } }
+  @media (min-width: 64em) {
+    .site__footer {
+      padding-left: 3em;
+      padding-right: 3em; } }
   .site__footer .copyright {
     font-size: 0.8em; }
 
@@ -652,6 +664,10 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .page__wrap {
       padding-left: 2em;
       padding-right: 2em; } }
+  @media (min-width: 64em) {
+    .page__wrap {
+      padding-left: 3em;
+      padding-right: 3em; } }
 
 .page__title {
   margin: 1em 0 0.5em;
@@ -659,7 +675,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 
 .page__header {
   position: relative;
-  margin: 2em 0;
+  margin: 2em 0 3em;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   line-height: 1.25;
   z-index: 1; }
@@ -1490,6 +1506,9 @@ form ul, form ol, form li {
     padding: 2em;
     color: white;
     text-decoration: none; }
+    @media (min-width: 64em) {
+      .teaser a {
+        padding: 3em; } }
   .teaser .teaser__title {
     position: relative;
     margin: 0;

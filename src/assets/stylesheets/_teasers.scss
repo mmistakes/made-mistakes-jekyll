@@ -35,6 +35,10 @@
     padding: 2em;
     color: white;
     text-decoration: none;
+
+    @include breakpoint($large) {
+      padding: 3em;
+    }
   }
 
   .teaser__title {

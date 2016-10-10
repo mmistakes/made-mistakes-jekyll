@@ -12,6 +12,11 @@
     margin-right: 2em;
   }
 
+  @include breakpoint($large) {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
   a {
     color: #000;
     text-decoration: none;
@@ -20,9 +25,19 @@
 
 .site__footer {
   position: relative;
-  padding: 2em;
+  padding: 2em 1em;
   font-family: $monospace;
   font-size: 0.8em;
+
+  @include breakpoint($small) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  @include breakpoint($large) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 
   .copyright {
     font-size: 0.8em;
