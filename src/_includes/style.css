@@ -1040,23 +1040,34 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
             transform: rotate(0); }
 
 .toc__menu > ul {
-  padding: 0 1em; }
+  padding: 0;
+  list-style-type: none;
+  counter-reset: section; }
   .toc__menu > ul li {
     display: block;
     font-weight: normal; }
     .toc__menu > ul li a {
-      display: block;
-      color: black;
+      color: #000;
       text-decoration: none; }
       .toc__menu > ul li a:hover {
         text-decoration: underline; }
   .toc__menu > ul > li {
+    counter-increment: section;
     font-weight: 700; }
+    .toc__menu > ul > li:before {
+      content: counter(section) ". "; }
     .toc__menu > ul > li:not(:last-child) {
       padding-bottom: 0.5em;
       border-bottom: 1px solid #ccc; }
     .toc__menu > ul > li > ul {
       padding-left: 1em; }
+  .toc__menu > ul ul {
+    list-style-type: none;
+    counter-reset: subsection; }
+    .toc__menu > ul ul > li {
+      counter-increment: subsection; }
+      .toc__menu > ul ul > li:before {
+        content: counter(section) "." counter(subsection) ". "; }
 
 .toc .toc__menu {
   position: relative;

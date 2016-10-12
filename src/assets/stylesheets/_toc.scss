@@ -66,15 +66,16 @@
 }
 
 .toc__menu > ul {
-  padding: 0 1em;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: section;
 
   li {
     display: block;
     font-weight: normal;
 
     a {
-      display: block;
-      color: black;
+      color: #000;
       text-decoration: none;
 
       &:hover {
@@ -84,7 +85,12 @@
   }
 
   > li {
+    counter-increment: section;
     font-weight: 700;
+
+    &:before {
+      content: counter(section) ". ";
+    }
 
     &:not(:last-child) {
       padding-bottom: 0.5em;
@@ -93,6 +99,19 @@
 
     > ul {
       padding-left: 1em;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    counter-reset: subsection;
+
+    > li {
+      counter-increment: subsection;
+
+      &:before {
+        content: counter(section) "." counter(subsection) ". ";
+      }
     }
   }
 }
