@@ -12,7 +12,7 @@
           {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
           <span class="archive__item-time"><svg class="icon"><use xlink:href="#icon-stopwatch"></use></svg> {% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
         {% else %}
-          <span>{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+          <span><svg class="icon"><use xlink:href="#icon-folder"></use></svg> {{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
         {% endunless %}
       </div>
       <div class="item__excerpt">
