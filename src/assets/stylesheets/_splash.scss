@@ -8,7 +8,11 @@
   background-color: $splash-background-color;
 
   a {
-    color: #fff;
+    color: $lighter-gray;
+
+    &:hover {
+      color: #fff;
+    }
   }
 
   .page__cover {

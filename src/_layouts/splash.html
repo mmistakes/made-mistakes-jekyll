@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="site__logo"><a href="{{ site.url }}">{{ site.title }}</a></div>
-  <article class="page__wrap">
-    {% include page__header.html %}
-    {% include page__hero.html %}
-    <section class="page__content"></section>
-  </article>
+{% include site__logo.html %}
+<article class="page__wrap">
+  {% include page__header.html %}
+  {% include page__hero.html %}
+  <section class="page__content"></section>
+</article>

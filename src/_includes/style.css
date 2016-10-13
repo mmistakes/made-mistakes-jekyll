@@ -627,8 +627,10 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       margin-left: 3em;
       margin-right: 3em; } }
   .site__logo a {
-    color: #000;
+    color: #4c4c4c;
     text-decoration: none; }
+    .site__logo a:hover {
+      color: #000; }
 
 .site__footer {
   position: relative;
@@ -1100,7 +1102,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   color: #fff;
   background-color: #000; }
   .dark a {
-    color: #fff; }
+    color: #f9f9f9; }
+    .dark a:hover {
+      color: #fff; }
   .dark .page__cover {
     background-color: #000; }
     @media (min-width: 56.25em) {
