@@ -26,7 +26,7 @@
     {% unless page.comments_locked == true %}
     <!-- Start new comment form -->
     <h2 class="page__section-label">Leave a Comment</h2>
-    <p class="instruct">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+    <p class="instruct">Your email address will not be published. Required fields are marked&nbsp;<span class="required">*</span></p>
     <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
       <fieldset>
         <label for="comment-form-message">Comment<small class="required">*</small> <small>(<a href="https://daringfireball.net/projects/markdown/">Markdown</a> is supported)</small></label>
