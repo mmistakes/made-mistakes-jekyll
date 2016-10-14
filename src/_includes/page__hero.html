@@ -8,5 +8,9 @@
     {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
   </div>
 {% else %}
-  <div class="page__cover"></div>
+  <div class="page__cover"
+    {% if page.image.cover %}
+      style="background-image: url({{ site.url }}{{ page.image.cover }});"
+    {% endif %}>
+  </div>
 {% endif %}
