@@ -1,8 +1,8 @@
 ---
 permalink: /about/
-title: "About Michael Rose"
+title: "About Michael&#160;Rose"
 date: 2014-06-01
-modified: 2016-02-11
+modified: 2016-10-14T10:04:57-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   path: &image /assets/images/about-michael-collage-2016.jpg
