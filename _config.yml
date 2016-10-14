@@ -122,6 +122,7 @@ defaults:
     values:
       layout: page
       category: articles
+      read_time: true
       breadcrumbs:
         - label: "Blog Articles"
           url: /articles/
@@ -132,6 +133,7 @@ defaults:
     values:
       layout: page
       category: mastering-paper
+      read_time: true
       breadcrumbs:
         - label: "Mastering Paper by 53"
           url: /mastering-paper/
@@ -192,6 +194,7 @@ defaults:
       type: faqs
     values:
       layout: page
+      read_time: true
       breadcrumbs:
         - label: "Frequently Asked Questions"
           url: /faqs/
