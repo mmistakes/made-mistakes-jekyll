@@ -133,7 +133,7 @@ a {
 
 /* Code */
 tt, code, kbd, samp, pre {
-  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 0.8rem; }
 
 pre {
@@ -617,7 +617,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 .site__logo {
   margin: 4em 1em 6em 1em;
   line-height: 1;
-  font-family: Monaco, Consolas, "Lucida Console", monospace; }
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace; }
   @media (min-width: 37.5em) {
     .site__logo {
       margin-left: 2em;
@@ -635,7 +635,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 .site__footer {
   position: relative;
   padding: 2em 1em;
-  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 0.8em; }
   @media (min-width: 37.5em) {
     .site__footer {
@@ -925,6 +925,10 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 .work .page__content {
   position: initial; }
 
+@media (min-width: 56.25em) {
+  .work__hero {
+    margin-bottom: 3em; } }
+
 .work__hero img {
   width: 100%; }
 
@@ -995,7 +999,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
    ========================================================================== */
 .toc {
   margin: 2em 0 1.5em 0;
-  font-family: Monaco, Consolas, "Lucida Console", monospace; }
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace; }
   .toc input {
     display: none; }
   .toc label {
