@@ -10,9 +10,9 @@
         {% unless post.work %}
           <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
           {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-          <span class="archive__item-time"><svg class="icon"><use xlink:href="#icon-stopwatch"></use></svg> {% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
+          <span class="archive__item-time"><svg class="icon"><use xlink:href="#icon-stopwatch"></use></svg>&nbsp;{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
         {% else %}
-          <span><svg class="icon"><use xlink:href="#icon-folder"></use></svg> {{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+          <span><svg class="icon"><use xlink:href="#icon-folder"></use></svg>&nbsp;{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
         {% endunless %}
       </div>
       <div class="item__excerpt">

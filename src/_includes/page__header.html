@@ -6,13 +6,13 @@
       <span class="taxonomy"><a href="{{ site.url }}{{ crumb.url }}"><strong>{{ crumb.label }}</strong></a></span>
       {% if page.read_time %}
         {% assign readtime = page.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-        <span class="read-time"><svg class="icon"><use xlink:href="#icon-stopwatch"></use></svg> {% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
+        <span class="read-time"><svg class="icon"><use xlink:href="#icon-stopwatch"></use></svg>&nbsp;{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
       {% endif %}
       {% if page.work %}
-        <span class="work__type"><svg class="icon"><use xlink:href="#icon-folder"></use></svg> {{ page.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <span class="work__type"><svg class="icon"><use xlink:href="#icon-folder"></use></svg>&nbsp;{{ page.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
       {% endif %}
       {% if site.data.comments[page.slug].size > 0 %}
-        <span class="comment__count"><a href="#comments"><svg class="icon"><use xlink:href="#icon-comments"></use></svg> {{ site.data.comments[page.slug] | size }} Comment{% if site.data.comments[page.slug].size > 1 %}s{% endif %}</a></span>
+        <span class="comment__count"><a href="#comments"><svg class="icon"><use xlink:href="#icon-comments"></use></svg>&nbsp;{{ site.data.comments[page.slug] | size }} Comment{% if site.data.comments[page.slug].size > 1 %}s{% endif %}</a></span>
       {% endif %}
     </div>
   {% endif %}

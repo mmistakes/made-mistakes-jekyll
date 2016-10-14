@@ -1,5 +1,5 @@
 ---
-title: "So Simple, a Jekyll Theme"
+title: "So Simple, a Jekyll&#160;Theme"
 headline: "So Simple Theme"
 subheadline: "Built for Jekyll"
 excerpt: "A simple and responsive Jekyll theme for words and photos by designer Michael Rose."
