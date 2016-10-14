@@ -83,7 +83,7 @@ PLATFORMS
 
 DEPENDENCIES
   breakpoint
-  jekyll (~> 3.2)
+  jekyll (~> 3.2.1)
   jekyll-archives
   jekyll-seo-tag
   jekyll-sitemap
