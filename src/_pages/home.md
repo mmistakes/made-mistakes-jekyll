@@ -1,10 +1,10 @@
 ---
 layout: splash
 permalink: /
-title: "A Designer's Faux Pas"
+title: "A Designer's Faux&#160;Pas"
 excerpt: "Making stuff one mistake at a time."
 image:
-  path: &image /assets/images/black-glitched-1.png
+  path: &image /assets/images/self-portrait-ipad-procreate-glitched.jpg
   feature: *image
 classes:
   - splash

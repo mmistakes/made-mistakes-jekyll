@@ -12,7 +12,7 @@
     margin-right: 2em;
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     margin-left: 3em;
     margin-right: 3em;
   }
@@ -38,7 +38,7 @@
     padding-right: 2em;
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     padding-left: 3em;
     padding-right: 3em;
   }

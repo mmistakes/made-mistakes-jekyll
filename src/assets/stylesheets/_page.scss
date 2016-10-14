@@ -7,7 +7,7 @@
     width: span(8);
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     width: span(7);
   }
 }
@@ -21,7 +21,7 @@
     padding-right: 2em;
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     padding-left: 3em;
     padding-right: 3em;
   }
@@ -142,7 +142,7 @@
     }
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     width: span(5);
   }
 }

@@ -101,6 +101,10 @@
     transition: $global-transition;
   }
 
+  @include breakpoint(max-width $medium) {
+    margin-bottom: 1em;
+  }
+
   @include breakpoint($medium) {
     order: initial;
     flex-basis: 35%;

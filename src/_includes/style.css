@@ -622,7 +622,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .site__logo {
       margin-left: 2em;
       margin-right: 2em; } }
-  @media (min-width: 64em) {
+  @media (min-width: 90em) {
     .site__logo {
       margin-left: 3em;
       margin-right: 3em; } }
@@ -641,7 +641,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .site__footer {
       padding-left: 2em;
       padding-right: 2em; } }
-  @media (min-width: 64em) {
+  @media (min-width: 90em) {
     .site__footer {
       padding-left: 3em;
       padding-right: 3em; } }
@@ -655,7 +655,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   .page {
     width: 66.1016949153%; } }
 
-@media (min-width: 64em) {
+@media (min-width: 90em) {
   .page {
     width: 57.6271186441%; } }
 
@@ -666,7 +666,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .page__wrap {
       padding-left: 2em;
       padding-right: 2em; } }
-  @media (min-width: 64em) {
+  @media (min-width: 90em) {
     .page__wrap {
       padding-left: 3em;
       padding-right: 3em; } }
@@ -757,7 +757,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
         content: '';
         background: -webkit-repeating-linear-gradient(135deg, transparent, transparent 0.5%, white 0.5%, white 1%);
         background: repeating-linear-gradient(-45deg, transparent, transparent 0.5%, white 0.5%, white 1%); } }
-  @media (min-width: 64em) {
+  @media (min-width: 90em) {
     .page__cover {
       width: 40.6779661017%; } }
 
@@ -1109,8 +1109,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     background-color: #000; }
     @media (min-width: 56.25em) {
       .dark .page__cover:after {
-        background: -webkit-repeating-linear-gradient(135deg, transparent, transparent 0.5%, #333 0.5%, #333 1%);
-        background: repeating-linear-gradient(-45deg, transparent, transparent 0.5%, #333 0.5%, #333 1%); } }
+        background: -webkit-repeating-linear-gradient(135deg, transparent, transparent 0.5%, #000 0.5%, #000 1%);
+        background: repeating-linear-gradient(-45deg, transparent, transparent 0.5%, #000 0.5%, #000 1%); } }
   .dark .page__hero {
     position: relative; }
     .dark .page__hero:before {
@@ -1140,16 +1140,21 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 
 .splash .page__excerpt {
   font-family: "PT Serif", serif;
-  font-size: 1.953em;
   font-weight: normal; }
+  @media (min-width: 37.5em) {
+    .splash .page__excerpt {
+      font-size: 1.563em; } }
 
 .splash .page__hero {
-  top: -2em;
-  right: 2em;
-  position: absolute;
-  margin-left: 41.1764705882%; }
+  top: -4em;
+  left: 0;
+  position: absolute; }
   @media (min-width: 56.25em) {
     .splash .page__hero {
+      top: -6em;
+      left: initial;
+      right: 2em;
+      margin-left: 41.1764705882%;
       margin-right: 0; } }
 
 .splash .list {
@@ -1614,6 +1619,9 @@ form ul, form ol, form li {
     opacity: 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
+  @media (max-width: 48em) {
+    .item__image {
+      margin-bottom: 1em; } }
   @media (min-width: 48em) {
     .item__image {
       -webkit-box-ordinal-group: NaN;
