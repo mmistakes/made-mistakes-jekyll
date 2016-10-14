@@ -1641,7 +1641,7 @@ form ul, form ol, form li {
     width: 100%; }
 
 .tag__list {
-  list-style: none;
+  list-style: none !important;
   padding-left: 0; }
   @media (min-width: 48em) {
     .tag__list {
