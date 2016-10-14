@@ -22,6 +22,10 @@
 
 .work__hero {
 
+  @include breakpoint($medium-wide) {
+    margin-bottom: 3em;
+  }
+
   img {
     width: 100%;
   }
