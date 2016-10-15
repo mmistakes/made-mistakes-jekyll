@@ -140,7 +140,7 @@ settings.
 Optimizes and caches your images. This is a set it and forget it command for the
 most part.
 
-> `gulp images`
+> `gulp images:feature`
 
 Similar to the previous task but for `feature` images. Resizes each image into various
 sizes to be served responsively with `<img>` `srcset` or `<picture>` elements.
