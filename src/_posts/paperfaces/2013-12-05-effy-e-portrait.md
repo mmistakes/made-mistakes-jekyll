@@ -2,14 +2,15 @@
 title: "Undercut inspiration"
 excerpt: "PaperFaces portrait of Effy E. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-effy-e-lg.jpg
-  thumb: paperfaces-effy-e-150.jpg
+  path: &image /assets/images/paperfaces-effy-e-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-effy-e-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of <a href="http://sktchy.com/FH2qnD">Effy E</a>, inspiration found via Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-effy-e-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-effy-e-process-1-750.jpg" alt="Work in process screenshot"></a>

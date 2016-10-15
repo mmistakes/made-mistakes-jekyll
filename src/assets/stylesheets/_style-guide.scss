@@ -66,11 +66,6 @@
   }
 }
 
-#component-select {
-  min-height: 32px;
-}
-
-
 /*
    Color swatches
    ========================================================================== */
@@ -94,9 +89,7 @@
   white-space: nowrap;
   margin: 0 2px;
   padding: 0 5px;
-  border: 1px solid $code-border-color;
   background-color: $inline-code-background;
-  border-radius: $code-border-radius;
   white-space: normal;
 }
 

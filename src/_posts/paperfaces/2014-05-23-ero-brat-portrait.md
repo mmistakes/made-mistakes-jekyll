@@ -2,14 +2,15 @@
 title: "An unlit cig can't kill you"
 excerpt: "PaperFaces portrait of a Ero Brat drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ero-brat-lg.jpg
-  thumb: paperfaces-ero-brat-150.jpg
+  path: &image /assets/images/paperfaces-ero-brat-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-ero-brat-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 ---
 
 PaperFaces portrait of a [Ero Brat](http://sktchy.com/zPm01D) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-ero-brat-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-ero-brat-process-1-600.jpg" alt="Work in process screenshot"></a>

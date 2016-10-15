@@ -2,14 +2,15 @@
 title: "A slight grin"
 excerpt: "PaperFaces portrait of @patbits drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-patbits-twitter-lg.jpg
-  thumb: paperfaces-patbits-twitter-150.jpg
+  path: &image /assets/images/paperfaces-patbits-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-patbits-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@patbits](http://twitter.com/patbits).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-patbits-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-patbits-process-1-600.jpg" alt="Work in process screenshot"></a>

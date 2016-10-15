@@ -2,9 +2,10 @@
 title: "My About.me Profile and Free Moo Business Cards"
 excerpt: "How 5 minutes spent creating an About.me profile nabbed me custom Moo business cards of my own design."
 image: 
-  feature: about-me-featured.jpg
-  teaser: about-me-teaser.jpg
-  thumb: mademistakes-business-cards-front-148x148.jpg
+  path: &image /assets/images/about-me-featured.jpg
+  feature: *image
+  teaser: /assets/images/about-me-teaser.jpg
+  thumb: /assets/images/mademistakes-business-cards-front-148x148.jpg
 tags: [business cards, design, Michael Rose]
 ---
 Pretty much the only reason I created an About.me page was to get free customized business cards printed by Moo.

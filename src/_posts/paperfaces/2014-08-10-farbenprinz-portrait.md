@@ -2,15 +2,16 @@
 title: "Watercolor Shades"
 excerpt: "PaperFaces portrait of @Farbenprinz drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-farbenprinz-twitter-lg.jpg
-  teaser: paperfaces-farbenprinz-twitter-teaser.jpg
-  thumb: paperfaces-farbenprinz-twitter-150.jpg
+  path: &image /assets/images/paperfaces-farbenprinz-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-farbenprinz-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-farbenprinz-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@Farbenprinz](http://twitter.com/farbenprinz).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-farbenprinz-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-farbenprinz-process-1-600.jpg" alt="Work in process screenshot"></a>

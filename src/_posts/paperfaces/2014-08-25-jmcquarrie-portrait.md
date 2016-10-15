@@ -2,15 +2,16 @@
 title: "Fine Line Glasses"
 excerpt: "PaperFaces portrait of @jmcquarrie drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jmcquarrie-twitter-lg.jpg
-  teaser: paperfaces-jmcquarrie-twitter-teaser.jpg
-  thumb: paperfaces-jmcquarrie-twitter-150.jpg
+  path: &image /assets/images/paperfaces-jmcquarrie-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-jmcquarrie-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-jmcquarrie-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@jmcquarrie](http://twitter.com/jmcquarrie).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-jmcquarrie-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jmcquarrie-process-1-600.jpg" alt="Work in process screenshot"></a>

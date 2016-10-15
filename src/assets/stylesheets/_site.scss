@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Site
+   ========================================================================== */
+
+.site__logo {
+  margin: 4em 1em 6em 1em;
+  line-height: 1;
+  font-family: $monospace;
+
+  @include breakpoint($small) {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  @include breakpoint($x-large) {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  a {
+    color: $gray;
+    text-decoration: none;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.site__footer {
+  position: relative;
+  padding: 2em 1em;
+  font-family: $monospace;
+  font-size: 0.8em;
+
+  @include breakpoint($small) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  @include breakpoint($x-large) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .copyright {
+    font-size: 0.8em;
+  }
+}

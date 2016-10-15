@@ -3,9 +3,10 @@ title: "Noise on the Grain"
 excerpt: "Portrait of T. Steinheil digitally painted with Procreate on an iPad."
 modified: 2015-11-27T00:00:00-05:00
 image: 
-  feature: t-steinheil-procreate-lg.jpg
-  teaser: t-steinheil-procreate-teaser.jpg
-  thumb: t-steinheil-procreate-250.jpg
+  path: &image /assets/images/t-steinheil-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/t-steinheil-procreate-teaser.jpg
+  thumb: /assets/images/t-steinheil-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse, Sktchy]
 ---
 
@@ -20,4 +21,4 @@ Now to find paper textures I can import into Procreate to build drawings on top 
   <figcaption>Time lapse video recorded within Procreate, completed in 4 hours and 50 minutes.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

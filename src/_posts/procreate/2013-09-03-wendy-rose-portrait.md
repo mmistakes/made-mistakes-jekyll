@@ -3,9 +3,10 @@ title: "Tattoos Turning to Mud"
 excerpt: "Portrait of Wendy Rose, digitally painted with Procreate on an iPad."
 modified: 2015-11-06
 image: 
-  feature: wendy-rose-procreate-lg.jpg
-  teaser: wendy-rose-procreate-teaser.jpg
-  thumb: wendy-rose-procreate-250.jpg
+  path: &image /assets/images/wendy-rose-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/wendy-rose-procreate-teaser.jpg
+  thumb: /assets/images/wendy-rose-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
@@ -22,10 +23,7 @@ Paper's sketchbook motif resonated with me more than the approach digital painti
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-<nav class="js-toc toc">
-  <h4 class="toc__title"><span>Tools Used</span></h4>
-  <ul class="toc__menu">
-    <li><a href="http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20">Pogo Connect Bluetooth Smart Pen</a></li>
-    <li><a href="http://procreate.si/">Procreate</a></li>
-  </ul>
-</nav>
+#### Tools Used
+
+- [Pogo Connect Bluetooth Smart Pen](http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)
+- [Procreate](http://procreate.si/)

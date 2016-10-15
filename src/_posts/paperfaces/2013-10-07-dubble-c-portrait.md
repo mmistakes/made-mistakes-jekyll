@@ -2,14 +2,15 @@
 title: "Maps and earbuds"
 excerpt: "PaperFaces portrait of @Dubble_C drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-dubble-c-twitter-lg.jpg
-  thumb: paperfaces-dubble-c-twitter-150.jpg
+  path: &image /assets/images/paperfaces-dubble-c-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-dubble-c-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/Dubble_C">@Dubble_C</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-dubble-c-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-dubble-c-process-1-750.jpg" alt="Work in process screenshot"></a>

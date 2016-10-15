@@ -105,51 +105,8 @@ gulp.task('styles', () =>
 //     .pipe(gulp.dest('.tmp/src/_includes'))
 // );
 
-// 'gulp glitchcritical:css' -- transform critical.scss into /_includes/glitchcritical.css
-// gulp.task('glitchcritical:css', () =>
-//   gulp.src('src/assets/stylesheets/glitch-critical.scss')
-//     .pipe(sass({
-//       precision: 10
-//     }).on('error', sass.logError))
-//     .pipe(postcss([
-//       autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})
-//     ]))
-//     .pipe(size({
-//       showFiles: true
-//     }))
-//     .pipe(when('*.css', cssnano({autoprefixer: false})))
-//     .pipe(size({
-//       showFiles: true
-//     }))
-//     .pipe(gulp.dest('.tmp/src/_includes'))
-// );
-
-// 'gulp critical:glitch' -- extract glitch page critical CSS into /_includes/critical-glitch.css
-gulp.task('critical:glitch', function () {
-  return gulp.src('.tmp/dist/index.html')
-    .pipe(critical({
-      base: '.tmp/',
-      css: ['src/_includes/style.css'],
-      dimensions: [{
-        width: 320,
-        height: 480
-      },{
-        width: 768,
-        height: 1024
-      },{
-        width: 1280,
-        height: 960
-      }],
-      dest: 'src/_includes/critical-glitch.css',
-      minify: true,
-      extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
-    }))
-    // .pipe(gulp.dest('src/_includes'));
-});
-
-// 'gulp critical:article' -- extract article page critical CSS into /_includes/critical-article.css
-gulp.task('critical:article', function () {
+// 'gulp critical:page' -- extract layout.page critical CSS into /_includes/critical-page.css
+gulp.task('critical:page', function () {
   return gulp.src('.tmp/dist/articles/ipad-pro/index.html')
     .pipe(critical({
       base: '.tmp/',
@@ -164,7 +121,7 @@ gulp.task('critical:article', function () {
         width: 1280,
         height: 960
       }],
-      dest: 'src/_includes/critical-article.css',
+      dest: 'src/_includes/critical-page.css',
       minify: true,
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
@@ -172,7 +129,7 @@ gulp.task('critical:article', function () {
     // .pipe(gulp.dest('src/_includes'));
 });
 
-// 'gulp critical:archive' -- extract archive page critical CSS into /_includes/critical-archive.css
+// 'gulp critical:archive' -- extract layout.archive critical CSS into /_includes/critical-archive.css
 gulp.task('critical:archive', function () {
   return gulp.src('.tmp/dist/mastering-paper/index.html')
     .pipe(critical({
@@ -189,6 +146,54 @@ gulp.task('critical:archive', function () {
         height: 960
       }],
       dest: 'src/_includes/critical-archive.css',
+      minify: true,
+      extract: false,
+      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+    }))
+    // .pipe(gulp.dest('src/_includes'));
+});
+
+// 'gulp critical:work' -- extract layout.work critical CSS into /_includes/critical-work.css
+gulp.task('critical:work', function () {
+  return gulp.src('.tmp/dist/paperfaces/asja-k-portrait/index.html')
+    .pipe(critical({
+      base: '.tmp/',
+      css: ['src/_includes/style.css'],
+      dimensions: [{
+        width: 320,
+        height: 480
+      },{
+        width: 768,
+        height: 1024
+      },{
+        width: 1280,
+        height: 960
+      }],
+      dest: 'src/_includes/critical-work.css',
+      minify: true,
+      extract: false,
+      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+    }))
+    // .pipe(gulp.dest('src/_includes'));
+});
+
+// 'gulp critical:splash' -- extract layout.splash critical CSS into /_includes/critical-splash.css
+gulp.task('critical:splash', function () {
+  return gulp.src('.tmp/dist/index.html')
+    .pipe(critical({
+      base: '.tmp/',
+      css: ['src/_includes/style.css'],
+      dimensions: [{
+        width: 320,
+        height: 480
+      },{
+        width: 768,
+        height: 1024
+      },{
+        width: 1280,
+        height: 960
+      }],
+      dest: 'src/_includes/critical-splash.css',
       minify: true,
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images

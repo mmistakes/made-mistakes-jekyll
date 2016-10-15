@@ -2,8 +2,9 @@
 title: "Glitching out"
 excerpt: "PaperFaces portrait of @thenimesh drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-thenimesh-twitter-lg.jpg
-  thumb: paperfaces-thenimesh-twitter-150.jpg
+  path: &image /assets/images/paperfaces-thenimesh-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-thenimesh-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, glitch, time lapse]
 ---
 
@@ -17,4 +18,4 @@ PaperFaces portrait of [@thenimesh](http://twitter.com/thenimesh).
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/s4WEGH5r-1c" frameborder="0"> </iframe>
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}

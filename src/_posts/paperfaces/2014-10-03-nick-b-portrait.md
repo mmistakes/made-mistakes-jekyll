@@ -2,9 +2,10 @@
 title: "Landscape of the Apocalypse"
 excerpt: "PaperFaces portrait commission of Nick B. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-nick-b-lg.jpg
-  teaser: paperfaces-nick-b-teaser.jpg
-  thumb: paperfaces-nick-b-150.jpg
+  path: &image /assets/images/paperfaces-nick-b-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-nick-b-teaser.jpg
+  thumb: /assets/images/paperfaces-nick-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Mix]
 ---
 
@@ -12,7 +13,7 @@ PaperFaces portrait commission of Nick B.
 
 Drawing is available on [on Mix](https://mix.fiftythree.com/11098-Michael-Rose/277409) if you want a closer look.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-nick-b-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-nick-b-process-1-900.jpg" alt="Work in process screenshot"></a>

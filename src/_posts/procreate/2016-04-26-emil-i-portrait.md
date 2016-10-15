@@ -3,9 +3,10 @@ title: "Watercolor, Not Watercolor"
 excerpt: "Portrait of Emil I. digitally painted with Procreate on an iPad."
 modified: 2016-07-05T11:17:57-04:00
 image: 
-  feature: emil-i-procreate-lg.jpg
-  teaser: emil-i-procreate-teaser.jpg
-  thumb: emil-i-procreate-250.jpg
+  path: &image /assets/images/emil-i-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/emil-i-procreate-teaser.jpg
+  thumb: /assets/images/emil-i-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
@@ -30,4 +31,4 @@ After getting a taste at what pressure sensitive drawing with Procreate could be
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-{% include boilerplate/procreate-2.html %}
+{% include boilerplate/procreate-2.md %}

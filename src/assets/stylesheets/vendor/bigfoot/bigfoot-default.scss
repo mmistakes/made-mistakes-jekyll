@@ -53,7 +53,7 @@ $popover-margin-top:                             0.1em !default;
 $popover-padding-content-horizontal:             1.3em !default;
 $popover-padding-content-top:                    1.1em !default;
 $popover-padding-content-bottom:                 1.2em !default;
-$popover-z-index:                                10 !default;                         // Set the base so that it's above the other body children
+$popover-z-index:                                25 !default;                         // Set the base so that it's above the other body children
 $popover-initial-transform-origin:               50% 0 !default;
 
 // POPOVER CONTENT WRAPPER

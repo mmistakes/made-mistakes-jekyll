@@ -2,14 +2,15 @@
 title: "Half peekaboo"
 excerpt: "PaperFaces portrait of @greeleygeek drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-greeleygeek-twitter-lg.jpg
-  thumb: paperfaces-greeleygeek-twitter-150.jpg
+  path: &image /assets/images/paperfaces-greeleygeek-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-greeleygeek-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@greeleygeek](http://twitter.com/greeleygeek).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-greeleygeek-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-greeleygeek-process-1-750.jpg" alt="Work in process screenshot"></a>

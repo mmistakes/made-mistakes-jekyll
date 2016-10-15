@@ -3,15 +3,16 @@ title: "Paper by FiftyThree Quick Tip: Switching Tools"
 excerpt: "Switching tools in Paper by FiftyThree may seem obvious to you pros out there, but you'd be surprised how often I'm asked how to do it. Here's the answer."
 tags: [Paper by 53, iPad, tutorial]
 image:
-  feature: paper-53-full-tools.jpg
-  teaser: paper-53-switch-tools-teaser.jpg
+  path: &image /assets/images/paper-53-full-tools.jpg
+  feature: *image
+  teaser: /assets/images/paper-53-switch-tools-teaser.jpg
 comments: true
 modified: 2016-05-17T08:10:05-04:00
 ---
 
 New to Paper by FiftyThree and just can't seem to figure out how to switch tools? I have the short answer for you right here.
 
-They may be subtle, but the white dots beneath the row of tools are a big clue to help solve this mystery. Similar to the dots you find at the bottom of your iOS device's home screen, they indicate there are offscreen goodies to be had.
+They may be subtle, but the white dots beneath the row of tools are a big clue to help solve this mystery. Similar to the dots you find at the bottom of your iOS device's home screen, they indicate there are off-screen goodies to be had.
 
 {% include toc.html %}
 

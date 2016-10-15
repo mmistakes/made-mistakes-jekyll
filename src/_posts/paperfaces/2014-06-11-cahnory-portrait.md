@@ -2,15 +2,16 @@
 title: "All for money"
 excerpt: "PaperFaces portrait of @cahnory drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-cahnory-twitter-lg.jpg
-  teaser: paperfaces-cahnory-twitter-teaser.jpg
-  thumb: paperfaces-cahnory-twitter-150.jpg
+  path: &image /assets/images/paperfaces-cahnory-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-cahnory-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-cahnory-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@cahnory](http://twitter.com/cahnory).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-cahnory-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-cahnory-process-1-600.jpg" alt="Work in process screenshot"></a>

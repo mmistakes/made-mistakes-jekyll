@@ -2,15 +2,16 @@
 title: "Drawing geometry"
 excerpt: "PaperFaces portrait of @rkrismcneely drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-rkrismcneely-twitter-lg.jpg
-  teaser: paperfaces-rkrismcneely-twitter-teaser.jpg
-  thumb: paperfaces-rkrismcneely-twitter-150.jpg
+  path: &image /assets/images/paperfaces-rkrismcneely-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-rkrismcneely-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-rkrismcneely-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, 8-bit]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/rkrismcneely">@rkrismcneely</a>.
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-rkrismcneely-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-rkrismcneely-process-1-750.jpg" alt="Work in process screenshot"></a>

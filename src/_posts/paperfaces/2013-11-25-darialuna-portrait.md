@@ -2,14 +2,15 @@
 title: "Ghosting faces"
 excerpt: "PaperFaces portrait of @DariaLuna_ drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-darialuna-twitter-lg.jpg
-  thumb: paperfaces-darialuna-twitter-150.jpg
+  path: &image /assets/images/paperfaces-darialuna-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-darialuna-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/DariaLuna_">@DariaLuna_</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-darialuna-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-darialuna-process-1-750.jpg" alt="Work in process screenshot"></a>

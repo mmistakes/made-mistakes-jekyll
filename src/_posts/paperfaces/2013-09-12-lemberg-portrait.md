@@ -2,8 +2,9 @@
 title: "Eye spy with my golf ball eye"
 excerpt: "PaperFaces portrait of @Lemberg drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lemberg-twitter-lg.jpg
-  thumb: paperfaces-lemberg-twitter-150.jpg
+  path: &image /assets/images/paperfaces-lemberg-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-lemberg-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
@@ -20,4 +21,4 @@ PaperFaces portrait of [@Lemberg](http://twitter.com/lemberg).
 	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}

@@ -1,11 +1,19 @@
 ---
 title: "Close the Blast Doors"
 excerpt: "Tiny portrait of a Star Wars Stormtrooper painted with watercolor on hot press paper."
-modified: 2015-11-16T11:22:31-05:00
+modified: 2016-10-10T11:01:54-04:00
 image: 
-  feature: painting-stormtrooper-lg.jpg
-  teaser: painting-stormtrooper-teaser.jpg
-  thumb: painting-stormtrooper-250.jpg
+  path: &image /assets/images/painting-stormtrooper-lg.jpg
+  feature: *image
+  teaser: /assets/images/painting-stormtrooper-teaser.jpg
+  thumb: /assets/images/painting-stormtrooper-250.jpg
+gallery:
+  - url: /assets/images/painting-stormtrooper-process-1-lg.jpg
+    image_path: /assets/images/painting-stormtrooper-process-1-600.jpg
+    alt: "pencil sketch"
+  - url: /assets/images/painting-stormtrooper-process-2-lg.jpg
+    image_path: /assets/images/painting-stormtrooper-process-2-600.jpg
+    alt: "finished watercolor painting"
 tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 
@@ -13,10 +21,4 @@ Tiny portrait of a Stormtrooper from **Star Wars**. Painted with watercolor on h
 
 Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. Underestimated how bad things can go when using white watercolor painting incorrectly. I won't make that mistake again...
 
-<figure class="half">
-  <a href="{{ site.url }}/assets/images/painting-stormtrooper-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/painting-stormtrooper-process-1-600.jpg" alt="Work in process"></a>
-  <a href="{{ site.url }}/assets/images/painting-stormtrooper-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/painting-stormtrooper-process-2-600.jpg" alt="Work in process"></a>
-  <figcaption>Various work in progress snapshots from the initial drawing up to its completion.</figcaption>
-</figure>
-
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

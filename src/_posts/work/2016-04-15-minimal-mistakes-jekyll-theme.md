@@ -1,32 +1,32 @@
 ---
-title: "Minimal Mistakes, a Jekyll Theme"
+title: "Minimal Mistakes, a Jekyll&#160;Theme"
 headline: "Minimal Mistakes Theme"
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
-modified: 2016-09-05T21:29:43-04:00
+modified: 2016-10-13T21:32:48-04:00
 image: 
-  feature: minimal-mistakes-3-feature.jpg
-  teaser: minimal-mistakes-3-teaser.jpg
+  path: &image /assets/images/minimal-mistakes-3-feature.jpg
+  feature: *image
+  teaser: /assets/images/minimal-mistakes-3-teaser.jpg
+gallery:
+  - url: /assets/images/mm-layout-splash.png
+    image_path: /assets/images/mm-layout-splash.png
+    alt: "splash layout example"
+  - url: /assets/images/mm-layout-single-meta.png
+    image_path: /assets/images/mm-layout-single-meta.png
+    alt: "single layout with comments and related posts"
+  - url: /assets/images/mm-layout-archive.png
+    image_path: /assets/images/mm-layout-archive.png
+    alt: "archive layout example"
 tags: [Jekyll, web development, open source, GitHub]
-work: "Design &amp; Development"
+work: "Design & Development"
 comments: true
 comments_locked: true
 featured: true
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server. 
+Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server. Includes responsive layouts (`single`, `archive`, and `splash` pages) that look great on mobile and desktop browsers.
 
 As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
-
-{% capture layouts_caption %}
-The theme includes responsive layouts (`single`, `archive`, and `splash` pages) that look great on mobile and desktop browsers.
-{% endcapture %}
-
-<figure class="third">
-  <a href="{{ site.url }}/assets/images/mm-layout-splash.png"><img src="{{ site.url }}/assets/images/mm-layout-splash.png" alt="splash layout example"></a>
-  <a href="{{ site.url }}/assets/images/mm-layout-single-meta.png"><img src="{{ site.url }}/assets/images/mm-layout-single-meta.png" alt="single layout with comments and related posts"></a>
-  <a href="{{ site.url }}/assets/images/mm-layout-archive.png"><img src="{{ site.url }}/assets/images/mm-layout-archive.png" alt="archive layout example"></a>
-  <figcaption>{{ layouts_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
-</figure>
 
 <p markdown="0">
   <a href="https://mmistakes.github.io/minimal-mistakes/" onclick="ga('send', 'event', 'link', 'click', 'Preview Minimal Mistakes');" class="btn">Live Preview</a>

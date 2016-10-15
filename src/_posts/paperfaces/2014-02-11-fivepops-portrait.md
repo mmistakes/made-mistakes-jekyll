@@ -2,14 +2,15 @@
 title: "Graduation in the sun"
 excerpt: "PaperFaces portrait of Fivepops drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-fivepops-lg.jpg
-  thumb: paperfaces-fivepops-150.jpg
+  path: &image /assets/images/paperfaces-fivepops-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-fivepops-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission for Fivepops.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-fivepops-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-fivepops-process-1-600.jpg" alt="Work in process screenshot"></a>

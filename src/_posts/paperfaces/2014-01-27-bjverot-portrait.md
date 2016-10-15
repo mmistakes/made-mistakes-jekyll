@@ -2,14 +2,15 @@
 title: "Looking forward"
 excerpt: "PaperFaces portrait of @BJVerot drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-bjverot-twitter-lg.jpg
-  thumb: paperfaces-bjverot-twitter-150.jpg
+  path: &image /assets/images/paperfaces-bjverot-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-bjverot-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@BJVerot](http://twitter.com/BJVerot).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-bjverot-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-bjverot-process-1-600.jpg" alt="Work in process screenshot"></a>

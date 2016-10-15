@@ -3,9 +3,10 @@ title: "See Right Through Me"
 excerpt: "PaperFaces portrait of the Rachel B. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-rachel-b-lg.jpg
-  teaser: paperfaces-rachel-b-teaser.jpg
-  thumb: paperfaces-rachel-b-150.jpg
+  path: &image /assets/images/paperfaces-rachel-b-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-rachel-b-teaser.jpg
+  thumb: /assets/images/paperfaces-rachel-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 
@@ -15,7 +16,7 @@ Knowing when to stop and leave well enough alone is something I wrestle with eve
 
 As always, I've shared the original illustration [on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1795397) for closer examination and remixing.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-rachel-b-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-rachel-b-process-1-600.jpg" alt="Work in process screenshot"></a>

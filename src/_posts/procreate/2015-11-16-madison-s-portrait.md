@@ -3,9 +3,10 @@ title: "That Vintage Look"
 excerpt: "Portrait of Madison S., digitally painted with Procreate on an iPad."
 modified: 2015-11-16T11:48:50-05:00
 image: 
-  feature: madison-s-procreate-lg.jpg
-  teaser: madison-s-procreate-teaser.jpg
-  thumb: madison-s-procreate-250.jpg
+  path: &image /assets/images/madison-s-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/madison-s-procreate-teaser.jpg
+  thumb: /assets/images/madison-s-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 
@@ -18,4 +19,4 @@ I still don't own an [iPad Pro or Apple Pencil]({{ site.url }}{% post_url 2015-0
   <figcaption>Time lapse video recorded within Procreate, completed in 6 hours and 8 minutes.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

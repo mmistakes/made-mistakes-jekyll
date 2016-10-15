@@ -2,8 +2,9 @@
 title: "Rock and roll"
 excerpt: "PaperFaces portrait of @sdevore drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sdevore-twitter-lg.jpg
-  thumb: paperfaces-sdevore-twitter-150.jpg
+  path: &image /assets/images/paperfaces-sdevore-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-sdevore-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

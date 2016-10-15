@@ -2,8 +2,9 @@
 title: "Drawing hairs before midnight"
 excerpt: "PaperFaces portrait of @LizzieBeth_ drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lizziebeth-twitter-lg.jpg
-  thumb: paperfaces-lizziebeth-twitter-150.jpg
+  path: &image /assets/images/paperfaces-lizziebeth-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-lizziebeth-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
@@ -15,6 +16,6 @@ After grabbing around 1,000 images I imported them into **Adobe AfterEffects** a
 
 The lighting kind of sucks and the focus is off in a few parts, but I think it came out ok for my second time lapse attempt. Next time I'll take more care to get my white balance correct upfront and make sure I don't bump into the tripod midway through the shoot.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/FGCPOimgdb4" frameborder="0"> </iframe>

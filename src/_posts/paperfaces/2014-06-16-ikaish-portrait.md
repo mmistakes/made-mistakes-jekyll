@@ -2,15 +2,16 @@
 title: "All alone"
 excerpt: "PaperFaces portrait of @ikaish drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ikaish-twitter-lg.jpg
-  teaser: paperfaces-ikaish-twitter-teaser.jpg
-  thumb: paperfaces-ikaish-twitter-150.jpg
+  path: &image /assets/images/paperfaces-ikaish-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-ikaish-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-ikaish-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, bokeh, blend]
 ---
 
 PaperFaces portrait of [@ikaish](http://twitter.com/ikaish).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-ikaish-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-ikaish-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -9,34 +9,51 @@
    ========================================================================== */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
+
+/* Susy grid */
+@import "vendor/susy/susy";
+$susy: (
+  columns                     : 12,
+  gutters                     : 1/4,
+  math                        : fluid,
+  output                      : float,
+  gutter-position             : after,
+  global-box-sizing           : border-box,
+  // debug: (
+  //   image                  : show,
+  //   color                  : blue,
+  //   output                 : overlay,
+  //   toggle                 : top right,
+  // ),
+);
+
 @import "mixins";
-@import "reset";
 @import "base";
 @import "animations";
 @import "utilities";
 @import "buttons";
 
-@import "masthead"; // page header with navigation
-@import "breadcrumbs";
+@import "site";
 @import "page"; // page-post
-@import "archive"; // archive listing
-@import "glitch"; // glitch effect
+@import "work"; // work-portfolio
+@import "index"; // archive listing
 @import "toc"; // table of contents
+@import "splash"; // splash page
 
 @import "tables";
 @import "notices";
 @import "thumbnail-grids";
 @import "forms";
+@import "teasers";
+@import "lists";
 @import "google-search"; // Google search form box
 @import "syntax-highlighting";
-@import "paper-color-swatches"; // color swatches for Paper by FiftyThree articles
-@import "tiles"; // post tiles
+@import "paper-color-swatches"; // color swatches for Paper by FiftyThree posts
+@import "comments";
 @import "review-box";
 @import "banners"; // banner advertisements
 @import "footnotes";
-@import "colophon"; // site colophon
-@import "slickmap"; // SlickMap visual sitemap
 @import "style-guide";
-@import "vendor/magnific-popup/magnific-popup";
+@import "vendor/lity/lity";
 @import "vendor/bigfoot/bigfoot-default";
 @import "print"

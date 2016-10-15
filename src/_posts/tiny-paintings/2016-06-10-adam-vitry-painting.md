@@ -3,9 +3,10 @@ title: "In Your Face"
 excerpt: "Tiny portrait of Adam Vitry, painted with watercolor on hot press paper."
 modified: 2016-06-10T11:38:48-04:00
 image: 
-  feature: painting-adam-vitry-lg.jpg
-  teaser: painting-adam-vitry-teaser.jpg
-  thumb: painting-adam-vitry-250.jpg
+  path: &image /assets/images/painting-adam-vitry-lg.jpg
+  feature: *image
+  teaser: /assets/images/painting-adam-vitry-teaser.jpg
+  thumb: /assets/images/painting-adam-vitry-250.jpg
 tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]
 ---
 
@@ -23,4 +24,4 @@ Final painting measures 1.5\" x 1.5\".
   <figcaption>2 hours of painting condensed into 30 seconds.</figcaption>
 </figure>
 
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

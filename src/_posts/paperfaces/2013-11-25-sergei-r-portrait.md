@@ -2,14 +2,15 @@
 title: "Eyes on the prize"
 excerpt: "PaperFaces portrait of Sergei R. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sergei-r-lg.jpg
-  thumb: paperfaces-sergei-r-150.jpg
+  path: &image /assets/images/paperfaces-sergei-r-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-sergei-r-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 ---
 
 Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/YRsdZH">Sergei R.</a>, inspiration found via Sktchy.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-sergei-r-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sergei-r-process-1-750.jpg" alt="Work in process screenshot"></a>

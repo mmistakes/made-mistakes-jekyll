@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Splash page
+   ========================================================================== */
+
+// dark
+.dark {
+  color: #fff;
+  background-color: $splash-background-color;
+
+  a {
+    color: $lighter-gray;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .page__cover {
+    background-color: $splash-background-color;
+
+    @include breakpoint($medium-wide) {
+
+      &:after {
+        background: repeating-linear-gradient(-45deg, transparent, transparent 0.5%, #000 0.5%, #000 1%);
+      }
+    }
+  }
+
+  .page__hero {
+    position: relative;
+
+    &:before {
+      display: block;
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.6;
+      background-color: black;
+    }
+
+    .image {
+      box-shadow: 2em 2em 0 $splash-background-color, 2em -2em $splash-background-color;
+    }
+  }
+}
+
+// splash
+
+.splash {
+
+  .page__wrap {
+    position: relative;
+  }
+
+  .page__header {
+    width: span(5 of 7);
+
+    @include breakpoint($medium) {
+      width: span(4 of 7);
+    }
+  }
+
+  .page__title {
+    max-width: initial;
+  }
+
+  .page__excerpt {
+    font-family: $serif;
+    font-weight: normal;
+
+    @include breakpoint($small) {
+      font-size: 1.563em;
+    }
+  }
+
+  .page__hero {
+    top: -4em;
+    left: 0;
+    position: absolute;
+
+    @include breakpoint($medium-wide) {
+      top: -6em;
+      left: initial;
+      right: 2em;
+      margin-left: span(3 of 7);
+      margin-right: 0;
+    }
+  }
+
+  .list {
+    font-size: 0.8em;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+}

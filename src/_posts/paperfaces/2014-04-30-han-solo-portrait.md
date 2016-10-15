@@ -2,9 +2,10 @@
 title: "I know"
 excerpt: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-han-solo-leia-lg.jpg
-  teaser: paperfaces-han-solo-leia-teaser.jpg
-  thumb: paperfaces-han-solo-leia-150.jpg
+  path: &image /assets/images/paperfaces-han-solo-leia-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-han-solo-leia-teaser.jpg
+  thumb: /assets/images/paperfaces-han-solo-leia-150.jpg
 modified: 2014-05-01
 tags: [portrait, illustration, Paper by 53, Star Wars, blend, time lapse]
 ---
@@ -15,7 +16,7 @@ Last year I stuck to the original trilogy with my [Darth Vader]({{ site.url }}{%
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/9e1nPyHXCFQ" frameborder="0"> </iframe>
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-han-solo-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-han-solo-process-1-600.jpg" alt="Work in process screenshot"></a>

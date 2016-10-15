@@ -2,14 +2,15 @@
 title: "Missing plastic chairs"
 excerpt: "PaperFaces portrait of @jenniferamur drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jenniferamur-twitter-lg.jpg
-  thumb: paperfaces-jenniferamur-twitter-150.jpg
+  path: &image /assets/images/paperfaces-jenniferamur-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-jenniferamur-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 I forgot to paint some plastic chairs for sitting…oops. PaperFaces portrait of [@jenniferamur](http://twitter.com/jenniferamur).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-jenniferamur-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jenniferamur-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -2,14 +2,15 @@
 title: "Zipped up by sea"
 excerpt: "PaperFaces portrait of @joeycarmello drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-joeycarmello-twitter-lg.jpg
-  thumb: paperfaces-joeycarmello-twitter-150.jpg
+  path: &image /assets/images/paperfaces-joeycarmello-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-joeycarmello-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/joeycarmello">@joeycarmello</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-joeycarmello-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-joeycarmello-process-1-600.jpg" alt="Work in process screenshot"></a>

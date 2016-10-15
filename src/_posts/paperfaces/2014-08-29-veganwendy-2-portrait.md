@@ -2,9 +2,10 @@
 title: "Revisiting the First PaperFace"
 excerpt: "PaperFaces portrait of my wife revisited after two years of drawing with Paper."
 image: 
-  feature: paperfaces-veganwendy-2-twitter-lg.jpg
-  teaser: paperfaces-veganwendy-2-twitter-teaser.jpg
-  thumb: paperfaces-veganwendy-2-twitter-150.jpg
+  path: &image /assets/images/paperfaces-veganwendy-2-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-veganwendy-2-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-veganwendy-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
@@ -12,7 +13,7 @@ Well it's been exactly two years since I started the [PaperFaces Project]({{ sit
 
 It wasn't the most difficult photograph to recreate in Paper, seeing how the face is obscured and all that. But you can certainly see a change in technique and accuracy between the two.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-veganwendy-twitter-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-veganwendy-twitter-600.jpg" alt="first PaperFaces portrait"></a>

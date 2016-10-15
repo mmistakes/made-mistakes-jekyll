@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Mastering Paper by 53: Drawing Hair (revisited)"
 modified:
 categories: mastering-paper

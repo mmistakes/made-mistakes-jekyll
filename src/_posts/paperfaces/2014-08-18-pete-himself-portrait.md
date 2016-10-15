@@ -2,15 +2,16 @@
 title: "By Himself"
 excerpt: "PaperFaces portrait of @pete_himself drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-pete-himself-twitter-lg.jpg
-  teaser: paperfaces-pete-himself-twitter-teaser.jpg
-  thumb: paperfaces-pete-himself-twitter-150.jpg
+  path: &image /assets/images/paperfaces-pete-himself-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-pete-himself-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-pete-himself-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@pete_himself](http://twitter.com/pete_himself).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-pete-himself-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-pete-himself-process-1-600.jpg" alt="Work in process screenshot"></a>

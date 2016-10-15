@@ -3,30 +3,12 @@
    ========================================================================== */
 
 /*
-   Container
+   Wrap
    ========================================================================== */
 
-.container {
-  max-width: 1200px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-  @media(min-width: $small) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  @media(min-width: $medium) {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  @media (min-width: $large) {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.wrap {
+  @include container();
 }
-
 
 /*
    Visibility
@@ -82,7 +64,6 @@ body:hover .visually-hidden button {
   box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
 }
 
-
 /*
    Skip links
    ========================================================================== */
@@ -113,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 /*
    Type
    ========================================================================== */
@@ -122,7 +102,6 @@ h1, h2, h3, h4, h5, h6 {
 .center {
   text-align: center;
 }
-
 
 /*
    Alignment
@@ -140,7 +119,6 @@ h1, h2, h3, h4, h5, h6 {
 /* clearfix */
 .cf { clear: both; }
 
-
 /*
    Images
    ========================================================================== */
@@ -156,7 +134,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 1em;
   }
 }
-
 
 /*
    Icons
@@ -183,16 +160,4 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 20px;
   height: 1em;
   max-height: 20px;
-}
-
-
-/*
-   Sticky, fixed to top content
-   ========================================================================== */
-
-.sticky {
-  @include clearfix();
-  position: -webkit-sticky;
-  position: sticky;
-  top: 80px;
 }

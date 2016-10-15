@@ -7,41 +7,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    {% if page.title %}
-      {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
-    {% endif %}
+    {% seo %}
 
-    {% if seo_title %}
-      {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
-    {% endif %}
-
-    {% if page.excerpt %}
-      {% assign seo_description = page.excerpt %}
-    {% elsif page.type == 'tag' %}
-      {% assign seo_description = page.title | prepend: "An archive of " | append: " posts." | %}
-    {% elsif site.description %}
-      {% assign seo_description = site.description %}
-    {% endif %}
-
-    {% if seo_description %}
-      {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
-    {% endif %}
-
-    {% if site.url %}
-      {% assign canonical_url = page.url | replace:'index.html','' | prepend: site.url %}
-    {% endif %}
-
-    {% if seo_title %}
-      <title>{{ seo_title }}</title>
-    {% endif %}
-
-    {% if seo_description %}
-      <meta name="description" content="{{ seo_description }}" />
-    {% endif %}
-
-    {% include sharing-meta.html %}
-
-    <link rel="canonical" href="{{ canonical_url }}">
     <link rel="pingback" href="https://webmention.io/mademistakes.com/xmlrpc">
     <link rel="webmention" href="https://webmention.io/mademistakes.com/webmention">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
@@ -61,58 +28,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    <!-- Webmaster Tools verifications -->
-    {% if site.owner.google.verify %}<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
-    {% if site.owner.bing.verify %}<meta name="msvalidate.01" content="{{ site.owner.bing.verify }}">{% endif %}
-    {% if site.owner.alexa.verify %}<meta name="alexaVerifyID" content="{{ site.owner.alexa.verify }}">{% endif %}
-    {% if site.owner.yandex.verify %}<meta name="yandex-verification" content="{{ site.owner.yandex.verify }}">{% endif %}
-
-    {% if site.owner.google.plus %}<link rel="author" href="{{ site.owner.google.plus }}?rel=author">{% endif %}
-
-    {% if page.layout == "glitch" %}
-      <style>{% include critical-glitch.css %}</style>
-    {% elsif page.layout == "archive" %}
-      <style>{% include critical-archive.css %}</style>
-    {% else page.layout == "tag_index" %}
-      <style>{% include critical-archive.css %}</style>
-    {% else %}
-      <style>{% include critical-article.css %}</style>
+    <!-- site verifications -->
+    {% if site.bing_site_verification %}
+      <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
     {% endif %}
+    {% if site.alexa_site_verification %}
+      <meta name="alexaVerifyID" content="{{ site.alexa_site_verification }}">
+    {% endif %}
+    {% if site.yandex_site_verification %}
+      <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
+    {% endif %}
+    <!-- / site verifications -->
+
+    {% if site.author.google_plus %}
+      <link rel="author" href="{{ site.author.google_plus }}?rel=author">
+    {% endif %}
+
+    {% if site.author.name %}
+      <meta name="author" content="{{ site.author.name }}">
+    {% endif %}
+
+    <!-- htmlmin:ignore -->
+      <!--#if expr="$HTTP_COOKIE=/<!-- inject:css --><!-- endinject -->\=true/"-->
+        <link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->">
+      <!--#else-->
+        {% if page.layout == "archive" %}
+          <style>{% include critical-archive.css %}</style>
+        {% elsif page.layout == "tag_index" %}
+          <style>{% include critical-archive.css %}</style>
+        {% elsif page.layout == "splash" %}
+          <style>{% include critical-splash.css %}</style>
+        {% elsif page.layout == "work" %}
+          <style>{% include critical-work.css %}</style>
+        {% else %}
+          <style>{% include critical-page.css %}</style>
+        {% endif %}
+      <!--#endif-->
+    <!-- htmlmin:ignore -->
+
+    <link rel="preload" href="<!-- inject:css --><!-- endinject -->" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->"></noscript>
 
     {% include loadcss.html %}
 
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ site.url }}/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="{{ site.url }}/manifest.json">
-    <meta name="msapplication-TileColor" content="#40393e">
-    <meta name="msapplication-TileImage" content="{{ site.url }}/mstile-144x144.png">
+    <script>
+      /*! cookie function. get, set, or forget a cookie. [c]2014 @scottjehl, Filament Group, Inc. Licensed MIT */
+      (function(w){
+        var cookie = function( name, value, days ){
+          // if value is undefined, get the cookie value
+          if( value === undefined ){
+            var cookiestring = "; " + w.document.cookie;
+            var cookies = cookiestring.split( "; " + name + "=" );
+            if ( cookies.length === 2 ){
+              return cookies.pop().split( ";" ).shift();
+            }
+            return null;
+          }
+          else {
+            // if value is a false boolean, we'll treat that as a delete
+            if( value === false ){
+              days = -1;
+            }
+            var expires = "";
+            if ( days ) {
+              var date = new Date();
+              date.setTime( date.getTime() + ( days * 24 * 60 * 60 * 1000 ) );
+              expires = "; expires="+date.toGMTString();
+            }
+            w.document.cookie = name + "=" + value + expires + "; path=/";
+          }
+        };
+        // commonjs
+        if( typeof module !== "undefined" ){
+          module.exports = cookie;
+        }
+        else {
+          w.cookie = cookie;
+        }
+      }( typeof global !== "undefined" ? global : this ));
+
+      // drop cookie for loading full stylesheet
+      cookie("<!-- inject:css --><!-- endinject -->", "true", 7);
+    </script>
+
+    <!-- site icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/apple-touch-icon.png?v=RyowzAOe9M">
+    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png?v=RyowzAOe9M" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png?v=RyowzAOe9M" sizes="16x16">
+    <link rel="manifest" href="{{ site.url }}/manifest.json?v=RyowzAOe9M">
+    <link rel="mask-icon" href="{{ site.url }}/safari-pinned-tab.svg?v=RyowzAOe9M" color="#000000">
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico?v=RyowzAOe9M">
+    <meta name="apple-mobile-web-app-title" content="Made Mistakes">
+    <meta name="application-name" content="Made Mistakes">
     <meta name="theme-color" content="#ffffff">
+    <!-- / site icons -->
 
   </head>
 
-  <body id="0">
+  <body id="0" class="wrap {% if page.classes %}{{ page.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-    {% unless page.layout == "glitch" %}
-      <section>
-        <h2 class="screen-reader-text">Skip links</h2>
-        <ul class="skip-link">
-          <li><a href="#nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-          <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-          <li><a href="#colophon" class="screen-reader-shortcut">Skip to footer</a></li>
-        </ul>
-      </section>
-    {% endunless %}
+    <section>
+      <h2 class="screen-reader-text">Skip links</h2>
+      <ul class="skip-link">
+        <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+        <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+      </ul>
+    </section>
+
+    {% include browser-upgrade.html %}
 
     {{ content }}
 
@@ -120,6 +143,7 @@
       {% include icons.svg %}
     </div>
 
+    {% include site__footer.html %}
     {% include scripts.html %}
 
     <!-- QR code -->
@@ -127,6 +151,7 @@
       <img src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl={{ canonical_url }}&choe=UTF-8" alt="Scan QR code with a smartphone">
       <p><small>{{ canonical_url }}</small></p>
     </div>
+    <!-- / QR code -->
 
   </body>
 

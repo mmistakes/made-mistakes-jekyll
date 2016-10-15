@@ -2,14 +2,15 @@
 title: "A scenic view of The Mokes"
 excerpt: "PaperFaces portrait of Lorena drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-lorena-lg.jpg
-  thumb: paperfaces-lorena-150.jpg
+  path: &image /assets/images/paperfaces-lorena-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-lorena-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait commission of Lorena.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-lorena-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-lorena-process-1-600.jpg" alt="Work in process screenshot"></a>

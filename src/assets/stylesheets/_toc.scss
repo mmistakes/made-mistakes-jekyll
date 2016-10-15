@@ -3,57 +3,80 @@
    ========================================================================== */
 
 .toc {
-  padding: 0 1em 1em;
-  font-family: $sans-serif-narrow;
-  border-top: 8px solid $gray;
-}
+  margin: 2em 0 1.5em 0;
+  font-family: $monospace;
 
-.toc__title {
-  margin: 1em 0;
-  font-family: $serif;
-  font-size: 1.25rem;
-  color: $gray;
-}
+  input {
+    display: none;
+  }
 
-.toc__menu {
-  padding-left: 0;
-  font-size: 0.8rem;
-  border-bottom: 2px solid #e2e2e2;
+  label {
+    position: relative;
+    display: inline-block;
+    padding: 1em 2.5em 1em 1em;
+    font-weight: 700;
+    line-height: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    z-index: 20;
+    transition: 0.2s ease-out;
+    cursor: pointer;
 
-  ul {
-    @include clearfix();
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      right: 1em;
+      top: 1.5em;
+      width: 0.75em;
+      height: 0.125em;
+      line-height: 1;
+      background-color: #333;
+      transition: $global-transition;
+    }
 
-    > li {
-      padding: 5px 0;
-      font-weight: normal;
+    &:after {
+      transform: rotate(90deg);
+    }
 
-      &:before {
-        content: "\2192";
-        width: 20px;
-      }
-
-      &:not(:last-child) {
-        border-bottom: 1px solid $light-gray;
-      }
+    &:hover {
+      border-color: #333;
     }
   }
 
-  li {
-    clear: both;
-    display: block;
-    font-weight: bold;
+  // selected
+  input:checked + label {
+    color: white;
+    background-color: black;
 
-    &:before {
-      display: block;
-      float: left;
-      margin-right: 10px;
-      margin-bottom: 5px;
-      width: 10px;
-      font-weight: bold;
+    &:before,
+    &:after {
+      background-color: #fff;
     }
+  }
+
+  // on hover show expand
+  label:hover:after {
+    transform: rotate(90deg);
+  }
+
+  input:checked + label:hover:after {
+    transform: rotate(0);
+  }
+}
+
+.toc__menu > ul {
+  padding: 0;
+  list-style-type: none;
+  counter-reset: section;
+
+  li {
+    display: block;
+    font-weight: normal;
 
     a {
-      display: block;
+      color: #000;
+      text-decoration: none;
 
       &:hover {
         text-decoration: underline;
@@ -62,7 +85,53 @@
   }
 
   > li {
-    padding: 5px 0;
-    border-top: 2px solid $light-gray;
+    counter-increment: section;
+    font-weight: 700;
+
+    &:before {
+      content: counter(section) ". ";
+    }
+
+    &:not(:last-child) {
+      padding-bottom: 0.5em;
+      border-bottom: 1px solid #ccc;
+    }
+
+    > ul {
+      padding-left: 1em;
+    }
   }
+
+  ul {
+    list-style-type: none;
+    counter-reset: subsection;
+
+    > li {
+      counter-increment: subsection;
+
+      &:before {
+        content: counter(section) "." counter(subsection) ". ";
+      }
+    }
+  }
+}
+
+.toc .toc__menu {
+  position: relative;
+  margin: 0;
+  max-height: 0;
+  font-size: 0.8em;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  transition: 0.3s ease-in-out;
+  transform: translate(0, 10%);
+}
+
+.toc input:checked ~ .toc__menu {
+  transition: 0.5s ease-in-out;
+  max-height: 100vh;
+  opacity: 1;
+  margin-top: 1em;
+  transform: translate(0, 0);
 }

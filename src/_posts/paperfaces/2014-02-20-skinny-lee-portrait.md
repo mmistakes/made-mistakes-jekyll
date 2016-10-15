@@ -2,14 +2,15 @@
 title: "Redhead in shadow"
 excerpt: "PaperFaces portrait of Skinny Lee drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-skinny-lee-lg.jpg
-  thumb: paperfaces-skinny-lee-150.jpg
+  path: &image /assets/images/paperfaces-skinny-lee-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-skinny-lee-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 ---
 
 PaperFaces portrait of [Skinny Lee](http://sktchy.com/MfNOoH) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-skinny-lee-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-skinny-lee-process-1-600.jpg" alt="Work in process screenshot"></a>

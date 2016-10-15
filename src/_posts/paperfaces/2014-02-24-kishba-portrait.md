@@ -2,14 +2,15 @@
 title: "Ribbit ribbit"
 excerpt: "PaperFaces portrait of @kishba drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-kishba-twitter-lg.jpg
-  thumb: paperfaces-kishba-twitter-150.jpg
+  path: &image /assets/images/paperfaces-kishba-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-kishba-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@kishba](http://twitter.com/kishba).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-kishba-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-kishba-process-1-600.jpg" alt="Work in process screenshot"></a>

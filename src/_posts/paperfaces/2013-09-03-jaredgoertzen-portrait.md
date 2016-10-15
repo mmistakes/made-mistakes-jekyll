@@ -2,14 +2,15 @@
 title: "America Eff Yeah!"
 excerpt: "PaperFaces portrait of @jaredgoertzen drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jaredgoertzen-twitter-lg.jpg
-  thumb: paperfaces-jaredgoertzen-twitter-150.jpg
+  path: &image /assets/images/paperfaces-jaredgoertzen-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-jaredgoertzen-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
 PaperFaces portrait of [@jaredgoertzen](http://twitter.com/jaredgoertzen).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-jaredgoertzen-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jaredgoertzen-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -2,8 +2,9 @@
 title: "Scruffy beard revisited"
 excerpt: "Another PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mmistakes-2-twitter-lg.jpg
-  thumb: paperfaces-mmistakes-2-twitter-150.jpg
+  path: &image /assets/images/paperfaces-mmistakes-2-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-mmistakes-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, self portrait, Michael Rose]
 ---
 
@@ -11,7 +12,7 @@ The last time I drew a [self portrait]({{ site.url }}{% post_url 2013-05-29-mich
 
 I thought it would be fun to take a minute from drawing strangers and work on something more familiar. Especially since the beard is no more and my [about page]({{ site.url }}/about/) could use a refresh.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-mmistakes-2-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-mmistakes-2-process-1-600.jpg" alt="Work in process screenshot"></a>

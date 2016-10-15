@@ -2,8 +2,9 @@
 title: "Kitty on the shoulder"
 excerpt: "PaperFaces portrait of @sendapalic drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sendapalic-twitter-lg.jpg
-  thumb: paperfaces-sendapalic-twitter-150.jpg
+  path: &image /assets/images/paperfaces-sendapalic-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-sendapalic-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
@@ -11,7 +12,7 @@ Blend is one of those tools that can easily be abused. Trying to limit its use t
 
 PaperFaces portrait of <a href="http://twitter.com/sendapalic">@sendapalic</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-sendapalic-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sendapalic-process-1-750.jpg" alt="Work in process screenshot"></a>

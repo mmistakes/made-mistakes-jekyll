@@ -2,15 +2,16 @@
 title: "Isn’t Easy Being Green"
 excerpt: "PaperFaces portrait of @livetosail42 drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-livetosail42-twitter-lg.jpg
-  teaser: paperfaces-livetosail42-twitter-teaser.jpg
-  thumb: paperfaces-livetosail42-twitter-150.jpg
+  path: &image /assets/images/paperfaces-livetosail42-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-livetosail42-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-livetosail42-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@livetosail42](http://twitter.com/livetosail42).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-livetosail42-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-livetosail42-process-1-600.jpg" alt="Work in process screenshot"></a>

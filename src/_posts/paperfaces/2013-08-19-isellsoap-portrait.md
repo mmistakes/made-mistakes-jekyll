@@ -2,14 +2,15 @@
 title: "Stripes in the trees"
 excerpt: "PaperFaces portrait of @isellsoap drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-isellsoap-twitter-lg.jpg
-  thumb: paperfaces-isellsoap-twitter-150.jpg
+  path: &image /assets/images/paperfaces-isellsoap-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-isellsoap-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, trees]
 ---
 
 PaperFaces portrait of [@isellsoap](http://twitter.com/isellsoap).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-isellsoap-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-isellsoap-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -5,46 +5,21 @@ layout: default
 {% assign taxonomy = page.title | downcase | slugify %}
 {% assign tag = site.data.taxonomy[taxonomy] %}
 
-{% include masthead.html %}
 {% include browser-upgrade.html %}
 
-<div id="main" role="main">
-
-  <header class="container post__header">
-    <h1 class="post__title">{{ page.title }}</h1>
-    <h2 class="post__excerpt">
-      {% if tag.description %}
-        {{ tag.description | markdownify | remove: "<p>" | remove: "</p>" }}
-      {% else %}
-        An archive of posts tagged <em>{{ page.title }}</em>.
-      {% endif %}
-    </h2>
-    {% include page__hero.html %}
-    {% include breadcrumbs.html %}
-  </header>
-
-  {% if page.feature.visible == true %}
-    {% include featured.html %}
-  {% endif %}
-
-  <div class="container post__content">
-
-    <div class="post__inner-wrapper">
-
-      <section class="post__body">
+<div class="index">
+  {% include site__logo.html %}
+  <div id="main" role="main">
+    <div class="page__wrap">
+      {% include page__header.html %}
+      <div class="page__cover"></div>
+      <div class="list">
         {% for post in page.posts %}
           {% include archive__item.html %}
         {% endfor %}
-      </section>
-
+      </div>
     </div>
-
-    <aside class="post__sidebar sticky">
-      {% include ad.html %}
-    </aside>
-
   </div>
-
 </div>
 
-{% include colophon.html %}
+{% include ad.html %}

@@ -4,9 +4,10 @@ modified: 2015-06-17T15:07:42-04:00
 excerpt: "Learn how to draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and a Pencil stylus."
 tags: [Paper by 53, tutorial, space, blend, Pencil by 53, stylus, iPad]
 image:
-  feature: paper-53-space-feature.jpg
-  teaser: paper-53-space-teaser.jpg
-  thumb: paper-53-space-th.jpg
+  path: &image /assets/images/paper-53-space-feature.jpg
+  feature: *image
+  teaser: /assets/images/paper-53-space-teaser.jpg
+  thumb: /assets/images/paper-53-space-th.jpg
 comments: true
 featured: true
 ---

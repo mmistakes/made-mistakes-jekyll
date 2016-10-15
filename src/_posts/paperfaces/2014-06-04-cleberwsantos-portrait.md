@@ -2,15 +2,16 @@
 title: "Plaid against the wall"
 excerpt: "PaperFaces portrait of @cleberwsantos drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-cleberwsantos-twitter-lg.jpg
-  teaser: paperfaces-cleberwsantos-twitter-teaser.jpg
-  thumb: paperfaces-cleberwsantos-twitter-150.jpg
+  path: &image /assets/images/paperfaces-cleberwsantos-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-cleberwsantos-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-cleberwsantos-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@cleberwsantos](http://twitter.com/cleberwsantos).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-cleberwsantos-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-cleberwsantos-process-1-600.jpg" alt="Work in process screenshot"></a>

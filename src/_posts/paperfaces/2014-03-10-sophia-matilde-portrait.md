@@ -2,14 +2,15 @@
 title: "Little one x2"
 excerpt: "PaperFaces portrait of one month old twins drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sophia-matilde-lg.jpg
-  thumb: paperfaces-sophia-matilde-150.jpg
+  path: &image /assets/images/paperfaces-sophia-matilde-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-sophia-matilde-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-sophia-matilde-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sophia-matilde-process-1-600.jpg" alt="Work in process screenshot"></a>

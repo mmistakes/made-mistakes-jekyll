@@ -1,12 +1,12 @@
 ---
-layout: archive
+layout: page
 permalink: /paperfaces/
 title: "PaperFaces iPad Project"
 excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."
 modified: 2015-11-30T13:04:16-05:00
 image: 
-  thumb: paperfaces-project-250x250.jpg
-  teaser: paperfaces-asja-k-teaser.jpg
+  thumb: /assets/images/paperfaces-project-250x250.jpg
+  teaser: /assets/images/paperfaces-asja-k-teaser.jpg
 tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]
 fullwidth: true
 featured: true
@@ -22,8 +22,8 @@ If you scroll down far enough you can see how my technique evolved from faceless
 {% for post in site.categories.paperfaces %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></noscript>
+      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <noscript><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></noscript>
     </a>
   </li>
 {% endfor %}

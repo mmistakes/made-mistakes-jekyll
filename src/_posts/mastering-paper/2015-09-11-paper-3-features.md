@@ -4,9 +4,10 @@ modified: 2015-10-19T14:47:05-04:00
 excerpt: "Paper by FiftyThree comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more."
 tags: [Paper by 53, iPad]
 image:
-  feature: paper-3-feature.jpg
-  teaser: paper-3-teaser.jpg
-  thumb: paper-3-th.jpg
+  path: &image /assets/images/paper-3-feature.jpg
+  feature: *image
+  teaser: /assets/images/paper-3-teaser.jpg
+  thumb: /assets/images/paper-3-th.jpg
 comments: true
 ---
 
@@ -114,7 +115,7 @@ Perfect for to-do lists, recipes, or adding captions to your ideas and photos. I
   <img src="{{ site.url }}/assets/images/paper-3-text-ideas.jpg" alt="text notes in Paper">
 </figure>
 
-Basic formatting of text can be achieved by [swiping across text](http://blog.fiftythree.com/posts/swipe-to-style) to cycle through styles (Title, Subtitle, Bullet, and Sub-Bullet). You can also **bold**, *italize*, and <s>strikethrough</s> text by selecting it and tapping the right arrow followed by **Style**.
+Basic formatting of text can be achieved by [swiping across text](http://blog.fiftythree.com/posts/swipe-to-style) to cycle through styles (Title, Subtitle, Bullet, and Sub-Bullet). You can also **bold**, *italicize*, and <s>strikethrough</s> text by selecting it and tapping the right arrow followed by **Style**.
 
 <figure>
   <img src="{{ site.url }}/assets/images/paper-3-text-styles.jpg" alt="styling text in Paper">

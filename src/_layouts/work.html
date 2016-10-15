@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="work">
+  {% include site__logo.html %}
+  <article class="page__wrap">
+    {% include page__header.html %}
+    {% include page__hero.html type="work" %}
+    {% include work__gallery.html %}
+    <section class="page__content">
+      {{ content }}
+    </section>
+    {% if page.comments == true %}
+      {% include page__comments.html %}
+    {% endif %}
+  </article>
+</div>
+
+{% if page.path contains '_posts' %}
+  {% include related.html %}
+{% endif %}
+
+{% include ad.html %}

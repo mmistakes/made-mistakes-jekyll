@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Mastering Paper by 53: Screen Capture Techniques and Animation"
 modified:
 categories: mastering-paper

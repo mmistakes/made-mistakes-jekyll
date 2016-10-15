@@ -2,11 +2,12 @@
 title: "In front of an ornate frame and candle holder"
 excerpt: "PaperFaces portrait of @antoninygaard drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-antoninygaard-twitter-lg.jpg
-  thumb: paperfaces-antoninygaard-twitter-150.jpg
+  path: &image /assets/images/paperfaces-antoninygaard-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-antoninygaard-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@antoninygaard](http://twitter.com/antoninygaard).
 
-{% include boilerplate/paperfaces.html %}
+{% include boilerplate/paperfaces.md %}

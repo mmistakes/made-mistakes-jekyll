@@ -2,8 +2,9 @@
 title: "Grayscale and Pencil and Blend oh my!"
 excerpt: "PaperFaces portrait of @GrantLandram drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-grantlandram-twitter-lg.jpg
-  thumb: paperfaces-grantlandram-twitter-150.jpg
+  path: &image /assets/images/paperfaces-grantlandram-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-grantlandram-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, blend, time lapse]
 ---
 
@@ -15,7 +16,7 @@ The time lapse effect came out ok, but have to look at lighting the work area be
 
 PaperFaces portrait of <a href="http://twitter.com/GrantLandram">@GrantLandram</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/JqVzqVG0e5g" frameborder="0" > </iframe>

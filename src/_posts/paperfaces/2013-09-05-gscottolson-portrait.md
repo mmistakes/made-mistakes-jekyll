@@ -2,14 +2,15 @@
 title: "Gray values in a four inch square"
 excerpt: "PaperFaces portrait of @gscottolson drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-gscottolson-twitter-lg.jpg
-  thumb: paperfaces-gscottolson-twitter-150.jpg
+  path: &image /assets/images/paperfaces-gscottolson-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-gscottolson-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of FiftyThree maker, [@gscottolson](http://twitter.com/gscottolson).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-gscottolson-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-gscottolson-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -2,15 +2,16 @@
 title: "Beard envy"
 excerpt: "PaperFaces portrait of a M Large drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-m-large-lg.jpg
-  teaser: paperfaces-m-large-teaser.jpg
-  thumb: paperfaces-m-large-150.jpg
+  path: &image /assets/images/paperfaces-m-large-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-m-large-teaser.jpg
+  thumb: /assets/images/paperfaces-m-large-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, beard, bokeh, black and white]
 ---
 
 PaperFaces portrait of a [M Large](http://sktchy.com/0qfVg) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-m-large-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-m-large-process-1-600.jpg" alt="Work in process screenshot"></a>

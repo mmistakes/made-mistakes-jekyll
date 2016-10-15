@@ -2,15 +2,16 @@
 title: "Happy doll"
 excerpt: "PaperFaces portrait of @tyrol_mr drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-tyrol-mr-twitter-lg.jpg
-  teaser: paperfaces-tyrol-mr-twitter-teaser.jpg
-  thumb: paperfaces-tyrol-mr-twitter-150.jpg
+  path: &image /assets/images/paperfaces-tyrol-mr-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-tyrol-mr-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-tyrol-mr-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@tyrol_mr](http://twitter.com/tyrol_mr).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-tyrol-mr-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-tyrol-mr-process-1-600.jpg" alt="Work in process screenshot"></a>

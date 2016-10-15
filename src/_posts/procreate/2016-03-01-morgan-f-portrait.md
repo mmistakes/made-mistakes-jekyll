@@ -3,9 +3,10 @@ title: "Tales of Round Brushing"
 excerpt: "Portrait of Morgan F. digitally painted with Procreate on an iPad."
 modified: 2016-03-01T15:02:19-05:00
 image: 
-  feature: morgan-f-procreate-lg.jpg
-  teaser: morgan-f-procreate-teaser.jpg
-  thumb: morgan-f-procreate-250.jpg
+  path: &image /assets/images/morgan-f-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/morgan-f-procreate-teaser.jpg
+  thumb: /assets/images/morgan-f-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
@@ -22,4 +23,4 @@ I've found playing with opacity and the glazing toggles gets color results simil
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 4 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

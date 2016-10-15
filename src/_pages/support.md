@@ -33,7 +33,7 @@ If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&crea
 
 ## Spread the Word
 
-Have a website or use social networking sites like Twitter, Facebook, Google+, Tumblr, or Pinterest? Please consider sharing the content found on **Made Mistakes** or linking to <{{ site.url }}>
+Have a website or use social networking sites like Twitter, Facebook, Google+, Tumblr, or Pinterest? Please consider sharing the content found on **Made Mistakes** or linking to <https://mademistakes.com>
 
 ## Follow Me on Social Media
 

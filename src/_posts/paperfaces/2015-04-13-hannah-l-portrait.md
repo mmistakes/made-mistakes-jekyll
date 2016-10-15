@@ -3,9 +3,10 @@ title: "White Eyes Glow Sometimes"
 excerpt: "PaperFaces portrait of the Hannah L. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-hannah-l-lg.jpg
-  teaser: paperfaces-hannah-l-teaser.jpg
-  thumb: paperfaces-hannah-l-150.jpg
+  path: &image /assets/images/paperfaces-hannah-l-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-hannah-l-teaser.jpg
+  thumb: /assets/images/paperfaces-hannah-l-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 
@@ -45,4 +46,4 @@ I suppose if the demand is there I might try this again some night when my wife 
   <figcaption><a href="https://www.youtube.com/watch?v=qhEtbFlxfm4">Time lapse video</a> recorded with an iPhone 5s and Lapse It.</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-5.html %}
+{% include boilerplate/paperfaces-5.md %}

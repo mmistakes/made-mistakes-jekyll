@@ -2,14 +2,15 @@
 title: "An awkward stare"
 excerpt: "PaperFaces portrait of Matt S. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-matt-s-lg.jpg
-  thumb: paperfaces-matt-s-150.jpg
+  path: &image /assets/images/paperfaces-matt-s-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-matt-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of [Matt S.](http://sktchy.com/4SI2jH) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-matt-s-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-matt-s-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -2,14 +2,15 @@
 title: "I caught a fish this big"
 excerpt: "PaperFaces portrait of @GuavaGleeLesley drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-guavagleelesley-twitter-lg.jpg
-  thumb: paperfaces-guavagleelesley-twitter-150.jpg
+  path: &image /assets/images/paperfaces-guavagleelesley-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-guavagleelesley-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 First portrait I've drawn using that new Pencil stylus everyone is talking about. Using the new blending feature was a ton of fun and really came in handy for creating the soft water effect in the background. PaperFaces portrait of <a href="http://twitter.com/GuavaGleeLesley">@GuavaGleeLesley</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-guavagleelesley-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-guavagleelesley-process-1-600.jpg" alt="Work in process screenshot"></a>

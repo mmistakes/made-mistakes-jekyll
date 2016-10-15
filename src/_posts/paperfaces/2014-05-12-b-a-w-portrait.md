@@ -2,14 +2,15 @@
 title: "Flipped lid"
 excerpt: "PaperFaces portrait of @B_A_W drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-b-a-w-twitter-lg.jpg
-  thumb: paperfaces-b-a-w-twitter-150.jpg
+  path: &image /assets/images/paperfaces-b-a-w-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-b-a-w-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@B_A_W](http://twitter.com/B_A_W).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-b-a-w-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-b-a-w-process-1-600.jpg" alt="Work in process screenshot"></a>

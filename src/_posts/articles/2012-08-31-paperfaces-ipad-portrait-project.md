@@ -3,9 +3,10 @@ title: "iPad Portraits with Paper by FiftyThree"
 excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and the Paper by FiftyThree app."
 modified: 2015-01-27T14:49:13-05:00
 image: 
-  feature: paperfaces-project-feature.jpg
-  teaser: paperfaces-project-teaser.jpg
-  thumb: paperfaces-project-250x250.jpg
+  path: &image /assets/images/paperfaces-project-feature.jpg
+  feature: *image
+  teaser: /assets/images/paperfaces-project-teaser.jpg
+  thumb: /assets/images/paperfaces-project-250x250.jpg
 tags: [Paper by 53, iPad, drawing, illustration]
 comments: true
 ---
@@ -19,9 +20,9 @@ PaperFaces was an iPad drawing project by time traveling designer and illustrato
 The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
 
 <ul class="th-grid">
-{% for post in site.categories.paperfaces limit:16 %}
+{% for post in site.categories.paperfaces limit:15 %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></a>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></a>
   </li>
 {% endfor %}
 </ul>

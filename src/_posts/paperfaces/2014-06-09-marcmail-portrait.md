@@ -2,15 +2,16 @@
 title: "Public transportation"
 excerpt: "PaperFaces portrait of @Marcmail drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-marcmail-twitter-lg.jpg
-  teaser: paperfaces-marcmail-twitter-teaser.jpg
-  thumb: paperfaces-marcmail-twitter-150.jpg
+  path: &image /assets/images/paperfaces-marcmail-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-marcmail-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-marcmail-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@Marcmail](http://twitter.com/Marcmail).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-marcmail-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-marcmail-process-1-600.jpg" alt="Work in process screenshot"></a>

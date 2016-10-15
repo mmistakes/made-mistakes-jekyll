@@ -2,8 +2,9 @@
 title: "Think Different"
 excerpt: "PaperFaces portrait of Steve Jobs drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-steve-jobs-lg.jpg
-  thumb: paperfaces-steve-jobs-150.jpg
+  path: &image /assets/images/paperfaces-steve-jobs-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-steve-jobs-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
@@ -11,7 +12,7 @@ With the release of the new Steve Jobs biopic starring Ashton Kutcher --- I was 
 
 Maybe Apple should bring back this logo, it would feel right at home with iOS 7 wouldn't it?
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-steve-jobs-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-steve-jobs-process-1-600.jpg" alt="Work in process screenshot"></a>

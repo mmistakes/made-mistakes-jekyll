@@ -2,14 +2,15 @@
 title: "Over the shoulder"
 excerpt: "PaperFaces portrait of @ideal1st drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ideal1st-twitter-lg.jpg
-  thumb: paperfaces-ideal1st-twitter-150.jpg
+  path: &image /assets/images/paperfaces-ideal1st-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-ideal1st-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, blend]
 ---
 
 PaperFaces portrait of [@ideal1st](http://twitter.com/ideal1st).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-ideal1st-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-ideal1st-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -2,15 +2,16 @@
 title: "Wall of light"
 excerpt: "PaperFaces portrait of Efox Angel drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-efox-angel-lg.jpg
-  teaser: paperfaces-efox-angel-teaser.jpg
-  thumb: paperfaces-efox-angel-150.jpg
+  path: &image /assets/images/paperfaces-efox-angel-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-efox-angel-teaser.jpg
+  thumb: /assets/images/paperfaces-efox-angel-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of Christina U. inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-efox-angel-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-efox-angel-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -2,14 +2,15 @@
 title: "Rugged hat in sunlight"
 excerpt: "PaperFaces portrait of Susi drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-susi-lg.jpg
-  thumb: paperfaces-susi-150.jpg
+  path: &image /assets/images/paperfaces-susi-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-susi-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait commission of Susi.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-susi-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-susi-process-1-600.jpg" alt="Work in process screenshot"></a>

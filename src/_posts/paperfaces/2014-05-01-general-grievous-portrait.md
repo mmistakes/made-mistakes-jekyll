@@ -2,15 +2,16 @@
 title: "Jedi scum"
 excerpt: "PaperFaces portrait General Grievous drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-general-grievous-lg.jpg
-  teaser: paperfaces-general-grievous-teaser.jpg
-  thumb: paperfaces-general-grievous-150.jpg
+  path: &image /assets/images/paperfaces-general-grievous-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-general-grievous-teaser.jpg
+  thumb: /assets/images/paperfaces-general-grievous-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 
 PaperFaces portrait of General Grievous from Episode III: Revenge of the Sith.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-general-grievous-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-general-grievous-process-1-600.jpg" alt="Work in process screenshot"></a>

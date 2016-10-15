@@ -2,14 +2,15 @@
 title: "The color of gravy"
 excerpt: "PaperFaces portrait of Christianna P. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-christianna-p-lg.jpg
-  thumb: paperfaces-christianna-p-150.jpg
+  path: &image /assets/images/paperfaces-christianna-p-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-christianna-p-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 Trading drawings for drawings. PaperFaces portrait of <a href="http://sktchy.com/wkGeKD">Christianna P</a>, inspiration found via Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-christianna-p-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-christianna-p-process-1-600.jpg" alt="Work in process screenshot"></a>

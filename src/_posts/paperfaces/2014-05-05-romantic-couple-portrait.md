@@ -2,14 +2,15 @@
 title: "Hand on hand"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-romantic-couple-lg.jpg
-  thumb: paperfaces-romantic-couple-150.jpg
+  path: &image /assets/images/paperfaces-romantic-couple-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-romantic-couple-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-romantic-couple-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-romantic-couple-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -2,14 +2,15 @@
 title: "Eyes that pierce"
 excerpt: "PaperFaces portrait of @kylesethgray drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-kylesethgray-twitter-lg.jpg
-  thumb: paperfaces-kylesethgray-twitter-150.jpg
+  path: &image /assets/images/paperfaces-kylesethgray-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-kylesethgray-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@kylesethgray](http://twitter.com/kylesethgray).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-kylesethgray-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-kylesethgray-process-1-600.jpg" alt="Work in process screenshot"></a>

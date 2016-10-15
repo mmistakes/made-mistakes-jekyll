@@ -3,9 +3,10 @@ title: "The Battle Within"
 excerpt: "PaperFaces portrait of the Rafi Z. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-rafi-z-lg.jpg
-  teaser: paperfaces-rafi-z-teaser.jpg
-  thumb: paperfaces-rafi-z-150.jpg
+  path: &image /assets/images/paperfaces-rafi-z-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-rafi-z-teaser.jpg
+  thumb: /assets/images/paperfaces-rafi-z-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse, black and white]
 ---
 
@@ -24,4 +25,4 @@ Another experiment in recording my drawing process using on iPad, recorded with 
   <figcaption>Work in progress drawings available on Mix.</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-5.html %}
+{% include boilerplate/paperfaces-5.md %}

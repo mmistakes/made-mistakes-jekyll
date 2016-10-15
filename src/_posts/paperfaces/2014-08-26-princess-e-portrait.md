@@ -2,9 +2,10 @@
 title: "Faking Pencil with Pencil"
 excerpt: "PaperFaces portrait of the Princess E. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-princess-e-lg.jpg
-  teaser: paperfaces-princess-e-teaser.jpg
-  thumb: paperfaces-princess-e-150.jpg
+  path: &image /assets/images/paperfaces-princess-e-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-princess-e-teaser.jpg
+  thumb: /assets/images/paperfaces-princess-e-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
@@ -12,7 +13,7 @@ Each time I use Paper's pencil tool I'm impressed with how well it performs. It 
 
 PaperFaces portrait of Princess E. inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-princess-e-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-princess-e-process-1-600.jpg" alt="Work in process screenshot"></a>

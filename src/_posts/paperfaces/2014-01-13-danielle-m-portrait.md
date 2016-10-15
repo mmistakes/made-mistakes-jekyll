@@ -2,14 +2,15 @@
 title: "Mirrored faces"
 excerpt: "PaperFaces portrait of Danielle M. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-danielle-m-lg.jpg
-  thumb: paperfaces-danielle-m-150.jpg
+  path: &image /assets/images/paperfaces-danielle-m-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-danielle-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of [Danielle M.](http://sktchy.com/rhvANH) inspired on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-danielle-m-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-danielle-m-process-1-750.jpg" alt="Work in process screenshot"></a>

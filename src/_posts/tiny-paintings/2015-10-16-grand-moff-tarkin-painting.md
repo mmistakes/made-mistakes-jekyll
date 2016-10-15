@@ -1,11 +1,16 @@
 ---
 title: "Charming to the last"
 excerpt: "Tiny portrait of a Grand Moff Tarkin painted with watercolor on hot press paper."
-modified: 2015-11-16T11:22:08-05:00
+modified: 2016-10-10T11:21:40-04:00
 image: 
-  feature: painting-grand-moff-tarkin-lg.jpg
-  teaser: painting-grand-moff-tarkin-teaser.jpg
-  thumb: painting-grand-moff-tarkin-250.jpg
+  path: &image /assets/images/painting-grand-moff-tarkin-lg.jpg
+  feature: *image
+  teaser: /assets/images/painting-grand-moff-tarkin-teaser.jpg
+  thumb: /assets/images/painting-grand-moff-tarkin-250.jpg
+gallery:
+  - url: /assets/images/painting-grand-moff-tarkin-process-1-lg.jpg
+    image_path: /assets/images/painting-grand-moff-tarkin-process-1-900.jpg
+    alt: "Pencil sketch work in process"
 tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 
@@ -13,9 +18,4 @@ Tiny portrait of Grand Moff Tarkin from **Star Wars**. Painted with watercolor o
 
 Final painting measures 1.5\" x 1.5\" and was completed about 3 hours. Was convinced he was going to resemble Magneto by the end of it, but was able to pull it together once the color started to flow.
 
-<figure>
-  <a href="{{ site.url }}/assets/images/painting-grand-moff-tarkin-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/painting-grand-moff-tarkin-process-1-900.jpg" alt="Work in process"></a>
-  <figcaption>Starting with a pencil sketch.</figcaption>
-</figure>
-
-{% include boilerplate/watercolor.html %}
+{% include boilerplate/watercolor.md %}

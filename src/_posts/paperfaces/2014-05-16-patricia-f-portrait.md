@@ -2,14 +2,15 @@
 title: "Stylin' pose"
 excerpt: "PaperFaces portrait of a Patricia F. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-patricia-f-lg.jpg
-  thumb: paperfaces-patricia-f-150.jpg
+  path: &image /assets/images/paperfaces-patricia-f-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-patricia-f-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of a [Patricia F.](http://sktchy.com/hLo0C) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-patricia-f-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-patricia-f-process-1-600.jpg" alt="Work in process screenshot"></a>

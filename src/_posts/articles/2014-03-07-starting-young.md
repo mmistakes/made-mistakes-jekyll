@@ -2,9 +2,10 @@
 title: "Starting Young"
 excerpt: "It was only natural the two little rosebuds would become early adopters of technology."
 image: 
-  feature: starting-young-feature.jpg
-  teaser: starting-young-teaser.jpg
-  thumb: starting-young-thumb.jpg
+  path: &image /assets/images/starting-young-feature.jpg
+  feature: *image
+  teaser: /assets/images/starting-young-teaser.jpg
+  thumb: /assets/images/starting-young-thumb.jpg
 tags: [Paper by 53, drawing, technology, twins]
 comments: true
 ---

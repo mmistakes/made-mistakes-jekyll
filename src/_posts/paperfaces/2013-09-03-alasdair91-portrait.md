@@ -2,14 +2,15 @@
 title: "Spooky sepia lighting"
 excerpt: "PaperFaces portrait of @Alasdair91 drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-alasdair91-twitter-lg.jpg
-  thumb: paperfaces-alasdair91-twitter-150.jpg
+  path: &image /assets/images/paperfaces-alasdair91-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-alasdair91-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@Alasdair91](http://twitter.com/alasdair91).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-alasdair91-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-alasdair91-process-1-750.jpg" alt="Work in process screenshot"></a>

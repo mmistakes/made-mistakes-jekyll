@@ -2,14 +2,15 @@
 title: "Bashful hair on Sktchy"
 excerpt: "PaperFaces portrait of a Barbara M. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-barbara-m-lg.jpg
-  thumb: paperfaces-barbara-m-150.jpg
+  path: &image /assets/images/paperfaces-barbara-m-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-barbara-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of a [Jen F.](http://sktchy.com/vJbCsc) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-barbara-m-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-barbara-m-process-1-600.jpg" alt="Work in process screenshot"></a>

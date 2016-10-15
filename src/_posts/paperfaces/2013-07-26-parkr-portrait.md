@@ -2,14 +2,15 @@
 title: "Sidewalk stroll"
 excerpt: "PaperFaces portrait of @parkr drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-parkr-twitter-lg.jpg
-  thumb: paperfaces-parkr-twitter-150.jpg
+  path: &image /assets/images/paperfaces-parkr-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-parkr-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@parkr](http://twitter.com/parkr). Thought this Twitter name looked familiar, and then it hit me --- @parkr is one of the dudes doing solid development work on [Jekyll](http://jekyllrb.com), my favorite static site generator.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-parkr-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-parkr-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -3,9 +3,10 @@ title: "Eyes Be Damned"
 excerpt: "Portrait of Mahalia H. digitally painted with Procreate on an iPad."
 modified: 2016-07-22T10:48:14-04:00
 image: 
-  feature: mahalia-h-procreate-lg.jpg
-  teaser: mahalia-h-procreate-teaser.jpg
-  thumb: mahalia-h-procreate-250.jpg
+  path: &image /assets/images/mahalia-h-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/mahalia-h-procreate-teaser.jpg
+  thumb: /assets/images/mahalia-h-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
@@ -22,4 +23,4 @@ I'm sure it's nowhere close to the responsiveness one experiences with Apple's P
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 
-{% include boilerplate/procreate-2.html %}
+{% include boilerplate/procreate-2.md %}

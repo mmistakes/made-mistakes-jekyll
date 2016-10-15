@@ -2,14 +2,15 @@
 title: "Orange you glad I didn't…"
 excerpt: "PaperFaces portrait of @jayperdue drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jayperdue-twitter-lg.jpg
-  thumb: paperfaces-jayperdue-twitter-150.jpg
+  path: &image /assets/images/paperfaces-jayperdue-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-jayperdue-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
 PaperFaces portrait of [@jayperdue](http://twitter.com/jayperdue).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-jayperdue-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jayperdue-process-1-750.jpg" alt="Work in process screenshot"></a>

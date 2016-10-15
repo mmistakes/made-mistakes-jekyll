@@ -2,14 +2,15 @@
 title: "Bashful hair"
 excerpt: "PaperFaces portrait of a Marcus drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-marcus-lg.jpg
-  thumb: paperfaces-marcus-150.jpg
+  path: &image /assets/images/paperfaces-marcus-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-marcus-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-marcus-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-marcus-process-1-600.jpg" alt="Work in process screenshot"></a>

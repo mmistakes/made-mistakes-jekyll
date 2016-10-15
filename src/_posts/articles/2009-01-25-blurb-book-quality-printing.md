@@ -3,9 +3,10 @@ title: "The Quality of My First Blurb Book is Great"
 excerpt: "Using Blurb's BookSmart software was painless and having it printed was equally enjoyable."
 modified: 2013-01-26 00:00:00
 image: 
-  feature: blurb-book-featured.jpg
-  teaser: blurb-book-teaser.jpg
-  thumb: blurb-book-thumb.jpg
+  path: &image /assets/images/blurb-book-featured.jpg
+  feature: *image
+  teaser: /assets/images/blurb-book-teaser.jpg
+  thumb: /assets/images/blurb-book-thumb.jpg
 tags: [book, design]
 ---
 

@@ -2,14 +2,15 @@
 title: "Green bokeh"
 excerpt: "PaperFaces portrait of @manzu drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-manzu-twitter-lg.jpg
-  thumb: paperfaces-manzu-twitter-150.jpg
+  path: &image /assets/images/paperfaces-manzu-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-manzu-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of [@manzu](http://twitter.com/manzu).
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-manzu-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-manzu-process-1-750.jpg" alt="Work in process screenshot"></a>

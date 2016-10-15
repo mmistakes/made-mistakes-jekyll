@@ -2,14 +2,15 @@
 title: "Killer curled stache"
 excerpt: "PaperFaces portrait of Bryan Costanich drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-bryan-costanich-lg.jpg
-  thumb: paperfaces-bryan-costanich-150.jpg
+  path: &image /assets/images/paperfaces-bryan-costanich-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-bryan-costanich-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of Bryan Costanich. Ladies and germs take note, this is how you wear a mustache.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-bryan-costanich-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-bryan-costanich-process-1-600.jpg" alt="Work in process screenshot"></a>

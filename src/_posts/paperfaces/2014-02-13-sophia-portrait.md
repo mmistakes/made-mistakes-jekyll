@@ -2,14 +2,15 @@
 title: "The littlest panda"
 excerpt: "PaperFaces portrait of Sophia drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-sophia-lg.jpg
-  thumb: paperfaces-sophia-150.jpg
+  path: &image /assets/images/paperfaces-sophia-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-sophia-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of baby Sophia.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-sophia-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sophia-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -3,9 +3,10 @@ title: "The Better to See You"
 excerpt: "Portrait of Molly M. digitally painted with Procreate on an iPad."
 modified: 2015-12-07T14:52:04-05:00
 image: 
-  feature: molly-m-procreate-lg.jpg
-  teaser: molly-m-procreate-teaser.jpg
-  thumb: molly-m-procreate-250.jpg
+  path: &image /assets/images/molly-m-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/molly-m-procreate-teaser.jpg
+  thumb: /assets/images/molly-m-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 
@@ -18,4 +19,4 @@ The new split view in iOS 9 on the iPad is fantastic. Swiping over the Photos ap
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 6 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

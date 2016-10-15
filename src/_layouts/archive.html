@@ -2,45 +2,19 @@
 layout: default
 ---
 
-{% include masthead.html %}
 {% include browser-upgrade.html %}
 
-<div id="main" role="main">
-
-  <header class="container post__header">
-    <h1 class="post__title">{{ page.title }}</h1>
-    {% if page.subtitle %}<h2 class="post__excerpt">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</h2>{% endif %}
-    {% include page__hero.html %}
-    {% include breadcrumbs.html %}
-  </header>
-
-  {% if page.feature.visible == true %}
-    {% include featured.html %}
-  {% endif %}
-
-  <div class="container post__content">
-
-    {% unless page.fullwidth == true %}<div class="post__inner-wrapper">{% endunless %}
-
-      <section class="post__body">
+<div class="index">
+  {% include site__logo.html %}
+  <div id="main" role="main">
+    <div class="page__wrap">
+      {% include page__header.html %}
+      {% include page__hero.html %}
+      <div class="list">
         {{ content }}
-      </section>
-
-    {% unless page.fullwidth == true %}</div>
-
-    <aside class="post__sidebar sticky">
-      <div class="toc--sidebar"></div>
-      {% include ad.html %}
-    </aside>
-
-    {% endunless %}
-
+      </div>
+    </div>
   </div>
-
-  {% if page.tiles == true %}
-    {% include archive__tiles.html %}
-  {% endif %}
-
 </div>
 
-{% include colophon.html %}
+{% include ad.html %}

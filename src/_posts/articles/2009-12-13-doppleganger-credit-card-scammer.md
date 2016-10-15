@@ -3,8 +3,8 @@ title: "Bizarro Me, A Credit Card Scammer?"
 excerpt: "Apparently there is a bizarro version of me in Niagara County using scammed credit cards."
 modified: 2015-12-15
 image: 
-  thumb: michael-the-fugitive.jpg
-  teaser: michael-the-fugitive-teaser.jpg
+  thumb: /assets/images/michael-the-fugitive.jpg
+  teaser: /assets/images/michael-the-fugitive-teaser.jpg
 tags: [Michael Rose, Buffalo]
 ---
 

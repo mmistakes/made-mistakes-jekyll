@@ -3,9 +3,10 @@ title: "Oh Eye Dunno"
 excerpt: "PaperFaces portrait of the Kapi M. drawn with Paper by 53 on an iPad."
 modified: 
 image: 
-  feature: paperfaces-kapi-m-lg.jpg
-  teaser: paperfaces-kapi-m-teaser.jpg
-  thumb: paperfaces-kapi-m-150.jpg
+  path: &image /assets/images/paperfaces-kapi-m-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-kapi-m-teaser.jpg
+  thumb: /assets/images/paperfaces-kapi-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, eye, blend]
 ---
 
@@ -17,7 +18,7 @@ It's [been a while since I drew one]({{ site.url }}/tag/eye/) and thought it mig
 
 Overall I'm happy with the finished results, especially when you reduced the size of the drawing --- it looks just like a photograph!
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/2180273"><img src="{{ site.url }}/assets/images/paperfaces-kapi-m-process-1-600.jpg" alt="Work in process screenshot"></a>

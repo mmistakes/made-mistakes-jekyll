@@ -2,9 +2,10 @@
 title: "...I feel cold. Death."
 excerpt: "PaperFaces portrait Luke Skywalker and Darth Vader drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-luke-vader-cave-lg.jpg
-  teaser: paperfaces-luke-vader-cave-teaser.jpg
-  thumb: paperfaces-luke-vader-cave-150.jpg
+  path: &image /assets/images/paperfaces-luke-vader-cave-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-luke-vader-cave-teaser.jpg
+  thumb: /assets/images/paperfaces-luke-vader-cave-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars]
 ---
 
@@ -12,7 +13,7 @@ PaperFaces portrait of Luke Skywalker and Darth Vader from *Episode V: The Empir
 
 As I have done for the last 2 years, here's a new illustration drawn with Paper by FiftyThree in celebration of [**Star Wars Day**](http://www.starwars.com/may-the-4th). "May the Fourth Be With You!"
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-luke-vader-cave-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-luke-vader-cave-process-1-600.jpg" alt="Work in process screenshot"></a>

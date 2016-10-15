@@ -2,14 +2,15 @@
 title: "Soft spot light"
 excerpt: "PaperFaces portrait of @AShahmoradian drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ashahmoradian-twitter-lg.jpg
-  thumb: paperfaces-ashahmoradian-twitter-150.jpg
+  path: &image /assets/images/paperfaces-ashahmoradian-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-ashahmoradian-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@AShahmoradian](http://twitter.com/AShahmoradian).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-ashahmoradian-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-ashahmoradian-process-1-600.jpg" alt="Work in process screenshot"></a>

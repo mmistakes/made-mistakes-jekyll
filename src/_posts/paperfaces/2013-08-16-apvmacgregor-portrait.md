@@ -2,14 +2,15 @@
 title: "Back to drawing color"
 excerpt: "PaperFaces portrait of @apvmacgregor drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-apvmacgregor-twitter-lg.jpg
-  thumb: paperfaces-apvmacgregor-twitter-150.jpg
+  path: &image /assets/images/paperfaces-apvmacgregor-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-apvmacgregor-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@apvmacgregor](http://twitter.com/apvmacgregor). After days of gray I'm back to drawing color portraits.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-apvmacgregor-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-apvmacgregor-process-1-600.jpg" alt="Work in process screenshot"></a>

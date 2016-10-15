@@ -3,9 +3,10 @@ title: "Blinded By The Light --- Sunshine Movie Impressions"
 excerpt: "The film Sunshine directed by Danny Boyle is science fiction without the big bang."
 modified: 2013-04-26 00:00:00
 image: 
-  feature: sunshine-feature.jpg
-  teaser: sunshine-teaser.jpg
-  thumb: sunshine-thumb.jpg
+  path: &image /assets/images/sunshine-feature.jpg
+  feature: *image
+  teaser: /assets/images/sunshine-teaser.jpg
+  thumb: /assets/images/sunshine-thumb.jpg
   credit: DVD screengrab from DVDBeaver
   creditlink: http://www.dvdbeaver.com/film2/DVDReviews34/sunshine_blu-ray.htm
 tags: [sci-fi, film, review, space]

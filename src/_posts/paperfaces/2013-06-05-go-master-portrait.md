@@ -2,14 +2,15 @@
 title: "PaperFaces portrait of a Go master"
 excerpt: "PaperFaces portrait of a Go master drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-go-master-lg.jpg
-  thumb: paperfaces-go-master-150.jpg
+  path: &image /assets/images/paperfaces-go-master-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-go-master-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 **Project Donator** [@brianjolive](http://twitter.com/brianjolive) commissioned this portrait of his great friend and long time teacher of *Go*. Below are some in process screen captures over the course of an hour as I worked on the illustration. Let me just say this, drawing straight lines on glass and getting the correct perspective isn't easy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-go-master-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-go-master-process-1-600.jpg" alt=""></a>

@@ -3,9 +3,10 @@ title: "Nose Ring Oil"
 excerpt: "Portrait of María G. digitally painted with Procreate on an iPad."
 modified: 2016-05-18T10:46:46-04:00
 image: 
-  feature: maria-g-procreate-lg.jpg
-  teaser: maria-g-procreate-teaser.jpg
-  thumb: maria-g-procreate-250.jpg
+  path: &image /assets/images/maria-g-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/maria-g-procreate-teaser.jpg
+  thumb: /assets/images/maria-g-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
@@ -27,4 +28,4 @@ The updates I'm enjoying the most are:
 
 The painting is really rough and needs a lot more work. I was mainly interested and see how Reflector handled the recording than the actual painting.
 
-{% include boilerplate/procreate-2.html %}
+{% include boilerplate/procreate-2.md %}

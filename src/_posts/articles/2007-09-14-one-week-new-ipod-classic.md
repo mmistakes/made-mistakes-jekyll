@@ -3,9 +3,10 @@ title: "One Week with the New iPod classic"
 excerpt: "Quick impressions of the new iPod classic 60GB."
 modified: 2013-05-03 00:00:00
 image: 
-  feature: ipod-classic-feature.jpg
-  teaser: ipod-classic-teaser.jpg
-  thumb: ipod-classic-thumb.jpg
+  path: &image /assets/images/ipod-classic-feature.jpg
+  feature: *image
+  teaser: /assets/images/ipod-classic-teaser.jpg
+  thumb: /assets/images/ipod-classic-thumb.jpg
 tags: [iPod, Apple, review]
 ---
 

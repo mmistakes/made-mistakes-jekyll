@@ -2,9 +2,10 @@
 title: "Three Years of Problems with an iMac G5"
 excerpt: "Faulty logic boards, ambient sensors, and displays oh my!"
 image: 
-  feature: imac-glitch-feature.jpg
-  teaser: imac-glitch-teaser.jpg
-  thumb: imac-glitch-thumb.jpg
+  path: &image /assets/images/imac-glitch-feature.jpg
+  feature: *image
+  teaser: /assets/images/imac-glitch-teaser.jpg
+  thumb: /assets/images/imac-glitch-thumb.jpg
 tags: [iMac, Apple]
 ---
 

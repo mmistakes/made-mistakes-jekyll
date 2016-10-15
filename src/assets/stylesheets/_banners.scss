@@ -2,10 +2,12 @@
    BANNERS
    ========================================================================== */
 
-.ad__caption {
-  display: block;
-  font-style: italic;
-  font-size: 0.64rem;
+.ad {
+  text-align: center;
+
+  @include breakpoint($small) {
+    text-align: left;
+  }
 }
 
 /*
@@ -31,5 +33,30 @@
   @media (min-width: 1025px) {
     width: 300px;
     height: 250px;
+  }
+}
+
+/* footer ad */
+.adsense--footer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  border-bottom: 0 solid transparent;
+
+  @include breakpoint($small) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  @media (min-width: 500px) and (max-width: $medium-wide) {
+    width: 468px;
+    height: 60px;
+  }
+
+  @include breakpoint($medium-wide) {
+    width: 728px;
+    height: 90px;
   }
 }

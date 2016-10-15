@@ -3,9 +3,10 @@ title: "Painterly Fringed Collar"
 excerpt: "Portrait of Jenny x. digitally painted with Procreate on an iPad."
 modified: 
 image: 
-  feature: jenny-x-procreate-lg.jpg
-  teaser: jenny-x-procreate-teaser.jpg
-  thumb: jenny-x-procreate-250.jpg
+  path: &image /assets/images/jenny-x-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/jenny-x-procreate-teaser.jpg
+  thumb: /assets/images/jenny-x-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
@@ -20,4 +21,4 @@ It's kind of hard to look at now because all I see are the spots I botched. Supp
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 6 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

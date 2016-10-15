@@ -4,9 +4,10 @@ modified: 2016-01-27T14:38:46-05:00
 excerpt: "Learn how to reposition Paper by FiftyThree's zoom loupe mid-stroke to help add detail to your drawings."
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
 image:
-  feature: paper-53-zoom-loupe-feature.jpg
-  teaser: paper-53-zoom-loupe-teaser.jpg
-  thumb: paper-53-zoom-loupe-thumb.jpg
+  path: &image /assets/images/paper-53-zoom-loupe-feature.jpg
+  feature: *image
+  teaser: /assets/images/paper-53-zoom-loupe-teaser.jpg
+  thumb: /assets/images/paper-53-zoom-loupe-thumb.jpg
 comments: true
 ---
 

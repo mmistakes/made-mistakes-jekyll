@@ -2,14 +2,15 @@
 title: "Smile for Lady Liberty"
 excerpt: "PaperFaces portrait of @ddrjr drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-ddrjr-twitter-lg.jpg
-  thumb: paperfaces-ddrjr-twitter-150.jpg
+  path: &image /assets/images/paperfaces-ddrjr-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-ddrjr-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/ddrjr">@ddrjr</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-ddrjr-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-ddrjr-process-1-750.jpg" alt="Work in process screenshot"></a>

@@ -2,15 +2,16 @@
 title: "Stripes and shadow"
 excerpt: "PaperFaces portrait of a Erin T. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-erin-t-lg.jpg
-  teaser: paperfaces-erin-t-teaser.jpg
-  thumb: paperfaces-erin-t-150.jpg
+  path: &image /assets/images/paperfaces-erin-t-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-erin-t-teaser.jpg
+  thumb: /assets/images/paperfaces-erin-t-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of a [Erin T.](http://sktchy.com/SUIJtH) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-erin-t-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-erin-t-process-1-600.jpg" alt="Work in process screenshot"></a>

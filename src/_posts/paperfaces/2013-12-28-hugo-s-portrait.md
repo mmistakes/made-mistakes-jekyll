@@ -2,14 +2,15 @@
 title: "Dolphin whisperer"
 excerpt: "PaperFaces portrait of Hugo S. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-hugo-s-lg.jpg
-  thumb: paperfaces-hugo-s-150.jpg
+  path: &image /assets/images/paperfaces-hugo-s-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-hugo-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of Sktchy user Hugo S.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-hugo-s-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-hugo-s-process-1-750.jpg" alt="Work in process screenshot"></a>

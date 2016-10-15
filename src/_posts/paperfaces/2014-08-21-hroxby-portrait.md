@@ -2,15 +2,16 @@
 title: "Soft and Light"
 excerpt: "PaperFaces portrait of @HRoxby drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-hroxby-twitter-lg.jpg
-  teaser: paperfaces-hroxby-twitter-teaser.jpg
-  thumb: paperfaces-hroxby-twitter-150.jpg
+  path: &image /assets/images/paperfaces-hroxby-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-hroxby-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-hroxby-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@HRoxby](http://twitter.com/HRoxby).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-hroxby-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-hroxby-process-1-600.jpg" alt="Work in process screenshot"></a>

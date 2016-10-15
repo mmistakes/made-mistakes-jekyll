@@ -2,14 +2,15 @@
 title: "Open eye"
 excerpt: "PaperFaces portrait of @neil_pie drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-neil-pie-twitter-lg.jpg
-  thumb: paperfaces-neil-pie-twitter-150.jpg
+  path: &image /assets/images/paperfaces-neil-pie-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-neil-pie-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@neil_pie](http://twitter.com/neil_pie).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-neil-pie-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-neil-pie-process-1-600.jpg" alt="Work in process screenshot"></a>

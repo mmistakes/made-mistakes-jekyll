@@ -2,15 +2,16 @@
 title: "Pixelated beard"
 excerpt: "PaperFaces portrait of @mattfieldy drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-mattfieldy-twitter-lg.jpg
-  teaser: paperfaces-mattfieldy-twitter-teaser.jpg
-  thumb: paperfaces-mattfieldy-twitter-150.jpg
+  path: &image /assets/images/paperfaces-mattfieldy-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-mattfieldy-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-mattfieldy-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, 8-bit, beard]
 ---
 
 PaperFaces portrait of [@mattfieldy](http://twitter.com/mattfieldy).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-mattfieldy-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-mattfieldy-process-1-600.jpg" alt="Work in process screenshot"></a>

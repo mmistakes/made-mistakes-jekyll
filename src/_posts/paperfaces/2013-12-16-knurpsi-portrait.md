@@ -2,14 +2,15 @@
 title: "Purple strands and specs"
 excerpt: "PaperFaces portrait of @knurpsi drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-knurpsi-twitter-lg.jpg
-  thumb: paperfaces-knurpsi-twitter-150.jpg
+  path: &image /assets/images/paperfaces-knurpsi-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-knurpsi-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/knurpsi">@knurpsi</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-knurpsi-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-knurpsi-process-1-750.jpg" alt="Work in process screenshot"></a>

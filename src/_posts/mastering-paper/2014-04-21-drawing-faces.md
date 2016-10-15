@@ -3,9 +3,10 @@ title: "Mastering Paper by FiftyThree: Drawing Portraits and Faces"
 excerpt: "Advanced techniques for drawing and painting portraits using the iPad app Paper by FiftyThree."
 modified: 2016-02-17
 image: 
-  feature: paper-53-faces-feature.jpg
-  teaser: paper-53-faces-teaser-2016.jpg
-  thumb: paper-53-faces-thumb.jpg
+  path: &image /assets/images/paper-53-faces-feature.jpg
+  feature: *image
+  teaser: /assets/images/paper-53-faces-teaser-2016.jpg
+  thumb: /assets/images/paper-53-faces-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, portrait, iPad]
 comments: true
 featured: true
@@ -407,7 +408,7 @@ So how about this? Let me know in the comments below what you want to see next: 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:12 %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></a>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></a>
   </li>
 {% endfor %}
 </ul>

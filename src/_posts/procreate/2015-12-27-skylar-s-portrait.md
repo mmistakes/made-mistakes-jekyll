@@ -3,9 +3,10 @@ title: "Rough is Not Rough Enough"
 excerpt: "Portrait of Skylár S. digitally painted with Procreate on an iPad."
 modified: 2015-12-27T00:00:00-00:00
 image: 
-  feature: skylar-s-procreate-lg.jpg
-  teaser: skylar-s-procreate-teaser.jpg
-  thumb: skylar-s-procreate-250.jpg
+  path: &image /assets/images/skylar-s-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/skylar-s-procreate-teaser.jpg
+  thumb: /assets/images/skylar-s-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, black and white, Sktchy]
 ---
 
@@ -18,4 +19,4 @@ Please excuse the rough hatching as I was trying to avoid over polishing the fac
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 2.5 hours.</figcaption>
 </figure>
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

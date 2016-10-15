@@ -2,14 +2,15 @@
 title: "Half a shadow hawk"
 excerpt: "PaperFaces portrait of @conrey drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-conrey-twitter-lg.jpg
-  thumb: paperfaces-conrey-twitter-150.jpg
+  path: &image /assets/images/paperfaces-conrey-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-conrey-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/conrey">@conrey</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
   <a href="{{ site.url }}/assets/images/paperfaces-conrey-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-conrey-process-1-750.jpg" alt="Work in process screenshot"></a>

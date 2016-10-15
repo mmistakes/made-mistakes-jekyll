@@ -2,14 +2,15 @@
 title: "Smile, you're on candid camera"
 excerpt: "PaperFaces portrait of @svendahlstrand drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-svendahlstrand-twitter-lg.jpg
-  thumb: paperfaces-svendahlstrand-twitter-150.jpg
+  path: &image /assets/images/paperfaces-svendahlstrand-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-svendahlstrand-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces portrait of [@svendahlstrand](http://twitter.com/svendahlstrand).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
   <a href="{{ site.url }}/assets/images/paperfaces-svendahlstrand-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-svendahlstrand-process-1-600.jpg" alt="Work in process screenshot"></a>

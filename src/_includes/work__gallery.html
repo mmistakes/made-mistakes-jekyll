@@ -1,0 +1,35 @@
+{% if page.gallery %}
+{% assign gallery = page.gallery %}
+
+<div class="work__gallery">
+  {% for img in gallery %}
+    {% if img.url %}
+      <a class="work__gallery-img" href=
+        {% if img.url contains '://' %}
+          "{{ img.url }}"
+        {% else %}
+          "{{ img.url | prepend: site.url }}"
+        {% endif %}
+        {% if img.title %}title="{{ img.title }}"{% endif %}
+      >
+        <img src=
+          {% if img.image_path contains '://' %}
+            "{{ img.image_path }}"
+          {% else %}
+            "{{ img.image_path | prepend: site.url }}"
+          {% endif %}
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      </a>
+    {% else %}
+      <img src=
+        {% if img.image_path contains '://' %}
+          "{{ img.image_path }}"
+        {% else %}
+          "{{ img.image_path | prepend: site.url }}"
+        {% endif %}
+        alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% endif %}

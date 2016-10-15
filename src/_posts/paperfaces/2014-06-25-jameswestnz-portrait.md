@@ -2,15 +2,16 @@
 title: "Balancing act"
 excerpt: "PaperFaces portrait of @jameswestnz drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jameswestnz-twitter-lg.jpg
-  teaser: paperfaces-jameswestnz-twitter-teaser.jpg
-  thumb: paperfaces-jameswestnz-twitter-150.jpg
+  path: &image /assets/images/paperfaces-jameswestnz-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-jameswestnz-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-jameswestnz-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@jameswestnz](http://twitter.com/jameswestnz).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-jameswestnz-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jameswestnz-process-1-600.jpg" alt="Work in process screenshot"></a>

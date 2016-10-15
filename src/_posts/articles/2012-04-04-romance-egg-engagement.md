@@ -2,9 +2,10 @@
 title: "Easter Egg Marriage Proposal"
 excerpt: "Two years ago on this day, I proposed to my wife Wendy by leading her on an Easter egg scavenger hunt."
 image: 
-  feature: romance-engagement-feature.jpg
-  teaser: romance-engagement-teaser.jpg
-  thumb: romance-engagement-thumb.jpg
+  path: &image /assets/images/romance-engagement-feature.jpg
+  feature: *image
+  teaser: /assets/images/romance-engagement-teaser.jpg
+  thumb: /assets/images/romance-engagement-thumb.jpg
 tags: [romance]
 ---
 

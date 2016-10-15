@@ -2,9 +2,10 @@
 title: "Cloud dancer"
 excerpt: "PaperFaces portrait of Christina U. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-christina-u-lg.jpg
-  teaser: paperfaces-christina-u-teaser.jpg
-  thumb: paperfaces-christina-u-150.jpg
+  path: &image /assets/images/paperfaces-christina-u-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-christina-u-teaser.jpg
+  thumb: /assets/images/paperfaces-christina-u-150.jpg
 tags: [portrait, illustration, Paper by 53, clouds, Sktchy]
 ---
 
@@ -14,7 +15,7 @@ I'll say this about cloudscapes, they're a million times easier to draw than por
 
 I can see why they're a popular subject for Paper creators.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-christina-u-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-christina-u-process-1-600.jpg" alt="Work in process screenshot"></a>

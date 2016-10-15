@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include site__logo.html %}
+<div id="main" class="page" role="main">
+  <article class="page__wrap">
+    {% include page__header.html %}
+    {% include page__hero.html %}
+    <section class="page__content">
+      {{ content }}
+    </section>
+    {% if page.comments == true %}
+      {% include page__comments.html %}
+    {% endif %}
+  </article>
+</div>
+
+{% if page.path contains '_posts' %}
+  {% include related.html %}
+{% endif %}
+
+{% include ad.html %}

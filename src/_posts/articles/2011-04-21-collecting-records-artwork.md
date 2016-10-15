@@ -2,9 +2,10 @@
 title: "Collecting Records for the Artwork"
 excerpt: "How the hand crafted aesthetics found in DIY released emo and hardcore records started my collecting addiction."
 image: 
-  feature: collecting-records-feature.jpg
-  teaser: collecting-records-teaser.jpg
-  thumb: collecting-records-thumb.jpg
+  path: &image /assets/images/collecting-records-feature.jpg
+  feature: *image
+  teaser: /assets/images/collecting-records-teaser.jpg
+  thumb: /assets/images/collecting-records-thumb.jpg
 modified: 2013-04-26 00:00:00
 tags: [punk, records, inspiration, DIY, critique, design]
 ---

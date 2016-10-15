@@ -2,15 +2,16 @@
 title: "White Room with Gray"
 excerpt: "PaperFaces portrait commission of Michel T. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-michel-t-lg.jpg
-  teaser: paperfaces-michel-t-teaser.jpg
-  thumb: paperfaces-michel-t-150.jpg
+  path: &image /assets/images/paperfaces-michel-t-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-michel-t-teaser.jpg
+  thumb: /assets/images/paperfaces-michel-t-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait commission of Michel T. 
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-michel-t-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-michel-t-process-1-600.jpg" alt="Work in process screenshot"></a>

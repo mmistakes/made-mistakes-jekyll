@@ -3,8 +3,8 @@ title: "Makings of a Mistake, Designing the Site"
 excerpt: "As a designer we've all been there. When was the last time you got bored with a design and decided to just burn it and start anew?"
 modified: 2015-12-15
 image: 
-  thumb: fadedlead-home-340x340.jpg
-  teaser: fadedlead-home-teaser.jpg
+  thumb: /assets/images/fadedlead-home-340x340.jpg
+  teaser: /assets/images/fadedlead-home-teaser.jpg
 tags: [CMS, website, design, Michael Rose]
 ---
 

@@ -2,14 +2,15 @@
 title: "Blizzard protection"
 excerpt: "PaperFaces portrait of Megan G. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-megan-g-lg.jpg
-  thumb: paperfaces-megan-g-150.jpg
+  path: &image /assets/images/paperfaces-megan-g-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-megan-g-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 ---
 
 Another winter scene with a slight smudge to the background of trees to add depth. PaperFaces portrait of [Megan G.](http://sktchy.com/ZRLqgC) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-megan-g-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-megan-g-process-1-600.jpg" alt="Work in process screenshot"></a>

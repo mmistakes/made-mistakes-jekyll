@@ -2,9 +2,10 @@
 title: "Everly, 22 months"
 excerpt: "PaperFaces portrait of my daughter Everly drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-everly-autumn-lg.jpg
-  teaser: paperfaces-everly-autumn-teaser.jpg
-  thumb: paperfaces-everly-autumn-150.jpg
+  path: &image /assets/images/paperfaces-everly-autumn-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-everly-autumn-teaser.jpg
+  thumb: /assets/images/paperfaces-everly-autumn-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
 ---
 
@@ -12,7 +13,7 @@ Taking a little break from drawing the faces of strangers this weekend to sketch
 
 PS. Drawing children is friggin hard. Way too easy to turn them into demons or miniature old people if you aren't careful.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-everly-autumn-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-everly-autumn-process-1-600.jpg" alt="Work in process screenshot"></a>

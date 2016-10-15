@@ -3,9 +3,10 @@ title: "Getting Lost in the Drab"
 excerpt: "Portrait of Mr. Allan, digitally painted with Procreate on an iPad."
 modified: 2015-11-05T16:28:29-05:00
 image: 
-  feature: mr-allan-procreate-lg.jpg
-  teaser: mr-allan-procreate-teaser.jpg
-  thumb: mr-allan-procreate-250.jpg
+  path: &image /assets/images/mr-allan-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/mr-allan-procreate-teaser.jpg
+  thumb: /assets/images/mr-allan-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 
@@ -30,4 +31,4 @@ Where I struggled originally was applying the right customizations to my brushes
 
 Now if I can only figure out how to replicate the watercolor and pencil look I took for granted with Paper...
 
-{% include boilerplate/procreate.html %}
+{% include boilerplate/procreate.md %}

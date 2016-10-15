@@ -2,14 +2,15 @@
 title: "Drawing in shadows"
 excerpt: "PaperFaces portrait of @paviro_ drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-paviro-twitter-lg.jpg
-  thumb: paperfaces-paviro-twitter-150.jpg
+  path: &image /assets/images/paperfaces-paviro-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-paviro-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
 PaperFaces portrait of <a href="http://twitter.com/paviro_">@paviro_</a>.
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
 	<a href="{{ site.url }}/assets/images/paperfaces-paviro-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-paviro-process-1-600.jpg" alt="Work in process screenshot"></a>

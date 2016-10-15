@@ -2,14 +2,15 @@
 title: "Peekaboo halved"
 excerpt: "PaperFaces portrait of Laryssa W. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-laryssa-w-lg.jpg
-  thumb: paperfaces-laryssa-w-150.jpg
+  path: &image /assets/images/paperfaces-laryssa-w-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-laryssa-w-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of [Laryssa W.](http://sktchy.com/rHtydc) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-laryssa-w-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-laryssa-w-process-1-600.jpg" alt="Work in process screenshot"></a>

@@ -2,8 +2,9 @@
 title: "Little one in the orange bow"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jonathanhagans-3-twitter-lg.jpg
-  thumb: paperfaces-jonathanhagans-3-twitter-150.jpg
+  path: &image /assets/images/paperfaces-jonathanhagans-3-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-jonathanhagans-3-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
@@ -13,7 +14,7 @@ But at the same time it has been fun approaching these portraits in a new way to
 
 PaperFaces portrait commission for <a href="http://twitter.com/jonathanhagans">@jonathanhagans</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-jonathanhagans-3-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jonathanhagans-3-process-1-750.jpg" alt="Work in process screenshot"></a>

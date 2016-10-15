@@ -2,14 +2,15 @@
 title: "Scattering light through a hat"
 excerpt: "PaperFaces portrait of @comicasuperhero drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-comicasuperhero-twitter-lg.jpg
-  thumb: paperfaces-comicasuperhero-twitter-150.jpg
+  path: &image /assets/images/paperfaces-comicasuperhero-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-comicasuperhero-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
 PaperFaces avatar portrait of <a href="http://twitter.com/comicasuperhero">@comicasuperhero</a>.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure>
 	<a href="{{ site.url }}/assets/images/paperfaces-comicasuperhero-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-comicasuperhero-process-1-750.jpg" alt="Work in process screenshot"></a>

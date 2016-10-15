@@ -2,8 +2,9 @@
 title: "Computing on a computer"
 excerpt: "PaperFaces portrait of @jean_francois drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-jean-francois-twitter-lg.jpg
-  thumb: paperfaces-jean-francois-twitter-150.jpg
+  path: &image /assets/images/paperfaces-jean-francois-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-jean-francois-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
@@ -17,4 +18,4 @@ PaperFaces portrait of [@jean_francois](http://twitter.com/jean_francois).
 	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}

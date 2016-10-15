@@ -2,15 +2,16 @@
 title: "This Dog Stole My Hat"
 excerpt: "PaperFaces portrait of Diego S. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-diego-s-lg.jpg
-  teaser: paperfaces-diego-s-teaser.jpg
-  thumb: paperfaces-diego-s-150.jpg
+  path: &image /assets/images/paperfaces-diego-s-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-diego-s-teaser.jpg
+  thumb: /assets/images/paperfaces-diego-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Diego S. inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-diego-s-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-diego-s-process-1-600.jpg" alt="Work in process screenshot"></a>

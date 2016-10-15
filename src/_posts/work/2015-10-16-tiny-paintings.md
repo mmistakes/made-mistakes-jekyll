@@ -1,15 +1,12 @@
 ---
-layout: archive
+layout: page
 permalink: /tiny-paintings/
 title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
-modified:
 image: 
-  teaser: tiny-paintings-teaser.jpg
-  thumb: tiny-paintings-150.jpg
+  teaser: /assets/images/tiny-paintings-teaser.jpg
+  thumb: /assets/images/tiny-paintings-150.jpg
 tags: [watercolor, painting, drawing, portrait, illustration]
-fullwidth: true
-featured: 
 ads: false
 work: "Illustration"
 ---
@@ -20,10 +17,10 @@ My plan was to complete a miniature 1.5\" painting a day, but the challenge of p
 
 <ul class="th-grid">
 {% for post in site.categories.tiny-paintings %}
-  <li style="width: 200px;">
+  <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}/assets/images/{{ post.image.thumb }}" alt=""></noscript>
+      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <noscript><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></noscript>
     </a>
   </li>
 {% endfor %}

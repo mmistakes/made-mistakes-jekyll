@@ -3,9 +3,10 @@ title: "Mastering Paper by FiftyThree: Drawing Skies and Clouds"
 excerpt: "Techniques for drawing blue skies, clouds, and pretty sunsets using the iPad app Paper by FiftyThree."
 modified: 2016-01-27T14:39:13-05:00
 image: 
-  feature: paper-53-skies-guide-feature.jpg
-  teaser: paper-53-skies-guide-teaser-2016.jpg
-  thumb: paper-53-skies-guide-thumb.jpg
+  path: &image /assets/images/paper-53-skies-guide-feature.jpg
+  feature: *image
+  teaser: /assets/images/paper-53-skies-guide-teaser-2016.jpg
+  thumb: /assets/images/paper-53-skies-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, clouds, sky, iPad]
 comments: true
 ---

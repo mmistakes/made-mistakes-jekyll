@@ -2,14 +2,15 @@
 title: "Leather jacket"
 excerpt: "PaperFaces portrait of @gh0st_mob drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-gh0st-mob-twitter-lg.jpg
-  thumb: paperfaces-gh0st-mob-twitter-150.jpg
+  path: &image /assets/images/paperfaces-gh0st-mob-twitter-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-gh0st-mob-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
 PaperFaces portrait of [@gh0st_mob](http://twitter.com/gh0st_mob).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-gh0st-mob-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-gh0st-mob-process-1-600.jpg" alt="Work in process screenshot"></a>

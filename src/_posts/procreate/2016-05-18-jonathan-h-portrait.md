@@ -3,9 +3,10 @@ title: "Blue and Pink Lights"
 excerpt: "Portrait of Jonathan H. digitally painted with Procreate on an iPad."
 modified: 2016-05-18T10:46:51-04:00
 image: 
-  feature: jonathan-h-procreate-lg.jpg
-  teaser: jonathan-h-procreate-teaser.jpg
-  thumb: jonathan-h-procreate-250.jpg
+  path: &image /assets/images/jonathan-h-procreate-lg.jpg
+  feature: *image
+  teaser: /assets/images/jonathan-h-procreate-teaser.jpg
+  thumb: /assets/images/jonathan-h-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
@@ -24,4 +25,4 @@ Maybe I should just give the digital stuff a break for now and go old school wit
 
 Only problem I have is I love the freedom and convenience of digital art. I've gotten so used to not working at a desk and getting messy it would be hard to go back. Hmm...
 
-{% include boilerplate/procreate-2.html %}
+{% include boilerplate/procreate-2.md %}

@@ -2,14 +2,15 @@
 title: "Semi erased"
 excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-kirsty-h-lg.jpg
-  thumb: paperfaces-kirsty-h-150.jpg
+  path: &image /assets/images/paperfaces-kirsty-h-lg.jpg 
+  feature: *image
+  thumb: /assets/images/paperfaces-kirsty-h-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
 PaperFaces portrait of [Kirsty H.](http://sktchy.com/A73olc) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-4.html %}
+{% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
 	<a href="{{ site.url }}/assets/images/paperfaces-kirsty-h-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-kirsty-h-process-1-750.jpg" alt="Work in process screenshot"></a>

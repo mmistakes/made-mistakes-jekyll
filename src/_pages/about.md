@@ -1,12 +1,13 @@
 ---
 permalink: /about/
-title: "About Michael Rose"
+title: "About Michael&#160;Rose"
 date: 2014-06-01
-modified: 2016-02-11
+modified: 2016-10-14T10:04:57-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
-  feature: about-michael-collage-2016.jpg
-  teaser: about-teaser.jpg
+  path: &image /assets/images/about-michael-collage-2016.jpg
+  feature: *image
+  teaser: /assets/images/about-teaser.jpg
 ads: false
 share: false
 author: false
@@ -26,12 +27,12 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
   <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
 
-{% capture tattoos_caption %}
-My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't.
-{% endcapture %}
 <figure>
-<img src="{{ site.url }}/assets/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
-<figcaption>{{ tattoos_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  <img src="{{ site.url }}/assets/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
+  <figcaption>
+    {% capture tattoos_caption %}My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't.{% endcapture %}
+    {{ tattoos_caption | markdownify | remove: "<p>" | remove: "</p>" }}
+  </figcaption>
 </figure>
 
 ## Contact
@@ -60,7 +61,7 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 ## Selected Interviews
 
-* [**The Story of PaperFaces**](http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
+* [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
 * [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
 
 ## Honorable Mentions

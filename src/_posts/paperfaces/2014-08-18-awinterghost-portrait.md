@@ -2,15 +2,16 @@
 title: "A Drawing of a Ghost"
 excerpt: "PaperFaces portrait of @AWinterGhost drawn with Paper by 53 on an iPad."
 image: 
-  feature: paperfaces-awinterghost-twitter-lg.jpg
-  teaser: paperfaces-awinterghost-twitter-teaser.jpg
-  thumb: paperfaces-awinterghost-twitter-150.jpg
+  path: &image /assets/images/paperfaces-awinterghost-twitter-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-awinterghost-twitter-teaser.jpg
+  thumb: /assets/images/paperfaces-awinterghost-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 
 PaperFaces portrait of [@AWinterGhost](http://twitter.com/AWinterGhost).
 
-{% include boilerplate/paperfaces-2.html %}
+{% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
   <a href="{{ site.url }}/assets/images/paperfaces-awinterghost-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-awinterghost-process-1-600.jpg" alt="Work in process screenshot"></a>

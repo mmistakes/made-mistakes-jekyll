@@ -2,9 +2,10 @@
 title: "Rosebuds in the Pumpkin Patch"
 excerpt: "PaperFaces portrait of my two little rosebuds playing at the Great Pumpkin Farm."
 image: 
-  feature: paperfaces-rosebuds-pumpkins-lg.jpg
-  teaser: paperfaces-rosebuds-pumpkins-teaser.jpg
-  thumb: paperfaces-rosebuds-pumpkins-150.jpg
+  path: &image /assets/images/paperfaces-rosebuds-pumpkins-lg.jpg 
+  feature: *image
+  teaser: /assets/images/paperfaces-rosebuds-pumpkins-teaser.jpg
+  thumb: /assets/images/paperfaces-rosebuds-pumpkins-150.jpg
 tags: [portrait, illustration, Paper by 53, twins, Mix]
 ---
 
@@ -29,4 +30,4 @@ The best part is seeing what others do with them when remixed. I know some other
   <figcaption>A couple of fun and creative remixes.</figcaption>
 </figure>
 
-{% include boilerplate/paperfaces-3.html %}
+{% include boilerplate/paperfaces-3.md %}

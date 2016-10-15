@@ -5,10 +5,10 @@ gem 'breakpoint'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 # Jekyll
-gem 'jekyll'
+gem 'jekyll', '~> 3.2.1'
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jemoji'
   gem 'jekyll-archives'
-  gem 'jekyll-tagging-related_posts'
+  gem 'jekyll-seo-tag'
 end
