@@ -48,24 +48,68 @@
       <meta name="author" content="{{ site.author.name }}">
     {% endif %}
 
-    {% if page.layout == "archive" %}
-      <!-- critical-archive.css -->
-      <style>{% include critical-archive.css %}</style>
-    {% elsif page.layout == "tag_index" %}
-      <!-- critical-archive.css -->
-      <style>{% include critical-archive.css %}</style>
-    {% elsif page.layout == "splash" %}
-      <!-- critical-splash.css -->
-      <style>{% include critical-splash.css %}</style>
-    {% elsif page.layout == "work" %}
-      <!-- critical-work.css -->
-      <style>{% include critical-work.css %}</style>
-    {% else %}
-      <!-- critical-page.css -->
-      <style>{% include critical-page.css %}</style>
-    {% endif %}
+    <!-- htmlmin:ignore -->
+      <!--#if expr="$HTTP_COOKIE=/<!-- inject:css --><!-- endinject -->\=true/"-->
+        <link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->">
+      <!--#else-->
+        {% if page.layout == "archive" %}
+          <style>{% include critical-archive.css %}</style>
+        {% elsif page.layout == "tag_index" %}
+          <style>{% include critical-archive.css %}</style>
+        {% elsif page.layout == "splash" %}
+          <style>{% include critical-splash.css %}</style>
+        {% elsif page.layout == "work" %}
+          <style>{% include critical-work.css %}</style>
+        {% else %}
+          <style>{% include critical-page.css %}</style>
+        {% endif %}
+      <!--#endif-->
+    <!-- htmlmin:ignore -->
+
+    <link rel="preload" href="<!-- inject:css --><!-- endinject -->" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->"></noscript>
 
     {% include loadcss.html %}
+
+    <script>
+      /*! cookie function. get, set, or forget a cookie. [c]2014 @scottjehl, Filament Group, Inc. Licensed MIT */
+      (function(w){
+        var cookie = function( name, value, days ){
+          // if value is undefined, get the cookie value
+          if( value === undefined ){
+            var cookiestring = "; " + w.document.cookie;
+            var cookies = cookiestring.split( "; " + name + "=" );
+            if ( cookies.length === 2 ){
+              return cookies.pop().split( ";" ).shift();
+            }
+            return null;
+          }
+          else {
+            // if value is a false boolean, we'll treat that as a delete
+            if( value === false ){
+              days = -1;
+            }
+            var expires = "";
+            if ( days ) {
+              var date = new Date();
+              date.setTime( date.getTime() + ( days * 24 * 60 * 60 * 1000 ) );
+              expires = "; expires="+date.toGMTString();
+            }
+            w.document.cookie = name + "=" + value + expires + "; path=/";
+          }
+        };
+        // commonjs
+        if( typeof module !== "undefined" ){
+          module.exports = cookie;
+        }
+        else {
+          w.cookie = cookie;
+        }
+      }( typeof global !== "undefined" ? global : this ));
+
+      // drop cookie for loading full stylesheet
+      cookie("<!-- inject:css --><!-- endinject -->", "true", 7);
+    </script>
 
     <!-- site icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/apple-touch-icon.png?v=RyowzAOe9M">

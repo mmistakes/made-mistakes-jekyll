@@ -4,7 +4,7 @@ const inject       = require('gulp-inject');
 
 // 'gulp inject:css' -- injects style.css
 gulp.task('inject:css', () =>
-  gulp.src('.tmp/src/_includes/loadcss.html')
+  gulp.src('.tmp/src/_layouts/default.html')
     .pipe(inject(gulp.src('.tmp/assets/stylesheets/*.css'), {
       transform: function (filepath, file, i, length) {
         return filepath; // return filepath only
@@ -14,7 +14,7 @@ gulp.task('inject:css', () =>
       addPrefix: '{{ site.url }}',
       removeTags: true
     }))
-    .pipe(gulp.dest('.tmp/src/_includes'))
+    .pipe(gulp.dest('.tmp/src/_layouts'))
 );
 
 // 'gulp inject:scripts' -- injects index.js
