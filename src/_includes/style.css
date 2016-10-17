@@ -639,12 +639,12 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   font-size: 0.8em; }
   @media (min-width: 37.5em) {
     .site__footer {
-      padding-left: 2em;
-      padding-right: 2em; } }
+      margin-left: 2em;
+      margin-right: 2em; } }
   @media (min-width: 90em) {
     .site__footer {
-      padding-left: 3em;
-      padding-right: 3em; } }
+      margin-left: 3em;
+      margin-right: 3em; } }
   .site__footer .copyright {
     font-size: 0.8em; }
 
@@ -2210,8 +2210,12 @@ h5.review__title {
   border-bottom: 0 solid transparent; }
   @media (min-width: 37.5em) {
     .adsense--footer {
-      padding-left: 2em;
-      padding-right: 2em; } }
+      margin-left: 2em;
+      margin-right: 2em; } }
+  @media (min-width: 90em) {
+    .adsense--footer {
+      margin-left: 3em;
+      margin-right: 3em; } }
   @media (min-width: 500px) and (max-width: 900px) {
     .adsense--footer {
       width: 468px;

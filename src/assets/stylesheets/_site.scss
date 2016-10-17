@@ -34,13 +34,13 @@
   font-size: 0.8em;
 
   @include breakpoint($small) {
-    padding-left: 2em;
-    padding-right: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 
   @include breakpoint($x-large) {
-    padding-left: 3em;
-    padding-right: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
   }
 
   .copyright {
