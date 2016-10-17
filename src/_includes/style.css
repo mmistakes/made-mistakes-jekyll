@@ -1001,7 +1001,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 .toc {
   margin: 2em 0 1.5em 0;
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace; }
-  .toc input {
+  .toc input[type="checkbox"] {
     display: none; }
   .toc label {
     position: relative;
