@@ -2,16 +2,20 @@
 layout: page
 permalink: /procreate-paintings/
 title: "Procreate Paintings"
-excerpt: &excerpt "Gallery of portraits digitally painted with [Procreate](http://procreate.si/) on an iPad."
+excerpt: &excerpt "Gallery digital paintings created with [Procreate](http://procreate.si/) on an iPad."
 subtitle: *excerpt
-modified: 2015-11-30T13:04:35-05:00
+modified: 2016-10-17T11:36:34-04:00
 image: 
+  cover: /assets/images/procreate-logo-20.jpg
   teaser: /assets/images/procreate-paintings-teaser.jpg
   thumb: /assets/images/procreate-paintings-150.jpg
 tags: [Procreate, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"
+order: 1
 ---
+
+Digital paintings created on an iPad using the iOS app [**Procreate** by Savage Interactive](http://procreate.si/).
 
 <ul class="th-grid">
 {% for post in site.categories.procreate-paintings %}

@@ -13,6 +13,7 @@ tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 comments: true
 comments_locked: true
+order: 9
 ---
 
 After having so much fun creating and releasing [my first open source Jekyll theme](https://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple Theme**](https://mmistakes.github.io/so-simple-theme), a responsive Jekyll theme for words and photos. 

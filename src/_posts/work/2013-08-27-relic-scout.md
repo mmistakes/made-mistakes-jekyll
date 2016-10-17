@@ -10,7 +10,7 @@ modified: 2016-01-25
 tags: [design, logo, 8-bit, website, collectibles]
 work: "Design & Development"
 ads: false
-share: false
+order: 5
 ---
 
 Eko Wave, a company started by [two](http://twitter.com/endonend) [pals](http://twitter.com/bjpmba) and myself, just took the wraps off our first app --- **Relic Scout**. Last week we launched a teaser site and couldn't be prouder of the work that we've done so far.
