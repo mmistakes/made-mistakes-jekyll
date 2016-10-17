@@ -63,10 +63,12 @@ input[type="search"] {
   appearance: none;
 }
 
-// input[type="checkbox"], input[type="radio"] {
-//   display: inline;
-//   margin-right: (0px + $doc-line-height) / 4;
-// }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.5em;
+  width: initial;
+}
 
 input[type="file"] {
   width: 100%;

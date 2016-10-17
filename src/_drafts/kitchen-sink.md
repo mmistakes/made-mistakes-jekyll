@@ -29,7 +29,9 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(That’s a citation)</cite>. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
-HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+
+*[CSS]: Cascading Stylesheets
 
 ### Blockquotes
 
@@ -67,13 +69,13 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 
 Syntax highlighting via Pygments
 
-{% highlight css linenos=table %}
+```css
 #container {
   float: left;  
   margin: 0 -240px 0 0;  
   width: 100%;
 }
-{% endhighlight %}
+```
 
 ## Images
 
@@ -99,35 +101,16 @@ Syntax highlighting via Pygments
 
 Make any link standout more when applying the `.btn` class.
 
-{% highlight html %}
+```html
 <a href="#" class="btn">Default Button</a>
-{% endhighlight %}
+```
 
 <a href="#" class="btn">.btn</a>
-<a href="#" class="btn-inverse">.btn-inverse</a>
-<a href="#" class="btn-info">.btn-info</a>
-<a href="#" class="btn-warning">.btn-warning</a>
-<a href="#" class="btn-danger">.btn-danger</a>
-<a href="#" class="btn-success">.btn-success</a>
-
-### Social Media Buttons
-
-<a href="#" class="btn-social facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-<a href="#" class="btn-social flickr"><i class="fa fa-flickr" aria-hidden="true"></i> Flickr</a>
-<a href="#" class="btn-social foursquare"><i class="fa fa-foursquare" aria-hidden="true"></i> Foursquare</a>
-<a href="#" class="btn-social google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
-<a href="#" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-<a href="#" class="btn-social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-<a href="#" class="btn-social pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i> Pinterest</a>
-<a href="#" class="btn-social rss"><i class="fa fa-rss" aria-hidden="true"></i> RSS</a>
-<a href="#" class="btn-social tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a>
-<a href="#" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-<a href="#" class="btn-social vimeo"><i class="fa fa-vimeo-square" aria-hidden="true"></i> Vimeo</a>
-<a href="#" class="btn-social youtube"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a>
-
-## Badges
-
-1{: .badge} 2{: .badge .inverse} 3{: .badge .info} 4{: .badge .warning} 5{: .badge .danger} 6{: .badge .success}
+<a href="#" class="btn btn--inverse">.btn--inverse</a>
+<a href="#" class="btn btn--info">.btn--info</a>
+<a href="#" class="btn btn--warning">.btn--warning</a>
+<a href="#" class="btn btn--danger">.btn--danger</a>
+<a href="#" class="btn btn--success">.btn--success</a>
 
 ## Notices
 
@@ -136,11 +119,6 @@ Set a block of text off from the rest.
 <div class="notice" markdown="1">
 #### Default Notice
 [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-</div><!-- /.notice -->
-
-<div class="notice--inverse" markdown="1">
-#### Inverse Notice
-`.notice--infor` Maecenas ornare tortor. Donec sed tellus [eget sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
 </div>
 
 <div class="notice--info" markdown="1">
