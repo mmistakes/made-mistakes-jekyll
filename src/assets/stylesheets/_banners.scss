@@ -46,8 +46,13 @@
   border-bottom: 0 solid transparent;
 
   @include breakpoint($small) {
-    padding-left: 2em;
-    padding-right: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  @include breakpoint($x-large) {
+    margin-left: 3em;
+    margin-right: 3em;
   }
 
   @media (min-width: 500px) and (max-width: $medium-wide) {

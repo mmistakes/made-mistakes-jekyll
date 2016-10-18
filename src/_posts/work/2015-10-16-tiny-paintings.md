@@ -4,11 +4,14 @@ permalink: /tiny-paintings/
 title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
 image: 
+  cover: /assets/images/tiny-paintings-20.jpg
   teaser: /assets/images/tiny-paintings-teaser.jpg
   thumb: /assets/images/tiny-paintings-150.jpg
 tags: [watercolor, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"
+order: 3
+modified: 2016-10-17T11:58:45-04:00
 ---
 
 Trying to emulate the look and feel of [watercolor on the iPad]({{ site.url }}/paperfaces/) has inspired me to revisit painting traditionally. I've gone mini in an effort to fit some painting in amongst family and work obligations. 
