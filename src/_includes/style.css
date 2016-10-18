@@ -2090,6 +2090,9 @@ green     #859900  operators, other keywords
 .comment__content > p, .comment__content > ul, .comment__content > ol, .comment__content > figure, .comment__content > table {
   margin-bottom: 1.5em; }
 
+.comment__content ul {
+  list-style-type: square; }
+
 .comment__content li {
   margin-bottom: 0.5em; }
 
