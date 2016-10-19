@@ -144,25 +144,4 @@
 .nav__list {
   list-style: none;
   padding-left: 0;
-  display: flex;
-  flex-direction: column;
-
-  @include breakpoint($small) {
-    flex-direction: row;
-  }
-
-  li {
-    font-family: $sans-serif;
-    font-weight: 700;
-  }
-
-  a {
-    display: block;
-    padding: 1em 0;
-    color: inherit;
-
-    @include breakpoint($small) {
-      padding: 0 2em 0 0;
-    }
-  }
 }

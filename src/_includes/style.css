@@ -645,6 +645,30 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .site__footer {
       margin-left: 3em;
       margin-right: 3em; } }
+  .site__footer .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+    .site__footer .nav__list li {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      @media (min-width: 37.5em) {
+        .site__footer .nav__list li {
+          -ms-flex-preferred-size: inherit;
+              flex-basis: inherit; } }
+    .site__footer .nav__list a {
+      display: block;
+      padding: 1em 0;
+      color: inherit;
+      font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+      font-weight: 700; }
+      @media (min-width: 37.5em) {
+        .site__footer .nav__list a {
+          padding: 0 2em 0 0; } }
   .site__footer .copyright {
     font-size: 0.8em; }
 
@@ -1668,30 +1692,7 @@ form ul, form ol, form li {
 
 .nav__list {
   list-style: none;
-  padding-left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  @media (min-width: 37.5em) {
-    .nav__list {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row; } }
-  .nav__list li {
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-    font-weight: 700; }
-  .nav__list a {
-    display: block;
-    padding: 1em 0;
-    color: inherit; }
-    @media (min-width: 37.5em) {
-      .nav__list a {
-        padding: 0 2em 0 0; } }
+  padding-left: 0; }
 
 /* ==========================================================================
    GOOGLE SEARCH
