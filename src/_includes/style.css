@@ -1712,7 +1712,9 @@ form ul, form ol, form li {
     width: 70%; } }
 
 #goog-wm-sb {
-  margin-bottom: 12px; }
+  color: #fff;
+  font-weight: 700;
+  background-color: #000; }
   @media (min-width: 48em) {
     #goog-wm-sb {
       display: inline-block;
