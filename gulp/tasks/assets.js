@@ -86,38 +86,20 @@ gulp.task('styles', () =>
     .pipe(when(!argv.prod, browserSync.stream()))
 );
 
-// 'gulp critical:css' -- transform critical.scss into /_includes/critical.css
-// gulp.task('critical:css', () =>
-//   gulp.src('src/assets/stylesheets/critical.scss')
-//     .pipe(sass({
-//       precision: 10
-//     }).on('error', sass.logError))
-//     .pipe(postcss([
-//       autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})
-//     ]))
-//     .pipe(size({
-//       showFiles: true
-//     }))
-//     .pipe(when('*.css', cssnano({autoprefixer: false})))
-//     .pipe(size({
-//       showFiles: true
-//     }))
-//     .pipe(gulp.dest('.tmp/src/_includes'))
-// );
-
 // 'gulp critical:page' -- extract layout.page critical CSS into /_includes/critical-page.css
 gulp.task('critical:page', function () {
   return gulp.src('.tmp/dist/articles/ipad-pro/index.html')
     .pipe(critical({
       base: '.tmp/',
+      inline: false,
       css: ['src/_includes/style.css'],
       dimensions: [{
         width: 320,
         height: 480
-      },{
+      }, {
         width: 768,
         height: 1024
-      },{
+      }, {
         width: 1280,
         height: 960
       }],
@@ -126,7 +108,6 @@ gulp.task('critical:page', function () {
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
     }))
-    // .pipe(gulp.dest('src/_includes'));
 });
 
 // 'gulp critical:archive' -- extract layout.archive critical CSS into /_includes/critical-archive.css
@@ -134,14 +115,15 @@ gulp.task('critical:archive', function () {
   return gulp.src('.tmp/dist/mastering-paper/index.html')
     .pipe(critical({
       base: '.tmp/',
+      inline: false,
       css: ['src/_includes/style.css'],
       dimensions: [{
         width: 320,
         height: 480
-      },{
+      }, {
         width: 768,
         height: 1024
-      },{
+      }, {
         width: 1280,
         height: 960
       }],
@@ -150,7 +132,6 @@ gulp.task('critical:archive', function () {
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
     }))
-    // .pipe(gulp.dest('src/_includes'));
 });
 
 // 'gulp critical:work' -- extract layout.work critical CSS into /_includes/critical-work.css
@@ -158,14 +139,15 @@ gulp.task('critical:work', function () {
   return gulp.src('.tmp/dist/paperfaces/asja-k-portrait/index.html')
     .pipe(critical({
       base: '.tmp/',
+      inline: false,
       css: ['src/_includes/style.css'],
       dimensions: [{
         width: 320,
         height: 480
-      },{
+      }, {
         width: 768,
         height: 1024
-      },{
+      }, {
         width: 1280,
         height: 960
       }],
@@ -174,7 +156,6 @@ gulp.task('critical:work', function () {
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
     }))
-    // .pipe(gulp.dest('src/_includes'));
 });
 
 // 'gulp critical:splash' -- extract layout.splash critical CSS into /_includes/critical-splash.css
@@ -198,7 +179,6 @@ gulp.task('critical:splash', function () {
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
     }))
-    // .pipe(gulp.dest('src/_includes'));
 });
 
 // 'gulp icons' -- combine all svg icons into single file
