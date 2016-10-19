@@ -1007,17 +1007,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   .index {
     width: 66.1016949153%; } }
 
-@media (min-width: 90em) {
-  .index {
-    width: 49.1525423729%; } }
-
 @media (min-width: 56.25em) {
   .index .page__cover {
     width: 32.2033898305%; } }
-
-@media (min-width: 90em) {
-  .index .page__cover {
-    width: 49.1525423729%; } }
 
 /* ==========================================================================
    TABLE OF CONTENTS

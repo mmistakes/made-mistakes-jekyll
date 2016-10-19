@@ -8,18 +8,10 @@
     width: span(8);
   }
 
-  @include breakpoint($x-large) {
-    width: span(6);
-  }
-
   .page__cover {
 
     @include breakpoint($medium-wide) {
       width: span(4);
-    }
-
-    @include breakpoint($x-large) {
-      width: span(6);
     }
   }
 }
