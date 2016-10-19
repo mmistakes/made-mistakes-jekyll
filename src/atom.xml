@@ -1,5 +1,5 @@
 ---
-limit: 15
+limit: 10
 sitemap: false
 ---
 {% include feed/head.xml %}
