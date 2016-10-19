@@ -23,7 +23,7 @@ gulp.task('clean', gulp.parallel('clean:assets', 'clean:gzip', 'clean:dist', 'cl
 
 // 'gulp build' -- same as 'gulp' but doesn't serve site
 // 'gulp build --prod' -- same as above but with production settings
-gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html'));
+gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html', 'xml'));
 
 // 'gulp critical' -- builds critical path CSS includes
 // WARNING: run this after substantial CSS changes
