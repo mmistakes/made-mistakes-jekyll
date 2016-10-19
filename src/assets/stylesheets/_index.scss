@@ -9,6 +9,7 @@
   }
 
   .page__cover {
+    z-index: -1;
 
     @include breakpoint($medium-wide) {
       width: span(4);

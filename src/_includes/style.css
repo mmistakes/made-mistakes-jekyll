@@ -848,9 +848,11 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   .index {
     width: 66.1016949153%; } }
 
-@media (min-width: 56.25em) {
-  .index .page__cover {
-    width: 32.2033898305%; } }
+.index .page__cover {
+  z-index: -1; }
+  @media (min-width: 56.25em) {
+    .index .page__cover {
+      width: 32.2033898305%; } }
 
 /* ==========================================================================
    TABLE OF CONTENTS
@@ -1420,6 +1422,7 @@ form ul, form ol, form li {
   color: inherit;
   text-decoration: none;
   border: 0.25em solid #333;
+  background-color: #fff;
   box-shadow: 0.5em 0.5em #333;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
@@ -1439,6 +1442,9 @@ form ul, form ol, form li {
           -ms-flex-align: start;
                   -ms-grid-row-align: flex-start;
               align-items: flex-start; } }
+  @media (min-width: 56.25em) {
+    .list article.item a {
+      margin-right: -23.0769230769%; } }
 
 .item:not(:last-child) {
   margin-bottom: 3em; }
