@@ -4,7 +4,7 @@
   <div class="{{ include.type | default: 'page' }}__hero">
     <img src="{{ site.url }}{{ f[0] }}-320.{{ f[1] }}" alt="{{ page.title }}" class="image"
       srcset="{{ site.url }}{{ f[0] }}-320.{{ f[1] }} 320w, {{ site.url }}{{ f[0] }}-768.{{ f[1] }} 768w, {{ site.url }}{{ f[0] }}-1024.{{ f[1] }} 1024w, {{ site.url }}{{ f[0] }}-1600.{{ f[1] }} 1600w"
-        sizes="(min-width: 900px) 60vw, 100vw">
+      sizes="(min-width: 900px) 60vw, 100vw">
     {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
   </div>
 {% else %}

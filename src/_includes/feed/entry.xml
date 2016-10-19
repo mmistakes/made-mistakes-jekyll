@@ -11,7 +11,13 @@
 
   <id>{{ base }}{{ post.id | xml_escape }}</id>
   <content type="html" xml:base="{{ base }}{{ post.url | xml_escape }}">
-    {% if post.image.feature %}{% include feed/feature-image.xml %}{% endif %}
+    {% if post.image.feature %}
+      {% include feed/feature-image.xml %}
+    {% endif %}
+    {% if post.gallery %}
+      {% capture feed_work_gallery %}{% include work__gallery.html %}{% endcapture %}
+      {{ feed_work_gallery | xml_escape }}
+    {% endif %}
     {{ post.content | markdownify | xml_escape }}
     {% include feed/footer.xml %}
   </content>
