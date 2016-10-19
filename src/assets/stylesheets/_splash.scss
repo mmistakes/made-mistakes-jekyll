@@ -68,6 +68,7 @@
   }
 
   .page__excerpt {
+    margin-bottom: 1em;
     font-family: $serif;
     font-weight: normal;
 
@@ -95,7 +96,7 @@
   }
 
   .item:not(:last-child) {
-    margin-bottom: 0;
+    margin-bottom: 2em;
   }
 
 }
