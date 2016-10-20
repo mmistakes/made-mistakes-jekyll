@@ -49,7 +49,7 @@
     {% endif %}
 
     <!-- htmlmin:ignore -->
-      <!--#if expr="$HTTP_COOKIE=/<!-- inject:css --><!-- endinject -->\=true/"-->
+      <!--#if expr="$HTTP_COOKIE = /fullcss\=<!-- inject:css --><!-- endinject -->/"-->
         <link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->">
       <!--#else-->
         {% if page.layout == "archive" %}
@@ -68,47 +68,11 @@
 
     <link rel="preload" href="<!-- inject:css --><!-- endinject -->" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->"></noscript>
-
     {% include loadcss.html %}
-
     <script>
-      /*! cookie function. get, set, or forget a cookie. [c]2014 @scottjehl, Filament Group, Inc. Licensed MIT */
-      (function(w){
-        var cookie = function( name, value, days ){
-          // if value is undefined, get the cookie value
-          if( value === undefined ){
-            var cookiestring = "; " + w.document.cookie;
-            var cookies = cookiestring.split( "; " + name + "=" );
-            if ( cookies.length === 2 ){
-              return cookies.pop().split( ";" ).shift();
-            }
-            return null;
-          }
-          else {
-            // if value is a false boolean, we'll treat that as a delete
-            if( value === false ){
-              days = -1;
-            }
-            var expires = "";
-            if ( days ) {
-              var date = new Date();
-              date.setTime( date.getTime() + ( days * 24 * 60 * 60 * 1000 ) );
-              expires = "; expires="+date.toGMTString();
-            }
-            w.document.cookie = name + "=" + value + expires + "; path=/";
-          }
-        };
-        // commonjs
-        if( typeof module !== "undefined" ){
-          module.exports = cookie;
-        }
-        else {
-          w.cookie = cookie;
-        }
-      }( typeof global !== "undefined" ? global : this ));
-
-      // drop cookie for loading full stylesheet
-      cookie("<!-- inject:css --><!-- endinject -->", "true", 7);
+      // drop fullcss cookie to identify if cached css should load
+      // via $HTTP_COOKIE conditional above
+      cookie('fullcss', '<!-- inject:css --><!-- endinject -->', 7);
     </script>
 
     <!-- site icons -->
