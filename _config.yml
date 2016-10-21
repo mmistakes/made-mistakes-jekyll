@@ -49,14 +49,14 @@ author:
 
 # Staticman comments
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ["name", "email", "url", "message"]
   branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : "src/_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields         : ["name", "email", "message"]
   transforms:
     email                : "md5"
   generatedFields:
