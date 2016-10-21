@@ -44,23 +44,23 @@
       <meta name="author" content="{{ site.author.name }}">
     {% endif %}
 
-    <!-- htmlmin:ignore -->
-    <!--#if expr="$HTTP_COOKIE = /fullcss\=<!-- inject:css --><!-- endinject -->/" -->
-      <link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->">
-    <!--#else-->
-      {% if page.layout == "archive" %}
-        <style>{% include critical-archive.css %}</style>
-      {% elsif page.layout == "tag_index" %}
-        <style>{% include critical-archive.css %}</style>
-      {% elsif page.layout == "splash" %}
-        <style>{% include critical-splash.css %}</style>
-      {% elsif page.layout == "work" %}
-        <style>{% include critical-work.css %}</style>
-      {% else %}
-        <style>{% include critical-page.css %}</style>
-      {% endif %}
-    <!--#endif-->
-    <!-- htmlmin:ignore -->
+  <!-- htmlmin:ignore -->
+  <!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
+    <link rel="stylesheet" href="<!-- inject:css --><!-- endinject -->">
+  <!--#else-->
+    {% if page.layout == "archive" %}
+      <style>{% include critical-archive.css %}</style>
+    {% elsif page.layout == "tag_index" %}
+      <style>{% include critical-archive.css %}</style>
+    {% elsif page.layout == "splash" %}
+      <style>{% include critical-splash.css %}</style>
+    {% elsif page.layout == "work" %}
+      <style>{% include critical-work.css %}</style>
+    {% else %}
+      <style>{% include critical-page.css %}</style>
+    {% endif %}
+  <!--#endif-->
+  <!-- htmlmin:ignore -->
 
     <script>
       /*! EnhanceJS: a progressive enhancement boilerplate. Copyright 2014 @scottjehl, Filament Group, Inc. Licensed MIT */
@@ -183,9 +183,10 @@
           Once the cookie is set, the full CSS is assumed to be in cache, and the server-side templates should reference the full CSS directly from the head of the page with a link element, in place of inline critical styles.
           */
         var fullCSS = getMeta( fullCSSKey );
-        if( fullCSS && !cookie( fullCSSKey, "<!-- inject:css --><!-- endinject -->" ) ){
+        if( fullCSS && !cookie( fullCSSKey ) ){
           loadCSS( fullCSS.content );
-          cookie( fullCSSKey, "<!-- inject:css --><!-- endinject -->", 7 );
+          // set cookie to mark this file fetched
+          cookie( fullCSSKey, "true", 7 );
         }
 
         /* Enhancements for qualified browsers - "Cutting the Mustard"

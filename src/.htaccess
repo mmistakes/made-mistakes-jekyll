@@ -7,6 +7,11 @@
 #
 # https://httpd.apache.org/docs/current/howto/htaccess.html.
 
+
+# Allow SSI
+Options +Includes
+AddHandler server-parsed .shtml .html .htm
+
 # ##############################################################################
 # # CROSS-ORIGIN RESOURCE SHARING (CORS)                                       #
 # ##############################################################################
