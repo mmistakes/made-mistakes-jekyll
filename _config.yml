@@ -172,6 +172,17 @@ defaults:
       comments: true
       seo:
         type: "CreativeWork"
+  # TIL
+  - scope:
+      path: _posts/til
+      type: posts
+    values:
+      layout: page
+      category: til
+      read_time: true
+      breadcrumbs:
+        - label: "Today I Learned"
+          url: /til/
   # Tiny Paintings
   - scope:
       path: _posts/tiny-paintings
