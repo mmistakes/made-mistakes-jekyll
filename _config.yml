@@ -16,6 +16,15 @@ url                      : "https://mademistakes.com"
 twitter:
   username               : "mmistakes"
 
+social:
+  name                   : "Michael Rose"
+  links:
+    - "https://twitter.com/mmistakes"
+    - "https://www.facebook.com/michaelrose"
+    - "https://www.instagram.com/mmistakes/"
+    - "https://github.com/mmistakes"
+    - "https://plus.google.com/u/0/+MichaelRoseDesign/posts"
+
 google_site_verification : "geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo"
 bing_site_verification   : "D81F4C18A6CB3018F64D7C827D953DFD"
 alexa_site_verification  : "Y5DYjZ4VWlrQzBP5kcQJeOKLNas"
