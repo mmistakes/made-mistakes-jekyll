@@ -1,6 +1,6 @@
 'use strict';
-const gulp         = require('gulp');
-const inject       = require('gulp-inject');
+var gulp   = require('gulp');
+var inject = require('gulp-inject');
 
 // 'gulp inject:css' -- injects style.css
 gulp.task('inject:css', () =>

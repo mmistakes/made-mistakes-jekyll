@@ -1,7 +1,7 @@
 'use strict';
-const fs            = require('fs');
-const gulp          = require('gulp');
-const rsync         = require('gulp-rsync');
+var fs            = require('fs');
+var gulp          = require('gulp');
+var rsync         = require('gulp-rsync');
 
 // 'gulp upload' -- reads rsync credentials file and incrementally uploads site to server
 gulp.task('upload', () => {

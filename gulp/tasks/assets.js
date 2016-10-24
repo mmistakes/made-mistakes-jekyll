@@ -1,24 +1,24 @@
 'use strict';
-const argv         = require('yargs').argv;
-const autoprefixer = require('autoprefixer');
-const browserSync  = require('browser-sync').create();
-const cheerio      = require('gulp-cheerio');
-const concat       = require('gulp-concat');
-const critical     = require('critical').stream;
-const cssnano      = require('gulp-cssnano');
-const gulp         = require('gulp');
-const gzip         = require('gulp-gzip');
-const newer        = require('gulp-newer');
-const postcss      = require('gulp-postcss');
-const rename       = require('gulp-rename');
-const rev          = require('gulp-rev');
-const sass         = require('gulp-sass');
-const size         = require('gulp-size');
-const svgstore     = require('gulp-svgstore');
-const svgmin       = require('gulp-svgmin');
-const sourcemaps   = require('gulp-sourcemaps');
-const uglify       = require('gulp-uglify');
-const when         = require('gulp-if');
+var argv         = require('yargs').argv;
+var autoprefixer = require('autoprefixer');
+var browserSync  = require('browser-sync').create();
+var cheerio      = require('gulp-cheerio');
+var concat       = require('gulp-concat');
+var critical     = require('critical').stream;
+var cssnano      = require('gulp-cssnano');
+var gulp         = require('gulp');
+var gzip         = require('gulp-gzip');
+var newer        = require('gulp-newer');
+var postcss      = require('gulp-postcss');
+var rename       = require('gulp-rename');
+var rev          = require('gulp-rev');
+var sass         = require('gulp-sass');
+var size         = require('gulp-size');
+var svgstore     = require('gulp-svgstore');
+var svgmin       = require('gulp-svgmin');
+var sourcemaps   = require('gulp-sourcemaps');
+var uglify       = require('gulp-uglify');
+var when         = require('gulp-if');
 
 // 'gulp scripts' -- creates a index.js file with Sourcemap from your JavaScript files
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,

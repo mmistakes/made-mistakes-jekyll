@@ -1,9 +1,11 @@
 // modified from generator-jekyllized 1.0.0-rc.6
 'use strict';
-const gulp       = require('gulp');
-const requireDir = require('require-dir');
-const tasks      = requireDir('./gulp/tasks', {recurse: true}); // eslint-disable-line
+var gulp       = require('gulp');
+var requireDir = require('require-dir');
+var tasks      = requireDir('./gulp/tasks', {recurse: true}); // eslint-disable-line
 
+// include paths file
+var paths      = require('./gulp/paths');
 
 // 'gulp inject' -- injects CSS and JS into includes
 gulp.task('inject', gulp.parallel('inject:css', 'inject:scripts'));

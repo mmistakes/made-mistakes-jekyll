@@ -1,18 +1,18 @@
 'use strict';
-const cache    = require('gulp-cache');
-const changed  = require("gulp-changed");
-const filter   = require('gulp-filter');
-const glob     = require('glob');
-const gulp     = require('gulp');
-const gulpif   = require('gulp-if');
-const imagemin = require('gulp-imagemin');
-const merge2   = require('merge2');
-const newer    = require('gulp-newer');
-const notify   = require('gulp-notify');
-const rename   = require('gulp-rename');
-const resize   = require('./resize-images');
-const size     = require('gulp-size');
-const util     = require('gulp-util');
+var cache    = require('gulp-cache');
+var changed  = require("gulp-changed");
+var filter   = require('gulp-filter');
+var glob     = require('glob');
+var gulp     = require('gulp');
+var gulpif   = require('gulp-if');
+var imagemin = require('gulp-imagemin');
+var merge2   = require('merge2');
+var newer    = require('gulp-newer');
+var notify   = require('gulp-notify');
+var rename   = require('gulp-rename');
+var resize   = require('./resize-images');
+var size     = require('gulp-size');
+var util     = require('gulp-util');
 
 // 'gulp images' -- resizes, optimizes, and caches images
 gulp.task('images', () =>
@@ -71,9 +71,9 @@ gulp.task('images:feature', function() {
 });
 
 // 'gulp images:feature' -- resizes, optimizes, and caches feature images
-// const feature_src = 'src/assets/images/feature/*.jpg';
-// const feature_dest = '.tmp/assets/images';
-// const feature_formats = [
+// var feature_src = 'src/assets/images/feature/*.jpg';
+// var feature_dest = '.tmp/assets/images';
+// var feature_formats = [
 //   {suffix: '', width: null},
 //   {suffix: '-big', width: 1600},
 //   {suffix: '-large', width: 1024},
@@ -81,11 +81,11 @@ gulp.task('images:feature', function() {
 //   {suffix: '-small', width: 600},
 //   {suffix: '-tiny', width: 320}
 // ];
-// const feature_imops = {progressive: true, optimizationLevel: 5};
+// var feature_imops = {progressive: true, optimizationLevel: 5};
 
 // gulp.task('images:feature', function(callback) {
-//   const path = require('path');
-//   const files = glob.sync(feature_src);
+//   var path = require('path');
+//   var files = glob.sync(feature_src);
 //   var streams = [];
 
 //   files.map(function(file) {

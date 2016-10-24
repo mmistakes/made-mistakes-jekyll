@@ -1,8 +1,8 @@
 'use strict';
-const argv  = require('yargs').argv;
-const gulp  = require('gulp');
-const shell = require('shelljs');
-const size  = require('gulp-size');
+var argv  = require('yargs').argv;
+var gulp  = require('gulp');
+var shell = require('shelljs');
+var size  = require('gulp-size');
 
 // 'gulp site:tmp' -- copies Jekyll site to a temporary directory to be processed
 gulp.task('site:tmp', () =>

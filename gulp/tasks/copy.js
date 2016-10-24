@@ -1,5 +1,5 @@
 'use strict';
-const gulp = require('gulp');
+var gulp = require('gulp');
 
 // 'gulp assets:copy' -- copies assets into the /dist/ to avoid
 // Jekyll overwriting the whole directory

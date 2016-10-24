@@ -1,6 +1,6 @@
 'use strict';
-const gulp = require('gulp');
-const size = require('gulp-size');
+var gulp = require('gulp');
+var size = require('gulp-size');
 
 // 'gulp fonts' -- copies fonts to temporary assets directory
 gulp.task('fonts', () =>

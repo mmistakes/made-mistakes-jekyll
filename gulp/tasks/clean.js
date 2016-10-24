@@ -1,6 +1,6 @@
 'use strict';
-const del  = require('del');
-const gulp = require('gulp');
+var del  = require('del');
+var gulp = require('gulp');
 
 // 'gulp clean:assets' -- removes temporary and built CSS/JS assets
 gulp.task('clean:assets', () => {

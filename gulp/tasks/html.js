@@ -1,11 +1,11 @@
 'use strict';
-const argv       = require('yargs').argv;
-const gulp       = require('gulp');
-const gzip       = require('gulp-gzip');
-const htmlmin    = require('gulp-htmlmin');
-const prettyData = require('gulp-pretty-data');
-const size       = require('gulp-size');
-const when       = require('gulp-if');
+var argv       = require('yargs').argv;
+var gulp       = require('gulp');
+var gzip       = require('gulp-gzip');
+var htmlmin    = require('gulp-htmlmin');
+var prettyData = require('gulp-pretty-data');
+var size       = require('gulp-size');
+var when       = require('gulp-if');
 
 // 'gulp html' -- does nothing
 // 'gulp html --prod' -- minifies and gzips HTML files for production
