@@ -86,8 +86,8 @@ gulp.task('styles', () =>
     .pipe(when(!argv.prod, browserSync.stream()))
 );
 
-// 'gulp critical:page' -- extract layout.page critical CSS into /_includes/critical-page.css
-gulp.task('critical:page', function () {
+// 'gulp styles:critical:page' -- extract layout.page critical CSS into /_includes/critical-page.css
+gulp.task('styles:critical:page', function () {
   return gulp.src('.tmp/dist/articles/ipad-pro/index.html')
     .pipe(critical({
       base: '.tmp/',
@@ -110,8 +110,8 @@ gulp.task('critical:page', function () {
     }))
 });
 
-// 'gulp critical:archive' -- extract layout.archive critical CSS into /_includes/critical-archive.css
-gulp.task('critical:archive', function () {
+// 'gulp styles:critical:archive' -- extract layout.archive critical CSS into /_includes/critical-archive.css
+gulp.task('styles:critical:archive', function () {
   return gulp.src('.tmp/dist/mastering-paper/index.html')
     .pipe(critical({
       base: '.tmp/',
@@ -134,8 +134,8 @@ gulp.task('critical:archive', function () {
     }))
 });
 
-// 'gulp critical:work' -- extract layout.work critical CSS into /_includes/critical-work.css
-gulp.task('critical:work', function () {
+// 'gulp styles:critical:work' -- extract layout.work critical CSS into /_includes/critical-work.css
+gulp.task('styles:critical:work', function () {
   return gulp.src('.tmp/dist/paperfaces/asja-k-portrait/index.html')
     .pipe(critical({
       base: '.tmp/',
@@ -158,8 +158,8 @@ gulp.task('critical:work', function () {
     }))
 });
 
-// 'gulp critical:splash' -- extract layout.splash critical CSS into /_includes/critical-splash.css
-gulp.task('critical:splash', function () {
+// 'gulp styles:critical:splash' -- extract layout.splash critical CSS into /_includes/critical-splash.css
+gulp.task('styles:critical:splash', function () {
   return gulp.src('.tmp/dist/index.html')
     .pipe(critical({
       base: '.tmp/',
