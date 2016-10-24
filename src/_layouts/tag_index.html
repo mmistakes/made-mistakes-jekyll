@@ -5,8 +5,6 @@ layout: default
 {% assign taxonomy = page.title | downcase | slugify %}
 {% assign tag = site.data.taxonomy[taxonomy] %}
 
-{% include browser-upgrade.html %}
-
 <div class="index">
   {% include site__logo.html %}
   <div id="main" role="main">
