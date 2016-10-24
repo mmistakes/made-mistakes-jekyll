@@ -1,8 +1,11 @@
 ---
 title: "Using SSI to Detect Cookies"
+layout: page
+category: til
 excerpt:
 image: 
-  teaser:
+  path: /assets/images/using-ssi.jpg
+  teaser: /assets/images/using-ssi-teaser.jpg
 tags: [web development, Jekyll]
 ---
 
@@ -19,19 +22,19 @@ Analyzed with [Google's PageSpeed Insights](https://developers.google.com/speed/
   <figcaption>{{ pagespeed_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
 
-This process wasn't ideal for a variety of reasons:
+This workflow wasn't ideal for a variety of reasons:
 
 1. Manual process.
 2. Need to maintain separate "critical" stylesheets for inlining.
 3. Included a bunch of declarations that aren't critical to rendering "above the fold" content ---  causing some file size bloat.
 
-So with the help of [**Critical**](https://github.com/addyosmani/critical) and friends I attempted to automated the process in the next release of the site. Getting it working within the constraints of a Jekyll site with thousands of posts wasn't easy, but I got close with these [Gulp tasks](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks). A tale for another day unfortunately...
+So with the help of [**Critical**](https://github.com/addyosmani/critical) (and friends) I attempted to automated the process. Getting it working within the constraints of a Jekyll site with thousands of posts wasn't easy, but I got close with [a set of Gulp tasks](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks). A tale for another day unfortunately...
 
 Sorry a little off topic there, back to SSI directives.
 
-To speed things up for repeat visitors, loading a cached version of the CSS instead of waiting for **loadCSS** to do its thing is preferred. Using Filament Group's aptly named [**Enhance.js**](https://github.com/filamentgroup/enhance) project as a boilerplate, I learned that this can be achieved with a cookie and SSI directives.
+I learned that to speed up things for repeat visitors, loading a cached version of the CSS instead of waiting for **loadCSS** to do its thing was preferred. By using Filament Group's aptly named [**Enhance.js**](https://github.com/filamentgroup/enhance) project as a boilerplate, this could be achieved by dropping a cookie and using SSI directives.
 
-Structuring our HTML a little something like this:
+Structuring our HTML looks a little like like this:
 
 ```html
 <!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
@@ -48,10 +51,10 @@ The `#if` and `#else` conditionals are SSI directives used by Apache to do some 
 
 *[SSI]: Server Side Includes
 
-For first time visitors without this cookie:
+For first time visitors:
 
 1. Critical CSS inlined within the `<style>` element will load almost instantly.
-2. **loadCSS** script will asynchronously the remaining page CSS as not to block rendering.
+2. **loadCSS** script will asynchronously load the remaining page CSS as not to block rendering.
 3. A cookie will be set to trigger the loading of cached CSS on future page loads.
 
 After setting all this up and testing my pages against [**WebPagetest**](https://www.webpagetest.org/), [**PageSpeed Insights**](https://developers.google.com/speed/pagespeed/insights/), and [**GTmetrix**](https://gtmetrix.com/) I saw an obvious drop in scrores :confused:. Apparently the SSI directives weren't working as intended, causing `style.css` to render block each page load. Hmmmm...
