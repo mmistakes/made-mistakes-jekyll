@@ -1476,9 +1476,10 @@ form ul, form ol, form li {
 .item__meta {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 0.8em; }
-
-.archive__item-time {
-  margin-left: 1em; }
+  .item__meta .archive__item-time,
+  .item__meta .comment__count {
+    margin-left: 1em;
+    white-space: nowrap; }
 
 .item__image {
   position: relative;

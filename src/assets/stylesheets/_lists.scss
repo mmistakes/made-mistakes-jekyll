@@ -83,10 +83,12 @@
 .item__meta {
   font-family: $sans-serif;
   font-size: 0.8em;
-}
 
-.archive__item-time {
-  margin-left: 1em;
+  .archive__item-time,
+  .comment__count {
+    margin-left: 1em;
+    white-space: nowrap;
+  }
 }
 
 .item__image {
