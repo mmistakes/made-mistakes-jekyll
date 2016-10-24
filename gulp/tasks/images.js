@@ -14,17 +14,20 @@ var resize   = require('./resize-images');
 var size     = require('gulp-size');
 var util     = require('gulp-util');
 
+// include paths file
+var paths    = require('../paths');
+
 // 'gulp images' -- resizes, optimizes, and caches images
 gulp.task('images', () =>
-  gulp.src(['src/assets/images/**/*', '!src/assets/images/{feature,feature/**}']) // do not process feature images
-    .pipe(newer('dist/assets/images'))
+  gulp.src([paths.imageFilesGlob, '!src/assets/images/{feature,feature/**}']) // do not process feature images
+    .pipe(newer(paths.imageFilesSite))
     .pipe(imagemin([
       imagemin.gifsicle({interlaced: true}),
       imagemin.jpegtran({progressive: true}),
       imagemin.optipng(),
       imagemin.svgo({plugins: [{cleanupIDs: false}]})
     ]))
-    .pipe(gulp.dest('dist/assets/images'))
+    .pipe(gulp.dest(paths.imageFilesSite))
     .pipe(size({title: 'images'}))
 );
 
@@ -42,29 +45,29 @@ var options = [
 gulp.task('images:feature', function() {
   var streams = options.map(function(el) {
     // resizing images
-    return gulp.src(['src/assets/images/feature/**/*', '!src/assets/images/feature/**/*.svg'])
+    return gulp.src([paths.imageFiles + '/feature' + paths.imagePattern, '!' + paths.imageFiles + '/feature/**/*.svg'])
       .pipe(rename(function(file) {
         if(file.extname) {
           file.basename += '-' + el.width
         }
       }))
-      .pipe(newer('dist/assets/images'))
+      .pipe(newer(paths.imageFilesSite))
       .pipe(resize(el))
       .pipe(imagemin([
         imagemin.jpegtran({progressive: true}),
         imagemin.optipng()
       ]))
-      .pipe(gulp.dest('dist/assets/images'))
+      .pipe(gulp.dest(paths.imageFilesSite))
   });
 
   // add original images
-  streams.push(gulp.src('src/assets/images/feature/**/*')
-    .pipe(newer('dist/assets/images'))
+  streams.push(gulp.src(paths.imageFiles + '/feature' + paths.imagePattern)
+    .pipe(newer(paths.imageFilesSite))
     .pipe(imagemin([
       imagemin.jpegtran({progressive: true}),
       imagemin.optipng()
     ]))
-    .pipe(gulp.dest('dist/assets/images')))
+    .pipe(gulp.dest(paths.imageFilesSite)))
 
   return merge2(streams);
 

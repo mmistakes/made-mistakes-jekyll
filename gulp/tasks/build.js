@@ -4,10 +4,13 @@ var gulp  = require('gulp');
 var shell = require('shelljs');
 var size  = require('gulp-size');
 
+// include paths file
+var paths = require('../paths');
+
 // 'gulp site:tmp' -- copies Jekyll site to a temporary directory to be processed
 gulp.task('site:tmp', () =>
-  gulp.src(['src/**/*', '!src/assets/**/*', '!src/assets'], {dot: true})
-    .pipe(gulp.dest('.tmp/src'))
+  gulp.src([paths.sourceFolderName + '/**/*', '!' + paths.sourceDir + paths.assetsFolderName + '/**/*', '!' + paths.sourceDir + paths.assetsFolderName], {dot: true})
+    .pipe(gulp.dest(paths.tempDir + paths.sourceFolderName))
     .pipe(size({title: 'Jekyll'}))
 );
 

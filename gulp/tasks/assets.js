@@ -20,6 +20,9 @@ var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 var when         = require('gulp-if');
 
+// include paths file
+var paths        = require('../paths');
+
 // 'gulp scripts' -- creates a index.js file with Sourcemap from your JavaScript files
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,
 // minifies, gzips and cache busts it. Does not create a Sourcemap
@@ -27,11 +30,11 @@ gulp.task('scripts', () =>
   // NOTE: The order here is important since it's concatenated in order from
   // top to bottom, so you want vendor scripts etc on top
   gulp.src([
-    'src/assets/javascripts/vendor/jquery/*.js',
-    'src/assets/javascripts/plugins/**/*.js',
-    'src/assets/javascripts/main.js'
+    paths.jsFiles + '/vendor/jquery/*.js',
+    paths.jsFiles + '/plugins/**/*.js',
+    paths.jsFiles + '/main.js'
   ])
-    .pipe(newer('.tmp/assets/javascripts/index.js', {dest: '.tmp/assets/javascripts', ext: '.js'}))
+    .pipe(newer(paths.jsFilesTemp + '/index.js', {dest: paths.jsFilesTemp, ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(concat('index.js'))
     .pipe(size({
@@ -44,20 +47,20 @@ gulp.task('scripts', () =>
     })))
     .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
-    .pipe(when(argv.prod, gulp.dest('.tmp/assets/javascripts')))
+    .pipe(when(argv.prod, gulp.dest(paths.jsFilesTemp)))
     .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
     .pipe(when(argv.prod, size({
       gzip: true,
       showFiles: true
     })))
-    .pipe(gulp.dest('.tmp/assets/javascripts'))
+    .pipe(gulp.dest(paths.jsFilesTemp))
 );
 
 // 'gulp styles' -- creates a CSS file from SCSS, adds prefixes and creates a Sourcemap
 // 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes, minifies,
 // gzips and cache busts it. Does not create a Sourcemap
 gulp.task('styles', () =>
-  gulp.src(['src/assets/stylesheets/style.scss'])
+  gulp.src([paths.sassFiles + '/style.scss'])
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(sass({
       precision: 10
@@ -68,7 +71,7 @@ gulp.task('styles', () =>
     .pipe(size({
       showFiles: true
     }))
-    .pipe(gulp.dest('src/_includes'))
+    .pipe(gulp.dest(paths.sourceDir + paths.includesFolderName))
     .pipe(when(argv.prod, rename({suffix: '.min'})))
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
     .pipe(when(argv.prod, size({
@@ -76,23 +79,23 @@ gulp.task('styles', () =>
     })))
     .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
-    .pipe(when(argv.prod, gulp.dest('.tmp/assets/stylesheets')))
+    .pipe(when(argv.prod, gulp.dest(paths.sassFilesTemp)))
     .pipe(when(argv.prod, when('*.css', gzip({append: true}))))
     .pipe(when(argv.prod, size({
       gzip: true,
       showFiles: true
     })))
-    .pipe(gulp.dest('.tmp/assets/stylesheets'))
+    .pipe(gulp.dest(paths.sassFilesTemp))
     .pipe(when(!argv.prod, browserSync.stream()))
 );
 
 // 'gulp styles:critical:page' -- extract layout.page critical CSS into /_includes/critical-page.css
 gulp.task('styles:critical:page', function () {
-  return gulp.src('.tmp/dist/articles/ipad-pro/index.html')
+  return gulp.src(paths.tempDir  + paths.siteDir + 'articles/ipad-pro/index.html')
     .pipe(critical({
-      base: '.tmp/',
+      base: paths.tempDir,
       inline: false,
-      css: ['src/_includes/style.css'],
+      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
       dimensions: [{
         width: 320,
         height: 480
@@ -103,7 +106,7 @@ gulp.task('styles:critical:page', function () {
         width: 1280,
         height: 960
       }],
-      dest: 'src/_includes/critical-page.css',
+      dest: paths.sourceDir + paths.includesFolderName + '/critical-page.css',
       minify: true,
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
@@ -112,11 +115,11 @@ gulp.task('styles:critical:page', function () {
 
 // 'gulp styles:critical:archive' -- extract layout.archive critical CSS into /_includes/critical-archive.css
 gulp.task('styles:critical:archive', function () {
-  return gulp.src('.tmp/dist/mastering-paper/index.html')
+  return gulp.src(paths.tempDir  + paths.siteDir + 'mastering-paper/index.html')
     .pipe(critical({
-      base: '.tmp/',
+      base: paths.tempDir,
       inline: false,
-      css: ['src/_includes/style.css'],
+      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
       dimensions: [{
         width: 320,
         height: 480
@@ -127,7 +130,7 @@ gulp.task('styles:critical:archive', function () {
         width: 1280,
         height: 960
       }],
-      dest: 'src/_includes/critical-archive.css',
+      dest: paths.sourceDir + paths.includesFolderName + '/critical-archive.css',
       minify: true,
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
@@ -136,11 +139,11 @@ gulp.task('styles:critical:archive', function () {
 
 // 'gulp styles:critical:work' -- extract layout.work critical CSS into /_includes/critical-work.css
 gulp.task('styles:critical:work', function () {
-  return gulp.src('.tmp/dist/paperfaces/asja-k-portrait/index.html')
+  return gulp.src(paths.tempDir  + paths.siteDir + 'paperfaces/asja-k-portrait/index.html')
     .pipe(critical({
-      base: '.tmp/',
+      base: paths.tempDir,
       inline: false,
-      css: ['src/_includes/style.css'],
+      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
       dimensions: [{
         width: 320,
         height: 480
@@ -151,7 +154,7 @@ gulp.task('styles:critical:work', function () {
         width: 1280,
         height: 960
       }],
-      dest: 'src/_includes/critical-work.css',
+      dest: paths.sourceDir + paths.includesFolderName + '/critical-work.css',
       minify: true,
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
@@ -160,10 +163,10 @@ gulp.task('styles:critical:work', function () {
 
 // 'gulp styles:critical:splash' -- extract layout.splash critical CSS into /_includes/critical-splash.css
 gulp.task('styles:critical:splash', function () {
-  return gulp.src('.tmp/dist/index.html')
+  return gulp.src(paths.tempDir  + paths.siteDir + 'index.html')
     .pipe(critical({
-      base: '.tmp/',
-      css: ['src/_includes/style.css'],
+      base: paths.tempDir,
+      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
       dimensions: [{
         width: 320,
         height: 480
@@ -174,7 +177,7 @@ gulp.task('styles:critical:splash', function () {
         width: 1280,
         height: 960
       }],
-      dest: 'src/_includes/critical-splash.css',
+      dest: paths.sourceDir + paths.includesFolderName + '/critical-splash.css',
       minify: true,
       extract: false,
       ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
@@ -183,7 +186,7 @@ gulp.task('styles:critical:splash', function () {
 
 // 'gulp icons' -- combine all svg icons into single file
 gulp.task('icons', function () {
-  return gulp.src('src/assets/icons/*.svg')
+  return gulp.src(paths.iconFiles + '*.svg')
     .pipe(svgmin())
     .pipe(rename({prefix: 'icon-'}))
     .pipe(svgstore({ fileName: 'icons.svg', inlineSvg: true}))
@@ -197,7 +200,7 @@ gulp.task('icons', function () {
     .pipe(size({
       showFiles: true
     }))
-    .pipe(gulp.dest('src/_includes'))
+    .pipe(gulp.dest(paths.sourceDir + paths.includesFolderName))
 });
 
 // function to properly reload your browser
@@ -215,14 +218,14 @@ gulp.task('serve', (done) => {
     ui: {
       port: 4001
     },
-    server: ['.tmp', 'dist']
+    server: [paths.tempFolderName, paths.siteFolderName]
   });
   done();
 
   // watch various files for changes and do the needful
-  gulp.watch(['src/**/*.md', 'src/**/*.html', 'src/**/*.yml'], gulp.series('build:site', reload));
-  gulp.watch(['src/**/*.xml', 'src/**/*.txt'], gulp.series('site', reload));
-  gulp.watch('src/assets/javascripts/**/*.js', gulp.series('scripts', reload));
-  gulp.watch('src/assets/stylesheets/**/*.scss', gulp.series('styles'));
-  gulp.watch('src/assets/images/**/*', gulp.series('images', 'images:feature', reload));
+  gulp.watch([paths.mdFilesGlob, paths.htmlFilesGlob, paths.ymlFilesGlob], gulp.series('build:site', reload));
+  gulp.watch([paths.xmlFilesGlob, paths.txtFilesGlob], gulp.series('site', reload));
+  gulp.watch(paths.jsFilesGlob, gulp.series('scripts', reload));
+  gulp.watch(paths.sassFilesGlob, gulp.series('styles'));
+  gulp.watch(paths.imageFilesGlob, gulp.series('images', 'images:feature', reload));
 });
