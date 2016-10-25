@@ -1,21 +1,31 @@
 <div class="teasers">
   {% if page.previous %}
     {% assign f_previous = page.previous.image.feature | split: '.' %}
-    <article class="teaser" {% if page.previous.image.feature %}style="background-image: url({{ site.url }}{{ f_previous[0] }}-20.{{ f_previous[1] }});"{% endif %}>
-      <a href="{{ page.previous.url }}">
-        <h2 class="page__section-label">Previously</h2>
-        <h3 class="teaser__title">{{ page.previous.title | markdownify | strip_html }}</h3>
-      </a>
-    </article>
+    <div class="teaser">
+      {% if page.previous.image.feature %}
+        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_previous[0] }}-20.{{ f_previous[1] }});"></div>
+      {% endif %}
+      <div class="teaser__content">
+        <a href="{{ page.previous.url }}">
+          <h2 class="page__section-label">Previously</h2>
+          <h3 class="teaser__title">{{ page.previous.title | markdownify | strip_html }}</h3>
+        </a>
+      </div>
+    </div>
   {% endif %}
 
   {% if page.next %}
     {% assign f_next = page.next.image.feature | split: '.' %}
-    <article class="teaser" {% if page.next.image.feature %}style="background-image: url({{ site.url }}{{ f_next[0] }}-20.{{ f_next[1] }});"{% endif %}>
-      <a href="{{ page.next.url }}">
-        <h2 class="page__section-label">Up Next</h2>
-        <h3 class="teaser__title">{{ page.next.title | markdownify | strip_html }}</h3>
-      </a>
-    </article>
+    <div class="teaser">
+      {% if page.next.image.feature %}
+        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_next[0] }}-20.{{ f_next[1] }});"></div>
+      {% endif %}
+      <div class="teaser__content">
+        <a href="{{ page.next.url }}">
+          <h2 class="page__section-label">Up Next</h2>
+          <h3 class="teaser__title">{{ page.next.title | markdownify | strip_html }}</h3>
+        </a>
+      </div>
+    </div>
   {% endif %}
 </div>

@@ -1374,21 +1374,7 @@ form ul, form ol, form li {
           flex: 1 1 50%;
   -ms-flex-item-align: stretch;
       align-self: stretch;
-  background-repeat: no-repeat;
-  background-size: cover;
   overflow: hidden; }
-  .teaser:before {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    opacity: 0.5;
-    -webkit-transition: 0.2s ease-out;
-    transition: 0.2s ease-out; }
   .teaser a {
     position: relative;
     display: block;
@@ -1406,8 +1392,34 @@ form ul, form ol, form li {
     font-size: 1.25em;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
-  .teaser:hover:before {
-    opacity: 0.25; }
+  .teaser:hover .teaser__bg {
+    -webkit-filter: blur(10px);
+            filter: blur(10px); }
+    .teaser:hover .teaser__bg:before {
+      opacity: 0.25; }
+
+.teaser__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(15px);
+          filter: blur(15px); }
+  .teaser__bg:before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out; }
 
 /* ==========================================================================
    List items
