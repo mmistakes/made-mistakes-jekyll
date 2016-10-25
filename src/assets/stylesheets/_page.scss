@@ -324,6 +324,13 @@
   .teaser {
     background-color: #333;
 
+    @include breakpoint(max-width $small) {
+
+      + .teaser {
+        margin-top: 0.5em;
+      }
+    }
+
     @include breakpoint($small) {
       max-width: 75vw;
       clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);

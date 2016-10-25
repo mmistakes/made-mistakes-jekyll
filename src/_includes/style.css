@@ -755,6 +755,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     background-color: white; }
   .page__related .teaser {
     background-color: #333; }
+    @media (max-width: 37.5em) {
+      .page__related .teaser + .teaser {
+        margin-top: 0.5em; } }
     @media (min-width: 37.5em) {
       .page__related .teaser {
         max-width: 75vw;
@@ -1392,11 +1395,8 @@ form ul, form ol, form li {
     font-size: 1.25em;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
-  .teaser:hover .teaser__bg {
-    -webkit-filter: blur(10px);
-            filter: blur(10px); }
-    .teaser:hover .teaser__bg:before {
-      opacity: 0.25; }
+  .teaser:hover:before {
+    opacity: 0.25; }
 
 .teaser__bg {
   position: absolute;
