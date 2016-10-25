@@ -13,7 +13,7 @@ paths.sourceFolderName   = 'src';
 paths.stylesFolderName   = 'stylesheets';
 paths.tempFolderName     = '.tmp';
 
-paths.prodUrl            = "https://mademistakes.com";
+paths.prodUrl            = 'https://mademistakes.com';
 
 // Directory locations.
 paths.sourceDir          = paths.sourceFolderName + '/';
