@@ -718,6 +718,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
         height: 0%; } }
     .page__content figure.third figcaption {
       width: 100%; }
+    .page__content figure .emoji {
+      margin-bottom: 0; }
   .page__content figcaption {
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     font-size: 0.8em; }
