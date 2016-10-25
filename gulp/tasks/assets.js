@@ -161,7 +161,7 @@ gulp.task('styles:critical:splash', function () {
 
 // 'gulp icons' -- combine all svg icons into single file
 gulp.task('icons', function () {
-  return gulp.src(paths.iconFiles + '*.svg')
+  return gulp.src(paths.iconFiles + '/*.svg')
     .pipe(svgmin())
     .pipe(rename({prefix: 'icon-'}))
     .pipe(svgstore({ fileName: 'icons.svg', inlineSvg: true}))
