@@ -89,6 +89,17 @@ gulp.task('styles', () =>
     .pipe(when(!argv.prod, browserSync.stream()))
 );
 
+var pageDimensions = [{
+                        width: 320,
+                        height: 480
+                      }, {
+                        width: 768,
+                        height: 1024
+                      }, {
+                        width: 1280,
+                        height: 960
+                      }];
+
 // 'gulp styles:critical:page' -- extract layout.page critical CSS into /_includes/critical-page.css
 gulp.task('styles:critical:page', function () {
   return gulp.src(paths.tempDir  + paths.siteDir + 'articles/ipad-pro/index.html')
@@ -96,16 +107,7 @@ gulp.task('styles:critical:page', function () {
       base: paths.tempDir,
       inline: false,
       css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: [{
-        width: 320,
-        height: 480
-      }, {
-        width: 768,
-        height: 1024
-      }, {
-        width: 1280,
-        height: 960
-      }],
+      dimensions: pageDimensions,
       dest: paths.sourceDir + paths.includesFolderName + '/critical-page.css',
       minify: true,
       extract: false,
@@ -120,16 +122,7 @@ gulp.task('styles:critical:archive', function () {
       base: paths.tempDir,
       inline: false,
       css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: [{
-        width: 320,
-        height: 480
-      }, {
-        width: 768,
-        height: 1024
-      }, {
-        width: 1280,
-        height: 960
-      }],
+      dimensions: pageDimensions,
       dest: paths.sourceDir + paths.includesFolderName + '/critical-archive.css',
       minify: true,
       extract: false,
@@ -144,16 +137,7 @@ gulp.task('styles:critical:work', function () {
       base: paths.tempDir,
       inline: false,
       css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: [{
-        width: 320,
-        height: 480
-      }, {
-        width: 768,
-        height: 1024
-      }, {
-        width: 1280,
-        height: 960
-      }],
+      dimensions: pageDimensions,
       dest: paths.sourceDir + paths.includesFolderName + '/critical-work.css',
       minify: true,
       extract: false,
@@ -167,16 +151,7 @@ gulp.task('styles:critical:splash', function () {
     .pipe(critical({
       base: paths.tempDir,
       css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: [{
-        width: 320,
-        height: 480
-      },{
-        width: 768,
-        height: 1024
-      },{
-        width: 1280,
-        height: 960
-      }],
+      dimensions: pageDimensions,
       dest: paths.sourceDir + paths.includesFolderName + '/critical-splash.css',
       minify: true,
       extract: false,
