@@ -1392,7 +1392,7 @@ form ul, form ol, form li {
     font-size: 1.25em;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
-  .teaser:hover:before {
+  .teaser:hover .teaser__bg:before {
     opacity: 0.25; }
 
 .teaser__bg {
