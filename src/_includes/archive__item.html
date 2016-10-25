@@ -22,13 +22,10 @@
         <p>{{ post.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
       </div>
     </div>
-
-    <div class="item__image">
-      {% if post.image.teaser %}
+    {% if post.image.teaser %}
+      <div class="item__image">
         <img src="{{ post.image.teaser | prepend: site.url }}" alt="">
-      {% else %}
-        <img src="{{ site.teaser | prepend: site.url }}" alt="">
-      {% endif %}
-    </div>
+      </div>
+    {% endif %}
   </a>
 </article>
