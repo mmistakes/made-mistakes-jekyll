@@ -55,13 +55,13 @@ paths.xmlPattern         = '/**/*.{xml,json}';
 paths.ymlPattern         = '/**/*.yml';
 
 // File globs
-paths.htmlFilesGlob      = paths.sourceDir + paths.htmlPattern
+paths.htmlFilesGlob      = paths.sourceFolderName + paths.htmlPattern
 paths.imageFilesGlob     = paths.imageFiles + paths.imagePattern
 paths.jsFilesGlob        = paths.jsFiles + paths.jsPattern
-paths.mdFilesGlob        = paths.sourceDir + paths.markdownPattern
+paths.mdFilesGlob        = paths.sourceFolderName + paths.markdownPattern
 paths.sassFilesGlob      = paths.sassFiles + paths.sassPattern
-paths.txtFilesGlob       = paths.sourceDir + paths.txtPattern
-paths.xmlFilesGlob       = paths.sourceDir + paths.xmlPattern
-paths.ymlFilesGlob       = paths.sourceDir + paths.ymlPattern
+paths.txtFilesGlob       = paths.sourceFolderName + paths.txtPattern
+paths.xmlFilesGlob       = paths.sourceFolderName + paths.xmlPattern
+paths.ymlFilesGlob       = paths.sourceFolderName + paths.ymlPattern
 
 module.exports = paths;
