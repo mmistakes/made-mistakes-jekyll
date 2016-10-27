@@ -14,7 +14,7 @@ Did I leave something out that you were looking for an answer to? Feel free to r
 
 ## Other
 
-<ul class="fl">
+<ul>
 {% for faq in other_faqs %}
 <li><a href="{{ faq.url }}">{{ faq.title }}</a></li>
 {% endfor %}
@@ -22,7 +22,7 @@ Did I leave something out that you were looking for an answer to? Feel free to r
 
 ## Paper by FiftyThree
 
-<ul class="fl">
+<ul>
 {% for faq in paper_faqs %}
 <li><a href="{{ faq.url }}">{{ faq.title }}</a></li>
 {% endfor %}

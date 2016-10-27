@@ -1424,6 +1424,9 @@ form ul, form ol, form li {
 /* ==========================================================================
    List items
    ========================================================================== */
+.list ul {
+  list-style-type: square; }
+
 .list article.item a {
   display: -webkit-box;
   display: -ms-flexbox;
