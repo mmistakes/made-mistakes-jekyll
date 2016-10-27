@@ -2,8 +2,8 @@
 layout: page
 permalink: /paperfaces/
 title: "PaperFaces iPad Project"
-excerpt: "Gallery of every PaperFaces portrait drawn by Michael Rose with Paper by 53."
-modified: 2016-10-17T11:37:00-04:00
+excerpt: "Gallery of hundreds of PaperFaces portrait painted digitally with Paper by FiftyThree on an iPad. Find time lapse videos, in-process screenshots, and more."
+modified: 2016-10-27T11:16:12-04:00
 image: 
   cover: /assets/images/fiftythree-color-20.jpg
   thumb: /assets/images/paperfaces-project-250x250.jpg

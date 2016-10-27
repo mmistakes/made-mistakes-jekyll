@@ -2,7 +2,7 @@
 layout: page
 permalink: /procreate-paintings/
 title: "Procreate Paintings"
-excerpt: &excerpt "Gallery digital paintings created with [Procreate](http://procreate.si/) on an iPad."
+excerpt: &excerpt "Gallery of digital paintings created with [Procreate](http://procreate.si/) on an iPad. Find time lapse videos, in-process screenshots, and more."
 subtitle: *excerpt
 modified: 2016-10-17T11:36:34-04:00
 image: 

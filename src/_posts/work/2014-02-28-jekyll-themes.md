@@ -1,8 +1,8 @@
 ---
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
-excerpt: "Minimally designed open source Jekyll themes to get you started with hosting a Jekyll site on GitHub Pages --- for free!"
-modified: 2016-10-17T12:35:34-04:00
+excerpt: "Minimally designed open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"
+modified: 2016-10-27T11:22:29-04:00
 image: 
   path: &image /assets/images/jekyll-themes-feature.jpg
   cover: /assets/images/jekyll-logo-20.jpg
