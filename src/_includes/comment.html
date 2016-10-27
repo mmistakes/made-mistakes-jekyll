@@ -1,4 +1,4 @@
-<article id="comment-{{ include.index }}" class="js-comment comment">
+<article id="comment-{{ include.index }}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -8,9 +8,11 @@
   </div>
   <h3 class="comment__author-name">
     {% unless include.url == blank %}
-      <a rel="external nofollow" href="{{ include.url }}">{{ include.name }}</a>
+      <a rel="external nofollow" href="{{ include.url }}">
+        {% if include.name == site.author.name %}<svg class="icon"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
+      </a>
     {% else %}
-      {{ include.name }}
+      {% if include.name == site.author.name %}<svg class="icon"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
     {% endunless %}
   </h3>
   <div class="comment__timestamp">

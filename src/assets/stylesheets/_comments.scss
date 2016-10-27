@@ -7,6 +7,20 @@
   margin-bottom: 4em;
   padding-left: 4.5em;
   font-size: 0.8em;
+
+  // admin commenter styling
+  &.admin {
+
+    &:before {
+      position: absolute;
+      top: 4em;
+      left: 3.25em;
+      bottom: 0;
+      content: '';
+      width: 0.5em;
+      background-color: #e3e3e3;
+    }
+  }
 }
 
 .comment__timestamp {

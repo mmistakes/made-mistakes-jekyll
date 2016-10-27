@@ -1945,6 +1945,14 @@ green     #859900  operators, other keywords
   margin-bottom: 4em;
   padding-left: 4.5em;
   font-size: 0.8em; }
+  .comment.admin:before {
+    position: absolute;
+    top: 4em;
+    left: 3.25em;
+    bottom: 0;
+    content: '';
+    width: 0.5em;
+    background-color: #e3e3e3; }
 
 .comment__timestamp {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
