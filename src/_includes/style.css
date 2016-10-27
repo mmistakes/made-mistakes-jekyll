@@ -1000,8 +1000,11 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   position: relative; }
 
 .splash .page__header {
-  width: 70.5882352941%; }
+  width: 100%; }
   @media (min-width: 48em) {
+    .splash .page__header {
+      width: 85.2941176471%; } }
+  @media (min-width: 56.25em) {
     .splash .page__header {
       width: 55.8823529412%; } }
 

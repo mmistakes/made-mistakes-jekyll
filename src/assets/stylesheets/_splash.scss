@@ -56,9 +56,13 @@
   }
 
   .page__header {
-    width: span(5 of 7);
+    width: span(7 of 7);
 
     @include breakpoint($medium) {
+      width: span(6 of 7);
+    }
+
+    @include breakpoint($medium-wide) {
       width: span(4 of 7);
     }
   }
