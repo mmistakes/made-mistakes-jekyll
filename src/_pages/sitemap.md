@@ -3,13 +3,11 @@ layout: archive
 permalink: /sitemap/
 title: "Sitemap"
 date: 2014-12-26
-modified: 2016-09-30T12:45:23-04:00
+modified: 2016-10-27T09:32:05-04:00
 excerpt: "An index of all the pages found on mademistakes.com"
-share: false
-ads: false
 ---
 
-A hierarchical breakdown of all the sections and pages found on the site. For you robots out there, here is an [XML version]({{ site.url }}/sitemap.xml) available for digesting.
+A hierarchical breakdown of all the sections and pages found on the site. For you robots out there, here is an [XML version]({{ site.url }}/sitemap.xml) available for indexing.
 
 <ul>
   <li><a href="{{ site.url }}/">Home</a></li>
@@ -22,6 +20,13 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
   <li><a href="{{ site.url }}/articles/">Blog Articles</a>
     <ul>
       {% for post in site.categories.articles %}
+        {% include post-list.html %}
+      {% endfor %}
+    </ul>
+  </li>
+  <li><a href="{{ site.url }}/til/">Today I Learned</a>
+    <ul>
+      {% for post in site.categories.til %}
         {% include post-list.html %}
       {% endfor %}
     </ul>

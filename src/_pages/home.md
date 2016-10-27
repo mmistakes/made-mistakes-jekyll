@@ -20,7 +20,10 @@ I am just another boring, tattooed, time traveling designer from Buffalo New Yor
    <a class="item__title" href="{{ site.url }}/articles/">Blog Articles</a>
   </h3>
   <h3 class="item">
-    <a class="item__title" href="{{ site.url }}/mastering-paper/">Mastering Paper</a>
+    <a class="item__title" href="{{ site.url }}/til/">Today I Learned</a>
+  </h3>
+  <h3 class="item">
+    <a class="item__title" href="{{ site.url }}/mastering-paper/">Mastering Paper by FiftyThree</a>
   </h3>
   <h3 class="item">
     <a class="item__title" href="{{ site.url }}/work/">Creative Endeavors</a>
