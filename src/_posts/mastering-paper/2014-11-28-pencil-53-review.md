@@ -2,7 +2,7 @@
 title: "Pencil by FiftyThree is Still the Best Stylus for Paper"
 excerpt: "Impressions of FiftyThree's Pencil stylus from the perspective of an avid Paper creator."
 tags: [Pencil by 53, Paper by 53, stylus, iPad, blend, review]
-modified: 2015-03-17T16:22:22-04:00
+modified: 2016-10-27T11:53:48-04:00
 image:
   path: &image /assets/images/pencil-53-feature.jpg
   feature: *image
@@ -160,10 +160,15 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
   <div class="review__description">
     <p class="review__title-summary">Summary</p>
     <p itemprop="reviewBody">If you're a casual doodler looking for a well built stylus that mimics traditional drawing utensils and have a need for palm rejection, then Pencil should be your number one choice. On the other hand if you're a pro-user who relies on pressure sensitivity to work in other iOS apps, you may be left wanting more.</p>
-    <p><small><span itemprop="author" itemscope="" itemtype="http://schema.org/Person">Reviewed by: <span itemprop="name">{{ site.owner.name }}</span> </span> on <meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}"> {{ page.date | date: "%B %d, %Y" }}</small></p>
+    <p><small><span itemprop="author" itemscope="" itemtype="http://schema.org/Person">Reviewed by: <span itemprop="name">Michael Rose</span> </span> on <meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}"> {{ page.date | date: "%B %d, %Y" }}</small></p>
     <p><a href="http://www.amazon.com/gp/product/B00JP12300/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JP12300&linkCode=as2&tag=mademist-20&linkId=X4XZAPOX4S2GLXA2" class="btn btn--inverse">Buy Now</a></p>
   </div>
 </div>
+
+## Additional Resources
+
+- [Mastering Pencil by FiftyThree Guide]({{ site.url }}{% post_url 2015-06-24-pencil %})
+- [My iPad stylus recommendations]({{ site.url }}/faqs/stylus-recommendations/)
 
 ## Questions
 
