@@ -487,7 +487,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .site__footer {
       margin-left: 3em;
       margin-right: 3em; } }
-  .site__footer .nav__list {
+  .site__footer .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -495,21 +495,21 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
         flex-wrap: wrap;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
-    .site__footer .nav__list li {
+    .site__footer .nav-list li {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
       @media (min-width: 37.5em) {
-        .site__footer .nav__list li {
+        .site__footer .nav-list li {
           -ms-flex-preferred-size: inherit;
               flex-basis: inherit; } }
-    .site__footer .nav__list a {
+    .site__footer .nav-list a {
       display: block;
       padding: 1em 0;
       color: inherit;
       font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
       font-weight: 700; }
       @media (min-width: 37.5em) {
-        .site__footer .nav__list a {
+        .site__footer .nav-list a {
           padding: 0 2em 0 0; } }
   .site__footer .copyright {
     font-size: 0.8em; }
@@ -1031,11 +1031,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       margin-left: 41.1764705882%;
       margin-right: 0; } }
 
-.splash .list {
-  font-size: 0.8em; }
-
-.splash .item:not(:last-child) {
-  margin-bottom: 2em; }
+.splash .nav-list li {
+  margin-bottom: 0.5em;
+  font-weight: 700; }
 
 /* ==========================================================================
    TABLES
@@ -1553,9 +1551,14 @@ form ul, form ol, form li {
   .tag__list li {
     margin-bottom: 0; }
 
-.nav__list {
+.nav-list {
   list-style: none;
+  margin: 0;
   padding-left: 0; }
+  .nav-list__title {
+    font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
+    font-size: 0.8em;
+    font-weight: normal; }
 
 /* ==========================================================================
    GOOGLE SEARCH

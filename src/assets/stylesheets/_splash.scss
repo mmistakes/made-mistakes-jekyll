@@ -95,12 +95,12 @@
     }
   }
 
-  .list {
-    font-size: 0.8em;
-  }
+  .nav-list {
 
-  .item:not(:last-child) {
-    margin-bottom: 2em;
+    li {
+      margin-bottom: 0.5em;
+      font-weight: 700;
+    }
   }
 
 }

@@ -160,7 +160,14 @@
   }
 }
 
-.nav__list {
+.nav-list {
   list-style: none;
+  margin: 0;
   padding-left: 0;
+
+  &__title {
+    font-family: $monospace;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
 }
