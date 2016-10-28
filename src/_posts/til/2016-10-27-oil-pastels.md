@@ -3,19 +3,19 @@ title: "Oil Pastels are Not Pencils"
 layout: work
 excerpt:
 image: 
-  path: &image
+  path: &image /assets/images/oil-pastel-sunset-finished.jpg
   feature: *image
-  teaser:
+  teaser: /assets/images/oil-pastels-teaser.jpg
 gallery:
-  - url:
-    image_path:
-    alt:
-  - url:
-    image_path:
-    alt:
-  - url:
-    image_path:
-    alt:
+  - url: /assets/images/oil-pastels-process-1.jpg
+    image_path: /assets/images/oil-pastels-process-1-600.jpg
+    alt: "Preliminary sketch and taped off paper"
+  - url: /assets/images/oil-pastels-process-2.jpg
+    image_path: /assets/images/oil-pastels-process-2-600.jpg
+    alt: "Sketching out the sky"
+  - url: /assets/images/oil-pastels-process-3.jpg
+    image_path: /assets/images/oil-pastels-process-3-600.jpg
+    alt: "The finished piece before removing the mask"
 tags: [drawing, illustration, painting, landscape, sky]
 modified:
 ---
@@ -24,7 +24,7 @@ Not to overstate the obvious here, but oil pastels do not behave like colored pe
 
 Their size and shape should have been enough to clue me into that fact, but I proceeded to use them like a pencil anyways. Punished severely for this ignorance I was.
 
-Made a slight recovery when I approached using the tool like oil paint. *Glob on specks of color, and let them mix with each other naturally.* They don't quite have the mixing quality of paint, but with a finger or blending stumps pigment can be pulled about.
+Made a slight recovery when I began using the tool like I would with oil paint. *Globing on specks of color, and letting them mix with each other naturally.* They don't quite have the mixing quality of paint, but with a finger or blending stumps pigment can be pulled about.
 
 Attempting to create form with precise strokes is totally not the way to approach oil pastels.
 
