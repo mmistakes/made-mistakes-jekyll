@@ -1,5 +1,5 @@
 ---
-title: "Inktober 2016 Failure"
+title: "Inktober Failure"
 layout: work
 excerpt: "Similar to previously years, I start out with the best of intentions for Inktober and then quickly lose steam..."
 image: 
@@ -18,7 +18,7 @@ gallery:
     alt: "Ink wash portrait in process detail"
 tags: [watercolor, painting, drawing, portrait, illustration, Inktober]
 comments: true
-modified:
+modified: 2016-10-28T14:19:32-04:00
 ---
 
 Similar to previously years, I start out with the best of intentions for [**Inktober**](http://mrjakeparker.com/inktober) and then quickly lose steam...
