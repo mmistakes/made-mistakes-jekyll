@@ -1,0 +1,10 @@
+message: >-
+  Anton, you can't use most Jekyll plugins when you use GH Pages. However, if
+  you're willing to rig your repository to use [Travis CI](https://travisci.org)
+  to build on push, you can configure Travis to deploy to free static hosts like
+  [Surge](https://surge.sh) or Amazon S3.
+name: Matthew Graybosch
+email: 120f08e04890c583cbc543ed3ae0e4d8
+url: 'https://matthewgraybosch.com'
+hidden: ''
+date: '2016-10-29T22:55:22.370Z'
