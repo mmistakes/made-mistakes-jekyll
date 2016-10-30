@@ -1012,7 +1012,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   max-width: initial; }
 
 .splash .page__excerpt {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   font-family: "PT Serif", serif;
   font-weight: normal; }
   @media (min-width: 37.5em) {
