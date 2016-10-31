@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/sktchys-of-me-teaser.jpg
   thumb: /assets/images/sktchy-app-thumb.png
 tags: [Sktchy, drawing, technology]
-comments: true
+comments: false
 ---
 
 It's been a lot of fun drawing the faces of strangers. But you know what's even better'? Having strangers draw you in return.

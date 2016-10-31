@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-476-portraits-teaser.jpg
   thumb: /assets/images/paperfaces-476-portraits-thumb.jpg
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
-comments: true
+comments: false
 ---
 
 Today my 365 project titled [**PaperFaces**]({{ site.url }}/paperfaces/) turns one --- holy smokes! In this past year I've managed to illustrate 476 portraits, make a ton of new *Paper friends*, burned through a few pen styli, and rekindled my passion for drawing. 

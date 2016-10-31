@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-800-portraits-teaser.jpg
   thumb: /assets/images/paperfaces-800-portraits-th.jpg
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
-comments: true
+comments: false
 ---
 
 *Drawing a day* projects are a lot like resolutions made for the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
@@ -59,10 +59,9 @@ On their own these faceless drawings weren't all that interesting, but assembled
 
 The last thing anyone wants to do is make more work for themselves. To avoid turning this into a chore I created artificial limits for the project:
 
-* Set a frequency and end date, *e.g. one doodle every day for a month*.
-* Omit anything that takes too long to complete, *e.g. drawing facial features*.
-* Chose subject matter that is varied and keep you interested, *e.g. a new face every day*.
-{:.fl}
+- Set a frequency and end date, *e.g. one doodle every day for a month*.
+- Omit anything that takes too long to complete, *e.g. drawing facial features*.
+- Chose subject matter that is varied and keep you interested, *e.g. a new face every day*.
 
 ### Keep It Challenging
 
@@ -141,7 +140,7 @@ By stopping the daily portraits I'll free up time to craft new tutorials for my 
 
 Don't get me wrong, drawing strangers for the last two years has been great. But a big part of me is interested in creating work on a personal level again. In a past life I kept [art journals](http://www.blurb.com/b/695432-scripted-entries-from-false-memories?ce=blurb_ew&utm_source=widget) filled with blind contour drawings and scribbled thoughts. I'd love to try and replicate this in Paper, building on the techniques I've mastered drawing portraits and turn them into a set of Moleskine books.
 
-<del>And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be [commissioned here]({{ site.url }}/portraits/).</del>
+<del>And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be commissioned.</del>
 
 ## Thank You!
 

@@ -8,6 +8,7 @@ image:
   thumb: /assets/images/starting-young-thumb.jpg
 tags: [Paper by 53, drawing, technology, twins]
 comments: true
+comments_locked: true
 ---
 
 This *technology thing* has been both a blessing and a curse as my wife and I try to navigate parenthood.
