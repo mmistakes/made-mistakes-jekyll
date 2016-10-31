@@ -9,7 +9,7 @@ image:
   credit: "Photo by **Breno Machado**"
   creditlink: "https://unsplash.com/@brenomachado"
 comments: true
-modified: 2016-08-29T16:31:51-04:00
+last_modified_at: 2016-08-29T16:31:51-04:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.

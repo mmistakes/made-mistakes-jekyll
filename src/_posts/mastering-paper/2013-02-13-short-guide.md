@@ -1,7 +1,7 @@
 ---
 title: "Short Guide to Drawing with Paper by FiftyThree"
 excerpt: "My simple Paper by FiftyThree techniques for drawing faceless portraits and landscapes on an iPad."
-modified: 2015-10-26T12:30:57-04:00
+last_modified_at: 2015-10-26T12:30:57-04:00
 image: 
   path: &image /assets/images/madewithpaper-guide-feature.jpg
   feature: *image

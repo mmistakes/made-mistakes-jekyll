@@ -2,7 +2,7 @@
 title: "Have you ever thought about writing a Mastering Paper book?"
 type: paper
 date: 2014-12-07
-modified: 
+last_modified_at: 
 order: 8
 ---
 

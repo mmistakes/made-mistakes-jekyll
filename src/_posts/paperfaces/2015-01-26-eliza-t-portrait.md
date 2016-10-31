@@ -1,7 +1,7 @@
 ---
 title: "Rabbit Rabbit"
 excerpt: "PaperFaces portrait of the Eliza T. drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-eliza-t-lg.jpg 
   feature: *image

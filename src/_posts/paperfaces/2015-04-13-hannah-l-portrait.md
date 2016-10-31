@@ -1,7 +1,7 @@
 ---
 title: "White Eyes Glow Sometimes"
 excerpt: "PaperFaces portrait of the Hannah L. drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-hannah-l-lg.jpg 
   feature: *image

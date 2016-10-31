@@ -1,7 +1,7 @@
 ---
 title: "Tales of Round Brushing"
 excerpt: "Portrait of Morgan F. digitally painted with Procreate on an iPad."
-modified: 2016-03-01T15:02:19-05:00
+last_modified_at: 2016-03-01T15:02:19-05:00
 image: 
   path: &image /assets/images/morgan-f-procreate-lg.jpg
   feature: *image

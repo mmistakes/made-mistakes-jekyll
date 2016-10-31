@@ -1,7 +1,7 @@
 ---
 title: "Self portrait of the scruffy artist"
 excerpt: "PaperFaces portrait of a scruffy @mmistakes drawn with Paper by 53 on an iPad."
-modified: 2013-06-05
+last_modified_at: 2013-06-05
 image: 
   path: &image /assets/images/paperfaces-michael-rose-lg.jpg 
   feature: *image

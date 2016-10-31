@@ -1,7 +1,7 @@
 ---
 title: "Bizarro Me, A Credit Card Scammer?"
 excerpt: "Apparently there is a bizarro version of me in Niagara County using scammed credit cards."
-modified: 2015-12-15
+last_modified_at: 2015-12-15
 image: 
   thumb: /assets/images/michael-the-fugitive.jpg
   teaser: /assets/images/michael-the-fugitive-teaser.jpg

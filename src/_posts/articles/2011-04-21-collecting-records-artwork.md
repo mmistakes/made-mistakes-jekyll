@@ -6,7 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/collecting-records-teaser.jpg
   thumb: /assets/images/collecting-records-thumb.jpg
-modified: 2013-04-26 00:00:00
+last_modified_at: 2013-04-26 00:00:00
 tags: [punk, records, inspiration, DIY, critique, design]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Draw Realistic Hair with Paper by FiftyThree"
 excerpt: "I'm often asked what my Paper techniques for drawing hair is. Learn what they are in this short tutorial."
-modified: 2016-01-27T14:39:29-05:00
+last_modified_at: 2016-01-27T14:39:29-05:00
 image: 
   path: &image /assets/images/how-to-draw-hair-feature.jpg
   feature: *image

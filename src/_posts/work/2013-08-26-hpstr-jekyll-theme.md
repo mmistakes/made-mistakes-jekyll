@@ -8,7 +8,7 @@ image:
   thumb: /assets/images/hpstr-preview-th-2015.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
-modified: 2015-01-31
+last_modified_at: 2015-01-31
 comments: true
 comments_locked: true
 order: 8

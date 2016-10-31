@@ -1,7 +1,7 @@
 ---
 title: "Flipped Shirt"
 excerpt: "PaperFaces portrait of the Emily D. drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-emily-d-lg.jpg 
   feature: *image

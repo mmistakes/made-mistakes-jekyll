@@ -3,7 +3,7 @@ title: "So Simple, a Jekyll&#160;Theme"
 headline: "So Simple Theme"
 subheadline: "Built for Jekyll"
 excerpt: "A simple and responsive Jekyll theme for words and photos by designer Michael Rose."
-modified: 2015-01-31
+last_modified_at: 2015-01-31
 image: 
   path: &image /assets/images/so-simple-theme-feature-2015.jpg
   feature: *image

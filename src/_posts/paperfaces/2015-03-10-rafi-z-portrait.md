@@ -1,7 +1,7 @@
 ---
 title: "The Battle Within"
 excerpt: "PaperFaces portrait of the Rafi Z. drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-rafi-z-lg.jpg 
   feature: *image

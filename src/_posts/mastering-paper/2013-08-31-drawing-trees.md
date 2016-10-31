@@ -1,7 +1,7 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Trees and Grass"
 excerpt: "Techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper by FiftyThree."
-modified: 2016-01-27T14:39:07-05:00
+last_modified_at: 2016-01-27T14:39:07-05:00
 image: 
   path: &image /assets/images/paper-53-trees-guide-feature.jpg
   feature: *image

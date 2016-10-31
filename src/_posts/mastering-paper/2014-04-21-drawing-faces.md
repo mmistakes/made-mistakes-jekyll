@@ -1,7 +1,7 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Portraits and Faces"
 excerpt: "Advanced techniques for drawing and painting portraits using the iPad app Paper by FiftyThree."
-modified: 2016-02-17
+last_modified_at: 2016-02-17
 image: 
   path: &image /assets/images/paper-53-faces-feature.jpg
   feature: *image

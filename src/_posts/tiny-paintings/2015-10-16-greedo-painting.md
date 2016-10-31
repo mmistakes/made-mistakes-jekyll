@@ -1,7 +1,7 @@
 ---
 title: "Going somewhere, Solo?"
 excerpt: "Tiny portrait of Greedo painted with watercolor on hot press paper."
-modified: 2016-10-10T11:20:57-04:00
+last_modified_at: 2016-10-10T11:20:57-04:00
 image: 
   path: &image /assets/images/painting-greedo-lg.jpg
   feature: *image

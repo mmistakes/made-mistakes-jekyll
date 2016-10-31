@@ -1,7 +1,7 @@
 ---
 title: "See Right Through Me"
 excerpt: "PaperFaces portrait of the Rachel B. drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-rachel-b-lg.jpg 
   feature: *image

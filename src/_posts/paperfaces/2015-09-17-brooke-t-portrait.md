@@ -1,7 +1,7 @@
 ---
 title: "Hair Scarf"
 excerpt: "PaperFaces portrait of Brooke T. drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-brooke-t-lg.jpg 
   feature: *image
@@ -18,7 +18,7 @@ gallery:
     image_path: /assets/images/paperfaces-brooke-t-process-3-600.jpg
     alt: "Work in process screenshot"
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
-modified: 2016-10-10T14:51:40-04:00
+last_modified_at: 2016-10-10T14:51:40-04:00
 ---
 
 PaperFaces portrait of Brooke T. inspired by a [photograph on Sktchy](http://sktchy.com/S3B8m).

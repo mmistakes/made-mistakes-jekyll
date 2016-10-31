@@ -1,7 +1,7 @@
 ---
 title: "Hey Blue"
 excerpt: "Tiny portrait of Myah Graham, painted with watercolor on hot press paper."
-modified: 2015-11-05T14:39:38-05:00
+last_modified_at: 2015-11-05T14:39:38-05:00
 image: 
   path: &image /assets/images/painting-myah-graham-lg.jpg
   feature: *image

@@ -1,7 +1,7 @@
 ---
 title: "Tattoos Turning to Mud"
 excerpt: "Portrait of Wendy Rose, digitally painted with Procreate on an iPad."
-modified: 2015-11-06
+last_modified_at: 2015-11-06
 image: 
   path: &image /assets/images/wendy-rose-procreate-lg.jpg
   feature: *image

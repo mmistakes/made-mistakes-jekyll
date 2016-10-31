@@ -10,7 +10,7 @@ classes:
   - splash
   - dark
 ads: false
-modified: 2016-10-28T09:55:18-04:00
+last_modified_at: 2016-10-28T09:55:18-04:00
 ---
 
 I am just another boring, tattooed, [*time traveling designer*]({{ site.url }}/about/) from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad, and playing Xbox.

@@ -1,7 +1,7 @@
 ---
 title: "The Dark Knight Rises"
 excerpt: "PaperFaces portrait of Batman drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-dark-knight-lg.jpg 
   feature: *image

@@ -1,7 +1,7 @@
 ---
 title: "Tiger Style"
 excerpt: "PaperFaces portrait of the Vanessa S. drawn with Paper by 53 on an iPad."
-modified: 2014-12-10T14:21:27-05:00
+last_modified_at: 2014-12-10T14:21:27-05:00
 image: 
   path: &image /assets/images/paperfaces-vanessa-s-lg.jpg 
   feature: *image

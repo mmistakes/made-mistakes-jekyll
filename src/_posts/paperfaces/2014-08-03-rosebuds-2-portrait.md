@@ -17,7 +17,7 @@ gallery:
     image_path: /assets/images/paperfaces-rosebuds-2-process-3-600.jpg
     alt: "work in process screenshot"
 tags: [portrait, illustration, Paper by 53, twins]
-modified: 2016-09-29T16:02:37-04:00
+last_modified_at: 2016-09-29T16:02:37-04:00
 ---
 
 A PaperFaces drawing of the my two little girls Everly and Chloe on their second birthday.

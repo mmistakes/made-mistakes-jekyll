@@ -1,7 +1,7 @@
 ---
 title: "The Killing Joke"
 excerpt: "PaperFaces portrait of the Joker from The Dark Knight drawn with Paper by 53 on an iPad."
-modified: 2014-12-24 00:00:00
+last_modified_at: 2014-12-24 00:00:00
 image: 
   path: &image /assets/images/paperfaces-joker-lg.jpg 
   feature: *image

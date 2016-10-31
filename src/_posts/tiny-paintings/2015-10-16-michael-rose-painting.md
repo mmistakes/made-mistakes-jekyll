@@ -1,7 +1,7 @@
 ---
 title: "Cut My Face in Half"
 excerpt: "Tiny portrait of Michael Rose painted with watercolor on hot press paper."
-modified: 2016-10-10T11:19:28-04:00
+last_modified_at: 2016-10-10T11:19:28-04:00
 image: 
   path: &image /assets/images/painting-michael-rose-lg.jpg
   feature: *image

@@ -6,7 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-han-solo-leia-teaser.jpg
   thumb: /assets/images/paperfaces-han-solo-leia-150.jpg
-modified: 2014-05-01
+last_modified_at: 2014-05-01
 tags: [portrait, illustration, Paper by 53, Star Wars, blend, time lapse]
 ---
 

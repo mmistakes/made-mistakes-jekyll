@@ -1,7 +1,7 @@
 ---
 title: "Sexy Saxophone"
 excerpt: "Tiny portrait of a Bith painted with watercolor on hot press paper."
-modified: 2016-10-10T11:22:24-04:00
+last_modified_at: 2016-10-10T11:22:24-04:00
 image: 
   path: &image /assets/images/painting-bith-lg.jpg
   feature: *image

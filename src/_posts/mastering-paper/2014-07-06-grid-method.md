@@ -1,6 +1,6 @@
 ---
 title: "Mastering Paper by FiftyThree: The Grid Method"
-modified: 2015-01-28T10:25:21-05:00
+last_modified_at: 2015-01-28T10:25:21-05:00
 excerpt: "How to use the Grid Method with Paper by FiftyThree to create accurate line drawings and improve your work."
 tags: [Paper by 53, tutorial, drawing, painting, grid, iPad]
 image:

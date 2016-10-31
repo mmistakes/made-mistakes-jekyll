@@ -1,7 +1,7 @@
 ---
 title: "Don't Play with Soot"
 excerpt: "Portrait of Jenell D., digitally painted with Procreate on an iPad."
-modified: 2015-11-05T16:28:34-05:00
+last_modified_at: 2015-11-05T16:28:34-05:00
 image: 
   path: &image /assets/images/jenell-d-procreate-lg.jpg
   feature: *image

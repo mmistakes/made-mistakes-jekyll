@@ -1,7 +1,7 @@
 ---
 title: "iPad Portraits with Paper by FiftyThree"
 excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and the Paper by FiftyThree app."
-modified: 2015-01-27T14:49:13-05:00
+last_modified_at: 2015-01-27T14:49:13-05:00
 image: 
   path: &image /assets/images/paperfaces-project-feature.jpg
   feature: *image

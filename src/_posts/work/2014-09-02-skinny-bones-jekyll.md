@@ -8,7 +8,7 @@ image:
   thumb: /assets/images/skinny-bones-preview-th.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
-modified: 2015-05-22T15:11:31-04:00
+last_modified_at: 2015-05-22T15:11:31-04:00
 comments: true
 comments_locked: true
 order: 10

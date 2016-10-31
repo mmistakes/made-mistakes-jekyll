@@ -1,7 +1,7 @@
 ---
 title: "Messy Paint Across the Scalp"
 excerpt: "Portrait of April C. digitally painted with Procreate on an iPad."
-modified: 2016-04-15T12:14:37-04:00
+last_modified_at: 2016-04-15T12:14:37-04:00
 image: 
   path: &image /assets/images/april-c-procreate-lg.jpg
   feature: *image

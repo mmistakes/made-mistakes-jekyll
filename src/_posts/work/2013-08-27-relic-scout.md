@@ -6,7 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/relic-scout-teaser.png
   thumb: /assets/images/relic-scout-avatar.png
-modified: 2016-01-25
+last_modified_at: 2016-01-25
 tags: [design, logo, 8-bit, website, collectibles]
 work: "Design & Development"
 ads: false

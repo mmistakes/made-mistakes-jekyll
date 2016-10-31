@@ -2,7 +2,7 @@
 permalink: /terms/
 title: "Terms and Policies"
 date: 2014-06-22
-modified: 2016-08-29T22:03:48-04:00
+last_modified_at: 2016-08-29T22:03:48-04:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
 share: false
 author: false
@@ -74,4 +74,4 @@ All original content (e.g. articles, blog posts, illustrations, artwork, and pho
 
 If you're inclined to give credit --- a link back to the source article attributed to either [Made Mistakes]({{ site.url }}) or [Michael Rose]({{ site.url }}) is good enough for me. If you don't want to attribute my content, hey that's cool too. Just don't go stealing my stuff and republishing it as your own.
 
-*Last updated: {{ page.modified | date: "%B %d, %Y" }}*
+*Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}*

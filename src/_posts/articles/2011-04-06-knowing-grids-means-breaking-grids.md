@@ -1,7 +1,7 @@
 ---
 title: "Knowing Grids Means Breaking Grids"
 excerpt: "Exploring what it means to develop a grid system that helps facilitate strong design with purpose."
-modified: 2013-04-26 00:00:00
+last_modified_at: 2013-04-26 00:00:00
 image: 
   path: &image /assets/images/knowing-grids-feature.jpg
   feature: *image

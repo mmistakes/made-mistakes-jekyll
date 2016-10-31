@@ -3,7 +3,7 @@ layout: page
 permalink: /paperfaces/
 title: "PaperFaces iPad Project"
 excerpt: "Gallery of hundreds of PaperFaces portrait painted digitally with Paper by FiftyThree on an iPad. Find time lapse videos, in-process screenshots, and more."
-modified: 2016-10-27T11:16:12-04:00
+last_modified_at: 2016-10-27T11:16:12-04:00
 image: 
   cover: /assets/images/fiftythree-color-20.jpg
   thumb: /assets/images/paperfaces-project-250x250.jpg

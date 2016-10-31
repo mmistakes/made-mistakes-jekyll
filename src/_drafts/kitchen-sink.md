@@ -3,7 +3,7 @@ layout: page
 title: "Kitchen Sink Post"
 categories: articles
 excerpt: "Below is just about everything you'll need to style in the theme."
-modified: 
+last_modified_at: 
 tags: [sample]
 comments: true
 ads: true

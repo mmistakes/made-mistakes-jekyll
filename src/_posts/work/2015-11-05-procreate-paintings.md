@@ -4,7 +4,7 @@ permalink: /procreate-paintings/
 title: "Procreate Paintings"
 excerpt: &excerpt "Gallery of digital paintings created with [Procreate](http://procreate.si/) on an iPad. Find time lapse videos, in-process screenshots, and more."
 subtitle: *excerpt
-modified: 2016-10-17T11:36:34-04:00
+last_modified_at: 2016-10-17T11:36:34-04:00
 image: 
   cover: /assets/images/procreate-logo-20.jpg
   teaser: /assets/images/procreate-paintings-teaser.jpg

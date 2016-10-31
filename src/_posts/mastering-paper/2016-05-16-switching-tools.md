@@ -7,7 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-switch-tools-teaser.jpg
 comments_locked: true
-modified: 2016-05-17T08:10:05-04:00
+last_modified_at: 2016-05-17T08:10:05-04:00
 ---
 
 New to Paper by FiftyThree and just can't seem to figure out how to switch tools? I have the short answer for you right here.

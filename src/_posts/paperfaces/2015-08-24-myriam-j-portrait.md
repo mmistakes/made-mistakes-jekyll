@@ -1,7 +1,7 @@
 ---
 title: "Unfinished Except Nose"
 excerpt: "PaperFaces portrait of Myriam J. drawn with Paper by 53 on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-myriam-j-lg.jpg 
   feature: *image

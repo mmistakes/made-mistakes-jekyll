@@ -1,7 +1,7 @@
 ---
 title: "Right Amount of Beard Sparkle"
 excerpt: "Portrait of Rakso S. digitally painted with Procreate on an iPad."
-modified: 2016-10-10T10:49:10-04:00
+last_modified_at: 2016-10-10T10:49:10-04:00
 image: 
   path: &image /assets/images/rakso-s-procreate-lg.jpg
   feature: *image

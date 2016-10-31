@@ -1,7 +1,7 @@
 ---
 title: "Painterly Fringed Collar"
 excerpt: "Portrait of Jenny x. digitally painted with Procreate on an iPad."
-modified: 
+last_modified_at: 
 image: 
   path: &image /assets/images/jenny-x-procreate-lg.jpg
   feature: *image

@@ -1,6 +1,6 @@
 ---
 title: "Paper Creators, Join Me in the Mix"
-modified: 2014-11-25T16:23:24-05:00
+last_modified_at: 2014-11-25T16:23:24-05:00
 excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring Paper creators easy and fun."
 tags: [Paper by 53, Mix, iPad]
 image:

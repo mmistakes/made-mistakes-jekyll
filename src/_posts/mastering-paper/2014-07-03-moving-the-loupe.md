@@ -1,6 +1,6 @@
 ---
 title: "Mastering Paper by FiftyThree: How to Use Zoom While Painting"
-modified: 2016-01-27T14:38:46-05:00
+last_modified_at: 2016-01-27T14:38:46-05:00
 excerpt: "Learn how to reposition Paper by FiftyThree's zoom loupe mid-stroke to help add detail to your drawings."
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
 image:

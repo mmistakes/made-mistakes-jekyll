@@ -1,7 +1,7 @@
 ---
 title: "Broken Neck Lines"
 excerpt: "PaperFaces portrait of the Becca P.J. drawn with Paper by 53 on an iPad."
-modified: 2016-10-10T15:18:53-04:00
+last_modified_at: 2016-10-10T15:18:53-04:00
 image: 
   path: &image /assets/images/paperfaces-becca-pj-lg.jpg 
   feature: *image

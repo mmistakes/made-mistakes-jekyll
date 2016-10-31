@@ -2,7 +2,7 @@
 permalink: /contact/
 title: "Contact"
 date: 2015-05-22
-modified: 2016-09-30T15:51:42-04:00
+last_modified_at: 2016-09-30T15:51:42-04:00
 excerpt: "Preferred methods of sending your questions, inquires, messages, and love letters to me."
 ads: false
 share: false
