@@ -26,17 +26,18 @@
     {% unless page.comments_locked == true %}
     <!-- Start new comment form -->
     <h2 class="page__section-label">Leave a Comment</h2>
+    <p class="instruct"><a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a> is allowed. Email address will not be published.</p>
     <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
       <fieldset>
-        <label for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://daringfireball.net/projects/markdown/">Markdown</a> is allowed)</small></label>
+        <label for="comment-form-message"><strong>Comment</strong> <span class="required">*</span></small></label>
         <textarea type="text" rows="6" id="comment-form-message" name="fields[message]"></textarea>
       </fieldset>
       <fieldset>
-        <label for="comment-form-name"><strong>Name</strong></label>
+        <label for="comment-form-name"><strong>Name</strong> <span class="required">*</span></label>
         <input type="text" id="comment-form-name" name="fields[name]" />
       </fieldset>
       <fieldset>
-        <label for="comment-form-email"><strong>Email address</strong> <small>(will not be shared &mdash; used to show your <a href="https://en.gravatar.com/">Gravatar</a> image)</label>
+        <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="https://en.gravatar.com/">Gravatar</a>)</label>
         <input type="email" id="comment-form-email" name="fields[email]" />
       </fieldset>
       <fieldset class="hidden" style="display:none;">
