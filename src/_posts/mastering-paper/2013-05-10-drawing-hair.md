@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/how-to-draw-hair-teaser-2016.jpg
   thumb: /assets/images/how-to-draw-hair-thumb.jpg
 tags: [Paper by 53, tutorial, hair, drawing, iPad]
-comments: true
+comments_locked: true
 ---
 
 ## Block Out the Hair

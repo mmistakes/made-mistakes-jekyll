@@ -8,7 +8,6 @@ image:
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumb: /assets/images/pogo-connect-app-thumb.jpg
 tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, iPad]
-comments: true
 comments_locked: true
 ---
 

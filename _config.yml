@@ -143,6 +143,7 @@ defaults:
       layout: page
       category: mastering-paper
       read_time: true
+      comments: true
       breadcrumbs:
         - label: "Mastering Paper by 53"
           url: /mastering-paper/
@@ -156,7 +157,6 @@ defaults:
       breadcrumbs:
         - label: "PaperFaces Portraits"
           url: /paperfaces/
-      comments: true
       seo:
         type: "CreativeWork"
   # Procreate Paintings
@@ -169,7 +169,6 @@ defaults:
       breadcrumbs:
         - label: "Procreate Paintings"
           url: /procreate-paintings/
-      comments: true
       seo:
         type: "CreativeWork"
   # TIL
@@ -193,7 +192,6 @@ defaults:
       breadcrumbs:
         - label: "Tiny Paintings"
           url: /tiny-paintings/
-      comments: true
       seo:
         type: "CreativeWork"
   # Work
@@ -218,7 +216,6 @@ defaults:
       breadcrumbs:
         - label: "Frequently Asked Questions"
           url: /faqs/
-      comments: true
   # Pages
   - scope:
       path: _pages

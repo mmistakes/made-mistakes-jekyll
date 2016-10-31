@@ -8,7 +8,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-3-teaser.jpg
   thumb: /assets/images/paper-3-th.jpg
-comments: true
+comments_locked: true
 ---
 
 The hashtag [#CreateAnywhere](https://twitter.com/hashtag/createanywhere) takes on greater meaning now that [**Paper by FiftyThree**](http://www.fiftythree.com/paper) is available for iPhone --- a device I *always have with me*. Not only that but with a new set of tricks up its sleeve, Paper is quickly becoming a productivity powerhouse.

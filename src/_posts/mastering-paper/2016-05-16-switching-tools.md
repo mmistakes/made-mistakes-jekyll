@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-full-tools.jpg
   feature: *image
   teaser: /assets/images/paper-53-switch-tools-teaser.jpg
-comments: true
+comments_locked: true
 modified: 2016-05-17T08:10:05-04:00
 ---
 

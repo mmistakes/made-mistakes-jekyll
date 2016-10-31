@@ -8,11 +8,7 @@ image:
   teaser: /assets/images/madewithpaper-guide-teaser.jpg
   thumb: /assets/images/madewithpaper-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, iPad]
-feature:
-  visible: true
-  headline: "Featured Tutorials"
-  category: mastering-paper
-comments: true
+comments_locked: true
 ---
 
 How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus is the best for creating art? Why does it burn down there when I pee? Wait a minute... I don't have an answer for that last one, but I think I can help with the first two.
@@ -85,7 +81,6 @@ Two things to keep in mind when working with the marker tool:
 
 1.	**It has some translucency to it.** If you draw over something, it will most likely show through. Because of this, the marker can  help you shade more precisely than the  brush since the tip is narrower.
 2.	Black, white, and some **dark colors are opaque**; meaning they will completely cover up anything you draw over.
-{:.fl}
 
 ## The Multipurpose Pencil
 

@@ -8,7 +8,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-zoom-loupe-teaser.jpg
   thumb: /assets/images/paper-53-zoom-loupe-thumb.jpg
-comments: true
+comments_locked: true
 ---
 
 I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's zoom loupe simultaneously as you drew.

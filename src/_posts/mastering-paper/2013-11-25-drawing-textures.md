@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paper-53-texture-guide-teaser-2016.jpg
   thumb: /assets/images/paper-53-texture-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, texture, wood, iPad]
-comments: true
+comments_locked: true
 ---
 
 If you've been following along you now know all my Paper techniques[^techniques] and tricks for painting basic landscapes. Trees, grass, skies, clouds, water, and waves --- all the parts for building a solid landscape foundation. This next tutorial in my Mastering Paper series will cover techniques for creating textures like bricks, wood grain, concrete, and rocks.

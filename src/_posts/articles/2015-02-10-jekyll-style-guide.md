@@ -8,7 +8,6 @@ image:
   feature: *image
   teaser: /assets/images/jekyll-style-guide-teaser.jpg
   thumb: /assets/images/jekyll-style-guide-th.jpg
-featured:
 comments: true
 ---
 

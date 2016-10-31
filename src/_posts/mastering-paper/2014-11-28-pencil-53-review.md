@@ -8,7 +8,6 @@ image:
   feature: *image
   teaser: /assets/images/pencil-53-teaser.jpg
   thumb: /assets/images/pencil-53-thumb.jpg
-comments: true
 comments_locked: true
 ---
 

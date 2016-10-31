@@ -8,7 +8,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-grid-teaser.jpg
   thumb: /assets/images/paper-53-grid-150.jpg
-comments: true
+comments_locked: true
 ---
 
 A question I receive often is "how do you create such accurate line drawings in your Paper portraits." The short answer is practice... about 1,460 hours of practice. The longer and more helpful answer is, there are several techniques I use to achieve life-like drawings --- one of which I'm going to share with you now.

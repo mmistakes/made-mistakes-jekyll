@@ -6,6 +6,7 @@ image:
   feature: *image
   thumb: /assets/images/paperfaces-aarongreenlee-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
+comments: true
 ---
 
 PaperFaces portrait of [@aarongreenlee](http://twitter.com/aarongreenlee).

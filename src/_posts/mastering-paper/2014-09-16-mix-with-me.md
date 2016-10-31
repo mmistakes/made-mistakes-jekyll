@@ -6,7 +6,7 @@ tags: [Paper by 53, Mix, iPad]
 image:
   teaser: /assets/images/paper-53-mix-heart-teaser.jpg
   thumb: /assets/images/paper-53-mix-heart-th.jpg
-comments: true
+comments: false
 ---
 
 I'm the type of person that learns how something is made by dissecting and examining its every nook and cranny. Obsessively digging through #MadeWithPaper streams on [Tumblr](https://www.tumblr.com/search/madewithpaper), [Twitter](https://twitter.com/search?q=%23MadeWithPaper&src=typd), and Instagram I've become frustrated with the lack of fidelity of those posts.

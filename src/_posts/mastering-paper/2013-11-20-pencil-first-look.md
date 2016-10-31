@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paper-53-blend-first-look-teaser.jpg
   thumb: /assets/images/paper-53-blend-first-look-thumb.jpg
 tags: [Paper by 53, pencil, blend, stylus, iPad]
-comments: true
+comments_locked: true
 ---
 
 In case you missed the announcement yesterday, FiftyThree took the wraps off their first hardware product --- [Pencil](http://fiftythree.com/pencil). For the last month I've had the privilege of wielding beta versions of this amazing tool to play with and test out. As soon as I purchase my own Pencil I'll follow up with a [full review]({{ site.url }}{% post_url 2014-11-28-pencil-53-review %}), but for now here's a small [sample of drawings]({{ site.url }}/tag/blend/) I've created using the new Blend feature.

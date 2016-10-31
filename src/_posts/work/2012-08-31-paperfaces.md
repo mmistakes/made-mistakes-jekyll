@@ -9,7 +9,6 @@ image:
   thumb: /assets/images/paperfaces-project-250x250.jpg
   teaser: /assets/images/paperfaces-asja-k-teaser.jpg
 tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]
-featured: true
 ads: false
 work: "Illustration"
 order: 2

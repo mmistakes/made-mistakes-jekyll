@@ -9,7 +9,6 @@ image:
   credit: "Photo by **Breno Machado**"
   creditlink: "https://unsplash.com/@brenomachado"
 comments: true
-featured: true
 modified: 2016-08-29T16:31:51-04:00
 ---
 
