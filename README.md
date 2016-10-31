@@ -81,7 +81,7 @@ Default structure (modify paths in `gulpfile.js` and `_config.yml` if altered):
 apt-get install graphicsmagick
 ```
 
-### Mac OS X (using Homebrew):
+### macOS (using Homebrew):
 
 ```
 brew install graphicsmagick
