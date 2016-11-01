@@ -1983,6 +1983,9 @@ green     #859900  operators, other keywords
 .comment__content img {
   max-width: 100%; }
 
+.comment__content div.highlighter-rouge .highlight code {
+  font-size: 0.8em; }
+
 .comment__avatar {
   position: absolute;
   top: 0;
