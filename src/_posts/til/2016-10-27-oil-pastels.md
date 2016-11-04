@@ -17,7 +17,7 @@ gallery:
     image_path: /assets/images/oil-pastels-process-3-600.jpg
     alt: "The finished piece before removing the mask"
 tags: [drawing, illustration, painting, landscape, sky]
-modified:
+last_modified_at:
 ---
 
 Not to overstate the obvious here, but oil pastels do not behave like colored pencils.
