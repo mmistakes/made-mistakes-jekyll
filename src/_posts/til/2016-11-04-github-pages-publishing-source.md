@@ -1,5 +1,5 @@
 ---
-title: "Configuring GitHub Pages' Publishing Source"
+title: "Configuring Publishing Sources for GitHub Pages"
 excerpt:
 image: 
   path:
