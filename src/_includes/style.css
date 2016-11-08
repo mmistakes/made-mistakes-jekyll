@@ -23,6 +23,9 @@
    Visual sitemap
    ========================================================================== */
 /*
+   Bigfoot.js
+   ========================================================================== */
+/*
    Animation
    ========================================================================== */
 /*
@@ -2474,7 +2477,7 @@ h5.review__title {
   border: none;
   border-radius: 0.3em;
   cursor: pointer;
-  background-color: rgba(110, 110, 110, 0.2);
+  background-color: rgba(76, 76, 76, 0.2);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   font-size: 1rem;
@@ -2488,11 +2491,11 @@ h5.review__title {
           transition-duration: 0.25s; }
   .bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus {
     outline: none;
-    background-color: rgba(110, 110, 110, 0.5); }
+    background-color: rgba(76, 76, 76, 0.5); }
   .bigfoot-footnote__button:active {
-    background-color: rgba(110, 110, 110, 0.5); }
+    background-color: rgba(76, 76, 76, 0.5); }
   .bigfoot-footnote__button.is-active {
-    background-color: #6e6e6e;
+    background-color: #4c4c4c;
     -webkit-transition-delay: 0.1s;
             transition-delay: 0.1s; }
   .bigfoot-footnote__button:after {
@@ -2525,7 +2528,7 @@ h5.review__title {
 
 .bigfoot-footnote {
   position: absolute;
-  z-index: 25;
+  z-index: 10;
   top: 0;
   left: 0;
   display: inline-block;
@@ -2596,7 +2599,7 @@ h5.review__title {
     position: absolute;
     bottom: 0.3375em;
     left: 0.3375em;
-    z-index: 29;
+    z-index: 14;
     display: block;
     height: 0.78125em;
     width: 0.625em;
@@ -2612,7 +2615,7 @@ h5.review__title {
     content: '';
     position: absolute;
     width: 100%;
-    z-index: 27;
+    z-index: 12;
     left: 0; }
   .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before {
     top: -1px;
@@ -2635,7 +2638,7 @@ h5.review__title {
 
 .bigfoot-footnote__wrapper {
   position: relative;
-  z-index: 29;
+  z-index: 14;
   width: 22em;
   display: inline-block;
   box-sizing: inherit;
@@ -2647,7 +2650,7 @@ h5.review__title {
 
 .bigfoot-footnote__content {
   position: relative;
-  z-index: 23;
+  z-index: 8;
   display: inline-block;
   max-height: 15em;
   padding: 1.1em 1.3em 1.2em;
@@ -2657,7 +2660,7 @@ h5.review__title {
   background: #fafafa;
   border-radius: 0.5em;
   -webkit-font-smoothing: subpixel-antialiased;
-  line-height: normal; }
+  line-height: 1.5; }
   .bigfoot-footnote__content img {
     max-width: 100%; }
   .bigfoot-footnote__content *:last-child {
@@ -2667,7 +2670,7 @@ h5.review__title {
 
 .bigfoot-footnote__tooltip {
   position: absolute;
-  z-index: 27;
+  z-index: 12;
   box-sizing: border-box;
   margin-left: -0.65em;
   width: 1.3em;
@@ -2683,6 +2686,31 @@ h5.review__title {
     top: -0.65em; }
   .is-positioned-top .bigfoot-footnote__tooltip {
     bottom: -0.65em; }
+
+.bigfoot-footnote__button {
+  position: relative;
+  height: 0.95em;
+  width: 1.5em;
+  border-radius: 0.475em; }
+  .bigfoot-footnote__button:after {
+    content: attr(data-footnote-number);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: block;
+    font-size: 0.57em;
+    font-weight: bold;
+    color: rgba(76, 76, 76, 0.5);
+    -webkit-transition: color 0.25s ease;
+    transition: color 0.25s ease; }
+  .bigfoot-footnote__button:hover:after, .bigfoot-footnote__button.is-active:after {
+    color: white; }
+
+.bigfoot-footnote__button__circle {
+  display: none; }
 
 /* ==========================================================================
    PRINT STYLES

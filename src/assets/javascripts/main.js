@@ -34,7 +34,11 @@ $(document).ready(function(){
   });
 
   // Bigfoot footnotes
-  $.bigfoot();
+  var bigfoot = $.bigfoot(
+    {
+      actionOriginalFN: "ignore"
+    }
+  );
 
 });
 

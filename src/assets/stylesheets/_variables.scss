@@ -119,6 +119,18 @@ $sitemap-sub-color            : mix($white, $primary-color, 80%);
 $sitemap-sub-sub-color        : mix($white, $primary-color, 90%);
 
 /*
+   Bigfoot.js
+   ========================================================================== */
+
+$button-color                 : $gray;
+$button-hovered-color         : $button-color;
+$button-activating-color      : $button-color;
+$button-active-color          : $button-color;
+$button-standard-opacity      : 0.2;
+$button-hovered-opacity       : 0.5;
+$button-active-opacity        : 1;
+
+/*
    Animation
    ========================================================================== */
 
