@@ -48,6 +48,14 @@
     flex-wrap: wrap;
     flex-flow: row wrap;
 
+    @include breakpoint($medium-wide) {
+      width: span(8);
+    }
+
+    @include breakpoint($x-large) {
+      width: span(7);
+    }
+
     li {
       flex-basis: 50%;
 
