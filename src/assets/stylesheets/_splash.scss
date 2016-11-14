@@ -16,14 +16,7 @@
   }
 
   .page__cover {
-    background-color: $splash-background-color;
-
-    @include breakpoint($medium-wide) {
-
-      &:after {
-        background: repeating-linear-gradient(-45deg, transparent, transparent 0.5%, #000 0.5%, #000 1%);
-      }
-    }
+    background-color: $splash-background-color !important;
   }
 
   .page__hero {

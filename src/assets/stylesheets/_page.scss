@@ -105,35 +105,36 @@
   display: none;
 
   @include breakpoint($medium-wide) {
-    content: '';
     display: block;
     position: fixed;
     top: 0;
     right: 0;
     width: span(4);
+    overflow: hidden;
     height: 100vh;
     background-color: #e3e3e3;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    backface-visibility: hidden;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
-
-    &:after {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      content: '';
-      background: repeating-linear-gradient(-45deg, transparent, transparent 0.5%, white 0.5%, white 1%);
-    }
   }
 
   @include breakpoint($x-large) {
     width: span(5);
   }
+}
+
+.page__cover-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-color: #e3e3e3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  filter: blur(25px);
 }
 
 /*
@@ -300,6 +301,7 @@
     height: 0.25em;
     width: 3em;
     background-color: #333;
+    transition: $global-transition;
   }
 }
 
