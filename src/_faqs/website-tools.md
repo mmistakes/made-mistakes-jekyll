@@ -2,7 +2,7 @@
 title: "What tools do you use to build your website?"
 type: other
 date: 2014-12-07
-last_modified_at: 2016-10-04T11:51:09-04:00
+last_modified_at: 2016-11-14T21:06:21-05:00
 comments: true
 comments_locked: true
 order: 1
@@ -17,6 +17,7 @@ I've been on a [static site generator]({{ site.url }}{% post_url 2012-03-19-goin
 * [**jekyll-sitemap**][sitemap]: silently generates a [sitemaps.org](http://www.sitemaps.org/) compliant sitemap.
 * [**jekyll-archives**][archives]: generates tag archive pages.
 * [**jemoji**][jemoji]: adds GitHub-flavored emoji to Jekyll with the use of Liquid tags.
+* [**jekyll-seo-tag**][seo]: adds metadata tags for search engines and social networks to better index and display site content.
 
 If you're really interested in the specifics of how the site is built I've made its [source available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll) for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% post_url 2014-02-28-jekyll-themes %}) for you to use and abuse --- you're welcome!
 
@@ -36,3 +37,4 @@ If you're really interested in the specifics of how the site is built I've made 
 [nounproject]: https://thenounproject.com
 [twitter-emoji]: https://github.com/twitter/twemoji
 [jemoji]: https://github.com/jekyll/jemoji
+[seo]: https://github.com/jekyll/jekyll-seo-tag
