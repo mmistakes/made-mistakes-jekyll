@@ -10,11 +10,11 @@ The first iPad stylus I purchased was a [Just-Mobile AluPen][alupen-stylus] and 
 
 I really like the Touch Pen because it's built to last. The tip isn't a squishy rubber nib like many others and is super durable. I've drawn close to 400 portraits with it and it works just as flawless as the day I got it. I'd still be using it if I hadn't been lured over to the dark-side of Bluetooth styli.
 
-Speaking of Bluetooth styli, I now use [FiftyThree's Pencil][pencil-stylus] about 99% of the time to take advantage of [Surface Pressure and Blend features]({{ site.url }}{% post_url 2015-06-24-pencil %}) in Paper. Before I upgraded to an iPad Air 2 I was all about the [Pogo Connect Smart Pen][pogo-stylus], but sadly it does not work well with my model of iPad...
+Speaking of Bluetooth styli, I now use [FiftyThree's Pencil][pencil-stylus] about 99% of the time to take advantage of [Surface Pressure and Blend features]({{ site.url }}{% post_url /mastering-paper/2015-06-24-pencil %}) in Paper. Before I upgraded to an iPad Air 2 I was all about the [Pogo Connect Smart Pen][pogo-stylus], but sadly it does not work well with my model of iPad...
 
 <div class="notice--warning" markdown="1">
 #### iPad Styli Update
-Ten One Design has released the <a href="https://tenonedesign.com/connect.php">Pogo Connect 2</a>, which is essentially the same as the original but with support for the iPad Air 2 and Mini 3. Apple has also entered this space with <a href="http://www.apple.com/apple-pencil/" title="Apple Pencil">a stylus of their own</a> that currently only works with an iPad Pro. I haven't used either yet so I can't comment on how well they perform, but the <a href="{{ site.url }}{% post_url 2015-09-25-ipad-pro %}">Apple Pencil</a> looks mighty tasty :wink:.
+Ten One Design has released the <a href="https://tenonedesign.com/connect.php">Pogo Connect 2</a>, which is essentially the same as the original but with support for the iPad Air 2 and Mini 3. Apple has also entered this space with <a href="http://www.apple.com/apple-pencil/" title="Apple Pencil">a stylus of their own</a> that currently only works with an iPad Pro. I haven't used either yet so I can't comment on how well they perform, but the <a href="{{ site.url }}{% post_url /articles/2015-09-25-ipad-pro %}">Apple Pencil</a> looks mighty tasty :wink:.
 </div>
 
 **Here's a quick reference of all the iPad styli I have experience with:**
@@ -30,8 +30,8 @@ Ten One Design has released the <a href="https://tenonedesign.com/connect.php">P
 
 [alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
 [lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
-[pogo-stylus]: {{ site.url}}{% post_url 2013-07-08-pogo-connect-smart-pen %}
-[pencil-stylus]: {{ site.url }}{% post_url 2014-11-28-pencil-53-review %}
+[pogo-stylus]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
+[pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
 [zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 

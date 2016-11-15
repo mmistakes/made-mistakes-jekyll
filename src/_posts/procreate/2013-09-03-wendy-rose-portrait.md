@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
-Portrait of Wendy inspired by a portrait I [originally drew in Paper]({{ site.url }}{% post_url 2012-09-01-veganwendy-portrait %}) and [revisited]({{ site.url }}{% post_url 2014-08-29-veganwendy-2-portrait %}) several years later. Digitally painted with Procreate on a 3rd generation iPad. 
+Portrait of Wendy inspired by a portrait I [originally drew in Paper]({{ site.url }}{% post_url /paperfaces/2012-09-01-veganwendy-portrait %}) and [revisited]({{ site.url }}{% post_url /paperfaces/2014-08-29-veganwendy-2-portrait %}) several years later. Digitally painted with Procreate on a 3rd generation iPad. 
 
 This was my first attempt at using [**Procreate**](http://procreate.si/) and decided to give it a try in between working on my [PaperFaces Project]({{ site.url }}/paperfaces/).
 

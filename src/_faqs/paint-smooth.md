@@ -6,7 +6,7 @@ last_modified_at: 2015-09-23T14:59:42-04:00
 order: 5
 ---
 
-A smooth gradient can be achieved layering many washes of watercolor on top of each other. Speed and pressure play an important role in how clean of a tone you end up with. My [Paper Basics guide]({{ site.url }}{% post_url 2014-02-09-basics %}) explains all of the nuances of the watercolor brush and several techniques for using it.
+A smooth gradient can be achieved layering many washes of watercolor on top of each other. Speed and pressure play an important role in how clean of a tone you end up with. My [Paper Basics guide]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}) explains all of the nuances of the watercolor brush and several techniques for using it.
 
 #### Here's a quick video showing the basics:
 

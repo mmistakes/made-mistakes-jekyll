@@ -92,7 +92,7 @@ Undoing (Rewinding) can still be triggered with a gesture[^rewind] or tapping th
   <figcaption>Undo mistakes by pressing the <strong><<</strong> button in the upper left corner of the tool tray.</figcaption>
 </figure>
 
-[^rewind]: A small adjustment was made to the way Rewind works. To trigger it tap once with 2 fingers anywhere on the screen before making the [circle gesture]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#gestures-to-master).
+[^rewind]: A small adjustment was made to the way Rewind works. To trigger it tap once with 2 fingers anywhere on the screen before making the [circle gesture]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#gestures-to-master).
 
 <div class="notice--info" markdown="1">
 #### ProTip: Quick Undo Gesture

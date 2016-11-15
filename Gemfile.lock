@@ -7,7 +7,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
     breakpoint (2.7.0)
       sass (~> 3.3)
       sassy-maps (< 1.0.0)
@@ -21,7 +22,8 @@ GEM
       activesupport (>= 2)
       nokogiri (>= 1.4)
     i18n (0.7.0)
-    jekyll (3.2.1)
+    jekyll (3.3.1)
+      addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -31,14 +33,14 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-archives (2.1.0)
+    jekyll-archives (2.1.1)
       jekyll (>= 2.4)
-    jekyll-sass-converter (1.4.0)
+    jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-seo-tag (2.0.0)
-      jekyll (~> 3.1)
-    jekyll-sitemap (0.11.0)
-      addressable (~> 2.4.0)
+    jekyll-seo-tag (2.1.0)
+      jekyll (~> 3.3)
+    jekyll-sitemap (0.12.0)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     jemoji (0.7.0)
@@ -63,7 +65,8 @@ GEM
       mini_portile2 (~> 2.1.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    rb-fsevent (0.9.7)
+    public_suffix (2.0.4)
+    rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)
@@ -83,7 +86,7 @@ PLATFORMS
 
 DEPENDENCIES
   breakpoint
-  jekyll (~> 3.2.1)
+  jekyll (~> 3.3)
   jekyll-archives
   jekyll-seo-tag
   jekyll-sitemap
@@ -91,4 +94,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.12.5
+   1.13.6

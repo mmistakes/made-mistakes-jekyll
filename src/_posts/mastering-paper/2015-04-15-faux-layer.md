@@ -35,9 +35,8 @@ The key to the "faux" layer trick is matching the color you sketch with exactly 
 
 There's two ways of getting this color into your Paper palette:
 
-1. Use the [Color Picker]({{ site.url }}{% post_url 2014-12-18-color-picker %}) eyedropper to sample an empty spot on the canvas.
-2. Tap the small circle inside of the [Color Mixer]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#color-mixer) and adjust the 3 sliders to have the following values (48/2/96).
-{:.fl}
+1. Use the [Color Picker]({{ site.url }}{% post_url /mastering-paper/2014-12-18-color-picker %}) eyedropper to sample an empty spot on the canvas.
+2. Tap the small circle inside of the [Color Mixer]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer) and adjust the 3 sliders to have the following values (48/2/96).
 
 Whichever way you end up choosing I suggest you drag this newly mixed off-white color to an open slot in one of your palettes --- for safe keeping of course.
 
@@ -50,7 +49,7 @@ Whichever way you end up choosing I suggest you drag this newly mixed off-white 
 
 If you were to start sketching now it would look like you weren't drawing anything at all. To make these off-white lines more visible, we need to fill in the background with a contrasting color. In this example I went with a gray, but you can choose whatever color you want (we'll delete it later so don't agonize over the perfect color selection).
 
-To fill in the background, simply drag a swatch from one of your palettes (or the [Color Mixer]({{ site.url }}{% post_url 2013-07-31-introduction-tool-guide %}#color-mixer)) onto the canvas. When done correctly it should fill in the entire background leaving you with something like this:
+To fill in the background, simply drag a swatch from one of your palettes (or the [Color Mixer]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer)) onto the canvas. When done correctly it should fill in the entire background leaving you with something like this:
 
 <figure>
   <img src="{{ site.url }}/assets/images/paper-53-filled-gray-background.jpg" alt="dragging a color to the background">
@@ -89,7 +88,7 @@ Using the rough sketch as a guide trace over the white lines with a tool and col
   <figcaption>Continue tracing your white sketch and add shadows and other details as you desire.</figcaption>
 </figure>
 
-In the example above I took the tracing one step further by adding dark shadows using a [cross-hatching technique]({{ site.url }}{% post_url 2014-02-09-basics %}#ink-techniques). This step is completely optional, you really just want to establish enough contours and values to "inform" the drawing.
+In the example above I took the tracing one step further by adding dark shadows using a [cross-hatching technique]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques). This step is completely optional, you really just want to establish enough contours and values to "inform" the drawing.
 
 ## Erasing the Faux Layer
 
@@ -107,7 +106,7 @@ Tap **Clear Page Color** and watch as the background and rough sketch disappear,
   <figcaption>All that remains now is the traced drawing.</figcaption>
 </figure>
 
-Now you can continue adding to page by drawing and painting on top of what remains. I think you'll find this method is so much faster than having to carefully [erase or Blend away lines]({{ site.url }}{% post_url 2014-10-25-erasing %}) from an "under-drawing."
+Now you can continue adding to page by drawing and painting on top of what remains. I think you'll find this method is so much faster than having to carefully [erase or Blend away lines]({{ site.url }}{% post_url /mastering-paper/2014-10-25-erasing %}) from an "under-drawing."
 
 <figure>
   <img src="{{ site.url }}/assets/images/paper-53-faux-layers-process.gif" alt="faux layer trick process animation">
@@ -121,7 +120,7 @@ Because I mostly do portrait work it never crossed my mind that this technique c
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/mmistakes">@mmistakes</a> your dark background trick is sweet. now i&#39;m trying to make a grid based on that idea: even sweeter.</p>&mdash; Ron Jeffries (@RonJeffries) <a href="https://twitter.com/RonJeffries/status/587650836018438144">April 13, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I think Ron is onto something and brings up a great use for the faux layer method. In a previous Mastering Paper tutorial I showed how [using grids]({{ site.url }}{% post_url 2014-07-06-grid-method %}) could help a beginner draw more accurately. Creating a grid comprised of off-white lines would sure make hiding them a breeze don't you think?
+I think Ron is onto something and brings up a great use for the faux layer method. In a previous Mastering Paper tutorial I showed how [using grids]({{ site.url }}{% post_url /mastering-paper/2014-07-06-grid-method %}) could help a beginner draw more accurately. Creating a grid comprised of off-white lines would sure make hiding them a breeze don't you think?
 
 <figure>
   <a href="https://mix.fiftythree.com/11098-Michael-Rose/2854744"><img src="{{ site.url }}/assets/images/paper-53-mix-grid-template.jpg" alt="grid template"></a>

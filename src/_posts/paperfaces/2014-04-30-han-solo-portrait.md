@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, Star Wars, blend, time lapse]
 
 With the recent Star Wars Episode VII casting news and *May the 4th* nearly upon us, I decided to kickoff the week with SW inspired drawings. I'm planning on recreating scenes and characters from all of the movies each night using Paper by 53 as per usual.
 
-Last year I stuck to the original trilogy with my [Darth Vader]({{ site.url }}{% post_url 2013-05-04-darth-vader-portrait %}), [Boba Fett]({{ site.url }}{% post_url 2013-05-04-boba-fett-portrait %}), [Luke]({{ site.url }}{% post_url 2013-05-04-yoda-luke-skywalker-portrait %}), [Leia]({{ site.url }}{% post_url 2013-05-04-slave-leia-jabba-the-hutt-portrait %}), and [Chewbacca]({{ site.url }}{% post_url 2013-05-04-chewbacca-leia-boob-portrait %}) portraits. This year I'm planning on mixing in a few faces from the prequels to cover the whole spectrum of films.
+Last year I stuck to the original trilogy with my [Darth Vader]({{ site.url }}{% post_url /paperfaces/2013-05-04-darth-vader-portrait %}), [Boba Fett]({{ site.url }}{% post_url /paperfaces/2013-05-04-boba-fett-portrait %}), [Luke]({{ site.url }}{% post_url /paperfaces/2013-05-04-yoda-luke-skywalker-portrait %}), [Leia]({{ site.url }}{% post_url /paperfaces/2013-05-04-slave-leia-jabba-the-hutt-portrait %}), and [Chewbacca]({{ site.url }}{% post_url /paperfaces/2013-05-04-chewbacca-leia-boob-portrait %}) portraits. This year I'm planning on mixing in a few faces from the prequels to cover the whole spectrum of films.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/9e1nPyHXCFQ" frameborder="0"> </iframe>
 

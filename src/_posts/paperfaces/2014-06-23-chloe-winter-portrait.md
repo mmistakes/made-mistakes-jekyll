@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
 ---
 
-Just like [her sister]({% post_url 2014-06-23-everly-autumn-portrait %}), *Chlo-worm's* hair can't be tamed.
+Just like [her sister]({% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}), *Chlo-worm's* hair can't be tamed.
 
 The more I draw with Paper, the clearer it becomes that I don't really have a set process. Sometimes I start with a rough outline that I continuously erase and refine. Other times I jump right to the darks and work backwards towards the light.
 

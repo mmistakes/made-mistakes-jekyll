@@ -97,7 +97,7 @@ You might have noticed in the main navigation up top *(or maybe you didn't)* a c
 
 <div class="notice--warning" markdown="1">
 #### Update: Portfolio Layout
-More or less I've gotten my portfolio layout in order and included a stripped down version of it in my [Skinny Bones Jekyll Starter]({{ site.url }}{% post_url 2014-09-02-skinny-bones-jekyll %}).
+More or less I've gotten my portfolio layout in order and included a stripped down version of it in my [Skinny Bones Jekyll Starter]({{ site.url }}{% post_url /work/2014-09-02-skinny-bones-jekyll %}).
 </div>
 
 ### Responsive Images
@@ -115,12 +115,12 @@ I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/ma
 
 ## Jekyll Themes
 
-Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes]({{ site.url }}{% post_url 2014-02-28-jekyll-themes %}) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% compatible with [GitHub Pages](http://pages.github.com/) if you're looking for somewhere free to host your site or blog.
+Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes]({{ site.url }}{% post_url /work/2014-02-28-jekyll-themes %}) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% compatible with [GitHub Pages](http://pages.github.com/) if you're looking for somewhere free to host your site or blog.
 
-* Skinny Bones: [Theme demo](https://mmistakes.github.io/skinny-bones-jekyll), [documentation]({{ site.url }}{% post_url 2014-09-02-skinny-bones-jekyll %})
-* Minimal Mistakes: [Theme demo](https://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url 2016-04-15-minimal-mistakes-jekyll-theme %})
-* So Simple: [Theme demo](https://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url 2013-06-26-so-simple-jekyll-theme %})
-* HPSTR: [Theme demo](https://mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url 2013-08-26-hpstr-jekyll-theme %})
+* Skinny Bones: [Theme demo](https://mmistakes.github.io/skinny-bones-jekyll), [documentation]({{ site.url }}{% post_url /work/2014-09-02-skinny-bones-jekyll %})
+* Minimal Mistakes: [Theme demo](https://mmistakes.github.io/minimal-mistakes), [documentation]({{ site.url }}{% post_url /work/2016-04-15-minimal-mistakes-jekyll-theme %})
+* So Simple: [Theme demo](https://mmistakes.github.io/so-simple-theme), [documentation]({{ site.url }}{% post_url /work/2013-06-26-so-simple-jekyll-theme %})
+* HPSTR: [Theme demo](https://mmistakes.github.io/hpstr-jekyll-theme), [documentation]({{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %})
 
 *[CMS]: Content Management System
 *[YAML]: YAML Ain't Markup Language

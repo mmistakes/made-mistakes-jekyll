@@ -48,7 +48,7 @@ When painting, do not lift the stylus or your finger from the screen until you f
 
 ### Painting Puffy Clouds
 
-Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}{% post_url 2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
+Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
 <div class="notice--info" markdown="1">
 #### ProTip: Go Easy on the White
@@ -57,7 +57,7 @@ White lightens quickly and you don't want to remove too much blue at once, so be
 
 <figure>
 	<img src="{{ site.url }}/assets/images/paper-53-fluffed-white-clouds.jpg" alt="screenshot of fluffed clouds">
-	<figcaption>The technique I use for fluffing in clouds with the brush is very similar to <a href="{{ site.url }}{% post_url 2013-08-31-drawing-trees %}">how I create leaves</a>.</figcaption>
+	<figcaption>The technique I use for fluffing in clouds with the brush is very similar to <a href="{{ site.url }}{% post_url /mastering-paper/2013-08-31-drawing-trees %}">how I create leaves</a>.</figcaption>
 </figure>
 
 With the clouds shaped and looking like clumps of cotton, it's time to add a few wispy cirrus clouds and clean the edges up. Again, a [Pogo Connect Smart Pen](http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20) comes in handy, allowing you to work lightly and gradually. Finger painters and normal stylus creators fear not, quick strokes can achieve the same results.
@@ -152,14 +152,14 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
 <ul class="th-grid">
-  <li><a href="{{ site.url }}{% post_url 2013-08-22-laramulady-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url 2013-08-22-tipican-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url 2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url 2013-07-22-technacity-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-technacity-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url 2013-06-19-dismanntled-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-dismanntled-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url 2013-05-28-suhairykz-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-suhairykz-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url 2013-02-01-nick-aylward-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-nick-aylward-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url 2013-01-17-shinfu-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-laramulady-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-08-22-tipican-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-22-technacity-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-technacity-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-06-19-dismanntled-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-dismanntled-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-28-suhairykz-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-suhairykz-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-02-01-nick-aylward-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-nick-aylward-twitter-150.jpg" alt="thumb" /></a></li>
+  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-17-shinfu-portrait %}"><img src="{{ site.url }}/assets/images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
 ## Watch for the Next Tutorial

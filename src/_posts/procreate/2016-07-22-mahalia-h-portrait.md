@@ -16,7 +16,7 @@ Looks like the 3.1 update to Procreate improved support for Adobe's Ink stylus. 
 
 I'm sure it's nowhere close to the responsiveness one experiences with Apple's Pencil[^apple-pencil], but for the budget-minded it does the job.
 
-[^apple-pencil]: I still haven't had the opportunity to try an [iPad Pro and Apple Pencil]({{ site.url }}{% post_url 2015-09-25-ipad-pro %}) yet. I know I know... :frowning:
+[^apple-pencil]: I still haven't had the opportunity to try an [iPad Pro and Apple Pencil]({{ site.url }}{% post_url /articles/2015-09-25-ipad-pro %}) yet. I know I know... :frowning:
 
 <figure>
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W0q-UBnz6QA?showinfo=0" frameborder="0" allowfullscreen></iframe>

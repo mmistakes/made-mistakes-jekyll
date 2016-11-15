@@ -24,14 +24,14 @@ The loupe shown below has been retired and replaced with a more traditional zoom
 
 ## Why is This Important?
 
-The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({{ site.url }}{% post_url 2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.
+The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({{ site.url }}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.
 
 <figure>
 	<img src="{{ site.url }}/assets/images/paper-53-zoom-loupe-pencil-ev.jpg" alt="drawing in the loupe">
 	<figcaption>Drawing in the loupe with FiftyThree's Pencil stylus.</figcaption>
 </figure>
 
-An important characteristic of the watercolor brush is its ability to [apply glazes]({{ site.url }}{% post_url 2014-02-09-basics %}#glazing) on top of each other to build 3-dimensional forms. To pull off this effect, [smooth tones]({{ site.url }}{% post_url 2014-02-09-basics %}#painting-smooth) are a must and the only way to paint them is by not lifting off the canvas until you've filled the shape.
+An important characteristic of the watercolor brush is its ability to [apply glazes]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#glazing) on top of each other to build 3-dimensional forms. To pull off this effect, [smooth tones]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}#painting-smooth) are a must and the only way to paint them is by not lifting off the canvas until you've filled the shape.
 
 <figure>
 	<img src="{{ site.url }}/assets/images/paper-53-zoom-glaze-face.jpg" alt="glazing in the loupe">
@@ -40,7 +40,7 @@ An important characteristic of the watercolor brush is its ability to [apply gla
 
 I think you can see where I'm going with this. If you're painting a shape that falls outside of the Zoom loupe it becomes necessary to move it around. The problem is, if you begin painting and then try to move the loupe it won't budge. For it to move you need to interrupt your watercolor stroke to reposition it, which will leave you with a uneven glaze if you try to continue painting where you left off.
 
-I'm a heavy user of the watercolor brush so I had to sacrifice zooming in when painting large shapes because of this. Requiring extra time with the pencil to [clean up contours and mistakes]({{ site.url }}{% post_url 2014-04-21-drawing-faces %}#refining-the-contours).
+I'm a heavy user of the watercolor brush so I had to sacrifice zooming in when painting large shapes because of this. Requiring extra time with the pencil to [clean up contours and mistakes]({{ site.url }}{% post_url /mastering-paper/2014-04-21-drawing-faces %}#refining-the-contours).
 
 ## Moving the Loupe
 
