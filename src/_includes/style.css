@@ -512,11 +512,15 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
           flex-basis: 50%; }
       @media (min-width: 37.5em) {
         .site__footer .nav-list li {
-          -ms-flex-preferred-size: inherit;
-              flex-basis: inherit; } }
+          -ms-flex-preferred-size: 33.3333%;
+              flex-basis: 33.3333%; } }
+      @media (min-width: 48em) {
+        .site__footer .nav-list li {
+          -ms-flex-preferred-size: initial;
+              flex-basis: initial; } }
     .site__footer .nav-list a {
       display: block;
-      padding: 1em 0;
+      padding: 0.5em 0;
       color: inherit;
       font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
       font-weight: 700; }
