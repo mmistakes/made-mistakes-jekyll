@@ -98,7 +98,7 @@ It's worth noting that there appears to be a major design flaw with the internal
 
 ## What's Wrong with the Pogo Connect
 
-About those bugs I mentioned earlier. Not sure if they're hardware or software related, but I've experienced a ton of lockups with the Pogo Connect and Paper by 53. The stylus will randomly disconnect or just become unresponsive and I have to force quit the app or remove the AAA battery to make the Pogo Connect behave again. I usually notice it becoming unresponsive when making a bunch of quick strokes, like when I'm [drawing beard whiskers]({{ site.url }}{% post_url 2013-07-01-josearato-portrait %}). Not a deal breaker because it doesn't happen all the time, but it is kind of annoying that it interrupts the creative flow.
+About those bugs I mentioned earlier. Not sure if they're hardware or software related, but I've experienced a ton of lockups with the Pogo Connect and Paper by 53. The stylus will randomly disconnect or just become unresponsive and I have to force quit the app or remove the AAA battery to make the Pogo Connect behave again. I usually notice it becoming unresponsive when making a bunch of quick strokes, like when I'm [drawing beard whiskers]({{ site.url }}{% post_url /paperfaces/2013-07-01-josearato-portrait %}). Not a deal breaker because it doesn't happen all the time, but it is kind of annoying that it interrupts the creative flow.
 
 <figure>
   <img src="{{ site.url }}/assets/images/pogo-connect-paper-53-disconnected.jpg" alt="Pogo Connected disconnected screenshot">
@@ -146,8 +146,8 @@ If it wasn't for Paper I probably would have dumped the Pogo and moved to the Ad
 
 <div class="notice--warning" markdown="1">
 #### A New iPad Stylus
-After having a long run with Ten One Design's Pogo Connect stylus I have finally left it behind. After updating to an iPad Air 2 (which has poor support for the original Pogo Connect) and Paper being updated to include **Surface Pressure**, I've begun using [FiftyThree's Pencil stylus]({{ site.url }}{% post_url 2014-11-28-pencil-53-review %}) exclusively.
-It doesn't vary strokes in the same way as a Pogo Connect (or other pressure sensitive styli), but it produces the same results and has [a few tricks]({{ site.url }}{% post_url 2013-11-20-pencil-first-look %}) up its sleeve.
+After having a long run with Ten One Design's Pogo Connect stylus I have finally left it behind. After updating to an iPad Air 2 (which has poor support for the original Pogo Connect) and Paper being updated to include **Surface Pressure**, I've begun using [FiftyThree's Pencil stylus]({{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}) exclusively.
+It doesn't vary strokes in the same way as a Pogo Connect (or other pressure sensitive styli), but it produces the same results and has [a few tricks]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}) up its sleeve.
 </div>
 
 {% include affiliate-disclosure.html %}
