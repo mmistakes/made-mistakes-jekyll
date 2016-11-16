@@ -2,10 +2,8 @@
 permalink: /support/
 title: "Show Your Support"
 date: 2014-06-19T09:33:51.793000-04:00
-last_modified_at: 2016-07-14T12:45:08-04:00
+last_modified_at: 2016-11-15T22:20:25-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
-share: false
-author: false
 ---
 
 The tutorials, Jekyll themes, and other articles I publish have been a true labor of love for me. If you've found any of this free content useful here's how to show your thanks and motivate me to create more of it.
@@ -41,13 +39,13 @@ I post fairly infrequently on social media --- I'm not the type to barf out a st
 
 If these sorts of things interest you, follow along on:
 
-* [Twitter](https://twitter.com/mmistakes)
-* [Instagram](https://instagram.com/mmistakes/)
-* [Tumblr](http://mademistakes.tumblr.com/)
-* [GitHub](https://github.com/mmistakes)
-* [YouTube](https://www.youtube.com/user/anotherjpeg)
-* [Facebook](https://www.facebook.com/michaelrose)
-* [Google+](https://plus.google.com/+MichaelRoseDesign/posts)
+- [Twitter](https://twitter.com/mmistakes)
+- [Instagram](https://instagram.com/mmistakes/)
+- [GitHub](https://github.com/mmistakes)
+- [YouTube](https://www.youtube.com/user/anotherjpeg)
+- [Facebook](https://www.facebook.com/michaelrose)
+- [Tumblr](http://mademistakes.tumblr.com/)
+- [Google+](https://plus.google.com/+MichaelRoseDesign/posts)
 
 ## Subscribe to the Feeds
 
@@ -55,10 +53,8 @@ All of the content on Made Mistakes is made available for free via syndicated fe
 
 Subscribing to the [**All Posts**](http://feeds.feedburner.com/MadeMistakes) feed will nab you everything posted to Made Mistakes. While the following feeds are more topic focused.
 
-* [Blog Articles](http://feeds.feedburner.com/MadeMistakesArticles)
-* [Paper by FiftyThree Tutorials](http://feeds.feedburner.com/MadeMistakesMasteringPaper)
-* [PaperFaces Portraits](http://feeds.feedburner.com/MadeMistakesPaperFaces)
+- [Blog Articles](http://feeds.feedburner.com/MadeMistakesArticles)
+- [Paper by FiftyThree Tutorials](http://feeds.feedburner.com/MadeMistakesMasteringPaper)
+- [PaperFaces Portraits](http://feeds.feedburner.com/MadeMistakesPaperFaces)
 
 [^rss]: Right click any of the feed links found on this page and paste into your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
-
-<a href="http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Ffeeds.feedburner.com%2FMadeMistakes"><img id="feedlyFollow" src="http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-medium_2x.png" alt="follow on feedly" width="71" height="28"></a>
