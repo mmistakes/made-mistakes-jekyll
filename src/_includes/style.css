@@ -1263,10 +1263,8 @@ tr, td, th {
         -ms-flex: auto;
             flex: auto;
     margin: 0.25em;
-    width: 100px; }
-    @media (min-width: 37.5em) {
-      .th-grid li {
-        max-width: 250px; } }
+    width: 100px;
+    max-width: 150px; }
   .th-grid img {
     width: 100%;
     height: auto; }

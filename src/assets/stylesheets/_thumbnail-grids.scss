@@ -25,10 +25,7 @@
     flex: auto;
     margin: 0.25em;
     width: 100px;
-
-    @include breakpoint($small) {
-      max-width: 250px;
-    }
+    max-width: 150px;
   }
 
   img {
