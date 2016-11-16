@@ -621,7 +621,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       width: 32.2033898305%;
       overflow: hidden;
       height: 100vh;
-      background-color: #e3e3e3;
+      background-color: #333;
       -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
               clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%); } }
   @media (min-width: 90em) {
@@ -634,7 +634,6 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   right: 0;
   bottom: 0;
   left: 0;
-  content: '';
   background-color: #e3e3e3;
   background-repeat: no-repeat;
   background-size: cover;

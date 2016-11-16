@@ -112,7 +112,7 @@
     width: span(4);
     overflow: hidden;
     height: 100vh;
-    background-color: #e3e3e3;
+    background-color: #333;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
   }
 
@@ -127,7 +127,6 @@
   right: 0;
   bottom: 0;
   left: 0;
-  content: '';
   background-color: #e3e3e3;
   background-repeat: no-repeat;
   background-size: cover;

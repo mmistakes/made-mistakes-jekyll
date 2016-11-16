@@ -1,6 +1,6 @@
 {% if page.image.feature %}
   {% assign f = page.image.feature | split: '.' %}
-  <div class="page__cover" style="background-color: #333;">
+  <div class="page__cover">
     <div class="page__cover-bg" style="background-image: url({{ site.url }}{{ f[0] }}-20.{{ f[1] }});"></div>
   </div>
   <div class="{{ include.type | default: 'page' }}__hero">
@@ -10,11 +10,9 @@
     {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
   </div>
 {% else %}
-  <div class="page__cover" {% if page.image.cover %}style="background-color: #333;"{% endif %}>
-    <div class="page__cover-bg"
-      {% if page.image.cover %}
-        style="background-color: #333; background-image: url({{ site.url }}{{ page.image.cover }});"
-      {% endif %}>
-    </div>
+  <div class="page__cover">
+    {% if page.image.cover %}
+      <div class="page__cover-bg" style="background-image: url({{ site.url }}{{ page.image.cover }});"></div>
+    {% endif %}
   </div>
 {% endif %}
