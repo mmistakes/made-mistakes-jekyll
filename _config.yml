@@ -157,6 +157,7 @@ defaults:
       breadcrumbs:
         - label: "PaperFaces Portraits"
           url: /paperfaces/
+      work: "Illustration"
       seo:
         type: "CreativeWork"
   # Procreate Paintings
@@ -169,6 +170,7 @@ defaults:
       breadcrumbs:
         - label: "Procreate Paintings"
           url: /procreate-paintings/
+      work: "Illustration"
       seo:
         type: "CreativeWork"
   # TIL
@@ -192,6 +194,7 @@ defaults:
       breadcrumbs:
         - label: "Tiny Paintings"
           url: /tiny-paintings/
+      work: "Illustration"
       seo:
         type: "CreativeWork"
   # Work
