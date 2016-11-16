@@ -2,7 +2,7 @@
 permalink: /support/
 title: "Show Your Support"
 date: 2014-06-19T09:33:51.793000-04:00
-last_modified_at: 2016-11-15T22:20:25-05:00
+last_modified_at: 2016-11-16T12:05:49-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 ---
 
@@ -17,7 +17,7 @@ I include banner ads on the site to help offset the costs associated with keepin
 <p markdown="0">
   <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn"><svg class="icon"><use xlink:href="#icon-paypal"></use></svg> Send PayPal Money</a>
   <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">Send Square Cash</a>
-  <a href="https://coinbase.com/checkouts/0a71043d672fbedccb0ce98e139a8a17" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn">Send Bitcoins</a>
+  <a href="https://www.coinbase.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn">Send Bitcoins</a>
 </p>
 
 ## Buy Something
