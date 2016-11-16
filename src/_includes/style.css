@@ -642,7 +642,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-filter: blur(25px);
-          filter: blur(25px); }
+          filter: blur(25px);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
 
 /*
    Hero image
@@ -1420,7 +1422,9 @@ form ul, form ol, form li {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-filter: blur(15px);
-          filter: blur(15px); }
+          filter: blur(15px);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
   .teaser__bg:before {
     display: block;
     position: absolute;
