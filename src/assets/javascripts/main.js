@@ -35,9 +35,9 @@ $(document).ready(function(){
 
   // Bigfoot footnotes
   var bigfoot = $.bigfoot(
-    {
-      actionOriginalFN: "ignore"
-    }
+    // {
+    //   actionOriginalFN: "ignore"
+    // }
   );
 
 });
