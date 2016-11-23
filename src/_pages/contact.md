@@ -2,7 +2,7 @@
 permalink: /contact/
 title: "Contact"
 date: 2015-05-22
-last_modified_at: 2016-09-30T15:51:42-04:00
+last_modified_at: 2016-11-21T15:08:09-05:00
 excerpt: "Preferred methods of sending your questions, inquires, messages, and love letters to me."
 ads: false
 share: false
@@ -19,20 +19,20 @@ If you have a product, service, app, or other opportunity that you feel is a goo
 
 <form id="form1" name="form1" class="page__form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <ul>
+    <li id="foli1">
+      <label id="title1" for="Field1"><strong>Message</strong> <span id="req_1" class="req">*</span></label>
+      <textarea id="Field1" name="Field1" spellcheck="true" rows="10" cols="50" required></textarea>
+    </li>
     <li id="foli7">
-      <label id="title7" for="Field7">Name</label>
+      <label id="title7" for="Field7"><strong>Name</strong></label>
       <input id="Field7" name="Field7" type="text" maxlength="255" />
     </li>
     <li id="foli2">
-      <label id="title2" for="Field2">Email address<span id="req_2" class="req">*</span> <small>(will remain private)</small></label>
+      <label id="title2" for="Field2"><strong>Email address</strong> <span id="req_2" class="req">*</span> <small>(will remain private)</small></label>
       <input id="Field2" name="Field2" type="email" spellcheck="false" maxlength="255" required />
     </li>
-    <li id="foli1">
-      <label id="title1" for="Field1">Message<span id="req_1" class="req">*</span></label>
-      <textarea id="Field1" name="Field1" spellcheck="true" rows="10" cols="50" required></textarea>
-    </li>
     <li id="foli10">
-      <label id="title10" for="Field10">How'd you hear about my website?</label>
+      <label id="title10" for="Field10"><strong>How&rsquo;d you hear about my website?</strong></label>
       <input id="Field10" name="Field10" type="text" maxlength="255" />
     </li>
     <li>
