@@ -1,10 +1,10 @@
 # Site wide configuration
 
-url         : ""
+url                      : "http://localhost:4000"
 
-profile     : true
-future      : true
-show_drafts : true
+profile                  : true
+future                   : true
+show_drafts              : true
 
 google_site_verification : ""
 bing_site_verification   : ""
