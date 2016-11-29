@@ -17,6 +17,24 @@
     background: #fff;
   }
 
+  /* reset styles */
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  p:first-line,
+  div:first-line,
+  blockquote:first-line,
+  li:first-line,
+  .dark,
+  .btn,
+  button {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
   /* increase width and reduce white space */
   body,
   .post__inner-wrapper,
@@ -30,40 +48,71 @@
     padding: 0 !important;
   }
 
+  /* widow and orphan adjustments */
+  .page__content {
+
+    p {
+      widows: 4;
+      orphans: 3;
+    }
+  }
+
   /* make code blocks readable */
-  .highlight pre {
-    padding: 0;
-    background: #fff;
+  div.highlighter-rouge .highlight,
+  figure.highlight .highlight {
+    padding: 0 !important;
+    background: transparent;
     white-space: pre-wrap;
   }
 
-  /* output link URLs */
-  #main a:after {
-    content: " [" attr(href) "] ";
+  /* reset inline code */
+  p code, li code, figcaption code {
+    padding: 0 !important;
+  }
+
+  /* widen content*/
+  .page,
+  .index {
+    width: 100% !important;
+  }
+
+  /* adjust index list*/
+  .list article.item a {
+    margin-right: 0 !important;
+  }
+
+  /* reset buttons */
+  .btn,
+  button {
+    padding: 0 !important;
+    text-align: left !important;
   }
 
   /* hide these */
   .masthead,
   .overlay__menu,
-  .post__sidebar,
-  .post__taxonomy,
-  .post__comments,
-  .post__footer,
-  .related,
-  #colophon,
+  .page__cover,
+  .splash .page__hero,
+  .site__footer,
+  .page__reactions .page__section-label,
+  .page__reactions p.instruct,
+  .page__reactions .page__form,
+  .page__related,
+  .ad,
   nav {
     display: none !important;
   }
 
-  /* footnotes */
-  .footnotes {
-
-    &:before {
-      content: "Footnotes:";
-      display: block;
-      margin-top: 3rem;
-      font-size: 1.563rem;
+  /* reveal URLs in page content links */
+  .page__content {
+    a[href^="http"]:not([href*="mademistakes.com"]):after {
+      content: " (" attr(href) ")";
     }
+  }
+
+  /* reveal expansions in abbreviations */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
   }
 
   /* disable expanded links on anchor elements */
@@ -87,6 +136,8 @@
   figure,
   img,
   table,
+  ul,
+  ol,
   .notice,
   .notice--info,
   .notice--warning ,
