@@ -27,20 +27,22 @@
     <!-- Start new comment form -->
     <h2 class="page__section-label">Leave a Comment</h2>
     <p class="instruct"><a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> is allowed. Email addresses will not be published.</p>
-    <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
+    <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
       <fieldset>
         <label for="comment-form-message"><strong>Comment</strong> <span class="required">*</span></small></label>
         <textarea type="text" rows="6" id="comment-form-message" name="fields[message]"></textarea>
       </fieldset>
       <fieldset>
         <label for="comment-form-name"><strong>Name</strong> <span class="required">*</span></label>
-        <input type="text" id="comment-form-name" name="fields[name]" />
+        <input type="text" id="comment-form-name" name="fields[name]" autocomplete="off" spellcheck="false" />
       </fieldset>
       <fieldset>
-        <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="https://en.gravatar.com/">Gravatar</a> image)</label>
-        <input type="email" id="comment-form-email" name="fields[email]" />
+        <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="https://en.gravatar.com/">Gravatar</a> image and reply notifications)</label>
+        <input type="email" id="comment-form-email" name="fields[email]" autocomplete="off" spellcheck="false" />
       </fieldset>
       <fieldset class="hidden" style="display:none;">
+        <input type="hidden" name="options[origin]" value="{{ page.slug }}">
+        <input type="hidden" name="options[parent]" value="{{ page.id }}">
         <input type="hidden" name="options[slug]" value="{{ page.slug }}">
         <label for="comment-form-location">Leave blank if you are a human</label>
         <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
@@ -52,6 +54,10 @@
       <!-- End comment form alert messaging -->
       <fieldset>
         <button type="submit" id="comment-form-submit" class="btn btn--large">Submit Comment</button>
+        <label for="comment-form-reply">
+          <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+          Notify me of new comments by email.
+        </label>
       </fieldset>
     </form>
     <!-- End new comment form -->

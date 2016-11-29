@@ -80,7 +80,9 @@ select {
 }
 
 form button,
+form .btn,
 input[type="submit"] {
+  margin: 1em 0;
   appearance: none;
   cursor: pointer;
   user-select: none;
