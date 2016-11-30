@@ -1,4 +1,4 @@
-<article id="comment{% if p %}-{{ i }}{% endif %}-{{ include.index }}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if p %}child{% endif %}">
+<article id="comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if p %}child{% endif %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -19,7 +19,7 @@
   </h3>
   <div class="comment__timestamp">
     {% if include.date %}
-      {% if include.index %}<a href="#comment{% if p %}-{{ i }}{% endif %}-{{ include.index }}" title="comment permalink">{% endif %}
+      {% if include.index %}<a href="#comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="comment permalink">{% endif %}
       <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y at %I:%M %p' }}</time>
       {% if include.index %}</a>{% endif %}
     {% endif %}
@@ -37,7 +37,7 @@
 {% capture i %}{{ include.index }}{% endcapture %}
 {% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == i" %}
 {% for reply in replies %}
-  {% assign index   = forloop.index %}
+  {% assign index   = forloop.index | prepend: '-' | prepend: include.index %}
   {% assign id      = reply._id %}
   {% assign p       = reply._parent %}
   {% assign parent  = p | to_integer %}
