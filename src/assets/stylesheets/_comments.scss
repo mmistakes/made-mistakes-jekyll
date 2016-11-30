@@ -2,23 +2,32 @@
    Comments
    ========================================================================== */
 
+#comments {
+  font-size: 0.8em;
+}
+
+#respond {
+  font-size: 1rem;
+}
+
 .comment {
   position: relative;
   margin-bottom: 4em;
   padding-left: 4.5em;
-  font-size: 0.8em;
 
-  // admin commenter styling
+  // comment replies
+  &.child {
+    margin-left: 4.5em;
+  }
+
+  // admin commenter
   &.admin {
 
-    &:before {
-      position: absolute;
-      top: 4em;
-      left: 3.25em;
-      bottom: 0;
-      content: '';
-      width: 0.5em;
-      background-color: #e3e3e3;
+    .comment__avatar {
+
+      &:after {
+        background-color: $primary-color;
+      }
     }
   }
 }
@@ -89,4 +98,19 @@
     color: inherit;
     text-decoration: none;
   }
+}
+
+.comment__reply {
+
+  .btn {
+    font-size: 0.64em;
+  }
+}
+
+#cancel-comment-reply-link {
+  margin-left: 1em;
+}
+
+#comment-form {
+  margin-bottom: 3em;
 }

@@ -1968,19 +1968,20 @@ green     #859900  operators, other keywords
 /* ==========================================================================
    Comments
    ========================================================================== */
+#comments {
+  font-size: 0.8em; }
+
+#respond {
+  font-size: 1rem; }
+
 .comment {
   position: relative;
   margin-bottom: 4em;
-  padding-left: 4.5em;
-  font-size: 0.8em; }
-  .comment.admin:before {
-    position: absolute;
-    top: 4em;
-    left: 3.25em;
-    bottom: 0;
-    content: '';
-    width: 0.5em;
-    background-color: #e3e3e3; }
+  padding-left: 4.5em; }
+  .comment.child {
+    margin-left: 4.5em; }
+  .comment.admin .comment__avatar:after {
+    background-color: #313131; }
 
 .comment__timestamp {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -2032,6 +2033,15 @@ green     #859900  operators, other keywords
   .comment__author-name a {
     color: inherit;
     text-decoration: none; }
+
+.comment__reply .btn {
+  font-size: 0.64em; }
+
+#cancel-comment-reply-link {
+  margin-left: 1em; }
+
+#comment-form {
+  margin-bottom: 3em; }
 
 /* ==========================================================================
    REVIEW BOXES
