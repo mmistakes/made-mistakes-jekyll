@@ -18,10 +18,27 @@
   // comment replies
   &.child {
     margin-left: 4.5em;
+
+    &:before {
+      position: absolute;
+      top: 4em;
+      left: 2.75em;
+      bottom: 0;
+      content: '';
+      width: 0.5em;
+      background-color: #e3e3e3;
+    }
   }
 
   // admin commenter
   &.admin {
+
+    &.child {
+
+      &:before {
+        background-color: $primary-color;
+      }
+    }
 
     .comment__avatar {
 
@@ -79,8 +96,8 @@
 
   &:after {
     position: absolute;
-    bottom: -0.5em;
-    right: -0.5em;
+    bottom: 0.5em;
+    right: 0.5em;
     width: 3.25em;
     height: 3.25em;
     content: '';

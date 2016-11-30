@@ -1980,6 +1980,16 @@ green     #859900  operators, other keywords
   padding-left: 4.5em; }
   .comment.child {
     margin-left: 4.5em; }
+    .comment.child:before {
+      position: absolute;
+      top: 4em;
+      left: 2.75em;
+      bottom: 0;
+      content: '';
+      width: 0.5em;
+      background-color: #e3e3e3; }
+  .comment.admin.child:before {
+    background-color: #313131; }
   .comment.admin .comment__avatar:after {
     background-color: #313131; }
 
@@ -2017,8 +2027,8 @@ green     #859900  operators, other keywords
   height: 3.25em; }
   .comment__avatar:after {
     position: absolute;
-    bottom: -0.5em;
-    right: -0.5em;
+    bottom: 0.5em;
+    right: 0.5em;
     width: 3.25em;
     height: 3.25em;
     content: '';
