@@ -47,23 +47,9 @@ author:
   github                 : "mmistakes"
   google_plus            : "https://plus.google.com/+MichaelRoseDesign/posts"
 
-# Staticman comments
+# Staticman comments (full configuration in staticman.yml)
 staticman:
-  # allowedFields          : ["name", "email", "url", "message"]
   branch                 : "master"
-  # commitMessage          : "New comment."
-  # filename               : comment-{@timestamp}
-  # format                 : "yml"
-  # moderation             : true
-  # path                   : "src/_data/comments/{options.slug}"
-  # requiredFields         : ["name", "message"]
-  # transforms:
-  #   email                : "md5"
-  # generatedFields:
-  #   date:
-  #     type               : "date"
-  #     options:
-  #       format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 
 # Jekyll configuration
 permalink                : /:categories/:title/
