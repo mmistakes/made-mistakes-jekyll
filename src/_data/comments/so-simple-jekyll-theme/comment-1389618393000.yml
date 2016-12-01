@@ -1,11 +1,12 @@
 ---
+_parent: '11'
 id: comment-1198322409
 date: 2014-01-13T13:06:33Z
 updated: 2014-01-13T13:06:33Z
 post_id: "/so-simple-jekyll-theme"
 name: Michael Rose
 url: https://mademistakes.com/
-message: "Looks like you're using Github pages then. There are two ways to host
+message: "Looks like you're using Github Pages then. There are two ways to host
   your site with Github, on the `master` branch if you have one repo, or as a project
   using the `gh-page` branch. For example I host all of my Jekyll themes on Github using
   the project method because I have multiple repos. GH recently redid their hosting

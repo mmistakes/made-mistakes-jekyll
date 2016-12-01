@@ -1,4 +1,5 @@
 ---
+_parent: '9'
 id: comment-1135681128
 date: 2013-11-23T11:14:11Z
 updated: 2013-11-23T11:14:11Z
@@ -7,4 +8,3 @@ name: lcallot
 url: ''
 message: "Thanks a lot for the fast reply, it works perfectly. I just had to remember
   setting the margin to `margin: 20px auto;` instead of the current `margin 20px 0 0;`"
-avatar: https://disqus.com/api/users/avatars/lcallot.jpg
