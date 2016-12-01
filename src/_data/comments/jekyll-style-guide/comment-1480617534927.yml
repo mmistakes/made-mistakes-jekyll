@@ -1,0 +1,8 @@
+_id: 6961b3a0-b7f5-11e6-9770-0502f5541edb
+_parent: '4'
+message: "The thought never occurred to me to output the collection documents as includes. That would be pretty cool if you could output to `_includes` to DRY things up.\r\n\r\nBut I get the feeling that folder is probably reserved by Jekyll, or that it would end up outputting to `_site/_includes` which wouldn't help.\r\n\r\nWorth some testing though :smile:"
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+hidden: ''
+date: '2016-12-01T18:38:54.926Z'
