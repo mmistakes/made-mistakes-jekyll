@@ -82,6 +82,7 @@ $(document).ready(function(){
 })(jQuery);
 
 // Staticman comment replies
+// modified from Wordpress https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js
 var addComment = {
   moveForm: function( commId, parentId, respondId, postId ) {
     var div, element, style, cssHidden,
@@ -178,4 +179,3 @@ var addComment = {
     return document.getElementById( id );
   }
 };
-
