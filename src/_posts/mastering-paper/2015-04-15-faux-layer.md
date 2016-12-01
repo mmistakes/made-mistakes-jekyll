@@ -8,7 +8,6 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-faux-layers-teaser.jpg
   thumb: /assets/images/paper-53-faux-layers-th.jpg
-comments_locked: true
 ---
 
 Up until recently I would painstakingly erase and Blend away lines until I got them just right when drawing with Paper by FiftyThree.

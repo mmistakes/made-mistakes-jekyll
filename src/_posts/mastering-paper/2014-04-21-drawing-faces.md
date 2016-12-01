@@ -8,7 +8,6 @@ image:
   teaser: /assets/images/paper-53-faces-teaser-2016.jpg
   thumb: /assets/images/paper-53-faces-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, portrait, iPad]
-comments_locked: true
 ---
 
 Portraiture is at the heart of what I use Paper by FiftyThree to create with. After drawing over 700 faces some might think it would be easy for me to share my process and techniques --- they would be wrong. After struggling writing this guide for the last month, I think I finally shaped it in a way that makes sense.
