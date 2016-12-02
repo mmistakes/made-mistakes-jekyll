@@ -248,7 +248,7 @@ Following the docs I added GitHub username `staticmanapp` as a collaborator and 
 Staticman is configured by settings defined in your Jekyll `_config.yml` under a `staticman` object. There's a whole [list of stuff](https://github.com/eduardoboucas/staticman#jekyll-configuration) you can configure --- the important stuff being `allowedFields`, `branch`, `format`, `moderation`, and `path`.
 
 {% capture branch_setting %}
-#### Branch setting
+#### Branch Setting
 
 This is the branch comment files will be sent to via pull requests. If you host your site on GitHub Pages it will likely be `master` or `gh-pages`. If you're unsure check the [**Configuring a Publishing Source**](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) documentation to refresh your memory.
 {% endcapture %}
