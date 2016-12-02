@@ -21,7 +21,6 @@
           {% assign url     = comment.url %}
           {% assign date    = comment.date %}
           {% assign message = comment.message %}
-          {% assign index   = forloop.index %}
           {% include comment.html index=index id=id parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
         {% endfor %}
       </div>
