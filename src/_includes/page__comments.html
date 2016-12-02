@@ -12,7 +12,6 @@
         {% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == nil" %}
         {% for comment in comments %}
           {% assign index   = forloop.index %}
-          {% assign id      = comment._id %}
           {% assign p       = comment._parent %}
           {% assign parent  = p | to_integer %}
           {% assign avatar  = comment.avatar %}
@@ -21,7 +20,7 @@
           {% assign url     = comment.url %}
           {% assign date    = comment.date %}
           {% assign message = comment.message %}
-          {% include comment.html index=index id=id parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+          {% include comment.html index=index parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
         {% endfor %}
       </div>
       <!-- End static comments -->

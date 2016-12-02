@@ -38,7 +38,6 @@
 {% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == i" %}
 {% for reply in replies %}
   {% assign index   = forloop.index | prepend: '-' | prepend: include.index %}
-  {% assign id      = reply._id %}
   {% assign p       = reply._parent %}
   {% assign parent  = p | to_integer %}
   {% assign avatar  = reply.avatar %}
@@ -47,5 +46,5 @@
   {% assign url     = reply.url %}
   {% assign date    = reply.date %}
   {% assign message = reply.message %}
-  {% include comment.html index=index id=id parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+  {% include comment.html index=index parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}
