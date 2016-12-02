@@ -3,7 +3,7 @@ _parent: '5'
 message: >-
   This is exactly how Hugo Giraudel proposes [building a living style guide with
   Jekyll](https://www.sitepoint.com/setting-up-a-living-styleguide-in-jekyll/).
-  Its something I've been meaning to adapt for my site, just haven't had the
+  It's something I've been meaning to adapt for my site, just haven't had the
   time.
 name: Michael Rose
 email: 1ce71bc10b86565464b612093d89707e
