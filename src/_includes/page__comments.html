@@ -51,7 +51,7 @@
           <input type="url" id="comment-form-url" name="fields[url]" spellcheck="false" />
         </fieldset>
         <fieldset class="hidden" style="display:none;">
-          <input type="hidden" name="options[origin]" value="{{ page.slug | absolute_url }}">
+          <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
           <input type="hidden" id="comment-parent" name="options[parent]" value="">
           <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
           <label for="comment-form-location">Leave blank if you are a human</label>

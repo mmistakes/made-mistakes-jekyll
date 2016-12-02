@@ -1,0 +1,7 @@
+_id: 3fb4c730-b82d-11e6-9770-0502f5541edb
+message: "Hey Michael, thanks for replying! \r\n\r\nJust thought of another slightly quirky way of achieving this DRY-ness.\r\n\r\nWhat if a component markup is stored in `_includes/components/btn.html` and the collection document includes it via `{% include components/btn.html text=\"click me\" %}`? This could also be a nudge to liquidify the components for reuse in multiple contexts (e.g., same button with different copy)"
+name: Ivan
+email: a2f305dcdc125ddffdfcb18516f19ef1
+url: ivanbabko.com
+hidden: ''
+date: '2016-12-02T01:18:36.708Z'
