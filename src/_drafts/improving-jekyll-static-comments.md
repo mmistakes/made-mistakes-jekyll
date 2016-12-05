@@ -24,28 +24,7 @@ Using an example provided by [Eduardo Bouças](https://eduardoboucas.com/) as a 
 
 ## Upgrade to Staticman v2
 
-To take advantage of the new features Staticman provides, it is necessary to move configurations out of Jekyll's `_config.yml` and into a `staticman.yml` file. Thankfully all of the parameter names have changed the same so it's just a matter of copying and pasting.
-
-### Staticman v1 _config.yml
-
-```yaml
-staticman:
-  allowedFields     : ['name', 'email', 'url', 'message']
-  branch            : "master"
-  commitMessage     : "New comment."
-  filename          : comment-{@timestamp}
-  format            : "yml"
-  moderation        : true
-  path              : "src/_data/comments/{options.slug}"
-  requiredFields    : ['name', 'email', 'message']
-  transforms:
-    email           : "md5"
-  generatedFields:
-    date:
-      type          : "date"
-      options:
-        format      : "iso8601"
-```
+To take advantage of the new features Staticman provides, it is necessary to move configurations out of Jekyll's `_config.yml` and into a `staticman.yml` file. Thankfully all of the parameter names have remained the same so it's just a matter of copying and pasting and renaming `staticman` to `comments`.
 
 ### Staticman v2 staticman.yml
 
@@ -112,7 +91,7 @@ This was the biggest pain point for me to get working. Numerous Liquid errors, t
 
 ### Add Parent Identifier
 
-To properly nest replies we need a way of determining their lineage. With `v2` Staticman incldues a new field named `options[parent]`[^parent-field]. With this we can indicate a comment's parent using a unique identifier.
+To properly nest replies we need a way of determining their lineage. Staticman `v2` includes a new field named `options[parent]`[^parent-field] that can be used to to establish this relationship with a unique identifier.
 
 [^parent-field]: Staticman names this field `_parent` in entries were it is assigned.
 
@@ -435,8 +414,78 @@ Now we're getting somewhere! With `for` loops mostly solved I added `if/else` co
   <figcaption>Nested comments one-level deep.</figcaption>
 </figure>
 
-### Add JavaScript for Comment Replies
+### Comment Reply HTML and JavaScript
+
+With the plumbing laid for parent and child comments, we now need a way of passing this info on to Staticman.
+
+The pattern Wordpress uses is one I was familiar with and tried to emulate. Digging through [`wp-includes/js/comment-reply.js`](https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js) I found everything I needed for handling comment replies:
+
+- pass the parent's ID to the comment form
+- move the comment form next to the reply link
+- allow for canceling a reply
+
+To start I used an `unless` condition to only show "reply" links on parent comments.
+
+```html
+{% raw %}{% unless p %}
+  <div class="comment__reply">
+    <a rel="nofollow" class="btn" href="#comment-{{ include.index }}">Reply to {{ include.name }}</a>
+  </div>
+{% endunless %}{% endraw %}
+```
+
+To give this link life the following `onclick` attribute and [some JavaScript](https://github.com/mmistakes/made-mistakes-jekyll/blob/49632d19977e341b51c91dad8e71bf6ef88e79c3/src/assets/javascripts/main.js#L84-L181) will need to be added. I only had to make some minor variable name changes to Wordpress's `comment-reply.js` script to get everything working with my `form` markup.
+
+```javascript
+{% raw %}onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"{% endraw %}
+```
+
+With both in place hitting any **reply button** should move the comment form and populate `<input type="hidden" id="comment-parent" name="options[parent]" value="">` with the correct parent `value`.
+
+<figure>
+  <img src="{{ site.url }}/assets/images/comment-reply-animation.gif" alt="Comment replies in action">
+  <figcaption>Comment replies in action.</figcaption>
+</figure>
 
 ## Add Support for Email Notifications
+
+Compared to adding support for nested comments, reply notifications were a breeze to enable.
+
+### Update staticman.yml Configuration
+
+To ensure that links in notification emails are safe and come from trusted domains under your control, set `allowedOrigins` accordingly. 
+
+**Example:**
+
+```yaml
+allowedOrigins: ["mademistakes.com"]
+```
+
+The domains allowed here must match one passed from `options.origin` field we're going to add in the next step. If it doesn't the operation will be aborted and the notification not sent.
+
+### Update Comment Form
+
+Two fields need to be added to the comment for. 
+
+A hidden field that passes the `origin`[^origin] set in `staticman.yml`:
+
+```html
+{% raw %}<input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">{% endraw %}
+  ```
+
+And a checkbox `input` to allow a commenter to subscribe to any new comments.
+
+```html  
+<label for="comment-form-reply">
+  <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+  Notify me of new comments by email.
+</label>
+```
+
+`options[subscribe]` contains the name of the field corresponding to the email address of the subscriber. In my case, `comment-form-reply`.
+
+[^origin]: This URL be included in the notification email sent to subscribers, allowing them to open the page directly.
+
+
 
 *[CSS]: Cascading Style Sheets
