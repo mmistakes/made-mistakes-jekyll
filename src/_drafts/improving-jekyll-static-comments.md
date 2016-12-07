@@ -10,23 +10,25 @@ title: "Improving Static Comments with Jekyll & Staticman"
 excerpt:
 image:
   path:
+  feature:
   teaser:
   cover:
 tags: [web development, GitHub, Jekyll]
+comments: true
 last_modified_at:
 ---
 
-During the time I first [integrated a static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}) with Jekyll, [**Staticman**](https://staticman.net/) has added support for [nesting comments](https://github.com/eduardoboucas/staticman/issues/35) and [email notifications](https://github.com/eduardoboucas/staticman/issues/42). 
-
-Using an example provided by [Eduardo Bouças](https://eduardoboucas.com/) as a blueprint, here's how I leveled-up the commenting experience on **Made Mistakes**.
+In the months after I dumped Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}) with Jekyll, [**Staticman**](https://staticman.net/) has added support for [threaded comments](https://github.com/eduardoboucas/staticman/issues/35) and [email notifications](https://github.com/eduardoboucas/staticman/issues/42).
 
 {% include toc.html %}
 
+Armed with an example and instructions provided by Eduardo Bouças in [this GitHub issue](https://github.com/eduardoboucas/staticman/issues/42 "Email notification upon replies"), I set off to level-up the commenting experience on **Made Mistakes**. Here's how I did it.
+
 ## Upgrade to Staticman v2
 
-To take advantage of the new features Staticman provides, it is necessary to move configurations out of Jekyll's `_config.yml` and into a `staticman.yml` file. Thankfully all of the parameter names have remained the same so it's just a matter of copying and pasting and renaming `staticman` to `comments`.
+To take advantage of the new features, it is necessary to migrate Staticman settings from Jekyll's `_config.yml` file into a new `staticman.yml` file[^staticman-yml]. None of the parameter names have changed making the transition to `v2` easier.
 
-### Staticman v2 staticman.yml
+[^staticman-yml]: An added benefit of the new `staticman.yml` configuration file means you can use Staticman with other SSGs. `v2` no longer requires you to use a `_config.yml` file which is specific to Jekyll.
 
 ```yaml
 comments:
@@ -47,17 +49,13 @@ comments:
         format      : "iso8601"
 ```
 
-{% capture staticman_config %}
+{% include notice content="
 #### ProTip: Additional Configuration Parameters
 
 It's worth reviewing the [full list of parameters](https://staticman.net/docs/configuration) available and [`staticman.sample.yml`](https://github.com/eduardoboucas/staticman/blob/master/staticman.sample.yml) for setup ideas.
 
-For example you can configure multiple properties (comments, reviews, and other types of user-generated content), commit message text, pull request body text, and notifications.
-{% endcapture %}
-
-<div class="notice--info">
-  {{ staticman_config | markdownify }}
-</div>
+For example you can configure multiple properties (comments, reviews, and other types of user-generated content), commit message text, pull request body text, enable email notifications, and more."
+%}
 
 ### Staticman as a Collaborator
 
@@ -67,59 +65,47 @@ Then I pinged `https://api.staticman.net/v2/connect/{your GitHub username}/{your
 
 ![Remove staticmanapp as a collaborator]({{ site.url }}/assets/images/staticman-remove-collaborator.png)
 
-{% capture staticman_collab %}
+{% include notice type="warning" content="
 #### Remove/Add Voodoo?
 
-I'm not entirely sure if this step is even needed. I encountered some errors when I tried to submit a test comment and this solved the problem. It's possible I had something else configured wrong and that was the real issue.
+I'm not entirely sure if this step was even needed. I encountered errors when submitting test comments and this appeared to solve the problem. It's possible I mis-configured something else and that was the real issue.
 
-Please chime in if you had to do this step when upgrading from `v1` to `v2`.
-{% endcapture %}
-
-<div class="notice--warning">
-  {{ staticman_collab | markdownify }}
-</div>
+Let me know about your experience upgrading from Staticman `v1` to `v2` in the comments below."
+%}
 
 ### Update POST Endpoint in Comment Form
 
-The comment form needs a small update to `POST` to the correct endpoint. Changing `v1` to `v2` in **_includes/page__comments.html** and appending `/comments`[^property] to the end did the trick for me.
+The comment form needs a small update to `POST` to the correct endpoint. Changing `v1` to `v2` in [**_includes/page__comments.html**](https://github.com/mmistakes/made-mistakes-jekyll/blob/f0074b7b9e64b6d4b63dd13a371cedc576dae49d/src/_includes/page__comments.html#L34) and appending `/comments`[^property] to the end did the trick for me.
 
 [^property]: Property name (optional) should match the name used in your `staticman.yml` file. For example `comments` would have you append `/comments` to `https://api.staticman.net/v2/entry/{GITHUB USERNAME}/{GITHUB REPOSITORY}/{BRANCH}`.
 
-## Add Support for Nested Comments
+## Add Support for Threaded Comments
 
-This was the biggest pain point for me to get working. Numerous Liquid errors, trying to wrap my head around `for` loops inside of `for` loops inside of `for` loops, broken array filters, and more, all took me a bit to sort out.
+Nesting comments was the biggest pain point for me. Numerous Liquid errors, trying to wrap my head around `for` loops inside of `for` loops inside of `for` loops, broken array filters, and more --- took a bit to figure out.
 
 ### Add Parent Identifier
 
-To properly nest replies we need a way of determining their lineage. Staticman `v2` includes a new field named `options[parent]`[^parent-field] that can be used to to establish this relationship with a unique identifier.
+To properly nest replies I needed a way of determining their hierarchy. Staticman `v2` includes a new field named `options[parent]`[^parent-field] that can be used to to establish this relationship with a unique identifier.  More on this in a minute, but for now start by adding a hidden field (similar to `options[slug]`) to the comment form.
 
 [^parent-field]: Staticman names this field `_parent` in entries were it is assigned.
-
-In my comment form `include` I added the following as a hidden field (similar to `options[slug]`):
 
 ```html
 <input type="hidden" id="comment-parent" name="options[parent]" value="">
 ```
 
-The `value` is purposely left blank to indicate a comment is a parent (the default). For a reply I'll use JavaScript to assign a `value` that matches its parent before the form is submitted to Staticman.
-
 ### Update Liquid Loops
 
-To properly display nested comments, I first needed a way of showing only "parent" comments. This seemed like a perfect case for Jekyll's `where_exp` filter:
+To properly display nested comments, I needed a way of showing only "parent" comments. This seemed like a perfect use-case for Jekyll's `where_exp` filter:
 
-{% capture where_expression %}
+{% include notice type="warning" content="
 #### Where Expression Jekyll Filter
 
-Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. Example: {% raw %}`{{ site.members | where_exp:"item","item.graduation_year == 2014" }}`{% endraw %}
-{% endcapture %}
+Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. Example: `site.members | where_exp:\"item\",\"item.graduation_year == 2014\"`"
+%}
 
-<div class="notice--warning">
-  {{ where_expression | markdownify }}
-</div>
+Since only comment replies should have populated `_parent` fields, we can test against them with something like `where_exp:"item","item._parent == nil"`. Leaving behind an array filled with just parent comments to loop through.
 
-Since only comment replies should have the `_parent` field populated, we can test against it with something like `where_exp:"item","item._parent == nil"`. This leaves us with an array filled with just parent comments, which we can loop through.
-
-One problem. The following didn't work:
+One problem... this didn't work:
 
 ```liquid
 {% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == nil" %}
@@ -134,13 +120,13 @@ One problem. The following didn't work:
 {% endfor %}{% endraw %}
 ```
 
-Just a bunch of HTML markup minus all the important comment data. It wasn't until I added the `inspect` filter my arrays to get a closer look at what was going on.
+All I got was a bunch of HTML markup minus all the important comment data. Hmmm... maybe I should try the `inspect` filter to see what's inside of the array.
 
 ```liquid
 {% raw %}{{ site.data.comments[page.slug] | inspect }}{% endraw %}
 ```
 
-Here's a sample of what the array looked like before I attempted to filter it with `where_exp`.
+Here's a sample of what it like before filtering with `where_exp`.
 
 ```yaml
 {
@@ -163,7 +149,7 @@ Here's a sample of what the array looked like before I attempted to filter it wi
 }
 ```
 
-And here is a sample after filtering out comment replies using `where_exp`.
+And here it is after filtering out comment replies using `where_exp`.
 
 ```json
 [
@@ -185,18 +171,6 @@ And here is a sample after filtering out comment replies using `where_exp`.
   }
 ]
 ```
-
-{% capture sort_array %}
-#### Note: Sort and Where Filters Don't Mix
-
-I had all kinds of errors and strange behavior due to mixing a `sort` filter with `where` and `where_exp`. I determined it was unnecessary as the items were being sorted alphabetically based on their filenames, and removed the filter.
-
-Your mileage may vary depending on your `_data` filenames.
-{% endcapture %}
-
-<div class="notice--info">
-  {{ sort_array | markdownify }}
-</div>
 
 As you can see, using the `where_exp` filter flattens the array slightly --- removing `comment-1471818805944` items. Which in turn was causing each `assign` to return blank values and empty comments.
 
@@ -224,6 +198,14 @@ Once discovered, the fix was simple --- remove the item position from `comment[1
   <img src="{{ site.url }}/assets/images/staticman-parent-comments-only.png" alt="Parent comments only">
   <figcaption>Success, there be parent comments Captain!</figcaption>
 </figure>
+
+{% include notice content="
+#### Note: Sort and Where Filters Don't Mix
+
+I had all kinds of errors and strange behavior due to mixing a `sort` filter with `where` and `where_exp`. I determined it was unnecessary as the items were being sorted alphabetically based on their filenames, and removed the filter.
+
+Your mileage may vary depending on your `_data` filenames."
+%}
 
 Next up, displaying comment replies nested in the appropriate threads. Here is when the real headaches began...
 
@@ -463,17 +445,23 @@ allowedOrigins: ["mademistakes.com"]
 
 The domains allowed here must match one passed from `options.origin` field we're going to add in the next step. If it doesn't the operation will be aborted and the notification not sent.
 
+{% include notice type="warning" content="
+#### ProTip: Use Your Own Mailgun Account
+
+The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) account with a limit of 10,000 emails a month. You are encouraged to create an account and add your [Mailgun API and domain](https://staticman.net/docs/configuration#notifications.enabled) to `staticman.yml`. Be sure you encrypt both using the following endpoint: `https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}`."
+%}
+
 ### Update Comment Form
 
-Two fields need to be added to the comment for. 
+All that's left to do is add twp fields to the comment `form`. 
 
 A hidden field that passes the `origin`[^origin] set in `staticman.yml`:
 
 ```html
 {% raw %}<input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">{% endraw %}
-  ```
+```
 
-And a checkbox `input` to allow a commenter to subscribe to any new comments.
+And a checkbox `input` to give users away to subscribe to any new comments on a specific post/page.
 
 ```html  
 <label for="comment-form-reply">
@@ -482,10 +470,20 @@ And a checkbox `input` to allow a commenter to subscribe to any new comments.
 </label>
 ```
 
-`options[subscribe]` contains the name of the field corresponding to the email address of the subscriber. In my case, `comment-form-reply`.
+Nothing fancy here, `name=options[subscribe]` and `value="email"` are added to the field to associate subscription data with email address.
 
 [^origin]: This URL be included in the notification email sent to subscribers, allowing them to open the page directly.
 
+If setup correctly a user should receive an email anytime a new comment on the post/page they subscribed to is merged.
 
+<figure>
+  <img src="{{ site.url }}/assets/images/staticman-email-notification.png" alt="Staticman reply email notification">
+  <figcaption>Example of a Staticman reply email notification.</figcaption>
+</figure>
 
+---
+
+Well there you have it, a static-based commenting system done up in Jekyll that handles nested comments and reply notifications. Now if I could only speed up my build times to get new comments merged in quicker :frowning:.
+
+*[SSG]: Static Site Generator
 *[CSS]: Cascading Style Sheets
