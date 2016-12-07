@@ -39,13 +39,6 @@
         background-color: $primary-color;
       }
     }
-
-    .comment__avatar {
-
-      &:after {
-        background-color: $primary-color;
-      }
-    }
   }
 }
 
@@ -101,7 +94,8 @@
     width: 3.25em;
     height: 3.25em;
     content: '';
-    background: #e3e3e3 repeating-linear-gradient(-45deg, transparent, transparent 0.25%, white 0.25%, white 0.5%);
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
+    background-size: 5px 5px;
     z-index: -1;
   }
 }
