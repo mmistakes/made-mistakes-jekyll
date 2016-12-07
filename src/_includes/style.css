@@ -393,7 +393,6 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   text-decoration: none;
   background-color: #000;
   border: 0 !important;
-  border-radius: 4px;
   cursor: pointer;
   /* fills width of parent container */
   /* for dark backgrounds */
@@ -1991,8 +1990,6 @@ green     #859900  operators, other keywords
       background-color: #e3e3e3; }
   .comment.admin.child:before {
     background-color: #313131; }
-  .comment.admin .comment__avatar:after {
-    background-color: #313131; }
 
 .comment__timestamp {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -2033,8 +2030,8 @@ green     #859900  operators, other keywords
     width: 3.25em;
     height: 3.25em;
     content: '';
-    background: #e3e3e3 -webkit-repeating-linear-gradient(135deg, transparent, transparent 0.25%, white 0.25%, white 0.5%);
-    background: #e3e3e3 repeating-linear-gradient(-45deg, transparent, transparent 0.25%, white 0.25%, white 0.5%);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
+    background-size: 5px 5px;
     z-index: -1; }
 
 .comment__author-name {
