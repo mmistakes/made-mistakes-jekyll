@@ -684,12 +684,16 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     margin: 1.5em 0 1em 0;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     line-height: 1.25; }
+    .page__content h2 code, .page__content h3 code, .page__content h4 code, .page__content h5 code, .page__content h6 code {
+      font-size: 1em; }
   .page__content > p, .page__content > ul, .page__content > ol, .page__content > figure, .page__content > table {
     margin-bottom: 1.5em; }
   .page__content ul {
     list-style-type: square; }
   .page__content li {
     margin-bottom: 0.5em; }
+    .page__content li img {
+      margin: 0.5em 0; }
   .page__content li > ul,
   .page__content li > ol {
     margin-top: 0.5em; }

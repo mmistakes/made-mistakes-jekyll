@@ -188,7 +188,11 @@
   h2, h3, h4, h5, h6 {
     margin: 1.5em 0 1em 0;
     font-family: $sans-serif;
-    line-height: 1.25
+    line-height: 1.25;
+
+    code {
+      font-size: 1em;
+    }
   }
 
   > p, > ul, > ol, > figure, > table {
