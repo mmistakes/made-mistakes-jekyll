@@ -18,17 +18,17 @@ comments: true
 last_modified_at:
 ---
 
-In the months after I dumped Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}) with Jekyll, [**Staticman**](https://staticman.net/) has added support for [threaded comments](https://github.com/eduardoboucas/staticman/issues/35) and [email notifications](https://github.com/eduardoboucas/staticman/issues/42).
+In the months after ditching Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like [threaded comments](https://github.com/eduardoboucas/staticman/issues/35) and [email notifications](https://github.com/eduardoboucas/staticman/issues/42).
+
+Armed with instructions provided by Eduardo Bouças in [this GitHub issue](https://github.com/eduardoboucas/staticman/issues/42 "Email notification upon replies"), I set off to level-up the commenting experience on **Made Mistakes**. Here's how I did it.
 
 {% include toc.html %}
 
-Armed with an example and instructions provided by Eduardo Bouças in [this GitHub issue](https://github.com/eduardoboucas/staticman/issues/42 "Email notification upon replies"), I set off to level-up the commenting experience on **Made Mistakes**. Here's how I did it.
-
 ## Upgrade to Staticman v2
 
-To take advantage of the new features, it is necessary to migrate Staticman settings from Jekyll's `_config.yml` file into a new `staticman.yml` file[^staticman-yml]. None of the parameter names have changed making the transition to `v2` easier.
+To take advantage of the new features, it was necessary to migrate Staticman settings from Jekyll's `_config.yml` file into a new `staticman.yml` file[^staticman-yml]. None of the parameter names changed which made the transition to `v2` easier.
 
-[^staticman-yml]: An added benefit of the new `staticman.yml` configuration file means you can use Staticman with other SSGs. `v2` no longer requires you to use a `_config.yml` file which is specific to Jekyll.
+[^staticman-yml]: An added benefit of the new `staticman.yml` configuration file means you can use Staticman with other static site generators. `v2` no longer requires you to use a Jekyll specific `_config.yml` file.
 
 ```yaml
 comments:
@@ -50,44 +50,43 @@ comments:
 ```
 
 {% include notice content="
-#### ProTip: Additional Configuration Parameters
+#### New Configuration Options
 
-It's worth reviewing the [full list of parameters](https://staticman.net/docs/configuration) available and [`staticman.sample.yml`](https://github.com/eduardoboucas/staticman/blob/master/staticman.sample.yml) for setup ideas.
+Be sure to check the [full list of parameters](https://staticman.net/docs/configuration) and [sample configuration file](https://github.com/eduardoboucas/staticman/blob/master/staticman.sample.yml) for setup ideas.
 
-For example you can configure multiple properties (comments, reviews, and other types of user-generated content), commit message text, pull request body text, enable email notifications, and more."
+For example you can configure multiple properties (comments, reviews, and other types of user-generated content), change commit message and request body text, enable email notifications, and much more from a `staticman.yml` file."
 %}
 
-### Staticman as a Collaborator
+### Remove/Add Staticman as a Collaborator
 
-Because I previously granted Staticman `v1` collaboration rights to my GitHub repository I went ahead and removed `staticmanapp` and then [re-added]({% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman).
+I'm not entirely sure if this step was even needed. I encountered errors when submitting test comments and this appeared to solve the problem. It's possible I mis-configured something else and that was the real issue...
 
-Then I pinged `https://api.staticman.net/v2/connect/{your GitHub username}/{your repository name}` as instructed in the docs to accept the invitation.
+Either way, let me know about your experience upgrading from Staticman `v1` to `v2` in the comments below.
 
-![Remove staticmanapp as a collaborator]({{ site.url }}/assets/images/staticman-remove-collaborator.png)
-
-{% include notice type="warning" content="
-#### Remove/Add Voodoo?
-
-I'm not entirely sure if this step was even needed. I encountered errors when submitting test comments and this appeared to solve the problem. It's possible I mis-configured something else and that was the real issue.
-
-Let me know about your experience upgrading from Staticman `v1` to `v2` in the comments below."
-%}
+1. Revoked collaboration rights for Staticman `v1` by removing from my GitHub repository.
+   ![Remove staticmanapp as a collaborator]({{ site.url }}/assets/images/staticman-remove-collaborator.png)
+2. Added Staticman back as [collaborator]({% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman) .
+3. Pinged the version 2 endpoint `https://api.staticman.net/v2/connect/{your GitHub username}/{your repository name}` to accept the invitation.
 
 ### Update POST Endpoint in Comment Form
 
-The comment form needs a small update to `POST` to the correct endpoint. Changing `v1` to `v2` in [**_includes/page__comments.html**](https://github.com/mmistakes/made-mistakes-jekyll/blob/f0074b7b9e64b6d4b63dd13a371cedc576dae49d/src/_includes/page__comments.html#L34) and appending `/comments`[^property] to the end did the trick for me.
+To `POST` correctly to Staticman, the `action` attribute in my comment form needed a small update. Changing `v1` to `v2` in [**_includes/page__comments.html**](https://github.com/mmistakes/made-mistakes-jekyll/blob/f0074b7b9e64b6d4b63dd13a371cedc576dae49d/src/_includes/page__comments.html#L34) and appending `/comments`[^property] to the end did the trick for me.
 
-[^property]: Property name (optional) should match the name used in your `staticman.yml` file. For example `comments` would have you append `/comments` to `https://api.staticman.net/v2/entry/{GITHUB USERNAME}/{GITHUB REPOSITORY}/{BRANCH}`.
+```html
+{% raw %}<form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">{% endraw %}
+```
+
+[^property]: Site properties are optional. Forms should `POST` to `https://api.staticman.net/v2/entry/{GITHUB USERNAME}/{GITHUB REPOSITORY}/{BRANCH}/{PROPERTY (optional)}`
 
 ## Add Support for Threaded Comments
 
-Nesting comments was the biggest pain point for me. Numerous Liquid errors, trying to wrap my head around `for` loops inside of `for` loops inside of `for` loops, broken array filters, and more --- took a bit to figure out.
+Getting nested comments working was a big pain point for me. Numerous Liquid errors, trying to wrap my head around `for` loops inside of `for` loops, array filters that broke things, and more --- took me a bit to figure out.
 
 ### Add Parent Identifier
 
-To properly nest replies I needed a way of determining their hierarchy. Staticman `v2` includes a new field named `options[parent]`[^parent-field] that can be used to to establish this relationship with a unique identifier.  More on this in a minute, but for now start by adding a hidden field (similar to `options[slug]`) to the comment form.
+To properly nest replies I needed a way of determining their hierarchy. Staticman `v2` includes a new field named `options[parent]`[^parent-field] that can be used to help establish this relationship.  More on this in a minute, but for now start by adding it as hidden field to the comment form.
 
-[^parent-field]: Staticman names this field `_parent` in entries were it is assigned.
+[^parent-field]: Staticman names this field `_parent` in entries.
 
 ```html
 <input type="hidden" id="comment-parent" name="options[parent]" value="">
@@ -95,17 +94,38 @@ To properly nest replies I needed a way of determining their hierarchy. Staticma
 
 ### Update Liquid Loops
 
-To properly display nested comments, I needed a way of showing only "parent" comments. This seemed like a perfect use-case for Jekyll's `where_exp` filter:
+To avoid displaying duplicates, I needed a way of pulling out only the "parent" comments. This seemed like the perfect use-case for Jekyll's `where_exp` filter:
 
 {% include notice type="warning" content="
 #### Where Expression Jekyll Filter
 
-Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. Example: `site.members | where_exp:\"item\",\"item.graduation_year == 2014\"`"
+Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp:\"item\",\"item.graduation_year == 2014\"`"
 %}
 
-Since only comment replies should have populated `_parent` fields, we can test against them with something like `where_exp:"item","item._parent == nil"`. Leaving behind an array filled with just parent comments to loop through.
+If the hidden `options[parent]` field I added to my form earlier was working properly I should have comment data files similar to these:
 
-One problem... this didn't work:
+#### Parent comment example
+
+```yaml
+message: This is parent comment message.
+name: First LastName
+email: md5g1bb3r15h
+date: '2016-11-30T22:03:15.286Z'
+```
+
+#### Child comment example
+
+```yaml
+_parent: '7'
+message: This is a child comment message.
+name: First LastName
+email: md5g1bb3r15h
+date: '2016-11-02T05:08:43.280Z'
+```
+
+Since the `_parent` field should only populate for "child" comments. I attempted to test against it using `where_exp:"item","item._parent == nil"` in the hope of getting an array of only "parent" comments.
+
+Unfortunately the following didn't work as expected:
 
 ```liquid
 {% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == nil" %}
@@ -120,28 +140,45 @@ One problem... this didn't work:
 {% endfor %}{% endraw %}
 ```
 
-All I got was a bunch of HTML markup minus all the important comment data. Hmmm... maybe I should try the `inspect` filter to see what's inside of the array.
+What spat out instead was a bunch of empty comment markup like this:
+
+```html
+<article id="comment-1" class="js-comment comment">
+  <div class="comment__avatar">
+    <img src="" alt="">
+  </div>
+  <h3 class="comment__author-name"></h3>
+  <div class="comment__timestamp">
+    <a href="#comment-1" title="Permalink to this comment">
+      <time datetime=""></time>
+    </a>
+  </div>
+  <div class="comment__content"></div>
+</article>
+```
+
+Hmmm... guess it was time to add `inspect` filters to my arrays to see what was up.
 
 ```liquid
 {% raw %}{{ site.data.comments[page.slug] | inspect }}{% endraw %}
 ```
 
-Here's a sample of what it like before filtering with `where_exp`.
+#### Sample array before filtering with `where_exp`
 
 ```yaml
 {
   "comment-1471818805944" => {
-    "message" => "This is the comment message.",
+    "message" => "This is a parent comment message.",
     "name"    => "First LastName",
-    "email"   => "md5-hashed-email@email.com",
+    "email"   => "md5g1bb3r15h",
     "url"     => "",
     "hidden"  => "",
     "date"    => "2016-08-21T22:33:25.272Z"
   },
   "comment-1471904599908" => {
-    "message" => "This is another comment message.",
+    "message" => "This is another parent comment message.",
     "name"    => "First LastName",
-    "email"   => "md5-hashed-email@email.com",
+    "email"   => "md5g1bb3r15h",
     "url"     => "",
     "hidden"  => "",
     "date"    => "2016-08-22T21:42:48.075Z"
@@ -149,22 +186,22 @@ Here's a sample of what it like before filtering with `where_exp`.
 }
 ```
 
-And here it is after filtering out comment replies using `where_exp`.
+#### Sample array after filtering with `where_exp`
 
 ```json
 [
   {
-    "message" => "This is the comment message.",
+    "message" => "This is a parent comment message.",
     "name"    => "First LastName",
-    "email"   => "md5-hashed-email@email.com",
+    "email"   => "md5g1bb3r15h",
     "url"     => "",
     "hidden"  => "",
     "date"    => "2016-08-21T22:33:25.272Z"
   }, 
   {
-    "message" => "This is another comment message.",
+    "message" => "This is another parent comment message.",
     "name"    => "First LastName",
-    "email"   => "md5-hashed-email@email.com",
+    "email"   => "md5g1bb3r15h",
     "url"     => "",
     "hidden"  => "",
     "date"    => "2016-08-22T21:42:48.075Z"
@@ -172,7 +209,7 @@ And here it is after filtering out comment replies using `where_exp`.
 ]
 ```
 
-As you can see, using the `where_exp` filter flattens the array slightly --- removing `comment-1471818805944` items. Which in turn was causing each `assign` to return blank values and empty comments.
+As you can see, using the `where_exp` filter flattens the array slightly. Which in turn was causing each of my `assign` tags to return blank values.
 
 ```liquid
 {% raw %}{% assign avatar  = comment[1].avatar %}
@@ -183,7 +220,7 @@ As you can see, using the `where_exp` filter flattens the array slightly --- rem
 {% assign message = comment[1].message %}{% endraw %}
 ```
 
-Once discovered, the fix was simple --- remove the item position from `comment[1]`.
+Once discovered, the fix was simple --- remove the item position from each `comment[1]`.
 
 ```liquid
 {% raw %}{% assign avatar  = comment.avatar %}
@@ -202,26 +239,29 @@ Once discovered, the fix was simple --- remove the item position from `comment[1
 {% include notice content="
 #### Note: Sort and Where Filters Don't Mix
 
-I had all kinds of errors and strange behavior due to mixing a `sort` filter with `where` and `where_exp`. I determined it was unnecessary as the items were being sorted alphabetically based on their filenames, and removed the filter.
+I had all kinds of errors and strange behavior due to mixing a `sort` filter with `where` and `where_exp`. I determined `sort` was unnecessary as the items were being sorted alphabetically based on their filenames, and removed the filter.
 
-Your mileage may vary depending on your `_data` filenames."
+I'm using the following: `filename: \"comment-{@timestamp}\"` structure. Your mileage may vary depending on how you name entries."
 %}
 
-Next up, displaying comment replies nested in the appropriate threads. Here is when the real headaches began...
+#### Displaying Nested Comments
 
-I determined the easiest way of matching up child comments with their parents would be to number them sequentially. Liquid provides a way of doing this in a loop with `forloop.index`.
+Here is when the real headaches began... nesting comment replies in their appropriate threads.
 
-So what I did was add another `assign` to the loop which I could then pass as a variable into `_includes/comments.html`.
+- Each loop iteration create a new array named `replies` of only reply comments.
+- Evaluate the value of `_parent` in these replies.
+- If `_parent` is equal to the index of the parent loop then it's a child and should be treated as one.
+- If not, move on to the next entry in the array.
+
+I determined the easiest way of assigning a unique identifier to parent comments would be sequentially. Thankfully Liquid provides a way of doing this with `forloop.index`.
 
 ```liquid
 {% raw %}{% assign index = forloop.index %}{% endraw %}
 ```
 
-Using the same approach from above (filtering an array with `where_exp`) I started by copying the `for` loop in **page__comments.html** and adding it to the bottom of **comment.html**.
+Next I copied the contents of the parent loop from before and added it to the bottom of **/_includes/comment.html** --- becoming the "child" or `replies` loop. Making a few changes to the `where_exp` condition and renaming object names.
 
-With some minor adjustments to array names and the `where_exp` condition, I thought I nailed it.
-
-```html
+```liquid
 {% raw %}{% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == include.index" %}
 {% for reply in replies %}
   {% assign parent  = reply._parent %}
@@ -235,29 +275,23 @@ With some minor adjustments to array names and the `where_exp` condition, I thou
 {% endfor %}{% endraw %}
 ```
 
-Unfortunately nothing is ever this easy and I received the following error: `Liquid Exception: Liquid error (line 47): Nesting too deep in /_layouts/page.html`.
+Unfortunately things weren't this easy and Jekyll blew-up with the following error: `Liquid Exception: Liquid error (line 47): Nesting too deep in /_layouts/page.html`.
 
-Thoughts of the movie **Inception** ran through my head as I fought with duplicate comments, missing comments, and more.
-
-After using the `inspect` filter again I determined that my `where_exp` condition was trying to compare an integer against a string[^integer-string] :flushed:.
+After brief thoughts of the movie **Inception**, I applied an `inspect` filter to help troubleshoot. I determined that the `where_exp` condition in the `replies` loop was trying to compare an integer against a string[^integer-string] and failing :flushed:.
 
 [^integer-string]: `15` is not the same as `'15'`. Those single quotes make a world of difference...
 
-To solve this I used the Liquid `capture` tag to convert `forloop.index` into a string and then used that to compare against.
+To solve this I placed a `capture` tag around the index variable to convert it from an integer into a string. Then modified the `where_exp` condition to compare `_parent` against this new variable, `{% raw %}{{ i }}{% endraw %}`.
 
 ```liquid
 {% raw %}{% capture i %}{{ include.index }}{% endcapture %}
 {% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == i" %}{% endraw %}
 ```
 
-Now we're getting somewhere! With `for` loops mostly solved I added `if/else` conditions for hiding reply buttons and adding `class` hooks for styling via CSS. 
-
-#### Comment includes (HTML + Liquid)
+#### `_includes/page__comments.html`
 
 ```html
-{% raw %}<!-- /_includes/page__comments.html -->
-
-<section class="page__reactions">
+{% raw %}<section class="page__reactions">
   {% if site.repository and site.staticman.branch %}
     {% if site.data.comments[page.slug] %}
       <!-- Start static comments -->
@@ -336,10 +370,10 @@ Now we're getting somewhere! With `for` loops mostly solved I added `if/else` co
 </section>{% endraw %}
 ```
 
-```html
-{% raw %}<!-- /_includes/comment.html -->
+#### `_includes/comment.html`
 
-<article id="comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if p %}child{% endif %}">
+```html
+{% raw %}<article id="comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if p %}child{% endif %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -391,22 +425,17 @@ Now we're getting somewhere! With `for` loops mostly solved I added `if/else` co
 {% endfor %}{% endraw %}
 ```
 
-<figure>
-  <img src="{{ site.url }}/assets/images/staticman-nested-comments.png" alt="Nested comments">
-  <figcaption>Nested comments one-level deep.</figcaption>
-</figure>
-
 ### Comment Reply HTML and JavaScript
 
-With the plumbing laid for parent and child comments, we now need a way of passing this info on to Staticman.
+Now to pull it all together and add some finishing touches.
 
-The pattern Wordpress uses is one I was familiar with and tried to emulate. Digging through [`wp-includes/js/comment-reply.js`](https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js) I found everything I needed for handling comment replies:
+Familiar with the way [**Wordpress**](https://wordpress.org/) handles reply forms I looked to it for inspiration. Digging through the JavaScript in [`wp-includes/js/comment-reply.js`](https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js) I found everything I could possibly need:
 
-- pass the parent's ID to the comment form
-- move the comment form next to the reply link
-- allow for canceling a reply
+- `respond` function to move form into view
+- `cancel` function to destroy a reply form a return it to its original state
+- pass parent's unique identifier to `options[parent]` on form submit
 
-To start I used an `unless` condition to only show "reply" links on parent comments.
+To start I used an `unless` condition to only show "reply" links on parent comments. I only planned on going one-level deep with replies, so this seemed like a good way of enforcing that.
 
 ```html
 {% raw %}{% unless p %}
@@ -416,26 +445,35 @@ To start I used an `unless` condition to only show "reply" links on parent comme
 {% endunless %}{% endraw %}
 ```
 
-To give this link life the following `onclick` attribute and [some JavaScript](https://github.com/mmistakes/made-mistakes-jekyll/blob/49632d19977e341b51c91dad8e71bf6ef88e79c3/src/assets/javascripts/main.js#L84-L181) will need to be added. I only had to make some minor variable name changes to Wordpress's `comment-reply.js` script to get everything working with my `form` markup.
+<figure>
+  <img src="{{ site.url }}/assets/images/staticman-nested-comments.png" alt="Nested comments">
+  <figcaption>Nested comments one-level deep.</figcaption>
+</figure>
+
+To give the "reply link" life I added the following `onclick` attribute and [some JavaScript](https://github.com/mmistakes/made-mistakes-jekyll/blob/49632d19977e341b51c91dad8e71bf6ef88e79c3/src/assets/javascripts/main.js#L84-L181) to it.
 
 ```javascript
 {% raw %}onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"{% endraw %}
 ```
 
-With both in place hitting any **reply button** should move the comment form and populate `<input type="hidden" id="comment-parent" name="options[parent]" value="">` with the correct parent `value`.
+A few minor variable name changes to Wordpress's `comment-reply.js` script was all it took to get everything working with my `form` markup.
+
+{% capture reply_caption %}
+Hitting a **reply button** moves the comment form into view and populates `<input type="hidden" id="comment-parent" name="options[parent]" value="">` with the correct parent `value`. While tapping **cancel reply** returns the form to its original state.
+{% endcapture %}
 
 <figure>
   <img src="{{ site.url }}/assets/images/comment-reply-animation.gif" alt="Comment replies in action">
-  <figcaption>Comment replies in action.</figcaption>
+  <figcaption>{{ reply_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
 </figure>
 
 ## Add Support for Email Notifications
 
-Compared to adding support for nested comments, reply notifications were a breeze to enable.
+Compared to adding support for nested comments, reply notifications were a breeze to setup.
 
-### Update staticman.yml Configuration
+### Update `staticman.yml` Configuration
 
-To ensure that links in notification emails are safe and come from trusted domains under your control, set `allowedOrigins` accordingly. 
+To ensure that links in notification emails are safe and only come from trusted domains, set `allowedOrigins` accordingly. 
 
 **Example:**
 
@@ -443,25 +481,25 @@ To ensure that links in notification emails are safe and come from trusted domai
 allowedOrigins: ["mademistakes.com"]
 ```
 
-The domains allowed here must match one passed from `options.origin` field we're going to add in the next step. If it doesn't the operation will be aborted and the notification not sent.
+The domains allowed here must match those passed from an `options.origin` field we're going to add in the next step. Only domains that match will trigger notifications to send, otherwise the operation will abort.
 
 {% include notice type="warning" content="
 #### ProTip: Use Your Own Mailgun Account
 
-The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) account with a limit of 10,000 emails a month. You are encouraged to create an account and add your [Mailgun API and domain](https://staticman.net/docs/configuration#notifications.enabled) to `staticman.yml`. Be sure you encrypt both using the following endpoint: `https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}`."
+The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) account with a limit of 10,000 emails a month. You are encouraged to create an account and add your own [Mailgun API and domain](https://staticman.net/docs/configuration#notifications.enabled) to `staticman.yml`. Be sure you encrypt both using the following endpoint: `https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}`."
 %}
 
 ### Update Comment Form
 
-All that's left to do is add twp fields to the comment `form`. 
+To finish, add two fields to the comment `form`. 
 
-A hidden field that passes the `origin`[^origin] set in `staticman.yml`:
+**Field 1:** A hidden field that passes the `origin`[^origin] set in `staticman.yml`:
 
 ```html
 {% raw %}<input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">{% endraw %}
 ```
 
-And a checkbox `input` to give users away to subscribe to any new comments on a specific post/page.
+**Field 2:** A checkbox `input` for subscribing to new comment email notifications.
 
 ```html  
 <label for="comment-form-reply">
@@ -485,5 +523,4 @@ If setup correctly a user should receive an email anytime a new comment on the p
 
 Well there you have it, a static-based commenting system done up in Jekyll that handles nested comments and reply notifications. Now if I could only speed up my build times to get new comments merged in quicker :frowning:.
 
-*[SSG]: Static Site Generator
 *[CSS]: Cascading Style Sheets
