@@ -1,6 +1,6 @@
 ---
 title: "Improving Static Comments with Jekyll & Staticman"
-excerpt:
+excerpt: "Using Staticman to add threaded comments and reply notifications to a static-based Jekyll site."
 image:
   path: &image /assets/images/improving-jekyll-static-comments-feature.jpg
   feature: *image
@@ -9,7 +9,7 @@ image:
   creditlink: "https://unsplash.com/@gabrielssantiago"
 tags: [web development, GitHub, Jekyll]
 comments: true
-last_modified_at:
+last_modified_at: 2016-12-09T11:07:02-05:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.

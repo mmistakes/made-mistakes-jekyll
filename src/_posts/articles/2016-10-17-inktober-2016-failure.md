@@ -1,7 +1,7 @@
 ---
 title: "Inktober Failure"
 layout: work
-excerpt: "Similar to previously years, I start out with the best of intentions for Inktober and then quickly lose steam..."
+excerpt: "Similar to previously years, I started out with the best of intentions for Inktober and then quickly lose steam..."
 image: 
   path: &image /assets/images/inktober-2016-wash-portrait.jpg
   feature: *image
@@ -21,7 +21,7 @@ comments: true
 last_modified_at: 2016-10-28T14:19:32-04:00
 ---
 
-Similar to previously years, I start out with the best of intentions for [**Inktober**](http://mrjakeparker.com/inktober) and then quickly lose steam...
+Similar to previously years, I started out with the best of intentions for [**Inktober**](http://mrjakeparker.com/inktober) and then quickly lose steam...
 
 After taking a few days to complete a single ink wash --- I was spent. Working digitally has spoiled me to the point that sitting at a desk instead of the sofa, cleaning brushes, and dealing with messes is just too much work to bother with.
 
