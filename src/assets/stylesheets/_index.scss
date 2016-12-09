@@ -5,7 +5,11 @@
 .index {
 
   @include breakpoint($medium-wide) {
-    width: span(8);
+    width: span(10);
+
+    .page__header {
+      width: span(8 of 10);
+    }
   }
 
   .page__cover {

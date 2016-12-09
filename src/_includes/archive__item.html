@@ -23,8 +23,8 @@
       </div>
     </div>
     {% if post.image.teaser %}
-      <div class="item__image">
-        <img src="{{ post.image.teaser | prepend: site.url }}" alt="">
+      <div class="item__image" style="background-image: url({{ post.image.teaser | absolute_url }});">
+        <img src="{{ post.image.teaser | absolute_url }}" alt="">
       </div>
     {% endif %}
   </a>

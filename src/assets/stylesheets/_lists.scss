@@ -9,6 +9,9 @@
   }
 
   article.item {
+    padding-bottom: 3em;
+    column-break-inside: avoid;
+    transition: $global-transition;
 
     a {
       display: flex;
@@ -28,32 +31,31 @@
             width: 100%;
           }
         }
-
-        .item__image {
-
-          &:before {
-            opacity: 0.5;
-          }
-        }
       }
 
       @include breakpoint($medium) {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: stretch;
       }
+    }
+  }
 
-      @include breakpoint($medium-wide) {
-        margin-right: -1 * span(2 of 8);
+  // apply disabled state to siblings
+  &:hover article.item:not(:hover) {
+
+    .item__image {
+
+      &:before {
+        opacity: 0.75;
       }
     }
   }
 }
 
-// list item
 .item {
 
   &:not(:last-child) {
-    margin-bottom: 3em;
+    padding-bottom: 3em;
   }
 }
 
@@ -98,9 +100,11 @@
 .item__image {
   position: relative;
   order: -1;
-  // max-width: 400px;
-  // max-height: 250px;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backface-visibility: hidden;
 
   &:before {
     position: absolute;
@@ -119,27 +123,20 @@
   }
 
   @include breakpoint($medium) {
-    order: initial;
     flex-basis: 45%;
-    margin: 1.5em 1em;
-    // max-width: 300px;
-    // max-height: 190px;
-    transform: rotate(-2deg);
+
+    img {
+      display: none;
+    }
   }
 
   img {
     width: 100%;
     border: none;
-  }
-}
+    box-shadow: initial;
 
-// even items
-.item:nth-child(even) {
-
-  .item__image {
-
-    @include breakpoint($medium) {
-      transform: rotate(2deg);
+    &:hover {
+      box-shadow: initial;
     }
   }
 }
