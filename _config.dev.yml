@@ -1,6 +1,6 @@
 # Site wide configuration
 
-url                      : "http://localhost:4000"
+url                      : ""
 
 profile                  : true
 future                   : true
