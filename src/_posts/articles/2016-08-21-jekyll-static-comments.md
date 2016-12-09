@@ -6,10 +6,10 @@ image:
   path: &image /assets/images/going-static-comments-feature.jpg
   feature: *image
   teaser: /assets/images/going-static-comments-teaser.jpg
-  credit: "Photo by **Breno Machado**"
-  creditlink: "https://unsplash.com/@brenomachado"
+  credit: "Photo by **Ian Schneider**"
+  creditlink: "https://unsplash.com/@goian"
 comments: true
-last_modified_at: 2016-08-29T16:31:51-04:00
+last_modified_at: 2016-12-08T23:04:23-05:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.
