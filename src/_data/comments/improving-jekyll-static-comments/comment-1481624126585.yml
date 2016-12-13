@@ -1,0 +1,7 @@
+_id: 10d27860-c11d-11e6-afae-8f3a543234e4
+message: "To speed up the build time I used a Docker image in Travis. With this I don't have to wait for the installation of all Jekyll dependencies.\r\nThe size is WIP but you can get some ideas from my [Travis config, and Dockerfile.\r\n](https://github.com/zburgermeiszter/blog.burgermeiszter.com/blob/master/.travis.yml)"
+email: 183cace68094ae879629ba4840b13c56
+name: Zoltan Burgermeiszter
+url: 'https://blog.burgermeiszter.com'
+hidden: ''
+date: '2016-12-13T10:15:26.577Z'
