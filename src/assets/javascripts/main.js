@@ -61,7 +61,7 @@ $(document).ready(function(){
       success: function (data) {
         $('#comment-form-submit').html('Submitted').addClass('btn--disabled');
         $('#comment-form .js-notice').removeClass('notice--danger').addClass('notice--success');
-        showAlert('<strong>Thanks for your comment!</strong> It will show on the site once it has been reviewed and approved.');
+        showAlert('<strong>Thanks for your comment!</strong> It is <a href="https://github.com/mmistakes/made-mistakes-jekyll/pulls">currently pending</a> and will show on the site once approved.');
       },
       error: function (err) {
         console.log(err);
