@@ -806,6 +806,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   transition: all 0.3s ease-in-out; }
   .page__form ul {
     margin: 0; }
+  .page__form .js-notice {
+    margin: 0; }
 
 /* ==========================================================================
    Work/Portfolio Post or Page
