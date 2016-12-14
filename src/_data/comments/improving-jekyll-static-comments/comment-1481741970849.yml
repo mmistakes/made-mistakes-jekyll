@@ -1,0 +1,8 @@
+_id: 7174f2c0-c22f-11e6-92af-6b8d5992a359
+_parent: '4'
+message: "I tried enabling Akismet with the following but it never quite worked:\r\n\r\n```yaml\r\nakismet:\r\n  enabled: true\r\n  author: \"name\"\r\n  authorEmail: \"email\"\r\n  authorUrl: \"url\"\r\n  content: \"message\"\r\n  type: \"comment\"\r\n```\r\n\r\nWere you able to get it working?\r\n\r\nFrom this [line in Staticman's documenation](https://staticman.net/docs/configuration#akismet.enabled) I got the feeling the public instance of Staticman needed it setup. Wasn't sure if that was the case or if it was only for those running their own instances of the app.\r\n\r\n> **akismet.enabled** Whether to use Akismet to check entries for spam. This requires an Akismet account to be configured in the Staticman API instance being used."
+email: 1ce71bc10b86565464b612093d89707e
+name: Michael Rose
+url: 'https://mademistakes.com'
+hidden: ''
+date: '2016-12-14T18:59:30.845Z'
