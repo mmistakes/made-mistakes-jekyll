@@ -1,0 +1,8 @@
+_id: 249f30a0-c16c-11e6-afae-8f3a543234e4
+_parent: '3'
+message: "How many posts do you have? Having close to 1,000 posts I've found they bog things down way more than installing dependencies ever could.\r\n\r\nFound [this article](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html) that introduced me to the idea of having Jekyll do less and use [Gulp](http://gulpjs.com/) to do some of the heavy lifting (preprocessing Sass, concatenating/minifying JS, optimizing images, minifying HTML, etc.) instead\r\n\r\nWas able to [shave a few minutes off the build time](https://github.com/mmistakes/made-mistakes-jekyll/issues/49) doing just that. It complicates the build process slightly but has the advantage of not being as reliant on Jekyll --- if I ever decide to switch to a different static site generator."
+email: 1ce71bc10b86565464b612093d89707e
+name: Michael Rose
+url: 'https://mademistakes.com'
+hidden: ''
+date: '2016-12-13T19:41:30.051Z'
