@@ -1989,8 +1989,8 @@ green     #859900  operators, other keywords
     .comment.child:before {
       position: absolute;
       top: 4em;
-      left: 2.75em;
-      bottom: 0;
+      left: 1.5em;
+      bottom: -2em;
       content: '';
       width: 0.5em;
       background-color: #e3e3e3; }
