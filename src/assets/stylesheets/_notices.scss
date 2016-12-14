@@ -37,12 +37,12 @@
     }
   }
 
+  a {
+    color: mix(#000, $notice-color, 25%) !important; // override
+  }
+
   p {
     margin-bottom: 0;
-
-    a {
-      color: mix(#000, $notice-color, 25%) !important; // override
-    }
   }
 
   h4 + p {
@@ -58,30 +58,25 @@
 
 /* default notice */
 .notice {
-
   @include notice($primary-color);
 }
 
 /* info notice */
 .notice--info {
-
   @include notice($info-color);
 }
 
 /* warning notice */
 .notice--warning {
-
   @include notice($warning-color);
 }
 
 /* success notice */
 .notice--success {
-
   @include notice($success-color);
 }
 
 /* danger notice */
 .notice--danger {
-
   @include notice($danger-color);
 }

@@ -1112,10 +1112,10 @@ tr, td, th {
     box-shadow: none !important; }
     .page-content .notice a:hover {
       background-color: transparent !important; }
+  .notice a {
+    color: #252525 !important; }
   .notice p {
     margin-bottom: 0; }
-    .notice p a {
-      color: #252525 !important; }
   .notice h4 + p {
     /* remove space above paragraphs that appear directly after notice headline */
     margin-top: 0;
@@ -1142,10 +1142,10 @@ tr, td, th {
     box-shadow: none !important; }
     .page-content .notice--info a:hover {
       background-color: transparent !important; }
+  .notice--info a {
+    color: #1a5891 !important; }
   .notice--info p {
     margin-bottom: 0; }
-    .notice--info p a {
-      color: #1a5891 !important; }
   .notice--info h4 + p {
     /* remove space above paragraphs that appear directly after notice headline */
     margin-top: 0;
@@ -1172,10 +1172,10 @@ tr, td, th {
     box-shadow: none !important; }
     .page-content .notice--warning a:hover {
       background-color: transparent !important; }
+  .notice--warning a {
+    color: #aa8619 !important; }
   .notice--warning p {
     margin-bottom: 0; }
-    .notice--warning p a {
-      color: #aa8619 !important; }
   .notice--warning h4 + p {
     /* remove space above paragraphs that appear directly after notice headline */
     margin-top: 0;
@@ -1202,10 +1202,10 @@ tr, td, th {
     box-shadow: none !important; }
     .page-content .notice--success a:hover {
       background-color: transparent !important; }
+  .notice--success a {
+    color: #328340 !important; }
   .notice--success p {
     margin-bottom: 0; }
-    .notice--success p a {
-      color: #328340 !important; }
   .notice--success h4 + p {
     /* remove space above paragraphs that appear directly after notice headline */
     margin-top: 0;
@@ -1232,10 +1232,10 @@ tr, td, th {
     box-shadow: none !important; }
     .page-content .notice--danger a:hover {
       background-color: transparent !important; }
+  .notice--danger a {
+    color: #a13030 !important; }
   .notice--danger p {
     margin-bottom: 0; }
-    .notice--danger p a {
-      color: #a13030 !important; }
   .notice--danger h4 + p {
     /* remove space above paragraphs that appear directly after notice headline */
     margin-top: 0;
