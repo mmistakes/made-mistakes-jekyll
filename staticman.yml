@@ -49,13 +49,13 @@ comments:
   moderation: true
 
   # Akismet spam detection.
-  akismet:
-    enabled: true
-    author: "name"
-    authorEmail: "email"
-    authorUrl: "url"
-    content: "message"
-    type: "comment"
+  # akismet:
+  #   enabled: true
+  #   author: "name"
+  #   authorEmail: "email"
+  #   authorUrl: "url"
+  #   content: "message"
+  #   type: "comment"
 
   # Name of the site. Used in notification emails.
   name: "mademistakes.com"
