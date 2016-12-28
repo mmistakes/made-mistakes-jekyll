@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.3
+install:
+  - bundle install --path vendor/bundle
+  - npm install
+script: gulp build --prod
