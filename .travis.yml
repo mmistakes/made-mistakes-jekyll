@@ -11,6 +11,5 @@ install:
 cache:
   bundler: true
   directories:
-  - node_modules # NPM packages
-  - dist/assets/images # optimized image assets
-script: gulp build --prod
+    - node_modules # NPM packages
+script: gulp images:feature
