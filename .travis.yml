@@ -1,8 +1,8 @@
 language: node_js
 before_install:
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
-  - rvm install 2.3
-  - rvm use 2.3
+  - rvm install 2.2
+  - rvm use 2.2
   - . $HOME/.nvm/nvm.sh && nvm install 4.4 && nvm use 4.4
   - gem install bundler
   - bundle check || bundle install
