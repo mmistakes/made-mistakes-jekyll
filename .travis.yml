@@ -1,5 +1,13 @@
 language: node_js
+node_js:
+  - "4"
+cache:
+  bundler: true
+  directories:
+    - node_modules # NPM packages
 before_install:
+  - apt-get install imagemagick
+  - apt-get install graphicsmagick
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
   - rvm install 2.2
   - rvm use 2.2
@@ -8,8 +16,4 @@ before_install:
   - bundle check || bundle install
 install:
   - npm install
-cache:
-  bundler: true
-  directories:
-    - node_modules # NPM packages
 script: gulp images:feature
