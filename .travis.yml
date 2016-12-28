@@ -5,6 +5,7 @@ cache:
   bundler: true
   directories:
     - node_modules # NPM packages
+    - dist/assets/images # optimized images
 before_install:
   - sudo apt-get install graphicsmagick
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
@@ -15,4 +16,4 @@ before_install:
   - bundle check || bundle install
 install:
   - npm install
-script: gulp images:feature
+script: gulp build --prod
