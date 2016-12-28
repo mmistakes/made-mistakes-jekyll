@@ -6,8 +6,7 @@ cache:
   directories:
     - node_modules # NPM packages
 before_install:
-  - apt-get install imagemagick
-  - apt-get install graphicsmagick
+  - sudo apt-get install graphicsmagick
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
   - rvm install 2.2
   - rvm use 2.2
