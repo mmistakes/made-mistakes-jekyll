@@ -12,7 +12,7 @@ cache:
   bundler: true
   directories:
     - node_modules # NPM packages
-    - dist/assets/images # optimized images
+    # - dist/assets/images # optimized images
 
 addons:
   ssh_known_hosts: s210904.gridserver.com
