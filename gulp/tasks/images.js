@@ -26,7 +26,7 @@ gulp.task('images', () =>
       imagemin.jpegtran({progressive: true}),
       imagemin.optipng(),
       imagemin.svgo({plugins: [{cleanupIDs: false}]})
-    ]))
+    ], {verbose: true}))
     .pipe(gulp.dest(paths.imageFilesSite))
     .pipe(size({title: 'images'}))
 );
@@ -56,7 +56,7 @@ gulp.task('images:feature', function() {
       .pipe(imagemin([
         imagemin.jpegtran({progressive: true}),
         imagemin.optipng()
-      ]))
+      ], {verbose: true}))
       .pipe(gulp.dest(paths.imageFilesSite))
   });
 
@@ -66,7 +66,7 @@ gulp.task('images:feature', function() {
     .pipe(imagemin([
       imagemin.jpegtran({progressive: true}),
       imagemin.optipng()
-    ]))
+    ], {verbose: true}))
     .pipe(gulp.dest(paths.imageFilesSite)))
 
   return merge2(streams);

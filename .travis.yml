@@ -16,4 +16,4 @@ before_install:
   - bundle check || bundle install
 install:
   - npm install
-script: travis_wait 20 gulp build --prod
+script: gulp build --prod
