@@ -11,7 +11,7 @@ cache:
     - dist/assets/images # optimized images
 
 addons:
-  ssh_known_hosts: new-mademistakes.com
+  ssh_known_hosts: s210904.gridserver.com
   apt_packages:
     - graphicsmagick
 
