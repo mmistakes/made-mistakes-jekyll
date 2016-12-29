@@ -3,9 +3,9 @@ node_js:
   - "4"
 cache:
   bundler: true
-  # directories:
-  #   - node_modules # NPM packages
-  #   - dist/assets/images # optimized images
+  directories:
+    - node_modules # NPM packages
+    - dist/assets/images # optimized images
 before_install:
   - sudo apt-get install graphicsmagick
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
