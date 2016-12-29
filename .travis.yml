@@ -18,8 +18,6 @@ addons:
 before_install:
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
   - . $HOME/.nvm/nvm.sh && nvm install 4.4 && nvm use 4.4
-
-install:
   - npm install
 
 script: gulp build --prod
@@ -38,4 +36,3 @@ deploy:
   script: gulp deploy
   on:
     branch: master
-
