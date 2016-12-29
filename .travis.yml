@@ -18,10 +18,8 @@ addons:
 before_install:
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
   - . $HOME/.nvm/nvm.sh && nvm install 4.4 && nvm use 4.4
-  - gem install bundler
 
 install:
-  - bundle install --path vendor/bundle
   - npm install
 
 script: gulp build --prod
