@@ -1,0 +1,8 @@
+_id: 36ac4a60-d118-11e6-9105-3b0a58ef0a97
+_parent: '9'
+message: "I had the same problem when trying to sort using the `date` value. I think the issue is Staticman captures that field as a string since it's encased in single quotes, causing Liquid to throw an error as it can't compare strings against integers... or a date timestamp.\r\n\r\nI tried everything I could think of to convert the `date` values from a string so they could be sorted, but never found a solution. Jekyll has several [filters](http://jekyllrb.com/docs/templates/#filters) for converting to various date formats and even the `to_integer`, so I thought if I could capture the array, filter it the date fields, then I'd have an array with date values that I could sort. Never got that working though.\r\n\r\nIn the end I threw in the towel and just renamed all my legacy comment `_data` files so they were sequential using a Unix timestamp, matching the same filename format I defined for Staticman (`filename: comment-{@timestamp}`)."
+email: 1ce71bc10b86565464b612093d89707e
+name: Michael Rose
+url: 'https://mademistakes.com'
+hidden: ''
+date: '2017-01-02T18:21:01.199Z'
