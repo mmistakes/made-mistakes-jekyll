@@ -21,8 +21,17 @@
 }
 
 .work__hero {
+  margin-left: -1em;
+  margin-right: -1em;
+
+  @include breakpoint($small) {
+    margin-left: -2em;
+    margin-right: -2em;
+  }
 
   @include breakpoint($medium-wide) {
+    margin-left: initial;
+    margin-right: initial;
     margin-bottom: 3em;
   }
 
