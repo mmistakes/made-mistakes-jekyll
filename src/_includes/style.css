@@ -528,6 +528,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
           padding: 0 2em 0 0; } }
   .site__footer .copyright {
     font-size: 0.8em; }
+    .site__footer .copyright a {
+      white-space: nowrap; }
 
 /* ==========================================================================
    SINGLE PAGE/POST
@@ -558,7 +560,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 
 .page__header {
   position: relative;
-  margin: 2em 0 3em;
+  margin: 2em 0;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   line-height: 1.25;
   z-index: 1; }
@@ -589,7 +591,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     color: inherit;
     text-decoration: none; }
   .page__meta span {
+    display: inline-block;
     margin-right: 1em;
+    margin-bottom: 0.5em;
     white-space: nowrap; }
   .page__meta .taxonomy {
     margin-right: 2em; }
@@ -650,9 +654,17 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
    ========================================================================== */
 .page__hero {
   position: relative;
-  margin-bottom: 3em; }
+  margin-bottom: 2em;
+  margin-left: -1em;
+  margin-right: -1em; }
+  @media (min-width: 37.5em) {
+    .page__hero {
+      margin-left: -2em;
+      margin-right: -2em; } }
   @media (min-width: 56.25em) {
     .page__hero {
+      margin-bottom: 3em;
+      margin-left: initial;
       margin-right: -41.1764705882%; } }
   .page__hero .image {
     width: 100%;
@@ -823,12 +835,20 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 .work .page__content {
   position: initial; }
 
-@media (min-width: 56.25em) {
-  .work__hero {
-    margin-bottom: 3em; } }
-
-.work__hero img {
-  width: 100%; }
+.work__hero {
+  margin-left: -1em;
+  margin-right: -1em; }
+  @media (min-width: 37.5em) {
+    .work__hero {
+      margin-left: -2em;
+      margin-right: -2em; } }
+  @media (min-width: 56.25em) {
+    .work__hero {
+      margin-left: initial;
+      margin-right: initial;
+      margin-bottom: 3em; } }
+  .work__hero img {
+    width: 100%; }
 
 @media (max-width: 56.25em) {
   .work__gallery {
@@ -1996,8 +2016,6 @@ green     #859900  operators, other keywords
       content: '';
       width: 0.5em;
       background-color: #e3e3e3; }
-  .comment.admin.child:before {
-    background-color: #313131; }
 
 .comment__timestamp {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
