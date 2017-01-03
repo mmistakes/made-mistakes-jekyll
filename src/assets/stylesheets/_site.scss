@@ -83,5 +83,9 @@
 
   .copyright {
     font-size: 0.8em;
+
+    a {
+      white-space: nowrap;
+    }
   }
 }
