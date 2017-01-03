@@ -34,7 +34,7 @@
 
 .page__header {
   position: relative;
-  margin: 2em 0 3em;
+  margin: 2em 0;
   font-family: $sans-serif;
   line-height: 1.25;
   z-index: 1;
@@ -143,9 +143,18 @@
 
 .page__hero {
   position: relative;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+  margin-left: -1em;
+  margin-right: -1em;
+
+  @include breakpoint($small) {
+    margin-left: -2em;
+    margin-right: -2em;
+  }
 
   @include breakpoint($medium-wide) {
+    margin-bottom: 3em;
+    margin-left: initial;
     margin-right: -1 * (span(3 of 7));
   }
 
