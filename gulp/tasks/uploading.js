@@ -20,7 +20,7 @@ gulp.task('upload', () => {
       incremental: true,
       recursive: true,
       compress: true,
-      clean: true,
+      clean: false,
       chmod: 'Du=rwx,Dgo=rx,Fu=rw,Fgo=r'
     }));
 });

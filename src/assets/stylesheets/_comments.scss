@@ -29,17 +29,6 @@
       background-color: #e3e3e3;
     }
   }
-
-  // admin commenter
-  &.admin {
-
-    &.child {
-
-      &:before {
-        background-color: $primary-color;
-      }
-    }
-  }
 }
 
 .comment__timestamp {
