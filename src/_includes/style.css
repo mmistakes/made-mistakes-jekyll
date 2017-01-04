@@ -2008,14 +2008,18 @@ green     #859900  operators, other keywords
   padding-left: 4.5em; }
   .comment.child {
     margin-left: 4.5em; }
-    .comment.child:before {
+    .comment.child:before, .comment.child:after {
       position: absolute;
-      top: 4em;
       left: 1.5em;
-      bottom: -2em;
       content: '';
       width: 0.5em;
       background-color: #e3e3e3; }
+    .comment.child:before {
+      top: -3em;
+      height: 2em; }
+    .comment.child:after {
+      top: 4em;
+      bottom: -1em; }
 
 .comment__timestamp {
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
