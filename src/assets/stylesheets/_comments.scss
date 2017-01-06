@@ -2,18 +2,11 @@
    Comments
    ========================================================================== */
 
-#comments {
-  font-size: 0.8em;
-}
-
-#respond {
-  font-size: 1rem;
-}
-
 .comment {
   position: relative;
   margin-bottom: 4em;
   padding-left: 4.5em;
+  font-size: 0.8em;
 
   // comment replies
   &.child {
