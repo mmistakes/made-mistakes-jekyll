@@ -1996,16 +1996,11 @@ green     #859900  operators, other keywords
 /* ==========================================================================
    Comments
    ========================================================================== */
-#comments {
-  font-size: 0.8em; }
-
-#respond {
-  font-size: 1rem; }
-
 .comment {
   position: relative;
   margin-bottom: 4em;
-  padding-left: 4.5em; }
+  padding-left: 4.5em;
+  font-size: 0.8em; }
   .comment.child {
     margin-left: 4.5em; }
     .comment.child:before, .comment.child:after {

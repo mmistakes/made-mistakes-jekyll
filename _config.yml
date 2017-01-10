@@ -95,6 +95,7 @@ gems:
   - jekyll-sitemap
   - jemoji
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 
 # Collections
 collections:
@@ -210,6 +211,16 @@ defaults:
       type: pages
     values:
       layout: page
+
+# Pagination
+pagination:
+  enabled      : true
+  per_page     : 10
+  permalink    : "/page/:num/"
+  title        : ":title - page :num"
+  limit        : 0
+  sort_field   : "date"
+  sort_reverse : true
 
 # Plugin: jekyll-archives
 jekyll-archives:

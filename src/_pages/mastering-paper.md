@@ -9,8 +9,20 @@ image:
   path: &image /assets/images/mastering-paper-feature-2016.jpg
   credit: '"Unfinished Except Nose" sketched with Pencil by FiftyThree'
   creditlink: https://mademistakes.com/paperfaces/myriam-j-portrait/
+pagination: 
+  enabled: true
+  category: mastering-paper
+  per_page: 10
 ---
 
-{% for post in site.categories.mastering-paper %}
+{% for post in paginator.posts %}
   {% include archive__item.html %}
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  <div class="pager">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | absolute_url }}" class="btn">Show me more &rarr;</a>
+    {% endif %}
+  </div>
+{% endif %}
