@@ -19,7 +19,7 @@ I've been on a [static site generator]({{ site.url }}{% post_url /articles/2012-
 - [**jemoji**][jemoji]: adds GitHub-flavored emoji to Jekyll with the use of Liquid tags.
 - [**jekyll-seo-tag**][seo]: adds metadata tags for search engines and social networks to better index and display site content.
 
-If you're really interested in the specifics of how the site is built I've made its [source available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll) for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% post_url /work/2014-02-28-jekyll-themes %}) for you to use and abuse --- you're welcome!
+If you're really interested in the specifics of how the site is built I've made its [source available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll) for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% link _work/jekyll-themes.md %}) for you to use and abuse --- you're welcome!
 
 ## Scripts and jQuery Plugins
 

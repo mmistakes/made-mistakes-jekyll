@@ -11,6 +11,9 @@ image:
   thumb: /assets/images/so-simple-theme-th-2015.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
+breadcrumbs:
+  - label: "Jekyll Themes"
+    url: /work/jekyll-themes/
 comments: true
 comments_locked: true
 order: 9

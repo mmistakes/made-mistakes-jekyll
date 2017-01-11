@@ -8,7 +8,7 @@ excerpt: "A selection of things I've designed, illustrated, and developed."
 ads: false
 ---
 
-{% assign sorted_work = site.categories.work | sort: 'order' %}
+{% assign sorted_work = site.work | sort: 'order' %}
 {% for post in sorted_work %}
   {% include archive__item.html %}
 {% endfor %}

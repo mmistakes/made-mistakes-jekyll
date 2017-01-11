@@ -103,6 +103,10 @@ collections:
     output    : true
     permalink : /:collection/:path/
     title     : FAQs
+  work:
+    output    : true
+    permalink : /:collection/:path/
+    title     : Work
   components:
     output    : false
   colors:
@@ -183,10 +187,21 @@ defaults:
       work: "Illustration"
       seo:
         type: "CreativeWork"
-  # Work
+  # Work (posts and collection)
   - scope:
       path: _posts/work
       type: posts
+    values:
+      layout: work
+      category: work
+      breadcrumbs:
+        - label: "Work"
+          url: /work/
+      seo:
+        type: "CreativeWork"
+  - scope:
+      path: _work
+      type: work
     values:
       layout: work
       category: work

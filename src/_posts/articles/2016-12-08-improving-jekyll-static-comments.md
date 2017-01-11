@@ -9,10 +9,10 @@ image:
   creditlink: "https://unsplash.com/@gabrielssantiago"
 tags: [web development, GitHub, Jekyll]
 comments: true
-last_modified_at: 2016-12-09T11:07:02-05:00
+last_modified_at: 2017-01-11T12:30:56-05:00
 ---
 
-In the months after ditching Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
+In the months after ditching Disqus for a [static-based commenting system]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
 
 Armed with instructions provided by Eduardo Bouças in [this GitHub issue](https://github.com/eduardoboucas/staticman/issues/42 "Email notification upon replies"), I set off to level-up the commenting experience on **Made Mistakes**. Here's how I did it.
 
@@ -59,7 +59,7 @@ Either way, let me know about your experience upgrading from Staticman `v1` to `
 
 1. Revoked collaboration rights for Staticman `v1` by removing from my GitHub repository.
    ![Remove staticmanapp as a collaborator]({{ site.url }}/assets/images/staticman-remove-collaborator.png)
-2. Added Staticman back as [collaborator]({% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman).
+2. Added Staticman back as [collaborator]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman).
 3. Pinged the version 2 endpoint `https://api.staticman.net/v2/connect/{your GitHub username}/{your repository name}` to accept the collaboration invitation.
 
 ### Update POST Endpoint in Comment Form

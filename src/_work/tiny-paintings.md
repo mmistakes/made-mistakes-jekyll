@@ -5,8 +5,9 @@ title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
 image: 
   cover: /assets/images/tiny-paintings-20.jpg
-  teaser: /assets/images/tiny-paintings-teaser.jpg
   thumb: /assets/images/tiny-paintings-150.jpg
+  teaser: &image /assets/images/tiny-paintings-teaser.jpg
+  path: *image
 tags: [watercolor, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"

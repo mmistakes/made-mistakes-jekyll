@@ -36,7 +36,7 @@ The basic setup for each of my theme's is roughly the same:
 
 For more specifics, review each themes' documentation by clicking on the **Theme Setup** buttons below.
 
-## Minimal Mistakes Theme
+## [Minimal Mistakes Theme]({{ site.url }}{% post_url /work/2016-04-15-minimal-mistakes-jekyll-theme %})
 
 <figure>
   <img src="{{ site.url }}/assets/images/minimal-mistakes-3-feature.jpg" alt="Minimal Mistakes Jekyll theme screenshot">
@@ -46,11 +46,11 @@ For more specifics, review each themes' documentation by clicking on the **Theme
 A flexible two-column Jekyll theme with a minimalistic aesthetic.
 
   - Compatible with GitHub Pages.
-  - Available as a Ruby Gem theme ([Beta](https://mmistakes.github.io/minimal-mistakes/jekyll/gemified-theme-beta/)).
+  - Available as a [Ruby Gem theme](https://rubygems.org/gems/minimal-mistakes-jekyll).
   - Several layout options (single, archive, splash pages).
   - SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
   - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-  - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and custom).
+  - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and more).
   - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
 
 <div markdown="0">
@@ -59,7 +59,7 @@ A flexible two-column Jekyll theme with a minimalistic aesthetic.
   <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
 </div>
 
-## HPSTR Theme
+## [HPSTR Theme]({{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %})
 
 <figure>
   <img src="{{ site.url }}/assets/images/hpstr-preview-feature-2015.jpg" alt="HPSTR Jekyll theme screenshot">
@@ -79,7 +79,7 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
 </div>
 
-## So Simple Theme
+## [So Simple Theme]({{ site.url }}{% post_url /work/2013-06-26-so-simple-jekyll-theme %})
 
 <figure>
   <img src="{{ site.url }}/assets/images/so-simple-theme-feature-2015.jpg" alt="So Simple Jekyll theme screenshot">
@@ -99,7 +99,7 @@ A simple and clean responsive Jekyll theme for words and large photographs.
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
 </div>
 
-## Skinny Bones Theme
+## [Skinny Bones Theme]({{ site.url }}{% post_url /work/2014-09-02-skinny-bones-jekyll %})
 
 <figure>
 	<img src="{{ site.url }}/assets/images/skinny-bones-preview-feature.jpg" alt="Skinny Bones Jekyll theme screenshot">

@@ -7,7 +7,8 @@ last_modified_at: 2016-10-27T11:16:12-04:00
 image: 
   cover: /assets/images/fiftythree-color-20.jpg
   thumb: /assets/images/paperfaces-project-250x250.jpg
-  teaser: /assets/images/paperfaces-asja-k-teaser.jpg
+  teaser: &image /assets/images/paperfaces-asja-k-teaser.jpg
+  path: *image
 tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]
 ads: false
 work: "Illustration"
