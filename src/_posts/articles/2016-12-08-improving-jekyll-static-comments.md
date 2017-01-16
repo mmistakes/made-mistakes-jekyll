@@ -9,7 +9,7 @@ image:
   creditlink: "https://unsplash.com/@gabrielssantiago"
 tags: [web development, GitHub, Jekyll]
 comments: true
-last_modified_at: 2017-01-11T12:30:56-05:00
+last_modified_at: 2017-01-16T16:27:13-05:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
@@ -93,7 +93,7 @@ To avoid displaying duplicates, I needed to exclude replies and only show "paren
 {% include notice type="warning" content="
 #### Where Expression Jekyll Filter
 
-Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp:\"item\",\"item.graduation_year == 2014\"`"
+Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp:\"item\", \"item.graduation_year == 2014\"`"
 %}
 
 If the hidden `options[parent]` field I added to the form was working properly I should have comment data files similar to these:
@@ -117,12 +117,12 @@ email: md5g1bb3r15h
 date: '2016-11-02T05:08:43.280Z'
 ```
 
-As you can see above, the "child" comment has `_parent` data populated from the hidden `options[parent]` field in the form. Using this knowledge I tried to test against it using `where_exp:"item","item._parent == nil"` to create an array of only "parent" comments.
+As you can see above, the "child" comment has `_parent` data populated from the hidden `options[parent]` field in the form. Using this knowledge I tried to test against it using `where_exp:"item", "item._parent == nil"` to create an array of only "parent" comments.
 
 Unfortunately the following didn't work:
 
 ```liquid
-{% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == nil" %}
+{% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item", "item._parent == nil" %}
 {% for comment in comments %}
   {% assign avatar = comment[1].avatar %}
   {% assign email = comment[1].email %}
@@ -257,7 +257,7 @@ I determined the easiest way of assigning a unique identifier to each parent com
 Next I nested a modified copy of the *parent* loop from before inside of itself --- to function as the "child" or `replies` loop.
 
 ```liquid
-{% raw %}{% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == include.index" %}
+{% raw %}{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item._parent == include.index" %}
 {% for reply in replies %}
   {% assign parent  = reply._parent %}
   {% assign avatar  = reply.avatar %}
@@ -280,7 +280,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 
 ```liquid
 {% raw %}{% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == i" %}{% endraw %}
+{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item._parent == i" %}{% endraw %}
 ```
 
 #### `_includes/page__comments.html`
@@ -297,7 +297,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == nil" %}
+        {% assign comments = site.data.comments[page.slug] | where_exp:"item", "item._parent == nil" %}
         {% for comment in comments %}
           {% assign index   = forloop.index %}
           {% assign p       = comment._parent %}
@@ -405,7 +405,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == i" %}
+{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item._parent == i" %}
 {% for reply in replies %}
   {% assign index   = forloop.index | prepend: '-' | prepend: include.index %}
   {% assign p       = reply._parent %}
