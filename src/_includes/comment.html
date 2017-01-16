@@ -35,7 +35,7 @@
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == i" %}
+{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item._parent == i' %}
 {% for reply in replies %}
   {% assign index   = forloop.index | prepend: '-' | prepend: include.index %}
   {% assign p       = reply._parent %}
