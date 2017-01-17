@@ -2,7 +2,7 @@
 {% assign filterCategory = page.pagination.category | default: page.category %}
 
 <ul class="tag__list--inline">
-  <li><strong>Popular topics</strong></li>
+  <li><strong>Popular&nbsp;topics</strong></li>
   {% for tag in site.tags %}
     {% comment %}create an empty array{% endcomment %}
     {% assign postsInCategory = "" | split: "/" %}

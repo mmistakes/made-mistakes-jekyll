@@ -165,7 +165,7 @@
   list-style: none;
 
   li {
-    display: inline;
+    display: inline-block;
 
     &:after {
       margin-right: 0.25em;
