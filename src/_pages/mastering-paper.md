@@ -12,7 +12,8 @@ image:
 pagination: 
   enabled: true
   category: mastering-paper
-  per_page: 10
+  per_page: 15
 ---
 
+{% include popular-tags.html %}
 {% include paginator.html %}

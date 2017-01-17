@@ -900,7 +900,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 @media (min-width: 56.25em) {
   .index {
     width: 83.0508474576%; }
-    .index .page__header {
+    .index .page__header,
+    .index .tag__list--inline {
       width: 79.5918367347%; } }
 
 .index .page__cover {
@@ -1600,6 +1601,19 @@ form ul, form ol, form li {
               column-count: 3; } }
   .tag__list li {
     margin-bottom: 0; }
+
+.tag__list--inline {
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding: 0;
+  list-style: none; }
+  .tag__list--inline li {
+    display: inline; }
+    .tag__list--inline li:after {
+      margin-right: 0.25em;
+      content: "\00a0/"; }
+    .tag__list--inline li:last-child::after {
+      content: none; }
 
 .nav-list {
   list-style: none;

@@ -158,6 +158,26 @@
   }
 }
 
+.tag__list--inline {
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline;
+
+    &:after {
+      margin-right: 0.25em;
+      content: "\00a0/";
+    }
+
+    &:last-child::after {
+      content: none; // remove divider on last item
+    }
+  }
+}
+
 .nav-list {
   list-style: none;
   margin: 0;

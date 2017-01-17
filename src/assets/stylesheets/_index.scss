@@ -7,7 +7,8 @@
   @include breakpoint($medium-wide) {
     width: span(10);
 
-    .page__header {
+    .page__header,
+    .tag__list--inline {
       width: span(8 of 10);
     }
   }

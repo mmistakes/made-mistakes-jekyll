@@ -11,4 +11,5 @@ pagination:
   per_page: 10
 ---
 
+{% include popular-tags.html %}
 {% include paginator.html %}
