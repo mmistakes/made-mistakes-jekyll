@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /paperfaces/
+category: paperfaces
 title: "PaperFaces iPad Project"
 excerpt: "Gallery of hundreds of PaperFaces portrait painted digitally with Paper by FiftyThree on an iPad. Find time lapse videos, in-process screenshots, and more."
 last_modified_at: 2016-10-27T11:16:12-04:00
@@ -18,6 +19,8 @@ order: 2
 PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-iPad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper by FiftyThree**. I occasionally post new portraits here, but certainly not as frequently as I used to.
 
 If you scroll down far enough you can see how my technique evolved from faceless gestures into realistic portraits[^procreate].
+
+{% include popular-tags.html %}
 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces %}

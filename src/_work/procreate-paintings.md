@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /procreate-paintings/
+category: procreate-paintings
 title: "Procreate iPad Paintings"
 excerpt: &excerpt "Gallery of digital paintings created with [Procreate](http://procreate.si/) on an iPad. Find time lapse videos, in-process screenshots, and more."
 subtitle: *excerpt
@@ -17,6 +18,8 @@ order: 1
 ---
 
 Digital paintings created on an iPad using the iOS app [**Procreate** by Savage Interactive](http://procreate.si/).
+
+{% include popular-tags.html %}
 
 <ul class="th-grid">
 {% for post in site.categories.procreate-paintings %}

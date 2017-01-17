@@ -1,5 +1,5 @@
 {% comment %}Build a tag index filtered by current category{% endcomment %}
-{% assign filterCategory = page.pagination.category %}
+{% assign filterCategory = page.pagination.category | default: page.category %}
 
 <ul class="tag__list--inline">
   <li><strong>Popular topics</strong></li>
