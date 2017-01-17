@@ -6,9 +6,10 @@ This is the source code of Made Mistakes, a personal blog and portfolio built wi
 
 ### Plugins Used
 
-* [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap) (GitHub Pages supported)
-* [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
-* [Jemoji](https://github.com/jekyll/jemoji)
+- [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap) (GitHub Pages supported)
+- [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
+- [Jemoji](https://github.com/jekyll/jemoji)
+- [Jekyll Paginate v2](https://github.com/sverrirs/jekyll-paginate-v2)
 
 ### Images
 
