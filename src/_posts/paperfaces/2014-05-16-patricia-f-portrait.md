@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of a Patricia F. drawn with Paper by 53 on an iPad
 image: 
   path: &image /assets/images/paperfaces-patricia-f-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-patricia-f-teaser.jpg
   thumb: /assets/images/paperfaces-patricia-f-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+last_modified_at: 2017-01-17T12:54:04-05:00
 ---
 
 PaperFaces portrait of a [Patricia F.](http://sktchy.com/hLo0C) inspired by a photograph on Sktchy.

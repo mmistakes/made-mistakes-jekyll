@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @tommysadlr drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-tommysadlr-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-tommysadlr-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-tommysadlr-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
+last_modified_at: 2017-01-17T14:51:10-05:00
 ---
 
 PaperFaces portrait of [@tommysadlr](http://twitter.com/tommysadlr).

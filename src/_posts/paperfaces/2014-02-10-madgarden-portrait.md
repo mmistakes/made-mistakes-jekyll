@@ -4,6 +4,7 @@ excerpt: "PaperFaces portrait of @madgarden drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-madgarden-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-madgarden-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-madgarden-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---

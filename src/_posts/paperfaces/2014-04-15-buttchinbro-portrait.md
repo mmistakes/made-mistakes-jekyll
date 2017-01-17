@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @ButtChinBro drawn with Paper by 53 on an iPad.
 image: 
   path: &image /assets/images/paperfaces-buttchinbro-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-buttchinbro-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-buttchinbro-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, blend]
+last_modified_at: 2017-01-17T14:05:26-05:00
 ---
 
 PaperFaces portrait of [@ButtChinBro](http://twitter.com/ButtChinBro).

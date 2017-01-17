@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Skinny Lee drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-skinny-lee-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-skinny-lee-teaser.jpg
   thumb: /assets/images/paperfaces-skinny-lee-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
+last_modified_at: 2017-01-17T14:49:35-05:00
 ---
 
 PaperFaces portrait of [Skinny Lee](http://sktchy.com/MfNOoH) inspired by Sktchy.

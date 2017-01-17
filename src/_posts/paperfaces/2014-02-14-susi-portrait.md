@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Susi drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-susi-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-susi-teaser.jpg
   thumb: /assets/images/paperfaces-susi-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
+last_modified_at: 2017-01-17T14:54:14-05:00
 ---
 
 PaperFaces portrait commission of Susi.

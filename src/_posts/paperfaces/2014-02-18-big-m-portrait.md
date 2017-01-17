@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @_Big_M_ drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-big-m-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-big-m-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-big-m-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T14:50:27-05:00
 ---
 
 PaperFaces portrait of [@_Big_M_](http://twitter.com/_Big_M_).

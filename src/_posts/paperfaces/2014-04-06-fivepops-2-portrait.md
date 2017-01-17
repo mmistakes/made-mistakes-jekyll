@@ -4,9 +4,10 @@ excerpt: "PaperFaces portrait drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-fivepops-2-twitter-lg.jpg 
   feature: *image
-  teaser:
+  teaser: /assets/images/paperfaces-fivepops-2-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-fivepops-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
+last_modified_at: 2017-01-17T14:12:05-05:00
 ---
 
 PaperFaces portrait commission.

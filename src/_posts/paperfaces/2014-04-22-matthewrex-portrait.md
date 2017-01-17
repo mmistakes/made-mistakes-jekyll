@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @matthewrex drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-matthewrex-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-matthewrex-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-matthewrex-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
+last_modified_at: 2017-01-17T14:01:58-05:00
 ---
 
 PaperFaces portrait of [@matthewrex](http://twitter.com/matthewrex).

@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Jennifer O. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jennifer-o-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-jennifer-o-teaser.jpg
   thumb: /assets/images/paperfaces-jennifer-o-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+last_modified_at: 2017-01-17T14:46:02-05:00
 ---
 
 PaperFaces portrait of [Jennifer O.](http://sktchy.com/nIj9DH) inspired by Sktchy.

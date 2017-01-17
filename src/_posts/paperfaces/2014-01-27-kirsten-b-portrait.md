@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Kirsten B. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-kirsten-b-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-kirsten-b-teaser.jpg
   thumb: /assets/images/paperfaces-kirsten-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
+last_modified_at: 2017-01-17T16:11:01-05:00
 ---
 
 A draw for a draw. PaperFaces portrait of [Kirsten B.](http://sktchy.com/WAPmzC) inspired by Sktchy.

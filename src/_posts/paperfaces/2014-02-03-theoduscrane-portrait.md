@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @theoduscrane drawn with Paper by 53 on an iPad
 image: 
   path: &image /assets/images/paperfaces-theoduscrane-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-theoduscrane-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-theoduscrane-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, beard]
+last_modified_at: 2017-01-17T15:57:55-05:00
 ---
 
 PaperFaces portrait of [@theoduscrane](http://twitter.com/theoduscrane).

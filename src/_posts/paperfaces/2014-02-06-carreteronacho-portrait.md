@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @carreteronacho drawn with Paper by 53 on an iP
 image: 
   path: &image /assets/images/paperfaces-carreteronacho-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-carreteronacho-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-carreteronacho-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
+last_modified_at: 2017-01-17T15:56:28-05:00
 ---
 
 PaperFaces portrait of [@carreteronacho](http://twitter.com/carreteronacho).

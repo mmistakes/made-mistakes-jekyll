@@ -5,7 +5,9 @@ image:
   path: &image /assets/images/paperfaces-kitty-shea-lg.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-kitty-shea-150.jpg
+  teaser: /assets/images/paperfaces-kitty-shea-teaser.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
+last_modified_at: 2017-01-17T12:44:46-05:00
 ---
 
 PaperFaces portrait of a [Kitty Shea](http://sktchy.com/IgayeD) inspired by a photograph on Sktchy.

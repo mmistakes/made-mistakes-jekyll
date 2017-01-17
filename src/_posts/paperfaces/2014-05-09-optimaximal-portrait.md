@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @Optimaximal drawn with Paper by 53 on an iPad.
 image: 
   path: &image /assets/images/paperfaces-optimaximal-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-optimaximal-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-optimaximal-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
+last_modified_at: 2017-01-17T12:59:16-05:00
 ---
 
 PaperFaces portrait of [@Optimaximal](http://twitter.com/optimaximal).

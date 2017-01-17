@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of a Ero Brat drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ero-brat-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-ero-brat-teaser.jpg
   thumb: /assets/images/paperfaces-ero-brat-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
+last_modified_at: 2017-01-17T12:47:47-05:00
 ---
 
 PaperFaces portrait of a [Ero Brat](http://sktchy.com/zPm01D) inspired by a photograph on Sktchy.

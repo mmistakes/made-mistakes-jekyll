@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @bingopajamas drawn with Paper by 53 on an iPad
 image: 
   path: &image /assets/images/paperfaces-bingopajamas-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-bingopajamas-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-bingopajamas-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T14:31:02-05:00
 ---
 
 PaperFaces portrait of [@bingopajamas](http://twitter.com/bingopajamas).
