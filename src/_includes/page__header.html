@@ -1,5 +1,11 @@
 <header class="page__header">
-  <h1 class="page__title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+  <h1 class="page__title">
+    {% if page.alt_title %}
+      {{ page.alt_title | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% else %}
+      {{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% endif %}
+  </h1>
   {% if page.breadcrumbs %}
     {% assign crumb = page.breadcrumbs[0] %}
     <div class="page__meta">
