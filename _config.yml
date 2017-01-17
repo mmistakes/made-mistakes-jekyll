@@ -95,6 +95,7 @@ gems:
   - jekyll-sitemap
   - jemoji
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 
 # Collections
 collections:
@@ -102,6 +103,10 @@ collections:
     output    : true
     permalink : /:collection/:path/
     title     : FAQs
+  work:
+    output    : true
+    permalink : /:collection/:path/
+    title     : Work
   components:
     output    : false
   colors:
@@ -182,10 +187,21 @@ defaults:
       work: "Illustration"
       seo:
         type: "CreativeWork"
-  # Work
+  # Work (posts and collection)
   - scope:
       path: _posts/work
       type: posts
+    values:
+      layout: work
+      category: work
+      breadcrumbs:
+        - label: "Work"
+          url: /work/
+      seo:
+        type: "CreativeWork"
+  - scope:
+      path: _work
+      type: work
     values:
       layout: work
       category: work
@@ -210,6 +226,16 @@ defaults:
       type: pages
     values:
       layout: page
+
+# Pagination
+pagination:
+  enabled      : true
+  per_page     : 15
+  permalink    : "/page/:num/"
+  title        : ":title - Page :num of :max"
+  limit        : 0
+  sort_field   : "date"
+  sort_reverse : true
 
 # Plugin: jekyll-archives
 jekyll-archives:

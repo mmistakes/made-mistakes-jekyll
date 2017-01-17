@@ -9,6 +9,9 @@ image:
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 last_modified_at: 2015-01-31
+breadcrumbs:
+  - label: "Jekyll Themes"
+    url: /work/jekyll-themes/
 comments: true
 comments_locked: true
 order: 8

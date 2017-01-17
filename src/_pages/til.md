@@ -1,12 +1,15 @@
 ---
 layout: archive
 permalink: /til/
-title: "Today I Learned"
+category: til
+title: &title "Today I Learned"
+alt_title: *title
 date: 2016-10-21T12:12:10-04:00
 modified:
 excerpt: "Learnings (sometimes daily) captured for posterity and educational purposes."
+pagination: 
+  enabled: true
+  category: til
 ---
 
-{% for post in site.categories.til %}
-  {% include archive__item.html %}
-{% endfor %}
+{% include paginator.html %}

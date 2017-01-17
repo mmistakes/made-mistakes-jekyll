@@ -385,7 +385,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   margin-bottom: 0.25em;
   padding: 10px 20px;
   color: #fff !important;
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 0.8rem;
   font-weight: bold;
   line-height: 1.5;
@@ -900,7 +900,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 @media (min-width: 56.25em) {
   .index {
     width: 83.0508474576%; }
-    .index .page__header {
+    .index .page__header,
+    .index .tag__list--inline {
       width: 79.5918367347%; } }
 
 .index .page__cover {
@@ -1317,7 +1318,7 @@ select {
 
 label {
   margin-bottom: 0.5em;
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 0.8em; }
   label.required:after {
     content: "*"; }
@@ -1600,6 +1601,19 @@ form ul, form ol, form li {
               column-count: 3; } }
   .tag__list li {
     margin-bottom: 0; }
+
+.tag__list--inline {
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding: 0;
+  list-style: none; }
+  .tag__list--inline li {
+    display: inline; }
+    .tag__list--inline li:after {
+      margin-right: 0.25em;
+      content: "\00a0/"; }
+    .tag__list--inline li:last-child::after {
+      content: none; }
 
 .nav-list {
   list-style: none;
@@ -1996,16 +2010,11 @@ green     #859900  operators, other keywords
 /* ==========================================================================
    Comments
    ========================================================================== */
-#comments {
-  font-size: 0.8em; }
-
-#respond {
-  font-size: 1rem; }
-
 .comment {
   position: relative;
   margin-bottom: 4em;
-  padding-left: 4.5em; }
+  padding-left: 4.5em;
+  font-size: 0.8em; }
   .comment.child {
     margin-left: 4.5em; }
     .comment.child:before, .comment.child:after {
