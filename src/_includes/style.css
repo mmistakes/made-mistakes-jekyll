@@ -385,7 +385,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   margin-bottom: 0.25em;
   padding: 10px 20px;
   color: #fff !important;
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 0.8rem;
   font-weight: bold;
   line-height: 1.5;
@@ -1318,7 +1318,7 @@ select {
 
 label {
   margin-bottom: 0.5em;
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   font-size: 0.8em; }
   label.required:after {
     content: "*"; }
