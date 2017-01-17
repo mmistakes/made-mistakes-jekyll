@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of a Jess J. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jess-j-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-jess-j-teaser.jpg
   thumb: /assets/images/paperfaces-jess-j-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
+last_modified_at: 2017-01-17T14:22:50-05:00
 ---
 
 The mouth was such a struggle for me on this one --- I suppose that's what I get for working small.

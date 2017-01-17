@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @dudrenov drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-dudrenov-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-dudrenov-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-dudrenov-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
+last_modified_at: 2017-01-17T14:58:37-05:00
 ---
 
 PaperFaces portrait of [@dudrenov](http://twitter.com/dudrenov).

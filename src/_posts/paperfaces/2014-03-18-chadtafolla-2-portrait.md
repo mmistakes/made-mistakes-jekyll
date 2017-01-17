@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad.
 image: 
   path: &image /assets/images/paperfaces-chadtafolla-2-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-chadtafolla-2-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-chadtafolla-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T14:27:17-05:00
 ---
 
 PaperFaces portrait of [@chadtafolla](http://twitter.com/chadtafolla).

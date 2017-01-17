@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @chronic drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-chronic-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-chronic-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-chronic-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T14:35:08-05:00
 ---
 
 PaperFaces portrait of [@chronic](http://twitter.com/chronic).

@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @AShahmoradian drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-ashahmoradian-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-ashahmoradian-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-ashahmoradian-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T12:54:51-05:00
 ---
 
 PaperFaces portrait of [@AShahmoradian](http://twitter.com/AShahmoradian).

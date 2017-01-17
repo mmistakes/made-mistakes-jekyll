@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @Inferno_May13 drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-inferno-may13-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-inferno-may13-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-inferno-may13-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
+last_modified_at: 2017-01-17T16:10:16-05:00
 ---
 
 PaperFaces portrait of [@Inferno_May13](http://twitter.com/Inferno_May13).

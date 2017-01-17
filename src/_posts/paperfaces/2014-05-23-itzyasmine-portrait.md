@@ -5,7 +5,9 @@ image:
   path: &image /assets/images/paperfaces-itzyasmine-twitter-lg.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-itzyasmine-twitter-150.jpg
+  teaser: /assets/images/paperfaces-itzyasmine-twitter-teaser.jpg
 tags: [portrait, illustration, Paper by 53]
+last_modified_at: 2017-01-17T12:46:49-05:00
 ---
 
 PaperFaces portrait of [@itzYasmine](http://twitter.com/itzYasmine).

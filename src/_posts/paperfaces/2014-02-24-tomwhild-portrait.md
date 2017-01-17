@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @tomwhild drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-tomwhild-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-tomwhild-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-tomwhild-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T14:46:44-05:00
 ---
 
 PaperFaces portrait of [@tomwhild](http://twitter.com/tomwhild).

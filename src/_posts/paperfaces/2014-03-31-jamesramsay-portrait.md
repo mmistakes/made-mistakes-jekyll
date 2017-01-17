@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @JamesRamsay drawn with Paper by 53 on an iPad.
 image: 
   path: &image /assets/images/paperfaces-jamesramsay-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-jamesramsay-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-jamesramsay-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, landscape]
+last_modified_at: 2017-01-17T14:18:25-05:00
 ---
 
 PaperFaces portrait of [@JamesRamsay](http://twitter.com/JamesRamsay).

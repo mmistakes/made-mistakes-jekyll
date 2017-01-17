@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @vinitkme drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-vinitkme-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-vinitkme-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-vinitkme-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, trees]
+last_modified_at: 2017-01-17T16:09:29-05:00
 ---
 
 PaperFaces portrait of [@vinitkme](http://twitter.com/vinitkme).

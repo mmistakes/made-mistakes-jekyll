@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Scarlett Johansson drawn with Paper by 53 on an
 image: 
   path: &image /assets/images/paperfaces-scarlett-johansson-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-scarlett-johansson-teaser.jpg
   thumb: /assets/images/paperfaces-scarlett-johansson-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
+last_modified_at: 2017-01-17T14:00:31-05:00
 ---
 
 For a detailed breakdown of how I drew this portrait (and others), follow along with my [Mastering Paper tutorial]({{ site.url }}{% post_url /mastering-paper/2014-04-21-drawing-faces %}). Learn how I use Paper's watercolor brush and colored pencils to add depth and realism to a drawing.

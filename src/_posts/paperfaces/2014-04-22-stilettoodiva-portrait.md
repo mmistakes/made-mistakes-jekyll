@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @StilettOoDiva drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-stilettoodiva-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-stilettoodiva-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-stilettoodiva-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T13:59:44-05:00
 ---
 
 PaperFaces portrait of [@StilettOoDiva](http://twitter.com/stilettoodiva).

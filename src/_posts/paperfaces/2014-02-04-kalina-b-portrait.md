@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Kalina B. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-kalina-b-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-kalina-b-teaser.jpg
   thumb: /assets/images/paperfaces-kalina-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, texture]
+last_modified_at: 2017-01-17T15:57:13-05:00
 ---
 
 PaperFaces portrait of [Kalina B.](http://sktchy.com/142Fr) inspired by Sktchy.

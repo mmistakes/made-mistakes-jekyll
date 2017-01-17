@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Mia Di D. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mia-di-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-mia-di-teaser.jpg
   thumb: /assets/images/paperfaces-mia-di-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
+last_modified_at: 2017-01-17T16:14:01-05:00
 ---
 
 Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFaces portrait of [Mia Di D.](http://sktchy.com/BBBOaH) inspired by Sktchy.

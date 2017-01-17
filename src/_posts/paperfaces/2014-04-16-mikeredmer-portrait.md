@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @mikeredmer drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mikeredmer-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-mikeredmer-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-mikeredmer-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Google Glass]
+last_modified_at: 2017-01-17T14:04:41-05:00
 ---
 
 PaperFaces portrait of [@mikeredmer](http://twitter.com/mikeredmer).

@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of @BZHgeek drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bzhgeek-twitter-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-bzhgeek-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-bzhgeek-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
+last_modified_at: 2017-01-17T13:02:38-05:00
 ---
 
 PaperFaces portrait of [@BZHgeek](http://twitter.com/BZHgeek).

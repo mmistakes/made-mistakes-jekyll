@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of Daniel W. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-daniel-w-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-daniel-w-teaser.jpg
   thumb: /assets/images/paperfaces-daniel-w-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, texture, beard]
+last_modified_at: 2017-01-17T16:11:48-05:00
 ---
 
 Enjoyed adding all the texture in this one. PaperFaces portrait of [Daniel W.](http://sktchy.com/Uc5fXc) inspired by Sktchy.

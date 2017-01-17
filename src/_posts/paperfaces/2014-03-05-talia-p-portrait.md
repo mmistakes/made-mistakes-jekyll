@@ -4,8 +4,10 @@ excerpt: "PaperFaces portrait of a Talia P. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-talia-p-lg.jpg 
   feature: *image
+  teaser: /assets/images/paperfaces-talia-p-teaser.jpg
   thumb: /assets/images/paperfaces-talia-p-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
+last_modified_at: 2017-01-17T14:36:56-05:00
 ---
 
 PaperFaces portrait of a [Talia P.](http://sktchy.com/SVXZg) inspired by a photograph on Sktchy.
