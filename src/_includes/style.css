@@ -1608,7 +1608,7 @@ form ul, form ol, form li {
   padding: 0;
   list-style: none; }
   .tag__list--inline li {
-    display: inline; }
+    display: inline-block; }
     .tag__list--inline li:after {
       margin-right: 0.25em;
       content: "\00a0/"; }
