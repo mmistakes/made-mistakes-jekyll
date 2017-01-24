@@ -1,0 +1,7 @@
+_id: 6e3f6010-e235-11e6-96e4-b7df93ebae0a
+_parent: '6'
+message: "Yes a GitHub repo is required for [Staticman](https://staticman.net/docs/) to work. It needs collaboration access to the repo to create pull requests against it to add the comment `_data` files. You don't have to host your site with GitHub Pages though.\r\n\r\nI host with Media Temple but have my repo on GH. The workflow goes something like: new comment submitted > Staticman creates a pull request to add to site's repo > merge pull request > re-build site > deploy.\r\n\r\nDepending on how you deploy your site some of this may vary slightly. Previously I was building locally each time I merged in a new comment then rsync'd the contents of `_site` to my hosting. Now I use [Travis CI](https://travis-ci.org/) to build my site after merges and it handles the deployments automatically."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+hidden: ''
+date: '2017-01-24T13:02:59.771Z'
