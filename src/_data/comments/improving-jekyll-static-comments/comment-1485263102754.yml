@@ -1,0 +1,12 @@
+_id: b78db3c0-e235-11e6-96e4-b7df93ebae0a
+_parent: '6'
+message: >-
+  And yes, Minimal Mistakes [supports Staticman
+  comments](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#static-based-comments-via-staticman).
+  I haven't updated it to support `v2` that can handle replies and comment
+  notifications. But that shouldn't be too hard for you to tackle if you follow
+  what I did in this post.
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+hidden: ''
+date: '2017-01-24T13:05:02.751Z'
