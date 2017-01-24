@@ -91,7 +91,6 @@ exclude:
 
 # Plugins
 gems:
-  - jekyll-archives
   - jekyll-sitemap
   - jemoji
   - jekyll-seo-tag
@@ -227,9 +226,10 @@ defaults:
     values:
       layout: page
 
-# Pagination
+# Plugin: Pagination (jekyll-paginate-v2)
 pagination:
   enabled      : true
+  debug        : false
   per_page     : 15
   permalink    : "/page/:num/"
   title        : ":title - Page :num of :max"
@@ -237,11 +237,16 @@ pagination:
   sort_field   : "date"
   sort_reverse : true
 
-# Plugin: jekyll-archives
-jekyll-archives:
-  enabled:
-    - tags
-  layouts:
-    tag: tag_index
-  permalinks:
-    tag: /tag/:name/
+# Plugin: Auto Pages (jekyll-paginate-v2)
+autopages:
+  enabled      : true
+  categories:
+    enabled    : false
+  collections:
+    enabled    : false
+  tags:
+    enabled    : true
+    layouts:
+      - "autopage_tags.html"
+    title      : "Posts tagged with :tag" # :tag is replaced by the tag name
+    permalink  : "/tag/:tag"

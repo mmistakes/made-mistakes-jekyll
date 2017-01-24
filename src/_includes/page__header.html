@@ -27,7 +27,7 @@
     {% if page.excerpt %}
       <p class="page__excerpt">{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
-  {% elsif page.layout == 'tag_index' %}
+  {% elsif page.layout == 'autopage_tags' %}
     <p class="page__excerpt">
       {% if tag.description %}
         {{ tag.description | markdownify | remove: '<p>' | remove: '</p>' }}
