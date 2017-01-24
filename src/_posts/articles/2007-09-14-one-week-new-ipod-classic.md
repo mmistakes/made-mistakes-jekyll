@@ -1,7 +1,7 @@
 ---
 title: "One Week with the New iPod classic"
 excerpt: "Quick impressions of the new iPod classic 60GB."
-last_modified_at: 2013-05-03 00:00:00
+last_modified_at: 2013-05-03
 image: 
   path: &image /assets/images/ipod-classic-feature.jpg
   feature: *image
