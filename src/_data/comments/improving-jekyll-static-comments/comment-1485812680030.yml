@@ -1,0 +1,7 @@
+_id: 4d2b8700-e735-11e6-b343-1ffafc11d3fd
+_parent: '6'
+message: "Nice! FYI when I hit your site I'm getting warnings in Chrome related to SSL. Not sure if something is up with your certificate or what.\r\n\r\n```\r\nYour connection is not private\r\n\r\nAttackers might be trying to steal your information from www.justinrummel.com (for example, passwords, messages, or credit cards).\r\nNET::ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN\r\n```"
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+hidden: ''
+date: '2017-01-30T21:44:40.011Z'
