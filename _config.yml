@@ -171,6 +171,7 @@ defaults:
       layout: page
       category: til
       read_time: true
+      comments: true
       breadcrumbs:
         - label: "Today I Learned"
           url: /til/
