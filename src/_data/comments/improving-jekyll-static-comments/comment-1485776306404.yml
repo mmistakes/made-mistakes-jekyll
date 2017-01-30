@@ -1,0 +1,9 @@
+_id: 9cdbc490-e6e0-11e6-bdca-7de5d7664428
+_parent: '6'
+message: "Success. I now have parent/child comments using Staticman v2 and Travis. \r\n\r\nLast step is the Mailgun integration. \r\n\r\nPublic Test URL: https://www.justinrummel.com/macworld-2010-pictures/"
+name: Justin Rummel
+email: 812849b04c44245ad29c0e40cb84e3da
+hidden: ''
+date: '2017-01-30T11:38:26.403Z'
+layout: verslag
+excerpt_separator: <!--more-->
