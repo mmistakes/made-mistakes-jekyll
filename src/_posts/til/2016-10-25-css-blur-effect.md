@@ -4,7 +4,8 @@ excerpt:
 tags: [web development, CSS]
 last_modified_at: 2016-11-04T16:13:05-04:00
 image:
-  teaser: /assets/images/gradient-01-teaser.jpg
+  path: &image /assets/images/gradient-01-teaser.jpg
+  teaser: *image
   cover: /assets/images/gradient-01-20.jpg
 ---
 
