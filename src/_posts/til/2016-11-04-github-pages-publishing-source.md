@@ -2,8 +2,8 @@
 title: "Configuring Publishing Sources for GitHub Pages"
 excerpt:
 image: 
-  path:
-  teaser: /assets/images/github-publishing-source-teaser.jpg
+  path: &image /assets/images/github-publishing-source-teaser.jpg
+  teaser: *image
   cover: /assets/images/gradient-02-20.jpg
 tags: [web development, GitHub, Jekyll]
 last_modified_at:
