@@ -921,7 +921,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   .toc label {
     position: relative;
     display: inline-block;
-    padding: 1em 2.5em 1em 1em;
+    padding: 1em 1em 1em 2.5em;
     font-weight: 700;
     line-height: 1;
     border: 1px solid #ccc;
@@ -933,8 +933,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .toc label:before, .toc label:after {
       content: '';
       position: absolute;
-      right: 1em;
-      top: 1.5em;
+      left: 1em;
+      top: 1.375em;
       width: 0.75em;
       height: 0.125em;
       line-height: 1;
