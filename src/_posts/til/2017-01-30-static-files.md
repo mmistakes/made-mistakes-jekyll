@@ -2,25 +2,22 @@
 title: "Accessing Static Files in Jekyll"
 excerpt:
 image:
-  path:
-  teaser: /assets/images/jekyll-static-files-teaser.jpg
+  path: &image /assets/images/jekyll-static-files-teaser.jpg
+  teaser: *image
   cover: /assets/images/jekyll-static-files-cover.jpg
 tags: [web development, Jekyll]
 last_modified_at:
 ---
 
-While investigating ways of using static files with Jekyll for a site prototype I was building, I learned that `site.static_files` was a thing. What is and why you should care? Let me share...
+While investigating ways of using static files with Jekyll for a site prototype I was building, I learned that `site.static_files` was a thing. What is it and why you should care? Let me take a minute to share...
 
-<blockquote>
-  <p>&ldquo;A static file is a file that does not contain any YAML front matter. These include images, PDFs, and other un-rendered content.&rdquo;</p>
-  <p><cite><a href="https://jekyllrb.com/docs/static-files/">Jekyll Documentation</a></cite></p>
-</blockquote>
+According to the official [Jekyll documentation](https://jekyllrb.com/docs/static-files/), "a static file is a file that does not contain any YAML front matter. These include images, PDFs, and other un-rendered content."
 
-**The useful bit:** every one of these static files are accessible to Jekyll by looping through `site.static_files`. There aren't many reasons why you'd want to do this, but if building "plugin-free" image galleries is one of them --- here's how.
+**The useful bit** --- every one of these static files becomes accessible to Jekyll when looping through `site.static_files`. There aren't many reasons why you'd want to do this, but if building "plugin-free" image galleries is one of them --- here's how.
 
 {% include toc.html %}
 
-## Organize your Static Files in Folders
+## Organize Static Files
 
 Let's say you have a folder (named `gallery-1`) of images you want to display together on a post or page.
 
@@ -35,7 +32,7 @@ Let's say you have a folder (named `gallery-1`) of images you want to display to
 
 ## Start a Loop
 
-Using [Liquid](https://shopify.github.io/liquid/)[^liquid] you'd start by looping over `site.static_files` and then narrowing them down based on their paths. In this case we only want to show those images that live in `assets/images/gallery-1`.
+Using [Liquid](https://shopify.github.io/liquid/)[^liquid] you'd start by looping through `site.static_files` and then narrow down the files based on their paths. In this case we only want to show those images that live together in `assets/images/gallery-1`.
 
 [^liquid]: Liquid is an open-source template language created by Shopify and written in Ruby.
 
@@ -55,11 +52,13 @@ Which will generate into the following HTML:
 <img src="assets/images/gallery-1/yaz.png" alt="">
 ```
 
-## Build an Image Gallery
+## Build an Image Gallery with Liquid
 
-Instead of showing them as full-size images, what if you'd rather spit out a group of thumbnail images that link to the larger versions? Completely achievable using this method --- if you carefully name your files.
+What if you'd rather spit out a group of thumbnail[^thumbnail] images that link to a full-size version? Completely achievable using the above method --- if you are careful to name these files in a predictable way.
 
-Start by resizing/cropping images to create *thumbnail* versions of each image with the tool or batch script of your choice. The important part here is to be consistent with how you name these files. For the sake of this example I'll be adding the suffix `-th` to each filename like so:
+[^thumbnail]: Thumbnails are reduced-size versions of pictures, used to help in recognizing and organizing them, serving the same role for images as a normal text index does for words. 
+
+Start by creating thumbnail versions of each image however you'd like. The important part here is to be consistent with the naming of these files. For the sake of this example I'll be adding the suffix `-th` to each filename and storing them in the same location as the full-size assets.
 
 ```
 ├── assets/
