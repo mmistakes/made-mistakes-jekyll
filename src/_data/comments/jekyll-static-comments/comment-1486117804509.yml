@@ -1,0 +1,7 @@
+_id: b9a043d0-e9fb-11e6-9036-933179d399bb
+_parent: '8'
+message: "I had similar problem with @Dany, and it has been resolved by changing `path` and `/comment/` folder. \r\n\r\nBut, now I get another problem that comment cannot be submitted. Error message: \r\n\r\n`Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again` \r\n\r\nThank you.\r\n\r\nRepo: https://github.com/nurandi/nurandi.github.io"
+name: Nur Andi Setiabudi
+email: 8d27cffdf7fdf83b6fb4f75e6d7f4ece
+hidden: ''
+date: '2017-02-03T10:30:04.508Z'
