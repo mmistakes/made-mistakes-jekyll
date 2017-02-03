@@ -4,7 +4,7 @@ url                      : ""
 
 profile                  : true
 future                   : true
-show_drafts              : true
+show_drafts              : false
 
 google_site_verification : ""
 bing_site_verification   : ""

@@ -1,7 +1,7 @@
 ---
 title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
 excerpt: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
-last_modified_at: 2013-04-26 00:00:00
+last_modified_at: 2013-04-26
 image: 
   path: &image /assets/images/bird-cage-tattoo-healed-feature.jpg
   feature: *image

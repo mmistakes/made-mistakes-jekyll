@@ -2,6 +2,8 @@
   <h1 class="page__title">
     {% if page.alt_title %}
       {{ page.alt_title | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% elsif page.autopages %}
+      {{ page.autopages.display_name }}
     {% else %}
       {{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}
     {% endif %}
@@ -27,12 +29,12 @@
     {% if page.excerpt %}
       <p class="page__excerpt">{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
-  {% elsif page.layout == 'tag_index' %}
+  {% elsif page.layout == 'autopage_tags' %}
     <p class="page__excerpt">
       {% if tag.description %}
         {{ tag.description | markdownify | remove: '<p>' | remove: '</p>' }}
       {% else %}
-        An archive of posts tagged <em>{{ page.title }}</em>.
+        An archive of posts tagged <em>{{ page.autopages.display_name }}</em>.
       {% endif %}
     </p>
   {% elsif page.layout == 'splash' %}

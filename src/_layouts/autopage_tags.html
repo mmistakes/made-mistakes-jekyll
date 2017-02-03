@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign taxonomy = page.autopages.display_name | downcase | slugify %}
+{% assign tag = site.data.taxonomy[taxonomy] %}
+
+<div class="index">
+  {% include site__logo.html %}
+  <div id="main" role="main">
+    <div class="page__wrap">
+      {% include page__header.html %}
+      <div class="page__cover"></div>
+      <div class="list">
+        {% include paginator.html %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include ad.html %}
