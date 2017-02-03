@@ -2,10 +2,8 @@
 layout: default
 ---
 
-{% assign taxonomy = page.title | downcase | slugify %}
+{% assign taxonomy = page.autopages.display_name | downcase | slugify %}
 {% assign tag = site.data.taxonomy[taxonomy] %}
-
-page.tag: {{ page.autogen }}
 
 <div class="index">
   {% include site__logo.html %}
