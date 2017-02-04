@@ -1,0 +1,7 @@
+_id: 04dbef80-ea73-11e6-ad79-4f1d9783ac7b
+_parent: '8'
+message: "@Michael\r\n\r\nProblem has been resolved by changing \r\n\r\n```\r\nstaticman:\r\n     path: \"/_data/comments/{options.slug}\"\r\n```\r\n\r\nto\r\n\r\n```\r\nstaticman:\r\n    path: \"_data/comments/{options.slug}\"\r\n```"
+name: Nur Andi Setiabudi
+email: 8d27cffdf7fdf83b6fb4f75e6d7f4ece
+hidden: ''
+date: '2017-02-04T00:44:00.988Z'
