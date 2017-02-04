@@ -1,0 +1,6 @@
+_id: 1b6e0fb0-eaca-11e6-ad79-4f1d9783ac7b
+message: "@Michael,\r\n\r\nI get problem when import comment from disqus by running `rake disquscomments`\r\n\r\n```\r\n$ rake disquscomments\r\n\r\nrake aborted!\r\nLoadError: cannot load such file -- domainatrix\r\n_rake/disqus_comments.rake:5:in `<top (required)>'\r\n/Users/widyaningsih/Documents/3. Andi/nurandi.github.io/Rakefile:8:in `load'\r\n/Users/widyaningsih/Documents/3. Andi/nurandi.github.io/Rakefile:8:in `block in <top (required)>'\r\n/Users/widyaningsih/Documents/3. Andi/nurandi.github.io/Rakefile:8:in `each'\r\n/Users/widyaningsih/Documents/3. Andi/nurandi.github.io/Rakefile:8:in `<top (required)>'\r\n/usr/local/lib/ruby/gems/2.4.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'\r\n```\r\n\r\nAny idea what might be going wrong here?"
+name: Nur Andi Setiabudi
+email: 8d27cffdf7fdf83b6fb4f75e6d7f4ece
+hidden: ''
+date: '2017-02-04T11:07:24.993Z'
