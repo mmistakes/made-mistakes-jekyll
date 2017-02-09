@@ -125,7 +125,7 @@ var addComment = {
         return;
       }
 
-      t.I( 'comment-parent' ).value = '0';
+      t.I( 'comment-parent' ).value = null;
       temp.parentNode.insertBefore( respond, temp );
       temp.parentNode.removeChild( temp );
       this.style.display = 'none';
