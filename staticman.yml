@@ -2,6 +2,9 @@
 # different config blocks for different sections of your site.
 # For example, you can have one property to handle comment submission and
 # another one to handle posts.
+# To encrypt strings use the following endpoint:
+# https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}
+
 comments:
   # (*) REQUIRED
   #
@@ -90,3 +93,9 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
+
+  # reCaptcha
+  reCaptcha:
+    enabled: true
+    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+    secret: "vMgZExAgTmtHky/4h9xda7W9bDroQ56qWQqb1BVbcl5MRo7Uw81fJxAIUYeUk0iztpcNIzvAnJbb6qY1slMgH9VoMwLfCTldHjS82ynvvOCIKp9+F/lngvPW3xaHI+LoKRVtjUajejcacLdqD1JS1VI6xmVrJlhG1mB5k+Q0370="
