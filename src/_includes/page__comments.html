@@ -27,7 +27,6 @@
     {% endif %}
 
     {% unless page.comments_locked == true %}
-      <script src="https://www.google.com/recaptcha/api.js"></script>
       <!-- Start new comment form -->
       <div id="respond">
         <h2 class="page__section-label">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
@@ -50,7 +49,7 @@
             <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
             <label for="comment-form-location">Leave blank if you are a human</label>
             <input type="text" name="options[reCaptcha][siteKey]" value="6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q">
-            <input type="text" name="options[reCaptcha][encryptedSecret]" value="xRSUfbNejyIinyF8UfbD/r2iJ/eEIfpFDq7dOTnXV7Sq3d0yUdPtrG+IVOguaFdkJMi3+zgpDyLF1XOq2LRf03DKpFQQl+tvyi4VXsQIeoWj2fsJW1c+44oOHeFyefshwjBcAUJdHdP8JiR7bVuiVluaU1K7bL4VDU1AFnZTunY=">
+            <input type="text" name="options[reCaptcha][encryptedSecret]" value="PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4=">
             <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off">
           </fieldset>
           <!-- Start comment form alert messaging -->
@@ -69,6 +68,7 @@
         </form>
       </div>
       <!-- End new comment form -->
+      <script src="https://www.google.com/recaptcha/api.js"></script>
     {% else %}
       <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="{{ site.url }}/contact/">contact me</a>.</em></p>
     {% endunless %}
