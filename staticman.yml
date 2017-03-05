@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  allowedOrigins: ["mademistakes.com"]
+  # allowedOrigins: ["mademistakes.com"]
 
   # (*) REQUIRED
   #
@@ -66,9 +66,9 @@ comments:
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  notifications:
+  # notifications:
     # Enable notifications
-    enabled: true
+    # enabled: true
 
     # (!) ENCRYPTED
     #
