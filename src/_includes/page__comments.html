@@ -49,7 +49,7 @@
             <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
             <label for="comment-form-location">Leave blank if you are a human</label>
             <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
-            <input type="hidden" name="options[reCaptcha][encryptedSecret]" value="{{ site.reCaptcha.secret }}">
+            <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
             <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off">
           </fieldset>
           <!-- Start comment form alert messaging -->

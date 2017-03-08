@@ -53,8 +53,8 @@ staticman:
 
 # reCAPTCHA keys
 reCaptcha:
-  siteKey: "6LdimBcUAAAAANX016gDfwSdk0CXduIsYGj9VhSY"
-  secret: "z9d1HgPjpT4S6V28tRMylatjh80fWSR6CW94GaEbU1FLO9RUELEiL3W91xrrKXAyb6PpWe485OmF/FtMnbNnIjZjHZtf/1Zlb0adjT582qq3m+YvEhUVHrDf0w74PJ+AoaLM8MAMVU/ZM0mRNp/WnzVeVx2I+ROs5mTMqbeyKfo="
+  siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+  secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 
 # Jekyll configuration
 permalink                : /:categories/:title/
