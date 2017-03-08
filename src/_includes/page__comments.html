@@ -40,11 +40,11 @@
             <input type="text" id="comment-form-name" name="fields[name]" spellcheck="false">
           </fieldset>
           <fieldset>
-            <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
+            <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image)</small></label>
             <input type="email" id="comment-form-email" name="fields[email]" spellcheck="false">
           </fieldset>
           <fieldset class="hidden" style="display: none;">
-            <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+            <!-- <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}"> -->
             <input type="hidden" id="comment-parent" name="options[parent]" value="">
             <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
             <label for="comment-form-location">Leave blank if you are a human</label>
@@ -58,10 +58,10 @@
           </p>
           <!-- End comment form alert messaging -->
           <fieldset>
-            <label for="comment-form-reply">
+            <!-- <label for="comment-form-reply">
               <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
               Notify me of replies by email.
-            </label>
+            </label> -->
             <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
             <button type="submit" id="comment-form-submit" class="btn btn--large">Submit Comment</button>
           </fieldset>
