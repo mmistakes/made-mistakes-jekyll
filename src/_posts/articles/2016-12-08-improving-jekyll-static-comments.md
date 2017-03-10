@@ -9,7 +9,7 @@ image:
   creditlink: "https://unsplash.com/@gabrielssantiago"
 tags: [web development, GitHub, Jekyll]
 comments: true
-last_modified_at: 2017-01-16T16:27:13-05:00
+last_modified_at: 2017-03-09T20:48:54-05:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
@@ -322,15 +322,15 @@ To solve this I placed a `capture` tag around the index variable to convert it f
       <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
         <fieldset>
           <label for="comment-form-message"><strong>Comment</strong> <span class="required">*</span></label>
-          <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" spellcheck="true"></textarea>
+          <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true"></textarea>
         </fieldset>
         <fieldset>
           <label for="comment-form-name"><strong>Name</strong> <span class="required">*</span></label>
-          <input type="text" id="comment-form-name" name="fields[name]" spellcheck="false" />
+          <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" />
         </fieldset>
         <fieldset>
           <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="https://en.gravatar.com/">Gravatar</a> image and reply notifications)</small></label>
-          <input type="email" id="comment-form-email" name="fields[email]" spellcheck="false" />
+          <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" />
         </fieldset>
         <fieldset>
           <label for="comment-form-url"><strong>Website</strong> <small>(optional)</small></label>
