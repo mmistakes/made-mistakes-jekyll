@@ -1,0 +1,6 @@
+_id: f9ff5030-0524-11e7-aa50-6d06826af1ce
+message: "Michael, please, can you explain the `page__comments` snippet? If it just checks if the parent is `nil`, how does it display all comments? (I'm definitely missing something obvious here, but hey, it's 1 AM).\r\nThanks for the tutorial! One tip though: the required fields should have a `required` attribute. You know, for accessibility :) ."
+name: Sukil
+email: 4c4618d7d5e47b4587fa422e3d83508c
+hidden: ''
+date: '2017-03-10T00:03:23.642Z'
