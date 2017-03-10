@@ -43,6 +43,10 @@
             <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image)</small></label>
             <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false">
           </fieldset>
+          <fieldset>
+            <label for="comment-form-url"><strong>Website</strong> <small>(optional)</small></label>
+            <input type="url" id="comment-form-url" name="fields[url]"/>
+          </fieldset>
           <fieldset class="hidden" style="display: none;">
             <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
             <input type="hidden" id="comment-parent" name="options[parent]" value="">
