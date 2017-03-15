@@ -1,4 +1,4 @@
-<article id="comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if p %}child{% endif %}">
+<article id="comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if r %}child{% endif %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -19,7 +19,7 @@
   </h3>
   <div class="comment__timestamp">
     {% if include.date %}
-      {% if include.index %}<a href="#comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
+      {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
       <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
       {% if include.index %}</a>{% endif %}
     {% endif %}
@@ -27,7 +27,7 @@
   <div class="comment__content">
     {{ include.message | markdownify }}
   </div>
-  {% unless p or page.comments_locked == true %}
+  {% unless r or page.comments_locked == true %}
     <div class="comment__reply">
       <a rel="nofollow" class="btn" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
     </div>
@@ -37,14 +37,14 @@
 {% capture i %}{{ include.index }}{% endcapture %}
 {% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item._parent == i' %}
 {% for reply in replies %}
-  {% assign index   = forloop.index | prepend: '-' | prepend: include.index %}
-  {% assign p       = reply._parent %}
-  {% assign parent  = p | to_integer %}
-  {% assign avatar  = reply.avatar %}
-  {% assign email   = reply.email %}
-  {% assign name    = reply.name %}
-  {% assign url     = reply.url %}
-  {% assign date    = reply.date %}
-  {% assign message = reply.message %}
-  {% include comment.html index=index parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+  {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
+  {% assign r           = reply.replying_to %}
+  {% assign replying_to = r | to_integer %}
+  {% assign avatar      = reply.avatar %}
+  {% assign email       = reply.email %}
+  {% assign name        = reply.name %}
+  {% assign url         = reply.url %}
+  {% assign date        = reply.date %}
+  {% assign message     = reply.message %}
+  {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}

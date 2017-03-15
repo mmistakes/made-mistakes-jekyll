@@ -11,16 +11,16 @@
         </h2>
         {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item._parent == nil' %}
         {% for comment in comments %}
-          {% assign index   = forloop.index %}
-          {% assign p       = comment._parent %}
-          {% assign parent  = p | to_integer %}
-          {% assign avatar  = comment.avatar %}
-          {% assign email   = comment.email %}
-          {% assign name    = comment.name %}
-          {% assign url     = comment.url %}
-          {% assign date    = comment.date %}
-          {% assign message = comment.message %}
-          {% include comment.html index=index parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+          {% assign index       = forloop.index %}
+          {% assign r           = comment.replying_to %}
+          {% assign replying_to = r | to_integer %}
+          {% assign avatar      = comment.avatar %}
+          {% assign email       = comment.email %}
+          {% assign name        = comment.name %}
+          {% assign url         = comment.url %}
+          {% assign date        = comment.date %}
+          {% assign message     = comment.message %}
+          {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
         {% endfor %}
       </div>
       <!-- End static comments -->
@@ -40,7 +40,7 @@
             <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false">
           </fieldset>
           <fieldset>
-            <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image)</small></label>
+            <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
             <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false">
           </fieldset>
           <fieldset>
@@ -49,7 +49,8 @@
           </fieldset>
           <fieldset class="hidden" style="display: none;">
             <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
-            <input type="hidden" id="comment-parent" name="options[parent]" value="">
+            <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+            <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
             <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
             <label for="comment-form-location">Leave blank if you are a human</label>
             <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off">
@@ -62,10 +63,10 @@
           </p>
           <!-- End comment form alert messaging -->
           <fieldset>
-            <!--<label for="comment-form-reply">
+            <label for="comment-form-reply">
               <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
               Notify me of replies by email.
-            </label>-->
+            </label>
             <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
             <button type="submit" id="comment-form-submit" class="btn btn--large">Submit Comment</button>
           </fieldset>

@@ -1,6 +1,6 @@
 ---
 id: comment-2560158057
-_parent: '3'
+replying_to: '3'
 date: 2016-03-09T17:31:57Z
 updated: 2016-03-09T17:31:57Z
 post_id: "/articles/using-jekyll-2016"

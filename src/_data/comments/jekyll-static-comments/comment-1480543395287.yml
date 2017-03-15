@@ -1,5 +1,5 @@
 _id: cac44ed0-b748-11e6-9b81-0bc3350a75b6
-_parent: '4'
+replying_to: '4'
 message: >-
   Staticman now supports [threaded
   comments](https://github.com/eduardoboucas/staticman/issues/35). The Liquid

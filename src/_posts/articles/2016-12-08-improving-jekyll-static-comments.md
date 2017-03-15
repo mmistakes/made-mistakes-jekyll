@@ -9,7 +9,7 @@ image:
   creditlink: "https://unsplash.com/@gabrielssantiago"
 tags: [web development, GitHub, Jekyll]
 comments: true
-last_modified_at: 2017-03-09T20:48:54-05:00
+last_modified_at: 2017-03-15T10:33:17-04:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
@@ -76,19 +76,29 @@ To `POST` correctly to Staticman, the `action` attribute in my comment form need
 
 Getting nested comments working was a big pain point for me. Numerous Liquid errors, trying to wrap my head around `for` loops inside of other `for` loops, array filters that broke things, and more --- took me a bit to figure out.
 
-### Add Parent Identifier
+### Add "Replying To" Identifier
 
-To properly nest replies I needed a way of determining their hierarchy. Staticman `v2` includes a new field named `options[parent]`[^parent-field] that can be used to help establish this relationship.  More on that in a minute, but for now here's it added to my form as a hidden field.
+To properly nest replies I needed a way of determining their hierarchy. I went with a field named `replying_to` and added it as an `allowedField` to my Staticman config file:
 
-[^parent-field]: Staticman names this field `_parent` in entries.
+```yaml
+allowedFields: ["name", "email", "url", "message", "replying_to"]
+```
+
+And to my comment form as a hidden field:
 
 ```html
-<input type="hidden" id="comment-parent" name="options[parent]" value="">
+<input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
 ```
+
+{% include notice type="info" content="
+#### Update: Field Name Change
+
+After publishing this article I learned that [`options[parent]`](https://github.com/eduardoboucas/staticman/issues/42#issuecomment-262938831) is meant to identify subscription entries, and not comment lineage. I've since changed to `fields[replying_to]` and updated the article and sample code to reflect this."
+%}
 
 ### Update Liquid Loops
 
-To avoid displaying duplicates, I needed to exclude replies and only show "parent" comments in the main loop. This seemed like the perfect use-case for Jekyll's `where_exp` filter:
+To avoid displaying duplicates, I needed to exclude replies and only top level comments in the main loop. This seemed like the perfect use-case for Jekyll's `where_exp` filter:
 
 {% include notice type="warning" content="
 #### Where Expression Jekyll Filter
@@ -96,7 +106,7 @@ To avoid displaying duplicates, I needed to exclude replies and only show "paren
 Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp:\"item\", \"item.graduation_year == 2014\"`"
 %}
 
-If the hidden `options[parent]` field I added to the form was working properly I should have comment data files similar to these:
+If the hidden `fields[replying_to]` field I added to the form was working properly I should have comment data files similar to these:
 
 #### Parent comment example
 
@@ -110,19 +120,19 @@ date: '2016-11-30T22:03:15.286Z'
 #### Child comment example
 
 ```yaml
-_parent: '7'
 message: This is a child comment message.
 name: First LastName
 email: md5g1bb3r15h
+replying_to: '7'
 date: '2016-11-02T05:08:43.280Z'
 ```
 
-As you can see above, the "child" comment has `_parent` data populated from the hidden `options[parent]` field in the form. Using this knowledge I tried to test against it using `where_exp:"item", "item._parent == nil"` to create an array of only "parent" comments.
+As you can see above, the "child" comment has `replying_to` data populated from the hidden `fields[replying_to]` field in the form. Using this knowledge I tried to test against it using `where_exp:"item", "item.replying_to == nil"` to create an array of only "top-level" comments.
 
 Unfortunately the following didn't work:
 
 ```liquid
-{% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item", "item._parent == nil" %}
+{% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == nil" %}
 {% for comment in comments %}
   {% assign avatar = comment[1].avatar %}
   {% assign email = comment[1].email %}
@@ -243,8 +253,8 @@ I'm using the following: `filename: \"comment-{@timestamp}\"` structure. Your mi
 Here is what I was looking to accomplish... before the headaches started :anguished: :gun:
 
 - Start a loop and on each iteration create a new array named `replies` of only reply comments.
-- Evaluate the value of `_parent` in these replies.
-- If `_parent` is equal to the index of the parent loop then it's a child and should be treated as one.
+- Evaluate the value of `replying_to` in these replies.
+- If `replying_to` is equal to the index of the parent loop then it's a child and should be treated as one.
 - If not, move on to the next entry in the array.
 - Rinse and repeat.
 
@@ -254,19 +264,19 @@ I determined the easiest way of assigning a unique identifier to each parent com
 {% raw %}{% assign index = forloop.index %}{% endraw %}
 ```
 
-Next I nested a modified copy of the *parent* loop from before inside of itself --- to function as the "child" or `replies` loop.
+Next I nested a modified copy of the "top-level comment" loop from before inside of itself --- to function as the "child" or `replies` loop.
 
 ```liquid
-{% raw %}{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item._parent == include.index" %}
+{% raw %}{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == include.index" %}
 {% for reply in replies %}
-  {% assign parent  = reply._parent %}
-  {% assign avatar  = reply.avatar %}
-  {% assign email   = reply.email %}
-  {% assign name    = reply.name %}
-  {% assign url     = reply.url %}
-  {% assign date    = reply.date %}
-  {% assign message = reply.message %}
-  {% include comment.html parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+  {% assign replying_to = reply.replying_to %}
+  {% assign avatar      = reply.avatar %}
+  {% assign email       = reply.email %}
+  {% assign name        = reply.name %}
+  {% assign url         = reply.url %}
+  {% assign date        = reply.date %}
+  {% assign message     = reply.message %}
+  {% include comment.html replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}{% endraw %}
 ```
 
@@ -276,11 +286,11 @@ After brief thoughts of the movie **Inception**, I applied an `inspect` filter t
 
 [^integer-string]: `15` is not the same as `'15'`. Those single quotes make a world of difference...
 
-To solve this I placed a `capture` tag around the index variable to convert it from an integer into a string. Then modified the `where_exp` condition to compare `_parent` against this new `{% raw %}{{ i }}{% endraw %}` variable --- fixing the issue and allowing me to move on.
+To solve this I placed a `capture` tag around the index variable to convert it from an integer into a string. Then modified the `where_exp` condition to compare `replying_to` against this new `{% raw %}{{ i }}{% endraw %}` variable --- fixing the issue and allowing me to move on.
 
 ```liquid
 {% raw %}{% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item._parent == i" %}{% endraw %}
+{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == i" %}{% endraw %}
 ```
 
 #### `_includes/page__comments.html`
@@ -297,18 +307,18 @@ To solve this I placed a `capture` tag around the index variable to convert it f
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | where_exp:"item", "item._parent == nil" %}
+        {% assign comments = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == nil" %}
         {% for comment in comments %}
-          {% assign index   = forloop.index %}
-          {% assign p       = comment._parent %}
-          {% assign parent  = p | to_integer %}
-          {% assign avatar  = comment.avatar %}
-          {% assign email   = comment.email %}
-          {% assign name    = comment.name %}
-          {% assign url     = comment.url %}
-          {% assign date    = comment.date %}
-          {% assign message = comment.message %}
-          {% include comment.html index=index parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+          {% assign index       = forloop.index %}
+          {% assign r           = comment.replying_to %}
+          {% assign replying_to = r | to_integer %}
+          {% assign avatar      = comment.avatar %}
+          {% assign email       = comment.email %}
+          {% assign name        = comment.name %}
+          {% assign url         = comment.url %}
+          {% assign date        = comment.date %}
+          {% assign message     = comment.message %}
+          {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
         {% endfor %}
       </div>
       <!-- End static comments -->
@@ -338,7 +348,8 @@ To solve this I placed a `capture` tag around the index variable to convert it f
         </fieldset>
         <fieldset class="hidden" style="display:none;">
           <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
-          <input type="hidden" id="comment-parent" name="options[parent]" value="">
+          <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+          <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
           <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
           <label for="comment-form-location">Leave blank if you are a human</label>
           <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
@@ -368,7 +379,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 #### `_includes/comment.html`
 
 ```html
-{% raw %}<article id="comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if p %}child{% endif %}">
+{% raw %}<article id="comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if r %}child{% endif %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -389,7 +400,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
   </h3>
   <div class="comment__timestamp">
     {% if include.date %}
-      {% if include.index %}<a href="#comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
+      {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
       <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
       {% if include.index %}</a>{% endif %}
     {% endif %}
@@ -397,7 +408,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
   <div class="comment__content">
     {{ include.message | markdownify }}
   </div>
-  {% unless p or page.comments_locked == true %}
+  {% unless r or page.comments_locked == true %}
     <div class="comment__reply">
       <a rel="nofollow" class="btn" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
     </div>
@@ -405,18 +416,18 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item._parent == i" %}
+{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == i" %}
 {% for reply in replies %}
-  {% assign index   = forloop.index | prepend: '-' | prepend: include.index %}
-  {% assign p       = reply._parent %}
-  {% assign parent  = p | to_integer %}
-  {% assign avatar  = reply.avatar %}
-  {% assign email   = reply.email %}
-  {% assign name    = reply.name %}
-  {% assign url     = reply.url %}
-  {% assign date    = reply.date %}
-  {% assign message = reply.message %}
-  {% include comment.html index=index parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+  {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
+  {% assign r           = reply.replying_to %}
+  {% assign replying_to = r | to_integer %}
+  {% assign avatar      = reply.avatar %}
+  {% assign email       = reply.email %}
+  {% assign name        = reply.name %}
+  {% assign url         = reply.url %}
+  {% assign date        = reply.date %}
+  {% assign message     = reply.message %}
+  {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}{% endraw %}
 ```
 
@@ -428,12 +439,12 @@ Familiar with the way [**Wordpress**](https://wordpress.org/) handles reply form
 
 - `respond` function to move form into view
 - `cancel` function to destroy a reply form a return it to its original state
-- pass parent's unique identifier to `options[parent]` on form submit
+- pass parent's unique identifier to `fields[replying_to]` on form submit
 
-To start I used an `unless` condition to only show "reply" links on *parent* comments. I only planned on going one-level deep with replies, so this seemed like a good way of enforcing that.
+To start I used an `unless` condition to only show reply links on "top-level" comments. I only planned on going one-level deep with replies, so this seemed like a good way of enforcing that.
 
 ```html
-{% raw %}{% unless p %}
+{% raw %}{% unless r %}
   <div class="comment__reply">
     <a rel="nofollow" class="btn" href="#comment-{{ include.index }}">Reply to {{ include.name }}</a>
   </div>
@@ -454,7 +465,7 @@ To give the **reply link** life I added the following `onclick` attribute and [J
 A few minor variable name changes to Wordpress's `comment-reply.js` script was all it took to get everything working with my `form` markup.
 
 {% capture reply_caption %}
-Hitting a **reply button** moves the comment form into view and populates `<input type="hidden" id="comment-parent" name="options[parent]" value="">` with the correct *parent* `value`. While tapping **Cancel reply** returns the form to its original state.
+Hitting a **reply button** moves the comment form into view and populates `<input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">` with the correct *parent* `value`. While tapping **Cancel reply** returns the input to its original state of `null`.
 {% endcapture %}
 
 <figure>
@@ -486,15 +497,16 @@ The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) a
 
 ### Update Comment Form
 
-To finish, add two fields to the comment `form`. 
+To finish, add the following three fields to the comment `form`. 
 
-**Field 1:** A hidden field that passes the `origin`[^origin] set in `staticman.yml`:
+**Field 1 + 2:** Hidden input fields that pass the `origin`[^origin] set in `staticman.yml` and unique identifier to the entry the user is subscriber to:
 
 ```html
-{% raw %}<input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">{% endraw %}
+{% raw %}<input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+<input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">{% endraw %}
 ```
 
-**Field 2:** A checkbox `input` for subscribing to email notifications.
+**Field 3:** A checkbox `input` for subscribing to email notifications.
 
 ```html  
 <label for="comment-form-reply">
@@ -507,7 +519,7 @@ Nothing fancy here, `name=options[subscribe]` and `value="email"` are added to t
 
 [^origin]: This URL will be included in the notification email sent to subscribers, allowing them to open the page directly.
 
-If setup correctly a user should receive an email anytime a new comment on the post or page they subscribed to is added.
+If setup correctly a user should receive an email anytime a new comment on the post or page they subscribed to is merged in.
 
 <figure>
   <img src="{{ site.url }}/assets/images/staticman-email-notification.png" alt="Staticman reply email notification">

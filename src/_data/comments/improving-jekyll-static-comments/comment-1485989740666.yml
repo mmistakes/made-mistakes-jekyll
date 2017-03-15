@@ -1,5 +1,5 @@
 _id: 8d9f3910-e8d1-11e6-86ff-e7ada9208c07
-_parent:
+replying_to:
 message: >-
   I have been trying to update my copy of minimal mistakes with this. I have it
   almost working but the jquery. How do you get the function to hook into the
