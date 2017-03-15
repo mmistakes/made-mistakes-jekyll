@@ -1,4 +1,4 @@
-<article id="comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if r %}child{% endif %}">
+<article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -27,7 +27,7 @@
   <div class="comment__content">
     {{ include.message | markdownify }}
   </div>
-  {% unless r or page.comments_locked == true %}
+  {% unless include.replying_to != 0 or page.comments_locked == true %}
     <div class="comment__reply">
       <a rel="nofollow" class="btn" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
     </div>
@@ -35,7 +35,7 @@
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item._parent == i' %}
+{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
 {% for reply in replies %}
   {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
   {% assign r           = reply.replying_to %}

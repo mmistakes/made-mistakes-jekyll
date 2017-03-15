@@ -9,7 +9,7 @@
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item._parent == nil' %}
+        {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
         {% for comment in comments %}
           {% assign index       = forloop.index %}
           {% assign r           = comment.replying_to %}

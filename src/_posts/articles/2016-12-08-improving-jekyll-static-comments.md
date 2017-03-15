@@ -9,7 +9,7 @@ image:
   creditlink: "https://unsplash.com/@gabrielssantiago"
 tags: [web development, GitHub, Jekyll]
 comments: true
-last_modified_at: 2017-03-15T10:33:17-04:00
+last_modified_at: 2017-03-15T14:14:58-04:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
@@ -127,12 +127,12 @@ replying_to: '7'
 date: '2016-11-02T05:08:43.280Z'
 ```
 
-As you can see above, the "child" comment has `replying_to` data populated from the hidden `fields[replying_to]` field in the form. Using this knowledge I tried to test against it using `where_exp:"item", "item.replying_to == nil"` to create an array of only "top-level" comments.
+As you can see above, the "child" comment has `replying_to` data populated from the hidden `fields[replying_to]` field in the form. Using this knowledge I tried to test against it using `where_exp:"item", "item.replying_to == ''"` to create an array of only "top-level" comments.
 
 Unfortunately the following didn't work:
 
 ```liquid
-{% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == nil" %}
+{% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == blank" %}
 {% for comment in comments %}
   {% assign avatar = comment[1].avatar %}
   {% assign email = comment[1].email %}
@@ -307,7 +307,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == nil" %}
+        {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
         {% for comment in comments %}
           {% assign index       = forloop.index %}
           {% assign r           = comment.replying_to %}
@@ -325,50 +325,49 @@ To solve this I placed a `capture` tag around the index variable to convert it f
     {% endif %}
 
     {% unless page.comments_locked == true %}
-    <!-- Start new comment form -->
-    <div id="respond">
-      <h2 class="page__section-label">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
-      <p class="instruct"><a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> is allowed. Email addresses will not be published.</p>
-      <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
-        <fieldset>
-          <label for="comment-form-message"><strong>Comment</strong> <span class="required">*</span></label>
-          <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true"></textarea>
-        </fieldset>
-        <fieldset>
-          <label for="comment-form-name"><strong>Name</strong> <span class="required">*</span></label>
-          <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" />
-        </fieldset>
-        <fieldset>
-          <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="https://en.gravatar.com/">Gravatar</a> image and reply notifications)</small></label>
-          <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" />
-        </fieldset>
-        <fieldset>
-          <label for="comment-form-url"><strong>Website</strong> <small>(optional)</small></label>
-          <input type="url" id="comment-form-url" name="fields[url]" spellcheck="false" />
-        </fieldset>
-        <fieldset class="hidden" style="display:none;">
-          <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
-          <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
-          <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
-          <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
-          <label for="comment-form-location">Leave blank if you are a human</label>
-          <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
-        </fieldset>
-        <!-- Start comment form alert messaging -->
-        <p class="hidden js-notice">
-          <span class="js-notice-text"></span>
-        </p>
-        <!-- End comment form alert messaging -->
-        <fieldset>
-          <button type="submit" id="comment-form-submit" class="btn btn--large">Submit Comment</button>
-          <label for="comment-form-reply">
-            <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
-            Notify me of new comments by email.
-          </label>
-        </fieldset>
-      </form>
-    </div>
-    <!-- End new comment form -->
+      <!-- Start new comment form -->
+      <div id="respond">
+        <h2 class="page__section-label">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
+        <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
+          <fieldset>
+            <label for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
+            <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true"></textarea>
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-name"><strong>Name</strong></label>
+            <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false">
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
+            <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false">
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-url"><strong>Website</strong> <small>(optional)</small></label>
+            <input type="url" id="comment-form-url" name="fields[url]"/>
+          </fieldset>
+          <fieldset class="hidden" style="display: none;">
+            <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+            <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+            <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+            <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+            <label for="comment-form-location">Leave blank if you are a human</label>
+            <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off">
+          </fieldset>
+          <!-- Start comment form alert messaging -->
+          <p class="hidden js-notice">
+            <span class="js-notice-text"></span>
+          </p>
+          <!-- End comment form alert messaging -->
+          <fieldset>
+            <label for="comment-form-reply">
+              <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+              Notify me of replies by email.
+            </label>
+            <button type="submit" id="comment-form-submit" class="btn btn--large">Submit Comment</button>
+          </fieldset>
+        </form>
+      </div>
+      <!-- End new comment form -->
     {% else %}
       <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="{{ site.url }}/contact/">contact me</a>.</em></p>
     {% endunless %}
@@ -379,7 +378,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 #### `_includes/comment.html`
 
 ```html
-{% raw %}<article id="comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if r %}child{% endif %}">
+{% raw %}<article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}">
@@ -392,10 +391,10 @@ To solve this I placed a `capture` tag around the index variable to convert it f
   <h3 class="comment__author-name">
     {% unless include.url == blank %}
       <a rel="external nofollow" href="{{ include.url }}">
-        {% if include.name == site.author.name %}<svg class="icon"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
+        {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
       </a>
     {% else %}
-      {% if include.name == site.author.name %}<svg class="icon"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
+      {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="#icon-mistake"></use></svg> {% endif %}{{ include.name }}
     {% endunless %}
   </h3>
   <div class="comment__timestamp">
@@ -408,7 +407,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
   <div class="comment__content">
     {{ include.message | markdownify }}
   </div>
-  {% unless r or page.comments_locked == true %}
+  {% unless include.replying_to != 0 or page.comments_locked == true %}
     <div class="comment__reply">
       <a rel="nofollow" class="btn" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
     </div>
@@ -416,7 +415,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == i" %}
+{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
 {% for reply in replies %}
   {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
   {% assign r           = reply.replying_to %}
