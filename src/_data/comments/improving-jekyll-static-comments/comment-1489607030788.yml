@@ -1,0 +1,14 @@
+_id: b6781e40-09b7-11e7-92f9-af0b7a00b289
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: >-
+  Staticman recently [added support for
+  reCAPTCHA](https://github.com/eduardoboucas/staticman/issues/20) which has
+  completely eliminated all of the spam comments that would slip through. I'm
+  sure Akismet would have done the same, but since it's not enabled for the
+  public instance of Staticman this was the next best thing.
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '4'
+hidden: ''
+date: '2017-03-15T19:43:50.786Z'
