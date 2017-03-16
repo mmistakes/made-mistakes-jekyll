@@ -1,6 +1,6 @@
-# [Made Mistakes](http://mademistakes.com) Source Code
+# [Made Mistakes](https://mademistakes.com) Source Code
 
-This is the source code of Made Mistakes, a personal blog and portfolio built with [Jekyll](http://jekyllrb.com) and a starter I call [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll).
+This is the source code of Made Mistakes, a personal blog and portfolio built with [Jekyll](http://jekyllrb.com), [Gulp](http://gulpjs.com/), and [Travis CI](https://travis-ci.org/).
 
 *Please note: Made Mistakes hasn't been "themed" like some of my other [Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't compatible with the "default" GitHub Pages workflow without substantial alterations.*
 
@@ -15,7 +15,7 @@ This is the source code of Made Mistakes, a personal blog and portfolio built wi
 
 [Made Mistakes](https://mademistakes.com) has a lot of image assets. `src/assets/images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) and included as a Git submodule.
 
-`page.feature.images` should be placed in `src/assets/images/feature`. These `feature` images will be converted into various sizes to be responsively served by browsers that support [`srcset` attribute](https://responsiveimages.org/).
+`page.image.feature` should be placed in `src/assets/images/feature`. These `feature` images will be converted into various sizes to be responsively served by browsers that support the [`srcset` attribute](https://responsiveimages.org/).
 
 ### Local Development
 
@@ -27,11 +27,11 @@ Let Jekyll do what it does best and transform your content into HTML. Asset mana
 - optimize images
 - optimize and resize `feature` images
 - optimize and combine SVG icon set
-- serve site with Browser Sync
-- deploy site to production via Rsync
+- serve site locally for testing with Browser Sync
+- deploy site to production server via Rsync
 - submit XML sitemap to Google & Bing
 
-Default structure (modify paths in `gulpfile.js` and `_config.yml` if altered):
+Default structure (paths can be modified in `gulpfile.js` and `_config.yml`):
 
 ```bash
 ├── gulp                      # => gulp tasks
