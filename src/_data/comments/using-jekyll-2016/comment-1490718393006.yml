@@ -3,8 +3,7 @@ _parent: 'https://mademistakes.com/articles/using-jekyll-2016/'
 message: >-
   It's 2017 now and I've been using Jekyll heavily for quite some time and using
   gulp (I even did some builds with webpack) but I'm really excited to see your
-  deployment write-up and Travis CI.  Recently deployed with [this]
-  (https://jekyllrb.com/docs/deployment-methods/#step-2-set-up-certificate-based-ssh-access-server-side)
+  deployment write-up and Travis CI.  Recently deployed with [this](https://jekyllrb.com/docs/deployment-methods/#step-2-set-up-certificate-based-ssh-access-server-side)
   method and it worked but it basically caused a -rm -rf to my entire server
   because I fired my script at $HOME and that was a very bad day, so make sure
   you are specific when guiding people in these steps hah.
