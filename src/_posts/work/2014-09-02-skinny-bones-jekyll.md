@@ -14,7 +14,7 @@ breadcrumbs:
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true
-order: 10
+order: 11
 ---
 
 What originally started as a site refresh quickly turned into something else when Jekyll baked in native support for Sass with a [2.0 release](http://jekyllrb.com/docs/history/#v2-0-0).

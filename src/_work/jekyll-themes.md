@@ -2,7 +2,7 @@
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Minimally designed open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"
-last_modified_at: 2016-10-27T11:22:29-04:00
+last_modified_at: 2017-03-30T12:17:48-04:00
 image: 
   path: &image /assets/images/jekyll-themes-feature.jpg
   cover: /assets/images/jekyll-logo-20.jpg
@@ -27,14 +27,32 @@ Below are all of the Jekyll starters I've open sourced thus far. Each "theme" co
 
 The basic setup for each of my theme's is roughly the same:
 
-  1. Fork the Jekyll theme repository you'd like to use.
-  2. Clone the repository you just forked and rename it appropriately[^github-pages].
-  3. [Install Bundler](http://bundler.io) `gem install bundler` and run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), etc)
-  4. Update `_config.yml`, navigation data files (found in `_data`), and replace sample posts and pages with your own.
+  1. Install theme gem or fork the theme repository you'd like to use.
+  2. [Install Bundler](http://bundler.io) `gem install bundler` and run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), etc)
+  3. Update `_config.yml`, data files (found in `_data`), and replace sample posts and pages with your own.
 
-[^github-pages]: [Follow these steps](http://jekyllrb.com/docs/github-pages/) if you're going to host your site on GitHub Pages to get the repo name and branches setup correctly.
+For more specifics, review each theme's documentation by clicking on the **Setup Guide** buttons below.
 
-For more specifics, review each themes' documentation by clicking on the **Theme Setup** buttons below.
+## [Basically Basic Theme]({{ site.url }}{% post_url /work/2017-03-30-basically-basic-jekyll-theme %})
+
+<figure>
+  <img src="{{ site.url }}/assets/images/jekyll-theme-basically-basic-feature.jpg" alt="Basically Basic Jekyll theme screenshot">
+  <figcaption>Your new Jekyll default theme.</figcaption>
+</figure>
+
+Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
+
+- Clean responsive design with six customizable skins
+- Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
+- About page layout
+- Disqus Comments and Google Analytics support
+- SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+
+<div markdown="0">
+  <a href="https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip" class="btn btn--info">Download</a>
+  <a href="https://github.com/mmistakes/jekyll-theme-basically-basic" class="btn">Setup Guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" class="btn">Demo</a>
+</div>
 
 ## [Minimal Mistakes Theme]({{ site.url }}{% post_url /work/2016-04-15-minimal-mistakes-jekyll-theme %})
 
@@ -119,6 +137,8 @@ A Jekyll starter based off of an older incarnation of Made Mistakes.
 	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
 </div>
+
+---
 
 ## License
 
