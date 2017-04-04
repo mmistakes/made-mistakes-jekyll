@@ -40,7 +40,7 @@ var options = [
   { width: 1600, upscale: true }
 ]
 
-// 'gulp images:feature' -- resizes and optimize newer feature images
+// 'gulp images:feature' -- resize and optimize newer feature images
 // https://gist.github.com/ddprrt/1b535c30374158837df89c0e7f65bcfc
 gulp.task('images:feature', function() {
   var streams = options.map(function(el) {
@@ -51,12 +51,12 @@ gulp.task('images:feature', function() {
           file.basename += '-' + el.width
         }
       }))
-      .pipe(newer(paths.imageFilesSite))
-      .pipe(resize(el))
-      .pipe(imagemin([
-        imagemin.jpegtran({progressive: true}),
-        imagemin.optipng()
-      ], {verbose: true}))
+      // .pipe(newer(paths.imageFilesSite))
+      // .pipe(resize(el))
+      // .pipe(imagemin([
+      //   imagemin.jpegtran({progressive: true}),
+      //   imagemin.optipng()
+      // ], {verbose: true}))
       .pipe(gulp.dest(paths.imageFilesSite))
   });
 
