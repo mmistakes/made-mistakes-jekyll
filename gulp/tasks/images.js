@@ -20,13 +20,13 @@ var paths    = require('../paths');
 // 'gulp images' -- optimize newer images
 gulp.task('images', () =>
   gulp.src([paths.imageFilesGlob, '!src/assets/images/{feature,feature/**}']) // do not process feature images
-    // .pipe(newer(paths.imageFilesSite))
-    // .pipe(imagemin([
-    //   imagemin.gifsicle({interlaced: true}),
-    //   imagemin.jpegtran({progressive: true}),
-    //   imagemin.optipng(),
-    //   imagemin.svgo({plugins: [{cleanupIDs: false}]})
-    // ], {verbose: true}))
+    .pipe(newer(paths.imageFilesSite))
+    .pipe(imagemin([
+      imagemin.gifsicle({interlaced: true}),
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng(),
+      imagemin.svgo({plugins: [{cleanupIDs: false}]})
+    ], {verbose: true}))
     .pipe(gulp.dest(paths.imageFilesSite))
     .pipe(size({title: 'images'}))
 );
@@ -51,22 +51,22 @@ gulp.task('images:feature', function() {
           file.basename += '-' + el.width
         }
       }))
-      // .pipe(newer(paths.imageFilesSite))
+      .pipe(newer(paths.imageFilesSite))
       .pipe(resize(el))
-      // .pipe(imagemin([
-      //   imagemin.jpegtran({progressive: true}),
-      //   imagemin.optipng()
-      // ], {verbose: true}))
+      .pipe(imagemin([
+        imagemin.jpegtran({progressive: true}),
+        imagemin.optipng()
+      ], {verbose: true}))
       .pipe(gulp.dest(paths.imageFilesSite))
   });
 
-  // add original feature images
+  // add original feature images + optimize
   streams.push(gulp.src(paths.imageFiles + '/feature' + paths.imagePattern)
-    // .pipe(newer(paths.imageFilesSite))
-    // .pipe(imagemin([
-    //   imagemin.jpegtran({progressive: true}),
-    //   imagemin.optipng()
-    // ], {verbose: true}))
+    .pipe(newer(paths.imageFilesSite))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng()
+    ], {verbose: true}))
     .pipe(gulp.dest(paths.imageFilesSite)))
 
   return merge2(streams);
