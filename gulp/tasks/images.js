@@ -52,7 +52,7 @@ gulp.task('images:feature', function() {
         }
       }))
       // .pipe(newer(paths.imageFilesSite))
-      // .pipe(resize(el))
+      .pipe(resize(el))
       // .pipe(imagemin([
       //   imagemin.jpegtran({progressive: true}),
       //   imagemin.optipng()
