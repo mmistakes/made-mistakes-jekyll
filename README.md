@@ -201,7 +201,7 @@ this unless you have phantom image assets floating around you want to clear.
 
 ### `gulp critical`
 
-Extract critical path CSS from `article`, `glitch`, and `archive` pages to inline 
+Extract critical path CSS from `page`, `archive`, `splash`, and `work` layouts to inline 
 via Jekyll `_includes`.
 
 **Note:** Clear `critical-<layout>.css` includes, run `gulp build`, then `gulp critical`.
