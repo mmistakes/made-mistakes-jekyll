@@ -1,22 +1,28 @@
 {
-  "name": "jekyll-gulpified",
-  "version": "0.0.1",
-  "description": "",
-  "homepage": "https://mademistakes.com",
-  "author": {
-    "name": "Michael Rose",
-    "email": ""
+  "name": "made-mistakes",
+  "version": "1.0.0",
+  "description": "Made Mistakes built with Gulp + Jekyll + Travis CI",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmistakes/made-mistakes-jekyll.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp"
+  ],
+  "author": "Michael Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmistakes/made-mistakes-jekyll/issues"
   },
   "devDependencies": {
     "autoprefixer": "^6.2.3",
     "browser-sync": "^2.11.0",
+    "concurrent-transform": "^1.0.0",
     "critical": "^0.7.3",
     "del": "^2.2.0",
     "glob": "^7.0.6",
-    "gm": "^1.23.0",
     "gulp": "git://github.com/gulpjs/gulp.git#4.0",
-    "gulp-cache": "^0.4.1",
-    "gulp-changed": "^1.3.2",
     "gulp-cheerio": "^0.6.2",
     "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.0",
@@ -24,6 +30,7 @@
     "gulp-gzip": "^1.1.0",
     "gulp-htmlmin": "^2.0.0",
     "gulp-if": "^2.0.1",
+    "gulp-image-resize": "^0.12.0",
     "gulp-imagemin": "^3.0.0",
     "gulp-inject": "^4.0.0",
     "gulp-newer": "^1.2.0",

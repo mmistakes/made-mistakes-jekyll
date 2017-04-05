@@ -1,21 +1,21 @@
 'use strict';
-var cache    = require('gulp-cache');
-var changed  = require("gulp-changed");
-var filter   = require('gulp-filter');
-var glob     = require('glob');
-var gulp     = require('gulp');
-var gulpif   = require('gulp-if');
-var imagemin = require('gulp-imagemin');
-var merge2   = require('merge2');
-var newer    = require('gulp-newer');
-var notify   = require('gulp-notify');
-var rename   = require('gulp-rename');
-var resize   = require('./resize-images');
-var size     = require('gulp-size');
-var util     = require('gulp-util');
+var filter      = require('gulp-filter');
+var glob        = require('glob');
+var gulp        = require('gulp');
+var gulpif      = require('gulp-if');
+var imagemin    = require('gulp-imagemin');
+var imageResize = require('gulp-image-resize');
+var merge2      = require('merge2');
+var newer       = require('gulp-newer');
+var notify      = require('gulp-notify');
+var os          = require('os');
+var parallel    = require('concurrent-transform');
+var rename      = require('gulp-rename');
+var size        = require('gulp-size');
+var util        = require('gulp-util');
 
 // include paths file
-var paths    = require('../paths');
+var paths       = require('../paths');
 
 // 'gulp images' -- optimize newer images
 gulp.task('images', () =>
@@ -41,7 +41,6 @@ var options = [
 ]
 
 // 'gulp images:feature' -- resize and optimize newer feature images
-// https://gist.github.com/ddprrt/1b535c30374158837df89c0e7f65bcfc
 gulp.task('images:feature', function() {
   var streams = options.map(function(el) {
     // resizing images
@@ -52,7 +51,10 @@ gulp.task('images:feature', function() {
         }
       }))
       .pipe(newer(paths.imageFilesSite))
-      .pipe(resize(el))
+      .pipe(parallel(
+        imageResize(el),
+        os.cpus().length
+      ))
       .pipe(imagemin([
         imagemin.jpegtran({progressive: true}),
         imagemin.optipng()
