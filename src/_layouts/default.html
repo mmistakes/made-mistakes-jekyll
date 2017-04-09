@@ -2,7 +2,7 @@
 ---
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -64,6 +64,11 @@
   <!-- htmlmin:ignore -->
 
     <script>
+      /* Cut the mustard */
+      if ( 'querySelector' in document && 'addEventListener' in window ) {
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+      }
+
       /*! EnhanceJS: a progressive enhancement boilerplate. Copyright 2014 @scottjehl, Filament Group, Inc. Licensed MIT */
       (function( window, undefined ) {
 

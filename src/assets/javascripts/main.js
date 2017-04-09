@@ -16,8 +16,6 @@ WebFontConfig = {
 
 $(document).ready(function(){
 
-  $("body").addClass("js");
-
   // FitVids init
   $(".page__content").fitVids();
 
