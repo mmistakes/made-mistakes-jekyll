@@ -182,7 +182,8 @@ img {
   /* lazysizes plugin */ }
   img[data-sizes="auto"] {
     display: block;
-    width: 100%; }
+    width: 100%;
+    background-color: #999; }
 
 a img {
   border: 0.125em solid #333;
@@ -353,6 +354,29 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .image-right {
       float: right;
       margin-left: 1em; } }
+
+/*
+   Lazy load
+   ========================================================================== */
+.no-js img.lazyload {
+  display: none; }
+
+.blur-up {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  transition: filter 400ms, -webkit-filter 400ms; }
+
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+          filter: blur(0); }
+
+.fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms; }
+
+.fade-in.lazyloaded {
+  opacity: 1; }
 
 /*
    Icons
@@ -660,7 +684,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   position: relative;
   margin-bottom: 2em;
   margin-left: -1em;
-  margin-right: -1em; }
+  margin-right: -1em;
+  overflow: hidden; }
   @media (min-width: 37.5em) {
     .page__hero {
       margin-left: -2em;
@@ -841,7 +866,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 
 .work__hero {
   margin-left: -1em;
-  margin-right: -1em; }
+  margin-right: -1em;
+  overflow: hidden; }
   @media (min-width: 37.5em) {
     .work__hero {
       margin-left: -2em;

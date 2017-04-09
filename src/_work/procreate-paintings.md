@@ -25,7 +25,10 @@ Digital paintings created on an iPad using the iOS app [**Procreate** by Savage 
 {% for post in site.categories.procreate-paintings %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="lazyload" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <noscript>
+        <img src="{{ site.url }}{{ post.image.thumb }}">
+      </noscript>
+      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
     </a>
   </li>
 {% endfor %}

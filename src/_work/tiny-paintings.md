@@ -26,7 +26,10 @@ My plan was to complete a miniature 1.5\" painting a day, but the challenge of p
 {% for post in site.categories.tiny-paintings %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="lazyload" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <noscript>
+        <img src="{{ site.url }}{{ post.image.thumb }}">
+      </noscript>
+      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
     </a>
   </li>
 {% endfor %}

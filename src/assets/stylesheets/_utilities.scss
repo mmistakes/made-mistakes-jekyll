@@ -136,6 +136,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
+   Lazy load
+   ========================================================================== */
+
+.no-js img.lazyload {
+  display: none;
+}
+
+.blur-up {
+  filter: blur(5px);
+  transition: filter 400ms, -webkit-filter 400ms;
+}
+
+.blur-up.lazyloaded {
+  filter: blur(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+.fade-in.lazyloaded {
+  opacity: 1;
+}
+
+/*
    Icons
    ========================================================================== */
 

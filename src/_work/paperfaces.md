@@ -26,7 +26,10 @@ If you scroll down far enough you can see how my technique evolved from faceless
 {% for post in site.categories.paperfaces %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="lazyload" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <noscript>
+        <img src="{{ site.url }}{{ post.image.thumb }}">
+      </noscript>
+      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
     </a>
   </li>
 {% endfor %}
