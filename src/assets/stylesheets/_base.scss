@@ -183,6 +183,12 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+
+  /* lazysizes plugin */
+  &[data-sizes="auto"] {
+    display: block;
+    width: 100%;
+  }
 }
 
 a img {

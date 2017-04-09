@@ -13,7 +13,7 @@ tags: [watercolor, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"
 order: 3
-last_modified_at: 2016-10-17T11:58:45-04:00
+last_modified_at: 2017-04-08T22:46:16-04:00
 ---
 
 Trying to emulate the look and feel of [watercolor on the iPad]({{ site.url }}/paperfaces/) has inspired me to revisit painting traditionally. I've gone mini in an effort to fit some painting in amongst family and work obligations. 
@@ -26,8 +26,7 @@ My plan was to complete a miniature 1.5\" painting a day, but the challenge of p
 {% for post in site.categories.tiny-paintings %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></noscript>
+      <img class="lazyload" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
     </a>
   </li>
 {% endfor %}

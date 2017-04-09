@@ -8,8 +8,6 @@ var imageResize = require('gulp-image-resize');
 var merge2      = require('merge2');
 var newer       = require('gulp-newer');
 var notify      = require('gulp-notify');
-var os          = require('os');
-var parallel    = require('concurrent-transform');
 var rename      = require('gulp-rename');
 var size        = require('gulp-size');
 var util        = require('gulp-util');
@@ -34,9 +32,8 @@ gulp.task('images', () =>
 // feature image resize values
 var options = [
   { width: 20, upscale: false },
-  { width: 320, upscale: false },
+  { width: 220, upscale: false },
   { width: 768, upscale: true },
-  { width: 1024, upscale: true },
   { width: 1600, upscale: true }
 ]
 
@@ -51,10 +48,7 @@ gulp.task('images:feature', function() {
         }
       }))
       .pipe(newer(paths.imageFilesSite))
-      .pipe(parallel(
-        imageResize(el),
-        os.cpus().length
-      ))
+      .pipe(imageResize(el))
       .pipe(imagemin([
         imagemin.jpegtran({progressive: true}),
         imagemin.optipng()

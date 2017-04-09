@@ -178,7 +178,11 @@ img {
   /* part 2: Scale the height according to the width, otherwise you get stretching*/
   vertical-align: middle;
   border: 0;
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic;
+  /* lazysizes plugin */ }
+  img[data-sizes="auto"] {
+    display: block;
+    width: 100%; }
 
 a img {
   border: 0.125em solid #333;
