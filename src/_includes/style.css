@@ -362,8 +362,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   display: none; }
 
 .blur-up {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
   transition: filter 400ms, -webkit-filter 400ms; }
 
 .blur-up.lazyloaded {
