@@ -215,7 +215,7 @@ actually work. They're all commented.
 ## Inject more than one JavaScript file
 
 If you want to split up your JavaScript files into say a `index.js` and a
-`vendor.js` file with files from [Bower][bower] you can do this quite easily. Create a
+`vendor.js` file with files from [Bower][https://bower.io/] you can do this quite easily. Create a
 copy of the `scripts` gulp task and rename it to `scripts:vendor` and change the
 `gulp.src` files you need:
 
