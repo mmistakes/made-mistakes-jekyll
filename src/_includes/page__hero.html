@@ -7,7 +7,13 @@
     <noscript>
       <img src="{{ site.url }}{{ f[0] }}-220.{{ f[1] }}">
     </noscript>
-    <img src="{{ site.url }}{{ f[0] }}-lq.{{ f[1] }}" data-src="{{ site.url }}{{ f[0] }}.{{ f[1] }}" alt="{{ page.title }}" class="lazyload image blur-up">
+    <img src="{{ site.url }}{{ f[0] }}-220.{{ f[1] }}"
+         srcset="{{ site.url }}{{ f[0] }}-lq.{{ f[1] }}"
+         data-srcset="{{ site.url }}{{ f[0] }}-220.{{ f[1] }} 220w,
+                      {{ site.url }}{{ f[0] }}.{{ f[1] }} 1920w"
+         data-sizes="auto"
+         alt="{{ page.title }}"
+         class="lazyload image blur-up">
     {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
   </div>
 {% else %}
