@@ -23,6 +23,7 @@
 .work__hero {
   margin-left: -1em;
   margin-right: -1em;
+  overflow: hidden;
 
   @include breakpoint($small) {
     margin-left: -2em;

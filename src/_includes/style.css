@@ -178,7 +178,12 @@ img {
   /* part 2: Scale the height according to the width, otherwise you get stretching*/
   vertical-align: middle;
   border: 0;
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic;
+  /* lazysizes plugin */ }
+  img[data-sizes="auto"] {
+    display: block;
+    width: 100%;
+    background-color: #999; }
 
 a img {
   border: 0.125em solid #333;
@@ -349,6 +354,29 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     .image-right {
       float: right;
       margin-left: 1em; } }
+
+/*
+   Lazy load
+   ========================================================================== */
+.no-js img.lazyload {
+  display: none; }
+
+.blur-up {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  transition: filter 400ms, -webkit-filter 400ms; }
+
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+          filter: blur(0); }
+
+.fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms; }
+
+.fade-in.lazyloaded {
+  opacity: 1; }
 
 /*
    Icons
@@ -563,7 +591,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   margin: 2em 0;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   line-height: 1.25;
-  z-index: 1; }
+  z-index: 2; }
 
 .page__title {
   font-size: 2.441em;
@@ -656,7 +684,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   position: relative;
   margin-bottom: 2em;
   margin-left: -1em;
-  margin-right: -1em; }
+  margin-right: -1em;
+  overflow: hidden; }
   @media (min-width: 37.5em) {
     .page__hero {
       margin-left: -2em;
@@ -837,7 +866,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
 
 .work__hero {
   margin-left: -1em;
-  margin-right: -1em; }
+  margin-right: -1em;
+  overflow: hidden; }
   @media (min-width: 37.5em) {
     .work__hero {
       margin-left: -2em;
@@ -1038,7 +1068,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       width: 100%;
       height: 100%;
       opacity: 0.6;
-      background-color: black; }
+      background-color: #000;
+      z-index: 1; }
     .dark .page__hero .image {
       box-shadow: 2em 2em 0 #000, 2em -2em #000; }
 

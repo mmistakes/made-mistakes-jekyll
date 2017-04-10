@@ -4,7 +4,7 @@ permalink: /paperfaces/
 category: paperfaces
 title: "PaperFaces iPad Project"
 excerpt: "Gallery of hundreds of PaperFaces portrait painted digitally with Paper by FiftyThree on an iPad. Find time lapse videos, in-process screenshots, and more."
-last_modified_at: 2016-10-27T11:16:12-04:00
+last_modified_at: 2017-04-08T22:45:44-04:00
 image: 
   cover: /assets/images/fiftythree-color-20.jpg
   thumb: /assets/images/paperfaces-project-250x250.jpg
@@ -26,8 +26,10 @@ If you scroll down far enough you can see how my technique evolved from faceless
 {% for post in site.categories.paperfaces %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></noscript>
+      <noscript>
+        <img src="{{ site.url }}{{ post.image.thumb }}">
+      </noscript>
+      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
     </a>
   </li>
 {% endfor %}

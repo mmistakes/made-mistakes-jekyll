@@ -16,8 +16,6 @@ WebFontConfig = {
 
 $(document).ready(function(){
 
-  $("body").addClass("js");
-
   // FitVids init
   $(".page__content").fitVids();
 
@@ -26,12 +24,6 @@ $(document).ready(function(){
 
   // add lightbox class to all image links
   $("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']").attr("data-lity", "");
-
-  // lazy load settings
-  $("img.load").show().lazyload({
-  	effect: "fadeIn",
-  	skip_invisible: false
-  });
 
   // Bigfoot footnotes
   var bigfoot = $.bigfoot(

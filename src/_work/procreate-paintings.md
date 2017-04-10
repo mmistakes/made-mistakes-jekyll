@@ -5,7 +5,7 @@ category: procreate-paintings
 title: "Procreate iPad Paintings"
 excerpt: &excerpt "Gallery of digital paintings created with [Procreate](http://procreate.si/) on an iPad. Find time lapse videos, in-process screenshots, and more."
 subtitle: *excerpt
-last_modified_at: 2016-10-17T11:36:34-04:00
+last_modified_at: 2017-04-08T22:46:05-04:00
 image: 
   cover: /assets/images/procreate-logo-20.jpg
   thumb: /assets/images/procreate-paintings-150.jpg
@@ -25,8 +25,10 @@ Digital paintings created on an iPad using the iOS app [**Procreate** by Savage 
 {% for post in site.categories.procreate-paintings %}
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-      <img class="load" src="{{ site.url }}/assets/images/preload-150.png" data-original="{{ site.url }}{{ post.image.thumb }}" alt="">
-      <noscript><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></noscript>
+      <noscript>
+        <img src="{{ site.url }}{{ post.image.thumb }}">
+      </noscript>
+      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
     </a>
   </li>
 {% endfor %}

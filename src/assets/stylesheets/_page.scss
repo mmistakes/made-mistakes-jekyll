@@ -37,7 +37,7 @@
   margin: 2em 0;
   font-family: $sans-serif;
   line-height: 1.25;
-  z-index: 1;
+  z-index: 2;
 }
 
 .page__title {
@@ -148,6 +148,7 @@
   margin-bottom: 2em;
   margin-left: -1em;
   margin-right: -1em;
+  overflow: hidden;
 
   @include breakpoint($small) {
     margin-left: -2em;

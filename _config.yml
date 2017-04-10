@@ -40,11 +40,11 @@ author:
   url                    : "https://mademistakes.com/about/"
   bio                    : "Just another boring, tattooed, time traveling designer."
   picture                : "/assets/images/bio-photo.jpg"
-  twitter                : "mmistakes"
-  facebook               : "michaelrose"
-  instagram              : "mmistakes"
-  tumblr                 : "mademistakes"
-  github                 : "mmistakes"
+  twitter                : "https://twitter.com/mmistakes"
+  facebook               : "https://www.facebook.com/michaelrose"
+  instagram              : "https://www.instagram.com/mmistakes/"
+  tumblr                 : "http://mademistakes.tumblr.com/"
+  github                 : "https://github.com/mmistakes"
   google_plus            : "https://plus.google.com/+MichaelRoseDesign/posts"
 
 # Staticman comments (full configuration in staticman.yml)

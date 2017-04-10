@@ -3,6 +3,7 @@
 
 <ul class="tag__list--inline">
   <li><strong>Popular&nbsp;topics</strong></li>
+  {% assign tagLimiter = 0 %}
   {% for tag in site.tags %}
     {% comment %}create an empty array{% endcomment %}
     {% assign postsInCategory = "" | split: "/" %}
@@ -15,8 +16,9 @@
       {% endif %}
     {% endfor %}
 
-    {% comment %}poor man's tag limit on those that are frequently used {% endcomment %}
-    {% if postsInCategory.size >= 5 %}
+    {% comment %}poor man's tag limit on those that are frequently used{% endcomment %}
+    {% if postsInCategory.size >= 5 and tagLimiter <= 5 %}
+      {% assign tagLimiter = tagLimiter | plus: 1 %}
       <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item">{{ tag[0] | replace:' ','&nbsp;' }}</a></li>
     {% endif %}
   {% endfor %}
