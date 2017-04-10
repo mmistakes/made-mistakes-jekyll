@@ -7,7 +7,7 @@ excerpt: &excerpt "Gallery of digital paintings created with [Procreate](http://
 subtitle: *excerpt
 last_modified_at: 2017-04-08T22:46:05-04:00
 image: 
-  cover: /assets/images/procreate-logo-20.jpg
+  cover: /assets/images/procreate-logo-lq.jpg
   thumb: /assets/images/procreate-paintings-150.jpg
   teaser: &image /assets/images/procreate-paintings-teaser.jpg
   path: *image

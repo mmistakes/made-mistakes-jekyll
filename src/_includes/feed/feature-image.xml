@@ -1,5 +1,4 @@
-{% assign f = post.image.feature | split: '.' %}
 {% capture feed_feature_image %}
-  <img src="{{ site.url }}{{ f[0] }}-1600.{{ f[1] }}" alt="">
+  <img src="{{ site.url }}{{ post.image.feature }}" alt="">
 {% endcapture %}
 {{ feed_feature_image | markdownify | xml_escape }}

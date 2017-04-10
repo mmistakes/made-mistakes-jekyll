@@ -696,8 +696,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       margin-left: initial;
       margin-right: -41.1764705882%; } }
   .page__hero .image {
-    width: 100%;
-    box-shadow: 2em 2em 0 #fff, 2em -2em #fff; }
+    display: block;
+    width: 100%; }
   .page__hero .page__hero-credit {
     position: absolute;
     bottom: 0;

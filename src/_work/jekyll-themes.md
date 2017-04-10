@@ -5,7 +5,7 @@ excerpt: "Minimally designed open source Jekyll themes to get you started with h
 last_modified_at: 2017-03-30T12:17:48-04:00
 image: 
   path: &image /assets/images/jekyll-themes-feature.jpg
-  cover: /assets/images/jekyll-logo-20.jpg
+  cover: /assets/images/jekyll-logo-lq.jpg
   thumb: /assets/images/jekyll-themes-thumb-250x250.png
   teaser: /assets/images/jekyll-themes-teaser.png
 tags: [Jekyll, web development, open source, GitHub]

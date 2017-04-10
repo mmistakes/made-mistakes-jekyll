@@ -5,7 +5,7 @@
       {% if page.previous_in_category.image.cover %}
         <div class="teaser__bg" style="background-image: url({{ site.url }}{{ page.previous_in_category.image.cover }});"></div>
       {% elsif page.previous_in_category.image.feature %}
-        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_previous[0] }}-20.{{ f_previous[1] }});"></div>
+        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_previous[0] }}-lq.{{ f_previous[1] }});"></div>
       {% endif %}
       <div class="teaser__content">
         <a href="{{ page.previous_in_category.url }}">
@@ -22,7 +22,7 @@
       {% if page.next_in_category.image.cover %}
         <div class="teaser__bg" style="background-image: url({{ site.url }}{{ page.next_in_category.image.cover }});"></div>
       {% elsif page.next_in_category.image.feature %}
-        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_next[0] }}-20.{{ f_next[1] }});"></div>
+        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_next[0] }}-lq.{{ f_next[1] }});"></div>
       {% endif %}
       <div class="teaser__content">
         <a href="{{ page.next_in_category.url }}">

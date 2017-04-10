@@ -31,10 +31,8 @@ gulp.task('images', () =>
 
 // feature image resize values
 var options = [
-  { width: 20, upscale: false },
-  { width: 220, upscale: false },
-  { width: 768, upscale: true },
-  { width: 1600, upscale: true }
+  { width: 20, suffix: '-lq', upscale: false },
+  { width: 1920, suffix: '', upscale: false }
 ]
 
 // 'gulp images:feature' -- resize and optimize newer feature images
@@ -44,7 +42,7 @@ gulp.task('images:feature', function() {
     return gulp.src([paths.imageFiles + '/feature' + paths.imagePattern, '!' + paths.imageFiles + '/feature/**/*.svg'])
       .pipe(rename(function(file) {
         if(file.extname) {
-          file.basename += '-' + el.width
+          file.basename += el.suffix
         }
       }))
       .pipe(newer(paths.imageFilesSite))
@@ -55,15 +53,6 @@ gulp.task('images:feature', function() {
       ], {verbose: true}))
       .pipe(gulp.dest(paths.imageFilesSite))
   });
-
-  // add original feature images + optimize
-  streams.push(gulp.src(paths.imageFiles + '/feature' + paths.imagePattern)
-    .pipe(newer(paths.imageFilesSite))
-    .pipe(imagemin([
-      imagemin.jpegtran({progressive: true}),
-      imagemin.optipng()
-    ], {verbose: true}))
-    .pipe(gulp.dest(paths.imageFilesSite)))
 
   return merge2(streams);
 });
