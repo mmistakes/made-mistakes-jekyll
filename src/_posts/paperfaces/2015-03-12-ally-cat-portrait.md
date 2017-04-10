@@ -3,7 +3,7 @@ title: "Red vs Green"
 excerpt: "PaperFaces portrait of the Ally Cat drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-ally-cat-lg.jpg 
+  path: &image /assets/images/paperfaces-ally-cat.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ally-cat-teaser.jpg
   thumb: /assets/images/paperfaces-ally-cat-150.jpg

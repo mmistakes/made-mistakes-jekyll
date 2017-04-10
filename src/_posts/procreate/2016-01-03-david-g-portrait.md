@@ -3,7 +3,7 @@ title: "Beard Strokes for Days"
 excerpt: "Portrait of David G. digitally painted with Procreate on an iPad."
 last_modified_at: 2015-12-27T00:00:00-00:00
 image: 
-  path: &image /assets/images/david-g-procreate-lg.jpg
+  path: &image /assets/images/david-g-procreate.jpg
   feature: *image
   teaser: /assets/images/david-g-procreate-teaser.jpg
   thumb: /assets/images/david-g-procreate-250.jpg

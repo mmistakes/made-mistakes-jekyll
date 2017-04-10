@@ -2,7 +2,7 @@
 title: "Revisiting the First PaperFace"
 excerpt: "PaperFaces portrait of my wife revisited after two years of drawing with Paper."
 image: 
-  path: &image /assets/images/paperfaces-veganwendy-2-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-veganwendy-2-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-veganwendy-2-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-veganwendy-2-twitter-150.jpg

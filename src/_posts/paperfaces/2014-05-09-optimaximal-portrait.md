@@ -2,7 +2,7 @@
 title: "Crazy eye"
 excerpt: "PaperFaces portrait of @Optimaximal drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-optimaximal-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-optimaximal-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-optimaximal-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-optimaximal-twitter-150.jpg

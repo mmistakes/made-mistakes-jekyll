@@ -2,7 +2,7 @@
 title: "45 degree tilt"
 excerpt: "PaperFaces portrait of a Rose L. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-rose-l-lg.jpg 
+  path: &image /assets/images/paperfaces-rose-l.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rose-l-teaser.jpg
   thumb: /assets/images/paperfaces-rose-l-150.jpg

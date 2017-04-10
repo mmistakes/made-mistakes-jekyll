@@ -2,7 +2,7 @@
 title: "Rosey cheeks, green shadows"
 excerpt: "PaperFaces portrait of Makenna S. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-makenna-s-lg.jpg 
+  path: &image /assets/images/paperfaces-makenna-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-makenna-s-teaser.jpg
   thumb: /assets/images/paperfaces-makenna-s-150.jpg

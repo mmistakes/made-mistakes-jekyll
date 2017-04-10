@@ -3,7 +3,7 @@ title: "From Blue to Fuchsia"
 excerpt: "PaperFaces portrait of the Mi Mo drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-mi-mo-lg.jpg 
+  path: &image /assets/images/paperfaces-mi-mo.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mi-mo-teaser.jpg
   thumb: /assets/images/paperfaces-mi-mo-150.jpg

@@ -2,7 +2,7 @@
 title: "White ringed eyes"
 excerpt: "PaperFaces portrait of @twnsndco drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-twnsndco-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-twnsndco-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-twnsndco-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-twnsndco-twitter-150.jpg

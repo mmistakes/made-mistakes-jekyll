@@ -2,7 +2,7 @@
 title: "Fuzzy Sweater"
 excerpt: "PaperFaces portrait of Andrew E. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-andrew-eick-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-andrew-eick-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-andrew-eick-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-andrew-eick-twitter-150.jpg

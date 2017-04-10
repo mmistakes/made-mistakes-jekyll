@@ -3,7 +3,7 @@ title: "Rosebuds in Blur"
 excerpt: "PaperFaces portrait of the my two little rosebuds drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-rosebuds-blur-lg.jpg 
+  path: &image /assets/images/paperfaces-rosebuds-blur.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-blur-teaser.jpg
   thumb: /assets/images/paperfaces-rosebuds-blur-150.jpg

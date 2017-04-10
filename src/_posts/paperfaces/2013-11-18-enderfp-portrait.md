@@ -2,7 +2,7 @@
 title: "Blue beanie monkey"
 excerpt: "PaperFaces portrait of @enderFP drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-enderfp-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-enderfp-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-enderfp-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

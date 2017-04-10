@@ -2,7 +2,7 @@
 title: "The one who knocks"
 excerpt: "PaperFaces portrait of @dillydallygames drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-dillydallygames-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-dillydallygames-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-dillydallygames-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-dillydallygames-twitter-150.jpg

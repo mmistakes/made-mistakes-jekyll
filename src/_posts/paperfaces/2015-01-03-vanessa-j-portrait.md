@@ -3,7 +3,7 @@ title: "Pull My Lips"
 excerpt: "PaperFaces portrait of the Vanessa J. drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-vanessa-j-lg.jpg 
+  path: &image /assets/images/paperfaces-vanessa-j.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-vanessa-j-teaser.jpg
   thumb: /assets/images/paperfaces-vanessa-j-150.jpg

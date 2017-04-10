@@ -2,7 +2,7 @@
 title: "Glitching out"
 excerpt: "PaperFaces portrait of @thenimesh drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-thenimesh-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-thenimesh-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-thenimesh-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-thenimesh-twitter-150.jpg

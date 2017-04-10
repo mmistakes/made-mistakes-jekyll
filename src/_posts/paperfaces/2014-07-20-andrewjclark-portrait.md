@@ -2,7 +2,7 @@
 title: "Earbud buds"
 excerpt: "PaperFaces portrait of @andrewjclark drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-andrewjclark-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-andrewjclark-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-andrewjclark-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-andrewjclark-twitter-150.jpg

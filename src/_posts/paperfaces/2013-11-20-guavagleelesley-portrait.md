@@ -2,7 +2,7 @@
 title: "I caught a fish this big"
 excerpt: "PaperFaces portrait of @GuavaGleeLesley drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-guavagleelesley-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-guavagleelesley-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-guavagleelesley-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]

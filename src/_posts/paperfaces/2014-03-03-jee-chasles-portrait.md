@@ -2,7 +2,7 @@
 title: "Hand tats"
 excerpt: "PaperFaces portrait of a Jee Chasles drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jee-chasles-lg.jpg 
+  path: &image /assets/images/paperfaces-jee-chasles.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jee-chasles-teaser.jpg
   thumb: /assets/images/paperfaces-jee-chasles-150.jpg

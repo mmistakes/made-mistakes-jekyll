@@ -2,7 +2,7 @@
 title: "Ferris wheel at night"
 excerpt: "PaperFaces portrait of @keyflake drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-keyflake-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-keyflake-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-keyflake-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]

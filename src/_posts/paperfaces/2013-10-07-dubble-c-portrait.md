@@ -2,7 +2,7 @@
 title: "Maps and earbuds"
 excerpt: "PaperFaces portrait of @Dubble_C drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-dubble-c-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-dubble-c-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-dubble-c-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]

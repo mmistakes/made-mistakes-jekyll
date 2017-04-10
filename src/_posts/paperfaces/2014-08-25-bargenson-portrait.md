@@ -2,7 +2,7 @@
 title: "Wind Blown Guile Hair"
 excerpt: "PaperFaces portrait of @bargenson drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-bargenson-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-bargenson-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bargenson-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-bargenson-twitter-150.jpg

@@ -2,7 +2,7 @@
 title: "I'm the Firestarter"
 excerpt: "PaperFaces portrait of @WeiHeng_ drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-weiheng-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-weiheng-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-weiheng-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-weiheng-twitter-150.jpg

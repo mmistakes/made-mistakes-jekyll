@@ -2,7 +2,7 @@
 title: "Intense eye"
 excerpt: "PaperFaces portrait of @rdraether drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-rdraether-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-rdraether-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rdraether-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-rdraether-twitter-150.jpg

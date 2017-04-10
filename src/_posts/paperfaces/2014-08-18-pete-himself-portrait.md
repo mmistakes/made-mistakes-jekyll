@@ -2,7 +2,7 @@
 title: "By Himself"
 excerpt: "PaperFaces portrait of @pete_himself drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-pete-himself-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-pete-himself-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-pete-himself-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-pete-himself-twitter-150.jpg

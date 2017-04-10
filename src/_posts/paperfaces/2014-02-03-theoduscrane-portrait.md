@@ -2,7 +2,7 @@
 title: "Yellow shirt and blur"
 excerpt: "PaperFaces portrait of @theoduscrane drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-theoduscrane-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-theoduscrane-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-theoduscrane-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-theoduscrane-twitter-150.jpg

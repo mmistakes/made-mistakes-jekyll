@@ -2,7 +2,7 @@
 title: "Walter White look a like?"
 excerpt: "PaperFaces portrait of @PeSch67 drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-pesch67-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-pesch67-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-pesch67-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-pesch67-twitter-150.jpg

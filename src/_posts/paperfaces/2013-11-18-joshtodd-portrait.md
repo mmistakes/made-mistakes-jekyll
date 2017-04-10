@@ -2,7 +2,7 @@
 title: "Drawing with DayGlo"
 excerpt: "PaperFaces portrait of @JoshTodd drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-joshtodd-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-joshtodd-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-joshtodd-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

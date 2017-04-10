@@ -2,7 +2,7 @@
 title: "Blurry foliage portrait"
 excerpt: "PaperFaces portrait of @jackmcdade drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jackmcdade-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-jackmcdade-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jackmcdade-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-jackmcdade-twitter-150.jpg

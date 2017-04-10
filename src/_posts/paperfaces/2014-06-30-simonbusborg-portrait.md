@@ -2,7 +2,7 @@
 title: "Hoodies and architecture"
 excerpt: "PaperFaces portrait of @simonbusborg drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-simonbusborg-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-simonbusborg-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-simonbusborg-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-simonbusborg-twitter-150.jpg

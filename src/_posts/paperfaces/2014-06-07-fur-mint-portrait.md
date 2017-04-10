@@ -2,7 +2,7 @@
 title: "Your shirt is unbuttoned"
 excerpt: "PaperFaces portrait of a Fur Mint drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-fur-mint-lg.jpg 
+  path: &image /assets/images/paperfaces-fur-mint.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-fur-mint-teaser.jpg
   thumb: /assets/images/paperfaces-fur-mint-150.jpg

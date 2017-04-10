@@ -2,7 +2,7 @@
 title: "Stop staring at me"
 excerpt: "PaperFaces portrait of Ryan S. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ryan-s-lg.jpg 
+  path: &image /assets/images/paperfaces-ryan-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ryan-s-teaser.jpg
   thumb: /assets/images/paperfaces-ryan-s-150.jpg

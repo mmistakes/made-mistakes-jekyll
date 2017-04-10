@@ -2,7 +2,7 @@
 title: "Forest lighting"
 excerpt: "PaperFaces portrait of Kayla E. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kayla-e-lg.jpg 
+  path: &image /assets/images/paperfaces-kayla-e.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kayla-e-teaser.jpg
   thumb: /assets/images/paperfaces-kayla-e-150.jpg

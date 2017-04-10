@@ -3,7 +3,7 @@ title: "Bubble Bubble"
 excerpt: "PaperFaces portrait of the Kalani O. drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-kalani-o-lg.jpg 
+  path: &image /assets/images/paperfaces-kalani-o.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kalani-o-teaser.jpg
   thumb: /assets/images/paperfaces-kalani-o-150.jpg

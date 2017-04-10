@@ -2,7 +2,7 @@
 title: "Flipped lid"
 excerpt: "PaperFaces portrait of @B_A_W drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-b-a-w-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-b-a-w-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-b-a-w-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-b-a-w-twitter-150.jpg

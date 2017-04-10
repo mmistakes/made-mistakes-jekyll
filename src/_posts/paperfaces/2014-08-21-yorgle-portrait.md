@@ -2,7 +2,7 @@
 title: "Lego Man"
 excerpt: "PaperFaces portrait of @yorgle drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-yorgle-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-yorgle-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-yorgle-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-yorgle-twitter-150.jpg

@@ -2,7 +2,7 @@
 title: "Polka dot draws"
 excerpt: "PaperFaces portrait of Kirsten B. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kirsten-b-lg.jpg 
+  path: &image /assets/images/paperfaces-kirsten-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kirsten-b-teaser.jpg
   thumb: /assets/images/paperfaces-kirsten-b-150.jpg

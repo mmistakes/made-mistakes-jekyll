@@ -2,7 +2,7 @@
 title: "Google Glass fancy future"
 excerpt: "PaperFaces portrait of @fighto drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-fighto-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-fighto-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-fighto-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, Google Glass]

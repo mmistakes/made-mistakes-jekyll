@@ -2,7 +2,7 @@
 title: "Hand on hand"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-romantic-couple-lg.jpg 
+  path: &image /assets/images/paperfaces-romantic-couple.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-romantic-couple-teaser.jpg
   thumb: /assets/images/paperfaces-romantic-couple-150.jpg

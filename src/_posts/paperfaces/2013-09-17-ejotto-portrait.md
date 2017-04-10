@@ -2,7 +2,7 @@
 title: "Woof! Cuddle in gray"
 excerpt: "PaperFaces portrait of @ejotto drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ejotto-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-ejotto-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-ejotto-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]

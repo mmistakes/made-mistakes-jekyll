@@ -3,7 +3,7 @@ title: "Oh Eye Dunno"
 excerpt: "PaperFaces portrait of the Kapi M. drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-kapi-m-lg.jpg 
+  path: &image /assets/images/paperfaces-kapi-m.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kapi-m-teaser.jpg
   thumb: /assets/images/paperfaces-kapi-m-150.jpg

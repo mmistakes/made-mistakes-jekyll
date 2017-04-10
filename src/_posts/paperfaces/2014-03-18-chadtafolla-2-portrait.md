@@ -2,7 +2,7 @@
 title: "Drinks in gray"
 excerpt: "PaperFaces portrait of @chadtafolla drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-chadtafolla-2-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-chadtafolla-2-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-chadtafolla-2-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-chadtafolla-2-twitter-150.jpg

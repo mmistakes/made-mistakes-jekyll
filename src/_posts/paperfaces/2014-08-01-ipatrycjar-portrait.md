@@ -2,7 +2,7 @@
 title: "Very Painterly"
 excerpt: "PaperFaces portrait of @iPatrycjaR drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ipatrycjar-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-ipatrycjar-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ipatrycjar-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-ipatrycjar-twitter-150.jpg

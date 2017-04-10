@@ -2,7 +2,7 @@
 title: "Half and Half"
 excerpt: "PaperFaces portrait of Fynlay P. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-fynlay-p-lg.jpg 
+  path: &image /assets/images/paperfaces-fynlay-p.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-fynlay-p-teaser.jpg
   thumb: /assets/images/paperfaces-fynlay-p-150.jpg

@@ -2,7 +2,7 @@
 title: "All alone"
 excerpt: "PaperFaces portrait of @ikaish drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ikaish-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-ikaish-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ikaish-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-ikaish-twitter-150.jpg

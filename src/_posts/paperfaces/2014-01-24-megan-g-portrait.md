@@ -2,7 +2,7 @@
 title: "Blizzard protection"
 excerpt: "PaperFaces portrait of Megan G. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-megan-g-lg.jpg 
+  path: &image /assets/images/paperfaces-megan-g.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-megan-g-teaser.jpg
   thumb: /assets/images/paperfaces-megan-g-150.jpg

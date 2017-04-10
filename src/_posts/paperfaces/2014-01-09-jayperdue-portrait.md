@@ -2,7 +2,7 @@
 title: "Orange you glad I didn't…"
 excerpt: "PaperFaces portrait of @jayperdue drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jayperdue-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-jayperdue-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-jayperdue-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, beard]

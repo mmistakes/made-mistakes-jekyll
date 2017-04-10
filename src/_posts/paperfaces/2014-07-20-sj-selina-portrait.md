@@ -2,7 +2,7 @@
 title: "Ripped jeans"
 excerpt: "PaperFaces portrait of @SJ_Selina drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-sj-selina-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-sj-selina-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-sj-selina-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-sj-selina-twitter-150.jpg

@@ -2,7 +2,7 @@
 title: "Details in the sunglasses"
 excerpt: "PaperFaces portrait of @cocoapriest drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-cocoapriest-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-cocoapriest-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-cocoapriest-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-cocoapriest-twitter-150.jpg

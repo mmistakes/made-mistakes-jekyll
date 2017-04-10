@@ -2,7 +2,7 @@
 title: "Chalkboard Words"
 excerpt: "PaperFaces portrait of the Charlotte H. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-charlotte-h-lg.jpg 
+  path: &image /assets/images/paperfaces-charlotte-h.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-charlotte-h-teaser.jpg
   thumb: /assets/images/paperfaces-charlotte-h-150.jpg

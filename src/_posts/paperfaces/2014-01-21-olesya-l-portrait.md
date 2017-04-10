@@ -2,7 +2,7 @@
 title: "Fancy shear and flowers"
 excerpt: "PaperFaces portrait of Olesya L. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-olesya-l-lg.jpg 
+  path: &image /assets/images/paperfaces-olesya-l.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-olesya-l-teaser.jpg
   thumb: /assets/images/paperfaces-olesya-l-150.jpg

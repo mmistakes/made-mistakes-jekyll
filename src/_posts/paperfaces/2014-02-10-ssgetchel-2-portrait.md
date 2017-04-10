@@ -2,7 +2,7 @@
 title: "A revisit in gray"
 excerpt: "PaperFaces portrait of @ssgetchel drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ssgetchel-2-instagram-lg.jpg 
+  path: &image /assets/images/paperfaces-ssgetchel-2-instagram.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ssgetchel-2-instagram-teaser.jpg
   thumb: /assets/images/paperfaces-ssgetchel-2-instagram-150.jpg

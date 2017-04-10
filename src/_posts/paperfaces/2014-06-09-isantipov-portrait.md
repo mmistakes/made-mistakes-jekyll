@@ -2,7 +2,7 @@
 title: "Smoke if ya got ’em"
 excerpt: "PaperFaces portrait of @Isantipov drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-isantipov-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-isantipov-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-isantipov-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-isantipov-twitter-150.jpg

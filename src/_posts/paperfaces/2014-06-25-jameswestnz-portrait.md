@@ -2,7 +2,7 @@
 title: "Balancing act"
 excerpt: "PaperFaces portrait of @jameswestnz drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jameswestnz-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-jameswestnz-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jameswestnz-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-jameswestnz-twitter-150.jpg

@@ -2,7 +2,7 @@
 title: "Faking Pencil with Pencil"
 excerpt: "PaperFaces portrait of the Princess E. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-princess-e-lg.jpg 
+  path: &image /assets/images/paperfaces-princess-e.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-princess-e-teaser.jpg
   thumb: /assets/images/paperfaces-princess-e-150.jpg

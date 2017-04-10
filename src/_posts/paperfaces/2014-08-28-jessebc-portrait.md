@@ -2,7 +2,7 @@
 title: "Groomed Beard Blur"
 excerpt: "PaperFaces portrait of @jessebc drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jessebc-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-jessebc-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jessebc-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-jessebc-twitter-150.jpg

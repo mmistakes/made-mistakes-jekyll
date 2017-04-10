@@ -2,7 +2,7 @@
 title: "Rugged hat in sunlight"
 excerpt: "PaperFaces portrait of Susi drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-susi-lg.jpg 
+  path: &image /assets/images/paperfaces-susi.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-susi-teaser.jpg
   thumb: /assets/images/paperfaces-susi-150.jpg

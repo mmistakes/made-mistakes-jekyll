@@ -2,7 +2,7 @@
 title: "Wearing Glass like a boss"
 excerpt: "PaperFaces portrait of @mikeredmer drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-mikeredmer-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-mikeredmer-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mikeredmer-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-mikeredmer-twitter-150.jpg

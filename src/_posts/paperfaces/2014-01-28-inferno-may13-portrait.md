@@ -2,7 +2,7 @@
 title: "Ears covered in sounds"
 excerpt: "PaperFaces portrait of @Inferno_May13 drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-inferno-may13-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-inferno-may13-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-inferno-may13-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-inferno-may13-twitter-150.jpg

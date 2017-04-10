@@ -2,7 +2,7 @@
 title: "Graduation in the sun"
 excerpt: "PaperFaces portrait of Fivepops drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-fivepops-lg.jpg 
+  path: &image /assets/images/paperfaces-fivepops.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-fivepops-teaser.jpg
   thumb: /assets/images/paperfaces-fivepops-150.jpg

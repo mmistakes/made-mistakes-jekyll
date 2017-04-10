@@ -2,7 +2,7 @@
 title: "Visible Pencil Strokes"
 excerpt: "PaperFaces portrait of a Jonas C. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jonas-c-lg.jpg 
+  path: &image /assets/images/paperfaces-jonas-c.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jonas-c-teaser.jpg
   thumb: /assets/images/paperfaces-jonas-c-150.jpg

@@ -2,7 +2,7 @@
 title: "Grumpy cat"
 excerpt: "PaperFaces portrait of a Duha A. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-duha-a-lg.jpg 
+  path: &image /assets/images/paperfaces-duha-a.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-duha-a-teaser.jpg
   thumb: /assets/images/paperfaces-duha-a-150.jpg

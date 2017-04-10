@@ -2,7 +2,7 @@
 title: "An unlit cig can't kill you"
 excerpt: "PaperFaces portrait of a Ero Brat drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ero-brat-lg.jpg 
+  path: &image /assets/images/paperfaces-ero-brat.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ero-brat-teaser.jpg
   thumb: /assets/images/paperfaces-ero-brat-150.jpg

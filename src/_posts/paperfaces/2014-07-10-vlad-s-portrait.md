@@ -2,7 +2,7 @@
 title: "The darkness"
 excerpt: "PaperFaces portrait of Vlad S. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-vlad-s-lg.jpg 
+  path: &image /assets/images/paperfaces-vlad-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-vlad-s-teaser.jpg
   thumb: /assets/images/paperfaces-vlad-s-150.jpg

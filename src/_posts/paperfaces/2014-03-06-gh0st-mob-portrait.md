@@ -2,7 +2,7 @@
 title: "Leather jacket"
 excerpt: "PaperFaces portrait of @gh0st_mob drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-gh0st-mob-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-gh0st-mob-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-gh0st-mob-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-gh0st-mob-twitter-150.jpg

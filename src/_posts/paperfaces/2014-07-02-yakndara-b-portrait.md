@@ -2,7 +2,7 @@
 title: "Heard you like eyes"
 excerpt: "PaperFaces portrait of Yakndara B. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-yakndara-b-lg.jpg 
+  path: &image /assets/images/paperfaces-yakndara-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-yakndara-b-teaser.jpg
   thumb: /assets/images/paperfaces-yakndara-b-150.jpg

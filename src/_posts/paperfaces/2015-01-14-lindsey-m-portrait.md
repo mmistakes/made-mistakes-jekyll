@@ -3,7 +3,7 @@ title: "Drape Fold the Shoulder"
 excerpt: "PaperFaces portrait of the Lindsey M. drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-lindsey-m-lg.jpg 
+  path: &image /assets/images/paperfaces-lindsey-m.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lindsey-m-teaser.jpg
   thumb: /assets/images/paperfaces-lindsey-m-150.jpg

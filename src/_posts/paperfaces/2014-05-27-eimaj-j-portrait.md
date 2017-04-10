@@ -2,7 +2,7 @@
 title: "Sun hat"
 excerpt: "PaperFaces portrait of @eimaj_j drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-eimaj-j-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-eimaj-j-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-eimaj-j-twitter-150.jpg
   teaser: /assets/images/paperfaces-eimaj-j-twitter-teaser.jpg

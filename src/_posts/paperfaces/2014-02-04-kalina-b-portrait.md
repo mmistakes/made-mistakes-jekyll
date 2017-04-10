@@ -2,7 +2,7 @@
 title: "Weathered wood"
 excerpt: "PaperFaces portrait of Kalina B. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kalina-b-lg.jpg 
+  path: &image /assets/images/paperfaces-kalina-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kalina-b-teaser.jpg
   thumb: /assets/images/paperfaces-kalina-b-150.jpg

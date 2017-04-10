@@ -2,7 +2,7 @@
 title: "Blood bath"
 excerpt: "PaperFaces portrait of Kim S. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kim-s-lg.jpg 
+  path: &image /assets/images/paperfaces-kim-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kim-s-teaser.jpg
   thumb: /assets/images/paperfaces-kim-s-150.jpg

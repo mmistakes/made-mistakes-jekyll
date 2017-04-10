@@ -2,7 +2,7 @@
 title: "King of pop"
 excerpt: "PaperFaces portrait of @iPeterCao drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ipetercao-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-ipetercao-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ipetercao-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-ipetercao-twitter-150.jpg

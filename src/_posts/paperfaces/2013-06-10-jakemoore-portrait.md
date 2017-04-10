@@ -2,7 +2,7 @@
 title: "Sun lights the hair in a bokeh filled afternoon"
 excerpt: "PaperFaces portrait of @JakeMoore drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jakemoore-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-jakemoore-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jakemoore-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-jakemoore-twitter-150.jpg

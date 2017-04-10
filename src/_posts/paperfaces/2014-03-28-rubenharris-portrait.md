@@ -2,7 +2,7 @@
 title: "Cello, is it me you're looking for?"
 excerpt: "PaperFaces portrait of @rubenharris drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-rubenharris-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-rubenharris-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rubenharris-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-rubenharris-twitter-150.jpg

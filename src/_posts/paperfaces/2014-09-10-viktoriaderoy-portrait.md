@@ -2,7 +2,7 @@
 title: "Portrait Winner Number 3"
 excerpt: "PaperFaces portrait of @ViktoriaDeRoy drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-viktoriaderoy-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-viktoriaderoy-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-viktoriaderoy-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-viktoriaderoy-twitter-150.jpg

@@ -2,7 +2,7 @@
 title: "Blood prayers"
 excerpt: "PaperFaces portrait of Jennifer O. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jennifer-o-lg.jpg 
+  path: &image /assets/images/paperfaces-jennifer-o.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jennifer-o-teaser.jpg
   thumb: /assets/images/paperfaces-jennifer-o-150.jpg

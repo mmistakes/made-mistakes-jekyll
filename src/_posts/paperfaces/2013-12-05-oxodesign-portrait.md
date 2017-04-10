@@ -2,7 +2,7 @@
 title: "Bright whites"
 excerpt: "PaperFaces portrait of @oxodesign drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-oxodesign-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-oxodesign-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-oxodesign-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

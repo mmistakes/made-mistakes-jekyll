@@ -2,7 +2,7 @@
 title: "Artist in gray"
 excerpt: "PaperFaces portrait of a Joan Martin drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-joan-martin-lg.jpg 
+  path: &image /assets/images/paperfaces-joan-martin.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-joan-martin-teaser.jpg
   thumb: /assets/images/paperfaces-joan-martin-150.jpg

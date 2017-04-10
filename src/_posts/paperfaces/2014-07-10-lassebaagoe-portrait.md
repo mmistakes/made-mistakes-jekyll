@@ -2,7 +2,7 @@
 title: "Four lights"
 excerpt: "PaperFaces portrait of @lassebaagoe drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-lassebaagoe-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-lassebaagoe-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lassebaagoe-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-lassebaagoe-twitter-150.jpg

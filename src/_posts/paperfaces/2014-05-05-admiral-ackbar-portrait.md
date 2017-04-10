@@ -2,7 +2,7 @@
 title: "It's a trap!"
 excerpt: "PaperFaces portrait Admiral Ackbar drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-admiral-ackbar-lg.jpg 
+  path: &image /assets/images/paperfaces-admiral-ackbar.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-admiral-ackbar-teaser.jpg
   thumb: /assets/images/paperfaces-admiral-ackbar-150.jpg

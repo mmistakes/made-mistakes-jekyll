@@ -2,7 +2,7 @@
 title: "Scruffy beard revisited"
 excerpt: "Another PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-mmistakes-2-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-mmistakes-2-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mmistakes-2-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-mmistakes-2-twitter-150.jpg

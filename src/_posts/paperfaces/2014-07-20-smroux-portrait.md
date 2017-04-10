@@ -2,7 +2,7 @@
 title: "Mountain Posing"
 excerpt: "PaperFaces portrait of @smroux drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-smroux-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-smroux-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-smroux-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-smroux-twitter-150.jpg

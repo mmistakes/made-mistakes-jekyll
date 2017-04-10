@@ -2,7 +2,7 @@
 title: "Curls at the beach"
 excerpt: "PaperFaces portrait of @CollinsMandy drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-collinsmandy-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-collinsmandy-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-collinsmandy-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-collinsmandy-twitter-150.jpg

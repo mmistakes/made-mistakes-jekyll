@@ -2,7 +2,7 @@
 title: "Blank stare"
 excerpt: "PaperFaces portrait of @robeberhardt drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-robeberhardt-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-robeberhardt-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-robeberhardt-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-robeberhardt-twitter-150.jpg

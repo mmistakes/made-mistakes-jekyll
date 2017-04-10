@@ -2,7 +2,7 @@
 title: "Raining hearts"
 excerpt: "PaperFaces portrait of @BollyWooed drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-bollywooed-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-bollywooed-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-bollywooed-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]

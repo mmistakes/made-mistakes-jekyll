@@ -2,7 +2,7 @@
 title: "Here goes nothing"
 excerpt: "PaperFaces portrait Lando Calrissian drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-lando-calrissian-lg.jpg 
+  path: &image /assets/images/paperfaces-lando-calrissian.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lando-calrissian-teaser.jpg
   thumb: /assets/images/paperfaces-lando-calrissian-150.jpg

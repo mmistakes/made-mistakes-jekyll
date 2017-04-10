@@ -2,7 +2,7 @@
 title: "Hats in a car"
 excerpt: "PaperFaces portrait of @bobbydharrell drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-bobbydharrell-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-bobbydharrell-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-bobbydharrell-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

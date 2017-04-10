@@ -2,7 +2,7 @@
 title: "Rosebuds in the Pumpkin Patch"
 excerpt: "PaperFaces portrait of my two little rosebuds playing at the Great Pumpkin Farm."
 image: 
-  path: &image /assets/images/paperfaces-rosebuds-pumpkins-lg.jpg 
+  path: &image /assets/images/paperfaces-rosebuds-pumpkins.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-pumpkins-teaser.jpg
   thumb: /assets/images/paperfaces-rosebuds-pumpkins-150.jpg

@@ -2,7 +2,7 @@
 title: "Jedi scum"
 excerpt: "PaperFaces portrait General Grievous drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-general-grievous-lg.jpg 
+  path: &image /assets/images/paperfaces-general-grievous.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-general-grievous-teaser.jpg
   thumb: /assets/images/paperfaces-general-grievous-150.jpg

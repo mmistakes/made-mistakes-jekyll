@@ -2,7 +2,7 @@
 title: "Beard envy"
 excerpt: "PaperFaces portrait of a M Large drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-m-large-lg.jpg 
+  path: &image /assets/images/paperfaces-m-large.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-m-large-teaser.jpg
   thumb: /assets/images/paperfaces-m-large-150.jpg

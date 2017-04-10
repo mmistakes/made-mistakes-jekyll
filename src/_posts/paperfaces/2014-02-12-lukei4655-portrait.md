@@ -2,7 +2,7 @@
 title: "Beard at an angle"
 excerpt: "PaperFaces portrait of @lukei4655 drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-lukei4655-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-lukei4655-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lukei4655-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-lukei4655-twitter-150.jpg

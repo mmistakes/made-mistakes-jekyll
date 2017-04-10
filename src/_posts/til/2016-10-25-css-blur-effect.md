@@ -6,7 +6,7 @@ last_modified_at: 2016-11-04T16:13:05-04:00
 image:
   path: &image /assets/images/gradient-01-teaser.jpg
   teaser: *image
-  cover: /assets/images/gradient-01-20.jpg
+  cover: /assets/images/gradient-01-lq.jpg
 ---
 
 Playing with the new **Depth Effect** (aka [*fauxkeh*](https://www.instagram.com/explore/tags/fauxkeh/)) on my iPhone 7 Plus got me thinking about Gaussian blurs, and how to improve their use on this site.

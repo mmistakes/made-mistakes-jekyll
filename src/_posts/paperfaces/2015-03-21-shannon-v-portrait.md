@@ -3,7 +3,7 @@ title: "Driving Sunset"
 excerpt: "PaperFaces portrait of the Shannon V. drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-shannon-v-lg.jpg 
+  path: &image /assets/images/paperfaces-shannon-v.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-shannon-v-teaser.jpg
   thumb: /assets/images/paperfaces-shannon-v-150.jpg

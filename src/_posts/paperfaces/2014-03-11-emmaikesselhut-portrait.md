@@ -2,7 +2,7 @@
 title: "The color of ice"
 excerpt: "PaperFaces portrait of @EmmaIKesselhut drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-emmaikesselhut-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-emmaikesselhut-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-emmaikesselhut-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-emmaikesselhut-twitter-150.jpg

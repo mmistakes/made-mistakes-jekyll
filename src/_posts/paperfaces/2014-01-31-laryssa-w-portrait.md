@@ -2,7 +2,7 @@
 title: "Peekaboo halved"
 excerpt: "PaperFaces portrait of Laryssa W. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-laryssa-w-lg.jpg 
+  path: &image /assets/images/paperfaces-laryssa-w.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-laryssa-w-teaser.jpg
   thumb: /assets/images/paperfaces-laryssa-w-150.jpg

@@ -2,7 +2,7 @@
 title: "White Rooms Always"
 excerpt: "PaperFaces portrait of @craiginwales drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-craiginwales-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-craiginwales-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-craiginwales-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-craiginwales-twitter-150.jpg

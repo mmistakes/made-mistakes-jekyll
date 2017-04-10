@@ -2,7 +2,7 @@
 title: "Glasses of the gray"
 excerpt: "PaperFaces portrait of @timothykrell drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-timothykrell-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-timothykrell-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-timothykrell-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-timothykrell-twitter-150.jpg

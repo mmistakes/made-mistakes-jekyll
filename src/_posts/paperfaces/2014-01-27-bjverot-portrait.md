@@ -2,7 +2,7 @@
 title: "Looking forward"
 excerpt: "PaperFaces portrait of @BJVerot drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-bjverot-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-bjverot-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bjverot-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-bjverot-twitter-150.jpg

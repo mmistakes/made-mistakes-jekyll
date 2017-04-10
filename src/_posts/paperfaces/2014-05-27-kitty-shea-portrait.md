@@ -2,7 +2,7 @@
 title: "Eyes up"
 excerpt: "PaperFaces portrait of a Kitty Shea drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kitty-shea-lg.jpg 
+  path: &image /assets/images/paperfaces-kitty-shea.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-kitty-shea-150.jpg
   teaser: /assets/images/paperfaces-kitty-shea-teaser.jpg

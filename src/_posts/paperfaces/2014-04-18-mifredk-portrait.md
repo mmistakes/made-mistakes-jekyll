@@ -2,7 +2,7 @@
 title: "Buttoned up in a sweater"
 excerpt: "PaperFaces portrait of @mifredk drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-mifredk-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-mifredk-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mifredk-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-mifredk-twitter-150.jpg

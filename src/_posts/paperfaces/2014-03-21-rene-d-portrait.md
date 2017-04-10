@@ -2,7 +2,7 @@
 title: "Direct sunlight and bokeh part 2"
 excerpt: "PaperFaces portrait of Rene D. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-rene-d-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-rene-d-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rene-d-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-rene-d-twitter-150.jpg

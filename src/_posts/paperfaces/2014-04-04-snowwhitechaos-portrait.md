@@ -2,7 +2,7 @@
 title: "Causing chaos"
 excerpt: "PaperFaces portrait of @SnowWhiteChaos drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-snowwhitechaos-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-snowwhitechaos-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-snowwhitechaos-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-snowwhitechaos-twitter-150.jpg

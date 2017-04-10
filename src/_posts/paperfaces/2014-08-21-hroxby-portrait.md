@@ -2,7 +2,7 @@
 title: "Soft and Light"
 excerpt: "PaperFaces portrait of @HRoxby drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-hroxby-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-hroxby-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-hroxby-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-hroxby-twitter-150.jpg

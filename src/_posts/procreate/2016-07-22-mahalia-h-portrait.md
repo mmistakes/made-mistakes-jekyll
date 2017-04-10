@@ -3,7 +3,7 @@ title: "Eyes Be Damned"
 excerpt: "Portrait of Mahalia H. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-07-22T10:48:14-04:00
 image: 
-  path: &image /assets/images/mahalia-h-procreate-lg.jpg
+  path: &image /assets/images/mahalia-h-procreate.jpg
   feature: *image
   teaser: /assets/images/mahalia-h-procreate-teaser.jpg
   thumb: /assets/images/mahalia-h-procreate-250.jpg

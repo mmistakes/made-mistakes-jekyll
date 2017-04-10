@@ -2,7 +2,7 @@
 title: "Spooky sepia lighting"
 excerpt: "PaperFaces portrait of @Alasdair91 drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-alasdair91-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-alasdair91-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-alasdair91-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]

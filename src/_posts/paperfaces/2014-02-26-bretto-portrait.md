@@ -2,7 +2,7 @@
 title: "Green strikes the glasses"
 excerpt: "PaperFaces portrait of @bretto drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-bretto-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-bretto-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bretto-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-bretto-twitter-150.jpg

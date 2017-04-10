@@ -3,7 +3,7 @@ title: "Blushing My Cheeks"
 excerpt: "Portrait of Jordan S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-06T10:03:00-05:00
 image: 
-  path: &image /assets/images/jordan-s-procreate-lg.jpg
+  path: &image /assets/images/jordan-s-procreate.jpg
   feature: *image
   teaser: /assets/images/jordan-s-procreate-teaser.jpg
   thumb: /assets/images/jordan-s-procreate-250.jpg

@@ -2,7 +2,7 @@
 title: "Car ride reflections"
 excerpt: "PaperFaces portrait of @bingopajamas drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-bingopajamas-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-bingopajamas-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bingopajamas-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-bingopajamas-twitter-150.jpg

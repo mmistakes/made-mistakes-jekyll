@@ -2,7 +2,7 @@
 title: "Smile directed at 270 degrees"
 excerpt: "PaperFaces portrait of @ClaytonFarr drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-claytonfarr-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-claytonfarr-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-claytonfarr-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-claytonfarr-twitter-150.jpg

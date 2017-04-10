@@ -3,7 +3,7 @@ title: "In Your Face"
 excerpt: "Tiny portrait of Adam Vitry, painted with watercolor on hot press paper."
 last_modified_at: 2016-06-10T11:38:48-04:00
 image: 
-  path: &image /assets/images/painting-adam-vitry-lg.jpg
+  path: &image /assets/images/painting-adam-vitry.jpg
   feature: *image
   teaser: /assets/images/painting-adam-vitry-teaser.jpg
   thumb: /assets/images/painting-adam-vitry-250.jpg

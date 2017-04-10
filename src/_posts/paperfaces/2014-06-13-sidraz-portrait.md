@@ -2,7 +2,7 @@
 title: "Curls of orange"
 excerpt: "PaperFaces portrait of @sidraz drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-sidraz-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-sidraz-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-sidraz-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-sidraz-twitter-150.jpg

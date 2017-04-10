@@ -2,7 +2,7 @@
 title: "Wanna fight?"
 excerpt: "PaperFaces portrait of @melissabalkon drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-melissabalkon-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-melissabalkon-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-melissabalkon-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]

@@ -2,7 +2,7 @@
 title: "Eyes that pierce"
 excerpt: "PaperFaces portrait of @kylesethgray drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kylesethgray-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-kylesethgray-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kylesethgray-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-kylesethgray-twitter-150.jpg

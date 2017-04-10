@@ -2,7 +2,7 @@
 title: "Balance is everything"
 excerpt: "PaperFaces portrait of @clepetit drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-clepetit-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-clepetit-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-clepetit-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

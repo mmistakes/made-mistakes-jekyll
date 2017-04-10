@@ -2,7 +2,7 @@
 title: "Illusion of the eye"
 excerpt: "PaperFaces portrait of @robhampson drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-robhampson-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-robhampson-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-robhampson-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-robhampson-twitter-150.jpg

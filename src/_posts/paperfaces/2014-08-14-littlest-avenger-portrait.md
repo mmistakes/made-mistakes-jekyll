@@ -2,7 +2,7 @@
 title: "The Littlest Avenger"
 excerpt: "PaperFaces portrait of the littlest Avenger drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-littlest-avenger-lg.jpg 
+  path: &image /assets/images/paperfaces-littlest-avenger.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-littlest-avenger-teaser.jpg
   thumb: /assets/images/paperfaces-littlest-avenger-150.jpg

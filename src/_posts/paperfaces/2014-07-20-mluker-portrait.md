@@ -2,7 +2,7 @@
 title: "Pixelated glasses"
 excerpt: "PaperFaces portrait of @mluker drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-mluker-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-mluker-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mluker-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-mluker-twitter-150.jpg

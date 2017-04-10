@@ -2,7 +2,7 @@
 title: "In a gray room"
 excerpt: "PaperFaces portrait of @scoutu drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-scoutu-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-scoutu-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-scoutu-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-scoutu-twitter-150.jpg

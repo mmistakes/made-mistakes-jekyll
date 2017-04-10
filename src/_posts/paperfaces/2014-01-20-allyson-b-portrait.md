@@ -2,7 +2,7 @@
 title: "Bird back"
 excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-allyson-b-lg.jpg 
+  path: &image /assets/images/paperfaces-allyson-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-allyson-b-teaser.jpg
   thumb: /assets/images/paperfaces-allyson-b-150.jpg

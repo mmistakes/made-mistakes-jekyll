@@ -2,7 +2,7 @@
 title: "Semi erased"
 excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kirsty-h-lg.jpg 
+  path: &image /assets/images/paperfaces-kirsty-h.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kirsty-h-teaser.jpg
   thumb: /assets/images/paperfaces-kirsty-h-150.jpg

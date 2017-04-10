@@ -2,7 +2,7 @@
 title: "Coffee mug bokeh"
 excerpt: "PaperFaces portrait of @velanv drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-velanv-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-velanv-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-velanv-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-velanv-twitter-150.jpg

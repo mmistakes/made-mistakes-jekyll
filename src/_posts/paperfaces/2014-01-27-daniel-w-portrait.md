@@ -2,7 +2,7 @@
 title: "That weathered look"
 excerpt: "PaperFaces portrait of Daniel W. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-daniel-w-lg.jpg 
+  path: &image /assets/images/paperfaces-daniel-w.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-daniel-w-teaser.jpg
   thumb: /assets/images/paperfaces-daniel-w-150.jpg

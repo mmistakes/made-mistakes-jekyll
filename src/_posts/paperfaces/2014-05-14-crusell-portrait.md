@@ -2,7 +2,7 @@
 title: "Scarf and blazer"
 excerpt: "PaperFaces portrait of @crusell drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-crusell-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-crusell-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-crusell-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-crusell-twitter-150.jpg

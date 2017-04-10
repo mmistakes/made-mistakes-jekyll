@@ -2,7 +2,7 @@
 title: "Red stripe"
 excerpt: "PaperFaces portrait of @gusso drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-gusso-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-gusso-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-gusso-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-gusso-twitter-150.jpg

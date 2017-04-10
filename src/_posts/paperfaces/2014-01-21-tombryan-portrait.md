@@ -2,7 +2,7 @@
 title: "Black cap"
 excerpt: "PaperFaces portrait of @tombryan drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-tombryan-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-tombryan-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-tombryan-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-tombryan-twitter-150.jpg

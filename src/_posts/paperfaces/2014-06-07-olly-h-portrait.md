@@ -2,7 +2,7 @@
 title: "Lurking behind Domo"
 excerpt: "PaperFaces portrait of a Olly H. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-olly-h-lg.jpg 
+  path: &image /assets/images/paperfaces-olly-h.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-olly-h-teaser.jpg
   thumb: /assets/images/paperfaces-olly-h-150.jpg

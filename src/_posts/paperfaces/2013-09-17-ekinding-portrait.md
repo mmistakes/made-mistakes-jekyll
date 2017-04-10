@@ -2,7 +2,7 @@
 title: "Spooky kids"
 excerpt: "PaperFaces portrait of @ekinding drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ekinding-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-ekinding-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-ekinding-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

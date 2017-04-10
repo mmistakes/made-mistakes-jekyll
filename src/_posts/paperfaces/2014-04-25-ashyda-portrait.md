@@ -2,7 +2,7 @@
 title: "Snake bites"
 excerpt: "PaperFaces portrait of @ashyda drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ashyda-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-ashyda-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ashyda-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-ashyda-twitter-150.jpg

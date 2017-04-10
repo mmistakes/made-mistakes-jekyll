@@ -2,7 +2,7 @@
 title: "Rosebud twins on Christmas"
 excerpt: "PaperFaces portrait of Everly and Chloe drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-rosebuds-christmas-lg.jpg 
+  path: &image /assets/images/paperfaces-rosebuds-christmas.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-christmas-teaser.jpg
   thumb: /assets/images/paperfaces-rosebuds-christmas-150.jpg

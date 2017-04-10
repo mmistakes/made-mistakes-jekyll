@@ -2,7 +2,7 @@
 title: "Killer clown"
 excerpt: "PaperFaces portrait of a killer clown drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-killer-clown-lg.jpg 
+  path: &image /assets/images/paperfaces-killer-clown.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-killer-clown-teaser.jpg
   thumb: /assets/images/paperfaces-killer-clown-150.jpg

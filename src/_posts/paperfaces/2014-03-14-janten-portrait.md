@@ -2,7 +2,7 @@
 title: "Weather appropriate"
 excerpt: "PaperFaces portrait of @janten drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-janten-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-janten-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-janten-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-janten-twitter-150.jpg

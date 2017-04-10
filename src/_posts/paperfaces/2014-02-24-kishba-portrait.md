@@ -2,7 +2,7 @@
 title: "Ribbit ribbit"
 excerpt: "PaperFaces portrait of @kishba drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kishba-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-kishba-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kishba-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-kishba-twitter-150.jpg

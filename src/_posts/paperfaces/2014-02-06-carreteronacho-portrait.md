@@ -2,7 +2,7 @@
 title: "Lit in profile"
 excerpt: "PaperFaces portrait of @carreteronacho drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-carreteronacho-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-carreteronacho-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-carreteronacho-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-carreteronacho-twitter-150.jpg

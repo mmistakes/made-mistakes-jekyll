@@ -2,7 +2,7 @@
 title: "Painting contrast in gray"
 excerpt: "PaperFaces portrait of @_Big_M_ drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-big-m-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-big-m-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-big-m-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-big-m-twitter-150.jpg

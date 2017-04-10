@@ -3,7 +3,7 @@ title: "Bearded Skull of the Night"
 excerpt: "PaperFaces portrait of the Sus Pek drawn with Paper by 53 on an iPad."
 last_modified_at: 2015-05-18T11:33:26-05:00
 image: 
-  path: &image /assets/images/paperfaces-sus-pek-lg.jpg 
+  path: &image /assets/images/paperfaces-sus-pek.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-sus-pek-teaser.jpg
   thumb: /assets/images/paperfaces-sus-pek-150.jpg

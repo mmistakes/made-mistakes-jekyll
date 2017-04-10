@@ -2,7 +2,7 @@
 title: "Painterly orange wall"
 excerpt: "PaperFaces portrait of @idhanta drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-idhanta-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-idhanta-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-idhanta-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

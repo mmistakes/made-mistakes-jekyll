@@ -2,7 +2,7 @@
 title: "Red glow"
 excerpt: "PaperFaces portrait of a Jess J. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-jess-j-lg.jpg 
+  path: &image /assets/images/paperfaces-jess-j.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jess-j-teaser.jpg
   thumb: /assets/images/paperfaces-jess-j-150.jpg

@@ -2,7 +2,7 @@
 title: "PaperFaces portrait of Boba Fett"
 excerpt: "PaperFaces portrait of Boba Fett drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-boba-fett-lg.jpg 
+  path: &image /assets/images/paperfaces-boba-fett.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-boba-fett-teaser.jpg
   thumb: /assets/images/paperfaces-boba-fett-150.jpg

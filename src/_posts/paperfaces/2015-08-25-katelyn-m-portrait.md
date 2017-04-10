@@ -3,7 +3,7 @@ title: "Unstoppable Hand"
 excerpt: "PaperFaces portrait of Katelyn M. drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-katelyn-m-lg.jpg 
+  path: &image /assets/images/paperfaces-katelyn-m.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-katelyn-m-teaser.jpg
   thumb: /assets/images/paperfaces-katelyn-m-150.jpg

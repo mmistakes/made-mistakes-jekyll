@@ -2,7 +2,7 @@
 title: "Breathing underwater"
 excerpt: "PaperFaces portrait of @Zakatnov drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-zakatnov-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-zakatnov-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-zakatnov-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-zakatnov-twitter-150.jpg

@@ -2,7 +2,7 @@
 title: "Chloe, 22 months"
 excerpt: "PaperFaces portrait of my daughter Chloe drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-chloe-winter-lg.jpg 
+  path: &image /assets/images/paperfaces-chloe-winter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-chloe-winter-teaser.jpg
   thumb: /assets/images/paperfaces-chloe-winter-150.jpg

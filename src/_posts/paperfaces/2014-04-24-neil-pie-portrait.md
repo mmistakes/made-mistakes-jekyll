@@ -2,7 +2,7 @@
 title: "Open eye"
 excerpt: "PaperFaces portrait of @neil_pie drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-neil-pie-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-neil-pie-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-neil-pie-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-neil-pie-twitter-150.jpg

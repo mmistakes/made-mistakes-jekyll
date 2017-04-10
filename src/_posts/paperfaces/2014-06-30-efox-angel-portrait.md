@@ -2,7 +2,7 @@
 title: "Wall of light"
 excerpt: "PaperFaces portrait of Efox Angel drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-efox-angel-lg.jpg 
+  path: &image /assets/images/paperfaces-efox-angel.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-efox-angel-teaser.jpg
   thumb: /assets/images/paperfaces-efox-angel-150.jpg

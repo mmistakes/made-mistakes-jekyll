@@ -2,7 +2,7 @@
 title: "Getting realistic with gray"
 excerpt: "PaperFaces portrait of Matteo Flora drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-matteo-flora-lg.jpg 
+  path: &image /assets/images/paperfaces-matteo-flora.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-matteo-flora-teaser.jpg
   thumb: /assets/images/paperfaces-matteo-flora-150.jpg

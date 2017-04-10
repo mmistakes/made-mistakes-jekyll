@@ -2,7 +2,7 @@
 title: "Public transportation"
 excerpt: "PaperFaces portrait of @Marcmail drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-marcmail-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-marcmail-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-marcmail-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-marcmail-twitter-150.jpg

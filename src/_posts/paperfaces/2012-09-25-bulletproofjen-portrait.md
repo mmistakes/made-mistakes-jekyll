@@ -2,7 +2,7 @@
 title: "Striped swimsuit on the beach"
 excerpt: "PaperFaces portrait of @bulletproofjenn drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-bulletproofjenn-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-bulletproofjenn-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-bulletproofjenn-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]

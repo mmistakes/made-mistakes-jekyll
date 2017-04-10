@@ -2,7 +2,7 @@
 title: "Beauty is in the moment"
 excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-beauty-profile-lg.jpg 
+  path: &image /assets/images/paperfaces-beauty-profile.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-beauty-profile-teaser.jpg
   thumb: /assets/images/paperfaces-beauty-profile-150.jpg

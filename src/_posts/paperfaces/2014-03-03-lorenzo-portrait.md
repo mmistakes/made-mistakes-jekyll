@@ -2,7 +2,7 @@
 title: "Front faced gaze"
 excerpt: "PaperFaces portrait of Lorenzo drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-lorenzo-lg.jpg 
+  path: &image /assets/images/paperfaces-lorenzo.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lorenzo-teaser.jpg
   thumb: /assets/images/paperfaces-lorenzo-150.jpg

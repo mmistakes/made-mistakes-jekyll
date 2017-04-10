@@ -2,7 +2,7 @@
 title: "Pixelated beard"
 excerpt: "PaperFaces portrait of @mattfieldy drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-mattfieldy-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-mattfieldy-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mattfieldy-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-mattfieldy-twitter-150.jpg

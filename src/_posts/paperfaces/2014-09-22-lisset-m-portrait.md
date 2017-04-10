@@ -2,7 +2,7 @@
 title: "A Face That Hides"
 excerpt: "PaperFaces portrait of the Lisset M. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-lisset-m-lg.jpg 
+  path: &image /assets/images/paperfaces-lisset-m.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lisset-m-teaser.jpg
   thumb: /assets/images/paperfaces-lisset-m-150.jpg

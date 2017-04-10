@@ -2,7 +2,7 @@
 title: "Vampires that Sparkle"
 excerpt: "PaperFaces portrait of the Mandy B. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-mandy-b-lg.jpg 
+  path: &image /assets/images/paperfaces-mandy-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mandy-b-teaser.jpg
   thumb: /assets/images/paperfaces-mandy-b-150.jpg

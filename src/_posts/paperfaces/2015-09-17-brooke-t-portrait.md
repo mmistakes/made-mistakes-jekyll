@@ -3,7 +3,7 @@ title: "Hair Scarf"
 excerpt: "PaperFaces portrait of Brooke T. drawn with Paper by 53 on an iPad."
 last_modified_at: 
 image: 
-  path: &image /assets/images/paperfaces-brooke-t-lg.jpg 
+  path: &image /assets/images/paperfaces-brooke-t.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-brooke-t-teaser.jpg
   thumb: /assets/images/paperfaces-brooke-t-150.jpg

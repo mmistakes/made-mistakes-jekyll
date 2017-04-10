@@ -2,7 +2,7 @@
 title: "Focusing on the glasses"
 excerpt: "PaperFaces portrait of @appinator drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-appinator-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-appinator-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-appinator-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-appinator-twitter-150.jpg

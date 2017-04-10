@@ -2,7 +2,7 @@
 title: "Hello face"
 excerpt: "PaperFaces portrait of @TheLadyKendrick drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-theladykendrick-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-theladykendrick-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-theladykendrick-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-theladykendrick-twitter-150.jpg

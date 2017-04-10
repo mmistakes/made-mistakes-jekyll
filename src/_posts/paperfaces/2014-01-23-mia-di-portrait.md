@@ -2,7 +2,7 @@
 title: "Looking Soft in Her Blizzard Protection"
 excerpt: "PaperFaces portrait of Mia Di D. drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-mia-di-lg.jpg 
+  path: &image /assets/images/paperfaces-mia-di.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mia-di-teaser.jpg
   thumb: /assets/images/paperfaces-mia-di-150.jpg

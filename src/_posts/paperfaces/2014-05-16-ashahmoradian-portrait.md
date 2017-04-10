@@ -2,7 +2,7 @@
 title: "Soft spot light"
 excerpt: "PaperFaces portrait of @AShahmoradian drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-ashahmoradian-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-ashahmoradian-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ashahmoradian-twitter-teaser.jpg
   thumb: /assets/images/paperfaces-ashahmoradian-twitter-150.jpg

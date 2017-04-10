@@ -2,7 +2,7 @@
 title: "Another eye and half face"
 excerpt: "PaperFaces portrait of @KasperStenbom drawn with Paper by 53 on an iPad."
 image: 
-  path: &image /assets/images/paperfaces-kasperstenbom-twitter-lg.jpg 
+  path: &image /assets/images/paperfaces-kasperstenbom-twitter.jpg 
   feature: *image
   thumb: /assets/images/paperfaces-kasperstenbom-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
