@@ -46,12 +46,8 @@
     font-kerning: normal;
     letter-spacing: -0.03125em;
 
-    @include breakpoint($medium-wide) {
-      max-width: span(4.5 of 7);
-    }
-
     @include breakpoint($x-large) {
-      max-width: span(5 of 7);
+      max-width: span(6 of 7);
     }
   }
 
@@ -156,14 +152,8 @@
   }
 
   @include breakpoint($medium-wide) {
-    margin-bottom: 3em;
     margin-left: initial;
-    margin-right: -1 * (span(3 of 7));
-  }
-
-  .image {
-    display: block;
-    width: 100%;
+    margin-right: initial;
   }
 
   .page__hero-credit {
@@ -232,7 +222,7 @@
 
     &:first-of-type {
       font-family: $sans-serif;
-      font-size: 1.25em;
+      // font-size: 1.25em;
     }
   }
 

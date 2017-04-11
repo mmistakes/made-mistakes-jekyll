@@ -182,8 +182,7 @@ img {
   /* lazysizes plugin */ }
   img[data-sizes="auto"] {
     display: block;
-    width: 100%;
-    background-color: #999; }
+    width: 100%; }
 
 a img {
   border: 0.125em solid #333;
@@ -599,12 +598,9 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   -webkit-font-kerning: normal;
           font-kerning: normal;
   letter-spacing: -0.03125em; }
-  @media (min-width: 56.25em) {
-    .page__title {
-      max-width: 63.2352941176%; } }
   @media (min-width: 90em) {
     .page__title {
-      max-width: 70.5882352941%; } }
+      max-width: 85.2941176471%; } }
 
 .page__excerpt {
   margin-bottom: 2em;
@@ -692,12 +688,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
       margin-right: -2em; } }
   @media (min-width: 56.25em) {
     .page__hero {
-      margin-bottom: 3em;
       margin-left: initial;
-      margin-right: -41.1764705882%; } }
-  .page__hero .image {
-    display: block;
-    width: 100%; }
+      margin-right: initial; } }
   .page__hero .page__hero-credit {
     position: absolute;
     bottom: 0;
@@ -739,8 +731,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   .page__content li > ol {
     margin-top: 0.5em; }
   .page__content > p:first-of-type {
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-    font-size: 1.25em; }
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
   .page__content figure {
     margin-left: 0;
     margin-right: 0; }
