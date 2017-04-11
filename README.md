@@ -19,7 +19,7 @@ This is the source code of Made Mistakes, a personal blog and portfolio built wi
 
 ### Content Helpers
 
-#### {% include notice %}
+#### Notices
 
 Call-out text.
 
@@ -34,7 +34,7 @@ Call-out text.
 {% include notice type="danger" content="**This has been deprecated**." %}
 ```
 
-#### {% include lazyload %}
+#### Lazyload
 
 Lazyload images until they're actually needed for improved page performance.
 
