@@ -7,17 +7,19 @@ layout: default
   <article class="page__wrap">
     {% include page__header.html %}
     {% include page__hero.html %}
+
     <section class="page__content">
       {{ content }}
     </section>
+
+    {% if page.path contains '_posts' %}
+      {% include page__pagination.html %}
+    {% endif %}
+
     {% if page.comments == true %}
       {% include page__comments.html %}
     {% endif %}
   </article>
 </div>
-
-{% if page.path contains '_posts' %}
-  {% include related.html %}
-{% endif %}
 
 {% include ad.html %}

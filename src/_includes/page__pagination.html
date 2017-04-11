@@ -1,35 +1,11 @@
-<div class="teasers">
+<div class="pager">
   {% if page.previous_in_category %}
     {% assign f_previous = page.previous_in_category.image.feature | split: '.' %}
-    <div class="teaser">
-      {% if page.previous_in_category.image.cover %}
-        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ page.previous_in_category.image.cover }});"></div>
-      {% elsif page.previous_in_category.image.feature %}
-        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_previous[0] }}-lq.{{ f_previous[1] }});"></div>
-      {% endif %}
-      <div class="teaser__content">
-        <a href="{{ page.previous_in_category.url }}">
-          <h2 class="page__section-label">Previously</h2>
-          <h3 class="teaser__title">{{ page.previous_in_category.title | markdownify | strip_html }}</h3>
-        </a>
-      </div>
-    </div>
+    <a href="{{ page.previous_in_category.url }}" class="btn" title="{{ page.previous_in_category.title | markdownify | strip_html | rstrip }}">&larr; Previous</a>
   {% endif %}
 
   {% if page.next_in_category %}
     {% assign f_next = page.next_in_category.image.feature | split: '.' %}
-    <div class="teaser">
-      {% if page.next_in_category.image.cover %}
-        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ page.next_in_category.image.cover }});"></div>
-      {% elsif page.next_in_category.image.feature %}
-        <div class="teaser__bg" style="background-image: url({{ site.url }}{{ f_next[0] }}-lq.{{ f_next[1] }});"></div>
-      {% endif %}
-      <div class="teaser__content">
-        <a href="{{ page.next_in_category.url }}">
-          <h2 class="page__section-label">Up Next</h2>
-          <h3 class="teaser__title">{{ page.next_in_category.title | markdownify | strip_html }}</h3>
-        </a>
-      </div>
-    </div>
+    <a href="{{ page.next_in_category.url }}" class="btn" title="{{ page.next_in_category.title | markdownify | strip_html | rstrip }}">Next &rarr;</a>
   {% endif %}
 </div>
