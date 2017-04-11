@@ -15,7 +15,7 @@ Portrait of Skylár S. inspired by a [photograph on Sktchy](http://sktchy.com/hv
 Please excuse the rough hatching as I was trying to avoid over polishing the face. Maybe some day I'll pick this up again and actually finish it.
 
 <figure>
-  {% include video id="eFr3E4yqmzM" %}
+  {% include youtube id="eFr3E4yqmzM" %}
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 2.5 hours.</figcaption>
 </figure>
 

@@ -12,4 +12,4 @@ PaperFaces portrait of [@hallaek](http://twitter.com/hallaek).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="RlvDlCAjWsk" %}
+{% include youtube id="RlvDlCAjWsk" %}

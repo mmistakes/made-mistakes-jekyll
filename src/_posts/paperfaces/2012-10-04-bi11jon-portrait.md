@@ -12,4 +12,4 @@ PaperFaces portrait of [@bi11jon](http://twitter.com/bi11jon).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="dRIxg-RYJ9g" %}
+{% include youtube id="dRIxg-RYJ9g" %}

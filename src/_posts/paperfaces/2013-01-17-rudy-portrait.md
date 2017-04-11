@@ -12,4 +12,4 @@ Commissioned portrait of "Rudy".
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="jP7X4ELctX8" %}
+{% include youtube id="jP7X4ELctX8" %}

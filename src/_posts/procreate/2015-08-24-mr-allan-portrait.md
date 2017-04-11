@@ -25,7 +25,7 @@ Not impressed with my early flirtations with Procreate I decided to read the ent
 Where I struggled originally was applying the right customizations to my brushes to tone down the *oil paint* feel of the default brushes. As a heavy Paper user I grew accustomed to pencil and paint strokes behaving in a certain way, and Procreate was pretty much the opposite of that. Modifying brushes to paint as glazes was a huge help, allowing me to layer up tones instead of smearing opaque color around.
 
 <figure>
-  {% include video id="vrqoIbu7gU0" %}
+  {% include youtube id="vrqoIbu7gU0" %}
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 

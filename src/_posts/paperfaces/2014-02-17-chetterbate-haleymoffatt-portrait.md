@@ -15,6 +15,6 @@ PaperFaces portrait commission of a happy couple.
 {% include boilerplate/paperfaces-4.md %}
 
 <figure>
-	{% include video id="SU3kYxJmWuQ" %}
+	{% include youtube id="SU3kYxJmWuQ" %}
 	<figcaption>Time lapse video captured with <a href="http://www.airsquirrels.com/reflector/">Reflector</a> and edited with Adobe AfterEffects.</figcaption>
 </figure>

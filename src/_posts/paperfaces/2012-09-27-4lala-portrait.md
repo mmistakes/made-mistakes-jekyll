@@ -12,4 +12,4 @@ PaperFaces portrait of [@4lala](http://twitter.com/4lala).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="xvpF730pDQk" %}
+{% include youtube id="xvpF730pDQk" %}

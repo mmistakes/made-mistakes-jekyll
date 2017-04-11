@@ -17,7 +17,7 @@ In keeping with my recent "time lapse kick," here's a video showing the creation
 Found that Lapse It offers way more customization than iOS's Camera app or [Hyperlapse](https://itunes.apple.com/us/app/hyperlapse-from-instagram/id740146917?mt=8) allowing for greater control over the final render. Around a minute seems like a good length for these sorts of things since anything longer tends to get boring...
 
 <figure>
-  {% include video id="59pWYBvDtSM" %}
+  {% include youtube id="59pWYBvDtSM" %}
   <figcaption><a href="https://www.youtube.com/watch?v=9RTXF6wLMjw&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao">Time lapse video</a> recorded with an iPhone 5s.</figcaption>
 </figure>
 

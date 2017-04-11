@@ -12,4 +12,4 @@ PaperFaces portrait of [@brohatch](http://twitter.com/brohatch).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="Csxhdfrtbuo" %}
+{% include youtube id="Csxhdfrtbuo" %}

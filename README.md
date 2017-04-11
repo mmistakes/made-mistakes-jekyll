@@ -57,14 +57,13 @@ Embed a video from YouTube or Vimeo that responsively sizes to fit the width of 
 | Parameter  | Required     | Description |
 |----------  |---------     | ----------- |
 | `id`       | **Required** | ID of the video |
-| `provider` | Optional     | Hosting provider of the video, either `youtube` or `vimeo`. Defaults to `youtube`. |
 
 ##### YouTube
 
 To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` (long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or page's main content you'd use: 
 
 ```liquid
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
+{% include youtube id="XsxDH4HcOWA" %}
 ```
 
 ##### Vimeo
@@ -72,7 +71,7 @@ To embed the following YouTube video at url `https://www.youtube.com/watch?v=Xsx
 To embed the following Vimeo video at url `https://vimeo.com/97649261` into a post or page's main content you'd use: 
 
 ```liquid
-{% include video id="97649261" provider="vimeo" %}
+{% include vimeo id="97649261" %}
 ```
 
 ### Local Development

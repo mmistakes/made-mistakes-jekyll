@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@juanrod82](http://twitter.com/juanrod82
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="ao7naXkW72Y" %}
+{% include youtube id="ao7naXkW72Y" %}

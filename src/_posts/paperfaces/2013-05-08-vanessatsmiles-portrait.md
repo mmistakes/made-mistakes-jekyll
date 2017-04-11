@@ -14,4 +14,4 @@ I also recorded my iPad's screen for this portrait that shows the new zoom tool 
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="PWf4WUoMXwg" %}
+{% include youtube id="PWf4WUoMXwg" %}

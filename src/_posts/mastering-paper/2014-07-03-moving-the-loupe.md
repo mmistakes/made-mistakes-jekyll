@@ -54,7 +54,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 ## Video Demonstration
 
 <figure>
-	{% include video id="gpz8aPXwd18" %}
+	{% include youtube id="gpz8aPXwd18" %}
 	<figcaption>A video demonstrating how to use Zoom while painting a smooth glaze.</figcaption>
 </figure>
 

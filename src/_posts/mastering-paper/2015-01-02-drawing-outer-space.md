@@ -27,7 +27,7 @@ And with that let's get started.
 ## Painting outer space with your finger
 
 <figure>
-  {% include video id="myAwO2k23q4" %}
+  {% include youtube id="myAwO2k23q4" %}
   <figcaption>How to draw and paint an outer space scene with only your finger and Paper by 53.</figcaption>
 </figure>
 
@@ -179,7 +179,7 @@ Once satisfied with the results repeat the process for as many other planets as 
 Building on the same techniques used in the first half of this guide, I'm going to now show you how Pencil can be used to enhance and speed things up. For the most part you follow the exact same steps with a few embellishments to ratchet up the realism.
 
 <figure>
-  {% include video id="pdSp4Y4GOQs" %}
+  {% include youtube id="pdSp4Y4GOQs" %}
   <figcaption>How to draw and paint an outer space scene with Pencil and Paper by 53.</figcaption>
 </figure>
 

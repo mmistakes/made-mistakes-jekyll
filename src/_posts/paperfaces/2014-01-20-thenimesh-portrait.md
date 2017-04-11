@@ -18,6 +18,6 @@ Even at 17 minutes it's fairly boring to watch, but maybe 2 or 3 of you will enj
 
 PaperFaces portrait of [@thenimesh](http://twitter.com/thenimesh).
 
-{% include video id="s4WEGH5r-1c" %}
+{% include youtube id="s4WEGH5r-1c" %}
 
 {% include boilerplate/paperfaces-2.md %}

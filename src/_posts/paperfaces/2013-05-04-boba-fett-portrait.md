@@ -13,4 +13,4 @@ Starting Star Wars Day off with a portrait of my dude Boba. May the 4th be with 
 
 {% include boilerplate/paperfaces.md %}
 
-{% include video id="XvVoXgxwrMA" %}
+{% include youtube id="XvVoXgxwrMA" %}
