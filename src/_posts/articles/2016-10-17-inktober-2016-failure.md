@@ -38,8 +38,14 @@ I did manage to record a time lapse video during hour 2 of the painting. Unfortu
 October is half over and I suppose there's still time for me to knock out another portrait or two. If past years are any indication there's not a good chance of that happening. :neutral_face:
 
 <figure class="third">
-  <a href="{{ site.url }}/assets/images/inktober-past-1.jpg"><img src="{{ site.url }}/assets/images/inktober-past-1-600.jpg" alt="Inktober piece from the past"></a>
-  <a href="{{ site.url }}/assets/images/inktober-past-2.jpg"><img src="{{ site.url }}/assets/images/inktober-past-2-600.jpg" alt="Inktober piece from the past"></a>
-  <a href="{{ site.url }}/assets/images/inktober-past-3.jpg"><img src="{{ site.url }}/assets/images/inktober-past-3-600.jpg" alt="Inktober piece from the past"></a>
+  <a href="{{ site.url }}/assets/images/inktober-past-1.jpg">
+    {% include lazyload src="/assets/images/inktober-past-1-600.jpg" alt="Inktober drawing from the past" %}
+  </a>
+  <a href="{{ site.url }}/assets/images/inktober-past-2.jpg">
+    {% include lazyload src="/assets/images/inktober-past-2-600.jpg" alt="Inktober drawing from the past" %}
+  </a>
+  <a href="{{ site.url }}/assets/images/inktober-past-3.jpg">
+   {% include lazyload src="/assets/images/inktober-past-3-600.jpg" alt="Inktober drawing from the past" %}
+  </a>
   <figcaption>Inktober pieces from the past.</figcaption>
 </figure>
