@@ -20,6 +20,7 @@
   text-decoration: none;
   background-color: #000;
   border: 0 !important;
+  border-radius: $border-radius;
   cursor: pointer;
 
   &:active {
@@ -54,9 +55,11 @@
   &--inverse {
     color: #000 !important;
     background-color: #fff;
+    outline: 0.125em solid #000;
 
     &:hover {
-      background-color: mix(#000, #fff, 20%);
+      background-color: mix(#000, #fff, 10%);
+      outline: 0.125em solid #000;
     }
   }
 

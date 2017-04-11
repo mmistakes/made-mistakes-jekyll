@@ -151,8 +151,8 @@
     margin-right: -2em;
   }
 
-  @include breakpoint($medium-wide) {
-    margin-left: initial;
+  @include breakpoint($large) {
+    margin-left: -3em;
     margin-right: initial;
   }
 
@@ -222,7 +222,7 @@
 
     &:first-of-type {
       font-family: $sans-serif;
-      // font-size: 1.25em;
+      font-size: 1.25em;
     }
   }
 
@@ -325,46 +325,51 @@
   }
 }
 
-/* related content */
-.page__related {
-  position: relative;
-  color: white;
-
-  .page__section-label {
-
-    &:before {
-      background-color: white;
-    }
-  }
-
-  .teaser {
-    background-color: #333;
-
-    @include breakpoint(max-width $small) {
-
-      + .teaser {
-        margin-top: 0.5em;
-      }
-    }
-
-    @include breakpoint($small) {
-      max-width: 75vw;
-      clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-
-      + .teaser {
-        text-align: right;
-        clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
-
-        .page__section-label {
-
-          &:before {
-            right: 0;
-          }
-        }
-      }
-    }
-  }
+/* pagination */
+.pager + .page__reactions {
+  margin-top: 4em;
 }
+
+/* related content */
+// .page__related {
+//   position: relative;
+//   color: white;
+
+//   .page__section-label {
+
+//     &:before {
+//       background-color: white;
+//     }
+//   }
+
+//   .teaser {
+//     background-color: #333;
+
+//     @include breakpoint(max-width $small) {
+
+//       + .teaser {
+//         margin-top: 0.5em;
+//       }
+//     }
+
+//     @include breakpoint($small) {
+//       max-width: 75vw;
+//       clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
+
+//       + .teaser {
+//         text-align: right;
+//         clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
+
+//         .page__section-label {
+
+//           &:before {
+//             right: 0;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 /*
    Page form

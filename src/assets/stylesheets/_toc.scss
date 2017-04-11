@@ -16,8 +16,8 @@
     padding: 1em 1em 1em 2.5em;
     font-weight: 700;
     line-height: 1;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: 0.125em solid #ccc;
+    border-radius: $border-radius;
     z-index: 20;
     transition: 0.2s ease-out;
     cursor: pointer;

@@ -29,7 +29,7 @@
   </div>
   {% unless include.replying_to != 0 or page.comments_locked == true %}
     <div class="comment__reply">
-      <a rel="nofollow" class="btn" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
+      <a rel="nofollow" class="btn btn--inverse href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
     </div>
   {% endunless %}
 </article>

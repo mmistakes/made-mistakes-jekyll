@@ -41,15 +41,15 @@
   }
 
   // apply disabled state to siblings
-  &:hover article.item:not(:hover) {
+  // &:hover article.item:not(:hover) {
 
-    .item__image {
+  //   .item__image {
 
-      &:before {
-        opacity: 0.75;
-      }
-    }
-  }
+  //     &:before {
+  //       opacity: 0.75;
+  //     }
+  //   }
+  // }
 }
 
 .item {
