@@ -52,18 +52,14 @@ Lazyload images until they're actually needed for improved page performance.
 
 #### Responsive Video Embed
 
-Embed a video from YouTube or Vimeo that responsively sizes to fit the width of its parent.
-
-| Parameter  | Required     | Description |
-|----------  |---------     | ----------- |
-| `id`       | **Required** | ID of the video |
+Embed a video from YouTube or Vimeo that responsively sizes to fit the width of its parent using [`/_plugins/video_embed.rb`](src/_plugins.video_embed.rb).
 
 ##### YouTube
 
 To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` (long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or page's main content you'd use: 
 
 ```liquid
-{% include youtube id="XsxDH4HcOWA" %}
+{% youtube XsxDH4HcOWA %}
 ```
 
 ##### Vimeo
@@ -71,7 +67,7 @@ To embed the following YouTube video at url `https://www.youtube.com/watch?v=Xsx
 To embed the following Vimeo video at url `https://vimeo.com/97649261` into a post or page's main content you'd use: 
 
 ```liquid
-{% include vimeo id="97649261" %}
+{% vimeo 97649261 %}
 ```
 
 ### Local Development

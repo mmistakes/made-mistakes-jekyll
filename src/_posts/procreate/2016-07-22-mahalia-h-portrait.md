@@ -19,7 +19,7 @@ I'm sure it's nowhere close to the responsiveness one experiences with Apple's P
 [^apple-pencil]: I still haven't had the opportunity to try an [iPad Pro and Apple Pencil]({{ site.url }}{% post_url /articles/2015-09-25-ipad-pro %}) yet. I know I know... :frowning:
 
 <figure>
-  {% include youtube id="W0q-UBnz6QA" %}
+  {% youtube W0q-UBnz6QA %}
   <figcaption>Time lapse video recorded within Procreate.</figcaption>
 </figure>
 

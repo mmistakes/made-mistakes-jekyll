@@ -33,7 +33,7 @@ In Paper version 2.0, the watercolor brush is way more forgiving and lets you li
 To better visualize how the new brush works I shot a quick video that you can view below. As far as I can tell there is about a 1 second delay on how long you can lift off the screen before Paper decides to overlay the strokes.
 
 <figure>
-  {% include youtube id="Lt1oIsH4wHo" %}
+  {% youtube Lt1oIsH4wHo %}
   <figcaption>Comparison video showing the enhancements made to the watercolor brush.</figcaption>
 </figure>
 

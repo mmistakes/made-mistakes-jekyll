@@ -19,7 +19,7 @@ The reference photo I selected from Sktchy doesn't really work horizontally, so 
 Continuing on with my time lapse kick, here's another video I recorded over several drawing sessions using an iPhone 5s and the [Lapse It app](http://www.lapseit.com/). Took me around 3 hours to complete with some subtle blend action going on towards the end. Enjoy!
 
 <figure>
-  {% include youtube id="K2dgaV9_rCI" %}
+  {% youtube K2dgaV9_rCI %}
   <figcaption><a href="https://www.youtube.com/watch?v=9RTXF6wLMjw&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao">Time lapse videos</a> recorded with an iPhone 5s.</figcaption>
 </figure>
 

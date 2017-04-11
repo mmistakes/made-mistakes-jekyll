@@ -19,6 +19,6 @@ PaperFaces portrait of <a href="http://twitter.com/GrantLandram">@GrantLandram</
 {% include boilerplate/paperfaces-3.md %}
 
 <figure>
-	{% include youtube id="JqVzqVG0e5g" %}
+	{% youtube JqVzqVG0e5g %}
 	<figcaption>About 2 hours of drawing and painting with 53's new Pencil stylus.</figcaption>
 </figure>

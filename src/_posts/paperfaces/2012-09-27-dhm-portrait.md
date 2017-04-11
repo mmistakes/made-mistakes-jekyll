@@ -12,4 +12,4 @@ PaperFaces portrait of [@dhm](http://twitter.com/dhm).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include youtube id="8znOwv0XxcI" %}
+{% youtube 8znOwv0XxcI %}

@@ -1,5 +1,0 @@
-{% capture video_id %}{{ include.id }}{% endcapture %}
-
-<div class="responsive-video-container">
-  <iframe data-src="https://www.youtube-nocookie.com/embed/{{ video_id }}?showinfo=0" frameborder="0" allowfullscreen class="lazyload"></iframe>
-</div>

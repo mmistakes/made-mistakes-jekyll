@@ -12,4 +12,4 @@ PaperFaces portrait of project donator Kyle and Bridget.
 
 {% include boilerplate/paperfaces.md %}
 
-{% include youtube id="wWHJPy9FIhA" %}
+{% youtube wWHJPy9FIhA %}

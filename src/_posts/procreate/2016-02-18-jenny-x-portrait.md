@@ -17,7 +17,7 @@ In an attempt to fool my brain into seeing shapes and paint more accurately I fl
 It's kind of hard to look at now because all I see are the spots I botched. Suppose that's the benefit of working digitally, it's fairly easy to go back in and make alterations --- if I only had the time...
 
 <figure>
-  {% include youtube id="l2Of1-d5E5o" %}
+  {% youtube l2Of1-d5E5o %}
   <figcaption>Time lapse video recorded within Procreate, completed in approximately 6 hours.</figcaption>
 </figure>
 

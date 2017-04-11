@@ -12,4 +12,4 @@ PaperFaces portrait of [@joshuaskaroff](http://twitter.com/joshuaskaroff).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include youtube id="NEOjUwRFtbQ" %}
+{% youtube NEOjUwRFtbQ %}

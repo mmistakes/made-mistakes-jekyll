@@ -10,6 +10,6 @@ tags: [portrait, illustration, Paper by 53, black and white, beard, time lapse]
 
 PaperFaces portrait of some random hipsters I came up with to fill the entire canvas for a change. You can achieve some realistic effects just working with grays and white.
 
-{% include youtube id="CD9uoa96nKQ" %}
+{% youtube CD9uoa96nKQ %}
 
 {% include boilerplate/paperfaces-2.md %}

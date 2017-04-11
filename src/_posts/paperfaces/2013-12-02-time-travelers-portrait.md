@@ -13,6 +13,6 @@ PaperFaces portrait commission.
 {% include boilerplate/paperfaces-2.md %}
 
 <figure>
-	{% include youtube id="zFG6M8PKdlc" %}
+	{% youtube zFG6M8PKdlc %}
 	<figcaption>About 2 hours of drawing and painting.</figcaption>
 </figure>

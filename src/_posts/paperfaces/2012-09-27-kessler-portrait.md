@@ -12,4 +12,4 @@ PaperFaces portrait of [@kessler](http://twitter.com/kessler).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include youtube id="g6r-pZY3Awc" %}
+{% youtube g6r-pZY3Awc %}

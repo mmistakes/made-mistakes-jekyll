@@ -14,6 +14,6 @@ Broke in a [Pogo Connect stylus](http://www.amazon.com/gp/product/B009K448L4/ref
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% include youtube id="SqYiglufb8Y" %}
+{% youtube SqYiglufb8Y %}
 
 [^1]: Those of you who have problems with or hate the rewind gesture will love the Pogo Connect. Just push the button on the stylus and it undos your most recent marks.

@@ -12,4 +12,4 @@ PaperFaces portrait commission for Wakas Mir. Making of video below.
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% include youtube id="Helg9hmHyuc" %}
+{% youtube Helg9hmHyuc %}

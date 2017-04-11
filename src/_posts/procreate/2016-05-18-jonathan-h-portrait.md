@@ -17,7 +17,7 @@ The more I've been using this [**Adonit Ink**](http://www.amazon.com/Adobe-Creat
 I knew going in that support for the Ink was likely going to be poor with my **iPad Air 2**. That hasn't stopped me from trying to get the most out of it though. It reminds me of the days of using a Pogo Connect that would register a touch around 60% of the time forcing you to redo your marks.
 
 <figure>
-  {% include youtube id="yFpaUg5AH_o" %}
+  {% youtube yFpaUg5AH_o %}
   <figcaption>I planned on spending more time detailing and refining things, but the frustration of working with unresponsive and inaccurate styli got the better of me.</figcaption>
 </figure>
 

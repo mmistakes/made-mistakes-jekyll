@@ -53,7 +53,7 @@ The tip is responsive and as accurate as one can expect from the limitations the
 When Pencil by FiftyThree originally launched drawing with the broadside of the tip had zero affect on the marks you made. That all changed when iOS and Paper grew up to versions 8 and 2.0 respectively.
 
 <figure>
-    {% include vimeo id="98146708" %}
+    {% vimeo 98146708 %}
     <figcaption>This video shows Surface Pressure in all its expressiveness glory.</figcaption>
 </figure>
 
@@ -174,7 +174,7 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
 Want to know more about Pencil or the new features it enables --- ask away in the comments below and I'll do my best to answer.
 
 <figure>
-    {% include youtube id="K2dgaV9_rCI" %}
+    {% youtube K2dgaV9_rCI %}
     <figcaption>Curious to see Pencil in action? In the back half of this time lapse video I use it to paint and smudge a portrait.</figcaption>
 </figure>
 

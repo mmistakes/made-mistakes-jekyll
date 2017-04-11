@@ -17,7 +17,7 @@ I worked on this drawing for little over 3 hours during two sittings. The best p
 Getting pretty close to a setup that works well for me, just need to nail down the lighting next. As anyone who's tried to photograph an iPad's screen, it can be tricky getting exposure and white balance right.
 
 <figure>
-  {% include youtube id="qhEtbFlxfm4" %}
+  {% youtube qhEtbFlxfm4 %}
   <figcaption><a href="https://www.youtube.com/watch?v=qhEtbFlxfm4">Time lapse video</a> recorded with an iPhone 5s and Lapse It.</figcaption>
 </figure>
 

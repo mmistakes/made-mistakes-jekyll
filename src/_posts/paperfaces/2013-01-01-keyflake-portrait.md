@@ -12,4 +12,4 @@ PaperFaces portrait of [@keyflake](http://twitter.com/keyflake).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include youtube id="6yUmJRwXAdE" %}
+{% youtube 6yUmJRwXAdE %}

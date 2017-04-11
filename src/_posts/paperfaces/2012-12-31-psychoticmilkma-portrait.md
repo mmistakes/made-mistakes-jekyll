@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@psychoticmilkma](http://twitter.com/psy
 
 {% include boilerplate/paperfaces.md %}
 
-{% include youtube id="x6ok6e3DERE" %}
+{% youtube x6ok6e3DERE %}

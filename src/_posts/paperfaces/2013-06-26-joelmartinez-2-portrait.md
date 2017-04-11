@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@joelmartinez](http://twitter.com/joelma
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% include youtube id="WjmQYBgHjFI" %}
+{% youtube WjmQYBgHjFI %}

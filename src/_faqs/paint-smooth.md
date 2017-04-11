@@ -10,4 +10,4 @@ A smooth gradient can be achieved layering many washes of watercolor on top of e
 
 #### Here's a quick video showing the basics:
 
-{% include youtube id="AjJVrFFaCck" %}
+{% youtube AjJVrFFaCck %}

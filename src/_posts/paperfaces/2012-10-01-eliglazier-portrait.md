@@ -12,4 +12,4 @@ PaperFaces portrait of [@eliglazier](http://twitter.com/eliglazier).
 
 {% include boilerplate/paperfaces.md %}
 
-{% include youtube id="gV_jopoAsak" %}
+{% youtube gV_jopoAsak %}

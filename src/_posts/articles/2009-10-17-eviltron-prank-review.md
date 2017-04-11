@@ -14,4 +14,4 @@ The fact that we just saw a movie about strange noises and ghosts, made hiding t
 
 Trick or treat!!!
 
-{% include youtube id="8LOrtVef9mE" %}
+{% youtube 8LOrtVef9mE %}
