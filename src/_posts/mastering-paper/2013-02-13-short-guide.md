@@ -107,7 +107,7 @@ I've taken the liberty of embedding a video playlist below, demonstrating how I 
 If I missed anything or you're looking for additional pointers leave a comment below or [tweet me](http://twitter.com/mmistakes).
 
 <figure class="large">
-  {% include video id="videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" %}
+  {% include video id="videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp;" %}
   <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">learn how I use Paper</a>.</figcaption>
 </figure>
 

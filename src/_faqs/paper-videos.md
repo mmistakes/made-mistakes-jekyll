@@ -10,7 +10,7 @@ Most of my Paper by FiftyThree time lapse videos were made using [Reflector](htt
 
 As long as you have an iPad 2 or newer you can use Reflector. Basically you turn on AirPlay mirroring on the iPad and it lets you beam it over to a Mac or PC running Reflector.
 
-{% include video id="videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" %}
+{% include video id="videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp;" %}
 
 My earlier time lapse videos were sets of screenshots[^screenshot] that I converted into Quicktime movies using iPhoto's slide-show feature. They're not as dramatic looking because you don't see the actual strokes happening, but still neat in a low tech kind of way.
 
