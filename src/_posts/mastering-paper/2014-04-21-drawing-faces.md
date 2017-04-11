@@ -121,7 +121,7 @@ The brush produces a range of values by varying the speed at which they're paint
 Speed is the single most important variable for creating smooth tones or glazes. The second is never lifting the tip off the screen until you've filled a shape.
 
 <figure>
-  <iframe width="560" height="315" src="//www.youtube.com/embed/AjJVrFFaCck" frameborder="0"> </iframe>
+  {% include video id="AjJVrFFaCck" %}
   <figcaption>Here&rsquo;s how I paint a shape smoothly.</figcaption>
 </figure>
 
@@ -240,7 +240,7 @@ Depending on how accurate of a painter you are, your glazes may have bled outsid
 Don't be afraid to use one of the ink pens for cleanup instead. For stylistic reasons I prefer the softness of a pencil, but either tool is acceptable.
 
 <figure>
-  <iframe width="560" height="315" src="//www.youtube.com/embed/cxeaeQAtIxQ" frameborder="0"> </iframe>
+  {% include video id="cxeaeQAtIxQ" %}
   <figcaption>A quick video example of all the techniques in real time to show the basic workflow.</figcaption>
 </figure>
 

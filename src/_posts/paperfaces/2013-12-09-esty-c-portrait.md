@@ -18,6 +18,6 @@ PaperFaces portrait of <a href="http://sktchy.com/WfStFC">Esty C.</a>, inspirati
 </figure>
 
 <figure>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/aoELcBcOAo4" frameborder="0"> </iframe>
+	{% include video id="aoELcBcOAo4" %}
 	<figcaption>About 2 hours of drawing and painting.</figcaption>
 </figure>

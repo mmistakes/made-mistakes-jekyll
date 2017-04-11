@@ -18,4 +18,4 @@ The lighting kind of sucks and the focus is off in a few parts, but I think it c
 
 {% include boilerplate/paperfaces-2.md %}
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/FGCPOimgdb4" frameborder="0"> </iframe>
+{% include video id="FGCPOimgdb4" %}

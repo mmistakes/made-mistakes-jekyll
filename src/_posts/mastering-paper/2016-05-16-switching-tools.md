@@ -31,7 +31,7 @@ Simply swipe across the row of **Think Kit** tools to reveal another set of five
 [watercolor-brush]: {{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#watercolor-brush
 
 <figure>
-  <iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/KXqj04MfDLk?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  {% include video id="KXqj04MfDLk" %}
   <figcaption>Video showing how to switch between the diagramming and drawing tools on iPad.</figcaption>
 </figure>
 

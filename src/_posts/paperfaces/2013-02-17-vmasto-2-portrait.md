@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@vmasto](http://twitter.com/vmasto).
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Y9tUzWIcGs" frameborder="0"> </iframe>
+{% include video id="-Y9tUzWIcGs" %}

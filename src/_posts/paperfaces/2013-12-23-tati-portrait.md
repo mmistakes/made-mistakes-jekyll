@@ -14,6 +14,6 @@ My first PaperFaces portrait commission using two styli to complete.
 {% include boilerplate/paperfaces-4.md %}
 
 <figure>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/y1OG2gLk6Jg" frameborder="0"> </iframe>
+	{% include video id="y1OG2gLk6Jg" %}
 	<figcaption>Painted in about an hour and 30 minutes.</figcaption>
 </figure>

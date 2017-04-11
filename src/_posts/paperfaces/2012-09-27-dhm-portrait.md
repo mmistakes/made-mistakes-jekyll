@@ -12,4 +12,4 @@ PaperFaces portrait of [@dhm](http://twitter.com/dhm).
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/8znOwv0XxcI" frameborder="0"> </iframe>
+{% include video id="8znOwv0XxcI" %}

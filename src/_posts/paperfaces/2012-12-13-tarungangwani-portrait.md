@@ -12,4 +12,4 @@ PaperFaces portrait of [@tarungangwani](http://twitter.com/tarungangwani).
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/1Q6fjg5G_GA" frameborder="0"> </iframe>
+{% include video id="1Q6fjg5G_GA" %}

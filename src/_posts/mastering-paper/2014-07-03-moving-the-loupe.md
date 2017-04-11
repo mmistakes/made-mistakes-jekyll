@@ -50,12 +50,11 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 2. Place one finger on the edge of the black circle and **hold it on the screen**.
 3. Draw or paint as you normally would with your other hand.
 4. Move the loupe around as you paint.
-{:.fl}
 
 ## Video Demonstration
 
 <figure>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/gpz8aPXwd18" frameborder="0"> </iframe>
+	{% include video id="gpz8aPXwd18" %}
 	<figcaption>A video demonstrating how to use Zoom while painting a smooth glaze.</figcaption>
 </figure>
 

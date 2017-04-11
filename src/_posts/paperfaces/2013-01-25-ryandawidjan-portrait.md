@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@ryandawidjan](http://twitter.com/ryanda
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/OhQJoyX-t0w" frameborder="0"> </iframe>
+{% include video id="OhQJoyX-t0w" %}

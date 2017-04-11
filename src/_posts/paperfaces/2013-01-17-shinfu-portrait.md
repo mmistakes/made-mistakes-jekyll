@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@Shinfu](http://twitter.com/Shinfu) jump
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/eg7iMJTe_U0" frameborder="0"> </iframe>
+{% include video id="eg7iMJTe_U0" %}

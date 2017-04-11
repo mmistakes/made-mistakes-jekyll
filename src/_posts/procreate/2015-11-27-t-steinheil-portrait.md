@@ -17,7 +17,7 @@ My confidence level with color hasn't really been high as of late, so I decided 
 Now to find paper textures I can import into Procreate to build drawings on top of...
 
 <figure>
-  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/3FI6OblgfeY?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  {% include video id="3FI6OblgfeY" %}
   <figcaption>Time lapse video recorded within Procreate, completed in 4 hours and 50 minutes.</figcaption>
 </figure>
 

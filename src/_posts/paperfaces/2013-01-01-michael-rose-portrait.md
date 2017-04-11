@@ -13,4 +13,4 @@ Self portrait of [@mmistakes](http://twitter.com/mmistakes) (hey that's me) in a
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/NqcGVymOiPo" frameborder="0"> </iframe>
+{% include video id="NqcGVymOiPo" %}

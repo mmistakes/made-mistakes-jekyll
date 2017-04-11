@@ -15,6 +15,6 @@ PaperFaces portrait commission of a happy couple.
 {% include boilerplate/paperfaces-4.md %}
 
 <figure>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+	{% include video id="SU3kYxJmWuQ" %}
 	<figcaption>Time lapse video captured with <a href="http://www.airsquirrels.com/reflector/">Reflector</a> and edited with Adobe AfterEffects.</figcaption>
 </figure>

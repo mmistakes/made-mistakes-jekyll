@@ -2,7 +2,7 @@
 title: "How do you make time lapse videos of your Paper drawings?"
 type: paper
 date: 2014-12-07
-last_modified_at: 2016-01-22T12:18:52-05:00
+last_modified_at: 2017-04-11T16:23:53-04:00
 order: 9
 ---
 
@@ -10,7 +10,7 @@ Most of my Paper by FiftyThree time lapse videos were made using [Reflector](htt
 
 As long as you have an iPad 2 or newer you can use Reflector. Basically you turn on AirPlay mirroring on the iPad and it lets you beam it over to a Mac or PC running Reflector.
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+{% include video id="videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao" %}
 
 My earlier time lapse videos were sets of screenshots[^screenshot] that I converted into Quicktime movies using iPhoto's slide-show feature. They're not as dramatic looking because you don't see the actual strokes happening, but still neat in a low tech kind of way.
 

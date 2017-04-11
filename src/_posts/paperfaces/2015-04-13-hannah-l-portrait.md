@@ -42,7 +42,7 @@ While a fun exercise in technical wizardry, live streaming in this way is probab
 I suppose if the demand is there I might try this again some night when my wife isn't streaming Netflix. For now I think the sped up time lapse approach is the way to go.
 
 <figure >
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/Qxpss8umvG4" frameborder="0"> </iframe>
+  {% include video id="Qxpss8umvG4" %}
   <figcaption><a href="https://www.youtube.com/watch?v=qhEtbFlxfm4">Time lapse video</a> recorded with an iPhone 5s and Lapse It.</figcaption>
 </figure>
 

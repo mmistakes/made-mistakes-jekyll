@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@aaronrustad](http://twitter.com/aaronru
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/zrpoGw7A_hY" frameborder="0"> </iframe>
+{% include video id="zrpoGw7A_hY" %}

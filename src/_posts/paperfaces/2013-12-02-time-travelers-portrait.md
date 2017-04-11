@@ -13,6 +13,6 @@ PaperFaces portrait commission.
 {% include boilerplate/paperfaces-2.md %}
 
 <figure>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/zFG6M8PKdlc" frameborder="0"> </iframe>
+	{% include video id="zFG6M8PKdlc" %}
 	<figcaption>About 2 hours of drawing and painting.</figcaption>
 </figure>

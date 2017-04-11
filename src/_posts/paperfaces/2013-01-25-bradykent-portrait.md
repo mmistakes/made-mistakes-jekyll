@@ -12,4 +12,4 @@ PaperFaces portrait of [@bradykent](http://twitter.com/bradykent).
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M5Ya9B-a0Mk" frameborder="0"> </iframe>
+{% include video id="M5Ya9B-a0Mk" %}

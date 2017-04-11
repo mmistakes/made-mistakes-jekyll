@@ -31,7 +31,7 @@ After taking a few days to complete a single ink wash --- I was spent. Working d
 I did manage to record a time lapse video during hour 2 of the painting. Unfortunately I mistakenly put the iPhone 7 Plus in **SLO-MO** mode by mistake for the first half. Really surprised there was enough free space to record an hour of 1080p video...
 
 <figure>
-  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/gOBj8HdfA2Y?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  {% include video id="gOBj8HdfA2Y" %}
   <figcaption>1 hour time lapse condensed down into ~20 seconds.</figcaption>
 </figure>
 

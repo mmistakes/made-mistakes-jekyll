@@ -20,7 +20,7 @@ Final painting measures 1.5\" x 1.5\".
 </figure>
 
 <figure>
-  <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/QDpXp5v2syk?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  {% include video id="QDpXp5v2syk" %}
   <figcaption>2 hours of painting condensed into 30 seconds.</figcaption>
 </figure>
 

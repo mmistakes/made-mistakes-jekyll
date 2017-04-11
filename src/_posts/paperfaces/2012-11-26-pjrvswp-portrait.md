@@ -12,4 +12,4 @@ PaperFaces portrait of project donator [@pjrvswp](http://twitter.com/pjrvswp).
 
 {% include boilerplate/paperfaces.md %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/UA9t52T0Aec" frameborder="0"> </iframe>
+{% include video id="UA9t52T0Aec" %}
