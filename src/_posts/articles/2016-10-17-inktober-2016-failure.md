@@ -9,16 +9,19 @@ image:
 gallery:
   - url: /assets/images/inktober-2016-wash-portrait-process-1.jpg
     image_path: /assets/images/inktober-2016-wash-portrait-process-1-600.jpg
+    image_lq_path: /assets/images/inktober-2016-wash-portrait-process-1-lq.jpg
     alt: "Ink wash portrait in process detail"
   - url: /assets/images/inktober-2016-wash-portrait-process-2.jpg
     image_path: /assets/images/inktober-2016-wash-portrait-process-2-600.jpg
+    image_lq_path: /assets/images/inktober-2016-wash-portrait-process-2-lq.jpg
     alt: "Ink wash portrait in process detail"
   - url: /assets/images/inktober-2016-wash-portrait-process-3.jpg
     image_path: /assets/images/inktober-2016-wash-portrait-process-3-600.jpg
+    image_lq_path: /assets/images/inktober-2016-wash-portrait-process-3-lq.jpg
     alt: "Ink wash portrait in process detail"
 tags: [watercolor, painting, drawing, portrait, illustration, Inktober]
 comments: true
-last_modified_at: 2016-10-28T14:19:32-04:00
+last_modified_at: 2017-04-11T12:53:32-04:00
 ---
 
 Similar to previously years, I started out with the best of intentions for [**Inktober**](http://mrjakeparker.com/inktober) and then quickly lose steam...

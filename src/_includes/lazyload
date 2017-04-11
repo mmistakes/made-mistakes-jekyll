@@ -1,0 +1,16 @@
+{% if include.src contains '://' %}
+  {% assign src = include.src %}
+{% else %}
+  {% assign src = include.src | prepend: site.url %}
+{% endif %}
+
+{% if include.lq contains '://' %}
+  {% assign lq = include.lq %}
+{% else include.lq %}
+  {% assign lq = include.lq | default: '/assets/images/1x1.gif' | prepend: site.url %}
+{% endif %}
+
+<noscript>
+  <img src="{{ src }}" alt="">
+</noscript>
+<img src="{{ lq }}" data-src="{{ src }}" class="lazyload blur-up" alt="{{ include.alt }}">

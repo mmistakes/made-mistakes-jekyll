@@ -17,6 +17,39 @@ This is the source code of Made Mistakes, a personal blog and portfolio built wi
 
 `page.image.feature` should be placed in `src/assets/images/feature`. These `feature` images will be converted into various sizes to be responsively served by browsers that support the [`srcset` attribute](https://responsiveimages.org/).
 
+### Content Helpers
+
+#### {% include notice %}
+
+Call-out text.
+
+| Include Parameter | Required | Description |
+| ----------------- | -------- | ----------- |
+| `type`            | Optional | Notice type. Defaults to `info`, see [style guide](https://mademistakes.com/style-guide/) for examples. |
+| `content`         | Required | Notice text. Markdown allowed and encouraged. |
+
+**Example:**
+
+```liquid
+{% include notice type="danger" content="**This has been deprecated**." %}
+```
+
+#### {% include lazyload %}
+
+Lazyload images until they're actually needed for improved page performance.
+
+| Include Parameter | Required     | Description |
+| ----              | --------     | ----------- |
+| `src`             | Required     | Full path to image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. |
+| `lq`              | Optional     | Full path to low-quality image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. Defaults to `1x1` transparent `.gif`. |
+| `alt`             | Optional     | Image alternate text. |
+
+**Example:**
+
+```liquid
+{% include lazyload src="/assets/images/my-image.jpg" lq="/assets/images/my-image-low-quality.jpg" alt="my image" %}
+```
+
 ### Local Development
 
 Let Jekyll do what it does best and transform your content into HTML. Asset management is handled by Gulp:

@@ -2,31 +2,18 @@
 {% if gallery %}
   <div class="work__gallery">
     {% for img in gallery %}
+      {% if img.url contains '://' %}
+        {% assign url = img.url %}
+      {% else %}
+        {% assign url = img.url | prepend: site.url %}
+      {% endif %}
+
       {% if img.url %}
-        <a class="work__gallery-img" href=
-          {% if img.url contains '://' %}
-            "{{ img.url }}"
-          {% else %}
-            "{{ img.url | prepend: site.url }}"
-          {% endif %}
-          {% if img.title %}title="{{ img.title }}"{% endif %}
-        >
-          <img src=
-            {% if img.image_path contains '://' %}
-              "{{ img.image_path }}"
-            {% else %}
-              "{{ img.image_path | prepend: site.url }}"
-            {% endif %}
-            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        <a class="work__gallery-img" href="{{ url }}" {% if img.title %}title="{{ img.title }}"{% endif %}>
+          {% include lazyload src=img.image_path lq=img.image_lq_path alt=img.alt %}
         </a>
       {% else %}
-        <img src=
-          {% if img.image_path contains '://' %}
-            "{{ img.image_path }}"
-          {% else %}
-            "{{ img.image_path | prepend: site.url }}"
-          {% endif %}
-          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        {% include lazyload src=img.image_path lq=img.image_lq_path alt=img.alt %}
       {% endif %}
     {% endfor %}
   </div>
