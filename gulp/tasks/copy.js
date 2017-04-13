@@ -4,7 +4,7 @@ var gulp  = require('gulp');
 // include paths file
 var paths = require('../paths');
 
-// 'gulp copy:assets' -- copies assets into the /dist/
+// 'gulp copy:assets' -- copies assets to /dist/
 // to avoid Jekyll overwriting the whole directory
 gulp.task('copy:assets', () =>
   gulp.src([paths.assetFilesTemp + '/**/*', paths.imageFiles + '/*.ico'])

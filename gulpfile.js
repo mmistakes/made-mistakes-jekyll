@@ -17,7 +17,7 @@ gulp.task('build:site', gulp.series('site:tmp', 'inject', 'site', 'copy:site'));
 // 'gulp assets --prod' -- same as above but with production settings
 gulp.task('assets', gulp.series(
   gulp.parallel('styles', 'scripts', 'fonts'),
-  gulp.series('images', 'images:feature', 'copy:assets', 'copy:icons')
+  gulp.series('images:optimize', 'images:lazyload', 'images:feature', 'copy:assets', 'copy:icons')
 ));
 
 // 'gulp clean' -- removes assets and gzipped files
