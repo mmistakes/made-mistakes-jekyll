@@ -1,8 +1,12 @@
 # [Made Mistakes](https://mademistakes.com) Source Code
 
-This is the source code of Made Mistakes, a personal blog and portfolio built with [Jekyll](http://jekyllrb.com), [Gulp](http://gulpjs.com/), and [Travis CI](https://travis-ci.org/).
+This is the source code of Made Mistakes, a personal blog and portfolio built 
+with [Jekyll](http://jekyllrb.com), [Gulp](http://gulpjs.com/), and 
+[Travis CI](https://travis-ci.org/).
 
-*Please note: Made Mistakes hasn't been "themed" like some of my other [Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't compatible with the "default" GitHub Pages workflow without substantial alterations.*
+*Please note: Made Mistakes hasn't been "themed" like some of my other 
+[Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't compatible 
+with the "default" GitHub Pages workflow without substantial alterations.*
 
 ### Plugins Used
 
@@ -13,9 +17,12 @@ This is the source code of Made Mistakes, a personal blog and portfolio built wi
 
 ### Images
 
-[Made Mistakes](https://mademistakes.com) has a lot of image assets. `src/assets/images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) and included as a Git submodule.
+[Made Mistakes](https://mademistakes.com) has a lot of image assets. 
+`src/assets/images/` has been split into its [own repo](https://github.com/mmistakes/made-mistakes-images) and included as a Git submodule.
 
-`page.image.feature` should be placed in `src/assets/images/feature`. These `feature` images will be converted into various sizes to be responsively served by browsers that support the [`srcset` attribute](https://responsiveimages.org/).
+`page.image.feature` should be placed in `src/assets/images/feature`. These 
+`feature` images will be converted into various sizes to be responsively served 
+by browsers that support the [`srcset` attribute](https://responsiveimages.org/).
 
 ### Content Helpers
 
@@ -36,27 +43,31 @@ Call-out text.
 
 #### Lazyload
 
-Lazyload images until they're actually needed for improved page performance.
+Lazyload images using [**lazysizes**](https://github.com/aFarkas/lazysizes) 
+until they're actually needed for improved page performance.
 
-| Include Parameter | Required     | Description |
-| ----              | --------     | ----------- |
-| `src`             | **Required** | Full path to image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. |
-| `lq`              | Optional     | Full path to low-quality image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. Defaults to `1x1` transparent `.gif`. |
-| `alt`             | Optional     | Image alternate text. |
+| Attribute  | Required     | Description |
+| ----       | --------     | ----------- |
+| `data-src` | **Required** | Full path to image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. |
+| `src`      | Optional     | Full path to low-quality image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. Defaults to inline transparent `.gif`. |
+| `alt`      | Optional     | Image alternate text. |
 
 **Example:**
 
 ```liquid
-{% include lazyload src="/assets/images/my-image.jpg" lq="/assets/images/my-image-low-quality.jpg" alt="my image" %}
+{% lazyload data-src="/assets/images/my-image.jpg" src="/assets/images/my-image-low-quality.jpg" alt="my lazyloaded image" %}
 ```
 
 #### Responsive Video Embed
 
-Embed a video from YouTube or Vimeo that responsively sizes to fit the width of its parent using [`/_plugins/video_embed.rb`](src/_plugins.video_embed.rb).
+Embed a video from YouTube or Vimeo that responsively sizes to fit the width of 
+its parent using [`/_plugins/video_embed.rb`](src/_plugins.video_embed.rb).
 
 ##### YouTube
 
-To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` (long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or page's main content you'd use: 
+To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` 
+(long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or 
+page's main content you'd use: 
 
 ```liquid
 {% youtube XsxDH4HcOWA %}
@@ -64,7 +75,8 @@ To embed the following YouTube video at url `https://www.youtube.com/watch?v=Xsx
 
 ##### Vimeo
 
-To embed the following Vimeo video at url `https://vimeo.com/97649261` into a post or page's main content you'd use: 
+To embed the following Vimeo video at url `https://vimeo.com/97649261` into a 
+post or page's main content you'd use: 
 
 ```liquid
 {% vimeo 97649261 %}
@@ -72,9 +84,11 @@ To embed the following Vimeo video at url `https://vimeo.com/97649261` into a po
 
 ### Local Development
 
-Let Jekyll do what it does best and transform your content into HTML. Asset management is handled by Gulp:
+Let Jekyll do what it does best and transform your content into HTML. Asset 
+management is handled by Gulp:
 
-- build `style.css` (preprocess SCSS, add vendor prefixes, concatenate, minify, hash, and gzip)
+- build `style.css` (preprocess SCSS, add vendor prefixes, concatenate, minify, 
+  hash, and gzip)
 - build critical path CSS
 - build `index.js` (concatenate, minify, hash, and gzip)
 - optimize images
@@ -123,7 +137,8 @@ Default structure (paths can be modified in `gulpfile.js` and `_config.yml`):
 
 - **Ruby**: >2.0 with Bundler >1.10
 - **Node**: >4.2 and Yo >1.7.0
-- **Gulp**: Since the release candidate is running Gulp 4.0 you need to install `gulp-cli`: `npm install gulp-cli -g`
+- **Gulp**: Since the release candidate is running Gulp 4.0 you need to install 
+  `gulp-cli`: `npm install gulp-cli -g`
 
 **Step 1:** Install [Bundler](http://bundler.io/), then run `bundle install`.
 
@@ -145,13 +160,18 @@ brew install graphicsmagick
 
 Decide upon [Q8 or Q16](http://www.graphicsmagick.org/INSTALL-windows.html#retrieve-install-package):
 
-> A Q8 version is fine for processing typical photos intended for viewing on a computer screen. If you are dealing with film, scientific, or medical images, use ICC color profiles, or deal with images that have limited contrast, then the Q16 version is recommended.
+> A Q8 version is fine for processing typical photos intended for viewing on a 
+computer screen. If you are dealing with film, scientific, or medical images, 
+use ICC color profiles, or deal with images that have limited contrast, then 
+the Q16 version is recommended.
 
-[Download](http://www.graphicsmagick.org/download.html/) and Install, be sure that "Update executable search path" is checked during installation.
+[Download](http://www.graphicsmagick.org/download.html/) and Install, be sure 
+that "Update executable search path" is checked during installation.
 
 **Step 3.** Install [Node.js](https://nodejs.org/en/), then run `npm install`.
 
-**Step 4.** To start run `gulp`. A development version of the site should be generated and opened in a browser with Browser Sync at `http://localhost:4000`.
+**Step 4.** To start run `gulp`. A development version of the site should be 
+generated and opened in a browser with Browser Sync at `http://localhost:4000`.
 
 ## Usage
 
@@ -159,8 +179,9 @@ Decide upon [Q8 or Q16](http://www.graphicsmagick.org/INSTALL-windows.html#retri
 
 This is the default command, and probably the one you'll use the most. This
 command will build your assets and site with development settings. You'll get
-sourcemaps, your drafts will be generated. As you are changing your posts, pages and assets they will
-automatically update and inject into your browser via [BrowserSync][browsersync].
+sourcemaps, your drafts will be generated. As you are changing your posts, pages 
+and assets they willautomatically update and inject into your browser via 
+[BrowserSync][browsersync].
 
 > `--prod`
 
@@ -189,15 +210,21 @@ settings. Once you generate them with production settings sourcemap generation
 is disabled. Both will be minified, gzipped and cache busted with production
 settings.
 
-> `gulp images`
+> `gulp images:optimize`
 
-Optimizes and caches your images. This is a set it and forget it command for the
-most part.
+Optimizes standard images and copies to `/dist` folder.
+
+> `gulp images:lazyload`
+
+Creates a "low-quality" version of all images in `src/assets/images/lazyload` 
+for lazyloading and copies it and the original to `/dist` folder after being 
+optimized.
 
 > `gulp images:feature`
 
-Similar to the previous task but for `feature` images. Resizes each image into various
-sizes to be served responsively with `<img>` `srcset` or `<picture>` elements.
+Similar to the previous task but for images in `src/assets/images/feature`. 
+Resizes each image into various sizes to be served responsively with `<img>` 
+`srcset` or `<picture>` elements, optimizes, and then copies to `/dist` folder.
 
 > `gulp html --prod`
 
@@ -222,8 +249,9 @@ You can also change the behavior for how it opens the URL when you run `gulp
 
 ### `gulp icons`
 
-SVG assets are optimized and smashed together into `_includes/icons.svg` and can be referenced by name. 
-To update or add new assets place appropriately named `.svg` files into the `src/assets/svg` folder.
+SVG assets are optimized and smashed together into `_includes/icons.svg` and can 
+be referenced by name. To update or add new assets place appropriately named 
+`.svg` files into the `src/assets/svg` folder.
 
 ### `gulp deploy`
 
@@ -254,8 +282,8 @@ this unless you have phantom image assets floating around you want to clear.
 
 ### `gulp critical`
 
-Extract critical path CSS from `page`, `archive`, `splash`, and `work` layouts to inline 
-via Jekyll `_includes`.
+Extract critical path CSS from `page`, `archive`, `splash`, and `work` layouts 
+to inline via Jekyll `_includes`.
 
 **Note:** Clear `critical-<layout>.css` includes, run `gulp build`, then `gulp critical`.
 
@@ -268,8 +296,9 @@ actually work. They're all commented.
 ## Inject more than one JavaScript file
 
 If you want to split up your JavaScript files into say a `index.js` and a
-`vendor.js` file with files from [Bower][https://bower.io/] you can do this quite easily. Create a
-copy of the `scripts` gulp task and rename it to `scripts:vendor` and change the
+`vendor.js` file with files from [Bower][https://bower.io/] you can do this 
+quite easily. Create a copy of the `scripts` gulp task and rename it to 
+`scripts:vendor` and change the
 `gulp.src` files you need:
 
 ```js
@@ -328,8 +357,10 @@ how to create individual inject tags and inject specific files into them.
 
 ### Posts and Pages
 
-By default Google AdSense is enabled on all posts and pages. To disable add `ads: false` to the YAML Front Matter.
+By default Google AdSense is enabled on all posts and pages. To disable add 
+`ads: false` to the YAML Front Matter.
 
-Comments are disabled by default. To enable add `comments: true` to the YAML Front Matter.
+Comments are disabled by default. To enable add `comments: true` to the YAML 
+Front Matter.
 
 Preferred method is to add as YAML Front Matter defaults to `_config.yml`.
