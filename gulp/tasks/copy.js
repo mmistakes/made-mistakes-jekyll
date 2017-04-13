@@ -1,5 +1,6 @@
 'use strict';
 var gulp  = require('gulp');
+var newer = require('gulp-newer');
 
 // include paths file
 var paths = require('../paths');
@@ -11,9 +12,17 @@ gulp.task('copy:assets', () =>
     .pipe(gulp.dest(paths.assetFilesSite))
 );
 
+// 'gulp copy:images' -- copies unoptimized images to /dist/
+gulp.task('copy:images', () =>
+  gulp.src([paths.imageFilesGlob, '!src/assets/images/{feature,feature/**,lazyload,lazyload/**}']) // do not process feature images
+    .pipe(newer(paths.imageFilesSite))
+    .pipe(gulp.dest(paths.imageFilesSite))
+);
+
 // 'gulp copy:icons' -- copies .ico assets to /dist/
 gulp.task('copy:icons', () =>
   gulp.src(paths.imageFiles + '/*.ico')
+    .pipe(newer(paths.imageFilesSite))
     .pipe(gulp.dest(paths.imageFilesSite))
 );
 
