@@ -1,11 +1,11 @@
 <div class="pager">
-  {% if page.previous_in_category %}
-    {% assign f_previous = page.previous_in_category.image.feature | split: '.' %}
-    <a href="{{ page.previous_in_category.url }}" class="btn" title="{{ page.previous_in_category.title | markdownify | strip_html | rstrip }}">&larr; Previous</a>
-  {% endif %}
-
   {% if page.next_in_category %}
     {% assign f_next = page.next_in_category.image.feature | split: '.' %}
-    <a href="{{ page.next_in_category.url }}" class="btn" title="{{ page.next_in_category.title | markdownify | strip_html | rstrip }}">Next &rarr;</a>
+    <a href="{{ page.next_in_category.url }}" class="btn" title="{{ page.next_in_category.title | markdownify | strip_html | rstrip }}">&larr; Next</a>
+  {% endif %}
+
+  {% if page.previous_in_category %}
+    {% assign f_previous = page.previous_in_category.image.feature | split: '.' %}
+    <a href="{{ page.previous_in_category.url }}" class="btn" title="{{ page.previous_in_category.title | markdownify | strip_html | rstrip }}">Previous &rarr;</a>
   {% endif %}
 </div>

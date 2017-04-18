@@ -754,7 +754,7 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
     margin-top: 0.5em; }
   .page__content > p:first-of-type {
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-    font-size: 1.25em; }
+    font-size: 1.125em; }
   .page__content figure {
     margin-left: 0;
     margin-right: 0; }
@@ -833,6 +833,14 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id
   margin-top: 4em; }
 
 /* related content */
+.page__related {
+  margin-bottom: 4em; }
+  .page__related ul {
+    margin: 0;
+    list-style-type: square; }
+  .page__related li {
+    margin-bottom: 0.5em; }
+
 /*
    Page form
    ========================================================================== */
