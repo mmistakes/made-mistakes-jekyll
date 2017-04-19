@@ -18,6 +18,10 @@ addons:
   ssh_known_hosts: s210904.gridserver.com
   apt_packages:
     - graphicsmagick
+    - g++-4.8
+
+env:
+  CXX=g++-4.8
 
 before_install:
   - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
