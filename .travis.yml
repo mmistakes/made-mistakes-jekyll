@@ -16,9 +16,12 @@ cache:
 
 addons:
   ssh_known_hosts: s210904.gridserver.com
-  apt_packages:
-    - graphicsmagick
-    - g++-4.8
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - graphicsmagick
+      - g++-4.8
 
 env:
   CXX=g++-4.8
