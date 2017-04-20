@@ -1,34 +1,21 @@
 'use strict';
+var changed     = require('gulp-changed');
 var filter      = require('gulp-filter');
 var glob        = require('glob');
 var gulp        = require('gulp');
 var gulpif      = require('gulp-if');
-var imagemin    = require('gulp-imagemin');
-var imageResize = require('gulp-image-resize');
+// var imagemin    = require('gulp-imagemin');
+// var imageResize = require('gulp-image-resize');
 var merge2      = require('merge2');
 var newer       = require('gulp-newer');
 var notify      = require('gulp-notify');
 var rename      = require('gulp-rename');
+var responsive  = require('gulp-responsive');
 var size        = require('gulp-size');
 var util        = require('gulp-util');
 
 // include paths file
 var paths       = require('../paths');
-
-// lazyload image resize values
-var lazyloadImages = [
-  { width: 20, suffix: '-lq', upscale: false },
-  { percentage: 100, suffix: '', upscale: false }
-]
-
-// responsive image resize values
-var responsiveImages = [
-  { width: 20, suffix: '-lq', upscale: false },
-  { width: 320, suffix: '-320', upscale: false },
-  { width: 768, suffix: '-768', upscale: false },
-  { width: 1024, suffix: '-1024', upscale: false },
-  { width: 1920, suffix: '', upscale: false }
-]
 
 // 'gulp images:optimize' -- optimize images
 gulp.task('images:optimize', () =>
@@ -46,44 +33,55 @@ gulp.task('images:optimize', () =>
 
 // 'gulp images:lazyload' -- resize and optimize lazyload images
 gulp.task('images:lazyload', function() {
-  var lazyloads = lazyloadImages.map(function(el) {
-    // resizing images
-    return gulp.src([paths.imageFiles + '/lazyload' + paths.imagePattern, '!' + paths.imageFiles + '/lazyload/**/*.svg'])
-      .pipe(rename(function(file) {
-        if(file.extname) {
-          file.basename += el.suffix
-        }
-      }))
-      .pipe(newer(paths.imageFilesSite))
-      .pipe(imageResize(el))
-      .pipe(imagemin([
-        imagemin.jpegtran({progressive: true}),
-        imagemin.optipng()
-      ], {verbose: true}))
-      .pipe(gulp.dest(paths.imageFilesSite))
-  });
-
-  return merge2(lazyloads);
+  // resizing images
+  return gulp.src([paths.imageFiles + '/lazyload' + paths.imagePattern, '!' + paths.imageFiles + '/lazyload/**/*.{gif,svg}'])
+    .pipe(changed(paths.imageFilesSite))
+    .pipe(responsive({
+      // resize all images
+      '*.*': [{
+        width: 20,
+        rename: { suffix: '-lq' },
+      }, {
+        // copy original image
+        width: '100%',
+        rename: { suffix: '' },
+      }]
+    }, {
+      // global configuration for all images
+      errorOnEnlargement: false,
+      withMetadata: false,
+      errorOnUnusedConfig: false
+    }))
+    .pipe(gulp.dest(paths.imageFilesSite))
 });
 
-// 'gulp images:feature' -- resize and optimize feature images
+// 'gulp images:feature' -- resize images
 gulp.task('images:feature', function() {
-  var features = responsiveImages.map(function(el) {
-    // resizing images
-    return gulp.src([paths.imageFiles + '/feature' + paths.imagePattern, '!' + paths.imageFiles + '/feature/**/*.svg'])
-      .pipe(rename(function(file) {
-        if(file.extname) {
-          file.basename += el.suffix
-        }
-      }))
-      .pipe(newer(paths.imageFilesSite))
-      .pipe(imageResize(el))
-      .pipe(imagemin([
-        imagemin.jpegtran({progressive: true}),
-        imagemin.optipng()
-      ], {verbose: true}))
-      .pipe(gulp.dest(paths.imageFilesSite))
-  });
-
-  return merge2(features);
+  return gulp.src([paths.imageFiles + '/feature' + paths.imagePattern, '!' + paths.imageFiles + '/feature/**/*.{gif,svg}'])
+    .pipe(changed(paths.imageFilesSite))
+    .pipe(responsive({
+      // resize all images
+      '*.*': [{
+        width: 20,
+        rename: { suffix: '-lq' },
+      }, {
+        width: 320,
+        rename: { suffix: '-320' },
+      }, {
+        width: 768,
+        rename: { suffix: '-768' },
+      }, {
+        width: 1024,
+        rename: { suffix: '-1024' },
+      }, {
+        width: 1920,
+        rename: { suffix: '' },
+      }]
+    }, {
+      // global configuration for all images
+      errorOnEnlargement: false,
+      withMetadata: false,
+      errorOnUnusedConfig: false
+    }))
+    .pipe(gulp.dest(paths.imageFilesSite))
 });
