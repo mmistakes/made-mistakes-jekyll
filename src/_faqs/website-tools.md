@@ -2,7 +2,7 @@
 title: "What tools do you use to build your website?"
 type: other
 date: 2014-12-07
-last_modified_at: 2017-01-17T12:24:24-05:00
+last_modified_at: 2017-04-20T08:52:06-04:00
 comments: true
 comments_locked: true
 order: 1
@@ -15,7 +15,6 @@ I've been on a [static site generator]({{ site.url }}{% post_url /articles/2012-
 ## As far as Jekyll plugins, I use the following:
 
 - [**jekyll-sitemap**][sitemap]: silently generates a [sitemaps.org](http://www.sitemaps.org/) compliant sitemap.
-- [**jekyll-archives**][archives]: generates tag archive pages.
 - [**jemoji**][jemoji]: adds GitHub-flavored emoji to Jekyll with the use of Liquid tags.
 - [**jekyll-seo-tag**][seo]: adds metadata tags for search engines and social networks to better index and display site content.
 - [**jekyll-paginate-v2**][jekyll-paginate-v2]: pagination replacement for the old [official Jekyll paginate](https://github.com/jekyll/jekyll-paginate) plugin.
@@ -25,8 +24,7 @@ If you're really interested in the specifics of how the site is built I've made 
 ## Scripts and jQuery Plugins
 
 - [**BigFoot.js**][bigfoot]: jQuery plugin for displaying footnotes inline.
-- [**FitVids.JS**][fitvids]: jQuery plugin for fluid width video embeds.
-- [**Lazy Load**][lazyload]: delays the loading of gallery images for improve page performance.
+- [**Lazysizes**][lazysizes]: high performance and SEO friendly lazy loader for images (responsive and normal), iframes and more.
 - [**Lity**][lity]: lightweight, accessible, and responsive lightbox plugin.
 - [**jQuery Smooth Scroll**][smoothscroll]: automatically make same-page links scroll smoothly.
 - [**comment-reply.js**][comment-reply] modified from [**Wordpress.org**][wordpress].
@@ -39,7 +37,6 @@ If you're really interested in the specifics of how the site is built I've made 
 
 [^files]: HTML, CSS, and JavaScript files along with images and other assets needed to render a web page.
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
-[archives]: https://github.com/jekyll/jekyll-archives
 [media-temple]: http://bit.ly/1Ugg7nN
 [grid-plan]: https://mediatemple.net/webhosting/shared/
 [hover]: https://hover.com/E4nZJYVH
@@ -50,8 +47,7 @@ If you're really interested in the specifics of how the site is built I've made 
 [seo]: https://github.com/jekyll/jekyll-seo-tag
 [wordpress]: https://wordpress.org/
 [bigfoot]: http://www.bigfootjs.com/
-[fitvids]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=fitvids
-[lazyload]: http://www.appelsiini.net/projects/lazyload
+[lazysizes]: https://github.com/aFarkas/lazysizes
 [lity]: http://sorgalla.com/lity/
 [smoothscroll]: https://github.com/kswedberg/jquery-smooth-scroll
 [comment-reply]: https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js
