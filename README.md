@@ -142,33 +142,9 @@ Default structure (paths can be modified in `gulpfile.js` and `_config.yml`):
 
 **Step 1:** Install [Bundler](http://bundler.io/), then run `bundle install`.
 
-**Step 2:** Install **GraphicsMagick**.
+**Step 2.** Install [Node.js](https://nodejs.org/en/), then run `npm install`.
 
-### Ubuntu:
-
-```
-apt-get install graphicsmagick
-```
-
-### macOS (using Homebrew):
-
-```
-brew install graphicsmagick
-```
-
-### Windows (XP, Vista, 7, 8, and 10) 32- or 64-bit:
-
-Decide upon [Q8 or Q16](http://www.graphicsmagick.org/INSTALL-windows.html#retrieve-install-package):
-
-> A Q8 version is fine for processing typical photos intended for viewing on a 
-computer screen. If you are dealing with film, scientific, or medical images, 
-use ICC color profiles, or deal with images that have limited contrast, then 
-the Q16 version is recommended.
-
-[Download](http://www.graphicsmagick.org/download.html/) and Install, be sure 
-that "Update executable search path" is checked during installation.
-
-**Step 3.** Install [Node.js](https://nodejs.org/en/), then run `npm install`.
+**Step 3:** Install [node-gyp](https://github.com/nodejs/node-gyp#installation).
 
 **Step 4.** To start run `gulp`. A development version of the site should be 
 generated and opened in a browser with Browser Sync at `http://localhost:4000`.
@@ -180,7 +156,7 @@ generated and opened in a browser with Browser Sync at `http://localhost:4000`.
 This is the default command, and probably the one you'll use the most. This
 command will build your assets and site with development settings. You'll get
 sourcemaps, your drafts will be generated. As you are changing your posts, pages 
-and assets they willautomatically update and inject into your browser via 
+and assets they will automatically update and inject into your browser via 
 [BrowserSync][browsersync].
 
 > `--prod`
@@ -331,27 +307,14 @@ how to create individual inject tags and inject specific files into them.
 
 **Gulp tasks inspired by [generator-jekyllized](https://github.com/sondr3/generator-jekyllized) by [Sondre Nilsen](https://github.com/sondr3).**
 
-[awspublish]: https://github.com/pgherveou/gulp-awspublish
 [browsersync]: https://github.com/shakyShane/browser-sync
 [browsersync-open]: https://browsersync.io/docs/options/#option-open
-[contribute]: https://github.com/sondr3/generator-jekyllized/blob/master/CONTRIBUTING.md
-[changelog]: https://github.com/sondr3/generator-jekyllized/blob/master/CHANGELOG.md
-[frequentlyasked]: https://github.com/sondr3/generator-jekyllized#frequently-asked-questions
 [gulp]: http://gulpjs.com/
-[gulpfile]: https://github.com/sondr3/generator-jekyllized/blob/master/generators/gulp/templates/gulpfile.js
 [inject]: https://github.com/klei/gulp-inject
 [jekyll-url]: http://jekyllrb.com/docs/github-pages/#project-page-url-structure
 [jekyll]: https://jekyllrb.com
-[libsass]: https://github.com/hcatlin/libsass
 [localtunnel]: http://localtunnel.me/
 [rsync]: https://github.com/jerrysu/gulp-rsync
-[yeoman]: http://yeoman.io
-[npm-image]: https://badge.fury.io/js/generator-jekyllized.svg
-[npm-url]: https://npmjs.org/package/generator-jekyllized
-[travis-image]: https://travis-ci.org/sondr3/generator-jekyllized.svg?branch=master
-[travis-url]: https://travis-ci.org/sondr3/generator-jekyllized
-[coveralls-image]: https://coveralls.io/repos/sondr3/generator-jekyllized/badge.svg
-[coveralls-url]: https://coveralls.io/r/sondr3/generator-jekyllized
 
 ---
 

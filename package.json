@@ -1,6 +1,6 @@
 {
   "name": "made-mistakes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Made Mistakes built with Gulp + Jekyll + Travis CI",
   "repository": {
     "type": "git",
@@ -31,7 +31,6 @@
     "gulp-gzip": "^1.1.0",
     "gulp-htmlmin": "^2.0.0",
     "gulp-if": "^2.0.1",
-    "gulp-image-resize": "^0.12.0",
     "gulp-imagemin": "^3.0.0",
     "gulp-inject": "^4.0.0",
     "gulp-newer": "^1.2.0",
@@ -49,7 +48,6 @@
     "gulp-svgstore": "^6.0.0",
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.7",
-    "merge2": "^1.0.2",
     "require-dir": "^0.3.0",
     "shelljs": "^0.7.0",
     "submit-sitemap": "^0.1.3",

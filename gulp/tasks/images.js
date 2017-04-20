@@ -4,9 +4,6 @@ var filter      = require('gulp-filter');
 var glob        = require('glob');
 var gulp        = require('gulp');
 var gulpif      = require('gulp-if');
-// var imagemin    = require('gulp-imagemin');
-// var imageResize = require('gulp-image-resize');
-var merge2      = require('merge2');
 var newer       = require('gulp-newer');
 var notify      = require('gulp-notify');
 var rename      = require('gulp-rename');
@@ -33,7 +30,6 @@ gulp.task('images:optimize', () =>
 
 // 'gulp images:lazyload' -- resize and optimize lazyload images
 gulp.task('images:lazyload', function() {
-  // resizing images
   return gulp.src([paths.imageFiles + '/lazyload' + paths.imagePattern, '!' + paths.imageFiles + '/lazyload/**/*.{gif,svg}'])
     .pipe(changed(paths.imageFilesSite))
     .pipe(responsive({
