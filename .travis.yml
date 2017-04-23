@@ -10,9 +10,9 @@ branches:
 
 cache:
   bundler: true
+  yarn: true
   directories:
     - node_modules # NPM packages
-    # - dist/assets/images # optimized images
 
 addons:
   ssh_known_hosts: s210904.gridserver.com

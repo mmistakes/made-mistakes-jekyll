@@ -137,12 +137,14 @@ Default structure (paths can be modified in `gulpfile.js` and `_config.yml`):
 
 - **Ruby**: >2.0 with Bundler >1.10
 - **Node**: >4.2 and Yo >1.7.0
+- **Yarn**
 - **Gulp**: Since the release candidate is running Gulp 4.0 you need to install 
   `gulp-cli`: `npm install gulp-cli -g`
 
 **Step 1:** Install [Bundler](http://bundler.io/), then run `bundle install`.
 
-**Step 2.** Install [Node.js](https://nodejs.org/en/), then run `npm install`.
+**Step 2.** Install [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/docs/install),
+then run `yarn install`.
 
 **Step 3:** Install [node-gyp](https://github.com/nodejs/node-gyp#installation).
 
