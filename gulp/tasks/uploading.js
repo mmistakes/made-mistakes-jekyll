@@ -26,7 +26,7 @@ gulp.task('upload', () => {
 });
 
 // 'gulp submit:sitemap` -- submit sitemap XML file to Google and Bing
-gulp.task('submit:sitemap', function(cb) {
+gulp.task('submit:sitemap', (cb) => {
   var SitemapUrl = paths.prodUrl + '/sitemap.xml';
 
   require('submit-sitemap').submitSitemap(SitemapUrl, function(err) {

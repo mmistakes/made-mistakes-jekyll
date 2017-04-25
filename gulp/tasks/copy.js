@@ -6,7 +6,7 @@ var newer = require('gulp-newer');
 var paths = require('../paths');
 
 // 'gulp copy:assets' -- copies assets to /dist/
-// to avoid Jekyll overwriting the whole directory
+//   to avoid Jekyll overwriting the whole directory
 gulp.task('copy:assets', () =>
   gulp.src([paths.assetFilesTemp + '/**/*', paths.imageFiles + '/*.ico'])
     .pipe(gulp.dest(paths.assetFilesSite))
@@ -31,4 +31,3 @@ gulp.task('copy:site', () =>
   gulp.src([paths.tempDir + paths.siteFolderName + '/**/*', paths.tempDir + paths.siteFolderName + '/**/.*'])
     .pipe(gulp.dest(paths.siteFolderName))
 );
-

@@ -29,7 +29,7 @@ gulp.task('images:optimize', () =>
 );
 
 // 'gulp images:lazyload' -- resize and optimize lazyload images
-gulp.task('images:lazyload', function() {
+gulp.task('images:lazyload', () => {
   return gulp.src([paths.imageFiles + '/lazyload' + paths.imagePattern, '!' + paths.imageFiles + '/lazyload/**/*.{gif,svg}'])
     .pipe(changed(paths.imageFilesSite))
     .pipe(responsive({
@@ -52,7 +52,7 @@ gulp.task('images:lazyload', function() {
 });
 
 // 'gulp images:feature' -- resize images
-gulp.task('images:feature', function() {
+gulp.task('images:feature', () => {
   return gulp.src([paths.imageFiles + '/feature' + paths.imagePattern, '!' + paths.imageFiles + '/feature/**/*.{gif,svg}'])
     .pipe(changed(paths.imageFilesSite))
     .pipe(responsive({
