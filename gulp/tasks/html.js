@@ -46,10 +46,16 @@ gulp.task('xml', () =>
     .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))
 );
 
-// Page dimensions for critical path CSS
+// Page dimensions for critical CSS
 var pageDimensions = [{
                         width: 320,
                         height: 480
+                      }, {
+                        width: 768,
+                        height: 1024
+                      }, {
+                        width: 1440,
+                        height: 960
                       }];
 
 // 'gulp styles:critical:page' -- extract layout.page critical CSS
