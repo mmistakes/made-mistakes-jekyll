@@ -39,7 +39,7 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
 
 Have more questions? If they're related to creating art on an iPad I've likely answered them in the [Frequently Asked Questions]({{ site.url }}/faqs/) section of the website. For all other inquires...
 
-<div markdown="0"><a href="{{ site.url }}/contact/" class="btn"><svg class="icon"><use xlink:href="#icon-comments"></use></svg> Message Me</a></div>
+<div markdown="0"><a href="{{ site.url }}/contact/" class="btn"><svg class="icon"><use xlink:href="{{ 'icons.svg#icon-comments' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> Message Me</a></div>
 
 ## About the Site
 

@@ -121,7 +121,7 @@ gulp.task('icons', () => {
     .pipe(size({
       showFiles: true
     }))
-    .pipe(gulp.dest(paths.sourceDir + paths.includesFolderName))
+    .pipe(gulp.dest(paths.iconFilesTemp))
 });
 
 // function to properly reload your browser
