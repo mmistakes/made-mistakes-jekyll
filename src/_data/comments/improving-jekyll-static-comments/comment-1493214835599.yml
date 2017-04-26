@@ -1,0 +1,9 @@
+_id: c9a932b0-2a87-11e7-9594-27fd6f0988e3
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "OK.. So I sort of figured out where the problem lies... While the where_exp is not working for me as it does for you, I had to take a different approach.\r\n\r\n~~~\r\n{% assign idx = 0 %}\r\n\r\n{% for comment in site.data.comments[page.slug] %}\r\n    {% if comment[1].replying_to == \"\" %}\r\n        {% assign idx         = idx | plus: 1 %}\r\n\r\n        {% assign index       = idx %}\r\n        {% assign r           = comment[1].replying_to %}\r\n        {% assign replying_to = r | to_integer %}\r\n        {% assign email       = comment[1].email %}\r\n        {% assign name        = comment[1].name %}\r\n        {% assign url         = comment[1].url %}\r\n        {% assign date        = comment[1].date %}\r\n        {% assign message     = comment[1].message %}\r\n        {% include comment.html index=index replying_to=replying_to email=email name=name url=url date=date message=message %}\r\n                        \r\n    {% endif %}\r\n{% endfor %}\r\n~~~"
+name: Matt Seemon
+email: 09d1cc2c678124c06dd0ab1a0351f665
+url: 'https://mattseemon.in'
+replying_to: '15'
+hidden: ''
+date: '2017-04-26T13:53:55.597Z'
