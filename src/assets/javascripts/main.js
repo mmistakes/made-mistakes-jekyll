@@ -13,7 +13,6 @@ WebFontConfig = {
 //   })(document);
 // };
 
-
 $(document).ready(function(){
 
   // SVG for Everybody init
@@ -43,7 +42,7 @@ $(document).ready(function(){
     var form = this;
 
     $(form).addClass('disabled');
-    $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="./assets/icons/icons.svg#icon-loading"></use></svg> Loading...');
+    $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="/assets/icons/icons.svg#icon-loading"></use></svg> Loading...');
 
     $.ajax({
       type: $(this).attr('method'),
