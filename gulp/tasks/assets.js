@@ -51,7 +51,7 @@ gulp.task('scripts', () => {
     .pipe(when(argv.prod, gulp.dest(paths.jsFilesTemp)))
     // generate manifest of hashed CSS files
     .pipe(rev.manifest('js-manifest.json'))
-    .pipe(gulp.dest(paths.jsFiles))
+    .pipe(gulp.dest(paths.tempDir + paths.sourceDir + paths.dataFolderName))
     .pipe(when(argv.prod, size({showFiles: true})))
 });
 
@@ -89,7 +89,7 @@ gulp.task('styles', () => {
     .pipe(gulp.dest(paths.sassFilesTemp))
     // generate manifest of hashed CSS files
     .pipe(rev.manifest('css-manifest.json'))
-    .pipe(gulp.dest(paths.sassFiles))
+    .pipe(gulp.dest(paths.tempDir + paths.sourceDir + paths.dataFolderName))
     .pipe(when(argv.prod, size({showFiles: true})))
     .pipe(when(!argv.prod, browserSync.stream()))
 });
