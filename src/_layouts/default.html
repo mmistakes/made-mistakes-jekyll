@@ -9,6 +9,8 @@
 
     {% seo %}
 
+    {% assign style_css = site.data.css-manifest['style.css'] | default: 'style.css' | prepend: 'assets/stylesheets/' | absolute_url %}
+
     <link rel="pingback" href="https://webmention.io/mademistakes.com/xmlrpc">
     <link rel="webmention" href="https://webmention.io/mademistakes.com/webmention">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
@@ -22,7 +24,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
-    <meta name="fullcss" content="{{ 'style.css' | prepend: 'assets/stylesheets/' | absolute_url }}">
+    <meta name="fullcss" content="{{ style_css }}">
 
     <!-- site verifications -->
     {% if site.bing_site_verification %}
@@ -46,7 +48,7 @@
 
   <!-- htmlmin:ignore -->
   <!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
-    <link rel="stylesheet" href="{{ 'style.css' | prepend: 'assets/stylesheets/' | absolute_url }}">
+    <link rel="stylesheet" href="{{ style_css }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans+Narrow:400,700">
   <!--#else-->
     {% if page.layout == "archive" %}
@@ -221,7 +223,7 @@
 
       }( this ));
     </script>
-    <noscript><link rel="stylesheet" href="{{ 'style.css' | prepend: 'assets/stylesheets/' | absolute_url }}"></noscript>
+    <noscript><link rel="stylesheet" href="{{ style_css }}"></noscript>
 
     <!-- site icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/images/apple-touch-icon.png?v=RyowzAOe9M">

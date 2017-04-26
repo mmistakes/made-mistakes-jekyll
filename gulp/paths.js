@@ -3,6 +3,7 @@ var paths = {};
 
 // Folder naming conventions.
 paths.assetsFolderName   = 'assets';
+paths.dataFolderName     = '_data';
 paths.iconFolderName     = 'icons';
 paths.includesFolderName = '_includes';
 paths.imageFolderName    = 'images';
