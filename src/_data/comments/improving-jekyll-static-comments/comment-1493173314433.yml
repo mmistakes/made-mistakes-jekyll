@@ -1,0 +1,9 @@
+_id: 1ce52580-2a27-11e7-9eac-4b33388ae63e
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "Add an `inspect` on the `comments` array instead, since that will be the new array that is filtering out replies with `where_exp`.\r\n\r\n```liquid\r\n{{ comments | inspect }}\r\n```\r\n\r\nFor comparison this is an example of what I get:\r\n\r\n```\r\n[{\"id\"=>\"comment-1047796157\", \"date\"=>2013-09-17 07:07:59 -0400, \"updated\"=>2013-09-17 07:07:59 -0400, \"post_id\"=>\"/going-static\", \"name\"=>\"picajoso\", \"url\"=>\"\", \"message\"=>\"Do you think Jekyll is suitable for a heavy updated site? If you have to build the whole website each time you publish something then this option wouldn't be acceptable. I've read somewhere that there is someway to build only the updated/new posts, maintaining the rest of the site without changes.\", \"avatar\"=>\"https://disqus.com/api/users/avatars/picajoso.jpg\"}]\r\n```"
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '15'
+hidden: ''
+date: '2017-04-26T02:21:54.432Z'
