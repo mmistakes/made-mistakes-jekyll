@@ -49,6 +49,7 @@
     "gulp-svgstore": "^6.0.0",
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.7",
+    "node-sass": "^4.5.2",
     "require-dir": "^0.3.0",
     "rev-del": "^1.0.5",
     "shelljs": "^0.7.0",
