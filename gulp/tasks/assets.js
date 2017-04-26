@@ -4,7 +4,6 @@ var autoprefixer = require('autoprefixer');
 var browserSync  = require('browser-sync').create();
 var cheerio      = require('gulp-cheerio');
 var concat       = require('gulp-concat');
-var critical     = require('critical').stream;
 var cssnano      = require('gulp-cssnano');
 var gulp         = require('gulp');
 var gzip         = require('gulp-gzip');
@@ -12,11 +11,12 @@ var newer        = require('gulp-newer');
 var postcss      = require('gulp-postcss');
 var rename       = require('gulp-rename');
 var rev          = require('gulp-rev');
+var revDel       = require('rev-del');
 var sass         = require('gulp-sass');
 var size         = require('gulp-size');
-var svgstore     = require('gulp-svgstore');
-var svgmin       = require('gulp-svgmin');
 var sourcemaps   = require('gulp-sourcemaps');
+var svgmin       = require('gulp-svgmin');
+var svgstore     = require('gulp-svgstore');
 var uglify       = require('gulp-uglify');
 var when         = require('gulp-if');
 
@@ -25,142 +25,88 @@ var paths        = require('../paths');
 
 // 'gulp scripts' -- creates a index.js file with Sourcemap from your JavaScript files
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,
-// minifies, gzips and cache busts it. Does not create a Sourcemap
-gulp.task('scripts', () =>
+//   minifies, and cache busts it (does not create a Sourcemap)
+gulp.task('scripts', () => {
   // NOTE: The order here is important since it's concatenated in order from
   // top to bottom, so you want vendor scripts etc on top
-  gulp.src([
+  return gulp.src([
     paths.jsFiles + '/vendor/jquery/*.js',
     paths.jsFiles + '/plugins/**/*.js',
     paths.jsFiles + '/main.js'
   ])
     .pipe(newer(paths.jsFilesTemp + '/index.js', {dest: paths.jsFilesTemp, ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
+    // concatenate scripts
     .pipe(concat('index.js'))
-    .pipe(size({
-      showFiles: true
-    }))
-    .pipe(when(argv.prod, rename({suffix: '.min'})))
+    .pipe(size({showFiles: true}))
+    // minify for production
     .pipe(when(argv.prod, when('*.js', uglify({preserveComments: 'some'}))))
-    .pipe(when(argv.prod, size({
-      showFiles: true
-    })))
-    .pipe(when(argv.prod, rev()))
+    // output sourcemap for development
     .pipe(when(!argv.prod, sourcemaps.write('.')))
+    .pipe(gulp.dest(paths.jsFilesTemp))
+    // hash JS for production
+    .pipe(when(argv.prod, rev()))
+    .pipe(when(argv.prod, size({showFiles: true})))
+    // output hashed files
     .pipe(when(argv.prod, gulp.dest(paths.jsFilesTemp)))
-    .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
+    // generate manifest of hashed CSS files
+    .pipe(rev.manifest('js-manifest.json'))
+    .pipe(gulp.dest(paths.jsFiles))
+    .pipe(when(argv.prod, size({showFiles: true})))
+});
+
+// 'gulp scripts:gzip --prod' -- gzips JS
+gulp.task('scripts:gzip', () => {
+  return gulp.src([paths.jsFilesTemp + '/*.js'])
+  .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
     .pipe(when(argv.prod, size({
       gzip: true,
       showFiles: true
     })))
-    .pipe(gulp.dest(paths.jsFilesTemp))
-);
+    .pipe(when(argv.prod, gulp.dest(paths.jsFilesTemp)))
+});
 
 // 'gulp styles' -- creates a CSS file from SCSS, adds prefixes and creates a Sourcemap
-// 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes, minifies,
-// gzips and cache busts it. Does not create a Sourcemap
-gulp.task('styles', () =>
-  gulp.src([paths.sassFiles + '/style.scss'])
+// 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes,
+//   minifies, and cache busts it (does not create a Sourcemap)
+gulp.task('styles', () => {
+  return gulp.src([paths.sassFiles + '/style.scss'])
     .pipe(when(!argv.prod, sourcemaps.init()))
-    .pipe(sass({
-      precision: 10
-    }).on('error', sass.logError))
-    .pipe(postcss([
-      autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})
-    ]))
-    .pipe(size({
-      showFiles: true
-    }))
-    .pipe(gulp.dest(paths.sourceDir + paths.includesFolderName))
-    .pipe(when(argv.prod, rename({suffix: '.min'})))
+    // preprocess Sass
+    .pipe(sass({precision: 10}).on('error', sass.logError))
+    // add vendor prefixes
+    .pipe(postcss([autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})]))
+    // minify for production
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
-    .pipe(when(argv.prod, size({
-      showFiles: true
-    })))
-    .pipe(when(argv.prod, rev()))
+    .pipe(size({showFiles: true}))
+    // output sourcemap for development
     .pipe(when(!argv.prod, sourcemaps.write('.')))
     .pipe(when(argv.prod, gulp.dest(paths.sassFilesTemp)))
-    .pipe(when(argv.prod, when('*.css', gzip({append: true}))))
-    .pipe(when(argv.prod, size({
-      gzip: true,
-      showFiles: true
-    })))
+    // hash CSS for production
+    .pipe(when(argv.prod, rev()))
+    .pipe(when(argv.prod, size({showFiles: true})))
+    // output hashed files
     .pipe(gulp.dest(paths.sassFilesTemp))
+    // generate manifest of hashed CSS files
+    .pipe(rev.manifest('css-manifest.json'))
+    .pipe(gulp.dest(paths.sassFiles))
+    .pipe(when(argv.prod, size({showFiles: true})))
     .pipe(when(!argv.prod, browserSync.stream()))
-);
-
-var pageDimensions = [{
-                        width: 320,
-                        height: 480
-                      }, {
-                        width: 768,
-                        height: 1024
-                      }, {
-                        width: 1280,
-                        height: 960
-                      }];
-
-// 'gulp styles:critical:page' -- extract layout.page critical CSS into /_includes/critical-page.css
-gulp.task('styles:critical:page', function () {
-  return gulp.src(paths.tempDir  + paths.siteDir + 'articles/ipad-pro/index.html')
-    .pipe(critical({
-      base: paths.tempDir,
-      inline: false,
-      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: pageDimensions,
-      dest: paths.sourceDir + paths.includesFolderName + '/critical-page.css',
-      minify: true,
-      extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
-    }))
 });
 
-// 'gulp styles:critical:archive' -- extract layout.archive critical CSS into /_includes/critical-archive.css
-gulp.task('styles:critical:archive', function () {
-  return gulp.src(paths.tempDir  + paths.siteDir + 'mastering-paper/index.html')
-    .pipe(critical({
-      base: paths.tempDir,
-      inline: false,
-      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: pageDimensions,
-      dest: paths.sourceDir + paths.includesFolderName + '/critical-archive.css',
-      minify: true,
-      extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
-    }))
-});
-
-// 'gulp styles:critical:work' -- extract layout.work critical CSS into /_includes/critical-work.css
-gulp.task('styles:critical:work', function () {
-  return gulp.src(paths.tempDir  + paths.siteDir + 'paperfaces/asja-k-portrait/index.html')
-    .pipe(critical({
-      base: paths.tempDir,
-      inline: false,
-      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: pageDimensions,
-      dest: paths.sourceDir + paths.includesFolderName + '/critical-work.css',
-      minify: true,
-      extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
-    }))
-});
-
-// 'gulp styles:critical:splash' -- extract layout.splash critical CSS into /_includes/critical-splash.css
-gulp.task('styles:critical:splash', function () {
-  return gulp.src(paths.tempDir  + paths.siteDir + 'index.html')
-    .pipe(critical({
-      base: paths.tempDir,
-      css: [paths.sourceDir + paths.includesFolderName + '/style.css'],
-      dimensions: pageDimensions,
-      dest: paths.sourceDir + paths.includesFolderName + '/critical-splash.css',
-      minify: true,
-      extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
-    }))
+// 'gulp styles:gzip --prod' -- gzips CSS
+gulp.task('styles:gzip', () => {
+  return gulp.src([paths.sassFilesTemp + '/*.css'])
+    .pipe(when(argv.prod, when('*.css', gzip({append: true}))))
+      .pipe(when(argv.prod, size({
+        gzip: true,
+        showFiles: true
+      })))
+      .pipe(when(argv.prod, gulp.dest(paths.sassFilesTemp)))
 });
 
 // 'gulp icons' -- combine all svg icons into single file
-gulp.task('icons', function () {
+gulp.task('icons', () => {
   return gulp.src(paths.iconFiles + '/*.svg')
     .pipe(svgmin())
     .pipe(rename({prefix: 'icon-'}))
@@ -175,7 +121,7 @@ gulp.task('icons', function () {
     .pipe(size({
       showFiles: true
     }))
-    .pipe(gulp.dest(paths.sourceDir + paths.includesFolderName))
+    .pipe(gulp.dest(paths.iconFilesTemp))
 });
 
 // function to properly reload your browser

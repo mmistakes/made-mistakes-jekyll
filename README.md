@@ -227,9 +227,9 @@ You can also change the behavior for how it opens the URL when you run `gulp
 
 ### `gulp icons`
 
-SVG assets are optimized and smashed together into `_includes/icons.svg` and can 
+SVG assets are optimized and smashed together into `assets/icons/icons.svg` and can 
 be referenced by name. To update or add new assets place appropriately named 
-`.svg` files into the `src/assets/svg` folder.
+`.svg` files into the `src/assets/icons` folder.
 
 ### `gulp deploy`
 

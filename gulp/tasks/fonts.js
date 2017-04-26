@@ -6,8 +6,8 @@ var size  = require('gulp-size');
 var paths = require('../paths');
 
 // 'gulp fonts' -- copies fonts to temporary assets directory
-gulp.task('fonts', () =>
-  gulp.src(paths.fontFiles + '/**/*')
+gulp.task('fonts', () => {
+  return gulp.src(paths.fontFiles + '/**/*')
     .pipe(gulp.dest(paths.fontFilesTemp))
     .pipe(size({title: 'fonts'}))
-);
+});

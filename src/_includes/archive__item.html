@@ -10,12 +10,12 @@
         {% unless post.work %}
           <span class="date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
           {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-          <span class="archive__item-time"><svg class="icon" width="20px" height="20px"><use xlink:href="#icon-stopwatch"></use></svg>&nbsp;{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
+          <span class="archive__item-time"><svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-stopwatch' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>&nbsp;{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
         {% else %}
-          <span><svg class="icon" width="20px" height="20px"><use xlink:href="#icon-folder"></use></svg>&nbsp;{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+          <span><svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>&nbsp;{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
         {% endunless %}
         {% if site.data.comments[post.slug].size > 0 %}
-          <span class="comment__count"><svg class="icon" width="20px" height="20px"><use xlink:href="#icon-comments"></use></svg>&nbsp;{{ site.data.comments[post.slug] | size }} Comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}</span>
+          <span class="comment__count"><svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-comments' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>&nbsp;{{ site.data.comments[post.slug] | size }} Comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}</span>
         {% endif %}
       </div>
       <div class="item__excerpt">

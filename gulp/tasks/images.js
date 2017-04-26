@@ -15,8 +15,8 @@ var util        = require('gulp-util');
 var paths       = require('../paths');
 
 // 'gulp images:optimize' -- optimize images
-gulp.task('images:optimize', () =>
-  gulp.src([paths.imageFilesGlob, '!src/assets/images/{feature,feature/**,lazyload,lazyload/**}']) // do not process feature images
+gulp.task('images:optimize', () => {
+  return gulp.src([paths.imageFilesGlob, '!src/assets/images/{feature,feature/**,lazyload,lazyload/**}']) // do not process feature images
     .pipe(newer(paths.imageFilesSite))
     .pipe(imagemin([
       imagemin.gifsicle({interlaced: true}),
@@ -26,10 +26,10 @@ gulp.task('images:optimize', () =>
     ], {verbose: true}))
     .pipe(gulp.dest(paths.imageFilesSite))
     .pipe(size({title: 'images'}))
-);
+});
 
 // 'gulp images:lazyload' -- resize and optimize lazyload images
-gulp.task('images:lazyload', function() {
+gulp.task('images:lazyload', () => {
   return gulp.src([paths.imageFiles + '/lazyload' + paths.imagePattern, '!' + paths.imageFiles + '/lazyload/**/*.{gif,svg}'])
     .pipe(changed(paths.imageFilesSite))
     .pipe(responsive({
@@ -52,7 +52,7 @@ gulp.task('images:lazyload', function() {
 });
 
 // 'gulp images:feature' -- resize images
-gulp.task('images:feature', function() {
+gulp.task('images:feature', () => {
   return gulp.src([paths.imageFiles + '/feature' + paths.imagePattern, '!' + paths.imageFiles + '/feature/**/*.{gif,svg}'])
     .pipe(changed(paths.imageFilesSite))
     .pipe(responsive({
