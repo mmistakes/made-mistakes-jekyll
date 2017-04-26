@@ -7,7 +7,7 @@ var tasks      = requireDir('./gulp/tasks', {recurse: true}); // eslint-disable-
 // include paths file
 var paths      = require('./gulp/paths');
 
-gulp.task('replace', gulp.parallel('replace:css', 'replace:js'));
+gulp.task('replace', gulp.series('replace:css', 'replace:js'));
 
 // 'gulp build:site' -- copies, replaces rev'd references, builds, and then copies it again
 gulp.task('build:site', gulp.series('site:tmp', 'replace', 'site', 'copy:site'));

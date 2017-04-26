@@ -26,10 +26,10 @@ var paths        = require('../paths');
 // 'gulp scripts' -- creates a index.js file with Sourcemap from your JavaScript files
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,
 //   minifies, and cache busts it (does not create a Sourcemap)
-gulp.task('scripts', () =>
+gulp.task('scripts', () => {
   // NOTE: The order here is important since it's concatenated in order from
   // top to bottom, so you want vendor scripts etc on top
-  gulp.src([
+  return gulp.src([
     paths.jsFiles + '/vendor/jquery/*.js',
     paths.jsFiles + '/plugins/**/*.js',
     paths.jsFiles + '/main.js'
@@ -53,24 +53,24 @@ gulp.task('scripts', () =>
     .pipe(rev.manifest('js-manifest.json'))
     .pipe(gulp.dest(paths.jsFiles))
     .pipe(when(argv.prod, size({showFiles: true})))
-);
+});
 
 // 'gulp scripts:gzip --prod' -- gzips JS
-gulp.task('scripts:gzip', () =>
-  gulp.src([paths.jsFilesTemp + '/*.js'])
+gulp.task('scripts:gzip', () => {
+  return gulp.src([paths.jsFilesTemp + '/*.js'])
   .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
     .pipe(when(argv.prod, size({
       gzip: true,
       showFiles: true
     })))
     .pipe(when(argv.prod, gulp.dest(paths.jsFilesTemp)))
-);
+});
 
 // 'gulp styles' -- creates a CSS file from SCSS, adds prefixes and creates a Sourcemap
 // 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes,
 //   minifies, and cache busts it (does not create a Sourcemap)
-gulp.task('styles', () =>
-  gulp.src([paths.sassFiles + '/style.scss'])
+gulp.task('styles', () => {
+  return gulp.src([paths.sassFiles + '/style.scss'])
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))
@@ -92,18 +92,18 @@ gulp.task('styles', () =>
     .pipe(gulp.dest(paths.sassFiles))
     .pipe(when(argv.prod, size({showFiles: true})))
     .pipe(when(!argv.prod, browserSync.stream()))
-);
+});
 
 // 'gulp styles:gzip --prod' -- gzips CSS
-gulp.task('styles:gzip', () =>
-  gulp.src([paths.sassFilesTemp + '/*.css'])
-  .pipe(when(argv.prod, when('*.css', gzip({append: true}))))
-    .pipe(when(argv.prod, size({
-      gzip: true,
-      showFiles: true
-    })))
-    .pipe(when(argv.prod, gulp.dest(paths.sassFilesTemp)))
-);
+gulp.task('styles:gzip', () => {
+  return gulp.src([paths.sassFilesTemp + '/*.css'])
+    .pipe(when(argv.prod, when('*.css', gzip({append: true}))))
+      .pipe(when(argv.prod, size({
+        gzip: true,
+        showFiles: true
+      })))
+      .pipe(when(argv.prod, gulp.dest(paths.sassFilesTemp)))
+});
 
 // 'gulp icons' -- combine all svg icons into single file
 gulp.task('icons', () => {

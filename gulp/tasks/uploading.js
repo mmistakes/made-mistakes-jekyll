@@ -32,7 +32,6 @@ gulp.task('submit:sitemap', (cb) => {
   require('submit-sitemap').submitSitemap(SitemapUrl, function(err) {
     if (err)
       console.warn(err);
-
-    cb();
+      cb();
   });
 });

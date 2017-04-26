@@ -13,8 +13,8 @@ var paths      = require('../paths');
 
 // 'gulp html' -- does nothing
 // 'gulp html --prod' -- minifies and gzips HTML files for production
-gulp.task('html', () =>
-  gulp.src(paths.siteFolderName + paths.htmlPattern)
+gulp.task('html', () => {
+  return gulp.src(paths.siteFolderName + paths.htmlPattern)
     .pipe(when(argv.prod, htmlmin({
       removeComments: true,
       collapseWhitespace: true,
@@ -32,19 +32,19 @@ gulp.task('html', () =>
       gzip: true
     })))
     .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))
-);
+});
 
 // 'gulp xml' -- does nothing
 // 'gulp xml' --prod'  -- minifies XML and JSON files for production
-gulp.task('xml', () =>
-  gulp.src(paths.siteFolderName + paths.xmlPattern)
+gulp.task('xml', () => {
+  return gulp.src(paths.siteFolderName + paths.xmlPattern)
     .pipe(when(argv.prod, prettyData({
       type: 'minify',
       preserveComments: true
     })))
     .pipe(when(argv.prod, size({title: 'optimized XML'})))
     .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))
-);
+});
 
 // Page dimensions for critical CSS
 var pageDimensions = [{
