@@ -1,0 +1,9 @@
+_id: 046ceab0-2a95-11e7-9594-27fd6f0988e3
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "Are you using replies on your site? You might run into problems eliminating the `where` filter since that first loop will include parent comments along with their children (the replies).\r\n\r\nI had a hell of a time getting it to filter out properly. The `where` and `where_exp` filters seem to be really picky if your data array doesn't match. It all comes down to how your data files are constructed. Perhaps yours are slightly different than mine."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '15'
+hidden: ''
+date: '2017-04-26T15:28:37.607Z'
