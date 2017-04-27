@@ -1,0 +1,9 @@
+_id: 43f71e40-2b0c-11e7-8a38-856f741990e0
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "Ultimately it boiled down to the fact that since  `where_exp` was not working for me. With my approach I was receiving each comment as below. Hence the need to use `[1]`.\r\n\r\n~~~\r\n[\"comment-1493177616768\", {\"_id\"=>\"217db4e0-2a31-11e7-9594-27fd6f0988e3\", \"_parent\"=>\"http://mattseemon.dev/blog/karaoke/2017/04/25/Latest-tracks.html\", \"name\"=>\"Matt Seemon\", \"email\"=>\"09d1cc2c678124c06dd0ab1a0351f665\", \"url\"=>\"https://mattseemon.in\", \"message\"=>\"Testing Staticman Comments\", \"replying_to\"=>\"\", \"hidden\"=>\"\", \"date\"=>\"2017-04-26T03:33:36.759Z\"}]\r\n~~~\r\n\r\nIt seems to be working with replies as well without anything breaking, so far. Fingers crossed. I will know once i go live. Thank you for all your help."
+name: Matt Seemon
+email: 09d1cc2c678124c06dd0ab1a0351f665
+url: 'https://mattseemon.in'
+replying_to: '15'
+hidden: ''
+date: '2017-04-27T05:42:14.324Z'
