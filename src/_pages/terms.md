@@ -5,7 +5,6 @@ date: 2014-06-22
 last_modified_at: 2016-08-29T22:03:48-04:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
 share: false
-author: false
 ---
 
 This is my personal website written and edited by me. Your use of this website, in any and all forms, constitutes an acceptance of these terms and policies. This page is reviewed and revised from time to time.

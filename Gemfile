@@ -9,6 +9,6 @@ gem 'jekyll', '~> 3.3'
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jemoji'
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-seo-tag', :git => 'https://github.com/jekyll/jekyll-seo-tag.git'
   gem 'jekyll-paginate-v2'
 end
