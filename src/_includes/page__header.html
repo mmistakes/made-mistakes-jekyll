@@ -11,7 +11,7 @@
   {% if page.breadcrumbs %}
     {% assign crumb = page.breadcrumbs[0] %}
     <div class="page__meta">
-      <span class="taxonomy"><a href="{{ site.url }}{{ crumb.url }}"><strong>{{ crumb.label }}</strong></a></span>
+      <span class="taxonomy"><a href="{{ crumb.url | absolute_url }}"><strong>{{ crumb.label }}</strong></a></span>
       {% if page.read_time %}
         {% assign readtime = page.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
         <span class="read-time"><svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-stopwatch' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>&nbsp;{% if readtime <= 1 %}1{% else %}{{ readtime }}{% endif %} min read</span>
