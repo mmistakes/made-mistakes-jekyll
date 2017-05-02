@@ -147,6 +147,6 @@ gulp.task('serve', (done) => {
   gulp.watch([paths.mdFilesGlob, paths.htmlFilesGlob, paths.ymlFilesGlob], gulp.series('build:site', reload));
   gulp.watch([paths.xmlFilesGlob, paths.txtFilesGlob], gulp.series('site', reload));
   gulp.watch(paths.jsFilesGlob, gulp.series('scripts', reload));
-  gulp.watch(paths.sassFilesGlob, gulp.series('styles'));
+  gulp.watch(paths.sassFilesGlob, gulp.series('styles', reload));
   gulp.watch(paths.imageFilesGlob, gulp.series('copy:images', 'images:lazyload', 'images:feature', reload));
 });
