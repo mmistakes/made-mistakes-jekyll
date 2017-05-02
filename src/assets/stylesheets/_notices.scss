@@ -55,6 +55,17 @@
     margin-top: 1.5em;
   }
 
+  thead {
+    border-color: mix(#fff, $notice-color, 70%);
+  }
+
+  tr {
+
+    &:not(:last-child) {
+      border-color: mix(#fff, $notice-color, 70%);
+    }
+  }
+
   code {
     background-color: mix(#fff, $notice-color, 70%)
   }
