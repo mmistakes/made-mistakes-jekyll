@@ -6,8 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/half-nelson-teaser.jpg
   thumb: /assets/images/half-nelson-thumb.jpg
-  credit: DVD screengrab from DB Cover
-  creditlink: http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1
+  caption: "DVD screengrab from [**DB Cover**](http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1)"
 tags: [film, review, indie]
 ---
 

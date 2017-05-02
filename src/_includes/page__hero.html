@@ -14,7 +14,7 @@
                       {{ site.url }}{{ f[0] }}.{{ f[1] }} 1920w"
          alt="{{ page.title }}"
          class="lazyload image blur-up">
-    {% if page.image.credit %}{% include page__hero-credit.html %}{% endif %}
+    {% if page.image.caption %}{% include page__hero-credit.html %}{% endif %}
   </div>
 {% else %}
   <div class="page__cover">

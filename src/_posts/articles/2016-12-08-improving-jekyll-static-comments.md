@@ -5,8 +5,7 @@ image:
   path: &image /assets/images/improving-jekyll-static-comments-feature.jpg
   feature: *image
   teaser: /assets/images/improving-jekyll-static-comments-teaser.jpg
-  credit: "Photo by **Gabriel Santiago**"
-  creditlink: "https://unsplash.com/@gabrielssantiago"
+  caption: "[Photo by **Gabriel Santiago**](https://unsplash.com/@gabrielssantiago)"
 tags: [web development, GitHub, Jekyll]
 comments: true
 last_modified_at: 2017-03-15T14:14:58-04:00

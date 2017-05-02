@@ -6,8 +6,7 @@ image:
   path: &image /assets/images/going-static-comments-feature.jpg
   feature: *image
   teaser: /assets/images/going-static-comments-teaser.jpg
-  credit: "Photo by **Ian Schneider**"
-  creditlink: "https://unsplash.com/@goian"
+  caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
 comments: true
 last_modified_at: 2016-12-08T23:04:23-05:00
 ---

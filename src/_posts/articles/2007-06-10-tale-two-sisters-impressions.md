@@ -6,8 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/tale-two-sisters-teaser.jpg
   thumb: /assets/images/two-sisters-340x340.jpg
-  credit: DVD screengrab from The Movie Database
-  creditlink: http://www.themoviedb.org/movie/4552-janghwa-hongryeon
+  caption: "DVD screengrab from [**The Movie Database**](http://www.themoviedb.org/movie/4552-janghwa-hongryeon)"
 tags: [foreign, Korean, horror, film, review]
 ---
 
