@@ -24,7 +24,7 @@ At the time of testing my site contained roughly:
 
 - 1,014 images generated at different sizes.
 - 6,986 total images.
-- 1052 total documents (991 posts / 14 pages / 3 sets of collections).
+- 1052 total documents ([991 posts](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_posts) / [14 pages](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_pages) / 3 sets of collections).
 - 535 comments stored as YAML data files.
 
 And was built with the following Jekyll plugins: [jekyll-picture-tag][jekyll-picture-tag], [sort_name][sort_name], [jekyll-archives][jekyll-archives], [jekyll-assets][jekyll-assets], [jekyll/tagging][jekyll/tagging], [jekyll-tagging-related_posts][jekyll-tagging-related_posts], [jekyll-sitemap][jekyll-sitemap], and [jemoji][jemoji].
@@ -247,7 +247,7 @@ In my tests replacing Liquid filters found in `layout: compress` with Gulp tasks
 | Minify HTML files | 39.348s | 47.00s |"
 %}
 
-#### Reduce and Refactor JavaScript
+#### Reduce and Replace JavaScript
 
 I'm close to ditching jQuery and going vanilla, but I'm not there yet. Where possible I ditched jQuery plugins and [replaced with "lighter" alternatives](https://github.com/mmistakes/made-mistakes-jekyll/issues/84). Here's a few highlights:
 
@@ -270,21 +270,196 @@ With [`paths.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/
 
 *[DRY]: Don't Repeat Yourself is a principle of software development, aimed at reducing repetition of information of all kinds, especially useful in multi-tier architectures.
 
-## Automation
+## Automation/Continuous Integration
 
-Describe rationale for integrating Travis CI into build/deployment process.
+After ditching Disqus last year to [roll my own static-based solution]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}) powered by [**Staticman**](https://staticman.net/), I needed to find a better way of deploying the site. Merging in new comments, pulling those commits down, building the site locally, and then deploying to my web server wasn't ideal.
 
-## Other Jekyll Related Housekeeping
+With some research I determined a continuous integration[^ci] platform like **Travis CI**[^ci-platforms] that integrates with GitHub was what I needed. 
+
+[^ci]: Continuous integration is a DevOps software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run.
+
+[^ci-platforms]: There are several CI platforms and services out there that can automate testing, building, and deploying a JAMstack site. [Circle CI](https://circleci.com/), [Codeship](https://www.codeship.io/), [Travis CI][travis-ci], [GitLab CI](https://ci.gitlab.org/), and [Netlify](https://www.netlify.com/) to name a few.
+
+Setting things up with Travis CI wasn't too painful, but there was some trial and error getting dependencies squared away. I'd suggest reading through [their documentation](https://docs.travis-ci.com/) but the basic idea is:
+
+1. [Sign in to Travis CI](https://travis-ci.org/auth) with your GitHub account and grant it access.
+2. Add a [`.travis.yml`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/.travis.yml) file to your repository to tell Travis CI how to build and deploy it.
+3. Set if you want Travis CI to build on branch updates, pull requests, or both.
+4. Trigger a Travis CI build anytime a Git commit is pushed.
+
+### Travis CI Config
+
+Let's take a closer look at step 2, the `.travis.yml` config file and how I setup everything.
+
+Jekyll is a Ruby static site generator so naturally we'll want this:
+
+```yaml
+language: ruby
+rvm:
+  - 2.2
+```
+
+For a quicker build start time I wanted to use the new [container-based infrastructure](https://docs.travis-ci.com/user/migrating-from-legacy/) so:
+
+```yaml
+sudo: false
+```
+
+Build only from the `master` branch:
+
+```yaml
+branches:
+  only:
+    - master
+```
+
+Since Travis CI runs installs all the dependencies in the `Gemfile` along with Node.js modules needed for all of the Gulp tasks, this can slow builds down. Thankfully there's a way to enable caching of these dependencies so they don't have to install each build.
+
+```yaml
+cache:
+  bundler: true
+  yarn: true
+  directories:
+    - node_modules # NPM packages
+```
+
+For [Sharp](https://github.com/lovell/sharp) to properly install it needs [GCC, GNU Compiler Collection](https://gcc.gnu.org/) which can be done with the [APT Addon](https://docs.travis-ci.com/user/installing-dependencies/#Installing-Packages-with-the-APT-Addon) and enabling a newer version of `gcc/g++`.
+
+```yaml
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+
+env:
+  CXX=g++-4.8
+```
+
+### Travis CI Build Lifecycle
+
+My [build lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle) breaks down like this: 
+
+1. Clone repo and any submodules. 
+2. Install `apt addons`.
+3. Install Ruby gems.
+4. Upgrade Node.js and install [Yarn](https://yarnpkg.com/en/) + Node modules.
+5. Run Gulp production build task `gulp build --prod`.
+6. [Decrypt private SSH keys](https://oncletom.io/2016/travis-ssh-deploy/) needed to rsync files to my server.
+7. Run Gulp deploy task:
+   ```yaml
+   deploy:
+     provider: script
+     skip_cleanup: true
+     script: gulp deploy
+     on:
+       branch: master
+   ```
+
+With everything configured I no longer need to build locally and deploy. I can merge in comments or make small edits to Markdown files directly on GitHub from my phone and automatically trigger a build.
+
+If there's a problem Travis CI will notify me, otherwise in ~15 minutes (or however long the build takes) any changes committed will be live on the site.
+
+{% include notice type="info" content="
+#### ProTip: Use Travis CI with Sites Hosted on GitHub Pages
+
+Travis CI comes in handy if you want to use Jekyll plugins or a more advanced Gulp workflow like I am. There are [deployment scripts](https://docs.travis-ci.com/user/deployment/pages/) specifically for this purpose. 
+
+[Netlify](https://www.netlify.com/), [GitLab](https://pages.gitlab.io/), and friends also do similar things if you're feeling constrained by what's currently allowed on GH Pages."
+%}
+
+## Other Jekyll Related Bits
 
 ### Pagination Upgrades
 
+Looking to wring a little more #WebPerf juice out of my site, I went after category and tag archive pages. Depending on the tag, these `index.html` pages could be quite hefty due to including HTML for hundreds of post teasers.
+
+To cut them down to size I needed a way of paginating these pages. Jekyll has an [official pagination plugin](http://jekyllrb.com/docs/pagination/), but unfortunately it's limited (and deprecated). [**Jekyll Paginate v2**][jekyll-paginate-v2] on the other hand is fully featured, backwards compatible, and actively being developed.
+
 Describe rational for pagination and the benefits of using jekyll-paginate-v2 over the stock Jekyll pagination plugin.
 
-### Post Navigation Restricted by Category
+- [Paginate collection](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#paginating-collections)
+- [Paginate categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories)
+- [Paginate tags](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-tags)
+- [Paginate locales](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-locales)
+
+There's even built-in generator called [Auto-Pages][auto-pages] to create tag, category, and collection archives. Which unlike [Jekyll Archives][jekyll-archives], can all be paginated.
+
+With a few changes to my `_config.yml` file and the creation of a [tag archive layout](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_layouts/autopage_tags.html) I was ready to roll.
+
+```yaml
+# Plugin: Pagination (jekyll-paginate-v2)
+pagination:
+  enabled      : true
+  debug        : false
+  per_page     : 15
+  permalink    : "/page/:num/"
+  title        : ":title - Page :num of :max"
+  limit        : 0
+  sort_field   : "date"
+  sort_reverse : true
+
+# Plugin: Auto Pages (jekyll-paginate-v2)
+autopages:
+  enabled      : true
+  categories:
+    enabled    : false
+  collections:
+    enabled    : false
+  tags:
+    enabled    : true
+    layouts:
+      - "autopage_tags.html"
+    title      : ":tag" # :tag is replaced by the tag name
+    permalink  : "/tag/:tag"
+```
+
+For category archives I created my own bespoke pages for finer control over them. There's three parts to getting this to work:
+
+**Step 1:** Create your archive page... let's use my [Articles archive]({{ site.url }}/article/) as an example. I like to keep all of my pages together so I created `articles.md` and placed it in a [folder named `_pages`]({{ site.url }}{% post_url /articles/2016-02-17-using-jekyll-2016 %}#pages-for-everything-else}), but you could just as easily place it elsewhere.
+
+**Step 2:** Configure the paginator by enabling it on the page and defining what categories it should filter, in this case `articles`.
+
+```yaml
+pagination: 
+  enabled: true
+  category: articles
+```
+
+{% include notice type="info" content="
+#### ProTip: [Filter Multiple Categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories)
+
+Want to combine several categories into one paginator object? Jekyll Paginate v2 has you covered. Just add additional categories as a comma separated list e.g. `category: foo, bar`."
+%}
+
+**Step 3:** Output the posts by looping through the `paginator.posts` array. A simple example would look something like this:
+
+```html
+<ul>
+  {% raw %}{% for post in paginator.posts %}
+    <!-- what you want to output. title, url, image, etc. -->
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}{% endraw %}
+</ul>
+```
+
+And for "next/previous" navigation links you can do something like this:
+
+```html
+{% raw %}{% if paginator.total_pages > 1 %}
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Newer Posts</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Older Posts</a>
+  {% endif %}
+{% endif %}{% endraw %}
+```
 
 ### Lazyload Tag
 
-Custom Jekyll plugin to defer the loading of images and video embeds using [**lazysizes**](https://github.com/aFarkas/lazysizes) for improved page performance.
+Custom Jekyll plugin to defer the loading of images and video embeds using [**lazysizes**](https://github.com/aFarkas/lazysizes) for improved page performance. A Liquid version of this is used in the [hero image include](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_includes/page__hero.html).
 
 | Attribute  | Required     | Description |
 | ----       | --------     | ----------- |
@@ -302,7 +477,7 @@ Custom Jekyll plugin to defer the loading of images and video embeds using [**la
 
 Custom Jekyll plugin to embed a video from YouTube or Vimeo that responsively sizes to fit the width of its parent using [`/_plugins/video_embed.rb`](src/_plugins.video_embed.rb).
 
-Embeds are also lazyloaded to improve page performance.
+Embeds are also [lazyloaded](#lazyload-tag) to improve page performance.
 
 #### YouTube Embed
 
@@ -322,7 +497,9 @@ To embed the following Vimeo video at url `https://vimeo.com/97649261` into a po
 
 ### Simplified Breadcrumbs
 
-YAML Front Matter example:
+Previously I was using some Liquid voodoo to [build a trail of breadcrumbs](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.3.0/src/_includes/breadcrumbs.html). This sort of work but wasn't as flexible as I'd like, especially if I wanted to use more descriptive labels for the crumbs.
+
+Since my content hierarchy is shallow I decided to just manually assign breadcrumbs to each post with YAML Front Matter.
 
 ```yaml
 breadcrumbs:
@@ -330,16 +507,16 @@ breadcrumbs:
     url: /articles/
 ```
 
-Pulled in on the page like so:
+Then using this Liquid and HTML it's outputted in my layout:
 
 ```html
 {% raw %}{% if page.breadcrumbs %}
   {% assign crumb = page.breadcrumbs[0] %}
   <a href="{{ crumb.url }}"><strong>{{ crumb.label }}</strong></a>
 {% endif %}{% endraw %}
-```
+``` 
 
-Which could be modified to something like this if your breadcrumbs went deeper than a single level:
+For multiple levels of breadcrumbs the following YAML and sample `for` loop should get the job started.
 
 ```yaml
 breadcrumbs:
@@ -348,8 +525,6 @@ breadcrumbs:
   - label: "Level 2"
     url: /level-2/
 ```
-
-Sample `for` loop that you'll want to markup and style accordingly:
 
 ```html
 {% raw %}{% if page.breadcrumbs %}
@@ -361,6 +536,42 @@ Sample `for` loop that you'll want to markup and style accordingly:
 {% endif %}{% endraw %}
 ```
 
+{% include notice type="info" content="
+#### ProTip: Add Breadcrumbs Using [Front Matter Defaults](http://jekyllrb.com/docs/configuration/#front-matter-defaults)
+
+Take a DRY approach and [add breadcrumbs](https://github.com/mmistakes/made-mistakes-jekyll/blob/11.0.0/_config.yml#L126-L128) at the category level instead of on every post/page. `defaults:` in `_config.yml` is your friend."
+%}
+
+### Popular Tags
+
+Surface commonly used tags filtered by the current category.
+
+```liquid
+{% raw %}{% assign filterCategory = page.pagination.category | default: page.category %}
+
+<ul>
+  {% assign tagLimiter = 0 %}
+  {% for tag in site.tags %}
+    {% comment %}create an empty array{% endcomment %}
+    {% assign postsInCategory = "" | split: "/" %}
+
+    {% comment %}loop over site.tags{% endcomment %}
+    {% for post in tag[1] %}
+      {% if post.categories contains filterCategory %}
+        {% comment %}if a post is in the filter category add it to postsInCategory array{% endcomment %}
+        {% assign postsInCategory = postsInCategory | push: post %}
+      {% endif %}
+    {% endfor %}
+
+    {% comment %}poor man's tag limit on those that are frequently used{% endcomment %}
+    {% if postsInCategory.size >= 5 and tagLimiter <= 5 %}
+      {% assign tagLimiter = tagLimiter | plus: 1 %}
+      <li><a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/" >{{ tag[0] }}</a></li>
+    {% endif %}
+  {% endfor %}{% endraw %}
+</ul>
+```
+
 [jekyll-picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
 [sort_name]: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_plugins/sort_name.rb
 [jekyll-archives]: https://github.com/jekyll/jekyll-archives
@@ -368,6 +579,8 @@ Sample `for` loop that you'll want to markup and style accordingly:
 [jekyll/tagging]: https://github.com/pattex/jekyll-tagging
 [jekyll-tagging-related_posts]: https://github.com/toshimaru/jekyll-tagging-related_posts
 [jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[jekyll-paginate-v2]: https://github.com/sverrirs/jekyll-paginate-v2
+[auto-pages]: https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md
 [jemoji]: https://github.com/jekyll/jemoji
 [nodejs]: https://nodejs.org/en/
 [gulpjs]: http://gulpjs.com/
@@ -382,3 +595,4 @@ Sample `for` loop that you'll want to markup and style accordingly:
 [gulp-gzip]: https://github.com/jstuckey/gulp-gzip
 [gulp-rev]: https://github.com/sindresorhus/gulp-rev
 [gulp-htmlmin]: https://github.com/jonschlinkert/gulp-htmlmin
+[travis-ci]: https://travis-ci.org/
