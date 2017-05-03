@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/going-static-comments-teaser.jpg
   caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
 comments: true
-last_modified_at: 2016-12-08T23:04:23-05:00
+last_modified_at: 2017-05-03T11:56:13-04:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.
@@ -484,4 +484,7 @@ One thing I miss since leaving Disqus, are comment notifications. Sure you can s
 
 Less likely a commenter will return to the page to see if a reply was made without the nudge of a notification. Wordpress and friends has the whole "**subscribe to comments**" feature which could apply here I suppose.
 
-Anyone out there also using a static commenting approach and found a slick way to handle this? Let me know below or via Twitter [@mmistakes](https://twitter.com/mmistakes).
+<div class="notice--info" markdown="1">
+#### Update: Replies, Notifications, and More!
+Staticman has been updated to support replies, email notifications, and [reCAPTCHA](https://www.google.com/recaptcha/intro/) (helps reduce spam comments). To learn more about how I added each of these to this site, read my post [Improving Static Comments with Jekyll & Staticman]({{ site.url }}{% post_url /articles/2016-12-08-improving-jekyll-static-comments %}).
+</div>
