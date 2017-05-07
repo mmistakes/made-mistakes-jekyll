@@ -132,7 +132,7 @@
   overflow: hidden;
   backface-visibility: hidden;
   filter: blur(25px);
-  transform: translate3d(0, 0, 0);
+  transform: scale(1.25) translate3d(0, 0, 0);
 }
 
 /*
