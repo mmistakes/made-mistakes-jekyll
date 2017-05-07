@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-shannon-v.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-shannon-v-teaser.jpg
-  thumb: /assets/images/paperfaces-shannon-v-150.jpg
+  thumbnail: /assets/images/paperfaces-shannon-v-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, landscape]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-tati.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-tati-teaser.jpg
-  thumb: /assets/images/paperfaces-tati-150.jpg
+  thumbnail: /assets/images/paperfaces-tati-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, bokeh, time lapse]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-general-grievous.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-general-grievous-teaser.jpg
-  thumb: /assets/images/paperfaces-general-grievous-150.jpg
+  thumbnail: /assets/images/paperfaces-general-grievous-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 

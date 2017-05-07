@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-mr-spock.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mr-spock-teaser.jpg
-  thumb: /assets/images/paperfaces-mr-spock-150.jpg
+  thumbnail: /assets/images/paperfaces-mr-spock-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Trek, Mix, time lapse, black and white]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-efox-angel.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-efox-angel-teaser.jpg
-  thumb: /assets/images/paperfaces-efox-angel-150.jpg
+  thumbnail: /assets/images/paperfaces-efox-angel-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

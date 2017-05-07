@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-emperor-palpatine.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-emperor-palpatine-teaser.jpg
-  thumb: /assets/images/paperfaces-emperor-palpatine-150.jpg
+  thumbnail: /assets/images/paperfaces-emperor-palpatine-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 

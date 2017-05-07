@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @veganwendy for her birthday drawn with Paper b
 image: 
   path: &image /assets/images/paperfaces-veganwendy-birthday-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-veganwendy-birthday-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-veganwendy-birthday-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

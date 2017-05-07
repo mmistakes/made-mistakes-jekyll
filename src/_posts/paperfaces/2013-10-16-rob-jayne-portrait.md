@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Rob and Jayne drawn with Paper by 53 on an iPad
 image: 
   path: &image /assets/images/paperfaces-rob-jayne.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-rob-jayne-150.jpg
+  thumbnail: /assets/images/paperfaces-rob-jayne-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -5,7 +5,7 @@ tags: [Jekyll, web development, GitHub, open source]
 image:
   path: &image /assets/images/going-static-comments-feature.jpg
   feature: *image
-  thumb: /assets/images/going-static-comments-th.jpg
+  thumbnail: /assets/images/going-static-comments-th.jpg
   teaser: /assets/images/going-static-comments-teaser.jpg
   caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
 comments: true

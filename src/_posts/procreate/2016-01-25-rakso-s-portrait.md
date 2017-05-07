@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/rakso-s-procreate.jpg
   feature: *image
   teaser: /assets/images/rakso-s-procreate-teaser.jpg
-  thumb: /assets/images/rakso-s-procreate-250.jpg
+  thumbnail: /assets/images/rakso-s-procreate-250.jpg
 gallery:
   - url: /assets/images/rakso-s-process-1-lg.jpg
     image_path: /assets/images/rakso-s-process-1-320.jpg

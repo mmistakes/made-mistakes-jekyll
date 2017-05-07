@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-velanv-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-velanv-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-velanv-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-velanv-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, bokeh, beard]
 ---
 

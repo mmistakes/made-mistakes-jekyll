@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/how-to-draw-hair-feature.jpg
   feature: *image
   teaser: /assets/images/how-to-draw-hair-teaser-2016.jpg
-  thumb: /assets/images/how-to-draw-hair-thumb.jpg
+  thumbnail: /assets/images/how-to-draw-hair-thumb.jpg
 tags: [Paper by 53, tutorial, hair, drawing, iPad]
 ---
 

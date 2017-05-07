@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-allyson-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-allyson-b-teaser.jpg
-  thumb: /assets/images/paperfaces-allyson-b-150.jpg
+  thumbnail: /assets/images/paperfaces-allyson-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, tattoo]
 last_modified_at: 2017-01-17T16:18:00-05:00
 ---

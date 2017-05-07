@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-fivepops.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-fivepops-teaser.jpg
-  thumb: /assets/images/paperfaces-fivepops-150.jpg
+  thumbnail: /assets/images/paperfaces-fivepops-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:56:22-05:00
 ---

@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/painting-stormtrooper.jpg
   feature: *image
   teaser: /assets/images/painting-stormtrooper-teaser.jpg
-  thumb: /assets/images/painting-stormtrooper-250.jpg
+  thumbnail: /assets/images/painting-stormtrooper-250.jpg
 gallery:
   - url: /assets/images/painting-stormtrooper-process-1-lg.jpg
     image_path: /assets/images/painting-stormtrooper-process-1-600.jpg

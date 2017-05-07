@@ -5,7 +5,7 @@ tags: [Paper by 53, iPad, tutorial]
 image:
   path: &image /assets/images/paper-53-full-tools.jpg
   feature: *image
-  thumb: /assets/images/paper-53-switch-tools-th.jpg
+  thumbnail: /assets/images/paper-53-switch-tools-th.jpg
   teaser: /assets/images/paper-53-switch-tools-teaser.jpg
 last_modified_at: 2017-05-07T16:37:18-04:00
 ---

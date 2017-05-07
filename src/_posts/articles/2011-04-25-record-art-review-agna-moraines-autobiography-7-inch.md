@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/agna-moraines-autobiography-feature.jpg
   feature: *image
   teaser: /assets/images/agna-moraines-autobiography-teaser.jpg
-  thumb: /assets/images/agna-moraines-340x340.jpg
+  thumbnail: /assets/images/agna-moraines-340x340.jpg
 tags: [records, punk, design, DIY, critique, inspiration]
 ---
 

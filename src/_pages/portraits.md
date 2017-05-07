@@ -4,7 +4,7 @@ title: "Order a Digital Portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
 last_modified_at: 2014-09-22T11:27:18-04:00
 image:
-  thumb: /assets/images/portrait-thumb.jpg
+  thumbnail: /assets/images/portrait-thumb.jpg
   teaser: /assets/images/portrait-teaser.jpg
 ads: false
 ---
@@ -13,17 +13,17 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:5 %}
-    <li>
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></a>
-    </li>
+  <li>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumbnail }}" alt=""></a>
+  </li>
 {% endfor %}
 </ul>
 
 Using a photograph supplied by you as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. I recommend going black and white since it's my favorite way to draw and often yields more realistic results. ([Portrait examples]({{ site.url }}/paperfaces/))
 
 <figure>
-    <img src="{{ site.url }}/assets/images/portrait-single-multiple.jpg" alt="one face or multiple">
-    <figcaption>Choose wisely: black and white, one face, or multiple.</figcaption>
+  <img src="{{ site.url }}/assets/images/portrait-single-multiple.jpg" alt="one face or multiple">
+  <figcaption>Choose wisely: black and white, one face, or multiple.</figcaption>
 </figure>
 
 ## Include a Photo Reference

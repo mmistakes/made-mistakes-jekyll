@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-simonbusborg-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-simonbusborg-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-simonbusborg-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-simonbusborg-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

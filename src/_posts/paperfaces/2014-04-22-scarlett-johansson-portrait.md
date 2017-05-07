@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-scarlett-johansson.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-scarlett-johansson-teaser.jpg
-  thumb: /assets/images/paperfaces-scarlett-johansson-150.jpg
+  thumbnail: /assets/images/paperfaces-scarlett-johansson-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T14:00:31-05:00
 ---

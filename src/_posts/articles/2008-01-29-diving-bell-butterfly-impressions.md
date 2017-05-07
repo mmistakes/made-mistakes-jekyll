@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/diving-bell-butterfly-feature.jpg
   feature: *image
   teaser: /assets/images/diving-bell-butterfly-teaser.jpg
-  thumb: /assets/images/diving-bell-butterfly-thumb.jpg
+  thumbnail: /assets/images/diving-bell-butterfly-thumb.jpg
   caption: "DVD screengrab from [**Artsy Fartsy Film**](http://artsyfartsyfilm.blogspot.com)"
 tags: [French, foreign, film, review]
 ---

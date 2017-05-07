@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @ddrjr drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ddrjr-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-ddrjr-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-ddrjr-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

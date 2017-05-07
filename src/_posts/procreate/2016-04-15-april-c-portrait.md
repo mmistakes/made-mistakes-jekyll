@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/april-c-procreate.jpg
   feature: *image
   teaser: /assets/images/april-c-procreate-teaser.jpg
-  thumb: /assets/images/april-c-procreate-250.jpg
+  thumbnail: /assets/images/april-c-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

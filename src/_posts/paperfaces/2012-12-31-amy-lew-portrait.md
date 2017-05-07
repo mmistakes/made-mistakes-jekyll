@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @amy_lew drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-amy-lew-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-amy-lew-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-amy-lew-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

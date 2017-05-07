@@ -22,9 +22,9 @@
         <p>{{ post.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
       </div>
     </div>
-    {% if post.image.thumb or post.image.teaser %}
+    {% if post.image.thumbnail or post.image.teaser %}
       <div class="item__image">
-        <img src="{{ post.image.thumb | default: post.image.teaser | absolute_url }}" alt="">
+        <img src="{{ post.image.thumbnail | default: post.image.teaser | absolute_url }}" alt="">
       </div>
     {% endif %}
   </a>

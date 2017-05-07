@@ -7,7 +7,7 @@ image:
   path: &image /assets/images/paper-53-zoom-loupe-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-zoom-loupe-teaser.jpg
-  thumb: /assets/images/paper-53-zoom-loupe-thumb.jpg
+  thumbnail: /assets/images/paper-53-zoom-loupe-thumb.jpg
 comments_locked: true
 ---
 

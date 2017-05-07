@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-thomas-d-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-thomas-d-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-thomas-d-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-thomas-d-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T14:26:35-05:00
 ---

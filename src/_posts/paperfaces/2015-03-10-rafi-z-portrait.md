@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-rafi-z.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rafi-z-teaser.jpg
-  thumb: /assets/images/paperfaces-rafi-z-150.jpg
+  thumbnail: /assets/images/paperfaces-rafi-z-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse, black and white]
 ---
 

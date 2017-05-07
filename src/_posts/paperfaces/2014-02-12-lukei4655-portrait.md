@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-lukei4655-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lukei4655-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-lukei4655-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-lukei4655-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 last_modified_at: 2017-01-17T14:55:36-05:00
 ---

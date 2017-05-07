@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/COM-feature.jpg
   feature: *image
   teaser: /assets/images/COM-teaser.jpg
-  thumb: /assets/images/COM-record-sleeve-340x340.jpg
+  thumbnail: /assets/images/COM-record-sleeve-340x340.jpg
 tags: [records, punk, critique, design, inspiration, typography]
 ---
 

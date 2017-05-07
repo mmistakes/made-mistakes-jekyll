@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-rosebuds-2.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-2-teaser.jpg
-  thumb: /assets/images/paperfaces-rosebuds-2-150.jpg
+  thumbnail: /assets/images/paperfaces-rosebuds-2-150.jpg
 gallery:
   - url: paperfaces-rosebuds-2-process-1-lg.jpg
     image_path: /assets/images/paperfaces-rosebuds-2-process-1-600.jpg

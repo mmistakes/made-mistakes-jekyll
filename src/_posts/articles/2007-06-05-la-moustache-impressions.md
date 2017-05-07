@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/la-moustache-feature.jpg
   feature: *image
   teaser: /assets/images/la-moustache-teaser.jpg
-  thumb: /assets/images/la-moustache-thumb.jpg
+  thumbnail: /assets/images/la-moustache-thumb.jpg
   caption: "DVD screengrab from [**The Movie Database**](http://www.themoviedb.org/movie/16998-la-moustache)"
 tags: [mustache, French, film, review, foreign]
 ---

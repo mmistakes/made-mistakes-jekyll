@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-luvgahyun-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-luvgahyun-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-luvgahyun-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-luvgahyun-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:08:59-05:00
 ---

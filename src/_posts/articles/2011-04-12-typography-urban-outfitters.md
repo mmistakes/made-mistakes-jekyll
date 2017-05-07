@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/UO11-spring-featured.jpg
   feature: *image
   teaser: /assets/images/UO-spring11-teaser.jpg
-  thumb: /assets/images/UO11-spring-thumb.jpg
+  thumbnail: /assets/images/UO11-spring-thumb.jpg
 tags: [catalog, design, typography, critique, readability]
 ---
 

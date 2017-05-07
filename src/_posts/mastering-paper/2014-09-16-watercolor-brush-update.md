@@ -7,7 +7,7 @@ image:
   path: &image /assets/images/paper-53-watercolor-brush-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-watercolor-brush-teaser.jpg
-  thumb: /assets/images/paper-53-watercolor-brush-th.jpg
+  thumbnail: /assets/images/paper-53-watercolor-brush-th.jpg
 comments_locked: true
 ---
 

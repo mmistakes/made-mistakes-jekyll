@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-ikaish-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ikaish-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-ikaish-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-ikaish-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, bokeh, blend]
 ---
 

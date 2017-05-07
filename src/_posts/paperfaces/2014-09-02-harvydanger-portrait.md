@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-harvydanger-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-harvydanger-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-harvydanger-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-harvydanger-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

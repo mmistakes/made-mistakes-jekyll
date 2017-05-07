@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-m-large.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-m-large-teaser.jpg
-  thumb: /assets/images/paperfaces-m-large-150.jpg
+  thumbnail: /assets/images/paperfaces-m-large-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, beard, bokeh, black and white]
 ---
 

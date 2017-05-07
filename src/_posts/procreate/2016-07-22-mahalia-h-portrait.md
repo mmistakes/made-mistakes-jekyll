@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/mahalia-h-procreate.jpg
   feature: *image
   teaser: /assets/images/mahalia-h-procreate-teaser.jpg
-  thumb: /assets/images/mahalia-h-procreate-250.jpg
+  thumbnail: /assets/images/mahalia-h-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

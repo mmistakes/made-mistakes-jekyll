@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-scoutu-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-scoutu-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-scoutu-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-scoutu-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

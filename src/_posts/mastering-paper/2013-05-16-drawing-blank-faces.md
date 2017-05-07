@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-draw-face-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-draw-face-teaser-2016.jpg
-  thumb: /assets/images/paper-53-draw-face-thumb.jpg
+  thumbnail: /assets/images/paper-53-draw-face-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, portrait, iPad]
 ---
 

@@ -7,7 +7,7 @@ image:
   path: &image /assets/images/pencil-53-feature.jpg
   feature: *image
   teaser: /assets/images/pencil-53-teaser.jpg
-  thumb: /assets/images/pencil-53-thumb.jpg
+  thumbnail: /assets/images/pencil-53-thumb.jpg
 comments_locked: true
 ---
 

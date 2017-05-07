@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @studioprisoner drawn with Paper by 53 on an iP
 image: 
   path: &image /assets/images/paperfaces-studioprisoner-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-studioprisoner-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-studioprisoner-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, horse]
 ---
 

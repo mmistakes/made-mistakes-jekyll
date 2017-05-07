@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-dudrenov-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-dudrenov-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-dudrenov-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-dudrenov-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:58:37-05:00
 ---

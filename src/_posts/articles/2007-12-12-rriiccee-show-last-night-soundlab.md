@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/rriiccee-feature.jpg
   feature: *image
   teaser: /assets/images/rriiccee-teaser.jpg
-  thumb: /assets/images/rriiccee-thumb.jpg
+  thumbnail: /assets/images/rriiccee-thumb.jpg
 tags: [RRIICCEE, Vincent Gallo, Soundlab, Buffalo, review]
 ---
 

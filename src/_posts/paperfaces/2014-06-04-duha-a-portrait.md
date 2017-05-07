@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-duha-a.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-duha-a-teaser.jpg
-  thumb: /assets/images/paperfaces-duha-a-150.jpg
+  thumbnail: /assets/images/paperfaces-duha-a-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

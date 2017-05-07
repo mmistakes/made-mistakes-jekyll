@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-sj-selina-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-sj-selina-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-sj-selina-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sj-selina-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

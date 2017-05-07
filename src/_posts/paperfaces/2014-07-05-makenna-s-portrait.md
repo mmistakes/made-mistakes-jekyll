@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-makenna-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-makenna-s-teaser.jpg
-  thumb: /assets/images/paperfaces-makenna-s-150.jpg
+  thumbnail: /assets/images/paperfaces-makenna-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

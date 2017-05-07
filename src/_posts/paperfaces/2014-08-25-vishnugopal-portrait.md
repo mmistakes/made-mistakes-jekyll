@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-vishnugopal-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-vishnugopal-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-vishnugopal-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-vishnugopal-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

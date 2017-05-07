@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-kylesethgray-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kylesethgray-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-kylesethgray-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-kylesethgray-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:59:18-05:00
 ---

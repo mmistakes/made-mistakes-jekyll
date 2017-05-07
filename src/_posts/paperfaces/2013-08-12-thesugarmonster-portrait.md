@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @thesugarmonster drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-thesugarmonster-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-thesugarmonster-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-thesugarmonster-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

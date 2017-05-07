@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/skinny-bones-preview-feature.jpg
   feature: *image
   teaser: /assets/images/skinny-bones-preview-teaser.png
-  thumb: /assets/images/skinny-bones-preview-th.png
+  thumbnail: /assets/images/skinny-bones-preview-th.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 last_modified_at: 2015-05-22T15:11:31-04:00

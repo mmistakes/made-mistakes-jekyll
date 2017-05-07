@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-darth-maul.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-darth-maul-teaser.jpg
-  thumb: /assets/images/paperfaces-darth-maul-150.jpg
+  thumbnail: /assets/images/paperfaces-darth-maul-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Danielle M. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-danielle-m.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-danielle-m-150.jpg
+  thumbnail: /assets/images/paperfaces-danielle-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

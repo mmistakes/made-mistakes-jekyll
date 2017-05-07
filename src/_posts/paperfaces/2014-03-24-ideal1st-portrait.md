@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-ideal1st-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ideal1st-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-ideal1st-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-ideal1st-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, blend]
 last_modified_at: 2017-01-17T14:23:35-05:00
 ---

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-bengillam-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bengillam-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-bengillam-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-bengillam-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T13:01:50-05:00
 ---

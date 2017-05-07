@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-bill-liu.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bill-liu-teaser.jpg
-  thumb: /assets/images/paperfaces-bill-liu-150.jpg
+  thumbnail: /assets/images/paperfaces-bill-liu-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, bokeh]
 ---
 

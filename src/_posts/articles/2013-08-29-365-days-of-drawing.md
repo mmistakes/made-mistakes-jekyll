@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-476-portraits-lg.jpg
   feature: *image
   teaser: /assets/images/paperfaces-476-portraits-teaser.jpg
-  thumb: /assets/images/paperfaces-476-portraits-thumb.jpg
+  thumbnail: /assets/images/paperfaces-476-portraits-thumb.jpg
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
 ---

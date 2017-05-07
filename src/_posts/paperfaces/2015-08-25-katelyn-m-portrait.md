@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-katelyn-m.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-katelyn-m-teaser.jpg
-  thumb: /assets/images/paperfaces-katelyn-m-150.jpg
+  thumbnail: /assets/images/paperfaces-katelyn-m-150.jpg
 gallery:
   - url: /assets/images/paperfaces-katelyn-m-process-1-lg.jpg
     image_path: /assets/images/paperfaces-katelyn-m-process-1-600.jpg

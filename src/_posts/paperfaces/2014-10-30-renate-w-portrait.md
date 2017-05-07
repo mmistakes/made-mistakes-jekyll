@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-renate-w.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-renate-w-teaser.jpg
-  thumb: /assets/images/paperfaces-renate-w-150.jpg
+  thumbnail: /assets/images/paperfaces-renate-w-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

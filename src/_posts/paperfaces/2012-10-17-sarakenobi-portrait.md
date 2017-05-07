@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @sarakenobi drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-sarakenobi-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-sarakenobi-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sarakenobi-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

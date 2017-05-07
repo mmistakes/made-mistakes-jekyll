@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-ukulele-bikes.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ukulele-bikes-teaser.jpg
-  thumb: /assets/images/paperfaces-ukulele-bikes-150.jpg
+  thumbnail: /assets/images/paperfaces-ukulele-bikes-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

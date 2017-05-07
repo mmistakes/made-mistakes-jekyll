@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @manntaclaus drawn with Paper by 53 on an iPad.
 image: 
   path: &image /assets/images/paperfaces-manntaclaus-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-manntaclaus-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-manntaclaus-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

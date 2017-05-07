@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-lorenzo.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lorenzo-teaser.jpg
-  thumb: /assets/images/paperfaces-lorenzo-150.jpg
+  thumbnail: /assets/images/paperfaces-lorenzo-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-25T12:46:10-05:00
 ---

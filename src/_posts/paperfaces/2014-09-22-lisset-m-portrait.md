@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-lisset-m.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lisset-m-teaser.jpg
-  thumb: /assets/images/paperfaces-lisset-m-150.jpg
+  thumbnail: /assets/images/paperfaces-lisset-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 

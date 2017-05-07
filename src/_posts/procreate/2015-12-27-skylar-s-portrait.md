@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/skylar-s-procreate.jpg
   feature: *image
   teaser: /assets/images/skylar-s-procreate-teaser.jpg
-  thumb: /assets/images/skylar-s-procreate-250.jpg
+  thumbnail: /assets/images/skylar-s-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, black and white, Sktchy]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-matt-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-matt-s-teaser.jpg
-  thumb: /assets/images/paperfaces-matt-s-150.jpg
+  thumbnail: /assets/images/paperfaces-matt-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 last_modified_at: 2017-01-17T14:51:50-05:00
 ---

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-east-docht.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-east-docht-teaser.jpg
-  thumb: /assets/images/paperfaces-east-docht-150.jpg
+  thumbnail: /assets/images/paperfaces-east-docht-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

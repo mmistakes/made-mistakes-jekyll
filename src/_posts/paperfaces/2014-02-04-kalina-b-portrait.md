@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-kalina-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kalina-b-teaser.jpg
-  thumb: /assets/images/paperfaces-kalina-b-150.jpg
+  thumbnail: /assets/images/paperfaces-kalina-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, texture]
 last_modified_at: 2017-01-17T15:57:13-05:00
 ---

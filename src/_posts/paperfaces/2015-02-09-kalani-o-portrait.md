@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-kalani-o.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kalani-o-teaser.jpg
-  thumb: /assets/images/paperfaces-kalani-o-150.jpg
+  thumbnail: /assets/images/paperfaces-kalani-o-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, black and white]
 ---
 

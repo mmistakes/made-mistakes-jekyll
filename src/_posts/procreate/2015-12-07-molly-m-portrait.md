@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/molly-m-procreate.jpg
   feature: *image
   teaser: /assets/images/molly-m-procreate-teaser.jpg
-  thumb: /assets/images/molly-m-procreate-250.jpg
+  thumbnail: /assets/images/molly-m-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 

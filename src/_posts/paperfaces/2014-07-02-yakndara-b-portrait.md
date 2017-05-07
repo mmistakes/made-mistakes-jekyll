@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-yakndara-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-yakndara-b-teaser.jpg
-  thumb: /assets/images/paperfaces-yakndara-b-150.jpg
+  thumbnail: /assets/images/paperfaces-yakndara-b-150.jpg
 tags: [portrait, illustration, Paper by 53, eye, Sktchy, black and white]
 ---
 

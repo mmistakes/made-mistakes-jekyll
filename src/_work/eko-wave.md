@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/eko-wave-feature.jpg
   feature: *image
   teaser: /assets/images/eko-wave-teaser.jpg
-  thumb: /assets/images/eko-wave-thumb.jpg
+  thumbnail: /assets/images/eko-wave-thumb.jpg
 tags: [design, logo, website]
 work: "Design & Development"
 ads: false

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/starting-young-feature.jpg
   feature: *image
   teaser: /assets/images/starting-young-teaser.jpg
-  thumb: /assets/images/starting-young-thumb.jpg
+  thumbnail: /assets/images/starting-young-thumb.jpg
 tags: [Paper by 53, drawing, technology, twins]
 comments: true
 comments_locked: true

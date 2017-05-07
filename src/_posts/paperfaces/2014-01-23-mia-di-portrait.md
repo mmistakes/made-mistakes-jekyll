@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mia-di.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mia-di-teaser.jpg
-  thumb: /assets/images/paperfaces-mia-di-150.jpg
+  thumbnail: /assets/images/paperfaces-mia-di-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T16:14:01-05:00
 ---

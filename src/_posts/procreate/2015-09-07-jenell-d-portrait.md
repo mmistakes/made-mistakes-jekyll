@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/jenell-d-procreate.jpg
   feature: *image
   teaser: /assets/images/jenell-d-procreate-teaser.jpg
-  thumb: /assets/images/jenell-d-procreate-250.jpg
+  thumbnail: /assets/images/jenell-d-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy, black and white]
 ---
 

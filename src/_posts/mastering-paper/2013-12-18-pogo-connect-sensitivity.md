@@ -4,7 +4,7 @@ excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with fi
 last_modified_at: 2016-01-27T14:51:06-05:00
 image:
   teaser: /assets/images/pogo-connect-review-teaser.jpg
-  thumb: /assets/images/pogo-connect-app-thumb.jpg
+  thumbnail: /assets/images/pogo-connect-app-thumb.jpg
 tags: [Pogo Connect, Paper by 53, stylus, iPad]
 comments_locked: true
 ---

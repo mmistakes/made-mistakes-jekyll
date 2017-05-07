@@ -4,7 +4,7 @@ excerpt:
 image:
   path: &image /assets/images/jekyll-static-files-teaser.jpg
   teaser: *image
-  thumb: /assets/images/jekyll-static-files-th.jpg
+  thumbnail: /assets/images/jekyll-static-files-th.jpg
   cover: /assets/images/jekyll-static-files-cover.jpg
 tags: [web development, Jekyll]
 last_modified_at:

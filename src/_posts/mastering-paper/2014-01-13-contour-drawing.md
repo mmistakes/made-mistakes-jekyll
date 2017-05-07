@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-contour-drawing-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-contour-drawing-teaser.jpg
-  thumb: /assets/images/paper-53-contour-drawing-thumb.jpg
+  thumbnail: /assets/images/paper-53-contour-drawing-thumb.jpg
 tags: [Paper by 53, blind contour, tutorial, drawing, iPad]
 ---
 

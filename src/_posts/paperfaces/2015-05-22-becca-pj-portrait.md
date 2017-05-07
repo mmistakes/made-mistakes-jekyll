@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-becca-pj.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-becca-pj-teaser.jpg
-  thumb: /assets/images/paperfaces-becca-pj-150.jpg
+  thumbnail: /assets/images/paperfaces-becca-pj-150.jpg
 gallery:
   - url: /assets/images/paperfaces-becca-pj-process-1-lg.jpg
     image_path: /assets/images/paperfaces-becca-pj-process-1-600.jpg

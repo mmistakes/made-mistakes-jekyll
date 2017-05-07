@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-modemlooper-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-modemlooper-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-modemlooper-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-modemlooper-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Trek]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @mscynthialee-ron drawn with Paper by 53 on an 
 image: 
   path: &image /assets/images/paperfaces-mscynthialee-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-mscynthialee-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-mscynthialee-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

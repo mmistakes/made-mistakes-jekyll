@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-lando-calrissian.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lando-calrissian-teaser.jpg
-  thumb: /assets/images/paperfaces-lando-calrissian-150.jpg
+  thumbnail: /assets/images/paperfaces-lando-calrissian-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars]
 ---
 

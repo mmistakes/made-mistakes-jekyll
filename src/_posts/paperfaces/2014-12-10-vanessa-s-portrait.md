@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-vanessa-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-vanessa-s-teaser.jpg
-  thumb: /assets/images/paperfaces-vanessa-s-150.jpg
+  thumbnail: /assets/images/paperfaces-vanessa-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

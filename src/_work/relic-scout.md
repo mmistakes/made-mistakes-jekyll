@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/relic-scout-home-feature.png
   feature: *image
   teaser: /assets/images/relic-scout-teaser.png
-  thumb: /assets/images/relic-scout-avatar.png
+  thumbnail: /assets/images/relic-scout-avatar.png
 last_modified_at: 2017-04-19T14:34:04-04:00
 tags: [design, logo, 8-bit, website, collectibles]
 work: "Design & Development"

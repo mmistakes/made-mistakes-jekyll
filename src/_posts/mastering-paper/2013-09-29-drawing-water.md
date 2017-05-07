@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-water-guide-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-water-guide-teaser-2016.jpg
-  thumb: /assets/images/paper-53-water-guide-thumb.jpg
+  thumbnail: /assets/images/paper-53-water-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, water, waves, iPad]
 ---
 

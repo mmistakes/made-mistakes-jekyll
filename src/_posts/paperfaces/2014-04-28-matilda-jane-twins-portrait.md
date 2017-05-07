@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-matilda-jane-twins.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-matilda-jane-twins-teaser.jpg
-  thumb: /assets/images/paperfaces-matilda-jane-twins-150.jpg
+  thumbnail: /assets/images/paperfaces-matilda-jane-twins-150.jpg
 tags: [portrait, illustration, Paper by 53, twins]
 ---
 

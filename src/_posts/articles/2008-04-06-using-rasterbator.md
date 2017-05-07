@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/owl-rasterbator-feature.jpg
   feature: *image
   teaser: /assets/images/owl-rasterbator-teaser.jpg
-  thumb: /assets/images/rasterbator-thumb.jpg
+  thumbnail: /assets/images/rasterbator-thumb.jpg
 tags: [poster, Rasterbator, time lapse, tech geek]
 ---
 

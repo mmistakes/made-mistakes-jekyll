@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-remi-l.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-remi-l-teaser.jpg
-  thumb: /assets/images/paperfaces-remi-l-150.jpg
+  thumbnail: /assets/images/paperfaces-remi-l-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, beard, Mix]
 ---
 

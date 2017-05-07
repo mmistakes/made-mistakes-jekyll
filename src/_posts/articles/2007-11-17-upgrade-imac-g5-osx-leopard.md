@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/starfield-leopard-feature.jpg
   feature: *image
   teaser: /assets/images/starfield-leopard-teaser.jpg
-  thumb: /assets/images/starfield-leopard-thumb.jpg
+  thumbnail: /assets/images/starfield-leopard-thumb.jpg
 tags: [iMac, tech geek]
 ---
 

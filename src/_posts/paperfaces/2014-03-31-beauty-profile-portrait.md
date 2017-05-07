@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-beauty-profile.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-beauty-profile-teaser.jpg
-  thumb: /assets/images/paperfaces-beauty-profile-150.jpg
+  thumbnail: /assets/images/paperfaces-beauty-profile-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, bokeh]
 ---
 

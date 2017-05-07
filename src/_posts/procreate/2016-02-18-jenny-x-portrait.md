@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/jenny-x-procreate.jpg
   feature: *image
   teaser: /assets/images/jenny-x-procreate-teaser.jpg
-  thumb: /assets/images/jenny-x-procreate-250.jpg
+  thumbnail: /assets/images/jenny-x-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/sktchys-of-me-feature.jpg
   feature: *image
   teaser: /assets/images/sktchys-of-me-teaser.jpg
-  thumb: /assets/images/sktchy-app-thumb.png
+  thumbnail: /assets/images/sktchy-app-thumb.png
 tags: [Sktchy, drawing, technology]
 comments: false
 ---

@@ -5,7 +5,7 @@ last_modified_at: 2013-09-12
 image: 
   path: &image /assets/images/paperfaces-zachorybenton-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-zachorybenton-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-zachorybenton-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

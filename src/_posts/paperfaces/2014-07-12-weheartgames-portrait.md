@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-weheartgames-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-weheartgames-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-weheartgames-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-weheartgames-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, bokeh, beard]
 ---
 

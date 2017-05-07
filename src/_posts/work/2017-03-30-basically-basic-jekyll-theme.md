@@ -5,7 +5,7 @@ last_modified_at:
 image: 
   path: &image /assets/images/jekyll-theme-basically-basic-feature.jpg
   feature: *image
-  thumb: /assets/images/jekyll-theme-basically-basic-th.jpg
+  thumbnail: /assets/images/jekyll-theme-basically-basic-th.jpg
   teaser: /assets/images/jekyll-theme-basically-basic-teaser.jpg
 gallery:
   - url: /assets/images/basically-basic-theme-menu.png

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @marianeville_84 drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-marianeville-84-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-marianeville-84-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-marianeville-84-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

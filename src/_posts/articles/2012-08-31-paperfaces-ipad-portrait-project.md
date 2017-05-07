@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-project-feature.jpg
   feature: *image
   teaser: /assets/images/paperfaces-project-teaser.jpg
-  thumb: /assets/images/paperfaces-project-250x250.jpg
+  thumbnail: /assets/images/paperfaces-project-250x250.jpg
 tags: [Paper by 53, iPad, drawing, illustration]
 comments: true
 comments_locked: true
@@ -23,7 +23,7 @@ The last batch of PaperFaces drawings along with in process sketches for each. T
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:15 %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></a>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumbnail }}" alt=""></a>
   </li>
 {% endfor %}
 </ul>

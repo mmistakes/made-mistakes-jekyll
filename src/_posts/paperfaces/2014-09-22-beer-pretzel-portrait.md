@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-beer-pretzel.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-beer-pretzel-teaser.jpg
-  thumb: /assets/images/paperfaces-beer-pretzel-150.jpg
+  thumbnail: /assets/images/paperfaces-beer-pretzel-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Mix]
 ---
 

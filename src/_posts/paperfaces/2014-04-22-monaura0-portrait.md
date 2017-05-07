@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-monaura0-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-monaura0-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-monaura0-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-monaura0-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:01:13-05:00
 ---

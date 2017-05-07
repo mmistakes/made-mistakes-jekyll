@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Madcap_Laughs drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-madcap-laughs-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-madcap-laughs-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-madcap-laughs-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

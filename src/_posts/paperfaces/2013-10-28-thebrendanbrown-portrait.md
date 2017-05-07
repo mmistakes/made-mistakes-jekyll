@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @TheBrendanBrown drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-thebrendanbrown-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-thebrendanbrown-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-thebrendanbrown-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

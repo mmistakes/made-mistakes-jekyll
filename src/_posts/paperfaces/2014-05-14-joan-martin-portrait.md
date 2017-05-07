@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-joan-martin.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-joan-martin-teaser.jpg
-  thumb: /assets/images/paperfaces-joan-martin-150.jpg
+  thumbnail: /assets/images/paperfaces-joan-martin-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 last_modified_at: 2017-01-17T12:55:39-05:00
 ---

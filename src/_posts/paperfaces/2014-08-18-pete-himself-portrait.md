@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-pete-himself-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-pete-himself-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-pete-himself-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-pete-himself-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

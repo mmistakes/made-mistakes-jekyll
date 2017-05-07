@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Bird O. drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bird-o.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-bird-o-150.jpg
+  thumbnail: /assets/images/paperfaces-bird-o-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

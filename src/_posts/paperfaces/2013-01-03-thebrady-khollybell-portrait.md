@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @theBrady and @khollybell drawn with Paper by 5
 image: 
   path: &image /assets/images/paperfaces-thebrady-khollybell-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-thebrady-khollybell-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-thebrady-khollybell-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

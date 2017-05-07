@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/bird-cage-tattoo-healed-feature.jpg
   feature: *image
   teaser: /assets/images/bird-cage-tattoo-teaser.jpg
-  thumb: /assets/images/bird-tattoo-340x340.jpg
+  thumbnail: /assets/images/bird-tattoo-340x340.jpg
 tags: [bird, tattoo, bird cage, vegan, trees, Michael Rose]
 ---
 

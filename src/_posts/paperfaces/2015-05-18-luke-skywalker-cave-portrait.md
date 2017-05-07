@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-luke-vader-cave.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-luke-vader-cave-teaser.jpg
-  thumb: /assets/images/paperfaces-luke-vader-cave-150.jpg
+  thumbnail: /assets/images/paperfaces-luke-vader-cave-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars]
 gallery:
   - url: /assets/images/star-wars-canvaspop-1.jpg

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-tombryan-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-tombryan-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-tombryan-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-tombryan-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 last_modified_at: 2017-01-17T16:15:25-05:00
 ---

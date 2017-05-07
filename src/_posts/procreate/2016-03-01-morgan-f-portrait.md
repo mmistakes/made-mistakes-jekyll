@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/morgan-f-procreate.jpg
   feature: *image
   teaser: /assets/images/morgan-f-procreate-teaser.jpg
-  thumb: /assets/images/morgan-f-procreate-250.jpg
+  thumbnail: /assets/images/morgan-f-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

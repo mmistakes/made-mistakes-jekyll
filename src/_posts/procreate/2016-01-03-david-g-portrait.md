@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/david-g-procreate.jpg
   feature: *image
   teaser: /assets/images/david-g-procreate-teaser.jpg
-  thumb: /assets/images/david-g-procreate-250.jpg
+  thumbnail: /assets/images/david-g-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy]
 ---
 

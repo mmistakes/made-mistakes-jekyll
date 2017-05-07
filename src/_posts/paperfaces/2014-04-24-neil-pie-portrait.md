@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-neil-pie-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-neil-pie-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-neil-pie-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-neil-pie-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T13:58:56-05:00
 ---

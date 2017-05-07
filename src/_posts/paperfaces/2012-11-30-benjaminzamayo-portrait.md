@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @BenjaminZAMayo drawn with Paper by 53 on an iP
 image: 
   path: &image /assets/images/paperfaces-benjaminzamayo-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-benjaminzamayo-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-benjaminzamayo-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

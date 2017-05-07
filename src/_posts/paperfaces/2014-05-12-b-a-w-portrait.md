@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-b-a-w-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-b-a-w-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-b-a-w-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-b-a-w-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:57:09-05:00
 ---

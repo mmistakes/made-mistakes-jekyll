@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/painting-bith.jpg
   feature: *image
   teaser: /assets/images/painting-bith-teaser.jpg
-  thumb: /assets/images/painting-bith-250.jpg
+  thumbnail: /assets/images/painting-bith-250.jpg
 gallery:
   - url: /assets/images/painting-bith-process-1-lg.jpg
     image_path: /assets/images/painting-bith-process-1-900.jpg

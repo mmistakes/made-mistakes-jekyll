@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mattfieldy-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mattfieldy-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-mattfieldy-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-mattfieldy-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, 8-bit, beard]
 ---
 

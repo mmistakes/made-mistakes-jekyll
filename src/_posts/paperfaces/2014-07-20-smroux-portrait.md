@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-smroux-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-smroux-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-smroux-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-smroux-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -6,7 +6,7 @@ title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
 image: 
   cover: /assets/images/tiny-paintings-lq.jpg
-  thumb: /assets/images/tiny-paintings-th.jpg
+  thumbnail: /assets/images/tiny-paintings-th.jpg
   teaser: &image /assets/images/tiny-paintings-teaser.jpg
   path: *image
 tags: [watercolor, painting, drawing, portrait, illustration]
@@ -25,9 +25,9 @@ My plan was to complete a miniature 1.5\" painting a day, but the challenge of p
   <li>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
       <noscript>
-        <img src="{{ site.url }}{{ post.image.thumb }}">
+        <img src="{{ site.url }}{{ post.image.thumbnail }}">
       </noscript>
-      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumb }}" alt="">
+      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumbnail }}" alt="">
     </a>
   </li>
 {% endfor %}

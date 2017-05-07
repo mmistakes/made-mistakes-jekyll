@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @sbrolins drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-sbrolins-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-sbrolins-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sbrolins-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

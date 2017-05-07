@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of my wife on our wedding day drawn with Paper by 
 image: 
   path: &image /assets/images/paperfaces-anniversary-portrait.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-anniversary-portrait-150.jpg
+  thumbnail: /assets/images/paperfaces-anniversary-portrait-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, romance, beard]
 ---
 

@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-faces-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-faces-teaser-2016.jpg
-  thumb: /assets/images/paper-53-faces-thumb.jpg
+  thumbnail: /assets/images/paper-53-faces-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, portrait, iPad]
 ---
 
@@ -406,7 +406,7 @@ So how about this? Let me know in the comments below what you want to see next: 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:12 %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumb }}" alt=""></a>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumbnail }}" alt=""></a>
   </li>
 {% endfor %}
 </ul>

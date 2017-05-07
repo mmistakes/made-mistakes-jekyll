@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-emily-d.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-emily-d-teaser.jpg
-  thumb: /assets/images/paperfaces-emily-d-150.jpg
+  thumbnail: /assets/images/paperfaces-emily-d-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 

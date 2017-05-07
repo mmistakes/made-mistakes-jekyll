@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-asja-k.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-asja-k-teaser.jpg
-  thumb: /assets/images/paperfaces-asja-k-150.jpg
+  thumbnail: /assets/images/paperfaces-asja-k-150.jpg
 gallery:
   - url: https://mix.fiftythree.com/11098-Michael-Rose/1887226
     image_path: /assets/images/paperfaces-asja-k-process-1-600.jpg

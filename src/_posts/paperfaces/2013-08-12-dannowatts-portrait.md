@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @dannowatts drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-dannowatts-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-dannowatts-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-dannowatts-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, trees, black and white, beard]
 ---
 

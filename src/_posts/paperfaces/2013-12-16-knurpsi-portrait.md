@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @knurpsi drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-knurpsi-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-knurpsi-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-knurpsi-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

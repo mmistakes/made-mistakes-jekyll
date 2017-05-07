@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-bethany-g.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bethany-g-teaser.jpg
-  thumb: /assets/images/paperfaces-bethany-g-150.jpg
+  thumbnail: /assets/images/paperfaces-bethany-g-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

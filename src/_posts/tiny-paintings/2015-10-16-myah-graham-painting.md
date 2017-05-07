@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/painting-myah-graham.jpg
   feature: *image
   teaser: /assets/images/painting-myah-graham-teaser.jpg
-  thumb: /assets/images/painting-myah-graham-250.jpg
+  thumbnail: /assets/images/painting-myah-graham-250.jpg
 tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]
 ---
 

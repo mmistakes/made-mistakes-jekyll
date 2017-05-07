@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-sophia.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-sophia-teaser.jpg
-  thumb: /assets/images/paperfaces-sophia-150.jpg
+  thumbnail: /assets/images/paperfaces-sophia-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:54:58-05:00
 ---

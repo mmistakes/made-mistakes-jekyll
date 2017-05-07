@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/UO-may11-feature.jpg
   feature: *image
   teaser: /assets/images/UO-may11-teaser.jpg
-  thumb: /assets/images/UO-MAY11-serifs-italics-340.jpg
+  thumbnail: /assets/images/UO-MAY11-serifs-italics-340.jpg
 tags: [catalog, critique, design, typography]
 ---
 

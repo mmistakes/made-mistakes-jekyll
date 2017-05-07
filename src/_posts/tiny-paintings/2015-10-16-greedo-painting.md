@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/painting-greedo.jpg
   feature: *image
   teaser: /assets/images/painting-greedo-teaser.jpg
-  thumb: /assets/images/painting-greedo-250.jpg
+  thumbnail: /assets/images/painting-greedo-250.jpg
 gallery:
   - url: /assets/images/painting-greedo-process-1-lg.jpg
     image_path: /assets/images/painting-greedo-process-1-900.jpg

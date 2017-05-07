@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/madewithpaper-guide-feature.jpg
   feature: *image
   teaser: /assets/images/madewithpaper-guide-teaser.jpg
-  thumb: /assets/images/madewithpaper-guide-thumb.jpg
+  thumbnail: /assets/images/madewithpaper-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, iPad]
 comments_locked: true
 ---

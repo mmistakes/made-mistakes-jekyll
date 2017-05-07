@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-rachel-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rachel-b-teaser.jpg
-  thumb: /assets/images/paperfaces-rachel-b-150.jpg
+  thumbnail: /assets/images/paperfaces-rachel-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 
