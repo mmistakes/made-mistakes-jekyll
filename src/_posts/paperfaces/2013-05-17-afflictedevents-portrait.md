@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @afflictedevents drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-afflictedevents-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-afflictedevents-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-afflictedevents-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

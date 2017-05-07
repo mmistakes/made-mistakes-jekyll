@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Lauren Mudrock drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-lauren-mudrock.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-lauren-mudrock-150.jpg
+  thumbnail: /assets/images/paperfaces-lauren-mudrock-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @ijango drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ijango-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-ijango-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-ijango-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

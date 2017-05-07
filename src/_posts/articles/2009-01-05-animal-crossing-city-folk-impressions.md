@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/animal-crossing-stuck-in-hole.jpg
   feature: *image
   teaser: /assets/images/animal-crossing-teaser.jpg
-  thumb: /assets/images/animal-crossing-me-wendy-thumb.jpg
+  thumbnail: /assets/images/animal-crossing-me-wendy-thumb.jpg
 tags: [Nintendo, Wii, video games, review]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @AgentKyle drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-agentkyle-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-agentkyle-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-agentkyle-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

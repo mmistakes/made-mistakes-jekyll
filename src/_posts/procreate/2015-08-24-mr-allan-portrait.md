@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/mr-allan-procreate.jpg
   feature: *image
   teaser: /assets/images/mr-allan-procreate-teaser.jpg
-  thumb: /assets/images/mr-allan-procreate-250.jpg
+  thumbnail: /assets/images/mr-allan-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 

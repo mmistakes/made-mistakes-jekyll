@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/pogo-connect-review-feature.jpg
   feature: *image
   teaser: /assets/images/pogo-connect-review-teaser.jpg
-  thumb: /assets/images/pogo-connect-app-thumb.jpg
+  thumbnail: /assets/images/pogo-connect-app-thumb.jpg
 tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, iPad]
 comments_locked: true
 ---

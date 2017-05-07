@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/ipod-classic-feature.jpg
   feature: *image
   teaser: /assets/images/ipod-classic-teaser.jpg
-  thumb: /assets/images/ipod-classic-thumb.jpg
+  thumbnail: /assets/images/ipod-classic-thumb.jpg
 tags: [iPod, Apple, review]
 ---
 

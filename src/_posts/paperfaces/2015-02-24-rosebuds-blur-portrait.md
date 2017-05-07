@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-rosebuds-blur.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-blur-teaser.jpg
-  thumb: /assets/images/paperfaces-rosebuds-blur-150.jpg
+  thumbnail: /assets/images/paperfaces-rosebuds-blur-150.jpg
 tags: [portrait, illustration, Paper by 53, twins, Mix, time lapse, black and white, blend, bokeh]
 ---
 

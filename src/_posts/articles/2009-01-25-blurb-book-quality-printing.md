@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/blurb-book-featured.jpg
   feature: *image
   teaser: /assets/images/blurb-book-teaser.jpg
-  thumb: /assets/images/blurb-book-thumb.jpg
+  thumbnail: /assets/images/blurb-book-thumb.jpg
 tags: [book, design]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mandy-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mandy-b-teaser.jpg
-  thumb: /assets/images/paperfaces-mandy-b-150.jpg
+  thumbnail: /assets/images/paperfaces-mandy-b-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 ---
 

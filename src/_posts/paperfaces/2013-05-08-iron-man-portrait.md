@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Iron Man drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-iron-man-3.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-iron-man-3-150.jpg
+  thumbnail: /assets/images/paperfaces-iron-man-3-150.jpg
 tags: [portrait, illustration, Paper by 53, Iron Man]
 ---
 

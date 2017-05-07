@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-book-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-book-teaser.jpg
-  thumb: /assets/images/paper-53-book-thumb.jpg
+  thumbnail: /assets/images/paper-53-book-thumb.jpg
 tags: [Paper by 53, Moleskine, book, design, review]
 comments_locked: true
 ---

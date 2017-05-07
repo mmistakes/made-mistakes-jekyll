@@ -7,7 +7,7 @@ image:
   path: &image /assets/images/paper-3-feature.jpg
   feature: *image
   teaser: /assets/images/paper-3-teaser.jpg
-  thumb: /assets/images/paper-3-th.jpg
+  thumbnail: /assets/images/paper-3-th.jpg
 comments_locked: true
 ---
 

@@ -7,7 +7,7 @@ image:
   path: &image /assets/images/jekyll-style-guide-feature.jpg
   feature: *image
   teaser: /assets/images/jekyll-style-guide-teaser.jpg
-  thumb: /assets/images/jekyll-style-guide-th.jpg
+  thumbnail: /assets/images/jekyll-style-guide-th.jpg
 comments: true
 ---
 

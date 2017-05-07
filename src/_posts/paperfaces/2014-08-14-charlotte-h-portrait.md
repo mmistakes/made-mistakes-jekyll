@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-charlotte-h.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-charlotte-h-teaser.jpg
-  thumb: /assets/images/paperfaces-charlotte-h-150.jpg
+  thumbnail: /assets/images/paperfaces-charlotte-h-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-sidraz-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-sidraz-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-sidraz-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sidraz-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

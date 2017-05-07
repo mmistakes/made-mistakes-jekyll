@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-david-mc.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-david-mc-teaser.jpg
-  thumb: /assets/images/paperfaces-david-mc-150.jpg
+  thumbnail: /assets/images/paperfaces-david-mc-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

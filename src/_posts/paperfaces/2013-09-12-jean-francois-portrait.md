@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @jean_francois drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-jean-francois-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-jean-francois-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-jean-francois-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

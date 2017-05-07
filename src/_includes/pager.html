@@ -1,0 +1,10 @@
+{% if paginator.total_pages > 1 %}
+  <div class="pager">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | absolute_url }}" class="btn">&larr; Newer Posts</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | absolute_url }}" class="btn">Older Posts &rarr;</a>
+    {% endif %}
+  </div>
+{% endif %}

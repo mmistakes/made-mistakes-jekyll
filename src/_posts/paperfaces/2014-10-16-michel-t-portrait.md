@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-michel-t.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-michel-t-teaser.jpg
-  thumb: /assets/images/paperfaces-michel-t-150.jpg
+  thumbnail: /assets/images/paperfaces-michel-t-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

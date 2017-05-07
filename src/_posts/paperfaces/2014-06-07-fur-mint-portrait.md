@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-fur-mint.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-fur-mint-teaser.jpg
-  thumb: /assets/images/paperfaces-fur-mint-150.jpg
+  thumbnail: /assets/images/paperfaces-fur-mint-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

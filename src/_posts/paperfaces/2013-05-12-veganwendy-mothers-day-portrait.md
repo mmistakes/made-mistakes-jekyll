@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-veganwendy-mothers-day.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-veganwendy-mothers-day-teaser.jpg
-  thumb: /assets/images/paperfaces-veganwendy-mothers-day-150.jpg
+  thumbnail: /assets/images/paperfaces-veganwendy-mothers-day-150.jpg
 tags: [portrait, illustration, Paper by 53, twins]
 ---
 

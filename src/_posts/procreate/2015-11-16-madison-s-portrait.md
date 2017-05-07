@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/madison-s-procreate.jpg
   feature: *image
   teaser: /assets/images/madison-s-procreate-teaser.jpg
-  thumb: /assets/images/madison-s-procreate-250.jpg
+  thumbnail: /assets/images/madison-s-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-cocoapriest-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-cocoapriest-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-cocoapriest-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-cocoapriest-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, sepia, beard]
 last_modified_at: 2017-01-17T16:14:36-05:00
 ---

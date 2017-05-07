@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @tarungangwani drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-tarungangwani-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-tarungangwani-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-tarungangwani-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

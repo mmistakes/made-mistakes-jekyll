@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-littlest-avenger.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-littlest-avenger-teaser.jpg
-  thumb: /assets/images/paperfaces-littlest-avenger-150.jpg
+  thumbnail: /assets/images/paperfaces-littlest-avenger-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-d0ugal-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-d0ugal-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-d0ugal-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-d0ugal-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 last_modified_at: 2017-01-17T12:48:41-05:00
 ---

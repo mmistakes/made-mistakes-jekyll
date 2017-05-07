@@ -32,6 +32,7 @@
   padding: 2em 1em;
   font-family: $monospace;
   font-size: 0.8em;
+  z-index: 10;
 
   @include breakpoint($small) {
     margin-left: 2em;

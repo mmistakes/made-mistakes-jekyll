@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-fuzavue-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-fuzavue-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-fuzavue-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-fuzavue-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

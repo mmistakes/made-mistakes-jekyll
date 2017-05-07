@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/maria-g-procreate.jpg
   feature: *image
   teaser: /assets/images/maria-g-procreate-teaser.jpg
-  thumb: /assets/images/maria-g-procreate-250.jpg
+  thumbnail: /assets/images/maria-g-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

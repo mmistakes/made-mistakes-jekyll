@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @KasperStenbom drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-kasperstenbom-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-kasperstenbom-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-kasperstenbom-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

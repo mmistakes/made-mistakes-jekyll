@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-robhampson-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-robhampson-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-robhampson-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-robhampson-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:33:25-05:00
 ---

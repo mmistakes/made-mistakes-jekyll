@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-diego-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-diego-s-teaser.jpg
-  thumb: /assets/images/paperfaces-diego-s-150.jpg
+  thumbnail: /assets/images/paperfaces-diego-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

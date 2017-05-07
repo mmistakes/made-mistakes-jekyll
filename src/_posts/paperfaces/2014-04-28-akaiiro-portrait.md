@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-akaiiro-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-akaiiro-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-akaiiro-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-akaiiro-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T13:03:19-05:00
 ---

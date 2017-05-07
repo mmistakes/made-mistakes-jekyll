@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Beautiful_Paine drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-beautiful-paine-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-beautiful-paine-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-beautiful-paine-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

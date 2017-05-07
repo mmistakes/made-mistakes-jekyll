@@ -5,6 +5,7 @@ excerpt: "Similar to previously years, I started out with the best of intentions
 image: 
   path: &image /assets/images/inktober-2016-wash-portrait.jpg
   feature: *image
+  thumbnail: /assets/images/inktober-2016-wash-portrait-th.jpg
   teaser: /assets/images/inktober-2016-wash-portrait-teaser.jpg
 gallery:
   - url: /assets/images/inktober-2016-wash-portrait-process-1.jpg

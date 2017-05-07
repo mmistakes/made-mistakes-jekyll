@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/collecting-records-feature.jpg
   feature: *image
   teaser: /assets/images/collecting-records-teaser.jpg
-  thumb: /assets/images/collecting-records-thumb.jpg
+  thumbnail: /assets/images/collecting-records-thumb.jpg
 last_modified_at: 2013-04-26
 tags: [punk, records, inspiration, DIY, critique, design]
 ---

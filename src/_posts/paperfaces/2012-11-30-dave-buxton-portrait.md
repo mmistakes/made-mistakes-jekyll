@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @Dave_Buxton drawn with Paper by 53 on an iPad.
 image: 
   path: &image /assets/images/paperfaces-dave-buxton-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-dave-buxton-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-dave-buxton-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

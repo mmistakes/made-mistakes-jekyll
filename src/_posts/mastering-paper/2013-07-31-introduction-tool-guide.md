@@ -5,7 +5,7 @@ last_modified_at: 2016-01-27T14:38:54-05:00
 image: 
   path: &image /assets/images/paper-53-expanded-guide-feature.jpg
   feature: *image
-  thumb: /assets/images/paper-53-expanded-guide-thumb.jpg
+  thumbnail: /assets/images/paper-53-expanded-guide-thumb.jpg
   teaser: /assets/images/paper-53-expanded-guide-teaser-2016.jpg
 tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
 ---

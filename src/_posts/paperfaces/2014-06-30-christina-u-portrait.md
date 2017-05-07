@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-christina-u.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-christina-u-teaser.jpg
-  thumb: /assets/images/paperfaces-christina-u-150.jpg
+  thumbnail: /assets/images/paperfaces-christina-u-150.jpg
 tags: [portrait, illustration, Paper by 53, clouds, Sktchy]
 ---
 

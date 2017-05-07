@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-marcus.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-marcus-teaser.jpg
-  thumb: /assets/images/paperfaces-marcus-150.jpg
+  thumbnail: /assets/images/paperfaces-marcus-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:22:09-05:00
 ---

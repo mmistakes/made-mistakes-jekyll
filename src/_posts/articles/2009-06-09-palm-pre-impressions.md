@@ -4,7 +4,7 @@ excerpt: "Quick impressions of the Palm Pre from a long time smartphone user."
 last_modified_at: 2015-10-19T14:22:26-04:00
 image: 
   path: &image /assets/images/palm-pre-teaser.jpg
-  thumb: /assets/images/palm-pre-th.jpg
+  thumbnail: /assets/images/palm-pre-th.jpg
 tags: [Palm Pre, iPhone, tech geek, review]
 ---
 

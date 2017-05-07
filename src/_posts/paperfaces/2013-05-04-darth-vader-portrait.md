@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-darth-vader.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-darth-vader-teaser.jpg
-  thumb: /assets/images/paperfaces-darth-vader-150.jpg
+  thumbnail: /assets/images/paperfaces-darth-vader-150.jpg
 tags: [Star Wars, portrait, illustration, Paper by 53]
 ---
 

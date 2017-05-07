@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-dillydallygames-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-dillydallygames-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-dillydallygames-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-dillydallygames-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, Breaking Bad]
 last_modified_at: 2017-01-17T14:29:00-05:00
 ---

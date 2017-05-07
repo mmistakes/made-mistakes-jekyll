@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/sunshine-feature.jpg
   feature: *image
   teaser: /assets/images/sunshine-teaser.jpg
-  thumb: /assets/images/sunshine-thumb.jpg
+  thumbnail: /assets/images/sunshine-thumb.jpg
   caption: "DVD screengrab from [**DVDBeaver**](http://www.dvdbeaver.com/film2/DVDReviews34/sunshine_blu-ray.htm)"
 tags: [sci-fi, film, review, space]
 ---

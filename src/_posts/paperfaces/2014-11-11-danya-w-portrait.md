@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-danya-w.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-danya-w-teaser.jpg
-  thumb: /assets/images/paperfaces-danya-w-150.jpg
+  thumbnail: /assets/images/paperfaces-danya-w-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

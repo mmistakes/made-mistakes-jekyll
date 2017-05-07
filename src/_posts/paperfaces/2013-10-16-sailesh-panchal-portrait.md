@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @sailesh-panchal drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-sailesh-panchal-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-sailesh-panchal-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sailesh-panchal-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

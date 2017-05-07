@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/going-static-feature.jpg
   feature: *image
   teaser: /assets/images/going-static-teaser.jpg
-  thumb: /assets/images/going-static-thumb.jpg
+  thumbnail: /assets/images/going-static-thumb.jpg
 tags: [Jekyll, web development, design, open source, CMS]
 comments: true
 comments_locked: true

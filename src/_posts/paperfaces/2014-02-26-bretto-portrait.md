@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-bretto-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bretto-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-bretto-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-bretto-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:45:13-05:00
 ---

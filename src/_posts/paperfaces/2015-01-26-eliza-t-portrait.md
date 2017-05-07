@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-eliza-t.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-eliza-t-teaser.jpg
-  thumb: /assets/images/paperfaces-eliza-t-150.jpg
+  thumbnail: /assets/images/paperfaces-eliza-t-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy, Mix]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-jameswestnz-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jameswestnz-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-jameswestnz-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-jameswestnz-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

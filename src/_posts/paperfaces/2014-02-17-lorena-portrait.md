@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-lorena.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lorena-teaser.jpg
-  thumb: /assets/images/paperfaces-lorena-150.jpg
+  thumbnail: /assets/images/paperfaces-lorena-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T14:52:33-05:00
 ---

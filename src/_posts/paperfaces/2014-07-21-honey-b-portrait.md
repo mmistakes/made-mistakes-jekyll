@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-honey-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-honey-b-teaser.jpg
-  thumb: /assets/images/paperfaces-honey-b-150.jpg
+  thumbnail: /assets/images/paperfaces-honey-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

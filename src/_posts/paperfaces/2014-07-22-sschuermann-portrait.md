@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-sschuermann-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-sschuermann-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-sschuermann-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sschuermann-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, black and white, beard]
 ---
 

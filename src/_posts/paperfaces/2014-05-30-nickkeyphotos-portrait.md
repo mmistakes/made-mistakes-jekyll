@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-nickkeyphotos-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-nickkeyphotos-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-nickkeyphotos-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-nickkeyphotos-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

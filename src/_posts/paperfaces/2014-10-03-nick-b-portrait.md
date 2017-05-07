@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-nick-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-nick-b-teaser.jpg
-  thumb: /assets/images/paperfaces-nick-b-150.jpg
+  thumbnail: /assets/images/paperfaces-nick-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Mix]
 ---
 

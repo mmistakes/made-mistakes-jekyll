@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-olesya-l.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-olesya-l-teaser.jpg
-  thumb: /assets/images/paperfaces-olesya-l-150.jpg
+  thumbnail: /assets/images/paperfaces-olesya-l-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T16:16:23-05:00
 ---

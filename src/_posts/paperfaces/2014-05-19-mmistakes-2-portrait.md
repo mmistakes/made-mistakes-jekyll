@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mmistakes-2-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mmistakes-2-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-mmistakes-2-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-mmistakes-2-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, self portrait, Michael Rose]
 last_modified_at: 2017-01-17T12:52:20-05:00
 ---

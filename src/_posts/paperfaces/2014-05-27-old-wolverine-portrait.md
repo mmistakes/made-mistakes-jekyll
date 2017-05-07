@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-old-wolverine.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-old-wolverine-teaser.jpg
-  thumb: /assets/images/paperfaces-old-wolverine-150.jpg
+  thumbnail: /assets/images/paperfaces-old-wolverine-150.jpg
 tags: [portrait, illustration, Paper by 53, X-men]
 ---
 

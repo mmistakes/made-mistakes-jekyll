@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of The In Laws drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-the-wards.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-the-wards-150.jpg
+  thumbnail: /assets/images/paperfaces-the-wards-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

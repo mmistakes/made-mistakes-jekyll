@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @hallaek drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-hallaek-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-hallaek-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-hallaek-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

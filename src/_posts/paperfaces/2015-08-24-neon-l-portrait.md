@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-neon-l.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-neon-l-teaser.jpg
-  thumb: /assets/images/paperfaces-neon-l-150.jpg
+  thumbnail: /assets/images/paperfaces-neon-l-150.jpg
 gallery:
   - url: /assets/images/paperfaces-neon-l-process-1-lg.jpg
     image_path: /assets/images/paperfaces-neon-l-process-1-600.jpg

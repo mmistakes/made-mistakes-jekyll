@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-kishba-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kishba-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-kishba-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-kishba-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:48:08-05:00
 ---

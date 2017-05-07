@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @n8foo drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-n8foo-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-n8foo-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-n8foo-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

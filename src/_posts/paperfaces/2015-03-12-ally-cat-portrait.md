@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-ally-cat.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ally-cat-teaser.jpg
-  thumb: /assets/images/paperfaces-ally-cat-150.jpg
+  thumbnail: /assets/images/paperfaces-ally-cat-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 

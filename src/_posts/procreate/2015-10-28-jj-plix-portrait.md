@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/jj-plix-procreate.jpg
   feature: *image
   teaser: /assets/images/jj-plix-procreate-teaser.jpg
-  thumb: /assets/images/jj-plix-procreate-250.jpg
+  thumbnail: /assets/images/jj-plix-procreate-250.jpg
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @laramulady drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-laramulady-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-laramulady-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-laramulady-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

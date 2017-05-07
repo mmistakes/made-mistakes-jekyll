@@ -132,7 +132,7 @@
   overflow: hidden;
   backface-visibility: hidden;
   filter: blur(25px);
-  transform: translate3d(0, 0, 0);
+  transform: scale(1.25) translate3d(0, 0, 0);
 }
 
 /*
@@ -289,6 +289,10 @@
     font-family: $sans-serif;
     font-size: 0.8em;
   }
+
+  .th-grid li img {
+    margin: 0;
+  }
 }
 
 /*
@@ -331,43 +335,6 @@
 /* related content */
 .page__related {
   margin-bottom: 4em;
-//   position: relative;
-//   color: white;
-
-//   .page__section-label {
-
-//     &:before {
-//       background-color: white;
-//     }
-//   }
-
-//   .teaser {
-//     background-color: #333;
-
-//     @include breakpoint(max-width $small) {
-
-//       + .teaser {
-//         margin-top: 0.5em;
-//       }
-//     }
-
-//     @include breakpoint($small) {
-//       max-width: 75vw;
-//       clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
-
-//       + .teaser {
-//         text-align: right;
-//         clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
-
-//         .page__section-label {
-
-//           &:before {
-//             right: 0;
-//           }
-//         }
-//       }
-//     }
-//   }
 
   ul {
     margin: 0;

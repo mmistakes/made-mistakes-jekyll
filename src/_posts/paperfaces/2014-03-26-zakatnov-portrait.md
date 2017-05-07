@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-zakatnov-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-zakatnov-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-zakatnov-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-zakatnov-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, water]
 last_modified_at: 2017-01-17T14:20:46-05:00
 ---

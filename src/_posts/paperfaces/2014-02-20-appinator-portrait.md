@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-appinator-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-appinator-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-appinator-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-appinator-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, blend, bokeh]
 ---
 

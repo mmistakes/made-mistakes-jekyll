@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Alec Eiffel drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-alec-eiffel-facebook.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-alec-eiffel-facebook-150.jpg
+  thumbnail: /assets/images/paperfaces-alec-eiffel-facebook-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

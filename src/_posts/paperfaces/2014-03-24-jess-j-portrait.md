@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-jess-j.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jess-j-teaser.jpg
-  thumb: /assets/images/paperfaces-jess-j-150.jpg
+  thumbnail: /assets/images/paperfaces-jess-j-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T14:22:50-05:00
 ---

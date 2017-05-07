@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-ryan-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ryan-s-teaser.jpg
-  thumb: /assets/images/paperfaces-ryan-s-150.jpg
+  thumbnail: /assets/images/paperfaces-ryan-s-150.jpg
 tags: [portrait, illustration, Paper by 53, eye, Sktchy]
 ---
 

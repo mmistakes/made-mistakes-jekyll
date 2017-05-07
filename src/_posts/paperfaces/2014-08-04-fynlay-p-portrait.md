@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-fynlay-p.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-fynlay-p-teaser.jpg
-  thumb: /assets/images/paperfaces-fynlay-p-150.jpg
+  thumbnail: /assets/images/paperfaces-fynlay-p-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

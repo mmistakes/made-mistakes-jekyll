@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-lydia-deetz.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lydia-deetz-teaser.jpg
-  thumb: /assets/images/paperfaces-lydia-deetz-150.jpg
+  thumbnail: /assets/images/paperfaces-lydia-deetz-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, blend]
 ---
 

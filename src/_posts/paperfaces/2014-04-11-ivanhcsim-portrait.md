@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-ivanhcsim-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ivanhcsim-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-ivanhcsim-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-ivanhcsim-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, bokeh, blend]
 ---
 

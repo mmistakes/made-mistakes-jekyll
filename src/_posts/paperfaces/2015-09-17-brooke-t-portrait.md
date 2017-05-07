@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-brooke-t.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-brooke-t-teaser.jpg
-  thumb: /assets/images/paperfaces-brooke-t-150.jpg
+  thumbnail: /assets/images/paperfaces-brooke-t-150.jpg
 gallery:
   - url: /assets/images/paperfaces-brooke-t-process-1-lg.jpg
     image_path: /assets/images/paperfaces-brooke-t-process-1-600.jpg

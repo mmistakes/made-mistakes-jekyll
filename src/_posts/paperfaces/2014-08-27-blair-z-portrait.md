@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-blair-z.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-blair-z-teaser.jpg
-  thumb: /assets/images/paperfaces-blair-z-150.jpg
+  thumbnail: /assets/images/paperfaces-blair-z-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 

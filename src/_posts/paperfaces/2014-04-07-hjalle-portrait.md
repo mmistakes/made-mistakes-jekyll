@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-hjalle-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-hjalle-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-hjalle-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-hjalle-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T14:11:14-05:00
 ---

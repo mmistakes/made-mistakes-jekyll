@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mattabbo-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mattabbo-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-mattabbo-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-mattabbo-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

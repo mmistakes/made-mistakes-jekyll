@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @dopplegl drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-dopplegl-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-dopplegl-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-dopplegl-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

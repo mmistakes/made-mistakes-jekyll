@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-rosebuds-pumpkins.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-pumpkins-teaser.jpg
-  thumb: /assets/images/paperfaces-rosebuds-pumpkins-150.jpg
+  thumbnail: /assets/images/paperfaces-rosebuds-pumpkins-150.jpg
 tags: [portrait, illustration, Paper by 53, twins, Mix]
 ---
 

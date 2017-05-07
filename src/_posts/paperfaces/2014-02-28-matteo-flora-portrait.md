@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-matteo-flora.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-matteo-flora-teaser.jpg
-  thumb: /assets/images/paperfaces-matteo-flora-150.jpg
+  thumbnail: /assets/images/paperfaces-matteo-flora-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T15:55:31-05:00
 ---

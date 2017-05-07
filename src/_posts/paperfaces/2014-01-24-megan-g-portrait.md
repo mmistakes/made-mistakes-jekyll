@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-megan-g.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-megan-g-teaser.jpg
-  thumb: /assets/images/paperfaces-megan-g-150.jpg
+  thumbnail: /assets/images/paperfaces-megan-g-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 last_modified_at: 2017-01-17T16:13:21-05:00
 ---

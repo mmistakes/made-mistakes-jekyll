@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-barbara-m.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-barbara-m-teaser.jpg
-  thumb: /assets/images/paperfaces-barbara-m-150.jpg
+  thumbnail: /assets/images/paperfaces-barbara-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T14:25:04-05:00
 ---

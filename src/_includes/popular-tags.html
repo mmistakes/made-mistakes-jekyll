@@ -1,25 +1,27 @@
 {% comment %}Build a tag index filtered by current category{% endcomment %}
 {% assign filterCategory = page.pagination.category | default: page.category %}
 
-<ul class="tag__list--inline">
-  <li><strong>Popular&nbsp;topics</strong></li>
-  {% assign tagLimiter = 0 %}
-  {% for tag in site.tags %}
-    {% comment %}create an empty array{% endcomment %}
-    {% assign postsInCategory = "" | split: "/" %}
+<div class="popular__list">
+  <h3 class="nav-list__title">Popular Topics</h3>
+  <ul class="nav-list">
+    {% assign tagLimiter = 0 %}
+    {% for tag in site.tags %}
+      {% comment %}create an empty array{% endcomment %}
+      {% assign postsInCategory = "" | split: "/" %}
 
-    {% comment %}loop over site.tags{% endcomment %}
-    {% for post in tag[1] %}
-      {% if post.categories contains filterCategory %}
-        {% comment %}if a post is in the filter category add it to postsInCategory array{% endcomment %}
-        {% assign postsInCategory = postsInCategory | push: post %}
+      {% comment %}loop over site.tags{% endcomment %}
+      {% for post in tag[1] %}
+        {% if post.categories contains filterCategory %}
+          {% comment %}if a post is in the filter category add it to postsInCategory array{% endcomment %}
+          {% assign postsInCategory = postsInCategory | push: post %}
+        {% endif %}
+      {% endfor %}
+
+      {% comment %}poor man's tag limit on those that are frequently used{% endcomment %}
+      {% if postsInCategory.size >= 5 and tagLimiter <= 5 %}
+        {% assign tagLimiter = tagLimiter | plus: 1 %}
+        <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item">{{ tag[0] | replace:' ','&nbsp;' }}</a></li>
       {% endif %}
     {% endfor %}
-
-    {% comment %}poor man's tag limit on those that are frequently used{% endcomment %}
-    {% if postsInCategory.size >= 5 and tagLimiter <= 5 %}
-      {% assign tagLimiter = tagLimiter | plus: 1 %}
-      <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/" class="tag__item">{{ tag[0] | replace:' ','&nbsp;' }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+  </ul>
+</div>

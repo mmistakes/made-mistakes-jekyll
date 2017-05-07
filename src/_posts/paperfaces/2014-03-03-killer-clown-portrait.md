@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-killer-clown.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-killer-clown-teaser.jpg
-  thumb: /assets/images/paperfaces-killer-clown-150.jpg
+  thumbnail: /assets/images/paperfaces-killer-clown-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 last_modified_at: 2017-01-17T14:39:19-05:00
 ---

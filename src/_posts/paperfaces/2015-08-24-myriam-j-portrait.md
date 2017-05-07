@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-myriam-j.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-myriam-j-teaser.jpg
-  thumb: /assets/images/paperfaces-myriam-j-150.jpg
+  thumbnail: /assets/images/paperfaces-myriam-j-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

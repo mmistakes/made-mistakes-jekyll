@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-trees-guide-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-trees-guide-teaser-2016.jpg
-  thumb: /assets/images/paper-53-trees-guide-thumb.jpg
+  thumbnail: /assets/images/paper-53-trees-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, trees, grass, iPad]
 ---
 

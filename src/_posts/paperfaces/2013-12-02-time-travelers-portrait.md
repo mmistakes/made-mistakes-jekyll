@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-time-travelers.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-time-travelers-150.jpg
+  thumbnail: /assets/images/paperfaces-time-travelers-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

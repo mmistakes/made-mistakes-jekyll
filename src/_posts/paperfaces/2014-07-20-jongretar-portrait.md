@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-jongretar-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jongretar-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-jongretar-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-jongretar-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-spock-kirk-star-trek.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-spock-kirk-star-trek-teaser.jpg
-  thumb: /assets/images/paperfaces-spock-kirk-star-trek-150.jpg
+  thumbnail: /assets/images/paperfaces-spock-kirk-star-trek-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Trek]
 ---
 

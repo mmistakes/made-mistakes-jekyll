@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @SammyCostello drawn with Paper by 53 on an iPa
 image: 
   path: &image /assets/images/paperfaces-sammycostello-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-sammycostello-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sammycostello-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

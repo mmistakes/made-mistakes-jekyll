@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-weiheng-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-weiheng-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-weiheng-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-weiheng-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T12:57:51-05:00
 ---

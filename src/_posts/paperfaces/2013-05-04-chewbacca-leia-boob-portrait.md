@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-chewbacca-leia-boob.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-chewbacca-leia-boob-teaser.jpg
-  thumb: /assets/images/paperfaces-chewbacca-leia-boob-150.jpg
+  thumbnail: /assets/images/paperfaces-chewbacca-leia-boob-150.jpg
 tags: [Star Wars, portrait, illustration, Paper by 53]
 ---
 

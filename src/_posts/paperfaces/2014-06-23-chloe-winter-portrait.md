@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-chloe-winter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-chloe-winter-teaser.jpg
-  thumb: /assets/images/paperfaces-chloe-winter-150.jpg
+  thumbnail: /assets/images/paperfaces-chloe-winter-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
 ---
 

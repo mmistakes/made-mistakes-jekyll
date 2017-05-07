@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-yorgle-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-yorgle-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-yorgle-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-yorgle-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

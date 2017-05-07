@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-glitchpoke-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-glitchpoke-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-glitchpoke-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-glitchpoke-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, 8-bit]
 ---
 

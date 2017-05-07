@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-kayla-e.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kayla-e-teaser.jpg
-  thumb: /assets/images/paperfaces-kayla-e-150.jpg
+  thumbnail: /assets/images/paperfaces-kayla-e-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, blend, bokeh]
 ---
 

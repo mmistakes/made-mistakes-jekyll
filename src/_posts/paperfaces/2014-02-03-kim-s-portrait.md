@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-kim-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kim-s-teaser.jpg
-  thumb: /assets/images/paperfaces-kim-s-150.jpg
+  thumbnail: /assets/images/paperfaces-kim-s-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T15:58:37-05:00
 ---

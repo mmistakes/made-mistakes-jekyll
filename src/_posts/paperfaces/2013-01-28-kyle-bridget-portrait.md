@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of Kyle and Bridget drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-kyle-bridget.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-kyle-bridget-150.jpg
+  thumbnail: /assets/images/paperfaces-kyle-bridget-150.jpg
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

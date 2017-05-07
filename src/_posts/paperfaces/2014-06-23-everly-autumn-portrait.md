@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-everly-autumn.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-everly-autumn-teaser.jpg
-  thumb: /assets/images/paperfaces-everly-autumn-150.jpg
+  thumbnail: /assets/images/paperfaces-everly-autumn-150.jpg
 tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
 ---
 

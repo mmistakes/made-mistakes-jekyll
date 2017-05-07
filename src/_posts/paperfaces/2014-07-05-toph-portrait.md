@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-toph-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-toph-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-toph-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-toph-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

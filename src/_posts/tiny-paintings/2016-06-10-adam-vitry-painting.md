@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/painting-adam-vitry.jpg
   feature: *image
   teaser: /assets/images/painting-adam-vitry-teaser.jpg
-  thumb: /assets/images/painting-adam-vitry-250.jpg
+  thumbnail: /assets/images/painting-adam-vitry-250.jpg
 tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]
 ---
 

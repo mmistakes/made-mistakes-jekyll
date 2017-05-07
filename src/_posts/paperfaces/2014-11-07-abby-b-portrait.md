@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-abby-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-abby-b-teaser.jpg
-  thumb: /assets/images/paperfaces-abby-b-150.jpg
+  thumbnail: /assets/images/paperfaces-abby-b-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 

@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-viktoriaderoy-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-viktoriaderoy-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-viktoriaderoy-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-viktoriaderoy-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

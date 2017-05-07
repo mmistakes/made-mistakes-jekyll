@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-blend-first-look-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-blend-first-look-teaser.jpg
-  thumb: /assets/images/paper-53-blend-first-look-thumb.jpg
+  thumbnail: /assets/images/paper-53-blend-first-look-thumb.jpg
 tags: [Paper by 53, pencil, blend, stylus, iPad]
 comments_locked: true
 ---

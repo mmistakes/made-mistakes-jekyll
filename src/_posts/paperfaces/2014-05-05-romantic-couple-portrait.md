@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-romantic-couple.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-romantic-couple-teaser.jpg
-  thumb: /assets/images/paperfaces-romantic-couple-150.jpg
+  thumbnail: /assets/images/paperfaces-romantic-couple-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T13:00:44-05:00
 ---

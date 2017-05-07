@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-girl-cat.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-girl-cat-teaser.jpg
-  thumb: /assets/images/paperfaces-girl-cat-150.jpg
+  thumbnail: /assets/images/paperfaces-girl-cat-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

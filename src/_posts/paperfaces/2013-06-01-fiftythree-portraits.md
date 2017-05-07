@@ -4,7 +4,7 @@ excerpt: "PaperFaces portraits of the makers at FiftyThree using Paper by 53 on 
 image: 
   path: &image /assets/images/paperfaces-fiftythree.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-fiftythree-150.jpg
+  thumbnail: /assets/images/paperfaces-fiftythree-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

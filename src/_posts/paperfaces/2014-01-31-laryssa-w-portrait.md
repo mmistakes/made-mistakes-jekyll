@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-laryssa-w.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-laryssa-w-teaser.jpg
-  thumb: /assets/images/paperfaces-laryssa-w-150.jpg
+  thumbnail: /assets/images/paperfaces-laryssa-w-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T16:08:41-05:00
 ---

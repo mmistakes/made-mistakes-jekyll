@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paperfaces-dark-knight.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-dark-knight-teaser.jpg
-  thumb: /assets/images/paperfaces-dark-knight-150.jpg
+  thumbnail: /assets/images/paperfaces-dark-knight-150.jpg
 tags: [portrait, illustration, Paper by 53, Batman, Mix]
 ---
 

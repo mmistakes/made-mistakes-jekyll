@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-matt-davey.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-matt-davey-teaser.jpg
-  thumb: /assets/images/paperfaces-matt-davey-150.jpg
+  thumbnail: /assets/images/paperfaces-matt-davey-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

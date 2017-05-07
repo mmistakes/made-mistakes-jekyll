@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-rubenharris-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rubenharris-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-rubenharris-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-rubenharris-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:19:19-05:00
 ---

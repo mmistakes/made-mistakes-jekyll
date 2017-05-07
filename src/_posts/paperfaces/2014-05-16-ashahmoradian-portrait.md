@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-ashahmoradian-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ashahmoradian-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-ashahmoradian-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-ashahmoradian-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:54:51-05:00
 ---

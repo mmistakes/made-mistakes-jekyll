@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @sushobhan drawn with Paper by 53 on an iPad."
 image: 
   path: &image /assets/images/paperfaces-sushobhan-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-sushobhan-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-sushobhan-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @timcameronryan drawn with Paper by 53 on an iP
 image: 
   path: &image /assets/images/paperfaces-timcameronryan-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-timcameronryan-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-timcameronryan-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

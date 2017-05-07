@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-inferno-may13-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-inferno-may13-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-inferno-may13-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-inferno-may13-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T16:10:16-05:00
 ---

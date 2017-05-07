@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-obi-wan-kenobi.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-obi-wan-kenobi-teaser.jpg
-  thumb: /assets/images/paperfaces-obi-wan-kenobi-150.jpg
+  thumbnail: /assets/images/paperfaces-obi-wan-kenobi-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars, beard]
 ---
 

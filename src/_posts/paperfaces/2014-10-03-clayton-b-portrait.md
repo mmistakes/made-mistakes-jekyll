@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-clayton-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-clayton-b-teaser.jpg
-  thumb: /assets/images/paperfaces-clayton-b-150.jpg
+  thumbnail: /assets/images/paperfaces-clayton-b-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, Mix]
 ---
 

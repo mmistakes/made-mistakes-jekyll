@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @bulletproofjenn drawn with Paper by 53 on an i
 image: 
   path: &image /assets/images/paperfaces-bulletproofjenn-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-bulletproofjenn-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-bulletproofjenn-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

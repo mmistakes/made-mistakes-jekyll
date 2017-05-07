@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/imac-glitch-feature.jpg
   feature: *image
   teaser: /assets/images/imac-glitch-teaser.jpg
-  thumb: /assets/images/imac-glitch-thumb.jpg
+  thumbnail: /assets/images/imac-glitch-thumb.jpg
 tags: [iMac, Apple]
 ---
 

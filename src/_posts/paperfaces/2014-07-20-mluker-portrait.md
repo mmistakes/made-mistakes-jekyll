@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mluker-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mluker-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-mluker-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-mluker-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

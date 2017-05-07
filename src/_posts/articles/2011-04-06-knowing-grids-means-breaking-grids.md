@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/knowing-grids-feature.jpg
   feature: *image
   teaser: /assets/images/knowing-grids-teaser.jpg
-  thumb: /assets/images/owh-grid-spread-340x340.jpg
+  thumbnail: /assets/images/owh-grid-spread-340x340.jpg
 tags: [critique, grid, design, inspiration, typography]
 ---
 

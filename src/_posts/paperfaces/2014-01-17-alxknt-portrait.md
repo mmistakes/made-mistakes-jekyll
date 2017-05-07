@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-alxknt-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-alxknt-twitter-teaser.jpg
-  thumb: /assets/images/paperfaces-alxknt-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-alxknt-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53, beard]
 last_modified_at: 2017-01-17T16:18:45-05:00
 ---

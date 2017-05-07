@@ -4,7 +4,7 @@ excerpt: "PaperFaces portrait of @cupcakelarissa drawn with Paper by 53 on an iP
 image: 
   path: &image /assets/images/paperfaces-cupcakelarissa-twitter.jpg 
   feature: *image
-  thumb: /assets/images/paperfaces-cupcakelarissa-twitter-150.jpg
+  thumbnail: /assets/images/paperfaces-cupcakelarissa-twitter-150.jpg
 tags: [portrait, illustration, Paper by 53]
 ---
 

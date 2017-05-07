@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-jonas-c.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jonas-c-teaser.jpg
-  thumb: /assets/images/paperfaces-jonas-c-150.jpg
+  thumbnail: /assets/images/paperfaces-jonas-c-150.jpg
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

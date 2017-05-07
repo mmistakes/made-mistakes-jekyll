@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/painting-michael-rose.jpg
   feature: *image
   teaser: /assets/images/painting-michael-rose-teaser.jpg
-  thumb: /assets/images/painting-michael-rose-250.jpg
+  thumbnail: /assets/images/painting-michael-rose-250.jpg
 gallery:
   - url: /assets/images/painting-michael-rose-process-1-lg.jpg
     image_path: /assets/images/painting-michael-rose-process-1-600.jpg

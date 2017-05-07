@@ -6,6 +6,7 @@ last_modified_at: 2016-10-17T12:18:38-04:00
 image: 
   path: &image /assets/images/minimal-mistakes-3-feature.jpg
   feature: *image
+  thumbnail: /assets/images/minimal-mistakes-3-th.jpg
   teaser: /assets/images/minimal-mistakes-3-teaser.jpg
 gallery:
   - url: /assets/images/mm-layout-splash.png

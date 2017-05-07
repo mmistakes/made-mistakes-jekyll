@@ -6,7 +6,7 @@ image:
   path: &image /assets/images/paper-53-texture-guide-feature.jpg
   feature: *image
   teaser: /assets/images/paper-53-texture-guide-teaser-2016.jpg
-  thumb: /assets/images/paper-53-texture-guide-thumb.jpg
+  thumbnail: /assets/images/paper-53-texture-guide-thumb.jpg
 tags: [Paper by 53, tutorial, drawing, painting, texture, wood, iPad]
 ---
 

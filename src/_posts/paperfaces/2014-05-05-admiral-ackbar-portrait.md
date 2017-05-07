@@ -5,7 +5,7 @@ image:
   path: &image /assets/images/paperfaces-admiral-ackbar.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-admiral-ackbar-teaser.jpg
-  thumb: /assets/images/paperfaces-admiral-ackbar-150.jpg
+  thumbnail: /assets/images/paperfaces-admiral-ackbar-150.jpg
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 
