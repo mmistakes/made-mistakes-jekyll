@@ -6,6 +6,7 @@ last_modified_at: 2016-11-04T16:13:05-04:00
 image:
   path: &image /assets/images/gradient-01-teaser.jpg
   teaser: *image
+  thumb: /assets/images/gradient-01-th.jpg
   cover: /assets/images/gradient-01-lq.jpg
 ---
 

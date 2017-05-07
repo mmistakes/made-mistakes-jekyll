@@ -5,6 +5,7 @@ excerpt:
 image: 
   path: &image /assets/images/oil-pastel-sunset-finished.jpg
   feature: *image
+  thumb: /assets/images/oil-pastels-th.jpg
   teaser: /assets/images/oil-pastels-teaser.jpg
 gallery:
   - url: /assets/images/oil-pastels-process-1.jpg

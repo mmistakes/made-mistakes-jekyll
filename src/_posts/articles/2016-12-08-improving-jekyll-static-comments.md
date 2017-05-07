@@ -4,6 +4,7 @@ excerpt: "Using Staticman to add threaded comments and reply notifications to a 
 image:
   path: &image /assets/images/improving-jekyll-static-comments-feature.jpg
   feature: *image
+  thumb: /assets/images/improving-jekyll-static-comments-th.jpg
   teaser: /assets/images/improving-jekyll-static-comments-teaser.jpg
   caption: "[Photo by **Gabriel Santiago**](https://unsplash.com/@gabrielssantiago)"
 tags: [web development, GitHub, Jekyll]

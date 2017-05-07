@@ -5,8 +5,9 @@ tags: [Paper by 53, iPad, tutorial]
 image:
   path: &image /assets/images/paper-53-full-tools.jpg
   feature: *image
+  thumb: /assets/images/paper-53-switch-tools-th.jpg
   teaser: /assets/images/paper-53-switch-tools-teaser.jpg
-last_modified_at: 2016-05-17T08:10:05-04:00
+last_modified_at: 2017-05-07T16:37:18-04:00
 ---
 
 New to Paper by FiftyThree and just can't seem to figure out how to switch tools? I have the short answer for you right here.

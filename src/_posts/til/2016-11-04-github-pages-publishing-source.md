@@ -4,6 +4,7 @@ excerpt:
 image: 
   path: &image /assets/images/github-publishing-source-teaser.jpg
   teaser: *image
+  thumb: /assets/images/github-publishing-source-th.jpg
   cover: /assets/images/gradient-02-lq.jpg
 tags: [web development, GitHub, Jekyll]
 last_modified_at:

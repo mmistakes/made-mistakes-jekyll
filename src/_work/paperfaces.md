@@ -7,7 +7,7 @@ excerpt: "Gallery of hundreds of PaperFaces portrait painted digitally with Pape
 last_modified_at: 2017-04-08T22:45:44-04:00
 image: 
   cover: /assets/images/fiftythree-color-lq.jpg
-  thumb: /assets/images/paperfaces-project-250x250.jpg
+  thumb: /assets/images/paperfaces-project-th.jpg
   teaser: &image /assets/images/paperfaces-asja-k-teaser.jpg
   path: *image
 tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]

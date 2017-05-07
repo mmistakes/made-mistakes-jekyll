@@ -4,6 +4,7 @@ excerpt: "The question of how to write a list inside of a table cell with Kramdo
 image:
   path: &image /assets/images/kramdown-table-html-teaser.jpg
   teaser: *image
+  thumb: /assets/images/kramdown-table-html-th.jpg
   cover: /assets/images/kramdown-table-html-cover.jpg
 tags: [web development, Kramdown, GitHub, Jekyll]
 last_modified_at:
