@@ -20,8 +20,6 @@ Trying to emulate the look and feel of [watercolor on the iPad]({{ site.url }}/p
 
 My plan was to complete a miniature 1.5\" painting a day, but the challenge of painting so small is eating up way too much time. Instead I'm going to keep things casual and let images happen as they happen.
 
-{% include popular-tags.html %}
-
 <ul class="th-grid">
 {% for post in site.categories.tiny-paintings %}
   <li>

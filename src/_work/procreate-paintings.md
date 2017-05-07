@@ -19,8 +19,6 @@ order: 1
 
 Digital paintings created on an iPad using the iOS app [**Procreate** by Savage Interactive](http://procreate.si/).
 
-{% include popular-tags.html %}
-
 <ul class="th-grid">
 {% for post in site.categories.procreate-paintings %}
   <li>
