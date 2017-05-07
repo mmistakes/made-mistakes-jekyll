@@ -14,4 +14,7 @@ pagination:
 ---
 
 {% include popular-tags.html %}
-{% include paginator.html %}
+<div class="list__wrap">
+  {% include paginator.html %}
+  {% include pager.html %}
+</div>

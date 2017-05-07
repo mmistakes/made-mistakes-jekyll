@@ -12,4 +12,8 @@ pagination:
   category: til
 ---
 
-{% include paginator.html %}
+{% include popular-tags.html %}
+<div class="list__wrap">
+  {% include paginator.html %}
+  {% include pager.html %}
+</div>

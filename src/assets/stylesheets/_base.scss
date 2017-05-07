@@ -191,15 +191,15 @@ img {
   }
 }
 
-a img {
-  border: 0.125em solid #333;
-  box-shadow: 0.25em 0.25em #333;
+// a img {
+//   border: 0.125em solid #333;
+//   box-shadow: 0.25em 0.25em #333;
 
-  &:hover {
-    // box-shadow: 0 0 10px rgba(#000, 0.5);
-    box-shadow: 0.5em 0.5em #333;
-  }
-}
+//   &:hover {
+//     // box-shadow: 0 0 10px rgba(#000, 0.5);
+//     box-shadow: 0.5em 0.5em #333;
+//   }
+// }
 
 /* fix IE9 SVG bug */
 svg:not(:root) {
