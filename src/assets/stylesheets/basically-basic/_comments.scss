@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Comments
+   ========================================================================== */
+
+.comment {
+  position: relative;
+  margin-bottom: 4em;
+  padding-left: 4.5em;
+  font-size: 0.8em;
+
+  // comment replies
+  &.child {
+    margin-left: 4.5em;
+
+    &:before,
+    &:after {
+      position: absolute;
+      left: 1.5em;
+      content: '';
+      width: 0.5em;
+      background-color: #e3e3e3;
+    }
+
+    &:before {
+      top: -3em;
+      height: 2em;
+    }
+
+    &:after {
+      top: 4em;
+      bottom: -1em;
+    }
+  }
+}
+
+.comment-timestamp {
+  font-size: 0.8em;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.comment-content {
+
+  > p, > ul, > ol, > figure, > table {
+    margin-bottom: 1.5em;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  li > ul,
+  li > ol {
+    margin-top: 0.5em;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  div.highlighter-rouge .highlight code {
+    font-size: 0.8em;
+  }
+}
+
+.comment-avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.25em;
+  height: 3.25em;
+
+  &:after {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    width: 3.25em;
+    height: 3.25em;
+    content: '';
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
+    background-size: 5px 5px;
+    z-index: -1;
+  }
+}
+
+.comment-author-name {
+  margin: 0 0 0.25em 0;
+  font-size: 1.25em;
+  line-height: 1;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.comment-reply {
+
+  .btn {
+    font-size: 0.64em;
+  }
+}
+
+#cancel-comment-reply-link {
+  margin-left: 1em;
+}
+
+#comment-form {
+  margin-bottom: 3em;
+}

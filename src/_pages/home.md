@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: page
 permalink: /
 title: "A Designer's Faux&#160;Pas"
 excerpt: "Making stuff one mistake at a time."

@@ -1,0 +1,46 @@
+<ul class="contact-list">
+  {% if site.email %}
+    <li>
+      <a href="mailto:{{ site.email }}">
+        <span><svg class="icon icon--email"><use xlink:href="{{ 'icons.svg#icon-email' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span>
+        <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.github.username %}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}">
+        <span><svg class="icon icon--github" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-github' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span>
+        <span class="label">{{ site.github.username }}</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.twitter.username %}
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        <span><svg class="icon icon--twitter" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-twitter' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span>
+        <span class="label">{{ site.twitter.username }}</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.instagram.username %}
+    <li>
+      <a href="https://instagram.com/{{ site.instagram_username }}">
+        <span><svg class="icon icon--instagram" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-instagram' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span>
+        <span class="label">{{ site.instagram.username }}</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.feed.path %}
+    <li>
+      <a href="{{ site.feed.path }}" title="Atom Feed">
+        <span><svg class="icon icon--rss" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-rss' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span>
+        <span class="label">{{ site.data.theme.t.subscribe | default: 'Subscribe' }}</span>
+      </a>
+    </li>
+  {% endif %}
+</ul>

@@ -70,7 +70,7 @@ gulp.task('scripts:gzip', () => {
 // 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes,
 //   minifies, and cache busts it (does not create a Sourcemap)
 gulp.task('styles', () => {
-  return gulp.src([paths.sassFiles + '/style.scss'])
+  return gulp.src([paths.sassFiles + '/main.scss'])
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))

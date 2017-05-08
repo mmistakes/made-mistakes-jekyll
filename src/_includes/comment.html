@@ -1,5 +1,5 @@
 <article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
-  <div class="comment__avatar">
+  <div class="comment-avatar">
     {% if include.avatar %}
       <noscript><img src="{{ include.avatar }}" alt=""></noscript>
       <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ include.avatar }}" alt="" class="lazyload blur-up">
@@ -11,7 +11,7 @@
       <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60 1x, {{ site.url }}/assets/images/avatar-120.png 2x" alt="" class="lazyload blur-up">
     {% endif %}
   </div>
-  <h3 class="comment__author-name">
+  <h3 class="comment-author-name">
     {% unless include.url == blank %}
       <a rel="external nofollow" href="{{ include.url }}">
         {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> {% endif %}{{ include.name }}
@@ -20,18 +20,18 @@
       {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> {% endif %}{{ include.name }}
     {% endunless %}
   </h3>
-  <div class="comment__timestamp">
+  <div class="comment-timestamp">
     {% if include.date %}
       {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
       <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
       {% if include.index %}</a>{% endif %}
     {% endif %}
   </div>
-  <div class="comment__content">
+  <div class="comment-content">
     {{ include.message | markdownify }}
   </div>
   {% unless include.replying_to != 0 or page.comments_locked == true %}
-    <div class="comment__reply">
+    <div class="comment-reply">
       <a rel="nofollow" class="btn btn--inverse" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')">Reply to {{ include.name }}</a>
     </div>
   {% endunless %}

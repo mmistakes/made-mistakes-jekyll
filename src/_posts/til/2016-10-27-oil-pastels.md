@@ -1,6 +1,5 @@
 ---
 title: "Oil Pastels are Not Pencils"
-layout: work
 excerpt:
 image: 
   path: &image /assets/images/oil-pastel-sunset-finished.jpg

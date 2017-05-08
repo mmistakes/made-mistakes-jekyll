@@ -15,6 +15,10 @@ url                      : "https://mademistakes.com"
 
 twitter:
   username               : "mmistakes"
+github:
+  username               : "mmistakes"
+instagram:
+  username               : "mmistakes"
 
 social:
   name                   : "Michael Rose"
@@ -33,6 +37,9 @@ yandex_site_verification : "55a5419baf76a498"
 google_ad-client         : "ca-pub-7328585512091257"
 google_ad-slot           : "3049671934"
 google_analytics         : "UA-2011187-1"
+
+feed:
+  path: "http://feeds.feedburner.com/MadeMistakes"
 
 # Site owner
 author:
@@ -123,7 +130,7 @@ defaults:
       path: _posts/articles
       type: posts
     values:
-      layout: page
+      layout: post
       category: articles
       read_time: true
       breadcrumbs:
@@ -134,7 +141,7 @@ defaults:
       path: _posts/mastering-paper
       type: posts
     values:
-      layout: page
+      layout: post
       category: mastering-paper
       read_time: true
       comments: true
@@ -146,7 +153,7 @@ defaults:
       path: _posts/paperfaces
       type: posts
     values:
-      layout: work
+      layout: post
       category: paperfaces
       breadcrumbs:
         - label: "PaperFaces Portraits"
@@ -159,7 +166,7 @@ defaults:
       path: _posts/procreate
       type: posts
     values:
-      layout: work
+      layout: post
       category: procreate-paintings
       breadcrumbs:
         - label: "Procreate Paintings"
@@ -184,7 +191,7 @@ defaults:
       path: _posts/tiny-paintings
       type: posts
     values:
-      layout: work
+      layout: post
       category: tiny-paintings
       breadcrumbs:
         - label: "Tiny Paintings"
@@ -197,7 +204,7 @@ defaults:
       path: _posts/work
       type: posts
     values:
-      layout: work
+      layout: post
       category: work
       breadcrumbs:
         - label: "Work"
