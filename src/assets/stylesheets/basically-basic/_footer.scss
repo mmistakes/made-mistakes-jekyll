@@ -6,6 +6,35 @@
   margin-top: 4rem;
   color: tint($text-color, 40%);
   font-size: 80%;
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+
+    li {
+      flex-basis: 50%;
+
+      @include breakpoint($medium) {
+        flex-basis: calc(100% / 3);
+      }
+
+      @include breakpoint($large) {
+        flex-basis: auto;
+      }
+
+      a {
+        display: block;
+        padding-right: 2em;
+        padding-bottom: 1em;
+        font-weight: 700;
+
+        @include breakpoint($large) {
+          padding-bottom: 0.5em;
+        }
+      }
+    }
+  }
 }
 
 .copyright {
