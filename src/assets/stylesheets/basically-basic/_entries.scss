@@ -33,6 +33,11 @@
 
   a {
     color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .byline-item {
@@ -143,6 +148,61 @@
   h5,
   h6 {
     color: tint($text-color, 25%);
+  }
+
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+
+    > img {
+      width: 100%;
+    }
+
+    &.half,
+    &.third {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      > a,
+      > img {
+        display: block;
+      }
+    }
+
+    &.half {
+      > a,
+      > img {
+        @include breakpoint($small) {
+          flex-basis: 49%;
+          max-width: 49%;
+          height: 0%;
+        }
+      }
+
+      figcaption {
+        width: 100%;
+      }
+    }
+
+    &.third {
+      > a,
+      > img {
+        @include breakpoint($small) {
+          flex-basis: 32%;
+          max-width: 32%;
+          height: 0%;
+        }
+      }
+
+      figcaption {
+        width: 100%;
+      }
+    }
+
+    .emoji {
+      margin-bottom: 0;
+    }
   }
 }
 

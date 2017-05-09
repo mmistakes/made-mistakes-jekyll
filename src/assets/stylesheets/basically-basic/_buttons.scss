@@ -36,4 +36,84 @@
       margin-top: 1rem;
     }
   }
+
+  /* for dark backgrounds */
+  &--inverse {
+    color: #000 !important;
+    background-color: #fff;
+    outline: 0.125em solid #000;
+
+    &:hover {
+      background-color: mix(#000, #fff, 10%);
+      outline: 0.125em solid #000;
+    }
+  }
+
+  /* light outline */
+  &--light-outline {
+    border: 1px solid #fff !important; // override
+    background-color: transparent;
+  }
+
+  /* information */
+  &--info {
+    background-color: $info-color;
+
+    &:hover {
+      background-color: mix(#000, $info-color, 20%);
+    }
+  }
+
+  /* warning */
+  &--warning {
+    background-color: $warning-color;
+
+    &:hover {
+      background-color: mix(#000, $warning-color, 20%);
+    }
+  }
+
+  /* success */
+  &--success {
+    background-color: $success-color;
+
+    &:hover {
+      background-color: mix(#000, $success-color, 20%);
+    }
+  }
+
+  /* danger */
+  &--danger {
+    background-color: $danger-color;
+
+    &:hover {
+      background-color: mix(#000, $danger-color, 20%);
+    }
+  }
+
+  /* disabled */
+  &--disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: 0.65;
+  }
+
+  /* social buttons */
+  $social:
+  (facebook, $facebook-color),
+  (twitter, $twitter-color);
+
+  @each $socialnetwork, $color in $social {
+
+    &--#{$socialnetwork} {
+      background-color: $color;
+
+      &:hover {
+        background-color: mix(#000, $color, 20%);
+      }
+    }
+  }
 }

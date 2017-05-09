@@ -1,7 +1,6 @@
 ---
 permalink: /contact/
 title: "Contact"
-date: 2015-05-22
 last_modified_at: 2016-11-21T15:08:09-05:00
 excerpt: "Preferred methods of sending your questions, inquires, messages, and love letters to me."
 ads: false

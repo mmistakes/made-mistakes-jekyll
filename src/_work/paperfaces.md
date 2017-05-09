@@ -6,10 +6,11 @@ title: "PaperFaces iPad Project"
 excerpt: "Gallery of hundreds of PaperFaces portrait painted digitally with Paper by FiftyThree on an iPad. Find time lapse videos, in-process screenshots, and more."
 last_modified_at: 2017-04-08T22:45:44-04:00
 image: 
+  path: &image /assets/images/paperfaces-project-feature.jpg
+  feature: *image
   cover: /assets/images/fiftythree-color-lq.jpg
   thumbnail: /assets/images/paperfaces-project-th.jpg
-  teaser: &image /assets/images/paperfaces-asja-k-teaser.jpg
-  path: *image
+  teaser: /assets/images/paperfaces-asja-k-teaser.jpg
 tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]
 ads: false
 work: "Illustration"

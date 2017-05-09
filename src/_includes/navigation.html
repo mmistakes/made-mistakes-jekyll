@@ -1,11 +1,5 @@
 <nav id="nav-primary" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
   <ul id="menu-main-navigation" class="menu">
-    <!-- Home link -->
-    <li class="menu-item">
-      <a href="{{ '/' | relative_url }}" itemprop="url">
-        <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
-      </a>
-    </li>
     <li class="menu-item">
       <a href="{{ '/articles/' | relative_url }}" itemprop="url">
         <span itemprop="name">Articles</span>
@@ -18,12 +12,22 @@
     </li>
     <li class="menu-item">
       <a href="{{ '/mastering-paper/' | relative_url }}" itemprop="url">
-        <span itemprop="name">Mastering Paper by FiftThree</span>
+        <span itemprop="name">Mastering Paper</span>
       </a>
     </li>
     <li class="menu-item">
       <a href="{{ '/work/' | relative_url }}" itemprop="url">
         <span itemprop="name">Work</span>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="{{ '/about/' | relative_url }}" itemprop="url">
+        <span itemprop="name">About</span>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="{{ '/contact/' | relative_url }}" itemprop="url">
+        <span itemprop="name">Contact</span>
       </a>
     </li>
   </ul>

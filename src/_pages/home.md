@@ -6,9 +6,6 @@ excerpt: "Making stuff one mistake at a time."
 image:
   path: &image /assets/images/self-portrait-ipad-procreate-glitched.jpg
   feature: *image
-classes:
-  - splash
-  - dark
 ads: false
 last_modified_at: 2016-10-28T09:55:18-04:00
 ---

@@ -25,21 +25,24 @@
   </header>
   <footer class="entry-meta">
     <ul>
-    {% if post.date %}
-      <li><span><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
-    {% endif %}
-    {% if post.read_time %}
-      <li><span><svg class="icon icon--stopwatch" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-stopwatch' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
-    {% endif %}
-    {% if site.data.comments[post.slug].size > 0 %}
-      <li><a href="{{ post.url | relative_url }}#comments"><span><svg class="icon icon--comments" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-comments' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span>{{ site.data.comments[post.slug] | size }} Comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}</a></li>
-    {% endif %}
+      {% if post.work %}
+        <li><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>&nbsp;{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      {% endif %}
+      {% if post.date %}
+        <li><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | absolute_url }}"></use></svg><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
+      {% endif %}
+      {% if post.read_time %}
+        <li><svg class="icon icon--stopwatch" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-stopwatch' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
+      {% endif %}
+      {% if site.data.comments[post.slug].size > 0 %}
+        <li><a href="{{ post.url | relative_url }}#comments"><svg class="icon icon--comments" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-comments' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>{{ site.data.comments[post.slug] | size }} Comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}</a></li>
+      {% endif %}
     </ul>
   </footer>
   <div class="entry-excerpt">
     {% if post.excerpt %}
       {{ post.excerpt | markdownify }}
-      <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <span><svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></span></a></p>
+      <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></a></p>
     {% endif %}
   </div>
 </article>

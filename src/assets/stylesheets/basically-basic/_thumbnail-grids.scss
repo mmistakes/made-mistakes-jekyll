@@ -1,0 +1,40 @@
+/* ==========================================================================
+   THUMBNAIL GRIDS
+   ========================================================================== */
+
+/* Thumbnail image grid (default content width) */
+
+/**
+ *
+ * Example usage:
+ *  <ul class="th-grid">
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
+ *  </ul>
+ *
+ */
+
+.th-grid {
+  display: flex;
+  padding-left: 0; // reset
+  flex-wrap: wrap;
+
+  li {
+    list-style: none;
+    flex: auto;
+    margin: 0.25em;
+    width: 100px;
+    max-width: 150px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* list override */
+.list .th-grid a {
+  margin-right: initial;
+}

@@ -43,6 +43,7 @@
 }
 
 .comment-content {
+  margin-top: 1em;
 
   > p, > ul, > ol, > figure, > table {
     margin-bottom: 1.5em;
@@ -103,8 +104,12 @@
 
 .comment-reply {
 
-  .btn {
-    font-size: 0.64em;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline
+    }
   }
 }
 

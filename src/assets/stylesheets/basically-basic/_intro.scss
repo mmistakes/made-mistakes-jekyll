@@ -9,19 +9,8 @@
 }
 
 .intro-image {
-  position: relative;
   margin-top: -3rem; /* compensate for intro top margin */
   margin-bottom: 3rem;
-
-  &::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba($accent-color, 0.25);
-    content: '';
-  }
 
   img {
     width: 100%;

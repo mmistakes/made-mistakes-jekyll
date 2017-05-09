@@ -52,10 +52,20 @@ $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 $overlay-color: $base-color !default;
 
-$success-color: #40c057;
-$warning-color: #fcc419;
-$danger-color: #f03e3e;
-$info-color: #1c7cd6;
+$primary-color: #00848a !default;
+$success-color: #40c057 !default;
+$warning-color: #fcc419 !default;
+$danger-color: #f03e3e !default;
+$info-color: #1c7cd6 !default;
+
+$facebook-color: #3b5998 !default;
+$flickr-color: #0063dc !default;
+$github-color: #181717 !default;
+$google-plus-color: #dc4e41 !default;
+$instagram-color: #e4405f !default;
+$rss-color: #ffa500 !default;
+$twitter-color: #1da1f2 !default;
+$youtube-color: #cd201f !default;
 
 /* Max-width of the main content */
 $main-max-width: $xlarge !default;
