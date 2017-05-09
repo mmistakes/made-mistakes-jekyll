@@ -5,6 +5,7 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
 
     {% include skip-links.html %}
+    {% include browser-upgrade.html %}
 
     <div class="sidebar-toggle-wrapper">
       <button class="toggle navicon-button larr" type="button">
