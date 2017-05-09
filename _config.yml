@@ -4,21 +4,13 @@ destination              : .tmp/dist
 
 title                    : "Made Mistakes"
 description              : "Personal website of designer slash illustrator Michael Rose."
-logo                     : /assets/images/site-logo.png
-teaser                   : /assets/images/default-teaser.png
+logo                     : "/assets/images/site-logo.png"
+teaser                   : "/assets/images/default-teaser.png"
 locale                   : "en_US"
 words_per_minute         : 200
-title_separator          : "×"
 
 repository               : "mmistakes/made-mistakes-jekyll"
 url                      : "https://mademistakes.com"
-
-twitter:
-  username               : "mmistakes"
-github:
-  username               : "mmistakes"
-instagram:
-  username               : "mmistakes"
 
 social:
   name                   : "Michael Rose"
@@ -40,6 +32,11 @@ google_analytics         : "UA-2011187-1"
 
 feed:
   path: "http://feeds.feedburner.com/MadeMistakes"
+
+favicon_version         : "RyowzAOe9M"
+
+pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
+webmention_url          : "https://webmention.io/mademistakes.com/webmention"
 
 # Site owner
 author:
