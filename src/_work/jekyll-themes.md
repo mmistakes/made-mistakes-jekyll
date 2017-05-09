@@ -3,7 +3,7 @@ layout: page
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Minimally designed open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"
-last_modified_at: 2017-03-30T12:17:48-04:00
+last_modified_at: 2017-05-09T11:56:22-04:00
 image: 
   path: &image /assets/images/jekyll-themes-feature.png
   feature: *image
@@ -50,7 +50,7 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 - Disqus Comments and Google Analytics support
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://github.com/mmistakes/jekyll-theme-basically-basic" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" class="btn">Demo</a>
@@ -73,7 +73,7 @@ A flexible two-column Jekyll theme with a minimalistic aesthetic.
   - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and more).
   - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
@@ -93,7 +93,7 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
   - Animated main menu.
   - Built-in support for Sass and data files (requires Jekyll 2.x).
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
@@ -113,7 +113,7 @@ A simple and clean responsive Jekyll theme for words and large photographs.
   - Simple search (searches by post title)
   - Built-in support for Sass and data files (requires Jekyll 2.x)
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
@@ -134,7 +134,7 @@ A Jekyll starter based off of an older incarnation of Made Mistakes.
   - Tile based archives.
   - Optional table of contents, share links, Disqus comments modules, and more.
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
 	<a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn btn--info">Download</a>
 	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
@@ -142,6 +142,6 @@ A Jekyll starter based off of an older incarnation of Made Mistakes.
 
 ---
 
-## License
+### License
 
 These themes are free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). Feel free to modify them to suit your needs.
