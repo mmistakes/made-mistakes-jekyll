@@ -15,7 +15,7 @@
       {% include feed/feature-image.xml %}
     {% endif %}
     {% if post.gallery %}
-      {% capture feed_work_gallery %}{% include work__gallery.html %}{% endcapture %}
+      {% capture feed_work_gallery %}{% include gallery.html %}{% endcapture %}
       {{ feed_work_gallery | xml_escape }}
     {% endif %}
     {{ post.content | markdownify | xml_escape }}
