@@ -36,20 +36,3 @@
   margin-right: 0.5rem;
   border-radius: 50%;
 }
-
-.section-title {
-  position: relative;
-  margin-top: 4rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.563em;
-
-  &:before {
-    position: absolute;
-    top: -0.5em;
-    content: '';
-    height: 0.25em;
-    width: 3em;
-    background-color: $border-color;
-  }
-}
