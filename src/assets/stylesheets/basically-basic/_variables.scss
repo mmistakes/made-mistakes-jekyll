@@ -3,81 +3,81 @@
    ========================================================================== */
 
 /* Breakpoint widths */
-$small: 320px !default;
-$medium: 768px !default;
-$large: 1024px !default;
-$xlarge: 1280px !default;
+$small: 320px;
+$medium: 768px;
+$large: 1024px;
+$xlarge: 1280px;
 
 /* Fluid type */
-$base-font-size: 16px !default;
-$min-vw: $small !default;
-$max-vw: $xlarge !default;
-$min-font-size: 14px !default;
-$max-font-size: 18px !default;
+$base-font-size: 16px;
+$min-vw: $small;
+$max-vw: $xlarge;
+$min-font-size: 14px;
+$max-font-size: 18px;
 
 /* Calculate Modular Scale */
-$modular-scale-1: 1.067 !default; /* small */
-$modular-scale-2: 1.296 !default; /* large */
+$modular-scale-1: 1.067; /* small */
+$modular-scale-2: 1.296; /* large */
 /* Heading 1 */
-$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
-$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
+$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size;
+$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size;
 /* Heading 2 */
-$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
-$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
+$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size;
+$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size;
 /* Heading 3 */
-$h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
-$h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
+$h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size;
+$h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size;
 /* Heading 4 */
-$h4-min: $modular-scale-1 * $base-font-size !default;
-$h4-max: $modular-scale-2 * $base-font-size !default;
+$h4-min: $modular-scale-1 * $base-font-size;
+$h4-max: $modular-scale-2 * $base-font-size;
 /* Heading 5 */
-$h5-min: $base-font-size !default;
-$h5-max: $base-font-size !default;
+$h5-min: $base-font-size;
+$h5-max: $base-font-size;
 /* Heading 6 */
-$h6-min: ($base-font-size / $modular-scale-1) !default;
-$h6-max: ($base-font-size / $modular-scale-2) !default;
+$h6-min: ($base-font-size / $modular-scale-1);
+$h6-max: ($base-font-size / $modular-scale-2);
 
 /* Base font family */
-$base-font-family: "Fira Sans", sans-serif !default;
+$base-font-family: "Fira Sans", sans-serif;
 /* Other font families */
-$headline-font-family: $base-font-family !default;
-$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
+$headline-font-family: $base-font-family;
+$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
 
 /* Colors */
-$base-color: #393e46 !default;
-$text-color: #222831 !default;
-$accent-color: #00848a !default;
-$background-color: #fff !default;
-$code-background-color: tint($base-color, 95%) !default;
-$border-color: tint($base-color, 80%) !default;
-$overlay-color: $base-color !default;
+$base-color: #393e46;
+$text-color: #222831;
+$accent-color: #00848a;
+$background-color: #fff;
+$code-background-color: tint($base-color, 95%);
+$border-color: tint($base-color, 80%);
+$overlay-color: $base-color;
 
-$primary-color: #00848a !default;
-$success-color: #40c057 !default;
-$warning-color: #fcc419 !default;
-$danger-color: #f03e3e !default;
-$info-color: #1c7cd6 !default;
+$primary-color: #00848a;
+$success-color: #40c057;
+$warning-color: #fcc419;
+$danger-color: #f03e3e;
+$info-color: #1c7cd6;
 
-$facebook-color: #3b5998 !default;
-$flickr-color: #0063dc !default;
-$github-color: #181717 !default;
-$google-plus-color: #dc4e41 !default;
-$instagram-color: #e4405f !default;
-$rss-color: #ffa500 !default;
-$twitter-color: #1da1f2 !default;
-$youtube-color: #cd201f !default;
+$facebook-color: #3b5998;
+$flickr-color: #0063dc;
+$github-color: #181717;
+$google-plus-color: #dc4e41;
+$instagram-color: #e4405f;
+$rss-color: #ffa500;
+$twitter-color: #1da1f2;
+$youtube-color: #cd201f;
 
 /* Max-width of the main content */
-$main-max-width: $xlarge !default;
+$main-max-width: $xlarge;
 
 /* Width of the sidebar */
-$sidebar-width: $small !default;
+$sidebar-width: $small;
 
 /* Background color of the sidebar */
-$sidebar-background-color: #fff !default;
+$sidebar-background-color: mix($text-color, #fff, 5%);
 
 /* Border radius */
-$border-radius: 0.25em !default;
+$border-radius: 0.25em;
 
 /* Forms */
 $form-background: mix(#fff, $border-color, 50%);
@@ -91,20 +91,21 @@ $form-font-family: $base-font-family;
 $form-font-size: $base-font-size;
 
 /* Global transition */
-$global-transition: all 0.4s ease !default;
+$global-transition: all 0.4s ease;
 
 /* Navicon */
-$navicon-width: 1.75em !default;
-$navicon-height: 0.25em !default;
-$navicon-duration: 0.5s !default;
-$navicon-toggled-size: 1 !default;
-$navicon-nav-bg-close: transparent !default;
-$navicon-nav-bg-open: transparent !default;
-$navicon-content-bg: $text-color !default;
+$navicon-width: 1.75em;
+$navicon-height: 0.25em;
+$navicon-duration: 0.5s;
+$navicon-toggled-size: 1;
+$navicon-nav-bg-close: #fff;
+$navicon-nav-bg-open: #fff;
+$navicon-content-bg: $text-color;
+$navicon-focus-color: rgba($text-color, 0.25);
 
 /* Site image */
-$site-image-width: 50px !default;
-$site-image-height: 50px !default;
+$site-image-width: 50px;
+$site-image-height: 50px;
 
 /* Susy grid settings */
-$susy: (columns: 16, gutters: 0, math: fluid, output: float) !default;
+$susy: (columns: 16, gutters: 0, math: fluid, output: float);
