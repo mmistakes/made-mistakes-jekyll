@@ -1,8 +1,7 @@
 ---
 title: "Have you ever thought about writing a Mastering Paper book?"
 type: paper
-date: 2014-12-07
-last_modified_at: 
+last_modified_at: 2014-12-07
 order: 8
 ---
 
