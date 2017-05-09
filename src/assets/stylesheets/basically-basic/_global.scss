@@ -31,8 +31,14 @@
 }
 
 .site-logo {
+  display: inline-block;
+  position: relative;
+  top: -0.05em; /* fine-tune alignment */
   width: $site-image-width;
   height: $site-image-height;
   margin-right: 0.5rem;
+  line-height: 1;
+  vertical-align: middle;
+  fill: currentColor;
   border-radius: 50%;
 }
