@@ -26,6 +26,12 @@
     margin-right: 5vw;
   }
 
+  &:focus {
+    border-color: $navicon-focus-color;
+    outline: none;
+    box-shadow: 0 0 10px $navicon-focus-color;
+  }
+
   &.open {
     background-color: $navicon-nav-bg-open;
   }
