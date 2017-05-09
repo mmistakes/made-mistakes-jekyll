@@ -192,6 +192,8 @@
   </script>
   <noscript><link rel="stylesheet" href="{{ style_css }}"></noscript>
 
+  {% include favicons.html %}
+
   {% if site.gems contains 'jekyll-feed' %}
     {% comment %}
       Add Atom feed link if jekyll-feed plugin is enabled
