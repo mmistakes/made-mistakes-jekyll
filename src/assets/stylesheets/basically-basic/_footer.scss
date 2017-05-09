@@ -27,7 +27,6 @@
         display: block;
         padding-right: 2em;
         padding-bottom: 1em;
-        font-weight: 700;
 
         @include breakpoint($large) {
           padding-bottom: 0.5em;

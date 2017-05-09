@@ -5,6 +5,14 @@
 .menu {
   @include list-unstyled;
 
+  font-weight: 700;
+
+  &--title {
+    font-family: $monospace-font-family;
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
   a {
     color: inherit;
     text-decoration: none;
