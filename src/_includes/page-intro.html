@@ -2,8 +2,8 @@
 {% assign tag = site.data.taxonomy[taxonomy] %}
 
 <header class="intro">
-  {% if page.image %}
-    {% assign intro_image = page.image.path | default: page.image %}
+  {% if page.image.feature or page.image.path %}
+    {% assign intro_image = page.image.feature | default: page.image.path %}
     {% unless intro_image contains '://' %}
       {% assign intro_image = intro_image | relative_url %}
     {% endunless %}
