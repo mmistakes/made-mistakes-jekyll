@@ -219,6 +219,11 @@
   {% if site.webmention_url %}
     <link rel="webmention" href="{{ site.webmention_url }}">
   {% endif %}
+
+  {% if site.gems contains 'jekyll-sitemap' %}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ 'sitemap.xml' | relative_url }}">
+  {% endif %}
+
   {% if site.gems contains 'jekyll-feed' %}
     {% comment %}
       Add Atom feed link if jekyll-feed plugin is enabled
