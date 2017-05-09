@@ -112,7 +112,7 @@ a {
 }
 
 *:focus {
-  border-color: $accent-color;
+  border-color: rgba($accent-color, 0.5);
   outline: none;
-  box-shadow: 0 0 10px $accent-color;
+  box-shadow: 0 0 10px rgba($accent-color, 0.5);
 }
