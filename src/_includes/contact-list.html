@@ -1,25 +1,25 @@
 <ul class="contact-list">
-  {% if site.github.username %}
+  {% if site.author.github %}
     <li>
-      <a href="https://github.com/{{ site.github_username }}">
+      <a href="https://github.com/{{ site.author.github }}">
         <svg class="icon icon--github" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-github' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
         <span class="label">GitHub</span>
       </a>
     </li>
   {% endif %}
 
-  {% if site.twitter.username %}
+  {% if site.author.twitter %}
     <li>
-      <a href="https://twitter.com/{{ site.twitter_username }}">
+      <a href="https://twitter.com/{{ site.author.twitter }}">
         <svg class="icon icon--twitter" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-twitter' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
         <span class="label">Twitter</span>
       </a>
     </li>
   {% endif %}
 
-  {% if site.instagram.username %}
+  {% if site.author.instagram %}
     <li>
-      <a href="https://instagram.com/{{ site.instagram_username }}">
+      <a href="https://instagram.com/{{ site.author.instagram }}">
         <svg class="icon icon--instagram" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-instagram' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
         <span class="label">Instagram</span>
       </a>
