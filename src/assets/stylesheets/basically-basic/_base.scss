@@ -98,6 +98,15 @@ pre {
   @include fluid-type($min-vw, $max-vw, 12px, 14px);
 }
 
+figure {
+  margin-left: 0;
+  margin-right: 0;
+
+  > img {
+    width: 100%;
+  }
+}
+
 figcaption {
   margin: 0.5rem 0;
   font-size: 80%;

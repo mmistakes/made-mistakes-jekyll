@@ -38,7 +38,7 @@ The Pogo Connect comes with a name brand AAA battery to get you up and running r
 
 ## Pogo Connect Smart Pen Options
 
-<figure class="image-right">
+<figure class="align-right">
   <img src="{{ site.url }}/assets/images/paper-53-pogo-connect-settings.jpg" alt="Paper by 53 settings palette" width="250" height="392">
   <figcaption>Pogo Connect dedicated settings in Paper by 53.</figcaption>
 </figure>

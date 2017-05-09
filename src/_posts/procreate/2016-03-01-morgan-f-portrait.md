@@ -12,7 +12,7 @@ tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 
 Portrait of Morgan F. inspired by a [photograph on Sktchy](http://sktchy.com/rK7LX). Digitally painted with Procreate on an iPad Air 2.
 
-![Procreate glazing brush]({{ site.url }}/assets/images/procreate-glazing-brush.jpg){: .image-right}
+![Procreate glazing brush]({{ site.url }}/assets/images/procreate-glazing-brush.jpg){: .align-right}
 
 Going back to my friend the **round brush** in Procreate has been fun. I've experimented with textured brushes recently, but haven't been completely happy with the results compared to the default round brush.
 

@@ -138,7 +138,7 @@ As I've started to work with the picker more I'm beginning to see value in inclu
 
 Aside from the new picker, the Mixer received some love by now including numeric values on each of the 3 sliders. These numbers map perfectly to HSB[^hsb] values which makes communicating the exact makeup of a color others that much easier.
 
-<figure class="image-right">
+<figure class="align-right">
   <img src="{{ site.url }}/assets/images/photoshop-hsb.jpg" alt="screenshot showing the HSB picker in Adobe Photoshop">
 </figure>
 

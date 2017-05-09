@@ -15,7 +15,7 @@ This *technology thing* has been both a blessing and a curse as my wife and I tr
 
 Shortly after our twin girls were born 19 months ago: moments were captured, milestones shared, feedings and diaper changes --- coordinated all from app enabled mobile phones. This is how technology saved us.
 
-<figure class="image-right">
+<figure class="align-right">
 	<img src="{{ site.url }}/assets/images/trotro.gif" alt="Oh Trotro, oh Trotro">
 </figure>
 

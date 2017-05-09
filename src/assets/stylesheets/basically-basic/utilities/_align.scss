@@ -34,6 +34,54 @@ figure.align-center {
   }
 }
 
+figure {
+  &.half,
+  &.third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    > a,
+    > img {
+      display: block;
+    }
+  }
+
+  &.half {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        flex-basis: 49%;
+        max-width: 49%;
+        height: 0%;
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  &.third {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        flex-basis: 32%;
+        max-width: 32%;
+        height: 0%;
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  .emoji {
+    margin-bottom: 0;
+  }
+}
+
 .align-right,
 a img.align-right {
   margin-bottom: 1rem;
