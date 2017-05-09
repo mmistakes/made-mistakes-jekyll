@@ -14,10 +14,10 @@
   <h3 class="comment-author-name">
     {% unless include.url == blank %}
       <a rel="external nofollow" href="{{ include.url }}">
-        {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> {% endif %}{{ include.name }}
+        {% if include.name == site.author.name %}<svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> {% endif %}{{ include.name }}
       </a>
     {% else %}
-      {% if include.name == site.author.name %}<svg class="icon" width="20px" height="20px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> {% endif %}{{ include.name }}
+      {% if include.name == site.author.name %}<svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> {% endif %}{{ include.name }}
     {% endunless %}
   </h3>
   <div class="comment-timestamp">
@@ -32,7 +32,7 @@
   </div>
   {% unless include.replying_to != 0 or page.comments_locked == true %}
     <div class="comment-reply">
-      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"><svg class="icon icon--reply" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-reply' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> Reply to {{ include.name }}</a>
+      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"><svg class="icon icon--reply" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-reply' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Reply to {{ include.name }}</a>
     </div>
   {% endunless %}
 </article>
