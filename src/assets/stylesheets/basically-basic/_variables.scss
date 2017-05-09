@@ -74,7 +74,7 @@ $main-max-width: $xlarge;
 $sidebar-width: $small;
 
 /* Background color of the sidebar */
-$sidebar-background-color: mix($text-color, #fff, 5%);
+$sidebar-background-color: $base-color;
 
 /* Border radius */
 $border-radius: 0.25em;

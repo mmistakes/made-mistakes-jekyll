@@ -28,7 +28,7 @@
     /* line hover effect */
     a {
       position: relative;
-      color: $base-color;
+      color: mix($base-color, #fff, 40%);
 
       &::before {
         display: block;
@@ -38,12 +38,12 @@
         width: 0;
         height: 1px;
         transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
-        background-color: $base-color;
+        background-color: #fff;
         content: '';
       }
 
       &:hover {
-        color: $accent-color;
+        color: #fff;
       }
 
       &:hover::before {
@@ -66,7 +66,7 @@
   }
 
   .menu {
-    @include fluid-type($min-vw, $max-vw, 24px, 48px);
+    @include fluid-type($min-vw, $max-vw, 20px, 32px);
     position: relative;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
@@ -83,7 +83,7 @@
       bottom: 0;
       width: 1.5em;
       height: 1px;
-      background-color: $base-color;
+      background-color: mix($base-color, #fff, 40%);
       content: '';
     }
 
@@ -93,7 +93,7 @@
   }
 
   .contact-list {
-    @include fluid-type($min-vw, $max-vw, 18px, 24px);
+    @include fluid-type($min-vw, $max-vw, 16px, 20px);
     margin-top: 0.5rem;
     padding-top: 0.5rem;
 
@@ -103,7 +103,7 @@
 
     a {
       display: block;
-      color: $base-color;
+      color: mix($base-color, #fff, 40%);
       text-decoration: none;
     }
   }
