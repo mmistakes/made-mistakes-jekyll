@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About Michael&#160;Rose"
-last_modified_at: 2016-10-14T10:04:57-04:00
+last_modified_at: 2017-05-09T14:34:24-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   path: &image /assets/images/about-michael-collage-2016.jpg
@@ -51,7 +51,7 @@ In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash spl
 
 I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
-## How to Support Made Mistakes
+### How to Support Made Mistakes
 
 I write tutorials and maintain a few open source projects for fun. If you've found any of them useful and want to thank me, here's a few ways you can.
 
@@ -61,12 +61,12 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 [^affiliate]: Anything I link to on Amazon may be done with [affiliate URLs]({{ site.url }}/terms/).
 
-## Selected Interviews
+### Selected Interviews
 
 * [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
 * [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
 
-## Honorable Mentions
+### Honorable Mentions
 
 * [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 * [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
