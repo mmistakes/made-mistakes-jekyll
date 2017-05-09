@@ -13,6 +13,8 @@
     </div>
   {% endif %}
 
+  {% include breadcrumbs.html %}
+
   <div class="inner">
     <div class="intro-text">
       <h1 class="intro-title">{{ page.alt_title | default: page.autopage.display_name | default: page.title | default: site.title | markdownify | strip_html }}</h1>

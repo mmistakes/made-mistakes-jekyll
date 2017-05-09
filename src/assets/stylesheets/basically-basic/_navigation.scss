@@ -64,3 +64,46 @@
     }
   }
 }
+
+/*
+   Breadcrumbs
+   ========================================================================== */
+
+.breadcrumbs {
+  @include list-unstyled();
+
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+
+  @include breakpoint($small) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @include breakpoint($medium) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  @include breakpoint($large) {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  @include breakpoint($xlarge) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  margin-bottom: 1.5rem;
+  font-family: $monospace-font-family;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
