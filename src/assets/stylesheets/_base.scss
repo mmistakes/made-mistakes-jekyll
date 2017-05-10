@@ -118,6 +118,10 @@ a {
   &:hover {
     color: shade($accent-color, 25%);
   }
+
+  &:visited {
+    color: tint($accent-color, 50%);
+  }
 }
 
 *:focus {

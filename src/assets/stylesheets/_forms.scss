@@ -1,12 +1,6 @@
 /* ==========================================================================
-   FORMS
+   Forms
    ========================================================================== */
-
-fieldset {
-  margin-bottom: 0.5em;
-  padding: 0;
-  border-width: 0;
-}
 
 input,
 label,
@@ -96,6 +90,10 @@ form {
     padding-left: 0;
     list-style-type: none;
   }
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
 }
 
 /* required */
