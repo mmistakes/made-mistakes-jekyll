@@ -125,3 +125,12 @@ a {
   outline: none;
   box-shadow: 0 0 10px rgba($accent-color, 0.5);
 }
+
+img {
+
+  /* lazysizes plugin */
+  &[data-sizes="auto"] {
+    display: block;
+    width: 100%;
+  }
+}

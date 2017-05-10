@@ -2,14 +2,20 @@
 {% assign tag = site.data.taxonomy[taxonomy] %}
 
 <header class="intro">
-  {% if page.image.feature or page.image.path %}
-    {% assign intro_image = page.image.feature | default: page.image.path %}
-    {% unless intro_image contains '://' %}
-      {% assign intro_image = intro_image | relative_url %}
-    {% endunless %}
-    {% assign intro_image = intro_image | escape %}
+  {% assign feature_image = page.image.feature | default: page.image.path %}
+  {% if feature_image %}
     <div class="intro-image">
-      <img src="{{ intro_image }}" alt="{{ page.title }}">
+      {% assign f = feature_image | split: '.' %}
+        <noscript><img src="{{ site.url }}{{ f[0] }}-320.{{ f[1] }}"></noscript>
+        <img data-sizes="auto"
+             src="{{ site.url }}{{ f[0] }}-lq.{{ f[1] }}"
+             data-srcset="{{ site.url }}{{ f[0] }}-lq.{{ f[1] }} 20w,
+                          {{ site.url }}{{ f[0] }}-320.{{ f[1] }} 320w,
+                          {{ site.url }}{{ f[0] }}-768.{{ f[1] }} 768w,
+                          {{ site.url }}{{ f[0] }}-1024.{{ f[1] }} 1024w,
+                          {{ site.url }}{{ f[0] }}.{{ f[1] }} 1920w"
+             alt="{{ page.title }}"
+             class="lazyload blur-up">
       {% if page.image.caption %}{% include image-caption.html %}{% endif %}
     </div>
   {% endif %}
