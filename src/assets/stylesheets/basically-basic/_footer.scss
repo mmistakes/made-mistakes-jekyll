@@ -11,6 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-flow: row wrap;
+    font-size: 1.25em;
 
     li {
       flex-basis: 50%;
@@ -30,6 +31,10 @@
 
         @include breakpoint($large) {
           padding-bottom: 0.5em;
+        }
+
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
