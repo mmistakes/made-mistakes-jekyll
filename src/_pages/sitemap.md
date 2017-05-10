@@ -5,7 +5,7 @@ title: "Sitemap"
 excerpt: "An index of all the pages found on mademistakes.com"
 ---
 
-A hierarchical breakdown of all the sections and pages found on the site. For you robots out there, here is an [XML version]({{ site.url }}/sitemap.xml) available for crawling.
+A hierarchical breakdown of all the sections and pages found on the site. For you robots out there, here is an [XML version]({{ site.url }}/sitemap.xml) available for your crawling pleasure.
 
 <h2>Pages</h2>
 <ul>
