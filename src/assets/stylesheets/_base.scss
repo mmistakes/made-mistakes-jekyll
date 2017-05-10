@@ -134,3 +134,10 @@ img {
     width: 100%;
   }
 }
+
+li {
+
+  > img {
+    margin: 1rem 0;
+  }
+}
