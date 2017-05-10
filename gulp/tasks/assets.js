@@ -74,8 +74,16 @@ gulp.task('styles', () => {
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))
-    // add vendor prefixes
-    .pipe(postcss([autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})]))
+    .pipe(postcss([
+      // add vendor prefixes
+      autoprefixer({
+        browsers: [
+          'last 2 versions',
+          '> 5%',
+          'IE 9'
+        ]
+      })
+    ]))
     // minify for production
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
     .pipe(size({showFiles: true}))
@@ -110,7 +118,7 @@ gulp.task('icons', () => {
   return gulp.src(paths.iconFiles + '/*.svg')
     .pipe(svgmin())
     .pipe(rename({prefix: 'icon-'}))
-    .pipe(svgstore({ fileName: 'icons.svg', inlineSvg: true}))
+    .pipe(svgstore({fileName: 'icons.svg', inlineSvg: true}))
     .pipe(cheerio({
       run: function ($, file) {
         $('svg').attr('style', 'display:none');
