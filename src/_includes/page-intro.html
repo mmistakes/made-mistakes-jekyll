@@ -10,6 +10,7 @@
     {% assign intro_image = intro_image | escape %}
     <div class="intro-image">
       <img src="{{ intro_image }}" alt="{{ page.title }}">
+      {% if page.image.caption %}{% include image-caption.html %}{% endif %}
     </div>
   {% endif %}
 

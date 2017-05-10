@@ -42,3 +42,21 @@
   fill: currentColor;
   border-radius: 50%;
 }
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+  color: #fff;
+  opacity: 0.9;
+  font-size: 0.6em;
+  text-align: right;
+  line-height: 1;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
