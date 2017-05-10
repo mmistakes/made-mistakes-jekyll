@@ -2,7 +2,11 @@
 layout: default
 ---
 
-{% include page-intro.html %}
+{% if page.section %}
+  <div class="sections">
+    {% include section.html %}
+  </div>
+{% endif %}
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">

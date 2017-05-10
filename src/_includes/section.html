@@ -1,0 +1,22 @@
+{% for section in page.section %}
+  <div class="section {{ section.class }}">
+    <div class="inner">
+      <div class="section-text">
+        <h2 class="section-title">{{ section.title }}</h2>
+        {% if section.introduction %}
+          <div class="section-more">
+            {{ section.introduction | markdownify }}
+          </div>
+        {% endif %}
+
+        {% if section.actions %}
+          <ul class="section-actions">
+            {% for action in section.actions %}
+              <li><a href="{{ action.url }}" class="btn">{{ action.label }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
