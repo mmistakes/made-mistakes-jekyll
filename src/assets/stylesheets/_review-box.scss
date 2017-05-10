@@ -17,13 +17,11 @@
 h5.review__title {
   margin: 0;
   color: #fff;
-  font-family: $sans-serif;
   font-size: 1.563rem;
   font-weight: bold;
 }
 
 .review__title-summary {
-  font-family: $sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -39,7 +37,6 @@ h5.review__title {
     justify-content: space-between;
     border-bottom: 1px solid #fff;
     padding: 10px 0;
-    font-family: $sans-serif;
     font-weight: bold;
     list-style: none;
   }

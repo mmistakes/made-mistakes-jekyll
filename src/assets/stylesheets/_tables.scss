@@ -1,16 +1,20 @@
 /* ==========================================================================
-   TABLES
+   Tables
    ========================================================================== */
 
 table {
+  @include fluid-type($min-vw, $max-vw, 12px, 18px);
   width: 100%;
-  font-family: $sans-serif;
-  font-size: 0.8rem;
   border-collapse: collapse;
+  /* For Firefox to horizontally scroll wider tables */
+  // scss-lint:disable DuplicateProperty
+  word-break: normal;
+  word-break: keep-all;
 }
 
-thead {
-  border-bottom: 2px solid $table-border-color;
+th,
+td {
+  border-bottom: 1px solid $border-color;
 }
 
 th {
@@ -23,13 +27,8 @@ td {
   padding: 0.5em;
 }
 
-tr {
-
-  &:not(:last-child) {
-    border-bottom: 1px solid $table-border-color;
-  }
-}
-
-tr, td, th {
+tr,
+td,
+th {
   vertical-align: middle;
 }

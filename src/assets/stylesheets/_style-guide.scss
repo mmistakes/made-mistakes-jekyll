@@ -4,7 +4,7 @@
 
 .component {
   margin-bottom: 1em;
-  background-color: $white;
+  background-color: #fff;
   padding: 1em;
   border-radius: $border-radius;
   border: 1px solid $border-color;
@@ -24,7 +24,6 @@
 
   p {
     margin-top: 0;
-    font-family: $sans-serif;
     font-size: 0.8rem;
 
     a {
@@ -59,7 +58,6 @@
     content: "HTML";
     position: absolute;
     top: 1.5em;
-    font-family: $sans-serif;
     font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -89,7 +87,7 @@
   white-space: nowrap;
   margin: 0 2px;
   padding: 0 5px;
-  background-color: $inline-code-background;
+  background-color: #e3e3e3;
   white-space: normal;
 }
 
@@ -98,23 +96,25 @@
    ========================================================================== */
 
 $color:
-(white-bg, $white),
-(black-bg, $black),
-(gray-bg, $gray),
-(background, $background-color),
-(text, $text-color),
-(headline, $headline-color),
-(highlighter, $highlighter-color),
-(primary, $primary-color),
-(success, $success-color),
-(warning, $warning-color),
-(danger, $danger-color),
-(info, $info-color),
-(border, $border-color),
-(link, $link-color),
-(link--hover, $link-color-hover),
-(facebook, $facebook-color),
-(twitter, $twitter-color);
+  (white-bg, #fff),
+  (black-bg, #000),
+  (background, $background-color),
+  (text, $text-color),
+  (accent, $accent-color),
+  (primary, $primary-color),
+  (success, $success-color),
+  (warning, $warning-color),
+  (danger, $danger-color),
+  (info, $info-color),
+  (border, $border-color),
+  (facebook, $facebook-color),
+  (flickr, $flickr-color),
+  (github, $github-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-color),
+  (rss, $rss-color),
+  (twitter, $twitter-color),
+  (youtube, $youtube-color);
 
 @each $name, $bgcolor in $color {
 

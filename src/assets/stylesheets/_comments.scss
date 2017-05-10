@@ -12,28 +12,28 @@
   &.child {
     margin-left: 4.5em;
 
-    &:before,
-    &:after {
-      position: absolute;
-      left: 1.5em;
-      content: '';
-      width: 0.5em;
-      background-color: #e3e3e3;
-    }
+    // &:before,
+    // &:after {
+    //   position: absolute;
+    //   left: 1.5em;
+    //   content: '';
+    //   width: 0.5em;
+    //   background-color: #e3e3e3;
+    // }
 
-    &:before {
-      top: -3em;
-      height: 2em;
-    }
+    // &:before {
+    //   top: -3em;
+    //   height: 2em;
+    // }
 
-    &:after {
-      top: 4em;
-      bottom: -1em;
-    }
+    // &:after {
+    //   top: 4em;
+    //   bottom: -1em;
+    // }
   }
 }
 
-.comment__timestamp {
+.comment-timestamp {
   font-size: 0.8em;
 
   a {
@@ -42,7 +42,8 @@
   }
 }
 
-.comment__content {
+.comment-content {
+  margin-top: 1em;
 
   > p, > ul, > ol, > figure, > table {
     margin-bottom: 1.5em;
@@ -70,7 +71,7 @@
   }
 }
 
-.comment__avatar {
+.comment-avatar {
   position: absolute;
   top: 0;
   left: 0;
@@ -90,7 +91,7 @@
   }
 }
 
-.comment__author-name {
+.comment-author-name {
   margin: 0 0 0.25em 0;
   font-size: 1.25em;
   line-height: 1;
@@ -101,10 +102,14 @@
   }
 }
 
-.comment__reply {
+.comment-reply {
 
-  .btn {
-    font-size: 0.64em;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline
+    }
   }
 }
 

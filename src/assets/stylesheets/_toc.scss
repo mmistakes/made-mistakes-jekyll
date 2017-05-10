@@ -4,7 +4,7 @@
 
 .toc {
   margin: 2em 0 1.5em 0;
-  font-family: $monospace;
+  font-family: $monospace-font-family;
 
   input[type="checkbox"] {
     display: none;
@@ -18,7 +18,7 @@
     line-height: 1;
     border: 0.125em solid #ccc;
     border-radius: $border-radius;
-    z-index: 20;
+    z-index: 6;
     transition: 0.2s ease-out;
     cursor: pointer;
 
@@ -85,6 +85,7 @@
   }
 
   > li {
+    padding-top: 1em;
     counter-increment: section;
     font-weight: 700;
 
@@ -93,11 +94,12 @@
     }
 
     &:not(:last-child) {
-      padding-bottom: 0.5em;
+      padding-bottom: 1em;
       border-bottom: 1px solid #ccc;
     }
 
     > ul {
+      padding-top: 1em;
       padding-left: 1em;
     }
   }
@@ -123,7 +125,7 @@
   font-size: 0.8em;
   opacity: 0;
   overflow: hidden;
-  z-index: 10;
+  z-index: 5;
   transition: 0.3s ease-in-out;
   transform: translate(0, 10%);
 }

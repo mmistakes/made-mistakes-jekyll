@@ -16,7 +16,7 @@ select {
 
 label {
   margin-bottom: 0.5em;
-  font-family: $monospace;
+  font-family: $monospace-font-family;
   font-size: 0.8em;
 
   &.required:after {
@@ -38,7 +38,7 @@ select[multiple=multiple] {
   width: 100%;
   font-family: $form-font-family;
   font-size: $form-font-size;
-  background-color: $white;
+  background-color: #fff;
   border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
   box-shadow: $form-box-shadow;

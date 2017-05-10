@@ -1,137 +1,113 @@
 /* ==========================================================================
-   SCSS VARIABLES
+   Variables
    ========================================================================== */
 
-/*
-   Typography related variables
-   ========================================================================== */
+/* Breakpoint widths */
+$small: 320px;
+$medium: 768px;
+$large: 1024px;
+$xlarge: 1280px;
 
-$serif                        : "PT Serif", serif;
-$sans-serif                   : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-$monospace                    : Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
+/* Fluid type */
+$base-font-size: 16px;
+$min-vw: $small;
+$max-vw: $xlarge;
+$min-font-size: 14px;
+$max-font-size: 18px;
 
-$doc-font-size                : 16;
-$doc-line-height              : 24;
+/* Calculate Modular Scale */
+$modular-scale-1: 1.067; /* small */
+$modular-scale-2: 1.296; /* large */
+/* Heading 1 */
+$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size;
+$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size;
+/* Heading 2 */
+$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size;
+$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size;
+/* Heading 3 */
+$h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size;
+$h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size;
+/* Heading 4 */
+$h4-min: $modular-scale-1 * $base-font-size;
+$h4-max: $modular-scale-2 * $base-font-size;
+/* Heading 5 */
+$h5-min: $base-font-size;
+$h5-max: $base-font-size;
+/* Heading 6 */
+$h6-min: ($base-font-size / $modular-scale-1);
+$h6-max: ($base-font-size / $modular-scale-2);
 
-$border-radius                : 4px;
+/* Base font family */
+$base-font-family: "Fira Sans", sans-serif;
+/* Other font families */
+$headline-font-family: $base-font-family;
+$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
 
-/*
-   Color variables
-   ========================================================================== */
+/* Colors */
+$base-color: #393e46;
+$text-color: #222831;
+$accent-color: #00848a;
+$background-color: #fff;
+$code-background-color: tint($base-color, 95%);
+$border-color: tint($base-color, 80%);
+$overlay-color: $base-color;
+$section-bg-color: mix($base-color, #fff, 10%);
+$section-dark-bg-color: mix(#000, $base-color, 50%);
 
-$white                        : #fff;
-$black                        : #000;
+$primary-color: #00848a;
+$success-color: #40c057;
+$warning-color: #fcc419;
+$danger-color: #f03e3e;
+$info-color: #1c7cd6;
 
-$gray                         : #4c4c4c;
-$dark-gray                    : #191413;
-$light-gray                   : #e2e2e2;
-$lighter-gray                 : #f9f9f9;
+$facebook-color: #3b5998;
+$flickr-color: #0063dc;
+$github-color: #181717;
+$google-plus-color: #dc4e41;
+$instagram-color: #e4405f;
+$rss-color: #ffa500;
+$twitter-color: #1da1f2;
+$youtube-color: #cd201f;
 
-$text-color                   : $gray;
-$headline-color               : $gray;
+/* Max-width of the main content */
+$main-max-width: $xlarge;
 
-$background-color             : $lighter-gray;
-$splash-background-color      : $black;
+/* Width of the sidebar */
+$sidebar-width: $small;
 
-$highlighter-color            : #ffd43b;
+/* Background color of the sidebar */
+$sidebar-background-color: $base-color;
 
-$primary-color                : mix($black, $gray, 35%);
-$success-color                : mix($gray, #40c057, 15%);
-$warning-color                : mix($gray, #fcc419, 15%);
-$danger-color                 : mix($gray, #f03e3e, 15%);
-$info-color                   : mix($gray, #1c7cd6, 15%);
+/* Border radius */
+$border-radius: 0.25em;
 
-$border-color                 : mix($white, $gray, 80%);
+/* Forms */
+$form-background: mix(#fff, $border-color, 50%);
+$form-border-color: $border-color;
+$form-border-color-hover: mix(#000, $border-color, 10%);
+$form-border-color-focus: $base-color;
+$form-border-radius: $border-radius;
+$form-box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(mix(#000, $form-border-color-focus, 10%), 0.7);
+$form-font-family: $base-font-family;
+$form-font-size: $base-font-size;
 
-$link-color                   : $info-color;
-$link-underline-color         : #a9a9a9;
-$link-color-hover             : mix($gray, #1862ab, 15%);
-$link-color-visited           : mix($gray, #91a7ff, 35%);
+/* Global transition */
+$global-transition: all 0.4s ease;
 
-$table-border-color           : $border-color;
-$table-border                 : 1px solid $table-border-color;
-$table-background             : $white;
-$table-header-color           : $white;
-$table-hover-color            : mix($gray, $table-background, 10%);
-$table-stripe-color           : mix($gray, $table-background, 10%);
-$table-stripe-color-hover     : mix($gray, $table-background, 10%);
+/* Navicon */
+$navicon-width: 1.75em;
+$navicon-height: 0.25em;
+$navicon-duration: 0.5s;
+$navicon-toggled-size: 1;
+$navicon-nav-bg-close: #fff;
+$navicon-nav-bg-open: #fff;
+$navicon-content-bg: $text-color;
+$navicon-focus-color: rgba($text-color, 0.25);
 
-$badge-background             : $primary-color;
-$badge-dark-color             : $black;
-$badge-danger-color           : $danger-color;
-$badge-info-color             : $info-color;
-$badge-warning-color          : $warning-color;
-$badge-success-color          : $success-color;
-$badge-font-color             : $white;
+/* Site image */
+$site-image-width: 50px;
+$site-image-height: 50px;
 
-$facebook-color               : #3b5998;
-$flickr-color                 : #ff0084;
-$foursquare-color             : #0cbadf;
-$google-plus-color            : #dd4b39;
-$instagram-color              : #4e433c;
-$linkedin-color               : #4875b4;
-$pinterest-color              : #cb2027;
-$rss-color                    : #fa9b39;
-$tumblr-color                 : #2c4762;
-$twitter-color                : #55acee;
-$vimeo-color                  : #1ab7ea;
-$youtube-color                : #ff3333;
-$github-color                 : #333333;
-$youtube-color                : #cd201f;
-
-/*
-   Form variables
-   ========================================================================== */
-
-$form-background              : mix($white, $border-color, 50%);
-$form-border-color            : $border-color;
-$form-border-color-hover      : mix($black, $border-color, 10%);
-$form-border-color-focus      : $primary-color;
-$form-border-radius           : $border-radius;
-$form-box-shadow              : inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$form-box-shadow-focus        : $form-box-shadow, 0 0 5px rgba(mix($black, $form-border-color-focus, 10%), 0.7);
-$form-font-family             : $sans-serif;
-$form-font-size               : $doc-font-size + 0px;
-
-/*
-   Code snippet variables
-   ========================================================================== */
-
-$code-background              : mix($white, $border-color, 75%);
-$inline-code-background       : mix($white, $border-color, 75%);
-
-/*
-   Screen sizes
-   ========================================================================== */
-
-$small                        : 600px;
-$medium                       : 768px;
-$medium-wide                  : 900px;
-$large                        : 1024px;
-$x-large                      : 1440px;
-
-/*
-   Visual sitemap
-   ========================================================================== */
-
-$sitemap-primary-color        : mix($white, $primary-color, 60%);
-$sitemap-sub-color            : mix($white, $primary-color, 80%);
-$sitemap-sub-sub-color        : mix($white, $primary-color, 90%);
-
-/*
-   Bigfoot.js
-   ========================================================================== */
-
-$button-color                 : $gray;
-$button-hovered-color         : $button-color;
-$button-activating-color      : $button-color;
-$button-active-color          : $button-color;
-$button-standard-opacity      : 0.2;
-$button-hovered-opacity       : 0.5;
-$button-active-opacity        : 1;
-
-/*
-   Animation
-   ========================================================================== */
-
-$global-transition            : all 0.3s ease-in-out;
+/* Susy grid settings */
+$susy: (columns: 16, gutters: 0, math: fluid, output: float);
