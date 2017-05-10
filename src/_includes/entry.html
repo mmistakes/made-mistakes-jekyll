@@ -28,7 +28,7 @@
   <footer class="entry-meta">
     <ul>
       {% if post.work %}
-        <li><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>&nbsp;{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <li><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>&nbsp;{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</li>
       {% endif %}
       {% if post.date %}
         <li><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | relative_url }}"></use></svg><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
