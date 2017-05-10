@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About Michael&#160;Rose"
+title: "About Michael Rose"
 last_modified_at: 2017-05-09T14:34:24-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
@@ -12,8 +12,6 @@ share: false
 ---
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/paperfaces/) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
-
-{% include toc.html %}
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes]({{ site.url }}/work/jekyll-themes/), or [building web stuff](http://ekowave.com), I work as an web designer and content administrator for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
 
@@ -63,12 +61,12 @@ I write tutorials and maintain a few open source projects for fun. If you've fou
 
 ### Selected Interviews
 
-* [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
-* [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
+- [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
+- [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
 
 ### Honorable Mentions
 
-* [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
-* [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
+- [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
+- [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
 
 *[CMS]: Content Management System
