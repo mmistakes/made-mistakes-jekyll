@@ -121,6 +121,7 @@ hr {
   height: 0; /* 1 */
   overflow: visible; /* 2 */
   box-sizing: content-box; /* 1 */
+  border: 1px solid $border-color;
 }
 
 /**
