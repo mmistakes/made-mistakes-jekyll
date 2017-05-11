@@ -32,7 +32,7 @@ google_analytics         : "UA-2011187-1"
 feed:
   path: "http://feeds.feedburner.com/MadeMistakes"
 
-favicon_version         : "RyowzAOe9M"
+favicon_version         : "5A54z5oklP"
 
 pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
 webmention_url          : "https://webmention.io/mademistakes.com/webmention"
