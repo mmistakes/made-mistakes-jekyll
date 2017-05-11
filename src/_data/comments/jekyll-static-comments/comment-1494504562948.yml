@@ -1,0 +1,9 @@
+_id: ab143860-3642-11e7-8856-9b031097afe5
+_parent: 'https://mademistakes.com/articles/jekyll-static-comments/'
+message: "You can do something like what I've done wrapping the comment form with a Liquid conditional:\r\n\r\n```html\r\n{% unless page.comments_locked == true %}\r\n  <!-- comment form here -->\r\n{% else %}\r\n  <p><em>Comments are closed.</em></p>\r\n{% endunless %}\r\n```\r\n\r\nThen I add `comments_locked: true` to a post's YAML Front Matter that I want to disable adding new comments to. You can see an example of [how that looks here](https://mademistakes.com/articles/ipad-pro/#comments)."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '11'
+hidden: ''
+date: '2017-05-11T12:09:22.946Z'
