@@ -120,3 +120,38 @@
     }
   }
 }
+
+/*
+   Popular List
+   ========================================================================== */
+
+.popular-list {
+  display: none;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+
+  @include breakpoint($small) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @include breakpoint($medium) {
+    order: initial;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  @include breakpoint($large) {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  @include breakpoint($xlarge) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  a:hover {
+    color: $primary-color;
+  }
+}

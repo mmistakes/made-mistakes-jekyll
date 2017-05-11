@@ -74,3 +74,13 @@ main {
     }
   }
 }
+
+.layout--archive {
+
+  main {
+
+    @include breakpoint($medium) {
+      display: flex;
+    }
+  }
+}
