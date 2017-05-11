@@ -36,6 +36,9 @@
             <span class="byline-item">{{ author_name | prepend: 'by ' }}</span>
           {% endif %}
           <span class="byline-item"><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | relative_url }}"></use></svg><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+          {% if page.work %}
+            <span class="byline-item"><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>&nbsp;{{ page.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+          {% endif %}
           {% if page.read_time %}
             <span class="byline-item"><svg class="icon icon--stopwatch" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-stopwatch' | prepend: 'assets/icons/' | relative_url }}"></use></svg>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</span>
           {% endif %}
