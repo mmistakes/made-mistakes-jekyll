@@ -13,11 +13,9 @@
   </div>
   <h3 class="comment-author-name">
     {% unless include.url == blank %}
-      <a rel="external nofollow" href="{{ include.url }}">
-        {% if include.name == site.author.name %}<svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> {% endif %}{{ include.name }}
-      </a>
+      <a rel="external nofollow" href="{{ include.url }}">{{ include.name }}</a>
     {% else %}
-      {% if include.name == site.author.name %}<svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> {% endif %}{{ include.name }}
+      {{ include.name }}
     {% endunless %}
   </h3>
   <div class="comment-timestamp">
