@@ -175,7 +175,7 @@ defaults:
       path: _posts/til
       type: posts
     values:
-      layout: page
+      layout: post
       category: til
       read_time: true
       comments: true
