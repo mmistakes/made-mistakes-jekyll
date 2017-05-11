@@ -4,9 +4,10 @@
 
 .review__wrapper{
   position: relative;
+  margin-bottom: 1.5rem;
   padding: 20px;
-  background-color: #000;
   border-radius: $border-radius;
+  background-color: #000;
   color: #fff;
 
   a {
@@ -32,11 +33,11 @@ h5.review__title {
   list-style: none;
 
   li {
-    margin: 0;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #fff;
+    margin: 0;
     padding: 10px 0;
+    border-bottom: 1px solid #fff;
     font-weight: bold;
     list-style: none;
   }

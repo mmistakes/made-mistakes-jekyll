@@ -10,9 +10,9 @@
   background-color: $accent-color;
   color: #fff;
   font-weight: bold;
+  line-height: 1.5;
   text-align: center;
   text-decoration: none;
-  line-height: 1.5;
   cursor: pointer;
 
   &:hover {
@@ -48,13 +48,13 @@
 
   /* for dark backgrounds */
   &--inverse {
-    color: #000 !important;
-    background-color: #fff;
     outline: 0.125em solid #000;
+    background-color: #fff;
+    color: #000 !important;
 
     &:hover {
-      background-color: mix(#000, #fff, 10%);
       outline: 0.125em solid #000;
+      background-color: mix(#000, #fff, 10%);
     }
   }
 
@@ -103,17 +103,13 @@
   /* disabled */
   &--disabled {
     pointer-events: none;
-    cursor: not-allowed;
-    filter: alpha(opacity=65);
-    -webkit-box-shadow: none;
     box-shadow: none;
+    cursor: not-allowed;
     opacity: 0.65;
   }
 
   /* social buttons */
-  $social:
-  (facebook, $facebook-color),
-  (twitter, $twitter-color);
+  $social: (facebook, $facebook-color), (twitter, $twitter-color);
 
   @each $socialnetwork, $color in $social {
 

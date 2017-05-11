@@ -17,7 +17,6 @@
   transition: $global-transition;
   background-color: $background-color;
   z-index: 100;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -72,126 +71,6 @@ main {
 
     @include breakpoint($large) {
       width: span(14 of 16);
-    }
-  }
-}
-
-.layout--about {
-
-  .entry-wrap {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-
-    @include breakpoint($medium) {
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-    }
-  }
-
-  .entry-content {
-
-    @include breakpoint($medium) {
-      -ms-flex: 1;
-      flex: 1;
-    }
-  }
-
-  .entry-sidebar {
-    order: -1;
-    -ms-flex-order: -1;
-
-    @include breakpoint($medium) {
-      order: initial;
-      -ms-flex-order: initial;
-    }
-
-    .author-picture {
-      margin: 0 0 2rem;
-      border-radius: 2 * $border-radius;
-
-      @include breakpoint($medium) {
-        margin: 0 0 0 2rem;
-      }
-    }
-  }
-}
-
-.layout--cv {
-
-  .entries {
-
-    .entry-header {
-
-      @include breakpoint($medium) {
-        @include span(5 of 16);
-        @include suffix(1 of 16);
-
-        /* remove space after last child element */
-        > *:last-child {
-          margin-bottom: 0;
-        }
-      }
-    }
-
-    .entry-content {
-      @include breakpoint($medium) {
-        @include span(11 of 16 last);
-      }
-    }
-  }
-
-  .entry {
-
-    a {
-      color: $accent-color;
-    }
-
-    address {
-      font-style: normal;
-    }
-
-    .title,
-    .position,
-    .institution,
-    .language {
-      margin-bottom: 0;
-    }
-
-    .date {
-      margin-bottom: 1rem;
-      color: tint($text-color, 40%);
-      font-family: $monospace-font-family;
-      font-size: 80%;
-    }
-
-    .courses-title,
-    .awarder,
-    .publisher,
-    .level {
-      margin: 1rem 0 0;
-    }
-
-    .courses,
-    .keywords {
-      @include list-unstyled;
-    }
-  }
-
-  .taxonomy {
-
-    + .taxonomy {
-      margin-top: 0.5rem;
-    }
-
-    .title {
-      display: inline-block;
-      margin-right: 1rem;
-    }
-
-    .keywords {
-      display: inline-block;
     }
   }
 }

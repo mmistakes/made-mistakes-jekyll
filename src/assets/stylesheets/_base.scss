@@ -7,7 +7,6 @@ html {
 }
 
 body {
-  display: -ms-flexbox;
   display: flex;
   background: $background-color;
   color: $text-color;
@@ -99,8 +98,8 @@ pre {
 }
 
 figure {
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 
   > img {
     width: 100%;

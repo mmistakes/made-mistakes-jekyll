@@ -13,8 +13,8 @@ label {
   font-family: $monospace-font-family;
   font-size: 0.8em;
 
-  &.required:after {
-    content: "*";
+  &.required::after {
+    content: '*';
   }
 
   abbr {
@@ -27,16 +27,16 @@ textarea,
 select,
 select[multiple=multiple] {
   box-sizing: border-box;
+  width: 100%;
   margin-bottom: 0.25em;
   padding: 0.5em;
-  width: 100%;
+  transition: border-color;
+  border: 1px solid $form-border-color;
+  border-radius: $form-border-radius;
+  background-color: #fff;
   font-family: $form-font-family;
   font-size: $form-font-size;
-  background-color: #fff;
-  border-radius: $form-border-radius;
-  border: 1px solid $form-border-color;
   box-shadow: $form-box-shadow;
-  transition: border-color;
 
   &:hover {
     border-color: $form-border-color-hover;
@@ -44,8 +44,8 @@ select[multiple=multiple] {
 
   &:focus {
     border-color: $form-border-color-focus;
-    box-shadow: $form-box-shadow-focus;
     outline: none;
+    box-shadow: $form-box-shadow-focus;
   }
 }
 
@@ -60,8 +60,8 @@ input[type="search"] {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
-  margin-right: 0.5em;
   width: initial;
+  margin-right: 0.5em;
 }
 
 input[type="file"] {
@@ -78,15 +78,17 @@ form .btn,
 input[type="submit"] {
   margin: 1em 0;
   appearance: none;
-  cursor: pointer;
   user-select: none;
-  vertical-align: middle;
   white-space: nowrap;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 form {
 
-  ul, ol, li {
+  ul,
+  ol,
+  li {
     padding-left: 0;
     list-style-type: none;
   }

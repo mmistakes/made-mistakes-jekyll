@@ -8,7 +8,7 @@
 
 .blur-up {
   filter: blur(10px);
-  transition: filter 400ms, -webkit-filter 400ms;
+  transition: filter 400ms;
 }
 
 .blur-up.lazyloaded {

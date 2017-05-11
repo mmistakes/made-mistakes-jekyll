@@ -111,21 +111,17 @@
 
 .sidebar-toggle-wrapper {
   position: fixed;
-  // top: 0.675rem;
   right: 0;
   cursor: pointer;
   z-index: 10000;
 
   .toggle-inner {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-align: center;
     align-items: center;
   }
 }
 
 .sidebar-toggle-label {
-  -ms-flex-order: 2;
   order: 2;
   margin-left: 0.5rem;
   font-weight: bold;

@@ -74,9 +74,9 @@
     padding: 1em;
     color: #fff;
     font-weight: bold;
+    line-height: 1.5;
     text-align: center;
     text-decoration: none;
-    line-height: 1.5;
   }
 }
 
@@ -86,9 +86,10 @@
 
 .breadcrumbs {
   @include list-unstyled();
-
+  margin-bottom: 1.5rem;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  font-family: $monospace-font-family;
 
   @include breakpoint($small) {
     padding-right: 1rem;
@@ -109,9 +110,6 @@
     padding-right: 4rem;
     padding-left: 4rem;
   }
-
-  margin-bottom: 1.5rem;
-  font-family: $monospace-font-family;
 
   a {
     color: $text-color;

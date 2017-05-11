@@ -8,9 +8,9 @@
    example: @include scrimGradient('to top', #000);
    ========================================================================== */
 
-@mixin scrimGradient($direction: 'to bottom', $startColor: 'black') {
+@mixin scrimgradient($direction: 'to bottom', $startcolor: 'black') {
 
-  $scrimCoordinates: (
+  $scrimcoordinates: (
     0: 1,
     19: 0.838,
     34: 0.741,
@@ -26,13 +26,13 @@
     100: 0
   );
 
-  $hue: hue($startColor);
-  $saturation: saturation($startColor);
-  $lightness: lightness($startColor);
+  $hue: hue($startcolor);
+  $saturation: saturation($startcolor);
+  $lightness: lightness($startcolor);
   $stops: ();
 
-  @each $colorStop, $alphaValue in $scrimCoordinates {
-    $stop: hsla($hue, $saturation, $lightness, $alphaValue) percentage($colorStop/100);
+  @each $colorstop, $alphavalue in $scrimcoordinates {
+    $stop: hsla($hue, $saturation, $lightness, $alphavalue) percentage($colorstop / 100);
     $stops: append($stops, $stop, comma);
   }
 

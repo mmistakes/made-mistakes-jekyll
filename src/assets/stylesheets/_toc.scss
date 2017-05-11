@@ -11,31 +11,31 @@
   }
 
   label {
-    position: relative;
     display: inline-block;
+    position: relative;
     padding: 1em 1em 1em 2.5em;
-    font-weight: 700;
-    line-height: 1;
+    transition: 0.2s ease-out;
     border: 0.125em solid #ccc;
     border-radius: $border-radius;
-    z-index: 6;
-    transition: 0.2s ease-out;
+    font-weight: 700;
+    line-height: 1;
     cursor: pointer;
+    z-index: 6;
 
-    &:before,
-    &:after {
-      content: '';
+    &::before,
+    &::after {
       position: absolute;
-      left: 1em;
       top: 1.375em;
+      left: 1em;
       width: 0.75em;
       height: 0.125em;
-      line-height: 1;
-      background-color: #333;
       transition: $global-transition;
+      background-color: #333;
+      line-height: 1;
+      content: '';
     }
 
-    &:after {
+    &::after {
       transform: rotate(90deg);
     }
 
@@ -46,21 +46,21 @@
 
   // selected
   input:checked + label {
-    color: white;
-    background-color: black;
+    background-color: #000;
+    color: #fff;
 
-    &:before,
-    &:after {
+    &::before,
+    &::after {
       background-color: #fff;
     }
   }
 
   // on hover show expand
-  label:hover:after {
+  label:hover::after {
     transform: rotate(90deg);
   }
 
-  input:checked + label:hover:after {
+  input:checked + label:hover::after {
     transform: rotate(0);
   }
 }
@@ -89,8 +89,8 @@
     counter-increment: section;
     font-weight: 700;
 
-    &:before {
-      content: counter(section) ". ";
+    &::before {
+      content: counter(section) '. ';
     }
 
     &:not(:last-child) {
@@ -111,8 +111,8 @@
     > li {
       counter-increment: subsection;
 
-      &:before {
-        content: counter(section) "." counter(subsection) ". ";
+      &::before {
+        content: counter(section) '.' counter(subsection) '. ';
       }
     }
   }
@@ -120,20 +120,20 @@
 
 .toc .toc__menu {
   position: relative;
-  margin: 0;
   max-height: 0;
+  margin: 0;
+  transform: translate(0, 10%);
+  transition: 0.3s ease-in-out;
   font-size: 0.8em;
   opacity: 0;
   overflow: hidden;
   z-index: 5;
-  transition: 0.3s ease-in-out;
-  transform: translate(0, 10%);
 }
 
 .toc input:checked ~ .toc__menu {
-  transition: 0.5s ease-in-out;
   max-height: 100vh;
-  opacity: 1;
   margin-top: 1em;
   transform: translate(0, 0);
+  transition: 0.5s ease-in-out;
+  opacity: 1;
 }

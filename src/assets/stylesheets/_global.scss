@@ -20,9 +20,7 @@
   }
 
   a {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-align: center;
     align-items: center;
     min-height: $site-image-height;
     color: $text-color;
@@ -44,15 +42,15 @@
 
 .image-caption {
   position: absolute;
-  bottom: 0;
   right: 0;
+  bottom: 0;
   padding: 1em;
   color: #fff;
-  opacity: 0.9;
   font-size: 0.6em;
-  text-align: right;
   line-height: 1;
+  text-align: right;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
 
   a {
     color: #fff;
