@@ -11,9 +11,25 @@
   background-color: $section-bg-color;
 
   .inner {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 2rem;
     max-width: $medium;
+
+    @include breakpoint($medium) {
+      padding: 3rem;
+    }
+
+    @include breakpoint($large) {
+      padding: 4rem;
+    }
+  }
+
+  .btn {
+    color: #fff !important;
+    background-color: $text-color;
+
+    &:hover {
+      background-color: mix(#fff, $text-color, 10%);
+    }
   }
 }
 
@@ -36,8 +52,12 @@
   }
 }
 
+.section:first-of-type .section-title {
+  @include fluid-type($min-vw, $max-vw, 26px, 72px);
+}
+
 .section-title {
-  @include fluid-type($min-vw, $max-vw, 26px, 80px);
+  @include fluid-type($min-vw, $max-vw, 22px, 60px);
   margin-bottom: 1rem;
   line-height: 1;
 }
@@ -89,6 +109,7 @@
 
     .inner {
       position: relative;
+      width: 75%;
       z-index: 1; /* fix overlap with scrimGradient */
     }
 
@@ -108,7 +129,7 @@
   }
 
   &--about {
-    $section-about-bg-color: mix(#000, #333357, 50%);
+    $section-about-bg-color: mix(#000, #002228, 50%);
 
     background-color: $section-about-bg-color;
 

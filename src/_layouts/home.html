@@ -2,28 +2,15 @@
 layout: default
 ---
 
-{% if page.section %}
-  <div class="sections">
-    {% include section.html %}
-  </div>
-{% endif %}
-
 <main id="main" class="page-content" aria-label="Content">
+  {% if page.section %}
+    <div class="sections">
+      {% include section.html %}
+    </div>
+  {% endif %}
+
   <div class="index inner">
     <div>{{ content }}</div>
-
-    <div>
-      <!-- latest posts -->
-      <header class="section-title">
-        <h2>Recently Published</h2>
-      </header>
-      <div class="entries">
-        {% for post in site.posts limit:5 %}
-          {% include entry.html %}
-        {% endfor %}
-      </div>
-    </div>
-
     {% include footer.html %}
   </div>
 </main>

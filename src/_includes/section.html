@@ -8,7 +8,7 @@
   <div class="lazyload section section-{{ forloop.index }} {{ section.class }}" {% if section_bg_image %}data-bgset="{{ data_bgset }}" data-sizes="auto"{% endif %}>
     <div class="inner">
       <div class="section-text">
-        <h2 class="section-title">{{ section.title }}</h2>
+        <h2 class="section-title">{{ section.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
         {% if section.introduction %}
           <div class="section-more">
             {{ section.introduction | markdownify }}
