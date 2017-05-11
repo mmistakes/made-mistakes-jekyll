@@ -113,9 +113,9 @@
       z-index: 1; /* fix overlap with scrimGradient */
     }
 
-    &-title,
-    &-more {
-      text-shadow: 1px 1px 0 rgba($section-dark-bg-color, 0.5);
+    .section-title,
+    .section-more {
+      text-shadow: 1px 01px 1px rgba($section-dark-bg-color, 0.75);
     }
 
     .btn {
@@ -137,9 +137,9 @@
       @include scrimGradient('to right', $section-about-bg-color);
     }
 
-    &-title,
-    &-more {
-      text-shadow: 1px 1px 0 rgba($section-about-bg-color, 0.5);
+    .section-title,
+    .section-more {
+      text-shadow: 1px 01px 1px rgba($section-about-bg-color, 0.75);
     }
 
     .btn {
@@ -160,9 +160,9 @@
       @include scrimGradient('to right', $section-work-bg-color);
     }
 
-    &-title,
-    &-more {
-      text-shadow: 1px 1px 0 rgba($section-work-bg-color, 0.5);
+    .section-title,
+    .section-more {
+      text-shadow: 1px 1px 1px rgba($section-work-bg-color, 0.75);
     }
 
     .btn {
