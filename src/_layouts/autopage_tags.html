@@ -8,15 +8,13 @@ layout: default
   <div class="index inner">
     <div>{{ content }}</div>
 
-    <div>
-      {% if page.autopages %}
-        <header class="section-title">
-          <h2>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</h2>
-        </header>
-      {% endif %}
-      <div class="entries">
-        {% include posts-paginated.html %}
-      </div>
+    {% if page.autopages %}
+      <header class="section-title">
+        <h2>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</h2>
+      </header>
+    {% endif %}
+    <div class="entries">
+      {% include posts-paginated.html %}
     </div>
 
     {% include footer.html %}

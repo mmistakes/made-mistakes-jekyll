@@ -9,17 +9,15 @@ layout: default
   <div class="index inner">
     <div>{{ content }}</div>
 
-    <div>
-      {% if page.autogen %}
-        <header class="section-title">
-          <h2>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</h2>
-        </header>
-      {% endif %}
-      <div class="entries">
-        {% for post in sorted_entries %}
-          {% include entry.html %}
-        {% endfor %}
-      </div>
+    {% if page.autogen %}
+      <header class="section-title">
+        <h2>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</h2>
+      </header>
+    {% endif %}
+    <div class="entries">
+      {% for post in sorted_entries %}
+        {% include entry.html %}
+      {% endfor %}
     </div>
 
     {% include footer.html %}
