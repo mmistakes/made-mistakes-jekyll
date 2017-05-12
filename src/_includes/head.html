@@ -32,7 +32,7 @@
   {% endif %}
   <!-- / site verifications -->
 
-  {% assign style_css = site.data.css-manifest['main.css'] | default: 'main.css' | prepend: 'assets/stylesheets/' | relative_url %}
+  {% assign style_css = site.data.css-manifest['main.css'] | default: 'main.css' | prepend: 'assets/stylesheets/' | absolute_url %}
 
   <!-- htmlmin:ignore -->
   <!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
