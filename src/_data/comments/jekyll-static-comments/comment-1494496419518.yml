@@ -1,0 +1,11 @@
+_id: b4f94f90-362f-11e7-8856-9b031097afe5
+_parent: 'https://mademistakes.com/articles/jekyll-static-comments/'
+message: >-
+  On an individual post, how can show comments but disable any new comments
+  (maybe by not showing the 'add comment' box)? Am using staticman.
+name: SS
+email: 194b0f78b3831beab2453b68535c5b67
+url: ''
+replying_to: ''
+hidden: ''
+date: '2017-05-11T09:53:39.510Z'
