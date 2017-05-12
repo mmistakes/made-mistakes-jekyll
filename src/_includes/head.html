@@ -177,7 +177,7 @@
       if( fullCSS && !cookie( fullCSSKey ) ){
         loadCSS( fullCSS.content );
         // set cookie to mark this file fetched
-        cookie( fullCSSKey, "true", 7 );
+        cookie( fullCSSKey, "true", 0 );
         // asynchronously load fonts
         (function(d) {
           var wf = d.createElement('script'), s = d.scripts[0];
