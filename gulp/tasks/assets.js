@@ -102,21 +102,6 @@ gulp.task('styles', () => {
     .pipe(when(!argv.prod, browserSync.stream()))
 });
 
-// 'gulp cssential'
-// gulp.task('cssential', () => {
-//   return gulp.src([paths.sassFiles + '/main.scss'])
-//     .pipe(sass({precision: 10}).on('error', sass.logError))
-//     .pipe(postcss([
-//       cssential({
-//         output: 'src/_includes/head.html',
-//         cssComment: '!cssential',
-//         htmlComment: 'cssential',
-//         removeOriginal: true
-//       })
-//     ]))
-//     .pipe(gulp.dest(paths.sassFilesTemp))
-// });
-
 // 'gulp styles:gzip --prod' -- gzips CSS
 gulp.task('styles:gzip', () => {
   return gulp.src([paths.sassFilesTemp + '/*.css'])
