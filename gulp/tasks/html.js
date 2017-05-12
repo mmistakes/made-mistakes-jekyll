@@ -70,7 +70,7 @@ gulp.task('styles:critical:archive', () => {
       dest: paths.sourceDir + paths.includesFolderName + '/critical-archive.css',
       minify: true,
       extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+      ignore: ['@font-face','/print/',/url\(/,'.intro>.inner'] // defer loading of webfonts and background images
     }))
 });
 
@@ -86,7 +86,7 @@ gulp.task('styles:critical:post', () => {
       dest: paths.sourceDir + paths.includesFolderName + '/critical-post.css',
       minify: true,
       extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+      ignore: ['@font-face','/print/',/url\(/,'.intro>.inner'] // defer loading of webfonts and background images
     }))
 });
 
@@ -101,6 +101,6 @@ gulp.task('styles:critical:home', () => {
       dest: paths.sourceDir + paths.includesFolderName + '/critical-home.css',
       minify: true,
       extract: false,
-      ignore: ['@font-face',/url\(/] // defer loading of webfonts and background images
+      ignore: ['@font-face','/print/',/url\(/,'.intro>.inner'] // defer loading of webfonts and background images
     }))
 });

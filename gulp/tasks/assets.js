@@ -5,7 +5,6 @@ var browserSync          = require('browser-sync').create();
 var cheerio              = require('gulp-cheerio');
 var concat               = require('gulp-concat');
 var cssnano              = require('gulp-cssnano');
-var cssential            = require('postcss-cssential');
 var gulp                 = require('gulp');
 var gzip                 = require('gulp-gzip');
 var newer                = require('gulp-newer');
@@ -75,15 +74,6 @@ gulp.task('styles', () => {
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))
-    // extract critical css
-    .pipe(when(argv.prod, postcss([
-      cssential({
-        output: 'src/_includes/head.html',
-        cssComment: 'critical',
-        htmlComment: 'critical',
-        removeOriginal: true
-      })
-    ])))
     .pipe(postcss([
       // add vendor prefixes
       autoprefixer({

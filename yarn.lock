@@ -2247,7 +2247,7 @@ glob@3.2.11:
     inherits "2"
     minimatch "0.3"
 
-glob@^5.0.15, glob@^5.0.3, glob@~5.0.0:
+glob@^5.0.3, glob@~5.0.0:
   version "5.0.15"
   resolved "https://registry.yarnpkg.com/glob/-/glob-5.0.15.tgz#1bc936b9e02f4a603fcc222ecf7633d30b8b93b1"
   dependencies:
@@ -4889,15 +4889,6 @@ postcss-convert-values@^2.3.4:
     postcss "^5.0.11"
     postcss-value-parser "^3.1.2"
 
-postcss-cssential@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-cssential/-/postcss-cssential-1.1.0.tgz#be683986d437654dd5fa556743b8faa891471251"
-  dependencies:
-    glob "^5.0.15"
-    gzip-size "^3.0.0"
-    postcss "^5.0.2"
-    uglifycss "0.0.18"
-
 postcss-discard-comments@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/postcss-discard-comments/-/postcss-discard-comments-2.0.4.tgz#befe89fafd5b3dace5ccce51b76b81514be00e3d"
@@ -6416,10 +6407,6 @@ uglify-save-license@^0.4.1:
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
-
-uglifycss@0.0.18:
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/uglifycss/-/uglifycss-0.0.18.tgz#650ba93d7ed26f1d3f7dc35543c8232f4bd6402c"
 
 uid-number@^0.0.6:
   version "0.0.6"
