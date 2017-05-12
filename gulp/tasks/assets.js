@@ -1,27 +1,28 @@
 'use strict';
-var argv         = require('yargs').argv;
-var autoprefixer = require('autoprefixer');
-var browserSync  = require('browser-sync').create();
-var cheerio      = require('gulp-cheerio');
-var concat       = require('gulp-concat');
-var cssnano      = require('gulp-cssnano');
-var gulp         = require('gulp');
-var gzip         = require('gulp-gzip');
-var newer        = require('gulp-newer');
-var postcss      = require('gulp-postcss');
-var rename       = require('gulp-rename');
-var rev          = require('gulp-rev');
-var revDel       = require('rev-del');
-var sass         = require('gulp-sass');
-var size         = require('gulp-size');
-var sourcemaps   = require('gulp-sourcemaps');
-var svgmin       = require('gulp-svgmin');
-var svgstore     = require('gulp-svgstore');
-var uglify       = require('gulp-uglify');
-var when         = require('gulp-if');
+var argv                 = require('yargs').argv;
+var autoprefixer         = require('autoprefixer');
+var browserSync          = require('browser-sync').create();
+var cheerio              = require('gulp-cheerio');
+var concat               = require('gulp-concat');
+var cssnano              = require('gulp-cssnano');
+var cssential            = require('postcss-cssential');
+var gulp                 = require('gulp');
+var gzip                 = require('gulp-gzip');
+var newer                = require('gulp-newer');
+var postcss              = require('gulp-postcss');
+var rename               = require('gulp-rename');
+var rev                  = require('gulp-rev');
+var revDel               = require('rev-del');
+var sass                 = require('gulp-sass');
+var size                 = require('gulp-size');
+var sourcemaps           = require('gulp-sourcemaps');
+var svgmin               = require('gulp-svgmin');
+var svgstore             = require('gulp-svgstore');
+var uglify               = require('gulp-uglify');
+var when                 = require('gulp-if');
 
 // include paths file
-var paths        = require('../paths');
+var paths                = require('../paths');
 
 // 'gulp scripts' -- creates a index.js file with Sourcemap from your JavaScript files
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,
@@ -74,6 +75,15 @@ gulp.task('styles', () => {
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))
+    // extract critical css
+    .pipe(when(argv.prod, postcss([
+      cssential({
+        output: 'src/_includes/head.html',
+        cssComment: 'critical',
+        htmlComment: 'critical',
+        removeOriginal: true
+      })
+    ])))
     .pipe(postcss([
       // add vendor prefixes
       autoprefixer({
@@ -101,6 +111,21 @@ gulp.task('styles', () => {
     .pipe(when(argv.prod, size({showFiles: true})))
     .pipe(when(!argv.prod, browserSync.stream()))
 });
+
+// 'gulp cssential'
+// gulp.task('cssential', () => {
+//   return gulp.src([paths.sassFiles + '/main.scss'])
+//     .pipe(sass({precision: 10}).on('error', sass.logError))
+//     .pipe(postcss([
+//       cssential({
+//         output: 'src/_includes/head.html',
+//         cssComment: '!cssential',
+//         htmlComment: 'cssential',
+//         removeOriginal: true
+//       })
+//     ]))
+//     .pipe(gulp.dest(paths.sassFilesTemp))
+// });
 
 // 'gulp styles:gzip --prod' -- gzips CSS
 gulp.task('styles:gzip', () => {
