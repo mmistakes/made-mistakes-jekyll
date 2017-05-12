@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 permalink: /tiny-paintings/
 category: tiny-paintings
 title: "Tiny Paintings"

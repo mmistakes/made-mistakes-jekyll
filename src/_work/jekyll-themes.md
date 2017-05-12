@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Minimally designed open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"

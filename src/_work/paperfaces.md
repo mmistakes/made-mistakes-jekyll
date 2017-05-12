@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 permalink: /paperfaces/
 category: paperfaces
 title: "PaperFaces iPad Project"
