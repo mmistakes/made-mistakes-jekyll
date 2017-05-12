@@ -21,8 +21,6 @@ As I continue to hack away at the design of Made Mistakes and improve on things,
 
 The goal is to make things easier to build a Jekyll site using mine as a starter. Rather than having to sift through [my main repository](https://github.com/mmistakes/made-mistakes-jekyll) and strip out the cruft before making it your own.
 
-{% include toc.html %}
-
 Below are all of the Jekyll starters I've open sourced thus far. Each "theme" contains all of the `_layouts`, `_includes`, Sass/CSS, JavaScript, and other sample files needed to build a site or blog. There are a lot of similarities between how they work and the file organization --- which should make switching and updating between them easier.
 
 ## Setup
