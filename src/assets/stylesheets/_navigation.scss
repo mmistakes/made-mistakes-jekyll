@@ -87,29 +87,9 @@
 .breadcrumbs {
   @include list-unstyled();
   margin-bottom: 1.5rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 5vw;
+  padding-left: 5vw;
   font-family: $monospace-font-family;
-
-  @include breakpoint($small) {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-
-  @include breakpoint($medium) {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  @include breakpoint($large) {
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-
-  @include breakpoint($xlarge) {
-    padding-right: 4rem;
-    padding-left: 4rem;
-  }
 
   a {
     color: $text-color;
@@ -127,28 +107,14 @@
 
 .popular-list {
   display: none;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-
-  @include breakpoint($small) {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
+  padding-right: 5vw;
+  padding-left: 5vw;
 
   @include breakpoint($medium) {
+    display: block;
+    flex-shrink: 0;
     order: initial;
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  @include breakpoint($large) {
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-
-  @include breakpoint($xlarge) {
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-left: 0;
   }
 
   a:hover {

@@ -16,10 +16,6 @@
   user-select: none;
 
   @include breakpoint($medium) {
-    margin-right: 2rem;
-  }
-
-  @include breakpoint($large) {
     margin-right: 5vw;
   }
 

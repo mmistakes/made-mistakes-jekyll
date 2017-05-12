@@ -12,15 +12,7 @@
 
   .inner {
     max-width: $medium;
-    padding: 2rem;
-
-    @include breakpoint($medium) {
-      padding: 3rem;
-    }
-
-    @include breakpoint($large) {
-      padding: 4rem;
-    }
+    padding: 7.5vw 5vw;
   }
 
   .btn {
