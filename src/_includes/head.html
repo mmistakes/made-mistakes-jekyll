@@ -18,6 +18,8 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="cleartype" content="on">
+
+  {% assign style_css = site.data.css-manifest['main.css'] | default: 'main.css' | prepend: 'assets/stylesheets/' | absolute_url %}
   <meta name="fullcss" content="{{ style_css }}">
 
   <!-- site verifications -->
@@ -31,8 +33,6 @@
     <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
   {% endif %}
   <!-- / site verifications -->
-
-  {% assign style_css = site.data.css-manifest['main.css'] | default: 'main.css' | prepend: 'assets/stylesheets/' | absolute_url %}
 
   <!-- htmlmin:ignore -->
   <!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
