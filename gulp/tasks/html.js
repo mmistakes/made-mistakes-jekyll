@@ -54,8 +54,11 @@ var pageDimensions = [{
                         width: 768,
                         height: 1024
                       }, {
+                        width: 1024,
+                        height: 1024
+                      }, {
                         width: 1440,
-                        height: 960
+                        height: 1280
                       }];
 
 // 'gulp styles:critical:archive' -- extract layout.archive critical CSS
@@ -70,7 +73,7 @@ gulp.task('styles:critical:archive', () => {
       dest: paths.sourceDir + paths.includesFolderName + '/critical-archive.css',
       minify: true,
       extract: false,
-      ignore: ['@font-face','/print/',/url\(/,'.intro>.inner'] // defer loading of webfonts and background images
+      ignore: ['@font-face','/print/',/url\(/,'.popular-list'] // defer loading of webfonts and background images
     }))
 });
 
@@ -86,7 +89,7 @@ gulp.task('styles:critical:post', () => {
       dest: paths.sourceDir + paths.includesFolderName + '/critical-post.css',
       minify: true,
       extract: false,
-      ignore: ['@font-face','/print/',/url\(/,'.intro>.inner'] // defer loading of webfonts and background images
+      ignore: ['@font-face','/print/',/url\(/,'.popular-list'] // defer loading of webfonts and background images
     }))
 });
 
@@ -101,6 +104,6 @@ gulp.task('styles:critical:home', () => {
       dest: paths.sourceDir + paths.includesFolderName + '/critical-home.css',
       minify: true,
       extract: false,
-      ignore: ['@font-face','/print/',/url\(/,'.intro>.inner'] // defer loading of webfonts and background images
+      ignore: ['@font-face','/print/',/url\(/,'.popular-list'] // defer loading of webfonts and background images
     }))
 });
