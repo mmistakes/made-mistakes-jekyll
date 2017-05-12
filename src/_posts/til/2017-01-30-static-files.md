@@ -14,8 +14,6 @@ According to the official [Jekyll documentation](https://jekyllrb.com/docs/stati
 
 **The useful bit** --- every one of these static files becomes accessible to Jekyll when looping through `site.static_files`. There aren't many reasons why you'd want to do this, but if building "plugin-free" image galleries is one of them --- here's how.
 
-{% include toc.html %}
-
 ## Organize Static Files
 
 Let's say you have a folder (named `gallery-1`) of images you want to display together on a post or page.

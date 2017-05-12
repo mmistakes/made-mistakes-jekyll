@@ -13,8 +13,6 @@ comments_locked: true
 
 I've been lusting over the promise of pressure sensitive drawing on an iPad ever since I first read about the [Pogo Connect Smart Pen]( http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20)[^pogo-compatibility]. Released back in January for around $80, I held off buying one until the price dropped. Waiting turned out to be smart since my favorite iOS app [**Paper by FiftyThree**]({{ site.url }}/tag/paper-by-53)[^pogo-paper] also received numerous updates to better support the Pogo Connect.
 
-{% include toc.html %}
-
 [^pogo-paper]: As of version 2.5 FiftyThree has dropped support for the Pogo Connect Smart Pen.
 
 [^pogo-compatibility]: Since publishing this review, Apple released the iPad Mini and iPad Air --- both have some compatibility issues with a Pogo Connect Smart Pen. There's something about these new screens that cause the Pogo to not function properly. In the case of the iPad Air it doesn't work at all. The iPad Mini has better support but a few of the new tips don't work. For the full story check out [Ten One Design's website](http://www.tenonedesign.com/connect).

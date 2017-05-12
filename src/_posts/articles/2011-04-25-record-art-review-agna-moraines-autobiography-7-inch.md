@@ -12,8 +12,6 @@ tags: [records, punk, design, DIY, critique, inspiration]
 
 Emo bands from the late 1990's make up a good portion of my record collection. I was really drawn to quirky vocals, high pitched screams, odd tempo changes, and plenty of twinkle in the guitars.
 
-{% include toc.html %}
-
 ## Twinkle Twinkle, Whining in Sweaters
 
 Another aspect of these bands that I enjoyed, were the materials being released with their records and tapes. Almost always created by hand, my favorites were either silk screened designs or deliberately worn photocopies of original drawings and illustrations.

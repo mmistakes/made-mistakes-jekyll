@@ -13,8 +13,6 @@ tags: [sci-fi, film, review, space]
 
 Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle's new film *Sunshine*, when I saw a trailer before *Sicko* a month or so ago. I couldn't tell you any of the actors' names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the Human Torch in *Fantastic Four & Rise of the Silver Surfer*).
 
-{% include toc.html %}
-
 *Armageddon*, *Deep Impact*, *The Core*... yeah this film is nothing like that garbage. Things start off in space where we are quickly brought up to speed on Earth's dire condition through some brief narration. About 50 years in the future, 8 scientists are taking a nuke to the Sun in hopes of reigniting it and saving the entire population from certain doom.
 
 ## Quick Plot Summary, Go

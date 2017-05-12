@@ -15,8 +15,6 @@ Building a living style guide that details all of the colors, typographic elemen
 
 As sole designer, developer, and writer for the site, having one probably isn't all that crucial. Yet when iterating on the site's design I've found that some of my patterns don't always "speak the same visual language." Having a document I can refer back to and quickly spot check for visual inconsistencies could be very helpful.
 
-{% include toc.html %}
-
 ## Keep it Simple
 
 With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have also matured in the open source community. Because I'm [using Jekyll to publish the site]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if that meant giving up the ease of setup these other tools provide by having to build out something myself.

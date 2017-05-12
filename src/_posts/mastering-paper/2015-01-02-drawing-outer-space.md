@@ -12,8 +12,6 @@ image:
 
 Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bodies* is a ton of fun with Paper, the iPad app by FiftyThree. Much like [drawing blue skies and clouds]({{ site.url }}{% post_url /mastering-paper/2013-09-05-drawing-clouds %}), it is very hard to screw them up if you follow a few simple guidelines.
 
-{% include toc.html %}
-
 In this Paper by FiftyThree tutorial I'll start by walking you through my process of painting an outer space scene using only a finger. Then, I'll demonstrate how to paint another one using [FiftyThree's Pencil stylus]({{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}) instead. Taking advantage of **Surface Pressure** and [**Blend**]({{ site.url }}{% post_url /mastering-paper/2013-11-20-pencil-first-look %}) I find the effects are easier and faster to pull off with Pencil.
 
 Oh and I'm trying something different with this guide. I've toyed around with short videos before, but this time I'm including two that can stand on their own as full blown tutorials. Editing together footage shown from two different angles, each video documents the entire drawing process from start to finish.

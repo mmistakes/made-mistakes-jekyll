@@ -14,8 +14,6 @@ New to Paper by FiftyThree and just can't seem to figure out how to switch tools
 
 They may be subtle, but the white dots beneath the row of tools are a big clue to help solve this mystery. Similar to the dots you find at the bottom of your iOS device's home screen, they indicate there are off-screen goodies to be had.
 
-{% include toc.html %}
-
 <figure>
   <img src="{{ site.url }}/assets/images/paper-53-switch-tools-dots.jpg" alt="indicator dots beneath Paper tools">
   <figcaption>There be more tools to the right, don't worry you get them for free.</figcaption>

@@ -12,8 +12,6 @@ tags: [bird, tattoo, bird cage, vegan, trees, Michael Rose]
 
 The last couple of months have been pretty stressful. Butter, my domestic long haired cat has been sick off and on and causing me to incur some high vet bills and a bunch of junk that hasn't helped to keep my mind at ease. Then I started the process of moving in with [my girlfriend Wendy](https://2littlerosebuds.com/) and getting ready to put my house on the market. Top that off with all the economy stuff, worrying if I'll have a job tomorrow, and if my car will make it another day without dying --- my health decided to take a dump on itself.
 
-{% include toc.html %}
-
 ## Tattoos to Relieve Stress
 
 Last weekend we hit up [*Rise Above Tattoos*](http://myspace.com/riseabovetattoo) again and spent the afternoon getting some more work done. Wendy added a bunch of birds in flight, a cage, and a tree branch to mimic the design of her other arm. She's in the process of healing now so it looks pretty scabby in a few spots. Will probably need some touch ups if the color falls out, but that shouldn't be a problem since the same thing happened last time.

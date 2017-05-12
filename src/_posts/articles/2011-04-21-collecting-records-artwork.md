@@ -12,8 +12,6 @@ tags: [punk, records, inspiration, DIY, critique, design]
 
 Most of the [records I purchased](http://www.recordnerd.com/lists/bleedsapathy) in the late 90's--early 2000's were self-released or put out by small independent labels. 
 
-{% include toc.html %}
-
 ## Hand-lettered, the Stuff of My Dreams
 
 Looking back, my favorite sleeves and liner note designs all shared a common element --- they were created by hand and printed in black and white. Which is an interesting comparison to the digital world of today, were kids have access to sophisticated desktop publishing software, and affordable means to print full color on a range of paper stocks.

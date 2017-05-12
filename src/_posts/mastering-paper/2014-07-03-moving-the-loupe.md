@@ -13,8 +13,6 @@ comments_locked: true
 
 I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could move Paper's zoom loupe simultaneously as you drew.
 
-{% include toc.html %}
-
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
 
 <div class="notice--warning" markdown="1">

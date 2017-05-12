@@ -12,8 +12,6 @@ tags: [critique, grid, design, inspiration, typography]
 
 Of all the things to grab my attention, the grid system used in a women's health calendar was certainly not high on my list.
 
-{% include toc.html %}
-
 It's a funny story that will probably make less sense after I describe this awful analogy, but here it goes. You ever do something for so long that you start seeing it creep up in random places? Back in 1997, after I got a Nintendo 64 and played *Super Mario* all night instead of working on my 3D design projects. I started getting these crazy ideas that I could triple jump over ponds or reach the top of buildings by doing a back flip like that mustachioed plumber.
 
 Sitting in 2D design and typography classes for 4 years of my life had a similar effect. It was like having a magician expose all his secrets to me. Problem is, I can no longer take these tricks at face value and instead see grid systems, slight of hand, and other illusions played on the eye. Guess that's become both a curse and a blessing...

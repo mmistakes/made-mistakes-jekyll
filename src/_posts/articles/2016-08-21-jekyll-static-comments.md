@@ -18,8 +18,6 @@ Convenient to embed a small bit of `<script>` voodoo into your pages, sure. But 
 
 [^third-party-commenting]: There are several third-party commenting services to choose from: [**Disqus**](https://disqus.com/), [**IntenseDebate**](https://intensedebate.com/), [**Livefrye**](http://web.livefyre.com/), [**Facebook**](https://developers.facebook.com/docs/plugins/comments/), and countless others. They all essentially work the same --- you embed some JavaScript on your site and comments magically appear.
 
-{% include toc.html %}
-
 ## Self-Hosted Comment Systems
 
 [**Isso**](https://posativ.org/isso/)[^self-hosted-commenting] describes itself as "commenting software similar to Disqus." You host a SQLite database and embed some JavaScript on your pages (just like Disqus and friends) and you're ready to roll. After freeing my content from Wordpress and "[going static]({{ site.url }}{% post_url /articles/2012-03-19-going-static %})" I really didn't want to manage a database again just to have comments on my site. So these solutions were out.

@@ -12,8 +12,6 @@ tags: [Nintendo, Wii, video games, review]
 
 Some things get better and some things never change. Going in I knew **Animal Crossing: City Folk** (for the Nintendo Wii) would be remaining mostly unchanged from its predecessor AC: Wild World on the DS. But frankly I didn't care and wanted to try it out for myself even after reading a few lackluster reviews. What really surprised me after playing was how it was able to hook me in...again. Which is pretty admirable seeing how it's the same damn game I've played TWICE before.
 
-{% include toc.html %}
-
 The *Animal Crossing* series has always been able to take boring tasks like paying a mortgage, picking weeds, making deliveries, planting flowers and trees, cleaning up trash, fishing, digging up fossils, catching bugs...and transform them into fun. The charm of the game is its ability to introduce new "carrots" along the way that encourage you to continue playing. Payoff your first mortgage to Tom Nook and you'll see exactly what I mean.
 
 The following are some of the additions and changes to the series that have for the most part won me over.

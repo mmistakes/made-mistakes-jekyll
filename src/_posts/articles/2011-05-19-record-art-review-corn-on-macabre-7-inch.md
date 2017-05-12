@@ -11,8 +11,6 @@ tags: [records, punk, critique, design, inspiration, typography]
 
 My favorite thing about this Corn On Macabre record has nothing to do with the band or the music. Sense of sight and touch often influence me more than sounds...
 
-{% include toc.html %}
-
 ## The Medium is Important
 
 An often overlooked aspect in design are the materials chosen to help communicate the message(s). The paper printed on and the ink printed with, can completely screw with a design if they're speaking different languages.

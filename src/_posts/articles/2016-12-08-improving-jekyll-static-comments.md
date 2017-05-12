@@ -16,8 +16,6 @@ In the months after ditching Disqus for a [static-based commenting system]({{ si
 
 Armed with instructions provided by Eduardo Bouças in [this GitHub issue](https://github.com/eduardoboucas/staticman/issues/42 "Email notification upon replies"), I set off to level-up the commenting experience on **Made Mistakes**. Here's how I did it.
 
-{% include toc.html %}
-
 ## Upgrade to Staticman v2
 
 To take advantage of the new features, it was necessary to migrate Staticman settings from Jekyll's `_config.yml` file into a new `staticman.yml` file[^staticman-yml]. None of the parameter names changed making the transition to `v2` that much easier.

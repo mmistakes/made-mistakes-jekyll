@@ -15,8 +15,6 @@ The hashtag [#CreateAnywhere](https://twitter.com/hashtag/createanywhere) takes 
 
 Here's some of my favorite additions found in the 3.0 update...
 
-{% include toc.html %}
-
 ## Universal Paper App
 
 Yes, you've read correctly --- Paper is now a universal iOS app that works on both iPad and iPhone. Every time I open Paper on my iPhone 5s I'm amazed all of the features found on the iPad version made the journey over. Much like the complete UI overhaul in [version 1.6.1](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher), I got the sense that the team at FiftyThree re-evaluated every bit of the app for 3.0. Even if that meant modifying a few of Paper's defining characteristics[^changes] in order to make the overall experience more intuitive and fluid.

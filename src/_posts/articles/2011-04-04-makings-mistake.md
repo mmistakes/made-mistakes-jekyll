@@ -10,8 +10,6 @@ tags: [CMS, website, design, Michael Rose]
 
 As a designer we've all been there. When was the last time you got bored with a design and decided to just scrap it and start from scratch? Yeah, that's what I thought.
 
-{% include toc.html %}
-
 ## Force Feeding a CMS
 
 For the last decade I've been fighting "the loop", squeezing my words in and out of every major web content management system, trying to tame DIV-itus, and determining what voice and creative outlets to live in. Depending on which half of my brain you asked, you'd probably get a different answer about all this madness.
