@@ -7,13 +7,13 @@ image:
   teaser: /assets/images/paperfaces-rosebuds-2-teaser.jpg
   thumbnail: /assets/images/paperfaces-rosebuds-2-150.jpg
 gallery:
-  - url: paperfaces-rosebuds-2-process-1-lg.jpg
+  - url: /assets/images/paperfaces-rosebuds-2-process-1-lg.jpg
     image_path: /assets/images/paperfaces-rosebuds-2-process-1-600.jpg
     alt: "work in process screenshot"
-  - url: paperfaces-rosebuds-2-process-2-lg.jpg
+  - url: /assets/images/paperfaces-rosebuds-2-process-2-lg.jpg
     image_path: /assets/images/paperfaces-rosebuds-2-process-2-600.jpg
     alt: "work in process screenshot"
-  - url: paperfaces-rosebuds-2-process-3-lg.jpg
+  - url: /assets/images/paperfaces-rosebuds-2-process-3-lg.jpg
     image_path: /assets/images/paperfaces-rosebuds-2-process-3-600.jpg
     alt: "work in process screenshot"
 tags: [portrait, illustration, Paper by 53, twins]
