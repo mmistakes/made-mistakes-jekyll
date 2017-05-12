@@ -1,51 +1,8 @@
-/* ==========================================================================
-   MIXINS
-   ========================================================================== */
-
-%tab-focus {
-  /* default */
-  outline: thin dotted $highlighter-color;
-  /* Webkit */
-  outline: 5px auto $highlighter-color;
-  outline-offset: -2px;
-}
-
-
-/*
-   em Function
-   ========================================================================== */
-
-@function em($target, $context: $doc-font-size) {
-
-  @return ($target / $context) * 1em;
-}
-
-
-/*
-   Bourbon Clearfix
-   ========================================================================== */
-
-/// Provides an easy way to include a clearfix for containing floats.
-///
-/// @link http://cssmojo.com/latest_new_clearfix_so_far/
-///
-/// @example scss - Usage
-///   .element {
-///     @include clearfix;
-///   }
-///
-/// @example css - CSS Output
-///   .element::after {
-///     clear: both;
-///     content: "";
-///     display: table;
-///   }
-
-@mixin clearfix {
-
-  &::after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-}
+@import 'mixins/color';
+@import 'mixins/clearfix';
+@import 'mixins/fluid-type';
+@import 'mixins/float';
+@import 'mixins/image';
+@import 'mixins/lists';
+@import 'mixins/text-truncate';
+@import 'mixins/scrim-gradient';

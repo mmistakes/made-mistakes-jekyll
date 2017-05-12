@@ -1,0 +1,17 @@
+<footer id="footer" class="site-footer">
+  <ul class="menu">
+    <li><a href="{{ site.url }}/about/">About</a></li>
+    <li><a href="{{ site.url }}/faqs/">FAQs</a></li>
+    <li><a href="{{ site.url }}/contact/">Contact</a></li>
+    <li><a href="{{ site.url }}/support/">Support Me</a></li>
+    <li><a href="{{ site.url }}/terms/">Terms &amp; Policies</a></li>
+    <li><a href="{{ site.url }}/sitemap/">Sitemap</a></li>
+  </ul>
+  <div class="copyright">
+    {% if site.copyright %}
+      {{ site.copyright | markdownify }}
+    {% else %}
+      <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Michael Rose.</p>
+    {% endif %}
+  </div>
+</footer>

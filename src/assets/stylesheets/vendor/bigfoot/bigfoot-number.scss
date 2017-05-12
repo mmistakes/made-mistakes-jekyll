@@ -1,4 +1,4 @@
-// bigfoot - v2.1.2 - 2015.06.03
+// bigfoot - v2.1.4 - 2016.02.11
 
 
 //        ___       ___          ___       ___                      ___          ___
@@ -35,12 +35,12 @@ $popover-tooltip-size:                  1.3em !default;                         
 $popover-scroll-indicator-width:        0.625em !default;                        // The width of the scroll indicator
 $popover-scroll-indicator-aspect-ratio: (15/12) !default;                        // The ratio of the height over the width of the scroll indicator
 $popover-scroll-indicator-opacity:      0.1 !default;                            // The active opacity of scroll indicators
-$popover-initial-transform-state:       scale(0.1) translateZ(0) !default;       // The initial transform state for the popover
+$popover-initial-transform-state:       scale(0.1) translateZ(0) !default;       // The inital transform state for the popover
 $popover-active-transform-state:        scale(1) translateZ(0) !default;         // The transform state for the popover once it is fully activated
 
 // OPTIONAL ELEMENTS
 $popover-include-tooltip:               true !default;                           // Adds a tooltip pointing to the footnote button
-$popover-include-scroll-indicator:      true !default;                           // Adds an ellipsis at the bottom of scrollable popovers
+$popover-include-scroll-indicator:      true !default;                           // Adds an elipsis at the bottom of scrollable popovers
 $popover-include-scrolly-fades:         true !default;                           // Fades content in on scrollable popovers
 $popover-scroll-indicator-icon:         url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAgMTIgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4iPgogICAgPGcgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFycm93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICA8cGF0aCBkPSJNNSwwIEw1LDExLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLjUsNy41IEw1LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00LjUsNy41IEw5LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCAxMC4wMDAwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTcuMDAwMDAwLCAtMTAuMDAwMDAwKSAiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=") !default;
 
@@ -108,7 +108,7 @@ $button-right-margin:                   0.1em !default;                         
 $button-vertical-adjust:                -0.1em !default;                         // Pushes the buttons along the vertical axis to align it with text as desired
 $button-inner-circle-left-margin:       1*$button-inner-circle-size !default;    // Space between the ellipsis circles
 
-$button-color:                          $gray !default;                          // Background color of the button
+$button-color:                          rgb(110, 110, 110) !default;             // Background color of the button
 $button-hovered-color:                  $button-color !default;                  // Background color of the button when being hovered
 $button-activating-color:               $button-color !default;                  // Background color of the button when being clicked
 $button-active-color:                   $button-color !default;                  // Background color of the button when active
@@ -573,7 +573,7 @@ $button-transition-properties:      background-color !default;
 
   // TEXT
   -webkit-font-smoothing: subpixel-antialiased;
-  line-height: 1.5;
+  line-height: normal;
 
   // INTERIOR ELEMENTS
   img { max-width: 100%; }

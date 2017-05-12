@@ -16,4 +16,4 @@
   {% if site.description %}
     <subtitle>{{ site.description | xml_escape }}</subtitle>
   {% endif %}
-  <icon>{{ site.url }}/assets/images/apple-touch-icon.png?v=RyowzAOe9M</icon>
+  <icon>{{ 'apple-touch-icon.png' | prepend: '/assets/images/' | absolute_url | append: '?v=' | append: site.favicon_version }}</icon>

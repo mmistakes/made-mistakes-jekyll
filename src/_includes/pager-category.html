@@ -1,0 +1,10 @@
+<nav class="pager">
+  <ul>
+    {% if page.previous_in_category %}
+      <li><a href="{{ page.previous_in_category.url | relative_url }}" class="previous"><svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> {{ page.previous_in_category.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
+    {% endif %}
+    {% if page.next_in_category %}
+      <li><a href="{{ page.next_in_category.url | relative_url }}" class="next">{{ page.next_in_category.title | markdownify | remove: '<p>' | remove: '</p>' }} <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></a></li>
+    {% endif %}
+  </ul>
+</nav>

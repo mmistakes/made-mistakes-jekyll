@@ -1,27 +1,27 @@
 'use strict';
-var argv         = require('yargs').argv;
-var autoprefixer = require('autoprefixer');
-var browserSync  = require('browser-sync').create();
-var cheerio      = require('gulp-cheerio');
-var concat       = require('gulp-concat');
-var cssnano      = require('gulp-cssnano');
-var gulp         = require('gulp');
-var gzip         = require('gulp-gzip');
-var newer        = require('gulp-newer');
-var postcss      = require('gulp-postcss');
-var rename       = require('gulp-rename');
-var rev          = require('gulp-rev');
-var revDel       = require('rev-del');
-var sass         = require('gulp-sass');
-var size         = require('gulp-size');
-var sourcemaps   = require('gulp-sourcemaps');
-var svgmin       = require('gulp-svgmin');
-var svgstore     = require('gulp-svgstore');
-var uglify       = require('gulp-uglify');
-var when         = require('gulp-if');
+var argv                 = require('yargs').argv;
+var autoprefixer         = require('autoprefixer');
+var browserSync          = require('browser-sync').create();
+var cheerio              = require('gulp-cheerio');
+var concat               = require('gulp-concat');
+var cssnano              = require('gulp-cssnano');
+var gulp                 = require('gulp');
+var gzip                 = require('gulp-gzip');
+var newer                = require('gulp-newer');
+var postcss              = require('gulp-postcss');
+var rename               = require('gulp-rename');
+var rev                  = require('gulp-rev');
+var revDel               = require('rev-del');
+var sass                 = require('gulp-sass');
+var size                 = require('gulp-size');
+var sourcemaps           = require('gulp-sourcemaps');
+var svgmin               = require('gulp-svgmin');
+var svgstore             = require('gulp-svgstore');
+var uglify               = require('gulp-uglify');
+var when                 = require('gulp-if');
 
 // include paths file
-var paths        = require('../paths');
+var paths                = require('../paths');
 
 // 'gulp scripts' -- creates a index.js file with Sourcemap from your JavaScript files
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,
@@ -70,12 +70,20 @@ gulp.task('scripts:gzip', () => {
 // 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes,
 //   minifies, and cache busts it (does not create a Sourcemap)
 gulp.task('styles', () => {
-  return gulp.src([paths.sassFiles + '/style.scss'])
+  return gulp.src([paths.sassFiles + '/main.scss'])
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))
-    // add vendor prefixes
-    .pipe(postcss([autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})]))
+    .pipe(postcss([
+      // add vendor prefixes
+      autoprefixer({
+        browsers: [
+          'last 2 versions',
+          '> 5%',
+          'IE 9'
+        ]
+      })
+    ]))
     // minify for production
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
     .pipe(size({showFiles: true}))
@@ -94,6 +102,21 @@ gulp.task('styles', () => {
     .pipe(when(!argv.prod, browserSync.stream()))
 });
 
+// 'gulp cssential'
+// gulp.task('cssential', () => {
+//   return gulp.src([paths.sassFiles + '/main.scss'])
+//     .pipe(sass({precision: 10}).on('error', sass.logError))
+//     .pipe(postcss([
+//       cssential({
+//         output: 'src/_includes/head.html',
+//         cssComment: '!cssential',
+//         htmlComment: 'cssential',
+//         removeOriginal: true
+//       })
+//     ]))
+//     .pipe(gulp.dest(paths.sassFilesTemp))
+// });
+
 // 'gulp styles:gzip --prod' -- gzips CSS
 gulp.task('styles:gzip', () => {
   return gulp.src([paths.sassFilesTemp + '/*.css'])
@@ -110,7 +133,7 @@ gulp.task('icons', () => {
   return gulp.src(paths.iconFiles + '/*.svg')
     .pipe(svgmin())
     .pipe(rename({prefix: 'icon-'}))
-    .pipe(svgstore({ fileName: 'icons.svg', inlineSvg: true}))
+    .pipe(svgstore({fileName: 'icons.svg', inlineSvg: true}))
     .pipe(cheerio({
       run: function ($, file) {
         $('svg').attr('style', 'display:none');

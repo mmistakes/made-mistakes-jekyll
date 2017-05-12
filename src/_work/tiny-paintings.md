@@ -5,10 +5,11 @@ category: tiny-paintings
 title: "Tiny Paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
 image: 
+  path: &image /assets/images/tiny-paintings.jpg
+  feature: *image
   cover: /assets/images/tiny-paintings-lq.jpg
   thumbnail: /assets/images/tiny-paintings-th.jpg
-  teaser: &image /assets/images/tiny-paintings-teaser.jpg
-  path: *image
+  teaser: /assets/images/tiny-paintings-teaser.jpg
 tags: [watercolor, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"

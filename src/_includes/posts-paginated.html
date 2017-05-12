@@ -1,0 +1,16 @@
+{% for post in paginator.posts %}
+  {% include entry.html %}
+{% endfor %}
+
+<!-- Pagination links -->
+<nav class="pager">
+  <ul>
+    <!-- Page: {{ paginator.page }} of {{ paginator.total_pages }} -->
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous"><svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> Newer</a></li>
+    {% endif %}
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next">Older <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></a></li>
+    {% endif %}
+  </ul>
+</nav>

@@ -2,17 +2,23 @@
 layout: default
 ---
 
-<div class="index">
-  {% include site__logo.html %}
-  <div id="main" role="main">
-    <div class="page__wrap">
-      {% include page__header.html %}
-      {% include page__hero.html %}
-      <div class="list">
-        {{ content }}
-      </div>
-    </div>
-  </div>
-</div>
+{% include page-intro.html %}
 
-{% include ad.html %}
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <div>{{ content }}</div>
+
+    {% if page.autogen %}
+      <header class="section-title">
+        <h2>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</h2>
+      </header>
+    {% endif %}
+
+    <div class="entries">
+      {% include posts-paginated.html %}
+    </div>
+
+    {% include footer.html %}
+  </div>
+  {% include popular-tags.html %}
+</main>

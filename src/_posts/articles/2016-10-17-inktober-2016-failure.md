@@ -1,6 +1,5 @@
 ---
 title: "Inktober Failure"
-layout: work
 excerpt: "Similar to previously years, I started out with the best of intentions for Inktober and then quickly lose steam..."
 image: 
   path: &image /assets/images/inktober-2016-wash-portrait.jpg

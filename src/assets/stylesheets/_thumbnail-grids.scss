@@ -16,16 +16,29 @@
  */
 
 .th-grid {
-  display: flex;
+  @include clearfix();
   padding-left: 0; // reset
-  flex-wrap: wrap;
+
+  @supports (display: flex) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   li {
-    list-style: none;
+    float: left;
     flex: auto;
     margin: 0.25em;
     width: 100px;
     max-width: 150px;
+    list-style: none;
+
+    @supports (display: flex) {
+      float: none;
+    }
+
+    a {
+      display: block;
+    }
   }
 
   img {

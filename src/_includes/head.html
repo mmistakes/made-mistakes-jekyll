@@ -1,0 +1,231 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if site.gems contains 'jekyll-seo-tag' %}
+    {% comment %}
+      Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
+    {% endcomment %}
+    {% include head-seo.html %}
+  {% else %}
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+  {% endif %}
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="cleartype" content="on">
+  <meta name="fullcss" content="{{ style_css }}">
+
+  <!-- site verifications -->
+  {% if site.bing_site_verification %}
+    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+  {% endif %}
+  {% if site.alexa_site_verification %}
+    <meta name="alexaVerifyID" content="{{ site.alexa_site_verification }}">
+  {% endif %}
+  {% if site.yandex_site_verification %}
+    <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
+  {% endif %}
+  <!-- / site verifications -->
+
+  {% assign style_css = site.data.css-manifest['main.css'] | default: 'main.css' | prepend: 'assets/stylesheets/' | relative_url %}
+
+  <!-- htmlmin:ignore -->
+  <!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
+    <link rel="stylesheet" href="{{ style_css }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,600,600italic">
+  <!--#else-->
+    {% if page.layout == "home" %}
+      <style>{% include critical-home.css %}</style>
+    {% elsif page.layout == "archive" or page.layout == "archive_work" or page.layout == "autopage_tags" %}
+      <style>{% include critical-archive.css %}</style>
+    {% elsif page.layout == "post" or page.layout == "page" %}
+      <style>{% include critical-post.css %}</style>
+    {% endif %}
+  <!--#endif-->
+  <!-- htmlmin:ignore -->
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+
+    /*! EnhanceJS: a progressive enhancement boilerplate. Copyright 2014 @scottjehl, Filament Group, Inc. Licensed MIT */
+    (function( window, undefined ) {
+
+      // Enable JS strict mode
+      "use strict";
+
+      var setTimeout = window.setTimeout;
+
+      var enhance = {};
+
+      // Define some variables to be used throughout this file
+      var doc = window.document,
+        docElem = doc.documentElement,
+        head = doc.head || doc.getElementsByTagName( "head" )[ 0 ],
+        // this references a meta tag's name whose content attribute should define the path to the full CSS file for the site
+        fullCSSKey = "fullcss",
+        htmlClasses = [ "enhanced" ];
+
+      /* Some commonly used functions - delete anything you don't need! */
+
+      // loadCSS: load a CSS file asynchronously. Included from https://github.com/filamentgroup/loadCSS/
+      function loadCSS( href, before, media ){
+        // Arguments explained:
+        // `href` is the URL for your CSS file.
+        // `before` optionally defines the element we'll use as a reference for injecting our <link>
+        // By default, `before` uses the first <script> element in the page.
+        // However, since the order in which stylesheets are referenced matters, you might need a more specific location in your document.
+        // If so, pass a different reference element to the `before` argument and it'll insert before that instead
+        // note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
+        var ss = window.document.createElement( "link" );
+        var ref = before || window.document.getElementsByTagName( "script" )[ 0 ];
+        var sheets = window.document.styleSheets;
+        ss.rel = "stylesheet";
+        ss.href = href;
+        // temporarily, set media to something non-matching to ensure it'll fetch without blocking render
+        ss.media = "only x";
+        // inject link
+        ref.parentNode.insertBefore( ss, ref );
+        // This function sets the link's media back to `all` so that the stylesheet applies once it loads
+        // It is designed to poll until document.styleSheets includes the new sheet.
+        function toggleMedia(){
+          var defined;
+          for( var i = 0; i < sheets.length; i++ ){
+            if( sheets[ i ].href && sheets[ i ].href.indexOf( href ) > -1 ){
+              defined = true;
+            }
+          }
+          if( defined ){
+            ss.media = media || "all";
+          }
+          else {
+            setTimeout( toggleMedia );
+          }
+        }
+
+        toggleMedia();
+        return ss;
+      }
+
+      // expose it
+      enhance.loadCSS = loadCSS;
+
+      // getMeta function: get a meta tag by name
+      // NOTE: meta tag must be in the HTML source before this script is included in order to guarantee it'll be found
+      function getMeta( metaname ){
+        var metas = window.document.getElementsByTagName( "meta" );
+        var meta;
+        for( var i = 0; i < metas.length; i ++ ){
+          if( metas[ i ].name && metas[ i ].name === metaname ){
+            meta = metas[ i ];
+            break;
+          }
+        }
+        return meta;
+      }
+
+      // expose it
+      enhance.getMeta = getMeta;
+
+      // cookie function from https://github.com/filamentgroup/cookie/
+      function cookie( name, value, days ){
+        var expires;
+        // if value is undefined, get the cookie value
+        if( value === undefined ){
+          var cookiestring = "; " + window.document.cookie;
+          var cookies = cookiestring.split( "; " + name + "=" );
+          if ( cookies.length == 2 ){
+            return cookies.pop().split( ";" ).shift();
+          }
+          return null;
+        }
+        else {
+          // if value is a false boolean, we'll treat that as a delete
+          if( value === false ){
+            days = -1;
+          }
+          if ( days ) {
+            var date = new Date();
+            date.setTime( date.getTime() + ( days * 24 * 60 * 60 * 1000 ) );
+            expires = "; expires="+date.toGMTString();
+          }
+          else {
+            expires = "";
+          }
+          window.document.cookie = name + "=" + value + expires + "; path=/";
+        }
+      }
+
+      // expose it
+      enhance.cookie = cookie;
+
+      /* Enhancements for all browsers - qualified or not */
+
+      /* Load non-critical CSS async on first visit:
+        On first visit to the site, the critical CSS for each template should be inlined in the head, while the full CSS for the site should be requested async and cached for later use.
+        A meta tag with a name matching the fullCSSKey should have a content attribute referencing the path to the full CSS file for the site.
+        If no cookie is set to specify that the full CSS has already been fetched, load it asynchronously and set the cookie.
+        Once the cookie is set, the full CSS is assumed to be in cache, and the server-side templates should reference the full CSS directly from the head of the page with a link element, in place of inline critical styles.
+        */
+      var fullCSS = getMeta( fullCSSKey );
+      if( fullCSS && !cookie( fullCSSKey ) ){
+        loadCSS( fullCSS.content );
+        // set cookie to mark this file fetched
+        cookie( fullCSSKey, "true", 7 );
+        // asynchronously load fonts
+        (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+          s.parentNode.insertBefore(wf, s);
+        })(document);
+      }
+
+      /* Enhancements for qualified browsers - "Cutting the Mustard"
+        Add your qualifications for major browser experience divisions here.
+        For example, you might choose to only enhance browsers that support document.querySelector (IE8+, etc).
+        Use case will vary.
+        */
+      if( !( "querySelector" in doc ) ){
+        // basic browsers: last stop here!
+        return;
+      }
+
+      // From here on we're dealing with qualified browsers.
+
+      // Add scoping classes to HTML element: useful for upgrading the presentation of elements that will be enhanced with JS behavior
+      docElem.className += " " + htmlClasses.join(" ");
+
+      // expose the 'enhance' object globally. Use it to expose anything in here that's useful to other parts of your application.
+      window.enhance = enhance;
+
+    }( this ));
+  </script>
+  <noscript><link rel="stylesheet" href="{{ style_css }}"></noscript>
+
+  {% include favicons.html %}
+
+  {% if site.pingback_url %}
+    <link rel="pingback" href="{{ site.pingback_url }}">
+  {% endif %}
+
+  {% if site.webmention_url %}
+    <link rel="webmention" href="{{ site.webmention_url }}">
+  {% endif %}
+
+  {% if site.gems contains 'jekyll-sitemap' %}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ 'sitemap.xml' | relative_url }}">
+  {% endif %}
+
+  {% if site.gems contains 'jekyll-feed' %}
+    {% comment %}
+      Add Atom feed link if jekyll-feed plugin is enabled
+    {% endcomment %}
+    {% include head-feed.html %}
+  {% endif %}
+</head>

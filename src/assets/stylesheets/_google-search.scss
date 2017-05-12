@@ -12,13 +12,7 @@
 #goog-fixurl {
 
   ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-
-    li {
-      list-style-type: none;
-    }
+    @include list-unstyled();
   }
 
   .other-things {
@@ -37,13 +31,13 @@
 
 // submit button
 #goog-wm-sb {
+  background-color: #000;
   color: #fff;
   font-weight: 700;
-  background-color: #000;
 
   @include breakpoint($medium) {
     display: inline-block;
-    margin-left: 1%;
     width: 29%;
+    margin-left: 1%;
   }
 }

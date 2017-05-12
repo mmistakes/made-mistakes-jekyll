@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+{% include gallery.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+      {% if page.comments == true %}
+        {% include comments.html %}
+      {% endif %}
+    </article>
+
+    {% include pager-category.html %}
+
+    {% include footer.html %}
+  </div>
+</main>

@@ -1,0 +1,176 @@
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+
+.sections {
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin: 0;
+  background-color: $section-bg-color;
+
+  .inner {
+    max-width: $medium;
+    padding: 2rem;
+
+    @include breakpoint($medium) {
+      padding: 3rem;
+    }
+
+    @include breakpoint($large) {
+      padding: 4rem;
+    }
+  }
+
+  .btn {
+    background-color: $text-color;
+    color: #fff !important;
+
+    &:hover {
+      background-color: mix(#fff, $text-color, 10%);
+    }
+  }
+}
+
+.section-text {
+
+  /* remove space after last child element */
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  /* text links */
+  a:not(.btn) {
+    border-bottom: 1px dotted currentColor;
+    color: currentColor;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+}
+
+.section:first-of-type .section-title {
+  @include fluid-type($min-vw, $max-vw, 26px, 72px);
+}
+
+.section-title {
+  @include fluid-type($min-vw, $max-vw, 22px, 60px);
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.section-subtitle {
+  @include fluid-type($min-vw, $max-vw, 18px, 28px);
+  font-style: italic;
+}
+
+.section-actions {
+  @include list-unstyled;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.section-more {
+
+  > p:first-child {
+    font-size: 1.125em;
+    line-height: 1.625;
+  }
+}
+
+/*
+   Section specific
+   ========================================================================== */
+
+.section {
+
+  &--inverse {
+    position: relative;
+    background-color: $section-dark-bg-color;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+    &::before {
+      @include scrimgradient('to right', $section-dark-bg-color);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: '';
+    }
+
+    .inner {
+      position: relative;
+      width: 75%;
+      z-index: 1; /* fix overlap with scrimgradient */
+    }
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 01px 1px rgba($section-dark-bg-color, 0.75);
+    }
+
+    .btn {
+      background-color: #fff;
+      color: $section-dark-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-dark-bg-color, #fff, 10%);
+      }
+    }
+  }
+
+  &--about {
+    $section-about-bg-color: mix(#000, #002228, 50%);
+
+    background-color: $section-about-bg-color;
+
+    &::before {
+      @include scrimgradient('to right', $section-about-bg-color);
+    }
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 01px 1px rgba($section-about-bg-color, 0.75);
+    }
+
+    .btn {
+      color: $section-about-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-about-bg-color, #fff, 10%);
+      }
+    }
+  }
+
+  &--work {
+    $section-work-bg-color: mix(#000, #6e2364, 50%);
+
+    background-color: $section-work-bg-color;
+
+    &::before {
+      @include scrimgradient('to right', $section-work-bg-color);
+    }
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 1px 1px rgba($section-work-bg-color, 0.75);
+    }
+
+    .btn {
+      color: $section-work-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-work-bg-color, #fff, 10%);
+      }
+    }
+  }
+}

@@ -11,30 +11,10 @@
   // comment replies
   &.child {
     margin-left: 4.5em;
-
-    &:before,
-    &:after {
-      position: absolute;
-      left: 1.5em;
-      content: '';
-      width: 0.5em;
-      background-color: #e3e3e3;
-    }
-
-    &:before {
-      top: -3em;
-      height: 2em;
-    }
-
-    &:after {
-      top: 4em;
-      bottom: -1em;
-    }
   }
 }
 
-.comment__timestamp {
-  font-family: $sans-serif;
+.comment-timestamp {
   font-size: 0.8em;
 
   a {
@@ -43,9 +23,14 @@
   }
 }
 
-.comment__content {
+.comment-content {
+  margin-top: 1em;
 
-  > p, > ul, > ol, > figure, > table {
+  > p,
+  > ul,
+  > ol,
+  > figure,
+  > table {
     margin-bottom: 1.5em;
   }
 
@@ -71,28 +56,28 @@
   }
 }
 
-.comment__avatar {
+.comment-avatar {
   position: absolute;
   top: 0;
   left: 0;
   width: 3.25em;
   height: 3.25em;
 
-  &:after {
+  &::after {
     position: absolute;
-    bottom: 0.5em;
     right: 0.5em;
+    bottom: 0.5em;
     width: 3.25em;
     height: 3.25em;
-    content: '';
-    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
     background-size: 5px 5px;
+    content: '';
     z-index: -1;
   }
 }
 
-.comment__author-name {
-  margin: 0 0 0.25em 0;
+.comment-author-name {
+  margin: 0 0 0.25em;
   font-size: 1.25em;
   line-height: 1;
 
@@ -102,10 +87,14 @@
   }
 }
 
-.comment__reply {
+.comment-reply {
 
-  .btn {
-    font-size: 0.64em;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

@@ -1,0 +1,28 @@
+{% for section in page.section %}
+  {% assign section_bg_image = section.image %}
+  {% if section_bg_image %}
+    {% assign f = section_bg_image | split: '.' %}
+    {% capture data_bgset %}{{ site.url }}{{ f[0] }}-320.{{ f[1] }} 320w, {{ site.url }}{{ f[0] }}-768.{{ f[1] }} 768w, {{ site.url }}{{ f[0] }}-1024.{{ f[1] }} 1024w, {{ site.url }}{{ f[0] }}.{{ f[1] }} 1920w{% endcapture %}
+  {% endif %}
+
+  <div class="lazyload section section-{{ forloop.index }} {{ section.class }}" {% if section_bg_image %}data-bgset="{{ data_bgset }}" data-sizes="auto"{% endif %}>
+    <div class="inner">
+      <div class="section-text">
+        <h2 class="section-title">{{ section.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+        {% if section.introduction %}
+          <div class="section-more">
+            {{ section.introduction | markdownify }}
+          </div>
+        {% endif %}
+
+        {% if section.actions %}
+          <ul class="section-actions">
+            {% for action in section.actions %}
+              <li><a href="{{ action.url }}" class="btn">{{ action.label }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}

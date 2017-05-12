@@ -2,24 +2,20 @@
 layout: default
 ---
 
-{% include site__logo.html %}
-<div id="main" class="page" role="main">
-  <article class="page__wrap">
-    {% include page__header.html %}
-    {% include page__hero.html %}
+{% include page-intro.html %}
+{% include gallery.html %}
 
-    <section class="page__content">
-      {{ content }}
-    </section>
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+      {% if page.comments == true %}
+        {% include comments.html %}
+      {% endif %}
+    </article>
 
-    {% if page.path contains '_posts' %}
-      {% include related.html %}
-    {% endif %}
-
-    {% if page.comments == true %}
-      {% include page__comments.html %}
-    {% endif %}
-  </article>
-</div>
-
-{% include ad.html %}
+    {% include footer.html %}
+  </div>
+</main>

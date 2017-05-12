@@ -4,16 +4,10 @@ permalink: /til/
 category: til
 title: &title "Today I Learned"
 alt_title: *title
-date: 2016-10-21T12:12:10-04:00
 modified:
-excerpt: "Learnings (sometimes daily) captured for posterity and educational purposes."
+excerpt: &excerpt "Learnings (sometimes daily) captured for posterity and educational purposes."
+introduction: *excerpt
 pagination: 
   enabled: true
   category: til
 ---
-
-{% include popular-tags.html %}
-<div class="list__wrap">
-  {% include paginator.html %}
-  {% include pager.html %}
-</div>

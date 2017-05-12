@@ -57,7 +57,7 @@ Now it's time to start adding detail to the tree with highlights. Using a refere
 
 <div class="notice--info" markdown="1">
 #### ProTip: Mixing Leaf Highlights
-![screenshot of yellow orange highlight color]({{ site.url }}/assets/images/paper-53-leaf-highlight-swatch.png){: .image-right}
+![screenshot of yellow orange highlight color]({{ site.url }}/assets/images/paper-53-leaf-highlight-swatch.png){: .align-right}
 If you're having trouble mixing a highlight I like to start with a green from the leaf's base, and add yellow. Yellow with orange mixed in also makes for a nice leaf highlight --- note the example on the left.
 </div>
 

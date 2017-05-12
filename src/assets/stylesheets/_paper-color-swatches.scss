@@ -5,12 +5,12 @@
 .palette {
   width: 100%;
   margin-bottom: 1em;
-  background: #171716 url("../images/paper-53-palette-bk.png");
   border-radius: 10px;
+  background: #171716 url('../images/paper-53-palette-bk.png');
 
-  &__row { // .palette__row
-    padding: 0.25em 0;
+  &__row {
     width: 100%;
+    padding: 0.25em 0;
     text-align: center;
 
     a {
@@ -27,20 +27,20 @@
     padding-bottom: 1em;
   }
 
-  &__swatch { // .palette__swatch
+  &__swatch {
     width: 60px;
     height: 60px;
     margin: 0 auto;
-    border-radius: 50%;
     border: 3px solid #000;
-
-    &:hover {
-      border: 3px solid #fff;
-    }
+    border-radius: 50%;
 
     @include breakpoint($medium) {
       width: 110px;
       height: 110px;
+    }
+
+    &:hover {
+      border: 3px solid #fff;
     }
   }
 }

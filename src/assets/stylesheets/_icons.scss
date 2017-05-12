@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Icons
+   ========================================================================== */
+
+.icon {
+  display: inline-block;
+  position: relative;
+  top: -0.125em; /* fine-tune alignment */
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  vertical-align: middle;
+  fill: currentColor;
+
+  &.spin {
+    animation: spin 2s infinite linear;
+  }
+
+  $icons: (
+    (email, #000),
+    (facebook, $facebook-color),
+    (flickr, $flickr-color),
+    (github, $github-color),
+    (googleplus, $google-plus-color),
+    (instagram, $instagram-color),
+    (rss, $rss-color),
+    (twitter, $twitter-color),
+    (youtube, $youtube-color)
+  );
+
+  @each $icon, $color in $icons {
+    &--#{$icon} {
+      fill: $color;
+    }
+  }
+
+  /* icon--arrow-left */
+  &--arrow-left {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}
+
+.emoji {
+  width: 1em;
+  max-width: 20px;
+  height: 1em;
+  max-height: 20px;
+  margin: 0;
+}

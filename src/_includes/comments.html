@@ -1,0 +1,28 @@
+<div class="entry-comments">
+  {% if site.repository and site.staticman.branch %}
+    {% if site.data.comments[page.slug] %}
+      <!-- Start static comments -->
+      <div id="comments" class="js-comments">
+        <header class="section-title">
+          <h2>{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments</h2>
+        </header>
+        {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
+        {% for comment in comments %}
+          {% assign index       = forloop.index %}
+          {% assign r           = comment.replying_to %}
+          {% assign replying_to = r | to_integer %}
+          {% assign avatar      = comment.avatar %}
+          {% assign email       = comment.email %}
+          {% assign name        = comment.name %}
+          {% assign url         = comment.url %}
+          {% assign date        = comment.date %}
+          {% assign message     = comment.message %}
+          {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
+        {% endfor %}
+      </div>
+      <!-- End static comments -->
+    {% endif %}
+
+    {% include comment-form.html %}
+  {% endif %}
+</div>

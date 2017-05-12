@@ -4,146 +4,224 @@
 
 @media print {
 
-  /* set page margins (use centimeters or inches, not pixels) */
-  @page {
-    margin: 1cm;
+  [hidden] {
+    display: none;
   }
 
   * {
-    color: #000 !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   html {
-    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
   }
 
-  /* reset styles */
-  *,
-  *:before,
-  *:after,
-  *:first-letter,
-  p:first-line,
-  div:first-line,
-  blockquote:first-line,
-  li:first-line,
-  .dark,
-  .btn,
-  button {
-    background: transparent !important;
+  body {
+    margin: 0 auto;
+    background: #fff !important;
     color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
+    font-size: 1rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
   }
 
-  /* increase width and reduce white space */
-  body,
-  .post__inner-wrapper,
-  .post__header,
-  .page__hero,
-  .container,
-  .archive__item {
-    display: block !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: #000;
+    line-height: 1.2;
   }
 
-  /* widow and orphan adjustments */
-  .page__content {
-
-    p {
-      widows: 4;
-      orphans: 3;
-    }
+  h1 {
+    font-size: 2.5rem;
   }
 
-  /* make code blocks readable */
-  div.highlighter-rouge .highlight,
-  figure.highlight .highlight {
-    padding: 0 !important;
-    background: transparent;
-    white-space: pre-wrap;
+  h2 {
+    font-size: 2rem;
   }
 
-  /* reset inline code */
-  p code, li code, figcaption code {
-    padding: 0 !important;
+  h3 {
+    font-size: 1.75rem;
   }
 
-  /* widen content*/
-  .page,
-  .index {
-    width: 100% !important;
+  h4 {
+    font-size: 1.5rem;
   }
 
-  /* adjust index list*/
-  .list article.item a {
-    margin-right: 0 !important;
+  h5 {
+    font-size: 1.25rem;
   }
 
-  /* reset buttons */
-  .btn,
-  button {
-    padding: 0 !important;
-    text-align: left !important;
+  h6 {
+    font-size: 1rem;
   }
 
-  /* hide these */
-  .masthead,
-  .overlay__menu,
-  .page__cover,
-  .splash .page__hero,
-  .site__footer,
-  .page__reactions .page__section-label,
-  .page__reactions p.instruct,
-  .page__reactions .page__form,
-  .page__related,
-  .ad,
-  nav {
-    display: none !important;
+  a {
+    background: none;
+    color: #000;
+    text-decoration: underline;
+    word-wrap: break-word;
   }
 
-  /* reveal URLs in page content links */
-  .page__content {
-    a[href^="http"]:not([href*="mademistakes.com"]):after {
-      content: " (" attr(href) ")";
-    }
+  table {
+    border-collapse: collapse;
   }
 
-  /* reveal expansions in abbreviations */
-  abbr[title]:after {
-    content: " (" attr(title) ")";
+  thead {
+    display: table-header-group;
   }
 
-  /* disable expanded links on anchor elements */
-  a[href^="#"]:after {
-    content: "";
-  }
-
-  /* QR code */
-  #qr {
-    display: block !important;
-    visibility: visible !important;
-    padding-top: 0.5em;
-    border-top: 1px solid;
-
-    p {
-      font-size: 0.8rem;
-    }
-  }
-
-  /* prevent from being cut-off */
-  figure,
-  img,
   table,
+  th,
+  td {
+    border-bottom: 1px solid #000;
+  }
+
+  td,
+  th {
+    padding: 8px 16px;
+  }
+
+  img {
+    display: block;
+    max-width: 100% !important;
+    border: 0;
+    vertical-align: middle;
+  }
+
+  hr {
+    height: 0;
+    margin: 2.25rem 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid #bbb;
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  abbr[title],
+  acronym[title] {
+    border: 0;
+    text-decoration: none;
+  }
+
+  table,
+  blockquote,
+  pre,
+  code,
+  figure,
+  li,
+  hr,
   ul,
   ol,
-  .notice,
-  .notice--info,
-  .notice--warning ,
-  .notice--success,
-  .notice--danger,
-  .archive__item {
+  a,
+  tr {
     page-break-inside: avoid;
+  }
+
+  h2,
+  h3,
+  h4,
+  p,
+  a {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  h1 + p,
+  h2 + p,
+  h3 + p {
+    page-break-before: avoid;
+  }
+
+  img {
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: avoid;
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word;
+  }
+
+  a[href^='http://']::after,
+  a[href^='https://']::after,
+  a[href^='ftp://']::after {
+    font-size: 80%;
+    content: ' (' attr(href) ')';
+  }
+
+  abbr[title]::after,
+  acronym[title]::after {
+    content: ' (' attr(title) ')';
+  }
+
+  .page-break,
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  a.no-reformat::after {
+    content: '';
+  }
+
+  abbr[title].no-reformat::after,
+  acronym[title].no-reformat::after {
+    content: '';
+  }
+
+  .btn {
+    background: none;
+    color: #000;
+  }
+
+/*
+   Hide the following elements on print
+   ========================================================================== */
+
+  .sidebar-toggle-wrapper,
+  .title-area,
+  .pager,
+  .site-footer,
+  .adsbygoogle,
+  #respond {
+    display: none !important;
   }
 }

@@ -2,12 +2,12 @@
 title: "365 Days of Drawing Faces"
 excerpt: "Year one of my 365 day portrait project may be over, but I'm just getting started."
 image: 
-  path: &image /assets/images/paperfaces-476-portraits-lg.jpg
+  path: &image /assets/images/paperfaces-476-portraits.jpg
   feature: *image
   teaser: /assets/images/paperfaces-476-portraits-teaser.jpg
   thumbnail: /assets/images/paperfaces-476-portraits-thumb.jpg
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
-comments: true
+last_modified_at: 2017-05-08T15:45:23-04:00
 ---
 
 Today my 365 project titled [**PaperFaces**]({{ site.url }}/paperfaces/) turns one --- holy smokes! In this past year I've managed to illustrate 476 portraits, make a ton of new *Paper friends*, burned through a few pen styli, and rekindled my passion for drawing. 

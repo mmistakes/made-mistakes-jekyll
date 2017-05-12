@@ -1,0 +1,10 @@
+{% if page.breadcrumbs %}
+  {% assign crumb = page.breadcrumbs[0] %}
+  <ul class="breadcrumbs">
+    <li>
+      <a href="{{ crumb.url | relative_url }}">
+        <svg class="icon icon--back-arrow" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-back-arrow' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> {{ crumb.label }}
+      </a>
+    </li>
+  </ul>
+{% endif %}

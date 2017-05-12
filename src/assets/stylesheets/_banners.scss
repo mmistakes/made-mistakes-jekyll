@@ -38,21 +38,21 @@
 
 /* footer ad */
 .adsense--footer {
-  margin-top: 2em;
-  margin-bottom: 2em;
   width: 300px;
   height: 250px;
-  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
   border-bottom: 0 solid transparent;
+  text-align: center;
 
   @include breakpoint($small) {
-    margin-left: 2em;
     margin-right: 2em;
+    margin-left: 2em;
   }
 
   @include breakpoint($x-large) {
-    margin-left: 3em;
     margin-right: 3em;
+    margin-left: 3em;
   }
 
   @media (min-width: 500px) and (max-width: $medium-wide) {

@@ -32,7 +32,7 @@ I'm probably wrong and this isn't suppose to be a catalog. What would be the poi
 Oh never mind. At Least one page out of 48 must have read Ellen Lupton's [*Thinking with Type*](http://www.amazon.com/gp/product/1568989695/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1568989695). Away with fully justified type and in with a lovely rag on the right. And would you look at this, size, weight, and placement changes to help lead you from section to section. I might actually be able to figure out what descriptions go with each piece of clothing. Now if I could only tell if that's a 1 or a capital i.    
 
 ![Urban Outfitters April 2011 Cover photo]({{ site.url }}/assets/images/UO-spring11-cover.png)
-{: .image-right}
+{: .align-right}
 
 ## Typography Rulez
 

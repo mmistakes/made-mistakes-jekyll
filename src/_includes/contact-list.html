@@ -1,0 +1,37 @@
+<ul class="contact-list">
+  {% if site.author.github %}
+    <li>
+      <a href="https://github.com/{{ site.author.github }}">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-github' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
+        <span class="label">GitHub</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.author.twitter %}
+    <li>
+      <a href="https://twitter.com/{{ site.author.twitter }}">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-twitter' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
+        <span class="label">Twitter</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.author.instagram %}
+    <li>
+      <a href="https://instagram.com/{{ site.author.instagram }}">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-instagram' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
+        <span class="label">Instagram</span>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if site.feed.path %}
+    <li>
+      <a href="{{ site.feed.path }}" title="Atom Feed">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-rss' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
+        <span class="label">Subscribe</span>
+      </a>
+    </li>
+  {% endif %}
+</ul>

@@ -1,9 +1,9 @@
 {% comment %}Build a tag index filtered by current category{% endcomment %}
 {% assign filterCategory = page.pagination.category | default: page.category %}
 
-<div class="popular__list">
-  <h3 class="nav-list__title">Popular Topics</h3>
-  <ul class="nav-list">
+<div class="popular-list">
+  <h3 class="menu--title">Popular Topics</h3>
+  <ul class="menu">
     {% assign tagLimiter = 0 %}
     {% for tag in site.tags %}
       {% comment %}create an empty array{% endcomment %}

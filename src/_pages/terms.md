@@ -1,7 +1,6 @@
 ---
 permalink: /terms/
 title: "Terms and Policies"
-date: 2014-06-22
 last_modified_at: 2016-08-29T22:03:48-04:00
 excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
 share: false

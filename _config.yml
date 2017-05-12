@@ -4,17 +4,12 @@ destination              : .tmp/dist
 
 title                    : "Made Mistakes"
 description              : "Personal website of designer slash illustrator Michael Rose."
-logo                     : /assets/images/site-logo.png
-teaser                   : /assets/images/default-teaser.png
+teaser                   : "/assets/images/default-teaser.png"
 locale                   : "en_US"
 words_per_minute         : 200
-title_separator          : "×"
 
 repository               : "mmistakes/made-mistakes-jekyll"
 url                      : "https://mademistakes.com"
-
-twitter:
-  username               : "mmistakes"
 
 social:
   name                   : "Michael Rose"
@@ -34,12 +29,20 @@ google_ad-client         : "ca-pub-7328585512091257"
 google_ad-slot           : "3049671934"
 google_analytics         : "UA-2011187-1"
 
+feed:
+  path: "http://feeds.feedburner.com/MadeMistakes"
+
+favicon_version         : "5A54z5oklP"
+
+pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
+webmention_url          : "https://webmention.io/mademistakes.com/webmention"
+
 # Site owner
 author:
   name                   : "Michael Rose"
   url                    : "https://mademistakes.com/about/"
   bio                    : "Just another boring, tattooed, time traveling designer."
-  picture                : "/assets/images/bio-photo.jpg"
+  picture                : "/assets/images/michael-rose-glitched.jpg"
   twitter                : "https://twitter.com/mmistakes"
   facebook               : "https://www.facebook.com/michaelrose"
   instagram              : "https://www.instagram.com/mmistakes/"
@@ -123,7 +126,7 @@ defaults:
       path: _posts/articles
       type: posts
     values:
-      layout: page
+      layout: post
       category: articles
       read_time: true
       breadcrumbs:
@@ -134,7 +137,7 @@ defaults:
       path: _posts/mastering-paper
       type: posts
     values:
-      layout: page
+      layout: post
       category: mastering-paper
       read_time: true
       comments: true
@@ -146,7 +149,7 @@ defaults:
       path: _posts/paperfaces
       type: posts
     values:
-      layout: work
+      layout: post
       category: paperfaces
       breadcrumbs:
         - label: "PaperFaces Portraits"
@@ -159,7 +162,7 @@ defaults:
       path: _posts/procreate
       type: posts
     values:
-      layout: work
+      layout: post
       category: procreate-paintings
       breadcrumbs:
         - label: "Procreate Paintings"
@@ -172,7 +175,7 @@ defaults:
       path: _posts/til
       type: posts
     values:
-      layout: page
+      layout: post
       category: til
       read_time: true
       comments: true
@@ -184,7 +187,7 @@ defaults:
       path: _posts/tiny-paintings
       type: posts
     values:
-      layout: work
+      layout: post
       category: tiny-paintings
       breadcrumbs:
         - label: "Tiny Paintings"
@@ -197,7 +200,7 @@ defaults:
       path: _posts/work
       type: posts
     values:
-      layout: work
+      layout: post
       category: work
       breadcrumbs:
         - label: "Work"

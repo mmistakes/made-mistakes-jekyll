@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <div>{{ content }}</div>
+
+    <div>
+      <header class="section-title">
+        <h2>
+          {% if page.alt_title %}
+            {{ page.alt_title | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% elsif page.autopages %}
+            {{ page.autopages.display_name }}
+          {% else %}
+            {{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% endif %}
+        </h2>
+      </header>
+      <div class="entries">
+        {% include posts-paginated.html %}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </div>
+</main>

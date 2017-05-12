@@ -1,7 +1,6 @@
 ---
 title: "How do you export high resolution Paper drawings to the Camera Roll?"
 type: paper
-date: 2014-12-07
 last_modified_at: 2014-12-08T12:25:58-05:00
 order: 7
 ---

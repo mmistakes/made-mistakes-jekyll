@@ -1,16 +1,8 @@
 ---
-layout: archive
+layout: archive_work
 permalink: /work/
 title: "Work Portfolio"
-date: 2014-06-02T15:05:16-04:00
-last_modified_at: 2017-05-06T22:11:59-04:00
-excerpt: "A selection of things I've designed, illustrated, and developed."
+excerpt: &excerpt "A selection of things I've designed, illustrated, and developed."
+introduction: *excerpt
 ads: false
 ---
-
-{% assign sorted_work = site.work | sort: 'order' %}
-<div class="list__wrap">
-  {% for post in sorted_work %}
-    {% include archive__item.html %}
-  {% endfor %}
-</div>

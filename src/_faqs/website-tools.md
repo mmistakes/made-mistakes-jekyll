@@ -1,7 +1,6 @@
 ---
 title: "What tools do you use to build your website?"
 type: other
-date: 2014-12-07
 last_modified_at: 2017-04-20T08:52:06-04:00
 comments: true
 comments_locked: true

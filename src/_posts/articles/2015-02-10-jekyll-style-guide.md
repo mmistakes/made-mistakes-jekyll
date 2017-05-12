@@ -1,6 +1,6 @@
 ---
 title: "Building a Style Guide with Jekyll"
-last_modified_at: 2016-08-29T16:27:27-04:00
+last_modified_at: 2017-05-11T11:40:40-04:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 tags: [Jekyll, style guide, open source, web development, GitHub]
 image:
@@ -261,9 +261,9 @@ To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/mast
 
 Updating and adding components to the [style guide]({{ site.url }}/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
 
-<div markdown="0">
-  <a href="{{ site.url }}/style-guide/" class="btn btn--info"><i class="fa fa-eye"></i> View Made Mistakes' Style Guide</a>
-  <a href="https://github.com/mmistakes/made-mistakes-jekyll/archive/master.zip" class="btn"><i class="fa fa-download"></i> Download</a>
+<div markdown="0" class="btn--group">
+  <a href="{{ site.url }}/style-guide/" class="btn btn--info">View Made Mistakes' Style Guide</a>
+  <a href="https://github.com/mmistakes/made-mistakes-jekyll/archive/master.zip" class="btn"><svg class="icon icon--download" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-download' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> Download</a>
 </div>
 
 As always [my code is available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll/) for download and forking. The Style Guide is integrated with the rest of Made Mistakes so you may have to rip out some stuff if you end up using it. 

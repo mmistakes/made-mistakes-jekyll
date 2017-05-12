@@ -1,0 +1,12 @@
+{% assign favicon_version = site.favicon_version | default: 'RyowzAOe9M' | prepend: '?v=' %}
+
+<link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | prepend: '/assets/images/' | relative_url | append: favicon_version }}">
+<link rel="icon" type="image/png" href="{{ 'favicon-32x32.png' | prepend: '/assets/images/' | relative_url | append: favicon_version }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ 'favicon-16x16.png' | prepend: '/assets/images/' | relative_url | append: favicon_version }}" sizes="16x16">
+<link rel="manifest" href="{{ 'manifest.json' | prepend: '/assets/images/' | relative_url | append: favicon_version }}">
+<link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | prepend: '/assets/images/' | relative_url | append: favicon_version }}" color="#00848a">
+<link rel="shortcut icon" href="{{ 'favicon.ico' | prepend: '/assets/images/' | relative_url | append: favicon_version }}">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+<meta name="application-name" content="{{ site.title }}">
+<meta name="msapplication-config" content="{{ 'browserconfig.xml' | prepend: '/assets/images/' | relative_url | append: favicon_version }}">
+<meta name="theme-color" content="#000000">

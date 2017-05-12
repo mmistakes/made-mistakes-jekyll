@@ -1,7 +1,6 @@
 ---
 title: "Why do you share your drawings on Paper for anyone to download?"
 type: paper
-date: 2014-12-07
 last_modified_at: 2015-11-30T14:27:33-05:00
 order: 10
 ---

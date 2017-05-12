@@ -2,34 +2,21 @@
 layout: default
 ---
 
-{% assign taxonomy = page.autopages.display_name | downcase | slugify %}
-{% assign tag = site.data.taxonomy[taxonomy] %}
+{% include page-intro.html %}
 
-<div class="index">
-  {% include site__logo.html %}
-  <div id="main" role="main">
-    <div class="page__wrap">
-      {% include page__header.html %}
-      <div class="page__cover"></div>
-      <div class="list">
-        <div class="popular__list">
-          <h3 class="nav-list__title">Popular Topics</h3>
-          <ul class="nav-list">
-            {% assign sorted_tags_by_posts_count = site.tags | sort_tags_by_posts_count %}
-            {% for topic in sorted_tags_by_posts_count limit:5 %}
-              {% unless topic[0] == taxonomy %}
-                <li><a href="{{ site.url }}/tag/{{ topic[0] | replace:' ','-' | downcase }}/" class="tag__item">{{ topic[0] | replace:' ','&nbsp;' }}</a></li>
-              {% endunless %}
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="list__wrap">
-          {% include paginator.html %}
-          {% include pager.html %}
-        </div>
-      </div>
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <div>{{ content }}</div>
+
+    {% if page.autopages %}
+      <header class="section-title">
+        <h2>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</h2>
+      </header>
+    {% endif %}
+    <div class="entries">
+      {% include posts-paginated.html %}
     </div>
-  </div>
-</div>
 
-{% include ad.html %}
+    {% include footer.html %}
+  </div>
+</main>

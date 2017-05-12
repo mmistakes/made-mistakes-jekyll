@@ -1,188 +1,135 @@
 /* ==========================================================================
-   BASE ELEMENTS
+   Base elements
    ========================================================================== */
-
-* {
-  box-sizing: border-box;
-}
-
-/*
-   Breakpoint-Sass
-   ========================================================================== */
-
-@include breakpoint-set('to ems', true);
-
-/*
-   Typography
-   ========================================================================== */
-
-// modular scale
-// 3.052em
-// 2.441em
-// 1.953em
-// 1.563em
-// 1.25em
-// 1em
-// 0.8em
-// 0.64em
-// 0.512em
-// 0.41em
-// 0.328em
 
 html {
-  font-family: $serif;
-  font-size: 100%;
-  line-height: 1.625;
-  color: #333;
-
-  @include breakpoint($medium) {
-    font-size: 115%;
-  }
-
-  @include breakpoint($large) {
-    font-size: 125%;
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 135%;
-  }
+  @include fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size);
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  background: $background-color;
+  color: $text-color;
 }
 
-small {
-  font-size: 0.8em;
-}
-
-u,
-ins {
-  text-decoration: none;
-  border-bottom: 1px solid $text-color;
-
-  a {
-    color: inherit;
-  }
-}
-
-del a {
-  color: inherit;
-}
-
-/* reduce orphans and widows when printing */
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
-  orphans: 3;
-  widows: 3;
-}
-
-/* abbreviations */
-abbr[title],
-abbr[data-original-title] {
-  text-decoration: none;
-  cursor: help;
-  border-bottom: 1px dotted $text-color;
-}
-
-/* Blockquotes */
-
-blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
+blockquote,
+q {
+  color: tint($text-color, 40%);
   font-style: italic;
-  border-left: 0.25em solid $highlighter-color;
-
-  a {
-    color: inherit;
-  }
 
   cite {
-    font-family: $sans-serif;
-    font-size: 0.8rem;
+    font-size: 80%;
     font-style: normal;
+    font-weight: bold;
 
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
+    &::before {
+      padding-right: 0.25rem;
+      content: '\2014';
     }
   }
 }
 
-/* Links */
+code,
+kbd,
+samp,
+pre {
+  font-family: $monospace-font-family;
+}
 
-a {
-  color: $link-color;
-  text-decoration: none;
+kbd {
+  display: inline-block;
+  margin: 0 0.125em;
+  padding: 0.125em 0.5em;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 3px;
+  background-color: rgb(247, 247, 247);
+  text-shadow: 0 1px 0 #fff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #fff;
+}
 
-  &:focus {
-    @extend %tab-focus;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headline-font-family;
+  text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
+}
 
-  &:hover,
-  &:active {
-    color: $link-color-hover;
-    outline: 0;
-  }
+h1 {
+  @include fluid-type($min-vw, $max-vw, $h1-min, $h1-max);
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
+h2 {
+  @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
+}
 
-  &:visited {
-    color: $link-color-visited;
+h3 {
+  @include fluid-type($min-vw, $max-vw, $h3-min, $h3-max);
+}
+
+h4 {
+  @include fluid-type($min-vw, $max-vw, $h4-min, $h4-max);
+}
+
+h5 {
+  @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
+}
+
+h6 {
+  @include fluid-type($min-vw, $max-vw, $h6-min, $h6-max);
+}
+
+dt {
+  font-weight: bold;
+
+  &:not(:first-child) {
+    margin-top: 1rem;
   }
 }
 
-/* Code */
-
-tt, code, kbd, samp, pre {
-  font-family: $monospace;
-  font-size: 0.8rem;
+dd {
+  margin: 0;
 }
 
 pre {
-  overflow-x: auto; // add scrollbars to wide code blocks
+  @include fluid-type($min-vw, $max-vw, 12px, 14px);
 }
 
-p code,
-li code,
-figcaption code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: 0.8em;
-  background: $inline-code-background;
-  border-radius: $border-radius;
+figure {
+  margin-right: 0;
+  margin-left: 0;
 
-  &:before, &:after {
-    letter-spacing: -0.2em;
-    content: "\00a0"; // non-breaking space
+  > img {
+    width: 100%;
   }
 }
 
-/* Horizontal rule */
-
-hr {
-  display: block;
-  margin: 1em 0;
-  border: 0;
-  border-top: 0.125em solid $border-color;
+figcaption {
+  margin: 0.5rem 0;
+  font-size: 80%;
 }
 
-/*
-   Media and embeds
-   ========================================================================== */
+a {
+  color: $accent-color;
+
+  &:hover {
+    color: shade($accent-color, 25%);
+  }
+
+  &:visited {
+    color: tint($accent-color, 50%);
+  }
+}
+
+*:focus {
+  border-color: rgba($accent-color, 0.5);
+  outline: none;
+  box-shadow: 0 0 10px rgba($accent-color, 0.5);
+}
 
 img {
-  /* Responsive images (ensure images don't scale beyond their parents) */
-  max-width: 100%; /* part 1: Set a maximum relative to the parent*/
-  width: auto\9; /* IE7-8 need help adjusting responsive images*/
-  height: auto; /* part 2: Scale the height according to the width, otherwise you get stretching*/
-
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
 
   /* lazysizes plugin */
   &[data-sizes="auto"] {
@@ -191,15 +138,9 @@ img {
   }
 }
 
-/* fix IE9 SVG bug */
-svg:not(:root) {
-  overflow: hidden;
-}
+li {
 
-/*
-   Global animation transition
-   ========================================================================== */
-
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .palette__swatch {
-  transition: $global-transition;
+  > img {
+    margin: 1rem 0;
+  }
 }
