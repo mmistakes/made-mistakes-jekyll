@@ -33,9 +33,6 @@
         {% if page.date %}
           {% include author %}
           <p class="entry-meta">
-            {% if author_name %}
-              <span class="byline-item">{{ author_name | prepend: 'by ' }}</span>
-            {% endif %}
             <span class="byline-item"><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | relative_url }}"></use></svg><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time></span>
             {% if page.work %}
               <span class="byline-item"><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>&nbsp;{{ page.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
