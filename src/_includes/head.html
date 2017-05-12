@@ -43,10 +43,8 @@
       <style>{% include critical-home.css %}</style>
     {% elsif page.layout == "archive" or page.layout == "archive_work" or page.layout == "autopage_tags" %}
       <style>{% include critical-archive.css %}</style>
-    {% elsif page.layout == "post" %}
+    {% elsif page.layout == "post" or page.layout == "page" %}
       <style>{% include critical-post.css %}</style>
-    {% else %}
-      <style>{% include critical-page.css %}</style>
     {% endif %}
   <!--#endif-->
   <!-- htmlmin:ignore -->
