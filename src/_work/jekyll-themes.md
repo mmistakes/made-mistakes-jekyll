@@ -49,7 +49,6 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 
 <div markdown="0" class="btn--group">
-  <a href="https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://github.com/mmistakes/jekyll-theme-basically-basic" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" class="btn">Demo</a>
 </div>
@@ -72,7 +71,6 @@ A flexible two-column Jekyll theme with a minimalistic aesthetic.
   - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
 
 <div markdown="0" class="btn--group">
-  <a href="https://github.com/mmistakes/minimal-mistakes/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
 </div>
@@ -92,7 +90,6 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
   - Built-in support for Sass and data files (requires Jekyll 2.x).
 
 <div markdown="0" class="btn--group">
-  <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
 </div>
@@ -112,7 +109,6 @@ A simple and clean responsive Jekyll theme for words and large photographs.
   - Built-in support for Sass and data files (requires Jekyll 2.x)
 
 <div markdown="0" class="btn--group">
-  <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
 </div>
@@ -133,7 +129,6 @@ A Jekyll starter based off of an older incarnation of Made Mistakes.
   - Optional table of contents, share links, Disqus comments modules, and more.
 
 <div markdown="0" class="btn--group">
-	<a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn btn--info">Download</a>
 	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
 </div>
