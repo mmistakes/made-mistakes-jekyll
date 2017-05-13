@@ -11,8 +11,16 @@
   background-color: $section-bg-color;
 
   .inner {
-    max-width: $medium;
-    padding: 7.5vw 5vw;
+    padding: 10vh 5vw;
+    max-width: 80%;
+
+    @include breakpoint($medium) {
+      max-width: 60%;
+    }
+
+    @include breakpoint($large) {
+      max-width: 50%;
+    }
   }
 
   .btn {
@@ -69,7 +77,12 @@
 
 .section-more {
 
-  > p:first-child {
+  // > p:first-child {
+  //   font-size: 1.125em;
+  //   line-height: 1.625;
+  // }
+
+  @include breakpoint($large) {
     font-size: 1.125em;
     line-height: 1.625;
   }
@@ -101,7 +114,6 @@
 
     .inner {
       position: relative;
-      width: 75%;
       z-index: 1; /* fix overlap with scrimgradient */
     }
 
@@ -121,7 +133,30 @@
   }
 
   &--about {
-    $section-about-bg-color: mix(#000, #002228, 50%);
+    $section-about-bg-color: mix(#000, #4b3624, 50%);
+
+    background-color: $section-about-bg-color;
+
+    &::before {
+      @include scrimgradient('to right', $section-about-bg-color);
+    }
+
+    .section-title,
+    .section-more {
+      text-shadow: 1px 01px 1px rgba($section-about-bg-color, 0.75);
+    }
+
+    .btn {
+      color: $section-about-bg-color !important;
+
+      &:hover {
+        background-color: mix($section-about-bg-color, #fff, 10%);
+      }
+    }
+  }
+
+  &--about {
+    $section-about-bg-color: mix(#000, #2a201b, 50%);
 
     background-color: $section-about-bg-color;
 

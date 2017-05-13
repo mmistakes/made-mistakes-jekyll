@@ -6,14 +6,15 @@ excerpt: "Making stuff one mistake at a time."
 section:
   - title: "A Faux Pas"
     class: "section--inverse section--about"
-    image: /assets/images/design-faux-pas-glitched.jpg
+    image: /assets/images/michael-rose-glitched.jpg
     introduction: |
       I'm just another boring, tattooed, *time traveling designer* from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad, and playing Xbox.
     actions:
       - label: "Learn More"
         url: "/about/"
   - title: "Blog Articles"
-    class: "section--articles"
+    class: "section--inverse section--articles"
+    image: /assets/images/blog-articles.jpg
     introduction: |
       A collection of thoughts, inspiration, mistakes, and other minutia I've written. Topics covered include [*web development*](tag/web-development/), [*Jekyll tutorials*](/tag/jekyll/), [*design*](/tag/design/), [#TIL](/til/), and [more](/tag/).
     actions:
