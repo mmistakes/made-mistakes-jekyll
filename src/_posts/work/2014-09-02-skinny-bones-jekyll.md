@@ -1,5 +1,5 @@
 ---
-title: "Skinny Bones, a Jekyll&#160;Starter"
+title: "Skinny Bones, a Jekyll Starter"
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
 image: 
   path: &image /assets/images/skinny-bones-preview-feature.jpg
@@ -23,7 +23,7 @@ This was a good excuse to learn Sass and figured starting a new repository to ex
 
 I like to think of Skinny Bones as a starter for building your own Jekyll powered site --- versus a theme you use as is. I've purposely kept the styling minimal and light to make adding your own flare and markup easier. If that's not your thing you can still use it without modification, but where is the fun in that?
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
