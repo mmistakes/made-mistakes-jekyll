@@ -35,7 +35,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/assets/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
 </figure>
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
