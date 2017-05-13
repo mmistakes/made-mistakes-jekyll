@@ -43,7 +43,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 2. Fork the [So Simple Theme repo](http://github.com/mmistakes/so-simple-theme/)
 3. Make it your own and [customize, customize, customize](https://mmistakes.github.io/so-simple-theme/theme-setup/).
 
-<div markdown="0">
+<div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/so-simple-theme/archive/master.zip" class="btn btn--info">Download</a>
   <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
