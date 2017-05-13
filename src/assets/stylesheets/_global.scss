@@ -7,9 +7,9 @@
   margin: 0;
   padding: 1.8125rem 5vw;
   padding-right: calc(10vw + #{$navicon-width}); /* make room for sidebar toggle */
-  font-family: $base-font-family;
   font-weight: bold;
   line-height: 1;
+  text-transform: uppercase;
 
   a {
     display: flex;

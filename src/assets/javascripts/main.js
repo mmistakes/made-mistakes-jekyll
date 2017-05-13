@@ -1,7 +1,7 @@
 // asynchronously load fonts
 WebFontConfig = {
   google: {
-    families: ['Fira Sans:400,400italic,600,600italic']
+    families: ['Fira Sans:400,400i,600,600i', 'Roboto:400,400i,700']
   }
 };
 

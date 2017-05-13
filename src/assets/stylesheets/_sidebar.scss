@@ -10,6 +10,7 @@
   max-width: $sidebar-width;
   height: 100%;
   z-index: 50;
+  font-family: $headline-font-family;
 
   @include breakpoint($large) {
     max-width: (1.5 * $sidebar-width);
@@ -124,5 +125,6 @@
 .sidebar-toggle-label {
   order: 2;
   margin-left: 0.5rem;
+  font-family: $monospace-font-family;
   font-weight: bold;
 }
