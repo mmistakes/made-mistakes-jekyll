@@ -16,11 +16,11 @@ comments: true
 last_modified_at:
 ---
 
-Just shy of 1,000 posts, this Jekyll-based site takes longer than I'd like to build. What started as a few seconds has turned into a half an hour of optimizing assets, looping through Liquid and churning out thousands of HTML files.
+This Jekyll-based site takes longer than I'd like to build. What once took a few seconds now lasts over a half an hour as assets are optimized and thousands of HTML files are churned out.
 
-Inspired by Anne Tomasevich's post [Optimizing Jekyll Performance with Gulp](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html), I set out determine what parts of my site's build process could use some love.
+Inspired by Anne Tomasevich's post [Optimizing Jekyll Performance with Gulp](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html), I dug into my build process to determine what parts needed the most optimizing.
 
-At the time of testing my site contained roughly:
+At this time my site contained roughly:
 
 - 1,014 images generated at different sizes.
 - 6,986 total images.
@@ -29,7 +29,7 @@ At the time of testing my site contained roughly:
 
 And was built with the following Jekyll plugins: [jekyll-picture-tag][jekyll-picture-tag], [sort_name][sort_name], [jekyll-archives][jekyll-archives], [jekyll-assets][jekyll-assets], [jekyll/tagging][jekyll/tagging], [jekyll-tagging-related_posts][jekyll-tagging-related_posts], [jekyll-sitemap][jekyll-sitemap], and [jemoji][jemoji].
 
-Using Jekyll's profiler flag `--profile` I measured how long the following tasks took to complete[^3-trials]. Each time running `jekyll clean` prior to wipe `_site`, `.asset-cache` and any other `.tmp` folders.
+Using Jekyll's profiler flag `--profile` I measured how long the following tasks took to complete[^3-trials]. Before each build I ran `jekyll clean` to wipe `_site`, `.asset-cache` and any other temporary files to keep results more consistent.
 
 [^3-trials]: Each task was run 3 times and averaged as the values produced by `jekyll build --profile` varied quite a bit.
 
@@ -69,19 +69,17 @@ For giggles I also tested my Windows and Mac development environments against ea
 
 ## Optimization
 
-The numbers above don't lie. Relying on Jekyll and friends to do jobs more suited for a task runner like [**Gulp**][gulpjs] was slowing the build down. Time to fold [Gulp][gulpjs] into the build process and let Jekyll do what it was meant to --- convert Markdown into HTML files.
+The numbers above don't lie. Relying on Jekyll and friends to do jobs more suited for a task runner like [**Gulp**][gulpjs] was slowing the build down. Armed with this knowledge I begun looking for ways to pull out anything I could from Jekyll, not related to converting Markdown into HTML.
 
-The added benefit being if this worked out to be faster I'd have a set of content that was more portable and not reliant on Jekyll. In the off-chance I wanted to swap it for another static-site generator like [**Hugo**](https://gohugo.io/) or [**Gatsby**](https://github.com/gatsbyjs/gatsby), I could.
+The added benefit being, if this worked out to be faster I'd have a set of content that was more portable and not reliant on Jekyll. In the off-chance I wanted to swap Jekyll for another static-site generator like [**Hugo**](https://gohugo.io/) or [**Gatsby**](https://github.com/gatsbyjs/gatsby), I could.
 
 ### CSS and JavaScript Assets
 
-[**Jekyll Assets**][jekyll-assets] is a great plugin that served me well for a long time by. It's also painfully slow when you have a site of my size and are trying to iterate on CSS changes quickly.
+[**Jekyll Assets**][jekyll-assets] is a great plugin that served me well for a long time by preprocessing, vendor prefixing, concatenating, minifying, and fingerprinting assets. It's also painfully slow when you have a site of my size and are trying to iterate on CSS changes quickly.
 
-Making a change to a Sass partial would trigger a full site rebuild, which meant waiting at least 2 minutes before I could preview it. There has to be a better way... [Gulp][gulpjs] + [Browsersync][browsersync].
+Making a change to a Sass partial would trigger a full site rebuild, which meant waiting at least 2 minutes before I could preview it. Jekyll's incremental build feature might help here, but I never had much luck getting it to work reliably.
 
-The goal was to have CSS or JavaScript changes pushed instantly to the browser without forcing a rebuild. To do this I configured a set of tasks to preprocess, vendor prefix, and concatenate these assets into a temporary location that Browsersync would watch.
-
-Everything the [Jekyll Assets][jekyll-assets] plugin did, could be replaced with faster Gulp tasks:
+Ideally during development, CSS or JavaScript changes would be pushed instantly to the browser with something like [Browsersync][browsersync]. By replacing the [Jekyll Assets][jekyll-assets] plugin with the following Gulp alternatives I saw a 93% improvement in build time:
 
 - [**node-sass**][node-sass] and [**gulp-sass**][gulp-sass]: natively compile SCSS files to CSS.
 - [**gulp-autoprefixer**][gulp-autoprefixer]: vendor prefix CSS.
@@ -96,19 +94,27 @@ Everything the [Jekyll Assets][jekyll-assets] plugin did, could be replaced with
 | --- | ---: | ---: |
 | CSS and JavaScript asset pipeline | 25.031s | 1.577s |
 
-Here's a small taste of the [Gulp file](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulp/tasks/assets.js) I'm using for the site's styles:
+Here's a small taste of the [Gulp file](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulp/tasks/assets.js) I'm using for the site's styles if you're curious:
 
 ```javascript
 // 'gulp styles' -- creates a CSS file from SCSS, adds prefixes and creates a Sourcemap
 // 'gulp styles --prod' -- creates a CSS file from your SCSS, adds prefixes,
 //   minifies, and cache busts it (does not create a Sourcemap)
 gulp.task('styles', () => {
-  return gulp.src([paths.sassFiles + '/style.scss'])
+  return gulp.src([paths.sassFiles + '/main.scss'])
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))
-    // add vendor prefixes
-    .pipe(postcss([autoprefixer({browsers: ['last 2 versions', '> 5%', 'IE 9']})]))
+    .pipe(postcss([
+      // add vendor prefixes
+      autoprefixer({
+        browsers: [
+          'last 2 versions',
+          '> 5%',
+          'IE 9'
+        ]
+      })
+    ]))
     // minify for production
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
     .pipe(size({showFiles: true}))
@@ -132,6 +138,7 @@ function reload(done) {
   browserSync.reload();
   done();
 }
+
 // 'gulp serve' -- open site in browser and watch for changes
 //   in source files and update them when needed
 gulp.task('serve', (done) => {
@@ -150,6 +157,8 @@ gulp.task('serve', (done) => {
   gulp.watch(paths.sassFilesGlob, gulp.series('styles', reload));
 });
 ```
+
+Without going to far into Gulp the basic idea here is a glob of files is piped through various plugins and placed in a temporary folder. This folder is excluded from Jekyll so it doesn't trigger a build during development and later moved when ready for deployment. 
 
 ### Image Assets
 
@@ -179,7 +188,7 @@ The other missing piece was generating the necessary markup for responsive image
 
 [^rwd-images]: In the last couple of years several "cloud" solutions have emerged to make serving responsively sized images easier. [**Cloudinary**](http://cloudinary.com/)(free plan), [**imgix**](https://www.imgix.com/)(paid plans), and [**ImageEngine**](free plan) just to name a few.
 
-```html
+```liquid
 {% raw %}{% if page.image.feature %}
   {% assign f = page.image.feature | split: '.' %}
   <img src="{{ site.url }}{{ f[0] }}-320.{{ f[1] }}"
@@ -435,7 +444,7 @@ Want to combine several categories into one paginator object? Jekyll Paginate v2
 
 **Step 3:** Output the posts by looping through the `paginator.posts` array. A simple example would look something like this:
 
-```html
+```liquid
 <ul>
   {% raw %}{% for post in paginator.posts %}
     <!-- what you want to output. title, url, image, etc. -->
@@ -446,7 +455,7 @@ Want to combine several categories into one paginator object? Jekyll Paginate v2
 
 And for "next/previous" navigation links you can do something like this:
 
-```html
+```liquid
 {% raw %}{% if paginator.total_pages > 1 %}
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">Newer Posts</a>
@@ -509,7 +518,7 @@ breadcrumbs:
 
 Then using this Liquid and HTML it's outputted in my layout:
 
-```html
+```liquid
 {% raw %}{% if page.breadcrumbs %}
   {% assign crumb = page.breadcrumbs[0] %}
   <a href="{{ crumb.url }}"><strong>{{ crumb.label }}</strong></a>
@@ -526,7 +535,7 @@ breadcrumbs:
     url: /level-2/
 ```
 
-```html
+```liquid
 {% raw %}{% if page.breadcrumbs %}
   <ul class="breadcrumbs">
     {% for crumb in page.breadcrumbs %}
