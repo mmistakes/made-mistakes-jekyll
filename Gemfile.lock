@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/jekyll/jekyll-seo-tag.git
-  revision: 908237c7adc86c7b8529d25ffe0864ab0c554777
+  revision: 7c643224e5ed7956cd84527f132c7fc74ebb8ab6
   specs:
-    jekyll-seo-tag (2.2.2)
+    jekyll-seo-tag (2.2.3)
       jekyll (~> 3.3)
 
 GEM
@@ -59,12 +59,12 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
-    minitest (5.10.1)
-    nokogiri (1.7.1)
+    minitest (5.10.2)
+    nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
-    nokogiri (1.7.1-x64-mingw32)
+    nokogiri (1.7.2-x64-mingw32)
       mini_portile2 (~> 2.1.0)
-    nokogiri (1.7.1-x86-mingw32)
+    nokogiri (1.7.2-x86-mingw32)
       mini_portile2 (~> 2.1.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
