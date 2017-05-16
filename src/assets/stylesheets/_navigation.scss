@@ -40,6 +40,7 @@
 .pager {
   @include clearfix();
   margin-bottom: 2rem;
+  font-family: $monospace-font-family;
 
   ul {
     @include list-unstyled;
