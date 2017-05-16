@@ -31,7 +31,9 @@ select[multiple=multiple] {
   margin-bottom: 0.25em;
   padding: 0.75em;
   transition: border-color;
-  border: 1px solid $form-border-color;
+  border-color: $form-border-color;
+  border-style: solid;
+  border-width: 1px 1px 4px 1px;
   border-radius: $form-border-radius;
   background-color: #fff;
   font-family: $form-font-family;
