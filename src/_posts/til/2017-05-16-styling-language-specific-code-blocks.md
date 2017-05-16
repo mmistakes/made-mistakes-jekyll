@@ -1,13 +1,13 @@
 ---
 title: "Styling Language Specific Code Blocks with Jekyll"
 layout: page
-excerpt: "While inspecting the markup of some syntax highlighted code blocks I noticed something I hadn't before, language-xxxx classes..."
+excerpt: "While inspecting the markup of some syntax highlighted code blocks I noticed something I hadn't before, `language-lexer` classes..."
 tags: [web development, Jekyll, Markdown, Kramdown, Rouge, CSS]
 image:
 last_modified_at: 2017-05-16T16:24:26-04:00
 ---
 
-While inspecting the markup of some syntax highlighted code blocks I noticed something I hadn't before, `language-xxxx` classes:
+While inspecting the markup of some syntax highlighted code blocks I noticed something I hadn't before, `language-lexer` classes:
 
 ```html
 <div class="language-css highlighter-rouge">
