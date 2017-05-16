@@ -4,8 +4,8 @@ excerpt: "The question of how to write a list inside of a table cell with Kramdo
 image:
   thumbnail: /assets/images/kramdown-table-html-th.jpg
   cover: /assets/images/kramdown-table-html-cover.jpg
-tags: [web development, Kramdown, GitHub, Jekyll]
-last_modified_at:
+tags: [web development, Kramdown, Markdown, Jekyll]
+last_modified_at: 2017-05-16T14:46:40-04:00
 ---
 
 The question of how to write a list inside of a table cell with [**Kramdown**](http://kramdown.gettalong.org/) recently came up in [this Jekyll Talk thread](https://talk.jekyllrb.com/t/unable-to-display-a-list-inside-a-table-cell/3246) --- prompting me to look for a solution.
