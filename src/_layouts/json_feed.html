@@ -62,11 +62,11 @@ layout: null
           "image": "{{ post_image }}",
         {% endif %}
         {% if post.tags.size > 1 %}
-        "tags": [
-          {% for tag in post.tags %}
-            "{{ tag }}"{% if forloop.last == false %},{% endif %}
-          {% endfor %}
-        ],
+          "tags": [
+            {% for tag in post.tags %}
+              "{{ tag }}"{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+          ],
         {% endif %}
         {% if post.date %}"date_published": "{{ post.date | date_to_xmlschema }}",{% endif %}
         {% if post.last_modified_at %}"date_modified": "{{ post.last_modified_at | date_to_xmlschema }}",{% endif %}
