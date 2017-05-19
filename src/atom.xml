@@ -1,13 +1,6 @@
 ---
-limit: 10
+layout: atom_feed
+limit: 25
+title: "Feed"
 sitemap: false
 ---
-{% include feed/head.xml %}
-
-  {% include feed/author.xml %}
-
-  {% for post in site.posts limit: page.limit %}
-    {% include feed/entry.xml %}
-  {% endfor %}
-
-</feed>

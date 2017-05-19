@@ -41,7 +41,8 @@ webmention_url          : "https://webmention.io/mademistakes.com/webmention"
 # Site owner
 author:
   name                   : "Michael Rose"
-  url                    : "https://mademistakes.com/about/"
+  uri                    : &uri "https://mademistakes.com/about/"
+  url                    : *uri
   bio                    : "Just another boring, tattooed, time traveling designer."
   picture                : "/assets/images/michael-rose-glitched.jpg"
   twitter                : "https://twitter.com/mmistakes"

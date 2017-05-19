@@ -1,4 +1,0 @@
-{% capture feed_footer %}
-  <p><a href="{{ site.url }}{{ post.url }}" rel="nofollow">{{ post.title }}</a> was originally published {% if site.author.name %}by <a href="{{ site.author.url | default: site.url }}" rel="nofollow">{{ site.author.name }}</a>{% endif %} on <a href="{{ site.url }}" rel="nofollow">{{ site.title }}</a></p>
-{% endcapture %}
-{{ feed_footer | markdownify | xml_escape }}

@@ -985,15 +985,13 @@ RewriteRule . $1/ [R=301,L]
 # Feed redirects
 # ----------------------------------------------------------------------
 
-redirect 301 /atom/ http://feeds.feedburner.com/MadeMistakes
-redirect 301 /rss/ http://feeds.feedburner.com/MadeMistakes
-redirect 301 /test/atom.xml http://feeds.feedburner.com/MadeMistakes
-redirect 301 /feed.xml http://feeds.feedburner.com/MadeMistakes
-redirect 301 /everything.xml http://feeds.feedburner.com/MadeMistakes
-redirect 301 /everything-1.xml http://feeds.feedburner.com/MadeMistakes
-redirect 301 /everything-2.xml http://feeds.feedburner.com/MadeMistakes
-redirect 301 /summary.xml http://feeds.feedburner.com/MadeMistakes
-redirect 301 /summary-2.xml http://feeds.feedburner.com/MadeMistakes
+redirect 301 /atom/ https://mademistakes.com/atom.xml
+redirect 301 /rss/ https://mademistakes.com/atom.xml
+redirect 301 /feed.xml https://mademistakes.com/atom.xml
+redirect 301 /everything.xml https://mademistakes.com/atom.xml
+redirect 301 /articles-feed.xml https://mademistakes.com/articles.xml
+redirect 301 /mastering-paper-feed.xml https://mademistakes.com/mastering-paper.xml
+redirect 301 /paperfaces-feed.xml https://mademistakes.com/paperfaces.xml
 
 # ----------------------------------------------------------------------
 # Sitemap redirects
