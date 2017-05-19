@@ -56,7 +56,7 @@ layout: null
         {% assign post_image = post.image.feature | post.image.path | default: post.image %}
         {% if post_image %}
           {% unless post_image contains "://" %}
-            {% assign post_image = post_image | absolute_url | xml_escape  %}
+            {% assign post_image = post_image | absolute_url | xml_escape %}
           {% endunless %}
           {% capture post_image_html %}<img src="{{ post_image }}" alt="">{% endcapture %}
           {{ post_image_html | markdownify | xml_escape }}
