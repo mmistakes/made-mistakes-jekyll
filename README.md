@@ -322,10 +322,5 @@ how to create individual inject tags and inject specific files into them.
 
 ### Posts and Pages
 
-By default Google AdSense is enabled on all posts and pages. To disable add 
-`ads: false` to the YAML Front Matter.
-
 Comments are disabled by default. To enable add `comments: true` to the YAML 
-Front Matter.
-
-Preferred method is to add as YAML Front Matter defaults to `_config.yml`.
+Front Matter. Preferred method is to enable via YAML Front Matter defaults in `_config.yml`.
