@@ -77,13 +77,11 @@ layout: null
         {% assign post_author_uri = post_author.uri | default: nil %}
         {% assign post_author_name = post_author.name | default: post_author %}
 
-        {% if post_author %}
-          "author": {
-            "name": {{ post_author_name | default: '' | jsonify }},
-            {% if post_author_email %}"email": {{ post_author_email | jsonify }},{% endif %}
-            {% if post_author_uri %}"url": {{ post_author_uri | jsonify }}{% endif %}
-          }
-        {% endif %}
+        "author": {
+          "name": {{ post_author_name | default: '' | jsonify }},
+          "email": {{ post_author_email | jsonify }},
+          "url": {{ post_author_uri | jsonify }}
+        }
       }{% if forloop.last == false %},{% endif %}
     {% endfor %}
   ]
