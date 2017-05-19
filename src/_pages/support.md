@@ -1,7 +1,7 @@
 ---
 permalink: /support/
 title: "Show Your Support"
-last_modified_at: 2017-05-09T12:27:36-04:00
+last_modified_at: 2017-05-19T12:31:20-04:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 ---
 
@@ -51,11 +51,17 @@ If these sorts of things interest you, follow along on:
 
 ## Subscribe to the Feeds
 
-All of the content on Made Mistakes is made available for free via syndicated feeds[^rss].
+The main feed[^feed] for everything on Made Mistakes. 
 
-Subscribing to the [**All Posts**](http://feeds.feedburner.com/MadeMistakes) feed will nab you everything posted to Made Mistakes. While the following feeds are more topic focused.
+- Atom: [{{ 'atom.xml' | absolute_url }}]({{ 'atom.xml' | absolute_url }})
+- JSON: [{{ 'feed.json' | absolute_url }}]({{ 'feed.json' | absolute_url }})
 
-- [Blog Articles](http://feeds.feedburner.com/MadeMistakesArticles)
-- [Paper by FiftyThree Tutorials](http://feeds.feedburner.com/MadeMistakesMasteringPaper)
+### Topic Only Feeds
 
-[^rss]: Right click any of the feed links found on this page and paste into your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
+- Articles: [{{ 'articles.xml' | absolute_url }}]({{ 'articles.xml' | absolute_url }})
+- Paper by FiftyThree Tutorials: [{{ 'mastering-paper.xml' | absolute_url }}]({{ 'mastering-paper.xml' | absolute_url }})
+- PaperFaces iPad Portraits: [{{ 'paperfaces.xml' | absolute_url }}]({{ 'paperfaces.xml' | absolute_url }})
+- Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | absolute_url }}]({{ 'procreate-paintings.xml' | absolute_url }})
+- Today I Learned Posts: [{{ 'til.xml' | absolute_url }}]({{ 'til.xml' | absolute_url }})
+
+[^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
