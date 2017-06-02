@@ -11,9 +11,16 @@
   height: 100%;
   z-index: 50;
   font-family: $headline-font-family;
+  visibility: hidden;
+  transition: visibility 0s 0.3s;
 
   @include breakpoint($large) {
     max-width: (1.5 * $sidebar-width);
+  }
+
+  &.is--visible {
+    visibility: visible;
+    transition: visibility 0s 0s;
   }
 
   li {
