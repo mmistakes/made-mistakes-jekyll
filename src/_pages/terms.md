@@ -1,9 +1,8 @@
 ---
 permalink: /terms/
 title: "Terms and Policies"
-last_modified_at: 2016-08-29T22:03:48-04:00
-excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won’t read."
-share: false
+last_modified_at: 2017-06-15T09:14:54-04:00
+excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won't read."
 ---
 
 This is my personal website written and edited by me. Your use of this website, in any and all forms, constitutes an acceptance of these terms and policies. This page is reviewed and revised from time to time.
@@ -39,10 +38,6 @@ If you wish to disable cookies, you may do so through your web browser options. 
 
 Amazon, a third party affiliate marketing network, uses cookies to help make sure I get a commission when you buy a product after clicking on a link or ad banner that takes you to the site of one of their merchants. You can read [Amazon's Privacy Policy](http://www.amazon.com/gp/help/customer/display.html?nodeId=468496).
 
-#### Google Adsense
-
-Google Adsense, a third party affiliate marketing network, uses cookies to help make sure I get a commission when you buy a product after clicking on a link or ad banner that takes you to the site of one of their merchants. You can read [Google Adsense Privacy Policy](http://support.google.com/adsense/bin/answer.py?hl=en&answer=48182).
-
 #### Google Analytics
 
 Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
@@ -50,8 +45,6 @@ Google Analytics is a web analytics tool I use to help understand how visitors e
 ## Disclosure Policy
 
 I make money on this website through affiliate programs. If you click an affiliate link or ad banner and buy the product, you help support this website because I'll get a percentage of that sale.
-
-Currently I'm an affiliate for Amazon and Google Adsense.
 
 What this means for you:
 
@@ -68,6 +61,6 @@ All original content (e.g. articles, blog posts, illustrations, artwork, and pho
 
 ### Attribution
 
-If you're inclined to give credit --- a link back to the source article attributed to either [Made Mistakes]({{ site.url }}) or [Michael Rose]({{ site.url }}) is good enough for me. If you don't want to attribute my content, hey that's cool too. Just don't go stealing my stuff and republishing it as your own.
+If you're inclined to give credit --- a link back to the source article attributed to either [Made Mistakes]({{ site.url }}) or [Michael Rose]({{ site.url }}) is good enough for me. If you don't want to attribute my content, hey that's cool too. Just don't go stealing stuff and republishing it as your own.
 
 *Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}*
