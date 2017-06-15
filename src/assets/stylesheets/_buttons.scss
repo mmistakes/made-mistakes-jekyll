@@ -16,10 +16,6 @@
   text-decoration: none;
   cursor: pointer;
 
-  @include breakpoint(max-width $medium) {
-    margin-bottom: 0.125em;
-  }
-
   &:hover {
     background-color: tint($accent-color, 20%);
     color: #fff;
@@ -42,7 +38,24 @@
   }
 
   &--group {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2rem;
+
+    @include breakpoint($medium) {
+      flex-direction: row;
+    }
+
+    .btn {
+      margin-bottom: 0.25em;
+    }
+
+    .btn + .btn {
+
+      @include breakpoint($medium) {
+        margin-left: 0.25em;
+      }
+    }
   }
 
   /* block button fills width of parent container */
@@ -129,9 +142,5 @@
         background-color: mix(#000, $color, 20%);
       }
     }
-  }
-  
-  & + & {
-    margin-left: .5em;
   }
 }
