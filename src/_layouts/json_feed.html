@@ -6,10 +6,18 @@ layout: null
 
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": {{ site.title | smartify | jsonify }},
+  {% if page.title %}
+    "title": {{ page.title | smartify | jsonify }},
+  {% elsif site.title %}
+    "title": {{ site.title | smartify | jsonify }},
+  {% endif %}
   "home_page_url": "{{ '/' | absolute_url }}",
-  "feed_url": "{{ 'feed.json' | absolute_url }}",
-  {% if site.description %}"description": {{ site.description | jsonify }},{% endif %}
+  "feed_url": "{{ page.url | absolute_url }}",
+  {% if page.excerpt %}
+    "description": {{ page.excerpt | strip_html | normalize_whitespace | jsonify }},
+  {% elsif site.description %}
+    "description": {{ site.description | strip_html | normalize_whitespace | jsonify }},
+  {% endif %}
   "icon": "{{ 'apple-touch-icon.png' | prepend: '/assets/images/' | absolute_url }}",
   "favicon": "{{ 'apple-touch-icon.png' | prepend: '/assets/images/' | absolute_url }}",
   {% if site.author %}
