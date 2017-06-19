@@ -92,6 +92,7 @@ exclude:
   - config
   - Gemfile
   - Gruntfile.js
+  - gulpfile.js
   - log
   - node_modules
   - package.json
