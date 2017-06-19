@@ -100,7 +100,7 @@ exclude:
   - tmp
 
 # Plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-seo-tag
