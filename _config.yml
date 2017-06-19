@@ -31,7 +31,7 @@ google_ad-slot           : "3049671934"
 google_analytics         : "UA-2011187-1"
 
 feed:
-  path: "http://feeds.feedburner.com/MadeMistakes"
+  path                  : "https://mademistakes.com/atom.xml"
 
 favicon_version         : "5A54z5oklP"
 
