@@ -4,4 +4,4 @@
 
 {% assign index_js = site.data.js-manifest['index.js'] | default: 'index.js' | prepend: 'assets/javascripts/' | absolute_url %}
 
-<script src="{{ index_js }}"></script>
+<script async src="{{ index_js }}"></script>
