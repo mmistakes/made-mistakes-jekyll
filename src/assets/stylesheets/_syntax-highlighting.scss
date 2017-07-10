@@ -3,8 +3,17 @@
    ========================================================================== */
 
 .highlight {
-  padding: 1em;
+  margin-right: -5vw;
+  margin-left: -5vw;
+  padding: 1em 5vw;
   background-color: $code-background-color;
+
+  @include breakpoint($large) {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
 
   pre {
     width: 100%;
