@@ -16,20 +16,20 @@ comments: true
 last_modified_at:
 ---
 
-This Jekyll-based site takes longer than I'd like to build. What once took a few seconds now lasts over a half an hour as assets are optimized and thousands of HTML files are churned out.
+This Jekyll-based site takes longer than I'd like to build. What once was a few seconds, now lasts over 30 minutes as assets are optimized and thousands of HTML files are generated.
 
-Inspired by Anne Tomasevich's post [Optimizing Jekyll Performance with Gulp](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html), I dug into my build process to determine what parts needed the most optimizing.
+Inspired by Anne Tomasevich's post, [**Optimizing Jekyll Performance with Gulp**](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html) --- I begun digging into my build process to find areas for improvement.
 
-At this time my site contained roughly:
+At the time of writing this post, my site contained roughly:
 
 - 1,014 images generated at different sizes.
 - 6,986 total images.
 - 1052 total documents ([991 posts](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_posts) / [14 pages](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_pages) / 3 sets of collections).
-- 535 comments stored as YAML data files.
+- [535 comments](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_data/comments) stored as YAML data files.
 
-And was built with the following Jekyll plugins: [jekyll-picture-tag][jekyll-picture-tag], [sort_name][sort_name], [jekyll-archives][jekyll-archives], [jekyll-assets][jekyll-assets], [jekyll/tagging][jekyll/tagging], [jekyll-tagging-related_posts][jekyll-tagging-related_posts], [jekyll-sitemap][jekyll-sitemap], and [jemoji][jemoji].
+And was built with the following Jekyll plugins: [jekyll-picture-tag][jekyll-picture-tag], [sort_name][sort_name], [jekyll-archives][jekyll-archives], [jekyll-assets][jekyll-assets], [jekyll/tagging][jekyll/tagging], [jekyll-tagging-related_posts][jekyll-tagging-related_posts], [jekyll-sitemap][jekyll-sitemap], [jemoji][jemoji], and [jekyll-category-post-navigation][jekyll-category-post-navigation].
 
-Using Jekyll's profiler flag `--profile` I measured how long the following tasks took to complete[^3-trials]. Before each build I ran `jekyll clean` to wipe `_site`, `.asset-cache` and any other temporary files to keep results more consistent.
+Using Jekyll's profiler flag `--profile`, I measured how long the following tasks took to complete[^3-trials]. Before each build I ran `jekyll clean` to wipe `_site`, `.asset-cache` and any other temporary files to keep results more consistent.
 
 [^3-trials]: Each task was run 3 times and averaged as the values produced by `jekyll build --profile` varied quite a bit.
 
@@ -69,15 +69,17 @@ For giggles I also tested my Windows and Mac development environments against ea
 
 ## Optimization
 
-The numbers above don't lie. Relying on Jekyll and friends to do jobs more suited for a task runner like [**Gulp**][gulpjs] was slowing the build down. Armed with this knowledge I begun looking for ways to pull out anything I could from Jekyll, not related to converting Markdown into HTML.
+The numbers above don't lie. Relying on Jekyll and friends to do jobs more suited for a task runner like [**Gulp**][gulpjs] was slowing the build. Armed with this knowledge I started stripping down Jekyll to its core --- Markdown conversion and HTML generation.
 
-The added benefit being, if this worked out to be faster I'd have a set of content that was more portable and not reliant on Jekyll. In the off-chance I wanted to swap Jekyll for another static-site generator like [**Hugo**](https://gohugo.io/) or [**Gatsby**](https://github.com/gatsbyjs/gatsby), I could.
+By doing this it also allowed me to make my site's content more portable and not reliant on a specific static-site generator. In the off-chance I wanted to swap Jekyll for another SSG like [**Hugo**](https://gohugo.io/) or [**Gatsby**](https://github.com/gatsbyjs/gatsby), I could.
+
+*[SSG]: Static-site generator
 
 ### CSS and JavaScript Assets
 
-[**Jekyll Assets**][jekyll-assets] is a great plugin that served me well for a long time by preprocessing, vendor prefixing, concatenating, minifying, and fingerprinting assets. It's also painfully slow when you have a site of my size and are trying to iterate on CSS changes quickly.
+[**Jekyll Assets**][jekyll-assets] is a great plugin that served me well for a long time by: preprocessing, vendor prefixing, concatenating, minifying, and fingerprinting assets. It's also painfully slow when used to iterate on the front-end of large site like mine.
 
-Making a change to a Sass partial would trigger a full site rebuild, which meant waiting at least 2 minutes before I could preview it. Jekyll's incremental build feature might help here, but I never had much luck getting it to work reliably.
+Making a change to a Sass partial would trigger a full site rebuild, which meant waiting at least 2 minutes before this change could be previewed in a browser. Jekyll's incremental build feature might help here, but I never had much luck getting it to work reliably.
 
 Ideally during development, CSS or JavaScript changes would be pushed instantly to the browser with something like [Browsersync][browsersync]. By replacing the [Jekyll Assets][jekyll-assets] plugin with the following Gulp alternatives I saw a 93% improvement in build time:
 
@@ -85,10 +87,12 @@ Ideally during development, CSS or JavaScript changes would be pushed instantly 
 - [**gulp-autoprefixer**][gulp-autoprefixer]: vendor prefix CSS.
 - [**gulp-cssnano**][gulp-cssnano]: minify CSS.
 - [**gulp-concat**][gulp-concat]: concatenate JavaScript.
-- [**gulp-uglify**][gulp-uglify]: minify JavaScript with UglifyJS.
+- [**gulp-uglify**][gulp-uglify]: minify JavaScript with [UglifyJS](https://www.npmjs.com/package/uglifyjs).
 - [**gulp-sourcemaps**][gulp-sourcemaps]: add source maps for CSS and JS.
 - [**gulp-gzip**][gulp-gzip]: gzip CSS and JS.
 - [**gulp-rev**][gulp-rev]: append hash to CSS and JS filenames for cache busting.
+
+*[SCSS]: Sassy CSS
 
 | Task description | Jekyll Assets | Gulp |
 | --- | ---: | ---: |
@@ -158,17 +162,23 @@ gulp.task('serve', (done) => {
 });
 ```
 
-Without going to far into Gulp the basic idea here is a glob of files is piped through various plugins and placed in a temporary folder. This folder is excluded from Jekyll so it doesn't trigger a build during development and later moved when ready for deployment. 
+Without going to far into how these Gulp tasks work, the basic idea is this.
+
+1. A glob of files have "stuff" done to them using various plugins.
+2. These files are placed in a temporary folder excluded from Jekyll so they don't trigger builds during development.
+3. On production builds these temp files are moved and deployed alongside the files generated by Jekyll.
 
 ### Image Assets
 
-Resizing a thousand or so images just to serve them responsively is no joke --- taking over 20 minutes to complete in my site's case. Up until now I was using the [Jekyll Picture Tag][jekyll-picture-tag] plugin to do this work for me.
+Resizing a thousand or so images to serve them responsively is no joke --- taking over 20 minutes to complete in my site's case. Up until now I was using the [Jekyll Picture Tag][jekyll-picture-tag] plugin to do this work for me... which wasn't ideal.
 
 To try and see if [Node][nodejs] and [Gulp][gulpjs] could do this faster I came up with a set of Gulp tasks to:
 
-1. Generate thousands of feature images a 4 different sizes with [**gulp-responsive**](https://github.com/mahnunchik/gulp-responsive).
+1. Generate thousands of "feature" images[^feature-image] at 4 different sizes with [**gulp-responsive**](https://github.com/mahnunchik/gulp-responsive).
 2. Optimize all images using [**gulp-imagemin**](https://github.com/sindresorhus/gulp-imagemin).
 3. Save the optimized images directly to the destination folder, bypassing Jekyll completely.
+
+[^feature-image]: I classify "features" as large, often full-width images popularized by **Bootstrap** and its [Jumbotron component](https://v4-alpha.getbootstrap.com/components/jumbotron/).
 
 This helped some, but it wasn't until I [dropped GraphicsMagick](https://github.com/mmistakes/made-mistakes-jekyll/commit/56bbd9bf5429a269047a41e045cc2ef0bf34e62b) for [Sharp](https://github.com/lovell/sharp)[^sharp-gif] did I see a noticeable improvement...
 
@@ -184,7 +194,7 @@ I shaved 18 minutes off my build time using this high speed [Node.js](https://no
 | Resize and optimize 1,014 source images into 5 target sizes | 1288.29s | 171.00s |"
 %}
 
-The other missing piece was generating the necessary markup for responsive images[^rwd-images]. Because I was no longer using `{% raw %}{% picture %}{% endraw %}` tag to output a fully formed [`<picture>` element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/), I had to roll my own responsive image markup. 
+The other missing piece was generating the necessary markup for responsive images[^rwd-images]. Because I was no longer using the `{% raw %}{% picture %}{% endraw %}` tag to output a fully formed [`<picture>` element](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/), I had to roll my own responsive image markup. 
 
 [^rwd-images]: In the last couple of years several "cloud" solutions have emerged to make serving responsively sized images easier. [**Cloudinary**](http://cloudinary.com/)(free plan), [**imgix**](https://www.imgix.com/)(paid plans), and [**ImageEngine**](free plan) just to name a few.
 
@@ -213,13 +223,13 @@ With the bulk of the time savings coming from faster image resizing tasks, I wen
 
 #### Remove Social Sharing Module
 
-Including buttons at the bottom (or top of post) didn't really boost my content on Twitter or Facebook, so I dropped them. If someone really wants to share it on social media they'll use the built-in methods of iOS/Android or copy/paste the old fashioned way.
+Including buttons at the bottom (or top of post) didn't really boost shares of my content on Twitter or Facebook --- so I dropped them. If someone really wants to share it on social media they'll use the built-in methods of iOS/Android or do it the old fashioned way of copy-pasting a URL.
 
 #### Replace `layout: compress`
 
-On occasion things on the site would break if inline JavaScript with `//` comments was used. This was due to how the [`compress` layout](http://jch.penibelst.de/) was reducing whitespace with a complex set of Liquid filters.
+Occasionally things on the site would break if inline JavaScript with `//` styled comments were used. This happened because of a complex set of Liquid filters used in my [`compress` layout][compress-layout] to reduce whitespace in the generated HTML.
 
-The fix is easy, just surround inline JavaScript comments with `/* */` instead. Even better, switch to [**gulp-htmlmin**][gulp-htmlmin] and [**gulp-gzip**][gulp-gzip] to knock file sizes even more.
+The fix was easy, just surround inline JavaScript comments with `/* */` instead. Or do what I did, stop using `layout: compress` and minify with these Gulp plugins instead: [**gulp-htmlmin**][gulp-htmlmin] and [**gulp-gzip**][gulp-gzip].
 
 ```javascript
 // 'gulp html' -- does nothing
@@ -249,16 +259,18 @@ gulp.task('html', () => {
 {% include notice type="warning" content="
 #### Minifying HTML with Gulp
 
-In my tests replacing Liquid filters found in `layout: compress` with Gulp tasks to minify and gzip every HTML file ended up being slower. The extra 30 seconds of build time were worth it for me though...
+In my tests, replacing [`_layouts/compress.html`](http://jch.penibelst.de/) with Gulp tasks to minify and gzip every HTML file ended up being slightly slower.
 
 | Task description | compress layout | gulp-html and gulp-gzip |
 | --- | | ---: | ---: | ---: |
-| Minify HTML files | 39.348s | 47.00s |"
+| Minify HTML files | 39.348s | 47.00s |
+
+I'm willing to live with the extra 8 seconds of build time as it helps avoid potential site breakages due to badly minified scripts..."
 %}
 
 #### Reduce and Replace JavaScript
 
-I'm close to ditching jQuery and going vanilla, but I'm not there yet. Where possible I ditched jQuery plugins and [replaced with "lighter" alternatives](https://github.com/mmistakes/made-mistakes-jekyll/issues/84). Here's a few highlights:
+I'm close to ditching jQuery and going vanilla, but I'm not quite there yet. Where possible I've ditched jQuery plugins and [replaced with "lighter" alternatives](https://github.com/mmistakes/made-mistakes-jekyll/issues/84). Here's a few highlights:
 
 - Replaced [**Magnific Popup**](https://github.com/dimsemenov/Magnific-Popup) with [**Lity**](http://sorgalla.com/lity/).
 - Replaced [**Lazyload**](https://github.com/verlok/lazyload) with [**Lazysizes**](https://github.com/aFarkas/lazysizes) + [Lazysizes responsive images polyfill extension](https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/respimg).
@@ -267,12 +279,12 @@ I'm close to ditching jQuery and going vanilla, but I'm not there yet. Where pos
 
 ### Results
 
-Decoupling the asset pipeline from Jekyll and Gulp-ifying it was the biggest improvement made. Updates to CSS, JavaScript, images and icons could be previewed almost instantly now with [Browsersync](browsersync). Greatly speeding up the time it took to redesign and develop the site.
+Decoupling the asset pipeline from Jekyll and Gulp-ifying it made the biggest splash in terms of build time. Along with [Browsersync][browsersync] any asset (CSS, JavaScript, images and icons) updates could be previewed almost instantly. Greatly speeding up the time it takes to develop and iterate the site's front-end.
 
 {% include notice type="info" content="
-#### Made Mistakes Gulpfiles
+#### Made Mistakes Gulp files
 
-Set of Gulp tasks were heavily inspired by Sondre Nilsen's [**Jekyllized Yeoman generator**](https://github.com/sondr3/generator-jekyllized). The main [`gulpfile.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulpfile.js) is broken down into [smaller bits](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks): assets, build, clean, copy, html, images, and uploading.
+This set of Gulp tasks were heavily inspired by those in Sondre Nilsen's [**Jekyllized Yeoman generator**](https://github.com/sondr3/generator-jekyllized). The main [`gulpfile.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulpfile.js) is broken down into [smaller bits](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks): assets, build, clean, copy, html, images, and uploading.
 
 With [`paths.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulp/paths.js) assigning all of the various paths used throughout the files to DRY things up."
 %}
@@ -281,26 +293,25 @@ With [`paths.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/
 
 ## Automation/Continuous Integration
 
-After ditching Disqus last year to [roll my own static-based solution]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}) powered by [**Staticman**](https://staticman.net/), I needed to find a better way of deploying the site. Merging in new comments, pulling those commits down, building the site locally, and then deploying to my web server wasn't ideal.
+After ditching Disqus last year to [roll my own static-based solution]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}) powered by [**Staticman**](https://staticman.net/), I needed to find a better way of deploying the site. Merging in new comments, manually pulling those commits down, manually building the site locally, and then deploying to my web server wasn't ideal.
 
 With some research I determined a continuous integration[^ci] platform like **Travis CI**[^ci-platforms] that integrates with GitHub was what I needed. 
 
 [^ci]: Continuous integration is a DevOps software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run.
 
-[^ci-platforms]: There are several CI platforms and services out there that can automate testing, building, and deploying a JAMstack site. [Circle CI](https://circleci.com/), [Codeship](https://www.codeship.io/), [Travis CI][travis-ci], [GitLab CI](https://ci.gitlab.org/), and [Netlify](https://www.netlify.com/) to name a few.
+[^ci-platforms]: There are several CI platforms and services out there that can automate testing, building, and deploying a JAMstack site. [Netlify](https://www.netlify.com/), [Circle CI](https://circleci.com/), [Codeship](https://www.codeship.io/), [Travis CI][travis-ci], and [GitLab CI](https://ci.gitlab.org/) to name a few.
 
 Setting things up with Travis CI wasn't too painful, but there was some trial and error getting dependencies squared away. I'd suggest reading through [their documentation](https://docs.travis-ci.com/) but the basic idea is:
 
 1. [Sign in to Travis CI](https://travis-ci.org/auth) with your GitHub account and grant it access.
-2. Add a [`.travis.yml`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/.travis.yml) file to your repository to tell Travis CI how to build and deploy it.
-3. Set if you want Travis CI to build on branch updates, pull requests, or both.
-4. Trigger a Travis CI build anytime a Git commit is pushed.
+2. Configure the build and deployment scripts with a [`.travis.yml`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/.travis.yml) file.
+3. Set the type of triggers[^triggers] that initiate a build.
+
+[^triggers]: Branch updates, pull requests, or both.
 
 ### Travis CI Config
 
-Let's take a closer look at step 2, the `.travis.yml` config file and how I setup everything.
-
-Jekyll is a Ruby static site generator so naturally we'll want this:
+Let's take a closer look the `.travis.yml` config file and how I've set it up.
 
 ```yaml
 language: ruby
@@ -308,13 +319,13 @@ rvm:
   - 2.2
 ```
 
-For a quicker build start time I wanted to use the new [container-based infrastructure](https://docs.travis-ci.com/user/migrating-from-legacy/) so:
+Since Jekyll is built on Ruby we set the language to `ruby`. Depending on what version of Jekyll you're using you can change `rvm` to meet your needs. I went with `2.2` since that's the latest [Travis CI provides](https://docs.travis-ci.com/user/languages/ruby/#Supported-Ruby-Versions-and-RVM).
 
 ```yaml
 sudo: false
 ```
 
-Build only from the `master` branch:
+This enables quicker build start times using the new [container-based infrastructure](https://docs.travis-ci.com/user/migrating-from-legacy/).
 
 ```yaml
 branches:
@@ -322,7 +333,7 @@ branches:
     - master
 ```
 
-Since Travis CI runs installs all the dependencies in the `Gemfile` along with Node.js modules needed for all of the Gulp tasks, this can slow builds down. Thankfully there's a way to enable caching of these dependencies so they don't have to install each build.
+Fairly obvious, build only from the `master` branch.
 
 ```yaml
 cache:
@@ -332,7 +343,9 @@ cache:
     - node_modules # NPM packages
 ```
 
-For [Sharp](https://github.com/lovell/sharp) to properly install it needs [GCC, GNU Compiler Collection](https://gcc.gnu.org/) which can be done with the [APT Addon](https://docs.travis-ci.com/user/installing-dependencies/#Installing-Packages-with-the-APT-Addon) and enabling a newer version of `gcc/g++`.
+Travis CI pulls down and installs gem and Node.js modules before every build. Depending on what you have in your `Gemfile` and `package.json` files this can take a bit of time. 
+
+The above lines enable caching of these dependencies eliminating this installation step.
 
 ```yaml
 addons:
@@ -345,6 +358,8 @@ addons:
 env:
   CXX=g++-4.8
 ```
+
+Enables the [GCC, GNU Compiler Collection](https://gcc.gnu.org/) using [APT Addon](https://docs.travis-ci.com/user/installing-dependencies/#Installing-Packages-with-the-APT-Addon) and a newer version of `gcc/g++` to properly install [Sharp](https://github.com/lovell/sharp).
 
 ### Travis CI Build Lifecycle
 
@@ -366,7 +381,7 @@ My [build lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-
        branch: master
    ```
 
-With everything configured I no longer need to build locally and deploy. I can merge in comments or make small edits to Markdown files directly on GitHub from my phone and automatically trigger a build.
+With everything configured I no longer need to build locally and deploy. I can merge in comments or make small edits to Markdown files directly on GitHub, and automatically trigger a site build/deploy.
 
 If there's a problem Travis CI will notify me, otherwise in ~15 minutes (or however long the build takes) any changes committed will be live on the site.
 
@@ -375,27 +390,22 @@ If there's a problem Travis CI will notify me, otherwise in ~15 minutes (or howe
 
 Travis CI comes in handy if you want to use Jekyll plugins or a more advanced Gulp workflow like I am. There are [deployment scripts](https://docs.travis-ci.com/user/deployment/pages/) specifically for this purpose. 
 
-[Netlify](https://www.netlify.com/), [GitLab](https://pages.gitlab.io/), and friends also do similar things if you're feeling constrained by what's currently allowed on GH Pages."
+[Netlify](https://www.netlify.com/), [GitLab](https://pages.gitlab.io/), and friends also do similar things if you're feeling constrained by what's currently allowed by GitHub Pages."
 %}
 
 ## Other Jekyll Related Bits
 
 ### Pagination Upgrades
 
-Looking to wring a little more #WebPerf juice out of my site, I went after category and tag archive pages. Depending on the tag, these `index.html` pages could be quite hefty due to including HTML for hundreds of post teasers.
+Looking to wring a little more #WebPerf juice out of my site, I went after category and tag archive pages next. Depending on the tag, these `index.html` pages could be quite hefty due to the amount of HTML needed to display hundreds of post teasers.
 
-To cut them down to size I needed a way of paginating these pages. Jekyll has an [official pagination plugin](http://jekyllrb.com/docs/pagination/), but unfortunately it's limited (and deprecated). [**Jekyll Paginate v2**][jekyll-paginate-v2] on the other hand is fully featured, backwards compatible, and actively being developed.
+To trim them down in size I needed a way of paginating these pages into small chunks. Jekyll has an [official pagination plugin](http://jekyllrb.com/docs/pagination/), but unfortunately it's limited (and deprecated). [**Jekyll Paginate v2**][jekyll-paginate-v2] on the other hand is fully featured, backwards compatible, and actively being developed.
 
-Describe rational for pagination and the benefits of using jekyll-paginate-v2 over the stock Jekyll pagination plugin.
+In addition to paginating posts it can also handle: [collections](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#paginating-collections), [categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories), [tags](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-tags), and [locales](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-locales) (useful if you have a multi-language site).
 
-- [Paginate collection](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#paginating-collections)
-- [Paginate categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories)
-- [Paginate tags](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-tags)
-- [Paginate locales](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-locales)
+It doesn't stop there though! It has a built-in generator called [**Auto-Pages**][auto-pages] to create tag, category, and collection archives. Which unlike [**Jekyll Archives**][jekyll-archives], can all be paginated.
 
-There's even built-in generator called [Auto-Pages][auto-pages] to create tag, category, and collection archives. Which unlike [Jekyll Archives][jekyll-archives], can all be paginated.
-
-With a few changes to my `_config.yml` file and the creation of a [tag archive layout](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_layouts/autopage_tags.html) I was ready to roll.
+With a few changes to my `_config.yml` file and adapting my Jekyll Archive [layout](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_layouts/autopage_tags.html) to work with [Jekyll Paginate v2][jekyll-paginate-v2], I was ready to roll.
 
 ```yaml
 # Plugin: Pagination (jekyll-paginate-v2)
@@ -424,11 +434,11 @@ autopages:
     permalink  : "/tag/:tag"
 ```
 
-For category archives I created my own bespoke pages for finer control over them. There's three parts to getting this to work:
+For category archives I created my own bespoke pages. Mostly because it was easier to customize them than generating with [Auto-Pages][auto-pages].
 
-**Step 1:** Create your archive page... let's use my [Articles archive]({{ site.url }}/article/) as an example. I like to keep all of my pages together so I created `articles.md` and placed it in a [folder named `_pages`]({{ site.url }}{% post_url /articles/2016-02-17-using-jekyll-2016 %}#pages-for-everything-else}), but you could just as easily place it elsewhere.
+**Step 1:** Create an archive page... let's use my [Articles archive]({{ site.url }}/article/) as an example. I like to keep all of my source pages grouped together, so I created `articles.md` and placed it in a [folder named `_pages`]({{ site.url }}{% post_url /articles/2016-02-17-using-jekyll-2016 %}#pages-for-everything-else}).
 
-**Step 2:** Configure the paginator by enabling it on the page and defining what categories it should filter, in this case `articles`.
+**Step 2:** Enable pagination and define what categories it should filter, in this case `articles` by adding the following YAML Front Matter to `articles.md`.
 
 ```yaml
 pagination: 
@@ -468,7 +478,9 @@ And for "next/previous" navigation links you can do something like this:
 
 ### Lazyload Tag
 
-Custom Jekyll plugin to defer the loading of images and video embeds using [**lazysizes**](https://github.com/aFarkas/lazysizes) for improved page performance. A Liquid version of this is used in the [hero image include](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_includes/page__hero.html).
+Another #WebPerf improvement was add the ability to defer the loading of images and video embeds.
+
+To do this I created a custom Jekyll plugin using [**lazysizes**](https://github.com/aFarkas/lazysizes) to do some JavaScript magic.
 
 | Attribute  | Required     | Description |
 | ----       | --------     | ----------- |
@@ -481,6 +493,8 @@ Custom Jekyll plugin to defer the loading of images and video embeds using [**la
 ```liquid
 {% raw %}{% lazyload data-src="/assets/images/my-image.jpg" src="/assets/images/my-image-low-quality.jpg" alt="my lazyloaded image" %}{% endraw %}
 ```
+
+A Liquid version of this method is used in the [hero image include](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_includes/page__hero.html) to apply a nice blur effect as those large images load.
 
 ### Responsive Video Embed Tag
 
@@ -589,6 +603,7 @@ Surface commonly used tags filtered by the current category.
 [jekyll-tagging-related_posts]: https://github.com/toshimaru/jekyll-tagging-related_posts
 [jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
 [jekyll-paginate-v2]: https://github.com/sverrirs/jekyll-paginate-v2
+[jekyll-category-post-navigation]: http://ajclarkson.co.uk/blog/jekyll-category-post-navigation/
 [auto-pages]: https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md
 [jemoji]: https://github.com/jekyll/jemoji
 [nodejs]: https://nodejs.org/en/
@@ -605,3 +620,4 @@ Surface commonly used tags filtered by the current category.
 [gulp-rev]: https://github.com/sindresorhus/gulp-rev
 [gulp-htmlmin]: https://github.com/jonschlinkert/gulp-htmlmin
 [travis-ci]: https://travis-ci.org/
+[compress-layout]: http://jch.penibelst.de/
