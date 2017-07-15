@@ -1,0 +1,9 @@
+_id: 77120c70-6993-11e7-8901-815fa61174ff
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "Thanks a lot, Michael. I managed to get the comments imported. I first imported the comments from Blogger to Disqus, and then used your approach to export them out of Disqus. \r\n\r\nI'm now on to configuring reply-to. I managed to get it to work but running into an issue. When running in production mode, my comments are appearing in the correct order but when running on localhost, they are order is different and the reply is showing up under the wrong parent. It seems that the order in which the comments are being returned are different on localhost and production. Any idea why that would happen?\r\n\r\nI'm also not sure why you are not using the unique id of the parent as the reply-to value on the child to guarantee that the child is attached to the correct parent. \r\n\r\nThanks."
+name: Harry
+email: 58dfe5ef6aaf9bf9af5a0b17b52e6168
+url: 'http://www.deepfriedbrainproject.com'
+replying_to: '16'
+hidden: ''
+date: '2017-07-15T19:26:14.390Z'
