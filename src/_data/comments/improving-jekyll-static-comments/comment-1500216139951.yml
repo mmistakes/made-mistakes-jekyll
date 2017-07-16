@@ -1,0 +1,9 @@
+_id: f84080f0-6a34-11e7-8901-815fa61174ff
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "There's one more thing I forgot about that I didn't write up in the posts. If you have a page with imported Disqus comments (using the Rake task) and new ones from Staticman the order will be wrong because of filename differences.\r\n\r\nWhat's going on is the order is determined by the comment data files' filenames. The data files created from the Disqus import use a different format ([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) than the ones Staticman generates ([UNIX timestamp](https://en.wikipedia.org/wiki/Unix_time) in milliseconds). I fixed that by [renaming all of my Disqus comment filenames](https://github.com/mmistakes/made-mistakes-jekyll/commit/569a16112ba08fa9e79ee535a642d7e4c0160d8c) to match.\r\n\r\nWhat you could do is modify the script to use a Unix time format (not `YYYY-MM-DD`) or change Staticman's `filename` config to use something other than the [default `{@timestamp}` placeholder](https://staticman.net/docs/configuration#path).\r\n\r\nIf you're looking for help with getting Mailgun notifications working I'd check out Staticman's repo. I'm using the public instance so no issues really for me, but I know a lot of people have had problems getting it to work. You'll likely find more guidance on [this issue's thread](https://github.com/eduardoboucas/staticman/issues/42) than from me."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '16'
+hidden: ''
+date: '2017-07-16T14:42:19.949Z'
