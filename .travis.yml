@@ -39,8 +39,6 @@ before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/id_rsa
   - ssh-add /tmp/id_rsa
-  # See https://github.com/travis-ci/travis-ci/issues/8082#issuecomment-315151953
-  - ssh-agent -k
 
 deploy:
   provider: script
@@ -48,3 +46,7 @@ deploy:
   script: gulp deploy
   on:
     branch: master
+
+after_deploy:
+  # See https://github.com/travis-ci/travis-ci/issues/8082#issuecomment-315151953
+  - ssh-agent -k
