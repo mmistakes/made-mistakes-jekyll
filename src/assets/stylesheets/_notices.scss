@@ -16,15 +16,14 @@
   background-color: mix(#fff, $notice-color, 90%);
   border-left: 0.25em solid mix(#fff, $notice-color, 50%);
 
-  h4 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-top: 0 !important; // override
     margin-bottom: 0.75em;
     line-height: 1 !important; // override
-  }
-
-  @at-root .page-content #{&} h4 {
-    /* using at-root to override .page-content h4 font size */
-    font-size: 1rem;
   }
 
   @at-root .page-content #{&} a {
