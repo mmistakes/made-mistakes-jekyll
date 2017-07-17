@@ -7,6 +7,7 @@
   align-items: center;
   margin-bottom: 1.5rem;
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 
   @include breakpoint($large) {
     flex-wrap: wrap;
