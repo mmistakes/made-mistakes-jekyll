@@ -132,6 +132,7 @@ defaults:
       layout: post
       category: articles
       read_time: true
+      support: true
       breadcrumbs:
         - label: "Blog Articles"
           url: /articles/
@@ -144,6 +145,7 @@ defaults:
       category: mastering-paper
       read_time: true
       comments: true
+      support: true
       breadcrumbs:
         - label: "Mastering Paper by 53"
           url: /mastering-paper/
@@ -182,6 +184,7 @@ defaults:
       category: til
       read_time: true
       comments: true
+      support: true
       breadcrumbs:
         - label: "Today I Learned"
           url: /til/

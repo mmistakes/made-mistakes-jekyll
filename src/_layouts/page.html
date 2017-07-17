@@ -11,10 +11,11 @@ layout: default
       <div class="entry-content">
         {{ content }}
       </div>
-      {% if page.comments == true %}
-        {% include comments.html %}
-      {% endif %}
     </article>
+
+    {% if page.comments == true %}
+      {% include comments.html %}
+    {% endif %}
 
     {% include footer.html %}
   </div>
