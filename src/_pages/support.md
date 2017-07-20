@@ -1,7 +1,7 @@
 ---
 permalink: /support/
 title: "Show Your Support"
-last_modified_at: 2017-05-19T12:31:20-04:00
+last_modified_at: 2017-07-20T15:44:41-04:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 ---
 
@@ -9,7 +9,7 @@ The tutorials, Jekyll themes, and other articles I publish have been a true labo
 
 ## Send a Donation
 
-I include banner ads on the site to help offset the costs associated with keeping it live, but we all know no one clicks on that crap. If you'd like to send a donation my way so I can continue to provide free content and themes, hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoins.
+If you'd like to send a donation my way so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoins.
 
 <div markdown="0" class="btn--group">
   <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">
