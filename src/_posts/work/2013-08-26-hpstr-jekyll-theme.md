@@ -15,6 +15,7 @@ breadcrumbs:
 comments: true
 comments_locked: true
 order: 9
+support: true
 ---
 
 They say three times the charm, so here is another free Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...

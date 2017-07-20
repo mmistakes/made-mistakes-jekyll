@@ -26,6 +26,7 @@ breadcrumbs:
 comments: true
 comments_locked: true
 order: 8
+support: true
 ---
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server. 

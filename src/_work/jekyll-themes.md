@@ -15,6 +15,7 @@ work: "Design & Development"
 order: 4
 comments: true
 comments_locked: true
+support: true
 ---
 
 As I continue to hack away at the design of Made Mistakes and improve on things, I try to release simplified Jekyll starters and themes after each major site revision.
