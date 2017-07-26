@@ -1,0 +1,9 @@
+_id: 77d9cac0-720e-11e7-a45a-3114f0323905
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "Thanks for sharing! I've heard from a few people that they had to modify the `for` loop to get the nested order sorted out. Something not mentioned in this post is I did some additional cleanup on my comment data ([see this reply](https://mademistakes.com/articles/improving-jekyll-static-comments/#comment-16-5)).\r\n\r\nSome of the variation might have to do with your comment data too and how Liquid conditionals are met. [Truthy/falsy](https://shopify.github.io/liquid/basics/truthy-and-falsy/) values for strings, integers, arrays, etc. are different.\r\n\r\nI encountered the same `nesting too deep` errors as I tried a million different combinations of Jekyll's `where` and `where_exp` filters.  There have been some updates Jekyll so maybe it's worth revisiting."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '17'
+hidden: ''
+date: '2017-07-26T14:26:53.005Z'
