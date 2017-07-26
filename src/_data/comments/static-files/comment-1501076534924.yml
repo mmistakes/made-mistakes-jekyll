@@ -1,0 +1,9 @@
+_id: 3ba2a870-7208-11e7-a45a-3114f0323905
+_parent: 'https://mademistakes.com/til/static-files/'
+message: "This is great! Thanks for share.\r\nI assumed that the \"assets\" folder is into jekyll site.\r\nBut, what happend if you have a folder outside?\r\nI mean\r\n├── folder/\r\n├── docs/\r\n            ├── _config.yml\r\n\r\nAnd you want to retrieve that folder content?"
+name: SidV
+email: e1315801f35b6c3a3f24ae690546f64d
+url: ''
+replying_to: ''
+hidden: ''
+date: '2017-07-26T13:42:14.923Z'
