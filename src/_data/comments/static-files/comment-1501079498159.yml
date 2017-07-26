@@ -1,0 +1,9 @@
+_id: 21d543b0-720f-11e7-a45a-3114f0323905
+_parent: 'https://mademistakes.com/til/static-files/'
+message: "Don't think that's possible. GitHub Pages is treating the `docs/` folder as its own contained Jekyll project and therefore can't look outside of it.\r\n\r\nOnly option I can think of is to get crafty with [Git submodules](https://help.github.com/articles/using-submodules-with-pages/) and pull in outside content."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '1'
+hidden: ''
+date: '2017-07-26T14:31:38.158Z'
