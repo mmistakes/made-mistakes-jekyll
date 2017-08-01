@@ -1,7 +1,7 @@
 ---
 permalink: /support/
 title: "Show Your Support"
-last_modified_at: 2017-07-20T15:44:41-04:00
+last_modified_at: 2017-08-01T14:19:15-04:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 ---
 
@@ -9,14 +9,13 @@ The tutorials, Jekyll themes, and other articles I publish have been a true labo
 
 ## Send a Donation
 
-If you'd like to send a donation my way so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoins.
+If you'd like to send a donation my way so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`]({{ site.url }}/assets/images/bitcoin-qr.png "Bitcoin QR code").
 
 <div markdown="0" class="btn--group">
   <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">
     <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Send PayPal Money
   </a>
   <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">Send Square Cash</a>
-  <a href="https://www.coinbase.com/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoins');" class="btn">Send Bitcoins</a>
 </div>
 
 ## Buy Something
