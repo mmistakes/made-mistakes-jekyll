@@ -1,0 +1,10 @@
+_id: 19201c70-7ba3-11e7-b1ac-353e76822851
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "hi, I really thanks your help.\r\n\r\nYou are right that I’m using a CI service, but after some more testing, I found that the ordering of replies is completely unpredictable and it is changing both on my local and on the production. http://thinsys.ir/"
+name: mehdi
+email: 007a281d23987baada9986b2a2ecc3e3
+url: 'http://thinsys.ir/'
+replying_to: ''
+hidden: ''
+timestamp: 1502132609
+date: '2017-08-07T19:03:29.565Z'
