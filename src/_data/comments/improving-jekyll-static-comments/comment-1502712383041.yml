@@ -1,0 +1,9 @@
+_id: fd0969b0-80e8-11e7-ac6c-353a18b967b6
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "I wouldn't worry too much about the script getting flagged by page speed testers --- the scores they assign aren't as black and white as they make it seem. It's being loaded asynchronously and I haven't seen it hurt my pages much if any.\r\n\r\nThe honeypot method is too easy for bots to spoof. They eventually learn what the hidden field is that you're trying to fool them with. I was getting over 10 spam comments a day on my posts. Turning on reCAPTCHA I get maybe 2 a week. Spam that slips through is usually people manually trying to stuff a comment with their links, on posts like this that tend to rank well in search.\r\n\r\nReply notifications are totally something that could be abused. You're right someone could easily put any email address they wanted into the form. I believe I saw someone over in [Staticman's issues on GitHub](https://github.com/eduardoboucas/staticman/issues) voiced the same concern and suggesting some sort of double opt'in feature.\r\n\r\nRegardless I believe the notification emails that come from Staticman have an unsubscribe link, so it should be easy enough to stop them."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '16'
+hidden: ''
+date: '2017-08-14T12:06:23.040Z'
