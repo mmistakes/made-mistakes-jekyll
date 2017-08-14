@@ -1,0 +1,9 @@
+_id: 0a72a060-809b-11e7-ac6c-353a18b967b6
+_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+message: "Thanks, Michael. \r\n\r\nYou are right that Disqus comments and staticman comments have different file naming conventions, but I haven't encountered any issue with that. I use the date inside each comment file to sort the comments in the right order. So, file name doesn't seem to matter much. \r\n\r\nI do have 2 questions for you - \r\n\r\n1. I had recaptcha enabled for my staticman comments, but Page Speed checks do not seem to like recaptcha for various reasons (no browser caching etc.). So I experimented with disable recaptcha and falling back on the honey pot method. Within 6 hours, I received 4 spam comments. This tells me that honey pot is not as effective as recaptcha in dealing with spam. However, Eduardo Boucas himself is not using recaptcha on his blog, and he has commented on the issue thread, which you linked in your reply, that honey pot has worked well for him. So, I wanted to know your experience with it. \r\n\r\n2. Comment replies - I'm concerned about using comment replies because I'm wondering what if I put someone else's email address and subscribe to comment replies. Wouldn't that start spamming the mailbox of the person who owns the email address? Is there some kind of email verification involved when you subscribe to replies? I don't seem to recollect there was one when I signed up for replies on this thread.\r\n\r\nThanks again."
+name: Harry
+email: 58dfe5ef6aaf9bf9af5a0b17b52e6168
+url: 'https://www.deepfriedbrainproject.com'
+replying_to: '16'
+hidden: ''
+date: '2017-08-14T02:48:24.865Z'
