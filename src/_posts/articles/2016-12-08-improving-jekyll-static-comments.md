@@ -9,7 +9,7 @@ image:
   caption: "[Photo by **Gabriel Santiago**](https://unsplash.com/@gabrielssantiago)"
 tags: [web development, GitHub, Jekyll]
 comments: true
-last_modified_at: 2017-03-15T14:14:58-04:00
+last_modified_at: 2017-08-25T10:15:05-04:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
@@ -459,7 +459,7 @@ To give the **reply link** life I added the following `onclick` attribute and [J
 {% raw %}onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"{% endraw %}
 ```
 
-A few minor variable name changes to Wordpress's `comment-reply.js` script was all it took to get everything working with my `form` markup.
+A few minor variable name changes to Wordpress'2017-08-25T10:11:06-04:00 `comment-reply.js` script was all it took to get everything working with my `form` markup.
 
 {% capture reply_caption %}
 Hitting a **reply button** moves the comment form into view and populates `<input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">` with the correct *parent* `value`. While tapping **Cancel reply** returns the input to its original state of `null`.
