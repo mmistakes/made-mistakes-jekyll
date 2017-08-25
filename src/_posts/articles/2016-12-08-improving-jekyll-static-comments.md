@@ -459,7 +459,7 @@ To give the **reply link** life I added the following `onclick` attribute and [J
 {% raw %}onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"{% endraw %}
 ```
 
-A few minor variable name changes to Wordpress'2017-08-25T10:11:06-04:00 `comment-reply.js` script was all it took to get everything working with my `form` markup.
+A few minor variable name changes to Wordpress' `comment-reply.js` script was all it took to get everything working with my `form` markup.
 
 {% capture reply_caption %}
 Hitting a **reply button** moves the comment form into view and populates `<input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">` with the correct *parent* `value`. While tapping **Cancel reply** returns the input to its original state of `null`.
