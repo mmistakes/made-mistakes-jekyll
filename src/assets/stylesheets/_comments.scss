@@ -51,8 +51,17 @@
     max-width: 100%;
   }
 
-  div.highlighter-rouge .highlight code {
-    font-size: 0.8em;
+  .highlighter-rouge {
+
+    .highlight {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 1em;
+    }
+
+    .highlight code {
+      font-size: 0.8em;
+    }
   }
 }
 
