@@ -1,7 +1,7 @@
 ---
 title: "What tools do you use to build your website?"
 type: other
-last_modified_at: 2017-04-20T08:52:06-04:00
+last_modified_at: 2017-08-30T09:55:22-04:00
 comments: true
 comments_locked: true
 order: 1
@@ -17,6 +17,7 @@ I've been on a [static site generator]({{ site.url }}{% post_url /articles/2012-
 - [**jemoji**][jemoji]: adds GitHub-flavored emoji to Jekyll with the use of Liquid tags.
 - [**jekyll-seo-tag**][seo]: adds metadata tags for search engines and social networks to better index and display site content.
 - [**jekyll-paginate-v2**][jekyll-paginate-v2]: pagination replacement for the old [official Jekyll paginate](https://github.com/jekyll/jekyll-paginate) plugin.
+- [**Widow filter**][widow-filter]: inserts a non-breaking space `&nbsp;` between the last two words to avoid widows.
 
 If you're really interested in the specifics of how the site is built I've made its [source available on GitHub](https://github.com/mmistakes/made-mistakes-jekyll) for anyone to fork and download. And because I'm such a cool dude I've also open sourced a couple of [Jekyll themes]({{ site.url }}{% link _work/jekyll-themes.md %}) for you to use and abuse --- you're welcome!
 
@@ -51,3 +52,4 @@ If you're really interested in the specifics of how the site is built I've made 
 [smoothscroll]: https://github.com/kswedberg/jquery-smooth-scroll
 [comment-reply]: https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js
 [jekyll-paginate-v2]: https://github.com/sverrirs/jekyll-paginate-v2
+[widow-filter]: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_plugins/lazyload.rb
