@@ -6,7 +6,7 @@ read_time: true
 breadcrumbs:
   - label: "Blog Articles"
     url: /articles/
-excerpt:
+excerpt: "Lessons learned from building, optimizing, and deploying a huge static site powered by everyone's favorite SSG --- Jekyll."
 tags: [Jekyll, web development, GitHub, open source]
 image:
   path:
@@ -16,7 +16,7 @@ comments: true
 last_modified_at:
 ---
 
-Not going to lie --- I :heart: [Jekyll]({{ site.url }}/tag/jekyll/), but large static sites like mine take forever to build. What used to take seconds now go on for over 30 minutes, as thousands of files are generated and optimized.
+Not going to lie --- I :heart: [Jekyll]({{ site.url }}/tag/jekyll/), but huge static sites like mine take forever to build. What used to take seconds now go on for over 30 minutes, as thousands of files are generated and optimized.
 
 Inspired by Anne Tomasevich's post, [**Optimizing Jekyll Performance with Gulp**](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html) --- I begun digging into my build process to identify performance bottlenecks.
 
