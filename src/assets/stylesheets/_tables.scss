@@ -12,9 +12,12 @@ table {
   word-break: keep-all;
 }
 
-th,
-td {
-  border-bottom: 1px solid $border-color;
+tr:not(:last-child) {
+
+  th,
+  td {
+    border-bottom: 1px solid $border-color;
+  }
 }
 
 th {
