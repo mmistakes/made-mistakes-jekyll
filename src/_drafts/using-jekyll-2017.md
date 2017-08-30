@@ -16,20 +16,19 @@ comments: true
 last_modified_at:
 ---
 
-This Jekyll-based site takes longer than I'd like to build. What once was a few seconds, now lasts over 30 minutes as assets are optimized and thousands of HTML files are generated.
+Not going to lie --- I :heart: [Jekyll]({{ site.url }}/tag/jekyll/), but large static sites like mine take forever to build. What used to take seconds now go on for over 30 minutes, as thousands of files are generated and optimized.
 
-Inspired by Anne Tomasevich's post, [**Optimizing Jekyll Performance with Gulp**](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html) --- I begun digging into my build process to find areas for improvement.
+Inspired by Anne Tomasevich's post, [**Optimizing Jekyll Performance with Gulp**](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html) --- I begun digging into my build process to identify performance bottlenecks.
 
 At the time of writing this post, my site contained roughly:
 
-- 1,014 images generated at different sizes.
-- 6,986 total images.
-- 1052 total documents ([991 posts](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_posts) / [14 pages](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_pages) / 3 sets of collections).
+- 1,014 images generated at different sizes (6,986 in total).
+- 1,052 total documents ([991 posts](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_posts) / [14 pages](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_pages) / 3 sets of collections).
 - [535 comments](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_data/comments) stored as YAML data files.
 
-And was built with the following Jekyll plugins: [jekyll-picture-tag][jekyll-picture-tag], [sort_name][sort_name], [jekyll-archives][jekyll-archives], [jekyll-assets][jekyll-assets], [jekyll/tagging][jekyll/tagging], [jekyll-tagging-related_posts][jekyll-tagging-related_posts], [jekyll-sitemap][jekyll-sitemap], [jemoji][jemoji], and [jekyll-category-post-navigation][jekyll-category-post-navigation].
+And was built with the following Jekyll plugins: [jekyll-picture-tag][jekyll-picture-tag], [sort_name][sort_name], [jekyll-archives][jekyll-archives], [jekyll-assets][jekyll-assets], [jekyll/tagging][jekyll/tagging], [jekyll-tagging-related_posts][jekyll-tagging-related_posts], [jekyll-sitemap][jekyll-sitemap], [jemoji][jemoji], [jekyll-category-post-navigation][jekyll-category-post-navigation], and a [widow filter][widow-filter].
 
-Using Jekyll's profiler flag `--profile`, I measured how long the following tasks took to complete[^3-trials]. Before each build I ran `jekyll clean` to wipe `_site`, `.asset-cache` and any other temporary files to keep results more consistent.
+Using Jekyll's profiler flag `--profile`, I measured how long the following tasks took to complete[^3-trials]. Before each build I ran `jekyll clean` to wipe `_site`, `.asset-cache` and any other temporary files to keep results more consistent. 
 
 [^3-trials]: Each task was run 3 times and averaged as the values produced by `jekyll build --profile` varied quite a bit.
 
@@ -69,19 +68,19 @@ For giggles I also tested my Windows and Mac development environments against ea
 
 ## Optimization
 
-The numbers above don't lie. Relying on Jekyll and friends to do jobs more suited for a task runner like [**Gulp**][gulpjs] was slowing the build. Armed with this knowledge I started stripping down Jekyll to its core --- Markdown conversion and HTML generation.
+The numbers above don't lie. Relying on Jekyll and friends to do jobs more suited for a task runner like [**Gulp**][gulpjs] was slowing the build. Armed with this knowledge I started stripping down Jekyll to one of its core purposes --- *converting Markdown files into HTML*.
 
-By doing this it also allowed me to make my site's content more portable and not reliant on a specific static-site generator. In the off-chance I wanted to swap Jekyll for another SSG like [**Hugo**](https://gohugo.io/) or [**Gatsby**](https://github.com/gatsbyjs/gatsby), I could.
+Doing this also allowed me to make my site's content more portable and not as reliant on a specific static-site generator. In the off-chance I wanted to swap Jekyll for another SSG like [**Hugo**](https://gohugo.io/) or [**Gatsby**](https://github.com/gatsbyjs/gatsby), I could.
 
 *[SSG]: Static-site generator
 
 ### CSS and JavaScript Assets
 
-[**Jekyll Assets**][jekyll-assets] is a great plugin that served me well for a long time by: preprocessing, vendor prefixing, concatenating, minifying, and fingerprinting assets. It's also painfully slow when used to iterate on the front-end of large site like mine.
+[**Jekyll Assets**][jekyll-assets] is a great plugin that served me well for a long time by: preprocessing, vendor prefixing, concatenating, minifying, and fingerprinting assets. But with a site of my size it was painfully slow to iterate with during front-end development.
 
-Making a change to a Sass partial would trigger a full site rebuild, which meant waiting at least 2 minutes before this change could be previewed in a browser. Jekyll's incremental build feature might help here, but I never had much luck getting it to work reliably.
+Making a change to a Sass partial would trigger a full site rebuild, which meant waiting a few minutes before it could be previewed in a browser. Jekyll's incremental build feature might have helped here, but I never had much luck getting it to work reliably.
 
-Ideally during development, CSS or JavaScript changes would be pushed instantly to the browser with something like [Browsersync][browsersync]. By replacing the [Jekyll Assets][jekyll-assets] plugin with the following Gulp alternatives I saw a 93% improvement in build time:
+During development CSS or JavaScript changes would ideally be pushed instantly to the browser with something like [Browsersync][browsersync]. By replacing [Jekyll Assets][jekyll-assets] with the following Gulp alternatives I was able to do this, and improve build times by 93%:
 
 - [**node-sass**][node-sass] and [**gulp-sass**][gulp-sass]: natively compile SCSS files to CSS.
 - [**gulp-autoprefixer**][gulp-autoprefixer]: vendor prefix CSS.
@@ -162,11 +161,11 @@ gulp.task('serve', (done) => {
 });
 ```
 
-Without going to far into how these Gulp tasks work, the basic idea is this.
+Without going too deep into how these Gulp tasks work, the gist is:
 
 1. A glob of files have "stuff" done to them using various plugins.
-2. These files are placed in a temporary folder excluded from Jekyll so they don't trigger builds during development.
-3. On production builds these temp files are moved and deployed alongside the files generated by Jekyll.
+2. These files are placed in a temporary folder excluded from Jekyll so they don't trigger a full site rebuild during development.
+3. Production builds move these temporary files and deploys them alongside the HTML files generated by Jekyll.
 
 ### Image Assets
 
@@ -176,13 +175,13 @@ To try and see if [Node][nodejs] and [Gulp][gulpjs] could do this faster I came 
 
 1. Generate thousands of "feature" images[^feature-image] at 4 different sizes with [**gulp-responsive**](https://github.com/mahnunchik/gulp-responsive).
 2. Optimize all images using [**gulp-imagemin**](https://github.com/sindresorhus/gulp-imagemin).
-3. Save the optimized images directly to the destination folder, bypassing Jekyll completely.
+3. Save the optimized images directly to the destination folder --- bypassing Jekyll and a full-site rebuild.
 
-[^feature-image]: I classify "features" as large, often full-width images popularized by **Bootstrap** and its [Jumbotron component](https://v4-alpha.getbootstrap.com/components/jumbotron/).
+[^feature-image]: I classify "features" as large, often full-width images commonly seen in landing pages built with **Bootstrap** and other popular CSS frameworks.
 
 This helped some, but it wasn't until I [dropped GraphicsMagick](https://github.com/mmistakes/made-mistakes-jekyll/commit/56bbd9bf5429a269047a41e045cc2ef0bf34e62b) for [Sharp](https://github.com/lovell/sharp)[^sharp-gif] did I see a noticeable improvement...
 
-[^sharp-gif]: Sharp is super fast, but only resizes JPEG, PNG, WebP, and TIFF images... no GIF. It's also a pain in the ass to install on Windows due to [`node-gyp`](https://github.com/nodejs/node-gyp).
+[^sharp-gif]: Sharp is super fast, but only resizes JPEG, PNG, WebP, and TIFF images... no GIF. It's also a pain in the ass to install on Windows due to the [`node-gyp`](https://github.com/nodejs/node-gyp) dependency.
 
 {% include notice type="info" content="
 #### Sharp Really is as Fast as they Say
@@ -279,7 +278,7 @@ I'm close to ditching jQuery and going vanilla, but I'm not quite there yet. Whe
 
 ### Results
 
-Decoupling the asset pipeline from Jekyll and Gulp-ifying it made the biggest splash in terms of build time. Along with [Browsersync][browsersync] any asset (CSS, JavaScript, images and icons) updates could be previewed almost instantly. Greatly speeding up the time it takes to develop and iterate the site's front-end.
+Decoupling the asset pipeline from Jekyll and Gulp-ifying it made the biggest splash in terms of build time. Along with [Browsersync][browsersync], any asset (CSS, JavaScript, images and icons) updates could be previewed almost instantly. Greatly speeding up the time it takes to develop and iterate the site's front-end.
 
 {% include notice type="info" content="
 #### Made Mistakes Gulp files
@@ -293,15 +292,18 @@ With [`paths.js`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/
 
 ## Automation/Continuous Integration
 
-After ditching Disqus last year to [roll my own static-based solution]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}) powered by [**Staticman**](https://staticman.net/), I needed to find a better way of deploying the site. Merging in new comments, manually pulling those commits down, manually building the site locally, and then deploying to my web server wasn't ideal.
+After ditching Disqus last year to [roll my own static-based solution]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}) powered by [**Staticman**](https://staticman.net/), I needed to find a better way of deploying the site. Merging in new comments, pulling those commits down, manually building the site locally, and then deploying to my web server wasn't ideal.
 
-With some research I determined a continuous integration[^ci] platform like **Travis CI**[^ci-platforms] that integrates with GitHub was what I needed. 
+With some research I determined a continuous integration[^ci] platform like **Travis CI**[^ci-platforms] that integrates with GitHub was what I needed.
+
+![Travis CI interface screenshot]({{ site.url }}/assets/images/mm-travis-ci-screenshot.png)
+{: .browser-frame}
 
 [^ci]: Continuous integration is a DevOps software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run.
 
 [^ci-platforms]: There are several CI platforms and services out there that can automate testing, building, and deploying a JAMstack site. [Netlify](https://www.netlify.com/), [Circle CI](https://circleci.com/), [Codeship](https://www.codeship.io/), [Travis CI][travis-ci], and [GitLab CI](https://ci.gitlab.org/) to name a few.
 
-Setting things up with Travis CI wasn't too painful, but there was some trial and error getting dependencies squared away. I'd suggest reading through [their documentation](https://docs.travis-ci.com/) but the basic idea is:
+Setting things up with Travis CI wasn't too painful, but there was some trial and error getting dependencies squared away. I'd suggest reading through [their documentation](https://docs.travis-ci.com/), but the basic idea is:
 
 1. [Sign in to Travis CI](https://travis-ci.org/auth) with your GitHub account and grant it access.
 2. Configure the build and deployment scripts with a [`.travis.yml`](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/.travis.yml) file.
@@ -311,7 +313,7 @@ Setting things up with Travis CI wasn't too painful, but there was some trial an
 
 ### Travis CI Config
 
-Let's take a closer look the `.travis.yml` config file and how I've set it up.
+Let's take a closer look my `.travis.yml` config file and how I've set it up.
 
 ```yaml
 language: ruby
@@ -319,7 +321,7 @@ rvm:
   - 2.2
 ```
 
-Since Jekyll is built on Ruby we set the language to `ruby`. Depending on what version of Jekyll you're using you can change `rvm` to meet your needs. I went with `2.2` since that's the latest [Travis CI provides](https://docs.travis-ci.com/user/languages/ruby/#Supported-Ruby-Versions-and-RVM).
+Since Jekyll is built on Ruby I set the language to `ruby`. Depending on what version of Jekyll you're using you can change `rvm` to meet your needs. I went with `2.2` since that's the latest [Travis CI provides](https://docs.travis-ci.com/user/languages/ruby/#Supported-Ruby-Versions-and-RVM).
 
 ```yaml
 sudo: false
@@ -399,9 +401,9 @@ Travis CI comes in handy if you want to use Jekyll plugins or a more advanced Gu
 
 Looking to wring a little more #WebPerf juice out of my site, I went after category and tag archive pages next. Depending on the tag, these `index.html` pages could be quite hefty due to the amount of HTML needed to display hundreds of post teasers.
 
-To trim them down in size I needed a way of paginating these pages into small chunks. Jekyll has an [official pagination plugin](http://jekyllrb.com/docs/pagination/), but unfortunately it's limited (and deprecated). [**Jekyll Paginate v2**][jekyll-paginate-v2] on the other hand is fully featured, backwards compatible, and actively being developed.
+To trim them down in size I needed a way of paginating these pages into small chunks. Jekyll has an [official pagination plugin](http://jekyllrb.com/docs/pagination/), but unfortunately it's limited (and deprecated) in what it can actually paginate. [**Jekyll Paginate v2**][jekyll-paginate-v2] on the other hand is fully featured, backwards compatible, and actively being worked on.
 
-In addition to paginating posts it can also handle: [collections](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#paginating-collections), [categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories), [tags](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-tags), and [locales](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-locales) (useful if you have a multi-language site).
+In addition to paginating posts it can handle: [collections](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#paginating-collections), [categories](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-categories), [tags](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-tags), and [locales](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#filtering-locales) (useful if you have a multi-language site).
 
 It doesn't stop there though! It has a built-in generator called [**Auto-Pages**][auto-pages] to create tag, category, and collection archives. Which unlike [**Jekyll Archives**][jekyll-archives], can all be paginated.
 
@@ -434,7 +436,7 @@ autopages:
     permalink  : "/tag/:tag"
 ```
 
-For category archives I created my own bespoke pages. Mostly because it was easier to customize them than generating with [Auto-Pages][auto-pages].
+For category archives I created my own bespoke pages since there are only a handful of them. Mostly because it was easier to customize them than generating with [Auto-Pages][auto-pages].
 
 **Step 1:** Create an archive page... let's use my [Articles archive]({{ site.url }}/article/) as an example. I like to keep all of my source pages grouped together, so I created `articles.md` and placed it in a [folder named `_pages`]({{ site.url }}{% post_url /articles/2016-02-17-using-jekyll-2016 %}#pages-for-everything-else}).
 
@@ -478,7 +480,7 @@ And for "next/previous" navigation links you can do something like this:
 
 ### Lazyload Tag
 
-Another #WebPerf improvement was add the ability to defer the loading of images and video embeds.
+Another #WebPerf improvement was adding the ability to defer loading of images and video embeds.
 
 To do this I created a custom Jekyll plugin using [**lazysizes**](https://github.com/aFarkas/lazysizes) to do some JavaScript magic.
 
@@ -494,7 +496,7 @@ To do this I created a custom Jekyll plugin using [**lazysizes**](https://github
 {% raw %}{% lazyload data-src="/assets/images/my-image.jpg" src="/assets/images/my-image-low-quality.jpg" alt="my lazyloaded image" %}{% endraw %}
 ```
 
-A Liquid version of this method is used in the [hero image include](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_includes/page__hero.html) to apply a nice blur effect as those large images load.
+A Liquid version of this method is used in the [hero image include](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_includes/page__hero.html) to apply a nice blur effect as those large images are loaded by the browser.
 
 ### Responsive Video Embed Tag
 
@@ -520,9 +522,9 @@ To embed the following Vimeo video at url `https://vimeo.com/97649261` into a po
 
 ### Simplified Breadcrumbs
 
-Previously I was using some Liquid voodoo to [build a trail of breadcrumbs](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.3.0/src/_includes/breadcrumbs.html). This sort of work but wasn't as flexible as I'd like, especially if I wanted to use more descriptive labels for the crumbs.
+Previously I was using some Liquid voodoo to [build a trail of breadcrumbs](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.3.0/src/_includes/breadcrumbs.html). This sort of worked because my site structure isn't too complex. On the other hand it wasn't flexible and didn't allow for overriding crumbs with more descriptive labels.
 
-Since my content hierarchy is shallow I decided to just manually assign breadcrumbs to each post with YAML Front Matter.
+Since my content hierarchy is shallow I decided to manually assign breadcrumbs to each post with YAML Front Matter.
 
 ```yaml
 breadcrumbs:
@@ -567,7 +569,7 @@ Take a DRY approach and [add breadcrumbs](https://github.com/mmistakes/made-mist
 
 ### Popular Tags
 
-Surface commonly used tags filtered by the current category.
+Looking over my site's analytics I came to the conclusion no one was clicking on the "this post was tagged" links, so I removed them. To make category pages more sticky and useful including tags seemed more useful. So with the following Liquid I was able to build a list of the most popular tags filtered on the current category.
 
 ```liquid
 {% raw %}{% assign filterCategory = page.pagination.category | default: page.category %}
@@ -595,6 +597,14 @@ Surface commonly used tags filtered by the current category.
 </ul>
 ```
 
+On my **Mastering Paper** category page about the iPad app [Paper by FiftyThree](http://www.fiftythree.com/), you'll see related links to tags like *Paper by 53*, *iPad*, *drawing*, etc.
+
+![popular topics screenshot]({{ site.url }}/assets/images/mm-popular-tags-screenshot.png)
+
+---
+
+Well there you have it, the complete tale of how I took something inherently simple and overly complicated it to suit my needs :stuck_out_tongue_winking_eye:. If you have any questions after looking over the source ask away in the comments below.
+
 [jekyll-picture-tag]: https://github.com/robwierzbowski/jekyll-picture-tag
 [sort_name]: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_plugins/sort_name.rb
 [jekyll-archives]: https://github.com/jekyll/jekyll-archives
@@ -606,6 +616,7 @@ Surface commonly used tags filtered by the current category.
 [jekyll-category-post-navigation]: http://ajclarkson.co.uk/blog/jekyll-category-post-navigation/
 [auto-pages]: https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md
 [jemoji]: https://github.com/jekyll/jemoji
+[widow-filter]: https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/_plugins/lazyload.rb
 [nodejs]: https://nodejs.org/en/
 [gulpjs]: http://gulpjs.com/
 [browsersync]: https://www.browsersync.io/
