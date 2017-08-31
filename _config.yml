@@ -52,6 +52,9 @@ author:
   github                 : "https://github.com/mmistakes"
   google_plus            : "https://plus.google.com/+MichaelRoseDesign/posts"
 
+twitter:
+  username               : "mmistakes"
+
 # Staticman comments (full configuration in staticman.yml)
 staticman:
   branch                 : "master"
