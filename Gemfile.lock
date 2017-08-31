@@ -86,7 +86,6 @@ GEM
       rubypants
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -101,7 +100,6 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-typogrify
   jemoji
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.15.4
