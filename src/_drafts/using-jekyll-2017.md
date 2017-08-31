@@ -9,9 +9,9 @@ breadcrumbs:
 excerpt:
 tags: [Jekyll, web development, GitHub, open source]
 image:
-  path:
-  feature:
-  teaser:
+  path: &image /assets/images/using-jekyll-2017-feature.jpg
+  feature: *image
+  thumbnail: /assets/images/using-jekyll-2017-th.jpg
 comments: true
 last_modified_at:
 ---
