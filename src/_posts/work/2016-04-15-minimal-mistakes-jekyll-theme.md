@@ -37,11 +37,6 @@ Includes responsive layouts (`single`, `archive`, and `splash` pages) that look 
   <a href="https://mmistakes.github.io/minimal-mistakes/" onclick="ga('send', 'event', 'link', 'click', 'Preview Minimal Mistakes');" class="btn">Live Preview</a>
 </p>
 
-<div class="notice--info" markdown="1">
-#### Ruby Gem Theme
-Interested in beta testing out a [pre-release "gemified" version](https://github.com/mmistakes/minimal-mistakes/tree/feature/theme-gem) of Minimal Mistakes? Read this blog post to [learn how](https://mmistakes.github.io/minimal-mistakes/jekyll/gemified-theme-beta/).
-</div>
-
 ## Theme Features:
 
 - Compatible with GitHub Pages
