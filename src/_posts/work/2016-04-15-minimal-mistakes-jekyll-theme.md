@@ -1,5 +1,5 @@
 ---
-title: "Minimal Mistakes, a Jekyll&#160;Theme"
+title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
 last_modified_at: 2016-10-17T12:18:38-04:00
@@ -36,11 +36,6 @@ Includes responsive layouts (`single`, `archive`, and `splash` pages) that look 
 <p markdown="0">
   <a href="https://mmistakes.github.io/minimal-mistakes/" onclick="ga('send', 'event', 'link', 'click', 'Preview Minimal Mistakes');" class="btn">Live Preview</a>
 </p>
-
-<div class="notice--info" markdown="1">
-#### Ruby Gem Theme
-Interested in beta testing out a [pre-release "gemified" version](https://github.com/mmistakes/minimal-mistakes/tree/feature/theme-gem) of Minimal Mistakes? Read this blog post to [learn how](https://mmistakes.github.io/minimal-mistakes/jekyll/gemified-theme-beta/).
-</div>
 
 ## Theme Features:
 

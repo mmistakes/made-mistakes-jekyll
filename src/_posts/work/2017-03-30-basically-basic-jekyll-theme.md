@@ -1,7 +1,7 @@
 ---
-title: "Basically Basic, a Jekyll&#160;Theme"
+title: "Basically Basic, a Jekyll Theme"
 excerpt: "Your new Jekyll default theme."
-last_modified_at:
+last_modified_at: 2017-09-03T10:41:05-04:00
 image: 
   path: &image /assets/images/jekyll-theme-basically-basic-feature.jpg
   feature: *image
