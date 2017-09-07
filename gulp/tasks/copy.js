@@ -26,6 +26,13 @@ gulp.task('copy:icons', () => {
     .pipe(gulp.dest(paths.imageFilesSite))
 });
 
+// 'gulp copy:manifest' -- copies image json to /dist/
+gulp.task('copy:manifest', () => {
+  return gulp.src(paths.imageFiles + '/*.json')
+    .pipe(newer(paths.imageFilesSite))
+    .pipe(gulp.dest(paths.imageFilesSite))
+});
+
 // 'gulp copy:site' -- copies processed Jekyll site to /dist/
 gulp.task('copy:site', () => {
   return gulp.src([paths.tempDir + paths.siteFolderName + '/**/*', paths.tempDir + paths.siteFolderName + '/**/.*'])
