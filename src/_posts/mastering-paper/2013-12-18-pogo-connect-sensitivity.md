@@ -1,7 +1,7 @@
 ---
 title: "Pogo Connect Stylus Sensitivity Fix"
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware v1.1.0."
-last_modified_at: 2016-01-27T14:51:06-05:00
+last_modified_at: 2017-09-07T16:09:44-04:00
 image:
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumbnail: /assets/images/pogo-connect-app-thumb.jpg
@@ -9,12 +9,12 @@ tags: [Pogo Connect, Paper by 53, stylus, iPad]
 comments_locked: true
 ---
 
-About a month ago I received a replacement [Pogo Connect Smart Pen]({{ site.url }}/articles/pogo-connect-smart-pen/) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.
+About a month ago I received a replacement [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) due to a defect that caused it to stop working. Using this replacement for a few days it was clear to me that something was different about this newer model.
 
 I use Paper by FiftyThree almost exclusively for drawing with the occasional Procreate experiment. When using either app I noticed that the sensitivity of the Pogo's tip seemed off. To get the full range of stroke sizes I now had to press extremely hard to register a wide stroke (see screenshot below), which really started to screw with how I draw.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/pogo-connect-sensitivity-lines.jpg" alt="Calibrated Pogo Connect line comparison">
+	<img src="/assets/images/pogo-connect-sensitivity-lines.jpg" alt="Calibrated Pogo Connect line comparison">
 </figure>
 
 Isolating the cause is hard because so many factors had changed around the same time.
@@ -33,18 +33,18 @@ To begin, open **Paper by FiftyThree**[^pogo-paper] or your Pogo Connect support
 
 Next you'll need to open (or download) the free [**Pogo Connect app**](https://itunes.apple.com/us/app/pogo-connect/id566688179?mt=8&at=11l5Vp&ct=website). With it you can do fun stuff like locate your Pogo if it's lost somewhere in your house, update the firmware, rename your Pogo, draw, or adjust the tip's pressure sensitivity.
 
-![Connected]({{ site.url }}/assets/images/pogo-connect-app-connecting.jpg)
+![Connected](/assets/images/pogo-connect-app-connecting.jpg)
 
 Upon opening the app you should notice it trying to connect to the stylus. When that completes, tap the **Configuration** tab at the very bottom to customize the stylus to your liking. The two settings I altered to make it behave how it used to were **Locator Beacon** and **Pressure Amount**.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/pogo-connect-app-settings.jpg" alt="Pogo Connect app settings screen">
+	<img src="/assets/images/pogo-connect-app-settings.jpg" alt="Pogo Connect app settings screen">
 	<figcaption>I turned off the Locator Beacon, set Pressure Amount to +6, and selected the R3 tip to profile.</figcaption>
 </figure>
 
 After making these changes you can doodle around in the space below to verify the sensitivity settings are to you liking. You can then switch back to Paper and the new settings should be noticeable in the app.
 
-![Pogo Connect app doodle test]({{ site.url }}/assets/images/pogo-connect-app-doodle.jpg)
+![Pogo Connect app doodle test](/assets/images/pogo-connect-app-doodle.jpg)
 
 <div class="notice--info" markdown="1">
 #### ProTip: Sensitivity Settings

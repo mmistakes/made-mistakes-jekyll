@@ -13,11 +13,11 @@ PaperFaces portrait of [@mentalground0](http://twitter.com/mentalground0).
 {% include boilerplate/paperfaces-2.md %}
 
 <figure>
-	<a href="{{ site.url }}/assets/images/paperfaces-mentalground0-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-mentalground0-process-1-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-mentalground0-process-1-lg.jpg"><img src="/assets/images/paperfaces-mentalground0-process-1-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Quickly sketching things out and laying down some watercolor.</figcaption>
 </figure>
 
 <figure>
-	<a href="{{ site.url }}/assets/images/paperfaces-mentalground0-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-mentalground0-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-mentalground0-process-2-lg.jpg"><img src="/assets/images/paperfaces-mentalground0-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Building up the faces and background with watercolor.</figcaption>
 </figure>

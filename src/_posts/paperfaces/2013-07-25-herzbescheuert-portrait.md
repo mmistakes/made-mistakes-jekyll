@@ -13,10 +13,10 @@ PaperFaces portrait of [@herzbescheuert](http://twitter.com/herzbescheuert). Ano
 {% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
-	<a href="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-5-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-5-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-6-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-herzbescheuert-process-6-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-herzbescheuert-process-1-lg.jpg"><img src="/assets/images/paperfaces-herzbescheuert-process-1-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-herzbescheuert-process-2-lg.jpg"><img src="/assets/images/paperfaces-herzbescheuert-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-herzbescheuert-process-3-lg.jpg"><img src="/assets/images/paperfaces-herzbescheuert-process-3-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-herzbescheuert-process-4-lg.jpg"><img src="/assets/images/paperfaces-herzbescheuert-process-4-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-herzbescheuert-process-5-lg.jpg"><img src="/assets/images/paperfaces-herzbescheuert-process-5-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-herzbescheuert-process-6-lg.jpg"><img src="/assets/images/paperfaces-herzbescheuert-process-6-600.jpg" alt="Work in process screenshot"></a>
 </figure>

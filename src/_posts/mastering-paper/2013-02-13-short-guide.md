@@ -15,7 +15,7 @@ How do you draw or sketch on an iPad with *Paper by FifyThree*? What iPad stylus
 
 <div class="notice--warning" markdown="1">
 #### Mastering Paper Tutorials
-Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper by FiftyThree series**]({{ site.url }}/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
+Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques teased here. Be sure to check out my [**Mastering Paper by FiftyThree series**](/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
 </div>
 
 ## Tools
@@ -25,14 +25,14 @@ Since publishing this short guide I've gone through several iPad styli and writt
 * A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
 {:.fl}
 
-[pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2014-11-28-pencil-53-review %}
+[pencil-stylus]: {% post_url /mastering-paper/2014-11-28-pencil-53-review %}
 [1]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
 [2]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [3]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
 <figure>
-	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="{{ site.url }}/assets/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
+	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="/assets/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
     <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
 </figure>
 
@@ -45,12 +45,12 @@ Every drawing is different and I try to keep that in mind before opening Paper b
 
 ## Block Out Your Composition
 
-When I begin a new [PaperFaces portrait]({{ site.url }}/paperfaces/), I start by sketching an imperfect square with the pen tool. I use the square as a rough guide for the composition because I like the look of shapes and lines bleeding outside the border. An alternative would be to use the eraser to straighten up the edges, if you like things neat and tidy. You could of course forgo the square and fill the entire page --- whatever works for you.
+When I begin a new [PaperFaces portrait](/paperfaces/), I start by sketching an imperfect square with the pen tool. I use the square as a rough guide for the composition because I like the look of shapes and lines bleeding outside the border. An alternative would be to use the eraser to straighten up the edges, if you like things neat and tidy. You could of course forgo the square and fill the entire page --- whatever works for you.
 
 Usually I pencil in quick gestural outlines as a guide for painting forms later. Other times I jump right to the background and splash in layer upon layer of watercolor. It really depends on the source material and if the background has enough detail to bother with.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
+  <img src="/assets/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
   <figcaption>Face study using watercolor and some default colors.</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ To shade existing areas apply a darker hue, gray, or black. For backgrounds I te
 I don't use the fountain pen  or marker tools all that much because I like my illustrations to have a more painterly feel to them. However, these tools are perfect for covering  large irregular shaped areas with a base color --- like hair. They also come in handy when I need to rework or make adjustments (more precise than the eraser) to something I already drew or painted.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
+  <img src="/assets/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
   <figcaption>Filling in shapes using the fountain pen gets the job done quickly.</figcaption>
 </figure>
 
@@ -88,11 +88,11 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 
 <div class="notice--info" markdown="1">
 #### How to Draw Hair
-Read in detail [how I draw hair]({{ site.url }}{% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
+Read in detail [how I draw hair]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
 </div>
 
 <figure>
-  <img src="{{ site.url }}/assets/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
+  <img src="/assets/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
   <figcaption>Paper by 53's pencil tool works wonders for rendering hair.</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ If I missed anything or you're looking for additional pointers leave a comment b
 
 <figure class="large">
   {% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
-  <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="{{ site.url }}/mastering-paper/">learn how I use Paper</a>.</figcaption>
+  <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="/mastering-paper/">learn how I use Paper</a>.</figcaption>
 </figure>
 
 {% include affiliate-disclosure.html %}

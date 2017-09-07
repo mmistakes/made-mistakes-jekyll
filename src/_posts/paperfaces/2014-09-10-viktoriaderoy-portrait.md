@@ -9,13 +9,13 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ViktoriaDeRoy](http://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from [my first PaperFaces giveaway]({{ site.url }}/giveaway/).
+PaperFaces portrait of [@ViktoriaDeRoy](http://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from my first [portrait giveaway]({% post_url /articles/2014-08-24-paperfaces-giveaway %}).
 
 {% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
-  <a href="{{ site.url }}/assets/images/paperfaces-viktoriaderoy-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-viktoriaderoy-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-viktoriaderoy-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-viktoriaderoy-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-viktoriaderoy-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-viktoriaderoy-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-viktoriaderoy-process-1-lg.jpg"><img src="/assets/images/paperfaces-viktoriaderoy-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-viktoriaderoy-process-2-lg.jpg"><img src="/assets/images/paperfaces-viktoriaderoy-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-viktoriaderoy-process-3-lg.jpg"><img src="/assets/images/paperfaces-viktoriaderoy-process-3-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen captures Made with Paper.</figcaption>
 </figure>

@@ -15,13 +15,13 @@ PaperFaces portrait of a [Jee Chasles](http://sktchy.com/qCk1i) inspired by a ph
 {% include boilerplate/paperfaces-2.md %}
 
 <figure class="third">
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-5-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-6-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-6-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-7-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-7-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-8-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-jee-chasles-process-8-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-1-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-2-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-3-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-4-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-4-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-5-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-5-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-6-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-6-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-7-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-7-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-jee-chasles-process-8-lg.jpg"><img src="/assets/images/paperfaces-jee-chasles-process-8-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen captures Made with Paper.</figcaption>
 </figure>

@@ -13,19 +13,19 @@ PaperFaces portrait of [@technacity](http://twitter.com/technacity). Drawing clo
 {% include boilerplate/paperfaces-2.md %}
 
 <figure>
-  <a href="{{ site.url }}/assets/images/paperfaces-technacity-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-technacity-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-technacity-process-1-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-1-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Pencil sketch to rough out the composition.</figcaption>
 </figure>
 
 <figure class="half">
-  <a href="{{ site.url }}/assets/images/paperfaces-technacity-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-technacity-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-technacity-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-technacity-process-3-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-technacity-process-2-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-technacity-process-3-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-3-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Watercolor brush to block out shapes to build on.</figcaption>
 </figure>
 
 <figure class="third">
-  <a href="{{ site.url }}/assets/images/paperfaces-technacity-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-technacity-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-technacity-process-5-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-technacity-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-technacity-process-6-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-technacity-process-6-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-technacity-process-4-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-4-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-technacity-process-5-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-5-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-technacity-process-6-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-6-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Lightly shading with the pencil to create clouds and waves.</figcaption>
 </figure>

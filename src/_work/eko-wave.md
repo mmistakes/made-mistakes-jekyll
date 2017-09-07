@@ -18,7 +18,7 @@ order: 6
 When designing the logo I wanted something that played off of the word *wave* found in our name, while keeping with a color palette we established in Eko's previous life.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/eko-wave-logo-guide.jpg" alt="Eko Wave logo guide">
+	<img src="/assets/images/eko-wave-logo-guide.jpg" alt="Eko Wave logo guide">
 	<figcaption>Eko Wave logo guide</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ Taking things a step further I created a basic style tile[^style-tile] document 
 [^cssify]: Is CSSify even a word?
 
 <figure>
-	<img src="{{ site.url }}/assets/images/eko-wave-style-tile.jpg" alt="Eko Wave style tile">
+	<img src="/assets/images/eko-wave-style-tile.jpg" alt="Eko Wave style tile">
 	<figcaption>Eko Wave style tile</figcaption>
 </figure>
 

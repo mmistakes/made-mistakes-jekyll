@@ -23,11 +23,11 @@ Digital paintings created on an iPad using the iOS app [**Procreate** by Savage 
 <ul class="th-grid">
 {% for post in site.categories.procreate-paintings %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+    <a href="{{ post.url }}" title="{{ post.title }}">
       <noscript>
-        <img src="{{ site.url }}{{ post.image.thumbnail }}">
+        <img src="{{ post.image.thumbnail }}">
       </noscript>
-      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumbnail }}" alt="">
+      <img class="lazyload fade-in" src="/assets/images/preload-150.png" data-src="{{ post.image.thumbnail }}" alt="">
     </a>
   </li>
 {% endfor %}

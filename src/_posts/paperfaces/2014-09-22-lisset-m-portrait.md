@@ -7,6 +7,7 @@ image:
   teaser: /assets/images/paperfaces-lisset-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-lisset-m-150.jpg
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
+last_modified_at: 2017-09-07T16:17:44-04:00
 ---
 
 PaperFaces portrait of Lisset M. inspired by a photograph on Sktchy.
@@ -18,7 +19,7 @@ The original drawing is [available on Mix](https://mix.fiftythree.com/11098-Mich
 {% include boilerplate/paperfaces-3.md %}
 
 <figure class="third">
-  <a href="{{ site.url }}/assets/images/paperfaces-lisset-m-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-lisset-m-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-lisset-m-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-lisset-m-process-2-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-lisset-m-process-1-lg.jpg"><img src="/assets/images/paperfaces-lisset-m-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-lisset-m.jpg"><img src="/assets/images/paperfaces-lisset-m-process-2-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress screen captures Made with Paper.</figcaption>
 </figure>

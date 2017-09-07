@@ -91,7 +91,7 @@ So now that I finally got around to migrating my Wordpress website, developed a 
 
 ### Portfolio Layout
 
-You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
+You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page](/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
 
 ### Responsive Images
 
@@ -108,7 +108,7 @@ I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/ma
 
 ## Jekyll Themes
 
-Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes]({{ site.url }}/work/jekyll-themes/) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% compatible with [GitHub Pages](http://pages.github.com/) if you're looking for somewhere free to host your site or blog.
+Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes](/work/jekyll-themes/) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% compatible with [GitHub Pages](http://pages.github.com/) if you're looking for somewhere free to host your site or blog.
 
 - Skinny Bones: [Theme demo](https://mmistakes.github.io/skinny-bones-jekyll), [source](https://github.com/mmistakes/skinny-bones-jekyll)
 - Minimal Mistakes: [Theme demo](https://mmistakes.github.io/minimal-mistakes), [source](https://github.com/mmistakes/minimal-mistakes)

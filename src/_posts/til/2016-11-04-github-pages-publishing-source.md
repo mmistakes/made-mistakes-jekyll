@@ -22,7 +22,7 @@ Well there is. Under **Settings** there is a drop-down menu under **GitHub Pages
 [^sources]: You can [configure GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) to publish your site's source files from `master`, `gh-pages`, or a `/docs` folder on your `master` branch for Project Pages and other Pages sites that meet certain criteria.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/github-pages-options.jpg" alt="GitHub Pages Sources">
+  <img src="/assets/images/github-pages-options.jpg" alt="GitHub Pages Sources">
   <figcaption>GitHub Pages settings.</figcaption>
 </figure>
 

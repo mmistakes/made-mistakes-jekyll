@@ -17,7 +17,7 @@ As sole designer, developer, and writer for the site, having one probably isn't 
 
 ## Keep it Simple
 
-With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have also matured in the open source community. Because I'm [using Jekyll to publish the site]({{ site.url }}{% post_url /articles/2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if that meant giving up the ease of setup these other tools provide by having to build out something myself.
+With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have also matured in the open source community. Because I'm [using Jekyll to publish the site]({% post_url /articles/2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if that meant giving up the ease of setup these other tools provide by having to build out something myself.
 
 Finding a way to do it all from within Jekyll was an important consideration since I wanted to "set it and forget it" as much as possible. Maintaining stylesheets and `includes` in two separate projects was a thought I didn't really want to entertain...
 
@@ -49,7 +49,7 @@ To start I took a quick survey of all the Sass partials in my `_asseets/styleshe
 
 With the structure of the style guide determined next came [configuring the collections](http://jekyllrb.com/docs/collections/) that would contain each component. Originally I planned to have a single collection named `components` but decided to go with a second to group together all of the color palettes used on the site.
 
-Because I had worked with collections when I built the [FAQ section]({{ site.url }}/faqs/) of my site I had a good idea of what I was doing. To start I added the following to my `_config.yml` and created `_colors` and `_components` folders in the root of my project.
+Because I had worked with collections when I built the [FAQ section](/faqs/) of my site I had a good idea of what I was doing. To start I added the following to my `_config.yml` and created `_colors` and `_components` folders in the root of my project.
 
 ```yaml
 collections:
@@ -59,7 +59,7 @@ collections:
     output: false
 ```
 
-I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section]({{ site.owner.github-repo }}_faqs/)) I would simply change `output: false` to `true` and add permalinks to the YAML Front Matter.
+I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_faqs) I would simply change `output: false` to `true` and add permalinks to the YAML Front Matter.
 
 <div class="notice" markdown="1">
 #### Looking to the future
@@ -114,7 +114,7 @@ Or you could hack the order sequence by doing something like this with your file
 After creating a handful of components, I started to refine the [Liquid](https://github.com/Shopify/liquid/wiki) needed to display them. Mostly to make sure things were shaping up how I envisioned them before getting too deep into things.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/jekyll-style-guide-components.png" alt="Sublime Text _components screenshot">
+  <img src="/assets/images/jekyll-style-guide-components.png" alt="Sublime Text _components screenshot">
   <figcaption>Screen shot of my components collection.</figcaption>
 </figure>
 
@@ -207,7 +207,7 @@ To help expose components that may be buried towards the bottom of the page I ca
 ```
 
 <figure>
-  <img src="{{ site.url }}/assets/images/style-guide-component-selector.jpg" alt="style guide component selector">
+  <img src="/assets/images/style-guide-component-selector.jpg" alt="style guide component selector">
   <figcaption>Style guide component selector.</figcaption>
 </figure>
 
@@ -220,7 +220,7 @@ For the most part all of my components displayed correctly on the page. One of t
 There were also a few cases where I needed to add styles specific for the style guide in order for things to display correctly. The `colors` collection is a good example of that.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/style-guide-ui-colors.png" alt="UI colors screenshot">
+  <img src="/assets/images/style-guide-ui-colors.png" alt="UI colors screenshot">
   <figcaption>Screenshot of UI color palette.</figcaption>
 </figure>
 
@@ -257,10 +257,10 @@ To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/mast
 
 ## Maintaining the Style Guide
 
-Updating and adding components to the [style guide]({{ site.url }}/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
+Updating and adding components to the [style guide](/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
 
 <div markdown="0" class="btn--group">
-  <a href="{{ site.url }}/style-guide/" class="btn btn--info">View Made Mistakes' Style Guide</a>
+  <a href="/style-guide/" class="btn btn--info">View Made Mistakes' Style Guide</a>
   <a href="https://github.com/mmistakes/made-mistakes-jekyll/archive/master.zip" class="btn"><svg class="icon icon--download" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-download' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> Download</a>
 </div>
 

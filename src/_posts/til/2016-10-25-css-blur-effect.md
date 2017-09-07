@@ -19,8 +19,8 @@ These upscaled images sure do look awful on an iPad with retina display, :stuck_
 {% endcapture %}
 
 <figure>
-  <a href="{{ site.url }}/assets/images/mm-upscaled-image-blur-ipad.jpg">
-    <img src="{{ site.url }}/assets/images/mm-upscaled-image-blur-ipad-1124.jpg" alt="ugly upscaled images on a high resolution display">
+  <a href="/assets/images/mm-upscaled-image-blur-ipad.jpg">
+    <img src="/assets/images/mm-upscaled-image-blur-ipad-1124.jpg" alt="ugly upscaled images on a high resolution display">
   </a>
   <figcaption>{{ upscale_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
 </figure>
@@ -45,7 +45,7 @@ Smoothed things out nicely with `filter: blur()`.
 {% endcapture %}
 
 <figure>
-  <img src="{{ site.url }}/assets/images/mm-image-filter-blur-ipad-1124.jpg" alt="blur filtered background images">
+  <img src="/assets/images/mm-image-filter-blur-ipad-1124.jpg" alt="blur filtered background images">
   <figcaption>{{ filter_blur_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
 </figure>
 

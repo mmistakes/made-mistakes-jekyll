@@ -56,4 +56,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
+This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.

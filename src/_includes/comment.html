@@ -7,8 +7,8 @@
       <noscript><img src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60" alt=""></noscript>
       <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60 1x, https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=120 2x" alt="" class="lazyload blur-up">
     {% else %}
-      <noscript><img src="{{ site.url }}/assets/images/avatar-60.png" alt=""></noscript>
-      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60 1x, {{ site.url }}/assets/images/avatar-120.png 2x" alt="" class="lazyload blur-up">
+      <noscript><img src="/assets/images/avatar-60.png" alt=""></noscript>
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60 1x, /assets/images/avatar-120.png 2x" alt="" class="lazyload blur-up">
     {% endif %}
   </div>
   <h3 class="comment-author-name">

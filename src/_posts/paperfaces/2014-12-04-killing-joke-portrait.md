@@ -1,7 +1,7 @@
 ---
 title: "The Killing Joke"
 excerpt: "PaperFaces portrait of the Joker from The Dark Knight drawn with Paper by 53 on an iPad."
-last_modified_at: 2014-12-24 00:00:00
+last_modified_at: 2017-09-07T16:16:56-04:00
 image: 
   path: &image /assets/images/paperfaces-joker.jpg 
   feature: *image
@@ -21,7 +21,7 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 {% include boilerplate/paperfaces-3.md %}
 
 <figure class="half">
-  <a href="{{ site.url }}/assets/images/paperfaces-joker-original-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-joker-original-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="{{ site.url }}/assets/images/paperfaces-joker-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-joker-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-joker-original-1.jpg"><img src="/assets/images/paperfaces-joker-original-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-joker-process-1-lg.jpg"><img src="/assets/images/paperfaces-joker-process-1-600.jpg" alt="Work in process screenshot"></a>
   <figcaption>Original drawing by 赵 志欣 with my work on the right.</figcaption>
 </figure>

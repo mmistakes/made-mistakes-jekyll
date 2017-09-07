@@ -15,7 +15,7 @@ PaperFaces portrait of Sus Pek inspired by a [photograph on Sktchy](http://sktch
 I'm a sucker for dramatic lit faces and have more queued up than I have time to draw. This one in particular stuck out to me while listening to **Xasthur** on repeat. The skull like visage and grit found in the original image didn't hurt either... 
 
 <figure>
-  <a href="{{ site.url }}/assets/images/paperfaces-sus-pek-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-sus-pek-process-1-900.jpg" alt="Work in process screenshot"></a>
+  <a href="/assets/images/paperfaces-sus-pek-process-1-lg.jpg"><img src="/assets/images/paperfaces-sus-pek-process-1-900.jpg" alt="Work in process screenshot"></a>
   <figcaption>Work in progress drawings are <a href="https://mix.fiftythree.com/11098-Michael-Rose/2963830">available on Mix</a>.</figcaption>
 </figure>
 

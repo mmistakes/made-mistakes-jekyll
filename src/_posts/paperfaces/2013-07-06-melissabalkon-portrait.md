@@ -13,7 +13,7 @@ PaperFaces portrait of [@melissabalkon](http://twitter.com/melissabalkon) holdin
 {% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
-	<a href="{{ site.url }}/assets/images/paperfaces-melissabalkon-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-melissabalkon-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-melissabalkon-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-melissabalkon-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-melissabalkon-process-1-lg.jpg"><img src="/assets/images/paperfaces-melissabalkon-process-1-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-melissabalkon-process-2-lg.jpg"><img src="/assets/images/paperfaces-melissabalkon-process-2-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Drawing in grays is one of my favorite pastimes.</figcaption>
 </figure>

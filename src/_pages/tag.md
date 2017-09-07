@@ -12,6 +12,6 @@ share: false
 <ul>
   {% assign sorted_tags = site.tags | sort_tags_by_name %}
   {% for tag in sorted_tags %}
-    <li><a href="{{ site.url }}/tag/{{ tag[0] | replace:' ','-' | downcase }}/">{{ tag[0] }}</a> ({{ tag[1] }})</li>
+    <li><a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/">{{ tag[0] }}</a> ({{ tag[1] }})</li>
   {% endfor %}
 </ul>

@@ -20,7 +20,7 @@ Convenient to embed a small bit of `<script>` voodoo into your pages, sure. But 
 
 ## Self-Hosted Comment Systems
 
-[**Isso**](https://posativ.org/isso/)[^self-hosted-commenting] describes itself as "commenting software similar to Disqus." You host a SQLite database and embed some JavaScript on your pages (just like Disqus and friends) and you're ready to roll. After freeing my content from Wordpress and "[going static]({{ site.url }}{% post_url /articles/2012-03-19-going-static %})" I really didn't want to manage a database again just to have comments on my site. So these solutions were out.
+[**Isso**](https://posativ.org/isso/)[^self-hosted-commenting] describes itself as "commenting software similar to Disqus." You host a SQLite database and embed some JavaScript on your pages (just like Disqus and friends) and you're ready to roll. After freeing my content from Wordpress and "[going static]({% post_url /articles/2012-03-19-going-static %})" I really didn't want to manage a database again just to have comments on my site. So these solutions were out.
 
 [^self-hosted-commenting]: Other self-hosted commenting systems include: [**Discourse**](http://www.discourse.org/), [**talkatv**](https://github.com/talkatv/talkatv), [**Juvia**](https://github.com/phusion/juvia), [**HashOver**](https://github.com/jacobwb/hashover), and [**Savas**](https://github.com/savaslabs/squabble).
 
@@ -58,7 +58,7 @@ Thankfully I didn't have to start from scratch as I was able to draw inspiration
 
 ### Building the Form
 
-I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements]({{ site.url }}/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons]({{ site.url }}/style-guide/#guide-buttons) were already done as part of my [living style guide]({{ site.url }}{% post_url /articles/2015-02-10-jekyll-style-guide %}). 
+I set my gaze on squaring away the "Leave a comment" submission form first. Seemed like an easy target as the styling of various [form elements](/style-guide/#guide-forms) like `<input>`, `<label>`, `<textarea>` and [buttons](/style-guide/#guide-buttons) were already done as part of my [living style guide]({% post_url /articles/2015-02-10-jekyll-style-guide %}). 
 
 All it really needed for completion was a decision on what fields I wanted to capture, and a little bit of JavaScript for events handling and submission. Arriving at this for my [`post__comments.html`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/_includes/post__comments.html) include (`class` names and Liquid removed for brevity).
 
@@ -118,7 +118,7 @@ Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/gh-pag
 To avoid disrupting the flow too much I went with inline alert messaging directly above the **submit button**.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/mm-comment-inline-alert.png" alt="inline comment form alert example">
+  <img src="/assets/images/mm-comment-inline-alert.png" alt="inline comment form alert example">
   <figcaption>Comment form inline alert example.</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-lo
 ```
 
 <figure>
-  <img src="{{ site.url }}/assets/images/mm-submit-comment-loading.gif" alt="submit button loading animation">
+  <img src="/assets/images/mm-submit-comment-loading.gif" alt="submit button loading animation">
   <figcaption>Submit button loading animation.</figcaption>
 </figure>
 
@@ -139,7 +139,7 @@ If the form is successfully submitted a message appears notifying the user that 
 With smaller sites hosted with GitHub Pages this becomes less of a problem, as they build much faster. Especially true if you decide to go with the auto merge option and skip [moderating comments](https://github.com/eduardoboucas/staticman#moderation-required).
 
 <figure>
-  <img src="{{ site.url }}/assets/images/mm-submit-comment-success.gif" alt="form submit success animation">
+  <img src="/assets/images/mm-submit-comment-success.gif" alt="form submit success animation">
   <figcaption>The comment form in action.</figcaption>
 </figure>
 
@@ -213,7 +213,7 @@ Should populate `_includes/comment.html` and spit out as the following HTML:
 Looking like this when styled with `CSS`:
 
 <figure>
-  <img src="{{ site.url }}/assets/images/mm-comment-example.png" alt="comment example">
+  <img src="/assets/images/mm-comment-example.png" alt="comment example">
   <figcaption>Comment example (rendered HTML).</figcaption>
 </figure>
 
@@ -239,7 +239,7 @@ First you need to grant Staticman access to your Jekyll repository on GitHub. Yo
 
 Following the docs I added GitHub username `staticmanapp` as a collaborator and then pinged `https://api.staticman.net/v1/connect/{your GitHub username}/{your repository name}` as instructed to accept the invitation.
 
-![staticmanapp as collaborator]({{ site.url }}/assets/images/staticman-collaborator.png)
+![staticmanapp as collaborator](/assets/images/staticman-collaborator.png)
 
 #### Configuring Staticman
 
@@ -282,7 +282,7 @@ staticman:
 
 In case spam makes it through, I'd like another layer of "protection" to block it. Setting `moderation: true` will make Staticman send a pull request whenever a new comment entry is submitted. At this point you can examine the content inside of the PR and decide if you want to **merge** or **close** it.
 
-When hosting with GitHub Pages, a merge will instantly force Jekyll to rebuild the site --- publishing the comment. Since I self host I have the extra step of pulling from `remote`, before building locally and [deploying via rsync]({{ site.url }}{% post_url /articles/2016-02-17-using-jekyll-2016 %}#deployment).
+When hosting with GitHub Pages, a merge will instantly force Jekyll to rebuild the site --- publishing the comment. Since I self host I have the extra step of pulling from `remote`, before building locally and [deploying via rsync]({% post_url /articles/2016-02-17-using-jekyll-2016 %}#deployment).
 
 {% capture webhooks %}
 #### ProTip: Webhooks for Branch Auto Deletion
@@ -335,12 +335,12 @@ To set a redirect URL for your form after comment submission, simply add a hidde
 If configured correctly you should receive a pull request notification on GitHub each time a comment entry is submitted. Look the commit over (if you're moderating them) and **merge pull request** to accept or **close** to block it.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/staticman-github-pull-requests.png" alt="Staticman pull request notifications on GitHub">
+  <img src="/assets/images/staticman-github-pull-requests.png" alt="Staticman pull request notifications on GitHub">
   <figcaption>Staticman <strong>pull request</strong> notifications on GitHub.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.url }}/assets/images/staticman-pull-request-merge.png" alt="Staticman pull request merge on GitHub">
+  <img src="/assets/images/staticman-pull-request-merge.png" alt="Staticman pull request merge on GitHub">
   <figcaption>Staticman pull request merged and branch auto-deleted via webhook.</figcaption>
 </figure>
 
@@ -422,7 +422,7 @@ Pulling this off with Disqus required way [more work](https://help.disqus.com/cu
 [^markdown-filter]: The `markdownify` filter is used in `_includes/comment.html` to convert Markdown-formatted strings found in `{% raw %}{{ include.message }}{% endraw %}` into HTML.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/mm-comments-syntax-highlighted.png" alt="syntax highlighted code blocks in comments">
+  <img src="/assets/images/mm-comments-syntax-highlighted.png" alt="syntax highlighted code blocks in comments">
   <figcaption>Syntax highlighted code blocks in comments.</figcaption>
 </figure>
 
@@ -485,5 +485,5 @@ Less likely a commenter will return to the page to see if a reply was made witho
 
 <div class="notice--info" markdown="1">
 #### Update: Replies, Notifications, and More!
-Staticman has been updated to support replies, email notifications, and [reCAPTCHA](https://www.google.com/recaptcha/intro/) (helps reduce spam comments). To learn more about how I added each of these to this site, read my post [Improving Static Comments with Jekyll & Staticman]({{ site.url }}{% post_url /articles/2016-12-08-improving-jekyll-static-comments %}).
+Staticman has been updated to support replies, email notifications, and [reCAPTCHA](https://www.google.com/recaptcha/intro/) (helps reduce spam comments). To learn more about how I added each of these to this site, read my post [Improving Static Comments with Jekyll & Staticman]({% post_url /articles/2016-12-08-improving-jekyll-static-comments %}).
 </div>

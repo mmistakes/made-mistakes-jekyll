@@ -14,13 +14,13 @@ Thirty-four years and still kicking --- a PaperFaces self portrait on my birthda
 {% include boilerplate/paperfaces.md %}
 
 <figure class="third">
-	<a href="{{ site.url }}/assets/images/michael-rose-beard-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/michael-rose-beard-process-1-600.jpg" alt="Screenshot. Painting the background with watercolor."></a>
-	<a href="{{ site.url }}/assets/images/michael-rose-beard-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/michael-rose-beard-process-2-600.jpg" alt="Screenshot. Sketching out the figure."></a>
-	<a href="{{ site.url }}/assets/images/michael-rose-beard-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/michael-rose-beard-process-3-600.jpg" alt="Screenshot. Adding detail with watercolor."></a>
+	<a href="/assets/images/michael-rose-beard-process-1-lg.jpg"><img src="/assets/images/michael-rose-beard-process-1-600.jpg" alt="Screenshot. Painting the background with watercolor."></a>
+	<a href="/assets/images/michael-rose-beard-process-2-lg.jpg"><img src="/assets/images/michael-rose-beard-process-2-600.jpg" alt="Screenshot. Sketching out the figure."></a>
+	<a href="/assets/images/michael-rose-beard-process-3-lg.jpg"><img src="/assets/images/michael-rose-beard-process-3-600.jpg" alt="Screenshot. Adding detail with watercolor."></a>
 	<figcaption>In process sketching. Rough out shapes with watercolor and define them with pencil.</figcaption>
 </figure>
 
 <figure>
-	<a href="{{ site.url }}/assets/images/michael-rose-beard-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/michael-rose-beard-process-4-600.jpg" alt="Screenshot. Adding beard detail with the pencil."></a>
+	<a href="/assets/images/michael-rose-beard-process-4-lg.jpg"><img src="/assets/images/michael-rose-beard-process-4-600.jpg" alt="Screenshot. Adding beard detail with the pencil."></a>
 	<figcaption>The new zoom tool is a beast and makes adding beard detail fun and easy.</figcaption>
 </figure>
