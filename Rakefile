@@ -9,6 +9,11 @@ task :test do
     },
     :url_ignore => [/sktchy.com/],
     # :disable_external => true,
+    # disable SSL certificates
+    :typhoeus => {
+      :ssl_verifypeer => false,
+      :ssl_verifyhost => 0
+    },
     :allow_hash_href => true,
     :assume_extension => true,
     :empty_alt_ignore => true
