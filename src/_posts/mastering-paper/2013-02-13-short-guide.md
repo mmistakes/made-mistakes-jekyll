@@ -20,20 +20,19 @@ Since publishing this short guide I've gone through several iPad styli and writt
 
 ## Tools
 
-*	Obviously you'll need an iPad --- I use a 3rd generation with the nice retina screen.
-* [Paper by FiftyThree](http://www.fiftythree.com/paper/) for iOS is my sketching app of choice. It's a free download, but you'll want to buy the additional brushes, pens, and Color Mixer --- my favorites are the pencil and watercolor brush.
-* A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
-{:.fl}
+-	Obviously you'll need an iPad --- I use a 3rd generation with the nice retina screen.
+- [Paper by FiftyThree](http://www.fiftythree.com/paper/) for iOS is my sketching app of choice. It's a free download, but you'll want to buy the additional brushes, pens, and Color Mixer --- my favorites are the pencil and watercolor brush.
+- A stylus is optional, but highly recommended. I use [FiftyThree's Pencil][pencil-stylus] and in the past a [Pogo Connect Smart Pen][1], [LunaTik Alloy Touch Pen][2], and [Just Mobile's AluPen][3]. If you can't afford a decent stylus right now Amazon has [dirt cheap styli for a few dollars][4] that offer more precision than finger painting but not much else.
 
 [pencil-stylus]: {% post_url /mastering-paper/2014-11-28-pencil-53-review %}
-[1]: {{ site.url}}{% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
+[1]: {% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}
 [2]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [3]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
 <figure>
 	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="/assets/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
-    <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
+  <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
 </figure>
 
 <div class="notice--warning" markdown="1">
