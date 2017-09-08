@@ -1,7 +1,7 @@
 ---
 title: "Pogo Connect Stylus Makes Paper by FiftyThree Better"
 excerpt: "An iPad stylus that brings enhanced functionality to devices and apps that support its SDK."
-last_modified_at: 2016-01-27T14:44:05-05:00
+last_modified_at: 2017-09-08T10:23:12-04:00
 image: 
   path: &image /assets/images/pogo-connect-review-feature.jpg
   feature: *image
@@ -105,7 +105,7 @@ About those bugs I mentioned earlier. Not sure if they're hardware or software r
 
 ### Lock Screen Annoyance
 
-During my first week with the Pogo I encountered another issue that I thought might have been a bug with Paper. Out of nowhere the iPad's screen would turn off and the lock "chhkk" would sound. After complaining about it on Tumblr [a friend messaged me](http://mbbradbury.tumblr.com/post/51935357080/what-went-wrong-with-your-pogo-connect-i-can-see-me) to say that I needed to turn off the iPad cover lock setting. It never occurred to me that there was a magnet in the tip of the Pogo that could trigger a screen lock when moved near the iPad's outer bezel.
+During my first week with the Pogo I encountered another issue that I thought might have been a bug with Paper. Out of nowhere the iPad's screen would turn off and the lock "chhkk" would sound. After complaining about it on Tumblr a friend messaged me to say that I needed to turn off the iPad cover lock setting. It never occurred to me that there was a magnet in the tip of the Pogo that could trigger a screen lock when moved near the iPad's outer bezel.
 
 <figure>
   <img src="/assets/images/iPad-cover-lock-setting.jpg" alt="iPad iOS 6 cover lock setting">

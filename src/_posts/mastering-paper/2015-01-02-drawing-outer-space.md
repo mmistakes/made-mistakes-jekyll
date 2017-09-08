@@ -1,6 +1,6 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Outer Space"
-last_modified_at: 2015-06-17T15:07:42-04:00
+last_modified_at: 2017-09-08T09:46:43-04:00
 excerpt: "Learn how to draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and a Pencil stylus."
 tags: [Paper by 53, tutorial, space, blend, Pencil by 53, stylus, iPad]
 image:
@@ -113,7 +113,7 @@ Now begins the tedious process of placing stars one by one. I like to start with
   <figcaption>Mixing a medium-dark blue to lay down some stars with.</figcaption>
 </figure>
 
-Try to use your fingertip with a controlled tapping motion. If you strike the screen and drag your finger at all, a small streak will appear instead of a dot. If this happens use the [Rewind gesture to undo](http://support.fiftythree.com/customer/portal/articles/892210-basic-features#undo) any mistakes.
+Try to use your fingertip with a controlled tapping motion. If you strike the screen and drag your finger at all, a small streak will appear instead of a dot. If this happens use the [Rewind gesture to undo](https://support.fiftythree.com/hc/en-us/articles/203385492-Drawing-Tools#rewind) any mistakes.
 
 <figure>
   <img src="/assets/images/paper-53-space-blue-stars-finger.jpg" alt="using a fingertip to create stars">

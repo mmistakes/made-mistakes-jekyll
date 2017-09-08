@@ -122,7 +122,7 @@ I've been completely humbled by all the support and attention coming my way sinc
 Just sharing the love with some links back to articles and galleries that have featured my PaperFaces artwork and story.
     
 * [This Summer We Learned About PaperFaces…](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by)
-* [53 Outstanding Works of Art Made with Paper by FiftyThree](http://designshack.net/articles/inspiration/53-outstanding-works-of-art-made-with-paper-by-fiftythree/)
+* [53 Outstanding Works of Art Made with Paper by FiftyThree](https://designshack.net/articles/inspiration/53-outstanding-works-of-art-made-with-paper-by-fiftythree/)
 * [The Story of #PaperFaces](https://web.archive.org/web/20130723152905/http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)

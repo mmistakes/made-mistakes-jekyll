@@ -1,7 +1,7 @@
 ---
 title: "Watercolor, Not Watercolor"
 excerpt: "Portrait of Emil I. digitally painted with Procreate on an iPad."
-last_modified_at: 2016-07-05T11:17:57-04:00
+last_modified_at: 2017-09-08T10:24:20-04:00
 image: 
   path: &image /assets/images/emil-i-procreate.jpg
   feature: *image
@@ -12,7 +12,7 @@ tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 
 Portrait of Emil I. inspired by a [photograph on Sktchy](http://sktchy.com/TXmmCc). Digitally painted with Procreate on an iPad Air 2.
 
-When Adobe and Adonit released the [Ink & Slide](http://www.adonit.net/adobe-ink-slide/) stylus and ruler combo I was intrigued. There really weren't any well designed pressure sensitive styli out there with a fine tip. The high sticker price scared me away initially, after being burned by the [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) and its myriad of hardware issues --- so I decided to wait.
+When Adobe and Adonit released the [Ink & Slide](https://www.amazon.com/Adobe-Creative-Connected-Precision-Stylus/dp/B00LNECVN6/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mademist-20&linkId=643de6452764ad91cc2a8a8077f11204) stylus and ruler combo I was intrigued. There really weren't any well designed pressure sensitive styli out there with a fine tip. The high sticker price scared me away initially, after being burned by the [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) and its myriad of hardware issues --- so I decided to wait.
 
 Fast forward to last week when bought an Adobe Ink that was on sale for 90% off. I could live with losing $20 if it turned out to be a dud...
 

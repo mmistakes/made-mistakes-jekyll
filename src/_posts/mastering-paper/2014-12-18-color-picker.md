@@ -23,7 +23,7 @@ From those early days of working with a constrained palette up to the addition o
 
 ## How to use the Color Picker
 
-First off you need to own either the **Essentials** or **Mixer In-App purchases** to enable the Color Picker. If you have FiftyThree's Pencil then good news, all of the [tools are already unlocked](http://support.fiftythree.com/customer/portal/articles/1358809-using-pencil#enabling-tools) for you.
+First off you need to own either the **Essentials** or **Mixer In-App purchases** to enable the Color Picker. If you have FiftyThree's Pencil then good news, all of the tools are already unlocked for you.
 
 <figure class="half">
   <img src="/assets/images/paper-53-mixer-iap.png" alt="Paper 53 Mixer In-App purchase screen">

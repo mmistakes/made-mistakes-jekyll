@@ -1,6 +1,6 @@
 ---
 title: "Building a Style Guide with Jekyll"
-last_modified_at: 2017-05-11T11:40:40-04:00
+last_modified_at: 2017-09-08T09:04:54-04:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 tags: [Jekyll, style guide, open source, web development, GitHub]
 image:
@@ -25,7 +25,7 @@ So with that I bumped around GitHub and Google to see what sort of solutions exi
 
 * [Jekyll CSS Styleguide](http://davidhund.nl/jekyll-styleguide/)
 * [Boilerplate for Jekyll Styleguide](https://github.com/jeromecoupe/jekyllstyleguide)
-* [Pattern Lab Jekyll Port](https://github.com/zakkain/patternlab-jekyll)
+* [Pattern Lab Jekyll Port](https://github.com/karissademi/patternlab-jekyll)
 * [Pattern Primer Jekyll](https://github.com/opattison/Pattern-Primer-Jekyll)
 {:.fl}
 
@@ -63,9 +63,9 @@ I choose not to output a file for each color/component since I planned on groupi
 
 <div class="notice" markdown="1">
 #### Looking to the future
-For version 2.0 of the style guide I may investigate taking it to the next level by constructing a complete [atomic design system](http://patternlab.io/about.html). Instead of collections for just `components` and `colors` I could create `atoms`, `molecules`, `organisms`, and `templates` to flush out the entire system. 
+For version 2.0 of the style guide I may investigate taking it to the next level by constructing a complete [atomic design system](http://atomicdesign.bradfrost.com/). Instead of collections for just `components` and `colors` I could create `atoms`, `molecules`, `organisms`, and `templates` to flush out the entire system. 
 
-I've seen [some examples](https://github.com/zakkain/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
+I've seen [some examples](https://github.com/karissademi/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
 </div>
 
 ### Display Components and Color Palettes
@@ -120,7 +120,7 @@ After creating a handful of components, I started to refine the [Liquid](https:/
 
 There's not much magic going on here. Basically what I did was:
 
-1. Create a new page [`/style-guide/index.md`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.2.0/style-guide/index.md) to act as the style guide's main page.
+1. Create a new page [`/style-guide/index.md`](https://github.com/mmistakes/made-mistakes-jekyll/blob/10.0.0/style-guide/index.md) to act as the style guide's main page.
 2. Added YAML Front Matter to this page --- assigning a title, `layout: style_guide` to utilize the `_layout` I created earlier, and an excerpt description for SEO purposes.
 3. Added a short introduction to the style guide.
 4. Used some Liquid to create `for` loops to output all documents found in the `colors` and `components` collections.

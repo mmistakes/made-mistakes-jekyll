@@ -6,7 +6,7 @@ updated: 2014-02-11T20:02:51Z
 post_id: "/pogo-connect-sensitivity"
 name: Michael Rose
 url: https://mademistakes.com/
-message: "Thanks Jim!\r\n\r\nThis is a known problem, check out [TenOne Design's blog](http://tenonedesign.com/blog/t1pogomanager-sdk-v132-for-ipad-air/)
+message: "Thanks Jim!\r\n\r\nThis is a known problem, check out [TenOne Design's blog](https://tenonedesign.com/blog/t1pogomanager-sdk-v132-for-ipad-air/)
   for more detail.\r\n\r\nThe gist is Apple farted
   around with the technology behind their screens for the new iPad Air and Mini with
   retina, which caused the Pogo Connect to stop working.\r\n\r\nTenOne Design has since
