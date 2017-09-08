@@ -7,8 +7,7 @@ task :test do
     :cache => {
       :timeframe => '30d'
     },
-    :url_ignore => [/sktchy.com/],
-    # :disable_external => true,
+    :url_ignore => [/(twitter|instagram|sktchy|mix.fiftythree|paper.fiftythree).com/],
     # disable SSL certificates
     :typhoeus => {
       :ssl_verifypeer => false,
