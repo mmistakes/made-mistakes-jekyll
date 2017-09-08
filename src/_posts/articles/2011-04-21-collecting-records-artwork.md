@@ -6,7 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/collecting-records-teaser.jpg
   thumbnail: /assets/images/collecting-records-thumb.jpg
-last_modified_at: 2013-04-26
+last_modified_at: 2017-09-07T20:34:14-04:00
 tags: [punk, records, inspiration, DIY, critique, design]
 ---
 
@@ -18,7 +18,7 @@ Looking back, my favorite sleeves and liner note designs all shared a common ele
 
 ## Anything but the Swiss
 
-Thumbing through boxes of dusty hardcore and emo records, it's easy to see where many of my early aesthetics drew inspiration from. In college I tired of the [Swiss style](http://en.wikipedia.org/wiki/International_Typographic_Style/ "International Typographic Style") every one of my peers was regurgitating in *Typography I* and *II*. What excited me more, was mashing analog approaches of zine and <abbr title="Do It Yourself">DIY</abbr> record packaging design with refined digital methods and craftsmanship. Focusing less on the gloss and more on the method, gave me a greater appreciation of texture and how to communicate with it.
+Thumbing through boxes of dusty hardcore and emo records, it's easy to see where many of my early aesthetics drew inspiration from. In college I tired of the [Swiss style](https://en.wikipedia.org/wiki/International_Typographic_Style "International Typographic Style") every one of my peers was regurgitating in *Typography I* and *II*. What excited me more, was mashing analog approaches of zine and <abbr title="Do It Yourself">DIY</abbr> record packaging design with refined digital methods and craftsmanship. Focusing less on the gloss and more on the method, gave me a greater appreciation of texture and how to communicate with it.
 
 Instead of embarrassing myself with examples of my early fumbles as a graphic designer --- I'd like to share inspirational fragments from my record collection. With over 500 LP's and 45's, I'm sure I can find plenty of material to critique and comment on.
 

@@ -107,7 +107,7 @@ I've been completely humbled by all the support and attention coming my way sinc
   <li><a href="/assets/images/homage-missshrestha-rosebuds-lg.jpg"><img src="/assets/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagram"></a></li>
   <li><a href="/assets/images/homage-morgantj-mmistakes-lg.jpg"><img src="/assets/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj"></a></li>
   <li><a href="/assets/images/homage-tortadecereja-mmistakes-lg.jpg"><img src="/assets/images/homage-tortadecereja-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @tortadecereja"></a></li>
-  <li><a href="http://instagram.com/p/W8WaxfAYmG/"><img src="/assets/images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
+  <li><a href="https://www.instagram.com/p/W8WaxfAYmG/"><img src="/assets/images/homage-lindseyvail-art-1-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
   <li><a href="http://instagram.com/p/W5r5EwgYge/"><img src="/assets/images/homage-lindseyvail-art-2-150.jpg" alt="PaperFaces homage drawn by @lindseyvail_art on Instagram"></a></li>
   <li><a href="http://instagram.com/p/VQ4-6HklEU/"><img src="/assets/images/homage-m0im0i-150.jpg" alt="PaperFaces homage drawn by @m0im0i on Instagram"></a></li>
   <li><a href="https://twitter.com/LovisasLife/status/314699959775662081"><img src="/assets/images/homage-lovisaslife-150.jpg" alt="PaperFaces homage drawn by @LovisasLife on Twitter"></a></li>
@@ -123,9 +123,8 @@ Just sharing the love with some links back to articles and galleries that have f
     
 * [This Summer We Learned About PaperFaces…](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by)
 * [53 Outstanding Works of Art Made with Paper by FiftyThree](http://designshack.net/articles/inspiration/53-outstanding-works-of-art-made-with-paper-by-fiftythree/)
-* [The Story of #PaperFaces](http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
+* [The Story of #PaperFaces](https://web.archive.org/web/20130723152905/http://anewatlantis.com/2013/01/the-story-of-paperfaces/)
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
-* [iPad artist: Michael Rose, creator of the PaperFaces project](http://kevinbradberry.net/2014/08/27/ipad-artist-michael-rose/)
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
 
 <div class="notice--info" markdown="1">

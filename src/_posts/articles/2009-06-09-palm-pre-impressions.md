@@ -55,7 +55,7 @@ The experience of having a device that organizes your life, makes phone calls, a
 
 So there you have it. Can't say that I was excited about the thought of paying an extra $20 a month for the required Sprint Everything Data plan. But seeing how I'm getting more anytime minutes, Sprint Navigation, Sprint TV, and nights that start at 7pm instead of 9pm --- I'll live. My only real Palm Pre complaints stem from its software or lack of applications, which I'm pretty confident will be addressed with future firmware and software updates. I hope ;-)
 
-If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walkthroughs.
+If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](https://web.archive.org/web/20100613121400/http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walkthroughs.
 
 <ul class="th-grid">
   <li><a href="/assets/images/354.jpg"><img src="/assets/images/354t.jpg" alt="Palm Pre lock screen"></a></li>

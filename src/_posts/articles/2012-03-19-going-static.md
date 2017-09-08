@@ -1,7 +1,7 @@
 ---
 title: "Going Static — Using Jekyll CMS Free"
 excerpt: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll CMS free."
-last_modified_at: 2017-01-11T11:30:29-05:00
+last_modified_at: 2017-09-07T20:38:55-04:00
 image: 
   path: &image /assets/images/going-static-feature.jpg
   feature: *image
@@ -28,14 +28,13 @@ But the real reason that prompted me to look at going back to my web roots was *
 
 ## The Journey to a Static Website
 
-And so began the process of building a blog-portfolio hybrid using vanilla HTML and CSS --- no databases, no PHP. But where to start? *Do I build a few disconnected pages in a text editor like Sublime Text and upload via FTP?* Or is there a better way using a static-site generator like [Jekyll][1], [nanoc][2], [Middleman][3], [StaticMatic][4], [Bonsai][5], [subDimension][6], or [Octopress][7], the [list goes on][8]?
+And so began the process of building a blog-portfolio hybrid using vanilla HTML and CSS --- no databases, no PHP. But where to start? *Do I build a few disconnected pages in a text editor like Sublime Text and upload via FTP?* Or is there a better way using a static-site generator like [Jekyll][1], [nanoc][2], [Middleman][3], [StaticMatic][4], [Bonsai][5], and the [list goes on][8]?
 
 [1]: http://jekyllrb.com/
-[2]: http://nanoc.stoneship.org/
+[2]: https://nanoc.ws/
 [3]: http://middlemanapp.com/
-[4]: http://staticmatic.rubyforge.org/
+[4]: https://github.com/staticmatic/staticmatic
 [5]: https://github.com/benschwarz/bonsai
-[6]: http://subdimension.co.uk/pages/projects.html
 [7]: http://octopress.org/
 [8]: https://www.staticgen.com/
 
@@ -64,7 +63,7 @@ One of the most beneficial things I did to familiarize myself with the HTML5 spe
 
 Back when I still had a website powered by Wordpress, I toyed with the idea of designing art directed blog posts. Essentially posts that deviated from the blog's theme and became something unique based on the posts content. Think of the editorial design work done in print magazines and you'll get the idea.
 
-To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom CSS styles into a post's layout overriding the defaults. If you ask me, using [Liquid If statement](http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless) tags in a templates seems less hacky and way more customizable. Loading custom CSS for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and YAML.
+To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom CSS styles into a post's layout overriding the defaults. If you ask me, using [Liquid flow tags](https://help.shopify.com/themes/liquid/tags/control-flow-tags) in a templates seems less hacky and way more customizable. Loading custom CSS for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and YAML.
 
 ### Less is More
 

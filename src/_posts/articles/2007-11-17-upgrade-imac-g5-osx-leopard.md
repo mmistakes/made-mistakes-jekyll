@@ -31,9 +31,9 @@ QuarkXpress 6.1 and 6.5 opened fine for me as well. There were a few buggy thing
 
 ## Trouble in Missing Sync Land?
 
-The only other application I was worried about was MarkSpace's Missing Sync for Palm OS. MarkSpace has [stated on their website](http://www.markspace.com/leopard.html "Missing Sync compatibility with Leopard") that version 6 has issues with Leopard and they were working on fixing them. Seeing how I have an older version (5.1) I pretty much expected things not to work. Didn't really care if my data sync'ed up in iCal or Address Book properly yet. I just wanted my data on my Palm Centro to stay put and be backed up somewhere on my computer just in case I had to hard reset it.
+The only other application I was worried about was MarkSpace's Missing Sync for Palm OS. MarkSpace has [stated on their website](https://web.archive.org/web/20071231053209/http://www.markspace.com/leopard.html "Missing Sync compatibility with Leopard") that version 6 has issues with Leopard and they were working on fixing them. Seeing how I have an older version (5.1) I pretty much expected things not to work. Didn't really care if my data sync'ed up in iCal or Address Book properly yet. I just wanted my data on my Palm Centro to stay put and be backed up somewhere on my computer just in case I had to hard reset it.
 
-To my surprise everything appeared to sync with the desktop (didn't push changes to iSync and brought up a conflict manager which was expected). MarkSpace posted [version 6.0.2 b1](http://www.markspace.com/testing/) of Missing Sync for Palm OS to their website which claims to works with Leopard now. I'll give that a try later today when I take the plunge and pay to upgrade from version 5 to 6.
+To my surprise everything appeared to sync with the desktop (didn't push changes to iSync and brought up a conflict manager which was expected). MarkSpace posted version 6.0.2 b1 of Missing Sync for Palm OS to their website which claims to works with Leopard now. I'll give that a try later today when I take the plunge and pay to upgrade from version 5 to 6.
 
 ## A+ for Mac OS X Leopard
 
