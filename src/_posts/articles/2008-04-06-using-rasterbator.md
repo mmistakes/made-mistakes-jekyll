@@ -7,13 +7,16 @@ image:
   teaser: /assets/images/owl-rasterbator-teaser.jpg
   thumbnail: /assets/images/rasterbator-thumb.jpg
 tags: [poster, Rasterbator, time lapse, tech geek]
+last_modified_at: 2017-09-08T09:15:00-04:00
 ---
 
 A few weekends ago I decided to cover one of the walls in the office with a large poster. I've toyed around with black and white rasterbated images before, but I really wanted to see how well a full color one would look. My office walls are a lime green color and I figured something with dark greens would contrast nicely. Choosing a forest scene with a huge owl seemed right up my alley so I got to work on it's creation.
 
 ## The Process of Rasterbating
 
-Took some quick measurements of the wall's dimensions and uploaded the image to the [Rasterbator](http://arje.net/rasterbator"). Got things cropped how I liked and outputted the 120 page <abbr title="portable document format">PDF</abbr> file. The next 3 hours I spent trimming the white borders off of each page since my printer doesn't print to the edge. I think next time I do one of these I'm going to leave the borders... cutting these pages consistently was pretty hard. I tried using a trimmer with a rotary blade but the pages slide some regardless of the clamp thing. Oh well.
+Took some quick measurements of the wall's dimensions and uploaded the image to the [Rasterbator](http://arje.net/rasterbator). Got things cropped how I liked and outputted the 120 page PDF file. The next 3 hours I spent trimming the white borders off of each page since my printer doesn't print to the edge. I think next time I do one of these I'm going to leave the borders... cutting these pages consistently was pretty hard. I tried using a trimmer with a rotary blade but the pages slide some regardless of the clamp thing. Oh well.
+
+*[PDF]: Portable Document Format
 
 ## Time Lapse Video
 
@@ -25,21 +28,21 @@ Anyways. After cutting out all the pages I setup my JVC mini-DV camcorder and re
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/assets/images/rasterbator-trimming-pages.jpg" alt="Trimming pages printed out by the Rasterbator">
+    <img src="/assets/images/rasterbator-trimming-pages.jpg" alt="Trimming pages printed out by the Rasterbator">
     <figcaption>Measure twice, cut once, and hopefully not a finger or two</figcaption>
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/assets/images/rasterbator-firstrow-owl.jpg" alt="First Rasterbator row assembled">
+    <img src="/assets/images/rasterbator-firstrow-owl.jpg" alt="First Rasterbator row assembled">
     <figcaption>First row up&#8230;</figcaption>
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/assets/images/rasterbator-halfway-owl.jpg" alt="Halfway assembled Rasterbator owl">
+    <img src="/assets/images/rasterbator-halfway-owl.jpg" alt="Halfway assembled Rasterbator owl">
     <figcaption>Halfway there</figcaption>
 </figure>
 
 <figure>
-    <img src="{{ site.url }}/assets/images/rasterbator-finished-owl.jpg" alt="Finished Rasterbated owl">
+    <img src="/assets/images/rasterbator-finished-owl.jpg" alt="Finished Rasterbated owl">
     <figcaption>Finished</figcaption>
 </figure>

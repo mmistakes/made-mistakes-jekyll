@@ -13,9 +13,9 @@ Nothing says romance quite like drawing a faceless portrait of your wife on your
 {% include boilerplate/paperfaces-2.md %}
 
 <figure class="half">
-	<a href="{{ site.url }}/assets/images/roycroft-wedding-1-lg.jpg"><img src="{{ site.url }}/assets/images/roycroft-wedding-1.jpg" alt="The bride"></a>
-	<a href="{{ site.url }}/assets/images/roycroft-wedding-2.jpg"><img src="{{ site.url }}/assets/images/roycroft-wedding-2.jpg" alt="Kissing"></a>
-	<a href="{{ site.url }}/assets/images/roycroft-wedding-3.jpg"><img src="{{ site.url }}/assets/images/roycroft-wedding-3.jpg" alt="Wedding tea favors"></a>
-	<a href="{{ site.url }}/assets/images/roycroft-wedding-4.jpg"><img src="{{ site.url }}/assets/images/roycroft-wedding-4.jpg" alt="Cutting the vegan cake"></a>
+	<a href="/assets/images/roycroft-wedding-1-lg.jpg"><img src="/assets/images/roycroft-wedding-1.jpg" alt="The bride"></a>
+	<a href="/assets/images/roycroft-wedding-2.jpg"><img src="/assets/images/roycroft-wedding-2.jpg" alt="Kissing"></a>
+	<a href="/assets/images/roycroft-wedding-3.jpg"><img src="/assets/images/roycroft-wedding-3.jpg" alt="Wedding tea favors"></a>
+	<a href="/assets/images/roycroft-wedding-4.jpg"><img src="/assets/images/roycroft-wedding-4.jpg" alt="Cutting the vegan cake"></a>
 	<figcaption>My only regret is not hiring a professional photographer to document the occassion.</figcaption>
 </figure>

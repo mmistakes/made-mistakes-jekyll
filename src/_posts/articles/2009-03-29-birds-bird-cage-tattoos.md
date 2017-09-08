@@ -1,7 +1,7 @@
 ---
 title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
 excerpt: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
-last_modified_at: 2013-04-26
+last_modified_at: 2017-09-07T20:33:26-04:00
 image: 
   path: &image /assets/images/bird-cage-tattoo-healed-feature.jpg
   feature: *image
@@ -14,10 +14,10 @@ The last couple of months have been pretty stressful. Butter, my domestic long h
 
 ## Tattoos to Relieve Stress
 
-Last weekend we hit up [*Rise Above Tattoos*](http://myspace.com/riseabovetattoo) again and spent the afternoon getting some more work done. Wendy added a bunch of birds in flight, a cage, and a tree branch to mimic the design of her other arm. She's in the process of healing now so it looks pretty scabby in a few spots. Will probably need some touch ups if the color falls out, but that shouldn't be a problem since the same thing happened last time.
+Last weekend we hit up [**Rise Above Tattoos**](https://www.facebook.com/pages/Modern-Love/1792647387731776) again and spent the afternoon getting some more work done. Wendy added a bunch of birds in flight, a cage, and a tree branch to mimic the design of her other arm. She's in the process of healing now so it looks pretty scabby in a few spots. Will probably need some touch ups if the color falls out, but that shouldn't be a problem since the same thing happened last time.
 
 <figure>
-    <a href="http://www.flickr.com/photos/michael_knows/sets/72157605004332974/" title="Flickr photoset of my all my tattoos"><img src="{{ site.url }}/assets/images/hair-pull-heart-tattoo-m.jpg" alt="Some ink splat filler on my forearm" /></a>
+    <a href="http://www.flickr.com/photos/michael_knows/sets/72157605004332974/" title="Flickr photoset of my all my tattoos"><img src="/assets/images/hair-pull-heart-tattoo-m.jpg" alt="Some ink splat filler on my forearm" /></a>
     <figcaption>Some ink splat filler on my forearm</figcaption>
 </figure>
 
@@ -28,16 +28,16 @@ I didn't get much done... just some lines, ink splats, and squiggles to fill in 
 ## Freshly Inked Birds and Trees
 
 <figure>        
-    <a title="Vegan tattoo and birds flying around some tree branches" href="{{ site.url }}/assets/images/bird-cage-tattoo-upper.jpg"><img src="{{ site.url }}/assets/images/bird-cage-tattoo-upper.jpg" alt="Upper detail of Wendy's forearms" /></a>
+    <a title="Vegan tattoo and birds flying around some tree branches" href="/assets/images/bird-cage-tattoo-upper.jpg"><img src="/assets/images/bird-cage-tattoo-upper.jpg" alt="Upper detail of Wendy's forearms" /></a>
     <figcaption>Birds flying around some tree branches.</figcaption>
 </figure>
 
 <figure>    
-    <a title="Birds breaking free, a key, and a lock." href="{{ site.url }}/assets/images/bird-cage-tattoo-lower.jpg"><img src="{{ site.url }}/assets/images/bird-cage-tattoo-lower.jpg" alt="Detail of the Wendy's bird cage tattoo" /></a>
+    <a title="Birds breaking free, a key, and a lock." href="/assets/images/bird-cage-tattoo-lower.jpg"><img src="/assets/images/bird-cage-tattoo-lower.jpg" alt="Detail of the Wendy's bird cage tattoo" /></a>
     <figcaption>Still in the process of healing.</figcaption>
 </figure>
 
 <figure>
-    <a title="Michael's bird in a tree forearm tattoo" href="{{ site.url }}/assets/images/bird-in-tree-forearm-tattoo-l.jpg"><img src="{{ site.url }}/assets/images/bird-in-tree-forearm-tattoo-s.jpg" alt="Bird in a tree forearm tattoo" /></a>
+    <a title="Michael's bird in a tree forearm tattoo" href="/assets/images/bird-in-tree-forearm-tattoo-l.jpg"><img src="/assets/images/bird-in-tree-forearm-tattoo-s.jpg" alt="Bird in a tree forearm tattoo" /></a>
     <figcaption>And here is my bird related tattoo&#8230;</figcaption>
 </figure>

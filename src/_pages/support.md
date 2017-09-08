@@ -9,7 +9,7 @@ The tutorials, Jekyll themes, and other articles I publish have been a true labo
 
 ## Send a Donation
 
-If you'd like to send a donation my way so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`]({{ site.url }}/assets/images/bitcoin-qr.png "Bitcoin QR code").
+If you'd like to send a donation my way so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`](/assets/images/bitcoin-qr.png "Bitcoin QR code").
 
 <div markdown="0" class="btn--group">
   <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">
@@ -52,15 +52,15 @@ If these sorts of things interest you, follow along on:
 
 The main feed[^feed] for everything on Made Mistakes. 
 
-- Atom: [{{ 'atom.xml' | absolute_url }}]({{ 'atom.xml' | absolute_url }})
-- JSON: [{{ 'feed.json' | absolute_url }}]({{ 'feed.json' | absolute_url }})
+- Atom: [{{ 'atom.xml' | relative_url }}]({{ 'atom.xml' | relative_url }})
+- JSON: [{{ 'feed.json' | relative_url }}]({{ 'feed.json' | relative_url }})
 
 ### Topic Only Feeds
 
-- Articles: [{{ 'articles.xml' | absolute_url }}]({{ 'articles.xml' | absolute_url }})
-- Paper by FiftyThree Tutorials: [{{ 'mastering-paper.xml' | absolute_url }}]({{ 'mastering-paper.xml' | absolute_url }})
-- PaperFaces iPad Portraits: [{{ 'paperfaces.xml' | absolute_url }}]({{ 'paperfaces.xml' | absolute_url }})
-- Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | absolute_url }}]({{ 'procreate-paintings.xml' | absolute_url }})
-- Today I Learned Posts: [{{ 'til.xml' | absolute_url }}]({{ 'til.xml' | absolute_url }})
+- Articles: [{{ 'articles.xml' | relative_url }}]({{ 'articles.xml' | relative_url }})
+- Paper by FiftyThree Tutorials: [{{ 'mastering-paper.xml' | relative_url }}]({{ 'mastering-paper.xml' | relative_url }})
+- PaperFaces iPad Portraits: [{{ 'paperfaces.xml' | relative_url }}]({{ 'paperfaces.xml' | relative_url }})
+- Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
+- Today I Learned Posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
 
 [^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.

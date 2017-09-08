@@ -1,7 +1,7 @@
 ---
 title: "Going Static — Using Jekyll CMS Free"
 excerpt: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll CMS free."
-last_modified_at: 2017-01-11T11:30:29-05:00
+last_modified_at: 2017-09-07T20:38:55-04:00
 image: 
   path: &image /assets/images/going-static-feature.jpg
   feature: *image
@@ -28,14 +28,13 @@ But the real reason that prompted me to look at going back to my web roots was *
 
 ## The Journey to a Static Website
 
-And so began the process of building a blog-portfolio hybrid using vanilla HTML and CSS --- no databases, no PHP. But where to start? *Do I build a few disconnected pages in a text editor like Sublime Text and upload via FTP?* Or is there a better way using a static-site generator like [Jekyll][1], [nanoc][2], [Middleman][3], [StaticMatic][4], [Bonsai][5], [subDimension][6], or [Octopress][7], the [list goes on][8]?
+And so began the process of building a blog-portfolio hybrid using vanilla HTML and CSS --- no databases, no PHP. But where to start? *Do I build a few disconnected pages in a text editor like Sublime Text and upload via FTP?* Or is there a better way using a static-site generator like [Jekyll][1], [nanoc][2], [Middleman][3], [StaticMatic][4], [Bonsai][5], and the [list goes on][8]?
 
 [1]: http://jekyllrb.com/
-[2]: http://nanoc.stoneship.org/
+[2]: https://nanoc.ws/
 [3]: http://middlemanapp.com/
-[4]: http://staticmatic.rubyforge.org/
+[4]: https://github.com/staticmatic/staticmatic
 [5]: https://github.com/benschwarz/bonsai
-[6]: http://subdimension.co.uk/pages/projects.html
 [7]: http://octopress.org/
 [8]: https://www.staticgen.com/
 
@@ -64,7 +63,7 @@ One of the most beneficial things I did to familiarize myself with the HTML5 spe
 
 Back when I still had a website powered by Wordpress, I toyed with the idea of designing art directed blog posts. Essentially posts that deviated from the blog's theme and became something unique based on the posts content. Think of the editorial design work done in print magazines and you'll get the idea.
 
-To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom CSS styles into a post's layout overriding the defaults. If you ask me, using [Liquid If statement](http://wiki.shopify.com/UsingLiquid#If_.2F_Else_.2F_Unless) tags in a templates seems less hacky and way more customizable. Loading custom CSS for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and YAML.
+To achieve this you could install any number of art direction [Wordpress plugins](http://wordpress.org/extend/plugins/art-direction/) to include custom CSS styles into a post's layout overriding the defaults. If you ask me, using [Liquid flow tags](https://help.shopify.com/themes/liquid/tags/control-flow-tags) in a templates seems less hacky and way more customizable. Loading custom CSS for specific pages becomes an almost trivial exercise once you wrap your head around Liquid and YAML.
 
 ### Less is More
 
@@ -91,7 +90,7 @@ So now that I finally got around to migrating my Wordpress website, developed a 
 
 ### Portfolio Layout
 
-You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page]({{ site.url }}/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
+You might have noticed in the main navigation up top *(or maybe you didn't)* a coming soon line next to the portfolio link. Still thinking about how I want to showcase my design and illustration work that fits in well with the rest of the website. I did some tests on the [Work page](/work/) using a grid of thumbnails to represent each post that I think will work better as a portfolio. Either that or combination of a [responsive slider](http://www.woothemes.com/flexslider/) for featured work and smaller thumbnails below for the rest. We'll see...
 
 ### Responsive Images
 
@@ -108,7 +107,7 @@ I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/ma
 
 ## Jekyll Themes
 
-Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes]({{ site.url }}/work/jekyll-themes/) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% compatible with [GitHub Pages](http://pages.github.com/) if you're looking for somewhere free to host your site or blog.
+Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes](/work/jekyll-themes/) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% compatible with [GitHub Pages](http://pages.github.com/) if you're looking for somewhere free to host your site or blog.
 
 - Skinny Bones: [Theme demo](https://mmistakes.github.io/skinny-bones-jekyll), [source](https://github.com/mmistakes/skinny-bones-jekyll)
 - Minimal Mistakes: [Theme demo](https://mmistakes.github.io/minimal-mistakes), [source](https://github.com/mmistakes/minimal-mistakes)

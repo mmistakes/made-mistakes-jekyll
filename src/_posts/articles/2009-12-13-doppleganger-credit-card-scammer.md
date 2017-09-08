@@ -1,7 +1,7 @@
 ---
 title: "Bizarro Me, A Credit Card Scammer?"
 excerpt: "Apparently there is a bizarro version of me in Niagara County using scammed credit cards."
-last_modified_at: 2015-12-15
+last_modified_at: 2017-09-08T08:59:18-04:00
 image: 
   thumbnail: /assets/images/michael-the-fugitive.jpg
   teaser: /assets/images/michael-the-fugitive-teaser.jpg
@@ -14,9 +14,9 @@ I had nothing to do with using a bad credit card at Tops' honest! I just happen 
 >
 > The man, described as white with horn-rim glasses, long brown hair, *a beard and a flat cap*, was captured on security camera. Call Investigator Michael Leggett at xxx-xxxx.
 >
-> <cite>[The Buffalo News](http://www.buffalonews.com/437/story/889338.html)</cite>
+> <cite>The Buffalo News</cite>
 
 <figure>
-  <img src="{{ site.url }}/assets/images/michael-the-fugitive.jpg" alt="Me the fugitive?" />
+  <img src="/assets/images/michael-the-fugitive.jpg" alt="Me the fugitive?" />
   <figcaption>I think my bizarro twin is running some sort of credit card scam.</figcaption>
 </figure>

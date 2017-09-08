@@ -3,7 +3,7 @@ layout: archive
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
 excerpt: "Minimally designed open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"
-last_modified_at: 2017-05-09T11:56:22-04:00
+last_modified_at: 2017-09-07T15:32:44-04:00
 image: 
   path: &image /assets/images/jekyll-themes-feature.png
   feature: *image
@@ -13,7 +13,7 @@ image:
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 order: 4
-comments: true
+comments: false
 comments_locked: true
 support: true
 ---
@@ -34,10 +34,10 @@ The basic setup for each of my theme's is roughly the same:
 
 For more specifics, review each theme's documentation by clicking on the **Setup Guide** buttons below.
 
-## [Basically Basic Theme]({{ site.url }}{% post_url /work/2017-03-30-basically-basic-jekyll-theme %})
+## [Basically Basic Theme]({% post_url /work/2017-03-30-basically-basic-jekyll-theme %})
 
 <figure>
-  <img src="{{ site.url }}/assets/images/jekyll-theme-basically-basic-feature.jpg" alt="Basically Basic Jekyll theme screenshot">
+  <img src="/assets/images/jekyll-theme-basically-basic-feature.jpg" alt="Basically Basic Jekyll theme screenshot">
   <figcaption>Your new Jekyll default theme.</figcaption>
 </figure>
 
@@ -54,10 +54,10 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
   <a href="https://mmistakes.github.io/jekyll-theme-basically-basic/" class="btn">Demo</a>
 </div>
 
-## [Minimal Mistakes Theme]({{ site.url }}{% post_url /work/2016-04-15-minimal-mistakes-jekyll-theme %})
+## [Minimal Mistakes Theme]({% post_url /work/2016-04-15-minimal-mistakes-jekyll-theme %})
 
 <figure>
-  <img src="{{ site.url }}/assets/images/minimal-mistakes-3-feature.jpg" alt="Minimal Mistakes Jekyll theme screenshot">
+  <img src="/assets/images/minimal-mistakes-3-feature.jpg" alt="Minimal Mistakes Jekyll theme screenshot">
   <figcaption>A minimal design to let your content shine.</figcaption>
 </figure>
 
@@ -76,10 +76,10 @@ A flexible two-column Jekyll theme with a minimalistic aesthetic.
   <a href="https://mmistakes.github.io/minimal-mistakes" class="btn">Demo</a>
 </div>
 
-## [HPSTR Theme]({{ site.url }}{% post_url /work/2013-08-26-hpstr-jekyll-theme %})
+## [HPSTR Theme]({% post_url /work/2013-08-26-hpstr-jekyll-theme %})
 
 <figure>
-  <img src="{{ site.url }}/assets/images/hpstr-preview-feature-2015.jpg" alt="HPSTR Jekyll theme screenshot">
+  <img src="/assets/images/hpstr-preview-feature-2015.jpg" alt="HPSTR Jekyll theme screenshot">
   <figcaption>A traditional blog approach with a modern style</figcaption>
 </figure>
 
@@ -95,10 +95,10 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
 </div>
 
-## [So Simple Theme]({{ site.url }}{% post_url /work/2013-06-26-so-simple-jekyll-theme %})
+## [So Simple Theme]({% post_url /work/2013-06-26-so-simple-jekyll-theme %})
 
 <figure>
-  <img src="{{ site.url }}/assets/images/so-simple-theme-feature-2015.jpg" alt="So Simple Jekyll theme screenshot">
+  <img src="/assets/images/so-simple-theme-feature-2015.jpg" alt="So Simple Jekyll theme screenshot">
   <figcaption>Large images and site logo if that's your thing</figcaption>
 </figure>
 
@@ -114,10 +114,10 @@ A simple and clean responsive Jekyll theme for words and large photographs.
   <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
 </div>
 
-## [Skinny Bones Theme]({{ site.url }}{% post_url /work/2014-09-02-skinny-bones-jekyll %})
+## [Skinny Bones Theme]({% post_url /work/2014-09-02-skinny-bones-jekyll %})
 
 <figure>
-	<img src="{{ site.url }}/assets/images/skinny-bones-preview-feature.jpg" alt="Skinny Bones Jekyll theme screenshot">
+	<img src="/assets/images/skinny-bones-preview-feature.jpg" alt="Skinny Bones Jekyll theme screenshot">
 	<figcaption>Includes a fun off canvas menu</figcaption> 
 </figure>
 
@@ -138,4 +138,4 @@ A Jekyll starter based off of an older incarnation of Made Mistakes.
 
 ### License
 
-These themes are free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). Feel free to modify them to suit your needs.
+These themes are free and open source software, distributed under the MIT License. Feel free to modify them to suit your needs.

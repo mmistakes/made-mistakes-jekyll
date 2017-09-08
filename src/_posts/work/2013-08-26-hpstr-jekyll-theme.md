@@ -8,7 +8,7 @@ image:
   thumbnail: /assets/images/hpstr-preview-th-2015.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
-last_modified_at: 2015-01-31
+last_modified_at: 2017-09-08T10:35:12-04:00
 breadcrumbs:
   - label: "Jekyll Themes"
     url: /work/jekyll-themes/
@@ -33,7 +33,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Grunt and Rake tasks for easier site development.
 
 <figure class="large">
-	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="{{ site.url }}/assets/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
+	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="/assets/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
 </figure>
 
 <div markdown="0" class="btn--group">
@@ -52,7 +52,7 @@ Everything that isn't `#main` I view as support content--- living one step down 
 
 ### Grunt Build Script for Development
 
-Up until this point I've mostly used tools like [CodeKit](http://incident57.com/codekit/) and [Prepros](http://alphapixels.com/prepros/) to compile my LESS stylesheets and concatenate scripts. Flirting with Grunt on a few personal projects, I wanted to integrate it into this theme as a build tool for messing with the theme's stylesheets.
+Up until this point I've mostly used tools like [CodeKit](http://incident57.com/codekit/) and [Prepros](https://prepros.io/) to compile my LESS stylesheets and concatenate scripts. Flirting with Grunt on a few personal projects, I wanted to integrate it into this theme as a build tool for messing with the theme's stylesheets.
 
 For those who are unfamiliar with Grunt I encourage you to check out the [getting started guide](http://gruntjs.com/getting-started). Basically how this works is, you [install Node.js](http://nodejs.org/), [install Grunt](http://gruntjs.com/getting-started) and dependencies by running `npm install`, and then run various Grunt tasks defined in the project's [`Gruntfile.js`](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/Gruntfile.js) file.
 
@@ -70,7 +70,7 @@ Grunt is no longer needed to build `main.css`. I've ported all of the Less style
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with lightweight share links. Social sharing links are enabled by default on all posts and pages. To disable add `share: false` to the post's YAML Front Matter.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/hpstr-social-share-example.jpg" alt="social share button screenshot">
+	<img src="/assets/images/hpstr-social-share-example.jpg" alt="social share button screenshot">
 	<figcaption>How social sharing buttons look in HPSTR</figcaption>
 </figure>
 
@@ -83,4 +83,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License]({{ site.url }}/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
+This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.

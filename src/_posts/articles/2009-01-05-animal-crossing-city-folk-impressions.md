@@ -25,7 +25,7 @@ In City Folk I've been known to TT a day or so to catch events I missed. This ti
 A cool addition is the ability to import your character from *Animal Crossing: Wild World* on the Nintendo DS. Everything you obtained in your catalog makes the move (with the exception of some rare items). You don't bring over the physical items, house expansions, or accumulated bells. But you can re-purchase any of these items from Nook by asking to see your item catalog.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/animal-crossing-me-wendy.jpg" alt="Wendy's Animal Crossing character lurking over me" />
+	<img src="/assets/images/animal-crossing-me-wendy.jpg" alt="Wendy's Animal Crossing character lurking over me" />
 	<figcaption>She knows where I sleep</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ At first I thought you could transfer your save from the Wii to a SD card and vi
 For the most part everything functions and looks like it did in Wild World. The exceptions being you can now have a fountain, windmill (helps with perfect town status), or lighthouse (helps bring in rare fish) built by donating enough bells to the town fund.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/animal-crossing-dharma-initiative.jpg" alt="Dharma flag from LOST" />
+	<img src="/assets/images/animal-crossing-dharma-initiative.jpg" alt="Dharma flag from LOST" />
 	<figcaption>I created a Dharma Initiative flag from LOST.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Using the Wiimote and nun-chuck combo is so much better than the DS d-pad and st
 If you plug in any USB keyboard it is instantly recognized by the Wii and allows you to type letters or chat with friends quickly. The function keys are mapped to your Dr. Shrunk emotions as well, which is convenient if you want to emote anger in a hurry.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/animal-crossing-im-so-wet.jpg" alt="My neighbors say some foul things" />
+	<img src="/assets/images/animal-crossing-im-so-wet.jpg" alt="My neighbors say some foul things" />
 	<figcaption>My neighbors say some foul things.</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ If you plug in any USB keyboard it is instantly recognized by the Wii and allows
 Pressing the 1 button on the Wiimote takes a screenshot and then you can transfer it to a SD card or post it to your Wii Message board to send to friends. Trying to take photos of the screen with a camera while struggling to keep the action in focus is a thing of the past. Now you can document all the inappropriate catch phrases and greetings your neighbors' say or rare Gyroids you may discover.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/animal-crossing-constellations.jpg" alt="Look at those constellations" />
+	<img src="/assets/images/animal-crossing-constellations.jpg" alt="Look at those constellations" />
 	<figcaption>Look at those constellations.</figcaption>
 </figure>
 
@@ -114,7 +114,7 @@ I wonder with Microsoft trying to make the Xbox 360 appeal to the casual gamer, 
 That being said. Feel free to add my friend code and town information if you have **Animal Crossing: City Folk**. Leave a comment with your friend code and I'll add you. Always looking for more people to play with since it can be hard to find open towns late at night.
 
 <figure>
-	<img src="{{ site.url }}/assets/images/animal-crossing-friend-code.jpg" alt="My friend code. Add me." />
+	<img src="/assets/images/animal-crossing-friend-code.jpg" alt="My friend code. Add me." />
 </figure>
 
 <div class="notice--info" markdown="1">

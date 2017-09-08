@@ -17,21 +17,21 @@ work: "Illustration"
 order: 2
 ---
 
-PaperFaces was an [illustration project]({{ site.url }}/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper by FiftyThree**. I occasionally post new portraits here, but certainly not as frequently as I used to.
+PaperFaces was an [illustration project](/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper by FiftyThree**. I occasionally post new portraits here, but certainly not as frequently as I used to.
 
 If you scroll down far enough you can see how my technique evolved from faceless gestures into realistic portraits[^procreate].
 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+    <a href="{{ post.url }}" title="{{ post.title }}">
       <noscript>
-        <img src="{{ site.url }}{{ post.image.thumbnail }}">
+        <img src="{{ post.image.thumbnail }}">
       </noscript>
-      <img class="lazyload fade-in" src="{{ site.url }}/assets/images/preload-150.png" data-src="{{ site.url }}{{ post.image.thumbnail }}" alt="">
+      <img class="lazyload fade-in" src="/assets/images/preload-150.png" data-src="{{ post.image.thumbnail }}" alt="">
     </a>
   </li>
 {% endfor %}
 </ul>
 
-[^procreate]: If you like these be sure to check out what I'm [painting with another iPad app]({{ site.url }}/procreate-paintings/), **Procreate**.
+[^procreate]: If you like these be sure to check out what I'm [painting with another iPad app](/procreate-paintings/), **Procreate**.

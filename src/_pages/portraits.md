@@ -14,15 +14,15 @@ Want to be part of my PaperFaces Project and have a portrait drawn with the Pape
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:5 %}
   <li>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}{{ post.image.thumbnail }}" alt=""></a>
+    <a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.thumbnail }}" alt=""></a>
   </li>
 {% endfor %}
 </ul>
 
-Using a photograph supplied by you as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. I recommend going black and white since it's my favorite way to draw and often yields more realistic results. ([Portrait examples]({{ site.url }}/paperfaces/))
+Using a photograph supplied by you as reference I draw my interpretation of it, illustrated in a loose watercolor and pencil style. I recommend going black and white since it's my favorite way to draw and often yields more realistic results. ([Portrait examples](/paperfaces/))
 
 <figure>
-  <img src="{{ site.url }}/assets/images/portrait-single-multiple.jpg" alt="one face or multiple">
+  <img src="/assets/images/portrait-single-multiple.jpg" alt="one face or multiple">
   <figcaption>Choose wisely: black and white, one face, or multiple.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ Black and white or color? One face or multiple? <span class="badge info">Startin
     </form>
 </fieldset>
 
-**Usage and Copyright:** Each PaperFaces portrait is protected under a [Creative Commons License]({{ site.url }}/terms/ "Attribution-NonCommercial 4.0 International"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
+**Usage and Copyright:** Each PaperFaces portrait is protected under a [Creative Commons License](/terms/ "Attribution-NonCommercial 4.0 International"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
 {: .notice}
 
 ## What Others are Saying About PaperFaces

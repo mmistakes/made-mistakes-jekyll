@@ -14,12 +14,12 @@ Just a simple drawing of my twin girls, Everly and Chloe enjoying wrapping paper
 {% include boilerplate/paperfaces-4.md %}
 
 <figure>
-	<a href="{{ site.url }}/assets/images/paperfaces-rosebuds-christmas-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-rosebuds-christmas-process-1-750.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-rosebuds-christmas-process-1-lg.jpg"><img src="/assets/images/paperfaces-rosebuds-christmas-process-1-750.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Pencil sketch to rough out the composition.</figcaption>
 </figure>
 
 <figure class="half">
-	<a href="{{ site.url }}/assets/images/paperfaces-rosebuds-christmas-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-rosebuds-christmas-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-rosebuds-christmas-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-rosebuds-christmas-process-3-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-rosebuds-christmas-process-2-lg.jpg"><img src="/assets/images/paperfaces-rosebuds-christmas-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-rosebuds-christmas-process-3-lg.jpg"><img src="/assets/images/paperfaces-rosebuds-christmas-process-3-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Using blend to add a sense of depth to the drawing by blurring the background.</figcaption>
 </figure>

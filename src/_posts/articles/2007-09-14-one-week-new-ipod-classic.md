@@ -36,27 +36,27 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 
 <ul class="th-grid">
 	<li>
-    <a href="{{ site.url }}/assets/images/80.jpg"><img src="{{ site.url }}/assets/images/80t.jpg" alt="iPod classic syncing next to a 40GB iPod"></a>
+    <a href="/assets/images/80.jpg"><img src="/assets/images/80t.jpg" alt="iPod classic syncing next to a 40GB iPod"></a>
   </li>
 	<li>
-    <a href="{{ site.url }}/assets/images/81.jpg"><img src="{{ site.url }}/assets/images/81t.jpg" alt="iPod classic thickness compared to an old 40GB iPod"></a>
+    <a href="/assets/images/81.jpg"><img src="/assets/images/81t.jpg" alt="iPod classic thickness compared to an old 40GB iPod"></a>
   </li>
 	<li>
-    <a href="{{ site.url }}/assets/images/82.jpg"><img src="{{ site.url }}/assets/images/82t.jpg" alt="New interface menu. Album artwork fades in and out randomly on the side as you navigate through the menus."></a>
+    <a href="/assets/images/82.jpg"><img src="/assets/images/82t.jpg" alt="New interface menu. Album artwork fades in and out randomly on the side as you navigate through the menus."></a>
   </li>
 	<li>
-    <a href="{{ site.url }}/assets/images/83.jpg"><img src="{{ site.url }}/assets/images/83t.jpg" alt="iPod classic games screen"></a>
+    <a href="/assets/images/83.jpg"><img src="/assets/images/83t.jpg" alt="iPod classic games screen"></a>
   </li>
 	<li>
-    <a href="{{ site.url }}/assets/images/84.jpg"><img src="{{ site.url }}/assets/images/84t.jpg" alt="iPod classic coverflow"></a>
+    <a href="/assets/images/84.jpg"><img src="/assets/images/84t.jpg" alt="iPod classic coverflow"></a>
   </li>
 	<li>
-    <a href="{{ site.url }}/assets/images/85.jpg"><img src="{{ site.url }}/assets/images/85t.jpg" alt="iPod classic coverflow flip"></a>
+    <a href="/assets/images/85.jpg"><img src="/assets/images/85t.jpg" alt="iPod classic coverflow flip"></a>
   </li>
 	<li>
-    <a href="{{ site.url }}/assets/images/86.jpg"><img src="{{ site.url }}/assets/images/86t.jpg" alt="iPod classic viewing your photos"></a>
+    <a href="/assets/images/86.jpg"><img src="/assets/images/86t.jpg" alt="iPod classic viewing your photos"></a>
   </li>
 	<li>
-    <a href="{{ site.url }}/assets/images/87.jpg"><img src="{{ site.url }}/assets/images/87t.jpg" alt="iPod classic search"></a>
+    <a href="/assets/images/87.jpg"><img src="/assets/images/87t.jpg" alt="iPod classic search"></a>
   </li>
 </ul>

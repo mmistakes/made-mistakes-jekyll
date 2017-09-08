@@ -24,16 +24,16 @@ Not sure how much it added to the production cost, but I sure like the way vellu
 ## Record Packaging Detail Images
 
 <figure>
-	<a href="{{ site.url }}/assets/images/COM-metallic-ink-trajan.jpg" class="fancybox" rel="gallery" title="Everyone's favorite movie poster typeface, Trajan."><img src="{{ site.url }}/assets/images/COM-metallic-ink-trajan-620x197.jpg" alt="Detail photo of liner notes set in Trajan" /></a>
+	<a href="/assets/images/COM-metallic-ink-trajan.jpg" class="fancybox" rel="gallery" title="Everyone's favorite movie poster typeface, Trajan."><img src="/assets/images/COM-metallic-ink-trajan-620x197.jpg" alt="Detail photo of liner notes set in Trajan" /></a>
 	<figcaption>Detail photo of liner notes set in Trajan</figcaption>
 </figure>
 
 Apparently my asshole cat shares a taste for vellum too. Maybe it was the smell, or maybe it was the way the sun caught the metallic ink, but he sure couldn't help himself from biting into it --- bastard. So much for selling this Corn On Macabre record in mint condition.
 
 <figure class="half">
-	<a href="{{ site.url }}/assets/images/COM-record-sleeve-typography.jpg"><img src="{{ site.url }}/assets/images/COM-record-sleeve-typography-300.jpg" alt="Record sleeve typography" /></a>
-	<a href="{{ site.url }}/assets/images/COM-punk-is-undead.jpg"><img src="{{ site.url }}/assets/images/COM-punk-is-undead-300.jpg" alt="Corn on Macabre - punk is undead" /></a>
-	<a href="{{ site.url }}/assets/images/COM-record-sleeve.jpg"><img src="{{ site.url }}/assets/images/COM-record-sleeve-300.jpg" alt="Linear notes and images" /></a>
-    <a href="{{ site.url }}/assets/images/COM-metallic-ink-image.jpg"><img src="{{ site.url }}/assets/images/COM-metallic-ink-image-300.jpg" alt="Photo detail of metallic ink printed image" /></a>
+	<a href="/assets/images/COM-record-sleeve-typography.jpg"><img src="/assets/images/COM-record-sleeve-typography-300.jpg" alt="Record sleeve typography" /></a>
+	<a href="/assets/images/COM-punk-is-undead.jpg"><img src="/assets/images/COM-punk-is-undead-300.jpg" alt="Corn on Macabre - punk is undead" /></a>
+	<a href="/assets/images/COM-record-sleeve.jpg"><img src="/assets/images/COM-record-sleeve-300.jpg" alt="Linear notes and images" /></a>
+    <a href="/assets/images/COM-metallic-ink-image.jpg"><img src="/assets/images/COM-metallic-ink-image-300.jpg" alt="Photo detail of metallic ink printed image" /></a>
 	<figcaption>Detail photographs of the packaging.</figcaption>
 </figure>

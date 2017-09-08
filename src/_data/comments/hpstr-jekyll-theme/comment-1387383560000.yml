@@ -12,7 +12,7 @@ message: "There are a few spots where I didn't declare font-sizes on elements an
   an appropriate font-size in the .less files\r\n\r\nTo make the change to `grunt-imgcompress`
   I basically swapped out any reference to `imagemin` with it. Here's a gist that you
   can grab the [modified `package.json`](https://gist.github.com/mmistakes/142618b8ed2e16850bc0) and `Gruntfile.js` files. After you copy those
-  into your repo just delete the node_modules folder and then run `npm install`. It'll
+  into your repo just delete the `node_modules` folder and then run `npm install`. It'll
   download and install everything it needs and rebuild the modules.\r\n\r\nThat should hopefully
   clear everything up for you. I'm still new to Node and Grunt myself, so I'm by no
   means a pro."

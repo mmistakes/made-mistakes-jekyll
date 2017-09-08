@@ -1,15 +1,15 @@
 ---
 permalink: /contact/
 title: "Contact"
-last_modified_at: 2017-05-10T16:16:11-04:00
+last_modified_at: 2017-09-07T10:41:54-04:00
 excerpt: "Preferred methods of sending your questions, inquires, messages, and love letters to me."
 ads: false
 share: false
 ---
 
-Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and [follow me]({{ site.url }}/support/#follow-me-on-social-media) there.
+Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and [follow me](/support/#follow-me-on-social-media) there.
 
-Before asking questions related to creating art on iPad or using Jekyll be sure to check the [Frequently Asked Questions section]({{ site.url }}/faqs/) --- there's a good chance I've already answered them. For anything longer please fill out the form below and I'll get back to you by email.
+Before asking questions related to creating art on iPad or using Jekyll be sure to check the [Frequently Asked Questions section](/faqs/) --- there's a good chance I've already answered them. For anything longer please fill out the form below and I'll get back to you by email.
 
 If you have a product, service, app, or other opportunity that you feel is a good fit for my site let me know. While I can't promise anything, there's a good chance I'll write about it if I think there's value for my readers.
 

@@ -12,7 +12,7 @@ comments: true
 last_modified_at: 2017-08-25T10:15:05-04:00
 ---
 
-In the months after ditching Disqus for a [static-based commenting system]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
+In the months after ditching Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
 
 Armed with instructions provided by Eduardo Bouças in [this GitHub issue](https://github.com/eduardoboucas/staticman/issues/42 "Email notification upon replies"), I set off to level-up the commenting experience on **Made Mistakes**. Here's how I did it.
 
@@ -56,8 +56,8 @@ I'm not entirely sure if doing the following was necessary. I encountered errors
 Either way, let me know about your experience upgrading from Staticman `v1` to `v2` in the comments below.
 
 1. Revoked collaboration rights for Staticman `v1` by removing from my GitHub repository.
-   ![Remove staticmanapp as a collaborator]({{ site.url }}/assets/images/staticman-remove-collaborator.png)
-2. Added Staticman back as [collaborator]({{ site.url }}{% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman).
+   ![Remove staticmanapp as a collaborator](/assets/images/staticman-remove-collaborator.png)
+2. Added Staticman back as [collaborator]({% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman).
 3. Pinged the version 2 endpoint `https://api.staticman.net/v2/connect/{your GitHub username}/{your repository name}` to accept the collaboration invitation.
 
 ### Update POST Endpoint in Comment Form
@@ -234,7 +234,7 @@ Once discovered, the fix was simple --- remove `[1]` from each of the property n
 ```
 
 <figure>
-  <img src="{{ site.url }}/assets/images/staticman-parent-comments-only.png" alt="Parent comments only">
+  <img src="/assets/images/staticman-parent-comments-only.png" alt="Parent comments only">
   <figcaption>Success, there be parent comments Captain!</figcaption>
 </figure>
 
@@ -367,7 +367,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
       </div>
       <!-- End new comment form -->
     {% else %}
-      <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="{{ site.url }}/contact/">contact me</a>.</em></p>
+      <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="/contact/">contact me</a>.</em></p>
     {% endunless %}
   {% endif %}
 </section>{% endraw %}
@@ -383,7 +383,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
     {% elsif include.email %}
       <img src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60" srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=120 2x" alt="{{ include.name | escape }}">
     {% else %}
-      <img src="{{ site.url }}/assets/images/avatar-60.png" srcset="{{ site.url }}/assets/images/avatar-120.png 2x" alt="{{ include.name | escape }}">
+      <img src="/assets/images/avatar-60.png" srcset="/assets/images/avatar-120.png 2x" alt="{{ include.name | escape }}">
     {% endif %}
   </div>
   <h3 class="comment__author-name">
@@ -449,7 +449,7 @@ To start I used an `unless` condition to only show reply links on "top-level" co
 ```
 
 <figure>
-  <img src="{{ site.url }}/assets/images/staticman-nested-comments.png" alt="Nested comments">
+  <img src="/assets/images/staticman-nested-comments.png" alt="Nested comments">
   <figcaption>Nested comments one-level deep.</figcaption>
 </figure>
 
@@ -466,7 +466,7 @@ Hitting a **reply button** moves the comment form into view and populates `<inpu
 {% endcapture %}
 
 <figure>
-  <img src="{{ site.url }}/assets/images/comment-reply-animation.gif" alt="Comment replies in action">
+  <img src="/assets/images/comment-reply-animation.gif" alt="Comment replies in action">
   <figcaption>{{ reply_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
 </figure>
 
@@ -519,7 +519,7 @@ Nothing fancy here, `name=options[subscribe]` and `value="email"` are added to t
 If setup correctly a user should receive an email anytime a new comment on the post or page they subscribed to is merged in.
 
 <figure>
-  <img src="{{ site.url }}/assets/images/staticman-email-notification.png" alt="Staticman reply email notification">
+  <img src="/assets/images/staticman-email-notification.png" alt="Staticman reply email notification">
   <figcaption>Example of a Staticman "New reply" email notification.</figcaption>
 </figure>
 

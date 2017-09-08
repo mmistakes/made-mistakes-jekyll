@@ -13,6 +13,6 @@ PaperFaces portrait of [@dismanntled](http://twitter.com/dismanntled).
 {% include boilerplate/paperfaces-2.md %}
 
 <figure>
-	<img src="{{ site.url }}/assets/images/paperfaces-dismanntled-process-1-600.jpg" alt="In process screenshot">
+	<img src="/assets/images/paperfaces-dismanntled-process-1-600.jpg" alt="In process screenshot">
 	<figcaption>Work in progress screenshot. Sketching out the body.</figcaption>
 </figure>

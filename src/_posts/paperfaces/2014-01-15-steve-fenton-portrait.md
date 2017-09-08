@@ -13,10 +13,10 @@ PaperFaces portrait of [@steve_fenton](http://twitter.com/steve_fenton).
 {% include boilerplate/paperfaces-4.md %}
 
 <figure class="third">
-	<a href="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-1-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-2-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-3-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-4-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-5-lg.jpg"><img src="{{ site.url }}/assets/images/paperfaces-steve-fenton-process-5-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-steve-fenton-process-1-lg.jpg"><img src="/assets/images/paperfaces-steve-fenton-process-1-750.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-steve-fenton-process-2-lg.jpg"><img src="/assets/images/paperfaces-steve-fenton-process-2-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-steve-fenton-process-3-lg.jpg"><img src="/assets/images/paperfaces-steve-fenton-process-3-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-steve-fenton-process-4-lg.jpg"><img src="/assets/images/paperfaces-steve-fenton-process-4-600.jpg" alt="Work in process screenshot"></a>
+	<a href="/assets/images/paperfaces-steve-fenton-process-5-lg.jpg"><img src="/assets/images/paperfaces-steve-fenton-process-5-600.jpg" alt="Work in process screenshot"></a>
 	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
 </figure>
