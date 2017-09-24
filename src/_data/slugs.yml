@@ -18,9 +18,6 @@ tiny-paintings:
 work:
   name: "Work"
 
-faqs:
-  name: "Frequently Asked Questions"
-
 about:
   name: "About"
 
@@ -35,9 +32,6 @@ support:
 
 sitemap:
   name: "Sitemap"
-
-style-guide:
-  name: "Style Guide"
 
 terms:
   name: "Terms &amp; Policies"

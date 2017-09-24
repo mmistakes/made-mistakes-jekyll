@@ -18,8 +18,6 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes](/work/jek
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls](/tag/twins/) who just hit the toddler phase and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
 <figure class="half">
-  <a href="{% post_url /paperfaces/2014-05-19-mmistakes-2-portrait %}"><img src="/assets/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>
-  <a href="{% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %}"><img src="/assets/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
   <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
 
@@ -47,7 +45,7 @@ So what does this all have to do with *made mistakes* and why did you name your 
 
 In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) → [Textpattern](http://textpattern.com/) → [Wordpress](http://wordpress.org/) → [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
-I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
+I've since decided to abandon using a CMS and utilize black magick and [Jekyll](http://jekyllrb.com/) to  for improved performance and security. Building all of the layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
 ### How to Support Made Mistakes
 

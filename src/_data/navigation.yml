@@ -16,9 +16,6 @@ home-secondary:
     url: /about/
   - title: "Contact"
     url: /contact/
-  - title: "FAQs"
-    url: /faqs/
-
 
 # Masthead navigation links
 
@@ -71,14 +68,10 @@ primary:
 secondary:
   - title: "About"
     url: /about/
-  - title: "FAQs"
-    url: /faqs/
   - title: "Contact"
     url: /contact/
   - title: "Support"
     url: /support/
-  - title: "Style Guide"
-    url: /style-guide/
   - title: "Terms &amp; Policies"
     url: /terms/
   - title: "Sitemap"
@@ -92,8 +85,6 @@ secondary:
 colophon-menu:
   - title: "About"
     url: /about/
-  - title: "FAQs"
-    url: /faqs/
   - title: "Contact"
     url: /contact/
   - title: "Support"
