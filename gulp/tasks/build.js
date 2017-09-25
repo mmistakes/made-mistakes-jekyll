@@ -26,8 +26,9 @@ gulp.task('site', done => {
   }
 });
 
-// 'gulp site:check' -- runs Jekyll doctor
+// 'gulp site:check' -- builds site with production settings then tests with html-proofer
 gulp.task('site:check', done => {
-  shell.exec('bundle exec jekyll doctor');
+  shell.exec('gulp build --prod');
+  shell.exec('bundle exec rake test');
   done();
 });

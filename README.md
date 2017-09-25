@@ -135,7 +135,7 @@ Default structure (paths can be modified in `gulpfile.js` and `_config.yml`):
 
 ### Dependencies:
 
-- **Ruby**: >2.0 with Bundler >1.10
+- **Ruby**: >2.1 with Bundler >1.10
 - **Node**: >4.2 and Yo >1.7.0
 - **Yarn**
 - **Gulp**: Since the release candidate is running Gulp 4.0 you need to install 
@@ -244,7 +244,8 @@ Submit sitemap XML file to Google and Bing.
 
 ### `gulp check`
 
-Runs `bundle exec jekyll doctor` to look for potential errors.
+Builds site with production settings then tests HTML for broken links with 
+[html-proofer][html-proofer].
 
 ### `gulp clean`
 
@@ -317,6 +318,7 @@ how to create individual inject tags and inject specific files into them.
 [jekyll]: https://jekyllrb.com
 [localtunnel]: http://localtunnel.me/
 [rsync]: https://github.com/jerrysu/gulp-rsync
+[htmlproofer]: https://github.com/gjtorikian/html-proofer
 
 ---
 
