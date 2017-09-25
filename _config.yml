@@ -56,7 +56,7 @@ twitter:
 
 # Staticman comments (full configuration in staticman.yml)
 staticman:
-  branch                 : "gh-pages"
+  branch                 : "poc"
 
 # reCAPTCHA keys
 reCaptcha:
