@@ -1,6 +1,0 @@
-message: "This is simply fantastic, Michael. Great work! I'm curious to know how the switch to static comments has affected your [crawl stats in Google Search Console](https://www.google.com/webmasters/tools/crawl-stats?hl=en&siteUrl=https://mademistakes.com/). If I had to guess you should see more frequent crawling and less time spent downloading, which could carry aggregate benefits not obvious until analyzed over a longer period of time.\r\n\r\nSince you're looking for alternative static commenting strategies...I stumbled upon [jekyll-aws-comments](https://github.com/ummels/jekyll-aws-comments) today linked from [lambda-comments](https://github.com/jimpick/lambda-comments). It's probably more complex to get going but ideal for control freaks who don't want to rely on a 3rd party, and who might already be [hosting their Jekyll blogs on AWS with CloudFront](https://habd.as/pagespeed-100-with-jekyll-s3-and-cloudfront/) for example. Again, great work! Love it!!"
-name: Josh Habdas
-email: bda486b80a2e80a8e22afe69dd621303
-url: 'https://habd.as'
-hidden: ''
-date: '2016-09-10T01:21:05.995Z'

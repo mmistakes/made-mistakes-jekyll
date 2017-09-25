@@ -1,7 +1,0 @@
----
-layout: atom_feed
-category_limit: articles
-limit: 25
-title: "Articles Feed"
-sitemap: false
----

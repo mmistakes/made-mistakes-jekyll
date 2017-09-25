@@ -11,7 +11,6 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
 <ul>
   <li><a href="/about/">About</a></li>
   <li><a href="/contact/">Contact</a></li>
-  <li><a href="/faqs/">Frequently Asked Questions</a></li>
   <li><a href="/support/">Support</a></li>
   <li><a href="/tag/">Tag Archive</a></li>
   <li><a href="/terms/">Terms and Policies</a></li>

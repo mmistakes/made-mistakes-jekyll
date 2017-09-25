@@ -1,25 +1,17 @@
 ---
 layout: home
 permalink: /
-title: "A Designer's Faux Pas"
-excerpt: "Making stuff one mistake at a time."
+title: "Odd One Out"
+excerpt: "Todo"
 section:
-  - title: "A Faux Pas"
-    class: "section--inverse section--about"
-    image: /assets/images/michael-rose-glitched.jpg
+  - title: "Projects"
+    class: "section--inverse section--projects"
+    image: /assets/images/projects.jpg
     introduction: |
-      I'm just another boring, tattooed, *time traveling designer* from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad, and playing Xbox.
+      Blog posts about various technical and software related projects I have done.
     actions:
-      - label: "Learn More"
-        url: "/about/"
-  - title: "Blog Articles"
-    class: "section--inverse section--articles"
-    image: /assets/images/blog-articles.jpg
-    introduction: |
-      A collection of thoughts, inspiration, mistakes, and other minutia I've written. Topics covered include [*web development*](tag/web-development/), [*Jekyll tutorials*](/tag/jekyll/), [*design*](/tag/design/), [#TIL](/til/), and [more](/tag/).
-    actions:
-      - label: "the Archives"
-        url: "/articles/"
+      - label: "the Vault"
+        url: "/projects/"
   - title: "Work Portfolio"
     class: "section--inverse section--work"
     image: /assets/images/procreate-paintings-feature.jpg

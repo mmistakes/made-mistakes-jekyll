@@ -1,7 +1,0 @@
-replying_to: '3'
-message: "You can also leverage the [\"grid\" archive type](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#grid-view) if you don't want to edit any templates.\r\n\r\nSimply change `{% include archive-single.html %}` to `{% include archive-single.html type=\"grid\" %}` in your index pages (eg. the [home page](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html#L11)) and you'll get a 4 column grid of posts.\r\n\r\n![grid view screenshot](https://mmistakes.github.io/minimal-mistakes/assets/images/mm-archive-grid-view-example.jpg)"
-name: Michael Rose
-email: 1ce71bc10b86565464b612093d89707e
-url: 'https://mademistakes.com'
-hidden: ''
-date: '2016-10-27T15:44:19.479Z'

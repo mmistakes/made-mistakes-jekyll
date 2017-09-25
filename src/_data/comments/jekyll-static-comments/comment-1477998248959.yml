@@ -1,8 +1,0 @@
-message: >-
-  I am revamping my website and moving to Jekyll. I am not sure, if Staticman
-  works in case I am pushing only `_site` folder to Github?
-name: Bozdar
-email: 59ca798bb22d86663d64803adb03ea34
-url: 'http://jabbar.bozdar.fm'
-hidden: ''
-date: '2016-11-01T11:04:08.323Z'

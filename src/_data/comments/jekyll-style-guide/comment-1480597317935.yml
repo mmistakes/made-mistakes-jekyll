@@ -1,6 +1,0 @@
-_id: 5721f670-b7c6-11e6-9b81-0bc3350a75b6
-message: "As always this is goldmine! Thank you for the time you put in to research and share Jekyll tips! \r\n\r\nDid you figure out how to use rendered collection documents (output: true) as includes? Seems that this way there'd be a single point of reference for every component. Both the styleguide and the UI would be using the same component code and changes to component markup would have to be done only once."
-name: Ivan
-email: a2f305dcdc125ddffdfcb18516f19ef1
-hidden: ''
-date: '2016-12-01T13:01:57.922Z'

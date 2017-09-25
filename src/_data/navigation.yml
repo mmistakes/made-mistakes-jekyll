@@ -1,13 +1,10 @@
 # Primary home navigation links
 
 home-primary:
-  - title: "Work Portfolio"
-    url: /work/
-  - title: "Blog Articles"
-    url: /articles/
-  - title: "Mastering Paper"
-    url: /mastering-paper/
-
+  - title: "Projects"
+    url: /projects/
+  - title: "Reviews"
+    url: /reviews/
 
 # Secondary home navigation links
 
@@ -24,43 +21,23 @@ masthead:
     url: /about/
   - title: "Contact"
     url: /contact/
-  - title: "Work"
-    url: /work/
-  - title: "Blog Articles"
-    url: /articles/
+  - title: "Projects"
+    url: /projects/
+  - title: "Reviews"
+    url: /reviews/
 
 
 # Primary site navigation links (overlay)
 
 primary:
-  - title: "Work Portfolio"
-    url: /work/
-    img: work-portfolio-menu-thumb.jpg
-    excerpt: "Things I've designed, illustrated, and developed"
-  - title: "Blog Articles"
-    url: /articles/
-    img: blog-articles-menu-thumb.jpg
-    excerpt: "Thoughts, inspiration, mistakes, and other minutia I've written"
-  - title: "Mastering Paper"
-    url: /mastering-paper/
-    img: mastering-paper-menu-img.jpg
-    excerpt: "Tutorials to help you master Paper by FiftyThree"
-  - title: "Jekyll Themes"
-    url: /work/jekyll-themes/
-    img: jekyll-themes-menu-item.jpg
-    excerpt: "Open source Jekyll themes"
-  - title: "Procreate Paintings"
-    url: /procreate-paintings/
-    img: procreate-paintings-menu-thumb.jpg
-    excerpt: "Portraits digitally painted with Procreate"
-  - title: "PaperFaces Portraits"
-    url: /paperfaces/
-    img: paperfaces-menu-thumb.jpg
-    excerpt: "Portraits digitally painted with Paper by FiftyThree"
-  - title: "Tiny Paintings"
-    url: /tiny-paintings/
-    img: tiny-paintings-menu-thumb.jpg
-    excerpt: "Mini watercolor portraits painted at really small sizes"
+  - title: "Projects"
+    url: /projects/
+    img: todo.jpg
+    excerpt: "Technical projects I have done - anything from electronical to code"
+  - title: "Reviews"
+    url: /reviews/
+    img: todo.jpg
+    excerpt: "Reviews &amp; recommendations"
 
 
 # Secondary site navigation links (overlay)
@@ -77,7 +54,7 @@ secondary:
   - title: "Sitemap"
     url: /sitemap/
   - title: "Feed"
-    url: http://feeds.feedburner.com/MadeMistakes
+    url: http://feeds.feedburner.com/-todo-
 
 
 # Footer navigation links
@@ -94,23 +71,23 @@ colophon-menu:
 
 colophon-social:
   - title: "Twitter"
-    url: https://twitter.com/mmistakes
+    url: https://twitter.com/PsiRek
     icon: icon-twitter
-  - title: "Instagram"
-    url: https://instagram.com/mmistakes
-    icon: icon-instagram
-  - title: "Tumblr"
-    url: http://mademistakes.tumblr.com/
-    icon: icon-tumblr
+  #- title: "Instagram"
+  #  url: 
+  #  icon: icon-instagram
+  #- title: "Tumblr"
+  #  url: 
+  #  icon: icon-tumblr
   - title: "Facebook"
-    url: https://facebook.com/michaelrose
+    url: https://www.facebook.com/Odd-One-Out-Serekeu-850332811727698/
     icon: icon-facebook
-  - title: "YouTube"
-    url: https://www.youtube.com/user/anotherjpeg
-    icon: icon-youtube
+  #- title: "YouTube"
+  #  url: https://www.youtube.com/user/anotherjpeg
+  #  icon: icon-youtube
   - title: "GitHub"
-    url: https://github.com/mmistakes
+    url: https://github.com/psirek
     icon: icon-github
   - title: "Google+"
-    url: https://plus.google.com/+MichaelRoseDesign/posts
+    url: https://plus.google.com/u/0/+PoulSerek
     icon: icon-google-plus

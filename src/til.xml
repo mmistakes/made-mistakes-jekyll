@@ -1,7 +1,0 @@
----
-layout: atom_feed
-category_limit: til
-limit: 25
-title: "Today I Learned Feed"
-sitemap: false
----

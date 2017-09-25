@@ -2,67 +2,66 @@
 source                   : .tmp/src
 destination              : .tmp/dist
 
-title                    : "Made Mistakes"
-description              : "Personal website of designer slash illustrator Michael Rose."
-logo                     : "/assets/images/android-chrome-384x384.png"
-teaser                   : "/assets/images/default-teaser.png"
+title                    : "Odd One Out"
+description              : "My blog about geeky projects"
+logo                     : "/assets/images/todo.png"
+teaser                   : "/assets/images/todo-default-teaser.png"
 locale                   : "en_US"
 words_per_minute         : 200
 
-repository               : "mmistakes/made-mistakes-jekyll"
-url                      : "https://mademistakes.com"
+repository               : "psirek/Ox3-test"
+url                      : "https://odd-one-out.serek.eu"
 
 social:
-  name                   : "Michael Rose"
+  name                   : "Poul Serek"
   links:
-    - "https://twitter.com/mmistakes"
-    - "https://www.facebook.com/michaelrose"
-    - "https://www.instagram.com/mmistakes/"
-    - "https://github.com/mmistakes"
-    - "https://plus.google.com/u/0/+MichaelRoseDesign/posts"
+    - "https://twitter.com/psirek"
+    - "https://www.facebook.com/Odd-One-Out-Serekeu-850332811727698/"
+    - "https://github.com/psirek"
+    - "https://plus.google.com/u/0/+PoulSerek"
 
-google_site_verification : "geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo"
-bing_site_verification   : "D81F4C18A6CB3018F64D7C827D953DFD"
-alexa_site_verification  : "Y5DYjZ4VWlrQzBP5kcQJeOKLNas"
-yandex_site_verification : "55a5419baf76a498"
+google_site_verification : "todo"
+bing_site_verification   : "todo"
+alexa_site_verification  : ""
+yandex_site_verification : "todo"
 
-google_ad-client         : "ca-pub-7328585512091257"
-google_ad-slot           : "3049671934"
-google_analytics         : "UA-2011187-1"
+google_ad-client         : ""
+google_ad-slot           : ""
+google_analytics         : "todo"
 
 feed:
-  path                  : "https://mademistakes.com/atom.xml"
+  path                  : "https://odd-one-out.serek.eu/atom.xml"
 
 favicon_version         : "5A54z5oklP"
 
-pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
-webmention_url          : "https://webmention.io/mademistakes.com/webmention"
+pingback_url            : "https://webmention.io/odd-one-out.serek.eu/xmlrpc"
+webmention_url          : "https://webmention.io/odd-one-out.serek.eu/webmention"
 
 # Site owner
 author:
-  name                   : "Michael Rose"
-  uri                    : &uri "https://mademistakes.com/about/"
+  name                   : "Poul Serek"
+  uri                    : &uri "https://odd-one-out.serek.eu/about/"
   url                    : *uri
-  bio                    : "Just another boring, tattooed, time traveling designer."
-  picture                : "/assets/images/michael-rose-glitched.jpg"
-  twitter                : "https://twitter.com/mmistakes"
-  facebook               : "https://www.facebook.com/michaelrose"
-  instagram              : "https://www.instagram.com/mmistakes/"
-  tumblr                 : "http://mademistakes.tumblr.com/"
-  github                 : "https://github.com/mmistakes"
-  google_plus            : "https://plus.google.com/+MichaelRoseDesign/posts"
+  bio                    : "Todo."
+  picture                : "/assets/images/todo.jpg"
+  twitter                : "https://twitter.com/psirek"
+  facebook               : "https://www.facebook.com/Odd-One-Out-Serekeu-850332811727698/"
+  instagram              : ""
+  tumblr                 : ""
+  github                 : "https://github.com/psirek"
+  google_plus            : "https://plus.google.com/u/0/+PoulSerek"
 
 twitter:
-  username               : "mmistakes"
+  username               : "psirek"
 
 # Staticman comments (full configuration in staticman.yml)
 staticman:
-  branch                 : "master"
+  branch                 : "gh-pages"
 
 # reCAPTCHA keys
 reCaptcha:
-  siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
-  secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+  siteKey: "todo"
+  secret: "todo"
 
 # Jekyll configuration
 permalink                : /:categories/:title/
@@ -113,14 +112,10 @@ plugins:
 
 # Collections
 collections:
-  faqs:
-    output    : true
-    permalink : /:collection/:path/
-    title     : FAQs
-  work:
-    output    : true
-    permalink : /:collection/:path/
-    title     : Work
+#  work:
+#    output    : true
+#    permalink : /:collection/:path/
+#    title     : Work
   components:
     output    : false
   colors:
@@ -128,116 +123,32 @@ collections:
 
 # Front Matter Defaults
 defaults:
-  # Blog Articles
+  # Projects
   - scope:
-      path: _posts/articles
+      path: _posts/projects
       type: posts
     values:
       layout: post
-      category: articles
-      read_time: true
-      support: true
-      breadcrumbs:
-        - label: "Blog Articles"
-          url: /articles/
-  # Mastering Paper
-  - scope:
-      path: _posts/mastering-paper
-      type: posts
-    values:
-      layout: post
-      category: mastering-paper
+      category: projects
       read_time: true
       comments: true
       support: true
       breadcrumbs:
-        - label: "Mastering Paper by 53"
-          url: /mastering-paper/
-  # PaperFaces
+        - label: "Projects"
+          url: /projects/
+  # Reviews
   - scope:
-      path: _posts/paperfaces
+      path: _posts/reviews
       type: posts
     values:
       layout: post
-      category: paperfaces
-      breadcrumbs:
-        - label: "PaperFaces Portraits"
-          url: /paperfaces/
-      work: "Illustration"
-      seo:
-        type: "CreativeWork"
-  # Procreate Paintings
-  - scope:
-      path: _posts/procreate
-      type: posts
-    values:
-      layout: post
-      category: procreate-paintings
-      breadcrumbs:
-        - label: "Procreate Paintings"
-          url: /procreate-paintings/
-      work: "Illustration"
-      seo:
-        type: "CreativeWork"
-  # TIL
-  - scope:
-      path: _posts/til
-      type: posts
-    values:
-      layout: post
-      category: til
+      category: reviews
       read_time: true
       comments: true
       support: true
       breadcrumbs:
-        - label: "Today I Learned"
-          url: /til/
-  # Tiny Paintings
-  - scope:
-      path: _posts/tiny-paintings
-      type: posts
-    values:
-      layout: post
-      category: tiny-paintings
-      breadcrumbs:
-        - label: "Tiny Paintings"
-          url: /tiny-paintings/
-      work: "Illustration"
-      seo:
-        type: "CreativeWork"
-  # Work (posts and collection)
-  - scope:
-      path: _posts/work
-      type: posts
-    values:
-      layout: post
-      category: work
-      breadcrumbs:
-        - label: "Work"
-          url: /work/
-      seo:
-        type: "CreativeWork"
-  - scope:
-      path: _work
-      type: work
-    values:
-      layout: work
-      category: work
-      breadcrumbs:
-        - label: "Work"
-          url: /work/
-      seo:
-        type: "CreativeWork"
-  # FAQs
-  - scope:
-      path: _faqs
-      type: faqs
-    values:
-      layout: page
-      read_time: true
-      breadcrumbs:
-        - label: "Frequently Asked Questions"
-          url: /faqs/
+        - label: "Reviews"
+          url: /reviews/
   # Pages
   - scope:
       path: _pages
