@@ -73,18 +73,18 @@ colophon-social:
   - title: "Twitter"
     url: https://twitter.com/PsiRek
     icon: icon-twitter
-  #- title: "Instagram"
-  #  url: 
-  #  icon: icon-instagram
-  #- title: "Tumblr"
-  #  url: 
-  #  icon: icon-tumblr
+  - title: "Instagram"
+    url: 
+    icon: icon-instagram
+  - title: "Tumblr"
+    url: 
+    icon: icon-tumblr
   - title: "Facebook"
     url: https://www.facebook.com/Odd-One-Out-Serekeu-850332811727698/
     icon: icon-facebook
-  #- title: "YouTube"
-  #  url: https://www.youtube.com/user/anotherjpeg
-  #  icon: icon-youtube
+  - title: "YouTube"
+    url: 
+    icon: icon-youtube
   - title: "GitHub"
     url: https://github.com/psirek
     icon: icon-github
