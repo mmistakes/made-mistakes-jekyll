@@ -37,7 +37,6 @@ before_install:
 script: gulp build --prod
 
 before_deploy:
-  - git config --global commit.verbose true
   - git config --global user.email deploy@travis-ci.org && git config --global user.name "Travis-CI"
   - openssl aes-256-cbc -K $encrypted_b9977dca951b_key -iv $encrypted_b9977dca951b_iv -in deploy_key.enc -out /tmp/deploy_key -d
   - chmod 600 /tmp/deploy_key
