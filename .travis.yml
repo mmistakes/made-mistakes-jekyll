@@ -44,10 +44,9 @@ before_deploy:
   #- eval "$(ssh-agent -s)"
   #- chmod 600 /tmp/id_rsa
   #- ssh-add /tmp/id_rsa
-  
-chmod 600 /tmp/deploy_key
-eval `ssh-agent -s`
-ssh-add /tmp/deploy_key
+ - chmod 600 /tmp/deploy_key
+ - eval `ssh-agent -s`
+ - ssh-add /tmp/deploy_key
 
 deploy:
   provider: script
