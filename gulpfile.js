@@ -1,6 +1,7 @@
 // modified from generator-jekyllized 1.0.0-rc.6
 'use strict';
 var gulp       = require('gulp');
+var deploy     = require('gulp-gh-pages');
 var requireDir = require('require-dir');
 var tasks      = requireDir('./gulp/tasks', {recurse: true}); // eslint-disable-line
 
@@ -30,7 +31,14 @@ gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html', 'xml'));
 gulp.task('critical', gulp.series('styles:critical:home', 'styles:critical:archive', 'styles:critical:post'));
 
 // 'gulp deploy' -- deploy site to production and submit sitemap XML
-gulp.task('deploy', gulp.series('upload', 'submit:sitemap'));
+// gulp.task('deploy', gulp.series('upload', 'submit:sitemap'));
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src(paths.siteFolderName)
+    .pipe(deploy())
+});
 
 // 'gulp rebuild' -- WARNING: removes all assets, images, and built site
 gulp.task('rebuild', gulp.series('clean', 'clean:images'));
