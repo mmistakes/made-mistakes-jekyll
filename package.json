@@ -29,7 +29,7 @@
     "gulp-cssnano": "^2.1.0",
     "gulp-empty": "^0.1.1",
     "gulp-filter": "^4.0.0",
-    "gulp-gh-pages": "0.5.4",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-gzip": "^1.1.0",
     "gulp-htmlmin": "^2.0.0",
     "gulp-if": "^2.0.1",
