@@ -36,7 +36,7 @@ gulp.task('critical', gulp.series('styles:critical:home', 'styles:critical:archi
  * Push build to gh-pages
  */
 gulp.task('deploy', function () {
-  return gulp.src(".tmp/dist")
+  return gulp.src("./tmp/dist/**/*")
     .pipe(deploy())
 });
 
