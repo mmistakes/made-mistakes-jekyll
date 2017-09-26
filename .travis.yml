@@ -38,15 +38,9 @@ script: gulp build --prod
 
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_b9977dca951b_key -iv $encrypted_b9977dca951b_iv -in deploy_key.enc -out /tmp/deploy_key -d
-  #- openssl aes-256-cbc -K $encrypted_f55b475b43f3_key -iv $encrypted_f55b475b43f3_iv -in deploy_keys.tar.enc -out /tmp/deploy_keys.tar -d
-  #- tar -xvf /tmp/deploy_keys.tar -C /tmp/
-  #- mv /tmp/rsync-credentials.json rsync-credentials.json
-  #- eval "$(ssh-agent -s)"
-  #- chmod 600 /tmp/id_rsa
-  #- ssh-add /tmp/id_rsa
- - chmod 600 /tmp/deploy_key
- - eval `ssh-agent -s`
- - ssh-add /tmp/deploy_key
+  - chmod 600 /tmp/deploy_key
+  - eval `ssh-agent -s`
+  - ssh-add /tmp/deploy_key
 
 deploy:
   provider: script
