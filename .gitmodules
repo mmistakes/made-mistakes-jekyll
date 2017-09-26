@@ -1,3 +1,0 @@
-[submodule "images"]
-	path = src/assets/images
-	url = https://github.com/mmistakes/made-mistakes-images.git
