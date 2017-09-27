@@ -1,7 +1,6 @@
 // modified from generator-jekyllized 1.0.0-rc.6
 'use strict';
 var gulp       = require('gulp');
-var deploy     = require('gulp-gh-pages');
 var requireDir = require('require-dir');
 var tasks      = requireDir('./gulp/tasks', {recurse: true}); // eslint-disable-line
 
@@ -35,10 +34,10 @@ gulp.task('critical', gulp.series('styles:critical:home', 'styles:critical:archi
 /**
  * Push build to gh-pages
  */
-gulp.task('deploy', function () {
-  return gulp.src(".tmp/dist/**/*")
-    .pipe(deploy())
-});
+//gulp.task('deploy', function () {
+//  return gulp.src(".tmp/dist/**/*")
+//    .pipe(deploy())
+//});
 
 // 'gulp rebuild' -- WARNING: removes all assets, images, and built site
 gulp.task('rebuild', gulp.series('clean', 'clean:images'));
