@@ -110,6 +110,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-typogrify
+#  - jekyll-liquify
 
 # Collections
 collections:
