@@ -2,7 +2,7 @@
 permalink: /terms/
 title: "Terms and Policies"
 last_modified_at: 2017-06-15T09:14:54-04:00
-excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won't read."
+excerpt: "Odd-one-out.serek.eu terms & conditions, privacy policy, license, and other legal stuff."
 ---
 
 This is my personal website written and edited by me. Your use of this website, in any and all forms, constitutes an acceptance of these terms and policies. This page is reviewed and revised from time to time.

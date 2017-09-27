@@ -12,14 +12,14 @@ section:
     actions:
       - label: "the Vault"
         url: "/projects/"
-  - title: "Work Portfolio"
+  - title: "Reviews"
     class: "section--inverse section--work"
     image: /assets/images/procreate-paintings-feature.jpg
     introduction: |
-      A hand-picked selection of things I've designed, illustrated, and developed.
+      Stuff I reviewed.
     actions:
-      - label: "See More"
-        url: "/work/"
+      - label: "the List"
+        url: "/reviews/"
 ads: false
 last_modified_at: 2017-05-09T15:26:31-04:00
 ---
