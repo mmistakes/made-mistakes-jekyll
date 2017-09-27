@@ -10,7 +10,8 @@ locale                   : "en_US"
 words_per_minute         : 200
 
 repository               : "psirek/Ox3-test"
-url                      : "https://psirek.github.io/Ox3-test"
+url                      : "https://psirek.github.io"
+baseurl                  : "/Ox3-test"
 
 social:
   name                   : "Poul Serek"
