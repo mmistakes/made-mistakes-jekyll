@@ -1,6 +1,7 @@
 # Site wide configuration
 
 url                      : ""
+baseurl                  : "/"
 
 profile                  : true
 future                   : true
