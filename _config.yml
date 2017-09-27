@@ -10,7 +10,7 @@ locale                   : "en_US"
 words_per_minute         : 200
 
 repository               : "psirek/Ox3-test"
-url                      : "https://odd-one-out.serek.eu"
+url                      : "https://psirek.github.io/Ox3-test/"
 
 social:
   name                   : "Poul Serek"
@@ -30,7 +30,7 @@ google_ad-slot           : ""
 google_analytics         : "todo"
 
 feed:
-  path                  : "https://odd-one-out.serek.eu/atom.xml"
+  path                  : "https://psirek.github.io/Ox3-test/atom.xml"
 
 favicon_version         : "5A54z5oklP"
 
@@ -40,7 +40,7 @@ webmention_url          : "https://webmention.io/odd-one-out.serek.eu/webmention
 # Site owner
 author:
   name                   : "Poul Serek"
-  uri                    : &uri "https://odd-one-out.serek.eu/about/"
+  uri                    : &uri "https://psirek.github.io/Ox3-test/about/"
   url                    : *uri
   bio                    : "Todo."
   picture                : "/assets/images/todo.jpg"
