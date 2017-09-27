@@ -1,16 +1,16 @@
 <footer id="footer" class="site-footer">
   <ul class="menu">
-    <li><a href="/about/">About</a></li>
-    <li><a href="/contact/">Contact</a></li>
-    <li><a href="/support/">Support Me</a></li>
-    <li><a href="/terms/">Terms &amp; Policies</a></li>
-    <li><a href="/sitemap/">Sitemap</a></li>
+    <li><a href="{{ site.baseurl }}/about/">About</a></li>
+    <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+    <li><a href="{{ site.baseurl }}/support/">Support Me</a></li>
+    <li><a href="{{ site.baseurl }}/terms/">Terms &amp; Policies</a></li>
+    <li><a href="{{ site.baseurl }}/sitemap/">Sitemap</a></li>
   </ul>
   <div class="copyright">
     {% if site.copyright %}
       {{ site.copyright | markdownify }}
     {% else %}
-      <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Michael Rose.</p>
+      <p>&copy; 2014&ndash;{{ site.time | date: '%Y' }} Poul Serek.</p>
     {% endif %}
   </div>
 </footer>

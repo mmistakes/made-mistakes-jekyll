@@ -1,7 +1,7 @@
 # Site wide configuration
 
 url                      : ""
-baseurl                  : "/"
+baseurl                  : ""
 
 profile                  : true
 future                   : true
