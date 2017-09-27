@@ -1,4 +1,4 @@
-# Made Mistakes Gemfile
+# Odd-one-out.serek.eu Gemfile
 source 'https://rubygems.org'
 
 gem 'breakpoint'
@@ -14,4 +14,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-typogrify'
+#  gem 'jekyll-liquify'
 end
