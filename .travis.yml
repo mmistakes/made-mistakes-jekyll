@@ -17,7 +17,6 @@ cache:
     - node_modules # NPM packages
 
 addons:
-  #ssh_known_hosts: s210904.gridserver.com
   apt:
     sources:
       - ubuntu-toolchain-r-test
