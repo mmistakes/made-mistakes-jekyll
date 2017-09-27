@@ -14,7 +14,7 @@ paths.sourceFolderName   = 'src';
 paths.stylesFolderName   = 'stylesheets';
 paths.tempFolderName     = '.tmp';
 
-paths.prodUrl            = 'https://mademistakes.com';
+paths.prodUrl            = 'https://psirek.github.io/Ox3-test/';
 
 // Directory locations.
 paths.sourceDir          = paths.sourceFolderName + '/';
