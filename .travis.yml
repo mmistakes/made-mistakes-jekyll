@@ -49,7 +49,7 @@ deploy:
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   local_dir: .tmp/dist
   on:
-    branch: poc
+    branch: gh-pages
 
   #provider: script
   #skip_cleanup: true
