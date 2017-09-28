@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /reviews/
-category: til
+category: reviews
 title: &title "Reviews"
 alt_title: *title
 modified:
