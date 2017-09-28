@@ -11,6 +11,7 @@ If you have found any of this sites content useful you can opt to support my wor
 If you want to help me and thus this site at no additional cost to you, just use my affiliate links when purchasing anything from the links below. I use these websites / services myself!
 
 ### Amazon
+Great place to find almost anything!
 <div markdown="0" class="btn--group">
   <a href="https://www.amazon.com/?tag=oddoneout0a-20" class="btn" rel="nofollow">
     <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.com
@@ -40,9 +41,11 @@ If you want to help me and thus this site at no additional cost to you, just use
   </a>
 </div>
 
-### Other
+### Other stores
+I highly recommend AliExpress for minor gadgets and electronical components
 <div markdown="0" class="btn--group">
   <a href="http://s.click.aliexpress.com/e/Z3Juz7A" class="btn" rel="nofollow">AliExpress</a>
+  <a href="https://adorama.evyy.net/c/348211/51926/1036?u=https%3A%2F%2Fwww.adorama.com" class="btn" rel="nofollow">Adorama</a>
 </div>
 
 ### Hosting
