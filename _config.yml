@@ -31,7 +31,7 @@ google_ad-slot           : ""
 google_analytics         : "todo"
 
 feed:
-  path                  : "https://psirek.github.io/Ox3-test/atom.xml"
+  path                  : "https://Ox3.serek.eu/atom.xml"
 
 favicon_version         : "5A54z5oklP"
 
@@ -41,7 +41,7 @@ webmention_url          : "https://webmention.io/odd-one-out.serek.eu/webmention
 # Site owner
 author:
   name                   : "Poul Serek"
-  uri                    : &uri "https://psirek.github.io/Ox3-test/about/"
+  uri                    : &uri "https://Ox3.serek.eu/about/"
   url                    : *uri
   bio                    : "Todo."
   picture                : "/assets/images/todo.jpg"
