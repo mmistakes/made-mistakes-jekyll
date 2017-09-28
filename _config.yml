@@ -11,7 +11,7 @@ words_per_minute         : 200
 
 repository               : "psirek/Ox3-test"
 url                      : "https://psirek.github.io"
-baseurl                  : "/Ox3-test"
+baseurl                  : "" # This breaks a few links sicne {{ site.baseurl }} is not prefixed. Using custom domain (CNAME file in root) with GitHub Pages (gh-pages) and Cloudflare (CNAME record) does work though
 
 social:
   name                   : "Poul Serek"
