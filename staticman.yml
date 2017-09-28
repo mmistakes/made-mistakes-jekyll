@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  allowedOrigins: ["odd-one-out.serek.eu","github.com","Ox3.serek.eu]
+  allowedOrigins: ["odd-one-out.serek.eu","github.com","Ox3.serek.eu"]
 
   # (*) REQUIRED
   #
