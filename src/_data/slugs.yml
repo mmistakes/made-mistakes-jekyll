@@ -18,9 +18,6 @@ support:
 404:
   name: "Not Found"
 
-sitemap:
-  name: "Sitemap"
-
 terms:
   name: "Terms &amp; Policies"
 
