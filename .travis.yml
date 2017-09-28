@@ -36,7 +36,8 @@ before_install:
 script: gulp build --prod
 
 before_deploy:
-  - mv .tmp/assets/ .tmp/dist/ # TODO: Quick-fix - why does assets not end up in the dist folder in the first place? And are these optimzed?
+  - mv .tmp/assets/ .tmp/dist/ # TODO: Quick-fix - why does assets not end up in the dist folder in the first place?
+  - cp CNAME .tmp/dist/ # TODO: Quick-fix
 
 deploy:
   provider: pages
