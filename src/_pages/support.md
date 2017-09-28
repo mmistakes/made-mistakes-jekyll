@@ -1,66 +1,89 @@
 ---
 permalink: /support/
 title: "Show Your Support"
-last_modified_at: 2017-08-01T14:19:15-04:00
-excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
+last_modified_at: 2017-09-01T14:19:15-04:00
+excerpt: "Support my blog in various ways"
 ---
+If you have found any of this sites content useful you can opt to support my work in various ways
 
-The tutorials, Jekyll themes, and other articles I publish have been a true labor of love for me. If you've found any of this free content useful here's how to show your thanks and motivate me to create more of it.
+## Buy something
 
-## Send a Donation
+If you want to help me and thus this site at no additional cost to you, just use my affiliate links when purchasing anything from the links below. I use these websites / services myself!
 
-If you'd like to send a donation my way so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`](/assets/images/bitcoin-qr.png "Bitcoin QR code").
-
+### Amazon
 <div markdown="0" class="btn--group">
-  <a href="https://www.paypal.me/mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send PayPal');" class="btn">
-    <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Send PayPal Money
+  <a href="https://www.amazon.com/?tag=oddoneout0a-20" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.com
   </a>
-  <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">Send Square Cash</a>
-</div>
-
-## Buy Something
-
-If you shop on [Amazon.com](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will earn me a small commission if you end up buying something. I also maintain an Amazon Wish List if you are feeling extra generous. :wink:
-
-<div markdown="0" class="btn--group">
-  <a href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS" onclick="ga('send', 'event', 'link', 'click', 'Shop Amazon');" class="btn">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Shop Amazon
+  <a href="https://www.amazon.co.uk/?tag=oddoneout-21" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.co.uk
   </a>
-  <a href="http://amzn.com/w/1K58RT2NS0SDP" onclick="ga('send', 'event', 'link', 'click', 'Amazon Wish List');" class="btn">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> My Amazon Wish List
+  <a href="https://www.amazon.de/?tag=oddoneout0c-21" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.de
+  </a>
+  <a href="https://www.amazon.ca/?tag=oddoneout0f-20" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.ca
   </a>
 </div>
+<div markdown="0" class="btn--group">
+  <a href="https://www.amazon.fr/?tag=oddoneout0b-21" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.fr
+  </a>
+  <a href="https://www.amazon.es/?tag=oddoneout0e-21" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.es
+  </a>
+  <a href="https://www.amazon.it/?tag=oddoneout01-21" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.it
+  </a>
+  <a href="https://www.amazon.cn/?tag=oddoneout-23" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.cn
+  </a>
+</div>
 
-## Spread the Word
+### Other
+<div markdown="0" class="btn--group">
+  <a href="http://s.click.aliexpress.com/e/Z3Juz7A" class="btn" rel="nofollow">AliExpress</a>
+</div>
 
-Have a website or use social networking sites like Twitter, Facebook, Google+, Tumblr, or Pinterest? Please consider sharing the content found on **Made Mistakes** or linking to <https://mademistakes.com>
+### Hosting
+If you looking for some really great VPS hosting (KVM or OpenVZ) then use my Ramnode affiliate link. The uptime is great (no outages yet), the service is superb and responsive and the pricing is fair. If you are on the lookout for a VPN service, then NordVPN is my preferred choice.
 
-## Follow Me on Social Media
+<div markdown="0" class="btn--group">
+  <a href="https://clientarea.ramnode.com/aff.php?aff=3059" class="btn" rel="nofollow">Ramnode</a>
+  <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=5167" class="btn" rel="nofollow">NordVPN</a>
+</div>
 
-I post fairly infrequently on social media --- I'm not the type to barf out a stream of rants and retweets in quick succession. Posts are along the lines of in-process artwork, speed painting videos, web design and development tidbits, sarcastic remarks, and photographic fragments from what little life I live.
+## Donate
 
-If these sorts of things interest you, follow along on:
+If you just want to help me on my next project you can donate directly to me below
 
-- [Twitter](https://twitter.com/mmistakes)
-- [Instagram](https://instagram.com/mmistakes/)
-- [GitHub](https://github.com/mmistakes)
-- [YouTube](https://www.youtube.com/user/anotherjpeg)
-- [Facebook](https://www.facebook.com/michaelrose)
-- [Google+](https://plus.google.com/+MichaelRoseDesign/posts)
+<div markdown="0" class="btn--group">
+  <a href="https://www.paypal.me/Ox3" class="btn" rel="nofollow">
+    <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg> PayPal.me
+  </a>
+  <a href="/assets/images/donate/Bitcoin_BTC_343m5YhZ7y78WokLVqHDFC6K2k896sWCNw.png" class="btn" rel="nofollow">(BTC) Bitcoin</a>
+  <a href="/assets/images/donate/Etherum_ETH_0x904d5a40d845ba222bc3728533dc40074c9780dd.png" class="btn" rel="nofollow">(ETH) Etherum</a>
+  <a href="/assets/images/donate/Litecoin_LTC_MCLukFCibdaVuqShxsbqPHoxDPrvxfVYjz.png" class="btn" rel="nofollow">(LTC) Litecoin</a>
+</div>
 
-## Subscribe to the Feeds
+Bitcoin (BTC): [343m5YhZ7y78WokLVqHDFC6K2k896sWCNw](/assets/images/donate/Bitcoin_BTC_343m5YhZ7y78WokLVqHDFC6K2k896sWCNw.png){:target="_blank" rel="nofollow"}
 
-The main feed[^feed] for everything on Made Mistakes. 
+Etherum (ETH): [0x904d5a40d845ba222bc3728533dc40074c9780dd](/assets/images/donate/Etherum_ETH_0x904d5a40d845ba222bc3728533dc40074c9780dd.png){:target="_blank" rel="nofollow"}
+
+Litecoin (LTC): [343m5YhZ7y78WokLVqHDFC6K2k896sWCNw](/assets/images/donate/Litecoin_LTC_MCLukFCibdaVuqShxsbqPHoxDPrvxfVYjz.png){:target="_blank" rel="nofollow"}
+
+## Spread the word
+
+Have a website or use social networking sites like Twitter, Facebook, Google+, Tumblr, or Pinterest? Please consider sharing the content found on **Odd One Out** or linking to <https://odd-one-out.serek.eu>
+
+## Subscribe
+
+The main feed for Odd One Out. 
 
 - Atom: [{{ 'atom.xml' | relative_url }}]({{ 'atom.xml' | relative_url }})
 - JSON: [{{ 'feed.json' | relative_url }}]({{ 'feed.json' | relative_url }})
 
-### Topic Only Feeds
+### Topic specific feeds
 
-- Articles: [{{ 'articles.xml' | relative_url }}]({{ 'articles.xml' | relative_url }})
-- Paper by FiftyThree Tutorials: [{{ 'mastering-paper.xml' | relative_url }}]({{ 'mastering-paper.xml' | relative_url }})
-- PaperFaces iPad Portraits: [{{ 'paperfaces.xml' | relative_url }}]({{ 'paperfaces.xml' | relative_url }})
-- Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
-- Today I Learned Posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
-
-[^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
+- Projects: [{{ 'projects.xml' | relative_url }}]({{ 'projects.xml' | relative_url }})
+- Reviews: [{{ 'reviews.xml' | relative_url }}]({{ 'reviews.xml' | relative_url }})
