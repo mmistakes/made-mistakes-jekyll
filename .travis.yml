@@ -48,3 +48,4 @@ deploy:
     branch: poc
 
 after_deploy:
+  - gulp submit_sitemap
