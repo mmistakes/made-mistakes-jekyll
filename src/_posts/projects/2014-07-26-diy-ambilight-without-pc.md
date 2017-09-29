@@ -2,12 +2,14 @@
 title: "DIY Ambilight without a pc"
 excerpt: "DIY Ambilight that does not have to be attached to a PC"
 image:
-  path: &image "/assets/images/diy-ambilight-without-pc-effect.jpg"
+  path: &image "/assets/images/feature/diy-ambilight-without-pc-effect.jpg"
   feature: *image
-  thumbnail: "/assets/images/diy-ambilight-without-pc-effect.jpg"
-  teaser: "/assets/images/diy-ambilight-without-pc-effect.jpg"
+  thumbnail: "/assets/images/feature/diy-ambilight-without-pc-effect-th.jpg"
+  teaser: "/assets/images/feature/diy-ambilight-without-pc-effect.jpg"
 tags: [OpenBeam, Ambilight]
 comments: true
+comments_locked: false
+published: true
 last_modified_at: 2014-07-26T22:24:00-04:00
 ---
 Ever wished you had Philips Ambilight for your tv or monitor? Well, make it yourself and save a buck or two! This post uses the ambi-tv system to create an Ambilight clone.
@@ -18,8 +20,10 @@ Ever wished you had Philips Ambilight for your tv or monitor? Well, make it your
 </figure>
 
 Here is an example of the finished ambi-tv setup in action using a test demo.
+{% youtube IKc895J9n-0 %}
 <div class="youtube-player" data-id="IKc895J9n-0"></div>
 Here you can see the setup using a real video. The video is from [sintel.org](http://www.sintel.org/), although not the best showcase of ambi-tv, it is the least likely to get me in trouble over copyright. I can reveal that the setup looks wonderful using the official Philips Ambilight demo video found [here](https://www.youtube.com/watch?v=jV8IFZ5Sa_k)
+{% youtube Z-F1kWZpApU %}
 <div class="youtube-player" data-id="Z-F1kWZpApU"></div>
 It simply needs a HDMI input to work, no other computers than the Raspberry Pi doing all the processing and controlling the LEDs behind the tv. The whole setup is around 310 USD to make since I live in Europe, if you live in the States or Asia it is cheaper to get the parts. See this excellent video from the maker of the ambi-tv system to get more information: [https://www.youtube.com/watch?v=8cpQpGYtjR0](https://www.youtube.com/watch?v=8cpQpGYtjR0)
 ## Hardware list
@@ -53,9 +57,21 @@ I will not go into details, but follow this guide here: [https://github.com/gkai
 
 You can download my [image](https://www.dropbox.com/s/4947g5meatfvbm2/ambi-tv.gz?dl=1) if you want to skip step 1-5. Login and password pi / pi. Just remember to edit the ambi-tv.conf file to suit your needs. To write the image to an SD-card, use [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/). You need to use a SD card of at least 4GB. If you use a SD card greater than 4GB you can resize the image using [this](http://softwarebakery.com/shrinking-images-on-linux) guide if you want to increase the size of the root partition.
 This finished setup can be seen here, I still need to hide all the mess behind the tv
-[caption id="" align="alignnone" width="640"]<a style="margin-left: auto; margin-right: auto;" href="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/Setup-LEDs.jpg"><img src="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/Setup-LEDs.jpg" alt="" width="640" height="480" border="0" /></a> LEDs using OpenBeam construction kit. All LEDs are angled at 45 degrees outwards.[/caption]
-[caption id="" align="alignnone" width="640"]<a style="margin-left: auto; margin-right: auto;" href="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/Setup-back.jpg"><img src="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/Setup-back.jpg" alt="" width="640" height="428" border="0" /></a> The OpenBeams are attached to the tv using an old wall mount. The LED strips are attached using strips.[/caption]
-[caption id="" align="aligncenter" width="480"]<a style="margin-left: auto; margin-right: auto;" href="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/Setup-the_rest.jpg"><img src="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/Setup-the_rest.jpg" alt="" width="480" height="640" border="0" /></a> Lots of messy cables and boxes, I plan to hide this behind the tv at some point. Not everything belongs to the ambi-tv setup[/caption]
+
+<figure class="large">
+  <img src="/assets/images/diy-ambilight-without-pc-setup-leds.jpg" alt="LEDs using OpenBeam construction kit. All LEDs are angled at 45 degrees outwards">
+  <figcaption>LEDs using OpenBeam construction kit. All LEDs are angled at 45 degrees outwards</figcaption>
+</figure>
+
+<figure class="large">
+  <img src="/assets/images/diy-ambilight-without-pc-setup-back.jpg" alt="The OpenBeams are attached to the tv using an old wall mount. The LED strips are attached using strips">
+  <figcaption>The OpenBeams are attached to the tv using an old wall mount. The LED strips are attached using strips</figcaption>
+</figure>
+
+<figure class="large">
+  <img src="/assets/images/diy-ambilight-without-pc-setup-the-rest.jpg" alt="Lots of messy cables and boxes, I plan to hide this behind the tv at some point. Not everything belongs to the ambi-tv setup">
+  <figcaption>Lots of messy cables and boxes, I plan to hide this behind the tv at some point. Not everything belongs to the ambi-tv setup</figcaption>
+</figure>
 
 ## Accuracy
 Color accuracy is not perfect, but works well enough that I have no need to tweak it further. I expect tweaking the gamma setting in ambi.conf can get me better results.
@@ -71,8 +87,12 @@ Color accuracy is not perfect, but works well enough that I have no need to twea
   <figcaption>Blue and black image (lights are all off). The red light in the lower left corner is from the HDMI switch</figcaption>
 </figure>
 
-The accuracy regarding what to show is good enough not to need any tweaking, but the ambi-tv.conf can be tweaked to increase accuracy
-[caption id="" align="aligncenter" width="640"]<a style="margin-left: auto; margin-right: auto;" href="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/ACC03.jpg"><img src="https://odd-one-out.serek.eu/wp-content/uploads/2014/07/ACC03.jpg" alt="" width="640" height="480" border="0" /></a> Accuracy of displayed color according to the screen. Can be perfected using the "led-inset-top" option in ambi.conf[/caption]
+The accuracy regarding what to show is good enough not to need any tweaking, but the ambi-tv.conf can be tweaked to increase accuracy.
+
+<figure class="large">
+  <img src="/assets/images/diy-ambilight-without-pc-accuracy.jpg" alt="Accuracy of displayed color according to the screen. Can be perfected using the 'led-inset-top' option in ambi.conf">
+  <figcaption>Accuracy of displayed color according to the screen. Can be perfected using the "led-inset-top" option in ambi.conf</figcaption>
+</figure>
 
 ## Lag
 Using [this](https://www.youtube.com/watch?v=sr_vL2anfXA) youtube video as shown in the beginning of the post I tested the lag on the ambi-tv. If the "blended-frame" variable in ambi.conf is set quite low there is no lag on a Raspberry Pi as you can see again on this video.
