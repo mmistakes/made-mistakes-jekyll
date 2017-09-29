@@ -14,31 +14,23 @@ If you want to help me and thus this site at no additional cost to you, just use
 Great place to find almost anything!
 <div markdown="0" class="btn--group">
   <a href="https://www.amazon.com/?tag=oddoneout0a-20" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.com
-  </a>
-  <a href="https://www.amazon.co.uk/?tag=oddoneout-21" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.co.uk
-  </a>
-  <a href="https://www.amazon.de/?tag=oddoneout0c-21" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.de
-  </a>
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.com</a>
   <a href="https://www.amazon.ca/?tag=oddoneout0f-20" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.ca
-  </a>
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.ca</a>
+  <a href="https://www.amazon.de/?tag=oddoneout0c-21" class="btn" rel="nofollow">
+      <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.de</a>
+  <a href="https://www.amazon.es/?tag=oddoneout0e-21" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.es</a>
 </div>
 <div markdown="0" class="btn--group">
+  <a href="https://www.amazon.co.uk/?tag=oddoneout-21" class="btn" rel="nofollow">
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.co.uk</a>
   <a href="https://www.amazon.fr/?tag=oddoneout0b-21" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.fr
-  </a>
-  <a href="https://www.amazon.es/?tag=oddoneout0e-21" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.es
-  </a>
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.fr</a>
   <a href="https://www.amazon.it/?tag=oddoneout01-21" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.it
-  </a>
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.it</a>
   <a href="https://www.amazon.cn/?tag=oddoneout-23" class="btn" rel="nofollow">
-    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Amazon.cn
-  </a>
+    <svg class="icon icon--amazon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-amazon' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Amazon.cn</a>
 </div>
 
 ### Other stores
@@ -62,7 +54,7 @@ If you just want to help me on my next project you can donate directly to me bel
 
 <div markdown="0" class="btn--group">
   <a href="https://www.paypal.me/Ox3" class="btn" rel="nofollow">
-    <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg> PayPal.me
+    <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg>PayPal.me
   </a>
   <a href="/assets/images/donate/Bitcoin_BTC_343m5YhZ7y78WokLVqHDFC6K2k896sWCNw.png" class="btn" rel="nofollow">(BTC) Bitcoin</a>
   <a href="/assets/images/donate/Etherum_ETH_0x904d5a40d845ba222bc3728533dc40074c9780dd.png" class="btn" rel="nofollow">(ETH) Etherum</a>
