@@ -2,7 +2,7 @@
   <!-- Start new comment form -->
   <div id="respond">
     <header class="section-title">
-      <h3>Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h3>
+      <h3>Leave a reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h3>
     </header>
     <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
       <div class="form-group">
@@ -42,7 +42,7 @@
           <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
           Notify me of replies by email.
         </label>
-        <button type="submit" id="comment-form-submit" class="btn">Send Comment</button>
+        <button type="submit" id="comment-form-submit" class="btn">Send comment</button>
       </div>
     </form>
   </div>
