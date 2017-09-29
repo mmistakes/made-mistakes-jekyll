@@ -2,10 +2,10 @@
 title: "DIY Ambilight without a pc"
 excerpt: "DIY Ambilight that does not have to be attached to a PC"
 image:
-  path: &image "/assets/images/feature/diy-ambilight-without-pc-effect.jpg"
+  path: &image "/assets/images/diy-ambilight-without-pc-effect.jpg"
   feature: *image
-  thumbnail: "/assets/images/feature/diy-ambilight-without-pc-effect-th.jpg"
-  teaser: "/assets/images/feature/diy-ambilight-without-pc-effect.jpg"
+  thumbnail: "/assets/images/diy-ambilight-without-pc-effect-th.jpg"
+  teaser: "/assets/images/diy-ambilight-without-pc-effect.jpg"
 tags: [OpenBeam, Ambilight]
 comments: true
 comments_locked: false
