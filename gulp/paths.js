@@ -14,7 +14,7 @@ paths.sourceFolderName   = 'src';
 paths.stylesFolderName   = 'stylesheets';
 paths.tempFolderName     = '.tmp';
 
-paths.prodUrl            = 'https://psirek.github.io/Ox3-test/';
+paths.prodUrl            = 'https://Ox3.serek.eu/';
 
 // Directory locations.
 paths.sourceDir          = paths.sourceFolderName + '/';
