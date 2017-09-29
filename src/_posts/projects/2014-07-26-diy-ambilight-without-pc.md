@@ -2,10 +2,10 @@
 title: "DIY Ambilight without a pc"
 excerpt: "Some excerpt"
 image:
-  path: &image "/assets/images/posts/2014-07-26-diy-ambilight-without-pc/Effect.jpg"
+  path: &image "/assets/images/diy-ambilight-without-pc-effect.jpg"
   feature: *image
-  thumbnail: "/assets/images/posts/2014-07-26-diy-ambilight-without-pc/Effect.jpg"
-  teaser: "/assets/images/posts/2014-07-26-diy-ambilight-without-pc/Effect.jpg"
+  thumbnail: "/assets/images/diy-ambilight-without-pc-effect.jpg"
+  teaser: "/assets/images/diy-ambilight-without-pc-effect.jpg"
 tags: [OpenBeam, Ambilight]
 comments: true
 last_modified_at: 2014-07-26T22:24:00-04:00
@@ -13,18 +13,16 @@ last_modified_at: 2014-07-26T22:24:00-04:00
 Ever wished you had Philips Ambilight for your tv or monitor? Well, make it yourself and save a buck or two! This post uses the ambi-tv system to create an Ambilight clone.
 
 <figure class="large">
-  <img src="/assets/images/posts/2014-07-26-diy-ambilight-without-pc/Effect.jpg" alt="Example of my DIY Ambilight setup">
+  <img src="/assets/images/diy-ambilight-without-pc-effect.jpg" alt="Example of my DIY Ambilight setup">
   <figcaption>Example of my DIY Ambilight setup</figcaption>
 </figure>
 
-![Example of my DIY Ambilight setup](/assets/images/posts/2014-07-26-diy-ambilight-without-pc/Effect.jpg)
-
 Here is an example of the finished ambi-tv setup in action using a test demo.
 <div class="youtube-player" data-id="IKc895J9n-0"></div>
-<p>Here you can see the setup using a real video. The video is from <a href="http://www.sintel.org/">sintel.org</a>, although not the best showcase of ambi-tv, it is the least likely to get me in trouble over copyright. I can reveal that the setup looks wonderful using the official Philips Ambilight demo video found <a href="https://www.youtube.com/watch?v=jV8IFZ5Sa_k">here</a></p>
+Here you can see the setup using a real video. The video is from [sintel.org](http://www.sintel.org/">sintel.org), although not the best showcase of ambi-tv, it is the least likely to get me in trouble over copyright. I can reveal that the setup looks wonderful using the official Philips Ambilight demo video found [here](https://www.youtube.com/watch?v=jV8IFZ5Sa_k)
 <div class="youtube-player" data-id="Z-F1kWZpApU"></div>
-<p>It simply needs a HDMI input to work, no other computers than the Raspberry Pi doing all the processing and controlling the LEDs behind the tv. The whole setup is around 310 USD to make since I live in Europe, if you live in the States or Asia it is cheaper to get the parts. See this excellent video from the maker of the ambi-tv system to get more information: <a href="https://www.youtube.com/watch?v=8cpQpGYtjR0">https://www.youtube.com/watch?v=8cpQpGYtjR0</a></p>
-<h2>Hardware list</h2>
+It simply needs a HDMI input to work, no other computers than the Raspberry Pi doing all the processing and controlling the LEDs behind the tv. The whole setup is around 310 USD to make since I live in Europe, if you live in the States or Asia it is cheaper to get the parts. See this excellent video from the maker of the ambi-tv system to get more information: [https://www.youtube.com/watch?v=8cpQpGYtjR0](https://www.youtube.com/watch?v=8cpQpGYtjR0)
+# Hardware list
 <p>[aDisclaimer]</p>
 <ul>
 <li><a href="https://www.amazon.com/dp/B009SQQF9C/?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B009SQQF9C[de]B00LPESRUK[uk]B00KKUS3RM[ca]B00AKQA0X6">Raspberry Pi revision B</a> (60 USD)<br />
