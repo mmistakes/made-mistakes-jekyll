@@ -37,8 +37,8 @@ script: gulp build --prod
 
 before_deploy:
   - cp -r .tmp/assets/ .tmp/dist/ # TODO: Quick-fix - why does assets not end up in the dist folder in the first place?
-  - cp -r src/assets/images/ .tmp/dist/assets/ # TODO: Quick-fix. Just moving the raw images, not using any optimized images 
   - cp CNAME .tmp/dist/ # TODO: Quick-fix
+  #- cp -r src/assets/images/ .tmp/dist/assets/ # TODO: Quick-fix. Just moving the raw images, not using any optimized images 
 
 deploy:
   provider: pages
