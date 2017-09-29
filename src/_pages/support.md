@@ -1,6 +1,6 @@
 ---
 permalink: /support/
-title: "Show Your Support"
+title: "Show your support"
 last_modified_at: 2017-09-01T14:19:15-04:00
 excerpt: "Support my blog in various ways"
 ---
