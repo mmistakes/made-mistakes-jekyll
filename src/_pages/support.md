@@ -75,10 +75,10 @@ Have a website or use social networking sites like Twitter, Facebook, Google+, T
 
 The main feed for Odd One Out. 
 
-- Atom: [{{ 'atom.xml' | relative_url }}]({{ 'atom.xml' | relative_url }})
-- JSON: [{{ 'feed.json' | relative_url }}]({{ 'feed.json' | relative_url }})
+- [Atom]({{ 'atom.xml' | relative_url }})
+- [JSON]({{ 'feed.json' | relative_url }})
 
 ### Topic specific feeds
 
-- Projects: [{{ 'projects.xml' | relative_url }}]({{ 'projects.xml' | relative_url }})
-- Reviews: [{{ 'reviews.xml' | relative_url }}]({{ 'reviews.xml' | relative_url }})
+- [Projects]({{ 'projects.xml' | relative_url }})
+- [Reviews]({{ 'reviews.xml' | relative_url }})
