@@ -50,11 +50,11 @@ layout: null
             {% capture post_gallery %}{% include gallery.html %}{% endcapture %}
             {{ post_gallery }}
           {% endif %}
-          {{ post.content }}
+          {{ nill }}
           <p><a href="{{ post.url | absolute_url }}" rel="nofollow">{{ post.title }}</a> was originally published on {{ site.title }}.</p>
         {% endcapture %}
         "content_html": {{ post_content | strip | jsonify }},
-        "content_text": {{ post.content | strip_html | normalize_whitespace | jsonify }}
+        "content_text": {{ nill | strip_html | normalize_whitespace | jsonify }}
         {% if post.excerpt and post.excerpt != empty %}
           , "summary": {{ post.excerpt | strip_html | normalize_whitespace | jsonify }}
         {% endif %}
