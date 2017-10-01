@@ -1,20 +1,20 @@
 # Site wide configuration
-source                   : .tmp/src
-destination              : .tmp/dist
+source                  : .tmp/src
+destination             : .tmp/dist
 
-title                    : "Odd One Out"
-description              : "My blog about geeky projects"
-logo                     : "/assets/images/todo.png"
-teaser                   : "/assets/images/todo-default-teaser.png"
-locale                   : "en_US"
-words_per_minute         : 200
+title			: "Odd One Out"
+description		: "My blog about geeky projects"
+logo			: "/assets/images/todo.png"
+teaser			: "/assets/images/todo-default-teaser.png"
+locale			: "en_US"
+words_per_minute        : 200
 
-repository               : "psirek/Ox3-test"
-url                      : "https://Ox3.serek.eu"
-baseurl                  : "" # This breaks a few links sicne {{ site.baseurl }} is not prefixed. Using custom domain (CNAME file in root) with GitHub Pages (gh-pages) and Cloudflare (CNAME record) does work though
+repository              : "psirek/Ox3-test"
+url                     : "https://Ox3.serek.eu"
+baseurl                 : "" # This breaks a few links since {{ site.baseurl }} is not prefixed. Using custom domain (CNAME file in root) with GitHub Pages (gh-pages) and Cloudflare (CNAME record) does work though
 
 social:
-  name                   : "Poul Serek"
+  name                  : "Poul Serek"
   links:
     - "https://twitter.com/psirek"
     - "https://www.facebook.com/Odd-One-Out-Serekeu-850332811727698/"
@@ -31,7 +31,7 @@ google_ad-slot           : ""
 google_analytics         : "todo"
 
 feed:
-  path                  : "https://Ox3.serek.eu/atom.xml"
+  path                  : "/atom.xml"
 
 favicon_version         : "5A54z5oklP"
 
@@ -40,7 +40,7 @@ webmention_url          : "https://webmention.io/odd-one-out.serek.eu/webmention
 
 # Site owner
 author:
-  name                   : "Poul Serek"
+  name                   : "Poul Serek" # Also used for copyright name if copyright variable is not not set
   uri                    : &uri "https://Ox3.serek.eu/about/"
   url                    : *uri
   bio                    : "Todo."
@@ -110,14 +110,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-typogrify
+  - jekyll-redirect-from
 #  - jekyll-liquify
 
 # Collections
 collections:
-#  work:
-#    output    : true
-#    permalink : /:collection/:path/
-#    title     : Work
   components:
     output    : false
   colors:
@@ -162,7 +159,7 @@ defaults:
 pagination:
   enabled      : true
   debug        : false
-  per_page     : 15
+  per_page     : 10
   permalink    : "/page/:num/"
   title        : ":title - Page :num of :max"
   limit        : 0

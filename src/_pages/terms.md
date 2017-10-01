@@ -55,6 +55,6 @@ What this means for you:
 * I do not let the compensation I receive influence the content, topics, posts, or opinions expressed on this website.
 * I respect and value my readers too much to write anything other than my own genuine and objective opinions and advice.
 
-Just like this website, my Disclosure Policy is a work in progress. As the revenue streams evolve, so will this page.
+Just like this website, my Disclosure Policy is a work in progress.
 
 *Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}*

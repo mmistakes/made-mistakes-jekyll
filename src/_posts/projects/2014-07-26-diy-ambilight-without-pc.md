@@ -1,34 +1,36 @@
 ---
-title: DIY Ambilight without a pc
-excerpt: DIY Ambilight that does not have to be attached to a PC
+title: "DIY Ambilight without a pc"
+excerpt: "DIY Ambilight that does not have to be attached to a PC"
 image:
-  path: &image /assets/images/diy-ambilight-without-pc-effect.jpg
+  path: &image "/assets/images/diy-ambilight-without-pc-effect-feature.jpg"
   feature: *image
-  thumbnail: /assets/images/diy-ambilight-without-pc-effect-th.jpg
+  thumbnail: "/assets/images/diy-ambilight-without-pc-effect-feature-th.jpg"
   teaser: *image
-gallery_red_green:
-  - url: /assets/images/diy-ambilight-without-pc-red-image.jpg
-    image_path: /assets/images/diy-ambilight-without-pc-red-image.jpg
-    alt: Red image
-    title: Red image
-  - url: /assets/images/diy-ambilight-without-pc-green-image.jpg
-    image_path: /assets/images/diy-ambilight-without-pc-green-image.jpg
-    alt: Green image
-    title: Green image
-gallery_blue_black:
-  - url: /assets/images/diy-ambilight-without-pc-blue-image.jpg
-    image_path: /assets/images/diy-ambilight-without-pc-blue-image.jpg
-    alt: Blue image
-    title: Blue image
-  - url: /assets/images/diy-ambilight-without-pc-black-image.jpg
-    image_path: /assets/images/diy-ambilight-without-pc-black-image.jpg
-    alt: Black image
-    title: Black image
 tags: [OpenBeam, Ambilight]
 comments: true
 comments_locked: false
 published: true
-last_modified_at: 2014-07-26T22:24:00-04:00
+last_modified_at: 2014-07-26T22:24:00
+redirect_from: "/diy-ambilight-without-pc/"
+
+gallery_red_green:
+  - url: "/assets/images/diy-ambilight-without-pc-red-image.jpg"
+    image_path: "/assets/images/diy-ambilight-without-pc-red-image.jpg"
+    alt: "Red image"
+    title: "Red image"
+  - url: "/assets/images/diy-ambilight-without-pc-green-image.jpg"
+    image_path: "/assets/images/diy-ambilight-without-pc-green-image.jpg"
+    alt: "Green image"
+    title: "Green image"
+gallery_blue_black:
+  - url: "/assets/images/diy-ambilight-without-pc-blue-image.jpg"
+    image_path: "/assets/images/diy-ambilight-without-pc-blue-image.jpg"
+    alt: "Blue image"
+    title: "Blue image"
+  - url: "/assets/images/diy-ambilight-without-pc-black-image.jpg"
+    image_path: "/assets/images/diy-ambilight-without-pc-black-image.jpg"
+    alt: "Black image"
+    title: "Black image"
 ---
 Ever wished you had Philips Ambilight for your tv or monitor? Well, make it yourself and save a buck or two! This post uses the ambi-tv system to create an Ambilight clone.
 

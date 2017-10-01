@@ -18,6 +18,7 @@
   "devDependencies": {
     "autoprefixer": "^6.2.3",
     "browser-sync": "^2.11.0",
+    "check-pages": "^0.10.0",
     "concurrent-transform": "^1.0.0",
     "critical": "^0.7.3",
     "del": "^2.2.0",
@@ -56,5 +57,7 @@
     "through2": "^2.0.1",
     "yargs": "^4.7.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-html-validator": "0.0.5"
+  }
 }
