@@ -8,6 +8,15 @@
     </li>
   {% endif %}
 
+  {% if site.author.facebook %}
+    <li>
+      <a href="{{ site.author.facebook }}" rel="me">
+        <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-facebook' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
+        <span class="label">Facebook</span>
+      </a>
+    </li>
+  {% endif %}
+
   {% if site.author.twitter %}
     <li>
       <a href="{{ site.author.twitter }}" rel="me">
