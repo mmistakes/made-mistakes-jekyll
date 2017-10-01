@@ -35,7 +35,7 @@ gallery_blue_black:
 Ever wished you had Philips Ambilight for your tv or monitor? Well, make it yourself and save a buck or two! This post uses the ambi-tv system to create an Ambilight clone.
 
 {% include figure 
-  image_path="assets/images/diy-ambilight-without-pc-effect.jpg" 
+  image_path="/assets/images/diy-ambilight-without-pc-effect.jpg" 
   caption="Example of my DIY Ambilight setup" 
 %}
 
