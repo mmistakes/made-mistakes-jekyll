@@ -67,8 +67,6 @@ layout: null
           {{ post_gallery | strip | xml_escape }}
         {% endif %}
 
-        {{ post.content | strip | xml_escape }}
-
         {% capture post_footer %}<a href="{{ post.url | absolute_url }}" rel="nofollow">{{ post.title }}</a> was originally published on {{ site.title }}.{% endcapture %}
         {{ post_footer | markdownify | xml_escape }}
       </content>
