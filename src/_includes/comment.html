@@ -28,7 +28,7 @@
   <div class="comment-content">
     {{ include.message | markdownify }}
   </div>
-  {% unless include.depth >= 5 or page.comments_locked == true %}
+  {% unless include.depth >= (site.comments.max_depth | plus:0) or page.comments_locked == true %}
     <div class="comment-reply">
       <a rel="nofollow" href="#comment-{{ include.postId }}" onclick="return addComment.moveForm('comment-{{ include.postId }}', '{{ include.postId }}', 'respond', '{{ page.slug }}')"><svg class="icon icon--reply" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-reply' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Reply to {{ include.name }}</a>
     </div>
