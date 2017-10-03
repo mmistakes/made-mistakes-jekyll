@@ -8,6 +8,9 @@
         </header>
         {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
         {% for comment in comments %}
+          
+          {% assign postId 	= comment._id %}
+
           {% assign index       = forloop.index %}
           {% assign r           = comment.replying_to %}
           {% assign replying_to = r | to_integer %}
@@ -17,7 +20,7 @@
           {% assign url         = comment.url %}
           {% assign date        = comment.date %}
           {% assign message     = comment.message %}
-          {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
+          {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message postId=postId %}
         {% endfor %}
       </div>
       <!-- End static comments -->

@@ -30,14 +30,16 @@
   </div>
   {% unless include.replying_to != 0 or page.comments_locked == true %}
     <div class="comment-reply">
-      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"><svg class="icon icon--reply" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-reply' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Reply to {{ include.name }}</a>
+      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.postId }}', 'respond', '{{ page.slug }}')"><svg class="icon icon--reply" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-reply' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Reply to {{ include.name }}</a>
     </div>
   {% endunless %}
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
+{% capture parentPostId %}{{ include.postId }}{% endcapture %}
+{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == parentPostId' %}
 {% for reply in replies %}
+  {% assign postId      = reply._id %}
   {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
   {% assign r           = reply.replying_to %}
   {% assign replying_to = r | to_integer %}
@@ -47,5 +49,5 @@
   {% assign url         = reply.url %}
   {% assign date        = reply.date %}
   {% assign message     = reply.message %}
-  {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
+  {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message postId=postId %}
 {% endfor %}
