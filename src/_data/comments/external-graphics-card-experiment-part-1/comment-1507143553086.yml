@@ -1,0 +1,9 @@
+_id: 62cd7fcf-9d68-4ca4-87cf-f4c73ce8c6c9
+_parent: /projects/external-graphics-card-experiment-part-1/
+message: ""Hi, \nI love the work you've done on your blog. I too have a T430s with TB and I am planning on getting a AkiTio setup (currently run it with a PE4L). Your comments on dual GPU SLI taking advantage of the two lanes are interesting and I think I might want to test that out. However, I have heard that TB1 reserves the second lane only for display out data via display port and cannot be used for PCIe data. I was wondering if you knew anything about it and how I would go about testing whether this is true.\n\nCheers,\n\nKenny""
+name: Kenny
+email: a2431fe7b40ff123799b393054640ffa
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-04-14T16:42:00.000Z'
