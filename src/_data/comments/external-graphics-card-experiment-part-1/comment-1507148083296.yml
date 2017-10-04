@@ -1,0 +1,9 @@
+_id: cfee3c6c-1ab1-4032-b4b8-39abf3d163fa
+_parent: /projects/external-graphics-card-experiment-part-1/
+message: "There should be no performance difference in theory since the T430s is a Thunderbolt 1 device and can only take advantage of 10Gbps of the 20Gbps total bandwidth per device. So with the T430s you will always only get 10Gbps with Thunderbolt 1 and 2 per device. If you already have a Thunderbolt 1 eGPU setup I would not upgrade until your laptop supports Thunderbolt 2 or soon Thunderbolt 3. Notice if you use two graphics cards in SLI, then you should get the same performance as a pure Thunderbolt 2 setup since you can now use the full bandwidth in Thunderbolt 1 since it is spread across two devices! I have not tested this myself, but it is on my todo list if I can get my hands on another GTX 970."
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: 'f4892552-d802-476b-8412-42303c939150'
+hidden: ''
+date: '2015-06-05T09:15:59.000Z'

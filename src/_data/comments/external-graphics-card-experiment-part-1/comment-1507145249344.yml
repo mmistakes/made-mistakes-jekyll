@@ -1,0 +1,9 @@
+_id: 3654391a-8e82-4284-8042-0ed9575065db
+_parent: /projects/external-graphics-card-experiment-part-1/
+message: "I still have my Lenovo t430s and I am using it with my AKiTiO setup, see my post [here](/projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/) for the setup and [here](/projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/) for my custom exoskeleton case for the whole thing. \r\n\r\nCurrently I would recommend the AKiTiO Thunder 2 since it gives you double the bandwidth since you will run at Thunderbolt 1 speeds and the whole setup half the price compared to the PE4L solution. You will loose the ability to delay the PCI card detection, but since upgrading to Windows 8.1 running as UEFI I have had no need for this, both in Optimus mode and using an external monitor. And if you use a powered riser as I have you don't even need AKiTiOs power supply to power the whole thing, just your ATX PSU\r\n\r\nIf you want to take full advantage of the Thunderbolt 2 speeds even though you only have Thunderbolt 1, you might want to take a look into buying two AKiTiO boxes and running CrossFire / SLI. Since Thunderbolt 1 and Thunderbolt 2 have the same total bandwidth, the only difference is that Thunderbolt 2 lets you use the whole bandwidth for a single device. With two graphics cards you should get the same total bandwidth as a single card running at Thunderbolt 2 speeds. I have not done this yet so research it a bit more before going down this road :)\r\n\r\nAnd one last thing, I would recommend to buy an eGPU friendly graphics cards, e.g. NVIDIA cards from EVGA. They are internally powered and it make it easier to work with in my experience"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://plus.google.com/+PoulSerek
+replying_to: 'db09bd0f-7c9f-4540-912b-294365365403'
+hidden: ''
+date: '2015-03-23T21:52:06.000Z'

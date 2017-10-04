@@ -1,0 +1,9 @@
+_id: 8ab8c962-ee8e-4bba-a5f6-faf2beaf1bf1
+_parent: /projects/external-graphics-card-experiment-part-1/
+message: "As far as I can see on the net the card itself should draw around 200 watts of power, so a good 300 watts PSU should be enough, you might want to consider er 400 watt PSU if you are going to overclock the card. The PSU should also have 2 PCI express 6 pin connecters (or use an adapter for this), but confirm this since it might very from card to card"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://plus.google.com/+PoulSerek
+replying_to: 'db09bd0f-7c9f-4540-912b-294365365403'
+hidden: ''
+date: '2015-03-25T09:51:42.000Z'

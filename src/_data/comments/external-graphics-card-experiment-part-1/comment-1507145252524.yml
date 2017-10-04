@@ -1,0 +1,9 @@
+_id: 9e383ea7-110b-47ac-8253-c76a203d72cd
+_parent: /projects/external-graphics-card-experiment-part-1/
+message: "Hi Kenny\r\n\r\nAccording to [this](http://www.tested.com/tech/457440-theoretical-vs-actual-bandwidth-pci-express-and-thunderbolt/) post you can use both lanes for PCIe, but a single device can only access one lane at a time. So it should be possible, but I would recommend searching the net a bit more to confirm. Ask around at techinferno.com, they seem to have done much research in eGPUs. Here is a link to a post doing SLI over thunderbolt 2: [https://www.techinferno.com/index.php?/forums/topic/5751-2013-13-mbp-gtx780ti-sli16gbps-tb2-sonnet-ee-sel-win81-squinks/](https://www.techinferno.com/index.php?/forums/topic/5751-2013-13-mbp-gtx780ti-sli16gbps-tb2-sonnet-ee-sel-win81-squinks/). \r\n\r\nI don't know how to test this, but I would try the following: \r\n\r\nYou would need to have two thunderbolt devices where at least one should be able to max the bandwidth of a single channel. One way would be to have a GPU and a harddisk attached using the same thunderbolt 1 link. While running a benchmark on the GPU that saturates half the thunderbolt 1 bandwidth, try transferring a large file using the harddisk. If the hardest is using the same channel as the GPU and the GPU is saturating half the bandwidth you should see a drop in frame rates. If you do not see this drop then it should be using the second channel."
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: ''
+replying_to: '7c927ffa-4c69-4181-a27e-265a9461c0d5'
+hidden: ''
+date: '2015-04-18T14:37:44.000Z'
