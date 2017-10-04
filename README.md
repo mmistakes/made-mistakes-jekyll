@@ -245,7 +245,7 @@ Submit sitemap XML file to Google and Bing.
 ### `gulp check`
 
 Builds site with production settings then tests HTML for broken links with 
-[html-proofer][html-proofer].
+[html-proofer][htmlproofer].
 
 ### `gulp clean`
 
