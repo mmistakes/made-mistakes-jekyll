@@ -1,17 +1,18 @@
 ---
-title: "Cryptocurrency mining: Bitcoin, Litecoin and more"
-excerpt: "My adventures in cryptocurrency mining - and yes you can make a small profit!"
+title: 'Cryptocurrency mining: Bitcoin, Litecoin and more'
+excerpt: My adventures in cryptocurrency mining - and yes you can make a small profit!
 image:
-  path: &image "/assets/images/-feature.png"
-  feature: *image
-  thumbnail: "/assets/images/-feature-th.png"
-  teaser: *image
-tags: [Cryptocurrency]
+  path: /assets/images/-feature.png
+  feature: /assets/images/-feature.png
+  thumbnail: /assets/images/-feature-th.png
+  teaser: /assets/images/-feature.png
+tags:
+  - Cryptocurrency
 comments: true
 comments_locked: false
 published: true
-last_modified_at: 2014-01-12T19:00:00
-redirect_from: "/cryptocurrency-mining-bitcoin-litecoin-and-more/"
+last_modified_at: {}
+redirect_from: /cryptocurrency-mining-bitcoin-litecoin-and-more/
 ---
 You might have heard about digital currency called Bitcoin in the news. The value from a single Bitcoin has grown from a few dollars to 1200 USD and recently back to 1000 USD, a highly volatile currency.
 
@@ -65,19 +66,20 @@ Total ~ 1850 USD</p>
 <p>The total power used by this system measured from the wall socket is 975 watt.</p>
 <h2>Software setup<&#47;h2><br />
 I run windows 8.1 since it was easier for me to tweak my graphics cards, else Linux would be a better choice in my opinion. To tweak the graphics cards I use a program called Trixx to set each card with the following settings:</p>
-<ul>
-<li>GPU clock: 1050<&#47;li>
-<li>Memory clock: 1475<&#47;li>
-<li>VDDC: 1.087<&#47;li>
-<li>Fan: Manual at 100%<&#47;li><br />
-<&#47;ul><br />
+
+* GPU clock: 1050
+* Memory clock: 1475
+* VDDC: 1.087
+* Fan: Manual at 100%
+
 I use CGMiner v3.7.2 which is the last version to support GPU mining, the config file can be found <a href="https:&#47;&#47;www.dropbox.com&#47;s&#47;ljdr57325v3n4br&#47;cgminer.conf" target="_blank">here<&#47;a>.</p>
-<p>Since I did not have time to setup my router with VPN, I did a quick and dirty way of remote controlling the setup, introducing Dropbox remote management! Here is what I did:</p>
-<ul>
-<li>I setup windows to execute the bat file AutoRun.bat every minute<&#47;li>
-<li>AutoRun.bat simply calls CGMinerAutoStart.bat and renames itself to AutoRunExecuted.bat to prevent further executing by the windows timer job<&#47;li>
-<li>CGMinerAutoStart.bat kills any running instances of CGMiner.exe, deletes the generated binary files from CGMiner and sets some global settings. It then calls cgminer.bat which starts the mining process again<&#47;li><br />
-<&#47;ul><br />
+Since I did not have time to setup my router with VPN, I did a quick and dirty way of remote controlling the setup, introducing Dropbox remote management! Here is what I did:
+
+
+* I setup windows to execute the bat file `AutoRun.bat` every minute
+* `AutoRun.bat` simply calls `CGMinerAutoStart.bat` and renames itself to `AutoRunExecuted.bat` to prevent further executing by the windows timer job
+* C`GMinerAutoStart.bat` kills any running instances of CGMiner.exe, deletes the generated binary files from CGMiner and sets some global settings. It then calls `cgminer.bat` which starts the mining process again
+
 By editing the CGMiner config file I can change setting and mining pools easy. By logging to a directory in my dropbox folder I can see the output from CGMiner to confirm it is running correctly. To restart CGMiner after changes has been made I just rename AutoRunExecuted.bat to AutoRun.bat and wait.<br />
 All the mentioned bat files can be downloaded <a href="https:&#47;&#47;www.dropbox.com&#47;s&#47;d2qgvu6muvg43en&#47;CGMiner_batfiles.zip" target="_blank">here<&#47;a>.</p>
 <p>One quirk I have noticed is that when rebooting the machine, the three graphic cards that are not connected to my monitor, stay in a low power state so performance is very low. I need to manually plug the DVI cable into each card and wait for a signal for the to "wake up". I have tried using dummy VGA to DVI plugs, but it did not help. Any suggestions is appreciated.</p>
@@ -263,9 +265,8 @@ In addition to the above $402 in profit I have hardware leftover for $577.</p>
 <h2><b>Conclusion<&#47;b><&#47;h2><br />
 I am happy with my setup, i have currently generated enough money to pay for the experiment if i sell the setup for half price, got free heating during Danish winter and have quenched my curiosity of cryptocurrency.</p>
 <p>My recommendation to others is:</p>
-<ul>
-<li>Never invest more than you are willing to lose. Cryptocurrency is volatile and could be worthless any second<&#47;li>
-<li>While mining cryptocurrency is fun to try, you might not make enough money to pay for the equipment. If you already own the hardware try it, but if not consider starting out taking advantage of the volatile market.<&#47;li>
-<li>Take backups and do not keep too much money in a single wallet<&#47;li>
-<li>If you have a girlfriend, wife or roommate, consider that the noise might be disturbing<&#47;li><br />
-<&#47;ul></p>
+
+* Never invest more than you are willing to lose. Cryptocurrency is volatile and could be worthless any second
+* While mining cryptocurrency is fun to try, you might not make enough money to pay for the equipment. If you already own the hardware try it, but if not consider starting out taking advantage of the volatile market.
+* Take backups and do not keep too much money in a single wallet
+* If you have a girlfriend, wife or roommate, consider that the noise might be disturbing
