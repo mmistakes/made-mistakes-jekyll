@@ -14,21 +14,25 @@ last_modified_at: 2014-01-12T19:00:00
 redirect_from: "/cryptocurrency-mining-bitcoin-litecoin-and-more/"
 ---
 You might have heard about digital currency called Bitcoin in the news. The value from a single Bitcoin has grown from a few dollars to 1200 USD and recently back to 1000 USD, a highly volatile currency.
-<p>[caption id="" align="aligncenter" width="640"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitstamp-BTC_USD-BitcoinWisdom.png"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitstamp-BTC_USD-BitcoinWisdom.png" alt="" width="640" height="376" border="0" &#47;><&#47;a> Bitcoin value in USD over time - from BitcoinWisdom.com[&#47;caption]</p>
-<p>It is open source, distributed, decentralized and uses cryptographic principles for securing the setup. For more information about this, please see:</p>
-<p><a href="http:&#47;&#47;bitcoin.org&#47;en&#47;">http:&#47;&#47;bitcoin.org&#47;en&#47;<&#47;a><br />
-<a href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Cryptocurrency">http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Cryptocurrency<&#47;a><br />
-<a href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Litecoin" target="_blank">http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Litecoin&nbsp;<&#47;a></p>
-<p>[caption id="" align="aligncenter" width="200"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitcoin_logo.png"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitcoin_logo.png" alt="" width="200" height="41" border="0" &#47;><&#47;a> Bitcoin logo[&#47;caption]</p>
-<p>Some highlights of Bitcoin usage that has caught the public:</p>
-<ul>
-<li><a href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Silk_Road_%28marketplace%29" target="_blank">Silk Road<&#47;a> -&nbsp; The Amazon of illegal drugs<&#47;li>
-<li><a href="http:&#47;&#47;www.forbes.com&#47;sites&#47;andygreenberg&#47;2013&#47;11&#47;18&#47;meet-the-assassination-market-creator-whos-crowdfunding-murder-with-bitcoins&#47;" target="_blank">Assassination Market<&#47;a> - A website that crowdfunds murder<&#47;li>
-<li><a href="https:&#47;&#47;bitcoinatm.com&#47;" target="_blank">Bitcoin ATM<&#47;a> - Deposit or withdraw Bitcoins<&#47;li>
-<li><a href="http:&#47;&#47;app.bitlaundry.com&#47;" target="_blank">Bitcoin laundery<&#47;a> - Send money anonymously<&#47;li>
-<li><a href="http:&#47;&#47;www.cnbc.com&#47;id&#47;100597242" target="_blank">Cyprus crisis<&#47;a><&#47;li>
-<li>Chinese government crackdown on Bitcoin<&#47;li><br />
-<&#47;ul><br />
+
+href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitstamp-BTC_USD-BitcoinWisdom.png"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitstamp-BTC_USD-BitcoinWisdom.png" alt="" width="640" height="376" border="0" &#47;><&#47;a> Bitcoin value in USD over time - from BitcoinWisdom.com
+
+It is open source, distributed, decentralized and uses cryptographic principles for securing the setup. For more information about this, please see:  
+
+[http://bitcoin.org/en/](http://bitcoin.org/en/)  
+[http://en.wikipedia.org/wiki/Cryptocurrency](http://en.wikipedia.org/wiki/Cryptocurrency)  
+[http://en.wikipedia.org/wiki/Litecoin](http://en.wikipedia.org/wiki/Litecoin)  
+
+[caption id="" align="aligncenter" width="200"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitcoin_logo.png"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;01&#47;Bitcoin_logo.png" alt="" width="200" height="41" border="0" &#47;><&#47;a> Bitcoin logo[&#47;caption]
+Some highlights of Bitcoin usage that has caught the public:
+
+* [Silk Road](http://en.wikipedia.org/wiki/Silk_Road_%28marketplace%29) - The Amazon of illegal drugs
+* [Assassination Market](http://www.forbes.com/sites/andygreenberg/2013/11/18/meet-the-assassination-market-creator-whos-crowdfunding-murder-with-bitcoins/) - A website that crowdfunds murder
+* [Bitcoin ATM](https://bitcoinatm.com/) - Deposit or withdraw Bitcoins
+* [Bitcoin laundery](http://app.bitlaundry.com/) - Send money anonymously
+* [Cyprus crisis](http://www.cnbc.com/id/100597242)
+* Chinese government crackdown on Bitcoin
+
 To get started using Bitcoins one can download a Bitcoin wallet, like <a href="https:&#47;&#47;multibit.org&#47;" target="_blank">MultiBit <&#47;a>or use an online wallet service like blockchain.info. Keep your wallet secure and keep backups, there are no central bank to help you if you get hacked, hard disk breaks down or you forget your password. A Bitcoin address looks like this (my donation address):</p>
 <blockquote><p>&nbsp;1PJ6gqqDt7ge2KhDbixHXGN8fkgtrJpGd1<&#47;blockquote><br />
 Which nobody can remember, with smartphone technology you can use you camera to scan QR codes representing the address and additional information. For this you can use the blockchain.info iPhone or android app.</p>
