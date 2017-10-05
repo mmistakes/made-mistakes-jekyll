@@ -6,7 +6,9 @@ image:
   feature: *image
   thumbnail: "/assets/images/diy-ambilight-without-pc-effect-feature-th.jpg"
   teaser: *image
-tags: [OpenBeam, Ambilight]
+tags: 
+  - OpenBeam
+  - Ambilight
 comments: true
 comments_locked: false
 published: true

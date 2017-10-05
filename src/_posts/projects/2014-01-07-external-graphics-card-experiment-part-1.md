@@ -6,7 +6,8 @@ image:
   feature: *image
   thumbnail: "/assets/images/external-graphics-card-experiment-part-1-eGPU-setup-overview-feature-th.png"
   teaser: *image
-tags: [eGPU]
+tags:
+  - eGPU
 comments: true
 comments_locked: false
 published: true
