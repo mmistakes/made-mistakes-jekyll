@@ -1,6 +1,6 @@
 ---
-title: 'Cryptocurrency mining: Bitcoin, Litecoin and more'
-excerpt: My adventures in cryptocurrency mining - and yes you can make a small profit!
+title: "Cryptocurrency mining: Bitcoin, Litecoin and more"
+excerpt: "My adventures in cryptocurrency mining - and yes you can make a small profit!"
 image:
   path: /assets/images/-feature.png
   feature: /assets/images/-feature.png
@@ -11,7 +11,7 @@ tags:
 comments: true
 comments_locked: false
 published: true
-last_modified_at: {}
+last_modified_at: "2014-01-12T19:00:00"
 redirect_from: /cryptocurrency-mining-bitcoin-litecoin-and-more/
 ---
 You might have heard about digital currency called Bitcoin in the news. The value from a single Bitcoin has grown from a few dollars to 1200 USD and recently back to 1000 USD, a highly volatile currency.
