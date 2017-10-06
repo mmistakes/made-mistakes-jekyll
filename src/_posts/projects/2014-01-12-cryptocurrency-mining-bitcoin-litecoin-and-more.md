@@ -128,7 +128,7 @@ Each card runs at 600 kilohashes per second, a total of 2.4 megahashes per secon
 %}
 
 ## Noise and heating
-Four graphics cards running full speed generates some noise and heat. With the door closed to the room containing the setup, the noise is minimal, standing in the same room however and the noise is quite loud.<b> <&#47;b>I have relatively low temperatures on the graphic cards, around 60 degrees Celsius, so I could tweak the cooling to lower the noise, but have not found the time. The small room gets very warm fast with the door closed, so I use this trick to get the best of both worlds
+Four graphics cards running full speed generates some noise and heat. With the door closed to the room containing the setup, the noise is minimal, standing in the same room however and the noise is quite loud. I have relatively low temperatures on the graphic cards, around 60 degrees Celsius, so I could tweak the cooling to lower the noise, but have not found the time. The small room gets very warm fast with the door closed, so I use this trick to get the best of both worlds
 
 {% include figure
   image_path="/assets/images/cryptocurrency-mining-heating-solution.jpg"
