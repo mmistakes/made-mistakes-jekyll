@@ -77,13 +77,13 @@ I have become one of these miners for a cryptocurrency called Litecoin and simil
 For Litecoin mining I have bought four AMD Radeon graphic cards since these are most effective in mining Litecoins and other scrypt based cryptocurrency compared to Nvidia cards (see [https://litecoin.info/Mining_hardware_comparison](https://litecoin.info/Mining_hardware_comparison), performance is measured in kilohashes per second). Why not mine Bitcoin directly? This is because bitcoin using a different algorithm, SHA256, which now requires specialised hardware, ASIC (Application-specific integrated circuit), to have a chance to make any money.
 {% include affiliate-disclosure.html %}
 
-* 4x <a href="https:&#47;&#47;www.amazon.com&#47;s&#47;ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=Radeon+7950&amp;tag=oddoneout0a-20" rel="nofollow">Club3D Radeon 7950<&#47;a> graphic cards ~ 1190 USD
-* <a href="https:&#47;&#47;www.amazon.com&#47;s&#47;ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=Corsair+AX1200&amp;tag=oddoneout0a-20" rel="nofollow">Corsair AX1200<&#47;a> 1200 watt powersupply ~ 330 USD
+* 4x [Club3D Radeon 7950](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Radeon+7950&tag=oddoneout0a-20){:rel="nofollow"} graphic cards ~ 1190 USD
+* [Corsair AX1200](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Corsair+AX1200&tag=oddoneout0a-20){:rel="nofollow"} 1200 watt powersupply ~ 330 USD
 * 4GB DDR3 memory ~ 60 USD
 * Intel Celeron G470 CPU ~ 52 USD
 * 4x Powered PCI-E 1x &ndash; 16x Riser Cable with Molex ~ 35 USD
-* <a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B007QWIA9S&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B007QWIA9S">MSI Z77A-G45<&#47;a> motherboard ~ 125 USD
-* <a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM">2x 200mm case fans<&#47;a> ~ 55 USD
+* [MSI Z77A-G45](https://www.amazon.com/dp/B007QWIA9S/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B007QWIA9S"} motherboard ~ 125 USD
+* [2x 200mm case fans](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM"} ~ 55 USD
 * 1x 8 mm case fan ~ 10 USD
 * Old SSD harddisk
 
@@ -173,21 +173,21 @@ When I want to sell my coins for real money, like USD or EURO I transfer my Bitc
 ## Economy
 I have made the following with my setup running 39 days and my initiation investment of 275 USD into Bitcoins. This is actual uptime my setup has had, the three days downtime I had I subtracted, since no power was used (it rained into my wall socket on the balcony, turned off all power!):
 
-|Expenses			| Price	|
+|Expenses			                  |Price	|
 |-------------------------------|-------|
-|Hardware setup			|$1.850	|
-|Bitcoin investment		|$275	|
-|Wireless internet		|$14	|
-|Powerbill (975 watt)		|$399	|
-|**Total**			|$2.537	|
+|Hardware setup			            |$1.850	|
+|Bitcoin investment		          |$275	  |
+|Wireless internet		          |$14	  |
+|Powerbill (975 watt)		        |$399	  |
+|**Total**			                |$2.537	|
 
-|Income				| Price	|
+|Income				                  |Price	|
 |-------------------------------|-------|
-|Return on Bitcoin investment	|$640	|
-|Cryptocurrency sold		|$256	|
-|Cryptocurrency held in wallets |$634	|
-|Sale of spare parts leftover	|$73	|
-|**Total**			|$1.604 |
+|Return on Bitcoin investment	  |$640	  |
+|Cryptocurrency sold		        |$256	  |
+|Cryptocurrency held in wallets |$634	  |
+|Sale of spare parts leftover	  |$73	  |
+|**Total**			                |$1.604 |
 
 **Profit:** <font color="red">-$934</font>
 
@@ -198,22 +198,22 @@ Now as the good citizen I am I have contacted the Danish tax authority about pay
 
 I let the setup run for a total of 80 days before I shut it down, here are the updated results:
 
-|Expenses			|Price	|
+|Expenses			                  |Price	|
 |-------------------------------|-------|
-|Hardware setup			|$1.850 |
-|Bitcoin investment		|$275   |
-|Wireless internet		|$31    |
-|Powerbill (975 watt)		|$764   |
-|**Total**			|$2.920 |
+|Hardware setup			            |$1.850 |
+|Bitcoin investment		          |$275   |
+|Wireless internet		          |$31    |
+|Powerbill (975 watt)		        |$764   |
+|**Total**			                |$2.920 |
 
-|Income				|Price  |
+|Income				                  |Price  |
 |-------------------------------|-------|
-|Return on Bitcoin investment	|$640   |
-|Cryptocurrency sold		|$1.491	|
-|Cryptocurrency held in wallets	|$8	|
-|Sale of spare parts leftover	|$75	|
-|Sale of 4 GPU			|$1.109	|
-|**Total**			|$3.323	|
+|Return on Bitcoin investment	  |$640   |
+|Cryptocurrency sold		        |$1.491	|
+|Cryptocurrency held in wallets	|$8	    |
+|Sale of spare parts leftover	  |$75	  |
+|Sale of 4 GPU			            |$1.109	|
+|**Total**			                |$3.323	|
 
 **Profit:** $402
 
