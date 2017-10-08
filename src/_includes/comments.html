@@ -7,8 +7,9 @@
           <h3>{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments</h3>
         </header>
         {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
-        {% for comment in comments %}
-          
+        {% assign comments = comments | sort:"date" %}
+
+        {% for comment in comments %}          
           {% assign postId 	= comment._id %}
           {% assign depth	= 1 | to_integer %}
           {% assign avatar      = comment.avatar %}
