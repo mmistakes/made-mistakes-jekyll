@@ -1,6 +1,6 @@
 _id: 734ff620-d812-45ac-97b2-642785ef431c
 _parent: /projects/egpu-osx-maverick-nvidia-gtx-760-using-pe4l/
-message: "Hey, so I have a similar setup running.\r\n\r\nMid 2015 mBPr with AMD\r\n\r\nGTX Titan\r\nPowered Riser Setup\r\nAtiko Thunderbolt to PCIe\r\nGTX Titan\r\n\r\nIt runs flawlessly in OSX for working.\r\nHowever windows, when playing games it tends to crash every half hour or so.\r\nWin 8.1 pro\r\nHave you had better luck?"
+message: "Hey, so I have a similar setup running.\r\n\r\n* Mid 2015 mBPr with AMD\r\n* GTX Titan\r\n* Powered Riser Setup\r\n* Atiko Thunderbolt to PCIe\r\n\r\nIt runs flawlessly in OSX for working.\r\nHowever windows, when playing games it tends to crash every half hour or so.\r\nWin 8.1 pro\r\nHave you had better luck?"
 name: Skyler Truax
 email: 9ac7e7627db47d612df478cd261e56d6
 url: ''
