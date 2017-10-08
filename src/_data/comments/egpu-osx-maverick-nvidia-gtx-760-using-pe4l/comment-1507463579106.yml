@@ -1,0 +1,9 @@
+_id: 293c8844-b464-4139-9242-eb35326305d1
+_parent: /projects/egpu-osx-maverick-nvidia-gtx-760-using-pe4l/
+message: ""Hi Skyler\n\nI have had no problems with my setup, but it might be related to the power supply. Have you tried to stress test the graphics card in OSX using something like [http://www.geeks3d.com/gputest](http://www.geeks3d.com/gputest)? The reason it works in OSX might be because it is not running at maximum load for longer periods. \n\n&#47;Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: '734ff620-d812-45ac-97b2-642785ef431c'
+hidden: ''
+date: '2015-11-18T16:49:32.000Z'
