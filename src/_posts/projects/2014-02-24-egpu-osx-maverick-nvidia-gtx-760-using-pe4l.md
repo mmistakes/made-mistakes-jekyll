@@ -92,75 +92,75 @@ If you have a Thunderbolt enabled device I now recommend the [AKiTiO Thunder2](h
     <dict>
       <key>CFBundleIdentifier</key>
       <string>com.apple.iokit.IONDRVSupport</string>
-<key>IOClass<&#47;key><br />
-<string>IONDRVFramebuffer<&#47;string><br />
-<key>IOMatchCategory<&#47;key><br />
-<string>IOFramebuffer<&#47;string><br />
-<key>IONameMatch<&#47;key><br />
-<string>display<&#47;string><br />
-<key>IOProbeScore<&#47;key><br />
-<integer>20000<&#47;integer><br />
-<key>IOProviderClass<&#47;key><br />
-<string>IOPCIDevice<&#47;string><br />
-<span style="background-color: lime;"><key>IOPCITunnelCompatible<&#47;key><&#47;span><br />
+      <key>IOClass</key>
+      <string>IONDRVFramebuffer</string>
+      <key>IOMatchCategory</key>
+      <string>IOFramebuffer</string>
+      <key>IONameMatch</key>
+      <string>display</string>
+      <key>IOProbeScore</key>
+      <integer>20000</integer>
+      <key>IOProviderClass</key>
+      <string>IOPCIDevice</string>
+<span style="background-color: lime;"><key>IOPCITunnelCompatible</key><&#47;span><br />
 <span style="background-color: lime;"><br />
-<true&#47;><&#47;span><br />
+<true/><&#47;span><br />
 <&#47;dict><br />
-<key>2<&#47;key><br />
+<key>2</key>
 <span style="background-color: yellow;"><dict><&#47;span><br />
-<span style="background-color: yellow;"><key>CFBundleIdentifier<&#47;key><&#47;span><br />
-<string>com.apple.iokit.IONDRVSupport<&#47;string><br />
-<key>IOClass<&#47;key><br />
-<string>IONDRVFramebuffer<&#47;string><br />
-<key>IOMatchCategory<&#47;key><br />
-<string>IOFramebuffer<&#47;string><br />
-<key>IONameMatch<&#47;key><br />
-<string>display<&#47;string><br />
-<key>IOProbeScore<&#47;key><br />
-<integer>20000<&#47;integer><br />
-<key>IOProviderClass<&#47;key><br />
-<string>IOPlatformDevice<&#47;string><br />
-<span style="background-color: lime;"><key>IOPCITunnelCompatible<&#47;key><&#47;span><br />
+<span style="background-color: yellow;"><key>CFBundleIdentifier</key><&#47;span><br />
+<string>com.apple.iokit.IONDRVSupport</string>
+<key>IOClass</key>
+<string>IONDRVFramebuffer</string>
+<key>IOMatchCategory</key>
+<string>IOFramebuffer</string>
+<key>IONameMatch</key>
+<string>display</string>
+<key>IOProbeScore</key>
+<integer>20000</integer>
+<key>IOProviderClass</key>
+<string>IOPlatformDevice</string>
+<span style="background-color: lime;"><key>IOPCITunnelCompatible</key><&#47;span><br />
 <span style="background-color: lime;"><br />
-<true&#47;><&#47;span><br />
+<true/><&#47;span><br />
 <&#47;dict><br />
-<key>3<&#47;key><br />
+<key>3</key>
 <span style="background-color: yellow;"><dict><&#47;span><br />
-<span style="background-color: yellow;"><key>CFBundleIdentifier<&#47;key><&#47;span><br />
-<string>com.apple.iokit.IONDRVSupport<&#47;string><br />
-<key>IOClass<&#47;key><br />
-<string>IONDRVFramebuffer<&#47;string><br />
-<key>IOMatchCategory<&#47;key><br />
-<string>IOFramebuffer<&#47;string><br />
-<key>IOPCIClassMatch<&#47;key><br />
-<string>0x03000000&amp;amp;0xff000000<&#47;string><br />
-<key>IOProbeScore<&#47;key><br />
-<integer>0<&#47;integer><br />
-<key>IOProviderClass<&#47;key><br />
-<string>IOPCIDevice<&#47;string><br />
-<span style="background-color: lime;"><key>IOPCITunnelCompatible<&#47;key><&#47;span><br />
+<span style="background-color: yellow;"><key>CFBundleIdentifier</key><&#47;span><br />
+<string>com.apple.iokit.IONDRVSupport</string>
+<key>IOClass</key>
+<string>IONDRVFramebuffer</string>
+<key>IOMatchCategory</key>
+<string>IOFramebuffer</string>
+<key>IOPCIClassMatch</key>
+<string>0x03000000&amp;amp;0xff000000</string>
+<key>IOProbeScore</key>
+<integer>0</integer>
+<key>IOProviderClass</key>
+<string>IOPCIDevice</string>
+<span style="background-color: lime;"><key>IOPCITunnelCompatible</key><&#47;span><br />
 <span style="background-color: lime;"><br />
-<true&#47;><&#47;span><&#47;dict><br />
+<true/><&#47;span><&#47;dict><br />
 <&#47;dict><br />
-<key>OSBundleCompatibleVersion<&#47;key><br />
-<string>1.0.0b1<&#47;string><br />
-<key>OSBundleLibraries<&#47;key><br />
+<key>OSBundleCompatibleVersion</key>
+<string>1.0.0b1</string>
+<key>OSBundleLibraries</key>
 <dict><br />
-<key>com.apple.iokit.IOGraphicsFamily<&#47;key><br />
-<string>1.1<&#47;string><br />
-<key>com.apple.iokit.IOPCIFamily<&#47;key><br />
-<string>1.1<&#47;string><br />
-<key>com.apple.kpi.iokit<&#47;key><br />
-<string>8.0.0<&#47;string><br />
-<key>com.apple.kpi.libkern<&#47;key><br />
-<string>8.0.0<&#47;string><br />
-<key>com.apple.kpi.mach<&#47;key><br />
-<string>8.0.0<&#47;string><br />
-<key>com.apple.kpi.unsupported<&#47;key><br />
-<string>8.0.0<&#47;string><br />
+<key>com.apple.iokit.IOGraphicsFamily</key>
+<string>1.1</string>
+<key>com.apple.iokit.IOPCIFamily</key>
+<string>1.1</string>
+<key>com.apple.kpi.iokit</key>
+<string>8.0.0</string>
+<key>com.apple.kpi.libkern</key>
+<string>8.0.0</string>
+<key>com.apple.kpi.mach</key>
+<string>8.0.0</string>
+<key>com.apple.kpi.unsupported</key>
+<string>8.0.0</string>
 <&#47;dict><br />
-<key>OSBundleRequired<&#47;key><br />
-<string>Safe Boot<&#47;string><br />
+<key>OSBundleRequired</key>
+<string>Safe Boot</string>
 <&#47;dict><br />
 <&#47;plist>
    {% endhighlight %}
