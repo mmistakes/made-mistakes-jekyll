@@ -13,15 +13,13 @@ share: false
 
 A dad with no free time, but in those rare instances when the planets align and I need to satisfy my curiosity, I blog my findings here.
 
-## Contact
+The name "Odd One Out" was derived from and old testcase at work where we looked for deviations in production data - the odd data that stod out from the rest. The same can be said about my curiosity - I find something that stands out and geek out!
 
-<div markdown="0" class="btn--group">
-  <a href="/contact/" class="btn">
-    <svg class="icon icon--comments" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-comments' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Send a message
-  </a>
-</div>
+## Contact
+Catch me on twitter or facebook
 
 ### How to support Odd One Out
+Take a look at my [support](/support) to support me
 
 ### Honorable mentions
 
