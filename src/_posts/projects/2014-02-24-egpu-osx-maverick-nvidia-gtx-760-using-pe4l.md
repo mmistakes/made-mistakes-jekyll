@@ -1,5 +1,5 @@
 ---
-title: "eGPU: rMBP with OS X 10.9 (Maverick) and NVIDIA GTX 760 using PE4L with Sonnet adapter"
+title: "eGPU with OS X 10.9, NVIDA GPU, PE4L & TB adapter"
 excerpt: "Getting en external eGPU working with OS X 10.9 using the PE4L with Sonnet adapter"
 image:
   path: &image "/assets/images/template-feature.jpg"
@@ -23,19 +23,19 @@ If you have a Thunderbolt enabled device I now recommend the [AKiTiO Thunder2](h
 
 ## Setup
 
-1. Should already be installed, else use recovery to reinstall
-2. Boot into OS X
-3. Open the terminal
-4. Edit the following `Info.plist` files using the "sudo nano {path/filename}" command
+* Should already be installed, else use recovery to reinstall
+* Boot into OS X
+* Open the terminal
+* Edit the following `Info.plist` files using the "sudo nano {path/filename}" command
     1. `/System/Library/Extensions/NVDAStartup.kext/Contents/Info.plist`
     2. `/System/Library/Extensions/IONDRVSupport.kext/Info.plist`
     3. `/System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAController.kext/Contents/Info.plist`
-5. In each of the above files find each section starting with
+* In each of the above files find each section starting with
 
    ```xml
    <key>CFBundleIdentifier</key>
-   ```  
-     
+   ```
+
    and add
 
    ```xml
@@ -43,9 +43,9 @@ If you have a Thunderbolt enabled device I now recommend the [AKiTiO Thunder2](h
    <true/>
    ```
 
-   just before the corresponding closing `</dict>` of the section. Example of the modified `/IONDRVSupport.kext/Info.plist` is shown here, starting sections highlighted with yellow and added sections highlighted with green.
+   just before the corresponding closing `</dict>` of the section. Example of the modified `/IONDRVSupport.kext/Info.plist` is shown here. The `CFBundleIdentifier` section can be seen on line 45, 62 and 79 and their corresponding `IOPCITunnelCompatible` entries at 57-58, 74-75 and 91-92.
 
-   {% highlight xml linenos %}
+{% highlight xml linenos %}
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -102,122 +102,94 @@ If you have a Thunderbolt enabled device I now recommend the [AKiTiO Thunder2](h
       <integer>20000</integer>
       <key>IOProviderClass</key>
       <string>IOPCIDevice</string>
-<span style="background-color: lime;"><key>IOPCITunnelCompatible</key><&#47;span><br />
-<span style="background-color: lime;"><br />
-<true/><&#47;span><br />
-<&#47;dict><br />
-<key>2</key>
-<span style="background-color: yellow;"><dict><&#47;span><br />
-<span style="background-color: yellow;"><key>CFBundleIdentifier</key><&#47;span><br />
-<string>com.apple.iokit.IONDRVSupport</string>
-<key>IOClass</key>
-<string>IONDRVFramebuffer</string>
-<key>IOMatchCategory</key>
-<string>IOFramebuffer</string>
-<key>IONameMatch</key>
-<string>display</string>
-<key>IOProbeScore</key>
-<integer>20000</integer>
-<key>IOProviderClass</key>
-<string>IOPlatformDevice</string>
-<span style="background-color: lime;"><key>IOPCITunnelCompatible</key><&#47;span><br />
-<span style="background-color: lime;"><br />
-<true/><&#47;span><br />
-<&#47;dict><br />
-<key>3</key>
-<span style="background-color: yellow;"><dict><&#47;span><br />
-<span style="background-color: yellow;"><key>CFBundleIdentifier</key><&#47;span><br />
-<string>com.apple.iokit.IONDRVSupport</string>
-<key>IOClass</key>
-<string>IONDRVFramebuffer</string>
-<key>IOMatchCategory</key>
-<string>IOFramebuffer</string>
-<key>IOPCIClassMatch</key>
-<string>0x03000000&amp;amp;0xff000000</string>
-<key>IOProbeScore</key>
-<integer>0</integer>
-<key>IOProviderClass</key>
-<string>IOPCIDevice</string>
-<span style="background-color: lime;"><key>IOPCITunnelCompatible</key><&#47;span><br />
-<span style="background-color: lime;"><br />
-<true/><&#47;span><&#47;dict><br />
-<&#47;dict><br />
-<key>OSBundleCompatibleVersion</key>
-<string>1.0.0b1</string>
-<key>OSBundleLibraries</key>
-<dict><br />
-<key>com.apple.iokit.IOGraphicsFamily</key>
-<string>1.1</string>
-<key>com.apple.iokit.IOPCIFamily</key>
-<string>1.1</string>
-<key>com.apple.kpi.iokit</key>
-<string>8.0.0</string>
-<key>com.apple.kpi.libkern</key>
-<string>8.0.0</string>
-<key>com.apple.kpi.mach</key>
-<string>8.0.0</string>
-<key>com.apple.kpi.unsupported</key>
-<string>8.0.0</string>
-<&#47;dict><br />
-<key>OSBundleRequired</key>
-<string>Safe Boot</string>
-<&#47;dict><br />
-<&#47;plist>
-   {% endhighlight %}
-6. Type "sudo touch /System/Library/Extensions
-<li>Wait a few minutes until the extension cache is rebuild. You can check the activity monitor the kext cache rebuild process, sort after CPU usage<&#47;li>
-<li>Shutdown the laptop<&#47;li>
-<li>Plug in eGPU setup with SW1 set to 1 and SW2 set to 2-3<&#47;li>
-<li>Connect the eGPU to an external monitor and make sure the monitor is on<&#47;li>
-<li>Boot into OS X<&#47;li>
-<li>My GPU is already supported by OS X (NVIDIA GTX 760) so no driver installation needed<&#47;li>
-<li>Change from mirroring the display to extending the desktop<&#47;li>
-<li>You should now have a working setup, the internal screen is functional as is the external, but only the external screen is accelerated<&#47;li><br />
-<&#47;ul></p>
-<h2>Performance<&#47;h2><br />
-I use&nbsp;Geeks3D GpuTest with everything standard settings except resolution which is set to 1440x900 windowed mode.</p>
-<table border="1">
-<tbody>
-<tr>
-<th><&#47;th></p>
-<th>FurMark<&#47;th></p>
-<th>TessMark (X8&#47;X8)<&#47;th></p>
-<th>GiMark<&#47;th><br />
-<&#47;tr></p>
-<tr>
-<td>Internal screen (Intel HD 5100)<&#47;td></p>
-<td>698<br />
-(11 FPS)<&#47;td></p>
-<td>6863<br />
-(114 FPS)<&#47;td></p>
-<td>1420<br />
-(23 FPS)<&#47;td><br />
-<&#47;tr></p>
-<tr>
-<td>External monitor (NVIDIA GTX 760)<&#47;td></p>
-<td>5313<br />
-(88 FPS)<&#47;td></p>
-<td>74793<br />
-(1247 FPS)<&#47;td></p>
-<td>6734<br />
-(112 FPS)<&#47;td><br />
-<&#47;tr></p>
-<tr>
-<td>Improvement in percent<&#47;td></p>
-<td>761%<&#47;td></p>
-<td>1089%<&#47;td></p>
-<td>474%<&#47;td><br />
-<&#47;tr><br />
-<&#47;tbody><br />
-<&#47;table></p>
-<h2>Limitations<&#47;h2></p>
-<ol>
-<li>The internal screen is not accelerated, only the external monitor. Using Optimus this should be possible, worked fine on my Lenovo T430s using Windows, I need to investigate this further.<&#47;li>
-<li>Only unplug the thunderbolt cable when the computer is off, else a kernel panic will occur<&#47;li>
-<li>Need to power the GPU and laptop off before plugging the eGPU in and the monitor must be connected to the eGPU and powered on<&#47;li><br />
-<&#47;ol></p>
-<h2>References<&#47;h2></p>
-<ul>
-<li>Enable GPU through thunderbolt by editing kext files taken from this <a href="http:&#47;&#47;www.journaldulapin.com&#47;2013&#47;08&#47;24&#47;a-thunderbolt-gpu-on-a-mac-how-to&#47;" target="_blank">post<&#47;a><&#47;li>
-<li>Geeks3D GpuTest download <a href="http:&#47;&#47;www.geeks3d.com&#47;gputest&#47;" target="_blank">here<&#47;a><&#47;li><br />
-<&#47;ul></p>
+      <key>IOPCITunnelCompatible</key>
+      <true/>
+    </dict>
+    <key>2</key>
+    <dict>
+      <key>CFBundleIdentifier</key>
+      <string>com.apple.iokit.IONDRVSupport</string>
+      <key>IOClass</key>
+      <string>IONDRVFramebuffer</string>
+      <key>IOMatchCategory</key>
+      <string>IOFramebuffer</string>
+      <key>IONameMatch</key>
+      <string>display</string>
+      <key>IOProbeScore</key>
+      <integer>20000</integer>
+      <key>IOProviderClass</key>
+      <string>IOPlatformDevice</string>
+      <key>IOPCITunnelCompatible</key>
+      <true/>
+      </dict>
+    <key>3</key>
+    <dict>
+      <key>CFBundleIdentifier</key>
+      <string>com.apple.iokit.IONDRVSupport</string>
+      <key>IOClass</key>
+      <string>IONDRVFramebuffer</string>
+      <key>IOMatchCategory</key>
+      <string>IOFramebuffer</string>
+      <key>IOPCIClassMatch</key>
+      <string>0x03000000&amp;0xff000000</string>
+      <key>IOProbeScore</key>
+      <integer>0</integer>
+      <key>IOProviderClass</key>
+      <string>IOPCIDevice</string>
+      <key>IOPCITunnelCompatible</key>
+      <true/>
+    </dict>
+  </dict>
+  <key>OSBundleCompatibleVersion</key>
+  <string>1.0.0b1</string>
+  <key>OSBundleLibraries</key>
+  <dict>
+    <key>com.apple.iokit.IOGraphicsFamily</key>
+    <string>1.1</string>
+    <key>com.apple.iokit.IOPCIFamily</key>
+    <string>1.1</string>
+    <key>com.apple.kpi.iokit</key>
+    <string>8.0.0</string>
+    <key>com.apple.kpi.libkern</key>
+    <string>8.0.0</string>
+    <key>com.apple.kpi.mach</key>
+    <string>8.0.0</string>
+    <key>com.apple.kpi.unsupported</key>
+    <string>8.0.0</string>
+  </dict>
+  <key>OSBundleRequired</key>
+  <string>Safe Boot</string>
+</dict>
+</plist>{% endhighlight %}
+
+* Type "sudo touch /System/Library/Extensions"
+* Wait a few minutes until the extension cache is rebuild. You can check the activity monitor the kext cache rebuild process, sort after CPU usage
+* Shutdown the laptop
+* Plug in eGPU setup with SW1 set to 1 and SW2 set to 2-3
+* Connect the eGPU to an external monitor and make sure the monitor is on
+* Boot into OS X
+* My GPU is already supported by OS X (NVIDIA GTX 760) so no driver installation needed
+* Change from mirroring the display to extending the desktop
+* You should now have a working setup, the internal screen is functional as is the external, but only the external screen is accelerated
+
+## Performance
+I use Geeks3D GpuTest with everything standard settings except resolution which is set to 1440x900 windowed mode.
+
+| |FurMark|TessMark (X8/X8)|GiMark|
+|---|---:|---:|---:|
+|Internal screen (Intel HD 5100) - score|698|6863|1420|
+|Internal screen (Intel HD 5100) - fps|11|114|23|
+|External monitor (NVIDIA GTX 760) - score|5313|74793|6734|
+|External monitor (NVIDIA GTX 760) - fps|88|1247|112|
+|**Improvement**|**761%**|**1089%**|**474%**|
+
+## Limitations
+
+1. The internal screen is not accelerated, only the external monitor. Using Optimus this should be possible, worked fine on my Lenovo T430s using Windows, I need to investigate this further.
+2. Only unplug the thunderbolt cable when the computer is off, else a kernel panic will occur.
+3. Need to power the GPU and laptop off before plugging the eGPU in and the monitor must be connected to the eGPU and powered on
+
+## References
+
+* Enable GPU through thunderbolt by editing kext files taken from this [post](http://www.journaldulapin.com/2013/08/24/a-thunderbolt-gpu-on-a-mac-how-to/)
+* [Geeks3D GpuTest](http://www.geeks3d.com/gputest/)
