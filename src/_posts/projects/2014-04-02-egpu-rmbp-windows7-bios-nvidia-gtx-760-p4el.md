@@ -11,7 +11,7 @@ tags:
   - tag 2
 comments: true
 comments_locked: false
-published: false
+published: true
 last_modified_at: 2014-07-26T22:24:00-04:00
 redirect_from: "/old/url/to/post/"
 ---
