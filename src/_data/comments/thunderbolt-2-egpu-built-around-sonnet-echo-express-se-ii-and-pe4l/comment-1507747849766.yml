@@ -1,0 +1,9 @@
+_id: 5bc6e702-a3e1-4ed5-80e0-631602140b45
+_parent: /projects/thunderbolt-2-egpu-built-around-sonnet-echo-express-se-ii-and-pe4l/
+message: "Hi Nichita\r\n\r\nShould work, the Lenovo W540 does have a Thunderbolt port. At least someone already tried to connect an external GPU to a W540 [here](https://www.techinferno.com/index.php?/forums/topic/5805-15-lenovo-w540-r9_290xgtx780ti10gbps4gbps-sonnet-ee-se2pe4l-21b-gothic860/), but he had some issues with the AKiTiO Thunder 2.\r\n\r\n/Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: 'bf81bcb0-1adb-41fe-bf12-91864aa15eaa'
+hidden: ''
+date: '2017-02-06T14:57:35.000Z'

@@ -36,52 +36,57 @@ I recently upgraded to a new eGPU setup which is faster than the one I describe 
 ### Parts
 
 * [Sonnet Echo Express SE II](https://www.amazon.com/dp/B00FMJPWFW/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00FMJPWFW"} thunderbolt enclosure
-<li><a href="http:&#47;&#47;www.delock.de&#47;produkte&#47;G_89359&#47;merkmale.html?setLanguage=en" target="_blank">Delock PCI Express card, 2x external USB 3.0 and 2x internal SATA III<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00G3J6GDM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00G3J6GDM">OpenBeam Precut Kit Black Anodised<&#47;a><&#47;li>
-<li>Additional OpenBeams parts<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B008Q7HUR0&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B008Q7HUR0[de][uk][es][it][fr][ca]B008O0ZKMQ">Corsair AX1200 PSU<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00HSTC496&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00HSTC496">33 feet Corning optical thunderbolt cable<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00NIQPA30&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B00NIQPA30">CallDigit thunderbolt dock<&#47;a><&#47;li>
-<li>PCI-E riser (x4 to x8), modified to enable pci delay<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca] B000V6FKGM">2x 200mm Antec Bigboy fans<&#47;a><&#47;li>
-<li>0,5m thunderbolt cable<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00H707RP2&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00H707RP2">Gigabyte GeForce GTX 760 2GB (GV-N760OC-2GD (REV. 2.0))<&#47;a><&#47;li>
-<li>2,5mm DC barrel plugs and cables<&#47;li>
-<li>300GB Solid State Drive<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B005TWE5E6&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B005TWE5E6[de]B0071IHQBK">picoPSU-80 12V<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;www.hwtools.net&#47;Adapter&#47;PE4L%20V2.1.html">PE4L<&#47;a> (Parts from my old eGPU <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;external-graphics-card-experiment-part-1">setup<&#47;a>)<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B0080MQJJ6&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B0080MQJJ6">Sonnet Echo Express Adapter Pro<&#47;a> (Parts from my old eGPU <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;external-graphics-card-experiment-part-1">setup<&#47;a>)<&#47;li>
-<li><a href="http:&#47;&#47;www.velleman.eu&#47;products&#47;view&#47;?id=408364">Velleman remote control switch set<&#47;a><&#47;li><br />
-<&#47;ul></p>
-<h4>The case<&#47;h4><br />
-[caption id="" align="aligncenter" width="400"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.24.17.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.24.17.jpg" alt="" width="400" height="300" border="0" &#47;><&#47;a> Right &#47; back side[&#47;caption]</p>
-<ol>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM">200mm GPU fan<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM">200mm laptop fan<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00H707RP2&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00H707RP2">GPU<&#47;a><&#47;li>
-<li>Room for a secondary GPU (SLI or PhysX dedicated card)<&#47;li>
-<li>2x USB 3.0 ports<&#47;li>
-<li>Optical thunderbolt cable plugged into the laptop<&#47;li>
-<li>Thunderbolt cable connected to the PE4L<&#47;li>
-<li>Power to the <a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00FMJPWFW&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00FMJPWFW">Sonnet Echo Express SE II<&#47;a> that powers the laptop fan and supplies power to the SATA &#47; USB add in card and hard disk.<&#47;li>
-<li>Power to the GPU via the ATX PSU<&#47;li><br />
-<&#47;ol><br />
+* [Delock PCI Express card, 2x external USB 3.0 and 2x internal SATA III](http://www.delock.de/produkte/G_89359/merkmale.html?setLanguage=en)
+* [OpenBeam Precut Kit Black Anodised](https://www.amazon.com/dp/B00G3J6GDM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00G3J6GDM"}
+* Additional OpenBeams parts
+* [Corsair AX1200 PSU](https://www.amazon.com/dp/B008Q7HUR0/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B008Q7HUR0[de][uk][es][it][fr][ca]B008O0ZKMQ"}
+* [33 feet Corning optical thunderbolt cable](https://www.amazon.com/dp/B00HSTC496/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00HSTC496"}
+* [CallDigit thunderbolt dock](https://www.amazon.com/dp/B00NIQPA30/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B00NIQPA30"}
+* PCI-E riser (x4 to x8), modified to enable pci delay
+* [2x 200mm Antec Bigboy fans](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca] B000V6FKGM"}
+* 0,5m thunderbolt cable
+* [Gigabyte GeForce GTX 760 2GB (GV-N760OC-2GD (REV. 2.0))](https://www.amazon.com/dp/B00H707RP2/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00H707RP2"}
+* 2,5mm DC barrel plugs and cables
+* 300GB Solid State Drive
+* [picoPSU-80 12V](https://www.amazon.com/dp/B005TWE5E6/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B005TWE5E6[de]B0071IHQBK"}
+* [PE4L](http://www.hwtools.net/Adapter/PE4L%20V2.1.html) (Parts from my old eGPU [setup](/project/external-graphics-card-experiment-part-1))
+* [Sonnet Echo Express Adapter Pro](https://www.amazon.com/dp/B0080MQJJ6/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B0080MQJJ6"} (Parts from my old eGPU [setup](/projects/external-graphics-card-experiment-part-1))
+* [Velleman remote control switch set](http://www.velleman.eu/products/view/?id=408364)
+
+### The case
 {% include figure
-  image_path="/assets/images/diy-ambilight-without-pc-effect.jpg"
-  caption="Example of my DIY Ambilight setup"
+  image_path="/assets/images/thunderbolt-2-egpu-built-around-sonnet-echo-express-se-ii-and-pe4l-right-back-1024.jpg"
+  caption="Right / back side"
 %}
-[caption id="" align="aligncenter" width="400"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.23.54.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.23.54.jpg" alt="" width="400" height="300" border="0" &#47;><&#47;a> Top[&#47;caption]</p>
-<ol>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00H707RP2&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00H707RP2">GPU<&#47;a><&#47;li>
-<li>Small rubber pads to keep my laptop scratch free when placing it on top of the setup<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM">200mm laptop fan<&#47;a><&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM">200mm GPU fan<&#47;a><&#47;li>
-<li>Power to the GPU via the ATX PSU<&#47;li>
-<li>Power to the <a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00FMJPWFW&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00FMJPWFW">Sonnet Echo Express SE II<&#47;a> and a <a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B005TWE5E6&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de]B0071IHQBK[us]B005TWE5E6">picoPSU-80<&#47;a> that powers the laptop fan and supplies power to the SATA &#47; USB add in card and hard disk.<&#47;li><br />
-<&#47;ol><br />
-[caption id="" align="aligncenter" width="400"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.24.28.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.24.28.jpg" alt="" width="400" height="300" border="0" &#47;><&#47;a> Front[&#47;caption]</p>
-<ol>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00FMJPWFW&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00FMJPWFW">Sonnet Echo Express SE II<&#47;a><&#47;li>
+
+1. [200mm GPU fan](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM"}
+2. [200mm laptop fan](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM"}
+3. [GPU](https://www.amazon.com/dp/B00H707RP2/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00H707RP2"}
+4. Room for a secondary GPU (SLI or PhysX dedicated card)
+5. 2x USB 3.0 ports
+6. Optical thunderbolt cable plugged into the laptop
+7. Thunderbolt cable connected to the PE4L
+8. Power to the [Sonnet Echo Express SE II](https://www.amazon.com/dp/B00FMJPWFW/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00FMJPWFW"} that powers the laptop fan and supplies power to the SATA / USB add in card and hard disk.
+9. Power to the GPU via the ATX PSU
+
+{% include figure
+  image_path="/assets/images/thunderbolt-2-egpu-built-around-sonnet-echo-express-se-ii-and-pe4l-top-1024.jpg"
+  caption="Top"
+%}
+
+1. [GPU](https://www.amazon.com/dp/B00H707RP2/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00H707RP2"}
+2. Small rubber pads to keep my laptop scratch free when placing it on top of the setup
+3. [200mm laptop fan](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM"}
+4. [200mm GPU fan](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM"}
+5. Power to the GPU via the ATX PSU
+6. Power to the [Sonnet Echo Express SE II](https://www.amazon.com/dp/B00FMJPWFW/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00FMJPWFW"} and a [picoPSU-80](https://www.amazon.com/dp/B005TWE5E6/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de]B0071IHQBK[us]B005TWE5E6"} that powers the laptop fan and supplies power to the SATA / USB add in card and hard disk.
+
+{% include figure
+  image_path="/assets/images/thunderbolt-2-egpu-built-around-sonnet-echo-express-se-ii-and-pe4l-front-1024.jpg"
+  caption="Front"
+%}
+
+1. [Sonnet Echo Express SE II](https://www.amazon.com/dp/B00FMJPWFW/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B00FMJPWFW"}
 <li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B005TWE5E6&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de]B0071IHQBK[us]B005TWE5E6">picoPSU-80<&#47;a><&#47;li>
 <li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B008Q7HUR0&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B008Q7HUR0[es][it][fr][ca][de][uk]B008O0ZKMQ">ATX PSU<&#47;a><&#47;li>
 <li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B0080MQJJ6&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B0080MQJJ6">Sonnet Echo Express Adapter Pro<&#47;a> (Used for the PE4L, not plugged in the picture)<&#47;li>
@@ -102,33 +107,38 @@ I recently upgraded to a new eGPU setup which is faster than the one I describe 
 <h4>The modified pci-e riser<&#47;h4><br />
 I will not go into detail how I modified the PCI-E riser, but you can do the same following this <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;2594-mac-mini-gtx660-echo-express-w7-black-screen&#47;">post<&#47;a>. It basically cuts the 3 and 12 volt powerlines from the PCI-E slot and gets power directly from the PSU. It is only needed if you want to get the internal screen (Optimus) working under Windows 7. Windows 8 is plug and play, but only working to my knowledge on an external monitor.</p>
 <p>[caption id="" align="aligncenter" width="300"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.23.03.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.23.03.jpg" alt="" width="300" height="400" border="0" &#47;><&#47;a> The modified PCI-E riser cable is visible in the middle of the picture[&#47;caption]</p>
-<h4>The 2,5mm DC barrel plug<&#47;h4><br />
-I used a few of these to route the power from the Sonnet PSU to a picoPSU-80 which powers the fan under the laptop and supplies extra power to the SATA &#47; USB add in card. I could have used the ATX PSU to power the whole thing, but since I plan to remotely power on and off the GPU only using a Belkin WeMo, then it was easier just to have separate PSU's</p>
+
+#### The 2,5mm DC barrel plug
+I used a few of these to route the power from the Sonnet PSU to a picoPSU-80 which powers the fan under the laptop and supplies extra power to the SATA / USB add in card. I could have used the ATX PSU to power the whole thing, but since I plan to remotely power on and off the GPU only using a Belkin WeMo, then it was easier just to have separate PSU's
 <p>[caption id="" align="aligncenter" width="300"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.22.52.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-15-18.22.52.jpg" alt="" width="300" height="400" border="0" &#47;><&#47;a> The power from the power brick is split between the Sonnet Echo Express SE II and the picoPSU-80 12V[&#47;caption]</p>
-<h4>The remote control<&#47;h4><br />
-From my previous posts it is written that you need to power cycle the GPU when rebooting the laptop. With the 10 meter cable that can be a pain to time it correctly. The solution is simple, a small remote control to control the wall socket I use for the ATX PSU which powers the GPU.</p>
+
+#### The remote control
+From my previous posts it is written that you need to power cycle the GPU when rebooting the laptop. With the 10 meter cable that can be a pain to time it correctly. The solution is simple, a small remote control to control the wall socket I use for the ATX PSU which powers the GPU.
 <p>[caption id="" align="aligncenter" width="400"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-17-17.56.23.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;2014-05-17-17.56.23.jpg" alt="" width="400" height="300" border="0" &#47;><&#47;a> Simple way to power cycle the GPU remotely[&#47;caption]</p>
-<h3>Software<&#47;h3><br />
-With my previous setup i used a different and much more complex approach to install the software:</p>
-<ul>
-<li>Lenovo T430s (thunderbolt 1), see my previous post <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;external-graphics-card-experiment-part-1">here<&#47;a>.<&#47;li>
-<li>Macbook Pro Retina late 2013 (thunderbolt 2). See my previous posts about this <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;egpu-rmbp-windows7-bios-nvidia-gtx-70-p4el" target="_blank">here <&#47;a>and <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;egpu-osx-maverick-nvidia-gtx-70-using-pe4l" target="_blank">here<&#47;a><&#47;li><br />
-<&#47;ul><br />
-When installing games to play that I know i will only play using the eGPU setup (3D intensive), I install them to the SSD connected to the eGPU setup to save space on my laptop drive.</p>
-<p><b>UPDATE 22-06-2014<&#47;b><br />
-<i>Getting Optimus to work was quite easy once i found these two posts,&nbsp;<a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;5389-2013-15-mbp-iris-gtx76016gbps-tb2-sonnet-ee-se-ii-win-81-relentless&#47;">here<&#47;a>&nbsp;and&nbsp;<a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;5420-updated-2013-13-or-15-macbook-pro-thunderbolt-2-egpu-plug-and-play-optimus&#47;">here<&#47;a>.&nbsp;I used the&nbsp;<a href="http:&#47;&#47;www.microsoftstore.com&#47;store&#47;msusa&#47;html&#47;pbPage.Help_Win7_usbdvd_dwnTool">Windows 7 USB&#47;DVD download tool<&#47;a>&nbsp;to create a bootable USB stick with Windows 8.1N, plugged it in and booted to the OS selection menu holding down the ALT key. I choose Windows USB and installed it to my previous bootcamp partition. I then followed the steps below taken from the above posts every time I want to get Optimus working. Install bootcamp and NVIDIA drivers when booting the first time. If the external GPU does not show up in device manager, make sure you make a&nbsp;<a href="http:&#47;&#47;www.thewindowsclub.com&#47;force-full-shutdown-fully-reinitialize-windows-8">full shutdown<&#47;a>&nbsp;from Windows 8.1N and then try again.<&#47;i></p>
-<blockquote><p>So I have worked out a repeatable process for getting my Optimus setup to work:<br />
-1. Turn off Macbook.<br />
-2. Power off Sonnet (I actually pull the power out of the unit). This seems to reset the state of the Sonnet to clean.<br />
-3. Turn off power supply to GPU.<br />
-4. Power on Sonnet and plug in Thunderbolt cable.<br />
-5. Turn on laptop holding ALT&#47;Option to allow OS selection.<br />
-6. When MacBook startup chime happens (a couple of seconds after power on) turn on GPU power supply.<br />
-7. Choose Windows from the OS selection menu.</p>
-<p>This works 3&#47;3 times. I think the key learning is to make sure you turn off&#47;unplug the Sonnet so any memory&#47;state is lost from their board.<br />
-Of course, if you want to use an external screen then just turn off the MacBook and make sure the Sonnet and the GPU are powered and it will just work.<&#47;blockquote><br />
-The above steps have worked&nbsp;every time for the past few days. Notice that I don't even need to use my bootcamp partition, i can install Windows 8.1N to my SSD connected to the eGPU setup to free even more space on the laptop.</p>
-<p><b>UPDATE 23-08-2014<&#47;b><br />
+
+### Software
+With my previous setup I used a different and much more complex approach to install the software:
+
+* Lenovo T430s (thunderbolt 1), see my previous post [here](/projects/external-graphics-card-experiment-part-1)
+* Macbook Pro Retina late 2013 (thunderbolt 2). See my previous posts about this [here](/projects/egpu-rmbp-windows7-bios-nvidia-gtx-70-p4el) and [here](/project/egpu-osx-maverick-nvidia-gtx-70-using-pe4l)
+
+When installing games to play that I know I will only play using the eGPU setup (3D intensive), I install them to the SSD connected to the eGPU setup to save space on my laptop drive.
+**UPDATE 22-06-2014**
+Getting Optimus to work was quite easy once I found these two posts, [here](https://www.techinferno.com/index.php?/forums/topic/5389-2013-15-mbp-iris-gtx76016gbps-tb2-sonnet-ee-se-ii-win-81-relentless/) and [here](https://www.techinferno.com/index.php?/forums/topic/5420-updated-2013-13-or-15-macbook-pro-thunderbolt-2-egpu-plug-and-play-optimus/). I used the [Windows 7 USB/DVD download tool](http://www.microsoftstore.com/store/msusa/html/pbPage.Help_Win7_usbdvd_dwnTool) to create a bootable USB stick with Windows 8.1N, plugged it in and booted to the OS selection menu holding down the ALT key. I choose Windows USB and installed it to my previous bootcamp partition. I then followed the steps below taken from the above posts every time I want to get Optimus working. Install bootcamp and NVIDIA drivers when booting the first time. If the external GPU does not show up in device manager, make sure you make a [full shutdown](http://www.thewindowsclub.com/force-full-shutdown-fully-reinitialize-windows-8) from Windows 8.1N and then try again.
+> So I have worked out a repeatable process for getting my Optimus setup to work:
+> 1. Turn off Macbook.
+> 2. Power off Sonnet (I actually pull the power out of the unit). This seems to reset the state of the Sonnet to clean.
+> 3. Turn off power supply to GPU.
+> 4. Power on Sonnet and plug in Thunderbolt cable.
+> 5. Turn on laptop holding ALT&#47;Option to allow OS selection.
+> 6. When MacBook startup chime happens (a couple of seconds after power on) turn on GPU power supply.
+> 7. Choose Windows from the OS selection menu.
+>
+> This works 3/3 times. I think the key learning is to make sure you turn off/unplug the Sonnet so any memory/state is lost from their board.
+> Of course, if you want to use an external screen then just turn off the MacBook and make sure the Sonnet and the GPU are powered and it will just work.
+
+The above steps have worked every time for the past few days. Notice that I don't even need to use my bootcamp partition, I can install Windows 8.1N to my SSD connected to the eGPU setup to free even more space on the laptop.
+**UPDATE 23-08-2014**
 <i>After doing a reinstall I could not get both the SATA &#47; USB card to work alongside the eGPU. If I pulled out the SATA &#47; USB card and followed the above steps everything worked fine, with the SATA &#47; USB card i got an error 12. To solve this problem i did a DSDT override using this <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;5874-guide-dsdt-override-to-fix-error-12&#47;#comment-91134">guide<&#47;a>, remember to enable test signing. When compiling the file you might get some errors, for my macbook pro 13 retina (late 2013 model) I got the error "syntax error, unexpected PARSEOP NOTIFY, expecting ',' or ')'". To solve this I changed the line with the error from<&#47;i></p>
 <blockquote><p>If (LEqual (PARM, One))<br />
 {<br />
