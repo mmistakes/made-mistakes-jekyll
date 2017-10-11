@@ -1,11 +1,6 @@
 ---
 title: "eGPU with OS X 10.9, NVIDA GPU, PE4L & TB adapter"
 excerpt: "Getting en external eGPU working with OS X 10.9 using the PE4L with Sonnet adapter"
-image:
-  path: &image "/assets/images/template-feature.jpg"
-  feature: *image
-  thumbnail: "/assets/images/template-th.jpg"
-  teaser: "/assets/images/template-feature.jpg"
 tags:
   - eGPU
 comments: true
@@ -121,7 +116,7 @@ If you have a Thunderbolt enabled device I now recommend the [AKiTiO Thunder2](h
       <string>IOPlatformDevice</string>
       <key>IOPCITunnelCompatible</key>
       <true/>
-      </dict>
+    </dict>
     <key>3</key>
     <dict>
       <key>CFBundleIdentifier</key>
