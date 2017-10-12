@@ -27,7 +27,6 @@ This post describes how to get the card working in Windows 7 (BIOS / Bootcamp in
 
 {% include figure
   image_path="/assets/images/egpu-rmbp-windows7-bios-nvidia-gtx-760-p4el-DIY_Setup_Install_Screen.png"
-  class="half"
 %}
 
 {:start="8"}
@@ -42,7 +41,6 @@ This post describes how to get the card working in Windows 7 (BIOS / Bootcamp in
 
 {% include figure
   image_path="/assets/images/egpu-rmbp-windows7-bios-nvidia-gtx-760-p4el-DIY_Windows_boot_menu.jpg"
-  class="half"
 %}
 
 {:start="16"}
@@ -50,7 +48,6 @@ This post describes how to get the card working in Windows 7 (BIOS / Bootcamp in
 
 {% include figure
   image_path="/assets/images/egpu-rmbp-windows7-bios-nvidia-gtx-760-p4el-DIY_Menu.jpg"
-  class="half"
 %}
 
 {:start="17"}
@@ -58,7 +55,6 @@ This post describes how to get the card working in Windows 7 (BIOS / Bootcamp in
 
 {% include figure
   image_path="/assets/images/egpu-rmbp-windows7-bios-nvidia-gtx-760-p4el-DIY_detect_GPU.jpg"
-  class="half"
 %}
 
 {:start="18"}
@@ -66,7 +62,6 @@ This post describes how to get the card working in Windows 7 (BIOS / Bootcamp in
 
 {% include figure
   image_path="/assets/images/egpu-rmbp-windows7-bios-nvidia-gtx-760-p4el-DIY_Windows_boot_menu_2.jpg"
-  class="half"
 %}
 
 {:start="19"}
