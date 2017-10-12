@@ -260,10 +260,15 @@ Using higher resolutions makes the difference between internal and external moni
 
 ### 3DMark
 
-| |Fire strike extreme (2560x1440)|Fire strike (1080p)|Sky diver|Cloud gate|Ice storm (720p)|Ice storm extreme (1080p)|
-|---|---:|---:|---:|---:|---:|---:|
-|HD5100|400|921|4077|5750|46045|36209|
-|GTX 760 (internal)|2492|4209|8660|7975|30124|21411|
+| |Fire strike extreme)|Fire strike|Sky diver|
+|---|---:|---:|---:|
+|HD5100|400|921|4077|
+|GTX 760 (internal)|2492|4209|8660|
+
+| |Cloud gate|Ice storm extreme|Ice storm|
+|---|---:|---:|---:|
+|HD5100|5750|36209|46045|
+|GTX 760 (internal)|7975|21411|30124|
 
 Notice that the level entry test "Ice storm" is faster using the internal GPU, this is most likely a bandwidth issue. Where the setup really shines is the heavier benchmarks like Fire strike.
 
