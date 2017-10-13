@@ -26,6 +26,13 @@ gulp.task('copy:icons', () => {
     .pipe(gulp.dest(paths.imageFilesSite))
 });
 
+// 'gulp copy:files' -- copies files assets to /dist/
+gulp.task('copy:files', () => {
+  return gulp.src(paths.filesFiles + '/**/*')
+    .pipe(newer(paths.filesFilesSite))
+    .pipe(gulp.dest(paths.filesFilesSite))
+});
+
 // 'gulp copy:manifest' -- copies image json to /dist/
 gulp.task('copy:manifest', () => {
   return gulp.src(paths.imageFiles + '/*.json')

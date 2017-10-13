@@ -149,6 +149,19 @@ defaults:
       breadcrumbs:
         - label: "Reviews"
           url: /reviews/
+  # Odds & ends
+  - scope:
+      path: _posts/misc
+      type: posts
+    values:
+      layout: post
+      category: misc
+      read_time: true
+      comments: true
+      support: true
+      breadcrumbs:
+        - label: "Odds & ends"
+          url: /misc/
   # Pages
   - scope:
       path: _pages

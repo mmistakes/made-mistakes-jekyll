@@ -36,6 +36,7 @@
 </article>
 
 {% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == include.postId' %}
+{% assign replies = replies | sort:"date" %}
 {% for reply in replies %}
   {% assign postId      = reply._id %}
   {% assign depth 	= include.depth | plus: 1 %}

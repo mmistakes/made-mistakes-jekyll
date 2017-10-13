@@ -20,7 +20,7 @@ I always wanted to have a small light portable computer on the go and when I get
 
 * Laptop with thunderbolt port (Lenovo T430s)
 * Graphics card ([GIGABYTE Nvidia GTX 760](https://www.amazon.com/dp/B00DGM8B6O/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk]B00H707RP2[us][es][it][fr][ca]B00DGM8B6O"}) ~ 275 USD
-* PCI-E 1x to ExpressCard adapter [PE4L-EC060](https://www.amazon.com/dp/B00GWM5ZLO/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B00GWM5ZLO"}) ~ 70 USD + 22 USD postal fees
+* PCI-E 1x to ExpressCard adapter [PE4L-EC060](https://www.amazon.com/dp/B00GWM5ZLO/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][es][it][fr]uk[ca][uk][uk]B00GWM5ZLO""}) ~ 70 USD + 22 USD postal fees
 * [Sonnet Echo Express Thunderbolt Adapter Pro](https://www.amazon.com/dp/B0080MQJJ6/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B0080MQJJ6"} ~ 120 USD
 * Thunderbolt cable ~ 55 USD
 * ATX power supply ~ 73 USD

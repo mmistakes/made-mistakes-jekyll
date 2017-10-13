@@ -1,6 +1,6 @@
 _id: f7ef2c69-e371-406d-b0c7-cd677bf30d26
 _parent: /projects/egpu-osx-maverick-nvidia-gtx-760-using-pe4l/
-message: "'I don''t have this setup anymore, but is should work according to this site: [http://www.journaldulapin.com/2013/08/24/a-thunderbolt-gpu-on-a-mac-how-to/](http://www.journaldulapin.com/2013/08/24/a-thunderbolt-gpu-on-a-mac-how-to/) Notice that if you have a Maxwell card you need some additional steps to get it to work as explained here: [http://www.journaldulapin.com/2014/12/04/a-nvidia-maxwell-card-with-thunderbolt-on-a-mac-running-yosemite/](http://www.journaldulapin.com/2014/12/04/a-nvidia-maxwell-card-with-thunderbolt-on-a-mac-running-yosemite/)'"
+message: "I don't have this setup anymore, but is should work according to this site: \r\n[http://www.journaldulapin.com/2013/08/24/a-thunderbolt-gpu-on-a-mac-how-to/](http://www.journaldulapin.com/2013/08/24/a-thunderbolt-gpu-on-a-mac-how-to/)\r\n\r\nNotice that if you have a Maxwell card you need some additional steps to get it to work as explained here:\r\n[http://www.journaldulapin.com/2014/12/04/a-nvidia-maxwell-card-with-thunderbolt-on-a-mac-running-yosemite/](http://www.journaldulapin.com/2014/12/04/a-nvidia-maxwell-card-with-thunderbolt-on-a-mac-running-yosemite/)"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://plus.google.com/+PoulSerek
