@@ -1,6 +1,6 @@
 _id: 3b95a143-d568-4d9d-b1b7-40e7592c8ffd
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Marquis  You can't, you need to modify the AKiTiO Thunder 2, fit the whole thing into an existing PC case or do as me and built an exeskeleton case using OpenBeam as described <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii&#47;" rel="nofollow">here<&#47;a>. I have since that post removed the Sonnet Echo Express SE II and made the whole setup smaller. Some have had success fitting a smaller card in the box, but these cards are limited in power.  &#47;Poul"
+message: "Hi Marquis\r\n\r\nYou can't, you need to modify the AKiTiO Thunder 2, fit the whole thing into an existing PC case or do as me and built an exeskeleton case using OpenBeam as described [here](/projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/). I have since that post removed the Sonnet Echo Express SE II and made the whole setup smaller. Some have had success fitting a smaller card in the box, but these cards are limited in power.\r\n\r\n/Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
