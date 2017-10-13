@@ -1,6 +1,6 @@
 _id: c345a9d6-3d90-4a87-9d4f-a7524871712c
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: ""Hi Dennis\n\nYou are on the right track! You should connect the PSU using the 8 pin connector directly to the GTX 1080 as you have done. When you get the powered PCIe riser, you connect the PSU using a standard <a href=\"https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Molex_connector#&#47;media&#47;File:Molex_female_connector.jpg\" rel=\"nofollow\">MOLEX<&#47;a> connector to the PCIe riser. This riser gives both power to the GTX 1080 through the PCIe slot and to the AKiTiO Thunder2 itself. No need for the power supply from AKiTiO. \n\n&#47;Poul""
+message: "Hi Dennis\n\nYou are on the right track! You should connect the PSU using the 8 pin connector directly to the GTX 1080 as you have done. When you get the powered PCIe riser, you connect the PSU using a standard <a href=\"https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Molex_connector#&#47;media&#47;File:Molex_female_connector.jpg\" rel=\"nofollow\">MOLEX<&#47;a> connector to the PCIe riser. This riser gives both power to the GTX 1080 through the PCIe slot and to the AKiTiO Thunder2 itself. No need for the power supply from AKiTiO. \n\n&#47;Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
