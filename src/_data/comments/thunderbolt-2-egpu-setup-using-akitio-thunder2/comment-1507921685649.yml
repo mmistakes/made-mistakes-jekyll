@@ -1,6 +1,6 @@
 _id: 86c8eff5-d78e-4a81-a61a-717e2bd5387e
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Yuki  The PCIe port on the AKiTiO Thunder2 is only supplying 25 watts so this is not enough for the GTX 750 ti. It can be modified to supply up to 50 watts using the the supplied adapter, but this is still short of what the GTX 750 ti needs. If you upgrade to a 120 watt power brick you can supply the full 75 watts of power as described <a href="http:&#47;&#47;www.akitio.com&#47;faq&#47;270-thunder2-pcie-box-what-s-the-maximum-power-output-through-the-pcie-slot" rel="nofollow">here<&#47;a>, that is the closest you can get without using a full size ATX power supply.  &#47;Poul"
+message: "Hi Yuki\r\n\r\nThe PCIe port on the AKiTiO Thunder2 is only supplying 25 watts so this is not enough for the GTX 750 ti. It can be modified to supply up to 50 watts using the the supplied adapter, but this is still short of what the GTX 750 ti needs. If you upgrade to a 120 watt power brick you can supply the full 75 watts of power as described [here](http://www.akitio.com/faq/270-thunder2-pcie-box-what-s-the-maximum-power-output-through-the-pcie-slot), that is the closest you can get without using a full size ATX power supply.\r\n\r\n/Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

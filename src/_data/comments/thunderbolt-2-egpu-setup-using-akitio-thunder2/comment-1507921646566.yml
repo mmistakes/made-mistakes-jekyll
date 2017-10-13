@@ -1,6 +1,6 @@
 _id: 1c30d1aa-d811-42bc-a3b8-61aa254c6fec
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: ""1) Yes I can perform it without any problems with the dock disconnected. So I only get this problem when I connect the dock. \n\n2) I did already a DSDT override when I tried to get rid of the Code 12 error, but it didn't so I bought the DiY setup.\n\nFor me it's okay if you would post the problem on the forums.""
+message: "1) Yes I can perform it without any problems with the dock disconnected. So I only get this problem when I connect the dock. \n\n2) I did already a DSDT override when I tried to get rid of the Code 12 error, but it didn't so I bought the DiY setup.\n\nFor me it's okay if you would post the problem on the forums."
 name: Carl M
 email: bd541e97700738a0f8437a2916104bcf
 url: ''

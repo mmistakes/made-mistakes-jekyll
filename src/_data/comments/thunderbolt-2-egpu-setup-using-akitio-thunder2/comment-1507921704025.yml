@@ -1,6 +1,6 @@
 _id: b87d59de-0009-4b38-9f4e-9882ac0b2596
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Also, I checked that file and yes, it's an EFI install.  "2016-04-28 04:36:04, Info                  IBS    Callback_BootEnvironmentDetect: Detected boot environment: EFI"  You can just reply to this post with the answers, don't need to reply to both. Thank you so much for finally encouraging me to get an eGPU :)"
+message: "Also, I checked that file and yes, it's an EFI install.\r\n\r\n\"2016-04-28 04:36:04, Info IBS Callback_BootEnvironmentDetect: Detected boot environment: EFI\"\r\n\r\nYou can just reply to this post with the answers, don't need to reply to both. Thank you so much for finally encouraging me to get an eGPU :)"
 name: Tom Lube
 email: 40bf3724721153defcac3bb56e588bc5
 url: ''

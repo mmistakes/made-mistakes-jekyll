@@ -1,6 +1,6 @@
 _id: 648b80be-9d3c-40d4-bebb-e582b2030afa
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Carl  Hmmm, can you see anything in the event logs (Event Viewer)? If not we might need to enable some boot logging to troubleshot further as described in <a href="http:&#47;&#47;www.techrepublic.com&#47;blog&#47;tr-dojo&#47;monitor-windows-7-boot-logs-with-the-help-of-msconfig&#47;" rel="nofollow">this<&#47;a> link. Try enabling boot logging, boot with the Thunderbolt dock enabled which will fail, then reboot without the dock and look in the log file. It could give us a clue as to what is going on.  &#47;Poul"
+message: "Hi Carl\r\n\r\nHmmm, can you see anything in the event logs (Event Viewer)? If not we might need to enable some boot logging to troubleshot further as described in [this](http://www.techrepublic.com/blog/tr-dojo/monitor-windows-7-boot-logs-with-the-help-of-msconfig/) link. Try enabling boot logging, boot with the Thunderbolt dock enabled which will fail, then reboot without the dock and look in the log file. It could give us a clue as to what is going on.\r\n\r\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
