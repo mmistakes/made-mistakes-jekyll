@@ -260,7 +260,7 @@ Using higher resolutions makes the difference between internal and external moni
 
 ### 3DMark
 
-| |Fire strike extreme)|Fire strike|Sky diver|
+| |Fire strike extreme|Fire strike|Sky diver|
 |---|---:|---:|---:|
 |HD5100|400|921|4077|
 |GTX 760 (internal)|2492|4209|8660|
