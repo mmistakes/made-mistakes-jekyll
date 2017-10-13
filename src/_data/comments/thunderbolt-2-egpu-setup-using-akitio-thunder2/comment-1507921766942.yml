@@ -1,6 +1,6 @@
 _id: 83aab9e3-2f04-4afb-bf1a-323c78e431a2
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: ""Hi Fahim\n\nThe power supply might be the issue, it is not a quality brand name and I even had to google it to look it up. If it is from the value series it might not be able to deliver stable power, take a look <a href=\"http:&#47;&#47;www.xbitlabs.com&#47;articles&#47;cases&#47;display&#47;aerocool-psu_3.html\" rel=\"nofollow\">here<&#47;a>. If have helped another reader where the instability was solved by using a brand name PSU like Seasonic, Corsair, EVGA etc. \n\nThe riser might also be the problem, but instability issues are almost always tied the the PSU &#47; PCIe riser.\n\n&#47;Poul""
+message: "Hi Fahim\n\nThe power supply might be the issue, it is not a quality brand name and I even had to google it to look it up. If it is from the value series it might not be able to deliver stable power, take a look <a href=\"http:&#47;&#47;www.xbitlabs.com&#47;articles&#47;cases&#47;display&#47;aerocool-psu_3.html\" rel=\"nofollow\">here<&#47;a>. If have helped another reader where the instability was solved by using a brand name PSU like Seasonic, Corsair, EVGA etc. \n\nThe riser might also be the problem, but instability issues are almost always tied the the PSU &#47; PCIe riser.\n\n&#47;Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

@@ -1,6 +1,6 @@
 _id: 5efaeaf2-626d-46c2-9b3f-d402ab6cddcf
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi John  Since you have a Thunderbolt 3 enabled computer you should get something like the <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;10519-akitio-node-tb3-egfx-box-32gbps-tb3&#47;" rel="nofollow">AKiTiO Node<&#47;a> (not yet released) or the <a href="http:&#47;&#47;www.ultrabookreview.com&#47;10761-razer-core-review&#47;" rel="nofollow">Razer Core<&#47;a>. It is more pricy, but much more clean. Notice that the Razer Core does not have Thunderbolt passthrough so it will need to be the last device in the chain if you have other Thunderbolt devices. Not a problem if everything is Thunderbolt 3, but if you have legacy Thunderbolt 1&#47;2 devices it will be an issue.  &#47;Poul"
+message: "Hi John\r\n\r\nSince you have a Thunderbolt 3 enabled computer you should get something like the [AKiTiO Node](https://www.techinferno.com/index.php?/forums/topic/10519-akitio-node-tb3-egfx-box-32gbps-tb3/) (not yet released) or the [Razer Core](http://www.ultrabookreview.com/10761-razer-core-review/). It is more pricy, but much more clean. Notice that the Razer Core does not have Thunderbolt passthrough so it will need to be the last device in the chain if you have other Thunderbolt devices. Not a problem if everything is Thunderbolt 3, but if you have legacy Thunderbolt 1/2 devices it will be an issue.\r\n\r\n/Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

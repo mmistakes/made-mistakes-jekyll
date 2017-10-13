@@ -1,6 +1,6 @@
 _id: e01a0527-052b-46c0-bdfe-9ce460c50773
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Poul  Thanks for posting this.  I bought a GTX 1080 card with a EVGA Supernova 650W G2 PSU as well as the Akitio box, I ordered the riser which is on its way.  I am curious if you could give a bit more detail on how you connect your PSU to the GPU?  I was fiddling around with the cables which came with the PSU and pretty much the only way I could "connect" the two was using the VGA 8 pin into the GPU and using the 6+2 pin connector into the PSU.  I suppose once the Riser gets here I should be able to find a way to connect the PSU to that as well, but I was wondering if the connection to the GPU is acceptable?  Or if you could recommend a connector?  Thanks again!!!"
+message: "Poul\r\n\r\nThanks for posting this. I bought a GTX 1080 card with a EVGA Supernova 650W G2 PSU as well as the Akitio box, I ordered the riser which is on its way.  I am curious if you could give a bit more detail on how you connect your PSU to the GPU?  I was fiddling around with the cables which came with the PSU and pretty much the only way I could \"connect\" the two was using the VGA 8 pin into the GPU and using the 6+2 pin connector into the PSU.  I suppose once the Riser gets here I should be able to find a way to connect the PSU to that as well, but I was wondering if the connection to the GPU is acceptable?  Or if you could recommend a connector?  Thanks again!!!"
 name: Dennis
 email: 771f94414597d32080d9c80e352a1331
 url: ''

@@ -1,6 +1,6 @@
 _id: 76630f83-07ec-41c6-8574-7a298d9096ab
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "It should work fine since many people use mac minis to run the same kind of Thunderbolt 2 eGPU. The GTX 750 ti draws around 60 watts of power according to <a href="http:&#47;&#47;www.tomshardware.com&#47;reviews&#47;geforce-gtx-750-ti-review,3750-21.html" rel="nofollow">here<&#47;a>, which is too close to the maximum the AKiTiO power supply can handle. But the PCIe port on the AKiTiO can only supply 25 watts of power so you will need an extra psu to supply the power (e.g. using a powered PCIe riser) or modding the AKiTiO Thunder 2 to supply the full power from the power supply through the PCIe port (not recommended)"
+message: "It should work fine since many people use mac minis to run the same kind of Thunderbolt 2 eGPU. The GTX 750 ti draws around 60 watts of power according to [here](http://www.tomshardware.com/reviews/geforce-gtx-750-ti-review,3750-21.html), which is too close to the maximum the AKiTiO power supply can handle. But the PCIe port on the AKiTiO can only supply 25 watts of power so you will need an extra psu to supply the power (e.g. using a powered PCIe riser) or modding the AKiTiO Thunder 2 to supply the full power from the power supply through the PCIe port (not recommended)"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

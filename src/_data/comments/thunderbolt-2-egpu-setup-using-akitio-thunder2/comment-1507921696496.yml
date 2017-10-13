@@ -1,6 +1,6 @@
 _id: 104d95a1-cdd8-486f-ad2e-b18ab619cd9f
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Evan  It should work just fine, there are plenty people who have getting this to work with mid 2014 Macbook pros, both with and without an internal discrete GPU. Windows 10 should work fine if using an external monitor, but not everyone can get it working with the internal monitor. I have done it, but it took a few tries before I successfully booted repeatably. It is always a good idea to take a look at <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;forum&#47;113-implementation-guides-apple&#47;" rel="nofollow">TechInferno<&#47;a> to be sure. You can also follow the link in my post to the Windows 10 guide.  &#47;Poul"
+message: "Hi Evan\r\n\r\nIt should work just fine, there are plenty people who have getting this to work with mid 2014 Macbook pros, both with and without an internal discrete GPU. Windows 10 should work fine if using an external monitor, but not everyone can get it working with the internal monitor. I have done it, but it took a few tries before I successfully booted repeatably. It is always a good idea to take a look at [TechInferno](https://www.techinferno.com/index.php?/forums/forum/113-implementation-guides-apple/) to be sure. You can also follow the link in my post to the Windows 10 guide.\r\n\r\n/Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
