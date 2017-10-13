@@ -1,0 +1,9 @@
+_id: 30025940-e986-477b-a1e5-2b1d3cd7d523
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "Hello, is the powered PCie riser mandatory? I'm thinking about getting one of the smaller cards https:&#47;&#47;www.amazon.com&#47;EVGA-GeForce-Clocked-Graphic-04G-P4-3962-KR&#47;dp&#47;B00VX1MJQ8&#47;ref=cm_cd_al_qh_dp_i I want it to be able to fit inside the Akitio thunderbox so I might get the mini gtx 960 for my mid-2014 Retina Macbook Pro 15". I assume only a PSU, akitio box, and the gpu are needed, am I correct? Also in regards to drivers for the 960 working on OSX, would I have to go anywhere special to obtain them? Thanks!"
+name: macn00b
+email: 9e09480a676c542851f140b42c6eec95
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-06-11T22:17:22.000Z'

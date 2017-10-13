@@ -1,0 +1,9 @@
+_id: dfef9eae-6e88-454b-ba59-b1a0756dff65
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""Hi Dan\n\nThe reason I recommend EVGA cards are that they are internally wired differently so they will draw the necessary power from the 12v line when needed. If using a BIOS setup this meant that you did not need to hot-plug the Thunderbolt cable or power on the ATX power supply at the correct moment for devices that did not support the PERST# PCI delay which the Thunderbolt devices did not do. It was just a lot more work using non-EVGA cards. \n\nAre you running a BIOS og UEFI? The guide is for a UEFI setup. I would really wait for the PCIe riser to be sure that the card gets enough power on startup. That *might* be the reason for the startup failure. Don't get an EVGA card just to fix this problem, any NVIDIA card should work and should not give you the problems you describe. But do get a quality PCIe riser that I recommend, getting a cheap &#47;bad quality will cause even more instability. \n\n&#47;Poul""
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-08-16T17:49:33.000Z'

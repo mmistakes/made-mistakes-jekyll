@@ -1,0 +1,9 @@
+_id: c55cc46b-2edf-40cf-bf82-4d7b16401809
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "With an 8-pin connector (150 watts) and the 25 watts from the AKiTiO Thunder2 you should be fine according to the 160 watts maximum power draw of the card. But I think you still need the power supply from the AKiTiO Thunder2 if you don't use a powered riser."
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-05-09T20:20:23.000Z'

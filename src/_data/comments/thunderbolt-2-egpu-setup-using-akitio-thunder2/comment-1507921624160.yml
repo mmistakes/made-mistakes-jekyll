@@ -1,0 +1,9 @@
+_id: cd856a54-ed45-4551-b075-baafd0cad561
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- - What will be the loss of graphics card performance compared to the same card plugged into the motherboard? - I want to use this solution with the MacBook Pro 15" (late 2013), and an eGPU to connect 4K monitor (Benq3201pt). Will I get 4K at frequency of 60Hz? I plan to use GeForce GTX 970. As far as I know none of MacBook can output a resolution with such frequency using internal GPU"
+name: Michael
+email: d7d554e3082f237bb166dd23c2810394
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-04-15T13:20:40.000Z'

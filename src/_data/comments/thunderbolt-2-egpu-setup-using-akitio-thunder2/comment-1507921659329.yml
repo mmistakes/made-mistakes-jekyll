@@ -1,0 +1,9 @@
+_id: 50376ed8-7931-455e-b219-4e1fe638da65
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""Hi Michael\n\nCan you confirm that you have done the \"sudo nvram boot-args=\"kext-dev-mode=1\"\" and that\n\n&#47;System&#47;Library&#47;Extensions&#47;NVDAStartup.kext\n&#47;System&#47;Library&#47;Extensions&#47;IONDRVSupport.kext\n&#47;System&#47;Library&#47;Extensions&#47;AppleHDA.kext&#47;Contents&#47;PlugIns&#47;AppleHDAController.kext\n\nContains \n\n<key>IOPCITunnelCompatible<&#47;key>\n<true&#47;>\n\nthe correct places? I just want to be sure. Without this the eGPU will not work at all. And try to use the Kext utility to be 100% sure that the Kext files are rebuilt. The \"&ldquo;found_hardware = 0&Prime; to &ldquo;found_hardware = 1&Prime;\" line should not be a problem since you did install the drivers\n\n&#47;Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-08-04T13:24:25.000Z'

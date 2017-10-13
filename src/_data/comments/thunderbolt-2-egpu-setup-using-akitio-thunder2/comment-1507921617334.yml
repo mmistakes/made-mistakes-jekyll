@@ -1,0 +1,9 @@
+_id: a84549a3-1557-4e57-90f2-7e05e0536ca3
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "Hi!<br &#47;><br &#47;> I've just started to setup my eGPU with:<br &#47;><br &#47;> Akitio Thunder 2 <br &#47;> GTX 960 mini Gigabyte<br &#47;> Coolermaster 650w (Paperclip)<br &#47;><br &#47;> So my problem is I can't install the Nvidia drivers. I've put the GPU into the PCI slot in the akitio box. Then I've connected the akitio Power supply. And then I've connected the 6-pin Cable into the GTX 960 from the Cooler Master.<br &#47;><br &#47;> I'm booting up my mac (Mid 2014 13'') and pressing alt. When the bootcamp selection start I turn on the coolermaster and the akitio PSU. After that I press boot windows (windows 8.1 preview). When I'm searching for the egpu i cannot find it in the device manager either in OSX. <br &#47;><br &#47;> When I trying to install the Nvidia drivers (the newest one) it says ''Nvidia Installer cannot continue'' ''The graphic driver could not find compatible Graphics hardware''.<br &#47;><br &#47;> The fans on the GPU started the first time I booted the computer (That was in OSX) and after that thay never started again.<br &#47;><br &#47;> The akitio box blue and green light is up. I've connected the akitio through thunderbolt (ofcourse).<br &#47;><br &#47;> I've put a HDMI Cable from the GTX 960 to my external Acer minitor and made it as the main screen in windows 8.<br &#47;><br &#47;> Could you guys help me out? Why dosent my computer detect the GPU? I've tried the troubleshooting steps in the forum but it doesnt work."
+name: Jonathan Nilsson
+email: 41dc3e007986c35dc46763689fa93174
+url: http://www.blogger.com/profile/16286031933159079883
+replying_to: ''
+hidden: ''
+date: '2015-02-19T20:41:28.000Z'

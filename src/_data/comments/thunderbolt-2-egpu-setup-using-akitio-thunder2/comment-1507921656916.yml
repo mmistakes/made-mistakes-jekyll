@@ -1,0 +1,9 @@
+_id: cc259e4b-c1b4-4b3f-9ffa-563484218fe1
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""Thanks for the response Poul!\n\nI don't think power to the card is an issue, I've tried both a 2 molex to 6 pin as well as a 2 sata power to 6 pin with similar bad results, the second connection being a straight 8 to 6 plus 2 from psu. My 980 ti I'm using has LEDs which light up so I think power if fine. The molex connection powering the riser is attached firmly as the card will not light up without it. \n\nBoth ends of the riser are firmly attached. I actually have two risers, both seem to have same results, think they're working ok.\n\nI've still got that broken thunderbolt connector so I'll try and get that fixed asap and try again, but my working one was fine up until I moved my equipment into a case, it seems suspicious it would stop working at that very instant? \n\nWith the power supply working fine, card working fine in my tower pc, riser also working, it seems to be the akitio box at fault if not the MacBook? I've got it all set up exactly the same way as before and something doesn't seem to work, so unless the akitio PCB was damaged on case entry? But all the lights still work, I don't get it! \n\nThanks again, Owen""
+name: Owen Green
+email: aecefc8f8f374cd3f20650a1b4fd2766
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-07-27T19:27:11.000Z'

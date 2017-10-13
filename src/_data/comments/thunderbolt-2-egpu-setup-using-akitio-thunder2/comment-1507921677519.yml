@@ -1,0 +1,9 @@
+_id: 4f0866e5-f0da-41d1-a2d2-53529d375d48
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Pavel  You should be fine, the Macbook Pro 13 retina mid 2014 does support Optimus and people have gotten the internal screen of the laptop running just fine as you can see <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;6198-2013-13-mbp-gtx97016gbps-tb2-akitio-thunder2-win81osx1010-dschijn&#47;" rel="nofollow">here<&#47;a>. UEFI is not a version of Windows, but how it is installed. Check if your installed Windows 8.1 is installed correctly using <a href="http:&#47;&#47;www.thewindowsclub.com&#47;check-if-uefi-or-bios" rel="nofollow">this<&#47;a> link. According to <a href="https:&#47;&#47;www.reddit.com&#47;r&#47;mac&#47;comments&#47;2fy3be&#47;by_popular_demand_my_better_than_bootcamp_guide&#47;" rel="nofollow">this<&#47;a> post, bootcamp should already install Windows as UEFI, but if not it also includes a how to guide.  &#47;Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-11-17T18:34:05.000Z'

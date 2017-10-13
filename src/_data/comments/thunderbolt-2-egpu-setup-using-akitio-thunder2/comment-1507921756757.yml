@@ -1,0 +1,9 @@
+_id: e993161d-d425-4c46-9748-4aee207fd3e1
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Ish  As far as I know it is not possible to use Optimus other than in Windows, therefore you cannot use the internal monitor in Ubuntu. There are tricks, like using a video grabber and routing the signal back in that way, but nothing easy and simple as using Optimus. You should ask around <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;forum&#47;83-diy-e-gpu-projects&#47;" rel="nofollow">TechInferno<&#47;a> to confirm my statement and maybe find a different solution.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-08-01T11:09:57.000Z'

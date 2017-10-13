@@ -1,0 +1,9 @@
+_id: d886dbc1-87ab-49f0-b8c3-3873408036de
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi William  I just use it just in case the card need to draw more than 25 watts of power from the PCIe port. Normally a card can expect to draw 75 watts from the PCIe port, but AKiTiO Thunder2 is limited to 25 watts with the bundled power supply. With the riser it can draw 75 watts just fine. If your card gets enough peak power from the 6pin and &#47; or 8pin connecters + the 25 watts from the PCIe port, then you should be fine without the riser.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-03-17T22:03:33.000Z'

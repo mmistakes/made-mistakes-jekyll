@@ -1,0 +1,9 @@
+_id: 13ad39bc-11ad-49dc-86f0-434e89750530
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Carl  Can you do a PCI compaction successfully without the Thunderbolt dock? Do you get the same error? If you only get the error when using the Thunderbolt dock then I would post your problem on the techinferno forums since they have better knowledge of troubleshooting this than I have:  <a href="https:&#47;&#47;egpu.io&#47;diy-egpu-setup-1-30-nando4&#47;" rel="nofollow">http:&#47;&#47;forum.techinferno.com&#47;diy-e-gpu-projects&#47;2123-diy-egpu-setup-1-30-a.html<&#47;a>  The DSDT override (if needed) is explained <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;5874-guide-dsdt-override-to-fix-error-12&#47;#comment-91134" rel="nofollow">here<&#47;a> with a step by step guide. However I strongly recommend that you troubleshoot 1) first."
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-05-28T17:39:14.000Z'

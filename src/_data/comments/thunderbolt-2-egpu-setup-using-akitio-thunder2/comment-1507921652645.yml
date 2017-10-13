@@ -1,0 +1,9 @@
+_id: 5bbc2f9f-1cd9-4290-9b7a-5e4ab638a1d4
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Alex  The GTX 980 ti is a Maxwell card that should work under Yosemite according to <a href="http:&#47;&#47;www.reddit.com&#47;r&#47;hackintosh&#47;comments&#47;3azfyz&#47;gtx_980_ti_works_in_10103_with_nvidia_web_drivers&#47;" rel="nofollow">this<&#47;a> post. I use these web drivers myself in Yosemite, but for the GTX 970 card which is also a Maxwell card. Follow <a href="http:&#47;&#47;www.journaldulapin.com&#47;2014&#47;12&#47;04&#47;a-nvidia-maxwell-card-with-thunderbolt-on-a-mac-running-yosemite&#47;" rel="nofollow">this<&#47;a> guide to install the NVIDIA web drivers that make this solution possible. Once the drivers are installed, they are easily updated using the interface.  &#47;Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-07-06T06:27:38.000Z'

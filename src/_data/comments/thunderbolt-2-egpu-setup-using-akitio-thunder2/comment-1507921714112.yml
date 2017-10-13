@@ -1,0 +1,9 @@
+_id: acb197b8-f533-4319-a261-eb73d4cca563
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Poul,  Is there on benefit on connecting the gpu directly to the akitio board instead of using a riser? Will there be a speed increase since the riser will not be used?"
+name: Evan
+email: 423ef67932526fd9f2aed989356ac873
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-05-17T17:57:19.000Z'

@@ -1,0 +1,9 @@
+_id: 5a1df633-1933-42fd-b4f6-b2799c593a04
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Sam  It should work just fine, but most cards will not fit in the AKiTiO case. You will need to purchase an external power supply and maybe a powered PCIe riser. You can always fit a card by taking the motherboard out from the AKiTiO Thunder 2 case. You can put the whole thing inside a small mini-itx case or make on yourself as I have done <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii&#47;">here<&#47;a>.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-05-30T18:52:48.000Z'

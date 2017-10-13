@@ -1,0 +1,9 @@
+_id: 81eef7f9-cba1-4bb8-b250-1f2a2de5ba5e
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Not much, I would say that with at least 100 watts of power you should be safe. 70 watts from the GTX 750 ti (max power consumption I could find) + 10 watts to the AKiTiO box = 80 watts. Add another 20% to sure (never run a power supply on full load all the time) = 80*1,2 ~ 100 watt. So I would buy a replacement power brick for maybe 120+ watt. You only need to power the PCIe riser, there is no need to power the AKiTiO  &#47;Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-08-10T13:53:06.000Z'

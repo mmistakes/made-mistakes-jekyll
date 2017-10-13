@@ -1,0 +1,9 @@
+_id: 0a5c60f5-5409-4928-8b36-377afa4ef071
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Lewis  If you are using one with only a 6-pin connecter without a riser or a 120 watt power brick replacement for the AKiTiO Thunder 2 you might not get enough power since the <a href="http:&#47;&#47;www.evga.com&#47;Products&#47;Product.aspx?pn=06G-P4-6163-KR" rel="nofollow">stated<&#47;a> power draw needed is higher than the supplied of 25 + 75 = 100 watt. Are you using a BIOS setup or UEFI? BIOS can be more tricky to setup which might be the problem.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-08-30T19:02:11.000Z'

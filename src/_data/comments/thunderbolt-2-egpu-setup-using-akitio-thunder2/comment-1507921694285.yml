@@ -1,0 +1,9 @@
+_id: ff72da03-86ef-40f9-9f0f-e1dfe4791717
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Chingheav  Assuming everything is set up correctly, you can go into the NVIDIA control panel and set the preferred GPU to the GTX 980ti. This works for me, but I only have a single discrete GPU. Since you have two discrete GPS, the internal GTX 775M and the external GTX980ti I am not sure how this works. You might try disabling the GTX 775M if it does not work.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-04-29T08:10:30.000Z'

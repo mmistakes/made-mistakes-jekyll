@@ -1,0 +1,9 @@
+_id: a7b23669-cb73-40e8-a337-d6d709a3805c
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""Hi Poul,\n\nThanks for this awesome write up - it has inspired me to start my own project following in your guidelines.\n\nI do have a question about the screen set up. Currently I run my Macbook Pro Retina (late 2014 model, with Iris Pro) through a 27\" Cinema Display and I switch between Mac OS and Bootcamp Windows 10. \n\nI'm wondering what you think would work once I get the eGPU built, would I be able to have the Cinema Display plugged in to the MacBook as usual, but get the eGPU to output display to the Cinema Display? or is the Cinema Display going to need to be plugged directly in to the eGPU?\n\nJust trying to work out the logistics of this as ideally I could just plug everything in to the MacBook and only have the one thunderbolt cable (and power) going to the eGPU.\n\nThanks in advance,\n\nKevin""
+name: Kevin
+email: 926b5c4295e90c6c3bb4824328d36b7b
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-06-08T03:31:30.000Z'

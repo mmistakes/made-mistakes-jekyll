@@ -1,0 +1,9 @@
+_id: 73da7f74-bd7d-414b-bbb9-eb178fc56852
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Thanks for the advise Poul,  I was forced to use UEFI since it does indeed make it easier eGPU's to work. I used a GTX 770 also by EVGA and had issues with BIOS installation. Changed it to UEFI and no more fuss. Everything works as it should."
+name: Dan
+email: 093cb3951795effbd4bec1368738f069
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-09-09T16:13:31.000Z'
