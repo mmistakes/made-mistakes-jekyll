@@ -1,0 +1,9 @@
+_id: 62975eb4-8914-4a95-b358-8c18be1c98f3
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi,  I found the reason why the card was unstable... I remember reading in various threads that "always check&#47;switch the PSU" first! :) Didn't think that was the problem as it was brand new one and rated at 450W.  The Sharkoon cant cope with the power&#47;voltage required by the GTX980. (Currently using a Fractal Design 800W Platinum ATX PSU)  NOTE: Do not use&#47;buy the Sharkoon Silentstorm 450W PSU for eGPU setups. It cannot run at full power e.g. the EVGA GTX 980 SC.  Now to return the Sharkoon PSU...  Any recommendations for a quality SFX PSU?  J"
+name: J
+email: e2234dacb81d95472e0cf6343f3f2103
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-11-10T15:47:01.000Z'

@@ -1,0 +1,9 @@
+_id: 89c4e527-f404-468c-8828-da778482e20a
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "Hmm... make sure the PCIe riser is firmly attached and try the above steps but without the power supply unit from AKiTiO plugged in. Do the lights on the AKiTiO box still light up? If not then the riser might be the issue. I had a problem that was similar to yours, I could not get the card detected at all, but found out the PCIe riser was not firmly attached. My lights on the AKiTiO did not light up since I was only getting power from the riser."
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://plus.google.com/+PoulSerek
+replying_to: ''
+hidden: ''
+date: '2015-02-19T23:07:55.000Z'

@@ -1,0 +1,9 @@
+_id: 6ffc82e5-323e-43ae-9fde-b5c66428e29d
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""Hi Poul,\n\nFirst of all thanks for the post. I've been waiting for something like this.\n\nWould you provide further details how is that you came to the conclusion that EVGA cards work better.\n\nI got my setup (not using a PCI-E Riser yet) running with PSU and AKiTiO Power adapter. Only using it on windows 7. I get my AKiTiO detected and installed, but the card is not being detected.\n\nThis is my current behavior: I am not sure if this is related to the issue described by Jeremy's post on 3&#47;23&#47;2016.\n\n1. Scenario:\nI turn on the PSU and AKiTiO (Although it doesn't turn on until the machine is running) plug into the thunderbolt. When I turn on my rMBP-2012 it goes into a chime loop. The mbp never boots up.\nI've not seen anyone with this issue.\n\n2. Scenario:\nWith the same sequence described above except before plugging the thunderbolt. \nI start the MBP and go into boot menu, everything works fine until I plug in the AKiTiO, the machine freezes up. <- Of course I would never actually do this, but found this issue during troubleshooting.\nI take it this one is for reasons pertaining to mac os x not supporting eGPU&#039;s natively. In any case I am only interested in using it on a Windows environment.\n\nWeird Scenario:\nSeems the card does not need the PSU, it will still turn on as soons the MBP turns on. But again, the card won&#039;t be detected, only the AKiTiO.\n\nI should also mention that I am using an old Nvidia 9800 GT car for testing purposes.\n\nI will however get me a EVGA card. I am just trying to save some time troubleshooting.\n\nThanks!""
+name: Dan
+email: 093cb3951795effbd4bec1368738f069
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-08-16T17:16:52.000Z'

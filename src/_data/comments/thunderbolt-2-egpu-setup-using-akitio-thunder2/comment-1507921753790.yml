@@ -1,0 +1,9 @@
+_id: 45baf6b6-3eaa-4c65-bff3-3ee5f097d2a5
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hmm, I think the iMac might not have Optimus which is a requirement to use the internal monitor. Take a look <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;9296-2015-imac-215-4k-iris-late-2015-gtx980ti16gbps-tb2-akitio-thunder2-osx10113win10-stemoac&#47;" rel="nofollow">here<&#47;a> where they cannot get it to work. You should ask around at techinferno, but if the iMac does not support Optimus then you might be out of luck. It might be possible to beam the video signal from the GTX 950 back into the iMac using a videograbber card.  Alternatively you can use an external monitor which should work.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-07-27T19:21:24.000Z'

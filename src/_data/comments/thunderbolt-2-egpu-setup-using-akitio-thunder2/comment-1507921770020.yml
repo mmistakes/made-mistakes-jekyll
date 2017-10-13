@@ -1,0 +1,9 @@
+_id: 97d0ee9d-c7f2-4a70-a146-c13ed1b6a46a
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Chris  Not a million times, but close :) You will need an additional power supply because the 120 watts power brick is needed to give the graphics card just 75 watts of power. Your cards need more power than that through the 6-pin connector. According to AKiTiO the 120 watt power brick is the maximum you can safely supply to the AKiTiO Thunder 2.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-09-20T16:06:55.000Z'

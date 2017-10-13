@@ -1,0 +1,9 @@
+_id: fe805b7a-a22b-4b93-8d45-f405c5aad61a
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "I am not sure that it is going to fix the problem you have. His fix is simply to avoid using the barrel plug to supply power, but I am not sure if this has anything to do with bypassing the 25w limit of the PCIe port. He is using a GTX 970 which has enough power through the two 6pin connectors to not need any power from the PCIe port. So it might get you closer to fixing your problem, but I still think you will run into the issue of not having enough power"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://plus.google.com/+PoulSerek
+replying_to: ''
+hidden: ''
+date: '2015-02-20T16:38:11.000Z'

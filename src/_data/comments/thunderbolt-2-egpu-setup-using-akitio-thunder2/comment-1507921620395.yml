@@ -1,0 +1,9 @@
+_id: 4eee9ba6-73b8-4ef8-b056-c31009bc8c92
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "As far as I can see you need a riser as I wrote before since the card will use 120-150 watts of power. The PCIe port on the AKiTiO will supply 25 watts and the single 6pin connector 75 watt, a total of 100 watt which is not enough. That might be the problem. Normally the PCIe port can supply 75 watt, but not on the AKiTiO box"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://plus.google.com/+PoulSerek
+replying_to: ''
+hidden: ''
+date: '2015-02-20T07:00:05.000Z'

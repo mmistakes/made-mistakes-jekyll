@@ -1,0 +1,9 @@
+_id: 3062c331-16ab-49f0-b171-76647606d6e0
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Lorenzo  The EVGA cards are powered differently internally which makes it more plug and play. Specifically it can send a signal to power up the ATX power supply automatically. With a BIOS based system it meant without an EVGA card I had to manually time when to power on the ATX power supply. With EVGA, the card did it for me. With newer (U)EFI based system it might be irrelevant, but since I never had any problems using EVGA cards I will keep recommending them :)  &#47;Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-10-23T16:40:44.000Z'

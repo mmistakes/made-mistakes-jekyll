@@ -1,0 +1,9 @@
+_id: 9ae17ccc-6212-4ad4-8d46-fc1103f1c710
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi,  I also assume it's something to do with the power or I might have a faulty GPU. There has been some cases of faulty EVGA cards with similar symptoms and replacing the card has solved the issues (or under clocking it to factory speeds), however I don't have a PC around I could test whether the GPU is at fault. I have another powered riser (1x to 16x) and the GPU also crashes with that under load although it seems that the 16x-16x riser takes a bit longer to crash.  The riser I'm using is a 16x to 16x powered molex riser (http:&#47;&#47;www.dx.com&#47;p&#47;pci-e-16x-to-16x-riser-card-extender-ribbon-cable-w-molex-connector-black-grey-23cm-304484)  I'm thinking that the power&#47;voltage the GPU is getting through the riser is not stable enough and&#47;or the GPU is very sensitive to the voltage&#47;power its getting and shuts itself down under load.  I could of course create a custom under clocked BIOS and flash the GPU. Then it would most likely work without crashing in OS X too. Anyways I'm glad I can render without problems in OS X and play games (with the under clocking) in windows! :-)  Now I'm just waiting for this to come available so I can put all the components in a nice case: https:&#47;&#47;www.dan-cases.com&#47;dana4.php  Thanks for the reply!  J"
+name: J
+email: e2234dacb81d95472e0cf6343f3f2103
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-10-10T17:09:10.000Z'

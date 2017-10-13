@@ -1,0 +1,9 @@
+_id: eda67021-7828-4c59-b9e9-11588d31ed79
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Evan  No problem, I am happy to help and share what I know! I would always recommend using a single power supply to power the whole setup, so without a powered riser you would need to use a barrel plug. Take a look at <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;6543-guide-making-a-molex-to-barrel-adapter&#47;" rel="nofollow">this<&#47;a> post. But using two separate power supplies, the one from AKiTiO Thunder2 and a normal ATX power supply should be just fine, I just would not recommend it. Some are doing it just like that, take a look <a href="http:&#47;&#47;forums.macrumors.com&#47;threads&#47;diy-egpu-for-mac-mini-2012-osx.1772495&#47;" rel="nofollow">here<&#47;a>.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-06-01T21:31:31.000Z'

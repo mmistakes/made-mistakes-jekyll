@@ -1,0 +1,9 @@
+_id: c7ff3e66-d4d1-4b30-acfb-221ed4cb3273
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Thank you very much for your answer! When I connect the monitor (via HDMI or Displayport) directly to the GTX970, my monitor says "No signal". Yes, I have done something similar. When I modified the nvidia driver, I just removed this line "if (!validateHardware()) return false;" from the  distribution file and the driver successfully installed. But I have not replaced "found_hardware = 0" to "found_hardware = 1" I made changes to the thunderbolt as specified in this video http:&#47;&#47;www.youtube.com&#47;watch?v=QfKb8TcHDkI&amp;list=FL_7TDIRm1TbEyjRDA7vxl1A&amp;index=5 (5:20) and it is very similar to what is written here http:&#47;&#47;www.journaldulapin.com&#47;2014&#47;12&#47;04&#47;a-nvidia-maxwell-card-with-thunderbolt-on-a-mac-running-yosemite&#47; But in the end I did not use Kext Utility. I just made the team in the terminal "sudo kextcache -system-caches". Maybe that's the problem? I have not updated yosemite. Here pictures about my system https:&#47;&#47;www.dropbox.com&#47;sh&#47;ulo34t8itmk1w8u&#47;AAAOEiptFOOAS8KMXjSPXT8na?dl=0 Thank you very much for your help"
+name: Michael
+email: d7d554e3082f237bb166dd23c2810394
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-08-04T13:07:24.000Z'

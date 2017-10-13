@@ -1,0 +1,9 @@
+_id: f0d09a37-a9e3-4234-b3ea-e466ea8da6d3
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "Got my rig set up the same as this one. No problems, detected right away in the device manager in Win 8.1x64 (Bootcamp)....however...it is not detected in DXdiag and the Nvidia control panel says that my monitor is not connected to an Nvidia GPU when in fact it is connected to a GTX 950. Disabling onboard graphics does nothing. Any ideas?"
+name: Jesse Burdick
+email: ba7c394db68096142cb461d5973a68da
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-07-27T15:43:46.000Z'

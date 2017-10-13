@@ -1,0 +1,9 @@
+_id: f105a8ee-72ea-4404-a60b-75ad009f8e29
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""1) I tried the PCI compaction with the dock connected Macbook -> eGPU -> Dock and Macbook -> dock -> eGPU. The result was the same, it didn't work. As soon as I run de PCI compaction it stuck at saying: \"Found 5 external control methods, reparsing for new information\". Then nothing happens for about 5 minutes, then the mac shuts down. \n2) I have no idea how to do that. I found that \"Try 32b&#47;36bit PCI compaction->method[] until pci_alloc_valid=yes. If it's yes* then do a 32-bit PCI compaction of your primary GPU to get it to yes. Apply config.Chainload to your OS to confirm it works OK.\" found here http:&#47;&#47;egpu.maeth.net&#47;faq.htm . Is it that what I need to do?\n\nCarl""
+name: Carl M
+email: bd541e97700738a0f8437a2916104bcf
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-05-28T08:55:53.000Z'

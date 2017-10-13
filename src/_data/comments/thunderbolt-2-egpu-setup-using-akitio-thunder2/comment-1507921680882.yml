@@ -1,0 +1,9 @@
+_id: 8455dd90-23e5-49e0-a268-a0ab9cc8a555
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Michael  My recommendation is to always use NVIDIA cards for eGPU setups and if you don't already own a NVIDIA card then purchase one from EVGA. I myself am using a NVIDIA EVGA GTX 970 card both for Thunderbolt 1 and 2 so that should work just fine.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-03-02T07:25:47.000Z'

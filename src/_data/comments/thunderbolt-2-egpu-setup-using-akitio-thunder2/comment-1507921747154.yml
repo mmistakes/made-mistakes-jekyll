@@ -1,0 +1,9 @@
+_id: c7e60993-4249-4105-be21-f6ec7ffeb924
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "Hey mate, one last question more on the tech side of things - what is the 'percentage' compared to normal PCI-e usage (say in a desktop) that you get out of a setup like this? I've heard quotes of 90% but this seems even inaccurate given the 20gbps transfer rate and the ~8gbps transfer ceiling of most graphics cards"
+name: Tom Lube
+email: 40bf3724721153defcac3bb56e588bc5
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-06-27T05:09:23.000Z'

@@ -1,0 +1,9 @@
+_id: c3fffd73-6144-4b69-96a9-d677621ed7d9
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Patrick  It should work, but the AKiTiO Thunder2 kan only supply 25 watts of power with the supplied power brick. You need a 120 watt one to reach 75 watts of power through the PCIe port as described <a href="https:&#47;&#47;www.akitio.com&#47;faq&#47;270-thunder2-pcie-box-what-s-the-maximum-power-output-through-the-pcie-slot" rel="nofollow">here<&#47;a>.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-11-03T19:47:42.000Z'

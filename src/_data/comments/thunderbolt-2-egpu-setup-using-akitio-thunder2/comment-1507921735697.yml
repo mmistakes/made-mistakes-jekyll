@@ -1,0 +1,9 @@
+_id: 3a9647c8-33ff-4dae-a9dd-d1f8d0b2ed4c
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""Hi Tom\n\nGlad that you at least got it working on Windows 8! You should turn everything off, including the AKiTiO Thunder 2 power supply. Are you using a powered PCIe riser? If you do, you can skip using the power supply included with the AKiTiO Thunder 2. Also make sure you do a full shutdown and boot, not the \"fast resume &#47; shutdown\" feature of Windows that can cause a hassle. A few times I have to disconnect everything, boot into Windows without the eGPU, do a proper full shutdown and then try to connect the eGPU again. Are you using an external monitor or internal? Sometimes the external monitor will be blank, but the computer will otherwise p&aring; on and using the eGPU. \n\nAnyway, it is a bit trial and error, but since you already got it working it is just a matter of finding the right steps. \n\nAnd with Thunderbolt 3 external graphics are finally officially supported with hot-pluggable support so no bravery should be needed anymore :) Just take a look at the <a href=\"http:&#47;&#47;www.anandtech.com&#47;show&#47;10137&#47;razer-core-thunderbolt-3-egfx-chassis-499399-amd-nvidia-shipping-in-april\" rel=\"nofollow\">Razer Core<&#47;a>, but the laptop, graphics card and graphics driver need to support the eGFX standard and currently only a few devices support this.\n\n&#47;Poul""
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-06-19T10:03:48.000Z'

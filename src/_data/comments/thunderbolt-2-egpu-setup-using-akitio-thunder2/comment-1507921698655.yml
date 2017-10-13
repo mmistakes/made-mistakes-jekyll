@@ -1,0 +1,9 @@
+_id: 3cac9f40-a0dd-47f3-b123-9795b5199066
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi William  I am not sure if you can get go above the 75 watt limit of the PCIe standard, but plenty if people have upgraded to a 120 watt power supply to get (at least) the full 75 watts from the PCIe port. You might not even need a riser, but I like to make sure the card can draw the 75 watts of power. So yes, that should eliminate the need for a riser.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-05-02T16:04:33.000Z'

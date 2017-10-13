@@ -1,0 +1,9 @@
+_id: bd3519e6-cdf2-4c81-ba00-b0d2ccbe8177
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: ""Hi Jeremy\n\nGreat that it is working! I remember back when I was running Windows 7 BIOS mode I had to do similar timings tricks to get it all working, so I am not surprised it still works in Windows 10. The problems I had with an BIOS install was not enough PCI memory space for the eGPU setup and had to do PCI compaction using DIY eGPU setup 1.30... so it was easier just to stick with an EFI install. With EFI you should not need to do any timing tricks, but it is still a small price to pay for getting a setup such as this to work. \n\n&#47;Poul""
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-03-23T19:24:37.000Z'

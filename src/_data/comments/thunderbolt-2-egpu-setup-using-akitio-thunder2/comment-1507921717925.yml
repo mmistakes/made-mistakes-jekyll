@@ -1,0 +1,9 @@
+_id: 5d7290b7-1e6f-4e2f-b3b0-3b198c5df4c2
+_parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
+message: "|- Hi Martin  Just look at the frame rates for the first grey bar (PCIe x4 v1.1) in the links in my previous comment, that is about the performance hit in various games that you can expect with Thunderbolt 1. It varies from game to game, but the sum of the test can be seen <a href="https:&#47;&#47;www.techpowerup.com&#47;reviews&#47;NVIDIA&#47;GTX_980_PCI-Express_Scaling&#47;21.html" rel="nofollow">here<&#47;a>. To sum up, depending on resolution the performance hit should be around 12 to 28% using Thunderbolt 1. But it will still be much faster than the GTX 880M.  &#47;Poul"
+name: Poul
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-05-26T16:48:32.000Z'
