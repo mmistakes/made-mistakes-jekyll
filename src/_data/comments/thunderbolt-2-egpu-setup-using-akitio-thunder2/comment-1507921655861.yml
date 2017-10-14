@@ -1,9 +1,9 @@
 _id: f637bff7-3b48-4966-adcd-04362b95a52e
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Owen\n\nHmmm, there are a few things you can try, but it sounds like a little bit of detective work might be needed :&#47; Could be a loose connection somewhere which breaks the PCI-E connection and &#47; or power to the card.\n<ul>\n\t<li>Try using the other Thunderbolt port on the MacBook<&#47;li>\n\t<li>Make sure the PCI-E riser is firmly attached to both the graphics card and AKiTiO Thunder2<&#47;li>\n\t<li>Make sure the powered molex for the PCI-E riser is connected and all of the power connecters are connected to the graphics card<&#47;li>\n\t<li>If using molex power adapters to giver power to your card, make sure not all of them are on the same PSU rail<&#47;li>\n<&#47;ul>\n\n&#47;Poul"
+message: "Hi Owen\n\nHmmm, there are a few things you can try, but it sounds like a little bit of detective work might be needed :/ Could be a loose connection somewhere which breaks the PCI-E connection and / or power to the card.\n* Try using the other Thunderbolt port on the MacBook\n* Make sure the PCI-E riser is firmly attached to both the graphics card and AKiTiO Thunder2\n* Make sure the powered molex for the PCI-E riser is connected and all of the power connecters are connected to the graphics card\n* If using molex power adapters to giver power to your card, make sure not all of them are on the same PSU rail\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'ccc7fd90-0b03-4ce3-aade-e59a356dfb0b'
 hidden: ''
 date: '2015-07-27T18:37:07.000Z'
