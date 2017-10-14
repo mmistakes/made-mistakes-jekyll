@@ -1,6 +1,6 @@
 _id: 27b39949-8815-4ae3-a607-758626504fcc
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi AlGee  Yes, I have gotten the setup to work without an external monitor, also known as Optimus mode. You can read more in my post <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;external-graphics-card-egpu&#47;" rel="nofollow">here<&#47;a> and <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;windows-10-egpu-setup-optimus&#47;" rel="nofollow">here<&#47;a>. To sum it up, you must use Windows (8.x or 10 with the correct driver should be fine) since OSX does not support Optimus and your laptop must support Optimus (physically you need an intel iGPU that is hooked up to the laptop screen directly). Which laptop do you have?  &#47;Poul"
+message: "Hi AlGee\r\n\r\nYes, I have gotten the setup to work without an external monitor, also known as Optimus mode. You can read more in my post [here](/projects/external-graphics-card-egpu/) and [here](/projects/windows-10-egpu-setup-optimus/). To sum it up, you must use Windows (8.x or 10 with the correct driver should be fine) since OSX does not support Optimus and your laptop must support Optimus (physically you need an intel iGPU that is hooked up to the laptop screen directly). Which laptop do you have?\r\n\r\n/Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

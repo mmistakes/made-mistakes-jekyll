@@ -1,6 +1,6 @@
 _id: 58f202ff-3c50-4bb9-ad2e-171d58860fde
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: ""Hi Paul,\n\nHope you had a good vacation! It turns out there was a software problem somewhere along the line, a fresh 8.1 install solved my problems! \n\nHowever, I tried putting my setup sprawl into a case, and something must have broken because it's no longer working. The blue light will come on when my MacBook boots, but the fans will wobble every 7&#47;8 seconds and not register the egpu with my Mac like it used to, which bugs me as it was all working fine! \n\nThanks again, Owen""
+message: "Hi Paul,\n\nHope you had a good vacation! It turns out there was a software problem somewhere along the line, a fresh 8.1 install solved my problems! \n\nHowever, I tried putting my setup sprawl into a case, and something must have broken because it's no longer working. The blue light will come on when my MacBook boots, but the fans will wobble every 7&#47;8 seconds and not register the egpu with my Mac like it used to, which bugs me as it was all working fine! \n\nThanks again, Owen"
 name: Owen Green
 email: aecefc8f8f374cd3f20650a1b4fd2766
 url: ''

@@ -1,7 +1,7 @@
 _id: 93f4cd35-9e61-48ae-a98d-ece380e344b1
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Shahrookh  No, you need a Thunderbolt port for this to work. But depending on what ports you do have you can built a similar system. Take a look at my post <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;external-graphics-card-egpu&#47;" rel="nofollow">here<&#47;a> and scroll down to "PCIe enclosure". Something like the Bplus PE4L can use an Express card or mini PCIe slot. It is only a quarter of the bandwidth but plenty of horsepower. This is what I did in my post <a href="https:&#47;&#47;odd-one-out.serek.eu&#47;external-graphics-card-experiment-part-1&#47;" rel="nofollow">here<&#47;a> where you do not need the Express Card to Thunderbolt adapter.  &#47;Poul"
-name: Poul
+message: "Hi Shahrookh\r\n\r\nNo, you need a Thunderbolt port for this to work. But depending on what ports you do have you can built a similar system. Take a look at my post [here](/projects/external-graphics-card-egpu/) and scroll down to \"PCIe enclosure\". Something like the Bplus PE4L can use an Express card or mini PCIe slot. It is only a quarter of the bandwidth but plenty of horsepower. This is what I did in my post [here](/projects/external-graphics-card-experiment-part-1/) where you do not need the Express Card to Thunderbolt adapter.\r\n\r\n/Poul"
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

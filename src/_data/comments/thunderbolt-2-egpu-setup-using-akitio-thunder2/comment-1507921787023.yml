@@ -1,6 +1,6 @@
 _id: f4d11acd-0913-44f1-940b-1633bdeee209
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: ""Hi Niko\n\nIt depends, if the card can get enough power through the 6pin &#47; 8 pin connecters + the 25 watts of power through the AKiTiO Thunder2. I always recommend a powered PCIe riser to be sure not to run into any power issues, but often it is not needed. The added benefit of using a powered riser is that you do not need to use the power brick from the AKiTiO Thunder2. \n\n&#47;Poul""
+message: "Hi Niko\n\nIt depends, if the card can get enough power through the 6pin &#47; 8 pin connecters + the 25 watts of power through the AKiTiO Thunder2. I always recommend a powered PCIe riser to be sure not to run into any power issues, but often it is not needed. The added benefit of using a powered riser is that you do not need to use the power brick from the AKiTiO Thunder2. \n\n&#47;Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

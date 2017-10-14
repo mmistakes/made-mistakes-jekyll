@@ -1,6 +1,6 @@
 _id: 4d5bc9cf-e15d-4162-b92b-73910c2cd28b
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: ""Hi Patrick\n\nThe GTX 1050 TI you mentioned before does in fact draw up to 75 watts of power, the AKiTiO will only deliver 25 watts, take a look <a href=\"http:&#47;&#47;www.tomshardware.com&#47;reviews&#47;nvidia-geforce-gtx-1050-ti,4787-6.html\" rel=\"nofollow\">here<&#47;a>. The 1060 and 1070 uses even more power which the AKiTiO can not handle safely without an external power supply. My advise is to stick with a card that draws a maximum 75 watts of power and buy the 120 watts power supply. \n\n&#47;Poul""
+message: "Hi Patrick\n\nThe GTX 1050 TI you mentioned before does in fact draw up to 75 watts of power, the AKiTiO will only deliver 25 watts, take a look <a href=\"http:&#47;&#47;www.tomshardware.com&#47;reviews&#47;nvidia-geforce-gtx-1050-ti,4787-6.html\" rel=\"nofollow\">here<&#47;a>. The 1060 and 1070 uses even more power which the AKiTiO can not handle safely without an external power supply. My advise is to stick with a card that draws a maximum 75 watts of power and buy the 120 watts power supply. \n\n&#47;Poul"
 name: Poul
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

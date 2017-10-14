@@ -1,6 +1,6 @@
 _id: 3a97f280-7fa1-437f-a6c9-9320e85acc1f
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Then you should be fine. The PSU CORSAIR CX500M looks perfect for the job, I saw it has two pci-e connectors which the GTX 970 &#47; 980 needs. The ENERMAX is just an old PSU I had lying around. The 500 watt is a total system recommendation, the actual cards themselves draws much less, take a look <a href="http:&#47;&#47;www.guru3d.com&#47;articles-pages&#47;nvidia-geforce-gtx-970-and-980-reference-review,7.html" rel="nofollow">here<&#47;a>"
+message: "Then you should be fine. The PSU CORSAIR CX500M looks perfect for the job, I saw it has two pci-e connectors which the GTX 970 / 980 needs. The ENERMAX is just an old PSU I had lying around. The 500 watt is a total system recommendation, the actual cards themselves draws much less, take a look [here](http://www.guru3d.com/articles-pages/nvidia-geforce-gtx-970-and-980-reference-review,7.html)"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: ''
