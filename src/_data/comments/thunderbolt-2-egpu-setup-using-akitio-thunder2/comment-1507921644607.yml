@@ -1,9 +1,9 @@
 _id: 00914fba-0931-4064-baa9-fab24016963f
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hmm ok. No need to send me the log files if they are the same. I would still like some log files from the crash, it could give a pointer to what is going on. Since the only difference is added hardware and therefore memory allocation in PCI space, then DIY eGPU setup might be the issue\n \n<ol>\n\t<li>Do you use PCI compaction to get enough memory available to the GPU? If yes, then you might need to do a PCI compaction with both the eGPU and Thunderbolt dock connected. When I connected other devices after doing the first compaction I would get strange behaviour<&#47;li>\n\t<li>If it turns out it is a PCI compaction issue and you are enable to free enough space because of the Thunderbolt dock, then you might need to to a DSDT override into 36 bit space<&#47;li>\n\t<li>As a last resort you might also want to upgrade to DIY eGPU 1.30 which is the version I used to use<&#47;li>\n<&#47;ol>\n\nIf we are lucky the PCI compaction might reveal what is wrong. Please let me know about 1) and 2) first\n\n&#47;Poul"
+message: "Hmm ok. No need to send me the log files if they are the same. I would still like some log files from the crash, it could give a pointer to what is going on. Since the only difference is added hardware and therefore memory allocation in PCI space, then DIY eGPU setup might be the issue\n\n1. Do you use PCI compaction to get enough memory available to the GPU? If yes, then you might need to do a PCI compaction with both the eGPU and Thunderbolt dock connected. When I connected other devices after doing the first compaction I would get strange behaviour\n2. If it turns out it is a PCI compaction issue and you are enable to free enough space because of the Thunderbolt dock, then you might need to to a DSDT override into 36 bit space\n3. As a last resort you might also want to upgrade to DIY eGPU 1.30 which is the version I used to use\n\nIf we are lucky the PCI compaction might reveal what is wrong. Please let me know about 1. and 2. first\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '5bbd5079-99d3-41c8-bc75-2ce9f2e4919a'
 hidden: ''
 date: '2015-05-26T18:17:12.000Z'

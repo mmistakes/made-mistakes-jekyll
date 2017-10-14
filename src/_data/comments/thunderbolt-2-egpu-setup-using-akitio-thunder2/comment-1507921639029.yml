@@ -1,6 +1,6 @@
 _id: 5bbd5079-99d3-41c8-bc75-2ce9f2e4919a
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hello everyone,\n\nI'm using almost an identical setup (macbook air 2012 -> akitio thunder 2 -> gtx 960). Everything is working fine but I need to connect my Belkin Thunderbolt Dock to be able to use Lan, my headset and... However if I connect Macbookair -> Dock -> Egpu, the Egpu won't get recognized. If I connect Macbookair -> Egpu -> Dock, the macbook crashes during startup (when the 4 dots of windows 7 make their animation) an that every time...\nDoes anyone have any idea how to solve this problem? \n\nBest regards\nCarl"
+message: "Hello everyone,\n\nI'm using almost an identical setup (macbook air 2012 -> akitio thunder 2 -> gtx 960). Everything is working fine but I need to connect my Belkin Thunderbolt Dock to be able to use Lan, my headset and... However if I connect Macbookair -> Dock -> Egpu, the Egpu won't get recognized. If I connect Macbookair -> Egpu -> Dock, the macbook crashes during startup (when the 4 dots of windows 7 make their animation) an that every time...\nDoes anyone have any idea how to solve this problem? \n\nBest regards\n\nCarl"
 name: Carl M
 email: bd541e97700738a0f8437a2916104bcf
 url: ''

@@ -1,9 +1,9 @@
 _id: 331c4744-fcec-4486-b4f8-5b104aaf5cfc
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Carl\n\nI also use a Thunderbolt dock that is connected like this \n\nMacBook --> eGPU --> Dock\n\nThere are a few options to troubleshoot here\n<ol>\n\t<li>Try booting the setup as described above but without anything connected to the Belkin Thunderbolt hub, just the Thunderbolt cable. Sometimes a USB device or something can cause a crash (it did in my previous eGPU setup!)<&#47;li>\n\t<li>Does the Belkin dock work when you don't use the eGPU? MacBook --> Dock?<&#47;li>\n\t<li>Do you use an external monitor? If yes, how is the monitor connected, directly to the graphic card or through the HDMI port of the Belkin dock?<&#47;li>\n\t<li>You are using Windows 7, is it installed as UEFI or BIOS? Check <a href=\"http:&#47;&#47;blogs.technet.com&#47;b&#47;home_is_where_i_lay_my_head&#47;archive&#47;2012&#47;10&#47;02&#47;how-to-check-in-windows-if-you-are-using-uefi.aspx\" rel=\"nofollow\">this<&#47;a> guide to find it. It might be that the Belkin is taking up some memory space that the eGPU setup needs.<&#47;li>\n<&#47;ol>\n\n&#47;Poul"
+message: "Hi Carl\n\nI also use a Thunderbolt dock that is connected like this \n\nMacBook --> eGPU --> Dock\n\nThere are a few options to troubleshoot here\n1. Try booting the setup as described above but without anything connected to the Belkin Thunderbolt hub, just the Thunderbolt cable. Sometimes a USB device or something can cause a crash (it did in my previous eGPU setup!)\n2. Does the Belkin dock work when you don't use the eGPU? MacBook --> Dock?\n3. Do you use an external monitor? If yes, how is the monitor connected, directly to the graphic card or through the HDMI port of the Belkin dock?\n4. You are using Windows 7, is it installed as UEFI or BIOS? Check [this](http://blogs.technet.com/b/home_is_where_i_lay_my_head/archive/2012/10/02/how-to-check-in-windows-if-you-are-using-uefi.aspx) guide to find it. It might be that the Belkin is taking up some memory space that the eGPU setup needs.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '5bbd5079-99d3-41c8-bc75-2ce9f2e4919a'
 hidden: ''
 date: '2015-05-25T11:21:04.000Z'

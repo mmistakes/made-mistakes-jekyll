@@ -1,9 +1,9 @@
 _id: b68c6a51-3adf-4e6e-b34f-ee7bd1b2ed39
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Poul hotplug didn't work me. And I saw this morning that I am still using DiY egpu Setup 1.20. Will that be a problem? I enabled boot logging and in both files there are many drivers not loaded. However they are the same ones which loaded and which didn't. If you like I can send you both of the files.  Carl"
+message: "Hi Poul \nhotplug didn't work me. And I saw this morning that I am still using DiY egpu Setup 1.20. Will that be a problem? I enabled boot logging and in both files there are many drivers not loaded. However they are the same ones which loaded and which didn't. If you like I can send you both of the files.\n\nCarl"
 name: Carl M
 email: bd541e97700738a0f8437a2916104bcf
 url: ''
-replying_to: ''
+replying_to: '5bbd5079-99d3-41c8-bc75-2ce9f2e4919a'
 hidden: ''
 date: '2015-05-26T09:08:23.000Z'
