@@ -1,9 +1,9 @@
 _id: c4dcaf1b-7624-4f7e-be4d-8e1bfb99bddc
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Thanks! In the past having an internal discrete gpu could cause trouble, however according to this post \n\nhttp:&#47;&#47;forum.techinferno.com&#47;implementation-guides-apple&#47;8219-2014-15-macbook-pro-gt750m-gtx970%4016gbps-tb2-akitio-thunder2-win8-1-%5Btre87%5D.html\n\nIt should work just fine. If you use windows and have an intel gpu that support Optimus like the macbook pro, then you can use the external gpu to drive the internal laptop display. This can be a bit tricky depending on which hardware you have, but if you have an EVGA NVIDIA GPU you should be fine, else I would recommend searching a bit on google. If you use OS X then you need to attach an external display to the eGPU setup since Optimus is a windows only feature"
+message: "Thanks! In the past having an internal discrete gpu could cause trouble, however according to this post \n\n[http://forum.techinferno.com/implementation-guides-apple/8219-2014-15-macbook-pro-gt750m-gtx970%4016gbps-tb2-akitio-thunder2-win8-1-%5Btre87%5D.html]()\n\nIt should work just fine. If you use windows and have an intel gpu that support Optimus like the macbook pro, then you can use the external gpu to drive the internal laptop display. This can be a bit tricky depending on which hardware you have, but if you have an EVGA NVIDIA GPU you should be fine, else I would recommend searching a bit on google. If you use OS X then you need to attach an external display to the eGPU setup since Optimus is a windows only feature"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: ''
-replying_to: ''
+replying_to: '5c6b69e1-b5f9-48ad-8e13-12faf6c8b165'
 hidden: ''
 date: '2015-04-23T21:43:43.000Z'

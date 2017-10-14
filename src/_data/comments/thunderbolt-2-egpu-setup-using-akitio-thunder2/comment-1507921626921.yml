@@ -1,9 +1,9 @@
 _id: 47b51c73-57c7-439d-9362-b2df4e0fe2f9
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|Michael\r\n\r\nTo answer your second question: \r\n> I want to use this solution with the MacBook Pro 15\" (late 2013), and an eGPU to connect 4K monitor (Benq3201pt). Will I get 4K at frequency of 60Hz? I plan to use GeForce GTX 970. As far as I know none of MacBook can output a resolution with such frequency using internal GPU\r\n\r\nIt should be able to do 4K at 60Hz just fine depending on the game, again according to [this](http://www.techpowerup.com/reviews/NVIDIA/GTX_980_PCI-Express_Scaling/3.html) post. It is the GTX 980, but it is close to your GTX 970 which I also own. If you cannot hit 60 frames per second, it is probably a limitation of the GPU and settings more than the bandwidth."
+message: "Hi Michael\n\nTo answer your second question: \n> I want to use this solution with the MacBook Pro 15\" (late 2013), and an eGPU to connect 4K monitor (Benq3201pt). Will I get 4K at frequency of 60Hz? I plan to use GeForce GTX 970. As far as I know none of MacBook can output a resolution with such frequency using internal GPU\n\nIt should be able to do 4K at 60Hz just fine depending on the game, again according to [this](http://www.techpowerup.com/reviews/NVIDIA/GTX_980_PCI-Express_Scaling/3.html) post. It is the GTX 980, but it is close to your GTX 970 which I also own. If you cannot hit 60 frames per second, it is probably a limitation of the GPU and settings more than the bandwidth."
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: ''
-replying_to: ''
+replying_to: 'cd856a54-ed45-4551-b075-baafd0cad561'
 hidden: ''
 date: '2015-04-18T16:42:29.000Z'
