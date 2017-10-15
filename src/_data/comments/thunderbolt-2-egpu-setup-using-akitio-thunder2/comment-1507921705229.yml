@@ -1,7 +1,7 @@
 _id: c7f67f1d-b9d2-46ef-baa8-357a253e932d
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi Tom\n\nHappy to encourage you! Yes, you should be fine with as you have an UEFI install. \n\nWhen you plugin the GTX 960 directly into the AKiTiO Thunder2 you can draw a maximum of 25 watts from the PCIe port itself and 75 watts from the 6-pin connector to the GTX 960 itself which is 100 watts total. The card needs more than that, 128 watts according to the link you posted. A normal full length PCIe slot can supply 75 watts of power, but the AKiTiO Thunder limits this to 25 watts because of the small power supply unit. So normally you would have 75 + 75 = 150 watts of power, plenty for the card. If the card had an 8-pin connector (150 watts) or two 6-pin connectors (75+75=150 watts) we would have enough power without the power from the PCIe port. To solve the problem with the AKiTiO Thunder2 not supplying enough power we can do one of two things:\n\n<ol>\n\t<li>Upgrade the AKiTiO Thunder2 power supply to a 120 watt, this enables the AKiTiO Thunder2 to safely supply 75 watts from the PCIe port<&#47;li>\n\t<li>Use a powered riser to the missing 50 watts of power from the PCIe port<&#47;li>\n<&#47;ol>\n\nSo the riser is just a solution to be sure that the GTX 960 can to draw more than 25 watt of power through the PCIe port. An added perk is that with a powered riser you don't need the power supply from the AKiTiO Thunder2 anymore, it also powers the Thunder2.\n\nHope that answers your question.\n\n&#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

@@ -1,9 +1,9 @@
 _id: 38ceb861-83d8-4021-b712-c5b76538ddab
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Michael\r\n\r\nAccording to this [page](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-980/specifications) a reference GTX 980 have 2 6 pin connectors that supplies 75watts each and the PCIe port itself can supply another 75watts = 225watt. Add another 25% as we don't like running a power supply fully loaded = 270 watt. Round up to 300 watts and that is you target for how much the power supply should be able to deliver on the 12v rail. Since not all power from a power supply is 12v, you should aim for a 400 - 500 watt quality power supply or higher.\r\n\r\n/Poul"
-name: Poul
+message: "Hi Michael\n\nAccording to this [page](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-980/specifications) a reference GTX 980 have 2 6 pin connectors that supplies 75watts each and the PCIe port itself can supply another 75watts = 225watt. Add another 25% as we don't like running a power supply fully loaded = 270 watt. Round up to 300 watts and that is you target for how much the power supply should be able to deliver on the 12v rail. Since not all power from a power supply is 12v, you should aim for a 400 - 500 watt quality power supply or higher.\n\n/Poul"
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '4086ed1c-1594-4299-8a42-c9b1932c54d1'
 hidden: ''
 date: '2016-03-02T07:32:07.000Z'

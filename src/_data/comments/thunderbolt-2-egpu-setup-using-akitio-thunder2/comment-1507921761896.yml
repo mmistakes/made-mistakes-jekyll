@@ -1,7 +1,7 @@
 _id: c02c1e37-3a92-4c15-87bf-7d9fbd539d62
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi Andrew\n\nYes, you would need a Thunderbolt 3 to 2 adapter, but they are quite pricy. I would recommend a Thunderbolt 3 eGPU solution since you get even more plug and play, but yes it is pricy and not perfect. I am not sure Optimus is supported in linux so you will need an external monitor to get great performance. And I am not sure Thunderbolt 3 support is included in the kernel, check out <a href=\"http:&#47;&#47;www.digitaltrends.com&#47;computing&#47;dell-xps-13-dev-thunderbolt&#47;\" rel=\"nofollow\">this<&#47;a> post. But once the support is in the kernel it should work, but I would search the internet a bit more to confirm it. \n\n&#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

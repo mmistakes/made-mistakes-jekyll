@@ -1,7 +1,7 @@
 _id: 92a21c1a-1c1b-4d12-acd1-467723d7f225
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi John\n\nThe card draws 128 watt if it is the EVGA one as far as I can see and it has a single 6-pin connector. Without a riser the maximum power you can get is 75 (from the 6-pin connector) + 25 (from the AKiTiO PCIe port) = 100 watt which is too little. Normally the cards expect to be able to draw 75 watts from the PCIe port, but the AKiTiO Thunder 2 limits this to. IF you have a 8-pin connecter, then you can draw 150 + 25 = 175 watts which is more than enough. You can solve this problem by\n\n<ol>\t\n<li>Use a powered PCI riser<&#47;li>\t\n<li>Upgrade the power brick to the AKiTiO Thunder 2 to 120 watt. This will ensure 75 watts of power through the PCIe port<&#47;li>\n\n\n<&#47;ol>\n\n&#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

@@ -1,7 +1,7 @@
 _id: 925e1805-b4a9-4563-9855-9ca48469abcb
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi MacnOOb\n\nDepending on which GTX 960 from EVGA it is, the cards draws between 128 and 160 watts, check out this page <a href=\"http:&#47;&#47;www.evga.com&#47;Products&#47;Product.aspx?pn=02G-P4-2962-KR\" rel=\"nofollow\">here<&#47;a>. If the card only draws 128 watts it only has a 6-pin connecter that delivers 75 watts of power. The AKiTiO Thunder 2 is limited to 25 watts of power so that totals to 100 watts total which is not enough to power the card under full load. You could upgrade the power supply of the AKiTiO Thunder 2 to 120 watt power brick and get the full 75 watts of power from the PCIe port which would be enough. If the card draws 160 watt it has a 8-pin connector that can supply 150 watts + 25 watt from the AKiTiO Thunder 2 = 175 watt which is enough. \n\nWith a PCIe riser you can avoid all this and don't mix two different power supplies, one for the AKiTiO Thunder 2 and one for the GPU (6&#47;8-pin power connector). You could also buy a large 200+ watt power brick and split the power between the AKiTiO Thunder 2 and the GPU, but make sure you do not give the AKiTiO Thunder 2 more than 120 watts of power!\n\nYou just download the official NVIDIA drivers from their webpage for OS X and follow <a href=\"http:&#47;&#47;www.journaldulapin.com&#47;2014&#47;12&#47;04&#47;a-nvidia-maxwell-card-with-thunderbolt-on-a-mac-running-yosemite&#47;\" rel=\"nofollow\">this<&#47;a> guide.\n\n&#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

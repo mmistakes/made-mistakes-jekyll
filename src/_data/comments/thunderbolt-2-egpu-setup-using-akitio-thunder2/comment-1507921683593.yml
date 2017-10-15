@@ -1,9 +1,9 @@
 _id: ea10d8dc-da2e-4259-b813-2c1efc0c02b8
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Michael  If I understand your question correctly you are asking which port is fastes, Thunderbolt 1 or Mini PCIe. Thunderbolt 1 is 10 Gbit&#47;s per device while Mini PCIe is limited to 2.5 Gbit&#47;s for PCI v1.0 and 5 Gbit&#47;s for PCI v2.0. I am not sure if Mini PCIe supports PCI v3.0 or v4.0, but if it does the speed is 8 Gbit&#47;s or 16 Gbit&#47;s. So it really depends on which version of Mini PCIe you have, but most likely Thunderbolt 1 is the fastes for eGPU.  &#47;Poul"
-name: Poul
+message: "Hi Michael\n\nIf I understand your question correctly you are asking which port is fastes, Thunderbolt 1 or Mini PCIe. Thunderbolt 1 is 10 Gbit/s per device while Mini PCIe is limited to 2.5 Gbit/s for PCI v1.0 and 5 Gbit/s for PCI v2.0. I am not sure if Mini PCIe supports PCI v3.0 or v4.0, but if it does the speed is 8 Gbit/s or 16 Gbit/s. So it really depends on which version of Mini PCIe you have, but most likely Thunderbolt 1 is the fastes for eGPU.\n\n/Poul"
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '1c2f6495-a1b7-40c4-9d9d-af79e6c02a0b'
 hidden: ''
 date: '2016-03-06T13:03:22.000Z'

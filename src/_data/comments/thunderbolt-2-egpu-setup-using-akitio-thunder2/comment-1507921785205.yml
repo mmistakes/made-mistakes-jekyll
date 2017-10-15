@@ -1,7 +1,7 @@
 _id: 0302b82f-7ac1-40f0-b19a-2d4303989ac7
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "|- Hi Rocco  The numbers do add up, the card should only draw 75 watts of power trough the PCIe port and the 120 watt brick should be able to supply it.  &#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

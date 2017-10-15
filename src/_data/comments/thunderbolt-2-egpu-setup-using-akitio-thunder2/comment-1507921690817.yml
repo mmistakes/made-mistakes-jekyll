@@ -1,7 +1,7 @@
 _id: 2acc1809-c1c6-4278-baa4-80bd7618e4ef
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "|- Hi Roy  Glad you find the guide helpful! It is not possible to use the AKiTiO Thunder2 Quad for eGPU, it is only for storage. I would recommend getting two AKiTiO Thunder2 PCIe enclosures since they are cheap. You can also opt for the Sonnet Echo Express SE II for about the same price as two AKiTiOs which does have 2 PCIe slots for graphics cards, but I did have some issues with the Sonnet back when I ran it with Windows 7 BIOS. If I used it today with Windows 10 UEFI I might have had a better experience with it.  &#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

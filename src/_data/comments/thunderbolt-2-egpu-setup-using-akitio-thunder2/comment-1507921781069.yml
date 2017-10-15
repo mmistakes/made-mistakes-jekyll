@@ -1,7 +1,7 @@
 _id: dad56597-856d-4715-9502-78323c7af3d2
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "|- Hi Patrick  I have not tried it, but the numbers do stack up. The cards draws around 120 watts as far as I can see and 75 watts can safely be supplied through the AKiTiO Thunder 2, the rest needs to be through the 75 watt 6-pin connector. So you cannot safely just use the molex to barrel adapter without also connecting a 6-pin connector to the card itself as 120 watts is too much for the AKiTiO through the PCIe port alone.  &#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

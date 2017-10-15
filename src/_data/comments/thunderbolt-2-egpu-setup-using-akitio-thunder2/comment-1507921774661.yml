@@ -1,7 +1,7 @@
 _id: c0aa323f-913b-465b-94b5-e396fa7484d4
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi Blaster\r\n\r\nThe G751 series does not support Optimus so you will not be able to use a GPU attached to Thunderbolt 2 on the internal laptop screen, but it should be possible using an external monitor. I would however confirm / ask around at TechInferno since I don't know if there are any issues using setups like these with the g751. Since the performance drop is quite low, especially at high resolutions, it should give you much better performance. Take a look [here](https://www.techpowerup.com/reviews/NVIDIA/GTX_980_PCI-Express_Scaling/3.html) to see the performance loss in different games, the green bars are the performance you can expect from Thunderbolt 2. Then you just need to compare the performance of GTX965M and the card you want.\r\n\r\n/Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

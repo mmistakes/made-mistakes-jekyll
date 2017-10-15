@@ -1,7 +1,7 @@
 _id: d0f78070-d924-4a9d-a6a6-d65223c5541f
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Evan  Yes, I have seen a few do this, but the riser is primarily used to be sure that the card can draw enough power from the PCIe port and eliminate the power supply from AKiTiO.  &#47;Poul"
-name: Poul
+message: "Hi Evan\n\nYes, I have seen a few do this, but the riser is primarily used to be sure that the card can draw enough power from the PCIe port and eliminate the power supply from AKiTiO.\n\n/Poul"
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

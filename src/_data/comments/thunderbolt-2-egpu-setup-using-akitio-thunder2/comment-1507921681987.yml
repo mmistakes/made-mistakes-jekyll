@@ -1,6 +1,6 @@
 _id: a59a44fa-a8c9-4ba4-85f7-602e130312d5
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hello! I've gotten this working with a Quadro K2200 card. My only issues is I need to have a monitor plugged into the card for my system to recognize it. Did you get this to work without plugging a monitor into the graphics card?  When I don't have a monitor plugged into the graphics card and go to the Nvidia control panel--no options show up. Thanks a lot!"
+message: "Hello! I've gotten this working with a Quadro K2200 card. My only issues is I need to have a monitor plugged into the card for my system to recognize it. Did you get this to work without plugging a monitor into the graphics card?\n\nWhen I don't have a monitor plugged into the graphics card and go to the Nvidia control panel-no options show up. Thanks a lot!"
 name: AlGee
 email: 64c7866cbb12b660ea43900ab38fd66b
 url: ''

@@ -1,6 +1,6 @@
 _id: cd91c098-b3b0-4dbd-a643-54faa8f69164
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hello\n\nWhy everybody talks about windows !? :)\n\nDoes it work on os x would be much more interesting. I have a mac because of os x mainly, other then that there might be better options for running windows. \nAnyway I would need it to run graphic application who support multiple gpu. Currently running a mac pro, most of the processing can be offloaded on the gpu, so a current mbp with a good external gpu would do a great job.\n\nBesides the r9 nano is out and should fit into the aktitio thunder2 native. Not sure about the power consumption. I did not find any drivers for mac os though from ati. Nvidia always provides mac drivers now.\n\nBest regards"
+message: "Hello\n\nWhy everybody talks about windows !? :)\n\nDoes it work on os x would be much more interesting. I have a mac because of os x mainly, other then that there might be better options for running windows.  \nAnyway I would need it to run graphic application who support multiple gpu. Currently running a mac pro, most of the processing can be offloaded on the gpu, so a current mbp with a good external gpu would do a great job.\n\nBesides the r9 nano is out and should fit into the aktitio thunder2 native. Not sure about the power consumption. I did not find any drivers for mac os though from ati. Nvidia always provides mac drivers now.\n\nBest regards"
 name: Toni
 email: 3ae68cc42ed8d1d372d1e26f6c798e23
 url: ''

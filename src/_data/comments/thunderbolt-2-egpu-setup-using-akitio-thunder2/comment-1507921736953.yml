@@ -1,7 +1,7 @@
 _id: d38cbeb6-8bf4-45a5-8f73-a4cf6b90e8e8
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "|- Hi Tom  Ok lets try to fix it. Did you do the full shutdown of both power supplies and Windows as I mentioned before? Are you using an external monitor? Are you using a powered PCIe riser? Are you using the same Thunderbolt port as before?  &#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

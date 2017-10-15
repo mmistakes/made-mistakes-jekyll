@@ -1,7 +1,7 @@
 _id: 525dda83-c638-4351-908d-ecf987d3bf3a
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi Martin\r\n\r\nYou should see a huge improvement in frame rate, you are comparing a mobile graphics card to a desktop version. Just take a look [here](http://gpu.userbenchmark.com/Compare/Nvidia-GTX-980-Ti-vs-Nvidia-GTX-880M/3439vsm8540). And the performance hit for Thunderbolt 2 type setups are minimal as you can see [here](https://www.techpowerup.com/reviews/NVIDIA/GTX_980_PCI-Express_Scaling/3.html).\r\n\r\nYou might want to wait and get the GTX 1080 which is out very soon.\r\n\r\n/Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

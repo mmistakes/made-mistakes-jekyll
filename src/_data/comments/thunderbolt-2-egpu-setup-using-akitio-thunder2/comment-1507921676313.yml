@@ -1,9 +1,9 @@
 _id: 405674c2-970a-4c0f-b88f-81a61e5eb4f9
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Vikramjit\r\n\r\nYes it is possible with the correct hardware. Take a look at my post [here](/projects/external-graphics-card-egpu/) that explains the requirements to use the internal screen of the laptop. To sum it up, the recommended way and the most popular is to have a Optimus enabled laptop and a NVIDIA graphics card. There are other ways of getting it to work, but I have not tried this myself, but check out [this](https://www.techinferno.com/index.php?/forums/topic/2324-lucidlogix-virtu-internal-lcd-mode-for-amd-egpus/#comment-37598) post where you can use third party software for getting AMD graphics cards to work using the internal screen.\r\n\r\n/Poul"
+message: "Hi Vikramjit\n\nYes it is possible with the correct hardware. Take a look at my post [here](/projects/external-graphics-card-egpu/) that explains the requirements to use the internal screen of the laptop. To sum it up, the recommended way and the most popular is to have a Optimus enabled laptop and a NVIDIA graphics card. There are other ways of getting it to work, but I have not tried this myself, but check out [this](https://www.techinferno.com/index.php?/forums/topic/2324-lucidlogix-virtu-internal-lcd-mode-for-amd-egpus/#comment-37598) post where you can use third party software for getting AMD graphics cards to work using the internal screen.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'e7611fff-b481-4a8f-b2c3-29547b89ee04'
 hidden: ''
 date: '2015-11-15T20:22:25.000Z'

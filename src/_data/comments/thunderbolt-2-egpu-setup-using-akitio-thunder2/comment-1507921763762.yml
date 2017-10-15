@@ -1,7 +1,7 @@
 _id: 6ae287ff-32dc-4637-9a7f-0c3bf17a57b6
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi Fahim\r\n\r\nIt sounds like a power issue. Do you use a powered riser or a 120 watt power brick with the AKiTiO Thunder2? If you do not, the card might not get enough power if you are using a 6-pin connector since the PCIe port from the AKiTiO Thunder2 can only supply 25 watts + 75 watts from the 6-pin connector = 100 watts which is not enough according to [this](http://www.evga.com/Products/Product.aspx?pn=02G-P4-1952-KR). If you are using a card with a 8-pin connector you should be fine. Also a low quality power supply can be the problem.\r\n\r\n/Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

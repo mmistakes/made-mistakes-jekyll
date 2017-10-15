@@ -1,7 +1,7 @@
 _id: b772d13f-d227-44f5-b3b5-a3520efe021d
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "Hi Chris\n\nMake sure the barrel plug is correct +&#47;- wise. And with a powered PCIe riser you don't need anything plugged into the barrel connector. \n\n&#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''

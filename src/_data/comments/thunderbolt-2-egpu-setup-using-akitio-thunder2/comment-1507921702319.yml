@@ -1,7 +1,7 @@
 _id: 826440d5-7848-46bd-a867-5cc1c7a90880
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
 message: "|- Hi Tom  It should just be fine with a quality 360 watt power supply. The recommended power supply is the total system including CPU, motherboard, harddisk and so on. The actual card is rated for 128 watt max, but take this with a grain of salt as cards can draw much more for shorter periods of time. But 360 watts should be plenty of power.  &#47;Poul"
-name: Poul
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
 replying_to: ''
