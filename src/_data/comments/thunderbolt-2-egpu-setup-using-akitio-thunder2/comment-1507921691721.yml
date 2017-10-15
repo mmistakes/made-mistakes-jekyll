@@ -1,9 +1,9 @@
 _id: 0d929edf-037a-4985-bb2d-707f27f426f6
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- I use the riser to be sure that the graphics card can draw up to 75 watts of power through the PCIe port, the AKiTiO Thunder2 can only supply 25 watts with the supplied power brick. If you get enough power from the 6pin &#47; 8pin power connecters alone and don't need the 75 watts of power from the PCIe port, then you should be fine. Any card will fit in the AKiTiO PCIe slot, but you might have to unscrew the motherboard from the box or modify it a bit to fit the larger graphic cards.  &#47;Poul"
+message: "I use the riser to be sure that the graphics card can draw up to 75 watts of power through the PCIe port, the AKiTiO Thunder2 can only supply 25 watts with the supplied power brick. If you get enough power from the 6pin / 8pin power connecters alone and don't need the 75 watts of power from the PCIe port, then you should be fine. Any card will fit in the AKiTiO PCIe slot, but you might have to unscrew the motherboard from the box or modify it a bit to fit the larger graphic cards.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '8193d6d6-c4ca-4749-a20c-28b80083e2c8'
 hidden: ''
 date: '2016-03-20T21:51:10.000Z'
