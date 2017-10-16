@@ -3,11 +3,11 @@ require 'html-proofer'
 task :test do
   options = {
     :checks_to_ignore => ['ImageCheck'],
-    :internal_domains => ['mademistakes.com'],
+    :internal_domains => ['ox3.serek.eu'],
     :cache => {
       :timeframe => '30d'
     },
-    :url_ignore => [/(twitter|instagram|sktchy|mix.fiftythree|paper.fiftythree).com/],
+    :url_ignore => [/(twitter|instagram|facebook).com/],
     # disable SSL certificates
     :typhoeus => {
       :ssl_verifypeer => false,
