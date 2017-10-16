@@ -16,7 +16,7 @@
     "url": "https://github.com/mmistakes/made-mistakes-jekyll/issues"
   },
   "devDependencies": {
-    "autoprefixer": "^6.2.3",
+    "autoprefixer": "^7.1.5",
     "browser-sync": "^2.11.0",
     "concurrent-transform": "^1.0.0",
     "critical": "^0.7.3",
@@ -56,5 +56,12 @@
     "through2": "^2.0.1",
     "yargs": "^4.7.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "postcss": "^6.0.13"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "IE 9"
+  ]
 }
