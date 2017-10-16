@@ -74,16 +74,8 @@ gulp.task('styles', () => {
     .pipe(when(!argv.prod, sourcemaps.init()))
     // preprocess Sass
     .pipe(sass({precision: 10}).on('error', sass.logError))
-    .pipe(postcss([
-      // add vendor prefixes
-      autoprefixer({
-        browsers: [
-          'last 2 versions',
-          '> 5%',
-          'IE 9'
-        ]
-      })
-    ]))
+    // add-remove vendor prefixes
+    .pipe(postcss([ autoprefixer() ]))
     // minify for production
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
     .pipe(size({showFiles: true}))
