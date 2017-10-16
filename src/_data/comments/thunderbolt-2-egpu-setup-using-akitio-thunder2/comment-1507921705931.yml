@@ -1,9 +1,9 @@
 _id: 10489809-9b9c-4b87-a51c-a8c46083f996
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Ah okay cool! While I actually got this exact card:  http:&#47;&#47;www.newegg.com&#47;Product&#47;Product.aspx?Item=N82E16814487091  It is indeed an 8 pin adapter on the card, (and also comes with a 6+6 pin to 8 pin adapter which is what I would use) would I not be correct in assuming this would be sufficient to power the card with the 500w power supply I have? I would not be using the power supply on the Thunder2 at all in this configuration, assuming I don't need to. Thank you very much for your help in everything and for finally giving me the courage to go ahead and do this.  I'll be sure to write about this and post plenty of pictures when I am done! Thank you again for your patience."
+message: "Ah okay cool! While I actually got this exact card:\n\n[http://www.newegg.com/Product/Product.aspx?Item=N82E16814487091]()\n\nIt is indeed an 8 pin adapter on the card, (and also comes with a 6+6 pin to 8 pin adapter which is what I would use) would I not be correct in assuming this would be sufficient to power the card with the 500w power supply I have? I would not be using the power supply on the Thunder2 at all in this configuration, assuming I don't need to. Thank you very much for your help in everything and for finally giving me the courage to go ahead and do this.\n\nI'll be sure to write about this and post plenty of pictures when I am done! Thank you again for your patience."
 name: Tom Lube
 email: 40bf3724721153defcac3bb56e588bc5
 url: ''
-replying_to: ''
+replying_to: 'fe92bf96-944e-4230-948f-2607d2568d21'
 hidden: ''
 date: '2016-05-09T20:05:06.000Z'
