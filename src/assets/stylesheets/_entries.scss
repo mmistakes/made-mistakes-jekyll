@@ -72,7 +72,6 @@
    ========================================================================== */
 
 .entries {
-
   .entry-title {
     word-wrap: break-word; /* break long words that could overflow */
 
@@ -134,7 +133,6 @@
   }
 
   > .summary {
-
     > p:first-child {
       font-size: 1.125em;
       line-height: 1.625;
@@ -143,7 +141,6 @@
 }
 
 .entry-content {
-
   > p:first-child {
     font-family: $headline-font-family;
     font-size: 1.125em;
@@ -161,7 +158,6 @@
 }
 
 .entry-comments {
-
   .section-title {
     position: relative;
     margin-top: 4rem;
@@ -175,7 +171,7 @@
       width: 3em;
       height: 0.25em;
       background-color: $border-color;
-      content: '';
+      content: "";
     }
   }
 }

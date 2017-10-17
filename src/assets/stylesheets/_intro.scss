@@ -19,7 +19,6 @@
 }
 
 .intro-text {
-
   /* remove space after last child element */
   > *:last-child {
     margin-bottom: 0;
@@ -47,7 +46,6 @@
 }
 
 .intro-more {
-
   > p:first-child {
     font-family: $headline-font-family;
     font-size: 1.125em;

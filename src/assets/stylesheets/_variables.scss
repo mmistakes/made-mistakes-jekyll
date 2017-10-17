@@ -19,11 +19,15 @@ $max-font-size: 20px;
 $modular-scale-1: 1.067; /* small */
 $modular-scale-2: 1.296; /* large */
 /* Heading 1 */
-$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size;
-$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size;
+$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+  $modular-scale-1 * $base-font-size;
+$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+  $modular-scale-2 * $base-font-size;
 /* Heading 2 */
-$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size;
-$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size;
+$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+  $base-font-size;
+$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+  $base-font-size;
 /* Heading 3 */
 $h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size;
 $h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size;
@@ -41,7 +45,8 @@ $h6-max: ($base-font-size / $modular-scale-2);
 $base-font-family: "Roboto", sans-serif;
 /* Other font families */
 $headline-font-family: "Fira Sans", sans-serif;
-$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
+$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
+  monospace;
 
 /* Colors */
 $base-color: #393e46;
@@ -88,7 +93,8 @@ $form-border-color-hover: mix(#000, $border-color, 10%);
 $form-border-color-focus: $base-color;
 $form-border-radius: $border-radius;
 $form-box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(mix(#000, $form-border-color-focus, 10%), 0.7);
+$form-box-shadow-focus: $form-box-shadow,
+  0 0 5px rgba(mix(#000, $form-border-color-focus, 10%), 0.7);
 $form-font-family: $base-font-family;
 $form-font-size: $base-font-size;
 

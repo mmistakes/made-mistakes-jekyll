@@ -5,50 +5,50 @@
 */
 
 /* Mixins and functions */
-@import 'vendor/susy/susy';
-@import 'vendor/breakpoint/breakpoint';
-@include breakpoint-set('to ems', true);
-@import 'vendor/lity/lity';
-@import 'vendor/bigfoot/bigfoot-number';
-@import 'mixins';
+@import "vendor/susy/susy";
+@import "vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "vendor/lity/lity";
+@import "vendor/bigfoot/bigfoot-number";
+@import "mixins";
 
 /* Variables */
-@import 'variables';
+@import "variables";
 
 /* Core CSS */
-@import 'reset';
-@import 'base';
-@import 'layout';
-@import 'tables';
-@import 'forms';
+@import "reset";
+@import "base";
+@import "layout";
+@import "tables";
+@import "forms";
 
 /* Components */
-@import 'global';
-@import 'sidebar';
-@import 'navigation';
-@import 'footer';
-@import 'entries';
-@import 'buttons';
-@import 'icons';
-@import 'intro';
-@import 'navicons';
-@import 'notices';
+@import "global";
+@import "sidebar";
+@import "navigation";
+@import "footer";
+@import "entries";
+@import "buttons";
+@import "icons";
+@import "intro";
+@import "navicons";
+@import "notices";
 // @import 'toc';
-@import 'contact-lists';
-@import 'syntax-highlighting';
-@import 'responsive-embed';
-@import 'comments';
-@import 'gallery';
-@import 'thumbnail-grids';
-@import 'sections';
-@import 'paper-color-swatches';
-@import 'animations';
-@import 'review-box';
-@import 'style-guide';
-@import 'google-search';
+@import "contact-lists";
+@import "syntax-highlighting";
+@import "responsive-embed";
+@import "comments";
+@import "gallery";
+@import "thumbnail-grids";
+@import "sections";
+@import "paper-color-swatches";
+@import "animations";
+@import "review-box";
+@import "style-guide";
+@import "google-search";
 
 /* Utility classes */
-@import 'utilities';
+@import "utilities";
 
 /* Print */
-@import 'print';
+@import "print";

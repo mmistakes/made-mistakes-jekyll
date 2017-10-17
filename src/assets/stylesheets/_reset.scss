@@ -99,7 +99,8 @@ h4 {
 
 figcaption,
 figure,
-main { /* 1 */
+main {
+  /* 1 */
   display: block;
 }
 
@@ -133,7 +134,7 @@ hr {
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
-  overflow-x: auto;  /* 3 */
+  overflow-x: auto; /* 3 */
 }
 
 /* Text-level semantics
@@ -323,7 +324,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -333,7 +335,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -344,8 +347,8 @@ select { /* 1 */
  */
 
 button,
-html [type="button"], /* 1 */
-[type="reset"],
+html [type="button"],
+/* 1 */ [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
@@ -474,8 +477,8 @@ textarea {
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
 
-details, /* 1 */
-menu {
+details,
+/* 1 */ menu {
   display: block;
 }
 

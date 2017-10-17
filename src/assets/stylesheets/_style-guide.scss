@@ -17,7 +17,6 @@
 }
 
 .component__header {
-
   h3 {
     margin-top: 0 !important;
   }
@@ -37,7 +36,6 @@
 }
 
 .component__rendered {
-
   &--color {
     display: flex;
     justify-content: space-between;
@@ -95,29 +93,16 @@
    Background colors
    ========================================================================== */
 
-$color:
-  (white-bg, #fff),
-  (black-bg, #000),
-  (background, $background-color),
-  (text, $text-color),
-  (accent, $accent-color),
-  (primary, $primary-color),
-  (success, $success-color),
-  (warning, $warning-color),
-  (danger, $danger-color),
-  (info, $info-color),
-  (border, $border-color),
-  (facebook, $facebook-color),
-  (flickr, $flickr-color),
-  (github, $github-color),
-  (google-plus, $google-plus-color),
-  (instagram, $instagram-color),
-  (rss, $rss-color),
-  (twitter, $twitter-color),
-  (youtube, $youtube-color);
+$color: (white-bg, #fff),  (black-bg, #000),  (background, $background-color),
+   (text, $text-color),  (accent, $accent-color),  (primary, $primary-color),
+   (success, $success-color),  (warning, $warning-color),
+   (danger, $danger-color),  (info, $info-color),  (border, $border-color),
+   (facebook, $facebook-color),  (flickr, $flickr-color),
+   (github, $github-color),  (google-plus, $google-plus-color),
+   (instagram, $instagram-color),  (rss, $rss-color),  (twitter, $twitter-color),
+   (youtube, $youtube-color);
 
 @each $name, $bgcolor in $color {
-
   .color__tile--#{$name} {
     background-color: $bgcolor;
   }

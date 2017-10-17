@@ -3,7 +3,6 @@
    ========================================================================== */
 
 @media print {
-
   [hidden] {
     display: none;
   }
@@ -173,16 +172,16 @@
     word-wrap: break-word;
   }
 
-  a[href^='http://']::after,
-  a[href^='https://']::after,
-  a[href^='ftp://']::after {
+  a[href^="http://"]::after,
+  a[href^="https://"]::after,
+  a[href^="ftp://"]::after {
     font-size: 80%;
-    content: ' (' attr(href) ')';
+    content: " (" attr(href) ")";
   }
 
   abbr[title]::after,
   acronym[title]::after {
-    content: ' (' attr(title) ')';
+    content: " (" attr(title) ")";
   }
 
   .page-break,
@@ -199,12 +198,12 @@
   }
 
   a.no-reformat::after {
-    content: '';
+    content: "";
   }
 
   abbr[title].no-reformat::after,
   acronym[title].no-reformat::after {
-    content: '';
+    content: "";
   }
 
   .btn {
@@ -212,7 +211,7 @@
     color: #000;
   }
 
-/*
+  /*
    Hide the following elements on print
    ========================================================================== */
 

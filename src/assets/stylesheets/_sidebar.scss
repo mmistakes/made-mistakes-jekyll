@@ -47,7 +47,7 @@
         height: 1px;
         transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
         background-color: #fff;
-        content: '';
+        content: "";
       }
 
       &:hover {
@@ -92,7 +92,7 @@
       width: 1.5em;
       height: 1px;
       background-color: mix($base-color, #fff, 40%);
-      content: '';
+      content: "";
     }
 
     li {

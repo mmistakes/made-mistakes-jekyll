@@ -42,8 +42,12 @@
       transition-duration: $navicon-duration / 2;
     }
 
-    .navicon::before { top: (2.5 * $navicon-height); }
-    .navicon::after { top: (-2.5 * $navicon-height); }
+    .navicon::before {
+      top: (2.5 * $navicon-height);
+    }
+    .navicon::after {
+      top: (-2.5 * $navicon-height);
+    }
   }
 }
 
@@ -64,11 +68,15 @@
     transition-duration: $navicon-duration $navicon-duration / 2;
     border-radius: $navicon-width;
     background: $navicon-content-bg;
-    content: '';
+    content: "";
   }
 
-  &::before { top: (2 * $navicon-height); }
-  &::after { top: (-2 * $navicon-height); }
+  &::before {
+    top: (2 * $navicon-height);
+  }
+  &::after {
+    top: (-2 * $navicon-height);
+  }
 }
 
 .open:not(.steps) .navicon::before,
@@ -88,7 +96,6 @@
   &.larr .navicon,
   &.rarr .navicon,
   &.uarr .navicon {
-
     &::before,
     &::after {
       width: (0.6 * $navicon-width);
@@ -110,7 +117,6 @@
   }
 
   &.rarr .navicon {
-
     &::before {
       transform: translate3d(1em, 0, 0) rotate(-35deg);
       transform-origin: right top;

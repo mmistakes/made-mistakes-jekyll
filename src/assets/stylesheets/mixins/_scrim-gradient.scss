@@ -8,8 +8,7 @@
    example: @include scrimGradient('to top', #000);
    ========================================================================== */
 
-@mixin scrimgradient($direction: 'to bottom', $startcolor: 'black') {
-
+@mixin scrimgradient($direction: "to bottom", $startcolor: "black") {
   $scrimcoordinates: (
     0: 1,
     19: 0.838,
@@ -30,12 +29,10 @@
   $saturation: saturation($startcolor);
   $lightness: lightness($startcolor);
   $stops: ();
-
   @each $colorstop, $alphavalue in $scrimcoordinates {
-    $stop: hsla($hue, $saturation, $lightness, $alphavalue) percentage($colorstop / 100);
+    $stop: hsla($hue, $saturation, $lightness, $alphavalue)
+      percentage($colorstop / 100);
     $stops: append($stops, $stop, comma);
   }
-
   background: linear-gradient(unquote($direction), $stops);
-
 }

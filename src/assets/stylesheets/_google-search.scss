@@ -3,14 +3,12 @@
    ========================================================================== */
 
 .search-goog {
-
   form {
     margin-top: 12px;
   }
 }
 
 #goog-fixurl {
-
   ul {
     @include list-unstyled();
   }
@@ -22,7 +20,6 @@
 
 // input field
 #goog-wm-qt {
-
   @include breakpoint($medium) {
     display: inline-block;
     width: 70%;
