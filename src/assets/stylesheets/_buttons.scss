@@ -51,7 +51,6 @@
     }
 
     .btn + .btn {
-
       @include breakpoint($medium) {
         margin-left: 0.25em;
       }
@@ -131,10 +130,9 @@
   }
 
   /* social buttons */
-  $social: (facebook, $facebook-color), (twitter, $twitter-color);
+  $social: (facebook, $facebook-color),  (twitter, $twitter-color);
 
   @each $socialnetwork, $color in $social {
-
     &--#{$socialnetwork} {
       background-color: $color;
 

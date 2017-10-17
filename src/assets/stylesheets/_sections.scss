@@ -34,7 +34,6 @@
 }
 
 .section-text {
-
   /* remove space after last child element */
   > *:last-child {
     margin-bottom: 0;
@@ -76,7 +75,6 @@
 }
 
 .section-more {
-
   // > p:first-child {
   //   font-size: 1.125em;
   //   line-height: 1.625;
@@ -93,7 +91,6 @@
    ========================================================================== */
 
 .section {
-
   &--inverse {
     position: relative;
     background-color: $section-dark-bg-color;
@@ -103,13 +100,13 @@
     color: #fff;
 
     &::before {
-      @include scrimgradient('to right', $section-dark-bg-color);
+      @include scrimgradient("to right", $section-dark-bg-color);
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      content: '';
+      content: "";
     }
 
     .inner {
@@ -138,7 +135,7 @@
     background-color: $section-about-bg-color;
 
     &::before {
-      @include scrimgradient('to right', $section-about-bg-color);
+      @include scrimgradient("to right", $section-about-bg-color);
     }
 
     .section-title,
@@ -161,7 +158,7 @@
     background-color: $section-about-bg-color;
 
     &::before {
-      @include scrimgradient('to right', $section-about-bg-color);
+      @include scrimgradient("to right", $section-about-bg-color);
     }
 
     .section-title,
@@ -184,7 +181,7 @@
     background-color: $section-work-bg-color;
 
     &::before {
-      @include scrimgradient('to right', $section-work-bg-color);
+      @include scrimgradient("to right", $section-work-bg-color);
     }
 
     .section-title,

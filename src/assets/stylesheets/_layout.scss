@@ -22,14 +22,12 @@
 
 .intro,
 main {
-
   > .inner {
     padding: 0 5vw;
   }
 }
 
 main {
-
   section {
     @include container;
   }
@@ -45,10 +43,8 @@ main {
 
 .layout--post,
 .layout--page {
-
   .entry-content,
   .entry-comments {
-
     @include breakpoint($large) {
       width: span(14 of 16);
     }
@@ -57,9 +53,7 @@ main {
 
 .layout--archive,
 .layout--archive_work {
-
   main {
-
     @include breakpoint($medium) {
       display: flex;
     }

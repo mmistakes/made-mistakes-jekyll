@@ -48,7 +48,6 @@
   }
 
   tr {
-
     &:not(:last-child) {
       border-color: mix(#fff, $notice-color, 70%);
     }

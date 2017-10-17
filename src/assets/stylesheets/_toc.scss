@@ -32,7 +32,7 @@
       transition: $global-transition;
       background-color: #333;
       line-height: 1;
-      content: '';
+      content: "";
     }
 
     &::after {
@@ -90,7 +90,7 @@
     font-weight: 700;
 
     &::before {
-      content: counter(section) '. ';
+      content: counter(section) ". ";
     }
 
     &:not(:last-child) {
@@ -112,7 +112,7 @@
       counter-increment: subsection;
 
       &::before {
-        content: counter(section) '.' counter(subsection) '. ';
+        content: counter(section) "." counter(subsection) ". ";
       }
     }
   }

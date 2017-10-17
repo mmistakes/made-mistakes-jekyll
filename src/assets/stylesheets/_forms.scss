@@ -14,7 +14,7 @@ label {
   font-size: 0.8em;
 
   &.required::after {
-    content: '*';
+    content: "*";
   }
 
   abbr {
@@ -25,7 +25,7 @@ label {
 input,
 textarea,
 select,
-select[multiple=multiple] {
+select[multiple="multiple"] {
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 0.25em;
@@ -87,7 +87,6 @@ input[type="submit"] {
 }
 
 form {
-
   ul,
   ol,
   li {

@@ -17,15 +17,15 @@
   }
 
   $icons: (
-    (email, #000),
-    (facebook, $facebook-color),
-    (flickr, $flickr-color),
-    (github, $github-color),
-    (googleplus, $google-plus-color),
-    (instagram, $instagram-color),
-    (rss, $rss-color),
-    (twitter, $twitter-color),
-    (youtube, $youtube-color)
+     (email, #000),
+     (facebook, $facebook-color),
+     (flickr, $flickr-color),
+     (github, $github-color),
+     (googleplus, $google-plus-color),
+     (instagram, $instagram-color),
+     (rss, $rss-color),
+     (twitter, $twitter-color),
+     (youtube, $youtube-color)
   );
 
   @each $icon, $color in $icons {

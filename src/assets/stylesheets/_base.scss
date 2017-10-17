@@ -24,7 +24,7 @@ q {
 
     &::before {
       padding-right: 0.25rem;
-      content: '\2014';
+      content: "\2014";
     }
   }
 }
@@ -130,7 +130,6 @@ a {
 }
 
 img {
-
   /* lazysizes plugin */
   &[data-sizes="auto"] {
     display: block;
@@ -139,7 +138,6 @@ img {
 }
 
 li {
-
   > img {
     margin: 1rem 0;
   }
