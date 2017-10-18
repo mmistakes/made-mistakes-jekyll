@@ -1,9 +1,9 @@
 _id: 9864e456-ad05-4bc6-9bfe-00c588ebed40
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Good news, everything is up and running!  The new pcie riser I got did the trick.  Do you happen to know if I could daisy chain a second Akitio into the system with a pcie based ssd inside?  I am running out of storage on my MacBook and want to downlaod all my games onto it now :)"
+message: "Good news, everything is up and running! The new pcie riser I got did the trick. Do you happen to know if I could daisy chain a second Akitio into the system with a pcie based ssd inside? I am running out of storage on my MacBook and want to downlaod all my games onto it now :)"
 name: Chris
 email: 97c48506ff2ab8e10a586d60b6f45daa
 url: ''
-replying_to: ''
+replying_to: '205273b7-2f1b-4b98-9054-1734f976ff1f'
 hidden: ''
 date: '2016-06-25T05:56:34.000Z'

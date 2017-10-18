@@ -1,9 +1,9 @@
 _id: 8ca494f5-b2b6-438b-978a-076de813a842
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hey Poul.  weirdly enough the set up you have on this post for turning on the computer does not work for me. however, I did find a set up that worked I turn off all me the power supply and leave the Akitio one on, then power on the computer while holding down the option key and a soon as I hear the chime flip on the power supply I then type in my firmware password and set on the menu until the loading wheel for the Internet disappears then hit enter on Windows partition and it works almost every single time. Perhaps this is worth adding to the article, I don't know. I know 2015 MacBook Pro are finicky with booting off eGPU. Thank you so much for everything dude. It means a lot to me."
+message: "Hey Poul. weirdly enough the set up you have on this post for turning on the computer does not work for me. however, I did find a set up that worked I turn off all me the power supply and leave the Akitio one on, then power on the computer while holding down the option key and a soon as I hear the chime flip on the power supply I then type in my firmware password and set on the menu until the loading wheel for the Internet disappears then hit enter on Windows partition and it works almost every single time. Perhaps this is worth adding to the article, I don't know. I know 2015 MacBook Pro are finicky with booting off eGPU. Thank you so much for everything dude. It means a lot to me."
 name: Tom Lube
 email: 40bf3724721153defcac3bb56e588bc5
 url: ''
-replying_to: ''
+replying_to: '03687e1b-1583-43ac-b209-1c9087338da3'
 hidden: ''
 date: '2016-06-24T19:10:58.000Z'

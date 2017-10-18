@@ -1,9 +1,9 @@
 _id: 05c7a529-c214-4e03-9a2d-f88d1770f8aa
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "It should be enough, according to <a href=\"https:&#47;&#47;www.techpowerup.com&#47;reviews&#47;EVGA&#47;GTX_960_SSC_ACX_Cooler&#47;27.html\" rel=\"nofollow\">this<&#47;a> post it should not consume more than 175 watts of power. And I am assuming you are using a standard brand name ATX power supply so that should not be the issue. Do the Windows dots just keep spinning or do the boot screen actually freeze? \n\nAnd could you also try the following (assuming you have Windows and OS X installed):\n\n<ol>\n<li>Set Windows to be the <a href=\"https:&#47;&#47;support.apple.com&#47;kb&#47;PH17862?locale=en_US\" rel=\"nofollow\">default<&#47;a> startup operating system<&#47;li>\n<li>Shutdown the laptop and disconnect the eGPU from the laptop and from the power supplies<&#47;li>\n<li>Boot into Windows without the eGPU attached and then do a full shutdown<&#47;li>\n<li>Connect the eGPU and boot automatically into Windows without going into the boot menu first<&#47;li>\n<&#47;ol>\n\n&#47;Poul"
+message: "It should be enough, according to [this](https://www.techpowerup.com/reviews/EVGA/GTX_960_SSC_ACX_Cooler/27.html) post it should not consume more than 175 watts of power. And I am assuming you are using a standard brand name ATX power supply so that should not be the issue. Do the Windows dots just keep spinning or do the boot screen actually freeze? \n\nAnd could you also try the following (assuming you have Windows and OS X installed):\n\n1. Set Windows to be the [default](https://support.apple.com/kb/PH17862?locale=en_US) startup operating system\n2. Shutdown the laptop and disconnect the eGPU from the laptop and from the power supplies\n3. Boot into Windows without the eGPU attached and then do a full shutdown\n4. Connect the eGPU and boot automatically into Windows without going into the boot menu first\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '03687e1b-1583-43ac-b209-1c9087338da3'
 hidden: ''
 date: '2016-06-23T15:47:08.000Z'

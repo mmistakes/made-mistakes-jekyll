@@ -1,9 +1,9 @@
 _id: 307facee-3491-4948-a91a-89b9c0244328
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Poul,  Just thought I would give an update, finally got all of my parts (the Akitio box took forever to ship to Australia). I literally threw it all together to test, it looks near identical to your picture above currently, plugged in to, booted, installed drivers, rebooted and we're done.  Side note - it displays flawlessly through the Cinema Display, even when the Cinema Display is plugged directly into the Macbook - once I get my Mini displayport to Displayport adapter I will compare benchmarks to see if there's a drastic difference between plugging directly into GPU or not, but for now, very happy - you sir have presented the simplest and most efficient means to getting one of these up and running, kudos.  Now to retrofit the Akitio guts into my MiniITX case. :)  Kevin"
+message: "Hi Poul,\n\nJust thought I would give an update, finally got all of my parts (the Akitio box took forever to ship to Australia). I literally threw it all together to test, it looks near identical to your picture above currently, plugged in to, booted, installed drivers, rebooted and we're done.\n\nSide note - it displays flawlessly through the Cinema Display, even when the Cinema Display is plugged directly into the Macbook - once I get my Mini displayport to Displayport adapter I will compare benchmarks to see if there's a drastic difference between plugging directly into GPU or not, but for now, very happy - you sir have presented the simplest and most efficient means to getting one of these up and running, kudos.\n\nNow to retrofit the Akitio guts into my MiniITX case. :)\n\nKevin"
 name: Kevin
 email: 926b5c4295e90c6c3bb4824328d36b7b
 url: ''
-replying_to: ''
+replying_to: 'a7b23669-cb73-40e8-a337-d6d709a3805c'
 hidden: ''
 date: '2016-06-21T03:18:36.000Z'

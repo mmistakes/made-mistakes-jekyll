@@ -1,9 +1,9 @@
 _id: 8191742d-6cf7-49c3-bb93-1660b5b0ed58
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Evan  As long as you use a 8x or 16x PCIe riser there should not be any difference in speed. The benefit is that you make sure that the GPU can draw more than 25 watts of power if it needs to and that you do not need to use the supplied power brick from AKiTiO. If the GPU gets enough power from the 6 &#47; 8-pin connectors then you really don't need the riser.  &#47;Poul"
+message: "Hi Evan\n\nAs long as you use a 8x or 16x PCIe riser there should not be any difference in speed. The benefit is that you make sure that the GPU can draw more than 25 watts of power if it needs to and that you do not need to use the supplied power brick from AKiTiO. If the GPU gets enough power from the 6 / 8-pin connectors then you really don't need the riser.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'acb197b8-f533-4319-a261-eb73d4cca563'
 hidden: ''
 date: '2016-05-17T18:21:25.000Z'

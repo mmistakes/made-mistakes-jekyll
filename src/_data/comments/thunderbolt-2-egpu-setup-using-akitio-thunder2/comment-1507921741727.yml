@@ -1,9 +1,9 @@
 _id: 168dc424-a0ff-4638-9b37-e3d578a66bb0
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Chris\r\n\r\nIt does look a bit strange. I use and recommend the PCIe risers from http://www.moddiy.com/products/PCI%252dExpress-PCI%252dE-8X-to-16X-Riser-Card-Flexible-Ribbon-Extender-Cable-w%7B47%7DMolex-%252b-Solid-Capacitor.html, they are inexpensive and good quality. Anyway, keeping my fingers crossed that it solves your problem!\r\n\r\n/Poul"
+message: "Hi Chris\n\nIt does look a bit strange. I use and recommend the PCIe risers from [http://www.moddiy.com/products/PCI%252dExpress-PCI%252dE-8X-to-16X-Riser-Card-Flexible-Ribbon-Extender-Cable-w%7B47%7DMolex-%252b-Solid-Capacitor.html](), they are inexpensive and good quality. Anyway, keeping my fingers crossed that it solves your problem!\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '205273b7-2f1b-4b98-9054-1734f976ff1f'
 hidden: ''
 date: '2016-06-23T15:31:18.000Z'
