@@ -1,9 +1,9 @@
 _id: 3db92e8a-fb69-461a-b291-1506c91c2fe3
 _parent: /projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/
-message: ""Hi Si\n\nThank you! I was missing eGPU specific enclosures so why not make it yourself I thought. I have modified it further so I now have embedded two laptop power supply units in the case, one for my retina macbook pro and one for my Lenovo t430s. \n\n<img src=\"https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2015&#47;04&#47;Powercube-mod-e1429431759279.jpg\" alt=\"eGPU case with powercube mod\" &#47;>\n\nI fitted a PowerCube power strip (1) with some short cables to the ATX PSU (4), the macbook charger (2) and the Lenovo charger (3). The only power cable is the one connected to the PowerCube (5). It is not pretty, but I have less cable clutter around the case :)\n\nI got mine from the German Amazon site since I could not find any in the UK, they still have a few in stock, see <a href=\"http:&#47;&#47;www.amazon.de&#47;Akitio-Thunder2-PCIe-Erweiterungsgeh&auml;use-T2PC-TIA-AKTU&#47;dp&#47;B00NQ23TCU?tag=oddoneout0c-21\" rel=\"nofollow\">here<&#47;a>.""
+message: "Hi Si\n\nThank you! I was missing eGPU specific enclosures so why not make it yourself I thought. I have modified it further so I now have embedded two laptop power supply units in the case, one for my retina macbook pro and one for my Lenovo t430s. \n\n ![eGPU case with powercube mod](/assets/images/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii-Powercube mod.jpg)\n\nI fitted a PowerCube power strip (1) with some short cables to the ATX PSU (4), the macbook charger (2) and the Lenovo charger (3). The only power cable is the one connected to the PowerCube (5). It is not pretty, but I have less cable clutter around the case :)\n\nI got mine from the German Amazon site since I could not find any in the UK, they still have a few in stock, see [here](http://www.amazon.de/Akitio-Thunder2-PCIe-Erweiterungsgeh&auml;use-T2PC-TIA-AKTU/dp/B00NQ23TCU?tag=oddoneout0c-21){:rel=\"nofollow\"}"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: ''
-replying_to: ''
+replying_to: '82e1221f-0dd4-4b0f-ad9b-2f4aeef66db7'
 hidden: ''
 date: '2015-04-19T07:53:50.000Z'

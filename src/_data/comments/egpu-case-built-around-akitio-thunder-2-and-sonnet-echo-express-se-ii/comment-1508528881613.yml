@@ -1,9 +1,9 @@
 _id: 85226ab9-9722-4055-bd50-94896a1f1e3a
 _parent: /projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/
-message: ""Hi Sean\n\nSorry for the late replay, just got back from vacation and there was very limited internet! Now, the riser serves two purposes\n<ol>\n\t<li>To be able to connect the card physically to the AKiTiO Thunder2 enclosure without pulling out the inner parts. For this part you don't need a powered riser, any will do<&#47;li>\n\t<li>Some graphic cards expect to able able to draw the full 75 watts of power from the PCI port. The AKiTiO Thunder2 only supplies 25 watts. The powered riser fixes this issue. If you get enough power from the auxiliary powerlines then you should be fine, but potentially the card does not get enough power on peak loads<&#47;li>\n<&#47;ol>\n\nSo you might be fine, but why take the chance? Get a powered riser!\n\n&#47;Poul""
+message: "Hi Sean\n\nSorry for the late replay, just got back from vacation and there was very limited internet! Now, the riser serves two purposes\n1. To be able to connect the card physically to the AKiTiO Thunder2 enclosure without pulling out the inner parts. For this part you don't need a powered riser, any will do\n2. Some graphic cards expect to able able to draw the full 75 watts of power from the PCI port. The AKiTiO Thunder2 only supplies 25 watts. The powered riser fixes this issue. If you get enough power from the auxiliary powerlines then you should be fine, but potentially the card does not get enough power on peak loads\n\nSo you might be fine, but why take the chance? Get a powered riser!\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'c32994a6-9199-4bff-bcd7-1bd92d973896'
 hidden: ''
 date: '2015-09-20T20:49:15.000Z'
