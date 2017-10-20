@@ -18,10 +18,16 @@ gulp.task('site:tmp', () => {
 // 'gulp site --prod' -- builds site with production settings
 gulp.task('site', done => {
   if (!argv.prod) {
-    shell.exec('bundle exec jekyll build --config _config.yml,_config.dev.yml');
+    if (shell.exec('bundle exec jekyll build --config _config.yml,_config.dev.yml').code !== 0) {
+      shell.echo('Error: Build failed');
+      shell.exit(1);
+    }
     done();
   } else if (argv.prod) {
-    shell.exec('bundle exec jekyll build');
+    if (shell.exec('bundle exec jekyll build').code !== 0) {
+      shell.echo('Error: Build failed');
+      shell.exit(1);
+    }
     done();
   }
 });
