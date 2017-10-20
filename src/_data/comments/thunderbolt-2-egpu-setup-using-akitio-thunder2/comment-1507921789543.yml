@@ -1,9 +1,9 @@
 _id: a559ce95-38e9-4d20-be4e-b4b8169e59f6
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi John\r\n\r\nDid you try the first step in the troubleshooting section? I did get a blank screen once, I solved this by using the \"Windows key\" + P and using the arrows switching monitor setups. Also you could try to attach an external monitor if you did not try this already.\r\n\r\n/Poul"
+message: "Hi John\n\nDid you try the first step in the troubleshooting section? I did get a blank screen once, I solved this by using the \"Windows key\" + P and using the arrows switching monitor setups. Also you could try to attach an external monitor if you did not try this already.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '9925b5ec-410c-4f93-b826-85117dec2b3a'
 hidden: ''
 date: '2017-03-11T15:07:09.000Z'
