@@ -1,9 +1,0 @@
-_id: 1b0bf5c0-a878-11e7-8704-5b582ac668d2
-_parent: /reviews/some-post/
-message: "Testing level 4 nested comment and with some markdown\r\n\r\n* First item\r\n* Second item\r\n* Third item"
-name: Poul Work Serek
-email: a169d057100bc84c8551af851dda139a
-url: ''
-replying_to: cf09e930-a876-11e7-8704-5b582ac668d2
-hidden: ''
-date: '2017-10-03T20:19:06.673Z'
