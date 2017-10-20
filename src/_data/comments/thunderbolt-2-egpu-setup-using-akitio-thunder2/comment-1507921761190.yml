@@ -1,6 +1,6 @@
 _id: c40e0ea0-427e-426d-ab19-05184d52bba8
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hey Poul,  I have an XPS 9350 that has a USB-C connection for Thunderbolt 3. Would I need a special adapter to have this work with the AKiTiO over Thunderbolt 2?  Also, I'm currently running Linux on this PC. Is the AKiTiO compatible? Has anyone done this with my setup?  I suppose I could opt for a Razer Core, although I also don't know how well Thunderbolt eGPUs work within Fedora. At the $500 price point (excluding GPU), I might as well just build a separate gaming PC.  Thanks for the info, Andrew"
+message: "Hey Poul,\n\nI have an XPS 9350 that has a USB-C connection for Thunderbolt 3. Would I need a special adapter to have this work with the AKiTiO over Thunderbolt 2?\n\nAlso, I'm currently running Linux on this PC. Is the AKiTiO compatible? Has anyone done this with my setup?\n\nI suppose I could opt for a Razer Core, although I also don't know how well Thunderbolt eGPUs work within Fedora. At the $500 price point (excluding GPU), I might as well just build a separate gaming PC.\n\nThanks for the info,  \nAndrew"
 name: Andrew
 email: 8c4419533cbd0c8d9fbb6319e9914fa4
 url: ''

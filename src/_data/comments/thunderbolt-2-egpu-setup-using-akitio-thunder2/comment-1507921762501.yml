@@ -1,6 +1,6 @@
 _id: f978be48-8283-4274-aaf7-edacd8e22e27
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "|- Hi Poul I now have a mid 2015 rmbp, I bought a evga 400W psu and a evga GTX1060 card. Since the card is half length and can fit in the box, so I didn't buy the riser. I used the paper clip trick and the psu started working. But the GPU was not responding(even it's firmly plugged into the pcie and 6-pin power supply). My rmbp with bootcamp windows 8.1 x64 cannot read the card as well as the akitio box? What you think is the problem there? Thank You!  Thank you! Lewis"
+message: "Hi Poul  \nI now have a mid 2015 rmbp, I bought a evga 400W psu and a evga GTX1060 card. Since the card is half length and can fit in the box, so I didn't buy the riser. I used the paper clip trick and the psu started working. But the GPU was not responding(even it's firmly plugged into the pcie and 6-pin power supply). My rmbp with bootcamp windows 8.1 x64 cannot read the card as well as the akitio box? What you think is the problem there? Thank You!\n\nThank you!  \nLewis"
 name: Lewis
 email: 4b32bac6802cc2f3ec635064e00ce5bc
 url: ''

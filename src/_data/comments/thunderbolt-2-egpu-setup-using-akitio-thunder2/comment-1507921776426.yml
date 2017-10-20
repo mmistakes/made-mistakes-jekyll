@@ -1,9 +1,9 @@
 _id: ed4521f3-63de-41dd-b788-64993b1bcb36
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Blaster\r\n\r\nTake a look at my post [here](/projects/external-graphics-card-egpu/) about what NVIDIA Optimus is. As far as I known the internal monitor needs to be connected directly to the iGPU from intel and not to the dGPU as in the g751. Battery Boost as far as I can see is a technology that limits the frame-rate of a game to preserve battery-life. If the frame-rate is low enough just to use the iGPU it can use Optimus to switch to the lower power iGPU. But as far as I know the g751 series does not even have an iGPU, only the NVIDIA card, hence no Optimus.\r\n\r\n/Poul"
+message: "Hi Blaster\n\nTake a look at my post [here](/projects/external-graphics-card-egpu/) about what NVIDIA Optimus is. As far as I known the internal monitor needs to be connected directly to the iGPU from intel and not to the dGPU as in the g751. Battery Boost as far as I can see is a technology that limits the frame-rate of a game to preserve battery-life. If the frame-rate is low enough just to use the iGPU it can use Optimus to switch to the lower power iGPU. But as far as I know the g751 series does not even have an iGPU, only the NVIDIA card, hence no Optimus.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '6f1de53e-900f-4c38-9ece-e5ad0aed522c'
 hidden: ''
 date: '2016-10-28T14:31:31.000Z'
