@@ -1,0 +1,9 @@
+_id: d8331d85-74ea-49eb-ab05-6784dd7084f5
+_parent: /projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/
+message: "If you got the GTX 980 ti, then as far as I can see the standard GTX 980 ti has one 8-pin and one 6-pin connecter which equals 150+75=225 watts of power. Add the 25 watts of power from the AKiTiO Thunder2 then you have 250 watts. Many sites mention that the card draws up to 250 watts, maybe even more with factory overclocked cards. If the card you have has two 8-pin connecters (150+150 = 300 watts + the 25 watts from the AKiTiO Thunder2) then you should be fine, otherwise I would still strongly recommend a powered riser"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-09-20T21:00:23.000Z'

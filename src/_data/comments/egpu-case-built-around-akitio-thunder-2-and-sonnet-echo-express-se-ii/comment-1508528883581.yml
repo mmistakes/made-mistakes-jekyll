@@ -1,0 +1,9 @@
+_id: 7c3dd653-385a-4659-8ba0-127df8cecb3f
+_parent: /projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/
+message: "|- Hello Alcarinquei  It should work just fine with Thunderbolt 3, in fact Thunderbolt 3 officially support external graphics cards as described <a href="https:&#47;&#47;thunderbolttechnology.net&#47;blog&#47;thunderbolt-3-usb-c-does-it-all" rel="nofollow">here<&#47;a>. So any company can make external graphics card enclosures that should work just fine with the Dell XPS. And as far as I can see it also supports Optimus so the internal display should also be able to be used. I would check out <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;forum&#47;83-diy-e-gpu-projects&#47;" rel="nofollow">https:&#47;&#47;forum.techinferno.com&#47;diy-e-gpu-projects&#47;<&#47;a> to see what other people are doing with the Dell XPS in regards to external graphic cards before buying anything, I don't think there are any posts or guides at the moment, but it is just a matter of time.  &#47;Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2015-12-03T17:43:40.000Z'
