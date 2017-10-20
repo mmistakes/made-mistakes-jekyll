@@ -20,7 +20,7 @@ gulp.task('site', done => {
   if (!argv.prod) {
     if (shell.exec('bundle exec jekyll build --config _config.yml,_config.dev.yml').code !== 0) {
       shell.echo('Error: Build failed');
-      shell.exit(1);
+      //shell.exit(1);
     }
     done();
   } else if (argv.prod) {
