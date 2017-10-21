@@ -1,6 +1,6 @@
 _id: eb5e6b7d-6b87-4a6e-b7df-1d2aed300760
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Dan\n\nGlad you got it working. BIOS setups are a bit more tricky. I am also running bootcamp, but as a UEFI setup. When I first used bootcamp it was a BIOS setup, but I followed a few guides on the internet to change to to UEFI (I followed something like this: [https://www.reddit.com/r/mac/comments/3dlu2g/convert_a_bootcamp_bios_windows_installation_to/]()).\n\n/Poul"
+message: "Hi Dan\n\nGlad you got it working. BIOS setups are a bit more tricky. I am also running bootcamp, but as a UEFI setup. When I first used bootcamp it was a BIOS setup, but I followed a few guides on the internet to change to to UEFI (I followed something like this: [https://www.reddit.com/r/mac/comments/3dlu2g/convert_a_bootcamp_bios_windows_installation_to/](https://www.reddit.com/r/mac/comments/3dlu2g/convert_a_bootcamp_bios_windows_installation_to/)).\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: ''

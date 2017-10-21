@@ -12,11 +12,11 @@ section:
     actions:
       - label: "the Vault"
         url: "/projects/"
-  - title: "Code"
+  - title: "Code & Config"
     class: "section--inverse section--projects"
     image: /assets/images/code.jpg
     introduction: |
-      Code snippets
+      Code snippets and configuration
     actions:
       - label: "the Repository"
         url: "/code/"
@@ -28,7 +28,7 @@ section:
     actions:
       - label: "the List"
         url: "/reviews/"
-  - title: "Odds & ends"
+  - title: "Odds & Ends"
     class: "section--inverse section--work"
     image: /assets/images/procreate-paintings-feature.jpg
     introduction: |
