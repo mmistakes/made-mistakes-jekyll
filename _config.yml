@@ -10,7 +10,6 @@ locale			: "en_US"
 words_per_minute        : 200
 
 repository              : "psirek/Ox3-test"
-#url                     : "http://localhost:4000"
 url                     : "https://Ox3.serek.eu"
 baseurl                 : "" # This breaks a few links since {{ site.baseurl }} is not prefixed. Using custom domain (CNAME file in root) with GitHub Pages (gh-pages) and Cloudflare (CNAME record) does work though
 
@@ -149,7 +148,20 @@ defaults:
       breadcrumbs:
         - label: "Reviews"
           url: /reviews/
-  # Odds & ends
+  # Code
+  - scope:
+      path: _posts/code
+      type: posts
+    values:
+      layout: post
+      category: code
+      read_time: true
+      comments: true
+      support: false
+      breadcrumbs:
+        - label: "Code"
+          url: /code/
+  # Odds & Ends
   - scope:
       path: _posts/misc
       type: posts
@@ -160,7 +172,7 @@ defaults:
       comments: true
       support: true
       breadcrumbs:
-        - label: "Odds & ends"
+        - label: "Odds & Ends"
           url: /misc/
   # Pages
   - scope:

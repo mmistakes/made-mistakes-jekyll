@@ -81,4 +81,6 @@ The main feed for Odd One Out.
 ### Topic specific feeds
 
 - [Projects]({{ 'projects.xml' | relative_url }})
+- [Code]({{ 'code.xml' | relative_url }})
 - [Reviews]({{ 'reviews.xml' | relative_url }})
+- [Odds & Ends]({{ 'misc.xml' | relative_url }})
