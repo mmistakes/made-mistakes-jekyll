@@ -7,7 +7,7 @@ sudo: false
 
 branches:
   only:
-    - gh-pages
+    - poc
 
 cache:
   bundler: true
