@@ -37,6 +37,7 @@ script: gulp build --prod
 
 before_deploy:
   - cp CNAME dist/ # TODO: Quick-fix
+  - cp dist/404/index.html dist/404.html # TODO: Quick-fix
 
 deploy:
   provider: pages
