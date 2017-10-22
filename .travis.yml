@@ -7,7 +7,6 @@ sudo: false
 
 branches:
   only:
-    - poc
     - gh-pages
 
 cache:
