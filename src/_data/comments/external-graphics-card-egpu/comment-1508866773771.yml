@@ -1,0 +1,9 @@
+_id: 4945533e-140c-42c8-83ae-e898894cc418
+_parent: /projects/external-graphics-card-egpu/
+message: "Additionally, from what I have read online, some places state that the PCIe connection would have to route its video output directly to the external monitor.  But it seems with the Akitio that is not the case.  Would I have to do so if I did not opt for the Akitio?"
+name: Remy Pham
+email: 7ee214a6a5725ec3a80b81a459715b11
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-07-01T22:23:18.000Z'
