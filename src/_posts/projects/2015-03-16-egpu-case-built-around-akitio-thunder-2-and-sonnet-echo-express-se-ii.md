@@ -75,34 +75,43 @@ A 200mm fan is used to assist cooling the graphics card. Running the fan at low 
 1. ATX power supply, mounted using [OpenBeam L brackets](https://www.amazon.com/dp/B0196FHQK6/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B0196FHQK6[ca][uk][de][es][it][fr]"}
 2. Thunderbolt cable connecting the [Sonnet Echo Express SE II](https://www.amazon.com/dp/B00FMJPWFW/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B00FMJPWFW"} on the other side of the case
 3. Thunderbolt cable for the laptop
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00NVODXR4&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B00NVODXR4[ca][uk][de][es][it][fr]B00NSXYEQW">EVGA GeForce GTX 970<&#47;a> graphics card<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00LTAUTHE&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us][ca]B00LTAUTHE[uk]B00OQPWE72[de][es][it][fr]B00NQ23TCU">AKiTiO Thunder2<&#47;a> board mounted on the side. Notice that since I am using a powered PCI-e riser i do not need to connect the power supply unit to the DC jack<&#47;li>
-<li>Fan control for the two <a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B000V6FKGM">200mm fans<&#47;a><&#47;li><br />
-<&#47;ol></p>
-<h3>Side - Sonnet<&#47;h3><br />
-[caption id="" align="aligncenter" width="400"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;side_sonnet.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;side_sonnet.jpg" alt="" width="400" height="266" border="0" &#47;><&#47;a> Side - Sonnet[&#47;caption]</p>
-<ol>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B000V6FKGM">200mm fan<&#47;a> for cooling the graphics card<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00NVODXR4&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B00NVODXR4[ca][uk][de][es][it][fr]B00NSXYEQW">EVGA GeForce GTX 970<&#47;a> graphics card<&#47;li>
-<li>DIY MOLEX to barrel converter<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00FMJPWFW&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B00FMJPWFW">Sonnet Echo Express SE II<&#47;a> with a SATA &#47; USB combo card. The last PCI-e slot is not used<&#47;li><br />
-<&#47;ol></p>
-<h3>Side -&nbsp;Power Supply<&#47;h3><br />
-[caption id="" align="aligncenter" width="400"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;Side-2B-2Batx.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;Side-2B-2Batx.jpg" alt="" width="400" height="266" border="0" &#47;><&#47;a> Side - Power supply[&#47;caption]</p>
-<p>Nothing much here except the ATX and the SSD disk. A smaller and modular power supply is on my to-do list.</p>
-<h3>Bottom<&#47;h3><br />
-[caption id="" align="aligncenter" width="400"]<a style="margin-left: auto; margin-right: auto;" href="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;bottom.jpg"><img src="https:&#47;&#47;odd-one-out.serek.eu&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;bottom.jpg" alt="" width="400" height="266" border="0" &#47;><&#47;a> Bottom[&#47;caption]</p>
-<ol>
-<li>SSD disk<&#47;li>
-<li>ATX PSU<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00FMJPWFW&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B00FMJPWFW">Sonnet Echo Express SE II<&#47;a> board<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B000V6FKGM&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B000V6FKGM">200mm fan<&#47;a> that cools the graphics card<&#47;li>
-<li>Protective rubber feet<&#47;li>
-<li><a href="https:&#47;&#47;www.amazon.com&#47;dp&#47;B00NVODXR4&#47;?tag=oddoneout0a-20" rel="nofollow" data-amazon-asin="[us]B00NVODXR4[ca][uk][de][es][it][fr]B00NSXYEQW">EVGA GeForce GTX 970<&#47;a> graphics card<&#47;li><br />
-<&#47;ol></p>
+4. [EVGA GeForce GTX 970](https://www.amazon.com/dp/B00NVODXR4/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B00NVODXR4[ca][uk][de][es][it][fr]B00NSXYEQW"} graphics card
+5. [AKiTiO Thunder2](https://www.amazon.com/dp/B00LTAUTHE/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca]B00LTAUTHE[uk]B00OQPWE72[de][es][it][fr]B00NQ23TCU"} board mounted on the side. Notice that since I am using a powered PCI-e riser I do not need to connect the power supply unit to the DC jack
+6. Fan control for the two [200mm fans](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B000V6FKGM"}
+
+### Side - Sonnet
+{% include figure
+  image_path="/assets/images/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii-side_sonnet-1024.jpg"
+  caption="Side – Sonnet"
+%}
+
+1. [200mm fan](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B000V6FKGM"} for cooling the graphics card
+2. [EVGA GeForce GTX 970](https://www.amazon.com/dp/B00NVODXR4/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B00NVODXR4[ca][uk][de][es][it][fr]B00NSXYEQW"} graphics card
+3. DIY MOLEX to barrel converter
+4. [Sonnet Echo Express SE II](https://www.amazon.com/dp/B00FMJPWFW/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B00FMJPWFW"} with a SATA / USB combo card. The last PCI-e slot is not used
+
+### Side - Power Supply
+{% include figure
+  image_path="/assets/images/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii-side_ATX.jpg"
+  caption="Side – Power supply"
+%}
+Nothing much here except the ATX and the SSD disk. A smaller and modular power supply is on my to-do list.
+
+### Bottom
+{% include figure
+  image_path="/assets/images/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii-bottom-1024.jpg"
+  caption="Bottom"
+%}
+
+1. SSD disk
+2. ATX PSU
+3. [Sonnet Echo Express SE II](https://www.amazon.com/dp/B00FMJPWFW/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B00FMJPWFW"} board
+4. [200mm fan](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B000V6FKGM"} that cools the graphics card
+5. Protective rubber feet
+6. [EVGA GeForce GTX 970](https://www.amazon.com/dp/B00NVODXR4/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us]B00NVODXR4[ca][uk][de][es][it][fr]B00NSXYEQW"} graphics card
 
 ## Whats next?
 
 * Installing a smaller modular PSU to reduce the number of cables
 * Installing a power strip in the case so the power adapter for the MacBook can be installed in the case itself
-<li>A small cable reel for a [10m optical thunderbolt cable](https://www.amazon.com/dp/B00HSTC496/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B00HSTC496"} I have lying around to avoid cable clutter
+* A small cable reel for a [10m optical thunderbolt cable](https://www.amazon.com/dp/B00HSTC496/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[us][ca][uk][de][es][it][fr]B00HSTC496"} I have lying around to avoid cable clutter

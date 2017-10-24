@@ -1,6 +1,6 @@
 _id: 7e4c8adb-529c-4ac0-a3be-d6438d6c7f11
 _parent: /projects/thunderbolt-2-egpu-setup-using-akitio-thunder2/
-message: "Hi Art\n\nIf you use an external monitor and Windows it should work. The AMD cards cannot use the internal monitor as far as I know, not in any easy way. Since it is an all in one desktop you will want to use the internal monitor and for this I would ask around at [https://www.techinferno.com/index.php?/forums/forum/83-diy-e-gpu-projects/]() since I dont have any experience getting with AMD cards and internal monitors.\n\n/Poul"
+message: "Hi Art\n\nIf you use an external monitor and Windows it should work. The AMD cards cannot use the internal monitor as far as I know, not in any easy way. Since it is an all in one desktop you will want to use the internal monitor and for this I would ask around at [https://www.techinferno.com/index.php?/forums/forum/83-diy-e-gpu-projects/](https://www.techinferno.com/index.php?/forums/forum/83-diy-e-gpu-projects/) since I dont have any experience getting with AMD cards and internal monitors.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu

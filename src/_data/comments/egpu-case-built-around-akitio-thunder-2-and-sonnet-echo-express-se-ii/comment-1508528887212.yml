@@ -1,9 +1,0 @@
-_id: 06039bb4-173b-4f1f-82bf-69243b073243
-_parent: /projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/
-message: ""Brilliant work. I have a few questions though.\n\n1. It looks like there are newer small form factor GPU's being released.\nCan I ask if this card would fit directly in the AKiTiO case please?\n\nGigabyte GV-N970IXOC-4GD - GeForce GTX 970 4GB Graphics Card GDDR5 PCI-E HDMI&#47;DisplayPort&#47;DVI-D&#47;Dual-Link DVI-I. I dont think this would fit. \n\n2. Have you tried any AMD Cards with the AKiTiO Thunderbolt 2 setup?\nSome of the newer AMD Cards seem quite small. For example the  R9 Nano looks like it would fit. \n\n3.New AMD cards do not need Crossfire bridge so ... how about 2 ASkitio boxes with R9 Nano running in Crossfire.""
-name: colesdav
-email: e9f9f54b4f56af24cf96f747be36641f
-url: ''
-replying_to: ''
-hidden: ''
-date: '2016-07-02T13:48:09.000Z'

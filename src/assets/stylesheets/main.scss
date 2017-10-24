@@ -41,7 +41,6 @@
 @import 'gallery';
 @import 'thumbnail-grids';
 @import 'sections';
-@import 'paper-color-swatches';
 @import 'animations';
 @import 'review-box';
 @import 'style-guide';
@@ -52,3 +51,12 @@
 
 /* Print */
 @import 'print';
+
+code.highlighter-rouge {
+    background-color: #ddd;
+    border: 0;
+}
+
+.highlight {
+   margin-bottom: 5vw;
+}

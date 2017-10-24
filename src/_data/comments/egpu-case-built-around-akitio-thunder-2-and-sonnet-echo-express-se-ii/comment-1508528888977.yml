@@ -1,9 +1,9 @@
 _id: 88a2a92b-8bc2-4a00-995f-605bce467d44
 _parent: /projects/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/
-message: "|- Hi Colesdav  The 120 watt power supply connected to the AKiTiO Thunder2 will let you only use 75 watts from the PCIe port on the AKiTiO. For a small build you might want to play around with the <a href="https:&#47;&#47;www.amazon.com&#47;Dell-OptiPlex-D220P-01-ADP-220AB-ZVC220HD12S1&#47;dp&#47;B00CFGVWXG" rel="nofollow">DELL DA-2<&#47;a> power brick which is 220 watts total. Take a look at <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;forum&#47;108-enclosures-and-adapters&#47;" rel="nofollow">this<&#47;a> forum for inspiration, at contains many post specifically to eGPU enclosures and adapters. The DELL DA-2 is described in <a href="https:&#47;&#47;www.techinferno.com&#47;index.php?&#47;forums&#47;topic&#47;7377-220w-dell-da-2-ac-adapter-discussion&#47;" rel="nofollow">this<&#47;a> post.  You might also want to consider taking the PCB out and putting it in a slightly larger enclosure to be able to fit everything inside, like a small mini-itx case.  &#47;Poul"
-name: Poul
+message: "Hi Colesdav\n\nThe 120 watt power supply connected to the AKiTiO Thunder2 will let you only use 75 watts from the PCIe port on the AKiTiO. For a small build you might want to play around with the [DELL DA-2](https://www.amazon.com/Dell-OptiPlex-D220P-01-ADP-220AB-ZVC220HD12S1/dp/B00CFGVWXG) power brick which is 220 watts total. Take a look at [https://www.techinferno.com/index.php?/forums/forum/108-enclosures-and-adapters/](https://www.techinferno.com/index.php?/forums/forum/108-enclosures-and-adapters/) forum for inspiration, at contains many post specifically to eGPU enclosures and adapters. The DELL DA-2 is described in [this](https://www.techinferno.com/index.php?/forums/topic/7377-220w-dell-da-2-ac-adapter-discussion/) post.\n\nYou might also want to consider taking the PCB out and putting it in a slightly larger enclosure to be able to fit everything inside, like a small mini-itx case.\n\n/Poul"
+name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'f76d0588-3681-4c60-be7d-e4300bb73eed'
 hidden: ''
 date: '2016-07-02T23:17:27.000Z'
