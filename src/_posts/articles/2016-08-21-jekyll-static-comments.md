@@ -1,7 +1,7 @@
 ---
 title: "Going Static: Episode II --- Attack of the Comments"
 excerpt: "Integrating a static-based commenting system into Jekyll with the help of Staticman and ditching Disqus in the process."
-tags: [Jekyll, web development, GitHub, open source]
+tags: [Jekyll, web development, GitHub, open source, tutorial]
 image:
   path: &image /assets/images/going-static-comments-feature.jpg
   feature: *image
@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/going-static-comments-teaser.jpg
   caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
 comments: true
-last_modified_at: 2017-05-03T11:56:13-04:00
+last_modified_at: 2017-10-24T09:32:39-04:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.

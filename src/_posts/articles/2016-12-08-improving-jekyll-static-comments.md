@@ -7,9 +7,9 @@ image:
   thumbnail: /assets/images/improving-jekyll-static-comments-th.jpg
   teaser: /assets/images/improving-jekyll-static-comments-teaser.jpg
   caption: "[Photo by **Gabriel Santiago**](https://unsplash.com/@gabrielssantiago)"
-tags: [web development, GitHub, Jekyll]
+tags: [web development, GitHub, Jekyll, tutorial]
 comments: true
-last_modified_at: 2017-08-25T10:15:05-04:00
+last_modified_at: 2017-10-24T09:32:44-04:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
