@@ -51,10 +51,11 @@ There's not much more to using the Color Picker. As the small circle is moved ar
 
 When you've found a color you'd like to work with or save to your palette tap the circle. You can also tap the eye dropper icon inside of the Color Mixer or any of the tools in the tray to select the sampled color.
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Saving a Sampled Color
+
 Tapping anywhere on the canvas will dismiss the Color Picker and the sampled color will not be saved to the Mixer. You have to tap the circle in the Color Picker or eye dropper for it to stick.
-</div>
+{% endnotice %}
 
 ### Picking Colors from a Photograph
 

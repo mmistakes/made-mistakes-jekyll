@@ -47,10 +47,11 @@ When painting, do not lift the stylus or your finger from the screen until you f
 
 Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Go Easy on the White
+
 White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
-</div>
+{% endnotice %}
 
 <figure>
 	<img src="/assets/images/paper-53-fluffed-white-clouds.jpg" alt="screenshot of fluffed clouds">
@@ -109,10 +110,11 @@ And paint a light coat over the red, background area in the middle, and graduall
 
 ![screenshot sunset yellow cream wash](/assets/images/paper-53-sunset-yellow-cream-wash.jpg) 
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Speed Matters
+
 Paint faster as you approach the blue wash to avoid turning it into a green color. Yellow and blue make...
-</div>
+{% endnotice %}
 
 ### Sunset Clouds
 
@@ -127,10 +129,11 @@ Giving these clouds depth and dimension can be achieved by adding a little more 
 	<figcaption>Adding pink to the clouds for extra fluffiness.</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Find the Right Mix
+
 If you don't add enough red to the color mix, the watercolor brush will lighten the cloud instead of darkening it.
-</div>
+{% endnotice %}
 
 A pencil filled with a pinkish red is also perfect for refining clouds edges or drawing in long wispy clouds.
 

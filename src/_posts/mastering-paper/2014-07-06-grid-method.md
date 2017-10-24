@@ -50,10 +50,11 @@ Switching to a straight-edge[^straightedge] you'll use the dots as guides to dra
   <figcaption>Drawing lines with a stylus on the iPad takes some getting used to.</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Straight-edge Placement
+
 Place your straight-edge directly on top of the reference dots, then slide it to the left or right ¼″ depending on what hand you are. This extra space gives the fat rubber tip of your stylus room to move and will hopefully fall exactly on the dots. If not move it some more until it does.
-</div>
+{% endnotice %}
 
 Take your time drawing lines as accurate as and as light as possible, it'll make your life easier later --- trust me. Once you've drawn all the horizontal lines repeat the process for the vertical lines, intersecting them as you go.
 
@@ -93,10 +94,11 @@ With the finished grids you're ready to begin creating your line drawing. Pick a
   <figcaption>Using the <strong>Drawing Grid</strong> app to zoom in and view one box at a time.</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Focus on One Grid Box at a Time
+
 If you're having trouble focusing, cover up any neighboring boxes with a sheet of paper to reveal just the box you're working on.
-</div>
+{% endnotice %}
 
 You can certainly shade and paint each box as you go, but it's pretty hard to keep everything looking harmonious --- especially with the watercolor brush. Matching colors becomes really difficult as you bounce around the grid, so I suggest working in grays if you plan to use this method to create a finished drawing.
 

@@ -25,10 +25,11 @@ Finger painting with Paper can yield some impressive results, but may feel unnat
   <figcaption>Adonit makes some nice styli if drawing precise marks is your thing.</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Use an iPad Stylus Meant for Accuracy
+
 For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen. The fancier Bluetooth ones aren't supported by Paper, but apps like [Procreate](http://procreate.si) do.
-</div>
+{% endnotice %}
 
 Going one step further are styli built with pressure sensitivity in the tip that can alter the characteristics of a mark depending on how hard you press on it. Paper by 53 supports Ten One Design's **Pogo Connect Smart Pen** out of the box, and has quickly become my go to stylus when creating on iPad. To learn more about how it became a favorite, check out my [image filled review]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %} "My Pogo Connect Smart Pen Review") here.
 
@@ -76,10 +77,11 @@ My drawing style has evolved over the year from crisp line work to soft blended 
 
 ![Background fill cover-up screenshot](/assets/images/paper-53-background-fill.jpg)
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Quick and Dirty Erasing
+
 The eraser removes everything --- including a background filled with color. A fountain pen filled with color that matches the background can be used instead of the eraser to correct mistakes. Improvements to the eraser tool have made this technique less needed, but it still [has its uses]({% post_url /mastering-paper/2014-10-25-erasing %}).
-</div>
+{% endnotice %}
 
 - **Speed:** Slow = thin. Fast = thick.
 - **Blending:** Almost fully opaque. Depending on the color it can take 2--3 layers to create a purely opaque color.
@@ -145,10 +147,11 @@ Before I began using a Pogo Connect Smart Pen exclusively, I did all my letterin
 
 Like the pencil, the watercolor brush is another tool you really should spend time experimenting with to learn all its nuances. This tool sets Paper apart from other apps by replicating the natural feel of pushing and pulling paint across a canvas. Without it I wouldn't be able to shade, paint skies, or render hair realistically at all.
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Manipulate the Brush's Size
+
 While there is no obvious way to change the size of your brush in Paper by FiftyThree, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one. [FiftyThree's Pencil]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}) stylus also allows you to dynamically change brush size depending on how you hold it.
-</div>
+{% endnotice %}
 
 It helps to think of your stylus tip as a brush loaded with watered down paint. Because the paint has been thinned it won't be as intense or saturated as the color from one of the pens. Instead you need to build up color with multiple layers.
 
@@ -163,10 +166,11 @@ It may be helpful to create a few color scales with the primary colors, gray, an
 
 ![Gradations created with the watercolor brush](/assets/images/paper-53-watercolor-layers.jpg)
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: White to Lighten
+
 When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots.
-</div>
+{% endnotice %}
 
 ### Color Mixer {#color-mixer}
 
@@ -188,12 +192,13 @@ For those who need more control or want a traditional color picker --- one can b
 
 For a good shadow color I usually adjust the base color I'm shading with by cranking the saturation down and the brightness way up.
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Point of No Return
+
 If you go too far in any direction you will approach pure white, which will make the watercolor brush or marker opaque. Each color has a different "point of no return," that can be found by experimenting with the sliders.
 
 Sometimes approaching the "point of no return" is a good thing --- especially when you need a color for lightening. Instead of using pure white, I like to start with the base color I'm working with and crank the brightness way up to make less dramatic tints when erasing.
-</div>
+{% endnotice %}
 
 ## Gestures to Master
 
@@ -217,10 +222,11 @@ The single most requested feature by fans and haters of Paper... Zoom. I had dra
 
 There isn't much else to Zoom, I'm merely mentioning it to increase awareness around it. Unlike other drawing and painting apps with zoom, the entire canvas doesn't scale. Instead you control the area you want magnified by you opening a circular <s>portal</s> loupe that can be moved around or dismissed by tapping outside of it.
 
-<div class="notice--warning" markdown="1">
+{% notice warning %}
 #### Full Screen Zoom and Grid Indicator
+
 The loupe shown above has been retired and replaced with a more traditional zoom tool in Paper v3. Pinching the screen now magnifies the entire canvas allowing for more room to work. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.
-</div>
+{% endnotice %}
 
 ## And We're Out
 {:.no_toc}

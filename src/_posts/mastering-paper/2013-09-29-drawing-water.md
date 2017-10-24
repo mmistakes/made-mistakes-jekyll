@@ -21,10 +21,11 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 	<figcaption>One of my favorite color mixes for painting water and waves.</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Start Light
+
 Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
-</div>
+{% endnotice %}
 
 [^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer) and what the various sliders mean and do.
 
@@ -51,10 +52,11 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 	<figcaption>In the photo reference to the right you&rsquo;ll notice the water is darkest at the horizon and gradually fades down &#8212; that&rsquo;s the effect you&rsquo;re looking to replicate by increasing the speed of your stroke as you approach the bottom.</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Dark to Light
+
 Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
-</div>
+{% endnotice %}
 
 ### Adding Wave Chop
 
@@ -65,10 +67,11 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 	<figcaption>Short, quick strokes to add hints of small waves and break up the space.</figcaption>
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Use Tints to Lighten
+
 If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this "sweet spot."
-</div>
+{% endnotice %}
 
 <figure>
 	<img src="/assets/images/paper-53-wave-chop-light.jpg" alt="screenshot of watercolor wave chop lighten technique">

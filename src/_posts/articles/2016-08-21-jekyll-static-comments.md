@@ -219,15 +219,11 @@ Looking like this when styled with `CSS`:
 
 There's not much magic in the `comment.html` include --- some [structured data](https://schema.org/Comment) markup sprinkled about and a few Liquid conditionals for displaying author avatars and URLs.
 
-{% capture md5_protip %}
+{% notice info %}
 #### ProTip: Encode Email Addresses as MD5 Hashes
 
 Staticman supports [transforming a string](https://github.com/eduardoboucas/staticman#transforms) into a MD5 hash. By doing this you avoid compromising a commenter's email address in what could potentially be accessible from a public GitHub repo. These hashed emails also have the benefit of being used with [**Gravatar**](https://en.gravatar.com/site/implement/hash/) to pull in avatar images.
-{% endcapture %}
-
-<div class="notice--info">
-  {{ md5_protip | markdownify }}
-</div>
+{% endnotice %}
 
 ### Setting Up Staticman
 
@@ -245,15 +241,11 @@ Following the docs I added GitHub username `staticmanapp` as a collaborator and 
 
 Staticman is configured by settings defined in your Jekyll `_config.yml` under a `staticman` object. There's a whole [list of stuff](https://github.com/eduardoboucas/staticman#jekyll-configuration) you can configure --- the important stuff being `allowedFields`, `branch`, `format`, `moderation`, and `path`.
 
-{% capture branch_setting %}
+{% notice info %}
 #### Branch Setting
 
 This is the branch comment files will be sent to via pull requests. If you host your site on GitHub Pages it will likely be `master` or `gh-pages`. If you're unsure check the [**Configuring a Publishing Source**](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) documentation to refresh your memory.
-{% endcapture %}
-
-<div class="notice--info">
-  {{ branch_setting | markdownify }}
-</div>
+{% endnotice %}
 
 There's also an undocumented `generatedFields`[^generated-fields] setting that is useful for time stamping each file Staticman creates.
 
@@ -284,15 +276,11 @@ In case spam makes it through, I'd like another layer of "protection" to block i
 
 When hosting with GitHub Pages, a merge will instantly force Jekyll to rebuild the site --- publishing the comment. Since I self host I have the extra step of pulling from `remote`, before building locally and [deploying via rsync]({% post_url /articles/2016-02-17-using-jekyll-2016 %}#deployment).
 
-{% capture webhooks %}
+{% notice info %}
 #### ProTip: Webhooks for Branch Auto Deletion
 
 Avoid manually cleaning up Staticman generated branches. Create a GitHub webhook instead that sends a POST request to the following payload URL `https://api.staticman.net/v1/webhook` and triggers a **`pull_request`** event automatically to delete Staticman branches on merge or close.
-{% endcapture %}
-
-<div class="notice--info">
-  {{ webhooks | markdownify }}
-</div>
+{% endnotice %}
 
 ### Hooking Up the Form
 
@@ -320,15 +308,11 @@ For example if all of the required fields aren't filled out an error like this c
 Object {readyState: 4, responseText: "[{"code":"MISSING_REQUIRED_FIELDS","data":["name","email","message"]}]", responseJSON: Array[1], status: 500, statusText: "error"}
 ```
 
-{% capture form_redirect %}
+{% notice info %}
 #### ProTip: Redirect after POST
 
 To set a redirect URL for your form after comment submission, simply add a hidden `input` like so: `<input type="hidden" name="options[redirect]" value="http://your-redirect-url.com">`.
-{% endcapture %}
-
-<div class="notice--info">
-  {{ form_redirect | markdownify }}
-</div>
+{% endnotice %}
 
 ### Publishing Comments
 
@@ -483,7 +467,8 @@ One thing I miss since leaving Disqus, are comment notifications. Sure you can s
 
 Less likely a commenter will return to the page to see if a reply was made without the nudge of a notification. Wordpress and friends has the whole "**subscribe to comments**" feature which could apply here I suppose.
 
-<div class="notice--info" markdown="1">
-#### Update: Replies, Notifications, and More!
+{% notice info %}
+#### Test Update: Replies, Notifications, and More!
+
 Staticman has been updated to support replies, email notifications, and [reCAPTCHA](https://www.google.com/recaptcha/intro/) (helps reduce spam comments). To learn more about how I added each of these to this site, read my post [Improving Static Comments with Jekyll & Staticman]({% post_url /articles/2016-12-08-improving-jekyll-static-comments %}).
-</div>
+{% endnotice %}

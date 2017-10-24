@@ -15,10 +15,11 @@ I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could
 
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
 
-<div class="notice--warning" markdown="1">
+{% notice warning %}
 #### Full Screen Zoom and Grid Indicator
+
 The loupe shown below has been retired and replaced with a more traditional zoom tool in Paper v3. Pinching the screen now magnifies the entire canvas allowing for more room to work. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.
-</div>
+{% endnotice %}
 
 ## Why is This Important?
 
@@ -58,7 +59,8 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Two Handed Zoom --- Only When You Need It
+
 Save this two handed zoom technique for painting large shapes that require extra precision. It can be somewhat disorienting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
-</div>
+{% endnotice %}

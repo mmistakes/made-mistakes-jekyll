@@ -92,10 +92,11 @@ Undoing (Rewinding) can still be triggered with a gesture[^rewind] or tapping th
 
 [^rewind]: A small adjustment was made to the way Rewind works. To trigger it tap once with 2 fingers anywhere on the screen before making the [circle gesture]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#gestures-to-master).
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: Quick Undo Gesture
+
 To quickly undo a mistake double tap the screen with two fingers.
-</div>
+{% endnotice %}
 
 The **• • •** button below each idea allows you to delete, duplicate, and move pages now. You no longer have to tap and hold an idea with one hand and do finger gymnastics with the other to move things around.
 
@@ -133,9 +134,10 @@ You can easily switch between idea types (Canvas/Photo/Text) by tapping their co
 
 Mix is no longer something you "pull down" to access from within Paper. The stream of ideas from the **People You Follow** on Mix (or should I say PAPER now?) now appear alongside your private spaces for quicker access.
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### ProTip: See All Your Shared Ideas
-The <em>shared journal</em> has been removed from Paper but you can still see all of your public ideas in one place. Tap your avatar in the upper right, and then tap your name to bring up your profile card. From here tap <strong>Ideas</strong> to see everything you've shared.
-</div>
+
+The *shared journal* has been removed from Paper but you can still see all of your public ideas in one place. Tap your avatar in the upper right, and then tap your name to bring up your profile card. From here tap **Ideas** to see everything you've shared.
+{% endnotice %}
 
 OK, back to lusting over the new **Apple Pencil** and waiting for the day Apple brings that technology to the smaller and cheaper iPads :wink:.

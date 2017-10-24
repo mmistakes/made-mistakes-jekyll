@@ -117,7 +117,8 @@ That being said. Feel free to add my friend code and town information if you hav
 	<img src="/assets/images/animal-crossing-friend-code.jpg" alt="My friend code. Add me." />
 </figure>
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### La mer in Beetus
+
 **Friend Code:** 4769-1328-3546. My native fruit is apples (I have pears, peaches, cherries, oranges, and coconuts). I also have some golden watering cans for sale, a fountain and am close to having 1,000,000 bells to purchase a lighthouse.
-</div>
+{% endnotice %}
