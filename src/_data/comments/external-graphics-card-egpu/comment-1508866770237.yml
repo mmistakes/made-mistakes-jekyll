@@ -1,0 +1,9 @@
+_id: 8498906f-8d03-45f9-b83d-b4eaa75a955d
+_parent: /projects/external-graphics-card-egpu/
+message: ""Hi Ali\n\nPeople have fitted the GTX 960 into the AKiTiO Thunder 2, but without a PCIe riser you need to supply it with enough power, check out my previous reply to MacnOOb about this. Since the AKiTiO Thunder 2 can only supply 25 watts of power through the PCIe port, it is not nearly enough since you need around 128 to 160 watts of power total for the card. \n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-06-12T16:05:45.000Z'

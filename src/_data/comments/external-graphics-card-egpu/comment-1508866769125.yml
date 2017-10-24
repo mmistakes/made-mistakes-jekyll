@@ -1,0 +1,9 @@
+_id: cb79ac81-f8c9-4ff6-8ba0-acae60fdc15c
+_parent: /projects/external-graphics-card-egpu/
+message: "|- Hi Tyler  Sorry for the late reply, but somehow I missed this comment! I have not tried using another device like a motherboard with a Thunderbolt device like an external device connected to a laptop and have not seen anything like it. The closest I have seen is connecting two laptops together with Thunderbolt where one laptop is using the harddisk of the other, but the laptop is in a slave like mode. That I think is the basic problem, you connect two devices that are acting as masters and I would expect the whole thing to not work.  /Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-05-20T17:42:05.000Z'

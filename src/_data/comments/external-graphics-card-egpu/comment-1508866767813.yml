@@ -1,0 +1,9 @@
+_id: 0003b202-2b2a-4c49-aa62-c4717578dcf8
+_parent: /projects/external-graphics-card-egpu/
+message: "Hi Asad  It does seem to be better value because of a lower price point and you get a power brick. The HDMI is just used as a data port for the PCI-e input, it does not make it any better. So you cannot use HDMI for connection, you need a mini PCIe port for this to work. You need to open up the laptop and see if you can get an available mini PCIe slot.  /Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-04-21T21:21:29.000Z'
