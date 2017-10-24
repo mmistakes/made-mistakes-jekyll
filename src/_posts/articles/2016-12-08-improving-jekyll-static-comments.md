@@ -41,13 +41,13 @@ comments:
         format      : "iso8601"
 ```
 
-{% include notice content="
+{% notice info %}
 #### New Configuration Options
 
 Be sure to check the [sample configuration file](https://github.com/eduardoboucas/staticman/blob/master/staticman.sample.yml) and [full list of parameters](https://staticman.net/docs/configuration) for setup ideas.
 
-For example you can configure multiple properties (comments, reviews, and other types of user-generated content), change commit message and request body text, enable email notifications, and much more from a `staticman.yml` file."
-%}
+For example you can configure multiple properties (comments, reviews, and other types of user-generated content), change commit message and request body text, enable email notifications, and much more from a `staticman.yml` file.
+{% endnotice %}
 
 ### Remove/Add Staticman as a Collaborator
 
@@ -88,21 +88,21 @@ And to my comment form as a hidden field:
 <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
 ```
 
-{% include notice type="info" content="
+{% notice info %}
 #### Update: Field Name Change
 
-After publishing this article I learned that [`options[parent]`](https://github.com/eduardoboucas/staticman/issues/42#issuecomment-262938831) is meant to identify subscription entries, and not comment lineage. I've since changed to `fields[replying_to]` and updated the article and sample code to reflect this."
-%}
+After publishing this article I learned that [`options[parent]`](https://github.com/eduardoboucas/staticman/issues/42#issuecomment-262938831) is meant to identify subscription entries, and not comment lineage. I've since changed to `fields[replying_to]` and updated the article and sample code to reflect this.
+{% endnotice %}
 
 ### Update Liquid Loops
 
 To avoid displaying duplicates, I needed to exclude replies and only top level comments in the main loop. This seemed like the perfect use-case for Jekyll's `where_exp` filter:
 
-{% include notice type="warning" content="
+{% notice warning %}
 #### Where Expression Jekyll Filter
 
-Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp:\"item\", \"item.graduation_year == 2014\"`"
-%}
+Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp:\"item\", \"item.graduation_year == 2014\"`
+{% endnotice %}
 
 If the hidden `fields[replying_to]` field I added to the form was working properly I should have comment data files similar to these:
 
@@ -238,13 +238,13 @@ Once discovered, the fix was simple --- remove `[1]` from each of the property n
   <figcaption>Success, there be parent comments Captain!</figcaption>
 </figure>
 
-{% include notice content="
+{% notice info %}
 #### Note: Sort and Where Filters Don't Mix
 
 I ran into strange behaviors and errors due to mixing a `sort` filter with `where` and `where_exp`. Came to the conclusion it was unnecessary as the items were already being sorted alphabetically based on their filenames, and removed the filter.
 
-I'm using the following: `filename: \"comment-{@timestamp}\"` structure. Your mileage may vary depending on how you name entries."
-%}
+I'm using the following: `filename: \"comment-{@timestamp}\"` structure. Your mileage may vary depending on how you name entries.
+{% endnotice %}
 
 #### Displaying Nested Comments
 
@@ -486,11 +486,11 @@ allowedOrigins: ["mademistakes.com"]
 
 The domain(s) allowed here must match those passed from an `options.origin` field we're going to add in the next step. Only domains that match will trigger notifications to send, otherwise the operation will abort.
 
-{% include notice type="warning" content="
+{% notice warning %}
 #### ProTip: Use Your Own Mailgun Account
 
-The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) account with a limit of 10,000 emails a month. You are encouraged to create an account and add your own [Mailgun API and domain](https://staticman.net/docs/configuration#notifications.enabled) to `staticman.yml`. Be sure you encrypt both using the following endpoint: `https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}`."
-%}
+The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) account with a limit of 10,000 emails a month. You are encouraged to create an account and add your own [Mailgun API and domain](https://staticman.net/docs/configuration#notifications.enabled) to `staticman.yml`. Be sure you encrypt both using the following endpoint: `https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}`.
+{% endnotice %}
 
 ### Update Comment Form
 

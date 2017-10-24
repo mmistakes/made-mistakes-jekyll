@@ -1,3 +1,0 @@
-<div class="notice--{{ include.type | default: "info" }}">
-  {{ include.content | markdownify }}
-</div>
