@@ -47,18 +47,25 @@ figure.align-center {
 
 figure {
   &.half,
-  &.third {
+  &.third,
+  > p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    > a,
+    > p a,
     > img {
       display: block;
     }
   }
 
+  > p {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
   &.half {
+    > p a,
     > a,
     > img {
       @include breakpoint($small) {
@@ -74,6 +81,7 @@ figure {
   }
 
   &.third {
+    > p a,
     > a,
     > img {
       @include breakpoint($small) {
