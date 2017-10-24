@@ -117,10 +117,9 @@ Using Popcorn's [`main.js`](https://github.com/eduardoboucas/popcorn/blob/gh-pag
 
 To avoid disrupting the flow too much I went with inline alert messaging directly above the **submit button**.
 
-<figure>
-  <img src="/assets/images/mm-comment-inline-alert.png" alt="inline comment form alert example">
-  <figcaption>Comment form inline alert example.</figcaption>
-</figure>
+{% figure caption:"Comment form inline alert example." %}
+![Inline comment form alert example](/assets/images/mm-comment-inline-alert.png)
+{% endfigure %}
 
 And to improve the user experience upon submission the submit button's text changes to `Loading...`, becomes disabled, and an animated SVG icon inserted for bit of extra flare.
 
@@ -129,19 +128,17 @@ $(form).addClass('disabled');
 $('#comment-form-submit').html('<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Loading...');
 ```
 
-<figure>
-  <img src="/assets/images/mm-submit-comment-loading.gif" alt="submit button loading animation">
-  <figcaption>Submit button loading animation.</figcaption>
-</figure>
+{% figure caption:"Submit button loading animation." %}
+![Submit button loading animation](/assets/images/mm-submit-comment-loading.gif)
+{% endfigure %}
 
 If the form is successfully submitted a message appears notifying the user that the comment has been received and is pending moderation. Since my site takes a bit to generate with Jekyll I felt it necessary to convey this to the user, hopefully avoiding duplicate submissions. 
 
 With smaller sites hosted with GitHub Pages this becomes less of a problem, as they build much faster. Especially true if you decide to go with the auto merge option and skip [moderating comments](https://github.com/eduardoboucas/staticman#moderation-required).
 
-<figure>
-  <img src="/assets/images/mm-submit-comment-success.gif" alt="form submit success animation">
-  <figcaption>The comment form in action.</figcaption>
-</figure>
+{% figure caption:"The comment form in action." %}
+![Form submit success animation](/assets/images/mm-submit-comment-success.gif)
+{% endfigure %}
 
 ### Displaying Comments
 
@@ -212,10 +209,9 @@ Should populate `_includes/comment.html` and spit out as the following HTML:
 
 Looking like this when styled with `CSS`:
 
-<figure>
-  <img src="/assets/images/mm-comment-example.png" alt="comment example">
-  <figcaption>Comment example (rendered HTML).</figcaption>
-</figure>
+{% figure caption:"Comment example (rendered HTML)." %}
+![Comment example](/assets/images/mm-comment-example.png)
+{% endfigure %}
 
 There's not much magic in the `comment.html` include --- some [structured data](https://schema.org/Comment) markup sprinkled about and a few Liquid conditionals for displaying author avatars and URLs.
 
@@ -318,15 +314,13 @@ To set a redirect URL for your form after comment submission, simply add a hidde
 
 If configured correctly you should receive a pull request notification on GitHub each time a comment entry is submitted. Look the commit over (if you're moderating them) and **merge pull request** to accept or **close** to block it.
 
-<figure>
-  <img src="/assets/images/staticman-github-pull-requests.png" alt="Staticman pull request notifications on GitHub">
-  <figcaption>Staticman <strong>pull request</strong> notifications on GitHub.</figcaption>
-</figure>
+{% figure caption:"Staticman **pull request** notifications on GitHub." %}
+![Staticman pull request notifications on GitHub](/assets/images/staticman-github-pull-requests.png)
+{% endfigure %}
 
-<figure>
-  <img src="/assets/images/staticman-pull-request-merge.png" alt="Staticman pull request merge on GitHub">
-  <figcaption>Staticman pull request merged and branch auto-deleted via webhook.</figcaption>
-</figure>
+{% figure caption:"Staticman pull request merged and branch auto-deleted via webhook." %}
+![Staticman pull request merge on GitHub](/assets/images/staticman-pull-request-merge.png)
+{% endfigure %}
 
 ---
 
@@ -405,10 +399,9 @@ Pulling this off with Disqus required way [more work](https://help.disqus.com/cu
 
 [^markdown-filter]: The `markdownify` filter is used in `_includes/comment.html` to convert Markdown-formatted strings found in `{% raw %}{{ include.message }}{% endraw %}` into HTML.
 
-<figure>
-  <img src="/assets/images/mm-comments-syntax-highlighted.png" alt="syntax highlighted code blocks in comments">
-  <figcaption>Syntax highlighted code blocks in comments.</figcaption>
-</figure>
+{% figure caption:"Syntax highlighted code blocks in comments." %}
+![Syntax highlighted code blocks in comments](/assets/images/mm-comments-syntax-highlighted.png)
+{% endfigure %}
 
 ### Troubleshooting
 

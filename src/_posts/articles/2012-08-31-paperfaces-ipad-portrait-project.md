@@ -53,10 +53,9 @@ When the count hit 700, I revised my initial goal of 365 to 730 (that's two a da
 
 When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 was its small tool set, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and grow as an artist.
 
-<figure class="large">
-  <img src="/assets/images/paperfaces-rosebud-twins-l.jpg" alt="PaperFaces iPad portrait of the Rosebud twins">
-  <figcaption>PaperFaces iPad portrait of my two twin girls</figcaption>
-</figure>
+{% figure caption:"PaperFaces iPad portrait of my two twin girls." class:"large" %}
+![Rosebud twins' portrait](/assets/images/paperfaces-rosebud-twins-l.jpg)
+{% endfigure %}
 
 After drawing over 600 portraits with Paper my skills have matured and I've begun drawing the entire face. It has been a fun personal challenge to capture as much detail in as little time possible.
 
@@ -94,10 +93,9 @@ I use the term "tutorial" loosely. What you'll find here are glorified slide sho
 I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
 {% endnotice %}
 
-<figure class="large">
-  {% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
-  <figcaption>View more of my Paper by FiftyThree video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="/mastering-paper/">read how I use Paper</a>.</figcaption>
-</figure>
+{% figure caption:"View more of my Paper by FiftyThree video tutorials on [YouTube](https://www.youtube.com/user/anotherjpeg) or read [how I use Paper](/mastering-paper/)." %}
+{% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
+{% endfigure %}
 
 ## Homages
 

@@ -15,21 +15,20 @@ comments: false
 
 Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](http://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-veganwendy-twitter.jpg"><img src="/assets/images/paperfaces-veganwendy-twitter-600.jpg" alt="first PaperFaces portrait"></a>
-  <a href="/assets/images/paperfaces-veganwendy-2-twitter.jpg"><img src="/assets/images/paperfaces-veganwendy-2-twitter-600.jpg" alt="last PaperFaces portrait?"></a>
-  <figcaption>What a difference two years made.</figcaption>
-</figure>
+{% figure caption:"What a difference two years made." class:"half" %}
+[![first PaperFaces portrait](/assets/images/paperfaces-veganwendy-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-twitter.jpg)
+[![last PaperFaces portrait?](/assets/images/paperfaces-veganwendy-2-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-2-twitter.jpg)
+{% endfigure %}
 
 ## How Did I Do It?
 
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, fulfilling husbandly duties, caring for a set of twins, and maintaining healthy eating and sleeping habits.
 
-<figure class="third">
-  <img src="/assets/images/paperfaces-retro-03.jpg" alt="The 2 little rosebuds">
-  <img src="/assets/images/paperfaces-retro-02.jpg" alt="Tools of the trade">
-  <img src="/assets/images/paperfaces-retro-01.jpg" alt="Drawing Everly with Pencil by 53">
-</figure>
+{% figure caption:"" class:"third" %}
+![The 2 little rosebuds](/assets/images/paperfaces-retro-03.jpg)
+![Tools of the trade](/assets/images/paperfaces-retro-02.jpg)
+![Drawing Everly with Pencil by 53](/assets/images/paperfaces-retro-01.jpg)
+{% endfigure %}
 
 ### Form a Routine
 
@@ -49,10 +48,9 @@ Don't start a 365 project just for the sake of starting one. Having a clear obje
 
 On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) and [gallery](/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
-<figure>
-  <a href="/assets/images/paper-53-book-wendy-lg.jpg"><img src="/assets/images/paper-53-book-wendy.jpg" alt="Photograph of a PaperFaces drawing"></a>
-  <figcaption>Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet.</figcaption>
-</figure>
+{% figure caption:"Having my work printed helped give it substance instead of just being 1's and 0's I carried around on a tablet." %}
+[![Photograph of a PaperFaces drawing](/assets/images/paper-53-book-wendy.jpg)](/assets/images/paper-53-book-wendy-lg.jpg)
+{% endfigure %}
 
 ### Keep It Fun
 
@@ -69,10 +67,9 @@ Easy and simple can turn boring in a hurry. The challenge of capturing portraits
 [loupe-tutorial]: {% post_url /mastering-paper/2014-07-03-moving-the-loupe %}
 [blend-first-look]: {% post_url /mastering-paper/2013-11-20-pencil-first-look %}
 
-<figure>
-  <img src="/assets/images/paper-53-face-evolution.jpg" alt="PaperFaces evolution">
-  <figcaption>With enough practice I was able to evolve as a creator and produce sketches with greater detail.</figcaption>
-</figure>
+{% figure caption:"With enough practice I was able to evolve as a creator and produce sketches with greater detail." %}
+![PaperFaces evolution](/assets/images/paper-53-face-evolution.jpg)
+{% endfigure %}
 
 As confidence levels grew I wasn't afraid to change the rules to challenge myself. Over the course of two years I did this numerous times by straying outside my comfort zone. First major change was switching from the ink pens to the watercolor and pencil tools. The next was when I decided to move away from drawing blank faces and attempt something more realistic.
 
@@ -80,10 +77,9 @@ As confidence levels grew I wasn't afraid to change the rules to challenge mysel
 
 Initially I planned on drawing a single portrait each day for just one year. When I zipped through 365 days I decided another year wouldn't be that big of a deal and ultimately completed {{ site.categories.paperfaces | size }} finished drawings. 
 
-<figure>
-  <img src="/assets/images/paperfaces-volunteer-tweet.jpg" alt="Favstar.fm tweet screenshot">
-  <figcaption>I've gotten through one-third of the 2,805 requests I've received on Twitter since <a href="https://twitter.com/mmistakes/status/240601384477659136/">tweeting for volunteers</a> two years ago.</figcaption>
-</figure>
+{% figure caption:"I've gotten through one-third of the 2,805 requests I've received on Twitter since [tweeting for volunteers](https://twitter.com/mmistakes/status/240601384477659136/) two years ago." %}
+![Favstar.fm tweet screenshot](/assets/images/paperfaces-volunteer-tweet.jpg)
+{% endfigure %}
 
 <div id="paperfaces-chart" class="ct-chart ct-golden-section" data-chartist-example="Line"></div>
 

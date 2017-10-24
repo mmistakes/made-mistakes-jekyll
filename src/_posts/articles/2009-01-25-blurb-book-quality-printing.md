@@ -20,8 +20,7 @@ They offer some guidance on [color management](http://www.blurb.com/color-manage
 
 ## Sample Pages
 
-<figure class="half">
-	<a href="/assets/images/six-month-walk-interior-1-1024.jpg" title="Photograph of interior page spread of book, A Six Month Walk"><img src="/assets/images/six-month-walk-interior-1-320.jpg" alt="Photograph of interior page spread of book, A Six Month Walk" /></a>
-	<a href="/assets/images/six-month-walk-detail-print-1024.jpg" title="Detail photograph of printed page of book, A Six Month Walk"><img src="/assets/images/six-month-walk-detail-print-320.jpg" alt="Detail photograph of printed page of book, A Six Month Walk" /></a>
-	<figcaption>Detail photographs of a printed book.</figcaption>
-</figure>
+{% figure caption:"Detail photographs of a printed book." class:"half" %}
+[![Photograph of interior page spread of book, A Six Month Walk](/assets/images/six-month-walk-interior-1-320.jpg)](/assets/images/six-month-walk-interior-1-1024.jpg)
+[![Detail photograph of printed page of book, A Six Month Walk](/assets/images/six-month-walk-detail-print-320.jpg)](/assets/images/six-month-walk-detail-print-1024.jpg)
+{% endfigure %}

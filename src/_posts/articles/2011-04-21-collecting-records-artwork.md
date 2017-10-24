@@ -18,14 +18,15 @@ Looking back, my favorite sleeves and liner note designs all shared a common ele
 
 ## Anything but the Swiss
 
-Thumbing through boxes of dusty hardcore and emo records, it's easy to see where many of my early aesthetics drew inspiration from. In college I tired of the [Swiss style](https://en.wikipedia.org/wiki/International_Typographic_Style "International Typographic Style") every one of my peers was regurgitating in *Typography I* and *II*. What excited me more, was mashing analog approaches of zine and <abbr title="Do It Yourself">DIY</abbr> record packaging design with refined digital methods and craftsmanship. Focusing less on the gloss and more on the method, gave me a greater appreciation of texture and how to communicate with it.
+Thumbing through boxes of dusty hardcore and emo records, it's easy to see where many of my early aesthetics drew inspiration from. In college I tired of the [Swiss style](https://en.wikipedia.org/wiki/International_Typographic_Style "International Typographic Style") every one of my peers was regurgitating in *Typography I* and *II*. What excited me more, was mashing analog approaches of zine and DIY record packaging design with refined digital methods and craftsmanship. Focusing less on the gloss and more on the method, gave me a greater appreciation of texture and how to communicate with it.
+
+*[DIY]: Do It Yourself
 
 Instead of embarrassing myself with examples of my early fumbles as a graphic designer --- I'd like to share inspirational fragments from my record collection. With over 500 LP's and 45's, I'm sure I can find plenty of material to critique and comment on.
 
-<figure>
-	<img src="/assets/images/record-art-teaser-620x217.jpg" alt="Image of upcoming artwork to be critiqued" />
-	<figcaption>Upcoming artwork to be discussed.</figcaption>
-</figure>
+{% figure caption:"Upcoming artwork to be discussed." %}
+![Image of upcoming artwork to be critiqued](/assets/images/record-art-teaser-620x217.jpg)
+{% endfigure %}
 
 ## More to Come
 

@@ -233,10 +233,9 @@ Once discovered, the fix was simple --- remove `[1]` from each of the property n
 {% assign message = comment.message %}{% endraw %}
 ```
 
-<figure>
-  <img src="/assets/images/staticman-parent-comments-only.png" alt="Parent comments only">
-  <figcaption>Success, there be parent comments Captain!</figcaption>
-</figure>
+{% figure caption:"Success, there be parent comments Captain!" %}
+![Parent comments only](/assets/images/staticman-parent-comments-only.png)
+{% endfigure %}
 
 {% notice info %}
 #### Note: Sort and Where Filters Don't Mix
@@ -448,10 +447,9 @@ To start I used an `unless` condition to only show reply links on "top-level" co
 {% endunless %}{% endraw %}
 ```
 
-<figure>
-  <img src="/assets/images/staticman-nested-comments.png" alt="Nested comments">
-  <figcaption>Nested comments one-level deep.</figcaption>
-</figure>
+{% figure caption:"Nested comments one-level deep." %}
+![Nested comments](/assets/images/staticman-nested-comments.png)
+{% endfigure %}
 
 To give the **reply link** life I added the following `onclick` attribute and [JavaScript](https://github.com/mmistakes/made-mistakes-jekyll/blob/49632d19977e341b51c91dad8e71bf6ef88e79c3/src/assets/javascripts/main.js#L84-L181) to it.
 
@@ -461,14 +459,9 @@ To give the **reply link** life I added the following `onclick` attribute and [J
 
 A few minor variable name changes to Wordpress' `comment-reply.js` script was all it took to get everything working with my `form` markup.
 
-{% capture reply_caption %}
-Hitting a **reply button** moves the comment form into view and populates `<input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">` with the correct *parent* `value`. While tapping **Cancel reply** returns the input to its original state of `null`.
-{% endcapture %}
-
-<figure>
-  <img src="/assets/images/comment-reply-animation.gif" alt="Comment replies in action">
-  <figcaption>{{ reply_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
-</figure>
+{% figure caption:"Hitting a **reply button** moves the comment form into view and populates `<input type='hidden' id='comment-replying-to' name='fields[replying_to]' value=''>` with the correct *parent* `value`. While tapping **Cancel reply** returns the input to its original state of `null`." %}
+![Comment replies in action](/assets/images/comment-reply-animation.gif)
+{% endfigure %}
 
 ## Add Support for Email Notifications
 
@@ -518,10 +511,9 @@ Nothing fancy here, `name=options[subscribe]` and `value="email"` are added to t
 
 If setup correctly a user should receive an email anytime a new comment on the post or page they subscribed to is merged in.
 
-<figure>
-  <img src="/assets/images/staticman-email-notification.png" alt="Staticman reply email notification">
-  <figcaption>Example of a Staticman "New reply" email notification.</figcaption>
-</figure>
+{% figure caption:"Example of a Staticman **New reply** email notification." %}
+![Staticman reply email notification](/assets/images/staticman-email-notification.png)
+{% endfigure %}
 
 ---
 

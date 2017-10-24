@@ -25,16 +25,14 @@ Looks like I might actually get an **iPhone 4** on launch day. Took AT&T all day
 >
 > Here is a copy of your order summary:
 
-<figure>
-	<img src="/assets/images/iphone-4-order-status.jpg" />
-	<figcaption>Order status results</figcaption>
-</figure>
+{% figure caption:"Order status results" %}
+![iPhone 4 order status](/assets/images/iphone-4-order-status.jpg)
+{% endfigure %}
 
 Now I'm just worried that my existing number is going to be ported over today from Sprint and I'll be without service on my **Palm Pre**. From the looks of it AT&T confirmed my number port for 12:30pm today (6/16/2010). Sure hope it doesn't take effect until I activate via iTunes next week.
 
-<figure>
-	<img src="http://media.tumblr.com/tumblr_l43wq0y1Hq1qz8n9n.jpg" />
-	<figcaption>Number port status</figcaption>
-</figure>
+{% figure caption:"Number port status" %}
+![Sprint number port status](http://media.tumblr.com/tumblr_l43wq0y1Hq1qz8n9n.jpg)
+{% endfigure %}
 
 Now the waiting game begins...

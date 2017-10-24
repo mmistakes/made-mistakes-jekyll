@@ -7,10 +7,9 @@ image:
 tags: [iPhone, Apple, Palm Pre, review, tech geek]
 ---
 
-<figure>
-	<img src="/assets/images/my-phone-progression.jpg" alt="My smartphone progression over the years." />
-	<figcaption>My smartphone progression over the years.</figcaption>
-</figure>
+{% figure caption:"My smartphone progression over the years." %}
+![Smartphone progression](/assets/images/my-phone-progression.jpg)
+{% endfigure %}
 
 Being a longtime Palm user *(see picture above)*, I've come to rely on core functionality in my devices --- solid messaging/email clients, robust calendar and task managers, internet connectivity, and the ability to install applications. Now that every new phone released has these functions, there certainly are more choices to be had.
 
@@ -25,7 +24,6 @@ With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS a
 *	Battery life is excellent. Makes it through a full day with juice to spare.
 *	Doesn't become a hot potato when making calls in areas with poor reception, something I can't say about the Pre.
 *	I don't miss having a physical keyboard. Really enjoying using it in one hand.
-{:.fl}
 
 ## iPhone 4 Software Likes
 
@@ -36,13 +34,11 @@ With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS a
 *	iOS Calendar has a list view! One year later and Palm still couldn't be bothered to add that or an agenda view from the old days.
 *	Mail does threaded messages --- thank you.
 *	Virtual keyboard is awesome. Thought I'd hate typing on a screen, but it works so much better than having to slide out a keyboard to fire off quick replies.
-{:.fl}
 
 ## iPhone 4 Software Dislikes
 
 *	Syncing contacts, email, and social media from the cloud is pretty weak. Sure you can link *Facebook* data to contact entries or use *Google Sync* via Microsoft Exchange to push Gmail/calendars/contacts, but they each have some issues. webOS does it much better and with less effort.
 *	Notifications are weak and obtrusive. Palm nailed it in webOS and easily has the best implementation out there. webOS notifications have nice visual cues and are stackable allowing you to act on them in whatever order you want.
 *	Faux multi-tasking. Well to be fair I don't dislike the feature, I just think it has room to grow. Right now not all applications support it. Which can be jarring when apps don't resume where you left off.
-{:.fl}
 
 Overall I'm extremely happy with my purchase. Sure I'm paying the Apple tax on a more expensive monthly bill with data capped at 2GB. But I think it's worth it to have a phone that is responsive, reliable, and a joy to use.

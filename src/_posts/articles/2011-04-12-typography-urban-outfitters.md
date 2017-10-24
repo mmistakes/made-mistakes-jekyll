@@ -12,10 +12,9 @@ tags: [catalog, design, typography, critique, readability]
 
 I think it is very clear that the April 2011 *Urban Outfitters* catalog was more concerned with style and art direction than typography. Now, I'm not trying to weigh the implications of, or reasons for this. Being a designer who values legibility and hierarchy, this catalog sure is filled with a bunch of head scratching typographic choices.
 
-<figure>
-    <a href="/assets/images/UO-bad-type-placement.jpg" title="Inside front cover detail photograph"><img title="Urban Outfitters bad type placement" src="/assets/images/UO-bad-type-placement.jpg" alt="UO April 2011 inside front cover detail" /></a>
-    <figcaption>Would it have hurt to move these blocks of type to right a few inches?</figcaption>
-</figure>
+{% figure caption:"Would it have hurt to move these blocks of type to right a few inches?" %}
+![UO April 2011 inside front cover detail](/assets/images/UO-bad-type-placement.jpg)
+{% endfigure %}
 
 ## Violators, Mount Up
 
@@ -40,17 +39,14 @@ At the end of the day I really doubt any one is looking at these pages wondering
 
 ## Readability No No's
 
-<figure>
-  <a href="/assets/images/UO-product-text.jpg" title="Type comparion"><img src="/assets/images/UO-product-text-300.jpg" alt="Urban Outfitters type comparison" /></a>
-  <figcaption>Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B.</figcaption>
-</figure>
+{% figure caption:"Just for giggles I mocked up a type treatment with left justified type and varying font weights. Which one do you think is easier to read? A or B." %}
+![Urban Outfitters type comparison](/assets/images/UO-product-text.jpg)
+{% endfigure %}
 
-<figure>
-  <a href="/assets/images/UO-awful-readability.jpg" title="Another example of unreadable type"><img src="/assets/images/UO-awful-readability-300.jpg" alt="Another example of bad type and no regard for readability" title="Urban Outfitters awful typography" /></a>
-  <figcaption>White type on a light gray background is awful for readability.</figcaption>
-</figure>
+{% figure caption:"White type on a light gray background is awful for readability." %}
+![Another example of bad type and no regard for readability](/assets/images/UO-awful-readability.jpg)
+{% endfigure %}
 
-<figure>
-  <a href="/assets/images/UO-type-hiearchy.jpg" title="Another detail image of type"><img title="Urban Outfitters catalog typography" src="/assets/images/UO-type-hiearchy-300.jpg" alt="Detail image of decent type treatments" /></a>
-  <figcaption>This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++</figcaption>
-</figure>
+{% figure caption:"This page isn't half bad. No justified type, nice rag, and solid use of a grid. A++" %}
+![Urban Outfitters catalog typography](/assets/images/UO-type-hiearchy.jpg)
+{% endfigure %}

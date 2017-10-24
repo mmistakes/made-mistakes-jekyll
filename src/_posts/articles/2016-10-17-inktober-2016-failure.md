@@ -30,22 +30,14 @@ After taking a few days to complete a single ink wash --- I was spent. Working d
 
 I did manage to record a time lapse video during hour 2 of the painting. Unfortunately I mistakenly put the iPhone 7 Plus in **SLO-MO** mode by mistake for the first half. Really surprised there was enough free space to record an hour of 1080p video...
 
-<figure>
-  {% youtube gOBj8HdfA2Y %}
-  <figcaption>1 hour time lapse condensed down into ~20 seconds.</figcaption>
-</figure>
+{% figure caption:"1 hour time lapse condensed down into ~20 seconds." %}
+{% youtube gOBj8HdfA2Y %}
+{% endfigure %}
 
 October is half over and I suppose there's still time for me to knock out another portrait or two. If past years are any indication there's not a good chance of that happening. :neutral_face:
 
-<figure class="third">
-  <a href="/assets/images/inktober-past-1.jpg">
-    {% lazyload data-src="/assets/images/inktober-past-1-600.jpg" alt="Inktober drawing from the past" %}
-  </a>
-  <a href="/assets/images/inktober-past-2.jpg">
-    {% lazyload data-src="/assets/images/inktober-past-2-600.jpg" alt="Inktober drawing from the past" %}
-  </a>
-  <a href="/assets/images/inktober-past-3.jpg">
-   {% lazyload data-src="/assets/images/inktober-past-3-600.jpg" alt="Inktober drawing from the past" %}
-  </a>
-  <figcaption>Inktober pieces from the past.</figcaption>
-</figure>
+{% figure caption:"Inktober pieces from the past." class:"third" %}
+[![Inktober drawing from the past](/assets/images/inktober-past-1-600.jpg)](/assets/images/inktober-past-1.jpg)
+[![Inktober drawing from the past](/assets/images/inktober-past-2-600.jpg)](/assets/images/inktober-past-2.jpg)
+[![Inktober drawing from the past](/assets/images/inktober-past-3-600.jpg)](/assets/images/inktober-past-3.jpg)
+{% endfigure %}

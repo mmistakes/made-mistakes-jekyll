@@ -16,7 +16,6 @@ I had nothing to do with using a bad credit card at Tops' honest! I just happen 
 >
 > <cite>The Buffalo News</cite>
 
-<figure>
-  <img src="/assets/images/michael-the-fugitive.jpg" alt="Me the fugitive?" />
-  <figcaption>I think my bizarro twin is running some sort of credit card scam.</figcaption>
-</figure>
+{% figure caption:"I think my bizarro twin is running some sort of credit card scam." %}
+![Me the fugitive?](/assets/images/michael-the-fugitive.jpg)
+{% endfigure %}
