@@ -39,5 +39,5 @@ Now I want to see what I can do to enrich my eye and skills as a designer. I've 
 {% endfigure %}
 
 {% figure caption:"Redesign sketch that never happened." %}
-[![Made Mistakes Website Sketch](/assets/images/made-mistakes-sketch.jpg)](/assets/images/made-mistakes-sketch.jpg)
+![Made Mistakes Website Sketch](/assets/images/made-mistakes-sketch.jpg)
 {% endfigure %}
