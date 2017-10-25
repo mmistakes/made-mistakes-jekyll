@@ -43,7 +43,7 @@ I was lucky enough to get the Bullitt Panel Bags at a reduced price from [fahrer
 
 The bags are waterproof and rather large. I was surprised on how much stuff I could carry with room to spare.
 {% include figure
-  image_path="/assets/images/fahrer-berlin-panel-bags-review-content-1024.jpg"
+  image_path="/assets/images/fahrer-berlin-panel-bags-review-Content-1024.jpg"
   caption="My content of the Fahrer Panel Bags"
 %}
 
