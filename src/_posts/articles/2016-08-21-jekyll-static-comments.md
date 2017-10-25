@@ -9,6 +9,7 @@ image:
   teaser: /assets/images/going-static-comments-teaser.jpg
   caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
 comments: true
+comments_locked: true
 last_modified_at: 2017-10-24T09:32:39-04:00
 ---
 

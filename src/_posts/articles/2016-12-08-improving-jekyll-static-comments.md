@@ -9,6 +9,7 @@ image:
   caption: "[Photo by **Gabriel Santiago**](https://unsplash.com/@gabrielssantiago)"
 tags: [web development, GitHub, Jekyll, tutorial]
 comments: true
+comments_locked: true
 last_modified_at: 2017-10-24T09:32:44-04:00
 ---
 
