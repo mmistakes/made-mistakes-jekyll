@@ -3,7 +3,7 @@ title: "Geo-targeted Amazon affiliate links in WordPress"
 excerpt: "Geo-targeted Amazon affiliate links in WordPress using the Amazon Link plugin"
 tags:
   - Amazon Affiliate
-  - WordPress
+  - Wordpress
   - PHP
 comments: true
 comments_locked: false
