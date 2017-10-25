@@ -22,7 +22,7 @@ Entering the PaperFaces Giveaway is simple. **Contest has ended**: <s>Just fill 
 
 ## Winning Portraits
 
-{% figure caption:"Winners of my first PaperFaces portrait giveaway. class:"third" %}
+{% figure caption:"Winners of my first PaperFaces portrait giveaway." class:"third" %}
 [![color portrait winner](/assets/images/paperfaces-harvydanger-twitter-600.jpg)]({% post_url /paperfaces/2014-09-02-harvydanger-portrait %})
 [![black and white portrait winner](/assets/images/paperfaces-psychoticmilkma-2-600.jpg)]({% post_url /paperfaces/2014-09-06-psychoticmilkma-2-portrait %})
 [![black and white portrait winner](/assets/images/paperfaces-viktoriaderoy-600.jpg)]({% post_url /paperfaces/2014-09-10-viktoriaderoy-portrait %})
