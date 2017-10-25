@@ -1,0 +1,9 @@
+_id: 677ae322-17ac-4475-a2c9-85b928e7b460
+_parent: /code/extract-amazon-affiliate-earnings-script/
+message: "Hi Neloy\n\nI use linux so I am not sure why it does not work with your installation, but it seems that the include paths are wrong, those are linux paths, not Windows paths. That might be why it just works on linux. You might try following the instructions on the GitHub page to see if it works: [https://github.com/fubralimited/php-oara](https://github.com/fubralimited/php-oara)\n\n/Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: '8fefc663-97c0-4a7a-8c0d-e7c9e5116e37'
+hidden: ''
+date: '2016-04-26T20:07:56.000Z'
