@@ -16,12 +16,12 @@ last_modified_at: 2017-09-08T08:29:30
 redirect_from: "/fahrer-berlin-panel-bags-review/"
 
 gallery_install:
-  - url: "/assets/images/fahrer-berlin-panel-bags-review-bags-install-01-768.jpg"
-    image_path: "/assets/images/fahrer-berlin-panel-bags-review-bags-install-01-768.jpg"
+  - url: "/assets/images/fahrer-berlin-panel-bags-review-install-01-768.jpg"
+    image_path: "/assets/images/fahrer-berlin-panel-bags-review-install-01-768.jpg"
     alt: "To mount the panel bag..."
     title: "To mount the panel bag..."
-  - url: "/assets/images/fahrer-berlin-panel-bags-review-bags-install-02-768.jpg"
-    image_path: "/assets/images/fahrer-berlin-panel-bags-review-bags-install-02-768.jpg"
+  - url: "/assets/images/fahrer-berlin-panel-bags-review-install-02-768.jpg"
+    image_path: "/assets/images/fahrer-berlin-panel-bags-review-install-02-768.jpg"
     alt: "... one needs to use a screwdriver through the mesh pocket."
     title: "... one needs to use a screwdriver through the mesh pocket."
 
