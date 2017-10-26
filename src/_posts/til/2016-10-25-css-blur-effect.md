@@ -14,16 +14,9 @@ In this [last redesign](https://github.com/mmistakes/made-mistakes-jekyll/tree/1
 
 The browser does the rest, enlarging and smoothing out these tiny images --- creating a blurred effect of sorts. For the most part they look good. On devices that display `@2x` or higher, blotchy patterns and artifacts begin to show their ugly faces.
 
-{% capture upscale_caption %}
-These upscaled images sure do look awful on an iPad with retina display, :stuck_out_tongue_closed_eyes: yuck!
-{% endcapture %}
-
-<figure>
-  <a href="/assets/images/mm-upscaled-image-blur-ipad.jpg">
-    <img src="/assets/images/mm-upscaled-image-blur-ipad-1124.jpg" alt="ugly upscaled images on a high resolution display">
-  </a>
-  <figcaption>{{ upscale_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
-</figure>
+{% figure caption:"These upscaled images sure do look awful on an iPad with retina display, :stuck_out_tongue_closed_eyes: yuck!" %}
+[![ugly upscaled images on a high resolution display](/assets/images/mm-upscaled-image-blur-ipad-1124.jpg)](/assets/images/mm-upscaled-image-blur-ipad.jpg)
+{% endfigure %}
 
 This is where [CSS filter functions](https://css-tricks.com/almanac/properties/f/filter/) like `blur` come into play. By adding a single line to my stylesheet I was able to smoothen out these images just enough to overcome the ugly.
 
@@ -40,14 +33,9 @@ This is where [CSS filter functions](https://css-tricks.com/almanac/properties/f
 }
 ```
 
-{% capture filter_blur_caption %}
-Smoothed things out nicely with `filter: blur()`.
-{% endcapture %}
-
-<figure>
-  <img src="/assets/images/mm-image-filter-blur-ipad-1124.jpg" alt="blur filtered background images">
-  <figcaption>{{ filter_blur_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
-</figure>
+{% figure caption:"Smoothed things out nicely with `filter: blur()`." %}
+![blur filtered background images](/assets/images/mm-image-filter-blur-ipad-1124.jpg)
+{% endfigure %}
 
 The best part, browser [support for CSS filter effects](http://caniuse.com/#search=filter) is quite good.
 

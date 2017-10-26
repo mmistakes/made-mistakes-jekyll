@@ -14,9 +14,8 @@ Portrait of Madison S. inspired by a [photograph on Sktchy](http://sktchy.com/cl
 
 I still don't own an [iPad Pro or Apple Pencil]({% post_url /articles/2015-09-25-ipad-pro %}), but that's not stopping me from enjoying the newest Procreate update. I'm starting to get the hang of the app more and more, but really want to step away from the "digital oil painting" look. For my next portrait I'm definitely going to explore the various brushes to try and achieve the feel of watercolor and pencil.
 
-<figure>
-  {% youtube ggx-gAmrKiM %}
-  <figcaption>Time lapse video recorded within Procreate, completed in 6 hours and 8 minutes.</figcaption>
-</figure>
+{% figure caption:"Time lapse video recorded within Procreate, completed in 6 hours and 8 minutes." %}
+{% youtube ggx-gAmrKiM %}
+{% endfigure %}
 
 {% include boilerplate/procreate.md %}

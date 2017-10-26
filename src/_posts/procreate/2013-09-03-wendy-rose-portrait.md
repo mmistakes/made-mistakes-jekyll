@@ -18,10 +18,9 @@ Having used [FiftyThree's Paper app](http://www.fiftythree.com/) exclusively up 
 
 Paper's sketchbook motif resonated with me more than the approach digital painting powerhouses like Procreate were pursuing. Learning a complex and feature rich app was not something I had the time to mess with. So I abandoned Procreate with the goal of returning to it a year or two...
 
-<figure>
-  {% youtube w2e0phIhGq8 %}
-  <figcaption>Time lapse video recorded within Procreate.</figcaption>
-</figure>
+{% figure caption:"Time lapse video recorded within Procreate." %}
+{% youtube w2e0phIhGq8 %}
+{% endfigure %}
 
 #### Tools Used
 

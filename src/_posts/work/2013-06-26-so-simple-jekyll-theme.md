@@ -34,9 +34,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt tasks for easier site development.
 
-<figure class="large">
-	<a href="https://mmistakes.github.io/so-simple-theme/" title="Preview So Simple Theme"><img src="{{ site.url }}/assets/images/so-simple-theme-preview.jpg" alt="Screenshot of So Simple Theme"></a>
-</figure>
+[![Screenshot of So Simple Theme](/assets/images/so-simple-theme-preview.jpg)](https://mmistakes.github.io/so-simple-theme/ "Preview So Simple Theme")
 
 ## Getting Started
 

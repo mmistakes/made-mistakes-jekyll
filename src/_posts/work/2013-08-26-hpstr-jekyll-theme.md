@@ -32,9 +32,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
 
-<figure class="large">
-	<a href="shttp://mmistakes.github.io/hpstr-jekyll-theme/" title="Preview HPSTR Theme"><img src="/assets/images/hpstr-jekyll-theme-preview.jpg" alt="Screenshot of HPSTR Theme"></a>
-</figure>
+[![Screenshot of HPSTR Theme](/assets/images/hpstr-jekyll-theme-preview.jpg)](https://mmistakes.github.io/hpstr-jekyll-theme/ "Preview HPSTR")
 
 <div markdown="0" class="btn--group">
   <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn btn--info">Download</a>
@@ -70,10 +68,9 @@ Grunt is no longer needed to build `main.css`. I've ported all of the Less style
 
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with lightweight share links. Social sharing links are enabled by default on all posts and pages. To disable add `share: false` to the post's YAML Front Matter.
 
-<figure>
-	<img src="/assets/images/hpstr-social-share-example.jpg" alt="social share button screenshot">
-	<figcaption>How social sharing buttons look in HPSTR</figcaption>
-</figure>
+{% figure caption:"How social sharing buttons look in HPSTR" %}
+![social share button screenshot](/assets/images/hpstr-social-share-example.jpg)
+{% endfigure %}
 
 [^2]: To me a blog's masthead, logo, title, headline, and navigation are branding elements that can reinforce or distract from a central theme or feeling. I suppose downplaying or removing these elements could be see as a way of branding too… but that's a discussion for another day.
 [^3]: On mobile I choose to remove the fixed positioning to keep the menu from interfering with the main content.

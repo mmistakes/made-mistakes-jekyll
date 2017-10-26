@@ -14,9 +14,8 @@ Portrait of Jj Plix inspired by a [photograph on Sktchy](http://sktchy.com/BXA9O
 
 Now we're getting somewhere. Half finished is the new finished.
 
-<figure>
-  {% youtube 38nMoHaAJxQ %}
-  <figcaption>Time lapse video recorded within Procreate.</figcaption>
-</figure>
+{% figure caption:"Time lapse video recorded within Procreate." %}
+{% youtube 38nMoHaAJxQ %}
+{% endfigure %}
 
 {% include boilerplate/procreate.md %}

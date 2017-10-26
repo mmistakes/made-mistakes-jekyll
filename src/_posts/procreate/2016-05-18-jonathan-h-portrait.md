@@ -16,10 +16,9 @@ The more I've been using this [**Adonit Ink**](http://www.amazon.com/Adobe-Creat
 
 I knew going in that support for the Ink was likely going to be poor with my **iPad Air 2**. That hasn't stopped me from trying to get the most out of it though. It reminds me of the days of using a Pogo Connect that would register a touch around 60% of the time forcing you to redo your marks.
 
-<figure>
-  {% youtube yFpaUg5AH_o %}
-  <figcaption>I planned on spending more time detailing and refining things, but the frustration of working with unresponsive and inaccurate styli got the better of me.</figcaption>
-</figure>
+{% figure caption:"I planned on spending more time detailing and refining things, but the frustration of working with unresponsive and inaccurate styli got the better of me." %}
+{% youtube yFpaUg5AH_o %}
+{% endfigure %}
 
 Maybe I should just give the digital stuff a break for now and go old school with paper and pencil. Using such powerful tools like the iPad and [**Procreate**](http://procreate.si/) make things almost too easy. If I'm to improve my observation and drawing skills I really need to focus on the basics.
 

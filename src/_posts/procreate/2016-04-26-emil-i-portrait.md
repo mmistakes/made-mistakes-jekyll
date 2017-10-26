@@ -26,9 +26,8 @@ On the positive side, the tip is made of a hard plastic. Unlike styli that have 
 
 After getting a taste at what pressure sensitive drawing with Procreate could be like, I just want to own the real thing --- an [Apple Pencil and iPad Pro]({% post_url /articles/2015-09-25-ipad-pro %}) :smile:.
 
-<figure>
-  {% youtube fFX1CUO472U %}
-  <figcaption>Time lapse video recorded within Procreate.</figcaption>
-</figure>
+{% figure caption:"Time lapse video recorded within Procreate." %}
+{% youtube fFX1CUO472U %}
+{% endfigure %}
 
 {% include boilerplate/procreate-2.md %}
