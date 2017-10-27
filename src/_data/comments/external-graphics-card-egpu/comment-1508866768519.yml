@@ -1,6 +1,6 @@
 _id: 789210e6-34e2-4292-a502-abec2e6d114c
 _parent: /projects/external-graphics-card-egpu/
-message: "Love this post, really interesting! Have you tried any other solutions for the PCIe bus "extension" from laptop to eGPU? For example, using a regular mobo in a pc case that supports thunderbolt to contain the GPU and connect that via thunderbolt cable to the laptop? Or perhaps powering the GPU on a regular pc (in PCIe slot on mobo) and connecting via thunderbolt to the laptop, would it send data parallel with both machines? Or would it be able to differentiate and once specified send only data to the laptop? Very interesting topic, let me know what you think."
+message: "Love this post, really interesting! Have you tried any other solutions for the PCIe bus \"extension\" from laptop to eGPU? For example, using a regular mobo in a pc case that supports thunderbolt to contain the GPU and connect that via thunderbolt cable to the laptop? Or perhaps powering the GPU on a regular pc (in PCIe slot on mobo) and connecting via thunderbolt to the laptop, would it send data parallel with both machines? Or would it be able to differentiate and once specified send only data to the laptop? Very interesting topic, let me know what you think."
 name: Tyler
 email: da38d76db8964390b11964d017214f2f
 url: ''

@@ -1,0 +1,9 @@
+_id: 8fefc663-97c0-4a7a-8c0d-e7c9e5116e37
+_parent: /code/extract-amazon-affiliate-earnings-script/
+message: "why I faced this error/warnning..... Please solve this...  \n1. Warning: require_once(vendor/autoload.php): failed to open stream: No such file or directory in C:\\wamp\\www\\php-oara\\settings.php on line 22  \n2. Fatal error: require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/lib/php:/www/google-api-client/src') in C:\\wamp\\www\\php-oara\\settings.php on line 22"
+name: Neloy
+email: 553044db31e23ff3e32077cb99c97248
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-04-26T10:01:20.000Z'

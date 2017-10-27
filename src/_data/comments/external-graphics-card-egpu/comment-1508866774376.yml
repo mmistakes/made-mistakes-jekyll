@@ -1,9 +1,9 @@
 _id: a71df5b0-0cf1-42d3-8f95-587c70fd48d0
 _parent: /projects/external-graphics-card-egpu/
-message: "|- Hi Remy  If I understand you correctly, you want to connect the GTX 970 to af Thunderbolt enabled laptop. For this you need something like the AKiTiO Thunder2 since it contains a Thunderbolt 2 to PCIe adapter. If you do not want the enclosure you can always take the small board out and have it open air, I did just that in my post <a href="https://odd-one-out.serek.eu/egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/">here</a>. The AKiTiO Thunder2 is the cheapest way to do this.  /Poul"
+message: "Hi Remy\n\nIf I understand you correctly, you want to connect the GTX 970 to af Thunderbolt enabled laptop. For this you need something like the AKiTiO Thunder2 since it contains a Thunderbolt 2 to PCIe adapter. If you do not want the enclosure you can always take the small board out and have it open air, I did just that in my post [here](/projects//egpu-case-built-around-akitio-thunder-2-and-sonnet-echo-express-se-ii/). The AKiTiO Thunder2 is the cheapest way to do this.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '62880024-bfc8-4531-b264-0d168d02b012'
 hidden: ''
 date: '2016-07-01T22:39:30.000Z'

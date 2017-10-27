@@ -46,7 +46,8 @@ gulp.task('images:lazyload', () => {
       // global configuration for all images
       errorOnEnlargement: false,
       withMetadata: false,
-      errorOnUnusedConfig: false
+      errorOnUnusedConfig: false,
+      rotate: true
     }))
     .pipe(gulp.dest(paths.imageFilesSite))
 });
@@ -77,7 +78,8 @@ gulp.task('images:feature', () => {
       // global configuration for all images
       errorOnEnlargement: false,
       withMetadata: false,
-      errorOnUnusedConfig: false
+      errorOnUnusedConfig: false,
+      rotate: true
     }))
     .pipe(gulp.dest(paths.imageFilesSite))
 });

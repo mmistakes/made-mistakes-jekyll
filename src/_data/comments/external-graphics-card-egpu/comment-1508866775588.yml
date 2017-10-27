@@ -1,9 +1,9 @@
 _id: 6ea1b31f-692b-4e63-b4af-efb835a18439
 _parent: /projects/external-graphics-card-egpu/
-message: ""Hi Ali\n\nThe required stuff in addition to what is on the list is this:\n<ul>\n\t<li>PCIe riser, I recommend <a href=\"http://www.moddiy.com/products/PCI%252dExpress-PCI%252dE-8X-to-16X-Riser-Card-Flexible-Ribbon-Extender-Cable-w%7B47%7DMolex-%252b-Solid-Capacitor.html\" rel=\"nofollow\">these</a> (I use them myself)</li>\n\t<li>A modular ATX PSU, take a look <a href=\"https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=modular+atx+psu\" rel=\"nofollow\">here</a></li>\n</ul>\n\nIn addition I would get the smallest mini-itx case that can house a full size graphics card. I have used something like <a href=\"http://www.silverstonetek.com/product.php?pid=210\" rel=\"nofollow\">this</a> before and that includes the ATX power supply. Not sure it can take the biggest graphics card, but you get the idea :)\n\n/Poul""
+message: "Hi Ali\n\nThe required stuff in addition to what is on the list is this:\n* PCIe riser, I recommend [these](http://www.moddiy.com/products/PCI%252dExpress-PCI%252dE-8X-to-16X-Riser-Card-Flexible-Ribbon-Extender-Cable-w%7B47%7DMolex-%252b-Solid-Capacitor.html) (I use them myself)\n* A modular ATX PSU, take a look [here](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=modular+atx+psu)\n\nIn addition I would get the smallest mini-itx case that can house a full size graphics card. I have used something like [this](http://www.silverstonetek.com/product.php?pid=210) before and that includes the ATX power supply. Not sure it can take the biggest graphics card, but you get the idea :)\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '2f863b9b-e73b-4dbf-b638-aa6fb01edade'
 hidden: ''
 date: '2016-08-09T11:12:11.000Z'
