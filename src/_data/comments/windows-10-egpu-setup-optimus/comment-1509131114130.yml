@@ -1,0 +1,9 @@
+_id: 8ca1cfe4-2f64-4b57-87cd-66135f89ab43
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""I have been trying to get this to work. But it just refuses to work on my Macbook Air.  I have a Aktio 2 with a Zotac 760 running Windows 10 in UEFI mode on my 2013 Macbook Air. If I boot with it connected, I just get a black screen in Windows. External also shows black screen.  Booting without the card, leads to no detection at all.  Though its working perfectly in OSX. Drives the external with ease."""
+name: Nitant
+email: 78dc207ce72f0cfe70156fb25a205507
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-03-12T15:12:21.000Z'

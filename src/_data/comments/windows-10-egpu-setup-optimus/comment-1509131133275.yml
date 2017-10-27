@@ -1,0 +1,9 @@
+_id: eac2e510-3207-43b9-aab2-314194be92b3
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""My friend has a mid-2012 Macbook Pro with a 650m dGPU, and with TB1. From everything i've gathered, a TB3 eGPU enclosure will work using the Apple TB3 to TB2/TB1 adapter. This will be used for gaming under Windows 10 bootcamp. I was under the impression Optimus would be able to drive the internal display with an eGPU setup for this laptop. Do you know if that will be possible and if so, what the steps might be? Thanks""
+name: Chris
+email: c8e1afadfe5d047b658c3d82949d964b
+url: ''
+replying_to: ''
+hidden: ''
+date: '2017-02-08T19:17:44.000Z'

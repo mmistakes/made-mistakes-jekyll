@@ -1,0 +1,9 @@
+_id: 248a7842-ee16-487f-9827-b20aab1598cd
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Hi Mohamed\n\nHow are you planning to connect the PE4C V3.0 to the Lenovo Y700? As far as I can see the Y700 does not have any of the connecters required by this setup so I don't see how this is possible. Maybe if the laptop has an M.2 PCI slot it might work with an adapter like [here](http://imgur.com/a/JHoIy\), but these ports are internal and you need to open up the laptop. \n\nBut lets say you have the required connectors then best case you just need what you would need when installing it in a desktop - the graphics drivers. This is what I did to get a similar setup working [here](/projects/external-graphics-card-experiment-part-1/). You might have to use DIY eGPU software for getting it to work like I did [here](/projects/egpu-rmbp-windows7-bios-nvidia-gtx-760-p4el/). \n\nAnyway, it has been a long time since I had a non-thunderbolt eGPU setup, so you should ask around [TechInferno](https://www.techinferno.com/index.php?/forums/forum/83-diy-e-gpu-projects/).\n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-07-09T20:07:28.000Z'

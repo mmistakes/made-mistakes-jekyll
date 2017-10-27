@@ -1,0 +1,9 @@
+_id: fe1c6bd5-f56a-45dd-8610-c2068b8ff248
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: "|- Hi Poul, Update: got the new computer with thunderbolt 3.0 port and waiting on 1)  PCI-Express PCI-E 16X to 16X Riser Card Flexible Ribbon Extender Cable w/Molex + Solid Capacitor 2) PSU switcher  However I've been reading a few posts that advise against using the powered cable...I guess I will use it to power the akitio + test nvidia gtx745 TI I have (no need to use the plug in the akitio with this set-up, right?) but do you think it would be better to do a conversion of molex to 2.5 plug to power (plus gpu dedicated power) a more powerful card instead of using the pci riser with the molex? Thanks again!"
+name: Francis
+email: 0c599a8419b0b530a5d9fd45bc57bd06
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-02-24T20:41:42.000Z'

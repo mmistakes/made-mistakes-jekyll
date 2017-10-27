@@ -1,0 +1,9 @@
+_id: 2a575f08-d69d-4c09-9576-5f16946e56b8
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Hi Sean\n\nI have no devices with Thunderbolt 3 using USB-C, but as far as I know it would work the same as with Thunderbolt 2 type eGPU setup (no hot-pluggable support). The only laptop I know of that is EGFX certified is the Razer Blade and Intel NUC Skull Canyon and the only Thunderbolt 3 eGPU enclosure I know of is the Razer Core: \n\n[http://www.anandtech.com/show/10137/razer-core-thunderbolt-3-egfx-chassis-499399-amd-nvidia-shipping-in-april](http://www.anandtech.com/show/10137/razer-core-thunderbolt-3-egfx-chassis-499399-amd-nvidia-shipping-in-april)\n\nAn EGFX certified laptop combined with driver / BIOS support which only AMD supports at the moment, equals proper hot-plugable eGPU support the correct AMD GPU. AMD calls this technology XConnect and they only list 4 certified devices, the two Razor Blade laptops, the Intel NUC and the Razer Core:\n\n[http://www.amd.com/en-us/innovations/software-technologies/technologies-gaming/xconnect](http://www.amd.com/en-us/innovations/software-technologies/technologies-gaming/xconnect)\n\nSo what I think is this (please confirm at techinferno) - The Acer Predator 15 g9 will probably work with a Thunderbolt 2 type setup with no hot pluggable support and is able to use the internal laptop screen since it has Optimus. It might not support the hot-pluggable feature since it might not be EGFX certified. I do not know ff EGFX support is just a matter of a software / firmware update later on or if it is tied to the hardware.\n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-03-30T20:35:24.000Z'

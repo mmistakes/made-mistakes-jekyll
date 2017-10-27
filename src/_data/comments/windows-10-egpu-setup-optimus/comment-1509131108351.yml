@@ -1,0 +1,9 @@
+_id: 2905ff65-a728-4049-9bdd-d11cdeb353a0
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Hi Francis\n\nI use a quality PCIe riser myself and have not had any stability issues as described in other posts. Since a good powered PCIe riser is inexpensive compared to the other component in an eGPU setup, I would still recommend starting with the PCIe riser if using a power hungry graphics card. As long as you supply the PCIe riser with some power, e.g. from an ATX power supply, then you do not need to connect the AKiTiO power supply. If you plan on using the GTX745 TI which has a low power requirement, you might get away by just replacing the power supply with a 120 watt 2.5 inch power brick. This should give the PCIe slot the full 75 watts as described by AKiTiO [here](http://www.akitio.com/faq/270-thunder2-pcie-box-what-s-the-maximum-power-output-through-the-pcie-slot).\n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-02-24T22:39:56.000Z'

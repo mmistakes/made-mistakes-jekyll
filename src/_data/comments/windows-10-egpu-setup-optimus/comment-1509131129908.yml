@@ -1,0 +1,9 @@
+_id: bf7d61df-a64a-4422-b3e4-9fc734e13803
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Hello, I am also using an eGPU and was working fine with gaming until now. Currently, I bought my eGPU from Bizon Box and my model is a Bizon Box 2 with a NVIDIA GTX 960 2 GB. My computer is a mid-2015 Macbook Pro 15 in Retina without an internal gpu card. The problem occurs when I plug in my eGPU into my mac using a thunderbolt 2 cable and boot into Windows 10 using an internal screen display. After I check that my eGPU is connected by checking Device manager and seeing that my GTX 960 is working properly, I try to launch a game, say for example Overwatch. However, it will not let me do that since right when I click launch, a message pops up saying that no compatible graphics hardware was found, even though it my eGPU is connected and says it is working fine under device management. I tried this with steam games but when I launch them too, it will say that the game is running but no application of the game is even open. I tried to play games without the eGPU and is working fine. I have tried to reinstall nvidia drivers and even reinstalled windows 10 on bootcamp but nothing helped. When I contacted Bizon Box support, they told me to try to install Windows 8.1 and see from there. Before I do that, is there anything that you have in mind that could help me? I use to be able to run games fine but now, it doesn't work.""
+name: Chris Jiang
+email: 212d93da78f1b3e7b52e95aad5da6e81
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-09-03T18:06:45.000Z'

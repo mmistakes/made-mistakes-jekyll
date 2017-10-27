@@ -1,0 +1,9 @@
+_id: 75ddd60e-195b-4d18-9bf1-06d11ac8095f
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""hey...i got an Lenovo y500 laptop with dual sli GT650m graphics....one graphics is connected via an ultra bay which is connected to the laptop via PCI x8 2.0,  while other one is onboard, so is it possible to connect the riser cable from x8 port to an x16 graphics card to attach the egpu  The intel internal graphics is disabled in this laptop, i think from the bios...so no optimus here...."""
+name: ats
+email: 4762cbe7dafca8325c0b2260b9ed2b76
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-03-03T12:46:51.000Z'

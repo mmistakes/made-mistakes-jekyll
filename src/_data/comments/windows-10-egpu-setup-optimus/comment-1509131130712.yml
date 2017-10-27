@@ -1,0 +1,9 @@
+_id: 4609c365-34f5-4198-8a0f-d6b51cb27096
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""My eGPU setting: EVGA 500W PSU, EVGA GTX 960 4GB, Akitio Thunderbolt 2 PCIE Box, the cable My Macbook Pro: i7, Intel Iris Pro, 15', win10 After I finished the installation of drivers and restart, I can find the card in the settings. However, when I ran the software to test it, the drivers will just clash. Details are: after showing FPS 60+, the test just stopped and after I pressed Esc, i find the graphics driver "clashed and recovered". Even I tried to reinstall the drivers for many times, it never works. Can anybody help me?"""
+name: Ocean
+email: f667e1a3b57a9b57d0922ffd007a5ac5
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-11-07T04:33:16.000Z'

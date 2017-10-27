@@ -1,0 +1,9 @@
+_id: e8268390-d4ed-406f-8af9-6b1f38f7a983
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""And its visible and working in device manager and even the gpu test sees the rpm of the external gpu etc , if i disable iris pro 5200 screens turns black and after 10 sec the egpu gives display on the internal screen but it only works for the gpu test benchmark Really dont understand it""
+name: Peter
+email: 870ec03f6148502a1b225b906f6cd00e
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-02-21T12:46:33.000Z'

@@ -1,0 +1,9 @@
+_id: 5873c661-b3a6-4b87-828d-cf23112b2056
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Hey I have a Macbook Pro with internal AMD R9 GPU I built a EGPU with the same hardware as you with a gtx 1070 I can't seem to get my laptop to use the egpu. I try to open nvidia control panel and get this message Nvidia display settings are not available \nYou are currently not using a display attached to an nvidia gp. I have no idea what to do. Do I need an external monitor because of thr retina screen?""
+name: Jonathan
+email: aa1d4ef48646e3361d0f8a9f7093de43
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-07-02T22:43:34.000Z'

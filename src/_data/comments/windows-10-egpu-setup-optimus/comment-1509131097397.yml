@@ -1,0 +1,9 @@
+_id: 773e5989-9142-49cf-8e79-901fd8f3b7f7
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Thinking of getting an asus zenbook pro 501 vw that comes with a intel integrated graphic and a nvidia gforce gtx960m and a thunderbolt 2 port. \n\nTherefore I was thinking of \"upgrading\" it with a set-up based on the Sonnet Echo SE II since I want to mount a nvidia gtx970/980 and a spare samsung 850 pro ssd I have.\nI would add a nice modular power supply, a powered riser cable and a mini atx case to make it neat.   \n\nDo you foresee any problems using windows 10 and the newest nvidia drivers (with beta support of external GPU) ? since using these drivers do you think I have to disable the dGPU or iGPU, or do you think I might be able to run the 3?\n\nAlso, do you think it might be too much to add the ssd drive and that I should just go with the eGPU on an akitio box and no extra SSD? considering the SSD it is, seems like a waste not to include it...\n\nTHanks!""
+name: Francis
+email: c005d66cdc52a8283613360ba833a19c
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-02-07T17:57:58.000Z'

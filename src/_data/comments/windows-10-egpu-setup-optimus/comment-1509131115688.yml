@@ -1,0 +1,9 @@
+_id: e39f75bb-c12d-4ef7-918c-081d2e874cb9
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Hi Nitant\n\nHmm, I am not exactly sure since I always either use the internal screen (Optimus) or the external monitor, not both at the same time. When I use OSX both monitors are active, but only the external monitor is using the external graphics card. My best bet would be to disconnect the external monitor when booting into Windows and making sure Optimus is working first, then attach the external monitor. This is only a guess, I would search / ask around at [TechInferno](https://www.techinferno.com/index.php?/forums/forum/83-diy-e-gpu-projects/). \n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-03-13T11:06:38.000Z'

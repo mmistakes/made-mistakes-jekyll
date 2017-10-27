@@ -1,0 +1,9 @@
+_id: 865d56fe-4816-433d-9055-4d84736d87ff
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Hi Aadil\n\nWhen both cards show up, can you enter NVIDIA control panel and set the eGPU as the preferred processor? And does that solve your problem?\n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-08-18T19:06:13.000Z'

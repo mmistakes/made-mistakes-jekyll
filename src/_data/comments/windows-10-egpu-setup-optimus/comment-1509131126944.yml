@@ -1,0 +1,9 @@
+_id: d80bf315-f52e-4467-b147-1e542db6258a
+_parent: /projects/windows-10-egpu-setup-optimus/
+message: ""Poul, \nSorry I was unclear. I have set the default to eGPU, and even made specific entries for the individual .exes to no avail, the context menu also doesn't trigger any response on the GPU. Literally the only time it works is if I run No Man's Sky from steam, with the intel disabled, despite the system not letting me configure anything because optimus should't work.\n\nIt's very odd.\n\nThanks for your propt reply!""
+name: Aadil Kurji
+email: 7ef163b28558a6afce33585b3917e218
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-08-19T20:23:12.000Z'
