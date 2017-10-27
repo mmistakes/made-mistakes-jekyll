@@ -28,17 +28,101 @@ by browsers that support the [`srcset` attribute](https://responsiveimages.org/)
 
 #### Notices
 
-Call-out text.
+Call-out text. Accepts the following types: `info`, `danger`, `warning`, and `success`. See [style guide](https://mademistakes.com/style-guide/) for visual examples.
 
-| Include Parameter | Required | Description |
-| ----------------- | -------- | ----------- |
-| `type`            | Optional | Notice type. Defaults to `info`, see [style guide](https://mademistakes.com/style-guide/) for examples. |
-| `content`         | Required | Notice text. Markdown allowed and encouraged. |
-
-**Example:**
+**Default notice example:**
 
 ```liquid
-{% include notice type="danger" content="**This has been deprecated**." %}
+{% notice %}
+Call out some text. **Markdown** is acceptable.
+{% endnotice %}
+```
+
+**Danger notice example:**
+
+```liquid
+{% notice danger %}
+**Danger! Danger!** Use caution.
+{% endnotice %}
+```
+
+#### Figure
+
+Easily generate `figure` elements with optional `caption` and `class` parameters.
+
+**Examples:**
+
+In simplest usage:
+
+```liquid
+{% figure %}
+Content
+{% endfigure %}
+```
+
+```html
+<figure>
+  <p>Content</p>
+</figure>
+```
+
+If a figure contains an image (or multiple images), the surrounding `<p>` will be stripped:
+
+```liquid
+{% figure %}
+![Image](/path/to/image.jpg)
+{% endfigure %}
+```
+
+```html
+<figure>
+  <img src="/path/to/image.jpg" alt="Image" />
+</figure>
+```
+
+You can provide a caption. Any markdown will be rendered:
+
+```liquid
+{% figure caption:"*Markdown* caption" %}
+Content
+{% endfigure %}
+```
+
+```html
+<figure>
+  <p>Content</p>
+  <figcaption><em>Markdown</em> caption</figcaption>
+</figure>
+```
+
+You can also provide a class name(es) for CSS styling:
+
+```liquid
+{% figure caption:"A caption" class:"classname" %}
+Content
+{% endfigure %}
+```
+
+```html
+<figure class="classname">
+  <p>Content</p>
+  <figcaption>A caption</figcaption>
+</figure>
+```
+
+Finally, the caption parameter will accept liquid output markup:
+
+```liquid
+{% figure caption:"{{ page.title }}" %}
+Content
+{% endfigure %}
+```
+
+```html
+<figure>
+  <p>Content</p>
+  <figcaption>The title of my post</figcaption>
+</figure>
 ```
 
 #### Lazyload
