@@ -1,9 +1,9 @@
 _id: 923e478b-44dc-4940-bfd5-2651683534ab
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Could you try to force the use of the eGPU through the NVIDIA control panel as described [here](https://support.lenovo.com/us/en/documents/ht071337)? It might just be that it is set to use the internal graphics card."""
+message: "Could you try to force the use of the eGPU through the NVIDIA control panel as described [here](https://support.lenovo.com/us/en/documents/ht071337)? It might just be that it is set to use the internal graphics card."
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'af3e4d91-e66f-4247-bd83-d89e7bc4b835'
 hidden: ''
 date: '2016-02-21T14:45:55.000Z'

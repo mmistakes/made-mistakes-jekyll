@@ -1,9 +1,9 @@
 _id: d9dbce24-cf62-442a-8ffc-24f662ccd4af
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Jonathan\n\nI would take a look at [this](https://www.techinferno.com/index.php?/forums/topic/8132-2015-15-mbp-r9-m370x-gtx97016gbps-tb2-akitio-thunder2-win81-gatsby/) post for help and asking around there. I do not own a laptop with a dedicated graphic card so it is a bit difficult to help you with this. Basically you need to disable the R9 and enable Intels iGPU for Optimus to work. Using Windows 8.1 and an external monitor is the easiest to setup in my experience.\n\n/Poul""
+message: "Hi Jonathan\n\nI would take a look at [this](https://www.techinferno.com/index.php?/forums/topic/8132-2015-15-mbp-r9-m370x-gtx97016gbps-tb2-akitio-thunder2-win81-gatsby/) post for help and asking around there. I do not own a laptop with a dedicated graphic card so it is a bit difficult to help you with this. Basically you need to disable the R9 and enable Intels iGPU for Optimus to work. Using Windows 8.1 and an external monitor is the easiest to setup in my experience.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '5873c661-b3a6-4b87-828d-cf23112b2056'
 hidden: ''
 date: '2016-07-02T23:28:29.000Z'

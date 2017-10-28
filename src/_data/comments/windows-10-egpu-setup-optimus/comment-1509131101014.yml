@@ -1,9 +1,9 @@
 _id: 959b0047-2365-49a2-b2bf-7ba2fa729a39
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Eric\n\nWhat graphics card are you using? I am using one from EVGA and these tend to go more smoothly with these kind of setups. And I am assuming you don't have a discrete graphics card in the MBP. Try to follow the steps described in the section \"Usage\". Be sure to power everything off and disconnect as described. If you are not using an EVGA card the reboot might not be enough during the installation process. And lastly, are you using an external monitor? It is usually easier to get the setup to work using an external monitor first.\n\n/Poul""
+message: "Hi Eric\n\nWhat graphics card are you using? I am using one from EVGA and these tend to go more smoothly with these kind of setups. And I am assuming you don't have a discrete graphics card in the MBP. Try to follow the steps described in the section \"Usage\". Be sure to power everything off and disconnect as described. If you are not using an EVGA card the reboot might not be enough during the installation process. And lastly, are you using an external monitor? It is usually easier to get the setup to work using an external monitor first.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'd25ca480-c1ab-4055-a072-27cc6a570202'
 hidden: ''
 date: '2016-02-15T21:48:13.000Z'

@@ -1,9 +1,9 @@
 _id: fee4cf5c-98df-4bbf-8faf-5497bff4a4de
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi again Poul!\n\nGot everything I needed to test the setup but when pluggin everything realized the akitio uses thunderbolt 2 (mini display port cables) and my laptop has thunderbolt 3 (usb type-c connector...)...\nDo you have any suggestion? I think I am going to try this adaptor:\n  \n[http://www.amazon.com/gp/product/B0155BR8BM?keywords=thunderbolt%20to%20usb%20type%20c&qid=1456782434&ref_=nav_ya_signin&s=pc&sr=1-28](http://www.amazon.com/gp/product/B0155BR8BM?keywords=thunderbolt%20to%20usb%20type%20c&qid=1456782434&ref_=nav_ya_signin&s=pc&sr=1-28)\n\n\nThanks!""
+message: "Hi again Poul!\n\nGot everything I needed to test the setup but when pluggin everything realized the akitio uses thunderbolt 2 (mini display port cables) and my laptop has thunderbolt 3 (usb type-c connector...)...  \nDo you have any suggestion? I think I am going to try this adaptor:\n\n[http://www.amazon.com/gp/product/B0155BR8BM?keywords=thunderbolt%20to%20usb%20type%20c&qid=1456782434&ref_=nav_ya_signin&s=pc&sr=1-28](http://www.amazon.com/gp/product/B0155BR8BM?keywords=thunderbolt%20to%20usb%20type%20c&qid=1456782434&ref_=nav_ya_signin&s=pc&sr=1-28)\n\nThanks!"
 name: Francisco
 email: c005d66cdc52a8283613360ba833a19c
 url: ''
-replying_to: ''
+replying_to: '773e5989-9142-49cf-8e79-901fd8f3b7f7'
 hidden: ''
 date: '2016-02-29T21:59:56.000Z'

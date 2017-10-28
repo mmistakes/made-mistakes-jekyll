@@ -1,9 +1,9 @@
 _id: 134110f1-7a25-4af8-9e0a-c2cfeae41db4
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Peter\n\nWhen you say that Optimus is not working, do you get a blank screen when booting into Windows 10 or do you actually boot into Windows 10 and can see the desktop but without seeing the GTX 970 in device manager? \n\n/Poul""
+message: "Hi Peter\n\nWhen you say that Optimus is not working, do you get a blank screen when booting into Windows 10 or do you actually boot into Windows 10 and can see the desktop but without seeing the GTX 970 in device manager?\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'af3e4d91-e66f-4247-bd83-d89e7bc4b835'
 hidden: ''
 date: '2016-02-21T12:37:51.000Z'

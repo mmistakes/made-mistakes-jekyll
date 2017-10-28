@@ -1,9 +1,9 @@
 _id: a09e03e4-8529-41b1-91f3-59a718b30f36
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Alfredo\n\nOptimus is a technology that switching between two graphics cards on a laptop - a low power graphics card when battery life is important and a fast graphics card when you need more power. Take a look at my post [here](/projects/external-graphics-card-egpu/) where I try to explain everything.\n\n/Poul""
+message: "Hi Alfredo\n\nOptimus is a technology that switching between two graphics cards on a laptop - a low power graphics card when battery life is important and a fast graphics card when you need more power. Take a look at my post [here](/projects/external-graphics-card-egpu/) where I try to explain everything.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'cfe16a66-6292-4d6b-a872-862c951e87a8'
 hidden: ''
 date: '2016-05-18T19:07:43.000Z'

@@ -1,9 +1,9 @@
 _id: 85946a90-bbc7-4218-aaf9-c17459126527
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hmm, ok lets try one last thing. I am assuming that you have the correct driver (Nvidia 361.75). Since you don't have a EVGA graphics card the steps might be different. I would try the boot steps described [here](https://www.techinferno.com/index.php?/forums/topic/9176-2014-15-macbook-pro-iris-gtx97016gbps-tb2-akitio-thunder2-win10-zapcord/).\n<blockquote>To get Optimus working on Windows 10, install driver version 361.75 released 1/27/2016\nBoot procedure is now:\n<ol>\n\t<li>plug everything in\n\t<li>start egpu\n\t<li>start laptop\n\t<li>wait 30 seconds\n\t<li>boot\n</ol></blockquote>""
+message: "Hmm, ok lets try one last thing. I am assuming that you have the correct driver (Nvidia 361.75). Since you don't have a EVGA graphics card the steps might be different. I would try the boot steps described [here](https://www.techinferno.com/index.php?/forums/topic/9176-2014-15-macbook-pro-iris-gtx97016gbps-tb2-akitio-thunder2-win10-zapcord/).\n> To get Optimus working on Windows 10, install driver version 361.75 released 1/27/2016\nBoot procedure is now:  \n1. plug everything in\n2. start egpu\n3. start laptop\n4. wait 30 seconds\n5. boot"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'af3e4d91-e66f-4247-bd83-d89e7bc4b835'
 hidden: ''
 date: '2016-02-22T15:48:37.000Z'

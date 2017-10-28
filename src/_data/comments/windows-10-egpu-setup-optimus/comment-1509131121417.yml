@@ -1,9 +1,9 @@
 _id: 9fc3b05e-cb12-4259-a837-eb18f694f61b
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi David\n\nI have not tried it, but is says \"on the box\" that it can:\n\n<ul>\n\t<li>\nwant to disable a dGPU in a hybrid graphics system to free up resources to host the eGPU\n\t<li>\nwant to disable a dGPU in a hybrid graphics system to activate NVidia Optimus and if using a x1 link, engage x1 pci-e compression\n</ul>\n\nThe info is taken from [here](https://www.techinferno.com/index.php?/forums/topic/1650-diy-egpu-setup-130-previously-setup-1x/). So it should work. \n\n/Poul""
+message: "Hi David\n\nI have not tried it, but is says \"on the box\" that it can:\n\n* want to disable a dGPU in a hybrid graphics system to free up resources to host the eGPU\n* want to disable a dGPU in a hybrid graphics system to activate NVidia Optimus and if using a x1 link, engage x1 pci-e compression\n\nThe info is taken from [here](https://www.techinferno.com/index.php?/forums/topic/1650-diy-egpu-setup-130-previously-setup-1x/). So it should work.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '11b50bcc-0874-4adb-95b7-02b3400070eb'
 hidden: ''
 date: '2016-05-18T19:03:43.000Z'

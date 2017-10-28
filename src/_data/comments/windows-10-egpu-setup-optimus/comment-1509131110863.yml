@@ -1,9 +1,9 @@
 _id: 75440a60-65dd-403d-b7c4-a80739f15f79
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Francisco\n\nI am not sure it will work since it seems designed for the new 12 inch Macbook which does not have Thunderbolt over USB-C, but this one should work: [https://www.kanex.com/thunderbolt3/](https://www.kanex.com/thunderbolt3/) (scroll down to the "Thunderbolt 2 to 3 adapter") or this which already sells now: [http://www.startech.com/eu/Cables/thunderbolt-3-cables/thunderbolt-3-usb-c-thunderbolt-adapter~TBT3TBTADAP](http://www.startech.com/eu/Cables/thunderbolt-3-cables/thunderbolt-3-usb-c-thunderbolt-adapter~TBT3TBTADAP)\n\nWhich laptop do you have?\n\n/Poul""
+message: "Hi Francisco\n\nI am not sure it will work since it seems designed for the new 12 inch Macbook which does not have Thunderbolt over USB-C, but this one should work:\n\n[https://www.kanex.com/thunderbolt3/](https://www.kanex.com/thunderbolt3/) (scroll down to the \"Thunderbolt 2 to 3 adapter\")\n\nor this which already sells now:\n\n[http://www.startech.com/eu/Cables/thunderbolt-3-cables/thunderbolt-3-usb-c-thunderbolt-adapter~TBT3TBTADAP](http://www.startech.com/eu/Cables/thunderbolt-3-cables/thunderbolt-3-usb-c-thunderbolt-adapter~TBT3TBTADAP)\n\nWhich laptop do you have?\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '773e5989-9142-49cf-8e79-901fd8f3b7f7'
 hidden: ''
 date: '2016-02-29T23:18:00.000Z'

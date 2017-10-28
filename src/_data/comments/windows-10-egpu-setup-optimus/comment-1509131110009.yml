@@ -1,9 +1,9 @@
 _id: b42a089a-1af4-4770-8e2d-9652f3241fff
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Tom\n\nWe talked on Facebook, but just so the other readers might get some information.\n\nI don't use my old T430s with the AKiTiO setup anymore, but it worked just fine when I did. Since the T430s is Thunderbolt 1 I lost half the bandwidth, but nothing near half the performance as you can see [here](https://www.techpowerup.com/reviews/NVIDIA/GTX_980_PCI-Express_Scaling/4.html). The grey bars show Thunderbolt 1 speeds for a single device and the green Thunderbolt 2. \n\nIt should work with Windows 10 and my experience with the T430s is that it was more plug and play than my Macbook pro. Your milage may vary since not everyone has had success getting Windows 10 running with eGPU systems when using Optimus.\n\n/Poul""
+message: "Hi Tom\n\nWe talked on Facebook, but just so the other readers might get some information.\n\nI don't use my old T430s with the AKiTiO setup anymore, but it worked just fine when I did. Since the T430s is Thunderbolt 1 I lost half the bandwidth, but nothing near half the performance as you can see [here](https://www.techpowerup.com/reviews/NVIDIA/GTX_980_PCI-Express_Scaling/4.html). The grey bars show Thunderbolt 1 speeds for a single device and the green Thunderbolt 2. \n\nIt should work with Windows 10 and my experience with the T430s is that it was more plug and play than my Macbook pro. Your milage may vary since not everyone has had success getting Windows 10 running with eGPU systems when using Optimus.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'e9421348-4099-4ae3-ade0-c2506af56c2c'
 hidden: ''
 date: '2016-02-25T21:53:51.000Z'

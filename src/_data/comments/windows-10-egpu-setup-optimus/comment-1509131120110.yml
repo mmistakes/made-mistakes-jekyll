@@ -1,6 +1,6 @@
 _id: 11b50bcc-0874-4adb-95b7-02b3400070eb
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hey Poul, just a short question! Do you know if Nando4's program from techinferno is able to turn of the discrete graphic card of a macbook pro and activate the iGPU? I know that i can't use the eGPU(via Optimus) with the internal Monitor of the MBP if i have a discrete graphic card(in my case GT750M). Thanks and Greetings! David""
+message: "Hey Poul, just a short question! Do you know if Nando4's program from techinferno is able to turn of the discrete graphic card of a macbook pro and activate the iGPU? I know that i can't use the eGPU(via Optimus) with the internal Monitor of the MBP if i have a discrete graphic card(in my case GT750M).  \nThanks and Greetings!  \nDavid"
 name: David
 email: 48c27a4da0e8e3c435fa6651754f1040
 url: ''

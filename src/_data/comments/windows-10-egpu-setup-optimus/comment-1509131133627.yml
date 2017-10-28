@@ -1,9 +1,9 @@
 _id: 741f93d9-6219-4317-a66a-728cc36694ea
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Chris\n\nI have not used the adapter to try using Thunderbolt 3 devices on a Thunderbolt 1 / 2 Apple host. You should ask around at [egpu.io](https://egpu.io/forums/) or [Techinferno](https://www.techinferno.com/index.php?/forums/forum/83-diy-e-gpu-projects/) to be sure. It does seem that it might work as described [here](https://egpu.io/forums/psu-cables/apple-thunderbolt-3-usb-c-to-thunderbolt-2-adapter/).\n\n/Poul""
+message: "Hi Chris\n\nI have not used the adapter to try using Thunderbolt 3 devices on a Thunderbolt 1 / 2 Apple host. You should ask around at [egpu.io](https://egpu.io/forums/) or [Techinferno](https://www.techinferno.com/index.php?/forums/forum/83-diy-e-gpu-projects/) to be sure. It does seem that it might work as described [here](https://egpu.io/forums/psu-cables/apple-thunderbolt-3-usb-c-to-thunderbolt-2-adapter/).\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'eac2e510-3207-43b9-aab2-314194be92b3'
 hidden: ''
 date: '2017-02-08T21:57:58.000Z'

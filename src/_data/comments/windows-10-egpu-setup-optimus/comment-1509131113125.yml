@@ -1,9 +1,9 @@
 _id: 132ad311-d1c4-4d3e-b210-52a8d9f25590
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Jonny\n\r Yes, Thunderbolt 3 will support connecting and disconnecting the graphic card while the laptop is running. It will probably require driver support and maybe only with newer graphic cards.\n""
+message: "Hi Jonny\n\nYes, Thunderbolt 3 will support connecting and disconnecting the graphic card while the laptop is running. It will probably require driver support and maybe only with newer graphic cards."
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '5fde69da-f881-4141-a910-5df0b3496f9d'
 hidden: ''
 date: '2016-03-04T15:48:56.000Z'

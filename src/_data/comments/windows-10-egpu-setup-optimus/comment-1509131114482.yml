@@ -1,9 +1,9 @@
 _id: 69f779b4-708b-4318-9406-da2c2559fca6
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Nitant\n\nOk, so we know the setup is working since you can get it to work with OSX, so far so good. Lets focus on getting Windows 10 to work with the external monitor. Did you try the steps in the troubleshooting section \"If you boot into a blank screen you probably have the internal screen disabled...\"? These have helped me before when I had a blank screen. If that does not work try to follow the boot steps described in [this](https://www.techinferno.com/index.php?/forums/topic/9176-2014-15-macbook-pro-iris-gtx97016gbps-tb2-akitio-thunder2-win10-zapcord/) post, since you don't have an EVGA graphic card the steps might differ a bit from mine.\n\n/Poul""
+message: "Hi Nitant\n\nOk, so we know the setup is working since you can get it to work with OSX, so far so good. Lets focus on getting Windows 10 to work with the external monitor. Did you try the steps in the troubleshooting section \"If you boot into a blank screen you probably have the internal screen disabled...\"? These have helped me before when I had a blank screen. If that does not work try to follow the boot steps described in [this](https://www.techinferno.com/index.php?/forums/topic/9176-2014-15-macbook-pro-iris-gtx97016gbps-tb2-akitio-thunder2-win10-zapcord/) post, since you don't have an EVGA graphic card the steps might differ a bit from mine.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '8ca1cfe4-2f64-4b57-87cd-66135f89ab43'
 hidden: ''
 date: '2016-03-12T16:12:45.000Z'

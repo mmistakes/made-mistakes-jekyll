@@ -1,9 +1,9 @@
 _id: 17d1934b-b98a-4bbd-a47b-c3076fd9119c
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""I have tried that method. But now matter what, both screens remain off in Win 10. Windows 7 on the other hand works like a charm. Have to boot with it connected and the Windows boot up happens on the external only. \n\nThough now how do I get a dual gpu/screen setup going? The MacBook Air screen remains off when booted off nVidia.""
+message: "I have tried that method. But now matter what, both screens remain off in Win 10. Windows 7 on the other hand works like a charm. Have to boot with it connected and the Windows boot up happens on the external only.\n\nThough now how do I get a dual gpu/screen setup going? The MacBook Air screen remains off when booted off nVidia."
 name: Nitant Soni
 email: 78dc207ce72f0cfe70156fb25a205507
 url: ''
-replying_to: ''
+replying_to: '8ca1cfe4-2f64-4b57-87cd-66135f89ab43'
 hidden: ''
 date: '2016-03-13T09:21:13.000Z'

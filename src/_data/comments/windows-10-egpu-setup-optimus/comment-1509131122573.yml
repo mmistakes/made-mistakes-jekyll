@@ -1,9 +1,9 @@
 _id: 8d1d837b-444f-4039-a58d-b1913cf7e5d5
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Utopian\n\nOptimus is what enables the Intel iGPU to display frames from the NVIDIA dGPU or eGPU and switching between these GPU's. The x1 1.0 (250 MB/s) link compression is just a performance boost when the bandwidth is very low in setups like these and it is mostly just a boost to DirectX 9 applications. You need an Intel iGPU, Optimus enabled drivers and the x1 1.0 link to activate the link compression, I have not seen other ways to do this. The bandwidth of Thunderbolt 1 and 2 type setups are much higher so the link compression does not active here.\n\n/Poul""
+message: "Hi Utopian\n\nOptimus is what enables the Intel iGPU to display frames from the NVIDIA dGPU or eGPU and switching between these GPU's. The x1 1.0 (250 MB/s) link compression is just a performance boost when the bandwidth is very low in setups like these and it is mostly just a boost to DirectX 9 applications. You need an Intel iGPU, Optimus enabled drivers and the x1 1.0 link to activate the link compression, I have not seen other ways to do this. The bandwidth of Thunderbolt 1 and 2 type setups are much higher so the link compression does not active here.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'c330dc34-d7b3-4faa-a9ac-7a16e79fafe1'
 hidden: ''
 date: '2016-06-07T15:11:32.000Z'

@@ -1,9 +1,9 @@
 _id: ae7274e7-e54a-42ad-86f4-b245b17e1b8f
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""Hi Ats\n\nSorry for the late reply! Yes, it is possible to attach a x16 graphics card using a riser to a x8 port. So since you already have a PCIe x8 2.0 port I would just get a 8x to 16x PCIe riser and install a more powerfull graphic card.\n\n/Poul""
+message: "Hi Ats\n\nSorry for the late reply! Yes, it is possible to attach a x16 graphics card using a riser to a x8 port. So since you already have a PCIe x8 2.0 port I would just get a 8x to 16x PCIe riser and install a more powerfull graphic card.\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: ''
-replying_to: ''
+replying_to: '75ddd60e-195b-4d18-9bf1-06d11ac8095f'
 hidden: ''
 date: '2016-03-07T21:29:22.000Z'

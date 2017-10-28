@@ -1,9 +1,9 @@
 _id: bc6d6bf6-cb23-4fa7-8aee-947dcbef11f8
 _parent: /projects/windows-10-egpu-setup-optimus/
-message: ""I've confirmed (using hitman codename 47) that optimus only works when running OpenGL applications, when I have disabled the Intel HD6000 card in device Manager. Direct3D applications error out when the computer is in this configuration. \n\nWhen the Intel is not disabled, no application is sent to the NVidia Card.\n\nThanks again for all your support to us eGPU newbs.\n\nPS I'll start hassling the TI forums if you don't have any ideas :)""
+message: "I've confirmed (using hitman codename 47) that optimus only works when running OpenGL applications, when I have disabled the Intel HD6000 card in device Manager. Direct3D applications error out when the computer is in this configuration.\n\nWhen the Intel is not disabled, no application is sent to the NVidia Card.\n\nThanks again for all your support to us eGPU newbs.\n\nPS I'll start hassling the TI forums if you don't have any ideas :)"
 name: Aadil Kurji
 email: 7ef163b28558a6afce33585b3917e218
 url: ''
-replying_to: ''
+replying_to: 'ea9e2567-fcf9-4e38-9eb1-387cb9eb40a5'
 hidden: ''
 date: '2016-08-26T19:09:55.000Z'
