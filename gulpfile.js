@@ -13,7 +13,7 @@ gulp.task('build:site', gulp.series('site:tmp', 'site', 'copy:site'));
 // 'gulp assets' -- removes assets and rebuilds them
 // 'gulp assets --prod' -- same as above but with production settings
 gulp.task('assets', gulp.series(
-  gulp.series('scripts', 'styles', 'fonts', 'icons'),
+  gulp.series('scripts', 'scripts:defer', 'styles', 'fonts', 'icons'),
   gulp.series('scripts:gzip', 'styles:gzip', 'images:lazyload', 'images:feature', 'copy:assets', 'copy:images', 'copy:icons', 'copy:files', 'copy:manifest')
 ));
 

@@ -55,6 +55,36 @@ gulp.task('scripts', () => {
     .pipe(when(argv.prod, size({showFiles: true})))
 });
 
+// 'gulp scripts' -- creates a index.js file with Sourcemap from your JavaScript files
+// 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,
+//   minifies, and cache busts it (does not create a Sourcemap)
+gulp.task('scripts:defer', () => {
+  // NOTE: The order here is important since it's concatenated in order from
+  // top to bottom, so you want vendor scripts etc on top
+  return gulp.src([
+    paths.jsFiles + '/defer/*.js'
+  ])
+    .pipe(newer(paths.jsFilesTemp + '/defer.js', {dest: paths.jsFilesTemp, ext: '.js'}))
+    .pipe(when(!argv.prod, sourcemaps.init()))
+    // concatenate scripts
+    .pipe(concat('defer.js'))
+    .pipe(size({showFiles: true}))
+    // minify for production
+    .pipe(when(argv.prod, when('*.js', uglify({preserveComments: 'some'}))))
+    // output sourcemap for development
+    .pipe(when(!argv.prod, sourcemaps.write('.')))
+    .pipe(gulp.dest(paths.jsFilesTemp))
+    // hash JS for production
+    .pipe(when(argv.prod, rev()))
+    .pipe(when(argv.prod, size({showFiles: true})))
+    // output hashed files
+    .pipe(when(argv.prod, gulp.dest(paths.jsFilesTemp)))
+    // generate manifest of hashed CSS files
+    .pipe(rev.manifest('js-manifest.json'))
+    .pipe(gulp.dest(paths.tempDir + paths.sourceDir + paths.dataFolderName))
+    .pipe(when(argv.prod, size({showFiles: true})))
+});
+
 // 'gulp scripts:gzip --prod' -- gzips JS
 gulp.task('scripts:gzip', () => {
   return gulp.src([paths.jsFilesTemp + '/*.js'])

@@ -60,3 +60,21 @@ code.highlighter-rouge {
 .highlight {
    margin-bottom: 5vw;
 }
+
+pre[class*="language-"] code  {
+   margin-bottom: 5vw;
+}
+
+pre > code[class*="language-terminal"] > span.gp {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+pre > code[class*="language-terminal"] > span.go {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

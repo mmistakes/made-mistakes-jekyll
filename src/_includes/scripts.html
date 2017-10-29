@@ -3,5 +3,7 @@
 {% endif %}
 
 {% assign index_js = site.data.js-manifest['index.js'] | default: 'index.js' | prepend: 'assets/javascripts/' | absolute_url %}
+{% assign defer_js = site.data.js-manifest['defer.js'] | default: 'defer.js' | prepend: 'assets/javascripts/' | absolute_url %}
 
 <script async src="{{ index_js }}"></script>
+<script defer src="{{ defer_js }}"></script>

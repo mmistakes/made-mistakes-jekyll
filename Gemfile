@@ -15,5 +15,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2'
   gem 'jekyll-typogrify'
   gem 'jekyll-redirect-from'
+#  gem 'mm-jekyll-prism'
 #  gem 'jekyll-liquify'
 end
