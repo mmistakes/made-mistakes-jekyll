@@ -1,0 +1,9 @@
+_id: 174fdd83-e36a-485f-9e37-b8739e6814db
+_parent: /projects/esp8266-development-kit-nodemcu-firmware-update-os-x/
+message: "Thanks so much. This worked when I changed the line to --baud 9600. Maybe it was my cheap knockoff board, but it couldn't connect at 921600 baud."
+name: ProfTed
+email: 48a1b66f8db8925a56e49c9ebd394109
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-12-22T15:03:59.000Z'

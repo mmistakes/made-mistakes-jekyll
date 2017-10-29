@@ -1,0 +1,9 @@
+_id: 6619d90b-e07c-436d-b6f8-12604c1993dc
+_parent: /projects/esp8266-development-kit-nodemcu-firmware-update-os-x/
+message: "You were right about the \"-fm dio\".  I have discovered that I get consistently good results with this command line:  \nesptool.py --baud 115200 --port /dev/tty.wchusbserial1450 write_flash -fm dio -fs 32m 0x00000 ../nodemcu_integer_0.9.6-dev_20150704.bin  \nSo you can see that I have graduated to a higher baudrate.  \nLive and learn."
+name: jm_in_TX
+email: 079e3d05a2baa8ebf0670c6d9eb4bc05
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-05-16T03:31:35.000Z'

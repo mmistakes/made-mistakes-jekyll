@@ -1,0 +1,9 @@
+_id: 0fdc6157-7ce9-4a55-9aab-5d822af91170
+_parent: /projects/esp8266-development-kit-nodemcu-firmware-update-os-x/
+message: "Hi Poul-- hile you were enjoying your holidays, I was busy and after much experimenting also discovered that browsers (notably Safari) can be VERY picky about html.  I invested some time to get the right headers and now get consistent results across the browsers that matter to me. I will take close look at your work and see if I can improve.  I have read that to effectively program the ESP8266, you have to divorce yourself from a purely procedural programming paradigm -- something which is difficult for me because, although I do not program a lot (or as a job), I've been programming for a long time (~1971) and a procedural mindset is hard to break out of. y other challenge is getting my iPhone to connect consistently and without dropping to the ESP.  I am not getting a connection consistently and it often drops.  I don't have any other phones to test it with so maybe it's not an iPhone-only problem. Connecting when it's in station mode is not a problem. hanks from Texas!"
+name: jm_in_TX
+email: 079e3d05a2baa8ebf0670c6d9eb4bc05
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-05-16T03:26:57.000Z'
