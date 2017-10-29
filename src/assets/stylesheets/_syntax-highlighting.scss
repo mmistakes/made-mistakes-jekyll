@@ -134,3 +134,31 @@
   .vi { color: #22b3eb; } /* Name.Variable.Instance */
   .il { color: #2aa198; } /* Literal.Number.Integer.Long */
 }
+
+code.highlighter-rouge {
+    background-color: #f5f5f6;
+    border: 0;
+    padding: 0.1em;
+}
+
+.highlight {
+   margin-bottom: 2vw;
+}
+
+pre[class*="language-"] code  {
+   margin-bottom: 2vw;
+}
+
+pre > code[class*="language-terminal"] > span.gp {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+pre > code[class*="language-terminal"] > span.go {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
