@@ -52,21 +52,23 @@ Edit the `AmazonAffiliateReportExtractor.php` script
 3. Set which currency you want the final result in `$totalCommisionCurrency`
 4. Add a name for the report in `$reportName`
 5. For each Amazon Affiliate account you want to login you need the following four lines. Change only the first and second line to the corresponding Amazon locale and currency
-```php
+{% highlight php %}
 $credentials["network"] = "us"; //Change this to match the Amazon locale
 $currency = "USD"; //Change this to match the currency used
 $network = Oara_Factory::createInstance($credentials);
 $totalCommision += ReportExtractor::currency($currency, $totalCommisionCurrency, ReportExtractor::Extract($network, "Amazon ".strtoupper($credentials["network"]), $currency, $startDate, $endDate));
-```
+{% endhighlight %}
 
 Run the script by invoking it
-```php
+{% highlight bash %}
 php AmazonAffiliateReportExtractor.php
-```
+{% endhighlight %}
+
 You should get an output similar to the example above. If you want this report mailed every month you can use CRON like this (assuming sending mail has been configured, I use Googles SMTP server for this):
-```bash
+{% highlight bash %}
 @monthly php /some/path/php-oara/examples/AmazonAffiliateReportExtractor.php | mail -s "Amazon Affiliate report" my@email.com
-```
+{% endhighlight %}
+
 # Conclusion
 This setup sends me a short report every month to my email with all my Amazon Affiliate commissions summed into a single total in my chosen currency. This means I spend less time logging into my 8 Amazon Affiliate account and manually extracting the numbers, converting them into a common currency and calculating a total. If you know of a better way to do this, please leave me a comment.
 
