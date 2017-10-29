@@ -1,6 +1,6 @@
 _id: 4b63324c-0271-4a4b-b1b4-afaeceae8139
 _parent: /projects/esp8266-nodemcu-getting-started-hello-world/
-message: ""when i do >\n ls -l /dev/tty.*\nI get : \nls: cannot access /dev/tty.*: No such file or directory\n\n\nI am sure device is connected!, the blue lights are binking.\n\nplease reply soon.\nThank You""
+message: "when i do >  \nls -l /dev/tty.*  \nI get :  \nls: cannot access /dev/tty.*: No such file or directory\n\nI am sure device is connected!, the blue lights are binking.\n\nplease reply soon.  \nThank You"
 name: Feroz Ahmad
 email: f6f00e3a3f2dbf16ec9493ac79555256
 url: ''
