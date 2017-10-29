@@ -1,0 +1,9 @@
+_id: 8923b696-ee85-48a6-91d9-cac735fb43ee
+_parent: /projects/esp8266-development-kit-nodemcu-firmware-update-os-x/
+message: ""Thanks for this, it was a great help to getting me started.\nOnly one thing: the command line to flash has a couple of errors in it.\nIt should be \"--baud 9600\" and \"-fm=dio\".  The baudrate could probably be higher (from what I've read) but 9600bd give me time to get another beer.\nAnother tip would be to re-name the folder to esptool from esptool-master -- maybe that's a newbie thing, but it's fewer characters to type. \nAlso, the flashing leaves the device without a init.lua -- which is probably a by-design thing.  Live and learn from the efforts of others.""
+name: jm_in_TX
+email: 079e3d05a2baa8ebf0670c6d9eb4bc05
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-05-05T03:59:15.000Z'

@@ -1,0 +1,9 @@
+_id: d74cf4b8-e5ea-4c2f-9f74-0a31c08ed777
+_parent: /projects/esp8266-development-kit-nodemcu-firmware-update-os-x/
+message: "Hi JM\n\nSorry for the late reply, but just got back from vacation. I had some issues connecting to the ESP8266 using NodeMCU and Safari on OS X and IOS. I got it working using the webserver in my post <a href="https://odd-one-out.serek.eu/esp8266-nodemcu-ihc-wireless-webserver-light-switch/">here</a> which might help. My problem was that I did not send the correct response headers back and the different browsers all reacted differently. Also I am using the development branch of NodeMCU so that might help.\n\n/Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-05-09T14:59:04.000Z'

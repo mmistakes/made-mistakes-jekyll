@@ -1,0 +1,9 @@
+_id: 0c5e25bf-f3b2-494d-934a-22e2f86aa4e8
+_parent: /projects/esp8266-development-kit-nodemcu-firmware-update-os-x/
+message: "Hi JM\n\nThanks for the feedback and great that it got you started! You say it has a couple of errors, can you specify what kind of errors? I have been using the commands in this post many times and they work for me. The \"-fm dio\" should just work fine, in fact the official <a href="https://github.com/themadinventor/esptool" rel="nofollow">readme file</a> for esptool.py mentions it just like that without the "=". And I am not sure why you want to flash at a slower speed, since I am flashing at a faster speed just fine (I don't need time to get another beer :) ). And yes, the missing `init.lua` is by design, but it is easy to upload a default one from <a href="https://github.com/nodemcu/nodemcu-firmware/blob/master/examples/init.lua" rel="nofollow">here</a> if you need it.\n\n/Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-05-05T10:26:52.000Z'
