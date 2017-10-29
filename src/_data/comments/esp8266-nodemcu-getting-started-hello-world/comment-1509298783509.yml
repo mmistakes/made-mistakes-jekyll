@@ -1,0 +1,9 @@
+_id: 3ae7cf5f-7872-4fa5-9f26-07bc597d4f13
+_parent: /projects/esp8266-nodemcu-getting-started-hello-world/
+message: ""Hi Feroz\n\nIt seems that the drivers might not be installed at all or somehow not detected. Which ESP8266 device do you have? In my post I needed to install the CP2102 driver, but you might need to install a different one. It should say on the back of the ESP8266.\n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-03-06T12:51:13.000Z'

@@ -1,0 +1,9 @@
+_id: ff2f3a53-b15e-4c7d-9d9b-ebf6f2c1ddd7
+_parent: /projects/esp8266-nodemcu-getting-started-hello-world/
+message: ""I already connected to AMICA board, but I have to use 115200 at Baud Rate field if I use 9600 it doesn't work. I already try to change the baud rate at serial Driver but it still only communicating at 115200. Anyway when I send to ESP it show "ERROR" every line of the programam... Anyone knows what is happening? Sorry my english.""
+name: Renan
+email: 356e57233391ac026a00ee1bb1ba4c6f
+url: ''
+replying_to: ''
+hidden: ''
+date: '2017-05-04T15:39:13.000Z'
