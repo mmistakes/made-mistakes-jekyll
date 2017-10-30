@@ -8,7 +8,7 @@ section:
     class: "section--inverse section--projects"
     image: /assets/images/projects.jpg
     introduction: |
-      My technical and software related projects - anything from *[external graphics cards](/tag/egpu/)*, *[DIY ambilight](/projects/diy-ambilight-without-pc/)*, *[cryptocurrency mining](/projects/cryptocurrency-mining-bitcoin-litecoin-and-more/)* and *[more](/tag/)*
+      My technical and software related projects - anything from *[external graphics cards](/tag/egpu/)*, *[DIY ambilight](/projects/diy-ambilight-without-pc/)*, *[cryptocurrency mining](/projects/cryptocurrency-mining-bitcoin-litecoin-and-more/)*, *[ESP8266](/tag/esp8266/)* and *[more](/tag/)*
     actions:
       - label: "the Vault"
         url: "/projects/"
