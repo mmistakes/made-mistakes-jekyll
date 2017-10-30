@@ -1,6 +1,6 @@
 _id: b3c51406-9d54-40ca-b686-fa212c2cdf94
 _parent: /projects/esp8266-nodemcu-dht22-mqtt-deep-sleep/
-message: ""Hi Poul  \nGreat project\r\nMy only issue with this config is that the ESP8266 wont send any more MQTT messages when its broker was unanvailable during one send attempt. I.e. if I reboot the broker I also have to power cycle the ESP8266.. Do you get the same behavior on yours? Any ideas how to fix this?  \nThx Seb""
+message: "Hi Poul  \nGreat project\r\nMy only issue with this config is that the ESP8266 wont send any more MQTT messages when its broker was unanvailable during one send attempt. I.e. if I reboot the broker I also have to power cycle the ESP8266.. Do you get the same behavior on yours? Any ideas how to fix this?  \nThx Seb"
 name: Sebastian
 email: 43f8e570d25119fac5d8c8dfbdb1359d
 url: ''
