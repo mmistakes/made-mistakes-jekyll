@@ -1,0 +1,9 @@
+_id: 681b219a-bddf-4ff0-a7fc-34674f762f17
+_parent: /projects/esp8266-nodemcu-dht22-mqtt-deep-sleep/
+message: ""Hi;  \nThis is perfectly working with `nodemcu_integer_0.9.6-dev_20150704.bin`. But I have been using custom Nodemcu firmware with combination of some modules (adc,bit,crypto,dht,enduser_setup,file,gpio,http,i2c,mdns,mqtt,net,node,ow,pwm,sntp,spi,tmr,uart,wifi)  \nWith this custom firmware it stuck in connecting state. But I am sure esp getting IP and tries to initiate mqtt connection to mosquitto server. I have check these on my local area network devices.  \nAny idea?""
+name: ender
+email: 1c3294f734151824bc04cc277a7b9bd5
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-08-02T09:06:45.000Z'

@@ -1,0 +1,9 @@
+_id: 62911a7b-1d57-4a8d-9477-21976d9a2d6b
+_parent: /projects/esp8266-nodemcu-dht22-mqtt-deep-sleep/
+message: ""Hi Felipe\n\nI did not need an import, did you compile your own version of NodeMCU or did you forget to add the "file" module? I use an online service to compile exactly what I need, take a look [here](https://odd-one-out.serek.eu/esp8266-nodemcu-dht22-custom-modules-firmware/).\n\n/Poul""
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2017-04-09T19:18:32.000Z'
