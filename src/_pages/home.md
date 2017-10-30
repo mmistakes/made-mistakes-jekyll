@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: "Odd One Out"
-excerpt: "Todo"
+excerpt: "My landing page for everything geeky!"
 section:
   - title: "Projects"
     class: "section--inverse section--projects"
@@ -12,11 +12,11 @@ section:
     actions:
       - label: "the Vault"
         url: "/projects/"
-  - title: "Code & Config"
+  - title: "Code"
     class: "section--inverse section--projects"
     image: /assets/images/code.jpg
     introduction: |
-      Code snippets and configuration
+      Code snippets and software configuration
     actions:
       - label: "the Repository"
         url: "/code/"
@@ -28,14 +28,6 @@ section:
     actions:
       - label: "the List"
         url: "/reviews/"
-  - title: "Odds & Ends"
-    class: "section--inverse section--work"
-    image: /assets/images/procreate-paintings-feature.jpg
-    introduction: |
-      A miscellany of leftovers, outsizes, scraps & unmatched bits
-    actions:
-      - label: "articles"
-        url: "/misc/"
 ads: false
 last_modified_at: 2017-05-09T15:26:31-04:00
 ---
