@@ -1,0 +1,9 @@
+_id: a0108660-bd8f-11e7-b840-6d18dcdaf523
+_parent: /articles/jekyll-style-guide/
+message: "A bit late to the conversation, but I want to note that you can include Markdown in the Frontmatter in an HTML by using a pipe to escape the content. This is what I used for my Jekyll styleguide\r\n\r\n```field: |\r\n    Markdown can be used *here*\r\n```\r\n\r\n`{{ page.field | markdownify }}`"
+name: Matt G
+email: f1a625b44f5dcff994266b4998905d87
+url: 'http://himatt.com'
+replying_to: ''
+hidden: ''
+date: '2017-10-30T16:30:22.937Z'
