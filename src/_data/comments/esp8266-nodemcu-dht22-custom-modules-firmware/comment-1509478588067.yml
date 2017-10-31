@@ -1,0 +1,9 @@
+_id: b290a0c8-8be2-4477-907a-01016cd51697
+_parent: /projects/esp8266-nodemcu-dht22-custom-modules-firmware/
+message: ""Okay, ich habe das ganze genauso gemacht wie beschrieben erhalte in der Console des LuaLoaders aber nur:\n\nNodeMCU 0.9.6 build 20150704  powered by Lua 5.1.4  \n*** You've got 1 sec to stop timer ***  \n> Executing user.lua  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nPANIC: unprotected error in call to Lua API (user.lua:73: already connected)\n\ndann resettet das nodemcu und es passiert erneut.\n\ngruß patrick""
+name: patrick
+email: f184917e70ba910b77f7bbd56aeb4bf2
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-02-27T00:45:35.000Z'
