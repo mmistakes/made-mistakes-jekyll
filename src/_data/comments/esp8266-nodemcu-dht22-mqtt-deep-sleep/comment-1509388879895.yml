@@ -1,6 +1,6 @@
 _id: 75f97957-5d9f-4ba5-8001-c0ab5647b086
 _parent: /projects/esp8266-nodemcu-dht22-mqtt-deep-sleep/
-message: ""Nice Project. Thanks for this fine solution to getting the data from the DHT22 to MQTT.  \nI did some measurements how long the system is working with three AA batteries and I was wondering how fast the battery was empty. I would recommend to update the script in this way, that you use a different GPIO from ESP8266 to Power the Sensor.  \nThe GIO is able deliver 12mA, the Sensor needs 2mA - so this should work.  \nBTW: Sometimes I need to reset the sensor because the values was 0 - this problem should be fixed as well...  \nRegards Jeffilein""
+message: "Nice Project. Thanks for this fine solution to getting the data from the DHT22 to MQTT.  \nI did some measurements how long the system is working with three AA batteries and I was wondering how fast the battery was empty. I would recommend to update the script in this way, that you use a different GPIO from ESP8266 to Power the Sensor.  \nThe GIO is able deliver 12mA, the Sensor needs 2mA - so this should work.  \nBTW: Sometimes I need to reset the sensor because the values was 0 - this problem should be fixed as well...  \nRegards Jeffilein"
 name: Jeffilein
 email: 767934a648524da57388558217ad9c2d
 url: ''
