@@ -12,18 +12,15 @@ PaperFaces portrait of [@lmichelleinc](http://twitter.com/lmichelleinc).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-lmichelleinc-process-1-lg.jpg"><img src="/assets/images/paperfaces-lmichelleinc-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Quick sketch with the pencil tool to solidify the composition.</figcaption>
-</figure>
+{% figure caption:"Quick sketch with the pencil tool to solidify the composition." %}
+[![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-1-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-lmichelleinc-process-2-lg.jpg"><img src="/assets/images/paperfaces-lmichelleinc-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-lmichelleinc-process-3-lg.jpg"><img src="/assets/images/paperfaces-lmichelleinc-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Building up the face with watercolor and penciling in grass highlights.</figcaption>
-</figure>
+{% figure caption:"Building up the face with watercolor and penciling in grass highlights." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-2-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-3-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-3-lg.jpg)
+{% endfigure %}
 
-<figure>
-	<a href="/assets/images/paperfaces-lmichelleinc-process-4-lg.jpg"><img src="/assets/images/paperfaces-lmichelleinc-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Working the hair by lightly drawing curls and wisps in pencil.</figcaption>
-</figure>
+{% figure caption:"Working the hair by lightly drawing curls and wisps in pencil." %}
+[![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-4-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-4-lg.jpg)
+{% endfigure %}

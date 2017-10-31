@@ -12,11 +12,11 @@ PaperFaces portrait of [@rockdanne](http://twitter.com/rockdanne). Was almost te
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-rockdanne-process-1-lg.jpg"><img src="/assets/images/paperfaces-rockdanne-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-rockdanne-process-2-lg.jpg"><img src="/assets/images/paperfaces-rockdanne-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-rockdanne-process-3-lg.jpg"><img src="/assets/images/paperfaces-rockdanne-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-rockdanne-process-4-lg.jpg"><img src="/assets/images/paperfaces-rockdanne-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-rockdanne-process-5-lg.jpg"><img src="/assets/images/paperfaces-rockdanne-process-5-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-rockdanne-process-6-lg.jpg"><img src="/assets/images/paperfaces-rockdanne-process-6-600.jpg" alt="Work in process screenshot"></a>
-</figure>
+{% figure caption:"Work in process screenshots." class:"half" %}
+[![](/assets/images/paperfaces-rockdanne-process-1-600.jpg)](/assets/images/paperfaces-rockdanne-process-1-lg.jpg)
+[![](/assets/images/paperfaces-rockdanne-process-2-600.jpg)](/assets/images/paperfaces-rockdanne-process-2-lg.jpg)
+[![](/assets/images/paperfaces-rockdanne-process-3-600.jpg)](/assets/images/paperfaces-rockdanne-process-3-lg.jpg)
+[![](/assets/images/paperfaces-rockdanne-process-4-600.jpg)](/assets/images/paperfaces-rockdanne-process-4-lg.jpg)
+[![](/assets/images/paperfaces-rockdanne-process-5-600.jpg)](/assets/images/paperfaces-rockdanne-process-5-lg.jpg)
+[![](/assets/images/paperfaces-rockdanne-process-6-600.jpg)](/assets/images/paperfaces-rockdanne-process-6-lg.jpg)
+{% endfigure %}

@@ -12,15 +12,13 @@ PaperFaces portrait of [@brototyp](http://twitter.com/brototyp).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-brototyp-process-1-lg.jpg"><img src="/assets/images/paperfaces-brototyp-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Sketching out the composition.</figcaption>
-</figure>
+{% figure caption:"Sketching out the composition." %}
+[![](/assets/images/paperfaces-brototyp-process-1-750.jpg)](/assets/images/paperfaces-brototyp-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-brototyp-process-2-lg.jpg"><img src="/assets/images/paperfaces-brototyp-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-brototyp-process-3-lg.jpg"><img src="/assets/images/paperfaces-brototyp-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-brototyp-process-4-lg.jpg"><img src="/assets/images/paperfaces-brototyp-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-brototyp-process-5-lg.jpg"><img src="/assets/images/paperfaces-brototyp-process-5-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"half" %}
+[![](/assets/images/paperfaces-brototyp-process-2-600.jpg)](/assets/images/paperfaces-brototyp-process-2-lg.jpg)
+[![](/assets/images/paperfaces-brototyp-process-3-600.jpg)](/assets/images/paperfaces-brototyp-process-3-lg.jpg)
+[![](/assets/images/paperfaces-brototyp-process-4-600.jpg)](/assets/images/paperfaces-brototyp-process-4-lg.jpg)
+[![](/assets/images/paperfaces-brototyp-process-5-600.jpg)](/assets/images/paperfaces-brototyp-process-5-lg.jpg)
+{% endfigure %}

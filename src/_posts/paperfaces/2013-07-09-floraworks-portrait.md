@@ -12,14 +12,12 @@ PaperFaces portrait of [@floraworks](http://twitter.com/floraworks).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-floraworks-process-1-lg.jpg"><img src="/assets/images/paperfaces-floraworks-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-floraworks-process-2-lg.jpg"><img src="/assets/images/paperfaces-floraworks-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Sketching and outlining the portrait.</figcaption>
-</figure>
+{% figure caption:"Sketching and outlining the portrait." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-floraworks-process-1-600.jpg)](/assets/images/paperfaces-floraworks-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-floraworks-process-2-600.jpg)](/assets/images/paperfaces-floraworks-process-2-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-floraworks-process-3-lg.jpg"><img src="/assets/images/paperfaces-floraworks-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-floraworks-process-4-lg.jpg"><img src="/assets/images/paperfaces-floraworks-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Building up the hair one strand at a time.</figcaption>
-</figure>
+{% figure caption:"Building up the hair one strand at a time." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-floraworks-process-3-600.jpg)](/assets/images/paperfaces-floraworks-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-floraworks-process-4-600.jpg)](/assets/images/paperfaces-floraworks-process-4-lg.jpg)
+{% endfigure %}

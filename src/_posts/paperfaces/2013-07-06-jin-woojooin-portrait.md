@@ -12,14 +12,12 @@ PaperFaces portrait of [@JIN_woojooin](http://twitter.com/JIN_woojooin).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-jin-woojooin-process-1-lg.jpg"><img src="/assets/images/paperfaces-jin-woojooin-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Lightly outlining the face before using watercolor to render forms.</figcaption>
-</figure>
+{% figure caption:"Lightly outlining the face before using watercolor to render forms." %}
+[![Work in process screenshot](/assets/images/paperfaces-jin-woojooin-process-1-600.jpg)](/assets/images/paperfaces-jin-woojooin-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="third">
-	<a href="/assets/images/paperfaces-jin-woojooin-process-2-lg.jpg"><img src="/assets/images/paperfaces-jin-woojooin-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jin-woojooin-process-3-lg.jpg"><img src="/assets/images/paperfaces-jin-woojooin-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jin-woojooin-process-4-lg.jpg"><img src="/assets/images/paperfaces-jin-woojooin-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Watercolor all day everyday. Using a Pogo Connect pen stylus let's you taper edges like you never thought possible.</figcaption>
-</figure>
+{% figure caption:"Watercolor all day everyday. Using a Pogo Connect pen stylus let's you taper edges like you never thought possible." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-jin-woojooin-process-2-600.jpg)](/assets/images/paperfaces-jin-woojooin-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-jin-woojooin-process-3-600.jpg)](/assets/images/paperfaces-jin-woojooin-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-jin-woojooin-process-4-600.jpg)](/assets/images/paperfaces-jin-woojooin-process-4-lg.jpg)
+{% endfigure %}

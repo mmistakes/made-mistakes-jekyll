@@ -12,25 +12,21 @@ PaperFaces portrait of [@miriamchadwick](http://instagram.com/miriamchadwick).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-  <a href="/assets/images/paperfaces-miriamchadwick-process-1-lg.jpg"><img src="/assets/images/paperfaces-miriamchadwick-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>99.9% of the time I start with the background first.</figcaption>
-</figure>
+{% figure caption:"99.9% of the time I start with the background first." %}
+[![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-1-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="third">
-  <a href="/assets/images/paperfaces-miriamchadwick-process-2-lg.jpg"><img src="/assets/images/paperfaces-miriamchadwick-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-miriamchadwick-process-3-lg.jpg"><img src="/assets/images/paperfaces-miriamchadwick-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-miriamchadwick-process-4-lg.jpg"><img src="/assets/images/paperfaces-miriamchadwick-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Build up the figure with pencil first, watercolor second, and back to pencil for refinements.</figcaption>
-</figure>
+{% figure caption:"Build up the figure with pencil first, watercolor second, and back to pencil for refinements." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-2-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-3-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-4-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-4-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-miriamchadwick-process-5-lg.jpg"><img src="/assets/images/paperfaces-miriamchadwick-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-miriamchadwick-process-6-lg.jpg"><img src="/assets/images/paperfaces-miriamchadwick-process-6-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Using a pencil to add detail gradually. Using a Pogo Connect pen that supports pressure sensitivity makes this much easier.</figcaption>
-</figure>
+{% figure caption:"Using a pencil to add detail gradually. Using a Pogo Connect pen that supports pressure sensitivity makes this much easier." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-5-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-5-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-6-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-6-lg.jpg)
+{% endfigure %}
 
-<figure>
-  <a href="/assets/images/paperfaces-miriamchadwick-process-7-lg.jpg"><img src="/assets/images/paperfaces-miriamchadwick-process-7-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Rendering hair in Paper can be a lot of fun if you take your time. Start dark and gradually mix white or yellow into the color mixer to make strands that are highlighted.</figcaption>
-</figure>
+{% figure caption:"Rendering hair in Paper can be a lot of fun if you take your time. Start dark and gradually mix white or yellow into the color mixer to make strands that are highlighted." %}
+[![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-7-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-7-lg.jpg)
+{% endfigure %}

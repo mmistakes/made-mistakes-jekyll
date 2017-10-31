@@ -12,20 +12,17 @@ PaperFaces portrait of [@technacity](http://twitter.com/technacity). Drawing clo
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-  <a href="/assets/images/paperfaces-technacity-process-1-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Pencil sketch to rough out the composition.</figcaption>
-</figure>
+{% figure caption:"Pencil sketch to rough out the composition." %}
+[![Work in process screenshot](/assets/images/paperfaces-technacity-process-1-600.jpg)](/assets/images/paperfaces-technacity-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-technacity-process-2-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-technacity-process-3-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Watercolor brush to block out shapes to build on.</figcaption>
-</figure>
+{% figure caption:"Watercolor brush to block out shapes to build on." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-technacity-process-2-600.jpg)](/assets/images/paperfaces-technacity-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-technacity-process-3-600.jpg)](/assets/images/paperfaces-technacity-process-3-lg.jpg)
+{% endfigure %}
 
-<figure class="third">
-  <a href="/assets/images/paperfaces-technacity-process-4-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-technacity-process-5-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-technacity-process-6-lg.jpg"><img src="/assets/images/paperfaces-technacity-process-6-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Lightly shading with the pencil to create clouds and waves.</figcaption>
-</figure>
+{% figure caption:"Lightly shading with the pencil to create clouds and waves." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-technacity-process-4-600.jpg)](/assets/images/paperfaces-technacity-process-4-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-technacity-process-5-600.jpg)](/assets/images/paperfaces-technacity-process-5-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-technacity-process-6-600.jpg)](/assets/images/paperfaces-technacity-process-6-lg.jpg)
+{% endfigure %}

@@ -12,14 +12,13 @@ PaperFaces portrait of [my wife Wendy](http://2littlerosebuds.com) for her birth
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-veganwendy-birthday-process-1-lg.jpg"><img src="/assets/images/paperfaces-veganwendy-birthday-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-veganwendy-birthday-process-2-lg.jpg"><img src="/assets/images/paperfaces-veganwendy-birthday-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-veganwendy-birthday-process-3-lg.jpg"><img src="/assets/images/paperfaces-veganwendy-birthday-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-veganwendy-birthday-process-4-lg.jpg"><img src="/assets/images/paperfaces-veganwendy-birthday-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>It all starts with a pencil sketch followed by many layers of watercolor.</figcaption>
-</figure>
+{% figure caption:"It all starts with a pencil sketch followed by many layers of watercolor." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-veganwendy-birthday-process-1-600.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-veganwendy-birthday-process-2-600.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-veganwendy-birthday-process-3-600.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-veganwendy-birthday-process-4-600.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-4-lg.jpg)
+{% endfigure %}
 
-<figure>
-	<a href="/assets/images/paperfaces-veganwendy-birthday-process-5-lg.jpg"><img src="/assets/images/paperfaces-veganwendy-birthday-process-5-750.jpg" alt="Work in process screenshot"></a>
-</figure>
+{% figure caption:"Work in progress screenshot." %}
+[![](/assets/images/paperfaces-veganwendy-birthday-process-5-750.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-5-lg.jpg)
+{% endfigure %}

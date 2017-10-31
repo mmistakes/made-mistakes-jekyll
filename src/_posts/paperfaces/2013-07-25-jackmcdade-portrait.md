@@ -13,18 +13,15 @@ PaperFaces portrait of [@jackmcdade](http://twitter.com/jackmcdade). Went all ch
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-jackmcdade-process-1-lg.jpg"><img src="/assets/images/paperfaces-jackmcdade-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Pencil sketch to rough out the composition.</figcaption>
-</figure>
+{% figure caption:"Pencil sketch to rough out the composition." %}
+[![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-1-600.jpg)](/assets/images/paperfaces-jackmcdade-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-jackmcdade-process-2-lg.jpg"><img src="/assets/images/paperfaces-jackmcdade-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jackmcdade-process-3-lg.jpg"><img src="/assets/images/paperfaces-jackmcdade-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Short and controlled watercolor strokes to avoid sharp edges and keep the trees nice and blurry.</figcaption>
-</figure>
+{% figure caption:"Short and controlled watercolor strokes to avoid sharp edges and keep the trees nice and blurry." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-2-600.jpg)](/assets/images/paperfaces-jackmcdade-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-3-600.jpg)](/assets/images/paperfaces-jackmcdade-process-3-lg.jpg)
+{% endfigure %}
 
-<figure>
-	<a href="/assets/images/paperfaces-jackmcdade-process-4-lg.jpg"><img src="/assets/images/paperfaces-jackmcdade-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Here comes the face…</figcaption>
-</figure>
+{% figure caption:"Here comes the face..." %}
+[![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-4-600.jpg)](/assets/images/paperfaces-jackmcdade-process-4-lg.jpg)
+{% endfigure %}

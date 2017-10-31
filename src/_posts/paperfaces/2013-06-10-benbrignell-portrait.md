@@ -12,14 +12,12 @@ PaperFaces portrait of [@benbrignell](http://twitter.com/benbrignell).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-benbrignell-process-1-lg.jpg"><img src="/assets/images/paperfaces-benbrignell-process-1-600.jpg" alt="Adding detail with the pencil tool."></a>
-	<a href="/assets/images/paperfaces-benbrignell-process-2-lg.jpg"><img src="/assets/images/paperfaces-benbrignell-process-2-600.jpg" alt="Using the zoom tool to draw the black and white game pieces."></a>
-	<figcaption>Blocking out facial features and gradually adding tones using the watercolor brush.</figcaption>
-</figure>
+{% figure caption:"Blocking out facial features and gradually adding tones using the watercolor brush." class:"half" %}
+[![Adding detail with the pencil tool.](/assets/images/paperfaces-benbrignell-process-1-600.jpg)](/assets/images/paperfaces-benbrignell-process-1-lg.jpg)
+[![Using the zoom tool to draw the black and white game pieces.](/assets/images/paperfaces-benbrignell-process-2-600.jpg)](/assets/images/paperfaces-benbrignell-process-2-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-benbrignell-process-3-lg.jpg"><img src="/assets/images/paperfaces-benbrignell-process-3-600.jpg" alt="Adding detail with the pencil tool."></a>
-	<a href="/assets/images/paperfaces-benbrignell-process-4-lg.jpg"><img src="/assets/images/paperfaces-benbrignell-process-4-600.jpg" alt="Using the zoom tool to draw the black and white game pieces."></a>
-	<figcaption>Adding detail and refining edges using the pencil and zoom tools.</figcaption>
-</figure>
+{% figure caption:"Adding detail and refining edges using the pencil and zoom tools." class:"half" %}
+[![Adding detail with the pencil tool.](/assets/images/paperfaces-benbrignell-process-3-600.jpg)](/assets/images/paperfaces-benbrignell-process-3-lg.jpg)
+[![Using the zoom tool to draw the black and white game pieces.](/assets/images/paperfaces-benbrignell-process-4-600.jpg)](/assets/images/paperfaces-benbrignell-process-4-lg.jpg)
+{% endfigure %}

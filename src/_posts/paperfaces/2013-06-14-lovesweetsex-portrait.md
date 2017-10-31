@@ -12,20 +12,17 @@ PaperFaces portrait of project donator [@lovesweetsex](http://twitter.com/lovesw
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-lovesweetsex-process-1-lg.jpg"><img src="/assets/images/paperfaces-lovesweetsex-process-1-600.jpg" alt="Drawing lightly with the pencil"></a>
-  <a href="/assets/images/paperfaces-lovesweetsex-process-2-lg.jpg"><img src="/assets/images/paperfaces-lovesweetsex-process-2-600.jpg" alt="Blocking out the background with watercolor"></a>
-  <figcaption>Using the pencil to lightly outline the figure before painting.</figcaption>
-</figure>
+{% figure caption:"Using the pencil to lightly outline the figure before painting." class:"half" %}
+[![Drawing lightly with the pencil](/assets/images/paperfaces-lovesweetsex-process-1-600.jpg)](/assets/images/paperfaces-lovesweetsex-process-1-lg.jpg)
+[![Blocking out the background with watercolor](/assets/images/paperfaces-lovesweetsex-process-2-600.jpg)](/assets/images/paperfaces-lovesweetsex-process-2-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-lovesweetsex-process-3-lg.jpg"><img src="/assets/images/paperfaces-lovesweetsex-process-3-600.jpg" alt="Painting the face with a dull red"></a>
-  <a href="/assets/images/paperfaces-lovesweetsex-process-4-lg.jpg"><img src="/assets/images/paperfaces-lovesweetsex-process-4-600.jpg" alt="Adding a base coat of black to shape hair"></a>
-  <figcaption>Blocking out facial features and gradually adding tones using the watercolor brush.</figcaption>
-</figure>
+{% figure caption:"Blocking out facial features and gradually adding tones using the watercolor brush." class:"half" %}
+[![Painting the face with a dull red](/assets/images/paperfaces-lovesweetsex-process-3-600.jpg)](/assets/images/paperfaces-lovesweetsex-process-3-lg.jpg)
+[![Adding a base coat of black to shape hair](/assets/images/paperfaces-lovesweetsex-process-4-600.jpg)](/assets/images/paperfaces-lovesweetsex-process-4-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-lovesweetsex-process-5-lg.jpg"><img src="/assets/images/paperfaces-lovesweetsex-process-5-600.jpg" alt="Building shadows with gray"></a>
-  <a href="/assets/images/paperfaces-lovesweetsex-process-6-lg.jpg"><img src="/assets/images/paperfaces-lovesweetsex-process-6-600.jpg" alt="Adding hair highlights with the pencil"></a>
-  <figcaption>Adding more watercolor layers and refining edges with the pencil.</figcaption>
-</figure>
+{% figure caption:"Adding more watercolor layers and refining edges with the pencil." class:"half" %}
+[![Building shadows with gray](/assets/images/paperfaces-lovesweetsex-process-5-600.jpg)](/assets/images/paperfaces-lovesweetsex-process-5-lg.jpg)
+[![Adding hair highlights with the pencil](/assets/images/paperfaces-lovesweetsex-process-6-600.jpg)](/assets/images/paperfaces-lovesweetsex-process-6-lg.jpg)
+{% endfigure %}

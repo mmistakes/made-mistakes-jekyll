@@ -13,26 +13,22 @@ PaperFaces portrait of [@endouz](http://twitter.com/endouz). Using white to pain
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-  <a href="/assets/images/paperfaces-endouz-process-1-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-1-600.jpg" alt="Background in process screenshot"></a>
-  <figcaption>I start each drawing the same way, backgrounds first y'all.</figcaption>
-</figure>
+{% figure caption:"I start each drawing the same way, backgrounds first y'all." %}
+[![Background in process screenshot](/assets/images/paperfaces-endouz-process-1-600.jpg)](/assets/images/paperfaces-endouz-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="third">
-  <a href="/assets/images/paperfaces-endouz-process-2-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-2-600.jpg" alt="In process screenshot"></a>
-  <a href="/assets/images/paperfaces-endouz-process-3-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-3-600.jpg" alt="In process screenshot"></a>
-  <a href="/assets/images/paperfaces-endouz-process-4-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-4-600.jpg" alt="In process screenshot"></a>
-  <figcaption>Outline the face in pencil and then block it out with a variation of white.</figcaption>
-</figure>
+{% figure caption:"Outline the face in pencil and then block it out with a variation of white." class:"third" %}
+[![In process screenshot](/assets/images/paperfaces-endouz-process-2-600.jpg)](/assets/images/paperfaces-endouz-process-2-lg.jpg)
+[![In process screenshot](/assets/images/paperfaces-endouz-process-3-600.jpg)](/assets/images/paperfaces-endouz-process-3-lg.jpg)
+[![In process screenshot](/assets/images/paperfaces-endouz-process-4-600.jpg)](/assets/images/paperfaces-endouz-process-4-lg.jpg)
+{% endfigure %}
 
-<figure class="third">
-  <a href="/assets/images/paperfaces-endouz-process-5-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-5-600.jpg" alt="In process screenshot"></a>
-  <a href="/assets/images/paperfaces-endouz-process-6-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-6-600.jpg" alt="In process screenshot"></a>
-  <a href="/assets/images/paperfaces-endouz-process-7-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-7-600.jpg" alt="In process screenshot"></a>
-  <figcaption>You know the drill. Pencil for refinement, watercolor for shading.</figcaption>
-</figure>
+{% figure caption:"You know the drill. Pencil for refinement, watercolor for shading." class:"third" %}
+[![In process screenshot](/assets/images/paperfaces-endouz-process-5-600.jpg)](/assets/images/paperfaces-endouz-process-5-lg.jpg)
+[![In process screenshot](/assets/images/paperfaces-endouz-process-6-600.jpg)](/assets/images/paperfaces-endouz-process-6-lg.jpg)
+[![In process screenshot](/assets/images/paperfaces-endouz-process-7-600.jpg)](/assets/images/paperfaces-endouz-process-7-lg.jpg)
+{% endfigure %}
 
-<figure>
-  <a href="/assets/images/paperfaces-endouz-process-8-lg.jpg"><img src="/assets/images/paperfaces-endouz-process-8-600.jpg" alt="In process screenshot"></a>
-  <figcaption>Block in clothing with the fountain pen and marker tools and apply any shadows with gradual applications of watercolor.</figcaption>
-</figure>
+{% figure caption:"Block in clothing with the fountain pen and marker tools and apply any shadows with gradual applications of watercolor." %}
+[![In process screenshot](/assets/images/paperfaces-endouz-process-8-600.jpg)](/assets/images/paperfaces-endouz-process-8-lg.jpg)
+{% endfigure %}

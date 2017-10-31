@@ -12,22 +12,19 @@ PaperFaces portrait of [@ericdfields](http://twitter.com/ericdfields).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-  <a href="/assets/images/paperfaces-ericdfields-process-1-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-1-750.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Sketching out a face with the pencil tool.</figcaption>
-</figure>
+{% figure caption:"Sketching out a face with the pencil tool." %}
+[![](/assets/images/paperfaces-ericdfields-process-1-750.jpg)](/assets/images/paperfaces-ericdfields-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-ericdfields-process-2-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-ericdfields-process-3-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-ericdfields-process-4-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-ericdfields-process-5-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-ericdfields-process-6-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-6-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-ericdfields-process-7-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-7-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"third" %}
+[![](/assets/images/paperfaces-ericdfields-process-2-600.jpg)](/assets/images/paperfaces-ericdfields-process-2-lg.jpg)
+[![](/assets/images/paperfaces-ericdfields-process-3-600.jpg)](/assets/images/paperfaces-ericdfields-process-3-lg.jpg)
+[![](/assets/images/paperfaces-ericdfields-process-4-600.jpg)](/assets/images/paperfaces-ericdfields-process-4-lg.jpg)
+[![](/assets/images/paperfaces-ericdfields-process-5-600.jpg)](/assets/images/paperfaces-ericdfields-process-5-lg.jpg)
+[![](/assets/images/paperfaces-ericdfields-process-6-600.jpg)](/assets/images/paperfaces-ericdfields-process-6-lg.jpg)
+[![](/assets/images/paperfaces-ericdfields-process-7-600.jpg)](/assets/images/paperfaces-ericdfields-process-7-lg.jpg)
+{% endfigure %}
 
-<figure>
-  <a href="/assets/images/paperfaces-ericdfields-process-8-lg.jpg"><img src="/assets/images/paperfaces-ericdfields-process-8-750.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Adding detail with the pencil tool.</figcaption>
-</figure>
+{% figure caption:"Adding detail with the pencil tool." %}
+[![](/assets/images/paperfaces-ericdfields-process-8-750.jpg)](/assets/images/paperfaces-ericdfields-process-8-lg.jpg)
+{% endfigure %}

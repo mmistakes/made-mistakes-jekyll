@@ -12,13 +12,11 @@ PaperFaces portrait of [@hbcke](http://twitter.com/hbcke).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-hbcke-process-1-lg.jpg"><img src="/assets/images/paperfaces-hbcke-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Sketching out a face lightly with the pencil tool.</figcaption>
-</figure>
+{% figure caption:"Sketching out a face lightly with the pencil tool." %}
+[![Work in process screenshot](/assets/images/paperfaces-hbcke-process-1-750.jpg)](/assets/images/paperfaces-hbcke-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-hbcke-process-2-lg.jpg"><img src="/assets/images/paperfaces-hbcke-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-hbcke-process-3-lg.jpg"><img src="/assets/images/paperfaces-hbcke-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Watercolor brush in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Watercolor brush in progress screenshots (**Paper by 53**)." class:"half" %}
+[![](/assets/images/paperfaces-hbcke-process-2-600.jpg)](/assets/images/paperfaces-hbcke-process-2-lg.jpg)
+[![](/assets/images/paperfaces-hbcke-process-3-600.jpg)](/assets/images/paperfaces-hbcke-process-3-lg.jpg)
+{% endfigure %}

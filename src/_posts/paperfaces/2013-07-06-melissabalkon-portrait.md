@@ -12,8 +12,7 @@ PaperFaces portrait of [@melissabalkon](http://twitter.com/melissabalkon) holdin
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-melissabalkon-process-1-lg.jpg"><img src="/assets/images/paperfaces-melissabalkon-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-melissabalkon-process-2-lg.jpg"><img src="/assets/images/paperfaces-melissabalkon-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Drawing in grays is one of my favorite pastimes.</figcaption>
-</figure>
+{% figure caption:"Drawing in grays is one of my favorite pastimes." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-melissabalkon-process-1-600.jpg)](/assets/images/paperfaces-melissabalkon-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-melissabalkon-process-2-600.jpg)](/assets/images/paperfaces-melissabalkon-process-2-lg.jpg)
+{% endfigure %}

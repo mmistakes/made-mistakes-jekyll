@@ -12,11 +12,11 @@ PaperFaces portrait of [@davecowart](http://twitter.com/davecowart). Was feeling
 
 {% include boilerplate/paperfaces.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-davecowart-process-1-lg.jpg"><img src="/assets/images/paperfaces-davecowart-process-1-600.jpg" alt="Work in process screenshot"></a>
-</figure>
+{% figure caption:"Work in progress screenshot." %}
+[![](/assets/images/paperfaces-davecowart-process-1-600.jpg)](/assets/images/paperfaces-davecowart-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-davecowart-process-2-lg.jpg"><img src="/assets/images/paperfaces-davecowart-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-davecowart-process-3-lg.jpg"><img src="/assets/images/paperfaces-davecowart-process-3-600.jpg" alt="Work in process screenshot"></a>
-</figure>
+{% figure caption:"Work in progress screenshots." class:"half" %}
+[![](/assets/images/paperfaces-davecowart-process-2-600.jpg)](/assets/images/paperfaces-davecowart-process-2-lg.jpg)
+[![](/assets/images/paperfaces-davecowart-process-3-600.jpg)](/assets/images/paperfaces-davecowart-process-3-lg.jpg)
+{% endfigure %}

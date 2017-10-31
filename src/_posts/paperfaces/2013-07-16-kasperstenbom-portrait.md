@@ -12,12 +12,10 @@ PaperFaces portrait of [@KasperStenbom](http://twitter.com/KasperStenbom).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-kasperstenbom-process-1-lg.jpg"><img src="/assets/images/paperfaces-kasperstenbom-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Using white to lighten and gradually render cheeks and eye sockets.</figcaption>
-</figure>
+{% figure caption:"Using white to lighten and gradually render cheeks and eye sockets." %}
+[![Work in process screenshot](/assets/images/paperfaces-kasperstenbom-process-1-600.jpg)](/assets/images/paperfaces-kasperstenbom-process-1-lg.jpg)
+{% endfigure %}
 
-<figure>
-	<a href="/assets/images/paperfaces-kasperstenbom-process-2-lg.jpg"><img src="/assets/images/paperfaces-kasperstenbom-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Zooming in to color the eye and pencil in eyebrow hairs.</figcaption>
-</figure>
+{% figure caption:"Zooming in to color the eye and pencil in eyebrow hairs." %}
+[![Work in process screenshot](/assets/images/paperfaces-kasperstenbom-process-2-600.jpg)](/assets/images/paperfaces-kasperstenbom-process-2-lg.jpg)
+{% endfigure %}

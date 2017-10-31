@@ -12,11 +12,10 @@ PaperFaces portrait of [@web_martin](http://twitter.com/web_martin).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-web-martin-process-1-lg.jpg"><img src="/assets/images/paperfaces-web-martin-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Use soft quick watercolor strokes layered on top of each other to simlulate a blurred background. Helps add contrast to the composition when drawing crisp lines in the figures' hair.</figcaption>
-</figure>
-<figure>
-	<a href="/assets/images/paperfaces-web-martin-process-2-lg.jpg"><img src="/assets/images/paperfaces-web-martin-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Render the face gradually and move quickly to soften each stroke. Apply white as needed to lighten darker tones.</figcaption>
-</figure>
+{% figure caption:"Use soft quick watercolor strokes layered on top of each other to simulate a blurred background. Helps add contrast to the composition when drawing crisp lines in the figures' hair." %}
+[![Work in process screenshot](/assets/images/paperfaces-web-martin-process-1-600.jpg)](/assets/images/paperfaces-web-martin-process-1-lg.jpg)
+{% endfigure %}
+
+{% figure caption:"Render the face gradually and move quickly to soften each stroke. Apply white as needed to lighten darker tones." %}
+[![Work in process screenshot](/assets/images/paperfaces-web-martin-process-2-600.jpg)](/assets/images/paperfaces-web-martin-process-2-lg.jpg)
+{% endfigure %}

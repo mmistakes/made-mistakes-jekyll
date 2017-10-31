@@ -15,9 +15,9 @@ And just so it's recorded, this is the illustration I was working on when my [Po
 
 {% include boilerplate/paperfaces.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-jinthagerman-process-1-lg.jpg"><img src="/assets/images/paperfaces-jinthagerman-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jinthagerman-process-2-lg.jpg"><img src="/assets/images/paperfaces-jinthagerman-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jinthagerman-process-3-lg.jpg"><img src="/assets/images/paperfaces-jinthagerman-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jinthagerman-process-4-lg.jpg"><img src="/assets/images/paperfaces-jinthagerman-process-4-600.jpg" alt="Work in process screenshot"></a>
-</figure>
+{% figure caption:"Work in progress screenshots." class:"half" %}
+[![](/assets/images/paperfaces-jinthagerman-process-1-600.jpg)](/assets/images/paperfaces-jinthagerman-process-1-lg.jpg)
+[![](/assets/images/paperfaces-jinthagerman-process-2-600.jpg)](/assets/images/paperfaces-jinthagerman-process-2-lg.jpg)
+[![](/assets/images/paperfaces-jinthagerman-process-3-600.jpg)](/assets/images/paperfaces-jinthagerman-process-3-lg.jpg)
+[![](/assets/images/paperfaces-jinthagerman-process-4-600.jpg)](/assets/images/paperfaces-jinthagerman-process-4-lg.jpg)
+{% endfigure %}
