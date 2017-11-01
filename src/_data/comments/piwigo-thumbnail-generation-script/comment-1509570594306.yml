@@ -1,0 +1,9 @@
+_id: ef3afc6d-9ef3-443e-8209-bddbe1533e35
+_parent: /code/piwigo-thumbnail-generation-script/
+message: "Hi Stefan\n\n1. In a perfect world you would generate all thumbnails from the original, but that takes time. You might save some time by generating the larger thumbnails from the original or the XXL and for the smaller ones you could consider generating them from M\n2. The ImageMagick Identify command with the correct parameters can detect corrupt jpgs. This is taken from the ImageMagick.org site:  \n> Exit Status  \n> The identify program returns a non-zero exit status if a corrupted image is encountered and you add a Regard Warnings Control.\n\n```bash\r\nerror=`identify -regard-warnings image 2>&1 >/dev/null;`\r\n  if [ $? -eq 0 ]; then\r\n    echo \"The image is good\"\r\n  else\r\n    echo \"The image is corrupt or known format\"\r\n    echo \"$error\"\r\n  fi\r\n```\n3. That could be useful, if I get the time I might try to add that feature to the script."
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-07-12T12:19:29.000Z'

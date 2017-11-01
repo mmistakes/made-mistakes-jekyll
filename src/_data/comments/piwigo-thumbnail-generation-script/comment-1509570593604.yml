@@ -1,0 +1,9 @@
+_id: 258e7e04-b700-4a2e-87c4-4a3731ac47ec
+_parent: /code/piwigo-thumbnail-generation-script/
+message: "Hi Olav\n\nThanks for the clue! It makes sense then that my script fails on these rotated pictures. One could expand the script and modify the picture rotation flag in the database, I might do this if I find the time.\n\n/Poul"
+name: Poul Serek
+email: e6be5d980c3d3bf678630477e6452916
+url: https://odd-one-out.serek.eu
+replying_to: ''
+hidden: ''
+date: '2016-02-13T22:21:55.000Z'

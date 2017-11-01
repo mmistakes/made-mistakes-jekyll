@@ -1,0 +1,9 @@
+_id: 22e8415c-e447-40f5-b011-598bf671151b
+_parent: /code/piwigo-thumbnail-generation-script/
+message: "Hi Poul,  \nThank you for this piece of code, I found it very useful.  \nBut I have some questions and observations.\n\n1. If I want to generate the entire set of images used by piwigo, I must start with biggest one, XXL - 1656 x 1242 pixels, isn't it? And using this one as base to generate all others.\n\n2. As long as I am a begginer in ImageMagick, is it possible to substitute \"jpeginfo -c\" with some internal ImageMagick option/command ?\n\n3. Maybe it will be useful to include in each directory (by copying from convenient location?) an index.html file to deny unwanted access to that folder as per Piwigo practice.\n\nThank you,  \nStefan"
+name: Stefan
+email: 668cfe6071e0229196a15a8675e65b5e
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-07-12T12:00:14.000Z'

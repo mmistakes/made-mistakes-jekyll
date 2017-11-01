@@ -1,0 +1,9 @@
+_id: 45c267ff-f66f-4bf2-92b7-54805fdd646a
+_parent: /code/piwigo-thumbnail-generation-script/
+message: "I have a similar problem, but for a difference reason. I have a piwigo gallery hosted on a Linode where I don't have enough disk space to host all my full-sized photos. Instead, I mount all the originals over sshfs from a machine with a slower network connection and more disk space, but generating the thumbnails can take 10-seconds a piece (as I re-upload the image each time). I've adapted your script so that I can generate all the thumbnails on my desktop, and then just push those to the server. (Saving the slow link for when someone actually tries to view the originals.)  \nThanks for writing this up!
+name: bob5972
+email: a2e4b8305a62f0f4cf1ca1f769482a83
+url: ''
+replying_to: ''
+hidden: ''
+date: '2015-11-29T22:47:31.000Z'
