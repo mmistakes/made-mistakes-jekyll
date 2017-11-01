@@ -1,9 +1,9 @@
 _id: a5bbde2f-dba6-490b-8e31-0c6a3a288de2
 _parent: /projects/esp8266-nodemcu-dht22-custom-modules-firmware/
-message: ""I have tried several combinations of modules and finally it worked with combinations of modules: adc,bit,crypto,dht,enduser_setup,file,gpio,http,i2c,mdns,mqtt,net,node,ow,pwm,sntp,spi,tmr,uart,wifi.\n\nThanks for your reply.""
+message: "I have tried several combinations of modules and finally it worked with combinations of modules: adc,bit,crypto,dht,enduser_setup,file,gpio,http,i2c,mdns,mqtt,net,node,ow,pwm,sntp,spi,tmr,uart,wifi.\n\nThanks for your reply."
 name: ender
 email: 1c3294f734151824bc04cc277a7b9bd5
 url: ''
-replying_to: ''
+replying_to: '0b06eb17-6ba8-4cc8-a8ef-b2f9faae580e'
 hidden: ''
 date: '2016-08-02T07:38:03.000Z'

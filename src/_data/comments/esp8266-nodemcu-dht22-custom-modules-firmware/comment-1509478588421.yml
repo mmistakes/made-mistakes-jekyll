@@ -1,9 +1,9 @@
 _id: 0512fb07-0418-483c-8217-0805dcd304ff
 _parent: /projects/esp8266-nodemcu-dht22-custom-modules-firmware/
-message: ""Hi Patrick\n\nTry modifying `user.lua` by adding `tmr.stop(0)` right after the line `if wifi.sta.status() == 5 then`. If that does not work you could try changing `tmr.alarm(0, 100, 1, function() loop() end)` to `tmr.alarm(0, 1000, 1, function() loop() end)`. Since you get an already connected error that might solve it\n\n/Poul""
+message: "Hi Patrick\n\nTry modifying `user.lua` by adding `tmr.stop(0)` right after the line `if wifi.sta.status() == 5 then`. If that does not work you could try changing `tmr.alarm(0, 100, 1, function() loop() end)` to `tmr.alarm(0, 1000, 1, function() loop() end)`. Since you get an already connected error that might solve it\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: 'b290a0c8-8be2-4477-907a-01016cd51697'
 hidden: ''
 date: '2016-02-27T10:33:09.000Z'
