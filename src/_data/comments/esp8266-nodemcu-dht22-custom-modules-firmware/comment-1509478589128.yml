@@ -1,9 +1,9 @@
 _id: 54a432cf-eee1-4f16-8a90-89ee0ba73f17
 _parent: /projects/esp8266-nodemcu-dht22-custom-modules-firmware/
-message: ""Hi Sonny\n\nGreat that you can use my code! I have written a new post [here](/projects/esp8266-nodemcu-dht22-thingspeak/){:rel="nofollow"} with a guide on how to upload to ThingSpeak instead. Do you need the code to both upload to a MQTT server and ThingSpeak, or just ThingSpeak?\n\n/Poul""
+message: "Hi Sonny\n\nGreat that you can use my code! I have written a new post [here](/projects/esp8266-nodemcu-dht22-thingspeak/){:rel=\"nofollow\"} with a guide on how to upload to ThingSpeak instead. Do you need the code to both upload to a MQTT server and ThingSpeak, or just ThingSpeak?\n\n/Poul"
 name: Poul Serek
 email: e6be5d980c3d3bf678630477e6452916
 url: https://odd-one-out.serek.eu
-replying_to: ''
+replying_to: '3c95515b-7e13-40df-82a7-2a30d184e801'
 hidden: ''
 date: '2016-03-19T18:04:04.000Z'
