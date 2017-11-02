@@ -81,7 +81,7 @@ For Litecoin mining I have bought four AMD Radeon graphic cards since these are 
 * [Corsair AX1200](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Corsair+AX1200&tag=oddoneout0a-20){:rel="nofollow"} 1200 watt powersupply ~ 330 USD
 * 4GB DDR3 memory ~ 60 USD
 * Intel Celeron G470 CPU ~ 52 USD
-* 4x Powered PCI-E 1x &ndash; 16x Riser Cable with Molex ~ 35 USD
+* 4x Powered PCI-E 1x - 16x Riser Cable with Molex ~ 35 USD
 * [MSI Z77A-G45](https://www.amazon.com/dp/B007QWIA9S/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B007QWIA9S"} motherboard ~ 125 USD
 * [2x 200mm case fans](https://www.amazon.com/dp/B000V6FKGM/?tag=oddoneout0a-20){:rel="nofollow" data-amazon-asin="[de][uk][us][es][it][fr][ca]B000V6FKGM"} ~ 55 USD
 * 1x 8 mm case fan ~ 10 USD
@@ -157,7 +157,7 @@ Multipool uses and algorithm similar to the following sites to take into account
 * [CoinWarz](http://www.coinwarz.com/cryptocurrency)
 * CoinChoose
 
-{% include notice 
+{% include notice
   type = "danger"
   content = "**A word of caution** when using mining profitability calculators found on many of these sites. Most do not take into account the constant rise in mining difficulty, which can be several percent a day! So take that into consideration if you want to get into the mining business."
  %}
