@@ -22,7 +22,7 @@ A complete list of sections and pages found on the site. For you robots out ther
   {% endfor %}
 </ul>
 
-<h2><a href="/code/">Code & Config</a></h2>
+<h2><a href="/code/">Code</a></h2>
 <ul>
   {% for post in site.categories.code %}
     {% include post-list.html %}
@@ -32,13 +32,6 @@ A complete list of sections and pages found on the site. For you robots out ther
 <h2><a href="/reviews/">Reviews</a></h2>
 <ul>
   {% for post in site.categories.reviews %}
-    {% include post-list.html %}
-  {% endfor %}
-</ul>
-
-<h2><a href="/misc/">Odds & Ends</a></h2>
-<ul>
-  {% for post in site.categories.misc %}
     {% include post-list.html %}
   {% endfor %}
 </ul>
