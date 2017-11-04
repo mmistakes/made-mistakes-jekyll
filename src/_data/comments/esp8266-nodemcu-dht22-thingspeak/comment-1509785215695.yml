@@ -1,0 +1,9 @@
+_id: 1d15f834-3623-4363-8dea-8a174a870918
+_parent: /projects/esp8266-nodemcu-dht22-thingspeak/
+message: "Great stuff and love your Oled tutorial.\n\nRather than post to MQTT, how can I get the temp reading to be shown on an Oled display? Can't find how to do this in Lua only Arduino.\n\nKeep up the great work!"
+name: Simon
+email: 25d900711612d0a51c598f7d599df4f7
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-10-05T11:50:46.000Z'

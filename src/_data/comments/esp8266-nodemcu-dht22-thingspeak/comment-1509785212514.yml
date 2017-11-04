@@ -1,0 +1,9 @@
+_id: ad110211-557c-45d9-bc95-3bfd78fba344
+_parent: /projects/esp8266-nodemcu-dht22-thingspeak/
+message: "Hi Poul,\n\nI have a Lolin nodeMCU V3 board and I have custom flashed the board and have included all your mentioned modules. The only thing connected is a DHT22 sensor module on D2 and have connected D0 to RST.  \nI have uploaded your code to `init.lua`, but I'm not seeing any data on my thingspeak channel.  \nI've run init.lua while connected to ESPlorer and I'm getting the following error:  \n> dofile(\"init.lua\")  \ninit.lua:54: 'end' expected (to close 'function' at line 52) near ''\n\nCould you help me fix this?"
+name: Raz
+email: a7e42b8b3f57edfffa8e4829f4be8fb3
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-07-04T18:40:12.000Z'

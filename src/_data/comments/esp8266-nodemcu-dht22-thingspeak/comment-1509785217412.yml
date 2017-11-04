@@ -1,0 +1,9 @@
+_id: 37dc93ec-f10b-4117-8fbc-8aece3881ffa
+_parent: /projects/esp8266-nodemcu-dht22-thingspeak/
+message: "Thanks Poul,\n\nIn fact I deleted the last line `tmr.alarm(1,4000,1,function() node.dsleep(time_between_sensor_readings*1000) end)` but did modify did `tmr.alarm(0, 100, 1, function() loop() end)` to `tmr.alarm(0, 2000, 1, function() loop() end)` as you suggested as this allows a smoother connection of the wifi (with the last line it stopped connecting or took too long.)\n\nAlso, got the values reading properly by changing the lines in the Thingspeak connection section to the following:\n\n\"&field1=\" .. temp ..\n\n\"&field2=\" .. humi .. \n\nI am using the current v1.5 master firmware which could be why these tweaks were needed.\n\nHope this helps others :)\n\nSimon"
+name: simon
+email: 25d900711612d0a51c598f7d599df4f7
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-10-06T20:40:14.000Z'

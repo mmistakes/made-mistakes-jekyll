@@ -1,0 +1,9 @@
+_id: e0e5b73a-770f-4fe1-b9a0-14865ff931c5
+_parent: /projects/esp8266-nodemcu-dht22-thingspeak/
+message: "I have used your code as a basis for a monitor I built for my Polytunnel which posts over MQTT to a self-hosted mosquito broker. Thanks for the code - it helped me a lot!\n\nI recently discovered a bug though - if the temperature falls below 0, using the Integer build of NodeMCU means that your temperature string ends up reading something like 0.-2 or, even worse, -1.-2.\n\nI tried a few things to sort it but, frankly, it was giving me a headache so I replaced the image with the floating point build so I didn't need to parse the temp string at all.\n\nHope this is helpful and thanks again for publishing your code"
+name: Alan
+email: 1d373e9d8483b89a20df412881bd7e8b
+url: ''
+replying_to: ''
+hidden: ''
+date: '2016-04-18T17:17:14.000Z'
