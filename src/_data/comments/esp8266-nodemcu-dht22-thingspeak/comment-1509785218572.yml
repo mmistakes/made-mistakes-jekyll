@@ -1,9 +1,9 @@
 _id: 1c3c8142-0d6d-44c6-aa57-fbe9078013ae
 _parent: /projects/esp8266-nodemcu-dht22-thingspeak/
-message: "Hey all, I am receiving this error;  \n```terminal\r\n> Connecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nTemperature: 17.8 deg C  \nHumidity: 67.2%  \nPosted OK to ThingSpeak  \nPANIC: unprotected error in call to Lua API (init.lua:110: not connected)```\n\nIs anyone able to help? I'm not great at this but giving it a go.  \nThanks."
+message: "Hey all, I am receiving this error;\r\n```terminal\r\n> Connecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nConnecting...  \nTemperature: 17.8 deg C  \nHumidity: 67.2%  \nPosted OK to ThingSpeak  \nPANIC: unprotected error in call to Lua API (init.lua:110: not connected)\r\n```\n\nIs anyone able to help? I'm not great at this but giving it a go.  \nThanks."
 name: Brendan
 email: e809a2e737ed338127bcf782ec3e05be
 url: ''
-replying_to: ''
+replying_to: '8bb48836-c094-4d4f-bc69-f2c16ff43cd5'
 hidden: ''
 date: '2017-06-23T23:18:28.000Z'

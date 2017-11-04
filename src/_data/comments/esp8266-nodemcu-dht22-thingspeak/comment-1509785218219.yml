@@ -1,6 +1,6 @@
 _id: 8bb48836-c094-4d4f-bc69-f2c16ff43cd5
 _parent: /projects/esp8266-nodemcu-dht22-thingspeak/
-message: "Is anyone able to help, i'm receiving this error;  \nPANIC: unprotected error in call to Lua API (`user.lua:110: not connected`)  \nNot that greatest at this stuff but I'm giving it a go.  \nLove the tutorial by the way."
+message: "Is anyone able to help, i'm receiving this error;\r\n```terminal\r\nPANIC: unprotected error in call to Lua API (`user.lua:110: not connected`)\r\n```\n\nNot that greatest at this stuff but I'm giving it a go.  \nLove the tutorial by the way."
 name: Brendan
 email: e809a2e737ed338127bcf782ec3e05be
 url: ''
