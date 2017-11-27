@@ -12,15 +12,13 @@ PaperFaces avatar portrait of <a href="http://twitter.com/chrishnry">@chrishnry<
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-chrishnry-process-1-lg.jpg"><img src="/assets/images/paperfaces-chrishnry-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Sketching with the pencil.</figcaption>
-</figure>
+{% figure caption:"Sketching with the pencil." %}
+[![](/assets/images/paperfaces-chrishnry-process-1-750.jpg)](/assets/images/paperfaces-chrishnry-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-chrishnry-process-2-lg.jpg"><img src="/assets/images/paperfaces-chrishnry-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-chrishnry-process-3-lg.jpg"><img src="/assets/images/paperfaces-chrishnry-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-chrishnry-process-4-lg.jpg"><img src="/assets/images/paperfaces-chrishnry-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-chrishnry-process-5-lg.jpg"><img src="/assets/images/paperfaces-chrishnry-process-5-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"half" %}
+[![](/assets/images/paperfaces-chrishnry-process-2-600.jpg)](/assets/images/paperfaces-chrishnry-process-2-lg.jpg)
+[![](/assets/images/paperfaces-chrishnry-process-3-600.jpg)](/assets/images/paperfaces-chrishnry-process-3-lg.jpg)
+[![](/assets/images/paperfaces-chrishnry-process-4-600.jpg)](/assets/images/paperfaces-chrishnry-process-4-lg.jpg)
+[![](/assets/images/paperfaces-chrishnry-process-5-600.jpg)](/assets/images/paperfaces-chrishnry-process-5-lg.jpg)
+{% endfigure %}

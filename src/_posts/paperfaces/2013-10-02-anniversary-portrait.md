@@ -8,14 +8,13 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, romance, beard]
 ---
 
-Nothing says romance quite like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](http://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."
+Nothing says romance quite like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](https://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/roycroft-wedding-1-lg.jpg"><img src="/assets/images/roycroft-wedding-1.jpg" alt="The bride"></a>
-	<a href="/assets/images/roycroft-wedding-2.jpg"><img src="/assets/images/roycroft-wedding-2.jpg" alt="Kissing"></a>
-	<a href="/assets/images/roycroft-wedding-3.jpg"><img src="/assets/images/roycroft-wedding-3.jpg" alt="Wedding tea favors"></a>
-	<a href="/assets/images/roycroft-wedding-4.jpg"><img src="/assets/images/roycroft-wedding-4.jpg" alt="Cutting the vegan cake"></a>
-	<figcaption>My only regret is not hiring a professional photographer to document the occassion.</figcaption>
-</figure>
+{% figure caption:"My only regret is not hiring a professional photographer to document the occasion." class:"half" %}
+[![The bride](/assets/images/roycroft-wedding-1.jpg)](/assets/images/roycroft-wedding-1-lg.jpg)
+[![Kissing](/assets/images/roycroft-wedding-2.jpg)](/assets/images/roycroft-wedding-2.jpg)
+[![Wedding tea favors](/assets/images/roycroft-wedding-3.jpg)](/assets/images/roycroft-wedding-3.jpg)
+[![Cutting the vegan cake](/assets/images/roycroft-wedding-4.jpg)](/assets/images/roycroft-wedding-4.jpg)
+{% endfigure %}

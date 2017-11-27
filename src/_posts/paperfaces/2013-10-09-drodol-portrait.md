@@ -12,10 +12,9 @@ PaperFaces avatar portrait of <a href="http://twitter.com/Drodol">@Drodol</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-drodol-process-1-lg.jpg"><img src="/assets/images/paperfaces-drodol-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-drodol-process-2-lg.jpg"><img src="/assets/images/paperfaces-drodol-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-drodol-process-3-lg.jpg"><img src="/assets/images/paperfaces-drodol-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-drodol-process-4-lg.jpg"><img src="/assets/images/paperfaces-drodol-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+[![](/assets/images/paperfaces-drodol-process-1-600.jpg)](/assets/images/paperfaces-drodol-process-1-lg.jpg)
+[![](/assets/images/paperfaces-drodol-process-2-600.jpg)](/assets/images/paperfaces-drodol-process-2-lg.jpg)
+[![](/assets/images/paperfaces-drodol-process-3-600.jpg)](/assets/images/paperfaces-drodol-process-3-lg.jpg)
+[![](/assets/images/paperfaces-drodol-process-4-600.jpg)](/assets/images/paperfaces-drodol-process-4-lg.jpg)
+{% endfigure %}
