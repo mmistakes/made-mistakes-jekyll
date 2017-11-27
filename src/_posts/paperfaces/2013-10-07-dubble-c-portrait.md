@@ -21,4 +21,4 @@ PaperFaces avatar portrait of <a href="https://twitter.com/Dubble_C">@Dubble_C</
 [![](/assets/images/paperfaces-dubble-c-process-3-600.jpg)](/assets/images/paperfaces-dubble-c-process-3-lg.jpg)
 [![](/assets/images/paperfaces-dubble-c-process-4-600.jpg)](/assets/images/paperfaces-dubble-c-process-4-lg.jpg)
 [![](/assets/images/paperfaces-dubble-c-process-5-600.jpg)](/assets/images/paperfaces-dubble-c-process-5-lg.jpg)
-{% endfigure %
+{% endfigure %}

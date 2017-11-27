@@ -14,7 +14,7 @@ PaperFaces avatar portrait of <a href="https://twitter.com/clepetit">@clepetit</
 
 {% figure caption:"Painting the background with many layers of watercolor." %}
 [![Work in process screenshot](/assets/images/paperfaces-clepetit-process-1-750.jpg)](/assets/images/paperfaces-clepetit-process-1-lg.jpg)
-{% endfigure %
+{% endfigure %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
 [![](/assets/images/paperfaces-clepetit-process-2-600.jpg)](/assets/images/paperfaces-clepetit-process-2-lg.jpg)

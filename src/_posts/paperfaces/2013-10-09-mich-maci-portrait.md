@@ -14,7 +14,7 @@ PaperFaces avatar portrait of <a href="https://twitter.com/mich-maci">@mich-maci
 
 {% figure caption:"Building off a pencil sketch with water color." %}
 [![Work in process screenshot](/assets/images/paperfaces-mich-maci-process-1-750.jpg)](/assets/images/paperfaces-mich-maci-process-1-lg.jpg)
-{% enfigure %}
+{% endfigure %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
 [![](/assets/images/paperfaces-mich-maci-process-2-600.jpg)](/assets/images/paperfaces-mich-maci-process-2-lg.jpg)
