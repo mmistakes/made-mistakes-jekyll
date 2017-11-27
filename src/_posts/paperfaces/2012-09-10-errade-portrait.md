@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@errade](http://twitter.com/errade).
+PaperFaces portrait of project donator [@errade](https://twitter.com/errade).
 
 {% include boilerplate/paperfaces.md %}

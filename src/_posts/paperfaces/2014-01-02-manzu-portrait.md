@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
-PaperFaces portrait of [@manzu](http://twitter.com/manzu).
+PaperFaces portrait of [@manzu](https://twitter.com/manzu).
 
 {% include boilerplate/paperfaces-4.md %}
 

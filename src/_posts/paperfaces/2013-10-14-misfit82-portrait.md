@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-*I want your skulls --- I need your skulls.* PaperFaces avatar portrait of [@misfit82](http://twitter.com/misfit82).
+*I want your skulls --- I need your skulls.* PaperFaces avatar portrait of [@misfit82](https://twitter.com/misfit82).
 
 {% include boilerplate/paperfaces-2.md %}
 

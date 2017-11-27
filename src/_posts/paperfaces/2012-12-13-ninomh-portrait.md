@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ninoMH](http://twitter.com/ninoMH).
+PaperFaces portrait of [@ninoMH](https://twitter.com/ninoMH).
 
 {% include boilerplate/paperfaces.md %}

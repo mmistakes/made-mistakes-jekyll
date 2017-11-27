@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@geekbabe](http://twitter.com/geekbabe).
+PaperFaces portrait of [@geekbabe](https://twitter.com/geekbabe).
 
 {% include boilerplate/paperfaces.md %}

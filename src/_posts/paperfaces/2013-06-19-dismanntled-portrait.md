@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, landscape]
 ---
 
-PaperFaces portrait of [@dismanntled](http://twitter.com/dismanntled).
+PaperFaces portrait of [@dismanntled](https://twitter.com/dismanntled).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/Dubble_C">@Dubble_C</a>.
+PaperFaces avatar portrait of <a href="https://twitter.com/Dubble_C">@Dubble_C</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

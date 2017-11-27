@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T13:02:38-05:00
 ---
 
-PaperFaces portrait of [@BZHgeek](http://twitter.com/BZHgeek).
+PaperFaces portrait of [@BZHgeek](https://twitter.com/BZHgeek).
 
 {% include boilerplate/paperfaces-2.md %}
 

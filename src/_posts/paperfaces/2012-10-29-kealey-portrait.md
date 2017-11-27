@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@kealey](http://twitter.com/kealey).
+PaperFaces portrait of [@kealey](https://twitter.com/kealey).
 
 {% include boilerplate/paperfaces.md %}

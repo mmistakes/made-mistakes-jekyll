@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:35:08-05:00
 ---
 
-PaperFaces portrait of [@chronic](http://twitter.com/chronic).
+PaperFaces portrait of [@chronic](https://twitter.com/chronic).
 
 {% include boilerplate/paperfaces-2.md %}
 

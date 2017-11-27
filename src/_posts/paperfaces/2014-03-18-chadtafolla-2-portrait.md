@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:27:17-05:00
 ---
 
-PaperFaces portrait of [@chadtafolla](http://twitter.com/chadtafolla).
+PaperFaces portrait of [@chadtafolla](https://twitter.com/chadtafolla).
 
 {% include boilerplate/paperfaces-2.md %}
 

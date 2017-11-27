@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Lisablackler](http://twitter.com/Lisablackler).
+PaperFaces portrait of [@Lisablackler](https://twitter.com/Lisablackler).
 
 {% include boilerplate/paperfaces.md %}

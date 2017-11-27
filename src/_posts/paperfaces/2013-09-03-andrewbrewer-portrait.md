@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@andrewbrewer](http://twitter.com/andrewbrewer).
+PaperFaces portrait of [@andrewbrewer](https://twitter.com/andrewbrewer).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@kennwhite](http://twitter.com/kennwhite).
+PaperFaces portrait of project donator [@kennwhite](https://twitter.com/kennwhite).
 
 {% include boilerplate/paperfaces.md %}

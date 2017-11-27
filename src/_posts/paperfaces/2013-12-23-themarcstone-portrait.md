@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
-PaperFaces portrait commission for [@TheMarcStone](http://twitter.com/TheMarcStone).
+PaperFaces portrait commission for [@TheMarcStone](https://twitter.com/TheMarcStone).
 
 {% include boilerplate/paperfaces-4.md %}
 

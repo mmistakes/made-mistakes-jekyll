@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@jamesslock](http://twitter.com/jamesslock).
+PaperFaces portrait of [@jamesslock](https://twitter.com/jamesslock).
 
 {% include boilerplate/paperfaces.md %}

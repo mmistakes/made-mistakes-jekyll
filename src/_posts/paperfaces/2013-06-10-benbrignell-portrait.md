@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@benbrignell](http://twitter.com/benbrignell).
+PaperFaces portrait of [@benbrignell](https://twitter.com/benbrignell).
 
 {% include boilerplate/paperfaces-2.md %}
 

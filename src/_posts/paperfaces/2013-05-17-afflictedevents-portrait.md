@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@afflictedevents](http://twitter.com/afflictedevents).
+PaperFaces portrait of project donator [@afflictedevents](https://twitter.com/afflictedevents).
 
 {% include boilerplate/paperfaces.md %}

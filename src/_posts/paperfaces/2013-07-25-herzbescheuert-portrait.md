@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@herzbescheuert](http://twitter.com/herzbescheuert). Another faceless portrait of a girl with long hair. Bored of these yet?
+PaperFaces portrait of [@herzbescheuert](https://twitter.com/herzbescheuert). Another faceless portrait of a girl with long hair. Bored of these yet?
 
 {% include boilerplate/paperfaces-2.md %}
 

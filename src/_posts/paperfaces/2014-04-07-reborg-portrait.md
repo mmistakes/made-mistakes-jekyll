@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:10:21-05:00
 ---
 
-PaperFaces portrait of [@reborg](http://twitter.com/reborg).
+PaperFaces portrait of [@reborg](https://twitter.com/reborg).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -135,4 +135,4 @@ With practice you'll eventually find that you won't need the grid anymore and ca
   <figcaption>Here's how the drawing turned out after I painted layers of watercolor and added details with the pencil tool.</figcaption>
 </figure>
 
-As always, hit me up on [Twitter](http://twitter.com/mmistakes) or in the comments below if you have a question or need further clarification.
+As always, hit me up on [Twitter](https://twitter.com/mmistakes) or in the comments below if you have a question or need further clarification.

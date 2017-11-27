@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@the_boii](http://twitter.com/the_boii).
+PaperFaces portrait of [@the_boii](https://twitter.com/the_boii).
 
 {% include boilerplate/paperfaces.md %}

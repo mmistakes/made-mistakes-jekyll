@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@floraworks](http://twitter.com/floraworks).
+PaperFaces portrait of [@floraworks](https://twitter.com/floraworks).
 
 {% include boilerplate/paperfaces-2.md %}
 

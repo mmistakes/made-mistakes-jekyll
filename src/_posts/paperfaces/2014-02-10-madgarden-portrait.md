@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@madgarden](http://twitter.com/madgarden).
+PaperFaces portrait of [@madgarden](https://twitter.com/madgarden).
 
 {% include boilerplate/paperfaces-2.md %}
 

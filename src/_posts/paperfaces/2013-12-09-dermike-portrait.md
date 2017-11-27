@@ -13,7 +13,7 @@ Decided to put some time in with 53's new Pencil stylus and experiment with the 
 
 Mental note: a little Blend goes a long way.
 
-PaperFaces portrait of <a href="http://twitter.com/dermike">@dermike</a>.
+PaperFaces portrait of <a href="https://twitter.com/dermike">@dermike</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

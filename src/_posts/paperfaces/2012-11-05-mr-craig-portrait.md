@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@mr_craig](http://twitter.com/mr_craig).
+PaperFaces portrait of [@mr_craig](https://twitter.com/mr_craig).
 
 {% include boilerplate/paperfaces.md %}

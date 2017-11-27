@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, bokeh, beard]
 ---
 
-PaperFaces portrait of [@weheartgames](http://twitter.com/weheartgames).
+PaperFaces portrait of [@weheartgames](https://twitter.com/weheartgames).
 
 {% include boilerplate/paperfaces-4.md %}
 

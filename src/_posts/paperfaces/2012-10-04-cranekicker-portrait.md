@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@cranekicker](http://twitter.com/cranekicker).
+PaperFaces portrait of [@cranekicker](https://twitter.com/cranekicker).
 
 {% include boilerplate/paperfaces.md %}

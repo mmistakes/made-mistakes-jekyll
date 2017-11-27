@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@toph](http://twitter.com/toph).
+PaperFaces portrait of [@toph](https://twitter.com/toph).
 
 {% include boilerplate/paperfaces-2.md %}
 

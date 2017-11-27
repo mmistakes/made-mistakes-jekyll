@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/TheBrendanBrown">@TheBrendanBrown</a>.
+PaperFaces portrait of <a href="https://twitter.com/TheBrendanBrown">@TheBrendanBrown</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

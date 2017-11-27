@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, bokeh, blend]
 ---
 
-PaperFaces portrait of [@twnsndco](http://twitter.com/twnsndco).
+PaperFaces portrait of [@twnsndco](https://twitter.com/twnsndco).
 
 {% include boilerplate/paperfaces-4.md %}
 

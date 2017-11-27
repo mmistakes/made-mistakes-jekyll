@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@cynthia](http://twitter.com/cynthia).
+PaperFaces portrait of [@cynthia](https://twitter.com/cynthia).
 
 {% include boilerplate/paperfaces.md %}

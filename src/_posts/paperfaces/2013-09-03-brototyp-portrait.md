@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@brototyp](http://twitter.com/brototyp).
+PaperFaces portrait of [@brototyp](https://twitter.com/brototyp).
 
 {% include boilerplate/paperfaces-2.md %}
 

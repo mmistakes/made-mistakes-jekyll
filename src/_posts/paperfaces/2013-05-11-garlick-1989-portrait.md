@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Garlick_1989](http://twitter.com/Garlick_1989).
+PaperFaces portrait of [@Garlick_1989](https://twitter.com/Garlick_1989).
 
 {% include boilerplate/paperfaces.md %}

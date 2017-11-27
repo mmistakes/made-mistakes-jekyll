@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@slicknet](http://twitter.com/slicknet).
+PaperFaces portrait of [@slicknet](https://twitter.com/slicknet).
 
 {% include boilerplate/paperfaces.md %}

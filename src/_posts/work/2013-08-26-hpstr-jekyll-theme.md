@@ -77,7 +77,7 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
+Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
 
 ## License
 

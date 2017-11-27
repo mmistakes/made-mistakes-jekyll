@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait of [@bi11jon](http://twitter.com/bi11jon).
+PaperFaces portrait of [@bi11jon](https://twitter.com/bi11jon).
 
 {% include boilerplate/paperfaces.md %}
 

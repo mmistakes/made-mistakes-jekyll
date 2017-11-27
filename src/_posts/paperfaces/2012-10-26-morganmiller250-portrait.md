@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@morganmiller250](http://twitter.com/morganmiller250).
+PaperFaces portrait of [@morganmiller250](https://twitter.com/morganmiller250).
 
 {% include boilerplate/paperfaces.md %}

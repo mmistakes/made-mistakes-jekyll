@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@gaptone](http://twitter.com/gaptone).
+PaperFaces portrait of [@gaptone](https://twitter.com/gaptone).
 
 {% include boilerplate/paperfaces.md %}

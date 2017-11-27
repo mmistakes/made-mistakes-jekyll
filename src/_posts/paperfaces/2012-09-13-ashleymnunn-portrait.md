@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ashleymnunn](http://twitter.com/ashleymnunn).
+PaperFaces portrait of [@ashleymnunn](https://twitter.com/ashleymnunn).
 
 {% include boilerplate/paperfaces.md %}

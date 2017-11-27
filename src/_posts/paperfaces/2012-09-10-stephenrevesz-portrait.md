@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@stephenrevesz](http://twitter.com/stephenrevesz).
+PaperFaces portrait of [@stephenrevesz](https://twitter.com/stephenrevesz).
 
 PS. Thanks for the Dribbble invite dude!
 

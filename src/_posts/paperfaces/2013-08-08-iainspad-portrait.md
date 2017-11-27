@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@iainspad](http://twitter.com/iainspad). Up the punx.
+PaperFaces portrait of [@iainspad](https://twitter.com/iainspad). Up the punx.
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@aripalo](http://twitter.com/aripalo).
+PaperFaces portrait of [@aripalo](https://twitter.com/aripalo).
 
 {% include boilerplate/paperfaces.md %}

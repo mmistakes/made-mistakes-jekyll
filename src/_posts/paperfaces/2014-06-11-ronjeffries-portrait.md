@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@RonJeffries](http://twitter.com/RonJeffries).
+PaperFaces portrait of [@RonJeffries](https://twitter.com/RonJeffries).
 
 {% include boilerplate/paperfaces-2.md %}
 

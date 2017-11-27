@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@melissabalkon](http://twitter.com/melissabalkon) holding a boxing stance.
+PaperFaces portrait of [@melissabalkon](https://twitter.com/melissabalkon) holding a boxing stance.
 
 {% include boilerplate/paperfaces-2.md %}
 

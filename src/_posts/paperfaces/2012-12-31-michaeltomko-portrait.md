@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@michaeltomko](http://twitter.com/michaeltomko).
+PaperFaces portrait of [@michaeltomko](https://twitter.com/michaeltomko).
 
 {% include boilerplate/paperfaces.md %}

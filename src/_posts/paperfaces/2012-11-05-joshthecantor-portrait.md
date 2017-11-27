@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@joshthecantor](http://twitter.com/joshthecantor).
+PaperFaces portrait of [@joshthecantor](https://twitter.com/joshthecantor).
 
 {% include boilerplate/paperfaces.md %}

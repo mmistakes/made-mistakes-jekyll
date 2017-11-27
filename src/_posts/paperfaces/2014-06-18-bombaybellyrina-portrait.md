@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@BombayBellyrina](http://twitter.com/BombayBellyrina).
+PaperFaces portrait of [@BombayBellyrina](https://twitter.com/BombayBellyrina).
 
 {% include boilerplate/paperfaces-2.md %}
 

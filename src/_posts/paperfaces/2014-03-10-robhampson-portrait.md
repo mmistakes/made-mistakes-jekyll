@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:33:25-05:00
 ---
 
-PaperFaces portrait of [@robhampson](http://twitter.com/robhampson).
+PaperFaces portrait of [@robhampson](https://twitter.com/robhampson).
 
 {% include boilerplate/paperfaces-2.md %}
 

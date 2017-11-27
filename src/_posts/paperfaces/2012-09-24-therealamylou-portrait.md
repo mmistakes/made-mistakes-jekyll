@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@therealamylou](http://twitter.com/therealamylou).
+PaperFaces portrait of project donator [@therealamylou](https://twitter.com/therealamylou).
 
 {% include boilerplate/paperfaces.md %}

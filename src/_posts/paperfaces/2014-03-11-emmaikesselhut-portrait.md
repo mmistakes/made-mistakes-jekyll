@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:31:42-05:00
 ---
 
-PaperFaces portrait of [@EmmaIKesselhut](http://twitter.com/EmmaIKesselhut).
+PaperFaces portrait of [@EmmaIKesselhut](https://twitter.com/EmmaIKesselhut).
 
 {% include boilerplate/paperfaces-2.md %}
 

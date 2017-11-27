@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@simonbusborg](http://twitter.com/simonbusborg).
+PaperFaces portrait of [@simonbusborg](https://twitter.com/simonbusborg).
 
 {% include boilerplate/paperfaces-2.md %}
 

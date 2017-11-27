@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@Alasdair91](http://twitter.com/alasdair91).
+PaperFaces portrait of [@Alasdair91](https://twitter.com/alasdair91).
 
 {% include boilerplate/paperfaces-2.md %}
 

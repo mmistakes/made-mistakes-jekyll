@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait commission of [@und_O](http://twitter.com/und_O).
+PaperFaces portrait commission of [@und_O](https://twitter.com/und_O).
 
 {% include boilerplate/paperfaces-2.md %}
 

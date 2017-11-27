@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait portrait of [@JMarkMueller](http://twitter.com/JMarkMueller).
+PaperFaces portrait portrait of [@JMarkMueller](https://twitter.com/JMarkMueller).
 
 {% include boilerplate/paperfaces-2.md %}
 

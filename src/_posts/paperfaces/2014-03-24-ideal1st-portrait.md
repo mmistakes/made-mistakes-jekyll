@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, blend]
 last_modified_at: 2017-01-17T14:23:35-05:00
 ---
 
-PaperFaces portrait of [@ideal1st](http://twitter.com/ideal1st).
+PaperFaces portrait of [@ideal1st](https://twitter.com/ideal1st).
 
 {% include boilerplate/paperfaces-4.md %}
 

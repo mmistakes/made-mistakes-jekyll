@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@suhairykz](http://twitter.com/suhairykz).
+PaperFaces portrait of [@suhairykz](https://twitter.com/suhairykz).
 
 {% include boilerplate/paperfaces.md %}

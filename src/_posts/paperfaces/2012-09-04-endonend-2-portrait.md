@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@endonend](http://twitter.com/endonend).
+PaperFaces portrait of [@endonend](https://twitter.com/endonend).
 
 {% include boilerplate/paperfaces.md %}

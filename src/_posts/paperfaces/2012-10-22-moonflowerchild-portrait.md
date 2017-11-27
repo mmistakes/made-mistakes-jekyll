@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@moonflowerchild](http://twitter.com/moonflowerchild).
+PaperFaces portrait of [@moonflowerchild](https://twitter.com/moonflowerchild).
 
 {% include boilerplate/paperfaces.md %}

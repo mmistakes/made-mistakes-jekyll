@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, blend, beard]
 last_modified_at: 2017-01-17T15:57:55-05:00
 ---
 
-PaperFaces portrait of [@theoduscrane](http://twitter.com/theoduscrane).
+PaperFaces portrait of [@theoduscrane](https://twitter.com/theoduscrane).
 
 {% include boilerplate/paperfaces-4.md %}
 

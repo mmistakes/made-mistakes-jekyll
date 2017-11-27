@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@tomasmalmsten](http://twitter.com/tomasmalmsten).
+PaperFaces portrait of [@tomasmalmsten](https://twitter.com/tomasmalmsten).
 
 {% include boilerplate/paperfaces-2.md %}
 

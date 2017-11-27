@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@jmkcc](http://twitter.com/jmkcc). Skyscapes are some of my favorite scapes to draw with Paper by 53.
+PaperFaces portrait of [@jmkcc](https://twitter.com/jmkcc). Skyscapes are some of my favorite scapes to draw with Paper by 53.
 
 {% include boilerplate/paperfaces-2.md %}

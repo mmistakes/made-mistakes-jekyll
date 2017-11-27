@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:20:01-05:00
 ---
 
-PaperFaces portrait commission of [@lisaorye](http://twitter.com/lisaorye).
+PaperFaces portrait commission of [@lisaorye](https://twitter.com/lisaorye).
 
 {% include boilerplate/paperfaces-2.md %}
 

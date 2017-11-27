@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/WarrenTalmarkes">@WarrenTalmarkes</a>.
+PaperFaces avatar portrait of <a href="https://twitter.com/WarrenTalmarkes">@WarrenTalmarkes</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Google Glass]
 ---
 
-PaperFaces portrait of [@fighto](http://twitter.com/fighto). Who would have thought I would be illustrating so many Google Glass early adopters?
+PaperFaces portrait of [@fighto](https://twitter.com/fighto). Who would have thought I would be illustrating so many Google Glass early adopters?
 
 {% include boilerplate/paperfaces-2.md %}
 

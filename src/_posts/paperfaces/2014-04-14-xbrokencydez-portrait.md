@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:06:18-05:00
 ---
 
-PaperFaces portrait of [@xbrokencydez](http://twitter.com/xbrokencydez).
+PaperFaces portrait of [@xbrokencydez](https://twitter.com/xbrokencydez).
 
 {% include boilerplate/paperfaces-2.md %}
 

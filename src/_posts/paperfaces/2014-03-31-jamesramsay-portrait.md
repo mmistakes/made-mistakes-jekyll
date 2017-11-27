@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, landscape]
 last_modified_at: 2017-01-17T14:18:25-05:00
 ---
 
-PaperFaces portrait of [@JamesRamsay](http://twitter.com/JamesRamsay).
+PaperFaces portrait of [@JamesRamsay](https://twitter.com/JamesRamsay).
 
 {% include boilerplate/paperfaces-2.md %}
 

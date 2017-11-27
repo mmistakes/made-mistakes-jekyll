@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@SarahEWells](http://twitter.com/sarahewells).
+PaperFaces portrait of [@SarahEWells](https://twitter.com/sarahewells).
 
 {% include boilerplate/paperfaces-2.md %}
 

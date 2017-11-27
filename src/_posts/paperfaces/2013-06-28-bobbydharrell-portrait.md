@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@bobbydharrell](http://twitter.com/bobbydharrell).
+PaperFaces portrait of project donator [@bobbydharrell](https://twitter.com/bobbydharrell).
 
 {% include boilerplate/paperfaces-2.md %}
 

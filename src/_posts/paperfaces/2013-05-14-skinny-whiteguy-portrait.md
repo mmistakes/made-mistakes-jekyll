@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@skinny_whiteguy](http://twitter.com/skinny_whiteguy).
+PaperFaces portrait of [@skinny_whiteguy](https://twitter.com/skinny_whiteguy).
 
 {% include boilerplate/paperfaces.md %}

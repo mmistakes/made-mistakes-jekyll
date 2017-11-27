@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@MattAbbo](http://twitter.com/mattabbo).
+PaperFaces portrait of [@MattAbbo](https://twitter.com/mattabbo).
 
 {% include boilerplate/paperfaces-2.md %}
 

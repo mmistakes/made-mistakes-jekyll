@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@ashtonjames](http://twitter.com/ashtonjames).
+PaperFaces portrait of [@ashtonjames](https://twitter.com/ashtonjames).
 
 {% include boilerplate/paperfaces.md %}

@@ -12,7 +12,7 @@ last_modified_at: 2017-01-17T16:14:36-05:00
 
 I merely added a few white highlights to the sunglasses and facial hair stubble, smudged the background, and bam --- instant photo realistic results. Looks even more convincing when shrunken down.
 
-PaperFaces portrait of [@cocoapriest](http://twitter.com/cocoapriest).
+PaperFaces portrait of [@cocoapriest](https://twitter.com/cocoapriest).
 
 {% include boilerplate/paperfaces-4.md %}
 

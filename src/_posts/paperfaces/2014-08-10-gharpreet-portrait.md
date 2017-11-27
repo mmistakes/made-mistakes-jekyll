@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@GHarpreet](http://twitter.com/gharpreet).
+PaperFaces portrait of [@GHarpreet](https://twitter.com/gharpreet).
 
 {% include boilerplate/paperfaces-2.md %}
 

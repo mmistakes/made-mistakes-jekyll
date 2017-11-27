@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@itonus](http://twitter.com/itonus).
+PaperFaces portrait of [@itonus](https://twitter.com/itonus).
 
 {% include boilerplate/paperfaces.md %}

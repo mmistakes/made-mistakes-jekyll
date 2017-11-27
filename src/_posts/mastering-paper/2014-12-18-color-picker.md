@@ -160,4 +160,4 @@ When I wrote my Mastering Paper guide for [drawing portraits]({% post_url /maste
 
 If you found this guide helpful stay tuned for the next one where I cover how the updated page fill feature works. I was going to include it in this guide but figured it would make more sense on its own.
 
-As always feel free to leave comments below, ask questions, or [follow me on Twitter](http://twitter.com/mmistakes) and the like (links below in the footer).
+As always feel free to leave comments below, ask questions, or [follow me on Twitter](https://twitter.com/mmistakes) and the like (links below in the footer).

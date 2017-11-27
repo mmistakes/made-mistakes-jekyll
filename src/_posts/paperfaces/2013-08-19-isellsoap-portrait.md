@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, trees]
 ---
 
-PaperFaces portrait of [@isellsoap](http://twitter.com/isellsoap).
+PaperFaces portrait of [@isellsoap](https://twitter.com/isellsoap).
 
 {% include boilerplate/paperfaces-2.md %}
 

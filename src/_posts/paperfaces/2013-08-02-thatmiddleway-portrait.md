@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@thatmiddleway](http://twitter.com/thatmiddleway).
+PaperFaces portrait of [@thatmiddleway](https://twitter.com/thatmiddleway).
 
 {% include boilerplate/paperfaces.md %}
 

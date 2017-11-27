@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Michael Rose, self portrait, beard, time lapse]
 ---
 
-Self portrait of [@mmistakes](http://twitter.com/mmistakes) (hey that's me) in an autumn field.
+Self portrait of [@mmistakes](https://twitter.com/mmistakes) (hey that's me) in an autumn field.
 
 {% include boilerplate/paperfaces.md %}
 

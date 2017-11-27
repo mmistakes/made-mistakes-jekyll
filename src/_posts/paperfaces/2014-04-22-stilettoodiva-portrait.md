@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T13:59:44-05:00
 ---
 
-PaperFaces portrait of [@StilettOoDiva](http://twitter.com/stilettoodiva).
+PaperFaces portrait of [@StilettOoDiva](https://twitter.com/stilettoodiva).
 
 {% include boilerplate/paperfaces-2.md %}
 

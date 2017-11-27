@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, trees]
 last_modified_at: 2017-01-17T16:09:29-05:00
 ---
 
-PaperFaces portrait of [@vinitkme](http://twitter.com/vinitkme).
+PaperFaces portrait of [@vinitkme](https://twitter.com/vinitkme).
 
 {% include boilerplate/paperfaces-2.md %}
 

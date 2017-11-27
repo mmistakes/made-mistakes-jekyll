@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@nett00n](http://twitter.com/Tnett00n).
+PaperFaces portrait of [@nett00n](https://twitter.com/Tnett00n).
 
 {% include boilerplate/paperfaces-2.md %}
 

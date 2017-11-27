@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T13:58:01-05:00
 ---
 
-PaperFaces portrait of [@ashyda](http://twitter.com/ashyda).
+PaperFaces portrait of [@ashyda](https://twitter.com/ashyda).
 
 {% include boilerplate/paperfaces-2.md %}
 

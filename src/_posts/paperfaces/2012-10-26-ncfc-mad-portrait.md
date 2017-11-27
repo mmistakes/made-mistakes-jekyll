@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@NCFC_Mad](http://twitter.com/NCFC_Mad).
+PaperFaces portrait of [@NCFC_Mad](https://twitter.com/NCFC_Mad).
 
 {% include boilerplate/paperfaces.md %}

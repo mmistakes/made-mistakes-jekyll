@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@prasad84](http://twitter.com/prasad84).
+PaperFaces portrait of [@prasad84](https://twitter.com/prasad84).
 
 {% include boilerplate/paperfaces.md %}

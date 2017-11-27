@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, black and white]
 ---
 
-PaperFaces portrait of [@steve_fenton](http://twitter.com/steve_fenton).
+PaperFaces portrait of [@steve_fenton](https://twitter.com/steve_fenton).
 
 {% include boilerplate/paperfaces-4.md %}
 

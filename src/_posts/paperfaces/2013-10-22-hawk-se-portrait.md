@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/Hawk_SE">@Hawk_SE</a>.
+PaperFaces portrait of <a href="https://twitter.com/Hawk_SE">@Hawk_SE</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

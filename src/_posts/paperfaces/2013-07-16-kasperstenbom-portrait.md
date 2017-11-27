@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@KasperStenbom](http://twitter.com/KasperStenbom).
+PaperFaces portrait of [@KasperStenbom](https://twitter.com/KasperStenbom).
 
 {% include boilerplate/paperfaces-2.md %}
 

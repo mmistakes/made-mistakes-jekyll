@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@marianeville_84](http://twitter.com/marianeville_84).
+PaperFaces portrait of [@marianeville_84](https://twitter.com/marianeville_84).
 
 {% include boilerplate/paperfaces.md %}

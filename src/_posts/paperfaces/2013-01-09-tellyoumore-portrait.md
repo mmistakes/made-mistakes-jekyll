@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@TellYouMore](http://twitter.com/TellYouMore).
+PaperFaces portrait of [@TellYouMore](https://twitter.com/TellYouMore).
 
 {% include boilerplate/paperfaces.md %}

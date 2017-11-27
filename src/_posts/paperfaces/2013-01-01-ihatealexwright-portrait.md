@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ihatealexwright](http://twitter.com/ihatealexwright).
+PaperFaces portrait of [@ihatealexwright](https://twitter.com/ihatealexwright).
 
 {% include boilerplate/paperfaces.md %}

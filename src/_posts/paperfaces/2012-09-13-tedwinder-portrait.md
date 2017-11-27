@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@tedwinder](http://twitter.com/tedwinder).
+PaperFaces portrait of project donator [@tedwinder](https://twitter.com/tedwinder).
 
 {% include boilerplate/paperfaces.md %}

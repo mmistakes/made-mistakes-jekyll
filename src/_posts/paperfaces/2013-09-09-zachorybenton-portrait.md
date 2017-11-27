@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ZachoryBenton](http://twitter.com/zachorybenton).
+PaperFaces portrait of [@ZachoryBenton](https://twitter.com/zachorybenton).
 
 {% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"third" %}
 [![](/assets/images/paperfaces-zachorybenton-process-1-600.jpg)](/assets/images/paperfaces-zachorybenton-process-1-lg.jpg)

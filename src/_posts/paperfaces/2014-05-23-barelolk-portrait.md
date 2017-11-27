@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:49:36-05:00
 ---
 
-PaperFaces portrait of [@BareLolk](http://twitter.com/BareLolk).
+PaperFaces portrait of [@BareLolk](https://twitter.com/BareLolk).
 
 {% include boilerplate/paperfaces-2.md %}
 

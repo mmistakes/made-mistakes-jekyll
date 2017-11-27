@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@getoutyourmap](http://twitter.com/getoutyourmap).
+PaperFaces portrait of [@getoutyourmap](https://twitter.com/getoutyourmap).
 
 {% include boilerplate/paperfaces.md %}

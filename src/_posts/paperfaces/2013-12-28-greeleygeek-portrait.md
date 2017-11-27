@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@greeleygeek](http://twitter.com/greeleygeek).
+PaperFaces portrait of [@greeleygeek](https://twitter.com/greeleygeek).
 
 {% include boilerplate/paperfaces-2.md %}
 

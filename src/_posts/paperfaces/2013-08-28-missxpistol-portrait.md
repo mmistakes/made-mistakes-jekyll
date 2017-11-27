@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@missxpistol](http://twitter.com/missxpistol).
+PaperFaces portrait of [@missxpistol](https://twitter.com/missxpistol).
 
 {% include boilerplate/paperfaces-2.md %}
 

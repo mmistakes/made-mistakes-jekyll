@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@Isantipov](http://twitter.com/Isantipov).
+PaperFaces portrait of [@Isantipov](https://twitter.com/Isantipov).
 
 {% include boilerplate/paperfaces-2.md %}
 

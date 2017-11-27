@@ -16,7 +16,7 @@ PaperFaces was an iPad drawing project by time traveling designer and illustrato
 
 ## Latest Portraits
 
-The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](http://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
+The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](https://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
 
 <ul class="th-grid">
 {% for post in site.categories.paperfaces limit:15 %}
@@ -42,7 +42,7 @@ One night, out of sheer boredom, I decided I'd try to recreate <a href="/assets/
 
 Due to the positive comments that I received, I decided to put a call out for more portrait volunteers. Without really considering the implications of my actions, I posted the following:
 
-<blockquote class="twitter-tweet"><p>Retweet and I'll draw your profile picture using Paper on my iPad <a href="https://twitter.com/search/%23MadeWithPaper">#MadeWithPaper</a> <a href="http://t.co/5oqH4bJt" title="http://twitter.com/mmistakes/status/240601384477659136/photo/1">twitter.com/mmistakes/stat…</a></p>&#8212; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/240601384477659136" data-datetime="2012-08-29T00:06:55+00:00">August 29, 2012</a></blockquote>
+<blockquote class="twitter-tweet"><p>Retweet and I'll draw your profile picture using Paper on my iPad <a href="https://twitter.com/search/%23MadeWithPaper">#MadeWithPaper</a> <a href="http://t.co/5oqH4bJt" title="https://twitter.com/mmistakes/status/240601384477659136/photo/1">twitter.com/mmistakes/stat…</a></p>&#8212; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/240601384477659136" data-datetime="2012-08-29T00:06:55+00:00">August 29, 2012</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 A few hours later, while grocery shopping with my wife, my iPhone started blowing up with retweet and @reply notifications. By the end of the day I had amassed around 300 volunteers and figured that turning it into a formal 365 day project might be fun.
@@ -99,7 +99,7 @@ I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows 
 
 ## Homages
 
-I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing(s) to be included leave a comment below (include your drawing in the comment) or [tweet me](http://twitter.com/mmistakes).
+I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing(s) to be included leave a comment below (include your drawing in the comment) or [tweet me](https://twitter.com/mmistakes).
 
 <ul id="fanart-gallery" class="th-grid">
   <li><a href="/assets/images/homage-pepfre-mmistakes-lg.jpg"><img src="/assets/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre"></a></li>

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@charlietuna](http://twitter.com/charlietuna).
+PaperFaces portrait of [@charlietuna](https://twitter.com/charlietuna).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
-PaperFaces portrait portrait of [@augenblickpunkt](http://twitter.com/augenblickpunkt).
+PaperFaces portrait portrait of [@augenblickpunkt](https://twitter.com/augenblickpunkt).
 
 {% include boilerplate/paperfaces-4.md %}
 

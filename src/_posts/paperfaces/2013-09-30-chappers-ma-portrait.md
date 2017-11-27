@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, texture, beard]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/chappers_ma">@chappers_ma</a>.
+PaperFaces avatar portrait of <a href="https://twitter.com/chappers_ma">@chappers_ma</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

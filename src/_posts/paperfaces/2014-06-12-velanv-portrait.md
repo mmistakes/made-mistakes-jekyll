@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, bokeh, beard]
 ---
 
-PaperFaces portrait commission of [@velanv](http://twitter.com/velanv).
+PaperFaces portrait commission of [@velanv](https://twitter.com/velanv).
 
 {% include boilerplate/paperfaces-4.md %}
 

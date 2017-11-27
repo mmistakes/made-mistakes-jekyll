@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T15:56:28-05:00
 ---
 
-PaperFaces portrait of [@carreteronacho](http://twitter.com/carreteronacho).
+PaperFaces portrait of [@carreteronacho](https://twitter.com/carreteronacho).
 
 {% include boilerplate/paperfaces-2.md %}
 

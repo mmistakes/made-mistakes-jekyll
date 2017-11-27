@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-**Project Donator** [@brianjolive](http://twitter.com/brianjolive) commissioned this portrait of his great friend and long time teacher of *Go*. Below are some in process screen captures over the course of an hour as I worked on the illustration. Let me just say this, drawing straight lines on glass and getting the correct perspective isn't easy.
+**Project Donator** [@brianjolive](https://twitter.com/brianjolive) commissioned this portrait of his great friend and long time teacher of *Go*. Below are some in process screen captures over the course of an hour as I worked on the illustration. Let me just say this, drawing straight lines on glass and getting the correct perspective isn't easy.
 
 {% include boilerplate/paperfaces-2.md %}
 

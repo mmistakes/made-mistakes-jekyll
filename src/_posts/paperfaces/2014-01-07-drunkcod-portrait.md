@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@drunkcod](http://twitter.com/drunkcod). Suppose I could have flipped the reference photo right side up before drawing it, but where's the fun in that?
+PaperFaces portrait of [@drunkcod](https://twitter.com/drunkcod). Suppose I could have flipped the reference photo right side up before drawing it, but where's the fun in that?
 
 {% include boilerplate/paperfaces-2.md %}
 

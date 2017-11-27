@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@yorgle](http://twitter.com/yorgle).
+PaperFaces portrait of [@yorgle](https://twitter.com/yorgle).
 
 {% include boilerplate/paperfaces-4.md %}
 

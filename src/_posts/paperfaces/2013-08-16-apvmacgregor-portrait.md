@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@apvmacgregor](http://twitter.com/apvmacgregor). After days of gray I'm back to drawing color portraits.
+PaperFaces portrait of [@apvmacgregor](https://twitter.com/apvmacgregor). After days of gray I'm back to drawing color portraits.
 
 {% include boilerplate/paperfaces-2.md %}
 

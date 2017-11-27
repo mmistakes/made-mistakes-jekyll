@@ -417,4 +417,4 @@ So how about this? Let me know in the comments below what you want to see next: 
 {% endfor %}
 </ul>
 
-And if you're looking to further learn from some of the Paper techniques I use, check out my [PaperFaces Project]({% link _work/paperfaces.md %}) or [follow me on Twitter](http://twitter.com/mmistakes). I draw a new portrait Paper every day and make a point to include in process images to reveal my processes.
+And if you're looking to further learn from some of the Paper techniques I use, check out my [PaperFaces Project]({% link _work/paperfaces.md %}) or [follow me on Twitter](https://twitter.com/mmistakes). I draw a new portrait Paper every day and make a point to include in process images to reveal my processes.

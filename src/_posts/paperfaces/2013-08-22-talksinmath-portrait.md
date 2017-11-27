@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@talksinmath](http://twitter.com/talksinmath).
+PaperFaces portrait of [@talksinmath](https://twitter.com/talksinmath).
 
 {% include boilerplate/paperfaces-2.md %}
 

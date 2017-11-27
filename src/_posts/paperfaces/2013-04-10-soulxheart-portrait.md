@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@soulxheart](http://twitter.com/soulxheart).
+PaperFaces portrait of [@soulxheart](https://twitter.com/soulxheart).
 
 {% include boilerplate/paperfaces.md %}

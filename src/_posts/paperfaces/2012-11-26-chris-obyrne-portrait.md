@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@chris_Obyrne](http://twitter.com/chris_Obyrne).
+PaperFaces portrait of [@chris_Obyrne](https://twitter.com/chris_Obyrne).
 
 {% include boilerplate/paperfaces.md %}

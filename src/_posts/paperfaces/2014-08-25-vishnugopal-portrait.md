@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@vishnugopal](http://twitter.com/vishnugopal).
+PaperFaces portrait of [@vishnugopal](https://twitter.com/vishnugopal).
 
 {% include boilerplate/paperfaces-2.md %}
 

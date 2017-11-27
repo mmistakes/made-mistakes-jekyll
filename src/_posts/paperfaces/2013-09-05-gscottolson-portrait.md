@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces portrait of FiftyThree maker, [@gscottolson](http://twitter.com/gscottolson).
+PaperFaces portrait of FiftyThree maker, [@gscottolson](https://twitter.com/gscottolson).
 
 {% include boilerplate/paperfaces-2.md %}
 

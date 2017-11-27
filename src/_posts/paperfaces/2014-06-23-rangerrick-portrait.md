@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@RangerRick](http://twitter.com/RangerRick).
+PaperFaces portrait of [@RangerRick](https://twitter.com/RangerRick).
 
 {% include boilerplate/paperfaces-2.md %}
 

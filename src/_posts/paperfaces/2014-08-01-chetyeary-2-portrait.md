@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces portrait commission of [@chetyeary](http://twitter.com/chetyeary).
+PaperFaces portrait commission of [@chetyeary](https://twitter.com/chetyeary).
 
 {% include boilerplate/paperfaces-2.md %}
 

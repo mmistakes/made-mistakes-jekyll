@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T13:58:56-05:00
 ---
 
-PaperFaces portrait of [@neil_pie](http://twitter.com/neil_pie).
+PaperFaces portrait of [@neil_pie](https://twitter.com/neil_pie).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@seanblezard](http://twitter.com/seanblezard).
+PaperFaces portrait of [@seanblezard](https://twitter.com/seanblezard).
 
 {% figure caption:"Sketching out a face with the pencil tool." %}
 [![](/assets/images/paperfaces-seanblezard-process-1-750.jpg)](/assets/images/paperfaces-seanblezard-process-1-lg.jpg)

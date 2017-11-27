@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@christyxcore](http://twitter.com/christyxcore).
+PaperFaces portrait of [@christyxcore](https://twitter.com/christyxcore).
 
 {% include boilerplate/paperfaces.md %}

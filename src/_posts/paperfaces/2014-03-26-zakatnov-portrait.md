@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, water]
 last_modified_at: 2017-01-17T14:20:46-05:00
 ---
 
-PaperFaces portrait of [@Zakatnov](http://twitter.com/Zakatnov).
+PaperFaces portrait of [@Zakatnov](https://twitter.com/Zakatnov).
 
 {% include boilerplate/paperfaces-2.md %}
 

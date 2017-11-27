@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait commission of [@TonyNof](http://twitter.com/TonyNof).
+PaperFaces portrait commission of [@TonyNof](https://twitter.com/TonyNof).
 
 {% include boilerplate/paperfaces-2.md %}
 

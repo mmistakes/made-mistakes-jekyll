@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@HRoxby](http://twitter.com/HRoxby).
+PaperFaces portrait of [@HRoxby](https://twitter.com/HRoxby).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@voidet](http://twitter.com/voidet).
+PaperFaces portrait of [@voidet](https://twitter.com/voidet).
 
 {% include boilerplate/paperfaces.md %}

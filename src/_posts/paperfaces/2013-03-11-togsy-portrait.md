@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@togsy](http://twitter.com/togsy).
+PaperFaces portrait of [@togsy](https://twitter.com/togsy).
 
 {% include boilerplate/paperfaces.md %}

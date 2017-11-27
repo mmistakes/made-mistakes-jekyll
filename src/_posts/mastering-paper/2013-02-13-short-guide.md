@@ -104,7 +104,7 @@ I hope some of this has been helpful. To better describe and show my process, I'
 
 I've taken the liberty of embedding a video playlist below, demonstrating how I use Paper by FiftyThree to paint portraits. *(ProTip: watch it fullscreen)*. Feel free to comment, like, or [subscribe to my channel](https://www.youtube.com/user/anotherjpeg "Subscribe to Michael Rose's YouTube Channel") if you like what you see.
 
-If I missed anything or you're looking for additional pointers leave a comment below or [tweet me](http://twitter.com/mmistakes).
+If I missed anything or you're looking for additional pointers leave a comment below or [tweet me](https://twitter.com/mmistakes).
 
 <figure class="large">
   {% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}

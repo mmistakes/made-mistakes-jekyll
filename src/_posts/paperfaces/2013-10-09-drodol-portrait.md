@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/Drodol">@Drodol</a>.
+PaperFaces avatar portrait of <a href="https://twitter.com/Drodol">@Drodol</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces avatar portrait for [@parisba](http://twitter.com/parisba).
+PaperFaces avatar portrait for [@parisba](https://twitter.com/parisba).
 
 {% include boilerplate/paperfaces.md %}

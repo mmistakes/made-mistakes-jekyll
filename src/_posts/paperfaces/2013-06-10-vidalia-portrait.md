@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Vidalia](http://twitter.com/Vidalia).
+PaperFaces portrait of [@Vidalia](https://twitter.com/Vidalia).
 
 {% include boilerplate/paperfaces-2.md %}

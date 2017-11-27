@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@SDTechGirl](http://twitter.com/SDTechGirl).
+PaperFaces portrait of [@SDTechGirl](https://twitter.com/SDTechGirl).
 
 {% include boilerplate/paperfaces.md %}

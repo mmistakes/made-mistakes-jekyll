@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-aperFaces portrait of [@sailajak](http://twitter.com/sailajak).
+aperFaces portrait of [@sailajak](https://twitter.com/sailajak).
 
 {% include boilerplate/paperfaces.md %}

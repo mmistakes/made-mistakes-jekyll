@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@RyanFarrellStl](http://twitter.com/RyanFarrellStl).
+PaperFaces portrait of project donator [@RyanFarrellStl](https://twitter.com/RyanFarrellStl).
 
 {% include boilerplate/paperfaces.md %}

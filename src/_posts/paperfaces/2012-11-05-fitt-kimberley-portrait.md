@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Fitt_Kimberley](http://twitter.com/Fitt_Kimberley).
+PaperFaces portrait of [@Fitt_Kimberley](https://twitter.com/Fitt_Kimberley).
 
 {% include boilerplate/paperfaces.md %}

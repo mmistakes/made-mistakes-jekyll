@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@missrachilli](http://twitter.com/missrachilli).
+PaperFaces portrait of [@missrachilli](https://twitter.com/missrachilli).
 
 {% include boilerplate/paperfaces.md %}

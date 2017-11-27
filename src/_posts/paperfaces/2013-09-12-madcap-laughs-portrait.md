@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@Madcap_Laughs](http://twitter.com/Madcap_Laughs).
+PaperFaces portrait of [@Madcap_Laughs](https://twitter.com/Madcap_Laughs).
 
 {% include boilerplate/paperfaces-2.md %}
 

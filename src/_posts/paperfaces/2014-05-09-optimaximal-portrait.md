@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T12:59:16-05:00
 ---
 
-PaperFaces portrait of [@Optimaximal](http://twitter.com/optimaximal).
+PaperFaces portrait of [@Optimaximal](https://twitter.com/optimaximal).
 
 {% include boilerplate/paperfaces-2.md %}
 

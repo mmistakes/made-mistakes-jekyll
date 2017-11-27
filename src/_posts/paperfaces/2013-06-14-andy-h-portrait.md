@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, eye]
 ---
 
-PaperFaces portrait of [@_andy_h_](http://twitter.com/_andy_h_).
+PaperFaces portrait of [@_andy_h_](https://twitter.com/_andy_h_).
 
 {% include boilerplate/paperfaces-2.md %}

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Breaking Bad]
 last_modified_at: 2017-01-17T14:29:00-05:00
 ---
 
-PaperFaces portrait of [@dillydallygames](http://twitter.com/dillydallygames).
+PaperFaces portrait of [@dillydallygames](https://twitter.com/dillydallygames).
 
 {% include boilerplate/paperfaces-2.md %}
 

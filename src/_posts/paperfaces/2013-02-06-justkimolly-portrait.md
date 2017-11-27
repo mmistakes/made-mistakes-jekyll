@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@justkimolly](http://twitter.com/justkimolly).
+PaperFaces portrait of [@justkimolly](https://twitter.com/justkimolly).
 
 {% include boilerplate/paperfaces.md %}

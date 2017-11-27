@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 last_modified_at: 2017-01-17T16:18:45-05:00
 ---
 
-PaperFaces portrait of [@alxknt](http://twitter.com/alxknt).
+PaperFaces portrait of [@alxknt](https://twitter.com/alxknt).
 
 {% include boilerplate/paperfaces-2.md %}
 

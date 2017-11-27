@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@danmurillo](http://twitter.com/danmurillo).
+PaperFaces portrait of [@danmurillo](https://twitter.com/danmurillo).
 
 {% include boilerplate/paperfaces.md %}

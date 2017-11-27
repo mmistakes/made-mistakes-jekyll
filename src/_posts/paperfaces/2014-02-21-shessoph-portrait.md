@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:48:53-05:00
 ---
 
-PaperFaces portrait of [@shesSoph](http://twitter.com/shesSoph).
+PaperFaces portrait of [@shesSoph](https://twitter.com/shesSoph).
 
 {% include boilerplate/paperfaces-2.md %}
 

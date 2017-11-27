@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@thesugarmonster](http://twitter.com/thesugarmonster).
+PaperFaces portrait of [@thesugarmonster](https://twitter.com/thesugarmonster).
 
 {% include boilerplate/paperfaces-2.md %}
 

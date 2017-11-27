@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@netzmensch](http://twitter.com/netzmensch).
+PaperFaces portrait of [@netzmensch](https://twitter.com/netzmensch).
 
 {% include boilerplate/paperfaces-2.md %}
 

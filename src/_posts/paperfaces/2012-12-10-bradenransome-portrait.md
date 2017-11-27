@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@BradenRansome](http://twitter.com/BradenRansome).
+PaperFaces portrait of project donator [@BradenRansome](https://twitter.com/BradenRansome).
 
 {% include boilerplate/paperfaces.md %}

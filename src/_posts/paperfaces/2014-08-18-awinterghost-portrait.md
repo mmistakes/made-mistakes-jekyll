@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@AWinterGhost](http://twitter.com/AWinterGhost).
+PaperFaces portrait of [@AWinterGhost](https://twitter.com/AWinterGhost).
 
 {% include boilerplate/paperfaces-2.md %}
 

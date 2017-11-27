@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait commission for [@maggiebob](http://twitter.com/maggiebob).
+PaperFaces portrait commission for [@maggiebob](https://twitter.com/maggiebob).
 
 {% include boilerplate/paperfaces-2.md %}
 

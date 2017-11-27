@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@unlockthedoc](http://twitter.com/unlockthedoc).
+PaperFaces portrait of [@unlockthedoc](https://twitter.com/unlockthedoc).
 
 {% include boilerplate/paperfaces.md %}

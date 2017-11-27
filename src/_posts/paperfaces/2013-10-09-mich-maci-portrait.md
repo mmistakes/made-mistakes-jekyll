@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/mich-maci">@mich-maci</a>.
+PaperFaces avatar portrait of <a href="https://twitter.com/mich-maci">@mich-maci</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

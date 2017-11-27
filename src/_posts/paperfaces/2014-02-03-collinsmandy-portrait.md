@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T16:07:55-05:00
 ---
 
-PaperFaces portrait of [@CollinsMandy](http://twitter.com/CollinsMandy).
+PaperFaces portrait of [@CollinsMandy](https://twitter.com/CollinsMandy).
 
 {% include boilerplate/paperfaces-2.md %}
 

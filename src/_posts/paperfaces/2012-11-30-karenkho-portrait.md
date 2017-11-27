@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@karenkho](http://twitter.com/karenkho).
+PaperFaces portrait of [@karenkho](https://twitter.com/karenkho).
 
 {% include boilerplate/paperfaces.md %}

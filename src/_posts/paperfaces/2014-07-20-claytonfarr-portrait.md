@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@ClaytonFarr](http://twitter.com/claytonfarr).
+PaperFaces portrait of [@ClaytonFarr](https://twitter.com/claytonfarr).
 
 {% include boilerplate/paperfaces-2.md %}
 

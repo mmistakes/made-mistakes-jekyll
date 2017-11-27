@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, horse]
 ---
 
-PaperFaces portrait of [@studioprisoner](http://twitter.com/studioprisoner).
+PaperFaces portrait of [@studioprisoner](https://twitter.com/studioprisoner).
 
 {% include boilerplate/paperfaces-2.md %}

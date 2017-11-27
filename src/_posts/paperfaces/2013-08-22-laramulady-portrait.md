@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@laramulady](http://twitter.com/laramulady).
+PaperFaces portrait of [@laramulady](https://twitter.com/laramulady).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, beard]
 last_modified_at: 2017-01-17T14:36:09-05:00
 ---
 
-PaperFaces portrait of [@gh0st_mob](http://twitter.com/gh0st_mob).
+PaperFaces portrait of [@gh0st_mob](https://twitter.com/gh0st_mob).
 
 {% include boilerplate/paperfaces-2.md %}
 

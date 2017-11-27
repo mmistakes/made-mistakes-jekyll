@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:47:30-05:00
 ---
 
-PaperFaces portrait of [@patbits](http://twitter.com/patbits).
+PaperFaces portrait of [@patbits](https://twitter.com/patbits).
 
 {% include boilerplate/paperfaces-2.md %}
 

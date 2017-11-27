@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of project donator [@lsinger](http://twitter.com/lsinger).
+PaperFaces portrait of project donator [@lsinger](https://twitter.com/lsinger).
 
 {% include boilerplate/paperfaces.md %}

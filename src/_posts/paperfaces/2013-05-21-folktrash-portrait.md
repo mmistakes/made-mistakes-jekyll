@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard, black and white]
 ---
 
-PaperFaces portrait of [@folktrash](http://twitter.com/folktrash).
+PaperFaces portrait of [@folktrash](https://twitter.com/folktrash).
 
 {% include boilerplate/paperfaces.md %}

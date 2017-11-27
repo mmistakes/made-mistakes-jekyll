@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/comicasuperhero">@comicasuperhero</a>.
+PaperFaces avatar portrait of <a href="https://twitter.com/comicasuperhero">@comicasuperhero</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

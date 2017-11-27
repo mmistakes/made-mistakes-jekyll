@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait of [@melchoyce](http://twitter.com/melchoyce).
+PaperFaces portrait of [@melchoyce](https://twitter.com/melchoyce).
 
 {% include boilerplate/paperfaces.md %}
 

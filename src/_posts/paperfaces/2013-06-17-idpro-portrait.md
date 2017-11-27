@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-Oops, I didn't paint any eyes. PaperFaces portrait of [@idPro](http://twitter.com/idPro).
+Oops, I didn't paint any eyes. PaperFaces portrait of [@idPro](https://twitter.com/idPro).
 
 {% include boilerplate/paperfaces-2.md %}

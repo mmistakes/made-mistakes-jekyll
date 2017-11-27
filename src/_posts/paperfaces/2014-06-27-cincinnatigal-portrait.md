@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, dog]
 ---
 
-PaperFaces portrait of [@CincinnatiGal](http://twitter.com/CincinnatiGal).
+PaperFaces portrait of [@CincinnatiGal](https://twitter.com/CincinnatiGal).
 
 {% include boilerplate/paperfaces-2.md %}
 

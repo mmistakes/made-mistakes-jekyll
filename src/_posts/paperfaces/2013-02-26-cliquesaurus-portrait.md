@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@cliqueasaurus](http://twitter.com/cliqueasaurus).
+PaperFaces portrait of [@cliqueasaurus](https://twitter.com/cliqueasaurus).
 
 {% include boilerplate/paperfaces.md %}

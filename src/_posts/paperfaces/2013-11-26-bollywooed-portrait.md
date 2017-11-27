@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/BollyWooed">@BollyWooed</a>.
+PaperFaces portrait of <a href="https://twitter.com/BollyWooed">@BollyWooed</a>.
 
 {% include boilerplate/paperfaces-3.md %}
 

@@ -12,7 +12,7 @@ I don't often draw faces, but with the right photo reference I sometimes attempt
 
 To build up values in the faces I used the pencil tool exclusively --- adding shadows and shading before applying watercolor. Usually I do the opposite by applying a watercolor base first and then penciling over to refine. Quite happy with how everything turned out.
 
-PaperFaces portrait commission for <a href="http://twitter.com/jonathanhagans">@jonathanhagans</a>.
+PaperFaces portrait commission for <a href="https://twitter.com/jonathanhagans">@jonathanhagans</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

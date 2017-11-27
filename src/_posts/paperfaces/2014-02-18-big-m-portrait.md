@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:50:27-05:00
 ---
 
-PaperFaces portrait of [@_Big_M_](http://twitter.com/_Big_M_).
+PaperFaces portrait of [@_Big_M_](https://twitter.com/_Big_M_).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@berniecakez](http://twitter.com/berniecakez).
+PaperFaces portrait of [@berniecakez](https://twitter.com/berniecakez).
 
 {% include boilerplate/paperfaces.md %}

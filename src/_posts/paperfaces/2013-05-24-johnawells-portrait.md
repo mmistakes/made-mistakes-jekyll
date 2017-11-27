@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@johnawells](http://twitter.com/johnawells).
+PaperFaces portrait of [@johnawells](https://twitter.com/johnawells).
 
 {% include boilerplate/paperfaces.md %}

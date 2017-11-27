@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@riddl](http://twitter.com/riddl).
+PaperFaces portrait of [@riddl](https://twitter.com/riddl).
 
 {% include boilerplate/paperfaces-2.md %}
 

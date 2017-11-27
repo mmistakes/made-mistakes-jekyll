@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@curlycrazy](http://twitter.com/curlycrazy).
+PaperFaces portrait of project donator [@curlycrazy](https://twitter.com/curlycrazy).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@eternallife_](http://twitter.com/eternallife_).
+PaperFaces portrait of [@eternallife_](https://twitter.com/eternallife_).
 
 {% include boilerplate/paperfaces.md %}

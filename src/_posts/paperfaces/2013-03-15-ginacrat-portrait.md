@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ginacrat](http://twitter.com/ginacrat).
+PaperFaces portrait of [@ginacrat](https://twitter.com/ginacrat).
 
 {% include boilerplate/paperfaces.md %}

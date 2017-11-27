@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@mike_FTW](http://twitter.com/mike_FTW).
+PaperFaces portrait of [@mike_FTW](https://twitter.com/mike_FTW).
 
 {% include boilerplate/paperfaces.md %}

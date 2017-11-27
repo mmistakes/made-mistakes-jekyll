@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ekinding](http://twitter.com/ekinding). Had a lot of fun with this creeptacular illustration.
+PaperFaces portrait of [@ekinding](https://twitter.com/ekinding). Had a lot of fun with this creeptacular illustration.
 
 {% include boilerplate/paperfaces-2.md %}
 

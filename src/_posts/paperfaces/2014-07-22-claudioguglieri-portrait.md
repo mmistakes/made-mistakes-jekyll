@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@claudioguglieri](http://twitter.com/claudioguglieri).
+PaperFaces portrait of [@claudioguglieri](https://twitter.com/claudioguglieri).
 
 {% include boilerplate/paperfaces-2.md %}
 

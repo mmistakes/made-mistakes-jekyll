@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@mjchamplin](http://twitter.com/mjchamplin).
+PaperFaces portrait of [@mjchamplin](https://twitter.com/mjchamplin).
 
 {% include boilerplate/paperfaces.md %}

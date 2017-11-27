@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@craiginwales](http://twitter.com/craiginwales).
+PaperFaces portrait of [@craiginwales](https://twitter.com/craiginwales).
 
 {% include boilerplate/paperfaces-2.md %}
 

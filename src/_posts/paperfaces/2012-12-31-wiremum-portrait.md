@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait commissioned of [@wiremum](http://twitter.com/wiremum).
+PaperFaces portrait commissioned of [@wiremum](https://twitter.com/wiremum).
 
 {% include boilerplate/paperfaces.md %}

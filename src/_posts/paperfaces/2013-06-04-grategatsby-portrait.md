@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Grategatsby](http://twitter.com/Grategatsby).
+PaperFaces portrait of [@Grategatsby](https://twitter.com/Grategatsby).
 
 {% include boilerplate/paperfaces-2.md %}

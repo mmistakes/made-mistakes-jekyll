@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:56:23-05:00
 ---
 
-PaperFaces portrait of [@crusell](http://twitter.com/crusell).
+PaperFaces portrait of [@crusell](https://twitter.com/crusell).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@marianoabdala](http://twitter.com/marianoabdala).
+PaperFaces portrait of [@marianoabdala](https://twitter.com/marianoabdala).
 
 {% include boilerplate/paperfaces.md %}

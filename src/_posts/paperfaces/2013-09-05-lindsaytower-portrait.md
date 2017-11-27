@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@lindsaytower](http://twitter.com/lindsaytower).
+PaperFaces portrait of [@lindsaytower](https://twitter.com/lindsaytower).
 
 {% include boilerplate/paperfaces-2.md %}
 

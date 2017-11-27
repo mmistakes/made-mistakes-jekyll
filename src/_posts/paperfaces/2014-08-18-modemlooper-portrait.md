@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Star Trek]
 ---
 
-PaperFaces portrait of [@modemlooper](http://twitter.com/modemlooper).
+PaperFaces portrait of [@modemlooper](https://twitter.com/modemlooper).
 
 {% include boilerplate/paperfaces-2.md %}
 

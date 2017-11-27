@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:46:44-05:00
 ---
 
-PaperFaces portrait of [@tomwhild](http://twitter.com/tomwhild).
+PaperFaces portrait of [@tomwhild](https://twitter.com/tomwhild).
 
 {% include boilerplate/paperfaces-2.md %}
 

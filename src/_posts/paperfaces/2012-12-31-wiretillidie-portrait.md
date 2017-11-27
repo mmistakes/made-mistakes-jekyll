@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait commissioned of [@wiretillidie](http://twitter.com/wiretillidie).
+PaperFaces portrait commissioned of [@wiretillidie](https://twitter.com/wiretillidie).
 
 {% include boilerplate/paperfaces.md %}

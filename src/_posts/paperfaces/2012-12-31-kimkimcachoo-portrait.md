@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@kimkimcachoo](http://twitter.com/kimkimcachoo).
+PaperFaces portrait of [@kimkimcachoo](https://twitter.com/kimkimcachoo).
 
 {% include boilerplate/paperfaces.md %}

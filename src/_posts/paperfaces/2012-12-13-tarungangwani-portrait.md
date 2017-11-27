@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait of [@tarungangwani](http://twitter.com/tarungangwani).
+PaperFaces portrait of [@tarungangwani](https://twitter.com/tarungangwani).
 
 {% include boilerplate/paperfaces.md %}
 

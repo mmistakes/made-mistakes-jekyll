@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait of [@cassini_](http://twitter.com/cassini_).
+PaperFaces portrait of [@cassini_](https://twitter.com/cassini_).
 
 {% include boilerplate/paperfaces.md %}
 

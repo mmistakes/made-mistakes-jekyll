@@ -30,4 +30,4 @@ Instead of embarrassing myself with examples of my early fumbles as a graphic de
 
 ## More to Come
 
-Just finished capturing some photographs of artwork that ranges from black/white ink drawings, fancy die-cuts, to sleeves printed on vellum with metallic inks. If this sort of stuff interests you: [follow me on Twitter](http://twitter.com/mmistakes), [bookmark the site](http://mademistakes.com/ "Bookmark Made Mistakes"), or [subscribe to the RSS feed](http://feeds.feedburner.com/MadeMistakes) so you don't miss out on any of this nerdom.
+Just finished capturing some photographs of artwork that ranges from black/white ink drawings, fancy die-cuts, to sleeves printed on vellum with metallic inks. If this sort of stuff interests you: [follow me on Twitter](https://twitter.com/mmistakes), [bookmark the site](http://mademistakes.com/ "Bookmark Made Mistakes"), or [subscribe to the RSS feed](http://feeds.feedburner.com/MadeMistakes) so you don't miss out on any of this nerdom.

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:01:13-05:00
 ---
 
-PaperFaces portrait of [@monaura0](http://twitter.com/monaura0).
+PaperFaces portrait of [@monaura0](https://twitter.com/monaura0).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:15:26-05:00
 ---
 
-PaperFaces portrait of [@SnowWhiteChaos](http://twitter.com/SnowWhiteChaos).
+PaperFaces portrait of [@SnowWhiteChaos](https://twitter.com/SnowWhiteChaos).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/mattknox">@mattknox</a>.
+PaperFaces portrait of <a href="https://twitter.com/mattknox">@mattknox</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

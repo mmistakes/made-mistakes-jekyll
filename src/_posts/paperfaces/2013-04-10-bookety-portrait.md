@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Bookety](http://twitter.com/Bookety).
+PaperFaces portrait of [@Bookety](https://twitter.com/Bookety).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@clamteeth](http://twitter.com/clamteeth).
+PaperFaces portrait of [@clamteeth](https://twitter.com/clamteeth).
 
 {% include boilerplate/paperfaces.md %}

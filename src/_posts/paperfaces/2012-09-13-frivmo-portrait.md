@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@frivmo](http://twitter.com/frivmo).
+PaperFaces portrait of [@frivmo](https://twitter.com/frivmo).
 
 {% include boilerplate/paperfaces.md %}

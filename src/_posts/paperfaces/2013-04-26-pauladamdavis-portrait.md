@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@pauladamdavis](http://twitter.com/pauladamdavis).
+PaperFaces portrait of [@pauladamdavis](https://twitter.com/pauladamdavis).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait of [@omri_mor](http://twitter.com/omri_mor).
+PaperFaces portrait of [@omri_mor](https://twitter.com/omri_mor).
 
 {% include boilerplate/paperfaces.md %}
 

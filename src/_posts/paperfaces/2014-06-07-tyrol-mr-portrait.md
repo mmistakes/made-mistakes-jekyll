@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@tyrol_mr](http://twitter.com/tyrol_mr).
+PaperFaces portrait of [@tyrol_mr](https://twitter.com/tyrol_mr).
 
 {% include boilerplate/paperfaces-2.md %}
 

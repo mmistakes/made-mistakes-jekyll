@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@matt-mullin](http://twitter.com/matt-mullin).
+PaperFaces portrait of [@matt-mullin](https://twitter.com/matt-mullin).
 
 {% include boilerplate/paperfaces.md %}

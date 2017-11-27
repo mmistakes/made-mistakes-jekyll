@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@lsanza](http://twitter.com/lsanza).
+PaperFaces portrait of [@lsanza](https://twitter.com/lsanza).
 
 {% include boilerplate/paperfaces.md %}

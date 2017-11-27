@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@carriehammer](http://twitter.com/carriehammer).
+PaperFaces portrait of [@carriehammer](https://twitter.com/carriehammer).
 
 {% include boilerplate/paperfaces.md %}

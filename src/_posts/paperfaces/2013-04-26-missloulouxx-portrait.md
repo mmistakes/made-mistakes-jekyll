@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@MissLoulouxx](http://twitter.com/MissLoulouxx).
+PaperFaces portrait of [@MissLoulouxx](https://twitter.com/MissLoulouxx).
 
 {% include boilerplate/paperfaces.md %}

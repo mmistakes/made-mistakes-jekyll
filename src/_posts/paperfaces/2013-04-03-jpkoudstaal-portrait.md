@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@JPKoudstaal](http://twitter.com/JPKoudstaal).
+PaperFaces portrait of [@JPKoudstaal](https://twitter.com/JPKoudstaal).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@shamaiela](http://twitter.com/shamaiela).
+PaperFaces portrait of [@shamaiela](https://twitter.com/shamaiela).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@ajkonieckijr](http://twitter.com/ajkonieckijr).
+PaperFaces portrait of project donator [@ajkonieckijr](https://twitter.com/ajkonieckijr).
 
 {% include boilerplate/paperfaces.md %}

@@ -44,7 +44,7 @@ To learn more about how to install, configure, customize the look and feel, crea
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/jekyll-theme-basically-basic/issues). And if you make something cool with this theme feel free to let me know.
+Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/jekyll-theme-basically-basic/issues). And if you make something cool with this theme feel free to let me know.
 
 ## License
 

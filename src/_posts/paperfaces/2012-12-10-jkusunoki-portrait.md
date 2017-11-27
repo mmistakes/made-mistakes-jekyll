@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@jkusunoki](http://twitter.com/jkusunoki).
+PaperFaces portrait of [@jkusunoki](https://twitter.com/jkusunoki).
 
 {% include boilerplate/paperfaces.md %}

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:08:59-05:00
 ---
 
-PaperFaces portrait of [@luvgahyun](http://twitter.com/luvgahyun).
+PaperFaces portrait of [@luvgahyun](https://twitter.com/luvgahyun).
 
 {% include boilerplate/paperfaces-2.md %}
 

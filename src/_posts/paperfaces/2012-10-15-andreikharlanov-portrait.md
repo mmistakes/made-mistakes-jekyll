@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@andreikharlanov](http://twitter.com/andreikharlanov).
+PaperFaces portrait of [@andreikharlanov](https://twitter.com/andreikharlanov).
 
 {% include boilerplate/paperfaces.md %}

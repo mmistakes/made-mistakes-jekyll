@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces portrait of [@T_Lawson](http://twitter.com/T_Lawson).
+PaperFaces portrait of [@T_Lawson](https://twitter.com/T_Lawson).
 
 {% include boilerplate/paperfaces-2.md %}
 

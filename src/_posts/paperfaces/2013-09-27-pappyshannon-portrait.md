@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-"Welcome to Jurassic Park." PaperFaces avatar portrait of <a href="http://twitter.com/PappyShannon">@PappyShannon</a>.
+"Welcome to Jurassic Park." PaperFaces avatar portrait of <a href="https://twitter.com/PappyShannon">@PappyShannon</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

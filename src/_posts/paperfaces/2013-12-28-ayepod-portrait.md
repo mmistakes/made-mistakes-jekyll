@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ayepod](http://twitter.com/ayepod).
+PaperFaces portrait of [@ayepod](https://twitter.com/ayepod).
 
 {% include boilerplate/paperfaces-2.md %}
 

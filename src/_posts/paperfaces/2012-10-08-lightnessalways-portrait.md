@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@lightnessalways](http://twitter.com/lightnessalways).
+PaperFaces portrait of [@lightnessalways](https://twitter.com/lightnessalways).
 
 {% include boilerplate/paperfaces.md %}

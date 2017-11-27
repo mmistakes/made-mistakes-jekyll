@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@LondonWebDev](http://twitter.com/LondonWebDev).
+PaperFaces portrait of [@LondonWebDev](https://twitter.com/LondonWebDev).
 
 {% include boilerplate/paperfaces.md %}

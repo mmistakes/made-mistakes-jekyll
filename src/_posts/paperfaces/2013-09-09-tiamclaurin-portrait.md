@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@tiamclaurin](http://twitter.com/tiamclaurin).
+PaperFaces portrait of [@tiamclaurin](https://twitter.com/tiamclaurin).
 
 {% include boilerplate/paperfaces-2.md %}
 

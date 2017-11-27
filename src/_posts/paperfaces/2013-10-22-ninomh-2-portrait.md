@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-They say you never forget your first *Triforce of Courage*. PaperFaces portrait commission of <a href="http://twitter.com/ninoMH">@ninoMH</a>.
+They say you never forget your first *Triforce of Courage*. PaperFaces portrait commission of <a href="https://twitter.com/ninoMH">@ninoMH</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

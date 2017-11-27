@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@manjumadhav93](http://twitter.com/manjumadhav93).
+PaperFaces portrait of [@manjumadhav93](https://twitter.com/manjumadhav93).
 
 {% include boilerplate/paperfaces.md %}

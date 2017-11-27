@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait commissioned by [@wefreema](http://twitter.com/wefreema).
+PaperFaces portrait commissioned by [@wefreema](https://twitter.com/wefreema).
 
 {% include boilerplate/paperfaces-2.md %}
 

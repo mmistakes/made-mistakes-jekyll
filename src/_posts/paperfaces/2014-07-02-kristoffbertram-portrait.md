@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
-PaperFaces portrait of [@kristoffbertram](http://twitter.com/kristoffbertram).
+PaperFaces portrait of [@kristoffbertram](https://twitter.com/kristoffbertram).
 
 {% include boilerplate/paperfaces-4.md %}
 

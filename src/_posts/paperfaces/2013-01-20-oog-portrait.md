@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait of [@Oog](http://twitter.com/Oog).
+PaperFaces portrait of [@Oog](https://twitter.com/Oog).
 
 {% include boilerplate/paperfaces.md %}
 

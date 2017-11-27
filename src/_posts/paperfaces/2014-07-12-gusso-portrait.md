@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@gusso](http://twitter.com/gusso).
+PaperFaces portrait of [@gusso](https://twitter.com/gusso).
 
 {% include boilerplate/paperfaces-2.md %}
 

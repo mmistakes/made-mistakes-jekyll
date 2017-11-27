@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 last_modified_at: 2017-01-17T14:01:58-05:00
 ---
 
-PaperFaces portrait of [@matthewrex](http://twitter.com/matthewrex).
+PaperFaces portrait of [@matthewrex](https://twitter.com/matthewrex).
 
 {% include boilerplate/paperfaces-2.md %}
 

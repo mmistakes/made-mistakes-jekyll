@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:54:51-05:00
 ---
 
-PaperFaces portrait of [@AShahmoradian](http://twitter.com/AShahmoradian).
+PaperFaces portrait of [@AShahmoradian](https://twitter.com/AShahmoradian).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@campbell_soupp](http://twitter.com/campbell_soupp).
+PaperFaces portrait of [@campbell_soupp](https://twitter.com/campbell_soupp).
 
 {% include boilerplate/paperfaces.md %}

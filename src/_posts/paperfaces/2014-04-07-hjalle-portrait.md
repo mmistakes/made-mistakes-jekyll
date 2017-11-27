@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T14:11:14-05:00
 ---
 
-PaperFaces portrait of [@hjalle](http://twitter.com/hjalle).
+PaperFaces portrait of [@hjalle](https://twitter.com/hjalle).
 
 {% include boilerplate/paperfaces-4.md %}
 

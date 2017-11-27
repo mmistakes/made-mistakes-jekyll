@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@davecowart](http://twitter.com/davecowart). Was feeling under the weather when I painted this, but the show must go on!
+PaperFaces portrait of [@davecowart](https://twitter.com/davecowart). Was feeling under the weather when I painted this, but the show must go on!
 
 {% include boilerplate/paperfaces.md %}
 

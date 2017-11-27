@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@alittlebluestar](http://twitter.com/alittlebluestar).
+PaperFaces portrait of [@alittlebluestar](https://twitter.com/alittlebluestar).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, tattoo]
 ---
 
-PaperFaces portrait of [@ohhoe](http://twitter.com/ohhoe).
+PaperFaces portrait of [@ohhoe](https://twitter.com/ohhoe).
 
 {% include boilerplate/paperfaces.md %}

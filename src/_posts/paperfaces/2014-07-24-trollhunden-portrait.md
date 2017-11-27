@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@Trollhunden](http://twitter.com/trollhunden).
+PaperFaces portrait of [@Trollhunden](https://twitter.com/trollhunden).
 
 {% include boilerplate/paperfaces-2.md %}
 

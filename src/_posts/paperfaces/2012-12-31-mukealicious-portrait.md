@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@mukealicious](http://twitter.com/mukealicious).
+PaperFaces portrait of [@mukealicious](https://twitter.com/mukealicious).
 
 {% include boilerplate/paperfaces.md %}

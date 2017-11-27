@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@tinyrach](http://twitter.com/tinyrach).
+PaperFaces portrait of [@tinyrach](https://twitter.com/tinyrach).
 
 {% include boilerplate/paperfaces.md %}

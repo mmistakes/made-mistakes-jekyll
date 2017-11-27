@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@superbeffie](http://twitter.com/superbeffie).
+PaperFaces portrait of [@superbeffie](https://twitter.com/superbeffie).
 
 {% include boilerplate/paperfaces.md %}

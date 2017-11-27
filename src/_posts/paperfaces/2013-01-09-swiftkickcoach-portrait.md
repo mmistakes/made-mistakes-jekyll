@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@SwiftKickCoach_](http://twitter.com/SwiftKickCoach_).
+PaperFaces portrait of [@SwiftKickCoach_](https://twitter.com/SwiftKickCoach_).
 
 {% include boilerplate/paperfaces.md %}

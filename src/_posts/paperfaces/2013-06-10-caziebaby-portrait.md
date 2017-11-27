@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, tattoo]
 ---
 
-PaperFaces portrait of [@caziebaby](http://twitter.com/caziebaby).
+PaperFaces portrait of [@caziebaby](https://twitter.com/caziebaby).
 
 {% include boilerplate/paperfaces-2.md %}

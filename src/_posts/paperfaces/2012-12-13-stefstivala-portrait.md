@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@stefstivala](http://twitter.com/stefstivala).
+PaperFaces portrait of project donator [@stefstivala](https://twitter.com/stefstivala).
 
 {% include boilerplate/paperfaces.md %}

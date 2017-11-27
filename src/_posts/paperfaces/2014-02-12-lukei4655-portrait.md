@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, beard]
 last_modified_at: 2017-01-17T14:55:36-05:00
 ---
 
-PaperFaces portrait of [@lukei4655](http://twitter.com/lukei4655).
+PaperFaces portrait of [@lukei4655](https://twitter.com/lukei4655).
 
 {% include boilerplate/paperfaces-2.md %}
 

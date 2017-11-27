@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@andrewjclark](http://twitter.com/andrewjclark).
+PaperFaces portrait of [@andrewjclark](https://twitter.com/andrewjclark).
 
 {% include boilerplate/paperfaces-2.md %}
 

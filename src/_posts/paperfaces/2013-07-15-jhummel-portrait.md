@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@jhummel](http://twitter.com/jhummel).
+PaperFaces portrait of [@jhummel](https://twitter.com/jhummel).
 
 {% include boilerplate/paperfaces-2.md %}
 

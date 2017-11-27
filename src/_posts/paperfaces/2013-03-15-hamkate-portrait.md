@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@hamkate](http://twitter.com/hamkate).
+PaperFaces portrait of [@hamkate](https://twitter.com/hamkate).
 
 {% include boilerplate/paperfaces.md %}

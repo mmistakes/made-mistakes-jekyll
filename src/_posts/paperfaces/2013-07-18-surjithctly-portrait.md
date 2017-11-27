@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@surjithctly](http://twitter.com/surjithctly) for featuring my project on [Side Projects](http://sideprojects.web3canvas.com/post/55332574657/paperfaces-project-an-experiment-in-humanizing).
+PaperFaces portrait of [@surjithctly](https://twitter.com/surjithctly) for featuring my project on [Side Projects](http://sideprojects.web3canvas.com/post/55332574657/paperfaces-project-an-experiment-in-humanizing).
 
 {% include boilerplate/paperfaces-2.md %}
 

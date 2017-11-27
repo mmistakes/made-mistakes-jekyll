@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@cormacrelf](http://twitter.com/cormacrelf).
+PaperFaces portrait of [@cormacrelf](https://twitter.com/cormacrelf).
 
 {% include boilerplate/paperfaces-2.md %}
 

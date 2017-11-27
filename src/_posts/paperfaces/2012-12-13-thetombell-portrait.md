@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@thetombell](http://twitter.com/thetombell).
+PaperFaces portrait of project donator [@thetombell](https://twitter.com/thetombell).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@normanholz](http://twitter.com/normanholz).
+PaperFaces portrait of [@normanholz](https://twitter.com/normanholz).
 
 {% include boilerplate/paperfaces.md %}

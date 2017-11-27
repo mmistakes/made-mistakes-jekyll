@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 last_modified_at: 2017-01-17T12:48:41-05:00
 ---
 
-PaperFaces portrait of [@d0ugal](http://twitter.com/d0ugal).
+PaperFaces portrait of [@d0ugal](https://twitter.com/d0ugal).
 
 {% include boilerplate/paperfaces-2.md %}
 

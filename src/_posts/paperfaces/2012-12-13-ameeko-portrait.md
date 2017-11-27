@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ameeko](http://twitter.com/ameeko).
+PaperFaces portrait of [@ameeko](https://twitter.com/ameeko).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@rasmusfisker](http://twitter.com/rasmusfisker).
+PaperFaces portrait of [@rasmusfisker](https://twitter.com/rasmusfisker).
 
 {% include boilerplate/paperfaces.md %}

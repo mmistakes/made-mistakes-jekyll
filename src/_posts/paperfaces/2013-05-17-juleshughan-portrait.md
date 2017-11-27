@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@juleshughan](http://twitter.com/juleshughan).
+PaperFaces portrait of [@juleshughan](https://twitter.com/juleshughan).
 
 {% include boilerplate/paperfaces.md %}

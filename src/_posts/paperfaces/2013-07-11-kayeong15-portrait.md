@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@kayeong15](http://twitter.com/kayeong15).
+PaperFaces portrait of [@kayeong15](https://twitter.com/kayeong15).
 
 {% include boilerplate/paperfaces-2.md %}

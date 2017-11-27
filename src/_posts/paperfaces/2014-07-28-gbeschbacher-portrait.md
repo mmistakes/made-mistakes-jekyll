@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Gbeschbacher](http://twitter.com/gbeschbacher).
+PaperFaces portrait of [@Gbeschbacher](https://twitter.com/gbeschbacher).
 
 {% include boilerplate/paperfaces-2.md %}
 

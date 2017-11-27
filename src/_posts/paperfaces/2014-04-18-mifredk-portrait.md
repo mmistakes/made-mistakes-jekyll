@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:02:50-05:00
 ---
 
-PaperFaces portrait of [@mifredk](http://twitter.com/mifredk).
+PaperFaces portrait of [@mifredk](https://twitter.com/mifredk).
 
 {% include boilerplate/paperfaces-2.md %}
 

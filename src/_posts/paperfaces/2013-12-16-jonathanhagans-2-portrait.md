@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 
 Another rare appearance of actual faces…
 
-PaperFaces portrait commission for <a href="http://twitter.com/jonathanhagans">@jonathanhagans</a>.
+PaperFaces portrait commission for <a href="https://twitter.com/jonathanhagans">@jonathanhagans</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

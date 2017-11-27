@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@timothykrell](http://twitter.com/timothykrell).
+PaperFaces portrait of [@timothykrell](https://twitter.com/timothykrell).
 
 {% include boilerplate/paperfaces-2.md %}
 

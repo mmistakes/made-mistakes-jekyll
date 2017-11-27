@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@JonGretar](http://twitter.com/jongretar).
+PaperFaces portrait of [@JonGretar](https://twitter.com/jongretar).
 
 {% include boilerplate/paperfaces-2.md %}
 

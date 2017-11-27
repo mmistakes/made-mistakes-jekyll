@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@liamdaly](http://twitter.com/liamdaly).
+PaperFaces portrait of project donator [@liamdaly](https://twitter.com/liamdaly).
 
 {% include boilerplate/paperfaces.md %}

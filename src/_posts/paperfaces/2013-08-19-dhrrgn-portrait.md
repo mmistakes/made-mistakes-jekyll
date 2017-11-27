@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@dhrrgn](http://twitter.com/dhrrgn).
+PaperFaces portrait of [@dhrrgn](https://twitter.com/dhrrgn).
 
 {% include boilerplate/paperfaces-2.md %}
 

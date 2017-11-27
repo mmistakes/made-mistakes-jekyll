@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@doertedev](http://twitter.com/doertedev).
+PaperFaces portrait of [@doertedev](https://twitter.com/doertedev).
 
 {% include boilerplate/paperfaces.md %}

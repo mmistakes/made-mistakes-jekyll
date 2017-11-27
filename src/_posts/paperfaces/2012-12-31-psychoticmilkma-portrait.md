@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard, time lapse]
 ---
 
-PaperFaces portrait of project donator [@psychoticmilkma](http://twitter.com/psychoticmilkma).
+PaperFaces portrait of project donator [@psychoticmilkma](https://twitter.com/psychoticmilkma).
 
 {% include boilerplate/paperfaces.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@PatrickLeary](http://twitter.com/PatrickLeary).
+PaperFaces portrait of [@PatrickLeary](https://twitter.com/PatrickLeary).
 
 {% include boilerplate/paperfaces.md %}

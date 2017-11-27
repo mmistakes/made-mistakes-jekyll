@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@andrew-shaw23](http://twitter.com/andrew-shaw23).
+PaperFaces portrait of [@andrew-shaw23](https://twitter.com/andrew-shaw23).
 
 {% include boilerplate/paperfaces.md %}

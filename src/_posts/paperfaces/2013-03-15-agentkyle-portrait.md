@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@AgentKyle](http://twitter.com/AgentKyle).
+PaperFaces portrait of [@AgentKyle](https://twitter.com/AgentKyle).
 
 {% include boilerplate/paperfaces.md %}

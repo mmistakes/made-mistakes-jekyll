@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@BenjaminZAMayo](http://twitter.com/BenjaminZAMayo).
+PaperFaces portrait of [@BenjaminZAMayo](https://twitter.com/BenjaminZAMayo).
 
 {% include boilerplate/paperfaces.md %}

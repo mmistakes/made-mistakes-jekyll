@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:51:21-05:00
 ---
 
-PaperFaces portrait of [@rdraether](http://twitter.com/rdraether).
+PaperFaces portrait of [@rdraether](https://twitter.com/rdraether).
 
 {% include boilerplate/paperfaces-2.md %}
 

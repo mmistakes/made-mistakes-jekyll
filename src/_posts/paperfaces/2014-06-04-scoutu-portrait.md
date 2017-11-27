@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@scoutu](http://twitter.com/scoutu).
+PaperFaces portrait of [@scoutu](https://twitter.com/scoutu).
 
 {% include boilerplate/paperfaces-2.md %}
 

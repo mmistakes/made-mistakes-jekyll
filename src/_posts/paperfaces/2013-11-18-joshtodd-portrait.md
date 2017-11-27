@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/JoshTodd">@JoshTodd</a>.
+PaperFaces portrait of <a href="https://twitter.com/JoshTodd">@JoshTodd</a>.
 
 {% include boilerplate/paperfaces-3.md %}
 

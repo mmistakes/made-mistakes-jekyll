@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@svendahlstrand](http://twitter.com/svendahlstrand).
+PaperFaces portrait of [@svendahlstrand](https://twitter.com/svendahlstrand).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:41:17-05:00
 ---
 
-PaperFaces portrait of [@ZombieProcess](http://twitter.com/zombieprocess).
+PaperFaces portrait of [@ZombieProcess](https://twitter.com/zombieprocess).
 
 {% include boilerplate/paperfaces-4.md %}
 

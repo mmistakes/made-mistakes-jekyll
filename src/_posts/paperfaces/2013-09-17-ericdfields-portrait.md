@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, grass]
 ---
 
-PaperFaces portrait of [@ericdfields](http://twitter.com/ericdfields).
+PaperFaces portrait of [@ericdfields](https://twitter.com/ericdfields).
 
 {% include boilerplate/paperfaces-2.md %}
 

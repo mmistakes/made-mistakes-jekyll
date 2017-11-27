@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ssetlik](http://twitter.com/ssetlik).
+PaperFaces portrait of [@ssetlik](https://twitter.com/ssetlik).
 
 {% include boilerplate/paperfaces.md %}

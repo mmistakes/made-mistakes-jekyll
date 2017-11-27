@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@nick_aylward](http://twitter.com/nick_aylward).
+PaperFaces portrait of project donator [@nick_aylward](https://twitter.com/nick_aylward).
 
 {% include boilerplate/paperfaces.md %}

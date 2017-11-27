@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@hergimerc](http://twitter.com/hergimerc).
+PaperFaces portrait of [@hergimerc](https://twitter.com/hergimerc).
 
 {% include boilerplate/paperfaces.md %}

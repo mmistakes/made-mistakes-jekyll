@@ -16,7 +16,7 @@ At this speed it can be hard to observe exactly what is going on and looks more 
 
 Even at 17 minutes it's fairly boring to watch, but maybe 2 or 3 of you will enjoy it.
 
-PaperFaces portrait of [@thenimesh](http://twitter.com/thenimesh).
+PaperFaces portrait of [@thenimesh](https://twitter.com/thenimesh).
 
 {% youtube s4WEGH5r-1c %}
 

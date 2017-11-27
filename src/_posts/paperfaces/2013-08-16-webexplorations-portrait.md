@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait commissioned by [@WebExplorations](http://twitter.com/webexplorations).
+PaperFaces portrait commissioned by [@WebExplorations](https://twitter.com/webexplorations).
 
 {% include boilerplate/paperfaces-2.md %}
 

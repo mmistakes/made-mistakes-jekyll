@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces portrait of [@jameswestnz](http://twitter.com/jameswestnz).
+PaperFaces portrait of [@jameswestnz](https://twitter.com/jameswestnz).
 
 {% include boilerplate/paperfaces-2.md %}
 

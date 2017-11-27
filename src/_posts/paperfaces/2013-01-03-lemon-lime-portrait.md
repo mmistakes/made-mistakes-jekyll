@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@lemon_lime](http://twitter.com/lemon_lime).
+PaperFaces portrait of [@lemon_lime](https://twitter.com/lemon_lime).
 
 {% include boilerplate/paperfaces.md %}

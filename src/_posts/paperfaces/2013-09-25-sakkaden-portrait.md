@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait commissioned by <a href="http://twitter.com/sakkaden">@sakkaden</a>.
+PaperFaces portrait commissioned by <a href="https://twitter.com/sakkaden">@sakkaden</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

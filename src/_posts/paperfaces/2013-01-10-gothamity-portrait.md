@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@gothamity](http://twitter.com/gothamity).
+PaperFaces portrait of [@gothamity](https://twitter.com/gothamity).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of project donator [@timespace](http://twitter.com/timespace).
+PaperFaces portrait of project donator [@timespace](https://twitter.com/timespace).
 
 {% include boilerplate/paperfaces.md %}

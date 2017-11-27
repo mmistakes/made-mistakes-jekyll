@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@spasstiii](http://twitter.com/spasstiii).
+PaperFaces portrait of [@spasstiii](https://twitter.com/spasstiii).
 
 {% include boilerplate/paperfaces.md %}
 

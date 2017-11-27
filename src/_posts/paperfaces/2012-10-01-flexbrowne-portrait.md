@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@flexbrowne](http://twitter.com/flexbrowne).
+PaperFaces portrait of [@flexbrowne](https://twitter.com/flexbrowne).
 
 {% include boilerplate/paperfaces.md %}

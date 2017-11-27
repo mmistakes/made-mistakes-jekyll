@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 
-PaperFaces portrait of [@jayperdue](http://twitter.com/jayperdue).
+PaperFaces portrait of [@jayperdue](https://twitter.com/jayperdue).
 
 {% include boilerplate/paperfaces-4.md %}
 

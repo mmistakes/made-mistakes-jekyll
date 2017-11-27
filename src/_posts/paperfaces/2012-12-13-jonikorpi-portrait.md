@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@jonikorpi](http://twitter.com/jonikorpi).
+PaperFaces portrait of [@jonikorpi](https://twitter.com/jonikorpi).
 
 {% include boilerplate/paperfaces.md %}

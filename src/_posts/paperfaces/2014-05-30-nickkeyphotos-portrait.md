@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@nickkeyphotos](http://twitter.com/nickkeyphotos).
+PaperFaces portrait of [@nickkeyphotos](https://twitter.com/nickkeyphotos).
 
 {% include boilerplate/paperfaces-2.md %}
 

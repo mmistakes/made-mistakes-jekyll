@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@brackin](http://twitter.com/brackin).
+PaperFaces portrait of [@brackin](https://twitter.com/brackin).
 
 {% include boilerplate/paperfaces.md %}

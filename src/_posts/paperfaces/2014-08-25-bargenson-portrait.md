@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@bargenson](http://twitter.com/bargenson).
+PaperFaces portrait of [@bargenson](https://twitter.com/bargenson).
 
 {% include boilerplate/paperfaces-2.md %}
 

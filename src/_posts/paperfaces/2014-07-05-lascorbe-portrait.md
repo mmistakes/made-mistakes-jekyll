@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@Lascorbe](http://twitter.com/Lascorbe).
+PaperFaces portrait of [@Lascorbe](https://twitter.com/Lascorbe).
 
 {% include boilerplate/paperfaces-2.md %}
 

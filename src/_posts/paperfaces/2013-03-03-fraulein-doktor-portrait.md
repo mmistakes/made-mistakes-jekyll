@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@fraulein_doktor](http://twitter.com/fraulein_doktor).
+PaperFaces portrait of [@fraulein_doktor](https://twitter.com/fraulein_doktor).
 
 {% include boilerplate/paperfaces.md %}

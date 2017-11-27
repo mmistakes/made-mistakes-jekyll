@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces portrait of [@adolvsson](http://twitter.com/adolvsson).
+PaperFaces portrait of [@adolvsson](https://twitter.com/adolvsson).
 
 {% include boilerplate/paperfaces-2.md %}
 

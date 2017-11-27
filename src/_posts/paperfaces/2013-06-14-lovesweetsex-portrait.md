@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@lovesweetsex](http://twitter.com/lovesweetsex).
+PaperFaces portrait of project donator [@lovesweetsex](https://twitter.com/lovesweetsex).
 
 {% include boilerplate/paperfaces-2.md %}
 

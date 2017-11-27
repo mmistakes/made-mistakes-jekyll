@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@JFSkjaerbaek](http://twitter.com/JFSkjaerbaek).
+PaperFaces portrait of [@JFSkjaerbaek](https://twitter.com/JFSkjaerbaek).
 
 {% include boilerplate/paperfaces.md %}

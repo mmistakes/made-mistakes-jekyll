@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@bulletproofjenn](http://twitter.com/bulletproofjenn).
+PaperFaces portrait of [@bulletproofjenn](https://twitter.com/bulletproofjenn).
 
 {% include boilerplate/paperfaces.md %}

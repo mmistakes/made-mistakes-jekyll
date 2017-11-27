@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/alec_schmidt">@alec_schmidt</a>.
+PaperFaces portrait of <a href="https://twitter.com/alec_schmidt">@alec_schmidt</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

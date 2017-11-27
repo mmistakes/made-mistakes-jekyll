@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait of project donator [@ijango](http://twitter.com/ijango).
+PaperFaces portrait of project donator [@ijango](https://twitter.com/ijango).
 
 {% include boilerplate/paperfaces.md %}
 

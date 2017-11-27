@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/manntaclaus">@manntaclaus</a>.
+PaperFaces portrait of <a href="https://twitter.com/manntaclaus">@manntaclaus</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

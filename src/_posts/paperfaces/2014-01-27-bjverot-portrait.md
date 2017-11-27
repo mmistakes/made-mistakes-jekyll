@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T16:12:36-05:00
 ---
 
-PaperFaces portrait of [@BJVerot](http://twitter.com/BJVerot).
+PaperFaces portrait of [@BJVerot](https://twitter.com/BJVerot).
 
 {% include boilerplate/paperfaces-2.md %}
 

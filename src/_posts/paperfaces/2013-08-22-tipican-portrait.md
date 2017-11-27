@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@tipican](http://twitter.com/tipican).
+PaperFaces portrait of [@tipican](https://twitter.com/tipican).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@sbrolins](http://twitter.com/sbrolins). Painting a sky or water is very rewarding with Paper by 53, because with little effort you can create a masterpiece.
+PaperFaces portrait of [@sbrolins](https://twitter.com/sbrolins). Painting a sky or water is very rewarding with Paper by 53, because with little effort you can create a masterpiece.
 
 There really wasn't much to this landscape --- just a few layers of light red orange that fade into the horizon, and pink pencil strokes for the clouds. The beach is made up of dull blue violet watercolor layers, topped with light pencil strokes to create a sand texture.
 

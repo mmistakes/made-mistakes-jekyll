@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait commission of [@Sprinkles68](http://twitter.com/Sprinkles68).
+PaperFaces portrait commission of [@Sprinkles68](https://twitter.com/Sprinkles68).
 
 {% include boilerplate/paperfaces-2.md %}
 

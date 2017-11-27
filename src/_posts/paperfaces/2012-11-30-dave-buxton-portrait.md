@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@Dave_Buxton](http://twitter.com/Dave_Buxton).
+PaperFaces portrait of project donator [@Dave_Buxton](https://twitter.com/Dave_Buxton).
 
 {% include boilerplate/paperfaces.md %}

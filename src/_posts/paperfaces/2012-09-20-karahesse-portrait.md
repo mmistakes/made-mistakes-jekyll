@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@karahesse](http://twitter.com/karahesse).
+PaperFaces portrait of [@karahesse](https://twitter.com/karahesse).
 
 {% include boilerplate/paperfaces.md %}

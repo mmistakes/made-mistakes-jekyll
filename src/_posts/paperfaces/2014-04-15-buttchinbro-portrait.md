@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, blend]
 last_modified_at: 2017-01-17T14:05:26-05:00
 ---
 
-PaperFaces portrait of [@ButtChinBro](http://twitter.com/ButtChinBro).
+PaperFaces portrait of [@ButtChinBro](https://twitter.com/ButtChinBro).
 
 {% include boilerplate/paperfaces-4.md %}
 

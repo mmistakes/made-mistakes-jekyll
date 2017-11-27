@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:17:01-05:00
 ---
 
-PaperFaces portrait of [@cellguru](http://twitter.com/cellguru).
+PaperFaces portrait of [@cellguru](https://twitter.com/cellguru).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@cleberwsantos](http://twitter.com/cleberwsantos).
+PaperFaces portrait of [@cleberwsantos](https://twitter.com/cleberwsantos).
 
 {% include boilerplate/paperfaces-2.md %}
 

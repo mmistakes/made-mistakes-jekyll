@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces avatar portrait of <a href="http://twitter.com/domigan">@domigan</a>.
+PaperFaces avatar portrait of <a href="https://twitter.com/domigan">@domigan</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

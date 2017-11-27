@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@iMuggle](http://twitter.com/iMuggle).
+PaperFaces portrait of [@iMuggle](https://twitter.com/iMuggle).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@Lemberg](http://twitter.com/lemberg).
+PaperFaces portrait of [@Lemberg](https://twitter.com/lemberg).
 
 {% figure caption:"Sketching out a face with the pencil tool." %}
 [![](/assets/images/paperfaces-lemberg-process-1-750.jpg)](/assets/images/paperfaces-lemberg-process-1-lg.jpg)

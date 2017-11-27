@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, Google Glass]
 last_modified_at: 2017-01-17T14:04:41-05:00
 ---
 
-PaperFaces portrait of [@mikeredmer](http://twitter.com/mikeredmer).
+PaperFaces portrait of [@mikeredmer](https://twitter.com/mikeredmer).
 
 {% include boilerplate/paperfaces-2.md %}
 

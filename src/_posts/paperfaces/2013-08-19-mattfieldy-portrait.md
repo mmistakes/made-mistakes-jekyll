@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, 8-bit, beard]
 ---
 
-PaperFaces portrait of [@mattfieldy](http://twitter.com/mattfieldy).
+PaperFaces portrait of [@mattfieldy](https://twitter.com/mattfieldy).
 
 {% include boilerplate/paperfaces-2.md %}
 

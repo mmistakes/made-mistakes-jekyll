@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@acostamt](http://twitter.com/acostamt).
+PaperFaces portrait of [@acostamt](https://twitter.com/acostamt).
 
 {% include boilerplate/paperfaces.md %}

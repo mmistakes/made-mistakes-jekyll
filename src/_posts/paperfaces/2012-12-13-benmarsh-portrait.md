@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@benmarsh](http://twitter.com/benmarsh).
+PaperFaces portrait of [@benmarsh](https://twitter.com/benmarsh).
 
 {% include boilerplate/paperfaces.md %}

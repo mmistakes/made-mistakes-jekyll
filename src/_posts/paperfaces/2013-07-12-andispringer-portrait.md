@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@andispringer](http://twitter.com/andispringer). If you haven't noticed a theme yet --- I tend to draw a full face when working in black and white.
+PaperFaces portrait of [@andispringer](https://twitter.com/andispringer). If you haven't noticed a theme yet --- I tend to draw a full face when working in black and white.
 
 {% include boilerplate/paperfaces-2.md %}
 

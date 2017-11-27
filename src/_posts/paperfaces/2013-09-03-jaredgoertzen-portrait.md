@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@jaredgoertzen](http://twitter.com/jaredgoertzen).
+PaperFaces portrait of [@jaredgoertzen](https://twitter.com/jaredgoertzen).
 
 {% include boilerplate/paperfaces-2.md %}
 

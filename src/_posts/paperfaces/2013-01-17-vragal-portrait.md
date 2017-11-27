@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Vragal](http://twitter.com/Vragal).
+PaperFaces portrait of [@Vragal](https://twitter.com/Vragal).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@lmichelleinc](http://twitter.com/lmichelleinc).
+PaperFaces portrait of [@lmichelleinc](https://twitter.com/lmichelleinc).
 
 {% include boilerplate/paperfaces-2.md %}
 

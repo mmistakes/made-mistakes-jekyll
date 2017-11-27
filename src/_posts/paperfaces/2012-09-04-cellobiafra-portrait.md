@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@cellobiafra](http://twitter.com/cellobiafra).
+PaperFaces portrait of [@cellobiafra](https://twitter.com/cellobiafra).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@allegedlymark](http://twitter.com/allegedlymark).
+PaperFaces portrait of [@allegedlymark](https://twitter.com/allegedlymark).
 
 {% include boilerplate/paperfaces.md %}

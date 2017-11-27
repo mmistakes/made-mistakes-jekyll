@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@cahnory](http://twitter.com/cahnory).
+PaperFaces portrait of [@cahnory](https://twitter.com/cahnory).
 
 {% include boilerplate/paperfaces-2.md %}
 

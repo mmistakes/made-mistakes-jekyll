@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@mikkelmarius](http://twitter.com/mikkelmarius).
+PaperFaces portrait of [@mikkelmarius](https://twitter.com/mikkelmarius).
 
 {% include boilerplate/paperfaces-2.md %}

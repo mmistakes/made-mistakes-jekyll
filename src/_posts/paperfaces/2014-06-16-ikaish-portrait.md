@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, bokeh, blend]
 ---
 
-PaperFaces portrait of [@ikaish](http://twitter.com/ikaish).
+PaperFaces portrait of [@ikaish](https://twitter.com/ikaish).
 
 {% include boilerplate/paperfaces-4.md %}
 

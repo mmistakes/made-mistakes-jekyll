@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ihamzadev](http://twitter.com/ihamzadev).
+PaperFaces portrait of [@ihamzadev](https://twitter.com/ihamzadev).
 
 {% include boilerplate/paperfaces.md %}

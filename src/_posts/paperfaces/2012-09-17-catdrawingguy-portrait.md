@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@CatDrawingGuy](http://twitter.com/CatDrawingGuy).
+PaperFaces portrait of [@CatDrawingGuy](https://twitter.com/CatDrawingGuy).
 
 {% include boilerplate/paperfaces.md %}

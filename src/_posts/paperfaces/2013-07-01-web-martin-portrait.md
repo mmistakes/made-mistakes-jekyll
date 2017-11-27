@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@web_martin](http://twitter.com/web_martin).
+PaperFaces portrait of [@web_martin](https://twitter.com/web_martin).
 
 {% include boilerplate/paperfaces-2.md %}
 

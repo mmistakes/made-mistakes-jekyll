@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, beard, black and white, blend]
 last_modified_at: 2017-09-07T16:15:33-04:00
 ---
 
-PaperFaces portrait of [@jessebc](http://twitter.com/jessebc).
+PaperFaces portrait of [@jessebc](https://twitter.com/jessebc).
 
 {% include boilerplate/paperfaces-3.md %}
 

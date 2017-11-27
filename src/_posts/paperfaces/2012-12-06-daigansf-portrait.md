@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@Daigansf](http://twitter.com/Daigansf).
+PaperFaces portrait of [@Daigansf](https://twitter.com/Daigansf).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@quimeraimantada](http://twitter.com/quimeraimantada).
+PaperFaces portrait of [@quimeraimantada](https://twitter.com/quimeraimantada).
 
 {% include boilerplate/paperfaces.md %}

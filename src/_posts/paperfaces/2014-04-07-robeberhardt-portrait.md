@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:09:41-05:00
 ---
 
-PaperFaces portrait of [@robeberhardt](http://twitter.com/robeberhardt).
+PaperFaces portrait of [@robeberhardt](https://twitter.com/robeberhardt).
 
 {% include boilerplate/paperfaces-2.md %}
 

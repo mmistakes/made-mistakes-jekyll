@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@josephedjohn](http://twitter.com/josephedjohn).
+PaperFaces portrait of project donator [@josephedjohn](https://twitter.com/josephedjohn).
 
 {% include boilerplate/paperfaces.md %}

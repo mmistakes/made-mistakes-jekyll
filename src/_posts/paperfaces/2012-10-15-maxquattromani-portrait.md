@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces portrait of [@maxquattromani](http://twitter.com/maxquattromani).
+PaperFaces portrait of [@maxquattromani](https://twitter.com/maxquattromani).
 
 {% include boilerplate/paperfaces.md %}

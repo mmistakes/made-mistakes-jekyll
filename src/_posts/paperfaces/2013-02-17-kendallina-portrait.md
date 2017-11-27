@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@kendallina](http://twitter.com/kendallina).
+PaperFaces portrait of [@kendallina](https://twitter.com/kendallina).
 
 {% include boilerplate/paperfaces.md %}

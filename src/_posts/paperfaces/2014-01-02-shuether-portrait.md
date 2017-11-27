@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@shuether](http://twitter.com/shuether).
+PaperFaces portrait of [@shuether](https://twitter.com/shuether).
 
 {% include boilerplate/paperfaces-2.md %}
 

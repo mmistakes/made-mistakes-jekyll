@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, 8-bit]
 ---
 
-PaperFaces portrait of [@rkrismcneely](http://twitter.com/rkrismcneely).
+PaperFaces portrait of [@rkrismcneely](https://twitter.com/rkrismcneely).
 
 {% include boilerplate/paperfaces.md %}
 

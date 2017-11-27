@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@mentalground0](http://twitter.com/mentalground0).
+PaperFaces portrait of [@mentalground0](https://twitter.com/mentalground0).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of project donator [@zachfulkerson](http://twitter.com/zachfulkerson)
+PaperFaces portrait of project donator [@zachfulkerson](https://twitter.com/zachfulkerson)
 
 {% include boilerplate/paperfaces.md %}

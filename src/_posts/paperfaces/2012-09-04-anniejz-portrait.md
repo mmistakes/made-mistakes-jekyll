@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@anniejz](http://twitter.com/anniejz).
+PaperFaces portrait of [@anniejz](https://twitter.com/anniejz).
 
 {% include boilerplate/paperfaces.md %}

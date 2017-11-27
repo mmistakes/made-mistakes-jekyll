@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/pedroloo">@pedroloo</a>.
+PaperFaces portrait of <a href="https://twitter.com/pedroloo">@pedroloo</a>.
 
 * **Stylus:** None
 * **Application:** [Paper by FiftyThree for iOS](http://www.fiftythree.com/paper)

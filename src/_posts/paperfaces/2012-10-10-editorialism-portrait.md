@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@editorialism](http://twitter.com/editorialism).
+PaperFaces portrait of [@editorialism](https://twitter.com/editorialism).
 
 {% include boilerplate/paperfaces.md %}

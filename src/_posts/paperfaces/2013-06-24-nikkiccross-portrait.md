@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@nikkiccross](http://twitter.com/nikkiccross).
+PaperFaces portrait of [@nikkiccross](https://twitter.com/nikkiccross).
 
 {% include boilerplate/paperfaces-2.md %}

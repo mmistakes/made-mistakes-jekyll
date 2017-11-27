@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:07:22-05:00
 ---
 
-PaperFaces portrait of [@johntwolives](http://twitter.com/johntwolives).
+PaperFaces portrait of [@johntwolives](https://twitter.com/johntwolives).
 
 {% include boilerplate/paperfaces-2.md %}
 

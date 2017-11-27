@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, bokeh, blend]
 ---
 
-PaperFaces portrait of [@IvanHCSim](http://twitter.com/IvanHCSim).
+PaperFaces portrait of [@IvanHCSim](https://twitter.com/IvanHCSim).
 
 {% include boilerplate/paperfaces-4.md %}
 

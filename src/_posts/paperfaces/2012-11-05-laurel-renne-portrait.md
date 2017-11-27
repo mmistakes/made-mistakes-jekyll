@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Laurel_Renee](http://twitter.com/Laurel_Renee).
+PaperFaces portrait of [@Laurel_Renee](https://twitter.com/Laurel_Renee).
 
 {% include boilerplate/paperfaces.md %}

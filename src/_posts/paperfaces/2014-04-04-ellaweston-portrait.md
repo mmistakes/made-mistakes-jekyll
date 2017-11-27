@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:16:17-05:00
 ---
 
-PaperFaces portrait of [@ellaweston](http://twitter.com/ellaweston).
+PaperFaces portrait of [@ellaweston](https://twitter.com/ellaweston).
 
 {% include boilerplate/paperfaces-2.md %}
 

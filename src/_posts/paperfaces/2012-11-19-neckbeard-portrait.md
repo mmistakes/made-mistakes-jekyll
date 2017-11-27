@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@_neckbeard](http://twitter.com/_neckbeard).
+PaperFaces portrait of project donator [@_neckbeard](https://twitter.com/_neckbeard).
 
 {% include boilerplate/paperfaces.md %}

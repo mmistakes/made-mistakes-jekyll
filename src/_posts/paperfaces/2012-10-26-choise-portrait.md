@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@choise](http://twitter.com/choise).
+PaperFaces portrait of [@choise](https://twitter.com/choise).
 
 {% include boilerplate/paperfaces.md %}

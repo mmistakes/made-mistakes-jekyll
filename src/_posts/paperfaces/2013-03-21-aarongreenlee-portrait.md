@@ -9,6 +9,6 @@ tags: [portrait, illustration, Paper by 53]
 comments: true
 ---
 
-PaperFaces portrait of [@aarongreenlee](http://twitter.com/aarongreenlee).
+PaperFaces portrait of [@aarongreenlee](https://twitter.com/aarongreenlee).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@Jenny_Smyth](http://twitter.com/Jenny_Smyth).
+PaperFaces portrait of [@Jenny_Smyth](https://twitter.com/Jenny_Smyth).
 
 {% include boilerplate/paperfaces-2.md %}
 

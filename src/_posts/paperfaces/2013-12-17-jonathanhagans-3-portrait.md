@@ -12,7 +12,7 @@ Not sure if I'm going to stick with the faces or not. Part of me thinks photo-re
 
 But at the same time it has been fun approaching these portraits in a new way to avoid repeating myself. Working with the pencil tool and shading before applying watercolors gives the illustrations a different feel that I'm digging at the moment.
 
-PaperFaces portrait commission for <a href="http://twitter.com/jonathanhagans">@jonathanhagans</a>.
+PaperFaces portrait commission for <a href="https://twitter.com/jonathanhagans">@jonathanhagans</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

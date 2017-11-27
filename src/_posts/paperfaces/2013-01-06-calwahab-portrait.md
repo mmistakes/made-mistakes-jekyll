@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@calwahab](http://twitter.com/calwahab).
+PaperFaces portrait of [@calwahab](https://twitter.com/calwahab).
 
 {% include boilerplate/paperfaces.md %}

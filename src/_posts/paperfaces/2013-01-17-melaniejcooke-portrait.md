@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@melaniejcooke](http://twitter.com/melaniejcooke).
+PaperFaces portrait of [@melaniejcooke](https://twitter.com/melaniejcooke).
 
 {% include boilerplate/paperfaces.md %}

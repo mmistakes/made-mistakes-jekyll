@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@KingSpaceLaser](http://twitter.com/KingSpaceLaser).
+PaperFaces portrait of [@KingSpaceLaser](https://twitter.com/KingSpaceLaser).
 
 {% include boilerplate/paperfaces.md %}

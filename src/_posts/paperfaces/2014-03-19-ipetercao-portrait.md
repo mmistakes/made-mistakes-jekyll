@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:25:53-05:00
 ---
 
-PaperFaces portrait of [@iPeterCao](http://twitter.com/iPeterCao).
+PaperFaces portrait of [@iPeterCao](https://twitter.com/iPeterCao).
 
 {% include boilerplate/paperfaces-2.md %}
 

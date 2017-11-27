@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@rossbelmont](http://twitter.com/rossbelmont).
+PaperFaces portrait of [@rossbelmont](https://twitter.com/rossbelmont).
 
 {% include boilerplate/paperfaces-2.md %}
 

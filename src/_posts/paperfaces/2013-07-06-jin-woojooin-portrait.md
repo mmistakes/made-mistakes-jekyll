@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@JIN_woojooin](http://twitter.com/JIN_woojooin).
+PaperFaces portrait of [@JIN_woojooin](https://twitter.com/JIN_woojooin).
 
 {% include boilerplate/paperfaces-2.md %}
 

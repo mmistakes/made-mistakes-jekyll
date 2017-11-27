@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/Annekoehler">@Annekoehler</a>.
+PaperFaces portrait of <a href="https://twitter.com/Annekoehler">@Annekoehler</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

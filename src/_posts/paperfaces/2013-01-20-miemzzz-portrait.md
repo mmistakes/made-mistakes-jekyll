@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@MiemZzz](http://twitter.com/MiemZzz).
+PaperFaces portrait of [@MiemZzz](https://twitter.com/MiemZzz).
 
 {% include boilerplate/paperfaces.md %}

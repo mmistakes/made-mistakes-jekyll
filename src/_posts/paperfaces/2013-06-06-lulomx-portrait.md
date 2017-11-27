@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, Google Glass]
 ---
 
-PaperFaces portrait of [@lulomx](http://twitter.com/lulomx).
+PaperFaces portrait of [@lulomx](https://twitter.com/lulomx).
 
 {% include boilerplate/paperfaces-2.md %}

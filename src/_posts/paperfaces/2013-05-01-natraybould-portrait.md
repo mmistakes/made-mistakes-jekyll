@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-Glasses shooting lasers. PaperFaces portrait of [@NatRaybould](http://twitter.com/NatRaybould).
+Glasses shooting lasers. PaperFaces portrait of [@NatRaybould](https://twitter.com/NatRaybould).
 
 {% include boilerplate/paperfaces.md %}

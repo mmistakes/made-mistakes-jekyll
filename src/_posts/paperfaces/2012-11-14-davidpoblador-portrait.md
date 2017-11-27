@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@davidpoblador](http://twitter.com/davidpoblador).
+PaperFaces portrait of [@davidpoblador](https://twitter.com/davidpoblador).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, mustache]
 ---
 
-PaperFaces portrait of [@genelocklin](http://twitter.com/genelocklin).
+PaperFaces portrait of [@genelocklin](https://twitter.com/genelocklin).
 
 {% include boilerplate/paperfaces-2.md %}
 

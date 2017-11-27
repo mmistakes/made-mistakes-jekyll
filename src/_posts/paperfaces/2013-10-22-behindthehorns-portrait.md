@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of <a href="http://twitter.com/BehindTheHorns">@BehindTheHorns</a>.
+PaperFaces portrait of <a href="https://twitter.com/BehindTheHorns">@BehindTheHorns</a>.
 
 {% include boilerplate/paperfaces-2.md %}
 

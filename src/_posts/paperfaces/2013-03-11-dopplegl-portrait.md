@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@dopplegl](http://twitter.com/dopplegl).
+PaperFaces portrait of [@dopplegl](https://twitter.com/dopplegl).
 
 {% include boilerplate/paperfaces.md %}

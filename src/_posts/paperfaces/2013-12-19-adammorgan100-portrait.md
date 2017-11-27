@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 What's with all the full faces lately you ask? Well let's just say I set a challenge for myself to see how much detail I can capture in an hour or two. No 20 hour marathon digital painting sessions for me!
 
-PaperFaces portrait commission for [@adammorgan100](http://twitter.com/adammorgan100).
+PaperFaces portrait commission for [@adammorgan100](https://twitter.com/adammorgan100).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait portrait of [@jasonact](http://twitter.com/jasonact).
+PaperFaces portrait portrait of [@jasonact](https://twitter.com/jasonact).
 
 {% include boilerplate/paperfaces-2.md %}
 

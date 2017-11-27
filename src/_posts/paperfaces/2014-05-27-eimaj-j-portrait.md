@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:45:56-05:00
 ---
 
-PaperFaces portrait of [@eimaj_j](http://twitter.com/eimaj_j).
+PaperFaces portrait of [@eimaj_j](https://twitter.com/eimaj_j).
 
 {% include boilerplate/paperfaces-2.md %}
 

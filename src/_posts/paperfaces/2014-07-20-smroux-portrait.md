@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@smroux](http://twitter.com/smroux).
+PaperFaces portrait of [@smroux](https://twitter.com/smroux).
 
 {% include boilerplate/paperfaces-2.md %}
 

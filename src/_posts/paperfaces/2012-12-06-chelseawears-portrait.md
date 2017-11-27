@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ChelseaWears](http://twitter.com/ChelseaWears).
+PaperFaces portrait of [@ChelseaWears](https://twitter.com/ChelseaWears).
 
 {% include boilerplate/paperfaces.md %}

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 
-PaperFaces portrait commissioned of [@sarelrivera](http://twitter.com/sarelrivera).
+PaperFaces portrait commissioned of [@sarelrivera](https://twitter.com/sarelrivera).
 
 {% include boilerplate/paperfaces.md %}
 

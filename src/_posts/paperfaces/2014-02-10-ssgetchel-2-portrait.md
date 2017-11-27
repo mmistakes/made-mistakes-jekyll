@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:57:07-05:00
 ---
 
-PaperFaces portrait of [@ssgetchel](http://twitter.com/ssgetchel).
+PaperFaces portrait of [@ssgetchel](https://twitter.com/ssgetchel).
 
 {% include boilerplate/paperfaces-2.md %}
 

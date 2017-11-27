@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of project donator [@eberth](http://twitter.com/eberth).
+PaperFaces portrait of project donator [@eberth](https://twitter.com/eberth).
 
 {% include boilerplate/paperfaces.md %}

@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, bokeh, black and white]
 ---
 
-PaperFaces portrait of [@mosiejczuk](http://twitter.com/mosiejczuk).
+PaperFaces portrait of [@mosiejczuk](https://twitter.com/mosiejczuk).
 
 {% include boilerplate/paperfaces-2.md %}
 

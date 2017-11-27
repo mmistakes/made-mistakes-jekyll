@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@ViktoriaDeRoy](http://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from my first [portrait giveaway]({% post_url /articles/2014-08-24-paperfaces-giveaway %}).
+PaperFaces portrait of [@ViktoriaDeRoy](https://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from my first [portrait giveaway]({% post_url /articles/2014-08-24-paperfaces-giveaway %}).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of project donator [@glennsharron](http://twitter.com/glennsharron).
+PaperFaces portrait of project donator [@glennsharron](https://twitter.com/glennsharron).
 
 {% include boilerplate/paperfaces.md %}

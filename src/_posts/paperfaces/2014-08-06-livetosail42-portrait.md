@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@livetosail42](http://twitter.com/livetosail42).
+PaperFaces portrait of [@livetosail42](https://twitter.com/livetosail42).
 
 {% include boilerplate/paperfaces-2.md %}
 

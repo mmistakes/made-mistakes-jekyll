@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@pete_himself](http://twitter.com/pete_himself).
+PaperFaces portrait of [@pete_himself](https://twitter.com/pete_himself).
 
 {% include boilerplate/paperfaces-2.md %}
 

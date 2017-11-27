@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait avatar for [@sarakenobi](http://twitter.com/sarakenobi).
+PaperFaces portrait avatar for [@sarakenobi](https://twitter.com/sarakenobi).
 
 {% include boilerplate/paperfaces.md %}

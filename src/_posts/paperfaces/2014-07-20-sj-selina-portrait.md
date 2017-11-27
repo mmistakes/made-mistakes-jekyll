@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait commission of [@SJ_Selina](http://twitter.com/SJ_Selina).
+PaperFaces portrait commission of [@SJ_Selina](https://twitter.com/SJ_Selina).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 
-PaperFaces portrait of [@klebeluft](http://twitter.com/klebeluft).
+PaperFaces portrait of [@klebeluft](https://twitter.com/klebeluft).
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, trees, black and white, beard]
 ---
 
-PaperFaces portrait of [@dannowatts](http://twitter.com/dannowatts). Black and white mixed with some creepy trees makes for a perfect combination.
+PaperFaces portrait of [@dannowatts](https://twitter.com/dannowatts). Black and white mixed with some creepy trees makes for a perfect combination.
 
 {% include boilerplate/paperfaces-2.md %}
 

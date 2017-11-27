@@ -8,6 +8,6 @@ image:
 tags: [portrait, illustration, Paper by 53]
 ---
 
-PaperFaces portrait of [@Rt44man](http://twitter.com/Rt44man).
+PaperFaces portrait of [@Rt44man](https://twitter.com/Rt44man).
 
 {% include boilerplate/paperfaces.md %}

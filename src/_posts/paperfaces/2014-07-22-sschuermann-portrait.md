@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, black and white, beard]
 ---
 
-PaperFaces portrait of [@sschuermann](http://twitter.com/sschuermann).
+PaperFaces portrait of [@sschuermann](https://twitter.com/sschuermann).
 
 {% include boilerplate/paperfaces-4.md %}
 

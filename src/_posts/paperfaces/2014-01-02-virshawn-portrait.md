@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of [@virshawn](http://twitter.com/virshawn).
+PaperFaces portrait of [@virshawn](https://twitter.com/virshawn).
 
 {% include boilerplate/paperfaces-2.md %}
 

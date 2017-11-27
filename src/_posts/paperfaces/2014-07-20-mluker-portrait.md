@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 
-PaperFaces portrait of [@mluker](http://twitter.com/mluker).
+PaperFaces portrait of [@mluker](https://twitter.com/mluker).
 
 {% include boilerplate/paperfaces-2.md %}
 
