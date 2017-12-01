@@ -14,11 +14,10 @@ To record the footage I used a [cheap GorillaPod knockoff](http://www.amazon.com
 
 The time lapse effect came out ok, but have to look at lighting the work area better next time. Most of the footage was way too dark and the whites on the iPad's screen super blown out, which made setting an accurate white balance challenging.
 
-PaperFaces portrait of <a href="https://twitter.com/GrantLandram">@GrantLandram</a>.
+PaperFaces portrait of [@GrantLandram](https://twitter.com/GrantLandram).
 
 {% include boilerplate/paperfaces-3.md %}
 
-<figure>
-	{% youtube JqVzqVG0e5g %}
-	<figcaption>About 2 hours of drawing and painting with 53's new Pencil stylus.</figcaption>
-</figure>
+{% figure caption:"About 2 hours of drawing and painting with 53's new Pencil stylus." %}
+{% youtube JqVzqVG0e5g %}
+{% endfigure %}

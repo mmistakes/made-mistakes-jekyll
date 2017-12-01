@@ -14,11 +14,10 @@ PaperFaces portrait of [Kirsty H.](http://sktchy.com/A73olc) inspired by Sktchy.
 
 {% include boilerplate/paperfaces-4.md %}
 
-<figure class="third">
-	<a href="/assets/images/paperfaces-kirsty-h-process-1-lg.jpg"><img src="/assets/images/paperfaces-kirsty-h-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-kirsty-h-process-2-lg.jpg"><img src="/assets/images/paperfaces-kirsty-h-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-kirsty-h-process-3-lg.jpg"><img src="/assets/images/paperfaces-kirsty-h-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-kirsty-h-process-4-lg.jpg"><img src="/assets/images/paperfaces-kirsty-h-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-kirsty-h-process-5-lg.jpg"><img src="/assets/images/paperfaces-kirsty-h-process-5-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-kirsty-h-process-1-750.jpg)](/assets/images/paperfaces-kirsty-h-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-kirsty-h-process-2-600.jpg)](/assets/images/paperfaces-kirsty-h-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-kirsty-h-process-3-600.jpg)](/assets/images/paperfaces-kirsty-h-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-kirsty-h-process-4-600.jpg)](/assets/images/paperfaces-kirsty-h-process-4-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-kirsty-h-process-5-600.jpg)](/assets/images/paperfaces-kirsty-h-process-5-lg.jpg)
+{% endfigure %}

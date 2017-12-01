@@ -16,10 +16,9 @@ PaperFaces portrait of [@cocoapriest](https://twitter.com/cocoapriest).
 
 {% include boilerplate/paperfaces-4.md %}
 
-<figure class="third">
-	<a href="/assets/images/paperfaces-cocoapriest-process-1-lg.jpg"><img src="/assets/images/paperfaces-cocoapriest-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-cocoapriest-process-2-lg.jpg"><img src="/assets/images/paperfaces-cocoapriest-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-cocoapriest-process-3-lg.jpg"><img src="/assets/images/paperfaces-cocoapriest-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-cocoapriest-process-4-lg.jpg"><img src="/assets/images/paperfaces-cocoapriest-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-1-600.jpg)](/assets/images/paperfaces-cocoapriest-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-2-600.jpg)](/assets/images/paperfaces-cocoapriest-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-3-600.jpg)](/assets/images/paperfaces-cocoapriest-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-4-600.jpg)](/assets/images/paperfaces-cocoapriest-process-4-lg.jpg)
+{% endfigure %}

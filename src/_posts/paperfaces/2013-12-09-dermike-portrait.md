@@ -13,11 +13,10 @@ Decided to put some time in with 53's new Pencil stylus and experiment with the 
 
 Mental note: a little Blend goes a long way.
 
-PaperFaces portrait of <a href="https://twitter.com/dermike">@dermike</a>.
+PaperFaces portrait of [@dermike](https://twitter.com/dermike).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-dermike-process-1-lg.jpg"><img src="/assets/images/paperfaces-dermike-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>In process blending.</figcaption>
-</figure>
+{% figure caption:"In process blending." %}
+[![](/assets/images/paperfaces-dermike-process-1-750.jpg)](/assets/images/paperfaces-dermike-process-1-lg.jpg)
+{% endfigure %}

@@ -14,13 +14,12 @@ PaperFaces portrait of [@robhampson](https://twitter.com/robhampson).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="third">
-  <a href="/assets/images/paperfaces-robhampson-process-1-lg.jpg"><img src="/assets/images/paperfaces-robhampson-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-robhampson-process-2-lg.jpg"><img src="/assets/images/paperfaces-robhampson-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-robhampson-process-3-lg.jpg"><img src="/assets/images/paperfaces-robhampson-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-robhampson-process-4-lg.jpg"><img src="/assets/images/paperfaces-robhampson-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-robhampson-process-5-lg.jpg"><img src="/assets/images/paperfaces-robhampson-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-robhampson-process-5-lg.jpg"><img src="/assets/images/paperfaces-robhampson-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-robhampson-process-6-lg.jpg"><img src="/assets/images/paperfaces-robhampson-process-6-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress screen captures Made with Paper.</figcaption>
-</figure>
+{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-robhampson-process-1-600.jpg)](/assets/images/paperfaces-robhampson-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-robhampson-process-2-600.jpg)](/assets/images/paperfaces-robhampson-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-robhampson-process-3-600.jpg)](/assets/images/paperfaces-robhampson-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-robhampson-process-4-600.jpg)](/assets/images/paperfaces-robhampson-process-4-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-robhampson-process-5-600.jpg)](/assets/images/paperfaces-robhampson-process-5-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-robhampson-process-5-600.jpg)](/assets/images/paperfaces-robhampson-process-5-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-robhampson-process-6-600.jpg)](/assets/images/paperfaces-robhampson-process-6-lg.jpg)
+{% endfigure %}

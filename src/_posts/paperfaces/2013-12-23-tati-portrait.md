@@ -13,7 +13,6 @@ My first PaperFaces portrait commission using two styli to complete.
 
 {% include boilerplate/paperfaces-4.md %}
 
-<figure>
-	{% youtube y1OG2gLk6Jg %}
-	<figcaption>Painted in about an hour and 30 minutes.</figcaption>
-</figure>
+{% figure caption:"Painted in about an hour and 30 minutes." %}
+{% youtube y1OG2gLk6Jg %}
+{% endfigure %}

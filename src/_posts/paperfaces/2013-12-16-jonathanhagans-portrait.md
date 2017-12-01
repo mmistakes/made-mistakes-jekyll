@@ -12,14 +12,13 @@ I don't often draw faces, but with the right photo reference I sometimes attempt
 
 To build up values in the faces I used the pencil tool exclusively --- adding shadows and shading before applying watercolor. Usually I do the opposite by applying a watercolor base first and then penciling over to refine. Quite happy with how everything turned out.
 
-PaperFaces portrait commission for <a href="https://twitter.com/jonathanhagans">@jonathanhagans</a>.
+PaperFaces portrait commission for [@jonathanhagans](https://twitter.com/jonathanhagans).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-jonathanhagans-process-1-lg.jpg"><img src="/assets/images/paperfaces-jonathanhagans-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jonathanhagans-process-2-lg.jpg"><img src="/assets/images/paperfaces-jonathanhagans-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jonathanhagans-process-3-lg.jpg"><img src="/assets/images/paperfaces-jonathanhagans-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-jonathanhagans-process-4-lg.jpg"><img src="/assets/images/paperfaces-jonathanhagans-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-1-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-2-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-3-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-4-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-4-lg.jpg)
+{% endfigure %}

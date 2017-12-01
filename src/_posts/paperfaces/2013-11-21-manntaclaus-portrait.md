@@ -8,19 +8,17 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 
-PaperFaces portrait of <a href="https://twitter.com/manntaclaus">@manntaclaus</a>.
+PaperFaces portrait of [@manntaclaus](https://twitter.com/manntaclaus).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-manntaclaus-process-1-lg.jpg"><img src="/assets/images/paperfaces-manntaclaus-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Beginning the portrait with a pencil sketch.</figcaption>
-</figure>
+{% figure caption:"Beginning the portrait with a pencil sketch." %}
+[![](/assets/images/paperfaces-manntaclaus-process-1-750.jpg)](/assets/images/paperfaces-manntaclaus-process-1-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-	<a href="/assets/images/paperfaces-manntaclaus-process-2-lg.jpg"><img src="/assets/images/paperfaces-manntaclaus-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-manntaclaus-process-3-lg.jpg"><img src="/assets/images/paperfaces-manntaclaus-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-manntaclaus-process-4-lg.jpg"><img src="/assets/images/paperfaces-manntaclaus-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-manntaclaus-process-5-lg.jpg"><img src="/assets/images/paperfaces-manntaclaus-process-5-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+[![](/assets/images/paperfaces-manntaclaus-process-2-600.jpg)](/assets/images/paperfaces-manntaclaus-process-2-lg.jpg)
+[![](/assets/images/paperfaces-manntaclaus-process-3-600.jpg)](/assets/images/paperfaces-manntaclaus-process-3-lg.jpg)
+[![](/assets/images/paperfaces-manntaclaus-process-4-600.jpg)](/assets/images/paperfaces-manntaclaus-process-4-lg.jpg)
+[![](/assets/images/paperfaces-manntaclaus-process-5-600.jpg)](/assets/images/paperfaces-manntaclaus-process-5-lg.jpg)
+{% endfigure %}

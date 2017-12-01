@@ -8,16 +8,14 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, time lapse]
 ---
 
-PaperFaces portrait of <a href="http://sktchy.com/WfStFC">Esty C.</a>, inspiration found via Sktchy.
+PaperFaces portrait of [Esty C.](http://sktchy.com/WfStFC), inspiration found via Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure>
-	<a href="/assets/images/paperfaces-esty-c-process-1-lg.jpg"><img src="/assets/images/paperfaces-esty-c-process-1-750.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Beginning the portrait with a pencil sketch.</figcaption>
-</figure>
+{% figure caption:"Beginning the portrait with a pencil sketch." %}
+[![](/assets/images/paperfaces-esty-c-process-1-750.jpg)](/assets/images/paperfaces-esty-c-process-1-lg.jpg)
+{% endfigure %}
 
-<figure>
-	{% youtube aoELcBcOAo4 %}
-	<figcaption>About 2 hours of drawing and painting.</figcaption>
-</figure>
+{% figure caption:"About 2 hours of drawing and painting." %}
+{% youtube aoELcBcOAo4 %}
+{% endfigure %}

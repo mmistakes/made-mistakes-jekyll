@@ -14,12 +14,11 @@ PaperFaces portrait of [Allyson B.](http://sktchy.com/NogM0C) inspired by Sktchy
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="third">
-	<a href="/assets/images/paperfaces-allyson-b-process-1-lg.jpg"><img src="/assets/images/paperfaces-allyson-b-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-allyson-b-process-2-lg.jpg"><img src="/assets/images/paperfaces-allyson-b-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-allyson-b-process-3-lg.jpg"><img src="/assets/images/paperfaces-allyson-b-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-allyson-b-process-4-lg.jpg"><img src="/assets/images/paperfaces-allyson-b-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-allyson-b-process-5-lg.jpg"><img src="/assets/images/paperfaces-allyson-b-process-5-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-allyson-b-process-6-lg.jpg"><img src="/assets/images/paperfaces-allyson-b-process-6-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-allyson-b-process-1-600.jpg)](/assets/images/paperfaces-allyson-b-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-allyson-b-process-2-600.jpg)](/assets/images/paperfaces-allyson-b-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-allyson-b-process-3-600.jpg)](/assets/images/paperfaces-allyson-b-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-allyson-b-process-4-600.jpg)](/assets/images/paperfaces-allyson-b-process-4-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-allyson-b-process-5-600.jpg)](/assets/images/paperfaces-allyson-b-process-5-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-allyson-b-process-6-600.jpg)](/assets/images/paperfaces-allyson-b-process-6-lg.jpg)
+{% endfigure %}

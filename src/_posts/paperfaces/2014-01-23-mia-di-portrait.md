@@ -14,10 +14,9 @@ Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFa
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="third">
-	<a href="/assets/images/paperfaces-mia-di-process-1-lg.jpg"><img src="/assets/images/paperfaces-mia-di-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-mia-di-process-2-lg.jpg"><img src="/assets/images/paperfaces-mia-di-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-mia-di-process-3-lg.jpg"><img src="/assets/images/paperfaces-mia-di-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-mia-di-process-4-lg.jpg"><img src="/assets/images/paperfaces-mia-di-process-4-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screenshots (Paper by 53).</figcaption>
-</figure>
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-mia-di-process-1-600.jpg)](/assets/images/paperfaces-mia-di-process-1-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-mia-di-process-2-600.jpg)](/assets/images/paperfaces-mia-di-process-2-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-mia-di-process-3-600.jpg)](/assets/images/paperfaces-mia-di-process-3-lg.jpg)
+[![Work in process screenshot](/assets/images/paperfaces-mia-di-process-4-600.jpg)](/assets/images/paperfaces-mia-di-process-4-lg.jpg)
+{% endfigure %}
