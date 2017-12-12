@@ -13,9 +13,6 @@ PaperFaces portrait of [@nickkeyphotos](https://twitter.com/nickkeyphotos).
 
 {% include boilerplate/paperfaces-2.md %}
 
-<figure class="third">
-	<a href="/assets/images/paperfaces-nickkeyphotos-process-1-lg.jpg"><img src="/assets/images/paperfaces-nickkeyphotos-process-1-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-nickkeyphotos-process-2-lg.jpg"><img src="/assets/images/paperfaces-nickkeyphotos-process-2-600.jpg" alt="Work in process screenshot"></a>
-	<a href="/assets/images/paperfaces-nickkeyphotos-process-3-lg.jpg"><img src="/assets/images/paperfaces-nickkeyphotos-process-3-600.jpg" alt="Work in process screenshot"></a>
-	<figcaption>Work in progress screen captures Made with Paper.</figcaption>
-</figure>
+{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-nickkeyphotos-process-1-600.jpg)](/assets/images/paperfaces-nickkeyphotos-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-nickkeyphotos-process-2-600.jpg)](/assets/images/paperfaces-nickkeyphotos-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-nickkeyphotos-process-3-600.jpg)](/assets/images/paperfaces-nickkeyphotos-process-3-lg.jpg)
+{% endfigure %}

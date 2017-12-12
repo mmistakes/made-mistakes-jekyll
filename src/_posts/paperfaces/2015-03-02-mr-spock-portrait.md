@@ -16,18 +16,14 @@ I worked on this drawing for little over 3 hours during two sittings. The best p
 
 Getting pretty close to a setup that works well for me, just need to nail down the lighting next. As anyone who's tried to photograph an iPad's screen, it can be tricky getting exposure and white balance right.
 
-<figure>
-  {% youtube qhEtbFlxfm4 %}
-  <figcaption><a href="https://www.youtube.com/watch?v=qhEtbFlxfm4">Time lapse video</a> recorded with an iPhone 5s and Lapse It.</figcaption>
-</figure>
+{% figure caption:"[Time lapse video](https://www.youtube.com/watch?v=qhEtbFlxfm4) recorded with an iPhone 5s and **Lapse It**." %}
+{% youtube qhEtbFlxfm4 %}
+{% endfigure %}
 
 I've also shared several in-process sketches and the [finished illustration](https://mix.fiftythree.com/11098-Michael-Rose/2406576) on Mix for anyone to Remix.
 
 {% include boilerplate/paperfaces-5.md %}
 
-<figure class="third">
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2394700"><img src="/assets/images/paperfaces-mr-spock-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2394966"><img src="/assets/images/paperfaces-mr-spock-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2400718"><img src="/assets/images/paperfaces-mr-spock-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress drawings available on Mix.</figcaption>
-</figure>
+{% figure caption:"Work in progress drawings available on Mix." class:"third' %}
+[![Work in process screenshot](/assets/images/paperfaces-mr-spock-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394700) [![Work in process screenshot](/assets/images/paperfaces-mr-spock-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394966) [![Work in process screenshot](/assets/images/paperfaces-mr-spock-process-3-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2400718)
+{% endfigure %}

@@ -28,10 +28,9 @@ To solve these issues I went with my go to time lapse app, [**Lapse It**](http:/
 
 This setup worked out pretty well apart from me having to sit in a really awkward position for over an hour. But the real pain turned out to be my ISP and the weak internet plan I was on. I quickly found out 1Mbps upload speeds are garbage for live streaming unless you want to crank the output quality way down.
 
-<figure>
-  <img src="/assets/images/ipad-drawing-setup.jpg" alt="iPad drawing time lapse setup">
-  <figcaption>I record iPad drawing time lapse videos with an iPhone 5s clipped to a <a href="http://www.amazon.com/gp/product/B005XOIFNW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005XOIFNW&linkCode=as2&tag=mademist-20&linkId=LG5MJOGKZTN62QOH" rel="nofollow">reflector holder boom stand</a>.</figcaption>
-</figure>
+{% figure caption:"I record iPad drawing time lapse videos with an iPhone 5s clipped to a [reflector holder boom stand](http://www.amazon.com/gp/product/B005XOIFNW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005XOIFNW&linkCode=as2&tag=mademist-20&linkId=LG5MJOGKZTN62QOH) %}
+![iPad drawing time lapse setup](/assets/images/ipad-drawing-setup.jpg)
+{% endfigure %}
 
 For [my first attempt](https://www.youtube.com/watch?v=FH2H9kHduRs) the stream was completely unwatchable and played more like a stop motion slideshow than a movie. Eventually I bumped up my plan to the next tier to double my upload bandwidth (which is still crazy slow), giving me a smooth and [hiccup free 480p stream](https://www.youtube.com/watch?v=OaLAeb7Pc90).
 
@@ -41,9 +40,8 @@ While a fun exercise in technical wizardry, live streaming in this way is probab
 
 I suppose if the demand is there I might try this again some night when my wife isn't streaming Netflix. For now I think the sped up time lapse approach is the way to go.
 
-<figure >
-  {% youtube Qxpss8umvG4 %}
-  <figcaption><a href="https://www.youtube.com/watch?v=qhEtbFlxfm4">Time lapse video</a> recorded with an iPhone 5s and Lapse It.</figcaption>
-</figure>
+{% figure caption:"[Time lapse video](https://www.youtube.com/watch?v=qhEtbFlxfm4) recorded with an iPhone 5s and **Lapse It**." %}
+{% youtube Qxpss8umvG4 %}
+{% endfigure %}
 
 {% include boilerplate/paperfaces-5.md %}

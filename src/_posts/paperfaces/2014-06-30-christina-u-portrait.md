@@ -17,17 +17,6 @@ I can see why they're a popular subject for Paper creators.
 
 {% include boilerplate/paperfaces-3.md %}
 
-<figure class="third">
-  <a href="/assets/images/paperfaces-christina-u-process-1-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-2-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-3-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-4-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-4-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-5-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-5-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-6-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-6-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-7-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-7-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-8-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-8-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-9-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-9-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-10-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-10-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-christina-u-process-11-lg.jpg"><img src="/assets/images/paperfaces-christina-u-process-11-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress screen captures Made with Paper.</figcaption>
-</figure>
+{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-christina-u-process-1-600.jpg)](/assets/images/paperfaces-christina-u-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-2-600.jpg)](/assets/images/paperfaces-christina-u-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-3-600.jpg)](/assets/images/paperfaces-christina-u-process-3-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-4-600.jpg)](/assets/images/paperfaces-christina-u-process-4-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-5-600.jpg)](/assets/images/paperfaces-christina-u-process-5-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-6-600.jpg)](/assets/images/paperfaces-christina-u-process-6-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-7-600.jpg)](/assets/images/paperfaces-christina-u-process-7-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-8-600.jpg)](/assets/images/paperfaces-christina-u-process-8-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-9-600.jpg)](/assets/images/paperfaces-christina-u-process-9-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-10-600.jpg)](/assets/images/paperfaces-christina-u-process-10-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-christina-u-process-11-600.jpg)](/assets/images/paperfaces-christina-u-process-11-lg.jpg)
+{% endfigure %}

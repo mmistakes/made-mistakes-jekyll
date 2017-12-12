@@ -14,9 +14,8 @@ PaperFaces portrait of Shannon V. inspired by a [photograph on Sktchy](http://sk
 
 Sometimes when I feel lazy I go after a silhouette. Shading goes out the window and the only thing you really need to be considered with is drawing an accurate contour. The rest is just coloring within the lines...
 
-<figure >
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2575904"><img src="/assets/images/paperfaces-shannon-v-process-1-900.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress drawing available on Mix.</figcaption>
-</figure>
+{% figure caption:"Work in progress drawing available on Mix." %}
+[![Work in process screenshot](/assets/images/paperfaces-shannon-v-process-1-900.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2575904)
+{% endfigure %}
 
 {% include boilerplate/paperfaces-3.md %}

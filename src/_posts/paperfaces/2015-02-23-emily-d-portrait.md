@@ -18,15 +18,12 @@ I've begun experimenting with [Hyperlapse](https://itunes.apple.com/us/app/hyper
 
 After I try out some other time lapse iOS apps I plan on sharing what I've learned. But for now here's a short video I shot, edited, and published with just an iPhone.
 
-<figure>
-  {% youtube NShkvK72JTc %}
-  <figcaption><a href="https://www.youtube.com/watch?v=9RTXF6wLMjw&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao">Time lapse videos</a> recorded with an iPhone 5s.</figcaption>
-</figure>
+{% figure caption:"[Time lapse videos](https://www.youtube.com/watch?v=9RTXF6wLMjw&list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao) recorded with an iPhone 5s." %}
+{% youtube NShkvK72JTc %}
+{% endfigure %}
 
-<figure class="half">
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2256482"><img src="/assets/images/paperfaces-emily-d-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2298299"><img src="/assets/images/paperfaces-emily-d-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress drawings available on Mix.</figcaption>
-</figure>
+{% figure caption:"Work in progress drawings available on Mix." class:"half" %}
+[![Work in process screenshot](/assets/images/paperfaces-emily-d-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2256482) [![Work in process screenshot](/assets/images/paperfaces-emily-d-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2298299)
+{% endfigure %}
 
 {% include boilerplate/paperfaces-3.md %}

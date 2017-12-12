@@ -18,9 +18,6 @@ As always, I've shared the original illustration [on Mix](https://mix.fiftythree
 
 {% include boilerplate/paperfaces-3.md %}
 
-<figure class="third">
-  <a href="/assets/images/paperfaces-rachel-b-process-1-lg.jpg"><img src="/assets/images/paperfaces-rachel-b-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-rachel-b-process-2-lg.jpg"><img src="/assets/images/paperfaces-rachel-b-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-rachel-b-process-3-lg.jpg"><img src="/assets/images/paperfaces-rachel-b-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress screen captures Made with Paper.</figcaption>
-</figure>
+{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-rachel-b-process-1-600.jpg)](/assets/images/paperfaces-rachel-b-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-rachel-b-process-2-600.jpg)](/assets/images/paperfaces-rachel-b-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-rachel-b-process-3-600.jpg)](/assets/images/paperfaces-rachel-b-process-3-lg.jpg)
+{% endfigure %}

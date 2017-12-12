@@ -14,8 +14,6 @@ PaperFaces portrait commission that is available for [remixing on Mix](https://m
 
 {% include boilerplate/paperfaces-3.md %}
 
-<figure class="half">
-  <a href="/assets/images/paperfaces-beer-pretzel-process-1-lg.jpg"><img src="/assets/images/paperfaces-beer-pretzel-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="/assets/images/paperfaces-beer-pretzel.jpg"><img src="/assets/images/paperfaces-beer-pretzel-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress screen captures Made with Paper.</figcaption>
-</figure>
+{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+[![Work in process screenshot](/assets/images/paperfaces-beer-pretzel-process-1-600.jpg)](/assets/images/paperfaces-beer-pretzel-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-beer-pretzel-process-2-600.jpg)](/assets/images/paperfaces-beer-pretzel.jpg)
+{% endfigure %}

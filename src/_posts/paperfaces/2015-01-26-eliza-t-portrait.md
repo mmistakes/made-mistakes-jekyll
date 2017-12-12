@@ -16,7 +16,6 @@ The more I use Paper's pencil and watercolor tools the more I want to pick up my
 
 {% include boilerplate/paperfaces-3.md %}
 
-<figure>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/1837294"><img src="/assets/images/paperfaces-eliza-t-process-1-900.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress drawing available on Mix.</figcaption>
-</figure>
+{% figure caption:"Work in progress drawing available on Mix." %}
+[![Work in process screenshot](/assets/images/paperfaces-eliza-t-process-1-900.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/1837294)
+{% endfigure %}

@@ -20,9 +20,7 @@ Overall I'm happy with the finished results, especially when you reduced the siz
 
 {% include boilerplate/paperfaces-3.md %}
 
-<figure class="third">
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2180273"><img src="/assets/images/paperfaces-kapi-m-process-1-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2180603"><img src="/assets/images/paperfaces-kapi-m-process-2-600.jpg" alt="Work in process screenshot"></a>
-  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2195894"><img src="/assets/images/paperfaces-kapi-m-process-3-600.jpg" alt="Work in process screenshot"></a>
-  <figcaption>Work in progress drawings available on Mix.</figcaption>
-</figure>
+{% figure caption:"Work in progress drawings available on Mix." class:"third" %}
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2075207"><img src="/assets/images/paperfaces-kalani-o-process-1-600.jpg" alt="Work in process screenshot"></a>
+  <a href="https://mix.fiftythree.com/11098-Michael-Rose/2086067"><img src="/assets/images/paperfaces-kalani-o-process-2-600.jpg" alt="Work in process screenshot"></a>
+  {% endfigure %}
