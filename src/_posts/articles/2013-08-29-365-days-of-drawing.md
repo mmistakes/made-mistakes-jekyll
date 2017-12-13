@@ -8,7 +8,7 @@ image:
   thumbnail: /assets/images/paperfaces-476-portraits-thumb.jpg
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: true
-last_modified_at: 2017-05-08T15:45:23-04:00
+last_modified_at: 2017-12-12T16:27:38-05:00
 ---
 
 Today my 365 project titled [**PaperFaces**](/paperfaces/) turns one --- holy smokes! In this past year I've managed to illustrate 476 portraits, make a ton of new *Paper friends*, burned through a few pen styli, and rekindled my passion for drawing. 
@@ -22,7 +22,7 @@ I honestly can't believe I've been drawing strangers for 365 days straight. I wa
 
 - Thank you to everyone who volunteered their face for the project.
 - Thank you to the 91 of you who commissioned portraits.
-- Thank you to everyone who has followed me on [Twitter](https://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), [Tumblr](http://mademistakes.tumblr.com), and [Facebook](http://facebook.com/michaelrose).
+- Thank you to everyone who has followed me on [Twitter](https://twitter.com/mmistakes), [Instagram](https://instagram.com/mmistakes), [Tumblr](https://mademistakes.tumblr.com), and [Facebook](https://facebook.com/michaelrose).
 - Thank you for all the kind @replies, emails, comments, favorites, likes, and encouragement.
 - Thank you [**FiftyThree**](http://www.fiftythree.com/) for developing the app that made all this possible, fostering a [community of creators](http://madewithpaper.fiftythree.com/) who inspire me daily, and for supporting my project by featuring it in posts and tweets.
 

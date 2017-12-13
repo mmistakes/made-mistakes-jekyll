@@ -6,7 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/collecting-records-teaser.jpg
   thumbnail: /assets/images/collecting-records-thumb.jpg
-last_modified_at: 2017-09-07T20:34:14-04:00
+last_modified_at: 2017-12-12T16:27:14-05:00
 tags: [punk, records, inspiration, DIY, critique, design]
 ---
 
@@ -30,4 +30,4 @@ Instead of embarrassing myself with examples of my early fumbles as a graphic de
 
 ## More to Come
 
-Just finished capturing some photographs of artwork that ranges from black/white ink drawings, fancy die-cuts, to sleeves printed on vellum with metallic inks. If this sort of stuff interests you: [follow me on Twitter](https://twitter.com/mmistakes), [bookmark the site](http://mademistakes.com/ "Bookmark Made Mistakes"), or [subscribe to the RSS feed](http://feeds.feedburner.com/MadeMistakes) so you don't miss out on any of this nerdom.
+Just finished capturing some photographs of artwork that ranges from black/white ink drawings, fancy die-cuts, to sleeves printed on vellum with metallic inks...

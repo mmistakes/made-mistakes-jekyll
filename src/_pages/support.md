@@ -1,7 +1,7 @@
 ---
 permalink: /support/
 title: "Show Your Support"
-last_modified_at: 2017-08-01T14:19:15-04:00
+last_modified_at: 2017-12-13T10:48:45-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 ---
 
@@ -63,4 +63,4 @@ The main feed[^feed] for everything on Made Mistakes.
 - Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
 - Today I Learned Posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
 
-[^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](http://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
+[^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.

@@ -12,7 +12,7 @@ comments: true
 comments_locked: true
 ---
 
-If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://www.alistapart.com/) and [Smashing Magazine](http://www.smashingmagazine.com/).
+If you follow the trends in modern web design and development, it's hard to ignore the work being done around responsive design. Seems like every other week there is an awesome article about media queries, fluid grids, mobile first, or responsive images on websites like [*A List Apart*](http://alistapart.com/) and [Smashing Magazine](https://www.smashingmagazine.com/).
 
 Which got me thinking *"Shit. I don't know anything about these new technologies or techniques, I better learn fast."* And the only real way I was going to pickup all this was to create a project for myself. So began the process of evaluating how to build my personal website and how I'd like it to function.
 
@@ -20,7 +20,7 @@ Which got me thinking *"Shit. I don't know anything about these new technologies
 
 For the last ten years I've used a CMS to hold and present various blogs and portfolios for myself and clients. These websites were all dynamically driven by a database (usually MySQL) and generally had more features I almost never needed. For example, the convenience of being able update a Wordpress powered website from an iOS app. As much as that feature sounds awesome, I never felt the need to post to my blog while away from my iMac. Especially not any sort of long form article or image heavy post.
 
-A common problem facing Wordpress sites is the speed at which they serve up pages. To be honest I never really had issues with *Made Mistakes* because it was relatively small and low on the traffic. But worrying about security exploits, if updates to the core were going to break something, poorly written plugins, or if I had [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/) configured correctly started to get old fast.
+A common problem facing Wordpress sites is the speed at which they serve up pages. To be honest I never really had issues with *Made Mistakes* because it was relatively small and low on the traffic. But worrying about security exploits, if updates to the core were going to break something, poorly written plugins, or if I had [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) configured correctly started to get old fast.
 
 ### Designers Are Control Freaks
 
@@ -95,7 +95,7 @@ You might have noticed in the main navigation up top *(or maybe you didn't)* a c
 
 ### Responsive Images
 
-I think I have a solid handle on how to serve mobile optimized pages using `@media` queries and page widths. But what I don't have figured out are the images. Sure they scale and look decent at various breakpoints, but I didn't exactly follow a mobile first methodology with them. I started big and scaled down, which means the iPhone and other mobile devices download large images regardless. Something tells me [cracking this nut](http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/ "Responsive Images How They Almost Worked and What We Need") is going to be hard.
+I think I have a solid handle on how to serve mobile optimized pages using `@media` queries and page widths. But what I don't have figured out are the images. Sure they scale and look decent at various breakpoints, but I didn't exactly follow a mobile first methodology with them. I started big and scaled down, which means the iPhone and other mobile devices download large images regardless. Something tells me [cracking this nut](http://alistapart.com/article/responsive-images-how-they-almost-worked-and-what-we-need "Responsive Images How They Almost Worked and What We Need") is going to be hard.
 
 ### Version Control
 

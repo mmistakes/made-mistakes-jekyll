@@ -1,6 +1,6 @@
 ---
 title: "Building a Style Guide with Jekyll"
-last_modified_at: 2017-10-24T09:32:29-04:00
+last_modified_at: 2017-12-13T10:40:39-05:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 tags: [Jekyll, style guide, open source, web development, GitHub, tutorial]
 image:
@@ -23,7 +23,7 @@ Finding a way to do it all from within Jekyll was an important consideration sin
 
 So with that I bumped around GitHub and Google to see what sort of solutions existed already and found these:
 
-* [Jekyll CSS Styleguide](http://davidhund.nl/jekyll-styleguide/)
+* [Jekyll CSS Styleguide](https://github.com/davidhund/jekyll-styleguide)
 * [Boilerplate for Jekyll Styleguide](https://github.com/jeromecoupe/jekyllstyleguide)
 * [Pattern Lab Jekyll Port](https://github.com/karissademi/patternlab-jekyll)
 * [Pattern Primer Jekyll](https://github.com/opattison/Pattern-Primer-Jekyll)
