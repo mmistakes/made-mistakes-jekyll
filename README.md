@@ -56,13 +56,13 @@ In simplest usage:
 
 ```liquid
 {% figure %}
-Content
+![Image](/path/to/image.jpg)
 {% endfigure %}
 ```
 
 ```html
 <figure>
-  <p>Content</p>
+  <img src="/path/to/image.jpg" alt="Image" />
 </figure>
 ```
 
@@ -84,13 +84,13 @@ You can provide a caption. Any markdown will be rendered:
 
 ```liquid
 {% figure caption:"*Markdown* caption" %}
-Content
+![Image](/path/to/image.jpg)
 {% endfigure %}
 ```
 
 ```html
 <figure>
-  <p>Content</p>
+  <img src="/path/to/image.jpg" alt="Image" />
   <figcaption><em>Markdown</em> caption</figcaption>
 </figure>
 ```
@@ -99,13 +99,13 @@ You can also provide a class name(es) for CSS styling:
 
 ```liquid
 {% figure caption:"A caption" class:"classname" %}
-Content
+![Image](/path/to/image.jpg)
 {% endfigure %}
 ```
 
 ```html
 <figure class="classname">
-  <p>Content</p>
+  <img src="/path/to/image.jpg" alt="Image" />
   <figcaption>A caption</figcaption>
 </figure>
 ```
@@ -114,13 +114,13 @@ Finally, the caption parameter will accept liquid output markup:
 
 ```liquid
 {% figure caption:"{{ page.title }}" %}
-Content
+![Image](/path/to/image.jpg)
 {% endfigure %}
 ```
 
 ```html
 <figure>
-  <p>Content</p>
+  <img src="/path/to/image.jpg" alt="Image" />
   <figcaption>The title of my post</figcaption>
 </figure>
 ```
