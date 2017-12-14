@@ -1,7 +1,7 @@
 ---
 title: "Short Guide to Drawing with Paper by FiftyThree"
 excerpt: "My simple Paper by FiftyThree techniques for drawing faceless portraits and landscapes on an iPad."
-last_modified_at: 2015-10-26T12:30:57-04:00
+last_modified_at: 2017-12-13T10:54:50-05:00
 image: 
   path: &image /assets/images/madewithpaper-guide-feature.jpg
   feature: *image
@@ -31,10 +31,9 @@ Since publishing this short guide I've gone through several iPad styli and writt
 [3]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0042U9AT6
 [4]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
-<figure>
-	<a href="http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G"><img src="/assets/images/lunatik-touch-pen.jpg" alt="Image of a LunaTik Touch Pen Alloy on top of an iPad" /></a>
-  <figcaption>At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice.</figcaption>
-</figure>
+{% figure caption:"At first I wasn't a fan of the LunaTik Touch Pen, but it's quickly grown on me and become my non-Bluetooth stylus of choice." %}
+[![Image of a LunaTik Touch Pen Alloy on top of an iPad](/assets/images/lunatik-touch-pen.jpg)](http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=178&creative=390957&creativeASIN=B00821TR7G)
+{% endfigure %}
 
 {% notice warning %}
 #### Update: Stylus Switch
@@ -50,10 +49,9 @@ When I begin a new [PaperFaces portrait](/paperfaces/), I start by sketching an 
 
 Usually I pencil in quick gestural outlines as a guide for painting forms later. Other times I jump right to the background and splash in layer upon layer of watercolor. It really depends on the source material and if the background has enough detail to bother with.
 
-<figure>
-  <img src="/assets/images/girl-madewithpaper-in-progress.jpg" alt="Screenshot of an in progress Paper by 53 drawing" />
-  <figcaption>Face study using watercolor and some default colors.</figcaption>
-</figure>
+{% figure caption:"Face study using watercolor and some default colors." %}
+![Screenshot of an in progress Paper by 53 drawing](/assets/images/girl-madewithpaper-in-progress.jpg)
+{% endfigure %}
 
 ## Watercolor without Water
 
@@ -71,10 +69,9 @@ To shade existing areas apply a darker hue, gray, or black. For backgrounds I te
 
 I don't use the fountain pen  or marker tools all that much because I like my illustrations to have a more painterly feel to them. However, these tools are perfect for covering  large irregular shaped areas with a base color --- like hair. They also come in handy when I need to rework or make adjustments (more precise than the eraser) to something I already drew or painted.
 
-<figure>
-  <img src="/assets/images/madewithpaper-filling-shapes.jpg" alt="Screenshot of a PaperFaces drawing" />
-  <figcaption>Filling in shapes using the fountain pen gets the job done quickly.</figcaption>
-</figure>
+{% figure caption:"Filling in shapes using the fountain pen gets the job done quickly." %}
+![Screenshot of a PaperFaces drawing](/assets/images/madewithpaper-filling-shapes.jpg)
+{% endfigure %}
 
 Two things to keep in mind when working with the marker tool:
 
@@ -93,10 +90,9 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 Read in detail [how I draw hair]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
 {% endnotice %}
 
-<figure>
-  <img src="/assets/images/madewithpaper-hair-detail.jpg" alt="Detail shot of hair drawn using Paper by 53" />
-  <figcaption>Paper by 53's pencil tool works wonders for rendering hair.</figcaption>
-</figure>
+{% figure caption:"Paper by 53's pencil tool works wonders for rendering hair." %}
+![Detail shot of hair drawn using Paper by 53](/assets/images/madewithpaper-hair-detail.jpg)
+{% endfigure %}
 
 ## Closing Thoughts and Questions
 
@@ -106,9 +102,8 @@ I've taken the liberty of embedding a video playlist below, demonstrating how I 
 
 If I missed anything or you're looking for additional pointers leave a comment below or [tweet me](https://twitter.com/mmistakes).
 
-<figure class="large">
-  {% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
-  <figcaption>View more of my Paper by 53 video tutorials on <a href="https://www.youtube.com/user/anotherjpeg" title="Michael Rose's YouTube Channel">YouTube</a> or <a href="/mastering-paper/">learn how I use Paper</a>.</figcaption>
-</figure>
+{% figure caption:"View more of my Paper by 53 video tutorials on [YouTube](https://www.youtube.com/user/anotherjpeg) or [learn how I use Paper](/mastering-paper/)." %}
+{% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
+{% endfigure %}
 
 {% include affiliate-disclosure.html %}

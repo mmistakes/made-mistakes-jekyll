@@ -1,7 +1,7 @@
 ---
 title: "Drawing Faces without Faces with Paper by FiftyThree"
 excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper by FiftyThree."
-last_modified_at: 2016-01-27T14:38:38-05:00
+last_modified_at: 2017-12-13T11:11:36-05:00
 image: 
   path: &image /assets/images/paper-53-draw-face-feature.jpg
   feature: *image
@@ -32,11 +32,10 @@ Don't want to bother drawing the same frame each time? Then make a template of i
 
 ## Apply a Background
 
-<figure class="half">
-  <a href="/assets/images/paper-53-draw-background-lg.jpg"><img src="/assets/images/paper-53-draw-background-400.jpg" alt="Drawing a background with Paper 53"></a>
-  <a href="/assets/images/paper-53-detail-background-lg.jpg"><img src="/assets/images/paper-53-detail-background-400.jpg" alt="Detailing the background with Paper 53"></a>
-  <figcaption>Paint from light to dark with watercolors and add detail with a pencil.</figcaption>    
-</figure>
+{% figure caption:"Paint from light to dark with watercolors and add detail with a pencil." class:"half" %}
+[![Drawing a background with Paper 53](/assets/images/paper-53-draw-background-400.jpg)](/assets/images/paper-53-draw-background-lg.jpg)
+[![Detailing the background with Paper 53](/assets/images/paper-53-detail-background-400.jpg)](/assets/images/paper-53-detail-background-lg.jpg)
+{% endfigure %}
 
 Typically, I spend way more time drawing or painting the background. No one is going to notice if a wall or some tree doesn't match the original --- they're way more forgiving than a mouth or nose. Adding detail here instead of the face adds a sense of tension that I quite enjoy.
 
@@ -52,12 +51,11 @@ Whether I'm working on clouds, a landscape, or a face, I follow the same process
 
 The background should be nice and heavy now. Using a white pencil, outline the face or blob it out with watercolor instead. On the rare chance the background is really light, use flesh tones (light brown/pink/orange) instead. The marker or fountain pen are appropriate for face lightening, but you can't layer them as much. Watercolor allows you to progressively lighten and soften edges, which helps enhance the realism.
 
-<figure class="third">
-  <a href="/assets/images/paper-53-pencil-outline-figure-lg.jpg"><img src="/assets/images/paper-53-pencil-outline-figure-400.jpg" alt="Outline the figure with Paper 53"></a>
-  <a href="/assets/images/paper-53-lighten-figure-1-lg.jpg"><img src="/assets/images/paper-53-lighten-figure-1-400.jpg" alt="Begin lighting the figure with Paper 53"></a>
-  <a href="/assets/images/paper-53-lighten-figure-2-lg.jpg"><img src="/assets/images/paper-53-lighten-figure-2-400.jpg" alt="Continue lighting the figure with Paper 53"></a>
-  <figcaption>Use white to outline and lighten the figure's shape or face.</figcaption>   
-</figure>
+{% figure caption:"Use white to outline and lighten the figure's shape or face." class:"third" %}
+[![Outline the figure with Paper 53](/assets/images/paper-53-pencil-outline-figure-400.jpg)](/assets/images/paper-53-pencil-outline-figure-lg.jpg)
+[![Begin lighting the figure with Paper 53](/assets/images/paper-53-lighten-figure-1-400.jpg)](/assets/images/paper-53-lighten-figure-1-lg.jpg)
+[![Continue lighting the figure with Paper 53](/assets/images/paper-53-lighten-figure-2-400.jpg)](/assets/images/paper-53-lighten-figure-2-lg.jpg)
+{% endfigure %}
 
 A white mixed with a hint of orange or yellow works great too. Experiment with the amount of color you mix because if you add too much the opaque nature of white is removed and it won't "erase" the background beneath.
 
@@ -65,11 +63,9 @@ A white mixed with a hint of orange or yellow works great too. Experiment with t
 
 The trick here is to gradually apply smooth layers of a light color using the watercolor brush. First few layers are to fill the entire face with whatever skin color you're trying to match. For areas that are in shadow, mix in a dull (almost gray) red or blue and then quickly paint half of the face. Shape really matters --- if you don't get it right just two finger rewind and try again. Move fast and avoid lingering in one spot to keep your edges soft and avoid going too dark.
 
-<figure class="half">
-  <a href="/assets/images/paper-53-build-face-watercolor-1-lg.jpg"><img src="/assets/images/paper-53-build-face-watercolor-1-400.jpg" alt="Use light watercolors to build up a face with Paper 53"></a>
-  <a href="/assets/images/paper-53-build-face-watercolor-2-lg.jpg"><img src="/assets/images/paper-53-build-face-watercolor-2-400.jpg" alt="Use dull colors to shade a face with Paper 53"></a>
-  <figcaption>Move quick and deliberate with watercolor.</figcaption>   
-</figure>
+{% figure caption:"Move quick and deliberate with watercolor." class:"half" %}
+[![Use light watercolors to build up a face with Paper 53](/assets/images/paper-53-build-face-watercolor-1-400.jpg)](/assets/images/paper-53-build-face-watercolor-1-lg.jpg) [![Use dull colors to shade a face with Paper 53](/assets/images/paper-53-build-face-watercolor-2-400.jpg)](/assets/images/paper-53-build-face-watercolor-2-lg.jpg)
+{% endfigure %}
 
 ## Pencil in Details
 
@@ -77,20 +73,17 @@ Same deal as the background, select the pencil tool and start refining edges tha
 
 Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) one time.
 
-<figure class="half">
-  <a href="/assets/images/paper-53-pencil-detail-face-1-lg.jpg"><img src="/assets/images/paper-53-pencil-detail-face-1-400.jpg" alt="Pencil details with Paper 53"></a>
-  <a href="/assets/images/paper-53-pencil-detail-face-2-lg.jpg"><img src="/assets/images/paper-53-pencil-detail-face-2-400.jpg" alt="Pencil details with Paper 53"></a>
-  <figcaption>Use black and white pencils to shade and highlight.</figcaption>    
-</figure>
+{% figure caption:"Use black and white pencils to shade and highlight." class:"half" %}
+[![Pencil details with Paper 53](/assets/images/paper-53-pencil-detail-face-1-400.jpg)](/assets/images/paper-53-pencil-detail-face-1-lg.jpg) [![Pencil details with Paper 53](/assets/images/paper-53-pencil-detail-face-2-400.jpg)](/assets/images/paper-53-pencil-detail-face-2-lg.jpg)
+{% endfigure %}
 
 ## Imply Facial Features
 
 To finish the face take care to observe the direction and tilt of the head. Carefully draw a line from the forehead down to where the lips should be, following the same curve of your subject. You could keep it really straight, but I find following this natural curve helps make it look more three-dimensional. For the horizontal line, make it eye to eye in length. A fun tip for exaggerating what a face might be looking at --- extending the horizontal line off the face and into the background on one side.
 
-<figure>
-  <img src="/assets/images/paper-53-face-cross-lg.jpg" alt="Detail of face drawn with Paper by 53">
-  <figcaption>Cross your face and then you're done.</figcaption>
-</figure>
+{% figure caption:"Cross your face and then you're done." %}
+![Detail of face drawn with Paper by 53](/assets/images/paper-53-face-cross-lg.jpg)
+{% endfigure %}
 
 {% notice warning %}
 #### Mastering Paper Tutorials

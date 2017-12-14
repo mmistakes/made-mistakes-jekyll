@@ -2,7 +2,7 @@
 title: "Pencil by FiftyThree is Still the Best Stylus for Paper"
 excerpt: "Impressions of FiftyThree's Pencil stylus from the perspective of an avid Paper creator."
 tags: [Pencil by 53, Paper by 53, stylus, iPad, blend, review]
-last_modified_at: 2016-10-27T11:53:48-04:00
+last_modified_at: 2017-12-13T15:28:51-05:00
 image:
   path: &image /assets/images/pencil-53-feature.jpg
   feature: *image
@@ -17,10 +17,9 @@ For the last year I've been using FiftyThree's [first hardware product]({% post_
 
 The *Walnut* and *Graphite* finishes both look beautiful. If pressed to pick a favorite, I would probably choose Graphite, just because it feels heavier and more solid to me. But there is something nostalgic and comforting about Walnut's wooden texture that makes it a close second.
 
-<figure>
-  <img src="/assets/images/pencil-53-walnut-graphite.jpg" alt="Walnut and Graphite models">
-  <figcaption>Walnut and Graphite models side by side.</figcaption>
-</figure>
+{% figure caption:"Walnut and Graphite models side by side." %}
+![Walnut and Graphite models](/assets/images/pencil-53-walnut-graphite.jpg)
+{% endfigure %}
 
 If you haven't noticed, Pencil is flat like a [carpenter pencil](http://en.wikipedia.org/wiki/Carpenter_pencil), which keeps it from rolling about and getting lost[^magnet]. Because of the wide and flat shape, I did find it uncomfortable to hold at first. Although after a few more drawing sessions it was hardly a concern as my hand quickly adapted to Pencil's contour.
 
@@ -30,10 +29,9 @@ Between the two finishes, Walnut is lighter and softer to the touch with a wood 
 
 Similar to Paper, Pencil shares the same minimally designed aesthetic --- that means no buttons, no battery indicator lights[^led-light], and no on/off switches. I love how the UI in Paper doesn't get in your way, and it's refreshing that Pencil's design echoes this theme. Common tasks like erasing or [blending]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) become more natural, without the need to open the tool tray or press buttons. Want to erase something? Flip Pencil upside down and erase a mistake like you would "in real life." Need to soften pencil strokes? Use your finger to smudge the pixels. 
 
-<figure>
-    <img src="/assets/images/pencil-53-usb-charging.jpg" alt="Pencil's battery charging in USB port">
-    <figcaption>So I lied. There is one LED light hidden inside, only visible when charging Pencil via USB.</figcaption>
-</figure>
+{% figure caption:"So I lied. There is one LED light hidden inside, only visible when charging Pencil via USB." %}
+![Pencil's battery charging in USB port](/assets/images/pencil-53-usb-charging.jpg)
+{% endfigure %}
 
 [^led-light]: A LED light does exist, but it is not visible during normal use. When the battery is plugged into a USB port an amber light can be observed as it charges. If you do need to check how much charge is left on your Pencil you can find them under Settings > Pencil in the Paper app along with a Serial Number and Firmware Version.
 
@@ -41,19 +39,17 @@ Similar to Paper, Pencil shares the same minimally designed aesthetic --- that m
 
 To be honest I was a little disappointed when I discovered Pencil's tip wouldn't be pressure sensitive like the one in a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}). It took some time but with the recent addition of **Surface Pressure** to Pencil + Paper, my desire to use a Pogo Connect has completely disappeared.
 
-<figure>
-  <img src="/assets/images/pencil-53-spare-parts.jpg" alt="replacement packaging">
-  <figcaption>Close-up of Pencil’s tip and replacement packaging</figcaption>
-</figure>
+{% figure caption:"Close-up of Pencil’s tip and replacement packaging" %}
+![replacement packaging](/assets/images/pencil-53-spare-parts.jpg)
+{% endfigure %}
 
 The tip is responsive and as accurate as one can expect from the limitations the iPad's digitizer imposes on stylus makers. It is wedge shaped and offers a slightly finer point than the rubber nibs found on AluPens, Bamboos, and their capacitive tipped peers. Pencil's tip does a great job of repelling any finger grease that may accumulate on the iPad's screen --- unlike some cheap styli that simply push it around obscuring your drawing.
 
 When Pencil by FiftyThree originally launched drawing with the broadside of the tip had zero affect on the marks you made. That all changed when iOS and Paper grew up to versions 8 and 2.0 respectively.
 
-<figure>
-    {% vimeo 98146708 %}
-    <figcaption>This video shows Surface Pressure in all its expressiveness glory.</figcaption>
-</figure>
+{% figure caption:"This video shows Surface Pressure in all its expressiveness glory." %}
+{% vimeo 98146708 %}
+{% endfigure %}
 
 ### Is the Tip Durable?
 
@@ -69,19 +65,17 @@ The good news is FiftyThree now offers replacement tips and erasers [in their sh
 
 [^streaking]: Black rubber streaking from the tip taring was easily cleaned off the iPad's screen by wiping with a cloth.
 
-<figure>
-  <img src="/assets/images/pencil-53-drawing-tip.jpg" alt="drawing with Pencil's broadside">
-  <figcaption>Close-up of drawing with Pencil’s broad side</figcaption>
-</figure>
+{% figure caption:"Close-up of drawing with Pencil’s broad side" %}
+![drawing with Pencil's broadside](/assets/images/pencil-53-drawing-tip.jpg)
+{% endfigure %}
 
 ## Will it Blend?
 
 For me [Blend]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) is the most exciting thing about Pencil. Sure a ton of other *art* apps have smudging and blending tools, but they all break the creative flow in their implementations. FiftyThree has made this valuable tool fun and more true to *real* drawing by allowing you to switch between smudging and drawing in a fluid and natural way.
 
-<figure>
-  <img src="/assets/images/pencil-53-blend-comparison.jpg" alt="Blend speed comparison">
-  <figcaption>How speed affects the smudges you make.</figcaption>
-</figure>
+{% figure caption:"How speed affects the smudges you make." %}
+![Blend speed comparison](/assets/images/pencil-53-blend-comparison.jpg)
+{% endfigure %}
 
 If you take the time to experiment with Blend I think you'll [find it fairly sophisticated](http://making.fiftythree.com/the-precision-behind-blend/). Moving your finger slowly allows the pixels beneath to be pulled and pushed around like finger-paints. Moving your finger fast over an area slightly blurs which I've found useful in creating [depth of field effects]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) and simulating a bokeh.
 
@@ -95,11 +89,10 @@ I'm curious to learn about the experiences of others using Pencil and Blend. As 
 
 I'm not one for erasing all that much and instead rely heavily on the Rewind gesture to undo mistakes. But for those of you who do employ the eraser tool often, you're going to love Pencil. Instead of stopping to open the tool tray, selecting the eraser, removing your mistake, and going back to a drawing tool --- you now can flip Pencil on its head and erase instantly. In combination with Surface Pressure you can get into tight to erase spots with ease --- something that is impossible to do without Pencil.
 
-<figure class="half">
-  <a href="{% post_url /mastering-paper/2014-10-25-erasing %}"><img src="/assets/images/paper-53-erasing-corner.jpg" alt="erasing with the corner"></a>
-  <a href="{% post_url /mastering-paper/2014-10-25-erasing %}"><img src="/assets/images/paper-53-erasing-wide.jpg" alt="erasing with the entire edge"></a>
-  <figcaption>Vary the size of the eraser by using just the corner or go larger with the entire width.</figcaption>
-</figure>
+{% figure caption:"Vary the size of the eraser by using just the corner or go larger with the entire width." class:"half" %}
+[![erasing with the corner](/assets/images/paper-53-erasing-corner.jpg)]({% post_url /mastering-paper/2014-10-25-erasing %})
+[![erasing with the entire edge](/assets/images/paper-53-erasing-wide.jpg)]({% post_url /mastering-paper/2014-10-25-erasing %})
+{% endfigure %}
 
 {% notice info %}
 #### Erasing and Undoing Techniques
@@ -119,10 +112,9 @@ In my tests I had no issues drawing with my palms resting on the iPad's screen. 
 
 FiftyThree has made available a [SDK for Pencil](http://www.fiftythree.com/sdk) that other apps[^sdk-apps] can take advantage of. The first app to use the SDK was Procreate, which just so happens to be my second in command behind Paper. The current version of Procreate supports all of the same features as Paper with the exception of Surface Pressure.
 
-<figure>
-  <img src="/assets/images/pencil-53-procreate-connect.jpg" alt="Connect Pencil to Procreate">
-  <figcaption>Look familiar? The same Kiss to Pair interface from Paper makes its way into Procreate.</figcaption>
-</figure>
+{% figure caption:"Look familiar? The same Kiss to Pair interface from Paper makes its way into Procreate." %}
+![Connect Pencil to Procreate](/assets/images/pencil-53-procreate-connect.jpg)
+{% endfigure %}
 
 Palm rejection works to eliminate stray marks, but I did notice that you will sometimes rotate the canvas by mistake. Both smudging and erasing worked flawlessly for me.
 
@@ -173,9 +165,8 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
 
 Want to know more about Pencil or the new features it enables --- ask away in the comments below and I'll do my best to answer.
 
-<figure>
-    {% youtube K2dgaV9_rCI %}
-    <figcaption>Curious to see Pencil in action? In the back half of this time lapse video I use it to paint and smudge a portrait.</figcaption>
-</figure>
+{% figure caption:"Curious to see Pencil in action? In the back half of this time lapse video I use it to paint and smudge a portrait." %}
+{% youtube K2dgaV9_rCI %}
+{% endfigure %}
 
 {% include affiliate-disclosure.html %}

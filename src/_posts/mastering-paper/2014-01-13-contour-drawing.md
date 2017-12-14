@@ -1,7 +1,7 @@
 ---
 title: "Mastering Paper by FiftyThree: Contour Line Drawing"
 excerpt: "How to use blind contour line drawing and the iPad app Paper by FiftyThree to improve hand eye coordination and observation skills."
-last_modified_at: 2015-01-28T09:14:46-05:00
+last_modified_at: 2017-12-13T12:07:17-05:00
 image: 
   path: &image /assets/images/paper-53-contour-drawing-feature.jpg
   feature: *image
@@ -24,18 +24,15 @@ Pay close attention to how the form's contour and shape relate to each other mak
 
 When you observe a shadow or a dark division, move your stylus faster to produce a thicker line. For highlights and lighter areas move slowly to draw a thinner line.
 
-<figure class="half">
-  <a href="/assets/images/paper-53-contour-hand-pogo-lg.jpg"><img src="/assets/images/paper-53-contour-hand-pogo.jpg" alt="blind contour drawing of a hand drawn with a Pogo Connect"></a>
-  <a href="/assets/images/paper-53-contour-hand-pencil-lg.jpg"><img src="/assets/images/paper-53-contour-hand-pencil.jpg" alt="blind contour drawing of a hand drawn with a Pencil by 53"></a>
-  <figcaption>I find drawing with a Pogo Connect allows for greater control over the line's weight.</figcaption>
-</figure>
+{% figure caption:"I find drawing with a Pogo Connect allows for greater control over the line's weight." class:"half" %}
+[![blind contour drawing of a hand drawn with a Pogo Connect](/assets/images/paper-53-contour-hand-pogo.jpg)](/assets/images/paper-53-contour-hand-pogo-lg.jpg) [![blind contour drawing of a hand drawn with a Pencil by 53](/assets/images/paper-53-contour-hand-pencil.jpg)](/assets/images/paper-53-contour-hand-pencil-lg.jpg)
+{% endfigure %}
 
 Producing sensitive lines becomes infinitely easier with a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) since you can varying their thickness by pressing harder. This added complexity isn't for everyone, but for someone with a background in the fine arts or illustration, it can feel more natural.  
 
-<figure>
-  {% youtube OHpPRwXvVLQ %}
-  <figcaption>Drawing a blind contour line drawing of my hand in real time.</figcaption>
-</figure>
+{% figure caption:"Drawing a blind contour line drawing of my hand in real time." %}
+{% youtube OHpPRwXvVLQ %}
+{% endfigure %}
 
 I also find that it helps to think of this line as a piece of string --- pretending that I'm wrapping it around the object as I follow along with my stylus. Don't worry if your drawing ends up looking like a ball of yarn --- that's part of the charm. As the link between hand and eye builds, so will the accuracy of your lines.
 

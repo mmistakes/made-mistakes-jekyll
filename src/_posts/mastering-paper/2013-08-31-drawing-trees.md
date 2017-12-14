@@ -1,7 +1,7 @@
 ---
 title: "Mastering Paper by FiftyThree: Drawing Trees and Grass"
 excerpt: "Techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper by FiftyThree."
-last_modified_at: 2016-01-27T14:39:07-05:00
+last_modified_at: 2017-12-13T11:27:34-05:00
 image: 
   path: &image /assets/images/paper-53-trees-guide-feature.jpg
   feature: *image
@@ -24,11 +24,10 @@ When I draw trees I select the watercolor brush and jump right in, using one con
 When using the watercolor brush, try and mix a color around 50--75% lighter than the desired color. This lighter color allows you to layer multiple coats to create a nice vivid color. Going dark right away usually makes shapes flat and lifeless, with color that lacks richness.
 {% endnotice %}
 
-<figure class="half">
-	<img src="/assets/images/paper-53-tree-green-layered.jpg" alt="screenshot of leaf color layered">
-	<img src="/assets/images/paper-53-tree-green-one-layer.jpg" alt="screenshot of leaf color single coat">
-	<figcaption>Building up a color with multiple layers usually yields better results than one dark glaze.</figcaption>
-</figure>
+{% figure caption:"Building up a color with multiple layers usually yields better results than one dark glaze." class:"half" %}
+![screenshot of leaf color layered](/assets/images/paper-53-tree-green-layered.jpg)
+![screenshot of leaf color single coat](/assets/images/paper-53-tree-green-one-layer.jpg)
+{% endfigure %}
 
 {% notice info %}
 #### ProTip: Painting with the Brush
@@ -38,20 +37,18 @@ Remember the watercolor brush is translucent and no matter what color you pick i
 
 Here are some of my favorite colors to get you started painting leaves:
 
-<figure class="half">
-	<img src="/assets/images/paper-53-leaf-mixed-green.jpg" alt="screenshot of leaf base color">
-	<img src="/assets/images/paper-53-leaf-mixed-highlight.jpg" alt="screenshot of leaf highlight color">
-	<figcaption>On the left, base green color. On the right, highlight color.</figcaption>
-</figure>
+{% figure caption:"On the left, base green color. On the right, highlight color." class:"half" %}
+![screenshot of leaf base color](/assets/images/paper-53-leaf-mixed-green.jpg)
+![screenshot of leaf highlight color](/assets/images/paper-53-leaf-mixed-highlight.jpg)
+{% endfigure %}
 
 Once you're happy with the general shape of the tree, it's time to add some shadows. You can continue to use the same base color from before or darken it up depending on how much shadow you have to color. What I like to do is make short strokes to create a blotchy texture. For you traditional painters out there, it's kind of like scumbling, only we're not scraping paint around with a dry brush.
 
 The primary goal here is to give the illusion of leaf clusters and indicate where the branches and trunk flow. [FiftyThree's Pencil]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}) or a [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) can help immensely to paint branches of varying widths --- an ability no other styli support when used with Paper by 53.
 
-<figure>
-  <img src="/assets/images/paper-53-tree-texture-strokes.jpg" alt="screenshot of leaf texture strokes">
-  <figcaption>A fast way to create leaves is to make short quick strokes with the watercolor brush.</figcaption>
-</figure>
+{% figure caption:"A fast way to create leaves is to make short quick strokes with the watercolor brush." %}
+![screenshot of leaf texture strokes](/assets/images/paper-53-tree-texture-strokes.jpg)
+{% endfigure %}
 
 Now it's time to start adding detail to the tree with highlights. Using a reference photo can help determine a good highlight color, but if you don't have one check below for my favorite mixes. Stay away from colors that are too white --- you want a color that is still in the family of your base color, just warmed and lightened.
 
@@ -70,19 +67,17 @@ With our highlight color mixed, select the pencil tool and start lightly sketchi
 Apply highlight strokes on dark shadows to define individual leaves or groupings. A well placed pencil highlight can go a long way in adding texture and realism to your art.
 {% endnotice %}
 
-<figure>
-  <img src="/assets/images/paper-53-leaf-highlight-strokes.jpg" alt="screenshot of highlight strokes">
-  <figcaption>For a more textured look use the pencil tool instead of the fountain or ink pens.</figcaption>
-</figure>
+{% figure caption:"For a more textured look use the pencil tool instead of the fountain or ink pens." %}
+![screenshot of highlight strokes](/assets/images/paper-53-leaf-highlight-strokes.jpg)
+{% endfigure %}
 
 At this point your tree is pretty much done --- it really depends on how much detail you think it needs. If this tree is the primary subject of your composition then you probably want to work it some more and sharpen the edges. If it's just background filler I'd suggest keeping it soft and blurry so it doesn't compete with whatever you're placing in the foreground.
 
 For extra detail grab the base green from before, and mix in some brown and black, for a nice dark color. Armed with a pencil, use this color to add branches, and refine edges. If you overworked areas with highlights earlier, this darker color is perfect for adding shadows back in.
 
-<figure>
-	<img src="/assets/images/paper-53-tree-branch-detail.jpg" alt="screenshot of branch detail">
-	<figcaption>This dark green can also be used to add texture to the leaves by making small "scratchy" strokes.</figcaption>
-</figure>
+{% figure caption:"This dark green can also be used to add texture to the leaves by making small *scratchy* strokes." %}
+![screenshot of branch detail](/assets/images/paper-53-tree-branch-detail.jpg)
+{% endfigure %}
 
 To finish, quick strokes of watercolor with either a light gray or light dull green, can be used to add subtle gradations. Don't go crazy here, just a few small strokes on top of the pencil marks is enough to add depth. 
 
@@ -96,10 +91,9 @@ Fill the pencil with a color that matches the background and use it to refine th
 This technique works great to "erase" any spots in the middle of the tree where the sky might be showing through leaves.
 {% endnotice %}
 
-<figure>
-  <img src="/assets/images/paper-53-refine-tree-edges.jpg" alt="screenshot of refine tree edges with background color">
-  <figcaption>Erasing parts of the tree by using a pencil filled with a color that closely matches the background.</figcaption>
-</figure>
+{% figure caption:"Erasing parts of the tree by using a pencil filled with a color that closely matches the background." %}
+![screenshot of refine tree edges with background color](/assets/images/paper-53-refine-tree-edges.jpg)
+{% endfigure %}
 
 ---
 
@@ -129,17 +123,15 @@ When drawing longer grass, I like to think of it as hair and block out the major
 To feather out each shard of grass, move slow as you begin a stroke and faster as you finish. For those using a Pogo Connect Smart Pen, press hard at the start of your stroke and lighten up as you follow through.
 {% endnotice %}
 
-<figure>
-  <img src="/assets/images/paper-53-long-grass-feathered.jpg" alt="screenshot grass stroke feathered">
-  <figcaption>You can create a various types of grass by varying their length and direction.</figcaption>
-</figure>
+{% figure caption:"You can create a various types of grass by varying their length and direction." %}
+![screenshot grass stroke feathered](/assets/images/paper-53-long-grass-feathered.jpg)
+{% endfigure %}
 
 Dark green pencil strokes from the grass's base up to the middle can be used to add shadow to longer grass. For shorter strands, well placed marks below highlight strokes will add just the right amount of depth.
 
-<figure>
-  <img src="/assets/images/paper-53-long-grass-shadows.jpg" alt="screenshot long grass shadows vs. short grass shadows">
-  <figcaption>A few well placed shadows strokes to add depth to the grass.</figcaption>
-</figure>
+{% figure caption:"A few well placed shadows strokes to add depth to the grass." %}
+![screenshot long grass shadows vs. short grass shadows](/assets/images/paper-53-long-grass-shadows.jpg)
+{% endfigure %}
 
 One final tip for creating depth is to paint over everything with light gray or tan colors. Grass that is furthest back receives more coats of watercolor --- while grass that is in the foreground gets less.
 

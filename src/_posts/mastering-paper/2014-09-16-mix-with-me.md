@@ -1,6 +1,6 @@
 ---
 title: "Paper Creators, Join Me in the Mix"
-last_modified_at: 2017-09-08T09:56:40-04:00
+last_modified_at: 2017-12-13T15:17:44-05:00
 excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring Paper creators easy and fun."
 tags: [Paper by 53, Mix, iPad]
 image:
@@ -30,16 +30,12 @@ With the release of [Mix](http://mix.fiftythree.com) today, FiftyThree is making
 
 So if you're one of the lucky Paper creators to get an invite to Mix (or soon will be) feel free to join me in the Mix. If you've followed my [Mastering Paper by 53](/mastering-paper/) series of tutorials or [PaperFaces portraits](/paperfaces/) then you'll probably enjoy what I'm sharing.
 
-<figure class="third">
-	<a href="https://mix.fiftythree.com/11098-Michael-Rose/42082"><img src="/assets/images/paper-53-mix-faces.jpg" alt="How to draw a face"></a>
-	<a href="https://mix.fiftythree.com/11098-Michael-Rose/35882"><img src="/assets/images/paper-53-mix-mountain.jpg" alt="How to draw a mountainscape"></a>
-	<a href="https://mix.fiftythree.com/11098-Michael-Rose/42074"><img src="/assets/images/paper-53-mix-twins.jpg" alt="The twins illustrated"></a>
-	<figcaption>Examples of the types of content I’m sharing on Mix.</figcaption>
-</figure>
+{% figure caption:"Examples of the types of content I’m sharing on Mix." class:"third" %}
+[![How to draw a face](/assets/images/paper-53-mix-faces.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/42082) [![How to draw a mountainscape](/assets/images/paper-53-mix-mountain.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/35882) [![The twins illustrated](/assets/images/paper-53-mix-twins.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/42074)
+{% endfigure %}
 
-Easiest way to follow me is by [visiting my Mix profile](https://mix.fiftythree.com/11098-Michael-Rose) and clicking on the <i class="fa fa-plus-circle"></i> icon. You can also try searching for me in Paper by swiping down while *in the Mix* and typing "Michael Rose."
+Easiest way to follow me is by [visiting my Mix profile](https://mix.fiftythree.com/11098-Michael-Rose) and clicking on the **i** icon. You can also try searching for me in Paper by swiping down while *in the Mix* and typing "Michael Rose."
 
-<figure>
-	<a href="https://mix.fiftythree.com/11098-Michael-Rose"><img src="/assets/images/paper-53-mix-search-michael.jpg" alt="Search Mix for Michael"></a>
-	<figcaption>Search Mix for Michael and you should find me.</figcaption>
-</figure>
+{% figure caption:"Search Mix for Michael and you should find me." %}
+[![Search Mix for Michael](/assets/images/paper-53-mix-search-michael.jpg)](https://mix.fiftythree.com/11098-Michael-Rose)
+{% endfigure %}

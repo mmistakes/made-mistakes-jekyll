@@ -1,6 +1,6 @@
 ---
 title: "New Paper by FiftyThree 3.0 Features I Can't Live Without"
-last_modified_at: 2015-10-19T14:47:05-04:00
+last_modified_at: 2017-12-14T10:26:20-05:00
 excerpt: "Paper by FiftyThree comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more."
 tags: [Paper by 53, iPad]
 image:
@@ -21,10 +21,9 @@ Yes, you've read correctly --- Paper is now a universal iOS app that works on bo
 
 [^changes]: Yes the journal book view and zoom loupe have gone away. Change is good, deal with it :sunglasses:.
 
-<figure>
-  <img src="/assets/images/paper-3-store.jpg" alt="Paper 3.0 App Store screenshot">
-  <figcaption>Paper 3.0 for iPad/iPhone/iPod available in the App Store for free. <a href="https://itunes.apple.com/us/app/id506003812">Get it now!</a></figcaption>
-</figure> 
+{% figure caption:"Paper 3.0 for iPad/iPhone/iPod available in the App Store for free. [Get it now!](https://itunes.apple.com/us/app/id506003812)" %}
+![Paper 3.0 App Store screenshot](/assets/images/paper-3-store.jpg)
+{% endfigure %}
 
 ## Importing Images
 
@@ -32,35 +31,31 @@ Love it or hate it (stick me in the love it camp), you can finally import images
 
 Currently you are limited to one photo per idea --- but you can scale it, rotate it, and even call-out an area of interest with a new [*Spotlight option*](http://blog.fiftythree.com/posts/annotate-spotlight-photos).
 
-<figure>
-  <img src="/assets/images/paper-3-photo-import.jpg" alt="Importing photos into Paper 3.0">
-  <figcaption>Importing photos in Paper for iPad and iPhone.</figcaption>
-</figure>
+{% figure caption:"Importing photos in Paper for iPad and iPhone." %}
+![Importing photos into Paper 3.0](/assets/images/paper-3-photo-import.jpg)
+{% endfigure %}
 
 I'm excited to use this feature as a sketching aid --- drawing directly on reference images I've imported into Paper. There's no way to toggle this layer off yet (*psst... FiftyThree engineers if you're reading*), but it's easy enough to remove if you want to leave behind just what you've drawn or painted.
 
-<figure>
-  <img src="/assets/images/paper-3-clear-photo.gif" alt="Clear Photo layer animation">
-  <figcaption>Tap and hold on the Eraser tool, tap <strong>Clear Photo</strong>, and poof!</figcaption>
-</figure>
+{% figure caption:"Tap and hold on the Eraser tool, tap **Clear Photo**, and poof!" %}
+![Clear Photo layer animation](/assets/images/paper-3-clear-photo.gif)
+{% endfigure %}
 
 ## Rotating Ideas
 
 What a time saver this one is. If you wanted to share ideas "right side up" you had to export to the camera roll to make the rotation edit. This worked OK for sharing on social media but not so much with drawings shared on Mix --- you just had to live with them displaying horizontally.
 
-<figure>
-  <img src="/assets/images/paper-3-rotate-button.jpg" alt="new rotate button">
-  <figcaption>Tap the button on the far right to rotate ideas.</figcaption>
-</figure>
+{% figure caption:"Tap the button on the far right to rotate ideas." %}
+![new rotate button](/assets/images/paper-3-rotate-button.jpg)
+{% endfigure %}
 
 In 3.0 there's a new button conveniently located below each idea for rotating the canvas in 90 degree intervals. Horizontal and vertical ideas live in harmony together because of the new grid view. Which leads me to my next favorite thing in Paper 3.0...
 
-<figure class="third">
-  <img src="/assets/images/paper-3-rotate-horizontal.jpg" alt="Idea that hasn't been rotated yet">
-  <img src="/assets/images/paper-3-rotate-vertically.jpg" alt="Idea rotated 90 degrees">
-  <img src="/assets/images/paper-3-rotate-spaces.jpg" alt="How rotated images appear in Paper's spaces">
-  <figcaption>View ideas horizontally or vertically with the tap of the new <strong>rotate button</strong>.</figcaption>
-</figure>
+{% figure caption:"View ideas horizontally or vertically with the tap of the new **rotate button**." class:"third" %}
+![Idea that hasn't been rotated yet](/assets/images/paper-3-rotate-horizontal.jpg)
+![Idea rotated 90 degrees](/assets/images/paper-3-rotate-vertically.jpg)
+![How rotated images appear in Paper's spaces](/assets/images/paper-3-rotate-spaces.jpg)
+{% endfigure %}
 
 ## Journals Replaced with "Spaces"
 
@@ -68,10 +63,9 @@ Paging through Paper's digital journals might have been a good idea years ago, b
 
 Instead of ideas bound together as books, they're presented with a different UI metaphor --- stacks of paper. These stacks expand into a neatly aligned grid of cards you can interact with when tapped on. I'll tell you this much, scrolling through ideas in this way sure beats flipping back 500 plus pages to find a drawing I worked on a year ago.
 
-<figure>
-  {% youtube VBMt_sjEXF4 %}
-  <figcaption>Scrolling through a large stack of ideas is way more usable now.</figcaption>
-</figure>
+{% figure caption:"Scrolling through a large stack of ideas is way more usable now." %}
+{% youtube VBMt_sjEXF4 %}
+{% endfigure %}
 
 These new "Spaces" are more accommodating of the new content types found in Paper 3.0 as well. Ideas in portrait or landscape orientation fit in perfectly with text notes and images. There's no way any of this would be usable or look half as good as it does now if FiftyThree stuck with the book motif.
 
@@ -85,10 +79,9 @@ Undoing mistakes and page management are some of the most common Paper actions I
 
 Undoing (Rewinding) can still be triggered with a gesture[^rewind] or tapping the new **<<** button found in the tool tray. Tap the button to step back an edit at a time or hold down to speed it up.
 
-<figure>
-  <img src="/assets/images/paper-3-rewind-button.jpg" alt="Rewind button in tool tray">
-  <figcaption>Undo mistakes by pressing the <strong><<</strong> button in the upper left corner of the tool tray.</figcaption>
-</figure>
+{% figure caption:"Undo mistakes by pressing the **<<** button in the upper left corner of the tool tray." %}
+![Rewind button in tool tray](/assets/images/paper-3-rewind-button.jpg)
+{% endfigure %}
 
 [^rewind]: A small adjustment was made to the way Rewind works. To trigger it tap once with 2 fingers anywhere on the screen before making the [circle gesture]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#gestures-to-master).
 
@@ -100,35 +93,29 @@ To quickly undo a mistake double tap the screen with two fingers.
 
 The **• • •** button below each idea allows you to delete, duplicate, and move pages now. You no longer have to tap and hold an idea with one hand and do finger gymnastics with the other to move things around.
 
-<figure>
-  <img src="/assets/images/paper-3-more-button.jpg" alt="more button">
-  <figcaption>Delete, Duplicate, and Move to Space... by tapping the <strong>• • •</strong> button.
-</figcaption>
-</figure>
+{% figure caption:"Delete, Duplicate, and Move to Space... by tapping the **• • •** button." %}
+![more button](/assets/images/paper-3-more-button.jpg)
+{% endfigure %}
 
 ### Ability to Annotate Ideas and Create Text Notes
 
 Perfect for to-do lists, recipes, or adding captions to your ideas and photos. I could see this coming in handy for providing context around an idea you've shared or to solicit feedback from followers.
 
-<figure>
-  <img src="/assets/images/paper-3-text-ideas.jpg" alt="text notes in Paper">
-</figure>
+![text notes in Paper](/assets/images/paper-3-text-ideas.jpg)
 
 Basic formatting of text can be achieved by [swiping across text](http://blog.fiftythree.com/posts/swipe-to-style) to cycle through styles (Title, Subtitle, Bullet, and Sub-Bullet). You can also **bold**, *italicize*, and <s>strikethrough</s> text by selecting it and tapping the right arrow followed by **Style**.
 
-<figure>
-  <img src="/assets/images/paper-3-text-styles.jpg" alt="styling text in Paper">
-  <figcaption>Styling text in Paper 3.0.</figcaption>
-</figure>
+{% figure caption:"Styling text in Paper 3.0." %}
+![styling text in Paper](/assets/images/paper-3-text-styles.jpg)
+{% endfigure %}
 
 #### Changing the Default Idea Type
 
 You can easily switch between idea types (Canvas/Photo/Text) by tapping their corresponding icons in the tool tray. But you can also change which type is used as the default when creating a new idea.
 
-<figure>
-  <img src="/assets/images/paper-3-idea-type-button.jpg" alt="change default idea type">
-  <figcaption>Tap and hold on the new idea button (in this example it's a squiggle) at the bottom of the screen and select which type (Canvas, Photo, Text) you want to use as the default.</figcaption>
-</figure>
+{% figure caption:"Tap and hold on the new idea button (in this example it's a squiggle) at the bottom of the screen and select which type (Canvas, Photo, Text) you want to use as the default." %}
+![change default idea type](/assets/images/paper-3-idea-type-button.jpg)
+{% endfigure %}
 
 ### Formerly Known As Mix
 

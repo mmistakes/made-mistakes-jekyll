@@ -1,7 +1,7 @@
 ---
 title: "Pogo Connect Stylus Sensitivity Fix"
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware v1.1.0."
-last_modified_at: 2017-09-07T16:09:44-04:00
+last_modified_at: 2017-12-13T12:06:31-05:00
 image:
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumbnail: /assets/images/pogo-connect-app-thumb.jpg
@@ -13,9 +13,7 @@ About a month ago I received a replacement [Pogo Connect Smart Pen]({% post_url 
 
 I use Paper by FiftyThree almost exclusively for drawing with the occasional Procreate experiment. When using either app I noticed that the sensitivity of the Pogo's tip seemed off. To get the full range of stroke sizes I now had to press extremely hard to register a wide stroke (see screenshot below), which really started to screw with how I draw.
 
-<figure>
-	<img src="/assets/images/pogo-connect-sensitivity-lines.jpg" alt="Calibrated Pogo Connect line comparison">
-</figure>
+![Calibrated Pogo Connect line comparison](/assets/images/pogo-connect-sensitivity-lines.jpg)
 
 Isolating the cause is hard because so many factors had changed around the same time.
 
@@ -37,10 +35,9 @@ Next you'll need to open (or download) the free [**Pogo Connect app**](https://i
 
 Upon opening the app you should notice it trying to connect to the stylus. When that completes, tap the **Configuration** tab at the very bottom to customize the stylus to your liking. The two settings I altered to make it behave how it used to were **Locator Beacon** and **Pressure Amount**.
 
-<figure>
-	<img src="/assets/images/pogo-connect-app-settings.jpg" alt="Pogo Connect app settings screen">
-	<figcaption>I turned off the Locator Beacon, set Pressure Amount to +6, and selected the R3 tip to profile.</figcaption>
-</figure>
+{% figure caption:"I turned off the Locator Beacon, set Pressure Amount to +6, and selected the R3 tip to profile." %}
+![Pogo Connect app settings screen](/assets/images/pogo-connect-app-settings.jpg)
+{% endfigure %}
 
 After making these changes you can doodle around in the space below to verify the sensitivity settings are to you liking. You can then switch back to Paper and the new settings should be noticeable in the app.
 

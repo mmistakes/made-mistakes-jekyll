@@ -1,7 +1,7 @@
 ---
 title: "Printing a Moleskine Book with Paper by FiftyThree"
 excerpt: "Impressions of a handmade Moleskine book printed with the iPad app Paper by FiftyThree."
-last_modified_at: 2015-01-27T16:47:34-05:00
+last_modified_at: 2017-12-13T11:49:13-05:00
 image: 
   path: &image /assets/images/paper-53-book-feature.jpg
   feature: *image
@@ -19,10 +19,9 @@ About a month ago FiftyThree added a highly requested feature to their award win
 
 Before I get into my impressions of the physical books, I wanted to quickly discuss the book making process. As expected it was utilitarian in design and fully integrated into the iOS app. The only problem I had was whittling down hundreds of [PaperFaces portraits](/paperfaces/) into a collection of 15 favorites to make up my book.
 
-<figure>
-  <img src="/assets/images/paper-53-book-journal-pages.jpg" alt="Screenshot of PaperFaces journal pages">
-  <figcaption>A few pages from my PaperFaces journal.</figcaption>
-</figure>
+{% figure caption:"A few pages from my PaperFaces journal." %}
+![Screenshot of PaperFaces journal pages](/assets/images/paper-53-book-journal-pages.jpg)
+{% endfigure %}
 
 If you haven't watched any of the [Book videos](https://vimeo.com/75045142) or seen this [lovely set of drawings](http://madewithpaper.fiftythree.com/post/64391384887/how-to-make-a-book-earlier-this-month-we) describing how to make a Book in 5 steps, then here's how the process unfolds --- pun intended.
 
@@ -30,10 +29,9 @@ If you haven't watched any of the [Book videos](https://vimeo.com/75045142) or s
 
 Taking a few of my favorite [**PaperFaces**](/paperfaces/) portraits and consolidating them down into a smaller journal became the basis of my first Paper book. I'm still waiting on the second book to arrive that features some unpublished [**Mastering Paper**](/mastering-paper/) cheat sheets from upcoming tutorials…
 
-<figure>
-  <img src="/assets/images/paper-53-book-all-journals.jpg" alt="Screenshot of my journals in Paper">
-  <figcaption>Deciding which journal to print was a huge challenge for me. I'm so indecisive.</figcaption>
-</figure>
+{% figure caption:"Deciding which journal to print was a huge challenge for me. I'm so indecisive." %}
+![Screenshot of my journals in Paper](/assets/images/paper-53-book-all-journals.jpg)
+{% endfigure %}
 
 ### Choose Fifteen Pages
 
@@ -41,10 +39,9 @@ As noted earlier, I struggled with selecting 15 pages to turn into a book. I sup
 
 [^40-volumes]: I better start saving my pennies because it would cost me around $1,600 to produce 40 Books with Paper.
 
-<figure>
-  <img src="/assets/images/paper-53-book-select-pages.jpg" alt="Screenshot of selecting 15 Book pages">
-  <figcaption>Selecting your pages is as easy as tapping on them.</figcaption>
-</figure>
+{% figure caption:"Selecting your pages is as easy as tapping on them." %}
+![Screenshot of selecting 15 Book pages](/assets/images/paper-53-book-select-pages.jpg)
+{% endfigure %}
 
 {% notice warning %}
 #### Maximum Page Count
@@ -56,10 +53,9 @@ It's worth noting that if you select less than 15 pages for your book, you'll re
 
 I think the best option is to go fully custom with a cover. What I did was create a sketch for each of my books, and then assign them as journal covers. When you choose to *Print a Book* from the share button, Paper pulls in this cover by default. You also have the option of selecting a black leather texture that mimics the Classic Moleskine notebook.
 
-<figure>
-  <img src="/assets/images/paper-53-book-select-cover-color.jpg" alt="Screenshot of selecting a cover image">
-  <figcaption>Swatches saved in any of your palettes are available for use as a back cover and spine color.</figcaption>
-</figure>
+{% figure caption:"Swatches saved in any of your palettes are available for use as a back cover and spine color." %}
+![Screenshot of selecting a cover image](/assets/images/paper-53-book-select-cover-color.jpg)
+{% endfigure %}
 
 {% notice info %}
 #### ProTip: Custom Colored Cover Wraps
@@ -77,66 +73,55 @@ After ordering you can easily check a book's status by tapping **Order Status** 
 
 Two weeks later your book(s) will arrive in a small cardboard parcel with a pull tab. Tugging on this rips through the protective packaging to reveal a book wrapped in a protective sheet of paper.
 
-<figure class="half">
-  <a href="/assets/images/paper-53-book-wrap-lg.jpg"><img src="/assets/images/paper-53-book-wrap.jpg" alt="Photograph of book wrap"></a>
-  <a href="/assets/images/paper-53-book-seal-lg.jpg"><img src="/assets/images/paper-53-book-seal.jpg" alt="Photograph of the handmade seal"></a>
-  <figcaption>A sticker seals the sleeve and the inside back is adorned with a handmade stamp and signature.</figcaption>
-</figure>
+{% figure caption:"A sticker seals the sleeve and the inside back is adorned with a handmade stamp and signature." class:"half" %}
+[![Photograph of book wrap](/assets/images/paper-53-book-wrap.jpg)](/assets/images/paper-53-book-wrap-lg.jpg) [![Photograph of the handmade seal](/assets/images/paper-53-book-seal.jpg)](/assets/images/paper-53-book-seal-lg.jpg)
+{% endfigure %}
 
 If you've ever owned a Classic Moleskine notebook a few of the details printed on the inside front cover and first page should be familiar.
 
-<figure class="half">
-  <a href="/assets/images/paper-53-book-heart-moleskine-lg.jpg"><img src="/assets/images/paper-53-book-heart-moleskine.jpg" alt="Photograph of book wrap"></a>
-  <a href="/assets/images/paper-53-book-reward-lg.jpg"><img src="/assets/images/paper-53-book-reward.jpg" alt="Photograph of the handmade seal"></a>
-  <figcaption>I&rsquo;ve seen this &ldquo;reward&rdquo; page somewhere else before haven&rsquo;t I&hellip;</figcaption>
-</figure>
+{% figure caption:"I've seen this *reward* page somewhere else before haven't I..." class:"half" %}
+[![Photograph of book wrap](/assets/images/paper-53-book-heart-moleskine.jpg)](/assets/images/paper-53-book-heart-moleskine-lg.jpg) [![Photograph of the handmade seal](/assets/images/paper-53-book-reward.jpg)](/assets/images/paper-53-book-reward-lg.jpg)
+{% endfigure %}
 
 ### Color Faithfulness
 
 So the real question is how well have my Paper drawings been reproduced in printed form? Pretty damn good if you ask me. To my eye the color is almost an exact match to what I see on the iPad's screen. It's not as bright because the paper stock printed on is warmer, but for the most part it's faithful.
 
-<figure>
-  <a href="/assets/images/paper-53-book-wendy-lg.jpg"><img src="/assets/images/paper-53-book-wendy.jpg" alt="Photograph of a PaperFaces drawing"></a>
-  <figcaption>Prints are not as crisp as what you see on screen, but I like that. Makes my drawings look more watercolory.</figcaption>
-</figure>
+{% figure caption:"Prints are not as crisp as what you see on screen, but I like that. Makes my drawings look more watercolory." %}
+[![Photograph of a PaperFaces drawing](/assets/images/paper-53-book-wendy.jpg)](/assets/images/paper-53-book-wendy-lg.jpg)
+{% endfigure %}
 
-<figure>
-  <a href="/assets/images/paper-53-book-yoda-luke-lg.jpg"><img src="/assets/images/paper-53-book-yoda-luke.jpg" alt="Photograph of a Star Wars drawing"></a>
-  <figcaption>I really like how the pencil work printed &#8212; drawings look super professional.</figcaption>
-</figure>
+{% figure caption:"I really like how the pencil work printed --- drawings look super professional." %}
+[![Photograph of a Star Wars drawing](/assets/images/paper-53-book-yoda-luke.jpg)](/assets/images/paper-53-book-yoda-luke-lg.jpg)
+{% endfigure %}
 
 ### Paper Quality
 
 The paper stock printed on is thinner than what I was expecting, which is a slight bummer. I suppose it's hard to gauge from the promotional videos alone just how thick they'd be. By no means a deal breaker, but something to be aware of if you were expecting something more.
 
-<figure>
-  <a href="/assets/images/paper-53-book-bleed-through-lg.jpg"><img src="/assets/images/paper-53-book-bleed-through.jpg" alt="Photograph of a paper bleed-through"></a>
-  <figcaption>Some bleed-through is present when viewing the pages from behind &#8212; who&rsquo;s really going to do that though?</figcaption>
-</figure>
+{% figure caption:"Some bleed-through is present when viewing the pages from behind --- who's really going to do that though?" %}
+[![Photograph of a paper bleed-through](/assets/images/paper-53-book-bleed-through.jpg)](/assets/images/paper-53-book-bleed-through-lg.jpg)
+{% endfigure %}
 
 ### Accordion Fold
 
 I personally like the accordion fold and how each of the pages are glued together into one continuous strip. If you're using a Book to tell a story in 15 pages, this style of binding helps enhance that. It also mimics the way you interact with pages from within Paper, which is a nice touch.
 
-<figure>
-  <a href="/assets/images/paper-53-book-accordion-fold-lg.jpg"><img src="/assets/images/paper-53-book-accordion-fold.jpg" alt="Photograph of the accordion fold"></a>
-  <figcaption>Some may prefer a perfect bound or saddle-stitched book, but I like the story-telling nature of an accordion fold.</figcaption>
-</figure>
+{% figure caption:"Some may prefer a perfect bound or saddle-stitched book, but I like the story-telling nature of an accordion fold." %}
+[![Photograph of the accordion fold](/assets/images/paper-53-book-accordion-fold.jpg)](/assets/images/paper-53-book-accordion-fold-lg.jpg)
+{% endfigure %}
 
 ### Cover and Spine
 
 As noted before, the cover isn't as thick as I had hoped for, but it's not super thin either. To further protect it from scratches and stains, I'll be leaving it in the paper sleeve it shipped with. I'm crazy like that…
 
-<figure>
-  <a href="/assets/images/paper-53-book-paperfaces-cover-lg.jpg"><img src="/assets/images/paper-53-book-paperfaces-cover.jpg" alt="Photograph of the book cover"></a>
-  <figcaption>Custom cover option.</figcaption>
-</figure>
+{% figure caption:"Custom cover option." %}
+[![Photograph of the book cover](/assets/images/paper-53-book-paperfaces-cover.jpg)](/assets/images/paper-53-book-paperfaces-cover-lg.jpg)
+{% endfigure %}
 
-<figure class="half">
-  <a href="/assets/images/paper-53-book-spine-lg.jpg"><img src="/assets/images/paper-53-book-spine.jpg" alt="Photograph of book wrap"></a>
-  <a href="/assets/images/paper-53-book-back-cover-lg.jpg"><img src="/assets/images/paper-53-book-back-cover.jpg" alt="Photograph of the handmade seal"></a>
-  <figcaption>I selected black for the spine and back cover color.</figcaption>
-</figure>
+{% figure caption:"I selected black for the spine and back cover color." class:"half" %}
+[![Photograph of book wrap](/assets/images/paper-53-book-spine.jpg)](/assets/images/paper-53-book-spine-lg.jpg) [![Photograph of the handmade seal](/assets/images/paper-53-book-back-cover.jpg)](/assets/images/paper-53-book-back-cover-lg.jpg)
+{% endfigure %}
 
 ## Justifying the Price
 
@@ -146,22 +131,19 @@ Not to mention the finished books share the same 4:3 proportion as your Paper cr
 
 [^page-cost]: Not including shipping costs a Paper Book ends up costing about $2.67 per page.
 
-<figure>
-  <img src="/assets/images/paper-53-book-moleskine-comparison.jpg" alt="Photograph comparing a classic Moleskine Notebook to a Paper Book">
-  <figcaption>Size comparison between a Classic Moleskine notebook and a Paper Book.</figcaption>
-</figure>
+{% figure caption:"Size comparison between a Classic Moleskine notebook and a Paper Book." %}
+![Photograph comparing a classic Moleskine Notebook to a Paper Book](/assets/images/paper-53-book-moleskine-comparison.jpg)
+{% endfigure %}
 
-<figure>
-  <img src="/assets/images/paper-53-journal-comparison.jpg" alt="Photograph comparing a digital journal to a Paper Book">
-  <figcaption>Digital journal compared to the printed version &#8212; same accordion fold, same rounded corners, same elastic band cover.</figcaption>
-</figure>
+{% figure caption:"Digital journal compared to the printed version --- same accordion fold, same rounded corners, same elastic band cover." %}
+![Photograph comparing a digital journal to a Paper Book](/assets/images/paper-53-journal-comparison.jpg)
+{% endfigure %}
 
 If you've been holding out printing a book with Paper, I'd encourage you to give it a try at least once. I believe they're most effective as gifts to share with friends and family. Why not get a jump on the upcoming holiday season and create a book now. If they're as popular as I predict them to be, it might be a good idea to get an order in early to beat the rush.
 
-<figure>
-  {% youtube ibG41djH_Nk %}
-  <figcaption>Flipping through a book of PaperFaces</figcaption>
-</figure>
+{% figure caption:"Flipping through a book of PaperFaces" %}
+{% youtube ibG41djH_Nk %}
+{% endfigure %}
 
 ---
 
@@ -171,19 +153,10 @@ When my second book didn't show up at the same time as the PaperFaces one, I sta
 
 For this book I took a few of my Paper "cheat sheets" and adapted drawings from my **Mastering Paper** series to fill all 15 pages. If you look closely you'll notice a few teases from upcoming tutorials I'm in the process of writing now. I've also embedded a video flip-through for your viewing pleasure.
 
-<figure class="half">
-  <a href="/assets/images/paper-53-ref-book-1-lg.jpg"><img src="/assets/images/paper-53-ref-book-1.jpg" alt="Photograph of the cover"></a>
-  <a href="/assets/images/paper-53-ref-book-2-lg.jpg"><img src="/assets/images/paper-53-ref-book-2.jpg" alt="Page showing strokes made with each tool"></a>
-  <a href="/assets/images/paper-53-ref-book-3-lg.jpg"><img src="/assets/images/paper-53-ref-book-3.jpg" alt="Page showing stroke layering effects"></a>
-  <a href="/assets/images/paper-53-ref-book-4-lg.jpg"><img src="/assets/images/paper-53-ref-book-4.jpg" alt="Page showing skin tone reference"></a>
-  <a href="/assets/images/paper-53-ref-book-5-lg.jpg"><img src="/assets/images/paper-53-ref-book-5.jpg" alt="Page showing hair references"></a>
-  <a href="/assets/images/paper-53-ref-book-6-lg.jpg"><img src="/assets/images/paper-53-ref-book-6.jpg" alt="Page showing how to draw an eye"></a>
-  <a href="/assets/images/paper-53-ref-book-7-lg.jpg"><img src="/assets/images/paper-53-ref-book-7.jpg" alt="Page showing how to draw a tree"></a>
-  <a href="/assets/images/paper-53-ref-book-8-lg.jpg"><img src="/assets/images/paper-53-ref-book-8.jpg" alt="Page showing how to draw grass"></a>
-  <figcaption>Assorted pages from my <strong>Paper Reference Guide</strong> book.</figcaption>
-</figure>
+{% figure caption:"Assorted pages from my **Paper Reference Guide** book." class:"third" %}
+[![Photograph of the cover](/assets/images/paper-53-ref-book-1.jpg)](/assets/images/paper-53-ref-book-1-lg.jpg) [![Page showing strokes made with each tool](/assets/images/paper-53-ref-book-2.jpg)](/assets/images/paper-53-ref-book-2-lg.jpg) [![Page showing stroke layering effects](/assets/images/paper-53-ref-book-3.jpg)](/assets/images/paper-53-ref-book-3-lg.jpg) [![Page showing skin tone reference](/assets/images/paper-53-ref-book-4.jpg)](/assets/images/paper-53-ref-book-4-lg.jpg) [![Page showing hair references](/assets/images/paper-53-ref-book-5.jpg)](/assets/images/paper-53-ref-book-5-lg.jpg) [![Page showing how to draw an eye](/assets/images/paper-53-ref-book-6.jpg)](/assets/images/paper-53-ref-book-6-lg.jpg) [![Page showing how to draw a tree](/assets/images/paper-53-ref-book-7.jpg)](/assets/images/paper-53-ref-book-7-lg.jpg) [![Page showing how to draw grass](/assets/images/paper-53-ref-book-8.jpg)](/assets/images/paper-53-ref-book-8-lg.jpg)
+{% endfigure %}
 
-<figure>
-  {% youtube BW8czjeiNzw %}
-  <figcaption>Flipping through another book</figcaption>
-</figure>
+{% figure caption:"Flipping through another book" %}
+{% youtube BW8czjeiNzw %}
+{% endfigure %}
