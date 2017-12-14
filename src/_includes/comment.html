@@ -13,9 +13,9 @@
   </div>
   <h3 class="comment-author-name">
     {% unless include.url == blank %}
-      <a rel="external nofollow" href="{{ include.url }}">{{ include.name }}</a>
+      <a rel="external nofollow" href="{{ include.url }}">{{ include.name | strip_html }}</a>
     {% else %}
-      {{ include.name }}
+      {{ include.name | strip_html }}
     {% endunless %}
   </h3>
   <div class="comment-timestamp">
