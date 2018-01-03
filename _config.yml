@@ -85,15 +85,16 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - Capfile
   - config
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - log
@@ -102,6 +103,10 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Plugins
 plugins:
