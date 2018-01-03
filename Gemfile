@@ -4,10 +4,10 @@ source 'https://rubygems.org'
 gem 'breakpoint'
 gem 'html-proofer'
 gem 'rake'
-gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+gem 'wdm', '~> 0.1' if Gem.win_platform?
 
 # Jekyll
-gem 'jekyll', '~> 3.5'
+gem 'jekyll', '~> 3.6.0'
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jemoji'
