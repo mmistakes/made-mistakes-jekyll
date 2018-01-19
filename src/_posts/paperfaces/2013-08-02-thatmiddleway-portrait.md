@@ -12,7 +12,7 @@ PaperFaces portrait of [@thatmiddleway](https://twitter.com/thatmiddleway).
 
 {% include boilerplate/paperfaces.md %}
 
-{% figure caption:"Work in progress screenshots." class:"half" %}
+{% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-thatmiddleway-process-1-600.jpg)](/assets/images/paperfaces-thatmiddleway-process-1-lg.jpg)
 [![](/assets/images/paperfaces-thatmiddleway-process-2-600.jpg)](/assets/images/paperfaces-thatmiddleway-process-2-lg.jpg)
 [![](/assets/images/paperfaces-thatmiddleway-process-3-600.jpg)](/assets/images/paperfaces-thatmiddleway-process-3-lg.jpg)

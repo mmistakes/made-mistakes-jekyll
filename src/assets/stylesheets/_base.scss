@@ -101,6 +101,11 @@ figure {
   margin-right: 0;
   margin-left: 0;
 
+  > p {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
   > img {
     width: 100%;
   }

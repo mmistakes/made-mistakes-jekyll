@@ -12,7 +12,7 @@ PaperFaces portrait of [@steve_fenton](https://twitter.com/steve_fenton).
 
 {% include boilerplate/paperfaces-4.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-steve-fenton-process-1-750.jpg)](/assets/images/paperfaces-steve-fenton-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-steve-fenton-process-2-600.jpg)](/assets/images/paperfaces-steve-fenton-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-steve-fenton-process-3-600.jpg)](/assets/images/paperfaces-steve-fenton-process-3-lg.jpg)

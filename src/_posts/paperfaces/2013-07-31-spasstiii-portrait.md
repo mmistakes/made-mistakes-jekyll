@@ -12,7 +12,7 @@ PaperFaces portrait of [@spasstiii](https://twitter.com/spasstiii).
 
 {% include boilerplate/paperfaces.md %}
 
-{% figure caption:"Work in progress screenshots." class:"half" %}
+{% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-spasstiii-process-1-600.jpg)](/assets/images/paperfaces-spasstiii-process-1-lg.jpg)
 [![](/assets/images/paperfaces-spasstiii-process-2-600.jpg)](/assets/images/paperfaces-spasstiii-process-2-lg.jpg)
 [![](/assets/images/paperfaces-spasstiii-process-3-600.jpg)](/assets/images/paperfaces-spasstiii-process-3-lg.jpg)

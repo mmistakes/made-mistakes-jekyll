@@ -16,7 +16,7 @@ Paper by FiftyThree makes painting realistic skies and clouds a breeze. If you h
 
 Let's start with the easier of the two, a nice bright blue sky. One of the more important steps is choosing a blue to paint with. The hue...the saturation...and the brightness all play a role in the overall emotion of the piece. I tend to mix in a swirl of green and keep it slightly over saturated to contrast against skin tones as seen in my many [PaperFaces portraits](/paperfaces/). If you're going for doom and gloom, back off the blue and mix in gray instead to set the foundation for an overcast sky.
 
-{% figure caption:"Blue and overcast sky color mixes" class:"half" %}
+{% figure caption:"Blue and overcast sky color mixes" class:"gallery-2-col" %}
 ![screenshot of blue sky color mix](/assets/images/paper-53-blue-sky-mix.jpg)
 ![screenshot of overcast sky color mix](/assets/images/paper-53-overcast-sky-mix.jpg)
 {% endfigure %}
@@ -29,7 +29,7 @@ With the base sky color mixed, select the pencil tool and draw a line across the
 
 Prep work complete, now you can start the actual painting of the sky. What you're trying to accomplish with this step is a smooth coat that gradually fades to white as you approach the horizon line. The easiest way to do this is with the watercolor brush, starting from the top of the composition, working down in a slight zig zag pattern.
 
-{% figure caption:"Direction your stroke should follow. Back and forth, top to bottom." class:"half" %}
+{% figure caption:"Direction your stroke should follow. Back and forth, top to bottom." class:"gallery-2-col" %}
 ![screenshot showing sky stroke direction with arrows](/assets/images/paper-53-sky-stroke-direction-arrows.jpg)
 ![screenshot showing sky stroke direction desired result](/assets/images/paper-53-sky-stroke-direction.jpg)
 {% endfigure %}
@@ -64,7 +64,7 @@ No need to overdo it with the wisps, just a few light crosshatches is all that's
 
 Don't be afraid to go back into the clouds with the blue color we initially painted the sky with. The same "streaky" pencil pattern used to draw wisps (see above) can be used to add subtle cloud shadows. I often flip flop between blue and white to get the detail just right.
 
-{% figure caption:"Adding subtle blue shadows to the larger fluffy clouds and the finished result." class:"half" %}
+{% figure caption:"Adding subtle blue shadows to the larger fluffy clouds and the finished result." class:"gallery-2-col" %}
 [![screenshot adding blue shadows to clouds](/assets/images/paper-53-cloud-blue-shadow-600.jpg)](/assets/images/paper-53-cloud-blue-shadow-lg.jpg)
 [![screenshot the finished cloud](/assets/images/paper-53-clouds-600.jpg)](/assets/images/paper-53-clouds-lg.jpg)
 {% endfigure %}
@@ -129,7 +129,7 @@ If you don't add enough red to the color mix, the watercolor brush will lighten 
 
 A pencil filled with a pinkish red is also perfect for refining clouds edges or drawing in long wispy clouds.
 
-{% figure caption:"Color mix and end result of drawing pink wispy clouds with the pencil tool." class:"half" %}
+{% figure caption:"Color mix and end result of drawing pink wispy clouds with the pencil tool." class:"gallery-2-col" %}
 ![screenshot sunset red cloud shadow color mix](/assets/images/paper-53-sunset-red-cloud-mix.jpg)
 ![screenshot pink wispy clouds](/assets/images/paper-53-sunset-pink-wispy-clouds.jpg)
 {% endfigure %}
@@ -142,7 +142,7 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
   <li><a href="{% post_url /paperfaces/2013-08-22-laramulady-portrait %}"><img src="/assets/images/paperfaces-laramulady-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-08-22-tipican-portrait %}"><img src="/assets/images/paperfaces-tipican-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="/assets/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>

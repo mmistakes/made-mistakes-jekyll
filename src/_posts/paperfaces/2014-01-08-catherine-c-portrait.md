@@ -12,7 +12,7 @@ PaperFaces portrait commission of [Catherine C.](http://sktchy.com/4het8)
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-catherine-c-process-1-600.jpg)](/assets/images/paperfaces-catherine-c-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-catherine-c-process-2-600.jpg)](/assets/images/paperfaces-catherine-c-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-catherine-c-process-3-600.jpg)](/assets/images/paperfaces-catherine-c-process-3-lg.jpg)

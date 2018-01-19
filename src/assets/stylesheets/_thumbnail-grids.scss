@@ -7,7 +7,7 @@
 /**
  *
  * Example usage:
- *  <ul class="th-grid">
+ *  <ul class="gallery-thumbnails">
  *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
  *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
  *    <li><a href="#"><img src="image.jpg" alt=""></a></li>
@@ -15,38 +15,39 @@
  *
  */
 
-.th-grid {
-  @include clearfix();
-  padding-left: 0; // reset
 
-  @supports (display: flex) {
-    display: flex;
-    flex-wrap: wrap;
-  }
+// .th-grid {
+//   @include clearfix();
+//   padding-left: 0; // reset
 
-  li {
-    float: left;
-    flex: auto;
-    margin: 0.25em;
-    width: 100px;
-    max-width: 150px;
-    list-style: none;
+//   @supports (display: flex) {
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
 
-    @supports (display: flex) {
-      float: none;
-    }
+//   li {
+//     float: left;
+//     flex: auto;
+//     margin: 0.25em;
+//     width: 100px;
+//     max-width: 150px;
+//     list-style: none;
 
-    a {
-      display: block;
-    }
-  }
+//     @supports (display: flex) {
+//       float: none;
+//     }
 
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: $border-radius;
-  }
-}
+//     a {
+//       display: block;
+//     }
+//   }
+
+//   img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: $border-radius;
+//   }
+// }
 
 /* list override */
 .list .th-grid a {

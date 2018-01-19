@@ -56,7 +56,7 @@ So there you have it. Can't say that I was excited about the thought of paying a
 
 If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](https://web.archive.org/web/20100613121400/http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walkthroughs.
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
   <li><a href="/assets/images/354.jpg"><img src="/assets/images/354t.jpg" alt="Palm Pre lock screen"></a></li>
   <li><a href="/assets/images/355.jpg"><img src="/assets/images/355t.jpg" alt="Palm Pre closed"></a></li>
   <li><a href="/assets/images/356.jpg"><img src="/assets/images/356t.jpg" alt="Palm Pre open"></a></li>

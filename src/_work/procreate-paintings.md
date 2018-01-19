@@ -20,7 +20,7 @@ order: 1
 
 Digital paintings created on an iPad using the iOS app [**Procreate** by Savage Interactive](http://procreate.si/).
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
 {% for post in site.categories.procreate-paintings %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}">

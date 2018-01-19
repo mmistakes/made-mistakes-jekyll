@@ -21,7 +21,7 @@ PaperFaces was an [illustration project](/articles/paperfaces-ipad-portrait-proj
 
 If you scroll down far enough you can see how my technique evolved from faceless gestures into realistic portraits[^procreate].
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
 {% for post in site.categories.paperfaces %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}">

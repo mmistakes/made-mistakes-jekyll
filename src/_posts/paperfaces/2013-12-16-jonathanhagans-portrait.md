@@ -16,7 +16,7 @@ PaperFaces portrait commission for [@jonathanhagans](https://twitter.com/jonatha
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-1-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-2-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-3-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-3-lg.jpg)

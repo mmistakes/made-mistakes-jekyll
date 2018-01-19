@@ -17,7 +17,7 @@ PaperFaces portrait of [@edwinvdbogert](https://twitter.com/edwinvdbogert). A re
 [![](/assets/images/paperfaces-edwinvdbogert-process-1-600.jpg)](/assets/images/paperfaces-edwinvdbogert-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots." class:"half" %}
+{% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-edwinvdbogert-process-2-600.jpg)](/assets/images/paperfaces-edwinvdbogert-process-2-lg.jpg)
 [![](/assets/images/paperfaces-edwinvdbogert-process-3-600.jpg)](/assets/images/paperfaces-edwinvdbogert-process-3-lg.jpg)
 [![](/assets/images/paperfaces-edwinvdbogert-process-4-600.jpg)](/assets/images/paperfaces-edwinvdbogert-process-4-lg.jpg)

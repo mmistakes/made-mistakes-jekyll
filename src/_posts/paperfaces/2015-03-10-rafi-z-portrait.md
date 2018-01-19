@@ -18,7 +18,7 @@ Another experiment in recording my drawing process using on iPad, recorded with 
 {% youtube i5DUn3K60eg %}
 {% endfigure %}
 
-{% figure caption:"Work in progress drawings available on Mix." class:"half" %}
+{% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-rafi-z-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2359890) [![Work in process screenshot](/assets/images/paperfaces-rafi-z-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2370683)
 {% endfigure %}
 

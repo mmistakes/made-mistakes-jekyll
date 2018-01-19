@@ -16,6 +16,6 @@ PaperFaces portrait of [Danielle M.](http://sktchy.com/rhvANH) inspired on Sktch
 [![Work in process screenshot](/assets/images/paperfaces-danielle-m-process-1-750.jpg)](/assets/images/paperfaces-danielle-m-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-danielle-m-process-2-600.jpg)](/assets/images/paperfaces-danielle-m-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-danielle-m-process-3-600.jpg)](/assets/images/paperfaces-danielle-m-process-3-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-danielle-m-process-4-600.jpg)](/assets/images/paperfaces-danielle-m-process-4-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-danielle-m-process-5-600.jpg)](/assets/images/paperfaces-danielle-m-process-5-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-danielle-m-process-6-600.jpg)](/assets/images/paperfaces-danielle-m-process-6-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-danielle-m-process-7-600.jpg)](/assets/images/paperfaces-danielle-m-process-7-lg.jpg)
 {% endfigure %}

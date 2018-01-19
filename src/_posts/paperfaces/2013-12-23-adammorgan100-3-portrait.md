@@ -16,7 +16,7 @@ PaperFaces portrait commission for [@adammorgan100](https://twitter.com/adammorg
 [![Work in process screenshot](/assets/images/paperfaces-adammorgan100-3-process-1-750.jpg)](/assets/images/paperfaces-adammorgan100-3-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-adammorgan100-3-process-2-600.jpg)](/assets/images/paperfaces-adammorgan100-3-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-adammorgan100-3-process-3-600.jpg)](/assets/images/paperfaces-adammorgan100-3-process-3-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-adammorgan100-3-process-4-600.jpg)](/assets/images/paperfaces-adammorgan100-3-process-4-lg.jpg)

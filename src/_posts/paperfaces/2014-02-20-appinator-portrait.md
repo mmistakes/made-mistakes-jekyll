@@ -13,7 +13,7 @@ PaperFaces portrait of [@appinator](https://twitter.com/appinator).
 
 {% include boilerplate/paperfaces-4.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-appinator-process-1-600.jpg)](/assets/images/paperfaces-appinator-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-appinator-process-2-600.jpg)](/assets/images/paperfaces-appinator-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-appinator-process-3-600.jpg)](/assets/images/paperfaces-appinator-process-3-lg.jpg)

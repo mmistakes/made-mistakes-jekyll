@@ -12,7 +12,7 @@ PaperFaces portrait of [@herzbescheuert](https://twitter.com/herzbescheuert). An
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots." class:"half" %}
+{% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![Work in progress screenshot](/assets/images/paperfaces-herzbescheuert-process-1-600.jpg)](/assets/images/paperfaces-herzbescheuert-process-1-lg.jpg)
 [![Work in progress screenshot](/assets/images/paperfaces-herzbescheuert-process-2-600.jpg)](/assets/images/paperfaces-herzbescheuert-process-2-lg.jpg)
 [![Work in progress screenshot](/assets/images/paperfaces-herzbescheuert-process-3-600.jpg)](/assets/images/paperfaces-herzbescheuert-process-3-lg.jpg)

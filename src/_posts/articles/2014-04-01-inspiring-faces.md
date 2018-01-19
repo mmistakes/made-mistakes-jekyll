@@ -22,7 +22,7 @@ I've been known to peruse the *Inspiration* tab in look of faces to draw. So if 
 Goofy homeless looking beards help get you noticed. Apparently Sktchy artists enjoy them because mine has managed to inspire a handful of drawings and sketches. Who knew?
 {% endnotice %}
 
-{% figure caption:"" class:"half" %}
+{% figure caption:"" class:"gallery-2-col" %}
 ![Inspiration tab on Sktchy](/assets/images/sktchy-inspiration-screenshot.jpg)]
 ![Profile page on Sktchy](/assets/images/sktchy-profile-screenshot.jpg)
 {% endfigure %}

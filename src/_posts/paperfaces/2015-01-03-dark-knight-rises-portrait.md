@@ -16,6 +16,6 @@ The original illustration is [available on Mix](https://mix.fiftythree.com/11098
 
 {% include boilerplate/paperfaces-3.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-dark-knight-process-1-600.jpg)](/assets/images/paperfaces-dark-knight-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-dark-knight-process-2-600.jpg)](/assets/images/paperfaces-dark-knight-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-dark-knight-process-3-600.jpg)](/assets/images/paperfaces-dark-knight-process-3-lg.jpg)
 {% endfigure %}

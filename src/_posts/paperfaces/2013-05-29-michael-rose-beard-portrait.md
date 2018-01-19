@@ -13,7 +13,7 @@ Thirty-four years and still kicking --- a PaperFaces self portrait on my birthda
 
 {% include boilerplate/paperfaces.md %}
 
-{% figure caption:"In process sketching. Rough out shapes with watercolor and define them with pencil." class:"third" %}
+{% figure caption:"In process sketching. Rough out shapes with watercolor and define them with pencil." class:"gallery-3-col" %}
 [![Screenshot. Painting the background with watercolor.](/assets/images/michael-rose-beard-process-1-600.jpg)](/assets/images/michael-rose-beard-process-1-lg.jpg)
 [![Screenshot. Sketching out the figure.](/assets/images/michael-rose-beard-process-2-600.jpg)](/assets/images/michael-rose-beard-process-2-lg.jpg)
 [![Screenshot. Adding detail with watercolor.](/assets/images/michael-rose-beard-process-3-600.jpg)](/assets/images/michael-rose-beard-process-3-lg.jpg)

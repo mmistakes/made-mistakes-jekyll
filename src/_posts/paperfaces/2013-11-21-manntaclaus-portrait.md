@@ -16,7 +16,7 @@ PaperFaces portrait of [@manntaclaus](https://twitter.com/manntaclaus).
 [![](/assets/images/paperfaces-manntaclaus-process-1-750.jpg)](/assets/images/paperfaces-manntaclaus-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-manntaclaus-process-2-600.jpg)](/assets/images/paperfaces-manntaclaus-process-2-lg.jpg)
 [![](/assets/images/paperfaces-manntaclaus-process-3-600.jpg)](/assets/images/paperfaces-manntaclaus-process-3-lg.jpg)
 [![](/assets/images/paperfaces-manntaclaus-process-4-600.jpg)](/assets/images/paperfaces-manntaclaus-process-4-lg.jpg)

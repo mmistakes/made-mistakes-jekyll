@@ -12,7 +12,7 @@ PaperFaces portrait of [@paviro_](https://twitter.com/paviro_).
 
 {% include boilerplate/paperfaces-3.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-paviro-process-1-600.jpg)](/assets/images/paperfaces-paviro-process-1-lg.jpg)
 [![](/assets/images/paperfaces-paviro-process-2-600.jpg)](/assets/images/paperfaces-paviro-process-2-lg.jpg)
 [![](/assets/images/paperfaces-paviro-process-3-600.jpg)](/assets/images/paperfaces-paviro-process-3-lg.jpg)

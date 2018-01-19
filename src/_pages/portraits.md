@@ -11,7 +11,7 @@ ads: false
 
 Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how you go about commissioning one.
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
 {% for post in site.categories.paperfaces limit:5 %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.thumbnail }}" alt=""></a>

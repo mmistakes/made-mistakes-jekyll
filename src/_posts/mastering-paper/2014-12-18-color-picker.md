@@ -24,7 +24,7 @@ From those early days of working with a constrained palette up to the addition o
 
 First off you need to own either the **Essentials** or **Mixer In-App purchases** to enable the Color Picker. If you have FiftyThree's Pencil then good news, all of the tools are already unlocked for you.
 
-{% figure caption:"The Mixer is required to use the Color Picker." class:"half" %}
+{% figure caption:"The Mixer is required to use the Color Picker." class:"gallery-2-col" %}
 ![Paper 53 Mixer In-App purchase screen](/assets/images/paper-53-mixer-iap.png)
 ![Paper 53 Essentials tools In-App purchase screen](/assets/images/paper-53-essentials-iap.png)
 {% endfigure %}
@@ -72,7 +72,7 @@ Once you have a photo on the canvas you can sample its colors same as before:
 3. Drag the selector on top of the area you wish to sample.
 4. Tap the eyedropper again to work with or save to your palette.
 
-{% figure class:"half" %}
+{% figure class:"gallery-2-col" %}
 ![Color Mixer eyedropper](/assets/images/paper-53-color-photo-sample-1.jpg)
 ![sampling a photo's color](/assets/images/paper-53-color-photo-sample-2.jpg)
 {% endfigure %}

@@ -92,7 +92,7 @@ Using this same color (possibly with more black mixed in), a stroke of pencil be
 
 I use the same technique but with a light orange color to draw in brick highlights and accentuate the cracks.
 
-{% figure caption:"Drawing subtle highlights on each brick using a light orange color." class:"half" %}
+{% figure caption:"Drawing subtle highlights on each brick using a light orange color." class:"gallery-2-col" %}
 ![Screenshot of brick highlight color](/assets/images/paper-53-bricks-highlight-mix.jpg) ![Screenshot of adding brick highlights](/assets/images/paper-53-bricks-pencil-highlight.jpg)
 {% endfigure %}
 
@@ -112,7 +112,7 @@ Wood color varies quite a bit so I'm going to focus more on the process and less
 
 Determine what the mid-tone color of the wood is. Using the following photograph of wood as a reference, we can determine that it's somewhere around a medium brown.
 
-{% figure caption:"Mix your mid-tone color to match the photo, then reduce the brightness about 10%, and increase the saturation a bit." class:"half" %}
+{% figure caption:"Mix your mid-tone color to match the photo, then reduce the brightness about 10%, and increase the saturation a bit." class:"gallery-2-col" %}
 ![Wood reference photograph](/assets/images/paper-53-wood-reference.jpg)
 [![Screenshot of medium brown color mix](/assets/images/paper-53-wood-base-mix.jpg)](/assets/images/paper-53-wood-base-mix-lg.jpg)
 {% endfigure %}
@@ -153,7 +153,7 @@ Black or an appropriate dark color can be used to draw in deeper cracks using th
 
 For a final pass, mix a lighter variation of our base color. With this color and the pencil tool selected, sketch in a few highlights to add subtle texture to the wood. Keeping these strokes loose and *fuzzy* will help avoid over-powering the wood grain lines we drew earlier.
 
-{% figure caption:"Enhancing the wood grain effect by adding highlights using *fuzzy* pencil strokes." class:"half" %}
+{% figure caption:"Enhancing the wood grain effect by adding highlights using *fuzzy* pencil strokes." class:"gallery-2-col" %}
 [![Screenshot of wood highlight color](/assets/images/paper-53-wood-highlight-mix.jpg)](/assets/images/paper-53-wood-highlight-mix-lg.jpg)
 [![Screenshot of wood highlights](/assets/images/paper-53-wood-highlight.jpg)](/assets/images/paper-53-wood-highlight-lg.jpg)
 {% endfigure %}
@@ -198,7 +198,7 @@ Using the exact same technique, mix a lighter color of the base and speckle in d
 
 When drawing pebbles and large rocks, use the watercolor brush to create oval shapes instead. Don't linger in a spot too long, the goal is to keep these shapes irregular and loose.
 
-{% figure caption:"For more variation feel free to vary the color of the rocks by adding red or blue to the mix." class:"half" %}
+{% figure caption:"For more variation feel free to vary the color of the rocks by adding red or blue to the mix." class:"gallery-2-col" %}
 [![Screenshot of pebble shapes](/assets/images/paper-53-pebbles-base.jpg)](/assets/images/paper-53-pebbles-base-lg.jpg)
 [![Screenshot of pebble shapes with color variations](/assets/images/paper-53-pebbles-color.jpg)](/assets/images/paper-53-pebbles-color-lg.jpg)
 {% endfigure %}
@@ -221,7 +221,7 @@ Depending on the color of this *harmonizing layer*, the highlights and shadows f
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}). Below are a few finished pieces to show what is possible just by varying the color and composition.
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
   <li><a href="{% post_url /paperfaces/2013-10-16-rob-jayne-portrait %}"><img src="/assets/images/paperfaces-rob-jayne-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-02-06-padulantonio-portrait %}"><img src="/assets/images/paperfaces-padulantonio-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-06-17-idpro-portrait %}"><img src="/assets/images/paperfaces-idpro-twitter-150.jpg" alt="thumb" /></a></li>

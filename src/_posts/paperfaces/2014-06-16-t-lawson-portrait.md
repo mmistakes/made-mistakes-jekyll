@@ -13,6 +13,6 @@ PaperFaces portrait of [@T_Lawson](https://twitter.com/T_Lawson).
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-t-lawson-process-1-600.jpg)](/assets/images/paperfaces-t-lawson-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-t-lawson-process-2-600.jpg)](/assets/images/paperfaces-t-lawson-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-t-lawson-process-3-600.jpg)](/assets/images/paperfaces-t-lawson-process-3-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-t-lawson-process-4-600.jpg)](/assets/images/paperfaces-t-lawson-process-4-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-t-lawson-process-4-600.jpg)](/assets/images/paperfaces-t-lawson-process-4-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-t-lawson-process-5-600.jpg)](/assets/images/paperfaces-t-lawson-process-5-lg.jpg)
 {% endfigure %}

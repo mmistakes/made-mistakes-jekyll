@@ -16,7 +16,7 @@ PaperFaces portrait of [@vmalloc](https://twitter.com/vmalloc).
 [![Work in process screenshot](/assets/images/paperfaces-vmalloc-process-1-600.jpg)](/assets/images/paperfaces-vmalloc-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"The zoom tool is my friend, let's me use the pencil with greater precision." class:"half" %}
+{% figure caption:"The zoom tool is my friend, let's me use the pencil with greater precision." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-vmalloc-process-2-600.jpg)](/assets/images/paperfaces-vmalloc-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-vmalloc-process-3-600.jpg)](/assets/images/paperfaces-vmalloc-process-3-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-vmalloc-process-4-600.jpg)](/assets/images/paperfaces-vmalloc-process-4-lg.jpg)

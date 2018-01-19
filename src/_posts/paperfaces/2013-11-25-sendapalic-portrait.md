@@ -18,7 +18,7 @@ PaperFaces portrait of [@sendapalic](https://twitter.com/sendapalic).
 [![](/assets/images/paperfaces-sendapalic-process-1-750.jpg)](/assets/images/paperfaces-sendapalic-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-sendapalic-process-2-600.jpg)](/assets/images/paperfaces-sendapalic-process-2-lg.jpg)
 [![](/assets/images/paperfaces-sendapalic-process-3-600.jpg)](/assets/images/paperfaces-sendapalic-process-3-lg.jpg)
 [![](/assets/images/paperfaces-sendapalic-process-4-600.jpg)](/assets/images/paperfaces-sendapalic-process-4-lg.jpg)

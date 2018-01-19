@@ -16,13 +16,13 @@ PaperFaces portrait of [@miriamchadwick](http://instagram.com/miriamchadwick).
 [![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-1-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Build up the figure with pencil first, watercolor second, and back to pencil for refinements." class:"third" %}
+{% figure caption:"Build up the figure with pencil first, watercolor second, and back to pencil for refinements." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-2-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-3-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-3-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-4-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-4-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Using a pencil to add detail gradually. Using a Pogo Connect pen that supports pressure sensitivity makes this much easier." class:"half" %}
+{% figure caption:"Using a pencil to add detail gradually. Using a Pogo Connect pen that supports pressure sensitivity makes this much easier." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-5-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-5-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-6-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-6-lg.jpg)
 {% endfigure %}

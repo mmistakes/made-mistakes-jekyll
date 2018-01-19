@@ -29,7 +29,7 @@ Not sure how much it added to the production cost, but I sure like the way vellu
 
 Apparently my asshole cat shares a taste for vellum too. Maybe it was the smell, or maybe it was the way the sun caught the metallic ink, but he sure couldn't help himself from biting into it --- bastard. So much for selling this Corn On Macabre record in mint condition.
 
-{% figure caption:"Detail photographs of the packaging." class:"half" %}
+{% figure caption:"Detail photographs of the packaging." class:"gallery-2-col" %}
 [![Record sleeve typography](/assets/images/COM-record-sleeve-typography-300.jpg)](/assets/images/COM-record-sleeve-typography.jpg)
 [![Corn on Macabre - punk is undead](/assets/images/COM-punk-is-undead-300.jpg)](/assets/images/COM-punk-is-undead.jpg)
 [![Linear notes and images](/assets/images/COM-record-sleeve-300.jpg)](/assets/images/COM-record-sleeve.jpg)

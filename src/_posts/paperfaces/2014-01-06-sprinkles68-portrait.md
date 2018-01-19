@@ -12,7 +12,7 @@ PaperFaces portrait commission of [@Sprinkles68](https://twitter.com/Sprinkles68
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-sprinkles68-process-1-600.jpg)](/assets/images/paperfaces-sprinkles68-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-sprinkles68-process-2-600.jpg)](/assets/images/paperfaces-sprinkles68-process-2-lg.jpg)
 {% endfigure %}

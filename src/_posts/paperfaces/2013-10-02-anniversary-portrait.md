@@ -12,7 +12,7 @@ Nothing says romance quite like drawing a faceless portrait of your wife on your
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"My only regret is not hiring a professional photographer to document the occasion." class:"half" %}
+{% figure caption:"My only regret is not hiring a professional photographer to document the occasion." class:"gallery-2-col" %}
 [![The bride](/assets/images/roycroft-wedding-1.jpg)](/assets/images/roycroft-wedding-1-lg.jpg)
 [![Kissing](/assets/images/roycroft-wedding-2.jpg)](/assets/images/roycroft-wedding-2.jpg)
 [![Wedding tea favors](/assets/images/roycroft-wedding-3.jpg)](/assets/images/roycroft-wedding-3.jpg)

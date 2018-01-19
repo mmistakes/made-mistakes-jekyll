@@ -12,7 +12,7 @@ PaperFaces portrait of <a href="https://twitter.com/travissawrie">@travissawrie<
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"half" %}
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-travissawrie-process-1-600.jpg)](/assets/images/paperfaces-travissawrie-process-1-lg.jpg)
 [![](/assets/images/paperfaces-travissawrie-process-2-600.jpg)](/assets/images/paperfaces-travissawrie-process-2-lg.jpg)
 [![](/assets/images/paperfaces-travissawrie-process-3-600.jpg)](/assets/images/paperfaces-travissawrie-process-3-lg.jpg)

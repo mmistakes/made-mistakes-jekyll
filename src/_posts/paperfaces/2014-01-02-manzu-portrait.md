@@ -16,7 +16,7 @@ PaperFaces portrait of [@manzu](https://twitter.com/manzu).
 [![Work in process screenshot](/assets/images/paperfaces-manzu-process-1-750.jpg)](/assets/images/paperfaces-manzu-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-manzu-process-2-600.jpg)](/assets/images/paperfaces-manzu-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-manzu-process-3-600.jpg)](/assets/images/paperfaces-manzu-process-3-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-manzu-process-4-600.jpg)](/assets/images/paperfaces-manzu-process-4-lg.jpg)

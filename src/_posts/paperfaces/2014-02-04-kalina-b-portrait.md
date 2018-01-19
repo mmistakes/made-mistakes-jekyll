@@ -14,7 +14,7 @@ PaperFaces portrait of [Kalina B.](http://sktchy.com/142Fr) inspired by Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-kalina-b-process-1-600.jpg)](/assets/images/paperfaces-kalina-b-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-kalina-b-process-2-600.jpg)](/assets/images/paperfaces-kalina-b-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-kalina-b-process-3-600.jpg)](/assets/images/paperfaces-kalina-b-process-3-lg.jpg)

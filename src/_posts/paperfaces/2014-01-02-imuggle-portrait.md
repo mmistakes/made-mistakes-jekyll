@@ -12,7 +12,7 @@ PaperFaces portrait of [@iMuggle](https://twitter.com/iMuggle).
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-imuggle-process-1-600.jpg)](/assets/images/paperfaces-imuggle-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-imuggle-process-2-600.jpg)](/assets/images/paperfaces-imuggle-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-imuggle-process-3-600.jpg)](/assets/images/paperfaces-imuggle-process-3-lg.jpg)

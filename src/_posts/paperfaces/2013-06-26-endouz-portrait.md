@@ -17,13 +17,13 @@ PaperFaces portrait of [@endouz](https://twitter.com/endouz). Using white to pai
 [![Background in process screenshot](/assets/images/paperfaces-endouz-process-1-600.jpg)](/assets/images/paperfaces-endouz-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Outline the face in pencil and then block it out with a variation of white." class:"third" %}
+{% figure caption:"Outline the face in pencil and then block it out with a variation of white." class:"gallery-3-col" %}
 [![In process screenshot](/assets/images/paperfaces-endouz-process-2-600.jpg)](/assets/images/paperfaces-endouz-process-2-lg.jpg)
 [![In process screenshot](/assets/images/paperfaces-endouz-process-3-600.jpg)](/assets/images/paperfaces-endouz-process-3-lg.jpg)
 [![In process screenshot](/assets/images/paperfaces-endouz-process-4-600.jpg)](/assets/images/paperfaces-endouz-process-4-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"You know the drill. Pencil for refinement, watercolor for shading." class:"third" %}
+{% figure caption:"You know the drill. Pencil for refinement, watercolor for shading." class:"gallery-3-col" %}
 [![In process screenshot](/assets/images/paperfaces-endouz-process-5-600.jpg)](/assets/images/paperfaces-endouz-process-5-lg.jpg)
 [![In process screenshot](/assets/images/paperfaces-endouz-process-6-600.jpg)](/assets/images/paperfaces-endouz-process-6-lg.jpg)
 [![In process screenshot](/assets/images/paperfaces-endouz-process-7-600.jpg)](/assets/images/paperfaces-endouz-process-7-lg.jpg)

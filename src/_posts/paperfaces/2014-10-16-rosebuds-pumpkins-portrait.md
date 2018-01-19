@@ -15,13 +15,13 @@ The first visit I took a bunch of photographs with my Canon EOS XTi camera but d
 
 I'm really enjoying [sharing my creations on Mix]({{ site.url}}{% post_url /mastering-paper/2014-09-16-mix-with-me %}) and have been trying to include them at [various stages of completeness](https://mix.fiftythree.com/11098-Michael-Rose/418184).
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-rosebuds-pumpkins-process-1-600.jpg)](/assets/images/paperfaces-rosebuds-pumpkins-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-rosebuds-pumpkins-process-2-600.jpg)](/assets/images/paperfaces-rosebuds-pumpkins-process-2-lg.jpg)
 {% endfigure %}
 
 The best part is seeing what others do with them when remixed. I know some other creators in the Paper community have had their reservations about joining Mix. Personally the thought of someone making money off of my work or an immature kid defacing my drawings doesn't concern me. That kind of comes with the territory in this connected world we now live in --- whether you're sharing on Mix or not.
 
-{% figure caption:"A couple of fun and creative remixes." class:"third" %}
+{% figure caption:"A couple of fun and creative remixes." class:"gallery-3-col" %}
 [![Twins with beards remix](/assets/images/paperfaces-rosebuds-pumpkins-remix-1-600.jpg)](https://mix.fiftythree.com/423648-Josh-Carter/424227) [![Chloe with balloons remix](/assets/images/paperfaces-rosebuds-pumpkins-remix-2-600.jpg)](https://mix.fiftythree.com/41733-Yuko-Rabbit/420387) [![Chloe the slug remix](/assets/images/paperfaces-rosebuds-pumpkins-remix-4-600.jpg)](https://mix.fiftythree.com/431989-Juan-De-Salas/432123)
 {% endfigure %}
 

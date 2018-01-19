@@ -14,7 +14,7 @@ PaperFaces portrait of [@Zakatnov](https://twitter.com/Zakatnov).
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"half" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-zakatnov-process-1-600.jpg)](/assets/images/paperfaces-zakatnov-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-zakatnov-process-2-600.jpg)](/assets/images/paperfaces-zakatnov-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-zakatnov-process-3-600.jpg)](/assets/images/paperfaces-zakatnov-process-3-lg.jpg)

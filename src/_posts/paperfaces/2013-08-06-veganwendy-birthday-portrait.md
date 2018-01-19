@@ -12,7 +12,7 @@ PaperFaces portrait of [my wife Wendy](http://2littlerosebuds.com) for her birth
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"It all starts with a pencil sketch followed by many layers of watercolor." class:"half" %}
+{% figure caption:"It all starts with a pencil sketch followed by many layers of watercolor." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-veganwendy-birthday-process-1-600.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-veganwendy-birthday-process-2-600.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-veganwendy-birthday-process-3-600.jpg)](/assets/images/paperfaces-veganwendy-birthday-process-3-lg.jpg)

@@ -12,7 +12,7 @@ PaperFaces portrait of [@nett00n](https://twitter.com/Tnett00n).
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"half" %}
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-nett00n-process-1-600.jpg)](/assets/images/paperfaces-nett00n-process-1-lg.jpg)
 [![](/assets/images/paperfaces-nett00n-process-2-600.jpg)](/assets/images/paperfaces-nett00n-process-2-lg.jpg)
 [![](/assets/images/paperfaces-nett00n-process-3-600.jpg)](/assets/images/paperfaces-nett00n-process-3-lg.jpg)

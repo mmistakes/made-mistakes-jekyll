@@ -30,7 +30,7 @@ With the release of [Mix](http://mix.fiftythree.com) today, FiftyThree is making
 
 So if you're one of the lucky Paper creators to get an invite to Mix (or soon will be) feel free to join me in the Mix. If you've followed my [Mastering Paper by 53](/mastering-paper/) series of tutorials or [PaperFaces portraits](/paperfaces/) then you'll probably enjoy what I'm sharing.
 
-{% figure caption:"Examples of the types of content I’m sharing on Mix." class:"third" %}
+{% figure caption:"Examples of the types of content I’m sharing on Mix." class:"gallery-3-col" %}
 [![How to draw a face](/assets/images/paper-53-mix-faces.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/42082) [![How to draw a mountainscape](/assets/images/paper-53-mix-mountain.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/35882) [![The twins illustrated](/assets/images/paper-53-mix-twins.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/42074)
 {% endfigure %}
 

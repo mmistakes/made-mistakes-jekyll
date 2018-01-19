@@ -15,7 +15,7 @@ comments: false
 
 Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](http://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
-{% figure caption:"What a difference two years made." class:"half" %}
+{% figure caption:"What a difference two years made." class:"gallery-2-col" %}
 [![first PaperFaces portrait](/assets/images/paperfaces-veganwendy-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-twitter.jpg)
 [![last PaperFaces portrait?](/assets/images/paperfaces-veganwendy-2-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-2-twitter.jpg)
 {% endfigure %}
@@ -24,7 +24,7 @@ Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url 
 
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, fulfilling husbandly duties, caring for a set of twins, and maintaining healthy eating and sleeping habits.
 
-{% figure caption:"" class:"third" %}
+{% figure caption:"" class:"gallery-3-col" %}
 ![The 2 little rosebuds](/assets/images/paperfaces-retro-03.jpg)
 ![Tools of the trade](/assets/images/paperfaces-retro-02.jpg)
 ![Drawing Everly with Pencil by 53](/assets/images/paperfaces-retro-01.jpg)
@@ -117,7 +117,7 @@ And for the curious here's the various styli I've used over the two years and so
 
 When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorites from the last two years:
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
   <li><a href="{% post_url /paperfaces/2012-09-20-mike-ftw-portrait %}"><img src="/assets/images/paperfaces-mike-ftw-twitter-150.jpg" alt=""></a></li>
   <li><a href="{% post_url /paperfaces/2012-11-05-andrew-shaw23-portrait %}"><img src="/assets/images/paperfaces-andrew-shaw23-twitter-150.jpg" alt=""></a></li>
   <li><a href="{% post_url /paperfaces/2012-12-13-f5point6-portrait %}"><img src="/assets/images/paperfaces-f5point6-twitter-150.jpg" alt=""></a></li>

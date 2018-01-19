@@ -16,7 +16,7 @@ PaperFaces portrait of <a href="https://twitter.com/agebhard">@agebhard</a>.
 [![](/assets/images/paperfaces-agebhard-process-1-750.jpg)](/assets/images/paperfaces-agebhard-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"third" %}
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-agebhard-process-2-600.jpg)](/assets/images/paperfaces-agebhard-process-2-lg.jpg)
 [![](/assets/images/paperfaces-agebhard-process-3-600.jpg)](/assets/images/paperfaces-agebhard-process-3-lg.jpg)
 [![](/assets/images/paperfaces-agebhard-process-4-600.jpg)](/assets/images/paperfaces-agebhard-process-4-lg.jpg)

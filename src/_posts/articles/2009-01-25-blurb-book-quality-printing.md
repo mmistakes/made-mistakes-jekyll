@@ -20,7 +20,7 @@ They offer some guidance on [color management](http://www.blurb.com/color-manage
 
 ## Sample Pages
 
-{% figure caption:"Detail photographs of a printed book." class:"half" %}
+{% figure caption:"Detail photographs of a printed book." class:"gallery-2-col" %}
 [![Photograph of interior page spread of book, A Six Month Walk](/assets/images/six-month-walk-interior-1-320.jpg)](/assets/images/six-month-walk-interior-1-1024.jpg)
 [![Detail photograph of printed page of book, A Six Month Walk](/assets/images/six-month-walk-detail-print-320.jpg)](/assets/images/six-month-walk-detail-print-1024.jpg)
 {% endfigure %}

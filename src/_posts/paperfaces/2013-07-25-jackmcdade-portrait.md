@@ -17,7 +17,7 @@ PaperFaces portrait of [@jackmcdade](https://twitter.com/jackmcdade). Went all c
 [![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-1-600.jpg)](/assets/images/paperfaces-jackmcdade-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Short and controlled watercolor strokes to avoid sharp edges and keep the trees nice and blurry." class:"half" %}
+{% figure caption:"Short and controlled watercolor strokes to avoid sharp edges and keep the trees nice and blurry." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-2-600.jpg)](/assets/images/paperfaces-jackmcdade-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-3-600.jpg)](/assets/images/paperfaces-jackmcdade-process-3-lg.jpg)
 {% endfigure %}

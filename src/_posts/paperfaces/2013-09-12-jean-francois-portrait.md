@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, beard]
 
 PaperFaces portrait of [@jean_francois](https://twitter.com/jean_francois).
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"half" %}
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-jean-francois-process-1-600.jpg)](/assets/images/paperfaces-jean-francois-process-1-lg.jpg)
 [![](/assets/images/paperfaces-jean-francois-process-2-600.jpg)](/assets/images/paperfaces-jean-francois-process-2-lg.jpg)
 [![](/assets/images/paperfaces-jean-francois-process-3-600.jpg)](/assets/images/paperfaces-jean-francois-process-3-lg.jpg)

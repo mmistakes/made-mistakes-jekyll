@@ -21,7 +21,7 @@ Trying to emulate the look and feel of [watercolor on the iPad](/paperfaces/) ha
 
 My plan was to complete a miniature 1.5\" painting a day, but the challenge of painting so small is eating up way too much time. Instead I'm going to keep things casual and let images happen as they happen.
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
 {% for post in site.categories.tiny-paintings %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}">

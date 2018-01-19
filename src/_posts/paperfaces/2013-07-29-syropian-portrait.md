@@ -12,7 +12,7 @@ PaperFaces portrait of [@syropian](https://twitter.com/syropian). Felt like push
 
 {% include boilerplate/paperfaces.md %}
 
-{% figure caption:"Work in progress screenshots." class:"half" %}
+{% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-syropian-process-1-600.jpg)](/assets/images/paperfaces-syropian-process-1-lg.jpg)
 [![](/assets/images/paperfaces-syropian-process-2-600.jpg)](/assets/images/paperfaces-syropian-process-2-lg.jpg)
 [![](/assets/images/paperfaces-syropian-process-3-600.jpg)](/assets/images/paperfaces-syropian-process-3-lg.jpg)

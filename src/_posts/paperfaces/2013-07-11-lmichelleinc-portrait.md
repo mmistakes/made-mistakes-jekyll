@@ -16,7 +16,7 @@ PaperFaces portrait of [@lmichelleinc](https://twitter.com/lmichelleinc).
 [![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-1-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Building up the face with watercolor and penciling in grass highlights." class:"half" %}
+{% figure caption:"Building up the face with watercolor and penciling in grass highlights." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-2-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-3-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-3-lg.jpg)
 {% endfigure %}

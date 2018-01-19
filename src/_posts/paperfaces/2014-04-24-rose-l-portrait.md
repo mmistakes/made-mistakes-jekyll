@@ -13,7 +13,7 @@ PaperFaces portrait of a [Rose L.](http://sktchy.com/Bf0pYC) inspired by a photo
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-rose-l-process-1-600.jpg)](/assets/images/paperfaces-rose-l-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-rose-l-process-2-600.jpg)](/assets/images/paperfaces-rose-l-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-rose-l-process-3-600.jpg)](/assets/images/paperfaces-rose-l-process-3-lg.jpg)

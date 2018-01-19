@@ -16,7 +16,7 @@ PaperFaces portrait commission.
 [![](/assets/images/paperfaces-reason2live-process-1-750.jpg)](/assets/images/paperfaces-reason2live-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-reason2live-process-2-600.jpg)](/assets/images/paperfaces-reason2live-process-2-lg.jpg)
 [![](/assets/images/paperfaces-reason2live-process-3-600.jpg)](/assets/images/paperfaces-reason2live-process-3-lg.jpg)
 [![](/assets/images/paperfaces-reason2live-process-4-600.jpg)](/assets/images/paperfaces-reason2live-process-4-lg.jpg)

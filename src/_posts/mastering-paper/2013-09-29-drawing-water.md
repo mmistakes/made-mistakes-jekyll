@@ -76,7 +76,7 @@ If you go too dark, just mix white into your base coat color. Continue adding wh
 
 Depending on the intensity of the waves this next step can be omitted. For larger waves with a lot of white foam, I like to paint a few more layers of blue anywhere these waves appear. The more layers, the darker the blue --- the darker the blue, the higher the contrast there will be between the white wave foam we'll be adding next…
 
-{% figure caption:"Using the photo on the left as a reference, look for the large white areas of a wave and underpaint there. The finished result is on the right." class:"half" %}
+{% figure caption:"Using the photo on the left as a reference, look for the large white areas of a wave and underpaint there. The finished result is on the right." class:"gallery-2-col" %}
 ![wave photo reference photo](/assets/images/paper-53-waves-photo.jpg) [![screenshot of underpainted waves in dark blue](/assets/images/paper-53-waves-underpainting.jpg)](/assets/images/paper-53-waves-underpainting-lg.jpg)
 {% endfigure %}
 
@@ -96,7 +96,7 @@ A [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-
 
 Crests or areas where waves might be crashing against land I go heavy with a white pencil and try to make it textured and scratchy. Criss-crossing or hatching my strokes is one way of doing this quickly. If you remember my [guide on painting clouds]({% post_url /mastering-paper/2013-09-05-drawing-clouds %}), the technique is the same.
 
-{% figure caption:"Draw wave crests and foam using a white pencil." class:"half" %}
+{% figure caption:"Draw wave crests and foam using a white pencil." class:"gallery-2-col" %}
 [![screenshot of wave foam zoomed in](/assets/images/paper-53-white-foam-detail.jpg)](/assets/images/paper-53-white-foam-detail-lg.jpg) [![screenshot of finished wave foam](/assets/images/paper-53-white-foam.jpg)](/assets/images/paper-53-white-foam-lg.jpg)
 {% endfigure %}
 
@@ -114,7 +114,7 @@ To add in shadows use a variation of the water's base color, mixed with 20--40% 
 ![screenshot of wave shadow color mix](/assets/images/paper-53-wave-shadow-mix.jpg)
 {% endfigure %}
 
-{% figure caption:"A pencil mixed with a dark blue-gray is perfect for refining edges and adding definition to smaller waves." class:"half" %}
+{% figure caption:"A pencil mixed with a dark blue-gray is perfect for refining edges and adding definition to smaller waves." class:"gallery-2-col" %}
 [![screenshot of wave shadows drawn in pencil](/assets/images/paper-53-wave-shadows-zoom.jpg)](/assets/images/paper-53-wave-shadows-zoom-lg.jpg) [![screenshot of wave shadows drawn in pencil](/assets/images/paper-53-wave-shadows.jpg)](/assets/images/paper-53-wave-shadows-lg.jpg)
 {% endfigure %}
 
@@ -124,7 +124,7 @@ Boom! And we're done. Combined with a blue sky from my previous guide and you'll
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished waterscapes to show what is possible just by varying the color and composition.
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
   <li><a href="{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="/assets/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="/assets/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-05-31-bradersk8r-portrait %}"><img src="/assets/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>

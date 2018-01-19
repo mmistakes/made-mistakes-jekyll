@@ -17,7 +17,7 @@ In case you missed the announcement yesterday, FiftyThree took the wraps off the
 
 For me Blend is the most interesting aspect of Pencil. Being trained as a traditional artist, it works exactly how one would expect, you draw with Pencil and smudge with your finger to blend. Sure a ton of other *art* applications have blurring and blending tools, but they all break the creative flow by forcing you open tool palettes or push buttons. FiftyThree has made this action fun and true to life by seamlessly enabling drawing and blending in a natural and intuitive way.
 
-{% figure caption:"Mountain scene painted with Paper" class:"half" %}
+{% figure caption:"Mountain scene painted with Paper" class:"gallery-2-col" %}
 ![Moutainscape painted with Paper](/assets/images/paper-53-blend-moutain.jpg)
 ![Blended moutainscape reflection with Paper](/assets/images/paper-53-blend-moutain-reflection.jpg)
 {% endfigure %}
@@ -26,7 +26,7 @@ Like all good things Blend is best used in moderation. I've found that it works 
 
 [^bokeh]: In photography, bokeh is the blur, or the aesthetic quality of the blur, in out-of-focus areas of an image.
 
-{% figure caption:"A little before and after for your eyeballs." class:"half" %}
+{% figure caption:"A little before and after for your eyeballs." class:"gallery-2-col" %}
 [![Drawing of Wendy pre-Pencil](/assets/images/paper-53-wendy-forest.jpg)](/assets/images/paper-53-wendy-forest-lg.jpg)
 [![Drawing of Wendy blended](/assets/images/paper-53-wendy-forest-blend.jpg)](/assets/images/paper-53-wendy-forest-blend-lg.jpg)
 {% endfigure %}

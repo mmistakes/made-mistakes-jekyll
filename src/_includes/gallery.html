@@ -1,6 +1,6 @@
 {% assign gallery = post.gallery | default: page.gallery %}
 {% if gallery %}
-  <div class="gallery">
+  <div class="gallery-vertical">
     {% for img in gallery %}
       {% if img.url contains '://' %}
         {% assign url = img.url %}

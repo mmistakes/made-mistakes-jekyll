@@ -22,7 +22,7 @@ After I try out some other time lapse iOS apps I plan on sharing what I've learn
 {% youtube NShkvK72JTc %}
 {% endfigure %}
 
-{% figure caption:"Work in progress drawings available on Mix." class:"half" %}
+{% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-emily-d-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2256482) [![Work in process screenshot](/assets/images/paperfaces-emily-d-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2298299)
 {% endfigure %}
 

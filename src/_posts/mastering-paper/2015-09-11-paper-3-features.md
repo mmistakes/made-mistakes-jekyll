@@ -51,7 +51,7 @@ What a time saver this one is. If you wanted to share ideas "right side up" you 
 
 In 3.0 there's a new button conveniently located below each idea for rotating the canvas in 90 degree intervals. Horizontal and vertical ideas live in harmony together because of the new grid view. Which leads me to my next favorite thing in Paper 3.0...
 
-{% figure caption:"View ideas horizontally or vertically with the tap of the new **rotate button**." class:"third" %}
+{% figure caption:"View ideas horizontally or vertically with the tap of the new **rotate button**." class:"gallery-3-col" %}
 ![Idea that hasn't been rotated yet](/assets/images/paper-3-rotate-horizontal.jpg)
 ![Idea rotated 90 degrees](/assets/images/paper-3-rotate-vertically.jpg)
 ![How rotated images appear in Paper's spaces](/assets/images/paper-3-rotate-spaces.jpg)

@@ -14,6 +14,6 @@ PaperFaces portrait of [@B_A_W](https://twitter.com/B_A_W).
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-b-a-w-process-1-600.jpg)](/assets/images/paperfaces-b-a-w-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-b-a-w-process-2-600.jpg)](/assets/images/paperfaces-b-a-w-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-b-a-w-process-3-600.jpg)](/assets/images/paperfaces-b-a-w-process-3-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-b-a-w-process-4-600.jpg)](/assets/images/paperfaces-b-a-w-process-4-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-b-a-w-process-5-600.jpg)](/assets/images/paperfaces-b-a-w-process-5-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-b-a-w-process-6-600.jpg)](/assets/images/paperfaces-b-a-w-process-6-lg.jpg)
 {% endfigure %}

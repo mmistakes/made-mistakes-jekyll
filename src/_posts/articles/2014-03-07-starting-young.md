@@ -30,7 +30,7 @@ And so back to that technology thing. The girls love glowing screens, I love glo
 
 I sat in front of them holding the iPad firmly, while giving each a try at finger doodling. Chloe was first up and all about drawing with both hands. Sometimes it worked out well for her and sometimes not due to multi-touch limitations and triggering Rewind constantly.
 
-{% figure caption:"Chloe's first Paper drawings (color selection by Dad)." class:"half" %}
+{% figure caption:"Chloe's first Paper drawings (color selection by Dad)." class:"gallery-2-col" %}
 [![Chloe's first Paper drawing](/assets/images/paper-53-chloe-draw-1-600.jpg)](/assets/images/paper-53-chloe-draw-1.jpg)
 [![Chloe's first Paper drawing](/assets/images/paper-53-chloe-draw-2-600.jpg)](/assets/images/paper-53-chloe-draw-2.jpg)
 {% endfigure %}

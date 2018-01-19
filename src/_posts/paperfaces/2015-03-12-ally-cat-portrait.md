@@ -22,7 +22,7 @@ Continuing on with my time lapse kick, here's another video I recorded over seve
 {% youtube K2dgaV9_rCI %}
 {% endfigure %}
 
-{% figure caption:"Work in progress drawings available on Mix." class:"half" %}
+{% figure caption:"Work in progress drawings available on Mix." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-ally-cat-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2483829) [![Work in process screenshot](/assets/images/paperfaces-ally-cat-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2494030)
 {% endfigure %}
 

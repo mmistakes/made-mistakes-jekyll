@@ -16,7 +16,7 @@ PaperFaces portrait of [@ericdfields](https://twitter.com/ericdfields).
 [![](/assets/images/paperfaces-ericdfields-process-1-750.jpg)](/assets/images/paperfaces-ericdfields-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"third" %}
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-ericdfields-process-2-600.jpg)](/assets/images/paperfaces-ericdfields-process-2-lg.jpg)
 [![](/assets/images/paperfaces-ericdfields-process-3-600.jpg)](/assets/images/paperfaces-ericdfields-process-3-lg.jpg)
 [![](/assets/images/paperfaces-ericdfields-process-4-600.jpg)](/assets/images/paperfaces-ericdfields-process-4-lg.jpg)

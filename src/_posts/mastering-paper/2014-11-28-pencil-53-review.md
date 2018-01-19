@@ -89,7 +89,7 @@ I'm curious to learn about the experiences of others using Pencil and Blend. As 
 
 I'm not one for erasing all that much and instead rely heavily on the Rewind gesture to undo mistakes. But for those of you who do employ the eraser tool often, you're going to love Pencil. Instead of stopping to open the tool tray, selecting the eraser, removing your mistake, and going back to a drawing tool --- you now can flip Pencil on its head and erase instantly. In combination with Surface Pressure you can get into tight to erase spots with ease --- something that is impossible to do without Pencil.
 
-{% figure caption:"Vary the size of the eraser by using just the corner or go larger with the entire width." class:"half" %}
+{% figure caption:"Vary the size of the eraser by using just the corner or go larger with the entire width." class:"gallery-2-col" %}
 [![erasing with the corner](/assets/images/paper-53-erasing-corner.jpg)]({% post_url /mastering-paper/2014-10-25-erasing %})
 [![erasing with the entire edge](/assets/images/paper-53-erasing-wide.jpg)]({% post_url /mastering-paper/2014-10-25-erasing %})
 {% endfigure %}

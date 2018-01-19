@@ -18,7 +18,7 @@ PaperFaces was an iPad drawing project by time traveling designer and illustrato
 
 The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](https://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
 {% for post in site.categories.paperfaces limit:15 %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}"><img src="{{ post.image.thumbnail }}" alt=""></a>
@@ -101,7 +101,7 @@ I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows 
 
 I've been completely humbled by all the support and attention coming my way since I started this project. Drawing someone's portrait and having them thank you by returning the favor is all kinds of amazing. I'm featuring those drawings here, along with any that follow the "PaperFaces style." If you want your drawing(s) to be included leave a comment below (include your drawing in the comment) or [tweet me](https://twitter.com/mmistakes).
 
-<ul id="fanart-gallery" class="th-grid">
+<ul id="fanart-gallery" class="gallery-thumbnails">
   <li><a href="/assets/images/homage-pepfre-mmistakes-lg.jpg"><img src="/assets/images/homage-pepfre-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @Pepfre"></a></li>
   <li><a href="/assets/images/homage-missshrestha-rosebuds-lg.jpg"><img src="/assets/images/homage-missshrestha-rosebuds-150.jpg" alt="PaperFaces portrait of the twins drawn by @missshrestha on Instagram"></a></li>
   <li><a href="/assets/images/homage-morgantj-mmistakes-lg.jpg"><img src="/assets/images/homage-morgantj-mmistakes-150.jpg" alt="PaperFaces portrait of @mmistakes drawn by @morgantj"></a></li>

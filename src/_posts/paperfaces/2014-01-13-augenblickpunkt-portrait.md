@@ -12,7 +12,7 @@ PaperFaces portrait portrait of [@augenblickpunkt](https://twitter.com/augenblic
 
 {% include boilerplate/paperfaces-4.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-augenblickpunkt-process-1-600.jpg)](/assets/images/paperfaces-augenblickpunkt-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-augenblickpunkt-process-2-600.jpg)](/assets/images/paperfaces-augenblickpunkt-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-augenblickpunkt-process-3-600.jpg)](/assets/images/paperfaces-augenblickpunkt-process-3-lg.jpg)

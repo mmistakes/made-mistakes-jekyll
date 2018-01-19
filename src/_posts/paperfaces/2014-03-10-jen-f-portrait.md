@@ -14,7 +14,7 @@ PaperFaces portrait of a [Jen F.](http://sktchy.com/wvVXMH) inspired by a photog
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jen-f-process-1-600.jpg)](/assets/images/paperfaces-jen-f-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jen-f-process-2-600.jpg)](/assets/images/paperfaces-jen-f-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jen-f-process-3-600.jpg)](/assets/images/paperfaces-jen-f-process-3-lg.jpg)

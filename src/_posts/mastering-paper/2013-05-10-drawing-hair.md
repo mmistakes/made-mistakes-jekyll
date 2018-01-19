@@ -30,7 +30,7 @@ For those new to the app I suggest drawing in grays --- limiting your palette to
 
 On the subject of palettes... I stick with the default sets. Since I draw a ton of portraits, it's much quicker for me to adjust a color on the fly. But I do see the benefit of setting up a predetermined palette beforehand to give your illustration a feeling of cohesion. Before the color mixer existed you had to get inventive if you wanted additional colors. A limitation that encouraged experimentation and sometimes unexpected results.
 
-{% figure caption:"Some of my favorite color presets for drawing hair." class:"third" %}
+{% figure caption:"Some of my favorite color presets for drawing hair." class:"gallery-3-col" %}
 [![Paper 53 color for red hair base](/assets/images/paper-53-color-redheads-200.jpg)](/assets/images/paper-53-color-redheads-lg.jpg)
 [![Paper 53 color for brunette highlights](/assets/images/paper-53-color-brunettes-highlight-200.jpg)](/assets/images/paper-53-color-brunettes-highlight-lg.jpg)
 [![Paper 53 color watercolor shading](/assets/images/paper-53-color-watercolor-shading-200.jpg)](/assets/images/paper-53-color-watercolor-shading-lg.jpg)

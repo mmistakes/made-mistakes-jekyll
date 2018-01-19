@@ -14,7 +14,7 @@ PaperFaces portrait of [@GuavaGleeLesley](https://twitter.com/GuavaGleeLesley).
 
 {% include boilerplate/paperfaces-3.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-guavagleelesley-process-1-600.jpg)](/assets/images/paperfaces-guavagleelesley-process-1-lg.jpg)
 [![](/assets/images/paperfaces-guavagleelesley-process-2-600.jpg)](/assets/images/paperfaces-guavagleelesley-process-2-lg.jpg)
 [![](/assets/images/paperfaces-guavagleelesley-process-3-600.jpg)](/assets/images/paperfaces-guavagleelesley-process-3-lg.jpg)

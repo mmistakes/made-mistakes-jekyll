@@ -12,7 +12,7 @@ PaperFaces portrait of [@luxepain](https://twitter.com/luxepain). Always looking
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Drawing the face pencil first, watercolor second." class:"third" %}
+{% figure caption:"Drawing the face pencil first, watercolor second." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-1-600.jpg)](/assets/images/paperfaces-luxepain-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-2-600.jpg)](/assets/images/paperfaces-luxepain-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-3-600.jpg)](/assets/images/paperfaces-luxepain-process-3-lg.jpg)
@@ -22,7 +22,7 @@ PaperFaces portrait of [@luxepain](https://twitter.com/luxepain). Always looking
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-4-600.jpg)](/assets/images/paperfaces-luxepain-process-4-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Drawing hair all day every day." class:"third" %}
+{% figure caption:"Drawing hair all day every day." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-5-600.jpg)](/assets/images/paperfaces-luxepain-process-5-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-6-600.jpg)](/assets/images/paperfaces-luxepain-process-6-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-7-600.jpg)](/assets/images/paperfaces-luxepain-process-7-lg.jpg)

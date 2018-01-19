@@ -80,7 +80,7 @@ Feel free to adjust the blue color's darkness by moving the color sliders around
 
 Repeat the exact same process on the right half of the composition now, this time using a fuchsia or violet hue. When you finish you should have something that vaguely resembles the following.
 
-{% figure class:"half" %}
+{% figure class:"gallery-2-col" %}
 ![screenshot of mixing a fuchsia color](/assets/images/paper-53-space-violet-glaze-1.jpg)
 ![screenshot of finished fuchsia glazes](/assets/images/paper-53-space-violet-glaze-3.jpg)
 {% endfigure %}
@@ -133,14 +133,14 @@ The hardest part of world building is deciding where to place the planet(s). Sin
 
 Pick a white or tint color and switch to the fountain pen tool. Then place your finger on the canvas where you'd like the planet to appear and hold it for a few seconds. The longer you press the bigger the dot gets.
 
-{% figure caption:"After mixing a light color press and hold with the fountain pen to create a large dot." class:"half" %}
+{% figure caption:"After mixing a light color press and hold with the fountain pen to create a large dot." class:"gallery-2-col" %}
 ![mixing a light color to create a planet with](/assets/images/paper-53-space-mix-planet-color.jpg)
 ![tap and hold with the fountain pen to create a large dot](/assets/images/paper-53-space-dot-planet.jpg)
 {% endfigure %}
 
 I'm placing my first planet off in the violet portion of space so I'll want to mix up a similar hue. Using the watercolor brush, paint glazes over the white dot, gradually moving further and further away from one of the edges. In this example I'm moving towards the left to leave a highlight on the right side.
 
-{% figure class:"third" %}
+{% figure class:"gallery-3-col" %}
 ![screenshot of glazing a planet with violet watercolor](/assets/images/paper-53-space-f-planet-1.jpg)
 ![screenshot of glazing a planet with violet watercolor](/assets/images/paper-53-space-f-planet-2.jpg)
 ![screenshot of glazing a planet with violet watercolor](/assets/images/paper-53-space-f-planet-3.jpg)
@@ -214,7 +214,7 @@ I've decided to place a medium sized planet towards the upper left corner. Becau
 
 Since it's pretty difficult to draw a perfect circle freehand I'm going to trace a cylinder. I just so happen to have part of a rotary cutter that is the size I need, so that's what I'm using. The box that Pencil ships in is a good alternative if you don't have anything else to trace.
 
-{% figure class:"half" %}
+{% figure class:"gallery-2-col" %}
 ![tracing around a rotary cutter with Pencil stylus](/assets/images/paper-53-space-2-circle-trace.jpg)
 ![screenshot of a circle outline](/assets/images/paper-53-space-2-circle.jpg)
 {% endfigure %}
@@ -253,7 +253,7 @@ To help stay in the lines a [stencil](http://www.amazon.com/gp/product/B000FPYQ1
 
 After you finish filling in the planet, now is a good time to modify Pencil's settings and turn Blend[^blend-off] back on (if you previously turned it off like I did).
 
-{% figure class:"half" %}
+{% figure class:"gallery-2-col" %}
 ![blending the planet's edge with a finger](/assets/images/paper-53-space-2-planet-blend-1.jpg)
 ![screenshot of a planet with the edges smudged](/assets/images/paper-53-space-2-planet-blend-2.jpg)
 {% endfigure %}
@@ -284,7 +284,7 @@ I didn't spend too much time detailing my planet, but that's not to say you shou
 
 You guessed it, time to tap in a ton of stars again. Using a stylus like Pencil instead of your finger makes it much easier to accurately place hundreds of stars.
 
-{% figure caption:"This first pass of stars is hard to see but that's ok. As you add more stars, increase their brightness to help make them sparkle." class:"half" %}
+{% figure caption:"This first pass of stars is hard to see but that's ok. As you add more stars, increase their brightness to help make them sparkle." class:"gallery-2-col" %}
 ![tapping Pencil to create dots that look like stars](/assets/images/paper-53-space-2-stars-pencil.jpg)
 ![screenshot of blue stars drawn with Pencil](/assets/images/paper-53-space-2-stars-pencil-2.jpg)
 {% endfigure %}
@@ -331,7 +331,7 @@ If you place strokes of colors on top of a dark background and then slowly smudg
 
 A slightly modified approach to this technique can be used to create black holes. Instead of using slow upward smudges, you pull in a circular motion.
 
-{% figure caption:"Obviously further refinement and the addition of stars needs to happen, but for five minutes of blend work it's not bad." class:"third" %}
+{% figure caption:"Obviously further refinement and the addition of stars needs to happen, but for five minutes of blend work it's not bad." class:"gallery-3-col" %}
 [![screenshot of drawing a black hole step 1](/assets/images/paper-53-space-blackhole-1-600.jpg)](/assets/images/paper-53-space-blackhole-1-lg.jpg)
 [![screenshot of drawing a black hole step 2](/assets/images/paper-53-space-blackhole-2-600.jpg)](/assets/images/paper-53-space-blackhole-2-lg.jpg)
 [![screenshot of drawing a black hole step 3](/assets/images/paper-53-space-blackhole-3-600.jpg)](/assets/images/paper-53-space-blackhole-3-lg.jpg)

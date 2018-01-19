@@ -42,7 +42,7 @@ If you don't have a T-square you can use a ruler to help place a dot every inch 
 
 Switching to a straight-edge[^straightedge] you'll use the dots as guides to draw straight lines parallel to each other. Because iPad styli aren't that precise, it can take some practice placing a line where you want.
 
-{% figure caption:"Drawing lines with a stylus on the iPad takes some getting used to." class:"half" %}
+{% figure caption:"Drawing lines with a stylus on the iPad takes some getting used to." class:"gallery-2-col" %}
 [![drawing a line with Pencil and a T-square](/assets/images/paper-53-grid-t-square-600.jpg)](/assets/images/paper-53-grid-t-square-lg.jpg)
 [![drawing a line with Pencil and a straight-edge](/assets/images/paper-53-grid-book-edge-600.jpg)](/assets/images/paper-53-grid-book-edge-lg.jpg)
 {% endfigure %}
@@ -119,7 +119,7 @@ Using this outline you can proceed to draw, ink, or paint on top of it. In my [D
 
 With practice you'll eventually find that you won't need the grid anymore and can rely on simple freehand sketches instead. Just take a look at my [PaperFaces drawings](/paperfaces/) from beginning to end if you want proof of what practice and determination can achieve.
 
-{% figure caption:"Here's how the drawing turned out after I painted layers of watercolor and added details with the pencil tool." class:"third" %}
+{% figure caption:"Here's how the drawing turned out after I painted layers of watercolor and added details with the pencil tool." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-makenna-s-process-3-600.jpg)](/assets/images/paperfaces-makenna-s-process-3-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-makenna-s-process-4-600.jpg)](/assets/images/paperfaces-makenna-s-process-4-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-makenna-s-600.jpg)](/assets/images/paperfaces-makenna-s.jpg)

@@ -14,6 +14,6 @@ PaperFaces portrait of [@jessebc](https://twitter.com/jessebc).
 
 {% include boilerplate/paperfaces-3.md %}
 
-{% figure caption:"Work in progress screen captures Made with Paper." class:"third" %}
+{% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jessebc-process-1-600.jpg)](/assets/images/paperfaces-jessebc-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-jessebc-process-2-600.jpg)](/assets/images/paperfaces-jessebc-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-jessebc-process-3-600.jpg)](/assets/images/paperfaces-jessebc-process-3-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-jessebc-process-4-600.jpg)](/assets/images/paperfaces-jessebc-process-4-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-jessebc-process-5-600.jpg)](/assets/images/paperfaces-jessebc-twitter.jpg)
 {% endfigure %}

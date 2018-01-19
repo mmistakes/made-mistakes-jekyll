@@ -16,12 +16,12 @@ PaperFaces portrait of [@technacity](https://twitter.com/technacity). Drawing cl
 [![Work in process screenshot](/assets/images/paperfaces-technacity-process-1-600.jpg)](/assets/images/paperfaces-technacity-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Watercolor brush to block out shapes to build on." class:"half" %}
+{% figure caption:"Watercolor brush to block out shapes to build on." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-technacity-process-2-600.jpg)](/assets/images/paperfaces-technacity-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-technacity-process-3-600.jpg)](/assets/images/paperfaces-technacity-process-3-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Lightly shading with the pencil to create clouds and waves." class:"third" %}
+{% figure caption:"Lightly shading with the pencil to create clouds and waves." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-technacity-process-4-600.jpg)](/assets/images/paperfaces-technacity-process-4-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-technacity-process-5-600.jpg)](/assets/images/paperfaces-technacity-process-5-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-technacity-process-6-600.jpg)](/assets/images/paperfaces-technacity-process-6-lg.jpg)

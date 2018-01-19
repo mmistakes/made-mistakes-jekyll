@@ -24,7 +24,7 @@ When I draw trees I select the watercolor brush and jump right in, using one con
 When using the watercolor brush, try and mix a color around 50--75% lighter than the desired color. This lighter color allows you to layer multiple coats to create a nice vivid color. Going dark right away usually makes shapes flat and lifeless, with color that lacks richness.
 {% endnotice %}
 
-{% figure caption:"Building up a color with multiple layers usually yields better results than one dark glaze." class:"half" %}
+{% figure caption:"Building up a color with multiple layers usually yields better results than one dark glaze." class:"gallery-2-col" %}
 ![screenshot of leaf color layered](/assets/images/paper-53-tree-green-layered.jpg)
 ![screenshot of leaf color single coat](/assets/images/paper-53-tree-green-one-layer.jpg)
 {% endfigure %}
@@ -37,7 +37,7 @@ Remember the watercolor brush is translucent and no matter what color you pick i
 
 Here are some of my favorite colors to get you started painting leaves:
 
-{% figure caption:"On the left, base green color. On the right, highlight color." class:"half" %}
+{% figure caption:"On the left, base green color. On the right, highlight color." class:"gallery-2-col" %}
 ![screenshot of leaf base color](/assets/images/paper-53-leaf-mixed-green.jpg)
 ![screenshot of leaf highlight color](/assets/images/paper-53-leaf-mixed-highlight.jpg)
 {% endfigure %}
@@ -148,7 +148,7 @@ A general rule of thumb is to mix blue/gray to your background colors, and warm 
 
 Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project](/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
   <li><a href="{% post_url /paperfaces/2013-08-19-isellsoap-portrait %}"><img src="/assets/images/paperfaces-isellsoap-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-08-02-thatmiddleway-portrait %}"><img src="/assets/images/paperfaces-thatmiddleway-twitter-150.jpg" alt="thumb" /></a></li>
   <li><a href="{% post_url /paperfaces/2013-07-11-lmichelleinc-portrait %}"><img src="/assets/images/paperfaces-lmichelleinc-twitter-150.jpg" alt="thumb" /></a></li>

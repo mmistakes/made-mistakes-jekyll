@@ -73,13 +73,13 @@ After ordering you can easily check a book's status by tapping **Order Status** 
 
 Two weeks later your book(s) will arrive in a small cardboard parcel with a pull tab. Tugging on this rips through the protective packaging to reveal a book wrapped in a protective sheet of paper.
 
-{% figure caption:"A sticker seals the sleeve and the inside back is adorned with a handmade stamp and signature." class:"half" %}
+{% figure caption:"A sticker seals the sleeve and the inside back is adorned with a handmade stamp and signature." class:"gallery-2-col" %}
 [![Photograph of book wrap](/assets/images/paper-53-book-wrap.jpg)](/assets/images/paper-53-book-wrap-lg.jpg) [![Photograph of the handmade seal](/assets/images/paper-53-book-seal.jpg)](/assets/images/paper-53-book-seal-lg.jpg)
 {% endfigure %}
 
 If you've ever owned a Classic Moleskine notebook a few of the details printed on the inside front cover and first page should be familiar.
 
-{% figure caption:"I've seen this *reward* page somewhere else before haven't I..." class:"half" %}
+{% figure caption:"I've seen this *reward* page somewhere else before haven't I..." class:"gallery-2-col" %}
 [![Photograph of book wrap](/assets/images/paper-53-book-heart-moleskine.jpg)](/assets/images/paper-53-book-heart-moleskine-lg.jpg) [![Photograph of the handmade seal](/assets/images/paper-53-book-reward.jpg)](/assets/images/paper-53-book-reward-lg.jpg)
 {% endfigure %}
 
@@ -119,7 +119,7 @@ As noted before, the cover isn't as thick as I had hoped for, but it's not super
 [![Photograph of the book cover](/assets/images/paper-53-book-paperfaces-cover.jpg)](/assets/images/paper-53-book-paperfaces-cover-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"I selected black for the spine and back cover color." class:"half" %}
+{% figure caption:"I selected black for the spine and back cover color." class:"gallery-2-col" %}
 [![Photograph of book wrap](/assets/images/paper-53-book-spine.jpg)](/assets/images/paper-53-book-spine-lg.jpg) [![Photograph of the handmade seal](/assets/images/paper-53-book-back-cover.jpg)](/assets/images/paper-53-book-back-cover-lg.jpg)
 {% endfigure %}
 
@@ -153,7 +153,7 @@ When my second book didn't show up at the same time as the PaperFaces one, I sta
 
 For this book I took a few of my Paper "cheat sheets" and adapted drawings from my **Mastering Paper** series to fill all 15 pages. If you look closely you'll notice a few teases from upcoming tutorials I'm in the process of writing now. I've also embedded a video flip-through for your viewing pleasure.
 
-{% figure caption:"Assorted pages from my **Paper Reference Guide** book." class:"third" %}
+{% figure caption:"Assorted pages from my **Paper Reference Guide** book." class:"gallery-3-col" %}
 [![Photograph of the cover](/assets/images/paper-53-ref-book-1.jpg)](/assets/images/paper-53-ref-book-1-lg.jpg) [![Page showing strokes made with each tool](/assets/images/paper-53-ref-book-2.jpg)](/assets/images/paper-53-ref-book-2-lg.jpg) [![Page showing stroke layering effects](/assets/images/paper-53-ref-book-3.jpg)](/assets/images/paper-53-ref-book-3-lg.jpg) [![Page showing skin tone reference](/assets/images/paper-53-ref-book-4.jpg)](/assets/images/paper-53-ref-book-4-lg.jpg) [![Page showing hair references](/assets/images/paper-53-ref-book-5.jpg)](/assets/images/paper-53-ref-book-5-lg.jpg) [![Page showing how to draw an eye](/assets/images/paper-53-ref-book-6.jpg)](/assets/images/paper-53-ref-book-6-lg.jpg) [![Page showing how to draw a tree](/assets/images/paper-53-ref-book-7.jpg)](/assets/images/paper-53-ref-book-7-lg.jpg) [![Page showing how to draw grass](/assets/images/paper-53-ref-book-8.jpg)](/assets/images/paper-53-ref-book-8-lg.jpg)
 {% endfigure %}
 

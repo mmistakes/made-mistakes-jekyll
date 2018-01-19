@@ -46,54 +46,9 @@ figure.align-center {
 }
 
 figure {
-  &.half,
-  &.third,
-  > p {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    > p a,
-    > img {
-      display: block;
-    }
-  }
-
   > p {
     width: 100%;
     margin-bottom: 0;
-  }
-
-  &.half {
-    > p a,
-    > a,
-    > img {
-      @include breakpoint($small) {
-        flex-basis: 49%;
-        max-width: 49%;
-        height: 0%;
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-
-  &.third {
-    > p a,
-    > a,
-    > img {
-      @include breakpoint($small) {
-        flex-basis: 32%;
-        max-width: 32%;
-        height: 0%;
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
   }
 
   .emoji {

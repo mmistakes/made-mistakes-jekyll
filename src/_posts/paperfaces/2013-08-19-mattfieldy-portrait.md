@@ -13,7 +13,7 @@ PaperFaces portrait of [@mattfieldy](https://twitter.com/mattfieldy).
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"third" %}
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-mattfieldy-process-1-600.jpg)](/assets/images/paperfaces-mattfieldy-process-1-lg.jpg)
 [![](/assets/images/paperfaces-mattfieldy-process-2-600.jpg)](/assets/images/paperfaces-mattfieldy-process-2-lg.jpg)
 [![](/assets/images/paperfaces-mattfieldy-process-3-600.jpg)](/assets/images/paperfaces-mattfieldy-process-3-lg.jpg)

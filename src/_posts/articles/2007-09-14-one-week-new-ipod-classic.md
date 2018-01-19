@@ -34,7 +34,7 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 
 ## Photo Gallery
 
-<ul class="th-grid">
+<ul class="gallery-thumbnails">
 	<li>
     <a href="/assets/images/80.jpg"><img src="/assets/images/80t.jpg" alt="iPod classic syncing next to a 40GB iPod"></a>
   </li>

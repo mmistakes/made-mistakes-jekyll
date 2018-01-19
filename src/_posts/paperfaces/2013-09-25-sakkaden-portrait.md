@@ -16,7 +16,7 @@ PaperFaces portrait commissioned by <a href="https://twitter.com/sakkaden">@sakk
 [![](/assets/images/paperfaces-sakkaden-process-1-750.jpg)](/assets/images/paperfaces-sakkaden-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"third" %}
+{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-sakkaden-process-2-600.jpg)](/assets/images/paperfaces-sakkaden-process-2-lg.jpg)
 [![](/assets/images/paperfaces-sakkaden-process-3-600.jpg)](/assets/images/paperfaces-sakkaden-process-3-lg.jpg)
 [![](/assets/images/paperfaces-sakkaden-process-4-600.jpg)](/assets/images/paperfaces-sakkaden-process-4-lg.jpg)

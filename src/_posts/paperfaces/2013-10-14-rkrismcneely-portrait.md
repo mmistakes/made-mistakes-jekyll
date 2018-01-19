@@ -17,7 +17,7 @@ PaperFaces portrait of [@rkrismcneely](https://twitter.com/rkrismcneely).
 [![Work in process screenshot](/assets/images/paperfaces-rkrismcneely-process-1-750.jpg)](/assets/images/paperfaces-rkrismcneely-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"half" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-rkrismcneely-process-2-600.jpg)](/assets/images/paperfaces-rkrismcneely-process-2-lg.jpg)
 [![](/assets/images/paperfaces-rkrismcneely-process-3-600.jpg)](/assets/images/paperfaces-rkrismcneely-process-3-lg.jpg)
 [![](/assets/images/paperfaces-rkrismcneely-process-4-600.jpg)](/assets/images/paperfaces-rkrismcneely-process-4-lg.jpg)

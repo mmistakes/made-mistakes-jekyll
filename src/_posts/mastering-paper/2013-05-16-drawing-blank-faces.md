@@ -32,7 +32,7 @@ Don't want to bother drawing the same frame each time? Then make a template of i
 
 ## Apply a Background
 
-{% figure caption:"Paint from light to dark with watercolors and add detail with a pencil." class:"half" %}
+{% figure caption:"Paint from light to dark with watercolors and add detail with a pencil." class:"gallery-2-col" %}
 [![Drawing a background with Paper 53](/assets/images/paper-53-draw-background-400.jpg)](/assets/images/paper-53-draw-background-lg.jpg)
 [![Detailing the background with Paper 53](/assets/images/paper-53-detail-background-400.jpg)](/assets/images/paper-53-detail-background-lg.jpg)
 {% endfigure %}
@@ -51,7 +51,7 @@ Whether I'm working on clouds, a landscape, or a face, I follow the same process
 
 The background should be nice and heavy now. Using a white pencil, outline the face or blob it out with watercolor instead. On the rare chance the background is really light, use flesh tones (light brown/pink/orange) instead. The marker or fountain pen are appropriate for face lightening, but you can't layer them as much. Watercolor allows you to progressively lighten and soften edges, which helps enhance the realism.
 
-{% figure caption:"Use white to outline and lighten the figure's shape or face." class:"third" %}
+{% figure caption:"Use white to outline and lighten the figure's shape or face." class:"gallery-3-col" %}
 [![Outline the figure with Paper 53](/assets/images/paper-53-pencil-outline-figure-400.jpg)](/assets/images/paper-53-pencil-outline-figure-lg.jpg)
 [![Begin lighting the figure with Paper 53](/assets/images/paper-53-lighten-figure-1-400.jpg)](/assets/images/paper-53-lighten-figure-1-lg.jpg)
 [![Continue lighting the figure with Paper 53](/assets/images/paper-53-lighten-figure-2-400.jpg)](/assets/images/paper-53-lighten-figure-2-lg.jpg)
@@ -63,7 +63,7 @@ A white mixed with a hint of orange or yellow works great too. Experiment with t
 
 The trick here is to gradually apply smooth layers of a light color using the watercolor brush. First few layers are to fill the entire face with whatever skin color you're trying to match. For areas that are in shadow, mix in a dull (almost gray) red or blue and then quickly paint half of the face. Shape really matters --- if you don't get it right just two finger rewind and try again. Move fast and avoid lingering in one spot to keep your edges soft and avoid going too dark.
 
-{% figure caption:"Move quick and deliberate with watercolor." class:"half" %}
+{% figure caption:"Move quick and deliberate with watercolor." class:"gallery-2-col" %}
 [![Use light watercolors to build up a face with Paper 53](/assets/images/paper-53-build-face-watercolor-1-400.jpg)](/assets/images/paper-53-build-face-watercolor-1-lg.jpg) [![Use dull colors to shade a face with Paper 53](/assets/images/paper-53-build-face-watercolor-2-400.jpg)](/assets/images/paper-53-build-face-watercolor-2-lg.jpg)
 {% endfigure %}
 
@@ -73,7 +73,7 @@ Same deal as the background, select the pencil tool and start refining edges tha
 
 Now is a great time to pencil in the hair, mustache, or beard whiskers using black as your base and a bright brown or yellow over the top. For a detailed Paper by 53 hair tutorial, [check this out]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) one time.
 
-{% figure caption:"Use black and white pencils to shade and highlight." class:"half" %}
+{% figure caption:"Use black and white pencils to shade and highlight." class:"gallery-2-col" %}
 [![Pencil details with Paper 53](/assets/images/paper-53-pencil-detail-face-1-400.jpg)](/assets/images/paper-53-pencil-detail-face-1-lg.jpg) [![Pencil details with Paper 53](/assets/images/paper-53-pencil-detail-face-2-400.jpg)](/assets/images/paper-53-pencil-detail-face-2-lg.jpg)
 {% endfigure %}
 

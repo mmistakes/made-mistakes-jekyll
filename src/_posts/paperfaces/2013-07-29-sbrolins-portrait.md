@@ -14,7 +14,7 @@ There really wasn't much to this landscape --- just a few layers of light red or
 
 {% include boilerplate/paperfaces.md %}
 
-{% figure caption:"Work in progress screenshots." class:"half" %}
+{% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-sbrolins-process-1-600.jpg)](/assets/images/paperfaces-sbrolins-process-1-lg.jpg)
 [![](/assets/images/paperfaces-sbrolins-process-2-600.jpg)](/assets/images/paperfaces-sbrolins-process-2-lg.jpg)
 {% endfigure %}
@@ -23,7 +23,7 @@ There really wasn't much to this landscape --- just a few layers of light red or
 [![](/assets/images/paperfaces-sbrolins-process-3-600.jpg)](/assets/images/paperfaces-sbrolins-process-3-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots." class:"half" %}
+{% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-sbrolins-process-4-600.jpg)](/assets/images/paperfaces-sbrolins-process-4-lg.jpg)
 [![](/assets/images/paperfaces-sbrolins-process-5-600.jpg)](/assets/images/paperfaces-sbrolins-process-5-lg.jpg)
 {% endfigure %}

@@ -16,7 +16,7 @@ PaperFaces portrait of project donator [@josearato](https://twitter.com/josearat
 [![Work in process screenshot](/assets/images/paperfaces-josearato-process-1-600.jpg)](/assets/images/paperfaces-josearato-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Render the face gradually and move quickly to soften each stroke. Use the pencil to tighten up edges and add shadows in small places." class:"half" %}
+{% figure caption:"Render the face gradually and move quickly to soften each stroke. Use the pencil to tighten up edges and add shadows in small places." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-josearato-process-2-600.jpg)](/assets/images/paperfaces-josearato-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-josearato-process-3-600.jpg)](/assets/images/paperfaces-josearato-process-3-lg.jpg)
 {% endfigure %}

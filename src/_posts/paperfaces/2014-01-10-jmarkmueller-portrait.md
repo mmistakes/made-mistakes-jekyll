@@ -12,7 +12,7 @@ PaperFaces portrait portrait of [@JMarkMueller](https://twitter.com/JMarkMueller
 
 {% include boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"third" %}
+{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jmarkmueller-process-1-600.jpg)](/assets/images/paperfaces-jmarkmueller-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jmarkmueller-process-2-600.jpg)](/assets/images/paperfaces-jmarkmueller-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jmarkmueller-process-3-600.jpg)](/assets/images/paperfaces-jmarkmueller-process-3-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-jmarkmueller-process-4-600.jpg)](/assets/images/paperfaces-jmarkmueller-process-4-lg.jpg)
