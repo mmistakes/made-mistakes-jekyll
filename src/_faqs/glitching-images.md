@@ -5,7 +5,7 @@ last_modified_at: 2015-11-06T11:20:51-05:00
 order: 3
 ---
 
-To create profile images that look like they've been run through a television set with poor reception, I use [**DECIM8**](http://decim8.info/). It's available as both an iOS and Android app.
+To create profile images that look like they've been run through a television set with poor reception, I use [**DECIM8**](https://www.rgb.nu/decim8). It's available as both an iOS and Android app.
 
 <img src="{{ site.url }}/assets/images/glitched-examples.jpg" alt="glitched image examples">
 
