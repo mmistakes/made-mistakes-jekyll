@@ -1,7 +1,7 @@
 ---
 title: "What tools do you use to build your website?"
 type: other
-last_modified_at: 2017-08-31T08:08:04-04:00
+last_modified_at: 2018-02-06T10:46:43-05:00
 comments: true
 comments_locked: true
 order: 1
@@ -32,13 +32,15 @@ If you're really interested in the specifics of how the site is built I've made 
 ## Hosting and Other Stuff
 
 - Web hosting provided by [**Media Temple**][media-temple] via their [Grid -- Shared Hosting][grid-plan] plan.
-- Domain name registered with [**Hover**][hover]
-- Icons from [**SimpleIcon**][simpleicon] and [**Noun Project**][nounproject]
+- SSL provided by [**Cloudflare's**][cloudflare-ssl] free flexible SSL plan.
+- Domain name registered with [**Hover**][hover].
+- Icons from [**SimpleIcon**][simpleicon] and [**Noun Project**][nounproject].
 
 [^files]: HTML, CSS, and JavaScript files along with images and other assets needed to render a web page.
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
 [media-temple]: http://bit.ly/1Ugg7nN
 [grid-plan]: https://mediatemple.net/webhosting/shared/
+[cloudflare-ssl]: https://www.cloudflare.com/ssl/
 [hover]: https://hover.com/E4nZJYVH
 [simpleicon]: http://www.flaticon.com
 [nounproject]: https://thenounproject.com
