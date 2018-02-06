@@ -2,7 +2,7 @@
 title: "Minimal Mistakes, a Jekyll Theme"
 headline: "Minimal Mistakes Theme"
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
-last_modified_at: 2017-09-08T10:41:11-04:00
+last_modified_at: 2018-02-06T11:15:51-05:00
 image: 
   path: &image /assets/images/minimal-mistakes-3-feature.jpg
   feature: *image
@@ -52,7 +52,7 @@ To learn more about how to customize this theme, include feature images in posts
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/minimal-mistakes/issues/new). And if you make something cool with this theme feel free to let me know.
+Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or . And if you make something cool with this theme feel free to let me know.
 
 ## License
 

@@ -2,8 +2,8 @@
 layout: archive
 title: "Jekyll Themes"
 headline: "Jekyll Themes"
-excerpt: "Minimally designed open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"
-last_modified_at: 2017-09-07T15:32:44-04:00
+excerpt: "Open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"
+last_modified_at: 2018-02-06T11:13:09-05:00
 image: 
   path: &image /assets/images/jekyll-themes-feature.png
   feature: *image
@@ -34,15 +34,37 @@ The basic setup for each of my theme's is roughly the same:
 
 For more specifics, review each theme's documentation by clicking on the **Setup Guide** buttons below.
 
+## [So Simple Theme]({% post_url /work/2013-06-26-so-simple-jekyll-theme %})
+
+{% figure caption:"Large images and site logo if that's your thing" %}
+ ![So Simple Jekyll theme screenshot](/assets/images/jekyll-theme-so-simple-feature-2018.jpg)
+{% endfigure %}
+
+So Simple is a simple Jekyll theme for your words and pictures. Features include:
+
+- Compatible with GitHub Pages.
+- Available as a [Ruby Gem theme](https://rubygems.org/gems/jekyll-theme-so-simple).
+- A variety of layouts with clean and readable typography.
+- [Microformats](http://microformats.org/wiki/microformats2) markup to make post content machine-readable and discoverable.
+- Disqus Comments and Google Analytics support.
+- SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag).
+- Options to customize the theme and make it your own.
+
+<div markdown="0" class="btn--group">
+  <a href="https://github.com/mmistakes/so-simple-theme" class="btn">Setup Guide</a>
+  <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
+</div>
+
 ## [Basically Basic Theme]({% post_url /work/2017-03-30-basically-basic-jekyll-theme %})
 
-<figure>
-  <img src="/assets/images/jekyll-theme-basically-basic-feature.jpg" alt="Basically Basic Jekyll theme screenshot">
-  <figcaption>Your new Jekyll default theme.</figcaption>
-</figure>
+{% figure caption:"Your new Jekyll default theme." %}
+![Basically Basic Jekyll theme screenshot](/assets/images/jekyll-theme-basically-basic-feature.jpg)
+{% endfigure %}
 
 Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
 
+- Compatible with GitHub Pages.
+- Available as a [Ruby Gem theme](https://rubygems.org/gems/jekyll-theme-basically-basic).
 - Clean responsive design with six customizable skins
 - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
 - About page layout
@@ -56,12 +78,11 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 
 ## [Minimal Mistakes Theme]({% post_url /work/2016-04-15-minimal-mistakes-jekyll-theme %})
 
-<figure>
-  <img src="/assets/images/minimal-mistakes-3-feature.jpg" alt="Minimal Mistakes Jekyll theme screenshot">
-  <figcaption>A minimal design to let your content shine.</figcaption>
-</figure>
+{% figure caption:"A minimal design to let your content shine." %}
+![Minimal Mistakes Jekyll theme screenshot](/assets/images/minimal-mistakes-3-feature.jpg)
+{% endfigure %}
 
-A flexible two-column Jekyll theme with a minimalistic aesthetic.
+A flexible two-column Jekyll theme with a minimalist aesthetic.
 
   - Compatible with GitHub Pages.
   - Available as a [Ruby Gem theme](https://rubygems.org/gems/minimal-mistakes-jekyll).
@@ -78,10 +99,9 @@ A flexible two-column Jekyll theme with a minimalistic aesthetic.
 
 ## [HPSTR Theme]({% post_url /work/2013-08-26-hpstr-jekyll-theme %})
 
-<figure>
-  <img src="/assets/images/hpstr-preview-feature-2015.jpg" alt="HPSTR Jekyll theme screenshot">
-  <figcaption>A traditional blog approach with a modern style</figcaption>
-</figure>
+{% figure caption:"A traditional blog approach with a modern style" %}
+![HPSTR Jekyll theme screenshot](/assets/images/hpstr-preview-feature-2015.jpg)
+{% endfigure %}
 
 A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché feel.
 
@@ -95,31 +115,11 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
 </div>
 
-## [So Simple Theme]({% post_url /work/2013-06-26-so-simple-jekyll-theme %})
-
-<figure>
-  <img src="/assets/images/so-simple-theme-feature-2015.jpg" alt="So Simple Jekyll theme screenshot">
-  <figcaption>Large images and site logo if that's your thing</figcaption>
-</figure>
-
-A simple and clean responsive Jekyll theme for words and large photographs.
-
-  - Compatible with GitHub Pages.
-  - Minimal design with subtle animations.
-  - Simple search (searches by post title)
-  - Built-in support for Sass and data files (requires Jekyll 2.x)
-
-<div markdown="0" class="btn--group">
-  <a href="https://mmistakes.github.io/so-simple-theme/theme-setup/" class="btn">Setup Guide</a>
-  <a href="https://mmistakes.github.io/so-simple-theme" class="btn">Demo</a>
-</div>
-
 ## [Skinny Bones Theme]({% post_url /work/2014-09-02-skinny-bones-jekyll %})
 
-<figure>
-	<img src="/assets/images/skinny-bones-preview-feature.jpg" alt="Skinny Bones Jekyll theme screenshot">
-	<figcaption>Includes a fun off canvas menu</figcaption> 
-</figure>
+{% figure caption:"Includes a fun off canvas menu" %}
+![Skinny Bones Jekyll theme screenshot](/assets/images/skinny-bones-preview-feature.jpg)
+{% endfigure %}
 
 A Jekyll starter based off of an older incarnation of Made Mistakes.
 

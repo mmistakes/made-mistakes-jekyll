@@ -8,7 +8,7 @@ image:
   thumbnail: /assets/images/hpstr-preview-th-2015.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
-last_modified_at: 2017-09-08T10:35:12-04:00
+last_modified_at: 2018-02-06T11:15:46-05:00
 breadcrumbs:
   - label: "Jekyll Themes"
     url: /work/jekyll-themes/
@@ -77,7 +77,7 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or [file a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
+Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new) or ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or . And if you make something cool with this theme feel free to let me know.
 
 ## License
 
