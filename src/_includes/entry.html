@@ -28,7 +28,7 @@
   <footer class="entry-meta">
     <ul>
       {% if post.work %}
-        <li><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>&nbsp;{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        <li><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</li>
       {% endif %}
       {% if post.date %}
         <li><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | relative_url }}"></use></svg><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
@@ -44,7 +44,7 @@
   <div class="entry-excerpt">
     {% if post.excerpt %}
       {{ post.excerpt | markdownify }}
-      <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg></a></p>
+      <p><a href="{{ post.url | relative_url }}" class="more-link">Read more&hellip;</a></p>
     {% endif %}
   </div>
 </article>
