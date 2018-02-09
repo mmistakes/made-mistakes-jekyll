@@ -11,7 +11,14 @@
     {% if site.copyright %}
       {{ site.copyright | markdownify }}
     {% else %}
-      <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Michael Rose.</p>
+      <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Michael Rose.
+        {% if site.author.twitter %}
+          <a href="{{ site.author.twitter }}" rel="me"><svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-twitter' | prepend: 'assets/icons/' | relative_url }}"></use></svg>Twitter</a>
+        {% endif %}
+        {% if site.author.github %}
+          <a href="{{ site.author.github }}" rel="me"> <svg class="icon" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-github' | prepend: 'assets/icons/' | relative_url }}"></use></svg>GitHub</a>
+        {% endif %}
+      </p>
     {% endif %}
   </div>
 </footer>

@@ -42,4 +42,18 @@
 
 .copyright {
   font-family: $monospace-font-family;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .icon {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
 }
