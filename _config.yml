@@ -257,25 +257,28 @@ defaults:
 
 # Plugin: Pagination (jekyll-paginate-v2)
 pagination:
-  enabled      : true
-  debug        : false
-  per_page     : 15
-  permalink    : "/page/:num/"
-  title        : ":title - Page :num of :max"
-  limit        : 0
-  sort_field   : "date"
-  sort_reverse : true
+  enabled: true
+  debug: false
+  per_page: 15
+  permalink: "/page/:num/"
+  title: ":title - Page :num of :max"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
 
 # Plugin: Auto Pages (jekyll-paginate-v2)
 autopages:
-  enabled      : true
+  enabled: true
   categories:
-    enabled    : false
+    enabled: false
   collections:
-    enabled    : false
+    enabled: false
   tags:
-    enabled    : true
+    enabled: true
+    slugify:
+      mode: raw
+      cased: true
     layouts:
       - "autopage_tags.html"
-    title      : ":tag" # :tag is replaced by the tag name
-    permalink  : "/tag/:tag"
+    title: ":tag" # :tag is replaced by the tag name
+    permalink: "/tag/:tag"
