@@ -22,7 +22,6 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 *	Nice and thin. About half the size of my old iPod.
 *	All metal enclosure. Feels solid and well built.
 *	New interface. Splitting the menu in half and showing album art and photos fade by looks great. There was so much dead space with the old interface that this is a step in the right direction.
-{:.fl}
 
 ## The Cons
 
@@ -30,33 +29,15 @@ The classic has a few issues, but nothing that has given me buyer's remorse.
 *	The clock. WTF?!? After 20 seconds of inactivity the Now Playing screen goes away and you get this lame clock displaying the time and battery level. The only way I've been able to get rid of this "feature" is by turning the back light setting to *Always On*. Must be some energy saving feature Apple thought was necessary. Give me the option to turn this off please.
 *	Scroll wheel sensitivity seems off. Maybe I'm used to pre-click wheel iPod, but I have problems rating songs or moving through the menus accurately.
 *	Screen glare. When used in my car during the day I can barely see the screen. Not that big of a deal, but I'm glad I didn't get an iPod touch for this very reason. Would have been nearly impossible to navigate through songs since it has no hard buttons and I wouldn't be able to see the screen.
-{:.fl}
 
 ## Photo Gallery
 
-<ul class="gallery-thumbnails">
-	<li>
-    <a href="/assets/images/80.jpg"><img src="/assets/images/80t.jpg" alt="iPod classic syncing next to a 40GB iPod"></a>
-  </li>
-	<li>
-    <a href="/assets/images/81.jpg"><img src="/assets/images/81t.jpg" alt="iPod classic thickness compared to an old 40GB iPod"></a>
-  </li>
-	<li>
-    <a href="/assets/images/82.jpg"><img src="/assets/images/82t.jpg" alt="New interface menu. Album artwork fades in and out randomly on the side as you navigate through the menus."></a>
-  </li>
-	<li>
-    <a href="/assets/images/83.jpg"><img src="/assets/images/83t.jpg" alt="iPod classic games screen"></a>
-  </li>
-	<li>
-    <a href="/assets/images/84.jpg"><img src="/assets/images/84t.jpg" alt="iPod classic coverflow"></a>
-  </li>
-	<li>
-    <a href="/assets/images/85.jpg"><img src="/assets/images/85t.jpg" alt="iPod classic coverflow flip"></a>
-  </li>
-	<li>
-    <a href="/assets/images/86.jpg"><img src="/assets/images/86t.jpg" alt="iPod classic viewing your photos"></a>
-  </li>
-	<li>
-    <a href="/assets/images/87.jpg"><img src="/assets/images/87t.jpg" alt="iPod classic search"></a>
-  </li>
-</ul>
+* [![iPod classic syncing next to a 40GB iPod](/assets/images/80t.jpg)](/assets/images/80.jpg)
+* [![iPod classic thickness compared to an old 40GB iPod](/assets/images/81t.jpg)](/assets/images/81.jpg)
+* [![New interface menu](/assets/images/82t.jpg)](/assets/images/82.jpg)
+* [![iPod classic games screen](/assets/images/83t.jpg)](/assets/images/83.jpg)
+* [![iPod classic coverflow](/assets/images/84t.jpg)](/assets/images/84.jpg)
+* [![iPod classic coverflow flip](/assets/images/85t.jpg)](/assets/images/85.jpg)
+* [![iPod classic viewing your photos](/assets/images/86t.jpg)](/assets/images/86.jpg)
+* [![iPod classic search](/assets/images/87t.jpg)](/assets/images/87.jpg)
+{: .gallery-thumbnails}

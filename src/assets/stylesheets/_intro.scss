@@ -52,3 +52,73 @@
     line-height: 1.625;
   }
 }
+
+/*
+   Cover variant
+   ========================================================================== */
+
+.intro {
+  &.cover {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    text-shadow: 1px 01px 1px rgba($text-color, 0.75);
+
+    &::before {
+      @include scrimgradient("to right", $text-color);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      z-index: 5;
+    }
+
+    .breadcrumbs {
+      position: relative;
+      z-index: 10;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    .inner {
+      position: relative;
+      z-index: 10;
+    }
+
+    .intro-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      img {
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        min-height: 100%;
+      }
+    }
+
+    .intro-text {
+      position: relative;
+      color: #fff;
+    }
+
+    .entry-meta .icon {
+      fill: #fff;
+    }
+
+    .intro-title {
+      color: #fff;
+    }
+  }
+}

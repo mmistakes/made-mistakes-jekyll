@@ -7,6 +7,7 @@ image:
   teaser: /assets/images/UO-may11-teaser.jpg
   thumbnail: /assets/images/UO-MAY11-serifs-italics-340.jpg
 tags: [catalog, critique, design, typography]
+support: false
 ---
 
 Glad to see improvements in the May 2011 Urban Outfitters catalog. Especially since I took [a few issues with the typography](/articles/typography-urban-outfitters/) and other design choices last month.

@@ -2,6 +2,7 @@
 title: "Inktober Failure"
 excerpt: "Similar to previously years, I started out with the best of intentions for Inktober and then quickly lose steam..."
 image: 
+  cover: false
   path: &image /assets/images/inktober-2016-wash-portrait.jpg
   feature: *image
   thumbnail: /assets/images/inktober-2016-wash-portrait-th.jpg

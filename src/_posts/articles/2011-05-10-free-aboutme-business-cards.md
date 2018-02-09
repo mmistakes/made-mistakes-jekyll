@@ -7,6 +7,7 @@ image:
   teaser: /assets/images/about-me-teaser.jpg
   thumbnail: /assets/images/mademistakes-business-cards-front-148x148.jpg
 tags: [business cards, design, Michael Rose]
+support: false
 last_modified_at: 2017-12-12T16:28:35-05:00
 ---
 Pretty much the only reason I created an About.me page was to get free customized business cards printed by Moo.

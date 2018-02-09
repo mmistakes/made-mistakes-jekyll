@@ -21,7 +21,9 @@ In February of '05 I finally decided it was time. Went to the Apple Store in the
 
 For the next 6 months my new iMac worked fine. The Fourth of July was right around the corner and I was super pumped for a nice long holiday weekend. When I went to use my computer that weekend the screen was blank. Weird. I turned it on and the white pulsating light in the right corner flashed and I heard the startup chime. Then the machine died again. Ugh.
 
-Tried the obvious stuff like unplugging everything, resetting the <abbr>PRAM</abbr>, and rebooting. Nothing worked. Called #Apple Care* and they had me open it up and check some LED diagnostic lights to see what was up. Ever try to unscrew and open a computer while on the phone with some dude walking you through it? Yeah it sucked. After trying everything customer service suggested, I was told to take it to the Apple Store for a look.
+Tried the obvious stuff like unplugging everything, resetting the PRAM, and rebooting. Nothing worked. Called **Apple Care** and they had me open it up and check some LED diagnostic lights to see what was up. Ever try to unscrew and open a computer while on the phone with some dude walking you through it? Yeah it sucked. After trying everything customer service suggested, I was told to take it to the Apple Store for a look.
+
+*[PRAM]: Parameter RAM
 
 Blah. Had to carry this heavy 20" iMac through half of the mall to get to the store and have an Apple Genius play with it. He determined it was dead and I had to send it away for repairs. Everything would be covered since it was still under warranty with Apple Care. But it would take about a week to repair because of the holiday.
 

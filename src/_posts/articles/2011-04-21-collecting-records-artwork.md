@@ -6,8 +6,9 @@ image:
   feature: *image
   teaser: /assets/images/collecting-records-teaser.jpg
   thumbnail: /assets/images/collecting-records-thumb.jpg
-last_modified_at: 2017-12-12T16:27:14-05:00
 tags: [punk, records, inspiration, DIY, critique, design]
+support: false
+last_modified_at: 2017-12-12T16:27:14-05:00
 ---
 
 Most of the [records I purchased](http://www.recordnerd.com/lists/bleedsapathy) in the late 90's--early 2000's were self-released or put out by small independent labels. 

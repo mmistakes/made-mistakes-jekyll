@@ -6,6 +6,7 @@ image:
   thumbnail: /assets/images/fadedlead-home-340x340.jpg
   teaser: /assets/images/fadedlead-home-teaser.jpg
 tags: [CMS, website, design, Michael Rose]
+support: false
 ---
 
 As a designer we've all been there. When was the last time you got bored with a design and decided to just scrap it and start from scratch? Yeah, that's what I thought.

@@ -7,7 +7,6 @@ excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small 
 image: 
   path: &image /assets/images/tiny-paintings.jpg
   feature: *image
-  cover: /assets/images/tiny-paintings-lq.jpg
   thumbnail: /assets/images/tiny-paintings-th.jpg
   teaser: /assets/images/tiny-paintings-teaser.jpg
 tags: [watercolor, painting, drawing, portrait, illustration]

@@ -2,11 +2,13 @@
 title: RRIICCEE Show Last Night
 excerpt: "Musically --- RRIICCEE is fine, but not something I really want to see live again."
 image: 
+  cover: false
   path: &image /assets/images/rriiccee-feature.jpg
   feature: *image
   teaser: /assets/images/rriiccee-teaser.jpg
   thumbnail: /assets/images/rriiccee-thumb.jpg
 tags: [RRIICCEE, Vincent Gallo, Soundlab, Buffalo, review]
+support: false
 ---
 
 So I no longer have any drive to go see bands perform live. The one or two shows I force myself to attend yearly always leave me questioning my intentions about ten minutes after arriving at the bar. Maybe I'm getting less patient with my age but I can't stand it when bands don't start playing until three+ hours after doors open. On a work night that just sucks.

@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About Michael Rose"
-last_modified_at: 2017-09-07T10:39:48-04:00
+last_modified_at: 2018-02-09T09:44:06-05:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   path: &image /assets/images/about-michael-collage-2016.jpg
@@ -17,19 +17,15 @@ When I'm not drawing on my iPad, releasing open source [Jekyll themes](/work/jek
 
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls](/tag/twins/) who just hit the toddler phase and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
-<figure class="half">
+<figure class="gallery-2-col">
   <a href="{% post_url /paperfaces/2014-05-19-mmistakes-2-portrait %}"><img src="/assets/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>
   <a href="{% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %}"><img src="/assets/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
   <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
 </figure>
 
-<figure>
-  <img src="/assets/images/michael-rose-tattoos.png" alt="Michael Rose's tattoos">
-  <figcaption>
-    {% capture tattoos_caption %}My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't.{% endcapture %}
-    {{ tattoos_caption | markdownify | remove: "<p>" | remove: "</p>" }}
-  </figcaption>
-</figure>
+{% figure caption:"My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't." %}
+![Michael Rose's tattoos](/assets/images/michael-rose-tattoos.png)
+{% endfigure %}
 
 ## Contact
 
@@ -54,8 +50,8 @@ I've since decided to abandon using a CMS and utilize black magick and [Jekyll](
 I write tutorials and maintain a few open source projects for fun. If you've found any of them useful and want to thank me, here's a few ways you can.
 
 1. Follow me on [Twitter](https://twitter.com/mmistakes) or subscribe to one of my [RSS feeds](/support/#subscribe-to-the-feeds).
-2. Buy anything at Amazon using [this link](http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission[^affiliate]. 
-3. Send a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6U4FS8Y794X4) or [Square Cash](https://cash.me/$mmistakes).
+2. Buy anything at Amazon using [this link](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission[^affiliate]. 
+3. Send a donation via [PayPal](https://www.paypal.me/mmistakes) or [Square Cash](https://cash.me/$mmistakes).
 
 [^affiliate]: Anything I link to on Amazon may be done with [affiliate URLs](/terms/).
 

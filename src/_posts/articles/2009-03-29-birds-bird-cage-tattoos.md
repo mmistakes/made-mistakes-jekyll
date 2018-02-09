@@ -3,11 +3,13 @@ title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
 excerpt: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
 last_modified_at: 2017-09-07T20:33:26-04:00
 image: 
+  cover: false
   path: &image /assets/images/bird-cage-tattoo-healed-feature.jpg
   feature: *image
   teaser: /assets/images/bird-cage-tattoo-teaser.jpg
   thumbnail: /assets/images/bird-tattoo-340x340.jpg
 tags: [bird, tattoo, bird cage, vegan, trees, Michael Rose]
+support: false
 ---
 
 The last couple of months have been pretty stressful. Butter, my domestic long haired cat has been sick off and on and causing me to incur some high vet bills and a bunch of junk that hasn't helped to keep my mind at ease. 

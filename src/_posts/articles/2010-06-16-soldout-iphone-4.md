@@ -5,6 +5,7 @@ last_modified_at: 2013-05-03
 tags: [iPhone, Apple, tech geek]
 image:
   teaser: /assets/images/iphone-4-teaser.jpg
+support: false
 ---
 
 Looks like I might actually get an **iPhone 4** on launch day. Took AT&T all day to process the order I made at 6:50 AM EST (6/15/2010), but everything is looking good. Guessing I had no problems getting through because I was a new customer and didn't have to deal with the servers looking up my account info for upgrade eligibility.

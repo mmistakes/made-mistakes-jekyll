@@ -143,6 +143,8 @@ defaults:
       category: articles
       read_time: true
       support: true
+      image:
+        cover: true
       breadcrumbs:
         - label: "Blog Articles"
           url: /articles/
@@ -159,6 +161,8 @@ defaults:
       breadcrumbs:
         - label: "Mastering Paper by 53"
           url: /mastering-paper/
+      image:
+        cover: true
   # PaperFaces
   - scope:
       path: _posts/paperfaces

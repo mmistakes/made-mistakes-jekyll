@@ -1,8 +1,9 @@
 ---
 title: "Those City Folk in Animal Crossing Still Love the Gossip"
 excerpt: "A lengthy review of Animal Crossing City Folk for the Nintendo Wii, some things never change."
-last_modified_at: 2015-02-03T11:59:20-05:00
+last_modified_at: 2018-02-09T09:12:50-05:00
 image: 
+  cover: false
   path: &image /assets/images/animal-crossing-stuck-in-hole.jpg
   feature: *image
   teaser: /assets/images/animal-crossing-teaser.jpg
@@ -18,7 +19,9 @@ The following are some of the additions and changes to the series that have for 
 
 ## How You Play
 
-In the Gamecube and DS versions, *time traveling* or <abbr title="time traveling">TT</abbr> was frowned upon. If you forgot to save before turning off your game or if you changed the internal clock, Resetti would popup and drone on about the ill effects of not saving properly. TT'ing was mostly used to make money quick with the drawback of having a ton of weeds and bugs in your house to deal with after.
+In the Gamecube and DS versions, *time traveling* or TT was frowned upon. If you forgot to save before turning off your game or if you changed the internal clock, Resetti would popup and drone on about the ill effects of not saving properly. TT'ing was mostly used to make money quick with the drawback of having a ton of weeds and bugs in your house to deal with after.
+
+*[TT]: time traveling
 
 In City Folk I've been known to TT a day or so to catch events I missed. This time around Resetti doesn't bug you and the game itself makes it easy to change the time before entering your town. If you TT your turnips will wilt, you will get weeds, you can't gain interest (unless you change the Wii's clock in the system settings), and town folk may leave. But used in moderation I see no problem with going back a few hours so you can enter Nook's or catch special visitors.
 
@@ -28,7 +31,7 @@ A cool addition is the ability to import your character from *Animal Crossing: W
 ![Wendy's Animal Crossing character lurking over me](/assets/images/animal-crossing-me-wendy.jpg)
 {% endfigure %}
 
-If you don't have access to the internet, but do have a DS, you can take your character to a friend's town through a process called *DS Suitcase*. The game essentially saves your character to a DS allowing you to go to a friend's town, mess around, earn bells/trade items/etc, save back to your DS, and then return to your town at home. Pretty handy if you don't have an Internet connection to visit a friend via *Nintendo WFC* and want to nab some foreign fruit.
+If you don't have access to the internet, but do have a DS, you can take your character to a friend's town through a process called **DS Suitcase**. The game essentially saves your character to a DS allowing you to go to a friend's town, mess around, earn bells/trade items/etc, save back to your DS, and then return to your town at home. Pretty handy if you don't have an Internet connection to visit a friend via **Nintendo WFC** and want to nab some foreign fruit.
 
 At first I thought you could transfer your save from the Wii to a SD card and visit this way (similar to the Gamecube game). But sadly you can't since the save is locked to your console. Although if you installed the Homebrew Channel there are tools that let you transfer it and then edit your town data on a PC. Browsing around on YouTube I found a ton of crazy looking towns and glitches going on. While it might be fun to tinker with your town, I don't really see the point if you want to get the most enjoyment out of Animal Crossing. Getting rich quick and having all the rare stuff right away defeats the purpose of playing the game. Meh...
 
@@ -70,7 +73,7 @@ Pressing the 1 button on the Wiimote takes a screenshot and then you can transfe
 
 ## To the City
 
-For the most part the City is a zzzzZZZzzz fest. You can visit Dr. Shrunk and pay 800 bells to learn a new emotion (you can hold up to four at a time).
+For the most part the City is a :zzz: fest. You can visit Dr. Shrunk and pay 800 bells to learn a new emotion (you can hold up to four at a time).
 
 Go to Gracie's and get ripped off on some furniture or 'trendy' clothing. Guess this changes depending on the season, so maybe something cool will pop up and I'll feel like spending 140,000 on a table... or not.
 

@@ -9,7 +9,6 @@ last_modified_at: 2017-05-07T17:26:15-04:00
 image: 
   path: &image /assets/images/procreate-paintings-feature.jpg
   feature: *image
-  cover: /assets/images/procreate-logo-lq.jpg
   thumbnail: /assets/images/procreate-paintings-th.jpg
   teaser: /assets/images/procreate-paintings-teaser.jpg
 tags: [Procreate, painting, drawing, portrait, illustration]

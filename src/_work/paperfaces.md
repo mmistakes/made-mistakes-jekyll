@@ -8,7 +8,6 @@ last_modified_at: 2017-04-08T22:45:44-04:00
 image: 
   path: &image /assets/images/paperfaces-project-feature.jpg
   feature: *image
-  cover: /assets/images/fiftythree-color-lq.jpg
   thumbnail: /assets/images/paperfaces-project-th.jpg
   teaser: /assets/images/paperfaces-asja-k-teaser.jpg
 tags: [Paper by 53, portrait, drawing, painting, iPad, illustration, 365 project]

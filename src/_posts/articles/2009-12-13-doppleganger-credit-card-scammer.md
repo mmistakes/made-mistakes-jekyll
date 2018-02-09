@@ -6,6 +6,7 @@ image:
   thumbnail: /assets/images/michael-the-fugitive.jpg
   teaser: /assets/images/michael-the-fugitive-teaser.jpg
 tags: [Michael Rose, Buffalo]
+support: false
 ---
 
 I had nothing to do with using a bad credit card at Tops' honest! I just happen to look like this dude.

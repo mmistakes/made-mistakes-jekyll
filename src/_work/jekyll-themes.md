@@ -7,7 +7,6 @@ last_modified_at: 2018-02-06T11:13:09-05:00
 image: 
   path: &image /assets/images/jekyll-themes-feature.png
   feature: *image
-  cover: /assets/images/jekyll-logo-lq.jpg
   thumbnail: /assets/images/jekyll-themes-thumb-250x250.png
   teaser: /assets/images/jekyll-themes-teaser.png
 tags: [Jekyll, web development, open source, GitHub]

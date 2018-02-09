@@ -3,12 +3,14 @@ title: "Blinded By The Light --- Sunshine Movie Impressions"
 excerpt: "The film Sunshine directed by Danny Boyle is science fiction without the big bang."
 last_modified_at: 2013-04-26 00:00:00
 image: 
+  cover: false
   path: &image /assets/images/sunshine-feature.jpg
   feature: *image
   teaser: /assets/images/sunshine-teaser.jpg
   thumbnail: /assets/images/sunshine-thumb.jpg
   caption: "DVD screengrab from [**DVDBeaver**](http://www.dvdbeaver.com/film2/DVDReviews34/sunshine_blu-ray.htm)"
 tags: [sci-fi, film, review, space]
+support: false
 ---
 
 Science fiction movies, now those be my jams. Have been looking forward to seeing Danny Boyle's new film *Sunshine*, when I saw a trailer before *Sicko* a month or so ago. I couldn't tell you any of the actors' names other than Cillian Murphy, but they all are pretty familiar faces (ie: dude who played the Human Torch in *Fantastic Four & Rise of the Silver Surfer*).

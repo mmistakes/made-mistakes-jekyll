@@ -1,9 +1,9 @@
 ---
-title: "The iPhone is Great, but the Palm Pre Better Fits My Style"
+title: "The iPhone is Great, but the Palm Pre is More My Style"
 excerpt: "Quick impressions of the Palm Pre from a long time smartphone user."
-last_modified_at: 2015-10-19T14:22:26-04:00
+last_modified_at: 2018-02-09T08:54:48-05:00
 image: 
-  path: &image /assets/images/palm-pre-teaser.jpg
+  teaser: /assets/images/palm-pre-teaser.jpg
   thumbnail: /assets/images/palm-pre-th.jpg
 tags: [Palm Pre, iPhone, tech geek, review]
 ---
@@ -32,7 +32,6 @@ The experience of having a device that organizes your life, makes phone calls, a
 * Is capable of syncing with iTunes to add music, podcasts, videos, movies, or photos.
 * Backups every day to your Palm Profile --- just in case you need to restore your device after a wipe.
 * GPS and Sprint Navigation for turn by turn directions.
-{:.fl}
 
 ## Palm Pre negatives
 
@@ -50,23 +49,21 @@ The experience of having a device that organizes your life, makes phone calls, a
 * USB port cover seems cheaply made and I feel like I'm going to break it off every time I open it.
 * Device does get warm after prolonged usage. *(To be fair so did my Centro)*
 * Audio speaker isn't that loud.
-{:.fl}
 
-So there you have it. Can't say that I was excited about the thought of paying an extra $20 a month for the required Sprint Everything Data plan. But seeing how I'm getting more anytime minutes, Sprint Navigation, Sprint TV, and nights that start at 7pm instead of 9pm --- I'll live. My only real Palm Pre complaints stem from its software or lack of applications, which I'm pretty confident will be addressed with future firmware and software updates. I hope ;-)
+So there you have it. Can't say that I was excited about the thought of paying an extra $20 a month for the required Sprint Everything Data plan. But seeing how I'm getting more anytime minutes, Sprint Navigation, Sprint TV, and nights that start at 7pm instead of 9pm --- I'll live. My only real Palm Pre complaints stem from its software or lack of applications, which I'm pretty confident will be addressed with future firmware and software updates. I hope :wink:
 
-If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](https://web.archive.org/web/20100613121400/http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walkthroughs.
+If you're looking for a more in-depth look at the Palm Pre, check out [Precentral's extensive review](https://web.archive.org/web/20100613121400/http://www.precentral.net/palm-pre-review). They cover every aspect of the phone with a detailed write-up, photos, and video walk-through.
 
-<ul class="gallery-thumbnails">
-  <li><a href="/assets/images/354.jpg"><img src="/assets/images/354t.jpg" alt="Palm Pre lock screen"></a></li>
-  <li><a href="/assets/images/355.jpg"><img src="/assets/images/355t.jpg" alt="Palm Pre closed"></a></li>
-  <li><a href="/assets/images/356.jpg"><img src="/assets/images/356t.jpg" alt="Palm Pre open"></a></li>
-  <li><a href="/assets/images/357.jpg"><img src="/assets/images/357t.jpg" alt="Palm Pre keyboard close up"></a></li>
-  <li><a href="/assets/images/358.jpg"><img src="/assets/images/358t.jpg" alt="Palm Pre camera and mirror"></a></li>
-  <li><a href="/assets/images/359.jpg"><img src="/assets/images/359t.jpg" alt="Palm Pre opened up"></a></li> 
-  <li><a href="/assets/images/360.jpg"><img src="/assets/images/360t.jpg" alt="Palm Pre and Palm Centro comparison"></a></li>
-  <li><a href="/assets/images/361.jpg"><img src="/assets/images/361t.jpg" alt="Palm Pre and Palm Centro comparison"></a></li>
-  <li><a href="/assets/images/362.jpg"><img src="/assets/images/362t.jpg" alt="Palm Pre Phone"></a></li>
-  <li><a href="/assets/images/363.jpg"><img src="/assets/images/363t.jpg" alt="Palm Pre Music App"></a></li>
-  <li><a href="/assets/images/364.jpg"><img src="/assets/images/364t.jpg" alt="Palm Pre Tweed App"></a></li>
-  <li><a href="/assets/images/365.jpg"><img src="/assets/images/365t.jpg" alt="Palm Pre App Catalog"></a></li>
-</ul>
+* [![Palm Pre lock screen](/assets/images/354t.jpg)](/assets/images/354.jpg)
+* [![Palm Pre closed](/assets/images/355t.jpg)](/assets/images/355.jpg)
+* [![Palm Pre open](/assets/images/356t.jpg)](/assets/images/356.jpg)
+* [![Palm Pre keyboard close up](/assets/images/357t.jpg)](/assets/images/357.jpg)
+* [![Palm Pre camera and mirror](/assets/images/358t.jpg)](/assets/images/358.jpg)
+* [![Palm Pre opened up](/assets/images/359t.jpg)](/assets/images/359.jpg)
+* [![Palm Pre and Palm Centro comparison](/assets/images/360t.jpg)](/assets/images/360.jpg)
+* [![Palm Pre and Palm Centro comparison](/assets/images/361t.jpg)](/assets/images/361.jpg)
+* [![Palm Pre Phone](/assets/images/362t.jpg)](/assets/images/362.jpg)
+* [![Palm Pre Music App](/assets/images/363t.jpg)](/assets/images/363.jpg)
+* [![Palm Pre Tweed App](/assets/images/364t.jpg)](/assets/images/364.jpg)
+* [![Palm Pre App Catalog](/assets/images/365t.jpg)](/assets/images/365.jpg)
+{: .gallery-thumbnails}

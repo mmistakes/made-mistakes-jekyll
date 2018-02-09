@@ -2,12 +2,14 @@
 title: Feeling Kinda Stuck In A Half Nelson
 excerpt: "My impressions of the film Half Nelson, starring Ryan Gosling."
 image: 
+  cover: false
   path: &image /assets/images/half-nelson-feature.jpg
   feature: *image
   teaser: /assets/images/half-nelson-teaser.jpg
   thumbnail: /assets/images/half-nelson-thumb.jpg
   caption: "DVD screengrab from [**DB Cover**](http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1)"
 tags: [film, review, indie]
+support: false
 ---
 
 My gosh! I ate a bowl of generic Honeycomb cereal for lunch and have been starving ever since. Completely devoured the large bucket at Dipson tonight and got a refill of my favorite popcorns before *Half Nelson* even started. Sometimes I wonder if all the old people sitting around me are super artsy and enjoy these films... or if they just live across from the theater and straggle in to take advantage of a senior citizens discount.
