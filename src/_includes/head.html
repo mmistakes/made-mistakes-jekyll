@@ -13,10 +13,10 @@
   {% else %}
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | relative_url }}">
   {% endif %}
 
-  {% assign style_css = site.data.css-manifest['main.css'] | default: 'main.css' | prepend: 'assets/stylesheets/' | absolute_url %}
+  {% assign style_css = site.data.css-manifest['main.css'] | default: 'main.css' | prepend: 'assets/stylesheets/' | relative_url %}
   <meta name="fullcss" content="{{ style_css }}">
 
   <!-- site verifications -->

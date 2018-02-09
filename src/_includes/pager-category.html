@@ -5,7 +5,7 @@
         <a href="{{ page.previous_in_category.url | relative_url }}" class="previous">
           <span class="pager-label">Previous</span>
           <span class="pager-title">
-            <svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> {{ page.previous_in_category.title | markdownify | remove: '<p>' | remove: '</p>' }}
+            <svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg> {{ page.previous_in_category.title | markdownify | remove: '<p>' | remove: '</p>' }}
           </span>
         </a>
       </li>
@@ -15,7 +15,7 @@
         <a href="{{ page.next_in_category.url | relative_url }}" class="next">
           <span class="pager-label">Next</span>
           <span class="pager-title">
-            {{ page.next_in_category.title | markdownify | remove: '<p>' | remove: '</p>' }} <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
+            {{ page.next_in_category.title | markdownify | remove: '<p>' | remove: '</p>' }} <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
           </span>
         </a>
       </li>

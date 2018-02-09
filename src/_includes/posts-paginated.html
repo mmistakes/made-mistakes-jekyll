@@ -10,7 +10,7 @@
       <li>
         <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
           <span class="pager-label">
-            <svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg> Newer
+            <svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Previous Page
           </span>
         </a>
       </li>
@@ -19,7 +19,7 @@
       <li>
         <a href="{{ paginator.next_page_path | relative_url }}" class="next">
           <span class="pager-label">
-            Older <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | absolute_url }}"></use></svg>
+            Next Page <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
           </span>
         </a>
       </li>
