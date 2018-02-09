@@ -40,7 +40,10 @@
 .pager {
   @include clearfix();
   margin-bottom: 2rem;
-  font-family: $monospace-font-family;
+
+  .icon {
+    fill: $text-color;
+  }
 
   ul {
     @include list-unstyled;
@@ -53,12 +56,6 @@
 
     > li {
       flex: 1;
-      border-radius: $border-radius;
-      background-color: $base-color;
-
-      &:hover {
-        background-color: tint($base-color, 20%);
-      }
     }
 
     li + li {
@@ -73,13 +70,39 @@
 
   a {
     display: block;
-    padding: 1em;
-    color: #fff;
-    font-weight: bold;
     line-height: 1.5;
-    text-align: center;
     text-decoration: none;
+
+    &:hover {
+      .icon {
+        fill: $accent-color;
+      }
+    }
+
+    &.previous {
+      text-align: left;
+    }
+
+    &.next {
+      text-align: right;
+    }
   }
+}
+
+.pager-label,
+.pager-title {
+  display: block;
+}
+
+.pager-label {
+  color: $text-color;
+  font-family: $base-font-family;
+  font-weight: bold;
+}
+
+.pager-title {
+  color: tint($text-color, 40%);
+  font-size: 0.8em;
 }
 
 /*
