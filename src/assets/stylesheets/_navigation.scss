@@ -39,7 +39,7 @@
 
 .pager {
   @include clearfix();
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 
   .icon {
     fill: $text-color;
