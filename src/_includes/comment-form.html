@@ -6,20 +6,20 @@
     </header>
     <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
       <div class="form-group">
-        <label for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
-        <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true"></textarea>
+        <label class="sr-only" for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
+        <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Comment (Markdown is allowed)"></textarea>
       </div>
       <div class="form-group">
-        <label for="comment-form-name"><strong>Name</strong></label>
-        <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false">
+        <label class="sr-only" for="comment-form-name"><strong>Name</strong></label>
+        <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Name">
       </div>
       <div class="form-group">
-        <label for="comment-form-email"><strong>Email</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
-        <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false">
+        <label class="sr-only" for="comment-form-email"><strong>Email address</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
+        <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="Email address (used for Gravatar image)">
       </div>
       <div class="form-group">
-        <label for="comment-form-url"><strong>Website</strong> <small>(optional)</small></label>
-        <input type="url" id="comment-form-url" name="fields[url]"/>
+        <label class="sr-only" for="comment-form-url"><strong>Website</strong> <small>(optional)</small></label>
+        <input type="url" id="comment-form-url" name="fields[url]" placeholder="Website (optional)">
       </div>
       <div class="form-group hidden" style="display: none;">
         <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
