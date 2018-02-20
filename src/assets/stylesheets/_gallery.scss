@@ -3,7 +3,7 @@
    ========================================================================== */
 
 // 2 Column Gallery
-   
+
 .gallery-2-col {
   display: grid;
   grid-gap: 0.5em;
@@ -100,6 +100,7 @@
     img {
       width: 100%;
       height: auto;
+      min-height: 100px;
       border-radius: $border-radius;
     }
   }

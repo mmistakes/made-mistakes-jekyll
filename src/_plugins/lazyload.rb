@@ -57,7 +57,7 @@ module Jekyll
       }
 
       # Output image tag with everything together
-      "\n<noscript><img src=\"#{image_source}\"></noscript>\n<img #{lqip} #{html_attr_string} class=\"lazyload blur-up\">"
+      "\n<noscript><img src=\"#{image_source}\"></noscript>\n<img #{lqip} #{html_attr_string} class=\"lazyload fade-in\">"
     end
   end
 end
