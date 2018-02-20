@@ -93,25 +93,31 @@
 .section {
   &--inverse {
     position: relative;
-    background-color: $section-dark-bg-color;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     color: #fff;
-
-    &::before {
-      @include scrimgradient("to right", $section-dark-bg-color);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      content: "";
-    }
+    background-color: $section-dark-bg-color;
 
     .inner {
       position: relative;
       z-index: 1; /* fix overlap with scrimgradient */
+    }
+
+    .section-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      &::before {
+        @include scrimgradient("to right", $section-dark-bg-color);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+      }
     }
 
     .section-title,
@@ -130,35 +136,12 @@
   }
 
   &--about {
-    $section-about-bg-color: mix(#000, #4b3624, 50%);
-
     background-color: $section-about-bg-color;
 
-    &::before {
-      @include scrimgradient("to right", $section-about-bg-color);
-    }
-
-    .section-title,
-    .section-more {
-      text-shadow: 1px 01px 1px rgba($section-about-bg-color, 0.75);
-    }
-
-    .btn {
-      color: $section-about-bg-color !important;
-
-      &:hover {
-        background-color: mix($section-about-bg-color, #fff, 10%);
+    .section-image {
+      &::before {
+        @include scrimgradient("to right", $section-about-bg-color);
       }
-    }
-  }
-
-  &--about {
-    $section-about-bg-color: mix(#000, #2a201b, 50%);
-
-    background-color: $section-about-bg-color;
-
-    &::before {
-      @include scrimgradient("to right", $section-about-bg-color);
     }
 
     .section-title,
@@ -176,13 +159,15 @@
   }
 
   &--work {
-    $section-work-bg-color: mix(#000, #6e2364, 50%);
-
     background-color: $section-work-bg-color;
 
-    &::before {
-      @include scrimgradient("to right", $section-work-bg-color);
+    .section-image {
+
+      &::before {
+        @include scrimgradient("to right", $section-work-bg-color);
+      }
     }
+
 
     .section-title,
     .section-more {
