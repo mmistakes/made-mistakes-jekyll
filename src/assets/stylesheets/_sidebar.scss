@@ -118,10 +118,25 @@
 }
 
 .sidebar-toggle-wrapper {
-  position: fixed;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
   right: 0;
+  margin: 1.8125rem 0;
+  padding-right: 1rem;
+  background-color: $background-color;
   cursor: pointer;
   z-index: 1000;
+
+  @include breakpoint($medium) {
+    right: 2rem;
+    padding-right: 0;
+  }
+
+  @include breakpoint($large) {
+    right: 5vw;
+  }
 
   .toggle-inner {
     display: flex;
@@ -130,8 +145,8 @@
 }
 
 .sidebar-toggle-label {
-  order: 2;
   margin-left: 0.5rem;
   font-family: $monospace-font-family;
   font-weight: bold;
+  color: $text-color;
 }

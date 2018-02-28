@@ -116,6 +116,9 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-typogrify
   - jekyll/figure
+  - jekyll-algolia
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 
 # Collections
 collections:
@@ -282,3 +285,23 @@ autopages:
       - "autopage_tags.html"
     title: ":tag" # :tag is replaced by the tag name
     permalink: "/tag/:tag"
+
+# Plugin: Jekyll Algolia
+algolia:
+  application_id: KT124ONH1Z
+  index_name: mademistakes
+  search_only_api_key: 5a6e106e8083321a8ccca41b11aca95c
+  nodes_to_index: "p"
+  files_to_exclude:
+    - index.html
+    - index.md
+    - excluded-file.html
+    - _pages/404.md
+    - _pages/articles.md
+    - _pages/faqs.md
+    - _pages/mastering-paper.md
+    - _pages/portraits.md
+    - _pages/sitemap.md
+    - _pages/tag.md
+    - _pages/til.md
+    - _pages/work.md
