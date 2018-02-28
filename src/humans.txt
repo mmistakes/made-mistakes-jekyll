@@ -19,3 +19,4 @@ _  ________ ____   _  ______________  _________
                 Travis CI <https://travis-ci.org>
                 SimpleIcon <http://www.flaticon.com>
                 Noun Project <https://thenounproject.com>
+                Algolia <https://www.algolia.com>
