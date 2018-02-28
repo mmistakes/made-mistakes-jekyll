@@ -1,0 +1,10 @@
+<div class="entry-related">
+  <header class="section-title">
+    <h3>Related Posts</h3>
+  </header>
+  <ul>
+  {% for related_post in site.related_posts limit: 4 %}
+    <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>

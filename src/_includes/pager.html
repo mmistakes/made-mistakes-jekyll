@@ -1,0 +1,24 @@
+<nav class="pager">
+  <ul>
+    {% if page.previous %}
+      <li>
+        <a href="{{ page.previous.url | relative_url }}" class="previous">
+          <span class="pager-label">Previous</span>
+          <span class="pager-title">
+            <svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg> {{ page.previous.title | markdownify | remove: '<p>' | remove: '</p>' }}
+          </span>
+        </a>
+      </li>
+    {% endif %}
+    {% if page.next %}
+      <li>
+        <a href="{{ page.next.url | relative_url }}" class="next">
+          <span class="pager-label">Next</span>
+          <span class="pager-title">
+            {{ page.next.title | markdownify | remove: '<p>' | remove: '</p>' }} <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
+          </span>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>

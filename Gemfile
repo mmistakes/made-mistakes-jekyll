@@ -15,4 +15,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2'
   gem 'jekyll-typogrify'
   gem 'jekyll-figure', :git => 'https://github.com/mmistakes/jekyll-figure.git'
+  gem 'jekyll-algolia'
+  gem 'jekyll-tagging-related_posts'
 end

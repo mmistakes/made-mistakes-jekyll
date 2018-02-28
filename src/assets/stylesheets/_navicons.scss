@@ -5,8 +5,8 @@
 .navicon-button {
   display: inline-block;
   position: relative;
-  margin: 0.90625rem 0;
-  padding: 0.90625rem 1rem;
+  padding: 0.90625rem 0;
+  min-height: $site-image-height;
   transition: $navicon-duration / 2;
   border: 0;
   outline: none;
@@ -17,12 +17,6 @@
 
   @include breakpoint($medium) {
     margin-right: 5vw;
-  }
-
-  &:focus {
-    border-color: $navicon-focus-color;
-    outline: none;
-    box-shadow: 0 0 10px $navicon-focus-color;
   }
 
   &.open {

@@ -1,7 +1,8 @@
-{% if site.google_analytics %}
+{% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
 {% endif %}
 
 {% assign index_js = site.data.js-manifest['index.js'] | default: 'index.js' | prepend: 'assets/javascripts/' | relative_url %}
 
 <script async src="{{ index_js }}"></script>
+{% include algolia-search-scripts.html %}
