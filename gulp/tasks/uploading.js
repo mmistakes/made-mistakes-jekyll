@@ -21,7 +21,8 @@ gulp.task('upload', () => {
       recursive: true,
       compress: true,
       clean: false,
-      chmod: 'Du=rwx,Dgo=rx,Fu=rw,Fgo=r'
+      chmod: 'Du=rwx,Dgo=rx,Fu=rw,Fgo=r',
+      silent: true
     }));
 });
 
