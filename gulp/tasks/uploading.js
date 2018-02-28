@@ -12,7 +12,7 @@ gulp.task('upload', () => {
 
   return gulp.src(paths.siteFolderName)
     .pipe(rsync({
-      // dryrun: true
+      // dryrun: true,
       root: paths.siteDir,
       hostname: credentials.hostname,
       username: credentials.username,
