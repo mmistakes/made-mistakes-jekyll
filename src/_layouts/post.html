@@ -16,11 +16,15 @@ layout: default
       {% endif %}
     </article>
 
+    {% if site.related_posts.size >= 1 %}
+      {% include related.html %}
+    {% endif %}
+
     {% if page.comments == true %}
       {% include comments.html %}
     {% endif %}
 
-    {% include pager-category.html %}
+    {% include pager.html %}
 
     {% include footer.html %}
   </div>
