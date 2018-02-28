@@ -46,6 +46,13 @@ function animateMenuItems() {
   }
 }
 
+var myWrapper = document.querySelector(".wrapper");
+var myMenu = document.querySelector(".sidebar");
+var myToggle = document.querySelector(".toggle");
+var myInitialContent = document.querySelector('.initial-content');
+var mySearchContent = document.querySelector('.search-content');
+var mySearchToggle = document.querySelector('.search-toggle');
+
 // Toggle sidebar visibility
 function toggleClassMenu() {
   myMenu.classList.add("is--animatable");
@@ -64,26 +71,27 @@ function OnTransitionEnd() {
   myMenu.classList.remove("is--animatable");
 }
 
-var myWrapper = document.querySelector(".wrapper");
-var myMenu = document.querySelector(".sidebar");
-var myToggle = document.querySelector(".toggle");
 myMenu.addEventListener("transitionend", OnTransitionEnd, false);
-myToggle.addEventListener(
-  "click",
-  function() {
-    toggleClassMenu();
-    animateMenuItems();
-  },
-  false
-);
-myMenu.addEventListener(
-  "click",
-  function() {
-    toggleClassMenu();
-    animateMenuItems();
-  },
-  false
-);
+myToggle.addEventListener("click", function() {
+  toggleClassMenu();
+  animateMenuItems();
+}, false);
+myMenu.addEventListener("click", function() {
+  toggleClassMenu();
+  animateMenuItems();
+}, false);
+mySearchToggle.addEventListener('click', function () {
+  toggleClassSearch();
+}, false);
+
+// Toggle search input and content visibility
+function toggleClassSearch() {
+  mySearchContent.classList.toggle('is--visible');
+  myInitialContent.classList.toggle('is--hidden');
+  setTimeout(function () {
+    document.querySelector('.search-content input').focus();
+  }, 400);
+}
 
 // Static comments
 (function($) {
