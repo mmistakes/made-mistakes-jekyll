@@ -19,7 +19,7 @@
     "autoprefixer": "^8.0.0",
     "browser-sync": "^2.23.6",
     "concurrent-transform": "^1.0.0",
-    "critical": "^1.1.0",
+    "critical": "^0.7.3",
     "del": "^2.2.0",
     "glob": "^7.0.6",
     "gulp": "git://github.com/gulpjs/gulp.git#4.0",
