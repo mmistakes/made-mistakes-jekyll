@@ -21,6 +21,7 @@ gulp.task('upload', () => {
       recursive: true,
       compress: true,
       clean: false,
+      archive: true,
       chmod: 'Du=rwx,Dgo=rx,Fu=rw,Fgo=r',
       // silent: true
     }));
