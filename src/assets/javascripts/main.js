@@ -67,11 +67,15 @@ function toggleClassMenu() {
   }
 }
 
-function OnTransitionEnd() {
+function MenuOnTransitionEnd() {
   myMenu.classList.remove("is--animatable");
 }
 
-myMenu.addEventListener("transitionend", OnTransitionEnd, false);
+function SearchOnTransitionEnd() {
+  mySearchContent.classList.remove("is--animatable");
+}
+
+myMenu.addEventListener("transitionend", MenuOnTransitionEnd, false);
 myToggle.addEventListener("click", function() {
   toggleClassMenu();
   animateMenuItems();
@@ -81,14 +85,21 @@ myMenu.addEventListener("click", function() {
   toggleClassMenu();
   animateMenuItems();
 }, false);
+mySearchContent.addEventListener("transitionend", SearchOnTransitionEnd, false);
 mySearchToggle.addEventListener('click', function () {
   toggleClassSearch();
 }, false);
 
 // Toggle search input and content visibility
 function toggleClassSearch() {
-  mySearchContent.classList.toggle('is--visible');
-  myInitialContent.classList.toggle('is--hidden');
+  mySearchContent.classList.add("is--animatable");
+  if (!mySearchContent.classList.contains("is--visible")) {
+    mySearchContent.classList.add('is--visible');
+    myInitialContent.classList.add('is--hidden');
+  } else {
+    mySearchContent.classList.remove('is--visible');
+    myInitialContent.classList.remove('is--hidden');
+  }
   setTimeout(function () {
     document.querySelector('.search-content input').focus();
   }, 400);

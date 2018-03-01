@@ -19,12 +19,24 @@
 }
 
 .search-content {
-  display: none;
   visibility: hidden;
+  opacity: 0;
   padding-top: 1em;
   padding-bottom: 1em;
+  transition: visibility 0s linear 0.5s, opacity 0.5s;
+
+  &.is--visible {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+
+    .inner {
+      display: block;
+    }
+  }
 
   .inner {
+    display: none;
     padding: 0 0.5rem;
 
     @include breakpoint($small) {
