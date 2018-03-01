@@ -5,10 +5,8 @@
 .site-title {
   @include fluid-type($min-vw, $max-vw, 20px, 24px);
   margin: 0;
-  padding: 1.8125rem 5vw;
-  padding-right: calc(
-    10vw + #{$navicon-width}
-  ); /* make room for sidebar toggle */
+  padding: 1.5rem 5vw;
+  padding-right: calc(10vw + (2 * #{$navicon-width})); // make room for toggles
   font-family: $headline-font-family;
   font-weight: bold;
   line-height: 1;
@@ -34,7 +32,7 @@
 .site-logo {
   display: inline-block;
   position: relative;
-  top: -0.05em; /* fine-tune alignment */
+  top: 0;
   width: $site-image-width;
   height: $site-image-height;
   margin-right: 0.5rem;

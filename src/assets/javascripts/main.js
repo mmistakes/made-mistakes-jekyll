@@ -75,6 +75,7 @@ myMenu.addEventListener("transitionend", OnTransitionEnd, false);
 myToggle.addEventListener("click", function() {
   toggleClassMenu();
   animateMenuItems();
+  mySearchToggle.classList.toggle('is--hidden');
 }, false);
 myMenu.addEventListener("click", function() {
   toggleClassMenu();

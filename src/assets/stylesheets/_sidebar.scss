@@ -123,19 +123,15 @@
   align-items: center;
   top: 0;
   right: 0;
-  margin: 1.8125rem 0;
-  padding-right: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem 5vw 0.5rem;
   background-color: $background-color;
   cursor: pointer;
   z-index: 1000;
 
   @include breakpoint($medium) {
-    right: 2rem;
-    padding-right: 0;
-  }
-
-  @include breakpoint($large) {
     right: 5vw;
+    padding-right: 0;
   }
 
   .toggle-inner {

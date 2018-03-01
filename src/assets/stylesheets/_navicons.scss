@@ -5,19 +5,15 @@
 .navicon-button {
   display: inline-block;
   position: relative;
-  padding: 0.90625rem 0;
   min-height: $site-image-height;
-  transition: $navicon-duration / 2;
+  padding: 0;
   border: 0;
   outline: none;
   background-color: $navicon-nav-bg-close;
   line-height: 5 * $navicon-height;
   cursor: pointer;
   user-select: none;
-
-  @include breakpoint($medium) {
-    margin-right: 5vw;
-  }
+  transition: $navicon-duration / 2;
 
   &.open {
     background-color: $navicon-nav-bg-open;
