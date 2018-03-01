@@ -22,6 +22,7 @@ gulp.task('site', done => {
     done();
   } else if (argv.prod) {
     shell.exec('bundle exec jekyll build');
+    shell.exec('bundle exec jekyll algolia');
     done();
   }
 });
