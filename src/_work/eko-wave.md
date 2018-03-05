@@ -12,6 +12,7 @@ tags: [design, logo, website]
 work: "Design & Development"
 ads: false
 order: 6
+last_modified_at: 2018-03-05T13:54:54-05:00
 ---
 
 [Eko Wave LLC](http://ekowave.com) is a company started by [two](http://twitter.com/endonend) [pals](http://twitter.com/bjpmba) and myself to provide value to niche consumers through well-thought-out applications.
