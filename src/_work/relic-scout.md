@@ -1,4 +1,5 @@
 ---
+published: false
 layout: page
 title: "Relic Scout"
 excerpt: "Site design and creative for Relic Scout -- an app to make collecting simpler, while saving you money."

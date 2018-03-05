@@ -12,7 +12,7 @@ image:
 tags: [watercolor, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"
-order: 3
+order: 4
 last_modified_at: 2017-04-08T22:46:16-04:00
 ---
 

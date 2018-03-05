@@ -10,7 +10,7 @@ image:
 tags: [Paper by 53, tutorial, drawing, painting, trees, grass, iPad]
 ---
 
-Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [Relic Scout]({% link _work/relic-scout.md %}), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
+Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [**Relic Scout**](https://relicscout.com/), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
 
 ## Drawing Trees
 

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: page
 title: "Eko Wave"
 excerpt: "Site design and creative for Eko Wave — a team of three specializing in niche applications."

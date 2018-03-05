@@ -11,7 +11,7 @@ image:
   teaser: /assets/images/jekyll-themes-teaser.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
-order: 4
+order: 1
 comments: false
 comments_locked: true
 support: true
