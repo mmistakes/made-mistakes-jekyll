@@ -3,11 +3,11 @@
    ========================================================================== */
 
 .component {
-  margin-bottom: 1em;
   background-color: #fff;
-  padding: 1em;
   border-radius: $border-radius;
   border: 1px solid $border-color;
+  margin-bottom: 1em;
+  padding: 1em;
 
   div.highlighter-rouge,
   figure.highlight {
@@ -22,8 +22,8 @@
   }
 
   p {
-    margin-top: 0;
     font-size: 0.8rem;
+    margin-top: 0;
 
     a {
       border-bottom-width: 0;
@@ -38,8 +38,8 @@
 .component__rendered {
   &--color {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 
     @include breakpoint($medium) {
       flex-wrap: nowrap;
@@ -49,16 +49,16 @@
 
 .component__code {
   clear: both;
-  position: relative;
   padding-top: 3em;
+  position: relative;
 
   &:before {
     content: "HTML";
-    position: absolute;
-    top: 1.5em;
     font-size: 0.8rem;
     font-weight: bold;
+    position: absolute;
     text-transform: uppercase;
+    top: 1.5em;
   }
 }
 
@@ -67,26 +67,26 @@
    ========================================================================== */
 
 .color__tile {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  width: 98%;
-  height: 100px;
-  text-align: center;
   border-radius: $border-radius;
   border: 1px solid $border-color;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  text-align: center;
+  width: 98%;
 }
 
 .color__name {
-  font-size: 0.64rem;
+  background-color: #e3e3e3;
   color: $text-color;
-  white-space: nowrap;
+  font-size: 0.64rem;
   margin: 0 2px;
   padding: 0 5px;
-  background-color: #e3e3e3;
   white-space: normal;
+  white-space: nowrap;
 }
 
 /*

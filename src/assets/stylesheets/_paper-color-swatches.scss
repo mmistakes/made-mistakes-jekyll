@@ -3,15 +3,15 @@
    ========================================================================== */
 
 .palette {
-  width: 100%;
-  margin-bottom: 1em;
-  border-radius: 10px;
   background: #171716 url("../images/paper-53-palette-bk.png");
+  border-radius: 10px;
+  margin-bottom: 1em;
+  width: 100%;
 
   &__row {
-    width: 100%;
     padding: 0.25em 0;
     text-align: center;
+    width: 100%;
 
     a {
       margin: 0.25em;
@@ -28,15 +28,15 @@
   }
 
   &__swatch {
-    width: 60px;
+    border-radius: 50%;
+    border: 3px solid #000;
     height: 60px;
     margin: 0 auto;
-    border: 3px solid #000;
-    border-radius: 50%;
+    width: 60px;
 
     @include breakpoint($medium) {
-      width: 110px;
       height: 110px;
+      width: 110px;
     }
 
     &:hover {

@@ -3,36 +3,36 @@
    ========================================================================== */
 
 .toc {
-  margin: 2em 0 1.5em 0;
   font-family: $monospace-font-family;
+  margin: 2em 0 1.5em 0;
 
   input[type="checkbox"] {
     display: none;
   }
 
   label {
-    display: inline-block;
-    position: relative;
-    padding: 1em 1em 1em 2.5em;
-    transition: 0.2s ease-out;
-    border: 0.125em solid #ccc;
     border-radius: $border-radius;
+    border: 0.125em solid #ccc;
+    cursor: pointer;
+    display: inline-block;
     font-weight: 700;
     line-height: 1;
-    cursor: pointer;
+    padding: 1em 1em 1em 2.5em;
+    position: relative;
+    transition: 0.2s ease-out;
     z-index: 6;
 
     &::before,
     &::after {
+      background-color: #333;
+      content: "";
+      height: 0.125em;
+      left: 1em;
+      line-height: 1;
       position: absolute;
       top: 1.375em;
-      left: 1em;
-      width: 0.75em;
-      height: 0.125em;
       transition: $global-transition;
-      background-color: #333;
-      line-height: 1;
-      content: "";
+      width: 0.75em;
     }
 
     &::after {
@@ -66,9 +66,9 @@
 }
 
 .toc__menu > ul {
-  padding: 0;
-  list-style-type: none;
   counter-reset: section;
+  list-style-type: none;
+  padding: 0;
 
   li {
     display: block;
@@ -85,28 +85,28 @@
   }
 
   > li {
-    padding-top: 1em;
     counter-increment: section;
     font-weight: 700;
+    padding-top: 1em;
 
     &::before {
       content: counter(section) ". ";
     }
 
     &:not(:last-child) {
-      padding-bottom: 1em;
       border-bottom: 1px solid #ccc;
+      padding-bottom: 1em;
     }
 
     > ul {
-      padding-top: 1em;
       padding-left: 1em;
+      padding-top: 1em;
     }
   }
 
   ul {
-    list-style-type: none;
     counter-reset: subsection;
+    list-style-type: none;
 
     > li {
       counter-increment: subsection;
@@ -119,21 +119,21 @@
 }
 
 .toc .toc__menu {
-  position: relative;
-  max-height: 0;
-  margin: 0;
-  transform: translate(0, 10%);
-  transition: 0.3s ease-in-out;
   font-size: 0.8em;
+  margin: 0;
+  max-height: 0;
   opacity: 0;
   overflow: hidden;
+  position: relative;
+  transform: translate(0, 10%);
+  transition: 0.3s ease-in-out;
   z-index: 5;
 }
 
 .toc input:checked ~ .toc__menu {
-  max-height: 100vh;
   margin-top: 1em;
+  max-height: 100vh;
+  opacity: 1;
   transform: translate(0, 0);
   transition: 0.5s ease-in-out;
-  opacity: 1;
 }

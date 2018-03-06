@@ -23,30 +23,30 @@
 @import "forms";
 
 /* Components */
-@import "global";
-@import "sidebar";
-@import "navigation";
-@import "footer";
-@import "entries";
+@import "animations";
 @import "buttons";
+@import "comments";
+@import "contact-lists";
+@import "entries";
+@import "footer";
+@import "gallery";
+@import "global";
+@import "google-search";
 @import "icons";
 @import "intro";
 @import "navicons";
+@import "navigation";
 @import "notices";
-// @import 'toc';
-@import "contact-lists";
-@import "syntax-highlighting";
-@import "responsive-embed";
-@import "comments";
-@import "gallery";
-// @import "thumbnail-grids";
-@import "sections";
 @import "paper-color-swatches";
-@import "animations";
+@import "responsive-embed";
 @import "review-box";
-@import "style-guide";
 @import "search";
-@import "google-search";
+@import "sections";
+@import "sidebar";
+@import "style-guide";
+@import "syntax-highlighting";
+// @import "toc";
+// @import "thumbnail-grids";
 
 /* Utility classes */
 @import "utilities";

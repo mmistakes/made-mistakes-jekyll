@@ -3,18 +3,18 @@
    ========================================================================== */
 
 .btn {
-  display: inline-block;
-  padding: 0.5em 1em;
-  border: 0;
-  border-radius: $border-radius;
   background-color: $accent-color;
+  border-radius: $border-radius;
+  border: 0;
   color: #fff;
+  cursor: pointer;
+  display: inline-block;
   font-family: $monospace-font-family;
   font-weight: bold;
   line-height: 1.5;
+  padding: 0.5em 1em;
   text-align: center;
   text-decoration: none;
-  cursor: pointer;
 
   &:hover {
     background-color: tint($accent-color, 20%);
@@ -69,20 +69,20 @@
 
   /* for dark backgrounds */
   &--inverse {
-    outline: 0.125em solid #000;
     background-color: #fff;
     color: #000 !important;
+    outline: 0.125em solid #000;
 
     &:hover {
-      outline: 0.125em solid #000;
       background-color: mix(#000, #fff, 10%);
+      outline: 0.125em solid #000;
     }
   }
 
   /* light outline */
   &--light-outline {
-    border: 1px solid #fff !important; // override
     background-color: transparent;
+    border: 1px solid #fff !important; // override
   }
 
   /* information */
@@ -123,10 +123,10 @@
 
   /* disabled */
   &--disabled {
-    pointer-events: none;
     box-shadow: none;
     cursor: not-allowed;
     opacity: 0.65;
+    pointer-events: none;
   }
 
   /* social buttons */

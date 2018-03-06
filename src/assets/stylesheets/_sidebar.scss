@@ -3,51 +3,51 @@
    ========================================================================== */
 
 .sidebar {
+  font-family: $headline-font-family;
+  height: 100%;
+  left: 0;
+  max-width: $sidebar-width;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  max-width: $sidebar-width;
-  height: 100%;
-  z-index: 50;
-  font-family: $headline-font-family;
-  visibility: hidden;
   transition: visibility 0s 0.3s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 50;
 
   @include breakpoint($large) {
     max-width: (1.5 * $sidebar-width);
   }
 
   &.is--visible {
-    visibility: visible;
     transition: visibility 0s 0s;
+    visibility: visible;
   }
 
   li {
+    opacity: 0;
     transform: translateX(-1rem);
     transition: all 0.5s;
-    opacity: 0;
 
     &.is--moved {
-      transform: translateX(0);
       opacity: 1;
+      transform: translateX(0);
     }
 
     /* line hover effect */
     a {
-      position: relative;
       color: mix($base-color, #fff, 40%);
+      position: relative;
 
       &::before {
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: -3rem;
-        width: 0;
-        height: 1px;
-        transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
         background-color: #fff;
         content: "";
+        display: block;
+        height: 1px;
+        left: -3rem;
+        position: absolute;
+        top: 50%;
+        transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
+        width: 0;
       }
 
       &:hover {
@@ -61,12 +61,12 @@
   }
 
   > .inner {
-    width: 100%;
-    height: 100%;
-    padding: 1.5em;
     background-color: $sidebar-background-color;
-    overflow-x: hidden;
     box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
+    height: 100%;
+    overflow-x: hidden;
+    padding: 1.5em;
+    width: 100%;
 
     @include breakpoint($medium) {
       padding: 3rem;
@@ -75,11 +75,11 @@
 
   .menu {
     @include fluid-type($min-vw, $max-vw, 20px, 32px);
-    position: relative;
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
     font-weight: bold;
     line-height: 1;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
 
     a {
       display: block;
@@ -87,12 +87,12 @@
 
     /* divider line */
     &::after {
-      position: absolute;
-      bottom: 0;
-      width: 1.5em;
-      height: 1px;
       background-color: mix($base-color, #fff, 40%);
+      bottom: 0;
       content: "";
+      height: 1px;
+      position: absolute;
+      width: 1.5em;
     }
 
     li {
@@ -110,39 +110,39 @@
     }
 
     a {
-      display: block;
       color: mix($base-color, #fff, 40%);
+      display: block;
       text-decoration: none;
     }
   }
 }
 
 .sidebar-toggle-wrapper {
-  position: absolute;
-  display: flex;
   align-items: center;
-  top: 0;
-  right: 0;
-  margin: 1rem 0;
-  padding: 0.5rem 5vw 0.5rem;
   background-color: $background-color;
   cursor: pointer;
+  display: flex;
+  margin: 1rem 0;
+  padding: 0.5rem 5vw 0.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
   z-index: 1000;
 
   @include breakpoint($medium) {
-    right: 5vw;
     padding-right: 0;
+    right: 5vw;
   }
 
   .toggle-inner {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 }
 
 .sidebar-toggle-label {
-  margin-left: 0.5rem;
+  color: $text-color;
   font-family: $monospace-font-family;
   font-weight: bold;
-  color: $text-color;
+  margin-left: 0.5rem;
 }

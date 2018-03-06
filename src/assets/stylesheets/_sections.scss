@@ -7,12 +7,12 @@
 }
 
 .section {
-  margin: 0;
   background-color: $section-bg-color;
+  margin: 0;
 
   .inner {
-    padding: 10vh 5vw;
     max-width: 80%;
+    padding: 10vh 5vw;
 
     @include breakpoint($medium) {
       max-width: 60%;
@@ -57,8 +57,8 @@
 
 .section-title {
   @include fluid-type($min-vw, $max-vw, 22px, 60px);
-  margin-bottom: 1rem;
   line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .section-subtitle {
@@ -92,9 +92,9 @@
 
 .section {
   &--inverse {
-    position: relative;
-    color: #fff;
     background-color: $section-dark-bg-color;
+    color: #fff;
+    position: relative;
 
     .inner {
       position: relative;
@@ -102,21 +102,21 @@
     }
 
     .section-image {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
       position: absolute;
       width: 100%;
-      height: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
 
       &::before {
         @include scrimgradient("to right", $section-dark-bg-color);
+        content: "";
+        height: 100%;
+        left: 0;
         position: absolute;
         top: 0;
-        left: 0;
         width: 100%;
-        height: 100%;
-        content: "";
       }
     }
 

@@ -4,14 +4,14 @@
 
 .intro {
   margin: 1rem 0 0;
-  padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .intro-image {
-  position: relative;
-  margin-top: -3rem; /* compensate for intro top margin */
   margin-bottom: 3rem;
+  margin-top: -3rem; // compensate for intro top margin
+  position: relative;
 
   img {
     width: 100%;
@@ -27,9 +27,9 @@
 
 .intro-title {
   @include fluid-type($min-vw, $max-vw, 26px, 80px);
-  margin-bottom: 1rem;
   color: tint($text-color, 25%);
   line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .intro-subtitle {
@@ -59,21 +59,21 @@
 
 .intro {
   &.cover {
-    position: relative;
-    overflow: hidden;
-    margin-top: 0;
     margin-bottom: 2rem;
+    margin-top: 0;
+    overflow: hidden;
     padding-top: 2rem;
+    position: relative;
     text-shadow: 1px 01px 1px rgba($text-color, 0.75);
 
     &::before {
       @include scrimgradient("to right", $text-color);
+      content: "";
+      height: 100%;
+      left: 0;
       position: absolute;
       top: 0;
-      left: 0;
       width: 100%;
-      height: 100%;
-      content: "";
       z-index: 5;
     }
 
@@ -92,29 +92,29 @@
     }
 
     .intro-image {
-      position: absolute;
-      top: 0;
-      right: 0;
       bottom: 0;
       left: 0;
-      margin-top: 0;
       margin-bottom: 0;
+      margin-top: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
 
       img {
         display: block;
+        font-family: "object-fit: cover"; // lazysizes object fit polyfill
+        height: 100%;
+        left: 0;
+        object-fit: cover;
         position: absolute;
         top: 0;
-        left: 0;
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        font-family: "object-fit: cover"; // lazysizes object fit polyfill
       }
     }
 
     .intro-text {
-      position: relative;
       color: #fff;
+      position: relative;
     }
 
     .entry-meta .icon {

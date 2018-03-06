@@ -3,10 +3,10 @@
    ========================================================================== */
 
 .comment {
-  position: relative;
+  font-size: 0.8em;
   margin-bottom: 4em;
   padding-left: 4.5em;
-  font-size: 0.8em;
+  position: relative;
 
   // comment replies
   &.child {
@@ -64,30 +64,30 @@
 }
 
 .comment-avatar {
+  height: 3.25em;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 3.25em;
-  height: 3.25em;
 
   &::after {
-    position: absolute;
-    right: 0.5em;
-    bottom: 0.5em;
-    width: 3.25em;
-    height: 3.25em;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
     background-size: 5px 5px;
+    bottom: 0.5em;
     content: "";
+    height: 3.25em;
+    position: absolute;
+    right: 0.5em;
+    width: 3.25em;
     z-index: -1;
   }
 }
 
 .comment-author-name {
   display: inline-block;
-  margin: 0 0 0.25em;
   font-size: 1.25em;
   line-height: 1;
+  margin: 0 0 0.25em;
 
   a {
     color: inherit;

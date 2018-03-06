@@ -15,40 +15,6 @@
  *
  */
 
-
-// .th-grid {
-//   @include clearfix();
-//   padding-left: 0; // reset
-
-//   @supports (display: flex) {
-//     display: flex;
-//     flex-wrap: wrap;
-//   }
-
-//   li {
-//     float: left;
-//     flex: auto;
-//     margin: 0.25em;
-//     width: 100px;
-//     max-width: 150px;
-//     list-style: none;
-
-//     @supports (display: flex) {
-//       float: none;
-//     }
-
-//     a {
-//       display: block;
-//     }
-//   }
-
-//   img {
-//     width: 100%;
-//     height: auto;
-//     border-radius: $border-radius;
-//   }
-// }
-
 /* list override */
 .list .th-grid a {
   margin-right: initial;

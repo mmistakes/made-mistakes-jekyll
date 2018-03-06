@@ -8,26 +8,26 @@
   }
 
   * {
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
   }
 
   html {
+    font-size: 16px;
     margin: 0;
     padding: 0;
-    font-size: 16px;
   }
 
   body {
-    margin: 0 auto;
     background: #fff !important;
     color: #000 !important;
     font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    text-rendering: optimizeLegibility;
   }
 
   h1,
@@ -36,10 +36,10 @@
   h4,
   h5,
   h6 {
-    margin-top: 0;
-    margin-bottom: 0.75rem;
     color: #000;
     line-height: 1.2;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
   }
 
   h1 {
@@ -93,18 +93,17 @@
   }
 
   img {
+    border: 0;
     display: block;
     max-width: 100% !important;
-    border: 0;
-    vertical-align: middle;
   }
 
   hr {
+    border: 0;
+    border-bottom: 2px solid #bbb;
     height: 0;
     margin: 2.25rem 0;
     padding: 0;
-    border: 0;
-    border-bottom: 2px solid #bbb;
   }
 
   dt {
@@ -175,8 +174,8 @@
   a[href^="http://"]::after,
   a[href^="https://"]::after,
   a[href^="ftp://"]::after {
-    font-size: 80%;
     content: " (" attr(href) ")";
+    font-size: 80%;
   }
 
   abbr[title]::after,

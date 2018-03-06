@@ -2,12 +2,12 @@
    Gallery
    ========================================================================== */
 
-// 2 Column Gallery
+/* 2 Column Gallery */
 
 .gallery-2-col {
+  align-items: stretch;
   display: grid;
   grid-gap: 0.5em;
-  align-items: stretch;
   justify-items: center;
 
   @include breakpoint($small) {
@@ -15,17 +15,17 @@
   }
 
   figcaption {
-    width: 100%;
     grid-column: 1 / -1;
+    width: 100%;
   }
 }
 
-// 3 Column Gallery
+/* 3 Column Gallery */
 
 .gallery-3-col {
+  align-items: stretch;
   display: grid;
   grid-gap: 0.5em;
-  align-items: stretch;
   justify-items: center;
 
   @include breakpoint($small) {
@@ -38,11 +38,11 @@
   }
 }
 
-// Vertical Gallery
+/* Vertical Gallery */
 
 .gallery-vertical {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-bottom: 1.5rem;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
@@ -53,18 +53,18 @@
   }
 
   .gallery-img {
-    padding: 0 1em 1em 1em;
-    max-width: ($small - ($small * 0.25 + 0px));
     flex-shrink: 0;
+    max-width: ($small - ($small * 0.25 + 0px));
+    padding: 0 1em 1em 1em;
 
     @include breakpoint($medium) {
       max-width: ($medium - ($medium * 0.45 + 0px));
     }
 
     @include breakpoint($large) {
-      max-width: ($large - ($large * 0.5 + 0px));
-      flex-shrink: 1;
       flex-basis: calc(100% / 3);
+      flex-shrink: 1;
+      max-width: ($large - ($large * 0.5 + 0px));
     }
 
     img {
@@ -85,9 +85,9 @@
 
   li {
     float: left;
-    width: 100px;
-    margin: 0.25em;
     list-style: none;
+    margin: 0.25em;
+    width: 100px;
 
     @supports (display: grid) {
       margin: 0;
@@ -98,10 +98,10 @@
     }
 
     img {
-      width: 100%;
+      border-radius: $border-radius;
       height: auto;
       min-height: 100px;
-      border-radius: $border-radius;
+      width: 100%;
     }
   }
 }

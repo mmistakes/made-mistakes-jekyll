@@ -4,8 +4,8 @@
 
 table {
   @include fluid-type($min-vw, $max-vw, 12px, 18px);
-  width: 100%;
   border-collapse: collapse;
+  width: 100%;
   /* For Firefox to horizontally scroll wider tables */
   // scss-lint:disable DuplicateProperty
   word-break: normal;
@@ -23,8 +23,8 @@ tr:not(:last-child) {
 }
 
 th {
-  padding: 0.5em;
   font-weight: bold;
+  padding: 0.5em;
   text-align: left;
 }
 

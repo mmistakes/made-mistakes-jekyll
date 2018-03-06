@@ -4,13 +4,13 @@
 
 .icon {
   display: inline-block;
-  position: relative;
-  top: -0.125em; /* fine-tune alignment */
-  width: 1em;
+  fill: currentColor;
   height: 1em;
   line-height: 1;
+  position: relative;
+  top: -0.125em; // fine-tune alignment
   vertical-align: middle;
-  fill: currentColor;
+  width: 1em;
 
   &.spin {
     animation: spin 2s infinite linear;
@@ -41,9 +41,9 @@
 }
 
 .emoji {
-  width: 1em;
-  max-width: 20px;
   height: 1em;
-  max-height: 20px;
   margin: 0;
+  max-height: 20px;
+  max-width: 20px;
+  width: 1em;
 }

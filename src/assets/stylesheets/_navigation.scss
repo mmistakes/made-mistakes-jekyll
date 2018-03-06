@@ -4,7 +4,6 @@
 
 .menu {
   @include list-unstyled;
-
   font-weight: 700;
 
   &--title {
@@ -62,8 +61,8 @@
       margin-top: 0.125em;
 
       @include breakpoint($medium) {
-        margin-top: 0;
         margin-left: 0.125em;
+        margin-top: 0;
       }
     }
   }
@@ -111,10 +110,10 @@
 
 .breadcrumbs {
   @include list-unstyled();
-  margin-bottom: 1.5rem;
-  padding-right: 5vw;
-  padding-left: 5vw;
   font-family: $monospace-font-family;
+  margin-bottom: 1.5rem;
+  padding-left: 5vw;
+  padding-right: 5vw;
 
   a {
     color: $text-color;
@@ -134,16 +133,16 @@
   display: none;
 
   @include breakpoint($medium) {
-    display: block;
-    flex-shrink: 0;
-    order: initial;
     align-self: flex-start;
-    margin-right: 5vw;
-    padding: 1em;
     background-color: $text-color;
     border-radius: $border-radius;
     color: #fff;
+    display: block;
+    flex-shrink: 0;
     font-size: 0.8em;
+    margin-right: 5vw;
+    order: initial;
+    padding: 1em;
   }
 
   .menu {

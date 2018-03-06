@@ -3,12 +3,12 @@
    ========================================================================== */
 
 .review__wrapper {
-  position: relative;
+  background-color: #000;
+  border-radius: $border-radius;
+  color: #fff;
   margin-bottom: 1.5rem;
   padding: 20px;
-  border-radius: $border-radius;
-  background-color: #000;
-  color: #fff;
+  position: relative;
 
   a {
     color: $text-color;
@@ -16,10 +16,10 @@
 }
 
 h5.review__title {
-  margin: 0;
   color: #fff;
   font-size: 1.563rem;
   font-weight: bold;
+  margin: 0;
 }
 
 .review__title-summary {
@@ -28,18 +28,18 @@ h5.review__title {
 }
 
 .review__list {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 
   li {
+    border-bottom: 1px solid #fff;
     display: flex;
+    font-weight: bold;
     justify-content: space-between;
+    list-style: none;
     margin: 0;
     padding: 10px 0;
-    border-bottom: 1px solid #fff;
-    font-weight: bold;
-    list-style: none;
   }
 }
 

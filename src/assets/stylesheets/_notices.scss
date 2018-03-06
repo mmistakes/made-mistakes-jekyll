@@ -11,19 +11,19 @@
  */
 
 @mixin notice($notice-color) {
-  margin: 2em 0;
-  padding: 1em;
   background-color: mix(#fff, $notice-color, 90%);
   border-left: 0.25em solid mix(#fff, $notice-color, 50%);
+  margin: 2em 0;
+  padding: 1em;
 
   h2,
   h3,
   h4,
   h5,
   h6 {
-    margin-top: 0 !important; // override
-    margin-bottom: 0.75em;
     line-height: 1 !important; // override
+    margin-bottom: 0.75em;
+    margin-top: 0 !important; // override
   }
 
   @at-root .page-content #{&} a {

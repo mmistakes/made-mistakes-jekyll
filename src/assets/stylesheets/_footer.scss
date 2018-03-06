@@ -3,9 +3,9 @@
    ========================================================================== */
 
 .site-footer {
-  margin-top: 4rem;
   color: tint($text-color, 40%);
   font-size: 80%;
+  margin-top: 4rem;
 
   .menu {
     display: flex;
@@ -25,8 +25,8 @@
 
       a {
         display: block;
-        padding-right: 2em;
         padding-bottom: 1em;
+        padding-right: 2em;
 
         @include breakpoint($large) {
           padding-bottom: 0.5em;

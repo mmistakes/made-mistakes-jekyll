@@ -7,9 +7,9 @@ html {
 }
 
 body {
-  display: flex;
   background: $background-color;
   color: $text-color;
+  display: flex;
 }
 
 blockquote,
@@ -23,8 +23,8 @@ q {
     font-weight: bold;
 
     &::before {
-      padding-right: 0.25rem;
       content: "\2014";
+      padding-right: 0.25rem;
     }
   }
 }
@@ -37,14 +37,14 @@ pre {
 }
 
 kbd {
+  background-color: rgb(247, 247, 247);
+  border-radius: 3px;
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #fff;
   display: inline-block;
   margin: 0 0.125em;
   padding: 0.125em 0.5em;
-  border: 1px solid rgb(204, 204, 204);
-  border-radius: 3px;
-  background-color: rgb(247, 247, 247);
   text-shadow: 0 1px 0 #fff;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #fff;
 }
 
 h1,
@@ -98,12 +98,12 @@ pre {
 }
 
 figure {
-  margin-right: 0;
   margin-left: 0;
+  margin-right: 0;
 
   > p {
-    width: 100%;
     margin-bottom: 0;
+    width: 100%;
   }
 
   > img {
@@ -112,8 +112,8 @@ figure {
 }
 
 figcaption {
-  margin: 0.5rem 0;
   font-size: 80%;
+  margin: 0.5rem 0;
 }
 
 a {

@@ -9,9 +9,9 @@ select {
 }
 
 label {
-  margin-bottom: 0.5em;
   font-family: $monospace-font-family;
   font-size: 0.8em;
+  margin-bottom: 0.5em;
 
   &.required::after {
     content: "*";
@@ -26,19 +26,19 @@ input,
 textarea,
 select,
 select[multiple="multiple"] {
+  background-color: #fff;
+  border-color: $form-border-color;
+  border-radius: $form-border-radius;
+  border-style: solid;
+  border-width: 1px 1px 4px 1px;
+  box-shadow: $form-box-shadow;
   box-sizing: border-box;
-  width: 100%;
+  font-family: $form-font-family;
+  font-size: $form-font-size;
   margin-bottom: 0.25em;
   padding: 0.75em;
   transition: border-color;
-  border-color: $form-border-color;
-  border-style: solid;
-  border-width: 1px 1px 4px 1px;
-  border-radius: $form-border-radius;
-  background-color: #fff;
-  font-family: $form-font-family;
-  font-size: $form-font-size;
-  box-shadow: $form-box-shadow;
+  width: 100%;
 
   &:hover {
     border-color: $form-border-color-hover;
@@ -46,8 +46,8 @@ select[multiple="multiple"] {
 
   &:focus {
     border-color: $form-border-color-focus;
-    outline: none;
     box-shadow: $form-box-shadow-focus;
+    outline: none;
   }
 }
 
@@ -61,9 +61,9 @@ input[type="search"] {
 
 input[type="checkbox"],
 input[type="radio"] {
-  display: inline;
-  width: initial;
+  display: inline-block;
   margin-right: 0.5em;
+  width: initial;
 }
 
 input[type="file"] {
@@ -71,27 +71,27 @@ input[type="file"] {
 }
 
 select {
-  width: auto;
   max-width: 100%;
+  width: auto;
 }
 
 form button,
 form .btn,
 input[type="submit"] {
-  margin: 1em 0;
   appearance: none;
-  user-select: none;
-  white-space: nowrap;
   cursor: pointer;
+  margin: 1em 0;
+  user-select: none;
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 form {
   ul,
   ol,
   li {
-    padding-left: 0;
     list-style-type: none;
+    padding-left: 0;
   }
 }
 

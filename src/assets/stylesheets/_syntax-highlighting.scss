@@ -17,21 +17,21 @@
 
 div.highlighter-rouge,
 figure.highlight {
-  position: relative;
-  margin-right: -5vw;
-  margin-left: -5vw;
-  margin-bottom: 1em;
-  padding: 1em 5vw;
   background: $base00;
   color: $base05;
   font-family: $monospace-font-family;
   line-height: 1.8;
+  margin-bottom: 1em;
+  margin-left: -5vw;
+  margin-right: -5vw;
+  padding: 1em 5vw;
+  position: relative;
 
   @include breakpoint($large) {
-    margin-right: 0;
     margin-left: 0;
-    padding-right: 1em;
+    margin-right: 0;
     padding-left: 1em;
+    padding-right: 1em;
   }
 
   > pre,
@@ -41,22 +41,22 @@ figure.highlight {
 }
 
 .highlight table {
-  margin-bottom: 0;
-  font-size: 1em;
   border: 0;
+  font-size: 1em;
+  margin-bottom: 0;
 
   td {
+    border: 0;
     padding: 0;
     width: calc(100% - 1em);
-    border: 0;
 
     /* line numbers*/
     &.gutter {
-      padding-right: 1em;
-      width: 1em;
-      color: $base04;
       border-right: 1px solid $base04;
+      color: $base04;
+      padding-right: 1em;
       text-align: right;
+      width: 1em;
     }
 
     /* code */
@@ -341,35 +341,35 @@ $terminal-window-height: 30px;
 div.highlighter-rouge.language-shell_session,
 div.highlighter-rouge.language-terminal,
 div.highlighter-rouge.language-console {
-  position: relative;
+  background-color: $base-color;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
   margin-bottom: 1.5em;
   padding: calc(#{$terminal-window-height} + 1em) 1em 1em;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
-  background-color: $base-color;
+  position: relative;
 
   &::before {
-    content: "\2022 \2022 \2022";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: $terminal-window-height;
-    margin: 0;
-    padding: (0.5 * $terminal-window-height) 0;
     background: mix($base-color, #fff, 25%);
     color: mix($base-color, #fff, 50%);
+    content: "\2022 \2022 \2022";
     font-size: (2 * $terminal-window-height);
+    height: $terminal-window-height;
+    left: 0;
     line-height: 0;
+    margin: 0;
+    padding: (0.5 * $terminal-window-height) 0;
+    position: absolute;
     text-indent: (0.5 * $terminal-window-height);
+    top: 0;
+    width: 100%;
   }
 
   .highlight {
-    margin: 0;
-    padding: 0;
     background-color: initial;
     color: #fff;
+    margin: 0;
+    padding: 0;
 
     .go {
       color: #fff;

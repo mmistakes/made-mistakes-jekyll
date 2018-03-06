@@ -16,52 +16,52 @@
 
 /* sidebar ad */
 .adsense--sidebar {
-  width: 320px;
-  height: 100px;
   border-bottom: 0 solid transparent;
+  height: 100px;
+  width: 320px;
 
   @media (min-width: 500px) and (max-width: $medium-wide) {
-    width: 468px;
     height: 60px;
+    width: 468px;
   }
 
   @include breakpoint($medium-wide) {
-    width: 120px;
     height: 600px;
+    width: 120px;
   }
 
   @media (min-width: 1025px) {
-    width: 300px;
     height: 250px;
+    width: 300px;
   }
 }
 
 /* footer ad */
 .adsense--footer {
-  width: 300px;
-  height: 250px;
-  margin-top: 2em;
-  margin-bottom: 2em;
   border-bottom: 0 solid transparent;
+  height: 250px;
+  margin-bottom: 2em;
+  margin-top: 2em;
   text-align: center;
+  width: 300px;
 
   @include breakpoint($small) {
-    margin-right: 2em;
     margin-left: 2em;
+    margin-right: 2em;
   }
 
   @include breakpoint($x-large) {
-    margin-right: 3em;
     margin-left: 3em;
+    margin-right: 3em;
   }
 
   @media (min-width: 500px) and (max-width: $medium-wide) {
-    width: 468px;
     height: 60px;
+    width: 468px;
   }
 
   @include breakpoint($medium-wide) {
-    width: 728px;
     height: 90px;
+    width: 728px;
   }
 }

@@ -3,32 +3,32 @@
    ========================================================================== */
 
 .search-toggle {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
   margin-left: 1rem;
   margin-right: 1rem;
-  border: 0;
   outline: none;
-  background-color: transparent;
-  cursor: pointer;
   transition: 0.2s;
 
   .icon {
     @include fluid-type($min-vw, $max-vw, 20px, 24px);
-    top: 0;
     fill: $navicon-content-bg;
+    top: 0;
   }
 }
 
 .search-content {
-  visibility: hidden;
   opacity: 0;
-  padding-top: 1em;
   padding-bottom: 1em;
+  padding-top: 1em;
   transition: visibility 0s linear 0.5s, opacity 0.5s;
+  visibility: hidden;
 
   &.is--visible {
-    visibility: visible;
     opacity: 1;
     transition-delay: 0s;
+    visibility: visible;
 
     .inner {
       display: block;
@@ -40,23 +40,23 @@
     padding: 0 0.5rem;
 
     @include breakpoint($small) {
-      padding-right: 1rem;
       padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     @include breakpoint($medium) {
-      padding-right: 2rem;
       padding-left: 2rem;
+      padding-right: 2rem;
     }
 
     @include breakpoint($large) {
-      padding-right: 3rem;
       padding-left: 3rem;
+      padding-right: 3rem;
     }
 
     @include breakpoint($xlarge) {
-      padding-right: 4rem;
       padding-left: 4rem;
+      padding-right: 4rem;
     }
   }
 
@@ -67,14 +67,14 @@
   }
 
   .search-input {
+    @include fluid-type($min-vw, $max-vw, 24px, 32px);
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
     display: block;
     margin-bottom: 0;
-    padding: 0;
-    border: none;
     outline: none;
-    box-shadow: none;
-    background-color: transparent;
-    @include fluid-type($min-vw, $max-vw, 24px, 32px);
+    padding: 0;
   }
 
   &.is--visible::after {
@@ -96,8 +96,8 @@
 }
 
 .ais-search-box {
-  max-width: 100% !important;
   margin-bottom: 2em;
+  max-width: 100% !important;
 }
 
 .entry-title .ais-Highlight {
