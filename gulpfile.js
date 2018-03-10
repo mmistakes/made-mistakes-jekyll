@@ -30,7 +30,7 @@ gulp.task('build', gulp.series('clean', 'assets', 'build:site', 'html', 'xml'));
 gulp.task('critical', gulp.series('styles:critical:home', 'styles:critical:archive', 'styles:critical:post'));
 
 // 'gulp deploy' -- deploy site to production and submit sitemap XML
-gulp.task('deploy', gulp.series('upload', 'submit:sitemap'));
+gulp.task('deploy', gulp.series('upload', 'submit:sitemap', 'site:search'));
 
 // 'gulp rebuild' -- WARNING: removes all assets, images, and built site
 gulp.task('rebuild', gulp.series('clean', 'clean:images'));
