@@ -21,6 +21,7 @@ gulp.task('site', done => {
     shell.exec('bundle exec jekyll build --config _config.yml,_config.dev.yml');
     done();
   } else if (argv.prod) {
+    shell.exec('bundle exec jekyll algolia');
     shell.exec('bundle exec jekyll build');
     done();
   }
@@ -30,11 +31,5 @@ gulp.task('site', done => {
 gulp.task('site:check', done => {
   shell.exec('gulp build --prod');
   shell.exec('bundle exec rake test');
-  done();
-});
-
-// 'gulp site:search' -- builds Algolia search index
-gulp.task('site:search', done => {
-  shell.exec('bundle exec jekyll algolia');
   done();
 });
