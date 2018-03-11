@@ -22,7 +22,7 @@ gulp.task('upload', () => {
       compress: true,
       clean: false,
       chmod: 'Du=rwx,Dgo=rx,Fu=rw,Fgo=r',
-      silent: false
+      silent: true
     }));
 });
 
