@@ -4,7 +4,7 @@
   </header>
   <ul>
   {% for related_post in site.related_posts limit: 4 %}
-    <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+    <li><a href="{{ related_post.url }}">{{ related_post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
   {% endfor %}
   </ul>
 </div>
