@@ -36,11 +36,10 @@
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
+{% assign replies = site.data.comments[page.slug] | where_exp: 'comment', 'comment.replying_to == i' %}
 {% for reply in replies %}
   {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
-  {% assign r           = reply.replying_to %}
-  {% assign replying_to = r | to_integer %}
+  {% assign replying_to = reply.replying_to | to_integer %}
   {% assign avatar      = reply.avatar %}
   {% assign email       = reply.email %}
   {% assign name        = reply.name %}
