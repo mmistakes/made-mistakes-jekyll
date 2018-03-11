@@ -10,7 +10,7 @@ image:
 tags: [web development, GitHub, Jekyll, tutorial]
 comments: true
 comments_locked: true
-last_modified_at: 2017-10-24T09:32:44-04:00
+last_modified_at: 2018-03-11T13:57:09-04:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
@@ -102,7 +102,7 @@ To avoid displaying duplicates, I needed to exclude replies and only top level c
 {% notice warning %}
 #### Where Expression Jekyll Filter
 
-Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp:\"item\", \"item.graduation_year == 2014\"`
+Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp: "item", "item.graduation_year == 2014"`
 {% endnotice %}
 
 If the hidden `fields[replying_to]` field I added to the form was working properly I should have comment data files similar to these:
@@ -126,112 +126,19 @@ replying_to: '7'
 date: '2016-11-02T05:08:43.280Z'
 ```
 
-As you can see above, the "child" comment has `replying_to` data populated from the hidden `fields[replying_to]` field in the form. Using this knowledge I tried to test against it using `where_exp:"item", "item.replying_to == ''"` to create an array of only "top-level" comments.
-
-Unfortunately the following didn't work:
+As you can see above, the "child" comment has `replying_to` data populated from the hidden `fields[replying_to]` field in the form. Using this knowledge I tested against it using `where_exp:"comment", "comment.replying_to == blank"` to create an array of only "top-level" comments.
 
 ```liquid
-{% raw %}{% assign comments = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == blank" %}
+{% raw %}{% assign comments = site.data.comments[page.slug] | sort | where_exp: "comment", "comment[1].replying_to == blank" %}
 {% for comment in comments %}
-  {% assign avatar = comment[1].avatar %}
-  {% assign email = comment[1].email %}
-  {% assign name = comment[1].name %}
-  {% assign url = comment[1].url %}
-  {% assign date = comment[1].date %}
-  {% assign message = comment[1].message %}
-  {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
+  {% assign avatar      = comment[1].avatar %}
+  {% assign email       = comment[1].email %}
+  {% assign name        = comment[1].name %}
+  {% assign url         = comment[1].url %}
+  {% assign date        = comment[1].date %}
+  {% assign message     = comment[1].message %}
+  {% include comment.html avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}{% endraw %}
-```
-
-What spat out instead was a bunch of empty comment markup like this:
-
-```html
-<article id="comment-1" class="js-comment comment">
-  <div class="comment__avatar">
-    <img src="" alt="">
-  </div>
-  <h3 class="comment__author-name"></h3>
-  <div class="comment__timestamp">
-    <a href="#comment-1" title="Permalink to this comment">
-      <time datetime=""></time>
-    </a>
-  </div>
-  <div class="comment__content"></div>
-</article>
-```
-
-Hmmm... guess it was time to add `inspect` filters to my arrays to see what was up.
-
-```liquid
-{% raw %}{{ site.data.comments[page.slug] | inspect }}{% endraw %}
-```
-
-#### Sample array before filtering with `where_exp`
-
-```yaml
-{
-  "comment-1471818805944" => {
-    "message" => "This is a parent comment message.",
-    "name"    => "First LastName",
-    "email"   => "md5g1bb3r15h",
-    "url"     => "",
-    "hidden"  => "",
-    "date"    => "2016-08-21T22:33:25.272Z"
-  },
-  "comment-1471904599908" => {
-    "message" => "This is another parent comment message.",
-    "name"    => "First LastName",
-    "email"   => "md5g1bb3r15h",
-    "url"     => "",
-    "hidden"  => "",
-    "date"    => "2016-08-22T21:42:48.075Z"
-  }
-}
-```
-
-#### Sample array after filtering with `where_exp`
-
-```json
-[
-  {
-    "message" => "This is a parent comment message.",
-    "name"    => "First LastName",
-    "email"   => "md5g1bb3r15h",
-    "url"     => "",
-    "hidden"  => "",
-    "date"    => "2016-08-21T22:33:25.272Z"
-  }, 
-  {
-    "message" => "This is another parent comment message.",
-    "name"    => "First LastName",
-    "email"   => "md5g1bb3r15h",
-    "url"     => "",
-    "hidden"  => "",
-    "date"    => "2016-08-22T21:42:48.075Z"
-  }
-]
-```
-
-Apparently using the `where_exp` filter flattens things slightly by removing the `comment-xxxxxxxxxxxxx` objects. This caused my `assign` tags to return blank values because `comment[1]` no longer existed.
-
-```liquid
-{% raw %}{% assign avatar  = comment[1].avatar %}
-{% assign email   = comment[1].email %}
-{% assign name    = comment[1].name %}
-{% assign url     = comment[1].url %}
-{% assign date    = comment[1].date %}
-{% assign message = comment[1].message %}{% endraw %}
-```
-
-Once discovered, the fix was simple --- remove `[1]` from each of the property names.
-
-```liquid
-{% raw %}{% assign avatar  = comment.avatar %}
-{% assign email   = comment.email %}
-{% assign name    = comment.name %}
-{% assign url     = comment.url %}
-{% assign date    = comment.date %}
-{% assign message = comment.message %}{% endraw %}
 ```
 
 {% figure caption:"Success, there be parent comments Captain!" %}
@@ -244,6 +151,12 @@ Once discovered, the fix was simple --- remove `[1]` from each of the property n
 I ran into strange behaviors and errors due to mixing a `sort` filter with `where` and `where_exp`. Came to the conclusion it was unnecessary as the items were already being sorted alphabetically based on their filenames, and removed the filter.
 
 I'm using the following: `filename: \"comment-{@timestamp}\"` structure. Your mileage may vary depending on how you name entries.
+{% endnotice %}
+
+{% notice info %}
+#### Note: Added Back `sort` Filter
+
+Not exactly sure if it's a filesystem or OS thing, but building my site with Travis CI shuffled the order of comments. Applying `sort` to the `comments` assign was necessary to get everything in the correct chronological order.
 {% endnotice %}
 
 #### Displaying Nested Comments
@@ -265,16 +178,18 @@ I determined the easiest way of assigning a unique identifier to each parent com
 Next I nested a modified copy of the "top-level comment" loop from before inside of itself --- to function as the "child" or `replies` loop.
 
 ```liquid
-{% raw %}{% assign replies = site.data.comments[page.slug] | where_exp:"item", "item.replying_to == include.index" %}
+{% raw %}{% capture i %}{{ include.index }}{% endcapture %}
+{% assign replies = site.data.comments[page.slug] | sort | where_exp: "comment", "comment[1].replying_to == i" %}
 {% for reply in replies %}
-  {% assign replying_to = reply.replying_to %}
-  {% assign avatar      = reply.avatar %}
-  {% assign email       = reply.email %}
-  {% assign name        = reply.name %}
-  {% assign url         = reply.url %}
-  {% assign date        = reply.date %}
-  {% assign message     = reply.message %}
-  {% include comment.html replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
+  {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
+  {% assign replying_to = reply[1].replying_to %}
+  {% assign avatar      = reply[1].avatar %}
+  {% assign email       = reply[1].email %}
+  {% assign name        = reply[1].name %}
+  {% assign url         = reply[1].url %}
+  {% assign date        = reply[1].date %}
+  {% assign message     = reply[1].message %}
+  {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}{% endraw %}
 ```
 
@@ -305,17 +220,16 @@ To solve this I placed a `capture` tag around the index variable to convert it f
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
+        {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == blank' %}
         {% for comment in comments %}
           {% assign index       = forloop.index %}
-          {% assign r           = comment.replying_to %}
-          {% assign replying_to = r | to_integer %}
-          {% assign avatar      = comment.avatar %}
-          {% assign email       = comment.email %}
-          {% assign name        = comment.name %}
-          {% assign url         = comment.url %}
-          {% assign date        = comment.date %}
-          {% assign message     = comment.message %}
+          {% assign replying_to = comment[1].replying_to | to_integer %}
+          {% assign avatar      = comment[1].avatar %}
+          {% assign email       = comment[1].email %}
+          {% assign name        = comment[1].name %}
+          {% assign url         = comment[1].url %}
+          {% assign date        = comment[1].date %}
+          {% assign message     = comment[1].message %}
           {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
         {% endfor %}
       </div>
@@ -413,17 +327,16 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
+{% assign replies = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == i' %}
 {% for reply in replies %}
   {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
-  {% assign r           = reply.replying_to %}
-  {% assign replying_to = r | to_integer %}
-  {% assign avatar      = reply.avatar %}
-  {% assign email       = reply.email %}
-  {% assign name        = reply.name %}
-  {% assign url         = reply.url %}
-  {% assign date        = reply.date %}
-  {% assign message     = reply.message %}
+  {% assign replying_to = reply[1].replying_to | to_integer %}
+  {% assign avatar      = reply[1].avatar %}
+  {% assign email       = reply[1].email %}
+  {% assign name        = reply[1].name %}
+  {% assign url         = reply[1].url %}
+  {% assign date        = reply[1].date %}
+  {% assign message     = reply[1].message %}
   {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}{% endraw %}
 ```
