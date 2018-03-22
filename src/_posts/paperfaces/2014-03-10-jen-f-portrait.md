@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T14:34:11-05:00
 ---
 
-PaperFaces portrait of a [Jen F.](http://sktchy.com/wvVXMH) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Jen F.](http://sktchy.com/wvVXMH ) inspired by a photograph on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

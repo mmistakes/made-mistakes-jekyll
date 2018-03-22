@@ -10,7 +10,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 
-PaperFaces portrait of Vanessa J. inspired by a [photograph on Sktchy](http://sktchy.com/FxLxqH).
+PaperFaces portrait of Vanessa J. inspired by a [photograph on Sktchy](http://sktchy.com/FxLxqH ).
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1420093) if you want to rework it or get a closer look.
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 ---
 
-PaperFaces portrait of [Carmel G.](http://sktchy.com/uViYnH).
+PaperFaces portrait of [Carmel G.](http://sktchy.com/uViYnH ).
 
 {% include boilerplate/paperfaces-3.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-PaperFaces portrait of [Kasey K](http://sktchy.com/mKWI5D).
+PaperFaces portrait of [Kasey K](http://sktchy.com/mKWI5D ).
 
 {% include boilerplate/paperfaces-2.md %}
 

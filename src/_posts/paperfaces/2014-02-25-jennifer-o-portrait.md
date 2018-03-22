@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 last_modified_at: 2017-01-17T14:46:02-05:00
 ---
 
-PaperFaces portrait of [Jennifer O.](http://sktchy.com/nIj9DH) inspired by Sktchy.
+PaperFaces portrait of [Jennifer O.](http://sktchy.com/nIj9DH ) inspired by Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-PaperFaces portrait of a [Bethany G.](http://sktchy.com/LWJNV) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Bethany G.](http://sktchy.com/LWJNV ) inspired by a photograph on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

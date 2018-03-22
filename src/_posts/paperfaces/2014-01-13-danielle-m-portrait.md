@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
-PaperFaces portrait of [Danielle M.](http://sktchy.com/rhvANH) inspired on Sktchy.
+PaperFaces portrait of [Danielle M.](http://sktchy.com/rhvANH ) inspired on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

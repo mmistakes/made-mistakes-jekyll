@@ -14,7 +14,7 @@ The mouth was such a struggle for me on this one --- I suppose that's what I get
 
 Unfortunately the pencil tool doesn't scale in size when zoomed in like the ink tools, so it was impossible to do fine line detail work. Instead of wasting a few more hours on it I just went old school *faceless* and called it a night.
 
-PaperFaces portrait of a [Jess J.](http://sktchy.com/pFAWd) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Jess J.](http://sktchy.com/pFAWd ) inspired by a photograph on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

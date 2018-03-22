@@ -10,7 +10,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 
-PaperFaces portrait of Myriam J. inspired by a [photograph on Sktchy](http://sktchy.com/kMXyoD).
+PaperFaces portrait of Myriam J. inspired by a [photograph on Sktchy](http://sktchy.com/kMXyoD ).
 
 Lately I've been trying to strike a balance between unfinished and over-worked by selectively adding detail to a piece. 
 

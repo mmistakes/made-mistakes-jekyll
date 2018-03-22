@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
-PaperFaces portrait of Sktchy user [Dani O](http://sktchy.com/BVa6DC).
+PaperFaces portrait of Sktchy user [Dani O](http://sktchy.com/BVa6DC ).
 
 {% include boilerplate/paperfaces-2.md %}
 

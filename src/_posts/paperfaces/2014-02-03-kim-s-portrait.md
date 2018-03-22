@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T15:58:37-05:00
 ---
 
-PaperFaces portrait of [Kim S.](http://sktchy.com/czir6c) inspired by Sktchy.
+PaperFaces portrait of [Kim S.](http://sktchy.com/czir6c ) inspired by Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

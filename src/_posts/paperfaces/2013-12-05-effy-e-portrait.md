@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-PaperFaces portrait of [Effy E.](http://sktchy.com/FH2qnD), inspiration found via Sktchy.
+PaperFaces portrait of [Effy E.](http://sktchy.com/FH2qnD ), inspiration found via Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

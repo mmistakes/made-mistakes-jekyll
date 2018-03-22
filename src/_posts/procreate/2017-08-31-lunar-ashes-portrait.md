@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, black and white]
 ---
 
-Portrait of Lunar Ashes inspired by a [photograph on Sktchy](​http://sktchy.com/pSkSa). Digitally painted with Procreate on an iPad Air 2.
+Portrait of Lunar Ashes inspired by a [photograph on Sktchy](​http://sktchy.com/pSkSa ). Digitally painted with Procreate on an iPad Air 2.
 
 A lovers embrace painting for a Valentine's Day inspired Sktchy challenge titled #WAXcupid.
 

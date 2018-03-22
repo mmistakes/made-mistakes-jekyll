@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-Chrissy does [fantastic illustrations](http://chrissyjo.com/) and after she drew a [pretty rad portrait](http://sktchy.com/aLFwUD) of yours truly I decided to return the favor.
+Chrissy does [fantastic illustrations](http://chrissyjo.com/ ) and after she drew a [pretty rad portrait](http://sktchy.com/aLFwUD) of yours truly I decided to return the favor.
 
 PaperFaces portrait of Chrissy Jo inspired by a photograph on Sktchy.
 

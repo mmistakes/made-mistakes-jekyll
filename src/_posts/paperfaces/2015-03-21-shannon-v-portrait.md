@@ -10,7 +10,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, landscape]
 ---
 
-PaperFaces portrait of Shannon V. inspired by a [photograph on Sktchy](http://sktchy.com/tQUwNH).
+PaperFaces portrait of Shannon V. inspired by a [photograph on Sktchy](http://sktchy.com/tQUwNH ).
 
 Sometimes when I feel lazy I go after a silhouette. Shading goes out the window and the only thing you really need to be considered with is drawing an accurate contour. The rest is just coloring within the lines...
 

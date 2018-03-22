@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
-Portrait of April C. inspired by a [photograph on Sktchy](http://sktchy.com/idj87H). Digitally painted with Procreate on an iPad Air 2.
+Portrait of April C. inspired by a [photograph on Sktchy](http://sktchy.com/idj87H ). Digitally painted with Procreate on an iPad Air 2.
 
 It's been a hectic start to spring so I haven't had too much free time to paint. The announcement of the smaller iPad Pro almost had me pulling the trigger, but I really want the larger version --- but with the True Tone display. I suppose I can wait until this fall...
 

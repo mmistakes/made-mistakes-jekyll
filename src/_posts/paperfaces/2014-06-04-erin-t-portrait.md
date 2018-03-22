@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
-PaperFaces portrait of a [Erin T.](http://sktchy.com/SUIJtH) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Erin T.](http://sktchy.com/SUIJtH ) inspired by a photograph on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

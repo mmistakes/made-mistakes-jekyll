@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, beard, bokeh, black and white]
 ---
 
-PaperFaces portrait of a [M Large](http://sktchy.com/0qfVg) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [M Large](http://sktchy.com/0qfVg ) inspired by a photograph on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

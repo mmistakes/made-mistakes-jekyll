@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 last_modified_at: 2017-01-17T12:47:47-05:00
 ---
 
-PaperFaces portrait of a [Ero Brat](http://sktchy.com/zPm01D) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Ero Brat](http://sktchy.com/zPm01D ) inspired by a photograph on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

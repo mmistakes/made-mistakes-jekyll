@@ -21,7 +21,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 last_modified_at: 2016-09-28T21:40:33-04:00
 ---
 
-PaperFaces portrait of Asja K. inspired by a [photograph on Sktchy](http://sktchy.com/d5SaaC).
+PaperFaces portrait of Asja K. inspired by a [photograph on Sktchy](http://sktchy.com/d5SaaC ).
 
 I will take grit and texture over polished and airbrushed any day of the week. It's these characteristics that have me preferring Paper over more feature-rich sketching apps.
 

@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse, Sktchy]
 ---
 
-Portrait of T. Steinheil inspired by a [photograph on Sktchy](http://sktchy.com/hvnEKC). Digitally painted with Procreate on an iPad Air 2. 
+Portrait of T. Steinheil inspired by a [photograph on Sktchy](http://sktchy.com/hvnEKC ). Digitally painted with Procreate on an iPad Air 2. 
 
 My confidence level with color hasn't really been high as of late, so I decided to retreat to working in *black and white*. Haven't really settled on a set of brushes I like 100% with Procreate yet so things still have that oil painting look. To counter some of that "over blended-ness" I applied some grain with the noise brush after getting the facial structure locked.
 

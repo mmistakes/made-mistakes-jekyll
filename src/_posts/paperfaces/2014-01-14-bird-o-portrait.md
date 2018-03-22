@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-Return of the blank. PaperFaces portrait of [Bird O.](http://sktchy.com/JPzbGH) inspired on Sktchy.
+Return of the blank. PaperFaces portrait of [Bird O.](http://sktchy.com/JPzbGH ) inspired on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

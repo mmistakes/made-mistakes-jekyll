@@ -10,7 +10,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 
-PaperFaces portrait of Rachel B. inspired by a [photograph on Sktchy](http://sktchy.com/Ptkxs).
+PaperFaces portrait of Rachel B. inspired by a [photograph on Sktchy](http://sktchy.com/Ptkxs ).
 
 Knowing when to stop and leave well enough alone is something I wrestle with every time I draw. The in-between draws tend to be more interesting than the finished piece just because all of the blanks have been filled in. Something I need to remember for next time.
 

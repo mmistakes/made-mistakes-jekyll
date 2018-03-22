@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T16:19:26-05:00
 ---
 
-PaperFaces portrait of [Kirsty H.](http://sktchy.com/A73olc) inspired by Sktchy.
+PaperFaces portrait of [Kirsty H.](http://sktchy.com/A73olc ) inspired by Sktchy.
 
 {% include boilerplate/paperfaces-4.md %}
 

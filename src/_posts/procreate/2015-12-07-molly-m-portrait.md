@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 
-Portrait of Molly M. inspired by a [photograph on Sktchy](http://sktchy.com/hvnEKC). Digitally painted with Procreate on an iPad Air 2.
+Portrait of Molly M. inspired by a [photograph on Sktchy](http://sktchy.com/hvnEKC ). Digitally painted with Procreate on an iPad Air 2.
 
 The new split view in iOS 9 on the iPad is fantastic. Swiping over the Photos app with my reference material instead of importing and wasting valuable canvas space is a treat.
 

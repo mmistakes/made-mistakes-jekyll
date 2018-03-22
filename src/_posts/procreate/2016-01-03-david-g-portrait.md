@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy]
 ---
 
-Portrait of David G. inspired by a [photograph on Sktchy](http://sktchy.com/CIyk0D). Digitally painted with Procreate on an iPad Air 2.
+Portrait of David G. inspired by a [photograph on Sktchy](http://sktchy.com/CIyk0D ). Digitally painted with Procreate on an iPad Air 2.
 
 I could have easily spent another 5 hours meticulously rendering beard whiskers and cleaning up some sloppy color transitions. But at some point you just have to put your kid to bed to rest and grow.
 

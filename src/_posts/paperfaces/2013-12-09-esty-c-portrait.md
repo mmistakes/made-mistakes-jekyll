@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, time lapse]
 ---
 
-PaperFaces portrait of [Esty C.](http://sktchy.com/WfStFC), inspiration found via Sktchy.
+PaperFaces portrait of [Esty C.](http://sktchy.com/WfStFC ), inspiration found via Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

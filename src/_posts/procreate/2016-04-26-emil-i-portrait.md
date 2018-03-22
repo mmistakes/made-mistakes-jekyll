@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
-Portrait of Emil I. inspired by a [photograph on Sktchy](http://sktchy.com/TXmmCc). Digitally painted with Procreate on an iPad Air 2.
+Portrait of Emil I. inspired by a [photograph on Sktchy](http://sktchy.com/TXmmCc ). Digitally painted with Procreate on an iPad Air 2.
 
 When Adobe and Adonit released the [Ink & Slide](https://www.amazon.com/Adobe-Creative-Connected-Precision-Stylus/dp/B00LNECVN6/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=mademist-20&linkId=643de6452764ad91cc2a8a8077f11204) stylus and ruler combo I was intrigued. There really weren't any well designed pressure sensitive styli out there with a fine tip. The high sticker price scared me away initially, after being burned by the [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) and its myriad of hardware issues --- so I decided to wait.
 

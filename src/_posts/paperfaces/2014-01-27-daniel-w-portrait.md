@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, texture, beard]
 last_modified_at: 2017-01-17T16:11:48-05:00
 ---
 
-Enjoyed adding all the texture in this one. PaperFaces portrait of [Daniel W.](http://sktchy.com/Uc5fXc) inspired by Sktchy.
+Enjoyed adding all the texture in this one. PaperFaces portrait of [Daniel W.](http://sktchy.com/Uc5fXc ) inspired by Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 ---
 
-PaperFaces portrait commission of [Catherine C.](http://sktchy.com/4het8)
+PaperFaces portrait commission of [Catherine C.](http://sktchy.com/4het8 )
 
 {% include boilerplate/paperfaces-2.md %}
 

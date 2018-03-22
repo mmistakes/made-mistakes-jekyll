@@ -10,7 +10,7 @@ image:
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy, Mix]
 ---
 
-PaperFaces portrait of Eliza T. inspired by a [photograph on Sktchy](http://sktchy.com/FsO57C).
+PaperFaces portrait of Eliza T. inspired by a [photograph on Sktchy](http://sktchy.com/FsO57C ).
 
 The more I use Paper's pencil and watercolor tools the more I want to pick up my old art supplies. Someday I suppose...
 

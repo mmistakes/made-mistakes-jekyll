@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 
-Trading drawings for drawings. PaperFaces portrait of [Christianna P.](http://sktchy.com/wkGeKD), inspiration found via Sktchy.
+Trading drawings for drawings. PaperFaces portrait of [Christianna P.](http://sktchy.com/wkGeKD ), inspiration found via Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

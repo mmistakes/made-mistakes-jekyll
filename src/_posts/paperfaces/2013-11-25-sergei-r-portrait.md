@@ -8,7 +8,7 @@ image:
 tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 ---
 
-Trading drawings for drawings. PaperFaces portrait of [Sergei R.](http://sktchy.com/YRsdZH), inspiration found via Sktchy.
+Trading drawings for drawings. PaperFaces portrait of [Sergei R.](http://sktchy.com/YRsdZH ), inspiration found via Sktchy.
 
 {% include boilerplate/paperfaces-3.md %}
 

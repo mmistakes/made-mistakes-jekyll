@@ -10,7 +10,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, black and white]
 ---
 
-PaperFaces portrait of Kalani O. inspired by a [photograph on Sktchy](http://sktchy.com/IfaqVH).
+PaperFaces portrait of Kalani O. inspired by a [photograph on Sktchy](http://sktchy.com/IfaqVH ).
 
 I often find I work fairly quick when dealing in grayscale, especially when the contrast is dialed up high. To really sell the realism in this one I spent a good deal of time drawing individual strands of hair with the pencil tool.
 

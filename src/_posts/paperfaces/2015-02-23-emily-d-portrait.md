@@ -10,7 +10,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 
-PaperFaces portrait of Emily D. inspired by a [photograph on Sktchy](http://sktchy.com/XBuFq).
+PaperFaces portrait of Emily D. inspired by a [photograph on Sktchy](http://sktchy.com/XBuFq ).
 
 For the last week or so I've been experimenting with time lapse photography on my iPhone 5s. Creating time lapse videos of my Paper by FiftyThree works is nothing new for me, but recording the movement of my hands is... sort of.
 

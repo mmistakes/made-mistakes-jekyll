@@ -10,7 +10,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 last_modified_at: 2017-01-17T14:51:50-05:00
 ---
 
-PaperFaces portrait of [Matt S.](http://sktchy.com/4SI2jH) inspired by Sktchy.
+PaperFaces portrait of [Matt S.](http://sktchy.com/4SI2jH ) inspired by Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

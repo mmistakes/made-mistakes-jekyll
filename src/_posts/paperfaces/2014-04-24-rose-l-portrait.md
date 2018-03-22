@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, bokeh, Sktchy]
 ---
 
-PaperFaces portrait of a [Rose L.](http://sktchy.com/Bf0pYC) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Rose L.](http://sktchy.com/Bf0pYC ) inspired by a photograph on Sktchy.
 
 {% include boilerplate/paperfaces-2.md %}
 

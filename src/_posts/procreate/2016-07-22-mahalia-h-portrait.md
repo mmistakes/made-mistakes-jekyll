@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 
-Portrait of Mahalia H. inspired by a [photograph on Sktchy](http://sktchy.com/hZqgKD). Digitally painted with Procreate on an iPad Air 2.
+Portrait of Mahalia H. inspired by a [photograph on Sktchy](http://sktchy.com/hZqgKD ). Digitally painted with Procreate on an iPad Air 2.
 
 Looks like the 3.1 update to Procreate improved support for Adobe's Ink stylus. Whether it was a set of changes to the [Jot Touch iOS SDK](https://github.com/Adonit/Adonit-iOS-SDK) or Procreate I don't know, but the stylus seems to register input more reliably with an iPad Air 2.
 

@@ -9,7 +9,7 @@ image:
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 
-PaperFaces portrait of Renate W. inspired by a [photograph on Sktchy](http://sktchy.com/4ml2W).
+PaperFaces portrait of Renate W. inspired by a [photograph on Sktchy](http://sktchy.com/4ml2W ).
 
 Played with Surface Pressure and the recently updated Sketch tool in Paper tonight to create this Halloween inspired portrait. By working in reverse and applying white on black (instead of the other around) I was able to achieve a macabre feel to the piece.
 

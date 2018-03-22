@@ -10,7 +10,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy, black and white]
 ---
 
-Portrait of Jenell D. inspired by a [photograph on Sktchy](http://sktchy.com/7i99Kc). Digitally painted with Procreate on an iPad Air 2. 
+Portrait of Jenell D. inspired by a [photograph on Sktchy](http://sktchy.com/7i99Kc ). Digitally painted with Procreate on an iPad Air 2. 
 
 Things got a little dark in the face, but I guess that's what inexperience with digital charcoals gets you. Yup, still haven't a clue what I'm doing with this app yet...
 

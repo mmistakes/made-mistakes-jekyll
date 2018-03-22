@@ -23,7 +23,7 @@ gallery:
 tags: [portrait, illustration, Paper by 53, Sktchy, bokeh, Mix]
 ---
 
-PaperFaces portrait of Neon L. inspired by a [photograph on Sktchy](http://sktchy.com/iYeI6c).
+PaperFaces portrait of Neon L. inspired by a [photograph on Sktchy](http://sktchy.com/iYeI6c ).
 
 Once again... [faking that bokeh](https://mix.fiftythree.com/11098-Michael-Rose/3957855) with a few quick swipes of the finger.
 
