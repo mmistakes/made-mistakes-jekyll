@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About Michael Rose"
-last_modified_at: 2018-03-05T11:19:04-05:00
+last_modified_at: 2018-03-22T10:19:56-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   path: &image /assets/images/about-michael-collage-2016.jpg
@@ -11,7 +11,7 @@ ads: false
 share: false
 ---
 
-Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers](/paperfaces/) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
+Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers](/paperfaces/) on an iPad Pro, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
 
 When I'm not drawing on my iPad, releasing open source [Jekyll themes](/work/jekyll-themes/), or building web stuff, I work as an web designer and content administrator for a global lab supply company. On any given day I could be developing and designing front-ends, landing pages, email newsletters, or massaging content in and out of a CMS with the help of HTML, CSS, and JavaScript.
 
