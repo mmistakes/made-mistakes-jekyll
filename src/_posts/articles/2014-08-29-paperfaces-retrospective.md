@@ -1,7 +1,7 @@
 ---
 title: "Two Years of Portrait Drawing — PaperFaces Retrospective"
 excerpt: "A look back at two years of drawing over 800 portraits using an iPad and Paper by FiftyThree."
-last_modified_at: 2015-10-19T14:20:36-04:00
+last_modified_at: 2018-03-22T10:47:26-04:00
 image: 
   path: &image /assets/images/paperfaces-800-portraits.jpg
   feature: *image
@@ -13,7 +13,7 @@ comments: false
 
 *Drawing a day* projects are a lot like resolutions made for the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
 
-Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](http://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
+Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
 {% figure caption:"What a difference two years made." class:"gallery-2-col" %}
 [![first PaperFaces portrait](/assets/images/paperfaces-veganwendy-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-twitter.jpg)
@@ -142,7 +142,7 @@ Don't get me wrong, drawing strangers for the last two years has been great. But
 
 ## Thank You!
 
-The positive support I've received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about quitting tolerable. To the handful of you who supported[^support-thanks] me in the early days with donations and portrait orders I appreciate your generosity so much! And of course a HUGE THANK YOU to the team at [FiftyThree](http://fiftythree.com) for making the tools that rekindled my love for creating.
+The positive support I've received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about quitting tolerable. To the handful of you who supported[^support-thanks] me in the early days with donations and portrait orders I appreciate your generosity so much! And of course a HUGE THANK YOU to the team at [FiftyThree](https://fiftythree.com) for making the tools that rekindled my love for creating.
 
 ![Thanks](/assets/images/thanks-m.png)
 

@@ -10,7 +10,7 @@ image:
   caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
 comments: true
 comments_locked: true
-last_modified_at: 2017-10-24T09:32:39-04:00
+last_modified_at: 2018-03-22T10:45:51-04:00
 ---
 
 Offloading comments to an external service like Disqus[^third-party-commenting] has always felt like a necessary evil to me when building Jekyll sites.
@@ -55,7 +55,7 @@ On paper and in practice Staticman was just the app I was looking for to power s
 
 Much like building my first Jekyll site, I found the process of integrating Staticman into my workflow very rewarding. It was nice to get dirty again crafting markup, styling `<form>`s, and giving comments a feel that fit the rest of my site.
 
-Thankfully I didn't have to start from scratch as I was able to draw inspiration from the Staticman demo site --- [**Popcorn**](https://github.com/eduardoboucas/popcorn) and [Eduardo Bouças's](https://github.com/eduardoboucas/eduardoboucas.github.io) personal site. The documentation for Staticman does a good job of explaining [how to set things up](https://staticman.net/get-started) so definitely give that a read first to familiarize yourself with what the app can do.
+Thankfully I didn't have to start from scratch as I was able to draw inspiration from the Staticman demo site --- [**Popcorn**](https://github.com/eduardoboucas/popcorn) and [Eduardo Bouças's](https://github.com/eduardoboucas/eduardoboucas.github.io) personal site. The documentation for Staticman does a good job of explaining [how to set things up](https://staticman.net/docs/) so definitely give that a read first to familiarize yourself with what the app can do.
 
 ### Building the Form
 
