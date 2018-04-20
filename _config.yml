@@ -79,6 +79,7 @@ kramdown:
   smart_quotes           : lsquo,rsquo,ldquo,rdquo
   enable_coderay         : false
 highlighter              : rouge
+strict_front_matter      : true
 keep_files:
   - .git
 include:
