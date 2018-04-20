@@ -1,5 +1,7 @@
-{% assign taxonomy = page.autopages.display_name | downcase | slugify %}
-{% assign tag = site.data.taxonomy[taxonomy] %}
+{% if page.layout == 'autopage_tags' %}
+  {% assign taxonomy = page.autopages.display_name | downcase | slugify %}
+  {% assign tag = site.data.taxonomy[taxonomy] %}
+{% endif %}
 {% assign feature_image = page.image.feature | default: page.image.path %}
 
 <header class="intro {% if feature_image and page.image.cover %}cover{% endif %}">
