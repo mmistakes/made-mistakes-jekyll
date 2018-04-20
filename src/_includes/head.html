@@ -215,6 +215,10 @@
     <link rel="webmention" href="{{ site.webmention_url }}">
   {% endif %}
 
+  {% if site.micropub_url %}
+    <link rel="micropub" href="{{ site.micropub_url }}">
+  {% endif %}
+
   {% if site.plugins contains 'jekyll-sitemap' %}
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ 'sitemap.xml' | relative_url }}">
   {% endif %}

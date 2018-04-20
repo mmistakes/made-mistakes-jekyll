@@ -37,6 +37,7 @@ favicon_version         : "5A54z5oklP"
 
 pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
 webmention_url          : "https://webmention.io/mademistakes.com/webmention"
+micropub_url            : "http://sitewriter.net/mademistakes.com/micropub"
 
 # Site owner
 author:
