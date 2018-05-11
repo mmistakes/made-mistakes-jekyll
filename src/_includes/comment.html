@@ -21,7 +21,7 @@
   <div class="comment-timestamp">
     {% if include.date %}
       {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
-      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
+      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date_to_long_string: 'ordinal', 'US' }}</time>
       {% if include.index %}</a>{% endif %}
     {% endif %}
   </div>
