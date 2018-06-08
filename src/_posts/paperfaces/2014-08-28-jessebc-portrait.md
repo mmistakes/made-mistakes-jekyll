@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-jessebc-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jessebc-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, beard, black and white, blend]
 last_modified_at: 2017-09-07T16:15:33-04:00
 ---

@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-kayla-e-teaser.jpg
   thumbnail: /assets/images/paperfaces-kayla-e-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, blend, bokeh]
 ---
 

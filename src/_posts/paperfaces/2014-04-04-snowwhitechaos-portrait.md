@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-snowwhitechaos-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-snowwhitechaos-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:15:26-05:00
 ---

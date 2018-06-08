@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-michel-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-michel-t-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

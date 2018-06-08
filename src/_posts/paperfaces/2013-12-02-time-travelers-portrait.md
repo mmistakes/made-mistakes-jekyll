@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-time-travelers.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-time-travelers-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

@@ -6,6 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-itzyasmine-twitter-150.jpg
   teaser: /assets/images/paperfaces-itzyasmine-twitter-teaser.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T12:46:49-05:00
 ---

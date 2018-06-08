@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-yakndara-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-yakndara-b-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, eye, Sktchy, black and white]
 ---
 

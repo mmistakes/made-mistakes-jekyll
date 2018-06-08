@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-slave-leia-jabba-the-hutt-teaser.jpg
   thumbnail: /assets/images/paperfaces-slave-leia-jabba-the-hutt-150.jpg
+categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper by 53]
 ---
 

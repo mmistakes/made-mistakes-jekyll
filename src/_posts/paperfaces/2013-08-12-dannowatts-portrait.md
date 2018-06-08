@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-dannowatts-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-dannowatts-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, trees, black and white, beard]
 ---
 

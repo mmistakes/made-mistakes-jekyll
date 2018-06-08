@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-livetosail42-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-livetosail42-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

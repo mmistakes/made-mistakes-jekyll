@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-neil-pie-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-neil-pie-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T13:58:56-05:00
 ---

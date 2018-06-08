@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-talia-p-teaser.jpg
   thumbnail: /assets/images/paperfaces-talia-p-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T14:36:56-05:00
 ---

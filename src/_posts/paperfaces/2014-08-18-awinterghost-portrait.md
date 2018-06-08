@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-awinterghost-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-awinterghost-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

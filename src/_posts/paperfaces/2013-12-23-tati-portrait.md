@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-tati-teaser.jpg
   thumbnail: /assets/images/paperfaces-tati-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, bokeh, time lapse]
 ---
 

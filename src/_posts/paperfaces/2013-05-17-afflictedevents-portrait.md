@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-afflictedevents-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-afflictedevents-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

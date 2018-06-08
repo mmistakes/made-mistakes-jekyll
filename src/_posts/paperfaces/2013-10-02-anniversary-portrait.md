@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-anniversary-portrait.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-anniversary-portrait-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white, romance, beard]
 ---
 

@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-mr-spock-teaser.jpg
   thumbnail: /assets/images/paperfaces-mr-spock-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Star Trek, Mix, time lapse, black and white]
 ---
 

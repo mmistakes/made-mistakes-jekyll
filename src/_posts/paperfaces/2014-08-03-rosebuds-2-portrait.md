@@ -16,6 +16,7 @@ gallery:
   - url: /assets/images/paperfaces-rosebuds-2-process-3-lg.jpg
     image_path: /assets/images/paperfaces-rosebuds-2-process-3-600.jpg
     alt: "work in process screenshot"
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, twins]
 last_modified_at: 2016-09-29T16:02:37-04:00
 ---

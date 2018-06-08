@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-dark-knight-teaser.jpg
   thumbnail: /assets/images/paperfaces-dark-knight-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Batman, Mix]
 ---
 

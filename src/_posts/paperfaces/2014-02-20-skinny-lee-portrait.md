@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-skinny-lee-teaser.jpg
   thumbnail: /assets/images/paperfaces-skinny-lee-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 last_modified_at: 2017-01-17T14:49:35-05:00
 ---

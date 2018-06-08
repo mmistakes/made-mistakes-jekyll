@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-dermike-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-dermike-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-09-07T16:13:21-04:00
 ---

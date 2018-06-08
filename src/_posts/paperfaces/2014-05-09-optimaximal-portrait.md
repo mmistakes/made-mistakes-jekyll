@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-optimaximal-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-optimaximal-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T12:59:16-05:00
 ---

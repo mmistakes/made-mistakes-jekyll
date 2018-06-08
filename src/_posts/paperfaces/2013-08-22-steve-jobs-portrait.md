@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-steve-jobs.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-steve-jobs-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

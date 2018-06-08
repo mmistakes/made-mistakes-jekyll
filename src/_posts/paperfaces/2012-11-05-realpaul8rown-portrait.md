@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-realpaul8rown-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-realpaul8rown-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

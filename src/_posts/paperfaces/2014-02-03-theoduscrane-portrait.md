@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-theoduscrane-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-theoduscrane-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, beard]
 last_modified_at: 2017-01-17T15:57:55-05:00
 ---

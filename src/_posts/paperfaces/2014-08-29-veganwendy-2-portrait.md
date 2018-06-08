@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-veganwendy-2-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-veganwendy-2-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-09-07T16:18:52-04:00
 ---

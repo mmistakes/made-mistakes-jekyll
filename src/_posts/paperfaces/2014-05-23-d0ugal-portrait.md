@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-d0ugal-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-d0ugal-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, beard]
 last_modified_at: 2017-01-17T12:48:41-05:00
 ---

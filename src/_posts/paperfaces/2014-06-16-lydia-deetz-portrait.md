@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-lydia-deetz-teaser.jpg
   thumbnail: /assets/images/paperfaces-lydia-deetz-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, blend]
 ---
 

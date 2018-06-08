@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-m-large-teaser.jpg
   thumbnail: /assets/images/paperfaces-m-large-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, beard, bokeh, black and white]
 ---
 

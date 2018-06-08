@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-angel-frias-instagram.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-angel-frias-instagram-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

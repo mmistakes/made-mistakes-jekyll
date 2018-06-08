@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-jee-chasles-teaser.jpg
   thumbnail: /assets/images/paperfaces-jee-chasles-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy, tattoo]
 last_modified_at: 2017-01-17T14:40:05-05:00
 ---

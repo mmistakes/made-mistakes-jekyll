@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mikkelmarius-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-mikkelmarius-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

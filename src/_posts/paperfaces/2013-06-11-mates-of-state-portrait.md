@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mates-of-state.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-mates-of-state-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Mates of State]
 ---
 

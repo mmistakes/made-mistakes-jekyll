@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-kapi-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-kapi-m-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, eye, blend]
 ---
 

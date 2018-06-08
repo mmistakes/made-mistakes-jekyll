@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-kim-s-teaser.jpg
   thumbnail: /assets/images/paperfaces-kim-s-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T15:58:37-05:00
 ---

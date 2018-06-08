@@ -172,7 +172,6 @@ defaults:
       type: posts
     values:
       layout: post
-      category: paperfaces
       breadcrumbs:
         - label: "PaperFaces Portraits"
           url: /paperfaces/

@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-sodevious-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-sodevious-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, time lapse]
 ---
 

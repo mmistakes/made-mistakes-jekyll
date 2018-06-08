@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-dhrrgn-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-dhrrgn-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

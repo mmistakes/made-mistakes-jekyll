@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-vanessa-j-teaser.jpg
   thumbnail: /assets/images/paperfaces-vanessa-j-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 ---
 

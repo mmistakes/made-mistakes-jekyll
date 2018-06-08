@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-ashahmoradian-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-ashahmoradian-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T12:54:51-05:00
 ---

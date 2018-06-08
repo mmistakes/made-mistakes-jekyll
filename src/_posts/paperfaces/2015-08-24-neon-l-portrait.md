@@ -20,6 +20,7 @@ gallery:
   - url: /assets/images/paperfaces-neon-l-process-4-lg.jpg
     image_path: /assets/images/paperfaces-neon-l-process-4-600.jpg
     alt: "Work in process screenshot"
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, bokeh, Mix]
 ---
 

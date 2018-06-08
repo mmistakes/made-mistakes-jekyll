@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-marie-a-teaser.jpg
   thumbnail: /assets/images/paperfaces-marie-a-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T14:21:27-05:00
 ---

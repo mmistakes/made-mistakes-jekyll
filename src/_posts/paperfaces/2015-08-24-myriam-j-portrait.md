@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-myriam-j-teaser.jpg
   thumbnail: /assets/images/paperfaces-myriam-j-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

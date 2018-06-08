@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-general-grievous-teaser.jpg
   thumbnail: /assets/images/paperfaces-general-grievous-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 

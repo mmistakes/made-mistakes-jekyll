@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-sj-selina-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-sj-selina-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

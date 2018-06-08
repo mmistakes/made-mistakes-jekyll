@@ -17,6 +17,7 @@ gallery:
   - url: /assets/images/paperfaces-katelyn-m-process-3-lg.jpg
     image_path: /assets/images/paperfaces-katelyn-m-process-3-600.jpg
     alt: "Work in process screenshot"
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, bokeh, Mix]
 last_modified_at: 2016-10-10T14:56:57-04:00
 ---

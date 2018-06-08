@@ -17,6 +17,7 @@ gallery:
   - url: https://mix.fiftythree.com/11098-Michael-Rose/1896998
     image_path: /assets/images/paperfaces-asja-k-process-3-600.jpg
     alt: "work in process screenshot"
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 last_modified_at: 2016-09-28T21:40:33-04:00
 ---

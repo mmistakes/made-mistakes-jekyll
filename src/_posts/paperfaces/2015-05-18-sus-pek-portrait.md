@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-sus-pek-teaser.jpg
   thumbnail: /assets/images/paperfaces-sus-pek-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, beard, Sktchy, Mix]
 ---
 

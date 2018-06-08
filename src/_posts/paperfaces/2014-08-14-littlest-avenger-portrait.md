@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-littlest-avenger-teaser.jpg
   thumbnail: /assets/images/paperfaces-littlest-avenger-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, blend]
 ---
 

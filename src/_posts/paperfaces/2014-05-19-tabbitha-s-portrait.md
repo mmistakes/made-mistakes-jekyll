@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-tabbitha-s-teaser.jpg
   thumbnail: /assets/images/paperfaces-tabbitha-s-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T12:50:38-05:00
 ---

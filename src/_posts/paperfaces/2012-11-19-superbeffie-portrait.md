@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-superbeffie-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-superbeffie-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

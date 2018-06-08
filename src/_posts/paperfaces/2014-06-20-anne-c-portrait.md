@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-anne-c-teaser.jpg
   thumbnail: /assets/images/paperfaces-anne-c-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 ---
 

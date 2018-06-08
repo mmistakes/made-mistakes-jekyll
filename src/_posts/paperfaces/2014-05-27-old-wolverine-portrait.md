@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-old-wolverine-teaser.jpg
   thumbnail: /assets/images/paperfaces-old-wolverine-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, X-men]
 ---
 

@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-christina-u-teaser.jpg
   thumbnail: /assets/images/paperfaces-christina-u-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, clouds, Sktchy]
 ---
 

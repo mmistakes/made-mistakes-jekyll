@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-nett00n-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-nett00n-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white]
 ---
 

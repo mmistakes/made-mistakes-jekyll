@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-honey-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-honey-b-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

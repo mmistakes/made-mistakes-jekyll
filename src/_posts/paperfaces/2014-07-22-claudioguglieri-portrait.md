@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-claudioguglieri-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-claudioguglieri-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

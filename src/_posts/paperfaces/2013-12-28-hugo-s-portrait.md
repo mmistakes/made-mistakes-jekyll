@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-hugo-s.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-hugo-s-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

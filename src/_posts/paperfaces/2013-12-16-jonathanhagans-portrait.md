@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-jonathanhagans-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-jonathanhagans-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

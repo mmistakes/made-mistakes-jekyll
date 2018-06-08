@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-cocoapriest-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cocoapriest-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, sepia, beard]
 last_modified_at: 2017-01-17T16:14:36-05:00
 ---

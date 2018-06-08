@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-makenna-s-teaser.jpg
   thumbnail: /assets/images/paperfaces-makenna-s-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

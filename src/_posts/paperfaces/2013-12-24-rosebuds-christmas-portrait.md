@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-christmas-teaser.jpg
   thumbnail: /assets/images/paperfaces-rosebuds-christmas-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, Christmas, twins]
 ---
 

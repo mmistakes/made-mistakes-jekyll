@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-renate-w-teaser.jpg
   thumbnail: /assets/images/paperfaces-renate-w-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

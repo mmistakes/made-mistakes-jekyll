@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-east-docht-teaser.jpg
   thumbnail: /assets/images/paperfaces-east-docht-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

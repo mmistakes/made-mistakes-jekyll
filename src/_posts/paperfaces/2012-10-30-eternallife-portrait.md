@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-eternallife-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-eternallife-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

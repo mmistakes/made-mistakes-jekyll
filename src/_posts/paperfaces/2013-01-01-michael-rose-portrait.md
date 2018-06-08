@@ -6,6 +6,7 @@ image:
   path: &image /assets/images/paperfaces-michael-rose.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-michael-rose-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Michael Rose, self portrait, beard, time lapse]
 ---
 

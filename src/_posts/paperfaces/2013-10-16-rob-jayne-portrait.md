@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-rob-jayne.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-rob-jayne-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

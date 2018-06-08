@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-sschuermann-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-sschuermann-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, black and white, beard]
 ---
 

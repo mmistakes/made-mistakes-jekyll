@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-haley-couple-teaser.jpg
   thumbnail: /assets/images/paperfaces-haley-couple-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, time lapse]
 last_modified_at: 2017-01-17T14:53:27-05:00
 ---

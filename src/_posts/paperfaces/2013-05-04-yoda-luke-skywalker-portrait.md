@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-yoda-luke-skywalker-teaser.jpg
   thumbnail: /assets/images/paperfaces-yoda-luke-skywalker-150.jpg
+categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper by 53]
 ---
 

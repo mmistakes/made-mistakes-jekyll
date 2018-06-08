@@ -6,6 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-michael-rose-beard-150.jpg
 last_modified_at: 2013-06-05
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Michael Rose, beard, self portrait]
 ---
 

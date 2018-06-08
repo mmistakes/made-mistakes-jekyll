@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-chadtafolla-2-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-chadtafolla-2-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-17T14:27:17-05:00
 ---

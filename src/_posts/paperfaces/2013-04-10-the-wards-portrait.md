@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-the-wards.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-the-wards-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

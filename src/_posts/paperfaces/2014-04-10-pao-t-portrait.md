@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-pao-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-pao-t-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T14:08:08-05:00
 ---

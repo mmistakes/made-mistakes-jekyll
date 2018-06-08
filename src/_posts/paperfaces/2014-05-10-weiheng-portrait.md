@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-weiheng-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-weiheng-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T12:57:51-05:00
 ---

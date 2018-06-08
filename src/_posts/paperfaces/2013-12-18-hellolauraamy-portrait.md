@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-hellolauraamy-instagram.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-hellolauraamy-instagram-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

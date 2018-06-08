@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-mattfieldy-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mattfieldy-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, 8-bit, beard]
 ---
 

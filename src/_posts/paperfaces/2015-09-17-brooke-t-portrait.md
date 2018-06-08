@@ -17,6 +17,7 @@ gallery:
   - url: /assets/images/paperfaces-brooke-t-process-3-lg.jpg
     image_path: /assets/images/paperfaces-brooke-t-process-3-600.jpg
     alt: "Work in process screenshot"
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 last_modified_at: 2016-10-10T14:51:40-04:00
 ---

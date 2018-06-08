@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-nickkeyphotos-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-nickkeyphotos-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-emperor-palpatine-teaser.jpg
   thumbnail: /assets/images/paperfaces-emperor-palpatine-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 

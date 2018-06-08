@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-mosiejczuk-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mosiejczuk-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, bokeh, black and white]
 ---
 

@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-chetyeary-2-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-chetyeary-2-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

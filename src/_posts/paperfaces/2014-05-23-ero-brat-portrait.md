@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-ero-brat-teaser.jpg
   thumbnail: /assets/images/paperfaces-ero-brat-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy]
 last_modified_at: 2017-01-17T12:47:47-05:00
 ---

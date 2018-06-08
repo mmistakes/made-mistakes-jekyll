@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-carmel-g.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-carmel-g-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 ---
 

@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-colmsmyth-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-colmsmyth-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

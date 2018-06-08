@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-rose-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-rose-l-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, bokeh, Sktchy]
 ---
 

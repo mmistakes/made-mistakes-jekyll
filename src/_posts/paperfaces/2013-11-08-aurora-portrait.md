@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-aurora.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-aurora-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

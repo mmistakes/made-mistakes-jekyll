@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-spock-kirk-star-trek-teaser.jpg
   thumbnail: /assets/images/paperfaces-spock-kirk-star-trek-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Star Trek]
 ---
 

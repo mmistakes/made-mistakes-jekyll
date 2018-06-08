@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-kristoffbertram-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-kristoffbertram-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, beard]
 ---
 

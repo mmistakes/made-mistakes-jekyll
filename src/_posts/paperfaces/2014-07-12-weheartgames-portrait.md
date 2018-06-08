@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-weheartgames-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-weheartgames-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, bokeh, beard]
 ---
 

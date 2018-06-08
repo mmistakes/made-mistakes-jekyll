@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-juan-kyle.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-juan-kyle-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, time lapse]
 ---
 

@@ -17,6 +17,7 @@ gallery:
   - url: /assets/images/paperfaces-becca-pj-process-3-lg.jpg
     image_path: /assets/images/paperfaces-becca-pj-process-3-600.jpg
     alt: "Work in process screenshot"
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
 ---
 

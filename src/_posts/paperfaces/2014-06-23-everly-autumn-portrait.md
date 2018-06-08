@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-everly-autumn-teaser.jpg
   thumbnail: /assets/images/paperfaces-everly-autumn-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
 ---
 

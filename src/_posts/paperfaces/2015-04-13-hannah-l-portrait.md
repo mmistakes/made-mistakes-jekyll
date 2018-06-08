@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-hannah-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-hannah-l-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
 ---
 

@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-lisset-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-lisset-m-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
 last_modified_at: 2017-09-07T16:17:44-04:00
 ---

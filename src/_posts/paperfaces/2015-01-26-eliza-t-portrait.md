@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-eliza-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-eliza-t-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white, Sktchy, Mix]
 ---
 

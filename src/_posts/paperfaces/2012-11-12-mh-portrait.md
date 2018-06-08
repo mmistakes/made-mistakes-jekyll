@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mh-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-mh-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

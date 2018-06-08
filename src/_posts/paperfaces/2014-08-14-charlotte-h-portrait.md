@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-charlotte-h-teaser.jpg
   thumbnail: /assets/images/paperfaces-charlotte-h-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

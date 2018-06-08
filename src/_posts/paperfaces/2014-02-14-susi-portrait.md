@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-susi-teaser.jpg
   thumbnail: /assets/images/paperfaces-susi-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend]
 last_modified_at: 2017-01-17T14:54:14-05:00
 ---

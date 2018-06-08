@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-jameswestnz-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jameswestnz-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white, beard]
 ---
 

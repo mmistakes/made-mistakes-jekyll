@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-nick-b-2-teaser.jpg
   thumbnail: /assets/images/paperfaces-nick-b-2-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Mix]
 ---
 

@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-mriddickw-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-mriddickw-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

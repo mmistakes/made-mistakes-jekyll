@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-boba-fett-teaser.jpg
   thumbnail: /assets/images/paperfaces-boba-fett-150.jpg
+categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper by 53, time lapse]
 ---
 

@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-lindsey-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-lindsey-m-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, black and white]
 ---
 

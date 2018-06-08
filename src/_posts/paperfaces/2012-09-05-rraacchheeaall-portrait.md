@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-rraacchheeaall-instagram.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-rraacchheeaall-instagram-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

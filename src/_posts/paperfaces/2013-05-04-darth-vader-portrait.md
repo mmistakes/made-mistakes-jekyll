@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-darth-vader-teaser.jpg
   thumbnail: /assets/images/paperfaces-darth-vader-150.jpg
+categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper by 53]
 ---
 

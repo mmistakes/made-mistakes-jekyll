@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-lorenzo-teaser.jpg
   thumbnail: /assets/images/paperfaces-lorenzo-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, black and white]
 last_modified_at: 2017-01-25T12:46:10-05:00
 ---

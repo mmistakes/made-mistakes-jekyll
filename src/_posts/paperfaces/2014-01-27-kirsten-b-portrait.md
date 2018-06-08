@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-kirsten-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-kirsten-b-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 last_modified_at: 2017-01-17T16:11:01-05:00
 ---

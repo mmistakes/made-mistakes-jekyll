@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-chris-obyrne-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-chris-obyrne-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

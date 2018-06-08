@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-shannon-v-teaser.jpg
   thumbnail: /assets/images/paperfaces-shannon-v-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy, Mix, landscape]
 ---
 

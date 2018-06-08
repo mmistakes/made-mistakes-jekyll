@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-thenimesh-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-thenimesh-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, glitch, time lapse]
 last_modified_at: 2017-01-17T16:17:14-05:00
 ---

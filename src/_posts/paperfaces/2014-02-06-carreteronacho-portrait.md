@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-carreteronacho-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-carreteronacho-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T15:56:28-05:00
 ---

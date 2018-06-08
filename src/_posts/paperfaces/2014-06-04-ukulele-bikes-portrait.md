@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-ukulele-bikes-teaser.jpg
   thumbnail: /assets/images/paperfaces-ukulele-bikes-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, beard]
 ---
 

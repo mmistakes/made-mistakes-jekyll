@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-diako-m.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-diako-m-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

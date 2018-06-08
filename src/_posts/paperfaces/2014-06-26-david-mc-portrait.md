@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-david-mc-teaser.jpg
   thumbnail: /assets/images/paperfaces-david-mc-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

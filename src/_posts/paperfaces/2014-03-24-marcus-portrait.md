@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-marcus-teaser.jpg
   thumbnail: /assets/images/paperfaces-marcus-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 last_modified_at: 2017-01-17T14:22:09-05:00
 ---

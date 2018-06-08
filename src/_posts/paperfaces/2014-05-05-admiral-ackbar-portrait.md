@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-admiral-ackbar-teaser.jpg
   thumbnail: /assets/images/paperfaces-admiral-ackbar-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Star Wars, blend]
 ---
 

@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-wendy-rose-sktchy.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-wendy-rose-sktchy-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, Sktchy]
 ---
 

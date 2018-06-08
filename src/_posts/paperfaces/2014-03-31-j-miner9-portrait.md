@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-j-miner9-teaser.jpg
   thumbnail: /assets/images/paperfaces-j-miner9-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, bokeh, hockey]
 ---
 

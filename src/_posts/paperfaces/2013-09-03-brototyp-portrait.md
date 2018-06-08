@@ -5,6 +5,7 @@ image:
   path: &image /assets/images/paperfaces-brototyp-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-brototyp-twitter-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53]
 ---
 

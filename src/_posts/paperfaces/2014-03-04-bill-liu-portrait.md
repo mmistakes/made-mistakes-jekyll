@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-bill-liu-teaser.jpg
   thumbnail: /assets/images/paperfaces-bill-liu-150.jpg
+categories: [paperfaces]
 tags: [portrait, illustration, Paper by 53, blend, bokeh]
 ---
 
