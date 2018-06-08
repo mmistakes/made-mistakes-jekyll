@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/morgan-f-procreate-teaser.jpg
   thumbnail: /assets/images/morgan-f-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

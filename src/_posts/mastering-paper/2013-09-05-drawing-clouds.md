@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-skies-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-skies-guide-thumb.jpg
+categories: [mastering-paper]
 tags: [Paper by 53, tutorial, drawing, painting, clouds, sky, iPad]
 ---
 

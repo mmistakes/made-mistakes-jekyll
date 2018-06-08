@@ -4,6 +4,7 @@ excerpt: "The following are some of my experiences and observations transitionin
 image: 
   thumbnail: /assets/images/iphone4-impressions-340x340.jpg
   teaser: /assets/images/iphone-4-teaser.jpg
+categories: [articles]
 tags: [iPhone, Apple, Palm Pre, review, tech geek]
 ---
 

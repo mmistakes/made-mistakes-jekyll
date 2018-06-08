@@ -5,6 +5,7 @@ last_modified_at: 2015-12-15
 image: 
   thumbnail: /assets/images/eviltron-thumb.jpg
   teaser: /assets/images/eviltron-teaser.jpg
+categories: [articles]
 tags: [Eviltron, prank, horror, review, tech geek]
 ---
 

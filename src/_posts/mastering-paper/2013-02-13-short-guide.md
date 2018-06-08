@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/madewithpaper-guide-teaser.jpg
   thumbnail: /assets/images/madewithpaper-guide-thumb.jpg
+categories: [mastering-paper]
 tags: [Paper by 53, tutorial, drawing, iPad]
 comments_locked: true
 ---

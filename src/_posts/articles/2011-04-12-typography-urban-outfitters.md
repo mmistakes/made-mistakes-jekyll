@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/UO-spring11-teaser.jpg
   thumbnail: /assets/images/UO11-spring-thumb.jpg
+categories: [articles]
 tags: [catalog, design, typography, critique, readability]
 support: false
 ---

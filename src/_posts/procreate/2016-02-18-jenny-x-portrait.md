@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/jenny-x-procreate-teaser.jpg
   thumbnail: /assets/images/jenny-x-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

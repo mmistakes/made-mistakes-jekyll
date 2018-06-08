@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/jonathan-h-procreate-teaser.jpg
   thumbnail: /assets/images/jonathan-h-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

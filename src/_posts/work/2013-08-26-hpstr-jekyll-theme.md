@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/hpstr-preview-teaser-2015.png
   thumbnail: /assets/images/hpstr-preview-th-2015.png
+categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 last_modified_at: 2018-02-06T11:15:46-05:00

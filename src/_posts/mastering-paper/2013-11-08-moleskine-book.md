@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-book-teaser.jpg
   thumbnail: /assets/images/paper-53-book-thumb.jpg
+categories: [mastering-paper]
 tags: [Paper by 53, Moleskine, book, design, review]
 comments_locked: true
 ---

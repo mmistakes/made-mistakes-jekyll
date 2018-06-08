@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser:
   thumbnail: /assets/images/lunar-ashes-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse]
 ---
 

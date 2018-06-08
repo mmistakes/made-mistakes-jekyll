@@ -14,6 +14,7 @@ gallery:
   - url: /assets/images/painting-stormtrooper-process-2-lg.jpg
     image_path: /assets/images/painting-stormtrooper-process-2-600.jpg
     alt: "finished watercolor painting"
+categories: [tiny-paintings]
 tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 

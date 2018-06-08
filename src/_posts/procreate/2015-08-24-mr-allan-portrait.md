@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/mr-allan-procreate-teaser.jpg
   thumbnail: /assets/images/mr-allan-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
 ---
 

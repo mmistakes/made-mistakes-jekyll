@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser:
   thumbnail: /assets/images/ale-b-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, beard, time lapse]
 ---
 

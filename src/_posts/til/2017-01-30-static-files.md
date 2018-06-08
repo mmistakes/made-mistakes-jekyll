@@ -4,6 +4,7 @@ excerpt:
 image:
   thumbnail: /assets/images/jekyll-static-files-th.jpg
   cover: /assets/images/jekyll-static-files-cover.jpg
+categories: [til]
 tags: [web development, Jekyll]
 last_modified_at:
 ---

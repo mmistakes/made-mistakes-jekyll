@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/imac-glitch-teaser.jpg
   thumbnail: /assets/images/imac-glitch-thumb.jpg
+categories: [articles]
 tags: [iMac, Apple]
 ---
 

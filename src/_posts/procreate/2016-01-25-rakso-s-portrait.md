@@ -17,6 +17,7 @@ gallery:
   - url: /assets/images/rakso-s-process-3-lg.jpg
     image_path: /assets/images/rakso-s-process-3-320.jpg
     alt: "work in progress screenshot"
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy, black and white]
 ---
 

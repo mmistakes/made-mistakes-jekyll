@@ -5,6 +5,7 @@ last_modified_at: 2018-02-09T08:54:48-05:00
 image: 
   teaser: /assets/images/palm-pre-teaser.jpg
   thumbnail: /assets/images/palm-pre-th.jpg
+categories: [articles]
 tags: [Palm Pre, iPhone, tech geek, review]
 ---
 

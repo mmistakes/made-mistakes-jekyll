@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/t-steinheil-procreate-teaser.jpg
   thumbnail: /assets/images/t-steinheil-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse, Sktchy]
 ---
 

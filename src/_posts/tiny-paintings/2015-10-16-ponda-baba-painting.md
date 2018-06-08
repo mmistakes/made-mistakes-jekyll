@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/painting-ponda-baba-teaser.jpg
   thumbnail: /assets/images/painting-ponda-baba-250.jpg
+categories: [tiny-paintings]
 tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 

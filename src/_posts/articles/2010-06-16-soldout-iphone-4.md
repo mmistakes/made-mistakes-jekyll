@@ -2,6 +2,7 @@
 title: "Getting the Sold Out iPhone 4 at Launch"
 excerpt: "Looks like I might actually get two iPhone 4's on launch day."
 last_modified_at: 2013-05-03
+categories: [articles]
 tags: [iPhone, Apple, tech geek]
 image:
   teaser: /assets/images/iphone-4-teaser.jpg

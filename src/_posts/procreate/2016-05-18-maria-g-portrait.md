@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/maria-g-procreate-teaser.jpg
   thumbnail: /assets/images/maria-g-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
 ---
 

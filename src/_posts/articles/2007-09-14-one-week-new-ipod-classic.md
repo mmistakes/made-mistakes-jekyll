@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/ipod-classic-teaser.jpg
   thumbnail: /assets/images/ipod-classic-thumb.jpg
+categories: [articles]
 tags: [iPod, Apple, review]
 ---
 

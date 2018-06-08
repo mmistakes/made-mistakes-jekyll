@@ -2,6 +2,7 @@
 title: "Mastering Paper by FiftyThree: Faux Layer Technique"
 last_modified_at: 2017-12-13T16:20:06-05:00
 excerpt: "Discover the faux layer technique and how it can aid in sketching and tracing with Paper by FiftyThree."
+categories: [mastering-paper]
 tags: [Paper by 53, tutorial, layers, erase]
 image:
   path: &image /assets/images/paper-53-faux-layers-feature.jpg

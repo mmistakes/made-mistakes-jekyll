@@ -9,6 +9,7 @@ image:
   teaser: /assets/images/sunshine-teaser.jpg
   thumbnail: /assets/images/sunshine-thumb.jpg
   caption: "DVD screengrab from [**DVDBeaver**](http://www.dvdbeaver.com/film2/DVDReviews34/sunshine_blu-ray.htm)"
+categories: [articles]
 tags: [sci-fi, film, review, space]
 support: false
 ---

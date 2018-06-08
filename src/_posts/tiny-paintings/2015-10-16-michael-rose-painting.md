@@ -14,6 +14,7 @@ gallery:
   - url: /assets/images/painting-michael-rose-process-2-lg.jpg
     image_path: /assets/images/painting-michael-rose-process-2-600.jpg
     alt: "First layer of watercolor glaze"
+categories: [tiny-paintings]
 tags: [Michael Rose, watercolor, painting, drawing, portrait, illustration]
 ---
 

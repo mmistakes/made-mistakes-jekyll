@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/starfield-leopard-teaser.jpg
   thumbnail: /assets/images/starfield-leopard-thumb.jpg
+categories: [articles]
 tags: [iMac, tech geek]
 ---
 

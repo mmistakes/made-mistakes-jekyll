@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paperfaces-800-portraits-teaser.jpg
   thumbnail: /assets/images/paperfaces-800-portraits-th.jpg
+categories: [articles]
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: false
 ---

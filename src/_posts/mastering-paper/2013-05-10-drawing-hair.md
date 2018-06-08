@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/how-to-draw-hair-teaser-2016.jpg
   thumbnail: /assets/images/how-to-draw-hair-thumb.jpg
+categories: [mastering-paper]
 tags: [Paper by 53, tutorial, hair, drawing, iPad]
 ---
 

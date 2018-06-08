@@ -18,6 +18,7 @@ gallery:
   - url: /assets/images/mm-layout-archive.png
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
+categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:

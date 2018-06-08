@@ -20,6 +20,7 @@ gallery:
     image_path: /assets/images/inktober-2016-wash-portrait-process-3-600.jpg
     image_lq_path: /assets/images/inktober-2016-wash-portrait-process-3-lq.jpg
     alt: "Ink wash portrait in process detail"
+categories: [articles]
 tags: [watercolor, painting, drawing, portrait, illustration, Inktober]
 comments: true
 last_modified_at: 2017-04-11T12:53:32-04:00

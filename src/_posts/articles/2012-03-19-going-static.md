@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/going-static-teaser.jpg
   thumbnail: /assets/images/going-static-thumb.jpg
+categories: [articles]
 tags: [Jekyll, web development, design, open source, CMS]
 comments: true
 comments_locked: true

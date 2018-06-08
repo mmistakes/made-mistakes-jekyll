@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/painting-myah-graham-teaser.jpg
   thumbnail: /assets/images/painting-myah-graham-250.jpg
+categories: [tiny-paintings]
 tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]
 ---
 

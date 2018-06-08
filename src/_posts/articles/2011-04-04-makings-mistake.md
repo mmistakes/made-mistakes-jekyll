@@ -5,6 +5,7 @@ last_modified_at: 2015-12-15
 image: 
   thumbnail: /assets/images/fadedlead-home-340x340.jpg
   teaser: /assets/images/fadedlead-home-teaser.jpg
+categories: [articles]
 tags: [CMS, website, design, Michael Rose]
 support: false
 ---

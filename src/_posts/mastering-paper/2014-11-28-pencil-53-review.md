@@ -1,6 +1,7 @@
 ---
 title: "Pencil by FiftyThree is Still the Best Stylus for Paper"
 excerpt: "Impressions of FiftyThree's Pencil stylus from the perspective of an avid Paper creator."
+categories: [mastering-paper]
 tags: [Pencil by 53, Paper by 53, stylus, iPad, blend, review]
 last_modified_at: 2017-12-13T15:28:51-05:00
 image:

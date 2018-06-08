@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-blend-first-look-teaser.jpg
   thumbnail: /assets/images/paper-53-blend-first-look-thumb.jpg
+categories: [mastering-paper]
 tags: [Paper by 53, pencil, blend, stylus, iPad]
 comments_locked: true
 ---

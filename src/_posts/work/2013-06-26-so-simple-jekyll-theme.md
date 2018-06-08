@@ -19,6 +19,7 @@ gallery:
   - url: /assets/images/so-simple-search.png
     image_path: /assets/images/so-simple-search.png
     alt: "search layout example"
+categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:

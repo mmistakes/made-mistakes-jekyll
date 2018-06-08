@@ -17,6 +17,7 @@ gallery:
   - url: /assets/images/basically-basic-theme-alternate-skin.jpg
     image_path: /assets/images/basically-basic-theme-alternate-skin-th.jpg
     alt: "alternate skin example"
+categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:

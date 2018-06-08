@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-contour-drawing-teaser.jpg
   thumbnail: /assets/images/paper-53-contour-drawing-thumb.jpg
+categories: [mastering-paper]
 tags: [Paper by 53, blind contour, tutorial, drawing, iPad]
 ---
 

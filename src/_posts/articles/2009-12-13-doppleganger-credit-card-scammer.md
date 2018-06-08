@@ -5,6 +5,7 @@ last_modified_at: 2017-09-08T08:59:18-04:00
 image: 
   thumbnail: /assets/images/michael-the-fugitive.jpg
   teaser: /assets/images/michael-the-fugitive-teaser.jpg
+categories: [articles]
 tags: [Michael Rose, Buffalo]
 support: false
 ---

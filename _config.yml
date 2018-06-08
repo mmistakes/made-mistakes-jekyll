@@ -145,7 +145,6 @@ defaults:
       type: posts
     values:
       layout: post
-      category: articles
       read_time: true
       support: true
       image:
@@ -159,7 +158,6 @@ defaults:
       type: posts
     values:
       layout: post
-      category: mastering-paper
       read_time: true
       comments: true
       support: true
@@ -187,7 +185,6 @@ defaults:
       type: posts
     values:
       layout: post
-      category: procreate-paintings
       breadcrumbs:
         - label: "Procreate Paintings"
           url: /procreate-paintings/
@@ -200,7 +197,6 @@ defaults:
       type: posts
     values:
       layout: post
-      category: til
       read_time: true
       comments: true
       support: true
@@ -213,7 +209,6 @@ defaults:
       type: posts
     values:
       layout: post
-      category: tiny-paintings
       breadcrumbs:
         - label: "Tiny Paintings"
           url: /tiny-paintings/
@@ -226,7 +221,6 @@ defaults:
       type: posts
     values:
       layout: post
-      category: work
       breadcrumbs:
         - label: "Work"
           url: /work/

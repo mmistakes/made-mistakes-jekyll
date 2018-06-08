@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/skylar-s-procreate-teaser.jpg
   thumbnail: /assets/images/skylar-s-procreate-250.jpg
+categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, time lapse, black and white, Sktchy]
 ---
 

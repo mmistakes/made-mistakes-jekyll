@@ -11,6 +11,7 @@ gallery:
   - url: /assets/images/painting-bith-process-1-lg.jpg
     image_path: /assets/images/painting-bith-process-1-900.jpg
     alt: "Work in process"
+categories: [tiny-paintings]
 tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
 ---
 

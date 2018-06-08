@@ -4,6 +4,7 @@ excerpt:
 image: 
   thumbnail: /assets/images/github-publishing-source-th.jpg
   cover: /assets/images/gradient-02-lq.jpg
+categories: [til]
 tags: [web development, GitHub, Jekyll]
 last_modified_at:
 ---

@@ -8,6 +8,7 @@ image:
   teaser: /assets/images/diving-bell-butterfly-teaser.jpg
   thumbnail: /assets/images/diving-bell-butterfly-thumb.jpg
   caption: "DVD screengrab from [**Artsy Fartsy Film**](http://artsyfartsyfilm.blogspot.com)"
+categories: [articles]
 tags: [French, foreign, film, review]
 support: false
 ---

@@ -6,6 +6,7 @@ image:
   feature: *image
   teaser: /assets/images/starting-young-teaser.jpg
   thumbnail: /assets/images/starting-young-thumb.jpg
+categories: [articles]
 tags: [Paper by 53, drawing, technology, twins]
 comments: true
 comments_locked: true

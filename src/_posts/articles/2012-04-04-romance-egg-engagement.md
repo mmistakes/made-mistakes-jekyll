@@ -7,6 +7,7 @@ image:
   feature: *image
   teaser: /assets/images/romance-engagement-teaser.jpg
   thumbnail: /assets/images/romance-engagement-thumb.jpg
+categories: [articles]
 tags: [romance]
 support: false
 last_modified_at: 2018-02-09T08:20:09-05:00
