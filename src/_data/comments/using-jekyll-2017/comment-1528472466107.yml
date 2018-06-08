@@ -1,0 +1,9 @@
+_id: 5b148b50-6b32-11e8-b74f-8d18c6d689d3
+_parent: /articles/using-jekyll-2017/
+message: "Why not [use Netlify instead](https://www.netlify.com/blog/2017/05/11/migrating-your-jekyll-site-to-netlify/)? They offer everything hosting with GitHub Pages does (free hosting, etc.) and more like being able to use whatever Jekyll plugins you want.\r\n\r\nYou can still continue to keep your repo on GitHub. All that's really needed is to add a Netlify config file and setup an account and in most cases you're good to go."
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+replying_to: '7'
+date: '2018-06-08T15:41:06.106Z'
+timestamp: 1528472466
