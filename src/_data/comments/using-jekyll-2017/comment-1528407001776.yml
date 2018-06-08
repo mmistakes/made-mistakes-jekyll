@@ -1,14 +1,11 @@
 _id: ef472d80-6a99-11e8-9030-fbc557955408
 _parent: /articles/using-jekyll-2017/
 message: >-
-  i would like to use  jekyll-paginate-v2, but still cant use that plungin on
+  I would like to use jekyll-paginate-v2, but still can't use that plugin on
   gh-pages. :(
 name: bekti
 email: aab48e6b304c0af442701e5ba34198c0
 url: 'https://bekti.net'
 replying_to: ''
 date: '2018-06-07T21:30:01.774Z'
-name-slug: bekti
 timestamp: 1528407001
-tags:
-  - comment-subscription
