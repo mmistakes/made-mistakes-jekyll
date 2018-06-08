@@ -8,7 +8,7 @@ section:
     class: "section--inverse section--about"
     image: /assets/images/michael-rose-glitched.jpg
     introduction: |
-      I'm just another boring, tattooed, *time traveling designer* from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad, and playing Xbox.
+      I'm just another boring, tattooed, *time traveling designer* from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad Pro, and playing console games.
     actions:
       - label: "Learn More"
         url: "/about/"

@@ -7,21 +7,23 @@ ads: false
 share: false
 ---
 
-Short and succinct messages [via Twitter](https://twitter.com/mmistakes) are my preferred contact point. I can also be found on several other social networks if you want to reach out and [follow me](/support/#follow-me-on-social-media) there.
+Have questions about me, this website, or creating art on an iPad?
 
-Before asking questions related to creating art on iPad or using Jekyll be sure to check the [Frequently Asked Questions section](/faqs/) --- there's a good chance I've already answered them. For anything longer please fill out the form below and I'll get back to you by email.
+Short and succinct messages [via Twitter](https://twitter.com/mmistakes) is the way to ask. You can also lurk me [elsewhere on the web](/support/#follow-me-on-social-media), if that's your thing.
 
-If you have a product, service, app, or other opportunity that you feel is a good fit for my site let me know. While I can't promise anything, I may write about it if I think it provides value to my readers.
+If you have a question, please read my [frequently asked questions section](/faqs/) first to make sure I haven't already answered it. For Jekyll and theme help it's best to submit an issue on the appropriate GitHub repo:
 
-## Contact Me
+- [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes/issues)
+- [So Simple Jekyll theme](https://github.com/mmistakes/so-simple-theme)
+- [Basically Basic Jekyll theme](https://github.com/mmistakes/jekyll-theme-basically-basic)
+- [HPSTR Jekyll theme](https://github.com/mmistakes/hpstr-jekyll-theme)
+- [Skinny Bones Jekyll theme](https://github.com/mmistakes/skinny-bones-jekyll)
+
+For anything else, use the contact form below.
 
 <script>{% include wufoo.js %}</script>
 
 <form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
-  <div class="form-group">
-    <label class="sr-only" id="title1" for="Field1"><strong>Message</strong><span id="req_1" class="req">*</span></label>
-    <textarea id="Field1" name="Field1" spellcheck="true" rows="10" cols="50" required placeholder="Message"></textarea>
-  </div>
   <div class="form-group">
     <label class="sr-only" id="title7" for="Field7"><strong>Name</strong></label>
     <input id="Field7" name="Field7" type="text" maxlength="255" placeholder="Name">
@@ -33,6 +35,10 @@ If you have a product, service, app, or other opportunity that you feel is a goo
   <div class="form-group">
     <label class="sr-only" id="title10" for="Field10"><strong>How&rsquo;d you hear about my website?</strong></label>
     <input id="Field10" name="Field10" type="text" maxlength="255" placeholder="How&rsquo;d you hear about my website?">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" id="title1" for="Field1"><strong>Message</strong><span id="req_1" class="req">*</span></label>
+    <textarea id="Field1" name="Field1" spellcheck="true" rows="10" cols="50" required placeholder="Message"></textarea>
   </div>
   <div class="form-group">
     <button id="saveForm" name="saveForm" class="btn" type="submit">Send Message</button>

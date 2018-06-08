@@ -5,7 +5,7 @@ last_modified_at: 2018-02-09T09:43:55-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
 ---
 
-The tutorials, Jekyll themes, and other articles I publish have been a true labor of love for me. If you've found any of this free content useful here's how to show your thanks and motivate me to create more of it.
+The tutorials, Jekyll themes, and other articles I publish have been a true labor of love for me. If you've found any of this content useful here's how to show your thanks and motivate me to create more.
 
 ## Send a Donation
 
@@ -37,7 +37,7 @@ Have a website or use social networking sites like Twitter, Facebook, Google+, T
 
 ## Follow Me on Social Media
 
-I post fairly infrequently on social media --- I'm not the type to barf out a stream of rants and retweets in quick succession. Posts are along the lines of in-process artwork, speed painting videos, web design and development tidbits, sarcastic remarks, and photographic fragments from what little life I live.
+I post infrequently on social media --- I'm not the type to barf out a stream of rants and retweets in quick succession. Posts are typically speed painting videos, web design and development tidbits, sarcastic remarks, and photographic fragments from what little life I live.
 
 If these sorts of things interest you, follow along on:
 
@@ -50,7 +50,7 @@ If these sorts of things interest you, follow along on:
 
 ## Subscribe to the Feeds
 
-The main feed[^feed] for everything on Made Mistakes. 
+The main feed[^feed] for everything on Made Mistakes.
 
 - Atom: [{{ 'atom.xml' | relative_url }}]({{ 'atom.xml' | relative_url }})
 - JSON: [{{ 'feed.json' | relative_url }}]({{ 'feed.json' | relative_url }})
@@ -63,4 +63,6 @@ The main feed[^feed] for everything on Made Mistakes.
 - Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
 - Today I Learned Posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
 
-[^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
+[^feed]:
+
+  Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
