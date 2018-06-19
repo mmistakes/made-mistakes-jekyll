@@ -1,0 +1,8 @@
+_id: 7a4e8d70-73ea-11e8-a09e-3391f6efd755
+_parent: /til/styling-language-specific-code-blocks/
+name: Michael Rose
+email: 1ce71bc10b86565464b612093d89707e
+url: 'https://mademistakes.com'
+message: "SCSS variables can be found in the source code for this site.\r\n\r\n[./src/assets/stylesheets/_variables.scss](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/src/assets/stylesheets/_variables.scss#L51-L95)"
+replying_to: '1'
+date: '2018-06-19T17:59:15.138Z'
