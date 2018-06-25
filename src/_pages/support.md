@@ -1,8 +1,8 @@
 ---
 permalink: /support/
 title: "Show Your Support"
-last_modified_at: 2018-02-09T09:43:55-05:00
-excerpt: "If you like the free content I provide on Made Mistakes, here are some great ways to show your support and motivate me to create more of it."
+last_modified_at: 2018-06-25T10:14:05-04:00
+excerpt: "If you like the free content I provide on Made Mistakes, here's how to show your thanks and motivate me to create more of it."
 ---
 
 The tutorials, Jekyll themes, and other articles I publish have been a true labor of love for me. If you've found any of this content useful here's how to show your thanks and motivate me to create more.
@@ -16,6 +16,7 @@ If you'd like to send a donation my way so I can continue to provide free conten
     <svg class="icon icon--paypal" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-paypal' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Send PayPal Money
   </a>
   <a href="https://cash.me/$mmistakes" onclick="ga('send', 'event', 'link', 'click', 'Send Square Cash');" class="btn">Send Square Cash</a>
+  <a href="/assets/images/bitcoin-qr.png" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoin');" class="btn" title="1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw">Send Bitcoin</a>
 </div>
 
 ## Buy Something
