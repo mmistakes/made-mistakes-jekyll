@@ -1,0 +1,90 @@
+---
+layout: null
+limit: 25
+title: "Feed"
+sitemap: false
+---
+
+{% assign limit = page.limit | default: 10 %}
+
+{
+  "version": "https://jsonfeed.org/version/1",
+  {% if page.title %}
+    "title": {{ page.title | smartify | jsonify }},
+  {% elsif site.title %}
+    "title": {{ site.title | smartify | jsonify }},
+  {% endif %}
+  "home_page_url": "{{ '/' | absolute_url }}",
+  "feed_url": "{{ page.url | absolute_url }}",
+  {% if page.excerpt %}
+    "description": {{ page.excerpt | strip_html | normalize_whitespace | jsonify }},
+  {% elsif site.description %}
+    "description": {{ site.description | strip_html | normalize_whitespace | jsonify }},
+  {% endif %}
+  "icon": "{{ 'apple-touch-icon.png' | prepend: '/assets/images/' | absolute_url }}",
+  "favicon": "{{ 'apple-touch-icon.png' | prepend: '/assets/images/' | absolute_url }}",
+  {% if site.author %}
+    "author": {
+      "name": "{{ site.author.name }}"
+      {% if site.author.url %}, "url": "{{ site.author.url }}"{% endif %}
+      {% if site.author.picture %}, "avatar": "{{ site.author.picture | absolute_url }}"{% endif %}
+    },
+  {% endif %}
+  "expired": false,
+  "items": [
+    {% comment %}for category specific feeds{% endcomment %}
+    {% assign category_limit = page.category_limit %}
+
+    {% unless page.category_limit %}
+      {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
+    {% else %}
+      {% assign posts = site.categories[category_limit] | where_exp: "post", "post.draft != true" %}
+    {% endunless %}
+
+    {% assign limit = page.limit | default: 10 %}
+    {% for post in posts limit: limit %}
+      {
+        "id": "{{ post.id | absolute_url }}",
+        "url": "{{ post.url | absolute_url }}",
+        {% if post.link %}"external_url": "{{ post.link }}",{% endif %}
+        {% capture post_content %}
+          {% if post.gallery %}
+            {% capture post_gallery %}{% include gallery.html %}{% endcapture %}
+            {{ post_gallery }}
+          {% endif %}
+          {{ post.content }}
+        {% endcapture %}
+        "content_html": {{ post_content | strip | jsonify }},
+        "content_text": {{ post.content | strip_html | normalize_whitespace | jsonify }}
+        {% if post.excerpt and post.excerpt != empty %}
+          , "summary": {{ post.excerpt | strip_html | normalize_whitespace | jsonify }}
+        {% endif %}
+        {% assign post_image = post.image.feature | default: post.image.path %}
+        {% if post_image %}
+          {% unless post_image contains "://" %}
+            {% assign post_image = post_image | absolute_url %}
+          {% endunless %}
+          , "image": "{{ post_image }}"
+        {% endif %}
+        {% if post.tags.size > 1 %}
+          {% assign tags = post.tags | sort | uniq %}
+          , "tags": {{ tags | jsonify }}
+        {% endif %}
+        {% if post.date %}, "date_published": "{{ post.date | date_to_xmlschema }}"{% endif %}
+        {% if post.last_modified_at %}, "date_modified": "{{ post.last_modified_at | date_to_xmlschema }}"{% endif %}
+
+        {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
+        {% assign post_author = site.data.authors[post_author] | default: post_author %}
+        {% assign post_author_email = post_author.email | default: nil %}
+        {% assign post_author_uri = post_author.uri | default: nil %}
+        {% assign post_author_name = post_author.name | default: post_author %}
+
+        {% if post_author %}, "author": {
+          "name": {{ post_author_name | default: '' | jsonify }}
+          {% if post_author_email %}, "email": {{ post_author_email | jsonify }}{% endif %}
+          {% if post_author_uri %}, "url": {{ post_author_uri | jsonify }}{% endif %}
+        }{% endif %}
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
