@@ -219,6 +219,10 @@
     <link rel="micropub" href="{{ site.micropub_url }}">
   {% endif %}
 
+  {% if site.microblog_url %}
+    <link rel="me" href="{{ site.microblog_url }}">
+  {% endif %}
+
   {% if site.plugins contains 'jekyll-sitemap' %}
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ 'sitemap.xml' | relative_url }}">
   {% endif %}
