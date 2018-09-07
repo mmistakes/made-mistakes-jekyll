@@ -1,0 +1,11 @@
+_id: 099acf70-af82-11e8-8da0-ff3fea61d47c
+_parent: /articles/using-jekyll-2017/
+name: Beau
+email: dadf8ed7d259f6e076539cd338dbab0e
+url: 'http://beauhilton.com/'
+message: >-
+  Drew Silcock wrote [a post on how to integrate custom plugins with
+  gh-pages](https://drewsilcock.co.uk/custom-jekyll-plugins). He uses branching
+  and a nice little script to automate things. Might be worth a look.
+replying_to: '7'
+date: '2018-09-03T14:02:48.086Z'
