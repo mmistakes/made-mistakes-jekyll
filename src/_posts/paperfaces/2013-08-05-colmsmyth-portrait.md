@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@colmsmyth](https://twitter.com/colmsmyth).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshot." %}
 [![](/assets/images/paperfaces-colmsmyth-process-1-600.jpg)](/assets/images/paperfaces-colmsmyth-process-1-lg.jpg)

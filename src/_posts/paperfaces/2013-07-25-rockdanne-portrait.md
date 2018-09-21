@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@rockdanne](https://twitter.com/rockdanne). Was almost tempted to draw a full face this time…
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in process screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-rockdanne-process-1-600.jpg)](/assets/images/paperfaces-rockdanne-process-1-lg.jpg)

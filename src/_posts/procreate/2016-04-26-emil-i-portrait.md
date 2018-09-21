@@ -31,4 +31,4 @@ After getting a taste at what pressure sensitive drawing with Procreate could be
 {% youtube fFX1CUO472U %}
 {% endfigure %}
 
-{% include boilerplate/procreate-2.md %}
+{% include_cached boilerplate/procreate-2.md %}

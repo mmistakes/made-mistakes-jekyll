@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@soulxheart](https://twitter.com/soulxheart).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

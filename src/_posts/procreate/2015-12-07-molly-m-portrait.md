@@ -19,4 +19,4 @@ The new split view in iOS 9 on the iPad is fantastic. Swiping over the Photos ap
 {% youtube 8DPmXlx58Dk %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

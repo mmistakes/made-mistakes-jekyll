@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@lmichelleinc](https://twitter.com/lmichelleinc).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Quick sketch with the pencil tool to solidify the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-lmichelleinc-process-1-600.jpg)](/assets/images/paperfaces-lmichelleinc-process-1-lg.jpg)

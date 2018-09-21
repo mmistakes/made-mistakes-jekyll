@@ -11,6 +11,6 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 PaperFaces portrait of [@cassini_](https://twitter.com/cassini_).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% youtube suObiibat7A %}

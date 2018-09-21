@@ -25,4 +25,4 @@ PaperFaces portrait of Katelyn M. inspired by a [photograph on Sktchy](http://sk
 
 Once again... [depth of field tricks](https://mix.fiftythree.com/11098-Michael-Rose/4593845) with a few quick swipes of the finger.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

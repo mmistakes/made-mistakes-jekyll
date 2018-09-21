@@ -19,4 +19,4 @@ I could have easily spent another 5 hours meticulously rendering beard whiskers 
 {% youtube oekapLJEWfs %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

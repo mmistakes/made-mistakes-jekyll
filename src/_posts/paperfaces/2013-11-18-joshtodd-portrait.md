@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@JoshTodd](https://twitter.com/JoshTodd).
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-joshtodd-process-1-600.jpg)](/assets/images/paperfaces-joshtodd-process-1-lg.jpg)

@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 
 Trading drawings for drawings. PaperFaces portrait of [Sergei R.](http://sktchy.com/YRsdZH ), inspiration found via Sktchy.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-sergei-r-process-1-750.jpg)](/assets/images/paperfaces-sergei-r-process-1-lg.jpg)

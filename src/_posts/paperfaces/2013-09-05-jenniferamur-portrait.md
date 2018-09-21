@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 I forgot to paint some plastic chairs for sitting…oops. PaperFaces portrait of [@jenniferamur](https://twitter.com/jenniferamur).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-jenniferamur-process-1-600.jpg)](/assets/images/paperfaces-jenniferamur-process-1-lg.jpg)

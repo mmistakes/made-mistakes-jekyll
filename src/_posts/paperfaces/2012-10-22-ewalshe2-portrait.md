@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@ewalshe2](https://twitter.com/ewalshe2).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

@@ -12,4 +12,4 @@ tags: [Star Wars, portrait, illustration, Paper by 53]
 
 May the 4th be with you!
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

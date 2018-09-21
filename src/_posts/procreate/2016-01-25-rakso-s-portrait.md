@@ -29,4 +29,4 @@ If you squint your eyes just right it almost looks like a photograph. Just don't
 {% youtube gn6it_JASKY %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

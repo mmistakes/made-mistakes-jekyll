@@ -19,4 +19,4 @@ Please excuse the rough hatching as I was trying to avoid over polishing the fac
 {% youtube eFr3E4yqmzM %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

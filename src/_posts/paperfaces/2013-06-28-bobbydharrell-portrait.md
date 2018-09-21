@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of project donator [@bobbydharrell](https://twitter.com/bobbydharrell).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Tried something different this time. Roughed out the face first using a pencil and then started on the background. Usually I approach an illustration the other way around but really wanted to nail the face this time." class:"gallery-2-col" %}
 [![In process screenshot](/assets/images/paperfaces-bobbydharrell-process-1-600.jpg)](/assets/images/paperfaces-bobbydharrell-process-1-lg.jpg)

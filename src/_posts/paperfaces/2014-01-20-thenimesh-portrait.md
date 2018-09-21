@@ -21,4 +21,4 @@ PaperFaces portrait of [@thenimesh](https://twitter.com/thenimesh).
 
 {% youtube s4WEGH5r-1c %}
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

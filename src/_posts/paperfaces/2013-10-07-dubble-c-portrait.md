@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces avatar portrait of <a href="https://twitter.com/Dubble_C">@Dubble_C</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching with the pencil." %}
 [![Work in process screenshot](/assets/images/paperfaces-dubble-c-process-1-750.jpg)](/assets/images/paperfaces-dubble-c-process-1-lg.jpg)

@@ -11,6 +11,6 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 PaperFaces portrait of [@4lala](https://twitter.com/4lala).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% youtube xvpF730pDQk %}

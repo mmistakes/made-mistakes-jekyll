@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@roblawton](https://twitter.com/roblawton).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

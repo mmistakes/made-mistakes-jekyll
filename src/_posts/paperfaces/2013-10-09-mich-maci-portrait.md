@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces avatar portrait of <a href="https://twitter.com/mich-maci">@mich-maci</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Building off a pencil sketch with water color." %}
 [![Work in process screenshot](/assets/images/paperfaces-mich-maci-process-1-750.jpg)](/assets/images/paperfaces-mich-maci-process-1-lg.jpg)

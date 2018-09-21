@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@SJR_online](https://twitter.com/SJR_online).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

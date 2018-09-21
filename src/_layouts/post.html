@@ -12,7 +12,7 @@ layout: default
         {{ content }}
       </div>
       {% if page.support == true %}
-        {% include support.html %}
+        {% include_cached support.html %}
       {% endif %}
     </article>
 
@@ -26,6 +26,6 @@ layout: default
 
     {% include pager.html %}
 
-    {% include footer.html %}
+    {% include_cached footer.html %}
   </div>
 </main>

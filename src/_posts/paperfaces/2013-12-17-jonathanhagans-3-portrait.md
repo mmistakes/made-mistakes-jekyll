@@ -15,7 +15,7 @@ But at the same time it has been fun approaching these portraits in a new way to
 
 PaperFaces portrait commission for [@jonathanhagans](https://twitter.com/jonathanhagans).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-3-process-1-750.jpg)](/assets/images/paperfaces-jonathanhagans-3-process-1-lg.jpg)

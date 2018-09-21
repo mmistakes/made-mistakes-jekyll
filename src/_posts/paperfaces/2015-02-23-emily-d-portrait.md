@@ -27,4 +27,4 @@ After I try out some other time lapse iOS apps I plan on sharing what I've learn
 [![Work in process screenshot](/assets/images/paperfaces-emily-d-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2256482) [![Work in process screenshot](/assets/images/paperfaces-emily-d-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2298299)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

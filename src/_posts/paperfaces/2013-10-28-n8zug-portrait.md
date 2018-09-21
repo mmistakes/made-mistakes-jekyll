@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@n8zug](https://twitter.com/n8zug).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out the composition with pencil." %}
 [![Work in process screenshot](/assets/images/paperfaces-n8zug-process-1-750.jpg)](/assets/images/paperfaces-n8zug-process-1-lg.jpg)

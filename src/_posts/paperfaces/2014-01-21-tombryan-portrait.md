@@ -13,7 +13,7 @@ last_modified_at: 2017-01-17T16:15:25-05:00
 
 PaperFaces portrait of [@tombryan](https://twitter.com/tombryan).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-tombryan-process-1-750.jpg)](/assets/images/paperfaces-tombryan-process-1-lg.jpg)

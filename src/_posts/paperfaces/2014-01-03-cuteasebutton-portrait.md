@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@cuteasebutton](http://instagram.com/cuteasebutton). I really enjoy drawing long hair, couldn't you tell?
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-cuteasebutton-process-1-750.jpg)](/assets/images/paperfaces-cuteasebutton-process-1-lg.jpg)

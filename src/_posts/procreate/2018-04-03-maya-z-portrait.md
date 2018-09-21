@@ -23,4 +23,4 @@ Portrait of Maya Z. inspired by a [photograph on Sktchy](http://sktchy.com/efNbv
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </figure>
 
-{% include boilerplate/procreate-3.md %}
+{% include_cached boilerplate/procreate-3.md %}

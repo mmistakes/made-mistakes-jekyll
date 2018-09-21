@@ -26,4 +26,4 @@ The best part is seeing what others do with them when remixed. I know some other
 [![Twins with beards remix](/assets/images/paperfaces-rosebuds-pumpkins-remix-1-600.jpg)](https://mix.fiftythree.com/423648-Josh-Carter/424227) [![Chloe with balloons remix](/assets/images/paperfaces-rosebuds-pumpkins-remix-2-600.jpg)](https://mix.fiftythree.com/41733-Yuko-Rabbit/420387) [![Chloe the slug remix](/assets/images/paperfaces-rosebuds-pumpkins-remix-4-600.jpg)](https://mix.fiftythree.com/431989-Juan-De-Salas/432123)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

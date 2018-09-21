@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, bokeh]
 
 PaperFaces portrait of [@jackmcdade](https://twitter.com/jackmcdade). Went all choppy with my watercolor strokes in the background to simulate a bokeh effect and add dimension to the composition.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-jackmcdade-process-1-600.jpg)](/assets/images/paperfaces-jackmcdade-process-1-lg.jpg)

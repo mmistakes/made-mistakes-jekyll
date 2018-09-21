@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of <a href="https://twitter.com/BigMajk">@BigMajk</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-bigmajk-process-1-750.jpg)](/assets/images/paperfaces-bigmajk-process-1-lg.jpg)

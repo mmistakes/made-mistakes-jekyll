@@ -19,4 +19,4 @@ Now we're getting somewhere. Half finished is the new finished.
 {% youtube 38nMoHaAJxQ %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

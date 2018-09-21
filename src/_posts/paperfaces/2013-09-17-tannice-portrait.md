@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of <a href="https://twitter.com/Tannice_">@Tannice</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out a face with the pencil tool." %}
 [![](/assets/images/paperfaces-tannice-process-1-750.jpg)](/assets/images/paperfaces-tannice-process-1-lg.jpg)

@@ -22,4 +22,4 @@ Tiny self portrait painted with watercolor on hot press paper.
 
 Final painting measures 1.5\" x 1.5\" and was completed in just under one hour. I find its always easier to work with foreign media when starting with a familiar subject. In this case it was my own face... well part of it at least.
 
-{% include boilerplate/watercolor.md %}
+{% include_cached boilerplate/watercolor.md %}

@@ -7,7 +7,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.0)
+    activesupport (5.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -37,13 +37,13 @@ GEM
     ffi (1.9.25)
     ffi (1.9.25-x64-mingw32)
     ffi (1.9.25-x86-mingw32)
-    filesize (0.1.1)
+    filesize (0.2.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
-    html-pipeline (2.8.0)
+    html-pipeline (2.8.4)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (3.9.1)
+    html-proofer (3.9.2)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colorize (~> 0.8)
@@ -56,7 +56,7 @@ GEM
     httpclient (2.8.3)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.3)
+    jekyll (3.8.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -69,7 +69,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-algolia (1.4.2)
+    jekyll-algolia (1.4.7)
       algolia_html_extractor (~> 2.6)
       algoliasearch (~> 1.18)
       filesize (~> 0.1)
@@ -78,7 +78,9 @@ GEM
       nokogiri (~> 1.6)
       progressbar (~> 1.9)
       verbal_expressions (~> 0.1.5)
-    jekyll-paginate-v2 (1.9.4)
+    jekyll-include-cache (0.1.0)
+      jekyll (~> 3.3)
+    jekyll-paginate-v2 (2.0.0)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -91,12 +93,12 @@ GEM
     jekyll-tagging-related_posts (1.0.0)
       jekyll (~> 3.0)
       jekyll-tagging (~> 1.0)
-    jekyll-typogrify (0.3.3)
+    jekyll-typogrify (0.3.5)
       titlecase
       typogruby
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    jemoji (0.10.0)
+    jemoji (0.10.1)
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
@@ -110,27 +112,27 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    nokogiri (1.8.3)
+    nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.3-x64-mingw32)
+    nokogiri (1.8.4-x64-mingw32)
       mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.3-x86-mingw32)
+    nokogiri (1.8.4-x86-mingw32)
       mini_portile2 (~> 2.3.0)
-    nuggets (1.5.0)
+    nuggets (1.6.0)
     parallel (1.12.1)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
-    progressbar (1.9.0)
-    public_suffix (3.0.2)
+    progressbar (1.10.0)
+    public_suffix (3.0.3)
     rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rouge (3.1.1)
+    rouge (3.2.1)
     ruby_dep (1.5.0)
     rubypants (0.7.0)
     safe_yaml (1.0.4)
-    sass (3.5.6)
+    sass (3.6.0)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -159,6 +161,7 @@ DEPENDENCIES
   jekyll
   jekyll-algolia
   jekyll-figure!
+  jekyll-include-cache
   jekyll-paginate-v2
   jekyll-seo-tag
   jekyll-sitemap
@@ -168,4 +171,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.16.1
+   1.16.3

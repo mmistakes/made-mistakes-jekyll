@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, blend, bokeh, hockey]
 
 PaperFaces portrait commission of [@J_Miner9](https://twitter.com/J_Miner9).
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-j-miner9-process-1-600.jpg)](/assets/images/paperfaces-j-miner9-process-1-lg.jpg)

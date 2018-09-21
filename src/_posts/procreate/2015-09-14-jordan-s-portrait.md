@@ -19,4 +19,4 @@ Not as muddy as some of my other Procreate paintings, but it still has that *oil
 {% youtube vtlXSRvbXYg %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

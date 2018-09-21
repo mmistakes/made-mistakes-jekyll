@@ -12,4 +12,4 @@ tags: [portrait, illustration, Paper by 53, bokeh]
 
 PaperFaces portrait of [@JakeMoore](https://twitter.com/JakeMoore).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

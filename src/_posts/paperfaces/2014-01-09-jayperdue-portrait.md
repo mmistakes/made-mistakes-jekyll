@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend, beard]
 
 PaperFaces portrait of [@jayperdue](https://twitter.com/jayperdue).
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-jayperdue-process-1-750.jpg)](/assets/images/paperfaces-jayperdue-process-1-lg.jpg)

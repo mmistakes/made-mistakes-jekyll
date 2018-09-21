@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 PaperFaces portrait commission.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"About 2 hours of drawing and painting." %}
 {% youtube zFG6M8PKdlc %}

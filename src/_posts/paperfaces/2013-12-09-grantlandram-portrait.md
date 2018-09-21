@@ -17,7 +17,7 @@ The time lapse effect came out ok, but have to look at lighting the work area be
 
 PaperFaces portrait of [@GrantLandram](https://twitter.com/GrantLandram).
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"About 2 hours of drawing and painting with 53's new Pencil stylus." %}
 {% youtube JqVzqVG0e5g %}

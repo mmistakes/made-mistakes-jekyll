@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of project donator [@josearato](https://twitter.com/josearato). Why did I almost draw the entire face this team --- because well, I had to leave something unfinished.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Lightly sketch out the composition to act as a guide for painting with watercolor." %}
 [![Work in process screenshot](/assets/images/paperfaces-josearato-process-1-600.jpg)](/assets/images/paperfaces-josearato-process-1-lg.jpg)

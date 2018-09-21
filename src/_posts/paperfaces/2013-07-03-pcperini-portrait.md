@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@pcperini](https://twitter.com/pcperini). Perspective might be off and if you tried to walk up these stairs I'm sure you'd fall on your face.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

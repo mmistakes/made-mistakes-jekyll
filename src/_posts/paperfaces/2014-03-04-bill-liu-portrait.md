@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, blend, bokeh]
 
 PaperFaces portrait commission of a Bill Liu.
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-bill-liu-process-1-600.jpg)](/assets/images/paperfaces-bill-liu-process-1-lg.jpg)

@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, Mates of State]
 
 Korie and Jason from the band Mates of State. Drawn predominantly with the pencil tool on a light orange background, with a hint of watercolor.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

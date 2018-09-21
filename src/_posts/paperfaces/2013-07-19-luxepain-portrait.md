@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@luxepain](https://twitter.com/luxepain). Always looking to further perfect my hair drawing skills --- boy was there a bunch of hair for me to practice on in this sketch! I'm including a few work in progress screen grabs below showing how I built up the hair with pencil line after pencil line after pencil line.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Drawing the face pencil first, watercolor second." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-luxepain-process-1-600.jpg)](/assets/images/paperfaces-luxepain-process-1-lg.jpg)

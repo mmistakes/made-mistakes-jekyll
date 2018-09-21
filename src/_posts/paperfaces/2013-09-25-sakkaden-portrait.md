@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait commissioned by <a href="https://twitter.com/sakkaden">@sakkaden</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching with the pencil." %}
 [![](/assets/images/paperfaces-sakkaden-process-1-750.jpg)](/assets/images/paperfaces-sakkaden-process-1-lg.jpg)

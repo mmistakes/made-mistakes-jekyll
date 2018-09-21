@@ -11,6 +11,6 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 PaperFaces portrait of project donator [@jamesIII](https://twitter.com/jamesIII).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% youtube ntWqGHiApsE %}

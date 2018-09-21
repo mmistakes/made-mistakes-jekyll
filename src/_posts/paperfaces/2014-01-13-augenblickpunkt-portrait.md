@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend]
 
 PaperFaces portrait portrait of [@augenblickpunkt](https://twitter.com/augenblickpunkt).
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-augenblickpunkt-process-1-600.jpg)](/assets/images/paperfaces-augenblickpunkt-process-1-lg.jpg)

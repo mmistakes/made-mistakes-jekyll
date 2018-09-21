@@ -16,7 +16,7 @@ Mental note: a little Blend goes a long way.
 
 PaperFaces portrait of [@dermike](https://twitter.com/dermike).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"In process blending." %}
 [![](/assets/images/paperfaces-dermike-process-1-750.jpg)](/assets/images/paperfaces-dermike-process-1-lg.jpg)

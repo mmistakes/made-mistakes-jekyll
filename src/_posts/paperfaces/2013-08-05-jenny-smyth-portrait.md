@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@Jenny_Smyth](https://twitter.com/Jenny_Smyth).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-jenny-smyth-process-1-600.jpg)](/assets/images/paperfaces-jenny-smyth-process-1-lg.jpg)

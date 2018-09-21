@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@andrewbrewer](https://twitter.com/andrewbrewer).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Using the watercolor brush to paint the background." %}
 [![](/assets/images/paperfaces-andrewbrewer-process-1-750.jpg)](/assets/images/paperfaces-andrewbrewer-process-1-lg.jpg)

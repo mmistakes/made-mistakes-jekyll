@@ -13,7 +13,7 @@ What's with all the full faces lately you ask? Well let's just say I set a chall
 
 PaperFaces portrait commission for [@adammorgan100](https://twitter.com/adammorgan100).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-adammorgan100-2-process-1-600.jpg)](/assets/images/paperfaces-adammorgan100-2-process-1-lg.jpg)

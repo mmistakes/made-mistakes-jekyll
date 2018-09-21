@@ -19,4 +19,4 @@ I still don't own an [iPad Pro or Apple Pencil]({% post_url /articles/2015-09-25
 {% youtube ggx-gAmrKiM %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

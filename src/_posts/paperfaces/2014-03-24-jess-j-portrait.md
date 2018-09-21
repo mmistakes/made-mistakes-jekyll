@@ -17,7 +17,7 @@ Unfortunately the pencil tool doesn't scale in size when zoomed in like the ink 
 
 PaperFaces portrait of a [Jess J.](http://sktchy.com/pFAWd ) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jess-j-process-1-600.jpg)](/assets/images/paperfaces-jess-j-process-1-lg.jpg)

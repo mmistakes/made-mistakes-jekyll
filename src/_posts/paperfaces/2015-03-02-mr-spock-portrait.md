@@ -23,7 +23,7 @@ Getting pretty close to a setup that works well for me, just need to nail down t
 
 I've also shared several in-process sketches and the [finished illustration](https://mix.fiftythree.com/11098-Michael-Rose/2406576) on Mix for anyone to Remix.
 
-{% include boilerplate/paperfaces-5.md %}
+{% include_cached boilerplate/paperfaces-5.md %}
 
 {% figure caption:"Work in progress drawings available on Mix." class:"third' %}
 [![Work in process screenshot](/assets/images/paperfaces-mr-spock-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394700) [![Work in process screenshot](/assets/images/paperfaces-mr-spock-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2394966) [![Work in process screenshot](/assets/images/paperfaces-mr-spock-process-3-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2400718)

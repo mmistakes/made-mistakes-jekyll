@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of <a href="https://twitter.com/agebhard">@agebhard</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Working the background with watercolor." %}
 [![](/assets/images/paperfaces-agebhard-process-1-750.jpg)](/assets/images/paperfaces-agebhard-process-1-lg.jpg)

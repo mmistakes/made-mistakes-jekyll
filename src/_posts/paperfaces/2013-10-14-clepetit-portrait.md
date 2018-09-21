@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces avatar portrait of <a href="https://twitter.com/clepetit">@clepetit</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Painting the background with many layers of watercolor." %}
 [![Work in process screenshot](/assets/images/paperfaces-clepetit-process-1-750.jpg)](/assets/images/paperfaces-clepetit-process-1-lg.jpg)

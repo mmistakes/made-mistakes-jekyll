@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@TheBrendanBrown](https://twitter.com/TheBrendanBrown).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-thebrendanbrown-process-1-750.jpg)](/assets/images/paperfaces-thebrendanbrown-process-1-lg.jpg)

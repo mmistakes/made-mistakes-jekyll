@@ -21,4 +21,4 @@ One thing I've found working digitally these last couple of years is it can be a
 [![Work in process screenshot](/assets/images/paperfaces-myriam-j-process-1-900.jpg)](/assets/images/paperfaces-myriam-j-process-1-lg.jpg)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

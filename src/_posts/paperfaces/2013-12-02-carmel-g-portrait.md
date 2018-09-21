@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend, Sktchy]
 
 PaperFaces portrait of [Carmel G.](http://sktchy.com/uViYnH ).
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-carmel-g-process-1-750.jpg)](/assets/images/paperfaces-carmel-g-process-1-lg.jpg)

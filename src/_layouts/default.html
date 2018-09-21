@@ -10,7 +10,7 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
 
-    {% include skip-links.html %}
+    {% include_cached skip-links.html %}
 
     <div class="sidebar-toggle-wrapper">
       <button class="search-toggle" type="button">
@@ -29,8 +29,8 @@
 
     <div id="sidebar" class="sidebar">
       <div class="inner">
-        {% include navigation.html %}
-        {% include contact-list.html %}
+        {% include_cached navigation.html %}
+        {% include_cached contact-list.html %}
       </div>
     </div>
 
@@ -41,7 +41,7 @@
           {{ content }}
         </div>
         <div class="search-content">
-          {% include search-form.html %}
+          {% include_cached search-form.html %}
         </div>
       </div>
     </div>

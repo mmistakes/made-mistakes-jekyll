@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces avatar portrait of <a href="https://twitter.com/olucho">@olucho</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-olucho-process-1-600.jpg)](/assets/images/paperfaces-olucho-process-1-lg.jpg)

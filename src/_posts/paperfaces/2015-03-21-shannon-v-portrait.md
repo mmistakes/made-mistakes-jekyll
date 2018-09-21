@@ -19,4 +19,4 @@ Sometimes when I feel lazy I go after a silhouette. Shading goes out the window 
 [![Work in process screenshot](/assets/images/paperfaces-shannon-v-process-1-900.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2575904)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

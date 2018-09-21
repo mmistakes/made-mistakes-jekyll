@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, tattoo]
 
 PaperFaces portrait of [@caziebaby](https://twitter.com/caziebaby).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

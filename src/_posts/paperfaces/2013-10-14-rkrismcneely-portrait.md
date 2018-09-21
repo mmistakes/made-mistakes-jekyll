@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, 8-bit]
 
 PaperFaces portrait of [@rkrismcneely](https://twitter.com/rkrismcneely).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Sketching out the composition with pencil." %}
 [![Work in process screenshot](/assets/images/paperfaces-rkrismcneely-process-1-750.jpg)](/assets/images/paperfaces-rkrismcneely-process-1-lg.jpg)

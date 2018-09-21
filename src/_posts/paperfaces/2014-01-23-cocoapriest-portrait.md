@@ -15,7 +15,7 @@ I merely added a few white highlights to the sunglasses and facial hair stubble,
 
 PaperFaces portrait of [@cocoapriest](https://twitter.com/cocoapriest).
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-1-600.jpg)](/assets/images/paperfaces-cocoapriest-process-1-lg.jpg)

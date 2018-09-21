@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@ekinding](https://twitter.com/ekinding). Had a lot of fun with this creeptacular illustration.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out a face with the pencil tool." %}
 [![](/assets/images/paperfaces-ekinding-process-1-750.jpg)](/assets/images/paperfaces-ekinding-process-1-lg.jpg)

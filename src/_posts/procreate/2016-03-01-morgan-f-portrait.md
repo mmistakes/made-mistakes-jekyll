@@ -23,4 +23,4 @@ I've found playing with opacity and the glazing toggles gets color results simil
 {% youtube -PVofD2A9t8 %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

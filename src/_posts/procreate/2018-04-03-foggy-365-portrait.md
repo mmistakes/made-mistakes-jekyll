@@ -20,4 +20,4 @@ Trying to emulate the look of graphite on paper...
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </figure>
 
-{% include boilerplate/procreate-3.md %}
+{% include_cached boilerplate/procreate-3.md %}

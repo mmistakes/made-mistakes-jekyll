@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@angel__frias](https://instagram.com/angel__frias).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-angel-frias-process-1-750.jpg)](/assets/images/paperfaces-angel-frias-process-1-lg.jpg)

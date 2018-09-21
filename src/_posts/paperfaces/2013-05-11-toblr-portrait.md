@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, hoodie]
 
 PaperFaces portrait of [@toblr](https://twitter.com/toblr).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

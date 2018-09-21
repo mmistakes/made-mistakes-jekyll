@@ -17,7 +17,7 @@ For this drawing I wanted to try something a little looser than my latest drawin
 
 The original drawing is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/162842) if you want a closer look or to riff on.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-lisset-m-process-1-600.jpg)](/assets/images/paperfaces-lisset-m-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-lisset-m-process-2-600.jpg)](/assets/images/paperfaces-lisset-m.jpg)

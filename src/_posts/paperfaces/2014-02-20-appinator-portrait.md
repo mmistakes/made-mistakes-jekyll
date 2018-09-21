@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, black and white, blend, bokeh]
 
 PaperFaces portrait of [@appinator](https://twitter.com/appinator).
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-appinator-process-1-600.jpg)](/assets/images/paperfaces-appinator-process-1-lg.jpg)

@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@tr4y](https://twitter.com/tr4y).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

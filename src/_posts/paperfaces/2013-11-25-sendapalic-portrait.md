@@ -13,7 +13,7 @@ Blend is one of those tools that can easily be abused. Trying to limit its use t
 
 PaperFaces portrait of [@sendapalic](https://twitter.com/sendapalic).
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-sendapalic-process-1-750.jpg)](/assets/images/paperfaces-sendapalic-process-1-lg.jpg)

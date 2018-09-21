@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white, beard]
 
 PaperFaces portrait of [@Archaikh](https://twitter.com/Archaikh).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Lightly sketching out the composition in pencil." %}
 [![](/assets/images/paperfaces-archaikh-process-1-750.jpg)](/assets/images/paperfaces-archaikh-process-1-lg.jpg)

@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, Iron Man]
 
 Saw Iron Man 3 last night and figured I'd challenge myself by drawing the Iron Man himself --- Tony Stark. Those post credit scenes always leave me wanting more Marvel film goodness…
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress sketches." class:"gallery-3-col" %}
 [![Background complete. Outlining the figure in pencil.](/assets/images/paperfaces-iron-man-3-wip-1-230.jpg)](/assets/images/paperfaces-iron-man-3-wip-1-lg.jpg)

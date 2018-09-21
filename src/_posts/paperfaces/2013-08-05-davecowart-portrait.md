@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@davecowart](https://twitter.com/davecowart). Was feeling under the weather when I painted this, but the show must go on!
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshot." %}
 [![](/assets/images/paperfaces-davecowart-process-1-600.jpg)](/assets/images/paperfaces-davecowart-process-1-lg.jpg)

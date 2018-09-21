@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, time lapse]
 
 PaperFaces portrait of [Esty C.](http://sktchy.com/WfStFC ), inspiration found via Sktchy.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-esty-c-process-1-750.jpg)](/assets/images/paperfaces-esty-c-process-1-lg.jpg)

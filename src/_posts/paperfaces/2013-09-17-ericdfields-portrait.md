@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, grass]
 
 PaperFaces portrait of [@ericdfields](https://twitter.com/ericdfields).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out a face with the pencil tool." %}
 [![](/assets/images/paperfaces-ericdfields-process-1-750.jpg)](/assets/images/paperfaces-ericdfields-process-1-lg.jpg)

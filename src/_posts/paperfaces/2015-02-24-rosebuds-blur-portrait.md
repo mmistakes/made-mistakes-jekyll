@@ -23,4 +23,4 @@ Found that Lapse It offers way more customization than iOS's Camera app or [Hype
 
 I've also shared an [in-process sketch](https://mix.fiftythree.com/11098-Michael-Rose/2323353) and the [finished illustration](https://mix.fiftythree.com/11098-Michael-Rose/2334429) on Mix.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

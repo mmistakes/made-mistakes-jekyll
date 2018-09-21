@@ -13,7 +13,7 @@ last_modified_at: 2017-01-17T15:57:55-05:00
 
 PaperFaces portrait of [@theoduscrane](https://twitter.com/theoduscrane).
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-theoduscrane-process-1-600.jpg)](/assets/images/paperfaces-theoduscrane-process-1-lg.jpg)

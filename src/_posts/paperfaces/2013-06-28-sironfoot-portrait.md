@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@sironfoot's](https://twitter.com/sironfoot) avatar. I think this is a hamster, but the lack of ears has me unsure. Drawing all the fuzzy fur sure was fun.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Working on the background first, before I draw in the little guy." %}
 [![In process screenshot](/assets/images/paperfaces-sironfoot-process-600.jpg)](/assets/images/paperfaces-sironfoot-process-lg.jpg)

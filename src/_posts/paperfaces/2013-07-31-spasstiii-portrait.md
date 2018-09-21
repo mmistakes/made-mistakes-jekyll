@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@spasstiii](https://twitter.com/spasstiii).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-spasstiii-process-1-600.jpg)](/assets/images/paperfaces-spasstiii-process-1-lg.jpg)

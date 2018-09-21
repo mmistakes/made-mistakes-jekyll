@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend]
 
 PaperFaces portrait of [@DariaLuna_](https://twitter.com/DariaLuna_).
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-darialuna-process-1-750.jpg)](/assets/images/paperfaces-darialuna-process-1-lg.jpg)

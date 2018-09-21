@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@mentalground0](https://twitter.com/mentalground0).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Quickly sketching things out and laying down some watercolor." %}
 [![Work in process screenshot](/assets/images/paperfaces-mentalground0-process-1-600.jpg)](/assets/images/paperfaces-mentalground0-process-1-lg.jpg)

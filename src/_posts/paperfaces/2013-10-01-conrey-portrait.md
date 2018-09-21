@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces avatar portrait of <a href="https://twitter.com/conrey">@conrey</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching with the pencil." %}
 [![](/assets/images/paperfaces-conrey-process-1-750.jpg)](/assets/images/paperfaces-conrey-process-1-lg.jpg)

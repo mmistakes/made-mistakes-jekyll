@@ -15,7 +15,7 @@ To build up values in the faces I used the pencil tool exclusively --- adding sh
 
 PaperFaces portrait commission for [@jonathanhagans](https://twitter.com/jonathanhagans).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-1-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-1-lg.jpg)

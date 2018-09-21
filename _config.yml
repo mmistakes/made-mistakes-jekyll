@@ -123,6 +123,7 @@ plugins:
   - jekyll-algolia
   - jekyll/tagging
   - jekyll-tagging-related_posts
+  - jekyll-include-cache
 
 # Collections
 collections:

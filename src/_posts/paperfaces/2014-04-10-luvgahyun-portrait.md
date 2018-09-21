@@ -13,7 +13,7 @@ last_modified_at: 2017-01-17T14:08:59-05:00
 
 PaperFaces portrait of [@luvgahyun](https://twitter.com/luvgahyun).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-luvgahyun-process-1-600.jpg)](/assets/images/paperfaces-luvgahyun-process-1-lg.jpg)

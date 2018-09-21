@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@web_martin](https://twitter.com/web_martin).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Use soft quick watercolor strokes layered on top of each other to simulate a blurred background. Helps add contrast to the composition when drawing crisp lines in the figures' hair." %}
 [![Work in process screenshot](/assets/images/paperfaces-web-martin-process-1-600.jpg)](/assets/images/paperfaces-web-martin-process-1-lg.jpg)

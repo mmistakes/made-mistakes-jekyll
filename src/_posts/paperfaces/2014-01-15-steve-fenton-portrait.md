@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend, black and white]
 
 PaperFaces portrait of [@steve_fenton](https://twitter.com/steve_fenton).
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-steve-fenton-process-1-750.jpg)](/assets/images/paperfaces-steve-fenton-process-1-lg.jpg)

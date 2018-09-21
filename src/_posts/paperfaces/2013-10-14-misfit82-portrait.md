@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 *I want your skulls --- I need your skulls.* PaperFaces avatar portrait of [@misfit82](https://twitter.com/misfit82).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out the composition with pencil." %}
 [![Work in process screenshot](/assets/images/paperfaces-misfit82-process-1-750.jpg)](/assets/images/paperfaces-misfit82-process-1-lg.jpg)

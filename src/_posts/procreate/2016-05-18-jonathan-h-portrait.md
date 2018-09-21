@@ -25,4 +25,4 @@ Maybe I should just give the digital stuff a break for now and go old school wit
 
 Only problem I have is I love the freedom and convenience of digital art. I've gotten so used to not working at a desk and getting messy it would be hard to go back. Hmm...
 
-{% include boilerplate/procreate-2.md %}
+{% include_cached boilerplate/procreate-2.md %}

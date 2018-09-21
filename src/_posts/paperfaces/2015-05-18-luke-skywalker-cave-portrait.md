@@ -27,7 +27,7 @@ As I have done for the last 2 years, here's a new illustration drawn with Paper 
 
 To the right are some shots of the gigantic 40\" framed print I received for being one of eleven winning entries in the [**FiftyThree** and **CanvasPop** design contest](http://blog.fiftythree.com/canvaspop-design-contest-winners). Don't mind the glare, photographing a dark piece of artwork behind glass wasn't easy.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-luke-vader-cave-process-1-600.jpg)](/assets/images/paperfaces-luke-vader-cave-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-luke-vader-cave-process-3-600.jpg)](/assets/images/paperfaces-luke-vader-cave-process-3-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-luke-vader-cave-process-4-600.jpg)](/assets/images/paperfaces-luke-vader-cave-process-4-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-luke-vader-cave-process-5-600.jpg)](/assets/images/paperfaces-luke-vader-cave-process-5-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-luke-vader-cave-process-6-600.jpg)](/assets/images/paperfaces-luke-vader-cave-process-6-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-luke-vader-cave-process-7-600.jpg)](/assets/images/paperfaces-luke-vader-cave-process-7-lg.jpg)

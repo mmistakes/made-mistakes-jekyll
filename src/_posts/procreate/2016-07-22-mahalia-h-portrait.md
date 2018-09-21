@@ -23,4 +23,4 @@ I'm sure it's nowhere close to the responsiveness one experiences with Apple's P
 {% youtube W0q-UBnz6QA %}
 {% endfigure %}
 
-{% include boilerplate/procreate-2.md %}
+{% include_cached boilerplate/procreate-2.md %}

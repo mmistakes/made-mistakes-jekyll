@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, blend, bokeh, time lapse]
 
 My first PaperFaces portrait commission using two styli to complete.
 
-{% include boilerplate/paperfaces-4.md %}
+{% include_cached boilerplate/paperfaces-4.md %}
 
 {% figure caption:"Painted in about an hour and 30 minutes." %}
 {% youtube y1OG2gLk6Jg %}

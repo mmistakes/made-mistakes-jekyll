@@ -11,6 +11,6 @@ tags: [portrait, illustration, Paper by 53, beard, time lapse]
 
 PaperFaces portrait commission for Wakas Mir. Making of video below.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% youtube Helg9hmHyuc %}

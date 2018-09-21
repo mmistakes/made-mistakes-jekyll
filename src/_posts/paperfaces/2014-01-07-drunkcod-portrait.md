@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@drunkcod](https://twitter.com/drunkcod). Suppose I could have flipped the reference photo right side up before drawing it, but where's the fun in that?
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-drunkcod-process-1-750.jpg)](/assets/images/paperfaces-drunkcod-process-1-lg.jpg)

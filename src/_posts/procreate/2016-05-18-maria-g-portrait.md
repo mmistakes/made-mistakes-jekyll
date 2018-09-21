@@ -29,4 +29,4 @@ The updates I'm enjoying the most are:
 
 The painting is really rough and needs a lot more work. I was mainly interested and see how Reflector handled the recording than the actual painting.
 
-{% include boilerplate/procreate-2.md %}
+{% include_cached boilerplate/procreate-2.md %}

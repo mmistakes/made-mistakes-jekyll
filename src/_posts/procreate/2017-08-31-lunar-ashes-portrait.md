@@ -20,4 +20,4 @@ A lovers embrace painting for a Valentine's Day inspired Sktchy challenge titled
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </figure>
 
-{% include boilerplate/procreate-2.md %}
+{% include_cached boilerplate/procreate-2.md %}

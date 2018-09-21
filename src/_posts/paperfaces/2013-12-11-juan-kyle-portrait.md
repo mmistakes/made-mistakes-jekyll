@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend, time lapse]
 
 Drawing small faces with Paper and Pencil is no joke. PaperFaces portrait of Juan and Kyle.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Drawn with Pencil by 53 in about an hour." %}
 {% youtube LnoRZarcrjc %}

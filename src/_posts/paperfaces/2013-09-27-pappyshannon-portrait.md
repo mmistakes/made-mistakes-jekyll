@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 "Welcome to Jurassic Park." PaperFaces avatar portrait of <a href="https://twitter.com/PappyShannon">@PappyShannon</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-pappyshannon-process-1-600.jpg)](/assets/images/paperfaces-pappyshannon-process-1-lg.jpg)

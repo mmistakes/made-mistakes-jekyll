@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@tiamclaurin](https://twitter.com/tiamclaurin).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-tiamclaurin-process-1-600.jpg)](/assets/images/paperfaces-tiamclaurin-process-1-lg.jpg)

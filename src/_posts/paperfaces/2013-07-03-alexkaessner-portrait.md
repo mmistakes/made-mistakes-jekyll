@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@alexkaessner](https://twitter.com/alexkaessner). On occasion, I'll attempt a more detailed portrait that actually includes an eye, a nose, or a mouth. It's easier to fake being an artist when you only half to draw half… 
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

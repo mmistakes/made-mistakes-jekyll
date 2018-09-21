@@ -23,4 +23,4 @@ Final painting measures 1.5\" x 1.5\".
 {% youtube QDpXp5v2syk %}
 {% endfigure %}
 
-{% include boilerplate/watercolor.md %}
+{% include_cached boilerplate/watercolor.md %}

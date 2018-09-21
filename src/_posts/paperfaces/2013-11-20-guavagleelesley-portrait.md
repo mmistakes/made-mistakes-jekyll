@@ -13,7 +13,7 @@ First portrait I've drawn using that new Pencil stylus everyone is talking about
 
 PaperFaces portrait of [@GuavaGleeLesley](https://twitter.com/GuavaGleeLesley).
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-guavagleelesley-process-1-600.jpg)](/assets/images/paperfaces-guavagleelesley-process-1-lg.jpg)

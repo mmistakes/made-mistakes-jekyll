@@ -28,4 +28,4 @@ PaperFaces portrait of Neon L. inspired by a [photograph on Sktchy](http://sktch
 
 Once again... [faking that bokeh](https://mix.fiftythree.com/11098-Michael-Rose/3957855) with a few quick swipes of the finger.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

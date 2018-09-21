@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@andispringer](https://twitter.com/andispringer). If you haven't noticed a theme yet --- I tend to draw a full face when working in black and white.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Quick sketch with the pencil tool to figure out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-andispringer-process-1-600.jpg)](/assets/images/paperfaces-andispringer-process-1-lg.jpg)

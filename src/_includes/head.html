@@ -37,11 +37,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i|Roboto:400,400i,700">
   <!--#else-->
     {% if page.layout == 'home' %}
-      <style>{% include critical-home.css %}</style>
+      <style>{% include_cached critical-home.css %}</style>
     {% elsif page.layout == 'archive' or page.layout == 'archive_work' or page.layout == 'autopage_tags' %}
-      <style>{% include critical-archive.css %}</style>
+      <style>{% include_cached critical-archive.css %}</style>
     {% elsif page.layout == 'post' or page.layout == 'page' %}
-      <style>{% include critical-post.css %}</style>
+      <style>{% include_cached critical-post.css %}</style>
     {% endif %}
   <!--#endif-->
   <!-- htmlmin:ignore -->
@@ -205,7 +205,7 @@
   </script>
   <noscript><link rel="stylesheet" href="{{ style_css }}"></noscript>
 
-  {% include favicons.html %}
+  {% include_cached favicons.html %}
 
   {% if site.pingback_url %}
     <link rel="pingback" href="{{ site.pingback_url }}">

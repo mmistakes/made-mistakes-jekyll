@@ -21,4 +21,4 @@ PaperFaces portrait of [@seanblezard](https://twitter.com/seanblezard).
 [![](/assets/images/paperfaces-seanblezard-process-3-600.jpg)](/assets/images/paperfaces-seanblezard-process-3-lg.jpg)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

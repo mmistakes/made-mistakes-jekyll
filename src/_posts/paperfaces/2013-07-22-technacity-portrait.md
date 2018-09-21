@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@technacity](https://twitter.com/technacity). Drawing clouds and waves is actually quite easy when using Paper by 53's pencil and watercolor brush. I like to lay down a few wash layers with a color that makes up a majority of the sky or water. Then using white I quickly and lightly brush in the clouds and wave foam. To finish I went along the edges with a white pencil and lightly defined the clouds and splashes.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-technacity-process-1-600.jpg)](/assets/images/paperfaces-technacity-process-1-lg.jpg)

@@ -23,4 +23,4 @@ Another experiment in recording my drawing process using on iPad, recorded with 
 [![Work in process screenshot](/assets/images/paperfaces-rafi-z-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2359890) [![Work in process screenshot](/assets/images/paperfaces-rafi-z-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2370683)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-5.md %}
+{% include_cached boilerplate/paperfaces-5.md %}

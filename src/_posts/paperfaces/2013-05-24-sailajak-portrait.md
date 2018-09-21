@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53]
 
 aperFaces portrait of [@sailajak](https://twitter.com/sailajak).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

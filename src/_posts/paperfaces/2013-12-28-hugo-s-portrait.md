@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 
 PaperFaces portrait of Sktchy user Hugo S.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-hugo-s-process-1-750.jpg)](/assets/images/paperfaces-hugo-s-process-1-lg.jpg)

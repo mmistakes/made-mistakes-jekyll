@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
 
 PaperFaces portrait of Sktchy user [Dani O](http://sktchy.com/BVa6DC ).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Pencil sketch to rough out the composition." %}
 [![Work in process screenshot](/assets/images/paperfaces-dani-o-process-1-750.jpg)](/assets/images/paperfaces-dani-o-process-1-lg.jpg)

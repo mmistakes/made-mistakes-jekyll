@@ -12,4 +12,4 @@ comments: true
 
 PaperFaces portrait of [@aarongreenlee](https://twitter.com/aarongreenlee).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

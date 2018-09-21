@@ -21,4 +21,4 @@ It's kind of hard to look at now because all I see are the spots I botched. Supp
 {% youtube l2Of1-d5E5o %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

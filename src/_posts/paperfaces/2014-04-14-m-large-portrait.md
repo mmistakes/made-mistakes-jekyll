@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy, beard, bokeh, black and whit
 
 PaperFaces portrait of a [M Large](http://sktchy.com/0qfVg ) inspired by a photograph on Sktchy.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-m-large-process-1-600.jpg)](/assets/images/paperfaces-m-large-process-1-lg.jpg)

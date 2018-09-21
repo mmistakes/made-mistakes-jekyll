@@ -45,4 +45,4 @@ I suppose if the demand is there I might try this again some night when my wife 
 {% youtube Qxpss8umvG4 %}
 {% endfigure %}
 
-{% include boilerplate/paperfaces-5.md %}
+{% include_cached boilerplate/paperfaces-5.md %}

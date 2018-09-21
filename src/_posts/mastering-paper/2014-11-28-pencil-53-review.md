@@ -170,4 +170,4 @@ Want to know more about Pencil or the new features it enables --- ask away in th
 {% youtube K2dgaV9_rCI %}
 {% endfigure %}
 
-{% include affiliate-disclosure.html %}
+{% include_cached affiliate-disclosure.html %}

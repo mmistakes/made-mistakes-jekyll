@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@rattazong](https://twitter.com/rattazong).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

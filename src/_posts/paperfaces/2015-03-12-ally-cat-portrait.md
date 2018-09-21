@@ -27,4 +27,4 @@ Continuing on with my time lapse kick, here's another video I recorded over seve
 [![Work in process screenshot](/assets/images/paperfaces-ally-cat-process-1-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2483829) [![Work in process screenshot](/assets/images/paperfaces-ally-cat-process-2-600.jpg)](https://mix.fiftythree.com/11098-Michael-Rose/2494030)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-5.md %}
+{% include_cached boilerplate/paperfaces-5.md %}

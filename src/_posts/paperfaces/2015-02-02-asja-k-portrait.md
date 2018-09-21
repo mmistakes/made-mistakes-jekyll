@@ -25,4 +25,4 @@ PaperFaces portrait of Asja K. inspired by a [photograph on Sktchy](http://sktch
 
 I will take grit and texture over polished and airbrushed any day of the week. It's these characteristics that have me preferring Paper over more feature-rich sketching apps.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

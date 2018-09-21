@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, Sktchy]
 
 PaperFaces portrait of [Wendy Rose](http://sktchy.com/nlpXWH ), inspiration found via Sktchy.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-wendy-rose-sktchy-process-1-600.jpg)](/assets/images/paperfaces-wendy-rose-sktchy-process-1-lg.jpg)

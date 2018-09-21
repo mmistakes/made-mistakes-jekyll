@@ -17,6 +17,6 @@ After grabbing around 1,000 images I imported them into **Adobe AfterEffects** a
 
 The lighting kind of sucks and the focus is off in a few parts, but I think it came out ok for my second time lapse attempt. Next time I'll take more care to get my white balance correct upfront and make sure I don't bump into the tripod midway through the shoot.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% youtube FGCPOimgdb4 %}

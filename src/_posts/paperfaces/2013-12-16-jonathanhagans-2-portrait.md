@@ -13,7 +13,7 @@ Another rare appearance of actual faces…
 
 PaperFaces portrait commission for <a href="https://twitter.com/jonathanhagans">@jonathanhagans</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-2-process-1-750.jpg)](/assets/images/paperfaces-jonathanhagans-2-process-1-lg.jpg)

@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@miriamchadwick](http://instagram.com/miriamchadwick).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"99.9% of the time I start with the background first." %}
 [![Work in process screenshot](/assets/images/paperfaces-miriamchadwick-process-1-600.jpg)](/assets/images/paperfaces-miriamchadwick-process-1-lg.jpg)

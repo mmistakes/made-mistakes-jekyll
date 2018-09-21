@@ -13,4 +13,4 @@ PaperFaces portrait of some random hipsters I came up with to fill the entire ca
 
 {% youtube CD9uoa96nKQ %}
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

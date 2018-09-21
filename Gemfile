@@ -17,4 +17,5 @@ group :jekyll_plugins do
   gem 'jekyll-figure', :git => 'https://github.com/mmistakes/jekyll-figure.git'
   gem 'jekyll-algolia'
   gem 'jekyll-tagging-related_posts'
+  gem 'jekyll-include-cache'
 end

@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@iainspad](https://twitter.com/iainspad). Up the punx.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-iainspad-process-1-600.jpg)](/assets/images/paperfaces-iainspad-process-1-lg.jpg)

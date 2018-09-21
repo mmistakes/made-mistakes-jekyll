@@ -12,4 +12,4 @@ tags: [portrait, illustration, Paper by 53, twins]
 
 [For her](http://2littlerosebuds.com) first Mother's Day as a new mom, a drawing of my wife and twin girls. Babies without faces kind of look extra creepy huh?
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

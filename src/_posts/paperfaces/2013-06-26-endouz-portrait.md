@@ -12,7 +12,7 @@ tags: [portrait, illustration, Paper by 53, bokeh]
 
 PaperFaces portrait of [@endouz](https://twitter.com/endouz). Using white to paint lights that could be rain drop refractions… or not.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"I start each drawing the same way, backgrounds first y'all." %}
 [![Background in process screenshot](/assets/images/paperfaces-endouz-process-1-600.jpg)](/assets/images/paperfaces-endouz-process-1-lg.jpg)

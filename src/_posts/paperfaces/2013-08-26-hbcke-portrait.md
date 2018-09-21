@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@hbcke](https://twitter.com/hbcke).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out a face lightly with the pencil tool." %}
 [![Work in process screenshot](/assets/images/paperfaces-hbcke-process-1-750.jpg)](/assets/images/paperfaces-hbcke-process-1-lg.jpg)

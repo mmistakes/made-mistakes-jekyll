@@ -13,7 +13,7 @@ last_modified_at: 2017-01-17T14:36:09-05:00
 
 PaperFaces portrait of [@gh0st_mob](https://twitter.com/gh0st_mob).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-gh0st-mob-process-1-600.jpg)](/assets/images/paperfaces-gh0st-mob-process-1-lg.jpg)

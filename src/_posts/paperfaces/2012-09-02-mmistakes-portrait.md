@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, beard, black and white]
 
 PaperFaces portrait of [@mmistakes](https://twitter.com/mmistakes).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}

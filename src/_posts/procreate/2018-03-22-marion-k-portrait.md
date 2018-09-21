@@ -20,4 +20,4 @@ I finally got my hands on a new iPad Pro and the highly responsive Apple Pencil.
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </figure>
 
-{% include boilerplate/procreate-3.md %}
+{% include_cached boilerplate/procreate-3.md %}

@@ -20,4 +20,4 @@ Approximately 6 hours of work spread across a couple of weeks.
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </figure>
 
-{% include boilerplate/procreate-3.md %}
+{% include_cached boilerplate/procreate-3.md %}

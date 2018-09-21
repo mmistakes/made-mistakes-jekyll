@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@jhummel](https://twitter.com/jhummel).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Started by filling the background with black and then sketching over it in white. If I made a mistake or didn't like the shape of a line I used black to *erase* it." %}
 [![Work in process screenshot](/assets/images/paperfaces-jhummel-process-1-600.jpg)](/assets/images/paperfaces-jhummel-process-1-lg.jpg)

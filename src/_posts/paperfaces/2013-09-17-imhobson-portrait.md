@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@imhobson](https://twitter.com/imhobson).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out a face with the pencil tool." %}
 [![](/assets/images/paperfaces-imhobson-process-1-750.jpg)](/assets/images/paperfaces-imhobson-process-1-lg.jpg)

@@ -142,4 +142,4 @@ After having a long run with Ten One Design's Pogo Connect stylus I have finally
 It doesn't vary strokes in the same way as a Pogo Connect (or other pressure sensitive styli), but it produces the same results and has [a few tricks]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) up its sleeve.
 {% endnotice %}
 
-{% include affiliate-disclosure.html %}
+{% include_cached affiliate-disclosure.html %}

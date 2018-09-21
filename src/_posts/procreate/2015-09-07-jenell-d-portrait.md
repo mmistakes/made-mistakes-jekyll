@@ -19,4 +19,4 @@ Things got a little dark in the face, but I guess that's what inexperience with 
 {% youtube A7ZlCZt9SoQ %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

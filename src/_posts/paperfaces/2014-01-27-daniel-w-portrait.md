@@ -13,7 +13,7 @@ last_modified_at: 2017-01-17T16:11:48-05:00
 
 Enjoyed adding all the texture in this one. PaperFaces portrait of [Daniel W.](http://sktchy.com/Uc5fXc ) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-daniel-w-process-1-600.jpg)](/assets/images/paperfaces-daniel-w-process-1-lg.jpg)

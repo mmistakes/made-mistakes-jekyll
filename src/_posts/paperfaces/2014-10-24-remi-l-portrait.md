@@ -16,7 +16,7 @@ I started this drawing on a 3rd generation iPad with retina screen and finished 
 
 The original drawing is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/513427) if you want a closer look or to riff off of.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-remi-l-process-1-600.jpg)](/assets/images/paperfaces-remi-l-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-remi-l-process-2-600.jpg)](/assets/images/paperfaces-remi-l-process-2-lg.jpg)

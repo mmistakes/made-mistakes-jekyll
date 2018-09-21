@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@JIN_woojooin](https://twitter.com/JIN_woojooin).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Lightly outlining the face before using watercolor to render forms." %}
 [![Work in process screenshot](/assets/images/paperfaces-jin-woojooin-process-1-600.jpg)](/assets/images/paperfaces-jin-woojooin-process-1-lg.jpg)

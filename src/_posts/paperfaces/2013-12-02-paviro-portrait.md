@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, blend]
 
 PaperFaces portrait of [@paviro_](https://twitter.com/paviro_).
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-paviro-process-1-600.jpg)](/assets/images/paperfaces-paviro-process-1-lg.jpg)

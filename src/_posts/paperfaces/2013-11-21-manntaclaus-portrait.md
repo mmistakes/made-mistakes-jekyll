@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@manntaclaus](https://twitter.com/manntaclaus).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Beginning the portrait with a pencil sketch." %}
 [![](/assets/images/paperfaces-manntaclaus-process-1-750.jpg)](/assets/images/paperfaces-manntaclaus-process-1-lg.jpg)

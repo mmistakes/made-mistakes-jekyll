@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait commission of <a href="https://twitter.com/drexore">@drexore</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out the composition in pencil." %}
 [![Work in process screenshot](/assets/images/paperfaces-drexore-process-1-750.jpg)](/assets/images/paperfaces-drexore-process-1-lg.jpg)

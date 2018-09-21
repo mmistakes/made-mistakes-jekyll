@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@jaredgoertzen](https://twitter.com/jaredgoertzen).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out the composition." %}
 [![](/assets/images/paperfaces-jaredgoertzen-process-1-750.jpg)](/assets/images/paperfaces-jaredgoertzen-process-1-lg.jpg)

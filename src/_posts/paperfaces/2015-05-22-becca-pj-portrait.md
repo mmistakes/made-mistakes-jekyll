@@ -25,4 +25,4 @@ PaperFaces portrait of Becca P.J. inspired by a [photograph on Sktchy](http://sk
 
 There's something about the look of [white on dark](https://mix.fiftythree.com/11098-Michael-Rose/3471365) that I really enjoy. Perhaps it's the chalky like quality of Paper's soft lead pencil tool that appeals to me?
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

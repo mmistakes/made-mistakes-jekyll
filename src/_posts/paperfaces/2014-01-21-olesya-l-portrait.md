@@ -13,7 +13,7 @@ last_modified_at: 2017-01-17T16:16:23-05:00
 
 PaperFaces portrait of [Olesya L.](http://sktchy.com/REiCy ) inspired by Sktchy.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-olesya-l-process-1-600.jpg)](/assets/images/paperfaces-olesya-l-process-1-lg.jpg)

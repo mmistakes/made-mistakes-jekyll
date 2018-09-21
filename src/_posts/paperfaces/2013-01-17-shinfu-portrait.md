@@ -11,6 +11,6 @@ tags: [portrait, illustration, Paper by 53, time lapse]
 
 PaperFaces portrait of project donator [@Shinfu](https://twitter.com/Shinfu) jumping really high in a blue sky landscape.
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% youtube eg7iMJTe_U0 %}

@@ -16,4 +16,4 @@ It's been a while since I last drew a faceless portrait, so I decided to go back
 
 The original drawing is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/751119/remixes) if you want a closer look or to riff off of.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

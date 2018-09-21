@@ -21,4 +21,4 @@ PaperFaces portrait of [@ZachoryBenton](https://twitter.com/zachorybenton).
 [![](/assets/images/paperfaces-zachorybenton-process-6-600.jpg)](/assets/images/paperfaces-zachorybenton-process-6-lg.jpg)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

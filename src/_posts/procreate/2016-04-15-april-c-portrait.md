@@ -18,4 +18,4 @@ It's been a hectic start to spring so I haven't had too much free time to paint.
 <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">Messy messy <a href="https://twitter.com/hashtag/Procreate?src=hash">#Procreate</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash">#Sktchy</a> <a href="https://t.co/C5PjBiY5P0">pic.twitter.com/C5PjBiY5P0</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/719340953656508416">April 11, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

@@ -11,6 +11,6 @@ tags: [portrait, illustration, Paper by 53, tattoo, time lapse]
 
 PaperFaces portrait of project donator [@pjrvswp](https://twitter.com/pjrvswp).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% youtube UA9t52T0Aec %}

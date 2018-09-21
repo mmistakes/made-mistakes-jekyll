@@ -18,4 +18,4 @@ PaperFaces portrait of [@jean_francois](https://twitter.com/jean_francois).
 [![](/assets/images/paperfaces-jean-francois-process-4-600.jpg)](/assets/images/paperfaces-jean-francois-process-4-lg.jpg)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

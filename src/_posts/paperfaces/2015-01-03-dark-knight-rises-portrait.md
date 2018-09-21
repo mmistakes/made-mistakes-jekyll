@@ -15,7 +15,7 @@ PaperFaces portrait of the Dark Knight to go along with a drawing I did of the [
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1420093) in various stages of completion if you want to rework it or get a closer look.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"Work in progress screen captures Made with Paper." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-dark-knight-process-1-600.jpg)](/assets/images/paperfaces-dark-knight-process-1-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-dark-knight-process-2-600.jpg)](/assets/images/paperfaces-dark-knight-process-2-lg.jpg) [![Work in process screenshot](/assets/images/paperfaces-dark-knight-process-3-600.jpg)](/assets/images/paperfaces-dark-knight-process-3-lg.jpg)

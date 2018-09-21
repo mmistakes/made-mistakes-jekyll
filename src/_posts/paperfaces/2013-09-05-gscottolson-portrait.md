@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white, beard]
 
 PaperFaces portrait of FiftyThree maker, [@gscottolson](https://twitter.com/gscottolson).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out a face with the pencil tool." %}
 [![](/assets/images/paperfaces-gscottolson-process-1-750.jpg)](/assets/images/paperfaces-gscottolson-process-1-lg.jpg)

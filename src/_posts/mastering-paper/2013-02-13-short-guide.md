@@ -107,4 +107,4 @@ If I missed anything or you're looking for additional pointers leave a comment b
 {% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
 {% endfigure %}
 
-{% include affiliate-disclosure.html %}
+{% include_cached affiliate-disclosure.html %}

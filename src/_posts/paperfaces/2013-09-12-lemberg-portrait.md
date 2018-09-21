@@ -20,4 +20,4 @@ PaperFaces portrait of [@Lemberg](https://twitter.com/lemberg).
 [![](/assets/images/paperfaces-lemberg-process-3-600.jpg)](/assets/images/paperfaces-lemberg-process-3-lg.jpg)
 {% endfigure %}
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

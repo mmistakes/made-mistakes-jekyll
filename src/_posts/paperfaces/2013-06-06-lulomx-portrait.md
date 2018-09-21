@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, Google Glass]
 
 PaperFaces portrait of [@lulomx](https://twitter.com/lulomx).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

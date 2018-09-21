@@ -11,6 +11,6 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@kessler](https://twitter.com/kessler).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% youtube g6r-pZY3Awc %}

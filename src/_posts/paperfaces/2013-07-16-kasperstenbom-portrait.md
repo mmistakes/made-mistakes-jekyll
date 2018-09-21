@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@KasperStenbom](https://twitter.com/KasperStenbom).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Using white to lighten and gradually render cheeks and eye sockets." %}
 [![Work in process screenshot](/assets/images/paperfaces-kasperstenbom-process-1-600.jpg)](/assets/images/paperfaces-kasperstenbom-process-1-lg.jpg)

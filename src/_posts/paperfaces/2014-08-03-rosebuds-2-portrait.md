@@ -23,4 +23,4 @@ last_modified_at: 2016-09-29T16:02:37-04:00
 
 A PaperFaces drawing of the my two little girls Everly and Chloe on their second birthday.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

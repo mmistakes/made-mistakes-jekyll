@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53]
 
 PaperFaces portrait of [@floraworks](https://twitter.com/floraworks).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching and outlining the portrait." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-floraworks-process-1-600.jpg)](/assets/images/paperfaces-floraworks-process-1-lg.jpg)

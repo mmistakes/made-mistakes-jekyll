@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@Alasdair91](https://twitter.com/alasdair91).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Sketching out the composition." %}
 [![](/assets/images/paperfaces-alasdair91-process-1-750.jpg)](/assets/images/paperfaces-alasdair91-process-1-lg.jpg)

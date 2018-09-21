@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, black and white, beard]
 
 PaperFaces avatar portrait of <a href="https://twitter.com/Drodol">@Drodol</a>.
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-drodol-process-1-600.jpg)](/assets/images/paperfaces-drodol-process-1-lg.jpg)

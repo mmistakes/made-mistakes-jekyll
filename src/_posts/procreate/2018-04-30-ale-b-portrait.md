@@ -24,4 +24,4 @@ Two hours and 30 minutes of beard scribbling over the last couple of weeks. Beca
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </figure>
 
-{% include boilerplate/procreate-3.md %}
+{% include_cached boilerplate/procreate-3.md %}

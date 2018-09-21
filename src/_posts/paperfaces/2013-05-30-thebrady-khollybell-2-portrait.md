@@ -13,7 +13,7 @@ PaperFaces portrait of project donators [@theBrady](https://twitter.com/theBrady
 
 Broke in a [Pogo Connect stylus](http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009K448L4&linkCode=as2&tag=mademist-20) drawing this illustration and so far really enjoy it. There are some hinky issues with it losing connection or freezing up Paper by 53, but for the most part it works flawlessly. Being able to control the thickness of watercolor strokes is a major plus, as is the dedicated undo button[^1].
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% youtube SqYiglufb8Y %}
 

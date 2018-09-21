@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, landscape]
 
 PaperFaces portrait of [@dismanntled](https://twitter.com/dismanntled).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Work in progress screenshot. Sketching out the body." %}
 ![In process screenshot](/assets/images/paperfaces-dismanntled-process-1-600.jpg)

@@ -25,4 +25,4 @@ PaperFaces portrait of Brooke T. inspired by a [photograph on Sktchy](http://skt
 
 My [first drawing](https://paper.fiftythree.com/11098-Michael-Rose/5492331) completed with version 3.0 of Paper by FiftyThree. So far really enjoying the full screen zoom just wish it had more levels of magnification.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}

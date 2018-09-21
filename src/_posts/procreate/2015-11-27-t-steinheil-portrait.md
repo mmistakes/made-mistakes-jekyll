@@ -21,4 +21,4 @@ Now to find paper textures I can import into Procreate to build drawings on top 
 {% youtube 3FI6OblgfeY %}
 {% endfigure %}
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

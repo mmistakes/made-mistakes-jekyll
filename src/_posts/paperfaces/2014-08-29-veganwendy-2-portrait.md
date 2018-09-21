@@ -15,7 +15,7 @@ Well it's been exactly two years since I started the [PaperFaces Project](/paper
 
 It wasn't the most difficult photograph to recreate in Paper, seeing how the face is obscured and all that. But you can certainly see a change in technique and accuracy between the two.
 
-{% include boilerplate/paperfaces-3.md %}
+{% include_cached boilerplate/paperfaces-3.md %}
 
 {% figure caption:"What a difference two years made." class:"gallery-3-col" %}
 [![first PaperFaces portrait](/assets/images/paperfaces-veganwendy-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-twitter.jpg) [![last PaperFaces portrait?](/assets/images/paperfaces-veganwendy-2-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-2-twitter.jpg)

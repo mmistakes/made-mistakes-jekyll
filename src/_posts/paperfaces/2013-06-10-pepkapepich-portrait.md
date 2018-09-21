@@ -11,4 +11,4 @@ tags: [portrait, illustration, Paper by 53, black and white]
 
 PaperFaces portrait of [@PepkaPepich](https://twitter.com/PepkaPepich).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}

@@ -31,4 +31,4 @@ Where I struggled originally was applying the right customizations to my brushes
 
 Now if I can only figure out how to replicate the watercolor and pencil look I took for granted with Paper...
 
-{% include boilerplate/procreate.md %}
+{% include_cached boilerplate/procreate.md %}

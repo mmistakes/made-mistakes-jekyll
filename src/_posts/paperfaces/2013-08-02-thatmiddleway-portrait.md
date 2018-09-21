@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@thatmiddleway](https://twitter.com/thatmiddleway).
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-thatmiddleway-process-1-600.jpg)](/assets/images/paperfaces-thatmiddleway-process-1-lg.jpg)

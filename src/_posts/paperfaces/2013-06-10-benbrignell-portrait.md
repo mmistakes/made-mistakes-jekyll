@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper by 53, beard]
 
 PaperFaces portrait of [@benbrignell](https://twitter.com/benbrignell).
 
-{% include boilerplate/paperfaces-2.md %}
+{% include_cached boilerplate/paperfaces-2.md %}
 
 {% figure caption:"Blocking out facial features and gradually adding tones using the watercolor brush." class:"gallery-2-col" %}
 [![Adding detail with the pencil tool.](/assets/images/paperfaces-benbrignell-process-1-600.jpg)](/assets/images/paperfaces-benbrignell-process-1-lg.jpg)

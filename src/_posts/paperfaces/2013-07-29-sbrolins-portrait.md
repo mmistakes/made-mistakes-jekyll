@@ -13,7 +13,7 @@ PaperFaces portrait of [@sbrolins](https://twitter.com/sbrolins). Painting a sky
 
 There really wasn't much to this landscape --- just a few layers of light red orange that fade into the horizon, and pink pencil strokes for the clouds. The beach is made up of dull blue violet watercolor layers, topped with light pencil strokes to create a sand texture.
 
-{% include boilerplate/paperfaces.md %}
+{% include_cached boilerplate/paperfaces.md %}
 
 {% figure caption:"Work in progress screenshots." class:"gallery-2-col" %}
 [![](/assets/images/paperfaces-sbrolins-process-1-600.jpg)](/assets/images/paperfaces-sbrolins-process-1-lg.jpg)
