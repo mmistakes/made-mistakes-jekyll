@@ -64,6 +64,4 @@ The main feed[^feed] for everything on Made Mistakes.
 - Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
 - Today I Learned Posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
 
-[^feed]:
-
-  Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
+[^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.
