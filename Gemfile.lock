@@ -148,7 +148,6 @@ GEM
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     verbal_expressions (0.1.5)
-    wdm (0.1.1)
     yell (2.0.7)
 
 PLATFORMS
@@ -170,7 +169,6 @@ DEPENDENCIES
   jekyll-typogrify
   jemoji
   rake
-  wdm (~> 0.1)
 
 BUNDLED WITH
    1.16.5
