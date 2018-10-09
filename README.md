@@ -419,3 +419,59 @@ how to create individual inject tags and inject specific files into them.
 
 Comments are disabled by default. To enable add `comments: true` to the YAML 
 Front Matter. Preferred method is to enable via YAML Front Matter defaults in `_config.yml`.
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2004-2018 Michael Rose
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Made Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/).
+Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
+
+Made Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
+
+Made Mistakes incorporates [Susy](http://susy.oddbird.net/),
+Copyright (c) 2017, Miriam Eric Suzanne.
+Susy is distributed under the terms of the [BSD 3-clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
+
+Made Mistakes incorporates [Breakpoint](http://breakpoint-sass.com/).
+Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
+
+Made Mistakes incorporates [Bigfoot](http://bigfootjs.com/),
+Copyright (c) 2013-2014, Chris Sauve.
+Bigfoot is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
+
+Made Mistakes incorporates [Lity](http://sorgalla.com/lity/),
+Copyright (c) 2015-2016, Jan Sorgalla.
+Lity is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
+
+Made Mistakes incorporates [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll),
+Copyright (c) 2017, Karl Swedberg.
+jQuery Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+Made Mistakes incorporates [Lazysizes](https://github.com/aFarkas/lazysizes),
+Copyright (c) 2015, Alexander Farkas.
+Lazysizes is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+Made Mistakes incorporates [SVG for Everybody](https://jonathantneal.github.io/svg4everybody/),
+Copyright (c) Jonathan Neal.
+SVG for Everybody is distributed under the terms of the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
