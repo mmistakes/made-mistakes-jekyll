@@ -96,7 +96,7 @@ GEM
     jekyll-typogrify (0.3.5)
       titlecase
       typogruby
-    jekyll-watch (2.0.0)
+    jekyll-watch (2.1.1)
       listen (~> 3.0)
     jemoji (0.10.1)
       gemoji (~> 3.0)
@@ -104,7 +104,7 @@ GEM
       jekyll (~> 3.0)
     json (2.1.0)
     kramdown (1.17.0)
-    liquid (4.0.0)
+    liquid (4.0.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -112,11 +112,11 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    nokogiri (1.8.4)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.4-x64-mingw32)
+    nokogiri (1.8.5-x64-mingw32)
       mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.4-x86-mingw32)
+    nokogiri (1.8.5-x86-mingw32)
       mini_portile2 (~> 2.3.0)
     nuggets (1.6.0)
     parallel (1.12.1)
@@ -157,9 +157,9 @@ PLATFORMS
 
 DEPENDENCIES
   breakpoint
-  html-proofer
+  html-proofer (>= 3.9.2)
   jekyll
-  jekyll-algolia
+  jekyll-algolia (>= 1.4.7)
   jekyll-figure!
   jekyll-include-cache
   jekyll-paginate-v2
@@ -167,8 +167,8 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging-related_posts
   jekyll-typogrify
-  jemoji
+  jemoji (>= 0.10.1)
   rake
 
 BUNDLED WITH
-   1.16.5
+   1.16.6
