@@ -44,13 +44,13 @@
   align-items: center;
   display: flex;
   margin-bottom: 1.5rem;
-  overflow-x: scroll;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
-  @include breakpoint($large) {
-    flex-wrap: wrap;
-    overflow-x: inherit;
-  }
+  // @include breakpoint($large) {
+  //   flex-wrap: wrap;
+  //   overflow-x: inherit;
+  // }
 
   .gallery-img {
     flex-shrink: 0;
