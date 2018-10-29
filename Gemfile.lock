@@ -96,7 +96,7 @@ GEM
     jekyll-typogrify (0.3.5)
       titlecase
       typogruby
-    jekyll-watch (2.1.1)
+    jekyll-watch (2.1.2)
       listen (~> 3.0)
     jemoji (0.10.1)
       gemoji (~> 3.0)
