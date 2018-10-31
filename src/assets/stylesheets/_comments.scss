@@ -3,19 +3,43 @@
    ========================================================================== */
 
 .comment {
-  font-size: 0.8em;
-  margin-bottom: 4em;
-  padding-left: 4.5em;
-  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
 
-  // comment replies
-  &.child {
-    margin-left: 4.5em;
+.comment__avatar {
+  flex-shrink: 0;
+  margin-right: 10px;
+
+  @include breakpoint($md-up) {
+    margin-right: 20px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+
+    @include breakpoint($md-up) {
+      width: 60px;
+      height: 60px;
+    }
   }
 }
 
-.comment-timestamp {
-  font-size: 0.8em;
+.comment__main {
+  min-width: calc(100% - 40px); // fix overflowing code blocks (message width - avatar size)
+
+  @include breakpoint($md-up) {
+    min-width: calc(100% - 80px); // fix overflowing code blocks (message width - avatar size)
+  }
+
+  header {
+    margin-bottom: 10px;
+  }
+}
+
+.comment__meta {
+  font-family: $sans-serif-font;
 
   a {
     color: inherit;
@@ -23,104 +47,109 @@
   }
 }
 
-.comment-content {
-  margin-top: 1em;
+.comment__message {}
 
-  > p,
-  > ul,
-  > ol,
-  > figure,
-  > table {
-    margin-bottom: 1.5em;
-  }
+.comment__reply {}
 
-  ul {
-    list-style-type: square;
-  }
+// .comment {
+//   font-size: 0.8em;
+//   margin-bottom: 4em;
+//   padding-left: 4.5em;
+//   position: relative;
 
-  li {
-    margin-bottom: 0.5em;
-  }
+//   // comment replies
+//   &.child {
+//     margin-left: 4.5em;
+//   }
+// }
 
-  li > ul,
-  li > ol {
-    margin-top: 0.5em;
-  }
+// .comment-timestamp {
+//   font-size: 0.8em;
+
+//   a {
+//     color: inherit;
+//     text-decoration: none;
+//   }
+// }
+
+.comment__message {
+//   margin-top: 1em;
+
+//   > p,
+//   > ul,
+//   > ol,
+//   > figure,
+//   > table {
+//     margin-bottom: 1.5em;
+//   }
+
+  // ul {
+  //   list-style-type: square;
+  // }
+
+//   li {
+//     margin-bottom: 0.5em;
+//   }
+
+//   li > ul,
+//   li > ol {
+//     margin-top: 0.5em;
+//   }
 
   img {
     max-width: 100%;
   }
 
-  .highlighter-rouge {
-    .highlight {
-      margin-left: 0;
-      margin-right: 0;
-    }
+//   .highlighter-rouge {
+//     .highlight {
+//       margin-left: 0;
+//       margin-right: 0;
+//     }
 
-    .highlight code {
-      font-size: 0.8em;
-    }
-  }
+//     .highlight code {
+//       font-size: 0.8em;
+//     }
+//   }
 }
 
-.comment-avatar {
-  height: 3.25em;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 3.25em;
+// .comment-author-name {
+//   display: inline-block;
+//   font-size: 1.25em;
+//   line-height: 1;
+//   margin: 0 0 0.25em;
 
-  &::after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
-    background-size: 5px 5px;
-    bottom: 0.5em;
-    content: "";
-    height: 3.25em;
-    position: absolute;
-    right: 0.5em;
-    width: 3.25em;
-    z-index: -1;
-  }
-}
+//   a {
+//     color: inherit;
+//     text-decoration: none;
+//   }
+// }
 
-.comment-author-name {
-  display: inline-block;
-  font-size: 1.25em;
-  line-height: 1;
-  margin: 0 0 0.25em;
+// .comment-reply {
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-}
+//   a {
+//     text-decoration: none;
 
-.comment-reply {
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
 
-  a {
-    text-decoration: none;
+// .comment-reply-notifications {
+//   margin: 1rem 0;
+// }
 
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
+// #cancel-comment-reply-link {
+//   margin-left: 1em;
+// }
 
-.comment-reply-notifications {
-  margin: 1rem 0;
-}
+// #comment-form {
+//   margin-bottom: 3em;
+// }
 
-#cancel-comment-reply-link {
-  margin-left: 1em;
-}
-
-#comment-form {
-  margin-bottom: 3em;
-}
-
-/* Site author specific */
-.admin {
-  .comment-author-name {
-    box-shadow: inset 0 -0.25em 0 rgba($warning-color, 0.5);
-  }
-}
+// /* Site author specific */
+// .admin {
+//   .comment-author-name {
+//     box-shadow: inset 0 -0.25em 0 rgba($warning-color, 0.5);
+//   }
+// }

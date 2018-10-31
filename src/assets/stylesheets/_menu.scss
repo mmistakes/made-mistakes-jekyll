@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Menu
+   ========================================================================== */
+
+.menu {
+  @include breakpoint($md-up) {
+    grid-column: 7 / 9;
+    grid-row: 1;
+    align-self: center;
+    justify-self: end;
+  }
+
+  @include breakpoint($lg-up) {
+    grid-column: 8;
+  }
+
+  .toggle {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    z-index: 50;
+    cursor: pointer;
+  }
+}
+
+.menu__overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 100;
+  opacity: 0;
+}

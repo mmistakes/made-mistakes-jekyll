@@ -1,10 +1,8 @@
-<div class="entry-related">
-  <header class="section-title">
-    <h3>Related Posts</h3>
-  </header>
+<nav class="page__related">
+  <h3 class="title">Related:</h3>
   <ul>
   {% for related_post in site.related_posts limit: 4 %}
     <li><a href="{{ related_post.url }}">{{ related_post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
   {% endfor %}
   </ul>
-</div>
+</nav>

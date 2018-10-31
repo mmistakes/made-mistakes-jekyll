@@ -1,5 +1,5 @@
 <article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% unless include.replying_to == 0 %}child{% endunless %}">
-  <div class="comment-avatar">
+  <div class="comment__avatar">
     {% if include.avatar %}
       <noscript><img src="{{ include.avatar }}" alt=""></noscript>
       <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ include.avatar }}" alt="" class="lazyload blur-up">
@@ -11,28 +11,29 @@
       <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60 1x, /assets/images/avatar-120.png 2x" alt="" class="lazyload blur-up">
     {% endif %}
   </div>
-  <h3 class="comment-author-name">
-    {% unless include.url == blank %}
-      <a rel="external nofollow" href="{{ include.url }}">{{ include.name | strip_html }}</a>
-    {% else %}
-      {{ include.name | strip_html }}
-    {% endunless %}
-  </h3>
-  <div class="comment-timestamp">
-    {% if include.date %}
-      {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
-      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date_to_long_string: 'ordinal', 'US' }}</time>
-      {% if include.index %}</a>{% endif %}
-    {% endif %}
-  </div>
-  <div class="comment-content">
-    {{ include.message | markdownify }}
-  </div>
-  {% unless include.replying_to != 0 or page.comments_locked == true %}
-    <div class="comment-reply">
-      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"><svg class="icon icon--reply" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-reply' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Reply to {{ include.name }}</a>
+  <div class="comment__main">
+    <header class="comment__meta">
+      {% unless include.url == blank %}
+        <a rel="external nofollow" href="{{ include.url }}"><strong class="h-card">{{ include.name | strip_html }}</strong></a>
+      {% else %}
+        <strong class="h-card">{{ include.name | strip_html }}</strong>
+      {% endunless %}
+      {% if include.date %}
+        on
+        {% if include.index %}<a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">{% endif %}
+          <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date_to_long_string: 'ordinal', 'US' }}</time>
+        {% if include.index %}</a>{% endif %}
+      {% endif %}
+    </header>
+    <div class="comment__message">
+      {{ include.message | markdownify }}
     </div>
-  {% endunless %}
+    {% unless include.replying_to != 0 or page.comments_locked == true %}
+      <div class="comment__reply">
+        <a rel="nofollow" href="#comment-{{ include.index }}" onclick="return addComment.moveForm('comment-{{ include.index }}', '{{ include.index }}', 'respond', '{{ page.slug }}')"><svg class="icon icon--reply" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-reply' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Reply to {{ include.name }}</a>
+      </div>
+    {% endunless %}
+  </div>
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}

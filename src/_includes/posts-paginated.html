@@ -2,26 +2,21 @@
   {% include entry.html %}
 {% endfor %}
 
-<!-- Pagination links -->
-<nav class="pager">
+<nav class="pagination">
   <ul>
-    <!-- Page: {{ paginator.page }} of {{ paginator.total_pages }} -->
     {% if paginator.previous_page %}
       <li>
-        <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
-          <span class="pager-label">
-            <svg class="icon icon--arrow-left" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg> Previous Page
-          </span>
-        </a>
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">← Newer Posts</a>
       </li>
+    {% endif %}
+    {% if page.autogen %}
+      <li>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</li>
+    {% else %}
+      <li>Page {{ paginator.page }} of {{ paginator.total_pages }}</li>
     {% endif %}
     {% if paginator.next_page %}
       <li>
-        <a href="{{ paginator.next_page_path | relative_url }}" class="next">
-          <span class="pager-label">
-            Next Page <svg class="icon icon--arrow-right" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-arrow-right' | prepend: 'assets/icons/' | relative_url }}"></use></svg>
-          </span>
-        </a>
+        <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">Older Posts →</a>
       </li>
     {% endif %}
   </ul>

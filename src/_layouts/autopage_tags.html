@@ -4,19 +4,26 @@ layout: default
 
 {% include page-intro.html %}
 
-<main id="main" class="page-content" aria-label="Content">
-  <div class="index inner">
-    <div>{{ content }}</div>
-
-    {% if page.autopages %}
-      <header class="section-title">
-        <h2>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</h2>
-      </header>
+<main id="main" class="page__main" aria-label="Main content">
+  {% if page.introduction %}
+    {{ page.introduction | markdownify }}
+  {% elsif page.layout == 'autopage_tags' %}
+    {% if tag.description %}
+      {{ tag.description | markdownify }}
+    {% else %}
+      <p>An archive of posts tagged <em>{{ page.autopages.display_name }}</em>.</p>
     {% endif %}
-    <div class="entries">
-      {% include posts-paginated.html %}
-    </div>
+  {% endif %}
 
-    {% include_cached footer.html %}
-  </div>
+  {% if page.actions %}
+    <ul>
+      {% for action in page.actions %}
+        <li><a href="{{ action.url }}" class="btn">{{ action.label }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {{ content }}
+
+  {% include posts-paginated.html %}
 </main>

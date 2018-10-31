@@ -2,84 +2,86 @@
    NOTICE TEXT BLOCKS
    ========================================================================== */
 
-/**
- * Default Kramdown usage (no indents!):
- * <div class="notice" markdown="1">
- * #### Headline for the Notice
- * Text for the notice
- * </div>
- */
-
-@mixin notice($notice-color) {
-  background-color: mix(#fff, $notice-color, 90%);
-  border-left: 0.25em solid mix(#fff, $notice-color, 50%);
-  margin: 2em 0;
-  padding: 1em;
-
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    line-height: 1 !important; // override
-    margin-bottom: 0.75em;
-    margin-top: 0 !important; // override
-  }
-
-  @at-root .page-content #{&} a {
-    border-bottom-width: 2px;
-    box-shadow: none !important; // override
-
-    &:hover {
-      background-color: transparent !important; // override
-    }
-  }
-
-  a {
-    color: mix(#000, $notice-color, 25%) !important; // override
-  }
-
-  table {
-    margin-top: 1.5em;
-  }
-
-  thead {
-    border-color: mix(#fff, $notice-color, 70%);
-  }
-
-  tr {
-    &:not(:last-child) {
-      border-color: mix(#fff, $notice-color, 70%);
-    }
-  }
-
-  /* remove space at end */
-  > *:last-child {
-    margin-bottom: 0;
-  }
-}
-
-/* default notice */
 .notice {
-  @include notice($primary-color);
+  position: relative;
+  min-height: 1em;
+  margin: 1em 0;
+  padding: 1em 1.5em 1.5em;
+  border: 2px solid;
+  font-size: 0.85em;
 }
 
-/* info notice */
-.notice--info {
-  @include notice($info-color);
+.notice > {
+  h2, h3, h4, h5, h6 {
+    display: block;
+    margin-bottom: 1.25em;
+    padding-bottom: 0.25em;
+    border-bottom: 2px solid;
+    font-family: $monospace-font;
+    font-size: 1em;
+    font-weight: 700;
+  }
 }
 
-/* warning notice */
-.notice--warning {
-  @include notice($warning-color);
+.notice:first-child {
+  margin-top: 0;
 }
 
-/* success notice */
-.notice--success {
-  @include notice($success-color);
+.notice:last-child {
+  margin-bottom: 0;
 }
 
-/* danger notice */
-.notice--danger {
-  @include notice($danger-color);
+.notice p {
+  margin: 0.75em 0;
+}
+
+.notice p:first-child {
+  margin-top: 0;
+}
+
+.notice p:last-child {
+  margin-bottom: 0;
+}
+
+.notice ul {
+  text-align: left;
+  padding: 0;
+  opacity: 0.85;
+  list-style-position: inside;
+  margin: 0.5em 0 0;
+}
+
+.notice ul:first-child {
+  margin-top: 0;
+}
+
+.notice ul:last-child {
+  margin-bottom: 0;
+}
+
+.notice ul li {
+  position: relative;
+  list-style-type: none;
+  margin: 0 0 0.3em 1em;
+  padding: 0;
+}
+
+.notice ul li::before {
+  position: absolute;
+  content: "•";
+  left: -1em;
+  height: 100%;
+  vertical-align: baseline;
+}
+
+.notice ul li:last-child {
+  margin-bottom: 0;
+}
+
+.notice > :first-child {
+  margin-top: 0;
+}
+
+.notice > :last-child {
+  margin-bottom: 0;
 }

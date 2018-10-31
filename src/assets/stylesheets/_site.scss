@@ -1,0 +1,202 @@
+/* ==========================================================================
+   Site
+   ========================================================================== */
+
+.site__header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: $monospace-font;
+
+  @include breakpoint($md-up) {
+    grid-column: 3 / 5;
+    grid-row: 1;
+    align-self: center;
+  }
+
+  @include breakpoint($lg-up) {
+    grid-column: 3;
+  }
+}
+
+.site__name {
+  color: #000;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.author {
+  margin-bottom: 1em;
+  align-self: flex-start;
+  font-family: $monospace-font;
+  font-size: 0.8em;
+
+  .byline {
+    &::before {
+      content: "__";
+    }
+  }
+}
+
+.site__footer {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  color: mix(#fff, $text-color, 40%);
+  font-family: $monospace-font;
+  font-size: 0.8em;
+
+  @include breakpoint($md-up) {
+    grid-column: 3 / 8;
+    grid-row: 7 / span 1;
+    align-self: center;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .menu {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.25em;
+    font-weight: 700;
+    @include list-unstyled();
+
+    li {
+      flex-basis: 50%;
+
+      @include breakpoint($md-up) {
+        flex-basis: auto;
+      }
+
+      a {
+        display: block;
+        padding-bottom: 1em;
+        padding-right: 2em;
+
+        @include breakpoint($lg-up) {
+          padding-bottom: 0.5em;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    .icon {
+      margin-left: 0.5em;
+    }
+  }
+}
+
+
+.bigfoot-footnote__button {
+  font-family: $monospace-font;
+}
+
+.bigfoot-footnote__content {
+  line-height: 1.625; // match body line-height
+}
+
+// .site-title {
+//   @include fluid-type($min-vw, $max-vw, 20px, 24px);
+//   font-family: $headline-font-family;
+//   font-weight: bold;
+//   line-height: 1;
+//   margin: 0;
+//   padding-right: calc(10vw + (2 * #{$navicon-width})); // make room for toggles
+//   padding: 1.5rem 5vw;
+//   text-transform: uppercase;
+
+//   a {
+//     align-items: center;
+//     color: $text-color;
+//     display: flex;
+//     min-height: $site-image-height;
+//     text-decoration: none;
+//   }
+
+//   span {
+//     display: none;
+
+//     @include breakpoint($medium) {
+//       display: inline;
+//     }
+//   }
+// }
+
+// .site-logo {
+//   display: inline-block;
+//   fill: currentColor;
+//   height: $site-image-height;
+//   line-height: 1;
+//   margin-right: 0.5rem;
+//   position: relative;
+//   top: 0;
+//   vertical-align: middle;
+//   width: $site-image-width;
+// }
+
+.image__outer-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.image__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #eaeaea;
+
+  img {
+    transition: opacity 0.5s ease 0.25s;
+
+    @include breakpoint($md-up) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+  }
+}
+
+.image__aspect-ratio {
+  display: none;
+
+  @include breakpoint($md-up) {
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: (3 / 4) * 100%;
+  }
+}
+
+.image__caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0.5em 1em;
+  color: #fff;
+  font-size: 0.6em;
+  line-height: 1;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.7);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

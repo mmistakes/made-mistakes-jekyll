@@ -1,0 +1,19 @@
+<nav class="page__pagination">
+  <h3>More:</h3>
+  <ul>
+    {% if page.previous %}
+      <li>
+        <a href="{{ page.previous.url | relative_url }}" rel="prev">
+          {{ page.previous.title | markdownify | remove: '<p>' | remove: '</p>' }}
+        </a>
+      </li>
+    {% endif %}
+    {% if page.next %}
+      <li>
+        <a href="{{ page.next.url | relative_url }}" rel="next">
+          {{ page.next.title | markdownify | remove: '<p>' | remove: '</p>' }}
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>

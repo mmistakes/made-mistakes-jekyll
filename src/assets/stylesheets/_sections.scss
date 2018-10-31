@@ -14,11 +14,11 @@
     max-width: 80%;
     padding: 10vh 5vw;
 
-    @include breakpoint($medium) {
+    @include breakpoint($md-up) {
       max-width: 60%;
     }
 
-    @include breakpoint($large) {
+    @include breakpoint($lg-up) {
       max-width: 50%;
     }
   }
@@ -52,17 +52,17 @@
 }
 
 .section:first-of-type .section-title {
-  @include fluid-type($min-vw, $max-vw, 26px, 72px);
+  // @include fluid-type($min-vw, $max-vw, 26px, 72px);
 }
 
 .section-title {
-  @include fluid-type($min-vw, $max-vw, 22px, 60px);
+  // @include fluid-type($min-vw, $max-vw, 22px, 60px);
   line-height: 1;
   margin-bottom: 1rem;
 }
 
 .section-subtitle {
-  @include fluid-type($min-vw, $max-vw, 18px, 28px);
+  // @include fluid-type($min-vw, $max-vw, 18px, 28px);
   font-style: italic;
 }
 
@@ -80,7 +80,7 @@
   //   line-height: 1.625;
   // }
 
-  @include breakpoint($large) {
+  @include breakpoint($lg-up) {
     font-size: 1.125em;
     line-height: 1.625;
   }

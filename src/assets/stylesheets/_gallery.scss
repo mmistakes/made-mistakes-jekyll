@@ -10,7 +10,7 @@
   grid-gap: 0.5em;
   justify-items: center;
 
-  @include breakpoint($small) {
+  @include breakpoint($sm-up) {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -28,7 +28,7 @@
   grid-gap: 0.5em;
   justify-items: center;
 
-  @include breakpoint($small) {
+  @include breakpoint($sm-up) {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -47,24 +47,24 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
-  // @include breakpoint($large) {
+  // @include breakpoint($lg-up) {
   //   flex-wrap: wrap;
   //   overflow-x: inherit;
   // }
 
   .gallery-img {
     flex-shrink: 0;
-    max-width: ($small - ($small * 0.25 + 0px));
+    max-width: ($sm-up - ($sm-up * 0.25 + 0px));
     padding: 0 1em 1em 1em;
 
-    @include breakpoint($medium) {
-      max-width: ($medium - ($medium * 0.45 + 0px));
+    @include breakpoint($md-up) {
+      max-width: ($md-up - ($md-up * 0.45 + 0px));
     }
 
-    @include breakpoint($large) {
+    @include breakpoint($lg-up) {
       flex-basis: calc(100% / 3);
       flex-shrink: 1;
-      max-width: ($large - ($large * 0.5 + 0px));
+      max-width: ($lg-up - ($lg-up * 0.5 + 0px));
     }
 
     img {

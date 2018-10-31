@@ -3,58 +3,68 @@
    ========================================================================== */
 
 /* Breakpoint widths */
-$small: 320px;
-$medium: 768px;
-$large: 1024px;
-$xlarge: 1280px;
+$sm-up: 576px;
+$md-up: 768px;
+$lg-up: 992px;
+$xl-up: 1200px;
 
-/* Fluid type */
-$base-font-size: 16px;
-$min-vw: $small;
-$max-vw: $xlarge;
-$min-font-size: 16px;
-$max-font-size: 20px;
+$sm-down: max-width 575.98px;
+$md-down: max-width 767.98px;
+$lg-down: max-width 991.98px;
+$xl-down: max-width 1199.98px;
 
-/* Calculate Modular Scale */
-$modular-scale-1: 1.067; /* small */
-$modular-scale-2: 1.296; /* large */
-/* Heading 1 */
-$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
-  $modular-scale-1 * $base-font-size;
-$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
-  $modular-scale-2 * $base-font-size;
-/* Heading 2 */
-$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
-  $base-font-size;
-$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
-  $base-font-size;
-/* Heading 3 */
-$h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size;
-$h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size;
-/* Heading 4 */
-$h4-min: $modular-scale-1 * $base-font-size;
-$h4-max: $modular-scale-2 * $base-font-size;
-/* Heading 5 */
-$h5-min: $base-font-size;
-$h5-max: $base-font-size;
-/* Heading 6 */
-$h6-min: ($base-font-size / $modular-scale-1);
-$h6-max: ($base-font-size / $modular-scale-2);
+$xs-only: max-width 575.98px;
+$sm-only: 576px 767.98px;
+$md-only: 768px 991.98px;
+$lg-only: 992px 1199.98px;
+$xl-only: 1200px;
 
-/* Base font family */
-$base-font-family: "Roboto", sans-serif;
-/* Other font families */
-$headline-font-family: "Fira Sans", sans-serif;
-$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
-  monospace;
+// /* Fluid type */
+// $base-font-size: 16px;
+// $min-vw: $small;
+// $max-vw: $xlarge;
+// $min-font-size: 16px;
+// $max-font-size: 20px;
+
+// /* Calculate Modular Scale */
+// $modular-scale-1: 1.067; /* small */
+// $modular-scale-2: 1.296; /* large */
+// /* Heading 1 */
+// $h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+//   $modular-scale-1 * $base-font-size;
+// $h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+//   $modular-scale-2 * $base-font-size;
+// /* Heading 2 */
+// $h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+//   $base-font-size;
+// $h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+//   $base-font-size;
+// /* Heading 3 */
+// $h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size;
+// $h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size;
+// /* Heading 4 */
+// $h4-min: $modular-scale-1 * $base-font-size;
+// $h4-max: $modular-scale-2 * $base-font-size;
+// /* Heading 5 */
+// $h5-min: $base-font-size;
+// $h5-max: $base-font-size;
+// /* Heading 6 */
+// $h6-min: ($base-font-size / $modular-scale-1);
+// $h6-max: ($base-font-size / $modular-scale-2);
+
+/* Fonts */
+$sans-serif-font: sans-serif;
+$serif-font: Georgia, serif;
+$monospace-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+$alternate-font: "Alegreya", serif;
 
 /* Colors */
 $base-color: #393e46;
-$text-color: #222831;
+$text-color: #000;
 $accent-color: #00638a;
 $background-color: #fff;
 $code-background-color: tint($base-color, 95%);
-$border-color: tint($base-color, 80%);
+$border-color: mix(#fff, $base-color, 80%);
 $overlay-color: $base-color;
 $section-bg-color: mix($base-color, #fff, 10%);
 $section-dark-bg-color: mix(#000, $base-color, 50%);
@@ -94,29 +104,34 @@ $rss-color: #ffa500;
 $twitter-color: #1da1f2;
 $youtube-color: #cd201f;
 
-/* Max-width of the main content */
-$main-max-width: $xlarge;
+/* Bigfoot.js */
+$button-color: #000;
+$button-standard-opacity: 0.1;
+$button-hovered-opacity: 0.5;
 
-/* Width of the sidebar */
-$sidebar-width: $small;
+// /* Max-width of the main content */
+// $main-max-width: $xlarge;
 
-/* Background color of the sidebar */
-$sidebar-background-color: $base-color;
+// /* Width of the sidebar */
+// $sidebar-width: $small;
+
+// /* Background color of the sidebar */
+// $sidebar-background-color: $base-color;
 
 /* Border radius */
 $border-radius: 0.25em;
 
-/* Forms */
-$form-background: mix(#fff, $border-color, 50%);
-$form-border-color: $border-color;
-$form-border-color-hover: mix(#000, $border-color, 10%);
-$form-border-color-focus: $base-color;
-$form-border-radius: $border-radius;
-$form-box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$form-box-shadow-focus: $form-box-shadow,
-  0 0 5px rgba(mix(#000, $form-border-color-focus, 10%), 0.7);
-$form-font-family: $base-font-family;
-$form-font-size: $base-font-size;
+// /* Forms */
+// $form-background: mix(#fff, $border-color, 50%);
+// $form-border-color: $border-color;
+// $form-border-color-hover: mix(#000, $border-color, 10%);
+// $form-border-color-focus: $base-color;
+// $form-border-radius: $border-radius;
+// $form-box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
+// $form-box-shadow-focus: $form-box-shadow,
+//   0 0 5px rgba(mix(#000, $form-border-color-focus, 10%), 0.7);
+// $form-font-family: $base-font-family;
+// $form-font-size: $base-font-size;
 
 /* Global transition */
 $global-transition: all 0.4s ease;
@@ -135,5 +150,5 @@ $navicon-focus-color: rgba($text-color, 0.25);
 $site-image-width: 25px;
 $site-image-height: 25px;
 
-/* Susy grid settings */
-$susy: (columns: 16, gutters: 0, math: fluid, output: float);
+// /* Susy grid settings */
+// $susy: (columns: 16, gutters: 0, math: fluid, output: float);

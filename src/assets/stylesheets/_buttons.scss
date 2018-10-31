@@ -9,7 +9,7 @@
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: $monospace-font-family;
+  font-family: $monospace-font;
   font-weight: bold;
   line-height: 1.5;
   padding: 0.5em 1em;
@@ -42,7 +42,7 @@
     flex-direction: column;
     margin-bottom: 2rem;
 
-    @include breakpoint($medium) {
+    @include breakpoint($md-up) {
       flex-direction: row;
     }
 
@@ -51,7 +51,7 @@
     }
 
     .btn + .btn {
-      @include breakpoint($medium) {
+      @include breakpoint($md-up) {
         margin-left: 0.25em;
       }
     }

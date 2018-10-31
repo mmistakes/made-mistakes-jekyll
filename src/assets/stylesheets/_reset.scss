@@ -10,7 +10,7 @@
    ========================================================================== */
 
 html {
-  font-family: $base-font-family; /* 1 */
+  font-family: $serif-font; /* 1 */
   box-sizing: border-box;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -122,7 +122,7 @@ hr {
   height: 0; /* 1 */
   overflow: visible; /* 2 */
   box-sizing: content-box; /* 1 */
-  border: 1px solid $border-color;
+  border: 1px solid #000;
 }
 
 /**
@@ -313,7 +313,7 @@ optgroup,
 select,
 textarea {
   margin: 0; /* 2 */
-  font-family: $base-font-family; /* 1 */
+  font-family: $serif-font; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
 }
@@ -351,6 +351,7 @@ html [type="button"],
 /* 1 */ [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
+  cursor: pointer;
 }
 
 /**

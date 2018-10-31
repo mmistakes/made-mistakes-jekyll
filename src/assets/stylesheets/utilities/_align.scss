@@ -70,15 +70,15 @@ a img.align-left {
   float: left;
 }
 
-/*
-   Sidebar Pusher
-   ========================================================================== */
+// /*
+//    Sidebar Pusher
+//    ========================================================================== */
 
-.is--pushed {
-  transform: translateX(1 * $sidebar-width) !important;
-  transform-origin: right !important;
+// .is--pushed {
+//   transform: translateX(1 * $sidebar-width) !important;
+//   transform-origin: right !important;
 
-  @include breakpoint($large) {
-    transform: translateX(1.5 * $sidebar-width) !important;
-  }
-}
+//   @include breakpoint($large) {
+//     transform: translateX(1.5 * $sidebar-width) !important;
+//   }
+// }

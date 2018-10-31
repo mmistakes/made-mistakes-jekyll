@@ -1,19 +1,15 @@
-<header id="masthead">
-  <div class="inner">
-    <div class="title-area">
-      {% if page.url == '/' %}
-        <h1 class="site-title">
-          <a href="{{ '/' | relative_url }}">
-            <svg class="site-logo" width="25px" height="25px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> <span>{{ site.title | escape }}</span>
-          </a>
-        </h1>
-      {% else %}
-        <p class="site-title">
-          <a href="{{ '/' | relative_url }}">
-            <svg class="site-logo" width="25px" height="25px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> <span>{{ site.title | escape }}</span>
-          </a>
-        </p>
-      {% endif %}
-    </div>
-  </div>
+<header class="site__header">
+  {% if page.url == '/' %}
+    <h1 class="site__name">
+      <a href="{{ '/' | relative_url }}">
+        <svg class="site__logo" width="25px" height="25px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> <span>{{ site.title | escape }}</span>
+      </a>
+    </h1>
+  {% else %}
+    <p class="site__name">
+      <a href="{{ '/' | relative_url }}">
+        <svg class="site__logo" width="25px" height="25px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> <span>{{ site.title | escape }}</span>
+      </a>
+    </p>
+  {% endif %}
 </header>

@@ -2,60 +2,41 @@
    Layout
    ========================================================================== */
 
-.canvas {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
+// .canvas {
+//   overflow: hidden;
+//   position: relative;
+//   width: 100%;
+// }
 
-.wrapper {
-  backface-visibility: hidden;
-  background-color: $background-color;
-  height: 100%;
-  min-height: 100vh;
-  position: relative;
-  transform: translateX(0);
-  transition: $global-transition;
-  width: 100%;
-  z-index: 100;
-}
+// .wrapper {
+//   backface-visibility: hidden;
+//   background-color: $background-color;
+//   height: 100%;
+//   min-height: 100vh;
+//   position: relative;
+//   transform: translateX(0);
+//   transition: $global-transition;
+//   width: 100%;
+//   z-index: 100;
+// }
 
-.intro,
-main {
-  > .inner {
-    padding: 0 5vw;
-  }
-}
+// .intro,
+// main {
+//   > .inner {
+//     padding: 0 5vw;
+//   }
+// }
 
-main {
-  section {
-    @include container;
-  }
-}
+// main {
+//   section {
+//     @include container;
+//   }
+// }
 
-.inner {
-  max-width: $large;
-}
+// .inner {
+//   max-width: $large;
+// }
 
 /*
    Layout specific adjustments
    ========================================================================== */
-
-.layout--post,
-.layout--page {
-  .entry-content,
-  .entry-comments {
-    @include breakpoint($large) {
-      width: span(14 of 16);
-    }
-  }
-}
-
-.layout--archive,
-.layout--archive_work {
-  main {
-    @include breakpoint($medium) {
-      display: flex;
-    }
-  }
-}

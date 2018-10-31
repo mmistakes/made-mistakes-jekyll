@@ -3,29 +3,36 @@ layout: default
 ---
 
 {% include page-intro.html %}
-{% include gallery.html %}
 
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-        {{ content }}
-      </div>
-      {% if page.support == true %}
-        {% include_cached support.html %}
-      {% endif %}
-    </article>
+<main id="main" class="page__main" aria-label="Main content">
+  {% include gallery.html %}
 
-    {% if site.related_posts.size >= 1 %}
-      {% include related.html %}
-    {% endif %}
+  {{ content }}
 
-    {% if page.comments == true %}
-      {% include comments.html %}
-    {% endif %}
+  {% if page.support == true %}
+    {% include_cached support.html %}
+  {% endif %}
 
-    {% include pager.html %}
-
-    {% include_cached footer.html %}
-  </div>
+  {% if page.comments == true %}
+    {% include comments.html %}
+  {% endif %}
 </main>
+
+<div class="page__aside">
+  {% if page.breadcrumbs %}
+    <div class="page__taxonomy">
+      <h3 class="title">Filed in:</h3>
+      {% assign crumb = page.breadcrumbs[0] %}
+      <span><a href="{{ crumb.url | relative_url }}">{{ crumb.label }}</a></span>
+    </div>
+  {% endif %}
+  {% if page.tags %}
+    <div class="page__taxonomy">
+      <h3 class="title">Explore more:</h3>
+      {% for tag in page.tags %}<span><a href="{{ tag | replace:' ','-' | downcase | prepend: '/tag/' | append: '/' | relative_url }}">{{ tag }}</a></span>{% endfor %}
+    </div>
+  {% endif %}
+  {% if site.related_posts.size >= 1 %}
+    {% include page__related.html %}
+  {% endif %}
+</div>

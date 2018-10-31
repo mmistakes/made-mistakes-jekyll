@@ -214,10 +214,9 @@
    Hide the following elements on print
    ========================================================================== */
 
-  .sidebar-toggle-wrapper,
-  .title-area,
+  .menu__toggle,
   .pager,
-  .site-footer,
+  .site__footer,
   .adsbygoogle,
   #respond {
     display: none !important;

@@ -2,74 +2,32 @@
   {% assign taxonomy = page.autopages.display_name | downcase | slugify %}
   {% assign tag = site.data.taxonomy[taxonomy] %}
 {% endif %}
-{% assign feature_image = page.image.feature | default: page.image.path %}
 
-<header class="intro {% if feature_image and page.image.cover %}cover{% endif %}">
-  {% if feature_image %}
-    <div class="intro-image">
-      {% assign f = feature_image | split: '.' %}
-        <noscript><img src="{{ f[0] | relative_url }}-320.{{ f[1] }}"></noscript>
-        <img data-sizes="auto"
-             src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
-             data-srcset="{{ f[0] | relative_url }}-lq.{{ f[1] }} 20w,
-                          {{ f[0] | relative_url }}-320.{{ f[1] }} 320w,
-                          {{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
-                          {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
-                          {{ f[0] | relative_url }}.{{ f[1] }} 1920w"
-             alt="{{ page.title }}"
-             class="lazyload blur-up">
-      {% if page.image.caption %}{% include image-caption.html %}{% endif %}
+<div class="page__title">
+  <h1 class="heading"><span>{{ page.alt_title | default: page.autopage.display_name | default: page.title | default: site.title | markdownify | strip_html | widont }}</span></h1>
+  {% if page.date %}
+    {% include author %}
+    <div class="author">
+      <span class="byline">{{ author.name }}</span>
     </div>
   {% endif %}
+</div>
 
-  {% include breadcrumbs.html %}
-
-  <div class="inner">
-    <div class="intro-text">
-      <h1 class="intro-title">{{ page.alt_title | default: page.autopage.display_name | default: page.title | default: site.title | markdownify | strip_html | widont }}</h1>
-      {% if page.sub_title %}
-        <p class="intro-subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
-      {% endif %}
-
-      {% unless page.layout == 'archive' %}
-        {% if page.date %}
-          {% include author %}
-          <p class="entry-meta">
-            <span class="byline-item"><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | relative_url }}"></use></svg><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string: 'ordinal', 'US' }}</time></span>
-            {% if page.work %}
-              <span class="byline-item"><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>&nbsp;{{ page.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-            {% endif %}
-            {% if page.read_time %}
-              <span class="byline-item"><svg class="icon icon--stopwatch" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-stopwatch' | prepend: 'assets/icons/' | relative_url }}"></use></svg>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</span>
-            {% endif %}
-            {% if page.comments == true and site.data.comments[page.slug].size > 0 %}
-              <span class="byline-item"><a href="#comments"><svg class="icon icon--stopwatch" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-comments' | prepend: 'assets/icons/' | relative_url }}"></use></svg>{{ site.data.comments[page.slug] | size }}&nbsp;Comment{% if site.data.comments[page.slug].size > 1 %}s{% endif %}</a></span>
-            {% endif %}
-          </p>
-        {% endif %}
-      {% endunless %}
-
-      {% if page.introduction %}
-        <div class="intro-more">
-          {{ page.introduction | markdownify }}
-        </div>
-      {% elsif page.layout == 'autopage_tags' %}
-        <div class="intro-more">
-          {% if tag.description %}
-            {{ tag.description | markdownify }}
-          {% else %}
-            <p>An archive of posts tagged <em>{{ page.autopages.display_name }}</em>.</p>
-          {% endif %}
-        </div>
-      {% endif %}
-
-      {% if page.actions %}
-        <ul class="intro-actions">
-          {% for action in page.actions %}
-            <li><a href="{{ action.url }}" class="btn">{{ action.label }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div>
+{% if page.layout == 'post' %}
+  <div class="page__meta">
+    {% if page.read_time %}
+      <span class="page__read-time">{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</span>
+    {% endif %}
+    {% if page.work %}
+      <span class="page__work">{{ page.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    {% endif %}
+    <span class="page__date">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string: 'ordinal', 'US' }}</time>
+    </span>
+    {% if page.comments == true and site.data.comments[page.slug].size > 0 %}
+      <span class="page__comments-count"><a href="#comments">{{ site.data.comments[page.slug] | size }}&nbsp;Comment{% if site.data.comments[page.slug].size > 1 %}s{% endif %}</a></span>
+    {% endif %}
   </div>
-</header>
+{% endif %}
+
+{% include page__cover.html %}
