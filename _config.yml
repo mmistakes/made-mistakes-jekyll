@@ -262,7 +262,7 @@ pagination:
   debug: false
   per_page: 15
   permalink: "/page/:num/"
-  title: ":title - Page :num of :max"
+  title: ":title"
   limit: 0
   sort_field: "date"
   sort_reverse: true
