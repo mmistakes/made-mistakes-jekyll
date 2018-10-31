@@ -15,7 +15,7 @@ $border-radius: 0.125em;
   background-color: #fff;
 
   &::before {
-    content: "\2022 \2022 \2022";
+    content: "\2022\2022\2022";
     position: absolute;
     top: 0;
     left: 0;
@@ -25,7 +25,8 @@ $border-radius: 0.125em;
     padding: (0.5 * $browser-window-height) 0;
     background: mix(#000, #fff, 25%);
     color: mix(#000, #fff, 50%);
-    font-size: (2 * $browser-window-height);
+    font-family: $monospace-font;
+    font-size: $browser-window-height;
     line-height: 0;
     text-indent: (0.5 * $browser-window-height);
   }
