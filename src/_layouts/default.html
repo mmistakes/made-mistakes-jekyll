@@ -9,10 +9,10 @@
   {% include head.html %}
 
   <body class="layout__{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-    <!-- {% include_cached skip-links.html %} -->
+    {% include_cached skip-links.html %}
 
     <div class="{{ page.layout | default: layout.layout }}">
-      <div class="menu">
+      <div id="nav-primary" class="menu">
         <div class="menu__toggle">
           <button class="search-toggle" type="button">
             <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">

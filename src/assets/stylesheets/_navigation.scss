@@ -2,22 +2,22 @@
    Navigation
    ========================================================================== */
 
-.menu {
-  @include list-unstyled;
-  font-weight: 700;
+// .menu {
+//   @include list-unstyled;
+//   font-weight: 700;
 
-  &--title {
-    font-family: $monospace-font-family;
-    font-size: 0.8em;
-    font-weight: 400;
-    margin-bottom: 1em;
-  }
+//   &--title {
+//     font-family: $monospace-font-family;
+//     font-size: 0.8em;
+//     font-weight: 400;
+//     margin-bottom: 1em;
+//   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-}
+//   a {
+//     color: inherit;
+//     text-decoration: none;
+//   }
+// }
 
 /*
    Skip links
@@ -36,116 +36,116 @@
    Paginator
    ========================================================================== */
 
-.pager {
-  @include clearfix();
-  margin: 2rem 0;
+// .pager {
+//   @include clearfix();
+//   margin: 2rem 0;
 
-  .icon {
-    fill: $text-color;
-  }
+//   .icon {
+//     fill: $text-color;
+//   }
 
-  ul {
-    @include list-unstyled;
-    display: flex;
-    flex-direction: column;
+//   ul {
+//     @include list-unstyled;
+//     display: flex;
+//     flex-direction: column;
 
-    @include breakpoint($medium) {
-      flex-direction: row;
-    }
+//     @include breakpoint($medium) {
+//       flex-direction: row;
+//     }
 
-    > li {
-      flex: 1;
-    }
+//     > li {
+//       flex: 1;
+//     }
 
-    li + li {
-      margin-top: 0.125em;
+//     li + li {
+//       margin-top: 0.125em;
 
-      @include breakpoint($medium) {
-        margin-left: 0.125em;
-        margin-top: 0;
-      }
-    }
-  }
+//       @include breakpoint($medium) {
+//         margin-left: 0.125em;
+//         margin-top: 0;
+//       }
+//     }
+//   }
 
-  a {
-    display: block;
-    line-height: 1.5;
-    text-decoration: none;
+//   a {
+//     display: block;
+//     line-height: 1.5;
+//     text-decoration: none;
 
-    &:hover {
-      .icon {
-        fill: $accent-color;
-      }
-    }
+//     &:hover {
+//       .icon {
+//         fill: $accent-color;
+//       }
+//     }
 
-    &.previous {
-      text-align: left;
-    }
+//     &.previous {
+//       text-align: left;
+//     }
 
-    &.next {
-      text-align: right;
-    }
-  }
-}
+//     &.next {
+//       text-align: right;
+//     }
+//   }
+// }
 
-.pager-label,
-.pager-title {
-  display: block;
-}
+// .pager-label,
+// .pager-title {
+//   display: block;
+// }
 
-.pager-label {
-  color: $text-color;
-  font-family: $base-font-family;
-  font-weight: bold;
-}
+// .pager-label {
+//   color: $text-color;
+//   font-family: $base-font-family;
+//   font-weight: bold;
+// }
 
-.pager-title {
-  color: tint($text-color, 40%);
-  font-size: 0.8em;
-}
+// .pager-title {
+//   color: tint($text-color, 40%);
+//   font-size: 0.8em;
+// }
 
 /*
    Breadcrumbs
    ========================================================================== */
 
-.breadcrumbs {
-  @include list-unstyled();
-  font-family: $monospace-font-family;
-  margin-bottom: 1.5rem;
-  padding-left: 5vw;
-  padding-right: 5vw;
+// .breadcrumbs {
+//   @include list-unstyled();
+//   font-family: $monospace-font-family;
+//   margin-bottom: 1.5rem;
+//   padding-left: 5vw;
+//   padding-right: 5vw;
 
-  a {
-    color: $text-color;
-    text-decoration: none;
+//   a {
+//     color: $text-color;
+//     text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
 
 /*
    Popular List
    ========================================================================== */
 
-.popular-list {
-  display: none;
+// .popular-list {
+//   display: none;
 
-  @include breakpoint($medium) {
-    align-self: flex-start;
-    background-color: $text-color;
-    border-radius: $border-radius;
-    color: #fff;
-    display: block;
-    flex-shrink: 0;
-    font-size: 0.8em;
-    margin-right: 5vw;
-    order: initial;
-    padding: 1em;
-  }
+//   @include breakpoint($medium) {
+//     align-self: flex-start;
+//     background-color: $text-color;
+//     border-radius: $border-radius;
+//     color: #fff;
+//     display: block;
+//     flex-shrink: 0;
+//     font-size: 0.8em;
+//     margin-right: 5vw;
+//     order: initial;
+//     padding: 1em;
+//   }
 
-  .menu {
-    margin: 0;
-  }
-}
+//   .menu {
+//     margin: 0;
+//   }
+// }
