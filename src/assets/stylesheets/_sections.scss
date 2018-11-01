@@ -8,11 +8,11 @@
 
 .section {
   background-color: $section-bg-color;
-  margin: 0;
+  margin-bottom: 1rem;
 
   .inner {
     max-width: 80%;
-    padding: 10vh 5vw;
+    padding: 10% 0 10% 10%;
 
     @include breakpoint($md-up) {
       max-width: 60%;
@@ -33,7 +33,7 @@
   }
 }
 
-.section-text {
+.section__text {
   /* remove space after last child element */
   > *:last-child {
     margin-bottom: 0;
@@ -51,22 +51,36 @@
   }
 }
 
-.section:first-of-type .section-title {
-  // @include fluid-type($min-vw, $max-vw, 26px, 72px);
+.section__title {
+  .heading {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    color: #fff;
+    font-family: $alternate-font;
+    font-weight: 700;
+    font-size: 1.953em;
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "kern" on, "liga" on, "clig" on, "calt" on;
+    line-height: 1.25;
+
+    @include breakpoint($md-up) {
+      padding-right: 5%;
+    }
+
+    @include breakpoint ($lg-up) {
+      font-size: 2.441em;
+    }
+
+    span {
+      padding: 0 0.5em;
+      line-height: 1.5;
+      box-decoration-break: clone;
+      background-color: #000;
+    }
+  }
 }
 
-.section-title {
-  // @include fluid-type($min-vw, $max-vw, 22px, 60px);
-  line-height: 1;
-  margin-bottom: 1rem;
-}
-
-.section-subtitle {
-  // @include fluid-type($min-vw, $max-vw, 18px, 28px);
-  font-style: italic;
-}
-
-.section-actions {
+.section__actions {
   @include list-unstyled;
 
   li {
@@ -74,12 +88,7 @@
   }
 }
 
-.section-more {
-  // > p:first-child {
-  //   font-size: 1.125em;
-  //   line-height: 1.625;
-  // }
-
+.section__more {
   @include breakpoint($lg-up) {
     font-size: 1.125em;
     line-height: 1.625;
@@ -91,7 +100,7 @@
    ========================================================================== */
 
 .section {
-  &--inverse {
+  &__inverse {
     background-color: $section-dark-bg-color;
     color: #fff;
     position: relative;
@@ -101,7 +110,7 @@
       z-index: 1; /* fix overlap with scrimgradient */
     }
 
-    .section-image {
+    .section__image {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -120,8 +129,8 @@
       }
     }
 
-    .section-title,
-    .section-more {
+    .section__title,
+    .section__more {
       text-shadow: 1px 01px 1px rgba($section-dark-bg-color, 0.75);
     }
 
@@ -135,17 +144,17 @@
     }
   }
 
-  &--about {
+  &__about {
     background-color: $section-about-bg-color;
 
-    .section-image {
+    .section__image {
       &::before {
         @include scrimgradient("to right", $section-about-bg-color);
       }
     }
 
-    .section-title,
-    .section-more {
+    .section__title,
+    .section__more {
       text-shadow: 1px 01px 1px rgba($section-about-bg-color, 0.75);
     }
 
@@ -158,10 +167,10 @@
     }
   }
 
-  &--work {
+  &__work {
     background-color: $section-work-bg-color;
 
-    .section-image {
+    .section__image {
 
       &::before {
         @include scrimgradient("to right", $section-work-bg-color);
@@ -169,8 +178,8 @@
     }
 
 
-    .section-title,
-    .section-more {
+    .section__title,
+    .section__more {
       text-shadow: 1px 1px 1px rgba($section-work-bg-color, 0.75);
     }
 

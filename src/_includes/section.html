@@ -5,19 +5,21 @@
     {% capture data_bgset %}{{ site.url }}{{ f[0] }}-320.{{ f[1] }} 320w, {{ site.url }}{{ f[0] }}-768.{{ f[1] }} 768w, {{ site.url }}{{ f[0] }}-1024.{{ f[1] }} 1024w, {{ site.url }}{{ f[0] }}.{{ f[1] }} 1920w{% endcapture %}
   {% endif %}
 
-  <div class="section section-{{ forloop.index }} {{ section.class }}">
-    <div class="section-image lazyload fade-in" {% if section_bg_image %}data-bgset="{{ data_bgset }}" data-sizes="auto"{% endif %}></div>
+  <div class="section section__{{ forloop.index }} {{ section.class }}">
+    <div class="section__image lazyload fade-in" {% if section_bg_image %}data-bgset="{{ data_bgset }}" data-sizes="auto"{% endif %}></div>
     <div class="inner">
-      <div class="section-text">
-        <h2 class="section-title">{{ section.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+      <div class="section__text">
+        <div class="section__title">
+          <h2 class="heading"><span>{{ section.title | markdownify | remove: '<p>' | remove: '</p>' }}</span></h2>
+        </div>
         {% if section.introduction %}
-          <div class="section-more">
+          <div class="section__more">
             {{ section.introduction | markdownify }}
           </div>
         {% endif %}
 
         {% if section.actions %}
-          <ul class="section-actions">
+          <ul class="section__actions">
             {% for action in section.actions %}
               <li><a href="{{ action.url }}" class="btn">{{ action.label }}</a></li>
             {% endfor %}
