@@ -9,6 +9,22 @@
   padding: 1em 1.5em 1.5em;
   border: 2px solid;
   font-size: 0.85em;
+
+  &.info {
+    color: $info-color;
+  }
+
+  &.warning {
+    color: $warning-color;
+  }
+
+  &.danger {
+    color: $danger-color;
+  }
+
+  &.success {
+    color: $success-color;
+  }
 }
 
 .notice > {

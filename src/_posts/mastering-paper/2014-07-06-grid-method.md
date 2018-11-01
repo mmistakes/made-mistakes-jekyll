@@ -48,7 +48,7 @@ Switching to a straight-edge[^straightedge] you'll use the dots as guides to dra
 [![drawing a line with Pencil and a straight-edge](/assets/images/paper-53-grid-book-edge-600.jpg)](/assets/images/paper-53-grid-book-edge-lg.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Straight-edge Placement
 
 Place your straight-edge directly on top of the reference dots, then slide it to the left or right ¼″ depending on what hand you are. This extra space gives the fat rubber tip of your stylus room to move and will hopefully fall exactly on the dots. If not move it some more until it does.
@@ -88,7 +88,7 @@ With the finished grids you're ready to begin creating your line drawing. Pick a
 ![drawing with the grid](/assets/images/paper-53-grid-method-drawing.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Focus on One Grid Box at a Time
 
 If you're having trouble focusing, cover up any neighboring boxes with a sheet of paper to reveal just the box you're working on.

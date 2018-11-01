@@ -55,7 +55,7 @@ To create smooth tones keep your finger on the screen and use circular motions t
 ![screenshot of zoomed in lightened background](/assets/images/paper-53-space-lighten-bg-2.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Smaller Brush Sizes
 
 When using the zoom loupe the watercolor brush's size scales down. Use this to your advantage to paint thinner strokes and fill smaller shapes.
@@ -92,7 +92,7 @@ If things went too dark mix a tint of blue or fuchsia (depending on where you wa
 ![lightening the blue and violet glazes with white and your finger](/assets/images/paper-53-space-lightening-glazes.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Paint Fast with White
 
 Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn pure white way too fast.
@@ -183,7 +183,7 @@ I'm going to speed through these next set of steps since they're exactly the sam
 ![lightening the black background with white and Pencil](/assets/images/paper-53-space-2-bg-lighten.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Turn Pencil on Its Side for a Different Drawing Experience
 
 Hold Pencil on its side to move more quickly and organically through the composition.
@@ -222,7 +222,7 @@ Since it's pretty difficult to draw a perfect circle freehand I'm going to trace
 
 Placing the object directly on the iPad's screen, carefully trace around its edge. It may be hard to match up the lines exactly on your first go so just Rewind to undo until you get it right.
 
-{% notice info %}
+{% notice %}
 #### Update: Perfect Circles
 
 Since writing this tutorial Paper was updated with [**Think Kit**](http://www.fiftythree.com/think). Now drawing perfect lines and shapes is only a swipe away in the tool tray.
@@ -244,7 +244,7 @@ Using the same process as before, leave one of the planet's edges exposed as you
 
 I started to lose the shape of the circle because I was painting pretty fast. To correct it I darkened the lower left corner until it merged with the rest of the scene. Depending on what color the background is, these sorts of mistakes may be harder to cover-up.
 
-{% notice info %}
+{% notice %}
 #### ProTip: Use a Stencil if You're a Messy Painter
 
 To help stay in the lines a [stencil](http://www.amazon.com/gp/product/B000FPYQ14/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FPYQ14&linkCode=as2&tag=mademist-20&linkId=GLP5SABXVPYTF7PT) can be used. Simply hold it steady on the iPad's screen as you paint glazes with Pencil inside of it.
@@ -267,7 +267,7 @@ To correct any shape distortions that occur from smudging too much, paint in bur
 
 ![screenshot of penciling in highlights](/assets/images/paper-53-space-2-planet-edge.jpg)
 
-{% notice info %}
+{% notice %}
 #### ProTip: Smoothen Edges with a Pencil Stroke
 
 Fine pencil lines along the sides work well to redefine a bumpy or irregular shaped curve.
@@ -306,7 +306,7 @@ You may remember in the first part of this guide I cautioned against using the i
 ![screenshot of blended stars](/assets/images/paper-53-space-2-blended-stars.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Simulate Glow with White Paint
 
 If you don't have a Pencil stylus, glowing orbs can also be created by dabbing a star with white watercolor.

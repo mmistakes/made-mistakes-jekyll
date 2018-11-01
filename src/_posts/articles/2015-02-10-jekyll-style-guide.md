@@ -103,7 +103,7 @@ usage: "Emphasize post text."
 </div>
 ```
 
-{% notice info %}
+{% notice %}
 #### ProTip: Descriptive filenames
 
 Be smart with your filenames if you're trying to sort components in a logical way. The default behavior is for them to be arranged alphabetically by filename. Adding a variable to the YAML Front Matter of each component and sorting on that is one way of overriding this behavior.

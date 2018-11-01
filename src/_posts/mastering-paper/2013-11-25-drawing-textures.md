@@ -29,7 +29,7 @@ I'm not going to try and explain perspective or how to set a vanishing point bec
 
 The color of pencil doesn't really matter, just make it something light (a gray perhaps). A [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus comes in handy allowing you can to produce lighter lines by gently applying pressure as you draw.
 
-{% notice info %}
+{% notice %}
 #### ProTip: Drawing Straight Lines
 
 An iPad smart cover, piece of cardboard, or a book placed on the screen can all be used to help draw straight lines if you don't have a ruler nearby.
@@ -75,7 +75,7 @@ When coloring the cement between the bricks I usually handle it in three differe
 
 At this point you could call it a day and consider the bricks finished. If you want to add some additional detail here are a few areas to focus on.
 
-{% notice info %}
+{% notice %}
 #### ProTip: Uniformity is the Enemy
 
 Varying brick color is a nice way to add visual interest and break up the space. Painting random bricks with a red or orange mix usually produces favorable results.
@@ -136,7 +136,7 @@ Using the pencil tool, begin sketching in *fuzzy* lines to represent wood grain.
 
 Without changing the color switch to the brush and splash in the wood's darker spots. You may have to lighten the color some if it goes black too fast. Ideally you'll build up the dark with several layers versus just to create richer tones. 
 
-{% notice info %}
+{% notice %}
 #### ProTip: More Layers = Smoother Gradients
 
 Don't try and take the fast way out by painting with darker tones. Start light and build them up with multiple glazes. The results always look better and more natural.
@@ -185,7 +185,7 @@ Going back to the color mixer, add in black or darken it with the sliders. You'r
 
 ![Screenshot of adding dirt and shadow](/assets/images/paper-53-asphalt-dark-texture.jpg)
 
-{% notice info %}
+{% notice %}
 #### ProTip: Bluetooth Styli to the Rescue
 
 Hate to sound like a broken record, but using FiftyThree's Pencil or a Pogo Connect Smart Pen really does make using the pencil tool better. Building up tones becomes gradual and efficient by giving you more control over a stroke by varying the direction or amount of pressure applied.

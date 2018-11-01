@@ -43,7 +43,7 @@ comments:
         format      : "iso8601"
 ```
 
-{% notice info %}
+{% notice %}
 #### New Configuration Options
 
 Be sure to check the [sample configuration file](https://github.com/eduardoboucas/staticman/blob/master/staticman.sample.yml) and [full list of parameters](https://staticman.net/docs/configuration) for setup ideas.
@@ -90,7 +90,7 @@ And to my comment form as a hidden field:
 <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
 ```
 
-{% notice info %}
+{% notice %}
 #### Update: Field Name Change
 
 After publishing this article I learned that [`options[parent]`](https://github.com/eduardoboucas/staticman/issues/42#issuecomment-262938831) is meant to identify subscription entries, and not comment lineage. I've since changed to `fields[replying_to]` and updated the article and sample code to reflect this.
@@ -146,7 +146,7 @@ As you can see above, the "child" comment has `replying_to` data populated from 
 ![Parent comments only](/assets/images/staticman-parent-comments-only.png)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### Note: Sort and Where Filters Don't Mix
 
 I ran into strange behaviors and errors due to mixing a `sort` filter with `where` and `where_exp`. Came to the conclusion it was unnecessary as the items were already being sorted alphabetically based on their filenames, and removed the filter.
@@ -154,7 +154,7 @@ I ran into strange behaviors and errors due to mixing a `sort` filter with `wher
 I'm using the following: `filename: \"comment-{@timestamp}\"` structure. Your mileage may vary depending on how you name entries.
 {% endnotice %}
 
-{% notice info %}
+{% notice %}
 #### Note: Added Back `sort` Filter
 
 Not exactly sure if it's a filesystem or OS thing, but building my site with Travis CI shuffled the order of comments. Applying `sort` to the `comments` assign was necessary to get everything in the correct chronological order.

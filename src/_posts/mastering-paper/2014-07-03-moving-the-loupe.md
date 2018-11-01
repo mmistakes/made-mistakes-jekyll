@@ -57,7 +57,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 
-{% notice info %}
+{% notice %}
 #### ProTip: Two Handed Zoom --- Only When You Need It
 
 Save this two handed zoom technique for painting large shapes that require extra precision. It can be somewhat disorienting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.

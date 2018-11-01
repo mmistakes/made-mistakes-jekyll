@@ -58,7 +58,7 @@ I think the best option is to go fully custom with a cover. What I did was creat
 ![Screenshot of selecting a cover image](/assets/images/paper-53-book-select-cover-color.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Custom Colored Cover Wraps
 
 The custom option affords you the opportunity of selecting a color for the back cover and spine. As far as I can tell you can't use the color mixer here to pick a color, so be sure to save one in your custom palettes if you don't like the defaults.

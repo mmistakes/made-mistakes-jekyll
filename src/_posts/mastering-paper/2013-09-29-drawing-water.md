@@ -21,7 +21,7 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 ![screenshot of blue-gray water mix](/assets/images/paper-53-water-color-mix.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Start Light
 
 Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
@@ -49,7 +49,7 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 ![screenshot faded blue water with two coats](/assets/images/paper-53-water-fade-reference.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Dark to Light
 
 Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
@@ -63,7 +63,7 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 ![screenshot of watercolor wave chop technique](/assets/images/paper-53-wave-chop-dark.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Use Tints to Lighten
 
 If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this "sweet spot."

@@ -128,7 +128,7 @@ Just sharing the love with some links back to articles and galleries that have f
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
 
-{% notice info %}
+{% notice %}
 #### Mastering Paper Tutorials
 Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper by FiftyThree](/mastering-paper/). You're welcome!
 {% endnotice %}

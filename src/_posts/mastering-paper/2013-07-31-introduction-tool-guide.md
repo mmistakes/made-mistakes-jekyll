@@ -25,7 +25,7 @@ Finger painting with Paper can yield some impressive results, but may feel unnat
 ![Adonit Jot](/assets/images/adonit-jot-classic-tip.jpg)
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### ProTip: Use an iPad Stylus Meant for Accuracy
 
 For those craving precision I'd suggest trying one of the many [**Adonit Jot**](http://www.amazon.com/gp/product/B00931K1QK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00931K1QK&linkCode=as2&tag=mademist-20) styli. The tips on these bad boys have clear plastic tips that can pivot and tilt allowing you to see exactly where you are on the iPad's screen. The fancier Bluetooth ones aren't supported by Paper, but apps like [Procreate](http://procreate.si) do.
@@ -73,7 +73,7 @@ My drawing style has evolved over the year from crisp line work to soft blended 
 
 ![Background fill cover-up screenshot](/assets/images/paper-53-background-fill.jpg)
 
-{% notice info %}
+{% notice %}
 #### ProTip: Quick and Dirty Erasing
 
 The eraser removes everything --- including a background filled with color. A fountain pen filled with color that matches the background can be used instead of the eraser to correct mistakes. Improvements to the eraser tool have made this technique less needed, but it still [has its uses]({% post_url /mastering-paper/2014-10-25-erasing %}).
@@ -137,7 +137,7 @@ Before I began using a Pogo Connect Smart Pen exclusively, I did all my letterin
 
 Like the pencil, the watercolor brush is another tool you really should spend time experimenting with to learn all its nuances. This tool sets Paper apart from other apps by replicating the natural feel of pushing and pulling paint across a canvas. Without it I wouldn't be able to shade, paint skies, or render hair realistically at all.
 
-{% notice info %}
+{% notice %}
 #### ProTip: Manipulate the Brush's Size
 
 While there is no obvious way to change the size of your brush in Paper by FiftyThree, you can make thinner lines when used with a pressure sensitive stylus like the Pogo Connect Smart Pen. Pressing lightly will make a line about a 1/4th as thick as the default one. [FiftyThree's Pencil]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}) stylus also allows you to dynamically change brush size depending on how you hold it.
@@ -155,7 +155,7 @@ It may be helpful to create a few color scales with the primary colors, gray, an
 
 ![Gradations created with the watercolor brush](/assets/images/paper-53-watercolor-layers.jpg)
 
-{% notice info %}
+{% notice %}
 #### ProTip: White to Lighten
 
 When loaded with white the watercolor brush can become a way to lighten areas you've previously painted or drawn. Just keep in mind that white paint doesn't behave like other colors and can be difficult to master. If you paint too slowly it will remove most of the color and leave you with bright white spots.
@@ -179,7 +179,7 @@ For those who need more control or want a traditional color picker --- one can b
 
 For a good shadow color I usually adjust the base color I'm shading with by cranking the saturation down and the brightness way up.
 
-{% notice info %}
+{% notice %}
 #### ProTip: Point of No Return
 
 If you go too far in any direction you will approach pure white, which will make the watercolor brush or marker opaque. Each color has a different "point of no return," that can be found by experimenting with the sliders.

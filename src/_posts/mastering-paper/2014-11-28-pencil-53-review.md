@@ -95,7 +95,7 @@ I'm not one for erasing all that much and instead rely heavily on the Rewind ges
 [![erasing with the entire edge](/assets/images/paper-53-erasing-wide.jpg)]({% post_url /mastering-paper/2014-10-25-erasing %})
 {% endfigure %}
 
-{% notice info %}
+{% notice %}
 #### Erasing and Undoing Techniques
 
 If you're looking for more erasing techniques you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({% post_url /mastering-paper/2014-10-25-erasing %}).

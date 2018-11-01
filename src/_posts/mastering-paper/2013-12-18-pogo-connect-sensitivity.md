@@ -44,7 +44,7 @@ After making these changes you can doodle around in the space below to verify th
 
 ![Pogo Connect app doodle test](/assets/images/pogo-connect-app-doodle.jpg)
 
-{% notice info %}
+{% notice %}
 #### ProTip: Sensitivity Settings
 
 Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by FiftyThree:
