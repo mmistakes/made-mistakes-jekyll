@@ -124,6 +124,7 @@ plugins:
   - jekyll/tagging
   - jekyll-tagging-related_posts
   - jekyll-include-cache
+  - jekyll-toc
 
 # Collections
 collections:
@@ -283,6 +284,14 @@ autopages:
       - "autopage_tags.html"
     title: ":tag" # :tag is replaced by the tag name
     permalink: "/tag/:tag"
+
+# Plugin: Table of Contents (jekyll-toc)
+toc:
+  min_level: 2
+  max_level: 2
+  list_class: "toc__menu"
+  item_class: "toc__entry"
+  item_prefix: "toc__"
 
 # Plugin: Jekyll Algolia
 algolia:

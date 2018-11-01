@@ -10,9 +10,13 @@
 
   @include breakpoint($md-up) {
     display: grid;
-    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
+    grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
     grid-template-row: 80px 100px 35%;
     align-items: end;
+  }
+
+  @include breakpoint($lg-up) {
+    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
   }
 }
 
@@ -135,33 +139,53 @@
 
 .page__aside {
   @include breakpoint($md-up) {
-    position: sticky;
-    top: 2em;
     grid-column: 8;
     grid-row: 4;
     align-self: start;
-  }
-}
 
-.page__taxonomy,
-.page__related {
-  padding-top: 2em;
+    @supports (position: sticky) {
+      position: sticky;
+      top: 1em;
+    }
+  }
+
+  > * {
+    padding-top: 2em;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    @include breakpoint($md-down) {
+      padding-left: 0.75em;
+    }
+  }
+
+  li {
+    font-family: $monospace-font;
+    font-size: 0.8em;
+  }
 
   .title {
-    display: inline-block;
     margin-top: 0;
     margin-right: 20px;
     margin-bottom: 10px;
     padding: 0;
     font-size: 0.8em;
-
-    @include breakpoint($md-up) {
-      display: block;
-    }
   }
+}
 
-  a {
-    text-decoration: none;
+.page__taxonomy {
+  .title {
+    @include breakpoint($md-down) {
+      display: inline;
+    }
   }
 
   span {
@@ -177,10 +201,5 @@
         content: '_';
       }
     }
-  }
-
-  li {
-    font-family: $monospace-font;
-    font-size: 0.8em;
   }
 }

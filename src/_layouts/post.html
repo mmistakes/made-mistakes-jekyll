@@ -19,6 +19,12 @@ layout: default
 </main>
 
 <div class="page__aside">
+  {% if page.toc %}
+    <div class="page__toc">
+      <h3 class="title">On this page:</h3>
+      {{ content | toc_only }}
+    </div>
+  {% endif %}
   {% if page.breadcrumbs %}
     <div class="page__taxonomy">
       <h3 class="title">Filed in:</h3>

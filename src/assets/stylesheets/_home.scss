@@ -14,12 +14,16 @@
 
   @include breakpoint($md-up) {
     display: grid;
-    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
-    grid-template-rows: 80px 35%;
+    grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
+    grid-template-row: 80px 100px 35%;
     align-items: end;
 
     .page__main {
       grid-column: 1 / -1;
     }
+  }
+
+  @include breakpoint($lg-up) {
+    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
   }
 }

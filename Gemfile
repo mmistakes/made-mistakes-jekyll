@@ -18,4 +18,5 @@ group :jekyll_plugins do
   gem 'jekyll-algolia', '>= 1.4.7'
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-include-cache'
+  gem 'jekyll-toc'
 end

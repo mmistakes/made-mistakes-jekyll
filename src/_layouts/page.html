@@ -15,5 +15,11 @@ layout: default
 </main>
 
 <div class="page__aside">
+  {% if page.toc %}
+    <div class="page__toc">
+      <h3 class="title">On this page:</h3>
+      {{ content | toc_only }}
+    </div>
+  {% endif %}
   <p><a class="back-to-top" href="#nav-primary">↑ back to top</a></p>
 </div>
