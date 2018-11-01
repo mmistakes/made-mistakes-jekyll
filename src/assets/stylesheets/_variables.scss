@@ -60,7 +60,7 @@ $alternate-font: "Alegreya", serif;
 
 /* Colors */
 $base-color: #393e46;
-$text-color: #000;
+$text-color: #111;
 $accent-color: #00638a;
 $background-color: #fff;
 $code-background-color: tint($base-color, 95%);
@@ -71,10 +71,10 @@ $section-dark-bg-color: mix(#000, $base-color, 50%);
 $section-about-bg-color: mix(#000, #2a201b, 50%);
 $section-work-bg-color: mix(#000, #6e2364, 50%);
 
-$primary-color: #00638a;
-$success-color: #40c057;
-$warning-color: #fcc419;
-$danger-color: #f03e3e;
+$primary-color: #1c76d6;
+$success-color: #1a882e;
+$warning-color: #92710c;
+$danger-color: #b11313;
 $info-color: #1c7cd6;
 
 /* Syntax highlighting (base16) colors */
@@ -119,7 +119,7 @@ $button-hovered-opacity: 0.5;
 // $sidebar-background-color: $base-color;
 
 /* Border radius */
-$border-radius: 0.25em;
+$border-radius: 0.125em;
 
 // /* Forms */
 // $form-background: mix(#fff, $border-color, 50%);

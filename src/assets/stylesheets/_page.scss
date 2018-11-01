@@ -39,8 +39,8 @@
   }
 
   .heading {
+    margin: 3em 0 0.25em 0;
     align-self: flex-start;
-    margin-bottom: 0.25em;
     color: #fff;
     font-family: $alternate-font;
     font-weight: 700;
@@ -81,7 +81,7 @@
       width: 40px;
       height: 3px;
       margin-top: 10px;
-      background-color: #000;
+      background-color: $text-color;
     };
 
     span {
@@ -134,6 +134,14 @@
 
   @include breakpoint($lg-up) {
     grid-column: 3 / 7;
+  }
+
+  > h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 3em 0 1em 0;
   }
 }
 

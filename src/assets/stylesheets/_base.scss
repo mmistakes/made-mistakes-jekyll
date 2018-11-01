@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
+  color: $text-color;
   font-family: $serif-font;
   font-kerning: normal;
   word-wrap: break-word;
@@ -30,7 +31,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 3em 0 1em 0;
   font-family: $sans-serif-font;
   text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
 }
@@ -74,7 +74,7 @@ hr::before {
   display: inline-block;
   width: 20px;
   height: 3px;
-  background-color: #000;
+  background-color: $text-color;
 }
 
 p img {
@@ -86,8 +86,18 @@ p img {
 }
 
 :focus:not([tabindex="-1"]) {
-  outline: 4px solid #80b3ff;
+  outline: 2px solid $info-color;
   outline-offset: 2px;
+}
+
+input,
+textarea,
+select {
+  &:focus:not([tabindex="-1"]) {
+    border: 1px solid $info-color;
+    outline: 0;
+    outline-offset: 0;
+  }
 }
 
 code,
