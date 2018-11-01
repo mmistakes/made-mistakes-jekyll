@@ -32,6 +32,14 @@
   }
 }
 
+.back-to-top {
+  display: block;
+  margins-top: 2em;
+  font-family: $monospace-font;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
 /*
    Paginator
    ========================================================================== */
