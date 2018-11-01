@@ -8,23 +8,38 @@
   + .comment {
     margin-top: 2em;
   }
+
+  &.child {
+    margin-left: 40px;
+
+    @include breakpoint($md-up) {
+      margin-left: 80px;
+    }
+  }
 }
 
 .comment__avatar {
+  $avatar-size: 30px;
+
   flex-shrink: 0;
   margin-right: 10px;
+  width: $avatar-size;
+  height: $avatar-size;
+  background-color: #e3e3e3;
 
   @include breakpoint($md-up) {
     margin-right: 20px;
+    width: (2 * $avatar-size);
+    height: (2 * $avatar-size);
   }
 
   img {
-    width: 30px;
-    height: 30px;
+    width: $avatar-size;
+    height: $avatar-size;
 
     @include breakpoint($md-up) {
-      width: 60px;
-      height: 60px;
+      width: (2 * $avatar-size);
+      height: (2 * $avatar-size);
     }
   }
 }
@@ -82,6 +97,11 @@
   .title {
     margin-top: 1em;
   }
+}
+
+#cancel-comment-reply-link {
+  margin-left: 1em;
+  color: $danger-color;
 }
 
 // .comment {

@@ -145,6 +145,12 @@
   }
 }
 
+.page__comments {
+  .title {
+    margin-top: 3em;
+  }
+}
+
 .page__aside {
   @include breakpoint($md-up) {
     grid-column: 8;
