@@ -1,7 +1,7 @@
 // asynchronously load fonts
 WebFontConfig = {
   google: {
-    families: ["Fira Sans:400,400i,600,600i", "Roboto:400,400i,700"]
+    families: ["Alegreya:700,700i"]
   }
 };
 
@@ -27,83 +27,83 @@ $(document).ready(function() {
   var bigfoot = $.bigfoot();
 });
 
-// Animate sidebar menu items
-var menuItems = document.querySelectorAll("#sidebar li");
+// // Animate sidebar menu items
+// var menuItems = document.querySelectorAll("#sidebar li");
 
-// Get vendor transition property
-var docElemStyle = document.documentElement.style;
-var transitionProp =
-  typeof docElemStyle.transition == "string"
-    ? "transition"
-    : "WebkitTransition";
+// // Get vendor transition property
+// var docElemStyle = document.documentElement.style;
+// var transitionProp =
+//   typeof docElemStyle.transition == "string"
+//     ? "transition"
+//     : "WebkitTransition";
 
-function animateMenuItems() {
-  for (var i = 0; i < menuItems.length; i++) {
-    var item = menuItems[i];
-    // Stagger transition with transitionDelay
-    item.style[transitionProp + "Delay"] = i * 75 + "ms";
-    item.classList.toggle("is--moved");
-  }
-}
+// function animateMenuItems() {
+//   for (var i = 0; i < menuItems.length; i++) {
+//     var item = menuItems[i];
+//     // Stagger transition with transitionDelay
+//     item.style[transitionProp + "Delay"] = i * 75 + "ms";
+//     item.classList.toggle("is--moved");
+//   }
+// }
 
-var myWrapper = document.querySelector(".wrapper");
-var myMenu = document.querySelector(".sidebar");
-var myToggle = document.querySelector(".toggle");
-var myInitialContent = document.querySelector('.initial-content');
-var mySearchContent = document.querySelector('.search-content');
-var mySearchToggle = document.querySelector('.search-toggle');
+// var myWrapper = document.querySelector(".wrapper");
+// var myMenu = document.querySelector(".sidebar");
+// var myToggle = document.querySelector(".toggle");
+// var myInitialContent = document.querySelector('.initial-content');
+// var mySearchContent = document.querySelector('.search-content');
+// var mySearchToggle = document.querySelector('.search-toggle');
 
-// Toggle sidebar visibility
-function toggleClassMenu() {
-  myMenu.classList.add("is--animatable");
-  if (!myMenu.classList.contains("is--visible")) {
-    myMenu.classList.add("is--visible");
-    myToggle.classList.add("open");
-    myWrapper.classList.add("is--pushed");
-  } else {
-    myMenu.classList.remove("is--visible");
-    myToggle.classList.remove("open");
-    myWrapper.classList.remove("is--pushed");
-  }
-}
+// // Toggle sidebar visibility
+// function toggleClassMenu() {
+//   myMenu.classList.add("is--animatable");
+//   if (!myMenu.classList.contains("is--visible")) {
+//     myMenu.classList.add("is--visible");
+//     myToggle.classList.add("open");
+//     myWrapper.classList.add("is--pushed");
+//   } else {
+//     myMenu.classList.remove("is--visible");
+//     myToggle.classList.remove("open");
+//     myWrapper.classList.remove("is--pushed");
+//   }
+// }
 
-function MenuOnTransitionEnd() {
-  myMenu.classList.remove("is--animatable");
-}
+// function MenuOnTransitionEnd() {
+//   myMenu.classList.remove("is--animatable");
+// }
 
-function SearchOnTransitionEnd() {
-  mySearchContent.classList.remove("is--animatable");
-}
+// function SearchOnTransitionEnd() {
+//   mySearchContent.classList.remove("is--animatable");
+// }
 
-myMenu.addEventListener("transitionend", MenuOnTransitionEnd, false);
-myToggle.addEventListener("click", function() {
-  toggleClassMenu();
-  animateMenuItems();
-  mySearchToggle.classList.toggle('is--hidden');
-}, false);
-myMenu.addEventListener("click", function() {
-  toggleClassMenu();
-  animateMenuItems();
-}, false);
-mySearchContent.addEventListener("transitionend", SearchOnTransitionEnd, false);
-mySearchToggle.addEventListener('click', function () {
-  toggleClassSearch();
-}, false);
+// myMenu.addEventListener("transitionend", MenuOnTransitionEnd, false);
+// myToggle.addEventListener("click", function() {
+//   toggleClassMenu();
+//   animateMenuItems();
+//   mySearchToggle.classList.toggle('is--hidden');
+// }, false);
+// myMenu.addEventListener("click", function() {
+//   toggleClassMenu();
+//   animateMenuItems();
+// }, false);
+// mySearchContent.addEventListener("transitionend", SearchOnTransitionEnd, false);
+// mySearchToggle.addEventListener('click', function () {
+//   toggleClassSearch();
+// }, false);
 
-// Toggle search input and content visibility
-function toggleClassSearch() {
-  mySearchContent.classList.add("is--animatable");
-  if (!mySearchContent.classList.contains("is--visible")) {
-    mySearchContent.classList.add('is--visible');
-    myInitialContent.classList.add('is--hidden');
-  } else {
-    mySearchContent.classList.remove('is--visible');
-    myInitialContent.classList.remove('is--hidden');
-  }
-  setTimeout(function () {
-    document.querySelector('.search-content input').focus();
-  }, 400);
-}
+// // Toggle search input and content visibility
+// function toggleClassSearch() {
+//   mySearchContent.classList.add("is--animatable");
+//   if (!mySearchContent.classList.contains("is--visible")) {
+//     mySearchContent.classList.add('is--visible');
+//     myInitialContent.classList.add('is--hidden');
+//   } else {
+//     mySearchContent.classList.remove('is--visible');
+//     myInitialContent.classList.remove('is--hidden');
+//   }
+//   setTimeout(function () {
+//     document.querySelector('.search-content input').focus();
+//   }, 400);
+// }
 
 // Static comments
 (function($) {

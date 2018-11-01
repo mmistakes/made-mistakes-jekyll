@@ -2,8 +2,9 @@
    Buttons
    ========================================================================== */
 
-.btn {
-  background-color: $accent-color;
+.btn,
+[type="submit"] {
+  background-color: $text-color;
   border-radius: $border-radius;
   border: 0;
   color: #fff;
@@ -27,10 +28,6 @@
 
   &:active {
     transform: scale(0.95);
-  }
-
-  &:focus {
-    background-color: shade($accent-color, 20%);
   }
 
   .icon {
@@ -70,12 +67,12 @@
   /* for dark backgrounds */
   &--inverse {
     background-color: #fff;
-    color: #000 !important;
-    outline: 0.125em solid #000;
+    color: $text-color !important;
+    outline: 0.125em solid $text-color;
 
     &:hover {
-      background-color: mix(#000, #fff, 10%);
-      outline: 0.125em solid #000;
+      background-color: mix($text-color, #fff, 10%);
+      outline: 0.125em solid $text-color;
     }
   }
 

@@ -1,7 +1,7 @@
 {% if site.repository and site.staticman.branch %}
   {% if site.data.comments[page.slug] %}
     <div id="comments" class="page__comments js-comments">
-      <h2>{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments</h2>
+      <h2 class="title">{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments</h2>
       {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == blank' %}
       {% for comment in comments %}
         {% assign index       = forloop.index %}

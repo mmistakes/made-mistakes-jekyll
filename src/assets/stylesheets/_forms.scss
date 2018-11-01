@@ -12,6 +12,7 @@ label {
   width: 100%;
   margin: 0 0 0.25em 0;
   font-family: $monospace-font;
+  font-size: 0.8em;
   text-transform: uppercase;
 }
 
@@ -42,6 +43,12 @@ textarea {
   > * {
     padding-left: 0.5em;
     padding-right: 0.5em;
+  }
+
+  /* fix reCAPTCHA iframe overflow */
+  &.g-recaptcha > * {
+    margin-left: 0.5em;
+    padding: 0;
   }
 }
 

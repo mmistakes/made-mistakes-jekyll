@@ -1,7 +1,7 @@
 {% unless page.comments_locked == true %}
   <!-- Start comment form -->
   <div id="respond" class="comment__form">
-    <h2>Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
+    <h2 class="title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
     <form id="comment-form" class="js-form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
       <div class="form__group">
         <label for="comment-form-name">Name
@@ -31,12 +31,6 @@
       </p>
       <!-- End comment form alert messaging -->
       <div class="g-recaptcha form__group" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
-      <div class="form__group">
-        <label class="comment-reply-notifications" for="comment-form-reply">
-          <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
-          Notify me of replies by email
-        </label>
-      </div>
       <button type="submit" id="comment-form-submit">Send comment</button>
     </form>
   </div>
