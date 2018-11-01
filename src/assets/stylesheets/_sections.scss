@@ -8,18 +8,19 @@
 
 .section {
   background-color: $section-bg-color;
-  margin-bottom: 1rem;
 
   .inner {
     max-width: 80%;
-    padding: 10% 0 10% 10%;
+    padding: 10% 0 10% 5%;
 
     @include breakpoint($md-up) {
       max-width: 60%;
+      padding: 5% 0 5% 5%;
     }
 
     @include breakpoint($lg-up) {
       max-width: 50%;
+      padding-left: 10%;
     }
   }
 
