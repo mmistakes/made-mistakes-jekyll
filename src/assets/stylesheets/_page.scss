@@ -135,6 +135,8 @@
 
 .page__aside {
   @include breakpoint($md-up) {
+    position: sticky;
+    top: 2em;
     grid-column: 8;
     grid-row: 4;
     align-self: start;
