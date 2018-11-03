@@ -14,7 +14,7 @@ I'm the type of person that learns how something is made by dissecting and exami
 
 ![Mix heart](/assets/images/paper-53-mix-heart.jpg)
 
-{% notice warning %}
+{% notice %}
 #### FiftyThree Has Shut Down the Public Stream / Mix
 
 As of August 15th, 2017 [the Public Stream](https://support.fiftythree.com/hc/en-us/articles/115004639749-The-Public-Stream) is no longer in service. Any links out to **mix.fiftythree.com** or **paper.fiftythree.com** will cease to work.

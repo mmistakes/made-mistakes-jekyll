@@ -16,7 +16,7 @@ I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could
 
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
 
-{% notice warning %}
+{% notice %}
 #### Full Screen Zoom and Grid Indicator
 
 The loupe shown below has been retired and replaced with a more traditional zoom tool in Paper v3. Pinching the screen now magnifies the entire canvas allowing for more room to work. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.

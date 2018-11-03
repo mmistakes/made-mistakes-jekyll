@@ -86,7 +86,7 @@ To finish the face take care to observe the direction and tilt of the head. Care
 ![Detail of face drawn with Paper by 53](/assets/images/paper-53-face-cross-lg.jpg)
 {% endfigure %}
 
-{% notice warning %}
+{% notice %}
 #### Mastering Paper Tutorials
 
 Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques described above. Be sure to check out my [**Mastering Paper by FiftyThree series**](/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 

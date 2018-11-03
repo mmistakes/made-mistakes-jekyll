@@ -89,7 +89,7 @@ Each PaperFaces portrait is protected under a [Creative Commons License](/terms/
 
 I use the term "tutorial" loosely. What you'll find here are glorified slide shows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slide show with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process](/mastering-paper/ "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
-{% notice warning %}
+{% notice %}
 #### Video Process Update
 
 I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!

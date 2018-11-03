@@ -209,7 +209,7 @@ The single most requested feature by fans and haters of Paper... Zoom. I had dra
 
 There isn't much else to Zoom, I'm merely mentioning it to increase awareness around it. Unlike other drawing and painting apps with zoom, the entire canvas doesn't scale. Instead you control the area you want magnified by you opening a circular <s>portal</s> loupe that can be moved around or dismissed by tapping outside of it.
 
-{% notice warning %}
+{% notice %}
 #### Full Screen Zoom and Grid Indicator
 
 The loupe shown above has been retired and replaced with a more traditional zoom tool in Paper v3. Pinching the screen now magnifies the entire canvas allowing for more room to work. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.

@@ -58,7 +58,7 @@ Pencil's tip is by no means the most durable I've used. The longevity of the rub
 
 These numbers are relative to the user, which makes locking in a specific number hard. Using the longer side of the tip without a doubt prolongs its age. I suggest to use that whenever filling in larger areas of color. Even if you do manage to tear through the rubber, the tips are still completely usable, albeit with some black streaking[^streaking] across the screen.
 
-{% notice warning %}
+{% notice %}
 #### Replacement Tips
 
 The good news is FiftyThree now offers replacement tips and erasers [in their shop](http://shop.fiftythree.com/). For $7.95 USD (+ shipping) you get two tips and an eraser for Pencil, which isn't too bad if you do a lot of drawing like me.

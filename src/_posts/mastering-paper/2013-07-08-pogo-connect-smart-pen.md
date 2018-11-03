@@ -134,7 +134,7 @@ Feels like Groundhog Day all over again. Sadly my replacement Pogo didn't fair t
 
 If it wasn't for Paper I probably would have dumped the Pogo and moved to the Adonit Jot Touch and Procreate full time. But there's something magical about Paper that keeps pulling me back...
 
-{% notice warning %}
+{% notice %}
 #### A New iPad Stylus
 
 After having a long run with Ten One Design's Pogo Connect stylus I have finally left it behind. After updating to an iPad Air 2 (which has poor support for the original Pogo Connect) and Paper being updated to include **Surface Pressure**, I've begun using [FiftyThree's Pencil stylus]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}) exclusively.

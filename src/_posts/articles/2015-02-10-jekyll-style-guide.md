@@ -142,7 +142,7 @@ What's going on here is I'm iterating over the `components` collection, grouping
 
 [^component-type]: Component type is set in the YAML Front Matter. eg: buttons, notices, media, typography, etc.
 
-{% notice warning %}
+{% notice %}
 #### Beware the Markdown
 
 I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.

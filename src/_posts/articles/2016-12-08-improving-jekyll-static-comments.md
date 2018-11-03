@@ -100,7 +100,7 @@ After publishing this article I learned that [`options[parent]`](https://github.
 
 To avoid displaying duplicates, I needed to exclude replies and only top level comments in the main loop. This seemed like the perfect use-case for Jekyll's `where_exp` filter:
 
-{% notice warning %}
+{% notice %}
 #### Where Expression Jekyll Filter
 
 Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp: "item", "item.graduation_year == 2014"`
@@ -394,7 +394,7 @@ allowedOrigins: ["mademistakes.com"]
 
 The domain(s) allowed here must match those passed from an `options.origin` field we're going to add in the next step. Only domains that match will trigger notifications to send, otherwise the operation will abort.
 
-{% notice warning %}
+{% notice %}
 #### ProTip: Use Your Own Mailgun Account
 
 The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) account with a limit of 10,000 emails a month. You are encouraged to create an account and add your own [Mailgun API and domain](https://staticman.net/docs/configuration#notifications.enabled) to `staticman.yml`. Be sure you encrypt both using the following endpoint: `https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}`.
