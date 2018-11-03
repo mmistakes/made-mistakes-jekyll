@@ -14,6 +14,9 @@
     {% if post.read_time %}
       &nbsp;&middot; {% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}
     {% endif %}
+    {% if site.data.comments[post.slug].size > 0 and post.comments %}
+      &nbsp;&middot; {{ site.data.comments[post.slug] | size }} Comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}
+    {% endif %}
   </div>
   {% if feature_image %}
     <div class="entry__image">
@@ -33,21 +36,4 @@
   {% if post.excerpt %}
     <div class="entry__excerpt">{{ post.excerpt | markdownify }}</div>
   {% endif %}
-
-  <!-- <footer class="entry-meta">
-    <ul>
-      {% if post.work %}
-        <li><svg class="icon icon--folder" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-folder' | prepend: 'assets/icons/' | relative_url }}"></use></svg>{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-      {% endif %}
-      {% if post.date %}
-        <li><svg class="icon icon--calendar" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-calendar' | prepend: 'assets/icons/' | relative_url }}"></use></svg><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string: 'ordinal', 'US' }}</time></li>
-      {% endif %}
-      {% if post.read_time %}
-        <li><svg class="icon icon--stopwatch" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-stopwatch' | prepend: 'assets/icons/' | relative_url }}"></use></svg>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
-      {% endif %}
-      {% if site.data.comments[post.slug].size > 0 and post.comments %}
-        <li><a href="{{ post.url | relative_url }}#comments"><svg class="icon icon--comments" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-comments' | prepend: 'assets/icons/' | relative_url }}"></use></svg>{{ site.data.comments[post.slug] | size }} Comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}</a></li>
-      {% endif %}
-    </ul>
-  </footer> -->
 </article>
