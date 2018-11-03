@@ -1,0 +1,15 @@
+/* ==========================================================================
+   Vertical Rhythm
+   ========================================================================== */
+
+@mixin line-height($number) {
+  line-height: #{ $number * $line-height + 'rem'};
+}
+
+@mixin margin-top($number) {
+  margin-top: #{ $number * $line-height + 'rem'};
+}
+
+@mixin margin-bottom($number) {
+  margin-bottom: #{ $number * $line-height + 'rem'};
+}

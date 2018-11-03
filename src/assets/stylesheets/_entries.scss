@@ -16,6 +16,10 @@
   a {
     text-decoration: none;
 
+    &:hover {
+      text-decoration: underline;
+    }
+
     &::before {
       content: '';
       position: absolute;

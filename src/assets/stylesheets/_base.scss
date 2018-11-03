@@ -3,16 +3,12 @@
    ========================================================================== */
 
 html {
-  font-size: 100%;
-  line-height: 1.625;
+  font-size: #{$base-font-size + '%'}; // 112.5% = 18 pixels
+}
 
-  @include breakpoint($md-up) {
-    font-size: 105%;
-  }
-
-  @include breakpoint($xl-up) {
-    font-size: 110%;
-  }
+* {
+  @include line-height(1);
+  @include margin-top(0);
 }
 
 body {
@@ -23,6 +19,25 @@ body {
   font-family: $serif-font;
   font-kerning: normal;
   word-wrap: break-word;
+}
+
+// Headings parameters [ h1: line-height: 2 × 26px, margin-top: 3 × 26px, margin-bottom: 1 × 26px ]
+$headings: (
+  h1: (2, 3, 1),
+  h2: (1.5, 2, 1),
+  h3: (1.5, 1, 0),
+  h4: (1, 1, 0),
+  h5: (1, 1, 0),
+  h6: (1, 1, 0)
+);
+
+// Set line-heights and margins
+@each $heading, $properties in $headings {
+  #{$heading} {
+    @include line-height(nth($properties, 1));
+    @include margin-top(nth($properties, 2));
+    @include margin-bottom(nth($properties, 3));
+  }
 }
 
 h1,
@@ -75,6 +90,14 @@ hr::before {
   width: 20px;
   height: 3px;
   background-color: $text-color;
+}
+
+a {
+  color: #1e79ae;
+
+  &:visited {
+    color: #165b83;
+  }
 }
 
 p img {
@@ -164,6 +187,7 @@ img {
 ul, ol {
   @include breakpoint($md-up) {
     padding-left: 0;
+    list-style-position: outside;
   }
 }
 

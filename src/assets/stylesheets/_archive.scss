@@ -19,4 +19,8 @@
   @include breakpoint($lg-up) {
     grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
   }
+
+  .entry__title {
+    margin-bottom: 0;
+  }
 }

@@ -10,7 +10,7 @@
   @include breakpoint($md-up) {
     grid-column: 3 / 5;
     grid-row: 1;
-    align-self: center;
+    align-self: start;
   }
 
   @include breakpoint($lg-up) {
@@ -23,9 +23,10 @@
   color: #000;
   font-family: $monospace-font;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 700;
 
   a {
+    color: inherit;
     text-decoration: none;
   }
 }

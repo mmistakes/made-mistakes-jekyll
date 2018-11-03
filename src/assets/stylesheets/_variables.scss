@@ -19,40 +19,10 @@ $md-only: 768px 991.98px;
 $lg-only: 992px 1199.98px;
 $xl-only: 1200px;
 
-// /* Fluid type */
-// $base-font-size: 16px;
-// $min-vw: $small;
-// $max-vw: $xlarge;
-// $min-font-size: 16px;
-// $max-font-size: 20px;
+/* Typography */
+$base-font-size: 112.5;
+$line-height: 1.45;
 
-// /* Calculate Modular Scale */
-// $modular-scale-1: 1.067; /* small */
-// $modular-scale-2: 1.296; /* large */
-// /* Heading 1 */
-// $h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
-//   $modular-scale-1 * $base-font-size;
-// $h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
-//   $modular-scale-2 * $base-font-size;
-// /* Heading 2 */
-// $h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
-//   $base-font-size;
-// $h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
-//   $base-font-size;
-// /* Heading 3 */
-// $h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size;
-// $h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size;
-// /* Heading 4 */
-// $h4-min: $modular-scale-1 * $base-font-size;
-// $h4-max: $modular-scale-2 * $base-font-size;
-// /* Heading 5 */
-// $h5-min: $base-font-size;
-// $h5-max: $base-font-size;
-// /* Heading 6 */
-// $h6-min: ($base-font-size / $modular-scale-1);
-// $h6-max: ($base-font-size / $modular-scale-2);
-
-/* Fonts */
 $sans-serif-font: Helvetica, Arial, sans-serif;
 $serif-font: Georgia, serif;
 $monospace-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;

@@ -11,7 +11,7 @@
   @include breakpoint($md-up) {
     display: grid;
     grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
-    grid-template-rows: 80px 100px 35%;
+    grid-template-rows: 80px 100px auto;
     align-items: end;
   }
 
@@ -39,7 +39,8 @@
   }
 
   .heading {
-    margin: 3em 0 0.25em 0;
+    @include margin-top(3);
+    @include margin-bottom(0.5);
     align-self: flex-start;
     color: #fff;
     font-family: $alternate-font;
@@ -74,13 +75,15 @@
   @include breakpoint($md-up) {
     grid-column: 3 / span 2;
     grid-row: 2 / 3;
+    @include margin-top(1);
+    align-self: start;
 
-    &::after {
+    &::before {
       content: "";
       display: block;
-      width: 40px;
+      width: 2rem;
       height: 3px;
-      margin-top: 10px;
+      @include margin-bottom(1);
       background-color: $text-color;
     };
 
@@ -107,7 +110,7 @@
 }
 
 .page__cover {
-  margin-top: 10px;
+  @include margin-top(0.5);
 
   @include breakpoint($md-up) {
     grid-column: 5 / 11;
@@ -124,12 +127,12 @@
 }
 
 .page__main {
-  margin-top: 2em;
 
   @include breakpoint($md-up) {
     grid-column: 3 / 7;
     grid-row: 4 / span 1;
     align-self: flex-start;
+    @include margin-top(2);
   }
 
   @include breakpoint($lg-up) {
@@ -141,13 +144,27 @@
   h4,
   h5,
   h6 {
-    margin: 3em 0 1em 0;
+    @include margin-top(3);
+    @include margin-bottom(1);
+  }
+
+  > h2,
+  h3 {
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    max-width: 35em;
+  }
+
+  > p:first-child {
+    @include margin-top(1);
   }
 }
 
 .page__comments {
   .title {
-    margin-top: 3em;
+    @include margin-top(3);
   }
 }
 
@@ -188,8 +205,7 @@
 
   .title {
     margin-top: 0;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    margin-right: 0.5rem;
     padding: 0;
     font-size: 0.8em;
   }
@@ -204,7 +220,7 @@
 
   span {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 1rem;
     font-family: $monospace-font;
     font-size: 0.8em;
 

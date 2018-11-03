@@ -6,7 +6,7 @@
   @include breakpoint($md-up) {
     grid-column: 7 / 9;
     grid-row: 1;
-    align-self: center;
+    align-self: start;
     justify-self: end;
   }
 
