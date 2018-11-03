@@ -21,8 +21,6 @@ If you have a question, please read my [frequently asked questions section](/faq
 
 For anything else, use the contact form below.
 
-<script>{% include_cached wufoo.js %}</script>
-
 <form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <div class="form__group">
     <label id="title7" for="Field7">Name
