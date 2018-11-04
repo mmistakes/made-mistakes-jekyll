@@ -33,109 +33,109 @@
   .icon {
     margin-right: 0.5em;
   }
+}
 
-  &--group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
+.btn--group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
 
+  @include breakpoint($md-up) {
+    flex-direction: row;
+  }
+
+  .btn {
+    margin-bottom: 0.25em;
+  }
+
+  .btn + .btn {
     @include breakpoint($md-up) {
-      flex-direction: row;
-    }
-
-    .btn {
-      margin-bottom: 0.25em;
-    }
-
-    .btn + .btn {
-      @include breakpoint($md-up) {
-        margin-left: 0.25em;
-      }
+      margin-left: 0.25em;
     }
   }
+}
 
-  /* block button fills width of parent container */
-  &--block {
-    display: block;
-    width: 100%;
+/* block button fills width of parent container */
+.btn--block {
+  display: block;
+  width: 100%;
 
-    + .btn--block {
-      margin-top: 1rem;
-    }
+  + .btn--block {
+    margin-top: 1rem;
   }
+}
 
-  /* for dark backgrounds */
-  &--inverse {
-    background-color: #fff;
-    color: $text-color !important;
+/* for dark backgrounds */
+.btn--inverse {
+  background-color: #fff;
+  color: $text-color !important;
+  outline: 0.125em solid $text-color;
+
+  &:hover {
+    background-color: mix($text-color, #fff, 10%);
     outline: 0.125em solid $text-color;
+  }
+}
+
+/* light outline */
+.btn--light-outline {
+  background-color: transparent;
+  border: 1px solid #fff !important; // override
+}
+
+/* information */
+.btn--info {
+  background-color: $info-color;
+
+  &:hover {
+    background-color: mix(#000, $info-color, 20%);
+  }
+}
+
+/* warning */
+.btn--warning {
+  background-color: $warning-color;
+
+  &:hover {
+    background-color: mix(#000, $warning-color, 20%);
+  }
+}
+
+/* success */
+.btn--success {
+  background-color: $success-color;
+
+  &:hover {
+    background-color: mix(#000, $success-color, 20%);
+  }
+}
+
+/* danger */
+.btn--danger {
+  background-color: $danger-color;
+
+  &:hover {
+    background-color: mix(#000, $danger-color, 20%);
+  }
+}
+
+/* disabled */
+.btn--disabled {
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+/* social buttons */
+$social: (facebook, $facebook-color),  (twitter, $twitter-color);
+
+@each $socialnetwork, $color in $social {
+  .btn--#{$socialnetwork} {
+    background-color: $color;
 
     &:hover {
-      background-color: mix($text-color, #fff, 10%);
-      outline: 0.125em solid $text-color;
-    }
-  }
-
-  /* light outline */
-  &--light-outline {
-    background-color: transparent;
-    border: 1px solid #fff !important; // override
-  }
-
-  /* information */
-  &--info {
-    background-color: $info-color;
-
-    &:hover {
-      background-color: mix(#000, $info-color, 20%);
-    }
-  }
-
-  /* warning */
-  &--warning {
-    background-color: $warning-color;
-
-    &:hover {
-      background-color: mix(#000, $warning-color, 20%);
-    }
-  }
-
-  /* success */
-  &--success {
-    background-color: $success-color;
-
-    &:hover {
-      background-color: mix(#000, $success-color, 20%);
-    }
-  }
-
-  /* danger */
-  &--danger {
-    background-color: $danger-color;
-
-    &:hover {
-      background-color: mix(#000, $danger-color, 20%);
-    }
-  }
-
-  /* disabled */
-  &--disabled {
-    box-shadow: none;
-    cursor: not-allowed;
-    opacity: 0.65;
-    pointer-events: none;
-  }
-
-  /* social buttons */
-  $social: (facebook, $facebook-color),  (twitter, $twitter-color);
-
-  @each $socialnetwork, $color in $social {
-    &--#{$socialnetwork} {
-      background-color: $color;
-
-      &:hover {
-        background-color: mix(#000, $color, 20%);
-      }
+      background-color: mix(#000, $color, 20%);
     }
   }
 }
