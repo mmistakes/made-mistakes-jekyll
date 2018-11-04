@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .site__header {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  @include margin-top(1);
+  @include margin-bottom(1);
   font-family: $monospace-font;
 
   @include breakpoint($md-up) {
@@ -32,7 +32,7 @@
 }
 
 .author {
-  margin-bottom: 1em;
+  @include margin-bottom(1);
   align-self: flex-start;
   font-family: $monospace-font;
   font-size: 0.8em;
@@ -45,8 +45,8 @@
 }
 
 .site__footer {
-  margin-top: 4em;
-  margin-bottom: 2em;
+  @include margin-top(4);
+  @include margin-bottom(1);
   color: mix(#fff, $text-color, 40%);
   font-family: $monospace-font;
   font-size: 0.8em;

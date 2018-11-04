@@ -17,9 +17,9 @@ figure.highlight {
   font-family: $monospace-font;
   // line-height: 1.8;
   margin-bottom: 1em;
-  margin-left: -5vw;
-  margin-right: -5vw;
-  padding: 1em 5vw;
+  margin-left: -5%;
+  margin-right: -5%;
+  padding: 1em 5%;
   position: relative;
 
   @include breakpoint($md-up) {

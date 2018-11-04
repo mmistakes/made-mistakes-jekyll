@@ -11,7 +11,7 @@
   @include breakpoint($md-up) {
     display: grid;
     grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
-    grid-template-rows: 80px 100px auto;
+    grid-template-rows: 80px 150px auto;
     align-items: end;
   }
 
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-self: stretch;
+    align-self: start;
     grid-column: 2 / span 4;
     grid-row: 3 / span 1;
     margin-top: 0;
@@ -112,6 +112,11 @@
 .page__cover {
   @include margin-top(0.5);
 
+  @include breakpoint($md-down) {
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+
   @include breakpoint($md-up) {
     grid-column: 5 / 11;
     grid-row: 1 / 4;
@@ -173,6 +178,7 @@
     grid-column: 8;
     grid-row: 4;
     align-self: start;
+    @include margin-top(2);
 
     @supports (position: sticky) {
       position: sticky;
@@ -181,7 +187,7 @@
   }
 
   > * {
-    padding-top: 2em;
+    @include margin-top(1);
   }
 
   a {
