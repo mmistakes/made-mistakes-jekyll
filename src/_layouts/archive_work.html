@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign sorted_entries = site.work | sort: 'order' %}
+{% include page-intro.html %}
 
 <main id="main" class="page__main" aria-label="Main content">
   {% if page.introduction %}
