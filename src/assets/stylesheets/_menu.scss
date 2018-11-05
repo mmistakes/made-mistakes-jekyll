@@ -3,6 +3,8 @@
    ========================================================================== */
 
 .menu {
+  list-style: none;
+
   @include breakpoint($md-up) {
     grid-column: 7 / 9;
     grid-row: 1;
@@ -21,6 +23,16 @@
     z-index: 50;
     cursor: pointer;
   }
+
+  .toggle-inner {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu__toggle {
+  position: relative;
+  z-index: 150;
 }
 
 .menu__overlay {
@@ -31,5 +43,66 @@
   height: 100%;
   pointer-events: none;
   z-index: 100;
+  padding: 5%;
+  background: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  transition: transform 0.4s cubic-bezier(0, 0, 0.2, 1);
+  transform: translateY(-100%);
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &.is--visible {
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+}
+
+.menu__overlay-inner {
+  height: 100%;
+  overflow-x: hidden;
+  padding: 3rem;
+}
+
+.menu-item {
+  font-family: $sans-serif-font;
+  font-size: 2em;
+  font-weight: 700;
+  @include line-height(2);
   opacity: 0;
+  transform: translateX(-1rem);
+  transition: all 0.5s;
+
+  &.is--moved {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* line hover effect */
+  a {
+    color: mix($base-color, #fff, 40%);
+    position: relative;
+
+    &::before {
+      background-color: #fff;
+      content: "";
+      display: block;
+      height: 1px;
+      left: -3rem;
+      position: absolute;
+      top: 50%;
+      transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
+      width: 0;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:hover::before {
+      width: 2.5rem;
+    }
+  }
 }

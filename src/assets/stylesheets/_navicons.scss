@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .navicon-button {
-  background-color: $navicon-nav-bg-close;
+  background-color: transparent;
   border: 0;
   cursor: pointer;
   display: inline-block;
@@ -14,10 +14,6 @@
   position: relative;
   transition: $navicon-duration / 2;
   user-select: none;
-
-  &.open {
-    background-color: $navicon-nav-bg-open;
-  }
 
   .navicon::before,
   .navicon::after {
@@ -82,39 +78,16 @@
     transition-duration: $navicon-duration;
   }
 
-  /* Arrows */
-  &.larr .navicon,
-  &.rarr .navicon,
-  &.uarr .navicon {
+  /* × */
+  .x .navicon {
+    background: transparent;
+
     &::before,
     &::after {
-      width: (0.6 * $navicon-width);
+      background: #fff;
     }
 
-    &::before {
-      transform: rotate(35deg);
-      transform-origin: left top;
-    }
-
-    &::after {
-      transform: rotate(-35deg);
-      transform-origin: left bottom;
-    }
-  }
-
-  &.uarr {
-    transform: scale($navicon-toggled-size) rotate(90deg);
-  }
-
-  &.rarr .navicon {
-    &::before {
-      transform: translate3d(1em, 0, 0) rotate(-35deg);
-      transform-origin: right top;
-    }
-
-    &::after {
-      transform: translate3d(1em, 0, 0) rotate(35deg);
-      transform-origin: right bottom;
-    }
+    &::before { transform: rotate(-45deg); }
+    &::after { transform: rotate(45deg); }
   }
 }
