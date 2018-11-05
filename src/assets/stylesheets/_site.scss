@@ -3,9 +3,13 @@
    ========================================================================== */
 
 .site__header {
+  position: relative;
+  display: flex;
+  align-items: center;
   @include margin-top(1);
   @include margin-bottom(1);
   font-family: $monospace-font;
+  z-index: 150;
 
   @include breakpoint($md-up) {
     grid-column: 3 / 5;
@@ -19,6 +23,7 @@
 }
 
 .site__name {
+  display: inline-block;
   margin: 0;
   color: #000;
   font-family: $monospace-font;
@@ -32,11 +37,18 @@
   }
 }
 
+.is--inverted .site__name {
+  color: #fff;
+}
+
 .author {
-  @include margin-bottom(1);
   align-self: flex-start;
   font-family: $monospace-font;
   font-size: 0.8em;
+
+  @include breakpoint($md-up) {
+    @include margin-bottom(1);
+  }
 
   .byline {
     &::before {

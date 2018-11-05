@@ -1,15 +1,20 @@
 <header class="site__header">
   {% if page.url == '/' %}
     <h1 class="site__name">
-      <a href="{{ '/' | relative_url }}">
-        <svg class="site__logo" width="25px" height="25px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> <span>{{ site.title | escape }}</span>
-      </a>
+      <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     </h1>
   {% else %}
-    <p class="site__name">
-      <a href="{{ '/' | relative_url }}">
-        <svg class="site__logo" width="25px" height="25px"><use xlink:href="{{ 'icons.svg#icon-mistake' | prepend: 'assets/icons/' | relative_url }}"></use></svg> <span>{{ site.title | escape }}</span>
-      </a>
-    </p>
+    <div class="site__name">
+      <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    </div>
   {% endif %}
+
+  <div class="menu__toggle">
+    <button class="toggle navicon-button x" type="button">
+      <span class="toggle-inner">
+        <span class="toggle-label visually-hidden">menu</span>
+        <span class="navicon"></span>
+      </span>
+    </button>
+  </div>
 </header>

@@ -27,9 +27,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-self: start;
+    align-self: end;
     grid-column: 2 / span 4;
-    grid-row: 3 / span 1;
+    grid-row: 2 / 3;
     margin-top: 0;
     z-index: 10;
   }
@@ -75,16 +75,16 @@
 
   @include breakpoint($md-up) {
     grid-column: 3 / span 2;
-    grid-row: 2 / 3;
+    grid-row: 3 / span 1;
     @include margin-bottom(1);
-    align-self: end;
+    align-self: start;
 
-    &::after {
+    &::before {
       content: "";
       display: block;
       width: 2rem;
       height: 3px;
-      @include margin-top(1);
+      @include margin-bottom(1);
       background-color: $text-color;
     };
 

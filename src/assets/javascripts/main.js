@@ -47,6 +47,7 @@ function animateMenuItems() {
 }
 
 // var myWrapper = document.querySelector(".wrapper");
+var myHeader = document.querySelector(".site__header");
 var myMenu = document.querySelector(".menu__overlay");
 var myToggle = document.querySelector(".menu__toggle");
 // var myInitialContent = document.querySelector('.initial-content');
@@ -57,10 +58,12 @@ var myToggle = document.querySelector(".menu__toggle");
 function toggleClassMenu() {
   myMenu.classList.add("is--animatable");
   if (!myMenu.classList.contains("is--visible")) {
+    myHeader.classList.add("is--inverted");
     myMenu.classList.add("is--visible");
     myToggle.classList.add("open");
     // myWrapper.classList.add("is--pushed");
   } else {
+    myHeader.classList.remove("is--inverted");
     myMenu.classList.remove("is--visible");
     myToggle.classList.remove("open");
     // myWrapper.classList.remove("is--pushed");

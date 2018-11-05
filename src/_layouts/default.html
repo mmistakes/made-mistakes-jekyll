@@ -10,25 +10,16 @@
 
   <body class="layout__{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
     {% include_cached skip-links.html %}
-
-    <div class="{{ page.layout | default: layout.layout }}">
-      <div id="nav-primary" class="menu">
-        <div class="menu__toggle">
-          <button class="toggle navicon-button x" type="button">
-            <span class="toggle-inner">
-              <span class="toggle-label visually-hidden">Menu</span>
-              <span class="navicon"></span>
-            </span>
-          </button>
-        </div>
-        <div class="menu__overlay">
-          <div class="menu__overlay-inner">
-          {% include_cached search-form.html %}
-            {% include_cached navigation.html %}
-          </div>
+    <div id="nav-primary" class="menu">
+      <div class="menu__overlay">
+        <div class="menu__overlay-inner">
+        {% include_cached search-form.html %}
+          {% include_cached navigation.html %}
         </div>
       </div>
+    </div>
 
+    <div class="{{ page.layout | default: layout.layout }}">
       {% include masthead.html %}
       {{ content }}
       {% include_cached footer.html %}

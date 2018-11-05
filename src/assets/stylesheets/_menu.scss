@@ -3,18 +3,26 @@
    ========================================================================== */
 
 .menu {
+  // @include margin-bottom(2);
+  padding-left: 0;
   list-style: none;
 
-  @include breakpoint($md-up) {
-    grid-column: 7 / 9;
-    grid-row: 1;
-    align-self: start;
-    justify-self: end;
-  }
+  // @include breakpoint($md-up) {
+  //   grid-column: 7 / 9;
+  //   grid-row: 1;
+  //   align-self: start;
+  //   justify-self: end;
+  // }
 
-  @include breakpoint($lg-up) {
-    grid-column: 8;
-  }
+  // @include breakpoint($lg-up) {
+  //   grid-column: 8;
+  // }
+}
+
+.menu__toggle {
+  display: inline-block;
+  order: -1;
+  margin-right: 1em;
 
   .toggle {
     position: relative;
@@ -28,42 +36,41 @@
   }
 }
 
-.menu__toggle {
-  position: relative;
-  z-index: 150;
-  @include margin-top(1);
-  @include margin-bottom(1);
-}
-
 .menu__overlay {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #000;
+  color: #fff;
   pointer-events: none;
   z-index: 100;
-  padding: 5%;
-  background: rgba(0, 0, 0, 0.95);
-  color: #fff;
   transition: transform 0.4s cubic-bezier(0, 0, 0.2, 1);
   transform: translateY(-100%);
-
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
 
   &.is--visible {
     pointer-events: auto;
     transform: translateY(0);
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 }
 
 .menu__overlay-inner {
   height: 100%;
   overflow-x: hidden;
-  padding: 3rem;
+  padding-top: 80px;
+
+  @include breakpoint($lg-up) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 .menu-item {
