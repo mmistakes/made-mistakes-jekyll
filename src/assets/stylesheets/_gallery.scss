@@ -2,6 +2,48 @@
    Gallery
    ========================================================================== */
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0 -8px;
+  @include margin-bottom(1);
+  padding: 0;
+
+  &.columns-3 {
+    .gallery-item {
+      @include breakpoint($md-up) {
+        width: calc(100% / 3 - 16px)
+      }
+    }
+  }
+}
+
+.gallery-item {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+  width: calc(100% / 2 - 16px);
+
+  figure {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin: 0;
+    height: 100%
+  }
+
+  img {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+  }
+}
+
+
 /* 2 Column Gallery */
 
 .gallery-2-col {
@@ -35,42 +77,6 @@
   figcaption {
     width: 100%;
     grid-column: 1 / -1;
-  }
-}
-
-/* Vertical Gallery */
-
-.gallery-vertical {
-  align-items: center;
-  display: flex;
-  margin-bottom: 1.5rem;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-
-  // @include breakpoint($lg-up) {
-  //   flex-wrap: wrap;
-  //   overflow-x: inherit;
-  // }
-
-  .gallery-img {
-    flex-shrink: 0;
-    max-width: ($sm-up - ($sm-up * 0.25 + 0px));
-    padding: 0 1em 1em 1em;
-
-    @include breakpoint($md-up) {
-      max-width: ($md-up - ($md-up * 0.45 + 0px));
-    }
-
-    @include breakpoint($lg-up) {
-      flex-basis: calc(100% / 3);
-      flex-shrink: 1;
-      max-width: ($lg-up - ($lg-up * 0.5 + 0px));
-    }
-
-    img {
-      display: block;
-      width: 100%;
-    }
   }
 }
 
