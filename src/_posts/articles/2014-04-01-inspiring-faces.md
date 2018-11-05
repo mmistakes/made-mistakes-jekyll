@@ -24,6 +24,6 @@ Goofy homeless looking beards help get you noticed. Apparently Sktchy artists en
 {% endnotice %}
 
 {% figure caption:"" class:"gallery-2-col" %}
-![Inspiration tab on Sktchy](/assets/images/sktchy-inspiration-screenshot.jpg)]
+![Inspiration tab on Sktchy](/assets/images/sktchy-inspiration-screenshot.jpg)
 ![Profile page on Sktchy](/assets/images/sktchy-profile-screenshot.jpg)
 {% endfigure %}
