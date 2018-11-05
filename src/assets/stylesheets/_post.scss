@@ -11,7 +11,7 @@
   @include breakpoint($md-up) {
     display: grid;
     grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
-    grid-template-rows: 80px 240px auto;
+    grid-template-rows: 80px auto auto;
     align-items: end;
   }
 

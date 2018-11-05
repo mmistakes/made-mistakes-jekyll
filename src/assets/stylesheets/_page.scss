@@ -11,7 +11,7 @@
   @include breakpoint($md-up) {
     display: grid;
     grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
-    grid-template-rows: 80px 240px auto;
+    grid-template-rows: 80px auto auto;
     align-items: end;
   }
 
@@ -23,7 +23,6 @@
 .page__title {
   @include breakpoint($md-up) {
     display: flex;
-    // min-height: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -51,7 +50,6 @@
     line-height: 1.25;
 
     @include breakpoint($md-up) {
-      margin-top: 0;
       padding-right: 5%;
     }
 
