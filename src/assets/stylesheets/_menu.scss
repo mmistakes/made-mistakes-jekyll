@@ -18,8 +18,6 @@
 
   .toggle {
     position: relative;
-    margin-top: 1em;
-    margin-bottom: 1em;
     z-index: 50;
     cursor: pointer;
   }
@@ -33,6 +31,8 @@
 .menu__toggle {
   position: relative;
   z-index: 150;
+  @include margin-top(1);
+  @include margin-bottom(1);
 }
 
 .menu__overlay {

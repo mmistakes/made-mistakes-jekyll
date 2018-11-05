@@ -24,6 +24,7 @@
   font-family: $monospace-font;
   font-size: 1em;
   font-weight: 700;
+  @include line-height(1);
 
   a {
     color: inherit;
