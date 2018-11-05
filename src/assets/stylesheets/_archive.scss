@@ -20,6 +20,16 @@
     grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
   }
 
+  .page__main {
+    @include breakpoint($md-up) {
+      grid-column: 3 / 9;
+    }
+
+    @include breakpoint($lg-up) {
+      grid-column: 3 / 9;
+    }
+  }
+
   .entry__title {
     margin-bottom: 0;
   }
