@@ -12,15 +12,15 @@
 
 div.highlighter-rouge,
 figure.highlight {
-  background: $base00;
-  color: $base05;
-  font-family: $monospace-font;
-  // line-height: 1.8;
-  margin-bottom: 1em;
+  position: relative;
   margin-left: -5%;
   margin-right: -5%;
+  margin-bottom: 1em;
   padding: 1em 5%;
-  position: relative;
+  color: $base05;
+  background: $base00;
+  border-left: 0.25rem solid;
+  font-family: $monospace-font;
 
   @include breakpoint($md-up) {
     margin-left: 0;
@@ -36,22 +36,22 @@ figure.highlight {
 }
 
 .highlight table {
+  margin-bottom: 0;
   border: 0;
   font-size: 1em;
-  margin-bottom: 0;
 
   td {
+    width: calc(100% - 1em);
     border: 0;
     padding: 0;
-    width: calc(100% - 1em);
 
     /* line numbers*/
     &.gutter {
+      padding-right: 1em;
+      width: 1em;
       border-right: 1px solid $base04;
       color: $base04;
-      padding-right: 1em;
       text-align: right;
-      width: 1em;
     }
 
     /* code */
@@ -368,10 +368,10 @@ div.highlighter-rouge.language-console {
   }
 
   .highlight {
-    background-color: initial;
-    color: #fff;
     margin: 0;
     padding: 0;
+    background-color: initial;
+    color: #fff;
 
     .go {
       color: #fff;
