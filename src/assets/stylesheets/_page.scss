@@ -11,7 +11,7 @@
   @include breakpoint($md-up) {
     display: grid;
     grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
-    grid-template-rows: 80px 150px auto;
+    grid-template-rows: 80px 240px auto;
     align-items: end;
   }
 
@@ -51,6 +51,7 @@
     line-height: 1.25;
 
     @include breakpoint($md-up) {
+      margin-top: 0;
       padding-right: 5%;
     }
 
@@ -75,15 +76,15 @@
   @include breakpoint($md-up) {
     grid-column: 3 / span 2;
     grid-row: 2 / 3;
-    @include margin-top(1);
-    align-self: start;
+    @include margin-bottom(1);
+    align-self: end;
 
-    &::before {
+    &::after {
       content: "";
       display: block;
       width: 2rem;
       height: 3px;
-      @include margin-bottom(1);
+      @include margin-top(1);
       background-color: $text-color;
     };
 

@@ -49,7 +49,7 @@
   @include margin-bottom(1);
   color: mix(#fff, $text-color, 40%);
   font-family: $monospace-font;
-  font-size: 0.8em;
+  font-size: 0.7em;
 
   @include breakpoint($md-up) {
     grid-column: 3 / 8;

@@ -23,4 +23,8 @@
   .entry__title {
     margin-bottom: 0;
   }
+
+  .heading {
+    @include margin-top(3);
+  }
 }
