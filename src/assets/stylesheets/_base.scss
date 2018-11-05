@@ -210,3 +210,8 @@ textarea:required {
 iframe {
   max-width: 100%;
 }
+
+::selection {
+  color: #fff;
+  background: #000;
+}
