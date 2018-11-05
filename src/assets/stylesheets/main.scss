@@ -11,8 +11,6 @@
 // @import "vendor/susy/susy";
 @import "vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
-@import "vendor/lity/lity";
-@import "vendor/bigfoot/bigfoot-number";
 @import "mixins";
 
 /* Core */
@@ -24,6 +22,12 @@
 @import "post";
 @import "archive";
 @import "home";
+
+/* Vendor components */
+@import "vendor/lity/lity";
+@import "vendor/bigfoot/bigfoot-number";
+@import "vendor/instantsearch/instantsearch";
+@import "vendor/instantsearch/instantsearch-theme-algolia";
 
 /* Components */
 @import "tables";
@@ -45,7 +49,7 @@
 @import "paper-color-swatches";
 @import "responsive-embed";
 @import "review-box";
-// @import "search";
+@import "search";
 @import "sections";
 // @import "sidebar";
 @import "style-guide";
