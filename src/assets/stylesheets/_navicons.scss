@@ -3,15 +3,15 @@
    ========================================================================== */
 
 .navicon-button {
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
+  position: relative;
   display: inline-block;
-  line-height: 5 * $navicon-height;
+  padding: 0;
   min-height: $site-image-height;
   outline: none;
-  padding: 0;
-  position: relative;
+  border: 0;
+  background-color: transparent;
+  line-height: 5 * $navicon-height;
+  cursor: pointer;
   transition: $navicon-duration / 2;
   user-select: none;
 
@@ -38,23 +38,21 @@
 }
 
 .navicon {
-  background: $navicon-content-bg;
-  border-radius: $navicon-width;
-  height: $navicon-height;
   position: relative;
-  transition-duration: $navicon-duration;
   width: $navicon-width;
+  height: $navicon-height;
+  background: $navicon-content-bg;
+  transition-duration: $navicon-duration;
 
   &::before,
   &::after {
-    background: $navicon-content-bg;
-    border-radius: $navicon-width;
-    content: "";
-    display: block;
-    height: $navicon-height;
+    content: '';
     position: absolute;
-    transition-duration: $navicon-duration $navicon-duration / 2;
+    display: block;
     width: $navicon-width;
+    height: $navicon-height;
+    background: $navicon-content-bg;
+    transition-duration: $navicon-duration $navicon-duration / 2;
   }
 
   &::before {
