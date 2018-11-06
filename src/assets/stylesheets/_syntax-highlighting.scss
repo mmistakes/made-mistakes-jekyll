@@ -66,6 +66,8 @@ figure.highlight {
 
 .highlight pre {
   width: 100%;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; // fix momentum scrolling for iOS
 }
 
 .highlight .hll {
