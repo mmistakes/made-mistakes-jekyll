@@ -15,7 +15,7 @@
     align-items: end;
   }
 
-  @include breakpoint($lg-up) {
+  @include breakpoint($xl-up) {
     grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
   }
 }
