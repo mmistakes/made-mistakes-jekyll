@@ -21,7 +21,7 @@ $xl-only: 1200px;
 
 /* Typography */
 $base-font-size: 112.5;
-$line-height: 1.45;
+$line-height: 1.7;
 
 $sans-serif-font: Helvetica, Arial, sans-serif;
 $serif-font: Georgia, serif;
@@ -79,29 +79,8 @@ $button-color: #000;
 $button-standard-opacity: 0.1;
 $button-hovered-opacity: 0.5;
 
-// /* Max-width of the main content */
-// $main-max-width: $xlarge;
-
-// /* Width of the sidebar */
-// $sidebar-width: $small;
-
-// /* Background color of the sidebar */
-// $sidebar-background-color: $base-color;
-
 /* Border radius */
 $border-radius: 0.125em;
-
-// /* Forms */
-// $form-background: mix(#fff, $border-color, 50%);
-// $form-border-color: $border-color;
-// $form-border-color-hover: mix(#000, $border-color, 10%);
-// $form-border-color-focus: $base-color;
-// $form-border-radius: $border-radius;
-// $form-box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-// $form-box-shadow-focus: $form-box-shadow,
-//   0 0 5px rgba(mix(#000, $form-border-color-focus, 10%), 0.7);
-// $form-font-family: $base-font-family;
-// $form-font-size: $base-font-size;
 
 /* Global transition */
 $global-transition: all 0.4s ease;
@@ -117,6 +96,3 @@ $navicon-focus-color: rgba($text-color, 0.25);
 /* Site image */
 $site-image-width: 25px;
 $site-image-height: 25px;
-
-// /* Susy grid settings */
-// $susy: (columns: 16, gutters: 0, math: fluid, output: float);
