@@ -6,6 +6,7 @@ layout: default
 {% include page-intro.html %}
 
 <main id="main" class="page__main" aria-label="Main content">
+  {% include breadcrumbs.html %}
   {% if page.introduction %}
     {{ page.introduction | markdownify }}
   {% elsif page.layout == 'autopage_tags' %}
@@ -14,14 +15,6 @@ layout: default
     {% else %}
       <p>An archive of posts tagged <em>{{ page.autopages.display_name }}</em>.</p>
     {% endif %}
-  {% endif %}
-
-  {% if page.actions %}
-    <ul>
-      {% for action in page.actions %}
-        <li><a href="{{ action.url }}" class="btn">{{ action.label }}</a></li>
-      {% endfor %}
-    </ul>
   {% endif %}
 
   {{ content }}

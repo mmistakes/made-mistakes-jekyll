@@ -23,7 +23,9 @@ categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:
-  - label: "Jekyll Themes"
+  - label: "Work"
+    url: /work/
+  - label: "Jekyll themes"
     url: /work/jekyll-themes/
 order: 7
 support: true

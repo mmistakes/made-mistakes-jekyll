@@ -5,6 +5,7 @@ layout: default
 {% include page-intro.html %}
 
 <main id="main" class="page__main" aria-label="Main content">
+  {% include breadcrumbs.html %}
   {% include gallery.html %}
 
   {{ content }}
@@ -23,13 +24,6 @@ layout: default
     <div class="page__toc">
       <h3 class="title">On this page:</h3>
       {{ content | toc_only }}
-    </div>
-  {% endif %}
-  {% if page.breadcrumbs %}
-    <div class="page__taxonomy">
-      <h3 class="title">Filed in:</h3>
-      {% assign crumb = page.breadcrumbs[0] %}
-      <span><a href="{{ crumb.url | relative_url }}">{{ crumb.label }}</a></span>
     </div>
   {% endif %}
   {% if page.tags %}

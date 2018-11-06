@@ -13,7 +13,9 @@ tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 last_modified_at: 2018-02-06T11:15:46-05:00
 breadcrumbs:
-  - label: "Jekyll Themes"
+  - label: "Work"
+    url: /work/
+  - label: "Jekyll themes"
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true

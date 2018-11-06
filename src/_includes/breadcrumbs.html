@@ -1,10 +1,14 @@
 {% if page.breadcrumbs %}
-  {% assign crumb = page.breadcrumbs[0] %}
-  <ul class="breadcrumbs">
-    <li>
-      <a href="{{ crumb.url | relative_url }}">
-        <svg class="icon icon--back-arrow" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-back-arrow' | prepend: 'assets/icons/' | relative_url }}"></use></svg> {{ crumb.label }}
-      </a>
-    </li>
-  </ul>
+  {% assign crumb-old = page.breadcrumbs[0] %}
+  <div class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+    <span class="breadcrumb" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+      <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">Home</span></a>
+    </span>
+    {% for crumb in page.breadcrumbs %}
+      <span aria-label="breadcrumb separator">/</span>
+      <span class="breadcrumb" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+        <a href="{{ crumb.url | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb.label }}</span></a>
+      </span>
+    {% endfor %}
+  </div>
 {% endif %}

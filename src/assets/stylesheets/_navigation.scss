@@ -17,8 +17,21 @@
 
 .back-to-top {
   display: block;
-  margins-top: 2em;
+  @include margin-top(2);
   font-family: $monospace-font;
   font-size: 0.9em;
-  text-decoration: none;
+}
+
+/*
+   Breadcrumbs
+   ========================================================================== */
+
+.breadcrumbs {
+  font-family: $monospace-font;
+  font-size: 0.9em;
+  @include margin-bottom(1);
+
+  @include breakpoint($md-down) {
+    @include margin-top(1);
+  }
 }
