@@ -15,11 +15,10 @@ figure.highlight {
   position: relative;
   margin-left: -5%;
   margin-right: -5%;
-  margin-bottom: 1em;
+  @include margin-bottom(1);
   padding: 1em 5%;
   color: $base05;
   background: $base00;
-  border-left: 0.25rem solid;
   font-family: $monospace-font;
 
   @include breakpoint($md-up) {
