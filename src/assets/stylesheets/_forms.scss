@@ -13,7 +13,7 @@ label {
   margin-top: 0;
   @include margin-bottom(0.5);
   font-family: $monospace-font;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 input,
@@ -61,7 +61,7 @@ textarea {
 
 // label {
 //   font-family: $monospace-font-family;
-//   font-size: 0.8em;
+//   font-size: 0.9em;
 //   margin-bottom: 0.5em;
 
 //   &.required::after {
@@ -159,6 +159,6 @@ select {
 
 // /* instructions */
 // .instruct {
-//   font-size: 0.8em;
+//   font-size: 0.9em;
 //   font-style: italic;
 // }

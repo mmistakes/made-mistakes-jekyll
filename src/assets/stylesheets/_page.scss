@@ -68,7 +68,7 @@
 
 .page__meta {
   font-family: $monospace-font;
-  font-size: 0.8em;
+  font-size: 0.9em;
   text-transform: uppercase;
 
   @include breakpoint($md-up) {
@@ -139,10 +139,6 @@
     @include margin-top(2);
   }
 
-  @include breakpoint($lg-up) {
-    grid-column: 3 / 7;
-  }
-
   > h2,
   h3,
   h4,
@@ -205,14 +201,14 @@
 
   li {
     font-family: $monospace-font;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .title {
     margin-top: 0;
     margin-right: 0.5rem;
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
@@ -227,7 +223,7 @@
     display: inline-block;
     margin-right: 1rem;
     font-family: $monospace-font;
-    font-size: 0.8em;
+    font-size: 0.9em;
 
     @include breakpoint($md-up) {
       display: block;

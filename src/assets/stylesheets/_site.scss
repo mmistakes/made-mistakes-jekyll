@@ -44,7 +44,7 @@
 .author {
   align-self: flex-start;
   font-family: $monospace-font;
-  font-size: 0.8em;
+  font-size: 0.9em;
 
   @include breakpoint($md-up) {
     @include margin-bottom(1);
