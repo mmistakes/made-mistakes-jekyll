@@ -38,7 +38,7 @@ Out of the bunch, [Jérôme Coupé's](http://www.webstoemp.com/) approach resona
 
 ## Building the Style Guide
 
-To start I took a quick survey of all the Sass partials in my `_asseets/stylesheets`[^jekyll-assets] folder to determine how I might want to organize the style guide. The biggies for me were:
+To start I took a quick survey of all the Sass partials in my `_assets/stylesheets`[^jekyll-assets] folder to determine how I might want to organize the style guide. The biggies for me were:
 
 * **Color palettes**
 * **Typography** (headings, paragraphs, lists, and inline elements)
