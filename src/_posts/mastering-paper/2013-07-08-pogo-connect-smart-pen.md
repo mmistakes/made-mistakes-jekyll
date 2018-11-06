@@ -1,7 +1,7 @@
 ---
-title: "Pogo Connect Stylus Makes Paper by FiftyThree Better"
+title: "Pogo Connect stylus makes Paper for iOS better"
 excerpt: "An iPad stylus that brings enhanced functionality to devices and apps that support its SDK."
-last_modified_at: 2017-12-13T11:14:51-05:00
+last_modified_at: 2018-11-06T11:49:14-05:00
 image: 
   path: &image /assets/images/pogo-connect-review-feature.jpg
   feature: *image

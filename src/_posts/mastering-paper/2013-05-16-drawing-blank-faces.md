@@ -1,7 +1,7 @@
 ---
-title: "Drawing Faces without Faces with Paper by FiftyThree"
-excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper by FiftyThree."
-last_modified_at: 2017-12-13T11:11:36-05:00
+title: "Drawing faces without faces with Paper for iOS"
+excerpt: "Short on time? Here's the quick and fun way I draw portraits using Paper for iOS."
+last_modified_at: 2018-11-06T11:48:54-05:00
 image: 
   path: &image /assets/images/paper-53-draw-face-feature.jpg
   feature: *image

@@ -1,7 +1,7 @@
 ---
-title: "Printing a Moleskine Book with Paper by FiftyThree"
-excerpt: "Impressions of a handmade Moleskine book printed with the iPad app Paper by FiftyThree."
-last_modified_at: 2017-12-13T11:49:13-05:00
+title: "Printing a Moleskine book with Paper for iOS"
+excerpt: "Impressions of a handmade Moleskine book printed with the iPad app Paper for iOS."
+last_modified_at: 2018-11-06T11:58:28-05:00
 image: 
   path: &image /assets/images/paper-53-book-feature.jpg
   feature: *image

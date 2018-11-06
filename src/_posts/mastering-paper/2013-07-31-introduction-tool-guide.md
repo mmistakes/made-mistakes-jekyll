@@ -1,5 +1,5 @@
 ---
-title: "Mastering Paper by FiftyThree: Introduction and Tool Guide"
+title: "Mastering Paper for iOS: introduction and tool guide"
 excerpt: "An introduction to Paper's tools and how to exploit them for drawing realistically."
 last_modified_at: 2017-12-13T11:23:35-05:00
 image: 

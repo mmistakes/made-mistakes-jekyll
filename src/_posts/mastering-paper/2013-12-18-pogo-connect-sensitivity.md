@@ -1,7 +1,7 @@
 ---
-title: "Pogo Connect Stylus Sensitivity Fix"
+title: "Pogo Connect stylus sensitivity fix"
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware v1.1.0."
-last_modified_at: 2017-12-13T12:06:31-05:00
+last_modified_at: 2018-11-06T11:59:22-05:00
 image:
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumbnail: /assets/images/pogo-connect-app-thumb.jpg

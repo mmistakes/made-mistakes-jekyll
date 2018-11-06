@@ -1,7 +1,7 @@
 ---
-title: "New Paper by FiftyThree 3.0 Features I Can't Live Without"
-last_modified_at: 2017-12-14T10:26:20-05:00
-excerpt: "Paper by FiftyThree comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more."
+title: "New Paper for iOS 3.0 features I can't live without"
+last_modified_at: 2018-11-06T12:05:56-05:00
+excerpt: "Paper for iOS comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more."
 categories: [mastering-paper]
 tags: [Paper by 53, iPad]
 image:
