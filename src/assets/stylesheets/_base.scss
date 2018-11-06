@@ -94,9 +94,14 @@ hr::before {
 
 a {
   color: #1e79ae;
+  text-decoration: none;
 
   &:visited {
     color: #165b83;
+  }
+
+  &:hover {
+    text-decoration: underline;
   }
 }
 

@@ -61,7 +61,6 @@
 
   a {
     color: inherit;
-    text-decoration: none;
   }
 }
 
@@ -81,14 +80,6 @@
   margin-top: 0.5em;
   font-family: $monospace-font;
   font-size: 0.9em;
-
-  a {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 
 .comment__form {

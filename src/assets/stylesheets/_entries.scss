@@ -13,21 +13,13 @@
   font-size: 1.563em;
   line-height: 1.25;
 
-  a {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
+  a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
 

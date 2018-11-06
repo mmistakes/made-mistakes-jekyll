@@ -88,10 +88,6 @@
 
     span {
       display: block;
-
-      a {
-        text-decoration: none;
-      }
     }
   }
 
@@ -191,14 +187,6 @@
 
   > * {
     @include margin-top(1);
-  }
-
-  a {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   ul {
