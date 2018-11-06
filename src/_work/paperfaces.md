@@ -7,6 +7,8 @@ excerpt: "PaperFaces portraits painted digitally with Paper for iOS on an iPad. 
 last_modified_at: 2018-11-06T12:08:16-05:00
 image: 
   path: &image /assets/images/paperfaces-project-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   thumbnail: /assets/images/paperfaces-project-th.jpg
   teaser: /assets/images/paperfaces-asja-k-teaser.jpg

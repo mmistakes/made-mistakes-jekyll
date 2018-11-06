@@ -2,12 +2,14 @@
 layout: archive
 permalink: /procreate-paintings/
 category: procreate-paintings
-title: "Procreate iPad Paintings"
+title: "Procreate iPad paintings"
 excerpt: &excerpt "Gallery of digital paintings created with [Procreate](http://procreate.si/) on an iPad. Find time lapse videos, in-process screenshots, and more."
 subtitle: *excerpt
 last_modified_at: 2017-05-07T17:26:15-04:00
 image: 
   path: &image /assets/images/procreate-paintings-feature.jpg
+  width: 1600
+  height: 748
   feature: *image
   thumbnail: /assets/images/procreate-paintings-th.jpg
   teaser: /assets/images/procreate-paintings-teaser.jpg

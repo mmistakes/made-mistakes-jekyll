@@ -1,5 +1,5 @@
 ---
-title: "Skinny Bones, a Jekyll Starter"
+title: "Skinny Bones, a Jekyll starter"
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
 image: 
   path: &image /assets/images/skinny-bones-preview-feature.jpg

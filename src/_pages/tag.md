@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tag/
-title: "Tag Index"
+title: "Tag index"
 last_modified_at: 2017-06-19T09:19:44-04:00
 excerpt: "An archive of posts sorted by tag frequency."
 share: false

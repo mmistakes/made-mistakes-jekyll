@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "A Designer's Faux Pas"
+title: "A designer's faux pas"
 excerpt: "Making stuff one mistake at a time."
 section:
   - title: "A Faux Pas"

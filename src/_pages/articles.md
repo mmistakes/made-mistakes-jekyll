@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /articles/
-title: &title "Blog Articles"
+title: &title "Blog articles"
 alt_title: *title
 excerpt: &excerpt "A collection of thoughts, inspiration, mistakes, and other minutia I've written. For smaller, more regular tidbits --- peruse the [*Today I Learned*](/til/) section."
 introduction: *excerpt

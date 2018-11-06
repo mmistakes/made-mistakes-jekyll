@@ -1,6 +1,6 @@
 ---
 permalink: /support/
-title: "Show Your Support"
+title: "Show your support"
 last_modified_at: 2018-06-25T10:14:05-04:00
 excerpt: "If you like the free content I provide on Made Mistakes, here's how to show your thanks and motivate me to create more of it."
 ---

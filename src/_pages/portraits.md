@@ -1,6 +1,6 @@
 ---
 permalink: /portraits/
-title: "Order a Digital Portrait"
+title: "Order a digital portrait"
 excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
 last_modified_at: 2014-09-22T11:27:18-04:00
 image:

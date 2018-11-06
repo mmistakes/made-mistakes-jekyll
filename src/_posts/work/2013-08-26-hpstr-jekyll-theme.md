@@ -1,5 +1,5 @@
 ---
-title: "HPSTR, a Jekyll Theme"
+title: "HPSTR, a Jekyll theme"
 excerpt: "A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché look."
 image: 
   path: &image /assets/images/hpstr-preview-feature-2015.jpg

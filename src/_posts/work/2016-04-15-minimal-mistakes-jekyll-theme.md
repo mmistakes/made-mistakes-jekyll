@@ -1,6 +1,5 @@
 ---
-title: "Minimal Mistakes, a Jekyll Theme"
-headline: "Minimal Mistakes Theme"
+title: "Minimal Mistakes, a Jekyll theme"
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
 last_modified_at: 2018-02-06T11:15:51-05:00
 image: 

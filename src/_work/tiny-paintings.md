@@ -2,10 +2,12 @@
 layout: archive
 permalink: /tiny-paintings/
 category: tiny-paintings
-title: "Tiny Paintings"
+title: "Tiny paintings"
 excerpt: &excerpt "Gallery of mini watercolor portraits painted at really small sizes."
 image: 
   path: &image /assets/images/tiny-paintings.jpg
+  width: 1600
+  height: 824
   feature: *image
   thumbnail: /assets/images/tiny-paintings-th.jpg
   teaser: /assets/images/tiny-paintings-teaser.jpg

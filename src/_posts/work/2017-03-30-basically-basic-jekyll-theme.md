@@ -1,5 +1,5 @@
 ---
-title: "Basically Basic, a Jekyll Theme"
+title: "Basically Basic, a Jekyll theme"
 excerpt: "Your new Jekyll default theme."
 last_modified_at: 2018-02-06T11:15:59-05:00
 image: 

@@ -5,6 +5,8 @@ title: "Eko Wave"
 excerpt: "Site design and creative for Eko Wave — a team of three specializing in niche applications."
 image: 
   path: &image /assets/images/eko-wave-feature.jpg
+  width: 1200
+  height: 450
   feature: *image
   teaser: /assets/images/eko-wave-teaser.jpg
   thumbnail: /assets/images/eko-wave-thumb.jpg
