@@ -4,7 +4,7 @@ permalink: /
 title: "A designer's faux pas"
 excerpt: "Making stuff one mistake at a time."
 section:
-  - title: "A Faux Pas"
+  - title: "A faux pas"
     class: "section__inverse section__about"
     image: /assets/images/michael-rose-glitched.jpg
     introduction: |
@@ -12,7 +12,7 @@ section:
     actions:
       - label: "learn more →"
         url: "/about/"
-  - title: "Blog Articles"
+  - title: "Blog articles"
     class: "section__inverse section__articles"
     image: /assets/images/blog-articles.jpg
     introduction: |
@@ -20,7 +20,7 @@ section:
     actions:
       - label: "the archives →"
         url: "/articles/"
-  - title: "Work Portfolio"
+  - title: "Work portfolio"
     class: "section__inverse section__work"
     image: /assets/images/procreate-paintings-feature.jpg
     introduction: |
@@ -29,5 +29,5 @@ section:
       - label: "see more →"
         url: "/work/"
 ads: false
-last_modified_at: 2017-05-09T15:26:31-04:00
+last_modified_at: 2018-11-06T16:25:31-05:00
 ---
