@@ -168,6 +168,14 @@
   }
 }
 
+.page__comments-count {
+  @include breakpoint($md-down) {
+    &::before {
+      content: ' · ';
+    }
+  }
+}
+
 .page__aside {
   @include breakpoint($md-up) {
     grid-column: 8;

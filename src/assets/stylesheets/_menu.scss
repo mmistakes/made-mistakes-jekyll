@@ -3,20 +3,9 @@
    ========================================================================== */
 
 .menu {
-  // @include margin-bottom(2);
+  @include margin-bottom(2);
   padding-left: 0;
   list-style: none;
-
-  // @include breakpoint($md-up) {
-  //   grid-column: 7 / 9;
-  //   grid-row: 1;
-  //   align-self: start;
-  //   justify-self: end;
-  // }
-
-  // @include breakpoint($lg-up) {
-  //   grid-column: 8;
-  // }
 }
 
 .menu__toggle {
