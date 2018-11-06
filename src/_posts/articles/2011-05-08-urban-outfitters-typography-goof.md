@@ -3,6 +3,8 @@ title: "Urban Outfitters, Ya Typography Dun Goofed Again"
 excerpt: "Glad to see improvements in the May 2011 Urban Outfitters catalog. Especially since I took a few issues with their typography last month."
 image: 
   path: &image /assets/images/UO-may11-feature.jpg
+  width: 1024
+  height: 512
   feature: *image
   teaser: /assets/images/UO-may11-teaser.jpg
   thumbnail: /assets/images/UO-MAY11-serifs-italics-340.jpg

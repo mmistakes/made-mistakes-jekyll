@@ -4,6 +4,8 @@ excerpt: "Musically --- RRIICCEE is fine, but not something I really want to see
 image: 
   cover: false
   path: &image /assets/images/rriiccee-feature.jpg
+  width: 500
+  height: 293
   feature: *image
   teaser: /assets/images/rriiccee-teaser.jpg
   thumbnail: /assets/images/rriiccee-thumb.jpg

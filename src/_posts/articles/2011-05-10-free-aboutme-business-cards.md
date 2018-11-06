@@ -3,6 +3,8 @@ title: "My About.me Profile and Free Moo Business Cards"
 excerpt: "How 5 minutes spent creating an About.me profile nabbed me custom Moo business cards of my own design."
 image: 
   path: &image /assets/images/about-me-featured.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/about-me-teaser.jpg
   thumbnail: /assets/images/mademistakes-business-cards-front-148x148.jpg

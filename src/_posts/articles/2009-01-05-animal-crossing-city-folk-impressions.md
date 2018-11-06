@@ -5,6 +5,8 @@ last_modified_at: 2018-02-09T09:12:50-05:00
 image: 
   cover: false
   path: &image /assets/images/animal-crossing-stuck-in-hole.jpg
+  width: 500
+  height: 268
   feature: *image
   teaser: /assets/images/animal-crossing-teaser.jpg
   thumbnail: /assets/images/animal-crossing-me-wendy-thumb.jpg

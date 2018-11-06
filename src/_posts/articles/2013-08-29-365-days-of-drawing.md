@@ -3,6 +3,8 @@ title: "365 Days of Drawing Faces"
 excerpt: "Year one of my 365 day portrait project may be over, but I'm just getting started."
 image: 
   path: &image /assets/images/paperfaces-476-portraits.jpg
+  width: 1280
+  height: 704
   feature: *image
   teaser: /assets/images/paperfaces-476-portraits-teaser.jpg
   thumbnail: /assets/images/paperfaces-476-portraits-thumb.jpg

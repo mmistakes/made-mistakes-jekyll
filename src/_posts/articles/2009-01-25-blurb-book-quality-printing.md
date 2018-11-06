@@ -5,6 +5,8 @@ last_modified_at: 2018-02-09T09:04:18-05:00
 image: 
   cover: false
   path: &image /assets/images/blurb-book-featured.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/blurb-book-teaser.jpg
   thumbnail: /assets/images/blurb-book-thumb.jpg

@@ -4,6 +4,8 @@ excerpt: "I couldn't begin to tell you what the artwork in this emo record means
 last_modified_at: 2013-04-26
 image: 
   path: &image /assets/images/agna-moraines-autobiography-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/agna-moraines-autobiography-teaser.jpg
   thumbnail: /assets/images/agna-moraines-340x340.jpg

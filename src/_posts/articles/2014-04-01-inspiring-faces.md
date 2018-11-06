@@ -3,6 +3,8 @@ title: "Inspiring Faces Want to Know"
 excerpt: "Finding inspiration from the faces of strangers on Sktchy for iOS."
 image: 
   path: &image /assets/images/sktchys-of-me-feature.jpg
+  width: 1280
+  height: 721
   feature: *image
   teaser: /assets/images/sktchys-of-me-teaser.jpg
   thumbnail: /assets/images/sktchy-app-thumb.png

@@ -3,6 +3,8 @@ title: "Corn On Macabre Record Art, Vellum and Metallic Ink Bliss"
 excerpt: "My favorite thing about this Corn On Macabre 7-inch record is the use of vellum and metallic inks in the sleeve."
 image: 
   path: &image /assets/images/COM-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/COM-teaser.jpg
   thumbnail: /assets/images/COM-record-sleeve-340x340.jpg

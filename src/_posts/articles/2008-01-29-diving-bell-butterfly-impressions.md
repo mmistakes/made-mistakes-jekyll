@@ -4,6 +4,8 @@ excerpt: "Quick impressions of the film, The Diving Bell and The Butterfly."
 image: 
   cover: false
   path: &image /assets/images/diving-bell-butterfly-feature.jpg
+  width: 1024
+  height: 512
   feature: *image
   teaser: /assets/images/diving-bell-butterfly-teaser.jpg
   thumbnail: /assets/images/diving-bell-butterfly-thumb.jpg

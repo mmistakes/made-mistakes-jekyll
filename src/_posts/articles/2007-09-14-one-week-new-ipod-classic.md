@@ -4,6 +4,8 @@ excerpt: "Quick impressions of the new iPod classic 60GB."
 last_modified_at: 2013-05-03
 image: 
   path: &image /assets/images/ipod-classic-feature.jpg
+  width: 1600
+  height: 754
   feature: *image
   teaser: /assets/images/ipod-classic-teaser.jpg
   thumbnail: /assets/images/ipod-classic-thumb.jpg

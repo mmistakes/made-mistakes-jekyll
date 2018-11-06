@@ -5,6 +5,8 @@ last_modified_at: 2013-04-26 00:00:00
 image: 
   cover: false
   path: &image /assets/images/sunshine-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/sunshine-teaser.jpg
   thumbnail: /assets/images/sunshine-thumb.jpg

@@ -4,6 +4,8 @@ excerpt: "What I went through upgrading an iMac G5 to Mac OS X Leopard (10.5)."
 last_modified_at: 2015-02-04T12:02:06-05:00
 image: 
   path: &image /assets/images/starfield-leopard-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/starfield-leopard-teaser.jpg
   thumbnail: /assets/images/starfield-leopard-thumb.jpg

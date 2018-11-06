@@ -4,6 +4,8 @@ excerpt: "The typography in Urban Outfitters latest catalog has some serious rea
 last_modified_at: 2013-04-26
 image: 
   path: &image /assets/images/UO11-spring-featured.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/UO-spring11-teaser.jpg
   thumbnail: /assets/images/UO11-spring-thumb.jpg

@@ -3,6 +3,8 @@ title: "Starting Young"
 excerpt: "It was only natural the two little rosebuds would become early adopters of technology."
 image: 
   path: &image /assets/images/starting-young-feature.jpg
+  width: 1920
+  height: 546
   feature: *image
   teaser: /assets/images/starting-young-teaser.jpg
   thumbnail: /assets/images/starting-young-thumb.jpg

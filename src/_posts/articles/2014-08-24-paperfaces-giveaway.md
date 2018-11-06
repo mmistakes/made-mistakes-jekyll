@@ -6,6 +6,8 @@ categories: [articles]
 tags: [drawing, illustration, Paper by 53, iPad]
 image:
   path: &image /assets/images/paperfaces-contest.jpg
+  width: 1280
+  height: 402
   feature: *image
   teaser: /assets/images/paperfaces-contest-teaser.jpg
   thumbnail: /assets/images/paperfaces-contest-th.jpg

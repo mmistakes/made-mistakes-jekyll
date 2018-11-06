@@ -6,6 +6,8 @@ categories: [articles]
 tags: [Jekyll, style guide, open source, web development, GitHub, tutorial]
 image:
   path: &image /assets/images/jekyll-style-guide-feature.jpg
+  width: 1280
+  height: 450
   feature: *image
   teaser: /assets/images/jekyll-style-guide-teaser.jpg
   thumbnail: /assets/images/jekyll-style-guide-th.jpg

@@ -4,6 +4,8 @@ excerpt: "My quick impressions of La Moustache --- a French film about a dude sh
 image: 
   cover: false
   path: &image /assets/images/la-moustache-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/la-moustache-teaser.jpg
   thumbnail: /assets/images/la-moustache-thumb.jpg

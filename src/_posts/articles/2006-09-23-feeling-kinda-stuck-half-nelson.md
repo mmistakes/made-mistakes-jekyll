@@ -4,6 +4,8 @@ excerpt: "My impressions of the film Half Nelson, starring Ryan Gosling."
 image: 
   cover: false
   path: &image /assets/images/half-nelson-feature.jpg
+  width: 835
+  height: 399
   feature: *image
   teaser: /assets/images/half-nelson-teaser.jpg
   thumbnail: /assets/images/half-nelson-thumb.jpg

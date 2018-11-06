@@ -5,6 +5,8 @@ last_modified_at: 2018-03-22T10:19:56-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   path: &image /assets/images/about-michael-collage-2016.jpg
+  width: 1600
+  height: 640
   feature: *image
   teaser: /assets/images/about-teaser.jpg
 ads: false

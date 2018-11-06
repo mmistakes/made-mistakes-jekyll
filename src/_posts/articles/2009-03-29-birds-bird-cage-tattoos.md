@@ -5,6 +5,8 @@ last_modified_at: 2017-09-07T20:33:26-04:00
 image: 
   cover: false
   path: &image /assets/images/bird-cage-tattoo-healed-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/bird-cage-tattoo-teaser.jpg
   thumbnail: /assets/images/bird-tattoo-340x340.jpg

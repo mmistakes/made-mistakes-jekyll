@@ -5,6 +5,8 @@ categories: [articles]
 tags: [Jekyll, web development, GitHub, open source, tutorial]
 image:
   path: &image /assets/images/going-static-comments-feature.jpg
+  width: 1800
+  height: 700
   feature: *image
   thumbnail: /assets/images/going-static-comments-th.jpg
   teaser: /assets/images/going-static-comments-teaser.jpg

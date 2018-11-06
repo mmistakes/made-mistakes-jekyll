@@ -4,6 +4,8 @@ excerpt: "Exploring what it means to develop a grid system that helps facilitate
 last_modified_at: 2013-04-26
 image: 
   path: &image /assets/images/knowing-grids-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/knowing-grids-teaser.jpg
   thumbnail: /assets/images/owh-grid-spread-340x340.jpg

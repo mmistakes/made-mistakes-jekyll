@@ -4,6 +4,8 @@ excerpt: "Migrating Made Mistakes from a Wordpress powered website back to its s
 last_modified_at: 2017-09-07T20:38:55-04:00
 image: 
   path: &image /assets/images/going-static-feature.jpg
+  width: 1024
+  height: 321
   feature: *image
   teaser: /assets/images/going-static-teaser.jpg
   thumbnail: /assets/images/going-static-thumb.jpg

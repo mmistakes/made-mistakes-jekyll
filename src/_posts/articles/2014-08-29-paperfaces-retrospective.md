@@ -4,6 +4,8 @@ excerpt: "A look back at two years of drawing over 800 portraits using an iPad a
 last_modified_at: 2018-03-22T10:47:26-04:00
 image: 
   path: &image /assets/images/paperfaces-800-portraits.jpg
+  width: 1600
+  height: 522
   feature: *image
   teaser: /assets/images/paperfaces-800-portraits-teaser.jpg
   thumbnail: /assets/images/paperfaces-800-portraits-th.jpg
