@@ -46,13 +46,9 @@ function animateMenuItems() {
   }
 }
 
-// var myWrapper = document.querySelector(".wrapper");
 var myHeader = document.querySelector(".site__header");
 var myMenu = document.querySelector(".menu__overlay");
 var myToggle = document.querySelector(".menu__toggle");
-// var myInitialContent = document.querySelector('.initial-content');
-// var mySearchContent = document.querySelector('.search-content');
-// var mySearchToggle = document.querySelector('.search-toggle');
 
 // Toggle overlay visibility
 function toggleClassMenu() {
@@ -61,12 +57,10 @@ function toggleClassMenu() {
     myHeader.classList.add("is--inverted");
     myMenu.classList.add("is--visible");
     myToggle.classList.add("open");
-    // myWrapper.classList.add("is--pushed");
   } else {
     myHeader.classList.remove("is--inverted");
     myMenu.classList.remove("is--visible");
     myToggle.classList.remove("open");
-    // myWrapper.classList.remove("is--pushed");
   }
 }
 
@@ -74,39 +68,11 @@ function MenuOnTransitionEnd() {
   myMenu.classList.remove("is--animatable");
 }
 
-// function SearchOnTransitionEnd() {
-//   mySearchContent.classList.remove("is--animatable");
-// }
-
 myMenu.addEventListener("transitionend", MenuOnTransitionEnd, false);
 myToggle.addEventListener("click", function() {
   toggleClassMenu();
   animateMenuItems();
-  // mySearchToggle.classList.toggle('is--hidden');
 }, false);
-// myMenu.addEventListener("click", function() {
-  // toggleClassMenu();
-  // animateMenuItems();
-// }, false);
-// mySearchContent.addEventListener("transitionend", SearchOnTransitionEnd, false);
-// mySearchToggle.addEventListener('click', function () {
-//   toggleClassSearch();
-// }, false);
-
-// // Toggle search input and content visibility
-// function toggleClassSearch() {
-//   mySearchContent.classList.add("is--animatable");
-//   if (!mySearchContent.classList.contains("is--visible")) {
-//     mySearchContent.classList.add('is--visible');
-//     myInitialContent.classList.add('is--hidden');
-//   } else {
-//     mySearchContent.classList.remove('is--visible');
-//     myInitialContent.classList.remove('is--hidden');
-//   }
-//   setTimeout(function () {
-//     document.querySelector('.search-content input').focus();
-//   }, 400);
-// }
 
 // Static comments
 (function($) {
@@ -140,8 +106,8 @@ myToggle.addEventListener("click", function() {
         console.log(err);
         $("#comment-form-submit").html("Submit Comment");
         $("#comment-form .js-notice")
-          .removeClass("notice--success")
-          .addClass("notice--danger");
+          .removeClass("success")
+          .addClass("danger");
         showAlert(
           "<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again."
         );
