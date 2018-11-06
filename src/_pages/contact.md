@@ -24,22 +24,22 @@ For anything else, use the contact form below.
 <form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <div class="form__group">
     <label id="title7" for="Field7">Name
-      <input id="Field7" name="Field7" type="text" maxlength="255" placeholder="Your name">
+      <input id="Field7" name="Field7" type="text" spellcheck="false" maxlength="255" required placeholder="Your name">
     </label>
   </div>
   <div class="form__group">
-    <label id="title2" for="Field2">Email address<span id="req_2" class="req">*</span> <small>(will remain private)</small>
+    <label id="title2" for="Field2">Email address <small>(will remain private)</small>
       <input id="Field2" name="Field2" type="email" spellcheck="false" maxlength="255" required placeholder="email@address.com">
     </label>
   </div>
   <div class="form__group">
     <label id="title10" for="Field10">How&rsquo;d you hear about my website?
-      <input id="Field10" name="Field10" type="text" maxlength="255" placeholder="How&rsquo;d you hear about my website?">
+      <input id="Field10" name="Field10" type="text" maxlength="255" placeholder="e.g. Searching the web">
     </label>
   </div>
   <div class="form__group">
-    <label id="title1" for="Field1">Message<span id="req_1" class="req">*</span>
-      <textarea id="Field1" name="Field1" spellcheck="true" rows="10" cols="50" required placeholder="Your message"></textarea>
+    <label id="title1" for="Field1">Message
+      <textarea id="Field1" name="Field1" spellcheck="true" rows="10" cols="50" required></textarea>
     </label>
   </div>
   <div class="form__group">
