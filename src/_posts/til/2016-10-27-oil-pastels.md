@@ -1,5 +1,5 @@
 ---
-title: "Oil Pastels are Not Pencils"
+title: "Oil pastels are not pencils"
 excerpt:
 image: 
   path: &image /assets/images/oil-pastel-sunset-finished.jpg

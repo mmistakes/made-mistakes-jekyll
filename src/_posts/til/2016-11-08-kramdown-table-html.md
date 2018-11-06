@@ -1,5 +1,5 @@
 ---
-title: "HTML Inside Kramdown Table Cells"
+title: "HTML inside Kramdown table cells"
 excerpt: "The question of how to write a list inside of a table cell with Kramdown recently came up on **Jekyll Talk** --- prompting me to look for a solution."
 image:
   thumbnail: /assets/images/kramdown-table-html-th.jpg

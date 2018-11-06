@@ -1,5 +1,5 @@
 ---
-title: "Typography No No's with Urban Outfitters"
+title: "Typography no nos with Urban Outfitters"
 excerpt: "The typography in Urban Outfitters latest catalog has some serious readability issues."
 last_modified_at: 2013-04-26
 image: 

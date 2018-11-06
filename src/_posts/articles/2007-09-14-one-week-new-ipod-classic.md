@@ -1,5 +1,5 @@
 ---
-title: "One Week with the New iPod classic"
+title: "One week with the new iPod classic"
 excerpt: "Quick impressions of the new iPod classic 60GB."
 last_modified_at: 2013-05-03
 image: 

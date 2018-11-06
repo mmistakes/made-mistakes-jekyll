@@ -1,5 +1,5 @@
 ---
-title: "Watercolor, Not Watercolor"
+title: "Watercolor, not watercolor"
 excerpt: "Portrait of Emil I. digitally painted with Procreate on an iPad."
 last_modified_at: 2017-09-08T10:24:20-04:00
 image: 

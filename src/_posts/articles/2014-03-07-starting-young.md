@@ -1,5 +1,5 @@
 ---
-title: "Starting Young"
+title: "Starting young"
 excerpt: "It was only natural the two little rosebuds would become early adopters of technology."
 image: 
   path: &image /assets/images/starting-young-feature.jpg

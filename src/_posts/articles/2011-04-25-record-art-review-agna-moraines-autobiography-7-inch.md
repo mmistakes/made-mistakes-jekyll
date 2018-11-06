@@ -1,5 +1,5 @@
 ---
-title: "Agna Moraine's Autobiography Handwritten Record Art"
+title: "Agna Moraine's Autobiography, handwritten record art"
 excerpt: "I couldn't begin to tell you what the artwork in this emo record means. But silk screening lyrics on fabric scrapes is kind of cool."
 last_modified_at: 2013-04-26
 image: 

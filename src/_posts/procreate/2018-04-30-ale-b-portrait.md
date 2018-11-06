@@ -1,5 +1,5 @@
 ---
-title: "The Two Hour Beard"
+title: "The two hour beard"
 excerpt: "Portrait of Ale B. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-04-30T16:22:39-04:00
 image: 

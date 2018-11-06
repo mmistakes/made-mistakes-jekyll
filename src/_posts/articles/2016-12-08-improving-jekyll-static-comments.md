@@ -1,5 +1,5 @@
 ---
-title: "Improving Static Comments with Jekyll & Staticman"
+title: "Improving static comments with Jekyll & Staticman"
 excerpt: "Using Staticman to add threaded comments and reply notifications to a static-based Jekyll site."
 image:
   path: &image /assets/images/improving-jekyll-static-comments-feature.jpg

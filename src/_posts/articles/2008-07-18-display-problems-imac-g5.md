@@ -1,5 +1,5 @@
 ---
-title: "Three Years of Problems with an iMac G5"
+title: "Three years of problems with an iMac G5"
 excerpt: "Faulty logic boards, ambient sensors, and displays oh my!"
 image: 
   path: &image /assets/images/imac-glitch-feature.jpg

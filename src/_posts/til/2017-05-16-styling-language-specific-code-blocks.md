@@ -1,5 +1,5 @@
 ---
-title: "Styling Language Specific Code Blocks with Jekyll"
+title: "Styling language specific code blocks with Jekyll"
 layout: page
 excerpt: "While inspecting the markup of some syntax highlighted code blocks I noticed something I hadn't before, `language-lexer` classes..."
 categories: [til]

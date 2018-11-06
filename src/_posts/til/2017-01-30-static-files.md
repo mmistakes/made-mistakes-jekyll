@@ -1,5 +1,5 @@
 ---
-title: "Accessing Static Files in Jekyll"
+title: "Accessing static files in Jekyll"
 excerpt:
 image:
   thumbnail: /assets/images/jekyll-static-files-th.jpg

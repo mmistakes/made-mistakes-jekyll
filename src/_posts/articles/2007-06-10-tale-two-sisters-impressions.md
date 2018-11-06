@@ -1,5 +1,5 @@
 ---
-title: "Almost the Film Version of Fatal Frame"
+title: "Almost the film version of Fatal Frame"
 excerpt: "A Korean horror flick that reminded me of the Fatal Frame video game franchise."
 image: 
   cover: false

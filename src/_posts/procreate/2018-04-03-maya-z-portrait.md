@@ -1,5 +1,5 @@
 ---
-title: "Corpse Paint Your Tears"
+title: "Corpse paint your tears"
 excerpt: "Portrait of Maya Z. digitally painted with Procreate on an iPad."
 last_modified_at:
 image: 

@@ -1,5 +1,5 @@
 ---
-title: Feeling Kinda Stuck In A Half Nelson
+title: "Feeling kinda stuck in a Half Nelson"
 excerpt: "My impressions of the film Half Nelson, starring Ryan Gosling."
 image: 
   cover: false

@@ -1,5 +1,5 @@
 ---
-title: "Water Tension"
+title: "Water tension"
 excerpt: "Portrait of Marie M. digitally painted with Procreate on an iPad."
 last_modified_at:
 image: 

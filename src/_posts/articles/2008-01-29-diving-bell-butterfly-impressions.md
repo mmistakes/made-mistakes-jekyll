@@ -1,5 +1,5 @@
 ---
-title: "Seeing Through Blurred Eyes --- The Diving Bell and The Butterfly"
+title: "Seeing through blurred eyes --- The Diving Bell and The Butterfly"
 excerpt: "Quick impressions of the film, The Diving Bell and The Butterfly."
 image: 
   cover: false

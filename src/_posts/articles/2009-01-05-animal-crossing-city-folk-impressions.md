@@ -1,5 +1,5 @@
 ---
-title: "Those City Folk in Animal Crossing Still Love the Gossip"
+title: "Those city folk in Animal Crossing still love the gossip"
 excerpt: "A lengthy review of Animal Crossing City Folk for the Nintendo Wii, some things never change."
 last_modified_at: 2018-02-09T09:12:50-05:00
 image: 

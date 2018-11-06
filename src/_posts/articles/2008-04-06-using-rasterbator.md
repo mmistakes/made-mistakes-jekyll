@@ -1,5 +1,5 @@
 ---
-title: "How to Use the Rasterbator to Print out a Wall Sized Owl"
+title: "How to use the Rasterbator to print out a wall sized owl"
 excerpt: "A quick tutorial and time lapse video of how to assemble a wall sized poster using The Rasterbator."
 image: 
   path: &image /assets/images/owl-rasterbator-feature.jpg

@@ -1,5 +1,5 @@
 ---
-title: "La Moustache Quick Review"
+title: "La Moustache quick review"
 excerpt: "My quick impressions of La Moustache --- a French film about a dude shaving his mustache."
 image: 
   cover: false

@@ -1,5 +1,5 @@
 ---
-title: "That Vintage Look"
+title: "That vintage look"
 excerpt: "Portrait of Madison S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-16T11:48:50-05:00
 image: 

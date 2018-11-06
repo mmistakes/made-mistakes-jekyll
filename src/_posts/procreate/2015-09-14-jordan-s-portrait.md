@@ -1,5 +1,5 @@
 ---
-title: "Blushing My Cheeks"
+title: "Blushing my cheeks"
 excerpt: "Portrait of Jordan S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-06T10:03:00-05:00
 image: 

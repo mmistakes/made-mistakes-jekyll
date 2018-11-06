@@ -1,5 +1,5 @@
 ---
-title: "Urban Outfitters, Ya Typography Dun Goofed Again"
+title: "Urban Outfitters, ya typography dun goofed again"
 excerpt: "Glad to see improvements in the May 2011 Urban Outfitters catalog. Especially since I took a few issues with their typography last month."
 image: 
   path: &image /assets/images/UO-may11-feature.jpg

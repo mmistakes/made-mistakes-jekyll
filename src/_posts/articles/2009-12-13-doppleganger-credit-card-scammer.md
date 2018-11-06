@@ -1,5 +1,5 @@
 ---
-title: "Bizarro Me, A Credit Card Scammer?"
+title: "Bizarro me, a credit card scammer?"
 excerpt: "Apparently there is a bizarro version of me in Niagara County using scammed credit cards."
 last_modified_at: 2017-09-08T08:59:18-04:00
 image: 

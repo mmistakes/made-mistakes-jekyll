@@ -1,5 +1,5 @@
 ---
-title: "CSS Blur Effect"
+title: "CSS blur effect"
 excerpt:
 categories: [til]
 tags: [web development, CSS]

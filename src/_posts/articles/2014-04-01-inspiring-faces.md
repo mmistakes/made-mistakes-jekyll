@@ -1,5 +1,5 @@
 ---
-title: "Inspiring Faces Want to Know"
+title: "Inspiring faces want to know"
 excerpt: "Finding inspiration from the faces of strangers on Sktchy for iOS."
 image: 
   path: &image /assets/images/sktchys-of-me-feature.jpg

@@ -1,5 +1,5 @@
 ---
-title: "Painterly Fringed Collar"
+title: "Painterly fringed collar"
 excerpt: "Portrait of Jenny x. digitally painted with Procreate on an iPad."
 last_modified_at: 
 image: 

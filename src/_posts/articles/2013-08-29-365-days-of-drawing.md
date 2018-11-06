@@ -1,5 +1,5 @@
 ---
-title: "365 Days of Drawing Faces"
+title: "365 Days of drawing faces"
 excerpt: "Year one of my 365 day portrait project may be over, but I'm just getting started."
 image: 
   path: &image /assets/images/paperfaces-476-portraits.jpg

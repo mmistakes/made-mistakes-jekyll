@@ -1,5 +1,5 @@
 ---
-title: "Back at It"
+title: "Back at it"
 excerpt: "Portrait of Marion K. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-03-22T09:21:18-04:00
 image: 

@@ -1,5 +1,5 @@
 ---
-title: "The iPhone is Great, but the Palm Pre is More My Style"
+title: "The iPhone is great, but the Palm Pre is more my style"
 excerpt: "Quick impressions of the Palm Pre from a long time smartphone user."
 last_modified_at: 2018-02-09T08:54:48-05:00
 image: 

@@ -1,5 +1,5 @@
 ---
-title: "Collecting Records for the Artwork"
+title: "Collecting records for the artwork"
 excerpt: "How the hand crafted aesthetics found in DIY released emo and hardcore records started my collecting addiction."
 image: 
   path: &image /assets/images/collecting-records-feature.jpg

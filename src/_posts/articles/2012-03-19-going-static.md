@@ -1,5 +1,5 @@
 ---
-title: "Going Static — Using Jekyll CMS Free"
+title: "Going static: using Jekyll CMS free"
 excerpt: "Migrating Made Mistakes from a Wordpress powered website back to its static file roots using Jekyll CMS free."
 last_modified_at: 2017-09-07T20:38:55-04:00
 image: 

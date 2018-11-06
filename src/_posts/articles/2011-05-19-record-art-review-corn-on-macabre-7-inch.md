@@ -1,5 +1,5 @@
 ---
-title: "Corn On Macabre Record Art, Vellum and Metallic Ink Bliss"
+title: "Corn On Macabre record art --- vellum and metallic ink bliss"
 excerpt: "My favorite thing about this Corn On Macabre 7-inch record is the use of vellum and metallic inks in the sleeve."
 image: 
   path: &image /assets/images/COM-feature.jpg

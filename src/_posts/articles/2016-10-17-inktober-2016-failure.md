@@ -1,5 +1,5 @@
 ---
-title: "Inktober Failure"
+title: "Inktober failure"
 excerpt: "Like previous years, I started out with the best of intentions for Inktober and then quickly lost steam..."
 image: 
   cover: false

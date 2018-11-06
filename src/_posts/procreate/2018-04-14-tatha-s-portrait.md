@@ -1,5 +1,5 @@
 ---
-title: "Turn Away"
+title: "Turn away"
 excerpt: "Portrait of Tatha S. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-04-14T14:27:36-04:00
 image: 

@@ -1,5 +1,5 @@
 ---
-title: "Impressions of iPhone 4 from a Long Time Palm User"
+title: "Impressions of iPhone 4 from a long time Palm user"
 excerpt: "The following are some of my experiences and observations transitioning from Palm to iOS after nearly 10 years of baggage."
 image: 
   thumbnail: /assets/images/iphone4-impressions-340x340.jpg

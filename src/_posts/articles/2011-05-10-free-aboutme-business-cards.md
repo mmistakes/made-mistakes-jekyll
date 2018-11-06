@@ -1,5 +1,5 @@
 ---
-title: "My About.me Profile and Free Moo Business Cards"
+title: "My About.me profile and free Moo business cards"
 excerpt: "How 5 minutes spent creating an About.me profile nabbed me custom Moo business cards of my own design."
 image: 
   path: &image /assets/images/about-me-featured.jpg
@@ -13,9 +13,12 @@ tags: [business cards, design, Michael Rose]
 support: false
 last_modified_at: 2017-12-12T16:28:35-05:00
 ---
+
 Pretty much the only reason I created an About.me page was to get free customized business cards printed by Moo.
 
-If you weren't aware --- [About.me](https://about.me) is a custom profile and personal analytics dashboard that lets you quickly build a personal page that points users to your content from around the web. Its straightforward <abbr title="What You See Is What You Get">WYSIWYG</abbr> editor makes customizing the design, fonts, colors, and background image a breeze.
+If you weren't aware --- [About.me](https://about.me) is a custom profile and personal analytics dashboard that lets you quickly build a personal page that points users to your content from around the web. Its straightforward WYSIWYG editor makes customizing the design, fonts, colors, and background image a breeze.
+
+*[WYSIWYG]: What you see is what you get
 
 {% figure caption:"The QR code looks cool, but I doubt anyone actually scans these things." %}
 ![Holding a Made Mistakes business card](/assets/images/michael-rose-business-card-qr-620x413.jpg)

@@ -1,5 +1,5 @@
 ---
-title: RRIICCEE Show Last Night
+title: RRIICCEE show last night
 excerpt: "Musically --- RRIICCEE is fine, but not something I really want to see live again."
 image: 
   cover: false

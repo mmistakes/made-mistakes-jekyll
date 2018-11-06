@@ -1,5 +1,5 @@
 ---
-title: "Glowing Pencil Practice"
+title: "Glowing pencil practice"
 excerpt: "Portrait of Foggy 365 digitally painted with Procreate on an iPad."
 last_modified_at:
 image: 

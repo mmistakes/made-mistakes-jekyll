@@ -1,5 +1,5 @@
 ---
-title: "Blue and Pink Lights"
+title: "Blue and pink lights"
 excerpt: "Portrait of Jonathan H. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-05-18T10:46:51-04:00
 image: 

@@ -1,5 +1,5 @@
 ---
-title: "Wendy's Bird Cage &amp; Flying Birds Tattoos"
+title: "Wendy's bird cage &amp; flying birds tattoos"
 excerpt: "Put a bird on it. Photographs of Wendy's bird cage tattoos and some ink splat trees on my arms."
 last_modified_at: 2017-09-07T20:33:26-04:00
 image: 

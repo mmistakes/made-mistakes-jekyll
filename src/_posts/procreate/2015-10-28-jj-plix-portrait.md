@@ -1,5 +1,5 @@
 ---
-title: "Sunny Sky in Your Eye"
+title: "Sunny sky in your eye"
 excerpt: "Portrait of Jj Plix, digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-05T16:27:03-05:00
 image: 
