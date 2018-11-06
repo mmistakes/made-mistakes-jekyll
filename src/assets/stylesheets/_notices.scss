@@ -8,22 +8,26 @@
   margin: 1em 0;
   padding: 1em 1.5em 1.5em;
   border: 2px solid;
-  font-size: 0.85em;
+  box-shadow: 0.25em 0.25em 0 #000;
 
   &.info {
     color: $info-color;
+    box-shadow: 0.25em 0.25em 0 $info-color;
   }
 
   &.warning {
     color: $warning-color;
+    box-shadow: 0.25em 0.25em 0 $warning-color;
   }
 
   &.danger {
     color: $danger-color;
+    box-shadow: 0.25em 0.25em 0 $danger-color;
   }
 
   &.success {
     color: $success-color;
+    box-shadow: 0.25em 0.25em 0 $success-color;
   }
 }
 
@@ -35,7 +39,7 @@
     border-bottom: 2px solid;
     font-family: $monospace-font;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 400;
   }
 }
 

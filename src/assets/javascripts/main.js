@@ -1,7 +1,7 @@
 // asynchronously load fonts
 WebFontConfig = {
   google: {
-    families: ["Alegreya:700,700i"]
+    families: ["Alegreya:700", "Spectral:400,400i,700,700i"]
   }
 };
 
