@@ -6,6 +6,8 @@ categories: [mastering-paper]
 tags: [Paper by 53, color theory, tutorial, iPad]
 image:
   path: &image /assets/images/paper-53-color-picker-feature.jpg
+  width: 1280
+  height: 674
   feature: *image
   teaser: /assets/images/paper-53-color-picker-teaser.jpg
   thumbnail: /assets/images/paper-53-color-picker-th.jpg

@@ -4,6 +4,8 @@ excerpt: "Portrait of David G. digitally painted with Procreate on an iPad."
 last_modified_at: 2015-12-27T00:00:00-00:00
 image: 
   path: &image /assets/images/david-g-procreate.jpg
+  width: 1600
+  height: 2400
   feature: *image
   teaser: /assets/images/david-g-procreate-teaser.jpg
   thumbnail: /assets/images/david-g-procreate-250.jpg

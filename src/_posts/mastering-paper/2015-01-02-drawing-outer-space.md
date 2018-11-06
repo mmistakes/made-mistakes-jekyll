@@ -6,6 +6,8 @@ categories: [mastering-paper]
 tags: [Paper by 53, tutorial, space, blend, Pencil by 53, stylus, iPad]
 image:
   path: &image /assets/images/paper-53-space-feature.jpg
+  width: 1280
+  height: 589
   feature: *image
   teaser: /assets/images/paper-53-space-teaser.jpg
   thumbnail: /assets/images/paper-53-space-th.jpg

@@ -4,6 +4,8 @@ excerpt: "Short on time? Here's the quick and fun way I draw portraits using Pap
 last_modified_at: 2018-11-06T11:48:54-05:00
 image: 
   path: &image /assets/images/paper-53-draw-face-feature.jpg
+  width: 1280
+  height: 361
   feature: *image
   teaser: /assets/images/paper-53-draw-face-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-draw-face-thumb.jpg

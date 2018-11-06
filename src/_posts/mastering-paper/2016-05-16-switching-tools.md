@@ -5,6 +5,8 @@ categories: [mastering-paper]
 tags: [Paper by 53, iPad, tutorial]
 image:
   path: &image /assets/images/paper-53-full-tools.jpg
+  width: 1587
+  height: 369
   feature: *image
   thumbnail: /assets/images/paper-53-switch-tools-th.jpg
   teaser: /assets/images/paper-53-switch-tools-teaser.jpg

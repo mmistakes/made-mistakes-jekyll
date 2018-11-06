@@ -4,6 +4,8 @@ excerpt: "Your new Jekyll default theme."
 last_modified_at: 2018-02-06T11:15:59-05:00
 image: 
   path: &image /assets/images/jekyll-theme-basically-basic-feature.jpg
+  width: 1600
+  height: 694
   feature: *image
   thumbnail: /assets/images/jekyll-theme-basically-basic-th.jpg
   teaser: /assets/images/jekyll-theme-basically-basic-teaser.jpg

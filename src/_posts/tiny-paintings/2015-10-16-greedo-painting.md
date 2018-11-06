@@ -4,6 +4,8 @@ excerpt: "Tiny portrait of Greedo painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:20:57-04:00
 image: 
   path: &image /assets/images/painting-greedo.jpg
+  width: 1600
+  height: 1059
   feature: *image
   teaser: /assets/images/painting-greedo-teaser.jpg
   thumbnail: /assets/images/painting-greedo-250.jpg

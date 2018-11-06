@@ -6,6 +6,8 @@ categories: [mastering-paper]
 tags: [Paper by 53, tutorial, layers, erase]
 image:
   path: &image /assets/images/paper-53-faux-layers-feature.jpg
+  width: 1280
+  height: 450
   feature: *image
   teaser: /assets/images/paper-53-faux-layers-teaser.jpg
   thumbnail: /assets/images/paper-53-faux-layers-th.jpg

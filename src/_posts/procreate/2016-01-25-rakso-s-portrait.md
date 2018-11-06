@@ -4,6 +4,8 @@ excerpt: "Portrait of Rakso S. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-10-10T10:49:10-04:00
 image: 
   path: &image /assets/images/rakso-s-procreate.jpg
+  width: 1600
+  height: 1200
   feature: *image
   teaser: /assets/images/rakso-s-procreate-teaser.jpg
   thumbnail: /assets/images/rakso-s-procreate-250.jpg

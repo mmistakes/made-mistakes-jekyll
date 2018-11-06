@@ -4,6 +4,8 @@ excerpt: "Impressions of a handmade Moleskine book printed with the iPad app Pap
 last_modified_at: 2018-11-06T11:58:28-05:00
 image: 
   path: &image /assets/images/paper-53-book-feature.jpg
+  width: 1280
+  height: 500
   feature: *image
   teaser: /assets/images/paper-53-book-teaser.jpg
   thumbnail: /assets/images/paper-53-book-thumb.jpg

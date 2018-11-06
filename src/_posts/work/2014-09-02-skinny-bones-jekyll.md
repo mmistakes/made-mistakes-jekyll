@@ -3,6 +3,8 @@ title: "Skinny Bones, a Jekyll Starter"
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
 image: 
   path: &image /assets/images/skinny-bones-preview-feature.jpg
+  width: 1600
+  height: 600
   feature: *image
   teaser: /assets/images/skinny-bones-preview-teaser.png
   thumbnail: /assets/images/skinny-bones-preview-th.png

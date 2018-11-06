@@ -4,6 +4,8 @@ excerpt: "Tiny portrait of Adam Vitry, painted with watercolor on hot press pape
 last_modified_at: 2016-06-10T11:38:48-04:00
 image: 
   path: &image /assets/images/painting-adam-vitry.jpg
+  width: 1600
+  height: 1048
   feature: *image
   teaser: /assets/images/painting-adam-vitry-teaser.jpg
   thumbnail: /assets/images/painting-adam-vitry-250.jpg

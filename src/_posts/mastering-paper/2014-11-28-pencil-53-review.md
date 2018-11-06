@@ -6,6 +6,8 @@ tags: [Pencil by 53, Paper by 53, stylus, iPad, blend, review]
 last_modified_at: 2018-11-06T12:04:05-05:00
 image:
   path: &image /assets/images/pencil-53-feature.jpg
+  width: 1920
+  height: 673
   feature: *image
   teaser: /assets/images/pencil-53-teaser.jpg
   thumbnail: /assets/images/pencil-53-thumb.jpg

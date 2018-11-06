@@ -4,8 +4,9 @@ excerpt: "Portrait of Foggy 365 digitally painted with Procreate on an iPad."
 last_modified_at:
 image: 
   path: &image /assets/images/foggy-365-procreate.jpg
+  width: 1600
+  height: 2133
   feature: *image
-  teaser:
   thumbnail: /assets/images/foggy-365-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse]

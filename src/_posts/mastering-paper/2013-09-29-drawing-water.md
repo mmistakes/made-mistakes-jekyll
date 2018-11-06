@@ -4,6 +4,8 @@ excerpt: "Methods for drawing water and waves using the iPad app Paper for iOS."
 last_modified_at: 2018-11-06T11:58:07-05:00
 image: 
   path: &image /assets/images/paper-53-water-guide-feature.jpg
+  width: 1280
+  height: 500
   feature: *image
   teaser: /assets/images/paper-53-water-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-water-guide-thumb.jpg

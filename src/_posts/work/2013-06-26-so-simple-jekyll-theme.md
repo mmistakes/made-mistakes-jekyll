@@ -6,6 +6,8 @@ excerpt: "A simple Jekyll theme for words and pictures by designer Michael Rose.
 last_modified_at: 2018-02-06T11:16:06-05:00
 image: 
   path: &image /assets/images/jekyll-theme-so-simple-feature-2018.jpg
+  width: 1600
+  height: 800
   feature: *image
   teaser: /assets/images/jekyll-theme-so-simple-teaser.jpg
   thumbnail: /assets/images/jekyll-theme-so-simple-th.jpg

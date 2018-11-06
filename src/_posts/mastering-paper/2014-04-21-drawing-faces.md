@@ -4,6 +4,8 @@ excerpt: "Advanced techniques for drawing and painting portraits using the iPad 
 last_modified_at: 2018-11-06T12:00:40-05:00
 image: 
   path: &image /assets/images/paper-53-faces-feature.jpg
+  width: 1280
+  height: 500
   feature: *image
   teaser: /assets/images/paper-53-faces-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-faces-thumb.jpg

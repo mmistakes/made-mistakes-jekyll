@@ -4,6 +4,8 @@ excerpt: "Portrait of Emil I. digitally painted with Procreate on an iPad."
 last_modified_at: 2017-09-08T10:24:20-04:00
 image: 
   path: &image /assets/images/emil-i-procreate.jpg
+  width: 1600
+  height: 2133
   feature: *image
   teaser: /assets/images/emil-i-procreate-teaser.jpg
   thumbnail: /assets/images/emil-i-procreate-250.jpg

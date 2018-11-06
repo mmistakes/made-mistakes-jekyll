@@ -5,6 +5,8 @@ excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal 
 last_modified_at: 2018-02-06T11:15:51-05:00
 image: 
   path: &image /assets/images/minimal-mistakes-3-feature.jpg
+  width: 1600
+  height: 710
   feature: *image
   thumbnail: /assets/images/minimal-mistakes-3-th.jpg
   teaser: /assets/images/minimal-mistakes-3-teaser.jpg

@@ -6,6 +6,8 @@ categories: [mastering-paper]
 tags: [Paper by 53, tutorial, drawing, painting, iPad]
 image:
   path: &image /assets/images/paper-53-zoom-loupe-feature.jpg
+  width: 1280
+  height: 727
   feature: *image
   teaser: /assets/images/paper-53-zoom-loupe-teaser.jpg
   thumbnail: /assets/images/paper-53-zoom-loupe-thumb.jpg

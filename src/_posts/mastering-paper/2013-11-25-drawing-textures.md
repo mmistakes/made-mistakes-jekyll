@@ -4,6 +4,8 @@ excerpt: "Techniques for drawing bricks, wood, and rock textures using the iPad 
 last_modified_at: 2018-11-06T11:59:09-05:00
 image: 
   path: &image /assets/images/paper-53-texture-guide-feature.jpg
+  width: 1280
+  height: 500
   feature: *image
   teaser: /assets/images/paper-53-texture-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-texture-guide-thumb.jpg

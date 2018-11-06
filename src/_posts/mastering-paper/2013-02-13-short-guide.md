@@ -4,6 +4,8 @@ excerpt: "My simple Paper techniques for drawing faceless portraits and landscap
 last_modified_at: 2018-11-06T11:46:47-05:00
 image: 
   path: &image /assets/images/madewithpaper-guide-feature.jpg
+  width: 1280
+  height: 528
   feature: *image
   teaser: /assets/images/madewithpaper-guide-teaser.jpg
   thumbnail: /assets/images/madewithpaper-guide-thumb.jpg

@@ -4,6 +4,8 @@ excerpt: "Portrait of Wendy Rose, digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-06
 image: 
   path: &image /assets/images/wendy-rose-procreate.jpg
+  width: 2048
+  height: 1536
   feature: *image
   teaser: /assets/images/wendy-rose-procreate-teaser.jpg
   thumbnail: /assets/images/wendy-rose-procreate-250.jpg

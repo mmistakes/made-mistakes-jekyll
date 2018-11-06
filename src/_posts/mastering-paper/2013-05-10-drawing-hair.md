@@ -4,6 +4,8 @@ excerpt: "I'm often asked what my Paper techniques for drawing hair is. Learn wh
 last_modified_at: 2018-11-06T11:48:32-05:00
 image: 
   path: &image /assets/images/how-to-draw-hair-feature.jpg
+  width: 1280
+  height: 373
   feature: *image
   teaser: /assets/images/how-to-draw-hair-teaser-2016.jpg
   thumbnail: /assets/images/how-to-draw-hair-thumb.jpg

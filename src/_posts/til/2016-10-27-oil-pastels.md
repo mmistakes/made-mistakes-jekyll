@@ -3,6 +3,8 @@ title: "Oil Pastels are Not Pencils"
 excerpt:
 image: 
   path: &image /assets/images/oil-pastel-sunset-finished.jpg
+  width: 1600
+  height: 1103
   feature: *image
   thumbnail: /assets/images/oil-pastels-th.jpg
   teaser: /assets/images/oil-pastels-teaser.jpg

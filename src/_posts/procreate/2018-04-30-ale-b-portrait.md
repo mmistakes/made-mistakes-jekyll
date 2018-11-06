@@ -4,8 +4,9 @@ excerpt: "Portrait of Ale B. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-04-30T16:22:39-04:00
 image: 
   path: &image /assets/images/ale-b-procreate.jpg
+  width: 1600
+  height: 2133
   feature: *image
-  teaser:
   thumbnail: /assets/images/ale-b-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, beard, time lapse]

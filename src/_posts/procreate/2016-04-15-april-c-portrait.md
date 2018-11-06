@@ -4,6 +4,8 @@ excerpt: "Portrait of April C. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-04-15T12:14:37-04:00
 image: 
   path: &image /assets/images/april-c-procreate.jpg
+  width: 1600
+  height: 2133
   feature: *image
   teaser: /assets/images/april-c-procreate-teaser.jpg
   thumbnail: /assets/images/april-c-procreate-250.jpg

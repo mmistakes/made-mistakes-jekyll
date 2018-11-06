@@ -4,6 +4,8 @@ excerpt: "Portrait of Jenny x. digitally painted with Procreate on an iPad."
 last_modified_at: 
 image: 
   path: &image /assets/images/jenny-x-procreate.jpg
+  width: 1800
+  height: 2400
   feature: *image
   teaser: /assets/images/jenny-x-procreate-teaser.jpg
   thumbnail: /assets/images/jenny-x-procreate-250.jpg

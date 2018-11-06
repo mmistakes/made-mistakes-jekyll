@@ -4,6 +4,8 @@ excerpt: "An iPad stylus that brings enhanced functionality to devices and apps 
 last_modified_at: 2018-11-06T11:49:14-05:00
 image: 
   path: &image /assets/images/pogo-connect-review-feature.jpg
+  width: 1488
+  height: 489
   feature: *image
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumbnail: /assets/images/pogo-connect-app-thumb.jpg

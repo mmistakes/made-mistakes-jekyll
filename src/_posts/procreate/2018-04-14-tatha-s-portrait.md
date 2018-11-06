@@ -4,8 +4,9 @@ excerpt: "Portrait of Tatha S. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-04-14T14:27:36-04:00
 image: 
   path: &image /assets/images/tatha-s-procreate.jpg
+  width: 1600
+  height: 2133
   feature: *image
-  teaser:
   thumbnail: /assets/images/tatha-s-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse]

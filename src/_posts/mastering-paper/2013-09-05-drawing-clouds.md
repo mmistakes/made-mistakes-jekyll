@@ -4,6 +4,8 @@ excerpt: "Techniques for drawing blue skies, clouds, and pretty sunsets using th
 last_modified_at: 2018-11-06T11:57:52-05:00
 image: 
   path: &image /assets/images/paper-53-skies-guide-feature.jpg
+  width: 1280
+  height: 436
   feature: *image
   teaser: /assets/images/paper-53-skies-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-skies-guide-thumb.jpg

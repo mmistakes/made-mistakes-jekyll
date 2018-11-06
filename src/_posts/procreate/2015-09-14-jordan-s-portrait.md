@@ -4,6 +4,8 @@ excerpt: "Portrait of Jordan S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-06T10:03:00-05:00
 image: 
   path: &image /assets/images/jordan-s-procreate.jpg
+  width: 1536
+  height: 1938
   feature: *image
   teaser: /assets/images/jordan-s-procreate-teaser.jpg
   thumbnail: /assets/images/jordan-s-procreate-250.jpg

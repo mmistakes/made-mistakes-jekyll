@@ -4,6 +4,8 @@ excerpt: "FiftyThree's Pencil stylus and new Blend feature is full of promise. H
 last_modified_at: 2018-11-06T11:58:50-05:00
 image:
   path: &image /assets/images/paper-53-blend-first-look-feature.jpg
+  width: 1920
+  height: 900
   feature: *image
   teaser: /assets/images/paper-53-blend-first-look-teaser.jpg
   thumbnail: /assets/images/paper-53-blend-first-look-thumb.jpg

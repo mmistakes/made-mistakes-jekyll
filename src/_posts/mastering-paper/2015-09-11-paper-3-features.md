@@ -6,6 +6,8 @@ categories: [mastering-paper]
 tags: [Paper by 53, iPad]
 image:
   path: &image /assets/images/paper-3-feature.jpg
+  width: 1600
+  height: 654
   feature: *image
   teaser: /assets/images/paper-3-teaser.jpg
   thumbnail: /assets/images/paper-3-th.jpg

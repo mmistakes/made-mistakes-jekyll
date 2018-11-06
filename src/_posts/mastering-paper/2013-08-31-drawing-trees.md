@@ -4,6 +4,8 @@ excerpt: "Techniques to draw trees, green grass, bushes, and other foliage using
 last_modified_at: 2018-11-06T11:57:32-05:00
 image: 
   path: &image /assets/images/paper-53-trees-guide-feature.jpg
+  width: 1280
+  height: 436
   feature: *image
   teaser: /assets/images/paper-53-trees-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-trees-guide-thumb.jpg

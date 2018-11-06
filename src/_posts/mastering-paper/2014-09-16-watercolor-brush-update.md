@@ -6,6 +6,8 @@ categories: [mastering-paper]
 tags: [Paper by 53, tutorial, painting, iPad]
 image:
   path: &image /assets/images/paper-53-watercolor-brush-feature.jpg
+  width: 1280
+  height: 508
   feature: *image
   teaser: /assets/images/paper-53-watercolor-brush-teaser.jpg
   thumbnail: /assets/images/paper-53-watercolor-brush-th.jpg

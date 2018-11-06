@@ -4,6 +4,8 @@ excerpt: "How to use blind contour line drawing and the iPad app Paper for iOS, 
 last_modified_at: 2018-11-06T11:59:47-05:00
 image: 
   path: &image /assets/images/paper-53-contour-drawing-feature.jpg
+  width: 1920
+  height: 848
   feature: *image
   teaser: /assets/images/paper-53-contour-drawing-teaser.jpg
   thumbnail: /assets/images/paper-53-contour-drawing-thumb.jpg
