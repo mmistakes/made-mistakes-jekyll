@@ -5,6 +5,10 @@
 form {
   position: relative;
   max-width: 100%;
+
+  [type="submit"] {
+    @include margin-top(0.5);
+  }
 }
 
 label {

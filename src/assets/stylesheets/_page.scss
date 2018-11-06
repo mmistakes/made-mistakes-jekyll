@@ -44,13 +44,14 @@
     color: #fff;
     font-family: $alternate-font;
     font-weight: 700;
-    font-size: 1.953em;
+    font-size: 1.5em;
     font-variant-ligatures: common-ligatures;
     font-feature-settings: "kern" on, "liga" on, "clig" on, "calt" on;
     line-height: 1.25;
 
     @include breakpoint($md-up) {
       padding-right: 5%;
+      font-size: 1.953em;
     }
 
     @include breakpoint ($lg-up) {

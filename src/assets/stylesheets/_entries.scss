@@ -10,8 +10,11 @@
 .entry__title {
   margin-bottom: 0;
   font-weight: 700;
-  font-size: 1.563em;
   line-height: 1.25;
+
+  @include breakpoint($md-up) {
+    font-size: 1.563em;
+  }
 
   a::before {
     content: '';
