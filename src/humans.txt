@@ -4,7 +4,7 @@ _  ________ ____   _  ______________  _________
 |\/||__||  \|___   |\/||[__  | |__||_/ |___[__
 |  ||  ||__/|___   |  ||___] | |  || \_|______]
 
-/* MADEMISTAKES.COM */
+  MADEMISTAKES.COM
 
   Designer:     Michael Rose
   Twitter:      @mmistakes
