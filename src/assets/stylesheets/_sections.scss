@@ -55,7 +55,7 @@
 .section__title {
   .heading {
     margin-top: 0;
-    margin-bottom: 0.25em;
+    @include margin-bottom(1);
     color: #fff;
     font-family: $alternate-font;
     font-weight: 700;
