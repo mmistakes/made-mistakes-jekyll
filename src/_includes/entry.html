@@ -12,10 +12,10 @@
       <time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string: 'ordinal', 'US' }}</time>
     {% endif %}
     {% if post.read_time %}
-      &nbsp;&middot; {% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}
+      &middot; {% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}
     {% endif %}
     {% if site.data.comments[post.slug].size > 0 and post.comments %}
-      &nbsp;&middot; {{ site.data.comments[post.slug] | size }} Comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}
+      &middot; {{ site.data.comments[post.slug] | size }} comment{% if site.data.comments[post.slug].size > 1 %}s{% endif %}
     {% endif %}
   </div>
   {% if feature_image %}

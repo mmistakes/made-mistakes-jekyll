@@ -7,17 +7,17 @@
     <ul>
       {% if paginator.previous_page %}
         <li>
-          <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">← Newer Posts</a>
+          <a href="{{ paginator.previous_page_path | relative_url }}" class="newer-posts">← newer posts</a>
         </li>
       {% endif %}
       {% if page.autogen %}
-        <li>Page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</li>
+        <li>page {{ page.pagination_info.curr_page }} of {{ page.pagination_info.total_pages }}</li>
       {% else %}
-        <li>Page {{ paginator.page }} of {{ paginator.total_pages }}</li>
+        <li>page {{ paginator.page }} of {{ paginator.total_pages }}</li>
       {% endif %}
       {% if paginator.next_page %}
         <li>
-          <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">Older Posts →</a>
+          <a href="{{ paginator.next_page_path | relative_url }}" class="older-posts">older posts →</a>
         </li>
       {% endif %}
     </ul>
