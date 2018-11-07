@@ -2,7 +2,7 @@
   {% assign crumb-old = page.breadcrumbs[0] %}
   <div class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList">
     <span class="breadcrumb" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
-      <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">Home</span></a>
+      <a href="{{ '/' | relative_url }}" itemprop="item"><svg class="icon icon--home" width="16px" height="16px"><use xlink:href="{{ 'icons.svg#icon-home' | prepend: 'assets/icons/' | relative_url }}"></use></svg> <span itemprop="name">Home</span></a>
     </span>
     {% for crumb in page.breadcrumbs %}
       <span aria-label="breadcrumb separator">/</span>
