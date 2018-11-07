@@ -19,7 +19,7 @@ Where applicable links to a component's Sass partial[^sass] and/or Jekyll includ
 
 <div markdown="0">
 <select name="newurl" id="component-select" onChange="window.location.replace(this.options[this.selectedIndex].value)" aria-label="Select a Component" markdown="0">
-  <option selected markdown="0">Select a Component</option>
+  <option selected markdown="0">Select a component</option>
   <option value="#guide-color-palettes" markdown="0">Colors</option>
   {% for type in componentsByType %}
   <option value="#guide-{{ type.name }}" markdown="0">{{ type.name | capitalize }}</option>

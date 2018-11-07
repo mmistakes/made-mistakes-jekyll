@@ -11,6 +11,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-space-teaser.jpg
   thumbnail: /assets/images/paper-53-space-th.jpg
+toc: true
 ---
 
 Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bodies* is a ton of fun with Paper, the iPad app by FiftyThree. Much like [drawing blue skies and clouds]({% post_url /mastering-paper/2013-09-05-drawing-clouds %}), it is very hard to screw them up if you follow a few simple guidelines.
@@ -58,7 +59,7 @@ To create smooth tones keep your finger on the screen and use circular motions t
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Smaller Brush Sizes
+#### ProTip: smaller brush sizes
 
 When using the zoom loupe the watercolor brush's size scales down. Use this to your advantage to paint thinner strokes and fill smaller shapes.
 {% endnotice %}
@@ -95,7 +96,7 @@ If things went too dark mix a tint of blue or fuchsia (depending on where you wa
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Paint Fast with White
+#### ProTip: paint fast with white
 
 Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn pure white way too fast.
 {% endnotice %}
@@ -186,7 +187,7 @@ I'm going to speed through these next set of steps since they're exactly the sam
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Turn Pencil on Its Side for a Different Drawing Experience
+#### ProTip: turn Pencil on its side for a different drawing experience
 
 Hold Pencil on its side to move more quickly and organically through the composition.
 {% endnotice %}
@@ -225,7 +226,7 @@ Since it's pretty difficult to draw a perfect circle freehand I'm going to trace
 Placing the object directly on the iPad's screen, carefully trace around its edge. It may be hard to match up the lines exactly on your first go so just Rewind to undo until you get it right.
 
 {% notice %}
-#### Update: Perfect Circles
+#### Update: perfect circles
 
 Since writing this tutorial Paper was updated with [**Think Kit**](http://www.fiftythree.com/think). Now drawing perfect lines and shapes is only a swipe away in the tool tray.
 {% endnotice %}
@@ -247,7 +248,7 @@ Using the same process as before, leave one of the planet's edges exposed as you
 I started to lose the shape of the circle because I was painting pretty fast. To correct it I darkened the lower left corner until it merged with the rest of the scene. Depending on what color the background is, these sorts of mistakes may be harder to cover-up.
 
 {% notice %}
-#### ProTip: Use a Stencil if You're a Messy Painter
+#### ProTip: use a stencil if you're a messy painter
 
 To help stay in the lines a [stencil](http://www.amazon.com/gp/product/B000FPYQ14/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FPYQ14&linkCode=as2&tag=mademist-20&linkId=GLP5SABXVPYTF7PT) can be used. Simply hold it steady on the iPad's screen as you paint glazes with Pencil inside of it.
 {% endnotice %}
@@ -270,7 +271,7 @@ To correct any shape distortions that occur from smudging too much, paint in bur
 ![screenshot of penciling in highlights](/assets/images/paper-53-space-2-planet-edge.jpg)
 
 {% notice %}
-#### ProTip: Smoothen Edges with a Pencil Stroke
+#### ProTip: smoothen edges with a Pencil stroke
 
 Fine pencil lines along the sides work well to redefine a bumpy or irregular shaped curve.
 {% endnotice %}
@@ -309,7 +310,7 @@ You may remember in the first part of this guide I cautioned against using the i
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Simulate Glow with White Paint
+#### ProTip: simulate glow with white paint
 
 If you don't have a Pencil stylus, glowing orbs can also be created by dabbing a star with white watercolor.
 {% endnotice %}

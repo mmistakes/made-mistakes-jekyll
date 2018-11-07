@@ -11,21 +11,22 @@ image:
 categories: [articles]
 tags: [records, punk, critique, design, inspiration, typography]
 support: false
+toc: true
 ---
 
 My favorite thing about this Corn On Macabre record has nothing to do with the band or the music. Sense of sight and touch often influence me more than sounds...
 
-## The Medium is Important
+## The medium is important
 
 An often overlooked aspect in design are the materials chosen to help communicate the message(s). The paper printed on and the ink printed with, can completely screw with a design if they're speaking different languages.
 
 If the sleeve art for this *Corn On Macabre* 7-inch was printed on Classic Columns or some piece of bright white the tone would be at odds with the music. I think more of sludge, dirt, and faded photographs when listening to Chapter One. Song titles and lyrics about horror movies don't exactly benefit being printed on glossy card-stock, know what I mean?
 
-## Liner Notes and Metallic Ink
+## Liner notes and metallic ink
 
 Not sure how much it added to the production cost, but I sure like the way vellum looks and feels. The translucency of the paper looks even better when these photographs are printed on it with a metallic ink. If I remember correctly, I think [Brent Eyestone's](http://www.discogs.com/artist/Brent+Eyestone) earlier band *Waifle* printed on vellum in one of their full length releases.
 
-## Record Packaging Detail Images
+## Record packaging detail images
 
 {% figure caption:"Detail photo of liner notes set in Trajan" %}
 [![Detail photo of liner notes set in Trajan](/assets/images/COM-metallic-ink-trajan-620x197.jpg)](/assets/images/COM-metallic-ink-trajan.jpg "Everyone's favorite movie poster typeface, Trajan.")

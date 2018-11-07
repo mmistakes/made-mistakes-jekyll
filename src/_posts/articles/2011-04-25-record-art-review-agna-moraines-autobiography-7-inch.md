@@ -12,11 +12,12 @@ image:
 categories: [articles]
 tags: [records, punk, design, DIY, critique, inspiration]
 support: false
+toc: true
 ---
 
 Emo bands from the late 1990's make up a good portion of my record collection. I was really drawn to quirky vocals, high pitched screams, odd tempo changes, and plenty of twinkle in the guitars.
 
-## Twinkle Twinkle, Whining in Sweaters
+## Twinkle twinkle, whining in sweaters
 
 Another aspect of these bands that I enjoyed, were the materials being released with their records and tapes. Almost always created by hand, my favorites were either silk screened designs or deliberately worn photocopies of original drawings and illustrations.
 
@@ -26,7 +27,7 @@ Produced on the cheap meant you often received extra "goodies" in the record sle
 [![Agna Moraine's Autobiography outside sleeve illustrations](/assets/images/agna-moraines-autobiography-outside-sleeve-620x413.jpg)](/assets/images/agna-moraines-autobiography-outside-sleeve.jpg "outside sleeve illustrations")
 {% endfigure %}
 
-## Collect for the Music, Collect for the Artwork
+## Collect for the music, collect for the artwork
 
 *Agna Moraine's Autobiography* put out a Self Titled 7-inch sometime in 1999 (I think) on Anima. From the liner notes it looks like these dudes might be from Kalamazoo, Michigan... unless that's the label's home base.
 
@@ -38,7 +39,7 @@ The record is pressed on black with white labels. Side A lists the 4 song titles
 
 Images, sounds, and lyrics are all over the place on this record. But that's ok. Maybe they're meant to be from a dream...
 
-## Additional Packaging Photographs
+## Additional packaging photographs
 
 {% figure caption:"Song lyrics on fabric" %}
 [![Agna Moraine's Autobiography song lyrics on fabric](/assets/images/agna-moraines-autobiography-fabric-lyrics-300.jpg)](/assets/images/agna-moraines-autobiography-fabric-lyrics.jpg "Song lyrics on fabric")

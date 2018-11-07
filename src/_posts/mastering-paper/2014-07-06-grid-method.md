@@ -11,15 +11,16 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-grid-teaser.jpg
   thumbnail: /assets/images/paper-53-grid-150.jpg
+toc: true
 ---
 
 A question I receive often is "how do you create such accurate line drawings in your Paper portraits." The short answer is practice... about 1,460 hours of practice. The longer and more helpful answer is, there are several techniques I use to achieve life-like drawings --- one of which I'm going to share with you now.
 
-## Why Use the Grid Method?
+## Why use the grid method?
 
 If you've ever taken a basic drawing class there's a good chance you were introduced to the **grid method**. Teachers use it as a way to strengthen observation skills and help overcome left brain roadblocks beginners often fight against. It may not be the ideal tool to use with **Paper by FiftyThree**, but for those who struggle with drawing it can build a solid foundation for you creations.
 
-## Drawing the Grids
+## Drawing the grids
 
 Drawing grids is boring and tedious work that can easily add a few hours to prep time. A fact that I experienced when I first made the jump to drawing realistic portraits with Paper by FiftyThree. I'm not trying to scare you off from using this method, just be prepared to invest time into creating straight and evenly spaced lines. 
 
@@ -51,7 +52,7 @@ Switching to a straight-edge[^straightedge] you'll use the dots as guides to dra
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Straight-edge Placement
+#### ProTip: straight-edge placement
 
 Place your straight-edge directly on top of the reference dots, then slide it to the left or right ¼″ depending on what hand you are. This extra space gives the fat rubber tip of your stylus room to move and will hopefully fall exactly on the dots. If not move it some more until it does.
 {% endnotice %}
@@ -64,7 +65,7 @@ Take your time drawing lines as accurate as and as light as possible, it'll make
 
 With the hardest grid complete you'll do the same thing to your reference photograph. The size of the grids don't have to match, just make sure they are proportional and share the same amount of lines.
 
-## Grid Making Shortcuts
+## Grid making shortcuts
 
 In case you didn't know, Paper by 53 has the ability to duplicate pages. If you took your time drawing a perfect grid you can use it as a template of sorts and copy it each time you need it.
 
@@ -82,7 +83,7 @@ You can cut the amount of time spent drawing grids on your reference photographs
 ![grid apps for iOS](/assets/images/paper-53-grid-apps.jpg)
 {% endfigure %}
 
-## Drawing with the Grid
+## Drawing with the grid
 
 With the finished grids you're ready to begin creating your line drawing. Pick a box to start with and focus on drawing just the shapes and contour lines you see. Keep it light and use the pencil tool to mark the edges.
 
@@ -91,14 +92,14 @@ With the finished grids you're ready to begin creating your line drawing. Pick a
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Focus on One Grid Box at a Time
+#### ProTip: focus on one grid box at a time
 
 If you're having trouble focusing, cover up any neighboring boxes with a sheet of paper to reveal just the box you're working on.
 {% endnotice %}
 
 You can certainly shade and paint each box as you go, but it's pretty hard to keep everything looking harmonious --- especially with the watercolor brush. Matching colors becomes really difficult as you bounce around the grid, so I suggest working in grays if you plan to use this method to create a finished drawing.
 
-## Removing the Grid
+## Removing the grid
 
 So here comes another drawback to the grid method. If you thought it was time intensive making the grids, wait till you try and remove them from around your drawing.
 
@@ -110,7 +111,7 @@ My preferred method of getting rid of the lines is by dabbing the eraser over th
 
 Depending on the complexity of your subject, using your finger to [Blend]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) away lines can produce nice results. It works best on lines that don't have a lot going on around them, just in case you smudge too much --- less you have to redraw later.
 
-## Next Steps
+## Next steps
 
 You'll most likely have to redraw a few lines depending on where the grids fell. Just use a matching color and lightly pencil in any lines you partially erased. For those areas that have *ghost lines* you can cover-up or lighten them using [hatch strokes]({% post_url /mastering-paper/2014-02-09-basics %}#painting-with-pencil) and an appropriately colored pencil.
 

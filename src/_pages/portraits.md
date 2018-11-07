@@ -1,12 +1,12 @@
 ---
 permalink: /portraits/
 title: "Order a digital portrait"
-excerpt: "Order a digital portrait drawn with the Paper app by FiftyThree for iPad."
+excerpt: "Order a digital portrait drawn with the Paper app for iPad."
 last_modified_at: 2014-09-22T11:27:18-04:00
 image:
   thumbnail: /assets/images/portrait-thumb.jpg
   teaser: /assets/images/portrait-teaser.jpg
-ads: false
+toc: true
 ---
 
 Want to be part of my PaperFaces Project and have a portrait drawn with the Paper app by FiftyThree for iPad? Well read on friend, here's how you go about commissioning one.
@@ -26,47 +26,50 @@ Using a photograph supplied by you as reference I draw my interpretation of it, 
   <figcaption>Choose wisely: black and white, one face, or multiple.</figcaption>
 </figure>
 
-## Include a Photo Reference
+## Include a photo reference
 
 Please include a link to a high resolution image (the larger the better) in the **portrait reference** field below. My drawings are only as strong as the photos I have to work with. Lighting, composition, and resolution all matter. I've gotten pretty good at capturing realism with Paper, but I do have limits and can only draw what I can see. When in doubt, please ask me before placing an order.
 
-## Then I Draw
+## Then I draw
 
 I'm pretty quick at getting to orders and average a 24--48 hour turn around to complete a portrait. Once finished I'll tweet out the drawing so my followers can enjoy it and then email you the original PNG file[^png-file] with adequate resolution to make an 8&times;10 (or A4 for my European friends) print. If by chance you're purchasing a drawing as a gift and would like me to hold off tweeting it for a few days just let me know. Wouldn't want to ruin the surprise...
 
 [^png-file]: Paper by FiftyThree exports a PNG file measuring 2048&times;1536 pixels, viewable in most graphics software. You get the raw file --- unaltered and without a watermark.
 
-## What'll Be Stranger?
+## What'll be stranger?
 
 Black and white or color? One face or multiple? <span class="badge info">Starting at $25.00 USD</span>
 
 **At the moment I'm not taking on any new portrait commissions.** After drawing close to 900 faces I need a vacation and time to regroup. Sorry :-(
 
 <fieldset>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="9UUR6AQ25G9EW">
-        <input type="hidden" name="on0" value="Type of Drawing">
-        <label style="margin:10px 0;">Type of Drawing</label>
-        <select name="os0" style="width: 100%;">
-            <option value="One face - black and white">One face - black and white $25.00 USD</option>
-            <option value="One face - color">One face - color $30.00 USD</option>
-            <option value="Multiple faces - black and white">Multiple faces - black and white $35.00 USD</option>
-            <option value="Multiple faces - color">Multiple faces - color $40.00 USD</option>
-        </select>
-        <input type="hidden" name="on1" value="Portrait Reference URL">
-        <label style="margin:10px 0;">Portrait Reference URL</label>
-        <input type="text" name="os1" maxlength="200">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="submit" value="Order Now" class="btn btn-disabled" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="ga('send', 'event', 'button', 'click', 'PaperFaces Order');">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="9UUR6AQ25G9EW">
+    <input type="hidden" name="on0" value="Type of Drawing">
+    <label style="margin:10px 0;">Type of Drawing</label>
+    <select name="os0" style="width: 100%;">
+      <option value="One face - black and white">One face - black and white $25.00 USD</option>
+      <option value="One face - color">One face - color $30.00 USD</option>
+      <option value="Multiple faces - black and white">Multiple faces - black and white $35.00 USD</option>
+      <option value="Multiple faces - color">Multiple faces - color $40.00 USD</option>
+    </select>
+    <input type="hidden" name="on1" value="Portrait Reference URL">
+    <label style="margin:10px 0;">Portrait Reference URL</label>
+    <input type="text" name="os1" maxlength="200">
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="submit" value="Order Now" class="btn btn-disabled" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin:10px 0;" onMouseDown="ga('send', 'event', 'button', 'click', 'PaperFaces Order');">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
 </fieldset>
 
-**Usage and Copyright:** Each PaperFaces portrait is protected under a [Creative Commons License](/terms/ "Attribution-NonCommercial 4.0 International"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
-{: .notice}
+{% notice %}
+####Usage and Copyright:
 
-## What Others are Saying About PaperFaces
+Each PaperFaces portrait is protected under a [Creative Commons License](/terms/ "Attribution-NonCommercial 4.0 International"). That means you're free to use them as avatars, share on social media, or print out for personal use --- it's your face so do with it as you please.
+{% endnotice %}
+
+## What others are saying about PaperFaces
 
 <blockquote class="twitter-tweet" lang="en"><p>This portrait of yours truly by <a href="https://twitter.com/mmistakes">@mmistakes</a> is one of the most glorious things you’ll ever see <a href="http://t.co/ovzxGSw72q">http://t.co/ovzxGSw72q</a></p>&mdash; Matthew Rex (@matthewrex) <a href="https://twitter.com/matthewrex/statuses/458667196634640384">April 22, 2014</a></blockquote>
 

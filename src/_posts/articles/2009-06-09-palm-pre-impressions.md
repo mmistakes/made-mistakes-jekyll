@@ -7,6 +7,7 @@ image:
   thumbnail: /assets/images/palm-pre-th.jpg
 categories: [articles]
 tags: [Palm Pre, iPhone, tech geek, review]
+toc: true
 ---
 
 Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS smartphones (Treo 600, Treo 650, Centro), I've come to rely on a proven feature set.

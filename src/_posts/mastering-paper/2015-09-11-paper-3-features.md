@@ -12,6 +12,7 @@ image:
   teaser: /assets/images/paper-3-teaser.jpg
   thumbnail: /assets/images/paper-3-th.jpg
 comments_locked: true
+toc: true
 ---
 
 The hashtag [#CreateAnywhere](https://twitter.com/hashtag/createanywhere) takes on greater meaning now that [**Paper by FiftyThree**](http://www.fiftythree.com/paper) is available for iPhone --- a device I *always have with me*. Not only that but with a new set of tricks up its sleeve, Paper is quickly becoming a productivity powerhouse.
@@ -28,7 +29,7 @@ Yes, you've read correctly --- Paper is now a universal iOS app that works on bo
 ![Paper 3.0 App Store screenshot](/assets/images/paper-3-store.jpg)
 {% endfigure %}
 
-## Importing Images
+## Importing images
 
 Love it or hate it (stick me in the love it camp), you can finally import images into Paper by FiftyThree! Tap the camera icon and you can either snap a picture or choose one from your photo library to place on the canvas.
 
@@ -44,7 +45,7 @@ I'm excited to use this feature as a sketching aid --- drawing directly on refer
 ![Clear Photo layer animation](/assets/images/paper-3-clear-photo.gif)
 {% endfigure %}
 
-## Rotating Ideas
+## Rotating ideas
 
 What a time saver this one is. If you wanted to share ideas "right side up" you had to export to the camera roll to make the rotation edit. This worked OK for sharing on social media but not so much with drawings shared on Mix --- you just had to live with them displaying horizontally.
 
@@ -60,7 +61,7 @@ In 3.0 there's a new button conveniently located below each idea for rotating th
 ![How rotated images appear in Paper's spaces](/assets/images/paper-3-rotate-spaces.jpg)
 {% endfigure %}
 
-## Journals Replaced with "Spaces"
+## Journals replaced with "Spaces"
 
 Paging through Paper's digital journals might have been a good idea years ago, but with page counts in the hundreds it quickly becomes unusable. Journals transitioning into "Spaces" is one of the best things to happen to Paper since the introduction of [**Think Kit**](https://www.fiftythree.com/think).
 
@@ -72,11 +73,11 @@ Instead of ideas bound together as books, they're presented with a different UI 
 
 These new "Spaces" are more accommodating of the new content types found in Paper 3.0 as well. Ideas in portrait or landscape orientation fit in perfectly with text notes and images. There's no way any of this would be usable or look half as good as it does now if FiftyThree stuck with the book motif.
 
-## Other New Additions
+## Other new additions
 
 In my short time with the new iPad and iPhone versions I've come across a couple of other refinements that should make the app more pleasant to use. Feel free to add any you've discovered in the comment section below.
 
-### Popular Gestures Have Dedicated Buttons Now
+### Popular gestures have dedicated buttons now
 
 Undoing mistakes and page management are some of the most common Paper actions I get questions about. In my experience most people had no clue you could do either --- so I'm happy to see they're more discoverable now.
 
@@ -89,7 +90,7 @@ Undoing (Rewinding) can still be triggered with a gesture[^rewind] or tapping th
 [^rewind]: A small adjustment was made to the way Rewind works. To trigger it tap once with 2 fingers anywhere on the screen before making the [circle gesture]({% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#gestures-to-master).
 
 {% notice %}
-#### ProTip: Quick Undo Gesture
+#### ProTip: quick undo gesture
 
 To quickly undo a mistake double tap the screen with two fingers.
 {% endnotice %}
@@ -100,7 +101,7 @@ The **• • •** button below each idea allows you to delete, duplicate, and 
 ![more button](/assets/images/paper-3-more-button.jpg)
 {% endfigure %}
 
-### Ability to Annotate Ideas and Create Text Notes
+### Ability to annotate ideas and create text notes
 
 Perfect for to-do lists, recipes, or adding captions to your ideas and photos. I could see this coming in handy for providing context around an idea you've shared or to solicit feedback from followers.
 
@@ -112,7 +113,7 @@ Basic formatting of text can be achieved by [swiping across text](http://blog.fi
 ![styling text in Paper](/assets/images/paper-3-text-styles.jpg)
 {% endfigure %}
 
-#### Changing the Default Idea Type
+#### Changing the default idea type
 
 You can easily switch between idea types (Canvas/Photo/Text) by tapping their corresponding icons in the tool tray. But you can also change which type is used as the default when creating a new idea.
 
@@ -120,12 +121,12 @@ You can easily switch between idea types (Canvas/Photo/Text) by tapping their co
 ![change default idea type](/assets/images/paper-3-idea-type-button.jpg)
 {% endfigure %}
 
-### Formerly Known As Mix
+### Formerly known As Mix
 
 Mix is no longer something you "pull down" to access from within Paper. The stream of ideas from the **People You Follow** on Mix (or should I say PAPER now?) now appear alongside your private spaces for quicker access.
 
 {% notice %}
-#### ProTip: See All Your Shared Ideas
+#### ProTip: see all your shared ideas
 
 The *shared journal* has been removed from Paper but you can still see all of your public ideas in one place. Tap your avatar in the upper right, and then tap your name to bring up your profile card. From here tap **Ideas** to see everything you've shared.
 {% endnotice %}

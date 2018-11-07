@@ -11,11 +11,12 @@ image:
   thumbnail: /assets/images/paper-53-water-guide-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper by 53, tutorial, drawing, painting, water, waves, iPad]
+toc: true
 ---
 
 Hopefully parts 2 and 3 of my [Mastering Paper by FiftyThree Guide](/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
 
-## Mixing the Water
+## Mixing the water
 
 When choosing a color for the water, I like to mix it dull and gray by knocking the saturation down[^mixer]. I find this helps arrive at a better base color and contrasts nicely against a bright blue sky. But don't let this mix limit your creative vision, make it any color you want.
 
@@ -24,7 +25,7 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Start Light
+#### ProTip: start light
 
 Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 {% endnotice %}
@@ -37,7 +38,7 @@ Much like drawing skies, you can choose to mark a horizon line in pencil to act 
 ![using an iPad smart cover as a ruler](/assets/images/paper-53-smart-cover-rule.jpg)
 {% endfigure %}
 
-### Base Coat for the Water
+### Base coat for the water
 
 With our blue-gray mixed and ready, select the watercolor brush and paint a slow and even stroke to make up this first layer of water. Just like painting skies, you're trying for an even application of watercolor without lifting your stylus or finger off the iPad's screen. Work your stroke from top to bottom, left to right, overlapping the previously painted portion slightly. A slow stroke with a slight zig zag to it will aid in painting an even and homogeneous tone quickly.
 
@@ -52,12 +53,12 @@ Start with 2--3 even coats filling in the water with as smooth a tone as you can
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Dark to Light
+#### ProTip: dark to light
 
 Applying multiple coats adjacent to the horizon line and lightening as you work down will add dimension to the painting. Fading into the paper will also give you more flexibility later if you decide to add a beach or coastline.
 {% endnotice %}
 
-### Adding Wave Chop
+### Adding wave chop
 
 For the sake of this tutorial I'm going to draw small waves using quick and choppy watercolor brush strokes. The technique is very similar to painting clouds using white, only in this case we're using the same color we painted the water's base with. The waves I'm painting are fairly flat so there's no need to go overboard with the chop.
 
@@ -66,7 +67,7 @@ For the sake of this tutorial I'm going to draw small waves using quick and chop
 {% endfigure %}
 
 {% notice %}
-#### ProTip: Use Tints to Lighten
+#### ProTip: use tints to lighten
 
 If you go too dark, just mix white into your base coat color. Continue adding white until you get a color that has a hint of the base and lightens the water as you paint. It might take trial and error to find this "sweet spot."
 {% endnotice %}
@@ -75,7 +76,7 @@ If you go too dark, just mix white into your base coat color. Continue adding wh
 ![screenshot of watercolor wave chop lighten technique](/assets/images/paper-53-wave-chop-light.jpg)
 {% endfigure %}
 
-### Under-painting Large Waves
+### Under painting large waves
 
 Depending on the intensity of the waves this next step can be omitted. For larger waves with a lot of white foam, I like to paint a few more layers of blue anywhere these waves appear. The more layers, the darker the blue --- the darker the blue, the higher the contrast there will be between the white wave foam we'll be adding next…
 
@@ -83,7 +84,7 @@ Depending on the intensity of the waves this next step can be omitted. For large
 ![wave photo reference photo](/assets/images/paper-53-waves-photo.jpg) [![screenshot of underpainted waves in dark blue](/assets/images/paper-53-waves-underpainting.jpg)](/assets/images/paper-53-waves-underpainting-lg.jpg)
 {% endfigure %}
 
-## Waves, It's in the Details
+## Waves, it's in the details
 
 With a solid foundation set, it's time to add the finishing spit and polish to our waves. Select the pencil tool and fill it with the same blue we used to base coat the water. It doesn't have to be an exact match if you didn't save the color in your palette, just something close is all that's needed.
 
@@ -95,7 +96,7 @@ Starting at the top of the water lightly sketch strokes from left to right. The 
 
 A [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) works great for this step. It allows you to draw lightly and avoid going too heavy in an area. If you're finger painting or using a normal capacitive stylus, remember to move quickly with your pencil strokes --- the quicker you draw the lighter the mark.
 
-### White Wave Crests and Foam
+### White wave crests and foam
 
 Crests or areas where waves might be crashing against land I go heavy with a white pencil and try to make it textured and scratchy. Criss-crossing or hatching my strokes is one way of doing this quickly. If you remember my [guide on painting clouds]({% post_url /mastering-paper/2013-09-05-drawing-clouds %}), the technique is the same.
 
@@ -109,7 +110,7 @@ Depending on the size of the wave crests it's usually easier to lightly paint in
 ![screenshot of crashing wave white areas using watercolor and white](/assets/images/paper-53-wave-foam-brush.jpg)
 {% endfigure %}
 
-### Adding Shadows to the Waves
+### Adding shadows to the waves
 
 To add in shadows use a variation of the water's base color, mixed with 20--40% black. Apply the same technique used above but with this darker color instead of white. Focus on putting a few pencil strokes of dark adjacent to the white strokes which will add depth to the waves. As always, if you over work an area just rewind or draw over it using white if it's a shadow, and a shadow color if it's white.
 
@@ -123,7 +124,7 @@ To add in shadows use a variation of the water's base color, mixed with 20--40% 
 
 Boom! And we're done. Combined with a blue sky from my previous guide and you'll have a landscape that looks like you drew it with traditional art supplies. Shhhhh...your secret is safe with me.
 
-## Variations on a Theme
+## Variations on a theme
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished waterscapes to show what is possible just by varying the color and composition.
 
@@ -136,6 +137,6 @@ Using all of these techniques I was able to create a variety of backdrops for th
   <li><a href="{% post_url /paperfaces/2013-01-25-jamesonroot-portrait %}"><img src="/assets/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
-## Watch for the Next Tutorial
+---
 
 The next part will include techniques for drawing various textures with Paper's tools. Things like wood grain, brick, asphalt, and concrete will all be covered to round out the landscape portion of this guide.

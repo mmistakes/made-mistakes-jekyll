@@ -11,6 +11,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-color-picker-teaser.jpg
   thumbnail: /assets/images/paper-53-color-picker-th.jpg
+toc: true
 ---
 
 Re-imagined zoom tool, *check*. Expressive paint and ink tools that react to the speed and angle of your strokes, *double check*. A familiar color picker to sample, match, and adjust hues --- *triple check*. Yes that's not a typo, Paper by FiftyThree finally has a color picker.
@@ -51,12 +52,12 @@ There's not much more to using the Color Picker. As the small circle is moved ar
 When you've found a color you'd like to work with or save to your palette tap the circle. You can also tap the eye dropper icon inside of the Color Mixer or any of the tools in the tray to select the sampled color.
 
 {% notice %}
-#### ProTip: Saving a Sampled Color
+#### ProTip: saving a sampled color
 
 Tapping anywhere on the canvas will dismiss the Color Picker and the sampled color will not be saved to the Mixer. You have to tap the circle in the Color Picker or eye dropper for it to stick.
 {% endnotice %}
 
-### Picking Colors from a Photograph
+### Picking colors from a photograph
 
 Sampling colors with the picker tool isn't limited to just the ink, fill, and background layers --- you can also sample colors from photos. To start you'll want to import an existing image (or snap a new one with the camera).
 

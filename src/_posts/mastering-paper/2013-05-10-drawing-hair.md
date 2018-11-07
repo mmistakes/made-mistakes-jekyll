@@ -11,9 +11,10 @@ image:
   thumbnail: /assets/images/how-to-draw-hair-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper by 53, tutorial, hair, drawing, iPad]
+toc: true
 ---
 
-## Block Out the Hair
+## Block out the hair
 
 I like to rough out a general shape of the subject's hair using watercolor loaded with black or dark brown. Depending on what the overall palette is I might adjust the brown --- usually mixing in red to warm it up or blue to cool it down.
 
@@ -21,7 +22,7 @@ When working with the watercolor brush remember to **layer** numerous strokes to
 
 [![Drawing hair with Paper by 53 cheatsheet](/assets/images/drawing-hair-paper-53-cheatsheet-600.jpg)](/assets/images/drawing-hair-paper-53-cheatsheet-lg.jpg)
 
-## Draw Each Strand
+## Draw each strand
 
 The key here is observation --- look at how each strand(or section) of hair moves, where they start, and where they end. Using the pencil draw each strand of hair from root to tip, following the same paths you observed. For these initial strokes use mid tones to shape the major hair sections and parts. Then gradually brighten the color as you draw in hair with highlights. Adding small strokes of white and light yellow can really bring life to the hair, just be careful not to over do it.
 
@@ -39,16 +40,16 @@ On the subject of palettes... I stick with the default sets. Since I draw a ton 
 [![Paper 53 color watercolor shading](/assets/images/paper-53-color-watercolor-shading-200.jpg)](/assets/images/paper-53-color-watercolor-shading-lg.jpg)
 {% endfigure %}
 
-## Dark Strokes Add Definition
+## Dark strokes add definition
 
 Working an area too much with the pencil can cause your hair to flatten out. To fix this, draw dark pencil strokes over the problematic areas. If you follow the hair paths, drawing root to tip again --- these dark strokes can help add detail back to the hair. Make your strokes quick and try not to go over the same line twice or else it might darken too much.
 
-## Watercolor for Dimension
+## Watercolor for dimension
 
 If you're a maniac with the pencil and prefer to draw in all the gradations then feel free to omit this step. I'm much too lazy for that and prefer to paint over the strokes to achieve the same effect. A warm light gray works great for brunettes and a light orange or pink for redheads. Experimentation is the key here. If you don't like the result just two finger rewind that noise and try another color. Lighter layers of watercolor that are built up gradually allow for subtler tones than a stroke of black would.
 
 {% notice %}
-#### Mastering Paper Tutorials
+#### Mastering Paper tutorials
 
 Since publishing this short guide I've gone through several iPad styli and written numerous tutorials expanding on the techniques described above. Be sure to check out my [**Mastering Paper by FiftyThree series**](/mastering-paper/) to learn the latest ways I'm using the app and tools to create realistic portraits and other pieces of art. 
 {% endnotice %}

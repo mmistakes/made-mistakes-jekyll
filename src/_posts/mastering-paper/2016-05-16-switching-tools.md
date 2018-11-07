@@ -10,6 +10,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paper-53-switch-tools-th.jpg
   teaser: /assets/images/paper-53-switch-tools-teaser.jpg
+toc: true
 last_modified_at: 2018-11-06T12:06:36-05:00
 ---
 
@@ -21,7 +22,7 @@ They may be subtle, but the white dots beneath the row of tools are a big clue t
 ![indicator dots beneath Paper tools](/assets/images/paper-53-switch-tools-dots.jpg)
 {% endfigure %}
 
-## Tool Switching (iPad)
+## Tool switching (iPad)
 
 Simply swipe across the row of **Think Kit** tools to reveal another set of five ([Fountain Pen][fountain-pen], [Pencil][pencil], [Marker][marker], [Fine Tip Ink Pen][ink-pen], and [Watercolor Brush][watercolor-brush]) to the right.
 
@@ -35,7 +36,7 @@ Simply swipe across the row of **Think Kit** tools to reveal another set of five
 {% youtube KXqj04MfDLk %}
 {% endfigure %}
 
-## Tool Switching (iPhone)
+## Tool switching (iPhone)
 
 And for you iPhone Paper users there are three sets of tools you can swipe through.
 

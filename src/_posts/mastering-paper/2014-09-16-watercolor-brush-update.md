@@ -17,7 +17,7 @@ last_modified_at: 2018-11-06T12:02:42-05:00
 
 If you've struggled painting smooth tones with Paper's watercolor brush, power on your iPad and download the 2.0 update right now! FiftyThree just pushed out a set of changes that improves the tool in every way.
 
-## So What Exactly Has Changed? 
+## What exactly has changed?
 
 If you've spent anytime using the brush tool you probably already discovered that each new wash of watercolor multiplies as they're layered. This allows you to create some nice gradient effects to add depth and dimension to your sketches.
 

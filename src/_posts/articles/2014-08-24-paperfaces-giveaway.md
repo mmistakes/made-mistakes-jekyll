@@ -23,7 +23,7 @@ Entering the PaperFaces Giveaway is simple. **Contest has ended**: <s>Just fill 
 
 [^entry-types]: All entries will be verified for completion prior to randomly selecting winners. Following and then unfollowing will do you no good as those entries won't be counted in the giveaway.
 
-## Winning Portraits
+## Winning portraits
 
 {% figure caption:"Winners of my first PaperFaces portrait giveaway." class:"gallery-3-col" %}
 [![color portrait winner](/assets/images/paperfaces-harvydanger-twitter-600.jpg)]({% post_url /paperfaces/2014-09-02-harvydanger-portrait %})

@@ -11,6 +11,7 @@ image:
   feature: *image
   teaser: /assets/images/paper-53-zoom-loupe-teaser.jpg
   thumbnail: /assets/images/paper-53-zoom-loupe-thumb.jpg
+toc: true
 comments_locked: true
 ---
 
@@ -19,12 +20,12 @@ I'm a bit ashamed to admit that up until a few weeks ago I had no clue you could
 Maybe this is something super obvious and I just missed it --- I'm willing to bet a few of you out there missed it to. If that's the case, help is on the way!
 
 {% notice %}
-#### Full Screen Zoom and Grid Indicator
+#### Full screen zoom and grid indicator
 
 The loupe shown below has been retired and replaced with a more traditional zoom tool in Paper v3. Pinching the screen now magnifies the entire canvas allowing for more room to work. As you magnify, a grid of dots appear on the screen to indicate how far you've zoomed in.
 {% endnotice %}
 
-## Why is This Important?
+## Why is this important?
 
 The [1.6 update](http://news.fiftythree.com/post/79379441335/the-paper-ios-7-update-is-here-brighter-fresher) for **Paper by FiftyThree** introduced refinements to each of the tools and their behavior inside of the loupe. The tools now scale appropriately when in zoom --- giving you finer control over line weights. The ability to paint thin strokes without the use of a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}) stylus was now possible.
 
@@ -42,7 +43,7 @@ I think you can see where I'm going with this. If you're painting a shape that f
 
 I'm a heavy user of the watercolor brush so I had to sacrifice zooming in when painting large shapes because of this. Requiring extra time with the pencil to [clean up contours and mistakes]({% post_url /mastering-paper/2014-04-21-drawing-faces %}#refining-the-contours).
 
-## Moving the Loupe
+## Moving the loupe
 
 Sorry for the long winded exposition, but I think it helps contextualize why being able to simultaneously move the loupe with one hand and paint with the other is important. So without further ado here's how to do it.
 
@@ -51,7 +52,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 3. Draw or paint as you normally would with your other hand.
 4. Move the loupe around as you paint.
 
-## Video Demonstration
+## Video demonstration
 
 {% figure caption:"A video demonstrating how to use Zoom while painting a smooth glaze." %}
 {% youtube gpz8aPXwd18 %}
@@ -60,7 +61,7 @@ Sorry for the long winded exposition, but I think it helps contextualize why bei
 The key to making this work is placing your finger on the circle **before you begin** drawing or painting. If you lift your finger off of the loupe's edge and begin drawing, you won't be able to move it until you stop touching the iPad's screen.
 
 {% notice %}
-#### ProTip: Two Handed Zoom --- Only When You Need It
+#### ProTip: two handed zoom --- only when you need it
 
 Save this two handed zoom technique for painting large shapes that require extra precision. It can be somewhat disorienting working this way and could cause you to lose perspective on the overall piece. Sometimes it's good to step back for a *larger* view.
 {% endnotice %}

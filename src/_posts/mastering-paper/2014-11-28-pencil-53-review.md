@@ -12,11 +12,12 @@ image:
   teaser: /assets/images/pencil-53-teaser.jpg
   thumbnail: /assets/images/pencil-53-thumb.jpg
 comments_locked: true
+toc: true
 ---
 
 For the last year I've been using FiftyThree's [first hardware product]({% post_url /mastering-paper/2014-11-28-pencil-53-review %}), **Pencil**. A Bluetooth stylus that was designed to work seamlessly with Paper for iPad by delivering an experience that feels closer to "the real thing" than any other styli.
 
-## Look and Feel
+## Look and feel
 
 The *Walnut* and *Graphite* finishes both look beautiful. If pressed to pick a favorite, I would probably choose Graphite, just because it feels heavier and more solid to me. But there is something nostalgic and comforting about Walnut's wooden texture that makes it a close second.
 
@@ -38,7 +39,7 @@ Similar to Paper, Pencil shares the same minimally designed aesthetic --- that m
 
 [^led-light]: A LED light does exist, but it is not visible during normal use. When the battery is plugged into a USB port an amber light can be observed as it charges. If you do need to check how much charge is left on your Pencil you can find them under Settings > Pencil in the Paper app along with a Serial Number and Firmware Version.
 
-## Just the Tip
+## Just the tip
 
 To be honest I was a little disappointed when I discovered Pencil's tip wouldn't be pressure sensitive like the one in a [Pogo Connect]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}). It took some time but with the recent addition of **Surface Pressure** to Pencil + Paper, my desire to use a Pogo Connect has completely disappeared.
 
@@ -54,14 +55,14 @@ When Pencil by FiftyThree originally launched drawing with the broadside of the 
 {% vimeo 98146708 %}
 {% endfigure %}
 
-### Is the Tip Durable?
+### Is the tip durable?
 
 Pencil's tip is by no means the most durable I've used. The longevity of the rubber that encases the 14kt gold plated tip is affected by the amount of pressure you apply and how it is held. Press hard as you draw or use the tip's point more and you're going to wear it out faster. I've had tips begin to show signs of tearing in under 5 hours and others last much much longer.
 
 These numbers are relative to the user, which makes locking in a specific number hard. Using the longer side of the tip without a doubt prolongs its age. I suggest to use that whenever filling in larger areas of color. Even if you do manage to tear through the rubber, the tips are still completely usable, albeit with some black streaking[^streaking] across the screen.
 
 {% notice %}
-#### Replacement Tips
+#### Replacement tips
 
 The good news is FiftyThree now offers replacement tips and erasers [in their shop](http://shop.fiftythree.com/). For $7.95 USD (+ shipping) you get two tips and an eraser for Pencil, which isn't too bad if you do a lot of drawing like me.
 {% endnotice %}
@@ -72,7 +73,7 @@ The good news is FiftyThree now offers replacement tips and erasers [in their sh
 ![drawing with Pencil's broadside](/assets/images/pencil-53-drawing-tip.jpg)
 {% endfigure %}
 
-## Will it Blend?
+## Will it blend?
 
 For me [Blend]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) is the most exciting thing about Pencil. Sure a ton of other *art* apps have smudging and blending tools, but they all break the creative flow in their implementations. FiftyThree has made this valuable tool fun and more true to *real* drawing by allowing you to switch between smudging and drawing in a fluid and natural way.
 
@@ -82,13 +83,13 @@ For me [Blend]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) is 
 
 If you take the time to experiment with Blend I think you'll [find it fairly sophisticated](http://making.fiftythree.com/the-precision-behind-blend/). Moving your finger slowly allows the pixels beneath to be pulled and pushed around like finger-paints. Moving your finger fast over an area slightly blurs which I've found useful in creating [depth of field effects]({% post_url /mastering-paper/2013-11-20-pencil-first-look %}) and simulating a bokeh.
 
-### Constant Pressure is the Key
+### Constant pressure is the key
 
 If you're too soft with the amount of pressure you apply to the tip while drawing, Blend may trigger inadvertently. The software is usually pretty good at figuring out when you want to Blend and corrects itself before blurring something. But if you're trying to draw lightly to preserve your Pencil tips then you and *Mr. Rewind* are going to become close friends because of it.
 
 I'm curious to learn about the experiences of others using Pencil and Blend. As my tips have broken in I've noticed a loss of springiness when pressing down, which appears to decrease Pencil's overall sensitivity --- causing smudges mid-stroke. Not sure if this is a common occurrence or a symptom of me pressing too hard on the tip. Let me know your observations below in the comments section.
 
-## What About the Eraser?
+## What about the eraser?
 
 I'm not one for erasing all that much and instead rely heavily on the Rewind gesture to undo mistakes. But for those of you who do employ the eraser tool often, you're going to love Pencil. Instead of stopping to open the tool tray, selecting the eraser, removing your mistake, and going back to a drawing tool --- you now can flip Pencil on its head and erase instantly. In combination with Surface Pressure you can get into tight to erase spots with ease --- something that is impossible to do without Pencil.
 
@@ -98,12 +99,12 @@ I'm not one for erasing all that much and instead rely heavily on the Rewind ges
 {% endfigure %}
 
 {% notice %}
-#### Erasing and Undoing Techniques
+#### Erasing and undoing techniques
 
 If you're looking for more erasing techniques you're in luck. I wrote an entire guide dedicated to [correcting and covering-up mistakes]({% post_url /mastering-paper/2014-10-25-erasing %}).
 {% endnotice %}
 
-## Palm Resters of the World Rejoice
+## Palm resters of the world rejoice
 
 Back in art school I trained my wrists to avoid resting on the canvas so I wouldn't smudge my work as I drew. For those new to using an iPad stylus --- resting your palms on the screen usually feels more natural. The problem is most apps don't do a good job of discerning between those resting touches and the ones being made with your stylus or finger. I'm happy to say FiftyThree delivers on the following promise:
 
@@ -111,7 +112,7 @@ Back in art school I trained my wrists to avoid resting on the canvas so I would
 
 In my tests I had no issues drawing with my palms resting on the iPad's screen. All of the gestures worked just fine without causing stray marks: opening the zoom loupe, rewinding mistakes, flipping through pages, and closing the tool tray.
 
-## App Compatibility
+## App compatibility
 
 FiftyThree has made available a [SDK for Pencil](http://www.fiftythree.com/sdk) that other apps[^sdk-apps] can take advantage of. The first app to use the SDK was Procreate, which just so happens to be my second in command behind Paper. The current version of Procreate supports all of the same features as Paper with the exception of Surface Pressure.
 
@@ -123,7 +124,7 @@ Palm rejection works to eliminate stray marks, but I did notice that you will so
 
 [^sdk-apps]: The following iOS apps are compatible with Pencil's unique set of features: [Procreate](https://itunes.apple.com/us/app/procreate/id425073498?mt=8&ign-mpt=uo%3D4&at=1l3v9Qw&ct=sdk-procreate), [Noteshelf](https://itunes.apple.com/us/app/noteshelf-notes-pdf/id392188745?mt=8&at=1l3v9Qw&ct=sdk-noteshelf), and Squiggle (coming soon).
 
-## Final Thoughts on Pencil
+## Final thoughts on Pencil
 
 I'm interested to see where FiftyThree continues to take Pencil as it and Paper evolve. I'd really like to see Blend get some additional love and offer even more variation in the way that it smudges. So many possibilities...
 
@@ -159,7 +160,7 @@ I'm interested to see where FiftyThree continues to take Pencil as it and Paper 
   </div>
 </div>
 
-## Additional Resources
+## Additional resources
 
 - [Mastering Pencil by FiftyThree Guide]({% post_url /mastering-paper/2015-06-24-pencil %})
 - [My iPad stylus recommendations](/faqs/stylus-recommendations/)

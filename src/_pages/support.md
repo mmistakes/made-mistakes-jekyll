@@ -1,13 +1,14 @@
 ---
 permalink: /support/
 title: "Show your support"
-last_modified_at: 2018-06-25T10:14:05-04:00
+last_modified_at: 2018-11-07T08:36:34-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here's how to show your thanks and motivate me to create more of it."
+toc: true
 ---
 
 The tutorials, Jekyll themes, and other articles I publish have been a true labor of love for me. If you've found any of this content useful here's how to show your thanks and motivate me to create more.
 
-## Send a Donation
+## Send a donation
 
 If you'd like to send a donation my way so I can continue to provide free content and themes --- hit one of the buttons below. I accept PayPal, Square Cash, and Bitcoin: [`1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw`](/assets/images/bitcoin-qr.png "Bitcoin QR code").
 
@@ -19,7 +20,7 @@ If you'd like to send a donation my way so I can continue to provide free conten
   <a href="/assets/images/bitcoin-qr.png" onclick="ga('send', 'event', 'link', 'click', 'Send Bitcoin');" class="btn" title="1KvHBVXcbeWhwcSRJQdcwVsUZBYnyH5enw">Send Bitcoin</a>
 </div>
 
-## Buy Something
+## Buy something
 
 If you shop on [Amazon.com](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS), using my referral link below will earn me a small commission if you end up buying something. I also maintain an Amazon Wish List if you are feeling extra generous. :wink:
 
@@ -32,11 +33,11 @@ If you shop on [Amazon.com](https://www.amazon.com/?_encoding=UTF8&camp=1789&cre
   </a>
 </div>
 
-## Spread the Word
+## Spread the word
 
 Have a website or use social networking sites like Twitter, Facebook, Google+, Tumblr, or Pinterest? Please consider sharing the content found on **Made Mistakes** or linking to <https://mademistakes.com>
 
-## Follow Me on Social Media
+## Follow me on social media
 
 I post infrequently on social media --- I'm not the type to barf out a stream of rants and retweets in quick succession. Posts are typically speed painting videos, web design and development tidbits, sarcastic remarks, and photographic fragments from what little life I live.
 
@@ -47,21 +48,20 @@ If these sorts of things interest you, follow along on:
 - [GitHub](https://github.com/mmistakes)
 - [YouTube](https://www.youtube.com/user/anotherjpeg)
 - [Facebook](https://www.facebook.com/michaelrose)
-- [Google+](https://plus.google.com/+MichaelRoseDesign/posts)
 
-## Subscribe to the Feeds
+## Subscribe to the feeds
 
 The main feed[^feed] for everything on Made Mistakes.
 
 - Atom: [{{ 'atom.xml' | relative_url }}]({{ 'atom.xml' | relative_url }})
 - JSON: [{{ 'feed.json' | relative_url }}]({{ 'feed.json' | relative_url }})
 
-### Topic Only Feeds
+### Feeds by topic
 
-- Articles: [{{ 'articles.xml' | relative_url }}]({{ 'articles.xml' | relative_url }})
-- Paper by FiftyThree Tutorials: [{{ 'mastering-paper.xml' | relative_url }}]({{ 'mastering-paper.xml' | relative_url }})
-- PaperFaces iPad Portraits: [{{ 'paperfaces.xml' | relative_url }}]({{ 'paperfaces.xml' | relative_url }})
-- Procreate iPad Paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
-- Today I Learned Posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
+- Blog articles: [{{ 'articles.xml' | relative_url }}]({{ 'articles.xml' | relative_url }})
+- Paper for iOS tutorials: [{{ 'mastering-paper.xml' | relative_url }}]({{ 'mastering-paper.xml' | relative_url }})
+- PaperFaces iPad portraits: [{{ 'paperfaces.xml' | relative_url }}]({{ 'paperfaces.xml' | relative_url }})
+- Procreate iPad paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
+- Today I learned posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
 
 [^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.

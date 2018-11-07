@@ -12,6 +12,7 @@ image:
   thumbnail: /assets/images/animal-crossing-me-wendy-thumb.jpg
 categories: [articles]
 tags: [Nintendo, Wii, video games, review]
+toc: true
 ---
 
 Some things get better and some things never change. Going in I knew **Animal Crossing: City Folk** (for the Nintendo Wii) would be remaining mostly unchanged from its predecessor AC: Wild World on the DS. But frankly I didn't care and wanted to try it out for myself even after reading a few lackluster reviews. What really surprised me after playing was how it was able to hook me in...again. Which is pretty admirable seeing how it's the same damn game I've played TWICE before.
@@ -20,7 +21,7 @@ The *Animal Crossing* series has always been able to take boring tasks like payi
 
 The following are some of the additions and changes to the series that have for the most part won me over.
 
-## How You Play
+## How you play
 
 In the Gamecube and DS versions, *time traveling* or TT was frowned upon. If you forgot to save before turning off your game or if you changed the internal clock, Resetti would popup and drone on about the ill effects of not saving properly. TT'ing was mostly used to make money quick with the drawback of having a ton of weeds and bugs in your house to deal with after.
 
@@ -38,7 +39,7 @@ If you don't have access to the internet, but do have a DS, you can take your ch
 
 At first I thought you could transfer your save from the Wii to a SD card and visit this way (similar to the Gamecube game). But sadly you can't since the save is locked to your console. Although if you installed the Homebrew Channel there are tools that let you transfer it and then edit your town data on a PC. Browsing around on YouTube I found a ton of crazy looking towns and glitches going on. While it might be fun to tinker with your town, I don't really see the point if you want to get the most enjoyment out of Animal Crossing. Getting rich quick and having all the rare stuff right away defeats the purpose of playing the game. Meh...
 
-## The Town Stuff
+## The town stuff
 
 For the most part everything functions and looks like it did in Wild World. The exceptions being you can now have a fountain, windmill (helps with perfect town status), or lighthouse (helps bring in rare fish) built by donating enough bells to the town fund.
 
@@ -54,11 +55,11 @@ Another small change is the floating balloons that appear randomly during the da
 
 A feature I thought was cool at first has caused quite the uproar in the AC community. Walking the same route daily will wear the grass or snow away, leaving a dirt path in its wake. The effects aren't obvious until you quit for the day, but the ground does wear away and look like sand. The developers thought this would help visiting friends find their way through your town. At first I thought it might grow back, but I'm pretty sure it doesn't. Lame.
 
-## Controlling Stuff
+## Controlling stuff
 
 Using the Wiimote and nun-chuck combo is so much better than the DS d-pad and stylus combo. My hands no longer cramp from holding the DS and playing for long periods of time. Drawing patterns with a Wiimote kind of sucks, but what can you do. A select all button for quicker Nook transactions would have been nice too.
 
-### USB Keyboard Support
+### USB Keyboard support
 
 If you plug in any USB keyboard it is instantly recognized by the Wii and allows you to type letters or chat with friends quickly. The function keys are mapped to your Dr. Shrunk emotions as well, which is convenient if you want to emote anger in a hurry.
 
@@ -66,7 +67,7 @@ If you plug in any USB keyboard it is instantly recognized by the Wii and allows
 ![I'm so wet](/assets/images/animal-crossing-im-so-wet.jpg)
 {% endfigure %}
 
-### Hidden Commands
+### Hidden commands
 
 Pressing the 1 button on the Wiimote takes a screenshot and then you can transfer it to a SD card or post it to your Wii Message board to send to friends. Trying to take photos of the screen with a camera while struggling to keep the action in focus is a thing of the past. Now you can document all the inappropriate catch phrases and greetings your neighbors' say or rare Gyroids you may discover.
 
@@ -74,7 +75,7 @@ Pressing the 1 button on the Wiimote takes a screenshot and then you can transfe
 ![Constellations](/assets/images/animal-crossing-constellations.jpg)
 {% endfigure %}
 
-## To the City
+## To the city
 
 For the most part the City is a :zzz: fest. You can visit Dr. Shrunk and pay 800 bells to learn a new emotion (you can hold up to four at a time).
 
@@ -100,7 +101,7 @@ I get it --- Nintendo wants to keep it family friendly and safe by sticking with
 
 {% youtube aF78u3LQduw %}
 
-### Removed Wild World Features?
+### Removed Wild World features?
 
 I haven't come across these yet so I'm not sure if they were removed or what.
 
@@ -108,7 +109,7 @@ I haven't come across these yet so I'm not sure if they were removed or what.
 *	Missing cats that randomly need finding.
 *	Bottled messages that wash up on your beach.
 
-## Closing Thoughts
+## Closing thoughts
 
 I wonder with Microsoft trying to make the Xbox 360 appeal to the casual gamer, if they will ever create a true Animal Crossing clone? When **Viva Pinata** came out I thought that maybe it was their answer to Animal Crossing. Well not really seeing how all the fun stuff in Animal Crossing was nowhere to be found in Viva Pinata. I can only hope they're working on a true rip-off of the Animal Crossing franchise that has full avatar support and is backed by Xbox Live's excellent online experience. Oh and lots of achievements... damn that would be an amazing game.
 

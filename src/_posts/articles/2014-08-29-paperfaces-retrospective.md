@@ -12,6 +12,7 @@ image:
 categories: [articles]
 tags: [drawing, illustration, 365 project, Paper by 53, iPad]
 comments: false
+toc: true
 ---
 
 *Drawing a day* projects are a lot like resolutions made for the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
@@ -23,7 +24,7 @@ Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url 
 [![last PaperFaces portrait?](/assets/images/paperfaces-veganwendy-2-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-2-twitter.jpg)
 {% endfigure %}
 
-## How Did I Do It?
+## How did i do it?
 
 I'm not going to lie, finding the motivation to create something every day is incredibly difficult. Even with the proper motivation, making yourself available can be even more challenging. I'm proof that it can be done while working a full time job, fulfilling husbandly duties, caring for a set of twins, and maintaining healthy eating and sleeping habits.
 
@@ -33,21 +34,21 @@ I'm not going to lie, finding the motivation to create something every day is in
 ![Drawing Everly with Pencil by 53](/assets/images/paperfaces-retro-01.jpg)
 {% endfigure %}
 
-### Form a Routine
+### Start a routine
 
 Having a routine and sticking to it was the key to hitting my goal. After a month I settled into a daily habit of putting the twins to bed and then drawing for an hour. Making time became more natural as my mind and body got used to this schedule.
 
-### Share It
+### Share it
 
 Making my project and efforts public was another huge reason I kept at it for so long. With each new follower or portrait request came an increase in pressure to continue on. I suppose this could have affected me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
 
 {% notice %}
-#### Set a Goal
+#### ProTip: Set a goal
 
 Don't start a 365 project just for the sake of starting one. Having a clear objective of what you want to get out of it will help focus and motivate you to continue on. I wanted to improve my drawing skills and drawing random people from the internet became a way for me to do that.
 {% endnotice %}
 
-### Take a Step Back
+### Take a step back
 
 On their own these faceless drawings weren't all that interesting, but assembled together like **Voltron** in [Moleskine book]({% post_url /mastering-paper/2013-11-08-moleskine-book %}) and [gallery](/paperfaces/) forms they became *something stronger*. A quality that is easy to miss when you have your head down, focused only on the drawing at hand.
 
@@ -55,7 +56,7 @@ On their own these faceless drawings weren't all that interesting, but assembled
 [![Photograph of a PaperFaces drawing](/assets/images/paper-53-book-wendy.jpg)](/assets/images/paper-53-book-wendy-lg.jpg)
 {% endfigure %}
 
-### Keep It Fun
+### Keep it fun
 
 The last thing anyone wants to do is make more work for themselves. To avoid turning this into a chore I created artificial limits for the project:
 
@@ -63,7 +64,7 @@ The last thing anyone wants to do is make more work for themselves. To avoid tur
 - Omit anything that takes too long to complete, *e.g. drawing facial features*.
 - Chose subject matter that is varied and keep you interested, *e.g. a new face every day*.
 
-### Keep It Challenging
+### Keep it challenging
 
 Easy and simple can turn boring in a hurry. The challenge of capturing portraits with Paper is was what originally attracted me to the app. When I first started there were only a handful of colors to choose from and no [zoom][loupe-tutorial] or [Blend][blend-first-look] features. It was during this time that I grew the most as a creator, learning how to push the tools through experimentation and practice.
 

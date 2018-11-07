@@ -6,6 +6,7 @@ image:
   teaser: /assets/images/iphone-4-teaser.jpg
 categories: [articles]
 tags: [iPhone, Apple, Palm Pre, review, tech geek]
+toc: true
 ---
 
 {% figure caption:"My smartphone progression over the years." %}
@@ -16,7 +17,7 @@ Being a longtime Palm user *(see picture above)*, I've come to rely on core func
 
 With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS and iPhone 4 mobile device. The following are some of my experiences and observations transitioning from Palm after nearly 10 years of use.
 
-## iPhone 4 Hardware Impressions
+## iPhone 4 hardware impressions
 
 *	iPhone 4 is solid, feels great in your hand, and the screen is extra crispy and responsive. The Pre was awfully good at lagging with incoming phone calls or not responding to taps.
 *	Reception was crap in my house until I realized I was "[holding it wrong](http://www.engadget.com/2010/06/24/apple-responds-over-iphone-4-reception-issues-youre-holding-th/)."
@@ -26,7 +27,7 @@ With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS a
 *	Doesn't become a hot potato when making calls in areas with poor reception, something I can't say about the Pre.
 *	I don't miss having a physical keyboard. Really enjoying using it in one hand.
 
-## iPhone 4 Software Likes
+## iPhone 4 software likes
 
 *	Having 4 years to polish iOS really shows. No lagging --- applications open fast, and scrolling is smooth like butter. Sup webOS and Android?
 *	There really is an app for everything. Sure if you look hard enough at webOS homebrew you're likely to find what you want, but the polish and attention to detail just aren't there. Most apps feel like a proof of concept rather than a finished consumer ready product.
@@ -36,7 +37,7 @@ With that in mind I've decided to leave Palm and webOS in favor of Apple's iOS a
 *	Mail does threaded messages --- thank you.
 *	Virtual keyboard is awesome. Thought I'd hate typing on a screen, but it works so much better than having to slide out a keyboard to fire off quick replies.
 
-## iPhone 4 Software Dislikes
+## iPhone 4 software dislikes
 
 *	Syncing contacts, email, and social media from the cloud is pretty weak. Sure you can link *Facebook* data to contact entries or use *Google Sync* via Microsoft Exchange to push Gmail/calendars/contacts, but they each have some issues. webOS does it much better and with less effort.
 *	Notifications are weak and obtrusive. Palm nailed it in webOS and easily has the best implementation out there. webOS notifications have nice visual cues and are stackable allowing you to act on them in whatever order you want.
