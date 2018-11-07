@@ -109,8 +109,12 @@
   .copyright {
     font-family: $monospace-font;
 
-    .icon {
-      margin-left: 0.5em;
+    p {
+      margin-bottom: 0;
+    }
+
+    a + a {
+      margin-left: 1em;
     }
   }
 }
