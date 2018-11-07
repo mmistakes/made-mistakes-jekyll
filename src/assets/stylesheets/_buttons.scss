@@ -20,6 +20,7 @@
   &:hover {
     background-color: tint($accent-color, 20%);
     color: #fff;
+    text-decoration: none;
   }
 
   &:visited {
