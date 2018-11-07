@@ -4,6 +4,10 @@
 
 html {
   font-size: #{$base-font-size + '%'};
+
+  @include breakpoint($xl-up) {
+    font-size: #{$base-font-size * 1.125 + '%'};
+  }
 }
 
 * {
