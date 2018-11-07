@@ -25,7 +25,7 @@
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string: 'ordinal', 'US' }}</time>
     </span>
     {% if page.comments == true and site.data.comments[page.slug].size > 0 %}
-      <span class="page__comments-count"><a href="#comments">{{ site.data.comments[page.slug] | size }}&nbsp;Comment{% if site.data.comments[page.slug].size > 1 %}s{% endif %}</a></span>
+      <span class="page__comments-count"><a href="#comments">{{ site.data.comments[page.slug] | size }}&nbsp;comment{% if site.data.comments[page.slug].size > 1 %}s{% endif %}</a></span>
     {% endif %}
   </div>
 {% endif %}
