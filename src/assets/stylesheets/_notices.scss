@@ -5,7 +5,8 @@
 .notice {
   position: relative;
   min-height: 1em;
-  margin: 1em 0;
+  @include margin-top(1);
+  @include margin-bottom(1);
   padding: 1em 1.5em 1.5em;
   border: 2px solid;
   box-shadow: 0.25em 0.25em 0 #000;
