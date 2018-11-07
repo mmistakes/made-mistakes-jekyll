@@ -141,8 +141,12 @@
   h4,
   h5,
   h6 {
-    @include margin-top(3);
+    @include margin-top(2);
     @include margin-bottom(1);
+
+    @include breakpoint($md-up) {
+      @include margin-top(3);
+    }
   }
 
   > h2,
@@ -206,6 +210,12 @@
     margin-right: 0.5rem;
     padding: 0;
     font-size: 0.9em;
+  }
+}
+
+.page__toc {
+  @include breakpoint($md-down) {
+    display: none;
   }
 }
 
