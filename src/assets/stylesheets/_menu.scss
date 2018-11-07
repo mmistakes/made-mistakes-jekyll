@@ -65,12 +65,17 @@
 
 .menu-item {
   font-family: $sans-serif-font;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 700;
-  @include line-height(2);
+  @include line-height(1.5);
   opacity: 0;
   transform: translateX(-1rem);
   transition: all 0.5s;
+
+  @include breakpoint($md-up) {
+    font-size: 2em;
+    @include line-height(2);
+  }
 
   &.is--moved {
     opacity: 1;
