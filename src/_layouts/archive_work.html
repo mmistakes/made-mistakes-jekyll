@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign layout = page.layout %}
 {% assign sorted_entries = site.work | sort: 'order' %}
 {% include page-intro.html %}
 
