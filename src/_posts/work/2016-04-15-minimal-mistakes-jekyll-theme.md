@@ -29,8 +29,9 @@ breadcrumbs:
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true
-order: 8
+toc: true
 support: true
+order: 8
 ---
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server. 
@@ -41,7 +42,7 @@ Includes responsive layouts (`single`, `archive`, and `splash` pages) that look 
   <a href="https://mmistakes.github.io/minimal-mistakes/" onclick="ga('send', 'event', 'link', 'click', 'Preview Minimal Mistakes');" class="btn">Live Preview</a>
 </p>
 
-## Theme Features:
+## Theme features
 
 - Compatible with GitHub Pages
 - Several layout options (single, archive, splash pages)

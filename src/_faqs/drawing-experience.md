@@ -1,7 +1,7 @@
 ---
 title: "How long have you been drawing for?"
 type: other
-last_modified_at: 2015-03-12T09:30:15-04:00
+last_modified_at: 2018-11-07T10:07:51-05:00
 order: 2
 ---
 
@@ -13,11 +13,10 @@ After four years of high school art I kept at it when dual majoring in both Grap
 
 After earning my bachelor's degree, drawing took a back seat as I started a career in print and web design. Finding ways to incorporate technology into my life has been a passion of mine ever since playing with my first [Apple IIe](http://en.wikipedia.org/wiki/Apple_IIe). Helps explain why I was attracted to digital design which relies heavily on technology and computers compared to the fine arts.
 
-<figure>
-  <img src="{{ site.url }}/assets/images/ipad-drawing-paper-by-53.jpg" alt="drawing with Pencil stylus on iPad">
-  <figcaption>Drawing on iPad using FiftyThree's Paper and Pencil tools.</figcaption>
-</figure>
+{% figure caption:"Drawing on iPad with Paper for iOS." %}
+![drawing with Pencil stylus on iPad](/assets/images/ipad-drawing-paper-by-53.jpg)
+{% endfigure %}
 
 It wasn't until I purchased my first iPad did I become interested in drawing again --- after a 10 year hiatus! For me, the convenience of drawing digitally, on a tablet I can take anywhere, is extremely appealing. The luxury of being able to disappear into a studio and work by myself is not one I can afford these days, especially with two little ones running around the house.
 
-Working digitally I can now sit in the living room with my family, sketch on iPad, and help keep an eye on [the twins]({{ site.url }}/tag/twins/). It's not quite the same experience as working with real pencils, paints, and inks, but [Paper by FiftyThree](http://www.fiftythree.com/paper) helps lessen that gap.
+Working digitally I can now sit in the living room with my family, sketch on iPad, and help keep an eye on [the twins]({{ site.url }}/tag/twins/). It's not quite the same experience as working with real pencils, paints, and inks, but [Paper for iOS](http://www.fiftythree.com/paper) helps lessen that gap.

@@ -6,7 +6,8 @@ image:
   cover: /assets/images/jekyll-static-files-cover.jpg
 categories: [til]
 tags: [web development, Jekyll]
-last_modified_at:
+toc: true
+last_modified_at: 2018-11-07T10:40:54-05:00
 ---
 
 While investigating ways of using static files with Jekyll for a site prototype I was building, I learned that `site.static_files` was a thing. What is it and why you should care? Let me take a minute to share...
@@ -15,7 +16,7 @@ According to the official [Jekyll documentation](https://jekyllrb.com/docs/stati
 
 **The useful bit** --- every one of these static files becomes accessible to Jekyll when looping through `site.static_files`. There aren't many reasons why you'd want to do this, but if building "plugin-free" image galleries is one of them --- here's how.
 
-## Organize Static Files
+## Organize static files
 
 Let's say you have a folder (named `gallery-1`) of images you want to display together on a post or page.
 
@@ -28,7 +29,7 @@ Let's say you have a folder (named `gallery-1`) of images you want to display to
 │           └── yaz.png
 ```
 
-## Start a Loop
+## Start a loop
 
 Using [Liquid](https://shopify.github.io/liquid/)[^liquid] you'd start by looping through `site.static_files` and then narrow down the files based on their paths. In this case we only want to show those images that live together in `assets/images/gallery-1`.
 
@@ -50,7 +51,7 @@ Which will generate into the following HTML:
 <img src="assets/images/gallery-1/yaz.png" alt="">
 ```
 
-## Build an Image Gallery with Liquid
+## Build an image gallery with Liquid
 
 What if you'd rather spit out a group of thumbnail[^thumbnail] images that link to a full-size version? Completely achievable using the above method --- if you are careful to name these files in a predictable way.
 
@@ -95,12 +96,12 @@ Now you may be wondering where `basename` and `extname` came from... simple. Eac
 | `file.extname`       | The extension name for the file, e.g. `.jpg` for `image.jpg` |
 
 {% notice %}
-#### Note: Filename Consistency is Paramount
+#### Note: filename consistency is paramount
 
 Using this method to build a gallery of thumbnail images is fragile. The `image` objects inside of these loops are not validated by Jekyll at all. If you call in paths that don't exist it will silently fail and leave you with missing images on the page.
 {% endnotice %}
 
-## Feedback and Improvements
+## Feedback and improvements
 
 In the end looping through `site.static_files` became an easy way spitting out a folder of files without having to hard code `<img>` elements.  Sure there are a million different ways to do this with Jekyll, but this served a need and was a quick hack.
 

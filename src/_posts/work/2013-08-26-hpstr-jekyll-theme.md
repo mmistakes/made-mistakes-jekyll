@@ -19,8 +19,9 @@ breadcrumbs:
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true
-order: 9
+toc: true
 support: true
+order: 9
 ---
 
 They say three times the charm, so here is another free Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
@@ -45,7 +46,7 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
   <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
 </div>
 
-## What's Different with this Jekyll Theme?
+## What's different with this Jekyll theme?
 
 This time around I wanted to see how much of the "branding"[^2] I could remove and deemphasize to make the content sing in contrast. The primary way I went about doing this was by down playing anything that wasn't part of a post or page's content. Collapsing the blog's navigation behind a drop down was one way I slimmed the header, to get at the content quicker.
 
@@ -53,7 +54,7 @@ On desktops and tablets (horizontal orientation) the menu is placed in the top l
 
 Everything that isn't `#main` I view as support content--- living one step down from a post or page in the overall hierarchy. In the case of author bylines, post dates, and social sharing links, I used a light gray color to push these elements back, and pull the main content forward. Related posts and comments are sectioned off just enough from the main to keep them connected but visually separated.
 
-### Grunt Build Script for Development
+### Grunt build script for development
 
 Up until this point I've mostly used tools like [CodeKit](http://incident57.com/codekit/) and [Prepros](https://prepros.io/) to compile my LESS stylesheets and concatenate scripts. Flirting with Grunt on a few personal projects, I wanted to integrate it into this theme as a build tool for messing with the theme's stylesheets.
 
@@ -69,7 +70,7 @@ There are some [Jekyll Grunt plugins](https://github.com/dannygarcia/grunt-jekyl
 Grunt is no longer needed to build `main.css`. I've ported all of the Less stylesheets over to Sass to utilize Jekyll's built-in support for preprocessing .scss files. Updating most colors and fonts is as easy as changing a few values in `_sass/_variables.scss` and running `jekyll build` (or deploying to GitHub if you host there).
 {% endnotice %}
 
-### Social Sharing Links
+### Social sharing links
 
 Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Google I went with lightweight share links. Social sharing links are enabled by default on all posts and pages. To disable add `share: false` to the post's YAML Front Matter.
 

@@ -1,5 +1,5 @@
 ---
-title: "A PaperFaces retrospective"
+title: "PaperFaces retrospective"
 excerpt: "A look back at two years of drawing over 800 portraits using an iPad and Paper for iOS."
 last_modified_at: 2018-03-22T10:47:26-04:00
 image: 
@@ -43,7 +43,7 @@ Having a routine and sticking to it was the key to hitting my goal. After a mont
 Making my project and efforts public was another huge reason I kept at it for so long. With each new follower or portrait request came an increase in pressure to continue on. I suppose this could have affected me in a negative way, but I decided to look at them as positive reinforcements --- small nudges to keep me from slacking.
 
 {% notice %}
-#### ProTip: Set a goal
+#### ProTip: set a goal
 
 Don't start a 365 project just for the sake of starting one. Having a clear objective of what you want to get out of it will help focus and motivate you to continue on. I wanted to improve my drawing skills and drawing random people from the internet became a way for me to do that.
 {% endnotice %}
@@ -77,15 +77,13 @@ Easy and simple can turn boring in a hurry. The challenge of capturing portraits
 
 As confidence levels grew I wasn't afraid to change the rules to challenge myself. Over the course of two years I did this numerous times by straying outside my comfort zone. First major change was switching from the ink pens to the watercolor and pencil tools. The next was when I decided to move away from drawing blank faces and attempt something more realistic.
 
-## By the Numbers
+## By the numbers
 
 Initially I planned on drawing a single portrait each day for just one year. When I zipped through 365 days I decided another year wouldn't be that big of a deal and ultimately completed {{ site.categories.paperfaces | size }} finished drawings. 
 
 {% figure caption:"I've gotten through one-third of the 2,805 requests I've received on Twitter since [tweeting for volunteers](https://twitter.com/mmistakes/status/240601384477659136/) two years ago." %}
 ![Favstar.fm tweet screenshot](/assets/images/paperfaces-volunteer-tweet.jpg)
 {% endfigure %}
-
-<div id="paperfaces-chart" class="ct-chart ct-golden-section" data-chartist-example="Line"></div>
 
 Here's a breakdown of the various types of portraits I've completed.
 
@@ -117,7 +115,7 @@ And for the curious here's the various styli I've used over the two years and so
 [zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
 [cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
-## The Strange and the Unique
+## The strange and the unique
 
 When my project was picked up by a few high profile designers and developers it spread pretty far through those circles. Drawing as  many bearded dudes in flannel shirts as I have, any time something different came up I was thrilled. Here's a small sampling of my favorites from the last two years:
 
@@ -134,7 +132,7 @@ When my project was picked up by a few high profile designers and developers it 
   <li><a href="{% post_url /paperfaces/2014-03-26-marie-a-portrait %}"><img src="/assets/images/paperfaces-marie-a-150.jpg" alt=""></a></li>
 </ul>
 
-## What's Next
+## What's next
 
 After two years of doing the same thing every day it's time to mix it up. I'm not leaving the [#MadeWithPaper](https://twitter.com/search?q=%23MadeWithPaper) community or anything crazy like that, but I am shifting gears slightly.
 
@@ -144,7 +142,7 @@ Don't get me wrong, drawing strangers for the last two years has been great. But
 
 <del>And for those who missed out getting a PaperFaces portrait I'm still offering my services. Color and black & white Paper portraits can be commissioned.</del>
 
-## Thank You!
+## Thank you!
 
 The positive support I've received in the form of retweets, favs, likes, hearts, reblogs, emails, DMs, and much more --- made the days I thought about quitting tolerable. To the handful of you who supported[^support-thanks] me in the early days with donations and portrait orders I appreciate your generosity so much! And of course a HUGE THANK YOU to the team at [FiftyThree](https://fiftythree.com) for making the tools that rekindled my love for creating.
 

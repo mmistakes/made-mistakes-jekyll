@@ -19,8 +19,9 @@ breadcrumbs:
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true
-order: 11
 support: true
+toc: true
+order: 11
 ---
 
 What originally started as a site refresh quickly turned into something else when Jekyll baked in native support for Sass with a [2.0 release](http://jekyllrb.com/docs/history/#v2-0-0).
@@ -35,7 +36,7 @@ I like to think of Skinny Bones as a starter for building your own Jekyll powere
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
 </div>
 
-## Notable Features
+## Notable features
 
 * GitHub Pages compatible.
 * Stylesheets built using Sass to help theme your site with ease. *Requires Jekyll 2.x*

@@ -8,12 +8,13 @@ with [Jekyll](http://jekyllrb.com), [Gulp](http://gulpjs.com/), and
 [Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't compatible 
 with the "default" GitHub Pages workflow without substantial alterations.*
 
-### Plugins Used
+### Plugins used
 
 - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap) (GitHub Pages supported)
 - [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
 - [Jemoji](https://github.com/jekyll/jemoji)
 - [Jekyll Paginate v2](https://github.com/sverrirs/jekyll-paginate-v2)
+- [Jekyll TOC](https://github.com/toshimaru/jekyll-toc)
 
 ### Images
 
@@ -33,7 +34,7 @@ image:
   ...
 ```
 
-### Content Helpers
+### Content helpers
 
 #### Notices
 
@@ -151,7 +152,7 @@ until they're actually needed for improved page performance.
 {% lazyload data-src="/assets/images/my-image.jpg" src="/assets/images/my-image-low-quality.jpg" alt="my lazyloaded image" %}
 ```
 
-#### Responsive Video Embed
+#### Responsive video embed
 
 Embed a video from YouTube or Vimeo that responsively sizes to fit the width of 
 its parent using [`/_plugins/video_embed.rb`](src/_plugins.video_embed.rb).
@@ -175,7 +176,7 @@ post or page's main content you'd use:
 {% vimeo 97649261 %}
 ```
 
-### Local Development
+### Local development
 
 Let Jekyll do what it does best and transform your content into HTML. Asset 
 management is handled by Gulp:
@@ -224,7 +225,7 @@ Default structure (paths can be modified in `gulpfile.js` and `_config.yml`):
 ├── ...
 ```
 
-## Getting Started
+## Getting started
 
 ### Dependencies:
 
@@ -446,12 +447,9 @@ SOFTWARE.
 
 Made Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/).
 Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
+Home by Mahmure Alp from the Noun Project
 
 Made Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
-
-Made Mistakes incorporates [Susy](http://susy.oddbird.net/),
-Copyright (c) 2017, Miriam Eric Suzanne.
-Susy is distributed under the terms of the [BSD 3-clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
 
 Made Mistakes incorporates [Breakpoint](http://breakpoint-sass.com/).
 Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
