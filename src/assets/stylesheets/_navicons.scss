@@ -48,6 +48,7 @@
   &::after {
     content: '';
     position: absolute;
+    left: -0.25em;
     display: block;
     width: $navicon-width;
     height: $navicon-height;
