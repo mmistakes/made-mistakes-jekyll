@@ -1,9 +1,7 @@
 <footer id="footer" class="site__footer">
   <ul class="menu">
-    <li><a href="/about/">About</a></li>
-    <li><a href="/faqs/">FAQs</a></li>
-    <li><a href="/contact/">Contact</a></li>
     <li><a href="/support/">Support me</a></li>
+    <li><a href="/faqs/">FAQs</a></li>
     <li><a href="/terms/">Terms &amp; policies</a></li>
     <li><a href="/sitemap/">Sitemap</a></li>
   </ul>
@@ -11,7 +9,7 @@
     {% if site.copyright %}
       {{ site.copyright | markdownify }}
     {% else %}
-      <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Michael Rose.
+      <p>
         {% if site.author.twitter %}
           <a href="{{ site.author.twitter }}" rel="me">
             <svg class="icon" width="16px" height="16px">
@@ -45,6 +43,7 @@
           </a>
         {% endif %}
       </p>
+      <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Michael Rose.</p>
     {% endif %}
   </div>
 </footer>
