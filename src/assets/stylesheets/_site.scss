@@ -80,6 +80,7 @@
     flex-flow: row wrap;
     margin-bottom: 0;
     font-family: $sans-serif-font;
+    font-size: 0.9em;
     font-weight: 400;
     @include list-unstyled();
 
@@ -92,12 +93,12 @@
 
       a {
         display: block;
-        padding-bottom: 1em;
-        padding-right: 2em;
+        margin-right: 2em;
+        @include margin-bottom(0.5);
 
-        @include breakpoint($lg-up) {
-          padding-bottom: 0.5em;
-        }
+        // @include breakpoint($lg-up) {
+        //   padding-bottom: 0.5em;
+        // }
 
         &:hover {
           text-decoration: underline;
