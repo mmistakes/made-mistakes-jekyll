@@ -27,8 +27,10 @@
 }
 
 .entry__meta {
-  margin-bottom: 1em;
+  @include margin-bottom(1);
+  font-family: $monospace-font;
   font-size: 0.9em;
+  text-transform: uppercase;
 }
 
 .entry__image {
