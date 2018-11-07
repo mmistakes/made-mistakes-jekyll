@@ -69,7 +69,7 @@ reCaptcha:
 
 # Jekyll configuration
 permalink                : /:categories/:title/
-lsi                      : false
+lsi                      : true
 future                   : false
 show_drafts              : false
 markdown                 : kramdown
