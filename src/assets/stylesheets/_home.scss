@@ -5,7 +5,6 @@
 .home {
   @include breakpoint($md-down) {
     .site__header,
-    .menu,
     .site__footer {
       margin-left: 5%;
       margin-right: 5%;
