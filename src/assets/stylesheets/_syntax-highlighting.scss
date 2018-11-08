@@ -8,6 +8,7 @@
   background: #f2f2f2;
   border-radius: 0.125em;
   white-space: normal;
+  font-size: 0.8em;
 }
 
 div.highlighter-rouge,
@@ -20,6 +21,7 @@ figure.highlight {
   color: $base05;
   background: $base00;
   font-family: $monospace-font;
+  font-size: 0.8em;
 
   @include breakpoint($md-up) {
     margin-left: 0;

@@ -29,7 +29,7 @@
 .entry__meta {
   @include margin-bottom(0.5);
   font-family: $monospace-font;
-  font-size: 0.9em;
+  font-size: 0.8em;
   text-transform: uppercase;
 
   *:not(:first-child) {

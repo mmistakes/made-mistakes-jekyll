@@ -45,7 +45,7 @@
 .author {
   align-self: flex-start;
   font-family: $monospace-font;
-  font-size: 0.9em;
+  font-size: 0.8em;
 
   @include breakpoint($md-up) {
     @include margin-bottom(1);
@@ -62,7 +62,7 @@
   @include margin-top(4);
   @include margin-bottom(1);
   color: mix(#fff, $text-color, 40%);
-  font-size: 0.9em;
+  font-size: 0.8em;
 
   @include breakpoint($md-up) {
     grid-column: 3 / 8;
@@ -80,7 +80,6 @@
     flex-flow: row wrap;
     margin-bottom: 0;
     font-family: $sans-serif-font;
-    font-size: 0.9em;
     font-weight: 400;
     @include list-unstyled();
 
@@ -95,10 +94,6 @@
         display: block;
         margin-right: 2em;
         @include margin-bottom(0.5);
-
-        // @include breakpoint($lg-up) {
-        //   padding-bottom: 0.5em;
-        // }
 
         &:hover {
           text-decoration: underline;
