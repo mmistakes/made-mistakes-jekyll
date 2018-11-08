@@ -48,3 +48,32 @@
     content: ' […]';
   }
 }
+
+.entries__columns {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @include breakpoint($md-up) {
+    display: grid;
+    grid-column-gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint($lg-up) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    border-bottom: 1px solid $border-color;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25em 0;
+    text-decoration: none;
+  }
+
+  .count {
+    color: mix(#fff, $text-color, 25%);
+  }
+}

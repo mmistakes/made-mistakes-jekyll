@@ -9,7 +9,7 @@ share: false
 
 {{ page.excerpt | markdownify }}
 
-<ul class="entries-columns">
+<ul class="entries__columns">
   {% assign sorted_tags = site.tags | sort_tags_by_name %}
   {% for tag in sorted_tags %}
     <li>
