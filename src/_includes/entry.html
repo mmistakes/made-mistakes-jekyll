@@ -12,7 +12,7 @@
       {% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}
     {% endif %}
     {% if post.date and layout != 'archive_work' %}
-      &middot; <time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string: 'ordinal', 'US' }}</time>
+      <time class="entry__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string: 'ordinal', 'US' }}</time>
     {% endif %}
   </div>
   {% if feature_image %}

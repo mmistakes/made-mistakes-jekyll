@@ -31,6 +31,12 @@
   font-family: $monospace-font;
   font-size: 0.9em;
   text-transform: uppercase;
+
+  *:not(:first-child) {
+    &::before {
+      content: ' · ';
+    }
+  }
 }
 
 .entry__image {
