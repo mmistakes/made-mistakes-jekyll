@@ -22,12 +22,12 @@ section:
         url: "/articles/"
   - title: "Work portfolio"
     class: "section__inverse section__work"
-    image: /assets/images/procreate-paintings-feature.jpg
+    image: /assets/images/procreate-paintings-glitched-feature.jpg
     introduction: |
       A hand-picked selection of things I've designed, illustrated, and developed.
     actions:
       - label: "see more →"
         url: "/work/"
 ads: false
-last_modified_at: 2018-11-06T16:25:31-05:00
+last_modified_at: 2018-11-07T18:49:45-05:00
 ---

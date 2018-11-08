@@ -1,15 +1,13 @@
 ---
 layout: archive
 title: "Jekyll themes"
-excerpt: "Open source Jekyll themes to get you started with hosting a site with GitHub Pages --- for free!"
+excerpt: "Open source Jekyll themes to get you started with hosting a site with GitHub Pages, Netlify, GitLab, and more for free."
 last_modified_at: 2018-02-06T11:13:09-05:00
 image: 
-  path: &image /assets/images/jekyll-themes-feature.png
-  width: 1600
-  height: 379
+  path: &image /assets/images/jekyll-themes-feature.jpg
+  width: 1920
+  height: 793
   feature: *image
-  thumbnail: /assets/images/jekyll-themes-thumb-250x250.png
-  teaser: /assets/images/jekyll-themes-teaser.png
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 order: 1
