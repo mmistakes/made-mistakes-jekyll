@@ -11,7 +11,7 @@ image:
 categories: [articles]
 tags: [business cards, design, Michael Rose]
 support: false
-last_modified_at: 2017-12-12T16:28:35-05:00
+last_modified_at: 2018-11-07T20:06:19-05:00
 ---
 
 Pretty much the only reason I created an About.me page was to get free customized business cards printed by Moo.
@@ -27,5 +27,3 @@ If you weren't aware --- [About.me](https://about.me) is a custom profile and pe
 {% figure caption:"Screenshot of my About.me page that I created in a whole 5 minutes." %}
 [![Screenshot of my about.me page](/assets/images/michael-rose-about-me-620x349.jpg)](https://about.me/michael.rose)
 {% endfigure %}
-
-To take advantage of the [free stack of business cards](https://about.me/offers) (technically it's not free --- shipping costs $5.50), just hit up the *offers section* in your About.me dashboard to place an order. You can import all your info and design elements or start from scratch and customize everything.

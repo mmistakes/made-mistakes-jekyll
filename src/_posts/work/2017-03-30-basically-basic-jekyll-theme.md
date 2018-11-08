@@ -54,4 +54,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE.md).
+This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE).

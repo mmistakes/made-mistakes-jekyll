@@ -9,7 +9,7 @@ tags: [web development, Kramdown, Markdown, Jekyll]
 last_modified_at: 2017-09-08T10:33:53-04:00
 ---
 
-The question of how to write a list inside of a table cell with [**Kramdown**](http://kramdown.gettalong.org/) recently came up in a thread on [Jekyll Talk](https://talk.jekyllrb.com/) --- prompting me to look for a solution.
+The question of how to write a list inside of a table cell with [**Kramdown**](http://kramdown.gettalong.org/) recently came up in a thread on [Jekyll Talk](http://talk.jekyllrb.com/) --- prompting me to look for a solution.
 
 Unfortunately something like this doesn't work:
 

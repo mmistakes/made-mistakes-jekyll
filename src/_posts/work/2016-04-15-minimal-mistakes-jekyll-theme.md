@@ -61,4 +61,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt).
+This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE).
