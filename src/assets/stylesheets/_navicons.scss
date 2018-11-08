@@ -15,12 +15,17 @@
   transition: $navicon-duration / 2;
   user-select: none;
 
+  &:focus {
+    outline: none;
+  }
+
   .navicon::before,
   .navicon::after {
     transition-duration: $navicon-duration / 2;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     transition-duration: $navicon-duration;
 
     .navicon::before,
