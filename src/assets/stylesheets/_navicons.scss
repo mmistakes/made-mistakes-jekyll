@@ -34,10 +34,10 @@
     }
 
     .navicon::before {
-      top: (2.5 * $navicon-height);
+      left: 0;
     }
     .navicon::after {
-      top: (-2.5 * $navicon-height);
+      left: 0;
     }
   }
 }
