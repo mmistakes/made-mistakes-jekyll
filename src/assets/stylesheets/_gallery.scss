@@ -33,7 +33,12 @@
     align-items: flex-end;
     justify-content: flex-start;
     margin: 0;
-    height: 100%
+    height: 100%;
+
+    a {
+      display: block;
+      width: 100%;
+    }
   }
 
   img {
@@ -46,10 +51,12 @@
 /* 2 Column Gallery */
 
 .gallery-2-col {
-  align-items: stretch;
-  display: grid;
-  grid-gap: 0.5em;
-  justify-items: center;
+  @supports(display: grid) {
+    align-items: stretch;
+    display: grid;
+    grid-gap: 0.5em;
+    justify-items: center;
+  }
 
   @include breakpoint($sm-up) {
     grid-template-columns: repeat(2, 1fr);
@@ -64,10 +71,12 @@
 /* 3 Column Gallery */
 
 .gallery-3-col {
-  align-items: stretch;
-  display: grid;
-  grid-gap: 0.5em;
-  justify-items: center;
+  @supports(display: grid) {
+    align-items: stretch;
+    display: grid;
+    grid-gap: 0.5em;
+    justify-items: center;
+  }
 
   @include breakpoint($sm-up) {
     grid-template-columns: repeat(3, 1fr);
@@ -83,10 +92,13 @@
 
 .gallery-thumbnails {
   @include clearfix();
-  display: grid;
-  grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   padding-left: 0; // reset
+
+  @supports (display: grid) {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
 
   li {
     float: left;

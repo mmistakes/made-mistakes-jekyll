@@ -38,9 +38,11 @@
   }
 
   .heading {
+    position: relative;
     @include margin-top(3);
     @include margin-bottom(0.5);
     align-self: flex-start;
+    width: 100%;
     color: #fff;
     font-family: $alternate-font;
     font-weight: 700;
@@ -48,6 +50,7 @@
     font-variant-ligatures: common-ligatures;
     font-feature-settings: "kern" on, "liga" on, "clig" on, "calt" on;
     line-height: 1.25;
+    z-index: 99;
 
     @include breakpoint($md-up) {
       padding-right: 5%;

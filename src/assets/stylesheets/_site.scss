@@ -183,3 +183,13 @@
     text-decoration: none;
   }
 }
+
+.custom-object-fit {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+
+  .image__outer-wrapper {
+    opacity: 0;
+  }
+}
