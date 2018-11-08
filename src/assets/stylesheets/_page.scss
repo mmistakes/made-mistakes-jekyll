@@ -154,6 +154,15 @@
     letter-spacing: -0.02em;
   }
 
+  > h2 {
+    + h2,
+    + h3,
+    + h4,
+    + h5 {
+      margin-top: 0;
+    }
+  }
+
   p {
     max-width: 35em;
   }
