@@ -168,7 +168,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-tagging-related_posts
-  jekyll-toc
+  jekyll-toc (>= 0.9.0)
   jekyll-typogrify
   jemoji (>= 0.10.1)
   rake
