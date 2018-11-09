@@ -2,7 +2,6 @@
 title: "Feeling kinda stuck in a Half Nelson"
 excerpt: "My impressions of the film Half Nelson, starring Ryan Gosling."
 image: 
-  cover: false
   path: &image /assets/images/half-nelson-feature.jpg
   width: 835
   height: 399

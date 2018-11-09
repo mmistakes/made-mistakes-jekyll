@@ -2,7 +2,6 @@
 title: RRIICCEE show last night
 excerpt: "Musically --- RRIICCEE is fine, but not something I really want to see live again."
 image: 
-  cover: false
   path: &image /assets/images/rriiccee-feature.jpg
   width: 500
   height: 293

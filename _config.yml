@@ -151,8 +151,6 @@ defaults:
       layout: post
       read_time: true
       support: true
-      image:
-        cover: true
       breadcrumbs:
         - label: "Blog articles"
           url: /articles/
@@ -168,8 +166,6 @@ defaults:
       breadcrumbs:
         - label: "Mastering Paper for iOS"
           url: /mastering-paper/
-      image:
-        cover: true
   # PaperFaces
   - scope:
       path: _posts/paperfaces

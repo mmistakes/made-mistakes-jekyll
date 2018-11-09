@@ -2,7 +2,6 @@
 title: "Easter egg marriage proposal"
 excerpt: "Two years ago on this day, I proposed to my wife Wendy by leading her on an Easter egg scavenger hunt."
 image: 
-  cover: false
   path: &image /assets/images/romance-engagement-feature.jpg
   width: 768
   height: 384

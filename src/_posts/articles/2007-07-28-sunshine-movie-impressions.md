@@ -3,7 +3,6 @@ title: "Blinded by the light --- Sunshine impressions"
 excerpt: "The film Sunshine directed by Danny Boyle is science fiction without the big bang."
 last_modified_at: 2013-04-26 00:00:00
 image: 
-  cover: false
   path: &image /assets/images/sunshine-feature.jpg
   width: 1280
   height: 640
