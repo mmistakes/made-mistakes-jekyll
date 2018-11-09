@@ -88,6 +88,7 @@ keep_files:
 include:
   - .htaccess
   - _pages
+  - _redirects
 exclude:
   - .asset-cache
   - .bundle
