@@ -305,11 +305,10 @@ algolia:
   application_id: KT124ONH1Z
   index_name: mademistakes
   search_only_api_key: 5a6e106e8083321a8ccca41b11aca95c
-  nodes_to_index: "div.page__main p,div.page__main li"
+  nodes_to_index: "p,li,blockquote"
   files_to_exclude:
     - index.html
     - index.md
-    - excluded-file.html
     - _pages/404.md
     - _pages/articles.md
     - _pages/faqs.md
