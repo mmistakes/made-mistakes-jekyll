@@ -86,7 +86,6 @@ strict_front_matter      : true
 keep_files:
   - .git
 include:
-  - .htaccess
   - _pages
   - _redirects
 exclude:
