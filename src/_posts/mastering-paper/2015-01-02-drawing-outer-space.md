@@ -1,14 +1,17 @@
 ---
-title: "Mastering Paper by FiftyThree: Drawing Outer Space"
-last_modified_at: 2017-12-14T10:22:05-05:00
-excerpt: "Learn how to draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper by FiftyThree and a Pencil stylus."
+title: "Mastering Paper for iOS: drawing outer space"
+last_modified_at: 2018-11-06T12:05:00-05:00
+excerpt: "Learn how to draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper for iOS and a Pencil stylus."
 categories: [mastering-paper]
 tags: [Paper by 53, tutorial, space, blend, Pencil by 53, stylus, iPad]
 image:
   path: &image /assets/images/paper-53-space-feature.jpg
+  width: 1280
+  height: 589
   feature: *image
   teaser: /assets/images/paper-53-space-teaser.jpg
   thumbnail: /assets/images/paper-53-space-th.jpg
+toc: true
 ---
 
 Drawing the *night sky*, *stars*, *galaxies*, *planets*, and other *celestial bodies* is a ton of fun with Paper, the iPad app by FiftyThree. Much like [drawing blue skies and clouds]({% post_url /mastering-paper/2013-09-05-drawing-clouds %}), it is very hard to screw them up if you follow a few simple guidelines.
@@ -55,8 +58,8 @@ To create smooth tones keep your finger on the screen and use circular motions t
 ![screenshot of zoomed in lightened background](/assets/images/paper-53-space-lighten-bg-2.jpg)
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Smaller Brush Sizes
+{% notice %}
+#### ProTip: smaller brush sizes
 
 When using the zoom loupe the watercolor brush's size scales down. Use this to your advantage to paint thinner strokes and fill smaller shapes.
 {% endnotice %}
@@ -92,8 +95,8 @@ If things went too dark mix a tint of blue or fuchsia (depending on where you wa
 ![lightening the blue and violet glazes with white and your finger](/assets/images/paper-53-space-lightening-glazes.jpg)
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Paint Fast with White
+{% notice %}
+#### ProTip: paint fast with white
 
 Move quickly when using a watercolor brush loaded with white. Go too slow and it'll turn pure white way too fast.
 {% endnotice %}
@@ -183,8 +186,8 @@ I'm going to speed through these next set of steps since they're exactly the sam
 ![lightening the black background with white and Pencil](/assets/images/paper-53-space-2-bg-lighten.jpg)
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Turn Pencil on Its Side for a Different Drawing Experience
+{% notice %}
+#### ProTip: turn Pencil on its side for a different drawing experience
 
 Hold Pencil on its side to move more quickly and organically through the composition.
 {% endnotice %}
@@ -222,8 +225,8 @@ Since it's pretty difficult to draw a perfect circle freehand I'm going to trace
 
 Placing the object directly on the iPad's screen, carefully trace around its edge. It may be hard to match up the lines exactly on your first go so just Rewind to undo until you get it right.
 
-{% notice info %}
-#### Update: Perfect Circles
+{% notice %}
+#### Update: perfect circles
 
 Since writing this tutorial Paper was updated with [**Think Kit**](http://www.fiftythree.com/think). Now drawing perfect lines and shapes is only a swipe away in the tool tray.
 {% endnotice %}
@@ -244,8 +247,8 @@ Using the same process as before, leave one of the planet's edges exposed as you
 
 I started to lose the shape of the circle because I was painting pretty fast. To correct it I darkened the lower left corner until it merged with the rest of the scene. Depending on what color the background is, these sorts of mistakes may be harder to cover-up.
 
-{% notice info %}
-#### ProTip: Use a Stencil if You're a Messy Painter
+{% notice %}
+#### ProTip: use a stencil if you're a messy painter
 
 To help stay in the lines a [stencil](http://www.amazon.com/gp/product/B000FPYQ14/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FPYQ14&linkCode=as2&tag=mademist-20&linkId=GLP5SABXVPYTF7PT) can be used. Simply hold it steady on the iPad's screen as you paint glazes with Pencil inside of it.
 {% endnotice %}
@@ -267,8 +270,8 @@ To correct any shape distortions that occur from smudging too much, paint in bur
 
 ![screenshot of penciling in highlights](/assets/images/paper-53-space-2-planet-edge.jpg)
 
-{% notice info %}
-#### ProTip: Smoothen Edges with a Pencil Stroke
+{% notice %}
+#### ProTip: smoothen edges with a Pencil stroke
 
 Fine pencil lines along the sides work well to redefine a bumpy or irregular shaped curve.
 {% endnotice %}
@@ -306,8 +309,8 @@ You may remember in the first part of this guide I cautioned against using the i
 ![screenshot of blended stars](/assets/images/paper-53-space-2-blended-stars.jpg)
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Simulate Glow with White Paint
+{% notice %}
+#### ProTip: simulate glow with white paint
 
 If you don't have a Pencil stylus, glowing orbs can also be created by dabbing a star with white watercolor.
 {% endnotice %}

@@ -1,9 +1,11 @@
 ---
-title: "Noise on the Grain"
+title: "Noise on the grain"
 excerpt: "Portrait of T. Steinheil digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-27T00:00:00-05:00
 image: 
   path: &image /assets/images/t-steinheil-procreate.jpg
+  width: 1600
+  height: 2400
   feature: *image
   teaser: /assets/images/t-steinheil-procreate-teaser.jpg
   thumbnail: /assets/images/t-steinheil-procreate-250.jpg

@@ -1,19 +1,22 @@
 ---
-title: "Mastering Paper by FiftyThree: Drawing Skies and Clouds"
-excerpt: "Techniques for drawing blue skies, clouds, and pretty sunsets using the iPad app Paper by FiftyThree."
-last_modified_at: 2017-12-13T11:31:54-05:00
+title: "Mastering Paper for iOS: drawing skies and clouds"
+excerpt: "Techniques for drawing blue skies, clouds, and pretty sunsets using the iPad app Paper for iOS."
+last_modified_at: 2018-11-06T11:57:52-05:00
 image: 
   path: &image /assets/images/paper-53-skies-guide-feature.jpg
+  width: 1280
+  height: 436
   feature: *image
   teaser: /assets/images/paper-53-skies-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-skies-guide-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper by 53, tutorial, drawing, painting, clouds, sky, iPad]
+toc: true
 ---
 
 Paper by FiftyThree makes painting realistic skies and clouds a breeze. If you had fun drawing trees, just wait until you fluff out happy clouds that would make Bob Ross proud. Honestly, with just a few washes of watercolor and strokes of pencil, you'll have an instant masterpiece. Here...let me show you how.
 
-## Blue Skies Fade
+## Blue skies fade
 
 Let's start with the easier of the two, a nice bright blue sky. One of the more important steps is choosing a blue to paint with. The hue...the saturation...and the brightness all play a role in the overall emotion of the piece. I tend to mix in a swirl of green and keep it slightly over saturated to contrast against skin tones as seen in my many [PaperFaces portraits](/paperfaces/). If you're going for doom and gloom, back off the blue and mix in gray instead to set the foundation for an overcast sky.
 
@@ -26,7 +29,7 @@ With the base sky color mixed, select the pencil tool and draw a line across the
 
 ![screenshot of pencil horizon line in blue](/assets/images/paper-53-pencil-horizon-line-blue.jpg)
 
-### Watercolor Base Coat
+### Watercolor base coat
 
 Prep work complete, now you can start the actual painting of the sky. What you're trying to accomplish with this step is a smooth coat that gradually fades to white as you approach the horizon line. The easiest way to do this is with the watercolor brush, starting from the top of the composition, working down in a slight zig zag pattern.
 
@@ -41,12 +44,12 @@ When painting, do not lift the stylus or your finger from the screen until you f
 ![screenshot of blue sky with multiple coats](/assets/images/paper-53-blue-sky-base-multiple.jpg)
 {% endfigure %}
 
-### Painting Puffy Clouds
+### Painting puffy clouds
 
 Now comes my favorite part, painting happy clouds ala Bob Ross[^1]. Sticking with the watercolor brush, we're going to fluff a few clouds in using short circular strokes. If you have a [Pogo Connect Smart Pen]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), you can control the amount of background lightening easier. But if you don't, just focus on making quick strokes --- the faster the better. 
 
-{% notice info %}
-#### ProTip: Go Easy on the White
+{% notice %}
+#### ProTip: go easy on the white
 
 White lightens quickly and you don't want to remove too much blue at once, so be careful with this step. If you remove too much, just rewind and try again.
 {% endnotice %}
@@ -70,7 +73,7 @@ Don't be afraid to go back into the clouds with the blue color we initially pain
 [![screenshot the finished cloud](/assets/images/paper-53-clouds-600.jpg)](/assets/images/paper-53-clouds-lg.jpg)
 {% endfigure %}
 
-## Sunsets and Fire Skies
+## Sunsets and fire skies
 
 To paint a sunset, I use the same exact techniques and process. The only difference is the addition of three to four colors to create all the sunset fades and multi-colored clouds.
 
@@ -84,7 +87,7 @@ Just like the blue sky from before, paint slowly from left to right, slightly ov
 
 ![screenshot of 1st red coat](/assets/images/paper-53-sunset-red-color-wash.jpg)
 
-### Gradations of Color
+### Gradations of color
 
 A few coats to build up the sky into a smooth gradation of color may be necessary. What you're looking for is a darker red at the horizon, that gradually fades into the background about halfway up from the top. I fade the red around halfway to leave room to fade a dark blue-violet down from the top in this next step.
 
@@ -104,13 +107,13 @@ And paint a light coat over the red, background area in the middle, and graduall
 
 ![screenshot sunset yellow cream wash](/assets/images/paper-53-sunset-yellow-cream-wash.jpg) 
 
-{% notice info %}
-#### ProTip: Speed Matters
+{% notice %}
+#### ProTip: speed matters
 
 Paint faster as you approach the blue wash to avoid turning it into a green color. Yellow and blue make...
 {% endnotice %}
 
-### Sunset Clouds
+### Sunset clouds
 
 To add clouds to our sunset let's start by mixing a red into white. You want a pink color that has just enough white in it to lighten while you paint --- some trial and error may be necessary to get the mix right. Once you successfully mixed a pink, fluff in a few clouds using short circular strokes (same technique used in the blue sky).
 
@@ -122,8 +125,8 @@ Giving these clouds depth and dimension can be achieved by adding a little more 
 ![screenshot add red shadows to clouds](/assets/images/paper-53-sunset-red-clouds-wash.jpg)
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Find the Right Mix
+{% notice %}
+#### ProTip: find the right mix
 
 If you don't add enough red to the color mix, the watercolor brush will lighten the cloud instead of darkening it.
 {% endnotice %}
@@ -139,7 +142,7 @@ An added benefit of painting a sunset, is how it reacts with objects that are pl
 
 ![screenshot of sun and hills in silhouette](/assets/images/paper-53-sunset-finished.jpg)
 
-## Variations on a Theme
+## Variations on a theme
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project](/paperfaces/). Below are a few finished skies and clouds to show what is possible just by varying the color and composition.
 
@@ -154,8 +157,7 @@ Using all of these techniques I was able to create a variety of backdrops for th
   <li><a href="{% post_url /paperfaces/2013-01-17-shinfu-portrait %}"><img src="/assets/images/paperfaces-shinfu-twitter-150.jpg" alt="thumb" /></a></li>
 </ul>
 
-## Watch for the Next Tutorial
-{:.no_toc}
+---
 
 Next up --- the perfect landscape compliment to happy trees and clouds, crashing waves and water.
 

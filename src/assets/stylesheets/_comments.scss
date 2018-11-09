@@ -3,124 +3,94 @@
    ========================================================================== */
 
 .comment {
-  font-size: 0.8em;
-  margin-bottom: 4em;
-  padding-left: 4.5em;
-  position: relative;
+  display: flex;
 
-  // comment replies
+  + .comment {
+    margin-top: 2em;
+  }
+
   &.child {
-    margin-left: 4.5em;
+    margin-left: 40px;
+
+    @include breakpoint($md-up) {
+      margin-left: 80px;
+    }
   }
 }
 
-.comment-timestamp {
+.comment__avatar {
+  $avatar-size: 30px;
+
+  flex-shrink: 0;
+  margin-right: 10px;
+  width: $avatar-size;
+  height: $avatar-size;
+  background-color: #e3e3e3;
+
+  @include breakpoint($md-up) {
+    margin-right: 20px;
+    width: (2 * $avatar-size);
+    height: (2 * $avatar-size);
+  }
+
+  img {
+    width: $avatar-size;
+    height: $avatar-size;
+
+    @include breakpoint($md-up) {
+      width: (2 * $avatar-size);
+      height: (2 * $avatar-size);
+    }
+  }
+}
+
+.comment__main {
+  min-width: calc(100% - 40px); // fix overflowing code blocks (message width - avatar size)
+
+  @include breakpoint($md-up) {
+    min-width: calc(100% - 80px); // fix overflowing code blocks (message width - avatar size)
+  }
+}
+
+.comment__meta {
+  margin-bottom: 1em;
+  padding-bottom: 0.25em;
+  font-family: $monospace-font;
   font-size: 0.8em;
+  border-bottom: 2px solid;
 
   a {
     color: inherit;
-    text-decoration: none;
   }
 }
 
-.comment-content {
-  margin-top: 1em;
+.comment__message {
+  font-size: 0.9em;
 
-  > p,
-  > ul,
-  > ol,
-  > figure,
-  > table {
-    margin-bottom: 1.5em;
-  }
-
-  ul {
-    list-style-type: square;
-  }
-
-  li {
-    margin-bottom: 0.5em;
-  }
-
-  li > ul,
-  li > ol {
-    margin-top: 0.5em;
+  > *:last-child {
+    margin-bottom: 0;
   }
 
   img {
     max-width: 100%;
   }
-
-  .highlighter-rouge {
-    .highlight {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .highlight code {
-      font-size: 0.8em;
-    }
-  }
 }
 
-.comment-avatar {
-  height: 3.25em;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 3.25em;
-
-  &::after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23333' stroke-width='1' /%3E%3C/svg%3E");
-    background-size: 5px 5px;
-    bottom: 0.5em;
-    content: "";
-    height: 3.25em;
-    position: absolute;
-    right: 0.5em;
-    width: 3.25em;
-    z-index: -1;
-  }
+.comment__reply {
+  margin-top: 0.5em;
+  font-family: $monospace-font;
+  font-size: 0.8em;
 }
 
-.comment-author-name {
-  display: inline-block;
-  font-size: 1.25em;
-  line-height: 1;
-  margin: 0 0 0.25em;
+.comment__form {
+  margin-bottom: 2em;
 
-  a {
-    color: inherit;
-    text-decoration: none;
+  .title {
+    margin-top: 1em;
   }
-}
-
-.comment-reply {
-
-  a {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-.comment-reply-notifications {
-  margin: 1rem 0;
 }
 
 #cancel-comment-reply-link {
   margin-left: 1em;
-}
-
-#comment-form {
-  margin-bottom: 3em;
-}
-
-/* Site author specific */
-.admin {
-  .comment-author-name {
-    box-shadow: inset 0 -0.25em 0 rgba($warning-color, 0.5);
-  }
+  color: $danger-color;
 }

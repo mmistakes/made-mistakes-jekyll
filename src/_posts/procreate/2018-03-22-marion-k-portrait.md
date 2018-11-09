@@ -1,11 +1,12 @@
 ---
-title: "Back at It"
+title: "Back at it"
 excerpt: "Portrait of Marion K. digitally painted with Procreate on an iPad."
 last_modified_at: 2018-03-22T09:21:18-04:00
 image: 
   path: &image /assets/images/marion-k-procreate.jpg
+  width: 1600
+  height: 2133
   feature: *image
-  teaser:
   thumbnail: /assets/images/marion-k-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse]

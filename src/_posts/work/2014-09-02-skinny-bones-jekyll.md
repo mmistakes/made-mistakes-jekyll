@@ -1,8 +1,10 @@
 ---
-title: "Skinny Bones, a Jekyll Starter"
+title: "Skinny Bones, a Jekyll starter"
 excerpt: "A responsive, fully realized, and lightweight website starter for Jekyll."
 image: 
   path: &image /assets/images/skinny-bones-preview-feature.jpg
+  width: 1600
+  height: 600
   feature: *image
   teaser: /assets/images/skinny-bones-preview-teaser.png
   thumbnail: /assets/images/skinny-bones-preview-th.png
@@ -11,12 +13,15 @@ tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 last_modified_at: 2015-05-22T15:11:31-04:00
 breadcrumbs:
-  - label: "Jekyll Themes"
+  - label: "Work"
+    url: /work/
+  - label: "Jekyll themes"
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true
-order: 11
 support: true
+toc: true
+order: 11
 ---
 
 What originally started as a site refresh quickly turned into something else when Jekyll baked in native support for Sass with a [2.0 release](http://jekyllrb.com/docs/history/#v2-0-0).
@@ -31,7 +36,7 @@ I like to think of Skinny Bones as a starter for building your own Jekyll powere
   <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Demo</a>
 </div>
 
-## Notable Features
+## Notable features
 
 * GitHub Pages compatible.
 * Stylesheets built using Sass to help theme your site with ease. *Requires Jekyll 2.x*

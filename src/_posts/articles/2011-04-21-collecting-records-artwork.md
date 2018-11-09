@@ -1,20 +1,23 @@
 ---
-title: "Collecting Records for the Artwork"
+title: "Collecting records for the artwork"
 excerpt: "How the hand crafted aesthetics found in DIY released emo and hardcore records started my collecting addiction."
 image: 
   path: &image /assets/images/collecting-records-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/collecting-records-teaser.jpg
   thumbnail: /assets/images/collecting-records-thumb.jpg
 categories: [articles]
 tags: [punk, records, inspiration, DIY, critique, design]
 support: false
+toc: true
 last_modified_at: 2017-12-12T16:27:14-05:00
 ---
 
 Most of the [records I purchased](http://www.recordnerd.com/lists/bleedsapathy) in the late 90's--early 2000's were self-released or put out by small independent labels. 
 
-## Hand-lettered, the Stuff of My Dreams
+## Hand lettered, the stuff of my dreams
 
 Looking back, my favorite sleeves and liner note designs all shared a common element --- they were created by hand and printed in black and white. Which is an interesting comparison to the digital world of today, were kids have access to sophisticated desktop publishing software, and affordable means to print full color on a range of paper stocks.
 
@@ -30,6 +33,6 @@ Instead of embarrassing myself with examples of my early fumbles as a graphic de
 ![Image of upcoming artwork to be critiqued](/assets/images/record-art-teaser-620x217.jpg)
 {% endfigure %}
 
-## More to Come
+## More to come
 
 Just finished capturing some photographs of artwork that ranges from black/white ink drawings, fancy die-cuts, to sleeves printed on vellum with metallic inks...

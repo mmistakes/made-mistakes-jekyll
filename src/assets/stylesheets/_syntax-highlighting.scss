@@ -2,32 +2,28 @@
    Syntax highlighting
    ========================================================================== */
 
-// div.highlight {
-//   margin-right: -5vw;
-//   margin-left: -5vw;
-//   padding: 1em 5vw;
-
-//   @include breakpoint($large) {
-//     margin-right: 0;
-//     margin-left: 0;
-//     padding-right: 1em;
-//     padding-left: 1em;
-//   }
-// }
+:not(pre) > code {
+  padding: 0.125em 0.25em;
+  color: inherit;
+  background: #f2f2f2;
+  border-radius: 0.125em;
+  white-space: normal;
+  font-size: 0.8em;
+}
 
 div.highlighter-rouge,
 figure.highlight {
-  background: $base00;
-  color: $base05;
-  font-family: $monospace-font-family;
-  line-height: 1.8;
-  margin-bottom: 1em;
-  margin-left: -5vw;
-  margin-right: -5vw;
-  padding: 1em 5vw;
   position: relative;
+  margin-left: -5%;
+  margin-right: -5%;
+  @include margin-bottom(1);
+  padding: 1em 5%;
+  color: $base05;
+  background: $base00;
+  font-family: $monospace-font;
+  font-size: 0.8em;
 
-  @include breakpoint($large) {
+  @include breakpoint($md-up) {
     margin-left: 0;
     margin-right: 0;
     padding-left: 1em;
@@ -41,22 +37,22 @@ figure.highlight {
 }
 
 .highlight table {
+  margin-bottom: 0;
   border: 0;
   font-size: 1em;
-  margin-bottom: 0;
 
   td {
+    width: calc(100% - 1em);
     border: 0;
     padding: 0;
-    width: calc(100% - 1em);
 
     /* line numbers*/
     &.gutter {
+      padding-right: 1em;
+      width: 1em;
       border-right: 1px solid $base04;
       color: $base04;
-      padding-right: 1em;
       text-align: right;
-      width: 1em;
     }
 
     /* code */
@@ -72,6 +68,8 @@ figure.highlight {
 
 .highlight pre {
   width: 100%;
+  white-space: pre-wrap;
+  -webkit-overflow-scrolling: touch; // fix momentum scrolling for iOS
 }
 
 .highlight .hll {
@@ -341,35 +339,42 @@ $terminal-window-height: 30px;
 div.highlighter-rouge.language-shell_session,
 div.highlighter-rouge.language-terminal,
 div.highlighter-rouge.language-console {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding: calc(#{$terminal-window-height} + 1em) 1em 1em;
   background-color: $base-color;
   border-radius: $border-radius;
   border: 1px solid $border-color;
   box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
-  margin-bottom: 1.5em;
-  padding: calc(#{$terminal-window-height} + 1em) 1em 1em;
-  position: relative;
 
   &::before {
-    background: mix($base-color, #fff, 25%);
-    color: mix($base-color, #fff, 50%);
-    content: "\2022 \2022 \2022";
-    font-size: (2 * $terminal-window-height);
-    height: $terminal-window-height;
-    left: 0;
-    line-height: 0;
-    margin: 0;
-    padding: (0.5 * $terminal-window-height) 0;
     position: absolute;
-    text-indent: (0.5 * $terminal-window-height);
     top: 0;
+    left: 0;
+    margin: 0;
     width: 100%;
+    content: '';
+    height: $terminal-window-height;
+    background: mix($base-color, #fff, 25%);
+  }
+
+  &::after {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    padding: (0.5 * $terminal-window-height) 0;
+    content: '\2022 \2022 \2022';
+    color: mix($base-color, #fff, 50%);
+    font-size: (1.5 * $terminal-window-height);
+    line-height: 0;
+    text-indent: (0.5 * $terminal-window-height);
   }
 
   .highlight {
-    background-color: initial;
-    color: #fff;
     margin: 0;
     padding: 0;
+    background-color: initial;
+    color: #fff;
 
     .go {
       color: #fff;

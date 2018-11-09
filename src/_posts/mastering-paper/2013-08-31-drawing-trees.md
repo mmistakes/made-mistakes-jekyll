@@ -1,26 +1,29 @@
 ---
-title: "Mastering Paper by FiftyThree: Drawing Trees and Grass"
-excerpt: "Techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper by FiftyThree."
-last_modified_at: 2017-12-13T11:27:34-05:00
+title: "Mastering Paper for iOS: drawing trees and grass"
+excerpt: "Techniques to draw trees, green grass, bushes, and other foliage using the iPad app Paper for iOS."
+last_modified_at: 2018-11-06T11:57:32-05:00
 image: 
   path: &image /assets/images/paper-53-trees-guide-feature.jpg
+  width: 1280
+  height: 436
   feature: *image
   teaser: /assets/images/paper-53-trees-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-trees-guide-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper by 53, tutorial, drawing, painting, trees, grass, iPad]
+toc: true
 ---
 
 Sorry for the delay in publishing the next installment of my **Mastering Paper Guide** --- between the twins, my job, and trying to launch [**Relic Scout**](https://relicscout.com/), I've had my hands full this summer. But enough of all the excuses, let's get right into it ok?
 
-## Drawing Trees
+## Drawing trees
 
 When I draw trees I select the watercolor brush and jump right in, using one continuous stroke to rough out a general shape. Don't worry about being precise here, we'll refine the edges later. You could start with a light pencil sketch to nail your the composition, but I usually don't --- it keeps the tree feeling organic and less rigid (a happy accident is your friend).
 
 ![screenshot of watercolor tree shape](/assets/images/paper-53-outline-trees-watercolor.jpg)
 
-{% notice info %}
-#### ProTip: Build up Tones by Layering
+{% notice %}
+#### ProTip: build up tones by layering
 
 When using the watercolor brush, try and mix a color around 50--75% lighter than the desired color. This lighter color allows you to layer multiple coats to create a nice vivid color. Going dark right away usually makes shapes flat and lifeless, with color that lacks richness.
 {% endnotice %}
@@ -30,8 +33,8 @@ When using the watercolor brush, try and mix a color around 50--75% lighter than
 ![screenshot of leaf color single coat](/assets/images/paper-53-tree-green-one-layer.jpg)
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Painting with the Brush
+{% notice %}
+#### ProTip: painting with the brush
 
 Remember the watercolor brush is translucent and no matter what color you pick it won't match without a few coats.
 {% endnotice %}
@@ -53,8 +56,8 @@ The primary goal here is to give the illusion of leaf clusters and indicate wher
 
 Now it's time to start adding detail to the tree with highlights. Using a reference photo can help determine a good highlight color, but if you don't have one check below for my favorite mixes. Stay away from colors that are too white --- you want a color that is still in the family of your base color, just warmed and lightened.
 
-{% notice info %}
-#### ProTip: Mixing Leaf Highlights
+{% notice %}
+#### ProTip: mixing leaf highlights
 
 ![screenshot of yellow orange highlight color](/assets/images/paper-53-leaf-highlight-swatch.png){: .align-right}
 If you're having trouble mixing a highlight I like to start with a green from the leaf's base, and add yellow. Yellow with orange mixed in also makes for a nice leaf highlight --- note the example on the left.
@@ -62,8 +65,8 @@ If you're having trouble mixing a highlight I like to start with a green from th
 
 With our highlight color mixed, select the pencil tool and start lightly sketching small "scratchy" marks over the base coat. The more times you go over a pencil stroke, the more intense the color will get. Try not to overwork one area with the pencil, the key is to keep everything harmonious.
 
-{% notice info %}
-#### ProTip: Pencil in Highlights
+{% notice %}
+#### ProTip: pencil in highlights
 
 Apply highlight strokes on dark shadows to define individual leaves or groupings. A well placed pencil highlight can go a long way in adding texture and realism to your art.
 {% endnotice %}
@@ -84,8 +87,8 @@ To finish, quick strokes of watercolor with either a light gray or light dull gr
 
 ![screenshot of subtle watercolor shadows](/assets/images/paper-53-dull-green-gradation.jpg)
 
-{% notice info %}
-#### ProTip: Background Cleanup
+{% notice %}
+#### ProTip: background cleanup
 
 Fill the pencil with a color that matches the background and use it to refine the tree's outline, cleaning up any watercolor that might have bled.
 
@@ -98,7 +101,7 @@ This technique works great to "erase" any spots in the middle of the tree where 
 
 ---
 
-## Grass and Foliage
+## Grass and foliage
 
 When drawing grass, bushes, and other greenery, the same tree techniques can be applied --- with some slight variations.
 
@@ -110,16 +113,16 @@ This next step can be quite tedious, especially if you have a lot of grass to ad
 
 Grass cut short is fairly painless to draw. Making small subtle marks with the pencil to suggest grass is all that's needed --- texture is what's important here. 
 
-{% notice info %}
-#### ProTip: Treat Grass Like Hair
+{% notice %}
+#### ProTip: treat grass like hair
 
 When drawing longer grass, I like to think of it as hair and block out the major sections with stroke guides. These help determine what direction the rest of the grass should be moving when filling in each chunk.
 {% endnotice %}
 
 ![screenshot grass stroke guides](/assets/images/paper-53-grass-short-long-strokes.jpg)
 
-{% notice info %}
-#### ProTip: Use Stroke Speed to Your Advantage
+{% notice %}
+#### ProTip: use stroke speed to your advantage
 
 To feather out each shard of grass, move slow as you begin a stroke and faster as you finish. For those using a Pogo Connect Smart Pen, press hard at the start of your stroke and lighten up as you follow through.
 {% endnotice %}
@@ -138,14 +141,14 @@ One final tip for creating depth is to paint over everything with light gray or 
 
 ![screenshot of applying tan shadows to grass](/assets/images/paper-53-grass-tan-shadows.jpg)
 
-{% notice info %}
-#### ProTip: Cool and Warm Colors
+{% notice %}
+#### ProTip: cool and warm colors
 
 A general rule of thumb is to mix blue/gray to your background colors, and warm them up as you move forward. A couple of well placed pencil strokes using this principle can enhance a composition's depth quite effectively.
 ![screenshot background blue grass](/assets/images/paper-53-grass-blue-shadows.jpg)
 {% endnotice %}
 
-## Variations on a Theme
+## Variations on a theme
 
 Using all of these techniques on their own or in concert, I was able to create lush backgrounds for many of the portraits in my [PaperFaces Project](/paperfaces/). Below are a few tree and grass examples to show what is possible just by varying the color and composition.
 
@@ -160,7 +163,6 @@ Using all of these techniques on their own or in concert, I was able to create l
   <li><a href="{% post_url /paperfaces/2013-01-01-michael-rose-portrait %}"><img src="/assets/images/paperfaces-michael-rose-150.jpg" alt="thumb" /></a></li>
 </ul>
 
-## Moving Along
-{:.no_toc}
+---
 
 In the next article in this series I'll take you through the techniques and steps I use to paint a blue skies, fluffy clouds, and sunsets. All three are the perfect compliments to a well drawn tree...

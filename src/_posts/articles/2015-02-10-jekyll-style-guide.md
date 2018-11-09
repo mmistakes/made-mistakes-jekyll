@@ -1,22 +1,25 @@
 ---
-title: "Building a Style Guide with Jekyll"
+title: "Building a style guide with Jekyll"
 last_modified_at: 2017-12-13T10:40:39-05:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 categories: [articles]
 tags: [Jekyll, style guide, open source, web development, GitHub, tutorial]
 image:
   path: &image /assets/images/jekyll-style-guide-feature.jpg
+  width: 1280
+  height: 450
   feature: *image
   teaser: /assets/images/jekyll-style-guide-teaser.jpg
   thumbnail: /assets/images/jekyll-style-guide-th.jpg
 comments: true
+toc: true
 ---
 
 Building a living style guide that details all of the colors, typographic elements, UI patterns, and components used on Made Mistakes has been at the top of my to-do list for some time.
 
 As sole designer, developer, and writer for the site, having one probably isn't all that crucial. Yet when iterating on the site's design I've found that some of my patterns don't always "speak the same visual language." Having a document I can refer back to and quickly spot check for visual inconsistencies could be very helpful.
 
-## Keep it Simple
+## Keep it simple
 
 With the attention style guides have gotten as of late, a nice selection of [generators and tools](http://styleguides.io/tools.html "style guide tools") have also matured in the open source community. Because I'm [using Jekyll to publish the site]({% post_url /articles/2012-03-19-going-static %}), I felt it would be silly to use another tool to generate a living style guide. Even if that meant giving up the ease of setup these other tools provide by having to build out something myself.
 
@@ -34,9 +37,9 @@ Out of the bunch, [Jérôme Coupé's](http://www.webstoemp.com/) approach resona
 
 [^collections]: A feature added to Jekyll in [version 2.0.0](http://jekyllrb.com/docs/history/#v2-0-0) allowing you to define new types of documents that behave like [Pages](http://jekyllrb.com/docs/pages/) or [Posts](http://jekyllrb.com/docs/posts/), while also having their own unique properties and name-spaces.
 
-## Building the Style Guide
+## Building the style guide
 
-To start I took a quick survey of all the Sass partials in my `_asseets/stylesheets`[^jekyll-assets] folder to determine how I might want to organize the style guide. The biggies for me were:
+To start I took a quick survey of all the Sass partials in my `_assets/stylesheets`[^jekyll-assets] folder to determine how I might want to organize the style guide. The biggies for me were:
 
 * **Color palettes**
 * **Typography** (headings, paragraphs, lists, and inline elements)
@@ -46,7 +49,7 @@ To start I took a quick survey of all the Sass partials in my `_asseets/styleshe
 
 [^jekyll-assets]: I'm using the excellent [Jekyll 3 Assets](https://github.com/jekyll/jekyll-assets) plugin for a Rails-like asset pipeline to run [AutoPrefixer](https://github.com/postcss/autoprefixer), minify and MD5 fingerprint CSS/JavaScript assets, and some other useful stuff.
 
-### Configure Collections
+### Configure collections
 
 With the structure of the style guide determined next came [configuring the collections](http://jekyllrb.com/docs/collections/) that would contain each component. Originally I planned to have a single collection named `components` but decided to go with a second to group together all of the color palettes used on the site.
 
@@ -62,14 +65,15 @@ collections:
 
 I choose not to output a file for each color/component since I planned on grouping them together on a single page. But if I later wanted to break them out into separate pages (something I did for my [FAQ section](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/src/_faqs) I would simply change `output: false` to `true` and add permalinks to the YAML Front Matter.
 
-<div class="notice" markdown="1">
+{% notice %}
 #### Looking to the future
+
 For version 2.0 of the style guide I may investigate taking it to the next level by constructing a complete [atomic design system](http://atomicdesign.bradfrost.com/). Instead of collections for just `components` and `colors` I could create `atoms`, `molecules`, `organisms`, and `templates` to flush out the entire system. 
 
 I've seen [some examples](https://github.com/karissademi/patternlab-jekyll "Pattern Lab Jekyll port") of trying to do this in Jekyll with just `includes`, but I think leveraging components, setting `output: true` on them, and getting creative with Liquid would make this a better option.
-</div>
+{% endnotice %}
 
-### Display Components and Color Palettes
+### Display components and color palettes
 
 With my two style guide collections configured I created a new layout (`_layouts/style_guide.html`) to strip away most of the fluff found in my `article` and `media` layouts. It's basically a wide wrapper with just a page title and `{% raw %}{{ content }}{% endraw %}` block.
 
@@ -103,8 +107,8 @@ usage: "Emphasize post text."
 </div>
 ```
 
-{% notice info %}
-#### ProTip: Descriptive filenames
+{% notice %}
+#### ProTip: descriptive filenames
 
 Be smart with your filenames if you're trying to sort components in a logical way. The default behavior is for them to be arranged alphabetically by filename. Adding a variable to the YAML Front Matter of each component and sorting on that is one way of overriding this behavior.
 
@@ -142,7 +146,7 @@ What's going on here is I'm iterating over the `components` collection, grouping
 
 [^component-type]: Component type is set in the YAML Front Matter. eg: buttons, notices, media, typography, etc.
 
-{% notice warning %}
+{% notice %}
 #### Beware the Markdown
 
 I had some trouble getting the Liquid above, Markdown, and syntax highlighting to all play nicely. I suppose I could have just crafted a `.html` document instead, but I wanted to use Markdown with some HTML mixed in. I eventually gave up trying to make my code more readable with indents, which seemed to eliminate the formatting issues.
@@ -254,7 +258,7 @@ To achieve this I used a [SassScript map](https://github.com/sass/sass/blob/mast
 }
 ```
 
-## Maintaining the Style Guide
+## Maintaining the style guide
 
 Updating and adding components to the [style guide](/style-guide/) should be as simple as creating a new Markdown file and placing it in the `_components` folder. In a perfect world I would never have to touch the `.md` files of existing components. Cosmetic changes made to Sass files should ripple throughout the site without my intervention. Unfortunately, for those components that undergo markup changes, I'll have repeat myself and edit two files... something that shouldn't happen too frequently.
 

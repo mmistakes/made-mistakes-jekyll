@@ -1,9 +1,11 @@
 ---
-title: "Sunny Sky in Your Eye"
+title: "Sunny sky in your eye"
 excerpt: "Portrait of Jj Plix, digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-05T16:27:03-05:00
 image: 
   path: &image /assets/images/jj-plix-procreate.jpg
+  width: 1536
+  height: 2048
   feature: *image
   teaser: /assets/images/jj-plix-procreate-teaser.jpg
   thumbnail: /assets/images/jj-plix-procreate-250.jpg

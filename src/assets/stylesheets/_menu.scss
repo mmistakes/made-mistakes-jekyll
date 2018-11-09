@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Menu
+   ========================================================================== */
+
+.menu {
+  @include margin-bottom(3);
+  padding-left: 0;
+  list-style: none;
+}
+
+.menu__toggle {
+  display: inline-block;
+  order: -1;
+  margin-right: 1em;
+
+  .toggle {
+    position: relative;
+    z-index: 50;
+    cursor: pointer;
+  }
+
+  .toggle-inner {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #000;
+  color: #fff;
+  pointer-events: none;
+  z-index: 100;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0, 0, 0.2, 1);
+  transform: translateY(-100%);
+  -webkit-overflow-scrolling: touch; // fix momentum scrolling for iOS
+
+  &.is--visible {
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.menu__overlay-inner {
+  height: 100%;
+  overflow-x: hidden;
+  padding-top: 80px;
+
+  @include breakpoint($lg-up) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.menu-item {
+  font-family: $sans-serif-font;
+  font-size: 1.5em;
+  font-weight: 700;
+  @include line-height(1.5);
+  opacity: 0;
+  transform: translateX(-1rem);
+  transition: all 0.5s;
+
+  @include breakpoint($md-up) {
+    font-size: 2em;
+    @include line-height(2);
+  }
+
+  &.is--moved {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* line hover effect */
+  a {
+    color: mix($base-color, #fff, 40%);
+    position: relative;
+
+    &::before {
+      background-color: #fff;
+      content: "";
+      display: block;
+      height: 1px;
+      left: -3rem;
+      position: absolute;
+      top: 50%;
+      transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
+      width: 0;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:hover::before {
+      width: 2.5rem;
+    }
+  }
+}

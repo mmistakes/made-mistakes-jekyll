@@ -8,7 +8,7 @@ module Jekyll
         super
         type.strip!
         if %w(info danger warning success).include?(type)
-          @type = "--" + type
+          @type = type
         else
           @type = ""
         end
@@ -18,7 +18,7 @@ module Jekyll
         site = context.registers[:site]
         converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
         output = converter.convert(super(context))
-        "<div class=\"notice#{@type}\">#{output}</div>"
+        "<div class=\"notice #{@type} no_toc_section\">#{output}</div>"
       end
     end
   end

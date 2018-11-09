@@ -1,52 +1,55 @@
 /*!
- * Made Mistakes 12.0.1
- * Copyright 2017 Michael Rose - mademistakes | @mmistakes
+ * Made Mistakes 13.0.0
+ * Copyright 2004-2018 Michael Rose - mademistakes.com | @mmistakes
  * https://github.com/mmistakes/made-mistakes-jekyll/blob/master/LICENSE
 */
-
-/* Mixins and functions */
-@import "vendor/susy/susy";
-@import "vendor/breakpoint/breakpoint";
-@include breakpoint-set("to ems", true);
-@import "vendor/lity/lity";
-@import "vendor/bigfoot/bigfoot-number";
-@import "mixins";
 
 /* Variables */
 @import "variables";
 
-/* Core CSS */
+/* Mixins and functions */
+@import "vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "mixins";
+
+/* Core */
 @import "reset";
 @import "base";
-@import "layout";
-@import "tables";
-@import "forms";
+@import "site";
+@import "page";
+@import "post";
+@import "archive";
+@import "home";
+
+/* Vendor components */
+@import "vendor/lity/lity";
+@import "vendor/bigfoot/bigfoot-number";
+@import "vendor/instantsearch/instantsearch";
+@import "vendor/instantsearch/instantsearch-theme-algolia";
 
 /* Components */
 @import "animations";
 @import "buttons";
 @import "comments";
-@import "contact-lists";
 @import "entries";
-@import "footer";
+@import "forms";
 @import "gallery";
-@import "global";
 @import "google-search";
 @import "icons";
-@import "intro";
+@import "menu";
 @import "navicons";
 @import "navigation";
 @import "notices";
+@import "pagination";
 @import "paper-color-swatches";
 @import "responsive-embed";
 @import "review-box";
 @import "search";
 @import "sections";
-@import "sidebar";
 @import "style-guide";
 @import "syntax-highlighting";
-// @import "toc";
-// @import "thumbnail-grids";
+@import "tables";
+@import "thumbnail-grids";
 
 /* Utility classes */
 @import "utilities";

@@ -1,6 +1,6 @@
 ---
-title: "Paper Creators, Join Me in the Mix"
-last_modified_at: 2017-12-13T15:17:44-05:00
+title: "Paper creators, join me in the Mix"
+last_modified_at: 2018-11-06T12:02:21-05:00
 excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring Paper creators easy and fun."
 categories: [mastering-paper]
 tags: [Paper by 53, Mix, iPad]
@@ -14,7 +14,7 @@ I'm the type of person that learns how something is made by dissecting and exami
 
 ![Mix heart](/assets/images/paper-53-mix-heart.jpg)
 
-{% notice warning %}
+{% notice %}
 #### FiftyThree Has Shut Down the Public Stream / Mix
 
 As of August 15th, 2017 [the Public Stream](https://support.fiftythree.com/hc/en-us/articles/115004639749-The-Public-Stream) is no longer in service. Any links out to **mix.fiftythree.com** or **paper.fiftythree.com** will cease to work.

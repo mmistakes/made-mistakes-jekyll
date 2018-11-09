@@ -1,11 +1,11 @@
 ---
-title: "So Simple, a Jekyll Theme"
-headline: "So Simple Theme"
-subheadline: "Built for Jekyll"
+title: "So Simple, a Jekyll theme"
 excerpt: "A simple Jekyll theme for words and pictures by designer Michael Rose."
 last_modified_at: 2018-02-06T11:16:06-05:00
 image: 
   path: &image /assets/images/jekyll-theme-so-simple-feature-2018.jpg
+  width: 1600
+  height: 800
   feature: *image
   teaser: /assets/images/jekyll-theme-so-simple-teaser.jpg
   thumbnail: /assets/images/jekyll-theme-so-simple-th.jpg
@@ -23,12 +23,15 @@ categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:
-  - label: "Jekyll Themes"
+  - label: "Work"
+    url: /work/
+  - label: "Jekyll themes"
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true
-order: 10
+toc: true
 support: true
+order: 10
 ---
 
 After having so much fun creating and releasing [my first open source Jekyll theme](https://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple**](https://mmistakes.github.io/so-simple-theme), a simple Jekyll theme for words and pictures. 

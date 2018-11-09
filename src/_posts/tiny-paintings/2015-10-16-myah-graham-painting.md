@@ -4,6 +4,8 @@ excerpt: "Tiny portrait of Myah Graham, painted with watercolor on hot press pap
 last_modified_at: 2015-11-05T14:39:38-05:00
 image: 
   path: &image /assets/images/painting-myah-graham.jpg
+  width: 1600
+  height: 908
   feature: *image
   teaser: /assets/images/painting-myah-graham-teaser.jpg
   thumbnail: /assets/images/painting-myah-graham-250.jpg

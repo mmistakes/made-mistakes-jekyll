@@ -1,25 +1,28 @@
 ---
-title: "Mastering Paper by FiftyThree: Drawing Portraits and Faces"
-excerpt: "Advanced techniques for drawing and painting portraits using the iPad app Paper by FiftyThree."
-last_modified_at: 2017-12-13T15:53:33-05:00
+title: "Mastering Paper for iOS: drawing portraits and faces"
+excerpt: "Advanced techniques for drawing and painting portraits using the iPad app Paper for iOS."
+last_modified_at: 2018-11-06T12:00:40-05:00
 image: 
   path: &image /assets/images/paper-53-faces-feature.jpg
+  width: 1280
+  height: 500
   feature: *image
   teaser: /assets/images/paper-53-faces-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-faces-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper by 53, tutorial, drawing, painting, portrait, iPad]
+toc: true
 ---
 
 Portraiture is at the heart of what I use Paper by FiftyThree to create with. After drawing over 700 faces some might think it would be easy for me to share my process and techniques --- they would be wrong. After struggling writing this guide for the last month, I think I finally shaped it in a way that makes sense.
 
-Like the other parts of my [Mastering Paper by 53 Guide](/mastering-paper/), this one will explain my techniques and how I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
+Like the other parts of my [Mastering Paper for iOS Guide](/mastering-paper/), this one will explain my techniques and how I use them. My drawing style has evolved from the abstract to the more realistic since starting the [PaperFaces]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) portrait project almost 2 years ago. It only seems fitting to organize the guide in a way that mimics this same evolution.
 
 [![PaperFaces evolution](/assets/images/paper-53-face-evolution.jpg)](/assets/images/paper-53-face-evolution-lg.jpg)
 
 What this guide won't be is a lesson in human anatomy. You'd be better served [reading a book](http://www.amazon.com/gp/product/0399507914/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0399507914&linkCode=as2&tag=mademist-20) on the matter instead of me paraphrasing it for you. What I will do is explain the basics of drawing a face with Paper and how to get the most out of the app.
 
-## Color Palettes for Skin
+## Color palettes for skin
 
 Before getting into any specific technique, I'd like to share my favorite palette. With this set of seven custom mixes I can pretty much reproduce any skin tone I want. Below I've painted a color wheel with each to show how they appear when layered, darkened, and lightened. Tapping the circles below will open into larger views allowing you to save[^saving-images] a copy to use as reference.
 
@@ -49,13 +52,13 @@ Paper by 53 currently doesn't have a way of exporting or sharing color palettes.
 3. Tap the small circle again and drag it into a vacant spot in your palette to the right.
 4. Repeat the process for each color you wish to copy and use.
 
-{% notice info %}
-#### ProTip: Organize Your Color Palettes
+{% notice %}
+#### ProTip: organize your color palettes
 
 You can move colors in the palettes by dragging them around into an order that works for you. For example I group all my skin tone colors together for easier access.
 {% endnotice %}
 
-## Choosing Colors
+## Choosing colors
 
 In my previous guide I went over a few [color theory basics]({% post_url /mastering-paper/2014-02-09-basics %}#color-theory-basics) that can help guide you to make more informed color selections. Building on top of those guidelines here are a few more that are specific to painting portraits.
 
@@ -69,7 +72,7 @@ Your forehead is free of surface capillaries and muscles leaving it white or a g
 [![Colors used to paint a forehead](/assets/images/paper-53-face-forehead-glaze-1.jpg)](/assets/images/paper-53-face-forehead-glaze-1-lg.jpg) [![Applying more glazes to the forehead](/assets/images/paper-53-face-forehead-glaze-2.jpg)](/assets/images/paper-53-face-forehead-glaze-2-lg.jpg)
 {% endfigure %}
 
-### Mid-face (Cheeks/Ears/Nose)
+### Mid-face (cheeks/ears/nose)
 
 Traveling down the face just below the eyes and above the mouth is an area comprised of capillaries filled with *blood*. All this blood causes the ears, nose, and cheeks to turn a reddish color. A simple thing like glazing cheeks with warm mixes of orange and red can liven a face up, especially in females.
 
@@ -91,11 +94,11 @@ If you remember back to my previous guide, green and red are complementary color
 [![Colors used to enhance lips](/assets/images/paper-53-face-lips.jpg)](/assets/images/paper-53-face-lips-lg.jpg)
 {% endfigure %}
 
-## Painting Skin
+## Painting skin
 
 To some, the watercolor brush is magical while others find it extremely confusing and frustrating --- I completely understand that. To master the brush you have to be mindful of a few things:
 
-### Speed Controls Opacity
+### Speed controls opacity
 
 The brush produces a range of values by varying the speed at which they're painted. If you move your finger (or stylus) slowly across the iPad's screen, the mark will darken --- moving fast, the mark will fade into the canvas and appear lighter. 
 
@@ -105,21 +108,21 @@ Speed is the single most important variable for creating smooth tones or glazes.
 {% youtube AjJVrFFaCck %}
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Smoothening Out Splotches of Color
+{% notice %}
+#### ProTip: smoothening out splotches of color
 
 To even out stubborn light spots, keep rubbing until they turn dark. You can't overwork an area as long as don't lift to make another stroke.
 {% endnotice %}
 
 New to Paper or drawing in general? Make your life easier and work large, filling up the entire page. The smaller the composition the harder all this becomes since the brush has a fixed size. Well that's [not completely true]({% post_url /mastering-paper/2013-07-08-pogo-connect-smart-pen %}), but for those of you who don't use Bluetooth stylus like FiftyThree's Pencil or a Pogo Connect --- it is.
 
-{% notice warning %}
+{% notice %}
 #### Update: Paper 2.0
 
 Painting with the watercolor brush has been greatly improved in the new version of Paper by FiftyThree. [Learn all about the new brush tool]({% post_url /mastering-paper/2014-09-16-watercolor-brush-update %}) in my post that includes videos of it in action.
 {% endnotice %}
 
-### Whites to Erase
+### Whites to erase
 
 A *cheat* I used in my early Paper portraits was to omit facial features by not drawing them. I'd spend my time adding detail to the background elements instead of a person's face just because they were easier for me.
 
@@ -131,8 +134,8 @@ To paint in this style, start by lightly sketching out the figure to act as your
 
 With your background dropped in, select the pencil tool, a light color, and sketch out the general outline of the figure. Drawing [sensitive lines]({% post_url /mastering-paper/2014-01-13-contour-drawing %}) will convey more meaning in your drawing and guide how you paint. For example, I place heavier lines in my sketches to show shadows or areas I will want to darken with watercolor later.
 
-{% notice info %}
-#### ProTip: Skin Color Selection
+{% notice %}
+#### ProTip: skin color selection
 
 When choosing a pencil color pick a flesh tone that is predominant in the face. This will make it easier to hide the lines later when you paint with white.
 {% endnotice %}
@@ -148,7 +151,7 @@ With a rough sketch complete, it is time to put those skin tone palettes from be
 
 Of course you could just use the eraser tool to remove the background, but it will produce a harsher edge --- which I like to avoid. Used as a lightener, the brush gives greater control over the amount of background you remove.
 
-### Building the Face with Glazes
+### Building the face with glazes
 
 With the face's shape *pulled out from the background*, we can start the process of rebuilding it. Referencing my custom skin tone colors, choose the light red again and apply an even glaze over the entire face. Don't worry if you overlap into the background, we'll fix that later.
 
@@ -166,7 +169,7 @@ With practice you'll become more confident in the shapes you are painting. I wou
 [![watercolor textured skin](/assets/images/paper-53-faceless-textured.jpg)](/assets/images/paper-53-faceless-textured-lg.jpg)
 {% endfigure %}
 
-### Adding Shadows
+### Adding shadows
 
 A complimentary color works great as a shadow, especially when dialing down the lightness of your glazes. A heavy and more opaque color is harder to control because it will darken painted areas way too fast.
 
@@ -176,8 +179,8 @@ A complimentary color works great as a shadow, especially when dialing down the 
 
 A variation of gray can also be effective for darkening areas. The important consideration here is to match the temperature of the gray to the area you want to darken. Tint your gray with reds and oranges for warmer tones, and blues and greens for cools.
 
-{% notice info %}
-#### ProTip: Paint Inwards
+{% notice %}
+#### ProTip: paint inwards
 
 Work your glazes from the outside in, moving faster to produce soft transitions --- **speed and direction matter!**
 {% endnotice %}
@@ -187,7 +190,7 @@ Work your glazes from the outside in, moving faster to produce soft transitions 
 [![painting shadows on a face](/assets/images/paper-53-faceless-shadows-2.jpg)](/assets/images/paper-53-faceless-shadows-2-lg.jpg)
 {% endfigure %}
 
-### Cleanup and Refinement
+### Cleanup and refinement
 
 Depending on how accurate of a painter you are, your glazes may have bled outside of the face and into the background. To clean up these rough edges, use the pencil tool mixed with a color that matches the background. Then use it to cover up blotches or stray marks by drawing over them. Variations to the color may be necessary if your background is more complex than a single tone.
 
@@ -202,7 +205,7 @@ Don't be afraid to use one of the ink pens for cleanup instead. For stylistic re
 {% youtube cxeaeQAtIxQ %}
 {% endfigure %}
 
-## Creating Realism with Colored Pencils
+## Creating realism with colored pencils
 
 After almost two years of drawing and painting hundreds of blank faces, I had a break through when I started applying pencil strokes on top of my glazes. I found that this extra layer of texture added depth and complexity to the drawings which ultimately made them appear more realistic.
 
@@ -220,7 +223,7 @@ To really capture an accurate likeness the placement of the eyes, nose, and mout
 2. An average face is approximately five eyes wide.
 3. The bottom of the ears align with the bottom of the nose.
 
-### Refining the Contours
+### Refining the contours
 
 Instead of switching to the brush, we're going to stick with the pencil tool and begin refining the drawing. Color is going to play an important role in this step, if you're not comfortable with that yet, I suggest working in black and white.
 
@@ -240,7 +243,7 @@ The basic idea here is to sketch in all the dark spots around the eyes, nose, an
 [![refining facial features](/assets/images/paper-53-face-contour-refine-2.jpg)](/assets/images/paper-53-face-contour-refine-2-lg.jpg)
 {% endfigure %}
 
-### Shaping Skin with Hatching
+### Shaping skin with hatching
 
 Once you've finished darkening and refining contour lines you'll want to begin shaping the skin. The primary way to do this is with [hatching techniques]({% post_url /mastering-paper/2014-02-09-basics %}/#parallel-hatching) and dry mixing colored pencils on the canvas.
 
@@ -258,8 +261,8 @@ I've said this before in my [Back to Basics guide]({% post_url /mastering-paper/
 
 Don't feel the need to *shade* all surfaces! Focus your attention on the darkest values and build up those gradations first. Keep in mind that we will be covering these pencil strokes with watercolor so don't go too dark. I suggest making your tones about 50% lighter than how they appear --- you can always darken things up later.
 
-{% notice info %}
-#### ProTip: Up Your Game with a Fancy Pressure Sensitive Stylus
+{% notice %}
+#### ProTip: up your game with a fancy pressure sensitive stylus
 
 A Pogo Connect makes shading and using the pencil tool way easier. By varying the amount of pressure applied to the tip, you can make a darker line in a way that mimics a real pencil.
 {% endnotice %}
@@ -274,15 +277,15 @@ To make the face appear more real you'll want to use a wide range of colors. By 
 [![dry mixing colored pencils](/assets/images/paper-53-face-pencil-dry-mixing.jpg)](/assets/images/paper-53-face-pencil-dry-mixing-lg.jpg)
 {% endfigure %}
  
-{% notice info %}
-#### ProTip: One Color at a Time
+{% notice %}
+#### ProTip: one color at a time
 
 Stick with one color and bounce around the face with it. It'll save you from constantly opening and closing the tool tray to select different colors.
 {% endnotice %}
 
 Continue hatching and coloring your way through the rest of the drawing. At this point you could call this a finished piece, but I'm going to take it a few steps further if you don't mind.
 
-### Building the Face with Glazes, Again
+### Building the face with glazes, again
 
 By applying a thin layer or glaze of watercolor on top, this colored pencil drawing will take on new properties. The colors will intensify with each layer of glaze, and pull everything together.
 
@@ -304,8 +307,8 @@ Many of the techniques used to *erase a face* from earlier also apply here. Vari
 [![lightening the face](/assets/images/paper-53-face-glaze-5.jpg)](/assets/images/paper-53-face-glaze-5-lg.jpg)
 {% endfigure %}
 
-{% notice info %}
-#### ProTip: Use Blend to Correct Mistakes
+{% notice %}
+#### ProTip: use Blend to correct mistakes
 
 If when using white you produce tones that are no longer smooth, use Blend to even them out. Don't go overboard with it because you can quickly make a face look unnatural.
 {% endnotice %}
@@ -318,8 +321,7 @@ With our glazes looking pretty good, now is the time to switch back to the penci
 
 Depending on the subject I'll often apply a layer of contour hatching on top of the glazes. I tend to do this more with males who have facial hair, to roughen things up and add texture. This is also a good time to apply any finishing touches like catch lights in the pupils or gloss on the lips.
 
-## Wrap Up and What's Next
-{:.no_toc}
+---
 
 My plan for the next guide was to [reboot a hair tutorial]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) I wrote a year ago, expanding on it to show more hair styles and facial hair techniques. But after finishing this lengthly tutorial it became clear to me there is still a lot I have to say with regards to #MadeWithPaper portrait techniques.
 

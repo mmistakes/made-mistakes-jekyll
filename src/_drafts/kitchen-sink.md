@@ -116,30 +116,30 @@ Make any link standout more when applying the `.btn` class.
 
 Set a block of text off from the rest.
 
-<div class="notice" markdown="1">
+{% notice %}
 #### Default Notice
 [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-</div>
+{% endnotice %}
 
-<div class="notice--info" markdown="1">
+{% notice info %}
 #### Info Notice
-`.notice--info` [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-</div>
+`.notice.info` [Maecenas ornare tortor](). Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+{% endnotice %}
 
-<div class="notice--warning" markdown="1">
+{% notice warning %}
 #### Warning Notice
-`.notice--warning` Maecenas ornare tortor. Donec sed [tellus eget]() sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-</div>
+`.notice.warning` Maecenas ornare tortor. Donec sed [tellus eget]() sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+{% endnotice %}
 
-<div class="notice--danger" markdown="1">
+{% notice danger %}
 #### Danger Notice
-`.notice--danger` Maecenas ornare tortor.[ Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-</div>
+`.notice.danger` Maecenas ornare tortor.[ Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+{% endnotice %}
 
-<div class="notice--success" markdown="1">
+{% notice success %}
 #### Success Notice
-`.notice--success` Maecenas ornare tortor. Donec sed tellus eget [sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
-</div>
+`.notice.success` Maecenas ornare tortor. Donec sed tellus eget [sapien fringilla]() nonummy. Mauris a ante. Suspendisse quam sem, consequat at.
+{% endnotice %}
 
 ## Fieldsets and Form Elements
 

@@ -1,11 +1,12 @@
 ---
-title: "Water Tension"
+title: "Water tension"
 excerpt: "Portrait of Marie M. digitally painted with Procreate on an iPad."
 last_modified_at:
 image: 
   path: &image /assets/images/marie-m-procreate.jpg
+  width: 1600
+  height: 900
   feature: *image
-  teaser:
   thumbnail: /assets/images/marie-m-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse]

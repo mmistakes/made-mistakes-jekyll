@@ -1,51 +1,44 @@
 {% unless page.comments_locked == true %}
-  <!-- Start new comment form -->
-  <div id="respond">
-    <header class="section-title">
-      <h3>Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h3>
-    </header>
-    <form id="comment-form" class="page__form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
-      <div class="form-group">
-        <label class="sr-only" for="comment-form-name"><strong>Name</strong></label>
-        <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Name">
-      </div>
-      <div class="form-group">
-        <label class="sr-only" for="comment-form-email"><strong>Email address</strong> <small>(used for <a href="http://gravatar.com">Gravatar</a> image and reply notifications)</small></label>
-        <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="Email address (used for Gravatar image)">
-      </div>
-      <div class="form-group">
-        <label class="sr-only" for="comment-form-url"><strong>Website</strong> <small>(optional)</small></label>
-        <input type="url" id="comment-form-url" name="fields[url]" placeholder="Website (optional)">
-      </div>
-      <div class="form-group">
-        <label class="sr-only" for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
-        <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Comment (Markdown is allowed)"></textarea>
-      </div>
-      <div class="form-group hidden" style="display: none;">
-        <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
-        <input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
-        <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
-        <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
-        <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
-        <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
-      </div>
-      <!-- Start comment form alert messaging -->
-      <p class="hidden js-notice">
-        <span class="js-notice-text"></span>
-      </p>
-      <!-- End comment form alert messaging -->
-      <div class="form-group">
-        <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
-        <label class="comment-reply-notifications" for="comment-form-reply">
-          <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
-          Notify me of replies by email.
+  <!-- Start comment form -->
+  <div id="respond" class="comment__form">
+    <h2 class="title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
+    <form id="comment-form" class="js-form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
+      <div class="form__group">
+        <label for="comment-form-name">Name
+          <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name">
         </label>
-        <button type="submit" id="comment-form-submit" class="btn">Send Comment</button>
+        <label for="comment-form-email">E-mail
+          <input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="email@domain.com">
+        </label>
+        <label for="comment-form-url">Website (optional)
+          <input type="url" id="comment-form-url" name="fields[url]" placeholder="https://domain.com">
+        </label>
       </div>
+      <div class="form__group">
+        <label for="comment-form-message">Comment
+          <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Your message"></textarea>
+        </label>
+      </div>
+      <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
+      <input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
+      <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+      <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+      <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+      <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
+      <!-- Start comment form alert messaging -->
+      <div class="hidden js-notice notice">
+        <p class="js-notice-text"></p>
+      </div>
+      <!-- End comment form alert messaging -->
+      <div class="g-recaptcha form__group" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+      <button type="submit" id="comment-form-submit">Send comment</button>
     </form>
   </div>
-  <!-- End new comment form -->
+  <!-- End comment form -->
   <script async src="https://www.google.com/recaptcha/api.js"></script>
 {% else %}
-  <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="/contact/">contact me</a>.</em></p>
+  <div class="notice">
+    <h4>Comments are closed</h4>
+    <p>If you have a question concerning the content of this page, please feel free to <a href="/contact/">contact me</a>.</p>
+  </div>
 {% endunless %}

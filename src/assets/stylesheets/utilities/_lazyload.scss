@@ -6,20 +6,13 @@
   display: none;
 }
 
-.blur-up {
-  filter: blur(10px);
-  transition: filter 400ms;
+/* fade image in after load */
+.lazyload,
+.lazyloading {
+	opacity: 0;
 }
 
-.blur-up.lazyloaded {
-  filter: blur(0);
-}
-
-.fade-in {
-  opacity: 0.25;
-  transition: opacity 400ms;
-}
-
-.fade-in.lazyloaded {
-  opacity: 1;
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
 }

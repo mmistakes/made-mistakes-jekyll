@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tag/
-title: "Tag Index"
+title: "Tag index"
 last_modified_at: 2017-06-19T09:19:44-04:00
 excerpt: "An archive of posts sorted by tag frequency."
 share: false
@@ -9,7 +9,7 @@ share: false
 
 {{ page.excerpt | markdownify }}
 
-<ul class="entries-columns">
+<ul class="entries__columns">
   {% assign sorted_tags = site.tags | sort_tags_by_name %}
   {% for tag in sorted_tags %}
     <li>

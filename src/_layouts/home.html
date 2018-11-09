@@ -2,15 +2,12 @@
 layout: default
 ---
 
-<main id="main" class="page-content" aria-label="Content">
+<main id="main" class="page__main" aria-label="Main content">
   {% if page.section %}
     <div class="sections">
       {% include section.html %}
     </div>
   {% endif %}
 
-  <div class="index inner">
-    <div>{{ content }}</div>
-    {% include_cached footer.html %}
-  </div>
+  {{ content }}
 </main>

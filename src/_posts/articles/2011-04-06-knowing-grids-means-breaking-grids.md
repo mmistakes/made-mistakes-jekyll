@@ -1,15 +1,18 @@
 ---
-title: "Knowing Grids Means Breaking Grids"
+title: "Knowing grids means breaking grids"
 excerpt: "Exploring what it means to develop a grid system that helps facilitate strong design with purpose."
 last_modified_at: 2013-04-26
 image: 
   path: &image /assets/images/knowing-grids-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/knowing-grids-teaser.jpg
   thumbnail: /assets/images/owh-grid-spread-340x340.jpg
 categories: [articles]
 tags: [critique, grid, design, inspiration, typography]
 support: false
+toc: true
 ---
 
 Of all the things to grab my attention, the grid system used in a women's health calendar was certainly not high on my list.
@@ -20,13 +23,13 @@ Sitting in 2D design and typography classes for 4 years of my life had a similar
 
 So what does all this nonsense have to do with a women's health calendar? Glad you asked because I was about a whole half seconds away from losing focus.
 
-## Three Columns, Two Typefaces --- Yeah I'm Down
+## Three columns two typefaces
 
 There is absolutely nothing about this cover that I don't like. It's been sitting on a chair in our dinning room for the past month and I always catch myself eye-ing it up. Shhh... don't tell my wife.
 
 The two punch knockout for me is the combination of serif headlines followed by sans-serif subheads. Whoever designed this made sure they didn't use some bunk freebie font because the ff ligature looks damn good in "office. A+.
 
-## Interior Spreads
+## Interior spreads
 
 Contrasting with the cover's wide 3 column grid, the interior pages opt for an even 4. While most pages keep a two column layout, the 4 grid system allows for plenty of variation to accommodate the calendar pages. It keeps a consistent measure in the column spaces and gutters as well, helping to create a nice mathematically derived horizontal rhythm.
 
@@ -34,7 +37,7 @@ Imagery on the right page does two things --- adds interest to a text heavy page
 
 Something I've been trying to do more of with my print grids, is adhering to a strict vertical rhythm. For the most part the OWH 2011 Calendar achieves this, but could use some minor line-height and spacing adjustments to align all baselines. So much easier to do in print than on the web unless you enjoy [the maths](http://www.alistapart.com/articles/settingtypeontheweb).
 
-## Getting Obvious with Fine Details
+## Getting obvious with fine details
 
 I often have a problem with adding to much complexity to a design as a way to give it depth. It's refreshing to see such a modern and minimal approach in this piece. A minor detail I'm willing to bet non-designers never noticed was the thought put into border shapes and frames. In each of the *health problems'* icons, the bottom corner is formed at a perfect 90 degree angle instead of rounded. This contrast in shape creates an arrow that helps direct you down to the next line of text.
 

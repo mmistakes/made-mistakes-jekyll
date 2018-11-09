@@ -1,7 +1,7 @@
 ---
-title: "Pogo Connect Stylus Sensitivity Fix"
+title: "Pogo Connect stylus sensitivity fix"
 excerpt: "How to adjust the pressure sensitivity of a Pogo Connect's tip with firmware v1.1.0."
-last_modified_at: 2017-12-13T12:06:31-05:00
+last_modified_at: 2018-11-06T11:59:22-05:00
 image:
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumbnail: /assets/images/pogo-connect-app-thumb.jpg
@@ -24,7 +24,7 @@ Isolating the cause is hard because so many factors had changed around the same 
 
 From my tests it seems to be related to the 1.1.0 firmware or the extra solder being used to keep the tip from busting off. Older Pogo's with the 1.0.6 firmware worked just fine with iOS 7 and updated apps.
 
-## But How Do You Fix It?
+## But how do you fix it?
 
 To begin, open **Paper by FiftyThree**[^pogo-paper] or your Pogo Connect supported app of choice, and press the button on the stylus to establish a connection.
 
@@ -44,8 +44,8 @@ After making these changes you can doodle around in the space below to verify th
 
 ![Pogo Connect app doodle test](/assets/images/pogo-connect-app-doodle.jpg)
 
-{% notice info %}
-#### ProTip: Sensitivity Settings
+{% notice %}
+#### ProTip: sensitivity settings
 
 Any sensitivity settings you made in the Pogo Connect app don't appear to "stick" if the apps go to sleep or you lose a connection with the stylus. Following these steps seems to work at restoring them when using Paper by FiftyThree:
 

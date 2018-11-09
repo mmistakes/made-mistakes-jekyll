@@ -1,9 +1,11 @@
 ---
-title: "Getting Lost in the Drab"
+title: "Getting lost in the drab"
 excerpt: "Portrait of Mr. Allan, digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-05T16:28:29-05:00
 image: 
   path: &image /assets/images/mr-allan-procreate.jpg
+  width: 2048
+  height: 1536
   feature: *image
   teaser: /assets/images/mr-allan-procreate-teaser.jpg
   thumbnail: /assets/images/mr-allan-procreate-250.jpg

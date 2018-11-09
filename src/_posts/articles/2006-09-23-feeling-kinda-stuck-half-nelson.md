@@ -1,13 +1,15 @@
 ---
-title: Feeling Kinda Stuck In A Half Nelson
+title: "Feeling kinda stuck in a Half Nelson"
 excerpt: "My impressions of the film Half Nelson, starring Ryan Gosling."
 image: 
   cover: false
   path: &image /assets/images/half-nelson-feature.jpg
+  width: 835
+  height: 399
   feature: *image
   teaser: /assets/images/half-nelson-teaser.jpg
   thumbnail: /assets/images/half-nelson-thumb.jpg
-  caption: "DVD screengrab from [**DB Cover**](http://www.dbcovers.com/image-of-half-nelson-2006-half_nelson_2006_1)"
+  caption: "DVD screengrab from [**DB Cover**]"
 categories: [articles]
 tags: [film, review, indie]
 support: false

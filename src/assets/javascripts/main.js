@@ -1,14 +1,14 @@
 // asynchronously load fonts
 WebFontConfig = {
   google: {
-    families: ["Fira Sans:400,400i,600,600i", "Roboto:400,400i,700"]
+    families: ["Alegreya:700", "Spectral:400,400i,700,700i"]
   }
 };
 
 // if( cookie( fullCSSKey ) ){
 //   (function(d) {
 //     var wf = d.createElement('script'), s = d.scripts[0];
-//     wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+//     wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js';
 //     s.parentNode.insertBefore(wf, s);
 //   })(document);
 // };
@@ -24,11 +24,41 @@ $(document).ready(function() {
   $("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']").attr("data-lity", "");
 
   // Bigfoot footnotes
-  var bigfoot = $.bigfoot();
+  var bigfoot = $.bigfoot({
+    actionOriginalFN: 'delete',
+    buttonMarkup: (
+      '<div class="bigfoot-footnote__container">' +
+      ' <button href="#" class="bigfoot-footnote__button" rel="footnote"' +
+      ' id="{{SUP:data-footnote-backlink-ref}}"' +
+      ' data-footnote-number="{{FOOTNOTENUM}}"' +
+      ' data-footnote-identifier="{{FOOTNOTEID}}"' +
+      ' alt="See Footnote {{FOOTNOTENUM}}"' +
+      ' data-bigfoot-footnote="{{FOOTNOTECONTENT}}">' +
+      ' <span class="visually-hidden">{{FOOTNOTENUM}}</span>' +
+      ' </button>' +
+      '</div>'
+    )
+  });
+
+  // Page cover object-fit fix
+  var userAgent, ieReg, ie;
+  userAgent = window.navigator.userAgent;
+  ieReg = /msie|Trident.*rv[ :]*11\./gi;
+  ie = ieReg.test(userAgent);
+
+  if(ie) {
+    $(".page__cover").each(function () {
+      var $container = $(this),
+          imgUrl = $container.find("img").prop("src");
+      if (imgUrl) {
+        $container.css("backgroundImage", 'url(' + imgUrl + ')').addClass("custom-object-fit");
+      }
+    });
+  }
 });
 
 // Animate sidebar menu items
-var menuItems = document.querySelectorAll("#sidebar li");
+var menuItems = document.querySelectorAll("#menu-main-navigation li");
 
 // Get vendor transition property
 var docElemStyle = document.documentElement.style;
@@ -46,24 +76,21 @@ function animateMenuItems() {
   }
 }
 
-var myWrapper = document.querySelector(".wrapper");
-var myMenu = document.querySelector(".sidebar");
-var myToggle = document.querySelector(".toggle");
-var myInitialContent = document.querySelector('.initial-content');
-var mySearchContent = document.querySelector('.search-content');
-var mySearchToggle = document.querySelector('.search-toggle');
+var myHeader = document.querySelector(".site__header");
+var myMenu = document.querySelector(".menu__overlay");
+var myToggle = document.querySelector(".menu__toggle");
 
-// Toggle sidebar visibility
+// Toggle overlay visibility
 function toggleClassMenu() {
   myMenu.classList.add("is--animatable");
   if (!myMenu.classList.contains("is--visible")) {
+    myHeader.classList.add("is--inverted");
     myMenu.classList.add("is--visible");
     myToggle.classList.add("open");
-    myWrapper.classList.add("is--pushed");
   } else {
+    myHeader.classList.remove("is--inverted");
     myMenu.classList.remove("is--visible");
     myToggle.classList.remove("open");
-    myWrapper.classList.remove("is--pushed");
   }
 }
 
@@ -71,39 +98,11 @@ function MenuOnTransitionEnd() {
   myMenu.classList.remove("is--animatable");
 }
 
-function SearchOnTransitionEnd() {
-  mySearchContent.classList.remove("is--animatable");
-}
-
 myMenu.addEventListener("transitionend", MenuOnTransitionEnd, false);
 myToggle.addEventListener("click", function() {
   toggleClassMenu();
   animateMenuItems();
-  mySearchToggle.classList.toggle('is--hidden');
 }, false);
-myMenu.addEventListener("click", function() {
-  toggleClassMenu();
-  animateMenuItems();
-}, false);
-mySearchContent.addEventListener("transitionend", SearchOnTransitionEnd, false);
-mySearchToggle.addEventListener('click', function () {
-  toggleClassSearch();
-}, false);
-
-// Toggle search input and content visibility
-function toggleClassSearch() {
-  mySearchContent.classList.add("is--animatable");
-  if (!mySearchContent.classList.contains("is--visible")) {
-    mySearchContent.classList.add('is--visible');
-    myInitialContent.classList.add('is--hidden');
-  } else {
-    mySearchContent.classList.remove('is--visible');
-    myInitialContent.classList.remove('is--hidden');
-  }
-  setTimeout(function () {
-    document.querySelector('.search-content input').focus();
-  }, 400);
-}
 
 // Static comments
 (function($) {
@@ -127,8 +126,8 @@ function toggleClassSearch() {
           .html("Submitted")
           .addClass("btn--disabled");
         $("#comment-form .js-notice")
-          .removeClass("notice--danger")
-          .addClass("notice--success");
+          .removeClass("danger")
+          .addClass("success");
         showAlert(
           '<strong>Thanks for your comment!</strong> It is <a href="https://github.com/mmistakes/made-mistakes-jekyll/pulls">currently pending</a> and will show on the site once approved.'
         );
@@ -137,8 +136,8 @@ function toggleClassSearch() {
         console.log(err);
         $("#comment-form-submit").html("Submit Comment");
         $("#comment-form .js-notice")
-          .removeClass("notice--success")
-          .addClass("notice--danger");
+          .removeClass("success")
+          .addClass("danger");
         showAlert(
           "<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again."
         );

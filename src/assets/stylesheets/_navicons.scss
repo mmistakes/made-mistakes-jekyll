@@ -3,20 +3,20 @@
    ========================================================================== */
 
 .navicon-button {
-  background-color: $navicon-nav-bg-close;
-  border: 0;
-  cursor: pointer;
+  position: relative;
   display: inline-block;
-  line-height: 5 * $navicon-height;
+  padding: 0;
   min-height: $site-image-height;
   outline: none;
-  padding: 0;
-  position: relative;
+  border: 0;
+  background-color: transparent;
+  line-height: 5 * $navicon-height;
+  cursor: pointer;
   transition: $navicon-duration / 2;
   user-select: none;
 
-  &.open {
-    background-color: $navicon-nav-bg-open;
+  &:focus {
+    outline: none;
   }
 
   .navicon::before,
@@ -24,7 +24,8 @@
     transition-duration: $navicon-duration / 2;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     transition-duration: $navicon-duration;
 
     .navicon::before,
@@ -33,32 +34,31 @@
     }
 
     .navicon::before {
-      top: (2.5 * $navicon-height);
+      left: 0;
     }
     .navicon::after {
-      top: (-2.5 * $navicon-height);
+      left: 0;
     }
   }
 }
 
 .navicon {
-  background: $navicon-content-bg;
-  border-radius: $navicon-width;
-  height: $navicon-height;
   position: relative;
-  transition-duration: $navicon-duration;
   width: $navicon-width;
+  height: $navicon-height;
+  background: $navicon-content-bg;
+  transition-duration: $navicon-duration;
 
   &::before,
   &::after {
-    background: $navicon-content-bg;
-    border-radius: $navicon-width;
-    content: "";
-    display: block;
-    height: $navicon-height;
+    content: '';
     position: absolute;
-    transition-duration: $navicon-duration $navicon-duration / 2;
+    left: -0.25em;
+    display: block;
     width: $navicon-width;
+    height: $navicon-height;
+    background: $navicon-content-bg;
+    transition-duration: $navicon-duration $navicon-duration / 2;
   }
 
   &::before {
@@ -82,39 +82,21 @@
     transition-duration: $navicon-duration;
   }
 
-  /* Arrows */
-  &.larr .navicon,
-  &.rarr .navicon,
-  &.uarr .navicon {
+  /* × */
+  .x .navicon {
+    background: transparent;
+
     &::before,
     &::after {
-      width: (0.6 * $navicon-width);
+      background: #fff;
     }
 
-    &::before {
-      transform: rotate(35deg);
-      transform-origin: left top;
-    }
-
-    &::after {
-      transform: rotate(-35deg);
-      transform-origin: left bottom;
-    }
+    &::before { transform: rotate(-45deg); }
+    &::after { transform: rotate(45deg); }
   }
 
-  &.uarr {
-    transform: scale($navicon-toggled-size) rotate(90deg);
-  }
-
-  &.rarr .navicon {
-    &::before {
-      transform: translate3d(1em, 0, 0) rotate(-35deg);
-      transform-origin: right top;
-    }
-
-    &::after {
-      transform: translate3d(1em, 0, 0) rotate(35deg);
-      transform-origin: right bottom;
-    }
+  .navicon::before,
+  .navicon::after {
+    left: 0;
   }
 }

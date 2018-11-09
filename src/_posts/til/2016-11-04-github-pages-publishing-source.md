@@ -1,5 +1,5 @@
 ---
-title: "Configuring Publishing Sources for GitHub Pages"
+title: "Configuring publishing sources for GitHub Pages"
 excerpt:
 image: 
   thumbnail: /assets/images/github-publishing-source-th.jpg

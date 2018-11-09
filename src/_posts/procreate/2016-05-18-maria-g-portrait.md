@@ -1,9 +1,11 @@
 ---
-title: "Nose Ring Oil"
+title: "Nose ring oil"
 excerpt: "Portrait of María G. digitally painted with Procreate on an iPad."
 last_modified_at: 2016-05-18T10:46:46-04:00
 image: 
   path: &image /assets/images/maria-g-procreate.jpg
+  width: 1600
+  height: 1200
   feature: *image
   teaser: /assets/images/maria-g-procreate-teaser.jpg
   thumbnail: /assets/images/maria-g-procreate-250.jpg

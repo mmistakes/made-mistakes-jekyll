@@ -4,6 +4,8 @@ excerpt: "Tiny portrait of a Star Wars Stormtrooper painted with watercolor on h
 last_modified_at: 2016-10-10T11:01:54-04:00
 image: 
   path: &image /assets/images/painting-stormtrooper.jpg
+  width: 1600
+  height: 1067
   feature: *image
   teaser: /assets/images/painting-stormtrooper-teaser.jpg
   thumbnail: /assets/images/painting-stormtrooper-250.jpg

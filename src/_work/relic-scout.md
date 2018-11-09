@@ -5,6 +5,8 @@ title: "Relic Scout"
 excerpt: "Site design and creative for Relic Scout -- an app to make collecting simpler, while saving you money."
 image: 
   path: &image /assets/images/relic-scout-home-feature.png
+  width: 1068
+  height: 487
   feature: *image
   teaser: /assets/images/relic-scout-teaser.png
   thumbnail: /assets/images/relic-scout-avatar.png

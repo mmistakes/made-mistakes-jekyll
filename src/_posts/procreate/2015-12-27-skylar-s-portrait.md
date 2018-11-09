@@ -1,9 +1,11 @@
 ---
-title: "Rough is Not Rough Enough"
+title: "Rough is not rough enough"
 excerpt: "Portrait of Skylár S. digitally painted with Procreate on an iPad."
 last_modified_at: 2015-12-27T00:00:00-00:00
 image: 
   path: &image /assets/images/skylar-s-procreate.jpg
+  width: 2048
+  height: 3072
   feature: *image
   teaser: /assets/images/skylar-s-procreate-teaser.jpg
   thumbnail: /assets/images/skylar-s-procreate-250.jpg

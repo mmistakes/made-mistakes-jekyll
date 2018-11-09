@@ -1,0 +1,255 @@
+/* ==========================================================================
+   Page
+   ========================================================================== */
+
+.page {
+  @include breakpoint($md-down) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  @include breakpoint($md-up) {
+    display: grid;
+    grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
+    grid-template-rows: 80px auto auto;
+    align-items: end;
+  }
+
+  @include breakpoint($xl-up) {
+    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
+  }
+}
+
+.page__title {
+  @include breakpoint($md-up) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    grid-column: 2 / span 4;
+    grid-row: 2 / 3;
+    margin-top: 0;
+    z-index: 10;
+  }
+
+  @include breakpoint($lg-up) {
+    grid-column : 2 / span 3;
+  }
+
+  .heading {
+    position: relative;
+    @include margin-top(3);
+    @include margin-bottom(0.5);
+    align-self: flex-start;
+    width: 100%;
+    color: #fff;
+    font-family: $alternate-font;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "kern" on, "liga" on, "clig" on, "calt" on;
+    line-height: 1.25;
+    z-index: 99;
+
+    @include breakpoint($md-up) {
+      padding-right: 5%;
+      font-size: 1.953em;
+    }
+
+    @include breakpoint ($lg-up) {
+      font-size: 2.441em;
+    }
+
+    span {
+      padding: 0 0.5em;
+      line-height: 1.5;
+      box-decoration-break: clone;
+      background-color: #000;
+    }
+  }
+}
+
+.page__meta {
+  font-family: $monospace-font;
+  font-size: 0.8em;
+  text-transform: uppercase;
+
+  @include breakpoint($md-up) {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 1;
+    @include margin-bottom(1);
+    align-self: start;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 2rem;
+      height: 3px;
+      @include margin-bottom(1);
+      background-color: $text-color;
+    };
+
+    span {
+      display: block;
+    }
+  }
+
+  @include breakpoint($lg-up) {
+    grid-column: 3 / 4;
+  }
+
+  .page__date {
+    @include breakpoint($md-down) {
+      &::before {
+        content: ' · ';
+      }
+    }
+  }
+}
+
+.page__cover {
+  @include margin-top(0.5);
+
+  @include breakpoint($md-down) {
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+
+  @include breakpoint($md-up) {
+    grid-column: 5 / 11;
+    grid-row: 1 / 4;
+    margin-top: 0;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+  }
+  @include breakpoint($lg-up) {
+    grid-column: 4 / 11;
+  }
+}
+
+.page__main {
+
+  @include breakpoint($md-up) {
+    grid-column: 3 / 7;
+    grid-row: 4 / span 1;
+    align-self: flex-start;
+    @include margin-top(2);
+  }
+
+  > h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include margin-top(2);
+    @include margin-bottom(1);
+
+    @include breakpoint($md-up) {
+      @include margin-top(3);
+    }
+  }
+
+  > h2,
+  h3 {
+    letter-spacing: -0.02em;
+  }
+
+  > h2 {
+    + h2,
+    + h3,
+    + h4,
+    + h5 {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    max-width: 35em;
+  }
+
+  > p:first-child {
+    @include margin-top(1);
+  }
+}
+
+.page__comments {
+  .title {
+    @include margin-top(3);
+  }
+}
+
+.page__comments-count {
+  @include breakpoint($md-down) {
+    &::before {
+      content: ' · ';
+    }
+  }
+}
+
+.page__aside {
+  @include breakpoint($md-up) {
+    grid-column: 8;
+    grid-row: 4;
+    align-self: start;
+    @include margin-top(2);
+
+    @supports (position: sticky) {
+      position: sticky;
+      top: 1em;
+    }
+  }
+
+  > * {
+    @include margin-top(1);
+  }
+
+  ul {
+    @include breakpoint($md-down) {
+      padding-left: 0.75em;
+    }
+  }
+
+  li {
+    font-family: $monospace-font;
+    font-size: 0.8em;
+  }
+
+  .title {
+    margin-top: 0;
+    margin-right: 0.5rem;
+    padding: 0;
+    font-size: 0.9em;
+  }
+}
+
+.page__toc {
+  @include breakpoint($md-down) {
+    display: none;
+  }
+}
+
+.page__taxonomy {
+  .title {
+    @include breakpoint($md-down) {
+      display: inline;
+    }
+  }
+
+  span {
+    display: inline-block;
+    margin-right: 1rem;
+    font-family: $monospace-font;
+    font-size: 0.8em;
+
+    @include breakpoint($md-up) {
+      display: block;
+
+      &::before {
+        content: '_';
+      }
+    }
+  }
+}

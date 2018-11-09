@@ -1,19 +1,22 @@
 ---
-title: "Urban Outfitters, Ya Typography Dun Goofed Again"
+title: "Urban Outfitters, ya typography dun goofed again"
 excerpt: "Glad to see improvements in the May 2011 Urban Outfitters catalog. Especially since I took a few issues with their typography last month."
 image: 
   path: &image /assets/images/UO-may11-feature.jpg
+  width: 1024
+  height: 512
   feature: *image
   teaser: /assets/images/UO-may11-teaser.jpg
   thumbnail: /assets/images/UO-MAY11-serifs-italics-340.jpg
 categories: [articles]
 tags: [catalog, critique, design, typography]
 support: false
+toc: true
 ---
 
 Glad to see improvements in the May 2011 Urban Outfitters catalog. Especially since I took [a few issues with the typography](/articles/typography-urban-outfitters/) and other design choices last month.
 
-## A Step in the Right Direction
+## A step in the right direction
 
 I was shocked to see product copy that was almost legible and set in a serif typeface instead of a sans ([P22 Underground](https://web.archive.org/web/20111111003402/http://www.p22.com/products/underground.html)). Plus they even made a half effort to number blocks of text with corresponding photographs on the page (see below for example). Although it would have been nice if they actually captioned the photographs so I don't have to think as much
 
@@ -21,7 +24,7 @@ I was shocked to see product copy that was almost legible and set in a serif typ
 ![Urban Outfitters May 2011 serifs and italics](/assets/images/UO-MAY11-serifs-italics.jpg)
 {% endfigure %}
 
-## How to Ruin Good Photography with Bad Typography
+## How to ruin good photography with bad typography
 
 Sullied by page spreads that are obviously more interested in making beautiful pictures than helping customers make informed buying decisions.
 

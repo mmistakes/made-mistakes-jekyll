@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Archive
+   ========================================================================== */
+
+.archive,
+.archive_work,
+.autopage_tags {
+  @include breakpoint($md-down) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  @include breakpoint($md-up) {
+    display: grid;
+    grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
+    align-items: end;
+  }
+
+  @include breakpoint($xl-up) {
+    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
+  }
+
+  .page__main {
+    @include breakpoint($md-up) {
+      grid-column: 3 / 9;
+    }
+
+    @include breakpoint($lg-up) {
+      grid-column: 3 / 9;
+    }
+  }
+
+  .entry__title {
+    margin-bottom: 0;
+  }
+
+  .heading {
+    @include margin-top(3);
+  }
+}

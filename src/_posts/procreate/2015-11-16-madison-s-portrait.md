@@ -1,9 +1,11 @@
 ---
-title: "That Vintage Look"
+title: "That vintage look"
 excerpt: "Portrait of Madison S., digitally painted with Procreate on an iPad."
 last_modified_at: 2015-11-16T11:48:50-05:00
 image: 
   path: &image /assets/images/madison-s-procreate.jpg
+  width: 3000
+  height: 4500
   feature: *image
   teaser: /assets/images/madison-s-procreate-teaser.jpg
   thumbnail: /assets/images/madison-s-procreate-250.jpg

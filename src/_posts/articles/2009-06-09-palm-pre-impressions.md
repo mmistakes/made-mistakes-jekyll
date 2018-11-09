@@ -1,5 +1,5 @@
 ---
-title: "The iPhone is Great, but the Palm Pre is More My Style"
+title: "The iPhone is great, but the Palm Pre is more my style"
 excerpt: "Quick impressions of the Palm Pre from a long time smartphone user."
 last_modified_at: 2018-02-09T08:54:48-05:00
 image: 
@@ -7,6 +7,7 @@ image:
   thumbnail: /assets/images/palm-pre-th.jpg
 categories: [articles]
 tags: [Palm Pre, iPhone, tech geek, review]
+toc: true
 ---
 
 Three days later I'm still impressed with the **Palm Pre**. As a user of Palm OS smartphones (Treo 600, Treo 650, Centro), I've come to rely on a proven feature set.

@@ -20,7 +20,7 @@
 
 // input field
 #goog-wm-qt {
-  @include breakpoint($medium) {
+  @include breakpoint($md-up) {
     display: inline-block;
     width: 70%;
   }
@@ -28,11 +28,11 @@
 
 // submit button
 #goog-wm-sb {
-  background-color: #000;
+  background-color: $text-color;
   color: #fff;
   font-weight: 700;
 
-  @include breakpoint($medium) {
+  @include breakpoint($md-up) {
     display: inline-block;
     margin-left: 1%;
     width: 29%;

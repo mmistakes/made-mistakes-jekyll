@@ -4,6 +4,8 @@ excerpt: "Tiny portrait of a Bith painted with watercolor on hot press paper."
 last_modified_at: 2016-10-10T11:22:24-04:00
 image: 
   path: &image /assets/images/painting-bith.jpg
+  width: 1600
+  height: 875
   feature: *image
   teaser: /assets/images/painting-bith-teaser.jpg
   thumbnail: /assets/images/painting-bith-250.jpg

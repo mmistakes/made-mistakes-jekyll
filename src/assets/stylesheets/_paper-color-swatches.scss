@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PAPER BY FIFTYTHREE  COLOR PALETTE SWATCHES
+   PAPER COLOR PALETTE SWATCHES
    ========================================================================== */
 
 .palette {
@@ -34,7 +34,7 @@
     margin: 0 auto;
     width: 60px;
 
-    @include breakpoint($medium) {
+    @include breakpoint($md-up) {
       height: 110px;
       width: 110px;
     }

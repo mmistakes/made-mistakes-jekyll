@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Home
+   ========================================================================== */
+
+.home {
+  @include breakpoint($md-down) {
+    .site__header,
+    .site__footer {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  @include breakpoint($md-up) {
+    display: grid;
+    grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
+    align-items: end;
+  }
+
+  @include breakpoint($lg-up) {
+    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
+  }
+
+  .page__main {
+    margin-top: 0;
+
+    @include breakpoint($md-up) {
+      grid-column: 1 / span 10;
+    }
+  }
+}

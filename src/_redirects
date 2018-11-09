@@ -1,0 +1,66 @@
+# ----------------------------------------------------------------------
+# Page redirects
+# ----------------------------------------------------------------------
+
+/about-made-mistakes /about/ 301
+/articles/blend-first-look /mastering-paper/pencil-first-look/ 301
+/articles/contour-drawing /mastering-paper/contour-drawing/ 301
+/articles/drawing-faces-paper-53 /mastering-paper/drawing-blank-faces/ 301
+/articles/face /articles/paperfaces-ipad-portrait-project/ 301
+/articles/faces-made-with-paper-ipad /articles/paperfaces-ipad-portrait-project/ 301
+/articles/how-to-draw-hair-paper-53 /mastering-paper/drawing-hair/ 301
+/articles/hpstr-jekyll-theme /work/hpstr-jekyll-theme/ 301
+/articles/madewithpaper-drawing-guide /mastering-paper/short-guide/ 301
+/articles/mastering-paper-53-guide /mastering-paper/ 301
+/articles/minimal-mistakes-jekyll-theme /work/minimal-mistakes-jekyll-theme/ 301
+/articles/paper-53-basics /mastering-paper/basics/ 301
+/articles/paper-53-book-review /mastering-paper/moleskine-book/ 301
+/articles/paper-53-drawing-sky-clouds /mastering-paper/drawing-clouds/ 301
+/articles/paper-53-drawing-textures /mastering-paper/drawing-textures/ 301
+/articles/paper-53-drawing-trees /mastering-paper/drawing-trees/ 301
+/articles/paper-53-drawing-water-waves /mastering-paper/drawing-water/ 301
+/articles/paper-53-introduction /mastering-paper/introduction-tool-guide/ 301
+/articles/paperfaces-portrait-gallery /paperfaces/ 301
+/articles/pencil-53-review /mastering-paper/pencil-53-review/ 301
+/articles/pogo-connect-sensitivity /mastering-paper/pogo-connect-sensitivity/ 301
+/articles/pogo-connect-smart-pen /mastering-paper/pogo-connect-smart-pen/ 301
+/articles/remix-me /mastering-paper/mix/ 301
+/articles/skinny-bones-jekyll /work/skinny-bones-jekyll/ 301
+/articles/so-simple-jekyll-theme /work/so-simple-jekyll-theme/ 301
+/blog /articles/ 301
+/blog/those-city-folk-in-animal-crossing-still-love-the-gossip /articles/animal-crossing-city-folk-impressions/ 301
+/code-highlighting-post/ /work/jekyll-themes/ 301
+/drawing-textures /mastering-paper/drawing-textures/ 301
+/hpstr /work/hpstr-jekyll-theme/ 301
+/lifestream/* /articles/ 301
+/mastering-paper/basic /mastering-paper/basics/ 301
+/minimal-mistakes /work/minimal-mistakes-jekyll-theme/ 301
+/paperfaces/lorenzo-raffio-portrait /paperfaces/lorenzo-portrait/ 301
+/paperfaces/slave-leia-jabba-the-hutt /paperfaces/slave-leia-jabba-the-hutt-portrait/ 301
+/portraits /paperfaces/ 301
+/procreate-paintings/jenyy-x-portrait /procreate-paintings/jenny-x-portrait/ 301
+/so-simple /work/so-simple-jekyll-theme/ 301
+/subscribe /support/ 301
+/tag/fiftythree /tag/paper-by-53/ 301
+/tags /tag/ 301
+/works /work/ 301
+
+# ----------------------------------------------------------------------
+# Sitemap redirects
+# ----------------------------------------------------------------------
+
+/sitemap.xml.gz /sitemap.xml 301
+/post-sitemap.xml /sitemap.xml 301
+/category-sitemap.xml /sitemap.xml 301
+
+# ----------------------------------------------------------------------
+# Feed redirects
+# ----------------------------------------------------------------------
+
+/atom /atom.xml 301
+/rss /atom.xml 301
+/feed.xml /atom.xml 301
+/everything.xml /atom.xml 301
+/articles-feed.xml /articles.xml 301
+/mastering-paper-feed.xml /mastering-paper.xml 301
+/paperfaces-feed.xml /paperfaces.xml 301

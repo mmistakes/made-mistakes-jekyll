@@ -1,10 +1,12 @@
 ---
-title: "iPad Portraits with Paper by FiftyThree"
-excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and the Paper by FiftyThree app."
+title: "iPad portraits with Paper for iOS"
+excerpt: "An experiment in humanizing the web — drawing a portrait everyday day using an iPad and Paper for iOS."
 last_modified_at: 2017-09-07T15:53:18-04:00
 image: 
   cover: false
   path: &image /assets/images/paperfaces-project-feature.jpg
+  width: 1280
+  height: 640
   feature: *image
   teaser: /assets/images/paperfaces-project-teaser.jpg
   thumbnail: /assets/images/paperfaces-project-250x250.jpg
@@ -12,11 +14,12 @@ categories: [articles]
 tags: [Paper by 53, iPad, drawing, illustration]
 comments: true
 comments_locked: true
+toc: true
 ---
 
 PaperFaces was an iPad drawing project by time traveling designer and illustrator Michael Rose --- that's me! It began in August 2012, when I started drawing portraits on my iPad using the [Paper by FiftyThree app](http://www.fiftythree.com/paper) and [ended exactly two years later]({% post_url /articles/2014-08-29-paperfaces-retrospective %}). 
 
-## Latest Portraits
+## Latest portraits
 
 The last batch of PaperFaces drawings along with in process sketches for each. They can also be found scattered across social media if you dig back far enough: [Twitter](https://twitter.com/mmistakes), [Instagram](http://instagram.com/mmistakes), and [Tumblr](http://mademistakes.tumblr.com).
 
@@ -30,9 +33,9 @@ The last batch of PaperFaces drawings along with in process sketches for each. T
 
 <div markdown="0"><a href="/paperfaces/" class="btn" style="margin-bottom:0;">View all PaperFaces Portraits</a></div>
 
-## Frequently Asked Questions
+## Frequently asked questions
 
-### Will You Draw Me?
+### Will you draw me?
 
 Unfortunately I am no longer taking volunteers for the project. <s>If you'd like to commission me to illustrate your Twitter avatar, recreate a photograph in my PaperFaces™ style, draw your pet dinosaur, or whatever, follow the link below.</s> I'm currently taking a break from drawing portraits as well. Sorry :-(
 
@@ -51,7 +54,7 @@ A few hours later, while grocery shopping with my wife, my iPhone started blowin
 
 When the count hit 700, I revised my initial goal of 365 to 730 (that's two a day for a year), due to the increased demand and not wanting to let anyone down. At around the same time, I started getting inquiries about the project, and whether I was accepting donations. At the suggestion of friends and some newfound supporters, I published this page to better explain the project and added PayPal buttons on the site for those who wanted to motivate me to keep the project going.
 
-### Why the Blank Faces?
+### Why the blank faces?
 
 When I began the project I attempted to draw each face as detailed and accurately as possible. Even though I'm classically trained in illustration and the fine arts, photo realism isn't really "my bag." Part of what attracted me to Paper by 53 was its small tool set, lack of zoom, and focused color palettes. Trying to interpret each portrait using these constraints helped me to stumble across the whole "blank face" look and grow as an artist.
 
@@ -61,7 +64,7 @@ When I began the project I attempted to draw each face as detailed and accuratel
 
 After drawing over 600 portraits with Paper my skills have matured and I've begun drawing the entire face. It has been a fun personal challenge to capture as much detail in as little time possible.
 
-### What's Your Process Like?
+### What's your process like?
 
 It all starts with a list. If there are paying commissions in the queue, I work on those portraits first. With over 2,300 portrait requests, I need a way to accurately check who has retweeted my initial post. I use [Favstar.fm](http://favstar.fm/) to view all my retweets and determine who is next, then grab their Twitter avatar and save it to my iPhone's camera roll. It's by no means a perfect system, and requests do fall through the cracks, but it's the best I've come up with so far.
 
@@ -75,22 +78,22 @@ And yes, I use a stylus. For the first 50 or so portraits I drew exclusively wit
 [lunatik]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
 [pogoconnect]: http://www.amazon.com/gp/product/B009K448L4/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B009K448L4
 
-### When are You Going to Stop?
+### When are you going to stop?
 
 At the moment, there is a *waiting list* of over 2,000. Now I know what you're thinking, "this dude is never going to draw all those." Well, you're probably right. Though I am making progress and have drawn just shy of {{ site.categories.paperfaces | size }} finished illustrations.
 
 Working my day job as a designer, then spending the rest of the evening with my wife and twin baby girls doesn't leave much free time. Since this project is a fun diversion for myself, I allot a few hours each night to draw a portrait or two. On average most portraits take me 1--2 hours to complete. It really depends on the complexity of the original photograph and how much detail I'm trying to capture.
 
-## Usage and Copyright
+## Usage and copyright
 
 Each PaperFaces portrait is protected under a [Creative Commons License](/terms/ "Attribution-NonCommercial 4.0 International"). That means they're free to use as avatars, share on social media, or print for personal use only.
 
-## Video Tutorials
+## Video tutorials
 
 I use the term "tutorial" loosely. What you'll find here are glorified slide shows highlighting various stages of PaperFaces drawings. To create these I take periodic screenshots on the iPad and then generate a slide show with them using Aperture for Mac OS X. It's not quite the same thing as a true speed painting video, but it does show how I attacked each of these portraits. I've also [documented my process](/mastering-paper/ "How I draw with Paper by 53 and an iPad") in the written form, if reading is  your thing.
 
-{% notice warning %}
-#### Video Process Update
+{% notice %}
+#### Video process update
 
 I've recently discovered [Reflector](http://www.reflectorapp.com/) which allows the screen of an iOS device to be mirrored on a Mac or PC via AirPlay. True speed painting videos here I come!
 {% endnotice %}
@@ -118,7 +121,7 @@ I've been completely humbled by all the support and attention coming my way sinc
   <li><a href="http://eichan68.tumblr.com"><img src="/assets/images/homage-eichan68-150.jpg" alt="PaperFaces homage drawn by @eichan68 on Instagram"></a></li>
 </ul>
 
-## Featured On
+## Featured on
 
 Just sharing the love with some links back to articles and galleries that have featured my PaperFaces artwork and story.
     
@@ -128,7 +131,8 @@ Just sharing the love with some links back to articles and galleries that have f
 * [15 Beautiful Faces Made with the Paper iPad app](http://www.obeymagazine.nl/graphic-design/illustraties/15-gezichten-paper-ipad-app/)
 * [22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad](http://www.businessinsider.com/gorgeous-ipad-art-2015-1)
 
-{% notice info %}
-#### Mastering Paper Tutorials
-Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper by FiftyThree](/mastering-paper/). You're welcome!
+{% notice %}
+#### Mastering Paper for iOS tutorials
+
+Since starting PaperFaces I've received a few inquiries on my illustration techniques --- so I wrote a guide for you called [Mastering Paper](/mastering-paper/). You're welcome!
 {% endnotice %}

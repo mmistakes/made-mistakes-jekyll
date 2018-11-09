@@ -1,8 +1,10 @@
 ---
-title: "Improving Static Comments with Jekyll & Staticman"
+title: "Improving static comments with Jekyll & Staticman"
 excerpt: "Using Staticman to add threaded comments and reply notifications to a static-based Jekyll site."
 image:
   path: &image /assets/images/improving-jekyll-static-comments-feature.jpg
+  width: 1790
+  height: 610
   feature: *image
   thumbnail: /assets/images/improving-jekyll-static-comments-th.jpg
   teaser: /assets/images/improving-jekyll-static-comments-teaser.jpg
@@ -11,6 +13,7 @@ categories: [articles]
 tags: [web development, GitHub, Jekyll, tutorial]
 comments: true
 comments_locked: true
+toc: true
 last_modified_at: 2018-03-11T13:57:09-04:00
 ---
 
@@ -43,15 +46,15 @@ comments:
         format      : "iso8601"
 ```
 
-{% notice info %}
-#### New Configuration Options
+{% notice %}
+#### New configuration options
 
 Be sure to check the [sample configuration file](https://github.com/eduardoboucas/staticman/blob/master/staticman.sample.yml) and [full list of parameters](https://staticman.net/docs/configuration) for setup ideas.
 
 For example you can configure multiple properties (comments, reviews, and other types of user-generated content), change commit message and request body text, enable email notifications, and much more from a `staticman.yml` file.
 {% endnotice %}
 
-### Remove/Add Staticman as a Collaborator
+### Remove/add Staticman as a collaborator
 
 I'm not entirely sure if doing the following was necessary. I encountered errors when submitting test comments and this appeared to solve the problem. It's possible I mis-configured something else and that was the real issue...
 
@@ -62,7 +65,7 @@ Either way, let me know about your experience upgrading from Staticman `v1` to `
 2. Added Staticman back as [collaborator]({% post_url /articles/2016-08-21-jekyll-static-comments %}#setting-up-staticman).
 3. Pinged the version 2 endpoint `https://api.staticman.net/v2/connect/{your GitHub username}/{your repository name}` to accept the collaboration invitation.
 
-### Update POST Endpoint in Comment Form
+### Update POST endpoint in comment form
 
 To `POST` correctly to Staticman, the `action` attribute in my comment form needed a small update. Changing `v1` to `v2` in [**_includes/page__comments.html**](https://github.com/mmistakes/made-mistakes-jekyll/blob/f0074b7b9e64b6d4b63dd13a371cedc576dae49d/src/_includes/page__comments.html#L34) and appending `/comments`[^property] to the end did the trick for me.
 
@@ -72,11 +75,11 @@ To `POST` correctly to Staticman, the `action` attribute in my comment form need
 
 [^property]: Site properties are optional. See Staticman documentation for details on [hooking up your forms](https://staticman.net/docs/#step-3-hook-up-your-forms).
 
-## Add Support for Threaded Comments
+## Add support for threaded comments
 
 Getting nested comments working was a big pain point for me. Numerous Liquid errors, trying to wrap my head around `for` loops inside of other `for` loops, array filters that broke things, and more --- took me a bit to figure out.
 
-### Add "Replying To" Identifier
+### Add "replying to" identifier
 
 To properly nest replies I needed a way of determining their hierarchy. I went with a field named `replying_to` and added it as an `allowedField` to my Staticman config file:
 
@@ -90,18 +93,18 @@ And to my comment form as a hidden field:
 <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
 ```
 
-{% notice info %}
-#### Update: Field Name Change
+{% notice %}
+#### Update: field name change
 
 After publishing this article I learned that [`options[parent]`](https://github.com/eduardoboucas/staticman/issues/42#issuecomment-262938831) is meant to identify subscription entries, and not comment lineage. I've since changed to `fields[replying_to]` and updated the article and sample code to reflect this.
 {% endnotice %}
 
-### Update Liquid Loops
+### Update Liquid loops
 
 To avoid displaying duplicates, I needed to exclude replies and only top level comments in the main loop. This seemed like the perfect use-case for Jekyll's `where_exp` filter:
 
-{% notice warning %}
-#### Where Expression Jekyll Filter
+{% notice %}
+#### Where expression Jekyll filter
 
 Select all the objects in an array where the expression is true. Jekyll v3.2.0 & later. **Example:** `site.members | where_exp: "item", "item.graduation_year == 2014"`
 {% endnotice %}
@@ -146,21 +149,21 @@ As you can see above, the "child" comment has `replying_to` data populated from 
 ![Parent comments only](/assets/images/staticman-parent-comments-only.png)
 {% endfigure %}
 
-{% notice info %}
-#### Note: Sort and Where Filters Don't Mix
+{% notice %}
+#### Note: `sort` and `where` filters don't mix
 
 I ran into strange behaviors and errors due to mixing a `sort` filter with `where` and `where_exp`. Came to the conclusion it was unnecessary as the items were already being sorted alphabetically based on their filenames, and removed the filter.
 
 I'm using the following: `filename: \"comment-{@timestamp}\"` structure. Your mileage may vary depending on how you name entries.
 {% endnotice %}
 
-{% notice info %}
-#### Note: Added Back `sort` Filter
+{% notice %}
+#### Note: added back `sort` filter
 
 Not exactly sure if it's a filesystem or OS thing, but building my site with Travis CI shuffled the order of comments. Applying `sort` to the `comments` assign was necessary to get everything in the correct chronological order.
 {% endnotice %}
 
-#### Displaying Nested Comments
+#### Displaying nested comments
 
 Here is what I was looking to accomplish... before the headaches started :anguished: :gun:
 
@@ -342,7 +345,7 @@ To solve this I placed a `capture` tag around the index variable to convert it f
 {% endfor %}{% endraw %}
 ```
 
-### Comment Reply HTML and JavaScript
+### Comment reply HTML and JavaScript
 
 Next up was to add some finishing touches to pull everything together.
 
@@ -378,11 +381,11 @@ A few minor variable name changes to Wordpress' `comment-reply.js` script was al
 ![Comment replies in action](/assets/images/comment-reply-animation.gif)
 {% endfigure %}
 
-## Add Support for Email Notifications
+## Add support for email notifications
 
 Compared to nesting comment replies, email notifications were a breeze to setup.
 
-### Update `staticman.yml` Configuration
+### Update `staticman.yml` configuration
 
 To ensure that links in notification emails are safe and only come from trusted domains, set `allowedOrigins` accordingly. 
 
@@ -394,13 +397,13 @@ allowedOrigins: ["mademistakes.com"]
 
 The domain(s) allowed here must match those passed from an `options.origin` field we're going to add in the next step. Only domains that match will trigger notifications to send, otherwise the operation will abort.
 
-{% notice warning %}
-#### ProTip: Use Your Own Mailgun Account
+{% notice %}
+#### ProTip: use your own Mailgun account
 
 The public instance of Staticman uses a [**Mailgun**](http://www.mailgun.com/) account with a limit of 10,000 emails a month. You are encouraged to create an account and add your own [Mailgun API and domain](https://staticman.net/docs/configuration#notifications.enabled) to `staticman.yml`. Be sure you encrypt both using the following endpoint: `https://api.staticman.net/v2/encrypt/{TEXT TO BE ENCRYPTED}`.
 {% endnotice %}
 
-### Update Comment Form
+### Update comment form
 
 To finish, add the following three fields to the comment `form`. 
 

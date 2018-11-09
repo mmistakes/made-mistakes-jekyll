@@ -4,6 +4,8 @@ excerpt: "Tiny portrait of Michael Rose painted with watercolor on hot press pap
 last_modified_at: 2016-10-10T11:19:28-04:00
 image: 
   path: &image /assets/images/painting-michael-rose.jpg
+  width: 1600
+  height: 915
   feature: *image
   teaser: /assets/images/painting-michael-rose-teaser.jpg
   thumbnail: /assets/images/painting-michael-rose-250.jpg

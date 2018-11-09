@@ -3,156 +3,64 @@
    ========================================================================== */
 
 .entry {
-  @include clearfix();
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
+  position: relative;
+  margin-bottom: 3em;
+}
 
-  &:not(:last-child) {
-    border-bottom: 1px solid $border-color;
+.entry__title {
+  margin-bottom: 0;
+  font-weight: 700;
+  line-height: 1.25;
+
+  @include breakpoint($md-up) {
+    font-size: 1.563em;
   }
 
-  a {
-    color: inherit;
+  a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
 
-.entry-title {
-  @include fluid-type($min-vw, $max-vw, 18px, 24px);
-  color: tint($text-color, 25%);
-  line-height: inherit;
-  margin-bottom: 0.5rem;
+.entry__meta {
+  @include margin-bottom(0.5);
+  font-family: $monospace-font;
+  font-size: 0.8em;
+  text-transform: uppercase;
 
-  a {
-    text-decoration: none;
-  }
-}
-
-.entry-meta {
-  @include fluid-type($min-vw, $max-vw, 12px, 16px);
-  display: none;
-  font-family: $headline-font-family;
-  margin-bottom: 1rem;
-
-  @include breakpoint($medium) {
-    display: block;
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  .byline-item {
-    white-space: nowrap;
-
-    &:not(:first-child) {
-      margin-left: 1.5rem;
-    }
-  }
-
-  .icon {
-    margin-right: 0.5em;
-    fill: $accent-color;
-  }
-}
-
-.entry-image {
-  border-radius: $border-radius;
-  display: block;
-  margin: 1em 0;
-  min-height: 100px;
-  width: 100%;
-}
-
-/*
-   Entry list
-   ========================================================================== */
-
-.entries {
-  .entry-title {
-    word-wrap: break-word; /* break long words that could overflow */
-
-    a:hover {
-      color: $accent-color;
-    }
-  }
-
-  .entry-excerpt {
-    @include breakpoint($medium) {
-      @include span(11 of 16);
-    }
-
-    /* normalize font sizes */
-    > * {
-      font-size: 1em;
-    }
-
-    /* remove space after last child element */
-    > *:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  .entry-content {
-    @include breakpoint($medium) {
-      @include span(11 of 16);
-    }
-
-    /* remove space after last child element */
-    > *:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  .entry-meta {
-    @include breakpoint($medium) {
-      @include span(5 of 16 last);
-      @include prefix(1 of 16);
-    }
-
-    ul {
-      @include list-unstyled();
-
-      @include breakpoint(max-width $medium) {
-        li {
-          display: inline-block;
-          margin-right: 1.5rem;
-        }
-      }
-
-      @include breakpoint($medium) {
-        li {
-          padding-bottom: 0.5rem;
-          white-space: nowrap;
-        }
-      }
-    }
-  }
-
-  > .summary {
-    > p:first-child {
-      font-size: 1.125em;
-      line-height: 1.625;
+  *:not(:first-child) {
+    &::before {
+      content: ' · ';
     }
   }
 }
 
-.entries-columns {
+.entry__image {
+  margin-bottom: 1em;
+}
+
+.entry__excerpt {
+  p::after {
+    content: ' […]';
+  }
+}
+
+.entries__columns {
   list-style: none;
   margin: 0;
   padding: 0;
 
-  @include breakpoint($medium) {
+  @include breakpoint($md-up) {
     display: grid;
     grid-column-gap: 2em;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($lg-up) {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -163,64 +71,9 @@
     justify-content: space-between;
     padding: 0.25em 0;
     text-decoration: none;
-
-    &:hover {
-      color: $accent-color;
-    }
   }
 
   .count {
     color: mix(#fff, $text-color, 25%);
   }
-}
-
-.entry-content {
-  > p:first-child {
-    font-family: $headline-font-family;
-    font-size: 1.125em;
-    line-height: 1.625;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: tint($text-color, 25%);
-  }
-}
-
-.entry-related,
-.entry-comments {
-  .section-title {
-    font-size: 1.563em;
-    margin-top: 4rem;
-    padding-top: 1rem;
-    position: relative;
-
-    &::before {
-      background-color: $border-color;
-      content: "";
-      height: 0.25em;
-      position: absolute;
-      top: -0.5em;
-      width: 3em;
-    }
-  }
-}
-
-/* Footnotes */
-.footnotes {
-  border-top: 1px solid $border-color;
-  font-size: 80%;
-  margin: 2rem 0;
-  padding-top: 1rem;
-}
-
-/* Read more link */
-.more-link {
-  font-size: 75%;
-  font-weight: bold;
-  text-decoration: none;
 }

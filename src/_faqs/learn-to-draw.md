@@ -11,6 +11,6 @@ I learn something new every time I drag my stylus or finger across the iPad's sc
 
 Dual majoring in graphic design and illustration at the [**Rochester Institute of Technology**](http://www.rit.edu/) with a minor in fine art, certainly helped as I took numerous drawing and painting classes. I have found memories of lugging huge 18 × 24\" pads of newsprint around campus to figure drawing classes where I learned the fundamentals of capturing 3-dimensional forms from hours of sketching live models.
 
-After graduating college I stopped practicing and found my drawing skills got really rust from laying dormant for 13 years. To get my skills back in shape I started a [365 project]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}) a few years ago after buying an iPad and discovering Paper by FiftyThree.
+After graduating college I stopped practicing and found my drawing skills got really rust from laying dormant for 13 years. To get my skills back in shape I started a [365 project]({% post_url /articles/2014-08-29-paperfaces-retrospective %}) a few years ago after buying an iPad and discovering Paper for iOS.
 
 Drawing everyday certainly helped me advance my skills, but I still have a lot to learn.

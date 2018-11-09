@@ -1,9 +1,11 @@
 ---
-title: "Basically Basic, a Jekyll Theme"
+title: "Basically Basic, a Jekyll theme"
 excerpt: "Your new Jekyll default theme."
 last_modified_at: 2018-02-06T11:15:59-05:00
 image: 
   path: &image /assets/images/jekyll-theme-basically-basic-feature.jpg
+  width: 1600
+  height: 694
   feature: *image
   thumbnail: /assets/images/jekyll-theme-basically-basic-th.jpg
   teaser: /assets/images/jekyll-theme-basically-basic-teaser.jpg
@@ -21,10 +23,13 @@ categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:
-  - label: "Jekyll Themes"
+  - label: "Work"
+    url: /work/
+  - label: "Jekyll themes"
     url: /work/jekyll-themes/
-order: 7
 support: true
+toc: true
+order: 7
 ---
 
 Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
@@ -49,4 +54,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE.md).
+This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE).

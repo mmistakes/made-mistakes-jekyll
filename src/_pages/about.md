@@ -5,10 +5,11 @@ last_modified_at: 2018-03-22T10:19:56-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
   path: &image /assets/images/about-michael-collage-2016.jpg
+  width: 1600
+  height: 640
   feature: *image
   teaser: /assets/images/about-teaser.jpg
-ads: false
-share: false
+toc: true
 ---
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York.
@@ -31,7 +32,7 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
 ![Michael Rose's tattoos](/assets/images/michael-rose-tattoos.png)
 {% endfigure %}
 
-## About the Site
+## About the site
 
 So what does this all have to do with **made mistakes** and why did I name the website this? 
 
@@ -41,7 +42,7 @@ In May of 2004 I purchased mademistakes.com, and threw up a Macromedia Flash spl
 
 I've since decided to abandon using a CMS in favor of black magick and [Jekyll](http://jekyllrb.com/) to [generate flat files]({% post_url /articles/2012-03-19-going-static %}) for improved performance and security. Building layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
 
-### How to Support Made Mistakes
+## How to support Made Mistakes
 
 I write tutorials and maintain a few [open source projects](https://github.com/mmistakes?utf8=%E2%9C%93&tab=repositories&q=&type=source&language=) for fun. If you've found any of them useful, here's how you can show thanks:
 
@@ -49,12 +50,12 @@ I write tutorials and maintain a few [open source projects](https://github.com/m
 2.  Buy anything at Amazon using [this link](https://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=mademist-20&linkId=P557QDXPWEYIZTDS) and I'll earn a small commission.
 3.  Send a donation via [PayPal](https://www.paypal.me/mmistakes) or [Square Cash](https://cash.me/$mmistakes).
 
-### Selected Interviews
+## Selected interviews
 
 - [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
 - [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
 
-### Honorable Mentions
+## Honorable mentions
 
 - [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
 - [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree

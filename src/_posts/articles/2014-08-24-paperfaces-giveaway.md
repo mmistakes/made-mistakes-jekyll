@@ -1,11 +1,13 @@
 ---
-title: "Win a Digital Drawing #MadeWithPaper Giveaway"
+title: "Win a digital drawing #MadeWithPaper giveaway"
 last_modified_at: 2017-05-08T15:45:03-04:00
 excerpt: "Enter to win a portrait of your choice drawn by Michael Rose in his signature PaperFaces style."
 categories: [articles]
 tags: [drawing, illustration, Paper by 53, iPad]
 image:
   path: &image /assets/images/paperfaces-contest.jpg
+  width: 1280
+  height: 402
   feature: *image
   teaser: /assets/images/paperfaces-contest-teaser.jpg
   thumbnail: /assets/images/paperfaces-contest-th.jpg
@@ -21,7 +23,7 @@ Entering the PaperFaces Giveaway is simple. **Contest has ended**: <s>Just fill 
 
 [^entry-types]: All entries will be verified for completion prior to randomly selecting winners. Following and then unfollowing will do you no good as those entries won't be counted in the giveaway.
 
-## Winning Portraits
+## Winning portraits
 
 {% figure caption:"Winners of my first PaperFaces portrait giveaway." class:"gallery-3-col" %}
 [![color portrait winner](/assets/images/paperfaces-harvydanger-twitter-600.jpg)]({% post_url /paperfaces/2014-09-02-harvydanger-portrait %})

@@ -1,21 +1,24 @@
 ---
-title: "Mastering Paper by FiftyThree: Faux Layer Technique"
-last_modified_at: 2017-12-13T16:20:06-05:00
-excerpt: "Discover the faux layer technique and how it can aid in sketching and tracing with Paper by FiftyThree."
+title: "Mastering Paper for iOS: faux layer technique"
+last_modified_at: 2018-11-06T12:05:21-05:00
+excerpt: "Discover the faux layer technique and how it can aid in sketching and tracing with Paper for iOS."
 categories: [mastering-paper]
 tags: [Paper by 53, tutorial, layers, erase]
 image:
   path: &image /assets/images/paper-53-faux-layers-feature.jpg
+  width: 1280
+  height: 450
   feature: *image
   teaser: /assets/images/paper-53-faux-layers-teaser.jpg
   thumbnail: /assets/images/paper-53-faux-layers-th.jpg
+toc: true
 ---
 
 Up until recently I would painstakingly erase and Blend away lines until I got them just right when drawing with Paper by FiftyThree.
 
 When [version 2.2](http://news.fiftythree.com/post/104844221313/paper-update-2-2-holiday-bonus-edition-happy) was released this past December, along with it came a Color Picker and a way to swap page colors whenever you wanted. Using these new features and a carefully mixed color, I'm going to show you how a "faux" layer can help with sketching and tracing.
 
-## Replicating the Background Color
+## Replicating the background color
 
 Have you noticed that the default page color in **Paper by FiftyThree** isn't a pure white? If you haven't here's a quick comparison between the two that makes the difference obvious.
 
@@ -40,7 +43,7 @@ Whichever way you end up choosing I suggest you drag this newly mixed off-white 
 ![dragging color swatches](/assets/images/paper-53-drag-color-swatch.jpg)
 {% endfigure %}
 
-## Setting the Background
+## Setting the background
 
 If you were to start sketching now it would look like you weren't drawing anything at all. To make these off-white lines more visible, we need to fill in the background with a contrasting color. In this example I went with a gray, but you can choose whatever color you want (we'll delete it later so don't agonize over the perfect color selection).
 
@@ -50,7 +53,7 @@ To fill in the background, simply drag a swatch from one of your palettes (or th
 ![dragging a color to the background](/assets/images/paper-53-filled-gray-background.jpg)
 {% endfigure %}
 
-## Sketching with White
+## Sketching with white
 
 Now the fun begins! Select the off-white color you sampled/mixed earlier and begin sketching.
 
@@ -60,13 +63,13 @@ Now the fun begins! Select the off-white color you sampled/mixed earlier and beg
 
 As you sketch don't worry about whether your strokes are perfect, they won't be part of the finished drawing so be loose and free with them.
 
-{% notice info %}
-#### ProTip: Sketch with the pencil tool
+{% notice %}
+#### ProTip: sketch with the pencil tool
 
 To yield the best results with the "faux" layer technique I suggest using the pencil tool. It blends into the default page color better than the harsh edges produced by the ink tools.
 {% endnotice %}
 
-## Tracing Your Drawing
+## Tracing your drawing
 
 {% figure caption:"Select a darker color to trace over the white sketch with." %}
 ![selecting a darker color](/assets/images/paper-53-tracing-layer-dark.jpg)
@@ -82,7 +85,7 @@ Using the rough sketch as a guide trace over the white lines with a tool and col
 
 In the example above I took the tracing one step further by adding dark shadows using a [cross-hatching technique]({% post_url /mastering-paper/2014-02-09-basics %}#ink-techniques). This step is completely optional, you really just want to establish enough contours and values to "inform" the drawing.
 
-## Erasing the Faux Layer
+## Erasing the faux layer
 
 {% figure caption:"Tap and hold on the Eraser tool and then select **Clear Page Color**." %}
 ![clear page color option](/assets/images/paper-53-clear-page.jpg)
@@ -102,7 +105,7 @@ Now you can continue adding to page by drawing and painting on top of what remai
 ![faux layer trick process animation](/assets/images/paper-53-faux-layers-process.gif)
 {% endfigure %}
 
-## Other Uses
+## Other uses
 
 Because I mostly do portrait work it never crossed my mind that this technique could have other applications.
 

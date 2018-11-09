@@ -1,10 +1,11 @@
 ---
-title: "Minimal Mistakes, a Jekyll Theme"
-headline: "Minimal Mistakes Theme"
+title: "Minimal Mistakes, a Jekyll theme"
 excerpt: "A flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server."
 last_modified_at: 2018-02-06T11:15:51-05:00
 image: 
   path: &image /assets/images/minimal-mistakes-3-feature.jpg
+  width: 1600
+  height: 710
   feature: *image
   thumbnail: /assets/images/minimal-mistakes-3-th.jpg
   teaser: /assets/images/minimal-mistakes-3-teaser.jpg
@@ -22,12 +23,15 @@ categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
 breadcrumbs:
-  - label: "Jekyll Themes"
+  - label: "Work"
+    url: /work/
+  - label: "Jekyll themes"
     url: /work/jekyll-themes/
 comments: true
 comments_locked: true
-order: 8
+toc: true
 support: true
+order: 8
 ---
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or your own server. 
@@ -38,7 +42,7 @@ Includes responsive layouts (`single`, `archive`, and `splash` pages) that look 
   <a href="https://mmistakes.github.io/minimal-mistakes/" onclick="ga('send', 'event', 'link', 'click', 'Preview Minimal Mistakes');" class="btn">Live Preview</a>
 </p>
 
-## Theme Features:
+## Theme features
 
 - Compatible with GitHub Pages
 - Several layout options (single, archive, splash pages)
@@ -57,4 +61,4 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt).
+This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE).

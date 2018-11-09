@@ -8,11 +8,13 @@
 .hidden {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0;
 }
 
 .is--visible {
   display: block !important;
   visibility: visible !important;
+  opacity: 1;
 }
 
 /* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
