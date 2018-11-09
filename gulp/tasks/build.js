@@ -21,7 +21,7 @@ gulp.task('site', done => {
     shell.exec('bundle exec jekyll build --config _config.yml,_config.dev.yml');
     done();
   } else if (argv.prod) {
-    // shell.exec('bundle exec jekyll algolia');
+    shell.exec('bundle exec jekyll algolia');
     shell.exec('bundle exec jekyll build');
     done();
   }
