@@ -1,14 +1,15 @@
 {
   "name": "made-mistakes",
-  "version": "1.1.0",
-  "description": "Made Mistakes built with Gulp + Jekyll + Travis CI",
+  "version": "1.2.0",
+  "description": "Made Mistakes built with Jekyll, Gulp, and Netlify.",
   "repository": {
     "type": "git",
     "url": "git://github.com/mmistakes/made-mistakes-jekyll.git"
   },
   "keywords": [
     "jekyll",
-    "gulp"
+    "gulp",
+    "netlify"
   ],
   "author": "Michael Rose",
   "license": "MIT",

@@ -16,7 +16,7 @@ _  ________ ____   _  ______________  _________
                 Visual Studio Code <https://code.visualstudio.com>
                 Adobe Creative Suite
                 Gulp <https://gulpjs.com>
-                Travis CI <https://travis-ci.org>
+                Netlify CI <https://www.netlify.com/>
                 SimpleIcon <http://www.flaticon.com>
                 Noun Project <https://thenounproject.com>
                 Algolia <https://www.algolia.com>

@@ -1,8 +1,8 @@
 # [Made Mistakes](https://mademistakes.com) Source Code
 
 This is the source code of Made Mistakes, a personal blog and portfolio built 
-with [Jekyll](http://jekyllrb.com), [Gulp](http://gulpjs.com/), and 
-[Travis CI](https://travis-ci.org/).
+with [Jekyll](http://jekyllrb.com) [Gulp](http://gulpjs.com/), and 
+[Netlify](https://www.netlify.com/).
 
 *Please note: Made Mistakes hasn't been "themed" like some of my other 
 [Jekyll repos](https://mademistakes.com/work/jekyll-themes/) and isn't compatible 

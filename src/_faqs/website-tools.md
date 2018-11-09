@@ -34,17 +34,13 @@ If you're really interested in the specifics of how the site is built I've made 
 
 ## Hosting and other stuff
 
-- Site deployment done via [**Travis CI**][travis-ci].
-- Web hosting provided by [**Media Temple**][media-temple] via their [Grid -- Shared Hosting][grid-plan] plan.
-- SSL provided by [**Cloudflare's**][cloudflare-ssl] free flexible SSL plan.
+- Site hosting and deployment via [**Netlify**][netlify].
 - Domain name registered with [**Hover**][hover].
 - Icons from [**SimpleIcon**][simpleicon] and [**Noun Project**][nounproject].
 
 [^files]: HTML, CSS, and JavaScript files along with images and other assets needed to render a web page.
 [sitemap]: https://github.com/jekyll/jekyll-sitemap
-[travis-ci]: https://travis-ci.org
-[media-temple]: http://bit.ly/1Ugg7nN
-[grid-plan]: https://mediatemple.net/webhosting/shared/
+[netlify]: https://www.netlify.com/
 [cloudflare-ssl]: https://www.cloudflare.com/ssl/
 [hover]: https://hover.com/E4nZJYVH
 [simpleicon]: http://www.flaticon.com
