@@ -22,7 +22,7 @@ gulp.task('site', done => {
     done();
   } else if (argv.prod) {
     // shell.exec('bundle exec jekyll algolia');
-    shell.exec('bundle exec jekyll build -- config _config.yml,_config.staging.yml');
+    shell.exec('bundle exec jekyll build --config _config.yml,_config.staging.yml');
     done();
   }
 });
