@@ -37,7 +37,7 @@ A good excuse to test how accessible the site is and fix any glaring issues.
 Discovered [**bigfoot.js**](http://bigfootjs.com/) a jQuery plugin used to make footnotes less visually distracting, didn't name `<button>` elements. Thankfully the button markup is configurable so I was able replace a set of presentational-only `<svg>` elements with unique names instead.
 
 ```javascript
-var bigfoot = $.bigfoot({
+{% raw %}var bigfoot = $.bigfoot({
     actionOriginalFN: 'delete',
     buttonMarkup: (
       '<div class="bigfoot-footnote__container">' +
@@ -51,7 +51,7 @@ var bigfoot = $.bigfoot({
       ' </button>' +
       '</div>'
     )
-  });
+  });{% endraw %}
 ```
 
 ### Color contrast is satisfactory
