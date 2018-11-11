@@ -90,10 +90,21 @@
         flex-basis: auto;
       }
 
+      &:not(:last-child) {
+        a {
+          @include breakpoint($md-up) {
+            margin-right: 1em;
+          }
+        }
+      }
+
       a {
         display: block;
-        margin-right: 2em;
-        @include margin-bottom(0.5);
+        margin-bottom: 0;
+
+        @include breakpoint($md-down) {
+          padding: 0.5em 0.5em 0.5em 0;
+        }
 
         &:hover {
           text-decoration: underline;
@@ -103,7 +114,9 @@
   }
 
   .copyright {
+    @include margin-top(0.25);
     font-family: $monospace-font;
+    font-size: 0.8em;
 
     p {
       margin-bottom: 0;

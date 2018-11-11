@@ -1,48 +1,46 @@
 <footer id="footer" class="site__footer">
   <ul class="menu">
-    <li><a href="/support/">Support me</a></li>
-    <li><a href="/faqs/">FAQs</a></li>
-    <li><a href="/terms/">Terms &amp; policies</a></li>
-    <li><a href="/sitemap/">Sitemap</a></li>
+    <li><a href="{{ '/support/' | relative_url }}">Support me</a></li>
+    <li><a href="{{ '/faqs/' | relative_url }}">FAQs</a></li>
+    <li><a href="{{ '/terms/' | relative_url }}">Terms &amp; policies</a></li>
+    <li><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></li>
+    {% if site.author.twitter %}
+      <li><a href="{{ site.author.twitter }}" rel="me">
+        <svg class="icon" width="16px" height="16px">
+          <use xlink:href="{{ 'icons.svg#icon-twitter' | prepend: 'assets/icons/' | relative_url }}"></use>
+        </svg>
+        <span class="visually-hidden">Twitter</span>
+      </a></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li><a href="{{ site.author.github }}" rel="me">
+        <svg class="icon" width="16px" height="16px">
+          <use xlink:href="{{ 'icons.svg#icon-github' | prepend: 'assets/icons/' | relative_url }}"></use>
+        </svg>
+        <span class="visually-hidden">GitHub</span>
+      </a></li>
+    {% endif %}
+    {% if site.author.instagram %}
+      <li><a href="{{ site.author.instagram }}" rel="me">
+        <svg class="icon" width="16px" height="16px">
+          <use xlink:href="{{ 'icons.svg#icon-instagram' | prepend: 'assets/icons/' | relative_url }}"></use>
+        </svg>
+        <span class="visually-hidden">Instagram</span>
+      </a></li>
+    {% endif %}
+    {% if site.feed.path %}
+      <li><a href="{{ site.feed.path }}" title="Atom Feed">
+        <svg class="icon" width="16px" height="16px">
+          <use xlink:href="{{ 'icons.svg#icon-rss' | prepend: 'assets/icons/' | relative_url }}"></use>
+        </svg>
+        <span class="visually-hidden">Feed</span>
+      </a></li>
+    {% endif %}
   </ul>
   <div class="copyright">
     {% if site.copyright %}
       {{ site.copyright | markdownify }}
     {% else %}
-      <p>
-        {% if site.author.twitter %}
-          <a href="{{ site.author.twitter }}" rel="me">
-            <svg class="icon" width="16px" height="16px">
-              <use xlink:href="{{ 'icons.svg#icon-twitter' | prepend: 'assets/icons/' | relative_url }}"></use>
-            </svg>
-            Twitter
-          </a>
-        {% endif %}
-        {% if site.author.github %}
-          <a href="{{ site.author.github }}" rel="me">
-            <svg class="icon" width="16px" height="16px">
-              <use xlink:href="{{ 'icons.svg#icon-github' | prepend: 'assets/icons/' | relative_url }}"></use>
-            </svg>
-            GitHub
-          </a>
-        {% endif %}
-        {% if site.author.instagram %}
-          <a href="{{ site.author.instagram }}" rel="me">
-            <svg class="icon" width="16px" height="16px">
-              <use xlink:href="{{ 'icons.svg#icon-instagram' | prepend: 'assets/icons/' | relative_url }}"></use>
-            </svg>
-            Instagram
-          </a>
-        {% endif %}
-        {% if site.feed.path %}
-          <a href="{{ site.feed.path }}" title="Atom Feed">
-            <svg class="icon" width="16px" height="16px">
-              <use xlink:href="{{ 'icons.svg#icon-rss' | prepend: 'assets/icons/' | relative_url }}"></use>
-            </svg>
-            Subscribe
-          </a>
-        {% endif %}
-      </p>
       <p>&copy; 2004&ndash;{{ site.time | date: '%Y' }} Michael Rose.</p>
     {% endif %}
   </div>
