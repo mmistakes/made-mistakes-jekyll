@@ -12,10 +12,10 @@ categories: [articles]
 tags: [Jekyll, Gatsby, web development, Netlify]
 comments: true
 toc: true
-last_modified_at:
+last_modified_at: 2018-11-12T16:50:04-05:00
 ---
 
-Laytely I've been toying with the idea of migrating from **Jekyll** to [**GatsbyJS**](https://www.gatsbyjs.org/) (more on that in a future post). Initial tests look promising, but there are [some issues](https://github.com/mmistakes/gatsby-test/issues/1) I'm still working through.
+Laytely I've been toying with the idea of migrating from [**Jekyll**](https://jekyllrb.com/) to [**GatsbyJS**](https://www.gatsbyjs.org/) (more on that in a future post). Initial tests look promising, but there are [some issues](https://github.com/mmistakes/gatsby-test/issues/1) I'm still working through.
 
 In the meantime I've taken new visual cues I originally built as [React components](https://reactjs.org/docs/react-component.html) in two experimental Gatsby site repos: [gatsby-wordpress-cms](https://github.com/mmistakes/gatsby-wordpress-cms) and [gatsby-test](https://github.com/mmistakes/gatsby-test), and adapted them here as standard HTML/CSS.
 
@@ -24,19 +24,19 @@ In the meantime I've taken new visual cues I originally built as [React componen
 In [Made Mistakes v12](https://github.com/mmistakes/made-mistakes-jekyll/releases/tag/12.0.0) text and image where large and readible, but didn't exactly fill the canvas elegantly. I wanted to change that with this design refresh.
 
 <figure>
-<p class="browser-frame">
-![Made Mistakes design before the refresh](/assets/images/mm-desktop-design-old.jpg)
-</p>
-<figcaption>Site design before the refresh.</figcaption>
+  <p class="browser-frame">
+    <img src="/assets/images/mm-desktop-design-old.jpg" alt="Made Mistakes design before the refresh">
+  </p>
+  <figcaption>Site design before the refresh.</figcaption>
 </figure>
 
 Since majority of the visitors to my site use modern browsers, I had a good excuse to play with `display: grid`. I've removed the [**Susy** mixins](http://oddbird.net/susy/) and most of the `float` based columns, which cut the amount of CSS I had to write considerably.
 
 <figure>
-<p class="browser-frame">
-![Made Mistakes design after the refresh](/assets/images/mm-desktop-design-new.jpg)
-</p>
-<figcaption>Site design after the refresh.</figcaption>
+  <p class="browser-frame">
+    <img src="/assets/images/mm-desktop-design-new.jpg" alt="Made Mistakes design after the refresh">
+  </p>
+  <figcaption>Site design after the refresh.</figcaption>
 </figure>
 
 To my eye this new layout breaks up the page better. Content comes into view earlier on the page, and there's plenty of room for ancillary information on the right. With a little `position: sticky` sprinkled on the `aside` column, internal skip links stay fixed in view --- when space allows.
