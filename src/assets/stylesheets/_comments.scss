@@ -83,10 +83,10 @@
 }
 
 .comment__form {
-  margin-bottom: 2em;
+  @include margin-bottom(2);
 
   .title {
-    margin-top: 1em;
+    @include margin-top(2);
   }
 }
 

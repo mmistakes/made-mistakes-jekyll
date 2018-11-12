@@ -146,10 +146,6 @@
   h6 {
     @include margin-top(2);
     @include margin-bottom(1);
-
-    @include breakpoint($md-up) {
-      @include margin-top(3);
-    }
   }
 
   > h2,
