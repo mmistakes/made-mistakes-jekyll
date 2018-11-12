@@ -83,6 +83,7 @@ kramdown:
   enable_coderay         : false
 highlighter              : rouge
 strict_front_matter      : true
+future                   : true
 keep_files:
   - .git
 include:
