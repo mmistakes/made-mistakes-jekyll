@@ -8,13 +8,13 @@ $border-radius: 0.125em;
 .browser-frame {
   position: relative;
   margin-bottom: 1.5em;
-  padding: calc(#{$browser-window-height} + 1em) 0 0;
+  padding: $browser-window-height 0 0;
   border: 1px solid #ccc;
   border-radius: $border-radius;
   box-shadow: 0 0.25em 1em rgba(#000, 0.25);
   background-color: #fff;
 
-  &::before {
+  &::after {
     content: "\2022\2022\2022";
     position: absolute;
     top: 0;
