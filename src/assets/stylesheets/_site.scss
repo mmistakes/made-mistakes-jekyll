@@ -25,11 +25,12 @@
 .site__name {
   display: inline-block;
   margin: 0;
+  height: 25px;
   color: #000;
   font-family: $alternate-font;
   font-size: 1em;
   font-weight: 700;
-  @include line-height(1);
+  line-height: 0;
   text-transform: uppercase;
 
   a {

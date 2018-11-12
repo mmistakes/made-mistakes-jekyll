@@ -33,11 +33,9 @@
       transition-duration: $navicon-duration / 2;
     }
 
-    .navicon::before {
-      left: 0;
-    }
+    .navicon::before,
     .navicon::after {
-      left: 0;
+      left: -0.25em;
     }
   }
 }
@@ -53,7 +51,7 @@
   &::after {
     content: '';
     position: absolute;
-    left: -0.25em;
+    left: 0;
     display: block;
     width: $navicon-width;
     height: $navicon-height;
