@@ -3,6 +3,7 @@ _site
 .asset-cache
 .bundle
 .DS_Store
+.jekyll-cache
 .jekyll-metadata
 .sass-cache
 .tmp
