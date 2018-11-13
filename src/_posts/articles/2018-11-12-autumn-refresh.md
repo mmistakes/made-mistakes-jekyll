@@ -1,6 +1,6 @@
 ---
 title: "Autumn refresh"
-excerpt: "Using CSS Grid Module to redesign a Jekyll site and further improve performance and accessibility."
+excerpt: "Using CSS Grid Layout Module to redesign a Jekyll site and further improve performance and accessibility."
 layout: post
 image:
   path: &image /assets/images/autumn-refresh-feature.jpg
@@ -12,7 +12,7 @@ categories: [articles]
 tags: [Jekyll, Gatsby, web development, Netlify]
 comments: true
 toc: true
-last_modified_at: 2018-11-12T16:50:04-05:00
+last_modified_at: 2018-11-12T19:00:35-05:00
 ---
 
 Laytely I've been toying with the idea of migrating from [**Jekyll**](https://jekyllrb.com/) to [**GatsbyJS**](https://www.gatsbyjs.org/) (more on that in a future post). Initial tests look promising, but there are [some issues](https://github.com/mmistakes/gatsby-test/issues/1) I'm still working through.
