@@ -12,10 +12,10 @@ categories: [articles]
 tags: [Jekyll, Gatsby, web development, Netlify]
 comments: true
 toc: true
-last_modified_at: 2018-11-12T19:00:35-05:00
+last_modified_at: 2018-11-12T19:56:57-05:00
 ---
 
-Laytely I've been toying with the idea of migrating from [**Jekyll**](https://jekyllrb.com/) to [**GatsbyJS**](https://www.gatsbyjs.org/) (more on that in a future post). Initial tests look promising, but there are [some issues](https://github.com/mmistakes/gatsby-test/issues/1) I'm still working through.
+Lately I've been toying with the idea of migrating from [**Jekyll**](https://jekyllrb.com/) to [**GatsbyJS**](https://www.gatsbyjs.org/) (more on that in a future post). Initial tests look promising, but there are [some issues](https://github.com/mmistakes/gatsby-test/issues/1) I'm still working through.
 
 In the meantime I've taken new visual cues I originally built as [React components](https://reactjs.org/docs/react-component.html) in two experimental Gatsby site repos: [gatsby-wordpress-cms](https://github.com/mmistakes/gatsby-wordpress-cms) and [gatsby-test](https://github.com/mmistakes/gatsby-test), and adapted them here as standard HTML/CSS.
 
