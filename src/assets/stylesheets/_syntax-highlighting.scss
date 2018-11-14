@@ -340,34 +340,29 @@ div.highlighter-rouge.language-shell_session,
 div.highlighter-rouge.language-terminal,
 div.highlighter-rouge.language-console {
   position: relative;
-  margin-bottom: 1.5em;
+  @include margin-bottom(1.5);
   padding: calc(#{$terminal-window-height} + 1em) 1em 1em;
   background-color: $base-color;
   border-radius: $border-radius;
-  border: 1px solid $border-color;
   box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
 
   &::before {
+    content: "\2022\2022\2022";
     position: absolute;
     top: 0;
     left: 0;
-    margin: 0;
     width: 100%;
-    content: '';
     height: $terminal-window-height;
-    background: mix($base-color, #fff, 25%);
-  }
-
-  &::after {
-    position: absolute;
-    top: -2px;
-    left: 0;
+    margin: 0;
     padding: (0.5 * $terminal-window-height) 0;
-    content: '\2022 \2022 \2022';
-    color: mix($base-color, #fff, 50%);
-    font-size: (1.5 * $terminal-window-height);
+    background: mix(#000, #fff, 25%);
+    color: mix(#000, #fff, 50%);
+    font-family: $monospace-font;
+    font-size: $terminal-window-height;
     line-height: 0;
     text-indent: (0.5 * $terminal-window-height);
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
   }
 
   .highlight {
