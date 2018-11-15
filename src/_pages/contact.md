@@ -16,8 +16,6 @@ If you have a question, please read my [frequently asked questions section](/faq
 - [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes/issues)
 - [So Simple Jekyll theme](https://github.com/mmistakes/so-simple-theme)
 - [Basically Basic Jekyll theme](https://github.com/mmistakes/jekyll-theme-basically-basic)
-- [HPSTR Jekyll theme](https://github.com/mmistakes/hpstr-jekyll-theme)
-- [Skinny Bones Jekyll theme](https://github.com/mmistakes/skinny-bones-jekyll)
 
 For anything else, use the contact form below.
 
