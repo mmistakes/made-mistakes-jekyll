@@ -14,7 +14,7 @@ tags: [web development, GitHub, Jekyll, tutorial]
 comments: true
 comments_locked: true
 toc: true
-last_modified_at: 2018-03-11T13:57:09-04:00
+last_modified_at: 2018-11-16T15:45:16-05:00
 ---
 
 In the months after ditching Disqus for a [static-based commenting system]({% post_url /articles/2016-08-21-jekyll-static-comments %}), [**Staticman**](https://staticman.net/) has matured with feature adds like *threaded comments* and *email notifications*.
@@ -178,6 +178,14 @@ I determined the easiest way of assigning a unique identifier to each parent com
 ```liquid
 {% raw %}{% assign index = forloop.index %}{% endraw %}
 ```
+
+{% notice %}
+#### Universally unique identifier
+
+I realize an index based unique identifier isn't the smartest way to go about this. I have a mix of comment data migrated from Disqus and pre Staticman generating UUIDs as `_id` variables, so this made sense. YMMV.
+{% endnotice %}
+
+*[YMMV]: Your mileage may vary
 
 Next I nested a modified copy of the "top-level comment" loop from before inside of itself --- to function as the "child" or `replies` loop.
 
