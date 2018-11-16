@@ -1,8 +1,7 @@
----
 id: comment-2832854279
 date: 2016-08-11T20:41:12Z
 updated: 2016-08-11T20:41:12Z
-post_id: "/articles/using-jekyll-2016"
+_parent: /articles/using-jekyll-2016/
 name: Antonio Ulloa
 url: # http://antonio.ulloa.mx/
 message: "Great post thank you!"

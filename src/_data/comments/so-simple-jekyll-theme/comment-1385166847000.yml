@@ -1,13 +1,12 @@
----
 replying_to: '9'
 id: comment-1135203891
 date: 2013-11-23T00:34:07Z
 updated: 2013-11-23T00:34:07Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Sure no problem, this is a fairly easy one to fix.\r\n\r\nIf you add a
   `display: block` declaration to `.entry-feature-image` along with a `max-width` you should
   be all set.\r\n\r\nI did a quick test in Google's Developer Tools on the theme demo
   site and it appeared to resize and center the image just fine."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

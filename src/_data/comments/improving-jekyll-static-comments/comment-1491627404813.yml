@@ -1,5 +1,5 @@
 _id: c2bc10e0-1c17-11e7-8045-f10619b22d43
-_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+_parent: /articles/improving-jekyll-static-comments/
 message: >-
   It looks it is impossible to implement public instance of mailgun for now,
   sadly.

@@ -1,9 +1,8 @@
----
 replying_to: '6'
 id: comment-1168858797
 date: 2013-12-18T16:19:20Z
 updated: 2013-12-18T16:19:20Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "There are a few spots where I didn't declare font-sizes on elements and
@@ -16,4 +15,4 @@ message: "There are a few spots where I didn't declare font-sizes on elements an
   download and install everything it needs and rebuild the modules.\r\n\r\nThat should hopefully
   clear everything up for you. I'm still new to Node and Grunt myself, so I'm by no
   means a pro."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

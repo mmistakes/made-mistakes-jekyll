@@ -1,8 +1,7 @@
----
 id: comment-1568359553
 date: 2014-09-01T06:02:45Z
 updated: 2014-09-01T06:02:45Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: aaronchiang
 url: ''
 message: "Hi, Michael, I got a warning on Jekyll 2.3.0. The `feed.xml` need change

@@ -1,12 +1,11 @@
----
 replying_to: '9'
 id: comment-1354135071
 date: 2014-04-24T20:44:22Z
 updated: 2014-04-24T20:44:22Z
-post_id: "/drawing-faces"
+_parent: /mastering-paper/drawing-faces/
 name: Michael Rose
 url: https://mademistakes.com/
 message: 'Thanks! RE: the square box. I drew it by placing a ruler on the screen
   and using a stylus. It takes some trial an error to get the placement but after
   that you can use it as "template" over and over again by duplicating it.'
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

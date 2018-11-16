@@ -1,9 +1,8 @@
----
 replying_to: '4'
 id: comment-1059369642
 date: 2013-09-26T02:33:53Z
 updated: 2013-09-26T02:33:53Z
-post_id: "/pogo-connect-smart-pen"
+_parent: /mastering-paper/pogo-connect-smart-pen/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Let me know how your fourth stylus goes. My replacement seems OK so far.
@@ -14,4 +13,4 @@ message: "Let me know how your fourth stylus goes. My replacement seems OK so fa
   a shame, because I really like the tip and how it handles with Paper by 53. I'd
   love to give the Jot Touch 4 a go, but it's not supported by Paper, and I don't
   use Procreate or any of the dozen other apps it works with all that much."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

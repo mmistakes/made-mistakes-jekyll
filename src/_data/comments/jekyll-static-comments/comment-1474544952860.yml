@@ -1,3 +1,4 @@
+_parent: /articles/jekyll-static-comments/
 replying_to: '4'
 message: "@Arnab,\r\n\r\nI'm sure Staticman could be \"bended\" to support threaded comments, but it would take some work on your end. Off the top of my head I'd probably do something similar to how Wordpress adds **reply** links to each comment.\r\n\r\nThat could be used to create a variable that references the comment # being replied to. Which you'd send with the rest of the comment data to Staticman, adding it the YAML Front Matter.\r\n\r\nThen in the comment Liquid code you'd add some sort of check for that variable and if present on the current comment, pull in any replies. Probably using something like [the `where` filter](https://www.siteleaf.com/blog/advanced-liquid-where/)."
 name: Michael Rose

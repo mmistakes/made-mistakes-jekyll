@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1199207931
 date: 2014-01-13T23:01:20Z
 updated: 2014-01-13T23:01:20Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Alessandro Amato del Monte
 url: ''
 message: "Ok so I tried a few things and:\r\n\r\n1. i need to run jquery 1.71. Looks

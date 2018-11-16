@@ -1,8 +1,7 @@
----
 id: comment-1570687470
 date: 2014-09-02T18:39:51Z
 updated: 2014-09-02T18:39:51Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: fred
 url: ''
 message: "Hi, I've forked hpstr and I'm working to make it RTL'ed! I've made

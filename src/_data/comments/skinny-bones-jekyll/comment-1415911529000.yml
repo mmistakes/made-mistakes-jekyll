@@ -1,11 +1,10 @@
----
 replying_to: '3'
 id: comment-1691933189
 date: 2014-11-13T20:45:29Z
 updated: 2014-11-13T20:45:29Z
-post_id: "/skinny-bones-jekyll"
+_parent: /work/skinny-bones-jekyll/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You're welcome. It's definitely my favorite out of the two. Way more
   fleshed out than my older Jekyll themes."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

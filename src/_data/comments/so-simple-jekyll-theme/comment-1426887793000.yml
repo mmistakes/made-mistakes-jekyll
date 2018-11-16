@@ -1,13 +1,12 @@
----
 replying_to: '15'
 id: comment-1918873513
 date: 2015-03-20T21:43:13Z
 updated: 2015-03-20T21:43:13Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You can assign tags to a post in the YAML Front Matter and then sort
   on those. See the example posts on the demo site to see how I did it.\r\n\r\nIf you
   want something more dynamic and automatic you'll need to build or install a Jekyll
   plugin."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,9 +1,8 @@
----
 replying_to: '6'
 id: comment-1168300703
 date: 2013-12-18T03:20:44Z
 updated: 2013-12-18T03:20:44Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks man!\r\n\r\nChanging the the font-size on the .highlight class
@@ -24,4 +23,4 @@ message: "Thanks man!\r\n\r\nChanging the the font-size on the .highlight class
   modify the grunt tasks or just remove it all together. That's what I'm using on
   this site (see my Made Mistakes repo to lift the grunt tasks).\r\n\r\nLet me know
   how it goes and if you hit any other hiccups."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

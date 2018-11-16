@@ -1,11 +1,10 @@
----
 replying_to: '7'
 id: comment-1351651200
 date: 2014-04-23T11:52:49Z
 updated: 2014-04-23T11:52:49Z
-post_id: "/drawing-faces"
+_parent: /mastering-paper/drawing-faces/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks for the feedback Miguel. Looking at the responses so far, pretty
   sure I'll be doing a tutorial on facial features next."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

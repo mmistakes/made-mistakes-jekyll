@@ -1,4 +1,5 @@
 _id: a6bffac0-0400-11e7-a7a9-e79dd357dba9
+_parent: /articles/improving-jekyll-static-comments/
 replying_to: '11'
 message: "I had the same issue. Apparently there was an API change with the latest release of Staticman. In the form, changing`options[reCaptcha][encryptedSecret]` to `options[reCaptcha][secret]` fixed it for me.\r\n\r\nThere's an [open issue](https://github.com/eduardoboucas/staticman/issues/20#issuecomment-284151035) on the Staticman repo if that doesn't end up solving it for you."
 name: Michael Rose

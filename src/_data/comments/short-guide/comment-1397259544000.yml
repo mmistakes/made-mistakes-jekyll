@@ -1,13 +1,12 @@
----
 replying_to: '7'
 id: comment-1332558301
 date: 2014-04-11T23:39:04Z
 updated: 2014-04-11T23:39:04Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "That is good to hear.\r\n\r\nFor now Pencil is the only stylus that enables
   the Blend feature. I really hope they add the ability to other Bluetooth enabled
   styli at some point. Or make so you can toggle it on/off even if you don't use a
   stylus."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

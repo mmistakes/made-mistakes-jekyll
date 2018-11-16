@@ -1,13 +1,12 @@
----
 replying_to: '9'
 id: comment-1763323579
 date: 2014-12-29T17:52:06Z
 updated: 2014-12-29T17:52:06Z
-post_id: "/moleskine-book"
+_parent: /mastering-paper/moleskine-book/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Yes you can save your Paper pages to the Camera Roll. You have to pinch
   the page you want to export so it zooms out some. Then 3 buttons should appear below
   it, the middle one with the Share icon is what you want. Tap that and swipe over
   to the right one screen to reveal the \"Save to Camera Roll\" button."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

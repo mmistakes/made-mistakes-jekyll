@@ -1,10 +1,9 @@
----
 replying_to: '13'
 id: comment-2244375227
 date: 2015-09-09T14:27:00Z
 updated: 2015-09-09T14:27:00Z
-post_id: "/basics"
+_parent: /mastering-paper/basics/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You're welcome Laura! Glad you've found them useful."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,10 +1,9 @@
----
 replying_to: '6'
 id: comment-1309205930
 date: 2014-03-29T03:23:18Z
 updated: 2014-03-29T03:23:18Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Yes. Any time you connect Pencil to Paper it unlocks all of the tools."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

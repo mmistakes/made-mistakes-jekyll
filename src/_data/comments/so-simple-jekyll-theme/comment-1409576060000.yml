@@ -1,11 +1,10 @@
----
 replying_to: '14'
 id: comment-1568738800
 date: 2014-09-01T12:54:20Z
 updated: 2014-09-01T12:54:20Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You can remove `layout: none` from the YAML Front Matter in `feed.xml` to
   make the warning go away."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

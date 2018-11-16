@@ -1,5 +1,5 @@
 _id: 28daaeb0-2a2b-11e7-9eac-4b33388ae63e
-_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+_parent: /articles/improving-jekyll-static-comments/
 message: "Did that as well, and all I get is \r\n\r\n~~~\r\n[]\r\n~~~"
 name: Matt Seemon
 email: 09d1cc2c678124c06dd0ab1a0351f665

@@ -1,4 +1,5 @@
 _id: 338b2a30-031e-11e7-9cfb-db5ce023a11d
+_parent: /articles/improving-jekyll-static-comments/
 message: >-
   Can I know when timestamp value is made in comment data file? It is hard to
   check it but looks important to show the comment order correctly.

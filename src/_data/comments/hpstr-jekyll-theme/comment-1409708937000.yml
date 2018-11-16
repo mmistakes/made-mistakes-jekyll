@@ -1,9 +1,8 @@
----
 replying_to: '9'
 id: comment-1571312347
 date: 2014-09-03T01:48:57Z
 updated: 2014-09-03T01:48:57Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Those characters are added using `:after` pseudo classes on the list items
@@ -14,4 +13,4 @@ message: "Those characters are added using `:after` pseudo classes on the list i
   around line 101.\r\n\r\nTo swap the icon you'll need to find the one you want and
   use the corresponding Unicode. For example, to flip `>`
   to `<` you'd change `\\f105` to `\\f104`.\r\n\r\nHope this helps."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,3 +1,4 @@
+_parent: /articles/jekyll-static-comments/
 replying_to: '5'
 message: "Since Markdown is supported you can write something like:\r\n\r\n```markdown\r\n![title](image.jpg)\r\n```\r\n\r\nTo add images to a comment."
 name: Michael Rose

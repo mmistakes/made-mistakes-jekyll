@@ -1,9 +1,8 @@
----
 replying_to: '5'
 id: comment-1025687774
 date: 2013-09-01T22:46:00Z
 updated: 2013-09-01T22:46:00Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Marlon Cabrera
 url: ''
 message: "I see no styles too. How did you fixed it?"

@@ -1,9 +1,8 @@
----
 replying_to: '9'
 id: comment-1578688684
 date: 2014-09-08T00:43:18Z
 updated: 2014-09-08T00:43:18Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I'm using a [Pogo Connect stylus](https://mademistakes.com/mastering-paper/pogo-connect-smart-pen/) to get a thinner stroke with the Paper's
@@ -18,4 +17,4 @@ message: "I'm using a [Pogo Connect stylus](https://mademistakes.com/mastering-p
   noting, if you have an iPad Air or Retina Mini I wouldn't bother with a Pogo Connect.
   They have horrible support and barely work since Apple changed the technology behind
   their screens."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

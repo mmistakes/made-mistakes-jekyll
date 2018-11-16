@@ -1,4 +1,5 @@
 _id: 04dbef80-ea73-11e6-ad79-4f1d9783ac7b
+_parent: /articles/jekyll-static-comments/
 replying_to: '8'
 message: "@Michael\r\n\r\nProblem has been resolved by changing \r\n\r\n```\r\nstaticman:\r\n     path: \"/_data/comments/{options.slug}\"\r\n```\r\n\r\nto\r\n\r\n```\r\nstaticman:\r\n    path: \"_data/comments/{options.slug}\"\r\n```"
 name: Nur Andi Setiabudi

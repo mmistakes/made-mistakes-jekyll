@@ -1,9 +1,8 @@
----
 replying_to: '5'
 id: comment-1121070288
 date: 2013-11-13T11:55:39Z
 updated: 2013-11-13T11:55:39Z
-post_id: "/minimal-mistakes-jekyll-theme"
+_parent: /work/minimal-mistakes-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I've created a few Jekyll themes after this one so forgive me if I jumble
@@ -22,4 +21,4 @@ message: "I've created a few Jekyll themes after this one so forgive me if I jum
   to help customize. For the most part if you bump around `typography.less`, `page.less`,
   and `variables.less` you should be able to do some simple modifications to suit your
   taste."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

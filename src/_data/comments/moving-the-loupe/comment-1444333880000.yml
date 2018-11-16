@@ -1,11 +1,10 @@
----
 replying_to: '3'
 id: comment-2297134488
 date: 2015-10-08T19:51:20Z
 updated: 2015-10-08T19:51:20Z
-post_id: "/moving-the-loupe"
+_parent: /mastering-paper/moving-the-loupe/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "FiftyThree removed the zoom loupe in version 3.0. Pinching now zooms
   the entire canvas."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

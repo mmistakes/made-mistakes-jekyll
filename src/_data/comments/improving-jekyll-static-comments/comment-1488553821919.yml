@@ -1,4 +1,5 @@
 _id: 851dd670-0023-11e7-b7bc-a598a5c84f44
+_parent: /articles/improving-jekyll-static-comments/
 replying_to: '9'
 message: "My understanding is `options[parent]` are `options[origin]` are two different things, the later used to track which thread you're currently subscribed to. But not entirely sure if that's how it works since I haven't had a lot of luck fully testing email notifications.\r\n\r\nLet me know if you get a notification once this comment is merged in and posted."
 name: Michael Rose

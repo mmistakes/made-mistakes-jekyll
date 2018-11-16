@@ -1,11 +1,10 @@
----
 replying_to: '6'
 id: comment-1869638815
 date: 2015-02-22T20:47:28Z
 updated: 2015-02-22T20:47:28Z
-post_id: "/drawing-textures"
+_parent: /mastering-paper/drawing-textures/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Sadly Paper only has the single layer, which can make it quite challenging
   to use in certain situations."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

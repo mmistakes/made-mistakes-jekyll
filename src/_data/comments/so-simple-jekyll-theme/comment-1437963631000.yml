@@ -1,9 +1,8 @@
----
 replying_to: '17'
 id: comment-2158574880
 date: 2015-07-27T02:20:31Z
 updated: 2015-07-27T02:20:31Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Take a look at the [sample posts](https://github.com/mmistakes/so-simple-theme/tree/master/docs/_posts) in the GitHub repo for the theme. You
@@ -11,4 +10,4 @@ message: "Take a look at the [sample posts](https://github.com/mmistakes/so-simp
   \r\n\r\nAnd then on the tags
   page it groups them [like this](http://mmistakes.github.io/so-simple-theme/tags/). If you want a page for each tag with the related
   posts listed you'll have to use a Jekyll plugin to do that."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

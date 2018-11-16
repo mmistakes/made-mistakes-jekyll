@@ -1,9 +1,8 @@
----
 replying_to: '27'
 id: comment-1924389862
 date: 2015-03-24T00:24:19Z
 updated: 2015-03-24T00:24:19Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I've used cheap Smart Cover knockoffs and that's about it. In all the
@@ -12,4 +11,4 @@ message: "I've used cheap Smart Cover knockoffs and that's about it. In all the
   mentioned they mess with the responsiveness of rubber tipped styli. They don't look
   or feel all that great either. The screens are pretty tough and can take some abuse.
   Just don't go dropping them on asphalt and you'll be fine."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

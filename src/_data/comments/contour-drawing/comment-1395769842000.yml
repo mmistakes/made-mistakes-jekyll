@@ -1,13 +1,12 @@
----
 replying_to: '3'
 id: comment-1302010421
 date: 2014-03-25T17:50:42Z
 updated: 2014-03-25T17:50:42Z
-post_id: "/contour-drawing"
+_parent: /mastering-paper/contour-drawing/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You do it exactly how you described it. Drag the color onto the background
   and release. One thing to note is it's not a fill. If you have something on the
   canvas already it will cover it all up with whatever color you drag over.\r\n\r\nThis
   page explains how to fill the page with color](https://support.fiftythree.com/hc/en-us/articles/201721151-Using-Color#fill-with-color) if you need more detail."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

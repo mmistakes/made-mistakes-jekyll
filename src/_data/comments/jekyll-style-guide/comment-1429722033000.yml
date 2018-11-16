@@ -1,9 +1,8 @@
----
 replying_to: '2'
 id: comment-1981586445
 date: 2015-04-22T17:00:33Z
 updated: 2015-04-22T17:00:33Z
-post_id: "/jekyll-style-guide"
+_parent: /articles/jekyll-style-guide/
 name: Karlon Cromwell
 url: ''
 message: "Let me try it and see."

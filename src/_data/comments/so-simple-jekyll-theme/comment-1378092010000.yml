@@ -1,9 +1,8 @@
----
 replying_to: '5'
 id: comment-1025961767
 date: 2013-09-02T03:20:10Z
 updated: 2013-09-02T03:20:10Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Marlon Cabrera
 url: ''
 message: "I am working locally. It is working now, thank you so much!"

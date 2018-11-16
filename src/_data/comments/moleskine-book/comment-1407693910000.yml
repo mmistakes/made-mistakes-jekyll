@@ -1,11 +1,10 @@
----
 replying_to: '5'
 id: comment-1536326395
 date: 2014-08-10T18:05:10Z
 updated: 2014-08-10T18:05:10Z
-post_id: "/moleskine-book"
+_parent: /mastering-paper/moleskine-book/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "As far as I know yes they can be ordered and shipped internationally.
   Don't know if every country is supported but a good majority of them are."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

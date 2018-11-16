@@ -1,9 +1,8 @@
----
 replying_to: '8'
 id: comment-1476317574
 date: 2014-07-09T13:14:13Z
 updated: 2014-07-09T13:14:13Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Yes that's correct. When you connect Pencil to Paper it unlocks the tools,
@@ -13,4 +12,4 @@ message: "Yes that's correct. When you connect Pencil to Paper it unlocks the to
   you could just connect a friend's Pencil to your iPad once and have the tools for
   free. It's not a big deal if you actually own Pencil and use it -- the tools will
   stay unlocked that way."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

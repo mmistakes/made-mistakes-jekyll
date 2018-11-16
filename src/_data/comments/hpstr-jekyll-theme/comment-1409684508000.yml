@@ -1,11 +1,10 @@
----
 replying_to: '9'
 id: comment-1570722155
 date: 2014-09-02T19:01:48Z
 updated: 2014-09-02T19:01:48Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Did you edit `main.min.css` or `main.css`? The theme uses the minified version
   so if you only made changes to `main.css` that's why they're not showing up."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

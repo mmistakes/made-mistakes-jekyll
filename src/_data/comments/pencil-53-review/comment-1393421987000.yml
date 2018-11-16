@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1261296640
 date: 2014-02-26T13:39:47Z
 updated: 2014-02-26T13:39:47Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I use a smart cover for my iPad when carrying it around to protect it
@@ -15,4 +14,4 @@ message: "I use a smart cover for my iPad when carrying it around to protect it
   you press. I've worn out both of the tips that Pencil shipped with. They're not
   the most durable I've used, but they're not awful either. If you draw a lot and
   press hard you will go through them pretty fast."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

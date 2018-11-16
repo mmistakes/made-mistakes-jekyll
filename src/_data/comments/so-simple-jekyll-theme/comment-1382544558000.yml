@@ -1,13 +1,12 @@
----
 replying_to: '6'
 id: comment-1093881377
 date: 2013-10-23T16:09:18Z
 updated: 2013-10-23T16:09:18Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I'm not too familiar with RedCarpet but I'm guessing it doesn't support
   that shortcut for applying classes. Kramdown does which is what I use for Markdown
   with the theme.\r\n\r\nIf you don't want to switch, adding HTML to your Markdown
   file is always an option."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,10 +1,9 @@
----
 replying_to: '1'
 id: comment-1121844898
 date: 2013-11-13T20:21:35Z
 updated: 2013-11-13T20:21:35Z
-post_id: "/moleskine-book"
+_parent: /mastering-paper/moleskine-book/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks for the encouraging words and for reading. I appreciate it!"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

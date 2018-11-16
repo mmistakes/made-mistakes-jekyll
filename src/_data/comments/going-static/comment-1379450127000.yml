@@ -1,9 +1,8 @@
----
 replying_to: '2'
 id: comment-1048401718
 date: 2013-09-17T20:35:27Z
 updated: 2013-09-17T20:35:27Z
-post_id: "/going-static"
+_parent: /articles/going-static/
 name: picajoso
 url: ''
 message: "Thanks for the feedback Michael, I agree with you, at first it seems

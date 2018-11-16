@@ -1,10 +1,9 @@
----
 replying_to: '16'
 id: comment-1969186238
 date: 2015-04-15T18:16:58Z
 updated: 2015-04-15T18:16:58Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Follow the [setup guide](https://mmistakes.github.io/so-simple-theme/theme-setup/)."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

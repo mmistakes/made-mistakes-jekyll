@@ -1,9 +1,8 @@
----
 replying_to: '7'
 id: comment-1096354517
 date: 2013-10-25T14:05:00Z
 updated: 2013-10-25T14:05:00Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "If you want buttons to be centered \"globally\" then you''ll need to mess
@@ -11,4 +10,4 @@ message: "If you want buttons to be centered \"globally\" then you''ll need to m
   button you could wrap it in a `div` that has CSS to `text-align: center` and that should
   do the trick. If you look at the `.pagination` wrapper that includes the next and
   previous post links and that's how I centered them."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

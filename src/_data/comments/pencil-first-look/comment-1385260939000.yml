@@ -1,9 +1,8 @@
----
 replying_to: '5'
 id: comment-1136545145
 date: 2013-11-24T02:42:19Z
 updated: 2013-11-24T02:42:19Z
-post_id: "/pencil-first-look"
+_parent: /mastering-paper/pencil-first-look/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks Lauren.\r\n\r\nTo answer your question, yes you need to have a
@@ -13,4 +12,4 @@ message: "Thanks Lauren.\r\n\r\nTo answer your question, yes you need to have a
   blend.\r\n\r\nFor blend to work you need Pencil connected. When it's connected to
   Paper you can only draw with it. Using your finger or another stylus will smudge
   and blur whatever you touch."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

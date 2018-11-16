@@ -1,9 +1,8 @@
----
 replying_to: '4'
 id: comment-1135145419
 date: 2013-11-22T23:26:12Z
 updated: 2013-11-22T23:26:12Z
-post_id: "/pencil-first-look"
+_parent: /mastering-paper/pencil-first-look/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Pressure sensitivity is a huge one for me. I simply can't get thinner
@@ -25,4 +24,4 @@ message: "Pressure sensitivity is a huge one for me. I simply can't get thinner
   like the dreaded lens flare filter in Photoshop, but it really does have promise.
   As does the eraser on top. I could see that gaining new abilities by way of simple
   app updates."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,13 +1,12 @@
----
 replying_to: '2'
 id: comment-985848176
 date: 2013-08-02T14:36:12Z
 updated: 2013-08-02T14:36:12Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Yeah I'm pretty sure that's the only difference. As far as I know the
   tips are the same, which is all that really matters. The alloy pens are probably
   heavier because of the material, but that shouldn't affect drawing too much.\r\n\r\nYou
   should be fine getting the cheaper plastic one and saving your money."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

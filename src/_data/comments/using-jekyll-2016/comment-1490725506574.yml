@@ -1,5 +1,5 @@
 _id: de00fc80-13e3-11e7-a79e-7d9f47323e85
-_parent: 'https://mademistakes.com/articles/using-jekyll-2016/'
+_parent: /articles/using-jekyll-2016/
 message: "Until I get the time to write things up officially take a look at my [Gulp tasks](https://github.com/mmistakes/made-mistakes-jekyll/tree/master/gulp/tasks). They do all of the heavy lifting.\r\n\r\nI basically use Travis CI to fire up Gulp to build the site, once that finishes it starts a [deploy Gulp task](https://github.com/mmistakes/made-mistakes-jekyll/blob/master/gulp/tasks/uploading.js) which uses [gulp-rsync](https://github.com/jerrysu/gulp-rsync) to transfer everything.\r\n\r\nThere's a whole mess of options which you can set. You have to specifically use the `--delete` flag if you want to delete extraneous files from destination dirs. Which is nice since it gets around the issue you encountered above. It also has `--dry-run` which is good for testing."
 name: Michael Rose
 email: 1ce71bc10b86565464b612093d89707e

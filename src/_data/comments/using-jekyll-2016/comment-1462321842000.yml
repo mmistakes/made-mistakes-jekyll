@@ -1,8 +1,7 @@
----
 id: comment-2656798750
 date: 2016-05-04T00:30:42Z
 updated: 2016-05-04T00:30:42Z
-post_id: "/articles/using-jekyll-2016"
+_parent: /articles/using-jekyll-2016/
 name: Ricardo N Feliciano
 url: https://feliciano.tech/
 message: "Lots of info in one post. Great job."

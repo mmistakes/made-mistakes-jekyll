@@ -1,11 +1,10 @@
----
 replying_to: '28'
 id: comment-2131914954
 date: 2015-07-12T16:07:32Z
 updated: 2015-07-12T16:07:32Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Those are the new **Think Kit** tools. Just swipe left on them to get at
   the other tools (marker, pens, pencil, etc.)"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

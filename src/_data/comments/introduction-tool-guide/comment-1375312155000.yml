@@ -1,10 +1,9 @@
----
 replying_to: '1'
 id: comment-983166195
 date: 2013-07-31T23:09:15Z
 updated: 2013-07-31T23:09:15Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Stay tuned, even more tricks coming."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,9 +1,8 @@
----
 replying_to: '7'
 id: comment-1330678477
 date: 2014-04-10T23:03:33Z
 updated: 2014-04-10T23:03:33Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Hi Rahat. What you've described is quite common so you're not alone. I
@@ -20,4 +19,4 @@ message: "Hi Rahat. What you've described is quite common so you're not alone. I
   modify Pencils's behavior by tapping the 53 circle in the upper right corner, tapping
   Pencil, and then flipping Finger between \"Blend\" and \"Nothing\" depending on if you
   want to use it or not."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,13 +1,12 @@
----
 replying_to: '14'
 id: comment-1317511298
 date: 2014-04-03T23:05:26Z
 updated: 2014-04-03T23:05:26Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks for the tip I'll have to keep it in mind.\r\n\r\nI rarely use my
   Pencil these days since I prefer the stroke enhancements a pressure sensitive stylus
   like a Pogo Connect offers. I wonder if it would work with the Pogo's special tips
   or interfere with them."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

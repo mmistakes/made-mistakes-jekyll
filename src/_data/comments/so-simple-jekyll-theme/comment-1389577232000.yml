@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1197946279
 date: 2014-01-13T01:40:32Z
 updated: 2014-01-13T01:40:32Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Just a quick question before I take a closer look at the GalleryView
@@ -12,4 +11,4 @@ message: "Just a quick question before I take a closer look at the GalleryView
   plugins, so that would explain why they're not working for you.\r\n\r\nTo use them
   you have to generate your Jekyll site locally first and then deploy the files in
   `_site`"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

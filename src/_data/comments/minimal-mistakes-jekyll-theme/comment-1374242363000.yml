@@ -1,10 +1,9 @@
----
 replying_to: '1'
 id: comment-968909883
 date: 2013-07-19T13:59:23Z
 updated: 2013-07-19T13:59:23Z
-post_id: "/minimal-mistakes-jekyll-theme"
+_parent: /work/minimal-mistakes-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks sir!"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

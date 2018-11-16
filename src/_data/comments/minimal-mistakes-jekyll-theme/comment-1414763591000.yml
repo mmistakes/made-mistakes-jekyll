@@ -1,10 +1,9 @@
----
 replying_to: '9'
 id: comment-1663038741
 date: 2014-10-31T13:53:11Z
 updated: 2014-10-31T13:53:11Z
-post_id: "/minimal-mistakes-jekyll-theme"
+_parent: /work/minimal-mistakes-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Eagle eyes. That's for the bad link catch."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

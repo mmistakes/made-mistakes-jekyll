@@ -2,7 +2,7 @@
 id: comment-1685693799
 date: 2014-11-10T13:28:44Z
 updated: 2014-11-10T13:28:44Z
-post_id: "/going-static"
+_parent: /articles/going-static/
 name: Samuel Sosina
 url: http://sosina.me/
 message: "Ive been thinking about using Jekyll for my new portfolio and your article

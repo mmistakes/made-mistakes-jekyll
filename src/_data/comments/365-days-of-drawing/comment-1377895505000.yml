@@ -1,10 +1,9 @@
----
 replying_to: '1'
 id: comment-1023735704
 date: 2013-08-30T20:45:05Z
 updated: 2013-08-30T20:45:05Z
-post_id: "/365-days-of-drawing"
+_parent: /articles/365-days-of-drawing/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Good catch. Thanks!"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

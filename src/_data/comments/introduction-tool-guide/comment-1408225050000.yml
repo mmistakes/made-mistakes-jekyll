@@ -1,11 +1,10 @@
----
 replying_to: '21'
 id: comment-1545963352
 date: 2014-08-16T21:37:30Z
 updated: 2014-08-16T21:37:30Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "If you swipe up from the bottom of the screen it should bring the tool
   palette back."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

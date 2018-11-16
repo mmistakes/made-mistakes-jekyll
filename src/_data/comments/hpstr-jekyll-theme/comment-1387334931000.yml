@@ -1,8 +1,7 @@
----
 id: comment-1168277096
 date: 2013-12-18T02:48:51Z
 updated: 2013-12-18T02:48:51Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Mitch Pronschinske
 url: ''
 message: "Amazing theme. I am constantly in awe that this is how my blog looks.\r\n\r\nOne question: a problem I haven't been able to solve...\r\n\r\nI've tried modifying the **pygments.less** `.font(15);` section to make the code snippet text bigger and I've tried to make the entire blog's body font bigger in **variables.less** `@doc-font-size:

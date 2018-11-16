@@ -1,9 +1,8 @@
----
 replying_to: '10'
 id: comment-1687684676
 date: 2014-11-11T13:20:41Z
 updated: 2014-11-11T13:20:41Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: hacke2
 url: ''
 message: "Thanks, I modified the `main.min.css`..."

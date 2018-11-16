@@ -1,3 +1,4 @@
+_parent: /faqs/website-tools/
 message: >-
   Anton, you can't use most Jekyll plugins when you use GH Pages. However, if
   you're willing to rig your repository to use [Travis CI](https://travis-ci.org/)

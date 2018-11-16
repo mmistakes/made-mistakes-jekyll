@@ -1,8 +1,7 @@
----
 id: comment-2482043395
 date: 2016-01-27T23:55:01Z
 updated: 2016-01-27T23:55:01Z
-post_id: "/going-static"
+_parent: /articles/going-static/
 name: Gavin Engel
 url: ''
 message: 'You might want to investigate Strongloop Loopback Gateway in front of

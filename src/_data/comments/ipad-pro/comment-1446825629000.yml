@@ -1,12 +1,11 @@
----
 replying_to: '4'
 id: comment-2345958429
 date: 2015-11-06T16:00:29Z
 updated: 2015-11-06T16:00:29Z
-post_id: "/ipad-pro"
+_paper: /articles/ipad-pro/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I've started adding a *palette* layer to my Procreate works so I can quickly
   sample and switch colors. Not quite the same as an always visible palette toolbar,
   but it helps."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1198322409
 date: 2014-01-13T13:06:33Z
 updated: 2014-01-13T13:06:33Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Looks like you're using Github Pages then. There are two ways to host
@@ -18,4 +17,4 @@ message: "Looks like you're using Github Pages then. There are two ways to host
     well](http://davidensinger.com/2013/04/deploying-jekyll-to-github-pages/) and also explains how you can automate things with rake.\r\n\r\nAnd yes. The plugins
   should still work locally. I'll take a look at your repo when I get a chance to
   see if something jumps out to me."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

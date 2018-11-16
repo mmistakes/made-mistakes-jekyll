@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1198827633
 date: 2014-01-13T19:15:51Z
 updated: 2014-01-13T19:15:51Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Re-read your original comment, doesn't seem like it's a plugin issue...
@@ -13,4 +12,4 @@ message: "Re-read your original comment, doesn't seem like it's a plugin issue..
   effectively. But my guess is there is a jQuery or script conflict somewhere in the
   code. If you open the web inspector on a page that doesn't load the gallery correctly,
   do you see any JavaScript errors?"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

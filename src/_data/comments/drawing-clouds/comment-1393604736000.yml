@@ -1,13 +1,12 @@
----
 replying_to: '7'
 id: comment-1264542291
 date: 2014-02-28T16:25:36Z
 updated: 2014-02-28T16:25:36Z
-post_id: "/drawing-clouds"
+_parent: /mastering-paper/drawing-clouds/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "This looks pretty good to me!\r\n\r\nCityscapes is a good one. I've done
   a few buildings and such that I could probably turn into a tutorial. Drawing buildings
   can get complicated fast, especially when trying to get the correct perspective
   and all that."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

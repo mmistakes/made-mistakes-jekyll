@@ -1,9 +1,8 @@
----
 replying_to: '2'
 id: comment-2438690300
 date: 2016-01-04T11:53:54Z
 updated: 2016-01-04T11:53:54Z
-post_id: "/jekyll-style-guide"
+_parent: /articles/jekyll-style-guide/
 name: Karlon Cromwell
 url: ''
 message: "Not good :("

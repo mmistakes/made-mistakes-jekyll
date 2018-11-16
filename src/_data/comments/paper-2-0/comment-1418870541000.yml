@@ -1,9 +1,8 @@
----
 replying_to: '4'
 id: comment-1747810444
 date: 2014-12-18T02:42:21Z
 updated: 2014-12-18T02:42:21Z
-post_id: "/paper-2-0"
+_parent: /mastering-paper/paper-2-0/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I've seen a few bring it up that the Bamboo doesn't let you blend anymore.
@@ -12,4 +11,4 @@ message: "I've seen a few bring it up that the Bamboo doesn't let you blend anym
   thicker nub if blending with your finger isn't an option. I only use my finger so
   I can't really say if it's gotten better with recent updates or not. I tend to use
   all of the tools as they were designed rather than fighting with the app."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e
