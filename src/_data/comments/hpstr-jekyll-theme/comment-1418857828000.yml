@@ -1,12 +1,11 @@
----
 replying_to: '11'
 id: comment-1747573522
 date: 2014-12-17T23:10:28Z
 updated: 2014-12-17T23:10:28Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Looks like you found a bug in the CSS. When I converted the menu styles
   into Sass partials I must have left out a few declarations that used to display
   the menu expanded when JS is disabled. I just pushed a [quick fix to GitHub](https://github.com/mmistakes/hpstr-jekyll-theme/commit/c731e8cc825e22f235450968aad1d86a985bc20f)."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

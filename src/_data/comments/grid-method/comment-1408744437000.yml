@@ -1,9 +1,8 @@
----
 replying_to: '2'
 id: comment-1555094041
 date: 2014-08-22T21:53:57Z
 updated: 2014-08-22T21:53:57Z
-post_id: "/grid-method"
+_parent: /mastering-paper/grid-method/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Nice! I love Jekyll.\r\n\r\nAdd me to the list of those wanting support
@@ -13,4 +12,4 @@ message: "Nice! I love Jekyll.\r\n\r\nAdd me to the list of those wanting suppor
   metal and plastic ones I have laying around the house. They either slide around
   too much on the iPad's glass screen or they register as a touch and won't let you
   draw on the screen at the same time."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

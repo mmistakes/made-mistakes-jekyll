@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1948898232
 date: 2015-04-06T13:13:14Z
 updated: 2015-04-06T13:13:14Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Ron
 url: ''
 message: "Cool. Thanks very much!"

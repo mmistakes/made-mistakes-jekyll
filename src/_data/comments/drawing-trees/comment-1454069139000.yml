@@ -1,10 +1,9 @@
----
 replying_to: '6'
 id: comment-2484661104
 date: 2016-01-29T12:05:39Z
 updated: 2016-01-29T12:05:39Z
-post_id: "/drawing-trees"
+_parent: /mastering-paper/drawing-trees/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "No that was never possible. Just a Photoshopped screenshot to show details."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

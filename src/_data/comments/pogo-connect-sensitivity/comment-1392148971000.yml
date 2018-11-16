@@ -1,9 +1,8 @@
----
 replying_to: '2'
 id: comment-1240125834
 date: 2014-02-11T20:02:51Z
 updated: 2014-02-11T20:02:51Z
-post_id: "/pogo-connect-sensitivity"
+_parent: /mastering-paper/pogo-connect-sensitivity/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks Jim!\r\n\r\nThis is a known problem, check out [TenOne Design's blog](https://tenonedesign.com/blog/t1pogomanager-sdk-v132-for-ipad-air/)
@@ -14,4 +13,4 @@ message: "Thanks Jim!\r\n\r\nThis is a known problem, check out [TenOne Design's
   I don't have a newer iPad so I can't verify any of this. My guess as to why it works
   in Procreate and the Pogo Connect app is because they're using TenOne Design's newer
   SDK and Paper hasn't updated to it yet."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

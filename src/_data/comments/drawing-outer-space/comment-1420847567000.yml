@@ -1,10 +1,8 @@
----
 replying_to: '2'
 id: comment-1783466477
 date: 2015-01-09T23:52:47Z
 updated: 2015-01-09T23:52:47Z
-post_id: "/drawing-outer-space"
+_parent: /mastering-paper/drawing-outer-space/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks John! The encouraging words makes the time I spend on these worth the effort!"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg

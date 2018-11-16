@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1198870502
 date: 2014-01-13T19:36:47Z
 updated: 2014-01-13T19:36:47Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Alessandro Amato del Monte
 url: ''
 message: "Right. So if I open the Javascript console in Chrome here's the problem:\r\n\r\n```\r\n

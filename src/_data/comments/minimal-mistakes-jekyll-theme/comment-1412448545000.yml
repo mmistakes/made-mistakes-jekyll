@@ -1,13 +1,12 @@
----
 replying_to: '6'
 id: comment-1619754090
 date: 2014-10-04T18:49:05Z
 updated: 2014-10-04T18:49:05Z
-post_id: "/minimal-mistakes-jekyll-theme"
+_parent: /work/minimal-mistakes-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Anything is possible. You'll have to modify `index.html` to pull in full
   posts instead of just the title and excerpt.\r\n\r\nIf you look at HPSTR you should
   be able to get some inspiration and modify the [homepage code](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/index.html) and apply it to the
   Minimal Mistakes theme."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

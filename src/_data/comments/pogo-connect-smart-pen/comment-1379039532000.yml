@@ -1,11 +1,10 @@
----
 replying_to: '3'
 id: comment-1041380681
 date: 2013-09-13T02:32:12Z
 updated: 2013-09-13T02:32:12Z
-post_id: "/pogo-connect-smart-pen"
+_parent: /mastering-paper/pogo-connect-smart-pen/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Great. Glad you're enjoying the Pogo Connect. It's easily my favorite
   stylus to use with Paper."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

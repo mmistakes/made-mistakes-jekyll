@@ -1,9 +1,8 @@
----
 replying_to: '26'
 id: comment-1923112589
 date: 2015-03-23T12:07:06Z
 updated: 2015-03-23T12:07:06Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "That's how I work now... use a \"dumb\" stylus for when I don't need Surface
@@ -14,4 +13,4 @@ message: "That's how I work now... use a \"dumb\" stylus for when I don't need S
   erase or smudge something but after following through with the stroke it auto corrects
   and removes those mistaken marks.\r\n\r\nIt's by no means perfect but if you trust
   the software to do the right thing, it usually does."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

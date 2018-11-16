@@ -1,3 +1,4 @@
+_parent: /articles/jekyll-static-comments/
 replying_to: '7'
 message: "@Bozdar - I think it's doable, just might introduce some complexity to your build/deploy process.\r\n\r\nFor example, I don't use GitHub to build or host my site, but simply store my source files there in a repo. My build/deploy process with Staticman goes like this:\r\n\r\n1. Comment is submitted to Staticman, which creates a pull request against my site repo on GitHub.\r\n2. Comment pull request is merged and then I pull that commit to my local repo.\r\n3. Build the site locally.\r\n4. Deploy the contents of my `_site` folder to my server. I use a [Gulp rsync](https://www.npmjs.com/package/gulp-rsync) task but there are several [other options](https://jekyllrb.com/docs/deployment-methods/) available to you.\r\n\r\nAll Staticman needs is to be made a collaborator on your repo and be able to see your `_config.yml` so it can be configured."
 name: Michael Rose

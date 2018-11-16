@@ -1,4 +1,5 @@
 _id: e40bd8f0-c3fe-11e6-8d8b-df1271861d9a
+_parent: /mastering-paper/switching-tools/
 replying_to: '2'
 message: "When you export Paper ideas to your camera roll they're saved at the same resolution as your iPad's screen --- which varies on what model you have (Pro 12\", Air, Mini, etc.)\r\n\r\nThey also come out at 72 dpi I believe, so you'd need an app that can resample it to 300. On my Air 2 images are `2048 x 1536` which @ 300 dpi comes out to be 6.827 x 5.12 inches... more than enough to print a 4 x 6.\r\n\r\nYou can certainly go larger, but there will likely be some image quality loss. I had one of [my drawings blown up](https://mademistakes.com/paperfaces/luke-skywalker-cave-portrait/) and printed at 40\" wide and it looks fine. It really depends on the image though."
 email: 1ce71bc10b86565464b612093d89707e

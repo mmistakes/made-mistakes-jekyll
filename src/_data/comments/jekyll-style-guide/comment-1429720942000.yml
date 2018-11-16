@@ -1,8 +1,7 @@
----
 id: comment-1981551893
 date: 2015-04-22T16:42:22Z
 updated: 2015-04-22T16:42:22Z
-post_id: "/jekyll-style-guide"
+_parent: /articles/jekyll-style-guide/
 name: Karlon Cromwell
 url: ''
 message: "Hey Michael how hard would it be to install Jekyll on digital ocean (or

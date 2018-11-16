@@ -1,9 +1,8 @@
----
 replying_to: '6'
 id: comment-1093861442
 date: 2013-10-23T15:58:05Z
 updated: 2013-10-23T15:58:05Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Jesse
 url: ''
 message: "Actually just verified it is. Did a `gem install kramdown` and switched

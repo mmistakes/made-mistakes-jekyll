@@ -1,13 +1,12 @@
----
 replying_to: '10'
 id: comment-1159188340
 date: 2013-12-11T20:55:45Z
 updated: 2013-12-11T20:55:45Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "That's strange. If it worked testing locally then it should work on your
   live server. Can you verify if Disqus is loading at all? If you're comfortable with
   posting a link to your site I can take a quick look at see if something obvious
   jumps out at me."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

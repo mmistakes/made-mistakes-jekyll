@@ -1,4 +1,5 @@
 _id: b9a043d0-e9fb-11e6-9036-933179d399bb
+_parent: /articles/jekyll-static-comments/
 replying_to: '8'
 message: "I had similar problem with @Dany, and it has been resolved by changing `path` and `/comment/` folder. \r\n\r\nBut, now I get another problem that comment cannot be submitted. Error message: \r\n\r\n`Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again` \r\n\r\nThank you.\r\n\r\nRepo: https://github.com/nurandi/nurandi.github.io"
 name: Nur Andi Setiabudi

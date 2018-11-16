@@ -1,12 +1,11 @@
----
 replying_to: '9'
 id: comment-1024954347
 date: 2013-09-01T03:27:40Z
 updated: 2013-09-01T03:27:40Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I wish I could get get the brushes in Photoshop to react like Paper's
   watercolor. It's the number one reason I keep going back to the app. It may not
   have all the bells and whistles as pro apps, but their watercolor is so damn nice.\r\n\r\nThat said, have you tried [**Tayasui Sketches**](http://www.tayasui.com/sketches/)? They have a Universal iOS app as well as a macOS app that are very similar to Paper by FiftyThree."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

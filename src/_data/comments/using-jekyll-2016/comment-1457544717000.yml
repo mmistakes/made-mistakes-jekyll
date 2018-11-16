@@ -1,9 +1,8 @@
----
 id: comment-2560158057
 replying_to: '3'
 date: 2016-03-09T17:31:57Z
 updated: 2016-03-09T17:31:57Z
-post_id: "/articles/using-jekyll-2016"
+_parent: /articles/using-jekyll-2016/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I've found there isn't much to learn with Jekyll per say as there is
@@ -11,4 +10,4 @@ message: "I've found there isn't much to learn with Jekyll per say as there is
   does a good job of getting out of your way it leaves you with a blank canvas to
   do whatever you want in terms of markup, styling, scripting, etc. That's were the
   real learning takes place."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

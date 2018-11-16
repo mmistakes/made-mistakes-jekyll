@@ -1,3 +1,4 @@
+_parent: /articles/jekyll-static-comments/
 replying_to: '8'
 _id: c1953950-b62b-11e6-afed-91cd03f51af0
 message: "@Dany\r\n\r\nChange Staticman's path in **_config.yml**. You were probably using the demo site's path which places the comment data files in a different location. You want it set as:\r\n\r\n```yaml\r\nstaticman:\r\n  path: \"/_data/comments/{options.slug}\"\r\n```\r\n\r\nMove your existing `/comments/` folder under `/_data/` after you make the config change and on rebuild they should up."

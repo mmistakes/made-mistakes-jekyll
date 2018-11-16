@@ -1,12 +1,11 @@
----
 replying_to: '2'
 id: comment-1981556397
 date: 2015-04-22T16:44:56Z
 updated: 2015-04-22T16:44:56Z
-post_id: "/jekyll-style-guide"
+_parent: /articles/jekyll-style-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I feel like I've seen some blog posts talking about how to do it if you
   Google around. But personally I don't have experience with it. I've only ever built
   locally and rsync'd my content or used GitHub Pages."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,4 +1,5 @@
 _id: af8b0150-03eb-11e7-a7a9-e79dd357dba9
+_parent: /articles/improving-jekyll-static-comments/
 message: >-
   How do you apply reCaptcha for staticman? Now it is always showing "Missing
   reCAPTCHA API credentials" I encrypted secret using staticman.

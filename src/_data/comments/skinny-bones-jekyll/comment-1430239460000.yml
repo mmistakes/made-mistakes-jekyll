@@ -1,9 +1,8 @@
----
 replying_to: '6'
 id: comment-1992063401
 date: 2015-04-28T16:44:20Z
 updated: 2015-04-28T16:44:20Z
-post_id: "/skinny-bones-jekyll"
+_parent: /work/skinny-bones-jekyll/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Do you have a public repo somewhere for me to look at?\r\n\r\nHave you loaded
@@ -15,4 +14,4 @@ message: "Do you have a public repo somewhere for me to look at?\r\n\r\nHave you
   service (Google, Typekit, Fontdeck, etc) that hosts them for you and just include
   their script in your templates. Or if you have the rights to embed fonts that you
   own you can use a service like [Font Squirrel](http://www.fontsquirrel.com/tools/webfont-generator) to convert them for embedding."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

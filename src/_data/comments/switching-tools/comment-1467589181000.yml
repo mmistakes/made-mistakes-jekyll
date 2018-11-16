@@ -1,11 +1,10 @@
----
 replying_to: '1'
 id: comment-2763958767
 date: 2016-07-03T23:39:41Z
 updated: 2016-07-03T23:39:41Z
-post_id: "/switching-tools"
+_parent: /mastering-paper/switching-tools/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You can't add text directly on top of images you import. You can only
   [add text as note](https://support.fiftythree.com/hc/en-us/articles/201592322-Basic-Features#create-notes) below them."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

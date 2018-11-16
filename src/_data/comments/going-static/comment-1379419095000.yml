@@ -1,9 +1,8 @@
----
 replying_to: '2'
 id: comment-1047831357
 date: 2013-09-17T11:58:15Z
 updated: 2013-09-17T11:58:15Z
-post_id: "/going-static"
+_parent: /articles/going-static/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Depends on how large the site is. I have around 700 posts and it takes
@@ -16,4 +15,4 @@ message: "Depends on how large the site is. I have around 700 posts and it takes
   to see the latest 10 posts. That builds fast and allows me to test before I do a
   full site build.\r\n\r\nPretty sure it's on the radar of the Jekyll folks to address
   this issue. But probably won't happen anytime soon."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

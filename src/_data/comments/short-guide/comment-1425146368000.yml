@@ -1,10 +1,9 @@
----
 replying_to: '10'
 id: comment-1880641514
 date: 2015-02-28T17:59:28Z
 updated: 2015-02-28T17:59:28Z
-post_id: "/short-guide"
+_parent: /mastering-paper/short-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Here's instruction on how to [change the background color](https://support.fiftythree.com/hc/en-us/articles/201721151-Using-Color#fill-with-color)."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

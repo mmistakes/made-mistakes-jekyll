@@ -1,13 +1,12 @@
----
 replying_to: '14'
 id: comment-1317426227
 date: 2014-04-03T21:49:03Z
 updated: 2014-04-03T21:49:03Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "As noted above I don't use a screen protector so I can't comment on how
   well Pencil works with one. I know I read somewhere that they do impact Pencil's
   performance but don't recall where.\r\n\r\nI have 2 toddlers myself. So far I've
   been able to keep them from destroying my unprotected iPad's screen."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

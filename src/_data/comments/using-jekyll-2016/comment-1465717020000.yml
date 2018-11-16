@@ -1,8 +1,7 @@
----
 id: comment-2726029067
 date: 2016-06-12T07:37:00Z
 updated: 2016-06-12T07:37:00Z
-post_id: "/articles/using-jekyll-2016"
+_parent: /articles/using-jekyll-2016/
 name: AzureYu
 url:
 message: "Learned a lot. Thanks~"

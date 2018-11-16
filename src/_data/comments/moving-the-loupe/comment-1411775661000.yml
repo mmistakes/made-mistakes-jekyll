@@ -1,11 +1,10 @@
----
 replying_to: '2'
 id: comment-1607725055
 date: 2014-09-26T23:54:21Z
 updated: 2014-09-26T23:54:21Z
-post_id: "/moving-the-loupe"
+_parent: /mastering-paper/moving-the-loupe/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I have a bunch of [Paper videos on YouTube](http://youtube.com/user/anotherjpeg), but they're not traditional
   step by step tutorials. More of time lapse videos of me drawing from start to finish."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

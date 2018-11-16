@@ -1,9 +1,8 @@
----
 replying_to: '3'
 id: comment-1652640199
 date: 2014-10-25T01:37:39Z
 updated: 2014-10-25T01:37:39Z
-post_id: "/paper-2-0"
+_parent: /mastering-paper/paper-2-0/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Maybe I'm not noticing the bugs as much because I'm using the new iPad
@@ -11,4 +10,4 @@ message: "Maybe I'm not noticing the bugs as much because I'm using the new iPad
   really plagued me. I have to go out of my way to reproduce them. Could be my particular
   way of drawing and using the tools doesn't trigger them as much. The Bamboo bug
   in particular doesn't bother me since I blend with my finger as the tool was intended."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

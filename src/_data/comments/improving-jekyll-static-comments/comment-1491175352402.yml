@@ -1,5 +1,5 @@
 _id: 3eec1960-17fb-11e7-9e00-23887e25fba6
-_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+_parent: /articles/improving-jekyll-static-comments/
 message: "I use the public instance of Staticman which means I didn't have to create my own Mailgun account and encrypt keys. I didn't have much luck getting it to work which is why I went that way.\r\n\r\nI don't know many people who have gotten it to work. Might be worth pinging [this thread](https://github.com/eduardoboucas/staticman/issues/42#issuecomment-287597695) as you're certainly not alone in trying to get it up and running."
 name: Michael Rose
 email: 1ce71bc10b86565464b612093d89707e

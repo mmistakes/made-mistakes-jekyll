@@ -1,9 +1,8 @@
----
 replying_to: '5'
 id: comment-1841125927
 date: 2015-02-07T22:27:02Z
 updated: 2015-02-07T22:27:02Z
-post_id: "/pogo-connect-smart-pen"
+_parent: /mastering-paper/pogo-connect-smart-pen/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks Alex.\r\n\r\nNot sure on the Pogo Connect 2. I only own the original
@@ -11,4 +10,4 @@ message: "Thanks Alex.\r\n\r\nNot sure on the Pogo Connect 2. I only own the ori
   an update to the Pogo's SDK that Paper needs and that could explain why other apps
   support it fine.\r\n\r\nProbably a question to ask TenOne and FiftyThree directly
   since I have little insight on it."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

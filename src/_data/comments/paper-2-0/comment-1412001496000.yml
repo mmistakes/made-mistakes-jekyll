@@ -1,9 +1,8 @@
----
 replying_to: '1'
 id: comment-1610933422
 date: 2014-09-29T14:38:16Z
 updated: 2014-09-29T14:38:16Z
-post_id: "/paper-2-0"
+_parent: /mastering-paper/paper-2-0/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I noticed a similar thing with some styli erasing when Pencil is connected.
@@ -12,4 +11,4 @@ message: "I noticed a similar thing with some styli erasing when Pencil is conne
   because my other hand was pressing down the Eraser end of Pencil while my finger
   slide across the screen, but I did have it happen a few times when I wasn't holding
   Pencil."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

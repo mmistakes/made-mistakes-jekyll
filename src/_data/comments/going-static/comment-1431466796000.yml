@@ -1,8 +1,7 @@
----
 id: comment-2021178716
 date: 2015-05-12T21:39:56Z
 updated: 2015-05-12T21:39:56Z
-post_id: "/going-static"
+_parent: /articles/going-static/
 name: ShuMo
 url: ''
 message: "I hear new in Jekyll 3.0 or on the road map is incremental regeneration

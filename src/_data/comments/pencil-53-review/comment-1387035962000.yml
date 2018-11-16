@@ -1,13 +1,12 @@
----
 replying_to: '3'
 id: comment-1163249735
 date: 2013-12-14T15:46:02Z
 updated: 2013-12-14T15:46:02Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "No screen protector for me so that's not it.  How quickly it wears is
   based on the amount of pressure you apply. Because there's a hard tip behind the
   rubber covering it eventually tares through it. Other styli that are just a rubber
   nib don't have that problem."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

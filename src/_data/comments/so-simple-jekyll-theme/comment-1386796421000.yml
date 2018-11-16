@@ -1,9 +1,8 @@
----
 replying_to: '10'
 id: comment-1159214410
 date: 2013-12-11T21:13:41Z
 updated: 2013-12-11T21:13:41Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: cehter
 url: ''
 message: "I made the changes and now the script loads. Thanks for the fast help!

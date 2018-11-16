@@ -1,4 +1,5 @@
 _id: a6f1ebd0-0332-11e7-9cfb-db5ce023a11d
+_parent: /articles/improving-jekyll-static-comments/
 replying_to: '10'
 message: >-
   The timestamp is appended to the data file by Staticman when its received. You

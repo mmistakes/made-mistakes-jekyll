@@ -1,8 +1,7 @@
----
 id: comment-2165581515
 date: 2015-07-30T18:07:43Z
 updated: 2015-07-30T18:07:43Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Shobhit Garg
 url: ''
 message: "How can i add google analytics into my blog?\r\n\r\nI have the tracking ID. I can see there is an option `analytics` in `_config.yml`.

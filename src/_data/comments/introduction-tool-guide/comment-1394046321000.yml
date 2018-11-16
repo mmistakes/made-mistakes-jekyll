@@ -1,9 +1,8 @@
----
 replying_to: '16'
 id: comment-1271669002
 date: 2014-03-05T19:05:21Z
 updated: 2014-03-05T19:05:21Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Use two fingers, and move it in a circular motion (see <http://support.fiftythree.com>).
@@ -11,4 +10,4 @@ message: "Use two fingers, and move it in a circular motion (see <http://support
   to trigger it 100% of the time.\r\n\r\nAnd if you're really having problems using
   it, you can always buy a Pogo Connect if you have a 3rd/4th generation iPad. There's
   a button on the stylus that acts as an undo in Paper."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

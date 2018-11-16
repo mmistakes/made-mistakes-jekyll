@@ -1,5 +1,5 @@
 _id: b6781e40-09b7-11e7-92f9-af0b7a00b289
-_parent: 'https://mademistakes.com/articles/improving-jekyll-static-comments/'
+_parent: /articles/improving-jekyll-static-comments/
 message: >-
   Staticman recently [added support for
   reCAPTCHA](https://github.com/eduardoboucas/staticman/issues/20) which has

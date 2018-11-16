@@ -1,9 +1,8 @@
----
 replying_to: '9'
 id: comment-1316178090
 date: 2014-04-03T02:00:04Z
 updated: 2014-04-03T02:00:04Z
-post_id: "/drawing-clouds"
+_parent: /mastering-paper/drawing-clouds/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "If you pinch the page in the center of the canvas as if you were folding
@@ -12,4 +11,4 @@ message: "If you pinch the page in the center of the canvas as if you were foldi
   edges inwards. Doing a swipe from the right edge on the last page of a journal will
   create a new blank page.\r\n\r\nOn [FiftyThree's support site](https://support.fiftythree.com/hc/en-us/articles/201592322-Basic-Features) they have videos that
   show all of these gestures in action if you need a visual."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

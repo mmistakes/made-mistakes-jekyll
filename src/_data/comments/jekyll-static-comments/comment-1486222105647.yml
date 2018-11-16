@@ -1,4 +1,5 @@
 _id: 91f557f0-eaee-11e6-ad79-4f1d9783ac7b
+_parent: /articles/jekyll-static-comments/
 replying_to: '10'
 message: >-
   The error message is a clue. It's looking for the domainmatrix gem. You likely

@@ -1,9 +1,8 @@
----
 replying_to: '1'
 id: comment-2534548940
 date: '2016-02-25T13:30:18'
 updated: ''
-post_id: "/faqs/website-tools"
+_parent: /faqs/website-tools/
 name: Anton
 url: http://likewhoa.ru
 message: "I see. But nothing wrong with it? Kind a SEO or indexing issues? Since I don't need any special control, is it okay to host a website on gh pages? Really appreciate your advice."

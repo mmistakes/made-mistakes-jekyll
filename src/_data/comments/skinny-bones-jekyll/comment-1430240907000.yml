@@ -1,9 +1,8 @@
----
 replying_to: '6'
 id: comment-1992110313
 date: 2015-04-28T17:08:27Z
 updated: 2015-04-28T17:08:27Z
-post_id: "/skinny-bones-jekyll"
+_parent: /work/skinny-bones-jekyll/
 name: Brian Moseley
 url: ''
 message: "I see. I'd forgotten that the fonts I was using weren't system fonts

@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1200972409
 date: 2014-01-14T23:45:48Z
 updated: 2014-01-14T23:45:48Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Alessandro Amato del Monte
 url: ''
 message: "So I got everything to work now! At least locally, I still need to understand

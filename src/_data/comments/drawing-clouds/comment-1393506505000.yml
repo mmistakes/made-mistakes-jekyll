@@ -1,11 +1,10 @@
----
 replying_to: '7'
 id: comment-1262843270
 date: 2014-02-27T13:08:25Z
 updated: 2014-02-27T13:08:25Z
-post_id: "/drawing-clouds"
+_parent: /mastering-paper/drawing-clouds/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thank you so much. I have a few I'm working on now so hopefully the wait
   isn't too long.\r\n\r\nAnything in particular you'd like to see a tutorial of?"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

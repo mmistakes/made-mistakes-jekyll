@@ -1,12 +1,11 @@
----
 replying_to: '30'
 id: comment-2404938201
 date: 2015-12-11T16:10:01Z
 updated: 2015-12-11T16:10:01Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "It's not your iPad, its Paper. They had a really big update a few months
   ago and much of the UI changed or was refreshed. Zoom loupe was removed in favor
   of zooming the entire screen. Notebooks are now stacks of ideas. Etc etc etc."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

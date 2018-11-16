@@ -1,9 +1,8 @@
----
 replying_to: '26'
 id: comment-2124068518
 date: 2015-07-08T16:32:30Z
 updated: 2015-07-08T16:32:30Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "There is! Once you have the color mixed the way you want, tap and hold
@@ -16,4 +15,4 @@ message: "There is! Once you have the color mixed the way you want, tap and hold
   do that by coloring a circle over to the side of the canvas and then use the [Color
     Picker tool](https://mademistakes.com/mastering-paper/color-picker/) to sample it when needed. If you haven't used the picker yet and want
   some pointers I wrote an article about it."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

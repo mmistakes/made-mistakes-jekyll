@@ -1,4 +1,5 @@
 _id: cace4970-0532-11e7-aa50-6d06826af1ce
+_parent: /articles/improving-jekyll-static-comments/
 replying_to: '12'
 message: 'And good catch on the `required` attribute, completely missed that.'
 name: Michael Rose

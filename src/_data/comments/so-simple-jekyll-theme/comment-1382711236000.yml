@@ -1,9 +1,8 @@
----
 replying_to: '7'
 id: comment-1096377519
 date: 2013-10-25T14:27:16Z
 updated: 2013-10-25T14:27:16Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Anonymous
 url: ''
 message: "thanks for the response, also keep rocking with themes."

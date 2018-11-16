@@ -1,9 +1,8 @@
----
 replying_to: '3'
 id: comment-2434912960
 date: 2016-01-01T17:39:33Z
 updated: 2016-01-01T17:39:33Z
-post_id: "/paper-3-features"
+_parent: /mastering-paper/paper-3-features/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Agree about all the note taking features added, I use none of them and
@@ -27,4 +26,4 @@ message: "Agree about all the note taking features added, I use none of them and
   and features? Not a big deal if you ask me.\r\n\r\nThats a bummer on the Book printing feature being killed.
   I wrongly assumed it was still available since there's an option to \"Print Book\"
   when in journal view, but it just goes to a currently unavailable page. Not sure if that's permanent or what."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,9 +1,8 @@
----
 replying_to: '12'
 id: comment-2138172060
 date: 2015-07-15T18:05:01Z
 updated: 2015-07-15T18:05:01Z
-post_id: "/basics"
+_parent: /mastering-paper/basics/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "There's not much more to the process than what I included above.\r\n\r\n1. Use
@@ -12,4 +11,4 @@ message: "There's not much more to the process than what I included above.\r\n\r
   highlights using white or another light color with the pencil tool.\r\n4. To finish
   it off add a drop shadow with a light gray and the watercolor brush, zoom in, and
   paint quickly along the edge where you want to cast a shadow."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

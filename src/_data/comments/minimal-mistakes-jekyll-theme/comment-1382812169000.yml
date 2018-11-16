@@ -1,9 +1,8 @@
----
 replying_to: '3'
 id: comment-1097694156
 date: 2013-10-26T18:29:29Z
 updated: 2013-10-26T18:29:29Z
-post_id: "/minimal-mistakes-jekyll-theme"
+_parent: /work/minimal-mistakes-jekyll-theme/
 name: Lindsay Kay
 url: http://xeolabs.com/
 message: 'Minimal Mistakes in the wild: <a href="http://xeolabs.com" rel="nofollow">http://xeolabs.com</a>'

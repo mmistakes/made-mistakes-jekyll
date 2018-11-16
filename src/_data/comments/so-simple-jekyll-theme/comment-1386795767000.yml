@@ -1,9 +1,8 @@
----
 replying_to: '10'
 id: comment-1159198898
 date: 2013-12-11T21:02:47Z
 updated: 2013-12-11T21:02:47Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: cehter
 url: ''
 message: "No, Disqus does not load. Here my site: <a href=\"http://lebensverrueckt.haktar.org/\"

@@ -1,4 +1,5 @@
 _id: 9aa06260-ea34-11e6-ad79-4f1d9783ac7b
+_parent: /articles/jekyll-static-comments/
 replying_to: '8'
 message: "@Nur - Likely something is off with your Staticman config. If you open your browser's web development tools and look at the Console output it will give you a better idea of what data from the form Staticman doesn't like.\r\n\r\nFor example if I try to submit a comment with the name and email fields blank you'll see this error in the Console.\r\n\r\n![Console screenshot](https://i.imgur.com/xW4WJWh.jpg)"
 name: Michael Rose

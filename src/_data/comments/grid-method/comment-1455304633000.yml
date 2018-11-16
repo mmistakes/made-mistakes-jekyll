@@ -1,9 +1,8 @@
----
 replying_to: '5'
 id: comment-2510390272
 date: 2016-02-12T19:17:13Z
 updated: 2016-02-12T19:17:13Z
-post_id: "/grid-method"
+_parent: /mastering-paper/grid-method/
 name: Eric Talerico
 url: ''
 message: "Michael, I am particularly fond of how easy it is now to remove a grid

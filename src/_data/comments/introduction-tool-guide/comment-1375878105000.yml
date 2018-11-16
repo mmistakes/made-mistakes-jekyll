@@ -1,12 +1,11 @@
----
 replying_to: '4'
 id: comment-991346232
 date: 2013-08-07T12:21:45Z
 updated: 2013-08-07T12:21:45Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I never thought I'd be mentoring or teaching anyone anything --- I'm
   horrible at writing and explaining my thoughts! Glad some of it came out in a way
   that makes sense to others."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

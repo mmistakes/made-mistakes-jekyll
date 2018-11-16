@@ -1,9 +1,8 @@
----
 replying_to: '6'
 id: comment-1171004112
 date: 2013-12-20T02:38:47Z
 updated: 2013-12-20T02:38:47Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "That's good to hear. I think I mentioned it before but I didn't declare
@@ -12,4 +11,4 @@ message: "That's good to hear. I think I mentioned it before but I didn't declar
   font-size set on `.entry-content`. Anywhere else you might have to add a font-size
   declaration to the element to override any browser defaults I didn't clear out in
   the CSS reset."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

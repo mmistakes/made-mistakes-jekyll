@@ -1,9 +1,8 @@
----
 replying_to: '9'
 id: comment-1572007117
 date: 2014-09-03T14:41:46Z
 updated: 2014-09-03T14:41:46Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: fred
 url: ''
 message: "Great; I did it via `main.min.css` simply by changing 105 to 104 :)\r\n\r\nmy last questions: `2011-03-10-sample-post.md`

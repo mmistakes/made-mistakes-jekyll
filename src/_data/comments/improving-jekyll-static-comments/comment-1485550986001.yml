@@ -1,4 +1,5 @@
 _id: ff6154e0-e4d3-11e6-9519-6b61b17d6497
+_parent: /articles/improving-jekyll-static-comments/
 replying_to: '6'
 message: >-
   I now have Travis configured.  I can display old Disqus comments, now to

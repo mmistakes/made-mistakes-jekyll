@@ -1,13 +1,12 @@
----
 replying_to: '10'
 id: comment-1798756537
 date: 2015-01-17T20:41:28Z
 updated: 2015-01-17T20:41:28Z
-post_id: "/basics"
+_parent: /mastering-paper/basics/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Pinch the page and it will zoom out to a view that allows you to swipe
   through, add, or delete pages. Pinch again and you'll see all of your journals.
   For more help check FiftyThree's support page, it has videos and animations showing
   how to do all the basics.\r\n\r\n<https://support.fiftythree.com/hc/en-us/articles/201592322-Basic-Features>"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,4 +1,5 @@
 _id: 827860a0-d7ad-11e6-9d0d-491faa75843b
+_parent: /articles/improving-jekyll-static-comments/
 replying_to: '5'
 message: "I'd like to. Just need to give it some thought so I can come up with a way to support the new stuff in Staticman while maintaining backwards compatibility. \r\n\r\nThere are some changes needed to use v2 which could break things for those who don't update to the new `staticman.yml` config."
 name: Michael Rose

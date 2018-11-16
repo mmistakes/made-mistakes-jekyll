@@ -1,13 +1,12 @@
----
 replying_to: '20'
 id: comment-1633673187
 date: 2014-10-13T18:10:24Z
 updated: 2014-10-13T18:10:24Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Glad you're enjoying Pencil.\r\n\r\nFrom what I've heard there will be
   an update to Paper soon to enable \"Surface Pressure\" on the pencil tool. Hopefully
   it's not too much longer until that update because I've been waiting to try out
   the \"shading\" effect 53 teased in [this video](http://vimeo.com/98146708) months ago."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,8 +1,9 @@
 _id: 5fd540f0-d0b8-11e6-83c1-37ee8f07523d
+_parent: /articles/jekyll-static-comments/
 message: >-
   This code has been a terrific help to me for a site I'm working on... but I'm
-  having quite a time trying to sort my comments by the date. `{% assign
-  comments = site.data.comments[page.slug] | sort: "date" %}` is throwing an
+  having quite a time trying to sort my comments by the date. `{% raw %}{% assign
+  comments = site.data.comments[page.slug] | sort: "date" %}{% endraw %}` is throwing an
   error to the effect that there's no implicit conversion of String into
   Integer. My filenames aren't going to be guaranteed sequential, so sorting by
   those won't work... any idea what might be going wrong here?

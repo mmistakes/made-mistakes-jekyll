@@ -1,8 +1,7 @@
----
 id: comment-1414405319
 date: 2014-06-01T04:31:16Z
 updated: 2014-06-01T04:31:16Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: nwatkins
 url: ''
 message: "I'd like to have the main page load with the navigation menu open, but

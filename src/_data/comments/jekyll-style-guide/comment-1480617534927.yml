@@ -1,4 +1,5 @@
 _id: 6961b3a0-b7f5-11e6-9770-0502f5541edb
+_parent: /articles/jekyll-style-guide/
 replying_to: '4'
 message: "The thought never occurred to me to output the collection documents as includes. That would be pretty cool if you could output to `_includes` to DRY things up.\r\n\r\nBut I get the feeling that folder is probably reserved by Jekyll, or that it would end up outputting to `_site/_includes` which wouldn't help.\r\n\r\nWorth some testing though :smile:"
 name: Michael Rose

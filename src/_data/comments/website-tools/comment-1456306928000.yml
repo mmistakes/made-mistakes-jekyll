@@ -1,10 +1,9 @@
----
 replying_to: '1'
 id: 2534060727
 date: '2016-02-25T04:42:08'
 updated: ''
-post_id: "/faqs/website-tools"
+_parent: /faqs/website-tools/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I like having the extra control over the server. There are some things you just can't do when you host with GH Pages."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

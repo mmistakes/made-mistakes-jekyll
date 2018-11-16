@@ -1,11 +1,10 @@
----
 replying_to: '1'
 id: comment-1210358554
 date: 2014-01-21T12:55:47Z
 updated: 2014-01-21T12:55:47Z
-post_id: "/contour-drawing"
+_parent: /mastering-paper/contour-drawing/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "I'm probably the worst person to compare against. I tend to do things
   in ways they weren't intended or completely backwards. Hah."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

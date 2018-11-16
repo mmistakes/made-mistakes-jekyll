@@ -1,9 +1,8 @@
----
 replying_to: '6'
 id: comment-1170957478
 date: 2013-12-20T01:42:06Z
 updated: 2013-12-20T01:42:06Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: Mitch Pronschinske
 url: ''
 message: "Nice. The grunt command runs without errors now. Still can't figure

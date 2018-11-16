@@ -1,10 +1,9 @@
----
 replying_to: '24'
 id: comment-1908620429
 date: 2015-03-15T19:03:07Z
 updated: 2015-03-15T19:03:07Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You'll find more information on how to share on [FiftyThree's support site](https://support.fiftythree.com/hc/en-us/articles/201713541-Sharing-and-Export)."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

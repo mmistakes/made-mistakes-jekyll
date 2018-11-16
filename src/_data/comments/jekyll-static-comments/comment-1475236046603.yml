@@ -1,3 +1,4 @@
+_parent: /articles/jekyll-static-comments/
 replying_to: '5'
 message: "Also. I'm pretty sure `slug` is available to not only posts, but pages. I know for certain it works with collection documents because I use this exact same method to add comments to my [FAQ section](https://mademistakes.com/faqs/website-tools/), which is built using a collection.\r\n\r\nExperiment and try it out. As long as a page has a unique identifier you should be able to pull a `_data` file with comments (or any other content)."
 name: Michael Rose

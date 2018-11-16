@@ -1,9 +1,8 @@
----
 replying_to: '2'
 id: comment-1090012647
 date: 2013-10-20T19:53:17Z
 updated: 2013-10-20T19:53:17Z
-post_id: "/hpstr-jekyll-theme"
+_parent: /work/hpstr-jekyll-theme/
 name: "@sarat"
 url: ''
 message: "Thank you. It's working fine now. Btw, don't you support Github flavored

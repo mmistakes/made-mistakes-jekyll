@@ -1,5 +1,5 @@
 _id: 4deb1a50-13d3-11e7-a79e-7d9f47323e85
-_parent: 'https://mademistakes.com/articles/using-jekyll-2016/'
+_parent: /articles/using-jekyll-2016/
 message: >-
   It's 2017 now and I've been using Jekyll heavily for quite some time and using
   gulp (I even did some builds with webpack) but I'm really excited to see your

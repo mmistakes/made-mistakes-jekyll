@@ -1,10 +1,9 @@
----
 replying_to: '1'
 id: comment-1600514089
 date: 2014-09-22T15:50:26Z
 updated: 2014-09-22T15:50:26Z
-post_id: "/watercolor-brush-update"
+_parent: /mastering-paper/watercolor-brush-update/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "You're welcome Cici."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

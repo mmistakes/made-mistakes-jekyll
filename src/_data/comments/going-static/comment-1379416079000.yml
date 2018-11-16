@@ -1,8 +1,7 @@
----
 id: comment-1047796157
 date: 2013-09-17T11:07:59Z
 updated: 2013-09-17T11:07:59Z
-post_id: "/going-static"
+_parent: /articles/going-static/
 name: picajoso
 url: ''
 message: "Do you think Jekyll is suitable for a heavy updated site? If you have

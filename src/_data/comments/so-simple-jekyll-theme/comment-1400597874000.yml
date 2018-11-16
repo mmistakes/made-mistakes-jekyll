@@ -1,9 +1,8 @@
----
 replying_to: '12'
 id: comment-1395769744
 date: 2014-05-20T14:57:54Z
 updated: 2014-05-20T14:57:54Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Brandon
 url: ''
 message: "Hi Michael,\r\n\r\nThanks for the response! I think it was a Facebook

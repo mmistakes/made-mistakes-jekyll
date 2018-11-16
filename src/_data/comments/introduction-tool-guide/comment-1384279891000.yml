@@ -1,9 +1,8 @@
----
 replying_to: '13'
 id: comment-1119924884
 date: 2013-11-12T18:11:31Z
 updated: 2013-11-12T18:11:31Z
-post_id: "/introduction-tool-guide"
+_parent: /mastering-paper/introduction-tool-guide/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Sadly you can't change the brush size. The best you can do is manipulate
@@ -11,4 +10,4 @@ message: "Sadly you can't change the brush size. The best you can do is manipula
   buy a Pogo Connect stylus and that lets you vary brush size depending on the amount
   of pressure you apply. Press light get a small stroke, press hard get a thicker
   one."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

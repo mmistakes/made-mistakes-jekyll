@@ -1,9 +1,8 @@
----
 replying_to: '11'
 id: comment-1199260101
 date: 2014-01-13T23:23:22Z
 updated: 2014-01-13T23:23:22Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "So close. My guess is using jQuery 1.7.1 broke something with the responsive
@@ -13,4 +12,4 @@ message: "So close. My guess is using jQuery 1.7.1 broke something with the resp
   be able to spot the CSS that needs modifying.\r\n\r\nThere's probably a few `display:
   none`s in there that is hiding the nav that could be taken out.\r\n\r\nOr check
   the [Responsive Nav's site](ttp://responsive-nav.com) for a possible fix."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

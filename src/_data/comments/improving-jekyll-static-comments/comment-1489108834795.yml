@@ -1,4 +1,5 @@
 _id: c274dd50-052f-11e7-aa50-6d06826af1ce
+_parent: /articles/improving-jekyll-static-comments/
 replying_to: '12'
 message: "Sure thing. That first assign is creating an array of comments that don't have a `replying_to` field. That's what the `nil` is checking since through some trial and error I learned that a `replying_to` field is only added to a child comment's data file.\r\n\r\nInside the first loop I check the current comment's value against all comment's `replying_to` fields, if they match then they're a child and spit out as a nested entry in the second loop.\r\n\r\nDoes that help clear things up?"
 name: Michael Rose

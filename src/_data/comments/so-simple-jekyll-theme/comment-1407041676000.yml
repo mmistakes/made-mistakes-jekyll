@@ -1,9 +1,8 @@
----
 replying_to: '13'
 id: comment-1523658638
 date: 2014-08-03T04:54:36Z
 updated: 2014-08-03T04:54:36Z
-post_id: "/so-simple-jekyll-theme"
+_parent: /work/so-simple-jekyll-theme/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Currently no.\r\n\r\nWhen I update So Simple to support some new features
@@ -12,4 +11,4 @@ message: "Currently no.\r\n\r\nWhen I update So Simple to support some new featu
   the [Octopress Ink gem](https://github.com/octopress/ink) is released I may investigate making the theme compatible
   with it. But for now I'm waiting to see how things shakeout and if there's a demand
   for it. "
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

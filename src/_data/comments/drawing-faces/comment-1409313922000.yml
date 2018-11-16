@@ -1,9 +1,8 @@
----
 replying_to: '14'
 id: comment-1564664467
 date: 2014-08-29T12:05:22Z
 updated: 2014-08-29T12:05:22Z
-post_id: "/drawing-faces"
+_parent: /mastering-paper/drawing-faces/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Glad to hear you caught the Sktchy bug!\r\n\r\nBecoming proficient with
@@ -16,4 +15,4 @@ message: "Glad to hear you caught the Sktchy bug!\r\n\r\nBecoming proficient wit
   can be hard sometimes because if you linger in an area too long might turn too dark.
   It really is a balancing act between speed, value, and the color you choose to paint
   with."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,9 +1,8 @@
----
 replying_to: '14'
 id: comment-1324984938
 date: 2014-04-08T23:19:13Z
 updated: 2014-04-08T23:19:13Z
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Thanks for sharing your experience with a mesh tipped stylus, it's been
@@ -18,4 +17,4 @@ message: "Thanks for sharing your experience with a mesh tipped stylus, it's bee
   go back to it after opening another. I think Paper only keeps one page in memory
   at a time and flipping to a new one clears the undo (rewind) history. Same thing
   happens if you force quit the app."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

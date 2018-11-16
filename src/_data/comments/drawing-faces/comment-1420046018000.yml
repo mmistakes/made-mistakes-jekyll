@@ -1,13 +1,12 @@
----
 replying_to: '18'
 id: comment-1766221955
 date: 2014-12-31T17:13:38Z
 updated: 2014-12-31T17:13:38Z
-post_id: "/drawing-faces"
+_parent: /mastering-paper/drawing-faces/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "Check out my [article about the Color Picker](https://mademistakes.com/mastering-paper/color-picker/). At the very end I share a
   link to my skin tone palette on Mix that can be downloaded to Paper. Click it and
   hit remix and Paper will open it letting you sample the colors with the new Color
   Picker or look up the values.\r\n\r\n"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

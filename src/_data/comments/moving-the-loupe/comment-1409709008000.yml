@@ -1,10 +1,9 @@
----
 replying_to: '1'
 id: comment-1571313456
 date: 2014-09-03T01:50:08Z
 updated: 2014-09-03T01:50:08Z
-post_id: "/moving-the-loupe"
+_parent: /mastering-paper/moving-the-loupe/
 name: Michael Rose
 url: https://mademistakes.com/
 message: ":smile:"
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e

@@ -1,9 +1,8 @@
----
 replying_to: '12'
 id: comment-1269769818
 date: 2014-03-04T12:20:28Z
 updated: 2016-10-27T12:09:20-04:00
-post_id: "/pencil-53-review"
+_parent: /mastering-paper/pencil-53-review/
 name: Michael Rose
 url: https://mademistakes.com/
 message: "The [Wacom Bamboos](https://www.amazon.com/Bamboo-Stylus-Pen-iPad-iPhone/dp/B004VM0SE6/ref=as_li_ss_tl?ie=UTF8&qid=1480555779&sr=8-2&keywords=wacom+bamboo+stylus&linkCode=ll1&tag=mademist-20&linkId=9b036e8c4ed05e59520e4fa1e9f4a89c) are a pretty good all around affordable styli. I'd
@@ -11,4 +10,4 @@ message: "The [Wacom Bamboos](https://www.amazon.com/Bamboo-Stylus-Pen-iPad-iPho
   you're using an iPad 2 all *dumb* styli pretty
   much work the same. It really comes down to your preferences on fit, finish, durability, and how
   it feels in hand."
-avatar: https://disqus.com/api/users/avatars/mmistakes.jpg
+email: 1ce71bc10b86565464b612093d89707e
