@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "_posts/articles"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - label: "Image"
+        name: "image"
+        widget: "object"
+        fields:
+          - {label: "Path", name: "path", widget: "image"}
+          - {label: "Feature image path", name: "feature", widget: "image"}
+          - {label: "Image width", name: "width", widget: "number", valueType: "int"}
+          - {label: "Image height", name: "height", widget: "number", valueType: "int"}
+          - {label: "Image caption", name: "caption", widget: "string"}
+      - {label: "Last modified date", name: "last_modified_date", widget: "datetime"}
+      - {label: "Reading time", name: "read_time", widget: "boolean", default: true}
+      - {label: "Categories", name: "categories", widget: "list", default: ["articles"]}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Table of contents", name: "toc", widget: "boolean", default: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: false}
+      - {label: "Support block", name: "support", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
