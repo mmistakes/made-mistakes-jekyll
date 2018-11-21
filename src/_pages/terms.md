@@ -1,8 +1,8 @@
 ---
 permalink: /terms/
 title: "Terms and policies"
-last_modified_at: 2018-11-07T08:37:27-05:00
-excerpt: "Made Mistakes terms & conditions, privacy policy, license, and other legal stuff you won't read."
+last_modified_at: 2018-11-21T09:28:56-05:00
+excerpt: "Made Mistakes privacy policy, license, and other legal stuff you won't read."
 toc: true
 ---
 
@@ -31,17 +31,27 @@ All of this information is not linked to anything that is personally identifiabl
 
 ### Cookies and web beacons
 
+MadeMistakes.com uses a cookie named `fullcss` to trigger the loading of cached CSS on future page loads.
+
 Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. MadeMistakes.com has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
+If you wish to [disable cookies](https://cookies.insites.com/disable-cookies/), you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
 
 #### Amazon
 
-Amazon, a third party affiliate marketing network, uses cookies to help make sure I get a commission when you buy a product after clicking on a link or ad banner that takes you to the site of one of their merchants. You can read [Amazon's Privacy Policy](http://www.amazon.com/gp/help/customer/display.html?nodeId=468496).
+Amazon, a third party affiliate marketing network, uses cookies to help make sure I get a commission when you buy a product after clicking on a link or ad banner that takes you to the site of one of their merchants. Read [Amazon's Privacy Notice](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496).
+
+#### Cloudflare
+
+Cloudflare, Inc. is a U.S. company that provides content delivery network services, DDoS mitigation, Internet security and distributed domain name server services. Cloudflare's `__cfduid` cookie is used to identify individual clients behind a shared IP address and apply security settings on a per-client basis. Read [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
 #### Google Analytics
 
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. Read [Google's Privacy Policy](https://policies.google.com/privacy?hl=en).
+
+#### Netlify
+
+Netlify is a cloud computing company that offers hosting and serverless backend services for static websites. It features continuous deployment from Git across a global application delivery network, serverless form handling, support for AWS Lambda functions, and full integration with Let's Encrypt. Read [Netlify's Privacy Policy](https://www.netlify.com/privacy/).
 
 ## Disclosure policy
 
