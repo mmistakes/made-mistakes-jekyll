@@ -1,9 +1,9 @@
 {% comment %}Build a tag index filtered by current category{% endcomment %}
 {% assign filterCategory = page.pagination.category | default: page.category %}
 
-<div class="popular-list">
-  <h3 class="menu--title">Popular Topics</h3>
-  <ul class="menu">
+<div class="popular-topics">
+  <h2 class="title">Browse by topic</h2>
+  <ul class="entries__columns">
     {% assign tagLimiter = 0 %}
     {% for tag in site.tags %}
       {% comment %}create an empty array{% endcomment %}
@@ -18,9 +18,9 @@
       {% endfor %}
 
       {% comment %}poor man's tag limit on those that are frequently used{% endcomment %}
-      {% if postsInCategory.size >= 5 and tagLimiter <= 5 %}
+      {% if postsInCategory.size >= 5 and tagLimiter <= 11 %}
         {% assign tagLimiter = tagLimiter | plus: 1 %}
-        <li><a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/">{{ tag[0] | replace:' ','&nbsp;' }}</a></li>
+        <li><a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/"><strong>{{ tag[0] | replace:' ','&nbsp;' }}</strong> <span class="count">{{ tag[1] | size }}</span></a></li>
       {% endif %}
     {% endfor %}
   </ul>

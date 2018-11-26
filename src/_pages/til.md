@@ -11,3 +11,5 @@ pagination:
   enabled: true
   category: til
 ---
+
+{% include popular-topics.html %}
