@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/mahalia-h-procreate-teaser.jpg
   thumbnail: /assets/images/mahalia-h-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
+tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, time lapse]
 ---
 
 Portrait of Mahalia H. inspired by a [photograph on Sktchy](http://sktchy.com/hZqgKD ). Digitally painted with Procreate on an iPad Air 2.

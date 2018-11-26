@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/morgan-f-procreate-teaser.jpg
   thumbnail: /assets/images/morgan-f-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
+tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, time lapse]
 ---
 
 Portrait of Morgan F. inspired by a [photograph on Sktchy](http://sktchy.com/rK7LX ). Digitally painted with Procreate on an iPad Air 2.

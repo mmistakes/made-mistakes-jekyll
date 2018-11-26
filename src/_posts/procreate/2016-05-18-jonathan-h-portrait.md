@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/jonathan-h-procreate-teaser.jpg
   thumbnail: /assets/images/jonathan-h-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
+tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, time lapse]
 ---
 
 Portrait of Jonathan H. inspired by a [photograph on Sktchy](http://sktchy.com/4cnY0H ). Digitally painted with Procreate on an iPad Air 2.

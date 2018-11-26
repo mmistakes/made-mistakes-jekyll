@@ -9,7 +9,7 @@ image:
   feature: *image
   thumbnail: /assets/images/maya-z-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse]
+tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
 Portrait of Maya Z. inspired by a [photograph on Sktchy](http://sktchy.com/efNbvC ). Digitally painted with Procreate on a 12.9" iPad Pro.

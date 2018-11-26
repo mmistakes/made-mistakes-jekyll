@@ -9,7 +9,7 @@ image:
   feature: *image
   thumbnail: /assets/images/foggy-365-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse]
+tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
 Portrait of Foggy 365 inspired by a [photograph on Sktchy](http://sktchy.com/QFzi9D ). Digitally painted with Procreate on a 12.9" iPad Pro.
