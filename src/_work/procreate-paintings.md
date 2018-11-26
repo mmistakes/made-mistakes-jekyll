@@ -16,7 +16,7 @@ image:
 tags: [Procreate, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"
-order: 3
+order: 1
 ---
 
 Digital paintings created on an iPad using the iOS app [**Procreate** by Savage Interactive](http://procreate.si/).
