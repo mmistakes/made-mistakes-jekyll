@@ -10,15 +10,18 @@ image:
   teaser: /assets/images/jekyll-theme-so-simple-teaser.jpg
   thumbnail: /assets/images/jekyll-theme-so-simple-th.jpg
 gallery:
-  - url: /assets/images/so-simple-post.png
-    image_path: /assets/images/so-simple-post.png
+  - url: /assets/images/so-simple-post.jpg
+    image_path: /assets/images/so-simple-post.jpg
     alt: "post layout example"
-  - url: /assets/images/so-simple-posts.png
-    image_path: /assets/images/so-simple-posts.png
+    class: "browser-frame"
+  - url: /assets/images/so-simple-posts.jpg
+    image_path: /assets/images/so-simple-posts.jpg
     alt: "list of posts layout example"
-  - url: /assets/images/so-simple-search.png
-    image_path: /assets/images/so-simple-search.png
+    class: "browser-frame"
+  - url: /assets/images/so-simple-search.jpg
+    image_path: /assets/images/so-simple-search.jpg
     alt: "search layout example"
+    class: "browser-frame"
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
@@ -43,7 +46,7 @@ After having so much fun creating and releasing [my first open source Jekyll the
 - Options to customize the theme and make it your own.
 
 <p markdown="0">
-  <a href="https://mmistakes.github.io/so-simple-theme/" onclick="ga('send', 'event', 'link', 'click', 'Preview So Simple');" class="btn">Live Preview</a>
+  <a href="https://mmistakes.github.io/so-simple-theme/" onclick="ga('send', 'event', 'link', 'click', 'Preview So Simple');" class="btn">Live preview</a>
 </p>
 
 ## Usage
@@ -52,7 +55,7 @@ To learn more about how to install, configure, customize the look and feel, and 
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/so-simple-theme/issues) or ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or . And if you make something cool with this theme feel free to let me know.
+Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/so-simple-theme/issues).
 
 ## License
 

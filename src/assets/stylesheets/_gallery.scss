@@ -28,22 +28,31 @@
   margin: 8px;
   width: calc(100% / 2 - 16px);
 
-  figure {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    margin: 0;
-    height: 100%;
+  // figure {
+  //   display: flex;
+  //   align-items: flex-end;
+  //   justify-content: flex-start;
+  //   margin: 0;
+  //   height: 100%;
 
-    a {
-      display: block;
-      width: 100%;
-    }
+  //   a {
+  //     display: block;
+  //     width: 100%;
+  //   }
+  // }
+
+  // img {
+  //   flex: 1;
+  //   object-fit: cover;
+  // }
+
+  a {
+    display: block;
+    width: 100%;
   }
 
-  img {
-    flex: 1;
-    object-fit: cover;
+  .browser-frame {
+    margin-bottom: 0;
   }
 }
 

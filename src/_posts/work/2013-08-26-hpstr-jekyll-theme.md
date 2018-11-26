@@ -39,12 +39,12 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Grunt and Rake tasks for easier site development.
 
 [![Screenshot of HPSTR Theme](/assets/images/hpstr-jekyll-theme-preview.jpg)](https://mmistakes.github.io/hpstr-jekyll-theme/ "Preview HPSTR")
+{: .browser-frame}
 
-<div markdown="0" class="btn--group">
-  <a href="https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip" class="btn btn--info">Download</a>
-  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup Guide</a>
-  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo</a>
-</div>
+<p markdown="0">
+  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Live preview</a>
+</p>
 
 ## What's different with this Jekyll theme?
 
@@ -83,7 +83,7 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new) or ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or . And if you make something cool with this theme feel free to let me know.
+Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new).
 
 ## License
 

@@ -10,15 +10,18 @@ image:
   thumbnail: /assets/images/minimal-mistakes-3-th.jpg
   teaser: /assets/images/minimal-mistakes-3-teaser.jpg
 gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
+  - url: /assets/images/mm-layout-splash.jpg
+    image_path: /assets/images/mm-layout-splash.jpg
     alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
+    class: "browser-frame"
+  - url: /assets/images/mm-layout-single-meta.jpg
+    image_path: /assets/images/mm-layout-single-meta.jpg
     alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
+    class: "browser-frame"
+  - url: /assets/images/mm-layout-archive.jpg
+    image_path: /assets/images/mm-layout-archive.jpg
     alt: "archive layout example"
+    class: "browser-frame"
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
@@ -39,7 +42,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your
 Includes responsive layouts (`single`, `archive`, and `splash` pages) that look great on mobile and desktop browsers. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
 <p markdown="0">
-  <a href="https://mmistakes.github.io/minimal-mistakes/" onclick="ga('send', 'event', 'link', 'click', 'Preview Minimal Mistakes');" class="btn">Live Preview</a>
+  <a href="https://mmistakes.github.io/minimal-mistakes/" onclick="ga('send', 'event', 'link', 'click', 'Preview Minimal Mistakes');" class="btn">Live preview</a>
 </p>
 
 ## Theme features
@@ -54,10 +57,6 @@ Includes responsive layouts (`single`, `archive`, and `splash` pages) that look 
 ## Usage
 
 To learn more about how to customize this theme, include feature images in posts, modify the look and feel, create new posts, and some other junk, [read up here](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
-
-## Questions?
-
-Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or ping me on Twitter [@mmistakes](https://twitter.com/mmistakes) or . And if you make something cool with this theme feel free to let me know.
 
 ## License
 
