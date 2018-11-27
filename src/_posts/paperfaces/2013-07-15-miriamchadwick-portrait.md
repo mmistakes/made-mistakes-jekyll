@@ -1,12 +1,12 @@
 ---
 title: "Curly hair in a knit hat"
-excerpt: "PaperFaces portrait of @miriamchadwick drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @miriamchadwick drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-miriamchadwick-instagram.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-miriamchadwick-instagram-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@miriamchadwick](http://instagram.com/miriamchadwick).

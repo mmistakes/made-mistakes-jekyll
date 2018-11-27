@@ -1,13 +1,13 @@
 ---
 title: "Portrait Winner Number 3"
-excerpt: "PaperFaces portrait of @ViktoriaDeRoy drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ViktoriaDeRoy drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-viktoriaderoy-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-viktoriaderoy-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-viktoriaderoy-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@ViktoriaDeRoy](https://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from my first [portrait giveaway]({% post_url /articles/2014-08-24-paperfaces-giveaway %}).

@@ -1,12 +1,12 @@
 ---
 title: "Chillin' at the game"
-excerpt: "PaperFaces portrait of @mentalground0 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mentalground0 drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mentalground0-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-mentalground0-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@mentalground0](https://twitter.com/mentalground0).

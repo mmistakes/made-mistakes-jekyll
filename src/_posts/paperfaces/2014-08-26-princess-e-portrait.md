@@ -1,13 +1,13 @@
 ---
 title: "Faking Pencil with Pencil"
-excerpt: "PaperFaces portrait of the Princess E. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Princess E. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-princess-e.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-princess-e-teaser.jpg
   thumbnail: /assets/images/paperfaces-princess-e-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 Each time I use Paper's pencil tool I'm impressed with how well it performs. It doesn't just make textured marks like every other drawing app, but is able to replicate the nuance of *real* colored pencils.

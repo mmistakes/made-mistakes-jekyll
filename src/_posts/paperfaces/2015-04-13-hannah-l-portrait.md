@@ -1,6 +1,6 @@
 ---
 title: "White Eyes Glow Sometimes"
-excerpt: "PaperFaces portrait of the Hannah L. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Hannah L. drawn with Paper for iOS on an iPad."
 last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-hannah-l.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-hannah-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-hannah-l-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse]
+tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse]
 ---
 
 PaperFaces portrait of Hannah L. inspired by a [photograph on Sktchy](http://sktchy.com/7gqmFc ).

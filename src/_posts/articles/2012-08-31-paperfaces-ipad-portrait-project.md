@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/paperfaces-project-teaser.jpg
   thumbnail: /assets/images/paperfaces-project-250x250.jpg
 categories: [articles]
-tags: [Paper by 53, iPad, drawing, illustration]
+tags: [Paper for iOS, iPad, drawing, illustration]
 comments: true
 comments_locked: true
 toc: true

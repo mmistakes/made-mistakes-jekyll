@@ -1,13 +1,13 @@
 ---
 title: "Flipped lid"
-excerpt: "PaperFaces portrait of @B_A_W drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @B_A_W drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-b-a-w-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-b-a-w-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-b-a-w-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-01-17T12:57:09-05:00
 ---
 

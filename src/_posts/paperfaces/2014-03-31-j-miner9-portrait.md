@@ -1,13 +1,13 @@
 ---
 title: "Le hockey sur glace"
-excerpt: "PaperFaces portrait commission of @J_Miner9 drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission of @J_Miner9 drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-j-miner9.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-j-miner9-teaser.jpg
   thumbnail: /assets/images/paperfaces-j-miner9-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, bokeh, hockey]
+tags: [portrait, illustration, Paper for iOS, blend, bokeh, hockey]
 ---
 
 PaperFaces portrait commission of [@J_Miner9](https://twitter.com/J_Miner9).

@@ -1,13 +1,13 @@
 ---
 title: "Let's Get Spooky"
-excerpt: "PaperFaces portrait of the Renate W. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Renate W. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-renate-w.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-renate-w-teaser.jpg
   thumbnail: /assets/images/paperfaces-renate-w-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]
 ---
 
 PaperFaces portrait of Renate W. inspired by a [photograph on Sktchy](http://sktchy.com/4ml2W ).

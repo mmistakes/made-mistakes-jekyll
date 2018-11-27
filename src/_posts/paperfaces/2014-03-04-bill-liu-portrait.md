@@ -1,13 +1,13 @@
 ---
 title: "Bright colors and bokeh"
-excerpt: "PaperFaces portrait of a Bill Liu drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Bill Liu drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bill-liu.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bill-liu-teaser.jpg
   thumbnail: /assets/images/paperfaces-bill-liu-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, bokeh]
+tags: [portrait, illustration, Paper for iOS, blend, bokeh]
 ---
 
 PaperFaces portrait commission of a Bill Liu.

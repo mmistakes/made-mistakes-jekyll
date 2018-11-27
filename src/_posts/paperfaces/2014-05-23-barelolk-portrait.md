@@ -1,13 +1,13 @@
 ---
 title: "Open the Pod bay doors, HAL"
-excerpt: "PaperFaces portrait of @barelolk drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @barelolk drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-barelolk-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-barelolk-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-barelolk-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-01-17T12:49:36-05:00
 ---
 

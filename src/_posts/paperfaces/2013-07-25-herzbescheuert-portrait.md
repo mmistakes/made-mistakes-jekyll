@@ -1,12 +1,12 @@
 ---
 title: "Intersecting lines and long hair"
-excerpt: "PaperFaces portrait of @herzbescheuert drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @herzbescheuert drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-herzbescheuert-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-herzbescheuert-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@herzbescheuert](https://twitter.com/herzbescheuert). Another faceless portrait of a girl with long hair. Bored of these yet?

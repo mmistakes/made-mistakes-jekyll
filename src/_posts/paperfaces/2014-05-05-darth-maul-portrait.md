@@ -1,13 +1,13 @@
 ---
 title: "Die, Jedi, die!"
-excerpt: "PaperFaces portrait Darth Maul drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Darth Maul drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-darth-maul.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-darth-maul-teaser.jpg
   thumbnail: /assets/images/paperfaces-darth-maul-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Star Wars]
+tags: [portrait, illustration, Paper for iOS, Star Wars]
 ---
 
 PaperFaces portrait of Darth Maul from Episode I: The Phantom Menace.

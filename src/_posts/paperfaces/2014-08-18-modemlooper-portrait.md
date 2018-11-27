@@ -1,13 +1,13 @@
 ---
 title: "Data is Such a Card"
-excerpt: "PaperFaces portrait of @modemlooper drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @modemlooper drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-modemlooper-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-modemlooper-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-modemlooper-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Star Trek]
+tags: [portrait, illustration, Paper for iOS, Star Trek]
 ---
 
 PaperFaces portrait of [@modemlooper](https://twitter.com/modemlooper).

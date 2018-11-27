@@ -1,13 +1,13 @@
 ---
 title: "I am utterly alone"
-excerpt: "PaperFaces portrait of Lydia Deetz drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Lydia Deetz drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lydia-deetz.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lydia-deetz-teaser.jpg
   thumbnail: /assets/images/paperfaces-lydia-deetz-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white, blend]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, blend]
 ---
 
 PaperFaces portrait of Lydia Deetz from **Beetlejuice**, inspired by a photograph on Sktchy.

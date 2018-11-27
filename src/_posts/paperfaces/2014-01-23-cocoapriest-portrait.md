@@ -1,13 +1,13 @@
 ---
 title: "Details in the sunglasses"
-excerpt: "PaperFaces portrait of @cocoapriest drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @cocoapriest drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-cocoapriest-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-cocoapriest-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cocoapriest-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, sepia, beard]
+tags: [portrait, illustration, Paper for iOS, blend, sepia, beard]
 last_modified_at: 2017-01-17T16:14:36-05:00
 ---
 
@@ -17,7 +17,7 @@ PaperFaces portrait of [@cocoapriest](https://twitter.com/cocoapriest).
 
 {% include_cached boilerplate/paperfaces-4.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
+{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-3-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-1-600.jpg)](/assets/images/paperfaces-cocoapriest-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-2-600.jpg)](/assets/images/paperfaces-cocoapriest-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-cocoapriest-process-3-600.jpg)](/assets/images/paperfaces-cocoapriest-process-3-lg.jpg)

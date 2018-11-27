@@ -1,12 +1,12 @@
 ---
 title: "Mohawk in gray"
-excerpt: "PaperFaces portrait of @iainspad drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @iainspad drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-iainspad-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-iainspad-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 ---
 
 PaperFaces portrait of [@iainspad](https://twitter.com/iainspad). Up the punx.

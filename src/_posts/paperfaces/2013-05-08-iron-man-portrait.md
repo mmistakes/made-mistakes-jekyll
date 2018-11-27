@@ -1,12 +1,12 @@
 ---
 title: "PaperFaces portrait of Iron Man"
-excerpt: "PaperFaces portrait of Iron Man drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Iron Man drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-iron-man-3.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-iron-man-3-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Iron Man]
+tags: [portrait, illustration, Paper for iOS, Iron Man]
 ---
 
 Saw Iron Man 3 last night and figured I'd challenge myself by drawing the Iron Man himself --- Tony Stark. Those post credit scenes always leave me wanting more Marvel film goodness…

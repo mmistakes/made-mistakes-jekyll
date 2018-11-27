@@ -1,13 +1,13 @@
 ---
 title: "And now, young Skywalker... you will die."
-excerpt: "PaperFaces portrait Emperor Palpatine drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Emperor Palpatine drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-emperor-palpatine.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-emperor-palpatine-teaser.jpg
   thumbnail: /assets/images/paperfaces-emperor-palpatine-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Star Wars, blend]
+tags: [portrait, illustration, Paper for iOS, Star Wars, blend]
 ---
 
 PaperFaces portrait of Emperor Palpatine using force lighting in Episode VI: Return of the Jedi.

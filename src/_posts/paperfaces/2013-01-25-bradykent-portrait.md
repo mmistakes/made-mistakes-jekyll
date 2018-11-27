@@ -1,12 +1,12 @@
 ---
 title: "Plaid in front of some architecture"
-excerpt: "PaperFaces portrait of @bradykent drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bradykent drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bradykent-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-bradykent-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, time lapse]
+tags: [portrait, illustration, Paper for iOS, time lapse]
 ---
 
 PaperFaces portrait of [@bradykent](https://twitter.com/bradykent).

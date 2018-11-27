@@ -1,13 +1,13 @@
 ---
 title: "Blue eyes wrapped in blue"
-excerpt: "PaperFaces portrait of @itzyasmine drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @itzyasmine drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-itzyasmine-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-itzyasmine-twitter-150.jpg
   teaser: /assets/images/paperfaces-itzyasmine-twitter-teaser.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T12:46:49-05:00
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: "Orange and blue beart"
-excerpt: "PaperFaces portrait of @JonGretar drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @JonGretar drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jongretar-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jongretar-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jongretar-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces portrait of [@JonGretar](https://twitter.com/jongretar).

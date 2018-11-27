@@ -1,13 +1,13 @@
 ---
 title: "Yellow shirt and blur"
-excerpt: "PaperFaces portrait of @theoduscrane drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @theoduscrane drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-theoduscrane-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-theoduscrane-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-theoduscrane-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, beard]
+tags: [portrait, illustration, Paper for iOS, blend, beard]
 last_modified_at: 2017-01-17T15:57:55-05:00
 ---
 

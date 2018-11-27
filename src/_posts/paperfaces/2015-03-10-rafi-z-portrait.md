@@ -1,6 +1,6 @@
 ---
 title: "The Battle Within"
-excerpt: "PaperFaces portrait of the Rafi Z. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Rafi Z. drawn with Paper for iOS on an iPad."
 last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-rafi-z.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-rafi-z-teaser.jpg
   thumbnail: /assets/images/paperfaces-rafi-z-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, Mix, time lapse, black and white]
+tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse, black and white]
 ---
 
 PaperFaces portrait of Rafi Z. inspired by a [photograph on Sktchy](http://sktchy.com/WsDAeD ).

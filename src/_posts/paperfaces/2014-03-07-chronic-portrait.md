@@ -1,13 +1,13 @@
 ---
 title: "Suit doesn't match the name"
-excerpt: "PaperFaces portrait of @chronic drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @chronic drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-chronic-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-chronic-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-chronic-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-01-17T14:35:08-05:00
 ---
 

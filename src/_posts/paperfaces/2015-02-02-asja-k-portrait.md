@@ -1,6 +1,6 @@
 ---
 title: "Violet Moon"
-excerpt: "PaperFaces portrait of the Asja K. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Asja K. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-asja-k.jpg 
   feature: *image
@@ -17,7 +17,7 @@ gallery:
     image_path: /assets/images/paperfaces-asja-k-process-3-600.jpg
     alt: "work in process screenshot"
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]
 last_modified_at: 2016-09-28T21:40:33-04:00
 ---
 

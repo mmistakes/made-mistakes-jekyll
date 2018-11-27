@@ -1,13 +1,13 @@
 ---
 title: "Jean jacket rock"
-excerpt: "PaperFaces portrait of a Pao T. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Pao T. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-pao-t.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-pao-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-pao-t-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T14:08:08-05:00
 ---
 

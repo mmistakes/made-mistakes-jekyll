@@ -1,13 +1,13 @@
 ---
 title: "Wearing Glass like a boss"
-excerpt: "PaperFaces portrait of @mikeredmer drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mikeredmer drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mikeredmer-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mikeredmer-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mikeredmer-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, Google Glass]
+tags: [portrait, illustration, Paper for iOS, black and white, Google Glass]
 last_modified_at: 2017-01-17T14:04:41-05:00
 ---
 

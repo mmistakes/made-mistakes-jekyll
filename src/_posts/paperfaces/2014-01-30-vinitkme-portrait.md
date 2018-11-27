@@ -1,13 +1,13 @@
 ---
 title: "Thin stripes in gray"
-excerpt: "PaperFaces portrait of @vinitkme drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @vinitkme drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-vinitkme-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-vinitkme-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-vinitkme-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, trees]
+tags: [portrait, illustration, Paper for iOS, black and white, trees]
 last_modified_at: 2017-01-17T16:09:29-05:00
 ---
 

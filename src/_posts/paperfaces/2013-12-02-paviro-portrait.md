@@ -1,19 +1,19 @@
 ---
 title: "Drawing in shadows"
-excerpt: "PaperFaces portrait of @paviro_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @paviro_ drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-paviro-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-paviro-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend]
+tags: [portrait, illustration, Paper for iOS, blend]
 ---
 
 PaperFaces portrait of [@paviro_](https://twitter.com/paviro_).
 
 {% include_cached boilerplate/paperfaces-3.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-3-col" %}
+{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-paviro-process-1-600.jpg)](/assets/images/paperfaces-paviro-process-1-lg.jpg)
 [![](/assets/images/paperfaces-paviro-process-2-600.jpg)](/assets/images/paperfaces-paviro-process-2-lg.jpg)
 [![](/assets/images/paperfaces-paviro-process-3-600.jpg)](/assets/images/paperfaces-paviro-process-3-lg.jpg)

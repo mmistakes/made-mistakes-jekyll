@@ -1,13 +1,13 @@
 ---
 title: "Black tie on white"
-excerpt: "PaperFaces portrait of @claudioguglieri drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @claudioguglieri drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-claudioguglieri-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-claudioguglieri-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-claudioguglieri-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@claudioguglieri](https://twitter.com/claudioguglieri).

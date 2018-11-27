@@ -1,13 +1,13 @@
 ---
 title: "Flickering lights of rain"
-excerpt: "PaperFaces portrait of @endouz drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @endouz drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-endouz-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-endouz-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-endouz-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, bokeh]
+tags: [portrait, illustration, Paper for iOS, bokeh]
 ---
 
 PaperFaces portrait of [@endouz](https://twitter.com/endouz). Using white to paint lights that could be rain drop refractions… or not.

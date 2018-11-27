@@ -1,12 +1,12 @@
 ---
 title: "Suit and tie against gray"
-excerpt: "PaperFaces portrait of @farrenbennett drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @farrenbennett drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-farrenbennett-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-farrenbennett-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@farrenbennett](https://twitter.com/farrenbennett).

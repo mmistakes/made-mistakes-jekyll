@@ -1,13 +1,13 @@
 ---
 title: "Wild Hair"
-excerpt: "PaperFaces portrait of Maryoma B. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Maryoma B. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-maryoma-b.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-maryoma-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-maryoma-b-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Maryoma B. inspired by a photograph on Sktchy.

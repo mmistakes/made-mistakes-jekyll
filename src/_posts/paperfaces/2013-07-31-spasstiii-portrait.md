@@ -1,12 +1,12 @@
 ---
 title: "Invisibility is a white shirt on a white wall"
-excerpt: "PaperFaces portrait of @spasstiii drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @spasstiii drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-spasstiii-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-spasstiii-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@spasstiii](https://twitter.com/spasstiii).

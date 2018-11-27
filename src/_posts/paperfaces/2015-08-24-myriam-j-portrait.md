@@ -1,6 +1,6 @@
 ---
 title: "Unfinished Except Nose"
-excerpt: "PaperFaces portrait of Myriam J. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Myriam J. drawn with Paper for iOS on an iPad."
 last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-myriam-j.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-myriam-j-teaser.jpg
   thumbnail: /assets/images/paperfaces-myriam-j-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]
 ---
 
 PaperFaces portrait of Myriam J. inspired by a [photograph on Sktchy](http://sktchy.com/kMXyoD ).

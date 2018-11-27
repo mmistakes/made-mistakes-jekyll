@@ -1,13 +1,13 @@
 ---
 title: "It's a trap!"
-excerpt: "PaperFaces portrait Admiral Ackbar drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Admiral Ackbar drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-admiral-ackbar.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-admiral-ackbar-teaser.jpg
   thumbnail: /assets/images/paperfaces-admiral-ackbar-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Star Wars, blend]
+tags: [portrait, illustration, Paper for iOS, Star Wars, blend]
 ---
 
 PaperFaces portrait of Admiral Ackbar from Episode VI: Return of the Jedi.

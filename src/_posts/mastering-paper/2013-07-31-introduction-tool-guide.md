@@ -10,7 +10,7 @@ image:
   thumbnail: /assets/images/paper-53-expanded-guide-thumb.jpg
   teaser: /assets/images/paper-53-expanded-guide-teaser-2016.jpg
 categories: [mastering-paper]
-tags: [Paper by 53, tutorial, drawing, painting, iPad, stylus]
+tags: [Paper for iOS, tutorial, drawing, painting, iPad, stylus]
 toc: true
 ---
 

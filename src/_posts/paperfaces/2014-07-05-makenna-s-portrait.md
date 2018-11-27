@@ -1,13 +1,13 @@
 ---
 title: "Rosey cheeks, green shadows"
-excerpt: "PaperFaces portrait of Makenna S. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Makenna S. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-makenna-s.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-makenna-s-teaser.jpg
   thumbnail: /assets/images/paperfaces-makenna-s-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of Makenna S. inspired by a photograph on Sktchy.

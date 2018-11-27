@@ -1,13 +1,13 @@
 ---
 title: "The sun casts pale light"
-excerpt: "PaperFaces portrait of @ellaweston drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ellaweston drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ellaweston-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-ellaweston-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-ellaweston-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T14:16:17-05:00
 ---
 

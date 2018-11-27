@@ -1,12 +1,12 @@
 ---
 title: "Drawing hairs before midnight"
-excerpt: "PaperFaces portrait of @LizzieBeth_ drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @LizzieBeth_ drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lizziebeth-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-lizziebeth-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, time lapse]
+tags: [portrait, illustration, Paper for iOS, time lapse]
 ---
 
 PaperFaces portrait of <a href="http://twiter.com/LizzieBeth_">@LizzieBeth_</a>. For this portrait I decided to make one of those most excellent speed drawing videos you see all over YouTube. In the past I used AirPlay on my iPad to mirror its display to my iMac that was running [**Reflector**](http://www.airsquirrels.com/reflector/) to capture the screen. This process has worked out great but since it only records the screen you miss out on actually seeing how I draw with a stylus.

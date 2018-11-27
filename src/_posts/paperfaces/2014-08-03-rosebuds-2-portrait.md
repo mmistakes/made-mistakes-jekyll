@@ -1,6 +1,6 @@
 ---
 title: "The Twins Turn Two"
-excerpt: "PaperFaces portrait of the two little rosebuds drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the two little rosebuds drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-rosebuds-2.jpg 
   feature: *image
@@ -17,7 +17,7 @@ gallery:
     image_path: /assets/images/paperfaces-rosebuds-2-process-3-600.jpg
     alt: "work in process screenshot"
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, twins]
+tags: [portrait, illustration, Paper for iOS, twins]
 last_modified_at: 2016-09-29T16:02:37-04:00
 ---
 

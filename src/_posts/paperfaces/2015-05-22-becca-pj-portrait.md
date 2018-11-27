@@ -1,6 +1,6 @@
 ---
 title: "Broken Neck Lines"
-excerpt: "PaperFaces portrait of the Becca P.J. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Becca P.J. drawn with Paper for iOS on an iPad."
 last_modified_at: 2016-10-10T15:18:53-04:00
 image: 
   path: &image /assets/images/paperfaces-becca-pj.jpg 
@@ -18,7 +18,7 @@ gallery:
     image_path: /assets/images/paperfaces-becca-pj-process-3-600.jpg
     alt: "Work in process screenshot"
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]
 ---
 
 PaperFaces portrait of Becca P.J. inspired by a [photograph on Sktchy](http://sktchy.com/WCFVrC ).

@@ -1,13 +1,13 @@
 ---
 title: "Eyes up"
-excerpt: "PaperFaces portrait of a Kitty Shea drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Kitty Shea drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-kitty-shea.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-kitty-shea-150.jpg
   teaser: /assets/images/paperfaces-kitty-shea-teaser.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T12:44:46-05:00
 ---
 

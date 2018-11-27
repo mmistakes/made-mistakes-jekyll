@@ -1,6 +1,6 @@
 ---
 title: "Pull My Lips"
-excerpt: "PaperFaces portrait of the Vanessa J. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Vanessa J. drawn with Paper for iOS on an iPad."
 last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-vanessa-j.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-vanessa-j-teaser.jpg
   thumbnail: /assets/images/paperfaces-vanessa-j-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Vanessa J. inspired by a [photograph on Sktchy](http://sktchy.com/FxLxqH ).

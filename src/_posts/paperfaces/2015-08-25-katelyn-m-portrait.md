@@ -1,6 +1,6 @@
 ---
 title: "Unstoppable Hand"
-excerpt: "PaperFaces portrait of Katelyn M. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Katelyn M. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-katelyn-m.jpg 
   feature: *image
@@ -17,7 +17,7 @@ gallery:
     image_path: /assets/images/paperfaces-katelyn-m-process-3-600.jpg
     alt: "Work in process screenshot"
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white, bokeh, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, bokeh, Mix]
 last_modified_at: 2016-10-10T14:56:57-04:00
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: "Posterization"
-excerpt: "PaperFaces portrait of @jhummel drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jhummel drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jhummel-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-jhummel-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@jhummel](https://twitter.com/jhummel).

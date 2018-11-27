@@ -1,12 +1,12 @@
 ---
 title: "Hiding behind a decorative fan"
-excerpt: "PaperFaces portrait of @khollybell drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @khollybell drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-khollybell-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-khollybell-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@khollybell](https://twitter.com/khollybell).

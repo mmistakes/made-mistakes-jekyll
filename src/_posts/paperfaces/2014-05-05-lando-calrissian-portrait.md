@@ -1,13 +1,13 @@
 ---
 title: "Here goes nothing"
-excerpt: "PaperFaces portrait Lando Calrissian drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Lando Calrissian drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lando-calrissian.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lando-calrissian-teaser.jpg
   thumbnail: /assets/images/paperfaces-lando-calrissian-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Star Wars]
+tags: [portrait, illustration, Paper for iOS, Star Wars]
 ---
 
 PaperFaces portrait of Lando Calrissian from Episode VI: Return of the Jedi.

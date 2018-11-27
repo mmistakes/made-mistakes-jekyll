@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/pogo-connect-review-teaser.jpg
   thumbnail: /assets/images/pogo-connect-app-thumb.jpg
 categories: [mastering-paper]
-tags: [Pogo Connect, Paper by 53, Procreate, stylus, review, iPad]
+tags: [Pogo Connect, Paper for iOS, Procreate, stylus, review, iPad]
 comments_locked: true
 toc: true
 ---

@@ -1,13 +1,13 @@
 ---
 title: "The one who knocks"
-excerpt: "PaperFaces portrait of @dillydallygames drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @dillydallygames drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-dillydallygames-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-dillydallygames-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-dillydallygames-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Breaking Bad]
+tags: [portrait, illustration, Paper for iOS, Breaking Bad]
 last_modified_at: 2017-01-17T14:29:00-05:00
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: "A scenic view of The Mokes"
-excerpt: "PaperFaces portrait of Lorena drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Lorena drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lorena.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lorena-teaser.jpg
   thumbnail: /assets/images/paperfaces-lorena-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend]
+tags: [portrait, illustration, Paper for iOS, blend]
 last_modified_at: 2017-01-17T14:52:33-05:00
 ---
 

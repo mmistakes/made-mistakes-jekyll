@@ -1,13 +1,13 @@
 ---
 title: "Redhead in shadow"
-excerpt: "PaperFaces portrait of Skinny Lee drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Skinny Lee drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-skinny-lee.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-skinny-lee-teaser.jpg
   thumbnail: /assets/images/paperfaces-skinny-lee-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, blend]
+tags: [portrait, illustration, Paper for iOS, Sktchy, blend]
 last_modified_at: 2017-01-17T14:49:35-05:00
 ---
 

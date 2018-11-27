@@ -1,13 +1,13 @@
 ---
 title: "Beard chin on green"
-excerpt: "PaperFaces portrait of @nickkeyphotos drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @nickkeyphotos drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-nickkeyphotos-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-nickkeyphotos-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-nickkeyphotos-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces portrait of [@nickkeyphotos](https://twitter.com/nickkeyphotos).

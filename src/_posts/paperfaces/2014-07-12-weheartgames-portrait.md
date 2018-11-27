@@ -1,13 +1,13 @@
 ---
 title: "Smiley beard"
-excerpt: "PaperFaces portrait of @weheartgames drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @weheartgames drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-weheartgames-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-weheartgames-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-weheartgames-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, bokeh, beard]
+tags: [portrait, illustration, Paper for iOS, blend, bokeh, beard]
 ---
 
 PaperFaces portrait of [@weheartgames](https://twitter.com/weheartgames).

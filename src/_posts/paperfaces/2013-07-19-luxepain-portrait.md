@@ -1,12 +1,12 @@
 ---
 title: "Half of this drawing is blonde hair"
-excerpt: "PaperFaces portrait of @LuxePain drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @LuxePain drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-luxepain-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-luxepain-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@luxepain](https://twitter.com/luxepain). Always looking to further perfect my hair drawing skills --- boy was there a bunch of hair for me to practice on in this sketch! I'm including a few work in progress screen grabs below showing how I built up the hair with pencil line after pencil line after pencil line.

@@ -1,13 +1,13 @@
 ---
 title: "Forest lighting"
-excerpt: "PaperFaces portrait of Kayla E. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Kayla E. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-kayla-e.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-kayla-e-teaser.jpg
   thumbnail: /assets/images/paperfaces-kayla-e-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, blend, bokeh]
+tags: [portrait, illustration, Paper for iOS, Sktchy, blend, bokeh]
 ---
 
 Edge lighting is my favorite kind of lighting to draw. PaperFaces portrait of [Kayla E.](http://sktchy.com/fHCi1D ) inspired by Sktchy.

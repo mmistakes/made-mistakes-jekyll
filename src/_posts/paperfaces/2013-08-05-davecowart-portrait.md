@@ -1,12 +1,12 @@
 ---
 title: "Painterly backdrop and beard"
-excerpt: "PaperFaces portrait of @davecowart drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @davecowart drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-davecowart-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-davecowart-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces portrait of [@davecowart](https://twitter.com/davecowart). Was feeling under the weather when I painted this, but the show must go on!

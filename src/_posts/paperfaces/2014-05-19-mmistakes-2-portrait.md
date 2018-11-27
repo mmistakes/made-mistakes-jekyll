@@ -1,13 +1,13 @@
 ---
 title: "Scruffy beard revisited"
-excerpt: "Another PaperFaces portrait of @mmistakes drawn with Paper by 53 on an iPad."
+excerpt: "Another PaperFaces portrait of @mmistakes drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mmistakes-2-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mmistakes-2-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mmistakes-2-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, self portrait, Michael Rose]
+tags: [portrait, illustration, Paper for iOS, black and white, self portrait, Michael Rose]
 last_modified_at: 2017-01-17T12:52:20-05:00
 ---
 

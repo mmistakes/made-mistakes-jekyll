@@ -1,13 +1,13 @@
 ---
 title: "Lid Flip"
-excerpt: "PaperFaces portrait of the Chrissy Jo drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Chrissy Jo drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-chrissy-jo.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-chrissy-jo-teaser.jpg
   thumbnail: /assets/images/paperfaces-chrissy-jo-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 Chrissy does [fantastic illustrations](http://chrissyjo.com/ ) and after she drew a [pretty rad portrait](http://sktchy.com/aLFwUD) of yours truly I decided to return the favor.

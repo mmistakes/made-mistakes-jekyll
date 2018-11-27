@@ -1,13 +1,13 @@
 ---
 title: "Chloe, 22 months"
-excerpt: "PaperFaces portrait of my daughter Chloe drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of my daughter Chloe drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-chloe-winter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-chloe-winter-teaser.jpg
   thumbnail: /assets/images/paperfaces-chloe-winter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, black and white, bokeh, twins]
+tags: [portrait, illustration, Paper for iOS, blend, black and white, bokeh, twins]
 ---
 
 Just like [her sister]({% post_url /paperfaces/2014-06-23-everly-autumn-portrait %}), *Chlo-worm's* hair can't be tamed.

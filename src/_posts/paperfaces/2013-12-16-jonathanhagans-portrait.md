@@ -1,12 +1,12 @@
 ---
 title: "Winter faces"
-excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jonathanhagans-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-jonathanhagans-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 I don't often draw faces, but with the right photo reference I sometimes attempt it. 
@@ -17,7 +17,7 @@ PaperFaces portrait commission for [@jonathanhagans](https://twitter.com/jonatha
 
 {% include_cached boilerplate/paperfaces-2.md %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
+{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-1-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-1-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-2-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-jonathanhagans-process-3-600.jpg)](/assets/images/paperfaces-jonathanhagans-process-3-lg.jpg)

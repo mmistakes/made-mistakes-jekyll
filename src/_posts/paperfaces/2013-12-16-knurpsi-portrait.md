@@ -1,12 +1,12 @@
 ---
 title: "Purple strands and specs"
-excerpt: "PaperFaces portrait of @knurpsi drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @knurpsi drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-knurpsi-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-knurpsi-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@knurpsi](https://twitter.com/knurpsi).
@@ -17,7 +17,7 @@ PaperFaces portrait of [@knurpsi](https://twitter.com/knurpsi).
 [![Work in process screenshot](/assets/images/paperfaces-knurpsi-process-1-750.jpg)](/assets/images/paperfaces-knurpsi-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
+{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-knurpsi-process-2-600.jpg)](/assets/images/paperfaces-knurpsi-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-knurpsi-process-3-600.jpg)](/assets/images/paperfaces-knurpsi-process-3-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-knurpsi-process-4-600.jpg)](/assets/images/paperfaces-knurpsi-process-4-lg.jpg)

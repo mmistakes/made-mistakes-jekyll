@@ -1,13 +1,13 @@
 ---
 title: "Fine Line Glasses"
-excerpt: "PaperFaces portrait of @jmcquarrie drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @jmcquarrie drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jmcquarrie-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-jmcquarrie-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jmcquarrie-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper for iOS, black and white, beard]
 ---
 
 PaperFaces portrait of [@jmcquarrie](https://twitter.com/jmcquarrie).

@@ -1,13 +1,13 @@
 ---
 title: "Cello, is it me you're looking for?"
-excerpt: "PaperFaces portrait of @rubenharris drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @rubenharris drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-rubenharris-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rubenharris-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-rubenharris-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T14:19:19-05:00
 ---
 

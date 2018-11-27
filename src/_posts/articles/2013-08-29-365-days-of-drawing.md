@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/paperfaces-476-portraits-teaser.jpg
   thumbnail: /assets/images/paperfaces-476-portraits-thumb.jpg
 categories: [articles]
-tags: [drawing, illustration, 365 project, Paper by 53, iPad]
+tags: [drawing, illustration, 365 project, Paper for iOS, iPad]
 comments: true
 last_modified_at: 2017-12-12T16:27:38-05:00
 ---

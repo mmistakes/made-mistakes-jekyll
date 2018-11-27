@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/paper-53-faces-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-faces-thumb.jpg
 categories: [mastering-paper]
-tags: [Paper by 53, tutorial, drawing, painting, portrait, iPad]
+tags: [Paper for iOS, tutorial, drawing, painting, portrait, iPad]
 toc: true
 ---
 

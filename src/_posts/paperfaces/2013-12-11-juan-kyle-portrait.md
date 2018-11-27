@@ -1,12 +1,12 @@
 ---
 title: "Best man"
-excerpt: "PaperFaces portrait of Juan and Kyle drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Juan and Kyle drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-juan-kyle.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-juan-kyle-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, time lapse]
+tags: [portrait, illustration, Paper for iOS, blend, time lapse]
 ---
 
 Drawing small faces with Paper and Pencil is no joke. PaperFaces portrait of Juan and Kyle.

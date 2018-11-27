@@ -1,12 +1,12 @@
 ---
 title: "Hoodies from the future"
-excerpt: "PaperFaces portrait of @colmsmyth drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @colmsmyth drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-colmsmyth-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-colmsmyth-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@colmsmyth](https://twitter.com/colmsmyth).

@@ -3,7 +3,7 @@ title: "New Paper for iOS 3.0 features I can't live without"
 last_modified_at: 2018-11-06T12:05:56-05:00
 excerpt: "Paper for iOS comes to the iPhone with productivity boosting features like photo import, text notes, grid view, rotate, and more."
 categories: [mastering-paper]
-tags: [Paper by 53, iPad]
+tags: [Paper for iOS, iPad]
 image:
   path: &image /assets/images/paper-3-feature.jpg
   width: 1600

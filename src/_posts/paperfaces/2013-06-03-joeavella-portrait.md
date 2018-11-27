@@ -1,12 +1,12 @@
 ---
 title: "Look up, graffiti wall and sunglasses"
-excerpt: "PaperFaces portrait of @joeavella drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @joeavella drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-joeavella-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-joeavella-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, graffiti]
+tags: [portrait, illustration, Paper for iOS, graffiti]
 ---
 
 PaperFaces portrait of [@joeavella](https://twitter.com/joeavella).

@@ -1,12 +1,12 @@
 ---
 title: "Blue dress curved"
-excerpt: "PaperFaces portrait of @ancratyne drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ancratyne drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ancratyne-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-ancratyne-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@ancratyne](https://twitter.com/ancratyne).

@@ -1,13 +1,13 @@
 ---
 title: "A Beard That Hides"
-excerpt: "PaperFaces portrait of the Remi L. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Remi L. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-remi-l.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-remi-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-remi-l-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, beard, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, beard, Mix]
 ---
 
 PaperFaces portrait of Remi L. inspired by a [photograph on Sktchy](http://sktchy.com/wIZBLC ).

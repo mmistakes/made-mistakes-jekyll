@@ -1,13 +1,13 @@
 ---
 title: "A classic pose"
-excerpt: "PaperFaces portrait of Juan D. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Juan D. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-juan-d.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-juan-d-teaser.jpg
   thumbnail: /assets/images/paperfaces-juan-d-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, black and white]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Juan D. inspired by a photograph on Sktchy.

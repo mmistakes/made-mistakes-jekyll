@@ -1,6 +1,6 @@
 ---
 title: "The Dark Knight Rises"
-excerpt: "PaperFaces portrait of Batman drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Batman drawn with Paper for iOS on an iPad."
 last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-dark-knight.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-dark-knight-teaser.jpg
   thumbnail: /assets/images/paperfaces-dark-knight-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Batman, Mix]
+tags: [portrait, illustration, Paper for iOS, Batman, Mix]
 ---
 
 PaperFaces portrait of the Dark Knight to go along with a drawing I did of the [Clown Prince]({% post_url /paperfaces/2014-12-04-killing-joke-portrait %}) a few weeks ago.

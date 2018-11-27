@@ -1,12 +1,12 @@
 ---
 title: "Look ma, I'm a Sim!"
-excerpt: "PaperFaces portrait of @vmalloc drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @vmalloc drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-vmalloc-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-vmalloc-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@vmalloc](https://twitter.com/vmalloc).

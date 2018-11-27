@@ -1,13 +1,13 @@
 ---
 title: "Matilda Jane Rosebuds"
-excerpt: "PaperFaces portrait of the rosebuds drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the rosebuds drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-matilda-jane-twins.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-matilda-jane-twins-teaser.jpg
   thumbnail: /assets/images/paperfaces-matilda-jane-twins-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, twins]
+tags: [portrait, illustration, Paper for iOS, twins]
 ---
 
 PaperFaces portrait of the [two little rosebuds](http://2littlerosebuds.com/2014/04/24/matilda-jane-spring-clothing-review-giveaway-ends/) modeling clothing from Matilda Jane.

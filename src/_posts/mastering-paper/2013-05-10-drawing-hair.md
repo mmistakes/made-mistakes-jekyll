@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/how-to-draw-hair-teaser-2016.jpg
   thumbnail: /assets/images/how-to-draw-hair-thumb.jpg
 categories: [mastering-paper]
-tags: [Paper by 53, tutorial, hair, drawing, iPad]
+tags: [Paper for iOS, tutorial, hair, drawing, iPad]
 toc: true
 ---
 
@@ -20,7 +20,7 @@ I like to rough out a general shape of the subject's hair using watercolor loade
 
 When working with the watercolor brush remember to **layer** numerous strokes to get a rich dark base. Just painting one coat of black won't give great results needed for the next step.
 
-[![Drawing hair with Paper by 53 cheatsheet](/assets/images/drawing-hair-paper-53-cheatsheet-600.jpg)](/assets/images/drawing-hair-paper-53-cheatsheet-lg.jpg)
+[![Drawing hair with Paper for iOS cheatsheet](/assets/images/drawing-hair-paper-53-cheatsheet-600.jpg)](/assets/images/drawing-hair-paper-53-cheatsheet-lg.jpg)
 
 ## Draw each strand
 

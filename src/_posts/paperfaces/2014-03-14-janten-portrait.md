@@ -1,13 +1,13 @@
 ---
 title: "Weather appropriate"
-excerpt: "PaperFaces portrait of @janten drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @janten drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-janten-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-janten-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-janten-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper for iOS, black and white, beard]
 last_modified_at: 2017-01-17T14:29:39-05:00
 ---
 

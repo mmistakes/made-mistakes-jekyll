@@ -1,12 +1,12 @@
 ---
 title: "Floating head in grayscale"
-excerpt: "PaperFaces portrait of @ginader drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ginader drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ginader-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-ginader-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, head]
+tags: [portrait, illustration, Paper for iOS, black and white, head]
 ---
 
 PaperFaces portrait of [@ginader](https://twitter.com/ginader).

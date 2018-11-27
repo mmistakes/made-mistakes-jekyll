@@ -1,6 +1,6 @@
 ---
 title: "Bubble Bubble"
-excerpt: "PaperFaces portrait of the Kalani O. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Kalani O. drawn with Paper for iOS on an iPad."
 last_modified_at: 
 image: 
   path: &image /assets/images/paperfaces-kalani-o.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-kalani-o-teaser.jpg
   thumbnail: /assets/images/paperfaces-kalani-o-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy, Mix, black and white]
+tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, black and white]
 ---
 
 PaperFaces portrait of Kalani O. inspired by a [photograph on Sktchy](http://sktchy.com/IfaqVH ).

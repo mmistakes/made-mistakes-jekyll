@@ -1,12 +1,12 @@
 ---
 title: "Folding a menu in a gray room"
-excerpt: "PaperFaces portrait of @Jenny_Smyth drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Jenny_Smyth drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jenny-smyth-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-jenny-smyth-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 ---
 
 PaperFaces portrait of [@Jenny_Smyth](https://twitter.com/Jenny_Smyth).

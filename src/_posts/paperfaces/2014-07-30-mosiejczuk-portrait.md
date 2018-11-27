@@ -1,13 +1,13 @@
 ---
 title: "Faking Bokehs Again"
-excerpt: "PaperFaces portrait of @mosiejczuk drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mosiejczuk drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mosiejczuk-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mosiejczuk-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mosiejczuk-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, bokeh, black and white]
+tags: [portrait, illustration, Paper for iOS, bokeh, black and white]
 ---
 
 PaperFaces portrait of [@mosiejczuk](https://twitter.com/mosiejczuk).

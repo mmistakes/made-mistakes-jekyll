@@ -1,13 +1,13 @@
 ---
 title: "You were the chosen one!"
-excerpt: "PaperFaces portrait Obi-Wan Kenobi drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait Obi-Wan Kenobi drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-obi-wan-kenobi.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-obi-wan-kenobi-teaser.jpg
   thumbnail: /assets/images/paperfaces-obi-wan-kenobi-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Star Wars, beard]
+tags: [portrait, illustration, Paper for iOS, Star Wars, beard]
 ---
 
 PaperFaces portrait of Obi-Wan Kenobi from Episode III: Revenge of the Sith.

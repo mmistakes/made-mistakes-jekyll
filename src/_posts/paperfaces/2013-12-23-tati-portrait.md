@@ -1,13 +1,13 @@
 ---
 title: "Spiderwebs and dew drops"
-excerpt: "PaperFaces portrait commission drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait commission drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-tati.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-tati-teaser.jpg
   thumbnail: /assets/images/paperfaces-tati-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, bokeh, time lapse]
+tags: [portrait, illustration, Paper for iOS, blend, bokeh, time lapse]
 ---
 
 My first PaperFaces portrait commission using two styli to complete.

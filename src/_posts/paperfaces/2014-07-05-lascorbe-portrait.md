@@ -1,13 +1,13 @@
 ---
 title: "Sharks have fins"
-excerpt: "PaperFaces portrait of @Lascorbe drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @Lascorbe drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lascorbe-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-lascorbe-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-lascorbe-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 ---
 
 PaperFaces portrait of [@Lascorbe](https://twitter.com/Lascorbe).

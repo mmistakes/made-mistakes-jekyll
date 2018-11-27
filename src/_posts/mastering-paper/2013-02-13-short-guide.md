@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/madewithpaper-guide-teaser.jpg
   thumbnail: /assets/images/madewithpaper-guide-thumb.jpg
 categories: [mastering-paper]
-tags: [Paper by 53, tutorial, drawing, iPad]
+tags: [Paper for iOS, tutorial, drawing, iPad]
 toc: true
 comments_locked: true
 ---
@@ -45,7 +45,7 @@ Since publishing this short guide I've gone through several iPad styli and writt
 I've since moved on from the LunaTik Touch Pen to using FiftyThree's Pencil exclusively.
 {% endnotice %}
 
-Every drawing is different and I try to keep that in mind before opening Paper by 53. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned so much doing just that for the last couple of months.
+Every drawing is different and I try to keep that in mind before opening Paper for iOS. With that said, the following are some general steps and techniques I utilize when drawing and painting on a 3rd generation iPad with retina screen. One thing to remember is experimenting with all the tools and drawing everyday will really up your game. I've learned so much doing just that for the last couple of months.
 
 ## Block out your composition
 
@@ -54,12 +54,12 @@ When I begin a new [PaperFaces portrait](/paperfaces/), I start by sketching an 
 Usually I pencil in quick gestural outlines as a guide for painting forms later. Other times I jump right to the background and splash in layer upon layer of watercolor. It really depends on the source material and if the background has enough detail to bother with.
 
 {% figure caption:"Face study using watercolor and some default colors." %}
-![Screenshot of an in progress Paper by 53 drawing](/assets/images/girl-madewithpaper-in-progress.jpg)
+![Screenshot of an in progress Paper for iOS drawing](/assets/images/girl-madewithpaper-in-progress.jpg)
 {% endfigure %}
 
 ## Watercolor without water
 
-If you ask me, this tool is what sets Paper by 53 apart from all the other iPad drawing apps like *Procreate* and *Sketchbook Pro*. I use the watercolor brush in two ways... well maybe three.
+If you ask me, this tool is what sets Paper for iOS apart from all the other iPad drawing apps like *Procreate* and *Sketchbook Pro*. I use the watercolor brush in two ways... well maybe three.
 
 When crisp edges aren't a concern, I'll block in color quickly with the watercolor brush. I achieve continuous tones by painting slowly and never removing the stylus (or my finger) from the screen. If I want to create a smooth gradation in color I move the brush progressively faster to fade it out.
 
@@ -84,7 +84,7 @@ Two things to keep in mind when working with the marker tool:
 
 ## The multipurpose Pencil
 
-I saved the best for last. When I first started using Paper by 53, I was enamored with the thick and thins of the fountain pen and how true to life the watercolor brush handled. But then I rediscovered an old friend, in a digital world --- Mr. Pencil.
+I saved the best for last. When I first started using Paper for iOS, I was enamored with the thick and thins of the fountain pen and how true to life the watercolor brush handled. But then I rediscovered an old friend, in a digital world --- Mr. Pencil.
 
 Need to lightly sketch out a face... pull out the pencil. Need to smoothen out some edges... pull out the pencil. Need to add shadows and highlights... pull out the pencil. It has so many uses, that by default I spend most of my time with it. My absolute favorite is to use a white on top of a black (or dark background) and sketch in highlights, especially in long hair. It's sick how easy achieving realistic looking hair is when using the pencil.
 
@@ -94,8 +94,8 @@ Need to lightly sketch out a face... pull out the pencil. Need to smoothen out s
 Read in detail [how I draw hair]({% post_url /mastering-paper/2013-05-10-drawing-hair %}) as part of my Mastering Paper by FiftyThree series of tutorials.
 {% endnotice %}
 
-{% figure caption:"Paper by 53's pencil tool works wonders for rendering hair." %}
-![Detail shot of hair drawn using Paper by 53](/assets/images/madewithpaper-hair-detail.jpg)
+{% figure caption:"Paper for iOS's pencil tool works wonders for rendering hair." %}
+![Detail shot of hair drawn using Paper for iOS](/assets/images/madewithpaper-hair-detail.jpg)
 {% endfigure %}
 
 ## Closing thoughts and questions
@@ -106,7 +106,7 @@ I've taken the liberty of embedding a video playlist below, demonstrating how I 
 
 If I missed anything or you're looking for additional pointers leave a comment below or [tweet me](https://twitter.com/mmistakes).
 
-{% figure caption:"View more of my Paper by 53 video tutorials on [YouTube](https://www.youtube.com/user/anotherjpeg) or [learn how I use Paper](/mastering-paper/)." %}
+{% figure caption:"View more of my Paper for iOS video tutorials on [YouTube](https://www.youtube.com/user/anotherjpeg) or [learn how I use Paper](/mastering-paper/)." %}
 {% youtube videoseries?list=PLaLqP2ipMLc6UugVLyTwWTiFtmmZzj7ao&amp; %}
 {% endfigure %}
 

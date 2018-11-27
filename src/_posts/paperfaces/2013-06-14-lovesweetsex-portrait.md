@@ -1,12 +1,12 @@
 ---
 title: "Blanket party with puppy"
-excerpt: "PaperFaces portrait of @lovesweetsex drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @lovesweetsex drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lovesweetsex-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-lovesweetsex-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of project donator [@lovesweetsex](https://twitter.com/lovesweetsex).

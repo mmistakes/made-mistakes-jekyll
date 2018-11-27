@@ -1,6 +1,6 @@
 ---
 title: "The Killing Joke"
-excerpt: "PaperFaces portrait of the Joker from The Dark Knight drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Joker from The Dark Knight drawn with Paper for iOS on an iPad."
 last_modified_at: 2017-09-07T16:16:56-04:00
 image: 
   path: &image /assets/images/paperfaces-joker.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-joker-teaser.jpg
   thumbnail: /assets/images/paperfaces-joker-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Batman, Mix]
+tags: [portrait, illustration, Paper for iOS, Batman, Mix]
 ---
 
 While browsing through Mix looking for inspiration I came across a drawing shared by [赵 志欣](https://mix.fiftythree.com/122266--) of Heath Ledger from **The Dark Knight**.

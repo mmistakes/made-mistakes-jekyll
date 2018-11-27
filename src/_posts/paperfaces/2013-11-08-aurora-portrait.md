@@ -1,12 +1,12 @@
 ---
 title: "Sun dress"
-excerpt: "PaperFaces portrait of Aurora drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Aurora drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-aurora.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-aurora-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 Something a little different from the normal no face, square format composition. PaperFaces portrait commission for <a href="https://twitter.com/bobbydharrell">@bobbydharrell</a> of his daughter Aurora.

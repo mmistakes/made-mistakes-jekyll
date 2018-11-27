@@ -1,13 +1,13 @@
 ---
 title: "Chalkboard Words"
-excerpt: "PaperFaces portrait of the Charlotte H. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of the Charlotte H. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-charlotte-h.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-charlotte-h-teaser.jpg
   thumbnail: /assets/images/paperfaces-charlotte-h-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of Charlotte H. inspired by a photograph on Sktchy.

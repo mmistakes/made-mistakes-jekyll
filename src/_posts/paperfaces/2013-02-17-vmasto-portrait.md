@@ -1,12 +1,12 @@
 ---
 title: "Beard in golden yellow tones"
-excerpt: "PaperFaces portrait of @vmasto drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @vmasto drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-vmasto-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-vmasto-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces portrait of project donator [@vmasto](https://twitter.com/vmasto).

@@ -1,12 +1,12 @@
 ---
 title: "A birthday bokeh"
-excerpt: "PaperFaces portrait of @veganwendy for her birthday drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @veganwendy for her birthday drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-veganwendy-birthday-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-veganwendy-birthday-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [my wife Wendy](http://2littlerosebuds.com) for her birthday. As you may have noticed I used the entire canvas this time and didn't follow the usual square cropped format. Just one of the many perks of being married to me. Har har…

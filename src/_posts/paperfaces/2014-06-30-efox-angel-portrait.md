@@ -1,13 +1,13 @@
 ---
 title: "Wall of light"
-excerpt: "PaperFaces portrait of Efox Angel drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Efox Angel drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-efox-angel.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-efox-angel-teaser.jpg
   thumbnail: /assets/images/paperfaces-efox-angel-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of Christina U. inspired by a photograph on Sktchy.

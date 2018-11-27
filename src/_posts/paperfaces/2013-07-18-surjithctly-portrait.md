@@ -1,12 +1,12 @@
 ---
 title: "Trading drawings for a feature"
-excerpt: "PaperFaces portrait of @surjithctly drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @surjithctly drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-surjithctly-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-surjithctly-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@surjithctly](https://twitter.com/surjithctly) for featuring my project on [Side Projects](http://sideprojects.web3canvas.com/post/55332574657/paperfaces-project-an-experiment-in-humanizing).

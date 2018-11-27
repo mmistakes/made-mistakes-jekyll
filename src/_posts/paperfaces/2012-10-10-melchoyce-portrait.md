@@ -1,12 +1,12 @@
 ---
 title: "Surprise face hiding in a sweater"
-excerpt: "PaperFaces portrait of @melchoyce drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @melchoyce drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-melchoyce-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-melchoyce-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, time lapse]
+tags: [portrait, illustration, Paper for iOS, time lapse]
 ---
 
 PaperFaces portrait of [@melchoyce](https://twitter.com/melchoyce).

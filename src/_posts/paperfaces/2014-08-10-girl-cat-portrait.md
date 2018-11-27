@@ -1,13 +1,13 @@
 ---
 title: "Girl and Cat"
-excerpt: "PaperFaces portrait of a girl and cat drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a girl and cat drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-girl-cat.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-girl-cat-teaser.jpg
   thumbnail: /assets/images/paperfaces-girl-cat-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait commission of a girl and cat.

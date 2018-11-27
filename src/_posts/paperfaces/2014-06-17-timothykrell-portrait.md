@@ -1,13 +1,13 @@
 ---
 title: "Glasses of the gray"
-excerpt: "PaperFaces portrait of @timothykrell drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @timothykrell drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-timothykrell-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-timothykrell-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-timothykrell-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 ---
 
 PaperFaces portrait of [@timothykrell](https://twitter.com/timothykrell).

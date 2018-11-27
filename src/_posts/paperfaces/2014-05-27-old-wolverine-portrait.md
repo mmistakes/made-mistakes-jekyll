@@ -1,6 +1,6 @@
 ---
 title: "Days of Future Past"
-excerpt: "PaperFaces portrait of Mystique and Wolverine drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Mystique and Wolverine drawn with Paper for iOS on an iPad."
 last_modified_at: 2016-02-08T15:36:28-05:00
 image: 
   path: &image /assets/images/paperfaces-old-wolverine.jpg 
@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-old-wolverine-teaser.jpg
   thumbnail: /assets/images/paperfaces-old-wolverine-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, X-men]
+tags: [portrait, illustration, Paper for iOS, X-men]
 ---
 
 PaperFaces portrait of Mystique and Wolverine from **X-men: Days of Future Past**.

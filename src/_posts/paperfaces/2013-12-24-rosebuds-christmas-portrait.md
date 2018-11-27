@@ -1,13 +1,13 @@
 ---
 title: "Rosebud twins on Christmas"
-excerpt: "PaperFaces portrait of Everly and Chloe drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of Everly and Chloe drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-rosebuds-christmas.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-rosebuds-christmas-teaser.jpg
   thumbnail: /assets/images/paperfaces-rosebuds-christmas-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, blend, Christmas, twins]
+tags: [portrait, illustration, Paper for iOS, blend, Christmas, twins]
 ---
 
 Just a simple drawing of my twin girls, Everly and Chloe enjoying wrapping paper. I suppose at this age they're more concerned with shredding the covering than what's hidden beneath it.

@@ -1,13 +1,13 @@
 ---
 title: "The Declaration of Independence is mine"
-excerpt: "PaperFaces portrait of @ButtChinBro drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @ButtChinBro drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-buttchinbro-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-buttchinbro-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-buttchinbro-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, blend]
+tags: [portrait, illustration, Paper for iOS, black and white, blend]
 last_modified_at: 2017-01-17T14:05:26-05:00
 ---
 

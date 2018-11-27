@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/paperfaces-800-portraits-teaser.jpg
   thumbnail: /assets/images/paperfaces-800-portraits-th.jpg
 categories: [articles]
-tags: [drawing, illustration, 365 project, Paper by 53, iPad]
+tags: [drawing, illustration, 365 project, Paper for iOS, iPad]
 comments: false
 toc: true
 ---
@@ -136,7 +136,7 @@ When my project was picked up by a few high profile designers and developers it 
 
 After two years of doing the same thing every day it's time to mix it up. I'm not leaving the [#MadeWithPaper](https://twitter.com/search?q=%23MadeWithPaper) community or anything crazy like that, but I am shifting gears slightly.
 
-By stopping the daily portraits I'll free up time to craft new tutorials for my [**Mastering Paper by 53**](/mastering-paper/) series. I know quite a few of you have been patiently waiting, so expect a new batch published more regularly. I also want to get serious about that companion piece I've hinted at and turn it into electronic and/or printed books.
+By stopping the daily portraits I'll free up time to craft new tutorials for my [**Mastering Paper for iOS**](/mastering-paper/) series. I know quite a few of you have been patiently waiting, so expect a new batch published more regularly. I also want to get serious about that companion piece I've hinted at and turn it into electronic and/or printed books.
 
 Don't get me wrong, drawing strangers for the last two years has been great. But a big part of me is interested in creating work on a personal level again. In a past life I kept [art journals](http://www.blurb.com/b/695432-scripted-entries-from-false-memories?ce=blurb_ew&utm_source=widget) filled with blind contour drawings and scribbled thoughts. I'd love to try and replicate this in Paper, building on the techniques I've mastered drawing portraits and turn them into a set of Moleskine books.
 

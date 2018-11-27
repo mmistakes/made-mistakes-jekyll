@@ -1,13 +1,13 @@
 ---
 title: "Cloud and mountain pr0n"
-excerpt: "PaperFaces portrait of @d0ugal drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @d0ugal drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-d0ugal-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-d0ugal-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-d0ugal-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 last_modified_at: 2017-01-17T12:48:41-05:00
 ---
 

@@ -1,15 +1,15 @@
 ---
 title: "Sitting on the beach at sunset"
-excerpt: "PaperFaces portrait of @sbrolins drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sbrolins drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-sbrolins-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-sbrolins-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
-PaperFaces portrait of [@sbrolins](https://twitter.com/sbrolins). Painting a sky or water is very rewarding with Paper by 53, because with little effort you can create a masterpiece.
+PaperFaces portrait of [@sbrolins](https://twitter.com/sbrolins). Painting a sky or water is very rewarding with Paper for iOS, because with little effort you can create a masterpiece.
 
 There really wasn't much to this landscape --- just a few layers of light red orange that fade into the horizon, and pink pencil strokes for the clouds. The beach is made up of dull blue violet watercolor layers, topped with light pencil strokes to create a sand texture.
 

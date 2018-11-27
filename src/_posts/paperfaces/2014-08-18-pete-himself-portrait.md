@@ -1,13 +1,13 @@
 ---
 title: "By Himself"
-excerpt: "PaperFaces portrait of @pete_himself drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @pete_himself drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-pete-himself-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-pete-himself-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-pete-himself-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@pete_himself](https://twitter.com/pete_himself).

@@ -1,12 +1,12 @@
 ---
 title: "Happy Anniversary"
-excerpt: "PaperFaces portrait of my wife on our wedding day drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of my wife on our wedding day drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-anniversary-portrait.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-anniversary-portrait-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, romance, beard]
+tags: [portrait, illustration, Paper for iOS, black and white, romance, beard]
 ---
 
 Nothing says romance quite like drawing a faceless portrait of your wife on your wedding day. Happy Anniversary [Wendy](https://2littlerosebuds.com) --- and as your friend [Toodee](http://uncyclopedia.wikia.com/wiki/Yo_Gabba_Gabba!) would say, "Keep on Jumping."

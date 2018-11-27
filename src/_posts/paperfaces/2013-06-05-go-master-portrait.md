@@ -1,12 +1,12 @@
 ---
 title: "PaperFaces portrait of a Go master"
-excerpt: "PaperFaces portrait of a Go master drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Go master drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-go-master.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-go-master-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 **Project Donator** [@brianjolive](https://twitter.com/brianjolive) commissioned this portrait of his great friend and long time teacher of *Go*. Below are some in process screen captures over the course of an hour as I worked on the illustration. Let me just say this, drawing straight lines on glass and getting the correct perspective isn't easy.

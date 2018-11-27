@@ -1,13 +1,13 @@
 ---
 title: "Sass in shadow"
-excerpt: "PaperFaces portrait of a Bethany G. drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of a Bethany G. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bethany-g.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bethany-g-teaser.jpg
   thumbnail: /assets/images/paperfaces-bethany-g-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of a [Bethany G.](http://sktchy.com/LWJNV ) inspired by a photograph on Sktchy.

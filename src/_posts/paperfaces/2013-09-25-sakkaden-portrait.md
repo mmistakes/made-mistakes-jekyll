@@ -1,12 +1,12 @@
 ---
 title: "Look at this view!"
-excerpt: "PaperFaces portrait of @sakkaden drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @sakkaden drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-sakkaden-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-sakkaden-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait commissioned by <a href="https://twitter.com/sakkaden">@sakkaden</a>.
@@ -17,7 +17,7 @@ PaperFaces portrait commissioned by <a href="https://twitter.com/sakkaden">@sakk
 [![](/assets/images/paperfaces-sakkaden-process-1-750.jpg)](/assets/images/paperfaces-sakkaden-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (**Paper by 53**)." class:"gallery-3-col" %}
+{% figure caption:"Work in progress screenshots (**Paper for iOS**)." class:"gallery-3-col" %}
 [![](/assets/images/paperfaces-sakkaden-process-2-600.jpg)](/assets/images/paperfaces-sakkaden-process-2-lg.jpg)
 [![](/assets/images/paperfaces-sakkaden-process-3-600.jpg)](/assets/images/paperfaces-sakkaden-process-3-lg.jpg)
 [![](/assets/images/paperfaces-sakkaden-process-4-600.jpg)](/assets/images/paperfaces-sakkaden-process-4-lg.jpg)

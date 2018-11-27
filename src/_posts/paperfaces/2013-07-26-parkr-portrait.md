@@ -1,12 +1,12 @@
 ---
 title: "Sidewalk stroll"
-excerpt: "PaperFaces portrait of @parkr drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @parkr drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-parkr-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-parkr-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@parkr](https://twitter.com/parkr). Thought this Twitter name looked familiar, and then it hit me --- @parkr is one of the dudes doing solid development work on [Jekyll](http://jekyllrb.com), my favorite static site generator.

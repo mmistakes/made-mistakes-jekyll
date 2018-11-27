@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: faux layer technique"
 last_modified_at: 2018-11-06T12:05:21-05:00
 excerpt: "Discover the faux layer technique and how it can aid in sketching and tracing with Paper for iOS."
 categories: [mastering-paper]
-tags: [Paper by 53, tutorial, layers, erase]
+tags: [Paper for iOS, tutorial, layers, erase]
 image:
   path: &image /assets/images/paper-53-faux-layers-feature.jpg
   width: 1280

@@ -1,13 +1,13 @@
 ---
 title: "How much is that doggy in the window?"
-excerpt: "PaperFaces portrait of @CincinnatiGal drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @CincinnatiGal drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-cincinnatigal-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-cincinnatigal-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cincinnatigal-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, dog]
+tags: [portrait, illustration, Paper for iOS, dog]
 ---
 
 PaperFaces portrait of [@CincinnatiGal](https://twitter.com/CincinnatiGal).

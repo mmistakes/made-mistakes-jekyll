@@ -1,13 +1,13 @@
 ---
 title: "Leather jacket"
-excerpt: "PaperFaces portrait of @gh0st_mob drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @gh0st_mob drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-gh0st-mob-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-gh0st-mob-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-gh0st-mob-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper for iOS, black and white, beard]
 last_modified_at: 2017-01-17T14:36:09-05:00
 ---
 

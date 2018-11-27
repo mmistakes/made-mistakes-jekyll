@@ -1,13 +1,13 @@
 ---
 title: "Posterized in yellow"
-excerpt: "PaperFaces portrait of @johntwolives drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @johntwolives drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-johntwolives-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-johntwolives-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-johntwolives-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T14:07:22-05:00
 ---
 

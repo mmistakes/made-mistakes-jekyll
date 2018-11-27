@@ -1,13 +1,13 @@
 ---
 title: "Pixelated glasses"
-excerpt: "PaperFaces portrait of @mluker drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @mluker drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mluker-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-mluker-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mluker-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white, beard]
+tags: [portrait, illustration, Paper for iOS, black and white, beard]
 ---
 
 PaperFaces portrait of [@mluker](https://twitter.com/mluker).

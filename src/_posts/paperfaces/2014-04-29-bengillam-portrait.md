@@ -1,13 +1,13 @@
 ---
 title: "Black cat Cadillac"
-excerpt: "PaperFaces portrait of @bengillam drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @bengillam drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bengillam-twitter.jpg 
   feature: *image
   teaser: /assets/images/paperfaces-bengillam-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-bengillam-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-01-17T13:01:50-05:00
 ---
 

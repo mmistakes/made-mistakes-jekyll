@@ -1,12 +1,12 @@
 ---
 title: "First face of 2014"
-excerpt: "PaperFaces portrait of @virshawn drawn with Paper by 53 on an iPad."
+excerpt: "PaperFaces portrait of @virshawn drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-virshawn-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-virshawn-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper by 53, black and white]
+tags: [portrait, illustration, Paper for iOS, black and white]
 ---
 
 PaperFaces portrait of [@virshawn](https://twitter.com/virshawn).
@@ -17,7 +17,7 @@ PaperFaces portrait of [@virshawn](https://twitter.com/virshawn).
 [![Work in process screenshot](/assets/images/paperfaces-virshawn-process-1-750.jpg)](/assets/images/paperfaces-virshawn-process-1-lg.jpg)
 {% endfigure %}
 
-{% figure caption:"Work in progress screenshots (Paper by 53)." class:"gallery-2-col" %}
+{% figure caption:"Work in progress screenshots (Paper for iOS)." class:"gallery-2-col" %}
 [![Work in process screenshot](/assets/images/paperfaces-virshawn-process-2-600.jpg)](/assets/images/paperfaces-virshawn-process-2-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-virshawn-process-3-600.jpg)](/assets/images/paperfaces-virshawn-process-3-lg.jpg)
 [![Work in process screenshot](/assets/images/paperfaces-virshawn-process-4-600.jpg)](/assets/images/paperfaces-virshawn-process-4-lg.jpg)
