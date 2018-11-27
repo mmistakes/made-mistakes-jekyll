@@ -14,6 +14,9 @@
     {% if post.date and layout != 'archive_work' %}
       <time class="entry__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string: 'ordinal', 'US' }}</time>
     {% endif %}
+    {% if post.work and layout == 'archive_work' %}
+      <span class="page__work">{{ post.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    {% endif %}
   </div>
   {% if feature_image %}
     <div class="entry__image">

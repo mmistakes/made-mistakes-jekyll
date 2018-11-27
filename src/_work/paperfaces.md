@@ -15,7 +15,7 @@ image:
 tags: [Paper for iOS, portrait, drawing, painting, iPad, illustration, 365 project]
 ads: false
 work: "Illustration"
-order: 2
+order: 3
 ---
 
 PaperFaces was an [illustration project](/articles/paperfaces-ipad-portrait-project/) by designer Michael Rose --- hey that's me! For two years I drew the faces of strangers everyday using an iPad, a stylus, and **Paper for iOS**. I occasionally post new portraits here, but certainly not as frequently as I used to.

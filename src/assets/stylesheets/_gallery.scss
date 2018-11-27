@@ -34,7 +34,11 @@
     @include margin-bottom(1);
 
     .entry__title {
-      @include margin-top(0.5);
+      @include margin-top(1);
+
+      @include breakpoint($md-up) {
+        font-size: 1.17225em;
+      }
     }
 
     a {

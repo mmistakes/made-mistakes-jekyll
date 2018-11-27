@@ -10,7 +10,7 @@ image:
   feature: *image
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"
-order: 3
+order: 2
 comments: false
 comments_locked: true
 support: true
