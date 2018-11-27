@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/madison-s-procreate-teaser.jpg
   thumbnail: /assets/images/madison-s-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
+tags: [Procreate, portrait, illustration, time lapse, Sktchy]
 ---
 
 Portrait of Madison S. inspired by a [photograph on Sktchy](http://sktchy.com/clIrcc ). Digitally painted with Procreate on an iPad Air 2. 

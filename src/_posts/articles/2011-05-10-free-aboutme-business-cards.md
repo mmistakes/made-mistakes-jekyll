@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/about-me-teaser.jpg
   thumbnail: /assets/images/mademistakes-business-cards-front-148x148.jpg
 categories: [articles]
-tags: [business cards, design, Michael Rose]
+tags: [design, Michael Rose]
 support: false
 last_modified_at: 2018-11-07T20:06:19-05:00
 ---

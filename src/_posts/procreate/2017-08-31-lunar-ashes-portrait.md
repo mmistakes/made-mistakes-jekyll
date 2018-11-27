@@ -10,7 +10,7 @@ image:
   teaser:
   thumbnail: /assets/images/lunar-ashes-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, black and white, time lapse]
+tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
 Portrait of Lunar Ashes inspired by a [photograph on Sktchy](​http://sktchy.com/pSkSa ). Digitally painted with Procreate on an iPad Air 2.

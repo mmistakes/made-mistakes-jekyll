@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/UO-may11-teaser.jpg
   thumbnail: /assets/images/UO-MAY11-serifs-italics-340.jpg
 categories: [articles]
-tags: [catalog, critique, design, typography]
+tags: [critique, design, typography]
 support: false
 toc: true
 ---

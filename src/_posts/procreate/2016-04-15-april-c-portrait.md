@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/april-c-procreate-teaser.jpg
   thumbnail: /assets/images/april-c-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, time lapse]
+tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---
 
 Portrait of April C. inspired by a [photograph on Sktchy](http://sktchy.com/idj87H ). Digitally painted with Procreate on an iPad Air 2.

@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/paper-53-blend-first-look-teaser.jpg
   thumbnail: /assets/images/paper-53-blend-first-look-thumb.jpg
 categories: [mastering-paper]
-tags: [Paper for iOS, pencil, blend, stylus, iPad]
+tags: [Paper for iOS, blend, stylus, iPad]
 comments_locked: true
 ---
 

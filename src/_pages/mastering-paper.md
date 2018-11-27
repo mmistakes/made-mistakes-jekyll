@@ -9,5 +9,3 @@ pagination:
   enabled: true
   category: mastering-paper
 ---
-
-{% include popular-topics.html %}

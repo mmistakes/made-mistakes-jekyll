@@ -1,25 +1,25 @@
 # slugs
 
 articles:
-  name: "Blog Articles"
+  name: "Blog articles"
 
 mastering-paper:
-  name: "Mastering Paper by 53"
+  name: "Mastering Paper for iOS"
 
 paperfaces:
-  name: "PaperFaces Portraits"
+  name: "PaperFaces portraits"
 
 procreate-paintings:
-  name: "Procreate Paintings"
+  name: "Procreate paintings"
 
 tiny-paintings:
-  name: "Tiny Paintings"
+  name: "Tiny paintings"
 
 work:
   name: "Work"
 
 faqs:
-  name: "Frequently Asked Questions"
+  name: "Frequently asked questions"
 
 about:
   name: "About"
@@ -31,13 +31,13 @@ support:
   name: "Support"
 
 404:
-  name: "Not Found"
+  name: "Not found"
 
 sitemap:
   name: "Sitemap"
 
 style-guide:
-  name: "Style Guide"
+  name: "Style guide"
 
 terms:
   name: "Terms &amp; Policies"

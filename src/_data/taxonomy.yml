@@ -1,8 +1,15 @@
+paper-for-ios:
+  title: "Paper for iOS"
+  description: "A collection of art created on iPad with the iOS app **Paper by [WeTransfer](https://paper.bywetransfer.com/)**. Tutorials and other learnings related to my [**Mastering Paper**](/mastering-paper/) series are also included."
+
 paper-by-53:
-  description: "A collection of art created on iPad with the iOS app Paper by [FiftyThree](http://www.fiftythree.com/) along with numerous tutorials and other learnings."
+  title: "Paper by FiftyThree"
+  description: "A collection of art created on iPad with the iOS app **Paper by [WeTransfer](https://paper.bywetransfer.com/)**. Tutorials and other learnings related to my [**Mastering Paper**](/mastering-paper/') series are also included."
 
 sktchy:
+  title: "Sktchy"
   description: "Portraits painted and drawn in a variety of media inspired by photographs shared on [**Sktchy**](http://sktchy.com/)."
 
 jekyll:
+  title: "Jekyll"
   description: "An archive of posts related to [**Jekyll**](http://jekyllrb.com) --- a Ruby Gem that transforms plain text into static websites and blogs."

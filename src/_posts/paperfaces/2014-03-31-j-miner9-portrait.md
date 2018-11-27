@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-j-miner9-teaser.jpg
   thumbnail: /assets/images/paperfaces-j-miner9-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, bokeh, hockey]
+tags: [portrait, illustration, Paper for iOS, blend, bokeh]
 ---
 
 PaperFaces portrait commission of [@J_Miner9](https://twitter.com/J_Miner9).

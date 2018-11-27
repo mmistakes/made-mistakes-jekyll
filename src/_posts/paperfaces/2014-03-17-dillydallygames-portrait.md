@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-dillydallygames-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-dillydallygames-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Breaking Bad]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T14:29:00-05:00
 ---
 

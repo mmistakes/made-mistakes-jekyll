@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-studioprisoner-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, horse]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@studioprisoner](https://twitter.com/studioprisoner).

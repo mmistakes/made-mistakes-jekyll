@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-ericdfields-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, grass]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@ericdfields](https://twitter.com/ericdfields).

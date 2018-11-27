@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-toblr-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, hoodie]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@toblr](https://twitter.com/toblr).

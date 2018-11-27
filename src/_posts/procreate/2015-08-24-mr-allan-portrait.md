@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/mr-allan-procreate-teaser.jpg
   thumbnail: /assets/images/mr-allan-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
+tags: [Procreate, portrait, illustration, time lapse, Sktchy]
 ---
 
 Portrait of Mr. Allan inspired by a [photograph on Sktchy](http://sktchy.com/OgixZC ). Digitally painted with Procreate on an iPad Air 2. 

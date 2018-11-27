@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/paper-53-book-teaser.jpg
   thumbnail: /assets/images/paper-53-book-thumb.jpg
 categories: [mastering-paper]
-tags: [Paper for iOS, Moleskine, book, design, review]
+tags: [Paper for iOS, design, review]
 toc: true
 comments_locked: true
 ---

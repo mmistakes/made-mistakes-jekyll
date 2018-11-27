@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/owl-rasterbator-teaser.jpg
   thumbnail: /assets/images/rasterbator-thumb.jpg
 categories: [articles]
-tags: [poster, Rasterbator, time lapse, tech geek]
+tags: [Rasterbator, time lapse, tech geek]
 last_modified_at: 2017-09-08T09:15:00-04:00
 toc: true
 ---

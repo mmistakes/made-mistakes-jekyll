@@ -9,7 +9,7 @@ image:
   feature: *image
   thumbnail: /assets/images/marion-k-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, black and white, time lapse]
+tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
 Portrait of Marion K. inspired by a [photograph on Sktchy](http://​sktchy.com/p6juFc ). Digitally painted with Procreate on a 12.9" iPad Pro.

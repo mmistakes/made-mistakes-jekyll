@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-genelocklin-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, mustache]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@genelocklin](https://twitter.com/genelocklin).

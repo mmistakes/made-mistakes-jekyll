@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-old-wolverine-teaser.jpg
   thumbnail: /assets/images/paperfaces-old-wolverine-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, X-men]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of Mystique and Wolverine from **X-men: Days of Future Past**.

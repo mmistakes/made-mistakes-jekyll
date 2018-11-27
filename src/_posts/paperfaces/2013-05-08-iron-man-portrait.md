@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-iron-man-3-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Iron Man]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 Saw Iron Man 3 last night and figured I'd challenge myself by drawing the Iron Man himself --- Tony Stark. Those post credit scenes always leave me wanting more Marvel film goodness…

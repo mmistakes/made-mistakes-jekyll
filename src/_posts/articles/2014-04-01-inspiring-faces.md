@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/sktchys-of-me-teaser.jpg
   thumbnail: /assets/images/sktchy-app-thumb.png
 categories: [articles]
-tags: [Sktchy, drawing, technology]
+tags: [Sktchy, drawing, tech geek]
 comments: false
 ---
 

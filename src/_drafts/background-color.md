@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Mastering Paper by FiftyThree: Swapping Background Colors"
+title: "Mastering Paper for iOS: Swapping Background Colors"
 last_modified_at: 
 categories: mastering-paper
 excerpt: ""
-tags: [Paper for iOS, color theory, tutorial, iPad]
+tags: [Paper for iOS, color theory, tutorial]
 image:
   feature:
   teaser:

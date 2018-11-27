@@ -10,7 +10,7 @@ image:
   thumbnail: /assets/images/la-moustache-thumb.jpg
   caption: "DVD screengrab from [**The Movie Database**](http://www.themoviedb.org/movie/16998-la-moustache)"
 categories: [articles]
-tags: [mustache, French, film, review, foreign]
+tags: [film, review]
 support: false
 last_modified_at: 2018-02-09T09:18:20-05:00
 ---

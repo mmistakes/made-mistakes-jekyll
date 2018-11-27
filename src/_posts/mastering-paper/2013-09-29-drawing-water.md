@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/paper-53-water-guide-teaser-2016.jpg
   thumbnail: /assets/images/paper-53-water-guide-thumb.jpg
 categories: [mastering-paper]
-tags: [Paper for iOS, tutorial, drawing, painting, water, waves, iPad]
+tags: [Paper for iOS, tutorial, drawing, painting, iPad]
 toc: true
 ---
 

@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-daniel-w-teaser.jpg
   thumbnail: /assets/images/paperfaces-daniel-w-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, texture, beard]
+tags: [portrait, illustration, Paper for iOS, Sktchy, beard]
 last_modified_at: 2017-01-17T16:11:48-05:00
 ---
 

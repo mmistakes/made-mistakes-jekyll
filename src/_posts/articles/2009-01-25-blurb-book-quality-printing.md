@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/blurb-book-teaser.jpg
   thumbnail: /assets/images/blurb-book-thumb.jpg
 categories: [articles]
-tags: [book, design]
+tags: [design, review]
 support: false
 toc: true
 ---

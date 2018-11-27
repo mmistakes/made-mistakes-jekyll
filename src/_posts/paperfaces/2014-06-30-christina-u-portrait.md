@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-christina-u-teaser.jpg
   thumbnail: /assets/images/paperfaces-christina-u-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, clouds, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of Christina U. inspired by a photograph on Sktchy.

@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-kalina-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-kalina-b-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, texture]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T15:57:13-05:00
 ---
 

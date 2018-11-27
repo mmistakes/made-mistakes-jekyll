@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/bird-cage-tattoo-teaser.jpg
   thumbnail: /assets/images/bird-tattoo-340x340.jpg
 categories: [articles]
-tags: [bird, tattoo, bird cage, vegan, trees, Michael Rose]
+tags: [tattoo, vegan, Michael Rose]
 support: false
 toc: true
 ---

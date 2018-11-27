@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/wendy-rose-procreate-teaser.jpg
   thumbnail: /assets/images/wendy-rose-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse]
+tags: [Procreate, portrait, illustration, time lapse]
 ---
 
 Portrait of Wendy inspired by a portrait I [originally drew in Paper]({% post_url /paperfaces/2012-09-01-veganwendy-portrait %}) and [revisited]({% post_url /paperfaces/2014-08-29-veganwendy-2-portrait %}) several years later. Digitally painted with Procreate on a 3rd generation iPad. 

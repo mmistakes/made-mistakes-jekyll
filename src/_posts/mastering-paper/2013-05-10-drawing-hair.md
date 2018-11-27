@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/how-to-draw-hair-teaser-2016.jpg
   thumbnail: /assets/images/how-to-draw-hair-thumb.jpg
 categories: [mastering-paper]
-tags: [Paper for iOS, tutorial, hair, drawing, iPad]
+tags: [Paper for iOS, tutorial, drawing, iPad]
 toc: true
 ---
 

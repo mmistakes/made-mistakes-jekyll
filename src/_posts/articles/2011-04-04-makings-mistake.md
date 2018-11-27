@@ -6,7 +6,7 @@ image:
   thumbnail: /assets/images/fadedlead-home-340x340.jpg
   teaser: /assets/images/fadedlead-home-teaser.jpg
 categories: [articles]
-tags: [CMS, website, design, Michael Rose]
+tags: [CMS, Wordpress, design, Michael Rose]
 support: false
 toc: true
 ---

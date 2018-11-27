@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/maria-g-procreate-teaser.jpg
   thumbnail: /assets/images/maria-g-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, time lapse]
+tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---
 
 Portrait of María G. inspired by a [photograph on Sktchy](http://sktchy.com/buLgeD ). Digitally painted with Procreate on an iPad Air 2.

@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/jj-plix-procreate-teaser.jpg
   thumbnail: /assets/images/jj-plix-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse, Sktchy]
+tags: [Procreate, portrait, illustration, time lapse, Sktchy]
 ---
 
 Portrait of Jj Plix inspired by a [photograph on Sktchy](http://sktchy.com/BXA9OC ). Digitally painted with Procreate on an iPad Air 2. 

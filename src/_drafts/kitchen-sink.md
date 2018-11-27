@@ -4,7 +4,7 @@ title: "Kitchen Sink Post"
 categories: articles
 excerpt: "Below is just about everything you'll need to style in the theme."
 last_modified_at: 
-tags: [sample]
+tags: []
 comments: true
 ads: true
 ---

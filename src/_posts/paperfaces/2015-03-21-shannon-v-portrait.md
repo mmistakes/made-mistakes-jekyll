@@ -8,7 +8,7 @@ image:
   teaser: /assets/images/paperfaces-shannon-v-teaser.jpg
   thumbnail: /assets/images/paperfaces-shannon-v-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, landscape]
+tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]
 ---
 
 PaperFaces portrait of Shannon V. inspired by a [photograph on Sktchy](http://sktchy.com/tQUwNH ).

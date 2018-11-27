@@ -10,7 +10,7 @@ image:
   teaser: /assets/images/t-steinheil-procreate-teaser.jpg
   thumbnail: /assets/images/t-steinheil-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, black and white, time lapse, Sktchy]
+tags: [Procreate, portrait, illustration, black and white, time lapse, Sktchy]
 ---
 
 Portrait of T. Steinheil inspired by a [photograph on Sktchy](http://sktchy.com/hvnEKC ). Digitally painted with Procreate on an iPad Air 2. 

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-ginader-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, head]
+tags: [portrait, illustration, Paper for iOS, black and white]
 ---
 
 PaperFaces portrait of [@ginader](https://twitter.com/ginader).

@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/rriiccee-teaser.jpg
   thumbnail: /assets/images/rriiccee-thumb.jpg
 categories: [articles]
-tags: [RRIICCEE, Vincent Gallo, Soundlab, Buffalo, review]
+tags: [Vincent Gallo, Buffalo, review]
 support: false
 ---
 

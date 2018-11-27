@@ -20,7 +20,7 @@ gallery:
     image_path: /assets/images/rakso-s-process-3-320.jpg
     alt: "work in progress screenshot"
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, time lapse, beard, Sktchy, black and white]
+tags: [Procreate, portrait, illustration, time lapse, beard, Sktchy, black and white]
 ---
 
 Portrait of Rakso S. inspired by a [photograph on Sktchy](http://sktchy.com/a4RQUD ). Digitally painted with Procreate on an iPad Air 2.

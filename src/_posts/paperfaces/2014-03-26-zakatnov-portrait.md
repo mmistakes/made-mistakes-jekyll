@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-zakatnov-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-zakatnov-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, water]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T14:20:46-05:00
 ---
 

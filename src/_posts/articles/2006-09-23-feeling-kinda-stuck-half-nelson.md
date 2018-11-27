@@ -10,7 +10,7 @@ image:
   thumbnail: /assets/images/half-nelson-thumb.jpg
   caption: "DVD screengrab from [**DB Cover**]"
 categories: [articles]
-tags: [film, review, indie]
+tags: [film, review]
 support: false
 ---
 

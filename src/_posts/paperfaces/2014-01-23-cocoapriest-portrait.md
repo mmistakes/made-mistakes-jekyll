@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-cocoapriest-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cocoapriest-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, sepia, beard]
+tags: [portrait, illustration, Paper for iOS, blend, beard]
 last_modified_at: 2017-01-17T16:14:36-05:00
 ---
 

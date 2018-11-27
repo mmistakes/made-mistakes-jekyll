@@ -9,7 +9,7 @@ image:
   teaser: /assets/images/starting-young-teaser.jpg
   thumbnail: /assets/images/starting-young-thumb.jpg
 categories: [articles]
-tags: [Paper for iOS, drawing, technology, twins]
+tags: [Paper for iOS, drawing, tech geek, twins]
 comments: true
 comments_locked: true
 last_modified_at: 2017-09-07T15:59:12-04:00

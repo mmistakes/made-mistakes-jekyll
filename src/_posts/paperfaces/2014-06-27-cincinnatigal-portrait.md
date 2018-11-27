@@ -7,7 +7,7 @@ image:
   teaser: /assets/images/paperfaces-cincinnatigal-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cincinnatigal-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, dog]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@CincinnatiGal](https://twitter.com/CincinnatiGal).

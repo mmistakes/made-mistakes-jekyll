@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-chappers-ma-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, texture, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces avatar portrait of <a href="https://twitter.com/chappers_ma">@chappers_ma</a>.

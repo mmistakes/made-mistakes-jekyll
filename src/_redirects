@@ -45,7 +45,8 @@ http://mademistakes.netlify.com/* https://mademistakes.com/:splat 301!
 /procreate-paintings/jenyy-x-portrait /procreate-paintings/jenny-x-portrait/ 301
 /so-simple /work/so-simple-jekyll-theme/ 301
 /subscribe /support/ 301
-/tag/fiftythree /tag/paper-by-53/ 301
+/tag/fiftythree /tag/paper-for-ios/ 301
+/tag/paper-by-53 /tag/paper-for-ios/ 301
 /tags /tag/ 301
 /works /work/ 301
 

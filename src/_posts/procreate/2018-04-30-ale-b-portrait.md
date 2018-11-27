@@ -9,7 +9,7 @@ image:
   feature: *image
   thumbnail: /assets/images/ale-b-procreate-250.jpg
 categories: [procreate-paintings]
-tags: [Procreate, painting, drawing, portrait, illustration, Sktchy, black and white, beard, time lapse]
+tags: [Procreate, portrait, illustration, Sktchy, black and white, beard, time lapse]
 ---
 
 Portrait of Ale B. inspired by a [photograph on Sktchy](http://sktchy.com/pGkOfH ). Digitally painted with Procreate on a 12.9" iPad Pro.
