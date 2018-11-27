@@ -19,4 +19,8 @@ layout: default
   {{ content }}
 
   {% include posts-paginated.html %}
+
+  {% if page.support == true %}
+    {% include_cached support.html %}
+  {% endif %}
 </main>
