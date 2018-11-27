@@ -20,7 +20,9 @@ layout: default
 
   {{ content }}
 
-  {% for post in sorted_entries %}
-    {% include entry.html %}
-  {% endfor %}
+  <div class="gallery">
+    {% for post in sorted_entries %}
+      {% include entry.html class="gallery-item" %}
+    {% endfor %}
+  </div>
 </main>

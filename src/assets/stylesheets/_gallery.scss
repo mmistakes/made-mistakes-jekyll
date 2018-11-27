@@ -28,6 +28,32 @@
   margin: 8px;
   width: calc(100% / 2 - 16px);
 
+  &.entry {
+    justify-content: start;
+    width: 100%;
+    @include margin-bottom(1);
+
+    .entry__title {
+      @include margin-top(0.5);
+    }
+
+    a {
+      display: inline;
+    }
+
+    @include breakpoint($md-up) {
+      width: calc(100% / 2 - 3em);
+
+      &:nth-of-type(odd) {
+        margin-right: 1.5em;
+      }
+
+      &:nth-of-type(even) {
+        margin-left: 1.5em;
+      }
+    }
+  }
+
   // figure {
   //   display: flex;
   //   align-items: flex-end;
