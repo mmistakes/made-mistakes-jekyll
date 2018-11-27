@@ -10,16 +10,16 @@ image:
   thumbnail: /assets/images/minimal-mistakes-3-th.jpg
   teaser: /assets/images/minimal-mistakes-3-teaser.jpg
 gallery:
-  - url: /assets/images/mm-layout-splash.jpg
-    image_path: /assets/images/mm-layout-splash.jpg
+  - url: /assets/images/mm-layout-splash.png
+    image_path: /assets/images/mm-layout-splash-th.jpg
     alt: "splash layout example"
     class: "browser-frame"
-  - url: /assets/images/mm-layout-single-meta.jpg
-    image_path: /assets/images/mm-layout-single-meta.jpg
+  - url: /assets/images/mm-layout-single-meta.png
+    image_path: /assets/images/mm-layout-single-meta-th.jpg
     alt: "single layout with comments and related posts"
     class: "browser-frame"
-  - url: /assets/images/mm-layout-archive.jpg
-    image_path: /assets/images/mm-layout-archive.jpg
+  - url: /assets/images/mm-layout-archive.png
+    image_path: /assets/images/mm-layout-archive-th.jpg
     alt: "archive layout example"
     class: "browser-frame"
 categories: [work]

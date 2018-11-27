@@ -10,16 +10,16 @@ image:
   teaser: /assets/images/jekyll-theme-so-simple-teaser.jpg
   thumbnail: /assets/images/jekyll-theme-so-simple-th.jpg
 gallery:
-  - url: /assets/images/so-simple-post.jpg
-    image_path: /assets/images/so-simple-post.jpg
+  - url: /assets/images/so-simple-post.png
+    image_path: /assets/images/so-simple-post-th.jpg
     alt: "post layout example"
     class: "browser-frame"
-  - url: /assets/images/so-simple-posts.jpg
-    image_path: /assets/images/so-simple-posts.jpg
+  - url: /assets/images/so-simple-posts.png
+    image_path: /assets/images/so-simple-posts-th.jpg
     alt: "list of posts layout example"
     class: "browser-frame"
-  - url: /assets/images/so-simple-search.jpg
-    image_path: /assets/images/so-simple-search.jpg
+  - url: /assets/images/so-simple-search.png
+    image_path: /assets/images/so-simple-search-th.jpg
     alt: "search layout example"
     class: "browser-frame"
 categories: [work]
