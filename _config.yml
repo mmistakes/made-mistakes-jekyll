@@ -20,7 +20,6 @@ social:
     - "https://www.instagram.com/mmistakes/"
     - "https://github.com/mmistakes"
     - "https://micro.blog/mmistakes"
-    - "https://plus.google.com/u/0/+MichaelRoseDesign/posts"
 
 google_site_verification : "geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo"
 bing_site_verification   : "D81F4C18A6CB3018F64D7C827D953DFD"
@@ -34,7 +33,7 @@ google_analytics         : "UA-2011187-1"
 feed:
   path                  : "https://mademistakes.com/atom.xml"
 
-favicon_version         : "5A54z5oklP"
+favicon_version         : "9BPnoQEY43"
 
 pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
 webmention_url          : "https://webmention.io/mademistakes.com/webmention"
