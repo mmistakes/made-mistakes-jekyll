@@ -3,20 +3,20 @@ layout: page
 permalink: /sitemap/
 title: "Sitemap"
 excerpt: "An index of all the pages found on mademistakes.com"
+last_modified_at: 2018-11-27T16:00:24-05:00
 ---
 
 A hierarchical breakdown of all the sections and pages found on the site. For you robots out there, here is an [XML version](/sitemap.xml) available for your crawling pleasure.
 
 ## Pages
 
-<ul>
-  <li><a href="/about/">About</a></li>
-  <li><a href="/contact/">Contact</a></li>
-  <li><a href="/faqs/">Frequently Asked Questions</a></li>
-  <li><a href="/support/">Support</a></li>
-  <li><a href="/tag/">Tag Archive</a></li>
-  <li><a href="/terms/">Terms and Policies</a></li>
-</ul>
+- [About](/about/)
+- [Contact](/contact/)
+- [Frequently asked questions](/faqs/)
+- [Show your support](/support/)
+- [Terms and policies](/terms/)
+- [Style guide](/style-guide/)
+- [Tag index](/tag/)
 
 ## [Blog articles](/articles/)
 
