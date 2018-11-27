@@ -47,6 +47,11 @@
   p::after {
     content: ' […]';
   }
+
+  a {
+    position: relative;
+    z-index: 5;
+  }
 }
 
 .entries__columns {
