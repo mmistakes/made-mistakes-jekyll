@@ -18,8 +18,6 @@ support: true
 
 Below are all of the Jekyll starters I've developed and open sourced. Each theme contains all of the `_layouts`, `_includes`, Sass/CSS, JavaScript, and other sample files needed to build and host a site or blog. 
 
-## Setup
-
 The basic setup for each of my theme's is roughly the same:
 
   1. Install [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), [remote theme](https://github.com/benbalter/jekyll-remote-theme), or fork the theme repository you'd like to use.
