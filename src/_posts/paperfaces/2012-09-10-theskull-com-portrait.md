@@ -1,5 +1,5 @@
 ---
-title: "Dark hat and flannet coat"
+title: "Dark hat and flannel coat"
 excerpt: "PaperFaces portrait of theskull-com drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-theskull-com-tumblr.jpg 
