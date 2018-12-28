@@ -22,11 +22,10 @@ When I'm not drawing on my iPad or releasing open source [Jekyll themes](/work/j
 
 And if that wasn't enough to keep me busy --- I'm also the father of [twin girls](/tag/twins/) and married to a [subscription box addicted vegan](https://2littlerosebuds.com "Wendy Rose").
 
-<figure class="gallery-2-col">
-  <a href="{% post_url /paperfaces/2014-05-19-mmistakes-2-portrait %}"><img src="/assets/images/michael-rose-paper-portrait-sidebar.jpg" alt="Michael Rose self portrait"></a>
-  <a href="{% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %}"><img src="/assets/images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe drawing"></a>
-  <figcaption>Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree.</figcaption>
-</figure>
+{% figure class:"gallery-2-col" caption:"Self portrait and my 2 little rosebuds drawn with Paper by FiftyThree." %}
+[![Michael Rose self portrait](/assets/images/michael-rose-paper-portrait-sidebar.jpg)]({% post_url /paperfaces/2014-05-19-mmistakes-2-portrait %})
+[![Everly and Chloe drawing](/assets/images/paperfaces-rosebuds-2-900.jpg)]({% post_url /paperfaces/2014-08-03-rosebuds-2-portrait %})
+{% endfigure %}
 
 {% figure caption:"My tattoos are a mess of line and words. Don't ask me to explain them --- because I can't." %}
 ![Michael Rose's tattoos](/assets/images/michael-rose-tattoos.png)

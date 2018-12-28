@@ -118,7 +118,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-typogrify
-  - jekyll/figure
+  - jekyll-figure
   - jekyll-algolia
   - jekyll/tagging
   - jekyll-tagging-related_posts
@@ -285,6 +285,10 @@ autopages:
       - "autopage_tags.html"
     title: ":tag" # :tag is replaced by the tag name
     permalink: "/tag/:tag"
+
+# Plugin: Figure (jekyll-figure)
+jekyll-figure:
+  paragraphs: false
 
 # Plugin: Table of Contents (jekyll-toc)
 toc:
