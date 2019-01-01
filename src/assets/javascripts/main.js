@@ -106,8 +106,6 @@ myToggle.addEventListener("click", function() {
 
 // Static comments
 (function($) {
-  var $comments = $(".js-comments");
-
   $("#comment-form").submit(function() {
     var form = this;
 
