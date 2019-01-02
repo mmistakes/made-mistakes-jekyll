@@ -424,7 +424,7 @@ Front Matter. Preferred method is to enable via YAML Front Matter defaults in `_
 
 The MIT License (MIT)
 
-Copyright (c) 2004-2018 Michael Rose
+Copyright (c) 2004-2019 Michael Rose
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
