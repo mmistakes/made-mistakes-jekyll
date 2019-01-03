@@ -3,8 +3,10 @@
    ========================================================================== */
 
 table {
+  display: block;
   border-collapse: collapse;
   width: 100%;
+  overflow-x: auto;
   font-size: 0.9em;
   /* For Firefox to horizontally scroll wider tables */
   // scss-lint:disable DuplicateProperty
