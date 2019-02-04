@@ -220,6 +220,10 @@
     <link rel="micropub" href="{{ site.micropub_url }}">
   {% endif %}
 
+  {% if site.token_endpoint_url %}
+    <link rel="token_endpoint" href="{{ site.token_endpoint }}">
+  {% endif %}
+
   {% if site.microblog_url %}
     <link rel="me" href="{{ site.microblog_url }}">
   {% endif %}
