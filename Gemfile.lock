@@ -6,7 +6,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.2)
+    addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     algolia_html_extractor (2.6.1)
       json (~> 2.0)
@@ -23,18 +23,18 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    ethon (0.11.0)
+    ethon (0.12.0)
       ffi (>= 1.3.0)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
-    ffi (1.9.25)
-    ffi (1.9.25-x64-mingw32)
-    ffi (1.9.25-x86-mingw32)
+    ffi (1.10.0)
+    ffi (1.10.0-x64-mingw32)
+    ffi (1.10.0-x86-mingw32)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
-    html-pipeline (2.9.1)
+    html-pipeline (2.10.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
     html-proofer (3.9.3)
@@ -118,7 +118,7 @@ GEM
     nokogiri (1.8.5-x86-mingw32)
       mini_portile2 (~> 2.3.0)
     nuggets (1.6.0)
-    parallel (1.12.1)
+    parallel (1.13.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.10.0)
@@ -131,7 +131,7 @@ GEM
     ruby_dep (1.5.0)
     rubypants (0.7.0)
     safe_yaml (1.0.4)
-    sass (3.7.2)
+    sass (3.7.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -156,12 +156,12 @@ PLATFORMS
 
 DEPENDENCIES
   breakpoint
-  html-proofer (>= 3.9.2)
+  html-proofer
   jekyll
   jekyll-algolia (>= 1.4.7)
   jekyll-figure
   jekyll-include-cache
-  jekyll-paginate-v2
+  jekyll-paginate-v2 (~> 2.0.0)
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-tagging-related_posts

@@ -2,7 +2,7 @@
 source 'https://rubygems.org'
 
 gem 'breakpoint'
-gem 'html-proofer', '>= 3.9.2'
+gem 'html-proofer'
 gem 'rake'
 gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
 
@@ -13,7 +13,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jemoji', '>= 0.10.1'
   gem 'jekyll-seo-tag'
-  gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate-v2', '~> 2.0.0'
   gem 'jekyll-typogrify'
   gem 'jekyll-figure'
   gem 'jekyll-algolia', '>= 1.4.7'
