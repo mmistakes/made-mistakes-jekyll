@@ -15,28 +15,6 @@ html {
   @include margin-top(0);
 }
 
-abbr[title] {
-  position: relative;
-
-  &:hover::after,
-  &:focus::after {
-    content: attr(title);
-
-    /* position tooltip like the native one */
-    position: absolute;
-    left: 0;
-    bottom: -2.5em;
-    width: auto;
-    white-space: nowrap;
-
-    /* style tooltip */
-    padding: 0.25em 0.5em;
-    background: $text-color;
-    color: #fff;
-    font-size: 0.75em;
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
