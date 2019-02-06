@@ -72,6 +72,6 @@ All original content (e.g. articles, blog posts, illustrations, artwork, and pho
 
 ### Attribution
 
-If you're inclined to give credit --- a link back to the source article attributed to either [Made Mistakes]() or [Michael Rose]() is good enough for me. If you don't want to attribute my content, hey that's cool too. Just don't go stealing stuff and republishing it as your own.
+If you're inclined to give credit --- a link back to the source article attributed to either [Made Mistakes](https://mademistakes.com) or [Michael Rose](https://mademistakes.com) is good enough for me. If you don't want to attribute my content, hey that's cool too. Just don't go stealing stuff and republishing it as your own.
 
 *Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}*
