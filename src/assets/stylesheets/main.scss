@@ -8,8 +8,8 @@
 @import "variables";
 
 /* Mixins and functions */
-@import "vendor/breakpoint/breakpoint";
 @import "node_modules/modularscale-sass/stylesheets/modularscale";
+@import "node_modules/breakpoint-sass/stylesheets/breakpoint";
 @include breakpoint-set("to ems", true);
 @import "mixins";
 
@@ -23,7 +23,7 @@
 @import "home";
 
 /* Vendor components */
-@import "vendor/lity/lity";
+@import "node_modules/lity/dist/lity";
 @import "vendor/bigfoot/bigfoot-number";
 @import "vendor/instantsearch/instantsearch";
 @import "vendor/instantsearch/instantsearch-theme-algolia";
