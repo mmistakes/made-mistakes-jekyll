@@ -9,7 +9,7 @@
         <svg class="icon" width="16px" height="16px">
           <use xlink:href="{{ 'icons.svg#icon-twitter' | prepend: 'assets/icons/' | relative_url }}"></use>
         </svg>
-        <span class="visually-hidden">Twitter</span>
+        <span class="icon__label">Twitter</span>
       </a></li>
     {% endif %}
     {% if site.author.github %}
@@ -17,7 +17,7 @@
         <svg class="icon" width="16px" height="16px">
           <use xlink:href="{{ 'icons.svg#icon-github' | prepend: 'assets/icons/' | relative_url }}"></use>
         </svg>
-        <span class="visually-hidden">GitHub</span>
+        <span class="icon__label">GitHub</span>
       </a></li>
     {% endif %}
     {% if site.author.instagram %}
@@ -25,7 +25,7 @@
         <svg class="icon" width="16px" height="16px">
           <use xlink:href="{{ 'icons.svg#icon-instagram' | prepend: 'assets/icons/' | relative_url }}"></use>
         </svg>
-        <span class="visually-hidden">Instagram</span>
+        <span class="icon__label">Instagram</span>
       </a></li>
     {% endif %}
     {% if site.feed.path %}
@@ -33,7 +33,7 @@
         <svg class="icon" width="16px" height="16px">
           <use xlink:href="{{ 'icons.svg#icon-rss' | prepend: 'assets/icons/' | relative_url }}"></use>
         </svg>
-        <span class="visually-hidden">Feed</span>
+        <span class="icon__label">Feed</span>
       </a></li>
     {% endif %}
   </ul>

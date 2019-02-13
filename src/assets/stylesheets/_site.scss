@@ -69,6 +69,10 @@
     grid-column: 3 / 8;
     grid-row: 7 / span 1;
     align-self: center;
+
+    .icon__label {
+      display: none;
+    }
   }
 
   a {
