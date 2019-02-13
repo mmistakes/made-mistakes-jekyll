@@ -54,6 +54,56 @@ h6 {
   text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
 }
 
+h2 {
+  font-size: ms(2, $thread: h);
+
+  @include breakpoint ($md-up) {
+    font-size: ms(3, $thread: h);
+  }
+
+  @include breakpoint ($lg-up) {
+    font-size: ms(4, $thread: h);
+  }
+}
+
+h3 {
+  font-size: ms(1, $thread: h);
+
+  @include breakpoint ($md-up) {
+    font-size: ms(2, $thread: h);
+  }
+
+  @include breakpoint ($lg-up) {
+    font-size: ms(3, $thread: h);
+  }
+}
+
+h4 {
+  font-size: ms(0, $thread: h);
+
+  @include breakpoint ($md-up) {
+    font-size: ms(1, $thread: h);
+  }
+
+  @include breakpoint ($lg-up) {
+    font-size: ms(2, $thread: h);
+  }
+}
+
+h5,
+h6 {
+  font-size: ms(-1, $thread: h);
+
+  @include breakpoint ($md-up) {
+    font-size: ms(0, $thread: h);
+  }
+
+  @include breakpoint ($lg-up) {
+    font-size: ms(1, $thread: h);
+  }
+}
+
+
 blockquote {
   margin-right: 0;
   margin-left: calc(-1rem - 0.25rem);

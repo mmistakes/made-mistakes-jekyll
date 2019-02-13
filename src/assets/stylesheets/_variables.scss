@@ -20,6 +20,14 @@ $lg-only: 992px 1199.98px;
 $xl-only: 1200px;
 
 /* Typography */
+$modularscale: (
+  base: 1em,
+  ratio: 1.2,
+  h: (
+    ratio: 1.125
+  )
+);
+
 $base-font-size: 112.5;
 $line-height: 1.45;
 

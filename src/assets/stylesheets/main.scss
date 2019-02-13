@@ -9,6 +9,7 @@
 
 /* Mixins and functions */
 @import "vendor/breakpoint/breakpoint";
+@import "node_modules/modularscale-sass/stylesheets/modularscale";
 @include breakpoint-set("to ems", true);
 @import "mixins";
 

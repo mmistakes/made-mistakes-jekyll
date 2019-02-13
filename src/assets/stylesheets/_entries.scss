@@ -78,6 +78,10 @@
     text-decoration: none;
   }
 
+  strong {
+    font-family: $alternate-font;
+  }
+
   .count {
     color: mix(#fff, $text-color, 25%);
   }
