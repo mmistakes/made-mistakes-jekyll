@@ -11,7 +11,7 @@ gem 'jekyll'
 gem 'liquid-c'
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
-  gem 'jemoji', '>= 0.10.1'
+  gem 'jemoji', '>= 0.10.2'
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate-v2', '~> 2.0.0'
   gem 'jekyll-typogrify'

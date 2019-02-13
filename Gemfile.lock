@@ -147,6 +147,7 @@ GEM
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     verbal_expressions (0.1.5)
+    wdm (0.1.1)
     yell (2.0.7)
 
 PLATFORMS
@@ -167,9 +168,10 @@ DEPENDENCIES
   jekyll-tagging-related_posts
   jekyll-toc (>= 0.9.0)
   jekyll-typogrify
-  jemoji (>= 0.10.1)
+  jemoji (>= 0.10.2)
   liquid-c
   rake
+  wdm (~> 0.1.1)
 
 BUNDLED WITH
-   1.17.1
+   1.17.2
