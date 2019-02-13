@@ -32,7 +32,7 @@ $(document).ready(function() {
       ' id="{{SUP:data-footnote-backlink-ref}}"' +
       ' data-footnote-number="{{FOOTNOTENUM}}"' +
       ' data-footnote-identifier="{{FOOTNOTEID}}"' +
-      ' alt="See Footnote {{FOOTNOTENUM}}"' +
+      ' title="See footnote {{FOOTNOTENUM}}"' +
       ' data-bigfoot-footnote="{{FOOTNOTECONTENT}}">' +
       ' <span class="visually-hidden">{{FOOTNOTENUM}}</span>' +
       ' </button>' +
