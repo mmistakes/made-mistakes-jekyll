@@ -15,7 +15,7 @@ var util = require("gulp-util");
 var paths = require("../paths");
 
 if (process.env.NODE_ENV === "production") {
-  var imageFilesSitePath = "opt/build/cache/dist/assets/images";
+  var imageFilesSitePath = "/opt/build/cache/dist/assets/images/";
 } else {
   var imageFilesSitePath = paths.imageFilesSite;
 }
