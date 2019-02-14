@@ -14,6 +14,12 @@ var util = require("gulp-util");
 // include paths file
 var paths = require("../paths");
 
+if (process.env.NODE_ENV === "production") {
+  var imageFilesSitePath = "opt/build/cache/dist/assets/images/";
+} else {
+  var imageFilesSitePath = paths.imageFilesSite;
+}
+
 // 'gulp images:optimize' -- optimize images
 gulp.task("images:optimize", () => {
   return gulp
@@ -21,7 +27,7 @@ gulp.task("images:optimize", () => {
       paths.imageFilesGlob,
       "!src/assets/images/{feature,feature/**,lazyload,lazyload/**}"
     ]) // do not process feature images
-    .pipe(newer(paths.imageFilesSite))
+    .pipe(newer(imageFilesSitePath))
     .pipe(
       imagemin(
         [
@@ -33,7 +39,7 @@ gulp.task("images:optimize", () => {
         { verbose: true }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesSite))
+    .pipe(gulp.dest(imageFilesSitePath))
     .pipe(size({ title: "images" }));
 });
 
@@ -44,7 +50,7 @@ gulp.task("images:lazyload", () => {
       paths.imageFiles + "/lazyload" + paths.imagePattern,
       "!" + paths.imageFiles + "/lazyload/**/*.{gif,svg}"
     ])
-    .pipe(changed(paths.imageFilesSite))
+    .pipe(changed(imageFilesSitePath))
     .pipe(
       responsive(
         {
@@ -69,7 +75,7 @@ gulp.task("images:lazyload", () => {
         }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesSite));
+    .pipe(gulp.dest(imageFilesSitePath));
 });
 
 // 'gulp images:feature' -- resize images
@@ -79,7 +85,7 @@ gulp.task("images:feature", () => {
       paths.imageFiles + "/feature" + paths.imagePattern,
       "!" + paths.imageFiles + "/feature/**/*.{gif,svg}"
     ])
-    .pipe(changed(paths.imageFilesSite))
+    .pipe(changed(imageFilesSitePath))
     .pipe(
       responsive(
         {
@@ -115,5 +121,5 @@ gulp.task("images:feature", () => {
         }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesSite));
+    .pipe(gulp.dest(imageFilesSitePath));
 });
