@@ -1,0 +1,8 @@
+_id: 5b43e9e0-305d-11e9-b137-43d33c7de5b6
+_parent: /articles/autumn-refresh/
+name: Donald Boulton
+email: c1e68ec3dd3cc5dad0d017d2930b259c
+url: 'https://donboulton.com'
+message: "Nice updates, like the bigfoot changes and additions.\r\n\r\nTest on <https://securityheaders.com>\r\nYou could add security headers in netlify.toml as below.\r\n\r\n```\r\n[[headers]]\r\nfor = \"/*\"\r\n[headers.values]\r\nCache-Control = \"public, max-age=31536000\"\r\nReferrer-Policy = \"strict-origin-when-cross-origin\"\r\nX-Content-Type-Options = \"nosniff\"\r\nX-Frame-Options = \"DENY\"\r\nX-XSS-Protection = \"1; mode=block\"\r\nAccess-Control-Allow-Origin = \"*\"\r\nVary = \"Accept-Encoding\"\r\nAccess-Control-Allow-Credentials = \"true\"\r\nFeature-Policy = \"geolocation 'self' https://mademistakes.com; autoplay 'none'; lazyload 'self' https://mademistakes.com; sync-xhr 'self' https://mademistakes.com\"\r\n[[headers]]\r\nfor = \"/assets/*\"\r\n[headers.values]\r\nCache-Control = \"public, max-age=31536000\"\r\n```"
+replying_to: ''
+date: '2019-02-14T13:35:13.743Z'
