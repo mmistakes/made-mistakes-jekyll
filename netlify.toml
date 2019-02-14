@@ -4,9 +4,17 @@
 
 [[headers]]
   for = "/*"
-  [headers.values]
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Referrer-Policy = "no-referrer"
-    X-Content-Type-Options = "nosniff"
+    Access-Control-Allow-Origin = "*"
+    Vary = "Accept-Encoding"
+    Access-Control-Allow-Credentials = "true"
+    Feature-Policy = "geolocation 'self' https://mademistakes.com; autoplay 'none'; lazyload 'self' https://mademistakes.com; sync-xhr 'self' https://mademistakes.com"
+[[headers]]
+  for = "/assets/*"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000"
