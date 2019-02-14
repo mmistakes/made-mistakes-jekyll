@@ -2689,7 +2689,7 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-fancy-log@^1.1.0, fancy-log@^1.3.2, fancy-log@^1.3.3:
+fancy-log@^1.1.0, fancy-log@^1.3.2:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/fancy-log/-/fancy-log-1.3.3.tgz#dbc19154f558690150a23953a0adbd035be45fc7"
   integrity sha512-k9oEhlyc0FrVh25qYuSELjr8oxsCoc4/LEZfg2iJJrfEk/tZL9bCoJE47gqAvI2m/AUjluCS4+3I0eTx8n3AEw==
@@ -3643,13 +3643,13 @@ gulp-rename@^1.4.0:
   resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.4.0.tgz#de1c718e7c4095ae861f7296ef4f3248648240bd"
   integrity sha512-swzbIGb/arEoFK89tPY58vg3Ok1bw+d35PfUNwWqdo7KM4jkmuGA78JiDNqR+JeZFaeeHnRg9N7aihX3YPmsyg==
 
-gulp-responsive@^2.9.0:
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/gulp-responsive/-/gulp-responsive-2.13.0.tgz#a0a8ff1eed2a38e5b0fa0b54cf4f1914804c9373"
-  integrity sha512-2fr1t7Oc3yd31zIYBdUcewyhNDFiRcxMtInq99VCV9LL4W8qdDkChnnMWb6+5GB7YwgvFJvEzST6d42vlf0hWg==
+gulp-responsive@2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/gulp-responsive/-/gulp-responsive-2.12.0.tgz#53f47fe6b4ca254918a21de6cae52502aae4f13d"
+  integrity sha512-Vae2kUHUxQ2fhjFdz5CHXQ0FNNEaxbg6thIV1yQuO9DgWN22uQDvQXX+hSBfF/voqjRDqI0q3Xrj6P0n1FnHEw==
   dependencies:
     chalk "^2.4.1"
-    fancy-log "^1.3.3"
+    fancy-log "^1.3.2"
     lodash "^4.17.11"
     minimatch "^3.0.4"
     plugin-error "^1.0.1"
