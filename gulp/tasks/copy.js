@@ -6,8 +6,8 @@ var newer = require("gulp-newer");
 var paths = require("../paths");
 var imageFilesSitePath;
 
-if (process.env.NODE_ENV === "production") {
-  imageFilesSitePath = " /opt/build/cache/dist/assets/images";
+if (process.env.CONTEXT === "production") {
+  imageFilesSitePath = "/opt/build/cache/dist/assets/images";
 } else {
   imageFilesSitePath = paths.imageFilesSite;
 }

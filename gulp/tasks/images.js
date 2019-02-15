@@ -9,7 +9,7 @@ var size = require("gulp-size");
 var paths = require("../paths");
 var imageFilesSitePath;
 
-if (process.env.NODE_ENV === "production") {
+if (process.env.CONTEXT === "production") {
   imageFilesSitePath = " /opt/build/cache/dist/assets/images";
 } else {
   imageFilesSitePath = paths.imageFilesSite;
