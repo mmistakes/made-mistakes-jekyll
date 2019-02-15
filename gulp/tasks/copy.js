@@ -5,6 +5,7 @@ var newer = require("gulp-newer");
 // include paths file
 var paths = require("../paths");
 
+// 'gulp copy:assets' -- copies assets to /dist/
 //   to avoid Jekyll overwriting the whole directory
 gulp.task("copy:assets", () => {
   return gulp
@@ -17,8 +18,8 @@ gulp.task("copy:images", () => {
   return gulp
     .src([
       paths.imageFilesGlob,
-      "!src/assets/images/{feature,feature/**,lazyload,lazyload/**}"
-    ]) // do not process feature/lazyload images
+      "!src/assets/images/{feature,feature/**}"
+    ]) // do not process feature images
     .pipe(newer(paths.imageFilesSite))
     .pipe(gulp.dest(paths.imageFilesSite));
 });

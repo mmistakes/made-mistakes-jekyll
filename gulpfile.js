@@ -19,7 +19,6 @@ gulp.task(
     gulp.series(
       "scripts:gzip",
       "styles:gzip",
-      "images:lazyload",
       "images:feature",
       "copy:assets",
       "copy:images:cached",

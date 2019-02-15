@@ -285,12 +285,6 @@ settings.
 
 Optimizes standard images and copies to `/dist` folder.
 
-> `gulp images:lazyload`
-
-Creates a "low-quality" version of all images in `src/assets/images/lazyload` 
-for lazyloading and copies it and the original to `/dist` folder after being 
-optimized.
-
 > `gulp images:feature`
 
 Similar to the previous task but for images in `src/assets/images/feature`. 

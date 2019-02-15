@@ -199,6 +199,6 @@ gulp.task("serve", done => {
   gulp.watch(paths.sassFilesGlob, gulp.series("styles", reload));
   gulp.watch(
     paths.imageFilesGlob,
-    gulp.series("copy:images", "images:lazyload", "images:feature", reload)
+    gulp.series("copy:images", "images:feature", reload)
   );
 });

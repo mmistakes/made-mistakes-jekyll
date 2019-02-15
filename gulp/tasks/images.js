@@ -13,7 +13,7 @@ gulp.task("images:optimize", () => {
   return gulp
     .src([
       paths.imageFilesGlob,
-      "!src/assets/images/{feature,feature/**,lazyload,lazyload/**}"
+      "!src/assets/images/{feature,feature/**}"
     ]) // do not process feature images
     .pipe(newer(paths.imageFilesSite))
     .pipe(
@@ -29,42 +29,6 @@ gulp.task("images:optimize", () => {
     )
     .pipe(gulp.dest(paths.imageFilesSite))
     .pipe(size({ title: "images" }));
-});
-
-// 'gulp images:lazyload' -- resize and optimize lazyload images
-gulp.task("images:lazyload", () => {
-  return gulp
-    .src([
-      paths.imageFiles + "/lazyload" + paths.imagePattern,
-      "!" + paths.imageFiles + "/lazyload/**/*.{gif,svg}"
-    ])
-    .pipe(assetCache.filter(paths.imageFilesCachePath + '/.lazyload-image-cache'))
-    .pipe(
-      responsive(
-        {
-          // resize all images
-          "*.*": [
-            {
-              width: 20,
-              rename: { suffix: "-lq" }
-            },
-            {
-              // copy original image
-              width: "100%",
-              rename: { suffix: "" }
-            }
-          ]
-        },
-        {
-          // global configuration for all images
-          errorOnEnlargement: false,
-          withMetadata: false,
-          errorOnUnusedConfig: false
-        }
-      )
-    )
-    .pipe(gulp.dest(paths.imageFilesCachePath)) // write to cache
-    .pipe(assetCache.cache());
 });
 
 // 'gulp images:feature' -- resize images
