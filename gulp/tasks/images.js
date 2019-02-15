@@ -4,6 +4,7 @@ var filter = require("gulp-filter");
 var glob = require("glob");
 var gulp = require("gulp");
 var gulpif = require("gulp-if");
+var log = require("fancy-log");
 var newer = require("gulp-newer");
 var notify = require("gulp-notify");
 var rename = require("gulp-rename");
@@ -75,7 +76,10 @@ gulp.task("images:lazyload", () => {
         }
       )
     )
-    .pipe(gulp.dest(imageFilesSitePath));
+    .pipe(gulp.dest(imageFilesSitePath))
+    .on("end", function() {
+      log("images path: " + imageFilesSitePath);
+    });
 });
 
 // 'gulp images:feature' -- resize images
@@ -121,5 +125,5 @@ gulp.task("images:feature", () => {
         }
       )
     )
-    .pipe(gulp.dest(imageFilesSitePath));
+    .pipe(gulp.dest(imageFilesSitePath))
 });
