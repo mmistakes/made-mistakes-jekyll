@@ -45,7 +45,7 @@ gulp.task("images:lazyload", () => {
       paths.imageFiles + "/lazyload" + paths.imagePattern,
       "!" + paths.imageFiles + "/lazyload/**/*.{gif,svg}"
     ])
-    .pipe(changed(paths.imageFilesCachePath))
+    .pipe(changed(paths.imageFilesCachePath)) // check cache
     .pipe(
       responsive(
         {
@@ -70,7 +70,8 @@ gulp.task("images:lazyload", () => {
         }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesCachePath));
+    .pipe(gulp.dest(paths.imageFilesCachePath)) // write to cache
+    .pipe(gulp.dest(paths.imageFilesSite));
 });
 
 // 'gulp images:feature' -- resize images
@@ -116,5 +117,6 @@ gulp.task("images:feature", () => {
         }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesCachePath));
+    .pipe(gulp.dest(paths.imageFilesCachePath))
+    .pipe(gulp.dest(paths.imageFilesSite));
 });

@@ -31,13 +31,6 @@ gulp.task("copy:images", () => {
     .pipe(gulp.dest(paths.imageFilesSite));
 });
 
-// 'gulp copy:generated' -- copies generated images to /dist/
-gulp.task("copy:images:generated", () => {
-  return gulp
-    .src(paths.imageFilesCachePath + "/**/*")
-    .pipe(gulp.dest(paths.imageFilesSite));
-});
-
 // 'gulp copy:icons' -- copies .ico assets to /dist/
 gulp.task("copy:icons", () => {
   return gulp
