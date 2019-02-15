@@ -3,6 +3,7 @@ layout: page
 permalink: /sitemap/
 title: "Sitemap"
 excerpt: "An index of all the pages found on mademistakes.com"
+date: 2016-08-26
 last_modified_at: 2018-11-27T16:00:24-05:00
 ---
 

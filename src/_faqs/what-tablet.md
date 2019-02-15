@@ -1,6 +1,7 @@
 ---
 title: "What tablet do you draw and paint on?"
 type: paper
+date: 2016-08-26
 last_modified_at: 2018-03-22T09:41:26-04:00
 order: 2
 ---

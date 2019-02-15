@@ -2,6 +2,7 @@
 layout: page
 permalink: /faqs/
 title: "Frequently asked questions"
+date: 2016-08-26
 last_modified_at: 2018-02-19T09:56:45-05:00
 excerpt: "Because no one likes to repeat things here's a compilation of answers to questions I'm often asked."
 ---

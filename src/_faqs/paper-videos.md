@@ -1,6 +1,7 @@
 ---
 title: "How do you make time lapse videos of your iPad drawings?"
 type: paper
+date: 2016-08-26
 last_modified_at: 2018-11-07T10:12:13-05:00
 order: 9
 ---

@@ -2,6 +2,7 @@
 permalink: /portraits/
 title: "Order a digital portrait"
 excerpt: "Order a digital portrait drawn with the Paper app for iPad."
+date: 2016-08-26
 last_modified_at: 2014-09-22T11:27:18-04:00
 image:
   thumbnail: /assets/images/portrait-thumb.jpg

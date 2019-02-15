@@ -8,4 +8,5 @@ introduction: *excerpt
 pagination: 
   enabled: true
   category: mastering-paper
+date: 2016-08-26
 ---

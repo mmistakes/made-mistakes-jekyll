@@ -1,6 +1,7 @@
 ---
 title: "How do you glitch images?"
 type: other
+date: 2016-08-26
 last_modified_at: 2018-01-19T09:24:59-05:00
 order: 3
 ---

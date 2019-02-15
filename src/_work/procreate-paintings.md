@@ -5,6 +5,7 @@ category: procreate-paintings
 title: "Procreate iPad paintings"
 excerpt: &excerpt "Gallery of digital paintings created with [Procreate](http://procreate.si/) on an iPad. Find time lapse videos, in-process screenshots, and more."
 subtitle: *excerpt
+date: 2017-05-01
 last_modified_at: 2017-05-07T17:26:15-04:00
 image: 
   path: &image /assets/images/procreate-paintings-feature.jpg
