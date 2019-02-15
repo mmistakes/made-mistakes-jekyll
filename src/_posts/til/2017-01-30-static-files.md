@@ -1,9 +1,5 @@
 ---
 title: "Accessing static files in Jekyll"
-excerpt:
-image:
-  thumbnail: /assets/images/jekyll-static-files-th.jpg
-  cover: /assets/images/jekyll-static-files-cover.jpg
 categories: [til]
 tags: [web development, Jekyll]
 toc: true

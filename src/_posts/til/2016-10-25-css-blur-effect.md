@@ -1,6 +1,5 @@
 ---
 title: "CSS blur effect"
-excerpt:
 categories: [til]
 tags: [web development, CSS]
 last_modified_at: 2016-11-04T16:13:05-04:00
