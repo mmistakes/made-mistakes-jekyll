@@ -7,11 +7,12 @@ var size = require("gulp-size");
 
 // include paths file
 var paths = require("../paths");
+var imageFilesSitePath;
 
 if (process.env.NODE_ENV === "production") {
-  var imageFilesSitePath = " /opt/build/cache/dist/assets/images";
+  imageFilesSitePath = " /opt/build/cache/dist/assets/images";
 } else {
-  var imageFilesSitePath = paths.imageFilesSite;
+  imageFilesSitePath = paths.imageFilesSite;
 }
 
 // 'gulp images:optimize' -- optimize images
@@ -69,7 +70,7 @@ gulp.task("images:lazyload", () => {
         }
       )
     )
-    .pipe(gulp.dest(imageFilesSitePath))
+    .pipe(gulp.dest(imageFilesSitePath));
 });
 
 // 'gulp images:feature' -- resize images

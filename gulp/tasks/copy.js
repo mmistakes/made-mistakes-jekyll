@@ -4,11 +4,12 @@ var newer = require("gulp-newer");
 
 // include paths file
 var paths = require("../paths");
+var imageFilesSitePath;
 
 if (process.env.NODE_ENV === "production") {
-  var imageFilesSitePath = " /opt/build/cache/dist/assets/images";
+  imageFilesSitePath = " /opt/build/cache/dist/assets/images";
 } else {
-  var imageFilesSitePath = paths.imageFilesSite;
+  imageFilesSitePath = paths.imageFilesSite;
 }
 
 // 'gulp copy:assets' -- copies assets to /dist/
