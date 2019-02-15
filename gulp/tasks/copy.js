@@ -27,8 +27,8 @@ gulp.task("copy:images", () => {
       paths.imageFilesGlob,
       "!src/assets/images/{feature,feature/**,lazyload,lazyload/**}"
     ]) // do not process feature images
-    .pipe(newer(imageFilesSitePath))
-    .pipe(gulp.dest(imageFilesSitePath));
+    .pipe(newer(paths.imageFilesSite))
+    .pipe(gulp.dest(paths.imageFilesSite));
 });
 
 // 'gulp copy:icons' -- copies .ico assets to /dist/
