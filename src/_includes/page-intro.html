@@ -5,7 +5,7 @@
 
 <div class="page__title">
   <h1 class="heading"><span>{{ page.alt_title | default: page.autopage.display_name | default: page.title | default: site.title | markdownify | strip_html | widont }}</span></h1>
-  {% if page.date %}
+  {% if page.byline %}
     {% include author %}
     <div class="author">
       <span class="byline">{{ author.name }}</span>
