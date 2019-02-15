@@ -66,4 +66,12 @@ paths.txtFilesGlob = paths.sourceFolderName + paths.txtPattern;
 paths.xmlFilesGlob = paths.sourceFolderName + paths.xmlPattern;
 paths.ymlFilesGlob = paths.sourceFolderName + paths.ymlPattern;
 
+var imageFilesCachePath;
+
+if (process.env.CONTEXT === "production") {
+  paths.imageFilesCachePath = "/opt/build/cache/assets/images";
+} else {
+  paths.imageFilesCachePath = paths.imageFilesSite;
+}
+
 module.exports = paths;

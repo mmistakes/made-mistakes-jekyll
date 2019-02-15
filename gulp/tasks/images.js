@@ -7,13 +7,13 @@ var size = require("gulp-size");
 
 // include paths file
 var paths = require("../paths");
-var imageFilesSitePath;
+// var imageFilesCachePath;
 
-if (process.env.CONTEXT === "production") {
-  imageFilesSitePath = " /opt/build/cache/dist/assets/images";
-} else {
-  imageFilesSitePath = paths.imageFilesSite;
-}
+// if (process.env.CONTEXT === "production") {
+//   imageFilesCachePath = "/opt/build/cache/assets/images";
+// } else {
+//   imageFilesCachePath = paths.imageFilesSite;
+// }
 
 // 'gulp images:optimize' -- optimize images
 gulp.task("images:optimize", () => {
@@ -45,7 +45,7 @@ gulp.task("images:lazyload", () => {
       paths.imageFiles + "/lazyload" + paths.imagePattern,
       "!" + paths.imageFiles + "/lazyload/**/*.{gif,svg}"
     ])
-    .pipe(changed(paths.imageFilesSite))
+    .pipe(changed(paths.imageFilesCachePath))
     .pipe(
       responsive(
         {
@@ -70,7 +70,7 @@ gulp.task("images:lazyload", () => {
         }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesSite));
+    .pipe(gulp.dest(paths.imageFilesCachePath));
 });
 
 // 'gulp images:feature' -- resize images
@@ -80,7 +80,7 @@ gulp.task("images:feature", () => {
       paths.imageFiles + "/feature" + paths.imagePattern,
       "!" + paths.imageFiles + "/feature/**/*.{gif,svg}"
     ])
-    .pipe(changed(paths.imageFilesSite))
+    .pipe(changed(paths.imageFilesCachePath))
     .pipe(
       responsive(
         {
@@ -116,5 +116,5 @@ gulp.task("images:feature", () => {
         }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesSite));
+    .pipe(gulp.dest(paths.imageFilesCachePath));
 });
