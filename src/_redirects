@@ -49,6 +49,8 @@ http://mademistakes.netlify.com/* https://mademistakes.com/:splat 301!
 /tag/paper-by-53 /tag/paper-for-ios/ 301
 /tags /tag/ 301
 /works /work/ 301
+/til/ /tag/til/ 301
+/til/* /notes/:splat 301
 
 # ----------------------------------------------------------------------
 # Sitemap redirects
@@ -69,3 +71,4 @@ http://mademistakes.netlify.com/* https://mademistakes.com/:splat 301!
 /articles-feed.xml /articles.xml 301
 /mastering-paper-feed.xml /mastering-paper.xml 301
 /paperfaces-feed.xml /paperfaces.xml 301
+/til.xml /notes.xml 301

@@ -17,9 +17,9 @@ gallery:
   - url: /assets/images/oil-pastels-process-3.jpg
     image_path: /assets/images/oil-pastels-process-3-600.jpg
     alt: "The finished piece before removing the mask"
-categories: [til]
-tags: [drawing, illustration, painting]
-last_modified_at:
+categories: [notes]
+tags: [TIL, drawing, illustration, painting]
+last_modified_at: 2019-02-15T15:55:53-05:00
 ---
 
 Not to overstate the obvious here, but oil pastels do not behave like colored pencils.

@@ -1,8 +1,8 @@
 ---
 title: "Configuring publishing sources for GitHub Pages"
-categories: [til]
-tags: [web development, GitHub, Jekyll]
-last_modified_at:
+categories: [notes]
+tags: [TIL, web development, GitHub, Jekyll]
+last_modified_at: 2019-02-15T15:56:02-05:00
 ---
 
 You know what sucks? Maintaining two separate branches of an open source project, just to host its source code and documentation together with GitHub Pages.

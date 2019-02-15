@@ -3,6 +3,9 @@
 articles:
   name: "Blog articles"
 
+notes:
+  name: "Notes"
+
 mastering-paper:
   name: "Mastering Paper for iOS"
 

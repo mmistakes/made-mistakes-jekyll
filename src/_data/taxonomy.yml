@@ -13,3 +13,7 @@ sktchy:
 jekyll:
   title: "Jekyll"
   description: "An archive of posts related to [**Jekyll**](https://jekyllrb.com) --- a Ruby Gem that transforms plain text into static websites and blogs."
+
+til:
+  title: "Today I learned"
+  description: "Learnings captured for educational purposes and posterity."

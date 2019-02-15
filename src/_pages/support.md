@@ -2,7 +2,7 @@
 permalink: /support/
 title: "Show your support"
 date: 2016-08-26
-last_modified_at: 2018-11-27T09:52:50-05:00
+last_modified_at: 2019-02-15T16:07:33-05:00
 excerpt: "If you like the free content I provide on Made Mistakes, here's how to show your thanks and motivate me to create more of it."
 toc: true
 ---
@@ -60,9 +60,9 @@ The main feed[^feed] for everything on Made Mistakes.
 ### Feeds by topic
 
 - Blog articles: [{{ 'articles.xml' | relative_url }}]({{ 'articles.xml' | relative_url }})
+- Notes: [{{ 'notes.xml' | relative_url }}]({{ 'notes.xml' | relative_url }})
 - Paper for iOS tutorials: [{{ 'mastering-paper.xml' | relative_url }}]({{ 'mastering-paper.xml' | relative_url }})
 - PaperFaces iPad portraits: [{{ 'paperfaces.xml' | relative_url }}]({{ 'paperfaces.xml' | relative_url }})
 - Procreate iPad paintings: [{{ 'procreate-paintings.xml' | relative_url }}]({{ 'procreate-paintings.xml' | relative_url }})
-- Today I learned posts: [{{ 'til.xml' | relative_url }}]({{ 'til.xml' | relative_url }})
 
 [^feed]: Right click any of the feed links found on this page and add to your feed reader of choice. My favorite is [feedly](https://feedly.com), which syncs your subscriptions across all browsers and mobile devices.

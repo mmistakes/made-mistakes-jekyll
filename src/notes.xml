@@ -1,7 +1,7 @@
 ---
 layout: atom_feed
-category_limit: til
+category_limit: notes
 limit: 25
-title: "Today I Learned Feed"
+title: "Notes Feed"
 sitemap: false
 ---

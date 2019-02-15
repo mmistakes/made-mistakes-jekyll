@@ -14,7 +14,7 @@ section:
     class: "section__inverse section__articles"
     image: /assets/images/blog-articles.jpg
     introduction: |
-      A collection of thoughts, inspiration, mistakes, and other minutia I've written. Topics covered include [*web development*](tag/web-development/), [*Jekyll tutorials*](/tag/jekyll/), [*design*](/tag/design/), [#TIL](/til/), and [more](/tag/).
+      A collection of thoughts, inspiration, mistakes, and other minutia I've written. Topics covered include [*web development*](tag/web-development/), [*Jekyll tutorials*](/tag/jekyll/), [*design*](/tag/design/), [#TIL](/tag/til/), and [more](/tag/).
     actions:
       - label: "the archives →"
         url: "/articles/"

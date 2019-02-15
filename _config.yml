@@ -168,6 +168,19 @@ defaults:
       breadcrumbs:
         - label: "Mastering Paper for iOS"
           url: /mastering-paper/
+  # Notes
+  - scope:
+      path: _posts/notes
+      type: posts
+    values:
+      layout: post
+      byline: true
+      read_time: true
+      comments: true
+      support: true
+      breadcrumbs:
+        - label: "Notes"
+          url: /notes/
   # PaperFaces
   - scope:
       path: _posts/paperfaces
@@ -198,19 +211,6 @@ defaults:
       work: "Illustration"
       seo:
         type: "CreativeWork"
-  # TIL
-  - scope:
-      path: _posts/til
-      type: posts
-    values:
-      layout: post
-      byline: true
-      read_time: true
-      comments: true
-      support: true
-      breadcrumbs:
-        - label: "Today I learned"
-          url: /til/
   # Tiny Paintings
   - scope:
       path: _posts/tiny-paintings
