@@ -4,6 +4,13 @@ var newer = require("gulp-newer");
 
 // include paths file
 var paths = require("../paths");
+var imageFilesSitePath;
+
+if (process.env.CONTEXT === "production") {
+  imageFilesSitePath = "/opt/build/cache/dist/assets/images";
+} else {
+  imageFilesSitePath = paths.imageFilesSite;
+}
 
 // 'gulp copy:assets' -- copies assets to /dist/
 //   to avoid Jekyll overwriting the whole directory
