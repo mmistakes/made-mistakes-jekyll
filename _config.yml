@@ -3,7 +3,7 @@ source                   : .tmp/src
 destination              : .tmp/dist
 
 title                    : "Made Mistakes"
-description              : "Personal website of designer slash illustrator Michael Rose."
+description              : "Personal website of designer Michael Rose (@mmistakes)"
 logo                     : "/assets/images/android-chrome-384x384.png"
 teaser                   : "/assets/images/default-teaser.png"
 locale                   : "en_US"

@@ -1,7 +1,5 @@
 ---
 layout: home
-permalink: /
-title: "A designer's faux pas"
 excerpt: "Making stuff one mistake at a time."
 section:
   - title: "A faux pas"
@@ -29,5 +27,6 @@ section:
       - label: "see more →"
         url: "/work/"
 ads: false
+date: 2016-08-26
 last_modified_at: 2018-11-07T18:49:45-05:00
 ---
