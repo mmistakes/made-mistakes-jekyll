@@ -4,15 +4,7 @@ var newer = require("gulp-newer");
 
 // include paths file
 var paths = require("../paths");
-// var imageFilesCachePath;
 
-// if (process.env.CONTEXT === "production") {
-//   imageFilesCachePath = "/opt/build/cache/assets/images";
-// } else {
-//   imageFilesCachePath = paths.imageFilesSite;
-// }
-
-// 'gulp copy:assets' -- copies assets to /dist/
 //   to avoid Jekyll overwriting the whole directory
 gulp.task("copy:assets", () => {
   return gulp
@@ -28,6 +20,13 @@ gulp.task("copy:images", () => {
       "!src/assets/images/{feature,feature/**,lazyload,lazyload/**}"
     ]) // do not process feature/lazyload images
     .pipe(newer(paths.imageFilesSite))
+    .pipe(gulp.dest(paths.imageFilesSite));
+});
+
+// 'gulp copy:images:cached' -- copies cached images to /dist/
+gulp.task("copy:images:cached", () => {
+  return gulp
+    .src(paths.imageFilesCachePath + "/**/*")
     .pipe(gulp.dest(paths.imageFilesSite));
 });
 

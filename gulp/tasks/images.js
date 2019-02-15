@@ -1,5 +1,6 @@
 "use strict";
-var changed = require("gulp-changed");
+var assetCache = require("gulp-asset-cache");
+// var changed = require("gulp-changed");
 var gulp = require("gulp");
 var newer = require("gulp-newer");
 var responsive = require("gulp-responsive");
@@ -7,13 +8,6 @@ var size = require("gulp-size");
 
 // include paths file
 var paths = require("../paths");
-// var imageFilesCachePath;
-
-// if (process.env.CONTEXT === "production") {
-//   imageFilesCachePath = "/opt/build/cache/assets/images";
-// } else {
-//   imageFilesCachePath = paths.imageFilesSite;
-// }
 
 // 'gulp images:optimize' -- optimize images
 gulp.task("images:optimize", () => {
@@ -45,7 +39,8 @@ gulp.task("images:lazyload", () => {
       paths.imageFiles + "/lazyload" + paths.imagePattern,
       "!" + paths.imageFiles + "/lazyload/**/*.{gif,svg}"
     ])
-    .pipe(changed(paths.imageFilesCachePath)) // check cache
+    // .pipe(changed(paths.imageFilesCachePath)) // check cache
+    .pipe(assetCache.filter(paths.imageFilesCachePath + '/.lazyload-image-cache'))
     .pipe(
       responsive(
         {
@@ -71,7 +66,8 @@ gulp.task("images:lazyload", () => {
       )
     )
     .pipe(gulp.dest(paths.imageFilesCachePath)) // write to cache
-    .pipe(gulp.dest(paths.imageFilesSite));
+    // .pipe(gulp.dest(paths.imageFilesSite))
+    .pipe(assetCache.cache());
 });
 
 // 'gulp images:feature' -- resize images
@@ -81,7 +77,8 @@ gulp.task("images:feature", () => {
       paths.imageFiles + "/feature" + paths.imagePattern,
       "!" + paths.imageFiles + "/feature/**/*.{gif,svg}"
     ])
-    .pipe(changed(paths.imageFilesCachePath))
+    // .pipe(changed(paths.imageFilesCachePath))
+    .pipe(assetCache.filter(paths.imageFilesCachePath + '/.feature-image-cache'))
     .pipe(
       responsive(
         {
@@ -117,6 +114,7 @@ gulp.task("images:feature", () => {
         }
       )
     )
-    .pipe(gulp.dest(paths.imageFilesCachePath))
-    .pipe(gulp.dest(paths.imageFilesSite));
+    .pipe(gulp.dest(paths.imageFilesCachePath)) // write to cache
+    // .pipe(gulp.dest(paths.imageFilesSite))
+    .pipe(assetCache.cache());
 });

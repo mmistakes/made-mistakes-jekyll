@@ -19,10 +19,10 @@ gulp.task(
     gulp.series(
       "scripts:gzip",
       "styles:gzip",
-      // "copy:images:cached",
       "images:lazyload",
       "images:feature",
       "copy:assets",
+      "copy:images:cached",
       "copy:images",
       "copy:icons",
       "copy:manifest"

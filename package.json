@@ -26,6 +26,7 @@
     "del": "^2.2.0",
     "glob": "^7.0.6",
     "gulp": "^4.0.0",
+    "gulp-asset-cache": "^1.1.5",
     "gulp-changed": "^3.2.0",
     "gulp-cheerio": "^0.6.2",
     "gulp-concat": "^2.6.0",
