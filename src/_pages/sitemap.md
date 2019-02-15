@@ -4,7 +4,7 @@ permalink: /sitemap/
 title: "Sitemap"
 excerpt: "An index of all the pages found on mademistakes.com"
 date: 2016-08-26
-last_modified_at: 2018-11-27T16:00:24-05:00
+last_modified_at: 2019-02-15
 ---
 
 A hierarchical breakdown of all the sections and pages found on the site. For you robots out there, here is an [XML version](/sitemap.xml) available for your crawling pleasure.
@@ -19,7 +19,7 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
 - [Style guide](/style-guide/)
 - [Tag index](/tag/)
 
-## [Blog articles](/articles/)
+## [Articles](/articles/)
 
 <ul>
   {% for post in site.categories.articles %}
@@ -27,10 +27,10 @@ A hierarchical breakdown of all the sections and pages found on the site. For yo
   {% endfor %}
 </ul>
 
-## [Today I learned](/til/)
+## [Notes](/notes/)
 
 <ul>
-  {% for post in site.categories.til %}
+  {% for post in site.categories.notes %}
     {% include post-list.html %}
   {% endfor %}
 </ul>
