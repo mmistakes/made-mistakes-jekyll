@@ -4,7 +4,7 @@ excerpt: "Making stuff one mistake at a time."
 section:
   - title: "A faux pas"
     class: "section__inverse section__about"
-    image: /assets/images/michael-rose-glitched.jpg
+    image: /assets/images/michael-rose-glitched-feature.jpg
     introduction: |
       I'm just another boring, tattooed, *time traveling designer* from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad Pro, and playing console games.
     actions:
