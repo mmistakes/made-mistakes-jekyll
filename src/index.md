@@ -8,17 +8,17 @@ section:
     introduction: |
       I'm just another boring, tattooed, *time traveling designer* from Buffalo New York. I enjoy eating chicken wings, sketching on an iPad Pro, and playing console games.
     actions:
-      - label: "learn more →"
+      - label: "about Michael →"
         url: "/about/"
-  - title: "Blog articles"
+  - title: "Writing"
     class: "section__inverse section__articles"
     image: /assets/images/blog-articles.jpg
     introduction: |
-      A collection of thoughts, inspiration, mistakes, and other minutia I've written. Topics covered include [*web development*](tag/web-development/), [*Jekyll tutorials*](/tag/jekyll/), [*design*](/tag/design/), [#TIL](/tag/til/), and [more](/tag/).
+      A collection of thoughts, inspiration, mistakes, and other minutia I've written. Topics covered include [*web development*](tag/web-development/), [*Jekyll tutorials*](/tag/jekyll/), [*Mastering Paper*], [*design*](/tag/design/), [#TIL](/tag/til/), and [more](/tag/).
     actions:
       - label: "the archives →"
         url: "/articles/"
-  - title: "Work portfolio"
+  - title: "Works"
     class: "section__inverse section__work"
     image: /assets/images/procreate-paintings-glitched-feature.jpg
     introduction: |
@@ -26,7 +26,6 @@ section:
     actions:
       - label: "see more →"
         url: "/work/"
-ads: false
 date: 2016-08-26
-last_modified_at: 2018-11-07T18:49:45-05:00
+last_modified_at: 2019-02-16T10:21:51-05:00
 ---
