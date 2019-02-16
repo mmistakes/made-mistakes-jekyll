@@ -7,6 +7,39 @@ http://mademistakes.netlify.com/* https://mademistakes.com/:splat 301!
 # ----------------------------------------------------------------------
 
 /about-made-mistakes /about/ 301
+/articles/autumn-refresh/ /notes/autumn-refresh/ 301
+/articles/inktober-2016-failure/ /notes/inktober-2016-failure/ 301
+/articles/paperfaces-giveaway/ /notes/paperfaces-giveaway/ 301
+/articles/inspiring-faces/ /notes/inspiring-faces/ 301
+/articles/starting-young/ /notes/starting-young/ 301
+/articles/365-days-of-drawing/ /notes/365-days-of-drawing/ 301
+/articles/paperfaces-ipad-portrait-project/ /notes/paperfaces-ipad-portrait-project/ 301
+/articles/romance-egg-engagement/ /notes/romance-egg-engagement/ 301
+/articles/record-art-review-corn-on-macabre-7-inch/ /notes/record-art-review-corn-on-macabre-7-inch/ 301
+/articles/free-aboutme-business-cards/ /notes/free-aboutme-business-cards/ 301
+/articles/urban-outfitters-typography-goof/ /notes/urban-outfitters-typography-goof/ 301
+/articles/record-art-review-agna-moraines-autobiography-7-inch/ /notes/record-art-review-agna-moraines-autobiography-7-inch/ 301
+/articles/collecting-records-artwork/ /notes/collecting-records-artwork/ 301
+/articles/typography-urban-outfitters/ /notes/typography-urban-outfitters/ 301
+/articles/knowing-grids-means-breaking-grids/ /notes/knowing-grids-means-breaking-grids/ 301
+/articles/makings-mistake/ /notes/makings-mistake/ 301
+/articles/iphone4-impressions/ /notes/iphone4-impressions/ 301
+/articles/soldout-iphone-4/ /notes/soldout-iphone-4/ 301
+/articles/doppleganger-credit-card-scammer/ /notes/doppleganger-credit-card-scammer/ 301
+/articles/eviltron-prank-review/ /notes/eviltron-prank-review/ 301
+/articles/palm-pre-impressions/ /notes/palm-pre-impressions/ 301
+/articles/birds-bird-cage-tattoos/ /notes/birds-bird-cage-tattoos/ 301
+/articles/blurb-book-quality-printing/ /notes/blurb-book-quality-printing/ 301
+/articles/using-rasterbator/ /notes/using-rasterbator/ 301
+/articles/diving-bell-butterfly-impressions/ /notes/diving-bell-butterfly-impressions/ 301
+/articles/rriiccee-show-last-night-soundlab/ /notes/rriiccee-show-last-night-soundlab/ 301
+/articles/upgrade-imac-g5-osx-leopard/ /notes/upgrade-imac-g5-osx-leopard/ 301
+/articles/one-week-new-ipod-classic/ /notes/one-week-new-ipod-classic/ 301
+/articles/sunshine-movie-impressions/ /notes/sunshine-movie-impressions/ 301
+/articles/tale-two-sisters-impressions/ /notes/tale-two-sisters-impressions/ 301
+/articles/la-moustache-impressions/ /notes/la-moustache-impressions/ 301
+/articles/ipod-battery-settlement/ /notes/ipod-battery-settlement/ 301
+/articles/feeling-kinda-stuck-half-nelson/ /notes/feeling-kinda-stuck-half-nelson/ 301
 /articles/blend-first-look /mastering-paper/pencil-first-look/ 301
 /articles/contour-drawing /mastering-paper/contour-drawing/ 301
 /articles/drawing-faces-paper-53 /mastering-paper/drawing-blank-faces/ 301
@@ -36,7 +69,6 @@ http://mademistakes.netlify.com/* https://mademistakes.com/:splat 301!
 /code-highlighting-post/ /work/jekyll-themes/ 301
 /drawing-textures /mastering-paper/drawing-textures/ 301
 /hpstr /work/hpstr-jekyll-theme/ 301
-/lifestream/* /articles/ 301
 /mastering-paper/basic /mastering-paper/basics/ 301
 /minimal-mistakes /work/minimal-mistakes-jekyll-theme/ 301
 /paperfaces/lorenzo-raffio-portrait /paperfaces/lorenzo-portrait/ 301
@@ -51,6 +83,7 @@ http://mademistakes.netlify.com/* https://mademistakes.com/:splat 301!
 /works /work/ 301
 /til/ /tag/til/ 301
 /til/* /notes/:splat 301
+/lifestream/* /articles/ 301
 
 # ----------------------------------------------------------------------
 # Sitemap redirects
