@@ -135,7 +135,7 @@ collections:
   work:
     output    : true
     permalink : /:collection/:path/
-    title     : Work
+    title     : Works
   components:
     output    : false
   colors:
@@ -189,7 +189,7 @@ defaults:
       layout: post
       byline: true
       breadcrumbs:
-        - label: "Work"
+        - label: "Works"
           url: /work/
         - label: "PaperFaces portraits"
           url: /paperfaces/
@@ -204,7 +204,7 @@ defaults:
       layout: post
       byline: true
       breadcrumbs:
-        - label: "Work"
+        - label: "Works"
           url: /work/
         - label: "Procreate paintings"
           url: /procreate-paintings/
@@ -219,7 +219,7 @@ defaults:
       layout: post
       byline: true
       breadcrumbs:
-        - label: "Work"
+        - label: "Works"
           url: /work/
         - label: "Tiny paintings"
           url: /tiny-paintings/
@@ -233,7 +233,7 @@ defaults:
     values:
       layout: post
       breadcrumbs:
-        - label: "Work"
+        - label: "Works"
           url: /work/
       seo:
         type: "CreativeWork"
@@ -244,7 +244,7 @@ defaults:
       layout: work
       category: work
       breadcrumbs:
-        - label: "Work"
+        - label: "Works"
           url: /work/
       seo:
         type: "CreativeWork"
