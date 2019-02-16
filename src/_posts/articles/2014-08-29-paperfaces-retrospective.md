@@ -17,7 +17,7 @@ toc: true
 
 *Drawing a day* projects are a lot like resolutions made for the New Year. Often started with the best of intentions, but abandoned shortly after from lack of motivation.
 
-Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
+Two years ago I felt inspired to start the [**PaperFaces Project**]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}) as a way to improve drawing skills that had laid dormant for a decade or so. With an iPad, a stylus, and the [Paper by FiftyThree app](https://fiftythree.com), I set out to draw as many portraits as possible before boring of the idea.
 
 {% figure caption:"What a difference two years made." class:"gallery-2-col" %}
 [![first PaperFaces portrait](/assets/images/paperfaces-veganwendy-twitter-600.jpg)](/assets/images/paperfaces-veganwendy-twitter.jpg)

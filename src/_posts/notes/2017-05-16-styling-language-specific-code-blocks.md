@@ -2,6 +2,8 @@
 title: "Styling language specific code blocks with Jekyll"
 categories: [notes]
 tags: [TIL, web development, Jekyll, Markdown, CSS]
+comments: true
+support: true
 last_modified_at: 2017-05-16T16:24:26-04:00
 ---
 

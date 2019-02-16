@@ -3,6 +3,8 @@ title: "Accessing static files in Jekyll"
 categories: [notes]
 tags: [TIL, web development, Jekyll]
 toc: true
+comments: true
+support: true
 last_modified_at: 2018-11-07T10:40:54-05:00
 ---
 

@@ -11,6 +11,7 @@ image:
 categories: [notes]
 tags: [Jekyll, Gatsby, web development, Netlify]
 comments: true
+support: true
 toc: true
 last_modified_at: 2018-11-12T19:56:57-05:00
 ---

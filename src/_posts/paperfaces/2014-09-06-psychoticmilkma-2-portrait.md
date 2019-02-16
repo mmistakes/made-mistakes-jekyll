@@ -10,6 +10,6 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, bokeh, blend]
 ---
 
-PaperFaces portrait for [@psychoticmilkma](https://twitter.com/psychoticmilkma), a winner from my first [portrait giveaway]({% post_url /articles/2014-08-24-paperfaces-giveaway %}).
+PaperFaces portrait for [@psychoticmilkma](https://twitter.com/psychoticmilkma), a winner from my first [portrait giveaway]({% post_url /notes/2014-08-24-paperfaces-giveaway %}).
 
 {% include_cached boilerplate/paperfaces-4.md %}

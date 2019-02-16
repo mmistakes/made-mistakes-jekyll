@@ -3,6 +3,8 @@ title: "HTML inside Kramdown table cells"
 excerpt: "The question of how to write a list inside of a table cell with Kramdown recently came up on **Jekyll Talk** --- prompting me to look for a solution."
 categories: [notes]
 tags: [TIL, web development, Markdown, Jekyll]
+comments: true
+support: true
 last_modified_at: 2017-09-08T10:33:53-04:00
 ---
 

@@ -13,7 +13,7 @@ image:
   thumbnail: /assets/images/paperfaces-contest-th.jpg
 ---
 
-To celebrate two years of [drawing portraits every day]({% post_url /articles/2012-08-31-paperfaces-ipad-portrait-project %}), I'm launching a fun giveaway leading up to the special day.
+To celebrate two years of [drawing portraits every day]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}), I'm launching a fun giveaway leading up to the special day.
 
 On August 31st I'll select **(3) winners** at random to draw digitally[^disclaimer] on my iPad, using portrait reference photographs of their choice. [Here's a refresher](/paperfaces/) of the type of drawing I will end up doing if you're new to my work.
 

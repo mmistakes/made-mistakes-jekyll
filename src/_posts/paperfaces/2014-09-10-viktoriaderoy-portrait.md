@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]
 ---
 
-PaperFaces portrait of [@ViktoriaDeRoy](https://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from my first [portrait giveaway]({% post_url /articles/2014-08-24-paperfaces-giveaway %}).
+PaperFaces portrait of [@ViktoriaDeRoy](https://twitter.com/ViktoriaDeRoy), winner of a black and white drawing from my first [portrait giveaway]({% post_url /notes/2014-08-24-paperfaces-giveaway %}).
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

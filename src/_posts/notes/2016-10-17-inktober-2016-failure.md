@@ -20,7 +20,6 @@ gallery:
     alt: "Ink wash portrait in process detail"
 categories: [notes]
 tags: [watercolor, painting, drawing, portrait, illustration, Inktober]
-comments: true
 last_modified_at: 2019-02-15T14:08:07-05:00
 ---
 

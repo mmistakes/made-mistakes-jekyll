@@ -2,6 +2,8 @@
 title: "Configuring publishing sources for GitHub Pages"
 categories: [notes]
 tags: [TIL, web development, GitHub, Jekyll]
+comments: true
+support: true
 last_modified_at: 2019-02-15T15:56:02-05:00
 ---
 
