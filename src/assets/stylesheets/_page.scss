@@ -211,6 +211,7 @@
   li {
     font-family: $monospace-font;
     font-size: 0.8em;
+    @include line-height(1);
   }
 
   .title {
