@@ -139,11 +139,11 @@ Finally, the caption parameter will accept liquid output markup:
 Lazyload images using [**lazysizes**](https://github.com/aFarkas/lazysizes) 
 until they're actually needed for improved page performance.
 
-| Attribute  | Required     | Description |
-| ----       | --------     | ----------- |
-| `data-src` | **Required** | Full path to image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. |
+| Attribute  | Required     | Description                                                                                                                                             |
+|------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `data-src` | **Required** | Full path to image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally.                                                    |
 | `src`      | Optional     | Full path to low-quality image eg: `/assets/images/filename.jpg`. Use absolute URLS for those hosted externally. Defaults to inline transparent `.gif`. |
-| `alt`      | Optional     | Image alternate text. |
+| `alt`      | Optional     | Image alternate text.                                                                                                                                   |
 
 **Example:**
 
@@ -385,7 +385,7 @@ gulp.task('assets', gulp.series(
 ));
 ```
 
-Notice the `scripts:vendor` task that has been added. Also be ware that things
+Notice the `scripts:vendor` task that has been added. Also be aware that things
 are injected in alphabetical order, so if you need your vendor scripts before
 the `index.js` file you have to either rename the `index.js` file or rename the
 `vendor.js` file. When you now run `gulp` or `gulp build` it will create a
