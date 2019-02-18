@@ -3,6 +3,8 @@
    ========================================================================== */
 
 .pagination {
+  max-width: 35em;
+
   ul {
     display: flex;
     flex-wrap: wrap;
