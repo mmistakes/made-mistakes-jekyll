@@ -5,7 +5,7 @@ category: notes
 title: &title "Notes"
 alt_title: *title
 modified:
-excerpt: &excerpt "Smaller, more bite sized content. For longer, more indepth writing --- peruse the [articles](/articles) section."
+excerpt: &excerpt "Small, bite sized content I've written. For longer, more thorough writing --- peruse the [articles section](/articles)."
 introduction: *excerpt
 pagination: 
   enabled: true
