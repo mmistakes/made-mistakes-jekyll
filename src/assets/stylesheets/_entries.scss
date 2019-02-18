@@ -45,10 +45,6 @@
 }
 
 .entry__excerpt {
-  p::after {
-    content: ' […]';
-  }
-
   a {
     position: relative;
     z-index: 5;
