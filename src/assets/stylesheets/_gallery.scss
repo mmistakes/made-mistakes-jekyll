@@ -21,10 +21,6 @@
 
 .gallery-item {
   position: relative;
-  // display: flex;
-  // flex-grow: 1;
-  // flex-direction: column;
-  // justify-content: center;
   margin: 8px;
   width: calc(100% / 2 - 16px);
 
@@ -58,24 +54,6 @@
     }
   }
 
-  // figure {
-  //   display: flex;
-  //   align-items: flex-end;
-  //   justify-content: flex-start;
-  //   margin: 0;
-  //   height: 100%;
-
-  //   a {
-  //     display: block;
-  //     width: 100%;
-  //   }
-  // }
-
-  // img {
-  //   flex: 1;
-  //   object-fit: cover;
-  // }
-
   a {
     display: block;
     width: 100%;
@@ -90,60 +68,93 @@
 /* 2 Column Gallery */
 
 .gallery-2-col {
-  @supports(display: grid) {
-    > * {
-      display: block;
+  $col-gap: 0.5em;
+  $width: calc(50% - #{$col-gap});
 
-      @include breakpoint($sm-down) {
-        margin-bottom: 0.5em;
+  @include breakpoint($md-up) {
+    display: flex;
+    flex-wrap: wrap;
+
+    &:after {
+      width: $width;
+    }
+  }
+
+  > * {
+    display: block;
+    margin-bottom: $col-gap;
+
+    @include breakpoint($md-up) {
+      margin-right: $col-gap;
+      width: $width;
+
+      // Remove margin in last column
+      &:nth-of-type(2n) {
+        margin-right: 0;
+      }
+
+      // For when the last row is complete
+      &:nth-of-type(2n-1):nth-last-of-type(2) {
+        margin-bottom: 0;
+      }
+
+      // Creates a fake item that will push against real items in the last row
+      &:after {
+        content: '';
+        display: block;
+        flex: 1 1 auto;
       }
     }
+  }
 
-    @include breakpoint($sm-up) {
-      display: grid;
-      grid-gap: 0.5em;
-      grid-template-columns: 1fr 1fr;
-
-      > * {
-        align-self: stretch;
-        justify-self: center
-      }
-    }
-
-    figcaption {
-      grid-column: 1 / 3;
-      width: 100%;
-    }
+  figcaption {
+    width: 100%;
   }
 }
 
 /* 3 Column Gallery */
 
 .gallery-3-col {
-  @supports(display: grid) {
-    > * {
-      display: block;
+  $col-gap: 0.5em;
+  $width: calc(33% - #{$col-gap});
 
-      @include breakpoint($sm-down) {
-        margin-bottom: 0.5em;
+  @include breakpoint($md-up) {
+    display: flex;
+    flex-wrap: wrap;
+
+    &:after {
+      width: $width;
+    }
+  }
+
+  > * {
+    display: block;
+    margin-bottom: $col-gap;
+
+    @include breakpoint($md-up) {
+      margin-right: $col-gap;
+      width: $width;
+
+      // Remove margin in last column
+      &:nth-of-type(3n) {
+        margin-right: 0;
+      }
+
+      // For when there are two items in the last row
+      &:nth-of-type(3n-2):nth-last-of-type(2) {
+        margin-bottom: 0;
+      }
+
+      // For when the last row is complete
+      &:nth-of-type(3n-1):nth-last-of-type(2)
+      &:nth-of-type(3n-2):nth-last-of-type(3) {
+        margin-bottom: 0;
       }
     }
+  }
 
-    @include breakpoint($sm-up) {
-      display: grid;
-      grid-gap: 0.5em;
-      grid-template-columns: 1fr 1fr 1fr;
-
-      > * {
-        align-self: stretch;
-        justify-self: center
-      }
-    }
-
-    figcaption {
-      width: 100%;
-      grid-column: 1 / 4;
-    }
+  figcaption {
+    width: 100%;
   }
 }
 
