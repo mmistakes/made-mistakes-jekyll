@@ -70,6 +70,7 @@
 .gallery-2-col {
   $col-gap: 0.5em;
   $width: calc(50% - (0.5 * #{$col-gap}));
+  @include margin-bottom(1);
 
   @include breakpoint($md-up) {
     display: flex;
@@ -111,13 +112,18 @@
     width: 100%;
     margin-bottom: 0;
   }
+
+  .browser-frame {
+    margin-bottom: 0;
+  }
 }
 
 /* 3 Column Gallery */
 
 .gallery-3-col {
   $col-gap: 0.5em;
-  $width: calc(33% - (0.5 * #{$col-gap}));
+  $width: calc(33.3333% - (0.75 * #{$col-gap}));
+  @include margin-bottom(1);
 
   @include breakpoint($md-up) {
     display: flex;
@@ -156,6 +162,10 @@
 
   figcaption {
     width: 100%;
+    margin-bottom: 0;
+  }
+
+  .browser-frame {
     margin-bottom: 0;
   }
 }
