@@ -14,7 +14,7 @@
   line-height: 1.25;
 
   @include breakpoint($md-up) {
-    font-size: 1.563em;
+    font-size: ms(2);
   }
 
   a::before {
@@ -30,7 +30,7 @@
 .entry__meta {
   @include margin-bottom(0.5);
   font-family: $monospace-font;
-  font-size: 0.8em;
+  font-size: ms(-1);
   text-transform: uppercase;
 
   *:not(:first-child) {

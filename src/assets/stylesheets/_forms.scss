@@ -17,7 +17,7 @@ label {
   margin-top: 0;
   @include margin-bottom(0.5);
   font-family: $monospace-font;
-  font-size: 0.8em;
+  font-size: ms(-1);
 }
 
 input,
@@ -30,7 +30,7 @@ textarea {
   vertical-align: top;
   overflow: visible;
   font-family: $sans-serif-font;
-  font-size: 1em;
+  font-size: ms(-1);
   background: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 0.25em;

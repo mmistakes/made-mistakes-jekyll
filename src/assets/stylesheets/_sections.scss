@@ -59,7 +59,7 @@
     color: #fff;
     font-family: $alternate-font;
     font-weight: 700;
-    font-size: 1.953em;
+    font-size: ms(3);
     font-variant-ligatures: common-ligatures;
     font-feature-settings: "kern" on, "liga" on, "clig" on, "calt" on;
     line-height: 1.25;
@@ -69,7 +69,7 @@
     }
 
     @include breakpoint ($lg-up) {
-      font-size: 2.441em;
+      font-size: ms(4);
     }
 
     span {
@@ -91,8 +91,7 @@
 
 .section__more {
   @include breakpoint($lg-up) {
-    font-size: 1.125em;
-    line-height: 1.625;
+    font-size: ms(1);
   }
 }
 

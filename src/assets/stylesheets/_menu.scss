@@ -65,7 +65,7 @@
 
 .menu-item {
   font-family: $sans-serif-font;
-  font-size: 1.5em;
+  font-size: ms(2);
   font-weight: 700;
   @include line-height(1.5);
   opacity: 0;
@@ -73,7 +73,7 @@
   transition: all 0.5s;
 
   @include breakpoint($md-up) {
-    font-size: 2em;
+    font-size: ms(4);
     @include line-height(2);
   }
 

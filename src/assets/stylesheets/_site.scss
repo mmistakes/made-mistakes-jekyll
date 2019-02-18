@@ -28,7 +28,7 @@
   height: 25px;
   color: #000;
   font-family: $alternate-font;
-  font-size: 1em;
+  font-size: ms(0);
   font-weight: 700;
   @include line-height(1);
   text-transform: uppercase;
@@ -46,7 +46,7 @@
 .author {
   align-self: flex-start;
   font-family: $monospace-font;
-  font-size: 0.8em;
+  font-size: ms(-1);
 
   @include breakpoint($md-up) {
     @include margin-bottom(1);
@@ -63,7 +63,7 @@
   @include margin-top(4);
   @include margin-bottom(1);
   color: mix(#fff, $text-color, 40%);
-  font-size: 0.8em;
+  font-size: ms(-1);
 
   @include breakpoint($md-up) {
     grid-column: 3 / 8;
@@ -121,7 +121,7 @@
   .copyright {
     @include margin-top(0.25);
     font-family: $monospace-font;
-    font-size: 0.8em;
+    font-size: ms(-1);
 
     p {
       margin-bottom: 0;
@@ -186,7 +186,7 @@
   bottom: 0;
   padding: 0.5em 1em;
   color: #fff;
-  font-size: 0.6em;
+  font-size: ms(-3);
   line-height: 1;
   text-align: right;
   background: rgba(0, 0, 0, 0.7);

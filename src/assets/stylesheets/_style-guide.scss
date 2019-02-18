@@ -22,7 +22,7 @@
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: ms(-1);
     margin-top: 0;
 
     a {
@@ -54,7 +54,7 @@
 
   &:before {
     content: "HTML";
-    font-size: 0.8rem;
+    font-size: ms(-1);
     font-weight: bold;
     position: absolute;
     text-transform: uppercase;
@@ -82,7 +82,7 @@
 .color__name {
   background-color: #e3e3e3;
   color: $text-color;
-  font-size: 0.64rem;
+  font-size: ms(-2);
   margin: 0 2px;
   padding: 0 5px;
   white-space: normal;
