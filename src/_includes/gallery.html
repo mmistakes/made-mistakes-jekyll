@@ -1,6 +1,6 @@
 {% assign gallery = post.gallery | default: page.gallery %}
 {% if gallery %}
-  <ul class="gallery columns-3">
+  <div class="gallery-3-col">
     {% for img in gallery %}
       {% if img.url contains '://' %}
         {% assign url = img.url %}
@@ -9,15 +9,13 @@
       {% endif %}
       {% assign image_lq_path = img.image_lq_path | default: 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' %}
 
-      <li class="gallery-item">
-        {% if img.url %}
-          <a {% if img.class %}class="{{ img.class }}"{% endif %} href="{{ url }}" {% if img.title %}title="{{ img.title }}"{% endif %}>
-            {% lazyload data-src="{{ img.image_path }}" src="{{ image_lq_path }}" alt="{{ img.alt }}" %}
-          </a>
-        {% else %}
+      {% if img.url %}
+        <a {% if img.class %}class="{{ img.class }}"{% endif %} href="{{ url }}" {% if img.title %}title="{{ img.title }}"{% endif %}>
           {% lazyload data-src="{{ img.image_path }}" src="{{ image_lq_path }}" alt="{{ img.alt }}" %}
-        {% endif %}
-      </li>
+        </a>
+      {% else %}
+        {% lazyload data-src="{{ img.image_path }}" src="{{ image_lq_path }}" alt="{{ img.alt }}" %}
+      {% endif %}
     {% endfor %}
-  </ul>
+  </div>
 {% endif %}

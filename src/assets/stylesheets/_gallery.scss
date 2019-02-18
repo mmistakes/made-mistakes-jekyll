@@ -69,7 +69,7 @@
 
 .gallery-2-col {
   $col-gap: 0.5em;
-  $width: calc(50% - #{$col-gap});
+  $width: calc(50% - (0.5 * #{$col-gap}));
 
   @include breakpoint($md-up) {
     display: flex;
@@ -109,6 +109,7 @@
 
   figcaption {
     width: 100%;
+    margin-bottom: 0;
   }
 }
 
@@ -116,7 +117,7 @@
 
 .gallery-3-col {
   $col-gap: 0.5em;
-  $width: calc(33% - #{$col-gap});
+  $width: calc(33% - (0.5 * #{$col-gap}));
 
   @include breakpoint($md-up) {
     display: flex;
@@ -155,6 +156,7 @@
 
   figcaption {
     width: 100%;
+    margin-bottom: 0;
   }
 }
 
