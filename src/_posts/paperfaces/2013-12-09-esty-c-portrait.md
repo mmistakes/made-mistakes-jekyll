@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse]
 ---
 
-PaperFaces portrait of [Esty C.](http://sktchy.com/WfStFC ), inspiration found via Sktchy.
+PaperFaces portrait of [Esty C.](https://sktchy.com/WfStFC), inspiration found via Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

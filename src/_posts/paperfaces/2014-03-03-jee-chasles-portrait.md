@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, black and white, Sktchy, tattoo]
 last_modified_at: 2017-01-17T14:40:05-05:00
 ---
 
-PaperFaces portrait of a [Jee Chasles](http://sktchy.com/qCk1i ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Jee Chasles](https://sktchy.com/qCk1i) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

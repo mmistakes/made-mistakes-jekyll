@@ -12,7 +12,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
-Portrait of Maya Z. inspired by a [photograph on Sktchy](http://sktchy.com/efNbvC ). Digitally painted with Procreate on a 12.9" iPad Pro.
+Portrait of Maya Z. inspired by a [photograph on Sktchy](https://sktchy.com/efNbvC). Digitally painted with Procreate on a 12.9" iPad Pro.
 
 {% figure caption:"Slowly building up tones." class:"gallery-2-col" %}
 [![work in progress screenshot](/assets/images/maya-z-progress-1.jpg)](/assets/images/maya-z-progress-1-lg.jpg)

@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
-PaperFaces portrait of [Wendy Rose](http://sktchy.com/nlpXWH ), inspiration found via Sktchy.
+PaperFaces portrait of [Wendy Rose](https://sktchy.com/nlpXWH), inspiration found via Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

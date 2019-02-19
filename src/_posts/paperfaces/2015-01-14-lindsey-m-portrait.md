@@ -11,7 +11,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, black and white]
 ---
 
-PaperFaces portrait of Lindsey M. inspired by a [photograph on Sktchy](http://sktchy.com/Tnu9X ).
+PaperFaces portrait of Lindsey M. inspired by a [photograph on Sktchy](https://sktchy.com/Tnu9X).
 
 The original illustration is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1726955) if you want to rework it or get a closer look.
 

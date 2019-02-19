@@ -12,7 +12,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, beard, time lapse]
 ---
 
-Portrait of Ale B. inspired by a [photograph on Sktchy](http://sktchy.com/pGkOfH ). Digitally painted with Procreate on a 12.9" iPad Pro.
+Portrait of Ale B. inspired by a [photograph on Sktchy](https://sktchy.com/pGkOfH). Digitally painted with Procreate on a 12.9" iPad Pro.
 
 Two hours and 30 minutes of beard scribbling over the last couple of weeks. Because who has time to relax draw in a single sitting?
 

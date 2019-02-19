@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T15:58:37-05:00
 ---
 
-PaperFaces portrait of [Kim S.](http://sktchy.com/czir6c ) inspired by Sktchy.
+PaperFaces portrait of [Kim S.](https://sktchy.com/czir6c) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

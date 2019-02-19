@@ -13,7 +13,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---
 
-Portrait of María G. inspired by a [photograph on Sktchy](http://sktchy.com/buLgeD ). Digitally painted with Procreate on an iPad Air 2.
+Portrait of María G. inspired by a [photograph on Sktchy](https://sktchy.com/buLgeD). Digitally painted with Procreate on an iPad Air 2.
 
 Recently noticed that **Reflector** no longer worked for mirroring my iOS devices' screens to my iMac because of an iOS 9 incompatibility. Since the upgrade to [**Reflector 2**](http://www.airsquirrels.com/reflector/) was pretty cheap I did that and decided to do a test recording from my iPad.
 

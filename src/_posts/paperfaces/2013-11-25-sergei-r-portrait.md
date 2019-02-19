@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend, Sktchy]
 ---
 
-Trading drawings for drawings. PaperFaces portrait of [Sergei R.](http://sktchy.com/YRsdZH ), inspiration found via Sktchy.
+Trading drawings for drawings. PaperFaces portrait of [Sergei R.](https://sktchy.com/YRsdZH), inspiration found via Sktchy.
 
 {% include_cached boilerplate/paperfaces-3.md %}
 

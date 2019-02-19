@@ -11,7 +11,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse, black and white]
 ---
 
-PaperFaces portrait of Rafi Z. inspired by a [photograph on Sktchy](http://sktchy.com/WsDAeD ).
+PaperFaces portrait of Rafi Z. inspired by a [photograph on Sktchy](https://sktchy.com/WsDAeD).
 
 Another experiment in recording my drawing process using on iPad, recorded with an iPhone 5s and the Lapse It app. Drawing was completed over three sessions totaling 3 hours and 25 minutes.
 

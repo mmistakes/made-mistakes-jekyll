@@ -13,7 +13,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, black and white, Sktchy]
 ---
 
-Portrait of Skylár S. inspired by a [photograph on Sktchy](http://sktchy.com/hvnEKC ). Digitally painted with Procreate on an iPad Air 2.
+Portrait of Skylár S. inspired by a [photograph on Sktchy](https://sktchy.com/hvnEKC). Digitally painted with Procreate on an iPad Air 2.
 
 Please excuse the rough hatching as I was trying to avoid over polishing the face. Maybe some day I'll pick this up again and actually finish it.
 

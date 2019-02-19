@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]
 ---
 
-PaperFaces portrait of Abby B. inspired by a [photograph on Sktchy](http://sktchy.com/yCCAgH ).
+PaperFaces portrait of Abby B. inspired by a [photograph on Sktchy](https://sktchy.com/yCCAgH).
 
 It's been a while since I last drew a faceless portrait, so I decided to go back to my roots with this one.
 

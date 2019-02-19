@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T14:36:56-05:00
 ---
 
-PaperFaces portrait of a [Talia P.](http://sktchy.com/SVXZg ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Talia P.](https://sktchy.com/SVXZg) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T16:16:23-05:00
 ---
 
-PaperFaces portrait of [Olesya L.](http://sktchy.com/REiCy ) inspired by Sktchy.
+PaperFaces portrait of [Olesya L.](https://sktchy.com/REiCy) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

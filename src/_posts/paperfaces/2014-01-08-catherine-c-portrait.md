@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
-PaperFaces portrait commission of [Catherine C.](http://sktchy.com/4het8 )
+PaperFaces portrait commission of [Catherine C.](https://sktchy.com/4het8)
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

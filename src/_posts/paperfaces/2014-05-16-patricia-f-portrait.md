@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 last_modified_at: 2017-01-17T12:54:04-05:00
 ---
 
-PaperFaces portrait of a [Patricia F.](http://sktchy.com/hLo0C ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Patricia F.](https://sktchy.com/hLo0C) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

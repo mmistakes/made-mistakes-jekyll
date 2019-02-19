@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
-Trading drawings for drawings. PaperFaces portrait of [Christianna P.](http://sktchy.com/wkGeKD ), inspiration found via Sktchy.
+Trading drawings for drawings. PaperFaces portrait of [Christianna P.](https://sktchy.com/wkGeKD), inspiration found via Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

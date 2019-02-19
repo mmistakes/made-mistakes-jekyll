@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T12:44:46-05:00
 ---
 
-PaperFaces portrait of a [Kitty Shea](http://sktchy.com/IgayeD ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Kitty Shea](https://sktchy.com/IgayeD) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

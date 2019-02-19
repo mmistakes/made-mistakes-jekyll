@@ -13,7 +13,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---
 
-Portrait of Morgan F. inspired by a [photograph on Sktchy](http://sktchy.com/rK7LX ). Digitally painted with Procreate on an iPad Air 2.
+Portrait of Morgan F. inspired by a [photograph on Sktchy](https://sktchy.com/rK7LX). Digitally painted with Procreate on an iPad Air 2.
 
 ![Procreate glazing brush](/assets/images/procreate-glazing-brush.jpg){: .align-right}
 

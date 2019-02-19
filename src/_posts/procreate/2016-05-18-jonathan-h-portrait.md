@@ -13,7 +13,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]
 ---
 
-Portrait of Jonathan H. inspired by a [photograph on Sktchy](http://sktchy.com/4cnY0H ). Digitally painted with Procreate on an iPad Air 2.
+Portrait of Jonathan H. inspired by a [photograph on Sktchy](https://sktchy.com/4cnY0H). Digitally painted with Procreate on an iPad Air 2.
 
 The more I've been using this [**Adonit Ink**](http://www.amazon.com/Adobe-Creative-Connected-Precision-Stylus/dp/B00LNECVN6/ref=as_li_ss_tl?ie=UTF8&qid=1461688574&sr=8-1&keywords=adobe+ink&linkCode=ll1&tag=mademist-20&linkId=85c30649adf50e2ff0b9c753f6dfe2c9) stylus the more I want an Apple Pencil. 
 

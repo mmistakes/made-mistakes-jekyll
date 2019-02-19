@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
-Return of the blank. PaperFaces portrait of [Bird O.](http://sktchy.com/JPzbGH ) inspired on Sktchy.
+Return of the blank. PaperFaces portrait of [Bird O.](https://sktchy.com/JPzbGH) inspired on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
-PaperFaces portrait of Sktchy user [Dani O](http://sktchy.com/BVa6DC ).
+PaperFaces portrait of Sktchy user [Dani O](https://sktchy.com/BVa6DC).
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

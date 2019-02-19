@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
-PaperFaces portrait of a [Bethany G.](http://sktchy.com/LWJNV ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Bethany G.](https://sktchy.com/LWJNV) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

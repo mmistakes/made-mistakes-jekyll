@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, beard, Mix]
 ---
 
-PaperFaces portrait of Remi L. inspired by a [photograph on Sktchy](http://sktchy.com/wIZBLC ).
+PaperFaces portrait of Remi L. inspired by a [photograph on Sktchy](https://sktchy.com/wIZBLC).
 
 I started this drawing on a 3rd generation iPad with retina screen and finished it on the new iPad Air 2. The Air 2 feels so much more comfortable during long drawing sessions compared to the heavy brick that was the iPad 3.
 

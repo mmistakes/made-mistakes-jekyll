@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T16:11:01-05:00
 ---
 
-A draw for a draw. PaperFaces portrait of [Kirsten B.](http://sktchy.com/WAPmzC ) inspired by Sktchy.
+A draw for a draw. PaperFaces portrait of [Kirsten B.](https://sktchy.com/WAPmzC) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

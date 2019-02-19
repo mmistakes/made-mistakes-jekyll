@@ -11,7 +11,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse]
 ---
 
-PaperFaces portrait of Ally Cat inspired by a [photograph on Sktchy](http://sktchy.com/VxlSm ).
+PaperFaces portrait of Ally Cat inspired by a [photograph on Sktchy](https://sktchy.com/VxlSm).
 
 I tend to work in landscape mode with Paper by FiftyThree because the tools and interface appear to be more optimized for it. Since the tool tray is always situated in the same location regardless of how you hold the iPad, it can sometimes get in your way or be tricky to hide/reveal. But that's a tale for another day...
 

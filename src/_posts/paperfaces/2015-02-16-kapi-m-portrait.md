@@ -11,7 +11,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, eye, blend]
 ---
 
-PaperFaces portrait of Kapi M. inspired by a [photograph on Sktchy](http://sktchy.com/udfGaD ).
+PaperFaces portrait of Kapi M. inspired by a [photograph on Sktchy](https://sktchy.com/udfGaD).
 
 Now that I've removed the sense of urgency I previously felt when working on portraits, I find myself having more time to fill Paper's digital canvas. With this drawing I set my sights on an eye... har har get it?
 

@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T16:08:41-05:00
 ---
 
-PaperFaces portrait of [Laryssa W.](http://sktchy.com/rHtydc ) inspired by Sktchy.
+PaperFaces portrait of [Laryssa W.](https://sktchy.com/rHtydc) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

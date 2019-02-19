@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, blend, bokeh]
 ---
 
-Edge lighting is my favorite kind of lighting to draw. PaperFaces portrait of [Kayla E.](http://sktchy.com/fHCi1D ) inspired by Sktchy.
+Edge lighting is my favorite kind of lighting to draw. PaperFaces portrait of [Kayla E.](https://sktchy.com/fHCi1D) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-4.md %}
 

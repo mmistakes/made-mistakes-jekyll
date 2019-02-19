@@ -13,7 +13,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]
 ---
 
-Portrait of Mr. Allan inspired by a [photograph on Sktchy](http://sktchy.com/OgixZC ). Digitally painted with Procreate on an iPad Air 2. 
+Portrait of Mr. Allan inspired by a [photograph on Sktchy](https://sktchy.com/OgixZC). Digitally painted with Procreate on an iPad Air 2. 
 
 After promising myself I'd someday return to [**Procreate**](http://procreate.si/), it was the [announcement of the iPad Pro]({% post_url /articles/2015-09-25-ipad-pro %}) and Apple designed Pencil that got me back in the game. 
 

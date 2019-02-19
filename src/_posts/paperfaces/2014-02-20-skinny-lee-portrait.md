@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, blend]
 last_modified_at: 2017-01-17T14:49:35-05:00
 ---
 
-PaperFaces portrait of [Skinny Lee](http://sktchy.com/MfNOoH ) inspired by Sktchy.
+PaperFaces portrait of [Skinny Lee](https://sktchy.com/MfNOoH) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-4.md %}
 

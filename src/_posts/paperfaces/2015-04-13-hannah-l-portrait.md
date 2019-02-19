@@ -11,7 +11,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse]
 ---
 
-PaperFaces portrait of Hannah L. inspired by a [photograph on Sktchy](http://sktchy.com/7gqmFc ).
+PaperFaces portrait of Hannah L. inspired by a [photograph on Sktchy](https://sktchy.com/7gqmFc).
 
 Decided to give live streaming a try when I set out to draw this portrait. Wow, what a disaster of an idea that was.
 

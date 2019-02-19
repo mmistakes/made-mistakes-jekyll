@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, bokeh, Sktchy]
 ---
 
-PaperFaces portrait of a [Rose L.](http://sktchy.com/Bf0pYC ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Rose L.](https://sktchy.com/Bf0pYC) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

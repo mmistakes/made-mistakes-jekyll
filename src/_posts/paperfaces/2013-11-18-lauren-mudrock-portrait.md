@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
-Decided to try out [Sktchy](http://www.sktchy.com/) by returning the favor of an artist who drew my portrait on it. It's a shame this app didn't exist before I started my project --- I might actually use it more for inspiration. PaperFaces portrait of Lauren Mudrock.
+Decided to try out [Sktchy](https://get.sktchy.com/) by returning the favor of an artist who drew my portrait on it. It's a shame this app didn't exist before I started my project --- I might actually use it more for inspiration. PaperFaces portrait of Lauren Mudrock.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

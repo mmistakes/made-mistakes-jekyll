@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
-PaperFaces portrait of [Effy E.](http://sktchy.com/FH2qnD ), inspiration found via Sktchy.
+PaperFaces portrait of [Effy E.](https://sktchy.com/FH2qnD), inspiration found via Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

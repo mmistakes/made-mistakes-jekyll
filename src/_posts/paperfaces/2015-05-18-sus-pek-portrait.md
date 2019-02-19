@@ -11,7 +11,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard, Sktchy, Mix]
 ---
 
-PaperFaces portrait of Sus Pek inspired by a [photograph on Sktchy](http://sktchy.com/ucx5rc ).
+PaperFaces portrait of Sus Pek inspired by a [photograph on Sktchy](https://sktchy.com/ucx5rc).
 
 I'm a sucker for dramatic lit faces and have more queued up than I have time to draw. This one in particular stuck out to me while listening to **Xasthur** on repeat. The skull like visage and grit found in the original image didn't hurt either... 
 

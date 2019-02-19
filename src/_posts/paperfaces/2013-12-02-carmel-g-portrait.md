@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend, Sktchy]
 ---
 
-PaperFaces portrait of [Carmel G.](http://sktchy.com/uViYnH ).
+PaperFaces portrait of [Carmel G.](https://sktchy.com/uViYnH).
 
 {% include_cached boilerplate/paperfaces-3.md %}
 

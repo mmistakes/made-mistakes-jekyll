@@ -13,7 +13,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]
 ---
 
-Portrait of Jj Plix inspired by a [photograph on Sktchy](http://sktchy.com/BXA9OC ). Digitally painted with Procreate on an iPad Air 2. 
+Portrait of Jj Plix inspired by a [photograph on Sktchy](https://sktchy.com/BXA9OC). Digitally painted with Procreate on an iPad Air 2. 
 
 Now we're getting somewhere. Half finished is the new finished.
 

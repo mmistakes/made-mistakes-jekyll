@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T14:08:08-05:00
 ---
 
-PaperFaces portrait of a [Pao T.](http://sktchy.com/LWk59H ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Pao T.](https://sktchy.com/LWk59H) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

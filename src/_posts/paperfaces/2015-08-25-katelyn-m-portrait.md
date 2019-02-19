@@ -21,7 +21,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, bokeh, Mi
 last_modified_at: 2016-10-10T14:56:57-04:00
 ---
 
-PaperFaces portrait of Katelyn M. inspired by a [photograph on Sktchy](http://sktchy.com/0STT5 ).
+PaperFaces portrait of Katelyn M. inspired by a [photograph on Sktchy](https://sktchy.com/0STT5).
 
 Once again... [depth of field tricks](https://mix.fiftythree.com/11098-Michael-Rose/4593845) with a few quick swipes of the finger.
 

@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, tattoo]
 last_modified_at: 2017-01-17T16:18:00-05:00
 ---
 
-PaperFaces portrait of [Allyson B.](http://sktchy.com/NogM0C ) inspired by Sktchy.
+PaperFaces portrait of [Allyson B.](https://sktchy.com/NogM0C) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

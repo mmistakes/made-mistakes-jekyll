@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T16:14:01-05:00
 ---
 
-Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFaces portrait of [Mia Di D.](http://sktchy.com/BBBOaH ) inspired by Sktchy.
+Cooler tones for the eyeshadow and a hint of pink to warm up the cheeks. PaperFaces portrait of [Mia Di D.](https://sktchy.com/BBBOaH) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

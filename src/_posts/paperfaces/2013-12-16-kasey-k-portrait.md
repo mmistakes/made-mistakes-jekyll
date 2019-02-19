@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
-PaperFaces portrait of [Kasey K](http://sktchy.com/mKWI5D ).
+PaperFaces portrait of [Kasey K](https://sktchy.com/mKWI5D).
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

@@ -12,7 +12,7 @@ categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]
 ---
 
-Portrait of Marie M. inspired by a [photograph on Sktchy](http://sktchy.com/FVAa3D ). Digitally painted with Procreate on a 12.9" iPad Pro.
+Portrait of Marie M. inspired by a [photograph on Sktchy](https://sktchy.com/FVAa3D). Digitally painted with Procreate on a 12.9" iPad Pro.
 
 Approximately 6 hours of work spread across a couple of weeks.
 

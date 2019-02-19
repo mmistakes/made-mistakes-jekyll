@@ -9,7 +9,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
-PaperFaces portrait of [Danielle M.](http://sktchy.com/rhvANH ) inspired on Sktchy.
+PaperFaces portrait of [Danielle M.](https://sktchy.com/rhvANH) inspired on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

@@ -11,7 +11,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]
 ---
 
-PaperFaces portrait of Vanessa S. inspired by a [photograph on Sktchy](http://sktchy.com/NjZR3H ).
+PaperFaces portrait of Vanessa S. inspired by a [photograph on Sktchy](https://sktchy.com/NjZR3H).
 
 The original illustration in various stages is [available on Mix](https://mix.fiftythree.com/11098-Michael-Rose/1265535) if you want to rework it or get a closer look.
 

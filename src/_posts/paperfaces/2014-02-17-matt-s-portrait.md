@@ -11,7 +11,7 @@ tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 last_modified_at: 2017-01-17T14:51:50-05:00
 ---
 
-PaperFaces portrait of [Matt S.](http://sktchy.com/4SI2jH ) inspired by Sktchy.
+PaperFaces portrait of [Matt S.](https://sktchy.com/4SI2jH) inspired by Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 

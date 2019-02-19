@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]
 ---
 
-PaperFaces portrait of Danya W. inspired by a [photograph on Sktchy](http://sktchy.com/NjZR3H ).
+PaperFaces portrait of Danya W. inspired by a [photograph on Sktchy](https://sktchy.com/NjZR3H).
 
 Lately I've been drawn to images of figures partially obscured by shadow. I find it easier to work them into a composition that covers the entirety of Paper's digital canvas.
 

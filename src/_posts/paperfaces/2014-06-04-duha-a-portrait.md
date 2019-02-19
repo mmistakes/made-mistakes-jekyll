@@ -10,7 +10,7 @@ categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
-PaperFaces portrait of a [Duha A.](http://sktchy.com/tER3uD ) inspired by a photograph on Sktchy.
+PaperFaces portrait of a [Duha A.](https://sktchy.com/tER3uD) inspired by a photograph on Sktchy.
 
 {% include_cached boilerplate/paperfaces-2.md %}
 
