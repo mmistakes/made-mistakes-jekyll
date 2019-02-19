@@ -17,5 +17,6 @@
     "typescript",
     "typescriptreact",
     "yml"
-  ]
+  ],
+  "search.usePCRE2": true
 }
