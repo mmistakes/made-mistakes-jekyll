@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Mia Di D. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mia-di.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mia-di-teaser.jpg
   thumbnail: /assets/images/paperfaces-mia-di-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

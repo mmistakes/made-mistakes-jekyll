@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @carreteronacho drawn with Paper for iOS on an 
 image: 
   path: &image /assets/images/paperfaces-carreteronacho-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-carreteronacho-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-carreteronacho-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @rkrismcneely drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-rkrismcneely-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rkrismcneely-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-rkrismcneely-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, 8-bit]

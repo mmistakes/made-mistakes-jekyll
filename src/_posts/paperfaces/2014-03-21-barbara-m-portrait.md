@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Barbara M. drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-barbara-m.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-barbara-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-barbara-m-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

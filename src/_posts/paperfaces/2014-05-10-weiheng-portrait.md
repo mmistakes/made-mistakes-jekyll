@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @WeiHeng_ drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-weiheng-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-weiheng-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-weiheng-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Lorenzo drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lorenzo.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-lorenzo-teaser.jpg
   thumbnail: /assets/images/paperfaces-lorenzo-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

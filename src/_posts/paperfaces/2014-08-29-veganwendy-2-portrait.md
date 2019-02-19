@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of my wife revisited after two years of drawing wi
 image: 
   path: &image /assets/images/paperfaces-veganwendy-2-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-veganwendy-2-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-veganwendy-2-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

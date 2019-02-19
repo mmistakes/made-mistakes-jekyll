@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @Glitchpoke drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-glitchpoke-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-glitchpoke-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-glitchpoke-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, 8-bit]

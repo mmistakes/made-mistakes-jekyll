@@ -7,7 +7,6 @@ image:
   width: 3000
   height: 4500
   feature: *image
-  teaser: /assets/images/madison-s-procreate-teaser.jpg
   thumbnail: /assets/images/madison-s-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]

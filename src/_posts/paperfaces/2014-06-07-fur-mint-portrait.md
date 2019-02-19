@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Fur Mint drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-fur-mint.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-fur-mint-teaser.jpg
   thumbnail: /assets/images/paperfaces-fur-mint-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

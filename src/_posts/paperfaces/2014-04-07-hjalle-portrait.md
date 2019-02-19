@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @hjalle drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-hjalle-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-hjalle-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-hjalle-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend]

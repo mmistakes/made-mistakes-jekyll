@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @bingopajamas drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-bingopajamas-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-bingopajamas-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-bingopajamas-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

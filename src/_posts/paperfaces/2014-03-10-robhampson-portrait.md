@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @robhampson drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-robhampson-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-robhampson-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-robhampson-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

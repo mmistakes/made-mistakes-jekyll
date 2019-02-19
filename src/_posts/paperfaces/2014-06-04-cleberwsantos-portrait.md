@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @cleberwsantos drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-cleberwsantos-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-cleberwsantos-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cleberwsantos-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

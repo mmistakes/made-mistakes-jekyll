@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @harvydanger drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-harvydanger-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-harvydanger-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-harvydanger-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

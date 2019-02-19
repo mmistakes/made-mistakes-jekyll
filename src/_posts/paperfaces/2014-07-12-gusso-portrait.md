@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @gusso drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-gusso-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-gusso-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-gusso-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 2400
   feature: *image
-  teaser: /assets/images/molly-m-procreate-teaser.jpg
   thumbnail: /assets/images/molly-m-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]

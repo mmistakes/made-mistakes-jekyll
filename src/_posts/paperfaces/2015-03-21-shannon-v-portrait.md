@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-shannon-v.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-shannon-v-teaser.jpg
   thumbnail: /assets/images/paperfaces-shannon-v-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]

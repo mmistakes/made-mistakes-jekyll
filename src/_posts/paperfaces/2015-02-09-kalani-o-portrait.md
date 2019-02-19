@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-kalani-o.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-kalani-o-teaser.jpg
   thumbnail: /assets/images/paperfaces-kalani-o-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, black and white]

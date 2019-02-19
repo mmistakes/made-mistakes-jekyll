@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Chewbacca and Princess Leia drawn with Paper fo
 image: 
   path: &image /assets/images/paperfaces-chewbacca-leia-boob.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-chewbacca-leia-boob-teaser.jpg
   thumbnail: /assets/images/paperfaces-chewbacca-leia-boob-150.jpg
 categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper for iOS]

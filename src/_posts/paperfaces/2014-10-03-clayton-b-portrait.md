@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait commission of Clayton B. drawn with Paper for iOS 
 image: 
   path: &image /assets/images/paperfaces-clayton-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-clayton-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-clayton-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Mix]

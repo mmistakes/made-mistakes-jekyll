@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @kylesethgray drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-kylesethgray-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-kylesethgray-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-kylesethgray-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @jackmcdade drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-jackmcdade-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jackmcdade-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jackmcdade-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, bokeh]

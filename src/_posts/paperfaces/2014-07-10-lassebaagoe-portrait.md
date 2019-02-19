@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @lassebaagoe drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-lassebaagoe-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-lassebaagoe-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-lassebaagoe-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

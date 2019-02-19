@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Mandy B. drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-mandy-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mandy-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-mandy-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Sktchy]

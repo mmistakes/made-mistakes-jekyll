@@ -5,7 +5,6 @@ last_modified_at: 2017-09-07T16:16:56-04:00
 image: 
   path: &image /assets/images/paperfaces-joker.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-joker-teaser.jpg
   thumbnail: /assets/images/paperfaces-joker-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Batman, Mix]

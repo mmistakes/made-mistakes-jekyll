@@ -5,7 +5,6 @@ last_modified_at: 2016-10-10T15:13:08-04:00
 image: 
   path: &image /assets/images/paperfaces-neon-l.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-neon-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-neon-l-150.jpg
 gallery:
   - url: /assets/images/paperfaces-neon-l-process-1-lg.jpg

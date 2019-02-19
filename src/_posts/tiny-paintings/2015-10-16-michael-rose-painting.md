@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 915
   feature: *image
-  teaser: /assets/images/painting-michael-rose-teaser.jpg
   thumbnail: /assets/images/painting-michael-rose-250.jpg
 gallery:
   - url: /assets/images/painting-michael-rose-process-1-lg.jpg

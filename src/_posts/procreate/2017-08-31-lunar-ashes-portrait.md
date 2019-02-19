@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 2133
   feature: *image
-  teaser:
   thumbnail: /assets/images/lunar-ashes-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, black and white, time lapse]

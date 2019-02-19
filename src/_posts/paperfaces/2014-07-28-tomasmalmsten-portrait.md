@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @tomasmalmsten drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-tomasmalmsten-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-tomasmalmsten-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-tomasmalmsten-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

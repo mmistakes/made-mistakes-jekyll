@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @T_Lawson drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-t-lawson-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-t-lawson-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-t-lawson-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, beard]

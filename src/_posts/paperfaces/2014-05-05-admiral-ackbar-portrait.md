@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait Admiral Ackbar drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-admiral-ackbar.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-admiral-ackbar-teaser.jpg
   thumbnail: /assets/images/paperfaces-admiral-ackbar-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Wars, blend]

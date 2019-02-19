@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @adolvsson drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-adolvsson-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-adolvsson-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-adolvsson-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, beard]

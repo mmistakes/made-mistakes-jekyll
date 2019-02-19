@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @shesSoph drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-shessoph-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-shessoph-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-shessoph-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

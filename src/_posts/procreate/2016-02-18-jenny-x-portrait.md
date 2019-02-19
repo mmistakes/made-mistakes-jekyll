@@ -7,7 +7,6 @@ image:
   width: 1800
   height: 2400
   feature: *image
-  teaser: /assets/images/jenny-x-procreate-teaser.jpg
   thumbnail: /assets/images/jenny-x-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]

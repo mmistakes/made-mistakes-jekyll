@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @dudrenov drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-dudrenov-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-dudrenov-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-dudrenov-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

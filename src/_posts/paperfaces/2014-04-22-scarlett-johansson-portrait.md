@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Scarlett Johansson drawn with Paper for iOS on 
 image: 
   path: &image /assets/images/paperfaces-scarlett-johansson.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-scarlett-johansson-teaser.jpg
   thumbnail: /assets/images/paperfaces-scarlett-johansson-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend]

@@ -7,7 +7,6 @@ image:
   width: 2048
   height: 3072
   feature: *image
-  teaser: /assets/images/skylar-s-procreate-teaser.jpg
   thumbnail: /assets/images/skylar-s-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, black and white, Sktchy]

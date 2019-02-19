@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @craiginwales drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-craiginwales-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-craiginwales-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-craiginwales-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

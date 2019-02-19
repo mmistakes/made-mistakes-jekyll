@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-rachel-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rachel-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-rachel-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]

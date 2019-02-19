@@ -5,7 +5,6 @@ image:
   path: &image /assets/images/paperfaces-kitty-shea.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-kitty-shea-150.jpg
-  teaser: /assets/images/paperfaces-kitty-shea-teaser.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2017-01-17T12:44:46-05:00

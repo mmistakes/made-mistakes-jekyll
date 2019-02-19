@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Efox Angel drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-efox-angel.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-efox-angel-teaser.jpg
   thumbnail: /assets/images/paperfaces-efox-angel-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

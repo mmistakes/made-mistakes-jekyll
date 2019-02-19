@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @JakeMoore drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-jakemoore-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jakemoore-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jakemoore-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, bokeh]

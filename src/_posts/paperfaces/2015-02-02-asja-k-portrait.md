@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Asja K. drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-asja-k.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-asja-k-teaser.jpg
   thumbnail: /assets/images/paperfaces-asja-k-150.jpg
 gallery:
   - url: https://mix.fiftythree.com/11098-Michael-Rose/1887226

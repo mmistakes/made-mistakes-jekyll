@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Katelyn M. drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-katelyn-m.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-katelyn-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-katelyn-m-150.jpg
 gallery:
   - url: /assets/images/paperfaces-katelyn-m-process-1-lg.jpg

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @ifleiv drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ifleiv-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-ifleiv-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-ifleiv-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

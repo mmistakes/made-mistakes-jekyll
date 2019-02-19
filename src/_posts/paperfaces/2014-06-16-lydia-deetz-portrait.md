@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Lydia Deetz drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-lydia-deetz.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-lydia-deetz-teaser.jpg
   thumbnail: /assets/images/paperfaces-lydia-deetz-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, blend]

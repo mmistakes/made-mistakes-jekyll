@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-rosebuds-blur.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rosebuds-blur-teaser.jpg
   thumbnail: /assets/images/paperfaces-rosebuds-blur-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, twins, Mix, time lapse, black and white, blend, bokeh]

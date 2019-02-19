@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 2133
   feature: *image
-  teaser: /assets/images/mahalia-h-procreate-teaser.jpg
   thumbnail: /assets/images/mahalia-h-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]

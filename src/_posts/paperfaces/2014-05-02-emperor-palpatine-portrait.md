@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait Emperor Palpatine drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-emperor-palpatine.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-emperor-palpatine-teaser.jpg
   thumbnail: /assets/images/paperfaces-emperor-palpatine-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Wars, blend]

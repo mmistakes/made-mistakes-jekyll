@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Mr. Spock and Captain Kirk drawn with Paper for
 image: 
   path: &image /assets/images/paperfaces-spock-kirk-star-trek.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-spock-kirk-star-trek-teaser.jpg
   thumbnail: /assets/images/paperfaces-spock-kirk-star-trek-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Trek]

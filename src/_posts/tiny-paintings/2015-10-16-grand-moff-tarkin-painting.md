@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 943
   feature: *image
-  teaser: /assets/images/painting-grand-moff-tarkin-teaser.jpg
   thumbnail: /assets/images/painting-grand-moff-tarkin-250.jpg
 gallery:
   - url: /assets/images/painting-grand-moff-tarkin-process-1-lg.jpg

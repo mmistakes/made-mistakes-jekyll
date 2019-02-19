@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @mikeredmer drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-mikeredmer-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mikeredmer-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mikeredmer-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Google Glass]

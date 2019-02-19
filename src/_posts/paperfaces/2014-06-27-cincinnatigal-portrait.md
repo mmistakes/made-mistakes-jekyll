@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @CincinnatiGal drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-cincinnatigal-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-cincinnatigal-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cincinnatigal-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-rafi-z.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rafi-z-teaser.jpg
   thumbnail: /assets/images/paperfaces-rafi-z-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse, black and white]

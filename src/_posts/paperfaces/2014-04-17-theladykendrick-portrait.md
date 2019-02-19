@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @TheLadyKendrick drawn with Paper for iOS on an
 image: 
   path: &image /assets/images/paperfaces-theladykendrick-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-theladykendrick-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-theladykendrick-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

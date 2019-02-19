@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 1200
   feature: *image
-  teaser: /assets/images/rakso-s-procreate-teaser.jpg
   thumbnail: /assets/images/rakso-s-procreate-250.jpg
 gallery:
   - url: /assets/images/rakso-s-process-1-lg.jpg

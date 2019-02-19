@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Matteo Flora drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-matteo-flora.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-matteo-flora-teaser.jpg
   thumbnail: /assets/images/paperfaces-matteo-flora-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

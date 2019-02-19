@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Maryoma B. drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-maryoma-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-maryoma-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-maryoma-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

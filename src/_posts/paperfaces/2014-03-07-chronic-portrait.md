@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @chronic drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-chronic-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-chronic-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-chronic-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

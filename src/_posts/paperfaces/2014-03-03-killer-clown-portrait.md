@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a killer clown drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-killer-clown.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-killer-clown-teaser.jpg
   thumbnail: /assets/images/paperfaces-killer-clown-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Sktchy]

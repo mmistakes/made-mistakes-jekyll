@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Christina U. drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-christina-u.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-christina-u-teaser.jpg
   thumbnail: /assets/images/paperfaces-christina-u-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

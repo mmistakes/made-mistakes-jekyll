@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @riddl drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-riddl-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-riddl-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-riddl-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -5,7 +5,6 @@ last_modified_at: 2016-10-10T15:18:53-04:00
 image: 
   path: &image /assets/images/paperfaces-becca-pj.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-becca-pj-teaser.jpg
   thumbnail: /assets/images/paperfaces-becca-pj-150.jpg
 gallery:
   - url: /assets/images/paperfaces-becca-pj-process-1-lg.jpg

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of my daughter Everly drawn with Paper for iOS on 
 image: 
   path: &image /assets/images/paperfaces-everly-autumn.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-everly-autumn-teaser.jpg
   thumbnail: /assets/images/paperfaces-everly-autumn-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend, black and white, bokeh, twins]

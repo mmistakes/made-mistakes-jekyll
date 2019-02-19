@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Andrew E. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-andrew-eick-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-andrew-eick-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-andrew-eick-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

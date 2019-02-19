@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @tyrol_mr drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-tyrol-mr-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-tyrol-mr-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-tyrol-mr-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

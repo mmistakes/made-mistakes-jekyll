@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait for giveaway winner Jason C. drawn with Paper for 
 image: 
   path: &image /assets/images/paperfaces-psychoticmilkma-2.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-psychoticmilkma-2-teaser.jpg
   thumbnail: /assets/images/paperfaces-psychoticmilkma-2-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, bokeh, blend]

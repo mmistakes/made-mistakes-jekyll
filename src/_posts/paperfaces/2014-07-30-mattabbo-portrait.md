@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @MattAbbo drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mattabbo-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mattabbo-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mattabbo-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

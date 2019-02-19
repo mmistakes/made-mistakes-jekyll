@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Tabbitha S. drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-tabbitha-s.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-tabbitha-s-teaser.jpg
   thumbnail: /assets/images/paperfaces-tabbitha-s-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

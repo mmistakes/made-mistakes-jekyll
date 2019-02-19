@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait Lando Calrissian drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-lando-calrissian.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-lando-calrissian-teaser.jpg
   thumbnail: /assets/images/paperfaces-lando-calrissian-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Wars]

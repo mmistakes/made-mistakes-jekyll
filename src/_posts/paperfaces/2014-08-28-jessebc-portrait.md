@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @jessebc drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jessebc-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jessebc-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jessebc-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard, black and white, blend]

@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-hannah-l.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-hannah-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-hannah-l-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse]

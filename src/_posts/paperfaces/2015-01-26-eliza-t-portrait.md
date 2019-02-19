@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-eliza-t.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-eliza-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-eliza-t-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Sktchy, Mix]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Lisset M. drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-lisset-m.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-lisset-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-lisset-m-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]

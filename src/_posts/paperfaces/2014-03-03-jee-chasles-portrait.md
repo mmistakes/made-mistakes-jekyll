@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Jee Chasles drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-jee-chasles.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jee-chasles-teaser.jpg
   thumbnail: /assets/images/paperfaces-jee-chasles-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Sktchy, tattoo]

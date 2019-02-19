@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @BZHgeek drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bzhgeek-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-bzhgeek-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-bzhgeek-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

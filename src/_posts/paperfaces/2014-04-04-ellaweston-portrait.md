@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @ellaweston drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-ellaweston-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-ellaweston-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-ellaweston-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

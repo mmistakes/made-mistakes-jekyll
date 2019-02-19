@@ -7,7 +7,6 @@ image:
   width: 1536
   height: 1938
   feature: *image
-  teaser: /assets/images/jordan-s-procreate-teaser.jpg
   thumbnail: /assets/images/jordan-s-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]

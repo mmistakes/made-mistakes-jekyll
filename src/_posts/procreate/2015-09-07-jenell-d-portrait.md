@@ -7,7 +7,6 @@ image:
   width: 1536
   height: 2048
   feature: *image
-  teaser: /assets/images/jenell-d-procreate-teaser.jpg
   thumbnail: /assets/images/jenell-d-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy, black and white]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Ero Brat drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-ero-brat.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-ero-brat-teaser.jpg
   thumbnail: /assets/images/paperfaces-ero-brat-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Sktchy]

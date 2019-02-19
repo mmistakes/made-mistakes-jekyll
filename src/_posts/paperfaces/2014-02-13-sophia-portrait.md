@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Sophia drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-sophia.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-sophia-teaser.jpg
   thumbnail: /assets/images/paperfaces-sophia-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

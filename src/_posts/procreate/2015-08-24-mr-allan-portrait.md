@@ -7,7 +7,6 @@ image:
   width: 2048
   height: 1536
   feature: *image
-  teaser: /assets/images/mr-allan-procreate-teaser.jpg
   thumbnail: /assets/images/mr-allan-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, Sktchy]

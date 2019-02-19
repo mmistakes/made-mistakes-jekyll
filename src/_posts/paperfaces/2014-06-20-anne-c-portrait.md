@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Anne C. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-anne-c.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-anne-c-teaser.jpg
   thumbnail: /assets/images/paperfaces-anne-c-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, Sktchy]

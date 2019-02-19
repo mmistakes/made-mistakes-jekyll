@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Marcus drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-marcus.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-marcus-teaser.jpg
   thumbnail: /assets/images/paperfaces-marcus-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

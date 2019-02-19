@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @Fridorr drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-fridorr-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-fridorr-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-fridorr-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

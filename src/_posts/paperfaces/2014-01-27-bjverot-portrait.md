@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @BJVerot drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-bjverot-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-bjverot-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-bjverot-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

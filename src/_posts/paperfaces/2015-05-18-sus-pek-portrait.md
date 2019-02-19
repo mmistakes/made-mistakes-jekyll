@@ -5,7 +5,6 @@ last_modified_at: 2015-05-18T11:33:26-05:00
 image: 
   path: &image /assets/images/paperfaces-sus-pek.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-sus-pek-teaser.jpg
   thumbnail: /assets/images/paperfaces-sus-pek-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard, Sktchy, Mix]

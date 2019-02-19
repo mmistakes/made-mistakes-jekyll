@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Abby B. drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-abby-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-abby-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-abby-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]

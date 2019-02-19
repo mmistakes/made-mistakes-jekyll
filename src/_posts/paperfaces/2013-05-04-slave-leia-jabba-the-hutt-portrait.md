@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Slave Leia and Jabba the Hutt drawn with Paper 
 image: 
   path: &image /assets/images/paperfaces-slave-leia-jabba-the-hutt.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-slave-leia-jabba-the-hutt-teaser.jpg
   thumbnail: /assets/images/paperfaces-slave-leia-jabba-the-hutt-150.jpg
 categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper for iOS]

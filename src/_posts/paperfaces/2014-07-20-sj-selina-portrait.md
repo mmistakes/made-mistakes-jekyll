@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @SJ_Selina drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-sj-selina-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-sj-selina-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-sj-selina-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

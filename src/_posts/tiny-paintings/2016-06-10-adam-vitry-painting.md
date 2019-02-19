@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 1048
   feature: *image
-  teaser: /assets/images/painting-adam-vitry-teaser.jpg
   thumbnail: /assets/images/painting-adam-vitry-250.jpg
 categories: [tiny-paintings]
 tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]

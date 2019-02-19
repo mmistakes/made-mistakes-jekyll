@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-lindsey-m.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-lindsey-m-teaser.jpg
   thumbnail: /assets/images/paperfaces-lindsey-m-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, black and white]

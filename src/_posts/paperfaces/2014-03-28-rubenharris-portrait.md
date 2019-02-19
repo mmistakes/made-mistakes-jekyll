@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @rubenharris drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-rubenharris-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rubenharris-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-rubenharris-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

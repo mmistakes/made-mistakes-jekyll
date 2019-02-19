@@ -5,7 +5,6 @@ last_modified_at: 2014-12-10T14:21:27-05:00
 image: 
   path: &image /assets/images/paperfaces-vanessa-s.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-vanessa-s-teaser.jpg
   thumbnail: /assets/images/paperfaces-vanessa-s-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]

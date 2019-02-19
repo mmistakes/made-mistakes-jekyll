@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Princess E. drawn with Paper for iOS on an 
 image: 
   path: &image /assets/images/paperfaces-princess-e.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-princess-e-teaser.jpg
   thumbnail: /assets/images/paperfaces-princess-e-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

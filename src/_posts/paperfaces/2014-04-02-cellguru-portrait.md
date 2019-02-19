@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @cellguru drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-cellguru-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-cellguru-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-cellguru-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

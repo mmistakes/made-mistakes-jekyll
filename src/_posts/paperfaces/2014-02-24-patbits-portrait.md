@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @patbits drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-patbits-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-patbits-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-patbits-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

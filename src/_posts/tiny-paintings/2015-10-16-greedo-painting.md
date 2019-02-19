@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 1059
   feature: *image
-  teaser: /assets/images/painting-greedo-teaser.jpg
   thumbnail: /assets/images/painting-greedo-250.jpg
 gallery:
   - url: /assets/images/painting-greedo-process-1-lg.jpg

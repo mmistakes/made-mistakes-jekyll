@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait Han Solo and Princess Leia drawn with Paper for iO
 image: 
   path: &image /assets/images/paperfaces-han-solo-leia.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-han-solo-leia-teaser.jpg
   thumbnail: /assets/images/paperfaces-han-solo-leia-150.jpg
 last_modified_at: 2014-05-01
 categories: [paperfaces]

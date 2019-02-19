@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Lorena drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-lorena.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-lorena-teaser.jpg
   thumbnail: /assets/images/paperfaces-lorena-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend]

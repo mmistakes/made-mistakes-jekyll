@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @BombayBellyrina drawn with Paper for iOS on an
 image: 
   path: &image /assets/images/paperfaces-bombaybellyrina-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-bombaybellyrina-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-bombaybellyrina-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

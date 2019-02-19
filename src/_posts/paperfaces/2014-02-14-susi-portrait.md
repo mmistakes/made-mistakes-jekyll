@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Susi drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-susi.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-susi-teaser.jpg
   thumbnail: /assets/images/paperfaces-susi-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend]

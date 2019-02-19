@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @Gbeschbacher drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-gbeschbacher-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-gbeschbacher-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-gbeschbacher-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

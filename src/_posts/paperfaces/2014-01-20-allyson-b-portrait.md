@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Kirsty H. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-allyson-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-allyson-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-allyson-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, tattoo]

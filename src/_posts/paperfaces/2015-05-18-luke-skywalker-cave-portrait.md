@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait Luke Skywalker and Darth Vader drawn with Paper fo
 image: 
   path: &image /assets/images/paperfaces-luke-vader-cave.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-luke-vader-cave-teaser.jpg
   thumbnail: /assets/images/paperfaces-luke-vader-cave-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Wars]

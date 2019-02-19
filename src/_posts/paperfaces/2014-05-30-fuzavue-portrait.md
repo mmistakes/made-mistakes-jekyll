@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @fuzavue drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-fuzavue-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-fuzavue-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-fuzavue-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

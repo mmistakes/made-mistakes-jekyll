@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the littlest Avenger drawn with Paper for iOS o
 image: 
   path: &image /assets/images/paperfaces-littlest-avenger.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-littlest-avenger-teaser.jpg
   thumbnail: /assets/images/paperfaces-littlest-avenger-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, blend]

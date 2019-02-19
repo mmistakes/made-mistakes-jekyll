@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @jameswestnz drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-jameswestnz-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jameswestnz-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jameswestnz-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, beard]

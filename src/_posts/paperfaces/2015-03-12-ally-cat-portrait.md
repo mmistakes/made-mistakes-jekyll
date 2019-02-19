@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-ally-cat.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-ally-cat-teaser.jpg
   thumbnail: /assets/images/paperfaces-ally-cat-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @B_A_W drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-b-a-w-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-b-a-w-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-b-a-w-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

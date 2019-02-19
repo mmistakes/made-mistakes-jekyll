@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Kate K. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-kate-k.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-kate-k-teaser.jpg
   thumbnail: /assets/images/paperfaces-kate-k-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

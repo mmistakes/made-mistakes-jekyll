@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of new mom @veganwendy and twin girls for Mother's
 image: 
   path: &image /assets/images/paperfaces-veganwendy-mothers-day.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-veganwendy-mothers-day-teaser.jpg
   thumbnail: /assets/images/paperfaces-veganwendy-mothers-day-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, twins]

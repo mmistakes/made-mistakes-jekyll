@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of David McC. drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-david-mc.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-david-mc-teaser.jpg
   thumbnail: /assets/images/paperfaces-david-mc-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

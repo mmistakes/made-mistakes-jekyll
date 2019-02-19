@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Pao T. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-pao-t.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-pao-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-pao-t-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

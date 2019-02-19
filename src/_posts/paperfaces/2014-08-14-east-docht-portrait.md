@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the East Docht drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-east-docht.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-east-docht-teaser.jpg
   thumbnail: /assets/images/paperfaces-east-docht-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

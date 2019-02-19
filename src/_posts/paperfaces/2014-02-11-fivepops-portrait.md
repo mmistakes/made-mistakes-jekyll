@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Fivepops drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-fivepops.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-fivepops-teaser.jpg
   thumbnail: /assets/images/paperfaces-fivepops-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @chadtafolla drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-chadtafolla-2-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-chadtafolla-2-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-chadtafolla-2-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

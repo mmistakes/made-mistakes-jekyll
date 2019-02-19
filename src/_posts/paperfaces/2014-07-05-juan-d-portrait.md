@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Juan D. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-juan-d.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-juan-d-teaser.jpg
   thumbnail: /assets/images/paperfaces-juan-d-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

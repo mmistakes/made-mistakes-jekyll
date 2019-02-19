@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of my two little rosebuds playing at the Great Pum
 image: 
   path: &image /assets/images/paperfaces-rosebuds-pumpkins.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rosebuds-pumpkins-teaser.jpg
   thumbnail: /assets/images/paperfaces-rosebuds-pumpkins-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, twins, Mix]

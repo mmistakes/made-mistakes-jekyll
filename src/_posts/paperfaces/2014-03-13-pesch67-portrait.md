@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @PeSch67 drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-pesch67-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-pesch67-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-pesch67-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

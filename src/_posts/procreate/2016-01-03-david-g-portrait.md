@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 2400
   feature: *image
-  teaser: /assets/images/david-g-procreate-teaser.jpg
   thumbnail: /assets/images/david-g-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, time lapse, beard, Sktchy]

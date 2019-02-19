@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @EmmaIKesselhut drawn with Paper for iOS on an 
 image: 
   path: &image /assets/images/paperfaces-emmaikesselhut-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-emmaikesselhut-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-emmaikesselhut-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

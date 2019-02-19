@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Jennifer O. drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-jennifer-o.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jennifer-o-teaser.jpg
   thumbnail: /assets/images/paperfaces-jennifer-o-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

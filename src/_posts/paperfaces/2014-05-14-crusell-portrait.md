@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @crusell drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-crusell-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-crusell-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-crusell-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a girl and cat drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-girl-cat.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-girl-cat-teaser.jpg
   thumbnail: /assets/images/paperfaces-girl-cat-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

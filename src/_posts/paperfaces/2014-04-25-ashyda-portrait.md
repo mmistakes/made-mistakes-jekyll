@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @ashyda drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ashyda-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-ashyda-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-ashyda-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

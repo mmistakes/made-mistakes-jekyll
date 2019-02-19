@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @Optimaximal drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-optimaximal-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-optimaximal-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-optimaximal-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

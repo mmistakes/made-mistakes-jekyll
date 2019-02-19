@@ -5,7 +5,6 @@ last_modified_at: 2016-02-08T15:36:28-05:00
 image: 
   path: &image /assets/images/paperfaces-old-wolverine.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-old-wolverine-teaser.jpg
   thumbnail: /assets/images/paperfaces-old-wolverine-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

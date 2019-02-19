@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Laryssa W. drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-laryssa-w.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-laryssa-w-teaser.jpg
   thumbnail: /assets/images/paperfaces-laryssa-w-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @pete_himself drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-pete-himself-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-pete-himself-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-pete-himself-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

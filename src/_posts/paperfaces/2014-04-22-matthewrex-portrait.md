@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @matthewrex drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-matthewrex-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-matthewrex-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-matthewrex-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard]

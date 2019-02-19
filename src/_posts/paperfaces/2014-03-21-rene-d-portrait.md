@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Rene D. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-rene-d-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rene-d-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-rene-d-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend]

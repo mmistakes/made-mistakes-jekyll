@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Skinny Lee drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-skinny-lee.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-skinny-lee-teaser.jpg
   thumbnail: /assets/images/paperfaces-skinny-lee-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, blend]

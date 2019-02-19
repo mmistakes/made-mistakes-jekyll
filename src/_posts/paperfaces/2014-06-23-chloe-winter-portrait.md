@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of my daughter Chloe drawn with Paper for iOS on a
 image: 
   path: &image /assets/images/paperfaces-chloe-winter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-chloe-winter-teaser.jpg
   thumbnail: /assets/images/paperfaces-chloe-winter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend, black and white, bokeh, twins]

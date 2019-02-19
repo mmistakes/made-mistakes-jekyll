@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Fynlay P. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-fynlay-p.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-fynlay-p-teaser.jpg
   thumbnail: /assets/images/paperfaces-fynlay-p-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

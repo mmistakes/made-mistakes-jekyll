@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Blair Z. drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-blair-z.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-blair-z-teaser.jpg
   thumbnail: /assets/images/paperfaces-blair-z-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

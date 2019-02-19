@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @mstrandberg drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-mstrandberg-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mstrandberg-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mstrandberg-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

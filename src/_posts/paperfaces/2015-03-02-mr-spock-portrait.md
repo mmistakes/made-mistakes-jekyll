@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-mr-spock.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mr-spock-teaser.jpg
   thumbnail: /assets/images/paperfaces-mr-spock-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Star Trek, Mix, time lapse, black and white]

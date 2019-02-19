@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @dillydallygames drawn with Paper for iOS on an
 image: 
   path: &image /assets/images/paperfaces-dillydallygames-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-dillydallygames-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-dillydallygames-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

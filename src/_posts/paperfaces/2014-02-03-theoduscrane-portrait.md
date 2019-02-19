@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @theoduscrane drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-theoduscrane-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-theoduscrane-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-theoduscrane-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend, beard]

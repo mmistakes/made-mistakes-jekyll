@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-myriam-j.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-myriam-j-teaser.jpg
   thumbnail: /assets/images/paperfaces-myriam-j-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]

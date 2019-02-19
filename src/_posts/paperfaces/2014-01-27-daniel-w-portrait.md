@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Daniel W. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-daniel-w.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-daniel-w-teaser.jpg
   thumbnail: /assets/images/paperfaces-daniel-w-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, beard]

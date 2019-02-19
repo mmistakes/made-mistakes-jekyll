@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 1067
   feature: *image
-  teaser: /assets/images/painting-stormtrooper-teaser.jpg
   thumbnail: /assets/images/painting-stormtrooper-250.jpg
 gallery:
   - url: /assets/images/painting-stormtrooper-process-1-lg.jpg

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @JonGretar drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-jongretar-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jongretar-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-jongretar-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard]

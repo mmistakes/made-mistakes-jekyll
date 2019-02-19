@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Bryan Costanich drawn with Paper for iOS on an 
 image: 
   path: &image /assets/images/paperfaces-bryan-costanich.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-bryan-costanich-teaser.jpg
   thumbnail: /assets/images/paperfaces-bryan-costanich-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

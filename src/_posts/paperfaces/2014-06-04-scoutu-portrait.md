@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @scoutu drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-scoutu-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-scoutu-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-scoutu-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

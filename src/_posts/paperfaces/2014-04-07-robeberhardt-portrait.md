@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @robeberhardt drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-robeberhardt-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-robeberhardt-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-robeberhardt-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

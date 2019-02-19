@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @yorgle drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-yorgle-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-yorgle-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-yorgle-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

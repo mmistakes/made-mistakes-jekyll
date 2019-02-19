@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Danya W. drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-danya-w.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-danya-w-teaser.jpg
   thumbnail: /assets/images/paperfaces-danya-w-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @SnowWhiteChaos drawn with Paper for iOS on an 
 image: 
   path: &image /assets/images/paperfaces-snowwhitechaos-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-snowwhitechaos-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-snowwhitechaos-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @CollinsMandy drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-collinsmandy-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-collinsmandy-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-collinsmandy-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

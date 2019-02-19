@@ -4,7 +4,6 @@ excerpt: "Another PaperFaces portrait of @mmistakes drawn with Paper for iOS on 
 image: 
   path: &image /assets/images/paperfaces-mmistakes-2-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mmistakes-2-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mmistakes-2-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, self portrait, Michael Rose]

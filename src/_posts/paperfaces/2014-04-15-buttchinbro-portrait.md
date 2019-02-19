@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @ButtChinBro drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-buttchinbro-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-buttchinbro-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-buttchinbro-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white, blend]

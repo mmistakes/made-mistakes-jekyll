@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @weheartgames drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-weheartgames-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-weheartgames-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-weheartgames-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend, bokeh, beard]

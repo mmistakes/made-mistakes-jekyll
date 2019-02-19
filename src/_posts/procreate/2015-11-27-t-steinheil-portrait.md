@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 2400
   feature: *image
-  teaser: /assets/images/t-steinheil-procreate-teaser.jpg
   thumbnail: /assets/images/t-steinheil-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, black and white, time lapse, Sktchy]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @endouz drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-endouz-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-endouz-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-endouz-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, bokeh]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @monaura0 drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-monaura0-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-monaura0-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-monaura0-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

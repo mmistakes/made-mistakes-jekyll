@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait commission of Nick B. drawn with Paper for iOS on 
 image: 
   path: &image /assets/images/paperfaces-nick-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-nick-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-nick-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Mix]

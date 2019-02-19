@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Everly and Chloe drawn with Paper for iOS on an
 image: 
   path: &image /assets/images/paperfaces-rosebuds-christmas.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rosebuds-christmas-teaser.jpg
   thumbnail: /assets/images/paperfaces-rosebuds-christmas-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, blend, Christmas, twins]

@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @thenimesh drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-thenimesh-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-thenimesh-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-thenimesh-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, time lapse]

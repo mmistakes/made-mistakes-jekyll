@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Brooke T. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-brooke-t.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-brooke-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-brooke-t-150.jpg
 gallery:
   - url: /assets/images/paperfaces-brooke-t-process-1-lg.jpg

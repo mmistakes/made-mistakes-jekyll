@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @smroux drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-smroux-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-smroux-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-smroux-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

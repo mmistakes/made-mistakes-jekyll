@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @ClaytonFarr drawn with Paper for iOS on an iPa
 image: 
   path: &image /assets/images/paperfaces-claytonfarr-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-claytonfarr-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-claytonfarr-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

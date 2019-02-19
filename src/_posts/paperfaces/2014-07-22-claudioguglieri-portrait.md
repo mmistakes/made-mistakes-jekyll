@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @claudioguglieri drawn with Paper for iOS on an
 image: 
   path: &image /assets/images/paperfaces-claudioguglieri-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-claudioguglieri-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-claudioguglieri-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

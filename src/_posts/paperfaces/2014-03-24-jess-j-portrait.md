@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Jess J. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-jess-j.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-jess-j-teaser.jpg
   thumbnail: /assets/images/paperfaces-jess-j-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

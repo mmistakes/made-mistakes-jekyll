@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @ssgetchel drawn with Paper for iOS on an iPad.
 image: 
   path: &image /assets/images/paperfaces-ssgetchel-2-instagram.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-ssgetchel-2-instagram-teaser.jpg
   thumbnail: /assets/images/paperfaces-ssgetchel-2-instagram-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

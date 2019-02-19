@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the two little rosebuds drawn with Paper for iO
 image: 
   path: &image /assets/images/paperfaces-rosebuds-2.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-rosebuds-2-teaser.jpg
   thumbnail: /assets/images/paperfaces-rosebuds-2-150.jpg
 gallery:
   - url: /assets/images/paperfaces-rosebuds-2-process-1-lg.jpg

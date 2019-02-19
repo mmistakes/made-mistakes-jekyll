@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait commission of Michel T. drawn with Paper for iOS o
 image: 
   path: &image /assets/images/paperfaces-michel-t.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-michel-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-michel-t-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

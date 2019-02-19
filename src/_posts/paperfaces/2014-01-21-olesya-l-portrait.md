@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Olesya L. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-olesya-l.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-olesya-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-olesya-l-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

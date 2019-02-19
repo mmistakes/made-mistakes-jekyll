@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Chrissy Jo drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-chrissy-jo.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-chrissy-jo-teaser.jpg
   thumbnail: /assets/images/paperfaces-chrissy-jo-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

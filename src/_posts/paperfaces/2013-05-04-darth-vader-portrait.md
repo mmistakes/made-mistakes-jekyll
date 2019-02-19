@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Darth Vader drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-darth-vader.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-darth-vader-teaser.jpg
   thumbnail: /assets/images/paperfaces-darth-vader-150.jpg
 categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper for iOS]

@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 875
   feature: *image
-  teaser: /assets/images/painting-bith-teaser.jpg
   thumbnail: /assets/images/painting-bith-250.jpg
 gallery:
   - url: /assets/images/painting-bith-process-1-lg.jpg

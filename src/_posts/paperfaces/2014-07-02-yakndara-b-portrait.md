@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Yakndara B. drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-yakndara-b.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-yakndara-b-teaser.jpg
   thumbnail: /assets/images/paperfaces-yakndara-b-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, eye, Sktchy, black and white]

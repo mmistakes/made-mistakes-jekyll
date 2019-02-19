@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @kishba drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-kishba-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-kishba-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-kishba-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

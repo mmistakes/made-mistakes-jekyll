@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @mattfieldy drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-mattfieldy-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mattfieldy-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mattfieldy-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, 8-bit, beard]

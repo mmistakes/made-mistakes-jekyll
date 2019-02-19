@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of one month old twins drawn with Paper for iOS on
 image: 
   path: &image /assets/images/paperfaces-sophia-matilde.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-sophia-matilde-teaser.jpg
   thumbnail: /assets/images/paperfaces-sophia-matilde-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, twins]

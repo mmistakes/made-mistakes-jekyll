@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait commission drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-ukulele-bikes.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-ukulele-bikes-teaser.jpg
   thumbnail: /assets/images/paperfaces-ukulele-bikes-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, beard]

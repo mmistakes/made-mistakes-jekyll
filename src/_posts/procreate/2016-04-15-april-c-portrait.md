@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 2133
   feature: *image
-  teaser: /assets/images/april-c-procreate-teaser.jpg
   thumbnail: /assets/images/april-c-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]

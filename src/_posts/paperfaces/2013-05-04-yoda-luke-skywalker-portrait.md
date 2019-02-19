@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of Yoda and Luke Skywalker drawn with Paper for iO
 image: 
   path: &image /assets/images/paperfaces-yoda-luke-skywalker.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-yoda-luke-skywalker-teaser.jpg
   thumbnail: /assets/images/paperfaces-yoda-luke-skywalker-150.jpg
 categories: [paperfaces]
 tags: [Star Wars, portrait, illustration, Paper for iOS]

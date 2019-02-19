@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Patricia F. drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-patricia-f.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-patricia-f-teaser.jpg
   thumbnail: /assets/images/paperfaces-patricia-f-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

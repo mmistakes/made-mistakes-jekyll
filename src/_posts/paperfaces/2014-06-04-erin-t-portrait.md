@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of a Erin T. drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-erin-t.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-erin-t-teaser.jpg
   thumbnail: /assets/images/paperfaces-erin-t-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]

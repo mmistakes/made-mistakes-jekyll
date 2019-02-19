@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @und_O drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-und-o-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-und-o-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-und-o-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

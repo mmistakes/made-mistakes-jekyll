@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 1200
   feature: *image
-  teaser: /assets/images/maria-g-procreate-teaser.jpg
   thumbnail: /assets/images/maria-g-procreate-250.jpg
 categories: [procreate-paintings]
 tags: [Procreate, portrait, illustration, Sktchy, time lapse]

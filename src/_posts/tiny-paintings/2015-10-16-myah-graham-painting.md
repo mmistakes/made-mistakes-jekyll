@@ -7,7 +7,6 @@ image:
   width: 1600
   height: 908
   feature: *image
-  teaser: /assets/images/painting-myah-graham-teaser.jpg
   thumbnail: /assets/images/painting-myah-graham-250.jpg
 categories: [tiny-paintings]
 tags: [watercolor, painting, drawing, portrait, illustration, Sktchy]

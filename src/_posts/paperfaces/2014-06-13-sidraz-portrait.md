@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @sidraz drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-sidraz-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-sidraz-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-sidraz-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

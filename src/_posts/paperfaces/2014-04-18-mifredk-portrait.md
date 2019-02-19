@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @mifredk drawn with Paper for iOS on an iPad."
 image: 
   path: &image /assets/images/paperfaces-mifredk-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mifredk-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-mifredk-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

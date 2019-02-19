@@ -5,7 +5,6 @@ image:
   path: &image /assets/images/paperfaces-eimaj-j-twitter.jpg 
   feature: *image
   thumbnail: /assets/images/paperfaces-eimaj-j-twitter-150.jpg
-  teaser: /assets/images/paperfaces-eimaj-j-twitter-teaser.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-01-17T12:45:56-05:00

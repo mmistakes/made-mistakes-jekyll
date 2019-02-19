@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Remi L. drawn with Paper for iOS on an iPad
 image: 
   path: &image /assets/images/paperfaces-remi-l.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-remi-l-teaser.jpg
   thumbnail: /assets/images/paperfaces-remi-l-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, beard, Mix]

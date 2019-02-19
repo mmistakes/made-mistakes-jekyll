@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of the Charlotte H. drawn with Paper for iOS on an
 image: 
   path: &image /assets/images/paperfaces-charlotte-h.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-charlotte-h-teaser.jpg
   thumbnail: /assets/images/paperfaces-charlotte-h-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy]

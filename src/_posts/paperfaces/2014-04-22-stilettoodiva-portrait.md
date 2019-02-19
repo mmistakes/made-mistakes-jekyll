@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @StilettOoDiva drawn with Paper for iOS on an i
 image: 
   path: &image /assets/images/paperfaces-stilettoodiva-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-stilettoodiva-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-stilettoodiva-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, black and white]

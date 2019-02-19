@@ -4,7 +4,6 @@ excerpt: "PaperFaces portrait of @johntwolives drawn with Paper for iOS on an iP
 image: 
   path: &image /assets/images/paperfaces-johntwolives-twitter.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-johntwolives-twitter-teaser.jpg
   thumbnail: /assets/images/paperfaces-johntwolives-twitter-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS]

@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-mi-mo.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-mi-mo-teaser.jpg
   thumbnail: /assets/images/paperfaces-mi-mo-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]

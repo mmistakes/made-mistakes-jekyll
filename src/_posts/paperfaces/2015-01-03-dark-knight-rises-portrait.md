@@ -5,7 +5,6 @@ last_modified_at:
 image: 
   path: &image /assets/images/paperfaces-dark-knight.jpg 
   feature: *image
-  teaser: /assets/images/paperfaces-dark-knight-teaser.jpg
   thumbnail: /assets/images/paperfaces-dark-knight-150.jpg
 categories: [paperfaces]
 tags: [portrait, illustration, Paper for iOS, Batman, Mix]
