@@ -1,7 +1,7 @@
 ---
 title: "Basically Basic, a Jekyll theme"
 excerpt: "Your new Jekyll default theme."
-last_modified_at: 2018-02-06T11:15:59-05:00
+last_modified_at: 2019-02-19T10:05:55-05:00
 image: 
   path: &image /assets/images/jekyll-theme-basically-basic-feature.jpg
   width: 1600
@@ -36,7 +36,7 @@ order: 7
 Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
 
 - Clean responsive design with six customizable skins
-- Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
+- Curriculum Vitæ/Resume layout powered by [JSON Resume](https://jsonresume.org/)
 - About page layout
 - Disqus Comments and Google Analytics support
 - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)

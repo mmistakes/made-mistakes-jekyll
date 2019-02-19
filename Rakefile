@@ -2,7 +2,6 @@ require 'html-proofer'
 
 task :test do
   options = {
-    :checks_to_ignore => ['ImageCheck'],
     :internal_domains => ['mademistakes.com'],
     :cache => {
       :timeframe => '30d'
@@ -15,7 +14,8 @@ task :test do
     },
     :allow_hash_href => true,
     :assume_extension => true,
-    :empty_alt_ignore => true
+    :empty_alt_ignore => true,
+    :check_opengraph => true
   }
   HTMLProofer.check_directory('./dist', options).run
 end
