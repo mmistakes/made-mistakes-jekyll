@@ -6,8 +6,6 @@ image:
   width: 500
   height: 293
   feature: *image
-  teaser: /assets/images/rriiccee-teaser.jpg
-  thumbnail: /assets/images/rriiccee-thumb.jpg
 categories: [notes]
 tags: [Vincent Gallo, Buffalo, review]
 support: false

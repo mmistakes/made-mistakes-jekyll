@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 528
   feature: *image
-  teaser: /assets/images/madewithpaper-guide-teaser.jpg
-  thumbnail: /assets/images/madewithpaper-guide-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, drawing, iPad]
 toc: true

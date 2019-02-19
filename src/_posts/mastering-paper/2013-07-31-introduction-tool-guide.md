@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 436
   feature: *image
-  thumbnail: /assets/images/paper-53-expanded-guide-thumb.jpg
-  teaser: /assets/images/paper-53-expanded-guide-teaser-2016.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, drawing, painting, iPad, stylus]
 toc: true

@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/knowing-grids-teaser.jpg
-  thumbnail: /assets/images/owh-grid-spread-340x340.jpg
 categories: [notes]
 tags: [critique, grid, design, inspiration, typography]
 support: false

@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/paperfaces-project-teaser.jpg
-  thumbnail: /assets/images/paperfaces-project-250x250.jpg
 categories: [notes]
 tags: [Paper for iOS, iPad, drawing, illustration]
 comments: true

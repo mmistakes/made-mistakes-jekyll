@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/starfield-leopard-teaser.jpg
-  thumbnail: /assets/images/starfield-leopard-thumb.jpg
 categories: [notes]
 tags: [iMac, tech geek]
 toc: true

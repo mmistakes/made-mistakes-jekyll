@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 634
   feature: *image
-  teaser: /assets/images/paper-53-grid-teaser.jpg
-  thumbnail: /assets/images/paper-53-grid-150.jpg
 toc: true
 ---
 

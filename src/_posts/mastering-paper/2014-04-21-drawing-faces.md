@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 500
   feature: *image
-  teaser: /assets/images/paper-53-faces-teaser-2016.jpg
-  thumbnail: /assets/images/paper-53-faces-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, drawing, painting, portrait, iPad]
 toc: true

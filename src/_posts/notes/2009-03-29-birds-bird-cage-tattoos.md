@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/bird-cage-tattoo-teaser.jpg
-  thumbnail: /assets/images/bird-tattoo-340x340.jpg
 categories: [notes]
 tags: [tattoo, vegan, Michael Rose]
 support: false

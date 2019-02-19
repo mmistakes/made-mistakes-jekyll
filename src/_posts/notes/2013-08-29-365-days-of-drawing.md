@@ -6,8 +6,6 @@ image:
   width: 1280
   height: 704
   feature: *image
-  teaser: /assets/images/paperfaces-476-portraits-teaser.jpg
-  thumbnail: /assets/images/paperfaces-476-portraits-thumb.jpg
 categories: [notes]
 tags: [drawing, illustration, 365 project, Paper for iOS, iPad]
 comments: true

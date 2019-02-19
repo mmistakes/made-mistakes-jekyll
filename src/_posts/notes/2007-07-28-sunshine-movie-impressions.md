@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/sunshine-teaser.jpg
-  thumbnail: /assets/images/sunshine-thumb.jpg
   caption: "DVD screengrab from [**DVDBeaver**](http://www.dvdbeaver.com/film2/DVDReviews34/sunshine_blu-ray.htm)"
 categories: [notes]
 tags: [film, review]

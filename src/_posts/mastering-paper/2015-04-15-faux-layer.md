@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 450
   feature: *image
-  teaser: /assets/images/paper-53-faux-layers-teaser.jpg
-  thumbnail: /assets/images/paper-53-faux-layers-th.jpg
 toc: true
 ---
 

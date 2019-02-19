@@ -6,8 +6,6 @@ image:
   width: 1920
   height: 546
   feature: *image
-  teaser: /assets/images/starting-young-teaser.jpg
-  thumbnail: /assets/images/starting-young-thumb.jpg
 categories: [notes]
 tags: [Paper for iOS, drawing, tech geek, twins]
 comments: true

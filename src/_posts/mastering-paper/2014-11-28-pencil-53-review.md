@@ -9,8 +9,6 @@ image:
   width: 1920
   height: 673
   feature: *image
-  teaser: /assets/images/pencil-53-teaser.jpg
-  thumbnail: /assets/images/pencil-53-thumb.jpg
 comments_locked: true
 toc: true
 ---

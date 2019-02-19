@@ -6,8 +6,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/la-moustache-teaser.jpg
-  thumbnail: /assets/images/la-moustache-thumb.jpg
   caption: "DVD screengrab from [**The Movie Database**](http://www.themoviedb.org/movie/16998-la-moustache)"
 categories: [notes]
 tags: [film, review]

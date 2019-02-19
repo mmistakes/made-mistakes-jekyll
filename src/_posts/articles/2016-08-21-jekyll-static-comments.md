@@ -8,8 +8,6 @@ image:
   width: 1800
   height: 700
   feature: *image
-  thumbnail: /assets/images/going-static-comments-th.jpg
-  teaser: /assets/images/going-static-comments-teaser.jpg
   caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
 comments: true
 comments_locked: true

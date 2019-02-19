@@ -8,8 +8,6 @@ image:
   width: 1587
   height: 369
   feature: *image
-  thumbnail: /assets/images/paper-53-switch-tools-th.jpg
-  teaser: /assets/images/paper-53-switch-tools-teaser.jpg
 toc: true
 last_modified_at: 2018-11-06T12:06:36-05:00
 ---

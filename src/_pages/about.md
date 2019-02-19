@@ -9,7 +9,6 @@ image:
   width: 1600
   height: 640
   feature: *image
-  teaser: /assets/images/about-teaser.jpg
 toc: true
 ---
 

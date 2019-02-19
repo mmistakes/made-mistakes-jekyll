@@ -12,8 +12,6 @@ image:
   width: 1600
   height: 748
   feature: *image
-  thumbnail: /assets/images/procreate-paintings-th.jpg
-  teaser: /assets/images/procreate-paintings-teaser.jpg
 tags: [Procreate, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"

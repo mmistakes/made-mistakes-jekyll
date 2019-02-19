@@ -6,8 +6,6 @@ image:
   width: 1280
   height: 721
   feature: *image
-  teaser: /assets/images/sktchys-of-me-teaser.jpg
-  thumbnail: /assets/images/sktchy-app-thumb.png
 categories: [notes]
 tags: [Sktchy, drawing, tech geek]
 ---

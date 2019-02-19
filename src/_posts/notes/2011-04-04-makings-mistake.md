@@ -3,8 +3,6 @@ title: "Makings of a mistake, designing the site"
 excerpt: "As a designer we've all been there. When was the last time you got bored with a design and decided to just burn it and start anew?"
 last_modified_at: 2015-12-15
 image: 
-  thumbnail: /assets/images/fadedlead-home-340x340.jpg
-  teaser: /assets/images/fadedlead-home-teaser.jpg
 categories: [notes]
 tags: [CMS, Wordpress, design, Michael Rose]
 support: false

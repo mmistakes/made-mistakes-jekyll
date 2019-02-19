@@ -8,8 +8,6 @@ image:
   width: 1200
   height: 450
   feature: *image
-  teaser: /assets/images/eko-wave-teaser.jpg
-  thumbnail: /assets/images/eko-wave-thumb.jpg
 tags: [design, logo, website]
 work: "Design & Development"
 ads: false

@@ -6,8 +6,6 @@ image:
   width: 1024
   height: 512
   feature: *image
-  teaser: /assets/images/diving-bell-butterfly-teaser.jpg
-  thumbnail: /assets/images/diving-bell-butterfly-thumb.jpg
   caption: "DVD screengrab from [**Artsy Fartsy Film**](http://artsyfartsyfilm.blogspot.com)"
 categories: [notes]
 tags: [film, review]

@@ -7,8 +7,6 @@ image:
   width: 1920
   height: 848
   feature: *image
-  teaser: /assets/images/paper-53-contour-drawing-teaser.jpg
-  thumbnail: /assets/images/paper-53-contour-drawing-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, blind contour, tutorial, drawing, iPad]
 toc: true

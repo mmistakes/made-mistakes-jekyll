@@ -6,8 +6,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/COM-teaser.jpg
-  thumbnail: /assets/images/COM-record-sleeve-340x340.jpg
 categories: [notes]
 tags: [records, punk, critique, design, inspiration, typography]
 support: false

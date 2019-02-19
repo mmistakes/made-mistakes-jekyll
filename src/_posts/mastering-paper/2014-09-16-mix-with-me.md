@@ -4,9 +4,6 @@ last_modified_at: 2018-11-06T12:02:21-05:00
 excerpt: "Mix by FiftyThree makes finding, sharing, and learning from inspiring Paper creators easy and fun."
 categories: [mastering-paper]
 tags: [Paper for iOS, Mix, iPad]
-image:
-  teaser: /assets/images/paper-53-mix-heart-teaser.jpg
-  thumbnail: /assets/images/paper-53-mix-heart-th.jpg
 comments_locked: true
 ---
 

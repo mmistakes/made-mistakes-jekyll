@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 500
   feature: *image
-  teaser: /assets/images/paper-53-book-teaser.jpg
-  thumbnail: /assets/images/paper-53-book-thumb.jpg
 categories: [mastering-paper]
 tags: [Paper for iOS, design, review]
 toc: true

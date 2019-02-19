@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 508
   feature: *image
-  teaser: /assets/images/paper-53-watercolor-brush-teaser.jpg
-  thumbnail: /assets/images/paper-53-watercolor-brush-th.jpg
 comments_locked: true
 last_modified_at: 2018-11-06T12:02:42-05:00
 ---

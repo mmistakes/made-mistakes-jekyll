@@ -7,8 +7,6 @@ image:
   width: 1600
   height: 800
   feature: *image
-  teaser: /assets/images/jekyll-theme-so-simple-teaser.jpg
-  thumbnail: /assets/images/jekyll-theme-so-simple-th.jpg
 gallery:
   - url: /assets/images/so-simple-post.png
     image_path: /assets/images/so-simple-post-th.jpg

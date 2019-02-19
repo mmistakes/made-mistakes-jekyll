@@ -6,8 +6,6 @@ image:
   width: 1024
   height: 512
   feature: *image
-  teaser: /assets/images/UO-may11-teaser.jpg
-  thumbnail: /assets/images/UO-MAY11-serifs-italics-340.jpg
 categories: [notes]
 tags: [critique, design, typography]
 support: false

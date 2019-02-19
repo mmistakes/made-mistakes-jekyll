@@ -6,8 +6,6 @@ image:
   width: 1600
   height: 600
   feature: *image
-  teaser: /assets/images/skinny-bones-preview-teaser.png
-  thumbnail: /assets/images/skinny-bones-preview-th.png
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"

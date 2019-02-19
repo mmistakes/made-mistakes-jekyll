@@ -6,8 +6,6 @@ image:
   width: 1600
   height: 600
   feature: *image
-  teaser: /assets/images/hpstr-preview-teaser-2015.png
-  thumbnail: /assets/images/hpstr-preview-th-2015.png
 categories: [work]
 tags: [Jekyll, web development, open source, GitHub]
 work: "Design & Development"

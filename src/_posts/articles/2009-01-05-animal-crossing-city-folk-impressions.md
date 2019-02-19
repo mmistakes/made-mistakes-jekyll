@@ -7,8 +7,6 @@ image:
   width: 500
   height: 268
   feature: *image
-  teaser: /assets/images/animal-crossing-teaser.jpg
-  thumbnail: /assets/images/animal-crossing-me-wendy-thumb.jpg
 categories: [articles]
 tags: [Nintendo, Wii, video games, review]
 toc: true

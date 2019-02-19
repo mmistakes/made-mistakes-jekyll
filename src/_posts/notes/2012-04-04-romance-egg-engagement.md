@@ -6,8 +6,6 @@ image:
   width: 768
   height: 384
   feature: *image
-  teaser: /assets/images/romance-engagement-teaser.jpg
-  thumbnail: /assets/images/romance-engagement-thumb.jpg
 categories: [notes]
 tags: [romance]
 support: false

@@ -6,8 +6,6 @@ image:
   width: 835
   height: 399
   feature: *image
-  teaser: /assets/images/half-nelson-teaser.jpg
-  thumbnail: /assets/images/half-nelson-thumb.jpg
   caption: "DVD screengrab from [**DB Cover**]"
 categories: [notes]
 tags: [film, review]

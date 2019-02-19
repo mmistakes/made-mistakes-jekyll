@@ -6,8 +6,6 @@ image:
   width: 1790
   height: 610
   feature: *image
-  thumbnail: /assets/images/improving-jekyll-static-comments-th.jpg
-  teaser: /assets/images/improving-jekyll-static-comments-teaser.jpg
   caption: "[Photo by **Gabriel Santiago**](https://unsplash.com/@gabrielssantiago)"
 categories: [articles]
 tags: [web development, GitHub, Jekyll, tutorial]

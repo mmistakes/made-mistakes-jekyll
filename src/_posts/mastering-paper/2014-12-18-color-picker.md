@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 674
   feature: *image
-  teaser: /assets/images/paper-53-color-picker-teaser.jpg
-  thumbnail: /assets/images/paper-53-color-picker-th.jpg
 toc: true
 ---
 

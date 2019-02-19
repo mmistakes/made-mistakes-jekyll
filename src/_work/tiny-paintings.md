@@ -9,8 +9,6 @@ image:
   width: 1600
   height: 824
   feature: *image
-  thumbnail: /assets/images/tiny-paintings-th.jpg
-  teaser: /assets/images/tiny-paintings-teaser.jpg
 tags: [watercolor, painting, drawing, portrait, illustration]
 ads: false
 work: "Illustration"

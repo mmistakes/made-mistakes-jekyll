@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/agna-moraines-autobiography-teaser.jpg
-  thumbnail: /assets/images/agna-moraines-340x340.jpg
 categories: [notes]
 tags: [records, punk, design, DIY, critique, inspiration]
 support: false

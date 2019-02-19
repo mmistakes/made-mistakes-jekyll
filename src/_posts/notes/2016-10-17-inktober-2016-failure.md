@@ -6,8 +6,6 @@ image:
   width: 1600
   height: 1958
   feature: *image
-  thumbnail: /assets/images/inktober-2016-wash-portrait-th.jpg
-  teaser: /assets/images/inktober-2016-wash-portrait-teaser.jpg
 gallery:
   - url: /assets/images/inktober-2016-wash-portrait-process-1.jpg
     image_path: /assets/images/inktober-2016-wash-portrait-process-1-600.jpg

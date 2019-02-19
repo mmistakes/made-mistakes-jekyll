@@ -5,10 +5,6 @@ last_modified_at:
 categories: mastering-paper
 excerpt: ""
 tags: [Paper for iOS, color theory, tutorial]
-image:
-  feature:
-  teaser:
-comments:
 ---
 
 ## Intro

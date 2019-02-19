@@ -6,8 +6,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/about-me-teaser.jpg
-  thumbnail: /assets/images/mademistakes-business-cards-front-148x148.jpg
 categories: [articles]
 tags: [design, Michael Rose]
 support: false

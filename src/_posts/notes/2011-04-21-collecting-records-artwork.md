@@ -6,8 +6,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/collecting-records-teaser.jpg
-  thumbnail: /assets/images/collecting-records-thumb.jpg
 categories: [notes]
 tags: [punk, records, inspiration, DIY, critique, design]
 support: false

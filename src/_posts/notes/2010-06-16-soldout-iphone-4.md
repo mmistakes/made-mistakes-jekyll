@@ -5,7 +5,6 @@ last_modified_at: 2018-11-08T20:52:30-05:00
 categories: [notes]
 tags: [iPhone, Apple, tech geek]
 image:
-  teaser: /assets/images/iphone-4-teaser.jpg
 support: false
 ---
 

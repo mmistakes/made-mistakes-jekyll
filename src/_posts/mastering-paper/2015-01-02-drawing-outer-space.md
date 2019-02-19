@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 589
   feature: *image
-  teaser: /assets/images/paper-53-space-teaser.jpg
-  thumbnail: /assets/images/paper-53-space-th.jpg
 toc: true
 ---
 

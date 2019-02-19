@@ -7,8 +7,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  teaser: /assets/images/blurb-book-teaser.jpg
-  thumbnail: /assets/images/blurb-book-thumb.jpg
 categories: [notes]
 tags: [design, review]
 support: false

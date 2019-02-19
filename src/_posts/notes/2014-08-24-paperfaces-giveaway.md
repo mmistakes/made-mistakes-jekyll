@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 402
   feature: *image
-  teaser: /assets/images/paperfaces-contest-teaser.jpg
-  thumbnail: /assets/images/paperfaces-contest-th.jpg
 ---
 
 To celebrate two years of [drawing portraits every day]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}), I'm launching a fun giveaway leading up to the special day.

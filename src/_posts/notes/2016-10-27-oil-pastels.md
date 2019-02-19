@@ -5,8 +5,6 @@ image:
   width: 1600
   height: 1103
   feature: *image
-  thumbnail: /assets/images/oil-pastels-th.jpg
-  teaser: /assets/images/oil-pastels-teaser.jpg
 gallery:
   - url: /assets/images/oil-pastels-process-1.jpg
     image_path: /assets/images/oil-pastels-process-1-600.jpg

@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 450
   feature: *image
-  teaser: /assets/images/jekyll-style-guide-teaser.jpg
-  thumbnail: /assets/images/jekyll-style-guide-th.jpg
 comments: true
 toc: true
 ---

@@ -9,8 +9,6 @@ image:
   width: 1280
   height: 727
   feature: *image
-  teaser: /assets/images/paper-53-zoom-loupe-teaser.jpg
-  thumbnail: /assets/images/paper-53-zoom-loupe-thumb.jpg
 toc: true
 comments_locked: true
 ---

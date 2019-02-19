@@ -10,8 +10,6 @@ image:
   width: 1280
   height: 640
   feature: *image
-  thumbnail: /assets/images/paperfaces-project-th.jpg
-  teaser: /assets/images/paperfaces-asja-k-teaser.jpg
 tags: [Paper for iOS, portrait, drawing, painting, iPad, illustration, 365 project]
 ads: false
 work: "Illustration"

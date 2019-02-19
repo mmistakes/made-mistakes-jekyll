@@ -7,8 +7,6 @@ image:
   width: 1600
   height: 710
   feature: *image
-  thumbnail: /assets/images/minimal-mistakes-3-th.jpg
-  teaser: /assets/images/minimal-mistakes-3-teaser.jpg
 gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash-th.jpg

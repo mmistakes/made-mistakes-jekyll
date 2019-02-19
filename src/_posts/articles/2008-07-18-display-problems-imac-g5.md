@@ -6,8 +6,6 @@ image:
   width: 1024
   height: 512
   feature: *image
-  teaser: /assets/images/imac-glitch-teaser.jpg
-  thumbnail: /assets/images/imac-glitch-thumb.jpg
 categories: [articles]
 tags: [iMac, Apple]
 toc: true

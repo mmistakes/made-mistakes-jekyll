@@ -7,8 +7,6 @@ image:
   width: 1600
   height: 694
   feature: *image
-  thumbnail: /assets/images/jekyll-theme-basically-basic-th.jpg
-  teaser: /assets/images/jekyll-theme-basically-basic-teaser.jpg
 gallery:
   - url: /assets/images/basically-basic-theme-menu.png
     image_path: /assets/images/basically-basic-theme-menu-th.png

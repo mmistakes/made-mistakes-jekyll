@@ -7,8 +7,6 @@ image:
   width: 1600
   height: 754
   feature: *image
-  teaser: /assets/images/ipod-classic-teaser.jpg
-  thumbnail: /assets/images/ipod-classic-thumb.jpg
 categories: [notes]
 tags: [iPod, Apple, review]
 toc: true
