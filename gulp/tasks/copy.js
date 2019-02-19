@@ -28,6 +28,7 @@ gulp.task("copy:images", () => {
 gulp.task("copy:images:cached", () => {
   return gulp
     .src(paths.imageFilesCachePath + "/**/*")
+    .pipe(newer(paths.imageFilesSite))
     .pipe(gulp.dest(paths.imageFilesSite));
 });
 
