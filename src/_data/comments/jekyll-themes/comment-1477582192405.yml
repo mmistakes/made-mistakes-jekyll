@@ -1,6 +1,6 @@
 _parent: /work/jekyll-themes/
 replying_to: '3'
-message: "@Frédéric - with some hacking of the theme files you can add images to an archive listing. I would suggest adding something like `{% if post.image.teaser %}<img src=\"{{ post.image.teaser }}\" alt=\"\">{% endif %}` to [**_includes/archive-single.html**](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/archive-single.html) where you'd like the image to appear.\r\n\r\nWith some additional CSS to style things how you want and adding the following YAML Front Matter to your posts you should be able to do what you want.\r\n\r\n```yaml\r\nimage:\r\n  teaser: path-to-your-post-image.jpg\r\n```"
+message: "@Frédéric - with some hacking of the theme files you can add images to an archive listing. I would suggest adding something like {% raw %}`{% if post.image.teaser %}<img src=\"{{ post.image.teaser }}\" alt=\"\">{% endif %}`{% endraw %} to [**_includes/archive-single.html**](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/archive-single.html) where you'd like the image to appear.\r\n\r\nWith some additional CSS to style things how you want and adding the following YAML Front Matter to your posts you should be able to do what you want.\r\n\r\n```yaml\r\nimage:\r\n  teaser: path-to-your-post-image.jpg\r\n```"
 name: Michael Rose
 email: 1ce71bc10b86565464b612093d89707e
 url: 'https://mademistakes.com'
