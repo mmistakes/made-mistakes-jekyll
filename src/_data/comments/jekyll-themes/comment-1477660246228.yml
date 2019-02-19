@@ -2,8 +2,8 @@ _parent: /work/jekyll-themes/
 replying_to: '3'
 message: >-
   @Michael Rose  Thank you, I have implement the first solution, but the second
-  solution works too ! I think you would say : Simply change `{% if
-  post.image.teaser %}<img src="{{ post.image.teaser }}" alt="">{% endif %}`
+  solution works too ! I think you would say : Simply change {% raw %}`{% if
+  post.image.teaser %}<img src="{{ post.image.teaser }}" alt="">{% endif %}`{% endraw %}
 name: Frédéric Letellier
 email: fda5a0af300f7d6762f26007975d9de6
 url: 'http://fredericletellier.com'
