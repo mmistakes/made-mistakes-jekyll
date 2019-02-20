@@ -83,7 +83,7 @@ http://mademistakes.netlify.com/* https://mademistakes.com/:splat 301!
 /works /work/ 301
 /til/ /tag/til/ 301
 /til/* /notes/:splat 301
-/lifestream/* /articles/ 301
+/lifestream/* /notes/ 301
 
 # ----------------------------------------------------------------------
 # Sitemap redirects
