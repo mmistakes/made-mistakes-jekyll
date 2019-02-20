@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-weiheng-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T12:57:51-05:00
 ---
 

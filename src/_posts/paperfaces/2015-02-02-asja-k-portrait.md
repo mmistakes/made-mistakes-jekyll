@@ -16,7 +16,7 @@ gallery:
     image_path: /assets/images/paperfaces-asja-k-process-3-600.jpg
     alt: "work in process screenshot"
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 last_modified_at: 2016-09-28T21:40:33-04:00
 ---
 

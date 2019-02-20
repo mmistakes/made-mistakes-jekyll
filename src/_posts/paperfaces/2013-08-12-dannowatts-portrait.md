@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-dannowatts-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, trees, black and white, beard]
+tags: [portrait, illustration, Paper for iOS, black and white, beard]
 ---
 
 PaperFaces portrait of [@dannowatts](https://twitter.com/dannowatts). Black and white mixed with some creepy trees makes for a perfect combination.

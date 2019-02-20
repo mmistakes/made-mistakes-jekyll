@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-ivanhcsim-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, bokeh, blend]
+tags: [portrait, illustration, Paper for iOS, bokeh]
 ---
 
 PaperFaces portrait of [@IvanHCSim](https://twitter.com/IvanHCSim).

@@ -8,7 +8,7 @@ image:
   height: 373
   feature: *image
 categories: [mastering-paper]
-tags: [Paper for iOS, tutorial, drawing, iPad]
+tags: [Paper for iOS, tutorial, Apple]
 toc: true
 ---
 

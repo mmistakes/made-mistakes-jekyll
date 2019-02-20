@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-modemlooper-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Star Trek]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@modemlooper](https://twitter.com/modemlooper).

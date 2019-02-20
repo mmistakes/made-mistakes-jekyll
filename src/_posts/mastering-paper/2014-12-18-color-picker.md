@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: picking and sharing colors"
 last_modified_at: 2018-11-06T12:04:37-05:00
 excerpt: "A color picker has been added to Paper! Learn what the new tool does and how to use it."
 categories: [mastering-paper]
-tags: [Paper for iOS, color theory, tutorial, iPad]
+tags: [Paper for iOS, tutorial, Apple]
 image:
   path: &image /assets/images/paper-53-color-picker-feature.jpg
   width: 1280

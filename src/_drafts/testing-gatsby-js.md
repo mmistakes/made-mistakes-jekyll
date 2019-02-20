@@ -6,7 +6,7 @@ image:
   path: &image
   feature: *image
 categories: [articles]
-tags: [Gatsby, Jekyll, Wordpress, CMS, web development, GitHub, Netlify, open source]
+tags: [Jekyll, Wordpress, web development, GitHub, Netlify, open source]
 comments: true
 last_modified_at:
 ---

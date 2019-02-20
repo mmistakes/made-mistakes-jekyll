@@ -8,7 +8,7 @@ image:
   height: 640
   feature: *image
 categories: [notes]
-tags: [tattoo, vegan, Michael Rose]
+tags: [life, tattoo, vegan]
 support: false
 toc: true
 ---

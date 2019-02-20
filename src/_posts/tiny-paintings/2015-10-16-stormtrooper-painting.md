@@ -16,7 +16,7 @@ gallery:
     image_path: /assets/images/painting-stormtrooper-process-2-600.jpg
     alt: "finished watercolor painting"
 categories: [tiny-paintings]
-tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
+tags: [watercolor, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of a Stormtrooper from **Star Wars**. Painted with watercolor on hot press paper.

@@ -4,7 +4,7 @@ excerpt: "The Eviltron device, when setup properly, can land some convincing sca
 last_modified_at: 2019-02-16T10:37:51-05:00
 image: 
 categories: [notes]
-tags: [horror, review, tech geek]
+tags: [review, tech geek]
 ---
 
 So we went and saw **Paranormal Activity** last night. If you haven't heard it's basically the **Blair Witch Project** shot in a haunted house. I couldn't have planned it better because earlier in the day my [Eviltron from Think Geek](http://www.thinkgeek.com/gadgets/electronic/c427/) showed up which gave me time to plant it in our bedroom.

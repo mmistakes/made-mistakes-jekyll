@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: the grid method"
 last_modified_at: 2018-11-06T12:02:06-05:00
 excerpt: "How to use the grid method with Paper for iOS to create accurate line drawings and improve your work."
 categories: [mastering-paper]
-tags: [Paper for iOS, tutorial, drawing, painting, grid, iPad]
+tags: [Paper for iOS, tutorial, Apple]
 image:
   path: &image /assets/images/paper-53-grid-feature.jpg
   width: 1280

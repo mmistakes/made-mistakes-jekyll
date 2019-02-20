@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-mmistakes-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, beard, black and white]
+tags: [portrait, illustration, self portrait, Paper for iOS, beard, black and white]
 ---
 
 PaperFaces portrait of [@mmistakes](https://twitter.com/mmistakes).

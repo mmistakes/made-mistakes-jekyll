@@ -3,7 +3,7 @@ title: "Paperfaces digital drawing giveaway"
 last_modified_at: 2019-02-16T10:52:43-05:00
 excerpt: "Enter to win a portrait of your choice drawn by Michael Rose in his signature PaperFaces style."
 categories: [notes]
-tags: [drawing, illustration, Paper for iOS, iPad]
+tags: [illustration, Paper for iOS]
 image:
   path: &image /assets/images/paperfaces-contest.jpg
   width: 1280

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-haley-couple-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, time lapse]
+tags: [portrait, illustration, Paper for iOS, time lapse]
 last_modified_at: 2017-01-17T14:53:27-05:00
 ---
 

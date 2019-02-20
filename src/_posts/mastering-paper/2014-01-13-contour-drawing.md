@@ -8,7 +8,7 @@ image:
   height: 848
   feature: *image
 categories: [mastering-paper]
-tags: [Paper for iOS, blind contour, tutorial, drawing, iPad]
+tags: [Paper for iOS, tutorial, Apple]
 toc: true
 ---
 

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-admiral-ackbar-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Star Wars, blend]
+tags: [portrait, illustration, Paper for iOS, Star Wars]
 ---
 
 PaperFaces portrait of Admiral Ackbar from Episode VI: Return of the Jedi.

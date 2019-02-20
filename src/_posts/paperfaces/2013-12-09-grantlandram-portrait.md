@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-grantlandram-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, blend, time lapse]
+tags: [portrait, illustration, Paper for iOS, black and white, time lapse]
 ---
 
 Decided to try and create a true time lapse video showing off 53's new Pencil stylus another go. 

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-sschuermann-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, black and white, beard]
+tags: [portrait, illustration, Paper for iOS, black and white, beard]
 ---
 
 PaperFaces portrait of [@sschuermann](https://twitter.com/sschuermann).

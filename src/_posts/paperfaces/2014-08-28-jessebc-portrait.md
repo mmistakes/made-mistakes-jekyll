@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-jessebc-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, beard, black and white, blend]
+tags: [portrait, illustration, Paper for iOS, beard, black and white]
 last_modified_at: 2017-09-07T16:15:33-04:00
 ---
 

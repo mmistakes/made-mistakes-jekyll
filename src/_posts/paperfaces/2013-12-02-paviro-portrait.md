@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-paviro-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@paviro_](https://twitter.com/paviro_).

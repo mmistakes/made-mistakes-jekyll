@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: watercolor brush improvements"
 modified:
 excerpt: "Discover the secrets of Paper's newly updated watercolor brush in this short tutorial and video."
 categories: [mastering-paper]
-tags: [Paper for iOS, tutorial, painting, iPad]
+tags: [Paper for iOS, tutorial, Apple]
 image:
   path: &image /assets/images/paper-53-watercolor-brush-feature.jpg
   width: 1280

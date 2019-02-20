@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-jayperdue-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces portrait of [@jayperdue](https://twitter.com/jayperdue).

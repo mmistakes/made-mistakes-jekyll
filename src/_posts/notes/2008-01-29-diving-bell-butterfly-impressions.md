@@ -8,7 +8,7 @@ image:
   feature: *image
   caption: "DVD screengrab from [**Artsy Fartsy Film**](http://artsyfartsyfilm.blogspot.com)"
 categories: [notes]
-tags: [film, review]
+tags: [review]
 support: false
 ---
 

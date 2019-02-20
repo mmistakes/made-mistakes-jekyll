@@ -7,7 +7,7 @@ image:
   height: 512
   feature: *image
 categories: [notes]
-tags: [critique, design, typography]
+tags: [design]
 support: false
 toc: true
 ---

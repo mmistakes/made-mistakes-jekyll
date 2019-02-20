@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-mattfieldy-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, 8-bit, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces portrait of [@mattfieldy](https://twitter.com/mattfieldy).

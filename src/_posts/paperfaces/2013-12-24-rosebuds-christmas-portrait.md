@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-rosebuds-christmas-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, Christmas, twins]
+tags: [portrait, illustration, Paper for iOS, twins]
 ---
 
 Just a simple drawing of my twin girls, Everly and Chloe enjoying wrapping paper. I suppose at this age they're more concerned with shredding the covering than what's hidden beneath it.

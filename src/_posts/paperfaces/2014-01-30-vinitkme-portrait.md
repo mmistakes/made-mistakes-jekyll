@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-vinitkme-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, trees]
+tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-01-17T16:09:29-05:00
 ---
 

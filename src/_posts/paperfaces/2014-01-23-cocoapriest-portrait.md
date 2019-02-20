@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-cocoapriest-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 last_modified_at: 2017-01-17T16:14:36-05:00
 ---
 

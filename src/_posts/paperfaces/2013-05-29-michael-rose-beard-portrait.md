@@ -7,7 +7,7 @@ image:
   thumbnail: /assets/images/paperfaces-michael-rose-beard-150.jpg
 last_modified_at: 2013-06-05
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Michael Rose, beard, self portrait]
+tags: [portrait, illustration, Paper for iOS, beard, self portrait]
 ---
 
 Thirty-four years and still kicking --- a PaperFaces self portrait on my birthday. Loving the new zoom tool that made added small details to my beard fun and painless. Thanks FiftyThree!

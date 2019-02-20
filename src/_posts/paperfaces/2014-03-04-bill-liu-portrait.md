@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-bill-liu-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, bokeh]
+tags: [portrait, illustration, Paper for iOS, bokeh]
 ---
 
 PaperFaces portrait commission of a Bill Liu.

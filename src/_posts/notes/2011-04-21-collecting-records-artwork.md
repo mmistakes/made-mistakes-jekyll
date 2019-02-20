@@ -7,7 +7,7 @@ image:
   height: 640
   feature: *image
 categories: [notes]
-tags: [punk, records, inspiration, DIY, critique, design]
+tags: [inspiration, design]
 support: false
 toc: true
 last_modified_at: 2017-12-12T16:27:14-05:00

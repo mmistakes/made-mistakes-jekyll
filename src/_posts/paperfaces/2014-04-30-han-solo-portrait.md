@@ -7,7 +7,7 @@ image:
   thumbnail: /assets/images/paperfaces-han-solo-leia-150.jpg
 last_modified_at: 2014-05-01
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Star Wars, blend, time lapse]
+tags: [portrait, illustration, Paper for iOS, Star Wars, time lapse]
 ---
 
 With the recent Star Wars Episode VII casting news and *May the 4th* nearly upon us, I decided to kickoff the week with SW inspired drawings. I'm planning on recreating scenes and characters from all of the movies each night using Paper for iOS as per usual.

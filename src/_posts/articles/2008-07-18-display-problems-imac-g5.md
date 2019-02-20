@@ -7,7 +7,7 @@ image:
   height: 512
   feature: *image
 categories: [articles]
-tags: [iMac, Apple]
+tags: [Apple, tech geek]
 toc: true
 ---
 

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-mmistakes-2-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, self portrait, Michael Rose]
+tags: [portrait, illustration, Paper for iOS, black and white, self portrait]
 last_modified_at: 2017-01-17T12:52:20-05:00
 ---
 

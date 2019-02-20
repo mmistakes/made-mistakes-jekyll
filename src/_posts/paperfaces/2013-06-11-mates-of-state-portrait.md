@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-mates-of-state-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Mates of State]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 Korie and Jason from the band Mates of State. Drawn predominantly with the pencil tool on a light orange background, with a hint of watercolor.

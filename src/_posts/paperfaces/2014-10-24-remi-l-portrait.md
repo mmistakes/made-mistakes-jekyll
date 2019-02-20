@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-remi-l-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, beard, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, beard]
 ---
 
 PaperFaces portrait of Remi L. inspired by a [photograph on Sktchy](https://sktchy.com/wIZBLC).

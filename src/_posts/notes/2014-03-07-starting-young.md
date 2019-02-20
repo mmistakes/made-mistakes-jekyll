@@ -7,7 +7,7 @@ image:
   height: 546
   feature: *image
 categories: [notes]
-tags: [Paper for iOS, drawing, tech geek, twins]
+tags: [life, Paper for iOS, tech geek, twins]
 comments: true
 comments_locked: true
 last_modified_at: 2017-09-07T15:59:12-04:00

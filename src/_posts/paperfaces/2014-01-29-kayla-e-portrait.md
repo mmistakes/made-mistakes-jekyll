@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-kayla-e-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, blend, bokeh]
+tags: [portrait, illustration, Paper for iOS, Sktchy, bokeh]
 ---
 
 Edge lighting is my favorite kind of lighting to draw. PaperFaces portrait of [Kayla E.](https://sktchy.com/fHCi1D) inspired by Sktchy.

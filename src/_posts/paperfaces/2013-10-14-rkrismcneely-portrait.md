@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-rkrismcneely-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, 8-bit]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@rkrismcneely](https://twitter.com/rkrismcneely).

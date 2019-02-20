@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-rosebuds-blur-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, twins, Mix, time lapse, black and white, blend, bokeh]
+tags: [portrait, illustration, Paper for iOS, twins, time lapse, black and white, bokeh]
 ---
 
 PaperFaces portrait of my twin girls Everly and Chloe (hiding in the bokeh).

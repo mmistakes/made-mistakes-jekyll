@@ -87,16 +87,11 @@ include:
   - _pages
   - _redirects
 exclude:
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
+  - .jekyll-cache
   - .sass-cache
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - Capfile
-  - config
   - Gemfile
   - Gemfile.lock
+  - gemfiles/
   - Gruntfile.js
   - gulpfile.js
   - log

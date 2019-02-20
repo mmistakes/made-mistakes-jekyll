@@ -8,7 +8,7 @@ image:
   height: 754
   feature: *image
 categories: [notes]
-tags: [iPod, Apple, review]
+tags: [Apple, review]
 toc: true
 ---
 

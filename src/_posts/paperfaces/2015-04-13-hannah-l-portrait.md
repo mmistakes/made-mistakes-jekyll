@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-hannah-l-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse]
+tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse]
 ---
 
 PaperFaces portrait of Hannah L. inspired by a [photograph on Sktchy](https://sktchy.com/7gqmFc).

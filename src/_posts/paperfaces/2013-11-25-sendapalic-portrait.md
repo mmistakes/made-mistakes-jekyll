@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-sendapalic-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 Blend is one of those tools that can easily be abused. Trying to limit its use to avoid going too soft and blurring brush strokes painted in Paper and retain character. I've found that blending colors and then applying a layer of light watercolor on top has a nice look.

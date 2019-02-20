@@ -8,7 +8,7 @@ image:
   height: 640
   feature: *image
 categories: [notes]
-tags: [critique, grid, design, inspiration, typography]
+tags: [design, inspiration]
 support: false
 toc: true
 ---

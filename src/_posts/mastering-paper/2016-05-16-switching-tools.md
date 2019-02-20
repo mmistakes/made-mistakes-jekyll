@@ -2,7 +2,7 @@
 title: "Paper for iOS quick tip: switching tools"
 excerpt: "Switching tools in Paper for iOS may seem obvious to you pros out there, but you'd be surprised how often I'm asked how to do it. Here's the answer."
 categories: [mastering-paper]
-tags: [Paper for iOS, iPad, tutorial]
+tags: [Paper for iOS, Apple, tutorial]
 image:
   path: &image /assets/images/paper-53-full-tools.jpg
   width: 1587

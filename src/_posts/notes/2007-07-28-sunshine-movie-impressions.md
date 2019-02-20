@@ -9,7 +9,7 @@ image:
   feature: *image
   caption: "DVD screengrab from [**DVDBeaver**](http://www.dvdbeaver.com/film2/DVDReviews34/sunshine_blu-ray.htm)"
 categories: [notes]
-tags: [film, review]
+tags: [review]
 support: false
 toc: true
 ---

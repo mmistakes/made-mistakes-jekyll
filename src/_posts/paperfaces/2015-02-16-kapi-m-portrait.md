@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-kapi-m-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, eye, blend]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of Kapi M. inspired by a [photograph on Sktchy](https://sktchy.com/udfGaD).

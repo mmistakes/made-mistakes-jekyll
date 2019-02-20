@@ -7,7 +7,7 @@ image:
   height: 640
   feature: *image
 categories: [articles]
-tags: [design, Michael Rose]
+tags: [design]
 support: false
 last_modified_at: 2019-02-16T10:45:17-05:00
 ---

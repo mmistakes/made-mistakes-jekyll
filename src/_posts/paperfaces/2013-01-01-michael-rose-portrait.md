@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-michael-rose-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Michael Rose, self portrait, beard, time lapse]
+tags: [portrait, illustration, Paper for iOS, self portrait, beard, time lapse]
 ---
 
 Self portrait of [@mmistakes](https://twitter.com/mmistakes) (hey that's me) in an autumn field.

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-rosebuds-pumpkins-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, twins, Mix]
+tags: [portrait, illustration, Paper for iOS, twins]
 ---
 
 Last weekend Wendy and me took the girls to the Great Pumpkin Farm for the second time this autumn.

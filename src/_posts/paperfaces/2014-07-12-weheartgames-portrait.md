@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-weheartgames-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, bokeh, beard]
+tags: [portrait, illustration, Paper for iOS, bokeh, beard]
 ---
 
 PaperFaces portrait of [@weheartgames](https://twitter.com/weheartgames).

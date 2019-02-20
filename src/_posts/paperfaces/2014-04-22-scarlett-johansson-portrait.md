@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-scarlett-johansson-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend]
+tags: [portrait, illustration, Paper for iOS]
 last_modified_at: 2017-01-17T14:00:31-05:00
 ---
 

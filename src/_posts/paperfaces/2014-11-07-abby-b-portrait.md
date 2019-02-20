@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-abby-b-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of Abby B. inspired by a [photograph on Sktchy](https://sktchy.com/yCCAgH).

@@ -146,8 +146,9 @@ GEM
       rubypants
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2018.9)
+      tzinfo (>= 1.0.0)
     verbal_expressions (0.1.5)
-    wdm (0.1.1)
     yell (2.0.7)
 
 PLATFORMS
@@ -171,7 +172,7 @@ DEPENDENCIES
   jemoji (>= 0.10.2)
   liquid-c
   rake
-  wdm (~> 0.1.1)
+  tzinfo-data
 
 BUNDLED WITH
-   1.17.2
+   2.0.1

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-general-grievous-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Star Wars, blend]
+tags: [portrait, illustration, Paper for iOS, Star Wars]
 ---
 
 PaperFaces portrait of General Grievous from Episode III: Revenge of the Sith.

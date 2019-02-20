@@ -8,7 +8,7 @@ image:
   feature: *image
   caption: "DVD screengrab from [**The Movie Database**](http://www.themoviedb.org/movie/16998-la-moustache)"
 categories: [notes]
-tags: [film, review]
+tags: [review]
 support: false
 last_modified_at: 2018-02-09T09:18:20-05:00
 ---

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-ikaish-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, bokeh, blend]
+tags: [portrait, illustration, Paper for iOS, black and white, bokeh]
 ---
 
 PaperFaces portrait of [@ikaish](https://twitter.com/ikaish).

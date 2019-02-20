@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-sergei-r-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 Trading drawings for drawings. PaperFaces portrait of [Sergei R.](https://sktchy.com/YRsdZH), inspiration found via Sktchy.
