@@ -4,7 +4,6 @@ permalink: /notes/
 category: notes
 title: &title "Notes"
 alt_title: *title
-modified:
 excerpt: &excerpt "Small, bite sized content I've written. For longer, more thorough writing --- peruse the [articles section](/articles)."
 introduction: *excerpt
 pagination: 
