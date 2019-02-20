@@ -2,7 +2,7 @@
 title: "iPod battery settlement program status"
 excerpt: "A short update on the status of my iPod 3G battery settlement claim."
 categories: [notes]
-tags: [iPod, Apple, tech geek]
+tags: [Apple, tech geek]
 last_modified_at: 2015-12-15
 image:
   path: &image /assets/images/ipod-battery-settlement-teaser.jpg

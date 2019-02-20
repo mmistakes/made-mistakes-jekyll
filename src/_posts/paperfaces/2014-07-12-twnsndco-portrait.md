@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-twnsndco-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, bokeh, blend]
+tags: [portrait, illustration, Paper for iOS, bokeh]
 ---
 
 PaperFaces portrait of [@twnsndco](https://twitter.com/twnsndco).

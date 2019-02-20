@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-lulomx-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Google Glass]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@lulomx](https://twitter.com/lulomx).

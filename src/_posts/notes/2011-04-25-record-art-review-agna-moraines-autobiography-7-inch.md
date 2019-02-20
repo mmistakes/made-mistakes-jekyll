@@ -8,7 +8,7 @@ image:
   height: 640
   feature: *image
 categories: [notes]
-tags: [records, punk, design, DIY, critique, inspiration]
+tags: [inspiration, design]
 support: false
 toc: true
 ---

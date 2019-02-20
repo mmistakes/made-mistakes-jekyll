@@ -4,7 +4,7 @@ excerpt: "As a designer we've all been there. When was the last time you got bor
 last_modified_at: 2015-12-15
 image: 
 categories: [notes]
-tags: [CMS, Wordpress, design, Michael Rose]
+tags: [web development, Wordpress, design]
 support: false
 toc: true
 ---

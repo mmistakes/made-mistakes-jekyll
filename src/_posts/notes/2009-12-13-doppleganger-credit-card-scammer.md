@@ -4,7 +4,7 @@ excerpt: "Apparently there is a bizarro version of me in Niagara County using sc
 last_modified_at: 2017-09-08T08:59:18-04:00
 image: 
 categories: [notes]
-tags: [Michael Rose, Buffalo]
+tags: [Buffalo]
 support: false
 ---
 

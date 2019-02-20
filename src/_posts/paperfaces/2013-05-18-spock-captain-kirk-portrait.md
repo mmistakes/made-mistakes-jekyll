@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-spock-kirk-star-trek-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Star Trek]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 Mr. Spock and Captain Kirk --- a scene from the motion picture, **Star Trek Into Darkness**.

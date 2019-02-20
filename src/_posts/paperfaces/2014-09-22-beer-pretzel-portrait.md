@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-beer-pretzel-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, Mix]
+tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-09-07T16:10:59-04:00
 ---
 

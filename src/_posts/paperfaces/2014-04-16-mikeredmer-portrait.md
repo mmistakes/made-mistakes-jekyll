@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-mikeredmer-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, Google Glass]
+tags: [portrait, illustration, Paper for iOS, black and white]
 last_modified_at: 2017-01-17T14:04:41-05:00
 ---
 

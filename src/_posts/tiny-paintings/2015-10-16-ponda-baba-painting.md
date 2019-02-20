@@ -9,7 +9,7 @@ image:
   feature: *image
   thumbnail: /assets/images/painting-ponda-baba-250.jpg
 categories: [tiny-paintings]
-tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
+tags: [watercolor, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of Ponda Baba from **Star Wars**. Painted with watercolor on hot press paper.

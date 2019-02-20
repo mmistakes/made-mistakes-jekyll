@@ -4,7 +4,7 @@ title: "Mastering Paper for iOS: Swapping Background Colors"
 last_modified_at: 
 categories: mastering-paper
 excerpt: ""
-tags: [Paper for iOS, color theory, tutorial]
+tags: [Paper for iOS, tutorial]
 ---
 
 ## Intro

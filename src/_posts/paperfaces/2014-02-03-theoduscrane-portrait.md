@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-theoduscrane-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, beard]
+tags: [portrait, illustration, Paper for iOS, beard]
 last_modified_at: 2017-01-17T15:57:55-05:00
 ---
 

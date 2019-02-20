@@ -20,7 +20,7 @@ gallery:
     image_path: /assets/images/paperfaces-neon-l-process-4-600.jpg
     alt: "Work in process screenshot"
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, bokeh, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, bokeh]
 ---
 
 PaperFaces portrait of Neon L. inspired by a [photograph on Sktchy](https://sktchy.com/iYeI6c).

@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-dark-knight-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Batman, Mix]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of the Dark Knight to go along with a drawing I did of the [Clown Prince]({% post_url /paperfaces/2014-12-04-killing-joke-portrait %}) a few weeks ago.

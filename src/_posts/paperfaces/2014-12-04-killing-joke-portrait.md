@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-joker-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Batman, Mix]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 While browsing through Mix looking for inspiration I came across a drawing shared by [赵 志欣](https://mix.fiftythree.com/122266--) of Heath Ledger from **The Dark Knight**.

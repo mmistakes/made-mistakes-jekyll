@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-bollywooed-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@BollyWooed](https://twitter.com/BollyWooed).

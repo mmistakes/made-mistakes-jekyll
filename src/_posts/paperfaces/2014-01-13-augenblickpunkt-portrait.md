@@ -6,10 +6,10 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-augenblickpunkt-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
-PaperFaces portrait portrait of [@augenblickpunkt](https://twitter.com/augenblickpunkt).
+PaperFaces portrait of [@augenblickpunkt](https://twitter.com/augenblickpunkt).
 
 {% include_cached boilerplate/paperfaces-4.md %}
 

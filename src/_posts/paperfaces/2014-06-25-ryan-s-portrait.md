@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-ryan-s-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, eye, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of Ryan S. inspired by a photograph on Sktchy.

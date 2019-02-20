@@ -7,7 +7,7 @@ image:
   height: 293
   feature: *image
 categories: [notes]
-tags: [Vincent Gallo, Buffalo, review]
+tags: [life, Buffalo, review]
 support: false
 ---
 

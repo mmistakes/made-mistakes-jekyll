@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-eliza-t-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, Sktchy, Mix]
+tags: [portrait, illustration, Paper for iOS, black and white, Sktchy]
 ---
 
 PaperFaces portrait of Eliza T. inspired by a [photograph on Sktchy](https://sktchy.com/FsO57C).

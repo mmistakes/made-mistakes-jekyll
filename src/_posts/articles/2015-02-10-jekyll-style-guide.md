@@ -3,7 +3,7 @@ title: "Building a style guide with Jekyll"
 last_modified_at: 2017-12-13T10:40:39-05:00
 excerpt: "How I used collections with Jekyll to build a style guide and pattern library for Made Mistakes."
 categories: [articles]
-tags: [Jekyll, style guide, open source, web development, GitHub, tutorial]
+tags: [Jekyll, open source, web development, GitHub, tutorial]
 image:
   path: &image /assets/images/jekyll-style-guide-feature.jpg
   width: 1280

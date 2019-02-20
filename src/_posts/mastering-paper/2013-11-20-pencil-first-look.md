@@ -8,7 +8,7 @@ image:
   height: 900
   feature: *image
 categories: [mastering-paper]
-tags: [Paper for iOS, blend, stylus, iPad]
+tags: [Pencil by 53, Paper for iOS, Apple]
 comments_locked: true
 ---
 

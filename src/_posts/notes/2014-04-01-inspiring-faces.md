@@ -7,7 +7,7 @@ image:
   height: 721
   feature: *image
 categories: [notes]
-tags: [Sktchy, drawing, tech geek]
+tags: [Sktchy, tech geek]
 ---
 
 It's been a lot of fun drawing the faces of strangers. But you know what's even better'? Having strangers draw you in return.

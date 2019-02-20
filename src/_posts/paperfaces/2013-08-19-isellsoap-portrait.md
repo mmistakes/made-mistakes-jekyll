@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-isellsoap-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, trees]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@isellsoap](https://twitter.com/isellsoap).

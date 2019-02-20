@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-juan-kyle-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, time lapse]
+tags: [portrait, illustration, Paper for iOS, time lapse]
 ---
 
 Drawing small faces with Paper and Pencil is no joke. PaperFaces portrait of Juan and Kyle.

@@ -8,7 +8,7 @@ image:
   height: 268
   feature: *image
 categories: [articles]
-tags: [Nintendo, Wii, video games, review]
+tags: [video games, review]
 toc: true
 ---
 

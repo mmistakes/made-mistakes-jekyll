@@ -8,7 +8,7 @@ image:
   height: 489
   feature: *image
 categories: [mastering-paper]
-tags: [Pogo Connect, Paper for iOS, Procreate, stylus, review, iPad]
+tags: [Pogo Connect, Paper for iOS, Procreate, review, Apple]
 comments_locked: true
 toc: true
 ---

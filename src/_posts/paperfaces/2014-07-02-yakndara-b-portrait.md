@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-yakndara-b-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, eye, Sktchy, black and white]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Yakndara B. inspired by a photograph on Sktchy.

@@ -13,7 +13,7 @@ gallery:
     image_path: /assets/images/painting-greedo-process-1-900.jpg
     alt: "Pencil sketch work in process"
 categories: [tiny-paintings]
-tags: [watercolor, painting, drawing, portrait, illustration, Star Wars]
+tags: [watercolor, portrait, illustration, Star Wars]
 ---
 
 Tiny portrait of Greedo from **Star Wars**. Painted with watercolor on hot press paper.

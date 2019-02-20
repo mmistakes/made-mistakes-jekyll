@@ -3,7 +3,7 @@ title: "Mastering Paper for iOS: drawing outer space"
 last_modified_at: 2018-11-06T12:05:00-05:00
 excerpt: "Learn how to draw outer space scenes filled with stars, galaxies, planets, black holes and more with Paper for iOS and a Pencil stylus."
 categories: [mastering-paper]
-tags: [Paper for iOS, tutorial, blend, Pencil by 53, stylus, iPad]
+tags: [Paper for iOS, tutorial, Pencil by 53, Apple]
 image:
   path: &image /assets/images/paper-53-space-feature.jpg
   width: 1280

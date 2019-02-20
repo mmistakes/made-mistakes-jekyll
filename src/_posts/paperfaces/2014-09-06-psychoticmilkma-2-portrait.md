@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-psychoticmilkma-2-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, bokeh, blend]
+tags: [portrait, illustration, Paper for iOS, black and white, bokeh]
 ---
 
 PaperFaces portrait for [@psychoticmilkma](https://twitter.com/psychoticmilkma), a winner from my first [portrait giveaway]({% post_url /notes/2014-08-24-paperfaces-giveaway %}).

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-beauty-profile-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, bokeh]
+tags: [portrait, illustration, Paper for iOS, bokeh]
 ---
 
 PaperFaces portrait commission. *Beauty is in the moment, not the image.*

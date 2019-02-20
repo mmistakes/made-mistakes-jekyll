@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-mr-spock-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Star Trek, Mix, time lapse, black and white]
+tags: [portrait, illustration, Paper for iOS, time lapse, black and white]
 ---
 
 PaperFaces portrait tribute of Leonard Nimoy as Mr. Spock.

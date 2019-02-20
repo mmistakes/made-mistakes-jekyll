@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-ally-cat-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse]
+tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse]
 ---
 
 PaperFaces portrait of Ally Cat inspired by a [photograph on Sktchy](https://sktchy.com/VxlSm).

@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-sus-pek-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, beard, Sktchy, Mix]
+tags: [portrait, illustration, Paper for iOS, beard, Sktchy]
 ---
 
 PaperFaces portrait of Sus Pek inspired by a [photograph on Sktchy](https://sktchy.com/ucx5rc).

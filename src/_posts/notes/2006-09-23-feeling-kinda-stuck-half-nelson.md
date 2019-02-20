@@ -8,7 +8,7 @@ image:
   feature: *image
   caption: "DVD screengrab from [**DB Cover**]"
 categories: [notes]
-tags: [film, review]
+tags: [review]
 support: false
 ---
 

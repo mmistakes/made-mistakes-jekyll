@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-tati-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, bokeh, time lapse]
+tags: [portrait, illustration, Paper for iOS, bokeh, time lapse]
 ---
 
 My first PaperFaces portrait commission using two styli to complete.

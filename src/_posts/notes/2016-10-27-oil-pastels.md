@@ -16,7 +16,7 @@ gallery:
     image_path: /assets/images/oil-pastels-process-3-600.jpg
     alt: "The finished piece before removing the mask"
 categories: [notes]
-tags: [TIL, drawing, illustration, painting]
+tags: [TIL, illustration]
 last_modified_at: 2019-02-15T15:55:53-05:00
 ---
 

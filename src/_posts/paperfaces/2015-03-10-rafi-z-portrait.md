@@ -7,7 +7,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-rafi-z-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, Mix, time lapse, black and white]
+tags: [portrait, illustration, Paper for iOS, Sktchy, time lapse, black and white]
 ---
 
 PaperFaces portrait of Rafi Z. inspired by a [photograph on Sktchy](https://sktchy.com/WsDAeD).

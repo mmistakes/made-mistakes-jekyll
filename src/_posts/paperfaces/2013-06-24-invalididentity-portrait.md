@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-invalididentity-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, eye]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@invalididentity](https://twitter.com/invalididentity). Another eye closeup for your viewing pleasure.

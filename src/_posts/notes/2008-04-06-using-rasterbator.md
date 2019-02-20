@@ -7,7 +7,7 @@ image:
   height: 640
   feature: *image
 categories: [notes]
-tags: [Rasterbator, time lapse, tech geek]
+tags: [tech geek, time lapse]
 last_modified_at: 2017-09-08T09:15:00-04:00
 toc: true
 ---

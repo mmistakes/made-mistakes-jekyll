@@ -8,7 +8,7 @@ image:
   feature: *image
   caption: "DVD screengrab from [**The Movie Database**](http://www.themoviedb.org/movie/4552-janghwa-hongryeon)"
 categories: [notes]
-tags: [horror, film, review]
+tags: [review]
 support: false
 last_modified_at: 2018-02-09T09:25:28-05:00
 ---

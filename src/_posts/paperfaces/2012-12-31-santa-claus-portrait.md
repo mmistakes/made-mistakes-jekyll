@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-santa-claus-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, beard, Christmas]
+tags: [portrait, illustration, Paper for iOS, beard]
 ---
 
 PaperFaces portrait of Santa Claus. Ho ho ho!

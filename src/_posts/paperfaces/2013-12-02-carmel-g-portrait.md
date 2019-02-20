@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-carmel-g-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, Sktchy]
+tags: [portrait, illustration, Paper for iOS, Sktchy]
 ---
 
 PaperFaces portrait of [Carmel G.](https://sktchy.com/uViYnH).

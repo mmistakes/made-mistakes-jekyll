@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-danya-w-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Danya W. inspired by a [photograph on Sktchy](https://sktchy.com/NjZR3H).

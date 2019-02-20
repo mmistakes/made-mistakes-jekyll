@@ -16,7 +16,7 @@ gallery:
     image_path: /assets/images/painting-michael-rose-process-2-600.jpg
     alt: "First layer of watercolor glaze"
 categories: [tiny-paintings]
-tags: [Michael Rose, watercolor, painting, drawing, portrait, illustration]
+tags: [watercolor, portrait, self portrait, illustration]
 ---
 
 Tiny self portrait painted with watercolor on hot press paper.

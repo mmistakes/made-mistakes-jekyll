@@ -17,7 +17,7 @@ gallery:
     image_path: /assets/images/paperfaces-becca-pj-process-3-600.jpg
     alt: "Work in process screenshot"
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Sktchy, black and white, Mix]
+tags: [portrait, illustration, Paper for iOS, Sktchy, black and white]
 ---
 
 PaperFaces portrait of Becca P.J. inspired by a [photograph on Sktchy](https://sktchy.com/WCFVrC).

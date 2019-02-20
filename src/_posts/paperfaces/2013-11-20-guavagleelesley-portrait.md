@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-guavagleelesley-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 First portrait I've drawn using that new Pencil stylus everyone is talking about. Using the new blending feature was a ton of fun and really came in handy for creating the soft water effect in the background.

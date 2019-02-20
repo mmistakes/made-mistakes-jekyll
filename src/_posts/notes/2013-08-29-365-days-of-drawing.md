@@ -7,7 +7,7 @@ image:
   height: 704
   feature: *image
 categories: [notes]
-tags: [drawing, illustration, 365 project, Paper for iOS, iPad]
+tags: [life, illustration, Paper for iOS, Apple]
 comments: true
 comments_locked: true
 last_modified_at: 2017-12-12T16:27:38-05:00

@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-clayton-b-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, black and white, Mix]
+tags: [portrait, illustration, Paper for iOS, black and white]
 ---
 
 PaperFaces portrait commission of Clayton B. 

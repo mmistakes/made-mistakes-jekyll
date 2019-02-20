@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-nick-b-2-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, Mix]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait commission of Nick B. 

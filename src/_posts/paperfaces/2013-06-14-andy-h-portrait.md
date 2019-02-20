@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-andy-h-twitter-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, eye]
+tags: [portrait, illustration, Paper for iOS]
 ---
 
 PaperFaces portrait of [@_andy_h_](https://twitter.com/_andy_h_).

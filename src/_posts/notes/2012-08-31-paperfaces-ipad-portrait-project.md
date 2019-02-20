@@ -8,7 +8,7 @@ image:
   height: 640
   feature: *image
 categories: [notes]
-tags: [Paper for iOS, iPad, drawing, illustration]
+tags: [Paper for iOS, Apple, illustration]
 comments: true
 comments_locked: true
 toc: true

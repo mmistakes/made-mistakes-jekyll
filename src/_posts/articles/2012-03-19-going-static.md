@@ -8,7 +8,7 @@ image:
   height: 321
   feature: *image
 categories: [articles]
-tags: [Jekyll, web development, design, open source, CMS]
+tags: [Jekyll, web development, design, open source]
 comments: true
 comments_locked: true
 toc: true

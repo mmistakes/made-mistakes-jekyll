@@ -8,7 +8,7 @@ image:
   height: 522
   feature: *image
 categories: [articles]
-tags: [drawing, illustration, 365 project, Paper for iOS, iPad]
+tags: [illustration, Paper for iOS, Apple]
 comments: false
 toc: true
 ---

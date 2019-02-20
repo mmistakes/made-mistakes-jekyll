@@ -7,7 +7,7 @@ image:
   height: 384
   feature: *image
 categories: [notes]
-tags: [romance]
+tags: [life]
 support: false
 last_modified_at: 2018-02-09T08:20:09-05:00
 ---

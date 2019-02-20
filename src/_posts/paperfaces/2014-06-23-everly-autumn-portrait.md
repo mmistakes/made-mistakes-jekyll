@@ -6,7 +6,7 @@ image:
   feature: *image
   thumbnail: /assets/images/paperfaces-everly-autumn-150.jpg
 categories: [paperfaces]
-tags: [portrait, illustration, Paper for iOS, blend, black and white, bokeh, twins]
+tags: [portrait, illustration, Paper for iOS, black and white, bokeh, twins]
 ---
 
 Taking a little break from drawing the faces of strangers this weekend to sketch the two little ones in my life and their wild hair. First up, Everly.
