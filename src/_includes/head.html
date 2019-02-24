@@ -224,6 +224,10 @@
     <link rel="token_endpoint" href="{{ site.token_endpoint_url }}">
   {% endif %}
 
+  {% if site.authorization_endpoint_url %}
+    <link rel="authorization_endpoint" href="{{ site.authorization_endpoint_url }}">
+  {% endif %}
+
   {% if site.microblog_url %}
     <link rel="me" href="{{ site.microblog_url }}">
   {% endif %}

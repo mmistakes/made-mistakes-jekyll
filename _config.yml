@@ -39,6 +39,7 @@ pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
 webmention_url          : "https://webmention.io/mademistakes.com/webmention"
 micropub_url            : "https://mm-micropub-to-github.herokuapp.com/micropub/main"
 token_endpoint_url      : "https://tokens.indieauth.com/token"
+authorization_endpoint_url : "https://indieauth.com/auth"
 microblog_url           : "https://micro.blog/mmistakes"
 
 # Site owner
