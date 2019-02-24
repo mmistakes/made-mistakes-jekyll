@@ -37,7 +37,7 @@ favicon_version         : "9BPnoQEY43"
 
 pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
 webmention_url          : "https://webmention.io/mademistakes.com/webmention"
-micropub_url            : # "https://mm-micropub-to-github.herokuapp.com/micropub/main"
+micropub_url            : "https://mm-micropub-to-github.herokuapp.com/micropub/main"
 token_endpoint_url      : "https://tokens.indieauth.com/token"
 microblog_url           : "https://micro.blog/mmistakes"
 
