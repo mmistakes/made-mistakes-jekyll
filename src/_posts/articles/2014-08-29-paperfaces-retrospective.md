@@ -7,6 +7,8 @@ image:
   width: 1600
   height: 522
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [articles]
 tags: [illustration, Paper for iOS, Apple]
 comments: false

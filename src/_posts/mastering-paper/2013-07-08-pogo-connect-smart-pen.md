@@ -7,6 +7,8 @@ image:
   width: 1488
   height: 489
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [mastering-paper]
 tags: [Pogo Connect, Paper for iOS, Procreate, review, Apple]
 comments_locked: true

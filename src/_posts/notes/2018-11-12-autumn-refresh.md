@@ -8,6 +8,8 @@ image:
   height: 1059
   feature: *image
   caption: "[Photo by **Aaron Burden** on Unsplash](https://unsplash.com/photos/Ndc6FS9v_hw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [Jekyll, Gatsby, web development, Netlify]
 comments: true

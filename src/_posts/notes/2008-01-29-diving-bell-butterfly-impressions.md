@@ -7,6 +7,8 @@ image:
   height: 512
   feature: *image
   caption: "DVD screengrab from [**Artsy Fartsy Film**](http://artsyfartsyfilm.blogspot.com)"
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [review]
 support: false

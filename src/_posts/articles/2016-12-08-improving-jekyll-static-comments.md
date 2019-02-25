@@ -7,6 +7,8 @@ image:
   height: 610
   feature: *image
   caption: "[Photo by **Gabriel Santiago**](https://unsplash.com/@gabrielssantiago)"
+twitter:
+  card: summary_large_image
 categories: [articles]
 tags: [web development, GitHub, Jekyll, tutorial]
 comments: true

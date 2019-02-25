@@ -26,6 +26,11 @@ section:
     actions:
       - label: "see more →"
         url: "/work/"
+image:
+  facebook: "/assets/images/android-chrome-384x384.png"
+  twitter: "/assets/images/android-chrome-384x384.png"
+twitter:
+  card: summary
 date: 2016-08-26
 last_modified_at: 2019-02-16T10:21:51-05:00
 ---

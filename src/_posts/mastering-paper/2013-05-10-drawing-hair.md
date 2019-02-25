@@ -7,6 +7,8 @@ image:
   width: 1280
   height: 373
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [mastering-paper]
 tags: [Paper for iOS, tutorial, Apple]
 toc: true

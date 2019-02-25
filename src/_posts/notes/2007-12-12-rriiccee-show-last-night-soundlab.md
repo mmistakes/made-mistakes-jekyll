@@ -6,6 +6,8 @@ image:
   width: 500
   height: 293
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [life, Buffalo, review]
 support: false

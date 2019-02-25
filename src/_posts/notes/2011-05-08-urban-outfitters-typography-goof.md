@@ -6,6 +6,8 @@ image:
   width: 1024
   height: 512
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [design]
 support: false

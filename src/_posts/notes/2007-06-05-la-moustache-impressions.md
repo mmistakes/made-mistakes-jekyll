@@ -7,6 +7,8 @@ image:
   height: 640
   feature: *image
   caption: "DVD screengrab from [**The Movie Database**](http://www.themoviedb.org/movie/16998-la-moustache)"
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [review]
 support: false

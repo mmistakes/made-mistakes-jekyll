@@ -6,6 +6,8 @@ tags: [Apple, tech geek]
 last_modified_at: 2015-12-15
 image:
   path: &image /assets/images/ipod-battery-settlement-teaser.jpg
+twitter:
+  card: summary_large_image
 support: false
 ---
 

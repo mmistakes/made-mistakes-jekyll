@@ -9,6 +9,8 @@ image:
   width: 1280
   height: 402
   feature: *image
+twitter:
+  card: summary_large_image
 ---
 
 To celebrate two years of [drawing portraits every day]({% post_url /notes/2012-08-31-paperfaces-ipad-portrait-project %}), I'm launching a fun giveaway leading up to the special day.

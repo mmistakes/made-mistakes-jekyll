@@ -7,6 +7,8 @@ image:
   width: 500
   height: 268
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [articles]
 tags: [video games, review]
 toc: true

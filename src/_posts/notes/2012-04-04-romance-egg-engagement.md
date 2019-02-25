@@ -6,6 +6,8 @@ image:
   width: 768
   height: 384
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [life]
 support: false

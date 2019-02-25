@@ -9,6 +9,8 @@ image:
   height: 700
   feature: *image
   caption: "Photo by [**Ian Schneider**](https://unsplash.com/@goian)"
+twitter:
+  card: summary_large_image
 comments: true
 comments_locked: true
 toc: true

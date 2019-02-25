@@ -9,6 +9,8 @@ image:
   width: 1280
   height: 508
   feature: *image
+twitter:
+  card: summary_large_image
 comments_locked: true
 last_modified_at: 2018-11-06T12:02:42-05:00
 ---

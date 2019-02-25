@@ -7,6 +7,8 @@ image:
   width: 1920
   height: 900
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [mastering-paper]
 tags: [Pencil by 53, Paper for iOS, Apple]
 comments_locked: true

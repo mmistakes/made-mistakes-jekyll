@@ -6,6 +6,8 @@ image:
   width: 1920
   height: 546
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [life, Paper for iOS, tech geek, twins]
 comments: true

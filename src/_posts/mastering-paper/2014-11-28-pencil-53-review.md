@@ -9,6 +9,8 @@ image:
   width: 1920
   height: 673
   feature: *image
+twitter:
+  card: summary_large_image
 comments_locked: true
 toc: true
 ---

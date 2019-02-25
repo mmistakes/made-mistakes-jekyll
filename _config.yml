@@ -4,8 +4,7 @@ destination: .tmp/dist
 
 title: "Made Mistakes"
 description: "Personal website of designer Michael Rose (@mmistakes)"
-logo: "/assets/images/android-chrome-384x384.png"
-teaser: "/assets/images/default-teaser.png"
+logo: &logo "/assets/images/android-chrome-384x384.png"
 locale: "en_US"
 words_per_minute: 200
 
@@ -149,6 +148,11 @@ defaults:
       breadcrumbs:
         - label: "Blog articles"
           url: /articles/
+      image:
+        facebook: *logo
+        twitter: *logo
+      twitter:
+        card: summary
   # Mastering Paper
   - scope:
       path: _posts/mastering-paper
@@ -162,6 +166,11 @@ defaults:
       breadcrumbs:
         - label: "Mastering Paper for iOS"
           url: /mastering-paper/
+      image:
+        facebook: *logo
+        twitter: *logo
+      twitter:
+        card: summary
   # Notes
   - scope:
       path: _posts/notes
@@ -173,6 +182,11 @@ defaults:
       breadcrumbs:
         - label: "Notes"
           url: /notes/
+      image:
+        facebook: *logo
+        twitter: *logo
+      twitter:
+        card: summary
   # PaperFaces
   - scope:
       path: _posts/paperfaces
@@ -250,12 +264,22 @@ defaults:
       breadcrumbs:
         - label: "Frequently asked questions"
           url: /faqs/
+      image:
+        facebook: *logo
+        twitter: *logo
+      twitter:
+        card: summary
   # Pages
   - scope:
       path: _pages
       type: pages
     values:
       layout: page
+      image:
+        facebook: *logo
+        twitter: *logo
+      twitter:
+        card: summary
 
 # Plugin: Pagination (jekyll-paginate-v2)
 pagination:

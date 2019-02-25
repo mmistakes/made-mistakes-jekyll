@@ -5,6 +5,8 @@ image:
   width: 1600
   height: 1103
   feature: *image
+twitter:
+  card: summary_large_image
 gallery:
   - url: /assets/images/oil-pastels-process-1.jpg
     image_path: /assets/images/oil-pastels-process-1-600.jpg

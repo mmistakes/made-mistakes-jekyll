@@ -6,6 +6,8 @@ image:
   width: 1280
   height: 704
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [life, illustration, Paper for iOS, Apple]
 comments: true

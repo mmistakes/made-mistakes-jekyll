@@ -6,6 +6,8 @@ image:
   width: 1280
   height: 721
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [Sktchy, tech geek]
 ---

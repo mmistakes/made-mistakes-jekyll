@@ -7,6 +7,8 @@ image:
   width: 1280
   height: 640
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [life, tattoo, vegan]
 support: false

@@ -7,6 +7,8 @@ image:
   width: 1024
   height: 321
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [articles]
 tags: [Jekyll, web development, design, open source]
 comments: true

@@ -7,6 +7,8 @@ image:
   height: 399
   feature: *image
   caption: "DVD screengrab from [**DB Cover**]"
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [review]
 support: false

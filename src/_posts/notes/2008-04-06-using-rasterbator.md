@@ -6,6 +6,8 @@ image:
   width: 1280
   height: 640
   feature: *image
+twitter:
+  card: summary_large_image
 categories: [notes]
 tags: [tech geek, time lapse]
 last_modified_at: 2017-09-08T09:15:00-04:00

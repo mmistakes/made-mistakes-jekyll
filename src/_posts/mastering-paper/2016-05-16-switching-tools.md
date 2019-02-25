@@ -8,6 +8,8 @@ image:
   width: 1587
   height: 369
   feature: *image
+twitter:
+  card: summary_large_image
 toc: true
 last_modified_at: 2018-11-06T12:06:36-05:00
 ---
