@@ -1,19 +1,19 @@
 # Site wide configuration
-source                   : .tmp/src
-destination              : .tmp/dist
+source: .tmp/src
+destination: .tmp/dist
 
-title                    : "Made Mistakes"
-description              : "Personal website of designer Michael Rose (@mmistakes)"
-logo                     : "/assets/images/android-chrome-384x384.png"
-teaser                   : "/assets/images/default-teaser.png"
-locale                   : "en_US"
-words_per_minute         : 200
+title: "Made Mistakes"
+description: "Personal website of designer Michael Rose (@mmistakes)"
+logo: "/assets/images/android-chrome-384x384.png"
+teaser: "/assets/images/default-teaser.png"
+locale: "en_US"
+words_per_minute: 200
 
-repository               : "mmistakes/made-mistakes-jekyll"
-url                      : "https://mademistakes.com"
+repository: "mmistakes/made-mistakes-jekyll"
+url: "https://mademistakes.com"
 
 social:
-  name                   : "Michael Rose"
+  name: "Michael Rose"
   links:
     - "https://twitter.com/mmistakes"
     - "https://www.facebook.com/michaelrose"
@@ -21,45 +21,45 @@ social:
     - "https://github.com/mmistakes"
     - "https://micro.blog/mmistakes"
 
-google_site_verification : "geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo"
-bing_site_verification   : "D81F4C18A6CB3018F64D7C827D953DFD"
-alexa_site_verification  : "Y5DYjZ4VWlrQzBP5kcQJeOKLNas"
-yandex_site_verification : "55a5419baf76a498"
+google_site_verification: "geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo"
+bing_site_verification: "D81F4C18A6CB3018F64D7C827D953DFD"
+alexa_site_verification: "Y5DYjZ4VWlrQzBP5kcQJeOKLNas"
+yandex_site_verification: "55a5419baf76a498"
 
-google_ad-client         : "ca-pub-7328585512091257"
-google_ad-slot           : "3049671934"
-google_analytics         : "UA-2011187-1"
+google_ad-client: "ca-pub-7328585512091257"
+google_ad-slot: "3049671934"
+google_analytics: "UA-2011187-1"
 
 feed:
-  path                  : "https://mademistakes.com/atom.xml"
+  path: "https://mademistakes.com/atom.xml"
 
-favicon_version         : "9BPnoQEY43"
+favicon_version: "9BPnoQEY43"
 
-pingback_url            : "https://webmention.io/mademistakes.com/xmlrpc"
-webmention_url          : "https://webmention.io/mademistakes.com/webmention"
-micropub_url            : "https://mm-micropub-to-github.herokuapp.com/micropub/main"
-token_endpoint_url      : "https://tokens.indieauth.com/token"
-authorization_endpoint_url : "https://indieauth.com/auth"
-microblog_url           : "https://micro.blog/mmistakes"
+pingback_url: "https://webmention.io/mademistakes.com/xmlrpc"
+webmention_url: "https://webmention.io/mademistakes.com/webmention"
+micropub_url: "https://mm-micropub-to-github.herokuapp.com/micropub/main"
+token_endpoint_url: "https://tokens.indieauth.com/token"
+authorization_endpoint_url: "https://indieauth.com/auth"
+microblog_url: "https://micro.blog/mmistakes"
 
 # Site owner
 author:
-  name                   : "Michael Rose"
-  uri                    : &uri "https://mademistakes.com/about/"
-  url                    : *uri
-  bio                    : "Just another boring, tattooed, time traveling designer."
-  picture                : "/assets/images/michael-rose-glitched.jpg"
-  twitter                : "https://twitter.com/mmistakes"
-  facebook               : "https://www.facebook.com/michaelrose"
-  instagram              : "https://www.instagram.com/mmistakes/"
-  github                 : "https://github.com/mmistakes"
+  name: "Michael Rose"
+  uri: &uri "https://mademistakes.com/about/"
+  url: *uri
+  bio: "Just another boring, tattooed, time traveling designer."
+  picture: "/assets/images/michael-rose-glitched.jpg"
+  twitter: "https://twitter.com/mmistakes"
+  facebook: "https://www.facebook.com/michaelrose"
+  instagram: "https://www.instagram.com/mmistakes/"
+  github: "https://github.com/mmistakes"
 
 twitter:
-  username               : "mmistakes"
+  username: "mmistakes"
 
 # Staticman comments (full configuration in staticman.yml)
 staticman:
-  branch                 : "master"
+  branch: "master"
 
 # reCAPTCHA keys
 reCaptcha:
@@ -67,21 +67,21 @@ reCaptcha:
   secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 
 # Jekyll configuration
-permalink                : /:categories/:title/
-lsi                      : true
-future                   : false
-show_drafts              : false
-markdown                 : kramdown
+permalink: /:categories/:title/
+lsi: true
+future: false
+show_drafts: false
+markdown: kramdown
 kramdown:
-  toc_levels             : 1..3
-  input                  : GFM
-  hard_wrap              : false
-  auto_ids               : true
-  entity_output          : as_char
-  smart_quotes           : lsquo,rsquo,ldquo,rdquo
-  enable_coderay         : false
-highlighter              : rouge
-strict_front_matter      : true
+  toc_levels: 1..3
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+highlighter: rouge
+strict_front_matter: true
 keep_files:
   - .git
 include:
@@ -123,17 +123,17 @@ plugins:
 # Collections
 collections:
   faqs:
-    output    : true
-    permalink : /:collection/:path/
-    title     : FAQs
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs
   work:
-    output    : true
-    permalink : /:collection/:path/
-    title     : Works
+    output: true
+    permalink: /:collection/:path/
+    title: Works
   components:
-    output    : false
+    output: false
   colors:
-    output    : false
+    output: false
 
 # Front Matter Defaults
 defaults:
