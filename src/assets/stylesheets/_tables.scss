@@ -3,15 +3,17 @@
    ========================================================================== */
 
 table {
-  display: block;
   border-collapse: collapse;
   width: 100%;
-  overflow-x: auto;
   font-size: ms(-1);
   /* For Firefox to horizontally scroll wider tables */
   // scss-lint:disable DuplicateProperty
   word-break: normal;
   word-break: keep-all;
+
+  code {
+    word-break: break-all;
+  }
 }
 
 tr th {

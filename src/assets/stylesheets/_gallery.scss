@@ -88,6 +88,7 @@
     @include breakpoint($md-up) {
       margin-right: $col-gap;
       width: $width;
+      height: 100%;
 
       // Remove margin in last column
       &:nth-of-type(2n) {

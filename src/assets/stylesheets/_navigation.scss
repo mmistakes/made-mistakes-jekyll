@@ -19,7 +19,11 @@
   display: block;
   @include margin-top(2);
   font-family: $monospace-font;
-  font-size: ms(-1);
+  font-size: ms(-2);
+
+  @include breakpoint($md-up) {
+    font-size: ms(-1);
+  }
 }
 
 /*
@@ -28,7 +32,7 @@
 
 .breadcrumbs {
   font-family: $monospace-font;
-  font-size: ms(-1);
+  font-size: ms(-2);
   @include margin-bottom(1);
 
   @include breakpoint($md-down) {

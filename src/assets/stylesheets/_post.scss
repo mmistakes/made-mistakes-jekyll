@@ -4,8 +4,8 @@
 
 .post {
   @include breakpoint($md-down) {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   @include breakpoint($md-up) {

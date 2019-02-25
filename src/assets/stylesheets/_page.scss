@@ -4,8 +4,8 @@
 
 .page {
   @include breakpoint($md-down) {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   @include breakpoint($md-up) {
@@ -72,23 +72,25 @@
 
 .page__meta {
   font-family: $monospace-font;
-  font-size: ms(-1);
+  font-size: ms(-2);
   text-transform: uppercase;
 
   @include breakpoint($md-up) {
     grid-column: 3 / span 2;
     grid-row: 3 / span 1;
+    @include margin-top(1);
     @include margin-bottom(1);
     align-self: start;
+    font-size: ms(-1);
 
-    &::before {
-      content: "";
-      display: block;
-      width: 2rem;
-      height: 3px;
-      @include margin-bottom(1);
-      background-color: $text-color;
-    };
+    // &::before {
+    //   content: "";
+    //   display: block;
+    //   width: 2rem;
+    //   height: 3px;
+    //   @include margin-bottom(1);
+    //   background-color: $text-color;
+    // };
 
     span {
       display: block;
@@ -112,8 +114,8 @@
   @include margin-top(0.5);
 
   @include breakpoint($md-down) {
-    margin-left: -5%;
-    margin-right: -5%;
+    margin-left: -5vw;
+    margin-right: -5vw;
   }
 
   @include breakpoint($md-up) {
@@ -210,8 +212,12 @@
 
   li {
     font-family: $monospace-font;
-    font-size: ms(-1);
+    font-size: ms(-2);
     @include line-height(1);
+
+    @include breakpoint($md-up) {
+      font-size: ms(-1);
+    }
   }
 
   .title {
@@ -240,11 +246,12 @@
     display: inline-block;
     margin-right: 1rem;
     font-family: $monospace-font;
-    font-size: ms(-1);
+    font-size: ms(-2);
     @include line-height(1);
 
     @include breakpoint($md-up) {
       display: block;
+      font-size: ms(-1);
 
       &::before {
         content: '_';

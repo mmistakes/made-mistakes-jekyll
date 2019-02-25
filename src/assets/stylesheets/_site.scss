@@ -44,19 +44,20 @@
 }
 
 .author {
-  align-self: flex-start;
-  font-family: $monospace-font;
-  font-size: ms(-1);
+  display: none;
+  // align-self: flex-start;
+  // font-family: $monospace-font;
+  // font-size: ms(-1);
 
-  @include breakpoint($md-up) {
-    @include margin-bottom(1);
-  }
+  // @include breakpoint($md-up) {
+  //   @include margin-bottom(1);
+  // }
 
-  .byline {
-    &::before {
-      content: "__by ";
-    }
-  }
+  // .byline {
+  //   &::before {
+  //     content: "__by ";
+  //   }
+  // }
 }
 
 .site__footer {
