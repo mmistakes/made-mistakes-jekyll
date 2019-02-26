@@ -2,7 +2,7 @@
 title: "What tablet do you draw and paint on?"
 type: paper
 date: 2016-08-26
-last_modified_at: 2018-03-22T09:41:26-04:00
+last_modified_at: 2019-02-25T20:56:14-05:00
 order: 2
 ---
 
@@ -12,8 +12,4 @@ I use Apple Pencil exclusively and it's hands down the best stylus I've used on 
 
 It doesn't disconnect, lag, or stutter while drawing or painting.
 
-As far as protecting my iPad Pro:
-
-- I don't use a screen protector.
-- [Smart cover case](http://amzn.to/2pzUCpY).
-- Glow in the dark silicone [Apple Pencil grip](http://amzn.to/2G9nT5x).
+As far as protection --- I use a cheap [smart cover case](http://amzn.to/2pzUCpY), glow in the dark silicone [Apple Pencil grip](http://amzn.to/2G9nT5x), and I don't use a screen protector.
