@@ -43,23 +43,6 @@
   color: #fff;
 }
 
-.author {
-  display: none;
-  // align-self: flex-start;
-  // font-family: $monospace-font;
-  // font-size: ms(-1);
-
-  // @include breakpoint($md-up) {
-  //   @include margin-bottom(1);
-  // }
-
-  // .byline {
-  //   &::before {
-  //     content: "__by ";
-  //   }
-  // }
-}
-
 .site__footer {
   @include margin-top(4);
   @include margin-bottom(1);

@@ -7,7 +7,6 @@ layout: default
 {% include page-intro.html %}
 
 <main id="main" class="page__main" aria-label="Main content">
-  {% include breadcrumbs.html %}
   {% if page.introduction %}
     {{ page.introduction | markdownify }}
   {% elsif page.layout == 'autopage_tags' %}

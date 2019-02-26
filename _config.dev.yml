@@ -1,16 +1,16 @@
 # Site wide configuration
 
-url                      : ""
+url: ""
 
-profile                  : true
-future                   : true
-show_drafts              : true
+profile: true
+future: true
+show_drafts: true
 
-google_site_verification : ""
-bing_site_verification   : ""
-alexa_site_verification  : ""
-yandex_site_verification : ""
+google_site_verification: ""
+bing_site_verification: ""
+alexa_site_verification: ""
+yandex_site_verification: ""
 
-google_ad-client         : ""
-google_ad-slot           : ""
-google_analytics         : ""
+google_ad-client: ""
+google_ad-slot: ""
+google_analytics: ""

@@ -19,11 +19,7 @@
   display: block;
   @include margin-top(2);
   font-family: $monospace-font;
-  font-size: ms(-2);
-
-  @include breakpoint($md-up) {
-    font-size: ms(-1);
-  }
+  font-size: ms(-1);
 }
 
 /*
@@ -31,11 +27,66 @@
    ========================================================================== */
 
 .breadcrumbs {
-  font-family: $monospace-font;
-  font-size: ms(-2);
-  @include margin-bottom(1);
+  display: flex;
 
-  @include breakpoint($md-down) {
-    @include margin-top(1);
+  @include breakpoint($md-up) {
+    flex-direction: column;
+  }
+
+  .breadcrumb {
+    @include breakpoint($md-up) {
+      border-left: 2px solid #000;
+    }
+
+    &:first-child {
+      border-left: 2px solid #000;
+    }
+
+    &:not(:first-child) {
+      @include breakpoint($md-down) {
+        padding-left: 0.25em;
+        border-left-width: 0;
+      }
+
+      @include breakpoint($md-up) {
+        margin-left: 2em;
+      }
+    }
+
+    a {
+      position: relative;
+      display: block;
+
+      &:before {
+        position: absolute;
+        display: block;
+        content: '';
+        top: 50%;
+        width: 1rem;
+        height: 2px;
+        background-color: #000;
+      }
+
+      &:after {
+        position: absolute;
+        display: block;
+        content: '';
+        left: -2px;
+        bottom: 0;
+        width: calc(1rem + 2px);
+        height: calc(50% - 2px);
+        background-color: #fff;
+      }
+    }
+
+    span {
+      padding-left: 1.25rem;
+    }
+  }
+}
+
+span + .breadcrumbs {
+  @include breakpoint($md-up) {
+    @include margin-top(0.5);
   }
 }

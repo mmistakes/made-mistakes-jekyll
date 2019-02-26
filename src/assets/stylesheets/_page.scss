@@ -73,7 +73,6 @@
 .page__meta {
   font-family: $monospace-font;
   font-size: ms(-2);
-  text-transform: uppercase;
 
   @include breakpoint($md-up) {
     grid-column: 3 / span 2;
@@ -81,16 +80,6 @@
     @include margin-top(1);
     @include margin-bottom(1);
     align-self: start;
-    font-size: ms(-1);
-
-    // &::before {
-    //   content: "";
-    //   display: block;
-    //   width: 2rem;
-    //   height: 3px;
-    //   @include margin-bottom(1);
-    //   background-color: $text-color;
-    // };
 
     span {
       display: block;
@@ -101,10 +90,30 @@
     grid-column: 3 / 4;
   }
 
-  .page__date {
+  .page__work {
+    @include breakpoint($md-down) {
+      &::after {
+        content: ' · ';
+      }
+    }
+  }
+
+  .page__read-time {
     @include breakpoint($md-down) {
       &::before {
         content: ' · ';
+      }
+    }
+  }
+
+  .page__author {
+    @include breakpoint($md-down) {
+      display: none;
+    }
+
+    .name {
+      &::before {
+        content: "by ";
       }
     }
   }
@@ -212,12 +221,8 @@
 
   li {
     font-family: $monospace-font;
-    font-size: ms(-2);
+    font-size: ms(-1);
     @include line-height(1);
-
-    @include breakpoint($md-up) {
-      font-size: ms(-1);
-    }
   }
 
   .title {
@@ -246,16 +251,11 @@
     display: inline-block;
     margin-right: 1rem;
     font-family: $monospace-font;
-    font-size: ms(-2);
+    font-size: ms(-1);
     @include line-height(1);
 
     @include breakpoint($md-up) {
       display: block;
-      font-size: ms(-1);
-
-      &::before {
-        content: '_';
-      }
     }
   }
 }

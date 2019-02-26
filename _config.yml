@@ -142,7 +142,7 @@ defaults:
       type: posts
     values:
       layout: post
-      byline: true
+      byline: false
       read_time: true
       support: true
       breadcrumbs:
@@ -159,7 +159,7 @@ defaults:
       type: posts
     values:
       layout: post
-      byline: true
+      byline: false
       read_time: true
       comments: true
       support: true
@@ -177,7 +177,7 @@ defaults:
       type: posts
     values:
       layout: post
-      byline: true
+      byline: false
       read_time: true
       breadcrumbs:
         - label: "Notes"
@@ -193,7 +193,7 @@ defaults:
       type: posts
     values:
       layout: post
-      byline: true
+      byline: false
       breadcrumbs:
         - label: "Works"
           url: /work/
@@ -208,7 +208,7 @@ defaults:
       type: posts
     values:
       layout: post
-      byline: true
+      byline: false
       breadcrumbs:
         - label: "Works"
           url: /work/
@@ -223,7 +223,7 @@ defaults:
       type: posts
     values:
       layout: post
-      byline: true
+      byline: false
       breadcrumbs:
         - label: "Works"
           url: /work/

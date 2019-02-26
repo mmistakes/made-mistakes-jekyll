@@ -5,29 +5,26 @@
 
 <div class="page__title">
   <h1 class="heading"><span>{{ page.alt_title | default: page.autopage.display_name | default: page.title | default: site.title | markdownify | strip_html | widont }}</span></h1>
-  {% if page.byline %}
-    {% include author %}
-    <div class="author">
-      <span class="byline">{{ author.name }}</span>
-    </div>
-  {% endif %}
 </div>
 
-{% if page.layout == 'post' %}
-  <div class="page__meta">
+<div class="page__meta">
+  {% if page.layout == 'post' %}
+    {% unless page.work %}
+      <span class="page__date">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string: 'ordinal', 'US' }}</time>
+      </span>
+    {% endunless %}
     {% if page.read_time %}
       <span class="page__read-time">{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</span>
     {% endif %}
-    {% if page.work %}
-      <span class="page__work">{{ page.work | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    {% if page.byline %}
+      {% include author.liquid %}
+      <span class="page__author">
+        <span class="name">{{ author.name }}</span>
+      </span>
     {% endif %}
-    <span class="page__date">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string: 'ordinal', 'US' }}</time>
-    </span>
-    {% if page.comments == true and site.data.comments[page.slug].size > 0 %}
-      <span class="page__comments-count"><a href="#comments">{{ site.data.comments[page.slug] | size }}&nbsp;comment{% if site.data.comments[page.slug].size > 1 %}s{% endif %}</a></span>
-    {% endif %}
-  </div>
-{% endif %}
+  {% endif %}
+  {% include breadcrumbs.html %}
+</div>
 
 {% include page__cover.html %}
