@@ -86,7 +86,5 @@
 }
 
 span + .breadcrumbs {
-  @include breakpoint($md-up) {
-    @include margin-top(0.5);
-  }
+  @include margin-top(0.75);
 }
