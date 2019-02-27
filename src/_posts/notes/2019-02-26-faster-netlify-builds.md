@@ -7,7 +7,7 @@ image:
   twitter: &image "/assets/images/netlify-deploy-log.png"
   facebook: *image
 twitter:
-  card: summary_large_image”
+  card: summary_large_image
 comments: true
 last_modified_at: 2019-02-26T21:06:25-05:00
 ---
