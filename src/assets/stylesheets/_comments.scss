@@ -87,6 +87,15 @@
 
   .title {
     @include margin-top(2);
+
+    &:before {
+      @include margin-bottom(1);
+      content: '';
+      display: block;
+      width: 2em;
+      height: 0.125em;
+      background-color: #000;
+    }
   }
 }
 
