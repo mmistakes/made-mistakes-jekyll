@@ -456,7 +456,7 @@ Copyright (c) 2015-2016, Jan Sorgalla.
 Lity is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
 
 Made Mistakes incorporates [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll),
-Copyright (c) 2017, Go Make Things, LLC.
+Copyright (c) 2019, Chris Ferdinandi.
 Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
 Made Mistakes incorporates [Lazysizes](https://github.com/aFarkas/lazysizes),
