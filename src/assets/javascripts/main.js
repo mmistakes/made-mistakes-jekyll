@@ -18,15 +18,18 @@ $(document).ready(function() {
   svg4everybody();
 
   // smooth scroll init
-  $("a").smoothScroll({ offset: -20 });
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    offset: 20,
+    speed: 200
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']").attr("data-lity", "");
 
   // Bigfoot footnotes
   var bigfoot = $.bigfoot({
-    actionOriginalFN: 'delete',
-    buttonMarkup: (
+    actionOriginalFN: "delete",
+    buttonMarkup:
       '<div class="bigfoot-footnote__container">' +
       ' <button href="#" class="bigfoot-footnote__button" rel="footnote"' +
       ' id="{{SUP:data-footnote-backlink-ref}}"' +
@@ -35,9 +38,8 @@ $(document).ready(function() {
       ' title="See footnote {{FOOTNOTENUM}}"' +
       ' data-bigfoot-footnote="{{FOOTNOTECONTENT}}">' +
       ' <span class="visually-hidden">{{FOOTNOTENUM}}</span>' +
-      ' </button>' +
-      '</div>'
-    )
+      " </button>" +
+      "</div>"
   });
 
   // Page cover object-fit fix
@@ -46,12 +48,14 @@ $(document).ready(function() {
   ieReg = /msie|Trident.*rv[ :]*11\./gi;
   ie = ieReg.test(userAgent);
 
-  if(ie) {
-    $(".page__cover").each(function () {
+  if (ie) {
+    $(".page__cover").each(function() {
       var $container = $(this),
-          imgUrl = $container.find("img").prop("src");
+        imgUrl = $container.find("img").prop("src");
       if (imgUrl) {
-        $container.css("backgroundImage", 'url(' + imgUrl + ')').addClass("custom-object-fit");
+        $container
+          .css("backgroundImage", "url(" + imgUrl + ")")
+          .addClass("custom-object-fit");
       }
     });
   }
@@ -99,10 +103,14 @@ function MenuOnTransitionEnd() {
 }
 
 myMenu.addEventListener("transitionend", MenuOnTransitionEnd, false);
-myToggle.addEventListener("click", function() {
-  toggleClassMenu();
-  animateMenuItems();
-}, false);
+myToggle.addEventListener(
+  "click",
+  function() {
+    toggleClassMenu();
+    animateMenuItems();
+  },
+  false
+);
 
 // Static comments
 (function($) {

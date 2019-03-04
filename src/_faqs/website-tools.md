@@ -30,7 +30,7 @@ If you're really interested in the specifics of how the site is built I've made 
 - [**BigFoot.js**][bigfoot]: jQuery plugin for displaying footnotes inline.
 - [**Lazysizes**][lazysizes]: high performance and SEO friendly lazy loader for images (responsive and normal), iframes and more.
 - [**Lity**][lity]: lightweight, accessible, and responsive lightbox plugin.
-- [**jQuery Smooth Scroll**][smoothscroll]: automatically make same-page links scroll smoothly.
+- [**Smooth Scroll**][smoothscroll]: automatically make same-page links scroll smoothly.
 - [**comment-reply.js**][comment-reply] modified from [**Wordpress.org**][wordpress].
 
 ## Hosting and other stuff
@@ -53,7 +53,7 @@ If you're really interested in the specifics of how the site is built I've made 
 [bigfoot]: http://www.bigfootjs.com/
 [lazysizes]: https://github.com/aFarkas/lazysizes
 [lity]: http://sorgalla.com/lity/
-[smoothscroll]: https://github.com/kswedberg/jquery-smooth-scroll
+[smoothscroll]: https://github.com/cferdinandi/smooth-scroll
 [comment-reply]: https://core.svn.wordpress.org/trunk/wp-includes/js/comment-reply.js
 [jekyll-paginate-v2]: https://github.com/sverrirs/jekyll-paginate-v2
 [jekyll-typogrify]: https://github.com/myles/jekyll-typogrify

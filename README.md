@@ -455,9 +455,9 @@ Made Mistakes incorporates [Lity](http://sorgalla.com/lity/),
 Copyright (c) 2015-2016, Jan Sorgalla.
 Lity is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
 
-Made Mistakes incorporates [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll),
-Copyright (c) 2017, Karl Swedberg.
-jQuery Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Made Mistakes incorporates [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll),
+Copyright (c) 2017, Go Make Things, LLC.
+Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
 Made Mistakes incorporates [Lazysizes](https://github.com/aFarkas/lazysizes),
 Copyright (c) 2015, Alexander Farkas.
