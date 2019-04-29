@@ -9,15 +9,14 @@
         {% assign f = feature_image | split: '.' %}
         <noscript><img src="{{ f[0] | relative_url }}-320.{{ f[1] }}" alt=""></noscript>
         <img data-sizes="auto"
-              src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
-              data-sizes="auto"
-              data-srcset="{{ f[0] | relative_url }}-lq.{{ f[1] }} 20w,
-                          {{ f[0] | relative_url }}-320.{{ f[1] }} 320w,
-                          {{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
-                          {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
-                          {{ f[0] | relative_url }}.{{ f[1] }} 1920w"
-              alt=""
-              class="lazyload fade-in">
+          src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
+          data-srcset="{{ f[0] | relative_url }}-lq.{{ f[1] }} 20w,
+                       {{ f[0] | relative_url }}-320.{{ f[1] }} 320w,
+                       {{ f[0] | relative_url }}-768.{{ f[1] }} 768w,
+                       {{ f[0] | relative_url }}-1024.{{ f[1] }} 1024w,
+                       {{ f[0] | relative_url }}.{{ f[1] }} 1920w"
+          alt=""
+          class="lazyload fade-in">
         {% if page.image.caption %}{% include image__caption.html %}{% endif %}
       </div>
     </div>

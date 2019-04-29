@@ -42,7 +42,7 @@ module Jekyll
 
       image_source = html_attr["data-src"]
 
-      # Create a Low Quality Image Placeholder string
+      # Create a low-quality image placeholder string
       if html_attr["src"] == nil
         lqip = "src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\""
       end
@@ -57,7 +57,7 @@ module Jekyll
       }
 
       # Output image tag with everything together
-      "\n<noscript><img src=\"#{image_source}\" #{html_attr_string}></noscript>\n<img #{lqip} #{html_attr_string} class=\"lazyload fade-in\">"
+      "\n<noscript><img src=\"#{image_source}\" alt=\"\"></noscript>\n<img #{lqip} #{html_attr_string} class=\"lazyload fade-in\">"
     end
   end
 end
