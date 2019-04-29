@@ -77,9 +77,12 @@
   @include breakpoint($md-up) {
     grid-column: 3 / span 2;
     grid-row: 3 / span 1;
-    @include margin-top(1);
-    @include margin-bottom(1);
     align-self: start;
+
+    &:not(:empty) {
+      @include margin-top(1);
+      @include margin-bottom(1);
+    }
 
     span {
       display: block;
@@ -141,7 +144,7 @@
   }
 }
 
-.page__main {
+.page__content {
 
   @include breakpoint($md-up) {
     grid-column: 3 / 7;

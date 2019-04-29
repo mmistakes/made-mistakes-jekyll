@@ -4,7 +4,7 @@ layout: default
 
 {% include page-intro.html %}
 
-<main id="main" class="page__main" aria-label="Main content">
+<article id="content" class="page__content">
   {% if page.introduction %}
     {{ page.introduction | markdownify }}
   {% elsif page.layout == 'autopage_tags' %}
@@ -22,4 +22,4 @@ layout: default
   {% if page.support == true %}
     {% include_cached support.html %}
   {% endif %}
-</main>
+</article>
