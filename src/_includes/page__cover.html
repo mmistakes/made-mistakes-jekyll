@@ -7,7 +7,7 @@
           style="padding-top: calc(({{ page.image.height | default: 3 }} / {{ page.image.width | default: 4 }}) * 100%)">
         </div>
         {% assign f = feature_image | split: '.' %}
-        <noscript><img src="{{ f[0] | relative_url }}-320.{{ f[1] }}"></noscript>
+        <noscript><img src="{{ f[0] | relative_url }}-320.{{ f[1] }}" alt=""></noscript>
         <img data-sizes="auto"
               src="{{ f[0] | relative_url }}-lq.{{ f[1] }}"
               data-sizes="auto"
