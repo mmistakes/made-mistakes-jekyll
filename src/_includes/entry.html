@@ -5,7 +5,7 @@
 {% endif %}
 
 <article class="entry {{ include.class }}">
-  <h3 class="entry__title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ title | widont }}</a></h3>
+  <h2 class="entry__title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ title | widont }}</a></h2>
   {% assign feature_image = post.image.feature %}
   <div class="entry__meta">
     {% if post.date and layout != 'archive_work' %}
