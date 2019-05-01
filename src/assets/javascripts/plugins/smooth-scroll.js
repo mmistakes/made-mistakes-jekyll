@@ -1,5 +1,5 @@
 /*!
- * smooth-scroll v15.2.1
+ * smooth-scroll v16.0.3
  * Animate scrolling to anchor links
  * (c) 2019 Chris Ferdinandi
  * MIT License
@@ -503,8 +503,12 @@
 			// Don't run if the user prefers reduced motion
 			if (reduceMotion(settings)) return;
 
-			// Don't run if right-click or command/control + click
-			if (event.button !== 0 || event.metaKey || event.ctrlKey) return;
+			// Don't run if event was canceled but still bubbled up
+			// By @mgreter - https://github.com/cferdinandi/smooth-scroll/pull/462/
+			if (event.defaultPrevented) return;
+
+			// Don't run if right-click or command/control + click or shift + click
+			if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey) return;
 
 			// Check if event.target has closest() method
 			// By @totegi - https://github.com/cferdinandi/smooth-scroll/pull/401/
@@ -521,7 +525,13 @@
 			var hash = escapeCharacters(toggle.hash);
 
 			// Get the anchored element
-			var anchor = settings.topOnEmptyHash && hash === '#' ? document.documentElement : document.querySelector(hash);
+			var anchor;
+			if (hash === '#') {
+				if (!settings.topOnEmptyHash) return;
+				anchor = document.documentElement;
+			} else {
+				anchor = document.querySelector(hash);
+			}
 			anchor = !anchor && hash === '#top' ? document.documentElement : anchor;
 
 			// If anchored element exists, scroll to it
@@ -589,7 +599,7 @@
 		 * Initialize Smooth Scroll
 		 * @param {Object} options User settings
 		 */
-		smoothScroll.init = function (options) {
+		var init = function () {
 
 			// feature test
 			if (!supports()) throw 'Smooth Scroll: This browser does not support the required JavaScript methods and browser APIs.';
@@ -616,7 +626,7 @@
 		// Initialize plugin
 		//
 
-		smoothScroll.init(options);
+		init();
 
 
 		//
