@@ -6,7 +6,7 @@ layout: default
 {% assign sorted_entries = site.work | sort: 'order' %}
 {% include page-intro.html %}
 
-<main id="main" class="page__main" aria-label="Main content">
+<article id="content" class="page__content">
   {% if page.introduction %}
     {{ page.introduction | markdownify }}
   {% elsif page.layout == 'autopage_tags' %}
@@ -24,4 +24,4 @@ layout: default
       {% include entry.html class="gallery-item" %}
     {% endfor %}
   </div>
-</main>
+</article>

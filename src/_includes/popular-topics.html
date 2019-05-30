@@ -3,25 +3,27 @@
 {% assign sortedTags = site.tags | sort_natural %}
 
 <div class="popular entries__columns">
-  <h2 class="title">Browse by topic</h2>
-  <ul>
-    {% assign tagLimiter = 0 %}
-    {% for tag in sortedTags %}
-      {% comment %}create an empty array{% endcomment %}
-      {% assign postsInCategory = "" | split: "/" %}
-      {% comment %}loop over site.tags{% endcomment %}
-      {% for post in tag[1] %}
-        {% if post.categories contains filterCategory %}
-          {% comment %}if a post is in the filter category add it to postsInCategory array{% endcomment %}
-          {% assign postsInCategory = postsInCategory | push: post %}
+  <h4 class="title">Browse by topic</h4>
+  <nav>
+    <ul>
+      {% assign tagLimiter = 0 %}
+      {% for tag in sortedTags %}
+        {% comment %}create an empty array{% endcomment %}
+        {% assign postsInCategory = "" | split: "/" %}
+        {% comment %}loop over site.tags{% endcomment %}
+        {% for post in tag[1] %}
+          {% if post.categories contains filterCategory %}
+            {% comment %}if a post is in the filter category add it to postsInCategory array{% endcomment %}
+            {% assign postsInCategory = postsInCategory | push: post %}
+          {% endif %}
+        {% endfor %}
+
+        {% comment %}poor man's tag limit on those that are frequently used{% endcomment %}
+        {% if postsInCategory.size >= 5 and tagLimiter < 9 %}
+          {% assign tagLimiter = tagLimiter | plus: 1 %}
+          <li><a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/"><strong>{{ tag[0] | replace:' ','&nbsp;' }}</strong> <span class="count">{{ tag[1] | size }}</span></a></li>
         {% endif %}
       {% endfor %}
-
-      {% comment %}poor man's tag limit on those that are frequently used{% endcomment %}
-      {% if postsInCategory.size >= 5 and tagLimiter < 9 %}
-        {% assign tagLimiter = tagLimiter | plus: 1 %}
-        <li><a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/"><strong>{{ tag[0] | replace:' ','&nbsp;' }}</strong> <span class="count">{{ tag[1] | size }}</span></a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+    </ul>
+  </nav>
 </div>

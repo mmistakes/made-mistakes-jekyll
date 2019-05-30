@@ -1,4 +1,4 @@
-<article id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% unless include.replying_to == 0 %}child{% endunless %}">
+<div id="comment{% unless include.r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endunless %}" class="js-comment comment {% unless include.replying_to == 0 %}child{% endunless %}">
   <div class="comment__avatar">
     {% if include.avatar %}
       <noscript><img src="{{ include.avatar }}" alt=""></noscript>
@@ -12,7 +12,7 @@
     {% endif %}
   </div>
   <div class="comment__main">
-    <header class="comment__meta">
+    <div class="comment__meta">
       {% unless include.url == blank %}
         <a rel="external nofollow" href="{{ include.url }}"><strong class="h-card">{{ include.name | strip_html }}</strong></a>
       {% else %}
@@ -24,7 +24,7 @@
           <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date_to_long_string: 'ordinal', 'US' }}</time>
         {% if include.index %}</a>{% endif %}
       {% endif %}
-    </header>
+    </div>
     <div class="comment__message">
       {{ include.message | markdownify }}
     </div>
@@ -34,7 +34,7 @@
       </div>
     {% endunless %}
   </div>
-</article>
+</div>
 
 {% capture i %}{{ include.index }}{% endcapture %}
 {% assign replies = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == i' %}

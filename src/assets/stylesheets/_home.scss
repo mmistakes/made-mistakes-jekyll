@@ -2,6 +2,12 @@
    Home
    ========================================================================== */
 
+.layout__home {
+  .site__header {
+    position: relative;
+  }
+}
+
 .home {
   @include breakpoint($md-down) {
     .site__header,
@@ -11,17 +17,17 @@
     }
   }
 
-  @include breakpoint($md-up) {
-    display: grid;
-    grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
-    align-items: end;
-  }
+  // @include breakpoint($md-up) {
+  //   display: grid;
+  //   grid-template-columns: 2% 3% 25% 10% 10% 10% 10% 25% 3% 2%;
+  //   align-items: end;
+  // }
 
-  @include breakpoint($lg-up) {
-    grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
-  }
+  // @include breakpoint($lg-up) {
+  //   grid-template-columns: 5% 5% 20% 10% 10% 10% 10% 20% 5% 5%;
+  // }
 
-  .page__main {
+  .page__content {
     margin-top: 0;
 
     @include breakpoint($md-up) {

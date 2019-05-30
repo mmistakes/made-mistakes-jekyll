@@ -3,9 +3,9 @@
    ========================================================================== */
 
 /* Text meant only for screen readers */
-.screen-reader-text,
-.screen-reader-text span,
-.screen-reader-shortcut {
+.sr-text,
+.sr-text span,
+.sr-shortcut {
   position: absolute !important;
   width: 1px;
   height: 1px;
@@ -32,8 +32,8 @@
   }
 }
 
-.screen-reader-text:focus,
-.screen-reader-shortcut:focus {
+.sr-text:focus,
+.sr-shortcut:focus {
   width: auto;
   height: auto;
   clip: auto !important;

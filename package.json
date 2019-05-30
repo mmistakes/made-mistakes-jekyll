@@ -19,7 +19,7 @@
   "dependencies": {
     "autoprefixer": "^9.4.7",
     "breakpoint-sass": "^2.7.1",
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.26.4",
     "concurrent-transform": "^1.0.0",
     "critical": "0.7.3",
     "cssnano": "^4.1.8",

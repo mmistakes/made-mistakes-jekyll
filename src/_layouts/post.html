@@ -4,7 +4,7 @@ layout: default
 
 {% include page-intro.html %}
 
-<main id="main" class="page__main" aria-label="Main content">
+<article id="content" class="page__content">
   {% include gallery.html %}
 
   {{ content }}
@@ -16,23 +16,23 @@ layout: default
   {% if page.comments == true %}
     {% include comments.html %}
   {% endif %}
-</main>
+</article>
 
-<div class="page__aside">
+<aside class="page__aside">
   {% if page.toc %}
-    <div class="page__toc">
+    <nav class="page__toc">
       <h3 class="title">On this page:</h3>
       {{ content | toc_only }}
-    </div>
+    </nav>
   {% endif %}
   {% if page.tags %}
-    <div class="page__taxonomy">
+    <nav class="page__taxonomy">
       <h3 class="title">Explore more:</h3>
       {% for tag in page.tags %}<span><a href="{{ tag | replace:' ','-' | downcase | prepend: '/tag/' | append: '/' | relative_url }}">{{ tag }}</a></span>{% endfor %}
-    </div>
+    </nav>
   {% endif %}
   {% if site.related_posts.size >= 1 %}
     {% include page__related.html %}
   {% endif %}
   <p><a class="back-to-top" href="#nav-primary">↑ back to top</a></p>
-</div>
+</aside>

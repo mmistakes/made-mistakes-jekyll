@@ -1,12 +1,26 @@
 {% if page.breadcrumbs %}
-  <div class="breadcrumbs" itemtype="https://schema.org/BreadcrumbList">
+  <nav class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList" aria-label="Breadcrumbs">
+    <span class="breadcrumb sr-only" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a href="{{ '/' | relative_url }}" itemprop="item">
+        <span itemprop="name">Home</span>
+        <meta itemprop="position" content="1" />
+      </a>
+    </span>
     {% for crumb in page.breadcrumbs %}
-      <span class="breadcrumb" itemprop="itemListElement" itemtype="https://schema.org/ListItem">
-        <a href="{{ crumb.url | relative_url }}" itemscope itemtype="https://schema.org/Thing" itemprop="item">
+      <span class="breadcrumb" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="{{ crumb.url | relative_url }}" itemprop="item">
           <span itemprop="name">{{ crumb.label }}</span>
           <meta itemprop="position" content="{{ forloop.index | plus: 1 }}" />
         </a>
       </span>
+      {% if forloop.last == true %}
+        <span class="breadcrumb sr-only" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="{{ page.url | relative_url }}" itemprop="item" aria-current="page">
+            <span itemprop="name">{{ page.title | strip_html }}</span>
+            <meta itemprop="position" content="{{ forloop.length | plus: 2 }}" />
+          </a>
+        </span>
+      {% endif %}
     {% endfor %}
-  </div>
+  </nav>
 {% endif %}

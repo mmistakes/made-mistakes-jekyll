@@ -8,7 +8,7 @@ image:
   feature: *image
 twitter:
   card: summary_large_image
-categories: [articles]
+categories: [notes]
 tags: [design]
 support: false
 last_modified_at: 2019-02-16T10:45:17-05:00

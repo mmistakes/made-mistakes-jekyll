@@ -8,17 +8,20 @@
   align-items: center;
   @include margin-top(1);
   @include margin-bottom(1);
+  margin-left: 5%;
   font-family: $monospace-font;
   z-index: 150;
 
   @include breakpoint($md-up) {
-    grid-column: 3 / 5;
-    grid-row: 1;
-    align-self: start;
+    // grid-column: 3 / 5;
+    // grid-row: 1;
+    // align-self: start;
+    position: absolute;
   }
 
   @include breakpoint($lg-up) {
-    grid-column: 3;
+    // grid-column: 3;
+    margin-left: 10%;
   }
 }
 
@@ -44,19 +47,26 @@
 }
 
 .site__footer {
-  @include margin-top(4);
+  @include margin-top(2);
   @include margin-bottom(1);
+  margin-left: 5%;
+  margin-right: 5%;
   color: mix(#fff, $text-color, 40%);
   font-size: ms(-1);
 
   @include breakpoint($md-up) {
-    grid-column: 3 / 8;
-    grid-row: 7 / span 1;
-    align-self: center;
+    // grid-column: 3 / 8;
+    // grid-row: 7 / span 1;
+    // align-self: center;
 
     .icon__label {
       display: none;
     }
+  }
+
+  @include breakpoint($lg-up) {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   a {

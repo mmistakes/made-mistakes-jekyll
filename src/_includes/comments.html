@@ -1,6 +1,6 @@
 {% if site.repository and site.staticman.branch %}
   {% if site.data.comments[page.slug] %}
-    <div id="comments" class="page__comments js-comments">
+    <section id="comments" class="page__comments js-comments">
       <h2 class="title">
         {% if site.data.comments[page.slug].size <= 1 %}
           {{ site.data.comments[page.slug] | size | append: ' comment' }}
@@ -20,7 +20,7 @@
         {% assign message     = comment[1].message %}
         {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
       {% endfor %}
-    </div>
+    </section>
   {% endif %}
 
   {% include comment-form.html %}

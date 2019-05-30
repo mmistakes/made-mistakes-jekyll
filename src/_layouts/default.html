@@ -17,11 +17,11 @@
       </div>
     </div>
 
-    <div class="{{ page.layout | default: layout.layout }}">
-      {% include masthead.html %}
+    {% include masthead.html %}
+    <main class="{{ page.layout | default: layout.layout }}">
       {{ content }}
-      {% include_cached footer.html %}
-      {% include scripts.html %}
-    </div>
+    </main>
+    {% include_cached footer.html %}
+    {% include scripts.html %}
   </body>
 </html>

@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<main id="main" class="page__main" aria-label="Main content">
+<article id="content" class="page__content">
   {% if page.section %}
-    <div class="sections">
+    <section class="sections">
       {% include section.html %}
-    </div>
+    </section>
   {% endif %}
 
   {{ content }}
-</main>
+</article>
