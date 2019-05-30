@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - critical > oust > cheerio > lodash:
+        patched: '2019-05-30T13:55:08.623Z'
+    - critical > penthouse > apartment > lodash:
+        patched: '2019-05-30T13:55:08.623Z'
+  'npm:mime:20170907':
+    - critical > imageinliner > mime:
+        patched: '2019-05-30T13:55:08.623Z'
