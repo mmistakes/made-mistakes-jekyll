@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', '~> 2.0.0'
   gem 'jekyll-typogrify'
   gem 'jekyll-figure'
-  gem 'jekyll-algolia', '>= 1.4.7'
+  gem 'jekyll-algolia', '>= 1.4.11'
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-include-cache'
   gem 'jekyll-toc', '>= 0.9.0'

@@ -127,7 +127,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rouge (3.8.0)
+    rouge (3.9.0)
     ruby_dep (1.5.0)
     rubypants (0.7.0)
     safe_yaml (1.0.5)
@@ -161,7 +161,7 @@ DEPENDENCIES
   breakpoint
   html-proofer
   jekyll
-  jekyll-algolia (>= 1.4.7)
+  jekyll-algolia (>= 1.4.11)
   jekyll-figure
   jekyll-include-cache
   jekyll-paginate-v2 (~> 2.0.0)
