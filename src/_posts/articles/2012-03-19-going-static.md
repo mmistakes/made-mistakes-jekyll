@@ -115,11 +115,6 @@ I've added the [sourcecode for mademistakes.com](https://github.com/mmistakes/ma
 
 Getting more comfortable using Jekyll I wanted to give back to the community, so I've released a few [Jekyll themes](/work/jekyll-themes/) on GitHub. I've taken the numerous redesigns this site has gone through and packaged them up into something I hope is a good starting point for launching a Jekyll powered blog. And they're all 100% compatible with [GitHub Pages](http://pages.github.com/) if you're looking for somewhere free to host your site or blog.
 
-- Skinny Bones: [Theme demo](https://mmistakes.github.io/skinny-bones-jekyll), [source](https://github.com/mmistakes/skinny-bones-jekyll)
-- Minimal Mistakes: [Theme demo](https://mmistakes.github.io/minimal-mistakes), [source](https://github.com/mmistakes/minimal-mistakes)
-- So Simple: [Theme demo](https://mmistakes.github.io/so-simple-theme), [source](https://github.com/mmistakes/so-simple-theme)
-- HPSTR: [Theme demo](https://mmistakes.github.io/hpstr-jekyll-theme), [source](https://github.com/mmistakes/hpstr-jekyll-theme)
-
 *[CMS]: Content Management System
 *[YAML]: YAML Ain't Markup Language
 *[CLI]: Command Line Interface

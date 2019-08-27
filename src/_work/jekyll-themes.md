@@ -122,8 +122,8 @@ A Jekyll starter based off of an older incarnation of Made Mistakes.
   - Optional table of contents, share links, Disqus comments modules, and more.
 
 <p markdown="0">
-	<a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup guide</a>
-  <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Live preview</a>
+	<a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/getting-started/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/" class="btn">Live preview</a>
 </p>
 
 ---

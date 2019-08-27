@@ -29,8 +29,8 @@ This was a good excuse to learn Sass and figured starting a new repository to ex
 I like to think of Skinny Bones as a starter for building your own Jekyll powered site --- versus a theme you use as is. I've purposely kept the styling minimal and light to make adding your own flare and markup easier. If that's not your thing you can still use it without modification, but where is the fun in that?
 
 <p markdown="0">
-  <a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn">Setup guide</a>
-  <a href="https://mmistakes.github.io/skinny-bones-jekyll/" class="btn">Live preview</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/getting-started/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/" class="btn">Live preview</a>
 </p>
 
 ## Notable features
@@ -43,7 +43,7 @@ I like to think of Skinny Bones as a starter for building your own Jekyll powere
 
 ## Contributing
 
-Found a bug or aren't quite sure how something works? By all means [submit an issue](https://github.com/mmistakes/skinny-bones-jekyll/issues) on GitHub. For straight forward bug fixes (spelling mistakes, typos, broken links, etc.) feel free to submit pull requests. 
+Found a bug or aren't quite sure how something works? By all means [submit an issue](https://github.com/mmistakes/jekyll-theme-skinny-bones/issues) on GitHub. For straight forward bug fixes (spelling mistakes, typos, broken links, etc.) feel free to submit pull requests. 
 
 **Skinny Bones** was built predominately as a framework for myself. My intention was never to make it all things for all people. So please keep that in mind before submitting new features or enhancements. If you've used any of my [Jekyll themes](https://mademistakes.com/work/jekyll-themes/) I think it's pretty clear what I like and what I try to avoid. When in doubt ask before wasting your time on a feature that won't get merged in.
 
