@@ -103,8 +103,8 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
   - Built-in support for Sass and data files (requires Jekyll 2.x).
 
 <p markdown="0">
-  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup guide</a>
-  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Live preview</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-hpstr/theme-setup/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-hpstr/" class="btn">Live preview</a>
 </p>
 
 ## [Skinny Bones theme]({% post_url /work/2014-09-02-skinny-bones-jekyll %})

@@ -36,12 +36,12 @@ They say three times the charm, so here is another free Jekyll blog theme for yo
 * Support for Pygments and Coderay syntax highlighting to make your code examples look snazzy.
 * Grunt and Rake tasks for easier site development.
 
-[![Screenshot of HPSTR Theme](/assets/images/hpstr-jekyll-theme-preview.jpg)](https://mmistakes.github.io/hpstr-jekyll-theme/ "Preview HPSTR")
+[![Screenshot of HPSTR Theme](/assets/images/jekyll-theme-hpstr-preview.jpg)](https://mmistakes.github.io/jekyll-theme-hpstr/ "Preview HPSTR")
 {: .browser-frame}
 
 <p markdown="0">
-  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/" class="btn">Setup guide</a>
-  <a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Live preview</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-hpstr/theme-setup/" class="btn">Setup guide</a>
+  <a href="https://mmistakes.github.io/jekyll-theme-hpstr/" class="btn">Live preview</a>
 </p>
 
 ## What's different with this Jekyll theme?
@@ -56,7 +56,7 @@ Everything that isn't `#main` I view as support content--- living one step down 
 
 Up until this point I've mostly used tools like [CodeKit](http://incident57.com/codekit/) and [Prepros](https://prepros.io/) to compile my LESS stylesheets and concatenate scripts. Flirting with Grunt on a few personal projects, I wanted to integrate it into this theme as a build tool for messing with the theme's stylesheets.
 
-For those who are unfamiliar with Grunt I encourage you to check out the [getting started guide](http://gruntjs.com/getting-started). Basically how this works is, you [install Node.js](http://nodejs.org/), [install Grunt](http://gruntjs.com/getting-started) and dependencies by running `npm install`, and then run various Grunt tasks defined in the project's [`Gruntfile.js`](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/Gruntfile.js) file.
+For those who are unfamiliar with Grunt I encourage you to check out the [getting started guide](http://gruntjs.com/getting-started). Basically how this works is, you [install Node.js](http://nodejs.org/), [install Grunt](http://gruntjs.com/getting-started) and dependencies by running `npm install`, and then run various Grunt tasks defined in the project's [`Gruntfile.js`](https://github.com/mmistakes/jekyll-theme-hpstr/blob/master/Gruntfile.js) file.
 
 Currently there are two Grunt tasks: one to build and optimize and the other to watch for changes to any LESS and JavaScript files. For now you need to run `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the `images/` folder. And then run `jekyll build` to pull these changes in when developing locally. 
 
@@ -81,8 +81,8 @@ Instead of using bulky JavaScript widgets provided by Facebook, Twitter, and Goo
 
 ## Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new).
+Having a problem getting something to work or want to know why I setup something in a certain way? [File a GitHub issue](https://github.com/mmistakes/jekyll-theme-hpstr/issues/new).
 
 ## License
 
-This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
+This theme is free and open source software, distributed under the [MIT License](https://github.com/mmistakes/jekyll-theme-hpstr/blob/master/LICENSE). So feel free to modify it however you'd like without linking back to me or including a disclaimer.
