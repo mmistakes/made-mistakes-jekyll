@@ -14,11 +14,12 @@ GIT
       verbal_expressions (~> 0.1.5)
 
 GIT
-  remote: git://github.com/sverrirs/jekyll-paginate-v2.git
-  revision: f8664cf68b59de823b88d4e6b1b985457f2c13af
+  remote: git://github.com/mmistakes/jekyll-paginate-v2.git
+  revision: e21950d111965fa375c0c55382e78c1f9e2a9460
+  branch: jekyll-v4
   specs:
-    jekyll-paginate-v2 (2.1.0)
-      jekyll (>= 3.0, < 5.0)
+    jekyll-paginate-v2 (2.0.0)
+      jekyll (>= 3.6, < 5.0)
 
 GEM
   remote: https://rubygems.org/

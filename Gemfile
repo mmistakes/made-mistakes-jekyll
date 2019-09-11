@@ -16,7 +16,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jemoji', '>= 0.10.2'
   gem 'jekyll-seo-tag'
-  gem 'jekyll-paginate-v2', github: 'sverrirs/jekyll-paginate-v2'
+  gem 'jekyll-paginate-v2', github: 'mmistakes/jekyll-paginate-v2', :branch => 'jekyll-v4'
   gem 'jekyll-typogrify'
   gem 'jekyll-figure'
   gem 'jekyll-algolia', github: 'mmistakes/jekyll-algolia', :tag => 'patch-1'
