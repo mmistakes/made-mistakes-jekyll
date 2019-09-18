@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', github: 'mmistakes/jekyll-paginate-v2', :branch => 'jekyll-v4'
   gem 'jekyll-typogrify'
   gem 'jekyll-figure'
-  gem 'jekyll-algolia', github: 'mmistakes/jekyll-algolia', :tag => 'patch-1'
+  gem 'jekyll-algolia'
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-include-cache'
   gem 'jekyll-toc', '>= 0.9.0'

@@ -1,19 +1,4 @@
 GIT
-  remote: git://github.com/mmistakes/jekyll-algolia.git
-  revision: 59842705622d51bbb4e27baa1ddcfd6f29337329
-  tag: patch-1
-  specs:
-    jekyll-algolia (1.4.9)
-      algolia_html_extractor (~> 2.6)
-      algoliasearch (= 1.24)
-      filesize (~> 0.1)
-      jekyll (>= 3.6, < 5.0)
-      json (~> 2.0)
-      nokogiri (~> 1.6)
-      progressbar (~> 1.9)
-      verbal_expressions (~> 0.1.5)
-
-GIT
   remote: git://github.com/mmistakes/jekyll-paginate-v2.git
   revision: e21950d111965fa375c0c55382e78c1f9e2a9460
   branch: jekyll-v4
@@ -31,7 +16,7 @@ GEM
     algolia_html_extractor (2.6.2)
       json (~> 2.0)
       nokogiri (~> 1.10.4)
-    algoliasearch (1.24.0)
+    algoliasearch (1.27.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     breakpoint (2.7.1)
@@ -83,6 +68,15 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-algolia (1.5.0)
+      algolia_html_extractor (~> 2.6)
+      algoliasearch (~> 1.26)
+      filesize (~> 0.1)
+      jekyll (>= 3.6, < 5.0)
+      json (~> 2.0)
+      nokogiri (~> 1.6)
+      progressbar (~> 1.9)
+      verbal_expressions (~> 0.1.5)
     jekyll-figure (0.1.0)
     jekyll-include-cache (0.2.0)
       jekyll (>= 3.7, < 5.0)
@@ -139,7 +133,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rouge (3.10.0)
+    rouge (3.11.0)
     ruby_dep (1.5.0)
     rubypants (0.7.0)
     safe_yaml (1.0.5)
@@ -165,7 +159,7 @@ GEM
       rubypants
     tzinfo (2.0.0)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2019.2)
+    tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.6.0)
     verbal_expressions (0.1.5)
@@ -181,7 +175,7 @@ DEPENDENCIES
   breakpoint
   html-proofer
   jekyll
-  jekyll-algolia!
+  jekyll-algolia
   jekyll-figure
   jekyll-include-cache
   jekyll-paginate-v2!
